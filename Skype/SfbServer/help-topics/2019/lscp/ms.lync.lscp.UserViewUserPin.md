@@ -1,0 +1,30 @@
+---
+title: 使用者查看或設定 PIN 原則
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+manager: serdars
+audience: ITPro
+ms.topic: article
+f1_keywords:
+- ms.lync.lscp.UserViewUserPin
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.assetid: 4a68227c-f559-442f-955b-5c4ccc06b7f4
+ROBOTS: NOINDEX, NOFOLLOW
+description: 您想要做什麼？ 按一下您要執行之任務的連結。
+ms.openlocfilehash: f903659610e5102390189e6887f3905bb6197097
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "36192516"
+---
+# <a name="users-view-or-configure-pin-policy"></a><span data-ttu-id="443bd-104">使用者: 查看或設定 PIN 原則</span><span class="sxs-lookup"><span data-stu-id="443bd-104">Users: View or Configure PIN Policy</span></span>
+ 
+<span data-ttu-id="443bd-105">您想要做什麼？</span><span class="sxs-lookup"><span data-stu-id="443bd-105">What do you want to do?</span></span> <span data-ttu-id="443bd-106">按一下您要執行之任務的連結。</span><span class="sxs-lookup"><span data-stu-id="443bd-106">Click the link to the task that you want to perform.</span></span>
+  
+- [<span data-ttu-id="443bd-107">在商務用 Skype Server 中設定使用者的電話撥入式會議 PIN</span><span class="sxs-lookup"><span data-stu-id="443bd-107">Set a user's dial-in conferencing PIN in Skype for Business Server</span></span>](../../../manage/authentication/set-a-user-s-dial-in-conferencing-pin.md)
+    
+ 
+

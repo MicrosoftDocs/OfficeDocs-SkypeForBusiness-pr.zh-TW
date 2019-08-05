@@ -1,0 +1,73 @@
+---
+title: 在商務用 Skype Server 中建立檔案共用
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+manager: serdars
+ms.date: 12/20/2018
+audience: ITPro
+ms.topic: get-started-article
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
+ms.assetid: 053076b0-441c-44d9-8dbc-7a36d8ecafe4
+description: '摘要: 瞭解如何在安裝商務用 Skype Server 的過程中建立 Windows Server 檔案共用。 從 Microsoft 評估中心下載免費試用版商務用 Skype Server, 網址為: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。'
+ms.openlocfilehash: d6a34ad4807948a5580fc572628a4fd6333dd9f8
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "36192340"
+---
+# <a name="create-a-file-share-in-skype-for-business-server"></a><span data-ttu-id="76629-104">在商務用 Skype Server 中建立檔案共用</span><span class="sxs-lookup"><span data-stu-id="76629-104">Create a file share in Skype for Business Server</span></span>
+ 
+<span data-ttu-id="76629-105">**摘要:** 瞭解如何在安裝商務用 Skype Server 的過程中建立 Windows Server 檔案共用。</span><span class="sxs-lookup"><span data-stu-id="76629-105">**Summary:** Learn how to create a Windows Server file share as part of the installation of Skype for Business Server.</span></span> <span data-ttu-id="76629-106">從 Microsoft 評估中心下載免費試用版商務用 Skype Server, 網址為:[https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)。</span><span class="sxs-lookup"><span data-stu-id="76629-106">Download a free trial of Skype for Business Server from the Microsoft Evaluation center at:[https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).</span></span>
+  
+<span data-ttu-id="76629-107">商務用 Skype Server 需要檔案共用, 才能讓整個拓撲中的電腦都可以交換檔案。</span><span class="sxs-lookup"><span data-stu-id="76629-107">Skype for Business Server requires a file share so that computers throughout the topology can exchange files.</span></span> <span data-ttu-id="76629-108">建立檔案共用是商務用 Skype Server 安裝程式中的步驟 2 (共8個)。</span><span class="sxs-lookup"><span data-stu-id="76629-108">Creating a file share is step 2 of 8 in the installation process for Skype for Business Server.</span></span> <span data-ttu-id="76629-109">您可以依照任何循序執行步驟1到5。</span><span class="sxs-lookup"><span data-stu-id="76629-109">You can do steps 1 through 5 in any order.</span></span> <span data-ttu-id="76629-110">不過, 您必須在順序中執行步驟6、7和 8, 並在圖表中所述的步驟1到5之後進行。</span><span class="sxs-lookup"><span data-stu-id="76629-110">However, you must do steps 6, 7, and 8 in order, and after steps 1 through 5 as outlined in the diagram.</span></span> <span data-ttu-id="76629-111">如需檔案共用的規劃詳細資料, 請參閱商務用 skype Server 2019 的[商務用 Skype server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)或[伺服器需求](../../../SfBServer2019/plan/system-requirements.md)的環境需求。</span><span class="sxs-lookup"><span data-stu-id="76629-111">For planning details about file share, see [Environmental requirements for Skype for Business Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) or [Server requirements for Skype for Business Server 2019](../../../SfBServer2019/plan/system-requirements.md).</span></span>
+  
+![概覽圖表](../../media/e69de059-3040-45ab-9379-1932f9fbb37f.png)
+  
+## <a name="create-a-basic-file-share"></a><span data-ttu-id="76629-113">建立基本檔案共用</span><span class="sxs-lookup"><span data-stu-id="76629-113">Create a basic file share</span></span>
+
+<span data-ttu-id="76629-114">本節將引導您逐步完成建立基本的 Windows Server 檔案共用。</span><span class="sxs-lookup"><span data-stu-id="76629-114">This section walks you through creating a basic Windows Server file share.</span></span> <span data-ttu-id="76629-115">商務用 Skype 伺服器支援基本的 Windows Server 檔案共用。</span><span class="sxs-lookup"><span data-stu-id="76629-115">A basic Windows Server file share is supported with Skype for Business Server.</span></span> <span data-ttu-id="76629-116">不過, 它不會明確提供高可用性。</span><span class="sxs-lookup"><span data-stu-id="76629-116">However, it does not explicitly provide high availability.</span></span> <span data-ttu-id="76629-117">針對高可用性環境, 建議使用分散式檔案系統 (DFS) 檔案共用。</span><span class="sxs-lookup"><span data-stu-id="76629-117">For a high availability environment, a Distributed File System (DFS) file share is recommended.</span></span> <span data-ttu-id="76629-118">如需高可用性檔案共用和 DFS 的詳細資訊, 請參閱[在商務用 Skype Server 中規劃高可用性和災害復原](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)。</span><span class="sxs-lookup"><span data-stu-id="76629-118">For more information about a high availability file share and DFS, see [Plan for high availability and disaster recovery in Skype for Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).</span></span>
+  
+> [!NOTE]
+> <span data-ttu-id="76629-119">Windows Server 2012 R2 在提供儲存區域網路 (SAN) 等方面的巨大突破, 就像是使用 Windows Server 平臺的檔案共用解決方案一樣。</span><span class="sxs-lookup"><span data-stu-id="76629-119">Windows Server 2012 R2 has made major leaps in providing Storage Area Network (SAN)-like file share solutions using the Windows Server platform.</span></span> <span data-ttu-id="76629-120">與傳統的基於 SAN 的裝置相比, Windows Server 2012 R2 儲存方案會以極小的效能影響, 降低成本的一半。</span><span class="sxs-lookup"><span data-stu-id="76629-120">When compared to a traditional SAN-based appliance, a Windows Server 2012 R2 storage solution can cut costs in half with very minimal impact to performance.</span></span> <span data-ttu-id="76629-121">如需有關 Windows Server 2012 R2 中檔案共用選項的詳細資訊, 請參閱可下載的白皮書[Windows Server 2012 R2 儲存空間](https://download.microsoft.com/download/9/4/A/94A15682-02D6-47AD-B209-79D6E2758A24/Windows_Server_2012_R2_Storage_White_Paper.pdf)。</span><span class="sxs-lookup"><span data-stu-id="76629-121">For more information about file share options in Windows Server 2012 R2, see the downloadable white paper [Windows Server 2012 R2 Storage](https://download.microsoft.com/download/9/4/A/94A15682-02D6-47AD-B209-79D6E2758A24/Windows_Server_2012_R2_Storage_White_Paper.pdf).</span></span> 
+  
+<span data-ttu-id="76629-122">觀看**建立檔案共用**的影片步驟:</span><span class="sxs-lookup"><span data-stu-id="76629-122">Watch the video steps for **create a file share**:</span></span>
+  
+> [!video https://www.microsoft.com/en-us/videoplayer/embed/dbef31be-e899-4a32-a1ca-370053284f56?autoplay=false]
+  
+### <a name="create-a-basic-file-share"></a><span data-ttu-id="76629-123">建立基本檔案共用</span><span class="sxs-lookup"><span data-stu-id="76629-123">Create a basic file share</span></span>
+
+1. <span data-ttu-id="76629-124">登入將主持檔案共用的電腦。</span><span class="sxs-lookup"><span data-stu-id="76629-124">Log on to the computer that will host the file share.</span></span>
+    
+2. <span data-ttu-id="76629-125">以滑鼠右鍵按一下您要共用的資料夾, 然後選取 [**屬性**]。</span><span class="sxs-lookup"><span data-stu-id="76629-125">Right-click the folder you plan to share, and select **Properties**.</span></span>
+    
+3. <span data-ttu-id="76629-126">選取 [**共用**] 索引標籤, 然後按一下 [**高級共用**]。</span><span class="sxs-lookup"><span data-stu-id="76629-126">Select the **Sharing** tab, and click **Advanced Sharing**.</span></span>
+    
+4. <span data-ttu-id="76629-127">按一下 [**共用此資料夾**]。</span><span class="sxs-lookup"><span data-stu-id="76629-127">Click **Share this folder**.</span></span>
+    
+5. <span data-ttu-id="76629-128">按一下 [**許可權**]。</span><span class="sxs-lookup"><span data-stu-id="76629-128">Click **Permissions**.</span></span>
+    
+6. <span data-ttu-id="76629-129">新增主持檔案共用的伺服器 [本機**管理員**] 群組、[准許**允許]: [完全控制**]、[變更] 和 [讀取] 許可權, 然後按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="76629-129">Add the local **Administrators** group of the server hosting the file share, grant **Allow: Full Control, Change, and Read** rights, and then click **OK**.</span></span>
+    
+7. <span data-ttu-id="76629-130">再次按一下 **[確定]** , 記下網路路徑。</span><span class="sxs-lookup"><span data-stu-id="76629-130">Click **OK** again and take note of the network path.</span></span>
+    
+8. <span data-ttu-id="76629-131">按一下 [**完成**] 以關閉嚮導。</span><span class="sxs-lookup"><span data-stu-id="76629-131">Click **Done** to close the wizard.</span></span>
+    
+     ![共用資料夾的 [共用] 索引標籤。](../../media/78fe8441-dead-43ed-9a04-3c7c8c657c15.png)
+  
+> [!NOTE]
+><span data-ttu-id="76629-133">如果檔案存放區託管在 DFS 共用上, 則會收到下列警告:</span><span class="sxs-lookup"><span data-stu-id="76629-133">If the file store is hosted on a DFS share, the following warning will be received:</span></span>
+
+<span data-ttu-id="76629-134">警告: 無法存取 [\\<domain>\<共用>] 的共用許可權。</span><span class="sxs-lookup"><span data-stu-id="76629-134">Warning: Unable to access share permissions for "\\<domain>\<share>".</span></span>
+
+><span data-ttu-id="76629-135">如果您不是檔案伺服器的系統管理員, 或者這是分散式檔案系統 (DFS) 共用, 則預期是這種情況。</span><span class="sxs-lookup"><span data-stu-id="76629-135">This is expected if you are not an administrator on the file server, or if this is a Distributed File System (DFS) share.</span></span> <span data-ttu-id="76629-136">如果已設定共用許可權, 就可以忽略此警告。</span><span class="sxs-lookup"><span data-stu-id="76629-136">If the share permissions have already been configured, this warning can be ignored.</span></span> <span data-ttu-id="76629-137">如果是新的共用, 請參閱相關檔, 以取得手動設定共用許可權的詳細資料。</span><span class="sxs-lookup"><span data-stu-id="76629-137">If it is a new share, refer to the documentation for details on manually configuring share permissions.</span></span>
+
+><span data-ttu-id="76629-138">由於無法存取 DFS 共用的共用許可權, 商務用 Skype 伺服器將無法明確設定檔案共用上的群組。</span><span class="sxs-lookup"><span data-stu-id="76629-138">Due to the inability to access the share permissions on a DFS share, Skype for Business Server will not be able to explicitly set groups on the file share.</span></span> <span data-ttu-id="76629-139">若要確保商務用 Skype 伺服器元件可以使用適當的許可權來存取檔案共用, 請確定下列 RTC 群組除了具有 [完全控制共用] 許可權的本機管理員之外, 還會新增 [變更層級共用] 許可權。</span><span class="sxs-lookup"><span data-stu-id="76629-139">To ensure Skype for Business Server components can access the file share with the appropriate permissions, ensure the following RTC groups are added with Change level share permissions in addition to the local Administrators with Full Control share permissions.</span></span>
+
+<span data-ttu-id="76629-140">RTCHSUniversalServices RTCComponentUniversalServices RTCUniversalServerAdmins</span><span class="sxs-lookup"><span data-stu-id="76629-140">RTCHSUniversalServices RTCComponentUniversalServices RTCUniversalServerAdmins</span></span>

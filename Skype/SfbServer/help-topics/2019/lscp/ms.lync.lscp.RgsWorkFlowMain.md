@@ -1,0 +1,63 @@
+---
+title: 回應群組工作流程
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+manager: serdars
+audience: ITPro
+ms.topic: article
+f1_keywords:
+- ms.lync.lscp.RgsWorkFlowMain
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.assetid: e4ee8abb-e1e5-413c-919d-cd3fb7193840
+ROBOTS: NOINDEX, NOFOLLOW
+description: 回應群組由代理群組、佇列和工作流程所組成。 回應群組工作流程定義回應群組應用程式接收電話撥入時所採取的動作。
+ms.openlocfilehash: dba5d07d922e652e0c80d97bf622fbb51747a00f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "36192357"
+---
+# <a name="response-groups-workflow"></a><span data-ttu-id="7d429-104">回應群組工作流程</span><span class="sxs-lookup"><span data-stu-id="7d429-104">Response Groups Workflow</span></span>
+
+<span data-ttu-id="7d429-105">回應群組由代理群組、佇列和工作流程所組成。</span><span class="sxs-lookup"><span data-stu-id="7d429-105">Response groups consist of agent groups, queues, and workflows.</span></span> <span data-ttu-id="7d429-106">回應群組工作流程定義回應群組應用程式接收電話撥入時所採取的動作。</span><span class="sxs-lookup"><span data-stu-id="7d429-106">Response Group workflows define the actions that are taken when the Response Group application receives a phone call.</span></span>
+
+<span data-ttu-id="7d429-107">[**回應群組** - **工作流程**] 頁面會顯示針對您的組織定義的所有回應群組工作流程清單。</span><span class="sxs-lookup"><span data-stu-id="7d429-107">The **Response Groups** - **Workflow** page displays a list of all the Response Group workflows that are defined for your organization.</span></span>
+
+## <a name="tasks-you-can-perform"></a><span data-ttu-id="7d429-108">您可以執行的工作</span><span class="sxs-lookup"><span data-stu-id="7d429-108">Tasks you can perform</span></span>
+
+<span data-ttu-id="7d429-109">您可以從 [**回應群組** - **工作流程**] 頁面執行下列任務:</span><span class="sxs-lookup"><span data-stu-id="7d429-109">You can perform the following tasks from the **Response Groups** - **Workflow** page:</span></span>
+
+- <span data-ttu-id="7d429-110">建立或變更查尋群組工作流程</span><span class="sxs-lookup"><span data-stu-id="7d429-110">Create or change a hunt group workflow</span></span>
+
+- <span data-ttu-id="7d429-111">建立或變更互動式工作流程</span><span class="sxs-lookup"><span data-stu-id="7d429-111">Create or change an interactive workflow</span></span>
+
+## <a name="ui-reference"></a><span data-ttu-id="7d429-112">UI 參考</span><span class="sxs-lookup"><span data-stu-id="7d429-112">UI Reference</span></span>
+
+<span data-ttu-id="7d429-113">下列清單說明頁面上的命令。</span><span class="sxs-lookup"><span data-stu-id="7d429-113">The following list describes the commands on the page.</span></span>
+
+- <span data-ttu-id="7d429-114">**建立或編輯工作流程**開啟用來建立或編輯工作流程的 [回應群組設定] 工具。</span><span class="sxs-lookup"><span data-stu-id="7d429-114">**Create or edit a workflow** Opens the Response Group Configuration Tool for creating or editing a workflow.</span></span>
+
+- <span data-ttu-id="7d429-115">**更新**刷新工作流程清單。</span><span class="sxs-lookup"><span data-stu-id="7d429-115">**Refresh** Refreshes the list of workflows.</span></span>
+
+<span data-ttu-id="7d429-116">下列清單說明頁面上的欄位。</span><span class="sxs-lookup"><span data-stu-id="7d429-116">The following list describes the fields on the page.</span></span>
+
+- <span data-ttu-id="7d429-117">**名稱**指派給工作流程的唯一名稱。</span><span class="sxs-lookup"><span data-stu-id="7d429-117">**Name** The unique name that is assigned to the workflow.</span></span>
+
+- <span data-ttu-id="7d429-118">**服務**主持工作流程的**ApplicationServer**服務。</span><span class="sxs-lookup"><span data-stu-id="7d429-118">**Service** The **ApplicationServer** service that hosts the workflow.</span></span>
+
+- <span data-ttu-id="7d429-119">**SIP 位址**將接聽工作流程通話的群組 SIP 位址。</span><span class="sxs-lookup"><span data-stu-id="7d429-119">**SIP address** The SIP address of the group that will answer calls to the workflow.</span></span>
+
+- <span data-ttu-id="7d429-120">**電話**呼叫以達到此回應群組的電話號碼。</span><span class="sxs-lookup"><span data-stu-id="7d429-120">**Telephone** The phone number that is called to reach this response group.</span></span>
+
+- <span data-ttu-id="7d429-121">**語言**語音辨識和文字轉換語音所用的語言。</span><span class="sxs-lookup"><span data-stu-id="7d429-121">**Language** The language that is used for speech recognition and text-to-speech.</span></span>
+
+- <span data-ttu-id="7d429-122">**IVR**指出工作流程是查尋群組或互動式工作流程。</span><span class="sxs-lookup"><span data-stu-id="7d429-122">**IVR** Indicates whether the workflow is a hunt group or an interactive workflow.</span></span>
+
+- <span data-ttu-id="7d429-123">**已啟用**指出是否已啟用工作流程來接收通話。</span><span class="sxs-lookup"><span data-stu-id="7d429-123">**Enabled** Indicates whether the workflow is activated to receive calls.</span></span>
+
+<span data-ttu-id="7d429-124">如需回應群組功能與功能的詳細資訊, 請參閱規劃檔中的[商務用 Skype 伺服器中的回應群組應用程式規劃](../../../plan-your-deployment/enterprise-voice-solution/response-group.md)。</span><span class="sxs-lookup"><span data-stu-id="7d429-124">For details about Response Group features and capabilities, see [Plan for the Response Group application in Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) in the Planning documentation.</span></span> <span data-ttu-id="7d429-125">如需使用回應群組工作流程的詳細資料, 請參閱在作業檔中[管理回應群組工作流程](https://technet.microsoft.com/library/42cfccdd-2844-4875-b4e3-813e1df15f08.aspx)。</span><span class="sxs-lookup"><span data-stu-id="7d429-125">For details about working with Response Group workflows, see [Managing Response Group Workflows](https://technet.microsoft.com/library/42cfccdd-2844-4875-b4e3-813e1df15f08.aspx) in the Operations documentation.</span></span>
+
+
