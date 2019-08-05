@@ -1,0 +1,81 @@
+---
+title: 醫療保健團隊
+description: 使用這些資源來充分發揮您的保健組織中的小組的效用。
+layout: LandingPage
+ms.topic: landing-page
+author: lanachin
+ms.author: v-lanac
+manager: serdars
+ms.date: 03/01/2019
+ms.service: msteams
+ms.collection: Strat_MT_TeamsAdmin
+search.appverid: MET150
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: fec61542c51870ce1482f964845e13d12a3a987d
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "36183852"
+---
+# <a name="teams-for-healthcare"></a>醫療保健團隊
+
+團隊可以讓護理小組和醫療保健專業人員以安全的方式來溝通、協調病人護理, 以及改善運營效率。 您可以在這裡找到管理組織中的醫療保健小組小組所需的管理員資源。
+
+<ul class="panelContent cardsFTitle">
+    <li>
+        <a href="https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/healthcare/teams-in-hc">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-teams.svg" alt="Pointing hand icon with arrow, representing getting started" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>開始使用適用于醫療保健組織的團隊</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/healthcare/healthcare-templates">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/walkthrough-map-teams.svg" alt="Folded paper icon, representing templates" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>開始使用適用于醫療保健組織的團隊範本</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/healthcare/messaging-policies-hc">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/chat.svg" alt="Chat bubble icon, representing messaging" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>開始使用適用于醫療保健組織的安全訊息</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+</ul>
