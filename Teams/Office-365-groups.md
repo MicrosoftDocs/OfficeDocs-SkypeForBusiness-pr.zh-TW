@@ -1,0 +1,55 @@
+---
+title: Office 365 群組和 Microsoft 團隊
+ms.reviewer: phlouie
+author: LolaJacobsen
+ms.author: lolaj
+manager: serdars
+ms.date: 04/16/2019
+ms.topic: conceptual
+ms.service: msteams
+description: 瞭解 Office 365 群組與群組成員資格如何與 Microsoft 團隊搭配使用。
+localization_priority: Normal
+search.appverid: MET150
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: a104200d8138f65e84113e38b19527c070ea2f08
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "36183519"
+---
+<a name="office-365-groups-and-microsoft-teams"></a><span data-ttu-id="81ed3-103">Office 365 群組和 Microsoft 團隊</span><span class="sxs-lookup"><span data-stu-id="81ed3-103">Office 365 Groups and Microsoft Teams</span></span>
+=====================================
+
+> [!Tip]
+> <span data-ttu-id="81ed3-104">觀看下列會話, 瞭解團隊如何與 Azure Active Directory (Azure AD)、Office 365 群組、Exchange、SharePoint 和商務用 OneDrive 進行互動: [Microsoft 團隊基礎](https://aka.ms/teams-foundations)</span><span class="sxs-lookup"><span data-stu-id="81ed3-104">Watch the following session to learn how Teams interacts with Azure Active Directory (Azure AD), Office 365 Groups, Exchange, SharePoint and OneDrive for Business: [Foundations of Microsoft Teams](https://aka.ms/teams-foundations)</span></span>
+
+<span data-ttu-id="81ed3-105">Office 365 群組是 Office 365 中的跨應用程式成員資格服務。</span><span class="sxs-lookup"><span data-stu-id="81ed3-105">Office 365 Groups is the cross-application membership service in Office 365.</span></span> <span data-ttu-id="81ed3-106">在基本層級, Office 365 群組是 Azure Active Directory 中的一個物件, 其中包含一份成員清單, 以及與相關工作負載鬆散耦合, 包括 SharePoint 小組網站、Yammer 群組、共用 Exchange 信箱資源、Planner、Power BI 和 OneNote。</span><span class="sxs-lookup"><span data-stu-id="81ed3-106">At the basic level, an Office 365 Group is an object in Azure Active Directory with a list of members and a loose coupling to related workloads including a SharePoint team site, Yammer Group, shared Exchange mailbox resources, Planner, Power BI and OneNote.</span></span> <span data-ttu-id="81ed3-107">您可以將人員新增或移除至群組, 就像在 Active Directory 中的任何其他群組安全物件一樣。</span><span class="sxs-lookup"><span data-stu-id="81ed3-107">You can add or remove people to the group just as you would any other group-based security object in Active Directory.</span></span>
+
+<span data-ttu-id="81ed3-108">Office 365 管理員可以定義 Office 365 群組、新增成員, 以及從功能 (例如 Exchange 共用信箱、SharePoint 文件庫、Yammer 群組等) 獲益。</span><span class="sxs-lookup"><span data-stu-id="81ed3-108">An Office 365 administrator can define an Office 365 Group, add members, and benefit from features such as an Exchange shared mailbox, SharePoint document library, Yammer Group, and so on.</span></span> <span data-ttu-id="81ed3-109">如需 Office 365 群組的詳細資訊, 請參閱[瞭解 office 365 群組](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)。</span><span class="sxs-lookup"><span data-stu-id="81ed3-109">For more information about Office 365 Groups, see [Learn about Office 365 Groups](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).</span></span>
+
+<span data-ttu-id="81ed3-110">[在 Microsoft 365 中, 不要錯過 IT 架構師](teams-architecture-solutions-posters.md#groups-in-microsoft-365)的海報群組。</span><span class="sxs-lookup"><span data-stu-id="81ed3-110">Don't miss the poster [Groups in Microsoft 365 for IT Architects](teams-architecture-solutions-posters.md#groups-in-microsoft-365).</span></span>
+
+<a name="how-office-365-groups-work"></a><span data-ttu-id="81ed3-111">Office 365 群組的運作方式</span><span class="sxs-lookup"><span data-stu-id="81ed3-111">How Office 365 Groups work</span></span>
+--------------------------
+
+<span data-ttu-id="81ed3-112">當您建立小組時, 在後端, 您要建立 Office 365 群組, 以及關聯的 SharePoint 文件庫和 OneNote 筆記本, 以及與其他 Office 365 雲端應用程式的關聯。</span><span class="sxs-lookup"><span data-stu-id="81ed3-112">When you create a team, on the backend, you’re creating an Office 365 Group and the associated SharePoint document library and OneNote notebook, along with ties into other Office 365 cloud applications.</span></span> <span data-ttu-id="81ed3-113">如果建立小組的人員是現有的 Office 365 公用或私人群組的擁有者, 但如果該組的人員少於5000人, 也可以新增小組功能給小組。</span><span class="sxs-lookup"><span data-stu-id="81ed3-113">If the person creating the team is an owner of an existing Office 365 Public or Private Group, they can add Teams functionality to the group if it has less than 5000 people and has never been added to Teams.</span></span> <span data-ttu-id="81ed3-114">這會建立一個預設的**一般**頻道, 讓聊天訊息、檔、OneNote 及其他物件都駐留在其中。</span><span class="sxs-lookup"><span data-stu-id="81ed3-114">This creates one default **General** channel in which chat messages, documents, OneNote, and other objects reside.</span></span> <span data-ttu-id="81ed3-115">查看頻道的文件庫會顯示代表小組中頻道的 **[一般**] 資料夾。</span><span class="sxs-lookup"><span data-stu-id="81ed3-115">Viewing the document library for the channel will reveal the **General** folder representing the channel in the team.</span></span> <span data-ttu-id="81ed3-116">更重要的是, 如果您在文件庫中建立自己的資料夾結構,**它不會**以頻道傳播給團隊;目前, 它只會從小組流向 SharePoint。</span><span class="sxs-lookup"><span data-stu-id="81ed3-116">More importantly, if you create your own folder structure within a document library **it does not propagate** to Teams as a channel; for now, it only flows from Teams into SharePoint.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="81ed3-117">根據客戶的意見反應, 由於在 Microsoft 團隊中建立小組而產生的新 Office 365 群組, 預設不會在 Outlook 中顯示。</span><span class="sxs-lookup"><span data-stu-id="81ed3-117">Based on customer feedback, new Office 365 Groups generated as a result of creating a team in Microsoft Teams will no longer show in Outlook by default.</span></span> <span data-ttu-id="81ed3-118">針對想要繼續在 Outlook 中顯示這些群組之現有行為的客戶, 將會提供 Exchange Online PowerShell Cmdlet, 讓您能夠啟用 Outlook 體驗的群組。</span><span class="sxs-lookup"><span data-stu-id="81ed3-118">For customers that want to continue with the existing behavior of showing these groups in Outlook, an Exchange Online PowerShell cmdlet will be provided which can enable the group for the Outlook experience.</span></span> <span data-ttu-id="81ed3-119">透過 Outlook 建立的群組, 且稍後啟用的小組將會繼續在 Outlook 和小組中顯示。</span><span class="sxs-lookup"><span data-stu-id="81ed3-119">Groups created through Outlook and then later enabled for Teams will continue to show in both Outlook and Teams.</span></span> <span data-ttu-id="81ed3-120">此更新將會在未來幾個月內逐步推出給 Outlook 和小組。</span><span class="sxs-lookup"><span data-stu-id="81ed3-120">This update will gradually roll out across Outlook and Teams in the coming months.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="81ed3-121">刪除 Office 365 群組會移除持續性 Outlook/OWA 交談和團隊會議邀請的信箱別名, 並標示要刪除的 SharePoint 網站。</span><span class="sxs-lookup"><span data-stu-id="81ed3-121">Deleting an Office 365 Group will remove the mailbox alias for persistent Outlook/OWA conversations and Teams meeting invites, and mark the SharePoint site for deletion.</span></span> <span data-ttu-id="81ed3-122">在 Outlook 中移除團隊和其效果之間大約需要20分鐘的時間。</span><span class="sxs-lookup"><span data-stu-id="81ed3-122">It takes approximately 20 minutes between the removal of a team and its effect on Outlook.</span></span> <span data-ttu-id="81ed3-123">從小組用戶端刪除小組後, 就會立即將其從 [查看] 移至團隊成員的所有人。</span><span class="sxs-lookup"><span data-stu-id="81ed3-123">Deleting a team from the Teams client will remove it immediately from view to all who are members of the team.</span></span> <span data-ttu-id="81ed3-124">如果您移除已啟用團隊功能之 Office 365 群組的成員, 則在團隊用戶端中針對已移除的人員在團隊用戶端中移除該小組之前, 可能會有大約兩小時的延遲。</span><span class="sxs-lookup"><span data-stu-id="81ed3-124">If you remove members of an Office 365 Group that has had Teams functionality enabled on it, there could be a delay of approximately two hours before the team is removed from view in the Teams client for the affected people who were removed.</span></span>
+>
+><span data-ttu-id="81ed3-125">若要瞭解如何還原已刪除的 Office 365 群組, 請閱讀[此](https://support.office.com/article/Restore-a-deleted-Office-365-Group-b7c66b59-657a-4e1a-8aa0-8163b1f4eb54)資訊。</span><span class="sxs-lookup"><span data-stu-id="81ed3-125">Read [this](https://support.office.com/article/Restore-a-deleted-Office-365-Group-b7c66b59-657a-4e1a-8aa0-8163b1f4eb54) for information about restoring an Office 365 Group that you deleted.</span></span>
+
+<a name="group-membership"></a><span data-ttu-id="81ed3-126">群組成員資格</span><span class="sxs-lookup"><span data-stu-id="81ed3-126">Group membership</span></span>
+----------------
+
+<span data-ttu-id="81ed3-127">使用者的群組功能和功能取決於您驅動群組成員資格的位置。</span><span class="sxs-lookup"><span data-stu-id="81ed3-127">Group features and capabilities for your users depend on where you drive group membership from.</span></span> <span data-ttu-id="81ed3-128">例如, 如果您移除團隊的成員, 也會從 Office 365 群組中移除。</span><span class="sxs-lookup"><span data-stu-id="81ed3-128">For example, if you remove a member of a team, they are removed from the Office 365 Group as well.</span></span> <span data-ttu-id="81ed3-129">從群組中移除會立即從團隊用戶端移除團隊和頻道。</span><span class="sxs-lookup"><span data-stu-id="81ed3-129">Removal from the group immediately removes the team and channels from the Teams client.</span></span> <span data-ttu-id="81ed3-130">如果您使用 Microsoft 365 系統管理中心從群組中移除人員, 他們將無法存取其他共同作業的內容, 例如 SharePoint Online 文件庫、Yammer 群組或共用的 OneNote。</span><span class="sxs-lookup"><span data-stu-id="81ed3-130">If you remove a person from a group using the Microsoft 365 admin center, they will no longer have access to the other collaborative aspects such as SharePoint Online document library, Yammer group, or shared OneNote.</span></span> <span data-ttu-id="81ed3-131">不過, 他們仍可存取團隊的聊天功能大約兩小時的時間。</span><span class="sxs-lookup"><span data-stu-id="81ed3-131">However, they will still have access to the team’s chat functionality for approximately two hours.</span></span>
+
+<span data-ttu-id="81ed3-132">作為管理團隊成員的最佳做法, 請在團隊用戶端新增和移除成員, 以確保已套用對其他相依雲端應用程式的正確的級聯存取控制。</span><span class="sxs-lookup"><span data-stu-id="81ed3-132">As a best practice for managing Teams members, add and remove members from the Teams client to ensure that the correct cascading access control to other dependent cloud applications is applied.</span></span> <span data-ttu-id="81ed3-133">此外, 您也可以避免因您的使用者仍然有權存取其所使用的資源 (直到下一個同步處理週期新增或廢除服務特定元件的存取權) 時才有脫節的體驗。</span><span class="sxs-lookup"><span data-stu-id="81ed3-133">Additionally, you will avoid a disjointed experience leaving people with the impression they still have access to the resources they used to (until the next sync cycle either adds or revokes access to a particular component of the service).</span></span> <span data-ttu-id="81ed3-134">如果您在團隊用戶端之外新增或移除團隊成員 (使用 Microsoft 365 系統管理中心、Azure AD 或 Exchange Online PowerShell), 最多可能需要兩個小時才能反映在團隊中的變更。</span><span class="sxs-lookup"><span data-stu-id="81ed3-134">If you DO add or remove team members outside of the Teams client (by using the Microsoft 365 admin center, Azure AD, or Exchange Online PowerShell), it can take up to two hours for changes to be reflected in Teams.</span></span>
