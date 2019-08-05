@@ -1,0 +1,35 @@
+---
+title: 在商務用 Skype Server 中指派位置原則範圍
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+manager: serdars
+audience: ITPro
+ms.topic: conceptual
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
+ms.assetid: e4c66517-c593-4253-b900-7b4dd8bddf2f
+description: 針對商務用 Skype Server Enterprise Voice 中的 E9-1 1 部署規劃位置原則。
+ms.openlocfilehash: 04eb04733649e2967980e0121d17cf71221f5387
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "36187642"
+---
+# <a name="assign-location-policy-scope-in-skype-for-business-server"></a><span data-ttu-id="d8fd7-103">在商務用 Skype Server 中指派位置原則範圍</span><span class="sxs-lookup"><span data-stu-id="d8fd7-103">Assign location policy scope in Skype for Business Server</span></span>
+ 
+<span data-ttu-id="d8fd7-104">針對商務用 Skype Server Enterprise Voice 中的 E9-1 1 部署規劃位置原則。</span><span class="sxs-lookup"><span data-stu-id="d8fd7-104">Planning location policies for an E9-1-1 deployment in Skype for Business Server Enterprise Voice.</span></span>
+  
+<span data-ttu-id="d8fd7-105">與其他商務用 Skype 伺服器原則一樣, 位置原則可以在多個範圍層級指派: 全域、網站和使用者。</span><span class="sxs-lookup"><span data-stu-id="d8fd7-105">As with other Skype for Business Server policies, location policies can be assigned at multiple scope levels: global, site, and user.</span></span> <span data-ttu-id="d8fd7-106">不過, 使用者層級位置原則的運作方式比其他商務用 Skype 伺服器原則稍有不同。</span><span class="sxs-lookup"><span data-stu-id="d8fd7-106">However, the scope of user-level location policies behaves a bit differently than with other Skype for Business Server policies.</span></span> <span data-ttu-id="d8fd7-107">您不僅可以將每個使用者的位置原則套用到端點物件 (例如使用者和常見的區域電話連絡人物件), 也可以將它們套用到商務用 Skype Server 網路網站。</span><span class="sxs-lookup"><span data-stu-id="d8fd7-107">Not only can per-user location policies be applied to endpoint objects (such as Users and Common Area Phone contact objects), they can also be applied to Skype for Business Server network sites.</span></span> <span data-ttu-id="d8fd7-108">網路網站是與地理位置相關聯的用戶端子網群組 (但不一定是整個中央網站或分支網站中的所有子網)。</span><span class="sxs-lookup"><span data-stu-id="d8fd7-108">Network sites are groupings of client subnets associated with a geographical location (but may not necessarily be all subnets in an entire central site or branch site).</span></span> <span data-ttu-id="d8fd7-109">連接至網路網站中子網的任何用戶端, 都會自動挑選指派給該網路網站的位置原則。</span><span class="sxs-lookup"><span data-stu-id="d8fd7-109">Any clients connected to the subnets in a network site automatically pick up the location policy assigned to that network site.</span></span> <span data-ttu-id="d8fd7-110">在使用者層級位置原則指派給使用者和網路網站的情況下, 網路網站的位置原則會覆寫任何每個使用者的原則設定。</span><span class="sxs-lookup"><span data-stu-id="d8fd7-110">In cases where a user-level location policy is assigned both to a user and to a network site, the network site-based location policy overrides any per-user policy setting.</span></span>
+  
+<span data-ttu-id="d8fd7-111">每個網路網站都有一個指派的位置原則, 而每個原則都有不同的 PSTN 用法、通知 Uri 以及指派給它的會議 Uri 值。</span><span class="sxs-lookup"><span data-stu-id="d8fd7-111">Each network site has a location policy assigned to it, and each policy will have different PSTN Usages, Notification URIs, and Conference URIs values assigned to it.</span></span>
+  
+> [!NOTE]
+> <span data-ttu-id="d8fd7-112">這個特殊原則範圍行為的原因是, 當使用者位於某個 office 網站上的某個召集人造訪另一個網站, 而且必須撥打電話時, 無論該網路網站是哪個池或網站, 都不需要使用 E9-1-1 呼叫路由設定ser 指派給您。</span><span class="sxs-lookup"><span data-stu-id="d8fd7-112">The reason for this special policy scoping behavior is so that when a user homed on a pool at one office site visits another site and has to make an emergency call, the E9-1-1 call routing settings appropriate to that network site will apply no matter what pool or site the user is assigned to.</span></span> 
+  
+

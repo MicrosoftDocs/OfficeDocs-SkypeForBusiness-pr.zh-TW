@@ -1,0 +1,1 @@
+<span data-ttu-id="b226f-101">範例包含檔案-只要將此文字取代成您自己的文字即可。</span><span class="sxs-lookup"><span data-stu-id="b226f-101">Sample include file - just replace this text with your own.</span></span>

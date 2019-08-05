@@ -1,0 +1,30 @@
+---
+title: MacAddress 表格
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+manager: serdars
+ms.date: 2/1/2018
+audience: ITPro
+ms.topic: article
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.assetid: a32e68c5-3f95-4217-aff4-cb3d1cc70505
+description: MacAddress 資料表是支援資料表。 每個記錄代表一個來源。
+ms.openlocfilehash: a94296e63c8b6d9a3408e12fa7a48ea3b635c238
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "36192667"
+---
+# <a name="macaddress-table"></a><span data-ttu-id="db754-104">MacAddress 表格</span><span class="sxs-lookup"><span data-stu-id="db754-104">MacAddress table</span></span>
+ 
+<span data-ttu-id="db754-105">MacAddress 資料表是支援資料表。</span><span class="sxs-lookup"><span data-stu-id="db754-105">The MacAddress table is a supporting table.</span></span> <span data-ttu-id="db754-106">每個記錄代表一個來源。</span><span class="sxs-lookup"><span data-stu-id="db754-106">Each record represents one source.</span></span>
+  
+|<span data-ttu-id="db754-107">**左欄**</span><span class="sxs-lookup"><span data-stu-id="db754-107">**Column**</span></span>|<span data-ttu-id="db754-108">**資料類型**</span><span class="sxs-lookup"><span data-stu-id="db754-108">**Data Type**</span></span>|<span data-ttu-id="db754-109">**索引鍵/索引**</span><span class="sxs-lookup"><span data-stu-id="db754-109">**Key/Index**</span></span>|<span data-ttu-id="db754-110">**詳細資料**</span><span class="sxs-lookup"><span data-stu-id="db754-110">**Details**</span></span>|
+|:-----|:-----|:-----|:-----|
+|<span data-ttu-id="db754-111">**MacAddressKey**</span><span class="sxs-lookup"><span data-stu-id="db754-111">**MacAddressKey**</span></span> <br/> |<span data-ttu-id="db754-112">int</span><span class="sxs-lookup"><span data-stu-id="db754-112">int</span></span>  <br/> |<span data-ttu-id="db754-113">首選</span><span class="sxs-lookup"><span data-stu-id="db754-113">Primary</span></span>  <br/> |<span data-ttu-id="db754-114">識別 Mac 位址的唯一號碼。</span><span class="sxs-lookup"><span data-stu-id="db754-114">Unique number identifying the Mac address.</span></span>  <br/> |
+|<span data-ttu-id="db754-115">**MacAddress**</span><span class="sxs-lookup"><span data-stu-id="db754-115">**MacAddress**</span></span> <br/> |<span data-ttu-id="db754-116">Varchar (256)</span><span class="sxs-lookup"><span data-stu-id="db754-116">varchar(256)</span></span>  <br/> |<span data-ttu-id="db754-117">唯一</span><span class="sxs-lookup"><span data-stu-id="db754-117">Unique</span></span>  <br/> |<span data-ttu-id="db754-118">Mac 位址字串。</span><span class="sxs-lookup"><span data-stu-id="db754-118">Mac address string.</span></span>  <br/> |
+   
+
