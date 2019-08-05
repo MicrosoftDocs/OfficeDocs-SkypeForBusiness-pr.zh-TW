@@ -1,0 +1,26 @@
+---
+title: 新增常設聊天室 SQL Server 儲存區
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+manager: serdars
+audience: ITPro
+ms.topic: article
+f1_keywords:
+- ms.lync.tb.AddPersistentChatSqlStorePage
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.assetid: c8e6064a-8127-4c25-8685-06f49d8bbfce
+ROBOTS: NOINDEX, NOFOLLOW
+description: 您設定的 SQL Server 存儲將提供持久聊天伺服器或持久聊天伺服器池的資料庫。
+ms.openlocfilehash: 018ff710d67de8047ffac3a6f4f1892e0f374174
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "36194024"
+---
+# <a name="add-persistent-chat-sql-server-store"></a>新增常設聊天室 SQL Server 儲存區
+
+> [!NOTE] 
+> 商務用 Skype Server 2015 提供持續聊天, 但商務用 Skype Server 2019 已不再支援。 團隊中提供了相同的功能。 如需詳細資訊, 請參閱[商務用 Skype 至 Microsoft 團隊升級](https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here)。 如果您需要使用持續聊天, 您可以選擇將需要此功能的使用者遷移至小組, 或繼續使用商務用 Skype Server 2015。

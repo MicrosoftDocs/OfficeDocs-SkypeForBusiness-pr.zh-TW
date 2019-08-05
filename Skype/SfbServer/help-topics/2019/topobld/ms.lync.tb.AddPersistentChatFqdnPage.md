@@ -1,0 +1,26 @@
+---
+title: 定義常設聊天室 FQDN
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+manager: serdars
+audience: ITPro
+ms.topic: article
+f1_keywords:
+- ms.lync.tb.AddPersistentChatFqdnPage
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.assetid: e0123fa6-008b-430e-a68b-61f0cc3fb12e
+ROBOTS: NOINDEX, NOFOLLOW
+description: 您可以使用 [定義新的持久性聊天池] 嚮導來建立新的持久聊天伺服器或持久聊天伺服器池。 請選取 [多部電腦集區] 或 [單一電腦集區]。 如果選取 [單一電腦集區] 並在稍後需要多部電腦集區，則必須移除單一電腦集區，再定義多部電腦集區。
+ms.openlocfilehash: 052cc4c102eb080b5059ff9eda4496e830265645
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "36194032"
+---
+# <a name="define-persistent-chat-fqdn"></a>定義常設聊天室 FQDN
+
+> [!NOTE] 
+> 商務用 Skype Server 2015 提供持續聊天, 但商務用 Skype Server 2019 已不再支援。 團隊中提供了相同的功能。 如需詳細資訊, 請參閱[商務用 Skype 至 Microsoft 團隊升級](https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here)。 如果您需要使用持續聊天, 您可以選擇將需要此功能的使用者遷移至小組, 或繼續使用商務用 Skype Server 2015。
