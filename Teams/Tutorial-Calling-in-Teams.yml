@@ -1,0 +1,251 @@
+### YamlMime:Tutorial
+title: 瞭解 Microsoft 團隊中的通話
+metadata:
+  title: 瞭解 Microsoft 團隊中的通話
+  description: 互動式教學課程會引導您瞭解如何在 Microsoft 團隊中掌握並開啟通話。
+  audience: IT Pro
+  level: Intermediate
+  displayType: one-column
+  ms.author: tbinder
+  manager: serdars
+  ms.service: msteams
+  ms.topic: tutorial
+  localization_priority: Normal
+  search.appverid: MET150
+  ms.collection:
+  - Teams_ITAdmin_PracticalGuidance
+  - Teams_ITAdmin_Training
+  - M365-collaboration
+  appliesto:
+  - Microsoft Teams
+  ms.openlocfilehash: d17beabbbd77134464449cb930d28eec27d81f77
+  ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
+  ms.translationtype: MT
+  ms.contentlocale: zh-TW
+  ms.lasthandoff: 06/24/2019
+  ms.locfileid: "36184254"
+items:
+- durationInMinutes: 1
+  content: >
+    在本次訓練中, 我們會在團隊中引入通話功能, 這些功能是由 Office 365 中的電話系統功能所提供的。 我們將說明實現電話系統所需的技術規劃, 以及如何設定它, 以及如何在您的實現中監控使用狀況和通話品質。
+
+
+    如果您是下列情況, 此訓練就適合您:
+
+
+    - IT 專業人員。
+
+
+    - 負責規劃、部署或管理團隊。
+
+
+    - 規劃在您的小組部署中引入通話功能。
+
+
+    您將瞭解:
+
+
+    - 團隊中的通話是什麼？
+
+
+    - 如何規劃在團隊中進行通話。
+
+
+    - 如何設定在團隊中進行通話。
+
+
+    [!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-roadmap.md)]
+
+
+    如果您有任何關於本次訓練的問題或意見反應, 請:
+
+
+    - 在本教學課程 [後續步驟] 頁面底部的 [批註] 區段中張貼文章</a>
+
+
+    若要向我們的小組提供產品意見反應 (例如新功能的想法), 請造訪[UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)。
+- title: 團隊中的通話是什麼？
+  durationInMinutes: 15
+  content: >
+    在該方塊中, 小組支援使用者從團隊用戶端向團隊用戶端撥打電話給 IP (VoIP) 通話的能力。
+
+
+    在團隊中, 有兩個選項可讓使用者在公用交換電話網絡 (PSTN) 上撥打、接聽及轉接撥打電話給市話與行動電話:
+
+    - 使用電話系統進行通話方案, Microsoft 會為您的使用者和所有 PSTN 服務提供電話號碼
+
+    - 透過直接連接, 您可以透過 SBC (會話 Boarder 控制器), 將現有的 PSTN 連線連接到 Microsoft 團隊。
+
+
+    #### <a name="span-stylecolorredactionspan-watch-calling-in-teams-300-minutes"></a><span style="color:red">**動作**:</span>在團隊中收看通話 (3:00 分鐘)
+
+    > [!Video https://www.youtube.com/embed/9O4p48Mws9U]
+
+
+    ### <a name="calling-features-in-teams"></a>在團隊中通話功能
+
+    在小組中呼叫支援基本的電話系統功能, 例如呼叫應答及開始 (使用名稱和號碼), 並使用整合的撥號鍵台、呼叫控制與撥打、通話記錄、語音信箱, 以及緊急通話。
+
+
+    隨著時間的推移, 將會新增更多高級功能。 如需詳細資訊, 請參閱[Microsoft 365 藍圖](https://aka.ms/O365Roadmap)。
+
+
+    在團隊中通話是由電話系統 (先前稱為雲端 PBX) 所提供, 在 Office 365 中可啟用商務用 Skype Online 中的 PSTN 通話功能。
+
+
+    <span style="color:red">**重要**:</span>請注意, 商務用 Skype 的電話系統功能設定與 [小組] 的 [電話系統] 功能設定不同。
+
+
+    <span style="color:red">**動作**:</span>若要瞭解目前可用的功能, 以及我們想要開發之功能的時程表, 請參閱下列資源:
+
+
+    - 在[公開的藍圖](https://aka.ms/O365Roadmap)中, 請參閱「通話藍圖」投影片, 瞭解功能發行日期預期的時程表。
+
+    - 請參閱[以下是您在 Office 365 中使用電話系統所取得的內容](https://docs.microsoft.com/MicrosoftTeams/here-s-what-you-get-with-phone-system), 以瞭解手機系統功能的說明。 請記住, 在撰寫本文時, 某些功能可能只適用于商務用 Skype。
+
+
+    ### <a name="emergency-services-calling"></a>緊急服務通話
+
+    您必須知道緊急服務通話功能在團隊中的運作方式與在傳統的電話語音上有何不同, 這一點非常重要。 您必須確定您的使用者也瞭解這些差異。 例如, 當他們使用小組通話緊急服務 (例如美國 911) 時, 使用者必須知道小組可能無法判斷來電者的實際位置。
+
+
+    <span style="color:red">**動作**:</span>請查看[緊急通話條款與條件](https://docs.microsoft.com/SkypeForBusiness/legal-and-regulatory/emergency-calling-terms-and-conditions), 以取得緊急服務通話的詳細資訊。
+- title: 商務用 Skype Online 客戶的考慮
+  durationInMinutes: 2
+  content: >
+    如果您不是使用商務用 Skype Online, 您可以略過本節。 針對在商務用 Skype Online 中熟悉通話功能的人員, 我們想要醒目提示一些重要的重點。
+
+
+    - **通話方案或直接路由來連接 PSTN。**
+
+    在商務用 Skype Online 中, 將小組連接至 PSTN 的選項稍有不同: 在通話方案 (亦稱為雲端 PBX, 以及 PSTN 連線) 中, 這兩者都存在將現有 PBX 或 SIP 幹線連接至團隊的選項稱為「直接路由 "。
+
+    您可以在以下網址找到直接路由的詳細檔: [[電話系統直接路由](https://docs.microsoft.com/microsoftteams/direct-routing-plan)]
+
+
+    - **商務用 Skype 和 Microsoft 團隊之間的功能不同。**
+
+    請注意, 商務用 Skype 和 Microsoft 團隊中的通話功能是不一樣的。 不要假設這只是因為其中一個用戶端有問題, 另一個用戶端也可以這麼做。
+
+
+    - **您可以在團隊或商務用 Skype 中接收通話, 但不能同時收到這兩者。**
+
+    如果您使用通話方案設定電話系統的使用者, 他們可以啟動來自團隊或商務用 Skype 的通話。 不過, 他們只能在其中一個應用程式上接收呼叫, 以設定要接收通話的應用程式, 您可以使用新的原則 CsTeamsInteropPolicy。 您將在本訓練中進一步瞭解該原則。
+
+
+    - **如果您已在團隊中設定電話系統, 就可以從商務用 Skype 或團隊進行通話。**
+
+    除了 CsTeamsInteropPolicy 的上述設定之外, 在商務用 Skype 和團隊中的設定是一樣的。 這表示如果您已設定商務用 Skype 的通話, 您的使用者就能從團隊進行通話。
+- title: 實用指導方針
+  durationInMinutes: 3
+  content: >
+    Microsoft 提供實用指引, 透過 Office 365 FastTrack 客戶歷程架構和三個階段 (構想、板載及磁片磁碟機值), 協助您使用通話方案規劃、交付及操作成功的電話系統部署.
+
+
+    實際指導方針的目的是將您的專案設定為成功, 不僅是從技術角度 (也就是提供可靠、高品質的實施), 還要確定方案符合專案干係人的需求。
+
+
+    我們會在實踐指導與技術規劃之間提供意見反應:
+
+
+    - 您必須瞭解電話系統的功能和功能, 才能瞭解它可以如何支援您的業務使用案例。
+
+
+    - 您必須定義您的商務使用案例, 以瞭解如何設定電話系統的最佳方式。
+
+
+    這表示您可能必須調整此實用指示, 以符合您的目標。 系統會要求您完成下列工作:
+
+
+    - 定義電話系統的商務使用案例使用通話方案檔預期的、可衡量的商業成果, 包括下列各項:
+
+      - 目前業務程式的描述
+
+      - 現有業務程式面臨的挑戰
+
+      - 技術可以如何協助克服這些難題
+
+      - 若要解決這些難題, 預期、可衡量的商業成果
+
+    - 根據您的業務使用案例來找出主要的股東, 建立完整的干係人清單, 包括角色及描述。 這可協助您識別專案中所涉及的每個人。
+
+
+    - 定義目標和主要結果 (OKRs)、關鍵成功指標 (KSIs) 和風險使用 OKRs 和 KSIs 來設定評估專案成功的明確目標, 以及定期審查, 以衡量進度。 重要的是, 股東必須知道並同意 OKRs 和 KSIs 來努力共同的目標。 此外, 您還需要找出並記錄風險以提高知名度, 並準備好根據需要加以緩解。
+
+
+    - 評估您的環境並評估採納就緒性在您知道想要達到哪些專案並記載您的 OKRs 和 KSIs 之後, 請評估貴組織是否已準備好利用該服務, 以及它是否能提供您的使用者所需的所有功能。
+
+
+    > [!NOTE]
+
+    > 評估環境也包括對您的網路進行準備情況評估。 千萬別低估網路的重要性: 網路品質會直接影響使用者體驗。 即使您的網路沒有問題, 但即時通訊可能與其他應用程式有不同的行為。 特別是在電話上, 使用者的品質很高。 遇到網路品質難題 (尤其是在專案的開頭), 可能會使整個專案面臨風險。
+
+
+    - 地圖操作角色推出解決方案之後, 您將需要某人監視及驅動使用方式與品質。 前期對應的操作角色可協助您找出您需要的人員。
+
+
+    - 建立成功方案: 成功計畫可讓專案小組 (包括 FastTrack 或部署合作夥伴) 擁有足夠的資訊, 以利用電話系統與通話方案來實現組織的目標。 它應該包含下列各節:
+
+      - 商務案例
+
+      - 服務就緒性
+
+      - 採納方案
+
+      - 運營計畫
+
+    **其他資訊:** 如需在規劃中可使用之實用指導及範本的詳細資訊, 請參閱[使用通話方案的電話系統](calling-plan-landing-page.md)。
+- title: 構思
+  durationInMinutes: 15
+  content: "\n若要規劃在小組中進行通話, 必須作出一系列決定, 才能更好地準備貴組織以滿足業務需求。 這些包括:\n\n-   連接至 PSTN\n\n-   服務可用性與使用者位置\n\n-   電話系統授權\n\n-   電話號碼和緊急位置\n\n-   語音信箱\n\n-   選用: 通話身分識別\n\n-   選用: 撥號方案\n\n### <a name=\"connecting-to-the-pstn\"></a>連接至 PSTN\n\n若要讓使用者使用團隊撥打並接聽 PSTN, 您必須已安裝電話系統, 且需要將電話系統連線至 PSTN。\n\n> **範例** <br/> 若要更清楚地瞭解手機系統和 PSTN 的連線如何共同運作, 請設想您購買的是行動電話。 手機具有良好的功能 (例如按鈕和應用程式), 但若要打電話給您, 您需要有電話供應商的通話方案給您, 並提供實際的電話號碼, 並提供與 PSTN 的連線能力。\n\n[電話系統] 相當於行動電話: 它提供語音信箱等功能, 但不提供電話號碼, 也可讓您撥打或接聽 PSTN 的電話或撥打電話給您。 若要將電話系統連線至 PSTN (與電話供應商的合約相當), Microsoft 提供通話方案, Microsoft 會為每位使用者提供可撥打和接聽通話的電話號碼。\n\n目前, 通話方案是將電話系統連線至 PSTN 的唯一方法。\n在將來, 您可以選擇將您擁有內部部署的任何現有電話環境連線至團隊。\n\n### <a name=\"service-availability-and-user-locations\"></a>服務可用性與使用者位置\n\n可使用 Office 365 的電話系統 (如需國家和地區的完整清單, 請參閱[國際可用性](https://products.office.com/business/international-availability))。\n通話方案服務的可用性稍有限制。 手機系統和通話方案的商業可用性也取決於貴組織的所在位置, 而且更重要的是, 您組織的國家或地區與 Microsoft 及其合作夥伴有商業關係:\n\n-   通話方案只能指派給位於提供通話方案之國家/地區的使用者。\n\n-   只有在您的帳單位址位於可購買音訊會議的國家或地區時, 才能購買通話方案。\n\n> **範例 1** <br/>Contoso 的帳單位址是在奧地利, 公司想要在德國針對其使用者使用電話系統加入通話方案。 雖然在德國提供通話方案, 但無法在奧地利使用。 不過, 您可以在奧地利購買音訊會議, 所以 Contoso 可以在德國為其使用者購買所需的授權。\n\n> **範例2** <br/>Fabrikam, Inc. 是以香港為基礎的公司, 在美國有一些使用者。 其帳單位址是在香港中。 雖然 Microsoft 可以在香港中提供音訊會議的電話號碼, 但在該地區無法購買音訊會議。 遺憾的是, 這表示 Fabrikam 將無法取得其美國使用者的通話方案。\n\n<span style=\"color:red\">**動作**:</span>針對下列資訊, 查看[音訊會議與通話方案的國家/地區可用性](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans):\n\n-   針對帳單位址所在的國家/地區, 請檢查音訊會議是否可供購買。 這將會判斷您是否可以完全購買任何通話方案。\n\n-   針對您希望使用者使用通話方案的每個國家或地區, 請核取「電話系統可供購買嗎？」。 若要瞭解該國家或地區是否提供通話方案。\n\n### <a name=\"phone-system-licensing\"></a>電話系統授權\n\n手機系統授權是提供給 Office 365 E5 訂閱者案的一部分, 或作為 Office 365 E1 或 Office 365 E3 訂閱者案的附加元件服務。\n\n通話方案是 Office 365 中的電話系統功能的增益集。 這表示電話系統授權是使用者在通話方案中啟用的必要。\n\n一般來說, [通話方案] 增益集有兩種類型:\n\n-   國內通話方案\n\n-   國際與國內通話方案\n\n每個通話方案類型都提供通話分鐘數的分配, 以供使用者在每月使用, 以進行國內通話或國際通話。 分鐘數依國家/地區而有所不同。 在他們的分配耗盡之後, 使用者將無法進行撥出通話, 除了緊急服務通話之外, 還要等到下個月的帳單週期。\n\n如您所料, 國內通話方案的成本低於國際和國內通話方案。 通常, 組織中的每個人都不需要撥打國際電話。 您可以根據使用者的業務需求, 將個別使用者指派給不同的通話方案。 這項靈活性可協助您控制通話方案實施的電話系統成本。\n\n您可以設定通訊點數, 讓使用者在通話完畢後也能撥打電話, 而不需要等到下個月的帳單週期。 這表示只要您的分配耗盡, 您就可以根據您的消耗量支付。 您也可以使用通訊點數, 讓已指派給國內通話方案的使用者進行國際通話, 然後使用「每分鐘付款」模型收取費用。\n\n<span style=\"color:red\">**動作**:</span>\n\n-   在[國家/地區可用性的音訊會議和通話方案](https://docs.microsoft.com/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)中, 查看 [通話方案] 區段, 以瞭解每個通話方案增益集類型的通話分鐘分配。\n\n**其他資訊**\n\n-   進一步瞭解手機系統的授權, 以及[語音會議與通話方案之國家/地區可用性](https://docs.microsoft.com/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)的通話方案。\n\n-   深入瞭解[電話系統與通話方案](calling-plan-landing-page.md)的通話方案增益集\n\n-   深入瞭解通訊點數的詳細資訊是[什麼](https://docs.microsoft.com/MicrosoftTeams/what-are-communications-credits)？\n\n### <a name=\"phone-numbers-and-emergency-locations\"></a>電話號碼和緊急位置\n\n針對使用通話方案實施的電話系統, 貴組織中的每個使用者都必須擁有唯一的訂閱者 (使用者) 電話號碼。 您可以直接從 Microsoft 取得訂閱者 (使用者) 電話號碼, 或將現有的電話號碼轉移 (移植) 至 Microsoft。\n\n> [!IMPORTANT]\n> 取得或轉移電話號碼的複雜性會因國家/地區、載波、涉及的電路數量以及許多其他共同要素而有所不同。\n\n除了確保每位使用者都有唯一的電話號碼, 您必須在指派電話號碼時指派緊急位址, 或在您第一次取得電話號碼時, 視您的國家/地區而定。 緊急位址是支援緊急服務通話所需的。 必須經過驗證, 才能確定位址已辨識, 且是使用緊急回應服務所需的正確格式。\n\n若要提供緊急回應程式, 進一步瞭解使用者的位置, 您可以定義緊急位置, 並將它們與已驗證的緊急位址進行關聯。 緊急位置通常是使用者所處的建築物編號、樓層、建築物磚或辦公室號碼。\n\n**其他資訊**\n\n-   查看通話[方案所使用的不同類型電話號碼](https://docs.microsoft.com/MicrosoftTeams/different-kinds-of-phone-numbers-used-for-calling-plans), 瞭解 Office 365 中電話系統支援的電話號碼類型。\n\n-   審查[管理貴組織的電話號碼](https://docs.microsoft.com/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization), 進一步瞭解如何取得撥號方案實施的使用者號碼。\n\n-   若要深入瞭解如何將電話號碼傳送 (移植) 至 Microsoft, 請參閱[將電話號碼轉接至 Office 365](https://docs.microsoft.com/MicrosoftTeams/transfer-phone-numbers-to-office-365)。\n\n-   若要進一步瞭解緊急位址和位置, 請參閱[什麼是緊急位置、位址和通話路由？](https://docs.microsoft.com/MicrosoftTeams/what-are-emergency-locations-addresses-and-call-routing)\n\n-   [緊急通話條款與條件](https://docs.microsoft.com/MicrosoftTeams/emergency-calling-terms-and-conditions)\n\n### <a name=\"voicemail\"></a>語音信箱\n\n雲端語音信箱 (由 Azure 語音信箱服務提供支援) 只支援將語音信箱存款至 Exchange 信箱, 且不支援協力廠商電子郵件系統。\n\n根據預設, 雲端語音信箱可搭配 Exchange Online 使用;不過, 它有最小[支援的 Exchange 內部部署版本和部署模型](https://support.microsoft.com/help/3195158/customer-issues-between-exum-and-azure-voicemail), 以便在內部部署 Exchange 部署中傳送語音信箱訊息給使用者信箱。\n\n雲端語音信箱包括語音信箱, 預設會針對貴組織中的所有使用者啟用該功能。 您的公司可能會要求您針對特定使用者或整個組織中的所有人停用語音信箱。\n\n> [!NOTE]\n> 已實現回退機制, 讓雲端語音信箱可以使用 SMTP 重新傳送郵件, 這表示在協力廠商電子郵件系統上擁有信箱的使用者會收到其語音信箱訊息。 此機制不包括保證的服務正常運作時間或其他語音信箱功能 (例如變更語音信箱問候語)。\n\n**其他資訊**\n\n-   查看[Exchange Server 的 AZURE PBX 語音信箱支援](https://support.microsoft.com/help/3195158/customer-issues-between-exum-and-azure-voicemail), 瞭解如何啟用內部部署 Exchange 以支援電話系統語音信箱。\n\n### <a name=\"optional-calling-identity\"></a>選用: 通話身分識別\n\n根據預設, 所有出站通話都使用指派的電話號碼來撥打通話身分識別 (來電者識別碼)。 通話的收件者可以快速識別來電者, 決定是否要接受或拒絕通話。\n\n在某些情況下, 有正當的商業理由會顯示不同的數位來遮罩來電者的身分識別。\n\n> **範例** <br/>Contoso 正在使用電話系統, 並為其使用者提供通話方案。\n不過, 他們的業務需求要求如果接待員撥打電話號碼, 本機號碼不應該代表接待員的電話號碼, 而是辦公室的主要電話號碼。\n\n其他選項也是完全封鎖 (anonymize) 本機號碼簡報的可能性, 或讓使用者選擇使用來電者識別碼或匿名撥出。\n\n本機號碼也會封鎖呼叫者識別碼。\n\n**其他資訊**\n\n-   深入瞭解[如何從您的組織中使用來電](how-can-caller-id-be-used-in-your-organization.md)顯示的方式來呼叫身分識別控制項。\n\n### <a name=\"optional-dial-plans\"></a>選用: 撥號方案\n\nOffice 365 的 [電話系統] 功能中的撥號方案控制使用者如何在撥號鍵臺上撥打電話號碼。 PSTN 預期會以加號 (+) 開頭的特定格式的電話號碼, 後面接著代表 E. 164 個數字的數位。 E. 164-PSTN 號碼標準-指定國家/地區碼。\n\n顯然, 使用者想要在撥打電話號碼時不要使用該長格式。\n特別是當他們撥打電話給當地號碼時, 他們想要在沒有國家/地區碼的情況下繼續操作, 即使沒有區號也一樣。 這是撥號方案的來源: 您可以使用它們將使用者輸入的電話號碼標準化為所需的格式。\n\n> **範例 1** <br/>劉愛琳想撥打電話號碼 + 1 311-555-2368。 由於 Alice 是在美國, 視西雅圖 (區功能變數代碼 206) 而來, 她只需要撥打**311-555-2368**。 在將此電話號碼傳送到 PSTN 前, 小組會將它標準化至完整號碼 + 1 311-555-2368。\n\n根據預設, 自動指派的撥號方案 (也稱為「*服務撥號方案*」) 會根據每個個別使用者的授權使用位置來實現一般化撥號的行為。 這個通用撥號行為可能不符合使用者需求, 例如, 可能需要使用者撥一個區號來撥打當地電話。 在這種情況下, 您需要自訂的撥號方案 (也稱為*租使用者撥號方案*), 讓使用者能夠以其習慣的方式撥打電話號碼 (例如省略當地電話的區號或使用短數位撥號呼叫其他使用者)位置或 office。\n\n> **範例2** <br/>Bob 也想撥打電話號碼 + 1 311-555-2368。 Bob 不只是在美國, 實際上是位於311區功能變數代碼中。 他預期能透過撥號**555-2368**撥打電話。 您可以將團隊設定為適應 Bob 的撥號行為, 並將電話號碼標準化至正確的格式, 然後再傳送給 PSTN。\n\n您可以將不同的撥號方案指派給不同的使用者。 如此一來, 您可以建立符合使用者不同需求的特定體驗, 例如, 當特定位置的使用者需要與其他位置的使用者不同的撥號體驗時。\n\n**其他資訊**\n\n-   如需撥號方案的準備工作會話訓練, 請移至[租使用者撥號方案](https://aka.ms/sa-tdp)。 雖然此訓練是針對商務用 Skype 所建立, 但是它是在小組中建立的, 也適用于團隊。\n"
+- title: 板載
+  durationInMinutes: 20
+  content: "\n若要在團隊中設定通話方案的電話系統, 請遵循下列步驟:\n\n1.  針對 Azure 語音信箱啟用 Exchange 內部部署\n\n1.  驗證所需的授權\n\n1.  指派授權\n\n1.  取得電話號碼\n\n1.  設定緊急位址和位置\n\n1.  為使用者指派電話號碼和緊急位址\n\n1.  選用: 指派呼叫身分識別設定給使用者\n\n1.  選用: 指派撥號方案設定給使用者\n\n1.  指派小組通話 interop 原則\n\n如需加入程式的逐步解說, 請觀看下列影片:\n\n### <a name=\"1-enable-exchange-on-premises-for-azure-voicemail\"></a>1. 針對 Azure 語音信箱啟用 Exchange 內部部署\n\n如果您的部分使用者在 Exchange 伺服器內部部署 exchange 信箱, 請遵循[Exchange server 的 AZURE PBX 語音信箱支援](https://support.microsoft.com/help/3195158/customer-issues-between-exum-and-azure-voicemail)中的步驟, 以啟用使用 Azure 語音信箱。\n\n### <a name=\"2-validate-required-licenses\"></a>2. 驗證所需的授權\n\n從 Envision 階段, 您應該有一個授權清單, 這些授權可為您組織的通話方案的電話系統實施提供先決條件:\n\n-   Microsoft 團隊\n\n-   商務用 Skype Online (方案 2)\n\n-   電話系統\n\n-   國內通話方案, 或國內與國際通話方案\n\n-   通訊點數 (選用)\n\n> [!NOTE]\n> 您可以在 Office 365 企業版 E5 訂閱者案或 Office 365 Enterprise E1 或 E3 的增益集中取得 [電話系統授權]。\n\n> [!IMPORTANT]\n> 如果沒有提供所需的授權, 您必須向組織中負責 Office 365 訂閱的小組諮詢, 讓他們可以購買所需的授權。\n\n### <a name=\"3-assign-licenses\"></a>3. 指派授權\n\n確認所需的授權 (根據您的實施方案) 可用之後, 您必須將授權指派給使用者。\n\n請依照使用商務用 Skype 系統管理中心或遠端 PowerShell 會話, 在[指派商務用 skype 和 Microsoft 團隊授權](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)中的指示, 為個別或多位使用者執行授權指派。\n\n### <a name=\"4-acquire-phone-numbers\"></a>4. 取得電話號碼\n\n您可以透過多種方式來取得手機系統的電話號碼, 以進行呼叫方案實現:\n\n-   使用商務用 Skype 系統管理中心 (僅限美國和英國) 來取得電話號碼\n\n-   透過提交電話號碼要求表單來要求電話號碼\n\n-   將現有的電話號碼轉移 (或埠) 至 Microsoft\n\n### <a name=\"5-set-up-emergency-addresses-and-locations\"></a>5. 設定緊急位址和位置\n\n依照[新增或移除組織的緊急位址](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization)中的指示進行, 以設定緊急位址和位置。 如需詳細資訊，請參閱\n\n\n### <a name=\"6-assign-phone-numbers-and-emergency-address-to-users\"></a>6. 將電話號碼和緊急位址指派給使用者\n\n依照[指派、變更或移除使用者的電話號碼](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)中的指示, 將電話號碼和緊急位址指派給使用者。\n\n> [!NOTE]\n> 若要在小組中顯示指派的電話號碼, 您必須在 Azure Active Directory (Azure AD) 中更新使用者的 office 電話號碼。 如果使用者是直接在 Office 365 或 Azure AD 中建立, 您可以在 Microsoft 365 系統管理中心編輯此屬性。 如果使用者是從內部部署的 Active Directory 進行同步處理, 則您必須使用內部部署的 Active Directory 來更新 office phone number 屬性。\n\n### <a name=\"7-optional-assign-calling-identity-settings-to-users\"></a>7. 選用: 指派呼叫身分識別設定給使用者\n\n根據您的實施方案, 您可能需要設定使用者的呼叫身分識別設定。 依照為[使用者設定來電者識別碼](/microsoftteams/set-the-caller-id-for-a-user)中的指示進行。\n\n### <a name=\"8-optional-assign-dial-plan-settings-to-users\"></a>8. 選用: 指派撥號方案設定給使用者\n\n視貴組織和使用者的需求而定, 您可能需要指派租使用者撥號方案給您的使用者。 依照[建立及管理撥號方案](https://docs.microsoft.com/microsoftteams/create-and-manage-dial-plans)中的指示進行。\n\n### <a name=\"9-assign-the-teams-calling-interop-policy\"></a>9. 指派呼叫 interop 原則的小組\n\n根據預設, 小組中的所有通話都是設定為商務用 Skype, 而不需要使用者變更設定。\n\n若要在小組中使用通話方案來實現電話系統, 您需要指派小組交互操作原則, 以指定要呼叫使用團隊。 符合這個需求的原則就是 DisallowOverrideCallingTeamsChatTeams。\n\n使用授與 CsTeamsInteropPolicy, 將上述原則指派給使用者, 以便在小組中使用通話方案來啟用電話系統:\n\n   ```\n   Grant-CsTeamsInteropPolicy -PolicyName tag:DisallowOverrideCallingTeamsChatTeams -Identity user\\@contoso.com\n   ```\n"
+- title: 練習管理互通性原則
+  durationInMinutes: 30
+  content: >
+    在這個練習中, 您將允許使用者在團隊中通話。 雖然我們並不說明如何執行每個動作, 但我們建議您嘗試一些案例。
+
+
+    ### <a name="requirements"></a>需求
+
+
+    -   具備適當授權的 Office 365 租使用者可啟用電話系統與通話方案
+
+        -   我們強烈建議您使用專用的測試租使用者。
+
+        -   如果您沒有測試租使用者, 您可以在此註冊試用租使用者: [Office 365 企業版 E5 試用版](https://go.microsoft.com/fwlink/p/?LinkID=698279)。 不過, 無法透過試用租使用者使用通話方案。
+
+        -   不要在您的生產環境中執行任何測試。 變更設定或原則可能會對所有使用者造成負面影響, 且可能會影響使用者的使用體驗。
+
+    -   您的電腦已設定商務用 Skype Online 管理
+
+        -   如果您尚未安裝商務用 Skype Online 連接器模組, 請依照下列指示[進行: 針對商務用 Skype online 管理設定您的電腦](https://technet.microsoft.com/library/dn362839%28v=ocs.15%29.aspx)。
+
+        -   若要將 PowerShell 連線到商務用 Skype Online, 請依照下列指示進行:[使用 Windows PowerShell 連線到商務用 Skype online](https://technet.microsoft.com/library/dn362795(v=ocs.15).aspx)。
+
+    -   至少有兩個端點和手機
+
+        -   這可以是兩台電腦, 但是您也可以在瀏覽器或行動電話上使用用戶端。
+
+        -   若要測試 PSTN 通話, 您必須有電話, 打電話給您要測試 PSTN 通話的國家或地區。
+
+    ### <a name="suggested-scenarios-to-test"></a>建議的測試案例
+
+
+    -   讓使用者使用小組中的通話方案進行電話系統。
+
+
+    -   以已設定的使用者身分登入, 然後查看 [**通話**] 索引標籤。
+
+
+    -   使用不同的格式撥打 PSTN 號碼 (例如, 使用前導加號加上加號, 或撥打號碼時不要使用國家/地區代碼)。
+
+
+    -   測試使用者功能, 例如變更來電轉接的號碼、轉移通話或存取語音信箱。
+- title: 磁片磁碟機值
+  durationInMinutes: 1
+  content: "\n現在您已在您的環境中正確規劃與實施電話系統, 您必須確定它已使用, 並提供良好的使用者體驗。 雖然完整的詳細資料會超過此訓練的範圍, 但我們想要指出最重要的合作領域:\n\n-   採納及變更管理使用者可能只需在您提供服務時才開始使用。 否則可能不會。 因此, 執行適當的採納與變更管理非常重要。\n\n-   監控及提高使用量我們建議您的其中一個 KSIs 是作用中使用者的數目, 以協助您測量團隊作為電話用戶端接受的程度。\n\n-   監控及駕駛品質\n\n您的使用者滿意度與他們的通話品質直接相關,因此, 如有需要, 請務必監視通話品質並加以改進。 若要瞭解如何報告通話品質, 請造訪通話品質儀表板訓練。 雖然這些影片是針對商務用 Skype 所建立, 但也適用于團隊: <https://aka.ms/sof-cqd>。\n"
+- title: 後續步驟
+  durationInMinutes: 1
+  content: "\n我們在此訓練課程中涵蓋了下列主要學習專案:\n-   團隊中的通話是什麼？\n\n-   如何規劃在團隊中進行通話\n\n-   如何設定團隊中的通話\n\n若要深入瞭解, 請參閱:\n\n-   [含有通話方案的電話系統](calling-plan-landing-page.md)\n\n-   [快速入門手冊: 在 Microsoft 團隊中設定通話方案](https://docs.microsoft.com/MicrosoftTeams/configuring-teams-calling-quickstartguide)\n\n後續步驟\n\n1.  啟動適用于團隊的電話系統部署\n2.  傳送意見反應給我們:\n    - 在此頁面底部的 [批註] 區段中張貼文章。\n    - 若要提供關於小組的意見反應, 或分享您對新功能的想法, 請造訪[UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)。\n3.  保持最新狀態:\n    - 追蹤[團隊博客](https://aka.ms/teamsblog)。\n    - 閱讀[團隊藍圖](https://aka.ms/O365Roadmap)。\n    - 瞭解[版本資訊](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de)中的最新發行功能。\n4.  探索[更多訓練與教學課程](https://aka.ms/Teamsacademy)。"

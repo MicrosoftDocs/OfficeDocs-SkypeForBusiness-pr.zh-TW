@@ -1,0 +1,1 @@
+此功能尚未發佈。 我們已宣佈推出, 即將推出。如果您是系統管理員, 您可以在 [訊息中心] (在[Microsoft 365 系統管理中心](https://portal.office.com/adminportal/home)) 中, 找到此功能將會發佈的時間。

@@ -1,0 +1,81 @@
+---
+title: 商務用 Skype Server 2015 應力與效能工具
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+ms.date: 4/6/2016
+manager: serdars
+audience: ITPro
+ms.topic: article
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.collection: IT_Skype16
+ms.assetid: f2f7d19b-18c8-4a41-9b17-80d35b73d742
+description: 使用商務用 Skype Server 2015 的壓力與效能工具, 可在非生產或測試環境中進行容量規劃和效能調整時使用。
+ms.openlocfilehash: d82d5ed33e6dca1303aed9f49150dd6b56fc4e1a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "36193129"
+---
+# <a name="skype-for-business-server-2015-stress-and-performance-tool"></a>商務用 Skype Server 2015 應力與效能工具
+ 
+使用商務用 Skype Server 2015 的壓力與效能工具, 可在非生產或測試環境中進行容量規劃和效能調整時使用。
+  
+商務用 Skype Server 2015 的應力與效能工具組括的工具可簡化商務用 Skype Server 2015 的容量規劃。 商務用 Skype Server 2015 的應力與效能工具可協助您:
+  
+- 簡化商務用 Skype Server 的硬體規劃
+    
+- 提供更多關於效能調整的知識與最佳做法
+    
+- 衡量商務用 Skype Server 部署的效能
+    
+您通常會在您使用[商務用 Skype server 2015 規劃工具](../../management-tools/planning-tool/planning-tool.md)來設計拓撲, 並使用[商務用 Skype Server 2015 容量規劃計算機](../../management-tools/capacity-planning-calculator.md)來精煉拓朴, 來使用此工具。 
+
+> [!NOTE]
+> 商務用 Skype Server 2019 不會更新此工具。
+  
+## <a name="tests"></a>檢測
+
+壓力與效能工具可以模擬這些類型的使用者負載:
+  
+|||
+|:-----|:-----|
+|立即訊息 (IM) 與目前狀態  <br/> |音訊會議  <br/> |
+|應用程式共用  <br/> |[語音 over IP (VoIP)], 包括公用交換電話網絡 (PTSN) 模擬  <br/> |
+|Web Access 用戶端會議  <br/> |會議自動語音應答  <br/> |
+|回應群組  <br/> |通訊群組清單展開  <br/> |
+|通訊錄下載與通訊錄查詢  <br/> |增強型 911 (E911) 通話和位置設定檔 (撥號方案)  <br/> |
+|重視  <br/> |資料共同作業  <br/> |
+|行動不便  <br/> ||
+   
+## <a name="applications-and-files-included-with-the-skype-for-business-server-2015-stress-and-performance-tool"></a>商務用 Skype Server 2015 應力與效能工具隨附的應用程式和檔案
+
+這些應用程式是商務用 Skype Server 壓力和效能工具的一部分:
+  
+|**工具箱**|**說明**|
+|:-----|:-----|
+|UserProvisioningTool  <br/> |此工具可用來建立使用者和連絡人。  <br/> |
+|UserProfileGenerator  <br/> |用來設定您正在模擬的使用者負載的特性。  <br/> |
+|LyncPerfTool  <br/> |類比使用者負載的工具。  <br/> |
+|預設的 tmx  <br/> |需要使用商務用 Skype Server 2015 記錄工具。  <br/> |
+|預配腳本範例  <br/> |根據特定案例, 用來設定執行負載測試的拓撲。 您可能需要進行修改, 才能讓它們與您的特定環境相關。  <br/> |
+   
+## <a name="topics-in-this-section"></a>本節中的主題
+
+如果您需要進一步瞭解, 請參閱下列文章:
+  
+- [Skype 名片壓力與效能工具的先決條件與設定](prerequisites-and-setup.md)
+    
+- [商務用 Skype Server 2015 應力與效能工具的效能案例](scenarios.md)
+    
+  - [在壓力與效能案例中, 配拓拓撲以執行負載](provisioning-the-topology-to-run-load.md)
+    
+  - [設定商務用 Skype Server 2015 應力與效能工具的原則](configuring-policies.md)
+    
+- [使用商務用 Skype Server 2015 應力與效能工具](using-the-tool.md)
+    
+- [商務用 Skype Server 2015 應力與效能工具的常見問題](faq.md)
+    
+

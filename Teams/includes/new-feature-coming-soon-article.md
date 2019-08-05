@@ -1,0 +1,1 @@
+本文將說明尚未發行的 Microsoft 團隊功能。 我們已宣佈推出, 即將推出。如果您是系統管理員, 您可以在 [訊息中心] (在[Microsoft 365 系統管理中心](https://portal.office.com/adminportal/home)) 中, 找到此功能將會發佈的時間。 若要維持在即將到來的小組功能上, 請參閱[Microsoft 365 藍圖](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams)。

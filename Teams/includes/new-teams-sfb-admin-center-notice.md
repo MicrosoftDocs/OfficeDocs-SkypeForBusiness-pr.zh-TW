@@ -1,0 +1,1 @@
+新的 Microsoft 團隊系統管理中心位於這裡! 從2018年3月開始, 我們已從目前的商務用 Skype 系統管理中心以及 microsoft 365 系統管理中心的 Microsoft 團隊體驗逐步遷移設定。 如果設定已遷移, 您會看到通知, 然後在新的 Microsoft 團隊系統管理中心將其導向到該設定的位置。 如需詳細資訊, 請參閱在[轉場至新的 Microsoft 團隊系統管理中心時管理團隊](../manage-teams-skypeforbusiness-admin-center.md)。
