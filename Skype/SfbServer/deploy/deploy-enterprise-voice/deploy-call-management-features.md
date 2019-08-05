@@ -1,0 +1,50 @@
+---
+title: 在商務用 Skype 中部署通話管理功能
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+manager: serdars
+audience: ITPro
+ms.topic: get-started-article
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
+ms.assetid: 1667cfe4-76fa-4e10-91bb-b3efbedbf759
+description: 在商務用 Skype Server Enterprise Voice 中部署通話管理功能。
+ms.openlocfilehash: 834a9ecaf39222b81f617f6a917225a17448e5e0
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "36191956"
+---
+# <a name="deploy-call-management-features-in-skype-for-business"></a>在商務用 Skype 中部署通話管理功能
+ 
+在商務用 Skype Server Enterprise Voice 中部署通話管理功能。
+  
+企業語音通話管理功能可控制如何傳送和接聽來電。 商務用 Skype 伺服器提供下列通話管理功能: 
+  
+- **通話駐留**: 讓語音使用者暫時停止通話, 然後從相同的電話或另一部手機挑選電話。
+    
+- **群組通話**: 透過撥打電話挑選群組號碼, 讓使用者接聽指派給裝貨群組的另一位使用者的通話。
+    
+- **回應群組**: 使用查尋群組或互動式語音回應 (IVR) 問題與解答, 將來電路由至代理群組。
+    
+- [**公告**]: 針對未指派號碼的通話播放訊息, 或在別處傳送通話, 或同時將呼叫路由。
+    
+本節說明如何在企業語音部署期間設定這些呼叫管理功能。
+  
+## <a name="in-this-section"></a>本節內容
+
+- [商務用 Skype 中通話駐留的部署程式](deployment-process-for-call-park.md)
+    
+- [商務用 Skype 中的群組通話挑選部署程式](deployment-process-for-group-call-pickup.md)
+    
+- [商務用 Skype 中的回應群組部署程式](deployment-process-for-response-group.md)
+    
+- [商務用 Skype Server 中宣告應用程式的部署程式](deployment-process-for-the-announcement-application.md)
+    
+
