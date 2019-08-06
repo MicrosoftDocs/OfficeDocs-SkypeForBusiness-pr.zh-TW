@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5be7788c8df2247aa33b5c30111808e3606326a6
-ms.sourcegitcommit: f735495849f02e0ea23c7d6f250e9c0656daeea1
+ms.openlocfilehash: e6656cab6918cfa0b04da28f0197137a300bbf79
+ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "36184104"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "36207189"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>與商務用 Skype 搭配使用團隊之組織的遷移和互通性指南
 
@@ -162,7 +162,7 @@ TeamsUpgradePolicy 會控制傳入的同盟聊天和通話的路由。 同盟路
 
 |下|簡要|
 |---|---|
-|**索羅門群島**</br>設置|使用者並排執行商務用 Skype 和團隊。 此使用者:</br><ul><li>可以在商務用 Skype 或團隊用戶端中啟動聊天和 VoIP 通話。 注意: 不論收件者的模式為何, 使用商務用 Skype 託管內部部署的使用者都無法從團隊開始進行。<li>透過商務用 Skype 用戶端中的其他使用者, 在商務用 Skype 中 & VoIP 通話的 [接收聊天]。<li>在團隊用戶端中由另一個使用者所發起的 VoIP 通話 &, 如果他們在*相同的租*使用者中, 就會收到交談。<li>在其他使用者的商務用 Skype 用戶端 (如果它們位於同盟*租*使用者中) 中, 由其他使用者在團隊中發起的 VoIP 通話 &。 <li>具有 PSTN 功能, 如下所述:<ul><li>當使用者位於商務用 Skype 內部部署且擁有企業語音時, 系統會在商務用 Skype 中一直啟動並接收 PSTN 通話。<li>當使用者駐留在商務用 Skype Online 且擁有 Microsoft 手機系統時, 使用者會在商務用 Skype 中總是啟動並接聽 PSTN 通話:<ul><li>無論使用者是否有 Microsoft 通話方案, 或是透過商務用 skype 雲端連接器版本或內部部署 (混合式語音) 來連線至 PSTN 網路, 都會發生 IThis。<li>注意: 在孤島模式中不支援 Microsoft 團隊手機系統直向路由。</ul></ul><li>•在商務用 Skype 中接收 Microsoft 通話佇列和自動助理通話<li>可以在小組或商務用 Skype 中排程會議 (預設會看到兩個外掛程式)。<li>可以加入任何商務用 Skype 或團隊會議;該會議將會在各自的用戶端中開啟。</ul>|
+|**索羅門群島**</br>設置|使用者並排執行商務用 Skype 和團隊。 此使用者:</br><ul><li>可以在商務用 Skype 或團隊用戶端中啟動聊天和 VoIP 通話。 注意: 不論收件者的模式為何, 使用商務用 Skype 託管內部部署的使用者都無法從團隊開始進行。<li>透過商務用 Skype 用戶端中的其他使用者, 在商務用 Skype 中 & VoIP 通話的 [接收聊天]。<li>在團隊用戶端中由另一個使用者所發起的 VoIP 通話 &, 如果他們在*相同的租*使用者中, 就會收到交談。<li>在其他使用者的商務用 Skype 用戶端 (如果它們位於同盟*租*使用者中) 中, 由其他使用者在團隊中發起的 VoIP 通話 &。 <li>具有 PSTN 功能, 如下所述:<ul><li>當使用者位於商務用 Skype 內部部署且擁有企業語音時, 系統會在商務用 Skype 中一直啟動並接收 PSTN 通話。<li>當使用者駐留在商務用 Skype Online 且擁有 Microsoft 手機系統時, 使用者會在商務用 Skype 中總是啟動並接聽 PSTN 通話:<ul><li>不論使用者是否有 Microsoft 通話方案, 或是透過商務用 skype 雲端連接器版本或內部部署 (混合式語音) 來連線至 PSTN 網路, 都會發生這種情況。<li>**注意: 在孤島模式中不支援 Microsoft 團隊手機系統直向路由。**</ul></ul><li>在商務用 Skype 中接收 Microsoft 通話佇列和自動助理通話。<li>可以在小組或商務用 Skype 中排程會議 (預設會看到兩個外掛程式)。<li>可以加入任何商務用 Skype 或團隊會議;該會議將會在各自的用戶端中開啟。</ul>|
 |**SfBOnly**|使用者只執行商務用 Skype。 此使用者:</br><ul><li>只能從商務用 Skype 開始聊天和通話。<li>在其商務用 Skype 用戶端中接收任何聊天/通話, 除非發起者是擁有商務用 Skype 內部部署的小組使用者。*只能排程商務用 skype 會議, 但可以加入商務用 skype 或團隊會議。 <li></br>* 在 SfBOnly 模式中, 不建議將孤島模式與內部部署使用者結合使用。 如果使用商務用 Skype 內部部署的小組使用者啟動通話或聊天給 SfBOnly 使用者, 則無法取得 SfBOnly 使用者, 而且會收到未接的聊天/呼叫電子郵件。|
 |**SfBWithTeamsCollab**|使用者並排執行商務用 Skype 和團隊。 此使用者:</br><ul><li>在 SfBOnly 模式中具有使用者的功能。<li>只有針對群組共同作業 (頻道) 啟用團隊;聊天/通話/會議排程已停用。</ul>|
 |**SfBWithTeamsCollab</br>AndMeetings**|使用者並排執行商務用 Skype 和團隊。 此使用者:<ul><li>在 SfBOnly 模式中擁有使用者的聊天與通話功能。<li>已啟用團隊共同作業 (頻道-包括通道交談);聊天和通話已停用。<li>只能排程團隊會議, 但可以加入商務用 Skype 或團隊會議。</ul>|

@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 在商務用 Skype Server 2019 中使用雲端自動助手的概覽
-ms.openlocfilehash: 1a5f1aad4cd983f1f3839f47c54404d168ecf7f0
-ms.sourcegitcommit: 016beacc8b64eaeeaefb641360dd9bb8d2191c4a
+ms.openlocfilehash: 635d9c6548ba807153876d63ad228f69646e93c8
+ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "36185536"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "36207026"
 ---
 # <a name="plan-cloud-auto-attendants"></a>規劃雲端自動語音應答
 
@@ -56,14 +56,14 @@ Exchange Server 2019 或 exchange Online 中已不再提供與 Exchange 整合�
    如需詳細資訊, 請參閱[規劃商務用 Skype server 與 office 365 之間的混合式連接](plan-hybrid-connectivity.md), 以及[設定商務用 Skype 伺服器與 office 365 之間的混合](configure-hybrid-connectivity.md)式連線。
 
 - 如果您要將電話號碼指派給自動語音應答, 您必須具備[Office 365 企業版 E5](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing)授權。
-- 針對每個自動語音應答建立內部部署[資源帳戶](/MicrosoftTeams/manage-resource-accounts.md), 並指派電話號碼和授權。 
+- 針對每個自動語音應答建立線上[資源帳戶](/MicrosoftTeams/manage-resource-accounts.md)或內部部署[資源帳戶](configure-onprem-ra.md), 並指派電話號碼和授權。 
 
 ## <a name="migration-and-interoperability"></a>遷移和互通性
 
 如果您打算部署商務用 Skype Server 2019 和/或 Exchange Server 2019, 您必須小心地規劃您的遷移, 以確保自動語音應答的支援。 請記住下列事項:
 
 - Exchange Server 2019 不再提供 Exchange UM 功能
-- Exchange 整合訊息線上處於停用模式
+- Exchange 整合訊息處於退休模式
 - 商務用 Skype Server 2019 不再與 Exchange Online UM 整合
 
 雲端自動語音應答可以使用商務用 Skype Server 2019、2015和2013進行設定。
@@ -91,7 +91,7 @@ Microsoft 建議下列遷移路徑:
 
 ## <a name="additional-planning-resources"></a>其他規劃資源
 
-標題為「小型企業」的教學課程[範例-設定自動](/microsoftteams/tutorial-org-aa)語音應答: 完成收集使用者需求之資訊的程式、規劃自動語音應答及使用者的結構 (以及可能通話佇列)、撰寫功能表提示, 以及在線上系統管理中心實施方案。 查看教學課程, 並使用這裡的練習來建立您的方案。
+標題為「小型企業」的教學課程[範例-設定自動](/microsoftteams/tutorial-org-aa)語音應答: 完成收集使用者需求之資訊的程式、規劃自動語音應答及使用者的結構 (以及可能通話佇列)、撰寫功能表提示, 以及在團隊系統管理中心實施方案。 查看教學課程, 並使用這裡的練習來建立您的方案。
 
 當您有符合您需求的實體結構, 以及能有效引導客戶的腳本時, 請繼續[設定資源帳戶](configure-onprem-ra.md)。
 

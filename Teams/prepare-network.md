@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d203aefa4ba6991fbe6cf6a2ac463f4649f2aaa9
-ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
+ms.openlocfilehash: 041c391f202ac42b782ffc200db9ad495961fa52
+ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "36184236"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "36207149"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>為 Microsoft 團隊準備貴組織的網路
 
@@ -58,10 +58,7 @@ ms.locfileid: "36184236"
 
 網路效能目標會採用適當的頻寬與/或[QoS 規劃](QoS-in-Teams.md)。 換句話說, 當網路連線達到峰值負載時, 這些需求會直接套用至團隊即時媒體流量。
 
-若要測試兩個網路區段, 您可以使用 [[網路評](https://go.microsoft.com/fwlink/?linkid=855799)量] 工具。 此工具可以直接在用戶端電腦上和連線至客戶網路邊緣的電腦上部署。 此工具組含有限的檔, 但在此可找到有關該工具用法的深入說明文件:[網路就緒評估](https://go.microsoft.com/fwlink/?linkid=855800)。 您可以透過執行此網路準備情況評估來驗證您的網路是否已準備好執行即時媒體應用程式, 例如 Microsoft 團隊。
-
-> [!NOTE]
-> 這是相同的網路準備情況評估, 建議針對想要成功部署商務用 Skype 的客戶執行。
+如需針對團隊準備網路的詳細說明, 請參閱[網路 Planner](https://docs.microsoft.com/microsoftteams/network-planner)。
 
 
 ## <a name="bandwidth-requirements"></a>頻寬需求

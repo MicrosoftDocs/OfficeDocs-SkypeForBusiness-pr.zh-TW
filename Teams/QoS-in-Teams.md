@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dc2344494ed853a992f205b6bdcfd4d702136f99
-ms.sourcegitcommit: da87a3c4c781223ab7de2fb539bb0796dc27ea9e
+ms.openlocfilehash: 0f6a48f11dafaff0bc0435e4a01561824c212936
+ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "36185037"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "36207173"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>在 Microsoft 團隊中實現服務品質 (QoS)
 
@@ -101,7 +101,7 @@ DSCP 標記可以是 likened 到郵票, 指出郵政工人是傳送的緊急程�
 
 不同即時資料流工作負載的埠範圍相對大小, 會設定專用於該工作負載的總可用頻寬比例。 若要回到我們先前的主要類比: 使用「Air Mail」戳記的字母, 可能會在一個小時內取得最接近的機場, 而標示為「大量信箱」的小型封裝則可以在一天前, 在一系列卡車上在飛機上出差前等候一天。
 
-下表顯示具有 ExpressRoute 之團隊的必要 DSCP 標記, 以及工作負荷佇列的相關埠。 這些範圍可以作為良好的起點, 適合無法確定要在自己的環境中使用的使用者。 若要深入瞭解, 請閱讀[ExpressRoute QoS 需求](https://docs.microsoft.com/azure/expressroute/expressroute-qos)。
+下表顯示所需的 DSCP 標記, 以及團隊和 ExpressRoute 所使用的建議對應媒體埠範圍。 這些範圍可以作為良好的起點, 適合無法確定要在自己的環境中使用的使用者。 若要深入瞭解, 請閱讀[ExpressRoute QoS 需求](https://docs.microsoft.com/azure/expressroute/expressroute-qos)。
 
 _建議的初始埠範圍_
 

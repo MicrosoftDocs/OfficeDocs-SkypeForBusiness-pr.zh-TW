@@ -18,16 +18,16 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: 瞭解如何在 Microsoft 團隊中管理資源帳戶
-ms.openlocfilehash: f1028e35bff7a2801a82e50e032c1b181200e00e
-ms.sourcegitcommit: 384e123f3b5cf1600ebd5ddd69bd022f9b8ba0f8
+ms.openlocfilehash: dfb7a9b65003442266cc6cf25ea59b7270aa1c9c
+ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/25/2019
-ms.locfileid: "36185088"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "36207164"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>管理 Microsoft 團隊中的資源帳戶
 
-資源帳戶也稱為 Azure Active Directory 中的*已停用使用者物件*, 而且可以用來代表一般的資源。 例如, 在 Exchange 中可能會用來代表會議室, 並允許他們擁有電話號碼。 您可以使用商務用 Skype Server 2019, 在 Microsoft 365 或內部部署中託管資源帳戶。
+資源帳戶也稱為 Azure AD 中*已停用的使用者物件*, 而且可以用來代表一般的資源。 例如, 在 Exchange 中可能會用來代表會議室, 並允許他們擁有電話號碼。 您可以使用商務用 Skype Server 2019, 在 Microsoft 365 或內部部署中託管資源帳戶。
 
 在 Microsoft 團隊或商務用 Skype Online 中, 每個電話系統通話佇列或自動語音應答都必須有關聯的資源帳戶。 資源帳戶是否需要指派的電話號碼, 取決於相關通話佇列或自動語音應答的用途, 如下列圖表所示。 在將電話號碼指派給資源帳戶之前, 您也可以參閱在本文底部連結的通話佇列和自動語音應答。
 
@@ -39,17 +39,15 @@ ms.locfileid: "36185088"
 
 ## <a name="overview"></a>概觀
 
-假設您的組織已經使用至少一個電話系統授權、指派電話系統通話佇列或自動接聽電話號碼, 您需要以下列順序來處理各種相依性:
+如果您的組織已經在使用至少一個電話系統授權, 請將電話號碼指派給電話系統通話佇列或自動語音應答流程如下:
 
 1. 取得服務號碼。
-2. 取得免費的電話系統-[虛擬使用者授權](teams-add-on-licensing/virtual-user.md)或付費電話系統授權, 以便與資源帳戶搭配使用。
+2. 取得免費的電話系統-[虛擬使用者授權](teams-add-on-licensing/virtual-user.md)或付費電話系統授權, 以與資源帳戶或電話系統授權搭配使用。
 3. 建立資源帳戶。 需要自動語音應答或通話佇列, 才能擁有關聯的資源帳戶。
 4. 將電話系統或電話系統-虛擬使用者授權指派給資源帳戶。
 5. 將服務電話號碼指派給您剛指派授權給之資源帳戶。 
 6. 建立電話系統通話佇列或自動語音應答
 7. 連結資源帳戶與通話佇列或自動語音應答。
-
-
 
 如果自動語音應答或呼叫佇列是嵌套在頂層自動語音應答底下, 只要您想要將多個進入點輸入到自動語音應答及呼叫佇列的結構中, 相關聯的資源帳戶就只需要電話號碼。
 
@@ -58,19 +56,19 @@ ms.locfileid: "36185088"
 > [!WARNING]
 > 為了避免發生資源帳戶的問題, 請依照下列步驟進行。
 
-如果您正在建立的電話系統通話佇列或自動語音應答將會嵌套, 且不需要電話號碼, 程式如下:
+如果您正在建立的電話系統通話佇列或自動語音應答將會嵌套, 而且不需要電話號碼, 程式如下:
 
-1. 建立資源帳戶  
+1. 建立資源帳戶 
 2. 建立電話系統通話佇列或自動語音應答
 3. 將資源帳戶與電話系統通話佇列或自動語音關聯
 
 ### <a name="create-a-resource-account-with-a-phone-number"></a>使用電話號碼建立資源帳戶
 
-最上層的自動語音應答或通話佇列, 必須將電話號碼連結至它的自動語音應答。 若要建立使用電話號碼的資源帳戶, 必須以下列循序執行下列工作:
+最上層的自動語音應答或通話佇列, 必須將電話號碼連結至它的自動語音應答。 若要建立使用電話號碼的資源帳戶, 程式為:
 
 1. 移植或取得付費或免付費服務號碼。 該號碼不能指派給任何其他語音服務或資源帳戶。
 
-   將電話號碼指派給資源帳戶之前, 您將需要取得或移植現有的付費或免付費服務號碼。 當您收到付費或免付費服務電話號碼之後, 就會顯示在**Microsoft 團隊系統管理中心** > **語音** > **電話號碼**中, 而列出的**數位類型**則會列為 [**服務-免付費**電話]。 若要取得您的服務號碼, 請參閱[取得服務電話號碼](getting-service-phone-numbers.md), 或者如果您想要轉移現有的服務號碼, 請參閱[將電話號碼轉移至 Office 365](transfer-phone-numbers-to-office-365.md)。
+   在您將電話號碼指派給資源帳戶之前, 您必須先取得或移植現有的付費或免付費服務號碼。 當您收到付費或免付費服務電話號碼之後, 就會顯示在**Microsoft 團隊系統管理中心** > 的**語音** > **電話號碼**中, 而**數位類型**則會列為 [**服務-免付費**電話]。 若要取得您的服務號碼, 請參閱[取得服務電話號碼](getting-service-phone-numbers.md), 或者如果您想要轉移現有的服務號碼, 請參閱[將電話號碼轉移至 Office 365](transfer-phone-numbers-to-office-365.md)。
 
    如果您要將電話號碼指派給資源帳戶, 您現在可以使用 [免付費電話系統虛擬使用者授權]。 這會提供手機系統功能給組織階層的電話號碼, 並可讓您建立自動語音應答及呼叫佇列功能。
 
@@ -87,7 +85,7 @@ ms.locfileid: "36185088"
 
 ### <a name="create-a-resource-account-without-a-phone-number"></a>建立不含電話號碼的資源帳戶
 
-嵌套的自動語音應答或呼叫佇列將需要資源帳戶, 但在許多情況下, 對應的資源帳戶不需要電話號碼和支援電話號碼所需的授權。  若要建立不需要電話號碼的資源帳戶, 必須以下列循序執行下列工作:
+嵌套的自動語音應答或呼叫佇列將需要資源帳戶, 但在許多情況下, 對應的資源帳戶不需要電話號碼和支援電話號碼所需的授權。 若要建立不需要電話號碼的資源帳戶, 必須以下列循序執行下列工作:
 
 1. 建立新的資源帳戶。 請參閱[在 Microsoft 團隊系統管理中心建立資源帳戶](#create-a-resource-account-in-microsoft-teams-admin-center)或[在 Powershell 中建立資源帳戶](#create-a-resource-account-in-powershell)
 2. 設定下列其中一項:
@@ -112,7 +110,7 @@ ms.locfileid: "36185088"
 
 ### <a name="edit-resource-account-name"></a>編輯資源帳戶名稱
 
-![數位2的圖示, 參照前一個螢幕擷取畫面](media/sfbcallout2.png)中的標注, 您可以使用 [**編輯**] 選項編輯資源帳戶顯示名稱。  完成後, 按一下 [**儲存**]。
+![數位2的圖示, 參照前一個螢幕擷取畫面](media/sfbcallout2.png)中的標注, 您可以使用 [**編輯**] 選項編輯資源帳戶顯示名稱。 完成後, 按一下 [**儲存**]。
 ![[編輯資源帳戶] 選項的螢幕擷取畫面](media/r-a-edit.png)
 
 ### <a name="assignunassign-phone-numbers-and-services"></a>指派/取消指派電話號碼和服務
@@ -128,7 +126,7 @@ ms.locfileid: "36185088"
 
 ## <a name="change-an-existing-resource-account-to-use-a-virtual-user-license"></a>變更現有的資源帳戶以使用虛擬使用者授權
 
-如果您決定將現有資源帳戶的授權從電話系統授權切換至虛擬使用者授權, 您必須 aquire [免費虛擬使用者] 授權, 然後依照 Microsoft 365 系統管理中心的連結步驟,[將使用者移至不同的訂閱](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription)。 
+如果您決定將現有資源帳戶的授權從電話系統授權切換至虛擬使用者授權, 您必須取得免費的虛擬使用者授權, 然後依照 Microsoft 365 系統管理中心的連結步驟,[將使用者移至不同的訂閱](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription)。 
 
 > [!WARNING]
 > 永遠移除完整的電話系統授權, 並在相同的授權活動中指派虛擬使用者授權。 如果您移除舊的授權, 請儲存帳戶變更、新增授權, 然後再次儲存帳戶設定, 資源帳戶可能無法如期運作。 如果發生這種情況, 我們建議您為虛擬使用者授權建立新的資源帳戶, 並移除中斷的資源帳戶。 
@@ -149,7 +147,7 @@ ms.locfileid: "36185088"
 > [!NOTE]
 > 如果您想要讓通話佇列或自動語音應答能由內部部署使用者進行搜尋, 您應該在內部部署中建立資源帳戶, 因為線上資源帳戶不會同步處理到 Active Directory。
 
-1. 若要在線上建立與自動語音助理搭配使用的資源帳戶, 請使用下列命令。  
+1. 若要在線上建立與自動語音助理搭配使用的資源帳戶, 請使用下列命令。
 
 ``` Powershell
 New-CsOnlineApplicationInstance -UserPrincipalName testra1@contoso.com -ApplicationId “ce933385-9390-45d1-9512-c8d228074e07” -DisplayName "Resource account 1"
@@ -177,7 +175,7 @@ Set-CsOnlineApplicationInstance -Identity appinstance01@contoso.com -OnpremPhone
 
 ## <a name="manage-resource-account-settings-in-microsoft-teams-admin-center"></a>管理 Microsoft 團隊系統管理中心的資源帳戶設定
 
-若要在 Microsoft 團隊系統管理中心中管理 [資源帳戶設定], 請流覽至 [**整個組織的設定**  > **資源帳戶**], 選取您需要變更其設定的資源帳戶, 然後按一下 [**編輯**] 按鈕。 在 [**編輯資源帳戶**] 畫面中, 您將能夠變更這些設定:
+若要在 Microsoft 團隊系統管理中心中管理 [資源帳戶設定], 請流覽至 [**整個組織的設定** > **資源帳戶**], 選取您需要變更其設定的資源帳戶, 然後按一下 [**編輯**] 按鈕。 在 [**編輯資源帳戶**] 畫面中, 您將能夠變更這些設定:
 
 - 帳戶的**顯示名稱**
 - 使用帳戶的通話佇列或自動語音應答
@@ -206,7 +204,7 @@ Get-MsolUser -UserPrincipalName "username@contoso.com"| fl objectID,department
 如果 [部門] 屬性顯示商務用 Skype 應用程式端點, 請執行下列 Cmdlet:
 
 ``` Powershell
-Set-MsolUser -ObjectId  -Department "Microsoft Communication Application Instance"
+Set-MsolUser -ObjectId -Department "Microsoft Communication Application Instance"
 ```
 
 > [!NOTE]
@@ -220,7 +218,7 @@ Set-MsolUser -ObjectId  -Department "Microsoft Communication Application Instanc
   
    [規劃雲端通話佇列](/SkypeforBusiness/hybrid/plan-call-queue)
    
-   [設定 onprem 資源帳戶](/SkypeForBusiness/hybrid/configure-onprem-ra)
+   [設定內部部署的資源帳戶](/SkypeForBusiness/hybrid/configure-onprem-ra)
 
 
 針對團隊或商務用 Skype Online 中的 [實現]:
