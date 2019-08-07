@@ -1,2 +1,0 @@
-> [!NOTE]
-> <span data-ttu-id="7c656-101">此頁面說明預發行軟體, 在發行前可能會有很大的變更。</span><span class="sxs-lookup"><span data-stu-id="7c656-101">This page describes pre-release software that may change substantially before it is released.</span></span> <span data-ttu-id="7c656-102">任何螢幕擷取畫面都是預留位置, 看起來會與您所看到的不同。</span><span class="sxs-lookup"><span data-stu-id="7c656-102">Any screen shots are placeholders and may look different than what you see.</span></span> 
