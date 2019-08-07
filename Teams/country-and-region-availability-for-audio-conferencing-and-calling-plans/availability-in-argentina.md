@@ -26,10 +26,10 @@ ms.custom:
 - Calling Plans
 description: 以下是適用于商務用 Skype 和 Microsoft 團隊 (阿根廷) 的 Office 365 服務。
 ms.openlocfilehash: 0084e540de60bae8a14372254f19a1347c15f3ac
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/21/2019
+ms.lasthandoff: 08/06/2019
 ms.locfileid: "36183237"
 ---
 # <a name="availability-in-argentina"></a>阿根廷的可用性

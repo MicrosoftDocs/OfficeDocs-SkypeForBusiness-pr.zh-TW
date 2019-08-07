@@ -26,10 +26,10 @@ ms.custom:
 - Calling Plans
 description: 以下是適用于日本的商務用 Skype 和 Microsoft 團隊的 Office 365 服務。
 ms.openlocfilehash: 946a5f6cb5989b7bd9773ba34a0d62e19e2bb479
-ms.sourcegitcommit: 5faa89ea686448d5b339178f1330edc63e21a52f
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/09/2019
+ms.lasthandoff: 08/06/2019
 ms.locfileid: "36184788"
 ---
 # <a name="availability-in-japan"></a>日本的可用性

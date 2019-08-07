@@ -17,10 +17,10 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 5ed7f58489a43a1bd9e781cd7e8fb69bd6a6dc58
-ms.sourcegitcommit: 60c868155c7709df35fad23a41330483f8b59fee
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/22/2019
+ms.lasthandoff: 08/06/2019
 ms.locfileid: "36185016"
 ---
 # <a name="configure-network-settings-for-location-based-routing"></a>設定以位置為基礎的路由的網路設定

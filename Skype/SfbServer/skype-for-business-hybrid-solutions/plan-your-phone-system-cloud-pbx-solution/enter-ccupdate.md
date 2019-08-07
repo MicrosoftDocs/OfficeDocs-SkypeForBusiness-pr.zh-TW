@@ -12,10 +12,10 @@ localization_priority: Normal
 ms.assetid: 330367f2-22b0-43e3-b8fb-3e0d2e3b330e
 description: CcUpdate Cmdlet 會將商務用 Skype 雲端連接器 Edition 主機伺服器加入維護模式, 以進行更新程式。 裝置會立即停止所有服務、結束任何正在進行的通話, 並拒絕任何新的呼叫。
 ms.openlocfilehash: 3ff4c1543e3e882a7ccbaf0b9a216ce902a77c5f
-ms.sourcegitcommit: 04c819504e23f9e3a618b57d54411ffb83888fb9
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/06/2019
+ms.lasthandoff: 08/06/2019
 ms.locfileid: "36193932"
 ---
 # <a name="enter-ccupdate"></a>Enter-CcUpdate

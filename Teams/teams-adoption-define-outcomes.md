@@ -18,10 +18,10 @@ description: 瞭解如何衡量團隊規模廣泛啟用的結果與成功率。
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: f98783ef5baadc1f4f16d9390e4c3d6a6c2f796a
-ms.sourcegitcommit: ff777b61573b9d90e2d49c49b41fad654eeb3af7
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/31/2019
+ms.lasthandoff: 08/06/2019
 ms.locfileid: "36184014"
 ---
 # <a name="define-outcomes-and-success-for-your-microsoft-teams-adoption"></a>為您的 Microsoft 團隊採納定義結果與成功

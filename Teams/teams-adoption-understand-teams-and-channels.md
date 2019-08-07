@@ -18,10 +18,10 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 051c22d9b2f4a725797a8356d4a0a76ed15f31d2
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/24/2019
+ms.lasthandoff: 08/06/2019
 ms.locfileid: "36183705"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>瞭解 Microsoft 團隊中的團隊和頻道

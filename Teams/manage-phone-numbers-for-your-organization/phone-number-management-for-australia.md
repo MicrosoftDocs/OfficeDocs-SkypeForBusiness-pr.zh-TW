@@ -20,10 +20,10 @@ ms.custom:
 - Calling Plans
 description: 您可以在此表格中尋找有關在澳大利亞的 Microsoft 團隊中取得與管理電話號碼的資訊。
 ms.openlocfilehash: 48858b16694c6129b87847bb4d93c513b63e5f4d
-ms.sourcegitcommit: f26bb86d38c3b45a82e6d77c5aa521360a81ee9b
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/03/2019
+ms.lasthandoff: 08/06/2019
 ms.locfileid: "36184677"
 ---
 # <a name="phone-number-management-for-australia"></a>澳大利亞電話號碼管理

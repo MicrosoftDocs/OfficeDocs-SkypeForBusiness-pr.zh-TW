@@ -14,10 +14,10 @@ appliesto:
 ms.reviewer: acolonna
 description: 使用者可以將另一個使用者明確地設定為其狀態訊息中的代理人。
 ms.openlocfilehash: 451577ce033f9a67bbc13ebbe2361083ab035e48
-ms.sourcegitcommit: 66213b972920b4e09faf7d7e732c4bfe7b322ac4
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/21/2019
+ms.lasthandoff: 08/06/2019
 ms.locfileid: "36184173"
 ---
 # <a name="message-delegation"></a>郵件委派

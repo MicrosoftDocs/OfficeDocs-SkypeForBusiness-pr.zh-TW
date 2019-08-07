@@ -15,10 +15,10 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 7a09da58b0f845bf8915458b7f5216a334d4012d
-ms.sourcegitcommit: ff777b61573b9d90e2d49c49b41fad654eeb3af7
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/31/2019
+ms.lasthandoff: 08/06/2019
 ms.locfileid: "36184005"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Microsoft 團隊的雲端視頻互通性

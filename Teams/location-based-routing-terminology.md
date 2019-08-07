@@ -17,10 +17,10 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: db6d6892c8a3bda8d30ac61d0458f252a6ac9281
-ms.sourcegitcommit: 60c868155c7709df35fad23a41330483f8b59fee
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/22/2019
+ms.lasthandoff: 08/06/2019
 ms.locfileid: "36185013"
 ---
 # <a name="location-based-routing-terminology"></a>以位置為基礎的路由術語

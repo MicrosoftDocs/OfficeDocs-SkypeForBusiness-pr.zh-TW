@@ -24,10 +24,10 @@ ms.custom:
 - Calling Plans
 description: 這將協助您瞭解如何在每個國家/地區撥打免付費電話號碼。 在您選取國家/地區之後, 系統會將您帶到特定國家/地區的頁面, 其中包含特定的詳細資料、限制, 以及免費提供免付費服務的服務可用性限制。 [撥號格式] 或 [格式] 會在每個國家/地區顯示所需的存取代碼, 以撥打免付費電話號碼。
 ms.openlocfilehash: 59ba5d95ed69dcbfa354e7bd45d79635f5c4eca9
-ms.sourcegitcommit: 4b8350e5bb2ef138dcc0204d764bdf85bae539ba
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/21/2019
+ms.lasthandoff: 08/06/2019
 ms.locfileid: "36183360"
 ---
 # <a name="toll-free-dialing-restrictions-in-china---south-10-800-140-xxxx-range"></a>中國-南部的免付費撥號限制 (10 800 140 XXXX 範圍)

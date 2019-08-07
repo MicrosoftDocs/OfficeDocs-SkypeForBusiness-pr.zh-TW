@@ -13,10 +13,10 @@ ms.custom: tracyp
 ms.assetid: 258430b0-574a-47fb-90b7-54ee8996b2ec
 description: 本文列出商務用 Skype 中的新式驗證支援哪些線上和內部部署拓撲, 以及適用于每個拓朴的安全性功能。
 ms.openlocfilehash: 0d66790d2c471af29ed5c3f886393b1cd33f2b6a
-ms.sourcegitcommit: 4bb900228cc55e0cbbce8c5b74b7de8df5a2288f
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/23/2019
+ms.lasthandoff: 08/06/2019
 ms.locfileid: "36193922"
 ---
 # <a name="skype-for-business-topologies-supported-with-modern-authentication"></a>現代驗證支援的商務用 Skype 拓撲

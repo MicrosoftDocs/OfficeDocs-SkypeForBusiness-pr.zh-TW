@@ -12,10 +12,10 @@ ms.collection: M365-voice
 localization_priority: Normal
 description: 請閱讀本主題, 以瞭解 Microsoft 團隊聊天室 (即新一代 Skype 房間系統) 的管理。
 ms.openlocfilehash: b5397e3b5049b4e7945780ebba70c2aaa2fc154b
-ms.sourcegitcommit: 8305fd00f6f9e302653fb383e4ac8d38490644c1
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/24/2019
+ms.lasthandoff: 08/06/2019
 ms.locfileid: "36183570"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft 團隊會議室維護和作業 

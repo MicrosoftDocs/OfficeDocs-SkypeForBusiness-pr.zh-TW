@@ -11,10 +11,10 @@ localization_priority: Normal
 ms.assetid: 21507e18-bd79-4019-9c3a-0867fccaa3b4
 description: '摘要: 請閱讀本主題, 瞭解如何在商務用 Skype Server 中實施及管理大型會議的最佳做法。'
 ms.openlocfilehash: 136896a45be36508af419d84bc5bd684c9d8a429
-ms.sourcegitcommit: 3678dbbc8c36010fbf12c57b52281ef4fca9f065
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2019
+ms.lasthandoff: 08/06/2019
 ms.locfileid: "36193930"
 ---
 # <a name="plan-for-large-meetings-in-skype-for-business-server"></a>在商務用 Skype Server 中規劃大型會議
