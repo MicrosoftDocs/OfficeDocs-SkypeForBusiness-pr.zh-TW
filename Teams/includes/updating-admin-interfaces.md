@@ -1,1 +1,1 @@
-<span data-ttu-id="da328-101">我們經常更新您管理功能的方式, 所以這裡的步驟可能與您所看到的不同。</span><span class="sxs-lookup"><span data-stu-id="da328-101">We are frequently updating how you can manage features, so the steps here might be a little different from what you see.</span></span>
+<span data-ttu-id="0e788-101">我們經常更新您管理功能的方式, 所以這裡的步驟可能與您所看到的不同。</span><span class="sxs-lookup"><span data-stu-id="0e788-101">We are frequently updating how you can manage features, so the steps here might be a little different from what you see.</span></span>
