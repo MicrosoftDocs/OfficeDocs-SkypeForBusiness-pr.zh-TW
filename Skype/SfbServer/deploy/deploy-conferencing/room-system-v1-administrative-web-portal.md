@@ -5,18 +5,18 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 81822efa-2100-4017-a470-8a5b98c49522
 ms.collection: M365-voice
 description: 商務用 Skype Server Skype 室系統 v1 (SRS v1, 先前稱為 Lync 室系統) 系統管理網頁入口網站是一種網路入口網站, 組織可以用來維護其 Skype 會議室系統會議室。 系統管理員可以使用 SRS v1 管理網頁入口網站來監視裝置的健康情況, 例如, 透過監視音訊/視頻裝置。 有了這個入口網站, 管理員就可以遠端收集診斷資訊來監控會議室的健康情況。
-ms.openlocfilehash: 5ad4ffb08ecbc32feaa87aa2f7d48d82003e2e3e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bf18cefbdaa5beeaef63d16b5447cce2969fc147
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36193895"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36234172"
 ---
 # <a name="deploy-srs-v1-administrative-web-portal-in-skype-for-business-server"></a>在商務用 Skype Server 中部署 SRS v1 管理網頁入口網站
 
