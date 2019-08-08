@@ -5,7 +5,7 @@ author: lanachin
 ms.reviewer: Turgayo
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: 本文將說明如何使用 Azure 監視器, 以整合的端對端方式部署 Microsoft 團隊機房裝置的管理。
-ms.openlocfilehash: fd1f1b32bd999c18144831e2458b426bf55ca1a9
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: 1f9a6e6ba4da22d8b14f4b1d545c0a6cfb16e14b
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "36183666"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36243616"
 ---
 # <a name="deploy-microsoft-teams-rooms-management-with-azure-monitor"></a>使用 Azure 監視器部署 Microsoft 團隊聊天室管理
 

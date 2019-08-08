@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d390c8a1-dc6e-44d8-b386-2be1fca9877c
 description: 商務用 Skype Server Enterprise Voice 中的 [部署程式] 和 [回應] 群組步驟。
-ms.openlocfilehash: 62c6471018c3c1c6d1943d252975d2e671ef8cf4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 12497d143f9ff5c7630f81db8f416e2f7c74d574
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36187342"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36233524"
 ---
 # <a name="deployment-process-for-response-group-in-skype-for-business"></a>商務用 Skype 中的回應群組部署程式
 

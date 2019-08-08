@@ -5,6 +5,7 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 ms.reviewer: dearbeen, bjwhalen
 description: 商務用 Skype 和 Microsoft 團隊共存選項與模式的詳細資料, 以及從商務用 Skype 將 journeys 升級至小組, 並提供範例案例。
 localization_priority: Normal
@@ -13,17 +14,17 @@ ms.custom: Teams-upgrade-guidance
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.teamsfeatures.upgradetoteamsarticle
 - ms.teamsadmincenter.upgradeoverride.learnmore
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d662dfd98aa4706d32a7e9ba3bec06d5e32ae975
-ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
+ms.openlocfilehash: 7509d0f3d6e3e557f6b7ccd388f7b9b340705bba
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "36185232"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236577"
 ---
 ![升級歷程圖表, 強調部署與實施](media/upgrade-banner-deployment.png "升級歷程階段, 重點是部署與實施階段")
 

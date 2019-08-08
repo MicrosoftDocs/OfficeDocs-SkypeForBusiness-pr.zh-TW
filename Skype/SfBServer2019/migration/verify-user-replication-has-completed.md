@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 執行 Move-csuser Cmdlet 時, 您可能會遇到失敗, 因為 Active Directory 網域服務 (AD DS) 與商務用 Skype Server 2019 資料庫之間的使用者資訊無法同步處理, 因為初始複製不完整。 成功完成商務用 Skype Server 2019 [使用者複製程式服務] 的初始同步處理所需的時間, 取決於託管在託管商務用 Skype 的 Active Directory 林中的網網域控制站數量Server 2019 pool。 當商務用 Skype Server 2019 前端伺服器第一次啟動時, 就會發生 [商務用 Skype Server 2019] 使用者複製程式服務初始同步處理常式。 之後, 就會根據使用者複製程式間隔來同步處理。 完成下列步驟以驗證使用者複製已完成, 然後再執行 Move-csuser Cmdlet。
-ms.openlocfilehash: d5d0462ec2886c73fb7286860eea2c89e0fea9fb
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 12bb3c29f703287934358f331dc945830e318afb
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36189058"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36244027"
 ---
 # <a name="verify-user-replication-has-completed"></a>驗證使用者複製已完成
 

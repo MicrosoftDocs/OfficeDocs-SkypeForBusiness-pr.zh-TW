@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 移除封存伺服器之後, 您可以移除主持該池資料的 SQL Server 資料庫。 使用下列程式從拓撲建立器移除定義, 然後從資料庫伺服器移除資料庫及記錄檔。
-ms.openlocfilehash: 975252ee991df507f02bc490d1d2ef2614f3b475
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ab76c8ebc629206827be0a4c0a5477eff54a0923
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36193909"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36241814"
 ---
 # <a name="remove-the-sql-server-database-for-an-archiving-server"></a>移除存檔伺服器的 SQL Server 資料庫
 

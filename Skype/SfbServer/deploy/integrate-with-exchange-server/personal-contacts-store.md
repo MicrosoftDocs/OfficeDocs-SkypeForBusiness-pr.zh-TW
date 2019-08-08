@@ -6,18 +6,18 @@ author: lanachin
 manager: serdars
 ms.date: 1/29/2019
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ec69a6cb-07f2-4057-9544-55035f83eeae
 description: '摘要: 設定舊版用戶端所使用的個人連絡人存放區。'
-ms.openlocfilehash: ba9cb7ee485f94162a642f8e877213a7bcd47c55
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 26352517ea31b5556784f6f1ea8d1ce661cfe184
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188125"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36244190"
 ---
 # <a name="configure-the-personal-contacts-store-on-lync-2010-client-computers"></a>在 Lync 2010 用戶端電腦上設定個人連絡人存放區
   

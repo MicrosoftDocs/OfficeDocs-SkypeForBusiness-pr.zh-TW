@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 共用線外觀可讓使用者選擇代表代表對方接聽或處理通話的代理人。
-ms.openlocfilehash: 619e011e1af5a765bc86ca6bd68134dc5ab1e9fa
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e2e99d214ef493933ed44d28c4a9cbdaeaab1077
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36182403"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36243109"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>Microsoft 團隊中的共用線條外觀
 
@@ -43,7 +43,12 @@ ms.locfileid: "36182403"
 
 委派和共用線外觀是使用者驅動的功能: 沒有要設定的系統管理員設定。 如需如何使用此功能的詳細資訊, 請參閱[與代理人共用電話線路](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8)
 
-租使用者管理員應該透過**TeamsCallingPolicy AllowDelegation**設定啟用委派, 才能使用此功能。
+租使用者管理員可以透過**TeamsCallingPolicy AllowDelegation**設定或透過團隊管理入口網站來啟用委派, 這項功能才能正常運作。 
+
+租使用者管理員也可以設定小組系統管理中心中使用者的委派關聯性。 此外, 使用者也可以直接在團隊中設定其委派關聯性。 租使用者管理員或使用者無法彼此封鎖設定, 但是團隊系統管理中心和團隊用戶端應該在這兩個位置中正確顯示這種關聯性。 
+
+> [!IMPORTANT]
+> 當租使用者系統管理員關閉使用者的委派功能之後 (開啟之後), 他們也必須在小組系統管理中心清除該使用者的委派關聯, 以免呼叫路由不正確。
 
 ## <a name="shared-line-appearance-feature-availability"></a>共用線外觀功能可用性
 

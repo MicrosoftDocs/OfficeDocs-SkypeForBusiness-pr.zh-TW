@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 在共存狀態中部署商務用 Skype Server 2019 之前, 您必須先執行一些其他的 Active Directory 工作, 才能設定商務用 Skype Server 2019 的架構、林及網域。 架構延伸會新增商務用 Skype Server 2019 所需的 Active Directory 類別和屬性。 如需其他資訊, 請參閱針對商務用 Skype Server 2019 準備 Active Directory 網域服務主題。
-ms.openlocfilehash: 8cec6b6cfb7047a151f6dcd78d6bb42c21e4a959
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 286c4df4cc371a9869e6b84cf5048b21e6c54f6c
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36186616"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36244579"
 ---
 # <a name="prepare-active-directory-for-skype-for-business-server"></a>為商務用 Skype Server 準備 Active Directory
 

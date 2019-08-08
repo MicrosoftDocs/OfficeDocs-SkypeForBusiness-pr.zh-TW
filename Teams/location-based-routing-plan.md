@@ -6,6 +6,7 @@ manager: serdars
 ms.date: 2/1/2019
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 ms.reviewer: roykuntz
 search.appverid: MET150
 description: 瞭解如何規劃直接路由的位置路由。
@@ -16,12 +17,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0188afc5201fba6b2fd382be6eca57b987e37644
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: 38097d06cff62481d48c794b83a01a2fa1155b52
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "36185019"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36245114"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>規劃直接路由的以位置為基礎的路由
 

@@ -7,20 +7,21 @@ ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
+audience: admin
 description: 當您設定小組時, 請遵循此檢查清單中的核心、執行任務和活動。
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c982132b3aea37e284731c69eadeea6e39ae50fa
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: b1ee5e3ab901cb5bc0fb35aee9dbc03e9b636621
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "36184896"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36239228"
 ---
 # <a name="configure-microsoft-teams-core-capabilities"></a>設定 Microsoft 團隊核心功能
 

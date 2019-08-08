@@ -5,17 +5,17 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 21007bad-62ce-4553-98e0-02aaa1345781
 description: 商務用 Skype Server 提供高可用性, 包括伺服器池、含池配對的災害復原, 以及後端伺服器高可用性的數種模式, 包括 AlwaysOn 可用性群組、資料庫鏡像及 SQL 容錯移轉叢集。
-ms.openlocfilehash: 7997f71fb1f45801436caa50c4d6b258cc1b843b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: cb4d39df7f6a12a14c25533d8c6fb1ae95da24d4
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36193838"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36240060"
 ---
 # <a name="deploy-high-availability-and-disaster-recovery"></a>部署高可用性與災害復原
  

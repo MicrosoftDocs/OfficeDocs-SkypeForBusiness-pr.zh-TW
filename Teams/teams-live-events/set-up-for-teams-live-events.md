@@ -7,21 +7,22 @@ ms.date: 07/10/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
+audience: admin
 search.appverid: MET150
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 description: 瞭解在小組中設定即時事件的步驟, 包括準備網路、指派授權、使用原則來啟用即時事件功能及排程使用者, 以及設定協力廠商的發佈提供者。
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e82506a78f907192a43eaf08d5d7d47841ebc1a4
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: 3848dde21ae45c0354049a69c939ba4bd978bea4
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "36184746"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237365"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>在 Microsoft 團隊中設定即時事件
 

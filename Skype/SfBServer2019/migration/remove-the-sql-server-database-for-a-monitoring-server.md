@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 移除監視伺服器之後, 您可以移除託管伺服器資料的 SQL Server 資料庫。 使用下列程式從拓撲建立器移除定義, 然後從資料庫伺服器移除資料庫及記錄檔。
-ms.openlocfilehash: 2f4a6feb78adb9daa15cb8d59c2041740e45a19d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1034abac5b257200504c599fe8655a788d638aa0
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36193275"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36241842"
 ---
 # <a name="remove-the-sql-server-database-for-a-monitoring-server"></a>移除監視伺服器的 SQL Server 資料庫
 

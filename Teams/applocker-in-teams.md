@@ -4,8 +4,9 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.topic: article
+audience: admin
 ms.service: msteams
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: rafarhi
@@ -13,12 +14,12 @@ search.appverid: MET150
 description: 瞭解如何啟用 AppLocker 應用程式控制原則的小組桌面用戶端應用程式。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 04379cad0ab224915a02475b010f908d486284cc
-ms.sourcegitcommit: 85b135cf622c9e9eb1857ef953bc618dc2cdb51e
+ms.openlocfilehash: 8d87eb5328f5200479f719dc22d9244c46af8944
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "36182217"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36244939"
 ---
 # <a name="applocker-application-control-policies-in-microsoft-teams"></a>Microsoft 團隊中的 AppLocker 應用程式控制原則
 

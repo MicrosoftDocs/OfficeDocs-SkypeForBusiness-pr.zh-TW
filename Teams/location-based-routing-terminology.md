@@ -7,6 +7,7 @@ ms.date: 2/1/2019
 ms.topic: conceptual
 ms.reviewer: roykuntz
 ms.service: msteams
+audience: admin
 search.appverid: MET150
 description: 瞭解與以位置為基礎之路由的相關術語與概念, 以進行直接路由。
 localization_priority: Normal
@@ -16,12 +17,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: db6d6892c8a3bda8d30ac61d0458f252a6ac9281
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: 9d35b42453ac0eb9d9ae4a3f4c71f4452943a3b0
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "36185013"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36245092"
 ---
 # <a name="location-based-routing-terminology"></a>以位置為基礎的路由術語
 

@@ -12,17 +12,17 @@ localization_priority: Normal
 search.appverid: MET150
 description: 瞭解 Microsoft 團隊採用的啟動、實驗及啟用階段。
 ms.custom: Adopt
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 02fc59d7f770d6c4070f67370533e30e4b657c98
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 168799878ff5f2a9ec1662c905f480854130bb45
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "36183939"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36242280"
 ---
 # <a name="get-started-driving-adoption-of-microsoft-teams"></a>開始推進 Microsoft 團隊的採納
 

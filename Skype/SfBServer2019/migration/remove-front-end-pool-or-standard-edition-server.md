@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 本主題將引導您完成移除前端池或標準版前端伺服器的程式。 當您移除 [前端] 池時, 您會將屬於該池的每個前端伺服器移除為 [池移除] 程式的一部分。 當您移除標準版前端伺服器時, 必須從拓撲建立器移除 SQL Store 定義。
-ms.openlocfilehash: fd43682fca67b961ac93c01813ca6ea9e702b644
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 57679fb248c9281b79c12be98b7fd5246c9afd38
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36193282"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36244489"
 ---
 # <a name="remove-front-end-pool-or-standard-edition-server"></a>移除前端池或標準版伺服器
 

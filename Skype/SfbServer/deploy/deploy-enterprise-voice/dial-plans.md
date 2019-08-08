@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d2fef3d0-7e78-4591-b712-d62ac71d71a5
 description: '摘要: 瞭解如何使用商務用 Skype Server [控制台] 建立或修改撥號方案。'
-ms.openlocfilehash: b2556a6b5a86b895f18db0daf981fd04ea49cda1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 456bd4c46b371da260340fab4e2b7152d14f7924
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36192079"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36240727"
 ---
 # <a name="create-or-modify-a-dial-plan-in-skype-for-business-server"></a>在商務用 Skype Server 中建立或修改撥號方案
 

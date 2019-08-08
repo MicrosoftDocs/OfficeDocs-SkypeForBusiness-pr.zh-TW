@@ -6,18 +6,19 @@ ms.topic: landing-page
 author: lanachin
 ms.author: v-lanac
 manager: serdars
+audience: admin
 ms.date: 03/29/2019
 ms.service: msteams
 ms.collection: Strat_MT_TeamsAdmin
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ff8739d0e7b0501bd712387cf5cc742f8efb9dbe
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: 2dba49502056149b7dda3d4533f8186f074fd804
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "36183744"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36232236"
 ---
 # <a name="expand-microsoft-teams-across-your-organization"></a>在您的組織中展開 Microsoft 團隊
 

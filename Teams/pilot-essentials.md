@@ -6,21 +6,22 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
+audience: admin
 description: 啟動 Microsoft 團隊試點專案的指導方針, 以探索所有團隊都能在您繼續使用商務用 Skype 時提供您的組織。
 localization_priority: Normal
 ms.custom: Teams-upgrade-guidance
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 824b14ba49391720305778e676bb47850d836196
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: fa6f433c3888a9d3b3e20b098562592ea90b5e6f
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "36183672"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237855"
 ---
 ![升級歷程圖表, 醒目提示部署與實現](media/upgrade-banner-deployment.png "升級歷程階段, 重點是部署與實施階段")
 

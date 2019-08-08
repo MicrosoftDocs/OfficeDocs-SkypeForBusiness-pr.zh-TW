@@ -5,6 +5,7 @@ ms.author: lolaj
 manager: serdars
 ms.date: 04/18/2019
 ms.topic: conceptual
+audience: admin
 ms.service: msteams
 ms.reviewer: islubin
 search.appverid: MET150
@@ -12,17 +13,17 @@ description: 瞭解如何封存或永久刪除小組。
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5eaa26a3092c0612b006c28bb7ab543313a55dfe
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 125c7954eabcbf5f454d1e9bc96b1c33377ed23f
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "36180813"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36241959"
 ---
 <a name="archive-or-delete-a-team-in-microsoft-teams"></a>在 Microsoft 團隊中封存或刪除小組
 ===========================================

@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 如果您在舊版環境中部署了 [封存伺服器] 和 [監視伺服器], 您可以在您遷移前端池之後, 將這些伺服器部署在商務用 Skype Server 2019 環境中。 不過, 如果封存和監控功能對您的組織而言是至關重要的, 您應該先在您的商務用 Skype Server 2019 試驗區中新增封存與監控, 以便在遷移程式中提供此功能。
-ms.openlocfilehash: 94a3d21b9b76d18f63fdf7db53144b1d51deb53c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f259a08d25c93467c79fdaf3550288c6208607c3
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36193065"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36238458"
 ---
 # <a name="migrating-archiving-and-monitoring-servers"></a>遷移封存與監控伺服器
 

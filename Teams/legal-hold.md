@@ -6,7 +6,8 @@ manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
-MS.collection:
+audience: admin
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: anach
@@ -14,12 +15,12 @@ search.appverid: MET150
 description: 瞭解如何使用安全性 & 合規性中心在 Microsoft 團隊使用者或小組中進行法律封存, 以及如何根據資料需求來瞭解需要法律封存。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eec053649cedfa3e29738dd1679d88b43ee54770
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 097161fee62e4d0c0339cc5b6bbc2399e86ac959
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "36181593"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36245369"
 ---
 <a name="place-a-microsoft-teams-user-or-team-on-legal-hold"></a>在法律封存上放置 Microsoft 團隊使用者或團隊
 ==================================================

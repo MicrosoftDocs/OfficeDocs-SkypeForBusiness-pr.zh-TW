@@ -1,4 +1,5 @@
 ---
+title: 澳大利亞免費撥號限制
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -22,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 這將協助您瞭解如何在每個國家/地區撥打免付費電話號碼。 在您選取國家/地區之後, 系統會將您帶到特定國家/地區的頁面, 其中包含特定的詳細資料、限制, 以及免費提供免付費服務的服務可用性限制。 [撥號格式] 或 [格式] 會在每個國家/地區顯示所需的存取代碼, 以撥打免付費電話號碼。
-ms.openlocfilehash: 7201b2fd540d5703aa6f051cceb99677245d768c
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 9518268ab254f6c2f5fad4db664e34518b4bf3aa
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "36182712"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36241830"
 ---
 # <a name="toll-free-dialing-restrictions-in-australia"></a>澳大利亞免費撥號限制
 

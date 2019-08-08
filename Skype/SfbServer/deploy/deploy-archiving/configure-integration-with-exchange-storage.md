@@ -5,17 +5,17 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8f48b87f-a57f-4ed8-8c79-5c75b316b696
 description: '摘要: 請閱讀本主題, 以瞭解如何在商務用 Skype Server 中設定與 Exchange 儲存體的整合。'
-ms.openlocfilehash: b58aa090e4e6c51beb1f99ba5dc9020e029c8c39
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 72caf77c81dae538f793afe6f0a94ad6b61d0fa5
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190501"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36234545"
 ---
 # <a name="configure-integration-with-exchange-storage-for-skype-for-business-server"></a>針對商務用 Skype Server 設定與 Exchange storage 整合
  

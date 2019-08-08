@@ -6,21 +6,22 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
+audience: admin
 description: 規劃與您的使用者進行宣傳、訓練及支援您的使用者, 並在您進行示範、加入團隊並升級至小組
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e7fa3e93abe4f7788ba491a76def3c067e2c0af1
-ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
+ms.openlocfilehash: 71ee20ae80fa9fc7f8916efbc5a4736f50bd56f8
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "36185211"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235916"
 ---
 ![升級歷程階段, 醒目提示使用者準備階段](media/upgrade-banner-user-readiness.png "升級歷程階段, 重點放在使用者準備階段")
 

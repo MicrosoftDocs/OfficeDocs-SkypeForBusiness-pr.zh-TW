@@ -7,6 +7,7 @@ ms.reviewer: mikedav, oscarr
 ms.topic: reference
 ms.assetid: d9e0809c-633d-4ee9-891b-ff4282789da5
 ms.tgt.pltfrm: cloud
+audience: admin
 ms.service: msteams
 ms.collection:
 - M365-collaboration
@@ -22,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 這將協助您瞭解如何在每個國家/地區撥打免付費電話號碼。 在您選取國家/地區之後, 系統會將您帶到特定國家/地區的頁面, 其中包含特定的詳細資料、限制, 以及免費提供免付費服務的服務可用性限制。 [撥號格式] 或 [格式] 會在每個國家/地區顯示所需的存取代碼, 以撥打免付費電話號碼。
-ms.openlocfilehash: 5226df97db101088e5a843b6a130dd36c16eb460
-ms.sourcegitcommit: 4b8350e5bb2ef138dcc0204d764bdf85bae539ba
+ms.openlocfilehash: 43ddad059b0028d7d79bc5e5f2430148e463d9be
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "36183282"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235166"
 ---
 # <a name="toll-free-dialing-restrictions-in-india"></a>印度的免付費撥號限制
 

@@ -5,22 +5,23 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 ms.reviewer: dearbeen
 description: 小組服務管理所需的工作和活動, 包括監控服務健康情況, 以及評估並確保網路品質與使用狀況
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c8060eae2a354f041b970f61729449eda6179188
-ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
+ms.openlocfilehash: b7be47504bab7c12803dee3728fcc872ce3a73ca
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "36184191"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236491"
 ---
 ![升級歷程圖表, 強調卓越運作階段](media/upgrade-banner-op-excellence.png "升級歷程階段, 重點放在卓越運作階段")
 

@@ -6,23 +6,24 @@ manager: serdars
 ms.date: 03/08/2019
 ms.topic: article
 ms.service: msteams
+audience: admin
 search.appverid: MET150
 ms.reviewer: islubin
 description: 瞭解如何在 Microsoft 團隊系統管理中心中查看或更新您的小組。
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c205c8d3b4f57935c1882530815643a90357d1aa
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: f495a9cc5b3bfb1fd270e85b2a1fb17bd5f11e68
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "36183858"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36233349"
 ---
 <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>在 Microsoft 團隊系統管理中心管理團隊
 ==========================================

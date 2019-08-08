@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 您可以使用商務用 Skype Server 2019 控制台或商務用 Skype Server 2019 管理命令介面, 從舊版池中將多個使用者移至您的商務用 skype Server 2019 試用版。
-ms.openlocfilehash: 3798525145776c61eed6b1dabebe657538d7c9db
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6c6f61287cfc75b7500317d62de4ea846af1abd3
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36189484"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36244819"
 ---
 # <a name="move-multiple-users-to-the-pilot-pool"></a>將多個使用者移至 [試驗] 池
 

@@ -5,22 +5,23 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.reviewer: dearbeen
 description: 準備貴組織中的 IT 員工來部署和支援 Microsoft 團隊。
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0fced81e48a35d5ddb5affffef414fae965793e7
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: b561af2fd5b29dd66f00f75634a660cfb08cf7e6
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "36183915"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236122"
 ---
 ![升級歷程圖表, 強調技術就緒階段](media/upgrade-banner-tech-readiness.png "升級歷程階段, 重點放在技術準備階段")
 

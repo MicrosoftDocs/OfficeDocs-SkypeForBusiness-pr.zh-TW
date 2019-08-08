@@ -6,7 +6,7 @@ author: lanachin
 manager: serdars
 ms.date: 7/14/2018
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 52ee7da4-59ba-499a-a105-d93fa9941334
 description: '摘要: 瞭解如何安裝商務用 Skype Server 安裝所需的管理工具。 從 Microsoft 評估中心下載免費試用版商務用 Skype Server, 網址為: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。'
-ms.openlocfilehash: b700180a18cf7fcac3cb0353ff302edd1ed78584
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 168202048fcd72b16d93cfd410f678cad01b3058
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36193845"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36244852"
 ---
 # <a name="install-administrative-tools-in-skype-for-business-server"></a>在商務用 Skype Server 中安裝系統管理工具
  

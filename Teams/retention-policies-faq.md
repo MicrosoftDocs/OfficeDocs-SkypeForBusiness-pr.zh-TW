@@ -7,20 +7,21 @@ ms.date: 09/11/2018
 ms.topic: reference
 ms.service: msteams
 ms.reviewer: anach
+audience: admin
 description: Microsoft 團隊中的保留原則常見問題。
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 14e398908a13e621d739a5a923b52588551506f8
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 955006d952454e31698156fa89e2a2047cff823b
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "36180738"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36243550"
 ---
 # <a name="microsoft-teams-retention-policies-faq"></a>Microsoft 團隊保留原則常見問題
 

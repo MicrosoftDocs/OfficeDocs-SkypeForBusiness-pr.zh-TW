@@ -5,22 +5,23 @@ ms.author: Rowille
 manager: serdars
 ms.date: 03/13/2018
 ms.topic: conceptual
+audience: admin
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: 選擇 [通話方案和授權], 設定緊急位置和功能 (例如語音信箱和本機號碼)、取得或轉接電話號碼。
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 513519e95951676dc9e5a9b69d2fe3c5ace2824b
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: ddc618a4b68c8a620568eba5ae2ed52d17096b30
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "36181962"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36233079"
 ---
 # <a name="make-my-service-decisions"></a>進行我的服務決策
 

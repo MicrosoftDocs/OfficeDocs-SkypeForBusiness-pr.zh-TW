@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 在共存狀態中部署商務用 Skype Server 2019 之前, 您必須確認已設定並啟動舊版服務。 在部署商務用 Skype Server 2019 試驗池之前, 請務必先找出舊版環境中存在的重要服務和功能。 在部署 Microsoft 商務用 Skype Server 2019 XMPP 的共存狀態與舊版 XMPP 部署之前, 您必須確認已設定並啟動舊版 XMPP 服務, 並找出舊版 XMPP 設定是由哪些聯盟夥伴提供作用.
-ms.openlocfilehash: 9495c68085f3fc3495d4c2ced05be8b20039eb4e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 4c648dbbadeca50c12eb6047958ef63066ed7a3a
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36189061"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36244099"
 ---
 # <a name="verify-the-legacy-environment"></a>驗證舊版環境
 

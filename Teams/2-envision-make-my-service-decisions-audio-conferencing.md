@@ -5,22 +5,23 @@ ms.author: Rowille
 manager: serdars
 ms.date: 12/28/2018
 ms.topic: conceptual
+audience: admin
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: 瞭解會議、授權及可用性、設定會議橋接器設定、取得或傳送電話號碼, 以及選擇租使用者撥號方案。
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6f7c36904aadf19802511979fa5e069b3c91035e
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: d0155788ef4ba99a350be0043847edd5e705b75b
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "36182739"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36240910"
 ---
 # <a name="make-my-service-decisions"></a>進行我的服務決策
 

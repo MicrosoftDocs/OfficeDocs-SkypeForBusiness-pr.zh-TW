@@ -13,17 +13,17 @@ search.appverid: MET150
 description: 瞭解不同的 Office 365 授權, 以及哪些使用者可以使用 Microsoft 團隊以及如何啟用或停用。
 ms.custom:
 - NewAdminCenter_Update
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d2a87feab04e28f2219acc31cce1d4c60a76a530
-ms.sourcegitcommit: a84b8de70149d9688bde64809912dc470377807e
+ms.openlocfilehash: 288921a7c007dded21b24d294fe4949f54abb1e4
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "36185055"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36246205"
 ---
 <a name="office-365-licensing-for-microsoft-teams"></a>Microsoft 團隊的 Office 365 授權
 ========================================

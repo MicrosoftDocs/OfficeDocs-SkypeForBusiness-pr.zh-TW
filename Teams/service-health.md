@@ -7,19 +7,20 @@ manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
-MS.collection:
+audience: admin
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150
 description: 最佳做法是確認團隊服務是否健康, 以及其他 Office 365 元件 (例如 Exchange、SharePoint 和商務用 OneDrive)。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3e4365d253148377fc61cd9bdb6300f7c76df298
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 975a004908f0db780fdcee1bccc5fcb3fb685676
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "36180825"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36243151"
 ---
 <a name="verify-service-health-for-microsoft-teams"></a>驗證 Microsoft 團隊的服務健康情況
 ===========================================

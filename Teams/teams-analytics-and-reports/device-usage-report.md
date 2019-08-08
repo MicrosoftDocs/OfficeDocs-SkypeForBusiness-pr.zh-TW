@@ -10,18 +10,18 @@ ms.service: msteams
 ms.reviewer: svemu
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 description: 瞭解如何使用 Microsoft 團隊系統管理中心中的 [團隊裝置使用量] 報告, 以瞭解貴組織中的使用者如何連線至團隊。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 86d8e2dc145aa8538326b42f5110de69542e8453
-ms.sourcegitcommit: 5791b98589e64df2e2bcd96f05fd2f869a65861f
+ms.openlocfilehash: 2acdf94ff3c6eb0a8c3df36059c6b7e51af7e805
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "36184605"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36244994"
 ---
 # <a name="microsoft-teams-device-usage-report"></a>Microsoft 團隊裝置使用量報告
 

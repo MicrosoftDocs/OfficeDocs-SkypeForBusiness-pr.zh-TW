@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 若要成功完成此程式, 您應該以網域系統管理員群組或 DnsAdmins 群組成員的身分登入伺服器或網域。
-ms.openlocfilehash: bf9f9c3f16ceb2ee35cda8e833d468e202d5653c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5d506c3b2ff70ae776396e8d3a51e71360cdcc83
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36193904"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36241745"
 ---
 # <a name="update-dns-srv-records"></a>更新 DNS SRV 記錄
 

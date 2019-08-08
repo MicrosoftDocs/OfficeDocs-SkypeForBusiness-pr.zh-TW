@@ -5,21 +5,22 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/25/2017
+audience: admin
 ms.topic: troubleshooting
 ms.service: msteams
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150
 description: 瞭解 Microsoft 團隊所產生的調試、媒體和桌面記錄, 以及可在哪裡找到這些記錄, 以及如何協助疑難排解。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2d210c5c2e3e2d9b3b3757c2945c504296f00788
-ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
+ms.openlocfilehash: 6af503206118b03d9d86fdaf2491e92c69cf9716
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "36207135"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36245087"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>在 Microsoft 團隊的疑難排解中使用記錄檔
 =================================================
@@ -86,11 +87,11 @@ ms.locfileid: "36207135"
 
 |端 |位置 |
 |---------|---------|
-|時間     |%appdata%\Microsoft\Teams\media-stack\*博客         |
-|            |%appdata%\Microsoft\Teams\skylib\*博客
-|            |%appdata%\Microsoft\Teams\media-stack\*.etl         |
-|Mac OSX     |~ 路徑/library/application support 支援/Microsoft/團隊/媒體堆疊\*. 博客         |
-|            |~ 路徑/library/application support 支援/Microsoft/團隊/skylib\*. 博客         |
+|時間     |%appdata%\Microsoft\Teams\media-stack\\*. 博客         |
+|            |%appdata%\Microsoft\Teams\skylib\\*. 博客
+|            |%appdata%\Microsoft\Teams\media-stack\\* .etl         |
+|Mac OSX     |~ 路徑/library/application support 支援/Microsoft/團隊/media-stack/*. 博客         |
+|            |~ 路徑/library/application support 支援/Microsoft/團隊/skylib/*. 博客         |
 
 
 

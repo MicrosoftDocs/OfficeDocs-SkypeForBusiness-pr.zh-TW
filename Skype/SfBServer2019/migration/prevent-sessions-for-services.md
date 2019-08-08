@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 您可以使用舊版安裝控制台, 避免在特定電腦上執行所有舊版服務的新會話, 或避免特定舊版服務的新會話。
-ms.openlocfilehash: 4728f68c8f7b9392b99a6a49eefe699fa48a4d47
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 978c97bd7f610e6b40d467b80f5df8483b6d370f
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36193294"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36244576"
 ---
 # <a name="prevent-sessions-for-services"></a>避免服務的會話
 

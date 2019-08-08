@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 本節中的主題描述您必須完成的工作, 才能將商務用 Skype Server 2019 部署從試驗部署移至生產層級部署。
-ms.openlocfilehash: cc101ae93bbea9cf3fa7366bdf83676970ad450c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 03aba848f3a0edeb148e6a23166699318ed8150c
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36186643"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36244592"
 ---
 # <a name="phase-6-move-from-pilot-deployment-into-production"></a>階段 6: 從試驗部署移至生產環境
 

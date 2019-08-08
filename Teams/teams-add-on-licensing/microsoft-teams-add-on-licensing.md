@@ -8,7 +8,7 @@ ms.reviewer: mikedav
 ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 audience: Admin
@@ -19,12 +19,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 瞭解附加元件授權、您可以使用每個授權所取得的功能、如何為您的產品購買, 以及如何將您現有的運營商與他們搭配使用。 您可以取得 Office 365、通訊點數和通話方案的定價與方案詳細資料。
-ms.openlocfilehash: 21a8b26180e4279fa6e735eb362e5703ace209a2
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 2c2f3ecb632fda65d92b5c903c698eb9a53fa5ae
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "36184911"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36242738"
 ---
 # <a name="microsoft-teams-add-on-licensing"></a>Microsoft 團隊附加元件授權
 

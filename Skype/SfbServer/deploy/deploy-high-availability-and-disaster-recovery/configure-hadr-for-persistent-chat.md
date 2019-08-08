@@ -6,17 +6,17 @@ author: lanachin
 manager: serdars
 ms.date: 2/7/2018
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5fb5b189-56c1-49cf-92c8-e4fd6e2fdd5c
 description: '摘要: 請閱讀本主題, 以瞭解如何在商務用 Skype Server 2015 中設定持續聊天伺服器的高可用性和災難復原。'
-ms.openlocfilehash: a771479eccc88c6ff30864a44649fe3d309a7ca2
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: cfc2843ceb3afba4813cc729856dcd35a4a6439e
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36193082"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36240114"
 ---
 # <a name="configure-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>設定常設聊天室伺服器的高可用性和災害復原
  

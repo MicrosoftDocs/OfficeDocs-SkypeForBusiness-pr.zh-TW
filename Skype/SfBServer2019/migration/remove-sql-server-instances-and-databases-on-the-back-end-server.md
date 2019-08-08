@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 移除依賴這些伺服器的伺服器, 或在您重新設定伺服器以使用其他資料庫之後, 移除 Microsoft SQL Server 資料庫和實例。 當您淘汰目前的 SQL Server, 或以其呈現資料庫過時或無法使用的方式來重新設定目前伺服器時, 您必須執行本主題中的程式。
-ms.openlocfilehash: 2d0902293c675143609dd720cd33734edd538d87
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6c526499e3036c9a10b8dc92ccc519f21ae8bc96
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36193280"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36244433"
 ---
 # <a name="remove-sql-server-instances-and-databases-on-the-back-end-server"></a>移除後端伺服器上的 SQL Server 實例和資料庫
 

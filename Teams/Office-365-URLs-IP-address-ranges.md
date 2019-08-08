@@ -6,22 +6,23 @@ ms.author: lolaj
 manager: serdars
 ms.date: 08/21/2018
 ms.topic: article
+audience: admin
 ms.service: msteams
 description: 瞭解如何正確地設定 Office 365 Url 和 IP 位址範圍、繞過可供 Microsoft 團隊服務連線的轉寄 proxy, 以及網路和安全性原則的需求。
 localization_priority: Normal
 search.appverid: MET150
 f1keywords: ms.teamsadmincenter.meetingsettings.network.ports
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e375452e236e38e036a5fe2413ba0848845587ab
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: 6acf22a10d52aadb90ff6312edfa4a5de33b1a17
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "36181284"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235425"
 ---
 <a name="office-365-urls-and-ip-address-ranges"></a>Office 365 Url 與 IP 位址範圍
 =====================================

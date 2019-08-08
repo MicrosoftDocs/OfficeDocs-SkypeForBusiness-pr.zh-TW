@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 若要移除監視伺服器, 您需要變更或清除相關聯的 [前端] 池、[前端伺服器]、[Survivable 分支裝置] 和 [Survivable 分支伺服器] 的相依性。 您可以編輯 [前端] 池、[前端伺服器]、[Survivable 分支裝置] 和 [Survivable 分支伺服器] 的屬性, 以移除相依性。 清除相依性並刪除拓撲建立器中的伺服器之後, 系統會通知您, 拓撲結構庫中相關聯的資料庫存放物件也會被刪除。
-ms.openlocfilehash: 366bb67815df99542b893e9ced79c1fc1f0e3e9f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ecad0a447bacacf2a894bdb735b97b3a8593b1c8
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36193277"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36244436"
 ---
 # <a name="remove-the-monitoring-server-association"></a>移除監視伺服器關聯
 

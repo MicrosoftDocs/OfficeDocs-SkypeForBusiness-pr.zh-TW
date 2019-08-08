@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 本節包含遷移到商務用 Skype Server 2019 的規劃主題。
-ms.openlocfilehash: 0a92e5fad665e3c523d07870cf93de273aa57aa6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a6ad11da076decd447d337c6ece6cd93709f32b2
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36186661"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36244684"
 ---
 # <a name="phase-1-plan-your-migration"></a>階段 1: 規劃您的遷移
 

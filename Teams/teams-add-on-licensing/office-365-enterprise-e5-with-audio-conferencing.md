@@ -7,7 +7,7 @@ ms.reviewer: mikedav
 ms.topic: reference
 ms.service: msteams
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 audience: Admin
@@ -18,12 +18,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: '瞭解附加元件授權、功能, 以及如何購買 Office 365 企業版 E5 方案。 '
-ms.openlocfilehash: 35052942774645ff5795ab688876cfbd30c80259
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f092faaafd15f77c448ba66237c7ab0653aae2d6
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36182373"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36242589"
 ---
 # <a name="office-365-enterprise-e5"></a>Office 365 企業版 E5
 

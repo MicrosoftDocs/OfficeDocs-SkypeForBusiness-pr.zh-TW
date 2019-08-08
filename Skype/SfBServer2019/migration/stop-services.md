@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 您可以使用商務用 Skype Server 的 [控制台] 來啟動或停止在特定電腦上執行的所有舊版服務, 或是啟動或停止特定的舊版服務。
-ms.openlocfilehash: 90cd9c0c7d2fbd87a4ae796c94f025b60d1a1f87
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e7cde5a947d9822106223216f1f826d6ebac036f
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36193907"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36241759"
 ---
 # <a name="stop-legacy-services"></a>停止舊版服務
 

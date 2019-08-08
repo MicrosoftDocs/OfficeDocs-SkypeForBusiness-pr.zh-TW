@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: '您可以使用商務用 Skype Server 的 [控制台] 或 [商務用 Skype Server 管理] 命令介面, 將使用者移至新的商務用 Skype Server 2019 部署。 您必須符合一些需求, 才能確保順利轉換至商務用 Skype Server 2019。 如需有關完成本主題中程式的先決條件的詳細資訊, 請參閱設定要遷移的用戶端。 如需有關移動使用者的詳細步驟, 請參閱階段 4: 將測試使用者移至試驗池。'
-ms.openlocfilehash: 67bc2d3b239e65b5b1c83e2dcda81a1610d5a31c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8c12ca52e162c4317dabc59d5de9b74082730882
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36186664"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36244783"
 ---
 # <a name="move-remaining-users-to-skype-for-business-server-2019"></a>將剩餘的使用者移至商務用 Skype Server 2019
 

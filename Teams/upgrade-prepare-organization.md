@@ -6,21 +6,22 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
+audience: admin
 description: 評估貴組織的就緒情況以接受變更, 並準備好讓使用者準備從商務用 Skype 升級至 Microsoft 團隊的方案
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 67ba6c1358273b78aee06861ea7cc3484f52666b
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 4dd0509f3f016d6c8c62e6f79de791e8fc531653
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "36183786"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236089"
 ---
 ![升級歷程階段, 重點關注使用者準備階段](media/upgrade-banner-user-readiness.png "升級歷程階段, 重點放在使用者準備階段")
 

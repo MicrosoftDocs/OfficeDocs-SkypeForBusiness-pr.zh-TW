@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9430763f-3394-467c-9c6d-426bf761604e
 description: 在商務用 Skype Server Enterprise Voice 中, 允許通話駐留的使用者使用。
-ms.openlocfilehash: 326b1156ea3b300301b46324d90dbc7dde088b3d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 797b17cb3d9482d9059bedcbbc347c3dd592e478
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36192073"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36240636"
 ---
 # <a name="enable-call-park-for-users-in-skype-for-business"></a>在商務用 Skype 中啟用電話寄存給使用者
  
