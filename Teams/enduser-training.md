@@ -7,6 +7,7 @@ layout: LandingPage
 ms.date: 11/26/2018
 ms.topic: landing-page
 ms.service: msteams
+audience: admin
 ms.collection:
 - Teams_ITAdmin_Training
 - M365-collaboration
@@ -16,12 +17,12 @@ description: 訓練影片、教學課程及其他資源供貴組織中的使用�
 f1keywords: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 43c0d202a333cdb441761e645aa86fc916798617
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 148a9a325c38f575a6453ce5011aa605e1a10aa4
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "36183879"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235313"
 ---
 # <a name="end-user-training-for-microsoft-teams"></a>Microsoft 團隊的最終使用者訓練
 

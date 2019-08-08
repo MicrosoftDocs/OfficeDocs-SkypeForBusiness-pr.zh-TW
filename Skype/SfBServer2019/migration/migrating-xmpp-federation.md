@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: '先前的版本提供了可擴展的訊息和目前狀態通訊協定 (XMPP) 閘道, 可將其部署為個別的伺服器角色, 以允許與 XMPP 部署進行聯盟。 在商務用 Skype Server 2019 中, & 不贊成使用 XMPP 功能。 如果您想要繼續使用 XMPP 功能, 可以使用舊版版本 (商務用 Skype Server 2015/Lync Server 2013) availed 在 coexitence 環境中。 XMPP 功能安裝在兩個部分中: 作為在舊版 Edge 伺服器上執行的 XMPP proxy, 以及在舊版前端伺服器上執行的 XMPP 閘道。'
-ms.openlocfilehash: fd2b51af84133e28e9a4de035333b1a282d71d38
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0c7c3dbb9c7cda4f6825f66326422dced85a9c3c
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36193064"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36238136"
 ---
 # <a name="migrating-xmpp-federation"></a>遷移 XMPP 同盟
 

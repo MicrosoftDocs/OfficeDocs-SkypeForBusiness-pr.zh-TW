@@ -6,20 +6,21 @@ manager: serdars
 ms.reviewer: jastark
 ms.date: 03/22/2019
 ms.topic: article
+audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: 設定會議原則, 讓使用者在團隊聊天或會議中共用其桌面
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0bf213b919ee0bea344807f932e16240587b2b84
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: f36804fc4d7c28f08ca383ddb09f22ee52f804e7
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "36183639"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236930"
 ---
 <a name="configure-desktop-sharing-in-microsoft-teams"></a>在 Microsoft 團隊中設定桌面共用
 ============================================

@@ -7,19 +7,18 @@ audience: ITPro
 ms.reviewer: NMuravlyannikov
 ms.topic: article
 ms.service: msteams
-ms.prod: skype-for-business-itpro
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: 請閱讀本主題, 瞭解如何使用 [電話系統直接路由] 設定媒體旁路。
-ms.openlocfilehash: 47b537a9feff22a24b97fa5c54669359992b8a31
-ms.sourcegitcommit: a78fee3cad5b58bf41dd014a79f4316cf310c8d1
+ms.openlocfilehash: d3991973932ec3ced2ef1a365a7060e2d9449f40
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/29/2019
-ms.locfileid: "36185190"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237478"
 ---
 # <a name="configure-media-bypass-with-direct-routing"></a>使用直接路由來設定媒體旁路
 

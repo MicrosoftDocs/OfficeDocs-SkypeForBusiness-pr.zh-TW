@@ -5,17 +5,17 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 394ac291-05cd-4fa1-acb3-714af538b47f
 description: '摘要: 請閱讀本主題, 以瞭解如何針對商務用 Skype Server 設定封存免責聲明。'
-ms.openlocfilehash: 86430ac80d85ed166ae091119f4261cdc5e1ff9b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5901429918d4cf346cbbf9f1fdad6ff4736817ea
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188473"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36234567"
 ---
 # <a name="configure-archiving-disclaimers-for-external-users-in-skype-for-business-server"></a>針對商務用 Skype Server 中的外部使用者設定封存免責聲明
  

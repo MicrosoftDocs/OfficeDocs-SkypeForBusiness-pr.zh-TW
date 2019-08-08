@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 建立商務用 Skype Server 2019 池時, 您將會使用與舊版安裝相關聯的中央管理儲存。 當您在第一次使用及後續編輯會話時啟動拓撲產生器時, 系統會提示您輸入您想要拓撲建立器載入目前設定檔的位置。 因為已定義拓撲結構, 且已建立中央管理儲存區, 所以您應該選擇從現有的部署下載拓撲。 拓撲建立器將會讀取資料庫並檢索目前的定義。
-ms.openlocfilehash: 67317f9acf477d6b6decd42433844ef088d27021
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 33dc190bae5bd5d983d13932b4a9933fe5f74976
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36189088"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36238737"
 ---
 # <a name="download-topology-from-existing-deployment"></a>從現有部署下載拓撲
 

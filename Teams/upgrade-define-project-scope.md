@@ -4,23 +4,24 @@ author: lanachin
 ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
+audience: admin
 ms.service: msteams
 ms.reviewer: dearbeen
 description: 精煉您的願景與目標, 以範圍升級專案。
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 28a64be495417c07bf98cb5f42ae9068d98031a3
-ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
+ms.openlocfilehash: d8f1fb718ae254f3239153acd5664c4e1709de40
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "36185226"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236469"
 ---
 ![升級歷程圖表, 醒目提示專案定義階段](media/upgrade-banner-project-definition.png "升級歷程階段, 重點放在專案定義階段")
 

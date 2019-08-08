@@ -5,17 +5,17 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d3a20d5e-3f24-4cff-bc9b-4f84fea30e6b
 description: '摘要: 瞭解如何將前端池與商務用 Skype 伺服器所使用的監視存放區建立關聯。'
-ms.openlocfilehash: 4af58fe6bb4d8ed1e23a7a95bc428a9615150766
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 66d51e89a41c5e6ce2608b4fe8ecd1c4af336b6b
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36193836"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36239989"
 ---
 # <a name="associate-a-monitoring-store-with-a-front-end-pool-in-skype-for-business-server"></a>在商務用 Skype Server 中, 將監控存放區與前端池建立關聯 
 **摘要:** 瞭解如何將前端池與商務用 Skype 伺服器所使用的監視存放區建立關聯。

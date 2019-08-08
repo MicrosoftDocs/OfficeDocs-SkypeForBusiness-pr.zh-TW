@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 本主題重點說明在部署商務用 Skype Server 2019 Edge 伺服器之前, 您應該知道的配置設定。 商務用 skype Server 2019 的部署和設定處理常式與商務用 Skype Server 2015 非常類似。 此區段只會醒目提示您要考慮的重要重點, 做為您的試驗池部署的一部分。 如需詳細步驟, 請參閱部署檔中的商務用 Skype Server 2019 部署外部使用者存取 (描述部署程式), 同時提供外部使用者存取的設定資訊。
-ms.openlocfilehash: f692eb5ad4a24b47a8bab7a56be218eab04af7dd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b416ba38646d05f3d10a7d2643c01924fe57020a
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36189094"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36238954"
 ---
 # <a name="deploy-pilot-edge-server"></a>部署試點邊緣伺服器
 

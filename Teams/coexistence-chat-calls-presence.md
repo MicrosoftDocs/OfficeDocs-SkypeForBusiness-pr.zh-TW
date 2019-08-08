@@ -6,20 +6,21 @@ manager: Serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: francoid
+audience: admin
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-voice
 appliesto:
 - Microsoft Teams
 description: 本檔說明在團隊與商務用 Skype (在租使用者中, 根據指派的 TeamsUpgrade 模式) 進行的聊天、呼叫路由與目前狀態的行為。 它包含路由優化、目前狀態行為, 以及將預設 TeamsUpgrade 模式從*舊版*變更為*孤島*, 以及即將停用*舊版*。
-ms.openlocfilehash: 3c88bd93805e6c2a33eb2f5c03ee04d4e7d55535
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 22e931d50c3008a77df6ad6568bd50acbe891c8b
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "36182139"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236908"
 ---
 # <a name="coexistence-with-skype-for-business"></a>在商務用 Skype 中共存
 

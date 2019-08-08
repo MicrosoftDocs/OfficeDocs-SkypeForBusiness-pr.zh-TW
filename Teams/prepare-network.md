@@ -7,20 +7,21 @@ ms.date: 03/25/2019
 ms.topic: reference
 ms.service: msteams
 ms.reviewer: arachman
+audience: admin
 description: 瞭解如何準備及管理您的 Microsoft 團隊網路。 資訊包括網路需求、頻寬需求, 以及其他考慮。
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 041c391f202ac42b782ffc200db9ad495961fa52
-ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
+ms.openlocfilehash: 31c06403dc3dec9322e984e012fe597254db8f33
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "36207149"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235504"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>為 Microsoft 團隊準備貴組織的網路
 

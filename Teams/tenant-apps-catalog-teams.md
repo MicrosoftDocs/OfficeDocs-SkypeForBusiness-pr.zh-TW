@@ -7,21 +7,22 @@ ms.date: 06/20/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: prem
+audience: admin
 description: 在 Microsoft 團隊租使用者應用程式目錄中發佈 app 的指導方針。
 localization_priority: Normal
 search.appverid: MET150
 f1keywords: ms.teamsadmincenter.apppolicies.publishtenantapps
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5d016fd1c341774115b9b68edafcc47a63e42b0d
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: b8f239a136ae3a2242dba45da5a68e22b8fb29c4
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "36184314"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235095"
 ---
 <a name="publish-apps-in-the-microsoft-teams-tenant-apps-catalog"></a>在 Microsoft 團隊租使用者應用程式目錄中發佈應用程式
 =======================================================
@@ -30,20 +31,20 @@ ms.locfileid: "36184314"
 
 [團隊租使用者應用程式目錄] 可讓您散佈專為您的組織建立且您依賴來完成重要業務功能的業務線應用程式。
 
-若要為您的組織發佈應用程式, 請使用您的全域系統管理員認證登入您的小組用戶端, 然後依照下列指示進行。
+若要為您的組織發佈應用程式, 請使用具有全域管理員或團隊服務管理員角色的帳戶登入您的小組用戶端, 然後依照下列指示進行。
 
 ## <a name="publish-an-app-in-the-tenant-apps-catalog-from-the-teams-client"></a>在來自團隊用戶端的租使用者應用程式目錄中發佈應用程式
 
 > [!NOTE]
-> 您必須使用全域系統管理員認證登入 Microsoft 團隊用戶端, 才能為您的組織發佈應用程式。
+> 您必須使用已啟用全域管理員或團隊服務管理員角色的帳戶登入 Microsoft 團隊用戶端, 才能為您的組織發佈應用程式。 深入瞭解如何[使用系統管理員角色來管理團隊](https://docs.microsoft.com/MicrosoftTeams/using-admin-roles)。
 
 ### <a name="get-a-teams-app-package"></a>取得團隊應用程式套件
 
-團隊應用程式套件是使用[團隊 App Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio)建立的。 有了應用程式套件之後, 您就可以將它新增至企業應用程式目錄。 雖然租使用者中的所有使用者都可以查看應用程式目錄, 但目前只有全域管理員才能發佈和管理該功能。 (最後, 小組系統管理員也可以執行此動作)。
+團隊應用程式套件是使用[團隊 App Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio)建立的。 有了應用程式套件之後, 您就可以將它新增至企業應用程式目錄。 雖然租使用者中的所有使用者都可以查看應用程式目錄, 但只有全域管理員和團隊服務系統管理員具備發佈及管理的功能。
 
 ### <a name="go-to-the-tenant-apps-catalog"></a>移至租使用者應用程式目錄
 
-啟動 Microsoft 團隊用戶端, 然後使用您的全域系統管理員認證登入。 從 [Microsoft 團隊] 商店中, 選取名為 [您的特定組織] (在此範例中為 [Contoso]) 的新節。 貴組織中的使用者可以在目錄中查看應用程式, 並為他們所屬的小組安裝這些 app。
+啟動 Microsoft 團隊用戶端, 然後使用您的全域或團隊服務管理員認證登入。 從 [Microsoft 團隊] 商店中, 選取名為 [您的特定組織] (在此範例中為 [Contoso]) 的新節。 貴組織中的使用者可以在目錄中查看應用程式, 並為他們所屬的小組安裝這些 app。
 
 ![顯示 [應用程式目錄] 的 [小組] App 存放區的螢幕擷取畫面。](media/private-app-store-teams-image01.png)
 

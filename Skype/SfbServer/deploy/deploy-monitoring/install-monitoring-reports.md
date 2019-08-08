@@ -5,17 +5,17 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6f417569-b100-442c-ad48-fdd794626cf7
 description: '摘要: 瞭解如何在商務用 Skype Server 中安裝會產生監視報告的服務。'
-ms.openlocfilehash: d17f66a5a500dad19677e51c98a465a2eb6ee87b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 765c7a13b965b8701de6bc70782a9d7a8963a429
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36189478"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36239979"
 ---
 # <a name="install-monitoring-reports-in-skype-for-business-server"></a>在商務用 Skype Server 中安裝監視報告
  

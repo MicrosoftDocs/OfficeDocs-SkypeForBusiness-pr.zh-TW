@@ -5,22 +5,23 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.reviewer: dearbeen
 description: 從商務用 Skype 內部部署升級至團隊的考慮。
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b41de8f54eb0e2a09e7e3700b25cba1e5564f0a
-ms.sourcegitcommit: a47f0841b9a14ede65171a817ecb7ebc72f209e5
+ms.openlocfilehash: f234c6fe959d35d2f92e117e28af8d15f0a02819
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/19/2019
-ms.locfileid: "36182238"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235894"
 ---
 ![升級歷程階段, 重點是部署與實施階段](media/upgrade-banner-deployment.png "升級歷程階段, 重點是部署與實施階段")
 

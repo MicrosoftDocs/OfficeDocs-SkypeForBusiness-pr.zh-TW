@@ -6,17 +6,17 @@ author: lanachin
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 19ced8de-8867-4152-b38a-891f3bc2a5ea
 description: '摘要: 瞭解如何在商務用 Skype Server 2015 的全域、網站或文件庫層級設定持續聊天伺服器選項。'
-ms.openlocfilehash: 3140689190900bee1633210a455c7af475bb8fa0
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: 524e225da84796674a41a2693bc369fa96c8ffb4
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "36194005"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36239814"
 ---
 # <a name="configure-persistent-chat-server-options-in-skype-for-business-server-2015"></a>設定常設聊天室伺服器選項
  

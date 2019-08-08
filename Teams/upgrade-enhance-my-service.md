@@ -5,22 +5,23 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 ms.reviewer: dearbeen
 description: 在升級之後, 定期評估改善團隊服務的機會, 以監視團隊藍圖, 以取得任何有趣的功能增強功能。
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f3a577f3d43e3eb6942a5fdd1d704a74adfc0b67
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: ff5cbba5f66e409a1c079f7a5f24170adb5c3e41
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "36183900"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236449"
 ---
 ![升級歷程圖表, 強調卓越運作階段](media/upgrade-banner-op-excellence.png "升級歷程階段, 重點放在卓越運作階段")
 

@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 常見的區域手機是最常位於共用工作區或常見區域 (例如大廳、廚房或工廠地面) 的 IP 電話。 常見的區域電話不需要連線到電腦, 就能供應商務用 Skype Server 整合通訊 (UC) 功能。 將部署遷移到商務用 Skype Server 2019 之後, 您也必須遷移與舊版常見區域手機相關聯的連絡人物件。 使用商務用 Skype Server 管理命令介面, 您將會先檢索與舊版常用區域手機相關的所有連絡人物件, 然後將這些物件移到商務用 Skype Server 2019 池。
-ms.openlocfilehash: 915b0b86c4f0b1ac74e2575cdfcd65d0cbf23d31
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 123f0a73da65e7d661541c6c4bec65481bf12f0c
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36189079"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36238703"
 ---
 # <a name="migrate-common-area-phones"></a>遷移常見的區域電話
 

@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 遷移至 Microsoft 商務用 Skype Server 2019 之後, 您必須完成幾個工作, 才能設定商務用 Skype Server 2019, 以搭配 System Center Operations Manager 使用。
-ms.openlocfilehash: 141154a8bd678f15fcc919b2dd70a50ca9d4dcca
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 098265f5b17ab4d25164495965b3d20a122f61fa
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190024"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36239575"
 ---
 # <a name="configure-scom-monitoring"></a>設定 SCOM 監視
 

@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: End User
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 當使用者按一下會議邀請中的會議連結時, [會議加入] 頁面會偵測使用者電腦上已安裝的用戶端。 如果已安裝用戶端, 該用戶端會開啟並加入會議。 如果沒有安裝用戶端, 則預設會開啟 Web 應用程式。
-ms.openlocfilehash: c5f6cd5b1d04b54f8db9f82080bc8dbabefdc11e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1bab2dff25db94b36c41e5824401777006760bfc
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36193072"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36239560"
 ---
 # <a name="configure-the-meeting-join-page"></a>設定會議加入頁面
 

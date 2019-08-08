@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 商務用 Skype 伺服器提供類比裝置的支援。 具體說來, 支援的類比裝置是類比音訊電話和類比傳真電腦。 您可以設定合格的閘道, 以支援在商務用 Skype Server 環境中使用類比裝置。 在您遷移到商務用 Skype Server 2019 之後, 您也必須遷移與類比裝置相關聯的連絡人物件。 使用商務用 Skype Server Management 命令介面, 先檢索與舊版類比裝置相關聯的所有連絡人物件, 然後將這些物件移到商務用 Skype Server 2019 池。
-ms.openlocfilehash: a822f8f73ad839654d266182172ef8e30d5d28e8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 486c49c0ace00b798520ebae939c0c2070a99783
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36189085"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36238734"
 ---
 # <a name="migrate-analog-devices"></a>遷移類比裝置
 

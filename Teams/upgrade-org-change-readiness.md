@@ -5,22 +5,23 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 ms.reviewer: dearbeen
 description: 確定貴組織和使用者已準備好進行 Microsoft 團隊
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0b1fcbd95d58dd53eb2f8e4289563ab403f73e29
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 716e5342d29bca21ea2963a28244ae6d766c0392
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "36183894"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236436"
 ---
 ![升級歷程圖表, 強調使用者準備就緒階段](media/upgrade-banner-user-readiness.png "升級歷程階段, 重點放在使用者準備階段")
 

@@ -12,17 +12,17 @@ localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何在您的小組採用中使用 [服務健康情況] 報告。
 ms.custom: Adopt
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a8f7958184946ec800c99c819d4707b7f37e9abf
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6d1dea1c27dbffb8efd0c71a4fb8b0bec02511a2
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "36182151"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237824"
 ---
 # <a name="schedule-service-health-reviews-for-your-microsoft-teams-adoption"></a>針對您的 Microsoft 團隊採納排程服務健康情況檢查
 

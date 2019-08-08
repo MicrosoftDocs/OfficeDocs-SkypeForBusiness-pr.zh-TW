@@ -5,18 +5,18 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0fde142b-70b1-46c6-b1f9-f9d70115371d
 description: '摘要: 在商務用 Skype Server 中設定視頻互通性伺服器 (VIS) 角色。'
-ms.openlocfilehash: 3c0b211897afdde0fc0a01e255cdc14bc466f65c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 9ac7b64b33c48bd4010c1431b5c0d658f223599a
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36193457"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235679"
 ---
 # <a name="configure-the-video-interop-server-in-skype-for-business-server"></a>在商務用 Skype Server 中設定視頻交互操作伺服器
  

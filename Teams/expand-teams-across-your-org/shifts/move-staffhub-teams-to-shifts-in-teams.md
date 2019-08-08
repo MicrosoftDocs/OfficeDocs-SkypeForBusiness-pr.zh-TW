@@ -5,19 +5,20 @@ ms.author: v-lanac
 ms.reviewer: lisawu
 manager: serdars
 ms.topic: article
+audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: 瞭解如何移動 Microsoft StaffHub 小組, 並安排資料在 Microsoft 團隊中的變化。
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+ms.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 56f1501f0b9947ea009c6ebbf697a211dd1118ae
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: cef8c6fbfd5ed0b19d6762b7508b311413d11066
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "36184569"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36233280"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>將 Microsoft StaffHub 小組移至 Microsoft 團隊中的倒班
 
@@ -118,7 +119,7 @@ foreach($team in $StaffHubTeams[0]) {Get-StaffHubMember -TeamId $team.Id | where
   StaffHub 小組擁有者和管理員可以轉換非作用中的帳戶, 並將其連結至 StaffHub 中的 Azure AD 帳戶, 做法是將使用者的電子郵件地址變更為 [StaffHub 小組設定] 頁面上的有效 UPN。
 
 - 移除未連結的帳戶, 然後使用 UPN 重新加入該帳戶。
-    1. 執行[StaffHubUser](https://docs.microsoft.com/powershell/module/staffhub/Remove-StaffHubUser?view=staffhub-ps) Cmdlet, 以從 StaffHub 團隊中移除未預配的帳戶。
+    1. 執行[StaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/Remove-StaffHubMember?view=staffhub-ps) Cmdlet, 以從 StaffHub 團隊中移除未預配的帳戶。
     2. 執行[StaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/add-staffhubmember?view=staffhub-ps) Cmdlet, 以使用 UPN 將帳戶重新新增到 StaffHub 小組。
 
 - 移除未連結的使用者帳戶。 使用這個選項已不再需要使用者帳戶。

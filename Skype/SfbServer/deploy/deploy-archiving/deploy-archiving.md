@@ -5,17 +5,17 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50fa535c-7347-4e33-80a3-296748ef6666
 description: '摘要: 請閱讀本主題, 以瞭解如何部署商務用 Skype Server 的封存。'
-ms.openlocfilehash: 813911dba5bfc662ee1c6bea9dab99e34c031e98
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8611f83b6e3504d860cf37a7ad2c24c20b446671
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190483"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36234513"
 ---
 # <a name="deploy-archiving-for-skype-for-business-server"></a>部署商務用 Skype Server 的存檔
  

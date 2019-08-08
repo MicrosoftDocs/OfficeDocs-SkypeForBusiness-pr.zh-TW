@@ -7,20 +7,21 @@ manager: serdars
 ms.date: 09/25/2017
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 description: 瞭解 Microsoft 團隊中的使用者意見反應方法的最佳做法, 以確保最佳的團隊體驗。
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e29c76018f024559d90ff4d07b7dd102a0747b11
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: c29a896c520aa6475e0739bc0555090958f35b92
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "36180511"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237239"
 ---
 <a name="best-practices-for-user-feedback-methods-in-microsoft-teams"></a>Microsoft 團隊中使用者意見反應方法的最佳做法
 ===========================================================

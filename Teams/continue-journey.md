@@ -5,22 +5,23 @@ ms.author: kenwith
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 ms.reviewer: dearbeen
 search.appverid: MET150
 description: 從商務用 Skype 繼續旅程至 Microsoft 團隊的指導方針
 localization_priority: Normal
 ms.custom: Teams-upgrade-guidance
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5a9bc092f458533c95e2431ac8f23ba98abd8bd7
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 74471d45e99742774133477f6b978939864aab2e
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "36183876"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236815"
 ---
 ![升級歷程圖表, 強調卓越運作階段](media/upgrade-banner-op-excellence.png "升級歷程階段, 重點放在卓越運作階段")
 

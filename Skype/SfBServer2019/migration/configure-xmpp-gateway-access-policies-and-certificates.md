@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'XMPP 同盟會根據可擴展訊息和目前狀態通訊協定 (XMPP) 來定義外部部署。 XMPP 設定可讓使用者透過以下方式存取 XMPP 網域使用者:'
-ms.openlocfilehash: c5231016729cd40619bbcfe48ebfcf59eff9182a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 01adcbe06718068e84844f704858e04198b197b2
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36187333"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36239545"
 ---
 # <a name="configure-xmpp-gateway-access-policies-and-certificates"></a>設定 XMPP 閘道存取原則及憑證
 

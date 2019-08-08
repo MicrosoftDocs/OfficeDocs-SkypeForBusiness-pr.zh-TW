@@ -6,21 +6,22 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
+audience: admin
 description: 如果您是在大型組織中, 或者您已自訂商務用 Skype 部署, 請使用本指導方針。
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 68c2f0f74d1f5f2ba13518c8f56afc1244480a14
-ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
+ms.openlocfilehash: 3d34c111302c3e8de173b4c553589ab840495118
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "36185241"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236034"
 ---
 # <a name="upgrade-pro"></a>升級專業版
 

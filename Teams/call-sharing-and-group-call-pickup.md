@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 通話共用和群組通話挑選讓使用者與同事共用來電, 以便在使用者無法使用時, 可以捕獲通話。
-ms.openlocfilehash: 02c6605f3a5ea1df3457eaadea9956727431a827
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: caf472f9829f9cf68ccb87a5081bc0b5cfae28f8
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36182271"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237160"
 ---
 # <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>在 Microsoft 團隊中呼叫共用與群組通話挑選
 
@@ -48,11 +48,13 @@ Microsoft 團隊的呼叫共用與群組呼叫功能可讓使用者與同事共�
 
 通話群組建立和通知喜好設定是使用者驅動的功能;系統管理員不需要為使用者設定這些功能。 無法從安全性群組或 Office 365 群組建立通話群組;它們必須在 [團隊] 中建立。
 
-系統管理員應該透過使用者的 [ **TeamsCallingPolicy AllowCallGroups** ] 設定來啟用呼叫群組。 系統管理員只能控制此使用者是否可以設定通話群組。 一旦將此位設定為 true, 系統管理員就不能防止使用者設定並新增其選擇的通話群組使用者。
+系統管理員應該透過使用者的 [ **TeamsCallingPolicy AllowCallGroups** ] 設定來啟用呼叫群組。 系統管理員也可以透過 [團隊管理入口網站] 啟用此。  此外, 已設定的使用者也可以直接透過用戶端設定通話群組。 系統管理員或使用者不能封鎖彼此的設定, 但是團隊管理員入口網站和團隊用戶端應該在這兩個位置中正確顯示這種關聯性。 
+
+重要: 當系統管理員關閉使用者的呼叫群組之後 (已開啟並設定通話群組關聯), 系統管理員必須清除小組系統管理中心中使用者的通話群組關聯, 以避免呼叫路由不正確。 
 
 ## <a name="limitations"></a>有限
 
-租使用者最多可以包含32768呼叫群組。 每個通話群組最多可有5個使用者。 
+租使用者最多可以包含32768呼叫群組。 每個通話群組中最多可以有25個使用者。 
 
 ## <a name="more-information"></a>其他資訊
 

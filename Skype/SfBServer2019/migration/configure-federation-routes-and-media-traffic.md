@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 同盟是兩個或多個 SIP 網域之間的信任關係, 允許個別組織中的使用者在網路界限間進行通訊。 在您遷移到您的試用版池之後, 您必須從舊版 Edge 伺服器的同盟路由轉換到商務用 Skype Server 2019 Edge 伺服器的同盟路由。
-ms.openlocfilehash: 6b76932c8b988dbed61cba1470f32a51f6585536
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 50c10a4dced237e59c8dad12b5bdee1ef7d970fe
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36193077"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36239587"
 ---
 # <a name="configure-federation-routes-and-media-traffic"></a>設定同盟路由及媒體流量
 

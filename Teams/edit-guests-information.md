@@ -6,7 +6,8 @@ manager: serdars
 ms.date: 11/26/2017
 ms.topic: article
 ms.service: msteams
-MS.collection:
+audience: admin
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: sbhatta
@@ -14,12 +15,12 @@ search.appverid: MET150
 description: 瞭解系統管理員可以如何編輯 Azure Active Directory 入口網站中來賓使用者的相關資訊。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5e0955c6f3ec5efe8192e9e3927ca92655b5f494
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: cddb34306e87c461aa9dca19e09347e18cb0ca13
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "36182157"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235378"
 ---
 <a name="edit-guest-user-information"></a>編輯來賓使用者資訊
 ===========================

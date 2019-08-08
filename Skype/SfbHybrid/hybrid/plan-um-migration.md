@@ -7,14 +7,14 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 localization_priority: Normal
-ms.prod: skypeforbusiness-server-itpro
+ms.prod: skype-for-business-itpro
 description: 本主題涵蓋您決定要將現有的商務用 Skype 伺服器或 Exchange Server 部署遷移至最新版本或商務用 Skype Online 或 Exchange Online 時所需考慮的事項。
-ms.openlocfilehash: b1e7f52da2f036ebf88b4a8986650bfbc20c38b6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 864a777c1fcb483df7f3779e9b105c1af551748e
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "36185428"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237468"
 ---
 # <a name="plan-for-skype-for-business-server-and-exchange-server-migration"></a>規劃商務用 Skype Server 與 Exchange Server 遷移
 

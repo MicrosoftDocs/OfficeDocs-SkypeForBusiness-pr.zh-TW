@@ -5,17 +5,17 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.custom: httpsfix
 description: 下列主題提供更新 DNS 專案、移動內容管理伺服器、解除授權池以及停用與從舊版部署移除伺服器和池的指導方針。 並非本節所列的所有程式都是必要的。 閱讀檔, 並判斷要使用的解除授權程式。
-ms.openlocfilehash: 4110e45b2790204e96205dd9552e14fa9c359446
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5edad470bcd7bcf0340a311a890f73ef01645138
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36186640"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237281"
 ---
 # <a name="phase-8-decommission-legacy-pools"></a>階段 8: 解除授權舊版池
 

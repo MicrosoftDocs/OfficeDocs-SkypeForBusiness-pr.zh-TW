@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 遷移到商務用 Skype Server 2019 所需的第一個步驟就是部署試驗池。 試驗池是您使用舊版部署來測試商務用 Skype Server 2019 的共存位置。 [共存] 是一個暫時的狀態, 一直持續到您將所有使用者和池移至商務用 Skype Server 2019 為止。
-ms.openlocfilehash: 3642d603b5923a554b8eca41a948125ef25526ae
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: dc0e5b984aaa9ed931f3937b253fbe40aef9b051
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36189091"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36238856"
 ---
 # <a name="deploy-skype-for-business-server-2019-pilot-pool"></a>部署商務用 Skype Server 2019 試用版池
 

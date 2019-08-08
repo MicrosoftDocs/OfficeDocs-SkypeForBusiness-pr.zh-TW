@@ -6,21 +6,22 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
+audience: admin
 description: 您可以先登記干係人, 然後將專案進行範圍來規劃升級。
 localization_priority: Normal
 ms.custom: Teams-upgrade-guidance
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c35b8f7c6e400e9788b87fc41c5e5ed23b88b31f
-ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
+ms.openlocfilehash: 8a72e32fc363d00c2da85be70a567551440ba942
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "36185220"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236056"
 ---
 ![團隊升級歷程的圖表](media/upgrade-banner-main.png "確定您的專案已針對適當的專案小組進行成功設定。定義您的專案範圍、目標及時程表。確認技術與使用者的就緒情況。執行您的推出方案。維持勢頭, 以獲得最佳結果。")
 

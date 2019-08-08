@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: '一般來說, 通訊錄會與您的其他拓撲一起遷移。 不過, 如果您在舊版環境中自訂下列各項, 可能需要執行一些遷移後步驟:'
-ms.openlocfilehash: 4263ae5bff60859cc9606a3683a3a03b0d2d4c35
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 4a3a85715b73c3a6b5996ba677b0647c87a8db1e
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36193911"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36238700"
 ---
 # <a name="migrate-address-book"></a>[遷移通訊錄]
 

@@ -6,7 +6,7 @@ author: lanachin
 manager: serdars
 ms.date: 7/14/2016
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 74ce73bc-356b-4705-83b1-341ee010fd19
 description: '摘要: 瞭解如何從 Lync Server 2013 升級到商務用 Skype Server 2015。 從 Microsoft 評估中心 (網址為: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server) 下載商務用 Skype Server 2015 免費試用版。'
-ms.openlocfilehash: f68e944b75af9f921dacd182bab023177a3ab2b1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c34cbc7ce1d755f093ac14bc85d78106216c450b
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36187324"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237858"
 ---
 # <a name="upgrade-to-skype-for-business-server-2015"></a>升級至商務用 Skype Server 2015
  

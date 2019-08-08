@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: '[通話駐留] 應用程式的遷移包括設定商務用 Skype Server 2019 池, 其中包含已在舊版安裝中上傳的任何自訂音樂保留檔案, 還原服務層級設定並 retargeting 所有通話駐留軌道式商務用 Skype Server 2019 池。 如果已在池中設定自訂的 [封存暫停] 檔案, 則需要將這些檔案複製到新的商務用 Skype Server 2019 池。 此外, 建議您將任何通話駐留自訂的音樂保留檔案從另一個目的地備份, 以保留針對通話駐留上傳的任何自訂音樂保留檔案的個別備份複本。 通話駐留應用程式的自訂音樂保留檔案會儲存在該池的檔案存放區中。 若要將文件庫檔案存放區中的音訊檔案複製到商務用 Skype Server 2019 檔案存放區, 請使用 Xcopy 命令及下列參數:'
-ms.openlocfilehash: aa4ac3cfbe6802b8853a8ec8886f8fffe1a20a51
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: efb2bfbf8ac62ad05e2ee560c2aca4fb7b496006
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36189082"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36238706"
 ---
 # <a name="migrate-call-park-application-settings"></a>遷移通話駐留應用程式設定
 

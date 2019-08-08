@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: '每個 Survivable 分支裝置 (SBA) 都與一個前端池相關聯, 可充當 SBA 的備份註冊機構。 當您將前端池移至商務用 Skype Server 2019 時, 當池已升級至商務用 Skype Server 2019 之後, 就必須從 SBA 中解除連線, SBA 才能與升級的前 E 重新關聯nd pool。 這涉及從拓撲產生器中的舊版拓撲刪除 SBA, 然後將 SBA 新增至商務用 Skype Server 2019 拓撲。 必須先將駐留在舊版 SBA 的使用者移到另一個前端池, 然後才能從拓撲結構中移除 SBA。 將 SBA 新增至商務用 Skype Server 2019 拓撲之後, 這些使用者就可以移回 SBA。 下列步驟摘要如下所示:'
-ms.openlocfilehash: 7cb933018d24dafb978464338f01f97b25e15539
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e5545a2de4eddd65790f425ab888b8fd07faf970
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36187330"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36239548"
 ---
 # <a name="connect-a-survivable-branch-appliance"></a>連接 Survivable 分支裝置
 

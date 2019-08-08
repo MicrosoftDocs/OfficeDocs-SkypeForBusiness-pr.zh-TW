@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: '商務用 Skype Server 2019 支援多網站和多池部署。 將多個池遷移到商務用 Skype Server 2019 的程式需要下列考慮:'
-ms.openlocfilehash: 05a94cb47568b9dfc3834f65f960353ad2933b03
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e2577b6af1430be90e30fff3236d7ea3cf473cd5
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36193063"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36238464"
 ---
 # <a name="migrating-multiple-sites-and-pools"></a>遷移多個網站和池
 

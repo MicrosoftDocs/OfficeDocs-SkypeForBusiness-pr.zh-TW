@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 當您的使用者移至商務用 Skype Server 2019 池之後, 您就可以遷移您的回應群組。 遷移回應群組包括複製代理群組、佇列、工作流程、音訊檔案, 以及將回應群組連絡人物件從舊版部署移至商務用 Skype Server 2019 池。 在您遷移舊版回應群組之後, 回應群組的呼叫會由商務用 Skype Server 2019 池中的回應群組應用程式來處理。 舊版池已不再處理回應群組的呼叫。
-ms.openlocfilehash: cba50526748ca15c04513013e484b0e279410c1e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b8d49205f4f54ca7c00a9aed0b6ac176c11cd617
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36193066"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36238461"
 ---
 # <a name="migrate-response-groups"></a>遷移回應群組
 

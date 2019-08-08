@@ -5,17 +5,17 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3b67df85-181d-45ca-ba48-bb74a439f242
 description: '摘要: 請閱讀本主題, 以瞭解如何將封存資料庫新增到您的商務用 Skype Server 部署。'
-ms.openlocfilehash: 2110a6c82aed473fdc07e5796075aabdb50c7086
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b7d429206e003042922b9b9cae6de420fdf517bb
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188479"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36234580"
 ---
 # <a name="add-archiving-databases-to-an-existing-deployment-in-skype-for-business-server"></a>在商務用 Skype Server 中新增封存資料庫至現有的部署
  

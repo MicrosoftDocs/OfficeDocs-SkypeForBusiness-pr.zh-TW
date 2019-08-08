@@ -5,22 +5,23 @@ ms.author: v-lanac
 manager: serdars
 ms.date: 06/21/2019
 ms.topic: article
+audience: admin
 ms.service: msteams
 ms.reviewer: sbhatta
 description: 使用此檢查清單可協助您設定 Microsoft 團隊中的來賓存取權。
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 09a6ec1f60ca4bfc39dbeb5ba1829330c3413560
-ms.sourcegitcommit: a78fee3cad5b58bf41dd014a79f4316cf310c8d1
+ms.openlocfilehash: 8418c9386c635d1fc1662ee6df80dfae21908bd0
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/29/2019
-ms.locfileid: "36185169"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36244439"
 ---
 <a name="teams-guest-access-checklist"></a>小組訪客存取檢查清單
 ==========================================
@@ -81,7 +82,7 @@ Microsoft 團隊中的來賓存取使用 Azure Active Directory (Azure AD) 商�
    
    - **客人可以邀請**: 若要讓客人邀請其他客人, 請將此原則設定為 **[是]**。
    - **啟用電子郵件的一次性密碼 (預覽版)**: 如需一次性密碼功能的詳細資訊, 請參閱[電子郵件一次性密碼驗證 (預覽版)](https://docs.microsoft.com/azure/active-directory/b2b/one-time-passcode)。
-   - 共同作業**限制**: 如需有關允許或封鎖特定網域之邀請的詳細資訊, 請參閱[允許或封鎖來自特定組織的 B2B 使用者邀請](allow-deny-list.md)。
+   - 共同作業**限制**: 如需有關允許或封鎖特定網域之邀請的詳細資訊, 請參閱[允許或封鎖來自特定組織的 B2B 使用者邀請](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list)。
 
 ## <a name="-step-2-configure-office-365-groups"></a>□步驟 2: 設定 Office 365 群組
 

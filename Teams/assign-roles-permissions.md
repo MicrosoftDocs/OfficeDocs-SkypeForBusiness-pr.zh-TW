@@ -4,22 +4,23 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.topic: conceptual
+audience: admin
 ms.service: msteams
 ms.reviewer: dansteve
 search.appverid: MET150
 description: 瞭解如何在 Microsoft 團隊中指派小組擁有者和成員角色及許可權, 包括建立小組的許可權。
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eca4f5350e4e06d3f598191e020b8708b6f47563
-ms.sourcegitcommit: 8ec1aa8f953206a08a488efdb59691824e26056a
+ms.openlocfilehash: 29619fce9f3f9d03f887f632d25b4ae7abe474c9
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "36184980"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36241990"
 ---
 <a name="assign-team-owners-and-members-in-microsoft-teams"></a>在 Microsoft 團隊中指派小組擁有者和成員
 =================================================

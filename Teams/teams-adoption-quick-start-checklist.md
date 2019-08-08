@@ -12,17 +12,17 @@ localization_priority: Normal
 search.appverid: MET150
 description: 完成檢查清單以開始進行 Microsoft 團隊採用。
 ms.custom: Adopt
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 222973b0377e8a8568a5a170aca0a11e23ea2fd6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9050959ba070bfae99ee077dedfd1b503bea1c2c
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "36182154"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237813"
 ---
 # <a name="microsoft-teams-adoption-quick-start-checklist"></a>Microsoft 團隊採用快速入門檢查清單
 
