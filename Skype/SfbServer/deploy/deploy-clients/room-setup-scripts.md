@@ -5,25 +5,25 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.reviewer: davgroom
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a66067d2-22b0-48f1-a5d0-e0cd0ece2e5a
 description: 請閱讀本主題, 找出提供 Skype 室系統帳戶的範例腳本。
-ms.openlocfilehash: e4b146346d7afe69746cf7046c0ee156ee9ff0da
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7c462dea9f1a885fbf8a4fb4f6aeee4ca4f8c3d3
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36192046"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235022"
 ---
-# <a name="skype-room-system-room-setup-scripts"></a><span data-ttu-id="cebaf-103">Skype 會議室系統房間設定腳本</span><span class="sxs-lookup"><span data-stu-id="cebaf-103">Skype Room System room setup scripts</span></span>
+# <a name="skype-room-system-room-setup-scripts"></a><span data-ttu-id="fcbd1-103">Skype 會議室系統房間設定腳本</span><span class="sxs-lookup"><span data-stu-id="fcbd1-103">Skype Room System room setup scripts</span></span>
  
-<span data-ttu-id="cebaf-104">請閱讀本主題, 找出提供 Skype 室系統帳戶的範例腳本。</span><span class="sxs-lookup"><span data-stu-id="cebaf-104">Read this topic to find sample scripts for provisioning Skype Room System accounts.</span></span>
+<span data-ttu-id="fcbd1-104">請閱讀本主題, 找出提供 Skype 室系統帳戶的範例腳本。</span><span class="sxs-lookup"><span data-stu-id="fcbd1-104">Read this topic to find sample scripts for provisioning Skype Room System accounts.</span></span>
   
-<span data-ttu-id="cebaf-105">本節說明可用於提供 Skype 室系統帳戶的範例腳本。</span><span class="sxs-lookup"><span data-stu-id="cebaf-105">This section illustrates sample scripts that can be used to provision Skype Room System accounts.</span></span> <span data-ttu-id="cebaf-106">這些腳本只是為了說明目的, 只在諮詢 IT 專家或網域管理員之後才會使用。</span><span class="sxs-lookup"><span data-stu-id="cebaf-106">These scripts are for illustrative purposes only and should be used only after consulting with your IT expert or domain administrator.</span></span>
+<span data-ttu-id="fcbd1-105">本節說明可用於提供 Skype 室系統帳戶的範例腳本。</span><span class="sxs-lookup"><span data-stu-id="fcbd1-105">This section illustrates sample scripts that can be used to provision Skype Room System accounts.</span></span> <span data-ttu-id="fcbd1-106">這些腳本只是為了說明目的, 只在諮詢 IT 專家或網域管理員之後才會使用。</span><span class="sxs-lookup"><span data-stu-id="fcbd1-106">These scripts are for illustrative purposes only and should be used only after consulting with your IT expert or domain administrator.</span></span>
   
-## <a name="example-setup-script-skype-for-business-and-exchange-server-on-premises"></a><span data-ttu-id="cebaf-107">範例設定腳本: 商務用 Skype 與 Exchange Server (內部部署)</span><span class="sxs-lookup"><span data-stu-id="cebaf-107">Example Setup Script: Skype for Business and Exchange Server (On Premises)</span></span>
+## <a name="example-setup-script-skype-for-business-and-exchange-server-on-premises"></a><span data-ttu-id="fcbd1-107">範例設定腳本: 商務用 Skype 與 Exchange Server (內部部署)</span><span class="sxs-lookup"><span data-stu-id="fcbd1-107">Example Setup Script: Skype for Business and Exchange Server (On Premises)</span></span>
 
 ```
 # On Exchange 
@@ -37,17 +37,17 @@ Set-ADAccountPassword -Identity "conference room"# Paste the next command on its
 Set-CsMeetingRoom -Identity "conference room" -LineURI "tel:+14255551669;ext=1669" -EnterpriseVoiceEnabled $true
 ```
 
-## <a name="example-setup-script-skype-for-business-and-exchange-server-online"></a><span data-ttu-id="cebaf-108">範例設定腳本: 商務用 Skype 與 Exchange Server Online</span><span class="sxs-lookup"><span data-stu-id="cebaf-108">Example Setup Script: Skype for Business and Exchange Server Online</span></span>
+## <a name="example-setup-script-skype-for-business-and-exchange-server-online"></a><span data-ttu-id="fcbd1-108">範例設定腳本: 商務用 Skype 與 Exchange Server Online</span><span class="sxs-lookup"><span data-stu-id="fcbd1-108">Example Setup Script: Skype for Business and Exchange Server Online</span></span>
 
-<span data-ttu-id="cebaf-109">在執行腳本前, 請確定您已複習下列先決條件:</span><span class="sxs-lookup"><span data-stu-id="cebaf-109">Make sure you've reviewed the following prerequisites before running the script:</span></span>
+<span data-ttu-id="fcbd1-109">在執行腳本前, 請確定您已複習下列先決條件:</span><span class="sxs-lookup"><span data-stu-id="fcbd1-109">Make sure you've reviewed the following prerequisites before running the script:</span></span>
   
-- <span data-ttu-id="cebaf-110">適用于 IT 專業人員的 Microsoft Online Services 登入小幫手</span><span class="sxs-lookup"><span data-stu-id="cebaf-110">Microsoft Online Services Sign-In Assistant for IT Professionals BETA</span></span>
+- <span data-ttu-id="fcbd1-110">適用于 IT 專業人員的 Microsoft Online Services 登入小幫手</span><span class="sxs-lookup"><span data-stu-id="fcbd1-110">Microsoft Online Services Sign-In Assistant for IT Professionals BETA</span></span>
     
-- <span data-ttu-id="cebaf-111">適用于 Windows PowerShell 的 windows Azure Active Directory 模組 (64 位版本) 或 (32 位版本)</span><span class="sxs-lookup"><span data-stu-id="cebaf-111">Windows Azure Active Directory Module for Windows PowerShell (64-bit version) or (32-bit version)</span></span>
+- <span data-ttu-id="fcbd1-111">適用于 Windows PowerShell 的 windows Azure Active Directory 模組 (64 位版本) 或 (32 位版本)</span><span class="sxs-lookup"><span data-stu-id="fcbd1-111">Windows Azure Active Directory Module for Windows PowerShell (64-bit version) or (32-bit version)</span></span>
     
-- <span data-ttu-id="cebaf-112">Lync Online 的 Windows PowerShell 模組</span><span class="sxs-lookup"><span data-stu-id="cebaf-112">Windows PowerShell Module for Lync Online</span></span>
+- <span data-ttu-id="fcbd1-112">Lync Online 的 Windows PowerShell 模組</span><span class="sxs-lookup"><span data-stu-id="fcbd1-112">Windows PowerShell Module for Lync Online</span></span>
     
-- <span data-ttu-id="cebaf-113">視需要重新開機</span><span class="sxs-lookup"><span data-stu-id="cebaf-113">Reboot if needed</span></span>
+- <span data-ttu-id="fcbd1-113">視需要重新開機</span><span class="sxs-lookup"><span data-stu-id="fcbd1-113">Reboot if needed</span></span>
     
 ```
 # Note you have to enter each command one at a time and update any bold fields for your environment
