@@ -6,37 +6,38 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
+audience: admin
 description: 評估貴組織的就緒情況以接受變更, 並準備好讓使用者準備從商務用 Skype 升級至 Microsoft 團隊的方案
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 67ba6c1358273b78aee06861ea7cc3484f52666b
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 4dd0509f3f016d6c8c62e6f79de791e8fc531653
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "36183786"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236089"
 ---
-<span data-ttu-id="962dc-103">![升級歷程階段, 重點關注使用者準備階段](media/upgrade-banner-user-readiness.png "升級歷程階段, 重點放在使用者準備階段")</span><span class="sxs-lookup"><span data-stu-id="962dc-103">![Stages of the upgrade journey, with emphasis on User Readiness stage](media/upgrade-banner-user-readiness.png "Stages of the upgrade journey, with emphasis on the User Readiness stage")</span></span>
+<span data-ttu-id="4f8ff-103">![升級歷程階段, 重點關注使用者準備階段](media/upgrade-banner-user-readiness.png "升級歷程階段, 重點放在使用者準備階段")</span><span class="sxs-lookup"><span data-stu-id="4f8ff-103">![Stages of the upgrade journey, with emphasis on User Readiness stage](media/upgrade-banner-user-readiness.png "Stages of the upgrade journey, with emphasis on the User Readiness stage")</span></span>
 
-<span data-ttu-id="962dc-104">本文是您升級歷程的 [使用者準備就緒階段] 的一部分, 您可以與技術就緒階段並行完成活動。</span><span class="sxs-lookup"><span data-stu-id="962dc-104">This article is part of the User Readiness stage of your upgrade journey, an activity you complete in parallel with the Technical Readiness stage.</span></span> <span data-ttu-id="962dc-105">繼續之前, 請先確認您已從先前階段完成這些活動:</span><span class="sxs-lookup"><span data-stu-id="962dc-105">Before proceeding, confirm that you’ve completed these activities from previous stages:</span></span>
+<span data-ttu-id="4f8ff-104">本文是您升級歷程的 [使用者準備就緒階段] 的一部分, 您可以與技術就緒階段並行完成活動。</span><span class="sxs-lookup"><span data-stu-id="4f8ff-104">This article is part of the User Readiness stage of your upgrade journey, an activity you complete in parallel with the Technical Readiness stage.</span></span> <span data-ttu-id="4f8ff-105">繼續之前, 請先確認您已從先前階段完成這些活動:</span><span class="sxs-lookup"><span data-stu-id="4f8ff-105">Before proceeding, confirm that you’ve completed these activities from previous stages:</span></span>
 
-- [<span data-ttu-id="962dc-106">已登記您的專案干係人</span><span class="sxs-lookup"><span data-stu-id="962dc-106">Enlisted your project stakeholders</span></span>](upgrade-enlist-stakeholders.md)
-- [<span data-ttu-id="962dc-107">已定義您的專案範圍</span><span class="sxs-lookup"><span data-stu-id="962dc-107">Defined your project scope</span></span>](https://aka.ms/SkypetoTeams-Scope)
-- [<span data-ttu-id="962dc-108">已瞭解商務用 Skype 與團隊的共存與互通性</span><span class="sxs-lookup"><span data-stu-id="962dc-108">Understood coexistence and interoperability of Skype for Business and Teams</span></span>](https://aka.ms/SkypeToTeams-Coexist)
-- [<span data-ttu-id="962dc-109">已選擇升級歷程</span><span class="sxs-lookup"><span data-stu-id="962dc-109">Chosen your upgrade journey</span></span>](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [<span data-ttu-id="4f8ff-106">已登記您的專案干係人</span><span class="sxs-lookup"><span data-stu-id="4f8ff-106">Enlisted your project stakeholders</span></span>](upgrade-enlist-stakeholders.md)
+- [<span data-ttu-id="4f8ff-107">已定義您的專案範圍</span><span class="sxs-lookup"><span data-stu-id="4f8ff-107">Defined your project scope</span></span>](https://aka.ms/SkypetoTeams-Scope)
+- [<span data-ttu-id="4f8ff-108">已瞭解商務用 Skype 與團隊的共存與互通性</span><span class="sxs-lookup"><span data-stu-id="4f8ff-108">Understood coexistence and interoperability of Skype for Business and Teams</span></span>](https://aka.ms/SkypeToTeams-Coexist)
+- [<span data-ttu-id="4f8ff-109">已選擇升級歷程</span><span class="sxs-lookup"><span data-stu-id="4f8ff-109">Chosen your upgrade journey</span></span>](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-# <a name="prepare-your-organization"></a><span data-ttu-id="962dc-110">準備貴組織</span><span class="sxs-lookup"><span data-stu-id="962dc-110">Prepare your organization</span></span>
+# <a name="prepare-your-organization"></a><span data-ttu-id="4f8ff-110">準備貴組織</span><span class="sxs-lookup"><span data-stu-id="4f8ff-110">Prepare your organization</span></span>
 
-<span data-ttu-id="962dc-111">若要讓團隊發揮最大價值, 使用者必須實際使用它, 但讓使用者變更其運作方式並不一定簡單。</span><span class="sxs-lookup"><span data-stu-id="962dc-111">To realize maximum value from Teams, users must actually use it, but getting users to change the way they work isn’t always easy.</span></span> <span data-ttu-id="962dc-112">您需要花些時間來瞭解您的使用者, 並設計適當的準備方案, 有助於協助變更並加速團隊的採用。</span><span class="sxs-lookup"><span data-stu-id="962dc-112">Taking time to understand your users and design the right readiness plan can help facilitate change and accelerate adoption of Teams.</span></span> <span data-ttu-id="962dc-113">這些活動應與您的技術就緒準備並行完成:</span><span class="sxs-lookup"><span data-stu-id="962dc-113">These activities should be completed in parallel with your technical readiness preparation:</span></span>
+<span data-ttu-id="4f8ff-111">若要讓團隊發揮最大價值, 使用者必須實際使用它, 但讓使用者變更其運作方式並不一定簡單。</span><span class="sxs-lookup"><span data-stu-id="4f8ff-111">To realize maximum value from Teams, users must actually use it, but getting users to change the way they work isn’t always easy.</span></span> <span data-ttu-id="4f8ff-112">您需要花些時間來瞭解您的使用者, 並設計適當的準備方案, 有助於協助變更並加速團隊的採用。</span><span class="sxs-lookup"><span data-stu-id="4f8ff-112">Taking time to understand your users and design the right readiness plan can help facilitate change and accelerate adoption of Teams.</span></span> <span data-ttu-id="4f8ff-113">這些活動應與您的技術就緒準備並行完成:</span><span class="sxs-lookup"><span data-stu-id="4f8ff-113">These activities should be completed in parallel with your technical readiness preparation:</span></span>
 
-- <span data-ttu-id="962dc-114">[評估組織變更準備](https://aka.ms/OrgReadiness): 這包括瞭解您的使用者是誰、他們將如何使用新技術, 以及它們適應變更的難易程度。</span><span class="sxs-lookup"><span data-stu-id="962dc-114">[Assessing organizational change readiness](https://aka.ms/OrgReadiness): This includes understanding who your users are, how they’ll use the new technology, and how readily they adapt to change.</span></span> <span data-ttu-id="962dc-115">這也是找出可從焦點加入中受益的特定使用者設定檔的機會。</span><span class="sxs-lookup"><span data-stu-id="962dc-115">This is also an opportunity to identify specific user profiles who would benefit from focused onboarding.</span></span>
-- <span data-ttu-id="962dc-116">[準備使用者準備方案](https://aka.ms/UserReadinessPlan): 由知曉、訓練及支援活動組成, 您的準備方案應該能處理您廣泛的使用者基與目標設定檔, 如[評估變更準備](https://aka.ms/OrgReadiness)專案中所述。</span><span class="sxs-lookup"><span data-stu-id="962dc-116">[Preparing a user readiness plan](https://aka.ms/UserReadinessPlan): Consisting of awareness, training, and support activities, your readiness plan should address both your broad user base and targeted profiles, as identified in the [assessing change readiness](https://aka.ms/OrgReadiness) article.</span></span>
+- <span data-ttu-id="4f8ff-114">[評估組織變更準備](https://aka.ms/OrgReadiness): 這包括瞭解您的使用者是誰、他們將如何使用新技術, 以及它們適應變更的難易程度。</span><span class="sxs-lookup"><span data-stu-id="4f8ff-114">[Assessing organizational change readiness](https://aka.ms/OrgReadiness): This includes understanding who your users are, how they’ll use the new technology, and how readily they adapt to change.</span></span> <span data-ttu-id="4f8ff-115">這也是找出可從焦點加入中受益的特定使用者設定檔的機會。</span><span class="sxs-lookup"><span data-stu-id="4f8ff-115">This is also an opportunity to identify specific user profiles who would benefit from focused onboarding.</span></span>
+- <span data-ttu-id="4f8ff-116">[準備使用者準備方案](https://aka.ms/UserReadinessPlan): 由知曉、訓練及支援活動組成, 您的準備方案應該能處理您廣泛的使用者基與目標設定檔, 如[評估變更準備](https://aka.ms/OrgReadiness)專案中所述。</span><span class="sxs-lookup"><span data-stu-id="4f8ff-116">[Preparing a user readiness plan](https://aka.ms/UserReadinessPlan): Consisting of awareness, training, and support activities, your readiness plan should address both your broad user base and targeted profiles, as identified in the [assessing change readiness](https://aka.ms/OrgReadiness) article.</span></span>
 
 > [!Tip]
-> <span data-ttu-id="962dc-117">除了範例升級專案規劃與試驗測試方案之外, 請下載範本使用者就緒性資料 (例如通訊與使用者問卷) 的[升級成功套件](https://aka.ms/UpgradeSuccessKit)。</span><span class="sxs-lookup"><span data-stu-id="962dc-117">Download the [Upgrade Success Kit](https://aka.ms/UpgradeSuccessKit) for template user readiness materials, such as communications and user surveys, in addition to a sample upgrade project plan and pilot test plan.</span></span>
+> <span data-ttu-id="4f8ff-117">除了範例升級專案規劃與試驗測試方案之外, 請下載範本使用者就緒性資料 (例如通訊與使用者問卷) 的[升級成功套件](https://aka.ms/UpgradeSuccessKit)。</span><span class="sxs-lookup"><span data-stu-id="4f8ff-117">Download the [Upgrade Success Kit](https://aka.ms/UpgradeSuccessKit) for template user readiness materials, such as communications and user surveys, in addition to a sample upgrade project plan and pilot test plan.</span></span>

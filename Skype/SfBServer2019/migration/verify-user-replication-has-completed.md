@@ -5,37 +5,37 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 執行 Move-csuser Cmdlet 時, 您可能會遇到失敗, 因為 Active Directory 網域服務 (AD DS) 與商務用 Skype Server 2019 資料庫之間的使用者資訊無法同步處理, 因為初始複製不完整。 成功完成商務用 Skype Server 2019 [使用者複製程式服務] 的初始同步處理所需的時間, 取決於託管在託管商務用 Skype 的 Active Directory 林中的網網域控制站數量Server 2019 pool。 當商務用 Skype Server 2019 前端伺服器第一次啟動時, 就會發生 [商務用 Skype Server 2019] 使用者複製程式服務初始同步處理常式。 之後, 就會根據使用者複製程式間隔來同步處理。 完成下列步驟以驗證使用者複製已完成, 然後再執行 Move-csuser Cmdlet。
-ms.openlocfilehash: d5d0462ec2886c73fb7286860eea2c89e0fea9fb
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 12bb3c29f703287934358f331dc945830e318afb
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36189058"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36244027"
 ---
-# <a name="verify-user-replication-has-completed"></a><span data-ttu-id="27f8d-107">驗證使用者複製已完成</span><span class="sxs-lookup"><span data-stu-id="27f8d-107">Verify user replication has completed</span></span>
+# <a name="verify-user-replication-has-completed"></a><span data-ttu-id="74d53-107">驗證使用者複製已完成</span><span class="sxs-lookup"><span data-stu-id="74d53-107">Verify user replication has completed</span></span>
 
-<span data-ttu-id="27f8d-108">當您執行**move-csuser** Cmdlet 時, 如果 Active Directory 網域服務 (AD DS) 與商務用 Skype Server 2019 資料庫之間的使用者資訊無法同步處理, 則您可能會遇到失敗, 因為初始複製不完整。</span><span class="sxs-lookup"><span data-stu-id="27f8d-108">When running the **Move-CsUser** cmdlet, you may experience a failure if user information between Active Directory Domain Services (AD DS) and the Skype for Business Server 2019 databases are out of sync because the initial replication is incomplete.</span></span> <span data-ttu-id="27f8d-109">成功完成商務用 Skype Server 2019 [使用者複製程式服務] 的初始同步處理所需的時間, 取決於託管在託管商務用 Skype 的 Active Directory 林中的網網域控制站數量Server 2019 pool。</span><span class="sxs-lookup"><span data-stu-id="27f8d-109">The time it takes for the successful completion of the Skype for Business Server 2019 User Replicator service's initial synchronization depends on the number of domain controllers that are hosted in the Active Directory forest that hosts the Skype for Business Server 2019 pool.</span></span> <span data-ttu-id="27f8d-110">當商務用 Skype Server 2019 前端伺服器第一次啟動時, 就會發生 [商務用 Skype Server 2019] 使用者複製程式服務初始同步處理常式。</span><span class="sxs-lookup"><span data-stu-id="27f8d-110">The Skype for Business Server 2019 User Replicator service initial synchronization process occurs when the Skype for Business Server 2019 Front End Server is started for the first time.</span></span> <span data-ttu-id="27f8d-111">之後, 同步處理就會以使用者複製程式間隔為基礎。</span><span class="sxs-lookup"><span data-stu-id="27f8d-111">After that, the synchronization is based on the User Replicator interval.</span></span> <span data-ttu-id="27f8d-112">完成下列步驟以驗證使用者複製已完成, 然後再執行**move-csuser** Cmdlet。</span><span class="sxs-lookup"><span data-stu-id="27f8d-112">Complete the following steps to verify that user replication has completed before running the **Move-CsUser** cmdlet.</span></span> 
+<span data-ttu-id="74d53-108">當您執行**move-csuser** Cmdlet 時, 如果 Active Directory 網域服務 (AD DS) 與商務用 Skype Server 2019 資料庫之間的使用者資訊無法同步處理, 則您可能會遇到失敗, 因為初始複製不完整。</span><span class="sxs-lookup"><span data-stu-id="74d53-108">When running the **Move-CsUser** cmdlet, you may experience a failure if user information between Active Directory Domain Services (AD DS) and the Skype for Business Server 2019 databases are out of sync because the initial replication is incomplete.</span></span> <span data-ttu-id="74d53-109">成功完成商務用 Skype Server 2019 [使用者複製程式服務] 的初始同步處理所需的時間, 取決於託管在託管商務用 Skype 的 Active Directory 林中的網網域控制站數量Server 2019 pool。</span><span class="sxs-lookup"><span data-stu-id="74d53-109">The time it takes for the successful completion of the Skype for Business Server 2019 User Replicator service's initial synchronization depends on the number of domain controllers that are hosted in the Active Directory forest that hosts the Skype for Business Server 2019 pool.</span></span> <span data-ttu-id="74d53-110">當商務用 Skype Server 2019 前端伺服器第一次啟動時, 就會發生 [商務用 Skype Server 2019] 使用者複製程式服務初始同步處理常式。</span><span class="sxs-lookup"><span data-stu-id="74d53-110">The Skype for Business Server 2019 User Replicator service initial synchronization process occurs when the Skype for Business Server 2019 Front End Server is started for the first time.</span></span> <span data-ttu-id="74d53-111">之後, 同步處理就會以使用者複製程式間隔為基礎。</span><span class="sxs-lookup"><span data-stu-id="74d53-111">After that, the synchronization is based on the User Replicator interval.</span></span> <span data-ttu-id="74d53-112">完成下列步驟以驗證使用者複製已完成, 然後再執行**move-csuser** Cmdlet。</span><span class="sxs-lookup"><span data-stu-id="74d53-112">Complete the following steps to verify that user replication has completed before running the **Move-CsUser** cmdlet.</span></span> 
   
-### <a name="to-verify-that-user-replication-has-completed"></a><span data-ttu-id="27f8d-113">驗證使用者複製已完成</span><span class="sxs-lookup"><span data-stu-id="27f8d-113">To verify that user replication has completed</span></span>
+### <a name="to-verify-that-user-replication-has-completed"></a><span data-ttu-id="74d53-113">驗證使用者複製已完成</span><span class="sxs-lookup"><span data-stu-id="74d53-113">To verify that user replication has completed</span></span>
 
-1. <span data-ttu-id="27f8d-114">登入以 [網域管理員] 群組和 [RTCUniversalServerAdmins] 群組成員身分安裝拓撲建立器的電腦。</span><span class="sxs-lookup"><span data-stu-id="27f8d-114">Log on to the computer where Topology Builder is installed as a member of the Domain Admins group and the RTCUniversalServerAdmins group.</span></span>
+1. <span data-ttu-id="74d53-114">登入以 [網域管理員] 群組和 [RTCUniversalServerAdmins] 群組成員身分安裝拓撲建立器的電腦。</span><span class="sxs-lookup"><span data-stu-id="74d53-114">Log on to the computer where Topology Builder is installed as a member of the Domain Admins group and the RTCUniversalServerAdmins group.</span></span>
     
-2. <span data-ttu-id="27f8d-115">按一下 [**開始**] 功能表, 然後按一下 [**執行**]。</span><span class="sxs-lookup"><span data-stu-id="27f8d-115">Click the **Start** menu, and then click **Run**.</span></span> 
+2. <span data-ttu-id="74d53-115">按一下 [**開始**] 功能表, 然後按一下 [**執行**]。</span><span class="sxs-lookup"><span data-stu-id="74d53-115">Click the **Start** menu, and then click **Run**.</span></span> 
     
-3. <span data-ttu-id="27f8d-116">輸入**eventvwr.exe**, 然後按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="27f8d-116">Enter **eventvwr.exe**, and then click **OK**.</span></span>
+3. <span data-ttu-id="74d53-116">輸入**eventvwr.exe**, 然後按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="74d53-116">Enter **eventvwr.exe**, and then click **OK**.</span></span>
     
-4. <span data-ttu-id="27f8d-117">在事件檢視器中, 按一下 [**應用程式和服務記錄**] 加以展開, 然後選取 [商務用 Skype Server]。</span><span class="sxs-lookup"><span data-stu-id="27f8d-117">In Event Viewer, click **Applications and Services logs** to expand it, and then select Skype for Business Server.</span></span> 
+4. <span data-ttu-id="74d53-117">在事件檢視器中, 按一下 [**應用程式和服務記錄**] 加以展開, 然後選取 [商務用 Skype Server]。</span><span class="sxs-lookup"><span data-stu-id="74d53-117">In Event Viewer, click **Applications and Services logs** to expand it, and then select Skype for Business Server.</span></span> 
     
-5. <span data-ttu-id="27f8d-118">在 [**動作**] 窗格中, 按一下 [**篩選目前的記錄**]。</span><span class="sxs-lookup"><span data-stu-id="27f8d-118">In the **Actions** pane, click **Filter Current Log**.</span></span>
+5. <span data-ttu-id="74d53-118">在 [**動作**] 窗格中, 按一下 [**篩選目前的記錄**]。</span><span class="sxs-lookup"><span data-stu-id="74d53-118">In the **Actions** pane, click **Filter Current Log**.</span></span>
     
-6. <span data-ttu-id="27f8d-119">從 [**事件來源**] 清單中, 按一下 [ **LS 使用者複製**]。</span><span class="sxs-lookup"><span data-stu-id="27f8d-119">From the **Event sources** list, click **LS User Replicator**.</span></span>
+6. <span data-ttu-id="74d53-119">從 [**事件來源**] 清單中, 按一下 [ **LS 使用者複製**]。</span><span class="sxs-lookup"><span data-stu-id="74d53-119">From the **Event sources** list, click **LS User Replicator**.</span></span>
     
-7. <span data-ttu-id="27f8d-120">在\*\* \<所有事件識別碼\>\*\* 中, 輸入**30024**, 然後按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="27f8d-120">In **\<All Event IDs\>**, enter **30024**, and then click **OK**.</span></span> 
+7. <span data-ttu-id="74d53-120">在\*\* \<所有事件識別碼\>\*\* 中, 輸入**30024**, 然後按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="74d53-120">In **\<All Event IDs\>**, enter **30024**, and then click **OK**.</span></span> 
     
-8. <span data-ttu-id="27f8d-121">在 [篩選的事件] 清單中的 [**一般**] 索引標籤上, 尋找指出已成功完成使用者複製的專案。</span><span class="sxs-lookup"><span data-stu-id="27f8d-121">In the filtered events list, on the **General** tab, look for an entry that states that user replication has completed successfully.</span></span> 
+8. <span data-ttu-id="74d53-121">在 [篩選的事件] 清單中的 [**一般**] 索引標籤上, 尋找指出已成功完成使用者複製的專案。</span><span class="sxs-lookup"><span data-stu-id="74d53-121">In the filtered events list, on the **General** tab, look for an entry that states that user replication has completed successfully.</span></span> 
     
 

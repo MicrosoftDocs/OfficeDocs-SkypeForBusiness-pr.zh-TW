@@ -7,6 +7,7 @@ ms.reviewer: mikedav, oscarr
 ms.topic: reference
 ms.assetid: d9e0809c-633d-4ee9-891b-ff4282789da5
 ms.tgt.pltfrm: cloud
+audience: admin
 ms.service: msteams
 ms.collection:
 - M365-collaboration
@@ -22,33 +23,33 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 這將協助您瞭解如何在每個國家/地區撥打免付費電話號碼。 在您選取國家/地區之後, 系統會將您帶到特定國家/地區的頁面, 其中包含特定的詳細資料、限制, 以及免費提供免付費服務的服務可用性限制。 [撥號格式] 或 [格式] 會在每個國家/地區顯示所需的存取代碼, 以撥打免付費電話號碼。
-ms.openlocfilehash: 5226df97db101088e5a843b6a130dd36c16eb460
-ms.sourcegitcommit: 4b8350e5bb2ef138dcc0204d764bdf85bae539ba
+ms.openlocfilehash: 43ddad059b0028d7d79bc5e5f2430148e463d9be
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "36183282"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235166"
 ---
-# <a name="toll-free-dialing-restrictions-in-india"></a><span data-ttu-id="43bc2-105">印度的免付費撥號限制</span><span class="sxs-lookup"><span data-stu-id="43bc2-105">Toll-free dialing restrictions in India</span></span>
+# <a name="toll-free-dialing-restrictions-in-india"></a><span data-ttu-id="b689f-105">印度的免付費撥號限制</span><span class="sxs-lookup"><span data-stu-id="b689f-105">Toll-free dialing restrictions in India</span></span>
 
-<span data-ttu-id="43bc2-106">[尋找其他國家或地區](../toll-free-dialing-limitations-and-restrictions.md), 或進一步瞭解免付費撥號限制與限制。</span><span class="sxs-lookup"><span data-stu-id="43bc2-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
+<span data-ttu-id="b689f-106">[尋找其他國家或地區](../toll-free-dialing-limitations-and-restrictions.md), 或進一步瞭解免付費撥號限制與限制。</span><span class="sxs-lookup"><span data-stu-id="b689f-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
 
 
-|<span data-ttu-id="43bc2-107">**詳細資料**</span><span class="sxs-lookup"><span data-stu-id="43bc2-107">**Details**</span></span>|<span data-ttu-id="43bc2-108">**說明**</span><span class="sxs-lookup"><span data-stu-id="43bc2-108">**Description**</span></span>|
+|<span data-ttu-id="b689f-107">**詳細資料**</span><span class="sxs-lookup"><span data-stu-id="b689f-107">**Details**</span></span>|<span data-ttu-id="b689f-108">**說明**</span><span class="sxs-lookup"><span data-stu-id="b689f-108">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="43bc2-109">免費通話嗎？</span><span class="sxs-lookup"><span data-stu-id="43bc2-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="43bc2-110">是的</span><span class="sxs-lookup"><span data-stu-id="43bc2-110">Yes</span></span>  <br/> |
-|<span data-ttu-id="43bc2-111">撥號格式 (s)</span><span class="sxs-lookup"><span data-stu-id="43bc2-111">Dialing format(s)</span></span>  <br/> |<span data-ttu-id="43bc2-112">000 800 XXX XXXX</span><span class="sxs-lookup"><span data-stu-id="43bc2-112">000 800 XXX XXXX</span></span>  <br/> |
-|<span data-ttu-id="43bc2-113">國家/地區 ISO 代碼</span><span class="sxs-lookup"><span data-stu-id="43bc2-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="43bc2-114">IND</span><span class="sxs-lookup"><span data-stu-id="43bc2-114">IND</span></span>  <br/> |
-|<span data-ttu-id="43bc2-115">已覆蓋的島/地區</span><span class="sxs-lookup"><span data-stu-id="43bc2-115">Island/territory covered</span></span>  <br/> |<span data-ttu-id="43bc2-116">不適用</span><span class="sxs-lookup"><span data-stu-id="43bc2-116">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="43bc2-117">未涵蓋的島/區域</span><span class="sxs-lookup"><span data-stu-id="43bc2-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="43bc2-118">不適用</span><span class="sxs-lookup"><span data-stu-id="43bc2-118">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="43bc2-119">有線/固定線路可用性</span><span class="sxs-lookup"><span data-stu-id="43bc2-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="43bc2-120">部分.</span><span class="sxs-lookup"><span data-stu-id="43bc2-120">Partial.</span></span> <span data-ttu-id="43bc2-121">請參閱批註。</span><span class="sxs-lookup"><span data-stu-id="43bc2-121">See comments.</span></span>  <br/> |
-|<span data-ttu-id="43bc2-122">行動網路可用性</span><span class="sxs-lookup"><span data-stu-id="43bc2-122">Mobile network availability</span></span>  <br/> |<span data-ttu-id="43bc2-123">部分.</span><span class="sxs-lookup"><span data-stu-id="43bc2-123">Partial.</span></span> <span data-ttu-id="43bc2-124">請參閱批註。</span><span class="sxs-lookup"><span data-stu-id="43bc2-124">See comments.</span></span>  <br/> |
-|<span data-ttu-id="43bc2-125">批註、限制及存取問題</span><span class="sxs-lookup"><span data-stu-id="43bc2-125">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="43bc2-126">從下列網路提供 Access: 迴圈行動裝置、BSNL-已修正 (所有地區, 但 Bhopal), Vodafone, 想法/更加生動 (所有地區但 Punjab 更加生動), MTS 印度/Shyam (已修正), &amp; MTNL, Ahmedabad, Bhopal、Jaipur、Lucknow、Meerut)、TTML &amp; TTSL (修正&amp; Postpaid)、Tata DoCoMo、HFCL Infotel/Ping 行動裝置、Uninor、Videocon 行動裝置、BSNL、Bharti/Airtel 網路的手機版。</span><span class="sxs-lookup"><span data-stu-id="43bc2-126">Access available from the following networks: Loop Mobile, BSNL - fixed (all regions but Bhopal), Vodafone, IDEA/SPICE (all regions but Punjab Spice), MTS India/Shyam (fixed), MTNL - fixed &amp; mobile, Reliance (all regions but Ahmedabad, Bhopal, Bhuneswer, Jaipur, Lucknow, Meerut), TTML &amp; TTSL (fixed &amp; postpaid), Tata DoCoMo, HFCL Infotel/Ping Mobile, S-Tel Mobile, Uninor, Videocon Mobile, BSNL-mobile, Bharti/Airtel network.</span></span>  <br/> <span data-ttu-id="43bc2-127">無法從下列網路使用 Access: TTSL (預付)、Etisalat DB 電信和 Jio。</span><span class="sxs-lookup"><span data-stu-id="43bc2-127">Access not available from the following networks : TTSL (Prepaid), Etisalat DB Telecom and Jio.</span></span>  <br/> |
+|<span data-ttu-id="b689f-109">免費通話嗎？</span><span class="sxs-lookup"><span data-stu-id="b689f-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="b689f-110">是的</span><span class="sxs-lookup"><span data-stu-id="b689f-110">Yes</span></span>  <br/> |
+|<span data-ttu-id="b689f-111">撥號格式 (s)</span><span class="sxs-lookup"><span data-stu-id="b689f-111">Dialing format(s)</span></span>  <br/> |<span data-ttu-id="b689f-112">000 800 XXX XXXX</span><span class="sxs-lookup"><span data-stu-id="b689f-112">000 800 XXX XXXX</span></span>  <br/> |
+|<span data-ttu-id="b689f-113">國家/地區 ISO 代碼</span><span class="sxs-lookup"><span data-stu-id="b689f-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="b689f-114">IND</span><span class="sxs-lookup"><span data-stu-id="b689f-114">IND</span></span>  <br/> |
+|<span data-ttu-id="b689f-115">已覆蓋的島/地區</span><span class="sxs-lookup"><span data-stu-id="b689f-115">Island/territory covered</span></span>  <br/> |<span data-ttu-id="b689f-116">不適用</span><span class="sxs-lookup"><span data-stu-id="b689f-116">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="b689f-117">未涵蓋的島/區域</span><span class="sxs-lookup"><span data-stu-id="b689f-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="b689f-118">不適用</span><span class="sxs-lookup"><span data-stu-id="b689f-118">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="b689f-119">有線/固定線路可用性</span><span class="sxs-lookup"><span data-stu-id="b689f-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="b689f-120">部分.</span><span class="sxs-lookup"><span data-stu-id="b689f-120">Partial.</span></span> <span data-ttu-id="b689f-121">請參閱批註。</span><span class="sxs-lookup"><span data-stu-id="b689f-121">See comments.</span></span>  <br/> |
+|<span data-ttu-id="b689f-122">行動網路可用性</span><span class="sxs-lookup"><span data-stu-id="b689f-122">Mobile network availability</span></span>  <br/> |<span data-ttu-id="b689f-123">部分.</span><span class="sxs-lookup"><span data-stu-id="b689f-123">Partial.</span></span> <span data-ttu-id="b689f-124">請參閱批註。</span><span class="sxs-lookup"><span data-stu-id="b689f-124">See comments.</span></span>  <br/> |
+|<span data-ttu-id="b689f-125">批註、限制及存取問題</span><span class="sxs-lookup"><span data-stu-id="b689f-125">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="b689f-126">從下列網路提供 Access: 迴圈行動裝置、BSNL-已修正 (所有地區, 但 Bhopal), Vodafone, 想法/更加生動 (所有地區但 Punjab 更加生動), MTS 印度/Shyam (已修正), &amp; MTNL, Ahmedabad, Bhopal、Jaipur、Lucknow、Meerut)、TTML &amp; TTSL (修正&amp; Postpaid)、Tata DoCoMo、HFCL Infotel/Ping 行動裝置、Uninor、Videocon 行動裝置、BSNL、Bharti/Airtel 網路的手機版。</span><span class="sxs-lookup"><span data-stu-id="b689f-126">Access available from the following networks: Loop Mobile, BSNL - fixed (all regions but Bhopal), Vodafone, IDEA/SPICE (all regions but Punjab Spice), MTS India/Shyam (fixed), MTNL - fixed &amp; mobile, Reliance (all regions but Ahmedabad, Bhopal, Bhuneswer, Jaipur, Lucknow, Meerut), TTML &amp; TTSL (fixed &amp; postpaid), Tata DoCoMo, HFCL Infotel/Ping Mobile, S-Tel Mobile, Uninor, Videocon Mobile, BSNL-mobile, Bharti/Airtel network.</span></span>  <br/> <span data-ttu-id="b689f-127">無法從下列網路使用 Access: TTSL (預付)、Etisalat DB 電信和 Jio。</span><span class="sxs-lookup"><span data-stu-id="b689f-127">Access not available from the following networks : TTSL (Prepaid), Etisalat DB Telecom and Jio.</span></span>  <br/> |
    
-## <a name="related-topics"></a><span data-ttu-id="43bc2-128">相關主題</span><span class="sxs-lookup"><span data-stu-id="43bc2-128">Related topics</span></span>
-[<span data-ttu-id="43bc2-129">免付費撥號限制與限制</span><span class="sxs-lookup"><span data-stu-id="43bc2-129">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
+## <a name="related-topics"></a><span data-ttu-id="b689f-128">相關主題</span><span class="sxs-lookup"><span data-stu-id="b689f-128">Related topics</span></span>
+[<span data-ttu-id="b689f-129">免付費撥號限制與限制</span><span class="sxs-lookup"><span data-stu-id="b689f-129">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
 
-[<span data-ttu-id="43bc2-130">取得商務用 Skype 和 Microsoft 團隊的服務電話號碼</span><span class="sxs-lookup"><span data-stu-id="43bc2-130">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/microsoftteams/getting-service-phone-numbers)
+[<span data-ttu-id="b689f-130">取得商務用 Skype 和 Microsoft 團隊的服務電話號碼</span><span class="sxs-lookup"><span data-stu-id="b689f-130">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/microsoftteams/getting-service-phone-numbers)
 
   
  
