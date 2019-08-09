@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1d61cd81-dcfe-40b4-9a41-a73b038bc216
 description: '摘要: 瞭解商務用 Skype Server 中使用的會議詳細資料包表。'
-ms.openlocfilehash: 5b88ae62c7d06437b3502bd72dd965fc26fbfcb6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 17337624c955dfa174f7b98772fdd836e82891d0
+ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36193750"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "36271391"
 ---
 # <a name="conference-detail-report-in-skype-for-business-server"></a>商務用 Skype Server 中的會議詳細資料包表
 
@@ -33,7 +33,7 @@ ms.locfileid: "36193750"
 
 - [使用者活動報告](call-diagnostic-reports-per-user.md)(按一下會議 URI 躍點數)
 
-在會議詳細資料包告中, 您可以按一下診斷報告 (詳細資料) 度量來存取[診斷 Repor](diagnostic-report.md) 。
+從會議詳細資料包告中, 您可以按一下診斷報告 (詳細資料) 度量來存取[診斷報告](diagnostic-report.md)。
 
 ## <a name="filters"></a>濾鏡
 

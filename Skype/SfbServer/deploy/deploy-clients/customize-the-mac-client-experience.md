@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d1d9cfec-e923-4d02-a306-ee40a9114cb8
 description: 本文將說明 Mac 版商務用 Skype 的客戶喜好設定及預設值, 以及如何在 App 外編輯這些設定。
-ms.openlocfilehash: 6b343c076d0fd1736cc6974a5c33103f0b6dfcda
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: fe8e6280fc939283bccb02641672a4fec6d5481c
+ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234445"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "36271416"
 ---
 # <a name="customize-the-mac-client-experience-in-skype-for-business"></a>在商務用 Skype 中自訂 Mac 用戶端體驗
  
@@ -34,7 +34,7 @@ Mac 用戶端上的商務用 Skype 所能使用的某些功能和行為是由用
 
 | 快速鍵 | 類型 | 值 | 說明 |
 |:-----|:-----|:-----|:-----|
-|AutoDetectAutoDiscoveryURLs    |Bool    |0 = 手動伺服器設定  <br/> 1 = 自動伺服器偵測 (預設)    |指定商務用 Skype 識別登入期間要使用的傳輸和伺服器的方式。 如果您啟用此原則設定, 您必須指定**internalAutoDiscoveryURL**和**externalAutoDiscoveryURL**。   |
+|autoDetectAutoDicoveryURLs    |Bool    |0 = 手動伺服器設定  <br/> 1 = 自動伺服器偵測 (預設)    |指定商務用 Skype 識別登入期間要使用的傳輸和伺服器的方式。 如果您啟用此原則設定, 您必須指定**internalAutoDiscoveryURL**和**externalAutoDiscoveryURL**。   |
 |internalAutoDiscoveryURL    |String    |完整的自動探索 URL    |內部自動探索 URL    |
 |externalAutoDiscoveryURL    |String    |完整的自動探索 URL    |外部自動探索 URL    |
 |HTTPProxyDomain    |String    ||HTTP Proxy 網域    |

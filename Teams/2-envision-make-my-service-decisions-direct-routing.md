@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fa92fcf7c30ecd8dfcecb84c3463f70ba13ee7ef
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 4d3410616cf3e841ab6689ffd0fea772975b484c
+ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240804"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "36271432"
 ---
 # <a name="make-my-service-decisions"></a>進行我的服務決策
 
@@ -191,7 +191,7 @@ SBCs 需要雙向連線才能與雲端服務通訊以取得信號和媒體。 [�
 
 您必須在每個 SBC 上針對 SIP 信號和媒體定義特定的埠號碼, 並將您的防火牆設定為允許對這些埠及其相關 IP 位址進行雙向通訊。
 
-如需詳細資訊, 請參閱[SIP 信號: fqdn 和防火牆埠](direct-routing-plan.md#sip-signaling-fqdns-and-firewall-ports)及[媒體流量: 埠範圍](direct-routing-plan.md#media-traffic-port-ranges)。
+如需詳細資訊, 請參閱[SIP 信號: fqdn](direct-routing-plan.md#sip-signaling-fqdns)和[媒體流量: 埠範圍](direct-routing-plan.md#media-traffic-port-ranges)。
 
 
 > [!NOTE]

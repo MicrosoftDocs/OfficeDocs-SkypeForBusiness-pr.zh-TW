@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 針對商務用 Skype Server 2019 設定資源帳戶。
-ms.openlocfilehash: 09663b1c539b561a0dc591590c53d22cdb530fee
-ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
+ms.openlocfilehash: a307a5ed40c52579020f4cd0eef6646afdb15649
+ms.sourcegitcommit: 5ec5df597614d402917e0585575dd69acda22172
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "36207154"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "36253952"
 ---
 # <a name="configure-resource-accounts"></a>設定資源帳戶
 
@@ -31,7 +31,7 @@ ms.locfileid: "36207154"
 如果您的電話系統自動語音應答或通話佇列將需要服務號碼, 就可以依照下列順序來符合各種相依性:
 
 1. 取得服務號碼
-2. 取得免費的電話系統-[虛擬使用者授權](/MicrosoftTeams/teams-add-on-licensing/virtual-user.md)或付費電話系統授權, 以便與資源帳戶搭配使用。
+2. 取得免費的電話系統-[虛擬使用者授權](/MicrosoftTeams/teams-add-on-licensing/virtual-user)或付費電話系統授權, 以便與資源帳戶搭配使用。
 3. 建立資源帳戶。 需要自動語音應答或通話佇列, 才能擁有關聯的資源帳戶。
 4. 在線上與內部部署之間等待 active directory 同步處理。
 5. 將電話系統授權指派給資源帳戶。

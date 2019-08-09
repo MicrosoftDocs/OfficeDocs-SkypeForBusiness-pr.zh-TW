@@ -14,12 +14,12 @@ search.appverid: MET150
 description: 在 Microsoft 團隊中部署雲端語音功能的實用指導方針。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bd749e00966c21677019d5d68d12e88287e96b45
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 88f043bec273cb19745e9800fc9cdb85f64c8e7a
+ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237027"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "36271392"
 ---
 # <a name="teams-cloud-meeting-recording"></a>小組雲端會議錄製
 
@@ -32,7 +32,7 @@ ms.locfileid: "36237027"
 若要錄製小組使用者的會議, 必須針對租使用者啟用 Microsoft Stream。 此外, 會議召集人和開始錄製的人員也必須具備下列先決條件:
 
 - 使用者擁有 Office 365 E1、E3、E5、A1、A3、A5、M365 Business、Business Premium 或 Business Essentials
-- 使用者需要取得 Microsoft Stream 的授權
+- 使用者需要取得 Microsoft Stream<sup>1</sup>的授權 
 - 使用者擁有 Microsoft Stream 上傳影片的許可權
 - 使用者已在由管理員設定的情況下, 同意公司指引
 - 使用者在 Microsoft Stream 中擁有足夠的儲存空間, 以供儲存錄製
@@ -41,6 +41,8 @@ ms.locfileid: "36237027"
 
 > [!NOTE]
 > 此外, 若要讓啟動錄製的人選擇是否要自動將抄寫錄製, 使用者的 TeamsMeetingPolicy-AllowTranscription 設定必須設定為 true。
+
+<sup>1</sup>使用者必須有授權, 才能將會議上傳/下載到 Microsoft Stream, 但他們不需要有錄製會議的授權。 如果您想要封鎖使用者錄製 Microsoft 團隊會議, 您必須授與 AllowCloudRecording 設定為 $False 的 TeamsMeetingPolicy。
 
 ## <a name="set-up-teams-cloud-meeting-recording-for-users-in-your-organization"></a>為組織中的使用者設定小組雲端會議錄製
 

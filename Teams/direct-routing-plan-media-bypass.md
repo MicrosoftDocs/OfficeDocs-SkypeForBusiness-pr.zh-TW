@@ -13,12 +13,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: 請閱讀本主題, 以瞭解如何使用手機系統直接路由規劃媒體旁路。
-ms.openlocfilehash: db236b1fadb4dcb13d5405402f469afee9eb2dac
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 70d0b5ea61d0d7a8001bb1dbfabda2c45274e521
+ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236596"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "36271443"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>使用直接路由規劃媒體旁路
 
@@ -155,9 +155,17 @@ IP 範圍是 52.112.0.0/14 (從52.112.0.1 到52.115.255.254 的 IP 位址)。
 請確定您的 SBC 能夠存取傳輸繼電器, 如下所述。    
 
 
-## <a name="sip-signaling-fqdns-and-firewall-ports"></a>SIP 信號: Fqdn 和防火牆埠
+## <a name="sip-signaling-fqdns"></a>SIP 信號: Fqdn
 
 針對 SIP 信號, FQDN 和防火牆需求與非繞過案例相同。 
+
+在下列 Office 365 環境中提供直接路由:
+- Office 365
+- Office 365 GCC
+- Office 365 GCC 高
+- Office 365 DoD 進一步瞭解[office 365 和美國政府環境](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government)(例如 GCC、gcc 高和 DoD)。
+
+### <a name="office-365-and-office-365-gcc-environments"></a>Office 365 和 Office 365 GCC 環境
 
 直接路由的連接點是下列三個 Fqdn:
 
@@ -182,7 +190,43 @@ Fqdn **sip.pstnhub.microsoft.com**、 **sip2.pstnhub.microsoft.com**和**sip3.ps
 - 52.114.7.24
 - 52.114.14.70
 
-您將需要在防火牆中開啟所有這些 IP 位址的埠, 以允許傳入和傳出流量進出位址以進行寄件者。 如果您的防火牆支援 DNS 名稱, FQDN **sip-all.pstnhub.microsoft.com**會解析為上述所有 IP 位址。 您必須使用下列埠:
+您必須在防火牆中開啟所有這些 IP 位址的埠, 以允許傳入及傳出流量進出位址來傳送信號。 如果您的防火牆支援 DNS 名稱, FQDN **sip-all.pstnhub.microsoft.com**會解析為所有這些 IP 位址。 
+
+### <a name="office-365-gcc-dod-environment"></a>Office 365 GCC DoD 環境
+
+直接路由的連接點是下列 FQDN:
+
+**sip.pstnhub.dod.teams.microsoft.us** –全域 FQDN。 因為 Office 365 DoD 環境僅存在於美國資料中心, 所以沒有次要和第三個 Fqdn。
+
+Fqdn – sip.pstnhub.dod.teams.microsoft.us 將會解析成下列其中一個 IP 位址:
+
+- 52.127.64.33
+- 52.127.68.34
+
+您必須在防火牆中開啟所有這些 IP 位址的埠, 以允許傳入及傳出流量進出位址來傳送信號。  如果您的防火牆支援 DNS 名稱, FQDN sip.pstnhub.dod.teams.microsoft.us 會解析為所有這些 IP 位址。 
+
+### <a name="office-365-gcc-high-environment"></a>Office 365 GCC 高環境
+
+直接路由的連接點是下列 FQDN:
+
+**sip.pstnhub.gov.teams.microsoft.us** –全域 FQDN。 由於 GCC 的高環境僅存在於美國資料中心, 因此沒有副及三元 Fqdn。
+
+Fqdn – sip.pstnhub.gov.teams.microsoft.us 將會解析成下列其中一個 IP 位址:
+
+- 52.127.88.59
+- 52.127.92.64
+
+您必須在防火牆中開啟所有這些 IP 位址的埠, 以允許傳入及傳出流量進出位址來傳送信號。  如果您的防火牆支援 DNS 名稱, FQDN sip.pstnhub.gov.teams.microsoft.us 會解析為所有這些 IP 位址。 
+
+## <a name="sip-signaling-ports"></a>SIP 信號: 埠
+
+對於所有提供直接路由的 Office 365 環境而言, 埠需求都是相同的:
+- Office 365
+- Office 365 GCC
+- Office 365 GCC 高
+- Office 365 DoD
+
+您必須使用下列埠:
 
 | 頻寬 | 從 | 自 | 來源埠 | 目的地埠|
 | :-------- | :-------- |:-----------|:--------|:---------|
@@ -210,9 +254,22 @@ UDP/SRTP | 端 | SBC | 50 000 – 50 019  | 在 SBC 上定義 |
 
 ### <a name="requirements-for-using-transport-relays"></a>使用傳輸繼電器的需求
 
-傳輸繼電器與媒體處理器在同一個範圍內 (針對非旁路情況): 52.112.0.0/14 (從52.112.0.1 到52.115.255.254 的 IP 位址)。
+傳輸繼電器與媒體處理器在同一個範圍內 (適用于非旁路情況): 
 
-小組傳輸繼電器的埠範圍如下表所示:
+### <a name="office-365-and-office-365-gcc-environments"></a>Office 365 和 Office 365 GCC 環境
+
+-52.112.0.0/14 (從52.112.0.1 到52.115.255.254 的 IP 位址)
+
+## <a name="office-365-gcc-dod-environment"></a>Office 365 GCC DoD 環境
+
+- 52.127.64.0/21
+
+### <a name="office-365-gcc-high-environment"></a>Office 365 GCC 高環境
+
+- 52.127.88.0/21
+
+
+[小組傳輸中繼] 的埠範圍 (適用于所有環境) 如下表所示:
 
 
 | 頻寬 | 從 | 自 | 來源埠 | 目的地埠|
@@ -236,9 +293,21 @@ UDP/SRTP | 傳輸中繼 | SBC | 50 000-59 999    | 在 SBC 上定義 |
 媒體處理器總是位於語音應用程式和網路 cleints 的媒體路徑中 (適用于 exampe, 小組 cleint 是 Edge 或 Google Chrome)。 其需求與非旁路設定相同。
 
 
-媒體流量的 IP 範圍是 52.112.0.0/14 (從52.112.0.1 到52.115.255.254 的 IP 位址)。
+媒體流量的 IP 範圍是 
 
-媒體處理器的埠範圍如下表所示:
+### <a name="office-365-and-office-365-gcc-environments"></a>Office 365 和 Office 365 GCC 環境
+
+-52.112.0.0/14 (從52.112.0.1 到52.115.255.254 的 IP 位址)
+
+## <a name="office-365-gcc-dod-environment"></a>Office 365 GCC DoD 環境
+
+- 52.127.64.0/21
+
+### <a name="office-365-gcc-high-environment"></a>Office 365 GCC 高環境
+
+- 52.127.88.0/21
+
+媒體處理器的埠範圍 (適用于所有環境) 如下表所示:
 
 | 頻寬 | 從 | 自 | 來源埠 | 目的地埠|
 | :-------- | :-------- |:-----------|:--------|:---------|

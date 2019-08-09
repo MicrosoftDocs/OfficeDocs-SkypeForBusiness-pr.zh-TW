@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 瞭解如何設定一個會話邊界控制器 (SBC) 來提供多個承租人。
-ms.openlocfilehash: f12e4ac747607a8527021f50794b6fc742ed0b19
-ms.sourcegitcommit: a78fee3cad5b58bf41dd014a79f4316cf310c8d1
+ms.openlocfilehash: 3aad7aa5b958e9e4129bbf7e3553137768d1f4c1
+ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/29/2019
-ms.locfileid: "36185172"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "36271454"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>針對多個承租人設定會話框線控制器
 
@@ -57,6 +57,7 @@ Microsoft 不會管理運營商。 Microsoft 提供 PBX (Microsoft 手機系統)
 如需如何針對 SBC 主機案例部署和設定 SBCs 的詳細步驟, 請參閱 SBC 供應商的檔。
 
 - **AudioCodes:**[直接路由設定備](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams)忘稿, 在「將 AudioCodes SBC 連線至 Microsoft 團隊直接路由託管模型配置記事」中所述的 SBC 主機案例設定。 
+- **Oracle:**[直接路由設定筆記](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html), 在「Microsoft」一節中將說明 SBC 主機案例的設定。 
 - **功能區通訊:** 請參閱[功能區通訊 SBC 核心 Microsoft 團隊配置指南](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe), 瞭解如何設定功能區核心數列的 SBCs 與此頁面[功能區最佳做法-為 Microsoft 團隊直接路由 SBC 設定電信公司Edge](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+Carriers+for+Microsoft+Teams+Direct+Routing)
 - **TE-系統 (anynode):** 請在[TE 系統社區頁面](https://community.te-systems.de/)上登錄, 以取得有關如何針對多個租使用者設定 anynode SBC 的檔和範例。
 
@@ -205,7 +206,7 @@ SBC 需要認證, 才能驗證連線。 針對 SBC 主機案例, 電信公司必
 
 不過, 這種情況尚未獲得最佳的原因:
  
-•**費用管理**。 例如, 如果您要啟用或停用媒體旁路, 請更換或排出 SBC。 變更埠需要變更多個承租人中的參數 (透過執行設定 CSonlinePSTNGateway), 但實際上是同一個 SBC。 •**費用處理**。 收集及監視幹線狀態資料-從多個邏輯 trunks 收集的 SIP 選項, 實際上是同一個 SBC 與相同的物理幹線, 會減緩路由資料的處理。
+•**費用管理**。 例如, 如果您要啟用或停用媒體旁路, 請更換或排出 SBC。 變更埠需要變更多個承租人中的參數 (透過執行設定 CSOnlinePSTNGateway), 但實際上是同一個 SBC。 •**費用處理**。 收集及監視幹線狀態資料-從多個邏輯 trunks 收集的 SIP 選項, 實際上是同一個 SBC 與相同的物理幹線, 會減緩路由資料的處理。
  
 
 根據這項意見反應, Microsoft 正在為客戶租使用者提供新的邏輯來提供 trunks。
@@ -226,7 +227,7 @@ SBC 需要認證, 才能驗證連線。 針對 SBC 主機案例, 電信公司必
 
 從先前的模型遷移至載波幹線
  
-若要從載波託管模型的目前實現遷移到新的模型, 運營商將需要針對客戶租使用者重新設定 trunks。 使用移除-CSOnluinePSTNGateway (在承運人租使用者中離開主幹) 移除客戶租使用者的 trunks。
+若要從載波託管模型的目前實現遷移到新的模型, 運營商將需要針對客戶租使用者重新設定 trunks。 使用移除-CSOnlinePSTNGateway (在承運人租使用者中離開主幹) 移除客戶租使用者的 trunks。
 
 我們強烈建議您儘快遷移到新的解決方案, 因為我們將使用載波和衍生的幹線模型來加強監視和提供。
  

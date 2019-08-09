@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a6478938f26fb911cd3dc8f6ca8a7972cc906dd8
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: e6aacceaee811a80a9451f26cc1e8cba6ed56a49
+ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237662"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "36271378"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-high-deployments"></a>規劃 Microsoft 365 政府-GCC 高部署
 
@@ -78,14 +78,14 @@ Microsoft 365 政府版-GCC 高環境提供與美國雲端服務政府需求相�
 |-----------------------------|-----------------------------|----------------|
 | 基本 | Id | 離線 |
 | | 平臺 | 離線 |
-| | 整合的目前狀態 (商務用 Skype 和小組已統一) | 在政府積壓工作 |
+| | 整合的目前狀態 (商務用 Skype 和小組已統一) | 離線 |
 | 操作 | 複製 | 離線 |
 |  | 我的活動 | 離線 |
 | 交流 | 交談 | 離線 |
 | | Files | 離線 |
 | | 組織結構 | 離線 |
 | | 操作 | 離線 |
-| | 互通性 (1:1 團隊-商務用 Skype 聊天) | 在政府積壓工作 |
+| | 互通性 (1:1 團隊-商務用 Skype 聊天) | 離線 |
 | 協同 | 頻道訊息 | 離線 |
 | | 頻道檔案 | 離線 |
 | | [OneNote] 索引標籤 | 在政府積壓工作 |
