@@ -15,16 +15,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e91b0e25a7844634577083b26d74a48c788bc45b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 38a0368a2fb11fb1f6d1a37e5a7f53a1798733d7
+ms.sourcegitcommit: 8a8c71aea5bd2420b110619607ef0715136578ab
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237049"
+ms.lasthandoff: 08/10/2019
+ms.locfileid: "36286253"
 ---
 # <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>為 Microsoft 團隊設定雲端影片互通性
 
-在[雲端視頻 Interop 合作夥伴上選取](cloud-video-interop.md)之後, 您將需要規劃您的部署、使用提供詳細資料與合作夥伴租使用者金鑰的設定, 以及同意您組織中的視頻互通性應用程式。 下圖概述此程式。 
+在您[選擇雲端視頻 Interop 合作夥伴](cloud-video-interop.md)之後, 您將需要規劃您的部署、使用提供詳細資料與合作夥伴租使用者金鑰的設定, 以及同意您組織中的視頻互通性應用程式。 下圖概述此程式。 
 
 ![在組織中部署 CVI](media/deploying-cvi.png)
 
