@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: baeb60f00602052d28a85337387cb0024979360e
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 506d33ab48ad35397a500ef8f274ef6a332f8cd1
+ms.sourcegitcommit: ab259764dc50bdd52efed3abb1d065ee19486946
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237661"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "36393435"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>規劃 Microsoft 365 政府版-GCC 部署
 
@@ -98,9 +98,9 @@ Microsoft 365 政府版-GCC 環境提供對雲端服務 (包括 FedRAMP 適中�
 | | 在共用中提供控制權並加以控制 | 離線 |
 | | 從會議室連接 | 離線 |
 | | 匿名加入 | 離線 |
-| | 雲端錄製 | 在政府積壓工作 |
+| | 雲端錄製 | 離線 |
 | | 會議記事 | 離線 |
-| | 廣播會議 | 在政府積壓工作 |
+| | 即時事件 | 離線 |
 | | 同盟會議 | 離線 |
 | | Surface Hub 支援 | 無法使用 |
 | 撥 | 聯絡 | 離線 |

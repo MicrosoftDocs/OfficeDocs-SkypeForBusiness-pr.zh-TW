@@ -3,38 +3,6 @@
 
 
 
-## <a name="week-of-july-01-2019"></a>2019年7月01日的周
-
-
-| 發佈日期 |主題標題 | 切換 |
-|------|------------|--------|
-| 7/1/2019 | [Microsoft 團隊會議室需求](/MicrosoftTeams/room-systems/requirements) | 日期 |
-| 7/1/2019 | [將您的 StaffHub 團隊移至 Microsoft 團隊中的倒班](/MicrosoftTeams/expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams) | 日期 |
-| 7/1/2019 | [使用 Microsoft 團隊管理員角色管理團隊](/MicrosoftTeams/using-admin-roles) | 日期 |
-| 7/1/2019 | [如何推出 Microsoft 團隊](/MicrosoftTeams/how-to-roll-out-teams) | 日期 |
-| 7/1/2019 | 將商務用 Skype 升級至 Microsoft 團隊 | 移除 |
-| 7/1/2019 | [歡迎使用 Microsoft 團隊](/MicrosoftTeams/teams-overview) | 日期 |
-| 7/1/2019 | [瞭解如何從商務用 Skype 升級至 Microsoft 團隊](/MicrosoftTeams/tutorial-journey-skypeforbusiness-to-teams) | 日期 |
-| 7/1/2019 | [將來賓新增至團隊](/MicrosoftTeams/add-guests) | 日期 |
-| 7/1/2019 | [Microsoft 團隊預覽版中的資訊障礙](/MicrosoftTeams/information-barriers-in-teams) | 日期 |
-| 7/1/2019 | [Microsoft 團隊的系統管理訓練](/MicrosoftTeams/teams-admin-training-landing-page) | 日期 |
-| 7/1/2019 | [Microsoft 團隊裝置使用量報告](/MicrosoftTeams/teams-analytics-and-reports/device-usage-report) | 日期 |
-| 7/1/2019 | [Microsoft 團隊分析和報告](/MicrosoftTeams/teams-analytics-and-reports/teams-reporting-reference) | 日期 |
-| 7/1/2019 | [Microsoft 團隊使用量報告](/MicrosoftTeams/teams-analytics-and-reports/teams-usage-report) | 日期 |
-| 7/1/2019 | [Microsoft 團隊使用者活動報告](/MicrosoftTeams/teams-analytics-and-reports/user-activity-report) | 日期 |
-| 7/1/2019 | [什麼是 Microsoft 團隊即時事件？](/MicrosoftTeams/teams-live-events/what-are-teams-live-events) | 日期 |
-| 7/3/2019 | [管理團隊中的資源帳戶](/MicrosoftTeams/manage-resource-accounts) | 日期 |
-| 7/3/2019 | [小組更新流程](/MicrosoftTeams/teams-client-update) | 日期 |
-| 7/3/2019 | [Microsoft 團隊從商務\|用 Skype 模式 (共存) 升級](/MicrosoftTeams/upgrade-and-coexistence-of-skypeforbusiness-and-teams) | 日期 |
-| 7/3/2019 | [設定雲端自動語音應答](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 日期 |
-| 7/3/2019 | [建立通話佇列](/MicrosoftTeams/create-a-phone-system-call-queue) | 日期 |
-| 7/3/2019 | [透過 SCCM 使用 MSI 安裝 Microsoft 團隊](/MicrosoftTeams/msi-deployment) | 日期 |
-| 7/3/2019 | [什麼是雲端自動語音應答？](/MicrosoftTeams/what-are-phone-system-auto-attendants) | 日期 |
-| 7/3/2019 | [日本的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-japan) | 日期 |
-| 7/3/2019 | [澳大利亞電話號碼管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-australia) | 日期 |
-| 7/3/2019 | [Microsoft 團隊的已知問題](/MicrosoftTeams/known-issues) | 日期 |
-
-
 ## <a name="week-of-july-08-2019"></a>2019年7月08日
 
 
@@ -196,3 +164,66 @@
 | 8/2/2019 | [管理 Microsoft 團隊中的 app 許可權原則](/MicrosoftTeams/teams-app-permission-policies) | 日期 |
 | 8/2/2019 | [在 Microsoft 團隊中管理 app 設定原則](/MicrosoftTeams/teams-app-setup-policies) | 日期 |
 | 8/2/2019 | [管理 Microsoft 團隊中的自訂應用程式原則和設定](/MicrosoftTeams/teams-custom-app-policies-and-settings) | 日期 |
+
+
+## <a name="week-of-august-05-2019"></a>2019年8月5日
+
+
+| 發佈日期 |主題標題 | 切換 |
+|------|------------|--------|
+| 8/5/2019 | [在 Microsoft 團隊中實現服務品質](/MicrosoftTeams/qos-in-teams) | 日期 |
+| 8/5/2019 | [建立通話佇列](/MicrosoftTeams/create-a-phone-system-call-queue) | 日期 |
+| 8/5/2019 | [在 Microsoft 團隊的疑難排解中使用記錄檔](/MicrosoftTeams/log-files) | 日期 |
+| 8/5/2019 | [管理團隊中的資源帳戶](/MicrosoftTeams/manage-resource-accounts) | 日期 |
+| 8/5/2019 | [與商務用 Skype 搭配使用團隊之組織的遷移和互通性指南](/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype) | 日期 |
+| 8/5/2019 | [為 Microsoft 團隊準備貴組織的網路](/MicrosoftTeams/prepare-network) | 日期 |
+| 8/5/2019 | [使用 Exchange 內部部署來部署 Microsoft 團隊聊天室](/MicrosoftTeams/room-systems/with-exchange-on-premises) | 日期 |
+| 8/6/2019 | [在 Microsoft 團隊的疑難排解中使用記錄檔](/MicrosoftTeams/log-files) | 日期 |
+| 8/6/2019 | [電話系統-虛擬使用者授權](/MicrosoftTeams/teams-add-on-licensing/virtual-user) | 日期 |
+| 8/6/2019 | [Microsoft 團隊的操作指南](/MicrosoftTeams/1-drive-value-operate-my-service) | 日期 |
+| 8/6/2019 | [在音訊會議中定義成功-Microsoft 團隊](/MicrosoftTeams/1-envision-define-my-success-audio-conferencing) | 日期 |
+| 8/6/2019 | [在音訊會議、含有通話方案的電話系統中定義成功, 或使用電話系統直式路由-Microsoft 團隊](/MicrosoftTeams/1-envision-define-my-success-cloud-voice) | 日期 |
+| 8/6/2019 | [使用通話方案 (Microsoft 團隊) 定義手機系統的成功](/MicrosoftTeams/1-envision-define-my-success-phone-system) | 日期 |
+| 8/6/2019 | [準備部署 Microsoft 團隊雲端語音服務](/MicrosoftTeams/1-onboard-prepare-my-service) | 日期 |
+| 8/6/2019 | [加強您的 Microsoft 團隊服務](/MicrosoftTeams/2-drive-value-enhance-my-service) | 日期 |
+| 8/6/2019 | [建立語音會議服務決策-Microsoft 團隊](/MicrosoftTeams/2-envision-make-my-service-decisions-audio-conferencing) | 日期 |
+| 8/6/2019 | [撥打手機系統直通路線服務決策-Microsoft 團隊](/MicrosoftTeams/2-envision-make-my-service-decisions-direct-routing) | 日期 |
+| 8/6/2019 | [使用電話系統進行通話方案服務決策-Microsoft 團隊](/MicrosoftTeams/2-envision-make-my-service-decisions-phone-system) | 日期 |
+| 8/6/2019 | [為 Microsoft 團隊準備使用者](/MicrosoftTeams/2-onboard-prepare-my-users) | 日期 |
+| 8/6/2019 | [針對 Microsoft 團隊雲端語音工作負載評估您的環境](/MicrosoftTeams/3-envision-evaluate-my-environment) | 日期 |
+| 8/6/2019 | [部署 Microsoft 團隊雲端語音服務](/MicrosoftTeams/3-onboard-deploy-my-service) | 日期 |
+| 8/6/2019 | [規劃 Microsoft 團隊服務管理](/MicrosoftTeams/4-envision-plan-my-service-management) | 日期 |
+| 8/6/2019 | [規劃使用者對 Microsoft 團隊的體驗](/MicrosoftTeams/5-envision-plan-my-users-experience) | 日期 |
+| 8/6/2019 | [記錄您的 Microsoft 團隊成功方案](/MicrosoftTeams/6-envision-document-my-success-plan) | 日期 |
+| 8/6/2019 | [Microsoft 團隊\|評估環境\|採納、探索](/MicrosoftTeams/environmental-discovery-for-microsoft-teams-rollout) | 日期 |
+| 8/6/2019 | [Exchange 與 Microsoft 團隊如何互動](/MicrosoftTeams/exchange-teams-interact) | 日期 |
+| 8/6/2019 | [設定 Exchange 混合式組織以搭配 Microsoft 團隊使用](/MicrosoftTeams/exchange-hybrid-organization) | 日期 |
+| 8/6/2019 | [常見問題-從商務用 Skype 升級至 Microsoft 團隊](/MicrosoftTeams/faq-journey) | 日期 |
+| 8/6/2019 | [如何推出 Microsoft 團隊](/MicrosoftTeams/how-to-roll-out-teams) | 日期 |
+| 8/6/2019 | [Microsoft 團隊的系統管理訓練](/MicrosoftTeams/itadmin-readiness) | 日期 |
+| 8/6/2019 | [Microsoft 團隊的已知問題](/MicrosoftTeams/known-issues) | 日期 |
+| 8/6/2019 | [Microsoft 團隊技術檔](/MicrosoftTeams/microsoft-teams) | 日期 |
+| 8/7/2019 | [團隊倒班](/MicrosoftTeams/expand-teams-across-your-org/shifts-for-teams-landing-page) | 日期 |
+| 8/7/2019 | [版本資訊](/MicrosoftTeams/room-systems/srs2-release-note) | 日期 |
+| 8/7/2019 | [將您的 StaffHub 團隊移至 Microsoft 團隊中的倒班](/MicrosoftTeams/expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams) | 日期 |
+| 8/7/2019 | [常見問題-從商務用 Skype 升級至 Microsoft 團隊](/MicrosoftTeams/faq-journey) | 日期 |
+| 8/7/2019 | [使用 Azure 監視器管理 Microsoft 團隊聊天室裝置](/MicrosoftTeams/room-systems/azure-monitor-manage) | 日期 |
+| 8/7/2019 | [已知問題](/MicrosoftTeams/room-systems/known-issues) | 日期 |
+| 8/7/2019 | [Microsoft 團隊會議室需求](/MicrosoftTeams/room-systems/requirements) | 日期 |
+| 8/7/2019 | [版本支援](/MicrosoftTeams/room-systems/srs2-lifecycle-support) | 日期 |
+| 8/7/2019 | [管理 Microsoft 團隊聊天室的 Windows 更新](/MicrosoftTeams/room-systems/updates) | 日期 |
+| 8/7/2019 | [管理 Microsoft 團隊中的意見反應原則](/MicrosoftTeams/manage-feedback-policies-in-teams) | 日期 |
+| 8/8/2019 | [在 [審核記錄] 中搜尋 Microsoft 團隊中的事件](/MicrosoftTeams/audit-log-events) | 日期 |
+| 8/8/2019 | [針對多個承租人設定會話框線控制器](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | 日期 |
+| 8/8/2019 | [Microsoft 團隊來賓存取檢查清單](/MicrosoftTeams/guest-access-checklist) | 日期 |
+| 8/8/2019 | [工具與討論會-規劃、交付及採納 Microsoft 團隊](/MicrosoftTeams/planning-workshop-practical-guide) | 日期 |
+| 8/8/2019 | [小組雲端會議錄製](/MicrosoftTeams/cloud-recording) | 日期 |
+| 8/8/2019 | [使用直接路由規劃媒體旁路](/MicrosoftTeams/direct-routing-plan-media-bypass) | 日期 |
+| 8/8/2019 | [規劃直接路由](/MicrosoftTeams/direct-routing-plan) | 日期 |
+| 8/8/2019 | [規劃 Microsoft 365 政府版-GCC 高部署版-Microsoft 團隊](/MicrosoftTeams/plan-for-government-gcc-high) | 日期 |
+| 8/8/2019 | [撥打手機系統直通路線服務決策-Microsoft 團隊](/MicrosoftTeams/2-envision-make-my-service-decisions-direct-routing) | 日期 |
+| 8/9/2019 | [管理 Microsoft 團隊中的原則套件](/MicrosoftTeams/manage-policy-packages) | 日期 |
+| 8/9/2019 | [為 Microsoft 團隊準備貴組織的網路](/MicrosoftTeams/prepare-network) | 日期 |
+| 8/9/2019 | [為 Microsoft 團隊設定雲端影片互通性](/MicrosoftTeams/cloud-video-interop-for-teams-set-up) | 日期 |
+| 8/9/2019 | [政府團隊](/MicrosoftTeams/expand-teams-across-your-org/teams-for-government-landing-page) | 日期 |
+| 8/9/2019 | [在 Microsoft 團隊系統管理中心管理團隊](/MicrosoftTeams/manage-teams-in-modern-portal) | 日期 |

@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d89d9ed514eb5246911fe88d5fadc1af79caff1b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: b0f3e24d38e877d923e52de3f1c7116853737dc7
+ms.sourcegitcommit: ab259764dc50bdd52efed3abb1d065ee19486946
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245404"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "36393430"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 與 Microsoft 團隊如何互動
 
@@ -29,11 +29,16 @@ ms.locfileid: "36245404"
 
 針對完整的團隊體驗, 您應該針對 Exchange Online、SharePoint Online 和 Office 365 群組建立啟用每個使用者。
 
-使用者的 Exchange 信箱可以在線上託管或內部部署。 以 Exchange Online 或 Exchange 專用 vNext 為宿主的使用者可以使用團隊的所有功能。 他們可以建立及加入團隊與頻道、建立及觀看會議、呼叫及聊天、修改使用者設定檔圖片、新增及設定連接器、索引標籤和 bot。
+使用者的 Exchange 信箱可以在線上託管或內部部署。 不過, 某些功能需要與您的 Office 365 租使用者進行混合式部署。
 
-主機位於 Exchange Online 專用-舊版或 Exchange 內部部署的使用者, 必須同步處理到 Azure Active Directory for Office 365。 他們可以建立及加入團隊和頻道、新增及設定索引標籤和 bot, 以及聊天和通話。 不過, 他們無法修改使用者設定檔圖片, 或新增及設定連接器。 他們可以接收由其他使用者設定的連接器發來的訊息。 若要建立及查看會議, 它是一種混合式袋: 針對 Exchange 2016 累積更新 3 (CU3) 及更新版本, 不支援建立及查看會議, 但在 Exchange 2016 CU3 之前的版本中則不支援。
+以 Exchange Online 或 Exchange 專用 vNext 為宿主的使用者可以使用團隊的所有功能。 他們可以建立及加入團隊與頻道、建立及觀看會議、呼叫及聊天、修改使用者設定檔圖片, 以及新增及設定連接器、索引標籤和 bot。
 
-下表提供在各種環境中託管 Exchange Online 之使用者的資訊。
+以 Exchange Online 專用 (舊版) 託管的使用者必須同步處理到 Office 365 上的 Azure Active Directory。 他們可以建立及加入團隊與頻道、新增及設定索引標籤和機器人, 以及利用聊天與通話功能。 不過, 他們無法修改個人檔案圖片、管理會議、存取 outlook 連絡人或管理連接器。
+
+擁有內部部署之信箱的使用者必須同步處理到 Azure Active Directory。 它們可以利用上述案例中的所有功能, 此外, 他們也可以變更使用者設定檔圖片及管理會議, 提供 Exchange Server 2016 (累加更新 3) 或更新版本, 以執行內部部署。
+
+下表提供根據 Exchange 環境的功能可用性的實用快速參考。
+
 
 **支援的動作:**
 
@@ -41,16 +46,23 @@ ms.locfileid: "36245404"
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |**Exchange Online**|是<sup>2</sup>|是<sup>2</sup>|是的|是的|是的|是的|是的|是的|是的|是的|是的|是的|是的|
 |**Exchange Online 專用 vNext**|是<sup>2</sup>|是<sup>2</sup>|是的|是的|是的|是的|是的|是的|是的|是的|是的|是的|是的|
-|**Exchange Online 專用–傳統**(需要同步處理到 Azure AD)|是<sup>2</sup>|是<sup>2、3</sup>|是<sup>4|是的|不|不|是的|是的|不|是<sup>5|是的|是的|是的|
-|**Exchange 內部部署**(需要同步處理到 Azure AD)|是<sup>2</sup>| 是<sup>2、3</sup> |是<sup>4|是的|是 (Exchange 2016 CU3 +)|是 (Exchange 2016 CU3 +)|是的|是的|不|是<sup>5|是的|是的|是的|
+|**Exchange Online 專用–傳統**(需要同步處理到 Azure AD)|是<sup>2</sup>|是<sup>2、3</sup>|是<sup>4|是的|不|不|是的|是的|不|是<sup>5|是<sup>6|是的|是的|
+|**Exchange 內部部署**(需要同步處理到 Azure AD)|是<sup>2</sup>| 是<sup>2、3</sup> |是<sup>4|是的|是 (Exchange 2016 CU3 +)|是 (Exchange 2016 CU3 +)|是的|是的|不|是<sup>5|是<sup>6|是的|是的|
 
-支援<sup>1</sup>個 EXCHANGE 2016 CU3 及以上版本  
-在所有託管選項中, 都支援針對通道訊息的相容性啟用<sup>2</sup>個 EDiscovery 和法律封存。  
+支援<sup>1</sup>個 EXCHANGE 2016 CU3 及以上版本。  
+
+在所有託管選項中, 都支援針對通道訊息的相容性啟用<sup>2</sup>個 EDiscovery 和法律封存。
+
 <sup>3</sup>團隊私人聊天訊息尚不支援針對此託管選項進行法律封存。
 
 <sup>4</sup>保留會針對線上使用者使用陰影信箱來儲存訊息。 [Microsoft 團隊支援針對 Exchange 混合式環境中的團隊使用者使用 eDiscovery](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-supports-eDiscovery-for-Teams-users-in-a/ba-p/200009)。
 
 具有內部部署 Exchange 信箱的<sup>5 個</sup>小組使用者可能會在 Outlook 中使用語音信箱及接收語音信箱訊息, 但在團隊用戶端內則無法查看或播放語音信箱訊息。
+
+<sup>6</sup>如果小組的其中一個擁有者可以新增連接器, 該小組中的其他人都能這樣做, 即使他們的信箱是內部部署的。
+
+
+其他資訊:
 
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>充分利用 Microsoft 團隊的需求
 

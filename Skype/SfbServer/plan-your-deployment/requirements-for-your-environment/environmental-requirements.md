@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
 description: '摘要: 針對商務用 Skype Server 2015 設定您的非伺服器需求。 在進行部署之前, 您需要先設定多種不同的專案, 包括 Active Directory、DNS、證書及 Fileshares。'
-ms.openlocfilehash: 68ccac9b4335de6b4f3bea0fba179e7d8e498224
-ms.sourcegitcommit: bd50c6239cee414ea9933e9d569fa5a24bc05544
+ms.openlocfilehash: 59f7bed17c217eda46314d2a133c0d5671682824
+ms.sourcegitcommit: ab259764dc50bdd52efed3abb1d065ee19486946
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/01/2019
-ms.locfileid: "36193972"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "36393427"
 ---
 # <a name="environmental-requirements-for-skype-for-business-server-2015"></a>商務用 Skype Server 2015 的環境需求
  
@@ -54,6 +54,8 @@ ms.locfileid: "36193972"
 ### <a name="os-for-domain-controllers"></a>網網域控制站的作業系統
 
 那麼, 您可以使用哪些網網域控制站作業系統？ 我們有下列清單:
+
+- Windows Server 2019 (您必須具備商務用 Skype Server 2015 累計更新5或更新版本)
   
 - Windows Server 2016
     
@@ -66,6 +68,8 @@ ms.locfileid: "36193972"
 - Windows Server 2008
     
 現在, 您部署商務用 Skype Server 2015 的任何網域的網域功能層級, 以及您部署商務用 Skype Server 2015 的任何目錄林功能層級, 都必須是下列其中一項:
+
+- Windows Server 2019 (您必須具備商務用 Skype Server 2015 累計更新5或更新版本)
   
 - Windows Server 2016
     
