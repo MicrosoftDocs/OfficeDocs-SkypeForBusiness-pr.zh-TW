@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '瞭解功能、可用性, 以及如何規劃及設定商務用電話系統 (雲端 PBX)。 '
-ms.openlocfilehash: 081355404c834edf8e9fc108d68d8fb597d6c151
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 956834a7dbfee58601cb62848a12fad6a05abdd7
+ms.sourcegitcommit: 9053c0d5ddb6be3ce3da85dffcde3f45dbc0ab7c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "36182724"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "36407974"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>以下是您在 Office 365 中使用電話系統所取得的結果
 
@@ -65,7 +65,7 @@ PBX 是企業內的電話系統。 Office 365 附加元件中的電話系統提�
 |[在商務用 Skype 中設定 [來電轉接] 選項](https://support.office.com/article/1ec2e7fb-471c-4c35-bc90-a35991b3f532) <br/> |在設定的時段內立即或之後傳送您的來電給您的小組。  <br/> |
 |[使用商務用 Skype 撥打和接聽視頻通話](https://support.office.com/article/abf62493-670f-4b0d-b2cf-fe03b49caf42) <br/> | 您可以在小型浮動視窗中看到喇叭的名稱和影片資料流程, 所以您隨時可以開始回應任何問題。 <br/> |
 |[查看商務用 Skype 語音信箱與選項](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8) <br/> |以下是雲端語音信箱的運作方式: 當使用者收到語音信箱時, 會以電子郵件的形式傳送收件者的信箱, 以附件形式傳送語音信箱。 他們也可以在其 Skype 認證的桌面手機、所有商務用 Skype 應用程式, 或 Lync for Mac 2011 上聽取其訊息。  <br/> 雲端語音信箱包括個人化的問候語、訊息等候指標, 以及使用來電回復。 您可以將所有的語音信箱存放在信箱中, 並透過 PC、行動裝置和 IP 電話上的商務用 Skype 取得。  <br/> |
-|等候音樂 | 在2019年6月推出時, 電話系統會在將來自公用交換電話網絡 (PSTN) 的外部呼叫置於保留狀態時, 播放服務所定義的預設音樂。  除了呼叫佇列撥打電話之外, 此功能也適用于一對一的 PSTN 對團隊通話。 這項功能可提供與其他平臺的保留期間通知同位。 (所有其他平臺都會在使用者保留時提供視覺提示, 但 PSTN 呼叫者無法知道。) 在初次發行時, 系統管理員不能設定此功能。| 
+|等候音樂 | 在2019年9月推出時, 手機系統會播放服務所定義的預設音樂 (當來自公用交換電話網絡 (PSTN) 的外部呼叫處於保留狀態時)。  除了呼叫佇列撥打電話之外, 此功能也適用于一對一的 PSTN 對團隊通話。 這項功能可提供與其他平臺的保留期間通知同位。 (所有其他平臺都會在使用者保留時提供視覺提示, 但 PSTN 呼叫者無法知道。) 在初次發行時, 系統管理員不能設定此功能。| 
    
 ## <a name="plan-and-set-up-the-phone-system-in-office-365"></a>規劃及設定 Office 365 中的電話系統
 <a name="bkmk_setup"> </a>

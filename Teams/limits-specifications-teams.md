@@ -3,7 +3,6 @@ title: Microsoft 團隊的限制與規格
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 06/10/2019
 ms.topic: reference
 ms.service: msteams
 audience: admin
@@ -16,12 +15,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4fba07eb5ba7e0d26b34657826419172b82a7248
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ecd31a243da999704b7d466b3dc93dd66fb7ac25
+ms.sourcegitcommit: 9053c0d5ddb6be3ce3da85dffcde3f45dbc0ab7c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245372"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "36407993"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft 團隊的限制與規格
 
@@ -45,7 +44,19 @@ ms.locfileid: "36245372"
 
 &sup3; 刪除的頻道可以在30天內還原。 在30天內, 已刪除的頻道會繼續依每個團隊的200頻道數量計算。 在30天之後, 已刪除的頻道及其內容會永久刪除, 且頻道不會在每個團隊的200頻道限制範圍內。
 
-## <a name="meetings-and-calls"></a>會議和通話 
+## <a name="channel-names"></a>頻道名稱
+
+頻道名稱不能包含下列字元或單字。
+
+|||
+|---------|---------|
+|標點符號     | ~ #% & * {} +/\:  < > ？ &#124; "" .。。        |
+|這些範圍中的字元    | 0到1F<br>80到9F        |
+|關鍵字     | forms、CON、CONIN $、CONOUT $、PRN、AUX、NUL、COM1 至 COM9、LPT1 到 LPT9、desktop &#95;vti&#95;|
+
+頻道名稱也無法以底線 (_) 或句號 (.) 開頭, 或以句點 (.) 結尾。
+
+## <a name="meetings-and-calls"></a>會議和通話
 
 |功能     | 最大限制 |
 |------------|---------------|
@@ -57,7 +68,12 @@ ms.locfileid: "36245372"
 |------------|---------------|
 |物件大小 | 10000出席者 |
 |事件的持續時間 | 4小時 |
-|Office 365 租使用者中的併發即時事件 | 工資 |
+|欄1  |欄2等  |
+|---------|---------|
+|Row1     |         |
+|Row2     |         |
+
+|Office 365 租使用者 | 中的併發即時事件 |15 |
 
 如需即時事件的詳細資訊, 以及團隊即時事件與 Skype 會議廣播的比較, 請移至 [[小組即時事件] 和 [Skype 會議](teams-live-events/plan-for-teams-live-events.md#teams-live-events-and-skype-meeting-broadcast)廣播]。
 
