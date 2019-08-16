@@ -7,16 +7,16 @@ manager: serdars
 ms.date: 4/17/2018
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: msteams
 ms.collection: M365-voice
 localization_priority: Normal
 description: 本文將討論 Microsoft 團隊聊天室的生命週期支援。
-ms.openlocfilehash: d06a3e78bba07e09a8df46d57b3c18cc8473dea1
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: dc4f8c0997ee64f4011aed6056be506738012639
+ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243308"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "36427684"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Microsoft 團隊聊天室 app 版本支援
  

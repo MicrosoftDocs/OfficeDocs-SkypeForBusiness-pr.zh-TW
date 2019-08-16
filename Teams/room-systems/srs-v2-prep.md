@@ -7,17 +7,17 @@ manager: serdars
 ms.date: 2/16/2018
 audience: ITPro
 ms.topic: conceptual
-ms.prod: skype-for-business-itpro
+ms.service: msteams
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection: M365-voice
 description: 本文說明部署 Microsoft 團隊聊天室的基礎結構準備。
-ms.openlocfilehash: 99f1ab71e2bf65e0d6fde0287a82942569c68169
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1450752b14e509e86f6d2cf0c56ce9693e86265a
+ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36182337"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "36427849"
 ---
 # <a name="prepare-your-environment"></a>準備您的環境
 

@@ -3,7 +3,7 @@ title: 規劃 Microsoft 團隊中的即時事件
 author: chuckedmonson
 ms.author: chucked
 manager: serdars
-ms.date: 07/10/2019
+ms.date: 08/15/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 瞭解在 Microsoft 團隊中設定即時事件之前要考慮的因素。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5ba4810da9ac940d9562b524ea1473b09bf3ff3
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 0afac3e6099f866e5b2cb75395fa1d2bc568d663
+ms.sourcegitcommit: 62f507154e502bb43c608b6f15f72ff7679e93c5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243656"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "36429989"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>規劃 Microsoft 團隊中的即時事件
 
@@ -42,6 +42,9 @@ ms.locfileid: "36243656"
 
 - **針對團隊中產生的活動** 使用者必須獲指派團隊授權。
 - **針對使用外部應用程式或裝置產生的事件**使用者必須獲指派串流授權。
+
+> [!NOTE]
+> 團隊即時事件現已提供給美國政府雲端社區 (GCC) 組織使用。
 
 如需授權的詳細資訊, 請參閱[Microsoft 團隊附加元件授權](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
 

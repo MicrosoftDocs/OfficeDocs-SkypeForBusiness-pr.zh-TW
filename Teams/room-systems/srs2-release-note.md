@@ -7,16 +7,16 @@ manager: serdars
 ms.date: 4/17/2018
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: msteams
 localization_priority: Normal
 ms.collection: M365-voice
 description: 本文將討論 Microsoft 團隊聊天室中的累加性改進。
-ms.openlocfilehash: 5b8cd9c8fb4f84d250b40d99a60a9192ece11c52
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: e14785d7ad36485bc083e040470b00dd3286b377
+ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243286"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "36427651"
 ---
 # <a name="release-notes"></a>版本資訊 
 
@@ -27,6 +27,7 @@ ms.locfileid: "36243286"
 
 |最新發佈 |已發佈至 <br> Microsoft 網上商店 |
 |--- |--- |
+|4.1.22.0 |08/15/2019 |
 |4.0.105.0 |07/10/2019 |
 |4.0.85.0 |04/08/2019 |
 |4.0.78.0 |03/14/2019 |
@@ -54,6 +55,15 @@ ms.locfileid: "36243286"
 |RTM (1.0.8) |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft 團隊聊天室功能簡介和問題解決
+### <a name="41220-08152019"></a>4.1.22.0 (08/15/2019)
+
+此更新中引入的專案:
+- 新的內容攝影機功能, 可讓使用者在他們的小組會議中智慧地加入傳統的白板
+- 更多對主控台 UI 的改善, 以將待過濾及移動的設定減少至新的側條, 以透過主機上的其他方式存取
+- 已停用的 [共用] 工作列按鈕 (如果未連線本機內容電纜或未連接內容相機)
+- 已修正觸控式鍵盤在 MTR 系統重新開機後第一次出現失敗的問題
+- 品質與可靠性修正程式。
+
 ### <a name="401050-07102019"></a>4.0.105.0 (07/10/2019)
 
 此更新中引入的專案:
