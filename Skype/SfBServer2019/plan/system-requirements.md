@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: '摘要: 使用本主題準備商務用 Skype Server 2019 伺服器及網域基礎結構。 硬體、作業系統、資料庫、軟體、所有系統需求與建議, 以及憑證 DNS、檔案共用及 Active Directory 資訊, 都在這裡協助確保您的伺服器伺服器陣列已成功安裝及部署。'
-ms.openlocfilehash: b173097377c100fcb03b07d7a502e1e6c096608f
-ms.sourcegitcommit: a78fee3cad5b58bf41dd014a79f4316cf310c8d1
+ms.openlocfilehash: f54b6647a57cf61cb1ad85ad55985243129242f7
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/29/2019
-ms.locfileid: "36194124"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464647"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>商務用 Skype Server 2019 的系統需求
  
@@ -540,10 +540,13 @@ Survivable 分支裝置的憑證 (特別是適用于商務用 Skype Server 2019 
   
 - 檔案共用必須是直接附加的儲存空間 (DAS) 或儲存區域網路 (SAN), 這包括分散式檔案系統 (DFS), 以及檔案存放區的獨立磁碟容錯陣列 (RAID)。 如需 Windows Server 2012 DFS 的進一步閱讀, 請參閱[此 DFS 頁面](https://technet.microsoft.com/en-us/library/jj127250.aspx)。
     
-- 我們建議使用共用的群集來共用檔案。 如果您使用的是, 您應該群集 Windows Server 2012 或 Windows Server 2012 R2。 為什麼是最新的 Windows？ 較舊的版本可能不具備啟用所有功能的適當許可權。 您可以使用 [群集管理員] 來建立檔案共用, 而這個[建立群集](https://support.microsoft.com/en-us/help/224967)知識庫文章將協助您處理這些詳細資料。
+- 我們建議使用共用的群集來共用檔案。 如果您已經在使用其中一個, 就應該群集 Windows Server 2012 或更高版本
+
+> [!Note]
+> **為什麼是最新的 Windows？** 較舊的版本可能不具備啟用所有功能的適當許可權。 您可以使用 [群集管理員] 來建立檔案共用。 如需詳細資訊, 請參閱此支援文章[如何在群集上建立檔案共用](https://support.microsoft.com/help/224967)。
     
 > [!CAUTION]
-> 您應該知道, 不支援使用 network 附加儲存空間 (NAS) 作為檔案共用, 所以請使用上述其中一個選項。 
+> 您應該知道, 不支援使用 network 附加儲存空間 (NAS) 作為檔案共用, 所以請使用上述其中一個選項。 這項支援限制是由 NAS 裝置的變數設計所造成, 必須針對存取裝置共用檔案系統的 Windows Server 電腦提供檔案系統適應性。
   
 
 

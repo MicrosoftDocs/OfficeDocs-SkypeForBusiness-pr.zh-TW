@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 995da78a-dc44-45a3-908d-16fe36cfa0d9
 description: '摘要: 在 Exchange Server 2016 或 Exchange Server 2013 和商務用 Skype Server 中設定高解析度相片的使用。'
-ms.openlocfilehash: 8d68cb75a053d7eb165383154514ca6ff8d1a941
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 1ca9c0077969cab22b8ebfa073d3d0585108503b
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244321"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464652"
 ---
 # <a name="configure-the-use-of-high-resolution-photos-in-skype-for-business-server"></a>在商務用 Skype Server 中設定高解析度相片的使用方式
  
@@ -56,7 +56,7 @@ Set-UserPhoto -Identity "Ken Myer" -Save -Confirm:$False
 若要確認已將新相片指派給使用者帳戶, Ken Myer 可以登入商務用 Skype, 選取 [**選項**], 然後選取 [**我的圖片**]。 新上傳的相片應該顯示為 Ken 個人相片。 或者, 管理員可以啟動 Internet Explorer 並流覽至如下所示的 URL, 以驗證任何使用者的相片:
   
 ```
-https://atl-mail-001.litwareinc.com/ews/Exchange.asmx/s/GetUserPhoto?email=kenmyer@litwareinc.com&amp;size=HR648x648
+https://atl-mail-001.litwareinc.com/ews/Exchange.asmx/s/GetUserPhoto?email=kenmyer@litwareinc.com&size=HR648x648
 ```
 
 如果系統管理員可以使用 Internet Explorer 來查看相片, 但是使用者無法在商務用 Skype 中查看他或她的相片, 可能是 Exchange Web 服務或 Exchange 自動探索服務的連線問題。

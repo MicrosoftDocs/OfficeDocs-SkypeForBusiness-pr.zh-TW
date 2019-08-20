@@ -11,16 +11,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: '摘要: 瞭解如何在安裝累積更新1之後, 在商務用 Skype Server 2019 中使用 PowerShell 來取得 SEFAUtil 功能。'
-ms.openlocfilehash: 1c5d8d32c1b7b1b988b0ab39c79e4a7f40752875
-ms.sourcegitcommit: 14700a4faab81a294ac794f25b26619a5ed242a5
+ms.openlocfilehash: 6e0f7fc8e4bbb25564faa8107dec81ae3887b360
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "36194118"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464545"
 ---
 # <a name="using-sefautil-functionality-via-powershell-in-skype-for-business-server-2019"></a>在商務用 Skype Server 2019 中使用 SEFAUtil 功能經由 PowerShell
 
-SEFAUtil (次要延伸功能啟用) 可讓商務用 Skype Server 系統管理員和支援人員代理程式代表商務用 Skype Server 使用者設定代理人響鈴、來電轉接及群組呼叫的裝貨設定。 此工具也可讓系統管理員查詢針對特定使用者發佈的呼叫路由設定。 安裝此更新後, 目前只能透過 SEFAUtil 管理的下列功能也會透過 PowerShell 進行管理:
+SEFAUtil (次要延伸功能啟用) 可讓商務用 Skype Server 系統管理員和支援人員代理程式代表商務用 Skype Server 使用者設定代理人響鈴、來電轉接及群組呼叫的裝貨設定。 此工具也可讓系統管理員查詢針對特定使用者發佈的呼叫路由設定。 安裝商務用 Skype Server 2019 7 月累計更新之後, 目前只能透過 SEFAUtil 管理的下列功能也會透過 PowerShell 進行管理:
 
 - [來電轉接設定](#call-forwarding-settings)
 - [委派設定](#delegation-settings)

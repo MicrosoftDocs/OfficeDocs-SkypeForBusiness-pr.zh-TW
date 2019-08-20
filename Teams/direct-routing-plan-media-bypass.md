@@ -13,12 +13,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: 請閱讀本主題, 以瞭解如何使用手機系統直接路由規劃媒體旁路。
-ms.openlocfilehash: 70d0b5ea61d0d7a8001bb1dbfabda2c45274e521
-ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
+ms.openlocfilehash: a6f13b8f7db767d8a6a16f8f4493f15aeed9af38
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "36271443"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464587"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>使用直接路由規劃媒體旁路
 
@@ -290,7 +290,7 @@ UDP/SRTP | 傳輸中繼 | SBC | 50 000-59 999    | 在 SBC 上定義 |
 
 ### <a name="requirements-for-using-media-processors"></a>使用媒體處理器的需求
 
-媒體處理器總是位於語音應用程式和網路 cleints 的媒體路徑中 (適用于 exampe, 小組 cleint 是 Edge 或 Google Chrome)。 其需求與非旁路設定相同。
+媒體處理器總是位於語音應用程式及網頁用戶端的媒體路徑中 (例如, Edge 或 Google Chrome 中的團隊用戶端)。 其需求與非旁路設定相同。
 
 
 媒體流量的 IP 範圍是 
@@ -353,7 +353,7 @@ UDP/SRTP | 媒體處理器 | SBC | 49 152 – 53 247    | 在 SBC 上定義 |
 
 所有團隊端點都支援媒體旁路。
 
-Webcleints (Microsoft Edge、Google Chrome 或 Mozilla Firefox) 中的 [團隊網頁應用程式], 我們會將呼叫轉換成非旁路, 即使它是繞過通話。 這會自動發生, 不需要系統管理員執行任何動作。 
+注意: 對於 web 用戶端 (Microsoft Edge、Google Chrome 或 Mozilla Firefox) 中的網頁用戶端 (團隊 Web app), 我們會將呼叫轉換成非旁路, 即使它是繞過的呼叫。 這會自動發生, 不需要系統管理員執行任何動作。 
  
 ## <a name="see-also"></a>另請參閱
 

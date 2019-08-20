@@ -16,12 +16,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: '摘要: 瞭解如何將使用者設定遷移並將使用者移至團隊。'
-ms.openlocfilehash: 1a0b126537c02376eaf28f40e843295aa5582dd3
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c655d8ecaa5856a57d7e675676c0ba5e8c2c43d6
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36185446"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464676"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>將使用者從內部部署移至團隊
 
@@ -38,6 +38,11 @@ ms.locfileid: "36185446"
     ![將使用者重新導向至團隊的郵件](../media/go-to-teams-page.png)
 
 在移動任何使用者之前, 請務必先檢查[先決條件](move-users-between-on-premises-and-cloud.md#prerequisites), 才能將使用者移至雲端。 此外, 請務必參閱[與商務用 Skype 搭配使用團隊之組織的遷移與互通性指導](/microsoftteams/migration-interop-guidance-for-teams-with-skype)方針。
+
+
+> [!NOTE]
+> 必須停用內部部署 SfB 帳戶上的 [整合連絡人存放區], 才能將該連絡人移至 [小組]。
+
 
 有兩種方法可以將使用者從內部部署移至團隊:
 
@@ -86,6 +91,9 @@ ms.locfileid: "36185446"
 ## <a name="notify-your-skype-for-business-on-premises-users-of-the-upcoming-move-to-teams"></a>向小組通知您的商務用 Skype 內部部署使用者
 
 商務用 Skype Server 2015 的內部部署系統管理工具使用 CU8, 以及商務用 Skype Server 2019, 讓您向小組通知內部部署的商務用 Skype 使用者。 當您啟用這些通知時, 使用者將會在其商務用 Skype 用戶端 (Win32、Mac、web 和 mobile) 中看到通知, 如下所示。 如果使用者按一下 [**試用**] 按鈕, 則團隊用戶端會在已安裝時啟動;否則, 使用者會在其瀏覽器中流覽至團隊的網頁版本。 根據預設, 當啟用通知時, Win32 商務用 Skype 用戶端會以無訊息方式下載團隊用戶端, 以便在將使用者移至 [僅限團隊] 模式之前提供豐富的用戶端。不過, 您也可以停用這種行為。  通知是使用內部部署版本進行設定`TeamsUpgradePolicy`, 而 Win32 用戶端的無提示下載則是透過內部部署`TeamsUpgradeConfiguration` Cmdlet 來控制。
+
+> [!TIP]
+> 部分伺服器可能需要重新開機, 才能在商務用 Skype 2015 中使用 CU8。
 
 ![即將到來的移至團隊的通知](../media/teams-upgrade-notification.png)
 

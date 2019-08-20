@@ -3,7 +3,7 @@ title: 規劃 Microsoft 團隊中的即時事件
 author: chuckedmonson
 ms.author: chucked
 manager: serdars
-ms.date: 08/15/2019
+ms.date: 08/19/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 瞭解在 Microsoft 團隊中設定即時事件之前要考慮的因素。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0afac3e6099f866e5b2cb75395fa1d2bc568d663
-ms.sourcegitcommit: 62f507154e502bb43c608b6f15f72ff7679e93c5
+ms.openlocfilehash: 1a38fad067f71fff0221a5af2f842ed1e2574d54
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36429989"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464549"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>規劃 Microsoft 團隊中的即時事件
 
@@ -73,11 +73,12 @@ ms.locfileid: "36429989"
 
  
 ## <a name="teams-live-events-and-skype-meeting-broadcast"></a>團隊即時活動與 Skype 會議廣播
+
 下表重點說明即時事件中提供的核心功能與功能, 以及它們與 Skype 會議廣播有何不同。 
 
 |**功能**   |**Skype 會議廣播** |**小組中產生的事件** |**在外部 app 或裝置中產生的事件** |
 |---------|---------|---------|---------|
-|最大物件大小 |10000出席者 |10000出席者 * |10000出席者 * |
+|最大物件大小 |10000出席者 |10000出席者<sup>1</sup> |10000出席者<sup>1</sup> |
 |即時事件的最長持續時間 |4小時 |4小時 |4小時 |
 |每個 Office 365 租使用者的併發即時事件數量上限 |工資  | 工資  | 工資  |
 |即時事件建立 |   Skype 會議廣播入口網站 |團隊, 透過團隊進行 Yammer | 團隊、Yammer 透過團隊、資料流程 |
@@ -102,8 +103,7 @@ ms.locfileid: "36429989"
 |提供給發生器的廣播後出席報告 |&#x2714; |&#x2714; |X |
 |物件觀點分析-即時投票 & 投票 |&#x2714; (Microsoft 脈衝) |X |X |
 
-> [!IMPORTANT]
-> 已設定的限制可能會變更。
+<sup>1</sup>設定的限制可能會變更。
 
 ## <a name="regional-availability"></a>地區可用性
 您可以在世界各地的多個區域中使用團隊即時事件。 下列資訊顯示事件小組成員和出席者的可用性。 
@@ -118,7 +118,7 @@ ms.locfileid: "36429989"
 - 前往當地地區
 
 **排除及考慮**
-- **移至 [區域變數]:** 英國、印度、澳大利亞、日本及其他團隊現在不支援區域變數。
+- **移至 [區域變數]:** 目前不支援英國及其他團隊開始進行區域變數。
 - **中國:** 事件小組成員和出席者將無法使用團隊即時事件, 因為 Azure CDN 在中國無法存取。 解決方法是使用公司 VPN 連線, 透過客戶的公司網路來取得連接至 CDN 的用戶端。
 
 ## <a name="next-steps"></a>後續步驟

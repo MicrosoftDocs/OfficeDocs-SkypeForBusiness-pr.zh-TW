@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 瞭解如何設定 Microsoft Phone 系統 Direct 路由。
-ms.openlocfilehash: 37fe6fa9355a0892720fa32d2bab30474ddaf12a
-ms.sourcegitcommit: a78fee3cad5b58bf41dd014a79f4316cf310c8d1
+ms.openlocfilehash: 4013e0fd914630f154f407ad9c70e2c6915723f5
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/29/2019
-ms.locfileid: "36185181"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464608"
 ---
 # <a name="configure-direct-routing"></a>設定直接路由
 
@@ -328,8 +328,6 @@ NumberPattern       : ^\+1(425|206) (\d{7})$
 OnlinePstnUsages    : {US and Canada}
 OnlinePstnGatewayList   : {sbc1.contoso.biz, sbc2.contoso.biz}
 Name            : Redmond 1
-SuppressCallerId    :
-AlternateCallerId   :
 </pre>
 若要建立雷德蒙2路線, 請輸入:
 
@@ -485,8 +483,6 @@ John: 可撥打任何號碼的電話。 呼叫雷德蒙的數位範圍時, 必�
    OnlinePstnUsages          : {International} 
    OnlinePstnGatewayList           : {sbc2.contoso.biz, sbc5.contoso.biz}
    Name                            : International
-   SuppressCallerId          :
-   AlternateCallerId         :
    </pre>
 3. 接著, 建立語音路由策略「無限制」。 在此語音路由原則中, PSTN 使用 "雷德蒙 1" 和 "雷德蒙" 會重複使用, 以保留對號碼 "+ 1 425 XXX XX" 和 "+ 1 206 XXX XX" (作為本機或內部部署的呼叫) 的特殊處理。
 

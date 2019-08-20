@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 請閱讀本主題, 瞭解 Microsoft 手機系統直通路由如何讓您將支援的客戶提供的會話邊界控制器 (SBC) 連線至 Microsoft Phone 系統。
-ms.openlocfilehash: b675fae995d228d440c5173ec444dce16745717f
-ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
+ms.openlocfilehash: 8dc06650a50af5b66931f196c0a1c3d7c5090bc5
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "36271421"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464576"
 ---
 # <a name="plan-direct-routing"></a>規劃直接路由
 
@@ -87,8 +87,11 @@ Microsoft 團隊媒體的防火牆 IP 位址和埠 |如需詳細資訊, 請參�
 直接傳送的使用者必須具備下列 Office 365 中指派的授權: 
 
 - Microsoft Phone 系統 
-- Microsoft 團隊 
+- Microsoft 團隊 + 商務用 Skype 方案 2 (如果包含在授權 Sku 中)
 - Microsoft 音訊會議 
+
+> [!NOTE]
+> 商務用 Skype 方案不應從隨附它的任何授權 SKU 中移除。 
 
 
 > [!IMPORTANT]

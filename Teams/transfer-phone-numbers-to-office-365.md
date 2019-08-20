@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 瞭解在將電話號碼移植至團隊前需要注意的事項, 以及如何建立埠順序以進行轉移。
-ms.openlocfilehash: 9c0a7cd6957991257bc0cdb7feedacc8c0c49b24
-ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
+ms.openlocfilehash: 4cd270fd01f0ec023181de7847914d8fdc8239b5
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "36184437"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464565"
 ---
 # <a name="transfer-phone-numbers-to-office-365"></a>將電話號碼傳送至 Office 365
 
@@ -39,7 +39,7 @@ ms.locfileid: "36184437"
   > [!NOTE]
   > 我們處理的埠訂單只會在美國工作日, 而不是在公用假日或週末傳送電話號碼。
   
-## <a name="how-to-create-a-port-order-and-transfer-your-phone-numbers-to-teamss"></a>如何建立埠順序並將您的電話號碼轉接至 Teamss
+## <a name="how-to-create-a-port-order-and-transfer-your-phone-numbers-to-teams"></a>如何建立埠順序並將您的電話號碼轉接至團隊
 <a name="bk_LNPcountries_1"> </a>
 
   > [!NOTE]

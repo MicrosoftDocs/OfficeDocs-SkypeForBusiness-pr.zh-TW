@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: '摘要: 瞭解如何將商務用 Skype 伺服器與 Skype 消費者連線。 也稱為 Skype 連線。'
-ms.openlocfilehash: b41e974b2162826f375f2cce2b2eabbae320871b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 4a335d2ec8e20310a34ce1bdfc8f39fe9b1117ee
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235702"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464598"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>在商務用 Skype Server 中部署 Skype 連線能力
 
@@ -98,14 +98,14 @@ Skype 連線能力也是商務用 Skype Online 的一項功能, 也就是 Office
   
 ### <a name="the-skype-for-business-server-public-im-connectivity-provisioning-site-is-no-longer-available"></a>商務用 Skype Server 公用 IM 連線提供網站已不再提供
 
-先前曾用來在商務用 Skype 內部部署與 Skype 之間手動提供同盟的網站, 將不再需要, 且會在8/15/2019 上關閉。 使用 Skype 的同盟現已使用聯盟合作夥伴探索, 這是與商務用 Skype Online 進行聯盟所需的相同機制。
+先前曾用來在商務用 Skype 內部部署與 Skype 之間手動設定同盟的網站, 將不再需要, 且會在8/15/2019 上關閉。 使用 Skype 的同盟現已使用聯盟合作夥伴探索, 這是與商務用 Skype Online 進行聯盟所需的相同機制。
 
 您可以透過現有的公用 IM 基礎結構, 在任何內部部署商務用 Skype 部署與 Skype 使用者之間進行通訊, 現在需要與商務用 Skype Online 相容的內部部署邊緣伺服器設定。
 
 > [!NOTE]
 > 大多數客戶不需要採取任何動作, 包括與商務用 Skype Online 進行聯盟的所有部署。
   
-若要為其主持的每個網域發佈同盟 DNS SRV 記錄, 都需要內部部署。 您可以在[DNS 規劃](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md#dns-planning)中取得指導方針。 每個網域都必須由 DNS SRV 查詢解析至 edge 伺服器 FQDN, 以符合網域的頂層尾碼相符。 例如, 請考慮網域 "contoso.com":
+若要為其主持的每個網域發佈同盟 DNS SRV 記錄, 都需要內部部署部署。 您可以在[DNS 規劃](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md#dns-planning)中取得指導方針。 每個網域都必須由 DNS SRV 查詢解析至 edge 伺服器 FQDN, 以符合網域的頂層尾碼相符。 例如, 請考慮網域 "contoso.com":
 
 |**有效 Fqdn**|**評論**|
 |:-----|:-----|
@@ -121,10 +121,10 @@ Skype 連線能力也是商務用 Skype Online 的一項功能, 也就是 Office
 #### <a name="faqs"></a>常見問題
 
 **為什麼正在關閉 [預配] 網站？**
-在2006中部署的公用 IM (PIC) 自動設定機制 (pic.lync.com) 已不再提供維修, 且會在8/15/2019 上關閉。 相反地, 公用 IM 同盟會假設商務用 Skype Online (稱為「合作夥伴探索」) 所使用的相同同盟模型, 因為內部部署的同盟 DNS SRV 記錄會公開探索。
+在2006中部署的公用 IM (PIC) 自動設定機制 (pic.lync.com) 已不再提供維修, 且會在8/15/2019 上關閉。 相反地, 公用 IM 同盟會採用商務用 Skype Online 所使用的相同同盟模型 (稱為「合作夥伴探索」), 因此內部部署的部署是透過其同盟 DNS SRV 記錄來公開發現的。
 
 **此變更表示已棄用公用 IM 同盟嗎？**
-不。 公用 IM 同盟將持續支援許多年, 可能直到商務用 Skype 內部部署產品達到生命週期結束。
+不。 公用 IM 同盟將持續支援許多年, 可能直到商務用 Skype 內部部署產品達到使用期結束。
 
 **我們的公司與商務用 Skype Online 有混合式關聯 (共用位址空間), 我們會受到影響嗎？**
 不行, 因為您已與商務用 Skype Online 進行聯盟, 所以此變更不會影響您。
@@ -133,7 +133,7 @@ Skype 連線能力也是商務用 Skype Online 的一項功能, 也就是 Office
 不。 如果您的 edge 伺服器 proxy 設定沒有啟用與商務用 Skype Online 主機服務提供者 (sipfed.online.lync.com) 的同盟, 就不會影響這項變更。 不過, 套用來與商務用 Skype Online 進行聯盟的 DNS 和憑證需求現在也適用于與 Skype 使用者進行聯盟。
  
 **我們的公司很大, 因此由於監管/合規性或等原因而無法變更其邊緣設定 .。。我們可以做什麼？**
-任何不能根據指定變更 edge 伺服器設定的內部部署組織, 都應該儘早取得產品支援。
+任何不能根據指定變更 edge 伺服器設定的內部部署組織, 都應該儘早向產品支援部門取得。
 
 ### <a name="enabling-federation-and-public-im-connectivity-pic"></a>啟用同盟與公用 IM 連線 (PIC)
 
