@@ -15,18 +15,18 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0601ee50046d543bd252c205cd7b55acbf16a323
-ms.sourcegitcommit: 2453f87088fc2f8034726c14699aacb65d859b1b
+ms.openlocfilehash: 54c71dfb692dc5981699babdfdb708c404eb6231
+ms.sourcegitcommit: fd5d48b36d70e3f42e029572fe003ee397db090d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "36436360"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "36473368"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft 團隊的限制與規格
 
 本文將說明適用于團隊的一些限制、規格及其他需求。
 
-## <a name="teams-and-channels"></a>團隊和頻道 
+## <a name="teams-and-channels"></a>團隊和頻道
 
 |功能    | 最大限制 |
 |-----------|---------------|
@@ -113,6 +113,17 @@ Microsoft 團隊聊天功能可在 Microsoft Exchange 後端使用, 因此您可
 > 在所有 Office 365 授權中, 郵件大小、檔案附件及內嵌圖像限制都是相同的。
 
 如需詳細資訊, 請參閱[Exchange Online 限制](https://technet.microsoft.com/library/exchange-online-limits.aspx)。
+
+## <a name="contacts"></a>聯絡
+
+小組使用下列連絡人:
+
+- 貴組織的 Active Directory 中的連絡人
+- 新增至使用者的 Outlook 預設資料夾的連絡人
+
+團隊使用者可以與貴組織的 active directory 中的任何人通訊, 也可以移至**聊天** > **連絡人**或**通話** >  , 將您組織的 active directory 中的任何人新增為連絡人, 並加入其連絡人清單。**連絡人**。
+
+團隊使用者也可以移至 [**呼叫** > **連絡人**], 將您組織的 Active Directory 以外的人員新增為連絡人。
 
 ## <a name="browsers"></a>流覽
 
