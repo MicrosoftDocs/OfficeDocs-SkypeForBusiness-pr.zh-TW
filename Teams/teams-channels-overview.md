@@ -11,6 +11,8 @@ search.appverid: MET150
 description: 瞭解可供多種需求 (例如財務、活動規劃、銷售等) 的各種團隊、頻道和應用程式。
 localization_priority: Normal
 f1keywords:
+- ms.teamsadmincenter.dashboard.helparticle.msteamsfiles
+- ms.teamsadmincenter.dashboard.helparticle.teamsandchannels
 - ms.teamsadmincenter.teamschannel.overview
 - ms.teamsadmincenter.teamssettings.overview
 ms.collection:
@@ -18,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cab50101f23b9d687d744031c14412b5a65a5dad
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 12dca0160b4434472e2afa60971fb80ddebf925d
+ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237509"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "36483740"
 ---
 > [!NOTE]
 > 請複習下列資訊, 瞭解團隊中的聊天、團隊、頻道、& 應用程式。 然後, 移至 [[聊天]、[團隊]、[頻道]、& [團隊] 中的應用程式](deploy-chat-teams-channels-microsoft-teams-landing-page.md), 逐步引導您團隊推出的重要決策清單。

@@ -18,17 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1keywords:
+- ms.teamsadmincenter.voice.phonenumbers.overview
+- ms.teamsadmincenter.voice.searchandacquire.PSTNpartner
 - ms.lync.lac.NewNumberManualAcquisitionOpenSupportTicket
 - ms.lync.lac.VASAMissingGeoCodes
 ms.custom:
 - Calling Plans
 description: 瞭解如何為您的組織取得及管理 Microsoft 團隊的電話號碼。
-ms.openlocfilehash: af8586ecfd96ee75105fe7fcec6cf575dbc9f1e3
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: 832a5dd14d1d7ff1d74443e8243d8e5f022a25af
+ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "36184782"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "36483680"
 ---
 # <a name="manage-phone-numbers-for-your-organization"></a>管理貴組織的電話號碼
 

@@ -15,16 +15,17 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1keywords:
+- ms.teamsadmincenter.users.voice.calldelegation.tooltip
 ms.custom:
 - Phone System
 description: 共用線外觀可讓使用者選擇代表代表對方接聽或處理通話的代理人。
-ms.openlocfilehash: e2e99d214ef493933ed44d28c4a9cbdaeaab1077
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 67708c05105b83cca80702292a1766a2224681bc
+ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243109"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "36483698"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>Microsoft 團隊中的共用線條外觀
 

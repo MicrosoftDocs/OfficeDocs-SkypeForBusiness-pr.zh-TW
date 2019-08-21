@@ -13,18 +13,20 @@ ms.collection:
 - Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
+f1keywords: ms.teamsadmincenter.policypackages.overview
 localization_priority: Normal
 search.appverid: MET150
-ROBOTS: NOINDEX, NOFOLLOW
 description: 瞭解如何在 Microsoft 團隊中使用及管理原則套件。
-ms.openlocfilehash: 428e3b9d68064beb70b80603df573aa7df9e59c3
-ms.sourcegitcommit: d955406a55cdc4c7abb193f1af90ebd4913c47bc
+ms.openlocfilehash: f4d26caa54e3b3e7643d06f80a160feda561bcb3
+ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "36184695"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "36483262"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>管理 Microsoft 團隊中的原則套件
+
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 Microsoft 團隊中的原則套件是預先定義的原則與原則設定的集合, 您可以指派給在組織中擁有相似角色的使用者。 我們建立了原則套件, 以簡化、簡化, 並在管理組織中的使用者群組原則時提供一致性。  
 

@@ -13,17 +13,19 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 f1keywords:
+- ms.teamsadmincenter.meetingsettings.invitationurls
+- ms.teamsadmincenter.meetingsettings.network.ports
 - ms.teamsadmincenter.meetingsettings.overview
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 description: 瞭解如何在您的組織中管理使用者排程的小組會議設定。
-ms.openlocfilehash: b1513e80028137c909f5fc0f854666b1770299c8
-ms.sourcegitcommit: c169b091a630ff78c233a2a2824da122184635d0
+ms.openlocfilehash: 5f45e8498a63397154b98d0dd2ac1469080fe5f6
+ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/14/2019
-ms.locfileid: "36404600"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "36483298"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>在 Microsoft 團隊中管理會議設定
 

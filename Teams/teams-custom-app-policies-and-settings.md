@@ -17,15 +17,16 @@ localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何管理自訂應用程式原則和設定, 以控制貴組織中的哪些人員可以上傳 Microsoft 團隊中的自訂應用程式。
 f1keywords:
-- ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.allowsideloading
-ms.openlocfilehash: e892b5e7fa8fa1886de8d22fc93bd4cc49725fc0
-ms.sourcegitcommit: c6ecea3205d509609a655db2348c04f655319df8
+- ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
+- ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
+ms.openlocfilehash: cd2f28df6b5b831d260f3d0070250249dfc90f6e
+ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "36185328"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "36483580"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>管理 Microsoft 團隊中的自訂應用程式原則和設定
 

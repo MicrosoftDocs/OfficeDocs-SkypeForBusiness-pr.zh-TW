@@ -12,15 +12,17 @@ ms.reviewer: sonua
 audience: admin
 search.appverid: MET150
 description: 瞭解即時事件如何讓使用者將影片和內容廣播至小組、Yammer 和串流中的大型線上物件。
-f1keywords: ms.teamsadmincenter.liveevents.policies
+f1keywords:
+- ms.teamsadmincenter.dashboard.helparticle.liveevents
+- ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: afb477c4abe6ef2de5971c9c8278b1e4b4fd622c
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 355f24a6156e42d8984e360cb6ab06c483b56413
+ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234161"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "36483229"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>什麼是 Microsoft 團隊即時事件？
 

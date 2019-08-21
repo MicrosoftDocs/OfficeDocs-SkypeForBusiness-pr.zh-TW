@@ -17,16 +17,16 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1keywords: ms.teamsadmincenter.voice.callerid.overview
 ms.custom:
 - Calling Plans
 description: 您可以使用稱為 CallingLineIdentity 的原則, 控制撥打電話給電話系統使用者的撥入和撥出電話的本機號碼。
-ms.openlocfilehash: c0cd798f7aaed3b513db9d74fc52d458b9d17078
-ms.sourcegitcommit: bf7de2101862a154eb375c06bc89e6e0c4872119
+ms.openlocfilehash: 31948a8361d8ae5a15ce84549d982d0c7f9adf1b
+ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "36183540"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "36484034"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>如何在貴組織中使用本機號碼
 
