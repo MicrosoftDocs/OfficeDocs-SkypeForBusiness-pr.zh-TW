@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection: M365-voice
 description: 本文說明部署 Microsoft 團隊聊天室的基礎結構準備。
-ms.openlocfilehash: 1450752b14e509e86f6d2cf0c56ce9693e86265a
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: 5789f8138bf5ab9e12c77a8b2963ff32e7f33586
+ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36427849"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "36493079"
 ---
 # <a name="prepare-your-environment"></a>準備您的環境
 
@@ -61,6 +61,9 @@ ms.locfileid: "36427849"
 
 > [!IMPORTANT]
 > 請務必使用有線 1 Gbps 網路連線, 以確保您會有所需的頻寬。
+
+> [!NOTE]
+> Microsoft 團隊聊天室的軟體更新會自動從商務用 Microsoft 網上商店下載。 請參閱[Microsoft Store For Business 和教育版的先決條件](https://docs.microsoft.com/microsoft-store/prerequisites-microsoft-store-for-business), 確認聊天室主機能夠存取商店及自我更新。
   
 ### <a name="certificates"></a>證書
 
@@ -169,3 +172,5 @@ Microsoft 團隊會議室預設密碼設定為 "sfb"。 若要在本機變更密
 [設定 Microsoft 團隊聊天室主控台](console.md)
   
 [管理 Microsoft 團隊聊天室](skype-room-systems-v2.md)
+
+[Microsoft Store for Business 和教育版的先決條件](https://docs.microsoft.com/microsoft-store/prerequisites-microsoft-store-for-business) 

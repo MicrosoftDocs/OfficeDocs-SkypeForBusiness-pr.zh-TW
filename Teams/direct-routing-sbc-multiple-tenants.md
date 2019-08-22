@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 瞭解如何設定一個會話邊界控制器 (SBC) 來提供多個承租人。
-ms.openlocfilehash: 3aad7aa5b958e9e4129bbf7e3553137768d1f4c1
-ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
+ms.openlocfilehash: a8ee395a0b588af976151923992efbb32971b43c
+ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "36271454"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "36493123"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>針對多個承租人設定會話框線控制器
 
@@ -206,28 +206,34 @@ SBC 需要認證, 才能驗證連線。 針對 SBC 主機案例, 電信公司必
 
 不過, 這種情況尚未獲得最佳的原因:
  
-•**費用管理**。 例如, 如果您要啟用或停用媒體旁路, 請更換或排出 SBC。 變更埠需要變更多個承租人中的參數 (透過執行設定 CSOnlinePSTNGateway), 但實際上是同一個 SBC。 •**費用處理**。 收集及監視幹線狀態資料-從多個邏輯 trunks 收集的 SIP 選項, 實際上是同一個 SBC 與相同的物理幹線, 會減緩路由資料的處理。
+- **額外負荷管理**。 例如, 如果您要啟用或停用媒體旁路, 請更換或排出 SBC。 變更埠需要變更多個承租人中的參數 (透過執行設定 CSOnlinePSTNGateway), 但實際上是同一個 SBC。 
+
+-  **開銷處理**。 收集及監視幹線狀態資料-從多個邏輯 trunks 收集的 SIP 選項, 實際上是同一個 SBC 與相同的物理幹線, 會減緩路由資料的處理。
  
 
 根據這項意見反應, Microsoft 正在為客戶租使用者提供新的邏輯來提供 trunks。
 
-引入了兩個新的實體: •使用命令 New-CSOnlinePSTNGateway 在載波租使用者中註冊的載波幹線, 例如新的-CSOnlinePSTNGateway-FQDN customers.adatum.biz-SIPSignallingport 5068-ForwardPAI $true。
-•衍生的主幹, 不需要註冊。 它只是從載波幹線中新增的想要的主機名稱。 它會從載波幹線衍生其所有設定參數。 衍生主幹不需要在 PowerShell 中建立, 而且與載波幹線的關聯性是以 FQDN 名稱為基礎 (請參閱下方的詳細資料)。
+引入了兩個新的實體:
+-   使用命令 New-CSOnlinePSTNGateway 在載波租使用者中註冊的載波幹線, 例如新的-CSOnlinePSTNGateway-FQDN customers.adatum.biz-SIPSignallingport 5068-ForwardPAI $true。
 
-置備邏輯與範例。
+-   衍生的主幹, 不需要註冊。 它只是從載波幹線中新增的想要的主機名稱。 它會從載波幹線衍生其所有設定參數。 衍生主幹不需要在 PowerShell 中建立, 而且與載波幹線的關聯性是以 FQDN 名稱為基礎 (請參閱下方的詳細資料)。
 
-•運營商只需使用設定 CSOnlinePSTNGateway 命令, 即可設定和管理單一干線 (電信公司網域中的載波幹線)。 在上述範例中, 它是 adatum.biz;•在客戶租使用者中, 電信公司只需要將衍生的主幹 FQDN 新增至使用者的語音路由原則。 不需要針對主幹執行新的 CSOnlinePSTNGateway。
-•衍生的主幹 (如名稱所示) 會繼承或衍生載波幹線中的所有設定參數。 範例: • Customers.adatum.biz –需要在承運人租使用者中建立的載波主幹。
-• Sbc1.customers.adatum.biz –客戶租使用者中的衍生主幹, 不需要在 PowerShell 中建立。  您可以直接在線上語音路由策略中, 在客戶租使用者中新增衍生主幹的名稱, 而不需建立它。
+**置備邏輯與範例**
 
-•在載波主幹上所做的任何變更 (在承運人租使用者) 都會自動套用到衍生的 trunks。 例如, 電信公司可以在載波主幹上變更 SIP 埠, 此變更會套用至所有衍生的 trunks。 設定 trunks 的新邏輯可簡化管理, 因為您不需要移至每個租使用者, 並在每個幹線變更參數。
-•選項只會傳送給載波幹線 FQDN。 載波幹線的健康狀態會套用至所有衍生的 trunks, 並用於路由決定。 瞭解更多關於[直接路由選項](https://docs.microsoft.com/microsoftteams/direct-routing-monitor-and-troubleshoot)的資訊。
-•載波可能會耗盡載波幹線, 而且所有衍生的 trunks 也會排出。 
+-   運營商只需要使用 CSOnlinePSTNGateway 命令來設定和管理單一干線 (電信公司網域中的載波幹線)。 在上述範例中, 它是 adatum.biz;
+-   在客戶租使用者中, 電信公司只需要將衍生的主幹 FQDN 新增至使用者的語音路由原則。 不需要針對主幹執行新的 CSOnlinePSTNGateway。
+-    衍生的主幹 (如名稱所暗示) 會繼承或衍生載波幹線的所有設定參數。 示例
+-   Customers.adatum.biz –需要在承運人租使用者中建立的載波主幹。
+-   Sbc1.customers.adatum.biz –客戶租使用者中的衍生主幹, 不需要在 PowerShell 中建立。  您可以直接在線上語音路由策略中, 在客戶租使用者中新增衍生主幹的名稱, 而不需建立它。
+
+-   在載波主幹上所做的任何變更 (在承運人租使用者), 都會自動套用到衍生的 trunks。 例如, 電信公司可以在載波主幹上變更 SIP 埠, 此變更會套用至所有衍生的 trunks。 設定 trunks 的新邏輯可簡化管理, 因為您不需要移至每個租使用者, 並在每個幹線變更參數。
+-   選項只會傳送給載波中繼 FQDN。 載波幹線的健康狀態會套用至所有衍生的 trunks, 並用於路由決定。 瞭解更多關於[直接路由選項](https://docs.microsoft.com/microsoftteams/direct-routing-monitor-and-troubleshoot)的資訊。
+-   電信公司可以排出載波幹線, 而且所有衍生的 trunks 也會排出。 
  
 
-從先前的模型遷移至載波幹線
+**從先前的模型遷移至載波幹線**
  
-若要從載波託管模型的目前實現遷移到新的模型, 運營商將需要針對客戶租使用者重新設定 trunks。 使用移除-CSOnlinePSTNGateway (在承運人租使用者中離開主幹) 移除客戶租使用者的 trunks。
+若要從載波託管模型的目前實現遷移到新的模型, 運營商將需要針對客戶租使用者重新設定 trunks。 使用移除-CSOnlinePSTNGateway (在承運人租使用者中離開主幹) 從客戶租使用者中移除 trunks
 
 我們強烈建議您儘快遷移到新的解決方案, 因為我們將使用載波和衍生的幹線模型來加強監視和提供。
  

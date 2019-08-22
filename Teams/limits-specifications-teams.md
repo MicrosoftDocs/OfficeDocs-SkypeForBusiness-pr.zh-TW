@@ -15,12 +15,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 54c71dfb692dc5981699babdfdb708c404eb6231
-ms.sourcegitcommit: fd5d48b36d70e3f42e029572fe003ee397db090d
+ms.openlocfilehash: 854c6beeccdae6286bc609a226a49b15de1114e6
+ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "36473368"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "36493118"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft 團隊的限制與規格
 
@@ -43,6 +43,43 @@ ms.locfileid: "36473368"
 &sup2;此限制包括已歸檔的團隊。
 
 &sup3; 刪除的頻道可以在30天內還原。 在30天內, 已刪除的頻道會繼續依每個團隊的200頻道數量計算。 在30天之後, 已刪除的頻道及其內容會永久刪除, 且頻道不會在每個團隊的200頻道限制範圍內。
+
+## <a name="messaging"></a>傳送
+
+### <a name="chat"></a>交流
+
+參與小組中聊天清單之交談的使用者必須有 Exchange Online (雲端) 信箱供系統管理員搜尋聊天交談。 這是因為聊天清單中的交談是儲存在聊天參與者的雲端型信箱中。 如果聊天參與者沒有 Exchange Online 信箱, 系統管理員將無法在聊天交談中搜尋或進行封存。 例如, 在 Exchange 混合式部署中, 擁有內部部署信箱的使用者可以參與在小組中的聊天清單中的交談。 不過, 在這種情況下, 來自這些交談的內容無法進行搜尋, 而且無法保留, 因為使用者沒有雲端信箱。 (如需詳細資訊, 請參閱[Exchange 與 Microsoft 團隊互動的方式](exchange-teams-interact.md))。
+
+團隊聊天是在 Microsoft Exchange 後端使用, 因此 Exchange 訊息限制適用于團隊中的聊天功能。
+
+|功能  | 最大限制  |
+|---------|---------|
+|私人聊天<sup>1</sup>中的人員人數  | 100    |
+|檔附件數<sup>2</sup>  |第     |
+
+<sup>1</sup>如果您在聊天中有超過20名人員, 則會關閉下列聊天功能: Outlook 自動回復和小組狀態訊息;輸入指標;影片和音訊通話;正在讀信回條。
+
+<sup>2</sup>如果附件數超過此限制, 您會看到錯誤訊息。
+
+### <a name="emailing-a-channel"></a>以電子郵件傳送頻道
+
+ 如果使用者想要傳送電子郵件至小組中的頻道, 他們會使用頻道電子郵件地址。 當電子郵件是頻道的一部分時, 任何人都可以回復以開始交談。 以下是一些適用于傳送電子郵件到頻道的限制。
+
+|功能  | 最大限制  |
+|---------|---------|
+|郵件大小<sup>1<sup> | 24 KB |
+|檔附件數<sup>2</sup>  |20     |
+|每個檔案附件的大小 | 小於 10 MB |
+|內嵌圖像<sup>2</sup>的數目 |50   |
+
+<sup>1</sup>如果郵件超過這個限制, 就會產生預覽訊息, 並要求使用者從提供的連結下載並查看原始電子郵件。
+
+<sup>2</sup>如果附件數或影像超過此限制, 您會看到錯誤訊息。
+
+如需詳細資訊, 請參閱[Exchange Online 限制](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits)。
+
+> [!NOTE]
+> 在所有 Office 365 授權中, 郵件大小、檔案附件及內嵌圖像限制都是相同的。
 
 ## <a name="channel-names"></a>頻道名稱
 
@@ -91,28 +128,6 @@ Microsoft 團隊中的每個小組在 SharePoint Online 中都有小組網站, �
 頻道是由針對小組建立的 SharePoint Online 網站集合中的資料夾所支援, 因此頻道內的檔案索引標籤會共用其所屬團隊的儲存空間限制。
 
 如需詳細資訊, 請參閱[SharePoint Online 限制](https://support.office.com/article/SharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498)。
-
-## <a name="messaging"></a>傳送
-
-參與 Microsoft 團隊中聊天清單一部分交談的使用者, 必須擁有 Exchange Online (雲端) 信箱, 以供系統管理員搜尋交談交談。 這是因為聊天清單中的交談是儲存在聊天參與者的雲端型信箱中。 如果聊天參與者沒有 Exchange Online 信箱, 系統管理員將無法在聊天交談中搜尋或進行封存。 例如, 在 Exchange 混合式部署中, 擁有內部部署信箱的使用者可能可以參與 Microsoft 團隊中的聊天清單中的交談。 不過, 在這種情況下, 來自這些交談的內容無法進行搜尋, 而且無法保留, 因為使用者沒有雲端信箱。 (如需詳細資訊, 請參閱[Exchange 與 Microsoft 團隊互動的方式](exchange-teams-interact.md))。
-
-Microsoft 團隊聊天功能可在 Microsoft Exchange 後端使用, 因此您可以將 Exchange 郵件限制套用至 Microsoft 團隊中的聊天功能。 如果使用者想要傳送電子郵件至小組中的頻道, 他們會使用頻道電子郵件地址。 一旦電子郵件是頻道的一部分, 任何人都可以回復以開始交談。 以下是一些適用于傳送電子郵件到頻道的限制。 
-
-|功能  | 最大限制  |
-|---------|---------|
-|私人聊天中的人員人數  | 100    |
-|郵件大小&dagger;  |25 KB   |
-|檔附件的數目&Dagger;  |第     |
-|內嵌圖像的數目&Dagger; |50   |
-
-&dagger;如果郵件超過這個限制, 就會產生預覽訊息, 並要求使用者從提供的連結中查看或下載原始電子郵件。
-
-&Dagger;如果附件或影像數量超過這個限制, 就不會處理郵件, 而且 NDR 電子郵件會傳回給寄件者, 通知他們發生錯誤。
-
-> [!NOTE]
-> 在所有 Office 365 授權中, 郵件大小、檔案附件及內嵌圖像限制都是相同的。
-
-如需詳細資訊, 請參閱[Exchange Online 限制](https://technet.microsoft.com/library/exchange-online-limits.aspx)。
 
 ## <a name="contacts"></a>聯絡
 

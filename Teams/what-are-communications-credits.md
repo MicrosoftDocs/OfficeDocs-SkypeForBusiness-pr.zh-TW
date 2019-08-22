@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: '瞭解什麼是通訊點數 (PSTN 消費) 帳單、如何尋找比率, 以及您所取得的服務。 '
-ms.openlocfilehash: 6de37fb4f995e2af8be640fef62b379c2a1d7b0d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 18762b51fc44ed1bc3f63a0e815528174e4afd8a
+ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36182304"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "36493074"
 ---
 # <a name="what-are-communications-credits"></a>什麼是通訊點數？
 
@@ -75,6 +75,9 @@ ms.locfileid: "36182304"
 每個組織會有不同的通話方案數量與比率, 以進行考慮。 您必須從目前的服務提供者取得這種類型的使用資料。 針對使用商務用 Skype 已成為其服務提供者的組織, 您可以在**Microsoft 365 系統管理中心** > **報告**或**商務用 skype 系統管理中心** > 報告中查看, 以取得使用方式資料。**** PSTN 使用**狀況詳細資料。**  > 
   
 當您設定通訊點數時, 您需要調查貴組織的通話使用量, 以判斷您需要加入的金額。 您可以透過查看**PSTN 使用狀況詳細資料**報告來取得通話使用狀況的資訊。 此報告可讓您將通話資料記錄匯出至 Excel 並建立自訂報表。
+
+> [!NOTE]
+> 通訊點數也會用於津貼比率數位。 來電者會支付費用。
   
 ## <a name="recommended-funding-amounts"></a>建議的融資金額
 

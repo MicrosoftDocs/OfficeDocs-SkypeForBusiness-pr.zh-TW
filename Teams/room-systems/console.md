@@ -6,7 +6,7 @@ ms.reviewer: Travis-Snoozy
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: msteams
 localization_priority: Normal
 ms.collection:
 - Strat_SB_Admin
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: 本文說明如何設定 Microsoft 團隊聊天室主控台及其外設。
-ms.openlocfilehash: 1bb1e45eca95628222b799d94c953bb49da1ea17
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 820921cdcf35f4c4072dae3b2029527b98454dc5
+ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243473"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "36493051"
 ---
 # <a name="configure-a-microsoft-teams-rooms-console"></a>設定 Microsoft 團隊聊天室主控台
 
@@ -91,7 +91,10 @@ CreateSrsMedia. ps1 腳本會自動執行下列任務:
 8. 安裝完成後, 系統會關閉。
     
 系統關閉之後, 就可以安全地移除 USB 安裝盤了。 此時, 您可以將目標裝置放在它的 dock 中 (如果使用的是 dock 產品), 附加會議室所需的外設, 然後連線到網路。 請參閱製造商的指示。
-  
+
+> [!NOTE]
+> Microsoft 團隊聊天室的軟體更新會自動從商務用 Microsoft 網上商店下載。 請參閱[Microsoft Store For Business 和教育版的先決條件](https://docs.microsoft.com/microsoft-store/prerequisites-microsoft-store-for-business), 確認聊天室主機能夠存取商店及自我更新。  
+
 ### <a name="selecting-a-language"></a>選取語言 
 
 在建立者的更新中, 當隱含語言選取不提供使用者所需的實際應用程式語言 (例如, 他們想要讓主控台 app 以法文進行) 時, 您必須使用 ApplyCurrentRegionAndLanguage. ps1 腳本 (也就是它會以英文提供。
