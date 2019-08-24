@@ -23,18 +23,18 @@ f1keywords:
 - ms.teamsadmincenter.teamsandchannelpolicies.overview
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
-ms.openlocfilehash: 40647aec4f55d3d922f29c853ec84ee175dc8166
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 6a562f9a271a9771796fd73424a94f2820c2f966
+ms.sourcegitcommit: 25c30baec1c969eef95b725251a3f4ad3706a19d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483199"
+ms.lasthandoff: 08/24/2019
+ms.locfileid: "36622058"
 ---
 # <a name="manage-teams-policies-in-microsoft-teams"></a>管理 Microsoft 團隊中的團隊原則
 
 做為管理員, 您可以使用 Microsoft 團隊中的小組原則來控制貴組織中的使用者可在團隊和頻道中進行的動作。 例如, 您可以設定是否允許使用者在搜尋結果和小組圖庫中發現私人小組, 以及是否允許使用者建立私人頻道。
 
-您可以在 Microsoft 團隊系統管理中心管理團隊原則。 您可以使用全域 (組織範圍預設值) 原則, 或建立自訂原則, 並將它們指派給使用者。 除非您建立並指派自訂原則, 否則貴組織中的使用者會自動取得全域原則。
+您可以移至 Microsoft 團隊系統管理中心的**小組** > **小組原則**, 管理小組原則。 您可以使用全域 (組織範圍預設值) 原則, 或建立自訂原則, 並將它們指派給使用者。 除非您建立並指派自訂原則, 否則貴組織中的使用者會自動取得全域原則。
 
 您可以編輯全域原則, 或建立並指派自訂原則。 如果指派給使用者的是自訂原則, 該原則會套用給使用者。 如果使用者未獲指派自訂原則, 則全域原則會套用至使用者。 在您編輯全域原則或指派原則之後, 變更才會生效24小時。
 

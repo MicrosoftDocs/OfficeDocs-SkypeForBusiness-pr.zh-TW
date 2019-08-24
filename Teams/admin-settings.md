@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e01f4efd8ab9fa532e1a8a6c0c0c158c9fe44fb0
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: efeb467c5cf3cad5e427a26b01f972d40922db21
+ms.sourcegitcommit: 16345e8a19dba6fd1b39f876755088f9d8368f13
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483450"
+ms.lasthandoff: 08/23/2019
+ms.locfileid: "36620452"
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Microsoft 團隊中應用程式的系統管理設定
 ==========================================
@@ -62,8 +62,6 @@ App 設定原則可讓您自訂使用者的 app 體驗。 您可以在 [團隊�
 若要深入瞭解, 請參閱[管理團隊中的 app 設定原則](teams-app-setup-policies.md)。
 
 ## <a name="custom-app-policies-and-settings"></a>自訂 app 原則與設定
-
->[!INCLUDE [new-feature-coming-soon-section](includes/new-feature-coming-soon-section.md)]
 
 團隊可讓貴組織中的開發人員建立、測試並將自訂應用程式部署到其他使用者。 您可以將自訂應用程式直接上傳至小組或個人內容, 將其新增至小組。 您可以使用應用程式設定原則來控制貴組織中可以上傳自訂應用程式的人員。 您也可以設定全組織性設定, 以控制使用者是否能與特定的自訂應用程式互動。
 
