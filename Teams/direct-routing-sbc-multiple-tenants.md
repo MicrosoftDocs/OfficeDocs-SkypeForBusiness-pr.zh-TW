@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 瞭解如何設定一個會話邊界控制器 (SBC) 來提供多個承租人。
-ms.openlocfilehash: a8ee395a0b588af976151923992efbb32971b43c
-ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
+ms.openlocfilehash: d331fa51b8065ba7d1d39c7583beebbc093ddcce
+ms.sourcegitcommit: 26b3d786da07fde20878b0f4a1656070fe01d918
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "36493123"
+ms.lasthandoff: 08/28/2019
+ms.locfileid: "36645308"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>針對多個承租人設定會話框線控制器
 
@@ -84,7 +84,8 @@ Microsoft 不會管理運營商。 Microsoft 提供 PBX (Microsoft 手機系統)
 
 ![顯示網域和連絡人標題需求的圖表](media/direct-routing-1-sbc-requirements.png)
 
-SBC 需要認證, 才能驗證連線。 針對 SBC 主機案例, 電信公司必須向* \*base_domain (例如, \*customers.adatum.biz)* 要求證書。 這個憑證可以用來驗證從單一 SBC 提供的多個租使用者的連線。
+SBC 需要認證, 才能驗證連線。 針對 SBC 主機案例, 電信公司必須向* \*base_domain (例如\*customers.adatum.biz)* 要求證書。 這個憑證可以用來驗證從單一 SBC 提供的多個租使用者的連線。
+
 
 下表是一個配置的範例。
 
@@ -98,6 +99,9 @@ SBC 需要認證, 才能驗證連線。 針對 SBC 主機案例, 電信公司必
 ||         |         |         |         |         |
 
 若要設定基與子域, 請依照下列步驟進行。 在這個範例中, 我們將為一個客戶 (Woodgrove 銀行租使用者的 sbc1.customers.adatum.biz) 設定基礎網功能變數名稱稱 (customers.adatum.biz) 和子域。
+
+> [!NOTE]
+> 使用 sbcX.customers.adatum.biz 在承運人租使用者中啟用語音。
 
 ## <a name="register-a-base-domain-name-in-the-carrier-tenant"></a>在電信公司租使用者中註冊基底網功能變數名稱稱
 

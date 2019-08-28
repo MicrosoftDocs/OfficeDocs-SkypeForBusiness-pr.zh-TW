@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '瞭解如何將會議 ID 指派給 Microsoft 團隊中的使用者, 以及會議 ID 的參數應該是什麼。 '
-ms.openlocfilehash: a41935e324a7ed167efc905bbe274f6ef7c85de5
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 8c4832050626dadd1bec068be262281d1303ef46
+ms.sourcegitcommit: 26b3d786da07fde20878b0f4a1656070fe01d918
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "36183450"
+ms.lasthandoff: 08/28/2019
+ms.locfileid: "36645278"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-microsoft-teams"></a>在 Microsoft 團隊中查看及重設指派給使用者的會議 ID
 
@@ -84,9 +84,7 @@ ms.locfileid: "36183450"
   
     
 - 會議 ID 必須符合在音訊會議橋設定的位數長度。 您不能在會議 Id 中使用字母或特殊字元;只有數位可以使用。
-    
-- 每個音訊會議使用者的會議 ID 預設會是7位數, 且位數無法變更。
-    
+   
     
 ## <a name="want-to-know-more-about-windows-powershell"></a>想要深入瞭解 Windows PowerShell 嗎？
 

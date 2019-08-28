@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '瞭解如何為您的組織設定電話系統 (雲端 PBX)。 '
-ms.openlocfilehash: 73cae7507a7c9d4dc86ea24de51790d13a32cf27
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: e7d833e6170a442f9e97ff867e979bfd52700969
+ms.sourcegitcommit: 26b3d786da07fde20878b0f4a1656070fe01d918
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "36184917"
+ms.lasthandoff: 08/28/2019
+ms.locfileid: "36645297"
 ---
 # <a name="setting-up-phone-system-in-your-organization"></a>在組織中設定電話系統
 
@@ -235,8 +235,7 @@ ms.locfileid: "36184917"
 
 - 在音訊會議中, 您可以移至**Microsoft 365 系統管理中心** > **** > 的 [**商務** > 用 Skype**音訊會議**], 將專用號碼指派給會議橋接器, 然後按一下您也可以在 [[音訊會議橋] 中查看 [變更付費或免付費號碼](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)]。
 
-- 針對自動語音應答, 您可以移至**Microsoft 365 系統管理中心** > **** > , 透過**商務** > 用 Skype**呼叫路由** > 自動語音來將專用號碼指派給自動語音應答**** 然後按一下自動語音應答。 在 [**一般**] 頁面上, 您已有的服務號碼會列在 [**電話號碼**] 下拉式清單中。 如需詳細資訊, 請參閱[設定雲端自動](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)語音應答。
-
+- 針對自動語音應答, 您可以移至**Microsoft 365 系統管理中心** > **** > , 透過**商務** > 用 Skype**呼叫路由** > 自動語音來將專用號碼指派給自動語音應答**** 然後按一下自動語音應答。 在 [**一般**] 頁面上, 您已有的服務號碼會列在 [**電話號碼**] 下拉式清單中。 如需詳細資訊, 請參閱[設定雲端自動](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant)語音應答。
 - 在通話佇列中, 您可以移至**Microsoft 365 系統管理中心** > **** > 的 [**商務** > 用 Skype 呼叫**路由** > **呼叫] 佇列**, 將專用號碼指派給呼叫佇列, 然後按一下在通話佇列中。 在 [**一般**] 頁面上, 您已有的服務號碼會列在 [**電話號碼**] 下拉式清單中。 如需詳細資訊, 請參閱[建立雲端通話佇列](https://docs.microsoft.com/microsoftteams/create-a-phone-system-call-queue)。
 
 **如需取得新服務號碼和移植現有服務號碼的詳細資訊, 請參閱[取得服務電話號碼](/microsoftteams/getting-service-phone-numbers)。**

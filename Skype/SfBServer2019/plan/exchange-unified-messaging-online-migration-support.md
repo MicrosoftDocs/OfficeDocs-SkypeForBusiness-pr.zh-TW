@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Microsoft 正在淘汰2020年2月的 Exchange 整合訊息 Online (ExchUMO) 服務。 本文將摘要說明客戶應該知道哪些內容, 並針對其業務連續性進行規劃。
-ms.openlocfilehash: b9353546012a0cf16f154d330f27f36fd360b5ee
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 0472d142cc9d6b535b950e86e41753c82992bee5
+ms.sourcegitcommit: 26b3d786da07fde20878b0f4a1656070fe01d918
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243892"
+ms.lasthandoff: 08/28/2019
+ms.locfileid: "36645246"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange 整合訊息線上遷移支援
 
@@ -23,8 +23,7 @@ ms.locfileid: "36243892"
  
 ExchUMO 是由客戶針對語音信箱、自動語音應答、通話佇列及傳真整合服務進行部署。 Microsoft 方案可協助客戶遷移到已支援商務用 Skype Online 和 Microsoft 團隊的成千上萬客戶的手機系統服務。 
 
-語音信箱主要是 Microsoft 導向的遷移;客戶的子集需要系統管理參與及投資。 自動語音應答及呼叫佇列擁有管理員導向的遷移;系統管理員需要在手機系統自動語音應答服務中重新建立現有的 ExchUMO 自動語音應答樹。 使用任何 ExchUMO 功能與協力廠商 PBX 的客戶將不會遷移至手機系統雲端服務, 因為這些服務不支援協力廠商 PBX 系統。 協力廠商支援的退休方案是在[此博客](https://blogs.technet.microsoft.com/exchange/2017/07/18/discontinuation-of-support-for-session-border-controllers-in-exchange-online-unified-messaging
-)中宣佈, 此部署模型中的客戶可以將他們的使用者遷移至 Microsoft 整合通訊平臺/服務, 或取得協力廠商的語音信箱或自動適用于這些使用者的 [助理解決方案]。 在手機系統中不支援 [傳真整合];客戶將需要遷移至協力廠商解決方案。 
+語音信箱主要是 Microsoft 導向的遷移;客戶的子集可能需要系統管理員參與與/或投資。 自動語音應答是系統管理員導向的遷移;您將需要在雲端自動語音應答雲端服務中重新建立現有的 ExchUMO 自動語音應答樹。 使用任何 ExchUMO 功能與協力廠商 PBX 的客戶將不會被遷移到 Skype 雲端服務, 因為它們不支援協力廠商 PBX 系統。 在[此博客](https://techcommunity.microsoft.com/t5/Exchange-Team-Blog/New-date-for-discontinuation-of-support-for-Session-Border/ba-p/607853)中宣告的協力廠商支援的退休方案, 此部署模型中的客戶可以將他們的使用者遷移至 Microsoft 的整合通訊平臺/服務, 或取得協力廠商的語音信箱和/或自動適用于這些使用者的 [助理解決方案]。 雲端服務不支援 [傳真整合];客戶將需要遷移至協力廠商解決方案。
 
 ### <a name="who-is-affected"></a>誰會受到影響？
 
