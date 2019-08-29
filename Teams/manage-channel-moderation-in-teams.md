@@ -16,16 +16,14 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何在 Microsoft 團隊中設定裁決的頻道, 包括如何將團隊成員新增為頻道審查程式。
-ms.openlocfilehash: 93fb0a6d8a88979d14031792ccf96a8861629b1d
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 7fbb0676d8f0874a27766287fead15dc30a97fc6
+ms.sourcegitcommit: 8fb7dd1fa98ba7563542965067d16c533171d4e9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244972"
+ms.lasthandoff: 08/28/2019
+ms.locfileid: "36649749"
 ---
 # <a name="set-up-and-manage-channel-moderation-in-microsoft-teams"></a>在 Microsoft 團隊中設定及管理頻道裁決
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 在 Microsoft 團隊中, 小組擁有者可以為頻道開啟「裁決」, 以控制誰可以開始新的文章, 以及回復該頻道中的文章。
 
