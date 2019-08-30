@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 以下是我們從我們想要使用音訊會議的客戶所取得的主要問題。
-ms.openlocfilehash: fe98ac1bab2dfe61f9e511ad9ff14519792bcb36
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 3d35665da6ed32d66a2cfa82353ddcf9f60be063
+ms.sourcegitcommit: bb8577aca8c7e0673b37634a24bf793c86c0537b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36241858"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "36675329"
 ---
 # <a name="audio-conferencing-common-questions"></a>音訊會議常見問題
 
@@ -95,7 +95,7 @@ ms.locfileid: "36241858"
   
 ## <a name="can-audio-conferencing-be-used-by-the-users-who-are-part-of-an-on-premises-deployment-of-skype-for-business-server"></a>在內部部署商務用 Skype Server 中, 使用者可以使用音訊會議嗎？
 
-我們不在這裡。 不過, 您可以繼續使用商務用 Skype Server 中提供的音訊會議, 以及內部部署使用者的 PSTN 閘道。 
+首先, 透過[會議](meetings-first.md), 商務用 Skype Server 使用者可從團隊會議和小組音訊會議中受益。 
   
 ## <a name="can-a-user-get-a-personal-conference-id"></a>使用者可以取得個人的會議 ID 嗎？
 

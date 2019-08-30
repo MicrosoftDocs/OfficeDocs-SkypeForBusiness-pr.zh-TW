@@ -16,43 +16,48 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 85f74b63f465bd0004e8b9a2ef93c79b00196495
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 9e5e637fc8be92f136d05a3e7f41628d61afce70
+ms.sourcegitcommit: bb8577aca8c7e0673b37634a24bf793c86c0537b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243902"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "36675384"
 ---
 <a name="about-upgrade-basic"></a>
 
 # <a name="teams-client-experience-and-conformance-to-coexistence-modes"></a>團隊用戶端體驗與共存模式的一致性
 
 > [!NOTE]
-> 此頁面說明團隊用戶端在任何商務用 Skype 模式 (SfBOnly、SfBWithTeamsCollab、SfBWithTeamsCollabAndMeetings) 行為中的重要、最近發佈的變更。
+> 此頁面說明團隊用戶端在任何商務用 Skype 共存模式 (SfBOnly、SfBWithTeamsCollab、SfBWithTeamsCollabAndMeetings) 行為中的重要、最近發佈的變更。
 
 
-共存模式的用途是提供一種簡單且可預測的方式, 讓使用者在公司從商務用 Skype 轉換為小組時, 提供一種簡單且可預知的體驗。  針對組織移至 [團隊], TeamsOnly 模式是每個使用者的最終目的地, 但並非所有使用者都需要同時指派 TeamsOnly (或任何其他模式)。  在使用者進入 TeamsOnly 模式之前, 組織可以使用任何商務用 Skype 模式 (SfBOnly、SfBWithTeamsCollab、SfBWithTeamsCollabAndMeetings), 以確保 TeamsOnly 的使用者和尚不在他們的使用者可以預期地進行通訊。 
+商務用 Skype 共存模式 (SfBOnly、SfBWithTeamsCollab、SfBWithTeamsCollabAndMeetings) 的用途, 是提供使用者的簡單且可預測的體驗, 就像是組織從商務用 Skype 轉換到團隊。  如果組織要移至團隊, 則 [**團隊專用**] 模式是每個使用者的最終目的地, 但並非所有使用者都需要同時指派**團隊**(或任何其他模式)。  在使用者進入 TeamsOnly 模式之前, 組織可以使用任何商務用 Skype 共存模式, 以確保**僅供團隊**使用的使用者和尚不在小組中的使用者進行預期通訊。 
 
-當使用者處於任何商務用 Skype 模式時, 所有傳入聊天和通話會傳送到使用者的商務用 Skype 用戶端。 若要避免使用者混淆並確保正確地進行路由, 小組用戶端中的呼叫及聊天功能會在使用者處於任何商務用 Skype 模式時停用。 同樣地, 在使用者處於 SfBOnly 或 SfBWithTeamsCollab 模式時, 小組中的會議排程會明確停用, 且在使用者處於 SfBWithTeamsCollabAndMeetings 模式時明確啟用。   
+當使用者處於任何商務用 Skype 模式時, 所有傳入聊天和通話會傳送到使用者的商務用 Skype 用戶端。 若要避免使用者混淆並確保正確地進行路由, 小組用戶端中的呼叫及聊天功能會在使用者處於任何商務用 Skype 模式時停用。 同樣地, 在使用者處於 SfBOnly 或 SfBWithTeamsCollab 模式時, 小組中的會議排程會明確停用, 且在使用者處於 SfBWithTeamsCollabAndMeetings 模式時明確啟用。
+
+因為目前狀態是透過聊天和通話提供可存取性的指示, 所以當聊天和通話停用時, 會在團隊中自行存在 (也就是, 在使用者圖片的團隊用戶端中顯示自己的目前狀態) 也會隱藏。 
 
 ## <a name="how-the-available-functionality-in-teams-client-changes-based-on-mode"></a>團隊用戶端中的可用功能如何根據模式變更
+
 團隊中的可用功能, 取決於使用者的共存模式 (由 TeamsUpgradePolicy 設定)。 下表摘要說明行為:
 
 |使用者的有效模式|團隊用戶端中的體驗|
 |---|---|
-|任何商務用 Skype 模式|通話和聊天功能已停用。|
+|任何商務用 Skype 模式|[通話]、[交談] 和 [自我顯示] 是停用的。|
 |SfBWithTeamsCollabAndMeetings|提供會議排程|
 |SfBWithTeamsCollab 或 SfBOnly<sup>1</sup>|無法使用會議排程|
 |||
 
-下列螢幕擷取畫面說明 TeamsOnly 或孤島模式與所有其他模式之間的差異。 請注意, [聊天] 和 [呼叫] 圖示可使用 TeamsOnly 或孤島模式 (左螢幕擷取畫面), 但不適用於其他模式 (右側螢幕擷取畫面):
+下列螢幕擷取畫面說明**僅限團隊**或**孤島**模式與所有其他模式之間的差異。 請注意, 「聊天」和「通話」圖示預設會提供給**小組**或**孤島**模式 (左螢幕擷取畫面), 但不適用於其他模式 (右側螢幕擷取畫面):
 
 ![團隊模式的並排比較](media/teams-mode-comparison.png)
 
+此外, 在其他模式中不提供自我目前狀態, 如下所示。
 
+![在會議中先顯示自我狀態的螢幕擷取畫面](media/meetings-first-no-self-presence-general.png)
  
 **注意:**
-<sup></sup>現在, SfBwithTeamsCollab 和 SfBOnly 的行為相同, 但在 SfBOnly 模式中也會停用團隊中的頻道與檔案功能;不過, 目前沒有任何設定可讓團隊中的此項功能停用。
+<sup>1</sup>此時, SfBwithTeamsCollab 和 SfBOnly 的行為相同, 但在 SfBOnly 模式中, 也可以停用團隊中的頻道與檔案功能。 在間歇中, 您可以使用應用程式許可權原則隱藏頻道。
 
 
 ## <a name="impact-of-mode-on-other-policy-settings"></a>模式對其他原則設定的影響

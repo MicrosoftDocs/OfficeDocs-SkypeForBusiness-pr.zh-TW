@@ -18,12 +18,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 瞭解免費的虛擬使用者授權。
-ms.openlocfilehash: c8d196d876ed8df32f28aabf96a5817be0195145
-ms.sourcegitcommit: a0df7479662b3bea488c19722ad588981f58a5e4
+ms.openlocfilehash: cf51e927a05472b314e5fa193caa8d49f513c0cf
+ms.sourcegitcommit: bb8577aca8c7e0673b37634a24bf793c86c0537b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "36447908"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "36675340"
 ---
 # <a name="phone-systemvirtual-user-license"></a>電話系統-虛擬使用者授權 
 
@@ -50,6 +50,9 @@ Contoso, Inc. 購買包含電話系統的600授權 (每位員工一個)。 Conto
 Contoso 應該考慮重新設計自動語音應答及呼叫佇列系統。 如果他們使用較少的電話號碼, 以及不需要電話號碼的嵌套節點, 他們就能簡化實施並減少成本。 
 
 ## <a name="how-to-acquire-phone-systemvirtual-user-licenses"></a>如何取得電話系統-虛擬使用者授權 
+
+> [!NOTE] 
+> 遵循這些指示時, 請使用 [預覽] 模式來購買電話系統-虛擬使用者授權。
 
 1. 登入 Microsoft 365 系統管理中心。
 2. 移至**帳單** > **購買服務** > **附加元件訂閱**

@@ -22,12 +22,12 @@ f1keywords:
 ms.custom:
 - Phone System
 description: 瞭解如何在 Microsoft 團隊中設定雲端通話佇列的電話系統。
-ms.openlocfilehash: 8ae41603e3899c379fa09b2b08dd5e111b8405da
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 9ce7028c5ff56e24cda84536126cba271ee3e2b1
+ms.sourcegitcommit: bb8577aca8c7e0673b37634a24bf793c86c0537b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483312"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "36675403"
 ---
 # <a name="create-a-cloud-call-queue"></a>建立雲端通話佇列
 
@@ -173,7 +173,11 @@ ms.locfileid: "36483312"
 - 安全性群組
 - 通訊群組清單
 
-所選的通話**** 代理程式必須是線上使用者, 且已啟用 [**電話系統**授權] 和 [企業語音],**或是**有通話方案。
+所選取的通話代理程式必須是下列其中一項: 
+
+- 已啟用手機系統授權和企業語音的線上使用者 
+- 使用通話方案的線上使用者
+- Businesss Server 使用者的內部部署 Skype
 
   > [!NOTE]
   > 如果您想要將來電重新導向至組織中線上的人員, 也適用這種情況。 這些人必須具備**手機系統**授權和企業語音功能,**或是**有通話方案。 如需詳細資訊, 請參閱[指派商務用 Skype 授權](/Skype/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)、[指派 Microsoft 團隊授權](https://docs.microsoft.com/microsoftteams/assign-teams-licenses), 或適合[您的通話計畫？](https://docs.microsoft.com/microsoftteams/calling-plan-landing-page)

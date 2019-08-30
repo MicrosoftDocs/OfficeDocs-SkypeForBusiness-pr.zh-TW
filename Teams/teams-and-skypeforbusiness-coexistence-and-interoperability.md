@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d89eec1f643204750fb1c35845382639a7e04eb7
-ms.sourcegitcommit: ab259764dc50bdd52efed3abb1d065ee19486946
+ms.openlocfilehash: 53ab6c700f1a14700acbcdf1fdfeceb81b7bcbce
+ms.sourcegitcommit: bb8577aca8c7e0673b37634a24bf793c86c0537b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "36393455"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "36675351"
 ---
 ![升級歷程圖表, 強調專案定義階段](media/upgrade-banner-project-definition.png "升級歷程階段, 重點放在專案定義階段")
 
@@ -43,7 +43,7 @@ ms.locfileid: "36393455"
 
 ## <a name="coexistence-of-teams-and-skype-for-business"></a>團隊與商務用 Skype 的共存
 
-除了共同作業功能之外, 小組還提供聊天、通話和會議功能。 視您選擇部署團隊的方式而定, 這些功能可能會與商務用 Skype 針對特定使用者所提供的功能重迭。 預設模式是在商務用 Skype 中使用功能重迭來執行團隊;不過, 使用者可以指派幾種共存模式 (也稱為升級模式), 以確保這些功能不會與該使用者重疊 (在這種情況下, 小組與商務用 Skype 之間提供互通性)。 例如, 如果您的商務用 Skype 伺服器內部部署資產有複雜的企業語音部署, 但想要讓您的使用者儘快享有新式會議, 您可能會想先評估會議 (如下所述) 作為替換路徑。
+除了共同作業功能之外, 小組還提供聊天、通話和會議功能。 視您選擇部署團隊的方式而定, 這些功能可能會與商務用 Skype 針對特定使用者所提供的功能重迭。 預設模式是在商務用 Skype 中使用功能重迭來執行團隊;不過, 使用者可以指派幾種共存模式 (也稱為升級模式), 以確保這些功能不會與該使用者重疊 (在這種情況下, 小組與商務用 Skype 之間提供互通性)。 例如, 如果您的商務用 Skype 伺服器內部部署資產有複雜的企業語音部署, 但想要讓您的使用者儘快享有新式會議, 您可能會想[先評估會議](meetings-first.md), 做為替代方案路徑.
 
 我們建議您查看下列共存模式, 以協助判斷哪個路徑適合您的組織。
 
