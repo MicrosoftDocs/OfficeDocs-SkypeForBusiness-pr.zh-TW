@@ -16,12 +16,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 瞭解如何將使用者移至商務用 Skype Online。
-ms.openlocfilehash: 90d225eb725690566f23b73b3626cbcf1f42c8c7
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 74816ae4c67f62cabad018a344b4b1800bd84444
+ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "36185518"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "36715891"
 ---
 # <a name="move-users-from-on-premises-to-skype-for-business-online"></a>將使用者從內部部署移至商務用 Skype Online
 
@@ -31,7 +31,7 @@ ms.locfileid: "36185518"
  
 ## <a name="move-users-with-move-csuser"></a>移動 Move-csuser 的使用者 
 
-您可以從內部部署商務用 Skype Management Shell PowerShell 視窗中取得 Move-csuser。 您在內部部署環境以及 Office 365 租使用者中都必須具備足夠的許可權, 如[所需的管理認證](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)中所述。 您可以使用單一帳戶, 在這兩個環境中都有許可權, 或者您可以在內部部署的商務用 Skype Server Management Shell 視窗中使用內部部署認證, 並使用`-Credential`參數來指定 Office 365 的認證。具有必要的 Office 365 系統管理角色的帳戶。
+您可以從內部部署商務用 Skype Management Shell PowerShell 視窗中取得 Move-csuser。 您在內部部署環境以及 Office 365 租使用者中都必須具備足夠的許可權, 如[所需的管理認證](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)中所述。 您可以使用單一帳戶, 在這兩個環境中都有許可權, 或者您可以在內部部署的商務用 Skype Server Management Shell 視窗中, 使用`-Credential`參數指定 Office 365 的認證。具有必要的 Office 365 系統管理角色的帳戶。
 
 若要使用移動流覽 Move-csuser 將使用者移至線上:
 

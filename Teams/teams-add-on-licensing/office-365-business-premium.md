@@ -18,29 +18,24 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: '瞭解附加元件授權、功能, 以及如何購買 Office 365 商務版 Premium 方案。 '
-ms.openlocfilehash: 1372948962e15de861402fa4f9d30e5749204af8
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 48cfc0803f062f4ded43821b7db8604a49022fda
+ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242655"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "36715904"
 ---
 # <a name="office-365-business-premium"></a>Office 365 商務版
 
 如果您有[Office 365 商務版 Premium](https://products.office.com/en/business/office-365-business-premium), 您可以使用 Microsoft 團隊撥打訂閱中其他人的電話給其他人。 例如, 如果您的公司有10人, 您可以使用團隊相互通話和傳送即時消息。
 
-**若要撥打及接聽公司外部人員的來電, 您有三個選項**:
+**若要撥打及接聽公司外部人員的來電, 您可以使用下列選項**:
 
 - **選項 1**。 使用[免費的團隊 app](https://products.office.com/microsoft-teams/free)。 如果您的公司非常小 (例如, 1-2 人), 使用 [團隊] 應用程式是更好的做法。 在國內和國際通話中使用的成本較低。 您仍然可以進行1:1 和群組音訊及視頻通話, 並分享簡報的桌面。 [比較功能、比率及付款選項](https://products.office.com/microsoft-teams/free)。
 
      我們建議您從團隊開始免費查看, 看它是否符合您的需求。 不過, 如果不是, 您仍有兩個選項。
-
-- **選項2。保留您的計畫, 並購買電話系統、國內或國內及國際通話方案**。
-    1. 購買 [電話系統] 附加元件。
     
-    2. 購買[Office 365 通話方案](../calling-plans-for-office-365.md)-您只能在購買手機系統附加元件後購買此方案。
-    
-- **選項3。升級您的方案, 並購買電話系統、國內或國內及國際通話方案**。
+- **選項2。升級您的方案, 並購買電話系統、國內或國內及國際通話方案**。
 
     1. [切換到其他商務用 Office 365 方案](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a)。 我們建議您評估企業版 E5 方案, 以查看其成本是否更有效率。
 

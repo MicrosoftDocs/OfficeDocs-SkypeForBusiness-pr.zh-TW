@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 47341662267a3da0a83174cbccb2b2cd251538b6
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 646305383c8f38671c07f598bc9ff1671890d22f
+ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36246185"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "36715943"
 ---
 <a name="get-clients-for-microsoft-teams"></a>為 Microsoft 團隊取得用戶端 
 ===========================
@@ -124,7 +124,7 @@ Microsoft 團隊行動裝置 app 支援的行動平臺如下:
 > [!NOTE]
 > 行動裝置版必須提供給公眾, 小組才能如期運作。
 
-行動應用程式只會透過各個行動平臺的 app store 進行發佈和更新, 而且不能透過 MDM (行動裝置管理) 方案或側載元件進行發佈。
+行動應用程式只會透過各個行動平臺的 app store 進行散佈與更新。 Microsoft 不支援透過 MDM 或側載來傳播行動應用程式。 在支援的行動平臺上安裝行動應用程式後, 如果版本在目前發行的三個月內, 就會支援小組行動應用程式本身。
 
 
 | | | |

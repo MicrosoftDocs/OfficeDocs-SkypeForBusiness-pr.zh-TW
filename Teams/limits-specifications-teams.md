@@ -8,19 +8,19 @@ ms.service: msteams
 audience: admin
 ms.reviewer: karuanag
 description: 瞭解適用于 Microsoft 團隊的限制、規格及其他需求。
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 854c6beeccdae6286bc609a226a49b15de1114e6
-ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
+ms.openlocfilehash: 82fbaa955c080446619558a7a90410200f4be604
+ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "36493118"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "36715899"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft 團隊的限制與規格
 

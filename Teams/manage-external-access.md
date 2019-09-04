@@ -18,17 +18,17 @@ description: 您的 IT 系統管理員可以為其他網域設定外部存取 (�
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 71aad6a5b19c1d641347b9e0f119acf2f72d5ce9
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 146ec2f30afa03a3e8519637a4f852f1b0e73cef
+ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242126"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "36715858"
 ---
 <a name="manage-external-access-in-microsoft-teams"></a>在 Microsoft 團隊中管理外部存取
 ======================================================
 
-透過 Microsoft 團隊外部存取, 其他網域的團隊使用者可以參與您的聊天和通話。 您也可以允許 othe 仍在使用商務用 Skype Online 的外部使用者、商務用 Skype 內部部署或甚至 Skype 參與。
+透過 Microsoft 團隊外部存取, 其他網域的團隊使用者可以參與您的聊天和通話。 您也可以允許仍在使用商務用 Skype Online 的其他外部使用者、商務用 Skype 內部部署或甚至 Skype 參與。
 
 在下列情況下, 請使用本文中的步驟:
   

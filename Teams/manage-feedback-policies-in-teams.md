@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何使用意見反應原則來控制貴組織中的小組使用者是否可以將團隊的意見反應提交給 Microsoft。
-ms.openlocfilehash: 148ba1dc19eecba4e447dd7049ae580c920a7bdf
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: a181b0af6527e154997ef611be19b08ea026ffa4
+ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242151"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "36715815"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>管理 Microsoft 團隊中的意見反應原則
 
@@ -49,7 +49,7 @@ ms.locfileid: "36242151"
 
 例如, 您想要允許貴組織中的所有使用者傳送意見反應, 在訓練中的新員工以外,**提供意見**反應並接收問卷。 在這種情況下, 您會建立自訂原則來關閉兩個功能, 並將它指派給新的招聘。 貴組織中的所有其他使用者都會在已開啟功能的情況下, 取得全域原則。  
 
-您使用**CsTeamsFeedbackPolicy** Cmdlet 來建立自訂原則, 以及**授與 CsTeamsFeedbackPolicy** Cmdlet, 以將它指派給一或多個使用者或使用者群組, 例如安全群組或通訊群組。
+您*可以在[這裡找到](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)***新的 CsTeamsFeedbackPolicy** Cmdlet, 以建立自訂原則和**授與 CsTeamsFeedbackPolicy** Cmdlet, 以將它指派給一或多個使用者或使用者群組 (例如安全性群組或通訊群組。
 
 若要關閉並開啟這些功能, 請設定下列參數:
 

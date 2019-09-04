@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: 瞭解如何在 Microsoft 團隊中管理資源帳戶
-ms.openlocfilehash: 0a53b68af411ad7085ef3abf6e978565f9ea18f0
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 95390586ce016972fc7d27eeeac0bfa48e106570
+ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483558"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "36715836"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>管理 Microsoft 團隊中的資源帳戶
 
@@ -145,7 +145,7 @@ ms.locfileid: "36483558"
 - **通話佇列:** 11cd3e2e-fccb-42ad-ad00-878b93575e07
 
 > [!NOTE]
-> 如果您想要讓通話佇列或自動語音應答能由內部部署使用者進行搜尋, 您應該在內部部署中建立資源帳戶, 因為線上資源帳戶不會同步處理到 Active Directory。
+> 如果您想要讓通話佇列或自動語音應答能由內部部署使用者來搜尋, 您應該在內部部署中建立資源帳戶, 因為線上資源帳戶不會同步處理到 Active Directory。
 
 1. 若要在線上建立與自動語音助理搭配使用的資源帳戶, 請使用下列命令。
 
