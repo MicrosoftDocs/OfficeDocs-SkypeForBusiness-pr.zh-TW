@@ -7,22 +7,22 @@ author: lanachin
 ms.author: v-lanac
 manager: serdars
 audience: admin
-ms.date: 03/29/2019
 ms.service: msteams
 ms.collection: Strat_MT_TeamsAdmin
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2dba49502056149b7dda3d4533f8186f074fd804
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: baa5e58ab8614db2d5e5c80a01dc594c31308c31
+ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36232236"
+ms.lasthandoff: 09/05/2019
+ms.locfileid: "36767163"
 ---
 # <a name="expand-microsoft-teams-across-your-organization"></a>在您的組織中展開 Microsoft 團隊
 
-<br>
+這些資源是在標準的小組部署指南中建立的，旨在協助您充分利用特定組織類型的小組。 如果您尚未部署團隊，請參閱建議的小組途徑，說明如何[推出 Microsoft 團隊](../How-to-roll-out-teams.md)。
+
 <ul class="panelContent cardsFTitle">
  <li>
         <a href="https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts-for-teams-landing-page">
