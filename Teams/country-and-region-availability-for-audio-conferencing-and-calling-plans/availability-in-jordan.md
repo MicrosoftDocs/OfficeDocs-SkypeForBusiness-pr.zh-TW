@@ -3,7 +3,7 @@ title: 約旦的可用性
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
 ms.assetid: b273afb4-94ef-4075-a24c-445c58ede933
 ms.tgt.pltfrm: cloud
@@ -25,16 +25,16 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是適用于商務用 Skype 和 Microsoft 團隊供約旦使用的 Office 365 服務。
-ms.openlocfilehash: 0ec12ec7dfb4529a43ec1ebe9d758b6a20609239
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: bd3da6716a4449722fadd1b227e96fbe3032cc1e
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "36183039"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775430"
 ---
 # <a name="availability-in-jordan"></a>約旦的可用性
 
-[尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), 或進一步瞭解音訊會議與通話方案的國家/地區可用性。
+[尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或進一步瞭解音訊會議與通話方案的國家/地區可用性。
 
 以下是適用于商務用 Skype 和 Microsoft 團隊供約旦使用的 Office 365 服務。
   
@@ -67,11 +67,11 @@ ms.locfileid: "36183039"
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
-|您可以在哪一或哪些主要城市取得付費電話號碼？  <br/> |不適用  <br/> |
-|是否有付費電話號碼？  <br/> |不  <br/> |
-|免費提供免付費電話號碼嗎？  <br/> |是的  <br/> |
+|您可以在哪一或哪些主要城市取得付費電話號碼？  <br/> |Amman （[根據要求](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)）  <br/> |
+|是否有付費電話號碼？  <br/> |是（[根據要求](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)）  <br/> |
+|免費提供免付費電話號碼嗎？  <br/> |不  <br/> |
    
- 如果您想要取得音訊會議、自動語音應答及通話佇列的付費和免付費電話號碼, 請參閱[取得商務用 Skype 和 Microsoft 團隊的服務電話號碼](/microsoftteams/getting-service-phone-numbers)。
+ 如果您想要取得音訊會議、自動語音應答及通話佇列的付費和免付費電話號碼，請參閱[取得商務用 Skype 和 Microsoft 團隊的服務電話號碼](/microsoftteams/getting-service-phone-numbers)。
   
 ## <a name="communications-credits"></a>通訊點數
 
@@ -79,7 +79,7 @@ ms.locfileid: "36183039"
 |:-----|:-----|
 |通訊點數提供了嗎？  <br/> |是的  <br/> |
    
-如果您想要設定, 請參閱[為您的組織設定通訊點數](../set-up-communications-credits-for-your-organization.md)。
+如果您想要設定，請參閱[為您的組織設定通訊點數](../set-up-communications-credits-for-your-organization.md)。
   
 ## <a name="related-topics"></a>相關主題
 

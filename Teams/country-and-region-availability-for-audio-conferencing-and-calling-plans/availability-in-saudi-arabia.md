@@ -3,7 +3,7 @@ title: 沙烏地阿拉伯的可用性
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
 ms.assetid: 54905c72-2214-47c7-8ac2-7a27597475c5
 ms.tgt.pltfrm: cloud
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是適用于商務用 Skype 和 Microsoft 團隊 (適用于沙烏地阿拉伯) 的 Office 365 服務。
-ms.openlocfilehash: f9c4e84669079baa801e9ed7193678e20a4157e0
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+description: 以下是適用于商務用 Skype 和 Microsoft 團隊（適用于沙烏地阿拉伯）的 Office 365 服務。
+ms.openlocfilehash: 87cbdcf35cf523a68f53b434a7d2d29a3945125f
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "36182892"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775463"
 ---
 # <a name="availability-in-saudi-arabia"></a>沙烏地阿拉伯的可用性
 
-[尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), 或進一步瞭解音訊會議與通話方案的國家/地區可用性。
+[尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或進一步瞭解音訊會議與通話方案的國家/地區可用性。
 
-以下是適用于商務用 Skype 和 Microsoft 團隊 (適用于沙烏地阿拉伯) 的 Office 365 服務。
+以下是適用于商務用 Skype 和 Microsoft 團隊（適用于沙烏地阿拉伯）的 Office 365 服務。
   
 ## <a name="audio-conferencing"></a>音訊會議
 
@@ -67,11 +67,11 @@ ms.locfileid: "36182892"
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
-|您可以在哪一或哪些主要城市取得付費電話號碼？  <br/> |不適用  <br/> |
-|是否有付費電話號碼？  <br/> |不  <br/> |
+|您可以在哪一或哪些主要城市取得付費電話號碼？  <br/> | 利雅德（[根據要求](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)） <br/> |
+|是否有付費電話號碼？  <br/> |是（[根據要求](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)）  <br/> |
 |免費提供免付費電話號碼嗎？  <br/> |是的  <br/> |
    
- 如果您想要取得音訊會議、自動語音應答及通話佇列的付費和免付費電話號碼, 請參閱[取得商務用 Skype 和 Microsoft 團隊的服務電話號碼](/microsoftteams/getting-service-phone-numbers)。
+ 如果您想要取得音訊會議、自動語音應答及通話佇列的付費和免付費電話號碼，請參閱[取得商務用 Skype 和 Microsoft 團隊的服務電話號碼](/microsoftteams/getting-service-phone-numbers)。
   
 ## <a name="communications-credits"></a>通訊點數
 
@@ -79,7 +79,7 @@ ms.locfileid: "36182892"
 |:-----|:-----|
 |通訊點數提供了嗎？  <br/> |不  <br/> |
    
-如果您想要設定, 請參閱[為您的組織設定通訊點數](../set-up-communications-credits-for-your-organization.md)。
+如果您想要設定，請參閱[為您的組織設定通訊點數](../set-up-communications-credits-for-your-organization.md)。
   
 ## <a name="related-topics"></a>相關主題
 

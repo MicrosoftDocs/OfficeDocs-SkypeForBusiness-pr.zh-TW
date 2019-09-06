@@ -4,26 +4,26 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a66067d2-22b0-48f1-a5d0-e0cd0ece2e5a
-description: 請閱讀本主題, 找出提供 Skype 室系統帳戶的範例腳本。
-ms.openlocfilehash: 7c462dea9f1a885fbf8a4fb4f6aeee4ca4f8c3d3
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 請閱讀本主題，找出提供 Skype 室系統帳戶的範例腳本。
+ms.openlocfilehash: 77aa3a621cbc1220b71782f2067c8923cad31e5f
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235022"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775342"
 ---
 # <a name="skype-room-system-room-setup-scripts"></a>Skype 會議室系統房間設定腳本
  
-請閱讀本主題, 找出提供 Skype 室系統帳戶的範例腳本。
+請閱讀本主題，找出提供 Skype 室系統帳戶的範例腳本。
   
-本節說明可用於提供 Skype 室系統帳戶的範例腳本。 這些腳本只是為了說明目的, 只在諮詢 IT 專家或網域管理員之後才會使用。
+本節說明可用於提供 Skype 室系統帳戶的範例腳本。 這些腳本只是為了說明目的，只在諮詢 IT 專家或網域管理員之後才會使用。
   
-## <a name="example-setup-script-skype-for-business-and-exchange-server-on-premises"></a>範例設定腳本: 商務用 Skype 與 Exchange Server (內部部署)
+## <a name="example-setup-script-skype-for-business-and-exchange-server-on-premises"></a>範例設定腳本：商務用 Skype 與 Exchange Server （內部部署）
 
 ```
 # On Exchange 
@@ -37,13 +37,13 @@ Set-ADAccountPassword -Identity "conference room"# Paste the next command on its
 Set-CsMeetingRoom -Identity "conference room" -LineURI "tel:+14255551669;ext=1669" -EnterpriseVoiceEnabled $true
 ```
 
-## <a name="example-setup-script-skype-for-business-and-exchange-server-online"></a>範例設定腳本: 商務用 Skype 與 Exchange Server Online
+## <a name="example-setup-script-skype-for-business-and-exchange-server-online"></a>範例設定腳本：商務用 Skype 與 Exchange Server Online
 
-在執行腳本前, 請確定您已複習下列先決條件:
+在執行腳本前，請確定您已複習下列先決條件：
   
 - 適用于 IT 專業人員的 Microsoft Online Services 登入小幫手
     
-- 適用于 Windows PowerShell 的 windows Azure Active Directory 模組 (64 位版本) 或 (32 位版本)
+- 適用于 Windows PowerShell 的 windows Azure Active Directory 模組（64位版本）或（32位版本）
     
 - Lync Online 的 Windows PowerShell 模組
     

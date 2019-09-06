@@ -3,7 +3,7 @@ title: 在印尼提供的可用性
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
 ms.assetid: 98fef414-b8e1-4032-b07b-63ec52fb3f26
 ms.tgt.pltfrm: cloud
@@ -25,16 +25,16 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是適用于 windows 版商務用 Skype 和 Microsoft 團隊提供的 Office 365 服務。
-ms.openlocfilehash: 8b0bd4f5a1ffc0a7f76c954677e14d9315a1fbe8
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 027f8c9c70ef97665584f80714befe0a39899df5
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "36183051"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36774425"
 ---
 # <a name="availability-in-indonesia"></a>在印尼提供的可用性
 
-[尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), 或進一步瞭解音訊會議與通話方案的國家/地區可用性。
+[尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或進一步瞭解音訊會議與通話方案的國家/地區可用性。
 
 以下是適用于 windows 版商務用 Skype 和 Microsoft 團隊提供的 Office 365 服務。
   
@@ -67,11 +67,11 @@ ms.locfileid: "36183051"
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
-|您可以在哪一或哪些主要城市取得付費電話號碼？  <br/> |不適用  <br/> |
+|您可以在哪一或哪些主要城市取得付費電話號碼？  <br/> |雅加達（[根據要求](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)） <br/> |
 |是否有付費電話號碼？  <br/> |不  <br/> |
 |免費提供免付費電話號碼嗎？  <br/> |是的  <br/> |
    
- 如果您想要取得音訊會議、自動語音應答及通話佇列的付費和免付費電話號碼, 請參閱[取得商務用 Skype 和 Microsoft 團隊的服務電話號碼](/microsoftteams/getting-service-phone-numbers)。
+ 如果您想要取得音訊會議、自動語音應答及通話佇列的付費和免付費電話號碼，請參閱[取得商務用 Skype 和 Microsoft 團隊的服務電話號碼](/microsoftteams/getting-service-phone-numbers)。
   
 ## <a name="communications-credits"></a>通訊點數
 
@@ -79,7 +79,7 @@ ms.locfileid: "36183051"
 |:-----|:-----|
 |通訊點數提供了嗎？  <br/> |是的  <br/> |
    
-如果您想要設定, 請參閱[為您的組織設定通訊點數](../set-up-communications-credits-for-your-organization.md)。
+如果您想要設定，請參閱[為您的組織設定通訊點數](../set-up-communications-credits-for-your-organization.md)。
   
 ## <a name="related-topics"></a>相關主題
 

@@ -2,7 +2,7 @@
 title: Microsoft 團隊會議室需求
 ms.author: v-lanac
 author: lanachin
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -11,48 +11,48 @@ localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection: M365-voice
 description: 本文將摘要說明支援 Microsoft 團隊聊天室的需求。
-ms.openlocfilehash: ee2f60fbf638613eb296bc24b1bebd1dfc66553a
-ms.sourcegitcommit: 26b3d786da07fde20878b0f4a1656070fe01d918
+ms.openlocfilehash: 4a92ba051564800dace5eafec8e573d807c11d04
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/28/2019
-ms.locfileid: "36645267"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775169"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft 團隊會議室需求
 
 本文將摘要說明支援 Microsoft 團隊聊天室的需求。
 
-您的部署涉及帳戶建立, 如[部署 Microsoft 團隊聊天室](room-systems-v2.md)及設定會議主控台中所述, 請參閱設定[microsoft 團隊聊天室主控台](console.md)中所述。
+您的部署涉及帳戶建立，如[部署 Microsoft 團隊聊天室](room-systems-v2.md)及設定會議主控台中所述，請參閱設定[microsoft 團隊聊天室主控台](console.md)中所述。
 
-另請參閱:
+另請參閱：
 
 - [商務用 Skype 附加元件授權](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
-- [以您的方案為基礎的授權選項: Microsoft 球隊會議室](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
+- [以您的方案為基礎的授權選項： Microsoft 球隊會議室](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
 
 > [!NOTE]
 > Microsoft [團隊聊天室] 適用于 Microsoft 團隊、商務用 Skype Server 2019、商務用 Skype Server 2015 或商務用 Skype Online。
 >
-> 較舊的平臺 (例如 Lync Server 2013) 不應與 Microsoft 團隊聊天室搭配使用。
+> 較舊的平臺（例如 Lync Server 2013）不應與 Microsoft 團隊聊天室搭配使用。
 >
-> 如果您有內部部署 Exchange 伺服器, Microsoft 團隊聊天室需要使用 Exchange Server 2013 SP1 或更新版本。
+> 如果您有內部部署 Exchange 伺服器，Microsoft 團隊聊天室需要使用 Exchange Server 2013 SP1 或更新版本。
 
 ## <a name="hardware-requirements"></a>硬體需求
 
-Microsoft 團隊聊天室會透過不同的音訊和視頻外設, 透過附件調整成不同的房間大小。 本文中所列的硬體支援 Skype 與團隊會議模式。 音訊及視頻外設會透過塢站裝置上的 USB 或 HDMI 連接, 連線至 Microsoft 團隊聊天室。 您也需要:
+Microsoft 團隊聊天室會透過不同的音訊和視頻外設，透過附件調整成不同的房間大小。 本文中所列的硬體支援 Skype 與團隊會議模式。 音訊及視頻外設會透過塢站裝置上的 USB 或 HDMI 連接，連線至 Microsoft 團隊聊天室。 您也需要：
 
-- 一個 32 GB 或更大的 USB 磁片, 您可以將其設定為 Windows 10 企業版的可引導 Windows 安裝媒體。
+- 一個 32 GB 或更大的 USB 磁片，您可以將其設定為 Windows 10 企業版的可引導 Windows 安裝媒體。
 
-- 下列平板電腦或主控台之一:
+- 下列平板電腦或主控台之一：
 
 **支援的平板電腦**
 
 |平板電腦|處理器類型|RAM|光碟|
 |:-----|:-----|:-----|:-----|
 |Surface Pro 6| 核心 i5 |16 GB 或 8 GB |128 GB 以上 |
-|Surface Pro (第5代) |核心 i5 |8 GB 或 4 GB |128 GB 以上 |
+|Surface Pro （第5代） |核心 i5 |8 GB 或 4 GB |128 GB 以上 |
 |Surface Pro 4 |核心 i5 |8 GB 或 4 GB |128 GB 以上 |
 
-- 下列其中一個對接站選項, 可將平板電腦固定在會議室表格。
+- 下列其中一個對接站選項，可將平板電腦固定在會議室表格。
 
   - [Logitech SmartDock](https://www.logitech.com/product/smartdock)
 
@@ -109,38 +109,38 @@ Microsoft 團隊聊天室會透過不同的音訊和視頻外設, 透過附件�
 |[Yamaha YVC-1000](http://www.yamaha.com/products/en/communication/usb_conference_speakerphones/yvc-1000/)   |100c   |
 | |  | |
 
-- **USB 延伸**程式:
+- **USB 延伸**程式：
 
-  - 平板電腦上的 USB 埠會相容 USB 3.0。 您可以使用 USB x.x.x.x 擴展器, 但這會限制您在最高端的 USB 2 a.x 速度, 且不建議 USB 3.0 外設執行此操作。
+  - 平板電腦上的 USB 埠會相容 USB 3.0。 您可以使用 USB x.x.x.x 擴展器，但這會限制您在最高端的 USB 2 a.x 速度，且不建議 USB 3.0 外設執行此操作。
 
   - 擴展程式必須符合 USB 2.0 或更新的規格。
 
-  - 平板電腦停靠支援至少兩個外部 USB 中樞延伸的階段。 如果您需要連接數列中的兩個以上的 USB 集線器, 請向 dock 製造商確認是否支援這項功能。
+  - 平板電腦停靠支援至少兩個外部 USB 中樞延伸的階段。 如果您需要連接數列中的兩個以上的 USB 集線器，請向 dock 製造商確認是否支援這項功能。
 
 - 會議室中的有線 GbE 連接。 適當長度的乙太網纜線。
 
 - 最多 2 1080-p 顯示器與 HDMI 連線。 適當長度的 HDMI 纜線。
 
 > [!NOTE]
-> 用來做為會議室顯示的消費者電視需要支援/啟用 HDMI 的消費電子產品控制 (CEC) 功能, 讓它能從待機模式自動切換到作用中的影片來源。 並非所有電視都支援這項功能。
+> 用來做為會議室顯示的消費者電視需要支援/啟用 HDMI 的消費電子產品控制（CEC）功能，讓它能從待機模式自動切換到作用中的影片來源。 並非所有電視都支援這項功能。
 
 > [!NOTE]
-> Microsoft 團隊會議室不使用鍵盤。 如有需要, 系統管理員應該使用螢幕小鍵盤。 當您將 Microsoft 團隊聊天室裝置進行影像處理時, 將需要 USB 鍵盤或滑鼠。
+> Microsoft 團隊會議室不使用鍵盤。 如有需要，系統管理員應該使用螢幕小鍵盤。 當您將 Microsoft 團隊聊天室裝置進行影像處理時，將需要 USB 鍵盤或滑鼠。
 
-下表根據房間大小提供針對週邊設備的建議:
+下表根據房間大小提供針對週邊設備的建議：
 
 **Microsoft 團隊聊天室認證的音訊外設**
 
-|會議室類型|人數|建議從麥克風到喇叭的最大距離|裝置 (依最大房間大小)|批註|
+|會議室類型|人數|建議從麥克風到喇叭的最大距離|裝置（依最大房間大小）|批註|
 |:-----|:-----|:-----|:-----|:-----|
-|**處理** <br/> 10 "x 9"   |2–4  |1.5 m  |Logitech Connect  |Logitech 連接裝置包含相機, 所以它必須放在會議室的前方 (不是表格中央), 才能捕獲當地會議出席者。  |
+|**處理** <br/> 10 "x 9"   |2–4  |1.5 m  |Logitech Connect  |Logitech 連接裝置包含相機，所以它必須放在會議室的前方（不是表格中央），才能捕獲當地會議出席者。  |
 |**小規模** <br/> 16 "x 16"  |4至6  |2.0 m  |Jabra 510 <br/> Sennheiser SP20  |播放音量可能受限於較大的會議室。  |
-|**深淺** <br/> 18 "x 20"  |6到12  |2.4 m  |Jabra 710 <br/> Jabra 810 <br/> Logitech 頻道 <br/> Logitech 群組 <br/> Polycom 組 <br/> Polycom CX5100 <br/> Sennheiser SP 220 MS <br/> Yamaha YVC-1000MS  |Logitech 頻道包含相機, 所以它必須放在會議室正面 (不是表格中央即可捕獲當地會議出席者)。 <br/> 一般來說, 具有長矩形或 u 狀表格的房間, 可能會從衛星麥克風獲益。 <br/> 您必須在菊輪鍊式配置中使用 SP 220 MS。  |
-|**大中型** <br/> 15 "x 32"  |12–16  |3 m <br/> 這個距離也適用于每個連接至音訊裝置的附屬麥克風所覆蓋的區域。  |Logitech 群組 + 附屬 mics <br/> Polycom 組 + 附屬 mics <br/> Polycom CX5100 + 附屬 mics <br/> Sennheiser SP 220 MS <br/> Yamaha YVC-1000MS + 衛星 mics  |此列中所列的所有音訊裝置都支援衛星麥克風選項。 <br/> CX5100 包含內建的360度相機, 可將裝置放在表格的中央。 <br/> 您必須在菊輪鍊式配置中使用 SP 220 MS。  |
+|**深淺** <br/> 18 "x 20"  |6到12  |2.4 m  |Jabra 710 <br/> Jabra 810 <br/> Logitech 頻道 <br/> Logitech 群組 <br/> Polycom 組 <br/> Polycom CX5100 <br/> Sennheiser SP 220 MS <br/> Yamaha YVC-1000MS  |Logitech 頻道包含相機，所以它必須放在會議室正面（不是表格中央即可捕獲當地會議出席者）。 <br/> 一般來說，具有長矩形或 u 狀表格的房間，可能會從衛星麥克風獲益。 <br/> 您必須在菊輪鍊式配置中使用 SP 220 MS。  |
+|**大中型** <br/> 15 "x 32"  |12–16  |3 m <br/> 這個距離也適用于每個連接至音訊裝置的附屬麥克風所覆蓋的區域。  |Logitech 群組 + 附屬 mics <br/> Polycom 組 + 附屬 mics <br/> Polycom CX5100 + 附屬 mics <br/> Sennheiser SP 220 MS <br/> Yamaha YVC-1000MS + 衛星 mics  |此列中所列的所有音訊裝置都支援衛星麥克風選項。 <br/> CX5100 包含內建的360度相機，可將裝置放在表格的中央。 <br/> 您必須在菊輪鍊式配置中使用 SP 220 MS。  |
 
 **Microsoft 團隊聊天室認證的視頻外設**
 
-|會議室類型|人數|裝置 (依最佳房間大小)|批註|
+|會議室類型|人數|裝置（依最佳房間大小）|批註|
 |:-----|:-----|:-----|:-----|
 |**處理** <br/> 10 "x 9"  |2–4  |Logitech Connect <br/> Logitech 頻道 <br/> Polycom CX5100  ||
 |**小規模** <br/> 16 "x 16"  |4至6  |Logitech C930e <br/> Logitech 頻道 <br/> Logitech BRIO <br/> Logitech PTZ Pro <br/> Polycom MSR <br/> Polycom CX5100  |Logitech PTZ Pro 通常與 Logitech 群組捆綁  |
@@ -152,10 +152,10 @@ Microsoft 團隊聊天室會透過不同的音訊和視頻外設, 透過附件�
 
 ## <a name="required-software-downloads"></a>所需的軟體下載
 
-若要建立您自己的 Microsoft 團隊聊天室圖像, 請依照[設定 Microsoft 團隊聊天室主控台](console.md)中的指示進行。 這些指示會引導您完成安裝程式所需的所有必要軟體。
+若要建立您自己的 Microsoft 團隊聊天室圖像，請依照[設定 Microsoft 團隊聊天室主控台](console.md)中的指示進行。 這些指示會引導您完成安裝程式所需的所有必要軟體。
 
 > [!NOTE]
-> IT 專業人員必須透過大量授權協定, 才能存取 Windows 10 企業版 ISO 檔案。
+> IT 專業人員必須透過大量授權協定，才能存取 Windows 10 企業版 ISO 檔案。
 
 [SkypeRoomProvisioningScript](https://go.microsoft.com/fwlink/?linkid=870105)是可供您用來預配 Microsoft 團隊聊天室帳戶的選擇性下載。
 
