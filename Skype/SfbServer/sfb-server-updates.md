@@ -1,7 +1,7 @@
 ---
 title: 商務用 Skype Server 更新
-author: lanachin
-ms.author: v-lanac
+author: ariantor
+ms.author: arianr
 manager: serdars
 audience: ITPro
 ms.reviewer: arianr
@@ -10,19 +10,19 @@ ms.prod: skype-for-business-server
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
-description: 在單一位置尋找及管理商務用 Skype Server 2015/2019 和 Lync 2013 的更新。 使用此頁面上的連結, 取得更新的詳細資訊, 然後下載更新。
-ms.openlocfilehash: d0349434785b7acf79cba7bb577cb5ba0b43482a
-ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
+description: 在單一位置尋找及管理商務用 Skype Server 2015/2019 和 Lync 2013 的更新。 使用此頁面上的連結，取得更新的詳細資訊，然後下載更新。
+ms.openlocfilehash: 860b71070fea50072ebd8db2f1eded204396261d
+ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "36715886"
+ms.lasthandoff: 09/05/2019
+ms.locfileid: "36767172"
 ---
 # <a name="skype-for-business-server-updates"></a>商務用 Skype Server 更新
 
-在單一位置尋找及管理[商務用 Skype server 2019](#skype-for-business-server-2019-update-history)、[商務用 skype server 2015](#skype-for-business-server-2015-update-history)、 [Lync server 2013](#lync-server-2013-update-history)和[lync server 2010](#lync-server-2010-update-history)的更新。 使用此頁面上的連結, 取得更新的詳細資訊, 然後下載更新。
+在單一位置尋找及管理[商務用 Skype server 2019](#skype-for-business-server-2019-update-history)、[商務用 skype server 2015](#skype-for-business-server-2015-update-history)、 [Lync server 2013](#lync-server-2013-update-history)和[lync server 2010](#lync-server-2010-update-history)的更新。 使用此頁面上的連結，取得更新的詳細資訊，然後下載更新。
 
-如需最新的商務用 Skype Online 和 Office 365 更新, 請參閱[Microsoft 365 藍圖](https://go.microsoft.com/fwlink/p/?linkid=529454)。
+如需最新的商務用 Skype Online 和 Office 365 更新，請參閱[Microsoft 365 藍圖](https://go.microsoft.com/fwlink/p/?linkid=529454)。
 
 ## <a name="skype-for-business-server-2019-update-history"></a>商務用 Skype Server 2019 更新歷程記錄
 
@@ -37,10 +37,10 @@ ms.locfileid: "36715886"
 
 |套件名稱|KB 數|發行日期|
 |:--- |:--- |:--- |
-|商務用 Skype Server 2015 累計更新10修復程式1|[KB 4470124](https://support.microsoft.com/kb/4470124)| 2019年9月 |
-|商務用 Skype Server 2015 (網頁元件伺服器) 的累積更新9|[KB 4487981](https://support.microsoft.com/kb/4487981)| 2019年5月 |
+|商務用 Skype Server 2015 累計更新10修復程式1|[KB 3061064](https://support.microsoft.com/kb/3061064)| 2019年9月 |
+|商務用 Skype Server 2015 （網頁元件伺服器）的累積更新9|[KB 4487981](https://support.microsoft.com/kb/4487981)| 2019年5月 |
 |商務用 Skype Server 2015、前端伺服器和 Edge 伺服器的累加更新8|[KB 4464355](https://support.microsoft.com/kb/4464355)|2019年1月|
-|商務用 Skype Server 2015、前端伺服器和 Edge 伺服器的累積更新7 |[KB 4340904](https://support.microsoft.com/kb/3134260) |2018年7月 |
+|商務用 Skype Server 2015、前端伺服器和 Edge 伺服器的累積更新7 |[KB 4340904](https://support.microsoft.com/kb/4340904) |2018年7月 |
 |商務用 Skype Server 2015、前端伺服器和 Edge 伺服器的累積更新6修復程式2 |[KB 4086059](https://support.microsoft.com/kb/4086059) |2018年3月 |
 |商務用 Skype Server 2015、前端伺服器和 Edge 伺服器的累積更新6修復程式1 |[KB 4074701](https://support.microsoft.com/kb/4074701)|2018年1月 |
 |商務用 Skype Server 2015、前端伺服器和 Edge 伺服器的累積更新6|[KB 4036312](https://support.microsoft.com/kb/4036312) |2017年12月 |
@@ -50,7 +50,7 @@ ms.locfileid: "36715886"
 |商務用 Skype Server 2015、前端伺服器和 Edge 伺服器的累積更新3 |[KB 3149227](https://support.microsoft.com/kb/3149227) |2016年6月 |
 |商務用 Skype Server 2015、前端伺服器與邊緣伺服器的累積更新2 |[KB 3134260](https://support.microsoft.com/kb/3134260) |2016年3月 |
 |商務用 Skype Server 2015、前端伺服器與邊緣伺服器的累積更新1 |[KB 3097645](https://support.microsoft.com/kb/3097645) |2015年11月 |
-|商務用 Skype Server 2015 (核心元件) 的累積更新 |[KB 3098601](https://support.microsoft.com/kb/3098601) |2015年9月 |
+|商務用 Skype Server 2015 （核心元件）的累積更新 |[KB 3098601](https://support.microsoft.com/kb/3098601) |2015年9月 |
 |商務用 Skype Server 2015、前端伺服器與邊緣伺服器的累積更新|[KB 3061059](https://support.microsoft.com/kb/3061059) |2015年6月 |
 ||||
 
@@ -104,20 +104,20 @@ ms.locfileid: "36715886"
 
 #### <a name="pre-configured-vhds"></a>預先設定的 Vhd
 
-完整的拓撲包含7個虛擬電腦, 可讓您完整評估 Microsoft Lync 2013、Microsoft Exchange 2013、SharePoint 2013 和 UC 開發人員平臺 Api (包括 Microsoft Lync 2013 SDK、Exchange Web 服務管理的 API 2.0)。Microsoft Lync Server 2013 SDK, 以及 Microsoft 整合通訊管理 API 4.0)。
+完整的拓撲包含7個虛擬電腦，可讓您完整評估 Microsoft Lync 2013、Microsoft Exchange 2013、SharePoint 2013 和 UC 開發人員平臺 Api （包括 Microsoft Lync 2013 SDK、Exchange Web 服務管理的 API 2.0）。Microsoft Lync Server 2013 SDK，以及 Microsoft 整合通訊管理 API 4.0）。
 
 套件名稱/連結|發行日期|
 |:--- |:--- |
-|[測試磁片磁碟機-Lync Server 2013-第1部分 (共3部分)](https://www.microsoft.com/en-us/download/details.aspx?id=40266) |2013年9月 |
-|[測試磁片磁碟機-Lync Server 2013-第2部分 (共3部分)](https://www.microsoft.com/en-us/download/details.aspx?id=40267) |2013年9月 |
+|[測試磁片磁碟機-Lync Server 2013-第1部分（共3部分）](https://www.microsoft.com/en-us/download/details.aspx?id=40266) |2013年9月 |
+|[測試磁片磁碟機-Lync Server 2013-第2部分（共3部分）](https://www.microsoft.com/en-us/download/details.aspx?id=40267) |2013年9月 |
 |[測試磁片磁碟機-Lync Server 2013-3 的第3部分](https://www.microsoft.com/en-us/download/details.aspx?id=40265) |2013年9月 |
 
 ### <a name="lync-2013-tools"></a>Lync 2013 工具
 
 |套件名稱/連結|發行日期|
 |:--- |:--- |
-|[已停用 Lync 連線分析程式 (32 位)](https://blogs.technet.microsoft.com/nexthop/2017/06/13/retirement-of-the-lync-connectivity-analyzer-tool/) |2017年6月 |
-|[已停用 Lync 連線分析程式 (64 位)](https://blogs.technet.microsoft.com/nexthop/2017/06/13/retirement-of-the-lync-connectivity-analyzer-tool/) |2017年6月 |
+|[已停用 Lync 連線分析程式（32位）](https://blogs.technet.microsoft.com/nexthop/2017/06/13/retirement-of-the-lync-connectivity-analyzer-tool/) |2017年6月 |
+|[已停用 Lync 連線分析程式（64位）](https://blogs.technet.microsoft.com/nexthop/2017/06/13/retirement-of-the-lync-connectivity-analyzer-tool/) |2017年6月 |
 |[Lync Server 2013 最佳做法分析程式](https://www.microsoft.com/en-us/download/details.aspx?id=35455) |2012年10月 |
 |[Lync Server 2013 容量計算機](https://www.microsoft.com/en-us/download/details.aspx?id=36828) |2013年7月 |
 |[Lync Server 2013 調試工具](https://www.microsoft.com/en-us/download/details.aspx?id=35453) |2014年1月 |
@@ -127,8 +127,8 @@ ms.locfileid: "36715886"
 |[Lync Server 2013 資源套件工具](https://www.microsoft.com/en-us/download/details.aspx?id=36821) |2014年1月 |
 |[Lync Server 2013 應力與效能工具](https://www.microsoft.com/en-us/download/details.aspx?id=36819) |2013年3月 |
 |[Lync Server 2013 白板存檔檢視器](https://www.microsoft.com/en-us/download/details.aspx?id=36822) |2013年2月 |
-|[Lync VDI 2013 外掛程式 (32 位)](https://www.microsoft.com/en-us/download/details.aspx?id=35457) |2012年10月 |
-|[Lync VDI 2013 外掛程式 (64 位)](https://www.microsoft.com/en-us/download/details.aspx?id=35454) |2012年10月 |
+|[Lync VDI 2013 外掛程式（32位）](https://www.microsoft.com/en-us/download/details.aspx?id=35457) |2012年10月 |
+|[Lync VDI 2013 外掛程式（64位）](https://www.microsoft.com/en-us/download/details.aspx?id=35454) |2012年10月 |
 |[新的 Office Visio 樣板](https://www.microsoft.com/en-us/download/details.aspx?id=35772) |2016年7月 |
 
 ### <a name="lync-2013-downloadable-documentation"></a>Lync 2013 可下載的檔
@@ -168,9 +168,9 @@ ms.locfileid: "36715886"
 
 |套件名稱|KB 數|發行日期|
 |:--- |:--- |:--- |
-|Lync Server 2010 的累積更新, 群組聊天 |[KB 2884623](https://support.microsoft.com/kb/2884623) |2013年10月|
-|Lync Server 2010 的累積更新, 群組聊天管理工具 |[KB 2884631](https://support.microsoft.com/kb/2884631) |2013年10月|
-|Lync 2010 的累積更新, 群組聊天 |[KB 2884627](https://support.microsoft.com/kb/2884627) |2013年10月|
+|Lync Server 2010 的累積更新，群組聊天 |[KB 2884623](https://support.microsoft.com/kb/2884623) |2013年10月|
+|Lync Server 2010 的累積更新，群組聊天管理工具 |[KB 2884631](https://support.microsoft.com/kb/2884631) |2013年10月|
+|Lync 2010 的累積更新，群組聊天 |[KB 2884627](https://support.microsoft.com/kb/2884627) |2013年10月|
 
 ### <a name="lync-2010-dev-tools"></a>Lync 2010 開發工具
 
@@ -180,14 +180,14 @@ ms.locfileid: "36715886"
 |[Lync 2010 SDK](https://www.microsoft.com/download/en/details.aspx?id=18898)|2011年3月 |
 |[Lync Server 2010 群組聊天 SDK](https://www.microsoft.com/download/en/details.aspx?id=23647)|2012年6月 |
 |[整合通訊管理 API 3.0 SDK](https://www.microsoft.com/download/en/details.aspx?id=10566)|2016年5月 |
-|[語音平臺-伺服器執行時間語言 (版本 10.2)](https://www.microsoft.com/download/en/details.aspx?id=21924)|2010年9月 |
+|[語音平臺-伺服器執行時間語言（版本10.2）](https://www.microsoft.com/download/en/details.aspx?id=21924)|2010年9月 |
 |[整合通訊針對 Microsoft Lync Server 2010 增強的目前狀態架構](https://www.microsoft.com/download/en/details.aspx?id=7358)|2010年11月 |
 
 ### <a name="lync-2010-tools"></a>Lync 2010 工具
 
 |套件名稱/連結|發行日期|
 |:--- |:--- |
-|[Microsoft Lync Server 2010 專家 (IM)](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=01fd2b2b-d780-4d6f-8e1e-54b2ad718f2b&displaylang=en)|2012年3月 |
+|[Microsoft Lync Server 2010 專家（IM）](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=01fd2b2b-d780-4d6f-8e1e-54b2ad718f2b&displaylang=en)|2012年3月 |
 |[Lync Server 2010 最佳做法分析程式](https://www.microsoft.com/downloads/details.aspx?FamilyID=030548DF-0DC7-4F86-B8A9-2F5EC8DE8BA5)|2011年2月 |
 |[Lync Server 2010 容量計算機](https://www.microsoft.com/downloads/details.aspx?FamilyID=6E8342A7-3238-4F37-9F95-7B056525DC1A)|2012年2月 |
 |[Lync Server 2010 規劃工具](https://www.microsoft.com/download/en/details.aspx?id=19711)|2011年2月 |
@@ -202,15 +202,15 @@ ms.locfileid: "36715886"
 |:--- |:--- |
 |[Lync Server 2010 檔說明檔案](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=9720c3f1-ddd4-426b-b98a-f1205561ce00)|2012年3月 |
 |[Lync Server 2010 歡迎頁面](https://technet.microsoft.com/library/gg398616(v=ocs.14).aspx)|2012年10月 |
-|[IM 專家 (適用于 Microsoft Lync Server 2010 檔)](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=8E4546AA-9B24-435D-9043-A2181B4E6D06&displaylang=en)|2012年3月 |
-|[Lync 2010 版本資訊](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=d76f8027-d97f-4336-adbc-7979c2b069b3).aspx)|2011年1月 |
+|[IM 專家（適用于 Microsoft Lync Server 2010 檔）](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=8E4546AA-9B24-435D-9043-A2181B4E6D06&displaylang=en)|2012年3月 |
+|[Lync 2010 版本資訊](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=d76f8027-d97f-4336-adbc-7979c2b069b3).aspx）|2011年1月 |
 |[Lync Server 2010 版本資訊](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=782975c4-8610-46b6-9fc4-d1d30de7c76d)|2011年1月 |
 |[Lync Server 2010 規劃工具讀我檔案](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=c8ba3275-270f-4c0b-90bb-edc1d1216c2d)|2011年1月 |
 |[Lync Server 2010 Edge 伺服器參考架構圖表](https://www.microsoft.com/en-us/download/details.aspx?id=13791)|2011年3月 |
 
-### <a name="resource-kit-technical-reference"></a>資源套件 (技術參考)
+### <a name="resource-kit-technical-reference"></a>資源套件（技術參考）
 
-請造訪[Microsoft Lync Server 2010 資源套件](https://www.microsoft.com/download/en/details.aspx?id=22644)下載網站, 個別下載書籍章節, 或下載包含[資源套件所有19個章節的](https://download.microsoft.com/download/9/4/E/94ED1EF4-A2EF-4686-9841-B0390072D524/Microsoft_Lync_Server_2010_Resource_Kit_Chapters.zip).zip 檔案。
+請造訪[Microsoft Lync Server 2010 資源套件](https://www.microsoft.com/download/en/details.aspx?id=22644)下載網站，個別下載書籍章節，或下載包含[資源套件所有19個章節的](https://download.microsoft.com/download/9/4/E/94ED1EF4-A2EF-4686-9841-B0390072D524/Microsoft_Lync_Server_2010_Resource_Kit_Chapters.zip).zip 檔案。
 
 ### <a name="group-chat"></a>群組聊天
 
@@ -224,17 +224,17 @@ ms.locfileid: "36715886"
 
 套件名稱/連結|發行日期|
 |:--- |:--- |
-|[VHD 測試磁片磁碟機-Lync Server 2010 (Eval)-2 的第1部分](https://www.microsoft.com/en-us/download/details.aspx?id=26217) |2012年9月 |
-|[VHD 測試磁片磁碟機-Lync Server 2010 (Eval)-2 的第2部分](https://www.microsoft.com/en-us/download/details.aspx?id=34602) |2012年9月 |
+|[VHD 測試磁片磁碟機-Lync Server 2010 （Eval）-2 的第1部分](https://www.microsoft.com/en-us/download/details.aspx?id=26217) |2012年9月 |
+|[VHD 測試磁片磁碟機-Lync Server 2010 （Eval）-2 的第2部分](https://www.microsoft.com/en-us/download/details.aspx?id=34602) |2012年9月 |
 
 * * *
 
 ## <a name="additional-information"></a>其他資訊
 
-軟體更新包括任何更新、更新彙總套件、service pack、功能套件、重要更新、安全性更新或修補程式。 請參閱[KB 824684](https://support.microsoft.com/kb/824684) , 以取得描述 Microsoft 軟體更新之標準術語的描述。
+軟體更新包括任何更新、更新彙總套件、service pack、功能套件、重要更新、安全性更新或修補程式。 請參閱[KB 824684](https://support.microsoft.com/kb/824684) ，以取得描述 Microsoft 軟體更新之標準術語的描述。
 
 ## <a name="related-topics"></a>相關主題
 
 - [安裝商務用 Skype Server 2015](https://docs.microsoft.com/SkypeForBusiness/deploy/install/install)
 - [升級至商務用 Skype Server 2015](https://docs.microsoft.com/SkypeForBusiness/deploy/upgrade-to-skype-for-business-server)
-- [使用 Windows Installer (MSI) 之商務用 Skype 的最新版本更新](sfb-client-updates.md)
+- [使用 Windows Installer （MSI）之商務用 Skype 的最新版本更新](sfb-client-updates.md)

@@ -7,22 +7,21 @@ author: lanachin
 ms.author: v-lanac
 manager: serdars
 audience: admin
-ms.date: 03/01/2019
 ms.service: msteams
 ms.collection: Strat_MT_TeamsAdmin
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 461e3113be6965044d2f60c0a6a59b658a191626
-ms.sourcegitcommit: 8a8c71aea5bd2420b110619607ef0715136578ab
+ms.openlocfilehash: 432c9db8e99375ff373755c172bdfa37e4dd65c1
+ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/10/2019
-ms.locfileid: "36286209"
+ms.lasthandoff: 09/05/2019
+ms.locfileid: "36767065"
 ---
 # <a name="teams-for-government"></a>政府團隊
 
-使用這些資源來規劃和部署 Microsoft 365 政府環境中的團隊。
+使用這些資源來瞭解在 Microsoft 365 政府環境中部署團隊的特定考慮。 當您準備好時，請針對小組使用相同的部署路徑，如[如何推出 Microsoft 團隊](../How-to-roll-out-teams.md)中所述。
 
 <ul class="panelContent cardsFTitle">
     <li>
