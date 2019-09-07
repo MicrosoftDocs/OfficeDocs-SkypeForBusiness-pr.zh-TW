@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: 在單一位置尋找及管理商務用 Skype Server 2015/2019 和 Lync 2013 的更新。 使用此頁面上的連結，取得更新的詳細資訊，然後下載更新。
-ms.openlocfilehash: 860b71070fea50072ebd8db2f1eded204396261d
-ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
+ms.openlocfilehash: 25869f25f02c51d952d7eba1c162852d3868d71d
+ms.sourcegitcommit: ee6fca44a611acaa8234563c546a3f841bba6e1a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/05/2019
-ms.locfileid: "36767172"
+ms.lasthandoff: 09/07/2019
+ms.locfileid: "36790901"
 ---
 # <a name="skype-for-business-server-updates"></a>商務用 Skype Server 更新
 
@@ -30,6 +30,16 @@ ms.locfileid: "36767172"
 |:--- |:--- |:--- |
 |商務用 Skype Server 2019 累計更新1|[KB 4470124](https://support.microsoft.com/kb/4470124)| 2019年7月 |
 | | | |
+
+### <a name="skype-for-business-server-2019-tools"></a>商務用 Skype Server 2019 工具
+
+|套件名稱/連結|發行日期|
+|:--- |:--- |
+|[UCMA 6.0 SDK](https://www.microsoft.com/en-in/download/details.aspx?id=57506)     |  2019年6月       |
+|[整合通訊 Managed API 5.0 執行時間](https://www.microsoft.com/en-in/download/details.aspx?id=57507)    | 2018年6月        |
+|[商務用 Skype Server 2019、管理套件](https://www.microsoft.com/en-in/download/details.aspx?id=57511)    | 2018年6月        |
+|||
+
 
 ## <a name="skype-for-business-server-2015-update-history"></a>商務用 Skype Server 2015 更新歷程記錄
 
@@ -54,7 +64,14 @@ ms.locfileid: "36767172"
 |商務用 Skype Server 2015、前端伺服器與邊緣伺服器的累積更新|[KB 3061059](https://support.microsoft.com/kb/3061059) |2015年6月 |
 ||||
 
-* * *
+### <a name="skype-for-business-server-2015-tools"></a>商務用 Skype Server 2015 工具
+
+|套件名稱/連結|發行日期|
+|:--- |:--- |
+|[UCMA 5.0 SDK](https://www.microsoft.com/en-in/download/details.aspx?id=47345)     |  2015年5月       |
+|[整合通訊 Managed API 5.0 執行時間](https://www.microsoft.com/en-us/download/details.aspx?id=47344)     |   2015年5月      |
+|[商務用 Skype Server 2015、管理套件](https://www.microsoft.com/en-in/download/details.aspx?id=47364)     |  2019年6月       |
+|||
 
 ## <a name="lync-server-2013-update-history"></a>Lync Server 2013 更新歷程記錄
 
