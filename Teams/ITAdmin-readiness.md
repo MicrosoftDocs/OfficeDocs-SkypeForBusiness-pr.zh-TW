@@ -18,12 +18,12 @@ f1keywords:
 description: 針對系統管理員如何規劃、部署及執行 Microsoft 團隊的訓練影片、PowerPoint 卡座、教學課程及其他資源。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 67adf55badb30504ba55ed814c735de89fb9dc6b
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 1ba3b888a598f0cb3348fd50fe1dfd549a988553
+ms.sourcegitcommit: 472825b0f4db1542a5b855d637aa90b4bcd797bc
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483517"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "36993969"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Microsoft 團隊的系統管理訓練
 
@@ -60,7 +60,7 @@ ms.locfileid: "36483517"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>在 YouTube 上的雲端頻道中, 查看最佳做法以及咖啡中的操作方法影片</h3>
+                        <h3>在 YouTube 上的雲端頻道中，查看最佳做法以及咖啡中的操作方法影片</h3>
                     </div>
                 </div>
             </div>
@@ -99,21 +99,22 @@ ms.locfileid: "36483517"
 | 網路規劃 | [顯示器](https://aka.ms/teams-networking) | [文稿](https://aka.ms/teams-networking-deck) |
 | 通話品質概覽 | [顯示器](https://aka.ms/teams-quality) | [文稿](https://aka.ms/teams-quality-deck) |
 | 會議簡介 | [顯示器](https://aka.ms/teams-meetings-intro) | [文稿](https://aka.ms/teams-meetings-intro-deck) |
+| 媒體 |[顯示器](https://aka.ms/media-in-teams)  | [文稿](https://aka.ms/media-in-teams-deck)|
 | 即時事件 | [顯示器](https://aka.ms/teams-live-events-session) | [文稿](https://aka.ms/teams-live-events-deck) |
 | 電話系統簡介 | [顯示器](https://aka.ms/teams-phone-system) | [文稿](https://aka.ms/teams-phone-system-deck) |
 | 直接路由 | [顯示器](https://aka.ms/teams-direct-routing) | [文稿](https://aka.ms/teams-direct-routing-deck) |
-| 從商務用 Skype 升級至團隊 | [影片 1: 升級簡介](https://aka.ms/teams-upgrade-intro)</br>[影片 2: 規劃升級](https://aka.ms/teams-upgrade-plan)</br>[影片 3: 共存與互通性](https://aka.ms/teams-upgrade-coexistence-interop)</br>[影片 4: 管理員體驗](https://aka.ms/teams-upgrade-admin) | [文稿](https://aka.ms/teams-upgrade-deck)|
+| 從商務用 Skype 升級至團隊 | [影片1：升級簡介](https://aka.ms/teams-upgrade-intro)</br>[影片2：規劃升級](https://aka.ms/teams-upgrade-plan)</br>[影片3：共存與互通性](https://aka.ms/teams-upgrade-coexistence-interop)</br>[影片4：管理員體驗](https://aka.ms/teams-upgrade-admin) | [文稿](https://aka.ms/teams-upgrade-deck)|
 
 <h2>快速入門手冊</h2>
 
-- [快速入門: 適用于教育系統管理員的團隊](teams-quick-start-edu.yml)
-- [快速入門: 在團隊中設定通話方案](configuring-teams-calling-quickstartguide.md)
+- [快速入門：適用于教育系統管理員的團隊](teams-quick-start-edu.yml)
+- [快速入門：在團隊中設定通話方案](configuring-teams-calling-quickstartguide.md)
 
 <h2>材料</h2>
 
-- [教學課程: 團隊中的會議](tutorial-meetings-in-teams.yml)
-- [教學課程: 在團隊中的音訊會議](tutorial-audio-conferencing.yml)
-- [教學課程: 瞭解在團隊中進行通話](tutorial-calling-in-teams.yml)
+- [教學課程：團隊中的會議](tutorial-meetings-in-teams.yml)
+- [教學課程：在團隊中的音訊會議](tutorial-audio-conferencing.yml)
+- [教學課程：瞭解在團隊中進行通話](tutorial-calling-in-teams.yml)
 
 <h2>門</h2>
 
