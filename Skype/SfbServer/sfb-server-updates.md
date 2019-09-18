@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: 在單一位置尋找及管理商務用 Skype Server 2015/2019 和 Lync 2013 的更新。 使用此頁面上的連結，取得更新的詳細資訊，然後下載更新。
-ms.openlocfilehash: 836903d8040d9ea040309306533484f68453e375
-ms.sourcegitcommit: dc151bf4454ddec20db5cd133a42a67599c08d64
+ms.openlocfilehash: ba23d01b4e5367d816d475a1b5daa8b852b4c23e
+ms.sourcegitcommit: 6b73b89f29a0eabbd9cdedf995d5325291594bac
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "36838104"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "37018760"
 ---
 # <a name="skype-for-business-server-updates"></a>商務用 Skype Server 更新
 
@@ -48,8 +48,22 @@ ms.locfileid: "36838104"
 |套件名稱|KB 數|發行日期|
 |:--- |:--- |:--- |
 |商務用 Skype Server 2015 累計更新10修復程式1|[KB 3061064](https://support.microsoft.com/kb/3061064)| 2019年8月 |
-
-|商務用 Skype Server 2015 累計更新 10 |[KB 3061064](https://support.microsoft.com/kb/3061064)|2019年7月 | |商務用 Skype Server 2015 的累積更新9，網頁元件伺服器 |[KB 4487981](https://support.microsoft.com/kb/4487981)|5月 2019 | |商務用 Skype Server 2015、前端伺服器和 Edge 伺服器的累加更新8[KB 4464355](https://support.microsoft.com/kb/4464355)|2019年1月 | |商務用 Skype Server 2015、前端伺服器和 Edge 伺服器的累積更新 7 |[KB 4340904](https://support.microsoft.com/kb/4340904) |2018年7月 | |商務用 Skype Server 2015、前端伺服器和 Edge 伺服器 | 的累積更新6修復程式2[KB 4086059](https://support.microsoft.com/kb/4086059) |2018年3月 | |商務用 Skype Server 2015、前端伺服器和 Edge 伺服器 | 的累積更新6修復程式1[KB 4074701](https://support.microsoft.com/kb/4074701)|2018年1月 | |商務用 Skype Server 2015、前端伺服器和 Edge 伺服器的累積更新 6 |[KB 4036312](https://support.microsoft.com/kb/4036312) |2017年12月 | |商務用 Skype Server 2015、前端伺服器和 Edge 伺服器的累積更新5[KB 4012621](https://support.microsoft.com/kb/4012621) |5月 2017 | |商務用 Skype Server 2015、前端伺服器和 Edge 伺服器 | 的累積更新4修復程式1[KB 3207506](https://support.microsoft.com/kb/3207506) |2017年2月 | |商務用 Skype Server 2015、前端伺服器和 Edge 伺服器的累加更新 4 |[KB 3199093](https://support.microsoft.com/kb/3199093) |2017年11月 | |商務用 Skype Server 2015、前端伺服器和 Edge 伺服器的累積更新3[KB 3149227](https://support.microsoft.com/kb/3149227) |2016年6月 | |商務用 Skype Server 2015、前端伺服器和 Edge 伺服器的累積更新2[KB 3134260](https://support.microsoft.com/kb/3134260) |2016年3月 | |商務用 Skype Server 2015、前端伺服器和 Edge 伺服器的累積更新 1 |[KB 3097645](https://support.microsoft.com/kb/3097645) |2015年11月 | |商務用 Skype Server 2015 的累積更新，核心元件 |[KB 3098601](https://support.microsoft.com/kb/3098601) |2015年9月 | |商務用 Skype Server 2015、前端伺服器和 Edge 伺服器的累積更新 |[KB 3061059](https://support.microsoft.com/kb/3061059) |2015年6月 | | | | |
+|商務用 Skype Server 2015 累計更新10 |[KB 3061064](https://support.microsoft.com/kb/3061064)| 2019年7月 |
+|商務用 Skype Server 2015 （網頁元件伺服器）的累積更新9|[KB 4487981](https://support.microsoft.com/kb/4487981)| 2019年5月 |
+|商務用 Skype Server 2015、前端伺服器和 Edge 伺服器的累加更新8|[KB 4464355](https://support.microsoft.com/kb/4464355)|2019年1月|
+|商務用 Skype Server 2015、前端伺服器和 Edge 伺服器的累積更新7 |[KB 4340904](https://support.microsoft.com/kb/4340904) |2018年7月 |
+|商務用 Skype Server 2015、前端伺服器和 Edge 伺服器的累積更新6修復程式2 |[KB 4086059](https://support.microsoft.com/kb/4086059) |2018年3月 |
+|商務用 Skype Server 2015、前端伺服器和 Edge 伺服器的累積更新6修復程式1 |[KB 4074701](https://support.microsoft.com/kb/4074701)|2018年1月 |
+|商務用 Skype Server 2015、前端伺服器和 Edge 伺服器的累積更新6|[KB 4036312](https://support.microsoft.com/kb/4036312) |2017年12月 |
+|商務用 Skype Server 2015、前端伺服器和 Edge 伺服器的累積更新5  |[KB 4012621](https://support.microsoft.com/kb/4012621) |2017年5月 |
+|商務用 Skype Server 2015、前端伺服器和 Edge 伺服器的累積更新4修復程式1 |[KB 3207506](https://support.microsoft.com/kb/3207506) |2017年2月 |
+|商務用 Skype Server 2015、前端伺服器和 Edge 伺服器的累積更新4 |[KB 3199093](https://support.microsoft.com/kb/3199093) |2017年11月 |
+|商務用 Skype Server 2015、前端伺服器和 Edge 伺服器的累積更新3 |[KB 3149227](https://support.microsoft.com/kb/3149227) |2016年6月 |
+|商務用 Skype Server 2015、前端伺服器與邊緣伺服器的累積更新2 |[KB 3134260](https://support.microsoft.com/kb/3134260) |2016年3月 |
+|商務用 Skype Server 2015、前端伺服器與邊緣伺服器的累積更新1 |[KB 3097645](https://support.microsoft.com/kb/3097645) |2015年11月 |
+|商務用 Skype Server 2015 （核心元件）的累積更新 |[KB 3098601](https://support.microsoft.com/kb/3098601) |2015年9月 |
+|商務用 Skype Server 2015、前端伺服器與邊緣伺服器的累積更新|[KB 3061059](https://support.microsoft.com/kb/3061059) |2015年6月 |
+||||
 
 ### <a name="skype-for-business-server-2015-tools"></a>商務用 Skype Server 2015 工具
 
