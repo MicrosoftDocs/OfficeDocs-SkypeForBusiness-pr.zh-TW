@@ -18,19 +18,19 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8b6da80dda90c57a55a75c885b42bc08a824b613
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 2eb68a06a24436b6c12e4ee5b59a24a0da92ca7e
+ms.sourcegitcommit: a6e44256c024fc3953cfd6a511ee024c4c7b8408
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245344"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "37047079"
 ---
 <a name="turn-on-inline-message-translation-in-microsoft-teams"></a>開啟 Microsoft 團隊中的內嵌郵件翻譯 
 =================================================
 
-內嵌郵件翻譯是一種新的 Microsoft 團隊功能, 可讓使用者自動將小組郵件翻譯成由 Office 365 的個人語言設定所指定的[語言](https://support.office.com/article/translate-a-message-in-teams-d8926ce9-d6a6-47df-a416-f1adb62d3194)。
+內嵌郵件翻譯是一種新的 Microsoft 團隊功能，可讓使用者將小組訊息轉換成由 Office 365 的個人語言設定所指定的[語言](https://support.office.com/article/translate-a-message-in-teams-d8926ce9-d6a6-47df-a416-f1adb62d3194)。
 
-預設會針對您的組織推出內嵌郵件翻譯。 如果您想要允許使用者在團隊用戶端中使用這項功能, 您必須開啟此設定。
+預設會針對您的組織推出內嵌郵件翻譯。 如果您想要允許使用者在團隊用戶端中使用這項功能，您必須開啟此設定。
 
 > [!NOTE]
 >此推出已從 office 365 政府社區版雲端和 Office 365 德國環境中的 Office 365 訂閱中排除。
@@ -43,7 +43,7 @@ ms.locfileid: "36245344"
 
 ## <a name="use-the-microsoft-teams-admin-center-to-turn-on-inline-message-translation"></a>使用 Microsoft 團隊系統管理中心來開啟內嵌郵件翻譯
 
-在**Microsoft 團隊系統管理中心**中, 從左側導覽中選取 [**訊息原則**], 然後建立新的原則或編輯現有的原則, 然後將 [**允許使用者將郵件翻譯**成] 選項設定為 [**開啟**]。
+在**Microsoft 團隊系統管理中心**中，從左側導覽中選取 [**訊息原則**]，然後建立新的原則或編輯現有的原則，然後將 [**允許使用者將郵件翻譯**成] 選項設定為 [**開啟**]。
 
 > [!NOTE]
-> 此服務會進行翻譯並將它傳送給用戶端, 而不會影響在合規性記錄中捕獲的內容。 若要深入瞭解翻譯, 請參閱[什麼是 Microsoft Translator？](https://docs.microsoft.com/azure/cognitive-services/translator/translator-info-overview)。
+> 此服務會進行翻譯並將它傳送給用戶端，而不會影響在合規性記錄中捕獲的內容。 若要深入瞭解翻譯，請參閱[什麼是 Microsoft Translator？](https://docs.microsoft.com/azure/cognitive-services/translator/translator-info-overview)。
