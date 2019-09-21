@@ -13,21 +13,22 @@ ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 ms.reviewer: dearbeen, nsuter
 search.appverid: MET150
-description: 即時、互動式的討論會, 旨在讓您在30天內就能與 Microsoft 團隊保持聯繫並開始執行。
+description: 即時、互動式的討論會，旨在讓您在30天內就能與 Microsoft 團隊保持聯繫並開始執行。
 f1keywords: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
+ROBOTS: NOINDEX
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e4be855754f6a162016f23feadc0de34849ac2bd
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 3036f50be02a5fdb0691a2895005fc373c4ac540
+ms.sourcegitcommit: 299f854bbb73887ba315b09b9adf9ea9ff91e8ec
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243756"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "37062941"
 ---
 <div id="main" class="v2">
     <div class="container">
         <h1>30中的團隊</h1>
-           <p>Microsoft 相當喜歡<strong>在 30</strong>天內, 邀請您加入團隊, 這是一系列的即時、互動式討論會, 可協助讓中型組織 (500-5000 員工) 完成並與 Microsoft 團隊在30天內開始。 加入我們以瞭解經過時間檢驗的指導方針和最佳做法, 並讓您的小組提出問題。 討論會參與者也會針對使用團隊專家的開放麥克風 office 時間收到專屬邀請。
+           <p>Microsoft 相當喜歡<strong>在 30</strong>天內，邀請您加入團隊，這是一系列的即時、互動式討論會，可協助讓中型組織（500-5000 員工）完成並與 Microsoft 團隊在30天內開始。 加入我們以瞭解經過時間檢驗的指導方針和最佳做法，並讓您的小組提出問題。 討論會參與者也會針對使用團隊專家的開放麥克風 office 時間收到專屬邀請。
            <p><font color="#6264A7">準備好要開始進行嗎？</font> 我們鼓勵您的專案小組中的所有成員從30個會話<i>中開始使用團隊</i>。 按一下下方的會話標題以進行註冊。
         <ul class="pivots">
             <li>
@@ -48,8 +49,8 @@ ms.locfileid: "36243756"
                     </div>
                     <div class="cardText">
                         <h3>在30開始使用團隊</h3>
-                        <P>在右足的30歷程中, 將您的小組開始。 瞭解要參與的計畫, 以及可用來確保您成功的資源。</P>
-                        <p>物件: 企業贊助商, IT 系統管理員, 採納及變更擁有者</p>
+                        <P>在右足的30歷程中，將您的小組開始。 瞭解要參與的計畫，以及可用來確保您成功的資源。</P>
+                        <p>物件：企業贊助商，IT 系統管理員，採納及變更擁有者</p>
                     </div>
                 </div>
             </div>
@@ -69,7 +70,7 @@ ms.locfileid: "36243756"
                     </div>
                     <div class="cardText">
                     <h3>在您的環境中進行準備</h3>
-                    <p>設定團隊推出的基礎。 找出小組先決條件、網路和安全性最佳做法、共存原則、分析與報告, 以及用戶端發佈建議。</p><p>物件: IT 系統管理員</p>
+                    <p>設定團隊推出的基礎。 找出小組先決條件、網路和安全性最佳做法、共存原則、分析與報告，以及用戶端發佈建議。</p><p>物件： IT 系統管理員</p>
 </div>
                 </div>
             </div>
@@ -87,7 +88,7 @@ ms.locfileid: "36243756"
                     </div>
                     <div class="cardText">
                         <h3>準備您的環境-第二部分</h3>
-                    <p>現在您已經掌握基礎, 瞭解如何針對團隊實施規範、保留、管理及音訊會議的最佳做法。</p><p>物件: IT 系統管理員</p>
+                    <p>現在您已經掌握基礎，瞭解如何針對團隊實施規範、保留、管理及音訊會議的最佳做法。</p><p>物件： IT 系統管理員</p>
                     </div>
                 </div>
             </div>
@@ -106,7 +107,7 @@ ms.locfileid: "36243756"
                     </div>
                     <div class="cardText">
                         <h3>準備好您的最終使用者</h3>
-                    <p>探索可讓您的使用者使用的戰略與資源、建立擁護程式的數量, 以及確保使用者接受成為您團隊推出的核心元件。</p><p>物件: 採納及變更擁有者</p>
+                    <p>探索可讓您的使用者使用的戰略與資源、建立擁護程式的數量，以及確保使用者接受成為您團隊推出的核心元件。</p><p>物件：採納及變更擁有者</p>
                     </div>
                 </div>
             </div>
@@ -126,7 +127,7 @@ ms.locfileid: "36243756"
                     <div class="cardText">
                     <h3>優化和展開</h3>
                     <p>設計包括優化服務效能、擴大團隊功能及加入新使用者的方案。</p>
-                    <p>物件: 企業贊助商, IT 系統管理員, 採納及變更擁有者</p>
+                    <p>物件：企業贊助商，IT 系統管理員，採納及變更擁有者</p>
                     </div>
                 </div>
             </div>
