@@ -13,12 +13,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: 開始使用適用于醫療保健組織的團隊
-ms.openlocfilehash: 380d9c75bc2f7eeb66bc6d0d0f5598d2a243a9da
-ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
+ms.openlocfilehash: 5fe896db8acf690fbb71b1b6ecf0fcd571d903c5
+ms.sourcegitcommit: c22e55cda855ec61e5b6cb3455d6b87467c24e21
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/05/2019
-ms.locfileid: "36767152"
+ms.lasthandoff: 09/25/2019
+ms.locfileid: "37159727"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>開始使用適用于醫療保健組織的團隊
 
@@ -30,7 +30,7 @@ Microsoft 團隊提供許多適用于醫院和其他醫療保健組織的功能�
 - 電子醫療保健記錄（EHR）整合 
 - 第一線員工 Worker 系統整合 
 
-本節內容是根據團隊的基本功能（例如會議、通話和訊息傳遞）來建立，並假設您已經部署在貴組織中部署的小組。 如果您尚未推出小組，請先閱讀[瞭解如何推出 Microsoft 團隊](../../How-to-roll-out-teams.md)。
+本節內容是以小組的基本功能為基礎，例如會議、通話和訊息，並假設您已在組織中部署團隊。 如果您尚未推出小組，請先閱讀[瞭解如何推出 Microsoft 團隊](../../How-to-roll-out-teams.md)。
 
 ## <a name="care-coordination---microsoft-teams-patients-app"></a>護理協調-Microsoft 團隊患者 app
 
