@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: 在單一位置尋找及管理商務用 Skype Server 2015/2019 和 Lync 2013 的更新。 使用此頁面上的連結，取得更新的詳細資訊，然後下載更新。
-ms.openlocfilehash: ba23d01b4e5367d816d475a1b5daa8b852b4c23e
-ms.sourcegitcommit: 6b73b89f29a0eabbd9cdedf995d5325291594bac
+ms.openlocfilehash: d95776848e27a5d43d273f8ad1caedd40636ab1c
+ms.sourcegitcommit: 77f102a7ca0226c79cf9aa9573e27afb4fba6893
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "37018760"
+ms.lasthandoff: 09/26/2019
+ms.locfileid: "37276290"
 ---
 # <a name="skype-for-business-server-updates"></a>商務用 Skype Server 更新
 
@@ -26,9 +26,12 @@ ms.locfileid: "37018760"
 
 ## <a name="skype-for-business-server-2019-update-history"></a>商務用 Skype Server 2019 更新歷程記錄
 
+KB 4470124 是商務用 Skype Server 2019 的主要 KB，其中包含已發佈的所有累計更新與修復程式的所有歷史清單。 
+
 |套件名稱|KB 數|發行日期|
 |:--- |:--- |:--- |
 |商務用 Skype Server 2019 累計更新1|[KB 4470124](https://support.microsoft.com/kb/4470124)| 2019年7月 |
+|商務用 Skype Server 2019 累計更新1修復程式1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| 2019年9月 |
 | | | |
 
 ### <a name="skype-for-business-server-2019-tools"></a>商務用 Skype Server 2019 工具
