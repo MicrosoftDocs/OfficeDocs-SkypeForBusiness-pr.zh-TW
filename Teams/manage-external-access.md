@@ -18,12 +18,12 @@ description: 您的 IT 系統管理員可以為其他網域設定外部存取（
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: dedda63d5ec97d914ba6bd1a70b7e5b3f1d9d7ee
-ms.sourcegitcommit: dc151bf4454ddec20db5cd133a42a67599c08d64
+ms.openlocfilehash: f39760eb971a333373191b444abbb72395f13737
+ms.sourcegitcommit: 1721acdd507591d16a4e766b390b997979d985e5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "36838109"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37305758"
 ---
 <a name="manage-external-access-in-microsoft-teams"></a>在 Microsoft 團隊中管理外部存取
 ======================================================
@@ -70,7 +70,7 @@ ms.locfileid: "36838109"
 | 使用者被識別為外部通訊錄 | 是的 | 是的 |
 | 顯示目前狀態 | 是的 | 是的 |
 | 顯示 [不在辦公室] 訊息 | 不 | 是的 |
-| 個別使用者可以封鎖 | 不 | 是的 |
+| 個別使用者可以封鎖 | 不 | 不 |
 | 支援 @mentions | 不 | 是的 |
 | 撥打私人電話 | 是的 | 是的 |
 | 允許 IP 影片 | 是的 | 是的 |
