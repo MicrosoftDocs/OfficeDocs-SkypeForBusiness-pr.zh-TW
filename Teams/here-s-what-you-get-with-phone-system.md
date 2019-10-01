@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '瞭解功能、可用性，以及如何規劃及設定商務用電話系統（雲端 PBX）。 '
-ms.openlocfilehash: c8725523fbef65b5687e68a860d2f2f3137e649d
-ms.sourcegitcommit: 1721acdd507591d16a4e766b390b997979d985e5
+ms.openlocfilehash: dd1a9d68646481f9508657db2634b7d3c325396d
+ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37305782"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "37328361"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>以下是您在 Office 365 中使用電話系統所取得的結果
 
@@ -51,7 +51,7 @@ PBX 是企業內的電話系統。 Office 365 附加元件中的電話系統提�
 |[尋找先前的交談-Lync](https://support.office.com/article/d1d54123-0301-482e-b047-c82e9e2724a3) <br/> |您可以在同一個地方追蹤所有的交談，無論這些交談是來自 Im、電話通話或臨時和排程會議。 交談會記錄在您的通話記錄中。  <br/> |
 |通話保留/取得  <br/> | 在同時進行多個通話時使用。 當您接聽下一個撥入通話或撥出來電時，您目前的通話會自動保留。 <br/> |
 |[轉接商務用 Skype 通話](https://support.office.com/article/f9f312a3-ccc9-4215-86e8-8928b2df1f97) <br/> |將來電轉接給其他人。 或者，如果您需要離開您的辦公室，但想要繼續交談，您可以將來自電腦或 IP 手機的來電轉接到您的手機或平板電腦。  <br/> |
-|本機號碼  <br/> |您公司內部的通話會顯示詳細的本機號碼，可從您的公司目錄提取資訊，並顯示圖片和工作標題，而不只是電話號碼。 對於來自外部電話號碼的呼叫，會顯示電話服務提供者所提供的本機號碼。   <br/> |
+|本機號碼  <br/> |您公司內部的通話會顯示詳細的本機號碼，可從您的公司目錄提取資訊，並顯示圖片和工作標題，而不只是電話號碼。 對於來自外部電話號碼的呼叫，會顯示電話服務提供者所提供的本機號碼。 如果外部電話號碼是您公司目錄中的次要號碼，則會顯示來自企業目錄的資訊。  <br/> |
 |[建立雲端通話佇列](/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue) <br/> |雲端通話佇列包括某人撥入您組織的電話號碼時所使用的問候語、自動保留通話的功能，以及在通話時搜尋下一個可用的呼叫代理程式來處理通話的功能在暫停時聆聽音樂。  <br/> |
 |[當某人的狀態變更時通知我](https://support.office.com/article/042a13d8-c815-4101-8b41-1e141b6bf6e9) <br/> | 此功能可讓您標記目前無法使用的人員，並在他們的目前狀態變更，而且已準備好接聽電話。 <br/> |
 |PC、Mac 和行動裝置版用戶端  <br/> | 這可讓您在裝置上從平板電腦和行動電話到 Pc 和桌面 IP 手機的通話功能。 <br/> |

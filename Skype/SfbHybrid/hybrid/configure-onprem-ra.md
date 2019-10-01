@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 針對商務用 Skype Server 2019 設定資源帳戶。
-ms.openlocfilehash: 72c56d8534eeacf9b3430e4439c2f40ab1f51f6d
-ms.sourcegitcommit: ee6fca44a611acaa8234563c546a3f841bba6e1a
+ms.openlocfilehash: 0439532eba2639dc836f62fff94531d4930f03e0
+ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/07/2019
-ms.locfileid: "36790859"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "37328297"
 ---
 # <a name="configure-resource-accounts"></a>設定資源帳戶
 
 商務用 Skype Server 2019 混合式實現只使用電話系統提供的雲端服務來進行整合訊息，而且不要與 Exchange Online 整合。 在商務用 Skype Server 2019 中，您現在可以使用「雲端通話佇列」和「自動語音應答」，[以下是您在 Office 365 中使用電話系統所取得的內容](/MicrosoftTeams/here-s-what-you-get-with-phone-system)。
 
-若要在商務用 Skype Server 2019 中使用電話系統自動語音應答或通話佇列，您需要建立充當應用程式端點且可獲指派電話號碼的資源帳戶，然後使用線上團隊系統管理中心來設定通話佇列或自動語音應答。 此資源帳戶可以連線（請參閱在[Microsoft 團隊中管理資源](/MicrosoftTeams/manage-resource-accounts)帳戶以在線上建立資源帳戶）或內部部署（請見本文所述）。 通常您會有多個電話系統自動語音應答或通話佇列節點，每個節點都對應至可在線上或商務用 Skype Server 2019 中駐留的資源帳戶。
+若要在商務用 Skype Server 2019 中使用電話系統自動語音應答或通話佇列，您需要建立充當應用程式端點且可獲指派電話號碼的資源帳戶，然後使用線上團隊系統管理中心來設定通話佇列或自動語音應答。 此資源帳戶可以連線（請參閱本文中所述的 [[管理 Microsoft 團隊中的資源帳戶](/MicrosoftTeams/manage-resource-accounts)來建立以線上為宿主的資源帳戶）] 或 [內部部署]。 通常您會有多個電話系統自動語音應答或通話佇列節點，每個節點都對應至可在線上或商務用 Skype Server 2019 中駐留的資源帳戶。
 
 如果您有現有的 Exchange UM 自動語音應答及呼叫佇列系統，在您切換到 Exchange Server 2019 或 Exchange online 之前，您將需要手動記錄詳細資料，然後使用 [團隊系統管理中心] 來執行全新的系統。.
 
