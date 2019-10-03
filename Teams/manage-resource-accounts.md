@@ -18,16 +18,14 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: 瞭解如何在 Microsoft 團隊中管理資源帳戶
-ms.openlocfilehash: 0508408fbf5bde620cefe9233df4aa62ecf880df
-ms.sourcegitcommit: e89c2234fc5aa8f7eeef66ba1ae093a0f7beda85
+ms.openlocfilehash: 07718421daca271358964914fd29409b7b23fb58
+ms.sourcegitcommit: 2d31209aae9e0171693389db97b0b5c974864673
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "37349260"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37375695"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>管理 Microsoft 團隊中的資源帳戶
-
-<a name="bk">phonenumber</a>
 
 資源帳戶也稱為 Azure AD 中*已停用的使用者物件*，而且可以用來代表一般的資源。 例如，在 Exchange 中可能會用來代表會議室，並允許他們擁有電話號碼。 您可以使用商務用 Skype Server 2019，在 Microsoft 365 或內部部署中託管資源帳戶。
 
@@ -118,6 +116,7 @@ ms.locfileid: "37349260"
 ![數位2的圖示，參照前一個螢幕擷取畫面](media/sfbcallout2.png)中的標注，您可以使用 [**編輯**] 選項編輯資源帳戶顯示名稱。 完成後，按一下 [**儲存**]。
 ![[編輯資源帳戶] 選項的螢幕擷取畫面](media/r-a-edit.png)
 
+<a name="phonenumber"></a>
 ### <a name="assignunassign-phone-numbers-and-services"></a>指派/取消指派電話號碼和服務
 
 ![數位3的圖示，在您建立資源帳戶並指派授權](media/sfbcallout3.png)之後，在前一個螢幕擷取畫面中參照標注，您可以按一下 [**指派/取消指派**]，將服務號碼指派給資源帳戶，或指派資源帳戶移到已存在的自動語音應答或通話佇列。 指派直接路由號碼只能使用 Cmdlet 完成。 如果您仍需建立通話佇列或自動語音應答，您可以在建立資源帳戶時連結該帳戶。 完成後，按一下 [**儲存**]。

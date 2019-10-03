@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 瞭解如何為 Microsoft 團隊設定及測試雲端自動語音應答。
-ms.openlocfilehash: 6ac4ccea48e70a8bba5e11511379fef5c5a2a861
-ms.sourcegitcommit: e89c2234fc5aa8f7eeef66ba1ae093a0f7beda85
+ms.openlocfilehash: 0cac6b1bb7d19e91e4042bcb0673f6c677e77d2e
+ms.sourcegitcommit: 2d31209aae9e0171693389db97b0b5c974864673
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "37349246"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37375706"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>設定雲端自動語音應答
 
@@ -211,14 +211,15 @@ ms.locfileid: "37349246"
 
     > [!Note]
     > **貴公司中的人員**可以是線上使用者，或使用商務用 Skype Server 或 Lync server 2013 託管內部部署的使用者。
-    - 其他**自動助理**
+
+  - 其他**自動助理**
 
        您可以使用現有的自動助手來建立包含子功能表的第二層功能表選項。 這些稱為嵌套自動語音應答。 若要將呼叫傳送至嵌套的自動語音應答，請選取 [**公司] 中**的 [人員] 並指派已有關聯自動語音應答的人員，或在建立完此自動語音應答之後，就會與自動語音助理建立關聯的資源帳戶。
 
         > [!Note]
-        > 也會使用嵌套（或第二層）自動語音應答的**商務時間**，包括從其他已設定的自動語音應答所傳送的通話。
+        > The **Business Hours** of nested (or second-level) auto attendants will also be used, including for the calls sent from other auto attendants that have been set up.
 
-       - **語音應用程式**選取與已建立之通話佇列或自動助理相關聯的資源帳戶名稱。
+    - **語音應用程式**選取與已建立之通話佇列或自動助理相關聯的資源帳戶名稱。
 
 * * *
 
@@ -231,6 +232,8 @@ ms.locfileid: "37349246"
 當您完成選取專案時，請按一下 **[下一步]**。
 
 #### <a name="holiday-call-settings"></a>假日通話設定
+
+<a name="holidaygreetings"> </a>
 
 您最多可以將20個排定的假日新增至每個自動語音應答。
 
@@ -283,6 +286,7 @@ ms.locfileid: "37349246"
     > [!Note]
     > 根據預設，假期期間內的所有來電都會設定為在問候語（如果有的話）之後中斷連線，因此您必須指定重新導向（如果有其他行為的話）。
 
+<a name="dialscope"></a>
 #### <a name="select-dial-scope-page"></a>選取 [撥號作用域] 頁面
 
 在此頁面上，您可以設定貴組織中的哪些使用者會列在您的目錄中，並可在撥入您組織的人員時，透過名稱撥號。
