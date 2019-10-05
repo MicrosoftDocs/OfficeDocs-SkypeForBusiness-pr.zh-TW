@@ -21,355 +21,416 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 瞭解如何為 Microsoft 團隊設定及測試雲端自動語音應答。
-ms.openlocfilehash: 0cac6b1bb7d19e91e4042bcb0673f6c677e77d2e
-ms.sourcegitcommit: 2d31209aae9e0171693389db97b0b5c974864673
+ms.openlocfilehash: 424b6cea41132bd03b9eecfbd2d387697332505f
+ms.sourcegitcommit: d349922409f49b52048597a56b81501163749a69
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37375706"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "37401921"
 ---
-# <a name="set-up-a-cloud-auto-attendant"></a><span data-ttu-id="3d943-103">設定雲端自動語音應答</span><span class="sxs-lookup"><span data-stu-id="3d943-103">Set up a Cloud auto attendant</span></span>
+# <a name="set-up-a-cloud-auto-attendant"></a><span data-ttu-id="03a33-103">設定雲端自動語音應答</span><span class="sxs-lookup"><span data-stu-id="03a33-103">Set up a Cloud auto attendant</span></span>
 
-<span data-ttu-id="3d943-104">自動語音應答讓撥入您組織的人員，並流覽功能表系統，以取得正確的部門、呼叫佇列、人員或接線員。</span><span class="sxs-lookup"><span data-stu-id="3d943-104">Auto attendants let people that call in to your organization and navigate a menu system to get them to the right department, call queue, person, or the operator.</span></span> <span data-ttu-id="3d943-105">您可以使用 Microsoft 團隊系統管理中心，為您的組織建立自動語音應答。</span><span class="sxs-lookup"><span data-stu-id="3d943-105">You can create an auto attendant for your organization by using the Microsoft Teams admin center.</span></span> <span data-ttu-id="3d943-106">若要建立新的自動語音應答，請移至左側導覽中的 [**語音**]，然後選取 [**自動助理** > **新增**]。</span><span class="sxs-lookup"><span data-stu-id="3d943-106">To create a new auto attendant, go to **Voice** in the left navigation, and then select **Auto attendants** > **Add new**.</span></span>
+<span data-ttu-id="03a33-104">自動語音應答讓其他人打電話給您的組織，並流覽功能表系統，以與正確的部門通話、呼叫佇列、人員或接線員。</span><span class="sxs-lookup"><span data-stu-id="03a33-104">Auto attendants let people call your organization and navigate a menu system to speak to the right department, call queue, person, or an operator.</span></span> <span data-ttu-id="03a33-105">您可以使用 Microsoft 團隊系統管理中心或 Powershell，為您的組織建立自動語音應答。</span><span class="sxs-lookup"><span data-stu-id="03a33-105">You can create auto attendants for your organization with the Microsoft Teams admin center, or with Powershell.</span></span> <span data-ttu-id="03a33-106">若要建立自動語音應答，請移至左側導覽中的 [語音]，然後選取 [**自動** > **語音**應答**新增**]。</span><span class="sxs-lookup"><span data-stu-id="03a33-106">To create an auto attendant, go to **Voice** in the left navigation, and then select **Auto attendants** > **Add new**.</span></span>
 
-<span data-ttu-id="3d943-107">如果您想要深入瞭解自動語音應答，請參閱[什麼是雲端自動](/microsoftteams/what-are-phone-system-auto-attendants)語音應答？</span><span class="sxs-lookup"><span data-stu-id="3d943-107">If you want to learn more about auto attendants, see [What are Cloud auto attendants?](/microsoftteams/what-are-phone-system-auto-attendants)</span></span>
+<span data-ttu-id="03a33-107">如果您想要深入瞭解自動語音應答，請參閱[什麼是雲端自動](/microsoftteams/what-are-phone-system-auto-attendants)語音應答？</span><span class="sxs-lookup"><span data-stu-id="03a33-107">If you want to learn more about auto attendants, see [What are Cloud auto attendants?](/microsoftteams/what-are-phone-system-auto-attendants)</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="3d943-108">本文適用于 Microsoft 團隊和商務用 Skype Online。</span><span class="sxs-lookup"><span data-stu-id="3d943-108">This article applies to both Microsoft Teams and Skype for Business Online.</span></span>
+> <span data-ttu-id="03a33-108">本文適用于 Microsoft 團隊和商務用 Skype Online。</span><span class="sxs-lookup"><span data-stu-id="03a33-108">This article applies to both Microsoft Teams and Skype for Business Online.</span></span>
 
-## <a name="step-1--get-started"></a><span data-ttu-id="3d943-109">步驟1：快速入門</span><span class="sxs-lookup"><span data-stu-id="3d943-109">Step 1 — Get started</span></span>
+<span data-ttu-id="03a33-109">電話號碼不會直接指派給自動語音應答，而是與自動語音助理相關聯的[資源帳戶](manage-resource-accounts.md)。</span><span class="sxs-lookup"><span data-stu-id="03a33-109">Phone numbers are not directly assigned to the auto attendant, but rather to a [resource account](manage-resource-accounts.md) that is associated to the auto attendant.</span></span>
 
-- <span data-ttu-id="3d943-110">必須有一個自動語音應答，才能擁有相關聯的資源帳戶。</span><span class="sxs-lookup"><span data-stu-id="3d943-110">An auto attendant is required to have an associated resource account.</span></span> <span data-ttu-id="3d943-111">如需資源帳戶及所有所需授權的詳細資料，請參閱[管理團隊中的資源帳戶](manage-resource-accounts.md)。</span><span class="sxs-lookup"><span data-stu-id="3d943-111">See [Manage resource accounts in Teams](manage-resource-accounts.md) for details on resource accounts and all licenses required.</span></span>
+<span data-ttu-id="03a33-110">自動語音應答的實現通常會涉及數個自動語音應答。</span><span class="sxs-lookup"><span data-stu-id="03a33-110">Auto attendant implementations often involve several auto attendants.</span></span> <span data-ttu-id="03a33-111">*第一層*自動語音應答通常會有一個已指派電話號碼的資源帳戶。</span><span class="sxs-lookup"><span data-stu-id="03a33-111">A *first-level* auto attendant usually has a resource account with an assigned phone number.</span></span> <span data-ttu-id="03a33-112">嵌套的自動語音應答是用來做為第二級功能表，*第一層*的自動語音應答會連線為通話。</span><span class="sxs-lookup"><span data-stu-id="03a33-112">A nested auto attendant is used as a second-level menu that the *first-level* auto attendant connects  as call to.</span></span> <span data-ttu-id="03a33-113">*嵌套*的自動語音應答不需要將電話號碼指派給其資源帳戶。</span><span class="sxs-lookup"><span data-stu-id="03a33-113">A *nested* auto attendant isn't required to  have a phone number assigned to its resource account.</span></span>
 
+## <a name="step-1--get-started"></a><span data-ttu-id="03a33-114">步驟1：快速入門</span><span class="sxs-lookup"><span data-stu-id="03a33-114">Step 1 — Get started</span></span>
+
+- <span data-ttu-id="03a33-115">必須有一個自動語音應答，才能擁有相關聯的資源帳戶。</span><span class="sxs-lookup"><span data-stu-id="03a33-115">An auto attendant is required to have an associated resource account.</span></span> <span data-ttu-id="03a33-116">如需資源帳戶及所有所需授權的詳細資料，請參閱[管理團隊中的資源帳戶](manage-resource-accounts.md)。</span><span class="sxs-lookup"><span data-stu-id="03a33-116">See [Manage resource accounts in Teams](manage-resource-accounts.md) for details on resource accounts and all licenses required.</span></span> 
+- 
+<!-- When you create a new auto attendant in Teams after October 10th, 2019, the required auto attendant is automatically created and linked with the new auto attendant. -->
+ 
 > [!TIP]
-> <span data-ttu-id="3d943-112">若要將來電重新導向給以**電話系統**授權為線上使用者的操作員或功能表選項，您必須啟用企業語音。</span><span class="sxs-lookup"><span data-stu-id="3d943-112">To redirect calls to an operator or a menu option that is an Online user with a **Phone System** license, you will need to enable them for Enterprise Voice.</span></span> <span data-ttu-id="3d943-113">請參閱[指派商務用 Skype 授權](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)或[指派 Microsoft 團隊授權](assign-teams-licenses.md)。</span><span class="sxs-lookup"><span data-stu-id="3d943-113">See [Assign Skype for Business licenses](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses) or [Assign Microsoft Teams licenses](assign-teams-licenses.md).</span></span> <span data-ttu-id="3d943-114">您也可以使用 Windows PowerShell。</span><span class="sxs-lookup"><span data-stu-id="3d943-114">You can also use Windows PowerShell.</span></span> <span data-ttu-id="3d943-115">例如，執行：`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`</span><span class="sxs-lookup"><span data-stu-id="3d943-115">For example, run: `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`</span></span>
+> <span data-ttu-id="03a33-117">若要將來電重新導向給以電話系統授權為線上使用者的操作員或功能表選項，您必須啟用企業語音。</span><span class="sxs-lookup"><span data-stu-id="03a33-117">To redirect calls to an operator or a menu option that is an Online user with a Phone System license, you will need to enable them for Enterprise Voice.</span></span> <span data-ttu-id="03a33-118">請參閱[指派商務用 Skype 授權](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)或[指派 Microsoft 團隊授權](assign-teams-licenses.md)。</span><span class="sxs-lookup"><span data-stu-id="03a33-118">See [Assign Skype for Business licenses](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses) or [Assign Microsoft Teams licenses](assign-teams-licenses.md).</span></span> <span data-ttu-id="03a33-119">您也可以使用 Windows PowerShell。</span><span class="sxs-lookup"><span data-stu-id="03a33-119">You can also use Windows PowerShell.</span></span> <span data-ttu-id="03a33-120">例如，執行：`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`</span><span class="sxs-lookup"><span data-stu-id="03a33-120">For example, run: `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`</span></span>
 
-## <a name="step-2--create-a-new-auto-attendant"></a><span data-ttu-id="3d943-116">步驟2：建立新的自動語音應答</span><span class="sxs-lookup"><span data-stu-id="3d943-116">Step 2 — Create a new auto attendant</span></span>
+## <a name="step-2--create-auto-attendants"></a><span data-ttu-id="03a33-121">步驟2：建立自動語音應答</span><span class="sxs-lookup"><span data-stu-id="03a33-121">Step 2 — Create auto attendants</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="3d943-117">每個自動語音應答都必須有一個相關聯的[資源帳戶](manage-resource-accounts.md)。</span><span class="sxs-lookup"><span data-stu-id="3d943-117">Every auto attendant is required to have an associated [resource account](manage-resource-accounts.md).</span></span> <span data-ttu-id="3d943-118">您必須先建立資源帳戶，然後才能將它與自動語音應答建立關聯。</span><span class="sxs-lookup"><span data-stu-id="3d943-118">You must create the resource account first, then you can associate it to the auto attendant.</span></span>
+> <span data-ttu-id="03a33-122">每個自動語音應答都必須有一個相關聯的[資源帳戶](manage-resource-accounts.md)。</span><span class="sxs-lookup"><span data-stu-id="03a33-122">Every auto attendant is required to have an associated [resource account](manage-resource-accounts.md).</span></span> <span data-ttu-id="03a33-123">您必須先建立資源帳戶，然後才能將它與自動語音應答建立關聯。</span><span class="sxs-lookup"><span data-stu-id="03a33-123">You must create the resource account first, then you can associate it to the auto attendant.</span></span>
 
-### <a name="using-the-microsoft-teams-admin-center"></a><span data-ttu-id="3d943-119">使用 Microsoft 團隊系統管理中心</span><span class="sxs-lookup"><span data-stu-id="3d943-119">Using the Microsoft Teams admin center</span></span>
+### <a name="with-the-microsoft-teams-admin-center"></a><span data-ttu-id="03a33-124">使用 Microsoft 團隊系統管理中心</span><span class="sxs-lookup"><span data-stu-id="03a33-124">With the Microsoft Teams admin center</span></span>
 
-<span data-ttu-id="3d943-120">在**Microsoft [團隊管理中心**] 中，按一下 [**語音** > **自動**語音應答]，然後按一下 [ **+ 新增**]：</span><span class="sxs-lookup"><span data-stu-id="3d943-120">In the **Microsoft Teams admin center**, click   **Voice** > **Auto attendants**, then click **+ New**:</span></span>
+<span data-ttu-id="03a33-125">在**Microsoft [團隊管理中心**] 中，按一下 [**語音** > **自動**語音應答]，然後按一下 [ **+ 新增**]：</span><span class="sxs-lookup"><span data-stu-id="03a33-125">In the **Microsoft Teams admin center**, click   **Voice** > **Auto attendants**, then click **+ Add**:</span></span>
 
-#### <a name="general-info-page"></a><span data-ttu-id="3d943-121">一般資訊頁面</span><span class="sxs-lookup"><span data-stu-id="3d943-121">General info page</span></span>
+#### <a name="general-info-page"></a><span data-ttu-id="03a33-126">一般資訊頁面</span><span class="sxs-lookup"><span data-stu-id="03a33-126">General info page</span></span>
 
 ![[我的自動助理] 頁面的螢幕擷取畫面](media/edacec94-9384-4a87-be0a-5c49a151287e.png)
 
 * * *
 
-![在前一個螢幕擷取畫面中參照標注的數位1圖示](media/sfbcallout1.png)
+<span data-ttu-id="03a33-128">![數位1的圖示，前一個螢幕擷取畫面](media/teamscallout1.png)
+**名稱**中的標注輸入自動語音應答的顯示名稱。</span><span class="sxs-lookup"><span data-stu-id="03a33-128">![Icon of the number 1, a callout in the previous screenshot](media/teamscallout1.png)
+**Name** Enter a display name for your auto attendant.</span></span> <span data-ttu-id="03a33-129">名稱是必要的，而且最多可以包含64個字元，包括空格。</span><span class="sxs-lookup"><span data-stu-id="03a33-129">The name is required and can contain up to 64 characters, including spaces.</span></span> <span data-ttu-id="03a33-130">您在此處指定的**名稱**會列在 [**自動**語音應答] 索引標籤的欄中。</span><span class="sxs-lookup"><span data-stu-id="03a33-130">The **Name** you designate here is listed in a column on the **Auto attendants** tab.</span></span>
 
-<span data-ttu-id="3d943-124">**名稱**輸入您自動語音應答的描述性顯示名稱。</span><span class="sxs-lookup"><span data-stu-id="3d943-124">**Name** Enter a descriptive display name for your auto attendant.</span></span> <span data-ttu-id="3d943-125">名稱是必要的，而且最多可以包含64個字元，包括空格。</span><span class="sxs-lookup"><span data-stu-id="3d943-125">The name is required and can contain up to 64 characters, including spaces.</span></span> <span data-ttu-id="3d943-126">它會列在 [**自動**語音應答] 索引標籤的 [**名稱**] 欄中。</span><span class="sxs-lookup"><span data-stu-id="3d943-126">It is listed in the **Name** column on the **Auto attendants** tab.</span></span>
-
-* * *
-
-![在前一個螢幕擷取畫面中參照標注的數位2的圖示](media/sfbcallout2.png)
-
-<span data-ttu-id="3d943-128"><a name="phonenumber"> </a></span><span class="sxs-lookup"><span data-stu-id="3d943-128"></span></span>
-
-<span data-ttu-id="3d943-129">**資源帳戶**按一下此按鈕以選取一或多個資源帳戶以連線到您的新自動語音應答。</span><span class="sxs-lookup"><span data-stu-id="3d943-129">**Resource account** Click this button to select one or more resource accounts to connect to your new auto attendant.</span></span> <span data-ttu-id="3d943-130">必須有所有自動語音應答，才能擁有相關聯的資源帳戶。</span><span class="sxs-lookup"><span data-stu-id="3d943-130">All auto attendants are required to have an associated resource account.</span></span> <span data-ttu-id="3d943-131">資源帳戶可以有一個與該帳戶相關聯的電話號碼，但不需要電話號碼。</span><span class="sxs-lookup"><span data-stu-id="3d943-131">A resource account can have a phone number associated to the account, but a phone number isn't a requirement.</span></span> <span data-ttu-id="3d943-132">最上層的自動語音應答通常會有一個已指派電話號碼的資源帳戶，但嵌套的自動語音應答（用來做為第一級自動語音應答所連接的層級），可能不會有指派給其資源帳戶的電話號碼。</span><span class="sxs-lookup"><span data-stu-id="3d943-132">A top-level auto attendant usually has a resource account with an assigned phone number, but nested auto attendant (used as a level 2 menu that the first-level auto attendant connects to) might not have a phone number assigned to its resource account.</span></span>
+<span data-ttu-id="03a33-131"><a name="phonenumber"> </a></span><span class="sxs-lookup"><span data-stu-id="03a33-131"></span></span>
 
 * * *
 
-<span data-ttu-id="3d943-133">![在前一個螢幕擷取畫面](media/sfbcallout3.png)
- <a name="timezone"></a>中參照標注的數位3圖示</span><span class="sxs-lookup"><span data-stu-id="3d943-133">![Icon of the number 3, referencing a callout in the previous screenshot](media/sfbcallout3.png)
-<a name="timezone"> </a></span></span>
+<span data-ttu-id="03a33-132">![數位2的圖示，前一個螢幕擷取畫面](media/teamscallout2.png)
+ <a name="operator"></a> 
+**操作員**中的標注這是選擇性的（但建議使用）。</span><span class="sxs-lookup"><span data-stu-id="03a33-132">![Icon of the number 2,  a callout in the previous screenshot](media/teamscallout2.png)
+<a name="operator"> </a>
+**Operator** This is optional (but recommended).</span></span> <span data-ttu-id="03a33-133">您可以設定 [**運算子**] 選項，讓呼叫者中斷功能表並向指定的人朗讀。</span><span class="sxs-lookup"><span data-stu-id="03a33-133">You can set the **Operator** option to allow callers to break out of the menus and speak to a designated person.</span></span>
 
-<span data-ttu-id="3d943-134">**時區**您必須為自動語音應答設定時區，但不需要對應給您組織的主要位址時區。</span><span class="sxs-lookup"><span data-stu-id="3d943-134">**Time zone** You must set the time zone for your auto attendant, but it doesn't need to correspond to the time zone of the main address listed for your organization.</span></span> <span data-ttu-id="3d943-135">每個自動語音應答都可以有不同的時區，而且會根據您在此處選取的時區，設定自動語音應答的上班時間設定。</span><span class="sxs-lookup"><span data-stu-id="3d943-135">Each auto attendant can have a different time zone, and the business hours set for the auto attendant are set based on the time zone that you select here.</span></span>
+<span data-ttu-id="03a33-134">預設會將0按鍵指派給接線員。</span><span class="sxs-lookup"><span data-stu-id="03a33-134">The 0 key is assigned to Operator by default.</span></span>
 
-* * *
+<span data-ttu-id="03a33-135">如果您設定一個運算子，請在 [**通話流程**] 頁面上的 [**編輯] 功能表選項**中，告訴給有關該選項的人員。</span><span class="sxs-lookup"><span data-stu-id="03a33-135">If you set an Operator, tell people who call about the option in **Edit menu options** on the **Call flow** page.</span></span> <span data-ttu-id="03a33-136">如果您在自動語音應答上設定操作員，您可以在 [**呼叫者會聽到**] 方塊中輸入對應的提示文字，或變更您的音訊檔案，以包含此選項。</span><span class="sxs-lookup"><span data-stu-id="03a33-136">If you set an operator on your auto attendant, you enter the corresponding prompt text in the **Callers will hear** box or change your audio file to include this option.</span></span> <span data-ttu-id="03a33-137">例如，"For 運算子，請按零。</span><span class="sxs-lookup"><span data-stu-id="03a33-137">For example, "For the Operator, press zero."</span></span>
 
-![在前一個螢幕擷取畫面中參照標注的數位4圖示](media/sfbcallout4.png)
+<span data-ttu-id="03a33-138">您有幾種方式可以設定運算子：</span><span class="sxs-lookup"><span data-stu-id="03a33-138">You have several ways to set the Operator:</span></span>
 
-<span data-ttu-id="3d943-137"><a name="language"> </a></span><span class="sxs-lookup"><span data-stu-id="3d943-137"></span></span>
-
-<span data-ttu-id="3d943-138">**語言**從列出的任何可用語言中，選取您要用於自動語音應答的語言。</span><span class="sxs-lookup"><span data-stu-id="3d943-138">**Language** Select the language that you want to use for your auto attendant from any of the available languages listed.</span></span> <span data-ttu-id="3d943-139">您在這裡設定的語言是自動語音助理用來與呼叫此自動語音應答的人員互動的語言，且所有系統提示都會以這種語言播放。</span><span class="sxs-lookup"><span data-stu-id="3d943-139">The language you set here is the language that the auto attendant uses to interact with people that call in to this auto attendant, and all the system prompts are played in this language.</span></span>
-
-* * *
-
-![在前一個螢幕擷取畫面中參照標注的數位5圖示](media/sfbcallout5.png)
-
-<span data-ttu-id="3d943-141"><a name="operator"> </a></span><span class="sxs-lookup"><span data-stu-id="3d943-141"></span></span>
-
-<span data-ttu-id="3d943-142">**運算子**這是選擇性的，但您可以設定**運算子**選項，以允許呼叫者中斷功能表並向人員朗讀。</span><span class="sxs-lookup"><span data-stu-id="3d943-142">**Operator** This is optional, but you can set the **Operator** option to allow callers to break out of the menus and speak to a person.</span></span>
-
-<span data-ttu-id="3d943-143">預設會將0按鍵指派給接線員。</span><span class="sxs-lookup"><span data-stu-id="3d943-143">The 0 key is assigned to Operator by default.</span></span>
-
-<span data-ttu-id="3d943-144">如果您設定一個運算子，您也必須在 [商務用時**通話處理**] 頁面上的 [**編輯] 功能表選項**中，告訴誰呼叫有關該選項的人員。</span><span class="sxs-lookup"><span data-stu-id="3d943-144">If you set an Operator, you will also need to tell people who call about the option in the **Edit menu options** on the **Business hours call handling** page.</span></span> <span data-ttu-id="3d943-145">如果您在自動語音應答上設定操作員，您必須在 [**呼叫者會聽到**] 方塊中輸入對應的提示文字，或變更您的音訊檔案，以包含此選項。</span><span class="sxs-lookup"><span data-stu-id="3d943-145">If you set an operator on your auto attendant, you need to enter the corresponding prompt text in the **Callers will hear** box or change your audio file to include this option.</span></span> <span data-ttu-id="3d943-146">例如，"For 運算子，請按零。</span><span class="sxs-lookup"><span data-stu-id="3d943-146">For example, "For the Operator, press zero."</span></span>
-
-<span data-ttu-id="3d943-147">您有幾種方式可以設定運算子：</span><span class="sxs-lookup"><span data-stu-id="3d943-147">You have several ways to set the Operator:</span></span>
-
-- <span data-ttu-id="3d943-148">**貴公司中的人員**，在 Office 365 中已啟用企業語音或指派通話方案的**電話系統**授權。</span><span class="sxs-lookup"><span data-stu-id="3d943-148">**Person in your company** with a **Phone System** license that is enabled for Enterprise Voice or assigned Calling Plans in Office 365.</span></span>
+- <span data-ttu-id="03a33-139">[**無] 運算子**會停用「運算子」和「按0」選項。</span><span class="sxs-lookup"><span data-stu-id="03a33-139">**No operator** disables the "Operator" and "Press 0" options.</span></span> <span data-ttu-id="03a33-140">這是目前的預設值。</span><span class="sxs-lookup"><span data-stu-id="03a33-140">This is the current default.</span></span>
+- <span data-ttu-id="03a33-141">**貴組織中的人員**會為 Office 365 中已啟用企業語音或指派通話方案的電話系統授權指派人員。</span><span class="sxs-lookup"><span data-stu-id="03a33-141">**Person in your organization** assigns a person with a Phone System license that is enabled for Enterprise Voice or assigned Calling Plans in Office 365.</span></span> <span data-ttu-id="03a33-142">您也可以將呼叫者設定為傳送給語音信箱。</span><span class="sxs-lookup"><span data-stu-id="03a33-142">You can also set it up so the caller is sent to voicemail.</span></span> <span data-ttu-id="03a33-143">若要傳送來電者至語音信箱，請選取**貴組織中的人員**，並將該帳戶的設定設為直接傳送來電給語音信箱。</span><span class="sxs-lookup"><span data-stu-id="03a33-143">To send a caller to voicemail, select **Person in your organization** and set that account's settings to send calls directly to voicemail.</span></span>
 
      > [!Note]
-     > <span data-ttu-id="3d943-149">**貴公司中的人員**可以是線上使用者，或使用商務用 Skype server 2015 或 Lync server 2013 主機內部部署的使用者。</span><span class="sxs-lookup"><span data-stu-id="3d943-149">**Person in your company** can be an Online user or a user hosted on-premises using Skype for Business Server 2015 or Lync Server 2013.</span></span>
+     > <span data-ttu-id="03a33-144">**貴組織中的人員**可以是線上使用者，或使用商務用 Skype Server 託管內部部署的使用者。</span><span class="sxs-lookup"><span data-stu-id="03a33-144">**Person in your organization** can be an Online user or a user hosted on-premises using Skype for Business Server.</span></span>
 
-- <span data-ttu-id="3d943-150">**語音應用程式**選取與已建立之通話佇列或自動助理相關聯的資源帳戶名稱。</span><span class="sxs-lookup"><span data-stu-id="3d943-150">**Voice application** Select the name of a resource account associated to either a call queue or auto attendant that has already been created.</span></span>
-- <span data-ttu-id="3d943-151">您可以設定它，讓呼叫者傳送至語音信箱。</span><span class="sxs-lookup"><span data-stu-id="3d943-151">You can set it up so the person calling is sent to voicemail.</span></span> <span data-ttu-id="3d943-152">若要這樣做，請選取**貴公司中的人員**，並將此人的來電設定為直接轉接至語音信箱。</span><span class="sxs-lookup"><span data-stu-id="3d943-152">To do this, select **Person in your company** and set this person's calls to be forwarded directly to voicemail.</span></span>
+- <span data-ttu-id="03a33-145">**語音功能** 選取連結到已建立之自動語音應答或通話佇列之資源帳戶的名稱。</span><span class="sxs-lookup"><span data-stu-id="03a33-145">**Voice Feature**  Select the name of the resource account linked to an auto attendant or call queue that has already been created.</span></span> <span data-ttu-id="03a33-146">要求操作員的呼叫者會被重新導向。</span><span class="sxs-lookup"><span data-stu-id="03a33-146">Callers that request an operator are redirected there.</span></span>  
+<!--   
 
-* * *
+- **Auto attendant** Select the name of the resource account linked to an auto attendant that has already been created. Callers that request an operator are redirected there.
+- **Call queue** Select the name of the resource account linked to a call queue that has already been created. Callers that request an operator are redirected there.
 
-![在前一個螢幕擷取畫面中參照標注的數位6圖示](media/sfbcallout6.png)
-
-<span data-ttu-id="3d943-154">**啟用語音輸入**如果選取此選項，就可以使用語音辨識。</span><span class="sxs-lookup"><span data-stu-id="3d943-154">**Enable voice inputs** Speech recognition is available if this option is selected.</span></span> <span data-ttu-id="3d943-155">通話中的人員可以使用[您所設定之語言](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)的語音輸入。</span><span class="sxs-lookup"><span data-stu-id="3d943-155">People that call in can use voice input in the  [language you set](set-auto-attendant-languages-for-audio-conferencing-in-teams.md).</span></span> <span data-ttu-id="3d943-156">如果您只想讓人員使用電話鍵台，您可以將語音辨識設定為 [關閉] 來停用。</span><span class="sxs-lookup"><span data-stu-id="3d943-156">If you want to only let people use their phone keypad, you can disable speech recognition by setting it to off.</span></span>
-
-* * *
-
-<span data-ttu-id="3d943-157">當您完成選取專案時，請按 **[下一步]**。</span><span class="sxs-lookup"><span data-stu-id="3d943-157">When you are finished with your selections, click **Next**.</span></span>
-
-#### <a name="business-hours-page"></a><span data-ttu-id="3d943-158">[上班時間] 頁面</span><span class="sxs-lookup"><span data-stu-id="3d943-158">Business hours page</span></span>
-
-<span data-ttu-id="3d943-159">根據預設，上班時間會設定為 9:00 am 5:00 到星期五下午，星期一到星期五。</span><span class="sxs-lookup"><span data-stu-id="3d943-159">By default, business hours are set to 9:00 am to 5:00 pm, Monday through Friday.</span></span> <span data-ttu-id="3d943-160">在上班時間之後，所有不包含在上班時間的時間都會被認為是在上班時間之後。</span><span class="sxs-lookup"><span data-stu-id="3d943-160">All hours that aren't included in business hours are considered after business hours.</span></span> <span data-ttu-id="3d943-161">您可以按一下 [**選取 24/7** ]，以完成所有的上班時間。</span><span class="sxs-lookup"><span data-stu-id="3d943-161">You can click **Select 24/7** to make all hours business hours.</span></span> <span data-ttu-id="3d943-162">除非您選取 [**選取 24/7** ] 選項，否則將會使用 [**下班後通話設定**] 頁面來設定自動語音應答在商務時間之後的通話處理規則。</span><span class="sxs-lookup"><span data-stu-id="3d943-162">Unless you select the **Select 24/7** option, the **After hours call settings** page will be used to configure the call handling rules for after business hours for the auto attendant.</span></span>
-
-![[上班時間] 頁面的螢幕擷取畫面](media/61769547-cdb4-45c0-af5a-3d6e0731fbc6.png)
-
-* * *
-
-![在前一個螢幕擷取畫面中參照標注的數位1圖示](media/sfbcallout1.png)
-
-<span data-ttu-id="3d943-165">根據預設，上班時間設定為週一至週五，即 9:00 am-5:00 pm。</span><span class="sxs-lookup"><span data-stu-id="3d943-165">By default, business hours are set to Monday to Friday, 9:00 am-5:00 pm.</span></span> <span data-ttu-id="3d943-166">選取 [**清除所有時間**] 選項，以取消選取排程中的所有時間。</span><span class="sxs-lookup"><span data-stu-id="3d943-166">Select **Clear all hours** option to unselect all hours in the schedule.</span></span> <span data-ttu-id="3d943-167">當您選取 [**重設為預設值**] 時，系統會將 [上班時間] 重設為 [週一至週五]，即 9:00 am-5:00</span><span class="sxs-lookup"><span data-stu-id="3d943-167">When you select **Reset to default**, business hours are reset to Monday to Friday, 9:00 am-5:00 pm.</span></span>
-
-* * *
-
-![在前一個螢幕擷取畫面中參照標注的數位2的圖示](media/sfbcallout2.png)
-
-<span data-ttu-id="3d943-169">若要變更上班時間，請在 [行事曆] 中，醒目提示您要設定的上班時間。</span><span class="sxs-lookup"><span data-stu-id="3d943-169">To change business hours, highlight the business hours you want to set in the calendar.</span></span> <span data-ttu-id="3d943-170">行事曆可讓您以30分鐘的間隔來選取上班時間，您在此選取的上班時間是以您在 [**一般資訊**] 頁面上所設定的時區為基礎。</span><span class="sxs-lookup"><span data-stu-id="3d943-170">The calendar allows you to select business hours in 30-minute intervals, and the business hours you select here are based on the time zone that you set on the **General info** page.</span></span> <span data-ttu-id="3d943-171">若要設定工間休息（例如午餐），請取消選取或拖曳以取消選取行事曆上的時間。</span><span class="sxs-lookup"><span data-stu-id="3d943-171">To set up a break (a lunch break, for example), deselect or drag to deselect the time on the calendar.</span></span> <span data-ttu-id="3d943-172">您可以在上班時間內設定多個工間休息。</span><span class="sxs-lookup"><span data-stu-id="3d943-172">You can set multiple breaks within business hours.</span></span>
-
-* * *
-
-<span data-ttu-id="3d943-173">當您完成選取專案時，請按 **[下一步]**。</span><span class="sxs-lookup"><span data-stu-id="3d943-173">When you are finished with your selections, click **Next**.</span></span>
-
-#### <a name="business-hours-call-settings"></a><span data-ttu-id="3d943-174">商務時間通話設定</span><span class="sxs-lookup"><span data-stu-id="3d943-174">Business hours call settings</span></span>
-
-> [!TIP]
-> <span data-ttu-id="3d943-175">如果您使用自訂的上班時間排程，您也必須在上班時間之後，使用 [**下班後通話處理**] 頁面來設定通話處理，這會提供與 [**商務時間通話] 設定**相同的選項。</span><span class="sxs-lookup"><span data-stu-id="3d943-175">If you use a custom business hours schedule, you will also need to set up call handing for after business hours using the **After hours call handling** page, which will give you the same options as **Business hours call settings**.</span></span>
-
-<span data-ttu-id="3d943-176">您可以設定問候語、提示和功能表，讓使用者在營業期間聽到連結到貴組織的電話號碼。</span><span class="sxs-lookup"><span data-stu-id="3d943-176">You can set up greetings, prompts, and menus that people hear when they call to the phone number linked to your organization's auto attendant during business hours.</span></span>
-
-<span data-ttu-id="3d943-177">![[上班時間通話處理] 頁面問候區段](media/2a33b1f7-d362-47a7-bf32-ef702bc878e8.png)
-![螢幕擷取畫面顯示 [上班時間通話處理] 頁面動作區段的螢幕擷取畫面](media/2a33b1f7-d362-47a7-bf32-ef702bc878e8b.png)</span><span class="sxs-lookup"><span data-stu-id="3d943-177">![Screenshot of the Business hours call handling page Greeting section](media/2a33b1f7-d362-47a7-bf32-ef702bc878e8.png)
-![Screenshot of the Business hours call handling page Actions section](media/2a33b1f7-d362-47a7-bf32-ef702bc878e8b.png)</span></span>
-
-* * *
-
-![在前一個螢幕擷取畫面中參照標注的數位1圖示](media/sfbcallout1.png)
-
-<span data-ttu-id="3d943-179"><a name="greetingsandrouting"> </a></span><span class="sxs-lookup"><span data-stu-id="3d943-179"></span></span>
-
-<span data-ttu-id="3d943-180">**問候語**商務時間問候語是選擇性的，而且可以設定為 [**無問候語**]。</span><span class="sxs-lookup"><span data-stu-id="3d943-180">**Greeting** A business hours greeting is optional and can be set to **No greeting**.</span></span> <span data-ttu-id="3d943-181">在此情況下，來電程式在由您選取的其中一個動作處理之前，不會聽到訊息或問候。</span><span class="sxs-lookup"><span data-stu-id="3d943-181">In this case, the caller won't hear a message or greeting before the call is handled by one of the actions you select.</span></span> <span data-ttu-id="3d943-182">您也可以上傳音訊檔案（.wav、mp3 或 .wma 格式），或使用文字轉換語音來建立自訂問候語。</span><span class="sxs-lookup"><span data-stu-id="3d943-182">You can also upload an audio file (in .wav, mp3 or .wma formats), or create a custom greeting using Text-to-Speech.</span></span>
-- <span data-ttu-id="3d943-183">**上傳音訊**檔案如果您選擇此選項，請錄製問候語，然後上傳音訊檔案（以 .wav、mp3 或 .wma 格式）。</span><span class="sxs-lookup"><span data-stu-id="3d943-183">**Upload an audio file** If you choose this, record the greeting and then upload your audio file (in a .wav, .mp3 or .wma format).</span></span>
-- <span data-ttu-id="3d943-184">**輸入問候訊息**如果您選擇此選項，請輸入您想要系統讀取的文字（最多1000個字元）。</span><span class="sxs-lookup"><span data-stu-id="3d943-184">**Type a greeting message** If you choose this option, enter the text you want the system to read (up to 1000 characters).</span></span> <span data-ttu-id="3d943-185">例如，您可以輸入「歡迎使用 Contoso。</span><span class="sxs-lookup"><span data-stu-id="3d943-185">For example, you might enter "Welcome to Contoso.</span></span> <span data-ttu-id="3d943-186">您的通話對我們很重要。」</span><span class="sxs-lookup"><span data-stu-id="3d943-186">Your call is important to us."</span></span> <span data-ttu-id="3d943-187">在 [**呼叫者將會聽到**] 方塊中。</span><span class="sxs-lookup"><span data-stu-id="3d943-187">in the **Callers will hear** box.</span></span>
-
-* * *
-
-![在前一個螢幕擷取畫面中參照標注的數位2的圖示](media/sfbcallout2.png)
-
-<span data-ttu-id="3d943-189">您可以選取在上班時間內到貨的通話情況。</span><span class="sxs-lookup"><span data-stu-id="3d943-189">You can select what happens to calls that arrive during business hours.</span></span> <span data-ttu-id="3d943-190">您可以從下列動作中選擇：</span><span class="sxs-lookup"><span data-stu-id="3d943-190">You can chose from the following actions:</span></span>
-
-<span data-ttu-id="3d943-191"><a name="redirectcalls"> </a></span><span class="sxs-lookup"><span data-stu-id="3d943-191"></span></span>
-
-- <span data-ttu-id="3d943-192">**中斷**連線如果您選取它，在聽到上班時間的問候之後，通話中的人員將會中斷連線。</span><span class="sxs-lookup"><span data-stu-id="3d943-192">**Disconnect** If you select it, the person calling in will be disconnected after hearing a business hours greeting.</span></span>
-- <span data-ttu-id="3d943-193">重新**導向通話**這可以用來將來電自動傳送至：</span><span class="sxs-lookup"><span data-stu-id="3d943-193">**Redirect call** This can be used to automatically send the call to:</span></span>
-  - <span data-ttu-id="3d943-194">**公司中的人員**，在 Office 365 中已啟用企業語音或指派通話方案的**電話系統**授權。</span><span class="sxs-lookup"><span data-stu-id="3d943-194">**Person in company** with a **Phone System** license that is enabled for Enterprise Voice or assigned Calling Plans in Office 365.</span></span> <span data-ttu-id="3d943-195">您可以將它設定為可將呼叫的人傳送給語音信箱。</span><span class="sxs-lookup"><span data-stu-id="3d943-195">You can set it up so the person calling in can be sent to voicemail.</span></span> <span data-ttu-id="3d943-196">若要這樣做，請選取 [**公司中的人員**]，並將 [此人] 設為 [將來電直接轉寄給語音信箱]</span><span class="sxs-lookup"><span data-stu-id="3d943-196">To do this, select **Person in company** and set this person to have their calls forwarded directly to voicemail.</span></span>
-
-    > [!Note]
-    > <span data-ttu-id="3d943-197">**公司中的人員**可以是線上使用者，或者是使用商務用 Skype server 2015 或 Lync server 2013 的使用者託管內部部署。</span><span class="sxs-lookup"><span data-stu-id="3d943-197">**Person in company** can be an Online user or a user hosted on-premises using Skype for Business Server 2015 or Lync Server 2013.</span></span>
-
-   - <span data-ttu-id="3d943-198">其他**自動助理**</span><span class="sxs-lookup"><span data-stu-id="3d943-198">Another **Auto attendant**</span></span>
-
-   <span data-ttu-id="3d943-199">您可以使用現有的自動助手來建立包含子功能表的第二層功能表選項。</span><span class="sxs-lookup"><span data-stu-id="3d943-199">You can use an existing auto attendant to create a second level of menu options containing a sub-menu.</span></span> <span data-ttu-id="3d943-200">這些稱為嵌套自動語音應答。</span><span class="sxs-lookup"><span data-stu-id="3d943-200">These are called nested auto attendants.</span></span> <span data-ttu-id="3d943-201">若要將呼叫傳送至嵌套的自動語音應答，請選取 [**公司] 中**的 [人員] 並指派已有關聯自動語音應答的人員，或在建立完此自動語音應答之後，就會與自動語音助理建立關聯的資源帳戶。</span><span class="sxs-lookup"><span data-stu-id="3d943-201">To send the call to a nested auto attendant, select **Person in company** and assign a resource account, either one that already has an associated auto attendant or one that you will associate to an auto attendant once you are done creating this auto attendant.</span></span>
-
-- <span data-ttu-id="3d943-202">您也可以使用 [**播放] 功能表選項**，讓您設定您想要播放的提示。</span><span class="sxs-lookup"><span data-stu-id="3d943-202">**Play menu options** can also be used to let you set up a prompt you want played.</span></span>
-
-* * *
-
-![在前一個螢幕擷取畫面中參照標注的數位3圖示](media/sfbcallout3.png)
-
-<span data-ttu-id="3d943-204">**功能表提示**若要建立主功能表提示，您可以使用文字轉換語音或上傳音訊檔案（.wav、mp3 或 .wma）。</span><span class="sxs-lookup"><span data-stu-id="3d943-204">**Menu prompt** To create main menu prompt, you can either use Text-to-Speech or upload an audio file (.wav, .mp3 or .wma).</span></span> <span data-ttu-id="3d943-205">您可以在 [**設定您的呼叫者的功能表流覽**] 方塊中輸入提示，或錄製音訊檔案，例如：「銷售」，比如說或按下或說出1。</span><span class="sxs-lookup"><span data-stu-id="3d943-205">You can type the prompt in the **Set your menu navigation for callers** box or record an audio file and say, for example: "For Sales, say or press or say 1.</span></span> <span data-ttu-id="3d943-206">針對 [服務]，請按或說出 [2]。</span><span class="sxs-lookup"><span data-stu-id="3d943-206">For Services, press or say 2.</span></span> <span data-ttu-id="3d943-207">如需客戶支援，請按或說出3。</span><span class="sxs-lookup"><span data-stu-id="3d943-207">For Customer Support, press or say 3.</span></span> <span data-ttu-id="3d943-208">針對運算子，請按或說出 [0]。</span><span class="sxs-lookup"><span data-stu-id="3d943-208">For the operator, press or say 0.</span></span> <span data-ttu-id="3d943-209">若要再次聆聽此功能表，請按星號鍵或說 [重複]。</span><span class="sxs-lookup"><span data-stu-id="3d943-209">To hear this menu again, press the star key or say repeat."</span></span> <span data-ttu-id="3d943-210">**輸入問候訊息**如果您選擇這個選項，就應該輸入您想要系統讀取的文字（最多1000個字元）。</span><span class="sxs-lookup"><span data-stu-id="3d943-210">**Type a greeting message** If you chose this, you should enter the text you want the system to read (up to 1000 characters).</span></span> <span data-ttu-id="3d943-211">**上傳音訊**檔案如果您選擇此選項，您將需要錄製問候語，然後上傳音訊檔案（以 .wav、mp3 或 .wma 格式）。</span><span class="sxs-lookup"><span data-stu-id="3d943-211">**Upload an audio file** If you chose this, you will need to record the greeting and then upload your audio file (in a .wav, mp3 or .wma format).</span></span>
-
-* * *
-
-![在前一個螢幕擷取畫面中參照標注的數位4圖示](media/sfbcallout4.png)
-
-<span data-ttu-id="3d943-213">**功能表選項設定**您可以新增或移除鍵盤上使用按鍵按鈕的功能表選項。</span><span class="sxs-lookup"><span data-stu-id="3d943-213">**Menu options setup** Menu options using key buttons on the keypad can be added or removed.</span></span> <span data-ttu-id="3d943-214">若要新增功能表選項，請按 **+ 指派撥號鍵**。</span><span class="sxs-lookup"><span data-stu-id="3d943-214">To add a menu option, press **+ Assign a dial key**.</span></span> <span data-ttu-id="3d943-215">對應列的選項會顯示在下方。</span><span class="sxs-lookup"><span data-stu-id="3d943-215">A corresponding row of options will appear below.</span></span> <span data-ttu-id="3d943-216">若要刪除功能表選項，只需按一下 [小鍵盤] 控制項上對應鍵的左側，然後按一下上方的 [刪除] 圖示。</span><span class="sxs-lookup"><span data-stu-id="3d943-216">To delete a menu option, simply click to the left of the corresponding key on the keypad control and click on the delete icon above.</span></span> <span data-ttu-id="3d943-217">將會移除 [鍵對應] 列。</span><span class="sxs-lookup"><span data-stu-id="3d943-217">The key mapping row will be removed.</span></span>
-
-> [!TIP]
-> <span data-ttu-id="3d943-218">在新增至移除選項時，您必須更新功能表提示文字，或重新錄製音訊，因為現有的功能表提示不會自動完成。</span><span class="sxs-lookup"><span data-stu-id="3d943-218">You will have to update menu prompts text or re-record the audio separately when adding to removing options because it won't be automatically done for the existing menu prompt.</span></span>  
->
-><span data-ttu-id="3d943-219">任何順序都可以新增或移除任何功能表選項，而且鍵對應不一定是連續的。</span><span class="sxs-lookup"><span data-stu-id="3d943-219">Any menu option can be added and removed in any order, and the key mappings don't have to be continuous.</span></span> <span data-ttu-id="3d943-220">例如，您可以建立一個含有鍵0、1和3的功能表，並對應至選項，而不使用鍵2。</span><span class="sxs-lookup"><span data-stu-id="3d943-220">It is possible, for example, to create a menu with keys 0, 1, and 3 mapped to options, while the key 2 isn't used.</span></span>
+**Phone number (optional)** Enter the service phone number you want to assign to the new resource account this wizard creates and links to the new auto attendant. If you intend this auto attendant to be a nested auto attendant, it doesn't need a phone number. You can add one if for some reason you require several ways to connect to the auto attendant system.
 
 > [!NOTE]
-> <span data-ttu-id="3d943-221">按鍵\* （重複）及\# （背面）是由系統所保留，而且無法重新指派。</span><span class="sxs-lookup"><span data-stu-id="3d943-221">The keys \* (Repeat) and \# (Back) are reserved by the system and can't be reassigned.</span></span> <span data-ttu-id="3d943-222">如果已啟用語音辨識功能，按下 \* 將與 "Repeat" 相對應，且 # 會與 "Back" 聲音命令相對應。</span><span class="sxs-lookup"><span data-stu-id="3d943-222">If speech recognition is enabled, pressing \* will correspond with "Repeat" and # will correspond with the "Back" voice commands.</span></span>
+> Auto attendants created after October 10th, 2019 also create a new [resource account](manage-resource-accounts.md) that is associated with the auto attendant. If a phone number is applied to the auto attendant's resource account,  a Phone System - Virtual user license is applied to the resource account if one is available.
+-->
 
-<span data-ttu-id="3d943-223">若要設定功能表選項，請在選取撥號鍵之後，您必須：</span><span class="sxs-lookup"><span data-stu-id="3d943-223">To set up your menu options, after you select the dial key(s), you will need to:</span></span>
+* * * 
 
-- <span data-ttu-id="3d943-224">輸入選項的 [**語音] 命令**。</span><span class="sxs-lookup"><span data-stu-id="3d943-224">Enter the **Voice command**  of the option.</span></span> <span data-ttu-id="3d943-225">最多可包含64個字元，而且可以包含多個字，例如「客戶服務」或「作業與使用中」。</span><span class="sxs-lookup"><span data-stu-id="3d943-225">This can be up to 64 characters long, and can contain multiple words like "Customer Service" or "Operations and Grounds."</span></span> <span data-ttu-id="3d943-226">如果已啟用語音辨識功能，就會自動辨識名稱，而撥入的人員就可以按3，說出「三」，或者說「客戶服務」，選取對應至鍵3的選項。</span><span class="sxs-lookup"><span data-stu-id="3d943-226">If speech recognition is enabled, the name will automatically be recognized, and the person calling in will be able to either press 3, say "three," or say "Customer Service" to select the option mapped to key 3.</span></span>
-- <span data-ttu-id="3d943-227">如果按下對應的按鍵，或使用語音辨識來選取此選項，請選取要傳送通話的位置。</span><span class="sxs-lookup"><span data-stu-id="3d943-227">Select where the call is to be sent if the corresponding key is pressed, or the option is selected using speech recognition.</span></span> <span data-ttu-id="3d943-228">通話可以傳送至：</span><span class="sxs-lookup"><span data-stu-id="3d943-228">The call can be sent to:</span></span>
-
-  - <span data-ttu-id="3d943-229">**運算子**如果已設定運算子，就會自動對應到 key 0，但是也可以將它刪除或重新指派給不同的金鑰。</span><span class="sxs-lookup"><span data-stu-id="3d943-229">**Operator** If operator is already set up, it is automatically mapped to key 0, but it can also be deleted or reassigned to a different key.</span></span> <span data-ttu-id="3d943-230">如果運算子未設為任何鍵，語音命令 "Operator" 也將停用。</span><span class="sxs-lookup"><span data-stu-id="3d943-230">If operator isn't set to any key, then the voice command "Operator" will be disabled too.</span></span>
-  - <span data-ttu-id="3d943-231">**貴公司中的人員**，在 Office 365 中已啟用企業語音或指派通話方案的**電話系統**授權。</span><span class="sxs-lookup"><span data-stu-id="3d943-231">A **Person in your company** with a **Phone System** license that is enabled for Enterprise Voice or assigned an Calling Plan in Office 365.</span></span> <span data-ttu-id="3d943-232">您可以將它設定為可將呼叫的人傳送給語音信箱。</span><span class="sxs-lookup"><span data-stu-id="3d943-232">You can set it up so the person calling in can be sent to voicemail.</span></span> <span data-ttu-id="3d943-233">若要這樣做，請選取**貴公司中的人員**，並將其來電設定為直接轉接至語音信箱。</span><span class="sxs-lookup"><span data-stu-id="3d943-233">To do this, select **Person in your company** and set this person to have their calls forwarded directly to voicemail.</span></span>
-
-    > [!Note]
-    > <span data-ttu-id="3d943-234">**貴公司中的人員**可以是線上使用者，或使用商務用 Skype Server 或 Lync server 2013 託管內部部署的使用者。</span><span class="sxs-lookup"><span data-stu-id="3d943-234">**Person in your company** can be an Online user or a user hosted on-premises using Skype for Business Server or Lync Server 2013.</span></span>
-
-  - <span data-ttu-id="3d943-235">其他**自動助理**</span><span class="sxs-lookup"><span data-stu-id="3d943-235">Another **Auto attendant**</span></span>
-
-       <span data-ttu-id="3d943-236">您可以使用現有的自動助手來建立包含子功能表的第二層功能表選項。</span><span class="sxs-lookup"><span data-stu-id="3d943-236">You can use an existing auto attendant to create a second level of menu options containing a sub-menu.</span></span> <span data-ttu-id="3d943-237">這些稱為嵌套自動語音應答。</span><span class="sxs-lookup"><span data-stu-id="3d943-237">These are called nested auto attendants.</span></span> <span data-ttu-id="3d943-238">若要將呼叫傳送至嵌套的自動語音應答，請選取 [**公司] 中**的 [人員] 並指派已有關聯自動語音應答的人員，或在建立完此自動語音應答之後，就會與自動語音助理建立關聯的資源帳戶。</span><span class="sxs-lookup"><span data-stu-id="3d943-238">To send the call to a nested auto attendant, select **Person in company** and assign a resource account, either one that already has an associated auto attendant or one that you will associate to an auto attendant once you are done creating this auto attendant.</span></span>
-
-        > [!Note]
-        > The **Business Hours** of nested (or second-level) auto attendants will also be used, including for the calls sent from other auto attendants that have been set up.
-
-    - <span data-ttu-id="3d943-239">**語音應用程式**選取與已建立之通話佇列或自動助理相關聯的資源帳戶名稱。</span><span class="sxs-lookup"><span data-stu-id="3d943-239">**Voice application** Select the name of a resource account associated to either a call queue or auto attendant that has already been created.</span></span>
+<span data-ttu-id="03a33-147">![數位3的圖示，前一個螢幕擷取畫面](media/teamscallout3.png)<a name="timezone"></a>  
+**時區**中的標注，您必須為自動語音應答設定時區。</span><span class="sxs-lookup"><span data-stu-id="03a33-147">![Icon of the number 3,  a callout in the previous screenshot](media/teamscallout3.png)<a name="timezone"> </a> 
+**Time zone** You are required to set the time zone for your auto attendant.</span></span> <span data-ttu-id="03a33-148">此設定可以與您組織的主要位址時區，或其他時區相同。</span><span class="sxs-lookup"><span data-stu-id="03a33-148">The setting can be the same as the time zone of the main address listed for your organization, or a different time zone.</span></span> <span data-ttu-id="03a33-149">每個自動助理都可以有不同的時區。</span><span class="sxs-lookup"><span data-stu-id="03a33-149">Each auto attendant can have a different time zone.</span></span> <span data-ttu-id="03a33-150">自動語音應答的 [上班時間] 設定也會使用 [此時區]。</span><span class="sxs-lookup"><span data-stu-id="03a33-150">The business hours set for the auto attendant also use this time zone.</span></span>
 
 * * *
 
-![在前一個螢幕擷取畫面中參照標注的數位5圖示](media/sfbcallout5.png)
+<span data-ttu-id="03a33-151">![數位4的圖示，前一個螢幕擷取畫面](media/teamscallout4.png)
+ <a name="language"></a> 
+**語言**中的標注選取您要用於自動語音應答的語言。</span><span class="sxs-lookup"><span data-stu-id="03a33-151">![Icon of the number 4,  a callout in the previous screenshot](media/teamscallout4.png)
+<a name="language"> </a>
+**Language** Select the language that you want to use for your auto attendant.</span></span> <span data-ttu-id="03a33-152">自動語音應答會將該語言用於呼叫者，且系統會以這種語言來播放所有系統提示。</span><span class="sxs-lookup"><span data-stu-id="03a33-152">The auto attendant uses that language with callers, and all system prompts are played in this language.</span></span>
 
-<span data-ttu-id="3d943-241">**依名稱撥號**如果您選擇這個選項，這會讓打電話給您的人員使用 [目錄搜尋] 搜尋貴組織中的人員。</span><span class="sxs-lookup"><span data-stu-id="3d943-241">**Dial by name** If you choose this option, this will enable people who call in to search for people in your organization using Directory Search.</span></span> <span data-ttu-id="3d943-242">您可以在 [**撥號作用**中] 頁面上設定這些選項，以選取哪些人員將被列為 [可用] 或 [無法供撥號使用]。</span><span class="sxs-lookup"><span data-stu-id="3d943-242">You can select which people will be listed as available or not available for Dial by Name by setting up those options on the **Dial scope** page.</span></span> <span data-ttu-id="3d943-243">使用**電話系統**授權的任何線上使用者，或任何使用商務用 Skype Server 或 Lync server 2013 的使用者，都可以透過名稱來找到。</span><span class="sxs-lookup"><span data-stu-id="3d943-243">Any online user with a **Phone System** license, or any user hosted on-premises using Skype for Business Server or Lync Server 2013, can be found with Dial by Name.</span></span>
+ * * *
 
-* * *
+<span data-ttu-id="03a33-153">![# 5 的圖示，在選取此選項時，前](media/teamscallout5.png)
+一個螢幕擷取畫面中的標注會**啟用語音輸入**語音辨識功能。</span><span class="sxs-lookup"><span data-stu-id="03a33-153">![Icon of the number 5,  a callout in the previous screenshot](media/teamscallout5.png)
+**Enable voice inputs** Speech recognition is available if this option is selected.</span></span> <span data-ttu-id="03a33-154">呼叫者可以使用[您所設定之語言](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)的語音輸入。</span><span class="sxs-lookup"><span data-stu-id="03a33-154">Callers can use voice input in the  [language you set](set-auto-attendant-languages-for-audio-conferencing-in-teams.md).</span></span> <span data-ttu-id="03a33-155">如果您只想讓其他人使用電話鍵進行選取，您可以將語音辨識設定為 [**關閉**]。</span><span class="sxs-lookup"><span data-stu-id="03a33-155">If you want to only let people use their phone keypad to make selections, you can leave speech recognition set to **Off**.</span></span>
 
-<span data-ttu-id="3d943-244">當您完成選取專案時，請按一下 **[下一步]**。</span><span class="sxs-lookup"><span data-stu-id="3d943-244">When you are finished with your selections, click on **Next**.</span></span>
+* * *  
 
-#### <a name="holiday-call-settings"></a><span data-ttu-id="3d943-245">假日通話設定</span><span class="sxs-lookup"><span data-stu-id="3d943-245">Holiday call settings</span></span>
+<span data-ttu-id="03a33-156">完成選取後，請按 **[下一步**]。</span><span class="sxs-lookup"><span data-stu-id="03a33-156">When you finish with your selections, click **Next**.</span></span>
 
-<span data-ttu-id="3d943-246"><a name="holidaygreetings"> </a></span><span class="sxs-lookup"><span data-stu-id="3d943-246"></span></span>
+#### <a name="call-flow"></a><span data-ttu-id="03a33-157">通話流程</span><span class="sxs-lookup"><span data-stu-id="03a33-157">Call flow</span></span>
 
-<span data-ttu-id="3d943-247">您最多可以將20個排定的假日新增至每個自動語音應答。</span><span class="sxs-lookup"><span data-stu-id="3d943-247">You can add up to 20 scheduled holidays to each auto attendant.</span></span>
+<span data-ttu-id="03a33-158"><a name="greetingsandrouting"> </a></span><span class="sxs-lookup"><span data-stu-id="03a33-158"></span></span>
 
 > [!TIP]
-> <span data-ttu-id="3d943-248">您可以在**組織內設定** > **假日**移至畫面來建立假日，或者您可以建立新的呼叫處理常式的一部分。</span><span class="sxs-lookup"><span data-stu-id="3d943-248">You can go the the screen at **Org-wide settings** > **Holidays** to create Holidays, or you can create them as part of creating a new call handler.</span></span>
+> <span data-ttu-id="03a33-159">您可以選擇設定自訂的上班時間排程，並在上班時間期間和之後進行不同的通話流程行為。</span><span class="sxs-lookup"><span data-stu-id="03a33-159">You can choose to set up a custom business hours schedule, with different call flow behaviors during and after business hours.</span></span> <span data-ttu-id="03a33-160">若要設定自訂排程，請設定[下班後的選擇性通話流程](#call-flow-for-after-hours)。</span><span class="sxs-lookup"><span data-stu-id="03a33-160">To set a custom schedule, set the optional [Call flow for after hours](#call-flow-for-after-hours).</span></span> <span data-ttu-id="03a33-161">根據預設，自動語音應答會使用上班時間通話流程。</span><span class="sxs-lookup"><span data-stu-id="03a33-161">By default, an auto attendant uses business hours call flows.</span></span>
 
-![[假日通話設定] 頁面的螢幕擷取畫面](media/50a5ce88-7f39-4210-808a-da7ced969854.png)
+<span data-ttu-id="03a33-162">您可以設定自訂的問候語、提示及功能表，讓使用者在到達您的自動語音時聽到。</span><span class="sxs-lookup"><span data-stu-id="03a33-162">You can set up customized greetings, prompts, and menus that people hear when they reach your auto attendant.</span></span>
 
-![在前一個螢幕擷取畫面中參照標注的數位1圖示](media/sfbcallout1.png)
-
-<span data-ttu-id="3d943-251">如果您已經建立其他自動語音應答，您可能會看到一個選項，您可以在此清單中使用或編輯您需要的專案。</span><span class="sxs-lookup"><span data-stu-id="3d943-251">If you've already created other auto attendants, you might see an option you can use or edit into what you need on this list.</span></span> <span data-ttu-id="3d943-252">如果不是，您將需要建立新的呼叫處理常式。</span><span class="sxs-lookup"><span data-stu-id="3d943-252">If not, you'll need to create a new call handler.</span></span>
-
-<span data-ttu-id="3d943-253">若要新增呼叫處理常式，請按一下 [ **+ 新呼叫處理常式**]。</span><span class="sxs-lookup"><span data-stu-id="3d943-253">To add a new call handler, click on **+ New call handler**.</span></span>
+![螢幕擷取畫面： [呼叫處理] 頁面問候區段](media/2a33b1f7-d362-47a7-bf32-ef702bc878e8.png)
 
 * * *
 
-![顯示新增呼叫處理常式的螢幕擷取畫面](media/50a5ce88-7f39-4210-808a-da7ced969854b.png)
+<span data-ttu-id="03a33-164">**第一次播放問候訊息**問候語是選擇性的，可以設定為 [**沒有問候語**]、[**播放音訊**檔] 或 [**輸入問候] 訊息**。</span><span class="sxs-lookup"><span data-stu-id="03a33-164">**First play a greeting message** A greeting is optional and can be set to **No greeting**, **Play an audio file**, or **Type a greeting message**.</span></span>
 
-![在前一個螢幕擷取畫面中參照標注的數位1圖示](media/sfbcallout1.png)
+> [!NOTE]
+> <span data-ttu-id="03a33-165">對第一層自動語音應答而言，問候非常重要。</span><span class="sxs-lookup"><span data-stu-id="03a33-165">A greeting is most valuable for a first-level auto attendant.</span></span> <span data-ttu-id="03a33-166">嵌套的自動語音助手通常不需要問候語。</span><span class="sxs-lookup"><span data-stu-id="03a33-166">A nested auto attendant often doesn't need a greeting.</span></span>
 
-<span data-ttu-id="3d943-256">在新視窗中，在畫面頂端輸入新呼叫處理常式的名稱。</span><span class="sxs-lookup"><span data-stu-id="3d943-256">In the new window, enter a name for your new Call  handler at the top of the screen.</span></span>
+<span data-ttu-id="03a33-167">![數位1的圖示，前一個螢幕擷取畫面](media/teamscallout1.png)中的標注如果您選取 [**沒有問候語**]，來電程式在由您稍後選取的其中一個動作前，就沒有聽到訊息或問候語。</span><span class="sxs-lookup"><span data-stu-id="03a33-167">![Icon of the number 1,  a callout in the previous screenshot](media/teamscallout1.png) If you select **No Greeting**, the caller doesn't hear a message or greeting before the call is handled by one of the actions you select later.</span></span> 
 
-![在前一個螢幕擷取畫面中參照標注的數位2的圖示](media/sfbcallout2.png)
+<!-- You can also upload an audio file (in .wav, mp3 or .wma formats), or create a custom greeting using Text-to-Speech.-->
 
-<span data-ttu-id="3d943-258">如果您的假日名稱已存在於 [**假日**] 下拉式清單中，您可以使用它。</span><span class="sxs-lookup"><span data-stu-id="3d943-258">If the name of your holiday already exists in the **Holiday** pull-down list, you can use it.</span></span> <span data-ttu-id="3d943-259">如果您所需的假日名稱還不存在，請在下拉式清單中選取 [**建立新假日**]，然後在出現的新畫面中指定新假日的名稱和日期。</span><span class="sxs-lookup"><span data-stu-id="3d943-259">If the holiday name you need does not already exist, select **Create new holiday** in the pull-down list and assign a name and a date for the new holiday in the new screen that appears.</span></span> <span data-ttu-id="3d943-260">準備就緒時，按一下 [**儲存**]。</span><span class="sxs-lookup"><span data-stu-id="3d943-260">Click on **Save** when ready.</span></span>
+<span data-ttu-id="03a33-168">![數位2的圖示，前一個螢幕擷取畫面](media/teamscallout2.png)中的標注如果您選取 [**播放音訊**檔]，您可以使用 [**上傳**檔案] 按鈕上傳儲存為音訊的錄製問候語訊息。WAV，。[MP3] 或。WMA 格式。</span><span class="sxs-lookup"><span data-stu-id="03a33-168">![Icon of the number 2,  a callout in the previous screenshot](media/teamscallout2.png) If you select **Play an audio file** you can use the **Upload file** button to upload a recorded greeting message saved as audio in .WAV, .MP3, or .WMA format.</span></span> <span data-ttu-id="03a33-169">錄製不能大於 5 MB。</span><span class="sxs-lookup"><span data-stu-id="03a33-169">The recording can be no larger than 5 MB.</span></span>
 
-<span data-ttu-id="3d943-261">假日名稱最多可包含64個字元，且對於相同的自動語音應答必須是唯一的。</span><span class="sxs-lookup"><span data-stu-id="3d943-261">Holiday names may consist of up to 64 characters and must be unique for the same auto attendant.</span></span> <span data-ttu-id="3d943-262">例如，在同一個自動語音應答中，您不能使用兩個名為 "感恩節" 的假日。</span><span class="sxs-lookup"><span data-stu-id="3d943-262">For example, you cannot have two holidays named "Thanksgiving" in the same auto attendant.</span></span>
+<span data-ttu-id="03a33-170">![數位3的圖示，前一個螢幕擷取畫面](media/teamscallout3.png)中的標注輸入**問候訊息**：如果您選擇這個選項，請在提供的欄位中輸入您想要系統讀取的文字（最多1000個字元）。</span><span class="sxs-lookup"><span data-stu-id="03a33-170">![Icon of the number 3,  a callout in the previous screenshot](media/teamscallout3.png) **Type a greeting message** If you choose this option, enter the text you want the system to read (up to 1000 characters) in the field provided.</span></span> <span data-ttu-id="03a33-171">例如，輸入「歡迎使用 Contoso。</span><span class="sxs-lookup"><span data-stu-id="03a33-171">For example, enter "Welcome to Contoso.</span></span> <span data-ttu-id="03a33-172">您的通話對我們很重要。」</span><span class="sxs-lookup"><span data-stu-id="03a33-172">Your call is important to us."</span></span> <span data-ttu-id="03a33-173">[輸出] 是由文字到語音軟體所建立。</span><span class="sxs-lookup"><span data-stu-id="03a33-173">Output is created by text-to-voice software.</span></span>
 
-![在前一個螢幕擷取畫面中參照標注的數位3圖示](media/sfbcallout3.png)
+* * *
 
-<span data-ttu-id="3d943-264">**問候語**問候語是選擇性的，而且可以設定為 [**無問候語**]。</span><span class="sxs-lookup"><span data-stu-id="3d943-264">**Greeting** The greeting is optional and can be set to **No greeting**.</span></span> <span data-ttu-id="3d943-265">在這種情況下，在您選取的其中一個選項處理呼叫前，來電者將不會聽到任何訊息或問候語。</span><span class="sxs-lookup"><span data-stu-id="3d943-265">In this case, the caller will hear no message or greeting before the call is handled by one of the options you select.</span></span> <span data-ttu-id="3d943-266">您也可以上傳音訊檔案（.wav、mp3 或 .wma 格式），或使用文字轉換語音來建立自訂問候語。</span><span class="sxs-lookup"><span data-stu-id="3d943-266">You can also upload an audio file (in .wav, mp3 or .wma formats), or create a custom greeting using Text-to-Speech.</span></span>
 
-- <span data-ttu-id="3d943-267">**沒有問候語**在人員撥入自動語音應答電話號碼時，不會播放任何問候語。</span><span class="sxs-lookup"><span data-stu-id="3d943-267">**No greeting** No greeting will be played when people call in to the auto attendant phone number.</span></span>
-- <span data-ttu-id="3d943-268">**上傳音訊**檔案如果您選擇此選項，請錄製假日問候語，然後上傳音訊檔案（以 .wav、mp3 或 .wma 格式）</span><span class="sxs-lookup"><span data-stu-id="3d943-268">**Upload an audio file** If you choose this, record the holiday greeting and then upload your audio file (in a .wav, .mp3 or .wma format)</span></span>
-- <span data-ttu-id="3d943-269">**輸入問候訊息**如果您選擇此選項，請輸入您想要系統讀取的文字（最多1000個字元）。</span><span class="sxs-lookup"><span data-stu-id="3d943-269">**Type a greeting message** If you choose this option, enter the text you want the system to read (up to 1000 characters).</span></span> <span data-ttu-id="3d943-270">例如，您可以輸入「新年快樂！</span><span class="sxs-lookup"><span data-stu-id="3d943-270">For example, you might enter "Happy New Year!</span></span> <span data-ttu-id="3d943-271">我們的辦公室目前已關閉。」</span><span class="sxs-lookup"><span data-stu-id="3d943-271">Our offices are currently closed."</span></span> <span data-ttu-id="3d943-272">在 [**輸入問候訊息**] 方塊中。</span><span class="sxs-lookup"><span data-stu-id="3d943-272">in the **Type a greeting message** box.</span></span>
+<span data-ttu-id="03a33-174">您可以在 [從下列動作**傳送通話**] 區段中，選取 [呼叫] 旁的選項。</span><span class="sxs-lookup"><span data-stu-id="03a33-174">You can select what happens next to calls from the following actions in the  **Then route the call** section.</span></span> <span data-ttu-id="03a33-175">設定為 **[中斷連線]、[** 重新**導向通話**] 或 [**播放] 功能表選項**。</span><span class="sxs-lookup"><span data-stu-id="03a33-175">Settings are **Disconnect**, **Redirect call**, or **Play menu options**.</span></span>
 
-![在前一個螢幕擷取畫面中參照標注的數位4圖示](media/sfbcallout4.png)
+<span data-ttu-id="03a33-176">如果您選取 **[中斷連線]**，則會在問候語播放之後中斷呼叫者的連線。</span><span class="sxs-lookup"><span data-stu-id="03a33-176">If you select **Disconnect**, the caller is disconnected after the greeting plays.</span></span> 
 
-<span data-ttu-id="3d943-274">**動作**您可以選取在此假日期間到達的通話情況。</span><span class="sxs-lookup"><span data-stu-id="3d943-274">**Actions** You can select what happens to the calls that arrive during this holiday.</span></span> <span data-ttu-id="3d943-275">您可以從下列選項中選擇：</span><span class="sxs-lookup"><span data-stu-id="3d943-275">You can chose from the following options:</span></span>
+<span data-ttu-id="03a33-177"><a name="redirectcalls"> </a></span><span class="sxs-lookup"><span data-stu-id="03a33-177"></span></span>
 
-- <span data-ttu-id="3d943-276">**中斷**連線在聽到假日問候語之後撥入的人員將會中斷連線。</span><span class="sxs-lookup"><span data-stu-id="3d943-276">**Disconnect** The person calling in will be disconnected after hearing the holiday greeting.</span></span>
-- <span data-ttu-id="3d943-277">重新**導向通話**這可以用來將來電自動傳送至：</span><span class="sxs-lookup"><span data-stu-id="3d943-277">**Redirect call** This can be used to automatically send the call to:</span></span>
-  - <span data-ttu-id="3d943-278">**貴公司中**擁有在 Office 365 中啟用企業語音或指派通話方案的**電話系統**授權的人員。</span><span class="sxs-lookup"><span data-stu-id="3d943-278">A **Person in your company** with a **Phone System** license that is enabled for Enterprise Voice or assigned Calling Plans in Office 365.</span></span> <span data-ttu-id="3d943-279">您可以將它設定為可將呼叫的人傳送給語音信箱。</span><span class="sxs-lookup"><span data-stu-id="3d943-279">You can set it up so the person calling in can be sent to voicemail.</span></span> <span data-ttu-id="3d943-280">若要這樣做，請選取**貴公司中的人員**，並將此人設定為讓其呼叫直接轉接至語音信箱。</span><span class="sxs-lookup"><span data-stu-id="3d943-280">To do this, select **Person in your company**, and set this person to have their calls forwarded directly to voicemail.</span></span>
+<span data-ttu-id="03a33-178">![數位4的圖示，前一個螢幕擷取畫面](media/teamscallout4.png)中的標注會重新**導向呼叫**將來電者傳送給所選的目的地，而不需選擇 [從選項]。</span><span class="sxs-lookup"><span data-stu-id="03a33-178">![Icon of the number 4,  a callout in the previous screenshot](media/teamscallout4.png) **Redirect call** sends the caller to the chosen destination without choosing from options.</span></span> <span data-ttu-id="03a33-179">可能的設定為：</span><span class="sxs-lookup"><span data-stu-id="03a33-179">The possible settings are:</span></span>
 
-    > [!Note]
-    > <span data-ttu-id="3d943-281">**貴公司中的人員**可以是線上使用者，或使用商務用 Skype server 2015 或 Lync server 2013 主機內部部署的使用者。</span><span class="sxs-lookup"><span data-stu-id="3d943-281">**Person in your company** can be an Online user or a user hosted on-premises using Skype for Business Server 2015 or Lync Server 2013.</span></span>
+  - <span data-ttu-id="03a33-180">**組織中的人員**您選擇的帳戶必須具備企業語音的電話系統授權，或是在 Office 365 中有已指派的通話方案。</span><span class="sxs-lookup"><span data-stu-id="03a33-180">**Person in organization** The account you choose must have a Phone System license enabled for Enterprise Voice or have an assigned Calling Plan in Office 365.</span></span> <span data-ttu-id="03a33-181">您可以將其設定為將呼叫者傳送至語音信箱：選取 [**組織中的人員**]，然後將該帳戶設定為 [讓來電直接轉接至語音信箱]。</span><span class="sxs-lookup"><span data-stu-id="03a33-181">You can set it up so the caller can be sent to voicemail: select **Person in organization** and set that account to have calls forwarded directly to voicemail.</span></span>
 
-   - <span data-ttu-id="3d943-282">**語音應用程式**選取與已建立之通話佇列或自動助理相關聯的資源帳戶名稱。</span><span class="sxs-lookup"><span data-stu-id="3d943-282">**Voice application** Select the name of a resource account associated to either a call queue or auto attendant that has already been created.</span></span>
+  > [!Note]
+  > <span data-ttu-id="03a33-182">**組織中的人員**可以是線上使用者，或使用商務用 Skype Server 託管內部部署的使用者。</span><span class="sxs-lookup"><span data-stu-id="03a33-182">**Person in organization** can be an Online user or a user hosted on-premises using Skype for Business Server.</span></span>
 
-    > [!Note]
-    > <span data-ttu-id="3d943-283">根據預設，假期期間內的所有來電都會設定為在問候語（如果有的話）之後中斷連線，因此您必須指定重新導向（如果有其他行為的話）。</span><span class="sxs-lookup"><span data-stu-id="3d943-283">By default, all calls arriving during a holiday period are set to disconnect after the greeting (if any), so you must specify a redirect if a different behavior is desired.</span></span>
+  - <span data-ttu-id="03a33-183">**語音應用程式**選取已設定的自動語音應答或通話佇列。</span><span class="sxs-lookup"><span data-stu-id="03a33-183">**Voice App** Select an auto attendant or call queue that has already been set up.</span></span> <span data-ttu-id="03a33-184">您可以依與服務相關聯之資源帳戶的名稱來搜尋自動語音應答或通話佇列。</span><span class="sxs-lookup"><span data-stu-id="03a33-184">You search for the auto attendant or call queue by the name of the resource account associated with the service.</span></span>
 
-<a name="dialscope"></a>
-#### <a name="select-dial-scope-page"></a><span data-ttu-id="3d943-284">選取 [撥號作用域] 頁面</span><span class="sxs-lookup"><span data-stu-id="3d943-284">Select dial scope page</span></span>
+<!-- - **Auto attendant** Select the name of an existing auto attendant.
+- **Call queue** Select the name of an auto attendant that has already been created.
+- **External phone number** routes the caller to a phone number outside your local system.
+- **Operator** directs the call to a user you designate as an Operator. If you haven't previously set up an operator, an option to create one now shows up. The 0 key is assigned to Operator by default. Options for setting an Operator are:
 
-<span data-ttu-id="3d943-285">在此頁面上，您可以設定貴組織中的哪些使用者會列在您的目錄中，並可在撥入您組織的人員時，透過名稱撥號。</span><span class="sxs-lookup"><span data-stu-id="3d943-285">On this page, you can set up which users in your organization will be listed in your directory and available for Dial by Name when a person that calls in to your organization.</span></span>
+  - **No operator** disables the "Operator" and "Press 0" options.
+  - **Person in your organization** can be an Online user or a user hosted on-premises using Skype for Business Server. They must have a Phone System license that is enabled for Enterprise Voice or assigned Calling Plans in Office 365. Search for the operator in the **Destination for your operator** field.
+  - **Auto attendant** lets you choose the name of an existing auto attendant.
+  - **Call queue** lets you select an existing call queue.
+  - **Group Voicemail** routes the call to a voicemail box that you select. -->
+
+ * * *
+
+![螢幕擷取畫面： [呼叫處理頁面動作] 區段](media/2a33b1f7-d362-47a7-bf32-ef702bc878e8b.png)
+
+<span data-ttu-id="03a33-186">![數位1的圖示，當您選取 [**播放] 功能表選項**時，在先前的螢幕擷取畫面](media/teamscallout1.png)中，您可以選取是使用音訊檔案，還是要將轉譯成文字的文字轉換成語音，以向呼叫者提供撥號鍵台功能表選項。</span><span class="sxs-lookup"><span data-stu-id="03a33-186">![Icon of the number 1,  a callout in the previous screenshot](media/teamscallout1.png) When you select **Play menu options** You can select whether to use an audio file or enter text that will be rendered as text to speech to give dialpad menu options to callers.</span></span> <span data-ttu-id="03a33-187">選取此選項，而不是 [重新**導向呼叫** **] 或 [中斷連線]** 選項。</span><span class="sxs-lookup"><span data-stu-id="03a33-187">Select this instead of the **Redirect call to** or **Disconnect** options.</span></span>
+
+
+<span data-ttu-id="03a33-188">![數位2的圖示，前一個螢幕擷取畫面](media/teamscallout2.png)中的標注會**播放音訊**檔，讓您設定來電者選擇的提示和選項。</span><span class="sxs-lookup"><span data-stu-id="03a33-188">![Icon of the number 2,  a callout in the previous screenshot](media/teamscallout2.png) **Play an audio file** lets you set up a prompts and options for the caller to choose.</span></span> 
+- <span data-ttu-id="03a33-189">如果您選取 [**播放音訊**檔]，您可以使用 [**上傳**檔案] 按鈕，上傳儲存為音訊的錄製問候語訊息。WAV，。[MP3] 或。WMA 格式。</span><span class="sxs-lookup"><span data-stu-id="03a33-189">If you select **Play an audio file** you can use the **Upload file** button to upload a recorded greeting message saved as audio in .WAV, .MP3, or .WMA format.</span></span> <span data-ttu-id="03a33-190">錄製不能大於 5 MB。</span><span class="sxs-lookup"><span data-stu-id="03a33-190">The recording can be no larger than 5 MB.</span></span>
+
+- <span data-ttu-id="03a33-191">**輸入問候訊息**如果您選擇此選項，請在提供的欄位中輸入您想要系統讀取的文字（最多1000個字元）。</span><span class="sxs-lookup"><span data-stu-id="03a33-191">**Type a greeting message** If you choose this option, enter the text you want the system to read (up to 1000 characters) in the field provided.</span></span> <span data-ttu-id="03a33-192">例如，輸入「歡迎使用 Contoso。</span><span class="sxs-lookup"><span data-stu-id="03a33-192">For example, enter "Welcome to Contoso.</span></span> <span data-ttu-id="03a33-193">您的通話對我們很重要。」</span><span class="sxs-lookup"><span data-stu-id="03a33-193">Your call is important to us."</span></span> <span data-ttu-id="03a33-194">[輸出] 是由文字到語音軟體所建立。</span><span class="sxs-lookup"><span data-stu-id="03a33-194">Output is created by text-to-voice software.</span></span>
+
+<span data-ttu-id="03a33-195">[**設定] 功能表選項**您可以在此對話方塊中新增或移除電話鍵台或語音命令。</span><span class="sxs-lookup"><span data-stu-id="03a33-195">**Set menu options** Telephone keypad or voice commands can be added or removed in this dialog.</span></span> <span data-ttu-id="03a33-196">若要刪除功能表選項，請移除語音命令專案，然後將 [重新**導向**] 設定為 [返回] 進行**選取**。</span><span class="sxs-lookup"><span data-stu-id="03a33-196">To delete a menu option, remove the voice command entry and set **Redirect to** back to **Select**.</span></span>
+
+> [!TIP]
+> <span data-ttu-id="03a33-197">更新功能表提示文字，或在移除選項時重新錄製音訊提示。</span><span class="sxs-lookup"><span data-stu-id="03a33-197">Update menu prompt text or re-record the audio prompts when you remove options.</span></span> <span data-ttu-id="03a33-198">為呼叫者播放的功能表提示不會自動更新。</span><span class="sxs-lookup"><span data-stu-id="03a33-198">The menu prompt played for callers isn't automatically updated.</span></span>  
+>
+> <span data-ttu-id="03a33-199">任何順序都可以新增或移除任何功能表選項，而且鍵對應不一定是連續的。</span><span class="sxs-lookup"><span data-stu-id="03a33-199">Any menu option can be added and removed in any order, and the key mappings don't have to be continuous.</span></span> <span data-ttu-id="03a33-200">例如，您可以建立一個含有鍵0、1和3的功能表，並對應至選項，而不使用鍵2。</span><span class="sxs-lookup"><span data-stu-id="03a33-200">It is possible, for example, to create a menu with keys 0, 1, and 3 mapped to options, while the key 2 isn't used.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="03a33-201">按鍵\* （重複）及\# （背面）是由系統所保留，而且無法重新指派。</span><span class="sxs-lookup"><span data-stu-id="03a33-201">The keys \* (Repeat) and \# (Back) are reserved by the system and can't be reassigned.</span></span> <span data-ttu-id="03a33-202">如果已啟用語音辨識功能，按下 \* 將與 "Repeat" 相對應，且 # 會與 "Back" 聲音命令相對應。</span><span class="sxs-lookup"><span data-stu-id="03a33-202">If speech recognition is enabled, pressing \* will correspond with "Repeat" and # will correspond with the "Back" voice commands.</span></span>
+
+![數位3的圖示，前一個螢幕擷取畫面中有一個標注](media/teamscallout3.png)
+
+<span data-ttu-id="03a33-204">若要設定功能表選項，請按一下 [ **+ 指派撥號鍵**]，然後輸入下列選項的資訊：</span><span class="sxs-lookup"><span data-stu-id="03a33-204">To set up a menu option, click on the  **+Assign a dial key** and enter information for the following options:</span></span>
+
+![數位4的圖示，前一個螢幕擷取畫面中的標注](media/teamscallout4.png) 
+
+<span data-ttu-id="03a33-206">選項的**語音命令**欄最多可以包含64個字元，而且可以包含多個字，例如「客戶服務」或「作業與不含」。</span><span class="sxs-lookup"><span data-stu-id="03a33-206">**Voice command** column for an option can be up to 64 characters long, and can contain multiple words like "Customer Service" or "Operations and Grounds."</span></span> <span data-ttu-id="03a33-207">如果已啟用語音辨識功能，系統會自動辨識名稱，而且呼叫者可以按3、說「三」，或者說「客戶服務」，選取對應至鍵3的選項。</span><span class="sxs-lookup"><span data-stu-id="03a33-207">If speech recognition is enabled, the name is automatically recognized, and the caller is able to press 3, say "three," or say "Customer Service" to select the option mapped to key 3.</span></span>
+
+<span data-ttu-id="03a33-208">![數位5的圖示，前一個螢幕擷取畫面](media/teamscallout5.png)中的標注： [**重定向至**] 選項會在您按下對應的按鍵時，或使用語音辨識選取選項時，進行呼叫的位置。</span><span class="sxs-lookup"><span data-stu-id="03a33-208">![Icon of the number 5, a callout in the previous screenshot](media/teamscallout5.png) The **Redirect to** option sets where the call goes if the corresponding key is pressed, or the option is selected using speech recognition.</span></span> <span data-ttu-id="03a33-209">通話可以傳送至：</span><span class="sxs-lookup"><span data-stu-id="03a33-209">The call can be sent to:</span></span>
+
+<!-- Is the Operator behavior changing here? Looks like operator is only an available option for dial key 0 -->
+
+- <span data-ttu-id="03a33-210">**運算子**如果已設定操作員，該選項會自動對應到 key 0，但是也可以刪除或重新指派給不同的金鑰。</span><span class="sxs-lookup"><span data-stu-id="03a33-210">**Operator** If an operator is already set up, the option is automatically mapped to key 0, but can also be deleted or reassigned to a different key.</span></span> <span data-ttu-id="03a33-211">選取此選項的來電者會傳送至指定的操作員。</span><span class="sxs-lookup"><span data-stu-id="03a33-211">The caller who selects this option is sent to the designated Operator.</span></span> <span data-ttu-id="03a33-212">如果運算子未設為任何鍵，語音命令 "Operator" 也會停用。</span><span class="sxs-lookup"><span data-stu-id="03a33-212">If Operator isn't set to any key, the voice command "Operator" is also disabled.</span></span> 
+- <span data-ttu-id="03a33-213">**組織中的人員**可以是線上使用者，或使用商務用 Skype Server 託管內部部署的使用者。</span><span class="sxs-lookup"><span data-stu-id="03a33-213">**Person in organization** can be an Online user or a user hosted on-premises using Skype for Business Server.</span></span> <span data-ttu-id="03a33-214">使用者必須具備在 Office 365 中啟用企業語音或指派通話方案的電話系統授權。</span><span class="sxs-lookup"><span data-stu-id="03a33-214">The user must have a Phone System license that is enabled for Enterprise Voice or assigned Calling Plans in Office 365.</span></span> <span data-ttu-id="03a33-215">在 [**依名稱搜尋**] 欄位中搜尋人員。</span><span class="sxs-lookup"><span data-stu-id="03a33-215">Search for the person in the **Search by name** field.</span></span>
+
+  - <span data-ttu-id="03a33-216">**語音應用程式**選取已設定的自動語音應答或通話佇列。</span><span class="sxs-lookup"><span data-stu-id="03a33-216">**Voice App** Select an auto attendant or call queue that has already been set up.</span></span> <span data-ttu-id="03a33-217">您可以依與應用程式相關聯之資源帳戶的名稱來搜尋自動語音應答或通話佇列。</span><span class="sxs-lookup"><span data-stu-id="03a33-217">You search for the auto attendant or call queue by the name of the resource account associated with the application.</span></span>
+
+<!-- - **Auto attendant** Select the name of an existing auto attendant in the **Search by name** field. You will also have to select a resource account associated to the auto attendant. The caller who selects this option is sent to that auto attendant.
+- **Call queue** Select the name of an existing call queue in the **Search by name** field. You will also have to select a resource account associated to the call queue. The caller who selects this option is sent to that call queue, where the call is answered by a call agent.
+- **External phone number** routes the caller to a designated phone number outside your local system.<!-- does this have prerequisites like direct routing?
+- **Group Voicemail** routes the call to a voicemail box that you select.  -->
+
+![數位6的圖示，前一個螢幕擷取畫面中有一個標注](media/teamscallout6.png) 
+
+<span data-ttu-id="03a33-219">**目錄搜尋**在此區段中，您可以啟用 [**依名稱撥號**]，並透過**分機號碼撥號**來撥打自動語音應答。</span><span class="sxs-lookup"><span data-stu-id="03a33-219">**Directory search** In this section, you can enable **Dial by name** and **Dial by Extension** for the auto attendant.</span></span> <span data-ttu-id="03a33-220">您可以在 [選用的撥號作用域] 頁面中，設定這些服務中和不包含的人員。</span><span class="sxs-lookup"><span data-stu-id="03a33-220">You can set who is and is not included in these services in the optional Dial Scope page.</span></span> <span data-ttu-id="03a33-221">[目錄搜尋] 預設會設定為 [**無**]。</span><span class="sxs-lookup"><span data-stu-id="03a33-221">Directory search is set to **None** by default.</span></span>
+
+<span data-ttu-id="03a33-222">**依名稱撥號**如果您啟用這個選項，來電者就可以使用 [透過**名稱撥號**] 搜尋貴組織中的人員。</span><span class="sxs-lookup"><span data-stu-id="03a33-222">**Dial by name** If you enable this option, callers can search for people in your organization using **Dial by name**.</span></span> <span data-ttu-id="03a33-223">他們會說出使用者的名稱和語音辨識會與使用者相符。</span><span class="sxs-lookup"><span data-stu-id="03a33-223">They say the user's name and voice recognition matches them to a user.</span></span> <span data-ttu-id="03a33-224">您可以在 [選用的撥號作用域] 頁面中，設定這些服務中和不包含的人員。</span><span class="sxs-lookup"><span data-stu-id="03a33-224">You can set who is and is not included in these services in the optional Dial Scope page.</span></span> <span data-ttu-id="03a33-225">使用電話系統授權的任何線上使用者，或任何使用商務用 Skype Server 主機內部部署的使用者，都是合格的使用者，而且可以使用 [撥號者名稱] 找到。</span><span class="sxs-lookup"><span data-stu-id="03a33-225">Any online user with a Phone System license, or any user hosted on-premises using Skype for Business Server, is an eligible user and can be found with Dial by name.</span></span>
+
+<span data-ttu-id="03a33-226">透過**分機撥打電話**如果您啟用此選項，則如果**您已設定使用延伸的撥號方案**，來電者就可以透過您的組織中的使用者來連線。</span><span class="sxs-lookup"><span data-stu-id="03a33-226">**Dial by extension** If you enable this option, callers can connect with users in your organization by entering their phone extension **provided you have configured a Dial plan that uses extensions**.</span></span> <span data-ttu-id="03a33-227">您可以在 [選用撥號作用中] 頁面中，選取哪些使用者列為 [可供**撥號**] 或 [無法使用]。</span><span class="sxs-lookup"><span data-stu-id="03a33-227">You can select which users are listed as available or not available for **Dial by extension** in the optional dial scope page.</span></span> <span data-ttu-id="03a33-228">使用電話系統授權的任何線上使用者，或任何使用商務用 Skype Server 主機內部部署的使用者，都是符合資格的使用者，而且可透過分機找到。</span><span class="sxs-lookup"><span data-stu-id="03a33-228">Any online user with a Phone System license, or any user hosted on-premises using Skype for Business Server, is an eligible user and can be found with Dial by extension.</span></span>
+
+* * *
+
+<!--
+**Instructions for callers** lets you choose **Use recorded call instructions** or **Write your call instructions**.  
+
+If you choose **Use recorded call instructions**, you have the option to record and upload new or prerecorded sound files to play as menu instructions. The same app used in recording the auto attendant greeting is used here.
+
+If you choose **Write your call instructions**, enter the script  you want the system to read (up to 1000 characters). For example, you might enter text that begins "Please choose from one of the following menu options ... " and provide a script written to reflect your configuration.
+* * *  -->
+
+<span data-ttu-id="03a33-229">當您完成選取專案時，如果您想要變更高級設定，請按一下 **[下一步]** ，如果您想要使用預設設定，請按一下 [**提交**] （例如：</span><span class="sxs-lookup"><span data-stu-id="03a33-229">When you are finished with your selections, you can click **Next** if you want to change advanced settings, or click **Submit** if you want to use default settings for things like:</span></span>
+- <span data-ttu-id="03a33-230">下班時間的通話流程</span><span class="sxs-lookup"><span data-stu-id="03a33-230">Call flow for after hours</span></span>
+- <span data-ttu-id="03a33-231">假日的通話流程</span><span class="sxs-lookup"><span data-stu-id="03a33-231">Call flow for holidays</span></span>
+- <span data-ttu-id="03a33-232">撥號作用中</span><span class="sxs-lookup"><span data-stu-id="03a33-232">Dial Scope</span></span>
+- <span data-ttu-id="03a33-233">資源帳戶</span><span class="sxs-lookup"><span data-stu-id="03a33-233">Resource accounts</span></span>
+
+<span data-ttu-id="03a33-234">由於您必須具備自動語音應答才能擁有資源帳戶，因此您可以選擇繼續至 [**資源帳戶**] 頁面，並關聯您已設定的資源帳戶，或建立資源帳戶並將其與自動關聯在[Microsoft 團隊中的 [管理資源帳戶](manage-resource-accounts.md)] 中所述的 [助理]。</span><span class="sxs-lookup"><span data-stu-id="03a33-234">Since your auto attendant is required to have a resource account, you have a choice of proceeding to the **Resource account** page and associating a resource account you've already configured, or creating a resource account and associating it to the auto attendant as described in [Manage resource accounts in Microsoft Teams](manage-resource-accounts.md).</span></span> <span data-ttu-id="03a33-235">您將無法使用此自動語音應答，除非它已與資源帳戶相關聯。</span><span class="sxs-lookup"><span data-stu-id="03a33-235">You won't be able to use this auto attendant until it has been associated to a resource account.</span></span> <span data-ttu-id="03a33-236">若要這樣做，請按一下畫面底部的 **[下一步]** 按鈕，然後按一下左側導覽中的 [**資源帳戶**]，即可直接移至 [資源帳戶] 頁面，並將您的自動助手與資源帳戶建立關聯。</span><span class="sxs-lookup"><span data-stu-id="03a33-236">to do this, click the **Next** button at the bottom of the screen and then click on **Resource accounts** in the left navigation to go straight to the Resource accounts page and associate your auto attendant to a resource account.</span></span>
+
+#### <a name="advanced-settings-optional"></a><span data-ttu-id="03a33-237">[高級設定] （選用）</span><span class="sxs-lookup"><span data-stu-id="03a33-237">Advanced settings (optional)</span></span>
+
+<span data-ttu-id="03a33-238">您可以在四個額外的螢幕上設定或保留您選擇的預設值。</span><span class="sxs-lookup"><span data-stu-id="03a33-238">There are four additional screens that you can configure or leave at defaults as you choose.</span></span>
+
+##### <a name="call-flow-for-after-hours"></a><span data-ttu-id="03a33-239">下班時間的通話流程</span><span class="sxs-lookup"><span data-stu-id="03a33-239">Call flow for after hours</span></span>
+
+<span data-ttu-id="03a33-240">根據預設，自動語音應答的上班時間設定為上午9點，星期一到星期五</span><span class="sxs-lookup"><span data-stu-id="03a33-240">By default, an auto attendant's business hours are set to 9am-5pm, Monday to Friday</span></span>  <!--24/7--><span data-ttu-id="03a33-241">，且停用*下班時間之後*的通話流程選項，因為所有的時間都被視為「*上班時間*」。</span><span class="sxs-lookup"><span data-stu-id="03a33-241">, and the call flow options for *after hours* calls are disabled because all hours are considered *business hours*.</span></span> <span data-ttu-id="03a33-242">當您選取 [**設定自訂工作時間**] 選項時，[**下班時間之後的通話流程**] 頁面會設定自動回應在下班後所使用的通話處理規則。</span><span class="sxs-lookup"><span data-stu-id="03a33-242">When you select the **Setup custom business hours** option, the **Call flow for after hours** page configures the call handling rules used by the auto attendant after hours.</span></span> <span data-ttu-id="03a33-243">可用的選項是相同的，而差異就是為不同的功能表和行為設定排程的能力。</span><span class="sxs-lookup"><span data-stu-id="03a33-243">The options available are the same, the difference is the ability to set a schedule for different menus and behaviors.</span></span>
+
+<span data-ttu-id="03a33-244">自動語音應答的系統可能只需要設定第一層自動語音應答的下班時間呼叫處理行為。</span><span class="sxs-lookup"><span data-stu-id="03a33-244">A system of auto attendants may only need to set after hours call handling behavior for the first-level auto attendant.</span></span> <span data-ttu-id="03a33-245">嵌套式自動語音應答甚至可能無法由第一層自動語音應答呼叫，但系統可以為它所使用的每個自動語音應答定義時間（以時間為單位）行為。</span><span class="sxs-lookup"><span data-stu-id="03a33-245">Nested auto attendants may not even be called by the first-level auto attendant, but alternately the system can define after-hours behavior for each auto attendant it uses.</span></span>
+
+<span data-ttu-id="03a33-246">從最初起，上班時間定義為從 12:00 am 開始，到 12:00 pm，從星期日到星期六結束。</span><span class="sxs-lookup"><span data-stu-id="03a33-246">Initially, the business hours are defined to start at 12:00 am and end at 12:00 pm, Sunday through Saturday.</span></span> <span data-ttu-id="03a33-247">在上班時間以外的所有時間，都是*在下班後*。</span><span class="sxs-lookup"><span data-stu-id="03a33-247">All hours that aren't during business hours are considered *after hours*.</span></span>
+
+
+![[下班後通話流程] 設定的螢幕擷取畫面](media/aa-afterhour.png)
+ * * *
+
+<span data-ttu-id="03a33-249">![數位1的圖示，在前一個螢幕擷取畫面](media/teamscallout1.png)中，您可以按一下 [**選取 24/7** ]，以完成此自動語音應答的所有上班時間。</span><span class="sxs-lookup"><span data-stu-id="03a33-249">![Icon of the number 1,  a callout in the previous screenshot](media/teamscallout1.png) You can click **Select 24/7** to make all hours business hours for this auto attendant.</span></span>
+
+<span data-ttu-id="03a33-250">![數位2的圖示，前一個螢幕擷取畫面](media/teamscallout2.png)中的標注選取 [**重設為預設值**] 選項，以還原排程中的所有變更，並傳回 9:00 am 到 5:00 pm 的預設定義（星期一到星期五）。</span><span class="sxs-lookup"><span data-stu-id="03a33-250">![Icon of the number 2,  a callout in the previous screenshot](media/teamscallout2.png) Select the **Reset to default** option to revert all changes in the schedule and return to the default definition of business hours as 9:00 am to 5:00 pm Monday to Friday.</span></span>
+
+<span data-ttu-id="03a33-251">![數位3的圖示，前一個螢幕擷取畫面](media/teamscallout3.png)中的標注選取 [**清除所有時間**] 來完全清除排程。</span><span class="sxs-lookup"><span data-stu-id="03a33-251">![Icon of the number 3,  a callout in the previous screenshot](media/teamscallout3.png) Select **Clear all hours** to completely clear the schedule.</span></span> <span data-ttu-id="03a33-252">我們不建議您選取此選項並保留未設的時間，因此請只在您想要完全重新執行工作時間時才使用這個選項。</span><span class="sxs-lookup"><span data-stu-id="03a33-252">Selecting this and leaving the hours unset is not recommended, so use this option only if you want to completely redo your business hours.</span></span>
+
+<span data-ttu-id="03a33-253">![數位4的圖示（編號5的前一個螢幕擷取畫面](media/teamscallout4.png)  ![圖示中的標注），前一個螢幕擷取畫面](media/teamscallout5.png)中的標注可自訂周中某天的開始或結束時間，請按一下您想要重設的 [**開始**] 或 [**結束**] 時間，然後從顯示的清單中選取新的時間。</span><span class="sxs-lookup"><span data-stu-id="03a33-253">![Icon of the number 4,  a callout in the previous screenshot](media/teamscallout4.png)  ![Icon of the number 5,  a callout in the previous screenshot](media/teamscallout5.png) To customize start or end time for a day of the week, click on **Start at** or **End at** time you wish to reset and select the new time from the list that appears.</span></span> <span data-ttu-id="03a33-254">此清單可讓您以15分鐘的間隔來選取 [上班時間]，而您在此選取的上班時間是以您在 [**一般資訊**] 頁面上所設定的時區為基礎。</span><span class="sxs-lookup"><span data-stu-id="03a33-254">The list allows you to select business hours in 15-minute intervals, and the business hours you select here are based on the time zone that you set on the **General info** page.</span></span>
+
+ <!-- The **Apply to all days** option can be used to reset all days of the week to match the settings for that day. This makes setting weekdays and weekends to different hours easier.-->
+
+<span data-ttu-id="03a33-255">![數位6的圖示，前一個螢幕擷取畫面](media/teamscallout6.png)中的標注若要設定工間休息（例如午餐），請選取 [新增**時間**]，以建立新的表格列，然後選取 [新的開始] 和 [結束] 時間。</span><span class="sxs-lookup"><span data-stu-id="03a33-255">![Icon of the number 6,  a callout in the previous screenshot](media/teamscallout6.png)  To set up a break (a lunch break, for example), select **Add new time** for that day of the week to create anew table row, and select new start and end times.</span></span> <span data-ttu-id="03a33-256">您可以在上班時間內設定多個工間休息。</span><span class="sxs-lookup"><span data-stu-id="03a33-256">You can set multiple breaks within business hours.</span></span>
+
+<span data-ttu-id="03a33-257">下班時間之後所提供的[通話流程](#call-flow)選項，與在上班時間期間提供的選項相同。</span><span class="sxs-lookup"><span data-stu-id="03a33-257">The [Call flow](#call-flow) options available after hours are the same as the options available during business hours.</span></span> <span data-ttu-id="03a33-258">向下滾動 [資訊輸入] 頁面，設定 [下班後通話流程] 選項。</span><span class="sxs-lookup"><span data-stu-id="03a33-258">Scroll down on the information entry page to set after hours call flow options.</span></span>
+
+* * *
+
+<span data-ttu-id="03a33-259">當您完成選取專案時，請按 **[下一步]**。</span><span class="sxs-lookup"><span data-stu-id="03a33-259">When you are finished with your selections, click **Next**.</span></span> <span data-ttu-id="03a33-260">您也可以按一下左側導覽中的 [**資源帳戶**]，直接移至 [資源帳戶] 頁面，並將您的自動語音助理與資源帳戶相關聯。</span><span class="sxs-lookup"><span data-stu-id="03a33-260">You can also click on **Resource accounts** in the left navigation to go straight to the Resource accounts page and associate your auto attendant to a resource account.</span></span>
+
+##### <a name="call-flow-during-holidays"></a><span data-ttu-id="03a33-261">假日期間的通話流程</span><span class="sxs-lookup"><span data-stu-id="03a33-261">Call flow during holidays</span></span>
+
+<span data-ttu-id="03a33-262"><a name="holidaygreetings"> </a></span><span class="sxs-lookup"><span data-stu-id="03a33-262"></span></span>
+
+<span data-ttu-id="03a33-263">您最多可以將20個排定的假日新增至每個自動語音應答。</span><span class="sxs-lookup"><span data-stu-id="03a33-263">You can add up to 20 scheduled holidays to each auto attendant.</span></span> <span data-ttu-id="03a33-264">您的組織可能已經定義了假日，如在[Microsoft 團隊中設定假日](set-up-holidays-in-teams.md)中所述。</span><span class="sxs-lookup"><span data-stu-id="03a33-264">Your organization may already have defined holidays as described in [Set up holidays in Microsoft Teams](set-up-holidays-in-teams.md).</span></span> <span data-ttu-id="03a33-265">如果不是，您會看到下列畫面：</span><span class="sxs-lookup"><span data-stu-id="03a33-265">If not you will see the following screen:</span></span> 
+
+![螢幕擷取畫面：未設定假日](media/aa-no-holidays.png)
+
+<span data-ttu-id="03a33-267">![數位1的圖示，前一個螢幕擷取畫面](media/teamscallout1.png)中的標注，在自動語音應答中設定假日的自訂通話流程，按一下 [ **+** 新增] [查看**新假日通話流程**] 畫面。</span><span class="sxs-lookup"><span data-stu-id="03a33-267">![Icon of the number 1,  a callout in the previous screenshot](media/teamscallout1.png) To set a custom call flow for a holiday on the auto attendant, click **+ Add** the see the **New holiday call flow** screen.</span></span>
+> [!TIP]
+> <span data-ttu-id="03a33-268">若要建立假日，您可以在**組織內設定** > **假日**移至畫面上。</span><span class="sxs-lookup"><span data-stu-id="03a33-268">To create Holidays you can  go to the screen at **Org-wide settings** > **Holidays**.</span></span>  
+
+
+
+![螢幕擷取畫面：新增通話處理常式](media/50a5ce88-7f39-4210-808a-da7ced969854b.png)
+
+* * *
+
+<span data-ttu-id="03a33-270">![數位1的圖示，前一個螢幕擷取畫面](media/teamscallout1.png)中的標注會輸入新通話流程的**名稱**。</span><span class="sxs-lookup"><span data-stu-id="03a33-270">![Icon of the number 1,  a callout in the previous screenshot](media/teamscallout1.png)  Enter a **Name** for your new call flow.</span></span>
+
+<span data-ttu-id="03a33-271">![數位2的圖示，前一個螢幕擷取畫面](media/teamscallout2.png)中的標注如果您已建立假日，您會在 [**假日**] 下拉式功能表中看到這些專案，然後加以選取。</span><span class="sxs-lookup"><span data-stu-id="03a33-271">![Icon of the number 2,  a callout in the previous screenshot](media/teamscallout2.png) If you've already created holidays, you'll see them in the **Holiday** pull-down menu and can select them.</span></span> <span data-ttu-id="03a33-272">您可能會看到一個未使用的選項，您可以在需要的情況中進行編輯。</span><span class="sxs-lookup"><span data-stu-id="03a33-272">You might see an unused option that you can edit into what you need.</span></span> <span data-ttu-id="03a33-273">如果不是，請按一下下拉式清單底部的 [**新增**]，以建立新的假日。</span><span class="sxs-lookup"><span data-stu-id="03a33-273">If not, click on **Add** at the bottom of the pull-down list to create a new Holiday.</span></span>  <span data-ttu-id="03a33-274">如需建立假日的步驟，請參閱[在 Microsoft 團隊中設定假日](set-up-holidays-in-teams.md)。</span><span class="sxs-lookup"><span data-stu-id="03a33-274">See [Set up holidays in Microsoft Teams](set-up-holidays-in-teams.md) for the steps used to create a holiday.</span></span> 
+
+<span data-ttu-id="03a33-275">假日通話流程名稱最多可以有64個字元，且對於組織而言必須是唯一的。</span><span class="sxs-lookup"><span data-stu-id="03a33-275">A holiday call flow name can be up to 64 characters long and must be unique for the organization.</span></span> <span data-ttu-id="03a33-276">例如，在同一個組織中，您無法將兩個假期通話流程命名為「感恩節」。</span><span class="sxs-lookup"><span data-stu-id="03a33-276">For example, you can't have two holiday call flows named "Thanksgiving" in the same organization.</span></span> <span data-ttu-id="03a33-277">您的自動語音應答可以針對您設定的每個假日進行通話流程，但您可能會想要在自訂的問候語以外的一組常見行為中進行。</span><span class="sxs-lookup"><span data-stu-id="03a33-277">Your auto attendant can have a call flow for each Holiday you've set up, but you might want to have a common set of behaviors planned other than a customized greeting.</span></span>
+
+<span data-ttu-id="03a33-278">![數位3的圖示，前一個螢幕擷取畫面](media/teamscallout3.png)中的標注：假日通話流程的[問候](#call-flow)選項與上班時間內提供的選項相同。</span><span class="sxs-lookup"><span data-stu-id="03a33-278">![Icon of the number 3,  a callout in the previous screenshot](media/teamscallout3.png) The [Greetings](#call-flow) options available for a holiday call flow are the same as the options available during business hours.</span></span> <span data-ttu-id="03a33-279">在播放問候語之後所執行的**動作**也類似，只是在您唯一可用的動作是 **[中斷連線]** 或 [重新**導向**]，以及選擇 [**重定向至**] 選項時，操作員不是其中一個可用的選項.</span><span class="sxs-lookup"><span data-stu-id="03a33-279">The **Actions** performed after the greeting plays is also similar, except that the only available actions are to **Disconnect** or **Redirect to**, and when choosing the **Redirect to** option the Operator is not one of the available choices.</span></span> <span data-ttu-id="03a33-280">您無法設定假日流程專用的功能表。</span><span class="sxs-lookup"><span data-stu-id="03a33-280">You can't set up a menu specific to a Holiday flow.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="03a33-281">根據預設，在假日期間收到的所有來電都設定為在問候語（如果有的話）之後**中斷**連線，因此，如果您想要自訂行為，您必須指定重新導向。</span><span class="sxs-lookup"><span data-stu-id="03a33-281">By default, all calls received during a holiday period are set to **Disconnect** after the greeting (if any), so you must specify a redirect if you want a custom behavior.</span></span>
+
+![[假日] 頁面中通話流程的螢幕擷取畫面](media/50a5ce88-7f39-4210-808a-da7ced969854.png)
+
+<span data-ttu-id="03a33-283">按一下 [儲存] 以完成假日通話流程的建立。</span><span class="sxs-lookup"><span data-stu-id="03a33-283">Click on Save to finish creating the Holiday call flow.</span></span> <span data-ttu-id="03a33-284">在您建立假日通話流程之後，它會顯示在 [假日] 畫面的**通話流程中**。</span><span class="sxs-lookup"><span data-stu-id="03a33-284">Once you have created a Holiday call flow, it will show up on the **Call Flows during holidays** screen.</span></span>
+
+<span data-ttu-id="03a33-285">按一下 [設定撥號作用中 **]、[** **返回**]，然後在經過一個小時的通話流程之後進行變更，並在完成後**提交**。</span><span class="sxs-lookup"><span data-stu-id="03a33-285">Click on **Next** to set Dial scope, **Back** to make changes to after hour call flows, and **Submit** if you are finished.</span></span> <span data-ttu-id="03a33-286">您也可以按一下左側導覽中的 [**資源帳戶**]，直接移至 [資源帳戶] 頁面，並將您的自動語音助理與資源帳戶相關聯。</span><span class="sxs-lookup"><span data-stu-id="03a33-286">You can also click on **Resource accounts** in the left navigation to go straight to the Resource accounts page and associate your auto attendant to a resource account.</span></span>
+
+#### <a name="dial-scope"></a><span data-ttu-id="03a33-287">撥號作用中</span><span class="sxs-lookup"><span data-stu-id="03a33-287">Dial scope</span></span>
+
+<span data-ttu-id="03a33-288"><a name="dialscope"> </a></span><span class="sxs-lookup"><span data-stu-id="03a33-288"></span></span>
 
 ![顯示 [撥號作用中] 頁面的螢幕擷取畫面](media/1bcb185c-00db-43a7-b5c4-9b021c0627f7.png)
 
-* * *
+<span data-ttu-id="03a33-290">在此頁面上，您可以設定您的目錄中所列的人員，並在人員呼叫您的組織時可使用 [撥號]。</span><span class="sxs-lookup"><span data-stu-id="03a33-290">On this page, you can set who is listed in your directory and available for Dial by Name when a person calls your organization.</span></span> <span data-ttu-id="03a33-291">[依名稱撥號] 預設會在先前的畫面中設為 [**關閉**]。</span><span class="sxs-lookup"><span data-stu-id="03a33-291">Dial by name is set to **Off** by default in an earlier screen.</span></span> <span data-ttu-id="03a33-292">如果您已建立撥號方案，則會在先前選取 [**依副檔名撥號**] 時，才可使用副檔名為的所有使用者。</span><span class="sxs-lookup"><span data-stu-id="03a33-292">If you have created Dial plans, all users with an extension will be available if **Dial by extension** was selected earlier.</span></span>
 
-<span data-ttu-id="3d943-287">![數位1的圖示，參照前一個螢幕擷取畫面](media/sfbcallout1.png)中的標注使用 [**包括**] 選項，您有兩個選項：</span><span class="sxs-lookup"><span data-stu-id="3d943-287">![Icon of the number 1, referencing a callout in the previous screenshot](media/sfbcallout1.png) Using the **Include** option, you have two options:</span></span>
+<span data-ttu-id="03a33-293">![數位1的圖示，前面螢幕](media/teamscallout1.png)快照中的標注包括本區段中的選項，**包括\*\*\*\*所有線上使用者**或**自訂使用者群組**</span><span class="sxs-lookup"><span data-stu-id="03a33-293">![Icon of the number 1,  a callout in the previous screenshot](media/teamscallout1.png) **Include** The options in this section are either **All online users** or **Custom user groups**</span></span>
 
-- <span data-ttu-id="3d943-288">**所有的線上使用者**使用這個選項可讓您組織中的所有人員都包含在目錄搜尋中。</span><span class="sxs-lookup"><span data-stu-id="3d943-288">**All Online users** Using this option allows all of the people in your organization to be included in directory search.</span></span> <span data-ttu-id="3d943-289">所有具備**電話系統**授權的線上使用者，以及使用商務用 Skype Server 或 Lync 2013 server （在 Office 365 中有通話方案）的使用者主機內部部署的使用者，都會列在其中。</span><span class="sxs-lookup"><span data-stu-id="3d943-289">All Online users with a **Phone System** license, as well as users hosted on-premises using Skype for Business Server or Lync Server 2013 who have Calling Plans in Office 365, will be listed.</span></span>
-- <span data-ttu-id="3d943-290">**自訂使用者群組**如果您使用這個選項，您可以搜尋已在您的組織中建立的 Office 365 群組、通訊群組清單或安全性群組，以及新增至此 Office 365 群組、通訊群組清單或安全性群組的人員，這些人必須**具備**使用商務用 Skype server 2015 或 Lync server 2013 的電話系統授權或主機內部部署。</span><span class="sxs-lookup"><span data-stu-id="3d943-290">**Custom user group** If you use this option, you can search for an Office 365 Group, distribution list, or security group that has been created in your organization, and the people added to this Office 365 Group, distribution list, or security group who are either **Online users with a Phone System license** or hosted on-premises using Skype for Business Server 2015 or Lync Server 2013.</span></span> <span data-ttu-id="3d943-291">您可以新增多個 Office 365 群組、通訊群組清單和安全性群組。</span><span class="sxs-lookup"><span data-stu-id="3d943-291">You can add multiple Office 365 Groups, distribution lists, and security groups.</span></span>
+<span data-ttu-id="03a33-294">如果您選取 [**所有線上使用者**]，所有符合資格的使用者都會包含在目錄搜尋中。</span><span class="sxs-lookup"><span data-stu-id="03a33-294">If you select **All online users**, all eligible users are included in directory search.</span></span>
 
-* * *
+<span data-ttu-id="03a33-295">**自訂使用者群組**這個選項可讓您搜尋並選取您組織中已建立的 Office 365 群組、通訊群組清單或安全性群組。</span><span class="sxs-lookup"><span data-stu-id="03a33-295">**Custom user groups** This option lets you search for and select an Office 365 Group, distribution list, or security group already created in your organization.</span></span> <span data-ttu-id="03a33-296">如果使用者位於所選的 Office 365 群組、通訊群組清單或安全群組中，而且他們是使用**電話系統授權的線上使用者**，或是使用商務用 Skype Server 主機內部部署的使用者，就會新增到目錄中。</span><span class="sxs-lookup"><span data-stu-id="03a33-296">Users are added to the directory if they are in the chosen Office 365 Group, distribution list, or security group and they are **Online users with a Phone System license** or hosted on-premises using Skype for Business Server.</span></span> <span data-ttu-id="03a33-297">您可以將多個 Office 365 群組、通訊群組清單和安全性群組新增到目錄中。</span><span class="sxs-lookup"><span data-stu-id="03a33-297">You can add multiple Office 365 Groups, distribution lists, and security groups to the directory.</span></span>
 
-![在前一個螢幕擷取畫面中參照標注的數位2的圖示](media/sfbcallout2.png)
 
-<span data-ttu-id="3d943-293">使用 [**排除**] 選項，您有兩個選項：</span><span class="sxs-lookup"><span data-stu-id="3d943-293">Using the **Exclude** option, you have two options:</span></span>
 
-- <span data-ttu-id="3d943-294">**None**使用這個選項，即表示不會從目錄搜尋中排除任何線上使用者。</span><span class="sxs-lookup"><span data-stu-id="3d943-294">**None** Using this option will indicate that no Online users will be excluded from directory search.</span></span>
-- <span data-ttu-id="3d943-295">**自訂使用者群組**如果您使用這個選項，您可以搜尋已在貴組織中建立的 Office 365 群組、通訊群組清單或安全性群組，而且所有新增至此 Office 365 群組、通訊群組清單或安全性群組的人員將會從目錄搜尋中排除。</span><span class="sxs-lookup"><span data-stu-id="3d943-295">**Custom user group** If you use this option, you can search for an Office 365 Group, distribution list, or security group that has been created in your organization, and all people added to this Office 365 Group, distribution list, or security groups will be excluded from directory search.</span></span> <span data-ttu-id="3d943-296">您可以新增多個 Office 365 群組、通訊群組清單和安全性群組。</span><span class="sxs-lookup"><span data-stu-id="3d943-296">You can add multiple Office 365 Groups, distribution lists, and security groups.</span></span>
+<span data-ttu-id="03a33-298">![數位2的圖示，前一個螢幕擷取畫面](media/teamscallout2.png)中的標注會**排除**此區段中的選項，讓您可以從組織的目錄中排除特定使用者或使用者群組。</span><span class="sxs-lookup"><span data-stu-id="03a33-298">![Icon of the number 2,  a callout in the previous screenshot](media/teamscallout2.png) **Exclude** The options in this section let you exclude specific users or groups of users from the organization's directory.</span></span>
+
+<span data-ttu-id="03a33-299">如果您選取 [**無**]，所有符合資格的使用者都會包含在目錄搜尋中。</span><span class="sxs-lookup"><span data-stu-id="03a33-299">If you select **None**, all eligible users are included in directory search.</span></span>
+
+<span data-ttu-id="03a33-300">**自訂使用者群組**您可以搜尋已在貴組織中建立的 Office 365 群組、通訊群組清單或安全性群組。</span><span class="sxs-lookup"><span data-stu-id="03a33-300">**Custom user group** You can search for an Office 365 Group, distribution list, or security group that has been created in your organization.</span></span> <span data-ttu-id="03a33-301">該群組中的使用者會從 [目錄搜尋] 中排除。</span><span class="sxs-lookup"><span data-stu-id="03a33-301">Users in that group are excluded from directory search.</span></span> <span data-ttu-id="03a33-302">您可以新增多個 Office 365 群組、通訊群組清單和安全性群組。</span><span class="sxs-lookup"><span data-stu-id="03a33-302">You can add multiple Office 365 Groups, distribution lists, and security groups.</span></span>
+
+
+<span data-ttu-id="03a33-303">如果啟用 [依名稱撥號] 時，系統會將設定保留為預設值，則所有符合資格的使用者都會包含在目錄搜尋中。</span><span class="sxs-lookup"><span data-stu-id="03a33-303">If you leave settings at their default when Dial by Name is enabled, all eligible users are included in directory search.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="3d943-297">當有人透過語音辨識以名稱使用撥號時，最多可能需要36小時才能讓新的使用者將其名稱列在目錄中。</span><span class="sxs-lookup"><span data-stu-id="3d943-297">It might take up to 36 hours for a new user to have their name listed in the directory when someone uses Dial by Name with speech recognition.</span></span>
+> <span data-ttu-id="03a33-304">最多可能需要36小時，才能讓新使用者將其名稱列在目錄中。</span><span class="sxs-lookup"><span data-stu-id="03a33-304">It might take up to 36 hours for a new user to have their name listed in the directory.</span></span> <span data-ttu-id="03a33-305">當有人使用 [透過名稱撥打撥號] 語音辨識時，可能無法使用此功能的新帳戶。</span><span class="sxs-lookup"><span data-stu-id="03a33-305">When someone uses Dial by Name with speech recognition, new accounts may not be available for this feature.</span></span>
 
-<span data-ttu-id="3d943-298">輸入所有必要的欄位並設定 [通話處理] 功能表和選項之後，請按一下 [**提交**]。</span><span class="sxs-lookup"><span data-stu-id="3d943-298">After you enter all the required fields and set up call handling menus and options, click **Submit**.</span></span>
+<span data-ttu-id="03a33-306">輸入所有必要的欄位並設定 [呼叫處理] 功能表和選項之後，請按 **[下一步]** 以繼續關聯資源帳戶。</span><span class="sxs-lookup"><span data-stu-id="03a33-306">After you enter all the required fields and set up call handling menus and options, click **Next** to proceed to associating a resource account.</span></span>
 
-## <a name="editing-and-testing-auto-attendants"></a><span data-ttu-id="3d943-299">編輯及測試自動語音應答</span><span class="sxs-lookup"><span data-stu-id="3d943-299">Editing and testing auto attendants</span></span>
+#### <a name="resource-accounts"></a><span data-ttu-id="03a33-307">資源帳戶</span><span class="sxs-lookup"><span data-stu-id="03a33-307">Resource accounts</span></span>
 
-<span data-ttu-id="3d943-300">在您儲存了自動語音應答之後，它會列在 [**自動**語音應答] 頁面上。</span><span class="sxs-lookup"><span data-stu-id="3d943-300">After you have saved your auto attendant, it will be listed on the **Auto attendants** page.</span></span> <span data-ttu-id="3d943-301">這可讓您快速查看一些已設定的選項，包括姓名、電話號碼、語言和狀態。</span><span class="sxs-lookup"><span data-stu-id="3d943-301">This will allow you to quickly see some of the options that you have set up, including the name, phone number, language, and status.</span></span>
+<span data-ttu-id="03a33-308">所有自動語音應答都必須有關聯的資源帳戶。</span><span class="sxs-lookup"><span data-stu-id="03a33-308">All auto attendants must have an associated resource account.</span></span>  <span data-ttu-id="03a33-309">第一層自動語音應答絕對必須至少有一個資源帳戶有關聯的服務號碼。</span><span class="sxs-lookup"><span data-stu-id="03a33-309">First level auto attendants will definitely need at least one resource account that has an associated service number.</span></span> <span data-ttu-id="03a33-310">如果您想要的話，您可以將多個資源帳戶指派給自動語音應答，每個都有不同的服務號碼。</span><span class="sxs-lookup"><span data-stu-id="03a33-310">If you wish, you can assign several resource accounts to an auto attendant, each with a separate service number.</span></span>
 
-<span data-ttu-id="3d943-302">如果您想要變更自動語音應答，請選取 [自動語音應答]，然後在 [動作] 窗格中按一下 [**編輯**]。</span><span class="sxs-lookup"><span data-stu-id="3d943-302">If you want to make changes to an auto attendant, select the auto attendant, and then in the Action pane click **Edit**.</span></span>
+<span data-ttu-id="03a33-311">如果您尚未將資源帳戶設定為自動語音應答，您會看到下列畫面：</span><span class="sxs-lookup"><span data-stu-id="03a33-311">If you haven't already configured a resource account to your auto attendant, you would see the following screen:</span></span> 
 
-<span data-ttu-id="3d943-303">您也可以使用 [動作] 窗格中的 [**測試**] 按鈕，快速地將測試呼叫放到您的自動語音應答中。</span><span class="sxs-lookup"><span data-stu-id="3d943-303">You can also quickly place a test call to your auto attendant by using the **Test** button in the Action pane.</span></span>
+![螢幕擷取畫面：選用資源帳戶管理](media/aa-ra-optional.png) 
 
-## <a name="auto-attendant-cmdlets"></a><span data-ttu-id="3d943-304">自動語音應答 Cmdlet</span><span class="sxs-lookup"><span data-stu-id="3d943-304">Auto attendant cmdlets</span></span>
+<span data-ttu-id="03a33-313">![數位1的圖示，前一個螢幕擷取畫面](media/teamscallout1.png)中的標注若要將一或多個現有且未分派的資源帳戶新增到自動語音應答，請按一下 [**新增帳戶**]，然後從提供的對話方塊中選取它們。</span><span class="sxs-lookup"><span data-stu-id="03a33-313">![Icon of the number 1,  a callout in the previous screenshot](media/teamscallout1.png) To add one or more existing and unassigned resource accounts to the auto attendant, click **Add accounts** and search and select them from the provided dialogs.</span></span>
 
-<span data-ttu-id="3d943-305">您也可以使用 Windows PowerShell 來建立及設定自動語音應答。</span><span class="sxs-lookup"><span data-stu-id="3d943-305">You can also use Windows PowerShell to create and set up auto attendants.</span></span> <span data-ttu-id="3d943-306">以下是您需要管理自動語音應答的 Cmdlet：</span><span class="sxs-lookup"><span data-stu-id="3d943-306">Here are the cmdlets that you need to manage an auto attendant:</span></span>
+![新的 [助理摘要] 視圖的螢幕擷取畫面](media/aa-assigned.png)
 
-- [<span data-ttu-id="3d943-307">新-CsAutoAttendant</span><span class="sxs-lookup"><span data-stu-id="3d943-307">New-CsAutoAttendant</span></span>](https://docs.microsoft.com/powershell/module/skype/new-csautoattendant?view=skype-ps)  
-- [<span data-ttu-id="3d943-308">Set-CsAutoAttendant</span><span class="sxs-lookup"><span data-stu-id="3d943-308">Set-CsAutoAttendant</span></span>](https://docs.microsoft.com/powershell/module/skype/set-csautoattendant?view=skype-ps)
-- [<span data-ttu-id="3d943-309">CsAutoAttendant</span><span class="sxs-lookup"><span data-stu-id="3d943-309">Get-CsAutoAttendant</span></span>](https://docs.microsoft.com/powershell/module/skype/new-csautoattendant?view=skype-ps)
-- [<span data-ttu-id="3d943-310">CsAutoAttendantHolidays</span><span class="sxs-lookup"><span data-stu-id="3d943-310">Get-CsAutoAttendantHolidays</span></span>](https://docs.microsoft.com/powershell/module/skype/get-csautoattendantholidays?view=skype-ps)
-- [<span data-ttu-id="3d943-311">移除-CsAutoAttendant</span><span class="sxs-lookup"><span data-stu-id="3d943-311">Remove-CsAutoAttendant</span></span>](https://docs.microsoft.com/powershell/module/skype/remove-csautoattendant?view=skype-ps)
-- [<span data-ttu-id="3d943-312">新-CsAutoAttendantMenu</span><span class="sxs-lookup"><span data-stu-id="3d943-312">New-CsAutoAttendantMenu</span></span>](https://docs.microsoft.com/powershell/module/skype/new-csautoattendantmenu?view=skype-ps)
-- [<span data-ttu-id="3d943-313">新-CsOnlineAudioFile</span><span class="sxs-lookup"><span data-stu-id="3d943-313">New-CsOnlineAudioFile</span></span>](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineAudioFile?view=skype-ps)
-- [<span data-ttu-id="3d943-314">新-CsAutoAttendantCallFlow</span><span class="sxs-lookup"><span data-stu-id="3d943-314">New-CsAutoAttendantCallFlow</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallFlow?view=skype-ps)
-- [<span data-ttu-id="3d943-315">Export-CsAutoAttendantHolidays</span><span class="sxs-lookup"><span data-stu-id="3d943-315">Export-CsAutoAttendantHolidays</span></span>](https://docs.microsoft.com/powershell/module/skype/export-csorganizationalautoattendantholidays?view=skype-ps)
-- [<span data-ttu-id="3d943-316">新-CsOnlineTimeRange</span><span class="sxs-lookup"><span data-stu-id="3d943-316">New-CsOnlineTimeRange</span></span>](https://docs.microsoft.com/powershell/module/skype/new-csonlinetimerange?view=skype-ps)
-- [<span data-ttu-id="3d943-317">新-CsOnlineDateTimeRange</span><span class="sxs-lookup"><span data-stu-id="3d943-317">New-CsOnlineDateTimeRange</span></span>](https://docs.microsoft.com/powershell/module/skype/new-csonlinedatetimerange?view=skype-ps)
-- [<span data-ttu-id="3d943-318">新-CsOnlineSchedule</span><span class="sxs-lookup"><span data-stu-id="3d943-318">New-CsOnlineSchedule</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsOnlineSchedule?view=skype-ps)
-- [<span data-ttu-id="3d943-319">CsAutoAttendantSupportedTimeZone</span><span class="sxs-lookup"><span data-stu-id="3d943-319">Get-CsAutoAttendantSupportedTimeZone</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedTimeZone?view=skype-ps)
-- [<span data-ttu-id="3d943-320">新-CsAutoAttendantCallHandlingAssociation</span><span class="sxs-lookup"><span data-stu-id="3d943-320">New-CsAutoAttendantCallHandlingAssociation</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallHandlingAssociation?view=skype-ps)
-- [<span data-ttu-id="3d943-321">CsAutoAttendantSupportedLanguage</span><span class="sxs-lookup"><span data-stu-id="3d943-321">Get-CsAutoAttendantSupportedLanguage</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage?view=skype-ps)
-- [<span data-ttu-id="3d943-322">匯入-CsAutoAttendantHolidays</span><span class="sxs-lookup"><span data-stu-id="3d943-322">Import-CsAutoAttendantHolidays</span></span>](https://docs.microsoft.com/powershell/module/skype/import-csautoattendantholidays?view=skype-ps)
-- [<span data-ttu-id="3d943-323">新-CsAutoAttendantCallableEntity</span><span class="sxs-lookup"><span data-stu-id="3d943-323">New-CsAutoAttendantCallableEntity</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallableEntity?view=skype-ps)
+<span data-ttu-id="03a33-315">![數位1的圖示，前一個螢幕擷取畫面](media/teamscallout1.png)中的標注若要新增額外的資源帳戶，請按一下 [ **+ 新增帳戶**]。</span><span class="sxs-lookup"><span data-stu-id="03a33-315">![Icon of the number 1,  a callout in the previous screenshot](media/teamscallout1.png) To add an additional resource account, click on **+ Add account**.</span></span>
 
-### <a name="more-about-windows-powershell"></a><span data-ttu-id="3d943-324">深入瞭解 Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="3d943-324">More about Windows PowerShell</span></span>
+![數位2的圖示，前一個螢幕擷取畫面中有一個標注](media/teamscallout2.png) <span data-ttu-id="03a33-317">指派給此自動語音應答的資源帳戶或帳戶會顯示在清單中。</span><span class="sxs-lookup"><span data-stu-id="03a33-317">The resource account or accounts assigned to this auto attendant are shown in a list.</span></span>
 
-- <span data-ttu-id="3d943-325">Windows PowerShell 全部說明如何管理使用者，以及允許或不允許的使用者執行。</span><span class="sxs-lookup"><span data-stu-id="3d943-325">Windows PowerShell is all about managing users and what users are allowed or not allowed to do.</span></span> <span data-ttu-id="3d943-326">在 Windows PowerShell 中，您可以使用單一管理點管理 Office 365 和 Microsoft 團隊，當您有多個工作需要執行時，可簡化日常作業。</span><span class="sxs-lookup"><span data-stu-id="3d943-326">With Windows PowerShell, you can manage Office 365 and Microsoft Teams using a single point of administration that can simplify your daily work, when you have multiple tasks to do.</span></span> <span data-ttu-id="3d943-327">若要開始使用 Windows PowerShell，請參閱以下主題：</span><span class="sxs-lookup"><span data-stu-id="3d943-327">To get started with Windows PowerShell, see these topics:</span></span>
+## <a name="edit-auto-attendants"></a><span data-ttu-id="03a33-318">編輯自動語音應答</span><span class="sxs-lookup"><span data-stu-id="03a33-318">Edit auto attendants</span></span>
 
-  - [<span data-ttu-id="3d943-328">Windows PowerShell 與 Lync Online 的簡介</span><span class="sxs-lookup"><span data-stu-id="3d943-328">An introduction to Windows PowerShell and Skype for Business Online</span></span>](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
+<span data-ttu-id="03a33-319">儲存新的自動語音應答之後，它會列在 [**自動**語音應答] 頁面上。</span><span class="sxs-lookup"><span data-stu-id="03a33-319">After you save your new auto attendant, it is listed on the **Auto attendants** page.</span></span> <span data-ttu-id="03a33-320">此頁面可讓您快速查看已設定的部分選項，包括名稱、相關聯的資源帳戶、語言及已指派的操作員。</span><span class="sxs-lookup"><span data-stu-id="03a33-320">That page allows you to quickly see some of the options that you have set up, including the name, associated resource account, language, and assigned Operator.</span></span>
 
-  - [<span data-ttu-id="3d943-329">為什麼需要使用 Office 365 PowerShell</span><span class="sxs-lookup"><span data-stu-id="3d943-329">Why you need to use Office 365 PowerShell</span></span>](https://docs.microsoft.com/en-us/office365/enterprise/powershell/why-you-need-to-use-office-365-powershell)
+![[助理] 清單的螢幕擷取畫面](media/aa-list.png)
 
-- <span data-ttu-id="3d943-330">Windows PowerShell 在速度、簡潔性和生產率上都有許多優點，只是使用 Microsoft 365 系統管理中心，例如當您在一次為多位使用者設定變更時。</span><span class="sxs-lookup"><span data-stu-id="3d943-330">Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Microsoft 365 admin center such as when you are making setting changes for many users at one time.</span></span> <span data-ttu-id="3d943-331">請參閱下列主題，瞭解這些優點：</span><span class="sxs-lookup"><span data-stu-id="3d943-331">Learn about these advantages in the following topics:</span></span>
+<span data-ttu-id="03a33-322">如果您想要變更自動助理設定，請選取自動語音應答，然後在 [動作] 窗格中按一下 [**編輯**]。</span><span class="sxs-lookup"><span data-stu-id="03a33-322">If you want to change auto attendant settings, select the auto attendant, and then in the Action pane click **Edit**.</span></span>
 
-  - [<span data-ttu-id="3d943-332">使用 Office 365 PowerShell 管理 Office 365</span><span class="sxs-lookup"><span data-stu-id="3d943-332">Manage Office 365 with Office 365 PowerShell</span></span>](https://docs.microsoft.com/en-us/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
+<!-- To quickly place a test call to your auto attendant, click the **Test** button in the Action pane. -->
 
-  - [<span data-ttu-id="3d943-333">使用 Windows PowerShell 管理商務用 Skype Online</span><span class="sxs-lookup"><span data-stu-id="3d943-333">Using Windows PowerShell to manage Skype for Business Online</span></span>](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
+<!-- ## Summary view
 
-## <a name="related-topics"></a><span data-ttu-id="3d943-334">相關主題</span><span class="sxs-lookup"><span data-stu-id="3d943-334">Related topics</span></span>
+You can use the Summary page to review the settings you've created.
 
-[<span data-ttu-id="3d943-335">以下是您在 Office 365 中使用電話系統所取得的結果</span><span class="sxs-lookup"><span data-stu-id="3d943-335">Here's what you get with Phone System in Office 365</span></span>](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
+![screenshot of the new attendant summary view](media/aa-new-summary.png)
 
-[<span data-ttu-id="3d943-336">取得服務電話號碼</span><span class="sxs-lookup"><span data-stu-id="3d943-336">Getting service phone numbers</span></span>](/microsoftteams/getting-service-phone-numbers)
+Press the **Create** button to finish setup of your new auto attendant. -->
 
-[<span data-ttu-id="3d943-337">適用于音訊會議與通話方案的國家和地區可用性</span><span class="sxs-lookup"><span data-stu-id="3d943-337">Country and region availability for Audio Conferencing and Calling Plans</span></span>](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
+### <a name="create-an-auto-attendant-with-powershell"></a><span data-ttu-id="03a33-323">使用 Powershell 建立自動助理</span><span class="sxs-lookup"><span data-stu-id="03a33-323">Create an auto attendant with Powershell</span></span>
 
-[<span data-ttu-id="3d943-338">新-CsOrganizationalAutoAttendant</span><span class="sxs-lookup"><span data-stu-id="3d943-338">New-CsOrganizationalAutoAttendant</span></span>](https://docs.microsoft.com/en-us/powershell/module/skype/new-csorganizationalautoattendant?view=skype-ps)  
+<span data-ttu-id="03a33-324">您也可以使用 PowerShell 來建立及設定自動語音應答。</span><span class="sxs-lookup"><span data-stu-id="03a33-324">You can also use PowerShell to create and set up auto attendants.</span></span> <span data-ttu-id="03a33-325">以下是您需要管理自動語音應答的 Cmdlet：</span><span class="sxs-lookup"><span data-stu-id="03a33-325">Here are the cmdlets that you need to manage an auto attendant:</span></span>
 
-[<span data-ttu-id="3d943-339">什麼是雲端自動語音應答？</span><span class="sxs-lookup"><span data-stu-id="3d943-339">What are Cloud auto attendants?</span></span>](what-are-phone-system-auto-attendants.md)
+- [<span data-ttu-id="03a33-326">新-CsAutoAttendant</span><span class="sxs-lookup"><span data-stu-id="03a33-326">New-CsAutoAttendant</span></span>](https://docs.microsoft.com/powershell/module/skype/new-csautoattendant?view=skype-ps)  
+- [<span data-ttu-id="03a33-327">Set-CsAutoAttendant</span><span class="sxs-lookup"><span data-stu-id="03a33-327">Set-CsAutoAttendant</span></span>](https://docs.microsoft.com/powershell/module/skype/set-csautoattendant?view=skype-ps)
+- [<span data-ttu-id="03a33-328">CsAutoAttendant</span><span class="sxs-lookup"><span data-stu-id="03a33-328">Get-CsAutoAttendant</span></span>](https://docs.microsoft.com/powershell/module/skype/new-csautoattendant?view=skype-ps)
+- [<span data-ttu-id="03a33-329">CsAutoAttendantHolidays</span><span class="sxs-lookup"><span data-stu-id="03a33-329">Get-CsAutoAttendantHolidays</span></span>](https://docs.microsoft.com/powershell/module/skype/get-csautoattendantholidays?view=skype-ps)
+- [<span data-ttu-id="03a33-330">移除-CsAutoAttendant</span><span class="sxs-lookup"><span data-stu-id="03a33-330">Remove-CsAutoAttendant</span></span>](https://docs.microsoft.com/powershell/module/skype/remove-csautoattendant?view=skype-ps)
+- [<span data-ttu-id="03a33-331">新-CsAutoAttendantMenu</span><span class="sxs-lookup"><span data-stu-id="03a33-331">New-CsAutoAttendantMenu</span></span>](https://docs.microsoft.com/powershell/module/skype/new-csautoattendantmenu?view=skype-ps)
+- [<span data-ttu-id="03a33-332">新-CsOnlineAudioFile</span><span class="sxs-lookup"><span data-stu-id="03a33-332">New-CsOnlineAudioFile</span></span>](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineAudioFile?view=skype-ps)
+- [<span data-ttu-id="03a33-333">新-CsAutoAttendantCallFlow</span><span class="sxs-lookup"><span data-stu-id="03a33-333">New-CsAutoAttendantCallFlow</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallFlow?view=skype-ps)
+- [<span data-ttu-id="03a33-334">Export-CsAutoAttendantHolidays</span><span class="sxs-lookup"><span data-stu-id="03a33-334">Export-CsAutoAttendantHolidays</span></span>](https://docs.microsoft.com/powershell/module/skype/export-csorganizationalautoattendantholidays?view=skype-ps)
+- [<span data-ttu-id="03a33-335">新-CsOnlineTimeRange</span><span class="sxs-lookup"><span data-stu-id="03a33-335">New-CsOnlineTimeRange</span></span>](https://docs.microsoft.com/powershell/module/skype/new-csonlinetimerange?view=skype-ps)
+- [<span data-ttu-id="03a33-336">新-CsOnlineDateTimeRange</span><span class="sxs-lookup"><span data-stu-id="03a33-336">New-CsOnlineDateTimeRange</span></span>](https://docs.microsoft.com/powershell/module/skype/new-csonlinedatetimerange?view=skype-ps)
+- [<span data-ttu-id="03a33-337">新-CsOnlineSchedule</span><span class="sxs-lookup"><span data-stu-id="03a33-337">New-CsOnlineSchedule</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsOnlineSchedule?view=skype-ps)
+- [<span data-ttu-id="03a33-338">CsAutoAttendantSupportedTimeZone</span><span class="sxs-lookup"><span data-stu-id="03a33-338">Get-CsAutoAttendantSupportedTimeZone</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedTimeZone?view=skype-ps)
+- [<span data-ttu-id="03a33-339">新-CsAutoAttendantCallHandlingAssociation</span><span class="sxs-lookup"><span data-stu-id="03a33-339">New-CsAutoAttendantCallHandlingAssociation</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallHandlingAssociation?view=skype-ps)
+- [<span data-ttu-id="03a33-340">CsAutoAttendantSupportedLanguage</span><span class="sxs-lookup"><span data-stu-id="03a33-340">Get-CsAutoAttendantSupportedLanguage</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage?view=skype-ps)
+- [<span data-ttu-id="03a33-341">匯入-CsAutoAttendantHolidays</span><span class="sxs-lookup"><span data-stu-id="03a33-341">Import-CsAutoAttendantHolidays</span></span>](https://docs.microsoft.com/powershell/module/skype/import-csautoattendantholidays?view=skype-ps)
+- [<span data-ttu-id="03a33-342">新-CsAutoAttendantCallableEntity</span><span class="sxs-lookup"><span data-stu-id="03a33-342">New-CsAutoAttendantCallableEntity</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallableEntity?view=skype-ps)
 
-[<span data-ttu-id="3d943-340">小型企業範例-設定自動助手</span><span class="sxs-lookup"><span data-stu-id="3d943-340">Small business example - Set up an auto attendant</span></span>](/microsoftteams/tutorial-org-aa)  
+### <a name="more-about-windows-powershell"></a><span data-ttu-id="03a33-343">深入瞭解 Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="03a33-343">More about Windows PowerShell</span></span>
+
+- <span data-ttu-id="03a33-344">Windows PowerShell 全部說明如何管理使用者，以及允許或不允許的使用者執行。</span><span class="sxs-lookup"><span data-stu-id="03a33-344">Windows PowerShell is all about managing users and what users are allowed or not allowed to do.</span></span> <span data-ttu-id="03a33-345">在 Windows PowerShell 中，您可以從單一管理點管理 Office 365 和 Microsoft 團隊，以簡化日常作業。</span><span class="sxs-lookup"><span data-stu-id="03a33-345">With Windows PowerShell, you can manage Office 365 and Microsoft Teams from a single point of administration that can simplify your daily work.</span></span> <span data-ttu-id="03a33-346">若要開始使用 Windows PowerShell，請參閱以下主題：</span><span class="sxs-lookup"><span data-stu-id="03a33-346">To get started with Windows PowerShell, see these topics:</span></span>
+
+  - [<span data-ttu-id="03a33-347">Windows PowerShell 與 Lync Online 的簡介</span><span class="sxs-lookup"><span data-stu-id="03a33-347">An introduction to Windows PowerShell and Skype for Business Online</span></span>](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
+
+  - [<span data-ttu-id="03a33-348">為什麼需要使用 Office 365 PowerShell</span><span class="sxs-lookup"><span data-stu-id="03a33-348">Why you need to use Office 365 PowerShell</span></span>](https://docs.microsoft.com/en-us/office365/enterprise/powershell/why-you-need-to-use-office-365-powershell)
+
+- <span data-ttu-id="03a33-349">Windows PowerShell 的速度、簡潔性和生產率都有許多優點，只是使用 Microsoft 365 系統管理中心，例如一次為多個使用者進行設定變更。</span><span class="sxs-lookup"><span data-stu-id="03a33-349">Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Microsoft 365 admin center, such as making setting changes for many users at once.</span></span> <span data-ttu-id="03a33-350">請參閱下列主題，瞭解這些優點：</span><span class="sxs-lookup"><span data-stu-id="03a33-350">Learn about these advantages in the following topics:</span></span>
+
+  - [<span data-ttu-id="03a33-351">使用 Office 365 PowerShell 管理 Office 365</span><span class="sxs-lookup"><span data-stu-id="03a33-351">Manage Office 365 with Office 365 PowerShell</span></span>](https://docs.microsoft.com/en-us/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
+
+  - [<span data-ttu-id="03a33-352">使用 Windows PowerShell 管理商務用 Skype Online</span><span class="sxs-lookup"><span data-stu-id="03a33-352">Using Windows PowerShell to manage Skype for Business Online</span></span>](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
+
+## <a name="related-topics"></a><span data-ttu-id="03a33-353">相關主題</span><span class="sxs-lookup"><span data-stu-id="03a33-353">Related topics</span></span>
+
+[<span data-ttu-id="03a33-354">以下是您在 Office 365 中使用電話系統所取得的結果</span><span class="sxs-lookup"><span data-stu-id="03a33-354">Here's what you get with Phone System in Office 365</span></span>](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
+
+[<span data-ttu-id="03a33-355">取得服務電話號碼</span><span class="sxs-lookup"><span data-stu-id="03a33-355">Getting service phone numbers</span></span>](/microsoftteams/getting-service-phone-numbers)
+
+[<span data-ttu-id="03a33-356">適用于音訊會議與通話方案的國家和地區可用性</span><span class="sxs-lookup"><span data-stu-id="03a33-356">Country and region availability for Audio Conferencing and Calling Plans</span></span>](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
+
+[<span data-ttu-id="03a33-357">新-CsOrganizationalAutoAttendant</span><span class="sxs-lookup"><span data-stu-id="03a33-357">New-CsOrganizationalAutoAttendant</span></span>](https://docs.microsoft.com/en-us/powershell/module/skype/new-csorganizationalautoattendant?view=skype-ps)  
+
+[<span data-ttu-id="03a33-358">什麼是雲端自動語音應答？</span><span class="sxs-lookup"><span data-stu-id="03a33-358">What are Cloud auto attendants?</span></span>](what-are-phone-system-auto-attendants.md)
+
+[<span data-ttu-id="03a33-359">小型企業範例-設定自動助手</span><span class="sxs-lookup"><span data-stu-id="03a33-359">Small business example — Set up an auto attendant</span></span>](/microsoftteams/tutorial-org-aa)  
