@@ -18,18 +18,18 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: 瞭解如何在 Microsoft 團隊中管理資源帳戶
-ms.openlocfilehash: 07718421daca271358964914fd29409b7b23fb58
-ms.sourcegitcommit: 2d31209aae9e0171693389db97b0b5c974864673
+ms.openlocfilehash: 022163de7c3674fa0123927bad09a389514cc107
+ms.sourcegitcommit: d349922409f49b52048597a56b81501163749a69
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37375695"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "37401845"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>管理 Microsoft 團隊中的資源帳戶
 
-資源帳戶也稱為 Azure AD 中*已停用的使用者物件*，而且可以用來代表一般的資源。 例如，在 Exchange 中可能會用來代表會議室，並允許他們擁有電話號碼。 您可以使用商務用 Skype Server 2019，在 Microsoft 365 或內部部署中託管資源帳戶。
+資源帳戶也稱為 Azure AD 中*已停用的使用者物件*，而且可以用來代表一般的資源。 例如，在 Exchange 中可能會用來代表會議室，並允許他們擁有電話號碼。 資源帳戶可以駐留在 Microsoft 365 或商務用 Skype Server 2019 上。
 
-在 Microsoft 團隊或商務用 Skype Online 中，每個電話系統通話佇列或自動語音應答都必須有關聯的資源帳戶。 資源帳戶是否需要指派的電話號碼，取決於相關通話佇列或自動語音應答的用途，如下列圖表所示。 在將電話號碼指派給資源帳戶之前，您也可以參閱在本文底部連結的通話佇列和自動語音應答。
+在 Microsoft 團隊或商務用 Skype Online 中，每個電話系統通話佇列或自動語音應答都必須至少有一個相關聯的資源帳戶。 資源帳戶是否需要指派的電話號碼，取決於相關通話佇列或自動語音應答的用途，如下列圖表所示。 在將電話號碼指派給資源帳戶之前，您也可以參閱在本文底部連結的通話佇列和自動語音應答。
 
 > [!IMPORTANT]
 > 電話號碼不會直接指派給自動語音應答或通話佇列，而是與自動語音應答或通話佇列相關聯的資源帳戶。
@@ -39,18 +39,19 @@ ms.locfileid: "37375695"
 > [!NOTE]
 > 本文適用于 Microsoft 團隊和商務用 Skype Online。 針對駐留在商務用 Skype Server 2019 的資源帳戶，請參閱[設定資源帳戶](/SkypeForBusiness/hybrid/configure-onprem-ra)。
 
-
 ## <a name="overview"></a>概觀
 
-如果您的組織已經在使用至少一個電話系統授權，請將電話號碼指派給電話系統通話佇列或自動語音應答流程如下：
+如果您的組織已經使用至少一個電話系統授權，請將電話號碼指派給電話系統呼叫佇列，處理常式為：
 
 1. 取得服務號碼。
 2. 取得免費的電話系統-[虛擬使用者授權](teams-add-on-licensing/virtual-user.md)或付費電話系統授權，以與資源帳戶或電話系統授權搭配使用。
 3. 建立資源帳戶。 需要自動語音應答或通話佇列，才能擁有關聯的資源帳戶。
 4. 將電話系統或電話系統-虛擬使用者授權指派給資源帳戶。
-5. 將服務電話號碼指派給您剛指派授權給之資源帳戶。 
+5. 將服務電話號碼指派給您剛指派授權給之資源帳戶。
 6. 建立電話系統通話佇列或自動語音應答
 7. 連結資源帳戶與通話佇列或自動語音應答。
+
+<!-- Auto attendants created after November 1st, 2019 also create a new resource account that is associated with the auto attendant. If a phone number is applied to the auto attendant's resource account,  a Phone System - Virtual user license is applied to the resource account if one is available. -->
 
 如果自動語音應答或呼叫佇列是嵌套在頂層自動語音應答底下，只要您想要將多個進入點輸入到自動語音應答及呼叫佇列的結構中，相關聯的資源帳戶就只需要電話號碼。
 
@@ -61,11 +62,16 @@ ms.locfileid: "37375695"
 
 如果您正在建立的電話系統通話佇列或自動語音應答將會嵌套，而且不需要電話號碼，程式如下：
 
-1. 建立資源帳戶 
+1. 建立資源帳戶
 2. 建立電話系統通話佇列或自動語音應答
 3. 將資源帳戶與電話系統通話佇列或自動語音關聯
 
 ### <a name="create-a-resource-account-with-a-phone-number"></a>使用電話號碼建立資源帳戶
+
+<a name="phonenumber"> </a>
+
+> [!IMPORTANT]
+> 電話號碼不會直接指派給自動語音應答或通話佇列，而是與自動語音應答或通話佇列相關聯的資源帳戶。
 
 最上層的自動語音應答或通話佇列，必須將電話號碼連結至它的自動語音應答。 若要建立使用電話號碼的資源帳戶，程式為：
 
@@ -75,7 +81,7 @@ ms.locfileid: "37375695"
 
    如果您要將電話號碼指派給資源帳戶，您現在可以使用 [免付費電話系統虛擬使用者授權]。 這會提供手機系統功能給組織階層的電話號碼，並可讓您建立自動語音應答及呼叫佇列功能。
 
-2. 取得電話系統虛擬使用者授權或一般的電話系統授權。 
+2. 取得電話系統虛擬使用者授權或一般的電話系統授權。
 
    若要取得虛擬使用者授權（從 Microsoft 365 系統管理中心開始），請移至**帳單** > **購買服務** > **附加元件訂閱**，然後滾動至結尾，您會看到「電話系統-虛擬使用者」授權。 選取 [**立即購買**]。 有零成本，但您仍需遵循這些步驟來取得授權。
 3. 建立新的資源帳戶。 請參閱[在 Microsoft 團隊系統管理中心建立資源帳戶](#create-a-resource-account-in-microsoft-teams-admin-center)或[在 Powershell 中建立資源帳戶](#create-a-resource-account-in-powershell)
@@ -85,6 +91,8 @@ ms.locfileid: "37375695"
    - [雲端自動語音應答](create-a-phone-system-auto-attendant.md)
    - [雲端通話佇列](create-a-phone-system-call-queue.md)
 7. 將資源帳戶連結到自動語音應答或通話佇列。 請參閱[指派/取消指派電話號碼和服務](#assignunassign-phone-numbers-and-services)
+
+建立自動語音應答時，當您建立資源帳戶時，系統會自動套用授權。
 
 ### <a name="create-a-resource-account-without-a-phone-number"></a>建立不含電話號碼的資源帳戶
 
@@ -137,11 +145,11 @@ ms.locfileid: "37375695"
 
 ## <a name="create-a-resource-account-in-powershell"></a>在 Powershell 中建立資源帳戶
 
-根據您的資源帳戶是位於線上或內部部署，您必須以系統管理員許可權連線到適當的 Powershell 提示。
+根據您的資源帳戶是位於線上或商務用 Skype Server 2019，您必須使用系統管理員許可權連線至適當的 Powershell 提示。
 
 - 下列 Powershell Cmdlet 範例顯示如何使用[新的 CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineApplicationInstance?view=skype-ps)建立以線上為宿主的資源帳戶。 
 
-- 如果資源帳戶是駐留在內部部署的商務用 Skype Server 2019，且可與雲端通話佇列和雲端自動語音應答搭配使用，請參閱[設定雲端通話佇列](/skypeforbusiness/hybrid/configure-call-queue.md)或[設定雲端自動](/skypeforbusiness/hybrid/configure-cloud-auto-attendant.md)語音應答。 混合式實現（在直接路由中的數位）將會使用[新的 CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps)。
+- 針對駐留在商務用 Skype Server 2019 的資源帳戶（可搭配雲端通話佇列和雲端自動語音應答），請參閱[設定雲端通話佇列](/skypeforbusiness/hybrid/configure-call-queue.md)或[設定雲端自動](/skypeforbusiness/hybrid/configure-cloud-auto-attendant.md)語音應答。 混合式實現（在直接路由中的數位）將會使用[新的 CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps)。
 
 您在建立應用程式實例時所需使用的應用程式識別碼為：
 
@@ -149,7 +157,9 @@ ms.locfileid: "37375695"
 - **通話佇列：** 11cd3e2e-fccb-42ad-ad00-878b93575e07
 
 > [!NOTE]
-> 如果您想要讓通話佇列或自動語音應答能由內部部署使用者來搜尋，您應該在內部部署中建立資源帳戶，因為線上資源帳戶不會同步處理到 Active Directory。
+> 如果您想讓通話佇列或自動語音應答能透過商務用 Skype Server 2019 使用者進行搜尋，您應該在商務用 Skype Server 2019 上建立您的資源帳戶，因為線上資源帳戶不會同步處理到 Active Directory。 當 sipfederationtls 的 DNS SRV 記錄解析到商務用 Skype Server 2019 時，**必須**使用 SfB 管理命令介面，並同步處理至 ONLINE Azure AD，在商務用 skype server 2019 上建立資源帳戶。
+
+ 
 
 1. 若要在線上建立與自動語音助理搭配使用的資源帳戶，請使用下列命令：
 
@@ -171,7 +181,7 @@ New-CsOnlineApplicationInstance -UserPrincipalName testra1@contoso.com -Applicat
    > [!NOTE]
    > 您最簡單的做法是使用 Microsoft 團隊系統管理中心來設定線上電話號碼，如先前所述。
 
-   若要將直接傳送電話號碼指派給資源帳戶（在線上或內部部署），請針對商務用 Skype Online Powershell 使用下列 Cmdlet：
+   若要將直接傳送電話號碼指派給資源帳戶（無論是在 Microsoft 團隊或商務用 Skype Server 2019 中），請針對商務用 Skype Online Powershell 使用下列 Cmdlet：
 
    ``` Powershell
    Set-CsOnlineApplicationInstance -Identity appinstance01@contoso.com -OnpremPhoneNumber +14250000000
