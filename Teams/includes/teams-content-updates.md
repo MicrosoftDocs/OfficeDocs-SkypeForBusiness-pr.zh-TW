@@ -3,106 +3,6 @@
 
 
 
-## <a name="week-of-august-19-2019"></a>2019年8月19日的周
-
-
-| 發佈日期 |主題標題 | 切換 |
-|------|------------|--------|
-| 8/19/2019 | [Microsoft 團隊的已知問題](/MicrosoftTeams/known-issues) | 日期 |
-| 8/19/2019 | [設定直接路由](/MicrosoftTeams/direct-routing-configure) | 日期 |
-| 8/19/2019 | [使用直接路由規劃媒體旁路](/MicrosoftTeams/direct-routing-plan-media-bypass) | 日期 |
-| 8/19/2019 | [規劃直接路由](/MicrosoftTeams/direct-routing-plan) | 日期 |
-| 8/19/2019 | [安裝 StaffHub PowerShell 模組](/MicrosoftTeams/expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module) | 日期 |
-| 8/19/2019 | [規劃 Microsoft 團隊中的即時事件](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | 日期 |
-| 8/19/2019 | [將電話號碼傳送至 Office 365](/MicrosoftTeams/transfer-phone-numbers-to-office-365) | 日期 |
-| 8/20/2019 | [建立通話佇列](/MicrosoftTeams/create-a-phone-system-call-queue) | 日期 |
-| 8/20/2019 | [Microsoft 團隊的限制與規格](/MicrosoftTeams/limits-specifications-teams) | 日期 |
-| 8/20/2019 | [如何推出 Microsoft 團隊](/MicrosoftTeams/how-to-roll-out-teams) | 日期 |
-| 8/20/2019 | [Microsoft 團隊的系統管理訓練](/MicrosoftTeams/itadmin-readiness) | 日期 |
-| 8/20/2019 | [Microsoft 團隊技術檔](/MicrosoftTeams/microsoft-teams) | 日期 |
-| 8/20/2019 | [Microsoft 團隊的 Office 365 授權](/MicrosoftTeams/office-365-licensing) | 日期 |
-| 8/20/2019 | [在 Microsoft 團隊中實現服務品質](/MicrosoftTeams/qos-in-teams) | 日期 |
-| 8/20/2019 | [歡迎使用 Microsoft 團隊](/MicrosoftTeams/teams-overview) | 日期 |
-| 8/20/2019 | [Microsoft 團隊中應用程式的系統管理設定](/MicrosoftTeams/admin-settings) | 日期 |
-| 8/20/2019 | [採納 Microsoft 團隊](/MicrosoftTeams/adopt-microsoft-teams-landing-page) | 日期 |
-| 8/20/2019 | [在 Microsoft 團隊中通話駐留與取回](/MicrosoftTeams/call-park-and-retrieve) | 日期 |
-| 8/20/2019 | [在 Microsoft 團隊中呼叫共用與群組通話挑選](/MicrosoftTeams/call-sharing-and-group-call-pickup) | 日期 |
-| 8/20/2019 | [Microsoft 團隊中的雲端語音](/MicrosoftTeams/cloud-voice-landing-page) | 日期 |
-| 8/20/2019 | [Microsoft 團隊中的聊天、團隊、頻道、& 應用程式](/MicrosoftTeams/deploy-chat-teams-channels-microsoft-teams-landing-page) | 日期 |
-| 8/20/2019 | [在 Microsoft 團隊中管理您的裝置](/MicrosoftTeams/device-management) | 日期 |
-| 8/20/2019 | [通話方案所用的不同類型的電話號碼](/MicrosoftTeams/different-kinds-of-phone-numbers-used-for-calling-plans) | 日期 |
-| 8/20/2019 | [電話系統直向路由](/MicrosoftTeams/direct-routing-landing-page) | 日期 |
-| 8/20/2019 | [大量編輯 Microsoft 團隊使用者設定](/MicrosoftTeams/edit-user-settings-in-bulk) | 日期 |
-| 8/20/2019 | [管理貴組織的 Microsoft 團隊設定](/MicrosoftTeams/enable-features-office-365) | 日期 |
-| 8/20/2019 | [Microsoft 團隊的最終使用者訓練](/MicrosoftTeams/enduser-training) | 日期 |
-| 8/20/2019 | [團隊作業](/MicrosoftTeams/expand-teams-across-your-org/assignments-in-teams) | 日期 |
-| 8/20/2019 | [如何在貴組織中使用本機號碼](/MicrosoftTeams/how-can-caller-id-be-used-in-your-organization) | 日期 |
-| 8/20/2019 | [您可以取得多少電話號碼？](/MicrosoftTeams/how-many-phone-numbers-can-you-get) | 日期 |
-| 8/20/2019 | [Microsoft 團隊使用者的講師指導訓練和影片](/MicrosoftTeams/instructor-led-training-teams-landing-page) | 日期 |
-| 8/20/2019 | [新增及更新位置資料](/MicrosoftTeams/learn-more-about-site-upload) | 日期 |
-| 8/20/2019 | [請與 PSTN 服務服務台聯繫](/MicrosoftTeams/manage-phone-numbers-for-your-organization/contact-pstn-service-desk) | 日期 |
-| 8/20/2019 | [管理貴組織的電話號碼](/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization) | 日期 |
-| 8/20/2019 | [管理 Microsoft 團隊中的原則套件](/MicrosoftTeams/manage-policy-packages) | 日期 |
-| 8/20/2019 | [管理團隊中的資源帳戶](/MicrosoftTeams/manage-resource-accounts) | 日期 |
-| 8/20/2019 | [管理會議設定](/MicrosoftTeams/meeting-settings-in-teams) | 日期 |
-| 8/20/2019 | [與商務用 Skype 搭配使用團隊之組織的遷移和互通性指南](/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype) | 日期 |
-| 8/20/2019 | [使用 Microsoft 團隊的網路 Planner](/MicrosoftTeams/network-planner) | 日期 |
-| 8/20/2019 | [Microsoft 團隊中的安全性與合規性概述](/MicrosoftTeams/security-compliance-overview) | 日期 |
-| 8/20/2019 | [在 Microsoft 團隊中設定假日](/MicrosoftTeams/set-up-holidays-in-teams) | 日期 |
-| 8/20/2019 | [Microsoft 團隊中的共用線條外觀](/MicrosoftTeams/shared-line-appearance) | 日期 |
-| 8/20/2019 | [管理 Microsoft 團隊中的 app 許可權原則](/MicrosoftTeams/teams-app-permission-policies) | 日期 |
-| 8/20/2019 | [在 Microsoft 團隊中呼叫原則](/MicrosoftTeams/teams-calling-policy) | 日期 |
-| 8/20/2019 | [Microsoft 團隊中的團隊和頻道概覽](/MicrosoftTeams/teams-channels-overview) | 日期 |
-| 8/20/2019 | [管理 Microsoft 團隊中的自訂應用程式原則和設定](/MicrosoftTeams/teams-custom-app-policies-and-settings) | 日期 |
-| 8/20/2019 | [什麼是 Microsoft 團隊即時事件？](/MicrosoftTeams/teams-live-events/what-are-teams-live-events) | 日期 |
-| 8/20/2019 | [管理 Microsoft 團隊中的團隊原則](/MicrosoftTeams/teams-policies) | 日期 |
-| 8/20/2019 | [在 Microsoft 團隊租使用者應用程式目錄中發佈應用程式](/MicrosoftTeams/tenant-apps-catalog-teams) | 日期 |
-| 8/20/2019 | [開啟並使用通話品質儀表板](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) | 日期 |
-| 8/20/2019 | [升級檢查\|清單 Skype 企業對團隊\|升級基本步驟](/MicrosoftTeams/upgrade-basic) | 日期 |
-| 8/20/2019 | [Microsoft 團隊升級快速入門](/MicrosoftTeams/upgrade-start-here) | 日期 |
-| 8/20/2019 | [管理使用者對 Microsoft 團隊的存取權](/MicrosoftTeams/user-access) | 日期 |
-| 8/20/2019 | [使用 Microsoft 團隊管理員角色管理團隊](/MicrosoftTeams/using-admin-roles) | 日期 |
-| 8/20/2019 | [什麼是撥號方案？](/MicrosoftTeams/what-are-dial-plans) | 日期 |
-| 8/20/2019 | [什麼是緊急位置、位址及呼叫路由？](/MicrosoftTeams/what-are-emergency-locations-addresses-and-call-routing) | 日期 |
-| 8/21/2019 | [在 Microsoft 團隊中建立組織範圍的小組](/MicrosoftTeams/create-an-org-wide-team) | 日期 |
-| 8/21/2019 | [針對多個承租人設定會話框線控制器](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | 日期 |
-| 8/21/2019 | [Microsoft 團隊的限制與規格](/MicrosoftTeams/limits-specifications-teams) | 日期 |
-| 8/21/2019 | [設定 Microsoft 團隊聊天室主控台](/MicrosoftTeams/room-systems/console) | 日期 |
-| 8/21/2019 | [準備您的環境](/MicrosoftTeams/room-systems/srs-v2-prep) | 日期 |
-| 8/21/2019 | [在 Microsoft 團隊中設定即時事件](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | 日期 |
-| 8/21/2019 | [什麼是通訊點數？](/MicrosoftTeams/what-are-communications-credits) | 日期 |
-| 8/23/2019 | [遷移至直接路由](/MicrosoftTeams/direct-routing-migrating) | 日期 |
-| 8/23/2019 | [Microsoft 團隊中應用程式的系統管理設定](/MicrosoftTeams/admin-settings) | 日期 |
-| 8/23/2019 | [管理 Microsoft 團隊中的團隊原則](/MicrosoftTeams/teams-policies) | 日期 |
-
-
-## <a name="week-of-august-26-2019"></a>2019年8月26日
-
-
-| 發佈日期 |主題標題 | 切換 |
-|------|------------|--------|
-| 8/27/2019 | [針對多個承租人設定會話框線控制器](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | 日期 |
-| 8/27/2019 | [以下是您在 Office 365 中使用電話系統所取得的結果](/MicrosoftTeams/here-s-what-you-get-with-phone-system) | 日期 |
-| 8/27/2019 | [使用 XML 設定檔遠端系統管理 Microsoft 團隊聊天室的主控台設定](/MicrosoftTeams/room-systems/content-camera) | 日期 |
-| 8/27/2019 | [Microsoft 團隊會議室需求](/MicrosoftTeams/room-systems/requirements) | 日期 |
-| 8/27/2019 | [在 Microsoft 團隊中查看、變更及重設指派給使用者的會議 ID](/MicrosoftTeams/see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams) | 日期 |
-| 8/27/2019 | [在組織中設定電話系統](/MicrosoftTeams/setting-up-your-phone-system) | 日期 |
-| 8/28/2019 | [在 Microsoft 團隊中設定及管理頻道裁決](/MicrosoftTeams/manage-channel-moderation-in-teams) | 日期 |
-| 8/28/2019 | [Microsoft 團隊裝置使用量報告](/MicrosoftTeams/teams-analytics-and-reports/device-usage-report) | 日期 |
-| 8/28/2019 | [Microsoft 團隊即時事件使用量報告](/MicrosoftTeams/teams-analytics-and-reports/teams-live-event-usage-report) | 日期 |
-| 8/28/2019 | [Microsoft 團隊使用量報告](/MicrosoftTeams/teams-analytics-and-reports/teams-usage-report) | 日期 |
-| 8/28/2019 | [Microsoft 團隊使用者活動報告](/MicrosoftTeams/teams-analytics-and-reports/user-activity-report) | 日期 |
-| 8/29/2019 | [團隊中的使用者目前狀態](/MicrosoftTeams/presence-admins) | 日期 |
-| 8/29/2019 | [Microsoft 團隊使用量報告](/MicrosoftTeams/teams-analytics-and-reports/teams-usage-report) | 日期 |
-| 8/29/2019 | [Microsoft 團隊中的音訊會議](/MicrosoftTeams/tutorial-audio-conferencing) | 日期 |
-| 8/29/2019 | [音訊會議常見問題](/MicrosoftTeams/audio-conferencing-common-questions) | 日期 |
-| 8/29/2019 | [建立通話佇列](/MicrosoftTeams/create-a-phone-system-call-queue) | 日期 |
-| 8/29/2019 | [電話系統-虛擬使用者授權](/MicrosoftTeams/teams-add-on-licensing/virtual-user) | 日期 |
-| 8/29/2019 | [Microsoft 團隊\|升級、孤島模式、交互操作原則（僅限）](/MicrosoftTeams/teams-and-skypeforbusiness-coexistence-and-interoperability) | 日期 |
-| 8/29/2019 | [團隊用戶端體驗與共存模式的一致性](/MicrosoftTeams/teams-client-experience-and-conformance-to-coexistence-modes) | 日期 |
-| 8/30/2019 | [管理貴組織的 Microsoft 團隊設定](/MicrosoftTeams/enable-features-office-365) | 日期 |
-
-
 ## <a name="week-of-september-02-2019"></a>2019年9月2日的周
 
 
@@ -214,3 +114,78 @@
 | 9/20/2019 | [團隊中的使用者目前狀態](/MicrosoftTeams/presence-admins) | 日期 |
 | 9/20/2019 | [Microsoft 團隊\|升級、孤島模式、交互操作原則（僅限）](/MicrosoftTeams/teams-and-skypeforbusiness-coexistence-and-interoperability) | 日期 |
 | 9/20/2019 | [30中的團隊](/MicrosoftTeams/teams-in-30-workshops) | 日期 |
+
+
+## <a name="week-of-september-23-2019"></a>2019年9月23日
+
+
+| 發佈日期 |主題標題 | 切換 |
+|------|------------|--------|
+| 9/23/2019 | [建立通話佇列](/MicrosoftTeams/create-a-phone-system-call-queue) | 日期 |
+| 9/23/2019 | [針對多個承租人設定會話框線控制器](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | 日期 |
+| 9/23/2019 | [Microsoft 團隊裝置使用量報告](/MicrosoftTeams/teams-analytics-and-reports/device-usage-report) | 日期 |
+| 9/23/2019 | [Microsoft 團隊即時事件使用量報告](/MicrosoftTeams/teams-analytics-and-reports/teams-live-event-usage-report) | 日期 |
+| 9/23/2019 | [Microsoft 團隊分析和報告](/MicrosoftTeams/teams-analytics-and-reports/teams-reporting-reference) | 日期 |
+| 9/23/2019 | [Microsoft 團隊使用量報告](/MicrosoftTeams/teams-analytics-and-reports/teams-usage-report) | 日期 |
+| 9/23/2019 | [Microsoft 團隊使用者活動報告](/MicrosoftTeams/teams-analytics-and-reports/user-activity-report) | 日期 |
+| 9/24/2019 | [安裝 StaffHub PowerShell 模組](/MicrosoftTeams/expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module) | 日期 |
+| 9/24/2019 | [將您的 StaffHub 團隊移至 Microsoft 團隊中的倒班](/MicrosoftTeams/expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams) | 日期 |
+| 9/24/2019 | [使用 XML 設定檔遠端系統管理 Microsoft 團隊聊天室的主控台設定](/MicrosoftTeams/room-systems/content-camera) | 日期 |
+| 9/24/2019 | [瞭解 Microsoft 團隊中的團隊和頻道](/MicrosoftTeams/teams-adoption-understand-teams-and-channels) | 日期 |
+| 9/25/2019 | [開始使用適用于醫療保健組織的團隊](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | 日期 |
+| 9/25/2019 | [Microsoft 團隊會議室需求](/MicrosoftTeams/room-systems/requirements) | 日期 |
+| 9/26/2019 | [管理會議原則](/MicrosoftTeams/meeting-policies-in-teams) | 日期 |
+| 9/27/2019 | [設定直接路由](/MicrosoftTeams/direct-routing-configure) | 日期 |
+| 9/27/2019 | [規劃直接路由](/MicrosoftTeams/direct-routing-plan) | 日期 |
+| 9/27/2019 | [Office 365 企業版 E1 與 E3 方案](/MicrosoftTeams/teams-add-on-licensing/office-365-enterprise-e1-e3) | 日期 |
+| 9/27/2019 | [Microsoft 團隊的已知問題](/MicrosoftTeams/known-issues) | 日期 |
+| 9/27/2019 | [Microsoft 團隊的 Office 365 授權](/MicrosoftTeams/office-365-licensing) | 日期 |
+| 9/27/2019 | [開始使用適用于醫療保健組織的安全訊息](/MicrosoftTeams/expand-teams-across-your-org/healthcare/messaging-policies-hc) | 日期 |
+| 9/27/2019 | [以下是您在 Office 365 中使用電話系統所取得的結果](/MicrosoftTeams/here-s-what-you-get-with-phone-system) | 日期 |
+| 9/27/2019 | [在 Microsoft 團隊中管理外部存取（同盟）](/MicrosoftTeams/manage-external-access) | 日期 |
+| 9/27/2019 | [使用 Microsoft 團隊範圍的目錄搜尋](/MicrosoftTeams/teams-scoped-directory-search) | 日期 |
+| 9/27/2019 | [Microsoft 團隊升級快速入門](/MicrosoftTeams/upgrade-start-here) | 日期 |
+
+
+## <a name="week-of-september-30-2019"></a>2019年9月30日的周
+
+
+| 發佈日期 |主題標題 | 切換 |
+|------|------------|--------|
+| 9/30/2019 | [在 Outlook 中使用 Microsoft 團隊會議增益集](/MicrosoftTeams/teams-add-in-for-outlook) | 日期 |
+| 9/30/2019 | [安裝 StaffHub PowerShell 模組](/MicrosoftTeams/expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module) | 日期 |
+| 9/30/2019 | [在 Microsoft 團隊中為您的組織管理倒班應用程式](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | 日期 |
+| 9/30/2019 | [Microsoft StaffHub 停用](/MicrosoftTeams/expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired) | 日期 |
+| 9/30/2019 | [將您的 StaffHub 團隊移至 Microsoft 團隊中的倒班](/MicrosoftTeams/expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams) | 日期 |
+| 9/30/2019 | [規劃將您的 StaffHub 團隊移至 Microsoft 團隊中的倒班](/MicrosoftTeams/expand-teams-across-your-org/shifts/plan-to-move-staffhub-teams-to-shifts-in-teams) | 日期 |
+| 9/30/2019 | [執行報表以顯示使用中的 StaffHub 使用量](/MicrosoftTeams/expand-teams-across-your-org/shifts/run-report-to-show-staffhub-usage) | 日期 |
+| 9/30/2019 | [StaffHub 至團隊範例電子郵件給使用者](/MicrosoftTeams/expand-teams-across-your-org/shifts/staffhub-to-teams-email-template) | 日期 |
+| 9/30/2019 | [變更問候語和電子郵件的預設語言](/MicrosoftTeams/change-the-default-language-for-greetings-and-emails) | 日期 |
+| 9/30/2019 | [[通話分析] 和 [通話品質儀表板]](/MicrosoftTeams/difference-between-call-analytics-and-call-quality-dashboard) | 日期 |
+| 9/30/2019 | [[通話品質] 儀表板中提供的尺寸與測量](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | 日期 |
+| 9/30/2019 | [以下是您在 Office 365 中使用電話系統所取得的結果](/MicrosoftTeams/here-s-what-you-get-with-phone-system) | 日期 |
+| 9/30/2019 | [如何在貴組織中使用本機號碼](/MicrosoftTeams/how-can-caller-id-be-used-in-your-organization) | 日期 |
+| 9/30/2019 | [管理 Microsoft 團隊中的白板](/MicrosoftTeams/manage-whiteboard) | 日期 |
+| 9/30/2019 | [通話品質儀表板中的資料流程分類](/MicrosoftTeams/stream-classification-in-call-quality-dashboard) | 日期 |
+| 9/30/2019 | [開啟並使用通話品質儀表板](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) | 日期 |
+| 10/1/2019 | [[通話品質] 儀表板中提供的尺寸與測量](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | 日期 |
+| 10/1/2019 | [管理 Microsoft 團隊商業雲端試用版優惠](/MicrosoftTeams/iw-trial-teams) | 日期 |
+| 10/1/2019 | [開啟並使用通話品質儀表板](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) | 日期 |
+| 10/1/2019 | [設定雲端自動語音應答](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 日期 |
+| 10/1/2019 | [管理團隊中的資源帳戶](/MicrosoftTeams/manage-resource-accounts) | 日期 |
+| 10/1/2019 | [Microsoft 團隊中的團隊和頻道概覽](/MicrosoftTeams/teams-channels-overview) | 日期 |
+| 10/2/2019 | [設定雲端自動語音應答](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 日期 |
+| 10/2/2019 | [管理團隊中的資源帳戶](/MicrosoftTeams/manage-resource-accounts) | 日期 |
+| 10/2/2019 | [什麼是雲端自動語音應答？](/MicrosoftTeams/what-are-phone-system-auto-attendants) | 日期 |
+| 10/3/2019 | [管理會議原則](/MicrosoftTeams/meeting-policies-in-teams) | 日期 |
+| 10/4/2019 | [新增及更新報告標籤](/MicrosoftTeams/learn-more-about-site-upload) | 日期 |
+| 10/4/2019 | [管理 Microsoft 團隊中的緊急通話路由原則](/MicrosoftTeams/manage-emergency-call-routing-policies) | 相加 |
+| 10/4/2019 | [管理 Microsoft 團隊中的緊急通話原則](/MicrosoftTeams/manage-emergency-calling-policies) | 相加 |
+| 10/4/2019 | [從商務用 Skype 內部部署（Microsoft 團隊）升級至團隊](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinesshybridonprem) | 日期 |
+| 10/4/2019 | [什麼是緊急位置、地點及呼叫路由？](/MicrosoftTeams/what-are-emergency-locations-addresses-and-call-routing) | 日期 |
+| 10/4/2019 | [設定雲端自動語音應答](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 日期 |
+| 10/4/2019 | [管理 Microsoft 團隊中的緊急通話路由原則](/MicrosoftTeams/manage-emergency-call-routing-policies) | 日期 |
+| 10/4/2019 | [管理 Microsoft 團隊中的緊急通話原則](/MicrosoftTeams/manage-emergency-calling-policies) | 日期 |
+| 10/4/2019 | [管理團隊中的資源帳戶](/MicrosoftTeams/manage-resource-accounts) | 日期 |
+| 10/4/2019 | [小型企業範例-設定自動助手](/MicrosoftTeams/tutorial-org-aa) | 日期 |
+| 10/4/2019 | [什麼是雲端自動語音應答？](/MicrosoftTeams/what-are-phone-system-auto-attendants) | 日期 |
