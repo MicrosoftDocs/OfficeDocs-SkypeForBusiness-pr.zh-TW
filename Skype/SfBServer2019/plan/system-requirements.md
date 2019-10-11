@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 摘要：使用本主題準備商務用 Skype Server 2019 伺服器及網域基礎結構。 硬體、作業系統、資料庫、軟體、所有系統需求與建議，以及憑證 DNS、檔案共用及 Active Directory 資訊，都在這裡協助確保您的伺服器伺服器陣列已成功安裝及部署。
-ms.openlocfilehash: e14da71795989356f24d7dc6ae72f94a649011e5
-ms.sourcegitcommit: dc151bf4454ddec20db5cd133a42a67599c08d64
+ms.openlocfilehash: 385aabbf0a3c17abd9a9a22dfdb810720ca76660
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "36838118"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37435164"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>商務用 Skype Server 2019 的系統需求
  
@@ -106,6 +106,9 @@ ms.locfileid: "36838118"
 <a name="Software"> </a>
 
 在任何執行商務用 Skype Server 2019 的伺服器，都需要安裝或設定一些事項。 如下所示，後面接著特定伺服器角色的其他需求。
+
+> [!IMPORTANT]
+> 商務用 Skype 2019 支援 .Net Framework 4.8。 
   
  **所有伺服器：**
   

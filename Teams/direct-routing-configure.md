@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 瞭解如何設定 Microsoft Phone 系統 Direct 路由。
-ms.openlocfilehash: d1a763f150004b5c558dd311dd54ed6975dcb0c1
-ms.sourcegitcommit: 6b73b89f29a0eabbd9cdedf995d5325291594bac
+ms.openlocfilehash: 38938846c594cbb325193e42111ba8dff528f17f
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "37018765"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37434929"
 ---
 # <a name="configure-direct-routing"></a>設定直接路由
 
@@ -111,7 +111,7 @@ Enabled               : True
 |必填？|名稱|說明|設置|可能值|類型與限制|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |是的|稱|SBC 的 FQDN 名稱 |無|NoneFQDN name，限制63字元|在[Active Directory 中針對電腦、網域、網站和組織單位命名慣例](https://support.microsoft.com/help/909264)的允許和禁止字元清單|
-|不|MediaBypass |已保留供將來使用的參數。 指示 SBC 的參數支援「媒體旁路」，且系統管理員想要使用它。|無|滿足<br/>虛假|Boolean|
+|不|MediaBypass |指示 SBC 的參數支援「媒體旁路」，且系統管理員想要使用它。|無|滿足<br/>虛假|Boolean|
 |是的|SipSignallingPort |使用傳輸層安全性（TLS）通訊協定，與直接路由服務通訊時所使用的偵聽埠。|無|任何埠|0到65535 |
 |不|FailoverTimeSeconds |當設定為10（預設值）時，閘道不會在10秒內應答的輸出呼叫會路由至下一個可用的幹線;如果沒有其他 trunks，就會自動中斷通話。 組織的網路速度與閘道回應速度若是很慢，可能會造成來電不必要地遭到掛斷。 預設值為10。|第|電話|Int|
 |不|ForwardCallHistory |指出是否透過主幹轉送通話記錄資訊。 如果啟用，Office 365 PSTN Proxy 會傳送兩個標頭： [歷程記錄] 資訊和 [參照者]。 預設值為**False** （$False）。 |虛假|滿足<br/>虛假|Boolean|
@@ -532,6 +532,11 @@ New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canad
 
 直接路由要求使用者只能在 [僅限團隊] 模式中，以確保來電在團隊用戶端中保持通話。 若要將使用者置於 [僅限團隊] 模式，請將 [UpgradeToTeams] TeamsUpgradePolicy 的實例指派給他們。 如果您的組織使用商務用 Skype Server 或商務用 Skype Online，請參閱下列文章以瞭解 Skype 與團隊之間的資訊互用性：[與 skype 搭配使用團隊的組織的遷移與互通性指南商務](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype)用。 
 
+
+## <a name="configuring-sending-calls-directly-to-voicemail"></a>設定直接傳送來電至語音信箱
+
+[直接路由] 可讓您結束通話呼叫並直接傳送給使用者的語音信箱。 如果您想要直接將來電傳送到語音信箱，請將不透明的 = app 附加至 [要求 URI 標頭]。 例如，「sip： user@yourdomain.com; 不透明 = app：語音信箱」。
+在這種情況下，小組使用者將不會收到來電通知，該通話會直接連線至使用者的語音信箱。
 
 ## <a name="see-also"></a>另請參閱
 

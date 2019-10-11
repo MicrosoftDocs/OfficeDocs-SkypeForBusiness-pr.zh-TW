@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 瞭解如何為 Microsoft 團隊設定及測試雲端自動語音應答。
-ms.openlocfilehash: 424b6cea41132bd03b9eecfbd2d387697332505f
-ms.sourcegitcommit: d349922409f49b52048597a56b81501163749a69
+ms.openlocfilehash: 60fce49f2c03ef674e0b1e09f5d0193bcdab7ca0
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "37401921"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37434961"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>設定雲端自動語音應答
 
@@ -44,7 +44,7 @@ ms.locfileid: "37401921"
 ## <a name="step-1--get-started"></a>步驟1：快速入門
 
 - 必須有一個自動語音應答，才能擁有相關聯的資源帳戶。 如需資源帳戶及所有所需授權的詳細資料，請參閱[管理團隊中的資源帳戶](manage-resource-accounts.md)。 
-- 
+ 
 <!-- When you create a new auto attendant in Teams after October 10th, 2019, the required auto attendant is automatically created and linked with the new auto attendant. -->
  
 > [!TIP]
@@ -88,7 +88,7 @@ ms.locfileid: "37401921"
      > [!Note]
      > **貴組織中的人員**可以是線上使用者，或使用商務用 Skype Server 託管內部部署的使用者。
 
-- **語音功能** 選取連結到已建立之自動語音應答或通話佇列之資源帳戶的名稱。 要求操作員的呼叫者會被重新導向。  
+- **語音應用程式** 選取連結到已建立之自動語音應答或通話佇列之資源帳戶的名稱。 要求操作員的呼叫者會被重新導向。  
 <!--   
 
 - **Auto attendant** Select the name of the resource account linked to an auto attendant that has already been created. Callers that request an operator are redirected there.
@@ -100,10 +100,11 @@ ms.locfileid: "37401921"
 > Auto attendants created after October 10th, 2019 also create a new [resource account](manage-resource-accounts.md) that is associated with the auto attendant. If a phone number is applied to the auto attendant's resource account,  a Phone System - Virtual user license is applied to the resource account if one is available.
 -->
 
-* * * 
+* * *
 
-![數位3的圖示，前一個螢幕擷取畫面](media/teamscallout3.png)<a name="timezone"></a>  
-**時區**中的標注，您必須為自動語音應答設定時區。 此設定可以與您組織的主要位址時區，或其他時區相同。 每個自動助理都可以有不同的時區。 自動語音應答的 [上班時間] 設定也會使用 [此時區]。
+<a name="timezone"> </a>
+
+![數位3的圖示，前一個螢幕擷取畫面](media/teamscallout3.png) **時區**中的標注，您必須為自動語音應答設定時區。 此設定可以與您組織的主要位址時區，或其他時區相同。 每個自動助理都可以有不同的時區。 自動語音應答的 [上班時間] 設定也會使用 [此時區]。
 
 * * *
 
@@ -147,7 +148,6 @@ ms.locfileid: "37401921"
 ![數位3的圖示，前一個螢幕擷取畫面](media/teamscallout3.png)中的標注輸入**問候訊息**：如果您選擇這個選項，請在提供的欄位中輸入您想要系統讀取的文字（最多1000個字元）。 例如，輸入「歡迎使用 Contoso。 您的通話對我們很重要。」 [輸出] 是由文字到語音軟體所建立。
 
 * * *
-
 
 您可以在 [從下列動作**傳送通話**] 區段中，選取 [呼叫] 旁的選項。 設定為 **[中斷連線]、[** 重新**導向通話**] 或 [**播放] 功能表選項**。
 
@@ -197,13 +197,9 @@ ms.locfileid: "37401921"
 > [!NOTE]
 > 按鍵\* （重複）及\# （背面）是由系統所保留，而且無法重新指派。 如果已啟用語音辨識功能，按下 * 將與 "Repeat" 相對應，且 # 會與 "Back" 聲音命令相對應。
 
-![數位3的圖示，前一個螢幕擷取畫面中有一個標注](media/teamscallout3.png)
+![數位3的圖示，前一個螢幕擷取畫面](media/teamscallout3.png)中的標注若要設定功能表選項，請按一下 [ **+ 指派撥號鍵**]，然後輸入下列選項的資訊：
 
-若要設定功能表選項，請按一下 [ **+ 指派撥號鍵**]，然後輸入下列選項的資訊：
-
-![數位4的圖示，前一個螢幕擷取畫面中的標注](media/teamscallout4.png) 
-
-選項的**語音命令**欄最多可以包含64個字元，而且可以包含多個字，例如「客戶服務」或「作業與不含」。 如果已啟用語音辨識功能，系統會自動辨識名稱，而且呼叫者可以按3、說「三」，或者說「客戶服務」，選取對應至鍵3的選項。
+![數位4的圖示，在前一個螢幕擷取畫面](media/teamscallout4.png)中的 [語音]**命令**欄中，選項最多可包含64個字元，而且可以包含多個字，例如「客戶服務」或「作業與使用中」。   如果已啟用語音辨識功能，系統會自動辨識名稱，而且呼叫者可以按3、說「三」，或者說「客戶服務」，選取對應至鍵3的選項。 此文字也會由針對服務確認提示的文字轉換語音，這可能是「將您的通話轉移到操作員」之類的內容。
 
 ![數位5的圖示，前一個螢幕擷取畫面](media/teamscallout5.png)中的標注： [**重定向至**] 選項會在您按下對應的按鍵時，或使用語音辨識選取選項時，進行呼叫的位置。 通話可以傳送至：
 
@@ -219,13 +215,14 @@ ms.locfileid: "37401921"
 - **External phone number** routes the caller to a designated phone number outside your local system.<!-- does this have prerequisites like direct routing?
 - **Group Voicemail** routes the call to a voicemail box that you select.  -->
 
-![數位6的圖示，前一個螢幕擷取畫面中有一個標注](media/teamscallout6.png) 
-
-**目錄搜尋**在此區段中，您可以啟用 [**依名稱撥號**]，並透過**分機號碼撥號**來撥打自動語音應答。 您可以在 [選用的撥號作用域] 頁面中，設定這些服務中和不包含的人員。 [目錄搜尋] 預設會設定為 [**無**]。
+![數位6的圖示，在此區段的前一個螢幕](media/teamscallout6.png)快照**目錄搜尋**中，您可以啟用 [透過**名稱撥號**]，並以 [撥打自動語音應答的**方式撥號**] 進行撥號。   您可以在 [選用的撥號作用域] 頁面中，設定這些服務中和不包含的人員。 [目錄搜尋] 預設會設定為 [**無**]。
 
 **依名稱撥號**如果您啟用這個選項，來電者就可以使用 [透過**名稱撥號**] 搜尋貴組織中的人員。 他們會說出使用者的名稱和語音辨識會與使用者相符。 您可以在 [選用的撥號作用域] 頁面中，設定這些服務中和不包含的人員。 使用電話系統授權的任何線上使用者，或任何使用商務用 Skype Server 主機內部部署的使用者，都是合格的使用者，而且可以使用 [撥號者名稱] 找到。
 
 透過**分機撥打電話**如果您啟用此選項，則如果**您已設定使用延伸的撥號方案**，來電者就可以透過您的組織中的使用者來連線。 您可以在 [選用撥號作用中] 頁面中，選取哪些使用者列為 [可供**撥號**] 或 [無法使用]。 使用電話系統授權的任何線上使用者，或任何使用商務用 Skype Server 主機內部部署的使用者，都是符合資格的使用者，而且可透過分機找到。
+
+> [!NOTE]
+> 如果您想要同時使用 [透過**名稱撥號**]**和 [透過撥號撥打**] 功能，您可以建立主自動語音應答（透過**名稱撥號**），提示來電者選擇功能表選項3（如果他們知道使用者的副檔名），並將 option 3 設定為 [事務]。sfer 電話撥打電話給已啟用 [透過分機撥打電話] 的自動語音應答。 
 
 * * *
 
@@ -328,7 +325,9 @@ If you choose **Write your call instructions**, enter the script  you want the s
 
 **自訂使用者群組**這個選項可讓您搜尋並選取您組織中已建立的 Office 365 群組、通訊群組清單或安全性群組。 如果使用者位於所選的 Office 365 群組、通訊群組清單或安全群組中，而且他們是使用**電話系統授權的線上使用者**，或是使用商務用 Skype Server 主機內部部署的使用者，就會新增到目錄中。 您可以將多個 Office 365 群組、通訊群組清單和安全性群組新增到目錄中。
 
+<a name="dialscope"> </a>
 
+在此頁面上，您可以設定貴組織中的哪些使用者會列在您的目錄中，並可在撥入您組織的人員時，透過名稱撥號。
 
 ![數位2的圖示，前一個螢幕擷取畫面](media/teamscallout2.png)中的標注會**排除**此區段中的選項，讓您可以從組織的目錄中排除特定使用者或使用者群組。
 

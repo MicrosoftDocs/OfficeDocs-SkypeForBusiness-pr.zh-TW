@@ -13,12 +13,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: 開始使用適用于醫療保健組織的安全訊息
-ms.openlocfilehash: 6fa8ceef15b0f88a4624ebaaeaa177c4f0d1e1e3
-ms.sourcegitcommit: 1721acdd507591d16a4e766b390b997979d985e5
+ms.openlocfilehash: 05a8454201601ebf4e2689f8399547c1af80c971
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37306679"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37434947"
 ---
 # <a name="get-started-with-secure-messaging-for-healthcare-organizations"></a>開始使用適用于醫療保健組織的安全訊息
 
@@ -47,6 +47,8 @@ ms.locfileid: "37306679"
     已*讀回執的用法範例：* Jakob Roth （高風險患者）可獲准在醫院中。Sofia Krause 是一個護士，共同作業是共同作業（IDT）的醫療人員小組（），其中包括不同的專家，都是指派給本患者的主要護理協調員。  Sofia 會使用一組醫生和其他醫護人員來啟動群組聊天，他們將與患者共同合作，並開始緊急會審。在整個護理協調流程中，護士與醫生透過患者的護理方案進行溝通並共同作業。  重要及緊急訊息是透過1:1 和群組聊天交談傳送。 Sofia 會使用 [已讀] 回執功能來判斷傳送給要求支援的訊息是否由目標醫生或護士提供並閱讀。 Jakob 的患者成果接近最佳，而且因為他的護理小組能順暢地順利進行。
 
 ## <a name="priority-notifications"></a>優先順序通知
+
+[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
 [!INCLUDE [pri-message-offer](../../includes/pri-message-offer.md)]
 

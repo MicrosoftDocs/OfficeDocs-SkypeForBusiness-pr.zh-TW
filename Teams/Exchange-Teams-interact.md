@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5f2e605e86b91fc5d0ea2f22d2aec3941a3d31d9
-ms.sourcegitcommit: 299f854bbb73887ba315b09b9adf9ea9ff91e8ec
+ms.openlocfilehash: 42d15f32cbdf7326ea8daf85860bd451d93ed3f3
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37062950"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37434956"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 與 Microsoft 團隊如何互動
 
@@ -46,7 +46,7 @@ ms.locfileid: "37062950"
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |**Exchange Online**|是<sup>2</sup>|是<sup>2</sup>|是的|是的|是的|是的|是的|是的|是的|是的|是的|是的|是的|
 |**Exchange Online 專用 vNext**|是<sup>2</sup>|是<sup>2</sup>|是的|是的|是的|是的|是的|是的|是的|是的|是的|是的|是的|
-|**Exchange Online 專用–傳統**（需要同步處理到 Azure AD）|是<sup>2</sup>|是<sup>2、3</sup>|是<sup>4|是的|不|不|是的|是的|不|是<sup>5|是<sup>6|是的|是的|
+|**Exchange Online 專用–傳統**版（需要同步處理到 Azure AD）|是<sup>2</sup>|是<sup>2、3</sup>|是<sup>4|是的|不|不|是的|是的|不|是<sup>5|是<sup>6|是的|是的|
 |**Exchange 內部部署**（需要同步處理到 Azure AD）|是<sup>2</sup>| 是<sup>2、3</sup> |是<sup>4|是的|是（Exchange 2016 CU3 +）|是（Exchange 2016 CU3 +）|是的|是的|不|是<sup>5|是<sup>6|是的|是的|
 
 支援<sup>1</sup>個 EXCHANGE 2016 CU3 及以上版本。  
@@ -57,7 +57,7 @@ ms.locfileid: "37062950"
 
 <sup>4</sup>保留會針對線上使用者使用陰影信箱來儲存訊息。 [Microsoft 團隊支援針對 Exchange 混合式環境中的團隊使用者使用 eDiscovery](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-supports-eDiscovery-for-Teams-users-in-a/ba-p/200009)。
 
-具有內部部署 Exchange 信箱的<sup>5 個</sup>小組使用者可能會在 Outlook 中使用語音信箱及接收語音信箱訊息，但在團隊用戶端內則無法查看或播放語音信箱訊息。
+具有內部部署 Exchange 信箱的<sup>5 個</sup>小組使用者可能會在 Outlook 中使用語音信箱及接收語音信箱訊息，但無法在團隊用戶端中查看或播放語音信箱訊息。
 
 <sup>6</sup>如果小組的其中一個擁有者可以新增連接器，該小組中的其他人都能這樣做，即使他們的信箱是內部部署的。
 

@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '瞭解功能、可用性，以及如何規劃及設定商務用電話系統（雲端 PBX）。 '
-ms.openlocfilehash: dd1a9d68646481f9508657db2634b7d3c325396d
-ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
+ms.openlocfilehash: 398dcd2347f51cf4f50ee6fd7d6bfc6e95fe20d6
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "37328361"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37434861"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>以下是您在 Office 365 中使用電話系統所取得的結果
 
@@ -35,7 +35,7 @@ PBX 是企業內的電話系統。 Office 365 附加元件中的電話系統提�
   
 透過 [電話系統] 附加元件，您可以使用商務用 Skype 完成基本工作，例如撥打及接聽電話、轉接通話，以及靜音或 unmuting 通話，幾乎只要任何地方都能透過網際網路存取。 它在全球各地提供！ 
   
-如需詳細資訊，請參閱[電話系統價格](https://products.office.com/skype-for-business/cloud-pbx#requirements)。
+如需詳細資訊，請參閱[電話系統價格](https://products.office.com/microsoft-teams/voice-calling#requirements)。
   
 ## <a name="phone-system-in-office-365-features"></a>Office 365 功能中的電話系統
 

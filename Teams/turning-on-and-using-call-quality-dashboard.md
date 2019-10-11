@@ -23,12 +23,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: '瞭解如何開啟和使用通話品質儀表板，並取得通話品質的摘要報告。 '
-ms.openlocfilehash: 25f141f30691700414c3a24e705c7d8b490fd265
-ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
+ms.openlocfilehash: e4125b8a8c4cdb4fddf98b52381e2959ed557a84
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "37328350"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37435097"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>開啟並使用 Microsoft 團隊和商務用 Skype Online 的通話品質儀表板
 
@@ -40,7 +40,7 @@ ms.locfileid: "37328350"
 
 ## <a name="latest-changes-and-updates"></a>最新變更與更新
 
-CQD 版本3會提供接近即時的 CQD 儀表板（延遲接近30分鐘），並使用使用者可辨識的資訊（EUII），讓系統管理員能夠放大至使用者層級。 此外，也有可支援新案例的互動方式，例如：
+CQD 版本3會提供接近即時的 CQD 儀表板（延遲接近30分鐘），並使用使用者可辨識的資訊（EUII），讓系統管理員能夠放大至使用者層級。 此外，您還可以報告互動支援新的案例，例如：
 
 - 依地區通話品質：
   - 依區域日期
@@ -129,11 +129,11 @@ CQD v3 支援在 SPD 報告中使用 [鑽取] 或 [向下切入] 欄位。 如�
 
 例如，在通話品質的 [鑽取] 報表中，使用者可以按一下其想要「鑽取」的日期，這會產生 [位置] 索引標籤。
 
-    ![Screenshot: shows the drill thru report](media/CQD-drill-thru-report.png)
+![螢幕擷取畫面：顯示 [鑽取] 報表](media/CQD-drill-thru-report.png)
 
 您可以從 [位置] 索引標籤新增多個日期，例如將2019-09-22 新增至日期：2019-09-24： 
 
-    ![Screenshot: add a date to the drill thru report](media/CQD-add-date.png)
+![螢幕擷取畫面：在 [鑽研報表] 中新增日期](media/CQD-add-date.png)
 
 > [!NOTE]
 > 不要直接跳到最後一個索引標籤。從先前的搜尋結果中選取的篩選不會太大，無法顯示在表格上。
@@ -339,6 +339,8 @@ CQD 摘要報告儀表板包含**租使用者資料上傳**頁面，方法是從
 ### <a name="building-data-file"></a>建立資料檔案
 
 CQD 使用建築物資料檔，這可協助提供有用的通話詳細資料。 [子網] 欄是透過展開 [網路 + NetworkRange] 欄，然後將 [子網] 欄加入通話記錄的第一個子網或 [第二個子網] 欄，來顯示建築物、城市、國家或地區資訊。 您上傳的資料檔案格式，必須符合下列準則，才能在上傳前進行驗證檢查：
+
+您可以[在此](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true)下載範例範本
   
 - 檔案必須是 tsv 檔案（由索引標籤分隔欄）或 .csv 檔案（欄以逗號分隔）。
 - 資料檔案不包含表格標題列。 資料檔案的第一行應該是真實資料，而不是標頭標籤（例如「網路」）。
@@ -359,9 +361,7 @@ CQD 使用建築物資料檔，這可協助提供有用的通話詳細資料。 
 
 **範例列：**
 
-```
-192.168.1.0,USA/Seattle/SEATTLE-SEA-1,26,SEATTLE-SEA-1,Contoso,IT Termination,Engineering,Seattle,98001,US,WA,MSUS,1,0,0
-```
+`192.168.1.0,USA/Seattle/SEATTLE-SEA-1,26,SEATTLE-SEA-1,Contoso,IT Termination,Engineering,Seattle,98001,US,WA,MSUS,1,0,0`
 
 > [!IMPORTANT]
 > 網路範圍可用來代表 supernet （多個子網與單一路由前置詞的組合）。 所有新的建築物上傳都會被檢查，以取得任何重迭的範圍。 如果您先前上傳的是組建檔案，您應該下載目前的檔案，然後重新上傳以找出任何重疊，並修正問題，然後再重新上傳。 先前上傳的檔案中的任何交疊，可能會導致無法正確地將子網對應至報表中的建築物。 某些 VPN 實現不會精確地報告子網資訊。 建議將 VPN 子網新增至組建檔案，而不是子網的一個專案時，會針對 VPN 子網中的每個位址，為個別的32位網路新增個別專案。 每個資料列都可以有相同的建築物中繼資料。 例如，172.16.18.0/24 不只一列，您應該有256列，每個位址都有一個資料列，其中每個位址都在 172.16.18.0/32 和 172.16.18.255/32 之間（含）。
@@ -382,11 +382,11 @@ CQD 會使用端點資料檔案。 欄值會用於通話記錄的第一個用戶
 
   **欄位順序：**
 
-  終結點、EndpointModel、EndpointType、EndpointLabel1、EndpointLabel2、EndpointLabel3
+終結點、EndpointModel、EndpointType、EndpointLabel1、EndpointLabel2、EndpointLabel3
 
   **範例列：**
 
-  `1409W3534, Fabrikam Model 123, Laptop, IT designated 2018 Laptop, Asset Tag 5678, Purchase 2018,`  
+`1409W3534, Fabrikam Model 123, Laptop, IT designated 2018 Laptop, Asset Tag 5678, Purchase 2018,`  
 
 ## <a name="create-custom-detailed-reports"></a>建立自訂的詳細報告
 

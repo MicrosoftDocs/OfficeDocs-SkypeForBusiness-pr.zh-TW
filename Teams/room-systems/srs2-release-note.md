@@ -11,12 +11,12 @@ ms.service: msteams
 localization_priority: Normal
 ms.collection: M365-voice
 description: 本文將討論 Microsoft 團隊聊天室中的累加性改進。
-ms.openlocfilehash: 985a261cab4ce9d7cf4bb6949183142a84f76dd0
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 9bf1cfa76b9049f426dd2b54e77e9461127df092
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775213"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37435133"
 ---
 # <a name="release-notes"></a>版本資訊
 
@@ -26,6 +26,7 @@ ms.locfileid: "36775213"
 
 |最新發佈 |已發佈至 <br/> Microsoft 網上商店 |
 |--- |--- |
+|4.2.4.0 |10/07/2019 |
 |4.1.22.0 |08/15/2019 |
 |4.0.105.0 |07/10/2019 |
 |4.0.85.0 |04/08/2019 |
@@ -54,6 +55,13 @@ ms.locfileid: "36775213"
 |RTM （1.0.8） |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft 團隊聊天室功能簡介和問題解決
+
+### <a name="4240-10072019"></a>4.2.4.0 （10/07/2019）
+
+此更新中引入的專案：
+
+- Windows 10 1903 支援。 Windows 10 1903 更新會在應用程式更新後幾天提供
+- 無法可靠顯示的螢幕小鍵盤修正程式
 
 ### <a name="41220-08152019"></a>4.1.22.0 （08/15/2019）
 

@@ -16,12 +16,12 @@ ms.collection:
 description: 瞭解 Microsoft 團隊系統管理中心提供的團隊報表。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: de405a89b74a5e772e0f3d58027592d2e6ae4289
-ms.sourcegitcommit: f1c4255b52576c602d528c580941404eb547bc78
+ms.openlocfilehash: fad12604373c271d41b486d54c0093b5d273c6b8
+ms.sourcegitcommit: a71ad6762e18267faaaac09533bac80a181102af
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "37131570"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "37439538"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Microsoft 團隊分析和報告
 
@@ -47,8 +47,8 @@ Microsoft 團隊系統管理中心提供 Microsoft 團隊的新分析與報告�
 |[團隊裝置使用量報告](device-usage-report.md)   |  Windows 使用者<br/>Mac 使用者<br/>iOS 使用者<br/>Android 手機使用者     |
 |[團隊即時事件使用量報告](teams-live-event-usage-report.md)   |  總計視圖<br>開始時間<br>事件狀態<br>召集人<br>代表<br>方<br>錄製設定<br>生產類型    |
 |[團隊 PSTN 封鎖的使用者報告](pstn-blocked-users-report.md)   |  顯示名稱<br>電話號碼<br>不必<br>動作類型<br>動作日期和時間   |
+|[團隊 PSTN 分鐘池報告](pstn-minute-pools-report.md) |  國家或地區<br>功能（授權） <br>總分鐘數<br>使用的分鐘數<br>可用分鐘數|
 |[團隊 PSTN 使用方式報告-通話方案](pstn-usage-report.md#calling-plans)|  時間戳記<br>使用者名稱<br>電話號碼<br>通話類型 <br>呼叫給<br>移至國家或地區 <br>呼叫來源 <br>從國家或地區<br>收費<br>貨幣<br>內<br>國內/國際<br>通話 ID<br>數位類型<br>國家或地區<br>會議 ID<br>功能（授權）|
-|[團隊 PSTN 使用方式報告-直接路由](pstn-usage-report.md#direct-routing)  |  時間戳記<br>顯示名稱<br>SIP 位址<br>電話號碼 <br>通話類型<br>呼叫給<br>開始時間<br>邀請時間<br>失敗時間<br>結束時間<br>內<br>數位類型<br>媒體旁路<br>SBC FQDN<br>Azure 區域<br>事件種類<br>最終 SIP 代碼<br>最終的 Microsoft 子代碼<br>最終 SIP 片語<br>Coorelation 識別碼  |
+|[團隊 PSTN 使用方式報告-直接路由](pstn-usage-report.md#direct-routing)  |  時間戳記<br>顯示名稱<br>SIP 位址<br>電話號碼 <br>通話類型<br>呼叫給<br>開始時間<br>邀請時間<br>失敗時間<br>結束時間<br>內<br>數位類型<br>媒體旁路<br>SBC FQDN<br>Azure 區域<br>事件種類<br>最終 SIP 代碼<br>最終的 Microsoft 子代碼<br>最終 SIP 片語<br>相關識別碼  |
 
-> [!NOTE]
-> [團隊報告] 會顯示作用中使用者與作用中團隊的資料。 例如，如果貴組織中的使用者在您針對報表指定的日期範圍內，在小組中沒有作用中，該使用者的資料就不會包含在該報表中。
+[!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]

@@ -15,12 +15,12 @@ ms.collection:
 description: 瞭解如何使用 Microsoft 團隊系統管理中心中的 [團隊使用量] 報告，以取得貴組織中的小組活動的概覽。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 512b7844f1eb659758b95b8f0924506ce6542f41
-ms.sourcegitcommit: f1c4255b52576c602d528c580941404eb547bc78
+ms.openlocfilehash: 6a31d3a6bf374e512dde0549dbbd59ed90904cd0
+ms.sourcegitcommit: a71ad6762e18267faaaac09533bac80a181102af
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "37131592"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "37439569"
 ---
 # <a name="microsoft-teams-usage-report"></a>Microsoft 團隊使用量報告
 
@@ -31,7 +31,7 @@ Microsoft 團隊系統管理中心中的 [團隊使用量] 報告可讓您大致
 1. 在 Microsoft [團隊管理中心] 的左導覽中，按一下 [**分析] & 報告** > **使用方式報告**。 在 [**查看報表**] 索引標籤的 [**報表**] 底下，選取 [**團隊使用方式**]。
 2. 在 [**日期範圍**] 底下，選取一個範圍，然後按一下 [**執行報表**]。
 
-    ![含標注之 [團隊系統管理中心] 的 [小組使用方式] 報告螢幕擷取畫面](../media/teams-reports-teams-usage-with-callouts.png "含標注之 [團隊系統管理中心] 的 [小組使用方式] 報告螢幕擷取畫面")
+    [團隊![管理中心] 中的 [團隊使用方式] 報表的螢幕擷取畫面]，其中包含標注的 [小組系統管理中心] 的(../media/teams-reports-teams-usage-with-callouts.png "[小組使用方式] 報告")
 
 ## <a name="interpret-the-report"></a>解讀報表
 
@@ -44,6 +44,8 @@ Microsoft 團隊系統管理中心中的 [團隊使用量] 報告可讓您大致
 |**500**   |此表格提供依團隊進行的使用方式細分。 <ul><li>[**團隊名稱**] 是團隊的顯示名稱。 您可以按一下團隊名稱，移至 Microsoft 團隊系統管理中心的小組 [設定] 頁面。 </li> <li>**隱私權**指的是私人小組或公用小組。</li> <li>[作用中的**使用者**] 是團隊中在指定時段內作用中的使用者數目。</li><li>[**來賓**] 是團隊中指定時間內的來賓人數。</li> </li> </ul>請注意，如果使用者帳戶已不存在於 Azure AD 中，則使用者名稱會在資料表中顯示為 "--"。 <br><br>若要在表格中查看您想要的資訊，請務必將資料行新增至資料表。 |
 |**6**   |選取 [**編輯欄**] 以新增或移除表格中的欄。|
 |**utf-7**   |您可以將報表匯出為 CSV 檔案，以便進行離線分析。 按一下 [**匯出至 Excel**]，然後在 [**下載**] 索引標籤上，按一下 [**下載**] 以在準備好時下載報告。<br><br>![[下載] 索引標籤的螢幕擷取畫面，顯示已匯出的報告供下載](../media/teams-reports-export-to-csv.png)|
+
+[!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]
 
 ## <a name="related-topics"></a>相關主題
 

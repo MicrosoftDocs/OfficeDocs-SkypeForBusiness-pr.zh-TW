@@ -15,12 +15,12 @@ ms.collection:
 description: 瞭解如何使用 Microsoft 團隊系統管理中心的 [小組使用者活動] 報告，查看貴組織中的使用者使用團隊的方式。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dd8c33bfa1ebfbeb4ba4c79827c13e4c33f9a340
-ms.sourcegitcommit: f1c4255b52576c602d528c580941404eb547bc78
+ms.openlocfilehash: a478e99037194381421f76ce4856f219ef9dd0db
+ms.sourcegitcommit: a71ad6762e18267faaaac09533bac80a181102af
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "37131591"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "37439558"
 ---
 # <a name="microsoft-teams-user-activity-report"></a>Microsoft 團隊使用者活動報告
 
@@ -31,7 +31,7 @@ ms.locfileid: "37131591"
 1. 在 Microsoft [團隊管理中心] 的左導覽中，按一下 [**分析] & 報告** > **使用方式報告**。 在 [**查看報表**] 索引標籤的 [**報表**] 底下，選取 [**團隊使用者活動**]。
 2. 在 [**日期範圍**] 底下，選取一個範圍，然後按一下 [**執行報表**]。
 
-    [團隊系統管理中心] 的![[小組] 使用者活動報告的螢幕擷取畫面（含標注]）[團隊系統管理中心] 的(../media/teams-reports-user-activity-with-callouts.png "[小組] 使用者活動報告的螢幕擷取畫面（含標注")）
+    [團隊系統管理中心] 的![[小組使用者活動] 報表的螢幕擷取畫面]，其中的 [小組] 系統(../media/teams-reports-user-activity-with-callouts.png "管理中心中有 [小組] 使用者活動報表的標注螢幕擷取畫面")
 
 ## <a name="interpret-the-report"></a>解讀報表
 
@@ -44,6 +44,8 @@ ms.locfileid: "37131591"
 |**500**   |此表格提供使用者的使用方式細分。   <ul><li>[**顯示名稱**] 是使用者的顯示名稱。 您可以按一下顯示名稱，移至 Microsoft 團隊系統管理中心的 [使用者設定] 頁面。</li><li>[ **1:1 通話**] 是使用者在指定期間內參與的1:1 通話數目。</li><li>[**頻道訊息**] 是使用者在特定的時段內，在小組聊天中張貼的唯一訊息數目。</li> <li>[**交談訊息**] 是使用者在特定的時段內，在私人聊天中張貼的唯一訊息數目。</li>  <li>[**上一個活動**] 是使用者參與團隊活動的最後一個日期（UTC）。</li> </ul>請注意，如果使用者帳戶已不存在於 Azure AD 中，則使用者名稱會在資料表中顯示為 "--"。 <br><br>若要在表格中查看您想要的資訊，請務必將資料行新增至資料表。
 |**6**   |選取 [**編輯欄**] 以新增或移除表格中的欄。 |
 |**utf-7**   |您可以將報表匯出為 CSV 檔案，以便進行離線分析。 按一下 [**匯出至 Excel**]，然後在 [**下載**] 索引標籤上，按一下 [**下載**] 以在準備好時下載報告。<br><br>![[下載] 索引標籤的螢幕擷取畫面，顯示已匯出的報告供下載](../media/teams-reports-export-to-csv.png) <br>當您在 Excel 中查看報表時，您也會看到 [**識別碼**] 欄，代表 [團隊識別碼]。 團隊識別碼通常是一個字母數位字串。 如果 [**識別碼**] 欄顯示為 [ **\n**]，表示使用者要求刪除其資訊。 ||
+
+[!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]
 
 ## <a name="related-topics"></a>相關主題
 

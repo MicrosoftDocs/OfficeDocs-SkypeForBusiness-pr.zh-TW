@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cc74de2c5cc6ae294b69f31f7c25e652da4ea397
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 446ff5c3dc5d7e6a33f5d6b3a44a07a8f6514f02
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245355"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37434977"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Microsoft 團隊應用程式的硬體需求
 
@@ -31,17 +31,17 @@ ms.locfileid: "36245355"
 
 |**元件**|**需求**  |
 |---------|---------|
-|電腦與處理器    | 最低 1.6 GHz (或更新版本) (32 位或64位)。        |
+|電腦與處理器    | 最低 1.6 GHz （或更新版本）（32位或64位）。        |
 |儲存體     |    2.0 GB RAM     |
 |硬碟    | 3.0 GB 的可用磁碟空間        |
 |顯示幕    |   1024 x 768 畫面解析度 |
 |圖形硬體 |  最小 128 MB 圖形記憶體
-|作業系統  |    Windows 10、Windows 8.1、Windows 8 或 Windows 7 32 位和64位的 Service Pack 1。 為了獲得最佳體驗, 請使用最新版本的任何作業系統。|
+|作業系統  |    Windows 10、Windows 8.1 或32位與64位的 Windows 7 Service Pack 1。 為了獲得最佳體驗，請使用最新版本的任何作業系統。|
 |.NET 版本    |  需要 .NET 4.5 CLR 或更新版本       |
 |顯示器    |  USB 2.0 攝影機       |
 |台    |   標準膝上型電腦相機、麥克風和喇叭    | 
-|影片通話與會議 | 若要在視頻通話和線上會議中取得較佳的體驗, 我們建議您使用具有 2.0 GHz 處理器和 4.0 GB RAM (或更新版本) 的電腦。 [選擇性**模糊處理我的背景**影片] 效果需要具備高級向量擴充 2 (AVX2) 支援的處理器。 如需不支援的解碼器與編碼器清單, 請參閱[硬體解碼器和編碼器驅動程式建議](hardware-decoders-and-encoders.md)。 |
-|團隊即時事件 | 如果您正在產生小組即時事件, 我們建議您使用具有 Core i5 Kaby Lake processor、4.0 GB RAM (或更新版本) 和硬體編碼器的電腦。 如需不支援的解碼器與編碼器清單, 請參閱[硬體解碼器和編碼器驅動程式建議](hardware-decoders-and-encoders.md)。 |
+|影片通話與會議 | 若要在視頻通話和線上會議中取得較佳的體驗，我們建議您使用具有 2.0 GHz 處理器和 4.0 GB RAM （或更新版本）的電腦。 [選擇性**模糊處理我的背景**影片] 效果需要具備高級向量擴充2（AVX2）支援的處理器。 如需不支援的解碼器與編碼器清單，請參閱[硬體解碼器和編碼器驅動程式建議](hardware-decoders-and-encoders.md)。 |
+|團隊即時事件 | 如果您正在產生小組即時事件，我們建議您使用具有 Core i5 Kaby Lake processor、4.0 GB RAM （或更新版本）和硬體編碼器的電腦。 如需不支援的解碼器與編碼器清單，請參閱[硬體解碼器和編碼器驅動程式建議](hardware-decoders-and-encoders.md)。 |
 
 ## <a name="hardware-requirements-for-the-teams-desktop-app-on-a-mac"></a>Mac 上的小組桌面應用程式的硬體需求
 
@@ -54,19 +54,19 @@ ms.locfileid: "36245355"
 |作業系統  |    Mac OS X 10.11 El Capitan 或更新版本     |
 |顯示器  |    相容網路攝像頭     |
 |語音    |  相容的麥克風與喇叭、耳機與麥克風或對等裝置       |
-|影片通話與會議 | 若要在視頻通話和線上會議中取得較佳的體驗, 我們建議您使用具有 2.0 GHz 處理器和 4.0 GB RAM (或更新版本) 的電腦。 [選擇性模糊處理我的背景影片] 效果需要具有先進向量擴充 2 (AVX2) 支援的處理器, 且支援最晚2013的 Mac 裝置及更新版本。 如需不支援的解碼器與編碼器清單, 請參閱[硬體解碼器和編碼器驅動程式建議](hardware-decoders-and-encoders.md)。|
+|影片通話與會議 | 若要在視頻通話和線上會議中取得較佳的體驗，我們建議您使用具有 2.0 GHz 處理器和 4.0 GB RAM （或更新版本）的電腦。 [選擇性模糊處理我的背景影片] 效果需要具有先進向量擴充2（AVX2）支援的處理器，且支援最晚2013的 Mac 裝置及更新版本。 如需不支援的解碼器與編碼器清單，請參閱[硬體解碼器和編碼器驅動程式建議](hardware-decoders-and-encoders.md)。|
 
 ## <a name="hardware-requirements-for-the-teams-app-on-mobile-devices"></a>行動裝置上的小組 app 的硬體需求
 
-您可以在下列行動平臺上使用 Microsoft 團隊:
+您可以在下列行動平臺上使用 Microsoft 團隊：
 
 - Android-需要 Android 4.4 或更新版本
 
 - iOS-需要 iOS 10.0 或更新版本。 與 iPhone、iPad 和 iPod touch 相容。
 
-## <a name="hardware-requirements-for-the-teams-app-in-a-virtual-desktop-infrastructure-vdi-environment"></a>虛擬桌面基礎結構 (VDI) 環境中的團隊 app 硬體需求
+## <a name="hardware-requirements-for-the-teams-app-in-a-virtual-desktop-infrastructure-vdi-environment"></a>虛擬桌面基礎結構（VDI）環境中的團隊 app 硬體需求
 
-請參閱[虛擬化桌面基礎結構小組](teams-for-vdi.md), 以取得在虛擬化環境中執行團隊的需求。 
+請參閱[虛擬化桌面基礎結構小組](teams-for-vdi.md)，以取得在虛擬化環境中執行團隊的需求。 
 
 ### <a name="related-topics"></a>相關主題
 - [取得團隊 app](get-clients.md)

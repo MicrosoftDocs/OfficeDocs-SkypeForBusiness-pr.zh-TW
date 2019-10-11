@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d9e346e4e9d94c30454ad42ef5a3c44e12f2cde0
-ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
+ms.openlocfilehash: 46d4edb3b5345fcd2267716968a2987c96259efb
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/05/2019
-ms.locfileid: "36767109"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37435203"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-high-deployments"></a>規劃 Microsoft 365 政府-GCC 高部署
 
@@ -109,7 +109,7 @@ Microsoft 365 政府版-GCC 高環境提供與美國雲端服務政府需求相�
 | | VoIP 通話 | 離線 |
 | | 商務用 Skype-小組通話 | 離線 |
 | | 通話方案 | 無法使用 |
-| | 音訊會議（透過允許會議參與者透過 PSTN 加入） | 在政府積壓工作 |
+| | 音訊會議（透過允許會議參與者透過 PSTN 加入） | 離線 |
 | | Microsoft Phone 系統直向路由 | 在政府積壓工作 |
 | | PSTN 呼叫者的大廳 | 在政府積壓工作 |
 | | 通話佇列 | 在政府積壓工作 |
