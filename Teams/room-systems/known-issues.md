@@ -11,12 +11,12 @@ ms.service: msteams
 localization_priority: Normal
 ms.collection: M365-voice
 description: 本文將討論 Microsoft 團隊聊天室的已知問題（依功能區域）。
-ms.openlocfilehash: 3e3da371a294582fc6a56db7e59615fdbe97c48b
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: eaf95f8afd470376ee4f14549b50df8b38d93d34
+ms.sourcegitcommit: e84becc101232b8017aab519378480c5dbebbb48
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775191"
+ms.lasthandoff: 10/11/2019
+ms.locfileid: "37468484"
 ---
 # <a name="known-issues"></a>已知問題 
  
@@ -54,7 +54,7 @@ Microsoft 團隊會議室不支援 HDCP 輸入，但已觀察到可導致 HDMI �
 
 ***
 
-用來做為會議室顯示幕正面的消費者電視必須支援 HDMI 的消費者電子產品控制（CEC）功能，才能從待機模式自動切換到作用中的影片來源。 並非所有電視都支援這項功能。
+如果您希望在來源從待機模式喚醒時自動切換到活動影片來源（例如 MTR 主控台），必須符合某些條件。 此功能是選擇性的，但 Microsoft 團隊聊天室軟體支援，提供基礎硬體支援此功能。 在房間顯示中使用的消費者電視需要支援 HDMI 的消費電子產品控制（CEC）功能。  根據所選的 dock 或 console （可能不支援 CEC，請參閱製造商支援檔），您可能需要使用工作區控制器（例如[EXTRON HD CTL 100](https://www.extron.com/article/hdctl100ad) ）來啟用所需的行為。 
 
 ***
 
@@ -67,6 +67,9 @@ Microsoft 團隊會議室不支援 HDCP 輸入，但已觀察到可導致 HDMI �
 Microsoft 團隊聊天室版本3.0.12.0 不再支援64位版本的 Windows 10 Enterprise 周年紀念日（英文、版本1607）。 
 ***
 Microsoft [團隊會議室] 是一個多視窗應用程式，且需要將房間顯示器正面連接到裝置的 HDMI 埠，才能讓 app 正常運作。 如果您正在測試，但尚未購買顯示器，請確定您已連接 HDMI 顯示器，或使用虛擬 HDMI 插頭。
+***
+由於圖形驅動程式出現問題，因此 Microsoft 團隊聊天室裝置上的 Windows 10 1903 尚未提供給 Crestron。
+
 ***
 <a name="See"> </a>  
 ## <a name="see-also"></a>另請參閱

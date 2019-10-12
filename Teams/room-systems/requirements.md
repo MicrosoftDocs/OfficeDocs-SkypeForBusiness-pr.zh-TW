@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection: M365-voice
 description: 本文將摘要說明支援 Microsoft 團隊聊天室的需求。
-ms.openlocfilehash: f5e78b9731a84841291a93aaeb9e0a25a084c87b
-ms.sourcegitcommit: a71ad6762e18267faaaac09533bac80a181102af
+ms.openlocfilehash: 98f7b4871133840bc531f563652b335bf706e37f
+ms.sourcegitcommit: e84becc101232b8017aab519378480c5dbebbb48
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37439525"
+ms.lasthandoff: 10/11/2019
+ms.locfileid: "37468473"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft 團隊會議室需求
 
@@ -111,7 +111,7 @@ Microsoft 團隊聊天室會根據房間大小，使用不同的音訊和視頻�
 
 #### <a name="usb-extenders"></a>USB 延伸器
 
-- 平板電腦上的 USB 埠會相容 USB 3.0。 您可以使用 USB 2 x 擴展器。 這會將您限制在最遠的 USB 2 a.x 速度，這對於 USB 3.0 外設是不建議的。
+- 平板電腦上的 USB 埠會相容 USB 3.0。 您可以使用 USB 2. x 延伸器，但這樣做會限制您在最一端的 USB 2. x 速度。 對於 USB 3.0 外設，不建議使用延伸程式。
 - 擴展程式必須符合 USB 2.0 或更新的規格。
   - 平板電腦停靠支援至少兩個外部 USB 中樞延伸的階段。 如果您在數列中連接兩個以上的 USB 集線器，請向 dock 製造商確認其是否支援串聯介面。
   - 會議室中的有線 GbE 連接。 適當長度的乙太網纜線。
