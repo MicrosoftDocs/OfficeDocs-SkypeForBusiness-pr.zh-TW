@@ -3,72 +3,6 @@
 
 
 
-## <a name="week-of-september-02-2019"></a>2019年9月2日的周
-
-
-| 發佈日期 |主題標題 | 切換 |
-|------|------------|--------|
-| 9/3/2019 | [常見問題-從商務用 Skype 升級至 Microsoft 團隊](/MicrosoftTeams/faq-journey) | 日期 |
-| 9/3/2019 | [管理貴組織的 Microsoft 團隊設定](/MicrosoftTeams/enable-features-office-365) | 日期 |
-| 9/3/2019 | [規劃將您的 StaffHub 團隊移至 Microsoft 團隊中的倒班](/MicrosoftTeams/expand-teams-across-your-org/shifts/plan-to-move-staffhub-teams-to-shifts-in-teams) | 日期 |
-| 9/3/2019 | [為 Microsoft 團隊取得用戶端](/MicrosoftTeams/get-clients) | 日期 |
-| 9/3/2019 | [Microsoft 團隊的限制與規格](/MicrosoftTeams/limits-specifications-teams) | 日期 |
-| 9/3/2019 | [在 Microsoft 團隊中管理外部存取（同盟）](/MicrosoftTeams/manage-external-access) | 日期 |
-| 9/3/2019 | [管理 Microsoft 團隊中的意見反應原則](/MicrosoftTeams/manage-feedback-policies-in-teams) | 日期 |
-| 9/3/2019 | [管理團隊中的資源帳戶](/MicrosoftTeams/manage-resource-accounts) | 日期 |
-| 9/3/2019 | [Office 365 商務版](/MicrosoftTeams/teams-add-on-licensing/office-365-business-premium) | 日期 |
-| 9/5/2019 | [在 Microsoft 團隊中組織團隊的最佳做法](/MicrosoftTeams/best-practices-organizing) | 日期 |
-| 9/5/2019 | [在您的組織中展開 Microsoft 團隊](/MicrosoftTeams/expand-teams-across-your-org/expand-teams-across-your-organization-landing-page) | 日期 |
-| 9/5/2019 | [開始使用適用于醫療保健組織的團隊](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | 日期 |
-| 9/5/2019 | [政府團隊](/MicrosoftTeams/expand-teams-across-your-org/teams-for-government-landing-page) | 日期 |
-| 9/5/2019 | [在零售中開始使用團隊範本](/MicrosoftTeams/get-started-with-retail-teams-templates) | 日期 |
-| 9/5/2019 | [管理會議設定](/MicrosoftTeams/meeting-settings-in-teams) | 日期 |
-| 9/5/2019 | [規劃 Microsoft 365 政府 DoD 部署-Microsoft 團隊](/MicrosoftTeams/plan-for-government-dod) | 日期 |
-| 9/5/2019 | [規劃 Microsoft 365 政府版-GCC 高部署版-Microsoft 團隊](/MicrosoftTeams/plan-for-government-gcc-high) | 日期 |
-| 9/5/2019 | [規劃 Microsoft 365 政府-GCC 部署-Microsoft 團隊](/MicrosoftTeams/plan-for-government-gcc) | 日期 |
-| 9/5/2019 | [使用 Exchange Online 部署 Microsoft 團隊聊天室](/MicrosoftTeams/room-systems/with-exchange-online) | 日期 |
-| 9/5/2019 | [在波士尼亞&amp;黑塞哥維那中的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bosniaherzegovina) | 日期 |
-| 9/5/2019 | [巴西的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-brazil) | 日期 |
-| 9/5/2019 | [中國的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-china) | 日期 |
-| 9/5/2019 | [埃及中的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-egypt) | 日期 |
-| 9/5/2019 | [宏都拉斯中的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-honduras) | 日期 |
-| 9/5/2019 | [印度中的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-india) | 日期 |
-| 9/5/2019 | [在印尼提供的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-indonesia) | 日期 |
-| 9/5/2019 | [約旦的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-jordan) | 日期 |
-| 9/5/2019 | [在肯雅中的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-kenya) | 日期 |
-| 9/5/2019 | [拉脫維亞中的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-latvia) | 日期 |
-| 9/5/2019 | [在巴基斯坦中的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-pakistan) | 日期 |
-| 9/5/2019 | [俄羅斯的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-russia) | 日期 |
-| 9/5/2019 | [沙烏地阿拉伯的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-saudi-arabia) | 日期 |
-| 9/5/2019 | [烏拉圭中的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-uruguay) | 日期 |
-| 9/5/2019 | [越南中的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-vietnam) | 日期 |
-| 9/5/2019 | [適用于音訊會議與通話方案的國家和地區可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) | 日期 |
-| 9/5/2019 | [在 Microsoft 團隊中設定及管理頻道裁決](/MicrosoftTeams/manage-channel-moderation-in-teams) | 日期 |
-| 9/5/2019 | [使用 Azure 監視器部署 Microsoft 團隊聊天室管理](/MicrosoftTeams/room-systems/azure-monitor-deploy) | 日期 |
-| 9/5/2019 | [使用 Azure 監視器管理 Microsoft 團隊聊天室裝置](/MicrosoftTeams/room-systems/azure-monitor-manage) | 日期 |
-| 9/5/2019 | [使用 XML 設定檔遠端系統管理 Microsoft 團隊聊天室的主控台設定](/MicrosoftTeams/room-systems/content-camera) | 日期 |
-| 9/5/2019 | [Skype 會議室系統網域加入考慮](/MicrosoftTeams/room-systems/domain-joining-considerations) | 日期 |
-| 9/5/2019 | [已知問題](/MicrosoftTeams/room-systems/known-issues) | 日期 |
-| 9/5/2019 | [使用 Microsoft 團隊會議室恢復工具](/MicrosoftTeams/room-systems/recovery-tool) | 日期 |
-| 9/5/2019 | [Microsoft 團隊會議室需求](/MicrosoftTeams/room-systems/requirements) | 日期 |
-| 9/5/2019 | [設定 Microsoft 團隊聊天室的帳戶](/MicrosoftTeams/room-systems/room-systems-v2-configure-accounts) | 日期 |
-| 9/5/2019 | [Microsoft 團隊會議室維護和作業](/MicrosoftTeams/room-systems/room-systems-v2-operations) | 日期 |
-| 9/5/2019 | [部署 Microsoft 團隊聊天室](/MicrosoftTeams/room-systems/room-systems-v2) | 日期 |
-| 9/5/2019 | [規劃 Microsoft 團隊聊天室](/MicrosoftTeams/room-systems/skype-room-systems-v2-0) | 日期 |
-| 9/5/2019 | [Microsoft 團隊聊天室授權](/MicrosoftTeams/room-systems/skype-room-systems-v2) | 日期 |
-| 9/5/2019 | [Microsoft 團隊聊天室的管理概述](/MicrosoftTeams/room-systems/skype-room-systems-v3) | 日期 |
-| 9/5/2019 | [準備您的環境](/MicrosoftTeams/room-systems/srs-v2-prep) | 日期 |
-| 9/5/2019 | [版本支援](/MicrosoftTeams/room-systems/srs2-lifecycle-support) | 日期 |
-| 9/5/2019 | [版本資訊](/MicrosoftTeams/room-systems/srs2-release-note) | 日期 |
-| 9/5/2019 | [管理 Microsoft 團隊聊天室的 Windows 更新](/MicrosoftTeams/room-systems/updates) | 日期 |
-| 9/5/2019 | [使用 Exchange 內部部署來部署 Microsoft 團隊聊天室](/MicrosoftTeams/room-systems/with-exchange-on-premises) | 日期 |
-| 9/5/2019 | [使用 Office 365 部署 Microsoft 團隊聊天室](/MicrosoftTeams/room-systems/with-office-365) | 日期 |
-| 9/5/2019 | [使用商務用 Skype Server 部署 Microsoft 團隊聊天室](/MicrosoftTeams/room-systems/with-skype-for-business-server-2015) | 日期 |
-| 9/5/2019 | [使用 XML 設定檔遠端系統管理 Microsoft 團隊聊天室的主控台設定](/MicrosoftTeams/room-systems/xml-config-file) | 日期 |
-| 9/6/2019 | [在 Microsoft 團隊中管理 app 設定原則](/MicrosoftTeams/teams-app-setup-policies) | 日期 |
-| 9/6/2019 | [Microsoft 團隊的已知問題](/MicrosoftTeams/known-issues) | 日期 |
-
-
 ## <a name="week-of-september-09-2019"></a>2019年9月9日的周
 
 
@@ -189,3 +123,48 @@
 | 10/4/2019 | [管理團隊中的資源帳戶](/MicrosoftTeams/manage-resource-accounts) | 日期 |
 | 10/4/2019 | [小型企業範例-設定自動助手](/MicrosoftTeams/tutorial-org-aa) | 日期 |
 | 10/4/2019 | [什麼是雲端自動語音應答？](/MicrosoftTeams/what-are-phone-system-auto-attendants) | 日期 |
+
+
+## <a name="week-of-october-07-2019"></a>2019年10月7日
+
+
+| 發佈日期 |主題標題 | 切換 |
+|------|------------|--------|
+| 10/8/2019 | [設定雲端自動語音應答](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 日期 |
+| 10/8/2019 | [將您的 StaffHub 團隊移至 Microsoft 團隊中的倒班](/MicrosoftTeams/expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams) | 日期 |
+| 10/8/2019 | [小型企業範例-設定自動助手](/MicrosoftTeams/tutorial-org-aa) | 日期 |
+| 10/8/2019 | [Microsoft 團隊分析和報告](/MicrosoftTeams/teams-analytics-and-reports/teams-reporting-reference) | 日期 |
+| 10/9/2019 | [Exchange 與 Microsoft 團隊如何互動](/MicrosoftTeams/exchange-teams-interact) | 日期 |
+| 10/9/2019 | [Microsoft 團隊的已知問題](/MicrosoftTeams/known-issues) | 日期 |
+| 10/9/2019 | [設定雲端自動語音應答](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 日期 |
+| 10/9/2019 | [在 Microsoft 團隊中管理您的裝置](/MicrosoftTeams/device-management) | 日期 |
+| 10/9/2019 | [設定直接路由](/MicrosoftTeams/direct-routing-configure) | 日期 |
+| 10/9/2019 | [開始使用適用于醫療保健組織的安全訊息](/MicrosoftTeams/expand-teams-across-your-org/healthcare/messaging-policies-hc) | 日期 |
+| 10/9/2019 | [來賓的體驗是什麼樣子](/MicrosoftTeams/guest-experience) | 日期 |
+| 10/9/2019 | [Microsoft 團隊應用程式的硬體需求](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | 日期 |
+| 10/9/2019 | [以下是您在 Office 365 中使用電話系統所取得的結果](/MicrosoftTeams/here-s-what-you-get-with-phone-system) | 日期 |
+| 10/9/2019 | [Microsoft 團隊的限制與規格](/MicrosoftTeams/limits-specifications-teams) | 日期 |
+| 10/9/2019 | [管理團隊中的資源帳戶](/MicrosoftTeams/manage-resource-accounts) | 日期 |
+| 10/9/2019 | [規劃 Microsoft 365 政府 DoD 部署-Microsoft 團隊](/MicrosoftTeams/plan-for-government-dod) | 日期 |
+| 10/9/2019 | [規劃 Microsoft 365 政府版-GCC 高部署版-Microsoft 團隊](/MicrosoftTeams/plan-for-government-gcc-high) | 日期 |
+| 10/9/2019 | [在小組中規劃生命週期管理-Microsoft 團隊](/MicrosoftTeams/plan-teams-lifecycle) | 日期 |
+| 10/9/2019 | [Microsoft 團隊會議室維護和作業](/MicrosoftTeams/room-systems/room-systems-v2-operations) | 日期 |
+| 10/9/2019 | [版本資訊](/MicrosoftTeams/room-systems/srs2-release-note) | 日期 |
+| 10/9/2019 | [電話系統-虛擬使用者授權](/MicrosoftTeams/teams-add-on-licensing/virtual-user) | 日期 |
+| 10/9/2019 | [Microsoft 團隊 IT 架構與電話解決方案海報](/MicrosoftTeams/teams-architecture-solutions-posters) | 日期 |
+| 10/9/2019 | [團隊用戶端體驗與共存模式的一致性](/MicrosoftTeams/teams-client-experience-and-conformance-to-coexistence-modes) | 日期 |
+| 10/9/2019 | [僅限團隊的模式考慮](/MicrosoftTeams/teams-only-mode-considerations) | 日期 |
+| 10/9/2019 | [開啟並使用通話品質儀表板](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) | 日期 |
+| 10/9/2019 | [基本升級 PowerShell\| Microsoft 團隊\|授權升級交互操作原則](/MicrosoftTeams/upgrade-basic-powershell) | 日期 |
+| 10/9/2019 | [Microsoft 團隊的最終使用者訓練](/MicrosoftTeams/enduser-training) | 日期 |
+| 10/9/2019 | [Microsoft 團隊會議室需求](/MicrosoftTeams/room-systems/requirements) | 日期 |
+| 10/9/2019 | [Microsoft 團隊分析和報告](/MicrosoftTeams/teams-analytics-and-reports/teams-reporting-reference) | 日期 |
+| 10/9/2019 | [Microsoft 團隊使用量報告](/MicrosoftTeams/teams-analytics-and-reports/teams-usage-report) | 日期 |
+| 10/9/2019 | [Microsoft 團隊使用者活動報告](/MicrosoftTeams/teams-analytics-and-reports/user-activity-report) | 日期 |
+| 10/9/2019 | [團隊 PowerShell 概覽](/MicrosoftTeams/teams-powershell-overview) | 日期 |
+| 10/10/2019 | [管理 Microsoft 團隊中的 app 許可權原則](/MicrosoftTeams/teams-app-permission-policies) | 日期 |
+| 10/10/2019 | [Microsoft 團隊的限制與規格](/MicrosoftTeams/limits-specifications-teams) | 日期 |
+| 10/11/2019 | [在 Microsoft 團隊中管理外部存取（同盟）](/MicrosoftTeams/manage-external-access) | 日期 |
+| 10/11/2019 | [已知問題](/MicrosoftTeams/room-systems/known-issues) | 日期 |
+| 10/11/2019 | [Microsoft 團隊會議室需求](/MicrosoftTeams/room-systems/requirements) | 日期 |
+| 10/11/2019 | [版本支援](/MicrosoftTeams/room-systems/srs2-lifecycle-support) | 日期 |
