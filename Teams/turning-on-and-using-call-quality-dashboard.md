@@ -23,12 +23,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: '瞭解如何開啟和使用通話品質儀表板，並取得通話品質的摘要報告。 '
-ms.openlocfilehash: e4125b8a8c4cdb4fddf98b52381e2959ed557a84
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: de5547f8a8cc4ee7284d544b0ef2a980b4d50b0c
+ms.sourcegitcommit: 9145ce09efe490d4d79b2a52ecc318f54d2feb2c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37435097"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37522756"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>開啟並使用 Microsoft 團隊和商務用 Skype Online 的通話品質儀表板
 
@@ -310,9 +310,15 @@ CQD 摘要報告儀表板包含**租使用者資料上傳**頁面，方法是從
 - 每個無線 AP 及其 MAC 位址的地圖
 - 端點和模型/類型等的端點地圖。
   
+> [!NOTE]
+> 您上傳至 CQD 的報告標籤會在您的 Office 365 協定下處理為*支援資料*，包括任何其他應視為*客戶資料*或*個人資料*的資訊。 請勿包含您不想提供給 Microsoft 做為*支援資料*的資料，microsoft 工程師將能看到此資訊以供支援使用。
+
 ![螢幕擷取畫面：顯示通話品質儀表板租使用者資料](media/839c9ab4-0246-46c9-8402-aafd83a0bc63.png)
   
 1. 在 [**租使用者資料上傳**] 頁面上，使用下拉式功能表選擇要上傳的資料檔案類型。 [檔案] 資料類型代表檔案的內容（例如，"建築物" 指的是 IP 位址與建築物及其他地理位置資訊，"端點" 是指將端點名稱對應到 Endpoint 產生/模型/類型資訊）。 目前 CQD 支援 cqd.teams.microsoft.com 的 "建築物" 和 "Endpoint" 資料類型（在預覽階段中，尚未正式提供），cqd.lync.com 只支援 "建築物" 資料類型。
+
+
+
 2. 選取 [檔案] 資料類型之後，按一下 **[流覽]** 以選擇資料檔案。
 
    - 資料檔案必須是. tsv （以定位字元分隔的值）檔案或 .csv （逗號分隔值）檔案。 如果使用 .csv 檔案，任何包含逗號的欄位都必須以引號括住，或移除逗號。 例如，如果您的建築物名稱是 NY，NY，請在 .csv 檔案中輸入「NY，NY」。

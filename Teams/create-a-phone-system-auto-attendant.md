@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -21,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 瞭解如何為 Microsoft 團隊設定及測試雲端自動語音應答。
-ms.openlocfilehash: 60fce49f2c03ef674e0b1e09f5d0193bcdab7ca0
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: eeeafb99a7cf1344d973b5963eab5b0c4ee8eaea
+ms.sourcegitcommit: 9145ce09efe490d4d79b2a52ecc318f54d2feb2c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37434961"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37522767"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>設定雲端自動語音應答
 
@@ -219,10 +218,20 @@ ms.locfileid: "37434961"
 
 **依名稱撥號**如果您啟用這個選項，來電者就可以使用 [透過**名稱撥號**] 搜尋貴組織中的人員。 他們會說出使用者的名稱和語音辨識會與使用者相符。 您可以在 [選用的撥號作用域] 頁面中，設定這些服務中和不包含的人員。 使用電話系統授權的任何線上使用者，或任何使用商務用 Skype Server 主機內部部署的使用者，都是合格的使用者，而且可以使用 [撥號者名稱] 找到。
 
-透過**分機撥打電話**如果您啟用此選項，則如果**您已設定使用延伸的撥號方案**，來電者就可以透過您的組織中的使用者來連線。 您可以在 [選用撥號作用中] 頁面中，選取哪些使用者列為 [可供**撥號**] 或 [無法使用]。 使用電話系統授權的任何線上使用者，或任何使用商務用 Skype Server 主機內部部署的使用者，都是符合資格的使用者，而且可透過分機找到。
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
+
+透過**分機撥打電話**如果您啟用此選項（目前僅適用于某些承租人），則呼叫者可以輸入其電話分機，與貴組織中的使用者連線。 您可以在 [選用撥號作用中] 頁面中，選取哪些使用者列為 [可供**撥號**] 或 [無法使用]。 使用電話系統授權的任何線上使用者，或任何使用商務用 Skype Server 主機內部部署的使用者，都是符合資格的使用者，而且可透過分機找到。
+
+> [!IMPORTANT]
+> 請注意下列事項：
+>- 您想要讓撥打電話的使用者在[Microsoft 365 系統管理中心](https://docs.microsoft.com/office365/admin/add-users/add-users?view=o365-worldwide#use-the-new-admin-center-to-add-users)指派的電話號碼或行動電話號碼的一部分，必須具備副檔名。  在 [使用者電話號碼] 欄位中輸入延伸所需的格式，可以`+<phonenumber>;ext=<extension>`是`x<extension>`或。
+>- 目前不支援在團隊系統管理中心指派延伸。 您必須使用[MsolUser](https://docs.microsoft.com/powershell/module/msonline/set-msoluser?view=azureadps-1.0) powershell 命令或 Microsoft 365 系統管理中心。
+>- 在 AAD PhoneNumber 和 MobilePhone 屬性的變更可供使用前，可能需要最多12小時的時間。
+>- 請不要定義使用者 LineUri 的延伸。 目前不支援這種情況。
+>- 自動語音應答可以設定為透過名稱撥號，或使用撥打電話給撥號，但不能同時使用這兩者。
 
 > [!NOTE]
-> 如果您想要同時使用 [透過**名稱撥號**]**和 [透過撥號撥打**] 功能，您可以建立主自動語音應答（透過**名稱撥號**），提示來電者選擇功能表選項3（如果他們知道使用者的副檔名），並將 option 3 設定為 [事務]。sfer 電話撥打電話給已啟用 [透過分機撥打電話] 的自動語音應答。 
+> 如果您想要同時使用 [透過**名稱撥號**]**和 [透過撥號撥打**] 功能，您可以建立主要自動語音應答（透過**名稱撥號**），提示呼叫者選擇功能表選項（如果他們知道使用者的副檔名），並將該選項設定為將來電轉接到已啟用 [透過電話撥打電話] 的自動語音應答。 
 
 * * *
 

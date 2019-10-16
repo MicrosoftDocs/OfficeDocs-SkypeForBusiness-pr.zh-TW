@@ -10,8 +10,8 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
+- M365-collaboration
 audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '瞭解如何設定商務用 Skype 針對貴組織的預設語音信箱問候語使用另一種語言。 '
-ms.openlocfilehash: 085262a4ae4362aa40d20d3da657db6bcac694a3
-ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
+ms.openlocfilehash: 85631b9f8b1ecbc070bb2c5cc986978236828a52
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "37328339"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516971"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>變更問候語和電子郵件的預設語言
 

@@ -8,26 +8,25 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: anach
 search.appverid: MET150
 description: 瞭解如何從 Office 365 審核記錄中檢索 Microsoft 團隊資料。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 31db1ad74c0819e5dc9bcdb4f7e8e9fd6ae2291d
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 5d332880756c0173045fc1e5464bd889d0131301
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237264"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516728"
 ---
 <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>在 [審核記錄] 中搜尋 Microsoft 團隊中的事件
 ==================================================
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-審核記錄可協助您調查跨 Office 365 服務的特定活動。 針對團隊而言, 以下是一些經過審核的活動:
+審核記錄可協助您調查跨 Office 365 服務的特定活動。 針對團隊而言，以下是一些經過審核的活動：
 
 -   小組建立
 
@@ -37,11 +36,11 @@ ms.locfileid: "36237264"
 
 -   已變更設定
 
-若要查看在 Office 365 中審核之活動的完整清單, 請閱讀[在 office 365 安全性 & 合規性中心搜尋審核記錄](https://support.office.com/article/0d4d0f35-390b-4518-800e-0c7ec95e946c)。
+若要查看在 Office 365 中審核之活動的完整清單，請閱讀[在 office 365 安全性 & 合規性中心搜尋審核記錄](https://support.office.com/article/0d4d0f35-390b-4518-800e-0c7ec95e946c)。
 
 ## <a name="turn-on-auditing-in-teams"></a>在團隊中開啟審核
 
-您必須先在**安全性 & 合規性中心**(https://protection.office.com)) 中開啟審核, 才能查看審核資料。 如需有關開啟審核的協助, 請參閱[開啟或關閉 Office 365 審核記錄搜尋](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014)。
+您必須先在**安全性 & 合規性中心**（https://protection.office.com)）中開啟審核，才能查看審核資料。 如需有關開啟審核的協助，請參閱[開啟或關閉 Office 365 審核記錄搜尋](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014)。
 
 
 > [!IMPORTANT]
@@ -51,7 +50,7 @@ ms.locfileid: "36237264"
 
 ## <a name="retrieve-teams-data-from-the-audit-log"></a>從審核記錄中取得團隊資料
 
-1.  若要取得審核記錄, 請移至[安全性 & 合規性中心](https://go.microsoft.com/fwlink/?linkid=855775)。 在 [**搜尋 & 調查**] 底下, 選取 [**審核記錄搜尋**]。![[審計記錄搜尋] 頁面的螢幕擷取畫面](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image3.png)
+1.  若要取得審核記錄，請移至[安全性 & 合規性中心](https://go.microsoft.com/fwlink/?linkid=855775)。 在 [**搜尋 & 調查**] 底下，選取 [**審核記錄搜尋**]。
 
 2.  使用 [**搜尋**] 篩選您想要審核的活動、日期和使用者。
 
@@ -59,11 +58,11 @@ ms.locfileid: "36237264"
 
 
 > [!IMPORTANT]
-> 審核資料只有在已開啟審核的情況下, 才會顯示在審核記錄中。
+> 審核資料只有在已開啟審核的情況下，才會顯示在審核記錄中。
 
-## <a name="video-techtip-using-audit-log-search-in-teams"></a>影片: TechTip: 在團隊中使用審核記錄搜尋
+## <a name="video-techtip-using-audit-log-search-in-teams"></a>影片： TechTip：在團隊中使用審核記錄搜尋
 
-加入 Ansuman Acharya (一種小組的程式管理員), 他示範如何在 Office 365 安全 & 規範中心中執行審核記錄搜尋小組。 
+加入 Ansuman Acharya （一種小組的程式管理員），他示範如何在 Office 365 安全 & 規範中心中執行審核記錄搜尋小組。 
 
 
 > [!VIDEO https://www.youtube.com/embed/UBxaRySAxyE]

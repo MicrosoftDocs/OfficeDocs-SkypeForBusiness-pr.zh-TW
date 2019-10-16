@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '瞭解功能、可用性，以及如何規劃及設定商務用電話系統（雲端 PBX）。 '
-ms.openlocfilehash: 398dcd2347f51cf4f50ee6fd7d6bfc6e95fe20d6
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: 85b60b07dda2283fb91665834c7f6cd4187454cd
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37434861"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516861"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>以下是您在 Office 365 中使用電話系統所取得的結果
 
@@ -84,7 +84,7 @@ PBX 是企業內的電話系統。 Office 365 附加元件中的電話系統提�
 
 - [設定通話方案](set-up-calling-plans.md)：本文提供逐步指示，以取得您的電話號碼，或將現有的電話號碼轉移到商務用 Skype。
     
-- [Microsoft 電話解決方案](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)：本文將配置您所有的部署選項。 它也包含規劃完全雲端解決方案的相關資訊。 
+- [Microsoft 電話解決方案](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)：本文將配置您所有的部署選項。 它也包含規劃整個雲端方案的相關資訊。 
     
 - [Microsoft 團隊附加元件授權](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)：瞭解您需要購買哪些授權才能取得 Office 365 中的電話系統。
     
@@ -100,7 +100,17 @@ PBX 是企業內的電話系統。 Office 365 附加元件中的電話系統提�
 |:-----|:-----|:-----|
 |**胖用戶端** <br/> |**行動用戶端** <br/> |**IP 電話** <br/> |
 | 可與 Office 365 中所有支援的電腦和 Mac 用戶端搭配使用。 <br/> [安裝商務用 Skype](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb) <br/> [針對 Office 365 設定 Lync for Mac 2011](https://support.office.com/article/ae3ebd0e-a1a7-48cf-9350-36b144dc5f88) <br/> | 我們有適用的商務用 Skype 用戶端： <br/> [且](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb#os_type=ios) <br/> [Android](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb#os_type=android) <br/> [Windows Phone](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb#os_type=windows_phone) <br/> |選擇與商務用 Skype 相容的大量電話。 請參閱[取得商務用 Skype Online 的電話](/skypeforbusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online)。 <br/> |
-   
+
+## <a name="availability-in-gcc-high-and-dod-clouds"></a>在 GCC 高和 DoD 雲彩中的可用性
+<a name="bkmk_setup"> </a>
+
+在 GCC 高和 DoD 雲彩中尚不提供下列功能。 
+- [副鈴聲、語音信箱和增強式委派的通話設定](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f)
+- [轉接至語音信箱 mid 通話](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0)
+- 從搜尋列撥打電話號碼
+- 等候音樂
+- AAD 反向數位查閱
+
 ## <a name="related-topics"></a>相關主題
 [取得商務用 Skype 和 Microsoft 團隊的服務電話號碼](/microsoftteams/getting-service-phone-numbers)
 
