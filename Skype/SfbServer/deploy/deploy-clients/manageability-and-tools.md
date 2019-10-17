@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c336ee9a-1ed8-4f64-9f7f-89549ae24c40
 description: 若要瞭解 Skype 室系統的管理工具，請閱讀本主題。
-ms.openlocfilehash: 51cb9ed85558a97b4afbeed8e4addd2ade6debec
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: c9289d3fffa78dd7ffd94fa17784c1b06c2278b1
+ms.sourcegitcommit: fa55f9e3690fcca36b530bd13a9eeaa44120b87c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775324"
+ms.lasthandoff: 10/16/2019
+ms.locfileid: "37547256"
 ---
 # <a name="skype-room-system-manageability-and-tools"></a>Skype 室系統可管理性與工具
  
@@ -29,9 +29,6 @@ ms.locfileid: "36775324"
   
 - [在商務用 Skype Server 中部署 SRS v1 管理網頁入口網站](../deploy-conferencing/room-system-v1-administrative-web-portal.md)
     
-## <a name="system-center-operations-manager"></a>System Center Operations Manager
-
-您可以透過下載[Skype 會議室系統管理套件](https://www.microsoft.com/download/details.aspx?id=42320)並將它安裝在您的 SCOM 伺服器上，在系統中心操作管理員（SCOM）中監視 Skype 會議室系統。 您可以使用 SCOM 來設定警示、監控 Skype 會議室系統的健康情況、產生正常運作時間報告等等。 Skype 室系統隨附預先安裝的監視代理程式，可以設定為指向 SCOM 伺服器。 請參閱您的 Skype 會議室系統製造商提供的安裝指南，瞭解如何在 Skype 會議室系統上設定監視代理程式。
   
 ## <a name="exchange-checklist"></a>Exchange 檢查清單
 
