@@ -9,26 +9,25 @@ ms.topic: quickstart
 ms.service: msteams
 localization_priority: Normal
 ms.collection:
-- Strat_SB_Admin
-- M365-voice
+- M365-collaboration
 ms.custom: ''
 ms.assetid: a038e34d-8bc8-4a59-8ed2-3fc00ec33dd7
 description: 如需如何使用商務用 Skype Server 部署 Microsoft 團隊聊天室的相關資訊，請參閱本主題。
-ms.openlocfilehash: 0661a19b3569cbfde5edfb5ceb631fab7282d302
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 25a9759d4f61082f30a54b130d52d8fef0f9d299
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36774943"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573470"
 ---
-# <a name="deploy-microsoft-teams-rooms-with-skype-for-business-server"></a><span data-ttu-id="579a3-103">使用商務用 Skype Server 部署 Microsoft 團隊聊天室</span><span class="sxs-lookup"><span data-stu-id="579a3-103">Deploy Microsoft Teams Rooms with Skype for Business Server</span></span>
+# <a name="deploy-microsoft-teams-rooms-with-skype-for-business-server"></a><span data-ttu-id="8be0d-103">使用商務用 Skype Server 部署 Microsoft 團隊聊天室</span><span class="sxs-lookup"><span data-stu-id="8be0d-103">Deploy Microsoft Teams Rooms with Skype for Business Server</span></span>
   
-<span data-ttu-id="579a3-104">本主題說明當您有單一林內部部署時，如何為 Microsoft 團隊聊天室新增裝置帳戶。</span><span class="sxs-lookup"><span data-stu-id="579a3-104">This topic explains how you add a device account for Microsoft Teams Rooms when you have a single-forest, on-premises deployment.</span></span>
+<span data-ttu-id="8be0d-104">本主題說明當您有單一林內部部署時，如何為 Microsoft 團隊聊天室新增裝置帳戶。</span><span class="sxs-lookup"><span data-stu-id="8be0d-104">This topic explains how you add a device account for Microsoft Teams Rooms when you have a single-forest, on-premises deployment.</span></span>
   
-<span data-ttu-id="579a3-105">如果您有單一林、內部部署與 Exchange 2013 SP1 或更新版本，以及商務用 Skype Server 2015 或更新版本，則您可以使用隨附的 Windows PowerShell 腳本來建立裝置帳戶。</span><span class="sxs-lookup"><span data-stu-id="579a3-105">If you have a single-forest, on-premises deployment with Exchange 2013 SP1 or later and Skype for Business Server 2015 or later, then you can use the provided Windows PowerShell scripts to create device accounts.</span></span> <span data-ttu-id="579a3-106">如果您使用的是多目錄林部署，您可以使用對等的 Cmdlet 來產生相同的結果。</span><span class="sxs-lookup"><span data-stu-id="579a3-106">If you're using a multi-forest deployment, you can use equivalent cmdlets that will produce the same results.</span></span> <span data-ttu-id="579a3-107">本節將說明這些 Cmdlet。</span><span class="sxs-lookup"><span data-stu-id="579a3-107">Those cmdlets are described in this section.</span></span>
+<span data-ttu-id="8be0d-105">如果您有單一林、內部部署與 Exchange 2013 SP1 或更新版本，以及商務用 Skype Server 2015 或更新版本，則您可以使用隨附的 Windows PowerShell 腳本來建立裝置帳戶。</span><span class="sxs-lookup"><span data-stu-id="8be0d-105">If you have a single-forest, on-premises deployment with Exchange 2013 SP1 or later and Skype for Business Server 2015 or later, then you can use the provided Windows PowerShell scripts to create device accounts.</span></span> <span data-ttu-id="8be0d-106">如果您使用的是多目錄林部署，您可以使用對等的 Cmdlet 來產生相同的結果。</span><span class="sxs-lookup"><span data-stu-id="8be0d-106">If you're using a multi-forest deployment, you can use equivalent cmdlets that will produce the same results.</span></span> <span data-ttu-id="8be0d-107">本節將說明這些 Cmdlet。</span><span class="sxs-lookup"><span data-stu-id="8be0d-107">Those cmdlets are described in this section.</span></span>
 
   
-<span data-ttu-id="579a3-108">開始部署 Microsoft 團隊聊天室之前，請確定您具備適當的許可權來執行相關的 Cmdlet。</span><span class="sxs-lookup"><span data-stu-id="579a3-108">Before you begin to deploy Microsoft Teams Rooms, be sure you have the right permissions to run the associated cmdlets.</span></span>
+<span data-ttu-id="8be0d-108">開始部署 Microsoft 團隊聊天室之前，請確定您具備適當的許可權來執行相關的 Cmdlet。</span><span class="sxs-lookup"><span data-stu-id="8be0d-108">Before you begin to deploy Microsoft Teams Rooms, be sure you have the right permissions to run the associated cmdlets.</span></span>
   
 
    ``` Powershell
@@ -42,25 +41,25 @@ ms.locfileid: "36774943"
    Import-PSSession $sessLync
    ```
 
-   <span data-ttu-id="579a3-109">請注意，$strExchangeServer 是 Exchange 伺服器的完整功能變數名稱（FQDN），而 $strLyncFQDN 是商務用 Skype Server 部署的 FQDN。</span><span class="sxs-lookup"><span data-stu-id="579a3-109">Note that $strExchangeServer is the fully qualified domain name (FQDN) of your Exchange server, and $strLyncFQDN is the FQDN of your Skype for Business Server deployment.</span></span>
+   <span data-ttu-id="8be0d-109">請注意，$strExchangeServer 是 Exchange 伺服器的完整功能變數名稱（FQDN），而 $strLyncFQDN 是商務用 Skype Server 部署的 FQDN。</span><span class="sxs-lookup"><span data-stu-id="8be0d-109">Note that $strExchangeServer is the fully qualified domain name (FQDN) of your Exchange server, and $strLyncFQDN is the FQDN of your Skype for Business Server deployment.</span></span>
 
-2. <span data-ttu-id="579a3-110">建立會話之後，您可以建立新的信箱並將其設為 RoomMailboxAccount，或變更現有會議室信箱的設定。</span><span class="sxs-lookup"><span data-stu-id="579a3-110">After establishing a session, you'll either create a new mailbox and enable it as a RoomMailboxAccount, or change the settings for an existing room mailbox.</span></span> <span data-ttu-id="579a3-111">這可讓帳戶針對 Microsoft 團隊聊天室進行驗證。</span><span class="sxs-lookup"><span data-stu-id="579a3-111">This will allow the account to authenticate to Microsoft Teams Rooms.</span></span>
+2. <span data-ttu-id="8be0d-110">建立會話之後，您可以建立新的信箱並將其設為 RoomMailboxAccount，或變更現有會議室信箱的設定。</span><span class="sxs-lookup"><span data-stu-id="8be0d-110">After establishing a session, you'll either create a new mailbox and enable it as a RoomMailboxAccount, or change the settings for an existing room mailbox.</span></span> <span data-ttu-id="8be0d-111">這可讓帳戶針對 Microsoft 團隊聊天室進行驗證。</span><span class="sxs-lookup"><span data-stu-id="8be0d-111">This will allow the account to authenticate to Microsoft Teams Rooms.</span></span>
 
-    <span data-ttu-id="579a3-112">如果您要變更現有的資源信箱：</span><span class="sxs-lookup"><span data-stu-id="579a3-112">If you're changing an existing resource mailbox:</span></span>
+    <span data-ttu-id="8be0d-112">如果您要變更現有的資源信箱：</span><span class="sxs-lookup"><span data-stu-id="8be0d-112">If you're changing an existing resource mailbox:</span></span>
 
    ``` Powershell
    Set-Mailbox -Identity 'PROJECTRIGEL01' -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password>
    -AsPlainText -Force)
    ```
 
-   <span data-ttu-id="579a3-113">如果您要建立新的資源信箱：</span><span class="sxs-lookup"><span data-stu-id="579a3-113">If you're creating a new resource mailbox:</span></span>
+   <span data-ttu-id="8be0d-113">如果您要建立新的資源信箱：</span><span class="sxs-lookup"><span data-stu-id="8be0d-113">If you're creating a new resource mailbox:</span></span>
 
    ``` Powershell
    New-Mailbox -UserPrincipalName PROJECTRIGEL01@contoso.com -Alias PROJECTRIGEL01 -Name "Project-Rigel-01" -Room
    -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
    ```
 
-3. <span data-ttu-id="579a3-114">您可以在裝置帳戶上設定各種 Exchange 屬性來改善人員的會議體驗。</span><span class="sxs-lookup"><span data-stu-id="579a3-114">You can set various Exchange properties on the device account to improve the meeting experience for people.</span></span> <span data-ttu-id="579a3-115">您可以在 [Exchange 屬性] 區段中查看需要設定哪些屬性。</span><span class="sxs-lookup"><span data-stu-id="579a3-115">You can see which properties need to be set in the Exchange properties section.</span></span>
+3. <span data-ttu-id="8be0d-114">您可以在裝置帳戶上設定各種 Exchange 屬性來改善人員的會議體驗。</span><span class="sxs-lookup"><span data-stu-id="8be0d-114">You can set various Exchange properties on the device account to improve the meeting experience for people.</span></span> <span data-ttu-id="8be0d-115">您可以在 [Exchange 屬性] 區段中查看需要設定哪些屬性。</span><span class="sxs-lookup"><span data-stu-id="8be0d-115">You can see which properties need to be set in the Exchange properties section.</span></span>
 
    ``` Powershell
    Set-CalendarProcessing -Identity $acctUpn -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments
@@ -68,28 +67,28 @@ ms.locfileid: "36774943"
    Set-CalendarProcessing -Identity $acctUpn -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
    ```
 
-4. <span data-ttu-id="579a3-116">如果您決定將密碼不要到期，您也可以使用 Windows PowerShell Cmdlet 來設定密碼。</span><span class="sxs-lookup"><span data-stu-id="579a3-116">If you decide to have the password not expire, you can set that with Windows PowerShell cmdlets too.</span></span> <span data-ttu-id="579a3-117">如需詳細資訊，請參閱密碼管理。</span><span class="sxs-lookup"><span data-stu-id="579a3-117">See Password management for more information.</span></span>
+4. <span data-ttu-id="8be0d-116">如果您決定將密碼不要到期，您也可以使用 Windows PowerShell Cmdlet 來設定密碼。</span><span class="sxs-lookup"><span data-stu-id="8be0d-116">If you decide to have the password not expire, you can set that with Windows PowerShell cmdlets too.</span></span> <span data-ttu-id="8be0d-117">如需詳細資訊，請參閱密碼管理。</span><span class="sxs-lookup"><span data-stu-id="8be0d-117">See Password management for more information.</span></span>
 
    ``` Powershell
    Set-AdUser $acctUpn -PasswordNeverExpires $true
    ```
 
-5. <span data-ttu-id="579a3-118">在 Active Directory 中啟用帳戶，以便將其驗證至 Microsoft 團隊聊天室。</span><span class="sxs-lookup"><span data-stu-id="579a3-118">Enable the account in Active Directory so it will authenticate to Microsoft Teams Rooms.</span></span>
+5. <span data-ttu-id="8be0d-118">在 Active Directory 中啟用帳戶，以便將其驗證至 Microsoft 團隊聊天室。</span><span class="sxs-lookup"><span data-stu-id="8be0d-118">Enable the account in Active Directory so it will authenticate to Microsoft Teams Rooms.</span></span>
 
    ``` Powershell
    Set-AdUser $acctUpn -Enabled $true
    ```
 
-6. <span data-ttu-id="579a3-119">在商務用 Skype 伺服器池中啟用 Microsoft 團隊聊天室 Active Directory 帳戶，以啟用商務用 Skype Server 的裝置帳戶：</span><span class="sxs-lookup"><span data-stu-id="579a3-119">Enable the device account with Skype for Business Server by enabling your Microsoft Teams Rooms Active Directory account on a Skype for Business Server pool:</span></span>
+6. <span data-ttu-id="8be0d-119">在商務用 Skype 伺服器池中啟用 Microsoft 團隊聊天室 Active Directory 帳戶，以啟用商務用 Skype Server 的裝置帳戶：</span><span class="sxs-lookup"><span data-stu-id="8be0d-119">Enable the device account with Skype for Business Server by enabling your Microsoft Teams Rooms Active Directory account on a Skype for Business Server pool:</span></span>
 
    ``` Powershell
    Enable-CsMeetingRoom -SipAddress sip:PROJECTRIGEL01@contoso.com -DomainController DC-ND-001.contoso.com
    -RegistrarPool LYNCPool15.contoso.com -Identity PROJECTRIGEL01
    ```
 
-    <span data-ttu-id="579a3-120">您需要使用會話初始通訊協定（SIP）位址與專案的網網域控制站</span><span class="sxs-lookup"><span data-stu-id="579a3-120">You'll need to use the Session Initiation Protocol (SIP) address and domain controller for the Project</span></span>
+    <span data-ttu-id="8be0d-120">您需要使用會話初始通訊協定（SIP）位址與專案的網網域控制站</span><span class="sxs-lookup"><span data-stu-id="8be0d-120">You'll need to use the Session Initiation Protocol (SIP) address and domain controller for the Project</span></span>
 
-7. <span data-ttu-id="579a3-121">**可選.**</span><span class="sxs-lookup"><span data-stu-id="579a3-121">**Optional.**</span></span> <span data-ttu-id="579a3-122">您也可以透過針對您的帳戶啟用企業語音，來允許 Microsoft 團隊聊天室撥打及接聽公用交換電話網絡（PSTN）電話。</span><span class="sxs-lookup"><span data-stu-id="579a3-122">You can also allow Microsoft Teams Rooms to make and receive public switched telephone network (PSTN) phone calls by enabling Enterprise Voice for your account.</span></span> <span data-ttu-id="579a3-123">企業語音並非 Microsoft 團隊聊天室的需求，但如果您想要使用 Microsoft 團隊聊天室用戶端的 PSTN 撥號功能，請執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="579a3-123">Enterprise Voice isn't a requirement for Microsoft Teams Rooms, but if you want PSTN dialing functionality for the Microsoft Teams Rooms client, here's how to enable it:</span></span>
+7. <span data-ttu-id="8be0d-121">**可選.**</span><span class="sxs-lookup"><span data-stu-id="8be0d-121">**Optional.**</span></span> <span data-ttu-id="8be0d-122">您也可以透過針對您的帳戶啟用企業語音，來允許 Microsoft 團隊聊天室撥打及接聽公用交換電話網絡（PSTN）電話。</span><span class="sxs-lookup"><span data-stu-id="8be0d-122">You can also allow Microsoft Teams Rooms to make and receive public switched telephone network (PSTN) phone calls by enabling Enterprise Voice for your account.</span></span> <span data-ttu-id="8be0d-123">企業語音並非 Microsoft 團隊聊天室的需求，但如果您想要使用 Microsoft 團隊聊天室用戶端的 PSTN 撥號功能，請執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="8be0d-123">Enterprise Voice isn't a requirement for Microsoft Teams Rooms, but if you want PSTN dialing functionality for the Microsoft Teams Rooms client, here's how to enable it:</span></span>
 
    ``` Powershell
    Set-CsMeetingRoom PROJECTRIGEL01 -DomainController DC-ND-001.contoso.com -LineURI "tel:+14255550555;ext=50555"
@@ -98,9 +97,9 @@ ms.locfileid: "36774943"
    Grant-CsDialPlan -PolicyName DP1 -Identity PROJECTRIGEL01
    ```
 
-   <span data-ttu-id="579a3-124">同樣地，您必須以您自己的資訊取代所提供的網網域控制站和電話號碼範例。</span><span class="sxs-lookup"><span data-stu-id="579a3-124">Again, you'll need to replace the provided domain controller and phone number examples with your own information.</span></span> <span data-ttu-id="579a3-125">參數值 $true 保持不變。</span><span class="sxs-lookup"><span data-stu-id="579a3-125">The parameter value $true stays the same.</span></span>
+   <span data-ttu-id="8be0d-124">同樣地，您必須以您自己的資訊取代所提供的網網域控制站和電話號碼範例。</span><span class="sxs-lookup"><span data-stu-id="8be0d-124">Again, you'll need to replace the provided domain controller and phone number examples with your own information.</span></span> <span data-ttu-id="8be0d-125">參數值 $true 保持不變。</span><span class="sxs-lookup"><span data-stu-id="8be0d-125">The parameter value $true stays the same.</span></span>
 
-## <a name="sample-room-account-setup-in-exchange-and-skype-for-business-server-on-premises"></a><span data-ttu-id="579a3-126">範例： Exchange 和商務用 Skype Server 內部部署中的房間帳戶設定</span><span class="sxs-lookup"><span data-stu-id="579a3-126">Sample: room account setup in Exchange and Skype for Business Server on premises</span></span>
+## <a name="sample-room-account-setup-in-exchange-and-skype-for-business-server-on-premises"></a><span data-ttu-id="8be0d-126">範例： Exchange 和商務用 Skype Server 內部部署中的房間帳戶設定</span><span class="sxs-lookup"><span data-stu-id="8be0d-126">Sample: room account setup in Exchange and Skype for Business Server on premises</span></span>
 
 ``` Powershell
 New-Mailbox -Alias rigel1 -Name "Rigel 1" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String "" -AsPlainText -Force)
@@ -116,14 +115,14 @@ Grant-CsVoicePolicy -PolicyName dk -Identity rigel1
 Grant-CsDialPlan -PolicyName e15dp2.contoso.com -Identity rigel1
 ```
 
-## <a name="see-also"></a><span data-ttu-id="579a3-127">另請參閱</span><span class="sxs-lookup"><span data-stu-id="579a3-127">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8be0d-127">另請參閱</span><span class="sxs-lookup"><span data-stu-id="8be0d-127">See also</span></span>
 
-[<span data-ttu-id="579a3-128">設定 Microsoft 團隊聊天室的帳戶</span><span class="sxs-lookup"><span data-stu-id="579a3-128">Configure accounts for Microsoft Teams Rooms</span></span>](room-systems-v2-configure-accounts.md)
+[<span data-ttu-id="8be0d-128">設定 Microsoft 團隊聊天室的帳戶</span><span class="sxs-lookup"><span data-stu-id="8be0d-128">Configure accounts for Microsoft Teams Rooms</span></span>](room-systems-v2-configure-accounts.md)
 
-[<span data-ttu-id="579a3-129">規劃 Microsoft 團隊聊天室</span><span class="sxs-lookup"><span data-stu-id="579a3-129">Plan for Microsoft Teams Rooms</span></span>](skype-room-systems-v2-0.md)
+[<span data-ttu-id="8be0d-129">規劃 Microsoft 團隊聊天室</span><span class="sxs-lookup"><span data-stu-id="8be0d-129">Plan for Microsoft Teams Rooms</span></span>](skype-room-systems-v2-0.md)
   
-[<span data-ttu-id="579a3-130">部署 Microsoft 團隊聊天室</span><span class="sxs-lookup"><span data-stu-id="579a3-130">Deploy Microsoft Teams Rooms</span></span>](room-systems-v2.md)
+[<span data-ttu-id="8be0d-130">部署 Microsoft 團隊聊天室</span><span class="sxs-lookup"><span data-stu-id="8be0d-130">Deploy Microsoft Teams Rooms</span></span>](room-systems-v2.md)
   
-[<span data-ttu-id="579a3-131">設定 Microsoft 團隊聊天室主控台</span><span class="sxs-lookup"><span data-stu-id="579a3-131">Configure a Microsoft Teams Rooms console</span></span>](console.md)
+[<span data-ttu-id="8be0d-131">設定 Microsoft 團隊聊天室主控台</span><span class="sxs-lookup"><span data-stu-id="8be0d-131">Configure a Microsoft Teams Rooms console</span></span>](console.md)
   
-[<span data-ttu-id="579a3-132">管理 Microsoft 團隊聊天室</span><span class="sxs-lookup"><span data-stu-id="579a3-132">Manage Microsoft Teams Rooms</span></span>](skype-room-systems-v2.md)
+[<span data-ttu-id="8be0d-132">管理 Microsoft 團隊聊天室</span><span class="sxs-lookup"><span data-stu-id="8be0d-132">Manage Microsoft Teams Rooms</span></span>](skype-room-systems-v2.md)

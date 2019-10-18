@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -22,35 +21,35 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 這將協助您瞭解如何在每個國家/地區撥打免付費電話號碼。 在您選取國家/地區之後, 系統會將您帶到特定國家/地區的頁面, 其中包含特定的詳細資料、限制, 以及免費提供免付費服務的服務可用性限制。 [撥號格式] 或 [格式] 會在每個國家/地區顯示所需的存取代碼, 以撥打免付費電話號碼。
-ms.openlocfilehash: f66833d6bf702ec754a7f50f1dbcf07e1b833575
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+description: 這將協助您瞭解如何在每個國家/地區撥打免付費電話號碼。 在您選取國家/地區之後，系統會將您帶到特定國家/地區的頁面，其中包含特定的詳細資料、限制，以及免費提供免付費服務的服務可用性限制。 [撥號格式] 或 [格式] 會在每個國家/地區顯示所需的存取代碼，以撥打免付費電話號碼。
+ms.openlocfilehash: 9edb0b483cddb3176588bd4174bb07ab72542e02
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "36182616"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569808"
 ---
-# <a name="toll-free-dialing-restrictions-in-qatar"></a><span data-ttu-id="09114-105">卡塔爾的免付費撥號限制</span><span class="sxs-lookup"><span data-stu-id="09114-105">Toll-free dialing restrictions in Qatar</span></span>
+# <a name="toll-free-dialing-restrictions-in-qatar"></a><span data-ttu-id="34c62-105">卡塔爾的免付費撥號限制</span><span class="sxs-lookup"><span data-stu-id="34c62-105">Toll-free dialing restrictions in Qatar</span></span>
 
-<span data-ttu-id="09114-106">[尋找其他國家或地區](../toll-free-dialing-limitations-and-restrictions.md), 或進一步瞭解免付費撥號限制與限制。</span><span class="sxs-lookup"><span data-stu-id="09114-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
+<span data-ttu-id="34c62-106">[尋找其他國家或地區](../toll-free-dialing-limitations-and-restrictions.md)，或進一步瞭解免付費撥號限制與限制。</span><span class="sxs-lookup"><span data-stu-id="34c62-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
 
 
-|<span data-ttu-id="09114-107">**詳細資料**</span><span class="sxs-lookup"><span data-stu-id="09114-107">**Details**</span></span>|<span data-ttu-id="09114-108">**說明**</span><span class="sxs-lookup"><span data-stu-id="09114-108">**Description**</span></span>|
+|<span data-ttu-id="34c62-107">**詳細資料**</span><span class="sxs-lookup"><span data-stu-id="34c62-107">**Details**</span></span>|<span data-ttu-id="34c62-108">**說明**</span><span class="sxs-lookup"><span data-stu-id="34c62-108">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="09114-109">免費通話嗎？</span><span class="sxs-lookup"><span data-stu-id="09114-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="09114-110">是的</span><span class="sxs-lookup"><span data-stu-id="09114-110">Yes</span></span>  <br/> |
-|<span data-ttu-id="09114-111">撥號格式 (s)</span><span class="sxs-lookup"><span data-stu-id="09114-111">Dialing format(s)</span></span>  <br/> |<span data-ttu-id="09114-112">00800 XXXXXX</span><span class="sxs-lookup"><span data-stu-id="09114-112">00800 XXXXXX</span></span>  <br/> |
-|<span data-ttu-id="09114-113">國家/地區 ISO 代碼</span><span class="sxs-lookup"><span data-stu-id="09114-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="09114-114">QA</span><span class="sxs-lookup"><span data-stu-id="09114-114">QA</span></span>  <br/> |
-|<span data-ttu-id="09114-115">已覆蓋的島/地區</span><span class="sxs-lookup"><span data-stu-id="09114-115">Island/territory covered</span></span>  <br/> |<span data-ttu-id="09114-116">不適用</span><span class="sxs-lookup"><span data-stu-id="09114-116">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="09114-117">未涵蓋的島/區域</span><span class="sxs-lookup"><span data-stu-id="09114-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="09114-118">不適用</span><span class="sxs-lookup"><span data-stu-id="09114-118">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="09114-119">有線/固定線路可用性</span><span class="sxs-lookup"><span data-stu-id="09114-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="09114-120">僅從 Qtel。</span><span class="sxs-lookup"><span data-stu-id="09114-120">From Qtel only.</span></span>  <br/> |
-|<span data-ttu-id="09114-121">行動網路可用性</span><span class="sxs-lookup"><span data-stu-id="09114-121">Mobile network availability</span></span>  <br/> |<span data-ttu-id="09114-122">僅限&amp; Qtel Vodafone。</span><span class="sxs-lookup"><span data-stu-id="09114-122">From Qtel &amp; Vodafone only.</span></span>  <br/> |
-|<span data-ttu-id="09114-123">批註、限制及存取問題</span><span class="sxs-lookup"><span data-stu-id="09114-123">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="09114-124">無</span><span class="sxs-lookup"><span data-stu-id="09114-124">None</span></span>  <br/> |
+|<span data-ttu-id="34c62-109">免費通話嗎？</span><span class="sxs-lookup"><span data-stu-id="34c62-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="34c62-110">是的</span><span class="sxs-lookup"><span data-stu-id="34c62-110">Yes</span></span>  <br/> |
+|<span data-ttu-id="34c62-111">撥號格式（s）</span><span class="sxs-lookup"><span data-stu-id="34c62-111">Dialing format(s)</span></span>  <br/> |<span data-ttu-id="34c62-112">00800 XXXXXX</span><span class="sxs-lookup"><span data-stu-id="34c62-112">00800 XXXXXX</span></span>  <br/> |
+|<span data-ttu-id="34c62-113">國家/地區 ISO 代碼</span><span class="sxs-lookup"><span data-stu-id="34c62-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="34c62-114">QA</span><span class="sxs-lookup"><span data-stu-id="34c62-114">QA</span></span>  <br/> |
+|<span data-ttu-id="34c62-115">已覆蓋的島/地區</span><span class="sxs-lookup"><span data-stu-id="34c62-115">Island/territory covered</span></span>  <br/> |<span data-ttu-id="34c62-116">不適用</span><span class="sxs-lookup"><span data-stu-id="34c62-116">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="34c62-117">未涵蓋的島/區域</span><span class="sxs-lookup"><span data-stu-id="34c62-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="34c62-118">不適用</span><span class="sxs-lookup"><span data-stu-id="34c62-118">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="34c62-119">有線/固定線路可用性</span><span class="sxs-lookup"><span data-stu-id="34c62-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="34c62-120">僅從 Qtel。</span><span class="sxs-lookup"><span data-stu-id="34c62-120">From Qtel only.</span></span>  <br/> |
+|<span data-ttu-id="34c62-121">行動網路可用性</span><span class="sxs-lookup"><span data-stu-id="34c62-121">Mobile network availability</span></span>  <br/> |<span data-ttu-id="34c62-122">僅限&amp; Qtel Vodafone。</span><span class="sxs-lookup"><span data-stu-id="34c62-122">From Qtel &amp; Vodafone only.</span></span>  <br/> |
+|<span data-ttu-id="34c62-123">批註、限制及存取問題</span><span class="sxs-lookup"><span data-stu-id="34c62-123">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="34c62-124">無</span><span class="sxs-lookup"><span data-stu-id="34c62-124">None</span></span>  <br/> |
    
-## <a name="related-topics"></a><span data-ttu-id="09114-125">相關主題</span><span class="sxs-lookup"><span data-stu-id="09114-125">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="34c62-125">相關主題</span><span class="sxs-lookup"><span data-stu-id="34c62-125">Related topics</span></span>
 
-[<span data-ttu-id="09114-126">免付費撥號限制與限制</span><span class="sxs-lookup"><span data-stu-id="09114-126">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
+[<span data-ttu-id="34c62-126">免付費撥號限制與限制</span><span class="sxs-lookup"><span data-stu-id="34c62-126">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
 
-[<span data-ttu-id="09114-127">取得商務用 Skype 和 Microsoft 團隊的服務電話號碼</span><span class="sxs-lookup"><span data-stu-id="09114-127">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/microsoftteams/getting-service-phone-numbers)
+[<span data-ttu-id="34c62-127">取得商務用 Skype 和 Microsoft 團隊的服務電話號碼</span><span class="sxs-lookup"><span data-stu-id="34c62-127">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/microsoftteams/getting-service-phone-numbers)
 
   
  
