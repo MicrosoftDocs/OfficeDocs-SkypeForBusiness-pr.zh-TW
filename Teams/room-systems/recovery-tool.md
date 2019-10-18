@@ -8,15 +8,16 @@ ms.date: 4/17/2018
 audience: ITPro
 ms.topic: article
 ms.service: msteams
-ms.collection: M365-voice
+ms.collection:
+- M365-collaboration
 localization_priority: Normal
 description: 本文討論如何使用 Microsoft 團隊聊天室的 [恢復工具]，讓您用來將已過期的系統變成受支援的狀態。
-ms.openlocfilehash: aded92fac90f20246444419bff19415922175856
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 04fd6b4b0786cffb4f1bb050a7b0bbdac8e2e653
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775202"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573646"
 ---
 # <a name="use-the-microsoft-teams-rooms-recovery-tool"></a>使用 Microsoft 團隊會議室恢復工具
  

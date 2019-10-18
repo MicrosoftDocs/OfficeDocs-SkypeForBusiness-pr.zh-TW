@@ -17,15 +17,14 @@ f1keywords:
 - ms.teamsadmincenter.meetingsettings.network.ports
 - ms.teamsadmincenter.meetingsettings.overview
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 description: 瞭解如何在您的組織中管理使用者排程的小組會議設定。
-ms.openlocfilehash: 1e5b3fd1c76f4ff925b23b838e2719ec93077f14
-ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
+ms.openlocfilehash: 36325fe82c8864850da8e92de385752422e02f72
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/05/2019
-ms.locfileid: "36767191"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37564930"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>在 Microsoft 團隊中管理會議設定
 
@@ -40,7 +39,7 @@ ms.locfileid: "36767191"
 1. 在左側導覽中，移至 [**會議** > **會議設定**]。
 2. 開啟 [**參與者**] 底下的 [**匿名使用者可以加入會議**]。
 
-    系統![管理中心會議參與者設定的螢幕擷取畫面](media/meeting-settings-participants.png "Microsoft 團隊管理中心的團隊會議參與者設定的螢幕擷取畫面")
+    ![系統管理中心會議參與者設定的螢幕擷取畫面](media/meeting-settings-participants.png "Microsoft 團隊管理中心的團隊會議參與者設定的螢幕擷取畫面")
 
 如果您不希望匿名使用者加入您組織中的使用者排程的會議，請關閉此設定。
 
@@ -85,7 +84,7 @@ ms.locfileid: "36767191"
 1. 在左側導覽中，移至 [**會議** > **會議設定**]。
 2. 在 [**網路**] 底下，執行下列動作：
 
-    系統![管理中心之會議網路設定的螢幕擷取畫面](media/meeting-settings-network.png "Microsoft 團隊系統管理中心之團隊會議的網路設定的螢幕擷取畫面")
+    ![系統管理中心之會議網路設定的螢幕擷取畫面](media/meeting-settings-network.png "Microsoft 團隊系統管理中心之團隊會議的網路設定的螢幕擷取畫面")
 
     - 若要允許將 DSCP 標記用於 QoS，請開啟**即時媒體流量的 [插入服務品質（QoS）] 標記**。 您只能選擇是否要使用標記;您無法針對每種流量類型設定自訂標記。 如需 DSCP 標記的詳細資訊，請參閱[選取 QoS 實現方法](QoS-in-Teams.md#select-a-qos-implementation-method)。
     > [!NOTE] 

@@ -7,7 +7,6 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150
 ms.reviewer: jastark
@@ -20,12 +19,12 @@ description: 瞭解如何在 [教育版團隊中的 Microsoft 團隊系統管理
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 91d74a96cedcd0cdbdfd6b7fcc5ac1b8e261027e
-ms.sourcegitcommit: fa55f9e3690fcca36b530bd13a9eeaa44120b87c
+ms.openlocfilehash: cce2e18059350e11986b4ca1ddcbe47fbc285231
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "37547276"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570388"
 ---
 # <a name="assignments-in-teams-for-education"></a>在教育版小組中的作業
 

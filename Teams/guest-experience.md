@@ -12,16 +12,16 @@ search.appverid: MET150
 description: 瞭解適用于來賓使用者的 Microsoft 團隊功能。
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
+- Teams_ITAdmin_GuestAccess
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d89150f3e4947ee43b013132ea73ae9d38ff14ea
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: e034c7fe8b9e0863bab257b735987ec15c65a3c9
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37434892"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569539"
 ---
 <a name="what-the-guest-experience-is-like"></a>來賓的體驗是什麼樣子
 =================================
@@ -32,7 +32,7 @@ ms.locfileid: "37434892"
     
 所有團隊成員都會在頻道執行緒中看到一則訊息，宣佈小組擁有者已新增來賓並提供來賓的名稱。 小組中的每個人都可以輕鬆識別誰是來賓。 如下列範例小組的螢幕擷取畫面所示，橫幅代表「這個小組有客人」，且每個來賓的名稱旁邊都會出現「（來賓）」標籤。
     
-![顯示 [橫幅通知來賓使用者] 的螢幕擷取畫面](media/guest-experience-image2.png "顯示的是羅斯文商貿的行銷管道的一部分，並在上方橫幅中通知您，指出該小組有來賓和來賓的使用者，並以名稱旁邊的 word 來賓。")
+![顯示橫幅通知來賓使用者的螢幕擷取畫面](media/guest-experience-image2.png "螢幕擷取畫面顯示適用于 Northwind 商貿的行銷管道的一部分，並在上方橫幅中發出通知，指出該小組有來賓和來賓的使用者，其名稱旁會出現 [word 來賓]。")
 
 ## <a name="comparison-of-team-member-and-guest-capabilities"></a>比較小組成員與來賓的功能
 

@@ -10,17 +10,16 @@ ms.topic: quickstart
 ms.service: msteams
 localization_priority: Normal
 ms.collection:
-- Strat_SB_Admin
-- M365-voice
+- M365-collaboration
 ms.custom: ''
 ms.assetid: ''
 description: 請閱讀本主題，瞭解如何針對 Exchange 和商務用 Skype 中的 Microsoft 團隊聊天室設定帳戶。
-ms.openlocfilehash: 0ba44079e52a644e1d53ae937582a8d209f921da
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 287ebcd421a41f088774920a2ec655ac7c562038
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775136"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573613"
 ---
 # <a name="configure-accounts-for-microsoft-teams-rooms"></a>設定 Microsoft 團隊聊天室的帳戶
  

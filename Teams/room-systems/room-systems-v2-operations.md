@@ -8,15 +8,16 @@ ms.date: 5/10/2018
 audience: ITPro
 ms.topic: article
 ms.service: msteams
-ms.collection: M365-voice
+ms.collection:
+- M365-collaboration
 localization_priority: Normal
 description: 請閱讀本主題，以瞭解 Microsoft 團隊聊天室（即新一代 Skype 房間系統）的管理。
-ms.openlocfilehash: 2ef5bbb7c4b630174c32016fdf1b65d30d82ac52
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: c764490df9912ca464b1f11d56a2cb376b96c388
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37435144"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573602"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft 團隊會議室維護和作業 
  

@@ -10,17 +10,16 @@ ms.reviewer: svemu
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 description: 瞭解如何使用 Microsoft 團隊系統管理中心中的 [團隊使用量] 報告，以取得貴組織中的小組活動的概覽。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6a31d3a6bf374e512dde0549dbbd59ed90904cd0
-ms.sourcegitcommit: a71ad6762e18267faaaac09533bac80a181102af
+ms.openlocfilehash: 7aba4d3e185052d7c4f5399dd9370a05a4a7dc0a
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37439569"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570969"
 ---
 # <a name="microsoft-teams-usage-report"></a>Microsoft 團隊使用量報告
 
@@ -31,7 +30,7 @@ Microsoft 團隊系統管理中心中的 [團隊使用量] 報告可讓您大致
 1. 在 Microsoft [團隊管理中心] 的左導覽中，按一下 [**分析] & 報告** > **使用方式報告**。 在 [**查看報表**] 索引標籤的 [**報表**] 底下，選取 [**團隊使用方式**]。
 2. 在 [**日期範圍**] 底下，選取一個範圍，然後按一下 [**執行報表**]。
 
-    [團隊![管理中心] 中的 [團隊使用方式] 報表的螢幕擷取畫面]，其中包含標注的 [小組系統管理中心] 的(../media/teams-reports-teams-usage-with-callouts.png "[小組使用方式] 報告")
+    ![含標注之 [團隊系統管理中心] 的 [小組使用方式] 報告螢幕擷取畫面](../media/teams-reports-teams-usage-with-callouts.png "含標注之 [團隊系統管理中心] 的 [小組使用方式] 報告螢幕擷取畫面")
 
 ## <a name="interpret-the-report"></a>解讀報表
 

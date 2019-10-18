@@ -1,6 +1,6 @@
 ---
 title: 團隊倒班
-description: 取得管理指導方針, 您必須在小組中設定及管理倒班、排程管理工具。
+description: 取得管理指導方針，您必須在小組中設定及管理倒班、排程管理工具。
 layout: LandingPage
 ms.topic: landing-page
 author: lanachin
@@ -9,20 +9,22 @@ audience: admin
 manager: serdars
 ms.date: 03/29/2019
 ms.service: msteams
-ms.collection: Strat_MT_TeamsAdmin
+ms.collection:
+- M365-collaboration
+- Teams_ITAdmin_FLW
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aef6380f7f9408692a687ceb60564a11b8867511
-ms.sourcegitcommit: a0df7479662b3bea488c19722ad588981f58a5e4
+ms.openlocfilehash: fb63e908e1331977d5da02a7c8bada11313d986c
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "36447889"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569218"
 ---
 # <a name="shifts-for-teams"></a>團隊倒班
 
-團隊會為貴組織中的第一線員工工作者提供他們需要高效溝通和共同作業的工具, 並完成其最佳工作。 您可以在這裡找到設定及管理倒班 (小組中的排程管理工具) 所需的管理指導方針。
+團隊會為貴組織中的第一線員工工作者提供他們需要高效溝通和共同作業的工具，並完成其最佳工作。 您可以在這裡找到設定及管理倒班（小組中的排程管理工具）所需的管理指導方針。
 
 ### <a name="move-from-staffhub-to-shifts-in-teams"></a>從 StaffHub 移至團隊中的倒班
 

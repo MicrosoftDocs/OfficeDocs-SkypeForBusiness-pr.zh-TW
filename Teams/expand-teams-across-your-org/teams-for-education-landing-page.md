@@ -9,21 +9,22 @@ manager: serdars
 audience: admin
 ms.date: 03/01/2019
 ms.service: msteams
-ms.collection: Strat_MT_TeamsAdmin
+ms.collection:
+- M365-collaboration
 search.appverid: MET150
 f1keywords: ms.teamsadmincenter.assignments.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7acbc4df32c7e51fc2bae175410dd68cf7641506
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: b4ee71b414f40895d34172ce214b6ab7f555830a
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235356"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569641"
 ---
 # <a name="teams-for-education"></a>教育團隊
 
-您可以使用團隊、教師與教職員建立共同作業教室、連線至專業學習社區, 以及與學生和教師進行通訊。 您可以在這裡使用系統管理資源, 協助您在學校或機構中順利部署、採用及管理小組。 
+您可以使用團隊、教師與教職員建立共同作業教室、連線至專業學習社區，以及與學生和教師進行通訊。 您可以在這裡使用系統管理資源，協助您在學校或機構中順利部署、採用及管理小組。 
 
 <ul class="panelContent cardsFTitle">
     <li>

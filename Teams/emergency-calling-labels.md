@@ -9,7 +9,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -19,19 +18,19 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 當您使用 Office 365 中的通話方案時, 您可以下載這些標籤以進行緊急通話。
-ms.openlocfilehash: 0a8476fbe671b55136db371b5a83f778c3ba22c0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 當您使用 Office 365 中的通話方案時，您可以下載這些標籤以進行緊急通話。
+ms.openlocfilehash: 408ee0224618be1f5701f0bd16b94d643849d2f9
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36182421"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571865"
 ---
 # <a name="emergency-calling-labels"></a>緊急通話標籤
 
-這些是緊急通話 (911) 免責聲明標籤或與 Avery 5160 位址標籤搭配使用的貼紙 (1 "x 2 5/8"), 如果您想要使用其他類型的標籤, 可以調整其大小。
+這些是緊急通話（911）免責聲明標籤或與 Avery 5160 位址標籤搭配使用的貼紙（1 "x 2 5/8"），如果您想要使用其他類型的標籤，可以調整其大小。
 
-[按一下以下載緊急通話標籤 (zh-cn) 的 .zip](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)檔案。
+[按一下以下載緊急通話標籤（zh-cn）的 .zip](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)檔案。
 
 ## <a name="related-topics"></a>相關主題
 

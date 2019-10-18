@@ -16,17 +16,16 @@ f1keywords:
 - ms.teamsadmincenter.teamschannel.overview
 - ms.teamsadmincenter.teamssettings.overview
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 ms.custom: okr_smb
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b79821dd3a4e36b2a57ec73e0914027cd17da71
-ms.sourcegitcommit: e89c2234fc5aa8f7eeef66ba1ae093a0f7beda85
+ms.openlocfilehash: 604ea944d54e71e72d49505f111606beae5343ea
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "37349255"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570262"
 ---
 > [!NOTE]
 > 請複習下列資訊，瞭解團隊中的聊天、團隊、頻道、& 應用程式。 然後，移至 [[聊天]、[團隊]、[頻道]、& [團隊] 中的應用程式](deploy-chat-teams-channels-microsoft-teams-landing-page.md)，逐步引導您團隊推出的重要決策清單。

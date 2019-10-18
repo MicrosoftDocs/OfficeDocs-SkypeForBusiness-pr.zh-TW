@@ -10,14 +10,15 @@ ms.topic: conceptual
 ms.service: msteams
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
-ms.collection: M365-voice
+ms.collection:
+- M365-collaboration
 description: 本文說明部署 Microsoft 團隊聊天室的下一代 Skype 室系統的相關規劃考慮。
-ms.openlocfilehash: 2c47e95eccc8dcb362a10bd1a6980c2b12384711
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 7225635e1069b880dd78d4d32060f1beb6e7b389
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775103"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573580"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>規劃 Microsoft 團隊聊天室
 

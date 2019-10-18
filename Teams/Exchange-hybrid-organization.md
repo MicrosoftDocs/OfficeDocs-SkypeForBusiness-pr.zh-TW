@@ -12,18 +12,17 @@ description: 瞭解如何設定與 Microsoft 團隊搭配使用的 Exchange 混�
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 68b2fee13668db8ba3986302d58bc16b0fa89080
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: bd18381a8d889a1cebad04234e56bf11def9197e
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235461"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569860"
 ---
 <a name="configure-an-exchange-hybrid-organization-for-use-with-microsoft-teams"></a>設定 Exchange 混合式組織以搭配 Microsoft 團隊使用
 ======================================================================
 
-一般來說, 您不需要設定任何 Exchange Online 功能即可與 Microsoft 團隊搭配使用。 不過, 針對 Exchange 混合式案例, 必須採取一些步驟, 才能確保在 Exchange 伺服器 (內部部署) 與 Exchange Online 之間同步處理群組成員資格。 這包括啟用 Azure AD Connect 中的群組寫回功能, 以及各種初始化腳本:[使用內部部署 Exchange 混合式來設定 Office 365 群組](https://go.microsoft.com/fwlink/?linkid=854389)。
+一般來說，您不需要設定任何 Exchange Online 功能即可與 Microsoft 團隊搭配使用。 不過，針對 Exchange 混合式案例，必須採取一些步驟，才能確保在 Exchange 伺服器（內部部署）與 Exchange Online 之間同步處理群組成員資格。 這包括啟用 Azure AD Connect 中的群組寫回功能，以及各種初始化腳本：[使用內部部署 Exchange 混合式來設定 Office 365 群組](https://go.microsoft.com/fwlink/?linkid=854389)。

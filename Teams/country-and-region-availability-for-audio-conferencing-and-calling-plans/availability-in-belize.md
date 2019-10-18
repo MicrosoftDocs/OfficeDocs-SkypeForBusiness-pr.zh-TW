@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -24,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是適用于商務用 Skype 和 Microsoft 團隊 (貝里斯) 的 Office 365 服務。
-ms.openlocfilehash: 895643537ed76c635c4921835e768c24a917fe9c
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+description: 以下是適用于商務用 Skype 和 Microsoft 團隊（貝里斯）的 Office 365 服務。
+ms.openlocfilehash: 0a0f1de71a64c0bd9c1cd11cd7570442626a5073
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "36183216"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571111"
 ---
 # <a name="availability-in-belize"></a>以貝里斯為可用性
 
-[尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), 或進一步瞭解音訊會議與通話方案的國家/地區可用性。
+[尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或進一步瞭解音訊會議與通話方案的國家/地區可用性。
 
-以下是適用于商務用 Skype 和 Microsoft 團隊 (貝里斯) 的 Office 365 服務。
+以下是適用于商務用 Skype 和 Microsoft 團隊（貝里斯）的 Office 365 服務。
   
 ## <a name="audio-conferencing"></a>音訊會議
 
@@ -71,7 +70,7 @@ ms.locfileid: "36183216"
 |是否有付費電話號碼？  <br/> |不  <br/> |
 |免費提供免付費電話號碼嗎？  <br/> |是的  <br/> |
    
- 如果您想要取得音訊會議、自動語音應答及通話佇列的付費和免付費電話號碼, 請參閱[取得商務用 Skype 和 Microsoft 團隊的服務電話號碼](/microsoftteams/getting-service-phone-numbers)。
+ 如果您想要取得音訊會議、自動語音應答及通話佇列的付費和免付費電話號碼，請參閱[取得商務用 Skype 和 Microsoft 團隊的服務電話號碼](/microsoftteams/getting-service-phone-numbers)。
   
 ## <a name="communications-credits"></a>通訊點數
 
@@ -79,7 +78,7 @@ ms.locfileid: "36183216"
 |:-----|:-----|
 |通訊點數提供了嗎？  <br/> |不  <br/> |
    
-如果您想要設定, 請參閱[為您的組織設定通訊點數](../set-up-communications-credits-for-your-organization.md)。
+如果您想要設定，請參閱[為您的組織設定通訊點數](../set-up-communications-credits-for-your-organization.md)。
   
 ## <a name="related-topics"></a>相關主題
 

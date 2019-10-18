@@ -9,25 +9,24 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150
-description: 最佳做法是確認團隊服務是否健康, 以及其他 Office 365 元件 (例如 Exchange、SharePoint 和商務用 OneDrive)。
+description: 最佳做法是確認團隊服務是否健康，以及其他 Office 365 元件（例如 Exchange、SharePoint 和商務用 OneDrive）。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 975a004908f0db780fdcee1bccc5fcb3fb685676
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 27eefe990ceb1ccad42779cf99cc0d921eea5618
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243151"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571599"
 ---
 <a name="verify-service-health-for-microsoft-teams"></a>驗證 Microsoft 團隊的服務健康情況
 ===========================================
 
-Microsoft 團隊的服務健康情況會顯示在 Office 365 管理入口網站的主版頁面上。 在疑難排解問題之前, 最好先確認團隊服務是否正常。
+Microsoft 團隊的服務健康情況會顯示在 Office 365 管理入口網站的主版頁面上。 在疑難排解問題之前，最好先確認團隊服務是否正常。
 
-此外, 請記住, Microsoft 團隊是以其他 Office 365 服務為基礎, 因此, 當您查看服務健康情況時, 請記得還要檢查 Exchange、SharePoint 和商務用 OneDrive 的狀態。 這些其他服務的服務健康情況問題不會自動表示小組受到影響 (例如, Exchange 中的通訊錄下載無法使用), 但是您應該查看該建議, 以判斷這些受影響的服務是否有任何影響。Microsoft 團隊。
+此外，請記住，Microsoft 團隊是以其他 Office 365 服務為基礎，因此，當您查看服務健康情況時，請記得還要檢查 Exchange、SharePoint 和商務用 OneDrive 的狀態。 這些其他服務的服務健康情況問題不會自動表示小組受到影響（例如，Exchange 中的通訊錄下載無法使用），但是您應該查看該建議，以判斷這些受影響的服務是否有任何影響。Microsoft 團隊。
 
 ![[服務健康情況] 頁面的螢幕擷取畫面。](media/Verify_service_health_for_Microsoft_Teams_image1.png)
 

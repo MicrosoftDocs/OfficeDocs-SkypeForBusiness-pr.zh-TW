@@ -12,55 +12,54 @@ search.appverid: MET150
 description: Microsoft 團隊使用 OneDrive 和 SharePoint 中的設定來控制共用。
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0d9f2060c7b87d58820cf0d90dd8e4dc556297f1
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 8b9eee925a61352ef23b9f7c62fbe6fd58df5122
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243156"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568686"
 ---
 # <a name="sharing-files-in-microsoft-teams"></a>在 Microsoft 團隊中共用檔案
 
 > [!INCLUDE [new feature coming soon](includes/new-feature-coming-soon-article.md)]
 
-[團隊] 中的 [檔案共用] 功能可讓使用者與組織中的其他團隊使用者共用內容。 [在小組中共用] 是以 SharePoint 和 OneDrive 中所設定的設定為基礎, 因此您針對 SharePoint 和 OneDrive 設定的任何內容, 都會同時控制小組中的共用功能。
-![圖表, 指出檔案共用在團隊與商務用 OneDrive 和 SharePoint 之間的運作方式](media/sharing-files-in-teams-image1.png)
+[團隊] 中的 [檔案共用] 功能可讓使用者與組織中的其他團隊使用者共用內容。 [在小組中共用] 是以 SharePoint 和 OneDrive 中所設定的設定為基礎，因此您針對 SharePoint 和 OneDrive 設定的任何內容，都會同時控制小組中的共用功能。
+![圖表，指出檔案共用在團隊與商務用 OneDrive 和 SharePoint 之間的運作方式](media/sharing-files-in-teams-image1.png)
 
-[團隊共用] 可讓使用者執行下列動作:
+[團隊共用] 可讓使用者執行下列動作：
 
 - 從 OneDrive 共用檔案。
 
-- 針對要與其他人共用的檔案, 設定許可權。
+- 針對要與其他人共用的檔案，設定許可權。
 
 - 跨團隊共用檔案。
 
-- 從他們最近存取過的檔案清單中共用檔案 (通常, 這些是使用者最有興趣的共用檔案)。
+- 從他們最近存取過的檔案清單中共用檔案（通常，這些是使用者最有興趣的共用檔案）。
 
-- 在小組中的人員按一下檔案名來開啟檔案時, 請維持在團隊內。
+- 在小組中的人員按一下檔案名來開啟檔案時，請維持在團隊內。
 
-小組縮短了長 SharePoint URL 和指向檔案的瀏覽器 URL。 團隊只會使用檔案名來連結至檔案。 此外, [**取得連結**] 選項已變更為 [**複製連結**], 以消除使用者對檔案的存取權所產生的任何混亂。
+小組縮短了長 SharePoint URL 和指向檔案的瀏覽器 URL。 團隊只會使用檔案名來連結至檔案。 此外，[**取得連結**] 選項已變更為 [**複製連結**]，以消除使用者對檔案的存取權所產生的任何混亂。
 
 ## <a name="configure-sharing-in-onedrive-and-sharepoint"></a>在 OneDrive 和 SharePoint 中設定共用
 
-如需在 OneDrive 和 SharePoint 中共用檔案的詳細資訊, 包括如何設定共用, 以及如何開啟和關閉共用, 請參閱:
+如需在 OneDrive 和 SharePoint 中共用檔案的詳細資訊，包括如何設定共用，以及如何開啟和關閉共用，請參閱：
 
-- [[外部共用] 概覽](https://docs.microsoft.com/sharepoint/external-sharing-overview)-說明使用者共用時所發生的情況, 視其共用和人員的情況而定。
+- [[外部共用] 概覽](https://docs.microsoft.com/sharepoint/external-sharing-overview)-說明使用者共用時所發生的情況，視其共用和人員的情況而定。
 
 - [開啟或關閉外部共用](https://docs.microsoft.com/sharepoint/turn-external-sharing-on-or-off)-說明全域和 SharePoint 系統管理員可以如何變更其組織層級的 SharePoint 和 OneDrive 的共用設定。
 
 - [變更網站的外部共用](https://docs.microsoft.com/sharepoint/change-external-sharing-site)–說明全域和 SharePoint 系統管理員可以如何開啟或關閉網站的外部共用。
 
-- [變更使用者取得共用連結時的預設連結類型](https://docs.microsoft.com/sharepoint/change-default-sharing-link)-說明如何設定預設連結類型, 讓它更具限制性。
+- [變更使用者取得共用連結時的預設連結類型](https://docs.microsoft.com/sharepoint/change-default-sharing-link)-說明如何設定預設連結類型，讓它更具限制性。
 
 ## <a name="more-information"></a>其他資訊
 
 - [SharePoint Online 與商務用 OneDrive 與 Microsoft 團隊互動的方式](sharepoint-onedrive-interact.md)
 
-- [SharePoint 與團隊: 更搭配搭配](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/SharePoint-and-Teams-Better-Together/ba-p/189593)。
+- [SharePoint 與團隊：更搭配搭配](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/SharePoint-and-Teams-Better-Together/ba-p/189593)。
 
 - [共用 OneDrive 檔案和資料夾](https://support.office.com/article/Share-OneDrive-files-and-folders-9fcc2f7d-de0c-4cec-93b0-a82024800c07#OS_Type=OneDrive_-_Business)
 

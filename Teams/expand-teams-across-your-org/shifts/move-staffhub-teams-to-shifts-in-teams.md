@@ -10,20 +10,22 @@ ms.service: msteams
 search.appverid: MET150
 description: 瞭解如何移動 Microsoft StaffHub 小組，並安排資料在 Microsoft 團隊中的變化。
 localization_priority: Normal
-ms.collection: Strat_MT_TeamsAdmin
+ms.collection:
+- M365-collaboration
+- Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5bf9776dbf5a5992354f542436b4904d53d58508
-ms.sourcegitcommit: 6ba9eeb81b7d55ffc319d6d6658d0ecac83c2159
+ms.openlocfilehash: 03131bd9a89ae5f54fc8318b004385de3e32e26e
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "37142042"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569679"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>將 Microsoft StaffHub 小組移至 Microsoft 團隊中的倒班
 
 > [!IMPORTANT]
-> 2019年10月1日生效，Microsoft StaffHub 將停用。 我們正在將 StaffHub 功能組建至 Microsoft 團隊。 今天，小組包含針對排程管理的倒班應用程式，而其他功能則會隨著時間推移而推出。 StaffHub 將會停止針對2019年10月1日的所有使用者使用。 任何試圖開啟 StaffHub 的人，都會顯示一則訊息，讓他們下載小組。 若要深入瞭解，請參閱[Microsoft StaffHub 停用](microsoft-staffhub-to-be-retired.md)。
+> 2019年12月31日生效，Microsoft StaffHub 將停用。 我們正在將 StaffHub 功能組建至 Microsoft 團隊。 今天，小組包含針對排程管理的倒班應用程式，而其他功能則會隨著時間推移而推出。 StaffHub 將會停止針對2019年12月31日的所有使用者使用。 任何試圖開啟 StaffHub 的人，都會顯示一則訊息，讓他們下載小組。 若要深入瞭解，請參閱[Microsoft StaffHub 停用](microsoft-staffhub-to-be-retired.md)。
 
 團隊中的 [倒班] 應用程式提供簡單的方法來管理排程，以及每天發生的 shift 交換與取消轉移的持續流程。 小組成員可以直接在應用程式和其裝置上存取其排程及轉移資訊，以設定其喜好設定、管理其排程，並要求下班時間。
 
@@ -44,13 +46,13 @@ ms.locfileid: "37142042"
 
 ### <a name="when-to-move-to-teams"></a>移至團隊的時機
 
-2019年10月1日生效，StaffHub 將會停用。 我們鼓勵您立即開始使用團隊，並開始從 StaffHub 轉變貴組織的小組和使用者。 在 StaffHub 中，如果 [排程管理] 是最常用的功能，建議您在小組中使用 [倒班] app。
+2019年12月31日生效，StaffHub 將會停用。 我們鼓勵您立即開始使用團隊，並開始從 StaffHub 轉變貴組織的小組和使用者。 在 StaffHub 中，如果 [排程管理] 是最常用的功能，建議您在小組中使用 [倒班] app。
 
 ### <a name="what-is-moved-to-teams"></a>移至團隊的專案
 
 當您移動 StaffHub 小組時，小組成員資格、使用者詳細資料、小組排程及聊天資料都會移至團隊。 當您移動 StaffHub 小組時，檔案不會移動。 如果 StaffHub 小組包含您也想要移至團隊的檔案，您可以在個別步驟中移動檔案。
 
-每個 StaffHub 小組都需要對應的 Office 365 群組。 如果 StaffHub 小組沒有與它相關聯的 Office 365 群組，系統會自動為您建立一個支援轉場的功能。 考慮到團隊與 StaffHub 之間的小組和群組命名差異，您可能會在團隊中看到不同的團隊名稱。
+每個 StaffHub 小組都需要對應的 Office 365 群組。 如果 StaffHub 小組與 Office 365 群組相關聯，當您移動小組時，會保留該群組的隱私權設定。 如果 StaffHub 小組沒有與其相關聯的 Office 365 群組，系統會自動為您建立一個隱私權設定為「私人」的群組，以支援該轉場。  考慮到團隊與 StaffHub 之間的小組和群組命名差異，您可能會在團隊中看到不同的團隊名稱。 
 
 當您將團隊從 StaffHub 轉至團隊時，使用者將無法再存取其在 StaffHub 中的排程，且會重新導向團隊中的時間。 我們建議您在組織中溝通此變更，以減少中斷並鼓勵使用者採納和探索團隊。 如果您有 Azure AD Premium，您可以[執行報告](run-report-to-show-staffhub-usage.md)，以取得貴組織中需要瞭解此變更的 StaffHub 使用者清單。  
 
@@ -74,8 +76,10 @@ ms.locfileid: "37142042"
 - 已針對租使用者中的所有使用者啟用團隊。
 - 已在租使用者啟用 Office 365 群組建立。
 - StaffHub teamId 是有效的。
+- StaffHub 小組至少有一個團隊擁有者。
 - StaffHub 小組包含成員。
 - 所有 StaffHub 小組成員都連結至 Azure AD 帳戶。
+- 所有 StaffHub 小組成員都會獲指派「團隊」授權。  
 
 如果不符合這些先決條件，移動要求將會失敗。
 
@@ -90,7 +94,7 @@ ms.locfileid: "37142042"
 
 ### <a name="install-the-prerelease-version-of-the-staffhub-powershell-module"></a>安裝 StaffHub PowerShell 模組的預發行版本本
 
-如果您尚未安裝，請[安裝 StaffHub PowerShell 模組的預發行版本本](install-the-staffhub-powershell-module.md)。 
+如果您尚未安裝，請[安裝 StaffHub PowerShell 模組的預發行版本本](install-the-staffhub-powershell-module.md)。
 
 您必須已安裝預發行的模組版本，才能將您的 StaffHub 團隊移至團隊。
 
@@ -101,15 +105,21 @@ ms.locfileid: "37142042"
 - 小組擁有者已新增沒有 Azure AD 帳戶的使用者。
 - 小組擁有者受邀使用者加入 StaffHub 小組，而該使用者並未接受邀請。
 
-您可以連結這些使用者的 Azure AD 帳戶。  方法如下。
+這些使用者擁有非作用中的帳戶，並顯示使用者狀態為 [未知]、[受邀] 或 [InviteRejected]。 您可以連結這些使用者的 Azure AD 帳戶。  方法如下。
 
-#### <a name="get-a-list-of-all-users-on-staffhub-teams-that-have-team-members-that-arent-linked-to-an-azure-ad-account"></a>取得 StaffHub 小組中所有使用者的清單，這些使用者的小組成員未連結至 Azure AD 帳戶
+#### <a name="get-a-list-of-all-inactive-accounts-on-staffhub-teams"></a>取得 StaffHub 小組中所有非作用中帳戶的清單
 
-執行下列動作：
+執行下列動作以取得 StaffHub 小組中所有非作用中帳戶的清單，並將清單匯出為 CSV 檔案。
+
 ```
-$StaffHubTeams = Get-StaffHubTeamsForTenant
-$StaffHubTeams[0] = $StaffHubTeams[0] | Where-Object { $_.ManagedBy -eq 'StaffHub' }
-foreach($team in $StaffHubTeams[0]) {Get-StaffHubMember -TeamId $team.Id | where {$_.Email -eq $null -or $_.State -eq "Invited"}}
+$InvitedUsersObject = @()
+$StaffHubTeams = Get-StaffHubTeamsForTenant $StaffHubTeams[0] = $StaffHubTeams[0] | Where-Object { $_.ManagedBy -eq 'StaffHub' }
+foreach($team in $StaffHubTeams[0]) { write-host $team.name $StaffHubUsers = Get-StaffHubMember -TeamId $team.Id | where {$_.State -eq "Invited"}
+foreach($StaffHubUser in $StaffHubUsers) {
+        $InvitedUsersObject  += New-Object PsObject -Property @{         "TeamID"="$($team.Id)"         "TeamName"="$($team.name)"         "MemberID"="$($StaffHubUser.Id)" }
+}
+}
+$InvitedUsersObject | SELECT * $InvitedUsersObject | SELECT * | export-csv InvitedUsers.csv -NoTypeInformation  
 ```
 
 #### <a name="link-the-account"></a>連結帳戶
@@ -124,7 +134,7 @@ foreach($team in $StaffHubTeams[0]) {Get-StaffHubMember -TeamId $team.Id | where
     1. 執行[StaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/Remove-StaffHubMember?view=staffhub-ps) Cmdlet，以從 StaffHub 團隊中移除未預配的帳戶。
     2. 執行[StaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/add-staffhubmember?view=staffhub-ps) Cmdlet，以使用 UPN 將帳戶重新新增到 StaffHub 小組。
 
-- 移除未連結的使用者帳戶。 使用這個選項已不再需要使用者帳戶。
+- 移除非作用中的帳戶。 如果不再需要使用者帳戶，請使用這個選項。
 
 ### <a name="assign-the-firstlineworker-app-setup-policy-to-users"></a>將 FirstlineWorker 應用程式設定原則指派給使用者
 
@@ -179,9 +189,9 @@ Move-StaffHubTeam -TeamId "TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f"
 以下是當您提交要求以將 StaffHub 小組移至團隊時所取得的回應範例。
 
 ```
-    jobId                                      teamId                                      teamAlreadyInMicrosofteams  
-    ---------------------------------------    ----------------------------------------    ---------------------------          
-    JOB_81b1f191-3e19-45ce-ab32-3ef51f100000   TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f   false
+ jobId                                      teamId                                      teamAlreadyInMicrosofteams  
+---------------------------------------    ----------------------------------------    ---------------------------          
+JOB_81b1f191-3e19-45ce-ab32-3ef51f100000   TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f   false
 ```
 
 若要檢查移動要求的狀態，請執行下列動作。
@@ -198,9 +208,9 @@ Get-TeamMigrationJobStatus -JobId "JOB_81b1f191-3e19-45ce-ab32-3ef51f100000"
 以下是您在移動進行中時所取得的回應範例。
 
 ```
-    jobId                                     status       teamId                                     isO365GroupCreated  Error
-    ----------------------------------------  ----------   ----------------------------------------   ------------------  -----    
-    JOB_81b1f191-3e19-45ce-ab32-3ef51f100000  inProgress   TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f  true                none
+jobId                                     status       teamId                                     isO365GroupCreated  Error
+----------------------------------------  ----------   ----------------------------------------   ------------------  -----    
+JOB_81b1f191-3e19-45ce-ab32-3ef51f100000  inProgress   TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f  true                none
 ```
 
 ### <a name="move-files-from-a-staffhub-team-to-teams"></a>將檔案從 StaffHub 小組移至團隊
@@ -259,10 +269,10 @@ foreach ($team in $StaffHubTeams[0]) {Move-StaffHubTeam -TeamId $team.Id}
 針對已移至團隊或已存在於團隊中的任何小組，該作業將會是 "null"，因為工作不需要提交就能移動該小組。
 
 ```
-    jobId                                      teamId                                      teamAlreadyInMicrosofteams  
-    ----------------------------------------   -----------------------------------------   --------------------------         
-    null                                       TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f   true
-    JOB_81b1f191-3e19-45ce-ab32-3ef51f100000   TEAM_81b1f191-3e19-45ce-ab32-3ef51f100000   false
+jobId                                      teamId                                      teamAlreadyInMicrosofteams  
+----------------------------------------   -----------------------------------------   --------------------------         
+null                                       TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f   true
+JOB_81b1f191-3e19-45ce-ab32-3ef51f100000   TEAM_81b1f191-3e19-45ce-ab32-3ef51f100000   false
 ```
 
 #### <a name="move-specific-staffhub-teams"></a>移動特定的 StaffHub 團隊
@@ -305,6 +315,32 @@ Get-StaffHubTeamsForTenant -ManagedBy "Teams"
 使用方式報告可協助您更好地瞭解使用模式，並讓您深入瞭解組織中的訓練和溝通工作的優先順序。 您可以執行報表，顯示整體團隊的使用量、使用者在團隊中執行的活動類型、使用者連線至團隊的方式等等。 如需詳細資訊，請參閱 microsoft[團隊系統管理中心的團隊報告](../../teams-analytics-and-reports/teams-reporting-reference.md)，以及[microsoft 365 系統管理中心的小組活動報告](../../teams-activity-reports.md)。
 
 ## <a name="troubleshooting"></a>疑難排解
+
+**如何取得失敗錯誤的詳細資訊**
+
+執行下列動作，以取得當您嘗試移動小組時所發生的「失敗」錯誤的詳細資訊：
+
+```
+Move-StaffHubTeam -TeamId <TeamId>
+$res = Get-TeamMigrationJobStatus -JobId <JobId>
+$res.Status
+```
+
+您會看到下列其中一個傳回的狀態：成功、失敗、InProgress、排隊。
+
+如果傳回「失敗」，請執行下列動作以取得錯誤的詳細資訊：
+
+```
+$res.Result.Error.Innererror
+```
+
+**當您嘗試移動 StaffHub 小組時，狀態會顯示為「失敗」，而且您會收到「無法為使用者取得適用的 SKU 類別」錯誤訊息**
+
+如果一或多個小組成員沒有團隊授權，可能會發生這種情況。 移至 portal.office.com，找出群組，然後確認群組成員已獲指派「團隊授權」。
+
+**當您嘗試移動 StaffHub 小組時，狀態會顯示為「失敗」，而且您會收到「找不到小組擁有者」的錯誤訊息**
+
+如果與 StaffHub 小組相關聯的群組沒有團隊擁有者，就會發生這種情況。 移至 [portal.office.com]，找到群組，然後將一個或多個擁有者新增至群組。
 
 **當您嘗試將檔案從 StaffHub 移至 [團隊] 時，您會收到「許可權被拒絕」錯誤訊息。**
 
