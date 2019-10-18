@@ -8,7 +8,6 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: lolaj
 search.appverid: MET150
@@ -18,19 +17,19 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: e2fcdb6da76de62e7fca87d822c0c9ecacc68377
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 193bc6b335766da15e28ff805efb0558bdf6ef4d
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236629"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568600"
 ---
 <a name="use-the-network-testing-companion"></a>使用網路測試副
 =================================
 
-商務用 Skype 和 Microsoft 團隊[網路測試副](https://www.powershellgallery.com/packages/NetworkTestingCompanion/1.5.4)能讓您輕鬆地測試網路品質, 以及您連線到商務用 skype Online 或 Microsoft 團隊的連線方式。 您可以輕鬆地解讀結果並與網路系統管理員共用, 以深入瞭解潛在的網路問題。
+商務用 Skype 和 Microsoft 團隊[網路測試副](https://www.powershellgallery.com/packages/NetworkTestingCompanion/1.5.4)能讓您輕鬆地測試網路品質，以及您連線到商務用 skype Online 或 Microsoft 團隊的連線方式。 您可以輕鬆地解讀結果並與網路系統管理員共用，以深入瞭解潛在的網路問題。
 
-您可以在商務用 Skype 或 Microsoft 團隊部署的規劃階段中使用此工具。 如果您目前使用的是團隊或商務用 Skype Online, 您可以使用這個工具來診斷語音品質問題, 或只在撥打電話之前或在您有品質不佳的體驗時檢查網路連線。
+您可以在商務用 Skype 或 Microsoft 團隊部署的規劃階段中使用此工具。 如果您目前使用的是團隊或商務用 Skype Online，您可以使用這個工具來診斷語音品質問題，或只在撥打電話之前或在您有品質不佳的體驗時檢查網路連線。
 
 > [!NOTE]
 > 您不需要 Office 365 訂閱就能下載並安裝網路測試副等。

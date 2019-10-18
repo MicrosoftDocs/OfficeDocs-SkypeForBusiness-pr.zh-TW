@@ -10,12 +10,11 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: 瞭解如何使用及管理組織中的小組原則, 以控制使用者可在團隊和頻道中執行的動作。
+description: 瞭解如何使用及管理組織中的小組原則，以控制使用者可在團隊和頻道中執行的動作。
 f1keywords:
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discoverteams
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.createchannels
@@ -23,32 +22,32 @@ f1keywords:
 - ms.teamsadmincenter.teamsandchannelpolicies.overview
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
-ms.openlocfilehash: 6a562f9a271a9771796fd73424a94f2820c2f966
-ms.sourcegitcommit: 25c30baec1c969eef95b725251a3f4ad3706a19d
+ms.openlocfilehash: 5edaa21f3d9a2438532f8cc7f45f182c105b2f1e
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/24/2019
-ms.locfileid: "36622058"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570132"
 ---
 # <a name="manage-teams-policies-in-microsoft-teams"></a>管理 Microsoft 團隊中的團隊原則
 
-做為管理員, 您可以使用 Microsoft 團隊中的小組原則來控制貴組織中的使用者可在團隊和頻道中進行的動作。 例如, 您可以設定是否允許使用者在搜尋結果和小組圖庫中發現私人小組, 以及是否允許使用者建立私人頻道。
+做為管理員，您可以使用 Microsoft 團隊中的小組原則來控制貴組織中的使用者可在團隊和頻道中進行的動作。 例如，您可以設定是否允許使用者在搜尋結果和小組圖庫中發現私人小組，以及是否允許使用者建立私人頻道。
 
-您可以移至 Microsoft 團隊系統管理中心的**小組** > **小組原則**, 管理小組原則。 您可以使用全域 (組織範圍預設值) 原則, 或建立自訂原則, 並將它們指派給使用者。 除非您建立並指派自訂原則, 否則貴組織中的使用者會自動取得全域原則。
+您可以移至 Microsoft 團隊系統管理中心的**小組** > **小組原則**，管理小組原則。 您可以使用全域（組織範圍預設值）原則，或建立自訂原則，並將它們指派給使用者。 除非您建立並指派自訂原則，否則貴組織中的使用者會自動取得全域原則。
 
-您可以編輯全域原則, 或建立並指派自訂原則。 如果指派給使用者的是自訂原則, 該原則會套用給使用者。 如果使用者未獲指派自訂原則, 則全域原則會套用至使用者。 在您編輯全域原則或指派原則之後, 變更才會生效24小時。
+您可以編輯全域原則，或建立並指派自訂原則。 如果指派給使用者的是自訂原則，該原則會套用給使用者。 如果使用者未獲指派自訂原則，則全域原則會套用至使用者。 在您編輯全域原則或指派原則之後，變更才會生效24小時。
 
 ## <a name="create-a-custom-teams-policy"></a>建立自訂團隊原則
 
-1. 在 Microsoft 團隊系統管理中心的左導覽中, 移至 [**團隊** > **小組原則**]。
+1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**團隊** > **小組原則**]。
 2. 按一下 [**新增**]。
 3. 輸入原則的名稱和描述。
 
     ![團隊原則設定的螢幕擷取畫面](media/teams-policies.png)
-4. 選擇您想要的設定:
+4. 選擇您想要的設定：
 
-- [**探索私人團隊**](https://docs.microsoft.com/MicrosoftTeams/teams-policies#discoverteams): 開啟此設定可讓使用者在搜尋結果和小組圖庫中探索私人小組。
-- [**建立私人頻道**](https://docs.microsoft.com/MicrosoftTeams/teams-policies#createchannels): 開啟此設定可允許使用者建立私人頻道。
+- [**探索私人團隊**](https://docs.microsoft.com/MicrosoftTeams/teams-policies#discoverteams)：開啟此設定可讓使用者在搜尋結果和小組圖庫中探索私人小組。
+- [**建立私人頻道**](https://docs.microsoft.com/MicrosoftTeams/teams-policies#createchannels)：開啟此設定可允許使用者建立私人頻道。
 
 5. 按一下 [**儲存**]。
 
@@ -56,38 +55,38 @@ ms.locfileid: "36622058"
 
 您可以編輯全域原則或您建立的任何自訂原則。
 
-1. 在 Microsoft 團隊系統管理中心的左導覽中, 移至 [**團隊** > **小組原則**]。
-2. 按一下原則名稱左邊的, 然後按一下 [**編輯**], 選取原則。
-3. 開啟或關閉您想要的設定, 然後按一下 [**儲存**]。
+1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**團隊** > **小組原則**]。
+2. 按一下原則名稱左邊的，然後按一下 [**編輯**]，選取原則。
+3. 開啟或關閉您想要的設定，然後按一下 [**儲存**]。
 
 ## <a name="assign-a-custom-teams-policy-to-users"></a>將自訂團隊原則指派給使用者
 
-您可以使用 Microsoft 團隊系統管理中心, 將自訂原則指派給一或多個使用者或商務用 Skype PowerShell 模組, 將自訂原則指派給使用者群組, 例如安全群組或通訊群組。
+您可以使用 Microsoft 團隊系統管理中心，將自訂原則指派給一或多個使用者或商務用 Skype PowerShell 模組，將自訂原則指派給使用者群組，例如安全群組或通訊群組。
 
 ### <a name="assign-a-custom-teams-policy-to-a-user"></a>將自訂團隊原則指派給使用者
 
-1. 在 Microsoft 團隊系統管理中心的左導覽中, 前往 [**使用者**], 然後按一下使用者。
-2. 按一下 [**原則**], 然後在 [**指派的原則**] 旁, 按一下 [**編輯**]。
-3. 在 [**團隊原則**] 底下, 選取您要指派的原則, 然後按一下 [**儲存**]。
+1. 在 Microsoft 團隊系統管理中心的左導覽中，前往 [**使用者**]，然後按一下使用者。
+2. 按一下 [**原則**]，然後在 [**指派的原則**] 旁，按一下 [**編輯**]。
+3. 在 [**團隊原則**] 底下，選取您要指派的原則，然後按一下 [**儲存**]。
 
-若要一次將自訂團隊原則指派給多位使用者, 請參閱[大量編輯團隊使用者設定](edit-user-settings-in-bulk.md)。
+若要一次將自訂團隊原則指派給多位使用者，請參閱[大量編輯團隊使用者設定](edit-user-settings-in-bulk.md)。
 
-或者, 您也可以執行下列動作:
+或者，您也可以執行下列動作：
 
-1. 在 Microsoft 團隊系統管理中心的左導覽中, 移至 [**團隊** > **小組原則**]。
-2. 按一下原則名稱左方, 選取原則。
+1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**團隊** > **小組原則**]。
+2. 按一下原則名稱左方，選取原則。
 3. 選取 [**管理使用者**]。
-4. 在 [**管理使用者**] 窗格中, 依 [顯示名稱] 或 [使用者名稱] 搜尋使用者, 選取名稱, 然後選取 [**新增**]。 針對您要新增的每個使用者重複此步驟。
-5. 完成新增使用者後, 請按一下 [**儲存**]。
+4. 在 [**管理使用者**] 窗格中，依 [顯示名稱] 或 [使用者名稱] 搜尋使用者，選取名稱，然後選取 [**新增**]。 針對您要新增的每個使用者重複此步驟。
+5. 完成新增使用者後，請按一下 [**儲存**]。
 
 ### <a name="assign-a-custom-teams-policy-to-users-in-a-group"></a>將自訂團隊原則指派給群組中的使用者
 
-您可能會想要將自訂團隊原則指派給已識別的多個使用者。 例如, 您可能會想要將原則指派給安全性群組中的所有使用者。 您可以透過連線到 Azure Active Directory PowerShell for Graph 模組及商務用 Skype PowerShell 模組來執行此動作。 如需有關使用 PowerShell 來管理團隊的詳細資訊, 請參閱[團隊 PowerShell 概覽](teams-powershell-overview.md)。
+您可能會想要將自訂團隊原則指派給已識別的多個使用者。 例如，您可能會想要將原則指派給安全性群組中的所有使用者。 您可以透過連線到 Azure Active Directory PowerShell for Graph 模組及商務用 Skype PowerShell 模組來執行此動作。 如需有關使用 PowerShell 來管理團隊的詳細資訊，請參閱[團隊 PowerShell 概覽](teams-powershell-overview.md)。
 
-在這個範例中, 我們會將名為「行銷團隊」原則的小組原則指派給 Contoso 行銷群組中的所有使用者。  
+在這個範例中，我們會將名為「行銷團隊」原則的小組原則指派給 Contoso 行銷群組中的所有使用者。  
 
 > [!NOTE]
-> 請依照在[單一 Windows PowerShell 視窗中連線至 [所有 Office 365 服務]](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)中的步驟, 確認您首先連線至 [圖形模組] 和 [商務用 Skype] powershell 模組的 [Azure Active Directory PowerShell]。
+> 請依照在[單一 Windows PowerShell 視窗中連線至 [所有 Office 365 服務]](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)中的步驟，確認您首先連線至 [圖形模組] 和 [商務用 Skype] powershell 模組的 [Azure Active Directory PowerShell]。
 
 取得特定群組的 GroupObjectId。
 ```
@@ -97,11 +96,11 @@ $group = Get-AzureADGroup -SearchString "Contoso Marketing"
 ```
 $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
 ```
-將群組中的所有使用者指派給特定的團隊原則。 在這個範例中, 它是行銷團隊原則。
+將群組中的所有使用者指派給特定的團隊原則。 在這個範例中，它是行銷團隊原則。
 ```
 $members | ForEach-Object { Grant-CsTeamsChannelsPolicy -PolicyName "Marketing Teams Policy" -Identity $_.EmailAddress}
 ``` 
-根據群組中的成員數目而定, 此命令可能需要幾分鐘的時間執行。
+根據群組中的成員數目而定，此命令可能需要幾分鐘的時間執行。
 
 ## <a name="related-topics"></a>相關主題
 
