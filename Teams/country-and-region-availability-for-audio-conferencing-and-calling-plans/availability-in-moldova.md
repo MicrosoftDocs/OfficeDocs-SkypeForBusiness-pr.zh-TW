@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -24,18 +23,18 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plansfor Business and Microsoft Teams available for Moldova."
-ms.openlocfilehash: fc9f5e561bf81e6ccd7faaa64ec0948721b66640
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 9143517690dc1c06ff4d2fd16d36ca57ce245e11
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "36182982"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571059"
 ---
 # <a name="availability-in-moldova"></a>在摩爾多瓦中的可用性
 
-[尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), 或進一步瞭解音訊會議與通話方案的國家/地區可用性。
+[尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或進一步瞭解音訊會議與通話方案的國家/地區可用性。
 
-以下是適用于商務用 Skype 的 Office 365 服務, 以及適用于摩爾多瓦的 Microsoft 團隊。
+以下是適用于商務用 Skype 的 Office 365 服務，以及適用于摩爾多瓦的 Microsoft 團隊。
   
 ## <a name="audio-conferencing"></a>音訊會議
 
@@ -70,7 +69,7 @@ ms.locfileid: "36182982"
 |是否有付費電話號碼？  <br/> |不  <br/> |
 |免費提供免付費電話號碼嗎？  <br/> |是的  <br/> |
    
- 如果您想要取得音訊會議、自動語音應答及通話佇列的付費和免付費電話號碼, 請參閱[取得商務用 Skype 和 Microsoft 團隊的服務電話號碼](/microsoftteams/getting-service-phone-numbers)。
+ 如果您想要取得音訊會議、自動語音應答及通話佇列的付費和免付費電話號碼，請參閱[取得商務用 Skype 和 Microsoft 團隊的服務電話號碼](/microsoftteams/getting-service-phone-numbers)。
   
 ## <a name="communications-credits"></a>通訊點數
 
@@ -78,7 +77,7 @@ ms.locfileid: "36182982"
 |:-----|:-----|
 |通訊點數提供了嗎？  <br/> |不  <br/> |
    
-如果您想要設定, 請參閱[為您的組織設定通訊點數](../set-up-communications-credits-for-your-organization.md)。
+如果您想要設定，請參閱[為您的組織設定通訊點數](../set-up-communications-credits-for-your-organization.md)。
   
 ## <a name="related-topics"></a>相關主題
 

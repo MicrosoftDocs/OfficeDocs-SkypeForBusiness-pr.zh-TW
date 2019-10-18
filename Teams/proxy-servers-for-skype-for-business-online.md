@@ -9,7 +9,8 @@ ms.assetid: 7acaf2c2-35fa-490f-84cd-822e446e0fc7
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
-ms.collection: M365-collaboration
+ms.collection:
+- M365-collaboration
 audience: Admin
 appliesto:
 - Skype for Business
@@ -19,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: 本文提供與團隊或商務用 Skype 一起使用 proxy 伺服器的相關資訊。
-ms.openlocfilehash: e0733393a40c2d2c2fd62d986a4b4d66d0c2c35f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b06e7aa43dcbcf5aeab9011af72d94460f69cc63
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36182445"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573203"
 ---
 # <a name="proxy-servers-for-teams-or-skype-for-business-online"></a>小組或商務用 Skype Online 的 Proxy 伺服器
 
@@ -32,15 +33,15 @@ ms.locfileid: "36182445"
   
 ## <a name="not-using-a-proxy-server-is-recommended"></a>建議您不要使用 proxy 伺服器
 
-如果是來自 proxy 的小組或商務用 Skype 流量, Microsoft 建議您回避 proxy。 Proxy 不會讓小組或商務用 Skype 更加安全, 因為通訊已經過加密。
+如果是來自 proxy 的小組或商務用 Skype 流量，Microsoft 建議您回避 proxy。 Proxy 不會讓小組或商務用 Skype 更加安全，因為通訊已經過加密。
   
-而且擁有 proxy 可能會造成問題。 效能相關問題可透過延遲與資料包遺失來引進環境。 這類問題將導致在這些團隊或商務用 Skype 案例中使用音訊和影片的負面體驗, 因為即時資料流非常重要。
+而且擁有 proxy 可能會造成問題。 效能相關問題可透過延遲與資料包遺失來引進環境。 這類問題將導致在這些團隊或商務用 Skype 案例中使用音訊和影片的負面體驗，因為即時資料流非常重要。
   
 ## <a name="if-you-need-to-use-a-proxy-server"></a>如果您需要使用 proxy 伺服器
 
-有些組織沒有任何選項可讓小組或商務用 Skype 流量略過。 如果是這種情況, 上述問題必須牢記在前面。
+有些組織沒有任何選項可讓小組或商務用 Skype 流量略過。 如果是這種情況，上述問題必須牢記在前面。
   
-Microsoft 也強烈建議:
+Microsoft 也強烈建議：
   
 - 使用外部 DNS 解析
     
@@ -48,7 +49,7 @@ Microsoft 也強烈建議:
     
 - 允許 UDP 流量
     
-- 遵循我們的網路指導方針中的其他建議:
+- 遵循我們的網路指導方針中的其他建議：
     
   - [商務用 Skype Online 中的媒體質量和網路連線效能](https://support.office.com/en-us/article/Media-Quality-and-Network-Connectivity-Performance-in-Skype-for-Business-Online-5fe3e01b-34cf-44e0-b897-b0b2a83f0917)
     

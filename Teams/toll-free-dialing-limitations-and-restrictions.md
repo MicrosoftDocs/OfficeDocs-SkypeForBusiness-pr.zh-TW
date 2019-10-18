@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -21,21 +20,21 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
-description: 這將協助您瞭解如何在每個國家/地區撥打免付費電話號碼。 在您選取國家/地區之後, 系統會將您帶到特定國家/地區的頁面, 其中包含特定的詳細資料、限制, 以及免費提供免付費服務的服務可用性限制。 [撥號格式] 或 [格式] 會在每個國家/地區顯示所需的存取代碼, 以撥打免付費電話號碼。
-ms.openlocfilehash: 8cba8dc9fffbe843f715445649a78d8a02fba4db
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+description: 這將協助您瞭解如何在每個國家/地區撥打免付費電話號碼。 在您選取國家/地區之後，系統會將您帶到特定國家/地區的頁面，其中包含特定的詳細資料、限制，以及免費提供免付費服務的服務可用性限制。 [撥號格式] 或 [格式] 會在每個國家/地區顯示所需的存取代碼，以撥打免付費電話號碼。
+ms.openlocfilehash: d9cf7bf601237552b397413c65875707157a73c9
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "36182721"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571648"
 ---
 # <a name="toll-free-dialing-limitations-and-restrictions"></a>免付費撥號限制與限制
 
-這將協助您瞭解如何在每個國家或地區撥打免費電話號碼。 選取國家/地區之後, 系統會將您帶到一個頁面, 其中包含特定的詳細資料、限制及限制。 [撥號格式] 或 [格式] 會在每個國家/地區顯示所需的存取代碼, 以撥打免付費電話號碼。
+這將協助您瞭解如何在每個國家或地區撥打免費電話號碼。 選取國家/地區之後，系統會將您帶到一個頁面，其中包含特定的詳細資料、限制及限制。 [撥號格式] 或 [格式] 會在每個國家/地區顯示所需的存取代碼，以撥打免付費電話號碼。
   
-如果您已經準備好, 請選取國家或地區:
+如果您已經準備好，請選取國家或地區：
   
-## <a name="select-your-country-or-region-to-see-the-dialing-codes-limitations-and-restrictions"></a>選取您的國家或地區, 以查看撥號碼、限制與限制。
+## <a name="select-your-country-or-region-to-see-the-dialing-codes-limitations-and-restrictions"></a>選取您的國家或地區，以查看撥號碼、限制與限制。
 
 > [!div class="op_single_selector"]    
 > - [阿根廷](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md)
@@ -48,8 +47,8 @@ ms.locfileid: "36182721"
 > - [汶萊](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brunei.md)
 > - [保加利亞](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bulgaria.md)
 > - [智利](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chile.md)
-> - [中國 (北部)](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinanorth-10-800-714-xxxx-range.md)
-> - [中國 (南部)](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinasouth-10-800-140-xxxx-range.md)
+> - [中國（北部）](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinanorth-10-800-714-xxxx-range.md)
+> - [中國（南部）](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinasouth-10-800-140-xxxx-range.md)
 > - [哥倫比亞](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-columbia.md)
 > - [克羅地亞](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-croatia.md)
 > - [賽普勒斯](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-cyprus.md)
@@ -95,29 +94,29 @@ ms.locfileid: "36182721"
 > - [臺灣](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-taiwan.md)
 > - [泰國](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-thailand.md)
 > - [土耳其](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-turkey.md)
-> - [阿拉伯聯合大公國 (UAE)](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-arab-emirates.md)
+> - [阿拉伯聯合大公國（UAE）](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-arab-emirates.md)
 > - [英國](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-kingdom-u-k.md)
 > - [烏拉圭](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-uruguay.md)
 > - [委內瑞拉](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-venezuela.md)
 > - [民主](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-vietnam.md)
   
-## <a name="here-are-some-important-things-for-you-to-remember-about-toll-free-numbers"></a>以下是您要記住免費電話號碼的一些重要事項:
+## <a name="here-are-some-important-things-for-you-to-remember-about-toll-free-numbers"></a>以下是您要記住免費電話號碼的一些重要事項：
 
-- **免費電話號碼只能在每個國家/地區內運作。** 例如, 您的使用者將無法撥打澳大利亞以外的澳大利亞免付費電話號碼。
+- **免費電話號碼只能在每個國家/地區內運作。** 例如，您的使用者將無法撥打澳大利亞以外的澳大利亞免付費電話號碼。
     
-- **不支援取得或移植通用國際 Freephone 號碼 (UIFN)。**
+- **不支援取得或移植通用國際 Freephone 號碼（UIFN）。**
     
-- **在多個國家/地區, 國家/地區的調壓器/電信機構需要每個免付費免費電話號碼, 才能維持該號碼, 每個月至少要有100分鐘的使用量。**
+- **在多個國家/地區，國家/地區的調壓器/電信機構需要每個免付費免費電話號碼，才能維持該號碼，每個月至少要有100分鐘的使用量。**
     
     > [!NOTE]
-    > 如果您收到免付費電話號碼, 且數位的使用方式不符合這些最低需求, 則調壓/電信機構可能會受到 Microsoft 的要求, 以回收您的數位。 
+    > 如果您收到免付費電話號碼，且數位的使用方式不符合這些最低需求，則調壓/電信機構可能會受到 Microsoft 的要求，以回收您的數位。 
   
-- **有線、固定線路及行動網路存取免付費電話號碼, 可能會受到完全或部分限制。** 撥號格式描述在每個國家/地區內所需的存取代碼, 以使用免費電話號碼撥打電話。
+- **有線、固定線路及行動網路存取免付費電話號碼，可能會受到完全或部分限制。** 撥號格式描述在每個國家/地區內所需的存取代碼，以使用免費電話號碼撥打電話。
     
-- **北美編號方案免費電話號碼:** 北美編號方案的每分鐘工資費用是由來源國家/地區的電話號碼決定。 從美國地圖到定義為「北美」的工資, 每分鐘免費通話的工資率。 不過, 來自其他北美國家/地區 (例如加拿大、波多黎各等) 的通話是免費的。
+- **北美編號方案免費電話號碼：** 北美編號方案的每分鐘工資費用是由來源國家/地區的電話號碼決定。 從美國地圖到定義為「北美」的工資，每分鐘免費通話的工資率。 不過，來自其他北美國家/地區（例如加拿大、波多黎各等）的通話是免費的。
 
 > [!NOTE]
-> 如果您需要取得更多的電話號碼, 請[聯絡商務產品支援-系統管理協助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+> 如果您需要取得更多的電話號碼，請[聯絡商務產品支援-系統管理協助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
     
 ## <a name="related-topics"></a>相關主題
 [取得商務用 Skype 和 Microsoft 團隊的服務電話號碼](/microsoftteams/getting-service-phone-numbers)

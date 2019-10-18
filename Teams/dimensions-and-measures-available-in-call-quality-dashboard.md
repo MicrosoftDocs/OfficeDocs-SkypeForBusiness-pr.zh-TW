@@ -8,7 +8,8 @@ ms.topic: conceptual
 ms.assetid: e97aeeee-9e43-416f-b433-9cdd63d8874b
 ms.tgt.pltfrm: cloud
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+ms.collection:
+- M365-voice
 search.appverid: MET150
 audience: Admin
 appliesto:
@@ -18,12 +19,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom: Reporting
 description: 取得 Microsoft 團隊與商務用 Skype Online 的通話品質儀表板所使用之尺寸與度量的詳細資訊。
-ms.openlocfilehash: 7683ebdf4743db1ad8798817c24fe926bd959815
-ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
+ms.openlocfilehash: 6dcbf7b415e2c337968e5c2c3af09efcb02be0a5
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "37328403"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572253"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard"></a>[通話品質] 儀表板中提供的尺寸與測量
 
@@ -392,8 +393,7 @@ CQD 中的許多尺寸與測量值標示為第一或第二筆。 下列邏輯會
 | 第一個端點產品名稱|String|第一個端點（無論是商務用 Skype 或 Microsoft 團隊）的產品名稱。|
 | 第二個端點產品名稱|String|第二個端點（無論是商務用 Skype 或 Microsoft 團隊）的產品名稱。|
 | 第一個 UserType|列舉字串|第一個端點的使用者類型。 <br/> **可能的值：** 使用者、伺服器、匿名、應用程式、PSTN、語音信箱、未知 <br/> <br/>**未知**-如果無法根據收到的資訊來判斷 UserType，則會使用預設值。 <br/>**Pstn** -pstn 使用者。 <br/>[**匿名**]-[團隊使用者] 或 [商務用 Skype] 訪客。 <br/>**應用程式**-bot。 <br/>**使用者**-AAD 使用者，可以是商務用 Skype 使用者或團隊使用者。 <br/>**伺服器**-適用于會議，至少有一側是伺服器。 <br/>**語音信箱**-由語音信箱服務接聽端點。||
-| 第二 UserType|列舉字串|第二個端點上的使用者類型。 <br/> **可能的值：** 使用者、伺服器、匿名、應用程式、PSTN、語音信箱、未知 <br/> <br/>**未知**-如果無法根據收到的資訊來判斷 UserType，則會使用預設值。 <br/>**Pstn** -pstn 使用者。 <br/>[**匿名**]-[團隊使用者] 或 [商務用 Skype] 訪客。 <br/>**應用程式**-bot。 <br/>**使用者**-AAD 使用者，可以是商務用 Skype 使用者或團隊使用者。 <br/>**伺服器**-適用于會議，至少有一側是伺服器。
-<br/>**語音信箱**-由語音信箱服務接聽端點。||
+| 第二 UserType|列舉字串|第二個端點上的使用者類型。 <br/> **可能的值：** 使用者、伺服器、匿名、應用程式、PSTN、語音信箱、未知 <br/> <br/>**未知**-如果無法根據收到的資訊來判斷 UserType，則會使用預設值。 <br/>**Pstn** -pstn 使用者。 <br/>[**匿名**]-[團隊使用者] 或 [商務用 Skype] 訪客。 <br/>**應用程式**-bot。 <br/>**使用者**-AAD 使用者，可以是商務用 Skype 使用者或團隊使用者。 <br/>**伺服器**-適用于會議，至少有一側是伺服器。 <br/>**語音信箱**-由語音信箱服務接聽端點。||
 |**Datapair**|||
 | 網路連線詳細資料對  | 列舉對 <br/>**可能的值：** <br/> wifi： wifi <br/> wifi：有線 <br/> 有線： wifi <br/> 有線：有線 <br/> MobileBB : MobileBB <br/> MobileBB：其他 <br/> MobileBB：隧道 <br/> MobileBB： wifi <br/> MobileBB：有線 <br/> 其他：其他 <br/> 其他： wifi <br/> 其他：有線 <br/> 隧道：隧道 <br/> 隧道： wifi <br/> 隧道：有線 <br/> : MobileBB <br/> ： [其他] <br/> ：隧道 <br/> ： wifi <br/> ：有線 <br/> :  | 第一和第二個端點的網路連線詳細資料對。  | &bull;端點網路連線類型未知。 如果無法建立通話，可能會發生這種情況。   |
 | 使用者代理類別對  | 列舉對  | 第一和第二個端點的使用者代理類別對。 <br/> **範例值：** AV-MCU： OC  | &bull;端點使用者代理程式不是已知類型  |

@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -24,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是適用于商務用 Skype 的 Office 365 服務, 以及適用于澳大利亞的 Microsoft 團隊。
-ms.openlocfilehash: 64678a87cec4424cbe565f2f8df5e7e2dddf9e4c
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+description: 以下是適用于商務用 Skype 的 Office 365 服務，以及適用于澳大利亞的 Microsoft 團隊。
+ms.openlocfilehash: 984450b96747db74966ae9f0880cd96b9eedb2b4
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "36183240"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37562703"
 ---
 # <a name="availability-in-australia"></a>澳大利亞的可用性
 
-[尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), 或進一步瞭解音訊會議與通話方案的國家/地區可用性。
+[尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或進一步瞭解音訊會議與通話方案的國家/地區可用性。
 
-以下是適用于商務用 Skype 的 Office 365 服務, 以及適用于澳大利亞的 Microsoft 團隊。
+以下是適用于商務用 Skype 的 Office 365 服務，以及適用于澳大利亞的 Microsoft 團隊。
 
 ## <a name="audio-conferencing"></a>音訊會議
 
@@ -57,18 +56,18 @@ ms.locfileid: "36183240"
 
 ## <a name="calling-plans"></a>通話方案
 > [!IMPORTANT]
-> 僅可透過適用于澳大利亞的租使用者使用 Telstra。 如需詳細資訊, 請參閱[Telstra Office 365 的通話](https://aka.ms/TelstraVoicePlan)。
+> 僅可透過適用于澳大利亞的租使用者使用 Telstra。 如需詳細資訊，請參閱[Telstra Office 365 的通話](https://aka.ms/TelstraVoicePlan)。
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
-|通話方案可供購買嗎？  <br/> |是, 請參閱[Telstra Office 365 通話](https://aka.ms/TelstraVoicePlan)。  <br/> |
+|通話方案可供購買嗎？  <br/> |是，請參閱[Telstra Office 365 通話](https://aka.ms/TelstraVoicePlan)。  <br/> |
 |通話方案可用的分鐘數  <br/> |請參閱[Office 365 的 Telstra 通話](https://aka.ms/TelstraVoicePlan)。 <br/> |
 |可以撥出電話至嗎？  <br/> |請參閱[Office 365 的 Telstra 通話](https://aka.ms/TelstraVoicePlan)。 <br/> |
 
 > [!IMPORTANT]
-> 若要刪除澳大利亞訂閱者號碼 (由 Telstra 提供), 請直接與 Telstra。
-> 若要更新澳大利亞訂閱者號碼的緊急位址資訊 (由 Telstra 提供), 請直接與 Telstra。
-> 如需詳細資訊, 請參閱[Telstra Office 365 的通話](https://aka.ms/TelstraVoicePlan)。
+> 若要刪除澳大利亞訂閱者號碼（由 Telstra 提供），請直接與 Telstra。
+> 若要更新澳大利亞訂閱者號碼的緊急位址資訊（由 Telstra 提供），請直接與 Telstra。
+> 如需詳細資訊，請參閱[Telstra Office 365 的通話](https://aka.ms/TelstraVoicePlan)。
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服務的付費和免付費電話號碼
 
@@ -78,7 +77,7 @@ ms.locfileid: "36183240"
 |是否有付費電話號碼？  <br/> |是的  <br/> |
 |免費提供免付費電話號碼嗎？  <br/> |是的  <br/> |
 
-如果您想要取得自動語音應答的免付費電話號碼和免付費電話號碼,[請](mailto:ptnapac@microsoft.com)與我們聯繫或音訊會議服務號碼。
+如果您想要取得自動語音應答的免付費電話號碼和免付費電話號碼，[請](mailto:ptnapac@microsoft.com)與我們聯繫或音訊會議服務號碼。
 
 ## <a name="communications-credits"></a>通訊點數
 
@@ -86,7 +85,7 @@ ms.locfileid: "36183240"
 |:-----|:-----|
 |通訊點數提供了嗎？  <br/> |是的  <br/> |
    
-如果您想要設定, 請參閱[為您的組織設定通訊點數](../set-up-communications-credits-for-your-organization.md)。
+如果您想要設定，請參閱[為您的組織設定通訊點數](../set-up-communications-credits-for-your-organization.md)。
   
 ## <a name="related-topics"></a>相關主題
 

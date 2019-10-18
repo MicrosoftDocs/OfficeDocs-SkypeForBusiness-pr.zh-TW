@@ -8,36 +8,33 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 audience: admin
-description: 當您在團隊或商務用 Skype 中執行雲端語音功能時, 請使用範本來傳送電子郵件給使用者。
+description: 當您在團隊或商務用 Skype 中執行雲端語音功能時，請使用範本來傳送電子郵件給使用者。
 localization_priority: Normal
 search.appverid: MET150
-ms.collection:
-- Teams_ITAdmin_PracticalGuidance
-- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8a1885b04766ed5c6da271becc2beb58a7d45ca0
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 7f5793678df25f353b2400719fa8d64c3a0acd78
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237463"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573229"
 ---
 # <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>協助使用者採用新的線上電話系統
 
-電話可以是使用者的生命線。 從傳統的電話系統切換到線上電話系統, 會對使用者的運作方式有重大變更, 而且可能會對生產力造成負面影響。 您需要花時間透過這項變更來通知、引導及支援使用者, 這可以協助確保使用者體驗良好, 並最大化投資回報。
+電話可以是使用者的生命線。 從傳統的電話系統切換到線上電話系統，會對使用者的運作方式有重大變更，而且可能會對生產力造成負面影響。 您需要花時間透過這項變更來通知、引導及支援使用者，這可以協助確保使用者體驗良好，並最大化投資回報。
 
-本文包含可自訂的電子郵件範本, 可協助使用者瞭解他們的新電話系統。 自訂並傳送適當的電子郵件, 以與您的特定語音部署相符。 我們使用括弧來指示章節, 以輕鬆進行個人化, 但我們建議您新增組織特定的訊息, 讓您的使用者與您的使用者最有關系。 如果適用于您的部署, 請將「團隊」的所有參考全部取代為「商務用 Skype」。
+本文包含可自訂的電子郵件範本，可協助使用者瞭解他們的新電話系統。 自訂並傳送適當的電子郵件，以與您的特定語音部署相符。 我們使用括弧來指示章節，以輕鬆進行個人化，但我們建議您新增組織特定的訊息，讓您的使用者與您的使用者最有關系。 如果適用于您的部署，請將「團隊」的所有參考全部取代為「商務用 Skype」。
 
-## <a name="email-number-1-send-three-weeks-before-launch"></a>電子郵件編號 1: 啟動前三周傳送
+## <a name="email-number-1-send-three-weeks-before-launch"></a>電子郵件編號1：啟動前三周傳送
 
-主題行:
+主題行：
 
 ```
 IMPORTANT ANNOUNCEMENT about your office desk phone
 ```
 
-電子郵件的主體:
+電子郵件的主體：
 
 ```
 Instant messaging and online meetings have become a common way to communicate
@@ -94,15 +91,15 @@ If you have questions concerning this change, contact <INSERT NAME/EMAIL>.
 <INSERT NAME OF EXECUTIVE SPONSOR>
 ```
 
-## <a name="email-number-2-send-one-week-before-launch"></a>電子郵件編號 2: 啟動前先傳送一周
+## <a name="email-number-2-send-one-week-before-launch"></a>電子郵件編號2：啟動前先傳送一周
 
-主題行:
+主題行：
 
 ```
 ACTION REQUESTED: Are you ready for your new phone system?
 ```
 
-電子郵件的主體:
+電子郵件的主體：
 
 ```
 Your new phone calling capabilities are almost here. As explained in our initial
@@ -138,15 +135,15 @@ Regards,
 <INSERT NAME OF DEPARTMENT MANAGER>
 ```
 
-## <a name="email-number-3-send-on-launch-day"></a>電子郵件編號 3: 啟動日時傳送
+## <a name="email-number-3-send-on-launch-day"></a>電子郵件編號3：啟動日時傳送
 
-主題行:
+主題行：
 
 ```
 IMPORTANT NOTICE: Your new phone system is live
 ```
 
-電子郵件的主體:
+電子郵件的主體：
 
 ```
 Welcome to your new phone system. Your Microsoft Teams application
@@ -175,15 +172,15 @@ Regards,
 <INSERT NAME OF DEPARTMENT MANAGER OR EXECUTIVE SPONSOR>
 ```
 
-## <a name="email-number-4-send-two-weeks-after-launch"></a>電子郵件號碼 4: 啟動後傳送兩周
+## <a name="email-number-4-send-two-weeks-after-launch"></a>電子郵件號碼4：啟動後傳送兩周
 
-主題行:
+主題行：
 
 ```
 FEEDBACK REQUESTED: Your new phone system
 ```
 
-電子郵件的主體:
+電子郵件的主體：
 
 ```
 It's been a few weeks since you started using Microsoft Teams to

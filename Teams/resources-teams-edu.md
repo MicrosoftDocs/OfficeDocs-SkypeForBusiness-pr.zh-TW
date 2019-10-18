@@ -8,27 +8,26 @@ ms.reviewer: ''
 ms.topic: reference
 ms.service: msteams
 audience: admin
-description: 小組資源清單, 便於 IT 管理員在教育中取得。
+description: 小組資源清單，便於 IT 管理員在教育中取得。
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9ec791d3e5d712f1e9a35b23e5e89112aeca8a12
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 6eb86cd3679b6cd90b646add994760c4d41aa46d
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243688"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569981"
 ---
 <a name="microsoft-teams-resources-for-education-admins"></a>適用于教育系統管理員的 Microsoft 團隊資源
 ==============================================
 
 ## <a name="adoption-content"></a>採用內容
 
-使用學校的資訊和標誌建立自訂的電子郵件訊息、海報及海報。 或者, 您可以使用 [現成的列印海報]、[傳單] 及其他講義, 讓您的組織對 Microsoft 團隊感到興奮。
+使用學校的資訊和標誌建立自訂的電子郵件訊息、海報及海報。 或者，您可以使用 [現成的列印海報]、[傳單] 及其他講義，讓您的組織對 Microsoft 團隊感到興奮。
 
 |可自訂的電子郵件範本 |         |
 |---------|---------|
@@ -48,9 +47,9 @@ ms.locfileid: "36243688"
 
 ## <a name="call-to-action"></a>行動動作
 
-- 查看我們的[Microsoft 團隊互動示範](https://teamsdemo.office.com/)(完成5分鐘)
-- 在[microsoft 365 系統管理中心](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns)開啟 microsoft 團隊 (以 Office 365 系統管理員身分登入)
-- 下載團隊用戶端:[在您的所有裝置上取得團隊](https://teams.microsoft.com/downloads)
+- 查看我們的[Microsoft 團隊互動示範](https://teamsdemo.office.com/)（完成5分鐘）
+- 在[microsoft 365 系統管理中心](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns)開啟 microsoft 團隊（以 Office 365 系統管理員身分登入）
+- 下載團隊用戶端：[在您的所有裝置上取得團隊](https://teams.microsoft.com/downloads)
 - 深入瞭解 Office 365 教育版說明[中心](https://support.office.com/education)
 
 ## <a name="additional-resources"></a>其他資源

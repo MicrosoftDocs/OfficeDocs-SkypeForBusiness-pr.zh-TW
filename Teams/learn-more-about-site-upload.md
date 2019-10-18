@@ -1,5 +1,5 @@
 ---
-title: 新增及更新位置資料
+title: 新增及更新報告標籤
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
@@ -10,9 +10,8 @@ ms.reviewer: ''
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
-description: 瞭解如何上傳至網站。
+description: 瞭解如何上傳包含實體位置清單及相關子網的文字檔，以做為通話分析和通話品質儀表板報表的報告標籤。
 ms.custom:
 - NewAdminCenter_Update
 f1keywords:
@@ -21,33 +20,33 @@ f1keywords:
 - ms.teamsadmincenter.locations.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bed4487a944bafb8092f63fb4582b165375a1e83
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 0519af0f9c26260f23e2a0dd9b0c60a676aa5766
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36484023"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572033"
 ---
-<a name="adding-and-updating-locations-data"></a>新增及更新位置資料
+<a name="add-and-update-reporting-labels"></a>新增及更新報告標籤
 ============================
 
-位置是在您的組織中用來指出辦公室、建築物或組織網站的物理位置。 [位置] 頁面可讓系統管理員提供一個文字檔 (.csv 或 tsv), 其中包含物理位置的清單及其相關聯的網路子網。 此檔案是由 [通話分析] 和 [通話品質儀表板] 用來產生報告。 當客戶上傳其子網對應時, 這些服務所提供的報告也會包含位置名稱, 讓報告更容易理解, 並用於修正任何潛在問題。
+您的組織會使用報表標籤來指示辦公室、建築物或組織網站的物理位置。 Microsoft [團隊管理中心] 中的 [報告標籤] 頁面可讓您提供內含物理位置及其相關網路子網清單的文字檔（.csv 或 tsv）。 此檔案是由 [通話分析] 和 [通話品質儀表板] 用來產生報告。 當您上傳子網對應時，這些服務所提供的報告也會包含位置名稱，讓報告更容易理解，並用於修正任何潛在問題。
 
-您所提供的位置資料是單一資料結構, 目前沒有介面可供對位置資料進行個別編輯。 
+您所提供的報表標籤和位置資料是單一資料結構，目前沒有可用來對資料進行個別編輯的介面。
 
 **若要編輯子網和位置的表格**
 
-1. 按一下 [**取代位置資料**]。
-2. 在 [**取代位置資料**] 窗格中, 按一下 [**選取**檔案], 然後流覽到並上傳已編輯的 .csv 或 tsv 檔案。 
-3. 按一下 **[上傳**]。 
-
+1. 在 Microsoft [團隊管理中心] 的左導覽中，按一下 [**位置** > **報告標籤**]。
+2. 按一下 [**取代位置資料**]。
+3. 在 [**取代位置資料**] 窗格中，按一下 [**選取**檔案]，然後流覽到並上傳已編輯的 .csv 或 tsv 檔案。
+4. 按一下 **[上傳**]。
 
 您可以在[這裡](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true)下載範例範本。
 
-您可以使用下列範例來協助您建立資料檔案。 
+使用下列範例來協助您建立資料檔案。
 
 > [!IMPORTANT]
-> 您的資料檔案不應該包含欄標題 (例如 [網路]、[網路名稱] 等等)。 此處只是用來提供資訊的目的。 </br>
+> 您的資料檔案不應該包含欄標題（例如 [網路]、[網路名稱] 等等）。 此處只是用來提供資訊的目的。 <br>
 
 |局域網|網路名稱|網路範圍|建築物名稱|擁有權類型|建築物類型|建立 Office 類型|座|郵遞區號|國家|市|國家|在 Corp 內|快速路線|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|
@@ -56,9 +55,7 @@ ms.locfileid: "36484023"
 |10.0.131.0 |SVC-1|32|USCAMTV001|Contoso 租賃 RE&F|辦事處|重新&F|山地視圖|94043|一下|頒發|一下|sr-1|sr-1|
 |10.0.132.0 |SVC-1|32|USCAMTV001|Contoso 租賃 RE&F|辦事處|重新&F|山地視圖|94043|一下|頒發|一下|sr-1|sr-1|
 
-
-如需格式化資料檔案的詳細資訊, 請參閱[租使用者資料檔案格式及建立資料檔案結構](turning-on-and-using-call-quality-dashboard.md#tenant-data-file-format-and-structure)。
-
+如需格式化資料檔案的詳細資訊，請參閱[租使用者資料檔案格式及建立資料檔案結構](turning-on-and-using-call-quality-dashboard.md#tenant-data-file-format-and-structure)。
 
 ## <a name="related-topics"></a>相關主題
 

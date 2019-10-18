@@ -9,32 +9,33 @@ ms.topic: reference
 ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150
-ms.collection: Teams_ITAdmin_Help
+ms.collection:
+- M365-voice
 appliesto:
 - Microsoft Teams
-description: 請閱讀本文, 找出直接路由的媒體路徑國家/地區代碼。
-ms.openlocfilehash: 5956f538df5aefc356e960f8eb2817602ef99884
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 請閱讀本文，找出直接路由的媒體路徑國家/地區代碼。
+ms.openlocfilehash: 8607b6720104e743243851ad7edac20811ecd29f
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237454"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572209"
 ---
 # <a name="direct-routing-media-path-country-codes"></a>直接路由媒體路徑國家/地區代碼
 
-選擇媒體的路由路徑時, [直接路由] 預設會根據會話邊界控制器 (SBC) 的公用 IP 位址來指派資料中心, 且總是選取最接近 SBC 資料中心的路徑。
+選擇媒體的路由路徑時，[直接路由] 預設會根據會話邊界控制器（SBC）的公用 IP 位址來指派資料中心，且總是選取最接近 SBC 資料中心的路徑。
 
-不過, 在某些情況下, 預設媒體路徑可能不是最佳的媒體路徑;例如, 來自美國範圍的公用 IP 可能會指派給位於歐洲的 SBC。 
+不過，在某些情況下，預設媒體路徑可能不是最佳的媒體路徑;例如，來自美國範圍的公用 IP 可能會指派給位於歐洲的 SBC。 
 
-透過將-MediaRelayRoutingLocationOverride 參數與新的-CsOnlinePSTNGateway 和 Set CsOnlinePSTNGateway Cmdlet 結合使用, 您就可以指定媒體流量的喜好區域。 例如, 下列命令指定 [喜好] 區域為 [德國]:
+透過將-MediaRelayRoutingLocationOverride 參數與新的-CsOnlinePSTNGateway 和 Set CsOnlinePSTNGateway Cmdlet 結合使用，您就可以指定媒體流量的喜好區域。 例如，下列命令指定 [喜好] 區域為 [德國]：
 
 CSOnlinePSTNGateway-身分識別 sbc1.contoso.com – MediaRelayRoutingLocationOverride DE 
 
-請注意, 如果通話記錄清楚指出媒體路徑中資料中心的預設指派不是使用最接近 SBC 資料中心的路徑, Microsoft 只建議設定此參數。 
+請注意，如果通話記錄清楚指出媒體路徑中資料中心的預設指派不是使用最接近 SBC 資料中心的路徑，Microsoft 只建議設定此參數。 
  
 ## <a name="country-code-reference-table"></a>國家/地區代碼參考資料表
 
-下表顯示-MediaRelayRoutingLocationOverride 參數的國家/地區代碼值:
+下表顯示-MediaRelayRoutingLocationOverride 參數的國家/地區代碼值：
 
 | 國家         | 原始程式碼 
 |-----------------|--------------------|
@@ -86,11 +87,11 @@ CSOnlinePSTNGateway-身分識別 sbc1.contoso.com – MediaRelayRoutingLocationO
 | 智利           | CL |
 | 業務員           | CN |
 | 聖誕島 | 陣列 |
-| 科科斯 (奇林) 群島 | 單 |
+| 科科斯（奇林）群島 | 單 |
 | 哥倫比亞        | 條 |
 | 群島         | 公里 |
 | 剛果           | CG |
-| 剛果 (金)     | CD |
+| 剛果（金）     | CD |
 | 庫擁有群島    | CK |
 | 哥斯大黎加      | CR |
 | 象牙海岸   | CI |

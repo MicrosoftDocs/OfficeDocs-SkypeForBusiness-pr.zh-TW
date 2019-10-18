@@ -10,17 +10,16 @@ ms.reviewer: svemu
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 description: 瞭解如何使用 Microsoft 團隊系統管理中心中的 [團隊裝置使用量] 報告，以瞭解貴組織中的使用者如何連線至團隊。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a1da28ccda6394a2e88685132150516cfed2c7fc
-ms.sourcegitcommit: f1c4255b52576c602d528c580941404eb547bc78
+ms.openlocfilehash: c961b6c5897d0c494d0461a3533cae63fa613d41
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "37131622"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568394"
 ---
 # <a name="microsoft-teams-device-usage-report"></a>Microsoft 團隊裝置使用量報告
 
@@ -31,7 +30,7 @@ Microsoft 團隊系統管理中心的 [小組裝置使用量] 報告可提供使
 1. 在 Microsoft [團隊管理中心] 的左導覽中，按一下 [**分析] & 報告** > **使用方式報告**。 在 [**查看報表**] 索引標籤的 [**報表**] 底下，選取 [**團隊裝置使用方式**]。
 2. 在 [**日期範圍**] 底下，選取一個範圍，然後按一下 [**執行報表**]。
 
-    [小組系統管理中心] 的![[小組裝置使用方式] 報告螢幕擷取畫面（含標注]）[小組系統管理中心] 的(../media/teams-reports-device-usage-with-callouts.png "[小組裝置使用方式] 報告螢幕擷取畫面（含標注")）
+    ![[小組系統管理中心] 的 [小組裝置使用方式] 報告螢幕擷取畫面（含標注）](../media/teams-reports-device-usage-with-callouts.png "[小組系統管理中心] 的 [小組裝置使用方式] 報告螢幕擷取畫面（含標注）")
 
 ## <a name="interpret-the-report"></a>解讀報表
 

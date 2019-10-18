@@ -8,7 +8,6 @@ ms.topic: reference
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 audience: Admin
 appliesto:
@@ -18,16 +17,16 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 瞭解團隊訊息中的優先順序通知。
-ms.openlocfilehash: d4353ae5a4fbddd5a818dc73e3d7926ee4a8ebf3
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: d5ef07a2aff31281d8d0429c74751bf53ec7e556
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242545"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572440"
 ---
 # <a name="messaging-policies-licensing"></a>郵件服務原則授權
 
-從2020年1月1日起, 已授權的使用者將能夠根據訂閱的期限, 以優先順序通知傳送緊急郵件。 IT 系統管理員會針對優先順序通知的使用提供報告, 以支援適當的使用者授權。 無論授權為何, 使用者都能透過優先順序通知接收不受限制的緊急訊息。 
+從2020年1月1日起，已授權的使用者將能夠根據訂閱的期限，以優先順序通知傳送緊急郵件。 IT 系統管理員會針對優先順序通知的使用提供報告，以支援適當的使用者授權。 無論授權為何，使用者都能透過優先順序通知接收不受限制的緊急訊息。 
 
 |區段| |每個月最多傳送5封郵件| 每個使用者傳送不含限制的郵件|
 |---|---|---|---|

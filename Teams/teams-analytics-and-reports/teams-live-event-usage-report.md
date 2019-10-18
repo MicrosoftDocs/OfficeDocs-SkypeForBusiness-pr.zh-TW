@@ -10,17 +10,16 @@ ms.reviewer: svemu
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 description: 瞭解如何使用 Microsoft 團隊系統管理中心中的 [團隊即時事件使用量] 報告，以取得貴組織中的小組即時事件活動的概覽。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad0ecd27df1f7bccd9a451f2581d55e5c335b1e0
-ms.sourcegitcommit: f1c4255b52576c602d528c580941404eb547bc78
+ms.openlocfilehash: 3c391370e757aedcf9ede889fc46f165cfc636f4
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "37131611"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571144"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Microsoft 團隊即時事件使用量報告
 
@@ -33,7 +32,7 @@ Microsoft 團隊系統管理中心的 [小組即時事件使用量] 報告會顯
 3. 可選在 [**召集人**] 底下，您可以選擇只顯示由特定使用者組織的即時事件。
 4. 按一下 [**執行報表**]。  
 
-    ![[小組管理中心] 中的 [小組即時事件使用量] 報告螢幕擷取畫面（含標注]）(../media/teams-live-event-usage-report-with-callouts.png "[小組管理中心] 中的 [小組即時事件使用量] 報告螢幕擷取畫面（含標注")）
+    ![[小組管理中心] 中的 [小組即時事件使用量] 報告螢幕擷取畫面（含標注）](../media/teams-live-event-usage-report-with-callouts.png "[小組管理中心] 中的 [小組即時事件使用量] 報告螢幕擷取畫面（含標注）")
 
 ## <a name="interpret-the-report"></a>解讀報表
 

@@ -9,17 +9,16 @@ ms.topic: quickstart
 ms.service: msteams
 localization_priority: Normal
 ms.collection:
-- Strat_SB_Admin
-- M365-voice
+- M365-collaboration
 ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: 本文將說明如何使用 Azure 監視器，以整合的端對端方式部署 Microsoft 團隊機房裝置的管理。
-ms.openlocfilehash: 4be57f97ef3b0813afef2aefd70c551ee50422ee
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 12936113a951f90bb1a3bed72f71d09f1f72ccd9
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36774681"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569937"
 ---
 # <a name="deploy-microsoft-teams-rooms-management-with-azure-monitor"></a>使用 Azure 監視器部署 Microsoft 團隊聊天室管理
 
@@ -64,7 +63,7 @@ Log Analytics 只會收集設定中指定的 Windows 事件記錄事件。 針�
 
 若要設定記錄分析以收集 Microsoft 團隊聊天室事件，請參閱[Azure 監視器中的 Windows 事件記錄資料來源](https://docs.microsoft.com/azure/azure-monitor/platform/data-sources-windows-events)
 
-[![事件記錄] 設定的螢幕擷取畫面](../media/Deploy-Azure-Monitor-2.png "事件記錄檔設定")
+![[事件記錄] 設定的螢幕擷取畫面](../media/Deploy-Azure-Monitor-2.png "事件記錄檔設定")
 
 > [!IMPORTANT]
 > 設定 Windows 事件記錄設定，並輸入 [ **Skype 室系統**] 作為事件記錄名稱，然後選取 [**錯誤**]、[**警告**] 及 [**資訊**] 核取方塊。

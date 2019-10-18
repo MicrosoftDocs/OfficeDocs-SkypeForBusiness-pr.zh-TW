@@ -8,7 +8,6 @@ ms.topic: reference
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 audience: Admin
 appliesto:
@@ -17,26 +16,26 @@ localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 瞭解附加元件授權、功能, 以及購買 Office 365 專業增強版的方法。
-ms.openlocfilehash: e26b871bbebdb3c5a5ed22c8e3fee9e4c08ef409
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 瞭解附加元件授權、功能，以及購買 Office 365 專業增強版的方法。
+ms.openlocfilehash: 99fbbe549a41ed139dbf044e93f065bf1412b023
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242556"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572451"
 ---
 # <a name="office-365-proplus"></a>Office 365 專業增強版
 
-如果您已購買[Office 365 專業增強版](https://products.office.com/en/business/office-365-proplus-business-software)方案, 以下是您需要購買才能取得更多團隊功能的附加元件授權。
+如果您已購買[Office 365 專業增強版](https://products.office.com/en/business/office-365-proplus-business-software)方案，以下是您需要購買才能取得更多團隊功能的附加元件授權。
 
 > [!IMPORTANT]
-> 雖然您可以購買音訊會議、電話系統和通話方案來啟用語音通話功能, 但我們建議您評估企業版 E5 方案, 以查看是否有更經濟的效益。
+> 雖然您可以購買音訊會議、電話系統和通話方案來啟用語音通話功能，但我們建議您評估企業版 E5 方案，以查看是否有更經濟的效益。
 
 
 |若要新增此功能 |以下是您需要執行的動作 |
 |:---------------------------|:--------------------------------|
-|音訊會議 <br/> |購買 [音訊會議] 附加元件。 <br/>為打算排程或主持撥入會議的每位人員購買1個音訊會議授權。 出席者不需要授權。 <br/>購買授權後, Microsoft 就會成為您的音訊會議提供者。 |
-|電話撥入存取的免付費電話號碼, 以及從會議撥出給其他人, 透過撥打世界電話號碼來新增人員的功能 <br/> |購買[通訊點數](../set-up-communications-credits-for-your-organization.md)。|
-|電話系統 <br/> |<ol><li>[切換到其他商務用 Office 365 方案](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a)。 如果您有 Office 365 專業增強版, 我們建議將您的方案升級為企業版 E5 方案, 以取得雲端語音功能。 如果您升級至企業版 E1 或 E3 方案, 您會看到購買電話系統附加元件的選項。 <br/></li><li>購買 [電話系統] 附加元件。 <br/></li><li>購買 Office 365 的[通話方案](../calling-plans-for-office-365.md)。 <br/>或者, 請[從您的現有提供者使用電話語音](microsoft-teams-add-on-licensing.md#bkmk_existing)。</li></ol>  <br/> |
+|音訊會議 <br/> |購買 [音訊會議] 附加元件。 <br/>為打算排程或主持撥入會議的每位人員購買1個音訊會議授權。 出席者不需要授權。 <br/>購買授權後，Microsoft 就會成為您的音訊會議提供者。 |
+|電話撥入存取的免付費電話號碼，以及從會議撥出給其他人，透過撥打世界電話號碼來新增人員的功能 <br/> |購買[通訊點數](../set-up-communications-credits-for-your-organization.md)。|
+|電話系統 <br/> |<ol><li>[切換到其他商務用 Office 365 方案](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a)。 如果您有 Office 365 專業增強版，我們建議將您的方案升級為企業版 E5 方案，以取得雲端語音功能。 如果您升級至企業版 E1 或 E3 方案，您會看到購買電話系統附加元件的選項。 <br/></li><li>購買 [電話系統] 附加元件。 <br/></li><li>購買 Office 365 的[通話方案](../calling-plans-for-office-365.md)。 <br/>或者，請[從您的現有提供者使用電話語音](microsoft-teams-add-on-licensing.md#bkmk_existing)。</li></ol>  <br/> |
 |購買通話方案 <br/> |<ol><li>[切換到其他商務用 Office 365 方案](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a)。 <br/></li><li>購買 [電話系統] 附加元件。</li><li>購買[通話方案](../calling-plans-for-office-365.md)。<br/> 您只能在購買手機系統附加元件後購買此產品。 <br/> |
    

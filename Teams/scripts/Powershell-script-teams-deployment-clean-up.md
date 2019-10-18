@@ -13,17 +13,17 @@ ms.collection:
 - M365-collaboration
 description: 使用此 PowerShell 腳本清除目的電腦或特定使用者的 Microsoft 團隊。
 localization_priority: Normal
-ms.openlocfilehash: aa5ba0c6e94510449e1afd9c2fc03524c1846f9c
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 6e543e31dd926075d83ad0ccf7187ac602ba8065
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243204"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573454"
 ---
 <a name="powershell-script-sample---microsoft-teams-deployment-clean-up"></a>PowerShell 腳本範例-Microsoft 團隊部署清理
 -------------------------------------------------------------------------
 
-您可以利用此 PowerShell 腳本, 清除來自目的電腦或使用者的 Microsoft 團隊。 它應該針對目的電腦上的每位使用者執行。 
+您可以利用此 PowerShell 腳本，清除來自目的電腦或使用者的 Microsoft 團隊。 它應該針對目的電腦上的每位使用者執行。 
 
 
 ## <a name="sample-script"></a>範例腳本
