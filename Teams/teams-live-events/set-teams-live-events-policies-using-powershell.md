@@ -16,129 +16,129 @@ description: 如何使用 PowerShell 來設定小組中的原則，以控制哪�
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: d9f96adcf4aa40b93b89b99013b9bc5ca466c25b
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "37570165"
 ---
-# <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a><span data-ttu-id="80548-103">使用 PowerShell 在 Microsoft 團隊中設定即時事件原則</span><span class="sxs-lookup"><span data-stu-id="80548-103">Use PowerShell to set live events policies in Microsoft Teams</span></span>
+# <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a><span data-ttu-id="9263f-103">使用 PowerShell 在 Microsoft 團隊中設定即時事件原則</span><span class="sxs-lookup"><span data-stu-id="9263f-103">Use PowerShell to set live events policies in Microsoft Teams</span></span>
 
-<span data-ttu-id="80548-104">您可以在團隊中使用下列 Windows PowerShell Cmdlet 來設定及指派即時事件的原則設定：</span><span class="sxs-lookup"><span data-stu-id="80548-104">You can use the following Windows PowerShell cmdlets to set and assign policy settings for live events in Teams:</span></span> 
-- [<span data-ttu-id="80548-105">CsTeamsMeetingBroadcastPolicy</span><span class="sxs-lookup"><span data-stu-id="80548-105">Get-CsTeamsMeetingBroadcastPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/get-csteamsmeetingbroadcastpolicy?view=skype-ps)
-- [<span data-ttu-id="80548-106">Set-CsTeamsMeetingBroadcastPolicy</span><span class="sxs-lookup"><span data-stu-id="80548-106">Set-CsTeamsMeetingBroadcastPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastpolicy?view=skype-ps)
-- [<span data-ttu-id="80548-107">新-CsTeamsMeetingBroadcastPolicy</span><span class="sxs-lookup"><span data-stu-id="80548-107">New-CsTeamsMeetingBroadcastPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/get-csteamsmeetingbroadcastpolicy?view=skype-ps)
-- [<span data-ttu-id="80548-108">授與 CsTeamsMeetingBroadcastPolicy</span><span class="sxs-lookup"><span data-stu-id="80548-108">Grant-CsTeamsMeetingBroadcastPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingbroadcastpolicy?view=skype-ps)
+<span data-ttu-id="9263f-104">您可以在團隊中使用下列 Windows PowerShell Cmdlet 來設定及指派即時事件的原則設定：</span><span class="sxs-lookup"><span data-stu-id="9263f-104">You can use the following Windows PowerShell cmdlets to set and assign policy settings for live events in Teams:</span></span> 
+- [<span data-ttu-id="9263f-105">CsTeamsMeetingBroadcastPolicy</span><span class="sxs-lookup"><span data-stu-id="9263f-105">Get-CsTeamsMeetingBroadcastPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/get-csteamsmeetingbroadcastpolicy?view=skype-ps)
+- [<span data-ttu-id="9263f-106">Set-CsTeamsMeetingBroadcastPolicy</span><span class="sxs-lookup"><span data-stu-id="9263f-106">Set-CsTeamsMeetingBroadcastPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastpolicy?view=skype-ps)
+- [<span data-ttu-id="9263f-107">新-CsTeamsMeetingBroadcastPolicy</span><span class="sxs-lookup"><span data-stu-id="9263f-107">New-CsTeamsMeetingBroadcastPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/get-csteamsmeetingbroadcastpolicy?view=skype-ps)
+- [<span data-ttu-id="9263f-108">授與 CsTeamsMeetingBroadcastPolicy</span><span class="sxs-lookup"><span data-stu-id="9263f-108">Grant-CsTeamsMeetingBroadcastPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingbroadcastpolicy?view=skype-ps)
 
-<span data-ttu-id="80548-109">以下是一些範例。</span><span class="sxs-lookup"><span data-stu-id="80548-109">Here are some examples.</span></span>
+<span data-ttu-id="9263f-109">以下是一些範例。</span><span class="sxs-lookup"><span data-stu-id="9263f-109">Here are some examples.</span></span>
 
-## <a name="allow-users-to-schedule-live-events"></a><span data-ttu-id="80548-110">允許使用者排程即時事件</span><span class="sxs-lookup"><span data-stu-id="80548-110">Allow users to schedule live events</span></span> 
+## <a name="allow-users-to-schedule-live-events"></a><span data-ttu-id="9263f-110">允許使用者排程即時事件</span><span class="sxs-lookup"><span data-stu-id="9263f-110">Allow users to schedule live events</span></span> 
 
 > [!NOTE]
-> <span data-ttu-id="80548-111">這些範例適用于小組中產生的活動。</span><span class="sxs-lookup"><span data-stu-id="80548-111">These examples are for events produced in Teams.</span></span> <span data-ttu-id="80548-112">對於使用外部 app 或裝置所產生的事件，您必須執行其他步驟。</span><span class="sxs-lookup"><span data-stu-id="80548-112">For events produced with an external app or device, there are additional steps you must do.</span></span> <span data-ttu-id="80548-113">如需詳細資訊，請參閱[讓使用者排程由外部 app 或裝置產生的事件](set-up-for-teams-live-events.md#enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device)。</span><span class="sxs-lookup"><span data-stu-id="80548-113">For more information, see [Enable users to schedule events that were produced with an external app or device](set-up-for-teams-live-events.md#enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device).</span></span>
+> <span data-ttu-id="9263f-111">這些範例適用于小組中產生的活動。</span><span class="sxs-lookup"><span data-stu-id="9263f-111">These examples are for events produced in Teams.</span></span> <span data-ttu-id="9263f-112">對於使用外部 app 或裝置所產生的事件，您必須執行其他步驟。</span><span class="sxs-lookup"><span data-stu-id="9263f-112">For events produced with an external app or device, there are additional steps you must do.</span></span> <span data-ttu-id="9263f-113">如需詳細資訊，請參閱[讓使用者排程由外部 app 或裝置產生的事件](set-up-for-teams-live-events.md#enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device)。</span><span class="sxs-lookup"><span data-stu-id="9263f-113">For more information, see [Enable users to schedule events that were produced with an external app or device](set-up-for-teams-live-events.md#enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device).</span></span>
 
-<span data-ttu-id="80548-114">**允許使用者排程即時事件**</span><span class="sxs-lookup"><span data-stu-id="80548-114">**Allow a user to schedule live events**</span></span>
+<span data-ttu-id="9263f-114">**允許使用者排程即時事件**</span><span class="sxs-lookup"><span data-stu-id="9263f-114">**Allow a user to schedule live events**</span></span>
 
-<span data-ttu-id="80548-115">如果使用者指派了全域原則，請執行並確認*AllowBroadcastScheduling*參數設定為*True*：</span><span class="sxs-lookup"><span data-stu-id="80548-115">If the user is assigned the global policy, run and verify that *AllowBroadcastScheduling* parameter is set to *True*:</span></span>
+<span data-ttu-id="9263f-115">如果使用者指派了全域原則，請執行並確認*AllowBroadcastScheduling*參數設定為*True*：</span><span class="sxs-lookup"><span data-stu-id="9263f-115">If the user is assigned the global policy, run and verify that *AllowBroadcastScheduling* parameter is set to *True*:</span></span>
 ```
 Get-CsTeamsMeetingBroadcastPolicy -identity Global
 ```
-<span data-ttu-id="80548-116">然後，將使用者指派給全域原則，執行：</span><span class="sxs-lookup"><span data-stu-id="80548-116">Then assign the user to the global policy, run:</span></span>
+<span data-ttu-id="9263f-116">然後，將使用者指派給全域原則，執行：</span><span class="sxs-lookup"><span data-stu-id="9263f-116">Then assign the user to the global policy, run:</span></span>
 ```
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 ```
 
-### <a name="user-scenarios"></a><span data-ttu-id="80548-117">使用者案例</span><span class="sxs-lookup"><span data-stu-id="80548-117">User scenarios</span></span>
-<span data-ttu-id="80548-118">**您希望貴組織中的所有使用者都能夠排程即時事件**</span><span class="sxs-lookup"><span data-stu-id="80548-118">**You want all users in your organization to be able to schedule live events**</span></span>
+### <a name="user-scenarios"></a><span data-ttu-id="9263f-117">使用者案例</span><span class="sxs-lookup"><span data-stu-id="9263f-117">User scenarios</span></span>
+<span data-ttu-id="9263f-118">**您希望貴組織中的所有使用者都能夠排程即時事件**</span><span class="sxs-lookup"><span data-stu-id="9263f-118">**You want all users in your organization to be able to schedule live events**</span></span>
 
-<span data-ttu-id="80548-119">如果使用者指派了全域原則，請執行並確認*AllowBroadcastScheduling* \* 設定為*True*：</span><span class="sxs-lookup"><span data-stu-id="80548-119">If users are assigned the global policy, run and verify that *AllowBroadcastScheduling* \*is set to *True*:</span></span>
+<span data-ttu-id="9263f-119">如果使用者指派了全域原則，請執行並確認*AllowBroadcastScheduling* \* 設定為*True*：</span><span class="sxs-lookup"><span data-stu-id="9263f-119">If users are assigned the global policy, run and verify that *AllowBroadcastScheduling* \*is set to *True*:</span></span>
 ```
 Get-CsTeamsMeetingBroadcastPolicy -identity Global
 ```
-<span data-ttu-id="80548-120">如果使用者指派了全域原則以外的原則，請執行並確認 *-AllowBroadcastScheduling*已設定為*True*：</span><span class="sxs-lookup"><span data-stu-id="80548-120">If users are assigned a policy other than the global policy, run and verify that *-AllowBroadcastScheduling* is set to *True*:</span></span>
+<span data-ttu-id="9263f-120">如果使用者指派了全域原則以外的原則，請執行並確認 *-AllowBroadcastScheduling*已設定為*True*：</span><span class="sxs-lookup"><span data-stu-id="9263f-120">If users are assigned a policy other than the global policy, run and verify that *-AllowBroadcastScheduling* is set to *True*:</span></span>
 ```
 Get-CsTeamsMeetingBroadcastPolicy -identity {policy name}
 ```
-<span data-ttu-id="80548-121">**您想要在整個組織中停用即時事件排程**</span><span class="sxs-lookup"><span data-stu-id="80548-121">**You want live events scheduling to be disabled across your organization**</span></span>
+<span data-ttu-id="9263f-121">**您想要在整個組織中停用即時事件排程**</span><span class="sxs-lookup"><span data-stu-id="9263f-121">**You want live events scheduling to be disabled across your organization**</span></span>
 
-<span data-ttu-id="80548-122">停用即時事件排程，執行：</span><span class="sxs-lookup"><span data-stu-id="80548-122">Disable live events scheduling, run:</span></span>
+<span data-ttu-id="9263f-122">停用即時事件排程，執行：</span><span class="sxs-lookup"><span data-stu-id="9263f-122">Disable live events scheduling, run:</span></span>
 ```
 Set-CsTeamsMeetingBroadcastPolicy -identity Global -AllowBroadcastScheduling $false
 ```
-<span data-ttu-id="80548-123">將貴組織中的所有使用者指派給全域原則，請執行：</span><span class="sxs-lookup"><span data-stu-id="80548-123">Assign all users in your organization to the global policy, run:</span></span>
+<span data-ttu-id="9263f-123">將貴組織中的所有使用者指派給全域原則，請執行：</span><span class="sxs-lookup"><span data-stu-id="9263f-123">Assign all users in your organization to the global policy, run:</span></span>
 ```
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 ```
 
-<span data-ttu-id="80548-124">**您想要有大量的使用者能夠排程即時事件，並防止一組使用者進行排程**</span><span class="sxs-lookup"><span data-stu-id="80548-124">**You want a large number of users to be able to schedule live events and prevent a set of users from scheduling them**</span></span>
+<span data-ttu-id="9263f-124">**您想要有大量的使用者能夠排程即時事件，並防止一組使用者進行排程**</span><span class="sxs-lookup"><span data-stu-id="9263f-124">**You want a large number of users to be able to schedule live events and prevent a set of users from scheduling them**</span></span>
 
-<span data-ttu-id="80548-125">執行並確認*AllowBroadcastScheduling*已設定為*True*：</span><span class="sxs-lookup"><span data-stu-id="80548-125">Run and verify that *AllowBroadcastScheduling* is set to *True*:</span></span>
+<span data-ttu-id="9263f-125">執行並確認*AllowBroadcastScheduling*已設定為*True*：</span><span class="sxs-lookup"><span data-stu-id="9263f-125">Run and verify that *AllowBroadcastScheduling* is set to *True*:</span></span>
 ```
 Get-CsTeamsMeetingBroadcastPolicy -Identity Global
 ```
-<span data-ttu-id="80548-126">然後，將使用者或使用者指派給全域原則，執行：</span><span class="sxs-lookup"><span data-stu-id="80548-126">Then assign a user or users to the global policy, run:</span></span>
+<span data-ttu-id="9263f-126">然後，將使用者或使用者指派給全域原則，執行：</span><span class="sxs-lookup"><span data-stu-id="9263f-126">Then assign a user or users to the global policy, run:</span></span>
 ```
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 ```
 
-<span data-ttu-id="80548-127">建立不允許排程即時事件的新原則，請執行：</span><span class="sxs-lookup"><span data-stu-id="80548-127">Create a new policy that doesn't allow scheduling live events, run:</span></span>
+<span data-ttu-id="9263f-127">建立不允許排程即時事件的新原則，請執行：</span><span class="sxs-lookup"><span data-stu-id="9263f-127">Create a new policy that doesn't allow scheduling live events, run:</span></span>
 ```
 New-CSTeamsMeetingBroadcastPolicy -Identity DisabledBroadcastSchedulingPolicy
 ```
-<span data-ttu-id="80548-128">停用即時事件排程，執行：</span><span class="sxs-lookup"><span data-stu-id="80548-128">Disable live events scheduling, run:</span></span>
+<span data-ttu-id="9263f-128">停用即時事件排程，執行：</span><span class="sxs-lookup"><span data-stu-id="9263f-128">Disable live events scheduling, run:</span></span>
 ```
 Set-CsTeamsMeetingBroadcastPolicy -Identity DisabledBroadcastSchedulingPolicy -AllowBroadcastScheduling $false
 ```
-<span data-ttu-id="80548-129">然後將使用者指派給此原則，執行：</span><span class="sxs-lookup"><span data-stu-id="80548-129">Then assign users to this policy, run:</span></span>
+<span data-ttu-id="9263f-129">然後將使用者指派給此原則，執行：</span><span class="sxs-lookup"><span data-stu-id="9263f-129">Then assign users to this policy, run:</span></span>
 ```
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName DisabledBroadcastSchedulingPolicy -Verbose
 ```
-<span data-ttu-id="80548-130">**您想要針對大量的使用者停用即時事件排程，並允許一組使用者進行排程**</span><span class="sxs-lookup"><span data-stu-id="80548-130">**You want to disable live event scheduling for a large number of the users and allow a set of users to schedule them**</span></span>
+<span data-ttu-id="9263f-130">**您想要針對大量的使用者停用即時事件排程，並允許一組使用者進行排程**</span><span class="sxs-lookup"><span data-stu-id="9263f-130">**You want to disable live event scheduling for a large number of the users and allow a set of users to schedule them**</span></span>
 
-<span data-ttu-id="80548-131">停用即時事件排程，執行：</span><span class="sxs-lookup"><span data-stu-id="80548-131">Disable live events scheduling, run:</span></span>
+<span data-ttu-id="9263f-131">停用即時事件排程，執行：</span><span class="sxs-lookup"><span data-stu-id="9263f-131">Disable live events scheduling, run:</span></span>
 ```
 Set-CsTeamsMeetingBroadcastPolicy -identity Global -AllowBroadcastScheduling $false
 ```
-<span data-ttu-id="80548-132">然後將這些使用者指派給全域原則，執行：</span><span class="sxs-lookup"><span data-stu-id="80548-132">Then assign those users to the global policy, run:</span></span>
+<span data-ttu-id="9263f-132">然後將這些使用者指派給全域原則，執行：</span><span class="sxs-lookup"><span data-stu-id="9263f-132">Then assign those users to the global policy, run:</span></span>
 ```
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 ```
-<span data-ttu-id="80548-133">建立原則以允許即時事件排程，請執行：</span><span class="sxs-lookup"><span data-stu-id="80548-133">Create a policy to allow live events scheduling, run:</span></span>
+<span data-ttu-id="9263f-133">建立原則以允許即時事件排程，請執行：</span><span class="sxs-lookup"><span data-stu-id="9263f-133">Create a policy to allow live events scheduling, run:</span></span>
 ```
 New-CSTeamsMeetingBroadcastPolicy -identity EnableBroadcastSchedulingpolicy
 ```
-<span data-ttu-id="80548-134">啟用即時事件排程，執行：</span><span class="sxs-lookup"><span data-stu-id="80548-134">Enable live events scheduling, run:</span></span>
+<span data-ttu-id="9263f-134">啟用即時事件排程，執行：</span><span class="sxs-lookup"><span data-stu-id="9263f-134">Enable live events scheduling, run:</span></span>
 ```
 Set-CsTeamsMeetingBroadcastPolicy -identity EnableBroadcastSchedulingpolicy -AllowBroadcastScheduling $true
 ```
-<span data-ttu-id="80548-135">然後將使用者指派給此原則，執行：</span><span class="sxs-lookup"><span data-stu-id="80548-135">Then assign users to this policy, run:</span></span>
+<span data-ttu-id="9263f-135">然後將使用者指派給此原則，執行：</span><span class="sxs-lookup"><span data-stu-id="9263f-135">Then assign users to this policy, run:</span></span>
 ```
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName EnableBroadcastSchedulingpolicy -Verbose
 ```
-## <a name="set-who-can-join-live-events"></a><span data-ttu-id="80548-136">設定誰可以加入即時事件</span><span class="sxs-lookup"><span data-stu-id="80548-136">Set who can join live events</span></span>
+## <a name="set-who-can-join-live-events"></a><span data-ttu-id="9263f-136">設定誰可以加入即時事件</span><span class="sxs-lookup"><span data-stu-id="9263f-136">Set who can join live events</span></span>
  
-<span data-ttu-id="80548-137">將全域原則設定為允許使用者建立每個人（包括匿名使用者）都可以出席的事件，請執行：</span><span class="sxs-lookup"><span data-stu-id="80548-137">Set the global policy to allow users to create events that everyone, including anonymous users, can attend, run:</span></span>
+<span data-ttu-id="9263f-137">將全域原則設定為允許使用者建立每個人（包括匿名使用者）都可以出席的事件，請執行：</span><span class="sxs-lookup"><span data-stu-id="9263f-137">Set the global policy to allow users to create events that everyone, including anonymous users, can attend, run:</span></span>
 ```
 Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastAttendeeVisibility Everyone  
 ```
-## <a name="set-the-recording-option-for-live-events"></a><span data-ttu-id="80548-138">設定即時事件的錄製選項</span><span class="sxs-lookup"><span data-stu-id="80548-138">Set the recording option for live events</span></span>
+## <a name="set-the-recording-option-for-live-events"></a><span data-ttu-id="9263f-138">設定即時事件的錄製選項</span><span class="sxs-lookup"><span data-stu-id="9263f-138">Set the recording option for live events</span></span>
 > [!NOTE]
-> <span data-ttu-id="80548-139">此設定僅適用于小組中產生的活動。</span><span class="sxs-lookup"><span data-stu-id="80548-139">This setting applies only to events produced in Teams.</span></span>
+> <span data-ttu-id="9263f-139">此設定僅適用于小組中產生的活動。</span><span class="sxs-lookup"><span data-stu-id="9263f-139">This setting applies only to events produced in Teams.</span></span>
 
-<span data-ttu-id="80548-140">設定全域原則，停用錄製即時事件：</span><span class="sxs-lookup"><span data-stu-id="80548-140">Set the global policy to disable recording for live events:</span></span>
+<span data-ttu-id="9263f-140">設定全域原則，停用錄製即時事件：</span><span class="sxs-lookup"><span data-stu-id="9263f-140">Set the global policy to disable recording for live events:</span></span>
 ```
 Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastRecordingMode AlwaysDisabled 
 ```
-## <a name="set-live-captions-and-subtitles-in-live-events"></a><span data-ttu-id="80548-141">在即時事件中設定即時標題和字幕</span><span class="sxs-lookup"><span data-stu-id="80548-141">Set live captions and subtitles in live events</span></span>
+## <a name="set-live-captions-and-subtitles-in-live-events"></a><span data-ttu-id="9263f-141">在即時事件中設定即時標題和字幕</span><span class="sxs-lookup"><span data-stu-id="9263f-141">Set live captions and subtitles in live events</span></span>
 > [!NOTE]
-> <span data-ttu-id="80548-142">此設定僅適用于小組中產生的活動。</span><span class="sxs-lookup"><span data-stu-id="80548-142">This setting applies only to events produced in Teams.</span></span> 
+> <span data-ttu-id="9263f-142">此設定僅適用于小組中產生的活動。</span><span class="sxs-lookup"><span data-stu-id="9263f-142">This setting applies only to events produced in Teams.</span></span> 
 
-<span data-ttu-id="80548-143">設定 [全域原則]，為活動出席者開啟即時輔助字幕和字幕（會議）：</span><span class="sxs-lookup"><span data-stu-id="80548-143">Set the global policy to turn on live captions and subtitles (transcription) for event attendees:</span></span>
+<span data-ttu-id="9263f-143">設定 [全域原則]，為活動出席者開啟即時輔助字幕和字幕（會議）：</span><span class="sxs-lookup"><span data-stu-id="9263f-143">Set the global policy to turn on live captions and subtitles (transcription) for event attendees:</span></span>
 ```
 Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastTranscription $true 
 ```
 
-### <a name="related-topics"></a><span data-ttu-id="80548-144">相關主題</span><span class="sxs-lookup"><span data-stu-id="80548-144">Related topics</span></span>
-- [<span data-ttu-id="80548-145">設定小組即時事件</span><span class="sxs-lookup"><span data-stu-id="80548-145">Set up for Teams live events</span></span>](set-up-for-teams-live-events.md)
+### <a name="related-topics"></a><span data-ttu-id="9263f-144">相關主題</span><span class="sxs-lookup"><span data-stu-id="9263f-144">Related topics</span></span>
+- [<span data-ttu-id="9263f-145">設定小組即時事件</span><span class="sxs-lookup"><span data-stu-id="9263f-145">Set up for Teams live events</span></span>](set-up-for-teams-live-events.md)
 
 
