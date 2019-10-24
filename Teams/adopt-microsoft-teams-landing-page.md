@@ -1,7 +1,7 @@
 ---
 title: 採納 Microsoft 團隊
 ms.reviewer: karuanag
-description: 使用這些採納資源, 協助您規劃和部署貴組織中的 Microsoft 團隊。
+description: 使用這些採納資源，協助您規劃和部署貴組織中的 Microsoft 團隊。
 ms.topic: landing-page
 author: kenwith
 ms.author: kenwith
@@ -20,15 +20,15 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 25ed0a4f704663a05364ca05031f89924cc7b3f5
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "36483408"
 ---
 # <a name="adopt-microsoft-teams"></a>採納 Microsoft 團隊
 
-如果您是小型企業版, 或者想要從聊天、團隊 & 頻道及會議中開始推出小組, 請使用我們的規範性[入門指南](get-started-with-teams-quick-start.md), 以快速開始使用。 如果您是有混合式或內部部署商務用 Skype 設定的大型組織, 或如果您想要推出語音功能 (例如 Office 365 通話方案或電話系統), 您可以從我們的入門指南開始, 但您需要額外的下列指導方針, 在 [較**深採用指南**] 底下。
+如果您是小型企業版，或者想要從聊天、團隊 & 頻道及會議中開始推出小組，請使用我們的規範性[入門指南](get-started-with-teams-quick-start.md)，以快速開始使用。 如果您是有混合式或內部部署商務用 Skype 設定的大型組織，或如果您想要推出語音功能（例如 Office 365 通話方案或電話系統），您可以從我們的入門指南開始，但您需要額外的下列指導方針，在 [較**深採用指南**] 底下。
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -144,7 +144,7 @@ ms.locfileid: "36483408"
 
 
 ### <a name="deeper-adoption-guidance"></a>深入瞭解採用指南
-採納方案可以簡單到複雜, 視您的環境而定。 針對大型部署, 請逐步完成以下指導方針, 以確保您的組織能順暢地轉換至團隊。
+採納方案可以簡單到複雜，視您的環境而定。 針對大型部署，請逐步完成以下指導方針，以確保您的組織能順暢地轉換至團隊。
 
 <ul class="panelContent cardsF">
     <li>

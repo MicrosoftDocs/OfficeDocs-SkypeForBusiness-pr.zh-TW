@@ -15,10 +15,10 @@ appliesto:
 - Microsoft Teams
 description: Microsoft 合作夥伴與所選的 SBC 廠商合作，利用直接佈線來認證其 SBCs。
 ms.openlocfilehash: 5fa0cb728beed0f308a4d168cd149ef1e75e2809
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "37572242"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>認證以直接路由的會話邊界控制器清單

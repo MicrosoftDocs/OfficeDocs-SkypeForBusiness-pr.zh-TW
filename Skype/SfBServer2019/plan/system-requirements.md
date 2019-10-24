@@ -11,10 +11,10 @@ localization_priority: Normal
 ms.collection: ''
 description: 摘要：使用本主題準備商務用 Skype Server 2019 伺服器及網域基礎結構。 硬體、作業系統、資料庫、軟體、所有系統需求與建議，以及憑證 DNS、檔案共用及 Active Directory 資訊，都在這裡協助確保您的伺服器伺服器陣列已成功安裝及部署。
 ms.openlocfilehash: 385aabbf0a3c17abd9a9a22dfdb810720ca76660
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/09/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "37435164"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>商務用 Skype Server 2019 的系統需求

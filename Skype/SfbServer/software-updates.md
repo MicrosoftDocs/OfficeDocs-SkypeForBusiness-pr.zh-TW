@@ -10,19 +10,19 @@ ms.topic: overview
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
-description: 尋找及管理商務用 Skype Server 或 Lync 2013 的更新。 使用連結取得詳細資訊, 然後下載更新。
+description: 尋找及管理商務用 Skype Server 或 Lync 2013 的更新。 使用連結取得詳細資訊，然後下載更新。
 ms.openlocfilehash: 121c91b4882eb7509dfd19ca2c6261720a4e7fc3
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "36194092"
 ---
 # <a name="skype-for-business-downloads-and-updates"></a>商務用 Skype 下載與更新
 
-商務用 Skype 的 [_下載與更新_] 網頁已在 Technet 上停用。 內容已重組至用戶端和伺服器頁面。 請依照下列連結來追蹤您需要的內容:
+商務用 Skype 的 [_下載與更新_] 網頁已在 Technet 上停用。 內容已重組至用戶端和伺服器頁面。 請依照下列連結來追蹤您需要的內容：
 
-- 包含區段的[商務用 Skype 用戶端更新](sfb-client-updates.md):
+- 包含區段的[商務用 Skype 用戶端更新](sfb-client-updates.md)：
     - [商務用 Skype 2016 用戶端更新](sfb-client-updates.md#skype-for-business-2016-client-updates)
     - [商務用 Skype 2015 用戶端更新](sfb-client-updates.md#skype-for-business-2015-client-updates)
     - [Mac 版商務用 Skype 用戶端更新](sfb-client-updates.md#skype-for-business-on-mac-client-updates)
@@ -35,7 +35,7 @@ ms.locfileid: "36194092"
         - [Lync 2010 助理更新](sfb-client-updates.md#lync-2010-attendant-updates)
         - [Lync 2010 出席者更新](sfb-client-updates.md#lync-2010-attendee-updates)
 
-- 包含區段的[商務用 Skype Server 更新](sfb-server-updates.md):
+- 包含區段的[商務用 Skype Server 更新](sfb-server-updates.md)：
     - [商務用 Skype Server 2019 更新歷程記錄](sfb-server-updates.md#skype-for-business-server-2019-update-history)
     - [商務用 Skype Server 2015 更新歷程記錄](sfb-server-updates.md#skype-for-business-server-2015-update-history)
     - [Lync Server 2013 更新歷程記錄](sfb-server-updates.md#lync-server-2013-update-history)
@@ -48,7 +48,7 @@ ms.locfileid: "36194092"
         - [Lync 2010 開發工具](sfb-server-updates.md#lync-2010-dev-tools)
         - [Lync 2010 工具](sfb-server-updates.md#lync-2010-tools)
         - [Lync 2010 可下載的檔](sfb-server-updates.md#lync-2010-downloadable-documentation)
-        - [資源套件 (技術參考)](sfb-server-updates.md#resource-kit-technical-reference)
+        - [資源套件（技術參考）](sfb-server-updates.md#resource-kit-technical-reference)
         - [群組聊天](sfb-server-updates.md#group-chat)
         - [試用版軟體](sfb-server-updates.md#trial-software)
     - [其他資訊](sfb-server-updates.md#additional-information)

@@ -1,0 +1,1 @@
+在 Microsoft 團隊系統管理中心中還沒看到這項功能嗎？ 目前正在推出，您的組織可能無法使用。 若要維持在即將到來的小組功能上，請參閱[Microsoft 365 藍圖](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams)。

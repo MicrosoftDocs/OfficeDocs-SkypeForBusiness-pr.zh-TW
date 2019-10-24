@@ -15,10 +15,10 @@ appliesto:
 - Microsoft Teams
 description: 瞭解從商務用 Skype Online 和團隊設定觀點來決定要從商務用 Skype 移植所需的專案。
 ms.openlocfilehash: 9fb644c938c61fd9dd1c78362ad90bfe855e97ec
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "37572176"
 ---
 # <a name="migrate-to-direct-routing"></a>遷移至直接路由

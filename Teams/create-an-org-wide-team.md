@@ -15,10 +15,10 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: db7caa3879e016b6e8453ad151785578d2391dd1
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/15/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "37516647"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>在 Microsoft 團隊中建立組織範圍的小組
@@ -27,7 +27,7 @@ ms.locfileid: "37516647"
 
 有了組織範圍的小組，全域管理員就能輕鬆地建立一份公開小組，在組織中的每位使用者都能拉入，並在使用者加入並離開組織時，將成員資格保持在最新狀態。 只有全域管理員才能建立整個組織的團隊，而且目前組織範圍的小組僅限於5000使用者以外的組織。 此外，每個租使用者最多隻能有五個組織範圍的團隊。 如果符合這些需求，全域系統管理員會在建立小組時，看到**組織外**的選項，讓他們選取 [**從頭開始建立小組**]。 
 
-![[組織範圍] 選項的螢幕擷取畫面，可建立]整個組織內選項的組織外(media/create-org-wide-team.png "螢幕擷取畫面，以建立整個組織的小組")
+![[組織範圍] 選項的螢幕擷取畫面，可用於建立整個組織的小組](media/create-org-wide-team.png "[組織範圍] 選項的螢幕擷取畫面，可用於建立整個組織的小組")
 
 建立組織範圍的小組後，所有全域管理員都會新增為團隊擁有者，而所有作用中的使用者都會新增為小組成員。 未授權的使用者也會新增至小組。 未授權的使用者第一次登入小組時，系統會為該使用者指派 Microsoft 團隊商業雲端試用版授權。 若要深入瞭解試用版授權，請參閱[管理團隊商業雲端試用版優惠](iw-trial-teams.md)。 
 
