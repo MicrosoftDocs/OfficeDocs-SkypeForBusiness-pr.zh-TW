@@ -20,12 +20,12 @@ f1keywords:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 78271e193cb3e74cf2d9c363517546f61b5587ea
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: ef70fba7c26315e1c66928722c373b383071771b
+ms.sourcegitcommit: d6a0ff7f00defda2b58726f5f0f0fac871f46ab7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570300"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "37664969"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>管理 Microsoft 團隊中的 app 許可權原則
 
@@ -48,7 +48,7 @@ ms.locfileid: "37570300"
 
 1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**團隊 app** > ]**許可權原則**。
 2. 選取 [**整個組織的設定**]。 接著，您可以在面板中設定您想要的設定。 
-    ![新應用程式許可權原則的螢幕擷取畫面](media/app-permission-policies-org-wide-settings.png)
+    ![整個組織內的應用程式設定的螢幕擷取畫面](media/app-permission-policies-org-wide-settings.png)
 3. 在**協力廠商應用程式**下，關閉或開啟這些設定以控制對協力廠商應用程式的存取：
 
     - **允許團隊中的協力廠商或自訂應用程式**：這會控制使用者是否可以使用協力廠商或自訂應用程式。
@@ -134,7 +134,7 @@ $members | ForEach-Object { Grant-CsTeamsAppPermissionPolicy -PolicyName "HR App
 ``` 
 根據群組中的成員數目而定，此命令可能需要幾分鐘的時間執行。
 
-## <a name="faq"></a>常見問題
+## <a name="faq"></a>常見問題集
 
 ### <a name="working-with-app-permission-policies"></a>使用應用程式許可權原則
 
@@ -175,4 +175,4 @@ $members | ForEach-Object { Grant-CsTeamsAppPermissionPolicy -PolicyName "HR App
 針對指派給特定使用者的 app 許可權原則，如果允許並封鎖含 bot 或連接器功能的應用程式，而且如果在共用的內容中則只允許部分使用者使用該應用程式的群組聊天或頻道成員，就不會有該應用程式的許可權 可以查看由 bot 或連接器所張貼的訊息歷程記錄和訊息，但無法與它互動。
 
  ## <a name="related-topics"></a>相關主題
-- [團隊中應用程式的系統管理設定](admin-settings.md)
+- [在 Teams 中的應用程式系統管理設定](admin-settings.md)
