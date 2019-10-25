@@ -1,0 +1,1 @@
+<span data-ttu-id="c7649-101">我們會經常更新有關您如何管理商務用 Skype Online 中功能的內容，因此，此處所述的步驟可能會稍有不同。</span><span class="sxs-lookup"><span data-stu-id="c7649-101">We are frequently updating how you can manage features found in Skype for Business Online, so the steps here might be a little different.</span></span>
