@@ -41,6 +41,7 @@
 ### [在 Teams 中新增個人聊天、群組聊天和頻道的 Bot](add-bots.md)
 ### [使用內建和自訂索引標籤](built-in-custom-tabs.md)
 ### [使用 Office 365 和自訂連接器](Office-365-custom-connectors.md)
+### [管理您的企業營運應用程式](manage-your-lob-apps.md)
 ### [在 Teams 的租用戶應用程式目錄中發佈應用程式](tenant-apps-catalog-teams.md)
 ### [應用程式認證](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Teams 的應用程式範本](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
