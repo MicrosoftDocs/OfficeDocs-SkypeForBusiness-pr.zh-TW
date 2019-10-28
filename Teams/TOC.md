@@ -266,12 +266,6 @@
 
 
 
-
-
-
-
-
-
 ## [雲端視訊 Interop](cloud-video-interop.md)
 
 ## 即時活動
@@ -660,15 +654,16 @@
 ## [終止對商務用 Skype Online 的支援](skype-for-business-online-retirement.md)
 ## [常見問題集](FAQ-journey.md)
 
-## 深入了解共存
+## 技術文件庫
+### [IT 系統管理員的升級指導方針](upgrade-to-teams-on-prem-overview.md)
 ### [移轉以及與商務用 Skype 的互通性](migration-interop-guidance-for-teams-with-skype.md)
 ### [與商務用 Skype 共存](coexistence-chat-calls-presence.md)
 ### [Teams 用戶端體驗和遵從共存模式](teams-client-experience-and-conformance-to-coexistence-modes.md)
-#       
-#        
+
 
 <!-- ============================================================ -->
-
+#       
+#    
 # 混合式連線 
 
 ## [規劃混合式連線](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
