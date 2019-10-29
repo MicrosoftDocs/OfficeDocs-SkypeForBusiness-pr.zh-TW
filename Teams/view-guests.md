@@ -1,10 +1,9 @@
 ---
-title: 在團隊中查看來賓使用者
+title: 在 Teams 中檢視來賓使用者
 ms.reviewer: ''
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 11/26/2018
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -17,14 +16,14 @@ f1keywords: ms.teamsadmincenter.orgwidesettings.guestaccess.viewguestusersarticl
 description: 瞭解系統管理員可以如何在 Microsoft 團隊中查看來賓使用者的相關資訊。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d586ca6f05fc52812506a020ff707fd1fc45eb46
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 16c2c65bc63e41e712be740c68edcc57916d347b
+ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568581"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "37753228"
 ---
-<a name="view-guest-users-in-a-team"></a>在團隊中查看來賓使用者
+<a name="view-guest-users-in-a-team"></a>在 Teams 中檢視來賓使用者
 ==========================
 小組中的任何人都可以透過 Microsoft 團隊中的 [**管理團隊**] 來查看團隊的所有成員，包括來賓。 請參閱[查看團隊或頻道中的人員](https://support.office.com/article/see-who-s-on-a-team-or-in-a-channel-5c6be9be-9c45-4a0f-a1a0-f332b23cb6b7)，以取得更多詳細資料。
 
@@ -36,6 +35,3 @@ ms.locfileid: "37568581"
   
 您也可以從您擁有的小組中識別來賓使用者。  
 
-## <a name="guest-access-vs-external-access-federation"></a>來賓存取與外部存取（同盟）
-
-[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]

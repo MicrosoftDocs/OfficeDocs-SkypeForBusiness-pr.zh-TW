@@ -1,9 +1,8 @@
 ---
-title: 使用 PowerShell 控制團隊的來賓存取權
+title: 使用 PowerShell 控制小組的來賓存取
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 06/25/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -15,14 +14,14 @@ search.appverid: MET150
 description: 使用 PowerShell 來允許或封鎖對 Microsoft 團隊中的小組的來賓存取權。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1cecceb81b967d4c6d2f4c9ca440e04d6fec9518
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 90ca96b6a28b1a94c375af0b4b4166da5bbee9e9
+ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569545"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "37753328"
 ---
-<a name="use-powershell-to-control-guest-access-to-a-team"></a>使用 PowerShell 控制團隊的來賓存取權
+<a name="use-powershell-to-control-guest-access-to-a-team"></a>使用 PowerShell 控制小組的來賓存取
 ================================================
 
 除了使用 Microsoft 365 系統管理中心以及 Azure Active Directory （Azure AD）入口網站之外，您還可以使用 Windows PowerShell 來控制來賓存取。 您可以在 PowerShell 中執行下列動作：
@@ -34,10 +33,48 @@ ms.locfileid: "37569545"
 - 允許或封鎖來自特定小組或 Office 365 群組的來賓使用者
 
 如需詳細資訊，請參閱[管理 Office 365 群組中的來賓存取](https://docs.microsoft.com/office365/admin/create-groups/manage-guest-access-in-groups#use-powershell-to-control-guest-access)中的「使用 PowerShell 控制來賓存取」。
+
   
 您也可以使用 PowerShell 根據其網域來允許或封鎖來賓使用者。 例如，假設您的企業（Contoso）與另一個業務（Fabrikam）有合作關係。 您可以將 Fabrikam 新增至您的允許清單，讓您的使用者可以將這些來賓新增到他們的群組中。 如需詳細資訊，請參閱[允許/封鎖 Office 365 群組的來賓存取權](https://go.microsoft.com/fwlink/?linkid=854001)。
   
 如果您想要封鎖團隊中的來賓，但仍要允許他們存取 SharePoint 網站，您可以使用 Azure AD Powershell Cmdlet 停用公司物件上的 AllowGuestsToAccessGroups 參數（假設已開啟適用于 SharePoint 網站的外部共用）.
+
+## <a name="use-powershell-to-turn-guest-access-on-or-off"></a>使用 PowerShell 開啟或關閉來賓存取
+
+1.  從下載商務用 Skype Online PowerShell 模組https://www.microsoft.com/en-us/download/details.aspx?id=39366
+ 
+2.  將 PowerShell 會話連線到商務用 Skype Online 端點。
+
+    ```
+    Import-Module SkypeOnlineConnector
+    $Cred = Get-Credential
+    $CSSession = New-CsOnlineSession -Credential $Cred
+    Import-PSSession -Session $CSSession
+    ```
+3.  檢查您的設定， `AllowGuestUser`如果`$False`是，請使用[CsTeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps) Cmdlet 將它設定為`$True`。
+
+    ```
+    Get-CsTeamsClientConfiguration
+
+    Identity                         : Global
+    AllowEmailIntoChannel            : True
+    RestrictedSenderList             :
+    AllowDropBox                     : True
+    AllowBox                         : True
+    AllowGoogleDrive                 : True
+    AllowShareFile                   : True
+    AllowOrganizationTab             : True
+    AllowSkypeBusinessInterop        : True
+    ContentPin                       : RequiredOutsideScheduleMeeting
+    AllowResourceAccountSendMessage  : True
+    ResourceAccountContentAccess     : NoAccess
+    AllowGuestUser                   : True
+    AllowScopedPeopleSearchandAccess : False
+    
+    Set-CsTeamsClientConfiguration -AllowGuestUser $True -Identity Global
+    ```
+您現在可以在貴組織的小組中擁有來賓使用者。
+
 
 ## <a name="guest-access-vs-external-access"></a>來賓存取與外部存取
 

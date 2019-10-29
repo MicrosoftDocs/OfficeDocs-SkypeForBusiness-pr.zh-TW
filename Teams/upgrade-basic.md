@@ -20,16 +20,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 03f83053e46350cc7a73f92451797553a9c978ad
-ms.sourcegitcommit: d6a0ff7f00defda2b58726f5f0f0fac871f46ab7
+ms.openlocfilehash: 425ee7d6821a6765e03e2b9f0d9beaab61858bd4
+ms.sourcegitcommit: 25b6bf2c3050390cd668d2495ffcf31c44d0ff62
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "37664943"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "37749281"
 ---
-<a name="about-upgrade-basic"></a>
-
 # <a name="upgrade-basic"></a>升級基本版
+
+<a name="about-upgrade-basic"></a>
 
 針對較小的組織或是使用商務用 Skype Online 傳送 IM （聊天）和會議的方案，[升級基本檢查清單] 是一個加速的行動方案，其中包含實施成功地從商務用 Skype 移至團隊。
 
@@ -81,7 +81,7 @@ ms.locfileid: "37664943"
 **資源清單**
 
 - [團隊概覽](Teams-overview.md)
-- Microsoft 團隊快速入門（get-started-with-teams-quick-start.md）
+- [Microsoft 團隊快速入門](get-started-with-teams-quick-start.md)
 
 [回到頁首](#about-upgrade-basic)
 

@@ -1,0 +1,83 @@
+---
+title: '針對小組 IT 與合規性管理員審核患者應用程式 '
+author: jambirk
+ms.author: jambirk
+manager: serdars
+audience: ITPro
+ms.topic: article
+ms.service: msteams
+search.appverid: MET150
+localization_priority: Normal
+ms.collection:
+- M365-collaboration
+- Teams_ITAdmin_Healthcare
+ms.reviewer: anach
+description: 適用于團隊管理員的患者應用程式
+ms.openlocfilehash: 7afa6004191c460428200e7804dfb10a748fc65b
+ms.sourcegitcommit: 25b6bf2c3050390cd668d2495ffcf31c44d0ff62
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "37749545"
+---
+# <a name="audit-logs-for-patients-app"></a>患者 app 的審核記錄
+
+患者應用程式活動的審核記錄可讓事件回應小組審閱患者的電子醫療記錄（EMR）或患者保健資訊（PHI）的變更，並判斷在中的 PHI 存取原則或程式是否有所改進需要生產力工具。 審核記錄事件涵蓋透過患者 app 使用者介面執行的動作。
+
+## <a name="meet-hipaa-requirements"></a>符合 HIPAA 需求
+
+根據 HIPAA 準則，醫療保健供應商必須保留對 PHI 的所有存取權記錄，才能進行審核變更。 Microsoft 致力於使用 Microsoft 團隊的企業客戶，並協助他們滿足 HIPAA 需求與控制措施。 您可以透過患者 App 在 M365 安全性與合規性中心提供對 PHI 的存取權，如 [[審核記錄搜尋功能](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)] 文章中所述。
+
+> [!IMPORTANT]
+> 在醫療保健供應商的法律上，維持患者隱私權的負擔。 法律對患者保密，且要求 IT 系統管理員或 HIPAA 控制器能輕鬆判斷哪些護士、clinician 或同事存取或變更了患者記錄。 [PHI 存取衝突] 最常見的其中一個範例是存取 VIP 患者。 必須具備審核記錄功能，才能對任何 PHI 存取違規進行調查，以及符合 HIPAA 需求。
+
+<!-- add an image from the security and compliance center audit log search page showing an event, Ansuman please let me know whether we need to copy an existing screen shot (and which one) or grab a new one -->
+
+## <a name="enable-audit-logs-for-the-patients-app"></a>啟用患者 App 的審核記錄
+
+審計依賴于數個預先設定：
+
+1. 系統管理員必須與他們的 FHIR 服務提供者合作，才能以患者 App 所使用的格式 EMR。 請參閱將[電子醫療保健記錄整合至 Microsoft 團隊](patients-app.md)。
+2. 醫療保健提供者管理員必須在小組系統管理中心啟用患者 app。 如需詳細資訊，請參閱[管理 Microsoft 團隊和相關文章中的 app 設定原則](../../teams-app-setup-policies.md)。
+3. 系統管理員必須在 O365 中啟用活動審計，就像在 Office 365 中啟用任何活動記錄審核一樣，如[您開始](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#before-you-begin)並[開啟或關閉 office 365 審核記錄搜尋](https://docs.microsoft.com/office365/securitycompliance/turn-audit-log-search-on-or-off#turn-on-audit-log-search)中所述。 如果已開啟審核記錄，患者 App 不需要任何特殊的功能。 每當醫療保健提供者在小組中安裝並執行應用程式時，審核記錄會記錄其 PHI 活動。
+4. 系統管理員接著需要宣告患者 app 的可用性，而醫療保健工人必須開始產生活動，才能納入審計。
+
+<!-- add link out to client doc when available -->
+
+## <a name="run-an-audit"></a>執行審計
+
+如需執行活動記錄檔搜尋的指示，請參閱[搜尋審核記錄](https://docs.microsoft.com/office365/securitycompliance/search-the-audit-log-in-security-and-compliance#search-the-audit-log)。
+
+## <a name="logged-activities-for-patients-app"></a>患者 app 的記錄活動
+
+患者 app 有自己的記錄活動，列在下表中：
+
+|好記的名稱 |一道|說明|
+|:---|:---|:---|
+| 已查看患者清單 | PatientListView | 使用者已查看患者清單。|
+| 已刪除的患者清單 | PatientListDelete | 使用者已刪除患者清單。|
+| 已新增患者至清單 | PatientListAddPatient | 患者已新增至患者清單。 |
+| 已新增患者記事 | PatientNoteAdd | 已將記事新增至患者記錄。 |
+| 已建立患者架構 | PatientSchemaCreate | 已建立患者記錄中使用的一組資料行。 |
+| 使用者已開始匯出 | ExportInitiation | 患者資料已從患者 app 匯出到 Excel 檔案中。 檔案將會儲存在小組 sharepoint 網站上。 |
+| 已建立患者清單 | PatientListCreate | 使用者建立患者清單。|
+| 設定預設患者清單| PatientListDefaultSet| 使用者將特定清單設為預設清單。|
+| 已從清單中移除患者| PatientListRemovePatient | 患者已從患者清單中移除。 |
+| 已搜尋患者 | PatientSearch | 已在 EHR 服務中搜尋患者記錄。 |
+| 更新的患者架構 | PatientSchemaUpdate  | 已更新患者記錄中使用的一組現有資料行。 |<!-- | 已將患者移至不同的清單| PatientMoved | 患者記錄是從某個清單移到另一個清單。 |-->
+| 重新命名的患者清單 | PatientListRename | 已重新命名患者清單。 |
+| 已編輯的患者清單中的欄 | PatientListEditColumns | 已編輯（新增或移除）患者清單中的欄。 |
+| 已查看患者的詳細資料 | PatientView | 使用者查看患者記錄。|
+| 已編輯的患者詳細資料 | PatientDetailsEdit | 已編輯患者記錄的詳細資料。 |
+| 設定 EHR 連接 | EHRConnectionSet | 設定用來連接 EHR FHIR 服務連線的 URL。 範例： HTTPs://<span>api-v8-dstu2.hspconsortium.org/ContosoHospital/open</span>  |
+||||
+
+您可以視需要自訂您的審核，以搜尋或篩選任何記錄的活動。
+
+Microsoft 團隊[活動](https://docs.microsoft.com/office365/securitycompliance/search-the-audit-log-in-security-and-compliance#microsoft-teams-activities)中描述了一般的 microsoft 團隊記錄活動。
+
+## <a name="related-topics"></a>相關主題
+
+[搜尋 Office 365 審核記錄](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
+
+[將電子醫療保健記錄整合至 Microsoft Teams](patients-app.md)

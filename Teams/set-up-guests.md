@@ -3,7 +3,6 @@ title: 開啟或關閉 Microsoft 團隊的來賓存取權
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 03/06/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -18,38 +17,36 @@ ms.custom:
 f1keywords: ms.teamsadmincenter.orgwidesettings.guestaccess.turnonguestaccessarticle
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 186c83b82c396a21fe0098a561bcd4db13370140
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: 20971fd985d4512e8a9bf00db23092f1a6e44702
+ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "37571574"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "37753348"
 ---
 <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>開啟或關閉 Microsoft 團隊的來賓存取權
 ===================================================
 
-做為 Office 365 系統管理員，您必須先啟用來賓功能，您或貴組織的使用者（特別是團隊擁有者）才能新增來賓。
+預設會關閉來賓存取。 就像 Office 365 管理員一樣，您必須先開啟團隊的來賓存取權，管理員或團隊擁有者才能新增來賓。 若要開啟來賓存取，請使用[來賓存取檢查清單](guest-access-checklist.md)。 
 
-來賓設定是在 Azure Active Directory 中設定。 在您的 Office 365 組織中，變更的時間必須是2小時到24小時才能生效。 當使用者嘗試將來賓新增到其小組時，如果使用者看到「與您的系統管理員聯繫」的訊息，可能是因為來賓功能尚未啟用或設定尚未生效。
+開啟來賓存取之後，變更將需要2-24 小時才能生效。 當使用者嘗試將來賓新增到其小組時，如果使用者看到「與您的系統管理員聯繫」訊息，可能是因為來賓存取尚未開啟，或是設定尚未生效。
 
 > [!IMPORTANT]
-> 若要啟用來賓存取功能的完整體驗，請務必瞭解 Microsoft 團隊、Azure Active Directory 和 Office 365 之間的核心授權相依性。 如需詳細資訊，請參閱[授權 Microsoft 團隊中的來賓存取](Teams-dependencies.md)。
+> 開啟來賓存取權視 Azure Active Directory、Office 365、SharePoint Online 和團隊中的設定而定。 如需詳細資訊，請參閱[核准團隊中的來賓存取權](Teams-dependencies.md)。
 
-## <a name="guest-access-vs-external-access-federation"></a>來賓存取與外部存取（同盟）
 
-[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
-## <a name="configure-guest-access-in-the-microsoft-teams-admin-center"></a>在 Microsoft [團隊管理中心] 中設定來賓存取
+## <a name="configure-guest-access-in-the-teams-admin-center"></a>在團隊系統管理中心設定來賓存取
 
 1.  登入 Microsoft 團隊系統管理中心。
 
 2.  選取 [全**組織性設定** > **來賓存取**]。
 
-3. 將**Microsoft 團隊中的 [允許來賓存取**] 切換為 [**開啟**]。
+3. 將**Microsoft 團隊中的 [允許來賓存取**權設定為 [**開啟**]。
 
     ![[允許來賓存取開關設定為開啟] ](media/set-up-guests-image1.png)
 
-4.  根據您要允許來賓使用者的功能，將 [**通話**]、[**會議**] 和 [**訊息**] 下的切換設定為 [**開啟**] 或 [**關閉**]。
+4.  在 [**通話**]、[**會議**] 和 [**訊息**] 底下，針對每個功能選取 [**開啟**] 或 [**關閉**]，視您想要來賓使用者的需求而定。
 
     - **撥打私人電話** **–開啟此設定可**讓來賓進行對等通話。
     - [**允許 IP 影片**] **-開啟此設定可**讓來賓在通話和會議中使用影片。
@@ -73,45 +70,16 @@ ms.locfileid: "37571574"
 5.  按一下 [**儲存**]。
 
 ## <a name="use-powershell-to-turn-guest-access-on-or-off"></a>使用 PowerShell 開啟或關閉來賓存取
+已閱讀 [[使用 PowerShell] 開啟或關閉來賓存取](guest-access-PowerShell.md#use-powershell-to-turn-guest-access-on-or-off)
 
-1.  從下載商務用 Skype Online PowerShell 模組https://www.microsoft.com/en-us/download/details.aspx?id=39366
- 
-2.  將 PowerShell 會話連線到商務用 Skype Online 端點。
 
-    ```
-    Import-Module SkypeOnlineConnector
-    $Cred = Get-Credential
-    $CSSession = New-CsOnlineSession -Credential $Cred
-    Import-PSSession -Session $CSSession
-    ```
-3.  檢查您的設定， `AllowGuestUser`如果`$False`是，請使用[CsTeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps) Cmdlet 將它設定為`$True`。
-
-    ```
-    Get-CsTeamsClientConfiguration
-
-    Identity                         : Global
-    AllowEmailIntoChannel            : True
-    RestrictedSenderList             :
-    AllowDropBox                     : True
-    AllowBox                         : True
-    AllowGoogleDrive                 : True
-    AllowShareFile                   : True
-    AllowOrganizationTab             : True
-    AllowSkypeBusinessInterop        : True
-    ContentPin                       : RequiredOutsideScheduleMeeting
-    AllowResourceAccountSendMessage  : True
-    ResourceAccountContentAccess     : NoAccess
-    AllowGuestUser                   : True
-    AllowScopedPeopleSearchandAccess : False
-    
-    Set-CsTeamsClientConfiguration -AllowGuestUser $True -Identity Global
-    ```
-您現在可以在貴組織的小組中擁有來賓使用者。
-
-## <a name="more-information"></a>其他資訊
-
-請觀看下列影片，以取得更多關於來賓存取的詳細資料。
+## <a name="video-adding-guests-in-teams"></a>影片：在團隊中新增來賓
 
 |  |  |
 |---------|---------|
 | 在 Microsoft 團隊中新增來賓   | <iframe width="350" height="200" src="https://www.youtube.com/embed/1daMBDyBLZc" frameborder="0" allowfullscreen></iframe>   | 
+
+
+## <a name="external-access-federation-vs-guest-access"></a>外部存取（同盟）與來賓存取
+
+[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
