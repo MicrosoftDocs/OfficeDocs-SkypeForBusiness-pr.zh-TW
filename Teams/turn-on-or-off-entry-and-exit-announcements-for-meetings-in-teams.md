@@ -63,4 +63,4 @@ Windows PowerShell 全部說明如何管理使用者，以及允許或不允許�
   
 ## <a name="related-topics"></a>相關主題
 
-[音訊會議常見問題](audio-conferencing-common-questions.md)
+[音訊會議的常見問題](audio-conferencing-common-questions.md)

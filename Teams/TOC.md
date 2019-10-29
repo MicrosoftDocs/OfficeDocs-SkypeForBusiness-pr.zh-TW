@@ -47,21 +47,30 @@
 ### [Teams 的應用程式範本](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [設定Skype 會議應用程式以搭配使用 Teams](configure-skype-meetings-app-to-work-with-teams.md)
 
+## 與外部使用者通訊
+### [與其他組織的使用者通訊](communicate-with-users-from-other-organizations.md)
 
-## 來賓存取
-### [關於來賓存取](guest-access.md)
-### [來賓如何加入小組](guest-joins.md)
-### [來賓體驗像什麼](guest-experience.md)
-### [在 Teams 中授權來賓存取](teams-dependencies.md)
-### [在 Teams 中開啟或關閉來賓存取](set-up-guests.md)
-### [在 Teams 中管理來賓存取](manage-guests.md)
-### [將來賓新增至小組](add-guests.md)
-### [在 Teams 中檢視來賓使用者](view-guests.md)
-### [編輯來賓使用者資訊](edit-guests-information.md)
-### [使用 PowerShell 控制小組的來賓存取](guest-access-PowerShell.md)
-### [來賓存取檢查清單](guest-access-checklist.md)
+### 外部存取 (同盟)
+#### [管理外部存取](manage-external-access.md)
+#### [適用於外部使用者的原生 Teams 聊天](native-chat-for-external-users.md)
 
-## [外部存取 (同盟)](manage-external-access.md)
+
+### 來賓存取
+#### [關於來賓存取](guest-access.md)
+#### [來賓存取檢查清單](guest-access-checklist.md)
+#### [來賓如何加入小組](guest-joins.md)
+#### [來賓體驗像什麼](guest-experience.md)
+#### [在 Teams 中授權來賓存取](teams-dependencies.md)
+#### [在 Teams 中開啟或關閉來賓存取](set-up-guests.md)
+#### [在 Teams 中管理來賓存取](manage-guests.md)
+#### [將來賓新增至小組](add-guests.md)
+#### [在 Teams 中檢視來賓使用者](view-guests.md)
+#### [編輯來賓使用者資訊](edit-guests-information.md)
+#### [使用 PowerShell 控制來賓存取](guest-access-PowerShell.md)
+#### [疑難排解來賓存取](troubleshoot-guest-access.md)
+
+
+
 
 ## 管理 Teams
 ### [系統管理員角色](using-admin-roles.md)
@@ -719,9 +728,11 @@
 ### [開始使用適用於醫療保健組織的 Teams 範本](expand-teams-across-your-org/healthcare/healthcare-templates.md)
 ### [開始使用適用於醫療保健組織的 Secure Messaging](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
 ### [訊息委派](expand-teams-across-your-org/healthcare/hc-delegates.md)
-### [將電子醫療保健記錄整合至 Microsoft Teams](expand-teams-across-your-org/healthcare/patients-app.md)
-#### [DSTU2 介面規格](expand-teams-across-your-org/healthcare/dstu2-interface.md)
-#### [STU3 介面規格](expand-teams-across-your-org/healthcare/stu3-interface.md)
+### [病患應用程式概觀](expand-teams-across-your-org/healthcare/patients-app-overview.md)
+#### [將電子醫療保健記錄整合至 Microsoft Teams](expand-teams-across-your-org/healthcare/patients-app.md)
+##### [DSTU2 介面規格](expand-teams-across-your-org/healthcare/dstu2-interface.md)
+##### [STU3 介面規格](expand-teams-across-your-org/healthcare/stu3-interface.md)
+#### [病患應用程式的稽核記錄](expand-teams-across-your-org/healthcare/patients-audit.md)
 
 ## [Microsoft Teams 教育版](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [快速入門 - Teams 教育版系統管理員](teams-quick-start-edu.yml)
