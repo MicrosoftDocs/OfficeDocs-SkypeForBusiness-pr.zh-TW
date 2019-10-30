@@ -1,5 +1,5 @@
 ---
-title: 硬體解碼器與編碼器驅動程式建議
+title: 硬體解碼器和編碼器驅動程式的建議
 ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
@@ -16,15 +16,15 @@ description: 列出由於驅動程式問題而未啟用硬體加速的作業系�
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
-- MicrOperating systemoft Teams
-ms.openlocfilehash: 5210f092993a2ecd52efc56f6953bfab6c2b0d19
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+- Microsoft Teams
+ms.openlocfilehash: b526af86ccf76c5d96694fef655f1e56c33d4d78
+ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570760"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "37772596"
 ---
-# <a name="hardware-decoder-and-encoder-driver-recommendations"></a>硬體解碼器與編碼器驅動程式建議
+# <a name="hardware-decoder-and-encoder-driver-recommendations"></a>硬體解碼器和編碼器驅動程式的建議
 
 Microsoft 支援所有的解碼器和編碼器，但本文中所列的除外。
 
@@ -139,4 +139,4 @@ Microsoft 支援所有的解碼器和編碼器，但本文中所列的除外。
 
 ## <a name="related-topics"></a>相關主題
 
-[團隊應用程式的硬體需求](hardware-requirements-for-the-teams-app.md)
+[Teams 應用程式的硬體需求](hardware-requirements-for-the-teams-app.md)

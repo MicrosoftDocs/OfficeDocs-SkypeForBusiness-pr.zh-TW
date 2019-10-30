@@ -1,5 +1,5 @@
 ---
-title: 使用 Microsoft 團隊範圍的目錄搜尋
+title: 使用 Microsoft Teams 限域目錄搜尋
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -17,14 +17,14 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 094d83f8f6b21fc5e820235b91fa14820f6b407e
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: fca0feadf29ce83a8a6867f0e00b06fc0426a203
+ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570110"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "37772330"
 ---
-# <a name="use-microsoft-teams-scoped-directory-search"></a>使用 Microsoft 團隊範圍的目錄搜尋
+# <a name="use-microsoft-teams-scoped-directory-search"></a>使用 Microsoft Teams 限域目錄搜尋
 
 Microsoft 團隊範圍的目錄搜尋可讓組織建立虛擬邊界，以控制使用者如何在組織中找到其他使用者並與之通訊。 
 
@@ -56,4 +56,5 @@ Microsoft 團隊可讓組織為使用者提供目錄的自訂視圖。 Microsoft
     ![Microsoft 團隊系統管理中心的作用中目錄搜尋範圍](media/teams-scoped-directory-search-image1.png)
 
 
-
+> [!IMPORTANT]
+> 此變更可能需要長達24小時才能進行複製。

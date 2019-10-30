@@ -2,7 +2,7 @@
 title: 將您的 StaffHub 團隊移至 Microsoft 團隊中的倒班
 author: LanaChin
 ms.author: v-lanac
-ms.reviewer: lisawu
+ms.reviewer: lisawu, gumariam
 manager: serdars
 ms.topic: article
 audience: admin
@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 03131bd9a89ae5f54fc8318b004385de3e32e26e
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 9468dea64c464b3bfc2f0cec7c53f46e2f388c1f
+ms.sourcegitcommit: 7d5dd650480ca2e55c24ce30408a5058067f6932
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569679"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "37775082"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>將 Microsoft StaffHub 小組移至 Microsoft 團隊中的倒班
 
@@ -83,7 +83,7 @@ ms.locfileid: "37569679"
 
 如果不符合這些先決條件，移動要求將會失敗。
 
-### <a name="assign-teams-licenses"></a>指派團隊授權
+### <a name="assign-teams-licenses"></a>指派 Teams 授權
 
 每個使用者都必須從[符合資格的方案](microsoft-staffhub-to-be-retired.md#which-plans-is-shifts-available-in)中擁有有效的 Microsoft 365 或 Office 365 授權，且必須指派團隊授權。 指派團隊授權給使用者可讓他們存取小組。
 
@@ -109,17 +109,29 @@ ms.locfileid: "37569679"
 
 #### <a name="get-a-list-of-all-inactive-accounts-on-staffhub-teams"></a>取得 StaffHub 小組中所有非作用中帳戶的清單
 
-執行下列動作以取得 StaffHub 小組中所有非作用中帳戶的清單，並將清單匯出為 CSV 檔案。
+執行下列系列命令，以取得 StaffHub 小組中所有非作用中帳戶的清單，並將清單匯出為 CSV 檔案。 每個命令都應該單獨執行。
 
 ```
 $InvitedUsersObject = @()
-$StaffHubTeams = Get-StaffHubTeamsForTenant $StaffHubTeams[0] = $StaffHubTeams[0] | Where-Object { $_.ManagedBy -eq 'StaffHub' }
-foreach($team in $StaffHubTeams[0]) { write-host $team.name $StaffHubUsers = Get-StaffHubMember -TeamId $team.Id | where {$_.State -eq "Invited"}
-foreach($StaffHubUser in $StaffHubUsers) {
-        $InvitedUsersObject  += New-Object PsObject -Property @{         "TeamID"="$($team.Id)"         "TeamName"="$($team.name)"         "MemberID"="$($StaffHubUser.Id)" }
+
+$StaffHubTeams = Get-StaffHubTeamsForTenant
+
+$StaffHubTeams[0] = $StaffHubTeams[0] | Where-Object { $_.ManagedBy -eq 'StaffHub' }
+
+foreach($team in $StaffHubTeams[0])
+{ 
+    Write-host $team.name
+    $StaffHubUsers = Get-StaffHubMember -TeamId $team.Id | where {$_.State -eq "Invited"}
+    foreach($StaffHubUser in $StaffHubUsers) {
+        $InvitedUsersObject  += New-Object PsObject -Property @{
+          "TeamID"="$($team.Id)"
+          "TeamName"="$($team.name)"
+          "MemberID"="$($StaffHubUser.Id)"
+            }
+    }
 }
-}
-$InvitedUsersObject | SELECT * $InvitedUsersObject | SELECT * | export-csv InvitedUsers.csv -NoTypeInformation  
+
+$InvitedUsersObject | SELECT * | export-csv InvitedUsers.csv -NoTypeInformation  
 ```
 
 #### <a name="link-the-account"></a>連結帳戶
@@ -255,6 +267,7 @@ Move-PnPFile -ServerRelativeUrl "/sites/<Group Name>/Shared Documents/<File Name
 
 ```
 $StaffHubTeams = Get-StaffHubTeamsForTenant
+
 $StaffHubTeams[0] | Where-Object { $_.ManagedBy -eq ‘StaffHub’ }
 ```
 
@@ -295,6 +308,7 @@ Get-StaffHubTeamsForTenant -ManagedBy "Staffhub"
 
 ```
 $StaffHubTeams = Import-Csv .\teams.csv
+
 foreach ($team in $StaffHubTeams[0]) {Move-StaffHubTeam -TeamId $team.Id}
 ```
 
@@ -322,7 +336,9 @@ Get-StaffHubTeamsForTenant -ManagedBy "Teams"
 
 ```
 Move-StaffHubTeam -TeamId <TeamId>
+
 $res = Get-TeamMigrationJobStatus -JobId <JobId>
+
 $res.Status
 ```
 
@@ -356,6 +372,6 @@ $res.Result.Error.Innererror
 
 ## <a name="related-topics"></a>相關主題
 - [如何推出 Microsoft 團隊](../../How-to-roll-out-teams.md)
-- [Microsoft StaffHub 停用](microsoft-staffhub-to-be-retired.md)
+- [終止對 Microsoft StaffHub 的支援](microsoft-staffhub-to-be-retired.md)
 - [在 Microsoft 團隊中為您的組織管理倒班應用程式](manage-the-shifts-app-for-your-organization-in-teams.md)
 - [StaffHub PowerShell 參考](https://docs.microsoft.com/powershell/module/staffhub/?view=staffhub-ps)

@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '[會議遷移服務（MMS）] 是在背景執行的服務，會自動更新使用者的商務用 Skype 和 Microsoft 團隊會議。 MMS 的設計目的是要讓使用者不需要執行會議遷移工具來更新其商務用 Skype 和 Microsoft 團隊會議。'
-ms.openlocfilehash: cd7796b600486b672318ecbd67b50ee6d68f43e4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3f643f20937fd13b0d9576640487da30f17dd7bf
+ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "37642442"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "37772277"
 ---
 # <a name="using-the-meeting-migration-service-mms"></a>使用會議遷移服務（MMS）
 
@@ -94,11 +94,11 @@ ms.locfileid: "37642442"
 在下列情況下，MMS 會更新現有的商務用 Skype 和 Microsoft 團隊會議，以新增、移除或修改撥入座標：
 
 - 當您指派或移除 Microsoft 音訊會議服務授權給使用者時，該使用者並未啟用協力廠商音訊會議提供者。
-- 當您將使用者的音訊會議提供者從任何其他提供者變更為 Microsoft 時，前提是該使用者已獲指派 Microsoft 音訊會議授權。 如需詳細資訊，請參閱[將 Microsoft 指派為音訊會議提供者](https://docs.microsoft.com/en-us/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)。 另請注意，對於協力廠商音訊會議提供者 [ACP] 的支援，在2019年4月1日（如前所述）[推出](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers)。
+- 當您將使用者的音訊會議提供者從任何其他提供者變更為 Microsoft 時，前提是該使用者已獲指派 Microsoft 音訊會議授權。 如需詳細資訊，請參閱[將 Microsoft 指派為音訊會議提供者](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)。 另請注意，對於協力廠商音訊會議提供者 [ACP] 的支援，在2019年4月1日（如前所述）[推出](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers)。
 - 當您啟用或停用使用者的音訊會議時。
 - 變更或重設已設定為使用公用會議之使用者的會議 ID。
 - 當您將使用者移至新的音訊會議橋接器時。
-- 從音訊會議橋中取消指派電話號碼時。 這是一個需要額外步驟的複雜情況。 如需詳細資訊，請參閱[在音訊會議橋中變更電話號碼](https://docs.microsoft.com/en-us/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge)。
+- 從音訊會議橋中取消指派電話號碼時。 這是一個需要額外步驟的複雜情況。 如需詳細資訊，請參閱[在音訊會議橋中變更電話號碼](https://docs.microsoft.com/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge)。
 
 並非對使用者的音訊會議設定所做的所有變更都會觸發 MMS。 具體說來，下列兩項變更不會導致 MMS 更新會議：
 
@@ -174,7 +174,7 @@ Start-CsExMeetingMigration -Identity ashaw@contoso.com -TargetMeetingType Teams
 1. 判斷哪些使用者受到影響。 執行下列命令以取得受影響的使用者清單，以及所報告的特定錯誤：
 
     ```
-    Get-CsMeetingMigrationStatus| Where {$_.State -eq "Failed"}| Format-Table Identity, LastMessage
+    Get-CsMeetingMigrationStatus| Where {$_.State -eq "Failed"}| Format-Table UserPrincipalName, LastMessage
     ```
 2. 針對每個受影響的使用者，請執行會議遷移工具以手動遷移其會議。
 
@@ -210,6 +210,6 @@ Set-CsOnlineDialInConferencingTenantSettings  -AutomaticallyMigrateUserMeetings 
 
 ## <a name="related-topics"></a>相關主題
 
-[在 Office 365 中試用或購買音訊會議](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[試用或購買 Office 365 的音訊會議](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 
-[在內部部署與雲端之間移動使用者](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
+[在內部部署和雲端之間移動使用者](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
