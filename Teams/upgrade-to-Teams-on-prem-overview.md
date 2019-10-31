@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cef0a06ceb37cdfff3e9e4952f10397e7ee9b698
-ms.sourcegitcommit: 876b576db1fee38c09ab3a0092116212e498eda7
+ms.openlocfilehash: dc54251d228a4b496480759d90d850cf000f5aeb
+ms.sourcegitcommit: 2064c94eae82a5453674d38f0b28dcd6dc5c370e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "37733097"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "37885537"
 ---
 # <a name="upgrade-from-skype-for-business-to-teams-mdash-for-it-administrators"></a>從商務用 Skype 升級至適用&mdash;于 IT 系統管理員的小組
 
@@ -227,6 +227,8 @@ Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 - 如果您擁有內部部署商務用 Skype 帳戶的任何使用者，則不應在租使用者層級指派 TeamsOnly 模式，除非您明確地將部分其他模式指派給使用內部部署商務用 Skype 帳戶的所有使用者。 
 
 - 您必須確保您的使用者能以正確的商務用 Skype 屬性正確地同步處理到 Azure AD。 這些屬性都是含 "msRTCSIP-" 的所有首碼。 如果使用者未正確地同步處理到 Azure AD，小組中的管理工具將無法管理這些使用者。 如需詳細資訊，請參閱[設定團隊與商務用 Skype 的 AZURE AD Connect](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect)。
+
+- 若要在混合式組織中建立新的 TeamsOnly 或商務用 Skype Online 使用者，*您必須先在內部部署中啟用商務用 Skype Server 中的使用者*，然後使用 move-csuser 將使用者從內部部署移至雲端。  首先，在內部部署中建立使用者，以確保任何其他剩餘的內部部署商務用 Skype 使用者都能傳送給新建立的使用者。 當所有使用者都在線上移動之後，就不再需要先在內部部署中啟用使用者。
 
 - 當使用者從內部部署移至雲端時，由該使用者組織的會議會遷移到商務用 Skype Online 或團隊中，視是否已指定-MoveToTeams 開關而定。
 

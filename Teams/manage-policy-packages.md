@@ -16,12 +16,12 @@ f1keywords: ms.teamsadmincenter.policypackages.overview
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何在 Microsoft 團隊中使用及管理原則套件。
-ms.openlocfilehash: 1caa1606f330b92507342140efbfc144def8c547
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: d9e18f662f96d4021cf4878ba5130decb40bb9e4
+ms.sourcegitcommit: b6e17a6690011917c8fc14e98a49af654441a204
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571942"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "37889852"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>管理 Microsoft 團隊中的原則套件
 

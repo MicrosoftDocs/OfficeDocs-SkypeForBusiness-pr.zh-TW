@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b87737aae65493652f3b87de6bbd1369d6982526
-ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
+ms.openlocfilehash: bfc56f9f7b02acda61b0342f28b14da5379bea31
+ms.sourcegitcommit: ced9b584eeceff7ca0109cba5823c7c3ddbd092e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "37772357"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "37886426"
 ---
 <a name="get-clients-for-microsoft-teams"></a>為 Microsoft 團隊取得用戶端 
 ===========================
@@ -104,11 +104,12 @@ IT 管理員可以使用小組的 managed 部署來將安裝檔案發佈到其�
 
 Linux 使用者可以使用 Debian `.deb`套件或紅帽封裝`.rpm`來安裝小組。 
 
-[!NOTE] Linux 用戶端上的團隊可在有限的預覽中取得。 在用戶端`Report a Problem`中使用從用戶端提交的錯誤。 如有已知問題，請參閱[已知問題](Known-issues.md)。
+> [!NOTE] 
+> Linux 用戶端上的團隊可在有限的預覽中取得。 在用戶端`Report a Problem`中使用從用戶端提交的錯誤。 如有已知問題，請參閱[已知問題](Known-issues.md)。
 
 #### <a name="install-teams-using-deb-package"></a>使用 DEB 套件安裝團隊
 
-1. 從https://aka.ms/getteams下載套件。
+1. 從https://aka.ms/getteams下載套件。 （Linux 用戶端在有限預覽中，即將啟動。 如果您在 [下載] 頁面上沒有看到 Linux 用戶端，則它尚未啟動。
 2. 使用下列其中一項進行安裝：  
     - 使用 Ubuntu 軟體工具開啟套件，然後移至自行引導 Linux app 安裝程式。
     - 或者，如果您喜歡 [終端]，請輸入：`sudo apt install **teams download file**`
@@ -117,7 +118,7 @@ Linux 使用者可以使用 Debian `.deb`套件或紅帽封裝`.rpm`來安裝小
 
 #### <a name="install-teams-using-rpm-package"></a>使用 RPM 套件安裝團隊
 
-1. 從https://aka.ms/getteams下載套件。
+1. 從https://aka.ms/getteams下載套件。 （Linux 用戶端在有限預覽中，即將啟動。 如果您在 [下載] 頁面上沒有看到 Linux 用戶端，則它尚未啟動。
 2. 使用下列其中一項進行安裝：
     - 使用 Red Hat 封裝管理工具開啟套件，然後執行自行引導 Linux app 安裝程式。
     - 或者，如果您喜歡 [終端]，請輸入：`sudo yum install **teams download file**`

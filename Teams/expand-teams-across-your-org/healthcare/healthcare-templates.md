@@ -1,5 +1,5 @@
 ---
-title: 開始使用適用于醫療保健組織的團隊範本
+title: 開始使用適用於醫療保健組織的 Teams 範本
 author: jambirk
 ms.author: jambirk
 manager: serdars
@@ -14,15 +14,15 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: 開始使用適用于醫療保健組織的團隊範本
-ms.openlocfilehash: df917c3a6f1cbf20c9226dd58e4706c4c0e3bc2c
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+description: 開始使用適用於醫療保健組織的 Teams 範本
+ms.openlocfilehash: e19c0403f259f400e784faf928738d36df66d618
+ms.sourcegitcommit: ced9b584eeceff7ca0109cba5823c7c3ddbd092e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570344"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "37886436"
 ---
-# <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>開始使用適用于醫療保健組織的團隊範本
+# <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>開始使用適用於醫療保健組織的 Teams 範本
 
 Microsoft 團隊範本可讓您透過提供預先定義的設定、頻道及預先安裝應用程式範本，快速且輕鬆地建立小組。
 
@@ -48,6 +48,17 @@ Ward 範本適用于 ward、pod 或部門中的通訊與共同作業。 範本�
 |基底範本類型 |baseTemplateId |比較基準範本頻道|
 |:--- |:---|:---|
 |醫療保健-醫院 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')`   | 公告\* <br> 從屬\* <br> Custodial <br> 人力資源 <br> 藥房 |
+| | |  |
+
+\*自動將 
+
+## <a name="care-coordination-template"></a>護理協調範本
+
+[護理協調] 範本是協助患者護理小組中的通訊，包括 interdisciplinary 和學科小組等一些範例。 我們專屬的患者應用程式是預先載入在這個範本中，且位於 [一般] 頻道。 有了患者應用程式，您就可以彙整患者及其相關值和 vitals 的清單，讓它在舍入和患者管理案例中非常有用。 
+
+|基底範本類型 |baseTemplateId |比較基準範本頻道|
+|:--- |:---|:---|
+|醫療保健-護理協調 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareCareCoordination')`   | 治療後審查\* <br> 排程\* <br> 訓練\* |
 | | |  |
 
 \*自動將 
@@ -163,6 +174,6 @@ Ward 範本適用于 ward、pod 或部門中的通訊與共同作業。 範本�
 
 ## <a name="related-topics"></a>相關主題
 
-[團隊範本快速入門](../../get-started-with-teams-templates.md)
+[開始使用 Teams 範本](../../get-started-with-teams-templates.md)
 
-[開始使用適用于醫療保健組織的團隊](teams-in-hc.md)
+[開始使用適用於醫療保健組織的 Teams](teams-in-hc.md)

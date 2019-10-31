@@ -14,14 +14,14 @@ MS.collection:
 appliesto: Microsoft Teams
 ms.reviewer: anach
 description: 適用于團隊管理員的患者應用程式
-ms.openlocfilehash: 1ed3efc1aa5a6d3eb4554fca6ee3bd7cfe57f4c0
-ms.sourcegitcommit: 25b6bf2c3050390cd668d2495ffcf31c44d0ff62
+ms.openlocfilehash: 85f0d382de11b9259c6839aa8d0e556ad2512f5a
+ms.sourcegitcommit: 2064c94eae82a5453674d38f0b28dcd6dc5c370e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37749555"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "37885497"
 ---
-# <a name="patients-app-overview"></a>患者 app 概述
+# <a name="patients-app-overview"></a>病患應用程式概觀
 
 患者應用程式是適用于所有團隊使用者的 Microsoft 團隊商店應用程式。 應用程式可讓患者護理小組（例如護士、醫生、社會工人）彙整和審閱患者的清單，這些案例包括從倒圓角和 interdisciplinary 團隊會議到一般患者監控等。   
 
@@ -43,6 +43,30 @@ App 有兩種模式：
 <!-- For information on how your end users can access and install the Patients App to a team that they own or manage, you will need to see [End user documentation for the Patients App]() -->
 
 <!-- add link out to client doc, doesn't seem to be available yet, Grant is finalizing -->
+
+## <a name="frequently-asked-questions-faq"></a>常見問題（FAQ）
+
+**患者應用程式資料儲存在哪裡？**
+
+使用者在患者 App 中輸入的所有資料（包括欄/欄位架構），在清單及清單專案（亦即患者）中輸入的實際資料都儲存在安全相容的 Exchange Online 基礎結構中。 所有資料都儲存在與小組相關聯的群組信箱中。 這個架構可讓患者 App 輕鬆地完成資料派駐、政府雲端支援（未來），以及 eDiscovery 支援等其他合規性/資訊保護功能。 患者 app 會在團隊範圍中運作。 您將需要安裝每個團隊的 app 實例。
+
+<!-- add link to eDiscovery article for the Patients app, Mark Johnson will finalize soon -->
+
+**我可以從哪裡取得患者應用程式？**
+
+如果患者 app 由其系統管理員啟用，任何使用者都可以移至 [小組] app 商店，並將患者 app 新增至他們所屬的小組。 如需詳細資訊，請參閱[在 Microsoft 團隊中管理 app 設定原則](../../teams-app-setup-policies.md)。
+
+**我可以在小組中有多個患者應用程式實例，因為我的 ward/單元的運作方式為何？**
+
+目前，您只能針對特定團隊安裝一個患者應用程式實例，且僅適用于 [一般] 頻道。 不過，在應用程式中，可以建立多個清單來處理多聲道或隔離/分隔案例。 根據預設，小組中的所有成員都會有權存取 [一般] 頻道中的 [患者] 索引標籤。 
+
+**我可以從患者 app 匯出所有資料嗎？**
+目前尚不提供此功能，但即將推出這項功能。 
+
+**因為這個 app 可容納 PHI，所以是否有審核來防止未經授權的存取或合規性遵從管理法規？**
+
+是的，就是。 Microsoft 團隊使用者在患者 app 上執行的每個單一 UI 動作都會在安全性與合規性中心進行審核並提供。 [本文將](patients-audit.md)說明詳細資料
+
 
 ## <a name="related-topics"></a>相關主題
 

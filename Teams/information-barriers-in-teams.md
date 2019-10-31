@@ -13,12 +13,12 @@ ms.reviewer: vikramju
 description: 瞭解資訊障礙及其對團隊有何影響。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2b38a21e9e18bb94809a8c42fba33ab273cfb004
-ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
+ms.openlocfilehash: 9a8f67e03ca005ef99a4a2fbfd3c3e05373c53ad
+ms.sourcegitcommit: 2064c94eae82a5453674d38f0b28dcd6dc5c370e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "37772586"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "37885527"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft 團隊中的資訊障礙
 
@@ -64,7 +64,7 @@ IB 相容性管理角色負責管理資訊屏障原則。 如需有關此角色�
 - **使用者受邀加入會議**-當使用者受邀加入會議時，系統會針對其他團隊成員的原則評估使用者的原則，如果發生衝突，就不允許使用者加入會議。
 - **在兩個以上的使用者之間共用螢幕**-只要兩個或多個使用者共用畫面，就必須評估畫面共用，以確保它不會違反其他使用者的資訊屏障原則。 如果違反資訊屏障原則，就不允許使用螢幕共用。
 - **使用者將電話撥打電話（VOIP）放在團隊中**，只要使用者向其他使用者或群組使用者啟動語音通話，就會評估通話，確定它不會違反其他小組成員的資訊屏障原則。 如果有任何侵犯，語音通話會遭到封鎖。
-- **小組中的來賓使用者**也可以在小組中的來賓使用者也套用資訊屏障原則。 如果在貴組織的全域通訊清單中，來賓使用者需要可被探索，請參閱[管理 Office 365 群組中的來賓存取](https://docs.microsoft.com/office365/admin/create-groups/manage-guest-access-in-groups?view=o365-worldwide#can-i-make-guest-objects-visible-in-the-global-address-list)。 一旦訪客使用者可被發現，您就可以[定義資訊屏障原則](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)。
+- **小組中的來賓使用者**也可以在小組中的來賓使用者也套用資訊屏障原則。 如果在貴組織的全域通訊清單中，來賓使用者需要可被探索，請參閱[管理 Office 365 群組中的來賓存取](https://docs.microsoft.com/office365/admin/create-groups/manage-guest-access-in-groups?view=o365-worldwide#can-i-make-guest-objects-visible-in-the-global-address-list)。 一旦訪客使用者可被發現，您就可以[定義資訊屏障原則](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)。 
 
 ## <a name="what-happens-to-existing-chat-threads-when-a-policy-is-changed"></a>變更原則後，現有的聊天線程會發生什麼情況？
 
@@ -111,7 +111,7 @@ IB 相容性管理角色負責管理資訊屏障原則。 如需有關此角色�
 
 如需詳細資訊（包括方案和定價），請參閱[合規性解決方案](https://products.office.com/business/security-and-compliance/compliance-solutions?rtc=1)。
 
-## <a name="more-information"></a>其他資訊
+## <a name="more-information"></a>詳細資訊
 
 - 若要深入瞭解資訊障礙，請參閱[資訊障礙](https://docs.microsoft.com/office365/securitycompliance/information-barriers)。
 
