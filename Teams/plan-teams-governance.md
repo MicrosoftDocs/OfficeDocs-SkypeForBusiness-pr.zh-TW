@@ -15,14 +15,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2400ef05c65bf69adb820d62e98c93c060641350
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 4ab8f3571ac38273f40cc228c05b51c8f00159a1
+ms.sourcegitcommit: 800a5c3881d0ebceb505a538fcf7e48f7b6df17e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573248"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37913038"
 ---
-# <a name="plan-for-governance-in-teams"></a>在小組中規劃管理
+# <a name="plan-for-governance-in-teams"></a>Teams 中的控管方案
 
 團隊會提供一組豐富的工具來實施貴組織可能需要的任何管轄功能。 本文將指導 IT 專業人員提出正確的問題，以決定其管理需求，以及如何滿足他們的需求。 
 
@@ -47,8 +47,8 @@ ms.locfileid: "37573248"
 |---------|---------|---------|---------|
 |團隊命名原則 | 使用以前置詞為基礎的自訂封鎖字。 |P1 |TBD |
 |小組分類 |指派分類給小組。 |P1 |TBD |
-|小組來賓存取 |允許或禁止將來賓新增至小組。 |不 |TBD |
-|小組建立 |將小組建立限制為管理員。 |不 |TBD|
+|小組來賓存取 |允許或禁止將來賓新增至小組。 |否 |TBD |
+|小組建立 |將小組建立限制為管理員。 |否 |TBD|
 |小組建立 |將小組建立限制為安全群組成員。 |P1 |TBD|
 
 > [!NOTE]
@@ -84,8 +84,8 @@ ms.locfileid: "37573248"
 |功能 |詳細資料 |需要 Azure AD Premium 授權 |決議 |
 |---------|---------|---------|---------|
 |過期原則 |您可以設定過期原則來管理 Office 365 群組的生命週期。 |P1 |TBD|
-|保留原則 |在安全性 & 合規性中心設定小組的保留原則，以保留或刪除特定時段內的資料。 **注意**：使用這項功能需要授權 Office 365 Enterprise E3 或更新版本。 |不 |TBD |
-|封存和還原 |當小組已不在使用中，但您想要保留以供參考或在將來重新啟用時，請封存團隊。 |不 |TBD |
+|保留原則 |在安全性 & 合規性中心設定小組的保留原則，以保留或刪除特定時段內的資料。 **注意**：使用這項功能需要授權 Office 365 Enterprise E3 或更新版本。 |否 |TBD |
+|封存和還原 |當小組已不在使用中，但您想要保留以供參考或在將來重新啟用時，請封存團隊。 |否 |TBD |
 
 > [!Note]
 > [群組到期] 是 Azure AD Premium 功能。 若要使用此功能，您的租使用者必須具備 Azure AD Premium 的訂閱，以及設定受影響群組之成員之系統管理員的授權。
@@ -118,7 +118,7 @@ ms.locfileid: "37573248"
 如需所有設定的詳細清單，包括如何針對您的組織實施相關的技術指導方針，請參閱下列文章：
 
 - [管理貴組織的 Microsoft 團隊設定](enable-features-office-365.md)
-- [在轉場至新的 Microsoft 團隊系統管理中心時管理團隊](manage-teams-skypeforbusiness-admin-center.md)
+- [在轉換至新 Microsoft Teams 系統管理中心期間管理 Teams](manage-teams-skypeforbusiness-admin-center.md)
 - [在團隊中管理會議原則](meeting-policies-in-teams.md)
 - [管理小組中的訊息傳遞原則](messaging-policies-in-teams.md)
 
@@ -130,6 +130,10 @@ ms.locfileid: "37573248"
 
 > [!Important]
 > 如果您的組織具備合規性與安全性需求，請參閱在[Microsoft 團隊中的安全性與合規性一](security-compliance-overview.md)文中所提供的深入閱讀本主題的內容。
+
+## <a name="related-topics"></a>相關主題
+
+[團隊的管理快速入門](teams-adoption-governance-quick-start.md)
 
 <!--
 ## Teams lifecycle management
