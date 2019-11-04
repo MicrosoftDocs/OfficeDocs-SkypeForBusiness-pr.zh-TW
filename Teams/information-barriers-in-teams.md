@@ -13,12 +13,12 @@ ms.reviewer: vikramju
 description: 瞭解資訊障礙及其對團隊有何影響。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9a8f67e03ca005ef99a4a2fbfd3c3e05373c53ad
-ms.sourcegitcommit: 2064c94eae82a5453674d38f0b28dcd6dc5c370e
+ms.openlocfilehash: f3d6d8d603d9ff6ccf20a355e374b58fdf46ffa1
+ms.sourcegitcommit: 2e005b335b1566c99b93fc311498702838466324
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "37885527"
+ms.lasthandoff: 11/02/2019
+ms.locfileid: "37931801"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft 團隊中的資訊障礙
 
@@ -27,7 +27,7 @@ ms.locfileid: "37885527"
 > [!NOTE]
 > - 資訊屏障群組無法跨承租人建立。
 > - 在版本1中不支援使用 bot 來新增使用者。
-> - 資訊障礙版本1不包含 SharePoint 和商務用 OneDrive 的支援。 我們正在努力啟用 SharePoint 中的功能，並會在可用後進行通訊。
+> - [新增]：連線至團隊之 SharePoint 網站的資訊障礙支援現已成為私人預覽。 如要參與私人預覽，請按一下[這裡](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR3-O9WDTKhhDtgWfphwS9YhUM0hJNklNRkZKMlhLNDRZNzlEQlVDSjdZVi4u)。 .
 
 資訊屏障原則也會防止查閱和探索。 這表示如果您嘗試與您不應該與之通訊的人通訊，就不會在人員選擇器中找到該使用者。
 
@@ -76,45 +76,37 @@ IB 相容性管理角色負責管理資訊屏障原則。 如需有關此角色�
 - **群組聊天**-如果已不再允許來自某個使用者的通訊（例如，如果使用者變更了工作），則該使用者以及違反該原則的其他使用者，都可能會從群組聊天中移除，而不會進一步與群組通訊允許. 使用者仍然可以看到舊的交談（這會是唯讀的），但無法看到或參與與群組的任何新交談。 如果新的或已變更的原則將通訊套用到多個使用者，則受該原則影響的使用者可能會從群組聊天中移除。 他們仍能看到舊的交談。 
 - **小組**-已從群組中移除的任何使用者都會從小組中移除，而且將無法查看或參與現有或新的交談。
 
+
 ## <a name="what-will-users-experience-if-another-user-is-blocked"></a>如果其他使用者遭到封鎖，使用者會有什麼體驗？
 
 目前，如果資訊屏障原則封鎖其他使用者，使用者就會遇到下列問題：
 
-- [**人員]** 索引標籤-使用者可能會在 [**人員**] 索引標籤上看到封鎖的使用者。使用者可以選取封鎖的使用者。
-- [**活動]** 索引標籤-如果使用者要造訪封鎖使用者的 [**活動**] 索引標籤，就不會顯示任何文章。 （[**活動**] 索引標籤只會顯示頻道發佈，而在兩個使用者之間則不會有任何常見頻道。）
-- **組織**結構-如果使用者存取出現封鎖使用者的組織結構，該使用者會在圖表上看到封鎖的使用者，而且可以在圖表上按一下 [動作]，但動作（例如 [通話]）不會繼續進行。
-- **連絡人卡片**-如果使用者參與交談且隨後遭到封鎖，其他使用者仍可看到封鎖使用者的人員卡片。 系統會提供卡片上所列的所有動作（例如通話和聊天），但無法繼續執行動作。
-- **建議的連絡人**-在 [建議的連絡人] 清單（為新使用者顯示的初始連絡人清單）中，使用者可以看到所有建議的連絡人（包括封鎖的使用者）。 不過，如果使用者按一下封鎖的使用者名稱來開啟 [聊天] 窗格，郵件將會被封鎖。
-- [**聊天連絡人**]-使用者可以在聊天連絡人清單中看到封鎖的使用者。
-- [**通話連絡人**]-使用者可以在通話連絡人清單中看到封鎖的使用者，並會顯示通話和訊息等動作，但當使用者嘗試呼叫或傳送訊息給封鎖的使用者時，通話或訊息將不會繼續進行。
-- **Skype 至團隊遷移**-在商務用 skype 中進行團隊遷移期間，所有使用者（即使是資訊屏障原則所封鎖），都會將它遷移至小組，然後將按照上述步驟進行處理。
-
-即將推出：如果資訊屏障原則封鎖其他使用者，使用者將會遇到下列問題：
-
 - [**人員]** 索引標籤-使用者無法在 [**人員**] 索引標籤上看到封鎖的使用者。
+- **人員選擇器**-在 [人員選擇器] 中不會顯示封鎖的使用者。
 - [**活動]** 索引標籤-如果使用者要造訪封鎖使用者的 [**活動**] 索引標籤，就不會顯示任何文章。 （[**活動**] 索引標籤只會顯示頻道發佈，而在兩個使用者之間則不會有任何常見頻道。）
 - **組織**結構-如果使用者存取的組織結構中出現封鎖的使用者，則封鎖的使用者不會出現在組織結構上，而是會顯示錯誤訊息。
 - **連絡人卡片**-如果使用者參與交談，且隨後遭到封鎖，當使用者將游標移到封鎖的使用者名稱上時，其他使用者就會看到錯誤訊息，而不是連絡人卡片。 在卡片上所列的動作（例如 [通話與聊天]）將無法使用。
 - [**建議的連絡人**]：封鎖的使用者不會出現在 [建議的連絡人] 清單中（針對新使用者顯示的初始連絡人清單）。
-- **聊天連絡人**-使用者在聊天連絡人清單中看不到封鎖的使用者。
+- [**聊天連絡人**]-使用者可以在聊天連絡人清單中看到封鎖的使用者，但會辨識封鎖的使用者，而使用者唯一可以執行的動作就是刪除它們。 使用者也可以按一下他們來查看其過去的交談。
 - [**通話連絡人**]-使用者可以在通話連絡人清單中看到封鎖的使用者，但系統會辨識封鎖的使用者，而使用者唯一可以執行的動作就是刪除它們。
 - **Skype 至團隊遷移**-在商務用 skype 中進行團隊遷移期間，所有使用者（即使是資訊屏障原則所封鎖），都會將它遷移至小組，然後將按照上述步驟進行處理。
 
+
+
 ## <a name="required-licenses-and-permissions"></a>所需的授權和許可權
 
-資訊障礙現在正在推出，且包含在訂閱中，例如：
+建立小組後，SharePoint 網站就會提供給小組，並與 [檔案體驗] 相關聯。 此 SharePoint 網站和檔案的存取權會採用組織的 IB 原則，亦即，只允許對每個 IB 原則進行的 IB 區段相符的使用者存取。 即使在檔案共用時，IB 原則也會生效。
 
-- Microsoft 365 E5
-- Office 365 E5
-- Office 365 高級合規性
-- Microsoft 365 E5 規範
+例如：在 Contoso 銀行公司中，使用者「Sesha@contosobank.onmicrosoft.com」屬於投資銀行區段，而使用者 ' Nikita@contosobank.onmicrosoft.com ' 屬於區段建議。 組織的 IB 原則會封鎖這兩個區段之間的通訊與共同作業。 當使用者 Sesha 建立投資銀行區段的小組時，只有投資銀行區段使用者才能存取該小組和支援該小組的 SharePoint 網站。 即使她擁有 [網站] 連結，使用者 Nikita 還是無法存取該網站。
 
-如需詳細資訊（包括方案和定價），請參閱[合規性解決方案](https://products.office.com/business/security-and-compliance/compliance-solutions?rtc=1)。
+如需詳細資訊（包括方案和定價），請參閱[授權指南](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-tenantlevel-services-licensing-guidance)。
+
 
 ## <a name="more-information"></a>詳細資訊
 
 - 若要深入瞭解資訊障礙，請參閱[資訊障礙](https://docs.microsoft.com/office365/securitycompliance/information-barriers)。
 
-- 若要設定資訊屏障原則，請參閱[定義資訊屏障的原則](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)
+- 若要設定資訊屏障原則，請參閱[定義資訊屏障的原則](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)。
 
 - 若要編輯或移除資訊屏障原則，請參閱[編輯（或移除）資訊屏障原則](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-edit-segments-policies.md)
+

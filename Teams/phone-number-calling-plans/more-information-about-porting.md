@@ -17,18 +17,18 @@ search.appverid: MET150
 ROBOTS: NOINDEX, NOFOLLOW
 f1keyword: ms.teamsadmincenter.voice.phonenumbers.porting.moreinfo
 description: 取得將您的電話號碼移植至 Microsoft 團隊所需的指導方針。
-ms.openlocfilehash: 53a2c640a708e5da0ed4c0d30bb678fc3cd2cbe3
-ms.sourcegitcommit: ced9b584eeceff7ca0109cba5823c7c3ddbd092e
+ms.openlocfilehash: 2fe77c4efb8728a10e433866ddf10309f51934a3
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "37886958"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925194"
 ---
 # <a name="more-information-about-porting"></a>移植的詳細資訊
 
 您可以在這裡找到將您的電話號碼移植至 Microsoft 團隊的詳細資訊。
 
-如需完整的逐步指示，請參閱將電話號碼轉移至團隊。
+如需完整的逐步指示，請參閱[將電話號碼轉移至團隊](transfer-phone-numbers-to-teams.md)。
 
 如果您需要協助，或如果您需要取得更多電話號碼，請聯絡[PSTN 服務台](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)說明。
 
@@ -106,11 +106,11 @@ ms.locfileid: "37886958"
 
 ## <a name="how-do-i-see-the-status-of-my-port-order"></a>如何查看我的埠順序狀態？
 
-查看您的埠訂單狀態為何？
+查看[您的埠訂單狀態為何？](port-order-status.md)
 
 ## <a name="related-topics"></a>相關主題
 
-- 什麼是埠順序？
+- [什麼是埠順序？](port-order-overview.md)
 - [通話方案所用的不同類型的電話號碼](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [管理貴組織的電話號碼](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [緊急通話條款及條件](../emergency-calling-terms-and-conditions.md)

@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '瞭解如何為您的組織設定電話系統（雲端 PBX）。 '
-ms.openlocfilehash: 429cedb3d8bad25982e4eacdaa82f82cacfc75ae
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: 402ae5f92e72cd1bc7ab759d3706108480a27a7e
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "37571532"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925294"
 ---
 # <a name="setting-up-phone-system-in-your-organization"></a>在組織中設定電話系統
 
@@ -69,7 +69,7 @@ ms.locfileid: "37571532"
   
 ### <a name="port-or-transfer-phone-numbers-from-your-service-provider-or-phone-carrier"></a>從服務提供者或電話載波傳送埠或轉移電話號碼
   
-- 如果您需要999或更少的使用者電話號碼，您可以使用商務用 Skype 系統管理中心的 [**新的當地號碼埠順序**] 嚮導。 遵循將電話號碼[轉接至 Office 365](transfer-phone-numbers-to-office-365.md)中的步驟，將您的電話號碼轉移到商務用 Skype Online。
+- 如果您需要999或更少的使用者電話號碼，您可以使用商務用 Skype 系統管理中心的 [**新的當地號碼埠順序**] 嚮導。 遵循將[電話號碼轉接給小組](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)，以轉接您的電話號碼中找到的步驟。
     
 - 如果您需要端口超過999的電話號碼，請參閱[管理貴組織的電話號碼](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)以提交埠訂單服務要求或訂單，以將所有這些電話號碼移植到 Office 365。 
 
@@ -187,7 +187,7 @@ ms.locfileid: "37571532"
 
     - **Microsoft 作為音訊會議提供者**：如果您想要最簡單的音訊會議方案，請選擇 [Microsoft 作為您的音訊會議提供者]。
     
-    - **協力廠商是您的音訊會議提供者**：如果您所在的國家/地區無法使用 Office 365 中的音訊會議，則服務品質不會因位置而無法正常工作，或者您有現有的合同，請選擇協力廠商音訊會議提供者。 若要尋找提供者，請移至[Microsoft 定點](http://go.microsoft.com/fwlink/?LinkId=797530)。
+    - **協力廠商是您的音訊會議提供者**：如果您所在的國家/地區無法使用 Office 365 中的音訊會議，則服務品質不會因位置而無法正常工作，或者您有現有的合同，請選擇協力廠商音訊會議提供者。 若要尋找提供者，請移至[Microsoft 定點](https://go.microsoft.com/fwlink/?LinkId=797530)。
  
 2. 將音訊會議提供者指派給領導或排程會議的人員。 請參閱[將 Microsoft 指派為音訊會議提供者](/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)。
 
@@ -210,7 +210,7 @@ ms.locfileid: "37571532"
 
 雲端通話佇列包括某人撥入您組織的電話號碼時所使用的問候語、自動保留通話的功能，以及在通話時搜尋下一個可用的呼叫代理程式來處理通話的功能在暫停時聆聽音樂。 您可以為組織建立單一或多個通話佇列。
 
-您必須先取得或轉讓現有的付費或免付費服務號碼，才能建立及設定通話佇列。 當您收到付費或免付費服務電話號碼之後，就會顯示在商務用**Skype 系統管理中心** > **的語音** > **電話號碼**中，而且列出的**數位類型**將會列為**服務-免付費電話**. 若要取得您的服務號碼，請參閱[取得商務用 Skype 和 Microsoft 團隊的服務電話號碼](/microsoftteams/getting-service-phone-numbers)，或者，如果您想要轉移與現有的服務號碼，請參閱[將電話號碼轉接至 Office 365](transfer-phone-numbers-to-office-365.md)。
+您必須先取得或轉讓現有的付費或免付費服務號碼，才能建立及設定通話佇列。 當您收到付費或免付費服務電話號碼之後，就會顯示在商務用**Skype 系統管理中心** > **的語音** > **電話號碼**中，而且列出的**數位類型**將會列為**服務-免付費電話**. 若要取得您的服務號碼，請參閱[取得商務用 Skype 和 Microsoft 團隊的服務電話號碼](/microsoftteams/getting-service-phone-numbers)，或者，如果您想要轉移與現有的服務號碼，請參閱[將電話號碼轉移至團隊](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)。
   
 > [!NOTE]
 > 如果您在美國以外，您就無法使用商務用 Skype 系統管理中心來取得服務號碼。 移至 [[管理貴組織的電話號碼](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)]，瞭解如何從美國以外的地區進行。
@@ -280,7 +280,7 @@ ms.locfileid: "37571532"
 
 [取得商務用 Skype 和 Microsoft 團隊的服務電話號碼](/microsoftteams/getting-service-phone-numbers)
 
-[適用于音訊會議與通話方案的國家和地區可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[音訊會議與通話方案的適用國家/地區](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
     
   
  

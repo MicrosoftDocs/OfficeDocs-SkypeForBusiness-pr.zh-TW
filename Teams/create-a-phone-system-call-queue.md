@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Phone System
 description: 瞭解如何在 Microsoft 團隊中設定雲端通話佇列的電話系統。
-ms.openlocfilehash: f3eb106c0acb9c79d60f45cc11770f26e3e59a1e
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: fc7cc9558036d30d388a279ac155fe6382e611a8
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516691"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925094"
 ---
 # <a name="create-a-cloud-call-queue"></a>建立雲端通話佇列
 
@@ -105,7 +105,7 @@ ms.locfileid: "37516691"
 
 ## <a name="step-2--getting-or-transferring-toll-or-toll-free-service-phone-numbers"></a>步驟2：取得或轉移付費或免付費服務電話號碼
 
-您必須先取得或轉讓現有的付費或免付費服務號碼，才能建立及設定通話佇列。 當您收到付費或免付費服務電話號碼之後，就會顯示在**Microsoft 團隊系統管理中心** > **舊版入口網站** > **語音** > **電話號碼**中，且**數位類型**會列為**服務-** 免費。 若要取得您的服務號碼，請參閱[取得服務電話號碼](getting-service-phone-numbers.md)，或者如果您想要轉移現有的服務號碼，請參閱[將電話號碼轉移至 Office 365](transfer-phone-numbers-to-office-365.md)。
+您必須先取得或轉讓現有的付費或免付費服務號碼，才能建立及設定通話佇列。 當您收到付費或免付費服務電話號碼之後，就會顯示在**Microsoft 團隊系統管理中心** > **舊版入口網站** > **語音** > **電話號碼**中，且**數位類型**會列為**服務-** 免費。 若要取得您的服務號碼，請參閱[取得服務電話號碼](getting-service-phone-numbers.md)，或者如果您想要轉移現有的服務號碼，請參閱[將電話號碼轉移至團隊](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)。
 
 > [!NOTE]
 > 如果您在美國以外，您就無法使用 Microsoft 團隊系統管理中心來取得服務號碼。 移至 [[管理貴組織的電話號碼](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)]，瞭解如何從美國以外的地區進行。
@@ -313,13 +313,13 @@ Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@conto
 
   - [Windows PowerShell 與 Lync Online 的簡介](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
-  - [為什麼需要使用 Office 365 PowerShell](https://docs.microsoft.com/en-us/office365/enterprise/powershell/why-you-need-to-use-office-365-powershell)
+  - [為什麼需要使用 Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/why-you-need-to-use-office-365-powershell)
 
 - Windows PowerShell 在 Microsoft 團隊系統管理中心的速度、簡潔性和生產力上有許多優點，例如當您同時為多位使用者進行設定變更時。 請參閱下列主題，瞭解這些優點：
 
-  - [使用 Windows PowerShell 管理 Office 365](https://docs.microsoft.com/en-us/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
+  - [使用 Windows PowerShell 管理 Office 365](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
 
-  - [設定您的 Windows PowerShell 電腦](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
+  - [設定您的 Windows PowerShell 電腦](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
 ## <a name="related-topics"></a>相關主題
 
@@ -327,6 +327,6 @@ Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@conto
 
 [取得服務電話號碼](getting-service-phone-numbers.md)
 
-[適用于音訊會議與通話方案的國家和地區可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[音訊會議與通話方案的適用國家/地區](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
 [新-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance?view=skype-ps)

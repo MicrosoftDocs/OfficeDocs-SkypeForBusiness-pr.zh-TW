@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: '瞭解如何為您企業中需要使用手機加入電話會議的人員設定撥入或音訊會議。 '
-ms.openlocfilehash: 3b9b0b3f7a684c8db5b7b3d8a326750ed12f2bff
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: d630f6f149f61609209cc4ead23ed7232647cb08
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "37571257"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925364"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>為 Microsoft 團隊設定音訊會議
 
@@ -65,7 +65,7 @@ ms.locfileid: "37571257"
   
 - **使用 Microsoft 團隊系統管理中心**。 在某些國家/地區，您可以使用 Microsoft 團隊系統管理中心取得會議橋的服務號碼。 請參閱[取得服務電話號碼](/microsoftteams/getting-service-phone-numbers)。
     
-- **移植現有的服務號碼**。 從目前的服務提供者或電話轉接至 Office 365，將現有的號碼移植或轉移至 Office。 您可以參閱[將電話號碼轉接至 Office 365](transfer-phone-numbers-to-office-365.md)或[管理貴組織的電話號碼](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)，以取得詳細資訊，協助您執行此動作。  
+- **移植現有的服務號碼**。 從目前的服務提供者或電話轉接至 Office 365，將現有的號碼移植或轉移至 Office。 如需詳細資訊，請參閱將[電話號碼傳送給團隊](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)或[管理您組織的電話號碼](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)，以協助您執行此動作。  
   
 - **針對新號碼使用要求表單**。 有時候（視您的國家/地區而定）您無法使用 Microsoft 團隊系統管理中心取得新的服務號碼，或者您需要特定的電話號碼或區功能變數代碼。 如果是這樣，您將需要下載表單並將它傳送給我們。 如需詳細資訊，請參閱[管理貴組織的電話號碼](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。 
     
@@ -125,7 +125,7 @@ ms.locfileid: "37571257"
    
 ## <a name="related-topics"></a>相關主題
 
-[音訊會議常見問題](audio-conferencing-common-questions.md)
+[音訊會議的常見問題](audio-conferencing-common-questions.md)
   
 [Microsoft 團隊中音訊會議的電話號碼](phone-numbers-for-audio-conferencing-in-teams.md)
   

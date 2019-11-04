@@ -1,5 +1,5 @@
 ---
-title: 遷移至直接路由
+title: 移轉至直接路由
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -15,13 +15,13 @@ appliesto:
 - Microsoft Teams
 description: 瞭解從商務用 Skype Online 和團隊設定觀點來決定要從商務用 Skype 移植所需的專案。
 ms.openlocfilehash: 9fb644c938c61fd9dd1c78362ad90bfe855e97ec
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/18/2019
+ms.lasthandoff: 11/01/2019
 ms.locfileid: "37572176"
 ---
-# <a name="migrate-to-direct-routing"></a>遷移至直接路由
+# <a name="migrate-to-direct-routing"></a>移轉至直接路由
 
 本文說明從商務用 Skype Online 和 Microsoft 團隊設定觀點遷移到直接路由所需的專案。 本文涵蓋從以下各項進行遷移： 
  
@@ -40,17 +40,17 @@ ms.locfileid: "37572176"
 |---|---|---|---|---|
 |端|商務用 Skype 或團隊 |商務用 Skype |商務用 Skype |協同|
 |許可證|商務用 Skype Online</br>方案2</br></br>MCOProfessional 或 MCOSTANDARD）</br></br></br>電話系統（MCOEV）</br></br></br>通話方案</br>協同|商務用 Skype Online 方案2（MCOProfessional 或 MCOSTANDARD）</br></br></br>電話系統（MCOEV）|商務用 Skype Online 方案2（MCOProfessional 或 MCOSTANDARD）</br></br></br>電話系統（MCOEV）|商務用 Skype Online 方案2（MCOProfessional 或 MCOSTANDARD</br></br></br>電話系統（MCOEV）</br></br>協同|
-OnPremLineURI |N/A|電話號碼必須從內部部署的 AD 進行同步處理。 |您可以在內部部署的 Active Directory 或 Azure Active Directory 中管理電話號碼。|您可以在內部部署的 Active Directory 或 Azure Active Directory 中管理電話號碼。 不過，如果組織有內部部署商務用 Skype，該號碼必須從內部部署的 Active Directory 進行同步處理。|
+OnPremLineURI |不適用|電話號碼必須從內部部署的 AD 進行同步處理。 |您可以在內部部署的 Active Directory 或 Azure Active Directory 中管理電話號碼。|您可以在內部部署的 Active Directory 或 Azure Active Directory 中管理電話號碼。 不過，如果組織有內部部署商務用 Skype，該號碼必須從內部部署的 Active Directory 進行同步處理。|
 |LineURI|PSTN 電話號碼|從 OnPremLineURI 參數自動設定|從 OnPremLineURI 參數自動設定|從 OnPremLineURI 參數自動設定|
 |EnterpriseVoiceEnabled|滿足|滿足|滿足|滿足|
 |HostedVoiceMail |滿足|滿足|滿足|滿足|
 |VoicePolicy|BusinessVoice|HybridVoice|HybridVoice|HybridVoice|
 |HostedVoiceMailPolicy |BusinessVoice|BusinessVoice|BusinessVoice|BusinessVoice|
-|VoiceRoutingPolicy|具有值|具有值|具有值|N/A|
+|VoiceRoutingPolicy|具有值|具有值|具有值|不適用|
 |OnlineVoiceRoutingPolicy|$Null|$Null|$Null|具有值|
 |TeamsUpgradePolicy<sup>1</sup>|TeamsOnly, SfBOnly|$Null|$Null|TeamsOnly|
-|TeamsCallingPolicy</br>AllowPrivateCalling|滿足|N/A|N/A|滿足|
-|TeamsCallingPolicy</br>AllowGroupCalling|滿足|N/A|N/A|滿足|
+|TeamsCallingPolicy</br>AllowPrivateCalling|滿足|不適用|不適用|滿足|
+|TeamsCallingPolicy</br>AllowGroupCalling|滿足|不適用|不適用|滿足|
 ||||||
 
 <sup>1</sup>選擇 TeamsUpgradePolicy 的正確模式視情況而定。 請參閱[與商務用 Skype 搭配使用團隊之組織的遷移與互通性指南](migration-interop-guidance-for-teams-with-skype.md)中的語音體驗。

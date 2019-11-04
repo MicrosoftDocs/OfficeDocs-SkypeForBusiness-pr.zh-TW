@@ -1,5 +1,5 @@
 ---
-title: Office 365 Url 與 IP 位址範圍
+title: Office 365 URL 與 IP 位址範圍
 ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
@@ -17,16 +17,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 5fc8d5bc41f7cf7a28140b30dd4a488c05b9b876
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/18/2019
+ms.lasthandoff: 11/01/2019
 ms.locfileid: "37569837"
 ---
-<a name="office-365-urls-and-ip-address-ranges"></a>Office 365 Url 與 IP 位址範圍
+<a name="office-365-urls-and-ip-address-ranges"></a>Office 365 URL 與 IP 位址範圍
 =====================================
 
-移至[Office 365 url 和 IP 位址範圍](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)，以取得必須針對團隊正確設定之 URL、IP 位址、埠和通訊協定的詳細及最新清單。 Microsoft 不斷改善 Office 365 服務並新增新功能，這表示所需的埠、Url 和 IP 位址可能會隨著時間變更。 我們建議您透過[RSS 進行訂閱](https://go.microsoft.com/fwlink/p/?linkid=236301)，以便在更新或變更此資訊時接收通知。
+移至[Office 365 url 和 IP 位址範圍](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)，以取得必須針對團隊正確設定之 URL、IP 位址、埠和通訊協定的詳細及最新清單。 Microsoft 會持續改善 Office 365 服務並加入新的功能，這表示必要的連接埠、URL 和 IP 位址可能會隨著時間變更。 我們建議您透過[RSS 進行訂閱](https://go.microsoft.com/fwlink/p/?linkid=236301)，以便在更新或變更此資訊時接收通知。
 
 團隊通話和會議體驗是在由 Skype 與商務用 Skype 同時使用的下一代雲端基礎結構上建立。 這些技術投資包括適用于媒體處理的 Azure 雲端服務和信號、.H 視頻編解碼器、絞絲及 Opus 音訊編解碼器、網路復原、遙測及品質診斷。 如此一來，可能會有與 Skype 和商務用 Skype 相關聯所需的 Url 和 Ip。
 

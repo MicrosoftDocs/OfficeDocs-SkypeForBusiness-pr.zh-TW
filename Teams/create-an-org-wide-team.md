@@ -15,10 +15,10 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: db7caa3879e016b6e8453ad151785578d2391dd1
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/18/2019
+ms.lasthandoff: 11/01/2019
 ms.locfileid: "37516647"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>在 Microsoft 團隊中建立組織範圍的小組
@@ -70,7 +70,7 @@ ms.locfileid: "37516647"
 
 即使成員不能離開組織內的小組（作為小組擁有者），您還是可以移除不屬於的帳戶來管理團隊名單。 **請確定您使用團隊從組織範圍的小組中移除使用者**。 如果您使用另一個方法來移除使用者（例如 Microsoft 365 系統管理中心或 Outlook 中的群組），使用者可能會新增回組織範圍的小組。
 
-## <a name="faq"></a>常見問題
+## <a name="faq"></a>常見問題集
 
 ### <a name="is-there-a-way-to-create-an-org-wide-team-other-than-using-the-teams-client"></a>是否有任何方式可以使用團隊用戶端來建立組織範圍以外的團隊？
 

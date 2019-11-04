@@ -21,12 +21,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: '瞭解如何在 Office 365 通話方案（PSTN 通話方案）中購買及設定授權、取得電話號碼、新增並指派緊急位置及電話號碼給使用者，以及告訴使用者他們的新電話號碼。 '
-ms.openlocfilehash: 964748a9af9d7a31d7dd4cc4648353b6724fc54e
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: d52fbfdf3dd4c2fe7b3097db5cd4f97aa8013910
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "37571235"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925314"
 ---
 # <a name="set-up-calling-plans"></a>設定通話方案
 
@@ -48,7 +48,7 @@ ms.locfileid: "37571235"
 
 - **使用商務用 Skype 系統管理中心。** 在某些國家/地區，您可以使用商務用 Skype 系統管理中心為使用者取得號碼，請參閱[取得使用者的電話號碼](/microsoftteams/getting-phone-numbers-for-your-users)。
     
-- **移植您現有的號碼。** 您可以從目前的服務提供者或電話載體將現有號碼移植或轉移至 Office 365。 如需詳細資訊，請參閱將[電話號碼傳送至 Office 365](transfer-phone-numbers-to-office-365.md)或[管理您組織的電話號碼](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)，以協助您執行此動作。  
+- **移植您現有的號碼。** 您可以從目前的服務提供者或電話載體將現有號碼移植或轉移至 Office 365。 如需詳細資訊，請參閱將[電話號碼傳送給團隊](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)或[管理您組織的電話號碼](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)，以協助您執行此動作。  
   
 - **針對新號碼使用要求表單。** 有時候（視您的國家/地區而定）您無法使用商務用 Skype 系統管理中心來取得新的電話號碼，或者您需要特定的電話號碼或區功能變數代碼。 如果是這樣，您將需要下載表單並將它傳送給我們。 如需詳細資訊，請參閱[管理貴組織的電話號碼](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。 
 
@@ -132,13 +132,13 @@ ms.locfileid: "37571235"
 
 
 ## <a name="related-topics"></a>相關主題
-[傳送電話號碼常見問題](transferring-phone-numbers-common-questions.md)
+[移轉電話號碼的常見問題](transferring-phone-numbers-common-questions.md)
 
 [通話方案所用的不同類型的電話號碼](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
 [管理貴組織的電話號碼](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
-[緊急通話條款與條件](emergency-calling-terms-and-conditions.md)
+[緊急通話條款及條件](emergency-calling-terms-and-conditions.md)
 
 [商務用 Skype Online：緊急通話免責聲明標籤](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 

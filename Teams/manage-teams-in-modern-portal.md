@@ -17,10 +17,10 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 4fea7081ee66cbd7b103f4292f577aaf5d841e11
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/18/2019
+ms.lasthandoff: 11/01/2019
 ms.locfileid: "37571931"
 ---
 <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>在 Microsoft 團隊系統管理中心管理團隊
@@ -132,4 +132,4 @@ ms.locfileid: "37571931"
 
 - [團隊 Cmdlet 參考](https://docs.microsoft.com/powershell/teams/?view=teams-ps)  
 - [使用團隊管理員角色管理團隊](using-admin-roles.md)
-- [在小組中規劃生命週期管理](plan-teams-lifecycle.md)
+- [Teams 中的生命週期管理方案](plan-teams-lifecycle.md)

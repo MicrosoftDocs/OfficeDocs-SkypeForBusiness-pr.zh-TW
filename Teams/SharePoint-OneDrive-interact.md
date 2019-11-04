@@ -16,10 +16,10 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: af1d12eda58dc481ba28bf96ff4ecbfeab8ed5f0
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/18/2019
+ms.lasthandoff: 11/01/2019
 ms.locfileid: "37572549"
 ---
 # <a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>SharePoint Online 與商務用 OneDrive 與 Microsoft 團隊互動的方式
@@ -79,7 +79,7 @@ Microsoft 團隊中的每個小組在 SharePoint Online 中都有小組網站，
 
 SharePoint 和 OneDrive 擁有管理員設定，可指定為檔案建立之連結的預設連結類型。 團隊會重複使用系統管理員針對 SharePoint 和 OneDrive 設定的設定，採用相同的方法。 如需有關此方法的詳細資訊，[請參閱變更使用者取得共用連結時的預設連結類型](https://docs.microsoft.com/sharepoint/change-default-sharing-link)。 
 
-## <a name="more-information"></a>其他資訊
+## <a name="more-information"></a>詳細資訊
 
 如需 SharePoint 與團隊搭配運作方式的詳細資訊，請參閱[sharepoint 與團隊：更好搭配](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/SharePoint-and-Teams-Better-Together/ba-p/189593)使用。
 

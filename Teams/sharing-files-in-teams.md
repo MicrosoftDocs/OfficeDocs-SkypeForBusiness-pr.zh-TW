@@ -3,7 +3,6 @@ title: 在 Microsoft 團隊中共用檔案
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 05/08/2019
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: snigdhav
@@ -15,19 +14,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8b9eee925a61352ef23b9f7c62fbe6fd58df5122
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: ae468fdb38c047ae257efeda2465949b1babcb01
+ms.sourcegitcommit: 2e005b335b1566c99b93fc311498702838466324
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568686"
+ms.lasthandoff: 11/02/2019
+ms.locfileid: "37931791"
 ---
 # <a name="sharing-files-in-microsoft-teams"></a>在 Microsoft 團隊中共用檔案
 
-> [!INCLUDE [new feature coming soon](includes/new-feature-coming-soon-article.md)]
-
 [團隊] 中的 [檔案共用] 功能可讓使用者與組織中的其他團隊使用者共用內容。 [在小組中共用] 是以 SharePoint 和 OneDrive 中所設定的設定為基礎，因此您針對 SharePoint 和 OneDrive 設定的任何內容，都會同時控制小組中的共用功能。
-![圖表，指出檔案共用在團隊與商務用 OneDrive 和 SharePoint 之間的運作方式](media/sharing-files-in-teams-image1.png)
+
+![圖表顯示團隊、SharePoint 和 OneDrive 共同作業的方式](media/sharing-files-in-teams-image1.png)
 
 [團隊共用] 可讓使用者執行下列動作：
 
@@ -55,7 +53,7 @@ ms.locfileid: "37568686"
 
 - [變更使用者取得共用連結時的預設連結類型](https://docs.microsoft.com/sharepoint/change-default-sharing-link)-說明如何設定預設連結類型，讓它更具限制性。
 
-## <a name="more-information"></a>其他資訊
+## <a name="more-information"></a>詳細資訊
 
 - [SharePoint Online 與商務用 OneDrive 與 Microsoft 團隊互動的方式](sharepoint-onedrive-interact.md)
 

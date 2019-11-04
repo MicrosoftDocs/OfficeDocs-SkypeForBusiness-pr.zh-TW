@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: '瞭解什麼是緊急位置、地點及緊急通話路由，以及如何規劃並指派給您的使用者。 '
-ms.openlocfilehash: ff29f807f0766889db8e6be4305e994bdc9637fe
-ms.sourcegitcommit: d0f03b8abccdacb675f1063a7532397fd0e91a58
+ms.openlocfilehash: 4dbfe8d2a10c24ae66967030007328d2b9422e34
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "37901902"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925384"
 ---
 # <a name="what-are-emergency-locations-places-and-call-routing"></a>什麼是緊急位置、地方和通話路由？
 
@@ -59,7 +59,7 @@ ms.locfileid: "37901902"
     > [!IMPORTANT]
     > 驗證街道或市政位址涉及確認其合法且格式正確。 部分正確的緊急位址（例如，城市名稱錯誤）可能仍會通過驗證。 驗證程式會使用指定位址的所有部分來判斷它是否包含足夠的資訊，以將呼叫路由至適當的緊急派單中心。 如果是，它會以驗證方式傳回，然後可以指派給電話號碼。
   
-3. **取得電話號碼**。 下一步是為您的使用者取得電話號碼。 您可以從 Office 365 取得新的電話號碼，或 [移植]，或將現有的電話號碼轉移到 Office 365 來執行此動作。 若要查看完整的步驟，請參閱[將電話號碼轉接至 Office 365](transfer-phone-numbers-to-office-365.md)。
+3. **取得電話號碼**。 下一步是為您的使用者取得電話號碼。 您可以從 Office 365 取得新的電話號碼，或 [移植]，或將現有的電話號碼轉移到 Office 365 來執行此動作。 若要查看完整的步驟，請參閱[將電話號碼傳送給團隊](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)。
     
 4. **指派電話號碼**。 最後一個步驟是讓使用者撥打及接聽電話。 若要這樣做，您必須為每位使用者指派電話號碼。 請參閱[指派、變更或移除使用者的電話號碼](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)，以指派電話號碼。
 

@@ -16,10 +16,10 @@ description: 如何使用 PowerShell 來設定小組中的原則，以控制哪�
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: d9f96adcf4aa40b93b89b99013b9bc5ca466c25b
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/18/2019
+ms.lasthandoff: 11/01/2019
 ms.locfileid: "37570165"
 ---
 # <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>使用 PowerShell 在 Microsoft 團隊中設定即時事件原則
@@ -139,6 +139,6 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastTranscription 
 ```
 
 ### <a name="related-topics"></a>相關主題
-- [設定小組即時事件](set-up-for-teams-live-events.md)
+- [設定 Teams 即時活動](set-up-for-teams-live-events.md)
 
 

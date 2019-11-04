@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: '瞭解如果您的運營商未列在商務用 Skype 中，該怎麼辦？ '
-ms.openlocfilehash: e882a376c8f7b0baf07c42e71c03a84acc16b4c4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7d1a9c70ffce63ee1a7ff437cb7157c5b8b5aeab
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "37642968"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37924914"
 ---
 # <a name="what-if-my-phone-carrier-isnt-listed-as-the-source-carrier"></a>如果我的電話載波未列為來源載體，該怎麼辦？
 
@@ -36,16 +36,16 @@ ms.locfileid: "37642968"
   
 - 如果您是從商務用 Skype 移植號碼做為您的運營商，您可能會看到 [3 列]。
     
-  **如需完整的逐步指示，請參閱[將電話號碼轉接至 Office 365](/microsoftteams/transfer-phone-numbers-to-office-365)。**
+  **如需完整的逐步指示，請參閱[將電話號碼轉移至團隊](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams)。**
 
     > [!NOTE]
     > 如果您需要取得更多的電話號碼，請[聯絡商務產品支援-系統管理協助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 
   
 ## <a name="related-topics"></a>相關主題
-[傳送電話號碼常見問題](/microsoftteams/transferring-phone-numbers-common-questions)
+[移轉電話號碼的常見問題](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[緊急通話條款與條件](/microsoftteams/emergency-calling-terms-and-conditions)
+[緊急通話條款及條件](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [商務用 Skype Online：緊急通話免責聲明標籤](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 

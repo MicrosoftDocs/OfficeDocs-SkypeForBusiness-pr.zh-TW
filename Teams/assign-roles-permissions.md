@@ -15,10 +15,10 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 6757f7200535dc8fb687915ec033712b2654723b
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/18/2019
+ms.lasthandoff: 11/01/2019
 ms.locfileid: "37517049"
 ---
 <a name="assign-team-owners-and-members-in-microsoft-teams"></a>在 Microsoft 團隊中指派小組擁有者和成員
@@ -34,18 +34,18 @@ ms.locfileid: "37517049"
 
 |                                   | 小組擁有者 | 小組成員 |
 |-----------------------------------|------------|-------------|
-|          **建立小組**          |    是<sup>1</sup>     |     不      |
-|          **離開團隊**           |    是的     |     是的     |
-|  **編輯團隊名稱/描述**   |    是的     |     不      |
-|          **刪除團隊**          |    是的     |     不      |
-|          **新增頻道**          |    是的     |    是<sup>2</sup>|
-| **編輯頻道名稱/描述** |    是的     |    是<sup>2</sup>|
-|        **刪除頻道**         |    是的     |    是<sup>2</sup>|
+|          **建立小組**          |    是<sup>1</sup>     |     否      |
+|          **離開團隊**           |    是     |     是     |
+|  **編輯團隊名稱/描述**   |    是     |     否      |
+|          **刪除團隊**          |    是     |     否      |
+|          **新增頻道**          |    是     |    是<sup>2</sup>|
+| **編輯頻道名稱/描述** |    是     |    是<sup>2</sup>|
+|        **刪除頻道**         |    是     |    是<sup>2</sup>|
 |          **新增成員**          |  是<sup>3</sup>   |     無<sup>4</sup>    |
-|          **要求新增成員**          |  N/A   |     是<sup>5</sup>     |
-|           **[新增] 索引標籤**            |    是的     |    是<sup>2</sup>|
-|        **新增連接器**         |    是的     |    是<sup>2</sup>|
-|           **新增 bot**            |    是的     |    是<sup>2</sup>|
+|          **要求新增成員**          |  不適用   |     是<sup>5</sup>     |
+|           **[新增] 索引標籤**            |    是     |    是<sup>2</sup>|
+|        **新增連接器**         |    是     |    是<sup>2</sup>|
+|           **新增 bot**            |    是     |    是<sup>2</sup>|
 
 <sup>1</sup>小組擁有者可以建立團隊，除非他們受到限制。 [建立小組的許可權](#permissions-to-create-teams)。<br>
 ><sup>2</sup>擁有者可以在小組層級關閉這些專案，在這種情況下，成員將無法存取它們。<br>

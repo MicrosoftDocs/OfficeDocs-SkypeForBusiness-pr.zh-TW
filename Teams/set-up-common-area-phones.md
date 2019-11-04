@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '瞭解如何為大廳、接待區域及會議室設定通用區域電話 '
-ms.openlocfilehash: fa25de7484d8ac70e924e750c4e7633bfc160c04
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: d00d91d4461a8b197f8629d3dfe9cee6653b2473
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571590"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925304"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>設定 Microsoft 團隊的通用區域電話授權
 > [!NOTE]
@@ -114,6 +114,6 @@ ms.locfileid: "37571590"
 
 如需詳細資訊，請參閱為[您的使用者取得電話號碼](/microsoftteams/getting-phone-numbers-for-your-users)。
 
-您也可以將您的電話號碼與其他運輸公司和「埠」取得聯繫，或將它傳送到 Office 365。 請參閱[將電話號碼轉移至 Office 365](transfer-phone-numbers-to-office-365.md)。
+您也可以將您的電話號碼與其他運輸公司和「埠」取得聯繫，或將它傳送到 Office 365。 請參閱[將電話號碼傳送給團隊](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)。
 
 

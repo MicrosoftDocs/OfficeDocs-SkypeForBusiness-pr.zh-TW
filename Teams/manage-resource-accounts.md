@@ -17,14 +17,14 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: 瞭解如何在 Microsoft 團隊中管理資源帳戶
-ms.openlocfilehash: 61e5bdf74d5874a5657b33aa6f469b0cf67beb58
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: a89fe9df7cc878369a06b9c959609dd435bcbd8c
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573093"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925464"
 ---
-# <a name="manage-resource-accounts-in-microsoft-teams"></a>管理 Microsoft 團隊中的資源帳戶
+# <a name="manage-resource-accounts-in-microsoft-teams"></a>在 Microsoft Teams 中管理資源帳戶
 
 資源帳戶也稱為 Azure AD 中*已停用的使用者物件*，而且可以用來代表一般的資源。 例如，在 Exchange 中可能會用來代表會議室，並允許他們擁有電話號碼。 您可以使用商務用 Skype Server 2019，在 Microsoft 365 或內部部署中託管資源帳戶。
 
@@ -73,7 +73,7 @@ ms.locfileid: "37573093"
 
 1. 移植或取得付費或免付費服務號碼。 該號碼不能指派給任何其他語音服務或資源帳戶。
 
-   在您將電話號碼指派給資源帳戶之前，您必須先取得或移植現有的付費或免付費服務號碼。 當您收到付費或免付費服務電話號碼之後，就會顯示在**Microsoft 團隊系統管理中心** > 的**語音** > **電話號碼**中，而**數位類型**則會列為 [**服務-免付費**電話]。 若要取得您的服務號碼，請參閱[取得服務電話號碼](getting-service-phone-numbers.md)，或者如果您想要轉移現有的服務號碼，請參閱[將電話號碼轉移至 Office 365](transfer-phone-numbers-to-office-365.md)。
+   在您將電話號碼指派給資源帳戶之前，您必須先取得或移植現有的付費或免付費服務號碼。 當您收到付費或免付費服務電話號碼之後，就會顯示在**Microsoft 團隊系統管理中心** > 的**語音** > **電話號碼**中，而**數位類型**則會列為 [**服務-免付費**電話]。 若要取得您的服務號碼，請參閱[取得服務電話號碼](getting-service-phone-numbers.md)，或者如果您想要轉移現有的服務號碼，請參閱[將電話號碼轉移至團隊](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)。
 
    如果您要將電話號碼指派給資源帳戶，您現在可以使用 [免付費電話系統虛擬使用者授權]。 這會提供手機系統功能給組織階層的電話號碼，並可讓您建立自動語音應答及呼叫佇列功能。
 
@@ -138,7 +138,7 @@ ms.locfileid: "37573093"
 
 ## <a name="change-an-existing-resource-account-to-use-a-virtual-user-license"></a>變更現有的資源帳戶以使用虛擬使用者授權
 
-如果您決定將現有資源帳戶的授權從電話系統授權切換至虛擬使用者授權，您必須取得免費的虛擬使用者授權，然後依照 Microsoft 365 系統管理中心的連結步驟，[將使用者移至不同的訂閱](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription)。 
+如果您決定將現有資源帳戶的授權從電話系統授權切換至虛擬使用者授權，您必須取得免費的虛擬使用者授權，然後依照 Microsoft 365 系統管理中心的連結步驟，[將使用者移至不同的訂閱](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription)。 
 
 > [!WARNING]
 > 永遠移除完整的電話系統授權，並在相同的授權活動中指派虛擬使用者授權。 如果您移除舊的授權，請儲存帳戶變更、新增授權，然後再次儲存帳戶設定，資源帳戶可能無法如期運作。 如果發生這種情況，我們建議您為虛擬使用者授權建立新的資源帳戶，並移除中斷的資源帳戶。 
@@ -247,7 +247,7 @@ Set-MsolUser -ObjectId -Department "Microsoft Communication Application Instance
 
    [設定雲端自動語音應答](/microsoftteams/create-a-phone-system-auto-attendant)
 
-   [小型企業範例-設定自動助手](/microsoftteams/tutorial-org-aa)
+   [小型企業範例 - 設定自動語音應答](/microsoftteams/tutorial-org-aa)
 
    [建立雲端通話佇列](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
 

@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 53424be46dbc857f2a361ec1c3278e2d56fe16d7
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 8ad3700b3b0186ba3e95d8f55ad704f37cf33bc7
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516765"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925074"
 ---
 # <a name="evaluate-my-environment"></a>評估我的環境
 
@@ -42,7 +42,7 @@ ms.locfileid: "37516765"
 
 在您的環境探索中，包括與使用者計算相關的所有事項，例如電腦和行動裝置的準備評估，以支援音訊會議和電話系統規劃商務使用案例，從硬體需求到軟體需求。
 
-環境探索也可以揭示您是否需要將[電話號碼傳送給 Microsoft](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365)。
+環境探索也可以揭示您是否需要將[電話號碼傳送給 Microsoft](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)。
 瞭解這將會協助您的組織調整其專案計劃，並準備數位移植所需的資訊。 您可以使用[Microsoft 團隊推出的環境探索](environmental-discovery-for-microsoft-teams-rollout.md)來執行環境探索。
 
 <table>
@@ -74,7 +74,7 @@ ms.locfileid: "37516765"
 
 團隊使用可適應的音訊和視頻技術（編解碼器），因此在大多數網路條件下都能更好地執行。 為確保最佳且一致的效能，您應該為小組準備好您的網路。
 
-描述三個品質元件的![品質圖表三個元件](media/evaluate-my-environment-image1.png "，以及服務管理如何與所有三個元件重迭的圖表。焦點放在網路上。")
+![描述三個品質元件的圖表](media/evaluate-my-environment-image1.png "描述三個品質元件的圖表，以及服務管理如何與所有三個元件重迭。焦點放在網路上。")
 
 ## <a name="key-takeaways"></a>主要優點
 
@@ -170,7 +170,7 @@ Microsoft 團隊會連線到 Microsoft Online 服務，並需要網際網路連�
 若要開啟命令提示字元視窗並流覽至網路評量工具目錄，請輸入**Cd\\C\\： Program Files Microsoft 商務用 Skype Network 評估工具**。 在命令提示字元中，輸入 networkassessmenttool 以開始測試已開啟的埠 **/connectivitycheck**
 
 執行檢查之後，該工具會顯示「驗證已成功完成」的訊息，或報告已封鎖的埠。
-它也會產生一個名為 Connectivity_results 的檔案，其中包含該工具的輸出，並將它儲存在% userprofile\\%\\appdata\\本機 microsoft 商務用 skype 網路評估\\工具目錄中。
+它也會產生名為 Connectivity_results .txt 的檔案，其中包含該工具的輸出，並將其儲存在% userprofile\\%\\appdata\\本機 microsoft 商務用 skype 網路評估\\工具目錄中。
 
 我們建議您定期執行連接檢查，以確保埠已開啟且正常運作。
 

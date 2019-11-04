@@ -17,19 +17,19 @@ description: 您的小組或 IT 系統管理員可以為其他網域設定外部
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 071bb1523a0840a798edfe030a1dd52362695df2
-ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
+ms.openlocfilehash: e6eb1cab6503c443d3fb312769f9f1e0255c294a
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37753528"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925044"
 ---
 <a name="manage-external-access-in-microsoft-teams"></a>在 Microsoft 團隊中管理外部存取
 ======================================================
 
 外部存取是從整個網域中的外部團隊使用者尋找、通話、聊天，以及在團隊中設定會議的一種方式。 您也可以使用外部存取來與仍在使用商務用 Skype （線上和內部部署）及 Skype （即將2020）的外部使用者進行通訊。
 
-如果您希望外部使用者能夠存取團隊和頻道，來賓存取可能是更好的做法。 如需外部存取與來賓存取之間差異的詳細資訊，請參閱[比較外部與來賓存取](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access)。 
+如果您想讓外部使用者存取團隊和頻道，來賓存取可能是更好的作法。 如需外部存取與來賓存取之間差異的詳細資訊，請參閱[比較外部與來賓存取](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access)。 
 
 在下列情況中使用外部存取：
   
@@ -132,7 +132,6 @@ ms.locfileid: "37753528"
 |讓您的**商務用 Skype online 使用者**與其他 Office 365 組織中的**商務用 skype online 使用者**進行通訊。    | 如果您的使用者是下列其中一種升級模式，您的商務用 Skype Online 使用者可以與其他組織中的商務用 Skype Online 使用者通訊： Islands、SfBOnly、SfBWIthTeamsCollab、SfBWithTeamsCollabAndMeetings;其他組織的商務用 Skype Online 使用者是下列其中一種升級模式： Islands、SfBOnly、SfBWIthTeamsCollab、SfBWithTeamsCollabAndMeetings。<br><br>開啟 [**使用者可以與商務用 Skype 和小組使用者通訊**] 的 [外部存取] 中的 [設定]。 然後讓其他團隊組織中的系統管理員執行相同的操作。|
 |讓您的**商務用 Skype Online 使用者**與內部部署組織中的**商務用 skype 使用者**進行通訊。     |如果您的使用者是下列其中一種升級模式，您的商務用 Skype Online 使用者可以與商務用 Skype 使用者進行通訊：孤島、SfBOnly、SfBWIthTeamsCollab、SfBWithTeamsCollabAndMeetings;其他組織的商務用 Skype Online 使用者是下列其中一種升級模式： Islands、SfBOnly、SfBWIthTeamsCollab、SfBWithTeamsCollabAndMeetings。<br><br>開啟 [**使用者可以與商務用 Skype 和小組使用者通訊**] 的 [外部存取] 中的 [設定]。 然後讓其他團隊組織中的系統管理員執行相同的操作。|
 |讓您的**商務用 Skype Online 使用者**與**skype 使用者**通訊（在您的組織內部或外部）。   |開啟 [**商務用 skype] 使用者可以與**[外部存取] 中的 [skype 使用者通訊] 設定。|
-|讓您組織中的**小組使用者**與**團隊**成員溝通，從貴組織以外的使用者。 | 若要瞭解免費的團隊版本如何與外部存取搭配運作，請參閱[Microsoft 團隊與 microsoft 團隊間的差異](https://support.office.com/article/differences-between-microsoft-teams-and-microsoft-teams-free-0b69cf39-eb52-49af-b255-60d46fdf8a9c)。|
 
 > [!IMPORTANT]
 > 您不需要將任何**Skype 網域**新增為 [允許的網域]，就能讓小組或商務用 Skype Online 使用者與貴組織內部或外部的 skype 使用者通訊。 所有**Skype 網域**都是白名單，這表示所有這些網域都被視為允許。

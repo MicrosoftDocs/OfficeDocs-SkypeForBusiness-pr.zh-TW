@@ -25,10 +25,10 @@ ms.custom:
 - LIL_Placement
 description: '瞭解商務用 Skype 選項的通話方案（PSTN 通話方案），以及如何取得貴組織的授權。 '
 ms.openlocfilehash: 305416df22353743b891df6c7722bededaae0980
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/18/2019
+ms.lasthandoff: 11/01/2019
 ms.locfileid: "37516744"
 ---
 # <a name="calling-plans-for-office-365"></a>Office 365 的通話方案
@@ -97,5 +97,5 @@ ms.locfileid: "37516744"
     
 - [設定通話方案](set-up-calling-plans.md)
     
-- [新增基金及管理通訊點數](add-funds-and-manage-communications-credits.md)
+- [加值和管理通訊點數](add-funds-and-manage-communications-credits.md)
  

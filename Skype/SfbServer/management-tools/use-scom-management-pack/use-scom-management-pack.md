@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ca03f9ab-a227-4903-85a8-427df6a0a5bb
 description: 摘要：瞭解如何設定您的商務用 Skype Server 2015 基礎結構，以搭配 System Center Operations Manager 使用。
-ms.openlocfilehash: a5f676180508898b433953c37656063bd34bd323
-ms.sourcegitcommit: ee6fca44a611acaa8234563c546a3f841bba6e1a
+ms.openlocfilehash: 5622b09b3d55b4d0d3a3fe026f66b28e3c4be75e
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/07/2019
-ms.locfileid: "36790890"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "36824546"
 ---
 # <a name="manage-skype-for-business-server-2015-using-scom-management-pack"></a>使用 SCOM 管理套件管理商務用 Skype Server 2015
  
@@ -43,10 +43,10 @@ ms.locfileid: "36790890"
   
 |Configuration|受?|
 |:-----|:-----|
-|Windows Server 2008 R2 作業系統  <br/> Windows Server 2012 R2 作業系統  <br/> |是的。 在商務用 Skype Server 2015 server 和綜合交易觀察程式節點上。  <br/> |
+|Windows Server 2008 R2 作業系統  <br/> Windows Server 2012 R2 作業系統  <br/> |是。 在商務用 Skype Server 2015 server 和綜合交易觀察程式節點上。  <br/> |
 |叢集服務器  <br/> |不支援。  <br/> |
 |無代理監視  <br/> |不支援。  <br/> |
-|虛擬環境  <br/> |是的。  <br/> |
+|虛擬環境  <br/> |是。  <br/> |
 |加入網域的伺服器角色  <br/> |所有內部商務用 Skype Server 2015 伺服器角色都必須加入網域。  <br/> |
 |獨立伺服器角色  <br/> |商務用 Skype Server 2015 Edge 伺服器不需要加入網域。  <br/> |
 |拓撲限制  <br/> |部署中的所有伺服器角色，都必須從同一個 Operations Manager 管理群組監視。  <br/> |
@@ -85,7 +85,7 @@ ms.locfileid: "36790890"
 
 下列功能是商務用 Skype Server 2015 管理套件的新增功能。
 
-- ** [2019 年6月更新](https://www.microsoft.com/en-in/download/details.aspx?id=47364)中的變更**部分警示已移除特殊字元。 在某些情況下，特殊字元會干擾 SCOM 命令通道通知功能。
+- **2019 年[9 月更新](https://www.microsoft.com/en-in/download/details.aspx?id=47364)中的變更**部分警示已移除特殊字元。 在某些情況下，特殊字元會干擾 SCOM 命令通道通知功能。
 
 - **用戶端登入的自動探索**登入商務用 Skype Server 2015 的用戶端應用程式通常會自動探索要登入的伺服器。 綜合交易立即支援驗證正確設定自動探索。
     

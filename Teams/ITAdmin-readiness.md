@@ -18,10 +18,10 @@ description: 針對系統管理員如何規劃、部署及執行 Microsoft 團�
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 55ac7c4adf51e920aba2a8eed0f0d6c5aa83ca36
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/18/2019
+ms.lasthandoff: 11/01/2019
 ms.locfileid: "37569846"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Microsoft 團隊的系統管理訓練
@@ -111,8 +111,8 @@ ms.locfileid: "37569846"
 
 <h2>材料</h2>
 
-- [教學課程：團隊中的會議](tutorial-meetings-in-teams.yml)
-- [教學課程：在團隊中的音訊會議](tutorial-audio-conferencing.yml)
+- [教學課程：Teams 中的會議](tutorial-meetings-in-teams.yml)
+- [教學課程：Teams 的音訊會議](tutorial-audio-conferencing.yml)
 - [教學課程：瞭解在團隊中進行通話](tutorial-calling-in-teams.yml)
 
 <h2>門</h2>

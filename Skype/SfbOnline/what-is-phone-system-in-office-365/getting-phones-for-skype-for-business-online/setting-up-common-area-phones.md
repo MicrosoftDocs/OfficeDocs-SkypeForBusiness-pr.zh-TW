@@ -19,14 +19,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 瞭解如何取得正確的固件、根據需要進行更新、指派授權，以及設定常用區域手機的設定等部署步驟。
-ms.openlocfilehash: 9f84b8ebbdd9bfab6b146d3f748715a5e0602047
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: a245db1a2033f08d50e9a3c1a32f27981a3eb702
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "37642645"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37924894"
 ---
-# <a name="set-up-common-area-phones"></a>設定常用的區域電話
+# <a name="set-up-common-area-phones"></a>設定公共區域電話
 常見的區域電話（CAP）通常放在諸如大廳或其他許多人都可以使用的區域中。 例如，將 Cap 設定為裝置，而不是使用者並自動登入網路，即接收區域電話、[門 phone] 或 [會議室電話]。 在下列步驟中，我們將協助您使用通話方案設定電話系統帳戶，以便為您的組織部署這些類型的電話。
 
 ## <a name="prerequisites-for-common-area-phones"></a>常見區域手機的先決條件
@@ -97,7 +97,7 @@ ms.locfileid: "37642645"
 
 如需更多相關資訊，請參閱為[您的使用者取得電話號碼](/microsoftteams/getting-phone-numbers-for-your-users)。
 
-如果您想知道，您也可以將您的電話號碼與其他運輸公司和「*埠*」結合，或轉移到 Office 365。 請參閱[將電話號碼轉移至 Office 365](/microsoftteams/transfer-phone-numbers-to-office-365)。
+如果您想知道，您也可以將您的電話號碼與其他運輸公司和「*埠*」結合，或轉移到 Office 365。 請參閱[將電話號碼轉移至團隊](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams)。
 
 ### <a name="step-4---setting-up-your-phone"></a>步驟 4-設定您的電話
 

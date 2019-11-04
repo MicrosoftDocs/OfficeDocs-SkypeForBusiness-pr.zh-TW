@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: '瞭解如何取得新的、埠或轉讓現有的團隊編號，以及如何向使用者顯示變更。 '
-ms.openlocfilehash: c605933f91d047d44f191e9d1604e8c8630565fb
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 2b8dcb2f10f4c5e4452a24fbc9fc4230cffbe874
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572088"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925284"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>為您的使用者取得電話號碼
 
@@ -34,7 +34,7 @@ ms.locfileid: "37572088"
 
 - **使用 Microsoft 團隊系統管理中心。** 在某些國家/地區，您可以使用 Microsoft 團隊系統管理中心為使用者取得數位。 請參閱[為您的使用者取得新的電話號碼](#get-new-phone-numbers-for-your-users)。
     
-- **移植您現有的號碼。** 您可以從目前的服務提供者或電話載波移植或轉移現有號碼。 如需詳細資訊，請參閱將[電話號碼傳送至 Office 365](/microsoftteams/transfer-phone-numbers-to-office-365)或[管理您組織的電話號碼](/microsoftteams/manage-phone-numbers-for-your-organization)，以協助您執行此動作。  
+- **移植您現有的號碼。** 您可以從目前的服務提供者或電話載波移植或轉移現有號碼。 如需詳細資訊，請參閱將[電話號碼傳送給團隊](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams)或[管理您組織的電話號碼](/microsoftteams/manage-phone-numbers-for-your-organization)，以協助您執行此動作。  
   
 - **針對新號碼使用要求表單。** 有時候（視您的國家/地區而定）您無法使用 Microsoft 團隊系統管理中心取得新的電話號碼，或者您需要特定的電話號碼或區功能變數代碼。 如果是這樣，您將需要下載表單並將它傳送給我們。 如需詳細資訊，請參閱[管理貴組織的電話號碼](/microsoftteams/manage-phone-numbers-for-your-organization)。
   
@@ -61,7 +61,7 @@ ms.locfileid: "37572088"
   
    **從服務提供者或電話載波傳送埠或轉移電話號碼**
   
-- 如果您需要999或更少的使用者電話號碼，您可以在 Microsoft 團隊系統管理中心使用舊版入口網站。 按照將[電話號碼轉接至 Office 365](/microsoftteams/transfer-phone-numbers-to-office-365)中的步驟，將您的電話號碼轉接至團隊。
+- 如果您需要999或更少的使用者電話號碼，您可以在 Microsoft 團隊系統管理中心使用舊版入口網站。 遵循將[電話號碼轉接至團隊](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams)中的步驟，將您的電話號碼轉移至團隊。
     
 - 如果您需要端口超過999的電話號碼，請參閱[在 Service Manager 中管理服務要求](https://docs.microsoft.com/system-center/scsm/service-requests)以提交埠訂單服務要求，或將這些電話號碼全部移植至 Office 365。
     
@@ -75,19 +75,19 @@ ms.locfileid: "37572088"
     
 - 取得您的電話號碼之後，您必須為每位使用者指派號碼。 請參閱[指派、變更或移除使用者的電話號碼](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)。
     
-- 您可以使用 Microsoft Teamd 系統管理中心的 [**電話號碼**] 頁面，在 [**電話號碼**] 欄中查看可用電話號碼的清單，查看 [**狀態**] 欄中是否已指派電話號碼，並查看其位置[**位置**] 欄中的電話號碼。 
+- 您可以使用 Microsoft 團隊系統管理中心中的 [**電話號碼**] 頁面，在 [**電話號碼**] 欄中查看可用電話號碼的清單，查看 [**狀態**] 欄中是否已指派電話號碼，並查看其位置[**位置**] 欄中的電話號碼。 
 
 > [!NOTE]
 > 如果您需要取得更多的電話號碼，請[聯絡 PSTN 服務台](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)。
     
 ## <a name="related-topics"></a>相關主題
 
-[傳送電話號碼常見問題](/microsoftteams/transferring-phone-numbers-common-questions)
+[移轉電話號碼的常見問題](/microsoftteams/transferring-phone-numbers-common-questions)
 
 [通話方案所用的不同類型的電話號碼](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
 [管理貴組織的電話號碼](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[緊急通話條款與條件](/microsoftteams/emergency-calling-terms-and-conditions)
+[緊急通話條款及條件](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [緊急通話免責聲明標籤](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)

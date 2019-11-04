@@ -19,10 +19,10 @@ ms.custom:
 - dn947482
 description: 針對 Microsoft 團隊認證的 IP 服務台與會議電話
 ms.openlocfilehash: 6025b8c3d3db84e085489f52407e4fc63f39b2eb
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/18/2019
+ms.lasthandoff: 11/01/2019
 ms.locfileid: "37570198"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Microsoft 團隊的 IP 手機認證
@@ -43,7 +43,7 @@ IP 電話認證計畫可確保使用經過驗證的手機和手機的客戶能�
 
 |電話模型|固件版本|發行日期 |
 |:---|:---|:---|
-|Audiocodes C450HD | C450HD_TEAMS_0.225 | 2019年3月|
+|Audiocodes C450HD | C450HD_TEAMS_0. 225 | 2019年3月|
 |Crestron M100|2.3875.00068|2018年12月|
 |Crestron Flex UC-P100 & UC-T  | 58.15.91.6 |2019年1月|
 |Poly 組8500/8800 （僅適用于共用模式）| 5.9.0.10869|2019年6月|

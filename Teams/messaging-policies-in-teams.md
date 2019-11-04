@@ -18,10 +18,10 @@ f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: 瞭解訊息原則，以及如何使用它們來控制小組中的聊天訊息。
 ms.openlocfilehash: bc69b44b47cf068bdea17ed661a873b90af44de5
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/18/2019
+ms.lasthandoff: 11/01/2019
 ms.locfileid: "37569273"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>管理小組中的訊息傳遞原則

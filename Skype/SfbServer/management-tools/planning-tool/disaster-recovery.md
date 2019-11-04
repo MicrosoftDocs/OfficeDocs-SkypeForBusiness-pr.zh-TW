@@ -15,10 +15,10 @@ localization_priority: Normal
 ms.assetid: 88ad1820-d4ef-4eb6-831b-a8574c085bd0
 description: 商務用 Skype Server 2015 包含災害復原的方法，可讓您對位於兩個資料中心的前端池進行配對。
 ms.openlocfilehash: bb89116d1cedf4eea5e888c0b8021b009688324f
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/18/2019
+ms.lasthandoff: 11/01/2019
 ms.locfileid: "36186727"
 ---
 # <a name="disaster-recovery-planning-tool"></a>災害復原（規劃工具）

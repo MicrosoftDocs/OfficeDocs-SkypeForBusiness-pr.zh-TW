@@ -1,5 +1,5 @@
 ---
-title: 在團隊中查看跨團隊和每個團隊的分析
+title: 檢視 Teams 中的跨小組和每一小組分析
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -15,13 +15,13 @@ description: 瞭解團隊中的跨團隊分析及每個團隊分析，可讓使�
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 265099706e5c6fd502cabf688d539678d8669717
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/18/2019
+ms.lasthandoff: 11/01/2019
 ms.locfileid: "37639063"
 ---
-# <a name="view-cross-team-and-per-team-analytics-in-teams"></a>在團隊中查看跨團隊和每個團隊的分析
+# <a name="view-cross-team-and-per-team-analytics-in-teams"></a>檢視 Teams 中的跨小組和每一小組分析
 
 在 Microsoft 團隊中，使用者可以查看他們是其成員或擁有者的小組分析。 此資訊可讓使用者瞭解其小組中的使用模式與活動。 他們可以看到資料，例如每個小組中的作用中使用者、來賓和訊息。
 
