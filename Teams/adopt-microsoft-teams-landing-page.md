@@ -20,10 +20,10 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 25ed0a4f704663a05364ca05031f89924cc7b3f5
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/18/2019
+ms.lasthandoff: 11/01/2019
 ms.locfileid: "36483408"
 ---
 # <a name="adopt-microsoft-teams"></a>採納 Microsoft 團隊
@@ -157,10 +157,10 @@ ms.locfileid: "36483408"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase1">開始</a></h3>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-get-started">快速入門</a></p>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-understand-teams-and-channels">瞭解團隊和頻道</a></p>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-your-first-teams">建立您的第一個團隊</a></p>
+                        <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase1">開始使用</a></h3>
+                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-get-started">開始使用</a></p>
+                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-understand-teams-and-channels">了解小組和頻道</a></p>
+                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-your-first-teams">建立您的第一個應用程式</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-assess-readiness">評估文化與組織就緒性</a></p>
                     </div>
                 </div>
@@ -177,12 +177,12 @@ ms.locfileid: "36483408"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase2-experiment">動手</a></h3>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-create-champions-program">建立您的擁護程式計畫</a></p>
+                        <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase2-experiment">試驗</a></h3>
+                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-create-champions-program">建立您的風雲人物計畫</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-governance-quick-start">管理快速入門</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-define-usage-scenarios">定義使用案例</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-onboard-early-adopters">早期採納並收集意見反應</a></p>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-onboard-support">板載支援</a></p>
+                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-onboard-support">快速上手的支援</a></p>
                     </div>
                 </div>
             </div>
@@ -200,9 +200,9 @@ ms.locfileid: "36483408"
                     <div class="cardText">
                         <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase3-enable">調整</a></h3>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-define-outcomes">定義結果與成功</a></p>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-optimize-feedback-and-reporting">優化意見反應與報告</a></p>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-drive-awareness">磁片磁碟機意識與實施訓練</a></p>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-schedule-service-health-reviews">排程服務健康情況檢查</a></p>
+                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-optimize-feedback-and-reporting">最佳化意見反應和報告</a></p>
+                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-drive-awareness">促進認知和實施訓練</a></p>
+                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-schedule-service-health-reviews">排程服務健康情況審查</a></p>
                     </div>
                 </div>
             </div>

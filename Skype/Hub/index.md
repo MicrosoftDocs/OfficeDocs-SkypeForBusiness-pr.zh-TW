@@ -8,10 +8,10 @@ manager: serdars
 author: kenwith
 description: 商務用 Skype
 ms.openlocfilehash: 7dd3fe2fe61bc8dadb793a6fa3d9c226a85ce5f7
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/18/2019
+ms.lasthandoff: 11/01/2019
 ms.locfileid: "37642912"
 ---
 <div id="main" class="v2">
@@ -147,7 +147,7 @@ ms.locfileid: "37642912"
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Microsoft 團隊聊天室</h3>
+                                                    <h3>Microsoft Teams 會議室</h3>
                                                     <p>瞭解如何規劃、部署及管理 Microsoft 團隊聊天室。</p>
                                                 </div>
                                             </div>
