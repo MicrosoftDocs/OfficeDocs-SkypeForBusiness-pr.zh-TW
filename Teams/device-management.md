@@ -18,72 +18,72 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: d1473acc92113cc8788ae5cc27eecc11ad909124
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571788"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37972454"
 ---
-# <a name="manage-your-devices-in-microsoft-teams"></a><span data-ttu-id="5e721-103">在 Microsoft 團隊中管理您的裝置</span><span class="sxs-lookup"><span data-stu-id="5e721-103">Manage your devices in Microsoft Teams</span></span>
+# <a name="manage-your-devices-in-microsoft-teams"></a><span data-ttu-id="3e6b7-103">在 Microsoft 團隊中管理您的裝置</span><span class="sxs-lookup"><span data-stu-id="3e6b7-103">Manage your devices in Microsoft Teams</span></span>
 
 ::: zone target="docs"
-<span data-ttu-id="5e721-104">做為管理員，您可以從 Microsoft 團隊系統管理中心管理與組織中的小組搭配使用的所有裝置。</span><span class="sxs-lookup"><span data-stu-id="5e721-104">As an admin, you manage all devices used with Teams in your organization from the Microsoft Teams admin center.</span></span> <span data-ttu-id="5e721-105">您可以查看及管理貴組織的裝置庫存，以及執行更新、重新開機及監視裝置診斷的工作。</span><span class="sxs-lookup"><span data-stu-id="5e721-105">You can view and manage the device inventory for your organization and do tasks such as update, restart, and monitor diagnostics for devices.</span></span> <span data-ttu-id="5e721-106">您也可以建立設定檔並將其指派給裝置或裝置群組。</span><span class="sxs-lookup"><span data-stu-id="5e721-106">You can also create and assign configuration profiles to a device or groups of devices.</span></span> 
+<span data-ttu-id="3e6b7-104">做為管理員，您可以從 Microsoft 團隊系統管理中心管理與組織中的小組搭配使用的所有裝置。</span><span class="sxs-lookup"><span data-stu-id="3e6b7-104">As an admin, you manage all devices used with Teams in your organization from the Microsoft Teams admin center.</span></span> <span data-ttu-id="3e6b7-105">您可以查看及管理貴組織的裝置庫存，以及執行更新、重新開機及監視裝置診斷的工作。</span><span class="sxs-lookup"><span data-stu-id="3e6b7-105">You can view and manage the device inventory for your organization and do tasks such as update, restart, and monitor diagnostics for devices.</span></span> <span data-ttu-id="3e6b7-106">您也可以建立設定檔並將其指派給裝置或裝置群組。</span><span class="sxs-lookup"><span data-stu-id="3e6b7-106">You can also create and assign configuration profiles to a device or groups of devices.</span></span> 
 
-## <a name="what-devices-can-you-manage"></a><span data-ttu-id="5e721-107">您可以管理哪些裝置？</span><span class="sxs-lookup"><span data-stu-id="5e721-107">What devices can you manage?</span></span>
-<span data-ttu-id="5e721-108">裝置必須經過認證，才能供小組使用，並已在小組中註冊。</span><span class="sxs-lookup"><span data-stu-id="5e721-108">Devices must be certified for Teams and enrolled in Teams.</span></span> <span data-ttu-id="5e721-109">在使用者第一次登入裝置上的小組時，裝置會自動註冊。</span><span class="sxs-lookup"><span data-stu-id="5e721-109">A device is automatically enrolled the first time a user signs in to Teams on the device.</span></span> <span data-ttu-id="5e721-110">如需可管理的認證裝置清單，請參閱[電話會議](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?devicetype=16)與[手機](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?devicetype=34)。</span><span class="sxs-lookup"><span data-stu-id="5e721-110">For a list of certified devices that can be managed, see [Conference phones](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?devicetype=16) and [Desk phones](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?devicetype=34).</span></span>
+## <a name="what-devices-can-you-manage"></a><span data-ttu-id="3e6b7-107">您可以管理哪些裝置？</span><span class="sxs-lookup"><span data-stu-id="3e6b7-107">What devices can you manage?</span></span>
+<span data-ttu-id="3e6b7-108">裝置必須經過認證，才能供小組使用，並已在小組中註冊。</span><span class="sxs-lookup"><span data-stu-id="3e6b7-108">Devices must be certified for Teams and enrolled in Teams.</span></span> <span data-ttu-id="3e6b7-109">在使用者第一次登入裝置上的小組時，裝置會自動註冊。</span><span class="sxs-lookup"><span data-stu-id="3e6b7-109">A device is automatically enrolled the first time a user signs in to Teams on the device.</span></span> <span data-ttu-id="3e6b7-110">如需可管理的認證裝置清單，請參閱[電話會議](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?devicetype=16)與[手機](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?devicetype=34)。</span><span class="sxs-lookup"><span data-stu-id="3e6b7-110">For a list of certified devices that can be managed, see [Conference phones](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?devicetype=16) and [Desk phones](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?devicetype=34).</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="5e721-111">如果您有 Microsoft Intune，裝置會自動在 Intune 中註冊。</span><span class="sxs-lookup"><span data-stu-id="5e721-111">If you have Microsoft Intune, devices are automatically enrolled in Intune.</span></span> <span data-ttu-id="5e721-112">裝置註冊之後，系統會確認裝置合規性，並將條件式存取原則套用到裝置上。</span><span class="sxs-lookup"><span data-stu-id="5e721-112">After a device is enrolled, device compliance is confirmed and conditional access policies are applied to the device.</span></span> 
+> <span data-ttu-id="3e6b7-111">如果您有 Microsoft Intune，裝置會自動在 Intune 中註冊。</span><span class="sxs-lookup"><span data-stu-id="3e6b7-111">If you have Microsoft Intune, devices are automatically enrolled in Intune.</span></span> <span data-ttu-id="3e6b7-112">裝置註冊之後，系統會確認裝置合規性，並將條件式存取原則套用到裝置上。</span><span class="sxs-lookup"><span data-stu-id="3e6b7-112">After a device is enrolled, device compliance is confirmed and conditional access policies are applied to the device.</span></span> 
 
-## <a name="manage-devices-in-teams"></a><span data-ttu-id="5e721-113">管理團隊中的裝置</span><span class="sxs-lookup"><span data-stu-id="5e721-113">Manage devices in Teams</span></span>
+## <a name="manage-devices-in-teams"></a><span data-ttu-id="3e6b7-113">管理團隊中的裝置</span><span class="sxs-lookup"><span data-stu-id="3e6b7-113">Manage devices in Teams</span></span>
 
-<span data-ttu-id="5e721-114">![](media/teams-logo-30x30.png) **使用 microsoft [團隊管理中心**] 顯示 Microsoft 團隊標誌的圖示</span><span class="sxs-lookup"><span data-stu-id="5e721-114">![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**</span></span>
+<span data-ttu-id="3e6b7-114">![](media/teams-logo-30x30.png) **使用 microsoft [團隊管理中心**] 顯示 Microsoft 團隊標誌的圖示</span><span class="sxs-lookup"><span data-stu-id="3e6b7-114">![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**</span></span>
 
-1. <span data-ttu-id="5e721-115">在左側導覽中，移至 [**裝置** > **管理裝置**]。</span><span class="sxs-lookup"><span data-stu-id="5e721-115">In the left navigation, go to **Devices** > **Manage Devices**.</span></span>
-2. <span data-ttu-id="5e721-116">選取 [**所有裝置**]。</span><span class="sxs-lookup"><span data-stu-id="5e721-116">Select **All devices**.</span></span>  
+1. <span data-ttu-id="3e6b7-115">在左側導覽中，移至 [**裝置** > **管理裝置**]。</span><span class="sxs-lookup"><span data-stu-id="3e6b7-115">In the left navigation, go to **Devices** > **Manage Devices**.</span></span>
+2. <span data-ttu-id="3e6b7-116">選取 [**所有裝置**]。</span><span class="sxs-lookup"><span data-stu-id="3e6b7-116">Select **All devices**.</span></span>  
 
 ::: zone-end
 
- <span data-ttu-id="5e721-117">您可以從這裡，查看及管理您組織中所有已註冊團隊的裝置。</span><span class="sxs-lookup"><span data-stu-id="5e721-117">From here, you can view and manage all devices enrolled in Teams in your organization.</span></span> <span data-ttu-id="5e721-118">您會在每個裝置上看到的資訊包括裝置名稱、製造商、型號、使用者、狀態、動作、上次查看，以及歷程記錄。</span><span class="sxs-lookup"><span data-stu-id="5e721-118">Information that you'll see for each device includes device name, manufacturer, model, user, status, action, last seen, and history.</span></span> <span data-ttu-id="5e721-119">您可以自訂 [視圖]，以顯示符合您需求的資訊。</span><span class="sxs-lookup"><span data-stu-id="5e721-119">You can customize the view to show the information that fits your needs.</span></span>
+ <span data-ttu-id="3e6b7-117">您可以從這裡，查看及管理您組織中所有已註冊團隊的裝置。</span><span class="sxs-lookup"><span data-stu-id="3e6b7-117">From here, you can view and manage all devices enrolled in Teams in your organization.</span></span> <span data-ttu-id="3e6b7-118">您會在每個裝置上看到的資訊包括裝置名稱、製造商、型號、使用者、狀態、動作、上次查看，以及歷程記錄。</span><span class="sxs-lookup"><span data-stu-id="3e6b7-118">Information that you'll see for each device includes device name, manufacturer, model, user, status, action, last seen, and history.</span></span> <span data-ttu-id="3e6b7-119">您可以自訂 [視圖]，以顯示符合您需求的資訊。</span><span class="sxs-lookup"><span data-stu-id="3e6b7-119">You can customize the view to show the information that fits your needs.</span></span>
 
- <span data-ttu-id="5e721-120">以下是如何管理組織中的小組裝置的一些範例。</span><span class="sxs-lookup"><span data-stu-id="5e721-120">Here's some examples of how you can manage Teams devices in your organization.</span></span>  
+ <span data-ttu-id="3e6b7-120">以下是如何管理組織中的小組裝置的一些範例。</span><span class="sxs-lookup"><span data-stu-id="3e6b7-120">Here's some examples of how you can manage Teams devices in your organization.</span></span>  
     
-|<span data-ttu-id="5e721-121">若要執行此動作 .。。</span><span class="sxs-lookup"><span data-stu-id="5e721-121">To do this...</span></span>  |<span data-ttu-id="5e721-122">執行此動作</span><span class="sxs-lookup"><span data-stu-id="5e721-122">Do this</span></span> |
+|<span data-ttu-id="3e6b7-121">若要執行此動作 .。。</span><span class="sxs-lookup"><span data-stu-id="3e6b7-121">To do this...</span></span>  |<span data-ttu-id="3e6b7-122">執行此動作</span><span class="sxs-lookup"><span data-stu-id="3e6b7-122">Do this</span></span> |
 |---------|---------|
-|<span data-ttu-id="5e721-123">變更裝置資訊</span><span class="sxs-lookup"><span data-stu-id="5e721-123">Change device information</span></span>   | <span data-ttu-id="5e721-124">選取 >**編輯**的裝置。</span><span class="sxs-lookup"><span data-stu-id="5e721-124">Select a device > **Edit**.</span></span> <span data-ttu-id="5e721-125">您可以編輯 [裝置名稱]、[使用者資訊]、[資產標記]，以及 [新增記事] 等詳細資料。</span><span class="sxs-lookup"><span data-stu-id="5e721-125">You can edit details such as device name, user information, asset tag, and add notes.</span></span>     |
-|<span data-ttu-id="5e721-126">管理軟體更新</span><span class="sxs-lookup"><span data-stu-id="5e721-126">Manage software updates</span></span>   |<span data-ttu-id="5e721-127">選取 >**更新**的裝置。</span><span class="sxs-lookup"><span data-stu-id="5e721-127">Select a device > **Update**.</span></span> <span data-ttu-id="5e721-128">您可以查看裝置可用的軟體和固件更新清單，並選擇要安裝的更新。</span><span class="sxs-lookup"><span data-stu-id="5e721-128">You can view the list of software and firmware updates available for the device and choose the updates to install.</span></span>    |
-|<span data-ttu-id="5e721-129">重新開機裝置</span><span class="sxs-lookup"><span data-stu-id="5e721-129">Restart a device</span></span>   |<span data-ttu-id="5e721-130">選取 >**重新開機**的裝置。</span><span class="sxs-lookup"><span data-stu-id="5e721-130">Select a device > **Restart**.</span></span>          |
-|<span data-ttu-id="5e721-131">查看裝置歷程記錄</span><span class="sxs-lookup"><span data-stu-id="5e721-131">View device history</span></span>  | <span data-ttu-id="5e721-132">選取裝置 > 歷程**記錄**]。</span><span class="sxs-lookup"><span data-stu-id="5e721-132">Select a device > **History**.</span></span> <span data-ttu-id="5e721-133">您可以查看裝置的更新歷程記錄。</span><span class="sxs-lookup"><span data-stu-id="5e721-133">You can view the update history for the device.</span></span>     |
-|<span data-ttu-id="5e721-134">[查看] 診斷</span><span class="sxs-lookup"><span data-stu-id="5e721-134">View diagnostics</span></span>  | <span data-ttu-id="5e721-135">選取 >**診斷**的裝置。</span><span class="sxs-lookup"><span data-stu-id="5e721-135">Select a device > **Diagnostics**.</span></span>        |
+|<span data-ttu-id="3e6b7-123">變更裝置資訊</span><span class="sxs-lookup"><span data-stu-id="3e6b7-123">Change device information</span></span>   | <span data-ttu-id="3e6b7-124">選取 >**編輯**的裝置。</span><span class="sxs-lookup"><span data-stu-id="3e6b7-124">Select a device > **Edit**.</span></span> <span data-ttu-id="3e6b7-125">您可以編輯 [裝置名稱]、[使用者資訊]、[資產標記]，以及 [新增記事] 等詳細資料。</span><span class="sxs-lookup"><span data-stu-id="3e6b7-125">You can edit details such as device name, user information, asset tag, and add notes.</span></span>     |
+|<span data-ttu-id="3e6b7-126">管理軟體更新</span><span class="sxs-lookup"><span data-stu-id="3e6b7-126">Manage software updates</span></span>   |<span data-ttu-id="3e6b7-127">選取 >**更新**的裝置。</span><span class="sxs-lookup"><span data-stu-id="3e6b7-127">Select a device > **Update**.</span></span> <span data-ttu-id="3e6b7-128">您可以查看裝置可用的軟體和固件更新清單，並選擇要安裝的更新。</span><span class="sxs-lookup"><span data-stu-id="3e6b7-128">You can view the list of software and firmware updates available for the device and choose the updates to install.</span></span>    |
+|<span data-ttu-id="3e6b7-129">重新開機裝置</span><span class="sxs-lookup"><span data-stu-id="3e6b7-129">Restart a device</span></span>   |<span data-ttu-id="3e6b7-130">選取 >**重新開機**的裝置。</span><span class="sxs-lookup"><span data-stu-id="3e6b7-130">Select a device > **Restart**.</span></span>          |
+|<span data-ttu-id="3e6b7-131">查看裝置歷程記錄</span><span class="sxs-lookup"><span data-stu-id="3e6b7-131">View device history</span></span>  | <span data-ttu-id="3e6b7-132">選取裝置 > 歷程**記錄**]。</span><span class="sxs-lookup"><span data-stu-id="3e6b7-132">Select a device > **History**.</span></span> <span data-ttu-id="3e6b7-133">您可以查看裝置的更新歷程記錄。</span><span class="sxs-lookup"><span data-stu-id="3e6b7-133">You can view the update history for the device.</span></span>     |
+|<span data-ttu-id="3e6b7-134">[查看] 診斷</span><span class="sxs-lookup"><span data-stu-id="3e6b7-134">View diagnostics</span></span>  | <span data-ttu-id="3e6b7-135">選取 >**診斷**的裝置。</span><span class="sxs-lookup"><span data-stu-id="3e6b7-135">Select a device > **Diagnostics**.</span></span>        |
 
-## <a name="use-configuration-profiles-in-teams"></a><span data-ttu-id="5e721-136">在團隊中使用設定檔</span><span class="sxs-lookup"><span data-stu-id="5e721-136">Use configuration profiles in Teams</span></span>
+## <a name="use-configuration-profiles-in-teams"></a><span data-ttu-id="3e6b7-136">在團隊中使用設定檔</span><span class="sxs-lookup"><span data-stu-id="3e6b7-136">Use configuration profiles in Teams</span></span>
 
-<span data-ttu-id="5e721-137">使用設定檔來管理貴組織中的小組裝置設定和功能。</span><span class="sxs-lookup"><span data-stu-id="5e721-137">Use configuration profiles to manage settings and features for Teams devices in your organization.</span></span> <span data-ttu-id="5e721-138">您可以建立或上傳設定檔，以包含您想要啟用或停用的設定和功能，然後將設定檔指派給裝置或裝置群組。</span><span class="sxs-lookup"><span data-stu-id="5e721-138">You can create or upload configuration profiles to include settings and features you want to enable or disable and then assign a profile to a device or groups of devices.</span></span> 
+<span data-ttu-id="3e6b7-137">使用設定檔來管理貴組織中的小組裝置設定和功能。</span><span class="sxs-lookup"><span data-stu-id="3e6b7-137">Use configuration profiles to manage settings and features for Teams devices in your organization.</span></span> <span data-ttu-id="3e6b7-138">您可以建立或上傳設定檔，以包含您想要啟用或停用的設定和功能，然後將設定檔指派給裝置或裝置群組。</span><span class="sxs-lookup"><span data-stu-id="3e6b7-138">You can create or upload configuration profiles to include settings and features you want to enable or disable and then assign a profile to a device or groups of devices.</span></span> 
 
-### <a name="create-a-configuration-profile"></a><span data-ttu-id="5e721-139">建立設定檔</span><span class="sxs-lookup"><span data-stu-id="5e721-139">Create a configuration profile</span></span>
-
-::: zone target="docs"
-
-![顯示 Microsoft [小組標誌] 的圖示](media/teams-logo-30x30.png) <span data-ttu-id="5e721-141">使用 Microsoft 團隊 & 商務用 Skype 系統管理中心</span><span class="sxs-lookup"><span data-stu-id="5e721-141">Using the Microsoft Teams & Skype for Business admin center</span></span>
-
-1. <span data-ttu-id="5e721-142">在左側導覽中，移至 [**裝置** > **管理裝置**]。</span><span class="sxs-lookup"><span data-stu-id="5e721-142">In the left navigation, go to **Devices** > **Manage Devices**.</span></span>
-
-::: zone-end
-
-2. <span data-ttu-id="5e721-143">選取 [**設定檔**]，然後選取 [**新增設定檔**]。</span><span class="sxs-lookup"><span data-stu-id="5e721-143">Select **Configuration profiles**, and then select **New configuration profile**.</span></span>
-3. <span data-ttu-id="5e721-144">輸入設定檔的名稱，並視需要新增易記的描述。</span><span class="sxs-lookup"><span data-stu-id="5e721-144">Enter a name for the profile and if you want, add a friendly description.</span></span>
-4. <span data-ttu-id="5e721-145">為設定檔指定您想要的設定，然後按一下 [**儲存**]。</span><span class="sxs-lookup"><span data-stu-id="5e721-145">Specify the settings you want for the profile, and then click **Save**.</span></span>
-
-### <a name="assign-a-configuration-profile"></a><span data-ttu-id="5e721-146">指派設定檔</span><span class="sxs-lookup"><span data-stu-id="5e721-146">Assign a configuration profile</span></span>
+### <a name="create-a-configuration-profile"></a><span data-ttu-id="3e6b7-139">建立設定檔</span><span class="sxs-lookup"><span data-stu-id="3e6b7-139">Create a configuration profile</span></span>
 
 ::: zone target="docs"
 
-![顯示 Microsoft [小組標誌] 的圖示](media/teams-logo-30x30.png) <span data-ttu-id="5e721-148">使用 Microsoft 團隊 & 商務用 Skype 系統管理中心</span><span class="sxs-lookup"><span data-stu-id="5e721-148">Using the Microsoft Teams & Skype for Business admin center</span></span>
+![顯示 Microsoft [小組標誌] 的圖示](media/teams-logo-30x30.png) <span data-ttu-id="3e6b7-141">使用 Microsoft 團隊 & 商務用 Skype 系統管理中心</span><span class="sxs-lookup"><span data-stu-id="3e6b7-141">Using the Microsoft Teams & Skype for Business admin center</span></span>
 
-1. <span data-ttu-id="5e721-149">在左側導覽中，移至 [**裝置** > **管理裝置**]。</span><span class="sxs-lookup"><span data-stu-id="5e721-149">In the left navigation, go to **Devices** > **Manage Devices**.</span></span>
+1. <span data-ttu-id="3e6b7-142">在左側導覽中，移至 [**裝置** > **管理裝置**]。</span><span class="sxs-lookup"><span data-stu-id="3e6b7-142">In the left navigation, go to **Devices** > **Manage Devices**.</span></span>
 
 ::: zone-end
 
-2. <span data-ttu-id="5e721-150">選取 [**設定檔**]，然後在 [**指派給**您要指派的設定檔] 底下，按一下連結。</span><span class="sxs-lookup"><span data-stu-id="5e721-150">Select **Configuration profile**, and then under **Assigned to** in the profile you want to assign, click the link.</span></span>  
-3. <span data-ttu-id="5e721-151">在 [**將裝置指派給**設定設定檔] 窗格中，搜尋並選取您要指派的裝置。</span><span class="sxs-lookup"><span data-stu-id="5e721-151">In the **Assign devices to a configuration profile** pane, search for and select the devices you want to assign.</span></span>
-4. <span data-ttu-id="5e721-152">按一下 [**儲存**]。</span><span class="sxs-lookup"><span data-stu-id="5e721-152">Click **Save**.</span></span>
+2. <span data-ttu-id="3e6b7-143">選取 [**設定檔**]，然後選取 [**新增設定檔**]。</span><span class="sxs-lookup"><span data-stu-id="3e6b7-143">Select **Configuration profiles**, and then select **New configuration profile**.</span></span>
+3. <span data-ttu-id="3e6b7-144">輸入設定檔的名稱，並視需要新增易記的描述。</span><span class="sxs-lookup"><span data-stu-id="3e6b7-144">Enter a name for the profile and if you want, add a friendly description.</span></span>
+4. <span data-ttu-id="3e6b7-145">為設定檔指定您想要的設定，然後按一下 [**儲存**]。</span><span class="sxs-lookup"><span data-stu-id="3e6b7-145">Specify the settings you want for the profile, and then click **Save**.</span></span>
+
+### <a name="assign-a-configuration-profile"></a><span data-ttu-id="3e6b7-146">指派設定檔</span><span class="sxs-lookup"><span data-stu-id="3e6b7-146">Assign a configuration profile</span></span>
+
+::: zone target="docs"
+
+![顯示 Microsoft [小組標誌] 的圖示](media/teams-logo-30x30.png) <span data-ttu-id="3e6b7-148">使用 Microsoft 團隊 & 商務用 Skype 系統管理中心</span><span class="sxs-lookup"><span data-stu-id="3e6b7-148">Using the Microsoft Teams & Skype for Business admin center</span></span>
+
+1. <span data-ttu-id="3e6b7-149">在左側導覽中，移至 [**裝置** > **管理裝置**]。</span><span class="sxs-lookup"><span data-stu-id="3e6b7-149">In the left navigation, go to **Devices** > **Manage Devices**.</span></span>
+
+::: zone-end
+
+2. <span data-ttu-id="3e6b7-150">選取 [**設定檔**]，然後在 [**指派給**您要指派的設定檔] 底下，按一下連結。</span><span class="sxs-lookup"><span data-stu-id="3e6b7-150">Select **Configuration profile**, and then under **Assigned to** in the profile you want to assign, click the link.</span></span>  
+3. <span data-ttu-id="3e6b7-151">在 [**將裝置指派給**設定設定檔] 窗格中，搜尋並選取您要指派的裝置。</span><span class="sxs-lookup"><span data-stu-id="3e6b7-151">In the **Assign devices to a configuration profile** pane, search for and select the devices you want to assign.</span></span>
+4. <span data-ttu-id="3e6b7-152">按一下 [**儲存**]。</span><span class="sxs-lookup"><span data-stu-id="3e6b7-152">Click **Save**.</span></span>
