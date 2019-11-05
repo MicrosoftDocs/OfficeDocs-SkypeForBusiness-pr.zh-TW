@@ -16,6 +16,7 @@
 
 # 聊天、小組、頻道和應用程式
 ## [規劃您的部署](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
+## [使用小組顧問來推行 Teams](use-advisor-teams-roll-out.md)
 ## [小組和頻道概觀](teams-channels-overview.md)
 ## [在 Teams 中指派小組擁有者和成員](assign-roles-permissions.md)
 ## [小組的動態成員資格概觀](dynamic-memberships.md)
@@ -363,8 +364,11 @@
 ### [查看貴組織的電話號碼清單](see-a-list-of-phone-numbers-in-your-organization.md)
 ### [指派、變更或移除使用者的電話號碼](assign-change-or-remove-a-phone-number-for-a-user.md)
 ### [取得服務電話號碼](getting-service-phone-numbers.md)
-### [將電話號碼移轉至 Office 365](transfer-phone-numbers-to-office-365.md)
-### [移轉電話號碼的常見問題](transferring-phone-numbers-common-questions.md)
+### 移轉電話號碼
+#### [什麼是移轉訂單？](phone-number-calling-plans/port-order-overview.md)
+#### [將電話號碼移轉至 Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)
+#### [手動提交移轉訂單](phone-number-calling-plans/manually-submit-port-order.md)
+#### [您的移轉訂單狀態為何？](phone-number-calling-plans/port-order-status.md)
 
 ## 通話路由
 ### [什麼是撥號對應表？](what-are-dial-plans.md)
