@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ec5b841cdb184eb6bbad85ee5456ec8f4470983b
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 516d49c84efc43000597d74756c699012cacf28e
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37516722"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968024"
 ---
 <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>在 Microsoft 團隊中組織團隊的最佳做法
 ======================================================
@@ -45,7 +45,11 @@ ms.locfileid: "37516722"
 
 深入瞭解如何[在團隊中使用](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_teams)這些針對使用者提供的快速秘訣。 
 
-我們的最佳做法指導方針是使用較大的成員集合及其他通道來建立小組。 若要維持高品質的使用者體驗，請將需要人員參與的小組數降至最低。 小組中的頻道應該看作是主題或工作流，協助小組組織其工作，以提供其加入目標。 不應建立任何特定數量的頻道。 每個小組都應該根據工作、優先順序及樣式來製作頻道。 較大型的組織可能會想要建立小組做為「範本」，以標準化其針對特定工作類型所捕獲的資訊。 這適用于戰略客戶管理、教室管理、健康情況護理案例、索賠管理、事件管理，以及適用于特定行業的其他案例。
+我們的最佳做法指導方針是使用較大的成員集合及其他通道來建立小組。  若要維持高品質的使用者體驗，請將需要人員參與的小組數降至最低。 小組中的頻道應該看作是主題或工作流，協助小組組織其工作，以提供其加入目標。 不應建立任何特定數量的頻道。 每個小組都應該根據工作、優先順序與樣式來製作出頻道。 
+
+使用標準通道進行交談：當小組中的部分人員需要更專注的共同作業空間時，小組中的每個人都可以參與與專用頻道。 若要深入瞭解私人頻道以及建立時間，請參閱[小組中的私人頻道](private-channels.md)。
+
+較大型的組織可能會想要建立小組做為「範本」，以標準化其針對特定工作類型所捕獲的資訊。  這對於戰略客戶管理、教室管理、保健保健案例、索賠管理、事件管理，以及適用于特定行業的其他案例都很有用。
 
 ## <a name="use-the-general-channel"></a>使用 [一般] 通道
 

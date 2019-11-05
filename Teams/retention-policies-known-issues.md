@@ -15,14 +15,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8a7dd5bac7c82814befab66247b1bfa8cf4943f6
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 5565409ea2f3dbb83754ced08a78e12283b1601c
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569959"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968334"
 ---
 # <a name="known-issues-for-retention-policies-in-microsoft-teams"></a>Microsoft 團隊中的保留原則已知問題
+
+> [!NOTE]
+> 我們還不支援保留私人通道訊息的設定。 支援在私人通道中共用的檔案保留。
 
 下列是追蹤及調查之小組中保留原則的已知問題。
 

@@ -13,12 +13,12 @@ ms.reviewer: vikramju
 description: 瞭解資訊障礙及其對團隊有何影響。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f3d6d8d603d9ff6ccf20a355e374b58fdf46ffa1
-ms.sourcegitcommit: 2e005b335b1566c99b93fc311498702838466324
+ms.openlocfilehash: dfc56ab28be03e0301228eb9220437c2e1ef2673
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/02/2019
-ms.locfileid: "37931801"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968254"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft 團隊中的資訊障礙
 
@@ -27,7 +27,8 @@ ms.locfileid: "37931801"
 > [!NOTE]
 > - 資訊屏障群組無法跨承租人建立。
 > - 在版本1中不支援使用 bot 來新增使用者。
-> - [新增]：連線至團隊之 SharePoint 網站的資訊障礙支援現已成為私人預覽。 如要參與私人預覽，請按一下[這裡](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR3-O9WDTKhhDtgWfphwS9YhUM0hJNklNRkZKMlhLNDRZNzlEQlVDSjdZVi4u)。 .
+> - 專用通道符合您設定的資訊屏障原則。
+> - [新增]：連線至團隊之 SharePoint 網站的資訊障礙支援現已成為私人預覽。 按一下[這裡](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR3-O9WDTKhhDtgWfphwS9YhUM0hJNklNRkZKMlhLNDRZNzlEQlVDSjdZVi4u)以參與私人預覽。
 
 資訊屏障原則也會防止查閱和探索。 這表示如果您嘗試與您不應該與之通訊的人通訊，就不會在人員選擇器中找到該使用者。
 

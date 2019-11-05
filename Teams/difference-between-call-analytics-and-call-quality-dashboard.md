@@ -1,5 +1,5 @@
 ---
-title: '[通話分析] 和 [通話品質儀表板]'
+title: 通話分析和通話品質儀表板
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -21,13 +21,13 @@ ms.custom:
 - Reporting
 description: 瞭解 [通話分析] 和 [通話品質儀表板]，以及何時使用它們監視及排除通話品質問題。
 ms.openlocfilehash: 70efd7f17189d9aac2236383a07cfc5fc0a37096
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571766"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37972464"
 ---
-# <a name="call-analytics-and-call-quality-dashboard"></a>[通話分析] 和 [通話品質儀表板]
+# <a name="call-analytics-and-call-quality-dashboard"></a>通話分析和通話品質儀表板
 
 Microsoft 團隊和商務用 Skype 提供兩種監視及疑難排解通話品質問題的方法： [通話分析] 和 [通話品質儀表板] （CQD）。 本文將說明這兩者，並告訴您何時使用每一個專案。
 
@@ -82,9 +82,9 @@ CQD 的位置-改良的報表會在使用者的組建中匯總通話品質與可
 - 全域系統管理員
 - 全域閱讀程式
 - 商務用 Skype 系統管理員
-- 團隊服務管理員
-- 團隊溝通系統管理員
-- 團隊溝通支援工程師
+- Teams 服務管理員
+- Teams 通訊系統管理員
+- Teams 通訊支援工程師
 - 團隊溝通支援專家
 - 報表閱讀程式
 
@@ -101,6 +101,6 @@ CQD 的位置-改良的報表會在使用者的組建中匯總通話品質與可
 
 [設定通話分析](set-up-call-analytics.md)
 
-[使用呼叫分析來排查不佳的通話品質問題](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+[使用通話分析來疑難排解不良通話品質](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
 [開啟並使用 Microsoft 團隊及商務用 Skype Online 的通話品質儀表板](turning-on-and-using-call-quality-dashboard.md)

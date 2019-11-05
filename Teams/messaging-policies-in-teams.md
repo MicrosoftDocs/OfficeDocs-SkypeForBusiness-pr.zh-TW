@@ -17,12 +17,12 @@ search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: 瞭解訊息原則，以及如何使用它們來控制小組中的聊天訊息。
-ms.openlocfilehash: bc69b44b47cf068bdea17ed661a873b90af44de5
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 3ac3e25dfc6f8ec65922d0265664649de6e9f55c
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37569273"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968234"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>管理小組中的訊息傳遞原則
 
@@ -34,7 +34,7 @@ ms.locfileid: "37569273"
 
 ## <a name="change-or-create-a-messaging-policy"></a>變更或建立訊息原則
 
-您可以在 Microsoft 團隊系統管理中心輕鬆管理訊息原則（http://admin.teams.microsoft.com)方法是使用系統管理員認證登入，然後在左側流覽窗格中選擇 [**訊息原則**]）。 若要編輯貴組織的現有預設訊息原則，請選取 [**全域（組織範圍預設值）** ] 列，然後進行您要的變更。 若要建立新的自訂訊息原則，請選取 [**新增原則**]，為新原則命名，然後選取您的設定。 完成後，請選擇 [**儲存**]。
+您可以在 Microsoft 團隊系統管理中心輕鬆管理訊息原則（https://admin.teams.microsoft.com)方法是使用系統管理員認證登入，然後在左側流覽窗格中選擇 [**訊息原則**]）。 若要編輯貴組織的現有預設訊息原則，請選取 [**全域（組織範圍預設值）** ] 列，然後進行您要的變更。 若要建立新的自訂訊息原則，請選取 [**新增原則**]，為新原則命名，然後選取您的設定。 完成後，請選擇 [**儲存**]。
 
 例如，假設您想要確認已傳送的郵件不會被刪除或變更。 您可以建立名為「保留已傳送的郵件」的新自訂原則，然後關閉下列設定：
 
@@ -97,6 +97,9 @@ ms.locfileid: "37569273"
     - **停用**這表示使用者無法在聊天或頻道中建立語音訊息。  
 - **在行動裝置上，顯示最近聊天上的最愛頻道**啟用此設定可將最愛的頻道移至行動裝置畫面頂端，這樣使用者就不需要滾動就能找到。 
 - **允許使用者從群組聊天中移除使用者**開啟此設定可讓使用者從群組聊天中移除其他使用者。 此功能可讓您繼續與較少的人進行交談，而不會遺失聊天歷程記錄。
+
+> [!NOTE]
+> 某些設定（例如使用 Giphy）也可以由小組擁有者在小組階層和私人通道擁有者設定為私人通道層級。
 
 ### <a name="related-topics"></a>相關主題
 [團隊中的會議原則](meeting-policies-in-teams.md)

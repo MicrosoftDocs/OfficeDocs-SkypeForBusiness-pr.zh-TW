@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6757f7200535dc8fb687915ec033712b2654723b
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 56aa75a85544373047b9ef8a888478103cdf1fd1
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37517049"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968064"
 ---
 <a name="assign-team-owners-and-members-in-microsoft-teams"></a>在 Microsoft 團隊中指派小組擁有者和成員
 =================================================
@@ -38,9 +38,12 @@ ms.locfileid: "37517049"
 |          **離開團隊**           |    是     |     是     |
 |  **編輯團隊名稱/描述**   |    是     |     否      |
 |          **刪除團隊**          |    是     |     否      |
-|          **新增頻道**          |    是     |    是<sup>2</sup>|
-| **編輯頻道名稱/描述** |    是     |    是<sup>2</sup>|
-|        **刪除頻道**         |    是     |    是<sup>2</sup>|
+|          **新增標準頻道**          |    是     |    是<sup>2</sup>|
+| **編輯標準頻道名稱/描述** |    是     |    是<sup>2</sup>|
+|        **刪除標準頻道**         |    是     |    是<sup>2</sup>|
+|          ***新增私人頻道**          |    是     |    是<sup>2</sup>|
+| ***編輯私人頻道名稱/描述** |    否     |    不適用|
+|        ***刪除私人頻道**         |    是     |    否|
 |          **新增成員**          |  是<sup>3</sup>   |     無<sup>4</sup>    |
 |          **要求新增成員**          |  不適用   |     是<sup>5</sup>     |
 |           **[新增] 索引標籤**            |    是     |    是<sup>2</sup>|
@@ -48,10 +51,12 @@ ms.locfileid: "37517049"
 |           **新增 bot**            |    是     |    是<sup>2</sup>|
 
 <sup>1</sup>小組擁有者可以建立團隊，除非他們受到限制。 [建立小組的許可權](#permissions-to-create-teams)。<br>
-><sup>2</sup>擁有者可以在小組層級關閉這些專案，在這種情況下，成員將無法存取它們。<br>
+<sup>2</sup>擁有者可以在小組層級關閉這些專案，在這種情況下，成員將無法存取它們。<br>
 <sup>3</sup>將成員新增至團隊之後，擁有者也可以將成員升級為擁有者狀態。 您也可以讓擁有者將自己的狀態降級為成員。<br>
 <sup>4 個</sup>小組成員可以將其他成員新增至公用小組。<br>
 <sup>5</sup>當小組成員無法直接將成員新增到私人小組時，他們可以要求將某人新增至他們已成為其成員的小組。 當成員要求將某人新增至小組時，小組擁有者會收到一則通知，提醒他們有可接受或拒絕的待定要求。
+
+* 若要深入瞭解私人頻道的許可權，請參閱[小組中的私人頻道](private-channels.md)。
 
 > [!NOTE]
 > 擁有者可以在 [**查看小組**] 選項中讓其他成員擁有者。 團隊最多可以有100個擁有者。 我們建議您至少有幾個擁有者協助管理團隊;這也會防止孤立的群組（如果擁有者離開您的組織）。 如需孤立群組的詳細資訊，請參閱[將新擁有者指派給孤立的群組](https://support.office.com/article/Assign-a-new-owner-to-an-orphaned-group-86bb3db6-8857-45d1-95c8-f6d540e45732)。

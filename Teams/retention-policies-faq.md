@@ -15,14 +15,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dbeab6df377dd898b9c0d424288300ad7f01fbfc
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 9b3d2ed05459c6866c73b0f49b128eea3980605f
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37569970"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968304"
 ---
 # <a name="microsoft-teams-retention-policies-faq"></a>Microsoft 團隊保留原則常見問題
+
+> [!NOTE]
+> 我們還不支援保留私人通道訊息的設定。 支援在私人通道中共用的檔案保留。
 
 ### <a name="what-types-of-policies-can-i-set-up-in-retention-policies-and-how-do-they-work"></a>我可以在保留原則中設定哪些類型的原則，以及它們的運作方式為何？
 
@@ -40,7 +43,7 @@ ms.locfileid: "37569970"
 
 ### <a name="what-is-the-default-retention-policy"></a>預設的保留原則為何？ 
 
-依預設，小組聊天、頻道和檔案資料都會永久保留。 使用者可以刪除某個專案，但在沒有保留原則的情況下，小組資料永遠會歸檔到 Exchange online 信箱（使用者和群組），並留在其中供 eDiscovery 使用。 
+依預設，小組聊天、頻道和檔案資料都會永久保留。
 
 ### <a name="can-i-target-sets-of-users-or-teams-in-a-policy"></a>我可以針對原則中的使用者或團隊設定目標嗎？ 
 

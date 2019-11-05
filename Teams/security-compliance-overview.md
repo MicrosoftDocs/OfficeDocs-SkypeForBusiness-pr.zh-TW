@@ -17,12 +17,12 @@ f1keywords:
 - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f5780720cfcd5adcf079c0f3d31423949cecea23
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: da0e576bf299bcd4c5362e7055cd843805b783dc
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37573429"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968174"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Microsoft 團隊中的安全性與合規性概述
 ======================================================
@@ -37,7 +37,10 @@ Microsoft 團隊是以 Office 365 超規模、企業級的雲端為基礎，提�
 
 我們也為頻道、聊天和檔案以及使用 Microsoft Intune 的行動應用程式管理，新增對審核記錄搜尋、eDiscovery 與法律封存的支援。 若要管理這些設定，請移至 Office 365 安全 & 合規性中心。 
 
-若要深入瞭解 Office 365 的安全性 & 合規性，請閱讀[設定您的 Office 365 租使用者以提高安全性](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security)
+若要深入瞭解 Office 365 的安全性和合規性，請閱讀[設定您的 Office 365 租使用者，以提高安全性](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security)。
+
+> [!NOTE]
+> 目前，[私有通道](private-channels.md)支援有限的安全性與合規性功能。 我們即將推出私人通道中完整的安全性與合規性功能的支援。
 
 ## <a name="auditing-and-reporting"></a>審核與報告
 
@@ -47,7 +50,7 @@ Microsoft 團隊是以 Office 365 超規模、企業級的雲端為基礎，提�
 
 您可以使用內容搜尋，透過豐富的篩選功能搜尋所有團隊資料，並匯出至特定容器以進行合規性和訴訟支援。 您可以使用或不使用 eDiscovery 案例來完成此操作。 這可讓合規性系統管理員收集所有使用者的小組資料、審閱並匯出，以進行進一步的處理。 請參閱此[連結](https://support.office.com/article/content-search-in-office-365-53390468-eec6-45cb-b6cd-7511f9c909e4)，深入瞭解如何在 Office 365 安全 & 合規性中心中進行 Microsoft 團隊內容搜尋。 
 
-秘訣： Microsoft 團隊可以用來篩選僅限 Microsoft 團隊的內容，例如聊天與頻道訊息、會議和通話。 
+秘訣： Microsoft 團隊可以用來篩選僅限 Microsoft 團隊的內容，例如聊天與頻道訊息、會議和通話。
 
 ## <a name="ediscovery"></a>eDiscovery
 

@@ -22,12 +22,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: '瞭解如何開啟和使用通話品質儀表板，並取得通話品質的摘要報告。 '
-ms.openlocfilehash: a83ebe08ac7cc754cadd59bffa71117f473b470b
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 8d6e97ea5454b8e933424c2e8db595a5af7ac8c8
+ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568506"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37972484"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>開啟並使用 Microsoft 團隊和商務用 Skype Online 的通話品質儀表板
 
@@ -60,7 +60,7 @@ CQD 版本3會提供接近即時的 CQD 儀表板（延遲接近30分鐘），�
 - 用戶端版本：針對每個用戶端版本，查看會話與使用者計數，或向下切入至每個用戶端版本的使用者名稱。 針對產品和用戶端類型預先建立的篩選，可協助將版本集中到特定的用戶端。
 - 端點：顯示對應至電腦/Mac 的品牌/型號的電腦端點。 依 [品牌]/[模型] 顯示匯總品質。 對應資料的上傳與建立資料類似。
 
-如果無法使用 EUII 存取，版本3也會提供 RBAC 支援。  
+如果無法使用 EUII 存取，則高級 CQD （V3）也會提供 RBAC 支援。  
 
 系統管理員可以透過 CQD 版本3管理商務用 Skype Server 2019 （不只是商務用 Skype Online 和 Microsoft 團隊）。 這需要混合式實現，以及使用通話資料連線器。 如需詳細資訊，請參閱[規劃通話資料連線器](/SkypeForBusiness/hybrid/plan-call-data-connector)。
 
@@ -84,7 +84,7 @@ CQD 版本1已供應商務用 Skype Server 2015 管理員下列功能：
 
 ## <a name="cqd-near-real-time-nrt-data"></a>CQD 近乎即時（NRT）資料
 
-CQD v3 利用近乎即時的資料摘要。 通話記錄可在通話結束後的30分鐘內，于 CQD 入口網站中取得。 從資料集移除 NRT 管線中的記錄前，只能有幾個月提供給它。 CQD v3 會從來自 v3 管線的 NRT 資料合併目前 v2 管線的資料。 在 v2 和 v3 入口網站上，來自存檔週期之資料的查詢會產生相同的結果。 NRT 資料的 V2 和 v3 資料查詢與 NRT Data + PII 期間會不同。
+先進 CQD （V3 2019 年11月）使用近乎即時的資料摘要。 通話記錄可在通話結束後的30分鐘內，于 CQD 入口網站中取得。 從資料集移除 NRT 管線中的記錄前，只能有幾個月提供給它。 CQD v3 會從來自 v3 管線的 NRT 資料合併目前 v2 管線的資料。 在 v2 和 v3 入口網站上，來自存檔週期之資料的查詢會產生相同的結果。 NRT 資料的 V2 和 v3 資料查詢與 NRT Data + PII 期間會不同。
 
 ### <a name="piieuii-data"></a>PII/EUII 資料
 
@@ -170,24 +170,24 @@ CQD v3 支援在 SPD 報告中使用 [鑽取] 或 [向下切入] 欄位。 如�
 
 <a name="BKMKFeaturesOfTheCQD"> </a>
 
-<!-- Siunies, this isn't very clear, it doesn't call out v1 and v2. unsure how to elaborate for v3, please comment -->
+
 CQD 摘要報告提供規劃詳細報告之功能的子集。 版本間的差異摘要如下：
   
 |功能|摘要報告|詳細報告|
 |:--- |:--- |:--- |
-|應用程式共用躍點數 | 不 | 是的 |
-|客戶建立資訊支援 | 是的 | 是的 |
+|應用程式共用躍點數 | 否 | 是 |
+|客戶建立資訊支援 | 是 | 是 |
 |用戶端點資訊支援 | 僅限<span>cqd.teams.microsoft.com<span/> | 僅限<span>cqd.teams.microsoft.com<span/> |
-|深化分析支援   | 不   | 是的   |
-|媒體可靠性度量單位   | 不   | 是的   |
-|外框報告   | 是的   | 是的   |
-|[總覽] 報表   | 是的   | 是的   |
-|每個使用者的報表集   | 不   | 是的   |
-|報表集自訂（新增、刪除、修改報告）   | 不   | 是的   |
-|以影片為基礎的畫面共用規格   | 不   | 是的   |
-|影片度量單位   | 不   | 是的   |
+|深化分析支援   | 否   | 是   |
+|媒體可靠性度量單位   | 否   | 是   |
+|外框報告   | 是   | 是   |
+|[總覽] 報表   | 是   | 是   |
+|每個使用者的報表集   | 否   | 是   |
+|報表集自訂（新增、刪除、修改報告）   | 否   | 是   |
+|以影片為基礎的畫面共用規格   | 否   | 是   |
+|影片度量單位   | 否   | 是   |
 |可用的資料量   | 過去6個月   | 過去6個月   |
-|Microsoft 團隊資料   | 是的   | 是的   |
+|Microsoft 團隊資料   | 是   | 是   |
 | | | |
 
 ### <a name="out-of-the-box-reports"></a>外框報告
@@ -211,7 +211,7 @@ CQD 的所有版本都提供了整體通話品質資訊的高層進入點，但�
 - **語音品質 SLA** -提供包含在商務用 Skype Online 語音品質 SLA 中之通話的相關資訊。
 
 > [!NOTE]
-> CQD 版本3可與 Microsoft 團隊、商務用 Skype Online 和商務用 Skype 伺服器搭配使用。 若要在商務用 Skype Server 2019 中使用 CQD，您必須[設定 [呼叫資料連線器](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-call-data-connector)]。 請參閱[規劃通話資料連線器](https://docs.microsoft.com/en-us/skypeforbusiness/hybrid/plan-call-data-connector)，然後再開始進行。
+> CQD 版本3可與 Microsoft 團隊、商務用 Skype Online 和商務用 Skype 伺服器搭配使用。 若要在商務用 Skype Server 2019 中使用 CQD，您必須[設定 [呼叫資料連線器](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-call-data-connector)]。 請參閱[規劃通話資料連線器](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-call-data-connector)，然後再開始進行。
 
 - 依地區通話品質：
 
@@ -357,7 +357,7 @@ CQD 使用建築物資料檔，這可協助提供有用的通話詳細資料。 
 |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:---  |:--- |:---|
 |**欄欄位名稱**|NetworkIP  |NetworkName              |NetworkRange|BuildingName  |OwnershipType| BuildingType  |BuildingOfficeType|座   |郵遞區號|國家|市 |國家|InsideCorp&dagger;|ExpressRoute&Dagger;|VPN （選用）|
 |**資料類型**        | String    | String                  |電話      | String       | String      | String        |String            |String |String |String |String|String|Boolean   |Boolean     |Boolean|
-|**範例值**    |192.168.1.0|美國/西雅圖/西雅圖-海-1| 26         | 北京-海-1| 尚未     | 終止|工程學       |西雅圖|98001  |一下     |華盛頓    |MSUS  | sr-1        |0           | 0|
+|**範例值**    |192.168.1.0|美國/西雅圖/西雅圖-海-1| 26         | 北京-海-1| 尚未     | 終止|工程學       |西雅圖|98001  |一下     |華盛頓    |MSUS  | 1        |0           | 0|
 |||||||||||||||||
 
 &dagger;此設定可用於反映子網是否位於公司網路內。 您可以根據自己的需求來自訂其他用途的使用方式。
@@ -447,12 +447,12 @@ CQD v2 和 CQD v3 具有不同的總計數，因為 CQD v3 有新的案例不在
 
 ## <a name="related-topics"></a>相關主題
 
-[通話品質儀表板中提供的維度與量值](dimensions-and-measures-available-in-call-quality-dashboard.md)
+[通話品質儀表板中提供的維度和量值](dimensions-and-measures-available-in-call-quality-dashboard.md)
 
-[通話品質儀表板中的資料流程分類](stream-classification-in-call-quality-dashboard.md)
+[通話品質儀表板中的資料流分類](stream-classification-in-call-quality-dashboard.md)
 
 [設定商務用 Skype 通話分析](set-up-call-analytics.md)
 
-[使用呼叫分析來排查不佳的通話品質問題](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+[使用通話分析來疑難排解不良通話品質](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
-[[通話分析] 和 [通話品質儀表板]](difference-between-call-analytics-and-call-quality-dashboard.md)
+[通話分析和通話品質儀表板](difference-between-call-analytics-and-call-quality-dashboard.md)

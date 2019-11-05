@@ -1,5 +1,5 @@
 ---
-title: 團隊範本快速入門
+title: 開始使用 Teams 範本
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -17,14 +17,17 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5832ccce69c9863e364f94c6e850f8d938ac162
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 378977e86854f3c4b2192017fa10ce19aeb4990e
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569561"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968314"
 ---
-# <a name="get-started-with-teams-templates"></a>團隊範本快速入門 
+# <a name="get-started-with-teams-templates"></a>開始使用 Teams 範本
+
+> [!NOTE]
+> 團隊範本目前不支援建立專用頻道。 範本定義中不包含專用通道建立。 
 
 團隊範本是預先建立的小組結構定義，它是圍繞業務需求或專案設計的。 您可以使用團隊範本快速建立豐富的共同作業空間，並提供不同主題和預先安裝應用程式的頻道，以納入重要的內容和服務。 團隊範本提供預先定義的小組結構，可協助您在組織中輕鬆建立一致的團隊。 
 
@@ -33,7 +36,7 @@ ms.locfileid: "37569561"
 本文適用于您（如果您是：
 
 - 負責規劃、部署及管理整個組織中的多個團隊<br>
-- 開發人員想要以程式設計方式使用預先定義的頻道和應用程式建立小組 
+- 開發人員想要以程式設計方式使用預先定義的頻道和應用程式建立小組
 
 ## <a name="teams-template-capabilities"></a>團隊範本功能
 
@@ -48,7 +51,7 @@ ms.locfileid: "37569561"
 | 團隊設定（例如 [成員]、[來賓]、[@ 提及]） | 檔案和內容 |
 | 自動常用頻道 | |
 | 已安裝的應用程式 | |
-| 釘選索引標籤 | | 
+| 釘選索引標籤 | |
 
 > [!NOTE]
 > 我們將在未來版本的 Microsoft 團隊中新增更多範本功能，因此請返回支援屬性的最新資訊。
@@ -57,7 +60,7 @@ ms.locfileid: "37569561"
 
 基底範本類型是 Microsoft 針對特定行業建立的特殊範本。 這些基本範本通常包含無法在 [書店] 和 [小組] 範本中個別不支援的 [店鋪] 和 [團隊屬性] 中提供的專有 app。
 
-一旦定義基底範本類型之後，您就可以使用您想要指定的其他屬性來延伸或覆寫這些特殊範本。 但某些基底範本類型包含無法重寫的屬性。 
+一旦定義基底範本類型之後，您就可以使用您想要指定的其他屬性來延伸或覆寫這些特殊範本。 但某些基底範本類型包含無法重寫的屬性。
 
 根據預設，基本範本會設定為**標準**，不包含任何其他專屬 app 或特殊屬性。 以下是可用的基本範本類型的目前清單。
 
@@ -76,11 +79,10 @@ ms.locfileid: "37569561"
 > [!NOTE]
 > 我們將在未來版本的 Microsoft 團隊中新增更多基本範本類型，因此請返回支援屬性的最新資訊。
 
-
 ## <a name="related-topics"></a>相關主題
 
 - [建立小組](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta)（在預覽中）
 - [新團隊](https://docs.microsoft.com/powershell/module/teams/New-Team?view=teams-ps)
 - [Microsoft 團隊的系統管理訓練](itadmin-readiness.md)
-- [開始使用零售團隊範本](get-started-with-retail-teams-templates.md)
-- [開始使用適用于醫療保健組織的團隊範本](expand-teams-across-your-org/healthcare/healthcare-templates.md)
+- [開始使用適用於零售業的 Teams 範本](get-started-with-retail-teams-templates.md)
+- [開始使用適用於醫療保健組織的 Teams 範本](expand-teams-across-your-org/healthcare/healthcare-templates.md)

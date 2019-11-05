@@ -22,12 +22,12 @@ f1keywords:
 - ms.teamsadmincenter.teamsandchannelpolicies.overview
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
-ms.openlocfilehash: 5edaa21f3d9a2438532f8cc7f45f182c105b2f1e
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 5bcc084c96ededbf4337057834763e9d53ac4348
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37570132"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968274"
 ---
 # <a name="manage-teams-policies-in-microsoft-teams"></a>管理 Microsoft 團隊中的團隊原則
 
@@ -46,8 +46,8 @@ ms.locfileid: "37570132"
     ![團隊原則設定的螢幕擷取畫面](media/teams-policies.png)
 4. 選擇您想要的設定：
 
-- [**探索私人團隊**](https://docs.microsoft.com/MicrosoftTeams/teams-policies#discoverteams)：開啟此設定可讓使用者在搜尋結果和小組圖庫中探索私人小組。
-- [**建立私人頻道**](https://docs.microsoft.com/MicrosoftTeams/teams-policies#createchannels)：開啟此設定可允許使用者建立私人頻道。
+- **探索私人團隊**：<a name="discoverteams"> </a>開啟此設定可讓使用者在搜尋結果和小組圖庫中探索私人小組。
+- **建立私人頻道**： <a name="createchannels"></a>開啟此設定可允許使用者建立私人頻道。
 
 5. 按一下 [**儲存**]。
 
@@ -105,3 +105,4 @@ $members | ForEach-Object { Grant-CsTeamsChannelsPolicy -PolicyName "Marketing T
 ## <a name="related-topics"></a>相關主題
 
 - [在 Teams 中管理私人小組的探索](manage-discovery-of-private-teams.md)
+- [團隊中的私人頻道](private-channels.md)

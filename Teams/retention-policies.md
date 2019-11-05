@@ -3,7 +3,6 @@ title: Microsoft 團隊中的保留原則
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/11/2018
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
@@ -15,16 +14,19 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5e78e5837aa0e42f268b50bff47dab6aae71d5d2
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 81c42bbe4f6bfc9186365d43906fc9b7f31bf8d2
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569948"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968324"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Microsoft 團隊中的保留原則
 
-團隊交談預設為持續性，且預設為永久保留。 隨著保留原則的推出，系統管理員可以在 [安全性 & 合規性中心中設定保留原則（保留與刪除），以供小組聊天和頻道訊息使用。 此功能可協助組織針對特定期間保留資料，以進行合規性（亦即保留原則），或去除資料（亦即刪除原則）（如果在特定期間內被視為負債）。 團隊保留原則可確保在您刪除資料時，會從團隊服務上的所有永久資料儲存位置中移除資料。 
+團隊交談預設為持續性，且預設為永久保留。 隨著保留原則的推出，系統管理員可以在 [安全性 & 合規性中心中設定保留原則（保留與刪除），以供小組聊天和頻道訊息使用。 此功能可協助組織針對特定期間保留資料，以進行合規性（亦即保留原則），或去除資料（亦即刪除原則）（如果在特定期間內被視為負債）。 團隊保留原則可確保在您刪除資料時，會從團隊服務上的所有永久資料儲存位置中移除資料。
+
+> [!NOTE]
+> 我們還不支援保留私人通道訊息的設定。 支援在私人通道中共用的檔案保留。
 
 若要管理團隊保留原則，請在 [**資料管理** > **保留**] 底下的 [Office 365 安全 & 合規性中心中使用設定和 Cmdlet。
 

@@ -16,17 +16,21 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 82ba160c1b2a36d67d67b69a0d7eb71bdde4c35f
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: ceb699ff4c8d7ba2cf10e1b8e94ca33f60eb9b8d
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37515911"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968264"
 ---
 <a name="archive-or-delete-a-team-in-microsoft-teams"></a>在 Microsoft 團隊中封存或刪除小組
 ===========================================
 
-隨著時間的推移，在 Microsoft 團隊中建立的小組可能不在使用中，或者您可能想要在專案結束時封存或刪除小組。 如果您是 Microsoft 團隊管理員，請按照本文所述的步驟來封存或刪除不再需要的小組。 當您封存小組時，該小組的所有活動都會停止，但是您仍然可以新增或移除成員並更新角色，您仍然可以在頻道、檔案和聊天中查看所有團隊活動。 刪除小組時，也會刪除關聯頻道、檔案和聊天中的小組活動。
+隨著時間的推移，在 Microsoft 團隊中建立的小組可能不在使用中，或者您可能想要在專案結束時封存或刪除小組。 如果您是 Microsoft 團隊管理員，請按照本文所述的步驟來封存或刪除不再需要的小組。
+
+當您封存小組時，該小組的所有活動都會停止。 封存小組也會將小組及其相關網站集合中的私人頻道存檔。  不過，您仍然可以新增或移除成員並更新角色，您仍然可以在標準和私人通道、檔案和聊天中查看所有團隊活動。
+
+刪除小組時，也會刪除標準和專用頻道（以及相關聯的網站集合）、檔案和聊天中的小組活動。
 
 > [!IMPORTANT]
 > 封存的團隊可以重新啟用，但您無法直接取消刪除已刪除的小組。 考慮先封存團隊，然後推遲刪除，直到您確定不再需要團隊為止。
@@ -63,7 +67,9 @@ ms.locfileid: "37515911"
 
 ## <a name="restore-a-deleted-team"></a>還原已刪除的小組
 
-若要還原已刪除的小組，請執行下列步驟，還原與小組相關聯的 Office 365 群組。 根據預設，已刪除的 Office 365 群組會保留30天。 此30天期間稱為「虛刪除」，因為您可以還原該群組。 若要深入瞭解，請參閱[還原已刪除的 Office 365 群組](https://docs.microsoft.com/office365/admin/create-groups/restore-deleted-group)。
+若要還原已刪除的小組，請執行下列步驟，還原與小組相關聯的 Office 365 群組。 還原小組的 Office 365 群組、還原小組內容，包括索引標籤、標準通道、專用通道及其相關網站集合。
+
+根據預設，已刪除的 Office 365 群組會保留30天。 此30天期間稱為「虛刪除」，因為您可以還原該群組。 若要深入瞭解，請參閱[還原已刪除的 Office 365 群組](https://docs.microsoft.com/office365/admin/create-groups/restore-deleted-group)。
 
 ### <a name="install-the-azureadpreview-module"></a>安裝 AzureADPreview 模組
 

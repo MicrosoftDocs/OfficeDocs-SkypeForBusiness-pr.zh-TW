@@ -20,12 +20,12 @@ ms.collection:
 ms.custom: okr_smb
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 604ea944d54e71e72d49505f111606beae5343ea
-ms.sourcegitcommit: 0de27096ea3c9d6f210aeb4aad31c4255c3c0244
+ms.openlocfilehash: f5051028b93b5170e7accde90412dcac6ceca04d
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "37570262"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968054"
 ---
 > [!NOTE]
 > 請複習下列資訊，瞭解團隊中的聊天、團隊、頻道、& 應用程式。 然後，移至 [[聊天]、[團隊]、[頻道]、& [團隊] 中的應用程式](deploy-chat-teams-channels-microsoft-teams-landing-page.md)，逐步引導您團隊推出的重要決策清單。
@@ -38,15 +38,13 @@ ms.locfileid: "37570262"
 - **團隊**是組織內不同專案和結果的人員、內容和工具集合。
 
     - 只有受邀的使用者才能建立團隊私人。
-
     - 小組也可以建立為公開及開啟，組織中的任何人都可以加入（最多5000個成員）。
     
     小組的設計目的是將一組人集中在一起，共同完成工作。 小組可以是動態的專案工作（例如，啟動產品、建立數位 war 房間），以及進行中的工作，以反映貴組織的內部結構（例如部門與辦公室位置）。 團隊頻道中的交談、檔案和筆記只會顯示在小組成員中。
 
 - **頻道**是團隊內的專用區段，可讓交談依特定主題、專案、學科來組織，任何適合您團隊的交談！ 您在頻道中共用的檔案（在 [檔案] 索引標籤上）會儲存在 SharePoint 中。 若要深入瞭解，請參閱[SharePoint Online 與商務用 OneDrive 與團隊互動的方式](SharePoint-OneDrive-interact.md)。
 
-    - 團隊頻道是小組中的每個人都能公開交談的地方。 私人聊天只對聊天中的人員可見（而您在聊天中共用的檔案儲存在商務用 OneDrive 中）。 
-
+    - 頻道是在進行交談的位置，以及實際完成工作的位置。 頻道可以開啟給所有團隊成員，或者如果您需要更多選取的物件，則可以是私人的。 標準頻道適用于小組中的每個人都可以參與的交談，而[私人頻道](private-channels.md)則限制與團隊中的人員子集進行通訊。
     - 當您使用包括索引標籤、連接器和 bot 的應用程式（可將其值增加至團隊成員）來延伸時，通道最有價值。 若要深入瞭解，請參閱[小組中的 app、bot、& 連接器](deploy-apps-microsoft-teams-landing-page.md)。
 
 若要深入瞭解建立小組和頻道的最佳做法，請觀看這段短片。
@@ -73,9 +71,9 @@ Microsoft 團隊中有兩個主要角色：
 
 **團隊設定** 
 
-小組擁有者可以直接在 Microsoft 團隊中管理整個小組的設定。 [設定] 包括新增小組圖片、在小組成員之間設定許可權以建立頻道、新增索引標籤和連接器、@mentioning 整個團隊或頻道，以及 Gif、貼紙及 meme 的使用方式。 
+小組擁有者可以直接在 Microsoft 團隊中管理整個小組的設定。 [設定] 包括新增小組圖片、在小組成員中設定標準及[專用頻道](private-channels.md)的許可權，以及新增索引標籤和連接器、@mentioning 整個團隊或頻道，以及 gif、貼紙及 meme 的使用方式。
 
-請花三分鐘的時間來查看適用于小組擁有者的此引導式影片： 
+請花三分鐘的時間來查看適用于小組擁有者的此引導式影片：
 
    > [!VIDEO https://www.youtube.com/embed/7XcDSuw6NR4]
 

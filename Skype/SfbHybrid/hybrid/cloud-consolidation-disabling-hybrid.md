@@ -19,23 +19,24 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 本附錄包含詳細的步驟，停用混合式雲端合併彙算 Teams 和商務用 Skype 的一部分。
-ms.openlocfilehash: f78c5a5cb792ecdb39125292c531097219dc58e3
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: d441d9fcc5e4f2cec495efabdbea423eaaec882c
+ms.sourcegitcommit: 7920c47eb73e665dad4bf7214b28541d357bce25
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37924964"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "37962049"
 ---
 # <a name="disable-hybrid-to-complete-migration-to-the-cloud"></a>停用來完成遷移至雲端混合式
 
 您已經移動所有使用者從內部部署到雲端後，您可以解除委任商業部署內部部署商務用 Skype。 除了移除任何硬體，是以邏輯方式分隔從 Office 365 的內部部署停用混合式的重要步驟。 停用混合式所組成的 3 個步驟：
 
 1. 更新為指向 Office 365 的 DNS 記錄。
+
 2. 停用 Office 365 租用戶中的分割網域。
-3. 停用通訊與 Office 365 中內部部署的能力。
 
+3. 停用在內部部署與 Office 365 通訊的功能。
 
-您可以視為一個單位一起完成這些步驟。 詳細資料如下所示。 此外，管理的指導方針的電話號碼移轉的使用者，一旦中斷連接內部部署。
+您可以視為一個單位一起完成這些步驟。 詳細資料如下所示。 此外，一旦中斷連接內部部署管理已移轉使用者的電話號碼提供指導方針。
 
 > [!Note] 
 > 在極罕見的情況下，變更 DNS 從指向內部部署 Office 365 為您的組織可能會導致同盟與停止運作直到其他組織更新其同盟設定某些其他組織：<ul><li>
@@ -56,19 +57,30 @@ ms.locfileid: "37924964"
 2.  *停用 Office 365 租用戶中的共用的 SIP 位址空間。*
 下列命令，需要完成從 Skype for Business Online PowerShell 視窗。
 
-    `Set-CsTenantFederationConfiguration -SharedSipAddressSpace $false`
+    ```
+    Set-CsTenantFederationConfiguration -SharedSipAddressSpace $false
+    ```
  
 3.  *停用通訊與 Office 365 中內部部署的能力。*  
-必須從內部部署的 PowerShell] 視窗中執行以下命令。  如果您有先前匯入 Skype for Business Online 工作階段啟動新的 Skype for Business PowerShell 工作階段。
+必須從內部部署的 PowerShell] 視窗中執行以下命令。  如果您有先前匯入 Skype for Business Online 工作階段啟動新的 Skype 商務 PowerShell 工作階段，如下所示：
 
-    `Get-CsHostingProvider|Set-CsHostingProvider -Enabled $false`
+```
+    Get-CsHostingProvider|Set-CsHostingProvider -Enabled $false
+```
 
-### <a name="managing-phone-numbers-for-users-who-were-migrated-from-on-premises"></a>管理已從內部部署移轉的使用者的電話號碼
+### <a name="manage-phone-numbers-for-users-who-were-migrated-from-on-premises"></a>管理已從內部部署移轉的使用者的電話號碼
 
-系統管理員可以管理先前從內部部署 Skype for Business Server 至雲端，即使之後移動解除委任內部部署的使用者。 有 2 不同的可能性：
-1.  如果使用者有 lineURI 內部部署進行移動之前 (可能因為使用者已啟用 Enterprise voice)，如果您想要變更 lineURI，您必須執行此動作的內部部署 AD，並讓值流程至 AAD。 這不需要內部 Skype for Business Server。 相反地，此屬性，可以編輯 Msrtcsip-line，直接在內部部署 Active Directory 中，使用 Active Directory 使用者及電腦] MMC 嵌入式管理單元中，或透過 PowerShell。 如果使用 MMC 嵌入式管理單元，請開啟 [屬性] 頁面上的使用者，按一下 [屬性編輯器] 索引標籤並尋找 Msrtcsip-line。
+系統管理員可以管理先前從內部部署 Skype for Business Server 至雲端，即使之後移動解除委任內部部署的使用者。 有兩種不同的可能性：
 
-2.  如果使用者沒有 lineURI 在內部進行移動之前的值，您可以修改 skype 組 get-csuser cmdlet 中使用-onpremLineUri 參數 for Business Online Powershell 模組 LineURI。
+- 使用者沒有 lineURI 在內部進行移動之前的值。 
+
+  在此情況下，您可以修改 skype [Set-csuser cmdlet](https://docs.microsoft.com/powershell/module/skype/set-csuser?view=skype-ps)中使用-onpremLineUri 參數 for Business Online Powershell 模組 LineURI。
+
+- 使用者具有 lineURI 在內部進行移動之前 (可能因為使用者已啟用 Enterprise voice)。 
+
+  如果您想要變更 lineURI，您必須執行此動作的內部部署 Active Directory 中，並讓值流程到 Azure AD。 這不需要內部 Skype for Business Server。 相反地，這個屬性，Msrtcsip-line，可直接在內部部署 Active Directory 中，使用 [Active Directory 使用者及電腦] MMC 嵌入式管理單元中，或藉由使用 PowerShell 編輯。 如果您使用 MMC 嵌入式管理單元，開啟至使用者的 [屬性] 頁面上，按一下 [屬性編輯器] 索引標籤，並尋找 Msrtcsip-line。
+
+  ![Active Directory 使用者及電腦工具](../media/disable-hybrid-1.png)
 
 ## <a name="see-also"></a>另請參閱
 

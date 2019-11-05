@@ -17,15 +17,15 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bfc56f9f7b02acda61b0342f28b14da5379bea31
-ms.sourcegitcommit: ced9b584eeceff7ca0109cba5823c7c3ddbd092e
+ms.openlocfilehash: 2fcc0ef8a4fd8dab857fcf4c75af61c2c258b364
+ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "37886426"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37971659"
 ---
-<a name="get-clients-for-microsoft-teams"></a>為 Microsoft 團隊取得用戶端 
-===========================
+# <a name="get-clients-for-microsoft-teams"></a>為 Microsoft 團隊取得用戶端 
+
 
 Microsoft 團隊擁有適用于桌面（Windows、Mac 和 Linux）、web 和 mobile （Android 和 iOS）的用戶端。 這些用戶端都需要使用中的網際網路連線，而且不支援離線模式。
 
@@ -34,8 +34,7 @@ Microsoft 團隊擁有適用于桌面（Windows、Mac 和 Linux）、web 和 mob
 >
 > 如需 Windows 10 S 模式的詳細資訊，請參閱[在 S 模式中簡介 Windows 10](https://www.microsoft.com/windows/s-mode)。 
 
-<a name="desktop-client"></a>桌面用戶端
---------------
+## <a name="desktop-client"></a>桌面用戶端
 
 > [!Tip]
 > 請觀看下列會話，瞭解 Windows 桌面用戶端的優點、如何規劃它，以及如何部署：[團隊 Windows 桌面用戶端](https://aka.ms/teams-clients)
@@ -125,8 +124,7 @@ Linux 使用者可以使用 Debian `.deb`套件或紅帽封裝`.rpm`來安裝小
 
 您可以透過 [活動] 或 [透過終端] `Teams`啟動小組，只要輸入即可。
 
-<a name="web-client"></a>網頁用戶端 
-----------
+## <a name="web-client"></a>網頁用戶端 
 
 Web 用戶端（[https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)）是一種完整的功能用戶端，可在各種不同的瀏覽器中使用。 網頁用戶端支援使用 webRTC 進行通話與會議，因此在網頁瀏覽器中不需要使用外掛程式或下載來執行團隊。 瀏覽器必須設定為允許協力廠商 cookie。 
 
@@ -134,8 +132,7 @@ Web 用戶端（[https://teams.microsoft.com](https://go.microsoft.com/fwlink/?l
 
 網頁用戶端會在連線時執行瀏覽器[https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)版本檢測。 如果偵測到不受支援的瀏覽器版本，它會封鎖網頁介面的存取權，並建議使用者下載桌面用戶端或行動裝置 app。
 
-<a name="mobile-clients"></a>行動用戶端
---------------
+## <a name="mobile-clients"></a>行動用戶端
 
 Microsoft 團隊行動應用程式適用于 Android 和 iOS，且適用于參與聊天交談和允許對等音訊通話的使用者。 若是行動裝置應用程式，請移至相關的行動裝置商店 [Google Play] 和 [Apple App Store]。 Windows Phone 應用程式已于2018年7月20日停用，可能無法再運作。 
 
@@ -154,27 +151,23 @@ Microsoft 團隊行動裝置 app 支援的行動平臺如下：
 | | | |
 |---------|---------|---------|
 |![描述決策點的圖示](media/Get_clients_for_Microsoft_Teams_image4.png)      |決策點         |是否有任何限制讓使用者在他們的裝置上安裝適當的 Microsoft 團隊用戶端？         |
-|![描述後續步驟的圖示](media/Get_clients_for_Microsoft_Teams_image5.png)     |後續步驟         |如果您的組織限制軟體安裝，請確定此程式與 Microsoft 團隊相容。 注意：電腦用戶端安裝不需要系統管理員許可權，但在 Mac 上安裝則是必要的。         |
+|![描繪後續步驟的圖示](media/Get_clients_for_Microsoft_Teams_image5.png)     |後續步驟         |如果您的組織限制軟體安裝，請確定此程式與 Microsoft 團隊相容。 注意：電腦用戶端安裝不需要系統管理員許可權，但在 Mac 上安裝則是必要的。         |
 
-<a name="client-update-management"></a>用戶端更新管理
-------------------------
+## <a name="client-update-management"></a>用戶端更新管理
 
 用戶端目前會自動由 Microsoft 團隊服務更新，不需要 IT 管理員干預。 如果有可用的更新，用戶端會自動下載更新，當 app 在一段時間內有 idled 時，更新程式就會開始。
 
-<a name="client-side-configurations"></a>用戶端設定
----------------------------
+## <a name="client-side-configurations"></a>用戶端設定
 
 目前，沒有任何受支援的選項可用來透過租使用者管理員、PowerShell、群組原則物件或登錄設定用戶端。
 
-<a name="notification-settings"></a>通知設定
-----------------------------
+## <a name="notification-settings"></a>通知設定
 
 目前沒有可供 IT 系統管理員設定用戶端通知設定的選項。 所有通知選項都是由使用者設定。 下圖概述預設用戶端設定。
 
 ![通知設定的螢幕擷取畫面。](media/Get_clients_for_Microsoft_Teams_image6.png)
 
-<a name="sample-powershell-script"></a>範例 PowerShell 腳本
-----------------------------
+## <a name="sample-powershell-script"></a>範例 PowerShell 腳本
 
 這個範例腳本（需要在已提升許可權的管理員帳戶的內容中執行用戶端電腦）會針對在 c:\users. 中找到的每個使用者資料夾，建立新的入站防火牆規則。 當團隊找到這個規則時，會防止團隊應用程式在使用者第一次從小組通話時提示使用者建立防火牆規則。 
 
