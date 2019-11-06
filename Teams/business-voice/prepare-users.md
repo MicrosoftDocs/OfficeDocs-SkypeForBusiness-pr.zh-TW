@@ -15,12 +15,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1fa78681bbad0fb5b4c46a2ac424f3be01e9a857
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: 571490c07e453c4a33144c01063159cf6ab9d257
+ms.sourcegitcommit: 082f451dd800b92d0b52e37402ecf621a738b4e5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972284"
+ms.locfileid: "37973212"
 ---
 # <a name="how-do-i-get-my-users-ready-for-business-voice"></a>如何幫助我的使用者為商務語音做好準備？
 
@@ -32,7 +32,7 @@ ms.locfileid: "37972284"
 
 如果您使用的是 PC 和 Mac，您可以在 https://teams.microsoft.com/downloads 下載 Teams。 如果使用者運行的是 Windows 10 S 模式，則可以從 Windows 市集安裝 Teams。
 如果您使用的是 Android 和 iPhone 手機，您可以在 Google Play 和 Apple App Store 中搜尋 Microsoft Teams 來安裝應用程式。 請記住，手機必須運行 Android 4.4 或更新版本，或 iOS 10.0 或更新版本。
-若要使用網頁版的 Teams，您需要使用支援的瀏覽器。 要查看支援瀏覽器的清單，請參閱[為 Microsoft Teams 取得用戶端中的網頁版用戶端一節](../get-clients#web-client)。
+若要使用網頁版的 Teams，您需要使用支援的瀏覽器。 要查看支援瀏覽器的清單，請參閱[為 Microsoft Teams 取得用戶端中的網頁版用戶端一節](../get-clients.md#web-client)。
 
 ## <a name="devices-for-microsoft-teams"></a>Microsoft Teams 的裝置
 
@@ -42,7 +42,7 @@ ms.locfileid: "37972284"
 * **總機和主管**─完整且多功能的桌機話筒可以像一般手機一樣使用；自動撥號、會議、免持聽筒和耳機支援，讓這些話筒功能更靈活。
 * **會議室**─音訊會議裝置可讓您將整個會議室設定成免持聽筒模式，能與 Teams 會議橋接器一起使用，以主持大型會議。
 
-如果您使用的是 USB 或無線裝置，請將裝置插入運行 Teams 的電腦中。 您可能需要移至 Teams 中的裝置設定（按一下 Teams 頂端的個人檔案圖片，然後選取**[設定][裝置]），然後從[音訊裝置]中選擇您的裝置。 如果是其他裝置，請按照指示將它設定為搭配 Teams 使用。
+如果您使用的是 USB 或無線裝置，請將裝置插入運行 Teams 的電腦中。 您可能需要移至 Teams 中的裝置設定（按一下 Teams 頂端的個人檔案圖片，然後選取 **[設定]** > **[裝置]**），然後從 **[音訊裝置]** 中選擇您的裝置。 如果是其他裝置，請按照指示將它設定為搭配 Teams 使用。
 
 > [!NOTE]
 > 您可以透過執行下列步驟，輕鬆測試 Teams、您的喇叭和麥克風是否都正常運作中：[確保您網路上的電腦和裝置能夠使用 Microsoft 365](get-ready-internet.md#make-sure-computers-and-devices-on-your-network-can-reach-microsoft-365)。
@@ -51,7 +51,7 @@ ms.locfileid: "37972284"
 
 ## <a name="set-up-voicemail-greetings-and-other-business-voice-features"></a>設定語音訊息問候語和其他商務語音功能
 
-就像一般的手機一樣，您可以設定語音訊息問候語、來電轉接、選擇鈴聲等等。 您可以在 Teams 應用程式的 **[設定]中找到所有使用者可以設定的項目。 若要瞭解如何設定這些功能，請參閱[在 Teams 中管理通話設定](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)。
+就像一般的手機一樣，您可以設定語音訊息問候語、來電轉接、選擇鈴聲等等。 您可以在 Teams 應用程式的 **[設定]** 中找到所有使用者可以設定的項目。 若要瞭解如何設定這些功能，請參閱[在 Teams 中管理通話設定](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)。
 
 ## <a name="learn-what-microsoft-teams-and-business-voice-can-do"></a>瞭解 Microsoft Teams 和商務語音的功能
 
