@@ -22,10 +22,10 @@ ms.custom:
 - Phone System
 description: 瞭解如何在 Microsoft 團隊中設定雲端通話佇列的電話系統。
 ms.openlocfilehash: fc7cc9558036d30d388a279ac155fe6382e611a8
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/05/2019
+ms.lasthandoff: 11/06/2019
 ms.locfileid: "37972494"
 ---
 # <a name="create-a-cloud-call-queue"></a>建立雲端通話佇列

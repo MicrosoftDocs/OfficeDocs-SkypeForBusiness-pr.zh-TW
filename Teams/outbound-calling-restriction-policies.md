@@ -1,5 +1,5 @@
 ---
-title: 音訊會議與使用者 PSTN 通話的輸出通話限制原則
+title: 音訊會議和使用者 PSTN 通話的撥出通話限制原則
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -20,15 +20,15 @@ ms.custom:
 - Audio Conferencing
 description: 系統管理員可以控制使用者可以發出的音訊會議和使用者 PSTN 呼叫類型。
 ms.openlocfilehash: 20122d2bc258b8ac6040a103d62e20f81e46a364
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
+ms.lasthandoff: 11/06/2019
 ms.locfileid: "37573328"
 ---
-# <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>音訊會議與使用者 PSTN 通話的輸出通話限制原則
+# <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>音訊會議和使用者 PSTN 通話的撥出通話限制原則
 
-在管理員中，您可以使用出站通話控制來限制您組織中的使用者可以進行的音訊會議和使用者 PSTN 通話類型。 
+身為系統管理員，您可以使用撥出通話控制來限制組織中的使用者可進行的音訊會議類型和終端使用者 PSTN 通話類型。 
 
 輸出呼叫控制可以在每位使用者的基礎上套用，並提供下列兩個控制項來單獨限制每個輸出呼叫類型。 根據預設，兩個控制項都設定為允許國際和國內呼出通話。 
 

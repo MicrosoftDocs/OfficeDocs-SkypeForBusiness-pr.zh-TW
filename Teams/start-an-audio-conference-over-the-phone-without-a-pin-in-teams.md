@@ -21,10 +21,10 @@ ms.custom:
 - Audio Conferencing
 description: '瞭解如何啟用或停用匿名呼叫者從 [小組] 管理中心加入會議。 '
 ms.openlocfilehash: 78b35b65c1bb27d366e8e9fa27c49ef32864081f
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
+ms.lasthandoff: 11/06/2019
 ms.locfileid: "37570003"
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-microsoft-teams"></a>在沒有 Microsoft 團隊中的 PIN 的情況下，透過電話啟動音訊會議
@@ -84,4 +84,4 @@ Windows PowerShell 全部說明如何管理使用者，以及允許或不允許�
   
 ## <a name="related-topics"></a>相關主題
 
-[在 Office 365 中試用或購買音訊會議](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[試用或購買 Office 365 的音訊會議](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

@@ -21,10 +21,10 @@ ms.custom:
 - Audio Conferencing
 description: '做為 Office 365 系統管理員，您可以針對組織中的個別使用者編輯 Microsoft 團隊音訊會議設定，例如提供者、預設的付費或免付費電話號碼、會議 ID 或 PIN 等。 '
 ms.openlocfilehash: 673441acebf9b31893925539471040bffa621f38
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
+ms.lasthandoff: 11/06/2019
 ms.locfileid: "37571920"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-microsoft-teams"></a>在 Microsoft 團隊中管理使用者的音訊會議設定
@@ -60,4 +60,4 @@ ms.locfileid: "37571920"
 
 [管理貴組織的音訊會議設定](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
 
-[音訊會議常見問題](audio-conferencing-common-questions.md)
+[音訊會議的常見問題](audio-conferencing-common-questions.md)

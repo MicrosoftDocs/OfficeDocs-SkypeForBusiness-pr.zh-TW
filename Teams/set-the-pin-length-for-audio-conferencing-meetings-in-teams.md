@@ -21,10 +21,10 @@ ms.custom:
 - Audio Conferencing
 description: 瞭解 PIN 長度與需求的參數，並瞭解如何在 Microsoft 團隊中設定會議的長度。
 ms.openlocfilehash: 50c6ffe31e673dc7573ebb27f0eeb2ca78a30918
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
+ms.lasthandoff: 11/06/2019
 ms.locfileid: "37571268"
 ---
 # <a name="set-the-pin-length-for-audio-conferencing-meetings-in-microsoft-teams"></a>在 Microsoft 團隊中設定音訊會議會議的 PIN 長度
@@ -72,4 +72,4 @@ Windows PowerShell 全部說明如何管理使用者，以及允許或不允許�
   
 ## <a name="related-topics"></a>相關主題
 
-[在 Office 365 中試用或購買音訊會議](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[試用或購買 Office 365 的音訊會議](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

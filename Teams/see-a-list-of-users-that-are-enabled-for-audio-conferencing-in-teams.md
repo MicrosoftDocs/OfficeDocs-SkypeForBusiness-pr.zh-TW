@@ -21,10 +21,10 @@ ms.custom:
 - Audio Conferencing
 description: '瞭解如何在 Microsoft 團隊中查看您組織中已啟用電話撥入式會議的使用者清單。 '
 ms.openlocfilehash: 83d5ee7451ce2d5a3b1e9c0ee7beb83e8ff52f0d
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
+ms.lasthandoff: 11/06/2019
 ms.locfileid: "37571345"
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-microsoft-teams"></a>在 Microsoft 團隊中查看已啟用音訊會議的使用者清單
@@ -60,4 +60,4 @@ Windows PowerShell 全部說明如何管理使用者，以及允許或不允許�
     
 ## <a name="related-topics"></a>相關主題
 
-[在 Office 365 中試用或購買音訊會議](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[試用或購買 Office 365 的音訊會議](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

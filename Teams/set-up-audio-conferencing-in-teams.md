@@ -22,17 +22,17 @@ ms.custom:
 - LIL_Placement
 description: '瞭解如何為您企業中需要使用手機加入電話會議的人員設定撥入或音訊會議。 '
 ms.openlocfilehash: d630f6f149f61609209cc4ead23ed7232647cb08
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
+ms.lasthandoff: 11/06/2019
 ms.locfileid: "37925364"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>為 Microsoft 團隊設定音訊會議
 
 有時候貴組織中的人員必須使用電話撥入會議。 Microsoft 團隊只有在這種情況下才包含音訊會議功能！ 使用者可以使用電話撥入團隊會議，而不是在行動裝置或電腦上使用 [小組] 應用程式。 
   
-您只需要為規劃排程或領導會議的人員設定音訊會議。 在撥入的會議出席者不需要獲指派任何授權或其他設定。
+您只需要為打算排程或主持會議的人員設定音訊會議即可。 在撥入的會議出席者不需要獲指派任何授權或其他設定。
   
 如需音訊會議的常見問題，請參閱[音訊會議常見問題](audio-conferencing-common-questions.md)。
 

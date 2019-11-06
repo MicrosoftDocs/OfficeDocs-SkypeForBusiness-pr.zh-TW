@@ -21,10 +21,10 @@ ms.custom:
 - Audio Conferencing
 description: 瞭解您需要的專案，以及會議召集人可以使用團隊撥出給其他人的方式。
 ms.openlocfilehash: aab3db4057d82237b1e5bf7de8e0157b5833951a
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
+ms.lasthandoff: 11/06/2019
 ms.locfileid: "37571777"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>從 Microsoft 團隊會議撥出，讓其他人可以加入
@@ -58,6 +58,6 @@ ms.locfileid: "37571777"
 
 ## <a name="want-to-know-more-about-audio-conferencing"></a>想要深入瞭解音訊會議嗎？
 
-[在 Office 365 中試用或購買音訊會議](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
+[試用或購買 Office 365 的音訊會議](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
     
 [Microsoft 團隊附加元件授權](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)

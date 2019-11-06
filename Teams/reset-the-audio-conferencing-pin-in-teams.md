@@ -21,10 +21,10 @@ ms.custom:
 - Audio Conferencing
 description: '瞭解您應該瞭解的 Pin，以及如何在 Microsoft 團隊中重設它們。 '
 ms.openlocfilehash: 778e9841d3a355597b4b048d79bb62a144eed349
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
+ms.lasthandoff: 11/06/2019
 ms.locfileid: "37568353"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-microsoft-teams"></a>在 Microsoft 團隊中重設音訊會議 PIN
@@ -84,4 +84,4 @@ Windows PowerShell 全部說明如何管理使用者，以及允許或不允許�
   
 ## <a name="related-topics"></a>相關主題
 
-[重設使用者的會議 ID](reset-a-conference-id-for-a-user-in-teams.md)
+[重設使用者的會議識別碼](reset-a-conference-id-for-a-user-in-teams.md)

@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2fcc0ef8a4fd8dab857fcf4c75af61c2c258b364
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: 6f7a1cd3002135e2327ca4953ddfbb5b0393242d
+ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37971659"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "37979696"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>為 Microsoft 團隊取得用戶端 
 
@@ -39,7 +39,7 @@ Microsoft 團隊擁有適用于桌面（Windows、Mac 和 Linux）、web 和 mob
 > [!Tip]
 > 請觀看下列會話，瞭解 Windows 桌面用戶端的優點、如何規劃它，以及如何部署：[團隊 Windows 桌面用戶端](https://aka.ms/teams-clients)
 
-Microsoft 團隊桌面用戶端是獨立的應用程式，也[可在 Office 365 專業增強版中](https://docs.microsoft.com/deployoffice/teams-install)取得。 團隊可供 Windows （7 +）、32位和64位版本、macOS （10.10 +）及 Linux （Debian 套件`.deb`、紅色頭盔套件管理員`.rpm`）使用。 在 Windows 上，小組需要 .NET Framework 4.5 或更新版本;如果您沒有，團隊安裝程式將會提供將它安裝給您的人員。 在 Linux 上，套件管理員（例如 apt 和 yum）會嘗試為您安裝任何需求。 不過，如果不是這樣，在 Linux 上安裝小組之前，您將需要安裝任何已報告的需求。
+Microsoft 團隊桌面用戶端是獨立的應用程式，也[可在 Office 365 專業增強版中](https://docs.microsoft.com/deployoffice/teams-install)取得。 團隊可在 Windows （7 +）、32位和64位版本、macOS （10.10 +）及 Linux （ `.deb` `.rpm`格式）中取得。 在 Windows 上，小組需要 .NET Framework 4.5 或更新版本;如果您沒有，團隊安裝程式將會提供將它安裝給您的人員。 在 Linux 上，套件管理員（例如 apt 和 yum）會嘗試為您安裝任何需求。 不過，如果不是這樣，在 Linux 上安裝小組之前，您將需要安裝任何已報告的需求。
 
 桌面用戶端可為小組會議、群組通話和私人一對一通話提供即時通訊支援（音訊、影片和內容共用）。
 
@@ -101,7 +101,7 @@ IT 管理員可以使用小組的 managed 部署來將安裝檔案發佈到其�
 
 ### <a name="linux"></a>Linux
 
-Linux 使用者可以使用 Debian `.deb`套件或紅帽封裝`.rpm`來安裝小組。 
+使用者將能夠安裝原生 Linux 套件`.deb`及`.rpm`格式。
 
 > [!NOTE] 
 > Linux 用戶端上的團隊可在有限的預覽中取得。 在用戶端`Report a Problem`中使用從用戶端提交的錯誤。 如有已知問題，請參閱[已知問題](Known-issues.md)。
@@ -110,7 +110,7 @@ Linux 使用者可以使用 Debian `.deb`套件或紅帽封裝`.rpm`來安裝小
 
 1. 從https://aka.ms/getteams下載套件。 （Linux 用戶端在有限預覽中，即將啟動。 如果您在 [下載] 頁面上沒有看到 Linux 用戶端，則它尚未啟動。
 2. 使用下列其中一項進行安裝：  
-    - 使用 Ubuntu 軟體工具開啟套件，然後移至自行引導 Linux app 安裝程式。
+    - 開啟相關的套件管理工具，並完成自行引導的 Linux app 安裝程式。
     - 或者，如果您喜歡 [終端]，請輸入：`sudo apt install **teams download file**`
 
 您可以透過 [活動] 或 [透過終端] `Teams`啟動小組，只要輸入即可。 
@@ -119,7 +119,7 @@ Linux 使用者可以使用 Debian `.deb`套件或紅帽封裝`.rpm`來安裝小
 
 1. 從https://aka.ms/getteams下載套件。 （Linux 用戶端在有限預覽中，即將啟動。 如果您在 [下載] 頁面上沒有看到 Linux 用戶端，則它尚未啟動。
 2. 使用下列其中一項進行安裝：
-    - 使用 Red Hat 封裝管理工具開啟套件，然後執行自行引導 Linux app 安裝程式。
+    - 開啟相關的套件管理工具，並完成自行引導的 Linux app 安裝程式。
     - 或者，如果您喜歡 [終端]，請輸入：`sudo yum install **teams download file**`
 
 您可以透過 [活動] 或 [透過終端] `Teams`啟動小組，只要輸入即可。

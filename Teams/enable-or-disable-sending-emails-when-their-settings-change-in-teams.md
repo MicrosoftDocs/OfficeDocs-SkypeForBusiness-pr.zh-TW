@@ -20,10 +20,10 @@ ms.custom:
 - Audio Conferencing
 description: '瞭解如何啟用或停用 Skype 將電子郵件傳送給使用者，例如 pin 變更或 Microsoft 團隊中的預設會議號碼變更等設定。 '
 ms.openlocfilehash: 906781f79f10500fc8808a579abe9707f0f736ac
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
+ms.lasthandoff: 11/06/2019
 ms.locfileid: "37573060"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-microsoft-teams"></a>啟用或停用 Microsoft 團隊中的音訊會議設定變更時傳送電子郵件
@@ -91,6 +91,6 @@ Windows PowerShell 全部說明如何管理使用者，以及允許或不允許�
 
 [在使用者的音訊會議設定變更時傳送給使用者的電子郵件](emails-sent-to-users-when-their-settings-change-in-teams.md)
 
-[使用音訊會議資訊傳送電子郵件給使用者](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)
+[傳送內含音訊會議資訊的電子郵件給使用者](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)
 
 

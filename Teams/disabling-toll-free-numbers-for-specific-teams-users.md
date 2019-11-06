@@ -20,10 +20,10 @@ ms.custom:
 - Audio Conferencing
 description: 系統管理員可以控制召集人如何在會議中使用免付費電話號碼。
 ms.openlocfilehash: e2dddd04f376de69dbbc9579525966bac6351a0a
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
+ms.lasthandoff: 11/06/2019
 ms.locfileid: "37572099"
 ---
 # <a name="disabling-toll-free-numbers-for-specific-teams-users"></a>針對特定團隊使用者停用免付費電話號碼
@@ -43,7 +43,7 @@ ms.locfileid: "37572099"
 
  - 參與者可以使用電話號碼繼續加入召集人的會議。 
 
-## <a name="disabling-toll-free-numbers-for-specific-users"></a>針對特定使用者停用免付費電話號碼 
+## <a name="disabling-toll-free-numbers-for-specific-users"></a>停用特定使用者的免付費電話號碼 
 
 從**Microsoft [團隊管理中心**]：
 

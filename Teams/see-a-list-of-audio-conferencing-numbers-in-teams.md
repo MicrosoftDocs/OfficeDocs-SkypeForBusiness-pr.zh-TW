@@ -21,10 +21,10 @@ ms.custom:
 - Audio Conferencing
 description: '瞭解如何從 Microsoft 團隊中查詢您的電話撥入式會議號碼。 '
 ms.openlocfilehash: cc18194c8a0eea6dbf7c995bb5c661007d33ec1e
-ms.sourcegitcommit: 25b6bf2c3050390cd668d2495ffcf31c44d0ff62
+ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2019
+ms.lasthandoff: 11/06/2019
 ms.locfileid: "37573420"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>在 Microsoft 團隊中查看音訊會議號碼清單

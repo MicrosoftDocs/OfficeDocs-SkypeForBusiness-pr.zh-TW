@@ -14,12 +14,12 @@ MS.collection:
 appliesto: Microsoft Teams
 ms.reviewer: anach
 description: 適用于團隊管理員的患者應用程式
-ms.openlocfilehash: 85f0d382de11b9259c6839aa8d0e556ad2512f5a
-ms.sourcegitcommit: 2064c94eae82a5453674d38f0b28dcd6dc5c370e
+ms.openlocfilehash: 7f451f212bdb289d19588a2b908394d7673ee69f
+ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "37885497"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "38001326"
 ---
 # <a name="patients-app-overview"></a>病患應用程式概觀
 
@@ -40,7 +40,7 @@ App 有兩種模式：
 
 如需如何準備您的環境以使用 EMR 模式患者 app 的詳細資訊，請參閱將[電子醫療保健記錄整合至 Microsoft 團隊](patients-app.md)。 您也需要[在 Microsoft 團隊中查看 [管理應用程式設定原則](../../teams-app-setup-policies.md)]，以便為您的組織啟用患者 app。
 
-<!-- For information on how your end users can access and install the Patients App to a team that they own or manage, you will need to see [End user documentation for the Patients App]() -->
+如需使用者如何存取並將患者 App 安裝至他們擁有或管理之小組的相關資訊，請參閱[Microsoft 團隊患者快速入門](https://support.office.com/article/get-started-with-microsoft-teams-patients-aa7daebe-706a-4a65-8ce9-b9b79233f393) 
 
 <!-- add link out to client doc, doesn't seem to be available yet, Grant is finalizing -->
 

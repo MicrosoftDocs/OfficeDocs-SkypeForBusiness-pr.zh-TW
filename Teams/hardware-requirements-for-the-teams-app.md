@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4616b3d78ae8d5e349b4cf29ca9112df77d7a295
-ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
+ms.openlocfilehash: 282f6f7295fe7763462a9298719466033aa335a4
+ms.sourcegitcommit: 2b4fcf2561134b9f1b9a1b49401d97da1286e89d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "37772347"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37979706"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Microsoft 團隊應用程式的硬體需求
 
@@ -64,7 +64,7 @@ ms.locfileid: "37772347"
 |硬碟    | 3.0 GB 的可用磁碟空間        |
 |顯示幕    |   1024 x 768 畫面解析度 |
 |圖形硬體 |  最小 128 MB 圖形記憶體
-|作業系統  | Linux 發行支援安裝 DEB、貼齊或 RPM。 |
+|作業系統  | Linux 發行支援安裝 DEB 或 RPM。 |
 |顯示器    |  USB 2.0 攝影機       |
 |台    |   標準膝上型電腦相機、麥克風和喇叭    | 
 |語音    |  相容的麥克風與喇叭、耳機與麥克風或對等裝置       |

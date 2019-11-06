@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: 如需如何使用 Exchange Online 部署 Microsoft 團隊聊天室的詳細資訊，請參閱本主題。
-ms.openlocfilehash: 25542c5165940b4595345a0c37d7588a90829c78
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 8b4974b2da2fabf3230fc54359b041cebdffcdd9
+ms.sourcegitcommit: 2b4fcf2561134b9f1b9a1b49401d97da1286e89d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573492"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37979786"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>使用 Exchange Online 部署 Microsoft 團隊聊天室
 
@@ -86,10 +86,10 @@ Import-PSSession $Session -DisableNameChecking
 
 ### <a name="assign-an-office-365-license"></a>指派 Office 365 授權
 
-1. 首先，連線到 Azure AD 來套用某些帳戶設定。 您可以執行此 Cmdlet 來進行連線。 如需 Active Directory 的詳細資訊，請參閱[Azure ActiveDirectory （import-module msonline） 1.0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-1.0)。 
+1. 首先，連線到 Azure AD 來套用某些帳戶設定。 您可以執行此 Cmdlet 來進行連線。 如需 Active Directory 的詳細資訊，請參閱[Azure ActiveDirectory （import-module msonline） 1.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0)。 
 
    > [!NOTE]
-   > [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-2.0)不受支援。 
+   > [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0)不受支援。 
 
   ``` PowerShell
  Connect-MsolService -Credential $cred
@@ -132,7 +132,7 @@ Import-PSSession $Session -DisableNameChecking
     如果您不確定要在您的環境中使用 RegistrarPool 參數的值，您可以使用此命令從現有的商務用 Skype Server 使用者取得該值
 
    ``` Powershell
-   Get-CsOnlineUser -Identity 'alice@contoso.com'| fl *registrarpool*
+   Get-CsUser -Identity 'alice@contoso.com'| fl *registrarpool*
    ```
 
 ### <a name="assign-a-skype-for-business-server-license-to-your-microsoft-teams-rooms-account"></a>將商務用 Skype Server 授權指派給您的 Microsoft 團隊聊天室帳戶

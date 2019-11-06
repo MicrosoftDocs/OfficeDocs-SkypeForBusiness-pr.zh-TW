@@ -20,10 +20,10 @@ ms.custom:
 - Audio Conferencing
 description: '瞭解在 Microsoft 團隊中，當使用者的電話撥入式會議設定變更時，電子郵件會自動傳送哪些資訊給使用者。 '
 ms.openlocfilehash: 47cd5812ab1abda51deca8b50d13765badc982e1
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
+ms.lasthandoff: 11/06/2019
 ms.locfileid: "37571876"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-microsoft-teams"></a>在 Microsoft 團隊中其設定變更時傳送給使用者的電子郵件
@@ -117,6 +117,6 @@ Windows PowerShell 全部說明如何管理使用者，以及允許或不允許�
 
 ## <a name="related-topics"></a>相關主題
 
-[在音訊會議設定變更時啟用或停用傳送電子郵件](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)
+[啟用或停用音訊會議設定變更時傳送電子郵件的設定](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)
 
-[使用音訊會議資訊傳送電子郵件給使用者](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)
+[傳送內含音訊會議資訊的電子郵件給使用者](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)
