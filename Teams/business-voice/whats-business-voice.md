@@ -1,0 +1,77 @@
+---
+title: 什麼是 Microsoft 365 商務語音？
+author: dstrome
+ms.author: dstrome
+manager: serdars
+ms.topic: article
+ms.service: msteams
+audience: admin
+localization_priority: Priority
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
+- Teams_Business_Voice
+search.appverid: MET150
+description: Microsoft 365 商務語音概觀，以及它如何協助中小企業更有效率地通訊。
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: c2f5742f3eadcb8d34653df59e79e9c0789d5a44
+ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.translationtype: HT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37972204"
+---
+# <a name="what-is-microsoft-365-business-voice"></a>什麼是 Microsoft 365 商務語音？
+
+Microsoft 365 商務語音可讓中小型組織輕鬆將 Microsoft Teams 轉變成強大且彈性的電話系統。 它可取代傳統難以管理且管理成本昂貴的電話服務供應商和內部電話系統。 您可以設定收費和免付費電話號碼、通話功能表，協助來電者撥打到正確的部門、音訊會議，讓您可以與任何人進行會議等等。 您甚至可以為人員提供專屬的電話號碼，讓他們能直接接聽電話。
+
+商務語音透過將 Microsoft 365 電話系統功能包裝到一個易於管理的單一軟體組合中，來完成所有這些工作。 您不需要再擔心如何選擇適當的方案或功能；所有功能已一應俱全。 因為電話系統屬於 Teams 的一部分，所以您可以將任何電腦、Mac 或行動裝置轉變成可使用商務語音電話號碼的手機。
+
+如果您組織的人員為 300 以下，且您正在使用下列其中一種 Microsoft 365 訂閱，則商務語音正可滿足您的需要：
+
+* Office 365 商務基本版
+* Office 365 商務進階版
+* Office 365 E1
+* Office 365 E3
+* Office 365 F1
+* Microsoft 365 A1
+* Microsoft 365 A3
+* Microsoft 365 E3
+* Microsoft 365 商務版
+
+> [!IMPORTANT]
+> 商務語音目前於加拿大和英國兩地區可使用。 2020 年開始將有更多國家/地區可使用。
+>
+> 只有當您的使用者信箱位於 Microsoft 365 中時，才能使用 Microsoft Teams 和商務語音。  我們不支援內部部署 Exchange Server 上的信箱。
+
+當您購買商務語音時，您可獲得下列功能及更多功能：
+
+<table>
+    <tr>
+        <td><b><a href="/microsoftteams/what-is-phone-system-in-office-365">電話系統</a></b>
+        </td>
+        <td>標準電話功能，包括語音信箱、來電者識別碼、通話功能表、共用電話線和緊急通話。
+        </td>
+        <td><img src="https://docs.microsoft.com/office/media/hub-tiles/MSTeams-CloudVoice-400x140.svg" width="100">
+        </td>
+    </tr>
+<tr>
+        <td><b><a href="/microsoftteams/calling-plan-landing-page">撥打國內電話</a></b>
+        </td>
+        <td>在您的國家/地區內通話是免費的。 也可使用國際方案和免付費電話。
+        </td>
+        <td><img src="https://docs.microsoft.com/office/media/hub-tiles/MSTeams-CloudVoice-400x140.svg" width="100">
+        </td>
+    </tr>
+    <tr>
+        <td><b><a href="/microsoftteams/audio-conferencing-in-office-365">音訊會議</a></b>
+        </td>
+        <td>可讓您與沒有 Teams 或沒有網際網路連線的人員一起進行電話會議。
+        </td>
+        <td><img src="https://docs.microsoft.com/office/media/hub-tiles/MSTeams-CloudVoice-400x140.svg" width="100">
+        </td>
+    </tr>
+</table>
+
+請造訪 [Microsoft 365 商務語音服務描述](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-business-voice-service-description) (英文)，您就能看見「商務語音」包含的所有內容。

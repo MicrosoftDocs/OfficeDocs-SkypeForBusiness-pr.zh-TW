@@ -17,15 +17,16 @@
 # 聊天、小組、頻道和應用程式
 ## [規劃您的部署](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
 ## [使用小組顧問來推行 Teams](use-advisor-teams-roll-out.md)
-## [小組和頻道概觀](teams-channels-overview.md)
-## [在 Teams 中指派小組擁有者和成員](assign-roles-permissions.md)
+## [團隊和頻道概觀](teams-channels-overview.md)
+## [私人頻道概觀](private-channels.md)
+## [管理私人頻道的生命週期](private-channels-life-cycle-management.md)
+## [在 Teams 中指派團隊擁有者和成員](assign-roles-permissions.md)
 ## [小組的動態成員資格概觀](dynamic-memberships.md)
 ## [在 Teams 中組織小組的最佳做法](best-practices-organizing.md)
 ## [在 Teams 中建立全組織小組](create-an-org-wide-team.md)
 ## [管理小組和頻道原則](teams-policies.md)
 ## [在 Teams 中管理私人小組的探索](manage-discovery-of-private-teams.md)
 ## [在 Teams 中設定頻道裁決](manage-channel-moderation-in-teams.md)
-## [在 Teams 中共用檔案](sharing-files-in-teams.md)
 ## [管理訊息原則](messaging-policies-in-teams.md)
 ## [Teams 中的使用者目前狀態](presence-admins.md)
 ## [檢視 Teams 中的跨小組和每一小組分析](teams-analytics-and-reports/cross-team-per-team-analytics.md)
@@ -101,9 +102,6 @@
 #### [PSTN 使用報告](teams-analytics-and-reports/pstn-usage-report.md)
 #### [Teams 即時活動使用報告](teams-analytics-and-reports/teams-live-event-usage-report.md)
 ### [Microsoft 365 系統管理中心的 Teams 活動報告](teams-activity-reports.md)
-
-
-
 
 <!-- ============================================================ -->
 
@@ -679,34 +677,66 @@
 #    
 # 混合式連線 
 
-## [規劃混合式連線](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
+## [規劃混合式連線](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
 
 ## 設定混合式連線
-### [概觀](https://docs.microsoft.com/zh-TW/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
-### [針對混合式環境設定 Azure AD Connect](https://docs.microsoft.com/zh-TW/SkypeForBusiness/hybrid/configure-azure-ad-connect)
-### [設定商務用 Skype 混合式](https://docs.microsoft.com/zh-TW/SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online)
+### [概觀](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
+### [針對混合式環境設定 Azure AD Connect](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect)
+### [設定商務用 Skype 混合式](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online)
 
 ## 在內部部署和雲端之間移動使用者
-### [概觀](https://docs.microsoft.com/zh-TW/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
-### [將使用者從內部部署移動至 Teams](https://docs.microsoft.com/zh-TW/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams)
-### [將使用者從內部部署移動至商務用 Skype Online](https://docs.microsoft.com/zh-TW/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online)
-### [將使用者從雲端移動至內部部署](https://docs.microsoft.com/zh-TW/SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises)
+### [概觀](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
+### [將使用者從內部部署移動至 Teams](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams)
+### [將使用者從內部部署移動至商務用 Skype Online](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online)
+### [將使用者從雲端移動至內部部署](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises)
 
-### [管理會議移轉](https://docs.microsoft.com/en-us/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json) 
+### [管理會議移轉](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json) 
 
-## [停用混合式以完成移轉至雲端](https://docs.microsoft.com/zh-TW/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid)
+## [停用混合式以完成移轉至雲端](https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid)
 
-## [部署資源樹系拓撲](https://docs.microsoft.com/zh-TW/SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid)
+## [部署資源樹系拓撲](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid)
 
 ## Teams 和商務用 Skype Online 的雲端整合
-### [概觀](https://docs.microsoft.com/zh-TW/SkypeForBusiness/hybrid/cloud-consolidation)
-### [更新 Edge 憑證](https://docs.microsoft.com/zh-TW/SkypeForBusiness/hybrid/cloud-consolidation-edge-certificates)
-### [更新 AAD Connect 以包含多個樹系](https://docs.microsoft.com/zh-TW/SkypeForBusiness/hybrid/cloud-consolidation-aad-connect)
+### [概觀](https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation)
+### [更新 Edge 憑證](https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-edge-certificates)
+### [更新 AAD Connect 以包含多個樹系](https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-aad-connect)
 
-## [與 Exchange 和 SharePoint 的整合](https://docs.microsoft.com/zh-TW/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint)
+## [與 Exchange 和 SharePoint 的整合](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint)
 
+#     
+#     
 
-#       
+<!-- ============================================================ -->
+
+# Microsoft 365 Business Voice
+## [什麼是 Microsoft 365 Business Voice？](business-voice/whats-business-voice.md)
+## 購買前應了解的事項
+### [要購買什麼才能取得 Business Voice](business-voice/what-to-buy.md)
+### [檢查您的網際網路連線](business-voice/get-ready-internet.md)
+### [讓您的使用者準備就緒](business-voice/prepare-users.md)
+## [執行快速入門精靈](business-voice/use-getting-started-wizard.md)
+
+<!--
+## [Things to try](business-voice/things-to-try.md)
+-->
+## 自訂您的設定
+### [自訂選項](business-voice/customize-business-voice.md)
+### [移植電話號碼](business-voice/port-phone-numbers.md)
+### [設定自動語音應答](business-voice/set-up-auto-attendants.md)
+### [設定通話原則](business-voice/set-up-policies.md)
+### [管理原則套件](business-voice/policy-packages.md)
+### [建立其他使用者](business-voice/create-users.md)
+### [設定通話佇列](business-voice/set-up-call-queues.md)
+
+## 管理您的設定
+### [建立一或多個使用者](business-voice/create-users.md)
+### [管理裝置](business-voice/manage-devices.md)
+### [監控通話品質](business-voice/monitor-quality.md)
+### [通話品質儀表板](business-voice/analytics-dashboard.md)
+
+## [合作夥伴資源](business-voice/partner-resources.md)
+
+#        
 #        
 
 <!-- ============================================================ -->
