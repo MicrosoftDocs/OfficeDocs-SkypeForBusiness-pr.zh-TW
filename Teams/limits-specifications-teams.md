@@ -14,12 +14,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8cd9cdcd7abe3e86e540548bb735b89fa2c16bfe
-ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
+ms.openlocfilehash: 8de3a1b61d706ba2f85e83ec6290378d47cb20fe
+ms.sourcegitcommit: b9710149ad0bb321929139118b7df0bc4cca08de
 ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/06/2019
-ms.locfileid: "37615997"
+ms.locfileid: "38010516"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和規格
 
@@ -109,6 +109,10 @@ Teams 的聊天是在 Microsoft Exchange 後端執行，因此 Exchange 的傳�
 |一個 Office 365 租用戶的並行即時活動 | 15 |
 
 如需更多有關即時活動以及 Teams 即時活動與 Skype 會議廣播的比較詳細資訊，請參閱 [Teams 即時活動和 Skype 會議廣播](teams-live-events/plan-for-teams-live-events.md#teams-live-events-and-skype-meeting-broadcast) (英文)。
+
+## <a name="presence-in-outlook"></a>在 Outlook 中的目前狀態
+
+Outlook 2013 傳統型應用程式和更新版本支援在 Outlook 中的 Teams 目前狀態。 若要深入瞭解 Teams 中的目前狀態，請參閱 [Teams 中的使用者目前狀態](presence-admins.md)。
 
 ## <a name="storage"></a>儲存空間
 
