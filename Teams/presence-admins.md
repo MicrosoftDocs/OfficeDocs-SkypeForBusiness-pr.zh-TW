@@ -1,5 +1,5 @@
 ---
-title: 團隊中的使用者目前狀態
+title: Teams 中的使用者目前狀態
 author: jambirk
 ms.author: jambirk
 manager: serdars
@@ -15,19 +15,21 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 054c3a639cc5857fb25a7e211a272868477dcb61
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: b829fbffa728d3449ba19466d0a2cb85f266c9c2
+ms.sourcegitcommit: b9710149ad0bb321929139118b7df0bc4cca08de
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573214"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "38010596"
 ---
-# <a name="user-presence-in-teams"></a>團隊中的使用者目前狀態
+# <a name="user-presence-in-teams"></a>Teams 中的使用者目前狀態
 
 目前狀態是 Microsoft 團隊（以及整個 Office 365）中使用者設定檔的一部分，可指出使用者目前的可用性與其他使用者的狀態。 根據預設，您組織中的任何人都可以在線上看到其他使用者（幾乎即時）。
 
 > [!IMPORTANT]
 > 如果您在將使用者移至 [**僅限團隊**] 模式之後卸載商務用 Skype 用戶端，目前狀態將會在 Outlook 和其他 Office app 中停止運作。 [目前狀態] 在小組中可以正常運作。 因應措施：若要在 Outlook （以及其他 Office app）中查看目前狀態，您必須安裝商務用 Skype，即使您是在 [**僅限團隊**] 模式中執行團隊也一樣。 Microsoft 已注意到這個問題，正在努力解決問題。
+
+Outlook 2013 傳統型應用程式和更新版本支援 Outlook 中目前狀態為「已開啟」的團隊。
 
 ## <a name="presence-states-in-teams"></a>團隊中的目前狀態
 
@@ -54,7 +56,7 @@ ms.locfileid: "37573214"
 || ![含箭號的紫色圓圈表示不在辦公室](media/Presence_OOF.png) 不在辦公室|
 |||
  
-使用者可以將目前的目前狀態狀態手動設定為某些選項，而其狀態會反映給所有其他使用者。 更多使用者目前狀態詳細資料也會自動更新。 變更是以使用者活動（可用、離開）、Outlook 行事曆狀態（在會議中），或團隊 app 狀態（在進行中的通話中）來表示，在清單中縮排的狀態。
+使用者可以將目前的目前狀態狀態手動設定為某些選項，而其狀態會反映給所有其他使用者。 更多使用者目前狀態詳細資料也會自動更新。 變更是以使用者活動（可用、離開）、Outlook 行事曆狀態（在會議中），或團隊 app 狀態（在進行中的通話中）來表示，在清單中縮排的狀態。 
 
 有15分鐘的非使用中超時，在這段時間之後，目前的目前狀態將會重設為 [離開]。
 
@@ -73,6 +75,6 @@ ms.locfileid: "37573214"
 > [!NOTE]
 > 團隊系統管理員自訂這些設定的能力目前不受支援。
 
-## <a name="coexistence-with-skype-for-business"></a>在商務用 Skype 中共存
+## <a name="coexistence-with-skype-for-business"></a>與商務用 Skype 共存
 
 請參閱[與商務用 Skype 共存](coexistence-chat-calls-presence.md)，以取得貴組織也使用商務用 skype 時，小組目前狀態如何運作的詳細資料。

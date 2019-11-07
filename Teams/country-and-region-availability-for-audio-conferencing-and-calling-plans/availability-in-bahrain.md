@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是適用于商務用 Skype 和 Microsoft 團隊（適用于巴林）的 Office 365 服務。
-ms.openlocfilehash: 72831036ec6a3aa020b5381c78bfc06f8fc74c48
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 0c4c9f0f51193296b7ee6131e08cf3c2625896f1
+ms.sourcegitcommit: b9710149ad0bb321929139118b7df0bc4cca08de
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570796"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "38010606"
 ---
 # <a name="availability-in-bahrain"></a>巴林中的可用性
 
@@ -41,7 +41,7 @@ ms.locfileid: "37570796"
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
-|音訊會議是否可供購買？  <br/> |是的  <br/> |
+|音訊會議是否可供購買？  <br/> |否  <br/> |
 |是否會自動為音訊會議指派電話號碼？  <br/> |是，適用于： <br/><ul><li>Manama</ul>如果您需要專用的電話號碼，請參閱[取得商務用 Skype 和 Microsoft 團隊的服務電話號碼](/microsoftteams/getting-service-phone-numbers)。  <br/> |
 |使用 [呼叫我] 功能撥出功能  <br/> |需要通訊點數  <br/> |
    
@@ -49,7 +49,7 @@ ms.locfileid: "37570796"
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
-|電話系統是否可供購買？  <br/> |是的  <br/> |
+|電話系統是否可供購買？  <br/> |是  <br/> |
 | 自動語音應答 <br/> |離線  <br/> |
 |通話佇列  <br/> |離線  <br/> |
 |語音信箱  <br/> |離線  <br/> |
@@ -58,7 +58,7 @@ ms.locfileid: "37570796"
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
-|通話方案可供購買嗎？  <br/> |不  <br/> |
+|通話方案可供購買嗎？  <br/> |否  <br/> |
 |通話方案可用的分鐘數  <br/> |不適用  <br/> |
 |可以撥出電話至嗎？  <br/> |不適用  <br/> |
    
@@ -67,8 +67,8 @@ ms.locfileid: "37570796"
 |**功能**|**詳細資料**|
 |:-----|:-----|
 |您可以在哪一或哪些主要城市取得付費電話號碼？  <br/> |Manama  <br/> |
-|是否有付費電話號碼？  <br/> |是的  <br/> |
-|免費提供免付費電話號碼嗎？  <br/> |不  <br/> |
+|是否有付費電話號碼？  <br/> |是  <br/> |
+|免費提供免付費電話號碼嗎？  <br/> |否  <br/> |
    
  如果您想要取得音訊會議、自動語音應答及通話佇列的付費和免付費電話號碼，請參閱[取得商務用 Skype 和 Microsoft 團隊的服務電話號碼](/microsoftteams/getting-service-phone-numbers)。
   
@@ -76,7 +76,7 @@ ms.locfileid: "37570796"
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
-|通訊點數提供了嗎？  <br/> |不  <br/> |
+|通訊點數提供了嗎？  <br/> |否  <br/> |
    
 如果您想要設定，請參閱[為您的組織設定通訊點數](../set-up-communications-credits-for-your-organization.md)。
   
@@ -84,4 +84,4 @@ ms.locfileid: "37570796"
 
 [取得商務用 Skype 和 Microsoft 團隊的服務電話號碼](/microsoftteams/getting-service-phone-numbers)
 
-[適用于音訊會議與通話方案的國家和地區可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[音訊會議與通話方案的適用國家/地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

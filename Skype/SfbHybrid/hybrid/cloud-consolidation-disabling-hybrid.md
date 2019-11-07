@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 本附錄包含詳細的步驟，停用混合式雲端合併彙算 Teams 和商務用 Skype 的一部分。
-ms.openlocfilehash: d441d9fcc5e4f2cec495efabdbea423eaaec882c
-ms.sourcegitcommit: 7920c47eb73e665dad4bf7214b28541d357bce25
+ms.openlocfilehash: 7bd0b4c606a84dea08fb568d42fe403f624c522d
+ms.sourcegitcommit: b9710149ad0bb321929139118b7df0bc4cca08de
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "37962049"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "38010576"
 ---
 # <a name="disable-hybrid-to-complete-migration-to-the-cloud"></a>停用來完成遷移至雲端混合式
 
@@ -62,8 +62,7 @@ ms.locfileid: "37962049"
     ```
  
 3.  *停用通訊與 Office 365 中內部部署的能力。*  
-必須從內部部署的 PowerShell] 視窗中執行以下命令。  如果您有先前匯入 Skype for Business Online 工作階段啟動新的 Skype 商務 PowerShell 工作階段，如下所示：
-
+必須從內部部署的 PowerShell] 視窗中執行以下命令：
 ```
     Get-CsHostingProvider|Set-CsHostingProvider -Enabled $false
 ```
@@ -72,16 +71,16 @@ ms.locfileid: "37962049"
 
 系統管理員可以管理先前從內部部署 Skype for Business Server 至雲端，即使之後移動解除委任內部部署的使用者。 有兩種不同的可能性：
 
-- 使用者沒有 lineURI 在內部進行移動之前的值。 
+- 使用者沒有 LineURI 在內部進行移動之前的值。 
 
-  在此情況下，您可以修改 skype [Set-csuser cmdlet](https://docs.microsoft.com/powershell/module/skype/set-csuser?view=skype-ps)中使用-onpremLineUri 參數 for Business Online Powershell 模組 LineURI。
+  在此情況下，您可以修改 skype [Set-csuser cmdlet](https://docs.microsoft.com/powershell/module/skype/set-csuser?view=skype-ps)中使用-onpremLineUri 參數 for Business Online PowerShell 模組 LineURI。
 
-- 使用者具有 lineURI 在內部進行移動之前 (可能因為使用者已啟用 Enterprise voice)。 
+- 具有 LineURI 在內部進行移動之前的使用者 (可能因為使用者已啟用 Enterprise voice)。 
 
-  如果您想要變更 lineURI，您必須執行此動作的內部部署 Active Directory 中，並讓值流程到 Azure AD。 這不需要內部 Skype for Business Server。 相反地，這個屬性，Msrtcsip-line，可直接在內部部署 Active Directory 中，使用 [Active Directory 使用者及電腦] MMC 嵌入式管理單元中，或藉由使用 PowerShell 編輯。 如果您使用 MMC 嵌入式管理單元，開啟至使用者的 [屬性] 頁面上，按一下 [屬性編輯器] 索引標籤，並尋找 Msrtcsip-line。
+  如果您想要變更 LineURI，您必須執行此動作的內部部署 Active Directory 中，並讓值流程到 Azure AD。 這不需要內部 Skype for Business Server。 相反地，這個屬性，Msrtcsip-line，可直接在內部部署 Active Directory 中，使用 [Active Directory 使用者及電腦] MMC 嵌入式管理單元中，或藉由使用 PowerShell 編輯。 如果您使用 MMC 嵌入式管理單元，開啟至使用者的 [屬性] 頁面上，按一下 [屬性編輯器] 索引標籤，並尋找 Msrtcsip-line。
 
   ![Active Directory 使用者及電腦工具](../media/disable-hybrid-1.png)
 
-## <a name="see-also"></a>另請參閱
+## <a name="see-also"></a>請參閱
 
 [針對小組與 Skype for Business 的雲端彙總](cloud-consolidation.md)

@@ -1,7 +1,7 @@
 ---
 title: 使用 XML 設定檔遠端系統管理 Microsoft 團隊聊天室的主控台設定
-ms.author: jambirk
-author: jambirk
+ms.author: serdars
+author: serdarsoysal
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -11,14 +11,14 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: 本文將討論 Microsoft 團隊聊天室裝置所使用的預設設定的遠端系統管理，包括套用自訂主題。
-ms.openlocfilehash: e127b476920a8086d3502c0583ca58cea95b0e86
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 24dcec21b9bc2fdb65f63fa21412bbf0f5503c1f
+ms.sourcegitcommit: c782999728e8adae51c52d122700d3e8fa651fdb
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37639574"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38019946"
 ---
-# <a name="content-cameras"></a>內容攝影機
+# <a name="content-cameras"></a>內容相機
 
 您現在可以使用內容相機搭配 Microsoft [小組室系統]。 內容相機會與特殊的影像處理軟體和白板互動，讓簡報者在類比白板上繪圖，並與遠端參與者共用內容。
 
