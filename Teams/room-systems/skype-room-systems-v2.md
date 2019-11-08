@@ -20,18 +20,18 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: '瞭解 Microsoft 團隊聊天室中提供的功能。 '
-ms.openlocfilehash: 392f2c44e739eb0f9c2bcb80827d52491a0c5a9d
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: d6f08cb45905951eda72845ca8bfb21d77c82e4e
+ms.sourcegitcommit: 5e6eb8286bd5eb318a901e42235e91a58946c3a9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573569"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38038732"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>團隊會議室授權更新
 
 ## <a name="licensing-solutions-for-shared-communication-devices"></a>共用通訊裝置的授權解決方案
 
-針對會議室裝置（例如 Microsoft 團隊聊天室及 Microsoft Surface Hub），Microsoft 擁有授權會議和專用的 SKU，並針對每個裝置進行通話。
+Microsoft 有一個專用的 SKU，可針對會議室裝置（例如 Microsoft 團隊聊天室和 Microsoft Surface Hub）授權會議，並針對每個裝置進行通話。
 
 ||Microsoft 聊天室 SKU |  
 |:--- |:---: |
@@ -60,8 +60,8 @@ ms.locfileid: "37573569"
 |  | 您有 Microsoft 團隊或商務用 Skype Online <br/> 以下是您需要購買的專案：   |您有商務用 Skype Server 2015/2019 （內部部署或混合式）。 <br/> 以下是您需要購買的專案：|
 |:-----|:-----|:-----|
 |加入排程的會議  | 會議室 SKU  |商務用 Skype Server 標準版 CAL  |
-|啟動零星會議 | 會議室 SKU  |商務用 Skype Server 標準版 CAL  <br/> 商務用 Skype Server 企業版 CAL|
-|啟動零星會議，然後從會議撥出至電話號碼 |  會議室 SKU |商務用 Skype 標準 CAL  <br/> 商務用 Skype Server 企業版 CAL|
+|啟動點對點會議 | 會議室 SKU  |商務用 Skype Server 標準版 CAL  <br/> 商務用 Skype Server 企業版 CAL|
+|啟動點對點會議，然後從會議撥出至電話號碼 |  會議室 SKU |商務用 Skype 標準 CAL  <br/> 商務用 Skype Server 企業版 CAL|
 |使用電話號碼為會議室提供電話號碼，以及撥打或接聽會議室或加入音訊會議  | 會議室 SKU  |商務用 Skype Server 標準版 CAL  <br/> 商務用 Skype Server Plus CAL  |
 |使用 Microsoft Intune 管理您的會議室裝置 |會議室 SKU  |使用[內部部署 MDM](https://docs.microsoft.com/sccm/mdm/plan-design/plan-on-premises-mdm)的 Microsoft Intune 訂閱 |
 | |||
