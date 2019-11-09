@@ -16,16 +16,19 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何在您的組織中管理私人頻道的生命週期。
-ms.openlocfilehash: 5fe3f29559e62b6b6b11833304aa7bb13206fe6a
-ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.openlocfilehash: 0f2a1f9fc4921ae12092655102d4a442fd653df3
+ms.sourcegitcommit: f3b698379eb663202ce127eeaf6c07328c166556
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37969411"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "38077406"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>在 Microsoft 團隊中管理私人頻道的生命週期
 
 您可以在這裡找到在組織中管理[私人頻道](private-channels.md)生命週期所需的指導方針。
+
+> [!IMPORTANT]
+> 如果您使用本文中的 PowerShell 步驟來管理私人通道，您必須從 PowerShell 測試庫安裝並使用最新版本的團隊 PowerShell 模組。 如需如何執行此動作的步驟，請參閱[從 PowerShell 測試圖庫安裝最新的團隊 PowerShell 模組](#install-the-latest-teams-powershell-module-from-the-powershell-test-gallery)。 最新的現有團隊 PowerShell 模組版本（目前為[1.0.2](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.2)）不支援管理私人頻道。
 
 ## <a name="set-whether-team-members-can-create-private-channels"></a>設定小組成員是否可以建立私人頻道
 
@@ -283,6 +286,60 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
       "userId": "userId-value",
       "email": "email-value"
      }
+    ```
+
+## <a name="teams-powershell-module"></a>團隊 Powershell 模組
+
+### <a name="install-the-latest-teams-powershell-module-from-the-powershell-test-gallery"></a>從 PowerShell 測試圖庫安裝最新的團隊 PowerShell 模組
+
+最新的現有團隊 PowerShell 模組版本（目前為[1.0.2](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.2)）不支援管理私人頻道。 使用這些步驟，從 PowerShell 測試圖庫中安裝含私用通道支援（目前為1.0.18）的最新版本團隊 PowerShell 模組。
+
+> [!NOTE]
+> 請勿從 PowerShell 測試圖庫並排安裝團隊 PowerShell 模組與公用 PowerShell 庫中的模組版本。 請依照下列步驟，先從公用 PowerShell 庫中卸載團隊 PowerShell 模組，然後從 PowerShell 測試圖庫安裝最新版本的模組。
+
+1. 關閉所有現有的 PowerShell 會話。
+2. 啟動新的 Windows PowerShell 模組實例。
+3. 執行下列動作，從公用 PowerShell 庫中卸載團隊 PowerShell 模組：
+
+    ```
+    Uninstall-Module -Name MicrosoftTeams
+    ```
+
+4. 關閉所有現有的 PowerShell 會話。
+5. 再次啟動 Windows PowerShell 模組，然後執行下列動作，以將 PowerShell 測試圖庫註冊為受信任的來源：
+
+    ```
+    Register-PSRepository -Name PSGalleryInt -SourceLocation https://www.poshtestgallery.com/ -InstallationPolicy Trusted
+    ```
+
+6. 執行下列動作，從 PowerShell 測試圖庫安裝最新的團隊 PowerShell 模組：
+
+    ```
+    Install-Module -Name MicrosoftTeams -Repository PSGalleryInt -Force
+    ```
+
+7. 執行下列動作，確認已成功安裝 PowerShell 測試圖庫中的最新版本的團隊 PowerShell 模組：
+
+    ```
+    Get-Module -Name MicrosoftTeams
+    ```
+
+#### <a name="update-to-the-latest-version-of-the-teams-powershell-module-from-the-powershell-test-gallery"></a>從 PowerShell 測試圖庫更新到最新版本的團隊 PowerShell 模組
+
+如果您已經從 PowerShell 測試庫安裝團隊 PowerShell 模組，請使用下列步驟更新到最新版本。
+
+1. 關閉所有現有的 PowerShell 會話。
+2. 啟動新的 Windows PowerShell 模組實例。
+3. 執行下列操作以從 PowerShell 測試圖庫更新目前已安裝的團隊 PowerShell 模組版本：
+
+    ```
+    Update-Module -Name MicrosoftTeams -Force
+    ```
+
+4. 執行下列動作，確認已成功安裝 PowerShell 測試圖庫中的最新版本的團隊 PowerShell 模組：
+
+    ```
+    Get-Module -Name MicrosoftTeams
     ```
 
 ## <a name="related-topics"></a>相關主題

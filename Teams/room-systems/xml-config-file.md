@@ -13,12 +13,12 @@ ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
 ms.collection:
 - M365-collaboration
 description: 本文將討論 Microsoft 團隊聊天室裝置所使用的預設設定的遠端系統管理，包括套用自訂主題。
-ms.openlocfilehash: 928f2ee5bc734aa128faf8af9e47387159666000
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: f00edb0d3d391daaf3cfa7a6f83e5c2951638236
+ms.sourcegitcommit: 1aa98e3865d5a0f7be5e1cba497dea4ac7b9c607
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573459"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38074615"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>使用 XML 設定檔遠端系統管理 Microsoft 團隊聊天室的主控台設定
 
@@ -60,7 +60,7 @@ ms.locfileid: "37573459"
     </Devices>
     <Theming>
         <ThemeName>Custom</ThemeName>
-        <CustomThemeImageUrl>folder path</CustomThemeImageUrl>
+        <CustomThemeImageUrl>file name</CustomThemeImageUrl>
         <CustomThemeColor>
             <RedComponent>100</RedComponent>
             <GreenComponent>100</GreenComponent>
@@ -102,7 +102,7 @@ ms.locfileid: "37573459"
 |\<ContentCameraEnhancement>  | 布林值 &#x2777; | |當設定為 true （預設值）時，會以數位加強內容相機影像：已偵測到白板邊緣，且已選取適當的縮放比例，手寫線已增強，且在白板上撰寫的人員則變成透明。  <br><br> 如果您想要將原始影片摘要傳送給會議參與者，以取得不使用手寫筆繪製白板的空間，而是使用相機來顯示粘滯筆記、海報或其他媒體，請將它設為 false。  |
 | \<主題\>  |包裝箱 |第一 &#x2776;  |可以在 XML 檔案中套用的其中一個功能，就是貴組織的自訂主題。 您可以指定 [主題名稱]、[背景圖像] 和 [色彩]。 |
 |\<ThemeName\> |字串 &#x2778;  || 用來識別用戶端上的主題。 [主題名稱] 選項為 [預設值]、[提供的其中一個預設主題] 或 [自訂]。 <br/>  自訂主題名稱總是使用 [*自訂*]。 用戶端 UI 可以在主控台上設定為預設或其中一個預設，但使用自訂主題必須由系統管理員進行遠端設定。 <br/>  預設主題包括： <br/>  設置 <br/>  藍波 <br/>  數位目錄林 <br/>  Dreamcatcher <br/>  Limeade <br/>  圖元完美 <br/>  之中 <br/>  斜 <br/>  若要停用目前的主題，請使用「無主題」進行 ThemeName。  |
-|\<CustomThemeImageUrl\> |字串 &#x2778;  ||對於自訂主題是必要的，請選用其他選項。   |如需自訂主題圖像的詳細資訊，請參閱[自訂主題影像](xml-config-file.md#Themes)區段。
+|\<CustomThemeImageUrl\> |字串 &#x2778;  ||對於自訂主題是必要的，請選用其他選項。 只輸入檔案名。   |如需自訂主題圖像的詳細資訊，請參閱[自訂主題影像](xml-config-file.md#Themes)區段。
 |\<CustomThemeColor\> |包裝箱 ||[ \<RedComponent\>]、 \<[GreenComponent\>] 和\<[\> BlueComponent] 值的容器。 這些值是自訂主題所必需的。 |
 |\<RedComponent\> |Byte （0-255） ||代表紅色色彩分量。 |
 |\<GreenComponent\> |Byte （0-255） ||代表綠色色彩分量。 |
@@ -150,7 +150,7 @@ XML 設定檔必須在裝置啟動時更新，才能辨識主題影像。 處理
 
 ## <a name="see-also"></a>另請參閱
 
-[內容攝影機](content-camera.md)
+[內容相機](content-camera.md)
 
 [管理 Microsoft 團隊聊天室](skype-room-systems-v2.md)
 

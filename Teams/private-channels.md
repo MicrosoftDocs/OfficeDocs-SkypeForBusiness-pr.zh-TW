@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何在 Microsoft 團隊中使用和管理私人頻道。
-ms.openlocfilehash: 1731f210382403320c8faffa57c04bd3486ab172
-ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.openlocfilehash: b4937addf861be56a0a90a2c63a0ed6181bdc555
+ms.sourcegitcommit: f3b698379eb663202ce127eeaf6c07328c166556
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37969381"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "38077426"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft 團隊中的私人頻道
 
@@ -114,8 +114,8 @@ Microsoft 團隊中的私人頻道會在您的小組中建立焦點空間，共�
 
 <sup>1</sup>假設您（管理員）設定的原則允許使用者建立私人頻道。<br>
 <sup>2</sup>每個小組都有一個設定，小組擁有者可以開啟或關閉，以允許小組成員建立私人頻道。 小組擁有者可以隨時建立私人頻道。<br>
-<sup>3</sup>假設私有頻道擁有者不是該頻道的最後一個擁有者。 <br>
-<sup>4</sup>需要團隊為專用通道安裝 app，才能使用該應用程式。<br>
+<sup>3</sup>假設私人頻道擁有者不是該頻道的最後一個擁有者。 <br>
+<sup>4</sup>需要團隊為專用通道安裝應用程式，才能使用它。<br>
 <sup>5</sup>私人頻道擁有者可以設定。
 
 ### <a name="manage-private-channel-membership-and-settings"></a>管理私人頻道成員資格與設定
