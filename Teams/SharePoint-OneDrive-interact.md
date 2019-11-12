@@ -12,21 +12,22 @@ description: 瞭解 SharePoint Online 與商務用 OneDrive 與 Microsoft 團隊
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
+- SPO_Content
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5b18cf1f97d0798df5cac4881672c0756cc56616
-ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.openlocfilehash: 0e48c3e156fed45e447ddcbaaba5300537c651ab
+ms.sourcegitcommit: ddb4eaf634476680494025a3aa1c91d15fb58413
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37968244"
+ms.lasthandoff: 11/11/2019
+ms.locfileid: "38231104"
 ---
 # <a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>SharePoint Online 與商務用 OneDrive 與 Microsoft 團隊互動的方式
 
 > [!Tip]
 > 請觀看下列會話，瞭解團隊與 Azure Active Directory （AAD）、Office 365 群組、Exchange、SharePoint 和商務用 OneDrive 的互動方式： [Microsoft 團隊的基礎](https://aka.ms/teams-foundations)
 
-Microsoft 團隊中的每個團隊在 SharePoint Online 中都有小組網站，小組中的每個標準頻道都會在預設的小組網站文件庫中取得一個資料夾。 在交談中共用的檔案會自動新增至文件庫，SharePoint 中設定的許可權和檔案安全性選項會自動反映在小組中。
+Microsoft 團隊中的每個團隊在 SharePoint Online 中都有小組網站，小組中的每個標準頻道都會在預設的小組網站文件庫中取得一個資料夾。 在交談中共用的檔案會自動新增到文件庫，在 SharePoint 中設定的權限和檔案安全性選項會自動在 Teams 中反映。
 
 > [!NOTE]
 > 本文只適用于標準頻道。 專用通道的架構與標準通道不同。 每個私人頻道都有自己的 SharePoint 網站集合，與父小組網站不同。 若要深入瞭解，請參閱[Microsoft 團隊中的私人頻道](private-channels.md)。
@@ -35,7 +36,7 @@ Microsoft 團隊中的每個團隊在 SharePoint Online 中都有小組網站，
 
 如果使用者未使用 SharePoint Online 授權指派及啟用，他們在 Office 365 中就沒有商務用 OneDrive 儲存空間。 檔案共用功能會在標準頻道中繼續運作，但是使用者無法在 Office 365 中的商務用 OneDrive 儲存空間中共用檔案。
 
-透過將檔案儲存在 SharePoint Online 文件庫和商務用 OneDrive 中，就會遵循在租使用者層級設定的所有合規性規則。 
+透過將檔案儲存在 SharePoint Online 文件庫和 OneDrive for Business，您將遵守所有在租用戶層級設定的合規性規則  
 
 > [!NOTE]
 > 目前 Microsoft 團隊不支援與 SharePoint 內部部署的整合。

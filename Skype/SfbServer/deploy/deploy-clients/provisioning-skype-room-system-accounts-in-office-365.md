@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
 description: 請閱讀本主題，以瞭解如何在 Office 365 中預配 Skype 室系統帳戶。
-ms.openlocfilehash: d247983647641c91376c99bed3a13606027a7e11
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 830c0e33a15639f3c78197d084748bb3b2cde600
+ms.sourcegitcommit: ddb4eaf634476680494025a3aa1c91d15fb58413
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775387"
+ms.lasthandoff: 11/11/2019
+ms.locfileid: "38231264"
 ---
 # <a name="provisioning-skype-room-system-accounts-in-office-365"></a>在 Office 365 中預配 Skype 會議室系統帳戶
  
@@ -91,7 +91,7 @@ New-Mailbox -Name "Conf Room 2" -MicrosoftOnlineServicesID $rm -Room  -EnableRoo
 
 ## <a name="assigning-a-skype-for-business-online-license"></a>指派商務用 Skype Online 授權
 
-現在，您可以使用 Office 365 管理入口網站（如[指派或移除商務用 office 365](https://support.office.com/en-us/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&amp;rs=en-US&amp;ad=US)或[商務用 Skype 附加元件的授權）來指派或移除商務用 Skype online （方案2）或商務用 Skype online （方案3）授權。授權](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)。 
+現在，您可以使用 Office 365 系統管理入口網站（如[指派或移除商務用 office 365](https://support.office.com/en-us/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&amp;rs=en-US&amp;ad=US)或[商務用 skype 附加元件授權](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)）中所述的步驟，將商務用 skype online （方案2）或商務用 skype online （方案3）授權指派給您。 
   
 在您指派商務用 Skype Online 的授權之後，您就可以登入並驗證該帳戶是使用任何商務用 Skype 用戶端。
   
@@ -119,7 +119,9 @@ New-Mailbox -Name "Conf Room 2" -MicrosoftOnlineServicesID $rm -Room  -EnableRoo
    Get-CsOnlineUser -Identity 'alice@contoso.onmicrosoft.com'| fl *registrarpool*
    ```
 
-  
+>[!NOTE] 
+>Skype 室系統帳戶不支援多重要素驗證（MFA）。 
+
 ## <a name="password-expiration"></a>密碼到期日
 
 在 Office 365 中，除非您設定不同的密碼過期原則，否則所有使用者帳戶的預設密碼過期原則都會是90天。 若是 Skype 室系統帳戶，您可以使用下列步驟選取 [密碼永不過期] 設定。

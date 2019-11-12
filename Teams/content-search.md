@@ -8,17 +8,18 @@ audience: admin
 ms.service: msteams
 ms.collection:
 - M365-collaboration
+- SPO_Content
 ms.reviewer: anach
 search.appverid: MET150
 description: 瞭解 Microsoft 團隊中的內容搜尋，以及如何搜尋來自 Exchange 的頻道交談、檔案上傳與 SharePoint 中的檔案上傳及修改，以及 OneNote 的變更。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: faed09a5fafaec559bc4277b75a60d8cc594fa85
-ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.openlocfilehash: 3042a39d30ca14ff4eda9be6a1042bfca3484bd2
+ms.sourcegitcommit: ddb4eaf634476680494025a3aa1c91d15fb58413
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37968284"
+ms.lasthandoff: 11/11/2019
+ms.locfileid: "38231154"
 ---
 <a name="use-content-search-in-microsoft-teams"></a>在 Microsoft 團隊中使用內容搜尋
 =====================================
@@ -30,7 +31,7 @@ ms.locfileid: "37968284"
 
 若要深入瞭解，請參閱[Office 365 中的內容搜尋](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a)。
 
-例如，針對您的製造規格信箱和製造規格 SharePoint 網站使用**內容搜尋**，您可以從 sharepoint Online 的 Exchange、檔案上傳及修改等小組標準頻道交談進行搜尋。以及 OneNote 的變更。
+例如，針對您的製造規格信箱和製造規格 SharePoint 網站使用**內容搜尋**，您可以從 Exchange、檔案上傳和 SharePoint Online 的修改，以及 OneNote 變更，在小組標準頻道交談中搜尋。
 
 您也可以將查詢準則新增至**內容搜尋**，以縮小傳回的結果範圍。 在上述範例中，您可以尋找已使用 [**新的工廠規格]** 關鍵字的內容。
 
