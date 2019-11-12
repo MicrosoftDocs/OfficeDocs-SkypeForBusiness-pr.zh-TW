@@ -11,15 +11,16 @@ description: 了解套用到 Microsoft Teams 的限制、規格和其他需求�
 localization_priority: Priority
 ms.collection:
 - M365-collaboration
+- SPO_Content
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8de3a1b61d706ba2f85e83ec6290378d47cb20fe
-ms.sourcegitcommit: b9710149ad0bb321929139118b7df0bc4cca08de
+ms.openlocfilehash: b11f326f35d7c30ffba29e4247db75800eeb3790
+ms.sourcegitcommit: ddb4eaf634476680494025a3aa1c91d15fb58413
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "38010516"
+ms.lasthandoff: 11/11/2019
+ms.locfileid: "38231094"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和規格
 
