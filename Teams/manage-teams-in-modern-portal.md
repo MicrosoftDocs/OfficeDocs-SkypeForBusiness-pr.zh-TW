@@ -16,32 +16,36 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4fea7081ee66cbd7b103f4292f577aaf5d841e11
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 0c7adfc2762d632f600f2982445f381139263894
+ms.sourcegitcommit: ed7439d03e37c9c0184daf5215a68c5492932a83
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37571931"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "38290933"
 ---
 <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>在 Microsoft 團隊系統管理中心管理團隊
 ==========================================
 
 ## <a name="overview"></a>概觀
 
+本文將為 Microsoft 團隊系統管理中心的小組提供管理工具的概覽。 請觀看這段短片開始（3分鐘）：
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE476Yi]
+
 如果您是系統管理員，您可能需要查看或更新貴組織設定的共同作業小組，或者您可能需要執行修正動作，例如指派 ownerless 小組的擁有者。 您可以透過 Microsoft 團隊 PowerShell 模組和 Microsoft 團隊系統管理中心來管理組織中使用的團隊。 若要使用這兩種工具集的完整管理功能，您應該確認您已獲指派下列其中一個角色：
 
 - 全域系統管理員
-- 團隊服務管理員
+- Teams 服務管理員
 
 您可以在團隊中進一步瞭解如何[使用 Microsoft 團隊管理員角色來管理團隊](using-admin-roles.md)，並進一步瞭解如何使用 PowerShell Cmdlet 來管理[Microsoft 團隊 Cmdlet 參考](https://docs.microsoft.com/powershell/teams/?view=teams-ps)中的團隊。
 
-本文將為 Microsoft 團隊系統管理中心的小組提供管理工具的概覽。
+
 
 ## <a name="teams-overview-grid"></a>團隊概覽格線
 
 小組的管理工具位於 Microsoft 團隊系統管理中心的 [**小組**] 節點底下。 （在系統管理中心中，選取 [**團隊** > **管理團隊**]）。每個團隊都受 Office 365 群組的支援，而且這個節點提供已在貴組織中啟用 Microsoft 團隊的群組視圖。
 
-![[團隊概述] 格線的螢幕擷取畫面](media/manage-teams-in-modern-portal-grid.png)  
+![[團隊概覽] 格線的螢幕擷取畫面](media/manage-teams-in-modern-portal-grid.png)  
 
 格線會顯示下列屬性：
 
@@ -69,7 +73,7 @@ ms.locfileid: "37571931"
 
 ### <a name="archive"></a>壓縮
 
-您可以封存小組。 封存小組會將小組放入小組中的唯讀模式。 做為管理員，您可以在系統管理中心中代表您的組織封存及 unarchive 小組。 
+您可以封存小組。 封存小組會將小組放入小組中的唯讀模式。 做為管理員，您可以在系統管理中心中代表您的組織封存和取消封存小組。 
 
 ### <a name="delete"></a>Delete
 
@@ -96,7 +100,7 @@ ms.locfileid: "37571931"
 - [**成員**]-新增或移除成員以及提升或降級擁有者。
 - **頻道**-新增頻道，以及編輯或移除現有頻道。 請記住，您無法刪除預設的 [一般] 頻道。
 - **團隊名稱**
-- **說明**
+- **描述**
 - **隱私權**-設定團隊是否為公用或私人。
 - **分類**-這是由您的 Office 365 群組分類所支援。 選擇 [**機密**]、[**高度機密**] 或 **[一般**]。
 - [**交談設定**]-設定成員是否可以編輯及刪除已傳送的郵件。
@@ -116,7 +120,7 @@ ms.locfileid: "37571931"
 
 在查詢中，使用「 ** [UnifiedGroup](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps) ** 」 Cmdlet 做為「**ExternalDirectoryObjectId**」屬性，取代 **{GroupId}** ，以取得實際的 groupid，您可以透過 Exchange Online powershell 取得該問題。
 
-1. Access[圖形瀏覽器](https://developer.microsoft.com/en-us/graph/graph-explorer)。
+1. Access[圖形瀏覽器](https://developer.microsoft.com/graph/graph-explorer)。
 
 2. 在左側功能表中登入圖表資源管理器。
 
