@@ -16,16 +16,22 @@ f1keywords:
 - ms.teamsadmincenter.dashboard.helparticle.quickstartteamsadmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dcb22715a5dbb71239e1953b995933ab204255ec
-ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
+ms.openlocfilehash: 907155bea3b73252006f17a512a96123da4153e4
+ms.sourcegitcommit: ed7439d03e37c9c0184daf5215a68c5492932a83
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37753438"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "38290953"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams 中的聊天、團隊、頻道和應用程式
 
-Teams 為您的組織提供絕佳的現成共同作業體驗，而大部分組織認為預設設定就能滿足其需求。 本文可協助您決定是否要根據組織的設定檔和商務需求來變更任何預設設定，並逐步引導您完成每個變更。 我們已將設定分割成兩個群組，從[您最可能進行的變更](#core-deployment-decisions)的核心集開始。 根據組織的需求，第二個群組包括您可能想要設定的[其他設定](#additional-deployment-decisions)。
+Teams 為您的組織提供絕佳的現成共同作業體驗，而大部分組織認為預設設定就能滿足其需求。 本文可協助您決定是否要根據組織的設定檔和商務需求來變更任何預設設定，並逐步引導您完成每個變更。 我們已將設定分割成兩個群組，從[您最可能進行的變更](#core-deployment-decisions)的核心集開始。 根據組織的需求，第二個群組包括您可能想要設定的[其他設定](#additional-deployment-decisions)。 
+
+若要開始使用，請觀看我們的簡短 Teams 聊天、團隊和頻道影片 (4 分 30 秒)： 
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE476Yj]
+
+*2019 年 11 月中的新功能*：您現在可以[使用 Advisor for Teams (預覽) 協助您推出 Microsoft Teams](use-advisor-teams-roll-out.md)。 Advisor for Teams (預覽) 會引導您完成 Teams 的推出。 在您成功推出 Teams 前，它會評估您的 Office 365 環境，找出可能需要更新或修改的最常用設定。
 
 > [!TIP]
 > 建議您初始推出 Teams 時能夠包含我們的精選應用程式，例如 Planner。 在開始推動 Teams 的採用時，則新增其他[應用程式、Bot 和連接器](deploy-apps-microsoft-teams-landing-page.md)。

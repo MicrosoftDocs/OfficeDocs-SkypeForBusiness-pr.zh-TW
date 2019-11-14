@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7a0bba0c8893ee706061b989f95d4e22619fa4f9
-ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
+ms.openlocfilehash: ad8b75e244efa0d28709d6c5ff225f1e6676200a
+ms.sourcegitcommit: ed7439d03e37c9c0184daf5215a68c5492932a83
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37753278"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "38290853"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Microsoft Teams 中的來賓存取
 ======================================
@@ -75,6 +75,7 @@ ms.locfileid: "37753278"
 - 瀏覽團隊
 - 將檔案上傳至個人對個人的聊天
 - 如果來賓知道使用者的完整電子郵件識別碼，來賓仍然可以搜尋和尋找使用者 (不屬於其團隊)。 為避免發生這種情況，IT 系統管理員可以使用如[限域目錄搜尋](teams-scoped-directory-search.md)等模式的功能，將來賓限制在其自己的虛擬 GAL 中。
+- 目前，Teams 僅支援由 [Azure B2B 所定義](https://docs.microsoft.com/azure/active-directory/b2b/user-properties)來賓使用者的狀態 1 和狀態 2
 
 如需來賓在 Teams 中可以和不可以使用的功能完整清單，請參閱[比較團隊成員和來賓功能](guest-experience.md#comparison-of-team-member-and-guest-capabilities)表格。 若要深入了解 Office 365 等級的來賓存取，請參閱[將來賓新增至 Office 365 群組](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6)。
 
