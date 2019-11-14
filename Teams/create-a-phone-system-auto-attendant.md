@@ -1,7 +1,7 @@
 ---
 title: 設定雲端自動語音應答
-ms.author: jambirk
-author: jambirk
+ms.author: kenwith
+author: kenwith
 manager: serdars
 ms.reviewer: waseemh
 ms.topic: article
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 瞭解如何為 Microsoft 團隊設定及測試雲端自動語音應答。
-ms.openlocfilehash: b1756cc58e485971157c0429e8180a5f5e507ec8
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: 36725b9c322c5d084fdfc344132f36b9265ce9dd
+ms.sourcegitcommit: b1bf37a96a8faa169d8a32b7478f1e2d1022ebbb
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972474"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "38318126"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>設定雲端自動語音應答
 
@@ -103,7 +103,7 @@ ms.locfileid: "37972474"
 
 <a name="timezone"> </a>
 
-![數位3的圖示，前一個螢幕擷取畫面](media/teamscallout3.png) **時區**中的標注，您必須為自動語音應答設定時區。 此設定可以與您組織的主要位址時區，或其他時區相同。 每個自動助理都可以有不同的時區。 自動語音應答的 [上班時間] 設定也會使用 [此時區]。
+![數位3的圖示，前一個螢幕擷取畫面](media/teamscallout3.png) **時區**中的標注，您必須為自動語音應答設定時區。 此設定可以與您組織的主要位址時區，或其他時區相同。 每個自動助理都可以有不同的時區。 自動語音應答的 [上班時間] 設定也會使用 [此時區]。 請務必設定正確的時區，以免所有區域都有夏時制，以避免上班時間差異。 
 
 * * *
 
@@ -231,7 +231,7 @@ ms.locfileid: "37972474"
 >- 自動語音應答可以設定為透過名稱撥號，或使用撥打電話給撥號，但不能同時使用這兩者。
 
 > [!NOTE]
-> 如果您想要同時使用 [透過**名稱撥號**]**和 [透過撥號撥打**] 功能，您可以建立主要自動語音應答（透過**名稱撥號**），提示呼叫者選擇功能表選項（如果他們知道使用者的副檔名），並將該選項設定為將來電轉接到已啟用 [透過電話撥打電話] 的自動語音應答。
+> 如果您想要同時使用 [**撥號者名稱**]**和 [透過撥打電話**] 功能，您可以建立主要的自動語音應答（透過**名稱撥號**），提示來電者選擇功能表選項（如果他們知道使用者的副檔名），並設定該選項，將來電轉接到已啟用撥號的自動助理（透過分機）。
 
 * * *
 
@@ -249,7 +249,7 @@ If you choose **Write your call instructions**, enter the script  you want the s
 - 撥號作用中
 - 資源帳戶
 
-由於您必須具備自動語音應答才能擁有資源帳戶，因此您可以選擇繼續至 [**資源帳戶**] 頁面，並關聯您已設定的資源帳戶，或建立資源帳戶並將其與自動關聯在[Microsoft 團隊中的 [管理資源帳戶](manage-resource-accounts.md)] 中所述的 [助理]。 您將無法使用此自動語音應答，除非它已與資源帳戶相關聯。 若要這樣做，請按一下畫面底部的 **[下一步]** 按鈕，然後按一下左側導覽中的 [**資源帳戶**]，即可直接移至 [資源帳戶] 頁面，並將您的自動助手與資源帳戶建立關聯。
+由於您必須具備自動語音應答才能擁有資源帳戶，因此您可以選擇繼續至 [**資源帳戶**] 頁面，並將您已設定的資源帳戶產生關聯，或是建立資源帳戶並將其與自動語音助理相關聯，如在[Microsoft 團隊中管理資源帳戶](manage-resource-accounts.md)中所述。 您將無法使用此自動語音應答，除非它已與資源帳戶相關聯。 若要這樣做，請按一下畫面底部的 **[下一步]** 按鈕，然後按一下左側導覽中的 [**資源帳戶**]，即可直接移至 [資源帳戶] 頁面，並將您的自動助手與資源帳戶建立關聯。
 
 #### <a name="advanced-settings-optional"></a>[高級設定] （選用）
 
@@ -273,7 +273,7 @@ If you choose **Write your call instructions**, enter the script  you want the s
 
 ![數位3的圖示，前一個螢幕擷取畫面](media/teamscallout3.png)中的標注選取 [**清除所有時間**] 來完全清除排程。 我們不建議您選取此選項並保留未設的時間，因此請只在您想要完全重新執行工作時間時才使用這個選項。
 
-![數位4的圖示（編號5的前一個螢幕擷取畫面](media/teamscallout4.png)  ![圖示中的標注），前一個螢幕擷取畫面](media/teamscallout5.png)中的標注可自訂周中某天的開始或結束時間，請按一下您想要重設的 [**開始**] 或 [**結束**] 時間，然後從顯示的清單中選取新的時間。 此清單可讓您以15分鐘的間隔來選取 [上班時間]，而您在此選取的上班時間是以您在 [**一般資訊**] 頁面上所設定的時區為基礎。
+![數位4的圖示、編號5的前一個螢幕擷取畫面](media/teamscallout4.png)  ![圖示中的標注、先前螢幕擷取畫面](media/teamscallout5.png)中的標注，以自訂周中某天的開始或結束時間，請按一下您想要重設的 [**開始**] 或 [**結束**] 時間，然後從出現的清單中選取新的時間。 此清單可讓您以15分鐘的間隔來選取 [上班時間]，而您在此選取的上班時間是以您在 [**一般資訊**] 頁面上所設定的時區為基礎。
 
  <!-- The **Apply to all days** option can be used to reset all days of the week to match the settings for that day. This makes setting weekdays and weekends to different hours easier.-->
 
@@ -309,7 +309,7 @@ If you choose **Write your call instructions**, enter the script  you want the s
 
 假日通話流程名稱最多可以有64個字元，且對於組織而言必須是唯一的。 例如，在同一個組織中，您無法將兩個假期通話流程命名為「感恩節」。 您的自動語音應答可以針對您設定的每個假日進行通話流程，但您可能會想要在自訂的問候語以外的一組常見行為中進行。
 
-![數位3的圖示，前一個螢幕擷取畫面](media/teamscallout3.png)中的標注：假日通話流程的[問候](#call-flow)選項與上班時間內提供的選項相同。 在播放問候語之後所執行的**動作**也類似，只是在您唯一可用的動作是 **[中斷連線]** 或 [重新**導向**]，以及選擇 [**重定向至**] 選項時，操作員不是其中一個可用的選項. 您無法設定假日流程專用的功能表。
+![數位3的圖示，前一個螢幕擷取畫面](media/teamscallout3.png)中的標注：假日通話流程的[問候](#call-flow)選項與上班時間內提供的選項相同。 您也可以在播放問候語之後執行的**動作**，除了 [**中斷連線]** 或 [重新**導向**]，以及選擇 [**重定向至**] 選項之外，該操作員不是其中一個可用的選項。 您無法設定假日流程專用的功能表。
 
 > [!NOTE]
 > 根據預設，在假日期間收到的所有來電都設定為在問候語（如果有的話）之後**中斷**連線，因此，如果您想要自訂行為，您必須指定重新導向。
@@ -414,11 +414,11 @@ Press the **Create** button to finish setup of your new auto attendant. -->
 
   - [Windows PowerShell 與 Lync Online 的簡介](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
-  - [為什麼需要使用 Office 365 PowerShell](https://docs.microsoft.com/en-us/office365/enterprise/powershell/why-you-need-to-use-office-365-powershell)
+  - [為什麼需要使用 Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/why-you-need-to-use-office-365-powershell)
 
 - Windows PowerShell 的速度、簡潔性和生產率都有許多優點，只是使用 Microsoft 365 系統管理中心，例如一次為多個使用者進行設定變更。 請參閱下列主題，瞭解這些優點：
 
-  - [使用 Office 365 PowerShell 管理 Office 365](https://docs.microsoft.com/en-us/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
+  - [使用 Office 365 PowerShell 管理 Office 365](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
 
   - [使用 Windows PowerShell 管理商務用 Skype Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
@@ -430,7 +430,7 @@ Press the **Create** button to finish setup of your new auto attendant. -->
 
 [音訊會議與通話方案的適用國家/地區](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 
-[新-CsOrganizationalAutoAttendant](https://docs.microsoft.com/en-us/powershell/module/skype/new-csorganizationalautoattendant?view=skype-ps)  
+[新-CsOrganizationalAutoAttendant](https://docs.microsoft.com/powershell/module/skype/new-csorganizationalautoattendant?view=skype-ps)  
 
 [什麼是雲端自動語音應答？](what-are-phone-system-auto-attendants.md)
 

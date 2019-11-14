@@ -1,5 +1,5 @@
 ---
-title: 免費撥出期間
+title: 附贈外撥期間
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Legal
 description: 客戶可以在商務用 Skype Online 中使用 Office 365 通話方案和 Office 365 音訊會議，而 Microsoft 團隊 PSTN 服務則使用條款與客戶大量的授權協定。
-ms.openlocfilehash: e5f0d49cfd43b04f5c361564adcc05805d04b594
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 10f56c62ccac79fcd20b0ca88fd7d71a8fc7c43a
+ms.sourcegitcommit: b1bf37a96a8faa169d8a32b7478f1e2d1022ebbb
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516894"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "38311228"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>音訊會議免費撥出期間
 
@@ -37,6 +37,8 @@ ms.locfileid: "37516894"
 ### <a name="end-of-complimentary-dial-out-period"></a>免費撥出期間結束時間
 
 從2019年12月1日起，將會結束免費撥出功能。 如需其他詳細資料，請參閱[音訊會議訂閱撥出並打電話給我](audio-conferencing-subscription-dial-out.md)。 
+
+此變更不會發生在可使用音訊會議訂閱的國家/地區，但我們目前未提供設定通訊點數的功能。 這些特定國家/地區是俄羅斯、韓國和臺灣。
 
 ### <a name="complimentary-dial-out-period-details"></a>[免費撥出期間] 詳細資料
 
@@ -56,7 +58,7 @@ ms.locfileid: "37516894"
 > [!NOTE]
 > 您可以在商務用 Skype 系統管理中心監視 [撥出分鐘] 的使用方式。 在 Microsoft 團隊 & Skype 系統管理中心中，移至**舊版入口網站** > **報告** > **PSTN 分鐘池**。 這個免費的分鐘數池會在報告中標示為「出站通話以進行國家和地區的區域」。
 
-當租使用者的撥出分鐘數池達到 80% 和 100% 時，系統會將電子郵件通知傳送給指定客戶的所有租使用者管理員。
+當租使用者的撥出分鐘數池達到80% 和100% 時，系統會將電子郵件通知傳送給指定客戶的所有租使用者管理員。
 
 對於每分鐘計費的撥出通話（超過租使用者撥出時間池的呼叫，或未在區域中的 [國家/地區] 清單中的目的地通話），通話和其相關的費率主要基於通話目的地，而不是國家/地區。召集人的 [或] 區域，或參與者開始撥出通話。 例如，如果電話號碼是由美國或在華北的會議參與者所啟動，就會以相同的費率計費。
 
@@ -66,22 +68,22 @@ ms.locfileid: "37516894"
 
 |    |
 |-----|
-|澳大利亞  <br/> |
+|澳洲  <br/> |
 |奧地利  <br/> |
 |比利時  <br/> |
 |巴西  <br/> |
 |保加利亞  <br/> |
 |加拿大  <br/> |
-|業務員  <br/> |
-|克羅地亞  <br/> |
-|捷克共和國  <br/> |
+|中國  <br/> |
+|克羅埃西亞  <br/> |
+|捷克  <br/> |
 |丹麥  <br/> |
 |愛沙尼亞  <br/> |
 |芬蘭  <br/> |
 |法國  <br/> |
 |德國  <br/> |
 |希臘  <br/> |
-|香港特別行政區  <br/> |
+|香港  <br/> |
 |匈牙利  <br/> |
 |印度  <br/> |
 |愛爾蘭  <br/> |
@@ -102,14 +104,14 @@ ms.locfileid: "37516894"
 |斯洛伐克文共和國  <br/> |
 |斯洛維尼亞  <br/> |
 |南非  <br/> |
-|韓國  <br/> |
+|南韓  <br/> |
 |西班牙  <br/> |
 |瑞典  <br/> |
 |瑞士  <br/> |
-|臺灣  <br/> |
+|台灣  <br/> |
 |泰國  <br/> |
 |英國  <br/> |
 |美國  <br/> |
      
 ## <a name="related-topics"></a>相關主題
-[適用于音訊會議與通話方案的國家和地區可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[音訊會議與通話方案的適用國家/地區](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
