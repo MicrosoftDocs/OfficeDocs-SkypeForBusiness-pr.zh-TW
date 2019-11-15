@@ -16,12 +16,12 @@ f1keywords:
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 43a5914c0ad9690859264e5c64e0652a5095decb
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 822483d1475d083ef18213e94d438d5c2a4eb48c
+ms.sourcegitcommit: 69217fb6d6b71081386364db58083eb5d1932c07
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570143"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38638833"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>什麼是 Microsoft 團隊即時事件？
 
@@ -73,7 +73,7 @@ Microsoft 365 live 事件會將即時影片資料流程傳送到新的階層，�
 ### <a name="enterprise-content-delivery-network-ecdn"></a>企業內容傳遞網路（eCDN）
 ECDN 的目的是從網際網路取得影片內容，並在整個企業中散佈內容，而不會影響網路效能。 您可以使用下列其中一個認證的 eCDN 合作夥伴來針對貴組織內的即時事件優化您的網路：
 - [一兩](https://www.hivestreaming.com/partners/integration-partners/microsoft/)
-- [Kollective](http://www.kollective.com)
+- [Kollective](https://kollective.com/microsoft-pilot/)
 - [向](http://www.ramp.com)
 
 ### <a name="attendee-experience"></a>出席者體驗 

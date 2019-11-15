@@ -4,7 +4,6 @@ author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
 audience: Admin
-ms.date: 06/25/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
@@ -17,14 +16,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6a8a440859d5bb33dfa5f57fd952f642b0e88dc7
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 89f9ba68dd4fbd1cef271c0dd0a3fb73e10637a7
+ms.sourcegitcommit: 4060f20e8e3ce5a0464c12cfebdf8fe3473733fe
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569282"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38626979"
 ---
-<a name="use-the-teams-meeting-add-in-in-outlook"></a>在 Outlook 中使用 [團隊會議] 增益集
+<a name="use-the-teams-meeting-add-in-in-outlook"></a>在 Outlook 中使用 Teams 會議增益集
 =======================================
 
 [團隊會議] 增益集可讓使用者從 Outlook 排程團隊會議。 您可以在 Windows 版、Mac 版、web 版和行動裝置上使用該增益集。
@@ -36,9 +35,11 @@ ms.locfileid: "37569282"
 ![Outlook 功能區上 [團隊會議] 增益集的螢幕擷取畫面](media/Teams-add-in-for-Outlook.png)
 
 > [!NOTE]
+> - 執行 Regsvr32 檔案的使用者許可權對於要在電腦上安裝的小組會議增益集而言，是最低的需求。
 > - 如果使用者沒有看到 [團隊會議] 增益集，請指示他們關閉 Outlook 和團隊，然後先重新開機團隊用戶端，然後登入小組，然後以該特定順序重新開機 Outlook 用戶端。
 > - Windows 7 使用者必須在 Windows 的 windows 中安裝[通用 C 執行時間更新](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows)，小組會議增益集才能正常運作。
-> - 如果您是從 Microsoft 網上商店使用 Office Outlook 安裝，則不支援 [團隊會議] 增益集。 建議需要此增益集的使用者安裝隨選即用版本的 Office，如[Windows 10 中的 office 在 S 模式](https://support.office.com/article/faq-office-on-windows-10-in-s-mode-717193b5-ff9f-4388-84c0-277ddf07fe3f)文章中所述。 
+> - 如果您是從 Microsoft 網上商店使用 Office Outlook 安裝，則不支援 [團隊會議] 增益集。 建議需要此增益集的使用者安裝隨選即用版本的 Office，如[Windows 10 中的 office 在 S 模式](https://support.office.com/article/faq-office-on-windows-10-in-s-mode-717193b5-ff9f-4388-84c0-277ddf07fe3f)文章中所述。
+
 
 ## <a name="teams-meeting-add-in-in-outlook-for-mac"></a>Mac 版 Outlook 中的團隊會議增益集
 
@@ -101,8 +102,8 @@ FindTime 是 Outlook 的增益集，可協助使用者在整個公司的會議�
 | 索羅門群島 | 商務用 Skype |
 | 僅適用于商務用 Skype | 商務用 Skype |
 | 商務用 Skype 與團隊共同作業 | 商務用 Skype |
-| 商務用 Skype 與團隊共同作業與會議 | 協同 |
-| 僅限團隊 | 協同 |
+| 商務用 Skype 與團隊共同作業與會議 | 團隊 |
+| 僅限團隊 | 團隊 |
 
 ## <a name="other-considerations"></a>其他考慮
 
@@ -123,7 +124,7 @@ FindTime 是 Outlook 的增益集，可協助使用者在整個公司的會議�
 - 請確認登入的使用者帳戶名稱不包含空格。 （這是已知的問題，將于未來更新中修正。）
 - 請確定已啟用單一登入（SSO）。
 
-如果您的系統管理員已設定 Microsoft Exchange 來[控制 Exchange Web Server （EWS）的存取權](https://docs.microsoft.com/en-us/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange)，則代理人將無法代表老闆排程小組會議。 此設定的解決方案位於開發階段，未來將會發佈。 
+如果您的系統管理員已設定 Microsoft Exchange 來[控制 Exchange Web Server （EWS）的存取權](https://docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange)，則代理人將無法代表老闆排程小組會議。 此設定的解決方案位於開發階段，未來將會發佈。 
 
 如需如何停用增益集的一般指導方針，請參閱[在 Office 程式中查看、管理及安裝增益集](https://support.office.com/article/View-manage-and-install-add-ins-in-Office-programs-16278816-1948-4028-91E5-76DCA5380F8D)。
 

@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4fa560347d7263dafafc4f98e031b3b267f8fb12
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 450fd98d65d092f3cbc684e4efd90691b5e389a1
+ms.sourcegitcommit: 69217fb6d6b71081386364db58083eb5d1932c07
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570220"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38638803"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>虛擬化桌面基礎結構的團隊
 
@@ -49,7 +49,7 @@ ms.locfileid: "37570220"
 
 使用**CSTeamsCallingPolicy** Cmdlet 來控制是否允許使用者在私人和群組聊天中使用呼叫和呼叫選項。 以下是原則設定及建議值的清單。
 
-|原則名稱  |說明 |建議值  |
+|原則名稱  |描述 |建議值  |
 |---------|---------|---------|
 |AllowCalling    |控制交互操作通話功能。 開啟這項功能後，商務用 Skype 使用者就能與團隊使用者進行一對一通話（反之亦然）。         |設定為 False，以避免從商務用 Skype 使用者撥打電話給小組。          |
 |AllowPrivateCalling     | 控制是否在團隊用戶端左側的應用程式行中提供通話應用程式，以及使用者是否在私人聊天中看到通話和視頻通話選項         |設為 False，即可從小組左側的應用程式行中移除通話應用程式，以及移除 [私人聊天] 中的 [通話] 和 [視頻通話] 選項。          |
@@ -95,7 +95,7 @@ ms.locfileid: "37570220"
 
 使用**CsTeamsMeetingPolicy** Cmdlet 來控制使用者可以建立的會議類型、在會議中可存取的功能，以及匿名及外部使用者可以使用的會議功能。 以下是原則設定及建議值的清單。
 
-|原則名稱 |說明|建議值                   |
+|原則名稱 |描述|建議值                   |
 |-------------------|-----------------|-----------------------|
 |AllowPrivateMeetingScheduling  | 判斷是否允許使用者排程私人會議。| 設為 False，禁止使用者排程私人會議。  |
 |AllowChannelMeetingScheduling  | 判斷是否允許使用者排程頻道會議。 | 設為 False，禁止使用者排程頻道會議。                       |
@@ -165,13 +165,16 @@ ms.locfileid: "37570220"
 
 ### <a name="virtual-machine-requirements"></a>虛擬機器需求
 
+> [!NOTE]
+> 下列要求適用于團隊桌面應用程式和團隊 Web app。
+
 在虛擬化環境中，有各種不同的工作負載和使用者需求，以下是建議的最低 VM 配置。
 
 |參數  |單位  |
 |---------|---------|
 |vCPU    |  2個核心       |
 |RAM     |  4 GB      |
-|容量     | 8 GB       |
+|儲存空間     | 8 GB       |
 
 ### <a name="virtual-machine-operating-system-requirements"></a>虛擬機器作業系統需求
 
@@ -214,7 +217,7 @@ VM 支援的作業系統如下：
     - 套用本文所述的原則，會影響使用通話與會議功能（視其他原則而定）可能會影響貴組織中的其他使用者。 如果貴組織中的使用者使用非 VDI 用戶端，您可以選擇不套用原則。  
 
 - **加入由其他使用者所建立的通話與會議**：雖然原則限制使用者建立會議，但如果其他使用者從會議撥出會議，他們仍可加入會議。 在這些會議中，使用者共用影片的能力，使用白板和其他功能，取決於您是否使用 TeamsMeetingPolicy 停用這些功能。  
-- 快取的**內容**：如果團隊在其中執行的虛擬環境不是持續性（在每個使用者會話結束時都會清除資料），使用者可能會發現內容重新整理導致效能下降，不論使用者是否存取相同前一個會話中的內容。
+- 快取的**內容**：如果團隊在其中執行的虛擬環境不是持續性（在每個使用者會話結束時都會清除資料），使用者可能會發現內容重新整理導致效能下降，不論使用者是否已在前一個會話中存取相同的內容。
 - **用戶端更新**： VDI 上的團隊不會自動更新每電腦 MSI 安裝。 您必須安裝新的 MSI 來更新 VM 影像，如在 VDI 的 [[安裝小組](#install-teams-on-vdi)] 區段中所述。 您必須卸載目前的版本，才能更新為較新的版本。
 - **使用者體驗**： vdi 環境中的小組使用者體驗可能與非 VDI 環境不同。 差異可能是因為環境中的原則設定和/或功能支援。
 
