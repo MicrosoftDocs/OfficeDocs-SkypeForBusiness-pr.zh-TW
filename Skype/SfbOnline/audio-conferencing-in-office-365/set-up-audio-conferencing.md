@@ -23,24 +23,24 @@ ms.custom:
 - LIL_Placement
 description: '瞭解如何為您企業中需要使用手機加入電話會議的人員設定撥入或音訊會議。 '
 ms.openlocfilehash: 499a8a8ef05d23c74b030536d33b7a02cd6d9a1a
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
+ms.lasthandoff: 11/15/2019
 ms.locfileid: "37924974"
 ---
 # <a name="set-up-audio-conferencing-for-skype-for-business"></a>設定商務用 Skype 的音訊會議
 
 有時候貴組織中的人員必須使用電話撥入會議。 商務用 Skype 包括音訊會議功能，只適用于這種情況！ 使用者可以使用電話撥入商務用 Skype 會議，而不是在行動裝置或電腦上使用商務用 Skype 應用程式。 
   
-您只需要為規劃排程或領導會議的人員設定音訊會議。 在撥入的會議出席者不需要獲指派任何授權或其他設定。
+您只需要為打算排程或主持會議的人員設定音訊會議即可。 在撥入的會議出席者不需要獲指派任何授權或其他設定。
   
 如需音訊會議的常見問題，請參閱[音訊會議常見問題](/MicrosoftTeams/audio-conferencing-common-questions)。
 
 ## <a name="step-1-find-out-if-audio-conferencing-is-available-in-your-countryregion"></a>步驟1：瞭解您的國家/地區是否提供音訊會議
 <a name="__top"> </a>
 
-移至[適用于音訊會議與通話方案的國家和地區可用性](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)，然後選取您的國家或地區以取得音訊會議的可用性資訊，以及電話系統、通話方案、免付費電話和免付費電話的相關資訊。號碼和通訊點數。 
+移至 [國家/地區] 及 [[語音會議與通話方案](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)]，然後選取您的國家或地區，以取得音訊會議的可用性資訊，以及電話系統、通話方案、付費和免付費電話號碼的相關資訊，以及通訊點數。 
  
 ## <a name="step-2-get-and-assign-licenses"></a>步驟2：取得並指派授權
  

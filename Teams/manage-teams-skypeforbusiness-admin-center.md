@@ -20,10 +20,10 @@ appliesto:
 - Microsoft Teams
 - Skype for Business Online
 ms.openlocfilehash: 0d473ffa67b21c4ec3a160a8687a1688ea1d1cf5
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
+ms.lasthandoff: 11/15/2019
 ms.locfileid: "37570581"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>在轉換至新 Microsoft Teams 系統管理中心期間管理 Teams
@@ -53,27 +53,27 @@ ms.locfileid: "37570581"
 |自訂雲端儲存空間     |Google 磁片磁碟機        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Tenant         |
 |自訂雲端儲存空間     |ShareFile        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Tenant         |
 |依使用者/授權類型設定     |針對所有使用者開啟或關閉 Microsoft 團隊          |已棄用<sup>1</sup>        |         |
-|團隊和頻道     |         |重新導向至 Azure Active Directory 群組管理（與目前的體驗相同）。              |使用者名         |
-|團隊和頻道     |         |重定向至 AAD 群組管理（與目前的經驗相同）。             |使用者名          |
+|團隊和頻道     |         |重新導向至 Azure Active Directory 群組管理（與目前的體驗相同）。              |使用者         |
+|團隊和頻道     |         |重定向至 AAD 群組管理（與目前的經驗相同）。             |使用者          |
 |應用|預設啟用新的外部應用程式|整個組織內的應用程式設定|Tenant|
 |應用|允許外部應用程式|整個組織內的應用程式設定|Tenant|
-|應用|允許側載外部應用程式<sup>2</sup>|[TeamsAppSetupPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps)|使用者名|
-|應用|預設 app<sup>3</sup>|TeamsAppPermissionPolicy|使用者名|
-|應用|外部應用程式<sup>3</sup>|TeamsAppPermissionPolicy|使用者名|
-|通話與會議     |允許針對私人會議進行排程         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |使用者名          |
-|通話與會議     |允許點對點通道頻道         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |使用者名          |
-|通話與會議     |允許針對頻道會議進行排程         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |使用者名          |
-|通話與會議     |允許會議中的影片         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |使用者名          |
-|通話與會議     |允許在會議中共用螢幕         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |使用者名          |
-|通話與會議     |允許私人通話         |[TeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)        |使用者名          |
-|傳送     |啟用 Giphy，讓使用者可以在交談中新增 gif         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |使用者名         |
-|傳送     |內容分級         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |使用者名         |
-|傳送     |啟用使用者可以編輯及新增至交談的 meme         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |使用者名         |
-|傳送     |啟用使用者可以編輯及新增至交談的不乾膠標籤         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |使用者名         |
-|傳送     |允許擁有者刪除所有郵件         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |使用者名         |
-|傳送     |允許使用者編輯自己的郵件         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |使用者名         |
-|傳送     |允許使用者刪除自己的郵件         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |使用者名         |
-|傳送     |允許使用者私下聊天         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |使用者名         |
+|應用|允許側載外部應用程式<sup>2</sup>|[TeamsAppSetupPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps)|使用者|
+|應用|預設 app<sup>3</sup>|TeamsAppPermissionPolicy|使用者|
+|應用|外部應用程式<sup>3</sup>|TeamsAppPermissionPolicy|使用者|
+|通話與會議     |允許針對私人會議進行排程         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |使用者          |
+|通話與會議     |允許點對點通道頻道         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |使用者          |
+|通話與會議     |允許針對頻道會議進行排程         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |使用者          |
+|通話與會議     |允許會議中的影片         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |使用者          |
+|通話與會議     |允許在會議中共用螢幕         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |使用者          |
+|通話與會議     |允許私人通話         |[TeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)        |使用者          |
+|傳訊     |啟用 Giphy，讓使用者可以在交談中新增 gif         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |使用者         |
+|傳訊     |內容分級         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |使用者         |
+|傳訊     |啟用使用者可以編輯及新增至交談的 meme         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |使用者         |
+|傳訊     |啟用使用者可以編輯及新增至交談的不乾膠標籤         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |使用者         |
+|傳訊     |允許擁有者刪除所有郵件         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |使用者         |
+|傳訊     |允許使用者編輯自己的郵件         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |使用者         |
+|傳訊     |允許使用者刪除自己的郵件         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |使用者         |
+|傳訊     |允許使用者私下聊天         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |使用者         |
 
 <sup>1</sup>已過時的來賓。 您現在可以在 Microsoft 團隊系統管理中心管理啟用/停用來賓的功能。 啟用/停用商務用團隊企業、Edu 學生及 Edu 教職員將會在不久後過時。 您應該在 Microsoft 365 系統管理中心指派授權來加以管理。 請參閱[管理使用者對 Microsoft 團隊的存取權](user-access.md)。
 <br><br>
@@ -121,24 +121,24 @@ ms.locfileid: "37570581"
 
 |Microsoft 365 系統管理中心的團隊區段  |設定名稱（租使用者層級）  |Microsoft 團隊系統管理中心原則   |階層：租使用者或 User   |
 |---------|---------|---------|---------|  
-| 傳送  |擁有者可以刪除已傳送的郵件 |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | 使用者名 |
-| 傳送 | 使用者可以刪除已傳送的訊息 |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | 使用者名 |
-| 傳送  | 使用者可以編輯已傳送的郵件 |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)  |使用者名|
-| 傳送 | 允許使用者聊天 |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | 使用者名 |
-| 傳送 | 在交談中使用 Giphy | [TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | 使用者名 |
-| 傳送 | Giphy 內容評等 | [TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | 使用者名 |
-| 傳送 | 在交談中使用 meme  |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | 使用者名 |
-| 傳送 | 在交談中使用不乾膠標籤 |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | 使用者名 |
+| 傳訊  |擁有者可以刪除已傳送的郵件 |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | 使用者 |
+| 傳訊 | 使用者可以刪除已傳送的訊息 |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | 使用者 |
+| 傳訊  | 使用者可以編輯已傳送的郵件 |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)  |使用者|
+| 傳訊 | 允許使用者聊天 |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | 使用者 |
+| 傳訊 | 在交談中使用 Giphy | [TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | 使用者 |
+| 傳訊 | Giphy 內容評等 | [TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | 使用者 |
+| 傳訊 | 在交談中使用 meme  |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | 使用者 |
+| 傳訊 | 在交談中使用不乾膠標籤 |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | 使用者 |
 
 此外，以下是僅適用于 Microsoft [團隊管理中心] 的設定：
 
 |設定名稱 | Microsoft 團隊系統管理中心原則 | 階層：租使用者或 User
 |-------------|-------------------------------------|---------|
-|允許 URL 預覽 | [TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | 使用者名 |
-|允許使用者從群組聊天中移除使用者 |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | 使用者名 |
-|允許沉浸式閱讀程式查看郵件 |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)| 使用者名 |
-|允許使用者翻譯郵件 |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)| 使用者名 |
-|讀信回條 | [TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | 使用者名 |
-|使用者可以傳送優先順序通知 | [TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | 使用者名 |
-|語音訊息建立 |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmessagingpolicy?view=skype-ps)| 使用者名 |
-|在行動裝置上，顯示最近聊天上的最愛頻道 |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmessagingpolicy?view=skype-ps)| 使用者名 |
+|允許 URL 預覽 | [TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | 使用者 |
+|允許使用者從群組聊天中移除使用者 |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | 使用者 |
+|允許沉浸式閱讀程式查看郵件 |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)| 使用者 |
+|允許使用者翻譯郵件 |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)| 使用者 |
+|讀信回條 | [TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | 使用者 |
+|使用者可以傳送優先順序通知 | [TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | 使用者 |
+|語音訊息建立 |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmessagingpolicy?view=skype-ps)| 使用者 |
+|在行動裝置上，顯示最近聊天上的最愛頻道 |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmessagingpolicy?view=skype-ps)| 使用者 |

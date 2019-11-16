@@ -1,7 +1,7 @@
 ---
 title: 適用于團隊的電話和裝置
-ms.author: jambirk
-author: jambirk
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: dvank, kponnus
 ms.topic: article
@@ -18,12 +18,12 @@ ms.custom:
 - Skype for Business Certification
 - dn947482
 description: 針對 Microsoft 團隊認證的 IP 服務台與會議電話
-ms.openlocfilehash: 6025b8c3d3db84e085489f52407e4fc63f39b2eb
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 331c84e9a62b64a1fab33676c296c65f045b53ae
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37570198"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38675821"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Microsoft 團隊的 IP 手機認證
 
@@ -44,6 +44,7 @@ IP 電話認證計畫可確保使用經過驗證的手機和手機的客戶能�
 |電話模型|固件版本|發行日期 |
 |:---|:---|:---|
 |Audiocodes C450HD | C450HD_TEAMS_0. 225 | 2019年3月|
+|Audiocodes C448HD （僅限 CAP 模式） | C450HD_TEAMS_0. 225 | 2019年3月|
 |Crestron M100|2.3875.00068|2018年12月|
 |Crestron Flex UC-P100 & UC-T  | 58.15.91.6 |2019年1月|
 |Poly 組8500/8800 （僅適用于共用模式）| 5.9.0.10869|2019年6月|
@@ -51,7 +52,7 @@ IP 電話認證計畫可確保使用經過驗證的手機和手機的客戶能�
 |Yealink T55 | 58.15.0.36 |2019年5月|
 |Yealink CP 960 |73.15.0.20|2018年12月|
 |Yealink T58 & T56 系列 |58.15.0.20|2018年12月|
-||||
+
 
 如需這些裝置支援之功能的資訊，請參閱[Microsoft 團隊手機功能集](/MicrosoftTeams/phones-for-teams#microsoft-teams-phones-feature-set)。
 
@@ -63,10 +64,10 @@ Microsoft 團隊授權可以作為其[Office 365 訂閱](/MicrosoftTeams/Office-
 
 * * *
 
-如果您是尋找加入認證計畫的供應商，請參閱[如何加入](https://docs.microsoft.com/en-us/skypeforbusiness/certification/how-to-join)需求與可用的程式。
+如果您是尋找加入認證計畫的供應商，請參閱[如何加入](https://docs.microsoft.com/skypeforbusiness/certification/how-to-join)需求與可用的程式。
 
 ## <a name="additional-resources"></a>其他資源
 
 瞭解[商務用 Skype 和 Microsoft 團隊認證計畫](https://docs.microsoft.com/SkypeForBusiness/certification/overview)。
 
-[探索 Microsoft 團隊手機和認證裝置。](https://products.office.com/en-us/microsoft-teams/across-devices/devices)
+[探索 Microsoft 團隊手機和認證裝置。](https://products.office.com/microsoft-teams/across-devices/devices)

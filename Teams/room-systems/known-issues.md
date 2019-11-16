@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: 本文將討論 Microsoft 團隊聊天室的已知問題（依功能區域）。
-ms.openlocfilehash: 79bebf69c0d4fc8dabff3e294166e7ab08b79166
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 56d740cce8960e16e04fffc55bf96b46e3128a0c
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571386"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38675427"
 ---
 # <a name="known-issues"></a>已知問題 
  
@@ -37,14 +37,14 @@ ms.locfileid: "37571386"
 
 | 問題標題 |  行為\/症狀 | 已知的解決方法 | 知識庫文章 |
 |  ---        |      ---             |   ---            | --- |
-|找不到虛擬鍵盤   | 當您需要在 Microsoft 團隊聊天室中輸入資訊時，不會顯示虛擬鍵盤。 此問題會在 Windows 10 創意者更新（版本1703）安裝于 Microsoft 團隊聊天室正在執行的 Surface Pro 4 上。 | 若要解決此問題，請手動開啟虛擬鍵盤。 若要這樣做，請執行下列步驟：<br><br> **1.** 敲擊並按住工作列，然後按 [**顯示觸控式鍵盤**] 按鈕。 鍵盤圖示應該出現在工作列的右側。 <br><br> **2.** 輕觸鍵盤圖示以開啟虛擬鍵盤。 | [KB4037694](https://support.microsoft.com/en-us/help/4037694/virtual-keyboard-missing-in-skype-room-systems-v2) | 
+|找不到虛擬鍵盤   | 當您需要在 Microsoft 團隊聊天室中輸入資訊時，不會顯示虛擬鍵盤。 此問題會在 Windows 10 創意者更新（版本1703）安裝于 Microsoft 團隊聊天室正在執行的 Surface Pro 4 上。 | 若要解決此問題，請手動開啟虛擬鍵盤。 若要這樣做，請執行下列步驟：<br><br> **1.** 敲擊並按住工作列，然後按 [**顯示觸控式鍵盤**] 按鈕。 鍵盤圖示應該出現在工作列的右側。 <br><br> **2.** 輕觸鍵盤圖示以開啟虛擬鍵盤。 | [KB4037694](https://support.microsoft.com/help/4037694/virtual-keyboard-missing-in-skype-room-systems-v2) | 
 
 <a name="Hardware"> </a>  
 ## <a name="hardware"></a>硬體
 
 | 問題標題 |  行為\/症狀 | 已知的解決方法 | 知識庫文章 |
 |  ---        |      ---             |   ---            |   --- |
-| 未偵測到監視器 | 當您在 Surface Pro （模型2017）裝置上執行 Microsoft 團隊聊天室時，系統不會偵測到監視器。 |  按住 Surface Pro 電源按鈕20秒以上的時間。 當您這麼做時，裝置會重新開機並清除圖形快取。 |[KB4055681](https://support.microsoft.com/en-us/help/4055681/monitors-are-not-detected-when-you-run-skype-room-systems-on-a-surface)       | 
+| 未偵測到監視器 | 當您在 Surface Pro （模型2017）裝置上執行 Microsoft 團隊聊天室時，系統不會偵測到監視器。 |  按住 Surface Pro 電源按鈕20秒以上的時間。 當您這麼做時，裝置會重新開機並清除圖形快取。 |[KB4055681](https://support.microsoft.com/help/4055681/monitors-are-not-detected-when-you-run-skype-room-systems-on-a-surface)       | 
 
 <a name="Limits"> </a>
 ## <a name="limitations-and-expected-behaviors"></a>限制與預期行為
@@ -75,6 +75,6 @@ Microsoft [團隊會議室] 是一個多視窗應用程式，且需要將房間�
 <a name="See"> </a>  
 ## <a name="see-also"></a>另請參閱
 
-[Microsoft 團隊聊天室說明](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+[Microsoft 團隊聊天室說明](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 [管理 Microsoft 團隊聊天室](skype-room-systems-v2.md)

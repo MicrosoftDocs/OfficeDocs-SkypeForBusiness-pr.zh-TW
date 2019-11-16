@@ -19,10 +19,10 @@ ms.custom:
 - LIL_Placement
 description: 瞭解附加元件授權、您可以使用每個授權所取得的功能、如何為您的產品購買，以及如何將您現有的運營商與他們搭配使用。 您可以取得 Office 365、通訊點數和通話方案的定價與方案詳細資料。
 ms.openlocfilehash: 6b3f850980db71e1347802dd0ab59c38c46e4ebc
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
+ms.lasthandoff: 11/15/2019
 ms.locfileid: "37571199"
 ---
 # <a name="microsoft-teams-add-on-licensing"></a>Microsoft 團隊附加元件授權
@@ -49,7 +49,7 @@ Microsoft 團隊授權是專為您提供最大限度的彈性。 例如，在一
 
 |||
 |:-----|:-----|
-|**功能** <br/> |**說明** <br/> |
+|**功能** <br/> |**描述** <br/> |
 |**音訊會議** <br/> |有時候貴組織中的人員必須使用電話撥入團隊會議，而不是使用其電腦。 在這種情況下，請使用 [音訊會議] 功能。  <br/> 若要瞭解您的國家或地區是否有可用的音訊會議，請參閱[音訊會議與通話方案的國家/地區可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。 <br/> 如果您要尋找多少成本，請參閱[音訊會議的價格](https://products.office.com/microsoft-teams/online-meeting-solutions)。  <br/> |
 |**您的會議撥入存取的免費電話號碼，以及從會議撥出的電話號碼，透過撥打世界各地的任何電話號碼來新增人員** <br/> |如果您要新增音訊會議，建議您[設定通訊點數](../set-up-communications-credits-for-your-organization.md)。 <br/> |
 |**電話系統** <br/> |PBX 是企業中的電話系統。 Office 365 中的 [電話系統] 是託管電話語音。 它提供傳統與創新的 PBX 功能，但沒有複雜且昂貴的裝置。 [以下是您在 Office 365 中使用電話系統所取得的內容](../here-s-what-you-get-with-phone-system.md)。  <br/> 如果您要尋找多少成本，請參閱[電話系統](https://products.office.com/microsoft-teams/voice-calling)。  <br/> |
@@ -66,9 +66,9 @@ Microsoft 團隊授權是專為您提供最大限度的彈性。 例如，在一
 - [Office 365 專業增強版](office-365-premium-pro-plus.md)
 - [Office 365 企業版 E1 或 E3](office-365-enterprise-e1-e3.md)
 - [Office 365 企業版 E5](office-365-enterprise-e5-with-audio-conferencing.md)
-- [Office 365 企業版 E5 （不含音訊會議）](office-365-enterprise-e5-without-audio-conferencing.md)
+- [Office 365 企業版 E5 (不含音訊會議)](office-365-enterprise-e5-without-audio-conferencing.md)
 - [Microsoft Teams 會議室](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
-- [.GOV、EDU 和非盈利性組織](gov-edu-and-nonprofit-organizations.md)
+- [政府機關、教育界和非營利組織](gov-edu-and-nonprofit-organizations.md)
 
 ## <a name="how-to-see-prices-and-buy-add-on-licenses"></a>如何查看價格及購買附加元件授權
 <a name="bkmk_how"> </a>
@@ -94,7 +94,7 @@ If you want to use your existing Calling Plan, buy the **Phone System** add-on a
 
 - [設定團隊](../microsoft-teams.md)
     
-- [設定雲端語音信箱-系統管理協助](../set-up-phone-system-voicemail.md)
+- [設定雲端語音信箱 - 系統管理說明](../set-up-phone-system-voicemail.md)
     
 - [Office 365 通話方案](../calling-plans-for-office-365.md)及[設定通話方案](../set-up-calling-plans.md)
     

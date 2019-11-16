@@ -16,10 +16,10 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 5c6e2d8cfb4e3932d4559a5c5c7b618189da7e57
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
+ms.lasthandoff: 11/15/2019
 ms.locfileid: "37572055"
 ---
 # <a name="installing-the-moodle-integration-with-microsoft-teams"></a>安裝 Moodle 整合與 Microsoft 團隊
@@ -151,7 +151,7 @@ Microsoft 團隊的免費 Moodle 小幫手 Bot 可協助教師與學生在 Moodl
 1. 按一下 [**產生新密碼**] 按鈕。 複製產生的密碼，並將它貼到 [**小組設定**] 頁面上的 [ **Bot 應用程式密碼**] 欄位。
 1. 滾動至表單底部，然後按一下 [**儲存變更**]。
 
-現在您已經產生您的應用程式識別碼和密碼，就可以開始將您的機器人部署到 Azure 了。 按一下 [**部署到 Azure** ] 按鈕，然後使用必要的資訊（Bot 應用程式識別碼、Bot 應用程式密碼及 Moodle 密碼）填寫表單，並**在 [** **設定**] 頁面上輸入 Azure 資訊。. 填寫完表單後，請按一下核取方塊以接受條款與條件，然後按一下 [**購買**] 按鈕（所有 Azure 資源都會部署至免費層）。
+現在您已經產生您的應用程式識別碼和密碼，就可以開始將您的機器人部署到 Azure 了。 按一下 [**部署到 Azure** ] 按鈕，然後使用必要資訊（Bot 應用程式識別碼、Bot 應用程式密碼及 Moodle 密碼）填寫表單，並在 **[** **設定**] 頁面上輸入 Azure 資訊。 填寫完表單後，請按一下核取方塊以接受條款與條件，然後按一下 [**購買**] 按鈕（所有 Azure 資源都會部署至免費層）。
 
 完成資源部署至 Azure 之後，您必須使用它的訊息端點來設定 Office 365 Moodle 外掛程式。 首先，您必須從 Azure 中的 Bot 取得端點。 若要執行此動作：
 

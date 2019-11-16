@@ -17,10 +17,10 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 5fc8d5bc41f7cf7a28140b30dd4a488c05b9b876
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
+ms.lasthandoff: 11/15/2019
 ms.locfileid: "37569837"
 ---
 <a name="office-365-urls-and-ip-address-ranges"></a>Office 365 URL 與 IP 位址範圍
@@ -32,4 +32,4 @@ ms.locfileid: "37569837"
 
 針對所有的 Office 365 工作負載，建議的 [團隊服務] 連線方法是在可能的情況下略過轉寄 proxy。 當 proxy 伺服器位於用戶端與 Office 365 資料中心時，媒體可能會受到 TCP （而不是 UDP）的影響，而不會影響媒體質量。 下載範例 proxy PAC 檔案，這些檔案可用來設定從[管理 Office 365 端點](https://support.office.com/article/99cab9d4-ef59-4207-9f2b-3728eb46bf9a)到繞過流量旁路的情況。
 
-如果您的網路和安全性原則需要 Office 365 流量來流過 proxy 伺服器，請務必先滿足上述需求，然後再將團隊部署到生產環境（查看[小組或商務用 Skype Online 的 Proxy 伺服器）。](proxy-servers-for-skype-for-business-online.md)以取得指導方針）。
+如果您的網路和安全性原則需要 Office 365 流量來流過 proxy 伺服器，請務必先滿足上述需求，然後再將團隊部署到生產環境中（[請查看小組的 Proxy 伺服器或商務用 Skype Online](proxy-servers-for-skype-for-business-online.md)以取得指導方針）。

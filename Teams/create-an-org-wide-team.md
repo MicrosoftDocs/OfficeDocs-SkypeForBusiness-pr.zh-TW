@@ -15,10 +15,10 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: db7caa3879e016b6e8453ad151785578d2391dd1
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
+ms.lasthandoff: 11/15/2019
 ms.locfileid: "37516647"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>在 Microsoft 團隊中建立組織範圍的小組
@@ -46,7 +46,7 @@ ms.locfileid: "37516647"
 > - 不屬於會議室清單、裝置和資源帳戶的會議室，可能會新增或同步處理到整個組織的小組。 小組擁有者可以輕鬆地將這些帳戶從小組中移除。
 > - 系統會在 [一般] 頻道中張貼系統中要新增或移除成員的所有動作。 該頻道也會標示為在團隊用戶端中擁有新活動。
 
-## <a name="best-practices"></a>最佳做法
+## <a name="best-practices"></a>最佳作法
 
 若要充分發揮整個組織的小組，我們建議小組擁有者執行下列操作。
 
@@ -74,7 +74,7 @@ ms.locfileid: "37516647"
 
 ### <a name="is-there-a-way-to-create-an-org-wide-team-other-than-using-the-teams-client"></a>是否有任何方式可以使用團隊用戶端來建立組織範圍以外的團隊？
 
-全域管理員只能使用 [團隊用戶端] 來建立組織範圍的小組。 如果您的組織限制建立團隊使用 PowerShell，建議的解決方法是將您的全域管理員新增至可建立小組的使用者安全性群組。 如需詳細資訊，請參閱[管理可建立 Office 365 群組的人員](https://docs.microsoft.com/office365/admin/create-groups/manage-creation-of-groups)。
+全域管理員只能使用 [團隊用戶端] 來建立組織範圍的小組。 如果您的組織限制建立團隊使用 PowerShell，建議的解決方法是將您的全域管理員新增至可建立小組的使用者安全性群組。 如需詳細資訊，請參閱[管理能建立 Office 365 群組的使用者](https://docs.microsoft.com/office365/admin/create-groups/manage-creation-of-groups) (英文)。
 
 如果這不是選項，您可以使用 PowerShell 建立公開團隊，並將全域管理員新增為團隊擁有者。 接著，讓全域管理員按一下團隊名稱旁的 [**更多選項**]，按一下 [**編輯團隊**]，然後將隱私權變更為 [**全組織性]-您組織中的所有人都會自動新增**。 請注意，只有團隊擁有者可以存取 [**編輯團隊**] 選項，而且只有全域管理員才能看到**整個組織**的選項。
 

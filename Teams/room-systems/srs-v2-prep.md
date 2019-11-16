@@ -13,12 +13,12 @@ ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection:
 - M365-collaboration
 description: 本文說明部署 Microsoft 團隊聊天室的基礎結構準備。
-ms.openlocfilehash: ada7a7f018d5fb3882a686505488998763c33faf
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: b7bc3b7791edf88fd6882b67cdaa7d9b65e87741
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573547"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38675801"
 ---
 # <a name="prepare-your-environment"></a>準備您的環境
 
@@ -53,7 +53,7 @@ ms.locfileid: "37573547"
 - 存取您的 Active Directory 或 Azure Active Directory （Azure AD）實例，以及您的 Microsoft Exchange 與商務用 Skype 伺服器。
 - 存取可使用 DHCP 提供 IP 位址的伺服器。 Microsoft 球隊會議室不能使用靜態 IP 位址進行設定。
 - 存取 HTTP 埠80和443。
-- TCP 和 UDP 埠設定為適用于內部部署商務用 Skype Server 實現的[伺服器埠與通訊協定需求](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols)，或是 Microsoft 團隊或商務用 Skype Online 的[Office 365 url 與 IP 位址範圍](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)本身.
+- TCP 和 UDP 埠已設定為在[伺服器的埠與通訊協定需求](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols)中所述，適用于 Microsoft 團隊或商務用 skype online 實現的[Office 365 url 和 IP 位址範圍](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)。
 
 > [!IMPORTANT]
 > 請務必使用有線 1 Gbps 網路連線，以確保您會有所需的頻寬。
@@ -75,16 +75,16 @@ ms.locfileid: "37573547"
 Microsoft 團隊聊天室是設計來從 Windows 作業系統繼承 Proxy 設定。 以下列方式存取 Windows 作業系統：
   
 1. 在 Microsoft [團隊聊天室] UI 中，按一下 [設定] 齒輪圖示，系統會在此提示您在裝置上提供本機系統管理員密碼（預設密碼為**sfb**）。
-2. 按一下 [**設定**]，然後敲擊 [**移至 Windows** ] 按鈕，然後按 [**移**至系統管理員登入] 按鈕，然後按一下 [**管理員**] 按鈕（如果電腦已加入網域，請選擇 [**其他使用者]，** 然後使用.\admin 為使用者名稱）。
+2. 按一下 [**設定**]，然後敲擊 [**移至 Windows** ] 按鈕，然後按 [**移**至系統管理員登入] 按鈕，然後按一下 [**管理員**] 按鈕（如果電腦已加入網域，請選擇 [**其他使用者]，** 然後使用 .\admin 做為使用者名稱）。
 3. 在 regedit 中的 [**搜尋 Windows** ] 方塊的左下方類型（長按畫面或按一下滑鼠右鍵，然後選擇 [**以系統管理員身分執行**]）。
-4. 按一下 [HKEY_USERS] 資料夾（您會看到一份電腦使用者 Sid 清單），確保已選取 [根資料夾 HKEY_USERS]。
+4. 按一下 [HKEY_USERS] 資料夾（您會看到一份電腦使用者 Sid 清單），確保已選取 [根資料夾] HKEY_USERS。
        
 5. 按一下 [檔案]，然後選擇 [**載入 Hive]。**
 6. 流覽至 [ **C:\Users\Skype** ] 資料夾，然後在 [檔案名] 方塊中輸入 NTUSER，然後按 [開啟] 按鈕
 
 7. 系統會提示您輸入新載入的配置單元的索引鍵名;在 Skype 中輸入（您現在應該會看到 Skype 使用者的登錄設定）。
  
-8. 開啟 Skype 金鑰並流覽至 [HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet 設定]，然後確保已輸入這些設定： 
+8. 開啟 Skype 金鑰並流覽至 [HKEY_USERS \Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet 設定]，然後確保輸入這些設定： 
     
     `[HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings]`
     
@@ -108,17 +108,17 @@ Microsoft 團隊聊天室是設計來從 Windows 作業系統繼承 Proxy 設定
 
 |特殊|來源或認證|來源埠|目的地|CDN|適用于 Office 365 的 ExpressRoute|目的地 IP|目的地埠|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|驗證與身分識別  <br/> |請參閱[Office 365 驗證與身分識別](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Identity) <br/> |||
-|入口網站與共享  <br/> |請參閱[Office 365 入口網站與共享](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Portal-identity) <br/> |||
-|SIP 信號  <br/> |用戶端電腦或登入的使用者  <br/> |暫時埠  <br/> |\*. contoso.com  <br/> |不  <br/> |是的  <br/> |[商務用 Skype IP 範圍](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
-|持續性共用物件模型（PSOM）連線 web 會議  <br/> |用戶端電腦或登入的使用者  <br/> |暫時埠  <br/> |\*. contoso.com  <br/> |不  <br/> |是的  <br/> |[商務用 Skype IP 範圍](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
-|HTTPS 下載  <br/> |用戶端電腦或登入的使用者  <br/> |暫時埠  <br/> |\*. contoso.com  <br/> |不  <br/> |是的  <br/> |[商務用 Skype IP 範圍](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
-|音訊  <br/> |用戶端電腦或登入的使用者  <br/> |TCP/UDP 50000-50019  <br/> |\*. contoso.com  <br/> |不  <br/> |是的  <br/> |[商務用 Skype IP 範圍](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443、UDP 3478、TCP/UDP 50000-59999  <br/> |
-|顯示器  <br/> |用戶端電腦或登入的使用者  <br/> |TCP/UDP 50020-50039  <br/> |\*. contoso.com  <br/> |不  <br/> |是的  <br/> |[商務用 Skype IP 範圍](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443、UDP 3478、TCP/UDP 50000-59999  <br/> |
-|桌面共用  <br/> |用戶端電腦或登入的使用者  <br/> |TCP/UDP 50040-50059  <br/> |\*. contoso.com  <br/> |不  <br/> |是的  <br/> |[商務用 Skype IP 範圍](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443，50000-59999  <br/> |
-|在 iOS 裝置上 Lync mobile 2010 的 lync Mobile 推播通知。 您不需要 Android、Nokia Symbian 或 Windows Phone 行動裝置。  <br/> |用戶端電腦或登入的使用者  <br/> |暫時埠  <br/> |\*. contoso.com  <br/> |不  <br/> |是的  <br/> |[商務用 Skype IP 範圍](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 5223  <br/> |
-|Skype 遙測  <br/> |用戶端電腦或登入的使用者  <br/> |暫時埠  <br/> |skypemaprdsitus.trafficmanager.net  <br/> pipe.skype.com  <br/> |不  <br/> |不  <br/> |N/A  <br/> |TCP 443  <br/> |
-|Skype 用戶端快速提示  <br/> |用戶端電腦或登入的使用者  <br/> |暫時埠  <br/> |quicktips.skypeforbusiness.com  <br/> |不  <br/> |不  <br/> |N/A  <br/> |TCP 443  <br/> |
+|驗證與身分識別  <br/> |請參閱[Office 365 驗證與身分識別](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Identity) <br/> |||
+|入口網站與共享  <br/> |請參閱[Office 365 入口網站與共享](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Portal-identity) <br/> |||
+|SIP 信號  <br/> |用戶端電腦或登入的使用者  <br/> |暫時埠  <br/> |\*. contoso.com  <br/> |否  <br/> |是  <br/> |[商務用 Skype IP 範圍](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
+|持續性共用物件模型（PSOM）連線 web 會議  <br/> |用戶端電腦或登入的使用者  <br/> |暫時埠  <br/> |\*. contoso.com  <br/> |否  <br/> |是  <br/> |[商務用 Skype IP 範圍](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
+|HTTPS 下載  <br/> |用戶端電腦或登入的使用者  <br/> |暫時埠  <br/> |\*. contoso.com  <br/> |否  <br/> |是  <br/> |[商務用 Skype IP 範圍](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
+|音訊  <br/> |用戶端電腦或登入的使用者  <br/> |TCP/UDP 50000-50019  <br/> |\*. contoso.com  <br/> |否  <br/> |是  <br/> |[商務用 Skype IP 範圍](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443、UDP 3478、TCP/UDP 50000-59999  <br/> |
+|顯示器  <br/> |用戶端電腦或登入的使用者  <br/> |TCP/UDP 50020-50039  <br/> |\*. contoso.com  <br/> |否  <br/> |是  <br/> |[商務用 Skype IP 範圍](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443、UDP 3478、TCP/UDP 50000-59999  <br/> |
+|桌面共用  <br/> |用戶端電腦或登入的使用者  <br/> |TCP/UDP 50040-50059  <br/> |\*. contoso.com  <br/> |否  <br/> |是  <br/> |[商務用 Skype IP 範圍](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443，50000-59999  <br/> |
+|在 iOS 裝置上 Lync mobile 2010 的 lync Mobile 推播通知。 您不需要 Android、Nokia Symbian 或 Windows Phone 行動裝置。  <br/> |用戶端電腦或登入的使用者  <br/> |暫時埠  <br/> |\*. contoso.com  <br/> |否  <br/> |是  <br/> |[商務用 Skype IP 範圍](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 5223  <br/> |
+|Skype 遙測  <br/> |用戶端電腦或登入的使用者  <br/> |暫時埠  <br/> |skypemaprdsitus.trafficmanager.net  <br/> pipe.skype.com  <br/> |否  <br/> |否  <br/> |不適用  <br/> |TCP 443  <br/> |
+|Skype 用戶端快速提示  <br/> |用戶端電腦或登入的使用者  <br/> |暫時埠  <br/> |quicktips.skypeforbusiness.com  <br/> |否  <br/> |否  <br/> |不適用  <br/> |TCP 443  <br/> |
 
 > [!NOTE]
 > Contoso.com 和 broadcast.skype.com 的萬用字元代表一份較長的節點清單，專門供 Office 365 使用。 

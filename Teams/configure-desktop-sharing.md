@@ -15,10 +15,10 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 99c6e2a5adb9d0f9a4b4e3f6f17b7484bda96a74
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
+ms.lasthandoff: 11/15/2019
 ms.locfileid: "37516883"
 ---
 <a name="configure-desktop-sharing-in-microsoft-teams"></a>在 Microsoft 團隊中設定桌面共用
@@ -62,7 +62,7 @@ ms.locfileid: "37516883"
 
 您也可以使用[CsTeamsMeetingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) Cmdlet 來控制桌面共用。 設定下列參數：
 
-- 說明
+- 描述
 - ScreenSharingMode
 - AllowParticipantGiveRequestControl
 - AllowExternalParticipantGiveRequestControl

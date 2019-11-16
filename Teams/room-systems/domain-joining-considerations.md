@@ -1,7 +1,7 @@
 ---
 title: Skype 會議室系統網域加入考慮
-ms.author: jambirk
-author: jambirk
+ms.author: dstrome
+author: dstrome
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -12,12 +12,12 @@ ms.assetid: 3034fdcb-7c89-42c4-9c5e-13400e82d88f
 ms.collection:
 - M365-collaboration
 description: 若要瞭解如何將 Skype 會議室系統裝置電腦加入您的網域，請閱讀本主題。
-ms.openlocfilehash: 078bbf06496dcb5216e4e659bf6628d5791dad46
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: d6002174e067152b1aefee45899e291063f19853
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571397"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38675397"
 ---
 <!-- This asset missed in the rebrand, and honestly not sure if it's worth keeping.   -->
 
@@ -60,6 +60,6 @@ Add-Computer -DomainName contoso.local -Credential $mycred -OUPath "OU=LyncRoomS
 
 ## <a name="see-also"></a>另請參閱
   
-[裝置設定：建立新的或編輯現有](/skypeforbusiness/help-topics/help-lscp/device-configuration-create-new-or-edit-existing.md)
+[裝置組態：建立新的或編輯現有組態](/skypeforbusiness/help-topics/help-lscp/device-configuration-create-new-or-edit-existing.md)
 
 [管理服務品質](/skypeforbusiness/plan-your-deployment/network-requirements/network-requirements.#managing-quality-of-service)

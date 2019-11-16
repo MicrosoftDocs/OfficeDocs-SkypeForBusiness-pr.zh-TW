@@ -12,12 +12,12 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 description: 本文討論如何使用 Microsoft 團隊聊天室的 [恢復工具]，讓您用來將已過期的系統變成受支援的狀態。
-ms.openlocfilehash: 04fd6b4b0786cffb4f1bb050a7b0bbdac8e2e653
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: bc35dc744dac5f04d537f023e790bc89c2c649d0
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573646"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38675347"
 ---
 # <a name="use-the-microsoft-teams-rooms-recovery-tool"></a>使用 Microsoft 團隊會議室恢復工具
  
@@ -65,6 +65,6 @@ ms.locfileid: "37573646"
 <a name="See"> </a>  
 ## <a name="see-also"></a>另請參閱
  
-[Microsoft 團隊聊天室說明](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+[Microsoft 團隊聊天室說明](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 [管理 Microsoft 團隊聊天室](skype-room-systems-v2.md)

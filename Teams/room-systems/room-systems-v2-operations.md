@@ -12,12 +12,12 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 description: 請閱讀本主題，以瞭解 Microsoft 團隊聊天室（即新一代 Skype 房間系統）的管理。
-ms.openlocfilehash: c764490df9912ca464b1f11d56a2cb376b96c388
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 003ede11615e42ec120d618f0a732df58d10f452
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573602"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38675337"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft 團隊會議室維護和作業 
  
@@ -25,7 +25,7 @@ ms.locfileid: "37573602"
   
 Microsoft [團隊聊天室] 是 Microsoft 的最新會議解決方案，旨在將您的會議室轉換為豐富且共同合作的體驗。 使用者將享有其熟悉的 Microsoft 團隊或商務用 Skype 介面，IT 系統管理員會欣賞輕鬆部署和管理的 Windows 10 Skype 會議應用程式。 Microsoft [團隊聊天室] 的設計目的是利用 LCD 面板等現有的裝置，輕鬆安裝，讓 Microsoft 團隊或商務用 Skype 融入會議室。
   
-有了其他設定，就可以使用 Microsoft Azure 監視器進行遠端系統管理，如在使用[Azure 監視器規劃 Microsoft 團隊聊天室管理](azure-monitor-plan.md)中所述，使用[Azure 監視器部署 microsoft 團隊聊天室](azure-monitor-deploy.md)管理、[管理使用 Azure 監視器的 Microsoft 團隊聊天室裝置](azure-monitor-deploy.md)。 您也可以[使用 XML 設定檔來遠端系統管理 Microsoft 團隊聊天室的主控台設定](xml-config-file.md)，包括套用自訂顯示主題。 
+有了其他設定，就可以使用 Microsoft Azure 監視器進行遠端系統管理，如在[使用 Azure 監視器規劃 Microsoft 團隊聊天室管理](azure-monitor-plan.md)中所述，使用 azure 監視器[部署](azure-monitor-deploy.md)microsoft 團隊聊天室管理，[並使用 Azure 監視器管理 microsoft 團隊機房裝置](azure-monitor-deploy.md)。 您也可以[使用 XML 設定檔來遠端系統管理 Microsoft 團隊聊天室的主控台設定](xml-config-file.md)，包括套用自訂顯示主題。 
   
 ## <a name="collecting-logs-on-microsoft-teams-rooms"></a>在 Microsoft 團隊聊天室收集記錄
 <a name="Logs"> </a>
@@ -44,7 +44,7 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 將會議室的正面顯示設定為 [延伸] 模式。 如此一來，就能確保當您重新開啟電源時，系統不會在該顯示器上複製主控台 UI。
   
 > [!NOTE]
-> 如果您希望在來源從待機模式喚醒時自動切換到活動影片來源（例如 MTR 主控台），必須符合某些條件。 此功能是選擇性的，但 Microsoft 團隊聊天室軟體支援，提供基礎硬體支援此功能。 在房間顯示中使用的消費者電視需要支援 HDMI 的消費電子產品控制（CEC）功能。  根據所選的 dock 或 console （可能不支援 CEC，請參閱製造商支援檔），從 Extron 的 Crestron 或[EXTRON HD CTL 100](https://www.extron.com/article/hdctl100ad) （例如[HD RX-201-E-E](https://www.crestron.com/en-US/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) ）中，可能需要啟用所需的控制器。行為. 
+> 如果您希望在來源從待機模式喚醒時自動切換到活動影片來源（例如 MTR 主控台），必須符合某些條件。 此功能是選擇性的，但 Microsoft 團隊聊天室軟體支援，提供基礎硬體支援此功能。 在房間顯示中使用的消費者電視需要支援 HDMI 的消費電子產品控制（CEC）功能。  根據所選的 dock 或主機（可能不支援 CEC，請參閱製造商支援檔），從 Extron Crestron 或[EXTRON HD CTL 100](https://www.extron.com/article/hdctl100ad)中的一個控制器（例如，可能需要從的[hd RX-201-E-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) ）來啟用所需的行為。 
   
 ## <a name="microsoft-teams-rooms-reset-factory-restore"></a>Microsoft 團隊會議室重設（工廠還原）
 <a name="Reset"> </a>
@@ -167,7 +167,7 @@ Copy-Item $movefile $targetDevice
   
 根據預設，Microsoft 球隊聊天室會連線至 Windows Update，以檢索作業系統和 USB 週邊裝置固件更新，並將其安裝在已設定的商務時間以外。 您可以登入管理員帳戶並執行 [設定] 應用程式，來設定上班時間。
   
-如果您想要手動管理更新，且無法遵循[Microsoft Store For Business](https://businessstore.microsoft.com/store) [發佈離線 app](https://docs.microsoft.com/microsoft-store/distribute-offline-apps)的一般程式，您可以從[部署套件](https://go.microsoft.com/fwlink/?linkid=851168)取得適當的 APPX 檔案和相依性（從設定可搭配 SCCM 使用的[Microsoft 團隊聊天室主控台](console.md)的指示。 部署套件版本滯後于商店發行版本本，因此可能不一定會與最新的可用組建相符。
+如果您想要手動管理更新，且無法遵循[Microsoft 網上商店 For Business](https://businessstore.microsoft.com/store) [發佈離線 app](https://docs.microsoft.com/microsoft-store/distribute-offline-apps)的一般程式，您可以從[部署套件](https://go.microsoft.com/fwlink/?linkid=851168)取得適當的 APPX 檔案和相依性（從指示[設定 Microsoft 團隊聊天室主控台](console.md)），可與 SCCM 搭配使用。 部署套件版本滯後于商店發行版本本，因此可能不一定會與最新的可用組建相符。
   
 ### <a name="to-update-using-powershell"></a>使用 Powershell 更新
 

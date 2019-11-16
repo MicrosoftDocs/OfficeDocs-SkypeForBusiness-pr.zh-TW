@@ -15,10 +15,10 @@ appliesto:
 - Microsoft Teams
 description: 瞭解從商務用 Skype Online 和團隊設定觀點來決定要從商務用 Skype 移植所需的專案。
 ms.openlocfilehash: 9fb644c938c61fd9dd1c78362ad90bfe855e97ec
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
+ms.lasthandoff: 11/15/2019
 ms.locfileid: "37572176"
 ---
 # <a name="migrate-to-direct-routing"></a>移轉至直接路由
@@ -38,8 +38,8 @@ ms.locfileid: "37572176"
 
 |使用者物件屬性 |含有通話方案的電話系統|具有內部部署 PSTN 連線的電話系統（透過商務用 Skype Server）|具有內部部署 PSTN 連線的電話系統（透過雲端連接器）|具有內部部署 PSTN 連線的電話系統（透過直接路由）|
 |---|---|---|---|---|
-|端|商務用 Skype 或團隊 |商務用 Skype |商務用 Skype |協同|
-|許可證|商務用 Skype Online</br>方案2</br></br>MCOProfessional 或 MCOSTANDARD）</br></br></br>電話系統（MCOEV）</br></br></br>通話方案</br>協同|商務用 Skype Online 方案2（MCOProfessional 或 MCOSTANDARD）</br></br></br>電話系統（MCOEV）|商務用 Skype Online 方案2（MCOProfessional 或 MCOSTANDARD）</br></br></br>電話系統（MCOEV）|商務用 Skype Online 方案2（MCOProfessional 或 MCOSTANDARD</br></br></br>電話系統（MCOEV）</br></br>協同|
+|端|商務用 Skype 或團隊 |商務用 Skype |商務用 Skype |團隊|
+|許可證|商務用 Skype Online</br>方案2</br></br>MCOProfessional 或 MCOSTANDARD）</br></br></br>電話系統（MCOEV）</br></br></br>通話方案</br>團隊|商務用 Skype Online 方案2（MCOProfessional 或 MCOSTANDARD）</br></br></br>電話系統（MCOEV）|商務用 Skype Online 方案2（MCOProfessional 或 MCOSTANDARD）</br></br></br>電話系統（MCOEV）|商務用 Skype Online 方案2（MCOProfessional 或 MCOSTANDARD</br></br></br>電話系統（MCOEV）</br></br>團隊|
 OnPremLineURI |不適用|電話號碼必須從內部部署的 AD 進行同步處理。 |您可以在內部部署的 Active Directory 或 Azure Active Directory 中管理電話號碼。|您可以在內部部署的 Active Directory 或 Azure Active Directory 中管理電話號碼。 不過，如果組織有內部部署商務用 Skype，該號碼必須從內部部署的 Active Directory 進行同步處理。|
 |LineURI|PSTN 電話號碼|從 OnPremLineURI 參數自動設定|從 OnPremLineURI 參數自動設定|從 OnPremLineURI 參數自動設定|
 |EnterpriseVoiceEnabled|滿足|滿足|滿足|滿足|

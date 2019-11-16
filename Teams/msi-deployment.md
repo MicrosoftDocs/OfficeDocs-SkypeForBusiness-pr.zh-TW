@@ -15,10 +15,10 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 0b80b82a89fc162e33263c784480f619dcd5cf32
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
+ms.lasthandoff: 11/15/2019
 ms.locfileid: "37573371"
 ---
 <a name="install-microsoft-teams-using-msi"></a>使用 MSI 安裝 Microsoft 團隊
@@ -27,7 +27,7 @@ ms.locfileid: "37573371"
 > [!Tip]
 > 請觀看下列會話，瞭解 Windows 桌面用戶端的優點，以及如何進行規劃，以及部署方式：[團隊 Windows 桌面用戶端](https://aka.ms/teams-clients)
 
-若要使用 System Center Configuration Manager，或群組原則，或適用于廣泛部署的任何協力廠商發佈機制，Microsoft 提供了 MSI 檔案（ [32 位](https://aka.ms/teams32bitmsi)與[64 位](https://aka.ms/teams64bitmsi)），管理員可以用來大量部署團隊以進行選取使用者或電腦。 系統管理員可以使用這些檔案來遠端部署團隊，讓使用者不需要手動下載團隊 app。 部署時，小組會自動啟動在該電腦上登入的所有使用者。 （您可以在安裝應用程式後停用自動啟動。 [請參閱下文](#disable-auto-launch-for-the-msi-installer)。）我們建議您將套件部署到電腦，讓電腦的所有新使用者也能從這項部署獲益。 
+若要使用 System Center Configuration Manager，或群組原則，或適用于廣泛部署的任何協力廠商發佈機制，Microsoft 提供了 MSI 檔案（ [32 位](https://aka.ms/teams32bitmsi)與[64 位](https://aka.ms/teams64bitmsi)），管理員可以使用它來大量部署團隊來選取使用者或電腦。 系統管理員可以使用這些檔案來遠端部署團隊，讓使用者不需要手動下載團隊 app。 部署時，小組會自動啟動在該電腦上登入的所有使用者。 （您可以在安裝應用程式後停用自動啟動。 [請參閱下文](#disable-auto-launch-for-the-msi-installer)。）我們建議您將套件部署到電腦，讓電腦的所有新使用者也能從這項部署獲益。 
 
 團隊也可以包含在 Office 365 專業增強版的部署中。 如需詳細資訊，請參閱[使用 Office 365 專業增強版部署 Microsoft 團隊](https://docs.microsoft.com/deployoffice/teams-install)。
  

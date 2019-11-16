@@ -1,7 +1,7 @@
 ---
 title: Microsoft 團隊的電話
-ms.author: jambirk
-author: jambirk
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: kponnus
 ms.topic: reference
@@ -14,16 +14,16 @@ ms.collection:
 - M365-voice
 localization_priority: Normal
 description: 本文涵蓋針對 Microsoft 團隊認證的手機清單，以及手機認證中 Microsoft 團隊支援的功能。
-ms.openlocfilehash: c73732d999cc775bdf85e33a37fb6dda792d9b8b
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 958836bb3a959b077d0032f58d6b8f287bee407c
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573306"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38675387"
 ---
 # <a name="phones-for-microsoft-teams"></a>Microsoft 團隊的電話
 
-Microsoft 團隊可為需要傳統電話體驗的使用者支援一套手機。 本文涵蓋針對 Microsoft 團隊認證的手機清單，以及手機認證中 Microsoft 團隊支援的功能。 若要取得小組認證裝置的最新及最新資訊，請移至 [[小組 Marketplace](http://office.com/teamsdevices)]。
+Microsoft 團隊可為需要傳統電話體驗的使用者支援一套手機。 本文涵蓋針對 Microsoft 團隊認證的手機清單，以及手機認證中 Microsoft 團隊支援的功能。 若要取得小組認證裝置的最新及最新資訊，請移至 [[小組 Marketplace](https://office.com/teamsdevices)]。
 
 ## <a name="teams-certified-ip-phones"></a>小組認證的 IP 電話
 
@@ -35,28 +35,28 @@ Microsoft 團隊可為需要傳統電話體驗的使用者支援一套手機。 
 
 |Features |Phone （個人模式） |會議室電話（共用模式）|
 |---------|---------|---------|
-|**Authentication** | |  |
-|使用使用者認證登入 |  是的 | 是的|
-|使用 PC/智慧型手機登入  | 是的 |是的|
-|新式驗證 | 是的 |是的 |
-|電話鎖定/解除鎖定 | 是的 |不 |
+|**驗證** | |  |
+|使用使用者認證登入 |  是 | 是|
+|使用 PC/智慧型手機登入  | 是 |是|
+|新式驗證 | 是 |是 |
+|電話鎖定/解除鎖定 | 是 |否 |
 |**通話** |  |  |
-|傳入/傳出 P2P 通話 | 是的  |是的 |
-|透過 UI 進行通話控制（[靜音]、[保留/繼續]、[轉接]、[結束通話]）| 是的  |是的 |
-|PSTN 通話| 是的  |是的 |
-|視覺語音信箱 | 是的 | 不 |
-|911支援  | 是的  |是的 |
+|傳入/傳出 P2P 通話 | 是  |是 |
+|透過 UI 進行通話控制（[靜音]、[保留/繼續]、[轉接]、[結束通話]）| 是  |是 |
+|PSTN 通話| 是  |是 |
+|視覺語音信箱 | 是 | 否 |
+|911支援  | 是  |是 |
 |**行事曆和目前狀態**|   | |
-|行事曆存取與會議詳細資料|是的 |是的|
-|目前狀態整合 |是的|是的|
-|Exchange 行事曆整合 |是的|是的|
-|連絡人圖片整合  |是的|是的|
-|公司目錄存取 | 是的|是的|
+|行事曆存取與會議詳細資料|是 |是|
+|目前狀態整合 |是|是|
+|Exchange 行事曆整合 |是|是|
+|連絡人圖片整合  |是|是|
+|公司目錄存取 | 是|是|
 |**舉行**|   ||
-|按一下 [加入會議]  | 是的  |是的 |
-|加入商務用 Skype 會議 | 是的  | 是的|
-|會議通話控制（靜音/取消靜音、保留/繼續、掛斷、新增/移除參與者）|是的|是的|
-|會議詳細資料|是的|不|
+|按一下 [加入會議]  | 是  |是 |
+|加入商務用 Skype 會議 | 是  | 是|
+|會議通話控制（靜音/取消靜音、保留/繼續、掛斷、新增/移除參與者）|是|是|
+|會議詳細資料|是|否|
 
 我們正在努力持續新增功能，以協助使用者增強其在手機上的團隊體驗。 下面的螢幕擷取畫面說明我們目前支援的一些體驗。
 
@@ -139,12 +139,12 @@ Microsoft 團隊使用者在流覽至 [**語音信箱**] 索引標籤時，可�
 
 ## <a name="required-licenses"></a>所需的授權
 
-Microsoft 團隊授權可以作為其[Office 365 訂閱](Office-365-licensing.md)的一部分購買。 若要深入瞭解在手機上使用 Microsoft 團隊所需的授權，請參閱可用的[電話系統授權](https://products.office.com/en-us/microsoft-teams/voice-calling)。
+Microsoft 團隊授權可以作為其[Office 365 訂閱](Office-365-licensing.md)的一部分購買。 若要深入瞭解在手機上使用 Microsoft 團隊所需的授權，請參閱可用的[電話系統授權](https://products.office.com/microsoft-teams/voice-calling)。
 
 如需取得團隊的詳細資訊，請參閱[如何取得 Microsoft 團隊的存取權？](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
 ## <a name="see-also"></a>另請參閱
 
-[團隊 Marketplace](http://office.com/teamsdevices)
+[團隊 Marketplace](https://office.com/teamsdevices)
 
 [Microsoft 團隊的 IP 手機認證](teams-ip-phones.md)

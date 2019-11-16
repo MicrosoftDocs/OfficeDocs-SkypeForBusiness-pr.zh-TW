@@ -25,10 +25,10 @@ ms.custom:
 - LIL_Placement
 description: '瞭解商務用 Skype 選項的通話方案（PSTN 通話方案），以及如何取得貴組織的授權。 '
 ms.openlocfilehash: 305416df22353743b891df6c7722bededaae0980
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
+ms.lasthandoff: 11/15/2019
 ms.locfileid: "37516744"
 ---
 # <a name="calling-plans-for-office-365"></a>Office 365 的通話方案
@@ -39,12 +39,12 @@ ms.locfileid: "37516744"
   
 - **國內通話方案**：授權的使用者可以撥打 Office 365 中指定給他們的國家/地區電話號碼。
     
-- **國內和國際通話方案**：授權的使用者可以撥出 Office 365 授權根據使用者的位置指派給使用者的國家/地區，以及[196 國家/地區的國際電話號碼。](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md).
+- **國內和國際通話方案**：授權的使用者可以撥出其 Office 365 授權根據使用者的位置指派給使用者的國家/地區，以及[196 國家/地區](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md)的國際電話號碼。
     
 每個組織的可用每月通話分鐘數，且每個國家/地區都位於[這裡](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
   
 > [!IMPORTANT]
-> [國家/地區] 是以**microsoft 365 系統管理中心** > [作用中**使用者**] 的使用者授權位置為基礎，而**不**是以 microsoft 365 系統**管理員組織設定檔**下所列的帳單位址為基礎。 **中央**。   
+> [國家/地區] 是以**microsoft 365 系統管理中心** > [作用中**使用者**] 的使用者授權位置為基礎，而**不**是以**microsoft 365 系統管理中心**[**組織設定檔**] 底下所列的帳單位址為基礎。   
 ![使用者授權位置的螢幕擷取畫面](media/cc1e16d1-8a5e-43e0-99a3-dc991efdfbab.png)
   
 如需使用限制和使用條款的詳細資訊，請參閱[音訊會議免費撥出期間](complimentary-dial-out-period.md)。
@@ -58,7 +58,7 @@ ms.locfileid: "37516744"
     > [!NOTE]
     > 視您的方案而定，您可能需要購買更多附加元件，才能購買電話系統授權。 若要深入瞭解，請參閱[Microsoft 團隊附加元件授權](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)中的「根據您的方案的授權選項」。
   
-2. 購買電話系統授權之後，您可以登入**Microsoft 365 系統管理中心**，選擇 [**帳單** > **購買服務** > **附加元件訂閱**]，然後按一下 [**立即購買] 來購買通話方案。**. 您會在這裡看到通話方案。
+2. 購買電話系統授權之後，您可以登入**Microsoft 365 管理中心**，選擇 [**帳單** > **購買服務** > **附加元件訂閱**]，然後按一下 [**立即購買**]，即可購買通話方案。 您會在這裡看到通話方案。
     
     ![顯示語音通話方案選項的螢幕擷取畫面。](media/ab2d6dce-56eb-4bbc-ac1a-430b0c065d18.png)
   
@@ -93,7 +93,7 @@ ms.locfileid: "37516744"
 
 - [設定商務用 Skype Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     
-- [設定雲端語音信箱-系統管理協助](set-up-phone-system-voicemail.md)
+- [設定雲端語音信箱 - 系統管理說明](set-up-phone-system-voicemail.md)
     
 - [設定通話方案](set-up-calling-plans.md)
     

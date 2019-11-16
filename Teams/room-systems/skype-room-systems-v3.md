@@ -1,7 +1,7 @@
 ---
 title: Microsoft 團隊聊天室的管理概述
-ms.author: jambirk
-author: jambirk
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 ms.date: 5/10/2018
@@ -13,18 +13,18 @@ ms.assetid: 39d7dc65-22c3-400f-91f1-87ed2fd792b6
 ms.collection:
 - M365-collaboration
 description: Microsoft 團隊聊天室的管理概覽。
-ms.openlocfilehash: a55741fced90a62316ab8d046a91ee0364b314fd
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: cff0b300dc6cc9f3c15e21163554571d49e6540c
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573558"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38675811"
 ---
-# <a name="management-overview"></a>管理概覽
+# <a name="management-overview"></a>管理概觀
 
 您必須開發並執行日常維護與作業，以確保您的使用者可以使用 Microsoft 團隊聊天室系統，並提供良好的使用者體驗。 
 
-## <a name="monitoring"></a>監控程式 
+## <a name="monitoring"></a>監視 
 
 [監視 Microsoft 團隊室系統] 是由兩個主要活動組成：
 
@@ -43,7 +43,7 @@ Microsoft [團隊聊天室] 應用程式和已連接週邊裝置狀態的相關�
 |電源管理-\>在 AC 上，10分鐘後關閉螢幕  <br/> 電源管理-\>在交流電上，請勿將系統置於睡眠狀態  <br/> |讓 Microsoft 團隊聊天室關閉附加的顯示，並自動喚醒  <br/> |
 |淨帳戶/maxpwage：無限制  <br/> 或同等的方式，在本機帳戶上停用密碼過期。 如果不這麼做，最終會導致 Skype 帳戶無法針對過期密碼登入。 請注意，這會影響電腦上的所有本機帳戶，因此無法設定這種情況，也會導致盒上的系統管理帳戶最終過期。  <br/> |讓 Skype 帳戶永遠登入  <br/> |
 
-使用群組原則來傳送檔案將在 [[設定檔案專案](https://technet.microsoft.com/en-us/library/cc772536%28v=ws.11%29.aspx)] 中討論。
+使用群組原則來傳送檔案將在 [[設定檔案專案](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)] 中討論。
   
 ## <a name="remote-management-using-powershell"></a>使用 PowerShell 進行遠端系統管理
 <a name="RemotePS"> </a>
@@ -83,7 +83,7 @@ Microsoft 團隊聊天室會在 Windows 10 企業版 IoT 或 Windows 10 企業�
 
 ## <a name="see-also"></a>另請參閱
 
-[Microsoft 團隊聊天室說明](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+[Microsoft 團隊聊天室說明](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 [規劃 Microsoft 團隊聊天室](skype-room-systems-v2-0.md)
 

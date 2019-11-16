@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: 本文將討論 Microsoft 團隊聊天室中的累加性改進。
-ms.openlocfilehash: d432d12b8f17f12e49ea0622ce3ec97cefb2e36a
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: e82bd160cf09781605cadaf03245b1cdf31b6908
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573525"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38676111"
 ---
 # <a name="release-notes"></a>版本資訊
 
@@ -225,7 +225,7 @@ Introduced in this update:
 此更新中引入的專案：
 
 - 支援[POLYCOM MSR 系列](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl)dock 硬體
-- [Logitech Brio](https://www.logitech.com/en-us/product/brio)的支援
+- [Logitech Brio](https://www.logitech.com/product/brio)的支援
 - 解決在會議室中沒有活動時，顯示（主控台和聊天室）無法進入睡眠模式的問題
 
 ### <a name="30120-912017"></a>3.0.12.0 （9/1/2017）
@@ -297,7 +297,7 @@ Microsoft 團隊聊天室版本3.0.12.0 （更新3）不再支援64位版本的 
 <a name="See"> </a> 
 ## <a name="see-also"></a>另請參閱
 
-[Microsoft 團隊聊天室說明](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+[Microsoft 團隊聊天室說明](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 [準備您的環境](srs-v2-prep.md)
 

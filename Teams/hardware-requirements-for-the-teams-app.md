@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 68b263dde1637c5caaf9ec800c83ba047d641a53
-ms.sourcegitcommit: 69217fb6d6b71081386364db58083eb5d1932c07
+ms.openlocfilehash: 753e134e34c68ab139819d8eaffb0ebfeac571cd
+ms.sourcegitcommit: aad6c02b172a1412d3523a3cb3b3400423c0c3e0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/15/2019
-ms.locfileid: "38638703"
+ms.locfileid: "38670190"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Microsoft 團隊應用程式的硬體需求
 
@@ -71,6 +71,14 @@ ms.locfileid: "38638703"
 |裝置    |   標準膝上型電腦相機、麥克風和喇叭    | 
 |語音    |  相容的麥克風與喇叭、耳機與麥克風或對等裝置       |
 |影片通話與會議 | 若要在視頻通話和線上會議中取得較佳的體驗，我們建議您使用具有 2.0 GHz 處理器和 4.0 GB RAM （或更新版本）的電腦。 [選擇性模糊處理我的背景影片] 效果需要具有先進向量擴充2（AVX2）支援的處理器，且支援最晚2013的 Mac 裝置及更新版本。 如需不支援的解碼器與編碼器清單，請參閱[硬體解碼器和編碼器驅動程式建議](hardware-decoders-and-encoders.md)。
+|支援的 Linux 發行 | Ubuntu 16.04 LTS *、18.04 LTS、Fedora 30 Workstation、RHEL 8 工作站、CentOS 8
+
+* 在 Ubuntu 16.04 LTS 上安裝的必要步驟，這會新增含較新版本的 libc + + （以及編譯器等）的知識庫。以及更新 libc + +：
+```
+sudo add-apt-repository ppa:ubuntu-toolchain-r/test
+sudo apt-get update
+sudo apt-get upgrade
+```
 
 ## <a name="hardware-requirements-for-the-teams-app-on-mobile-devices"></a>行動裝置上的小組 app 的硬體需求
 

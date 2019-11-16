@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: 本文說明如何設定 Microsoft 團隊聊天室主控台及其外設。
-ms.openlocfilehash: f42f89d25a58ce96308318cc732e85f7080b86e5
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 6172e37b53934bc75ae7f5bdf848fd503ffe2e8a
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569904"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38675771"
 ---
 # <a name="configure-a-microsoft-teams-rooms-console"></a>設定 Microsoft 團隊聊天室主控台
 
@@ -99,7 +99,7 @@ CreateSrsMedia. ps1 腳本會自動執行下列任務：
 在建立者的更新中，當隱含語言選取不提供使用者所需的實際應用程式語言（例如，他們想要讓主控台 app 以法文進行）時，您必須使用 ApplyCurrentRegionAndLanguage. ps1 腳本（也就是它會以英文提供。
   
 > [!NOTE]
-> 下列指示僅適用于使用 Windows Creator 更新程式建立的主控台。 未使用新置備系統的媒體進行設定的舊版/內建系統將無法使用這些指示，但也不會受到需要此手動干預的初始問題（周年紀念版本可讓您挑選在安裝程式中明確地做為應用程式語言。
+> 下列指示僅適用于使用 Windows Creator 更新程式建立的主控台。 未使用新置備系統的媒體進行設定的舊版/內建系統將無法使用這些指示，但也不會受到需要此手動干預的初始問題（[周年紀念] 版本可讓您在設定中明確挑選您的應用程式語言）。
   
 ### <a name="to-apply-your-desired-language"></a>若要套用您想要的語言
 
@@ -142,7 +142,7 @@ CreateSrsMedia. ps1 腳本會自動執行下列任務：
 
 安裝 Windows 之後，當您下一次啟動或選取 [/reboot] 選項時，Microsoft [小組聊天室] 主控台 app 就會進入初始設定處理常式。
   
-1. [使用者帳戶] 畫面隨即出現。 輸入要與主機搭配使用之房間帳戶的 Skype 登入位址（以使用者 @ 網域格式）。
+1. [使用者帳戶] 畫面隨即出現。 輸入要與主機搭配使用的聊天室帳戶的 Skype 登入位址（user@domain 格式）。
     
 2. 輸入房間帳戶的密碼，然後重新輸入以進行驗證。
     
@@ -162,7 +162,7 @@ CreateSrsMedia. ps1 腳本會自動執行下列任務：
     
 6. 按一下 **[完成]**。
     
-Microsoft [團隊聊天室] 主控台 app 應該會立即開始使用上述輸入的認證來登入商務用 Skype Server，也應該使用相同的認證開始與 Exchange 同步處理其行事曆。 如需使用主控台 app 的詳細資料，請參閱[Microsoft 團隊聊天室](https://support.office.com/en-US/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)說明。
+Microsoft [團隊聊天室] 主控台 app 應該會立即開始使用上述輸入的認證來登入商務用 Skype Server，也應該使用相同的認證開始與 Exchange 同步處理其行事曆。 如需使用主控台 app 的詳細資料，請參閱[Microsoft 團隊聊天室](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)說明。
   
 > [!IMPORTANT]
 > Microsoft 團隊聊天室會依賴已認證的主控台硬體是否存在。 即使有正確建立的包含 Microsoft 團隊聊天室主控台應用程式的影像，也不會超過初始設定程式（除非偵測到主控台硬體），否則不會啟動。 針對 Surface Pro 解決方案，Surface Pro 必須連線至其隨附的 dock 硬體，才能傳送此檢查。
