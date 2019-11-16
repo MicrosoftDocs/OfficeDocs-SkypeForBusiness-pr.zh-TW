@@ -18,10 +18,10 @@ description: 針對系統管理員如何規劃、部署及執行 Microsoft 團�
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 55ac7c4adf51e920aba2a8eed0f0d6c5aa83ca36
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
+ms.lasthandoff: 11/15/2019
 ms.locfileid: "37569846"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Microsoft 團隊的系統管理訓練
@@ -102,7 +102,7 @@ ms.locfileid: "37569846"
 | 即時事件 | [顯示器](https://aka.ms/teams-live-events-session) | [文稿](https://aka.ms/teams-live-events-deck) |
 | 電話系統簡介 | [顯示器](https://aka.ms/teams-phone-system) | [文稿](https://aka.ms/teams-phone-system-deck) |
 | 直接路由 | [顯示器](https://aka.ms/teams-direct-routing) | [文稿](https://aka.ms/teams-direct-routing-deck) |
-| 從商務用 Skype 升級至團隊 | [影片1：升級簡介](https://aka.ms/teams-upgrade-intro)</br>[影片2：規劃升級](https://aka.ms/teams-upgrade-plan)</br>[影片3：共存與互通性](https://aka.ms/teams-upgrade-coexistence-interop)</br>[影片4：管理員體驗](https://aka.ms/teams-upgrade-admin) | [文稿](https://aka.ms/teams-upgrade-deck)|
+| 從商務用 Skype 升級至 Teams | [影片1：升級簡介](https://aka.ms/teams-upgrade-intro)</br>[影片2：規劃升級](https://aka.ms/teams-upgrade-plan)</br>[影片3：共存與互通性](https://aka.ms/teams-upgrade-coexistence-interop)</br>[影片4：管理員體驗](https://aka.ms/teams-upgrade-admin) | [文稿](https://aka.ms/teams-upgrade-deck)|
 
 <h2>快速入門手冊</h2>
 
