@@ -3,7 +3,7 @@ title: 管理 Microsoft 團隊中的原則套件
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.reviewer: sekrantz
+ms.reviewer: sekrantz, aaglick
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -16,12 +16,12 @@ f1keywords: ms.teamsadmincenter.policypackages.overview
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何在 Microsoft 團隊中使用及管理原則套件。
-ms.openlocfilehash: fb01a7e15d43c18e115ecfbd0edb73b4808c2a59
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: ecfc6ae6fb1bb4d9632b8cd04b35dcee6d63359d
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972434"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38679822"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>管理 Microsoft 團隊中的原則套件
 
@@ -35,12 +35,13 @@ Microsoft 團隊中的原則套件是預先定義的原則與原則設定的集�
 
 團隊目前包含下列原則套件。
 
-|**套件名稱**  |**說明** |
+|**套件名稱**  |**描述** |
 |---------|---------|
 |Education_Teacher 套件     |建立適用于教師的一組原則與原則設定。      |
 |Education_PrimaryStudent 套件    |建立適用于主要學生的一組原則與原則設定。|
 |Education_SecondaryStudent 套件    |建立一組可套用至副學生的原則與原則設定。         |
 |Education_HigherEducationStudent 套件    |建立一組可套用至較高教育學生的原則與原則設定。|
+|SmallMediumBusiness_BusinessVoice 套件    |建立應用程式設定原則，其中包含商務語音體驗的 app。|
 
 > [!NOTE]
 > 我們會在未來的團隊版本中新增更多原則套件，請返回最新資訊。  
@@ -101,3 +102,7 @@ Microsoft 團隊中的原則套件是預先定義的原則與原則設定的集�
 **當您指派原則套件時，收到錯誤訊息**
 
 如果套件中的一個或多個原則未成功建立或套用，可能會發生這種情況。 將原則套件重新指派給您的使用者。 重試此操作通常會修正此問題。
+
+## <a name="related-topics"></a>相關主題
+
+[EDU 系統管理員適用的 Microsoft 團隊原則套件](policy-packages-edu.md)
