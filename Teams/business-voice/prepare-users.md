@@ -15,12 +15,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 571490c07e453c4a33144c01063159cf6ab9d257
-ms.sourcegitcommit: 082f451dd800b92d0b52e37402ecf621a738b4e5
+ms.openlocfilehash: 554ea9b5855a4b177c9f22dd985fc14c4b0e3877
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37973212"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38653539"
 ---
 # <a name="how-do-i-get-my-users-ready-for-business-voice"></a>如何幫助我的使用者為商務語音做好準備？
 
@@ -51,7 +51,7 @@ ms.locfileid: "37973212"
 
 ## <a name="set-up-voicemail-greetings-and-other-business-voice-features"></a>設定語音訊息問候語和其他商務語音功能
 
-就像一般的手機一樣，您可以設定語音訊息問候語、來電轉接、選擇鈴聲等等。 您可以在 Teams 應用程式的 **[設定]** 中找到所有使用者可以設定的項目。 若要瞭解如何設定這些功能，請參閱[在 Teams 中管理通話設定](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)。
+就像一般的手機一樣，您可以設定語音訊息問候語、來電轉接、選擇鈴聲等等。 在 Teams 應用程式中，按一下 Teams 右上角的個人檔案圖片，然後選取 [設定]**** > [通話]****，就能找到所有使用者可以設定的項目。 若要瞭解如何設定這些功能，請參閱[在 Teams 中管理通話設定](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)。
 
 ## <a name="learn-what-microsoft-teams-and-business-voice-can-do"></a>瞭解 Microsoft Teams 和商務語音的功能
 

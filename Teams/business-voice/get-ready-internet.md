@@ -15,12 +15,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4dbfd1bdaec48ebe8c6adbed86da431a6f4ecbfc
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: 19f26c0bd7ab4fe89770909d81d60abc97aaa8b0
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972274"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38653549"
 ---
 # <a name="check-your-internet-connection"></a>檢查您的網際網路連線
 
@@ -57,17 +57,17 @@ Business Voice 位於 Microsoft 365 的雲端中。 使用 Microsoft Teams 和 B
 以下是您需要執行的操作：
 
 1. 開啟瀏覽器，然後移至 https://admin.teams.microsoft.com，並使用具備全域系統管理員權限的帳戶登入。 您用來註冊 Office 365 的帳戶具備這些權限。
-1. 開啟 [全組織設定]****，然後選取 [網路規劃中心]****。
+1. 開啟 [規劃]**** 然後選取 [網路規劃中心]****。
 1. 在 [網路規劃]**** 底下，選取 [新增]****。 為您的規劃命名，然後選取 [套用]****。 您的網路規劃應看起來如下：
 
     ![網路規劃中心主畫面](../media/network-planner-main.png)
 1. 按一下您的網路規劃名稱 (上圖中的**主辦公室**)。
 1. 在下一頁上，於 [網站]**** 索引標籤底下選取 [新增網路站台]****。
-1. 填寫下列資訊，然後選取 [儲存]****。
+1. 只填寫以下螢幕擷取畫面中所指定的欄位，然後選取 [儲存] ****。 讓這個畫面上的其他欄位保留空白，且不要選取 [ExpressRoute]**** 或 [連線至 WAN]**** 選項。
 
     ![網路規劃中心網站資訊](../media/network-planner-site-info.png)
 1. 在 [報告]**** 索引標籤下，選取 [開始報告]****。
-1. 填寫下列資訊，然後選取 [產生報告]****
+1. 填寫下列資訊，然後選取 [產生報告]****，以建立顯示 Teams 頻寬需求的報告。 我們會在下一節中示範如何顯示報告。
 
     ![網路規劃中心報告資訊](../media/network-planner-report-info.png)
 
