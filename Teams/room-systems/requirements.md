@@ -12,16 +12,18 @@ ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
 description: 本文將摘要說明支援 Microsoft 團隊聊天室的需求。
-ms.openlocfilehash: 7ec4cae76476091a4e4854637a48b258a6bfadb5
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: 9e0aa01e72fee194dc57af733adfdfa59e6fce71
+ms.sourcegitcommit: 361ca60a66bab31cd54d8c1f805697460427e44d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38675367"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "38696813"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft 團隊會議室需求
 
-本文將摘要說明支援 Microsoft 團隊聊天室的需求。
+Microsoft 團隊聊天室會根據房間大小及用途，使用各種經認證的音訊和視頻週邊數來調整不同的房間大小。 您可以選取適當的核心裝置和主控台（結合麥克風、喇叭、相機，並針對空間顯示），將 Microsoft 團隊會議室從非常小的 huddle 空間部署到大量的會議空間然後 boardrooms。  [裝置展示](https://products.office.com/microsoft-teams/across-devices)中提供了所有可用來設定您房間的已鑒定音訊及視頻外設的完整集合。
+
+本文摘要說明支援 Microsoft 團隊聊天室的裝置部署與設定需求。
 
 您的部署涉及帳戶建立，如[部署 Microsoft 團隊聊天室](room-systems-v2.md)及設定會議主控台中所述，請參閱設定[microsoft 團隊聊天室主控台](console.md)中所述。
 
@@ -31,34 +33,18 @@ ms.locfileid: "38675367"
 - [以您的方案為基礎的授權選項： Microsoft 球隊會議室](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
 
 > [!NOTE]
-> Microsoft [團隊聊天室] 適用于 Microsoft 團隊、商務用 Skype Server 2019、商務用 Skype Server 2015 或商務用 Skype Online。
+> Microsoft 球隊會議室登入 Microsoft 團隊、商務用 Skype Server 2019、商務用 skype Server 2015 或商務用 Skype Online，並可能加入由這些服務託管的會議。
 >
-> 較舊的平臺（例如 Lync Server 2013）不應與 Microsoft 團隊聊天室搭配使用。 在由世紀運營的 Office 365 或 GCC、GCC-高或 DoD 的環境中，Microsoft 球隊會議室不受支援。
+> Microsoft 團隊聊天室不支援舊版平臺（例如 Lync Server 2013）。 在由世紀運營的 Office 365 或 GCC-高或 DoD 的環境中，Microsoft 球隊會議室不受支援。
 >
 > 如果您有內部部署 Exchange 伺服器，Microsoft 團隊聊天室需要使用 Exchange Server 2013 SP1 或更新版本。
 
 ## <a name="hardware-requirements"></a>硬體需求
+硬體部署包括 Microsoft 團隊房間系統的選取範圍，與已驗證的音訊和視頻外設結合，以及將這些裝置整合在一起的纜線方案。  這些選項將在這裡說明。
 
-Microsoft 團隊聊天室會根據房間大小，使用不同的音訊和視頻外設來調整不同的房間大小。 本文中所列的硬體支援 Skype 與團隊會議模式。 音訊及視頻外設會透過塢站裝置上的 USB 或 HDMI 連接，連線至 Microsoft 團隊聊天室。 您也需要：
+**支援的 Microsoft 團隊房間系統**
 
-- 一個 32 GB 或更大的 USB 磁片，您可以將其設定為 Windows 10 企業版的可引導 Windows 安裝媒體。
-- 下列平板電腦或主控台之一：
-
-  **支援的平板電腦**
-
-  |平板電腦|處理器類型|RAM|光碟|
-  |:-----|:-----|:-----|:-----|
-  |Surface Pro 6| 核心 i5 |16 GB 或 8 GB |128 GB 以上 |
-  |Surface Pro </br>（第5代） |核心 i5 |8 GB 或 4 GB |128 GB 以上 |
-  |Surface Pro 4 |核心 i5 |8 GB 或 4 GB |128 GB 以上 |
-
-- 下列其中一個對接站選項，可將平板電腦固定在會議室表格。
-
-  - [Logitech SmartDock](https://www.logitech.com/product/smartdock)
-  - [Crestron SR](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
-  - [Polycom MSR 系列](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.html)
-
-- **其他支援的 Microsoft 團隊聊天室主控台**
+在[房間系統產品展示](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=20&page=1&filterIds=)中，所有目前的 Microsoft 團隊聊天室裝置和套件都可使用。
 
   |控制|處理器類型|RAM|光碟|
   |:-----|:-----|:-----|:-----|
@@ -77,13 +63,27 @@ Microsoft 團隊聊天室會根據房間大小，使用不同的音訊和視頻�
   |[Yealink MVC300](https://www.yealink.com/products_154.html)|核心 i5|8 GB |128 GB |
   ||||||
 
-
 > [!NOTE]
-> 不支援核心 M3 處理器。
+> - 不支援核心 M3 處理器。
+> - 您需要將 32 GB 或更大的 USB 磁片磁碟機設定為 Windows 10 企業版的可引導 Windows 安裝媒體。
+
+**支援用於 dock 樣式系統的 Surface Pro 平板電腦**
+
+  |平板電腦|處理器類型|RAM|光碟|
+  |:-----|:-----|:-----|:-----|
+  |Surface Pro 6| 核心 i5 |16 GB 或 8 GB |128 GB 以上 |
+  |Surface Pro </br>（第5代） |核心 i5 |8 GB 或 4 GB |128 GB 以上 |
+  |Surface Pro 4 |核心 i5 |8 GB 或 4 GB |128 GB 以上 |
+
+- 下列其中一個對接站選項，可將平板電腦固定在會議室表格。
+
+  - [Logitech SmartDock](https://www.logitech.com/product/smartdock)
+  - [Crestron SR](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
+  - [Polycom MSR 系列](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.html)
 
 ### <a name="certified-firmware-versions-for-usb-audio-and-video-peripherals"></a>USB 音訊與視頻週邊設備的認證固件版本
 
-這些裝置可在[aka.ms/teamsdevices](https://aka.ms/teamsdevices)中取得。
+這些裝置可在[房間系統附件產品展示](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=73&page=1&filterIds=)及[https://office.com/teamsdevices](https://office.com/teamsdevices)中取得。
 
 |Microsoft 團隊聊天室週邊|認證的固件版本 | 相機支援內容相機使用|
 |:--- |:--- | :--- |

@@ -1,7 +1,7 @@
 ---
 title: 開始使用適用於醫療保健組織的 Teams 範本
-author: jambirk
-ms.author: jambirk
+author: kenwith
+ms.author: kenwith
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: 開始使用適用於醫療保健組織的 Teams 範本
-ms.openlocfilehash: e19c0403f259f400e784faf928738d36df66d618
-ms.sourcegitcommit: ced9b584eeceff7ca0109cba5823c7c3ddbd092e
+ms.openlocfilehash: 756f9a50dac14575250a521750f80dbe8d1242b8
+ms.sourcegitcommit: 9ae5dadaab999acd061cc9418dbd55d98b82980e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "37886436"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38702314"
 ---
 # <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>開始使用適用於醫療保健組織的 Teams 範本
 
@@ -43,7 +43,7 @@ Ward 範本適用于 ward、pod 或部門中的通訊與共同作業。 範本�
 
 ## <a name="hospital-template"></a>醫院範本
 
-醫院範本適用于醫院中的多個 wards、箱與部門之間進行通訊與共同作業。 此範本中包含幾個作業通道，包括*宣告*、 *Custodial*和*藥房*，但我們也提供下列腳本，此腳本會以不同的其他部門擴充範本，或以專業為中心的頻道，您可以根據自己的喜好來新增、刪除或編輯。 例如，如果您有*Endocrinology*部門，但不需要*Ophthalmology*的頻道，則可以調整腳本以納入*Endocrinology*通道並移除*Ophthalmology*通道。 我們建議您不要將這些專業或 ward 模型的通道自動將，以免出現通知的飽和情況。 使用者通常會最愛他們找到的任何頻道。
+醫院範本適用于醫院中的多個 wards、箱與部門之間進行通訊與共同作業。 此範本中包含幾個作業通道，包括*宣告*、 *Custodial*和*藥房*，但我們也提供下列腳本來延伸範本，其中包含各種其他部門或專業中心頻道，您可以在您的喜好中新增、刪除或編輯。 例如，如果您有*Endocrinology*部門，但不需要*Ophthalmology*的頻道，則可以調整腳本以納入*Endocrinology*通道並移除*Ophthalmology*通道。 我們建議您不要將這些專業或 ward 模型的通道自動將，以免出現通知的飽和情況。 使用者通常會最愛他們找到的任何頻道。
 
 |基底範本類型 |baseTemplateId |比較基準範本頻道|
 |:--- |:---|:---|
@@ -52,20 +52,9 @@ Ward 範本適用于 ward、pod 或部門中的通訊與共同作業。 範本�
 
 \*自動將 
 
-## <a name="care-coordination-template"></a>護理協調範本
-
-[護理協調] 範本是協助患者護理小組中的通訊，包括 interdisciplinary 和學科小組等一些範例。 我們專屬的患者應用程式是預先載入在這個範本中，且位於 [一般] 頻道。 有了患者應用程式，您就可以彙整患者及其相關值和 vitals 的清單，讓它在舍入和患者管理案例中非常有用。 
-
-|基底範本類型 |baseTemplateId |比較基準範本頻道|
-|:--- |:---|:---|
-|醫療保健-護理協調 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareCareCoordination')`   | 治療後審查\* <br> 排程\* <br> 訓練\* |
-| | |  |
-
-\*自動將 
-
 ## <a name="how-to-use-first-party-templates"></a>如何使用第一方範本
 
-若要使用這些範本，只要將申請主體中的 ' template@odata.bind」屬性從「標準」變更為上述 TemplateIDs。  如需如何部署團隊範本的詳細資訊，請參閱 Microsoft Graph 文章，瞭解如何[建立團隊](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta)。
+若要使用這些範本，只要將申請主體中的 [template@odata. bind] 屬性從 [標準] 變更為上述 TemplateIDs 即可。  如需如何部署團隊範本的詳細資訊，請參閱 Microsoft Graph 文章，瞭解如何[建立團隊](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta)。
 
 > [!NOTE]
 > 範本中的頻道會自動建立在 [一般] 索引標籤底下。

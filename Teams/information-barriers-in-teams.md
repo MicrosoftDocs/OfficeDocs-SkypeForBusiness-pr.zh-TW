@@ -13,12 +13,12 @@ ms.reviewer: vikramju
 description: 瞭解資訊障礙及其對團隊有何影響。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dfc56ab28be03e0301228eb9220437c2e1ef2673
-ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.openlocfilehash: 0772a9599a38afc05520b8dcccba3cb463df3409
+ms.sourcegitcommit: 361ca60a66bab31cd54d8c1f805697460427e44d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37968254"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "38696823"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft 團隊中的資訊障礙
 
@@ -74,7 +74,7 @@ IB 相容性管理角色負責管理資訊屏障原則。 如需有關此角色�
 如果使用者之間已有聊天或其他通訊，且已設定新的原則，或是已變更現有的原則，此服務會評估現有的通訊，以確保仍允許進行通訊。 
 
 - **1:1 聊天**-如果已不再允許兩個使用者之間的通訊（如果原則封鎖通訊已套用至一或兩個使用者），系統會封鎖進一步通訊，聊天交談就會變成隻讀狀態。
-- **群組聊天**-如果已不再允許來自某個使用者的通訊（例如，如果使用者變更了工作），則該使用者以及違反該原則的其他使用者，都可能會從群組聊天中移除，而不會進一步與群組通訊允許. 使用者仍然可以看到舊的交談（這會是唯讀的），但無法看到或參與與群組的任何新交談。 如果新的或已變更的原則將通訊套用到多個使用者，則受該原則影響的使用者可能會從群組聊天中移除。 他們仍能看到舊的交談。 
+- **群組聊天**-如果已不再允許來自某個使用者的通訊（例如，如果使用者變更了工作），則該使用者與違反該原則的其他使用者都可能會從群組聊天中移除，且不允許進一步與群組通訊。 使用者仍然可以看到舊的交談（這會是唯讀的），但無法看到或參與與群組的任何新交談。 如果新的或已變更的原則將通訊套用到多個使用者，則受該原則影響的使用者可能會從群組聊天中移除。 他們仍能看到舊的交談。 
 - **小組**-已從群組中移除的任何使用者都會從小組中移除，而且將無法查看或參與現有或新的交談。
 
 
@@ -92,16 +92,15 @@ IB 相容性管理角色負責管理資訊屏障原則。 如需有關此角色�
 - [**通話連絡人**]-使用者可以在通話連絡人清單中看到封鎖的使用者，但系統會辨識封鎖的使用者，而使用者唯一可以執行的動作就是刪除它們。
 - **Skype 至團隊遷移**-在商務用 skype 中進行團隊遷移期間，所有使用者（即使是資訊屏障原則所封鎖），都會將它遷移至小組，然後將按照上述步驟進行處理。
 
-
-
-## <a name="required-licenses-and-permissions"></a>所需的授權和許可權
-
+## <a name="will-files-and-sharepoint-site-experiences-connected-to-teams-honor-ib-policy"></a>檔案和 SharePoint 網站體驗會與團隊進行連結來服從 IB 原則嗎？
+ 
 建立小組後，SharePoint 網站就會提供給小組，並與 [檔案體驗] 相關聯。 此 SharePoint 網站和檔案的存取權會採用組織的 IB 原則，亦即，只允許對每個 IB 原則進行的 IB 區段相符的使用者存取。 即使在檔案共用時，IB 原則也會生效。
 
 例如：在 Contoso 銀行公司中，使用者「Sesha@contosobank.onmicrosoft.com」屬於投資銀行區段，而使用者 ' Nikita@contosobank.onmicrosoft.com ' 屬於區段建議。 組織的 IB 原則會封鎖這兩個區段之間的通訊與共同作業。 當使用者 Sesha 建立投資銀行區段的小組時，只有投資銀行區段使用者才能存取該小組和支援該小組的 SharePoint 網站。 即使她擁有 [網站] 連結，使用者 Nikita 還是無法存取該網站。
 
-如需詳細資訊（包括方案和定價），請參閱[授權指南](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-tenantlevel-services-licensing-guidance)。
+## <a name="required-licenses-and-permissions"></a>所需的授權和許可權
 
+如需詳細資訊（包括方案和定價），請參閱[授權指南](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-tenantlevel-services-licensing-guidance)。
 
 ## <a name="more-information"></a>詳細資訊
 

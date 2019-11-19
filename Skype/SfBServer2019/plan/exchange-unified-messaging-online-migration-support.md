@@ -1,5 +1,5 @@
 ---
-title: Exchange 整合訊息線上遷移支援
+title: Exchange 整合通訊線上移轉支援
 ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
@@ -10,20 +10,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Microsoft 正在淘汰2020年2月的 Exchange 整合訊息 Online （ExchUMO）服務。 本文將摘要說明客戶應該知道哪些內容，並針對其業務連續性進行規劃。
-ms.openlocfilehash: 57a9e6fa688fc17aedde3dbcf5e6b689263c5b4e
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: abaf16996a6d634bac77118e35b30228c2a43e07
+ms.sourcegitcommit: 9ae5dadaab999acd061cc9418dbd55d98b82980e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37616086"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38702304"
 ---
-# <a name="exchange-unified-messaging-online-migration-support"></a>Exchange 整合訊息線上遷移支援
+# <a name="exchange-unified-messaging-online-migration-support"></a>Exchange 整合通訊線上移轉支援
 
 如需2019年2月8日的[公告](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/)參考，Microsoft 即將于2020年2月前淘汰 Exchange 整合訊息線上（ExchUMO）服務。 本文將摘要說明客戶應該知道的內容，並針對其業務連續性進行規劃。 
  
 ExchUMO 是由客戶針對語音信箱、自動語音應答、通話佇列及傳真整合服務進行部署。 Microsoft 方案可協助客戶遷移到已支援商務用 Skype Online 和 Microsoft 團隊的成千上萬客戶的手機系統服務。 
 
-語音信箱主要是 Microsoft 導向的遷移;客戶的子集可能需要系統管理員參與與/或投資。 自動語音應答是系統管理員導向的遷移;您將需要在雲端自動語音應答雲端服務中重新建立現有的 ExchUMO 自動語音應答樹。 使用任何 ExchUMO 功能與協力廠商 PBX 的客戶將不會被遷移到 Skype 雲端服務，因為它們不支援協力廠商 PBX 系統。 在[此博客](https://techcommunity.microsoft.com/t5/Exchange-Team-Blog/New-date-for-discontinuation-of-support-for-Session-Border/ba-p/607853)中宣告的協力廠商支援的退休方案，此部署模型中的客戶可以將他們的使用者遷移至 Microsoft 的整合通訊平臺/服務，或取得協力廠商的語音信箱和/或自動適用于這些使用者的 [助理解決方案]。 雲端服務不支援 [傳真整合];客戶將需要遷移至協力廠商解決方案。
+語音信箱主要是 Microsoft 導向的遷移;客戶的子集可能需要系統管理員參與與/或投資。 自動語音應答是系統管理員導向的遷移;您將需要在雲端自動語音應答雲端服務中重新建立現有的 ExchUMO 自動語音應答樹。 使用任何 ExchUMO 功能與協力廠商 PBX 的客戶將不會被遷移到 Skype 雲端服務，因為它們不支援協力廠商 PBX 系統。 在[此博客](https://techcommunity.microsoft.com/t5/Exchange-Team-Blog/New-date-for-discontinuation-of-support-for-Session-Border/ba-p/607853)中宣告的協力廠商支援的退休方案，此部署模型中的客戶可以將他們的使用者遷移至 Microsoft 的整合通訊平臺/服務，或為這些使用者取得協力廠商的語音信箱和/或自動語音應答方案。 雲端服務不支援 [傳真整合];客戶將需要遷移至協力廠商解決方案。
 
 ### <a name="who-is-affected"></a>誰會受到影響？
 
@@ -156,7 +156,7 @@ Microsoft 已發現各種使用 ExchUMO 功能的客戶部署，並將根據下�
 | AA | 服務功能 | 多語言支援 | [語言詳細資料] 如下：https://docs.microsoft.com/en-us/microsoftteams/what-are-phone-system-auto-attendants | 是 | 是    |
 | AA | 服務功能 | 轉接至操作員、CQ 或使用者 |  | 是 | 是    |
 | AA | 服務功能 | 內部轉接至 PSTN 號碼（RNL）  |  | 是 | 是    |
-| AA | 服務功能 | 外部轉接至 PSTN 號碼  |  | Q3CY19 | 是    |
+| AA | 服務功能 | 外部轉接至 PSTN 號碼  |  | 請參閱下方的 [已知問題] 區段 | 是    |
 | AA | 服務功能 | 商務時間 |  | 是 | 是    |
 | AA | 服務功能 | 功能表選項 | IVR 功能表選項  | 是 | 是    |
 | AA | 服務功能 | 將雲端 PSTN 編號指派給 AA |  | 是 | 否    |
@@ -210,6 +210,15 @@ Microsoft 已發現各種使用 ExchUMO 功能的客戶部署，並將根據下�
 若要深入瞭解自動語音應答，請參閱[設定雲端自動](/MicrosoftTeams/create-a-phone-system-auto-attendant.md)語音應答。 
 
 #### <a name="known-issues"></a>已知問題
+
+**自動語音應答來電轉接至 PSTN**我們鼓勵客戶設定暫時的因應措施，以滿足將自動語音應答來電轉接至外部 PSTN 號碼或 RGS 實例的需求。 
+ 
+在品質保證期間發現 [轉接到 PSTN 號碼] 功能時，不會及時固定該問題，讓客戶在2020年2月1日的排程退休日期之前開始遷移。 作為因應措施，管理員可以將自動語音應答呼叫者轉接至內部部署虛擬使用者，並使用 [作用中的呼叫轉寄] 設定來傳送至所需的 PSTN 電話號碼或 RGS 電話號碼。 
+ 
+預期體驗
+- 系統管理員不需要授權虛擬使用者，因為這是一個因應措施解決方法 
+- 系統管理員可以將所需的號碼指派給虛擬使用者，或使用 SBC 數位操作功能，來操縱 PSTN 接收器所能看到的本機號碼 
+- PSTN 呼叫者在來電轉接期間不會遇到任何延遲，而且在傳輸成功後，會繼續看到自動語音應答的本機號碼  
 
 **共用信箱：** 使用 Exchange UM Online 設定的共用信箱會在遷移至 CVM 後繼續接收訊息，並可透過 Outlook 繼續透過使用者存取。 不過，一旦遷移至 CVM，就無法使用變更這些信箱之問候語的存取權。 使用共用信箱來捕獲自動語音應答呼叫者的客戶，在發佈之後，就應該使用自動語音應答及呼叫佇列共用信箱功能（ETA 年10月2019）。
   
