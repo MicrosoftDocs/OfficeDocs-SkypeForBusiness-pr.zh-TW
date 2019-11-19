@@ -15,23 +15,23 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 46f6f75ce0ac14193a4f7a8cfccadf8312f92a98
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: 8e6ed778af0136516286798b0a7b04602f571de2
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972194"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38653529"
 ---
 # <a name="use-the-getting-started-wizard-to-set-up-business-voice"></a>使用 [快速入門精靈] 設定商務語音
 
 Microsoft 365 商務語音的 [快速入門精靈] 提供您簡易且快速的方法來開始接收並撥打 Microsoft Teams 中的通話。 如果您是剛起步的小型企業，精靈可在幾分鐘內幫助您啟動並運作電話號碼、通話功能表、問候以及更多。 如果您是已具有建立好之電話語音解決方案的較大型企業，精靈可幫助您設定商務語音試驗。您可以在為所有人設定使用之前，先與少數使用者進行測試。 無論是哪一種方式，精靈完成後，您就可以開始使用商務語音！
 
-建議您在開始使用精靈之前，先閱讀本文。 準備好時，您可以從 [[Microsoft 365 系統管理中心]](https://admin.microsoft.com/AdminPortal/Home#/homepage)開啟精靈。 請確認您已使用建立訂閱所用的帳戶登入，或其他全域系統管理員的帳戶登入。
+建議您在開始使用精靈之前，先閱讀本文。 當您準備好時，您可以前往[開始使用 Microsoft 365 商務語音](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/featureexplorer/apps/SmbVoice)頁面選取 [開始使用]****。 請確認您已使用建立訂閱所用的帳戶登入，或其他全域系統管理員的帳戶登入。
 
 > [!IMPORTANT]
-> 目前在加拿大和英國都有提供商務語音。 2020 開始將有更多國家/地區提供。
+> 目前在加拿大和英國都有提供商務語音。 2020 年開始將有更多國家/地區可使用。
 >
-> 只有當您的使用者信箱位於 Microsoft 365 之中時，才能使用 Microsoft Teams 和商務語音。  我們不支援內部部署 Exchange Server 上的信箱。
+> 只有當您的使用者信箱位於 Microsoft 365 中時，才能使用 Microsoft Teams 和商務語音。  我們不支援內部部署 Exchange Server 上的信箱。
 
 <!-- After you've finished the wizard, here are a couple articles you can check out to see what you can do with Business Voice and learn how to customize it. If you don't want to customize anything, you're done! You can start using Business Voice right away.
 
@@ -56,7 +56,7 @@ Microsoft 365 商務語音的 [快速入門精靈] 提供您簡易且快速的�
 
 <table>
     <tr>
-        <td>除了設定新的當地電話號碼以外，您還可以選擇購買免付費電話號碼，或將現有的號碼移轉到 Microsoft 365。 如果您選擇設定免付費電話號碼，就必須購買通話方案。 如果您要移轉號碼到 Microsoft 365，您可以在精靈完成之後，於 [[Teams 系統管理中心]](https://admin.teams.microsoft.com) 選擇進行此動作。
+        <td>除了設定新的當地電話號碼以外，您還可以選擇購買免付費電話號碼，或將現有的號碼移轉到 Microsoft 365。 如果您選擇設定免付費電話號碼，就必須購買通話方案。 如果您要移轉一或多個號碼到 Microsoft 365，您可以在精靈完成之後，於 [Teams 系統管理中心](https://admin.teams.microsoft.com)選擇進行此動作。
         </td>
         <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-choose-number.png" width="400">
         </td>
@@ -64,7 +64,7 @@ Microsoft 365 商務語音的 [快速入門精靈] 提供您簡易且快速的�
 </table>
 
 > [!IMPORTANT]
-> 如果您選擇將現有的電話號碼移轉到 Microsoft 365，您仍會在精靈中看到臨時的電話號碼。 這樣是正常的。 完成精靈及移轉程序後，您的電話號碼將取代臨時電話號碼。
+> 如果您選擇將一或多個現有的電話號碼移轉到 Microsoft 365，您仍會在精靈中看到臨時的電話號碼。 這樣是正常的。 完成精靈及移轉程序後，您的電話號碼將取代臨時電話號碼。
 
 ## <a name="assigning-licenses-to-users"></a>將授權指派給使用者
 
@@ -96,12 +96,15 @@ Microsoft 365 商務語音的 [快速入門精靈] 提供您簡易且快速的�
 <table>
     <tr>
         <td>您可以將所有來電轉接給特定使用者，或設定來電者可選取的通話功能表選項。 如果建立了通話功能表，您可以指定來電者在電話鍵盤上按數字，或透過語音命令說出來選取的選項。 每個功能表選項皆可轉接給一位使用者。 <br>
-您可以選擇是否要上傳最多 5MB 以提供來電者指示的音效檔 (MP3 或 WAV)，或者直接輸入指示。 Microsoft 365 會使用 [文字轉換語音] 將指示讀給來電者。 您可能需要按照發音拼音字詞，以獲得正確發音。
+        您可以選擇是否要上傳最多 5MB 以提供來電者指示的音效檔 (MP3 或 WAV)，或者直接輸入指示。 Microsoft 365 會使用 [文字轉換語音] 將指示讀給來電者。 您可能需要按照發音拼音字詞，以獲得正確發音。
         </td>
         <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-call-forwarding-rules.png" width="400">
         </td>
     </tr>
 </table>
+
+> [!IMPORTANT]
+> [快速入門精靈] 可協助您設定簡單的通話功能表，讓您快速上手。 如果要設定通話功能表中的多個電話號碼，或者要設定更複雜的通話功能表 (也稱為自動語音應答)，您可以在結束精靈後，按照[設定雲端自動語音應答](set-up-auto-attendants.md)中的步驟進行。
 
 <table>
     <tr>
