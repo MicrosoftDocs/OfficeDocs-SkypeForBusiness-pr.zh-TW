@@ -25,6 +25,7 @@
 ## [在 Teams 中組織小組的最佳做法](best-practices-organizing.md)
 ## [在 Teams 中建立全組織小組](create-an-org-wide-team.md)
 ## [管理小組和頻道原則](teams-policies.md)
+## [適用於 Teams 的敏感度標籤](sensitivity-labels.md)
 ## [在 Teams 中管理私人小組的探索](manage-discovery-of-private-teams.md)
 ## [在 Teams 中設定頻道裁決](manage-channel-moderation-in-teams.md)
 ## [管理訊息原則](messaging-policies-in-teams.md)
@@ -771,7 +772,8 @@
 ## [Microsoft Teams 教育版](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [快速入門 - Teams 教育版系統管理員](teams-quick-start-edu.yml)
 ### [Teams 教育版中的作業](expand-teams-across-your-org/assignments-in-teams.md)
-### [適用於 Teams 教育版系統管理員的資源](resources-teams-edu.md)
+### [Teams 教育版管理員的資源](resources-teams-edu.md)
+### [適用於教育界管理員的 Microsoft Teams 原則套件](policy-packages-edu.md)
 ### [適用於系統管理員的 Microsoft 教育版控管常見問題集](plan-teams-governance-edu.md)
 ### [安裝 Moodle 整合](install-moodle-integration.md)
 
