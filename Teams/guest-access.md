@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad8b75e244efa0d28709d6c5ff225f1e6676200a
-ms.sourcegitcommit: ed7439d03e37c9c0184daf5215a68c5492932a83
+ms.openlocfilehash: 3ccaf4cae1b82b206ebfd27b185dddaf2ab0eece
+ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "38290853"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38746286"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Microsoft Teams 中的來賓存取
 ======================================
@@ -79,9 +79,6 @@ ms.locfileid: "38290853"
 
 如需來賓在 Teams 中可以和不可以使用的功能完整清單，請參閱[比較團隊成員和來賓功能](guest-experience.md#comparison-of-team-member-and-guest-capabilities)表格。 若要深入了解 Office 365 等級的來賓存取，請參閱[將來賓新增至 Office 365 群組](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6)。
 
-## <a name="how-does-external-access-federation-compare-to-guest-access"></a>比較外部存取 (同盟) 和來賓存取的差異？
-
-[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
 ## <a name="more-information"></a>詳細資訊
 
