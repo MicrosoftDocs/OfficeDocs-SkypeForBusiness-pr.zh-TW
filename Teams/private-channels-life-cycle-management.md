@@ -16,19 +16,19 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何在您的組織中管理私人頻道的生命週期。
-ms.openlocfilehash: 0f2a1f9fc4921ae12092655102d4a442fd653df3
-ms.sourcegitcommit: f3b698379eb663202ce127eeaf6c07328c166556
+ms.openlocfilehash: b33df48d6d019015a0e7553619e2e42d29f7ca11
+ms.sourcegitcommit: d2bee305a3588f8487bba3396b1825be7a52f6d2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "38077406"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38714479"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>在 Microsoft 團隊中管理私人頻道的生命週期
 
 您可以在這裡找到在組織中管理[私人頻道](private-channels.md)生命週期所需的指導方針。
 
 > [!IMPORTANT]
-> 如果您使用本文中的 PowerShell 步驟來管理私人通道，您必須從 PowerShell 測試庫安裝並使用最新版本的團隊 PowerShell 模組。 如需如何執行此動作的步驟，請參閱[從 PowerShell 測試圖庫安裝最新的團隊 PowerShell 模組](#install-the-latest-teams-powershell-module-from-the-powershell-test-gallery)。 最新的現有團隊 PowerShell 模組版本（目前為[1.0.2](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.2)）不支援管理私人頻道。
+> 如果您使用本文中的 PowerShell 步驟來管理私人通道，您必須從 PowerShell 測試庫安裝並使用最新版本的團隊 PowerShell 模組。 如需如何執行此動作的步驟，請參閱[從 PowerShell 測試圖庫安裝最新的團隊 PowerShell 模組](#install-the-latest-teams-powershell-module-from-the-powershell-test-gallery)。 最新的現有團隊 PowerShell 模組版本（目前為[1.0.3](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.3)）不支援管理私人頻道。
 
 ## <a name="set-whether-team-members-can-create-private-channels"></a>設定小組成員是否可以建立私人頻道
 
@@ -292,7 +292,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 ### <a name="install-the-latest-teams-powershell-module-from-the-powershell-test-gallery"></a>從 PowerShell 測試圖庫安裝最新的團隊 PowerShell 模組
 
-最新的現有團隊 PowerShell 模組版本（目前為[1.0.2](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.2)）不支援管理私人頻道。 使用這些步驟，從 PowerShell 測試圖庫中安裝含私用通道支援（目前為1.0.18）的最新版本團隊 PowerShell 模組。
+最新的現有團隊 PowerShell 模組版本（目前為[1.0.3](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.3)）不支援管理私人頻道。 使用這些步驟，從 PowerShell 測試圖庫中安裝含私用通道支援（目前為1.0.18）的最新版本團隊 PowerShell 模組。
 
 > [!NOTE]
 > 請勿從 PowerShell 測試圖庫並排安裝團隊 PowerShell 模組與公用 PowerShell 庫中的模組版本。 請依照下列步驟，先從公用 PowerShell 庫中卸載團隊 PowerShell 模組，然後從 PowerShell 測試圖庫安裝最新版本的模組。

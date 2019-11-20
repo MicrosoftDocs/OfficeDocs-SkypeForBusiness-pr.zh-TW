@@ -23,12 +23,12 @@ ms.custom:
 - Alchemy
 - LIL_Placement
 description: '瞭解如何為您的組織設定您的網域、使用者、IM 和目前狀態，以安裝商務用 Skype。 另請參閱如何設定音訊會議、電話系統和通話方案，以及 Skype 會議廣播。 '
-ms.openlocfilehash: 239e1c39563594ffe1ff106284bbbf912367fb88
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: ffa82896bcc17127a2125bd37fea7ce03b227516
+ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "37642814"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38746316"
 ---
 # <a name="set-up-skype-for-business-online"></a>設定商務用 Skype Online
 
@@ -59,9 +59,7 @@ ms.locfileid: "37642814"
 
     ![在您註冊商務用 Skype Online 之後收到的歡迎電子郵件範例。 它包含您的 Office 365 使用者識別碼。](../images/977c5c96-29c5-40c0-a4c4-1ba66ba3a1fb.png)
 
-2. 登入系統管理中心，並輸入您的 Office 365 使用者識別碼和密碼。 登入之後，您會看到 Microsoft 365 系統管理中心：
-
-    ![當您擁有商務用 Skype Online 方案時，系統管理中心的外觀範例。](../images/ed1d9906-e717-450b-81a3-ce6679bd1be1.png)
+2. 登入系統[管理中心](https://admin.microsoft.com)，並輸入您的 Office 365 使用者識別碼和密碼。 
 
 ## <a name="3-set-up-your-domain-and-users"></a>3. 設定您的網域和使用者
 <a name="bkmk_users"> </a>

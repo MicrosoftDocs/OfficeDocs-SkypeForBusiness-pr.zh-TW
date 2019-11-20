@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: '取得商務用 Skype 對等活動報告，並瞭解如何根據您的需求來解讀及自訂。 '
-ms.openlocfilehash: 6564c57cee0821aa0e9204692f160b154ee5513b
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 1c25fc6d331e538aacbebd350180ec0a65821ef5
+ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "37642595"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38746336"
 ---
 # <a name="peer-to-peer-activity-report"></a>對等活動報告
 
@@ -43,13 +43,8 @@ ms.locfileid: "37642595"
 
 1. 移至 [系統管理中心] > [**報告** > **使用方式**]。
     
-2. 在 [**使用狀況**] 頁面上，按一下左側 [**選取報告] 清單**中的 [**商務用 Skype 對等] 活動**。 或者，按一下 [**商務用 skype] 活動**小工具，然後按一下 [商務用**skype 活動**] 清單上的 [**商務用 skype**對等] 活動。
-    
-     ![已選取 [Skype 對等] 功能表](../images/603ec74a-7f39-4e12-8f10-00979f7ee977.PNG)
-  
-    > [!IMPORTANT]
-    > 視您擁有的 Office 365 訂閱而定，您可能不會在這裡看到所有產品和活動報告。 
-  
+2. 在 [**使用狀況**] 頁面上，在左側的 [**選取報告] 清單**中，選取 [**商務** > 用 Skype 對**等] 活動**。 或者，按一下 [**商務用 skype] 活動**小工具，然後按一下 [商務用**skype 活動**] 清單上的 [**商務用 skype**對等] 活動。
+
 ## <a name="interpret-the-skype-for-business-peer-to-peer-activity-report"></a>解讀商務用 Skype 對等活動報告
 
 您可以透過查看 [**活動**]、[**使用者**] 和 [**紀要**] 圖表，來取得商務用 Skype 對等活動。

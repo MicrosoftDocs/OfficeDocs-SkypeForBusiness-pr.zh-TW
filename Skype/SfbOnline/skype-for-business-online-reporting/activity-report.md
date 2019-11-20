@@ -19,16 +19,16 @@ f1keywords:
 ms.custom:
 - Reporting
 description: '瞭解如何取得商務用 Skype 活動報告、所包含的內容，以及如何解讀資料。 '
-ms.openlocfilehash: 05e3c61a144fb962cfb6c7aca83f2996db17370a
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: bedff059e1295714220ff70a7c97439f4b6aeef8
+ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "37642811"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38746306"
 ---
 # <a name="activity-report"></a>活動報告
 
-新的 Office 365 [**報告**] 儀表板會在您組織中的 Office 365 產品上顯示活動概覽。 它可讓您深入探索個別的產品層級報表，讓您更精確地瞭解每個產品內的活動。 例如，您可以使用商務用**Skype 活動**報告來查看您的使用者使用的是對等或組織會議會話，或是他們參與會議會話的數量。 
+Office 365**報告**儀表板會顯示您組織中的 office 365 產品的活動概覽。 它可讓您深入探索個別的產品層級報表，讓您更精確地瞭解每個產品內的活動。 例如，您可以使用商務用**Skype 活動**報告來查看您的使用者使用的是對等或組織會議會話，或是他們參與會議會話的數量。 
 
 若要深入瞭解，請參閱[報表概覽](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)。
   
@@ -41,12 +41,8 @@ ms.locfileid: "37642811"
 
 1. 移至 [系統管理中心] > [**報告** > **使用方式**]。
     
-2. 在 [**使用狀況**] 頁面上，按一下左側的 [**選取報告] 清單**中的 [**商務用 skype 活動**]，或按一下 [**商務用 Skype] 活動**小工具。
-    
-     ![商務用 Skype 儀表板小工具。](../images/3925bc24-18fd-471e-8e93-edf5ccd3cdb7.png)
-  
-    > [!IMPORTANT]
-    > 視您擁有的 Office 365 訂閱而定，您可能不會在這裡看到所有產品和報表。 
+2. 在 [**使用狀況**] 頁面上，選擇左側的 [**選取報告] 清單**中的 [**商務** > 用 skype**活動**]，或按一下 [商務用**Skype] 活動**小工具。
+
   
 ## <a name="interpret-the-skype-for-business-activity-report"></a>解讀商務用 Skype 活動報告
 

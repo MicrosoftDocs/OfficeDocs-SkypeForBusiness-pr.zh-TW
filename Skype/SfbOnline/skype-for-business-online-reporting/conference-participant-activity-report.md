@@ -19,12 +19,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: '瞭解如何取得商務用 Skype 會議參與者活動報告，以及如何解讀及加以自訂。 '
-ms.openlocfilehash: 143af6902c30c007d338b102534af2076a86cdcb
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: b79e90a1dc53ab95af314c99d0ffd1c33f2e1181
+ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "37642440"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38746296"
 ---
 # <a name="conference-participant-activity-report"></a>會議參與者活動報告
 
@@ -41,12 +41,8 @@ ms.locfileid: "37642440"
 
 1. 移至 [系統管理中心] > [**報告** > **使用方式**]。
     
-2. 在 [**使用狀況**] 頁面上，按一下左側 [**選取報告] 清單**中的 [**商務用 Skype 會議參與者活動**]。 或者，按一下 [**商務用 skype] 活動**小工具，然後按一下 [商務用**skype 活動**] 清單上的 [**商務用 skype 會議參與者活動**]。
+2. 在 [**使用狀況**] 頁面上，選取左側 [**選取報告] 清單**中的 [**商務** > 用 Skype**會議參與者活動**]。 或者，按一下 [**商務用 skype] 活動**小工具，然後按一下 [商務用**skype 活動**] 清單上的 [**商務用 skype 會議參與者活動**]。
     
-     ![已選取 Skype 會議參與者活動功能表項目](../images/4033059e-dd2d-447d-8ee8-7515a5c26672.PNG)
-  
-    > [!IMPORTANT]
-    > 視您擁有的 Office 365 訂閱而定，您可能不會在這裡看到所有產品和活動報告。 
   
 ## <a name="interpret-the-skype-for-business-conference-participant-activity-report"></a>解讀商務用 Skype 會議參與者活動報告
 
@@ -64,7 +60,7 @@ ms.locfileid: "37642440"
 ***
 ![數位4](../images/sfbcallout4.png)<br/>使用 [**使用者**] 圖表上的互動式圖表資料來瞭解使用趨勢，以及查看已參與在您組織中的會議的唯一使用者數目。 它會顯示使用者總數，以及已組織的**IM**、**音訊/視頻**、**應用程式共用**、**網頁**及**撥入/撥入/外**傳送。
 ***
-![數位5](../images/sfbcallout5.png)<br/>在**分鐘**數圖表中使用互動式圖表資料，以瞭解使用方式趨勢，並查看使用者使用音訊/視頻以及撥入和撥出電話組織會議時所使用的分鐘數服務. 它會顯示在參與會議期間所使用之**音訊/影片**的總分鐘數。
+![數位5](../images/sfbcallout5.png)<br/>您可以在**分鐘**數圖表上使用互動式圖表資料來瞭解使用方式趨勢，並查看使用者使用音訊/視頻，以及撥入和撥出-Microsoft 作為音訊會議提供者來組織會議時所使用的分鐘數。 它會顯示在參與會議期間所使用之**音訊/影片**的總分鐘數。
 ***
 ![數位6](../images/sfbcallout6.png)<br/>您可以按一下圖例中的專案，篩選您在圖表上看到的系列。 例如，在 [**活動**] 圖表中，按一下或點兩下 [ **IM**]、[**音訊/視頻**]、[**應用程式共用**]、[ **Web**] 和 [撥入/上傳] **-協力廠商**，即可只查看與每一筆相關的 變更此選取範圍不會變更格線表格中的資訊。 
 ***

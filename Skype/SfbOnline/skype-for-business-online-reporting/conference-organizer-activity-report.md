@@ -19,12 +19,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: '瞭解如何取得商務用 Skype 會議已整理的活動報告，以及如何解讀及加以自訂。 '
-ms.openlocfilehash: 77450c0ffd490e295f09951a1c9db9d04db61673
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: e93b77859c601131efae69b6ef30199accf031e7
+ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "37642486"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38746326"
 ---
 # <a name="conference-organizer-activity-report"></a>會議召集人活動報告
 
@@ -41,12 +41,7 @@ ms.locfileid: "37642486"
 
 1. 移至 [系統管理中心] > [**報告** > **使用方式**]。
     
-2. 在 [**使用狀況**] 頁面上，按一下左側 [**選取報告] 清單**中的 [**商務用 Skype 會議召集人活動**]。 或者，按一下 [**商務用 skype] 活動**小工具，然後按一下 [商務用**skype] 活動**清單上的 [**商務用 skype 會議召集人] 活動**。
-    
-     ![已醒目提示商務會議召集人活動的 Skype 報表功能表](../images/3fee95f4-efa1-48f2-89af-a705f8f8b732.PNG)
-  
-    > [!IMPORTANT]
-    > 視您擁有的 Office 365 訂閱而定，您可能不會在這裡看到所有產品和活動報告。 
+2. 在 [**使用狀況**] 頁面上，選取左側 [**選取報告] 清單**中的 [**商務** >用 Skype**會議召集人活動**]。 或者，按一下 [**商務用 skype] 活動**小工具，然後按一下 [商務用**skype] 活動**清單上的 [**商務用 skype 會議召集人] 活動**。
   
 ## <a name="interpret-the-skype-for-business-conferences-organizer-report"></a>解讀商務用 Skype 會議召集人報告
 
@@ -67,7 +62,7 @@ ms.locfileid: "37642486"
 ***
 ![數位4](../images/sfbcallout4.png)<br/>使用 [**使用者**] 圖表上的互動式圖表與即時資料來瞭解使用趨勢，以及查看組織中有已組織會議的唯一使用者數目。 它會顯示您的使用者總數，以及**IM**類型、**音訊/視頻**、**應用程式共用**、**網頁**、**撥入/取出-協力廠商**，以及已組織的**電話撥入/取出 Microsoft**的會議。 
 ***
-![數位5](../images/sfbcallout5.png)<br/>在**分鐘**數圖表中使用互動式圖表與即時資料，以瞭解使用方式趨勢，並查看使用者使用音訊/視頻和撥入和撥出電話組織會議時所使用的分鐘數服務. 它會顯示**音訊/視頻**和**撥入的 microsoft**通話分鐘數，以及在組織的會議期間使用的**撥出 microsoft**通話分鐘數。
+![數位5](../images/sfbcallout5.png)<br/>在**分鐘**數圖表中使用互動式圖表與即時資料，以瞭解使用方式趨勢，以及使用者使用音訊/視頻以及撥入和撥出-Microsoft 作為會議提供者來組織會議時所使用的分鐘數。 它會顯示**音訊/視頻**和**撥入的 microsoft**通話分鐘數，以及在組織的會議期間使用的**撥出 microsoft**通話分鐘數。
 ***
 ![數位6](../images/sfbcallout6.png)<br/>
 每個圖表都有 "X" （水準）和 "Y" （垂直）軸。

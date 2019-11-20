@@ -19,12 +19,12 @@ f1keywords:
 ms.collection:
 - M365-collaboration
 description: 瞭解如何在您的組織中管理使用者排程的小組會議設定。
-ms.openlocfilehash: 36325fe82c8864850da8e92de385752422e02f72
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: cba1a51130a9999ca62c70700a387c88ea1ff58e
+ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37564930"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38746446"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>在 Microsoft 團隊中管理會議設定
 
@@ -32,14 +32,15 @@ ms.locfileid: "37564930"
 
 ## <a name="allow-anonymous-users-to-join-meetings"></a>允許匿名使用者加入會議
 
-透過匿名加入，任何人都可以按一下會議邀請中的連結，以匿名使用者身分加入會議。
+透過匿名加入，任何人都可以按一下會議邀請中的連結，以匿名使用者身分加入會議。 若要深入瞭解，請參閱[加入沒有小群組帳戶的會議](https://support.office.com/article/join-a-meeting-without-a-teams-account-c6efc38f-4e03-4e79-b28f-e65a4c039508)。
+
 
 ![](media/teams-logo-30x30.png) **使用 microsoft [團隊管理中心**] 顯示 Microsoft 團隊標誌的圖示
 
 1. 在左側導覽中，移至 [**會議** > **會議設定**]。
 2. 開啟 [**參與者**] 底下的 [**匿名使用者可以加入會議**]。
 
-    ![系統管理中心會議參與者設定的螢幕擷取畫面](media/meeting-settings-participants.png "Microsoft 團隊管理中心的團隊會議參與者設定的螢幕擷取畫面")
+    ![系統管理中心會議參與者設定的螢幕擷取畫面](media/meeting-settings-participants.png "Microsoft 團隊系統管理中心之團隊會議的參與者設定的螢幕擷取畫面")
 
 如果您不希望匿名使用者加入您組織中的使用者排程的會議，請關閉此設定。
 

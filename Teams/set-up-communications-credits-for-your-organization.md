@@ -1,5 +1,5 @@
 ---
-title: 為您的組織設定通訊點數
+title: 設定貴組織的通訊點數
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -20,16 +20,16 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: '瞭解如何為您的使用者和組織設定通訊點數（PSTN 消費）帳單授權。 '
-ms.openlocfilehash: f1eb46647facce3a849a249cac1b26b2bb9632c8
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 202a8555b43902e553b8eadfaaa30b5577a8e4fa
+ms.sourcegitcommit: d2bee305a3588f8487bba3396b1825be7a52f6d2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571579"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38714239"
 ---
-# <a name="set-up-communications-credits-for-your-organization"></a>為您的組織設定通訊點數
+# <a name="set-up-communications-credits-for-your-organization"></a>設定貴組織的通訊點數
 
-如果您想要在商務用 Skype 和 Microsoft 團隊中使用免付費電話號碼，就必須設定通訊點數。 此外，建議您針對您的通話方案（國內或國際）及需要撥出至**任何目的地**的音訊會議使用者設定通訊點數。 包含許多國家/地區，但某些目的地可能不會包含在您的通話方案或音訊會議訂閱中。 如果您沒有設定通訊信用帳單，並將**通訊點數**授權指派給您的使用者，而您在您的國家/地區的通話方案或音訊會議方案上是您的組織時間，則這些使用者無法從音訊會議會議撥打或撥出電話。 您可以透過閱讀通訊點數來取得詳細資訊（包括建議的融資金額）[嗎？](what-are-communications-credits.md)
+如果您想要在商務用 Skype 和 Microsoft 團隊中使用免付費電話號碼，就必須設定通訊點數。 此外，建議您針對您的通話方案（國內或國際）及需要撥出至**任何目的地**的音訊會議使用者設定通訊點數。 包含許多國家/地區，但某些目的地可能不會包含在您的通話方案或音訊會議訂閱中。 如果您沒有設定通訊信用帳單，並將**通訊點數**授權指派給您的使用者，而您的組織時間卻超出了幾分鐘（視您所在國家/地區的通話方案或音訊會議方案而定），這些使用者將無法撥打電話或撥出音訊會議會議。 您可以透過閱讀通訊點數來取得詳細資訊（包括建議的融資金額）[嗎？](what-are-communications-credits.md)
   
 > [!NOTE]
 > 若要瞭解成本多少，請[參閱這裡的速度](https://go.microsoft.com/fwlink/p/?LinkId=799523 )。 
@@ -44,7 +44,7 @@ ms.locfileid: "37571579"
     
     指派此授權之後，您將需要設定音訊會議。 如需逐步指示，請參閱[在 Office 365 中試用或購買音訊會議](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)。
     
-- 為您的使用者指派**電話系統**和國內或國內和國際通話方案授權。 請參閱[指派 Microsoft 團隊授權](assign-teams-licenses.md)。
+- 為您的使用者指派**電話系統**和**國內或國內和國際**通話方案授權。 請參閱[指派 Microsoft 團隊授權](assign-teams-licenses.md)。
     
     > [!NOTE]
     > 雖然通訊點數不需要，但您仍需要指派**國內通話方案**或**國內與國際通話方案**授權。
@@ -55,7 +55,7 @@ ms.locfileid: "37571579"
   
 ## <a name="step-2-set-up-communications-credits-for-your-organization"></a>步驟2：為您的組織設定通訊點數
 
-1. 使用您的公司或學校帳戶登入 Office 365。
+1. 使用您的公司或學校帳戶登入新的 Office 365 入口網站。
     
 2. 在 Microsoft 365 系統管理中心的左導覽中，移至 [**帳單** > **訂閱** > ]**新增訂閱**。
 
@@ -117,11 +117,11 @@ ms.locfileid: "37571579"
 
 - [設定商務用 Skype Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     
-- [設定雲端語音信箱-系統管理協助](set-up-phone-system-voicemail.md)
+- [設定雲端語音信箱 - 系統管理說明](set-up-phone-system-voicemail.md)
     
 - 設定[Office 365 的](calling-plans-for-office-365.md)[通話方案](set-up-calling-plans.md)和通話方案
     
-- [新增基金及管理通訊點數](add-funds-and-manage-communications-credits.md)
+- [加值和管理通訊點數](add-funds-and-manage-communications-credits.md)
     
   
  
