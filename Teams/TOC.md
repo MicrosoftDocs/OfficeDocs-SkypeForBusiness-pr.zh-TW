@@ -33,6 +33,7 @@
 ## [檢視 Teams 中的跨小組和每一小組分析](teams-analytics-and-reports/cross-team-per-team-analytics.md)
 ## [小組的到期和更新](team-expiration-renewal.md)
 ## [封存或刪除小組](archive-or-delete-a-team.md)
+## [從 Slack 移轉到 Teams](migrate-slack-to-teams.md)
 
 
 
