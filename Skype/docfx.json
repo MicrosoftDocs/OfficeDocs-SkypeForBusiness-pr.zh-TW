@@ -134,22 +134,17 @@
       "breadcrumb_path": "/skypeforbusiness/breadcrumb/toc.json",
       "extendBreadcrumb": "true",
       "ms.suite": "office",
+      "bilingual_type": "hover over",
       "contributors_to_exclude": [
         "dstrome",
         "daswifty",
         "MikePlumleyMSFT"
       ],
-      "feedback_system": "None",
-      "hideEdit": true
+      "feedback_system": "GitHub",
+      "feedback_github_repo": "MicrosoftDocs/OfficeDocs-SkypeForBusiness",
+      "feedback_product_url": "https://www.skypefeedback.com/"
     },
-    "fileMetadata": {
-      "titleSuffix": {
-        "SfBServer2019/*.md": "Skype for Business Server 2019",
-        "SfbHybrid/*.md": "Skype for Business Hybrid",
-        "SfbOnline/*.md": "Skype for Business Online",
-        "SfbServer/*.md": "Skype for Business Server 2015"
-      }
-    },
+    "fileMetadata": {},
     "template": [],
     "dest": "OfficeDocs-SkypeForBusiness",
     "markdownEngineName": "markdig"

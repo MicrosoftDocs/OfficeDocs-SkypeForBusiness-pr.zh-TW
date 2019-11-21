@@ -24,10 +24,7 @@
           "**/*.gif",
           "**/*.svg",
           "**/*.pdf",
-          "**/*.vsdx",
-          "**/*.zip",
-          "**/*.pptx",
-          "**/*.psd"
+          "**/*.vsdx"
         ],
         "exclude": [
           "**/obj/**",
@@ -44,9 +41,12 @@
       "breadcrumb_path": "/microsoftteams/breadcrumb/toc.json",
       "extendBreadcrumb": "true",
       "ms.suite": "office",
+      "bilingual_type": "hover over",
       "contributors_to_exclude": [
+        "dstrome",
         "daswifty",
-        "MikePlumleyMSFT"
+        "MikePlumleyMSFT",
+        "OfficeGSX"
       ],
       "feedback_system": "GitHub",
       "feedback_github_repo": "MicrosoftDocs/OfficeDocs-SkypeForBusiness",
@@ -55,9 +55,6 @@
     "fileMetadata": {},
     "template": [],
     "dest": "OfficeDocs-MicrosoftTeams",
-    "markdownEngineName": "markdig",
-    "titleSuffix": {
-      "Teams/*.md": "Microsoft Teams"
-    }
+    "markdownEngineName": "markdig"
   }
 }
