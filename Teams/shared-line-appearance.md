@@ -20,12 +20,12 @@ f1keywords:
 ms.custom:
 - Phone System
 description: 共用線外觀可讓使用者選擇代表代表對方接聽或處理通話的代理人。
-ms.openlocfilehash: aed55d29f2b9fc45c66040390d4d698acaf25258
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: e668a4d98077eb8d1c2ac3b349e9ba16cb6abcba
+ms.sourcegitcommit: d46e739785595727e2b3e1e5f96f5bff65e78540
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571755"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38753420"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>Microsoft 團隊中的共用線條外觀
 
@@ -36,9 +36,9 @@ ms.locfileid: "37571755"
 
 ## <a name="license-required"></a>需要授權
 
-使用者必須是企業語音使用者，才能成為代理人或設定委派，並允許其他人代表自己撥打或接聽電話。
+使用者必須有使用 PSTN 連線的電話系統（呼叫方案授權或直接路由 OnlineVoiceRoutingPolicy）作為代理人或設定委派，並允許其他人代表對方撥打或接聽電話。
 
-管理員和代理人都必須具備企業語音功能。 共用的線路體驗是委派的一部分，且不需要額外的授權。 如需授權模型的其他詳細資料，請參閱[Microsoft 團隊適用的 Office 365 授權](office-365-licensing.md)。
+管理員和代理人都需要具備 PSTN 連線的電話系統（通話方案授權或直接路由 OnlineVoiceRoutingPolicy）。 共用線體驗是委派的一部分，且包含在手機系統中。 如需授權模型的其他詳細資料，請參閱[Microsoft 團隊適用的 Office 365 授權](office-365-licensing.md)。
 
 ## <a name="configuring-delegation-and-shared-line-appearance"></a>設定委派和共用線外觀
 
@@ -57,14 +57,14 @@ ms.locfileid: "37571755"
 
 | 功能 | 團隊桌面 | 團隊 Mac 應用程式 | 小組 Web App （邊緣） |團隊行動 iOS/Android 應用程式 | 團隊 IP 電話 |
 |------------|---------------|---------------|----------------------|-----------------------------|----------------|
-| 設定委派 | 是的 | 是的 | 是的 | 不 | 不 |
-| 代表其他方式接聽來電 | 是的 | 是的 | 是的 | 是的 | 是的 |
-| 代表其他電話撥打電話號碼 | 是的 | 是的 | 是的 | 是的 | 是的 |
-| 代表其他使用者呼叫團隊使用者 | 是的 | 是的 | 是的 | 是的 | 是的 |
-| 查看共用線的系統管理視圖 | 是的 | 是的 | 是的 | 不 | 不 |
-| 請參閱管理員的通話活動管理檢視 | 是的 | 是的 | 是的 | 不 | 不 |
-| 請參閱代理人的管理員視圖 | 是的 | 是的 | 是的 | 不 | 不 |
-| 系統管理員或經理可以保留或繼續 | 是的 | 是的 | 是的 | 不 | 不 |
+| 設定委派 | 是 | 是 | 是 | 否 | 否 |
+| 代表其他方式接聽來電 | 是 | 是 | 是 | 是 | 是 |
+| 代表其他電話撥打電話號碼 | 是 | 是 | 是 | 是 | 是 |
+| 代表其他使用者呼叫團隊使用者 | 是 | 是 | 是 | 是 | 是 |
+| 查看共用線的系統管理視圖 | 是 | 是 | 是 | 否 | 否 |
+| 請參閱管理員的通話活動管理檢視 | 是 | 是 | 是 | 否 | 否 |
+| 請參閱代理人的管理員視圖 | 是 | 是 | 是 | 否 | 否 |
+| 系統管理員或經理可以保留或繼續 | 是 | 是 | 是 | 否 | 否 |
 
 ## <a name="limitations"></a>有限
 
@@ -72,6 +72,6 @@ ms.locfileid: "37571755"
  
 如果 delegator 和委派不在同一個地理位置，則由 PSTN 提供者允許從不同地理位置針對委派（代表的）通話顯示呼叫者 ID。 
  
-## <a name="more-information"></a>其他資訊
+## <a name="more-information"></a>詳細資訊
 
 [與代理人共用電話線路](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8)

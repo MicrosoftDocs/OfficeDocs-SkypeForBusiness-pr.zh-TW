@@ -15,12 +15,12 @@ ms.collection:
 description: 瞭解 Microsoft 團隊（例如雲端、同步處理及同盟）中的不同身分識別模型。 此外，您也可以瞭解多重要素驗證。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3e485cc04be2e7bb5220a539d94cdce8e91cb0ec
-ms.sourcegitcommit: 2e005b335b1566c99b93fc311498702838466324
+ms.openlocfilehash: c1aba56bccd78a0492e801299f47199b44c296f2
+ms.sourcegitcommit: d46e739785595727e2b3e1e5f96f5bff65e78540
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/02/2019
-ms.locfileid: "37931621"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38753350"
 ---
 <a name="identity-models-and-authentication-in-microsoft-teams"></a>Microsoft 團隊中的身分識別模型與驗證
 ==========================================
