@@ -15,17 +15,19 @@ description: 了解如何使用外部存取 (同盟)和來賓存取在 Microsoft
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: a777baed1d5cc35788b2c4f63741317e34eb7905
-ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
+ms.openlocfilehash: 8132fa07445beb9e9d26195a4269d025169ec94f
+ms.sourcegitcommit: d46e739785595727e2b3e1e5f96f5bff65e78540
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37754369"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38753380"
 ---
 <a name="communicate-with-users-from-other-organizations-in-microsoft-teams"></a>在 Microsoft Teams 中與其他組織的使用者通訊
 ======================================================
 
 當您需要與組織外部人的員通訊和共同作業時，Microsoft Teams 提供您兩種不同的方式。 第一個：**外部存取** (同盟) - 可讓您尋找、通話並與其他網域 (如 contoso.com) 中的使用者聊天。 第二個：**來賓存取** – 可讓您使用對方的電子郵件地址，將其新增到您的團隊。 您可以像與組織中的任何其他使用者一樣與來賓共同作業。
+
+您可以同時使用外部存取和來賓存取，兩者不互相牴觸。
 
 以下是更進階的選擇方法 (如需詳細比較，請跳至[比較外部與和來賓存取](#compare-external-and-guest-access))：
 
