@@ -20,12 +20,12 @@ ms.collection:
 ms.custom: okr_smb
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f5051028b93b5170e7accde90412dcac6ceca04d
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: 6ea246588e6884e7c7dd2755d7d24aa486d193df
+ms.sourcegitcommit: 0f6321d51b40f06855679c18f7313febfedd419a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37968054"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "38793389"
 ---
 > [!NOTE]
 > 請複習下列資訊，瞭解團隊中的聊天、團隊、頻道、& 應用程式。 然後，移至 [[聊天]、[團隊]、[頻道]、& [團隊] 中的應用程式](deploy-chat-teams-channels-microsoft-teams-landing-page.md)，逐步引導您團隊推出的重要決策清單。
@@ -46,6 +46,8 @@ ms.locfileid: "37968054"
 
     - 頻道是在進行交談的位置，以及實際完成工作的位置。 頻道可以開啟給所有團隊成員，或者如果您需要更多選取的物件，則可以是私人的。 標準頻道適用于小組中的每個人都可以參與的交談，而[私人頻道](private-channels.md)則限制與團隊中的人員子集進行通訊。
     - 當您使用包括索引標籤、連接器和 bot 的應用程式（可將其值增加至團隊成員）來延伸時，通道最有價值。 若要深入瞭解，請參閱[小組中的 app、bot、& 連接器](deploy-apps-microsoft-teams-landing-page.md)。
+    
+如需使用團隊和頻道的說明，請參閱[團隊和頻道](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499)。
 
 若要深入瞭解建立小組和頻道的最佳做法，請觀看這段短片。
 

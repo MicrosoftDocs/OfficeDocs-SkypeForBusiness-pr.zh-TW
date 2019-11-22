@@ -18,16 +18,16 @@ f1keywords:
 - ms.teamsadmincenter.networkplanner.personas
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2920f33417fa640b99a408441be6d3f49c3f078d
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: aaefec635e6744dc7c1197f28ffb056be4a88860
+ms.sourcegitcommit: 0f6321d51b40f06855679c18f7313febfedd419a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573362"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "38793479"
 ---
 # <a name="use-the-network-planner-for-microsoft-teams"></a>使用 Microsoft 團隊的網路 Planner
 
-網路 Planner 是團隊系統管理中心提供的新工具。 您可以移至**整個組織的設定** > **網路 planner**，找到該檔案。 網路 Planner 只需要幾個步驟，就能協助您決定並組織在整個組織中連線 Microsoft 團隊使用者的網路需求。 當您提供您的網路詳細資料和團隊使用量時，網路 Planner 會計算您的網路需求，以便在整個組織的物理位置部署團隊和雲端語音。
+網路 Planner 是團隊系統管理中心提供的新工具。 您可以前往**Planner** > **網路 Planner**找到它。 網路 Planner 只需要幾個步驟，就能協助您決定並組織在整個組織中連線 Microsoft 團隊使用者的網路需求。 當您提供您的網路詳細資料和團隊使用量時，網路 Planner 會計算您的網路需求，以便在整個組織的物理位置部署團隊和雲端語音。
 
 ![網路 Planner 的螢幕擷取畫面](media/network-planner.png)
 
@@ -91,7 +91,7 @@ ms.locfileid: "37573362"
 
 1. 在 [**報表**] 索引標籤上，按一下 [**啟動報表**]。
 
-2. 針對您建立的每個網站，散佈各個可用角色的使用者數目。 如果您使用 Microsoft 建議的角色，該數位會自動散佈（80% office worker 和 20% 的遠端工作人員）。
+2. 針對您建立的每個網站，散佈各個可用角色的使用者數目。 如果您使用 Microsoft 建議的角色，該數位會自動散佈（80% office worker 和20% 的遠端工作人員）。
 
 3. 完成發佈之後，按一下 [**產生報表**]。
 

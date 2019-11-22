@@ -14,12 +14,12 @@ search.appverid: MET150
 description: 瞭解如何從 Office 365 審核記錄中檢索 Microsoft 團隊資料。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 96197e7acf067675f3468b122c6fcc8c0386c010
-ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.openlocfilehash: ee0c5175e3712881b1f51b3c98156ba8f179012d
+ms.sourcegitcommit: 0f6321d51b40f06855679c18f7313febfedd419a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37968014"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "38793379"
 ---
 <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>在 [審核記錄] 中搜尋 Microsoft 團隊中的事件
 ==================================================
@@ -50,7 +50,10 @@ ms.locfileid: "37968014"
 
 ## <a name="retrieve-teams-data-from-the-audit-log"></a>從審核記錄中取得團隊資料
 
-1. 若要取得審核記錄，請移至[安全性 & 合規性中心](https://go.microsoft.com/fwlink/?linkid=855775)。 在 [**搜尋 & 調查**] 底下，選取 [**審核記錄搜尋**]。
+
+1.  若要取得審核記錄，請移至[安全性 & 合規性中心](https://go.microsoft.com/fwlink/?linkid=855775)。 在 [**搜尋**] 底下，選取 [**審核記錄搜尋**]。
+
+
 
 2. 使用 [**搜尋**] 篩選您想要審核的活動、日期和使用者。
 

@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9b3d2ed05459c6866c73b0f49b128eea3980605f
-ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.openlocfilehash: fa8e71d167bbb5f5381c66a1a8545a6f94f74e62
+ms.sourcegitcommit: 0f6321d51b40f06855679c18f7313febfedd419a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37968304"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "38793499"
 ---
 # <a name="microsoft-teams-retention-policies-faq"></a>Microsoft 團隊保留原則常見問題
 
@@ -44,6 +44,10 @@ ms.locfileid: "37968304"
 ### <a name="what-is-the-default-retention-policy"></a>預設的保留原則為何？ 
 
 依預設，小組聊天、頻道和檔案資料都會永久保留。
+
+### <a name="what-licensing-is-required-for-retention-policies"></a>保留原則所需的授權是什麼？
+
+保留原則的最低授權需求是 Office 365 E3。 如需授權的詳細資訊，請參閱[Office 365 的小組授權](office-365-licensing.md)。
 
 ### <a name="can-i-target-sets-of-users-or-teams-in-a-policy"></a>我可以針對原則中的使用者或團隊設定目標嗎？ 
 

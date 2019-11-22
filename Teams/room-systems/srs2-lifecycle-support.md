@@ -12,12 +12,12 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 description: 本文將討論 Microsoft 團隊聊天室的生命週期支援。
-ms.openlocfilehash: 55fde6317fe53102b97f752667d540e33a7b8c8c
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: a76fc10b2348b1ecd89a8beabc30c104e32ec13c
+ms.sourcegitcommit: 0f6321d51b40f06855679c18f7313febfedd419a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38675791"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "38793509"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Microsoft 團隊聊天室 app 版本支援
  
@@ -51,6 +51,7 @@ Microsoft 團隊聊天室需要 Windows 10 IoT Enterprise 或 Windows 10 企業�
 
 |版本  |可用性日期   |Microsoft 團隊聊天室支援狀態   |Microsoft 團隊會議室的最小應用程式版本 | 建議的作業系統組建  |
 |:---  |:---       |:---                                  |:---     |:---     |
+| 1909 |2019-11-12 |目前正在驗證， <br/>不建議使用|&#x2014; |&#x2014; |
 | 1903 |2019-05-21 |支援的 &#x2780; <br/>採用  |4.2.4.0 |18362.356 |
 | 1809 |2019-03-28 |略過 <br/>不建議使用 &#x2781;|&#x2014; |&#x2014; |
 | 1803 |2018-07-10 |受                             |4.1.22.0 |17134.191|

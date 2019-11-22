@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5affe464ac300d0084916ad8ec0044ca74f8fa6b
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 42fd9820f6f8ce11b245412a5ae99ed7b43dbc1e
+ms.sourcegitcommit: 0f6321d51b40f06855679c18f7313febfedd419a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570077"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "38793529"
 ---
 <a name="publish-apps-in-the-microsoft-teams-tenant-apps-catalog"></a>在 Microsoft 團隊租使用者應用程式目錄中發佈應用程式
 =======================================================
@@ -45,13 +45,13 @@ ms.locfileid: "37570077"
 
 ### <a name="go-to-the-tenant-apps-catalog"></a>移至租使用者應用程式目錄
 
-啟動 Microsoft 團隊用戶端，然後使用您的全域或團隊服務管理員認證登入。 從 [Microsoft 團隊] 商店中，選取名為 [您的特定組織] （在此範例中為 [Contoso]）的新節。 貴組織中的使用者可以在目錄中查看應用程式，並為他們所屬的小組安裝這些 app。
+啟動 Microsoft 團隊用戶端，然後使用您的全域或團隊服務管理員認證登入。 選取應用程式左側的 [**應用程式**]，然後選取名為 [您的特定組織] （在此範例中為 Contoso）的新節。 貴組織中的使用者可以在目錄中查看應用程式，並為他們所屬的小組安裝這些 app。
 
 ![顯示 [應用程式目錄] 的 [小組] App 存放區的螢幕擷取畫面。](media/private-app-store-teams-image01.png)
 
 ### <a name="add-an-app-to-the-tenant-apps-catalog"></a>將應用程式新增至租使用者應用程式目錄
 
-1. 從商店中，選取 **[上傳 Contoso 的自訂應用程式** > **上傳**]。
+1. 在 [**應用程式**] 頁面上，選取 **[上傳 Contoso 的自訂應用程式** > 上**傳**]。
 
     ![顯示 [應用程式目錄] 的 [小組] App 存放區的螢幕擷取畫面。](media/private-app-store-teams-image02.png)
 
@@ -75,7 +75,7 @@ App 將會修正為版本2.0。 您也可以從這個功能表刪除整個公司
 
 ## <a name="use-the-office-365-admin-portal-to-manage-the-tenant-apps-catalog"></a>使用 Office 365 管理入口網站管理租使用者應用程式目錄
 
-如果您有需要修正錯誤的 app，您可以透過 Office 365 系統管理入口網站暫時停用 app。 選取 [**設定** > **服務] & 的增益集** > **Microsoft 團隊**。 除了先前的設定之外，現在還有一個章節專門用於貴公司的 app。 您可以選擇要啟用或停用的應用程式。
+如果您的應用程式需要修正錯誤，您可以透過 Microsoft 365 系統管理中心暫時停用應用程式 **> 團隊系統管理中心** > **團隊 app** > **許可權原則** > <原則名稱（例如「全域（組織範圍的預設值）」） >**租**使用者 > 封鎖特定 app 並允許其他所有人，並將您的應用程式新增到清單中。
 
 ![顯示 [應用程式目錄] 的 [小組] App 存放區的螢幕擷取畫面。](media/private-app-store-teams-image05.png)
 
