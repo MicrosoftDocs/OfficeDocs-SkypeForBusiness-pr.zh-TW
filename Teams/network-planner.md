@@ -18,89 +18,89 @@ f1keywords:
 - ms.teamsadmincenter.networkplanner.personas
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2920f33417fa640b99a408441be6d3f49c3f078d
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: aaefec635e6744dc7c1197f28ffb056be4a88860
+ms.sourcegitcommit: 0f6321d51b40f06855679c18f7313febfedd419a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573362"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "38793479"
 ---
-# <a name="use-the-network-planner-for-microsoft-teams"></a><span data-ttu-id="bc723-103">使用 Microsoft 團隊的網路 Planner</span><span class="sxs-lookup"><span data-stu-id="bc723-103">Use the Network Planner for Microsoft Teams</span></span>
+# <a name="use-the-network-planner-for-microsoft-teams"></a><span data-ttu-id="e0e9f-103">使用 Microsoft 團隊的網路 Planner</span><span class="sxs-lookup"><span data-stu-id="e0e9f-103">Use the Network Planner for Microsoft Teams</span></span>
 
-<span data-ttu-id="bc723-104">網路 Planner 是團隊系統管理中心提供的新工具。</span><span class="sxs-lookup"><span data-stu-id="bc723-104">Network Planner is a new tool that is available in the Teams admin center.</span></span> <span data-ttu-id="bc723-105">您可以移至**整個組織的設定** > **網路 planner**，找到該檔案。</span><span class="sxs-lookup"><span data-stu-id="bc723-105">It can be found by going to **Org-wide settings** > **Network planner**.</span></span> <span data-ttu-id="bc723-106">網路 Planner 只需要幾個步驟，就能協助您決定並組織在整個組織中連線 Microsoft 團隊使用者的網路需求。</span><span class="sxs-lookup"><span data-stu-id="bc723-106">In just a few steps, the Network Planner can help you determine and organize network requirements for connecting Microsoft Teams users across your organization.</span></span> <span data-ttu-id="bc723-107">當您提供您的網路詳細資料和團隊使用量時，網路 Planner 會計算您的網路需求，以便在整個組織的物理位置部署團隊和雲端語音。</span><span class="sxs-lookup"><span data-stu-id="bc723-107">When you provide your network details and Teams usage, the Network Planner calculates your network requirements for deploying Teams and cloud voice across your organization’s physical locations.</span></span>
+<span data-ttu-id="e0e9f-104">網路 Planner 是團隊系統管理中心提供的新工具。</span><span class="sxs-lookup"><span data-stu-id="e0e9f-104">Network Planner is a new tool that is available in the Teams admin center.</span></span> <span data-ttu-id="e0e9f-105">您可以前往**Planner** > **網路 Planner**找到它。</span><span class="sxs-lookup"><span data-stu-id="e0e9f-105">It can be found by going to **Planner** > **Network planner**.</span></span> <span data-ttu-id="e0e9f-106">網路 Planner 只需要幾個步驟，就能協助您決定並組織在整個組織中連線 Microsoft 團隊使用者的網路需求。</span><span class="sxs-lookup"><span data-stu-id="e0e9f-106">In just a few steps, the Network Planner can help you determine and organize network requirements for connecting Microsoft Teams users across your organization.</span></span> <span data-ttu-id="e0e9f-107">當您提供您的網路詳細資料和團隊使用量時，網路 Planner 會計算您的網路需求，以便在整個組織的物理位置部署團隊和雲端語音。</span><span class="sxs-lookup"><span data-stu-id="e0e9f-107">When you provide your network details and Teams usage, the Network Planner calculates your network requirements for deploying Teams and cloud voice across your organization’s physical locations.</span></span>
 
 ![網路 Planner 的螢幕擷取畫面](media/network-planner.png)
 
-<span data-ttu-id="bc723-109">網路 Planner 可讓您：</span><span class="sxs-lookup"><span data-stu-id="bc723-109">Network Planner allows you to:</span></span>
+<span data-ttu-id="e0e9f-109">網路 Planner 可讓您：</span><span class="sxs-lookup"><span data-stu-id="e0e9f-109">Network Planner allows you to:</span></span>
 
-- <span data-ttu-id="bc723-110">使用網站與 Microsoft 建議的角色（office 工人、遠端工作人員和團隊房間系統）建立您組織的代表。</span><span class="sxs-lookup"><span data-stu-id="bc723-110">Create representations of your organization using sites and Microsoft recommended personas (office workers, remote workers, and Teams room system).</span></span>
+- <span data-ttu-id="e0e9f-110">使用網站與 Microsoft 建議的角色（office 工人、遠端工作人員和團隊房間系統）建立您組織的代表。</span><span class="sxs-lookup"><span data-stu-id="e0e9f-110">Create representations of your organization using sites and Microsoft recommended personas (office workers, remote workers, and Teams room system).</span></span>
 
     > [!NOTE]
-    > <span data-ttu-id="bc723-111">根據來自團隊最佳使用案例的資料，以及一般使用模式所開發的建議角色。</span><span class="sxs-lookup"><span data-stu-id="bc723-111">The recommended personas were developed based on data from Teams best use scenarios and typical usage patterns.</span></span> <span data-ttu-id="bc723-112">不過，除了三個建議的角色之外，您還可以建立最多三個自訂角色。</span><span class="sxs-lookup"><span data-stu-id="bc723-112">However, you can create up to three custom personas in addition to the three recommended personas.</span></span>
+    > <span data-ttu-id="e0e9f-111">根據來自團隊最佳使用案例的資料，以及一般使用模式所開發的建議角色。</span><span class="sxs-lookup"><span data-stu-id="e0e9f-111">The recommended personas were developed based on data from Teams best use scenarios and typical usage patterns.</span></span> <span data-ttu-id="e0e9f-112">不過，除了三個建議的角色之外，您還可以建立最多三個自訂角色。</span><span class="sxs-lookup"><span data-stu-id="e0e9f-112">However, you can create up to three custom personas in addition to the three recommended personas.</span></span>
 
-- <span data-ttu-id="bc723-113">產生報告並計算團隊使用量的頻寬需求。</span><span class="sxs-lookup"><span data-stu-id="bc723-113">Generate reports and calculate bandwidth requirements for Teams usage.</span></span>
+- <span data-ttu-id="e0e9f-113">產生報告並計算團隊使用量的頻寬需求。</span><span class="sxs-lookup"><span data-stu-id="e0e9f-113">Generate reports and calculate bandwidth requirements for Teams usage.</span></span>
 
-<span data-ttu-id="bc723-114">若要使用網路 Planner，您必須是全域系統管理員、團隊服務系統管理員或團隊通訊系統管理員。</span><span class="sxs-lookup"><span data-stu-id="bc723-114">To use Network Planner, you must be a Global Administrator, Teams Service Administrator, or Teams Communications Administrator.</span></span>
+<span data-ttu-id="e0e9f-114">若要使用網路 Planner，您必須是全域系統管理員、團隊服務系統管理員或團隊通訊系統管理員。</span><span class="sxs-lookup"><span data-stu-id="e0e9f-114">To use Network Planner, you must be a Global Administrator, Teams Service Administrator, or Teams Communications Administrator.</span></span>
 
-## <a name="create-a-custom-persona"></a><span data-ttu-id="bc723-115">建立自訂角色</span><span class="sxs-lookup"><span data-stu-id="bc723-115">Create a custom persona</span></span>
+## <a name="create-a-custom-persona"></a><span data-ttu-id="e0e9f-115">建立自訂角色</span><span class="sxs-lookup"><span data-stu-id="e0e9f-115">Create a custom persona</span></span>
 
-<span data-ttu-id="bc723-116">請依照下列步驟來建立自訂角色：</span><span class="sxs-lookup"><span data-stu-id="bc723-116">Follow these steps to create a custom persona:</span></span>
+<span data-ttu-id="e0e9f-116">請依照下列步驟來建立自訂角色：</span><span class="sxs-lookup"><span data-stu-id="e0e9f-116">Follow these steps to create a custom persona:</span></span>
 
-1. <span data-ttu-id="bc723-117">移至 Microsoft 團隊系統管理中心的 [網路 Planner]。</span><span class="sxs-lookup"><span data-stu-id="bc723-117">Go to the Network Planner in the Microsoft Teams admin center.</span></span>
+1. <span data-ttu-id="e0e9f-117">移至 Microsoft 團隊系統管理中心的 [網路 Planner]。</span><span class="sxs-lookup"><span data-stu-id="e0e9f-117">Go to the Network Planner in the Microsoft Teams admin center.</span></span>
 
-2. <span data-ttu-id="bc723-118">在 [**角色**] 索引標籤上，按一下 [ **+ 自訂角色**]。</span><span class="sxs-lookup"><span data-stu-id="bc723-118">On the **Personas** tab, click **+ Custom persona**.</span></span> 
+2. <span data-ttu-id="e0e9f-118">在 [**角色**] 索引標籤上，按一下 [ **+ 自訂角色**]。</span><span class="sxs-lookup"><span data-stu-id="e0e9f-118">On the **Personas** tab, click **+ Custom persona**.</span></span> 
 
-3. <span data-ttu-id="bc723-119">在 [**新增自訂角色**] 窗格中，為新的角色新增名稱和描述。</span><span class="sxs-lookup"><span data-stu-id="bc723-119">In the **New custom persona** pane, add a name and description for the new persona.</span></span>
+3. <span data-ttu-id="e0e9f-119">在 [**新增自訂角色**] 窗格中，為新的角色新增名稱和描述。</span><span class="sxs-lookup"><span data-stu-id="e0e9f-119">In the **New custom persona** pane, add a name and description for the new persona.</span></span>
 
-4. <span data-ttu-id="bc723-120">選取此角色將在組織中使用的許可權。</span><span class="sxs-lookup"><span data-stu-id="bc723-120">Select the permissions that this persona will use within the organization.</span></span>
+4. <span data-ttu-id="e0e9f-120">選取此角色將在組織中使用的許可權。</span><span class="sxs-lookup"><span data-stu-id="e0e9f-120">Select the permissions that this persona will use within the organization.</span></span>
 
-5. <span data-ttu-id="bc723-121">按一下 [**儲存**]。</span><span class="sxs-lookup"><span data-stu-id="bc723-121">Click **Save**.</span></span>
+5. <span data-ttu-id="e0e9f-121">按一下 [**儲存**]。</span><span class="sxs-lookup"><span data-stu-id="e0e9f-121">Click **Save**.</span></span>
 
-## <a name="build-your-plan"></a><span data-ttu-id="bc723-122">建立您的計畫</span><span class="sxs-lookup"><span data-stu-id="bc723-122">Build your plan</span></span>
+## <a name="build-your-plan"></a><span data-ttu-id="e0e9f-122">建立您的計畫</span><span class="sxs-lookup"><span data-stu-id="e0e9f-122">Build your plan</span></span>
 
-<span data-ttu-id="bc723-123">請依照下列步驟開始建立您的網路方案：</span><span class="sxs-lookup"><span data-stu-id="bc723-123">Follow these steps to begin building your network plan:</span></span>
+<span data-ttu-id="e0e9f-123">請依照下列步驟開始建立您的網路方案：</span><span class="sxs-lookup"><span data-stu-id="e0e9f-123">Follow these steps to begin building your network plan:</span></span>
 
-1. <span data-ttu-id="bc723-124">移至 Microsoft 團隊系統管理中心的 [網路 Planner]。</span><span class="sxs-lookup"><span data-stu-id="bc723-124">Go to the Network Planner in the Microsoft Teams admin center.</span></span>
+1. <span data-ttu-id="e0e9f-124">移至 Microsoft 團隊系統管理中心的 [網路 Planner]。</span><span class="sxs-lookup"><span data-stu-id="e0e9f-124">Go to the Network Planner in the Microsoft Teams admin center.</span></span>
 
-2. <span data-ttu-id="bc723-125">在 [**網路方案**] 索引標籤上，按一下 [**新增網路方案**]。</span><span class="sxs-lookup"><span data-stu-id="bc723-125">On the **Network Plan** tab, click **Add a network plan**.</span></span>
+2. <span data-ttu-id="e0e9f-125">在 [**網路方案**] 索引標籤上，按一下 [**新增網路方案**]。</span><span class="sxs-lookup"><span data-stu-id="e0e9f-125">On the **Network Plan** tab, click **Add a network plan**.</span></span>
 
-3. <span data-ttu-id="bc723-126">輸入您的網路方案的名稱和描述。</span><span class="sxs-lookup"><span data-stu-id="bc723-126">Enter a name and description for your network plan.</span></span> <span data-ttu-id="bc723-127">網路方案會出現在可用方案清單中。</span><span class="sxs-lookup"><span data-stu-id="bc723-127">The network plan will appear in the list of available plans.</span></span>
+3. <span data-ttu-id="e0e9f-126">輸入您的網路方案的名稱和描述。</span><span class="sxs-lookup"><span data-stu-id="e0e9f-126">Enter a name and description for your network plan.</span></span> <span data-ttu-id="e0e9f-127">網路方案會出現在可用方案清單中。</span><span class="sxs-lookup"><span data-stu-id="e0e9f-127">The network plan will appear in the list of available plans.</span></span>
 
-4. <span data-ttu-id="bc723-128">按一下方案名稱以選取新方案。</span><span class="sxs-lookup"><span data-stu-id="bc723-128">Click the plan name to select the new plan.</span></span>
+4. <span data-ttu-id="e0e9f-128">按一下方案名稱以選取新方案。</span><span class="sxs-lookup"><span data-stu-id="e0e9f-128">Click the plan name to select the new plan.</span></span>
 
-5. <span data-ttu-id="bc723-129">新增網站以建立貴組織網路設定的表示。</span><span class="sxs-lookup"><span data-stu-id="bc723-129">Add sites to create a representation of your organization’s network setup.</span></span>
+5. <span data-ttu-id="e0e9f-129">新增網站以建立貴組織網路設定的表示。</span><span class="sxs-lookup"><span data-stu-id="e0e9f-129">Add sites to create a representation of your organization’s network setup.</span></span>
 
-    <span data-ttu-id="bc723-130">視貴組織的網路而定，您可能會想要使用網站來代表組建、辦公室位置或其他內容。</span><span class="sxs-lookup"><span data-stu-id="bc723-130">Depending on your organization’s network, you may want to use sites to represent a building, an office location, or something else.</span></span> <span data-ttu-id="bc723-131">網站可能是由 WAN 連線來允許共用網際網路和/或 PSTN 連線。</span><span class="sxs-lookup"><span data-stu-id="bc723-131">Sites might be connected by a WAN to allow sharing of internet and/or PSTN connections.</span></span> <span data-ttu-id="bc723-132">為了獲得最佳結果，請先建立擁有本機連線的網站，然後再建立可遠端連線至網際網路或 PSTN 的網站。</span><span class="sxs-lookup"><span data-stu-id="bc723-132">For best results, create sites with local connections before you create sites that remotely connect to the internet or PSTN.</span></span>
+    <span data-ttu-id="e0e9f-130">視貴組織的網路而定，您可能會想要使用網站來代表組建、辦公室位置或其他內容。</span><span class="sxs-lookup"><span data-stu-id="e0e9f-130">Depending on your organization’s network, you may want to use sites to represent a building, an office location, or something else.</span></span> <span data-ttu-id="e0e9f-131">網站可能是由 WAN 連線來允許共用網際網路和/或 PSTN 連線。</span><span class="sxs-lookup"><span data-stu-id="e0e9f-131">Sites might be connected by a WAN to allow sharing of internet and/or PSTN connections.</span></span> <span data-ttu-id="e0e9f-132">為了獲得最佳結果，請先建立擁有本機連線的網站，然後再建立可遠端連線至網際網路或 PSTN 的網站。</span><span class="sxs-lookup"><span data-stu-id="e0e9f-132">For best results, create sites with local connections before you create sites that remotely connect to the internet or PSTN.</span></span>
 
-    <span data-ttu-id="bc723-133">若要建立網站：</span><span class="sxs-lookup"><span data-stu-id="bc723-133">To create a site:</span></span>
+    <span data-ttu-id="e0e9f-133">若要建立網站：</span><span class="sxs-lookup"><span data-stu-id="e0e9f-133">To create a site:</span></span>
 
-    1. <span data-ttu-id="bc723-134">為您的網站新增名稱和描述。</span><span class="sxs-lookup"><span data-stu-id="bc723-134">Add a name and description for your site.</span></span>
+    1. <span data-ttu-id="e0e9f-134">為您的網站新增名稱和描述。</span><span class="sxs-lookup"><span data-stu-id="e0e9f-134">Add a name and description for your site.</span></span>
 
-    2. <span data-ttu-id="bc723-135">在 [**網路設定**] 底下，新增該網站的網路使用者數量（必要）。</span><span class="sxs-lookup"><span data-stu-id="bc723-135">Under **Network settings**, add the number of network users at that site (required).</span></span>
+    2. <span data-ttu-id="e0e9f-135">在 [**網路設定**] 底下，新增該網站的網路使用者數量（必要）。</span><span class="sxs-lookup"><span data-stu-id="e0e9f-135">Under **Network settings**, add the number of network users at that site (required).</span></span>
 
-    3. <span data-ttu-id="bc723-136">新增網路詳細資料： WAN 啟用、WAN 容量、網際網路出口（**本機**或**遠端**）和 PSTN 出口（無、本機或遠端）。</span><span class="sxs-lookup"><span data-stu-id="bc723-136">Add network details: WAN-enabled, WAN capacity, internet egress (**Local** or **Remote**), and PSTN egress (none, local, or remote).</span></span>
+    3. <span data-ttu-id="e0e9f-136">新增網路詳細資料： WAN 啟用、WAN 容量、網際網路出口（**本機**或**遠端**）和 PSTN 出口（無、本機或遠端）。</span><span class="sxs-lookup"><span data-stu-id="e0e9f-136">Add network details: WAN-enabled, WAN capacity, internet egress (**Local** or **Remote**), and PSTN egress (none, local, or remote).</span></span>
 
       > [!NOTE]
-      > <span data-ttu-id="bc723-137">您必須新增 WAN 和網際網路容量數位，才能查看您產生報告時的特定頻寬建議。</span><span class="sxs-lookup"><span data-stu-id="bc723-137">You must add WAN and internet capacity numbers to see specific bandwidth recommendations when you generate a report.</span></span>
+      > <span data-ttu-id="e0e9f-137">您必須新增 WAN 和網際網路容量數位，才能查看您產生報告時的特定頻寬建議。</span><span class="sxs-lookup"><span data-stu-id="e0e9f-137">You must add WAN and internet capacity numbers to see specific bandwidth recommendations when you generate a report.</span></span>
 
-    4. <span data-ttu-id="bc723-138">按一下 [**儲存**]。</span><span class="sxs-lookup"><span data-stu-id="bc723-138">Click **Save**.</span></span>
+    4. <span data-ttu-id="e0e9f-138">按一下 [**儲存**]。</span><span class="sxs-lookup"><span data-stu-id="e0e9f-138">Click **Save**.</span></span>
 
-## <a name="create-a-report"></a><span data-ttu-id="bc723-139">建立報表</span><span class="sxs-lookup"><span data-stu-id="bc723-139">Create a report</span></span>
+## <a name="create-a-report"></a><span data-ttu-id="e0e9f-139">建立報表</span><span class="sxs-lookup"><span data-stu-id="e0e9f-139">Create a report</span></span>
 
-<span data-ttu-id="bc723-140">新增所有網站之後，您可以建立報表，如下所示。</span><span class="sxs-lookup"><span data-stu-id="bc723-140">After you add all sites, you can create a report, as follows.</span></span>
+<span data-ttu-id="e0e9f-140">新增所有網站之後，您可以建立報表，如下所示。</span><span class="sxs-lookup"><span data-stu-id="e0e9f-140">After you add all sites, you can create a report, as follows.</span></span>
 
-1. <span data-ttu-id="bc723-141">在 [**報表**] 索引標籤上，按一下 [**啟動報表**]。</span><span class="sxs-lookup"><span data-stu-id="bc723-141">On the **Reports** tab, click **Start a report**.</span></span>
+1. <span data-ttu-id="e0e9f-141">在 [**報表**] 索引標籤上，按一下 [**啟動報表**]。</span><span class="sxs-lookup"><span data-stu-id="e0e9f-141">On the **Reports** tab, click **Start a report**.</span></span>
 
-2. <span data-ttu-id="bc723-142">針對您建立的每個網站，散佈各個可用角色的使用者數目。</span><span class="sxs-lookup"><span data-stu-id="bc723-142">For each site you create, distribute the number of users across the available personas.</span></span> <span data-ttu-id="bc723-143">如果您使用 Microsoft 建議的角色，該數位會自動散佈（80% office worker 和 20% 的遠端工作人員）。</span><span class="sxs-lookup"><span data-stu-id="bc723-143">If you use the Microsoft recommended personas, the number will be distributed automatically (80% office worker and 20% remote worker).</span></span>
+2. <span data-ttu-id="e0e9f-142">針對您建立的每個網站，散佈各個可用角色的使用者數目。</span><span class="sxs-lookup"><span data-stu-id="e0e9f-142">For each site you create, distribute the number of users across the available personas.</span></span> <span data-ttu-id="e0e9f-143">如果您使用 Microsoft 建議的角色，該數位會自動散佈（80% office worker 和20% 的遠端工作人員）。</span><span class="sxs-lookup"><span data-stu-id="e0e9f-143">If you use the Microsoft recommended personas, the number will be distributed automatically (80% office worker and 20% remote worker).</span></span>
 
-3. <span data-ttu-id="bc723-144">完成發佈之後，按一下 [**產生報表**]。</span><span class="sxs-lookup"><span data-stu-id="bc723-144">After you complete the distribution, click **Generate report**.</span></span>
+3. <span data-ttu-id="e0e9f-144">完成發佈之後，按一下 [**產生報表**]。</span><span class="sxs-lookup"><span data-stu-id="e0e9f-144">After you complete the distribution, click **Generate report**.</span></span>
 
-    <span data-ttu-id="bc723-145">產生的報告將會顯示幾個不同視圖的頻寬需求，讓您可以清楚地瞭解輸出：</span><span class="sxs-lookup"><span data-stu-id="bc723-145">The generated report will show the bandwidth requirements in several different views so that you can clearly understand the output:</span></span>
-    - <span data-ttu-id="bc723-146">含個別計算的表格將會顯示每個允許活動的頻寬需求。</span><span class="sxs-lookup"><span data-stu-id="bc723-146">A table with individual calculations will display bandwidth requirements for each permitted activity.</span></span>
-    - <span data-ttu-id="bc723-147">[其他] 視圖會以建議顯示整體頻寬需求。</span><span class="sxs-lookup"><span data-stu-id="bc723-147">An additional view will show the overall bandwidth needs with recommendations.</span></span>
+    <span data-ttu-id="e0e9f-145">產生的報告將會顯示幾個不同視圖的頻寬需求，讓您可以清楚地瞭解輸出：</span><span class="sxs-lookup"><span data-stu-id="e0e9f-145">The generated report will show the bandwidth requirements in several different views so that you can clearly understand the output:</span></span>
+    - <span data-ttu-id="e0e9f-146">含個別計算的表格將會顯示每個允許活動的頻寬需求。</span><span class="sxs-lookup"><span data-stu-id="e0e9f-146">A table with individual calculations will display bandwidth requirements for each permitted activity.</span></span>
+    - <span data-ttu-id="e0e9f-147">[其他] 視圖會以建議顯示整體頻寬需求。</span><span class="sxs-lookup"><span data-stu-id="e0e9f-147">An additional view will show the overall bandwidth needs with recommendations.</span></span>
 
-4. <span data-ttu-id="bc723-148">按一下 [**儲存**]。</span><span class="sxs-lookup"><span data-stu-id="bc723-148">Click **Save**.</span></span> <span data-ttu-id="bc723-149">您可以在報表清單中使用您的報表，以供日後查看。</span><span class="sxs-lookup"><span data-stu-id="bc723-149">Your report will be available on the reports list for later viewing.</span></span>
+4. <span data-ttu-id="e0e9f-148">按一下 [**儲存**]。</span><span class="sxs-lookup"><span data-stu-id="e0e9f-148">Click **Save**.</span></span> <span data-ttu-id="e0e9f-149">您可以在報表清單中使用您的報表，以供日後查看。</span><span class="sxs-lookup"><span data-stu-id="e0e9f-149">Your report will be available on the reports list for later viewing.</span></span>
 
-## <a name="example-scenario"></a><span data-ttu-id="bc723-150">範例案例</span><span class="sxs-lookup"><span data-stu-id="bc723-150">Example scenario</span></span>
+## <a name="example-scenario"></a><span data-ttu-id="e0e9f-150">範例案例</span><span class="sxs-lookup"><span data-stu-id="e0e9f-150">Example scenario</span></span>
 
-<span data-ttu-id="bc723-151">如需如何使用網路 Planner 設定網路方案並使用這些步驟產生報告的範例，請下載[網路 Planner 操作說明版 PowerPoint](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-planner-how-to.pptx?raw=true)投影片組（僅提供英文版）。</span><span class="sxs-lookup"><span data-stu-id="bc723-151">For an example of how to use the Network Planner to set up a network plan and generate a report using these steps, download the [Network Planner How-To PowerPoint deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-planner-how-to.pptx?raw=true) (English only).</span></span>
+<span data-ttu-id="e0e9f-151">如需如何使用網路 Planner 設定網路方案並使用這些步驟產生報告的範例，請下載[網路 Planner 操作說明版 PowerPoint](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-planner-how-to.pptx?raw=true)投影片組（僅提供英文版）。</span><span class="sxs-lookup"><span data-stu-id="e0e9f-151">For an example of how to use the Network Planner to set up a network plan and generate a report using these steps, download the [Network Planner How-To PowerPoint deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-planner-how-to.pptx?raw=true) (English only).</span></span>
