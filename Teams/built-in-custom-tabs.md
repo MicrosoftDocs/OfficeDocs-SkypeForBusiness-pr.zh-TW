@@ -14,12 +14,12 @@ search.appverid: MET150
 description: 瞭解如何使用內建和自訂索引標籤來包含交談、檔案、地圖等功能。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9a9a78f2b611bd586b0e465f8e5045484417d07f
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 3cec2b6bef02eaa334bcd50d225edd1f579df038
+ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37517035"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "39209109"
 ---
 <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>在 Microsoft 團隊中使用內建和自訂索引標籤
 ==================================================
@@ -53,9 +53,9 @@ ms.locfileid: "37517035"
 
 ## <a name="develop-custom-tabs"></a>開發自訂索引標籤
 
-除了內建索引標籤之外，您還可以設計及開發自己的索引標籤，以整合至小組或與其他群組共用。 您可以設定適當的 Office 365 群組，[以控制對您的自訂](https://docs.microsoft.com/en-us/microsoftteams/platform/get-started/design#streamline-access)索引標籤的存取權。
+除了內建索引標籤之外，您還可以設計及開發自己的索引標籤，以整合至小組或與其他群組共用。 您可以設定適當的 Office 365 群組，[以控制對您的自訂](https://docs.microsoft.com/microsoftteams/platform/get-started/design#streamline-access)索引標籤的存取權。
 
-Microsoft 開發人員網路提供 Microsoft 所開發的[範例](https://go.microsoft.com/fwlink/?linkid=855787)索引標籤，以及設計及建立您自己的索引標籤的[詳細指示](https://go.microsoft.com/fwlink/?linkid=855786)。
+Microsoft 開發人員網路提供 Microsoft 所開發的[範例](https://docs.microsoft.com/MicrosoftTeams/platform/samples/code-samples)索引標籤，以及設計及建立您自己的索引標籤的[詳細指示](https://docs.microsoft.com/MicrosoftTeams/platform/tabs/design/tabs)。
 
 ![Microsoft 團隊中 [自訂] 索引標籤範例的螢幕擷取畫面。](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image5.png)
 

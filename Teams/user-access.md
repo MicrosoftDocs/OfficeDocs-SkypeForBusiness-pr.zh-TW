@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 26abd2a69bc8097c4f74cbc85435cda4eec00887
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 11ec004e98c54f8b8e81594c54407fd2078c7f80
+ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568595"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "39209069"
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>管理使用者對 Microsoft 團隊的存取權
 =====================================
@@ -51,9 +51,9 @@ ms.locfileid: "37568595"
 ## <a name="manage-via-powershell"></a>透過 PowerShell 管理
 
 > [!IMPORTANT]
-> 除非您自訂腳本中 explictitly identitied，否則新的 MsolLicenseOptions 會啟用先前已停用的所有服務。 例如，如果您想要在 additonally 停用團隊時停用 Exchange & Sway，您必須在腳本中 inlcude 此選項，否則，您已識別的使用者就會啟用這兩個 Exchange & Sway。 如果您想要使用 GUI 來管理這項功能，請參閱： [Office 365 授權報告與管理工具-成批指派移除授權](https://gallery.technet.microsoft.com/Office365-License-cfd9489c)
+> 除非您自訂腳本中 explictitly identitied，否則新的 MsolLicenseOptions 會啟用先前已停用的所有服務。 例如，如果您想要在 additonally 停用團隊時停用 Exchange & Sway，您必須在腳本中包含這項功能，否則您已識別的使用者就能使用這兩種 Exchange & Sway。 若要使用 GUI 來管理這項功能，請參閱[Office 365 授權報告和管理工具-指派批量移除授權](https://gallery.technet.microsoft.com/Office365-License-cfd9489c)以取得詳細資訊。
 
-透過 PowerShell 啟用和停用團隊作為工作負載授權，就完成了任何其他工作負載。 Microsoft 團隊的服務方案名稱是 TEAMS1。 針對 GCC，服務方案名稱是 TEAMS_GOV。 針對 GCC 高版，服務方案名稱為 TEAMS_GCCHIGH。 如果是 DoD，服務方案名稱是 TEAMS_DOD （請參閱[停用 Office 365 PowerShell 的服務存取](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell)），以取得詳細資訊。）
+透過 PowerShell 啟用和停用團隊作為工作負載授權，就完成了任何其他工作負載。 Microsoft 團隊的服務方案名稱是 TEAMS1。 針對 GCC，服務方案名稱是 TEAMS_GOV。 針對 GCC 高版，服務方案名稱是 TEAMS_GCCHIGH。 如果是 DoD，服務方案名稱是 TEAMS_DOD （請參閱[使用 Office 365 PowerShell 停用服務的存取權](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell)，以取得詳細資訊。）
 
 **範例：** 以下只是一個快速範例，說明如何針對特定授權類型的每個人停用團隊。 您必須先執行此動作，然後針對需要試驗的使用者逐一啟用此動作。
 

@@ -20,12 +20,12 @@ f1keywords:
 ms.custom:
 - Phone System
 description: 使用 [呼叫駐留] 和 [檢索]，在雲端的小組服務中保留通話。
-ms.openlocfilehash: ab70832cde09cf5328e6fa0743c00614c839fc8d
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 9a6f5b6a51a0193625ecd2dab294c2cf454cb21f
+ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37517026"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "39209179"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>在 Microsoft 團隊中通話駐留與取回
 
@@ -50,9 +50,9 @@ ms.locfileid: "37517026"
 
 | 功能 | 團隊桌面 | 團隊 Mac 應用程式 | 小組 Web App （邊緣） |團隊行動 iOS/Android 應用程式 | 團隊 IP 電話 | 商務用 Skype IP 電話 |
 |------------|---------------|---------------|----------------------|-----------------------------|----------------|-----------------------------|
-| 寄存通話 | 是的 | 是的 | 是的 | 是的 | 即將推出| 不 |
-| 檢索寄存通話 | 是的 | 是的 | 是的 | 是的 | 即將推出| 不 |
-| Unretrieved 電話鈴聲傳回 | 是的 | 是的 | 是的 | 是的 | 即將推出| 不 |
+| 寄存通話 | 是 | 是 | 是 | 是 | 即將推出| 否 |
+| 檢索寄存通話 | 是 | 是 | 是 | 是 | 即將推出| 否 |
+| Unretrieved 電話鈴聲傳回 | 是 | 是 | 是 | 是 | 即將推出| 否 |
 
 ## <a name="configuring-call-park-and-retrieve"></a>設定通話寄存與取回
 
@@ -99,10 +99,10 @@ ms.locfileid: "37517026"
 如果使用者嘗試檢索通話，但卻失敗，請檢查下列專案：
 
 - 確認使用者使用的是 [團隊用戶端] 或 [小組啟用的裝置/電話]
-- 群組–使用者是否為通話駐留群組的成員？
+- [群組]-使用者是 [呼叫駐留] 群組的成員，而這是以擁有相同的小組通話駐留原則指派的方式為基礎。 
 - 孤島模式–在團隊安全島模式中無法使用通話駐留與取回功能。
 - 通話已被檢索或終止。
 
-## <a name="more-information"></a>其他資訊
+## <a name="more-information"></a>詳細資訊
 
 [在團隊中寄存通話](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f)。

@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: '瞭解如何取得新的、埠或轉讓現有的團隊編號，以及如何向使用者顯示變更。 '
-ms.openlocfilehash: 2b8dcb2f10f4c5e4452a24fbc9fc4230cffbe874
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 51f436a3b2d462e9984fb9fc09620e7c1a77307d
+ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925284"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "39209199"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>為您的使用者取得電話號碼
 
@@ -45,7 +45,7 @@ ms.locfileid: "37925284"
 
 ![](media/teams-logo-30x30.png) **使用 microsoft [團隊管理中心**] 顯示 Microsoft 團隊標誌的圖示
     
-1. 在左側導覽中，移至 [**語音** > **電話號碼**]，然後按一下 [**取得新號碼**]。
+1. 在左側導覽中，移至 [**語音** > **電話號碼**]，然後按一下 [**新增**]。
 2. 輸入訂單的名稱，如果您想要的話，也可以新增描述。
 3. 在 [位置及數量] 頁面上，執行下列動作：
     1. 在 [**國家或地區**] 下，選取國家或地區。
@@ -75,7 +75,7 @@ ms.locfileid: "37925284"
     
 - 取得您的電話號碼之後，您必須為每位使用者指派號碼。 請參閱[指派、變更或移除使用者的電話號碼](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)。
     
-- 您可以使用 Microsoft 團隊系統管理中心中的 [**電話號碼**] 頁面，在 [**電話號碼**] 欄中查看可用電話號碼的清單，查看 [**狀態**] 欄中是否已指派電話號碼，並查看其位置[**位置**] 欄中的電話號碼。 
+- 您可以使用 Microsoft 團隊系統管理中心中的 [**電話號碼**] 頁面，在 [**電話號碼**] 欄中查看可用電話號碼的清單，查看 [**狀態**] 欄中是否已指派電話號碼，並在 [**位置**] 欄中查看電話號碼的位置。 
 
 > [!NOTE]
 > 如果您需要取得更多的電話號碼，請[聯絡 PSTN 服務台](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)。
