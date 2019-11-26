@@ -18,18 +18,18 @@ f1keywords:
 - ms.teamsadmincenter.deploymentadvisor.overview
 ms.custom: ''
 description: 使用 Advisor for Teams (預覽) 協助您規劃和完成您的 Microsoft Teams 部署。
-ms.openlocfilehash: 13c76c61a99869459c0dabcffedc45e06f6fd42e
-ms.sourcegitcommit: 2e005b335b1566c99b93fc311498702838466324
+ms.openlocfilehash: f7de348c6f8ca60cc1d062fce79725b4b18d0350
+ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/02/2019
-ms.locfileid: "37931811"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "39209189"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>使用 Advisor for Teams 協助您推出 Microsoft Teams
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-Advisor for Teams (預覽) 會引導您完成 Microsoft Teams 的推廣。 在您成功推出 Teams 前，Advisor for Teams 會評估您的 Office 365 租用戶環境，找出可能需要更新或修改的最常用設定。 接著，Advisor for Teams 會建立服務管理團隊 (在 Teams 中) 及頻道，這些頻道會用在您要推出的每項工作負載。服務管理團隊中的每項工作負載隨附有全方位 Planner 計劃，其中包含有每項工作負載的所有推廣工作。  您可以使用此 Planner 計劃，將工作指派給每個推廣階段的負責人，包括專案經理、Teams 和 Office 365 系統管理員、支援人員，以及您的採用和使用者整備團隊。 每項推廣工作都包含所有您成功完成工作所需的指引和資源。
+Advisor for Teams (預覽) 會引導您完成 Microsoft Teams 的推廣。 在您成功推出 Teams 前，Advisor for Teams 會評估您的 Office 365 租用戶環境，找出可能需要更新或修改的最常用設定。 接著，Advisor for Teams 會建立部署團隊 (在 Teams 中)，並為您要推出的每個工作負載建立頻道。部署團隊中的每項工作負載隨附有全方位的 Planner 計劃，其中包含每個工作負載的所有推出工作。  您可以使用此 Planner 計劃，將工作指派給每個推廣階段的負責人，包括專案經理、Teams 和 Office 365 系統管理員、支援人員，以及您的採用和使用者整備團隊。 每項推廣工作都包含所有您成功完成工作所需的指引和資源。
 
 Advisor for Teams 是 [Teams 系統管理中心](https://admin.teams.microsoft.com)的功能之一。 首次若要使用 Advisor for Teams，在儀表板上，按一下 **[部署 Teams 工作負載]** 小工具中的 **[啟動]** 按鈕。 或移至 **[Planning]** > **[Advisor]**。
 
@@ -40,7 +40,7 @@ Advisor for Teams 是 [Teams 系統管理中心](https://admin.teams.microsoft.c
 
 若要使用 Advisor for Teams，您不必成為 Teams 系統管理員，組織中的任何人都能使用。 我們已設定特殊權限，讓非系統管理員的使用者可以使用 Advisor for Teams，即使 Advisor for Teams 位於 Teams 系統管理中心亦可。 您「必須」是 Teams 系統管理員、Teams 服務系統管理員或全域系統管理員，才能開啟租用戶整備評估。
 
-第一次使用 Advisor for Teams 時，Advisor for Teams 會在 Teams 中為您建立服務管理團隊。 針對您要推出的每個工作負載新增頻道。 
+第一次使用 Advisor for Teams 時，Advisor for Teams 會在 Teams 中為您建立部署團隊。 針對您要推出的每個工作負載新增頻道。 
 
 
 ## <a name="available-advisor-for-teams-plans"></a>可使用的 Advisor for Teams 方案
@@ -90,20 +90,20 @@ Advisor for Teams 是 [Teams 系統管理中心](https://admin.teams.microsoft.c
 
 
 ### <a name="advisor-bot"></a>Advisor Bot
-Advisor 建立服務管理團隊後，Advisor Bot 會傳遞下列訊息。
+Advisor 建立部署團隊後，Advisor Bot 會傳遞下列訊息。
 
->**歡迎加入 Microsoft Teams 的服務管理團隊！**
+>**歡迎使用 Microsoft Teams 的部署團隊！**
 >  
 >此團隊的目的是引導您完成您組織的 Teams 推廣，給予您所有需要的資源並提供共同作業空間給專案團隊使用。 使用 Advisor for Teams 建立的每個頻道都包含有逐步的 Planner 規劃和其他資源，例如可在推廣期間使用的 Forms 使用者問卷。 您可以隨時返回並檢閱租用戶整備評估，或是使用 Teams 系統管理中心新增額外的工作負載計劃。 
 > 
 >**行動信號** 
 >- 如果您剛開始使用 Teams 或 Planner，請參閱我們的 [Teams 逐步解說](https://teamsdemo.office.com/) 並觀賞 [Planner 快速入門影片](https://support.office.com/article/microsoft-planner-video-training-4d71390f-08d8-4db0-84ea-92fb078687c7)。 
->- 前往 Teams 中的服務管理團隊。 選取您的工作負載頻道 (例如交談、團隊、頻道和應用程式)，然後選取 **[Planner]** 索引標籤以開始使用。
+>- 前往 Teams 中的部署團隊。 選取您的工作負載頻道 (例如交談、團隊、頻道和應用程式)，然後選取 **[Planner]** 索引標籤以開始使用。
 > 
 >若要深入了解 Advisor for Teams，請閱讀 [使用 Advisor for Teams 推出 Microsoft Teams](use-advisor-teams-roll-out.md)。
 >
 > [!IMPORTANT]
-> Advisor for Teams Bot 只能用來傳遞歡迎訊息到服務管理團隊。 不會收集額外的資料。
+> Advisor for Teams Bot 只能用來傳遞歡迎訊息給部署團隊。 不會收集額外的資料。
 
 > [!IMPORTANT]
 > Advisor for Teams Bot 依預設為啟用。 如果您使用或規劃要使用 Advisor for Teams，則請勿停用此功能。
@@ -113,30 +113,30 @@ Advisor 建立服務管理團隊後，Advisor Bot 會傳遞下列訊息。
 ### <a name="what-are-the-licensing-requirements-for-advisor-for-teams"></a>Advisor for Teams 的授權需求為何？
 除了 Teams 的授權之外，沒有其他額外的授權需求。
 
-### <a name="can-i-delete-the-service-management-team"></a>我可以刪除服務管理團隊嗎？
-Advisor for Teams 建立服務管理團隊後，您就能像管理其他團隊一樣管理該團隊，包括刪除團隊。 請注意，如果您不是使用 Teams 系統管理中心刪除團隊，系統會報告該團隊依然存在。
+### <a name="can-i-delete-the-deployment-team"></a>我可以刪除部署團隊嗎？
+在 Advisor for Teams 建立您的部署團隊後，請像管理其他團隊一樣管理該團隊，包括刪除團隊。 請注意，如果您不是使用 Teams 系統管理中心刪除團隊，系統會報告該團隊依然存在。
 
-### <a name="can-i-add-or-remove-channels-in-the-service-management-team"></a>我是否可以在服務管理團隊中新增或移除頻道？
-可以，服務管理團隊建立後，您就能使用與其他任何團隊相同的方式管理頻道。
+### <a name="can-i-add-or-remove-channels-in-the-deployment-team"></a>我是否可以在部署團隊中新增或移除頻道？
+可以，部署團隊建立後，您就能使用與其他任何團隊相同的方式管理頻道。
 
-### <a name="can-i-add-or-remove-project-team-members-in-the-service-management-team"></a>我是否可以在服務管理團隊中新增或移除專案團隊成員？
-可以，服務管理團隊建立後，您就能使用與其他任何團隊相同的方式管理該團隊。
+### <a name="can-i-add-or-remove-project-team-members-in-the-deployment-team"></a>我是否可以在部署團隊中新增或移除專案團隊成員？
+可以，部署團隊建立後，您就能使用與其他任何團隊相同的方式管理該團隊。
 
 ### <a name="can-i-modify-the-planner-plans"></a>我可以修改 Planner 計劃嗎？
-是的，Advisor for Teams 建立服務管理團隊後，您應該更新 Planner 計劃，使這項計劃能夠完全支援 Teams 的推廣。 您可以修改任何項目，如目標區、工作、工作詳細資訊，就像其他任何 Planner 計劃一樣。
+是的，Advisor for Teams 建立部署團隊後，您應該更新 Planner 計劃，使這項計劃能夠完全支援 Teams 的推出。 您可以修改任何項目，如目標區、工作、工作詳細資訊，就像其他任何 Planner 計劃一樣。
 
 
 ### <a name="can-i-modify-the-forms-survey"></a>我可以修改 Forms 問卷嗎？
-可以，Advisor for Teams 建立服務管理團隊後，您可以視需要修改 Forms 問卷。
+可以，Advisor for Teams 建立部署團隊後，您可以視需要修改 Forms 問卷。
 
 ### <a name="what-information-is-advisor-for-teams-collecting-about-my-organization"></a>Advisor for Teams 會收集有關我組織的哪些資訊？
 Advisor for Teams 會尋求您的同意才收集非 EUII (使用者識別資訊)。 這些資訊以遙測形式進行收集，將有關 Advisor for Teams 成功導入後的成果以及需要改善之處的回饋意見提供給 Microsoft。 相同的資料也會用來找出 Microsoft 可以主動與您組織合作的機會，協助您進行部署。
 
 ### <a name="can-i-use-advisor-for-teams-with-fasttrack"></a>我可以使用 Advisor for Teams 搭配 FastTrack 嗎？
-可以，FastTrack 會針對所有希望部署 Teams 的客戶運用 Advisor for Teams。 他們可以使用 Advisor for Teams 協助您服務管理團隊的初始設定 (如有需要)，也可以在 Teams 推廣期間針對特定主題提供所需的支援。
+可以，FastTrack 會針對所有希望部署 Teams 的客戶運用 Advisor for Teams。 他們可以使用 Advisor for Teams 協助您部署團隊的初始設定 (如有需要)，也可以在 Teams 推出期間針對特定主題提供所需的支援。
 
 ### <a name="can-i-use-advisor-for-teams-with-a-partner"></a>我可以與合作夥伴一起使用 Advisor for Teams 嗎？
-可以，您使用 Advisor for Teams 的同時，也可以利用部署合作夥伴進行 Teams 部署。 如果您的合作夥伴是 CSP 並代替您管理租用戶，則您的合作夥伴可以使用 Advisor for Teams 建立服務管理團隊並協助您執行整個專案。 此外，您可以與任何合作夥伴合作，方法是將這些個人新增為服務管理團隊中的來賓，讓他們參與成為整個專案團隊的成員。
+可以，您使用 Advisor for Teams 的同時，也可以利用部署合作夥伴進行 Teams 部署。 如果您的合作夥伴是 CSP 並代替您管理租用戶，則您的合作夥伴可以使用 Advisor for Teams 建立部署團隊並協助您執行整個專案。 此外，您可以與任何合作夥伴合作，方法是將這些個人新增為部署團隊中的來賓，讓他們參與成為整個專案團隊的成員。
 
 ### <a name="how-do-i-use-planner"></a>如何使用 Planner？
 請參閱 [Microsoft Planner 說明](https://support.office.com/article/Microsoft-Planner-help-4a9a13c6-3adf-4a60-a6fc-15c0b15e16fc) 和 [Planner 快速入門影片](https://support.office.com/article/microsoft-planner-video-training-4d71390f-08d8-4db0-84ea-92fb078687c7)。 
