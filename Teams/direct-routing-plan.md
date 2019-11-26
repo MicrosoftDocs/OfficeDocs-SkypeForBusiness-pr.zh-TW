@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 請閱讀本主題，瞭解 Microsoft 手機系統直通路由如何讓您將支援的客戶提供的會話邊界控制器（SBC）連線至 Microsoft Phone 系統。
-ms.openlocfilehash: ab76d3ee8a08b6bf109e1cb235b4f0f3a4fbdcc8
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 3fb9fcd8ec8dab78b03b408813d32292879cbec2
+ms.sourcegitcommit: 4c763a3824e6a2271d98a46d25a03c8f04ee2f74
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572143"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "39257472"
 ---
 # <a name="plan-direct-routing"></a>規劃直接路由
 
@@ -125,8 +125,8 @@ SBC 功能變數名稱必須來自租使用者的「網域」中所註冊的名�
 
 |**DNS 名稱**|**可用於 SBC FQDN**|**FQDN 名稱範例**|
 |:--- |:--- |:--- |
-contoso.com|是的|**有效的名稱：**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.com<br/>europe.contoso.com|
-|contoso.onmicrosoft.com|不|<br/>SBC 名稱不支援使用 *. onmicrosoft.com 網域
+contoso.com|是|**有效的名稱：**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.com<br/>europe.contoso.com|
+|contoso.onmicrosoft.com|否|<br/>SBC 名稱不支援使用 *. onmicrosoft.com 網域
 
 假設您要使用新的功能變數名稱。 例如，您的租使用者有 contoso.com 做為在您的租使用者中註冊的功能變數名稱，而您想要使用 sbc1.sip.contoso.com。 您必須先在租使用者的 [網域] 中註冊功能變數名稱 sip.contoso.com，才能將其與 name sbc1.sip.contoso.com 進行配對。 如果您在註冊功能變數名稱前嘗試搭配 sbc1.sip.contoso.com 進行配對，您會收到下列錯誤：「無法使用「sbc1.sip.contoso.com」網域，因為它未針對此租使用者進行設定。」
 在您新增功能變數名稱之後，您也需要使用 UPN user@sip.contoso.com 建立使用者並指派「團隊」授權。 在將功能變數名稱新增至租使用者的「網域」之後，可能需要長達24小時才能完全設定功能變數名稱，並會為使用者指派授權。 
@@ -264,7 +264,7 @@ SBC 會進行 DNS 查詢來解析 sip.pstnhub.microsoft.com。 根據 SBC 位置
 |||||
 
 ## <a name="media-traffic-port-ranges"></a>媒體流量：埠範圍
-請注意，如果您想要在不使用媒體的情況下部署直接路由，請套用下列需求。 如需媒體旁路的防火牆需求，請參閱[使用直接路由來規劃媒體旁路](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-plan-media-bypass)。
+請注意，如果您想要在不使用媒體的情況下部署直接路由，請套用下列需求。 如需媒體旁路的防火牆需求，請參閱[使用直接路由來規劃媒體旁路](https://docs.microsoft.com/microsoftteams/direct-routing-plan-media-bypass)。
 
 
 
@@ -287,9 +287,8 @@ SBC 會進行 DNS 查詢來解析 sip.pstnhub.microsoft.com。 根據 SBC 位置
 
 |**頻寬**|**從**|**自**|**來源埠**|**目的地埠**|
 |:--- |:--- |:--- |:--- |:--- |
-|UDP/SRTP|媒體處理器|SBC|49 152 – 53 247|在 SBC 上定義|
-|UDP/SRTP|SBC|媒體處理器|在 SBC 上定義|49 152 – 53 247|
-|
+|UDP/SRTP|媒體處理器|SBC|49152–53247|在 SBC 上定義|
+|UDP/SRTP|SBC|媒體處理器|在 SBC 上定義|49152–53247|
 
   > [!NOTE]
   > Microsoft 建議在 SBC 上每個併發呼叫至少有兩個埠。

@@ -1,5 +1,5 @@
 ---
-title: 使用直接路由規劃媒體旁路
+title: 媒體旁路搭配直接路由方案
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -14,14 +14,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 請閱讀本主題，以瞭解如何使用手機系統直接路由規劃媒體旁路。
-ms.openlocfilehash: cdfeb5313416730c703a1d0f10e2c7ccdddee1cc
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: dbc88f7954708ef3842c0cb7afa67815c70976a6
+ms.sourcegitcommit: 4c763a3824e6a2271d98a46d25a03c8f04ee2f74
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572154"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "39257482"
 ---
-# <a name="plan-for-media-bypass-with-direct-routing"></a>使用直接路由規劃媒體旁路
+# <a name="plan-for-media-bypass-with-direct-routing"></a>媒體旁路搭配直接路由方案
 
 ## <a name="about-media-bypass-with-direct-routing"></a>關於直接路由的媒體旁路
 
@@ -134,7 +134,7 @@ Microsoft 雲端中有兩個元件可位於媒體流量的路徑：媒體處理�
 在媒體路徑中，讓使用者無法避開來電 | 總會 | 任何 | 
 在媒體路徑中，讓使用者略過來電 | 任何 | 如果用戶端無法在公用 IP 位址上到達 SBC | 
 在語音應用程式的媒體路徑中 | 總會 | 任何 | 
-可以執行轉碼（B2BUA）\* | 是的 | 否，只在端點之間中繼音訊 | 
+可以執行轉碼（B2BUA）\* | 是 | 否，只在端點之間中繼音訊 | 
 全球和位置的實例數 | 總共8個：美國東和西部為2。在阿姆斯特丹和都柏林中為2，2在香港與新加坡中;日本中的2（在 Q1CY2019 中新增）  | 條
 
 IP 範圍是 52.112.0.0/14 （從52.112.0.1 到52.115.255.254 的 IP 位址）。 
@@ -145,15 +145,15 @@ IP 範圍是 52.112.0.0/14 （從52.112.0.1 到52.115.255.254 的 IP 位址）�
 
 - 傳輸中繼並非 B2BUA，這表示在用戶端與 SBC 之間不會變更編解碼器，即使流量透過中繼流程也一樣。
 
-### <a name="use-of-teams-transport-relays-in-escalation-scenarios-if-trunk-is-configured-for-media-bypass"></a>如果已針對媒體旁路設定幹線，在問題上報案例中使用團隊傳輸繼電器
+### <a name="use-of-teams-media-processors-if-trunk-is-configured-for-media-bypass"></a>如果將幹線設定為媒體旁路，則使用團隊媒體處理器
 
-在下列案例中，小組傳輸繼電器永遠都在媒體路徑中：
+團隊媒體處理器在下列情況下，會一直插入媒體路徑：
 
 - 從1:1 升級到群組通話的通話
 - 通話會傳送給聯盟團隊使用者
 - 通話是轉寄或轉接至商務用 Skype 使用者
 
-請確定您的 SBC 能夠存取傳輸繼電器，如下所述。    
+請確定您的 SBC 有權存取媒體處理器與傳輸中繼範圍，如下所述。    
 
 
 ## <a name="sip-signaling-fqdns"></a>SIP 信號： Fqdn
@@ -243,7 +243,7 @@ SIP/TLS| SIP Proxy | SBC | 1024-65535 | 在 SBC 上定義 |
 
 用戶端必須能夠存取指定的埠（請參閱 table）至 SBC 的公用 IP 位址。 
 
-注意：如果用戶端在內部網路中，則媒體會流向 SBC 的公用 IP 位址。 您可以在您的 NAT 裝置上設定 hairpinning，讓交通永不離開商業網路裝置。
+注意：如果用戶端在內部網路中，則媒體會流向 SBC 的公用 IP 位址。 您可以在您的 NAT 裝置上設定頭髮釘選，這樣通信量就不會離開商業網路裝置。
 
 | 頻寬 | 從 | 自 | 來源埠 | 目的地埠|
 | :-------- | :-------- |:-----------|:--------|:---------|
@@ -358,7 +358,7 @@ UDP/SRTP | 媒體處理器 | SBC | 49 152 – 53 247    | 在 SBC 上定義 |
  
 ## <a name="see-also"></a>另請參閱
 
-[使用直接路由來設定媒體旁路](direct-routing-configure-media-bypass.md)
+[設定媒體旁路搭配直接路由](direct-routing-configure-media-bypass.md)
 
 
 

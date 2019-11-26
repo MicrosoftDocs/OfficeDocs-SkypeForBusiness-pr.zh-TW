@@ -14,12 +14,29 @@ ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 ms.collection:
 - M365-collaboration
 description: 請閱讀本主題，瞭解如何在大規模部署中部署 Microsoft 團隊會議室。
-ms.openlocfilehash: 2bd78bd737622515ff0722aa3635cf1ebcc83a29
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+no-loc:
+- Microsoft
+- Microsoft Corporation
+- Microsoft Teams Rooms
+- Microsoft Teams Room
+- System Center
+- Configuration Manager
+- Windows
+- Surface
+- Surface Pro
+- Windows PE
+- Windows 10
+- Windows 10 Enterprise
+- Azure
+- Azure Monitor
+- Log Analytics
+- Operations Management Suite
+ms.openlocfilehash: d116ea000bc18bf0e9c017b67bfa104dcfa29795
+ms.sourcegitcommit: 000957709b841ce55a6813ccc2fbe745b1a9295b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573624"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "39218030"
 ---
 # <a name="deploy-microsoft-teams-rooms-by-using-system-center-configuration-manager"></a>使用 System Center Configuration Manager 部署 Microsoft 團隊聊天室
 
@@ -138,7 +155,7 @@ Configuration Manager 需要多個套件來部署並設定 Microsoft 團隊會�
 
 您需要建立並設定下列套件，然後將它們發佈到已指派發佈點伺服器角色的 Configuration Manager 網站系統。
 
-| **套件名稱**                     | **類型**               | **說明**                                                                           |
+| **套件名稱**                     | **類型**               | **描述**                                                                           |
 |--------------------------------------|------------------------|-------------------------------------------------------------------------------------------|
 | SRS v2-SRS 應用程式套件     | 軟體套件       | Microsoft 團隊聊天室部署套件封裝                                      |
 | SRS v2-Sysprep 套件             | 軟體套件       | [自訂以無人參與的 .xml] 來設定 Microsoft 團隊會議室單位            |
@@ -633,7 +650,7 @@ Surface Pro 和 Surface Pro 4 都支援 Microsoft 球隊會議室。 您需要�
        -   編輯這個步驟並更新命令列參數，以指定您的**工作區識別碼**和**工作區金鑰**。
        -   如需取得作業管理套件工作區識別碼和主鍵的詳細資訊，請參閱[設定 Azure 監視的測試裝置](azure-monitor-deploy.md#configure-test-devices-for-azure-monitoring)。
        -   確認已選取 [ **SRS v2 – Microsoft Monitoring Agent 封裝**及**停用64位檔案系統**重新導向]。
-       -   如需有關監視 Microsoft 團隊聊天室部署狀況的詳細資訊，請參閱[使用 Azure 監視器規劃 Microsoft 團隊聊天室管理](azure-monitor-plan.md)、[使用 Azure 監視器部署 microsoft 團隊聊天室管理](azure-monitor-deploy.md)和[管理 Microsoft使用 Azure 監視器的小組聊天室裝置](azure-monitor-manage.md)。
+       -   如需有關監視 Microsoft 團隊會議室部署狀況的詳細資訊，請參閱使用[azure 監視器規劃 Microsoft 團隊聊天室管理](azure-monitor-plan.md)、[使用 Azure 監視器部署 microsoft](azure-monitor-deploy.md)團隊聊天室管理，以及[使用 Azure 監視器管理 microsoft 團隊會議室裝置](azure-monitor-manage.md)。
 
    11. **複製 SRS V2 設定檔**：此步驟會將所需的設定和配置檔案從 Microsoft 團隊聊天室部署套件複製到本機硬碟。 此步驟不需要自訂。
        -   確認已選取 [ **srs v2 – srs] 應用程式套件**和 [**停用64位檔案系統**重新導向]。
@@ -742,8 +759,8 @@ SMSTS 檔案會根據組建程式的階段，儲存在其中一個路徑上。 �
 | **部署階段**                                                            | **任務序列記錄路徑**                         |
 |---------------------------------------------------------------------------------|----------------------------------------------------|
 | WinPE，在 HDD 格式之前                                                        | X：\\Windows\\Temp\\smstslog\\smsts             |
-| WinPE，在 HDD 格式化之後                                                         | C：\\_SMSTaskSequence\\記錄\\Smstslog\\smsts .log    |
-| 在安裝 Configuration Manager 代理程式之前部署的作業系統 | c：\\_SMSTaskSequence\\記錄\\Smstslog\\smsts .log    |
+| WinPE，在 HDD 格式化之後                                                         | C：\\_SMSTaskSequence\\記錄\\Smstslog\\smsts    |
+| 在安裝 Configuration Manager 代理程式之前部署的作業系統 | c：\\_SMSTaskSequence\\記錄\\Smstslog\\smsts    |
 | 已部署的作業系統與 Configuration Manager 代理                   | % windir%\\System32\\ccm\\記錄\\Smstslog\\smsts |
 | 任務循序執行完成                                                | % windir%\\System32\\ccm\\記錄\\smsts 記錄           |
 
