@@ -1,9 +1,8 @@
 ---
-title: 規劃直接路由的以位置為基礎的路由
+title: 規劃直接路由的依位置路由
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.date: 2/1/2019
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
@@ -15,14 +14,14 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c11d43f8fcf5418d27ca26e648291969779a8bf
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 429ed4dcd2996c404b47839de036972d44cc0d26
+ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570685"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "39615813"
 ---
-# <a name="plan-location-based-routing-for-direct-routing"></a>規劃直接路由的以位置為基礎的路由
+# <a name="plan-location-based-routing-for-direct-routing"></a>規劃直接路由的依位置路由
 
 > [!INCLUDE [Preview customer token](includes/preview-feature.md)]
 
@@ -32,7 +31,7 @@ ms.locfileid: "37570685"
 
 您可以在這裡瞭解位置路由與指導方針，以協助您規劃。 當您準備好要套用並啟用以位置為基礎的路由時，請參閱：
 - [部署以位置為基礎的路由的網路設定](location-based-routing-configure-network-settings.md)
-- [針對直接路由啟用以位置為基礎的路由](location-based-routing-enable.md)
+- [啟用直接路由的依位置路由](location-based-routing-enable.md)
 
 位置式路由是一項功能，可讓您根據原則與使用者在輸入或輸出 PSTN 通話時的地理位置來限制付費旁路。 
 
@@ -49,7 +48,7 @@ ms.locfileid: "37570685"
 
 以位置為基礎的路由：使用商務用 Skype 伺服器所使用的相同網路區域、網站和子網定義。 當您針對某個位置限制付費旁路時，系統管理員會將該位置的每個 IP 子網和每個 PSTN 閘道與一個網路網站進行關聯。 使用者的位置是由使用者的小組端點在 PSTN 通話時所連接到的 IP 子網上所決定。 使用者可能會有多個小組用戶端位於不同的網站，在這種情況下，以位置為基礎的路由會根據其端點的位置，分別強制執行每個用戶端的路由。 
 
-若要熟悉本文中使用的一些網路術語，請參閱以[位置為基礎的路由術語](location-based-routing-terminology.md)。
+若要熟悉本文中使用的一些網路術語，請參閱[小組中雲端語音功能的網路設定](cloud-voice-network-settings.md)。
 
 ## <a name="apply-location-based-routing"></a>套用以位置為基礎的路由
 
@@ -72,7 +71,7 @@ ms.locfileid: "37570685"
 
 ### <a name="apply-location-based-routing-at-the-pstn-gateway"></a>在 PSTN 閘道套用以位置為基礎的路由 
 
-閘道會與網站建立關聯，以判斷啟用位置路由的使用者在撥打或接聽 PSTN 通話時，可以找到哪個位置。 閘道必須針對位置路由啟用，以確保其符合 [付費旁路] 限制，且無法供沒有啟用位置路由的使用者使用。 同一個閘道可能會與多個網站建立關聯，而且您可以將它設定為啟用位置路由，或不啟用以位置路由（視網站而定）。 
+閘道會與網站建立關聯，以判斷啟用位置路由的使用者在撥打或接聽 PSTN 通話時，可以找到哪個位置。 閘道必須針對位置路由啟用，以確保其符合 [付費旁路] 限制，且無法供沒有啟用位置路由的使用者使用。 同一個閘道可能會與多個網站建立關聯，而且您可以將它設定為啟用位置路由，或不啟用以位置路由（視網站而定）。
 
 ## <a name="scenarios-for-location-based-routing"></a>位置基礎路由案例
 
@@ -250,8 +249,10 @@ ms.locfileid: "37570685"
 在 PSTN 通話中啟用位置路由的使用者，不允許以其他使用者或 PSTN 號碼開始會議。 允許連線到自動語音應答或通話佇列。 如果使用者有會議授權，使用者必須啟動一則與相關使用者的會議，並透過會議橋打電話給 PSTN，以開始電話會議。  
 
 ## <a name="next-steps"></a>後續步驟
+
 移至[設定位置路由的網路設定](location-based-routing-configure-network-settings.md)。
 
-### <a name="related-topics"></a>相關主題
-- [針對直接路由啟用以位置為基礎的路由](location-based-routing-enable.md)
-- [以位置為基礎的路由術語](location-based-routing-terminology.md)
+## <a name="related-topics"></a>相關主題
+
+- [啟用直接路由的依位置路由](location-based-routing-enable.md)
+- [小組中雲端語音功能的網路設定](cloud-voice-network-settings.md)

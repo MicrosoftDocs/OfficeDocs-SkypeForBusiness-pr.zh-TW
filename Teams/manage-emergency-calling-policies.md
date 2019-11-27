@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何在 Microsoft 團隊中針對動態 E911 功能使用和管理緊急通話原則。
 f1keywords: ms.teamsadmincenter.voice.emergencycallingpolicies.overview
-ms.openlocfilehash: 4a1846217734142388fdf3466f68ccadea49c829
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 1cd358453aa349fde51e4d66de412e8f9e2b72d5
+ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37639511"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "39615743"
 ---
 # <a name="manage-emergency-calling-policies-in-microsoft-teams"></a>管理 Microsoft 團隊中的緊急通話原則
 
@@ -29,7 +29,7 @@ ms.locfileid: "37639511"
 
 如果您的組織使用通話方案或部署的電話系統直傳送，您可以在 Microsoft 團隊中使用緊急通話原則，定義貴組織中的小組使用者進行緊急通話時所發生的動作。 您可以設定當指派策略呼叫緊急服務的使用者時，要通知的人員，以及傳送通知的方式。 例如，您可以將原則設定設定為自動通知貴組織的安全服務台，並讓他們聆聽緊急通話。  
 
-您可以移至 Microsoft 團隊系統管理中心的**語音** > **緊急策略**或使用 Windows PowerShell 來管理緊急通話原則。 您可以將原則指派給使用者和[網路網站](location-based-routing-terminology.md)。
+您可以移至 Microsoft 團隊系統管理中心的**語音** > **緊急策略**或使用 Windows PowerShell 來管理緊急通話原則。 您可以將原則指派給使用者和[網路網站](cloud-voice-network-settings.md)。
 
 針對使用者，您可以使用全域（組織範圍預設值）原則，或建立並指派自訂原則。 除非您建立並指派自訂原則，否則使用者會自動取得全域原則。 請記住，您可以編輯全域原則中的設定，但無法重新命名或刪除。 針對網路網站，您可以建立並指派自訂原則。
 

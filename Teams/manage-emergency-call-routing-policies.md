@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何在 Microsoft 團隊中針對動態 E911 功能使用和管理緊急通話路由策略。
 f1keywords: ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
-ms.openlocfilehash: e5fe0957ce0c329f8161690fea7128036e2e1777
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: aed3b3d3cbd1023a3370c3c271e07a61179447da
+ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37639161"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "39615803"
 ---
 # <a name="manage-emergency-call-routing-policies-in-microsoft-teams"></a>管理 Microsoft 團隊中的緊急通話路由原則
 
@@ -29,7 +29,7 @@ ms.locfileid: "37639161"
 
 如果您已在組織中部署電話系統直接路由，您可以使用 Microsoft 團隊中的緊急呼叫路由策略來設定緊急電話號碼，並指定緊急通話的傳送方式。 緊急呼叫路由策略會判斷是否針對獲指派原則的使用者、用來呼叫緊急服務的號碼（例如，911在美國），以及如何路由緊急服務通話。
 
-您可以在 Microsoft 團隊系統管理中心或使用 Windows PowerShell 移至**語音** > **緊急策略**，管理緊急通話路由原則。 您可以將原則指派給使用者和[網路網站](location-based-routing-terminology.md)。
+您可以在 Microsoft 團隊系統管理中心或使用 Windows PowerShell 移至**語音** > **緊急策略**，管理緊急通話路由原則。 您可以將原則指派給使用者和[網路網站](cloud-voice-network-settings.md)。
 
 針對使用者，您可以使用全域（組織範圍預設值）原則，或建立並指派自訂原則。 除非您建立並指派自訂原則，否則使用者會自動取得全域原則。 請記住，您可以編輯全域原則中的設定，但無法重新命名或刪除。 針對網路網站，您可以建立並指派自訂原則。
 

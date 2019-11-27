@@ -1,9 +1,8 @@
 ---
-title: 針對直接路由啟用以位置為基礎的路由
+title: 啟用直接路由的依位置路由
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.date: 2/1/2019
 ms.topic: article
 ms.reviewer: roykuntz
 ms.service: msteams
@@ -15,14 +14,14 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4acd03dfff78d5aae329492014b24e55b2f92ec9
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 615848be1f91f80b0afd06c1eaa44a4f9d7b4f63
+ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572019"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "39615793"
 ---
-# <a name="enable-location-based-routing-for-direct-routing"></a>針對直接路由啟用以位置為基礎的路由
+# <a name="enable-location-based-routing-for-direct-routing"></a>啟用直接路由的依位置路由
 
 > [!INCLUDE [Preview customer token](includes/preview-feature.md)]
 
@@ -47,7 +46,7 @@ ms.locfileid: "37572019"
     ```
     Set-CsOnlinePstnUsage -Usage "Long Distance", "Local", "Internal" 
     ```
-2. 使用[新的 CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/new-csonlinevoiceroutingpolicy?view=skype-ps) Cmdlet 來建立語音路由策略，以將使用者與適當的 PSTN 用法進行關聯。
+2. 使用[新的 CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csonlinevoiceroutingpolicy?view=skype-ps) Cmdlet 來建立語音路由策略，以將使用者與適當的 PSTN 用法進行關聯。
 
     ```
     New-CsOnlineVoiceRoutingPolicy -Identity <voice routing policy ID> -Description <voice routing policy name> -OnlinePstnUsages <usages> 
@@ -161,7 +160,6 @@ Grant-CsTeamsCallingPolicy -PolicyName <policy name> -id <user id>
 Grant-CsTeamsCallingPolicy –PolicyName “AllowCallingPreventTollBypass” -id “User1” 
 ```
 
-### <a name="related-topics"></a>相關主題
-- [規劃直接路由的以位置為基礎的路由](location-based-routing-plan.md)
-- [設定以位置為基礎的路由的網路設定](location-based-routing-configure-network-settings.md)
-- [以位置為基礎的路由術語](location-based-routing-terminology.md)
+## <a name="related-topics"></a>相關主題
+
+- [小組中雲端語音功能的網路設定](cloud-voice-network-settings.md)
