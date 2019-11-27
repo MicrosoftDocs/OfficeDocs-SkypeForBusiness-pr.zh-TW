@@ -1,5 +1,5 @@
 ---
-title: 什麼是緊急位置、地方和通話路由？
+title: 規劃緊急通話、緊急位址、緊急通話路由、動態緊急通話
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -20,55 +20,199 @@ f1keywords:
 - ms.lync.lac.AddressAndLocation
 ms.custom:
 - Calling Plans
-description: '瞭解什麼是緊急位置、地點及緊急通話路由，以及如何規劃並指派給您的使用者。 '
-ms.openlocfilehash: 4dbfe8d2a10c24ae66967030007328d2b9422e34
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+- Direct Routing
+description: 瞭解緊急通話，包括緊急位址、緊急通話路由及動態緊急通話的相關資訊。
+ms.openlocfilehash: b97a14310014ea2e8271ee54f3bd6e777afa4d57
+ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925384"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "39615833"
 ---
-# <a name="what-are-emergency-locations-places-and-call-routing"></a><span data-ttu-id="d5fa7-103">什麼是緊急位置、地方和通話路由？</span><span class="sxs-lookup"><span data-stu-id="d5fa7-103">What are emergency locations, places, and call routing?</span></span>
+# <a name="manage-emergency-calling"></a><span data-ttu-id="92e3b-103">管理緊急通話</span><span class="sxs-lookup"><span data-stu-id="92e3b-103">Manage emergency calling</span></span>
 
-<span data-ttu-id="d5fa7-104">當您設定通話方案時，您必須在取得電話號碼或指派給使用者時，將緊急位置指派給每個電話號碼，以便支援緊急通話。</span><span class="sxs-lookup"><span data-stu-id="d5fa7-104">When you configure Calling Plans, you have to assign an emergency location to each phone number either when you acquire the phone number or when you assign it to a user in order to support emergency calling.</span></span> <span data-ttu-id="d5fa7-105">您必須先新增並驗證緊急位置，才能將緊急位置指派給電話號碼。</span><span class="sxs-lookup"><span data-stu-id="d5fa7-105">Before you can assign an emergency location to a phone number, you must add and validate an emergency location.</span></span> <span data-ttu-id="d5fa7-106">驗證可確保已辨識緊急位置，且其格式正確，也就是緊急回應服務可以使用的正確格式。</span><span class="sxs-lookup"><span data-stu-id="d5fa7-106">Validation ensures that the emergency location is recognized and that it's in a correct format that can be used by emergency response services.</span></span> <span data-ttu-id="d5fa7-107">如有需要，您可以在緊急位置中新增一個位置，為使用者提供更具體的位置。</span><span class="sxs-lookup"><span data-stu-id="d5fa7-107">If you want, you can add a place within the emergency location to provide a more specific location for the user.</span></span> <span data-ttu-id="d5fa7-108">例如，位置可以是連結至特定緊急位置的樓層、翼或辦公室。</span><span class="sxs-lookup"><span data-stu-id="d5fa7-108">For example, the place could be a floor, wing, or office that's linked to a specific emergency location.</span></span> <span data-ttu-id="d5fa7-109">雖然緊急位置經過驗證，但不會有。</span><span class="sxs-lookup"><span data-stu-id="d5fa7-109">Although emergency locations are validated, places aren't.</span></span>
-  
-## <a name="what-are-emergency-locations"></a><span data-ttu-id="d5fa7-110">何謂緊急位置？</span><span class="sxs-lookup"><span data-stu-id="d5fa7-110">What are emergency locations?</span></span>
+<span data-ttu-id="92e3b-104">本文將說明管理緊急通話所需注意的概念，包括緊急位址、動態緊急位址及緊急呼叫路由的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="92e3b-104">This article describes concepts you'll need to know to manage emergency calling--it includes information about emergency addresses, dynamic emergency addresses, and emergency call routing.</span></span> <span data-ttu-id="92e3b-105">本文使用下列術語：</span><span class="sxs-lookup"><span data-stu-id="92e3b-105">This article uses the following terminology:</span></span>
 
-<span data-ttu-id="d5fa7-111">使用中的電話號碼必須有緊急位置，視國家/地區而定。</span><span class="sxs-lookup"><span data-stu-id="d5fa7-111">An emergency location is required for active telephone numbers and when it's required depends on the country/region.</span></span> <span data-ttu-id="d5fa7-112">在美國，將數位指派給使用者時，需要緊急位置。</span><span class="sxs-lookup"><span data-stu-id="d5fa7-112">In the United States, an emergency location is required when a number is assigned to a user.</span></span> <span data-ttu-id="d5fa7-113">在其他國家/地區（例如歐洲、中東及非洲（EMEA）），當您收到來自團隊的電話號碼，或是從其他服務提供者或承運商轉接給小組時，就需要緊急位置。</span><span class="sxs-lookup"><span data-stu-id="d5fa7-113">For other countries, such as in Europe, the Middle East, and Africa (EMEA), an emergency location is required when you get the phone number from Teams or when it's transferred from another service provider or carrier to Teams.</span></span>
-  
-<span data-ttu-id="d5fa7-114">緊急位置可能是使用 [市政位址]、[街道位址] 或 [有選用的位置] 的實體位址來引用。</span><span class="sxs-lookup"><span data-stu-id="d5fa7-114">An emergency location may be referred to as a civic address, street address, or a physical address with the optional place.</span></span> <span data-ttu-id="d5fa7-115">它是貴組織的公司位置街道或市政位址。</span><span class="sxs-lookup"><span data-stu-id="d5fa7-115">It's the street or civic address of a place of business for your organization.</span></span> <span data-ttu-id="d5fa7-116">例如，位址 12345 [*北部] 街道、[雷德蒙]、[98052 華盛頓] （WA））* 是用來將緊急呼叫路由至適當的派單頒發機構，並協助您尋找緊急來電者。</span><span class="sxs-lookup"><span data-stu-id="d5fa7-116">For example, the address  *12345 North Main Street, Redmond, WA 98052*  is used to route emergency calls to the appropriate dispatch authorities and to assist in locating the emergency caller.</span></span> <span data-ttu-id="d5fa7-117">如果您的公司有多個物理業務位置，您可能會需要一個以上的緊急位置。</span><span class="sxs-lookup"><span data-stu-id="d5fa7-117">It's likely that you'll need more than one emergency location if your business has more than one physical business location.</span></span>
-  
-<span data-ttu-id="d5fa7-118">驗證緊急位址時，請務必確認其合法且已正確設定緊急回應服務的格式。</span><span class="sxs-lookup"><span data-stu-id="d5fa7-118">Validating an emergency address involves making sure that it's legitimate and correctly formatted for emergency response services.</span></span> <span data-ttu-id="d5fa7-119">您可以新增並儲存未驗證的緊急位置，但只有已驗證的位置可以與使用者建立關聯。</span><span class="sxs-lookup"><span data-stu-id="d5fa7-119">It's possible to add and save an emergency location that isn't validated, but only validated locations can be associated with a user.</span></span> <span data-ttu-id="d5fa7-120">驗證並儲存緊急位置之後，您可以將它指派給使用者。</span><span class="sxs-lookup"><span data-stu-id="d5fa7-120">After an emergency location is validated and saved, you can assign it to a user.</span></span> <span data-ttu-id="d5fa7-121">若要變更已儲存並驗證的緊急位置，您必須建立一個新的。</span><span class="sxs-lookup"><span data-stu-id="d5fa7-121">To change an emergency location that's saved and validated, you'll need to create a new one.</span></span>
-  
-## <a name="what-are-places"></a><span data-ttu-id="d5fa7-122">什麼是位置？</span><span class="sxs-lookup"><span data-stu-id="d5fa7-122">What are places?</span></span>
+- <span data-ttu-id="92e3b-106">**緊急位址**-一個市政位址，即貴組織的公司位置的實體或街道位址。</span><span class="sxs-lookup"><span data-stu-id="92e3b-106">**Emergency Address** - A civic address--the physical or street address of a place of business for your organization.</span></span>
 
-<span data-ttu-id="d5fa7-123">位置會與緊急位置產生關聯，以便在建築物中提供更精確的位置。</span><span class="sxs-lookup"><span data-stu-id="d5fa7-123">A place is associated with an emergency location to give a more exact location within a building.</span></span> <span data-ttu-id="d5fa7-124">位置通常是地面、建築物翼或使用者所在的辦公室號碼。</span><span class="sxs-lookup"><span data-stu-id="d5fa7-124">A place is typically a floor, building wing, or office number where the user is located.</span></span> <span data-ttu-id="d5fa7-125">您可以有與緊急位址相關聯的不限制數量的位置。</span><span class="sxs-lookup"><span data-stu-id="d5fa7-125">You can have an unlimited number of places associated with an emergency address.</span></span>
-  
-<span data-ttu-id="d5fa7-126">當您將緊急位置指派給使用者時，它實際上是您指派位置時所參照的位置 ID。</span><span class="sxs-lookup"><span data-stu-id="d5fa7-126">When you assign an emergency location to a user, it's actually a location ID that's referenced when you assign the location.</span></span> <span data-ttu-id="d5fa7-127">位置識別碼包含參照的緊急位址（街道或市政位址）。</span><span class="sxs-lookup"><span data-stu-id="d5fa7-127">The location ID includes the referenced emergency address (the street or civic address).</span></span> <span data-ttu-id="d5fa7-128">對於不需要內建位置的情況，預設位置會隨附在緊急位置。</span><span class="sxs-lookup"><span data-stu-id="d5fa7-128">A default place is included with an emergency location for cases in which in-building places aren't needed.</span></span>
-  
-## <a name="what-is-emergency-call-routing"></a><span data-ttu-id="d5fa7-129">何謂緊急呼叫路由？</span><span class="sxs-lookup"><span data-stu-id="d5fa7-129">What is emergency call routing?</span></span>
+  <span data-ttu-id="92e3b-107">例如，位址 12345 [*北部] 街道、[雷德蒙]、[98052 華盛頓] （WA））* 是用來將緊急呼叫路由至適當的派單頒發機構，並協助您尋找緊急來電者。</span><span class="sxs-lookup"><span data-stu-id="92e3b-107">For example, the address  *12345 North Main Street, Redmond, WA 98052* is used to route emergency calls to the appropriate dispatch authorities and to assist in locating the emergency caller.</span></span>
 
-<span data-ttu-id="d5fa7-130">當您在派遣緊急第一次回應程式時，會在將緊急呼叫路由至適當的派遣中心期間，使用緊急位置和位置。</span><span class="sxs-lookup"><span data-stu-id="d5fa7-130">Emergency locations and places are used during the process of routing emergency calls to the appropriate dispatch center when dispatching emergency first responders.</span></span> <span data-ttu-id="d5fa7-131">當小組使用者撥打電話號碼時，通話如何傳送給服務的公用安全應答點（PSAP）會依國家和地區而有所不同。</span><span class="sxs-lookup"><span data-stu-id="d5fa7-131">When a Teams user dials an emergency number, how the call is routed to the serving Public Safety Answering Point (PSAP) varies by country and region.</span></span> <span data-ttu-id="d5fa7-132">在某些國家/地區（例如美國和英國），在將呼叫連接至適當的派遣中心之前，會先進行呼叫，以判斷使用者目前的位置。</span><span class="sxs-lookup"><span data-stu-id="d5fa7-132">In some countries, such as the United States and the United Kingdom, the calls are first screened to determine the current location of the user before connecting the call to the appropriate dispatch center.</span></span> <span data-ttu-id="d5fa7-133">在其他國家和地區，通話會直接路由到派遣中心，為與緊急呼叫者相關聯的電話號碼提供服務。</span><span class="sxs-lookup"><span data-stu-id="d5fa7-133">In other countries and regions, calls are routed directly to the dispatch center serving the phone number associated with the emergency caller.</span></span>
-  
-## <a name="create-add-and-assign-emergency-locations-and-places-to-your-users"></a><span data-ttu-id="d5fa7-134">建立、新增及指派緊急位置與使用者的位置</span><span class="sxs-lookup"><span data-stu-id="d5fa7-134">Create, add, and assign emergency locations and places to your users</span></span>
+- <span data-ttu-id="92e3b-108">**地點**-通常是底價、樓、翼或辦公室號碼。</span><span class="sxs-lookup"><span data-stu-id="92e3b-108">**Place** - Typically a floor, building, wing, or office number.</span></span> <span data-ttu-id="92e3b-109">[地點] 與緊急位址相關聯，可在建築物中提供更精確的位置。</span><span class="sxs-lookup"><span data-stu-id="92e3b-109">Place is associated with an emergency address to give a more exact location within a building.</span></span> <span data-ttu-id="92e3b-110">您可以有與緊急位址相關聯的不限制數量的位置。</span><span class="sxs-lookup"><span data-stu-id="92e3b-110">You can have an unlimited number of places associated with an emergency address.</span></span> <span data-ttu-id="92e3b-111">例如，如果您的組織有多個建築物，您可能會想要在每個建築物中包含每個建築物和每個樓層的位置資訊。</span><span class="sxs-lookup"><span data-stu-id="92e3b-111">For example, if your organization has multiple buildings, you might want to include place information for each building and for every floor within each building.</span></span>  
 
-1. <span data-ttu-id="d5fa7-135">**規劃緊急位置**。</span><span class="sxs-lookup"><span data-stu-id="d5fa7-135">**Plan for emergency locations**.</span></span> <span data-ttu-id="d5fa7-136">第一個步驟是規劃緊急位置。</span><span class="sxs-lookup"><span data-stu-id="d5fa7-136">The first step is to plan for your emergency locations.</span></span> <span data-ttu-id="d5fa7-137">列出您所有的實際位址。</span><span class="sxs-lookup"><span data-stu-id="d5fa7-137">List all your physical addresses.</span></span> <span data-ttu-id="d5fa7-138">然後根據這個，判斷是否需要緊急位置的位置，如果是的話，也就是它們的內容。</span><span class="sxs-lookup"><span data-stu-id="d5fa7-138">Then, based on that, determine whether places for the emergency locations are needed and if so, what they are.</span></span> <span data-ttu-id="d5fa7-139">例如，如果某項企業有三個由四個地面組成的辦公樓，就很可能需要有三個緊急位置，而地面1到4個是每個的位置。</span><span class="sxs-lookup"><span data-stu-id="d5fa7-139">For example, if a business has three office buildings each with four floors, it's likely that there needs to be three emergency locations, with floors one to four listed as a place for each.</span></span>
+- <span data-ttu-id="92e3b-112">**緊急位置**-位置是市政位址，有一個選用的位置。</span><span class="sxs-lookup"><span data-stu-id="92e3b-112">**Emergency Location** - A location is a civic address--with an optional place.</span></span> <span data-ttu-id="92e3b-113">如果您的公司有一個以上的物理位置，可能需要一個以上的緊急位置。</span><span class="sxs-lookup"><span data-stu-id="92e3b-113">If your business has more than one physical location, it's likely that you'll need more than one emergency location.</span></span> 
+
+  <span data-ttu-id="92e3b-114">當您建立緊急位址時，系統會自動為此位址建立唯一的位置識別碼。</span><span class="sxs-lookup"><span data-stu-id="92e3b-114">When you create an emergency address, a unique location ID is automatically created for this address.</span></span>  <span data-ttu-id="92e3b-115">如果您在 [急診位址] 中新增位置，例如，如果您在建築物位址加上樓面，就會為 [緊急位址] 和 [地點] 的組合建立位置 ID。</span><span class="sxs-lookup"><span data-stu-id="92e3b-115">If you add a place to an emergency address--for example, if you add a floor to a building address--a location ID is created for the combination of the emergency address and place.</span></span>  <span data-ttu-id="92e3b-116">在這個範例中，會有兩個位置 Id：一個用於市政位址;一個用於已連接的市政位址和相關聯的位置。</span><span class="sxs-lookup"><span data-stu-id="92e3b-116">In this example, there will be two location IDs: one for the civic address; one for the joined civic address and associated place.</span></span>
+
+  <span data-ttu-id="92e3b-117">當您將緊急位置指派給使用者或網站時，它就是與使用者或網站相關聯的唯一位置識別碼。</span><span class="sxs-lookup"><span data-stu-id="92e3b-117">When you assign an emergency location to a user or site, it's this unique location ID that's associated with the user or site.</span></span>
+
+- <span data-ttu-id="92e3b-118">**已**登錄的位址-指派給每個通話方案使用者的緊急位址;它有時稱為靜態緊急位址或記錄的位址。</span><span class="sxs-lookup"><span data-stu-id="92e3b-118">**Registered address** - An emergency address that is assigned to each Calling Plan user; it is sometimes referred to as a static emergency address or address of record.</span></span>  <span data-ttu-id="92e3b-119">（已註冊的位址不適用於直接路由使用者）。</span><span class="sxs-lookup"><span data-stu-id="92e3b-119">(Registered addresses do not apply to Direct Routing users.)</span></span>
+
+<span data-ttu-id="92e3b-120">您可以使用 [團隊系統管理中心]，為通話方案使用者建立緊急位址。</span><span class="sxs-lookup"><span data-stu-id="92e3b-120">You create emergency addresses for Calling Plan users by using the Teams admin center.</span></span>  
+
+>[!Note]
+><span data-ttu-id="92e3b-121">您管理緊急呼叫的方式有一些差異，取決於您使用的是電話系統通話方案，還是您的 PSTN 連線的電話系統直向路由。</span><span class="sxs-lookup"><span data-stu-id="92e3b-121">There are some differences in how you manage emergency calling depending on whether you are using Phone System Calling Plans or Phone System Direct Routing for your PSTN connectivity.</span></span> <span data-ttu-id="92e3b-122">本文將說明這些考慮。</span><span class="sxs-lookup"><span data-stu-id="92e3b-122">These considerations are described throughout this article.</span></span>
+
+## <a name="emergency-address-validation"></a><span data-ttu-id="92e3b-123">緊急位址驗證</span><span class="sxs-lookup"><span data-stu-id="92e3b-123">Emergency address validation</span></span>
+
+<span data-ttu-id="92e3b-124">若要將緊急位址指派給使用者或網路識別碼，您必須確保緊急位址標示為「已驗證」。</span><span class="sxs-lookup"><span data-stu-id="92e3b-124">To assign an emergency address to a user or to a network identifier, you must ensure that the emergency address is marked as “validated.”</span></span>  <span data-ttu-id="92e3b-125">位址驗證可確保位址合法，且在指派後無法進行修改。</span><span class="sxs-lookup"><span data-stu-id="92e3b-125">Address validation ensures that the address is legitimate, and that it cannot be modified after it is assigned.</span></span> 
+
+<span data-ttu-id="92e3b-126">如果您使用 [團隊系統管理中心] 的 [位址圖] 搜尋功能來定義緊急位址，位址就會自動標示為 [已驗證]。</span><span class="sxs-lookup"><span data-stu-id="92e3b-126">If you define an emergency address by using the address map search feature in the Teams admin center, the address is automatically marked as validated.</span></span> <span data-ttu-id="92e3b-127">您無法修改已驗證的緊急位址。</span><span class="sxs-lookup"><span data-stu-id="92e3b-127">You cannot modify a validated emergency address.</span></span> <span data-ttu-id="92e3b-128">因此，如果位址的格式或代表變更，您必須使用已更新的格式建立新的位址。</span><span class="sxs-lookup"><span data-stu-id="92e3b-128">Therefore, if the format or representation of the address changes, you must create a new address with the updated format.</span></span>
+
+
+## <a name="emergency-address-geo-codes"></a><span data-ttu-id="92e3b-129">緊急位址 geo 代碼</span><span class="sxs-lookup"><span data-stu-id="92e3b-129">Emergency address geo codes</span></span>
+
+<span data-ttu-id="92e3b-130">每個緊急位址都可以有與其相關聯的地理程式碼（緯度和經度）。</span><span class="sxs-lookup"><span data-stu-id="92e3b-130">Each emergency address can have a geo code (latitude and longitude) associated with it.</span></span> <span data-ttu-id="92e3b-131">在某些國家/地區使用這些地理程式碼，以協助以動態位置路由緊急通話。</span><span class="sxs-lookup"><span data-stu-id="92e3b-131">These geo codes are used in some countries to assist in routing emergency calls with dynamic locations.</span></span> 
+
+<span data-ttu-id="92e3b-132">如果您使用 [團隊系統管理中心] 的 [位址圖] 搜尋功能來定義緊急位址，則地理程式碼會自動與緊急位址建立關聯。</span><span class="sxs-lookup"><span data-stu-id="92e3b-132">If you define an emergency address by using the address map search feature in the Teams admin center, the geo code is automatically associated with an emergency address.</span></span> <span data-ttu-id="92e3b-133">如果您使用 PowerShell 定義位址，您也可以將地區代碼與位址建立關聯。</span><span class="sxs-lookup"><span data-stu-id="92e3b-133">You can also associate geo codes with an address if you define the address by using PowerShell.</span></span> <span data-ttu-id="92e3b-134">不過，Microsoft 建議您使用 [團隊系統管理中心] 中的 [地圖搜尋] 功能，為通話方案建立緊急位址，這將確保位址已格式化、驗證且具有適當的地區代碼。</span><span class="sxs-lookup"><span data-stu-id="92e3b-134">However, Microsoft recommends that you create emergency addresses for Calling Plan by using the map search feature in Teams admin center, which will ensure that the addresses are formatted, validated, and have the appropriate geo codes.</span></span>  
+
+>[!Important]
+><span data-ttu-id="92e3b-135">若要將緊急位置指派給網路識別碼以進行動態緊急通話，緊急位址必須包含適當的地理程式碼。</span><span class="sxs-lookup"><span data-stu-id="92e3b-135">To assign an emergency location to a network identifier for dynamic emergency calling, the emergency address must contain an appropriate geo code.</span></span>
+
+
+## <a name="considerations-for-calling-plans"></a><span data-ttu-id="92e3b-136">通話方案的考慮</span><span class="sxs-lookup"><span data-stu-id="92e3b-136">Considerations for Calling Plans</span></span>
+
+<span data-ttu-id="92e3b-137">若要瞭解您所在地區是否有可用的通話方案，請參閱[通話方案的國家/地區可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。</span><span class="sxs-lookup"><span data-stu-id="92e3b-137">To find out whether Calling Plans is available in your area, see [Country and region availability for Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).</span></span>
+
+
+### <a name="emergency-call-enablement"></a><span data-ttu-id="92e3b-138">緊急通話啟用</span><span class="sxs-lookup"><span data-stu-id="92e3b-138">Emergency call enablement</span></span>
+
+<span data-ttu-id="92e3b-139">每個通話方案使用者都會自動啟用緊急通話，而且必須擁有與其指派的電話號碼相關聯的註冊緊急位址。</span><span class="sxs-lookup"><span data-stu-id="92e3b-139">Each Calling Plan user is automatically enabled for emergency calling and is required to have a registered emergency address associated with their assigned telephone number.</span></span> 
+
+<span data-ttu-id="92e3b-140">當位置必須與電話號碼相關聯時，視國家/地區而定：</span><span class="sxs-lookup"><span data-stu-id="92e3b-140">When the location must be associated to the telephone number depends on the country/region:</span></span>
+
+- <span data-ttu-id="92e3b-141">例如，在美國和加拿大，在指派數位給使用者時，需要緊急位置。</span><span class="sxs-lookup"><span data-stu-id="92e3b-141">In the United States and Canada, for example, an emergency location is required when a number is assigned to a user.</span></span>
+
+- <span data-ttu-id="92e3b-142">在其他國家/地區（例如歐洲、中東及非洲（EMEA）），當您從 Office 365 取得電話號碼或從另一個服務提供者或承運商轉接時，就需要緊急位置。</span><span class="sxs-lookup"><span data-stu-id="92e3b-142">For other countries--such as in Europe, the Middle East, and Africa (EMEA)--an emergency location is required when you get the phone number from Office 365 or when it's transferred from another service provider or carrier.</span></span>
+
+### <a name="dynamic-emergency-calling"></a><span data-ttu-id="92e3b-143">動態緊急通話</span><span class="sxs-lookup"><span data-stu-id="92e3b-143">Dynamic emergency calling</span></span>
+
+<span data-ttu-id="92e3b-144">Microsoft 通話方案的動態緊急通話可提供根據團隊用戶端目前位置來設定和路由緊急通話的功能。</span><span class="sxs-lookup"><span data-stu-id="92e3b-144">Dynamic emergency calling for Microsoft Calling Plans provides the capability to configure and route emergency calls based on the current location of the Teams client.</span></span> <span data-ttu-id="92e3b-145">自動路由至適當的公用安全回應點（PSAP）或通知安全服務台人員的功能，會視小組使用者使用的國家/地區而有所不同。</span><span class="sxs-lookup"><span data-stu-id="92e3b-145">The ability to do automatic routing to the appropriate Public Safety Answering Point (PSAP) or to notify security desk personnel varies depending on the country of usage of the Teams user.</span></span>  
+
+<span data-ttu-id="92e3b-146">目前，只有美國地區的通話方案使用者可以利用動態位置來路由緊急呼叫，如下所示：</span><span class="sxs-lookup"><span data-stu-id="92e3b-146">At this time, only Calling Plan users in the United States can leverage dynamic locations for routing emergency calls as follows:</span></span>
+
+- <span data-ttu-id="92e3b-147">如果美國通話方案使用者的團隊用戶端動態取得美國境內的緊急位址，該位址會用於緊急路由，而不是已註冊的位址，而且通話會自動路由至 PSAP 中的位址的 [服務] 區域。</span><span class="sxs-lookup"><span data-stu-id="92e3b-147">If a Teams client for a United States Calling Plan user dynamically acquires an emergency address within the United States, that address is used for emergency routing instead of the registered address, and the call will be automatically routed to the PSAP in the serving area of the address.</span></span>
+
+- <span data-ttu-id="92e3b-148">如果美國通話方案使用者的團隊用戶端無法在美國動態取得緊急位址，則會使用註冊的緊急位址來協助螢幕並傳送通話。</span><span class="sxs-lookup"><span data-stu-id="92e3b-148">If a Teams client for a United States Calling Plan user doesn’t dynamically acquire an emergency address within the United States, then the registered emergency address is used to help screen and route the call.</span></span> <span data-ttu-id="92e3b-149">不過，在將呼叫者連線至適當的 PSAP 之前，會進行通話，以判斷是否需要更新的位址。</span><span class="sxs-lookup"><span data-stu-id="92e3b-149">However, the call will be screened to determine if an updated address is required before connecting the caller to the appropriate PSAP.</span></span>
+
+<span data-ttu-id="92e3b-150">在美國，您必須設定作為指派給網路識別碼之緊急位置一部分的市政位址，並包含相關聯的地理程式碼。</span><span class="sxs-lookup"><span data-stu-id="92e3b-150">In the United States, you must configure the civic address that is part of the emergency locations that are assigned to network identifiers--and include the associated geo codes.</span></span> <span data-ttu-id="92e3b-151">如需詳細資訊，請參閱[規劃及設定動態緊急通話](configure-dynamic-emergency-calling.md)。</span><span class="sxs-lookup"><span data-stu-id="92e3b-151">For more information, see [Plan and configure dynamic emergency calling](configure-dynamic-emergency-calling.md).</span></span>
+
+
+### <a name="emergency-call-routing"></a><span data-ttu-id="92e3b-152">緊急通話路由</span><span class="sxs-lookup"><span data-stu-id="92e3b-152">Emergency call routing</span></span>
+
+<span data-ttu-id="92e3b-153">當小組通話方案使用者撥打電話號碼時，通話如何路由至 PSAP，取決於下列情況：</span><span class="sxs-lookup"><span data-stu-id="92e3b-153">When a Teams Calling Plan user dials an emergency number, how the call is routed to the PSAP depends on the following:</span></span>
+
+- <span data-ttu-id="92e3b-154">緊急位址是否由團隊用戶端動態決定。</span><span class="sxs-lookup"><span data-stu-id="92e3b-154">Whether the emergency address is dynamically determined by the Teams client.</span></span>
+
+- <span data-ttu-id="92e3b-155">緊急位址是否是與使用者的電話號碼相關聯的登入位址。</span><span class="sxs-lookup"><span data-stu-id="92e3b-155">Whether the emergency address is the registered address associated with the user's phone number.</span></span>
+
+- <span data-ttu-id="92e3b-156">該國家/地區的緊急通話網路。</span><span class="sxs-lookup"><span data-stu-id="92e3b-156">The emergency calling network of that country.</span></span>
+
+  <span data-ttu-id="92e3b-157">**在美國：**</span><span class="sxs-lookup"><span data-stu-id="92e3b-157">**In the United States:**</span></span>
+
+  - <span data-ttu-id="92e3b-158">如果團隊用戶端位於租使用者定義的動態緊急位置，來自該用戶端的緊急呼叫會自動路由至該地理位置的 PSAP 服務。</span><span class="sxs-lookup"><span data-stu-id="92e3b-158">If a Teams client is located at a tenant-defined dynamic emergency location, emergency calls from that client are automatically routed to the PSAP serving that geographic location.</span></span> 
+
+  - <span data-ttu-id="92e3b-159">如果團隊用戶端不在租使用者的動態緊急位置，來自該用戶端的緊急呼叫是由國內話務中心加以遮罩，在將來電轉接到該地理位置的 PSAP 之前，決定呼叫者的位置。</span><span class="sxs-lookup"><span data-stu-id="92e3b-159">If a Teams client is not located at a tenant-defined dynamic emergency location, emergency calls from that client are screened by a national call center to determine the location of the caller before transferring the call to the PSAP serving that geographic location.</span></span>
+
+  - <span data-ttu-id="92e3b-160">如果緊急來電者無法將其緊急位置更新至 [篩選中心]，該呼叫將會傳送給呼叫者登入位址的 PSAP。</span><span class="sxs-lookup"><span data-stu-id="92e3b-160">If an emergency caller is unable to update their emergency location to the screening center, the call will be transferred to the PSAP serving the caller's registered address.</span></span>
+
+  <span data-ttu-id="92e3b-161">**在加拿大、愛爾蘭及英國**，緊急通話是在將呼叫連接至適當的派遣中心之前，先進行確認，以判斷使用者目前的位置。</span><span class="sxs-lookup"><span data-stu-id="92e3b-161">**In Canada, Ireland, and the United Kingdom**, emergency calls are first screened to determine the current location of the user before connecting the call to the appropriate dispatch center.</span></span> 
+
+  <span data-ttu-id="92e3b-162">**在華北、德國和西班牙**，緊急通話會直接路由到 PSAP 中與電話號碼相關聯之緊急位址的服務，而不管來電者的位置為何。</span><span class="sxs-lookup"><span data-stu-id="92e3b-162">**In France, Germany, and Spain**, emergency calls are routed directly to the PSAP serving the emergency address associated with the number regardless of the location of the caller.</span></span>
+
+  <span data-ttu-id="92e3b-163">**在荷蘭**，無論來電者為何位置，緊急通話都會直接路由到該號碼當地區號的 PSAP。</span><span class="sxs-lookup"><span data-stu-id="92e3b-163">**In the Netherlands**, emergency calls are routed directly to the PSAP for the local area code of the number regardless of the location of the caller.</span></span>
+
+  <span data-ttu-id="92e3b-164">**在澳大利亞**，緊急位址是由電信公司合作夥伴設定和路由。</span><span class="sxs-lookup"><span data-stu-id="92e3b-164">**In Australia**, emergency addresses are configured and routed by the carrier partner.</span></span>
+
+  <span data-ttu-id="92e3b-165">**在日本**，不支援緊急通話。</span><span class="sxs-lookup"><span data-stu-id="92e3b-165">**In Japan**, emergency calling is not supported.</span></span>
+
+
+<span data-ttu-id="92e3b-166">如需詳細資訊，請參閱：</span><span class="sxs-lookup"><span data-stu-id="92e3b-166">For more information, see:</span></span>
+
+- [<span data-ttu-id="92e3b-167">通話方案</span><span class="sxs-lookup"><span data-stu-id="92e3b-167">Calling Plans</span></span>](calling-plan-landing-page.md)
+
+- [<span data-ttu-id="92e3b-168">通話方案所用的不同類型的電話號碼</span><span class="sxs-lookup"><span data-stu-id="92e3b-168">Different kinds of phone numbers used for Calling Plans</span></span>](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+
+- [<span data-ttu-id="92e3b-169">緊急通話條款及條件</span><span class="sxs-lookup"><span data-stu-id="92e3b-169">Emergency calling terms and conditions</span></span>](emergency-calling-terms-and-conditions.md)
+
+## <a name="considerations-for-direct-routing"></a><span data-ttu-id="92e3b-170">直接路由的考慮</span><span class="sxs-lookup"><span data-stu-id="92e3b-170">Considerations for Direct Routing</span></span>
+
+<span data-ttu-id="92e3b-171">如果您的地區無法使用通話方案，或者您想要保留現有的承運人，請考慮[直接傳送](direct-routing-landing-page.md)。</span><span class="sxs-lookup"><span data-stu-id="92e3b-171">If Calling Plans are not available in your area or you want to keep your existing carrier, consider [Direct Routing](direct-routing-landing-page.md).</span></span> <span data-ttu-id="92e3b-172">如需詳細資訊，請參閱[設定直接路由](direct-routing-configure.md)及[管理緊急呼叫路由策略](manage-emergency-call-routing-policies.md)。</span><span class="sxs-lookup"><span data-stu-id="92e3b-172">For more information, see [Configure Direct Routing](direct-routing-configure.md) and [Manage emergency call routing policies](manage-emergency-call-routing-policies.md).</span></span>
+
+### <a name="emergency-call-enablement-and-configuration"></a><span data-ttu-id="92e3b-173">緊急通話啟用與設定</span><span class="sxs-lookup"><span data-stu-id="92e3b-173">Emergency call enablement and configuration</span></span>
+
+<span data-ttu-id="92e3b-174">您必須使用 TeamsEmergencyCallRoutingPolicy 來定義直接路由使用者的緊急通話原則，以定義緊急號碼及其相關聯的路由目的地。</span><span class="sxs-lookup"><span data-stu-id="92e3b-174">You must define emergency calling policies for Direct Routing users by using the TeamsEmergencyCallRoutingPolicy to define emergency numbers and their associated routing destination.</span></span> <span data-ttu-id="92e3b-175">（請注意，直接路由使用者不支援註冊的緊急位置。）</span><span class="sxs-lookup"><span data-stu-id="92e3b-175">(Note that registered emergency locations are not supported for Direct Routing users.)</span></span>
+
+<span data-ttu-id="92e3b-176">您可以將 TeamsEmergencyCallRoutingPolicy 指派給團隊直接傳送使用者帳戶、網路網站或兩者。</span><span class="sxs-lookup"><span data-stu-id="92e3b-176">You can assign a TeamsEmergencyCallRoutingPolicy to a Teams Direct Routing user account, a network site, or both.</span></span> <span data-ttu-id="92e3b-177">當團隊用戶端啟動或變更網路連線時，小組會在用戶端所在的網路網站上執行查閱，如下所示：</span><span class="sxs-lookup"><span data-stu-id="92e3b-177">When a Teams client starts or changes a network connection, Teams performs a lookup of the network site where the client is located as follows:</span></span>
+
+- <span data-ttu-id="92e3b-178">如果 TeamsEmergencyCallRoutingPolicy 與網站相關聯，則會使用網站原則設定緊急通話。</span><span class="sxs-lookup"><span data-stu-id="92e3b-178">If a TeamsEmergencyCallRoutingPolicy is associated with the site, then the site policy is used to configure emergency calling.</span></span>
+
+- <span data-ttu-id="92e3b-179">如果沒有與網站相關聯的 TeamsEmergencyCallRoutingPolicy，或用戶端是在未定義的網站上連線，則會使用與使用者帳戶相關聯的 TeamsEmergencyCallRoutingPolicy 來設定緊急通話。</span><span class="sxs-lookup"><span data-stu-id="92e3b-179">If there is no TeamsEmergencyCallRoutingPolicy associated with the site, or if the client is connected at an undefined site, then the TeamsEmergencyCallRoutingPolicy associated with the user account is used to configure emergency calling.</span></span> 
+
+- <span data-ttu-id="92e3b-180">如果團隊用戶端無法取得 TeamsEmergencyCallRoutingPolicy，則不會啟用緊急通話的使用者。</span><span class="sxs-lookup"><span data-stu-id="92e3b-180">If the Teams client is unable to obtain an TeamsEmergencyCallRoutingPolicy, then the user is not enabled for emergency calling.</span></span>
+
+### <a name="dynamic-emergency-calling"></a><span data-ttu-id="92e3b-181">動態緊急通話</span><span class="sxs-lookup"><span data-stu-id="92e3b-181">Dynamic emergency calling</span></span>
+
+<span data-ttu-id="92e3b-182">直接路由使用者的團隊用戶端可以取得動態緊急位址，這可以根據來電者的位置來動態路由通話。</span><span class="sxs-lookup"><span data-stu-id="92e3b-182">Teams clients for Direct Routing users can acquire a dynamic emergency address, which can be used to dynamically route calls based upon the location of the caller.</span></span> <span data-ttu-id="92e3b-183">如需詳細資訊，請參閱[設定動態緊急通話](configure-dynamic-emergency-calling.md)。</span><span class="sxs-lookup"><span data-stu-id="92e3b-183">For more information, see [Configure dynamic emergency calling](configure-dynamic-emergency-calling.md).</span></span>
+
+### <a name="emergency-call-routing"></a><span data-ttu-id="92e3b-184">緊急通話路由</span><span class="sxs-lookup"><span data-stu-id="92e3b-184">Emergency call routing</span></span>
+
+<span data-ttu-id="92e3b-185">TeamsEmergencyCallRoutingPolicy 參照的是線上 PSTN 使用量，必須具備適當的直接路由設定，才能將緊急通話正確地路由至適當的 PSTN 閘道。</span><span class="sxs-lookup"><span data-stu-id="92e3b-185">The TeamsEmergencyCallRoutingPolicy references an online PSTN Usage, which must have the appropriate Direct Routing configuration to properly route the emergency calls to the appropriate PSTN gateway(s).</span></span> <span data-ttu-id="92e3b-186">特別是，您必須確保緊急撥號字串有 OnlineVoiceRoute。</span><span class="sxs-lookup"><span data-stu-id="92e3b-186">In particular, you must ensure that there is an OnlineVoiceRoute for the emergency dial string.</span></span> <span data-ttu-id="92e3b-187">如需詳細資訊，請參閱[設定直接路由](direct-routing-configure.md#configure-voice-routing)。</span><span class="sxs-lookup"><span data-stu-id="92e3b-187">For more information, see [Configure Direct Routing](direct-routing-configure.md#configure-voice-routing).</span></span> 
+
+<span data-ttu-id="92e3b-188">（注意：在商務用 Skype Server 中，緊急號碼是以 "+" 為首碼，這需要定義語音路由才能符合 "+ 911" 的範例。</span><span class="sxs-lookup"><span data-stu-id="92e3b-188">(Note: In Skype for Business Server, the emergency number was prefixed with a “+” which required a voice route to be defined to match “+911” for instance.</span></span> <span data-ttu-id="92e3b-189">團隊用戶端不會在 "+" 前面加上緊急數位。）</span><span class="sxs-lookup"><span data-stu-id="92e3b-189">Teams clients do not prepend the “+” with emergency numbers.)</span></span>
+
+<span data-ttu-id="92e3b-190">針對直接路由使用者動態路由緊急呼叫的能力，視特定國家/地區內的緊急呼叫網路而定。</span><span class="sxs-lookup"><span data-stu-id="92e3b-190">The ability to dynamically route emergency calls for Direct Routing users varies depending on the emergency calling network within a given country.</span></span> <span data-ttu-id="92e3b-191">提供兩種解決方案：</span><span class="sxs-lookup"><span data-stu-id="92e3b-191">There are two solutions available:</span></span>
+
+- <span data-ttu-id="92e3b-192">緊急路由服務提供者（僅限美國）</span><span class="sxs-lookup"><span data-stu-id="92e3b-192">Emergency Routing Service Providers (US only)</span></span> 
+- <span data-ttu-id="92e3b-193">緊急位置身分識別號碼（ELIN）閘道應用程式</span><span class="sxs-lookup"><span data-stu-id="92e3b-193">Emergency Location Identification Number (ELIN) gateway applications</span></span>
+
+#### <a name="emergency-routing-service-providers"></a><span data-ttu-id="92e3b-194">緊急路由服務提供者</span><span class="sxs-lookup"><span data-stu-id="92e3b-194">Emergency Routing Service Providers</span></span>
+
+<span data-ttu-id="92e3b-195">在美國，有許多認證的緊急路由服務提供者（ERSPs）可以根據來電者的位置自動路由緊急通話。</span><span class="sxs-lookup"><span data-stu-id="92e3b-195">In the United States, there are numerous certified Emergency Routing Service Providers (ERSPs) that can automatically route emergency calls based upon the location of the caller.</span></span>
+
+- <span data-ttu-id="92e3b-196">如果緊急路由服務提供者已整合至直接路由部署，則使用動態取得位置的緊急呼叫會自動路由到該位置的公用安全應答點（PSAP）。</span><span class="sxs-lookup"><span data-stu-id="92e3b-196">If an Emergency Routing Service Provider is integrated into a Direct Routing deployment, emergency calls with a dynamically acquired location will be automatically routed to the Public Safety Answering Point (PSAP) serving that location.</span></span>
+
+-  <span data-ttu-id="92e3b-197">在沒有動態取得位置的緊急通話是先進行篩選，以便在根據更新的位置將呼叫連線至適當的派遣中心之前，決定使用者的目前位置。</span><span class="sxs-lookup"><span data-stu-id="92e3b-197">Emergency calls without a dynamically acquired location are first screened to determine the current location of the user before connecting the call to the appropriate dispatch center based upon the updated location.</span></span>
+
+<span data-ttu-id="92e3b-198">如需詳細資訊，請參閱針對[直接路由認證的會話邊界控制器](direct-routing-border-controllers.md)。</span><span class="sxs-lookup"><span data-stu-id="92e3b-198">For more information, see [Session Border Controllers certified for Direct Routing](direct-routing-border-controllers.md).</span></span>
+
+
+#### <a name="emergency-location-identification-number-elin-applications"></a><span data-ttu-id="92e3b-199">緊急位置識別號碼（ELIN）應用程式</span><span class="sxs-lookup"><span data-stu-id="92e3b-199">Emergency Location Identification Number (ELIN) applications</span></span>
+
+<span data-ttu-id="92e3b-200">會話邊界控制器（SBCs）可以包含緊急位置身分識別號碼（ELIN）應用程式。</span><span class="sxs-lookup"><span data-stu-id="92e3b-200">Session Border Controllers (SBCs) can include Emergency Location Identification Number (ELIN) applications.</span></span> <span data-ttu-id="92e3b-201">如果 SBC ELIN 應用程式已整合至直接路由部署，您必須在 ELIN 應用程式中設定緊急位址和相關的電話號碼，然後將 ELIN 記錄上傳到各個 PSTN 中的緊急呼叫資料庫.</span><span class="sxs-lookup"><span data-stu-id="92e3b-201">If an SBC ELIN application is integrated into a Direct Routing deployment, you must configure the emergency addresses and associated telephone numbers in the ELIN application, and then upload the ELIN records to the emergency calling database in the respective PSTN.</span></span>  <span data-ttu-id="92e3b-202">使用 ELIN 識別碼的小組緊急位置，必須符合 ELIN 應用程式中的專案。</span><span class="sxs-lookup"><span data-stu-id="92e3b-202">Teams emergency locations with an ELIN identifier must match those within the ELIN application.</span></span>
+
+<span data-ttu-id="92e3b-203">當有動態取得位置的緊急通話路由至適當的 SBC 時，ELIN 應用程式：</span><span class="sxs-lookup"><span data-stu-id="92e3b-203">When an emergency call with a dynamically acquired location is routed to the appropriate SBC, the ELIN application:</span></span>
+
+- <span data-ttu-id="92e3b-204">分析來電者的緊急位置。</span><span class="sxs-lookup"><span data-stu-id="92e3b-204">Parses the emergency location of the caller.</span></span>
+- <span data-ttu-id="92e3b-205">將位置與 ELIN 記錄相符。</span><span class="sxs-lookup"><span data-stu-id="92e3b-205">Matches the location to an ELIN record.</span></span>
+- <span data-ttu-id="92e3b-206">以 ELIN 電話號碼取代緊急來電者的號碼。</span><span class="sxs-lookup"><span data-stu-id="92e3b-206">Substitutes the emergency caller's number with the ELIN phone number.</span></span>
+- <span data-ttu-id="92e3b-207">將呼叫路由至該位置的 PSAP，然後重新分派者從上傳的 ELIN 記錄中取得位置。</span><span class="sxs-lookup"><span data-stu-id="92e3b-207">Routes the call to the PSAP serving that location, and then the dispatchers obtain the location from the uploaded ELIN record.</span></span>
+
+<span data-ttu-id="92e3b-208">當來電回緊急電話號碼時，ELIN 應用程式將會對原始緊急來電者執行反向呼叫數位替換。</span><span class="sxs-lookup"><span data-stu-id="92e3b-208">Upon a call back to the emergency number, the ELIN application will do the reverse called number substitution to that of the original emergency caller.</span></span> 
+
+<span data-ttu-id="92e3b-209">如需詳細資訊，請參閱針對[直接路由認證的會話邊界控制器](direct-routing-border-controllers.md)。</span><span class="sxs-lookup"><span data-stu-id="92e3b-209">For more information, see [Session Border Controllers certified for Direct Routing](direct-routing-border-controllers.md).</span></span>
+
+
+## <a name="security-desk-notification"></a><span data-ttu-id="92e3b-210">Security 辦公桌通知</span><span class="sxs-lookup"><span data-stu-id="92e3b-210">Security desk notification</span></span>
+
+<span data-ttu-id="92e3b-211">Microsoft 通話方案和電話系統直接路由都提供了 Security 辦公桌通知。</span><span class="sxs-lookup"><span data-stu-id="92e3b-211">Security desk notification is available with both Microsoft Calling Plans and Phone System Direct Routing.</span></span>
+
+<span data-ttu-id="92e3b-212">您可以使用 TeamsEmergencyCallingPolicy 來設定要在緊急通話期間收到通知的人員，以及通知的方式： [僅限聊天]、[conferenced] 和 [已靜音]，或 [conferenced] 中的 [取消靜音] 功能。</span><span class="sxs-lookup"><span data-stu-id="92e3b-212">You use the TeamsEmergencyCallingPolicy to configure who should be notified during an emergency call and how they are notified: chat only, conferenced in and muted, or conferenced in and muted but with the ability to unmute.</span></span>  <span data-ttu-id="92e3b-213">您也可以指定使用者或群組的外部 PSTN 號碼來撥打並加入緊急通話。</span><span class="sxs-lookup"><span data-stu-id="92e3b-213">You can also specify an external PSTN number of a user or group to call and join the emergency call.</span></span> 
+
+<span data-ttu-id="92e3b-214">您可以將 TeamsEmergencyCallingPolicy 授與兩個小組使用者帳戶、指派給網路網站或兩者。</span><span class="sxs-lookup"><span data-stu-id="92e3b-214">A TeamsEmergencyCallingPolicy can be granted to a Teams user account, assigned to a network site, or both.</span></span>  <span data-ttu-id="92e3b-215">當團隊用戶端啟動或變更網路連線時，小組會針對用戶端所在的網路網站執行查閱：</span><span class="sxs-lookup"><span data-stu-id="92e3b-215">When a Teams client starts or changes a network connection, Teams performs a lookup of the network site where the client is located:</span></span>
+
+- <span data-ttu-id="92e3b-216">如果 TeamsEmergencyCallingPolicy 與網路網站相關聯，則會使用網站原則來設定 security 辦公桌通知。</span><span class="sxs-lookup"><span data-stu-id="92e3b-216">If a TeamsEmergencyCallingPolicy is associated with a network site, then the site policy is used to configure security desk notification.</span></span>
+
+- <span data-ttu-id="92e3b-217">如果沒有與網站相關聯的 TeamsEmergencyCallingPolicy，或用戶端是在未定義的網站上連線，則會使用與使用者帳戶相關聯的 TeamsEmergencyCallingPolicy 來設定 security 辦公桌通知。</span><span class="sxs-lookup"><span data-stu-id="92e3b-217">If there is no TeamsEmergencyCallingPolicy associated with the site, or if the client is connected at an undefined site, then the TeamsEmergencyCallingPolicy associated with the user account is used to configure security desk notification.</span></span>  
+
+- <span data-ttu-id="92e3b-218">如果團隊用戶端無法取得 TeamsEmergencyCallingPolicy，則不會為使用者啟用 security 辦公桌通知。</span><span class="sxs-lookup"><span data-stu-id="92e3b-218">If the Teams client is unable to obtain an TeamsEmergencyCallingPolicy, then the user is not enabled for security desk notification.</span></span>
+
+<span data-ttu-id="92e3b-219">在緊急通話期間，安全服務台是 conferenced 到通話中，而安全服務台使用者則是根據 TeamsEmergencyCallingPolicy 進行控制。</span><span class="sxs-lookup"><span data-stu-id="92e3b-219">During an emergency call, a security desk is conferenced into the call and the experience of the security desk user is controlled based upon the TeamsEmergencyCallingPolicy.</span></span> <span data-ttu-id="92e3b-220">群組聊天是從每個安全服務台成員開始，緊急呼叫者的位置會透過重要的訊息通知來共用。</span><span class="sxs-lookup"><span data-stu-id="92e3b-220">A group chat is started with each security desk member, and the location of the emergency caller is shared via an important message notification.</span></span>  <span data-ttu-id="92e3b-221">如果會議選項是設定為原則的一部分，則每個安全服務台使用者也會在會議中另行稱為。</span><span class="sxs-lookup"><span data-stu-id="92e3b-221">If a conference option is configured as part of the policy, each security desk user is additionally called as part of the conference.</span></span>
+
     
-2. <span data-ttu-id="d5fa7-140">**新增緊急位置**。</span><span class="sxs-lookup"><span data-stu-id="d5fa7-140">**Add your emergency locations**.</span></span> <span data-ttu-id="d5fa7-141">下一步是新增緊急位置。</span><span class="sxs-lookup"><span data-stu-id="d5fa7-141">The next step is to add your emergency locations.</span></span> <span data-ttu-id="d5fa7-142">若要深入瞭解，請參閱[新增、變更或移除組織的緊急位置](add-change-remove-emergency-location-organization.md)。</span><span class="sxs-lookup"><span data-stu-id="d5fa7-142">To learn more, see [Add, change, or remove an emergency location for your organization](add-change-remove-emergency-location-organization.md).</span></span>
-    
-    > [!IMPORTANT]
-    > <span data-ttu-id="d5fa7-143">驗證街道或市政位址涉及確認其合法且格式正確。</span><span class="sxs-lookup"><span data-stu-id="d5fa7-143">Validating a street or civic address involves making sure that it's legitimate and correctly formatted.</span></span> <span data-ttu-id="d5fa7-144">部分正確的緊急位址（例如，城市名稱錯誤）可能仍會通過驗證。</span><span class="sxs-lookup"><span data-stu-id="d5fa7-144">It's possible that a partially correct emergency address, such as a mistyped name of the city, may still pass validation.</span></span> <span data-ttu-id="d5fa7-145">驗證程式會使用指定位址的所有部分來判斷它是否包含足夠的資訊，以將呼叫路由至適當的緊急派單中心。</span><span class="sxs-lookup"><span data-stu-id="d5fa7-145">The validation process uses all parts of a given address to determine whether it contains enough information to route the call to the appropriate emergency dispatch center.</span></span> <span data-ttu-id="d5fa7-146">如果是，它會以驗證方式傳回，然後可以指派給電話號碼。</span><span class="sxs-lookup"><span data-stu-id="d5fa7-146">If so, it will be returned as validated and then can be assigned to a phone number.</span></span>
-  
-3. <span data-ttu-id="d5fa7-147">**取得電話號碼**。</span><span class="sxs-lookup"><span data-stu-id="d5fa7-147">**Get phone numbers**.</span></span> <span data-ttu-id="d5fa7-148">下一步是為您的使用者取得電話號碼。</span><span class="sxs-lookup"><span data-stu-id="d5fa7-148">The next step is to get phone numbers for your users.</span></span> <span data-ttu-id="d5fa7-149">您可以從 Office 365 取得新的電話號碼，或 [移植]，或將現有的電話號碼轉移到 Office 365 來執行此動作。</span><span class="sxs-lookup"><span data-stu-id="d5fa7-149">You can do this by getting new phone numbers from Office 365 or by "porting" or transferring your existing phone numbers over to Office 365.</span></span> <span data-ttu-id="d5fa7-150">若要查看完整的步驟，請參閱[將電話號碼傳送給團隊](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)。</span><span class="sxs-lookup"><span data-stu-id="d5fa7-150">To see the complete steps, see [Transfer phone numbers to Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).</span></span>
-    
-4. <span data-ttu-id="d5fa7-151">**指派電話號碼**。</span><span class="sxs-lookup"><span data-stu-id="d5fa7-151">**Assign phone numbers**.</span></span> <span data-ttu-id="d5fa7-152">最後一個步驟是讓使用者撥打及接聽電話。</span><span class="sxs-lookup"><span data-stu-id="d5fa7-152">The last step is to enable users to make and receive phone calls.</span></span> <span data-ttu-id="d5fa7-153">若要這樣做，您必須為每位使用者指派電話號碼。</span><span class="sxs-lookup"><span data-stu-id="d5fa7-153">To do this, you must assign a phone number to each user.</span></span> <span data-ttu-id="d5fa7-154">請參閱[指派、變更或移除使用者的電話號碼](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)，以指派電話號碼。</span><span class="sxs-lookup"><span data-stu-id="d5fa7-154">See [Assign, change, or remove a phone number for a user](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user) to assign a phone number.</span></span>
+## <a name="related-topics"></a><span data-ttu-id="92e3b-222">相關主題</span><span class="sxs-lookup"><span data-stu-id="92e3b-222">Related topics</span></span>
 
-> [!NOTE]
-> <span data-ttu-id="d5fa7-155">如果您需要取得更多的電話號碼，請[聯絡 PSTN 服務台](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)。</span><span class="sxs-lookup"><span data-stu-id="d5fa7-155">If you need to get more phone numbers than this, [contact the PSTN service desk](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).</span></span>
-
-    
-## <a name="related-topics"></a><span data-ttu-id="d5fa7-156">相關主題</span><span class="sxs-lookup"><span data-stu-id="d5fa7-156">Related topics</span></span>
-
-[<span data-ttu-id="d5fa7-157">通話方案所用的不同類型的電話號碼</span><span class="sxs-lookup"><span data-stu-id="d5fa7-157">Different kinds of phone numbers used for Calling Plans</span></span>](different-kinds-of-phone-numbers-used-for-calling-plans.md)
-
-[<span data-ttu-id="d5fa7-158">緊急通話條款及條件</span><span class="sxs-lookup"><span data-stu-id="d5fa7-158">Emergency calling terms and conditions</span></span>](emergency-calling-terms-and-conditions.md)
+- [<span data-ttu-id="92e3b-223">管理緊急電話原則</span><span class="sxs-lookup"><span data-stu-id="92e3b-223">Manage emergency calling policies</span></span>](manage-emergency-calling-policies.md)
+- [<span data-ttu-id="92e3b-224">管理緊急呼叫路由策略</span><span class="sxs-lookup"><span data-stu-id="92e3b-224">Manage emergency call routing policies </span></span>](manage-emergency-call-routing-policies.md)
+- [<span data-ttu-id="92e3b-225">新增、變更或移除貴組織的緊急位置</span><span class="sxs-lookup"><span data-stu-id="92e3b-225">Add, change, or remove an emergency location for your organization</span></span>](add-change-remove-emergency-location-organization.md)
+- [<span data-ttu-id="92e3b-226">指派或變更使用者的緊急位置</span><span class="sxs-lookup"><span data-stu-id="92e3b-226">Assign or change an emergency location for your user</span></span>](assign-change-emergency-location-user.md)
+- [<span data-ttu-id="92e3b-227">規劃和設定動態緊急電話</span><span class="sxs-lookup"><span data-stu-id="92e3b-227">Plan and configure dynamic emergency calling</span></span>](configure-dynamic-emergency-calling.md)

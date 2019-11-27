@@ -17,28 +17,28 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 734a7ef020c36a38b43aad3d996b2eb6648a5442
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 1631ac21a71e19088a05aedb629b9245a06a08f9
+ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569828"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "39615683"
 ---
-# <a name="enable-teams-in-your-organization"></a><span data-ttu-id="42550-103">在組織中啟用團隊</span><span class="sxs-lookup"><span data-stu-id="42550-103">Enable Teams in your organization</span></span>
+# <a name="turn-on-teams-in-your-organization"></a><span data-ttu-id="9ea34-103">開啟貴組織中的 Teams</span><span class="sxs-lookup"><span data-stu-id="9ea34-103">Turn on Teams in your organization</span></span>
 
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-<span data-ttu-id="42550-104">根據預設，小組已開啟所有組織。</span><span class="sxs-lookup"><span data-stu-id="42550-104">By default, Teams is turned on for all organizations.</span></span> <span data-ttu-id="42550-105">如果您在預覽期間使用團隊，該設定會保持與您在團隊預覽期間所設定的內容相同。</span><span class="sxs-lookup"><span data-stu-id="42550-105">If you used Teams during the preview period, the setting stays the same as what you set during your Teams preview.</span></span> 
+<span data-ttu-id="9ea34-104">根據預設，小組已開啟所有組織。</span><span class="sxs-lookup"><span data-stu-id="9ea34-104">By default, Teams is turned on for all organizations.</span></span> <span data-ttu-id="9ea34-105">如果您在預覽期間使用團隊，該設定會保持與您在團隊預覽期間所設定的內容相同。</span><span class="sxs-lookup"><span data-stu-id="9ea34-105">If you used Teams during the preview period, the setting stays the same as what you set during your Teams preview.</span></span> 
 
 
-<span data-ttu-id="42550-106">如果您是組織的系統管理員，您可以指派使用者授權來控制小組的個別存取，您可以允許或封鎖在團隊中可以使用的內容來源。</span><span class="sxs-lookup"><span data-stu-id="42550-106">As an administrator for your organization, you can assign user licenses to control individual access to Teams, and you can allow or block what content sources can be used in Teams.</span></span> <span data-ttu-id="42550-107">如需詳細資訊，請參閱[管理貴組織的 Microsoft 團隊設定](enable-features-office-365.md)或[microsoft 團隊中應用程式的系統管理設定](admin-settings.md)。</span><span class="sxs-lookup"><span data-stu-id="42550-107">See [Manage Microsoft Teams settings for your organization](enable-features-office-365.md) or [Admin settings for apps in Microsoft Teams](admin-settings.md) for more information.</span></span> 
+<span data-ttu-id="9ea34-106">如果您是組織的系統管理員，您可以指派使用者授權來控制小組的個別存取，您可以允許或封鎖在團隊中可以使用的內容來源。</span><span class="sxs-lookup"><span data-stu-id="9ea34-106">As an administrator for your organization, you can assign user licenses to control individual access to Teams, and you can allow or block what content sources can be used in Teams.</span></span> <span data-ttu-id="9ea34-107">如需詳細資訊，請參閱[管理貴組織的 Microsoft 團隊設定](enable-features-office-365.md)或[microsoft 團隊中應用程式的系統管理設定](admin-settings.md)。</span><span class="sxs-lookup"><span data-stu-id="9ea34-107">See [Manage Microsoft Teams settings for your organization](enable-features-office-365.md) or [Admin settings for apps in Microsoft Teams](admin-settings.md) for more information.</span></span> 
 
 
  
-<span data-ttu-id="42550-108">若要深入瞭解管理個別授權，請參閱[Microsoft 團隊的 Office 365 授權](Office-365-licensing.md)。</span><span class="sxs-lookup"><span data-stu-id="42550-108">To learn more about managing individual licenses, read [Office 365 licensing for Microsoft Teams](Office-365-licensing.md).</span></span> 
+<span data-ttu-id="9ea34-108">若要深入瞭解管理個別授權，請參閱[Microsoft 團隊的 Office 365 授權](Office-365-licensing.md)。</span><span class="sxs-lookup"><span data-stu-id="9ea34-108">To learn more about managing individual licenses, read [Office 365 licensing for Microsoft Teams](Office-365-licensing.md).</span></span> 
 
  
-## <a name="turn-teams-on-or-off-for-your-entire-organization"></a><span data-ttu-id="42550-109">針對您的整個組織開啟或關閉團隊</span><span class="sxs-lookup"><span data-stu-id="42550-109">Turn Teams on or off for your entire organization</span></span> 
+## <a name="turn-teams-on-or-off-for-your-entire-organization"></a><span data-ttu-id="9ea34-109">針對您的整個組織開啟或關閉團隊</span><span class="sxs-lookup"><span data-stu-id="9ea34-109">Turn Teams on or off for your entire organization</span></span> 
  
 [!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)] 
