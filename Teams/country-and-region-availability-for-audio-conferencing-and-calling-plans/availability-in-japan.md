@@ -24,77 +24,74 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是適用于日本的商務用 Skype 和 Microsoft 團隊的 Office 365 服務。
-ms.openlocfilehash: 47e86841f26ff5ac31cbffcf1965efc299007830
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 8607d2d8df9bda17d725784413751e268ba7ec70
+ms.sourcegitcommit: 2fa1ac1c23804749fb1e16af3d6fb191f0f20784
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571689"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "39631973"
 ---
-# <a name="availability-in-japan"></a><span data-ttu-id="0ebbd-103">日本的可用性</span><span class="sxs-lookup"><span data-stu-id="0ebbd-103">Availability in Japan</span></span>
+# <a name="availability-in-japan"></a><span data-ttu-id="308d9-103">日本的可用性</span><span class="sxs-lookup"><span data-stu-id="308d9-103">Availability in Japan</span></span>
 
-<span data-ttu-id="0ebbd-104">[尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或進一步瞭解音訊會議與通話方案的國家/地區可用性。</span><span class="sxs-lookup"><span data-stu-id="0ebbd-104">[Find another country or region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), or learn more about country and region availability for Audio Conferencing and calling plans.</span></span>
+<span data-ttu-id="308d9-104">[尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或進一步瞭解音訊會議與通話方案的國家/地區可用性。</span><span class="sxs-lookup"><span data-stu-id="308d9-104">[Find another country or region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), or learn more about country and region availability for Audio Conferencing and calling plans.</span></span>
 
-<span data-ttu-id="0ebbd-105">以下是適用于日本的商務用 Skype 和 Microsoft 團隊的 Office 365 服務。</span><span class="sxs-lookup"><span data-stu-id="0ebbd-105">Here are the Office 365 services for Skype for Business and Microsoft Teams available for Japan.</span></span>
+<span data-ttu-id="308d9-105">以下是適用于日本的商務用 Skype 和 Microsoft 團隊的 Office 365 服務。</span><span class="sxs-lookup"><span data-stu-id="308d9-105">Here are the Office 365 services for Skype for Business and Microsoft Teams available for Japan.</span></span>
+  
+## <a name="audio-conferencing"></a><span data-ttu-id="308d9-106">音訊會議</span><span class="sxs-lookup"><span data-stu-id="308d9-106">Audio Conferencing</span></span>
+
+|<span data-ttu-id="308d9-107">**功能**</span><span class="sxs-lookup"><span data-stu-id="308d9-107">**Feature**</span></span>|<span data-ttu-id="308d9-108">**詳細資料**</span><span class="sxs-lookup"><span data-stu-id="308d9-108">**Details**</span></span>|
+|:-----|:-----|
+|<span data-ttu-id="308d9-109">音訊會議是否可供購買？</span><span class="sxs-lookup"><span data-stu-id="308d9-109">Is Audio Conferencing available for purchase?</span></span>  <br/> |<span data-ttu-id="308d9-110">是</span><span class="sxs-lookup"><span data-stu-id="308d9-110">Yes</span></span>  <br/> |
+|<span data-ttu-id="308d9-111">是否會自動為音訊會議指派電話號碼？</span><span class="sxs-lookup"><span data-stu-id="308d9-111">Are phone numbers automatically assigned for Audio Conferencing?</span></span>  <br/> |<span data-ttu-id="308d9-112">是，適用于：</span><span class="sxs-lookup"><span data-stu-id="308d9-112">Yes, for:</span></span><br/><ul><li> <span data-ttu-id="308d9-113">東京</span><span class="sxs-lookup"><span data-stu-id="308d9-113">Tokyo</span></span></ul> <span data-ttu-id="308d9-114">如果您需要專用的電話號碼，請參閱[取得商務用 Skype 和 Microsoft 團隊的服務電話號碼](/microsoftteams/getting-service-phone-numbers)。</span><span class="sxs-lookup"><span data-stu-id="308d9-114">If you want dedicated phone numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers).</span></span>  <br/> |
+|<span data-ttu-id="308d9-115">使用 [呼叫我] 功能撥出功能</span><span class="sxs-lookup"><span data-stu-id="308d9-115">Dial-out capability using the Call Me feature</span></span>  <br/> |<span data-ttu-id="308d9-116">離線</span><span class="sxs-lookup"><span data-stu-id="308d9-116">Available</span></span>  <br/> |
+   
+## <a name="phone-system"></a><span data-ttu-id="308d9-117">電話系統</span><span class="sxs-lookup"><span data-stu-id="308d9-117">Phone System</span></span>
+
+|<span data-ttu-id="308d9-118">**功能**</span><span class="sxs-lookup"><span data-stu-id="308d9-118">**Feature**</span></span>|<span data-ttu-id="308d9-119">**詳細資料**</span><span class="sxs-lookup"><span data-stu-id="308d9-119">**Details**</span></span>|
+|:-----|:-----|
+|<span data-ttu-id="308d9-120">電話系統是否可供購買？</span><span class="sxs-lookup"><span data-stu-id="308d9-120">Is Phone System available for purchase?</span></span>  <br/> |<span data-ttu-id="308d9-121">是</span><span class="sxs-lookup"><span data-stu-id="308d9-121">Yes</span></span>  <br/> |
+| <span data-ttu-id="308d9-122">自動語音應答</span><span class="sxs-lookup"><span data-stu-id="308d9-122">Auto attendants</span></span> <br/> |<span data-ttu-id="308d9-123">離線</span><span class="sxs-lookup"><span data-stu-id="308d9-123">Available</span></span>  <br/> |
+|<span data-ttu-id="308d9-124">通話佇列</span><span class="sxs-lookup"><span data-stu-id="308d9-124">Call queues</span></span>  <br/> |<span data-ttu-id="308d9-125">離線</span><span class="sxs-lookup"><span data-stu-id="308d9-125">Available</span></span>  <br/> |
+|<span data-ttu-id="308d9-126">語音信箱</span><span class="sxs-lookup"><span data-stu-id="308d9-126">Voicemail</span></span>  <br/> |<span data-ttu-id="308d9-127">離線</span><span class="sxs-lookup"><span data-stu-id="308d9-127">Available</span></span>  <br/> |
+   
+## <a name="calling-plans"></a><span data-ttu-id="308d9-128">通話方案</span><span class="sxs-lookup"><span data-stu-id="308d9-128">Calling Plans</span></span>
+> [!IMPORTANT]
+> <span data-ttu-id="308d9-129">僅可透過 SoftBank 使用日文租使用者。</span><span class="sxs-lookup"><span data-stu-id="308d9-129">Only available through SoftBank for Japanese-based tenants.</span></span> <span data-ttu-id="308d9-130">如需詳細資訊，請參閱[SoftBank Office 365 的通話](https://aka.ms/SoftBankVoicePlan)）。</span><span class="sxs-lookup"><span data-stu-id="308d9-130">For more information, see [SoftBank Calling for Office 365](https://aka.ms/SoftBankVoicePlan)).</span></span>
+
+|<span data-ttu-id="308d9-131">**功能**</span><span class="sxs-lookup"><span data-stu-id="308d9-131">**Feature**</span></span>|<span data-ttu-id="308d9-132">**詳細資料**</span><span class="sxs-lookup"><span data-stu-id="308d9-132">**Details**</span></span>|
+|:-----|:-----|
+|<span data-ttu-id="308d9-133">通話方案可供購買嗎？</span><span class="sxs-lookup"><span data-stu-id="308d9-133">Calling Plans are available to purchase?</span></span>  <br/> |<span data-ttu-id="308d9-134">是，請參閱[SoftBank Office 365 通話](https://aka.ms/SoftBankVoicePlan)。</span><span class="sxs-lookup"><span data-stu-id="308d9-134">Yes,  see [SoftBank Calling for Office 365](https://aka.ms/SoftBankVoicePlan).</span></span>  <br/> |
+|<span data-ttu-id="308d9-135">通話方案可用的分鐘數</span><span class="sxs-lookup"><span data-stu-id="308d9-135">Minutes available for Calling Plans</span></span>  <br/> |<span data-ttu-id="308d9-136">請參閱[Office 365 的 SoftBank 通話](https://aka.ms/SoftBankVoicePlan)。</span><span class="sxs-lookup"><span data-stu-id="308d9-136">See [SoftBank Calling for Office 365](https://aka.ms/SoftBankVoicePlan).</span></span> <br/> |
+|<span data-ttu-id="308d9-137">可以撥出電話至嗎？</span><span class="sxs-lookup"><span data-stu-id="308d9-137">Can make outbound calls to?</span></span>  <br/> |<span data-ttu-id="308d9-138">請參閱[Office 365 的 SoftBank 通話](https://aka.ms/SoftBankVoicePlan)。</span><span class="sxs-lookup"><span data-stu-id="308d9-138">See [SoftBank Calling for Office 365](https://aka.ms/SoftBankVoicePlan).</span></span> <br/> |
 
 > [!IMPORTANT]
-> <span data-ttu-id="0ebbd-106">在日本使用 SoftBank 進行通話目前僅適用于早期的採納者（EA）。</span><span class="sxs-lookup"><span data-stu-id="0ebbd-106">Using SoftBank for calling in Japan is currently only available to Early Adopters (EA).</span></span>
+> <span data-ttu-id="308d9-139">若要刪除日本的使用者（訂閱者）號碼（由 SoftBank 提供），請直接與 SoftBank。</span><span class="sxs-lookup"><span data-stu-id="308d9-139">To delete user (subscriber) numbers in Japan (Provided by SoftBank) please contact SoftBank directly.</span></span>
+> <span data-ttu-id="308d9-140">若要在日本（由 SoftBank 提供）的使用者（訂閱者）號碼更新緊急位址資訊，請直接與 SoftBank。</span><span class="sxs-lookup"><span data-stu-id="308d9-140">To update emergency address information for user (subscriber) numbers in Japan (Provided by SoftBank) please contact SoftBank directly.</span></span>
+> <span data-ttu-id="308d9-141">如需詳細資訊，請參閱[SoftBank Office 365 的通話](https://aka.ms/SoftBankVoicePlan)。</span><span class="sxs-lookup"><span data-stu-id="308d9-141">For more information, see [SoftBank Calling for Office 365](https://aka.ms/SoftBankVoicePlan).</span></span>
+
+## <a name="toll-and-toll-free-numbers-for-services"></a><span data-ttu-id="308d9-142">服務的付費和免付費電話號碼</span><span class="sxs-lookup"><span data-stu-id="308d9-142">Toll and toll-free numbers for services</span></span>
+
+|<span data-ttu-id="308d9-143">**功能**</span><span class="sxs-lookup"><span data-stu-id="308d9-143">**Feature**</span></span>|<span data-ttu-id="308d9-144">**詳細資料**</span><span class="sxs-lookup"><span data-stu-id="308d9-144">**Details**</span></span>|
+|:-----|:-----|
+|<span data-ttu-id="308d9-145">您可以在哪一或哪些主要城市取得付費電話號碼？</span><span class="sxs-lookup"><span data-stu-id="308d9-145">What capitals or major cities can you get toll numbers for?</span></span>  <br/> |<span data-ttu-id="308d9-146">東京</span><span class="sxs-lookup"><span data-stu-id="308d9-146">Tokyo</span></span>  <br/> |
+|<span data-ttu-id="308d9-147">是否有付費電話號碼？</span><span class="sxs-lookup"><span data-stu-id="308d9-147">Are toll numbers available?</span></span>  <br/> |<span data-ttu-id="308d9-148">是</span><span class="sxs-lookup"><span data-stu-id="308d9-148">Yes</span></span> <br/> |
+|<span data-ttu-id="308d9-149">免費提供免付費電話號碼嗎？</span><span class="sxs-lookup"><span data-stu-id="308d9-149">Are toll-free numbers available?</span></span>  <br/> |<span data-ttu-id="308d9-150">是</span><span class="sxs-lookup"><span data-stu-id="308d9-150">Yes</span></span>  <br/> |
+   
+ <span data-ttu-id="308d9-151">如果您想要取得音訊會議、自動語音應答及通話佇列的付費和免付費電話號碼，請參閱[取得商務用 Skype 和 Microsoft 團隊的服務電話號碼](/microsoftteams/getting-service-phone-numbers)。</span><span class="sxs-lookup"><span data-stu-id="308d9-151">If you want to get toll and toll-free phone numbers for Audio Conferencing, Auto attendants, and Call queues, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers).</span></span>
   
-## <a name="audio-conferencing"></a><span data-ttu-id="0ebbd-107">音訊會議</span><span class="sxs-lookup"><span data-stu-id="0ebbd-107">Audio Conferencing</span></span>
+## <a name="communications-credits"></a><span data-ttu-id="308d9-152">通訊點數</span><span class="sxs-lookup"><span data-stu-id="308d9-152">Communications Credits</span></span>
 
-|<span data-ttu-id="0ebbd-108">**功能**</span><span class="sxs-lookup"><span data-stu-id="0ebbd-108">**Feature**</span></span>|<span data-ttu-id="0ebbd-109">**詳細資料**</span><span class="sxs-lookup"><span data-stu-id="0ebbd-109">**Details**</span></span>|
+|<span data-ttu-id="308d9-153">**功能**</span><span class="sxs-lookup"><span data-stu-id="308d9-153">**Feature**</span></span>|<span data-ttu-id="308d9-154">**詳細資料**</span><span class="sxs-lookup"><span data-stu-id="308d9-154">**Details**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="0ebbd-110">音訊會議是否可供購買？</span><span class="sxs-lookup"><span data-stu-id="0ebbd-110">Is Audio Conferencing available for purchase?</span></span>  <br/> |<span data-ttu-id="0ebbd-111">是的</span><span class="sxs-lookup"><span data-stu-id="0ebbd-111">Yes</span></span>  <br/> |
-|<span data-ttu-id="0ebbd-112">是否會自動為音訊會議指派電話號碼？</span><span class="sxs-lookup"><span data-stu-id="0ebbd-112">Are phone numbers automatically assigned for Audio Conferencing?</span></span>  <br/> |<span data-ttu-id="0ebbd-113">是，適用于：</span><span class="sxs-lookup"><span data-stu-id="0ebbd-113">Yes, for:</span></span><br/><ul><li> <span data-ttu-id="0ebbd-114">東京</span><span class="sxs-lookup"><span data-stu-id="0ebbd-114">Tokyo</span></span></ul> <span data-ttu-id="0ebbd-115">如果您需要專用的電話號碼，請參閱[取得商務用 Skype 和 Microsoft 團隊的服務電話號碼](/microsoftteams/getting-service-phone-numbers)。</span><span class="sxs-lookup"><span data-stu-id="0ebbd-115">If you want dedicated phone numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers).</span></span>  <br/> |
-|<span data-ttu-id="0ebbd-116">使用 [呼叫我] 功能撥出功能</span><span class="sxs-lookup"><span data-stu-id="0ebbd-116">Dial-out capability using the Call Me feature</span></span>  <br/> |<span data-ttu-id="0ebbd-117">離線</span><span class="sxs-lookup"><span data-stu-id="0ebbd-117">Available</span></span>  <br/> |
+|<span data-ttu-id="308d9-155">通訊點數提供了嗎？</span><span class="sxs-lookup"><span data-stu-id="308d9-155">Are Communications Credits available?</span></span>  <br/> |<span data-ttu-id="308d9-156">是</span><span class="sxs-lookup"><span data-stu-id="308d9-156">Yes</span></span>  <br/> |
    
-## <a name="phone-system"></a><span data-ttu-id="0ebbd-118">電話系統</span><span class="sxs-lookup"><span data-stu-id="0ebbd-118">Phone System</span></span>
-
-|<span data-ttu-id="0ebbd-119">**功能**</span><span class="sxs-lookup"><span data-stu-id="0ebbd-119">**Feature**</span></span>|<span data-ttu-id="0ebbd-120">**詳細資料**</span><span class="sxs-lookup"><span data-stu-id="0ebbd-120">**Details**</span></span>|
-|:-----|:-----|
-|<span data-ttu-id="0ebbd-121">電話系統是否可供購買？</span><span class="sxs-lookup"><span data-stu-id="0ebbd-121">Is Phone System available for purchase?</span></span>  <br/> |<span data-ttu-id="0ebbd-122">是的</span><span class="sxs-lookup"><span data-stu-id="0ebbd-122">Yes</span></span>  <br/> |
-| <span data-ttu-id="0ebbd-123">自動語音應答</span><span class="sxs-lookup"><span data-stu-id="0ebbd-123">Auto attendants</span></span> <br/> |<span data-ttu-id="0ebbd-124">離線</span><span class="sxs-lookup"><span data-stu-id="0ebbd-124">Available</span></span>  <br/> |
-|<span data-ttu-id="0ebbd-125">通話佇列</span><span class="sxs-lookup"><span data-stu-id="0ebbd-125">Call queues</span></span>  <br/> |<span data-ttu-id="0ebbd-126">離線</span><span class="sxs-lookup"><span data-stu-id="0ebbd-126">Available</span></span>  <br/> |
-|<span data-ttu-id="0ebbd-127">語音信箱</span><span class="sxs-lookup"><span data-stu-id="0ebbd-127">Voicemail</span></span>  <br/> |<span data-ttu-id="0ebbd-128">離線</span><span class="sxs-lookup"><span data-stu-id="0ebbd-128">Available</span></span>  <br/> |
-   
-## <a name="calling-plans"></a><span data-ttu-id="0ebbd-129">通話方案</span><span class="sxs-lookup"><span data-stu-id="0ebbd-129">Calling Plans</span></span>
-> [!IMPORTANT]
-> <span data-ttu-id="0ebbd-130">僅可透過 SoftBank 使用日文租使用者。</span><span class="sxs-lookup"><span data-stu-id="0ebbd-130">Only available through SoftBank for Japanese-based tenants.</span></span> <span data-ttu-id="0ebbd-131">如需詳細資訊，請參閱[SoftBank Office 365 的通話](https://aka.ms/SoftBankVoicePlan)）。</span><span class="sxs-lookup"><span data-stu-id="0ebbd-131">For more information, see [SoftBank Calling for Office 365](https://aka.ms/SoftBankVoicePlan)).</span></span>
-
-|<span data-ttu-id="0ebbd-132">**功能**</span><span class="sxs-lookup"><span data-stu-id="0ebbd-132">**Feature**</span></span>|<span data-ttu-id="0ebbd-133">**詳細資料**</span><span class="sxs-lookup"><span data-stu-id="0ebbd-133">**Details**</span></span>|
-|:-----|:-----|
-|<span data-ttu-id="0ebbd-134">通話方案可供購買嗎？</span><span class="sxs-lookup"><span data-stu-id="0ebbd-134">Calling Plans are available to purchase?</span></span>  <br/> |<span data-ttu-id="0ebbd-135">是，請參閱[SoftBank Office 365 通話](https://aka.ms/SoftBankVoicePlan)。</span><span class="sxs-lookup"><span data-stu-id="0ebbd-135">Yes,  see [SoftBank Calling for Office 365](https://aka.ms/SoftBankVoicePlan).</span></span>  <br/> |
-|<span data-ttu-id="0ebbd-136">通話方案可用的分鐘數</span><span class="sxs-lookup"><span data-stu-id="0ebbd-136">Minutes available for Calling Plans</span></span>  <br/> |<span data-ttu-id="0ebbd-137">請參閱[Office 365 的 SoftBank 通話](https://aka.ms/SoftBankVoicePlan)。</span><span class="sxs-lookup"><span data-stu-id="0ebbd-137">See [SoftBank Calling for Office 365](https://aka.ms/SoftBankVoicePlan).</span></span> <br/> |
-|<span data-ttu-id="0ebbd-138">可以撥出電話至嗎？</span><span class="sxs-lookup"><span data-stu-id="0ebbd-138">Can make outbound calls to?</span></span>  <br/> |<span data-ttu-id="0ebbd-139">請參閱[Office 365 的 SoftBank 通話](https://aka.ms/SoftBankVoicePlan)。</span><span class="sxs-lookup"><span data-stu-id="0ebbd-139">See [SoftBank Calling for Office 365](https://aka.ms/SoftBankVoicePlan).</span></span> <br/> |
-
-> [!IMPORTANT]
-> <span data-ttu-id="0ebbd-140">若要刪除日本的使用者（訂閱者）號碼（由 SoftBank 提供），請直接與 SoftBank。</span><span class="sxs-lookup"><span data-stu-id="0ebbd-140">To delete user (subscriber) numbers in Japan (Provided by SoftBank) please contact SoftBank directly.</span></span>
-> <span data-ttu-id="0ebbd-141">若要在日本（由 SoftBank 提供）的使用者（訂閱者）號碼更新緊急位址資訊，請直接與 SoftBank。</span><span class="sxs-lookup"><span data-stu-id="0ebbd-141">To update emergency address information for user (subscriber) numbers in Japan (Provided by SoftBank) please contact SoftBank directly.</span></span>
-> <span data-ttu-id="0ebbd-142">如需詳細資訊，請參閱[SoftBank Office 365 的通話](https://aka.ms/SoftBankVoicePlan)。</span><span class="sxs-lookup"><span data-stu-id="0ebbd-142">For more information, see [SoftBank Calling for Office 365](https://aka.ms/SoftBankVoicePlan).</span></span>
-
-## <a name="toll-and-toll-free-numbers-for-services"></a><span data-ttu-id="0ebbd-143">服務的付費和免付費電話號碼</span><span class="sxs-lookup"><span data-stu-id="0ebbd-143">Toll and toll-free numbers for services</span></span>
-
-|<span data-ttu-id="0ebbd-144">**功能**</span><span class="sxs-lookup"><span data-stu-id="0ebbd-144">**Feature**</span></span>|<span data-ttu-id="0ebbd-145">**詳細資料**</span><span class="sxs-lookup"><span data-stu-id="0ebbd-145">**Details**</span></span>|
-|:-----|:-----|
-|<span data-ttu-id="0ebbd-146">您可以在哪一或哪些主要城市取得付費電話號碼？</span><span class="sxs-lookup"><span data-stu-id="0ebbd-146">What capitals or major cities can you get toll numbers for?</span></span>  <br/> |<span data-ttu-id="0ebbd-147">東京</span><span class="sxs-lookup"><span data-stu-id="0ebbd-147">Tokyo</span></span>  <br/> |
-|<span data-ttu-id="0ebbd-148">是否有付費電話號碼？</span><span class="sxs-lookup"><span data-stu-id="0ebbd-148">Are toll numbers available?</span></span>  <br/> |<span data-ttu-id="0ebbd-149">是的</span><span class="sxs-lookup"><span data-stu-id="0ebbd-149">Yes</span></span> <br/> |
-|<span data-ttu-id="0ebbd-150">免費提供免付費電話號碼嗎？</span><span class="sxs-lookup"><span data-stu-id="0ebbd-150">Are toll-free numbers available?</span></span>  <br/> |<span data-ttu-id="0ebbd-151">是的</span><span class="sxs-lookup"><span data-stu-id="0ebbd-151">Yes</span></span>  <br/> |
-   
- <span data-ttu-id="0ebbd-152">如果您想要取得音訊會議、自動語音應答及通話佇列的付費和免付費電話號碼，請參閱[取得商務用 Skype 和 Microsoft 團隊的服務電話號碼](/microsoftteams/getting-service-phone-numbers)。</span><span class="sxs-lookup"><span data-stu-id="0ebbd-152">If you want to get toll and toll-free phone numbers for Audio Conferencing, Auto attendants, and Call queues, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers).</span></span>
+<span data-ttu-id="308d9-157">如果您想要設定，請參閱[為您的組織設定通訊點數](../set-up-communications-credits-for-your-organization.md)。</span><span class="sxs-lookup"><span data-stu-id="308d9-157">If you want to set them up, see [Set up Communications Credits for your organization](../set-up-communications-credits-for-your-organization.md).</span></span>
   
-## <a name="communications-credits"></a><span data-ttu-id="0ebbd-153">通訊點數</span><span class="sxs-lookup"><span data-stu-id="0ebbd-153">Communications Credits</span></span>
+## <a name="related-topics"></a><span data-ttu-id="308d9-158">相關主題</span><span class="sxs-lookup"><span data-stu-id="308d9-158">Related topics</span></span>
 
-|<span data-ttu-id="0ebbd-154">**功能**</span><span class="sxs-lookup"><span data-stu-id="0ebbd-154">**Feature**</span></span>|<span data-ttu-id="0ebbd-155">**詳細資料**</span><span class="sxs-lookup"><span data-stu-id="0ebbd-155">**Details**</span></span>|
-|:-----|:-----|
-|<span data-ttu-id="0ebbd-156">通訊點數提供了嗎？</span><span class="sxs-lookup"><span data-stu-id="0ebbd-156">Are Communications Credits available?</span></span>  <br/> |<span data-ttu-id="0ebbd-157">是的</span><span class="sxs-lookup"><span data-stu-id="0ebbd-157">Yes</span></span>  <br/> |
-   
-<span data-ttu-id="0ebbd-158">如果您想要設定，請參閱[為您的組織設定通訊點數](../set-up-communications-credits-for-your-organization.md)。</span><span class="sxs-lookup"><span data-stu-id="0ebbd-158">If you want to set them up, see [Set up Communications Credits for your organization](../set-up-communications-credits-for-your-organization.md).</span></span>
-  
-## <a name="related-topics"></a><span data-ttu-id="0ebbd-159">相關主題</span><span class="sxs-lookup"><span data-stu-id="0ebbd-159">Related topics</span></span>
+[<span data-ttu-id="308d9-159">取得商務用 Skype 和 Microsoft Teams 的服務電話號碼</span><span class="sxs-lookup"><span data-stu-id="308d9-159">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/microsoftteams/getting-service-phone-numbers)
 
-[<span data-ttu-id="0ebbd-160">取得商務用 Skype 和 Microsoft 團隊的服務電話號碼</span><span class="sxs-lookup"><span data-stu-id="0ebbd-160">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/microsoftteams/getting-service-phone-numbers)
-
-[<span data-ttu-id="0ebbd-161">適用于音訊會議與通話方案的國家和地區可用性</span><span class="sxs-lookup"><span data-stu-id="0ebbd-161">Country and region availability for Audio Conferencing and Calling Plans</span></span>](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[<span data-ttu-id="308d9-160">音訊會議與通話方案的適用國家/地區</span><span class="sxs-lookup"><span data-stu-id="308d9-160">Country and region availability for Audio Conferencing and Calling Plans</span></span>](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
   
  
