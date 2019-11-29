@@ -115,6 +115,7 @@
 ## [在設定變更時傳送給使用者的電子郵件](emails-sent-to-users-when-their-settings-change-in-teams.md) 
 ## [讓使用者在加入會議時記錄他們的名稱](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 ## [開啟或關閉進入和結束會議的宣告](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
+## [在不支援的瀏覽器上進行 Teams 會議](unsupported-browsers.md)
 ## [在 Teams 中設定桌面共用](configure-desktop-sharing.md)
 ## [Teams 雲端會議錄製](cloud-recording.md)
 ## [在 Outlook 中使用 Teams 會議增益集](teams-add-in-for-outlook.md)
@@ -339,7 +340,6 @@
 ### [設定多個租用戶的工作階段邊界控制器](direct-routing-sbc-multiple-tenants.md)
 ### [通過直接路由認證的工作階段邊界控制器清單](direct-routing-border-controllers.md)
 ### 依位置路由
-#### [依位置路由術語](location-based-routing-terminology.md)
 #### [規劃直接路由的依位置路由](location-based-routing-plan.md)
 #### [設定依位置路由的網路設定](location-based-routing-configure-network-settings.md)
 #### [啟用直接路由的依位置路由](location-based-routing-enable.md)
@@ -374,10 +374,15 @@
 ### [什麼是撥號對應表？](what-are-dial-plans.md)
 ### [建立和管理撥號對應表](create-and-manage-dial-plans.md)
 ### [新增和更新報告標籤](learn-more-about-site-upload.md)
+
+## 網路設定和拓撲
+### [雲端語音功能的網路設定](cloud-voice-network-settings.md)
+### [管理雲端語音功能的網路拓撲](manage-your-network-topology.md)
+
 ## 緊急電話
-### [規劃和設定動態緊急電話](configure-dynamic-emergency-calling.md)
+### [概觀](what-are-emergency-locations-addresses-and-call-routing.md)
+### [設定動態緊急電話](configure-dynamic-emergency-calling.md)
 ### 管理緊急地址
-#### [什麼是緊急位置、地方和通話路由？](what-are-emergency-locations-addresses-and-call-routing.md)
 #### [新增、變更或移除貴組織的緊急位置](add-change-remove-emergency-location-organization.md)
 #### [新增、變更或移除貴組織緊急位置的地方](add-change-remove-emergency-place-organization.md)
 #### [指派或變更使用者的緊急位置](assign-change-emergency-location-user.md)
