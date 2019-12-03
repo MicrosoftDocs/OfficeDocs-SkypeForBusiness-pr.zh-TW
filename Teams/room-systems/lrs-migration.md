@@ -12,12 +12,12 @@ ms.collection:
 - M365-collaboration
 ms.assetid: ''
 description: 請閱讀本主題，瞭解如何將 Lync 室系統裝置遷移至使用 Microsoft 團隊聊天室軟體。
-ms.openlocfilehash: 377e901446d69e0956ff981b1b45686c949cf61c
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: 2a324e426368722cf261554b09298f098644d5ba
+ms.sourcegitcommit: 74c06b00ff78dc816a59e6c59e9be87181fc0f3e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38675357"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39669271"
 ---
 # <a name="migrate-lync-room-system-lrs-devices-to-microsoft-teams-rooms"></a>將 Lync 會議室系統（LRS）裝置遷移至 Microsoft 團隊聊天室
 
@@ -25,7 +25,7 @@ ms.locfileid: "38675357"
 
 Microsoft 團隊會議室軟體除了適用于 Microsoft 團隊之外，還可與 Microsoft 團隊搭配使用，在所有 Microsoft 團隊會議室支援的裝置上進行會議與通話的商務用 Skype。
 
-在 Skype 會議室系統版本1之後，您現有的裝置**可能會**繼續運作。 不過，如果這個軟體遇到需要 Microsoft 釋放修正程式的軟體錯誤，就不會受到支援。 SRS v1 使用的是 TLS 1.0/1.1，在未來將會被 Microsoft 取代。 您可以深入瞭解如何[針對 TLS 1.0/1.1 過時進行準備](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Preparing-for-TLS-1-0-1-1-Deprecation-O365-Skype-for-Business/bc-p/223608)。 Microsoft [團隊聊天室] 新增對 TLS 1.2 的支援，且將持續在2018年10月31日之後繼續工作。 商務用 Skype 內部部署客戶不應停用 TLS 1.0/1.1，直到 Microsoft 小組聊天室宣告 TLS 1.2 支援，而不考慮 TLS 1.0/1.1 過時的一般指導方針。
+在 Skype 會議室系統版本1之後，您現有的裝置**可能會**繼續運作。 不過，如果這個軟體遇到需要 Microsoft 釋放修正程式的軟體錯誤，就不會受到支援。 SRS v1 使用的是 TLS 1.0/1.1，在未來將會被 Microsoft 取代。 您可以深入瞭解如何[針對 TLS 1.0/1.1 過時進行準備](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Preparing-for-TLS-1-0-1-1-Deprecation-O365-Skype-for-Business/bc-p/223608)。 
 
 ## <a name="which-devices-are-affected"></a>哪些裝置會受到影響？
 
@@ -57,8 +57,6 @@ Crestron 將針對所有非 Crestron Lync 系統客戶（例如智慧型或 Poly
 
 我們建議您先使用上述升級選項，在 TLS 1.0/1.1 過時版本中，將 Lync 室系統裝置更新為 Microsoft 團隊聊天室。 此外，您也可以考慮使用針對 Microsoft 團隊聊天室認證的新裝置來取代現有的裝置。 如需詳細資訊，請參閱[會議室裝置](https://aka.ms/roomdevices)，並查看[Microsoft 團隊會議室需求](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/requirements)。  
 
-> [!NOTE]
-> Microsoft 團隊聊天室尚不支援觸控和白板功能。 觸控和白板支援目前已針對 Microsoft 團隊聊天室進行規劃，並將于2019中新增。
 
 > [!NOTE]
 > Microsoft 團隊聊天室軟體支援 TLS 1.2 通訊協定，在2018中有應用程式版本4.0.64.0 的12月14日。 針對內部部署客戶，在 Microsoft 團隊聊天室啟用經由 TLS 1.2 的通訊需要商務用 Skype Server 2015 累加更新9（CU9）或商務用 Skype Server 2019 累加更新1（CU1）。 因為用戶端變更是轉寄及後相容，所以變更不應該影響商務用 Skype Online 客戶。

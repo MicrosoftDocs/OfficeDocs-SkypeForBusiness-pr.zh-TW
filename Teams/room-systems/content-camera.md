@@ -1,7 +1,7 @@
 ---
 title: 使用 XML 設定檔遠端系統管理 Microsoft 團隊聊天室的主控台設定
-ms.author: serdars
-author: serdarsoysal
+ms.author: kenwith
+author: kenwith
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: 本文將討論 Microsoft 團隊聊天室裝置所使用的預設設定的遠端系統管理，包括套用自訂主題。
-ms.openlocfilehash: 21f60c95c556e9fd006d378a0ff7b48dd0b1b6c2
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: 35ca0898dbaa1309848f4725f21cd11bf9511752
+ms.sourcegitcommit: 74c06b00ff78dc816a59e6c59e9be87181fc0f3e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38675761"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39669254"
 ---
 # <a name="content-cameras"></a>內容相機
 

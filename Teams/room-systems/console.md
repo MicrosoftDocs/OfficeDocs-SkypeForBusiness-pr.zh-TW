@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: 本文說明如何設定 Microsoft 團隊聊天室主控台及其外設。
-ms.openlocfilehash: 6172e37b53934bc75ae7f5bdf848fd503ffe2e8a
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: fd09d7e9d70a5912469d4ed2d79a4dc8f465eeb6
+ms.sourcegitcommit: 486eaa85042670edec2231efaf7dae8fa329e852
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38675771"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "39665436"
 ---
 # <a name="configure-a-microsoft-teams-rooms-console"></a>設定 Microsoft 團隊聊天室主控台
 
@@ -45,6 +45,9 @@ ms.locfileid: "38675771"
 
 > [!NOTE]
 > 下列程式適用于建立安裝媒體至影像新的 Microsoft 團隊聊天室裝置。 根據預設，現有的裝置會自動從 Windows Update 和 Windows 市集中更新。
+
+> [!IMPORTANT]
+> 用來建立 Microsoft 團隊聊天室安裝媒體的 Windows 10 電腦，必須位於與目標安裝媒體相同或更新版本的 Windows 上。
   
 1. 下載[CreateSrsMedia. ps1 腳本](https://go.microsoft.com/fwlink/?linkid=867842)。
 2. 從 Windows 10 電腦上的提升提示執行 CreateSrsMedia 腳本。
