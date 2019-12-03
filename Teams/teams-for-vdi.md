@@ -15,65 +15,69 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 450fd98d65d092f3cbc684e4efd90691b5e389a1
-ms.sourcegitcommit: 69217fb6d6b71081386364db58083eb5d1932c07
+ms.openlocfilehash: bdac909139a225d622098df5d7df44516edac7bd
+ms.sourcegitcommit: 74c06b00ff78dc816a59e6c59e9be87181fc0f3e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38638803"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39669241"
 ---
-# <a name="teams-for-virtualized-desktop-infrastructure"></a><span data-ttu-id="df389-103">虛擬化桌面基礎結構的團隊</span><span class="sxs-lookup"><span data-stu-id="df389-103">Teams for Virtualized Desktop Infrastructure</span></span>
+# <a name="teams-for-virtualized-desktop-infrastructure"></a><span data-ttu-id="44ac2-103">虛擬化桌面基礎結構的團隊</span><span class="sxs-lookup"><span data-stu-id="44ac2-103">Teams for Virtualized Desktop Infrastructure</span></span>
 
-<span data-ttu-id="df389-104">本文將說明在虛擬化環境中使用 Microsoft 團隊的需求與限制。</span><span class="sxs-lookup"><span data-stu-id="df389-104">This article describes the requirements and limitations for using Microsoft Teams in a virtualized environment.</span></span>
+<span data-ttu-id="44ac2-104">本文將說明在虛擬化環境中使用 Microsoft 團隊的需求與限制。</span><span class="sxs-lookup"><span data-stu-id="44ac2-104">This article describes the requirements and limitations for using Microsoft Teams in a virtualized environment.</span></span>
 
-## <a name="what-is-vdi"></a><span data-ttu-id="df389-105">什麼是 VDI？</span><span class="sxs-lookup"><span data-stu-id="df389-105">What is VDI?</span></span>
+## <a name="what-is-vdi"></a><span data-ttu-id="44ac2-105">什麼是 VDI？</span><span class="sxs-lookup"><span data-stu-id="44ac2-105">What is VDI?</span></span>
 
-<span data-ttu-id="df389-106">虛擬桌面基礎結構（VDI）是虛擬化技術，可在資料中心的中央伺服器上託管桌面作業系統和應用程式。</span><span class="sxs-lookup"><span data-stu-id="df389-106">Virtual Desktop Infrastructure (VDI) is virtualization technology that hosts a desktop operating system and applications on a centralized server in a data center.</span></span> <span data-ttu-id="df389-107">這可讓使用者具備完全安全且相容的集中來源，為使用者提供完整的個人化桌面體驗。</span><span class="sxs-lookup"><span data-stu-id="df389-107">This enables a fully personalized desktop experience to users with a fully secured and compliant centralized source.</span></span> 
- 
-<span data-ttu-id="df389-108">目前，虛擬化環境中的團隊可與專用的永久性虛擬化電腦（VM）共同提供共同作業和聊天功能的支援。</span><span class="sxs-lookup"><span data-stu-id="df389-108">Currently, Teams in a virtualized environment is available with support for collaboration and chat functionality with a dedicated persistent virtualized machine (VM).</span></span> <span data-ttu-id="df389-109">若要確保最佳的使用者體驗，請遵循本文中的指導方針。</span><span class="sxs-lookup"><span data-stu-id="df389-109">To ensure an optimal user experience, follow the guidance in this article.</span></span> 
+<span data-ttu-id="44ac2-106">虛擬桌面基礎結構（VDI）是虛擬化技術，可在資料中心的中央伺服器上託管桌面作業系統和應用程式。</span><span class="sxs-lookup"><span data-stu-id="44ac2-106">Virtual Desktop Infrastructure (VDI) is virtualization technology that hosts a desktop operating system and applications on a centralized server in a data center.</span></span> <span data-ttu-id="44ac2-107">這可讓使用者具備完全安全且相容的集中來源，為使用者提供完整的個人化桌面體驗。</span><span class="sxs-lookup"><span data-stu-id="44ac2-107">This enables a fully personalized desktop experience to users with a fully secured and compliant centralized source.</span></span>
 
-## <a name="teams-requirements"></a><span data-ttu-id="df389-110">團隊需求</span><span class="sxs-lookup"><span data-stu-id="df389-110">Teams requirements</span></span>
+<span data-ttu-id="44ac2-108">目前，虛擬化環境中的團隊可與專用的永久性虛擬化電腦（VM）共同提供共同作業和聊天功能的支援。</span><span class="sxs-lookup"><span data-stu-id="44ac2-108">Currently, Teams in a virtualized environment is available with support for collaboration and chat functionality with a dedicated persistent virtualized machine (VM).</span></span> <span data-ttu-id="44ac2-109">若要確保最佳的使用者體驗，請遵循本文中的指導方針。</span><span class="sxs-lookup"><span data-stu-id="44ac2-109">To ensure an optimal user experience, follow the guidance in this article.</span></span>
 
-### <a name="set-policies-to-turn-off-calling-and-meeting-functionality-in-teams"></a><span data-ttu-id="df389-111">設定原則以關閉小組中的通話與會議功能</span><span class="sxs-lookup"><span data-stu-id="df389-111">Set policies to turn off calling and meeting functionality in Teams</span></span>
+## <a name="teams-requirements"></a><span data-ttu-id="44ac2-110">團隊需求</span><span class="sxs-lookup"><span data-stu-id="44ac2-110">Teams requirements</span></span>
 
-<span data-ttu-id="df389-112">小組通話和會議體驗未針對 VDI 環境優化（即將推出）。</span><span class="sxs-lookup"><span data-stu-id="df389-112">The Teams calling and meeting experience isn't optimized for a VDI environment (coming soon).</span></span> <span data-ttu-id="df389-113">我們建議您設定使用者層級原則，以關閉小組中的通話與會議功能。</span><span class="sxs-lookup"><span data-stu-id="df389-113">We recommend you set user-level policies to turn off calling and meeting functionality in Teams.</span></span>
+### <a name="set-policies-to-turn-off-calling-and-meeting-functionality-in-teams"></a><span data-ttu-id="44ac2-111">設定原則以關閉小組中的通話與會議功能</span><span class="sxs-lookup"><span data-stu-id="44ac2-111">Set policies to turn off calling and meeting functionality in Teams</span></span>
 
-<span data-ttu-id="df389-114">您仍然可以使用小組桌面應用程式或 web 應用程式，選擇在 VDI 中完全執行團隊。</span><span class="sxs-lookup"><span data-stu-id="df389-114">You can still choose to run Teams fully in VDI using either the Teams desktop app or web app.</span></span> <span data-ttu-id="df389-115">不過，建議您設定原則，以避免損害使用者體驗。</span><span class="sxs-lookup"><span data-stu-id="df389-115">However, we recommend that you set the policies to avoid compromising the user experience.</span></span>  
+<span data-ttu-id="44ac2-112">小組通話和會議體驗未針對 VDI 環境優化（即將推出）。</span><span class="sxs-lookup"><span data-stu-id="44ac2-112">The Teams calling and meeting experience isn't optimized for a VDI environment (coming soon).</span></span> <span data-ttu-id="44ac2-113">我們建議您設定使用者層級原則，以關閉小組中的通話與會議功能。</span><span class="sxs-lookup"><span data-stu-id="44ac2-113">We recommend you set user-level policies to turn off calling and meeting functionality in Teams.</span></span>
 
-<span data-ttu-id="df389-116">策略變更可能需要幾個時間（幾個小時）才能傳播。</span><span class="sxs-lookup"><span data-stu-id="df389-116">It can take some time (a few hours) for the policy changes to propagate.</span></span> <span data-ttu-id="df389-117">如果您沒有立即看到特定帳戶的變更，請在幾個小時後再試一次。</span><span class="sxs-lookup"><span data-stu-id="df389-117">If you don’t see changes for a given account immediately, try again in a few hours.</span></span>
+<span data-ttu-id="44ac2-114">您仍然可以使用小組桌面應用程式或 web 應用程式，選擇在 VDI 中完全執行團隊。</span><span class="sxs-lookup"><span data-stu-id="44ac2-114">You can still choose to run Teams fully in VDI using either the Teams desktop app or web app.</span></span> <span data-ttu-id="44ac2-115">不過，建議您設定原則，以避免損害使用者體驗。</span><span class="sxs-lookup"><span data-stu-id="44ac2-115">However, we recommend that you set the policies to avoid compromising the user experience.</span></span>
+
+<span data-ttu-id="44ac2-116">策略變更可能需要幾個時間（幾個小時）才能傳播。</span><span class="sxs-lookup"><span data-stu-id="44ac2-116">It can take some time (a few hours) for the policy changes to propagate.</span></span> <span data-ttu-id="44ac2-117">如果您沒有立即看到特定帳戶的變更，請在幾個小時後再試一次。</span><span class="sxs-lookup"><span data-stu-id="44ac2-117">If you don’t see changes for a given account immediately, try again in a few hours.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="df389-118">當團隊通話和會議已針對虛擬桌面環境中的使用進行優化時，您可以復原這些原則，並允許使用者使用小組做為自己的習慣。</span><span class="sxs-lookup"><span data-stu-id="df389-118">When Teams calling and meetings are optimized for use in virtual desktop environments, you can revert these policies and allow users to use Teams as they normally would.</span></span> 
+> <span data-ttu-id="44ac2-118">當團隊通話和會議已針對虛擬桌面環境中的使用進行優化時，您可以復原這些原則，並允許使用者使用小組做為自己的習慣。</span><span class="sxs-lookup"><span data-stu-id="44ac2-118">When Teams calling and meetings are optimized for use in virtual desktop environments, you can revert these policies and allow users to use Teams as they normally would.</span></span>
 
-#### <a name="calling"></a><span data-ttu-id="df389-119">通話</span><span class="sxs-lookup"><span data-stu-id="df389-119">Calling</span></span>
+#### <a name="calling"></a><span data-ttu-id="44ac2-119">通話</span><span class="sxs-lookup"><span data-stu-id="44ac2-119">Calling</span></span>
 
-<span data-ttu-id="df389-120">使用**CSTeamsCallingPolicy** Cmdlet 來控制是否允許使用者在私人和群組聊天中使用呼叫和呼叫選項。</span><span class="sxs-lookup"><span data-stu-id="df389-120">Use the **CSTeamsCallingPolicy** cmdlets to control whether users are allowed to use calling and calling options in private and group chats.</span></span> <span data-ttu-id="df389-121">以下是原則設定及建議值的清單。</span><span class="sxs-lookup"><span data-stu-id="df389-121">Here's the list of policy settings and recommended values.</span></span>
+<span data-ttu-id="44ac2-120">使用**CSTeamsCallingPolicy** Cmdlet 來控制是否允許使用者在私人和群組聊天中使用呼叫和呼叫選項。</span><span class="sxs-lookup"><span data-stu-id="44ac2-120">Use the **CSTeamsCallingPolicy** cmdlets to control whether users are allowed to use calling and calling options in private and group chats.</span></span> <span data-ttu-id="44ac2-121">以下是原則設定及建議值的清單。</span><span class="sxs-lookup"><span data-stu-id="44ac2-121">Here's the list of policy settings and recommended values.</span></span>
 
-|<span data-ttu-id="df389-122">原則名稱</span><span class="sxs-lookup"><span data-stu-id="df389-122">Policy name</span></span>  |<span data-ttu-id="df389-123">描述</span><span class="sxs-lookup"><span data-stu-id="df389-123">Description</span></span> |<span data-ttu-id="df389-124">建議值</span><span class="sxs-lookup"><span data-stu-id="df389-124">Recommended value</span></span>  |
+|<span data-ttu-id="44ac2-122">原則名稱</span><span class="sxs-lookup"><span data-stu-id="44ac2-122">Policy name</span></span>  |<span data-ttu-id="44ac2-123">描述</span><span class="sxs-lookup"><span data-stu-id="44ac2-123">Description</span></span> |<span data-ttu-id="44ac2-124">建議值</span><span class="sxs-lookup"><span data-stu-id="44ac2-124">Recommended value</span></span>  |
 |---------|---------|---------|
-|<span data-ttu-id="df389-125">AllowCalling</span><span class="sxs-lookup"><span data-stu-id="df389-125">AllowCalling</span></span>    |<span data-ttu-id="df389-126">控制交互操作通話功能。</span><span class="sxs-lookup"><span data-stu-id="df389-126">Controls interop calling capabilities.</span></span> <span data-ttu-id="df389-127">開啟這項功能後，商務用 Skype 使用者就能與團隊使用者進行一對一通話（反之亦然）。</span><span class="sxs-lookup"><span data-stu-id="df389-127">Turning this on allows Skype for Business users to have one-on-one calls with Teams users and vice versa.</span></span>         |<span data-ttu-id="df389-128">設定為 False，以避免從商務用 Skype 使用者撥打電話給小組。</span><span class="sxs-lookup"><span data-stu-id="df389-128">Set to False to prevent calls from Skype for Business users landing in Teams.</span></span>          |
-|<span data-ttu-id="df389-129">AllowPrivateCalling</span><span class="sxs-lookup"><span data-stu-id="df389-129">AllowPrivateCalling</span></span>     | <span data-ttu-id="df389-130">控制是否在團隊用戶端左側的應用程式行中提供通話應用程式，以及使用者是否在私人聊天中看到通話和視頻通話選項</span><span class="sxs-lookup"><span data-stu-id="df389-130">Controls whether the Calling app is available in the app bar on the left side of the Teams client and whether users see Calling and Video call options in private chat</span></span>         |<span data-ttu-id="df389-131">設為 False，即可從小組左側的應用程式行中移除通話應用程式，以及移除 [私人聊天] 中的 [通話] 和 [視頻通話] 選項。</span><span class="sxs-lookup"><span data-stu-id="df389-131">Set to False to remove the Calling app from the app bar on the left side of Teams and to remove the Calling and Video call options in private chat.</span></span>          |
+|<span data-ttu-id="44ac2-125">AllowCalling</span><span class="sxs-lookup"><span data-stu-id="44ac2-125">AllowCalling</span></span>|<span data-ttu-id="44ac2-126">控制交互操作通話功能。</span><span class="sxs-lookup"><span data-stu-id="44ac2-126">Controls interop calling capabilities.</span></span> <span data-ttu-id="44ac2-127">開啟這項功能後，商務用 Skype 使用者就能與團隊使用者進行一對一通話（反之亦然）。</span><span class="sxs-lookup"><span data-stu-id="44ac2-127">Turning this on allows Skype for Business users to have one-on-one calls with Teams users and vice versa.</span></span>|<span data-ttu-id="44ac2-128">設定為 False，以避免從商務用 Skype 使用者撥打電話給小組。</span><span class="sxs-lookup"><span data-stu-id="44ac2-128">Set to False to prevent calls from Skype for Business users landing in Teams.</span></span>|
+|<span data-ttu-id="44ac2-129">AllowPrivateCalling</span><span class="sxs-lookup"><span data-stu-id="44ac2-129">AllowPrivateCalling</span></span>| <span data-ttu-id="44ac2-130">控制呼叫 app 在團隊用戶端左側的應用程式行中是否可用，以及使用者是否在 [私人聊天] 中看到 [通話] 和 [視頻通話] 選項。</span><span class="sxs-lookup"><span data-stu-id="44ac2-130">Controls whether the Calling app is available in the app bar on the left side of the Teams client and whether users see Calling and Video call options in private chat.</span></span> |<span data-ttu-id="44ac2-131">設為 False，即可從小組左側的應用程式行中移除通話應用程式，以及移除 [私人聊天] 中的 [通話] 和 [視頻通話] 選項。</span><span class="sxs-lookup"><span data-stu-id="44ac2-131">Set to False to remove the Calling app from the app bar on the left side of Teams and to remove the Calling and Video call options in private chat.</span></span>|
 
-#### <a name="create-and-assign-a-calling-policy"></a><span data-ttu-id="df389-132">建立並指派通話原則</span><span class="sxs-lookup"><span data-stu-id="df389-132">Create and assign a calling policy</span></span>
+#### <a name="create-and-assign-a-calling-policy"></a><span data-ttu-id="44ac2-132">建立並指派通話原則</span><span class="sxs-lookup"><span data-stu-id="44ac2-132">Create and assign a calling policy</span></span>
 
-1. <span data-ttu-id="df389-133">以系統管理員身分啟動 Windows PowerShell 會話。</span><span class="sxs-lookup"><span data-stu-id="df389-133">Start a Windows PowerShell session as an administrator.</span></span>
-2. <span data-ttu-id="df389-134">連線至 [Skype Online 連接器]。</span><span class="sxs-lookup"><span data-stu-id="df389-134">Connect to the Skype Online Connector.</span></span>
+1. <span data-ttu-id="44ac2-133">以系統管理員身分啟動 Windows PowerShell 會話。</span><span class="sxs-lookup"><span data-stu-id="44ac2-133">Start a Windows PowerShell session as an administrator.</span></span>
+2. <span data-ttu-id="44ac2-134">連線至 [Skype Online 連接器]。</span><span class="sxs-lookup"><span data-stu-id="44ac2-134">Connect to the Skype Online Connector.</span></span>
 
-        # Set Office 365 User Name and Password
-        $username = “admin email address”
-        password = ConvertTo-SecureString "password" -AsPlainText -Force
-        $LiveCred = new-object -typename System.Management.Automation.PSCredential -argumentlist $username, $password
-        # Connect to Skype Online
-        Import-Module SkypeOnlineConnector
-        $sfboSession = New-CsOnlineSession -Credential $LiveCred
-        Import-PSSession $sfboSession```
+      ```powershell
+      # Set Office 365 User Name and Password
+      $username = "admin email address"
+      password = ConvertTo-SecureString "password" -AsPlainText -Force
+      $LiveCred = new-object -typename System.Management.Automation.PSCredential -argumentlist $username, $password
+      # Connect to Skype Online
+      Import-Module SkypeOnlineConnector
+      $sfboSession = New-CsOnlineSession -Credential $LiveCred
+      Import-PSSession $sfboSession
+      ```
 
-3. <span data-ttu-id="df389-135">查看通話原則選項的清單。</span><span class="sxs-lookup"><span data-stu-id="df389-135">View a list of calling policy options.</span></span>
+3. <span data-ttu-id="44ac2-135">查看通話原則選項的清單。</span><span class="sxs-lookup"><span data-stu-id="44ac2-135">View a list of calling policy options.</span></span>
 
-       Get-CsTeamsCallingPolicy
- 
-4. <span data-ttu-id="df389-136">尋找已停用所有通話原則的內建原則選項。</span><span class="sxs-lookup"><span data-stu-id="df389-136">Look for the built-in policy option where all calling policies are disabled.</span></span> <span data-ttu-id="df389-137">它看起來像這樣。</span><span class="sxs-lookup"><span data-stu-id="df389-137">It looks like this.</span></span>
-   
+      ```powershell
+      Get-CsTeamsCallingPolicy
+      ```
+
+4. <span data-ttu-id="44ac2-136">尋找已停用所有通話原則的內建原則選項。</span><span class="sxs-lookup"><span data-stu-id="44ac2-136">Look for the built-in policy option where all calling policies are disabled.</span></span> <span data-ttu-id="44ac2-137">它看起來像這樣。</span><span class="sxs-lookup"><span data-stu-id="44ac2-137">It looks like this.</span></span>
+
         Identity                        : Tag:DisallowCalling
         AllowCalling                    : False
         AllowPrivateCalling             : False
@@ -85,54 +89,60 @@ ms.locfileid: "38638803"
         AllowCallForwardingToPhone      : False
         PreventTollBypass               : False
 
-5. <span data-ttu-id="df389-138">將 DisallowCalling 內建原則選項套用至將在虛擬化環境中使用團隊的所有使用者。</span><span class="sxs-lookup"><span data-stu-id="df389-138">Apply the DisallowCalling built-in policy option to all users who will be using Teams in a virtualized environment.</span></span>
+5. <span data-ttu-id="44ac2-138">將 DisallowCalling 內建原則選項套用至將在虛擬化環境中使用團隊的所有使用者。</span><span class="sxs-lookup"><span data-stu-id="44ac2-138">Apply the DisallowCalling built-in policy option to all users who will be using Teams in a virtualized environment.</span></span>
 
-        Grant-CsTeamsCallingPolicy -PolicyName DisallowCalling -Identity “user email id”
+      ```powershell
+      Grant-CsTeamsCallingPolicy -PolicyName DisallowCalling -Identity "user email id"
+      ```
 
-<span data-ttu-id="df389-139">如需團隊通話原則的詳細資訊，請參閱[設定 CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy)。</span><span class="sxs-lookup"><span data-stu-id="df389-139">For more information about Teams calling policies, see [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy).</span></span>
+<span data-ttu-id="44ac2-139">如需團隊通話原則的詳細資訊，請參閱[設定 CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy)。</span><span class="sxs-lookup"><span data-stu-id="44ac2-139">For more information about Teams calling policies, see [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy).</span></span>
 
-#### <a name="meetings"></a><span data-ttu-id="df389-140">舉行</span><span class="sxs-lookup"><span data-stu-id="df389-140">Meetings</span></span>
+#### <a name="meetings"></a><span data-ttu-id="44ac2-140">舉行</span><span class="sxs-lookup"><span data-stu-id="44ac2-140">Meetings</span></span>
 
-<span data-ttu-id="df389-141">使用**CsTeamsMeetingPolicy** Cmdlet 來控制使用者可以建立的會議類型、在會議中可存取的功能，以及匿名及外部使用者可以使用的會議功能。</span><span class="sxs-lookup"><span data-stu-id="df389-141">Use the **CsTeamsMeetingPolicy** cmdlets to control the type of meetings that users can create, the features that they can access while in a meeting, and the meeting features that are available to anonymous and external users.</span></span> <span data-ttu-id="df389-142">以下是原則設定及建議值的清單。</span><span class="sxs-lookup"><span data-stu-id="df389-142">Here's the list of policy settings and recommended values.</span></span>
+<span data-ttu-id="44ac2-141">使用**CsTeamsMeetingPolicy** Cmdlet 來控制使用者可以建立的會議類型、在會議中可存取的功能，以及匿名及外部使用者可以使用的會議功能。</span><span class="sxs-lookup"><span data-stu-id="44ac2-141">Use the **CsTeamsMeetingPolicy** cmdlets to control the type of meetings that users can create, the features that they can access while in a meeting, and the meeting features that are available to anonymous and external users.</span></span> <span data-ttu-id="44ac2-142">以下是原則設定及建議值的清單。</span><span class="sxs-lookup"><span data-stu-id="44ac2-142">Here's the list of policy settings and recommended values.</span></span>
 
-|<span data-ttu-id="df389-143">原則名稱</span><span class="sxs-lookup"><span data-stu-id="df389-143">Policy Name</span></span> |<span data-ttu-id="df389-144">描述</span><span class="sxs-lookup"><span data-stu-id="df389-144">Description</span></span>|<span data-ttu-id="df389-145">建議值</span><span class="sxs-lookup"><span data-stu-id="df389-145">Recommended Value</span></span>                   |
+|<span data-ttu-id="44ac2-143">原則名稱</span><span class="sxs-lookup"><span data-stu-id="44ac2-143">Policy Name</span></span> |<span data-ttu-id="44ac2-144">描述</span><span class="sxs-lookup"><span data-stu-id="44ac2-144">Description</span></span>|<span data-ttu-id="44ac2-145">建議值</span><span class="sxs-lookup"><span data-stu-id="44ac2-145">Recommended Value</span></span>                   |
 |-------------------|-----------------|-----------------------|
-|<span data-ttu-id="df389-146">AllowPrivateMeetingScheduling</span><span class="sxs-lookup"><span data-stu-id="df389-146">AllowPrivateMeetingScheduling</span></span>  | <span data-ttu-id="df389-147">判斷是否允許使用者排程私人會議。</span><span class="sxs-lookup"><span data-stu-id="df389-147">Determines whether a user is allowed to schedule private meetings.</span></span>| <span data-ttu-id="df389-148">設為 False，禁止使用者排程私人會議。</span><span class="sxs-lookup"><span data-stu-id="df389-148">Set to False to prohibit the user from being able to schedule private meetings.</span></span>  |
-|<span data-ttu-id="df389-149">AllowChannelMeetingScheduling</span><span class="sxs-lookup"><span data-stu-id="df389-149">AllowChannelMeetingScheduling</span></span>  | <span data-ttu-id="df389-150">判斷是否允許使用者排程頻道會議。</span><span class="sxs-lookup"><span data-stu-id="df389-150">Determines whether a user is allowed to schedule channel meetings.</span></span> | <span data-ttu-id="df389-151">設為 False，禁止使用者排程頻道會議。</span><span class="sxs-lookup"><span data-stu-id="df389-151">Set to False to prohibit the user from being able to schedule channel meetings.</span></span>                       |
-|<span data-ttu-id="df389-152">AllowMeetNow</span><span class="sxs-lookup"><span data-stu-id="df389-152">AllowMeetNow</span></span> |<span data-ttu-id="df389-153">判斷是否允許使用者建立或啟動臨時會議。</span><span class="sxs-lookup"><span data-stu-id="df389-153">Determines whether a user is allowed to create or start ad-hoc meetings.</span></span>              |  <span data-ttu-id="df389-154">將此值設定為 False，禁止使用者啟動即席會議。</span><span class="sxs-lookup"><span data-stu-id="df389-154">Set this to False to prohibit the user from being able to start ad-hoc meetings.</span></span>                     |
-|<span data-ttu-id="df389-155">ScreenSharingMode</span><span class="sxs-lookup"><span data-stu-id="df389-155">ScreenSharingMode</span></span> | <span data-ttu-id="df389-156">決定允許使用者在通話或會議中共用其螢幕的模式。</span><span class="sxs-lookup"><span data-stu-id="df389-156">Determines the mode in which a user is allowed to share their screen in calls or meetings.</span></span> | <span data-ttu-id="df389-157">設為 [停用] 以禁止使用者共用其畫面</span><span class="sxs-lookup"><span data-stu-id="df389-157">Set to Disabled to prohibit the user from sharing their screens</span></span>                          |
-|<span data-ttu-id="df389-158">AllowIPVideo</span><span class="sxs-lookup"><span data-stu-id="df389-158">AllowIPVideo</span></span> |<span data-ttu-id="df389-159">決定是否在使用者的會議或通話中啟用影片。</span><span class="sxs-lookup"><span data-stu-id="df389-159">Determines whether video is enabled in a user's meetings or calls.</span></span>                  |    <span data-ttu-id="df389-160">設為 False 以禁止使用者共用影片</span><span class="sxs-lookup"><span data-stu-id="df389-160">Set to False to prohibit the user from sharing their video</span></span>                                         |
-| <span data-ttu-id="df389-161">AllowAnonymousUsersToDialOut</span><span class="sxs-lookup"><span data-stu-id="df389-161">AllowAnonymousUsersToDialOut</span></span> | <span data-ttu-id="df389-162">判斷是否允許匿名使用者撥出 PSTN 號碼。</span><span class="sxs-lookup"><span data-stu-id="df389-162">Determines whether anonymous users are allowed to dial out to a PSTN number.</span></span> | <span data-ttu-id="df389-163">設為 False 以禁止匿名使用者撥出</span><span class="sxs-lookup"><span data-stu-id="df389-163">Set to False to prohibit anonymous users from dialing out</span></span>                                  |
-| <span data-ttu-id="df389-164">AllowAnonymousUsersToStartMeeting</span><span class="sxs-lookup"><span data-stu-id="df389-164">AllowAnonymousUsersToStartMeeting</span></span> | <span data-ttu-id="df389-165">判斷匿名使用者是否可以開始會議。</span><span class="sxs-lookup"><span data-stu-id="df389-165">Determines whether anonymous users can start a meeting.</span></span>     |  <span data-ttu-id="df389-166">設為 False 以禁止使用者開始會議</span><span class="sxs-lookup"><span data-stu-id="df389-166">Set to False to prohibit users from starting a meeting</span></span>                                            |
-| <span data-ttu-id="df389-167">AllowOutlookAddIn</span><span class="sxs-lookup"><span data-stu-id="df389-167">AllowOutlookAddIn</span></span> |<span data-ttu-id="df389-168">決定使用者是否可以在 Outlook 桌面用戶端中排程團隊會議。</span><span class="sxs-lookup"><span data-stu-id="df389-168">Determines whether a user can schedule Teams meetings in the Outlook desktop client.</span></span>| <span data-ttu-id="df389-169">在 Outlook 桌面用戶端中設定為 False 以禁止使用者排程團隊會議</span><span class="sxs-lookup"><span data-stu-id="df389-169">Set to False to prohibit a user from  scheduling Teams meetings in the Outlook desktop client</span></span>|
-| <span data-ttu-id="df389-170">AllowParticipantGiveRequestControl</span><span class="sxs-lookup"><span data-stu-id="df389-170">AllowParticipantGiveRequestControl</span></span>|<span data-ttu-id="df389-171">決定參與者是否可以要求或授與螢幕共用的控制權。</span><span class="sxs-lookup"><span data-stu-id="df389-171">Determines whether participants can request or give control of screen sharing.</span></span>| <span data-ttu-id="df389-172">設為 False 以禁止使用者在會議中授與要求控制權</span><span class="sxs-lookup"><span data-stu-id="df389-172">Set to False to prohibit the user from giving and requesting control in a meeting</span></span>    |
-| <span data-ttu-id="df389-173">AllowExternalParticipantGiveRequestControl</span><span class="sxs-lookup"><span data-stu-id="df389-173">AllowExternalParticipantGiveRequestControl</span></span> | <span data-ttu-id="df389-174">決定外部參與者是否可以要求或授與螢幕共用的控制權。</span><span class="sxs-lookup"><span data-stu-id="df389-174">Determines whether external participants can request or give control of screen sharing.</span></span>| <span data-ttu-id="df389-175">設為 False 以禁止外部使用者授與，要求在會議中進行控制</span><span class="sxs-lookup"><span data-stu-id="df389-175">Set to False to prohibit an external user from giving, requesting control in a meeting</span></span>|
-|<span data-ttu-id="df389-176">AllowPowerPointSharing</span><span class="sxs-lookup"><span data-stu-id="df389-176">AllowPowerPointSharing</span></span>|<span data-ttu-id="df389-177">決定是否允許在使用者的會議中共用 PowerPoint。</span><span class="sxs-lookup"><span data-stu-id="df389-177">Determines whether PowerPoint sharing is allowed in a user’s meetings.</span></span> |<span data-ttu-id="df389-178">設為 False 以禁止使用者在會議中共用 PowerPoint 檔案</span><span class="sxs-lookup"><span data-stu-id="df389-178">Set to False to prohibit a user from sharing PowerPoint files in a meeting</span></span>  |
-|<span data-ttu-id="df389-179">AllowWhiteboard</span><span class="sxs-lookup"><span data-stu-id="df389-179">AllowWhiteboard</span></span> | <span data-ttu-id="df389-180">判斷使用者的會議是否允許使用白板。</span><span class="sxs-lookup"><span data-stu-id="df389-180">Determines whether whiteboard is allowed in a user’s meetings.</span></span> |   <span data-ttu-id="df389-181">在會議中設定為 False 以禁止白板</span><span class="sxs-lookup"><span data-stu-id="df389-181">Set to False to prohibit whiteboard in a meeting</span></span> |
-| <span data-ttu-id="df389-182">AllowTranscription</span><span class="sxs-lookup"><span data-stu-id="df389-182">AllowTranscription</span></span> |<span data-ttu-id="df389-183">判斷在使用者的會議中是否允許即時及/或會議後的標題和 transcriptions。</span><span class="sxs-lookup"><span data-stu-id="df389-183">Determines whether real-time and/or post-meeting captions and transcriptions are allowed in a user's meetings.</span></span>|    <span data-ttu-id="df389-184">設為 False 以禁止會議中的 [文字] 與 [標題]</span><span class="sxs-lookup"><span data-stu-id="df389-184">Set to False to prohibit transcription  and captions in a meeting</span></span>  |  
-| <span data-ttu-id="df389-185">AllowSharedNotes</span><span class="sxs-lookup"><span data-stu-id="df389-185">AllowSharedNotes</span></span> | <span data-ttu-id="df389-186">決定是否允許使用者拍共用筆記。</span><span class="sxs-lookup"><span data-stu-id="df389-186">Determines whether users are allowed to take shared notes.</span></span> | <span data-ttu-id="df389-187">設為 False 以禁止使用者記錄共用筆記</span><span class="sxs-lookup"><span data-stu-id="df389-187">Set to False to prohibit users from taking shared notes</span></span> |
-|<span data-ttu-id="df389-188">MediaBitRateKB</span><span class="sxs-lookup"><span data-stu-id="df389-188">MediaBitRateKB</span></span> |<span data-ttu-id="df389-189">決定會議中音訊/視頻/app 共用傳輸的媒體位元速率</span><span class="sxs-lookup"><span data-stu-id="df389-189">Determines the media bit rate for audio/video/app sharing transmissions in meetings</span></span>  | <span data-ttu-id="df389-190">建議的值為5000（5 MB）。</span><span class="sxs-lookup"><span data-stu-id="df389-190">Suggested value is 5000 (5 MB).</span></span> <span data-ttu-id="df389-191">您可以根據組織的需求變更它。</span><span class="sxs-lookup"><span data-stu-id="df389-191">You can change it based on your organization’s needs.</span></span>| 
+|<span data-ttu-id="44ac2-146">AllowPrivateMeetingScheduling</span><span class="sxs-lookup"><span data-stu-id="44ac2-146">AllowPrivateMeetingScheduling</span></span>  | <span data-ttu-id="44ac2-147">判斷是否允許使用者排程私人會議。</span><span class="sxs-lookup"><span data-stu-id="44ac2-147">Determines whether a user is allowed to schedule private meetings.</span></span>| <span data-ttu-id="44ac2-148">設為 False，禁止使用者排程私人會議。</span><span class="sxs-lookup"><span data-stu-id="44ac2-148">Set to False to prohibit the user from being able to schedule private meetings.</span></span> |
+|<span data-ttu-id="44ac2-149">AllowChannelMeetingScheduling</span><span class="sxs-lookup"><span data-stu-id="44ac2-149">AllowChannelMeetingScheduling</span></span>  | <span data-ttu-id="44ac2-150">判斷是否允許使用者排程頻道會議。</span><span class="sxs-lookup"><span data-stu-id="44ac2-150">Determines whether a user is allowed to schedule channel meetings.</span></span> | <span data-ttu-id="44ac2-151">設為 False，禁止使用者排程頻道會議。</span><span class="sxs-lookup"><span data-stu-id="44ac2-151">Set to False to prohibit the user from being able to schedule channel meetings.</span></span>|
+|<span data-ttu-id="44ac2-152">AllowMeetNow</span><span class="sxs-lookup"><span data-stu-id="44ac2-152">AllowMeetNow</span></span> |<span data-ttu-id="44ac2-153">判斷是否允許使用者建立或啟動臨時會議。</span><span class="sxs-lookup"><span data-stu-id="44ac2-153">Determines whether a user is allowed to create or start ad-hoc meetings.</span></span> | <span data-ttu-id="44ac2-154">將此值設定為 False，禁止使用者啟動即席會議。</span><span class="sxs-lookup"><span data-stu-id="44ac2-154">Set this to False to prohibit the user from being able to start ad-hoc meetings.</span></span> |
+|<span data-ttu-id="44ac2-155">ScreenSharingMode</span><span class="sxs-lookup"><span data-stu-id="44ac2-155">ScreenSharingMode</span></span> | <span data-ttu-id="44ac2-156">決定允許使用者在通話或會議中共用其螢幕的模式。</span><span class="sxs-lookup"><span data-stu-id="44ac2-156">Determines the mode in which a user is allowed to share their screen in calls or meetings.</span></span> | <span data-ttu-id="44ac2-157">設為 [停用] 以禁止使用者共用其螢幕。</span><span class="sxs-lookup"><span data-stu-id="44ac2-157">Set to Disabled to prohibit the user from sharing their screens.</span></span> |
+|<span data-ttu-id="44ac2-158">AllowIPVideo</span><span class="sxs-lookup"><span data-stu-id="44ac2-158">AllowIPVideo</span></span> |<span data-ttu-id="44ac2-159">決定是否在使用者的會議或通話中啟用影片。</span><span class="sxs-lookup"><span data-stu-id="44ac2-159">Determines whether video is enabled in a user's meetings or calls.</span></span> | <span data-ttu-id="44ac2-160">設為 False，禁止使用者共用影片。</span><span class="sxs-lookup"><span data-stu-id="44ac2-160">Set to False to prohibit the user from sharing their video.</span></span> |
+| <span data-ttu-id="44ac2-161">AllowAnonymousUsersToDialOut</span><span class="sxs-lookup"><span data-stu-id="44ac2-161">AllowAnonymousUsersToDialOut</span></span> | <span data-ttu-id="44ac2-162">判斷是否允許匿名使用者撥出 PSTN 號碼。</span><span class="sxs-lookup"><span data-stu-id="44ac2-162">Determines whether anonymous users are allowed to dial out to a PSTN number.</span></span> | <span data-ttu-id="44ac2-163">設為 False，禁止匿名使用者撥號。</span><span class="sxs-lookup"><span data-stu-id="44ac2-163">Set to False to prohibit anonymous users from dialing out.</span></span> |
+| <span data-ttu-id="44ac2-164">AllowAnonymousUsersToStartMeeting</span><span class="sxs-lookup"><span data-stu-id="44ac2-164">AllowAnonymousUsersToStartMeeting</span></span> | <span data-ttu-id="44ac2-165">判斷匿名使用者是否可以開始會議。</span><span class="sxs-lookup"><span data-stu-id="44ac2-165">Determines whether anonymous users can start a meeting.</span></span> | <span data-ttu-id="44ac2-166">設為 False 以禁止使用者開始會議。</span><span class="sxs-lookup"><span data-stu-id="44ac2-166">Set to False to prohibit users from starting a meeting.</span></span> |
+| <span data-ttu-id="44ac2-167">AllowOutlookAddIn</span><span class="sxs-lookup"><span data-stu-id="44ac2-167">AllowOutlookAddIn</span></span> |<span data-ttu-id="44ac2-168">決定使用者是否可以在 Outlook 桌面用戶端中排程團隊會議。</span><span class="sxs-lookup"><span data-stu-id="44ac2-168">Determines whether a user can schedule Teams meetings in the Outlook desktop client.</span></span> | <span data-ttu-id="44ac2-169">設定為 False，以禁止使用者在 Outlook 桌面用戶端排程小組會議。</span><span class="sxs-lookup"><span data-stu-id="44ac2-169">Set to False to prohibit a user from  scheduling Teams meetings in the Outlook desktop client.</span></span> |
+| <span data-ttu-id="44ac2-170">AllowParticipantGiveRequestControl</span><span class="sxs-lookup"><span data-stu-id="44ac2-170">AllowParticipantGiveRequestControl</span></span>|<span data-ttu-id="44ac2-171">決定參與者是否可以要求或授與螢幕共用的控制權。</span><span class="sxs-lookup"><span data-stu-id="44ac2-171">Determines whether participants can request or give control of screen sharing.</span></span>| <span data-ttu-id="44ac2-172">設為 False，禁止使用者在會議中授與要求控制權。</span><span class="sxs-lookup"><span data-stu-id="44ac2-172">Set to False to prohibit the user from giving and requesting control in a meeting.</span></span> |
+| <span data-ttu-id="44ac2-173">AllowExternalParticipantGiveRequestControl</span><span class="sxs-lookup"><span data-stu-id="44ac2-173">AllowExternalParticipantGiveRequestControl</span></span> | <span data-ttu-id="44ac2-174">決定外部參與者是否可以要求或授與螢幕共用的控制權。</span><span class="sxs-lookup"><span data-stu-id="44ac2-174">Determines whether external participants can request or give control of screen sharing.</span></span> | <span data-ttu-id="44ac2-175">設為 False 可禁止外部使用者授與，要求您在會議中進行控制。</span><span class="sxs-lookup"><span data-stu-id="44ac2-175">Set to False to prohibit an external user from giving, requesting control in a meeting.</span></span> |
+| <span data-ttu-id="44ac2-176">AllowPowerPointSharing</span><span class="sxs-lookup"><span data-stu-id="44ac2-176">AllowPowerPointSharing</span></span> |<span data-ttu-id="44ac2-177">決定是否允許在使用者的會議中共用 PowerPoint。</span><span class="sxs-lookup"><span data-stu-id="44ac2-177">Determines whether PowerPoint sharing is allowed in a user’s meetings.</span></span> |<span data-ttu-id="44ac2-178">設為 False，禁止使用者在會議中共用 PowerPoint 檔案。</span><span class="sxs-lookup"><span data-stu-id="44ac2-178">Set to False to prohibit a user from sharing PowerPoint files in a meeting.</span></span> |
+| <span data-ttu-id="44ac2-179">AllowWhiteboard</span><span class="sxs-lookup"><span data-stu-id="44ac2-179">AllowWhiteboard</span></span> | <span data-ttu-id="44ac2-180">判斷使用者的會議是否允許使用白板。</span><span class="sxs-lookup"><span data-stu-id="44ac2-180">Determines whether whiteboard is allowed in a user’s meetings.</span></span> | <span data-ttu-id="44ac2-181">若要在會議中禁止白板，請將它設為 False。</span><span class="sxs-lookup"><span data-stu-id="44ac2-181">Set to False to prohibit whiteboard in a meeting.</span></span> |
+| <span data-ttu-id="44ac2-182">AllowTranscription</span><span class="sxs-lookup"><span data-stu-id="44ac2-182">AllowTranscription</span></span> |<span data-ttu-id="44ac2-183">判斷在使用者的會議中是否允許即時及/或會議後的標題和 transcriptions。</span><span class="sxs-lookup"><span data-stu-id="44ac2-183">Determines whether real-time and/or post-meeting captions and transcriptions are allowed in a user's meetings.</span></span> | <span data-ttu-id="44ac2-184">設為 False，即可禁止會議中的 [文字] 與 [標題]。</span><span class="sxs-lookup"><span data-stu-id="44ac2-184">Set to False to prohibit transcription and captions in a meeting.</span></span> |
+| <span data-ttu-id="44ac2-185">AllowSharedNotes</span><span class="sxs-lookup"><span data-stu-id="44ac2-185">AllowSharedNotes</span></span> | <span data-ttu-id="44ac2-186">決定是否允許使用者拍共用筆記。</span><span class="sxs-lookup"><span data-stu-id="44ac2-186">Determines whether users are allowed to take shared notes.</span></span> | <span data-ttu-id="44ac2-187">設為 False，禁止使用者記錄共用的筆記。</span><span class="sxs-lookup"><span data-stu-id="44ac2-187">Set to False to prohibit users from taking shared notes.</span></span> |
+| <span data-ttu-id="44ac2-188">MediaBitRateKB</span><span class="sxs-lookup"><span data-stu-id="44ac2-188">MediaBitRateKB</span></span> |<span data-ttu-id="44ac2-189">決定會議中音訊/視頻/app 共用傳輸的媒體位元速率。</span><span class="sxs-lookup"><span data-stu-id="44ac2-189">Determines the media bit rate for audio/video/app sharing transmissions in meetings.</span></span> | <span data-ttu-id="44ac2-190">建議的值為5000（5 MB）。</span><span class="sxs-lookup"><span data-stu-id="44ac2-190">Suggested value is 5000 (5 MB).</span></span> <span data-ttu-id="44ac2-191">您可以根據組織的需求變更它。</span><span class="sxs-lookup"><span data-stu-id="44ac2-191">You can change it based on your organization’s needs.</span></span> |
 
-#### <a name="create-and-assign-a-meeting-policy"></a><span data-ttu-id="df389-192">建立並指派會議原則</span><span class="sxs-lookup"><span data-stu-id="df389-192">Create and assign a meeting policy</span></span>
+#### <a name="create-and-assign-a-meeting-policy"></a><span data-ttu-id="44ac2-192">建立並指派會議原則</span><span class="sxs-lookup"><span data-stu-id="44ac2-192">Create and assign a meeting policy</span></span>
 
-1. <span data-ttu-id="df389-193">以系統管理員身分啟動 Windows PowerShell 會話。</span><span class="sxs-lookup"><span data-stu-id="df389-193">Start a Windows PowerShell session as an administrator.</span></span>
-2. <span data-ttu-id="df389-194">連線至 [Skype Online 連接器]。</span><span class="sxs-lookup"><span data-stu-id="df389-194">Connect to the Skype Online Connector.</span></span>
+1. <span data-ttu-id="44ac2-193">以系統管理員身分啟動 Windows PowerShell 會話。</span><span class="sxs-lookup"><span data-stu-id="44ac2-193">Start a Windows PowerShell session as an administrator.</span></span>
+1. <span data-ttu-id="44ac2-194">連線至 [Skype Online 連接器]。</span><span class="sxs-lookup"><span data-stu-id="44ac2-194">Connect to the Skype Online Connector.</span></span>
 
-        # Set Office 365 User Name and Password
-        $username = “admin email address”
-        password = ConvertTo-SecureString "password" -AsPlainText -Force
-        $LiveCred = new-object -typename System.Management.Automation.PSCredential -argumentlist $username, $password
-        # Connect to Skype Online
-        Import-Module SkypeOnlineConnector
-        $sfboSession = New-CsOnlineSession -Credential $LiveCred
-        Import-PSSession $sfboSession```
+      ```powershell
+      # Set Office 365 User Name and Password
+      $username = "admin email address"
+      password = ConvertTo-SecureString "password" -AsPlainText -Force
+      $LiveCred = new-object -typename System.Management.Automation.PSCredential -argumentlist $username, $password
+      # Connect to Skype Online
+      Import-Module SkypeOnlineConnector
+      $sfboSession = New-CsOnlineSession -Credential $LiveCred
+      Import-PSSession $sfboSession
+      ```
 
-3. <span data-ttu-id="df389-195">查看會議原則選項的清單。</span><span class="sxs-lookup"><span data-stu-id="df389-195">View a list of meeting policy options.</span></span>
+1. <span data-ttu-id="44ac2-195">查看會議原則選項的清單。</span><span class="sxs-lookup"><span data-stu-id="44ac2-195">View a list of meeting policy options.</span></span>
 
-       Get-CsTeamsMeetingPolicy
- 
-4. <span data-ttu-id="df389-196">尋找已停用所有會議原則的內建原則選項。</span><span class="sxs-lookup"><span data-stu-id="df389-196">Look for the built-in policy option where all meeting policies are disabled.</span></span> <span data-ttu-id="df389-197">它看起來像這樣。</span><span class="sxs-lookup"><span data-stu-id="df389-197">It looks like this.</span></span>
-   
+      ```powershell
+      Get-CsTeamsMeetingPolicy
+      ```
+
+1. <span data-ttu-id="44ac2-196">尋找已停用所有會議原則的內建原則選項。</span><span class="sxs-lookup"><span data-stu-id="44ac2-196">Look for the built-in policy option where all meeting policies are disabled.</span></span> <span data-ttu-id="44ac2-197">它看起來像這樣。</span><span class="sxs-lookup"><span data-stu-id="44ac2-197">It looks like this.</span></span>
+
         Identity                                    : Tag:AllOff
         Description                                 :
         AllowChannelMeetingScheduling               : False
@@ -153,76 +163,85 @@ ms.locfileid: "38638803"
         MediaBitRateKb                              : False
         ScreenSharingMode                           : False
 
-5. <span data-ttu-id="df389-198">將 AllOff 內建原則選項套用至將在虛擬化環境中使用團隊的所有使用者。</span><span class="sxs-lookup"><span data-stu-id="df389-198">Apply the AllOff built-in policy option to all users who will be using Teams in a virtualized environment.</span></span> 
+1. <span data-ttu-id="44ac2-198">將 AllOff 內建原則選項套用至將在虛擬化環境中使用團隊的所有使用者。</span><span class="sxs-lookup"><span data-stu-id="44ac2-198">Apply the AllOff built-in policy option to all users who will be using Teams in a virtualized environment.</span></span>
 
-        Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity “user email id”
+      ```powershell
+      Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity "user email id"
+      ```
 
- <span data-ttu-id="df389-199">如需團隊會議原則的詳細資訊，請參閱[設定 CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy)。</span><span class="sxs-lookup"><span data-stu-id="df389-199">For more information about Teams meeting policies, see [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).</span></span>
+ <span data-ttu-id="44ac2-199">如需團隊會議原則的詳細資訊，請參閱[設定 CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy)。</span><span class="sxs-lookup"><span data-stu-id="44ac2-199">For more information about Teams meeting policies, see [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).</span></span>
 
-### <a name="virtualization-provider-requirements"></a><span data-ttu-id="df389-200">虛擬化提供者需求</span><span class="sxs-lookup"><span data-stu-id="df389-200">Virtualization provider requirements</span></span>
+### <a name="virtualization-provider-requirements"></a><span data-ttu-id="44ac2-200">虛擬化提供者需求</span><span class="sxs-lookup"><span data-stu-id="44ac2-200">Virtualization provider requirements</span></span>
 
-<span data-ttu-id="df389-201">團隊 app 已在主要的虛擬化解決方案提供者上驗證。</span><span class="sxs-lookup"><span data-stu-id="df389-201">The Teams app has been validated on leading virtualization solution providers.</span></span> <span data-ttu-id="df389-202">有了多個市場供應商，請諮詢您的虛擬化解決方案供應商，以確保符合最低需求。</span><span class="sxs-lookup"><span data-stu-id="df389-202">With multiple market providers, consult your virtualization solution provider to ensure minimum requirements are met.</span></span>
+<span data-ttu-id="44ac2-201">團隊 app 已在主要的虛擬化解決方案提供者上驗證。</span><span class="sxs-lookup"><span data-stu-id="44ac2-201">The Teams app has been validated on leading virtualization solution providers.</span></span> <span data-ttu-id="44ac2-202">有了多個市場供應商，請諮詢您的虛擬化解決方案供應商，以確保符合最低需求。</span><span class="sxs-lookup"><span data-stu-id="44ac2-202">With multiple market providers, consult your virtualization solution provider to ensure minimum requirements are met.</span></span>
 
-### <a name="virtual-machine-requirements"></a><span data-ttu-id="df389-203">虛擬機器需求</span><span class="sxs-lookup"><span data-stu-id="df389-203">Virtual Machine requirements</span></span>
+### <a name="virtual-machine-requirements"></a><span data-ttu-id="44ac2-203">虛擬機器需求</span><span class="sxs-lookup"><span data-stu-id="44ac2-203">Virtual Machine requirements</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="df389-204">下列要求適用于團隊桌面應用程式和團隊 Web app。</span><span class="sxs-lookup"><span data-stu-id="df389-204">The following requirements apply to both the Teams desktop app and the Teams Web app.</span></span>
+> <span data-ttu-id="44ac2-204">下列要求適用于團隊桌面應用程式和團隊 Web app。</span><span class="sxs-lookup"><span data-stu-id="44ac2-204">The following requirements apply to both the Teams desktop app and the Teams Web app.</span></span>
 
-<span data-ttu-id="df389-205">在虛擬化環境中，有各種不同的工作負載和使用者需求，以下是建議的最低 VM 配置。</span><span class="sxs-lookup"><span data-stu-id="df389-205">With the diverse workloads and user needs in a virtualized environment, the following is the minimum recommended VM configuration.</span></span>
+<span data-ttu-id="44ac2-205">在虛擬化環境中，有各種不同的工作負載和使用者需求，以下是建議的最低 VM 配置。</span><span class="sxs-lookup"><span data-stu-id="44ac2-205">With the diverse workloads and user needs in a virtualized environment, the following is the minimum recommended VM configuration.</span></span>
 
-|<span data-ttu-id="df389-206">參數</span><span class="sxs-lookup"><span data-stu-id="df389-206">Parameter</span></span>  |<span data-ttu-id="df389-207">單位</span><span class="sxs-lookup"><span data-stu-id="df389-207">Measure</span></span>  |
+|<span data-ttu-id="44ac2-206">參數</span><span class="sxs-lookup"><span data-stu-id="44ac2-206">Parameter</span></span> |<span data-ttu-id="44ac2-207">單位</span><span class="sxs-lookup"><span data-stu-id="44ac2-207">Measure</span></span> |
 |---------|---------|
-|<span data-ttu-id="df389-208">vCPU</span><span class="sxs-lookup"><span data-stu-id="df389-208">vCPU</span></span>    |  <span data-ttu-id="df389-209">2個核心</span><span class="sxs-lookup"><span data-stu-id="df389-209">2 cores</span></span>       |
-|<span data-ttu-id="df389-210">RAM</span><span class="sxs-lookup"><span data-stu-id="df389-210">RAM</span></span>     |  <span data-ttu-id="df389-211">4 GB</span><span class="sxs-lookup"><span data-stu-id="df389-211">4 GB</span></span>      |
-|<span data-ttu-id="df389-212">儲存空間</span><span class="sxs-lookup"><span data-stu-id="df389-212">Storage</span></span>     | <span data-ttu-id="df389-213">8 GB</span><span class="sxs-lookup"><span data-stu-id="df389-213">8 GB</span></span>       |
+|<span data-ttu-id="44ac2-208">vCPU</span><span class="sxs-lookup"><span data-stu-id="44ac2-208">vCPU</span></span> | <span data-ttu-id="44ac2-209">2個核心</span><span class="sxs-lookup"><span data-stu-id="44ac2-209">2 cores</span></span> |
+|<span data-ttu-id="44ac2-210">RAM</span><span class="sxs-lookup"><span data-stu-id="44ac2-210">RAM</span></span> | <span data-ttu-id="44ac2-211">4 GB</span><span class="sxs-lookup"><span data-stu-id="44ac2-211">4 GB</span></span> |
+|<span data-ttu-id="44ac2-212">儲存空間</span><span class="sxs-lookup"><span data-stu-id="44ac2-212">Storage</span></span> | <span data-ttu-id="44ac2-213">8 GB</span><span class="sxs-lookup"><span data-stu-id="44ac2-213">8 GB</span></span> |
 
-### <a name="virtual-machine-operating-system-requirements"></a><span data-ttu-id="df389-214">虛擬機器作業系統需求</span><span class="sxs-lookup"><span data-stu-id="df389-214">Virtual Machine operating system requirements</span></span>
+### <a name="virtual-machine-operating-system-requirements"></a><span data-ttu-id="44ac2-214">虛擬機器作業系統需求</span><span class="sxs-lookup"><span data-stu-id="44ac2-214">Virtual Machine operating system requirements</span></span>
 
-<span data-ttu-id="df389-215">VM 支援的作業系統如下：</span><span class="sxs-lookup"><span data-stu-id="df389-215">The supported operating systems for VM are:</span></span>
+<span data-ttu-id="44ac2-215">VM 支援的作業系統如下：</span><span class="sxs-lookup"><span data-stu-id="44ac2-215">The supported operating systems for VM are:</span></span>
 
-- <span data-ttu-id="df389-216">Windows 10 及更新版本</span><span class="sxs-lookup"><span data-stu-id="df389-216">Windows 10 and later</span></span>
-- <span data-ttu-id="df389-217">Windows Server 2012 R2 及更新版本</span><span class="sxs-lookup"><span data-stu-id="df389-217">Windows Server 2012 R2 and later</span></span>
+- <span data-ttu-id="44ac2-216">Windows 10 及更新版本</span><span class="sxs-lookup"><span data-stu-id="44ac2-216">Windows 10 and later</span></span>
+- <span data-ttu-id="44ac2-217">Windows Server 2012 R2 及更新版本</span><span class="sxs-lookup"><span data-stu-id="44ac2-217">Windows Server 2012 R2 and later</span></span>
 
-## <a name="install-teams-on-vdi"></a><span data-ttu-id="df389-218">在 VDI 上安裝團隊</span><span class="sxs-lookup"><span data-stu-id="df389-218">Install Teams on VDI</span></span>
+## <a name="install-teams-on-vdi"></a><span data-ttu-id="44ac2-218">在 VDI 上安裝團隊</span><span class="sxs-lookup"><span data-stu-id="44ac2-218">Install Teams on VDI</span></span>
 
-<span data-ttu-id="df389-219">以下是部署團隊桌面應用程式的程式和工具。</span><span class="sxs-lookup"><span data-stu-id="df389-219">Here's the process and tools to deploy the Teams desktop app.</span></span> 
+<span data-ttu-id="44ac2-219">以下是部署團隊桌面應用程式的程式和工具。</span><span class="sxs-lookup"><span data-stu-id="44ac2-219">Here's the process and tools to deploy the Teams desktop app.</span></span>
 
-1. <span data-ttu-id="df389-220">根據環境，使用下列其中一個連結來下載團隊 MSI 套件。</span><span class="sxs-lookup"><span data-stu-id="df389-220">Download the Teams MSI package using one of the following links depending on the environment.</span></span> <span data-ttu-id="df389-221">我們建議使用64位作業系統的 VDI VM 64 位版本。</span><span class="sxs-lookup"><span data-stu-id="df389-221">We recommend the 64-bit version for a VDI VM with a 64-bit operating system.</span></span>
+1. <span data-ttu-id="44ac2-220">根據環境，使用下列其中一個連結來下載團隊 MSI 套件。</span><span class="sxs-lookup"><span data-stu-id="44ac2-220">Download the Teams MSI package using one of the following links depending on the environment.</span></span> <span data-ttu-id="44ac2-221">我們建議使用64位作業系統的 VDI VM 64 位版本。</span><span class="sxs-lookup"><span data-stu-id="44ac2-221">We recommend the 64-bit version for a VDI VM with a 64-bit operating system.</span></span>
 
-    - [<span data-ttu-id="df389-222">32位版本</span><span class="sxs-lookup"><span data-stu-id="df389-222">32-bit version</span></span>](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&download=true&managedInstaller=true)
-    - [<span data-ttu-id="df389-223">64位版本</span><span class="sxs-lookup"><span data-stu-id="df389-223">64-bit version</span></span>](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&download=true&managedInstaller=true&arch=x64)
+    - [<span data-ttu-id="44ac2-222">32位版本</span><span class="sxs-lookup"><span data-stu-id="44ac2-222">32-bit version</span></span>](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&download=true&managedInstaller=true)
+    - [<span data-ttu-id="44ac2-223">64位版本</span><span class="sxs-lookup"><span data-stu-id="44ac2-223">64-bit version</span></span>](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&download=true&managedInstaller=true&arch=x64)
 
-2. <span data-ttu-id="df389-224">執行下列命令，將 MSI 安裝到 VDI VM （或完成更新）。</span><span class="sxs-lookup"><span data-stu-id="df389-224">Run the following command to install the MSI to the VDI VM (or complete updating it).</span></span>
+1. <span data-ttu-id="44ac2-224">執行下列命令，將 MSI 安裝到 VDI VM （或完成更新）。</span><span class="sxs-lookup"><span data-stu-id="44ac2-224">Run the following command to install the MSI to the VDI VM (or complete updating it).</span></span>
 
-        msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1
+      ```
+      msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1
+      ```
 
-    <span data-ttu-id="df389-225">這會將小組安裝到程式檔。</span><span class="sxs-lookup"><span data-stu-id="df389-225">This installs Teams to Program Files.</span></span> <span data-ttu-id="df389-226">此時，黃金影像設定就完成了。</span><span class="sxs-lookup"><span data-stu-id="df389-226">At this point, the golden image setup is complete.</span></span>
- 
-    <span data-ttu-id="df389-227">下次互動式登入會話會啟動團隊並要求認證。</span><span class="sxs-lookup"><span data-stu-id="df389-227">The next interactive logon session starts Teams and asks for credentials.</span></span> <span data-ttu-id="df389-228">請注意，在 VDI 上使用 ALLUSER 屬性來安裝小組時，不可能停用自動啟動小組。</span><span class="sxs-lookup"><span data-stu-id="df389-228">Note that it's not possible to disable auto-launch of Teams when installing Teams on VDI using the ALLUSER property.</span></span> 
+    <span data-ttu-id="44ac2-225">這會將小組安裝到程式檔。</span><span class="sxs-lookup"><span data-stu-id="44ac2-225">This installs Teams to Program Files.</span></span> <span data-ttu-id="44ac2-226">此時，黃金影像設定就完成了。</span><span class="sxs-lookup"><span data-stu-id="44ac2-226">At this point, the golden image setup is complete.</span></span>
 
-3. <span data-ttu-id="df389-229">執行下列命令以從 VDI VM 卸載 MSI （或準備更新）。</span><span class="sxs-lookup"><span data-stu-id="df389-229">Run the following command to uninstall the MSI from the VDI VM (or prepare for updating it).</span></span>
+    <span data-ttu-id="44ac2-227">下次互動式登入會話會啟動團隊並要求認證。</span><span class="sxs-lookup"><span data-stu-id="44ac2-227">The next interactive logon session starts Teams and asks for credentials.</span></span> <span data-ttu-id="44ac2-228">請注意，在 VDI 上使用 ALLUSER 屬性來安裝小組時，不可能停用自動啟動小組。</span><span class="sxs-lookup"><span data-stu-id="44ac2-228">Note that it's not possible to disable auto-launch of Teams when installing Teams on VDI using the ALLUSER property.</span></span>
 
-        msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name>
+1. <span data-ttu-id="44ac2-229">執行下列命令以從 VDI VM 卸載 MSI （或準備更新）。</span><span class="sxs-lookup"><span data-stu-id="44ac2-229">Run the following command to uninstall the MSI from the VDI VM (or prepare for updating it).</span></span>
 
-    <span data-ttu-id="df389-230">這會從程式檔案中卸載小組。</span><span class="sxs-lookup"><span data-stu-id="df389-230">This uninstalls Teams from Program Files.</span></span>
+      ```
+      msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name>
+      ```
 
-## <a name="known-issues-and-limitations"></a><span data-ttu-id="df389-231">已知問題與限制</span><span class="sxs-lookup"><span data-stu-id="df389-231">Known issues and limitations</span></span>
+    <span data-ttu-id="44ac2-230">這會從程式檔案中卸載小組。</span><span class="sxs-lookup"><span data-stu-id="44ac2-230">This uninstalls Teams from Program Files.</span></span>
 
-<span data-ttu-id="df389-232">下列是 VDI 上小組的已知問題與限制。</span><span class="sxs-lookup"><span data-stu-id="df389-232">The following are known issues and limitations for Teams on VDI.</span></span>
+## <a name="known-issues-and-limitations"></a><span data-ttu-id="44ac2-231">已知問題與限制</span><span class="sxs-lookup"><span data-stu-id="44ac2-231">Known issues and limitations</span></span>
 
-- <span data-ttu-id="df389-233">**共用工作階段主機類型部署**：共用工作階段主機類型部署（例如，共用非永久性 VM 設定）不在範圍內。</span><span class="sxs-lookup"><span data-stu-id="df389-233">**Shared session host type deployments**: Shared session host type deployments (for example, shared non-persistent VM configuration) aren't in scope.</span></span>
-- <span data-ttu-id="df389-234">**通話與會議**：</span><span class="sxs-lookup"><span data-stu-id="df389-234">**Calling and meetings**:</span></span>
+<span data-ttu-id="44ac2-232">下列是 VDI 上小組的已知問題與限制。</span><span class="sxs-lookup"><span data-stu-id="44ac2-232">The following are known issues and limitations for Teams on VDI.</span></span>
 
-    - <span data-ttu-id="df389-235">通話和會議案例未針對 VDI 進行優化。</span><span class="sxs-lookup"><span data-stu-id="df389-235">Calling and meeting scenarios aren't optimized for VDI.</span></span> <span data-ttu-id="df389-236">這些案例的執行效果不佳。</span><span class="sxs-lookup"><span data-stu-id="df389-236">These scenarios will perform poorly.</span></span> <span data-ttu-id="df389-237">我們建議使用使用者層級原則，如在 [[團隊中關閉通話和會議功能](#set-policies-to-turn-off-calling-and-meeting-functionality-in-teams)] 區段中所述。</span><span class="sxs-lookup"><span data-stu-id="df389-237">We recommend using user-level policies as described in the [Set policies to turn off calling and meeting functionality in Teams](#set-policies-to-turn-off-calling-and-meeting-functionality-in-teams) section.</span></span>  
-    - <span data-ttu-id="df389-238">套用本文所述的原則，會影響使用通話與會議功能（視其他原則而定）可能會影響貴組織中的其他使用者。</span><span class="sxs-lookup"><span data-stu-id="df389-238">Applying the policies described in this article impacts the ability to use calling and meeting functionality, which depending on other policies, may affect other users in your organization.</span></span> <span data-ttu-id="df389-239">如果貴組織中的使用者使用非 VDI 用戶端，您可以選擇不套用原則。</span><span class="sxs-lookup"><span data-stu-id="df389-239">If users in your organization use non-VDI clients, you can choose to not apply the policies.</span></span>  
+- <span data-ttu-id="44ac2-233">**共用工作階段主機類型部署**：共用工作階段主機類型部署（例如，共用非永久性 VM 設定）不在範圍內。</span><span class="sxs-lookup"><span data-stu-id="44ac2-233">**Shared session host type deployments**: Shared session host type deployments (for example, shared non-persistent VM configuration) aren't in scope.</span></span>
+- <span data-ttu-id="44ac2-234">**通話與會議**：</span><span class="sxs-lookup"><span data-stu-id="44ac2-234">**Calling and meetings**:</span></span>
 
-- <span data-ttu-id="df389-240">**加入由其他使用者所建立的通話與會議**：雖然原則限制使用者建立會議，但如果其他使用者從會議撥出會議，他們仍可加入會議。</span><span class="sxs-lookup"><span data-stu-id="df389-240">**Joining calls and meetings created by other users**: Although the policies restrict users from creating meetings, they can still join meetings if another user dials out to them from the meeting.</span></span> <span data-ttu-id="df389-241">在這些會議中，使用者共用影片的能力，使用白板和其他功能，取決於您是否使用 TeamsMeetingPolicy 停用這些功能。</span><span class="sxs-lookup"><span data-stu-id="df389-241">In these meetings, the user's ability to share video, use whiteboard and other features depend on whether you disabled those features using TeamsMeetingPolicy.</span></span>  
-- <span data-ttu-id="df389-242">快取的**內容**：如果團隊在其中執行的虛擬環境不是持續性（在每個使用者會話結束時都會清除資料），使用者可能會發現內容重新整理導致效能下降，不論使用者是否已在前一個會話中存取相同的內容。</span><span class="sxs-lookup"><span data-stu-id="df389-242">**Cached content**: If the virtual environment in which Teams is running isn't persistent (and data is cleaned up at the end of each user session), users may notice performance degradation due to content refresh, regardless of whether the user accessed the same content in a previous session.</span></span>
-- <span data-ttu-id="df389-243">**用戶端更新**： VDI 上的團隊不會自動更新每電腦 MSI 安裝。</span><span class="sxs-lookup"><span data-stu-id="df389-243">**Client updates**: Teams on VDI isn't automatically updated with per-machine MSI installation.</span></span> <span data-ttu-id="df389-244">您必須安裝新的 MSI 來更新 VM 影像，如在 VDI 的 [[安裝小組](#install-teams-on-vdi)] 區段中所述。</span><span class="sxs-lookup"><span data-stu-id="df389-244">You have to update the VM image by installing a new MSI as described in the [Install Teams on VDI](#install-teams-on-vdi) section.</span></span> <span data-ttu-id="df389-245">您必須卸載目前的版本，才能更新為較新的版本。</span><span class="sxs-lookup"><span data-stu-id="df389-245">You must uninstall the current version to update to a newer version.</span></span>
-- <span data-ttu-id="df389-246">**使用者體驗**： vdi 環境中的小組使用者體驗可能與非 VDI 環境不同。</span><span class="sxs-lookup"><span data-stu-id="df389-246">**User experience**: The Teams user experience in a VDI environment may be different from a non-VDI environment.</span></span> <span data-ttu-id="df389-247">差異可能是因為環境中的原則設定和/或功能支援。</span><span class="sxs-lookup"><span data-stu-id="df389-247">The differences may be because of policy settings and/or feature support in the environment.</span></span>
+  - <span data-ttu-id="44ac2-235">通話和會議案例未針對 VDI 進行優化。</span><span class="sxs-lookup"><span data-stu-id="44ac2-235">Calling and meeting scenarios aren't optimized for VDI.</span></span> <span data-ttu-id="44ac2-236">這些案例的執行效果不佳。</span><span class="sxs-lookup"><span data-stu-id="44ac2-236">These scenarios will perform poorly.</span></span> <span data-ttu-id="44ac2-237">我們建議使用使用者層級原則，如在 [[團隊中關閉通話和會議功能](#set-policies-to-turn-off-calling-and-meeting-functionality-in-teams)] 區段中所述。</span><span class="sxs-lookup"><span data-stu-id="44ac2-237">We recommend using user-level policies as described in the [Set policies to turn off calling and meeting functionality in Teams](#set-policies-to-turn-off-calling-and-meeting-functionality-in-teams) section.</span></span>  
+  - <span data-ttu-id="44ac2-238">套用本文所述的原則，會影響使用通話與會議功能（視其他原則而定）可能會影響貴組織中的其他使用者。</span><span class="sxs-lookup"><span data-stu-id="44ac2-238">Applying the policies described in this article impacts the ability to use calling and meeting functionality, which depending on other policies, may affect other users in your organization.</span></span> <span data-ttu-id="44ac2-239">如果貴組織中的使用者使用非 VDI 用戶端，您可以選擇不套用原則。</span><span class="sxs-lookup"><span data-stu-id="44ac2-239">If users in your organization use non-VDI clients, you can choose to not apply the policies.</span></span>  
 
-<span data-ttu-id="df389-248">針對與 VDI 無關的小組已知問題，請參閱[Microsoft 團隊已知問題](Known-issues.md)。</span><span class="sxs-lookup"><span data-stu-id="df389-248">For Teams known issues that aren't related to VDI, see [Known issues for Microsoft Teams](Known-issues.md).</span></span>
+- <span data-ttu-id="44ac2-240">**加入由其他使用者所建立的通話與會議**：雖然原則限制使用者建立會議，但如果其他使用者從會議撥出會議，他們仍可加入會議。</span><span class="sxs-lookup"><span data-stu-id="44ac2-240">**Joining calls and meetings created by other users**: Although the policies restrict users from creating meetings, they can still join meetings if another user dials out to them from the meeting.</span></span> <span data-ttu-id="44ac2-241">在這些會議中，使用者共用影片的能力，使用白板和其他功能，取決於您是否使用 TeamsMeetingPolicy 停用這些功能。</span><span class="sxs-lookup"><span data-stu-id="44ac2-241">In these meetings, the user's ability to share video, use whiteboard and other features depend on whether you disabled those features using TeamsMeetingPolicy.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="df389-249">相關主題</span><span class="sxs-lookup"><span data-stu-id="df389-249">Related topics</span></span>
+- <span data-ttu-id="44ac2-242">快取的**內容**：如果團隊在其中執行的虛擬環境不是持續性（在每個使用者會話結束時都會清除資料），使用者可能會發現內容重新整理導致效能下降，不論使用者是否已在前一個會話中存取相同的內容。</span><span class="sxs-lookup"><span data-stu-id="44ac2-242">**Cached content**: If the virtual environment in which Teams is running isn't persistent (and data is cleaned up at the end of each user session), users may notice performance degradation due to content refresh, regardless of whether the user accessed the same content in a previous session.</span></span>
 
-- [<span data-ttu-id="df389-250">使用 MSI 安裝 Microsoft 團隊</span><span class="sxs-lookup"><span data-stu-id="df389-250">Install Microsoft Teams using MSI</span></span>](msi-deployment.md)
+- <span data-ttu-id="44ac2-243">**用戶端更新**： VDI 上的團隊不會自動更新每電腦 MSI 安裝。</span><span class="sxs-lookup"><span data-stu-id="44ac2-243">**Client updates**: Teams on VDI isn't automatically updated with per-machine MSI installation.</span></span> <span data-ttu-id="44ac2-244">您必須安裝新的 MSI 來更新 VM 影像，如在 VDI 的 [[安裝小組](#install-teams-on-vdi)] 區段中所述。</span><span class="sxs-lookup"><span data-stu-id="44ac2-244">You have to update the VM image by installing a new MSI as described in the [Install Teams on VDI](#install-teams-on-vdi) section.</span></span> <span data-ttu-id="44ac2-245">您必須卸載目前的版本，才能更新為較新的版本。</span><span class="sxs-lookup"><span data-stu-id="44ac2-245">You must uninstall the current version to update to a newer version.</span></span>
+
+- <span data-ttu-id="44ac2-246">**使用者體驗**： vdi 環境中的小組使用者體驗可能與非 VDI 環境不同。</span><span class="sxs-lookup"><span data-stu-id="44ac2-246">**User experience**: The Teams user experience in a VDI environment may be different from a non-VDI environment.</span></span> <span data-ttu-id="44ac2-247">差異可能是因為環境中的原則設定和/或功能支援。</span><span class="sxs-lookup"><span data-stu-id="44ac2-247">The differences may be because of policy settings and/or feature support in the environment.</span></span>
+
+<span data-ttu-id="44ac2-248">針對與 VDI 無關的小組已知問題，請參閱[Microsoft 團隊已知問題](Known-issues.md)。</span><span class="sxs-lookup"><span data-stu-id="44ac2-248">For Teams known issues that aren't related to VDI, see [Known issues for Microsoft Teams](Known-issues.md).</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="44ac2-249">相關主題</span><span class="sxs-lookup"><span data-stu-id="44ac2-249">Related topics</span></span>
+
+- [<span data-ttu-id="44ac2-250">使用 MSI 安裝 Microsoft 團隊</span><span class="sxs-lookup"><span data-stu-id="44ac2-250">Install Microsoft Teams using MSI</span></span>](msi-deployment.md)
