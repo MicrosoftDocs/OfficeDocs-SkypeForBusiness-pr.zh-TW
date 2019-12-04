@@ -15,12 +15,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b11f326f35d7c30ffba29e4247db75800eeb3790
-ms.sourcegitcommit: ddb4eaf634476680494025a3aa1c91d15fb58413
+ms.openlocfilehash: 098477cc36237736009e1ec2010fea625d08937c
+ms.sourcegitcommit: 57304ac641931eed87e649555fd5eb5e58732dc5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "38231094"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39679233"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和規格
 
@@ -38,12 +38,13 @@ ms.locfileid: "38231094"
 |一位全域系統管理員可以建立的團隊數目        |  500,000   |
 |一個 Office 365 租用戶可以擁有的團隊數目    | 500,000&sup2;     |
 |每個團隊的頻道數目    | 200 (包含已刪除的頻道)&sup3;         |
+|每個團隊的私人頻道數量    |30|
 
-&sup1;Azure Active Directory 中的任何目錄物件都會計入此限制。 全域系統管理員不受此限制，應用程式使用[應用程式權限](https://docs.microsoft.com/graph/permissions-reference)呼叫 Microsoft Graph 也不受此限制。
+&sup1; Azure Active Directory 中的任何目錄物件都會計入此限制。 全域系統管理員不受此限制，使用[應用程式權限](https://docs.microsoft.com/graph/permissions-reference)呼叫 Microsoft Graph 的應用程式也不受此限制。
 
-&sup2;此限制包含已封存的團隊。
+&sup2; 此限制包含已封存的團隊。
 
-&sup3;已刪除的頻道可以在 30 天內還原。 在這 30 天內，已刪除的頻道會持續計入每個團隊 200 個頻道的限制。 30 天後，已刪除的頻道及其內容會永久刪除，該頻道不再計入每個團隊 200 個頻道的限制。
+&sup3; 已刪除的頻道可以在 30 天內還原。 在這 30 天內，已刪除的頻道會持續計入每個團隊 200 個頻道的限制。 30 天後，已刪除的頻道及其內容會永久刪除，該頻道不再計入每個團隊 200 個頻道的限制。
 
 ## <a name="messaging"></a>傳訊
 
@@ -58,9 +59,9 @@ Teams 的聊天是在 Microsoft Exchange 後端執行，因此 Exchange 的傳�
 |一個私人聊天中的人員數目<sup>1</sup>  | 100    |
 |檔案附件的數目<sup>2</sup>  |10     |
 
-<sup>1</sup>如果一個聊天超過 20 個人，以下的聊天功能會關閉：Outlook 自動回覆和 Teams 狀態訊息；輸入指示器；視訊和音訊通話；共用；讀取回條。
+<sup>1</sup> 如果一個聊天超過 20 個人，以下的聊天功能會關閉：Outlook 自動回覆和 Teams 狀態訊息、輸入指示器、視訊和音訊通話、共用、讀取回條。
 
-<sup>2</sup>如果附件數目超過此限制，您會看見錯誤訊息。
+<sup>2</sup> 如果附件數目超過此限制，您會看見錯誤訊息。
 
 ### <a name="emailing-a-channel"></a>傳送電子郵件到頻道
 
@@ -73,9 +74,9 @@ Teams 的聊天是在 Microsoft Exchange 後端執行，因此 Exchange 的傳�
 |每個檔案附件的大小 | 小於 10 MB |
 |內嵌影像的數目<sup>2</sup> |50   |
 
-<sup>1</sup>如果郵件超過此限制，系統會產生預覽郵件，然後要求使用者從提供的連結下載並檢視原始電子郵件。
+<sup>1</sup> 如果郵件超過此限制，系統會產生預覽郵件，然後要求使用者從提供的連結下載並檢視原始電子郵件。
 
-<sup>2</sup>如果附件或影像的數目超過此限制，您會看見錯誤訊息。
+<sup>2</sup> 如果附件或影像的數目超過此限制，您會看見錯誤訊息。
 
 如需詳細資訊，請參閱 [Exchange Online 限制](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits)。
 
