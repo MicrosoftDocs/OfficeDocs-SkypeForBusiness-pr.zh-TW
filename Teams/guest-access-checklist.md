@@ -16,20 +16,24 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 04594f578d2375f69c38243251ee64506880d00e
-ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
+ms.openlocfilehash: bcba883166e01bd8a18d6d76b4622df0740500c8
+ms.sourcegitcommit: 000fdb3bc1a0d4dda63fb00bab6a9a9ab0c85ab0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37753318"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39813773"
 ---
 <a name="microsoft-teams-guest-access-checklist"></a>Microsoft 團隊來賓存取檢查清單
 ==========================================
 
-使用此檢查清單可協助您開啟並設定 Microsoft 團隊中的來賓存取權。
+使用此檢查清單可協助您開啟並設定 Microsoft 團隊中的來賓存取權。 您必須是全域系統管理員或團隊管理員，才能進行這些變更。
 
 > [!IMPORTANT]
 > 您可能必須等候長達24小時，變更才會生效。 
+
+觀看這段短片（5:31 分鐘），瞭解如何在整個 Microsoft 365 （包括團隊）中開啟來賓存取。
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE44NTr?autoplay=false]
 
 
 
@@ -58,24 +62,24 @@ ms.locfileid: "37753318"
    > 您也可以從 [**組織關聯**] 頁面取得外部共同作業**設定**。 在 Azure Active Directory 中的 [**管理**] 底下，移至 [**組織關聯** > ]**設定**。
 4. 在 [**外部**共同作業設定] 頁面上，選擇您要啟用的原則。
 
-  - **來賓使用者許可權有限**：此原則會判斷您目錄中來賓的許可權。 選取 **[是]** 來封鎖特定目錄工作的訪客，例如列舉使用者、群組或其他目錄資源。 選取 [**否**]，為來賓提供與目錄中的一般使用者相同的目錄資料存取權。
-   - **來賓 inviter 角色中的管理員和使用者可以邀請**：若要允許「來賓 inviter」角色中的系統管理員和使用者邀請客人，請將此原則設定為 **[是]**。
-   - **成員可以邀請**：若要允許目錄的非系統管理員成員邀請客人，請將此原則設定為 **[是]**。
-   
-       > [!NOTE]
-       > 如果您設定 [**成員可以**在 Office 365 群組和 Microsoft 團隊中邀請您**不**想再啟用來賓存取]，系統管理員可以控制您的目錄的來賓邀請。 來賓在目錄中後，就可以由非系統管理員成員，將它們新增至小組。 如需詳細資訊，請參閱[授權 Microsoft 團隊中的來賓存取](Teams-dependencies.md)。
-       > [!IMPORTANT]
-       > 若要讓來賓存取權在團隊中運作，您必須將成員設定為 [**可以邀請****是]**。   
-   - **客人可以邀請**：若要讓客人邀請其他客人，請將此原則設定為 **[是]**。
-       > [!IMPORTANT]
-       > 目前，小組不支援來賓 inviter 角色，因此即使您將**客人**設定為 **[邀請]**，來賓也無法在團隊中邀請其他來賓。
-   - **啟用電子郵件的一次性密碼（預覽版）**：如需一次性密碼功能的詳細資訊，請參閱[電子郵件一次性密碼驗證（預覽版）](https://docs.microsoft.com/azure/active-directory/b2b/one-time-passcode)。
-   - 共同作業**限制**：如需有關允許或封鎖特定網域之邀請的詳細資訊，請參閱[允許或封鎖來自特定組織的 B2B 使用者邀請](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list)。
-      > [!NOTE]
-      > 如需共同作業限制，請參閱[啟用 B2B 外部共同作業和管理可邀請來賓的人員](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations)。
+    - **來賓使用者許可權有限**：此原則會判斷您目錄中來賓的許可權。 選取 **[是]** 來封鎖特定目錄工作的訪客，例如列舉使用者、群組或其他目錄資源。 選取 [**否**]，為來賓提供與目錄中的一般使用者相同的目錄資料存取權。
+     - **來賓 inviter 角色中的管理員和使用者可以邀請**：若要允許「來賓 inviter」角色中的系統管理員和使用者邀請客人，請將此原則設定為 **[是]**。
+     - **成員可以邀請**：若要允許目錄的非系統管理員成員邀請客人，請將此原則設定為 **[是]**。
+
+         > [!NOTE]
+         > 如果您設定 [**成員可以**在 Office 365 群組和 Microsoft 團隊中邀請您**不**想再啟用來賓存取]，系統管理員可以控制您的目錄的來賓邀請。 來賓在目錄中後，就可以由非系統管理員成員，將它們新增至小組。 如需詳細資訊，請參閱[授權 Microsoft 團隊中的來賓存取](Teams-dependencies.md)。
+         > [!IMPORTANT]
+         > 若要讓來賓存取能在 Teams 中完整運作，您必須將 [成員可邀請]**** 設定為 [是]****。   
+     - **客人可以邀請**：若要讓客人邀請其他客人，請將此原則設定為 **[是]**。
+         > [!IMPORTANT]
+         > Teams 目前不支援來賓邀請者角色，因此，即使您將 [來賓可邀請]**** 設定為 [是]****，來賓仍無法在 Teams 中邀請其他來賓。
+     - **啟用電子郵件的一次性密碼（預覽版）**：如需一次性密碼功能的詳細資訊，請參閱[電子郵件一次性密碼驗證（預覽版）](https://docs.microsoft.com/azure/active-directory/b2b/one-time-passcode)。
+     - 共同作業**限制**：如需有關允許或封鎖特定網域之邀請的詳細資訊，請參閱[允許或封鎖來自特定組織的 B2B 使用者邀請](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list)。
+        > [!NOTE]
+        > 如需共同作業限制，請參閱[啟用 B2B 外部共同作業和管理可邀請來賓的人員](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations)。
       
  
-如需控制誰可以邀請來賓的詳細資訊，請參閱針對[Azure Active DIRECTORY B2B 共同作業委派邀請](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations)。
+    如需有關控制誰可以邀請來賓的詳細資訊，請參閱[委派 Azure Active Directory B2B 共同作業邀請](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations)。
 
 
 ## <a name="step-3-configure-office-365-groups"></a>步驟3：設定 Office 365 群組
@@ -105,8 +109,8 @@ ms.locfileid: "37753318"
 
      ![螢幕擷取畫面顯示共用設定切換的範例](media/guest-access-checklist-Office365Admin_Services_addins_Sharing2.png)
  
-> [!NOTE]
-> 這個設定相當於 Azure AD 中的 [**使用者設定** > **] 中的**[**成員可以邀請**] 設定。  
+    > [!NOTE]
+    > 這個設定相當於 Azure AD 中的 [**使用者設定** > **] 中的**[**成員可以邀請**] 設定。  
 
 
 ## <a name="step-5-verify-sharing-setting-in-sharepoint"></a>步驟5：驗證 SharePoint 中的共用設定
