@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 112ded66b0edb3dd3bd2251663a1081cea8889b6
-ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
+ms.openlocfilehash: 993b01e1ba362b6990c65f067ff2d63d921a1916
+ms.sourcegitcommit: 9d5a83dcb3d86f37cd7714ca92b197696681748b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "39209089"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39831596"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>為 Microsoft 團隊取得用戶端 
 
@@ -102,6 +102,11 @@ IT 管理員可以使用小組的 managed 部署來將安裝檔案發佈到其�
 ### <a name="linux"></a>Linux
 
 使用者將能夠安裝原生 Linux 套件`.deb`及`.rpm`格式。
+安裝 DEB 或 RPM 套件時會自動安裝套件儲存庫
+- DEB`https://packages.microsoft.com/repos/ms-teams stable main`
+- RPM`https://packages.microsoft.com/yumrepos/ms-teams` 
+
+使用系統的套件管理員來啟用自動更新的簽名金鑰會自動安裝。 不過，您也可以在以下網址找到：https://packages.microsoft.com/keys/microsoft.asc)（。 Microsoft 團隊每月都會隨附，而且如果儲存庫已正確安裝，系統套件管理員就會以與系統中其他套件相同的方式處理自動更新。
 
 > [!NOTE] 
 > Linux 用戶端上的團隊可在有限的預覽中取得。 在用戶端`Report a Problem`中使用從用戶端提交的錯誤。 如有已知問題，請參閱[已知問題](Known-issues.md)。

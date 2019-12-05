@@ -14,19 +14,19 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0eb64afd9e226b3e59e3444b0ed15d2463902c5e
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 622a173985d68260b210d844052d3b08dc5b5b88
+ms.sourcegitcommit: b8e16703e4611ca2bde55896ec158b33be4f9ba0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569863"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39842425"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 與 Microsoft 團隊如何互動
 
 > [!Tip]
 > 請觀看下列會話，瞭解團隊與 Azure Active Directory （AAD）、Office 365 群組、Exchange、SharePoint 和商務用 OneDrive 的互動方式： [Microsoft 團隊的基礎](https://aka.ms/teams-foundations)
 
-針對完整的團隊體驗，您應該針對 Exchange Online、SharePoint Online 和 Office 365 群組建立啟用每個使用者。
+為了獲得完整的 Teams 體驗，每個使用者都應能夠建立 Exchange Online、SharePoint Online 和 Office 365 群組。
 
 使用者的 Exchange 信箱可以在線上託管或內部部署。 不過，某些功能需要與您的 Office 365 租使用者進行混合式部署。
 
@@ -43,10 +43,10 @@ ms.locfileid: "37569863"
 
 | 使用者的信箱託管于： | eDiscovery| 法律&nbsp;封存 | 留成| 團隊和頻道管理 |建立及查看會議| 修改使用者個人資料圖片 | 通話記錄 | 管理連絡人 | 存取 Outlook 連絡人 | 語音信箱 |新增及設定連接器|新增及設定索引標籤|新增及設定 bot| 
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|**Exchange Online**|是<sup>2</sup>|是<sup>2</sup>|是的|是的|是的|是的|是的|是的|是的|是的|是的|是的|是的|
-|**Exchange Online 專用 vNext**|是<sup>2</sup>|是<sup>2</sup>|是的|是的|是的|是的|是的|是的|是的|是的|是的|是的|是的|
-|**Exchange Online 專用–傳統**版（需要同步處理到 Azure AD）|是<sup>2</sup>|是<sup>2、3</sup>|是<sup>4|是的|不|不|是的|是的|不|是<sup>5|是<sup>6|是的|是的|
-|**Exchange 內部部署**（需要同步處理到 Azure AD）|是<sup>2</sup>| 是<sup>2、3</sup> |是<sup>4|是的|是（Exchange 2016 CU3 +）|是（Exchange 2016 CU3 +）|是的|是的|不|是<sup>5|是<sup>6|是的|是的|
+|**Exchange Online**|是<sup>2</sup>|是<sup>2</sup>|是|是|是|是|是|是|是|是|是|是|是|
+|**Exchange Online 專用 vNext**|是<sup>2</sup>|是<sup>2</sup>|是|是|是|是|是|是|是|是|是|是|是|
+|**Exchange Online 專用–傳統**版（需要同步處理到 Azure AD）|是<sup>2</sup>|是<sup>2、3</sup>|是<sup>4|是|否|否|是|是|否|是<sup>5|是<sup>6|是|是|
+|**Exchange 內部部署**（需要同步處理到 Azure AD）|是<sup>2</sup>| 是<sup>2、3</sup> |是<sup>4|是|是（Exchange 2016 CU3 +）|是（Exchange 2016 CU3 +）|是|是|否|是<sup>5|是<sup>6|是|是|
 
 支援<sup>1</sup>個 EXCHANGE 2016 CU3 及以上版本。  
 
@@ -79,7 +79,7 @@ Microsoft 團隊可搭配數種 Office 365 服務使用，為使用者提供豐�
 >針對 Exchange 內部部署與團隊整合，必須針對 AAD 同步處理的使用者指派所需的授權。
 
 > [!IMPORTANT]
-> 如果您在將使用者移至 [**僅限團隊**] 模式之後卸載商務用 Skype 用戶端，目前狀態將會在 Outlook 和其他 Office app 中停止運作。 [目前狀態] 在小組中可以正常運作。 因應措施：若要在 Outlook （以及其他 Office app）中查看目前狀態，您必須安裝商務用 Skype，即使您是在 [**僅限團隊**] 模式中執行團隊也一樣。 Microsoft 已注意到這個問題，正在努力解決問題。
+> 如果您在將使用者移至 [**僅限團隊**] 模式之後卸載商務用 Skype 用戶端，目前狀態可能會在 Outlook 和其他 Office app 中停止運作。 [目前狀態] 在小組中可以正常運作。 若要解決此問題，請在 Microsoft 團隊右上角選取您的個人檔案圖片，然後選取 [**設定**]。 在 [**一般**] 索引標籤的 [**應用程式**] 底下，選取 **[以 Office 聊天應用程式註冊團隊（需要重新開機 office 應用程式）**]。 選取此選項之後，請關閉並重新開啟所有 Office app （包括 Outlook）。 開啟 Outlook 之後，便可使用目前狀態資訊。
 
 ## <a name="additional-considerations"></a>其他考慮
 

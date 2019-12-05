@@ -12,12 +12,12 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 description: 請閱讀本主題，以瞭解 Microsoft 團隊聊天室（即新一代 Skype 房間系統）的管理。
-ms.openlocfilehash: 003ede11615e42ec120d618f0a732df58d10f452
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: aeab9235b54138d649cee2f5e67a76a109c36c6a
+ms.sourcegitcommit: b8e16703e4611ca2bde55896ec158b33be4f9ba0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38675337"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39842475"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft 團隊會議室維護和作業 
  
@@ -49,10 +49,10 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 ## <a name="microsoft-teams-rooms-reset-factory-restore"></a>Microsoft 團隊會議室重設（工廠還原）
 <a name="Reset"> </a>
 
-如果 Microsoft 團隊聊天室無法正常運作，可能會執行重設回原值。 這可以在 [**恢復**] 索引標籤上的 [設定] app 中完成。在 [**重設此電腦**] 底下，選取 [**開始**使用]，然後**移除所有專案**。 遵循其餘的提示來重設裝置。
-  
+如果 Microsoft 團隊聊天室無法正常運作，可能會執行重設回原值。 若要這樣做，請使用[Microsoft 團隊聊天室恢復工具](recovery-tool.md)，並遵循工廠還原指示進行。
+
 > [!NOTE]
-> 如果 [保留我的檔案] **：移除 app 和設定，但**在 Windows 重設程式期間已選取 [保留您的個人檔案] 選項，則 Microsoft 團隊聊天室可能無法使用的已知問題。 請勿_使用此_選項。
+> 如果 [保留我的檔案] **：移除 app 和設定，但**在 Windows 重設程式期間已選取 [保留您的個人檔案] 選項，則 Microsoft 團隊聊天室可能無法使用的已知問題。 請勿*使用此*選項。
   
 ## <a name="supported-remote-options"></a>支援的遠端選項
 <a name="RemoteOptions"> </a>

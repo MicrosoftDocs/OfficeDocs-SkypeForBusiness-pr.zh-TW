@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 請閱讀本文，找出直接路由的媒體路徑國家/地區代碼。
-ms.openlocfilehash: 8607b6720104e743243851ad7edac20811ecd29f
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 277544a5b169c2e2e17cea530239e992321d3d46
+ms.sourcegitcommit: c6d0da888ceb13f38bae139a1ced428e121e60b5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572209"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39837565"
 ---
 # <a name="direct-routing-media-path-country-codes"></a>直接路由媒體路徑國家/地區代碼
 
@@ -46,13 +46,13 @@ CSOnlinePSTNGateway-身分識別 sbc1.contoso.com – MediaRelayRoutingLocationO
 | 美屬薩摩亞  | 完工 |
 | 安道爾         | 特定 |
 | 安哥拉          | AO |
-| Anguilla        | 亨茨維爾 |
+| Anguilla        | AI |
 | Antarctica      | AQ | 
 | 安提瓜與巴布達 | 證券交易所 |
 | 阿根廷       | AR |
 | 亞美尼亞         | 為何 |
 | Aruba           | AW |
-| 澳大利亞       | X |
+| 澳洲       | X |
 | 奧地利         | 的 |
 | 亞塞拜然      | AZ |
 | 巴哈馬         | BS |
@@ -62,7 +62,7 @@ CSOnlinePSTNGateway-身分識別 sbc1.contoso.com – MediaRelayRoutingLocationO
 | 白俄羅斯         | 按照 |
 | 比利時         | 不必 |
 | 貝里斯          | BZ |
-| Benin           | BJ |
+| 貝南           | BJ |
 | 百慕達         | BM |
 | 不丹          | BT |
 | 玻利維亞         | 標 |
@@ -85,7 +85,7 @@ CSOnlinePSTNGateway-身分識別 sbc1.contoso.com – MediaRelayRoutingLocationO
 | 中非共和國 | CF |
 | Chad            | TD |
 | 智利           | CL |
-| 業務員           | CN |
+| 中國           | CN |
 | 聖誕島 | 陣列 |
 | 科科斯（奇林）群島 | 單 |
 | 哥倫比亞        | 條 |
@@ -95,7 +95,7 @@ CSOnlinePSTNGateway-身分識別 sbc1.contoso.com – MediaRelayRoutingLocationO
 | 庫擁有群島    | CK |
 | 哥斯大黎加      | CR |
 | 象牙海岸   | CI |
-| 克羅地亞         | 部門 |
+| 克羅埃西亞         | 部門 |
 | 古巴            | CU |
 | Curacao         | 時針 |
 | 賽普勒斯          | CY |
@@ -104,7 +104,7 @@ CSOnlinePSTNGateway-身分識別 sbc1.contoso.com – MediaRelayRoutingLocationO
 | 吉布地        | DJ |
 | Dominica        | 矩陣 |
 | 多明尼加共和國 | 請 |
-| 厄瓜多爾         | 成員國 |
+| 厄瓜多         | 成員國 |
 | 埃及           | 例如 |
 | 薩爾瓦多     | SV |
 | 赤道幾內亞 | GQ |
@@ -122,9 +122,9 @@ CSOnlinePSTNGateway-身分識別 sbc1.contoso.com – MediaRelayRoutingLocationO
 | 法屬南部領地 | SETTINGS |
 | Gabon           | GA |
 | 岡比亞          | 汽車 |
-| 格魯吉亞         | 串聯 |
+| 喬治亞         | 串聯 |
 | 德國         | 卸載 |
-| 加納           | GH |
+| 迦納           | GH |
 | 直布羅陀       | GI |
 | 希臘          | 凍結 |
 | 東部       | 總帳 |
@@ -155,15 +155,15 @@ CSOnlinePSTNGateway-身分識別 sbc1.contoso.com – MediaRelayRoutingLocationO
 | 日本           | JA-JP |
 | 澤西          | JE |
 | 約旦          | JO |
-| 哈薩克斯坦      | KZ |
-| 肯雅           | KE |
+| 哈薩克      | KZ |
+| 肯亞           | KE |
 | Kiribati        | KI |
 | 韓國           | KR |
 | Kosovo          | XK |
 | 科威特          | KW |
 | 吉爾吉斯斯坦      | 千克 |
 | 老撾            | LA |
-| 拉托維亞          | LV-LV&PLATFORM |
+| 拉脫維亞          | LV-LV&PLATFORM |
 | 黎巴嫩         | LB |
 | 賴索托         | 3 |
 | 賴比瑞亞         | LR |
@@ -221,7 +221,7 @@ CSOnlinePSTNGateway-身分識別 sbc1.contoso.com – MediaRelayRoutingLocationO
 | 波蘭          | 損益 |
 | 葡萄牙        | PT |
 | 波多黎各     | / |
-| 卡塔爾           | QA |
+| 卡達           | QA |
 | 留尼旺島         | 重新 |
 | 羅馬尼亞         | RO |
 | 俄羅斯          | RU |
@@ -260,7 +260,7 @@ CSOnlinePSTNGateway-身分識別 sbc1.contoso.com – MediaRelayRoutingLocationO
 | 瑞典          | 本身 |
 | 瑞士     | 48 |
 | 敘利亞           | SY |
-| 臺灣          | 華文 |
+| 台灣          | 華文 |
 | 塔吉克斯坦      | TJ |
 | 聯合        | TZ |
 | 泰國        | K |
@@ -269,7 +269,7 @@ CSOnlinePSTNGateway-身分識別 sbc1.contoso.com – MediaRelayRoutingLocationO
 | Tokelau         | TK-TM&PLATFORM |
 | 語           | 自 |
 | 特立尼達和多巴哥 | TT-RU&PLATFORM |
-| 突尼斯         | TN-ZA&PLATFORM |
+| 突尼西亞         | TN-ZA&PLATFORM |
 | 土耳其          | TR |
 | 土庫曼斯坦    | 153 |
 | 特克斯與凱科斯群島 | 目錄 |
@@ -286,7 +286,7 @@ CSOnlinePSTNGateway-身分識別 sbc1.contoso.com – MediaRelayRoutingLocationO
 | 瓦努阿圖         | VU |
 | 梵蒂岡城    | VA |
 | 委內瑞拉       | 曾 |
-| 民主         | VN |
+| 越南         | VN |
 | 瓦利斯與富圖納 | WF |
 | 葉門           | YE |
 | 尚比亞          | ZM |
