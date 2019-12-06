@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: db7caa3879e016b6e8453ad151785578d2391dd1
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: 953cfc1ba7c9b05954859f7bc8ac1db2352b3a0e
+ms.sourcegitcommit: 96d98e145ff300833d827a7d43b4e4b0331b7538
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37516647"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39871719"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>在 Microsoft 團隊中建立組織範圍的小組
 
@@ -81,3 +81,7 @@ ms.locfileid: "37516647"
 ### <a name="is-there-a-way-to-convert-an-existing-team-to-an-org-wide-team"></a>是否有任何方式可將現有團隊轉換為組織範圍的團隊？
 
 全域管理員可以在團隊用戶端中編輯現有的團隊，將其轉換為組織範圍的團隊。 移至團隊名稱，按一下 [**更多選項** > [**編輯團隊**]。
+
+## <a name="see-also"></a>另請參閱
+
+觀看有關[在 Microsoft 團隊中建立整個公司小組](https://support.office.com/article/037bb27a-bcc9-48fe-8d72-44d9482420a3)的影片。

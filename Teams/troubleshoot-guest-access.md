@@ -15,18 +15,18 @@ description: 在 Microsoft 團隊中取得來賓存取的疑難排解及修正�
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 2931a3f5440492aa1ab99a53cd196ab2973eb122
-ms.sourcegitcommit: b1bf37a96a8faa169d8a32b7478f1e2d1022ebbb
+ms.openlocfilehash: e0a3530b7a1f9029d9f671d0a02ef58cbb7907bf
+ms.sourcegitcommit: 96d98e145ff300833d827a7d43b4e4b0331b7538
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "38311258"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39871729"
 ---
 <a name="troubleshoot-problems-with-guest-access-in-microsoft-teams"></a>針對 Microsoft 團隊中的來賓存取問題進行疑難排解
 ======================================================
 
 > [!IMPORTANT]
-> 您可能需要等候長達24小時，變更才會生效。 
+> 您可能必須等候長達24小時，變更才會生效。 
 
 
 - 若要在小組中查看來賓存取的目前支援問題，請移至[團隊疑難排解](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/)。
