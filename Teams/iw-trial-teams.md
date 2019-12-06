@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 21d0ff8f9cd256010bc4767cf2f6f415b1c808c7
-ms.sourcegitcommit: 57304ac641931eed87e649555fd5eb5e58732dc5
+ms.openlocfilehash: 7274669e4567be02efbd2fdeb4c6524ce6e55f38
+ms.sourcegitcommit: 96d98e145ff300833d827a7d43b4e4b0331b7538
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "39679303"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39871689"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>管理 Microsoft Teams 商業雲端試用版方案
 =======================================================
@@ -27,7 +27,7 @@ ms.locfileid: "39679303"
 Microsoft Teams 商業雲端試用版提供貴組織中未取得 Microsoft Teams 授權的現有 Office 365 使用者，可以起始產品的 1 年試用版。 系統管理員可以為其組織中的使用者開啟或關閉這項功能。 
 
 > [!IMPORTANT]
-> Microsoft Teams 商業雲端試用版已更新，以包含額外的服務方案以獲得增加的 Teams 功能，並且目前由貴組織的帳單系統管理員所擁有。這可讓試用版更易於管理，並讓它與所有其他 Microsoft 365 方案一致。 
+> Microsoft Teams Exploratory 將於 2020 年 1 月取代 Microsoft Teams 商業雲端試用版。 若要了解此新方案，請參閱[管理 Manage Teams Exploratory 授權](teams-exploratory.md)。
 
 ## <a name="whats-in-the-offer"></a>方案中的內容
 
