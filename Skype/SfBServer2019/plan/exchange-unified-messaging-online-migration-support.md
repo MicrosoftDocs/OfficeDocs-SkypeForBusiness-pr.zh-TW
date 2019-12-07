@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Microsoft 正在淘汰2020年2月的 Exchange 整合訊息 Online （ExchUMO）服務。 本文將摘要說明客戶應該知道哪些內容，並針對其業務連續性進行規劃。
-ms.openlocfilehash: 6fe0436d0ae4df2b4eb56a3c84319770b45f3139
-ms.sourcegitcommit: b8e16703e4611ca2bde55896ec158b33be4f9ba0
+ms.openlocfilehash: 8b8a0590dd53301a93fb9a6b2ed50e0d5dc830ed
+ms.sourcegitcommit: 0f2024740e03af303efc62e7f54aa918a61ca51b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39842465"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "39890577"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange 整合通訊線上移轉支援
 
@@ -99,7 +99,7 @@ Microsoft 已發現各種使用 ExchUMO 功能的客戶部署，並將根據下�
 
 ## <a name="auto-attendant-migration-guidelines"></a>自動助理遷移指導方針
 
-Office 365 租使用者管理員必須在 Microsoft 雲端自動語音應答服務中重新建立 Exchange UM 線上自動語音應答，並將其內部部署電話號碼切換至2020年2月1日，即 Exchange UMO 服務將退出. 這是成功遷移並測試新雲端自動語音應答的建議原則。 如果您有大量的自動語音應答，您可以使用[EXCHANGE UM 自動語音應答加入雲端自動助理遷移腳本](https://github.com/NathanJBennett/ExUMAAMigrationToCloudAA)，以簡化自動語音應答的大量遷移。
+Office 365 租使用者管理員必須在 Microsoft 雲端自動語音應答服務中重新建立 Exchange UM 線上自動語音應答，並將其內部部署的電話號碼切換到2020年2月28日，即 Exchange UMO 服務將退出. 這是成功遷移並測試新雲端自動語音應答的建議原則。 如果您有大量的自動語音應答，您可以使用[EXCHANGE UM 自動語音應答加入雲端自動助理遷移腳本](https://github.com/NathanJBennett/ExUMAAMigrationToCloudAA)，以簡化自動語音應答的大量遷移。
 
 ### <a name="setup"></a>Setup.exe
 

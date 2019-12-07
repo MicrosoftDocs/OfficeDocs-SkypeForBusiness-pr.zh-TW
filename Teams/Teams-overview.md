@@ -16,23 +16,23 @@ f1keywords:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 787849735883b25d8cb002c06f3e455438193769
-ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
+ms.openlocfilehash: ef56b6e62b39d0ef0d9464c9d24b9b34d17e87cc
+ms.sourcegitcommit: 2fd1fcb0e5944f36261e551df04819713d868a11
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "39209059"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "39886190"
 ---
 # <a name="welcome-to-microsoft-teams"></a>歡迎使用 Microsoft Teams
 如果您是組織中 Microsoft Teams 的系統管理員，那您便是正確的人選。 當您準備好開始使用 Teams 時，請從[如何推出 Teams](How-to-roll-out-teams.md) 開始。
-
-如果您要尋找使用者 Teams 的說明，請按一下應用程式左側的 [說明]****，或移至 [Microsoft Teams 說明中心](https://support.office.com/teams)。 如需訓練，請移至 [Microsoft Teams 訓練](training-microsoft-teams-landing-page.md)。 
 
 如果您是 Teams 新手，想要深入了解，請查看我們的簡短[歡迎使用 Teams](https://www.youtube.com/embed/s3aQV3T0D6c) 影片 (55 秒)。
 
 請勿錯過我們的 Teams 系統管理員適用的「歡迎使用 Teams」影片 (剛好超過 3 分鐘)：
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE47cdp]
+
+如果您要尋找使用者 Teams 的說明，請按一下應用程式左側的 [說明]****，或移至 [Microsoft Teams 說明中心](https://support.office.com/teams)。 如需訓練，請移至 [Microsoft Teams 訓練](training-microsoft-teams-landing-page.md)。 
 
 ## <a name="teams-architecture"></a>Teams 架構
 

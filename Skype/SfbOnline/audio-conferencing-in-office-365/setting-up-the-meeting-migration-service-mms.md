@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '[會議遷移服務（MMS）] 是在背景執行的服務，會自動更新使用者的商務用 Skype 和 Microsoft 團隊會議。 MMS 的設計目的是要讓使用者不需要執行會議遷移工具來更新其商務用 Skype 和 Microsoft 團隊會議。'
-ms.openlocfilehash: 3f643f20937fd13b0d9576640487da30f17dd7bf
-ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
+ms.openlocfilehash: 91fcc1b95e107f36a55516e7f459eb8fae581bbe
+ms.sourcegitcommit: 0f2024740e03af303efc62e7f54aa918a61ca51b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "37772277"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "39890527"
 ---
 # <a name="using-the-meeting-migration-service-mms"></a>使用會議遷移服務（MMS）
 
@@ -128,7 +128,7 @@ ms.locfileid: "37772277"
 **SourceMeetingType:**
 - [ `SourceMeetingType SfB`使用] 表示只需要更新商務用 Skype 會議（無論是內部部署或線上）。
 - [ `SourceMeetingType Teams`使用] 表示只應更新團隊會議。
-- 使用`SourceMeetingType All`指示必須更新商務會議與團隊會議的 Skyep。 這是 SourceMeetingType 的預設值。
+- 使用`SourceMeetingType All`指示必須更新商務用 Skype 會議和團隊會議。 這是 SourceMeetingType 的預設值。
     
 
 下列範例示範如何為使用者 ashaw@contoso.com 啟動會議遷移，以便將所有會議都遷移至團隊：
