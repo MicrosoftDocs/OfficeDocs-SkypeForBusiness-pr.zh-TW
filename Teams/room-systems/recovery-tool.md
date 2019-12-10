@@ -4,7 +4,6 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.reviewer: sohailta
-ms.date: 4/17/2018
 audience: ITPro
 ms.topic: article
 ms.service: msteams
@@ -12,59 +11,47 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 description: 本文討論如何使用 Microsoft 團隊聊天室的 [恢復工具]，讓您用來將已過期的系統變成受支援的狀態。
-ms.openlocfilehash: bc35dc744dac5f04d537f023e790bc89c2c649d0
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: 79cdd7b2e3530570033083bdac7089e862f169ce
+ms.sourcegitcommit: dc70fd277d9542d831741e14dba9ae22367210ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38675347"
+ms.lasthandoff: 12/09/2019
+ms.locfileid: "39909459"
 ---
-# <a name="use-the-microsoft-teams-rooms-recovery-tool"></a><span data-ttu-id="ca767-103">使用 Microsoft 團隊會議室恢復工具</span><span class="sxs-lookup"><span data-stu-id="ca767-103">Use the Microsoft Teams Rooms recovery tool</span></span>
- 
-<span data-ttu-id="ca767-104">本文討論如何使用 Microsoft 團隊聊天室的 [恢復工具]，讓您用來將已過期的系統變成受支援的狀態。</span><span class="sxs-lookup"><span data-stu-id="ca767-104">This article discusses how to use the recovery tool for Microsoft Teams Rooms, which you would use to bring an out of date system into a supported state.</span></span> <span data-ttu-id="ca767-105">當 Microsoft [團隊聊天室] 主控台顯示「系統組態已過期」錯誤時，您可以使用這個工具。</span><span class="sxs-lookup"><span data-stu-id="ca767-105">You would use this tool when the Microsoft Teams Rooms console shows a "system config out of date" error.</span></span>
-  
+# <a name="use-the-microsoft-teams-rooms-recovery-tool"></a><span data-ttu-id="6054e-103">使用 Microsoft 團隊會議室恢復工具</span><span class="sxs-lookup"><span data-stu-id="6054e-103">Use the Microsoft Teams Rooms recovery tool</span></span>
 
-<span data-ttu-id="ca767-106"><a name="Prerequisites"> </a></span><span class="sxs-lookup"><span data-stu-id="ca767-106"></span></span>  
-## <a name="prerequisites"></a><span data-ttu-id="ca767-107">先決條件</span><span class="sxs-lookup"><span data-stu-id="ca767-107">Prerequisites</span></span>
+<span data-ttu-id="6054e-104">本文討論如何使用 Microsoft 團隊聊天室的 [恢復工具]，讓您用來將已過期的系統變成受支援的狀態。</span><span class="sxs-lookup"><span data-stu-id="6054e-104">This article discusses how to use the recovery tool for Microsoft Teams Rooms, which you would use to bring an out of date system into a supported state.</span></span> <span data-ttu-id="6054e-105">當 Microsoft 團隊聊天室主控台顯示「系統組態已過期」錯誤，或在執行推播按鈕重設[factory 還原](https://docs.microsoft.com/microsoftteams/room-systems/room-systems-v2-operations#microsoft-teams-rooms-reset-factory-restore)之前，應該套用此工具。</span><span class="sxs-lookup"><span data-stu-id="6054e-105">This tool should be applied when either the Microsoft Teams Rooms console shows a "system config out of date" error, or prior to performing a push button reset [factory restore](https://docs.microsoft.com/microsoftteams/room-systems/room-systems-v2-operations#microsoft-teams-rooms-reset-factory-restore).</span></span>
 
-<span data-ttu-id="ca767-108">下載最新的[Microsoft 團隊聊天室安裝套件](https://go.microsoft.com/fwlink/?linkid=851168)，並將其解壓縮至 Microsoft 團隊聊天室裝置可存取的 USB 記憶棒或網路共用。</span><span class="sxs-lookup"><span data-stu-id="ca767-108">Download the latest [Microsoft Teams Rooms installation package](https://go.microsoft.com/fwlink/?linkid=851168) and extract it to a USB memory stick or network share accessible to the Microsoft Teams Rooms device.</span></span>
+## <a name="prerequisites"></a><span data-ttu-id="6054e-106">先決條件</span><span class="sxs-lookup"><span data-stu-id="6054e-106">Prerequisites</span></span>
 
-<span data-ttu-id="ca767-109">您可能也需要安裝[KB4089848](http://download.windowsupdate.com/d/msdownload/update/software/updt/2018/03/windows10.0-kb4089848-x64_db7c5aad31c520c6983a937c3d53170e84372b11.msu)。</span><span class="sxs-lookup"><span data-stu-id="ca767-109">You may also need to install [KB4089848](http://download.windowsupdate.com/d/msdownload/update/software/updt/2018/03/windows10.0-kb4089848-x64_db7c5aad31c520c6983a937c3d53170e84372b11.msu).</span></span>
+<span data-ttu-id="6054e-107">下載最新的[Microsoft 團隊聊天室安裝套件](https://go.microsoft.com/fwlink/?linkid=851168)，並將其解壓縮至 Microsoft 團隊聊天室裝置可存取的 USB 記憶棒或網路共用。</span><span class="sxs-lookup"><span data-stu-id="6054e-107">Download the latest [Microsoft Teams Rooms installation package](https://go.microsoft.com/fwlink/?linkid=851168) and extract it to a USB memory stick or network share accessible to the Microsoft Teams Rooms device.</span></span>
 
-<span data-ttu-id="ca767-110"><a name="Windows-ver"> </a></span><span class="sxs-lookup"><span data-stu-id="ca767-110"></span></span>
-## <a name="verify-windows-version"></a><span data-ttu-id="ca767-111">驗證 Windows 版本</span><span class="sxs-lookup"><span data-stu-id="ca767-111">Verify Windows Version</span></span> 
+> [!NOTE]
+> <span data-ttu-id="6054e-108">從 MSI 解壓縮檔案的方式有許多種。</span><span class="sxs-lookup"><span data-stu-id="6054e-108">Extracting the files from the MSI can be accomplished by many means.</span></span> <span data-ttu-id="6054e-109">提取所有檔案並保留其目錄結構的任何機制都是可接受的。</span><span class="sxs-lookup"><span data-stu-id="6054e-109">Any mechanism that extracts all the files and preserves their directory structure is acceptable.</span></span> <span data-ttu-id="6054e-110">其中一個方法是使用命令`msiexec /qn PathToMsi /qb TARGETDIR=PathToTarget`來`PathToMsi`代表 Microsoft 團隊聊天室安裝套件的完整路徑，並`PathToTarget`代表您想要解壓縮檔案的目的檔案夾的完整路徑。</span><span class="sxs-lookup"><span data-stu-id="6054e-110">One such way is to use the command `msiexec /qn PathToMsi /qb TARGETDIR=PathToTarget` where `PathToMsi` represents the full path to the Microsoft Teams Room installation package, and `PathToTarget` represents the full path to the folder you would like the files extracted to.</span></span>
 
-1. <span data-ttu-id="ca767-112">若要登入管理員帳戶，請移至 [**設定]> Windows 設定]> 管理員**從 Microsoft 團隊聊天室裝置登入。</span><span class="sxs-lookup"><span data-stu-id="ca767-112">Login to an admin account by going to **Settings> Windows Setting> Admin Sign In** from the Microsoft Teams Rooms device.</span></span> <span data-ttu-id="ca767-113">此選項會將您帶到 [登入] 畫面。</span><span class="sxs-lookup"><span data-stu-id="ca767-113">This option brings you to the login screen.</span></span>
-2. <span data-ttu-id="ca767-114">`admin`使用密碼`sfb`登入管理員帳戶（預設系統管理員帳戶）。</span><span class="sxs-lookup"><span data-stu-id="ca767-114">Sign into an admin account, the default admin account being `admin` with the password `sfb`.</span></span>
-3. <span data-ttu-id="ca767-115">按一下 [開始] 功能表，然後`winver.exe`在搜尋方塊中輸入 [\**執行] 命令*，並在結果上按一下。</span><span class="sxs-lookup"><span data-stu-id="ca767-115">Click on the start menu and type `winver.exe` into the search box and click \**Run Command* on the result.</span></span>
-4. <span data-ttu-id="ca767-116">記下 [資訊] 窗格第二行的「版本」後面的數位。</span><span class="sxs-lookup"><span data-stu-id="ca767-116">Make note of the number after 'Version' on the second line of the info pane.</span></span>
+## <a name="running-the-tool"></a><span data-ttu-id="6054e-111">執行工具</span><span class="sxs-lookup"><span data-stu-id="6054e-111">Running the tool</span></span>
 
->[!NOTE]
-><span data-ttu-id="ca767-117">如果顯示的版本是1607或更舊版本，請先依照在<a href="#Windows-up">恢復步驟之前更新 Windows</a>中的步驟操作，然後再 Proceding 到<a href="#Perform">執行損毀修復</a>步驟。</span><span class="sxs-lookup"><span data-stu-id="ca767-117">If the Version shown is 1607 or earlier, follow the steps in the <a href="#Windows-up">Update Windows before recovery</a> steps before proceding to the <a href="#Perform">Perform a recovery</a> steps.</span></span> <span data-ttu-id="ca767-118">如果顯示的版本大於1607，請依照<a href="#Perform">執行恢復</a>中的步驟進行。</span><span class="sxs-lookup"><span data-stu-id="ca767-118">If the Version shown is greater than 1607, follow only the steps in <a href="#Perform">Perform a recovery</a>.</span></span>
+1) <span data-ttu-id="6054e-112">在 Microsoft 團隊聊天室裝置上登入系統管理員帳戶，然後啟動提升的命令提示字元。</span><span class="sxs-lookup"><span data-stu-id="6054e-112">Sign in to the admin account on your Microsoft Teams Rooms device, and launch an elevated command prompt.</span></span>
+2) <span data-ttu-id="6054e-113">從 microsoft 團隊聊天室裝置驗證您可以存取的`RecoveryTool.ps1 file`Microsoft 小組聊天室裝置，該裝置會包含在從 Microsoft 小組聊天室安裝套件提取的檔案中。</span><span class="sxs-lookup"><span data-stu-id="6054e-113">Verify from the Microsoft Teams Rooms device that you are able to access the `RecoveryTool.ps1 file`, which is included in the files extracted from the Microsoft Teams Rooms installation package.</span></span> <span data-ttu-id="6054e-114">您可以在使用網路共用或 USB 磁片磁碟機上的 [準備必備元件] 中找到套件。</span><span class="sxs-lookup"><span data-stu-id="6054e-114">The kit can be found on the network share or USB drive used when preparing prerequisites.</span></span>
+3) <span data-ttu-id="6054e-115">執行`powershell.exe -ExecutionPolicy Unrestricted -File "<path to RecoveryTool.ps1>"`。</span><span class="sxs-lookup"><span data-stu-id="6054e-115">Run `powershell.exe -ExecutionPolicy Unrestricted -File "<path to RecoveryTool.ps1>"`.</span></span>
+4) <span data-ttu-id="6054e-116">如果您執行的是 factory 還原：</span><span class="sxs-lookup"><span data-stu-id="6054e-116">If you are performing a factory restore:</span></span>
+   - <span data-ttu-id="6054e-117">當腳本出現提示時，選取選項2：**重設**。</span><span class="sxs-lookup"><span data-stu-id="6054e-117">When prompted by the script select option 2: **Reset**.</span></span>
+   - <span data-ttu-id="6054e-118">如果 BitLocker 已開啟，請依照腳本輸出末端提供的指示來停用。</span><span class="sxs-lookup"><span data-stu-id="6054e-118">If BitLocker is on, follow the instructions provided at the end of the script output to disable it.</span></span>
+   - <span data-ttu-id="6054e-119">執行 factory 還原。</span><span class="sxs-lookup"><span data-stu-id="6054e-119">Perform the factory restore.</span></span>
+      - <span data-ttu-id="6054e-120">開啟 [**設定**] 應用程式，然後選取 [**更新 & 安全性**]</span><span class="sxs-lookup"><span data-stu-id="6054e-120">Open the **Settings** app, and select **Update & Security**</span></span>
+      - <span data-ttu-id="6054e-121">流覽至 [**恢復**] 索引標籤。</span><span class="sxs-lookup"><span data-stu-id="6054e-121">Navigate to the **Recovery** tab.</span></span>
+      - <span data-ttu-id="6054e-122">在 [**重設此電腦**] 底下，選取 [**開始**使用]</span><span class="sxs-lookup"><span data-stu-id="6054e-122">Beneath **Reset this PC**, select **Get started**</span></span>
+      - <span data-ttu-id="6054e-123">選取 [**移除所有專案**]，**然後選取**[移除 **]** 。</span><span class="sxs-lookup"><span data-stu-id="6054e-123">Select **Remove everything**, then **Next** and **Reset**</span></span>
+      - <span data-ttu-id="6054e-124">系統會多次重新開機。</span><span class="sxs-lookup"><span data-stu-id="6054e-124">The system will reboot multiple times.</span></span> <span data-ttu-id="6054e-125">重設完成後，系統將會出現在 Windows OOBE 畫面上。</span><span class="sxs-lookup"><span data-stu-id="6054e-125">When the reset is complete, the system will be at the Windows OOBE screen.</span></span>
+5) <span data-ttu-id="6054e-126">如果您要修復「已結束」系統：</span><span class="sxs-lookup"><span data-stu-id="6054e-126">If you are repairing an "out of date" system:</span></span>
+    - <span data-ttu-id="6054e-127">當腳本出現提示時，選取選項1：**修復**。</span><span class="sxs-lookup"><span data-stu-id="6054e-127">When prompted by the script select option 1: **Repair**.</span></span>
+    - <span data-ttu-id="6054e-128">完成後，請重新開機 Microsoft 團隊聊天室裝置。</span><span class="sxs-lookup"><span data-stu-id="6054e-128">Upon completion, reboot the Microsoft Teams Rooms device.</span></span> <span data-ttu-id="6054e-129">它會自動重新開機，並在第二次完全復原。</span><span class="sxs-lookup"><span data-stu-id="6054e-129">It will reboot again automatically and come up fully recovered the second time.</span></span>
 
-<span data-ttu-id="ca767-119"><a name="Windows-up"> </a></span><span class="sxs-lookup"><span data-stu-id="ca767-119"></span></span>
-## <a name="update-windows-before-recovery-if-needed"></a><span data-ttu-id="ca767-120">在恢復之前更新 Windows （如有需要）</span><span class="sxs-lookup"><span data-stu-id="ca767-120">Update Windows before recovery (if needed)</span></span>
+> [!NOTE]
+> <span data-ttu-id="6054e-130">如果 [保留我的檔案] **：移除 app 和設定，但**在 Windows 重設程式期間已選取 [保留您的個人檔案] 選項，則 Microsoft 團隊聊天室可能無法使用的已知問題。</span><span class="sxs-lookup"><span data-stu-id="6054e-130">There is a known issue where the Microsoft Teams Rooms can become unusable if the  **Keep my files - Removes Apps and settings, but keeps your personal files** option is selected during the Windows Reset process.</span></span> <span data-ttu-id="6054e-131">請勿*使用此*選項。</span><span class="sxs-lookup"><span data-stu-id="6054e-131">Do *not* use this option.</span></span>
 
-1. <span data-ttu-id="ca767-121">在仍以系統管理員使用者身分登入的情況下，啟動提升許可權的 Powershell 提示。</span><span class="sxs-lookup"><span data-stu-id="ca767-121">While still logged in as an admin user, launch an elevated Powershell prompt.</span></span>
-2. <span data-ttu-id="ca767-122">執行命令`Remove-Item -Path 'c:\Recovery\OEM\$oem$\$1\Rigel' -Force -Recurse`。</span><span class="sxs-lookup"><span data-stu-id="ca767-122">Run the command `Remove-Item -Path 'c:\Recovery\OEM\$oem$\$1\Rigel' -Force -Recurse`.</span></span>
-3. <span data-ttu-id="ca767-123">請執行 Windows Update 並安裝 Windows 1709 更新。</span><span class="sxs-lookup"><span data-stu-id="ca767-123">Run Windows Update and install the update for Windows 1709.</span></span>
-4. <span data-ttu-id="ca767-124">在1709更新完成之後，請重新登入管理員帳戶並安裝[KB4089848](http://download.windowsupdate.com/d/msdownload/update/software/updt/2018/03/windows10.0-kb4089848-x64_db7c5aad31c520c6983a937c3d53170e84372b11.msu)。</span><span class="sxs-lookup"><span data-stu-id="ca767-124">After the update to 1709 is complete sign back into admin account and install [KB4089848](http://download.windowsupdate.com/d/msdownload/update/software/updt/2018/03/windows10.0-kb4089848-x64_db7c5aad31c520c6983a937c3d53170e84372b11.msu).</span></span> <span data-ttu-id="ca767-125">更新可能是從連結或使用 Windows Update 完成。</span><span class="sxs-lookup"><span data-stu-id="ca767-125">The update may be done from the link or using Windows Update.</span></span>
-5. <span data-ttu-id="ca767-126">如果您選用的是選擇性步驟，請安裝 [Windows Update] 中提供的任何其他更新。</span><span class="sxs-lookup"><span data-stu-id="ca767-126">As an optional step, install any additional updates available from Windows Update.</span></span>
+## <a name="see-also"></a><span data-ttu-id="6054e-132">另請參閱</span><span class="sxs-lookup"><span data-stu-id="6054e-132">See also</span></span>
 
-<span data-ttu-id="ca767-127"><a name="Perform"> </a></span><span class="sxs-lookup"><span data-stu-id="ca767-127"></span></span>
-## <a name="perform-a-recovery"></a><span data-ttu-id="ca767-128">執行恢復</span><span class="sxs-lookup"><span data-stu-id="ca767-128">Perform a recovery</span></span>
+[<span data-ttu-id="6054e-133">Microsoft 團隊聊天室說明</span><span class="sxs-lookup"><span data-stu-id="6054e-133">Microsoft Teams Rooms help</span></span>](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
-1. <span data-ttu-id="ca767-129">在 Microsoft 團隊聊天室裝置上登入系統管理員帳戶，然後啟動提升的命令提示字元。</span><span class="sxs-lookup"><span data-stu-id="ca767-129">Sign in to the admin account on your Microsoft Teams Rooms device, and launch an elevated command prompt.</span></span>
-2. <span data-ttu-id="ca767-130">從 microsoft 團隊聊天室裝置驗證您可以存取`RecoveryTool.ps1`檔案的 Microsoft 團隊聊天室裝置，該檔案會包含在從 Microsoft 小組聊天室安裝套件提取的檔案中。</span><span class="sxs-lookup"><span data-stu-id="ca767-130">Verify from the Microsoft Teams Rooms device that you are able to access the `RecoveryTool.ps1` file, which is included in the files extracted from the Microsoft Teams Rooms installation package.</span></span> <span data-ttu-id="ca767-131">您可以在使用網路共用或 USB 磁片磁碟機上的 [準備必備元件] 中找到套件。</span><span class="sxs-lookup"><span data-stu-id="ca767-131">The kit can be found on the network share or USB drive used when preparing prerequisites.</span></span>
-3. <span data-ttu-id="ca767-132">執行 Powershell 命令`-ExecutionPolicy Unrestricted -File "<path to RecoveryTool.ps1>"`。</span><span class="sxs-lookup"><span data-stu-id="ca767-132">Run the Powershell.exe command `-ExecutionPolicy Unrestricted -File "<path to RecoveryTool.ps1>"`.</span></span>
-4. <span data-ttu-id="ca767-133">當腳本選取選項`1:"Repair System"`提示時。</span><span class="sxs-lookup"><span data-stu-id="ca767-133">When prompted by the script select option `1:"Repair System"`.</span></span>
-5. <span data-ttu-id="ca767-134">完成後，請重新開機 Microsoft 團隊聊天室裝置。</span><span class="sxs-lookup"><span data-stu-id="ca767-134">Upon completion, reboot the Microsoft Teams Rooms device.</span></span> <span data-ttu-id="ca767-135">它會自動重新開機，並在第二次完全復原。</span><span class="sxs-lookup"><span data-stu-id="ca767-135">It will reboot again automatically and come up fully recovered the second time.</span></span>
-
-
-
-<span data-ttu-id="ca767-136"><a name="See"> </a></span><span class="sxs-lookup"><span data-stu-id="ca767-136"></span></span>  
-## <a name="see-also"></a><span data-ttu-id="ca767-137">另請參閱</span><span class="sxs-lookup"><span data-stu-id="ca767-137">See also</span></span>
- 
-[<span data-ttu-id="ca767-138">Microsoft 團隊聊天室說明</span><span class="sxs-lookup"><span data-stu-id="ca767-138">Microsoft Teams Rooms help</span></span>](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
-
-[<span data-ttu-id="ca767-139">管理 Microsoft 團隊聊天室</span><span class="sxs-lookup"><span data-stu-id="ca767-139">Manage Microsoft Teams Rooms</span></span>](skype-room-systems-v2.md)
+[<span data-ttu-id="6054e-134">管理 Microsoft 團隊聊天室</span><span class="sxs-lookup"><span data-stu-id="6054e-134">Manage Microsoft Teams Rooms</span></span>](skype-room-systems-v2.md)
