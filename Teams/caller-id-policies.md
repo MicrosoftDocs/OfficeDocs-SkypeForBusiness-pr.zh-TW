@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何在 Microsoft 團隊中使用和管理本機號碼原則，以變更或封鎖貴組織中的小組使用者本機號碼。
-ms.openlocfilehash: 95d1a2e836e79158ffc6e9f48d46decca31e01ca
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: b30f2f8650d1d875c56254d99efddb2f5fdbb5d0
+ms.sourcegitcommit: 0dba0ad1f8f00415c6437cadabed0548ce3281b1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37639089"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39919367"
 ---
 # <a name="manage-caller-id-policies-in-microsoft-teams"></a>管理 Microsoft 團隊中的呼叫者識別碼原則
 
@@ -44,7 +44,7 @@ ms.locfileid: "37639089"
 4. 從這裡選擇您想要的設定：
 
     - **封鎖來電**的本機號碼：開啟此設定可封鎖來電的本機號碼。
-    - **使用者可以覆寫本機號碼原則**：開啟此設定可讓使用者覆寫原則中的設定。 這表示使用者可以選擇是否要顯示其來電者識別碼，或封鎖來電的本機號碼。
+    - **使用者可以覆寫本機號碼原則**：開啟此設定可讓使用者覆寫原則中的設定，以將他們的數字顯示為 callees。 這表示使用者可以選擇是否要顯示其本機號碼。
     - **取代來電**顯示：您可以選取下列其中一項，以將本機號碼設定為供使用者使用：
 
         - **使用者號碼**：顯示使用者的號碼。 

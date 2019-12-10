@@ -14,12 +14,12 @@ search.appverid: MET150
 description: 連接器可提供您經常直接在頻道中使用之服務的內容和更新，讓您的團隊保持最新狀態。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4b1dc57bbe3d216ee779f962ef4b2fc1152e2161
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 05f892791c3f299cbd146d7a34b0062cc957486f
+ms.sourcegitcommit: dc70fd277d9542d831741e14dba9ae22367210ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569840"
+ms.lasthandoff: 12/09/2019
+ms.locfileid: "39909329"
 ---
 <a name="use-office-365-and-custom-connectors-in-microsoft-teams"></a>在 Microsoft 團隊中使用 Office 365 和自訂連接器
 =======================================================
@@ -52,24 +52,6 @@ Office 365 連接器可搭配 Microsoft 團隊和 Office 365 群組使用，讓�
     ![[團隊] 介面的螢幕擷取畫面，顯示頻道中的交談。](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image4.png)
 
 <a name="develop-custom-connectors"></a>開發自訂連接器
------------------------------
+----------------------------
 
-開發可與您的企業運營（LOB）應用程式整合的自訂連接器相當容易。 您可以使用內建的**內向 Webhook**連接器來建立通道的端點，以使用 HTTP post 方法從任何應用程式提取資料。
-
-1. 新增**傳入 Webhook** ，就像任何其他連接器一樣。
-
-    ![新增內向 Webhook 連接器之選項的螢幕擷取畫面。](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image5.png)
-
-2. 若要建立 Webhook，請指定**名稱**、更新 Webhook 影像（如果有必要的話），然後按一下 [**建立**]。
-
-    ![傳入 Webhook 連接器之 [設定] 頁面的螢幕擷取畫面。](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image6.png)
-
-3. 將資料推送到此通道的應用程式需要 Webhook 連接器 URL。 建立 Webhook 時會建立唯一的 URL。 與您的開發人員共用此 URL，讓他們可以根據需要將其應用程式設定成推入資料。
-
-    ![Webhook 之唯一 URL 的螢幕擷取畫面。](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image7.png)
-
-4. 當外部應用程式將資料推入連接器時，該訊息會顯示在通道交談清單中，作為一封稱為**連接器卡片**訊息的特殊訊息。
-
-    ![顯示連接器卡片訊息之 [小組] 介面的螢幕擷取畫面。](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image8.png)
-
-     開發人員可以使用簡單的 JSON 負載傳送 HTTP 要求至團隊的 Webhook 位址（這是由嚮導提供的那一個端點的唯一 URL），來設定應用程式來建立這些卡片。 請您的開發人員參考 Microsoft 開發人員網路上的[Office 365 連接器](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/connectors/connectors)，其中包含詳細指示與連接器範例。 其他資源包括[將 app 連線到 Outlook](https://support.office.com/article/Connect-apps-to-your-groups-in-Outlook-ed0ce547-038f-4902-b9b3-9e518ae6fbab)和[Office 開發人員中心-Microsoft 團隊](https://go.microsoft.com/fwlink/?linkid=855784)中的群組。
+您也可以建立自訂連接器，以及接收和外寄 webhooks。 如需詳細資訊，請參閱我們的[開發人員檔](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors)。
