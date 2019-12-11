@@ -18,12 +18,12 @@ f1keywords:
 - ms.teamsadmincenter.deploymentadvisor.overview
 ms.custom: ''
 description: 使用 Advisor for Teams (預覽) 協助您規劃和完成您的 Microsoft Teams 部署。
-ms.openlocfilehash: f7de348c6f8ca60cc1d062fce79725b4b18d0350
-ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
+ms.openlocfilehash: 63a3ae01dbe47323fd9227e65fa8c38a2d725ddf
+ms.sourcegitcommit: dc70fd277d9542d831741e14dba9ae22367210ae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "39209189"
+ms.lasthandoff: 12/09/2019
+ms.locfileid: "39909469"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>使用 Advisor for Teams 協助您推出 Microsoft Teams
 
@@ -35,6 +35,8 @@ Advisor for Teams 是 [Teams 系統管理中心](https://admin.teams.microsoft.c
 
 > [!IMPORTANT]
 > Advisor for Teams 不適用於 Microsoft 365 政府版 - GCC High 或 DoD 部署。
+
+在此 [部署和設定 Teams 的簡介](https://youtu.be/o2mlsUubIO4?t=44)影片中了解 Advisor for Teams (Advisor for Teams 在 0:50-3:15 分處)。
 
 ## <a name="using-advisor-for-teams-preview"></a>使用 Advisor for Teams (預覽)
 
