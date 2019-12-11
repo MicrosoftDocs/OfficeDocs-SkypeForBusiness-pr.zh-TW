@@ -1,5 +1,5 @@
 ---
-title: Microsoft StaffHub 停用
+title: 終止對 Microsoft StaffHub 的支援
 author: LanaChin
 ms.author: v-lanac
 ms.reviewer: lisawu
@@ -15,20 +15,20 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eeab39a68827925fa9805380763f2375910ee793
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: c4a0abc9dae0d3c5b7f78106136ceaece3472367
+ms.sourcegitcommit: a23f45ab3a2cb7b5c279356edddf61c4030c41bd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568705"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39961598"
 ---
-# <a name="microsoft-staffhub-to-be-retired"></a>Microsoft StaffHub 停用
+# <a name="microsoft-staffhub-to-be-retired"></a>終止對 Microsoft StaffHub 的支援
 
 2019年12月31日生效，Microsoft StaffHub 將停用。 我們正在將 StaffHub 功能組建至 Microsoft 團隊。 今天，小組包含針對排程管理的倒班應用程式，而其他功能則會隨著時間推移而推出。
 
 這些變更是我們繼續努力的一部分，可讓每位員工都能使用 Microsoft 365。 在團隊中現在有第一線員工工作的功能時，貴組織中的每個員工都能使用團隊來簡化其 workday、與同事共同作業，以及存取訊號和專業知識，協助他們完成工作。
 
-## <a name="frequently-asked-questions"></a>常見問題
+## <a name="frequently-asked-questions"></a>常見問題集
 
 ### <a name="about-staffhub-retirement"></a>關於 StaffHub 退休
 
@@ -64,14 +64,7 @@ ms.locfileid: "37568705"
 
 #### <a name="which-plans-is-shifts-available-in"></a>倒班中有哪些方案可供使用？
 
-您可以在下列方案中，將倒班作為小組的一部分提供，而不需要額外的費用：
-
-- Office 365 商務版 
-- Office 365 企業版 F1、E1、E3、E5
-- 適用于教育版的 Office 365
-- Microsoft 365 F1、E1、E3、E5
-
-如需詳細資訊，請參閱[倒班的可用性](manage-the-shifts-app-for-your-organization-in-teams.md#availability-of-shifts)。
+在可使用團隊的所有企業 Sku 中，都提供倒班。
 
 #### <a name="how-do-i-get-shifts"></a>我要如何取得倒班？ 
 

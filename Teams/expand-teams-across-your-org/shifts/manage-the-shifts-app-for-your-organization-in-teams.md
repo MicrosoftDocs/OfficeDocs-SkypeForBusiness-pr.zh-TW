@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 52d4410393398e28c1f7ade4af70901703a09418
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 6bd65376be278a3d07e5a7a8c4ba69ccd5408090
+ms.sourcegitcommit: a23f45ab3a2cb7b5c279356edddf61c4030c41bd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568716"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39961608"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft 團隊中為您的組織管理倒班應用程式
 
@@ -37,9 +37,7 @@ Microsoft 團隊中的 [倒班] 應用程式會讓第一線員工工作人員保
 
 ## <a name="availability-of-shifts"></a>倒班的可用性
 
-在所有包含小組的 Office 365 訂閱中，都提供倒班，有幾個例外狀況。 例外情況是美國政府雲端社區（GCC）與團隊免費提供。 無法在 Office 365 中取得倒班。我們的政府或團隊免費提供產品。
-
-若要深入瞭解團隊授權，包括包含團隊的 Office 365 訂閱清單，請參閱[office 365 團隊的授權](../../Office-365-licensing.md)。
+在可使用團隊的所有企業 Sku 中，都提供倒班。
 
 ## <a name="location-of-shifts-data"></a>倒班資料的位置
 

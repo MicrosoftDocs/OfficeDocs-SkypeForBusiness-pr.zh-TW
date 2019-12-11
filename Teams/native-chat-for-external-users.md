@@ -12,17 +12,15 @@ ms.collection:
 ms.reviewer: vinbel
 search.appverid: MET150
 description: 瞭解 Microsoft 團隊中外部存取（同盟）使用者的原生團隊聊天體驗，在兩個使用者都是 TeamsOnly 升級模式的外部使用者之間提供。
-ms.openlocfilehash: a7a66693bbff98aa707c369a9da08d0ccfe48f69
-ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
+ms.openlocfilehash: 572087d86672294b566cd99365599dbead1aa3e7
+ms.sourcegitcommit: 1448bb2e66074322b8f4bf234fce36ea9c8f9913
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37754339"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39966756"
 ---
 <a name="native-chat-experience-for-external-federated-users-in-microsoft-teams"></a>Microsoft 團隊外部（同盟）使用者的原生聊天體驗
 ======================================
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 當 Microsoft 團隊使用者與外部（同盟）使用者聊天時，聊天體驗會限制在文字上。 不過，如果您的小組租使用者與外部使用者都是 TeamsOnly 升級模式，您可以使用「原生團隊聊天體驗」，其中包括豐富的格式設定、@mentions 及其他聊天功能。 換句話說，您可以使用與貴組織中的使用者一樣，與符合資格的外部使用者進行相同的豐富1:1 團隊交談體驗。 原生團隊與外部使用者的聊天，僅限於1:1 聊天（外部使用者無法進行群組聊天）。
 
