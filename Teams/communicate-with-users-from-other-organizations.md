@@ -15,12 +15,12 @@ description: 了解如何使用外部存取 (同盟)和來賓存取在 Microsoft
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 39fa50868b60ce78da360d97a2fad5dff9fee09b
-ms.sourcegitcommit: 486eaa85042670edec2231efaf7dae8fa329e852
+ms.openlocfilehash: 4d5ed9c5a5a671b3461761ea206edd109df73f22
+ms.sourcegitcommit: 1448bb2e66074322b8f4bf234fce36ea9c8f9913
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "39665446"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39966766"
 ---
 <a name="communicate-with-users-from-other-organizations-in-microsoft-teams"></a>在 Microsoft Teams 中與其他組織的使用者通訊
 ======================================================
@@ -84,7 +84,7 @@ ms.locfileid: "39665446"
 <sup>1</sup>前提是已將使用者新增為來賓，且使用者以來賓身分登入來賓租用戶。<br>
 <sup>2</sup>僅透過電子郵件或工作階段初始通訊協定 (SIP) 位址。<br>
 <sup>3</sup>外部 (同盟) 聊天僅限一對一聊天。<br>
-<sup>4</sup>針對來自兩個不同組織的僅限 Teams 對僅限 Teams 使用者，支援一對一聊天。 *這是預覽或早期版本功能。*
+<sup>4</sup>針對來自兩個不同組織的僅限 Teams 對僅限 Teams 使用者，支援一對一聊天。 
 
 ## <a name="related-topics"></a>相關主題
 
