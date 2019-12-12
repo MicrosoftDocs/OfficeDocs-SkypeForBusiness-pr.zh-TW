@@ -14,18 +14,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: 瞭解如何在 Microsoft 團隊中針對動態 E911 功能使用和管理緊急通話路由策略。
+description: 瞭解如何使用及管理 Microsoft 團隊中的緊急通話路由原則。
 f1keywords: ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
-ms.openlocfilehash: aed3b3d3cbd1023a3370c3c271e07a61179447da
-ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
+ms.openlocfilehash: 704becbffc0168c10ab9f357a6f6ffe8431790d2
+ms.sourcegitcommit: 5243494676ffa039fc0a32e6279e5a9a05675eec
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "39615803"
+ms.lasthandoff: 12/12/2019
+ms.locfileid: "39986954"
 ---
 # <a name="manage-emergency-call-routing-policies-in-microsoft-teams"></a>管理 Microsoft 團隊中的緊急通話路由原則
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 如果您已在組織中部署電話系統直接路由，您可以使用 Microsoft 團隊中的緊急呼叫路由策略來設定緊急電話號碼，並指定緊急通話的傳送方式。 緊急呼叫路由策略會判斷是否針對獲指派原則的使用者、用來呼叫緊急服務的號碼（例如，911在美國），以及如何路由緊急服務通話。
 
@@ -45,6 +43,8 @@ ms.locfileid: "39615803"
 4. 若要啟用 [增強的緊急服務]，請開啟 [**增強的緊急服務**]。 啟用 [增強緊急服務] 時，小組會從服務中檢索原則和位置資訊，並將該資訊包含在緊急通話中。
 5. 定義其中一個緊急電話號碼。 若要執行此動作，請在 [**緊急數位**] 底下，執行下列動作：
     1. [**緊急撥號字串**]：輸入 [緊急撥號字串]。 這個撥號字串表示通話是緊急通話。
+        > [!NOTE]
+        > 在直接路由中，我們正從緊急撥號字串前面的「+」傳送緊急通話的小組用戶端轉移。 在轉換完成之前，與緊急撥號字串相符的語音路由模式應該可確保符合的字串有且沒有前面的 "+" （例如911和 + 911）。 例如，^\+？911或. *。
     2. **緊急撥號遮罩**：針對每個緊急電話號碼，您可以指定零個或多個緊急撥號遮罩。 撥號遮罩是您要翻譯成緊急撥號字串值的數位。 這可讓您撥打備用的緊急電話號碼，仍能取得緊急通話服務的來電。 <br>例如，您會將112新增為緊急撥號遮罩，這是大多數歐洲的緊急服務號碼，而911則是緊急撥號字串。 歐洲造訪的團隊使用者可能不知道911是美國的緊急電話號碼，而且當他們撥打112時，通話是911。 若要定義多個撥號遮罩，請以分號分隔每個值。 例如，112; 212。
     3. **PSTN 使用量**：選取 [公開交換電話網絡（PSTN）] 的使用方式。 PSTN 使用量是用來判斷使用哪個路由來傳送緊急呼叫給有權使用的使用者。 與此使用相關聯的路線應該指向專用於緊急通話的 SIP 幹線，或指向將緊急呼叫路由到最接近的公用安全應答點（PSAP）的緊急位置識別號碼（ELIN）閘道。
 
