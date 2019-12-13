@@ -14,18 +14,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: 瞭解如何在 Microsoft 團隊中針對動態 E911 功能使用和管理緊急通話原則。
+description: 瞭解如何在 Microsoft 團隊中使用和管理緊急通話原則。
 f1keywords: ms.teamsadmincenter.voice.emergencycallingpolicies.overview
-ms.openlocfilehash: 1cd358453aa349fde51e4d66de412e8f9e2b72d5
-ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
+ms.openlocfilehash: d6dc6f58085fedadf25f80272bc55dcc7723db19
+ms.sourcegitcommit: f2c7626dbef4ed250b9a937a9b56d46fe2e2039e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "39615743"
+ms.lasthandoff: 12/12/2019
+ms.locfileid: "39998791"
 ---
 # <a name="manage-emergency-calling-policies-in-microsoft-teams"></a>管理 Microsoft 團隊中的緊急通話原則
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 如果您的組織使用通話方案或部署的電話系統直傳送，您可以在 Microsoft 團隊中使用緊急通話原則，定義貴組織中的小組使用者進行緊急通話時所發生的動作。 您可以設定當指派策略呼叫緊急服務的使用者時，要通知的人員，以及傳送通知的方式。 例如，您可以將原則設定設定為自動通知貴組織的安全服務台，並讓他們聆聽緊急通話。  
 
@@ -110,7 +108,7 @@ $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-O
 ```
 將群組中的所有使用者指派給特定的團隊原則。 在這個範例中，它是緊急呼叫路由策略的作業。
 ```
-$members | ForEach-Object { Grant-CsTeamsChannelsPolicy -PolicyName "Operations Emergency Calling Policy" -Identity $_.EmailAddress}
+$members | ForEach-Object { Grant-CsTeamsChannelsPolicy -PolicyName "Operations Emergency Calling Policy" -Identity $_.UserPrincipalName}
 ``` 
 根據群組中的成員數目而定，此命令可能需要幾分鐘的時間執行。
 

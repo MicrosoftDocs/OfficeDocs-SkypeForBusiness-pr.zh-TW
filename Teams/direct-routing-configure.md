@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 瞭解如何設定 Microsoft Phone 系統 Direct 路由。
-ms.openlocfilehash: a15b679dfa5ac74c6c78242ac40b00e2f24f75a4
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 55f4fbb0f4faa70f73c742e8e849bc258dbfd481
+ms.sourcegitcommit: c2e315d0fcec742d2e1ba5ad90dffd1a1157a466
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572220"
+ms.lasthandoff: 12/13/2019
+ms.locfileid: "40002297"
 ---
 # <a name="configure-direct-routing"></a>設定直接路由
 
@@ -107,18 +107,18 @@ Enabled               : True
  
 下表列出您可以用來設定參數的其他參數`New-CsOnlinePstnGateway`
 
-|必填？|名稱|說明|設置|可能值|類型與限制|
+|必填？|名稱|描述|設置|可能值|類型與限制|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|是的|稱|SBC 的 FQDN 名稱 |無|NoneFQDN name，限制63字元|在[Active Directory 中針對電腦、網域、網站和組織單位命名慣例](https://support.microsoft.com/help/909264)的允許和禁止字元清單|
-|不|MediaBypass |指示 SBC 的參數支援「媒體旁路」，且系統管理員想要使用它。|無|滿足<br/>虛假|Boolean|
-|是的|SipSignallingPort |使用傳輸層安全性（TLS）通訊協定，與直接路由服務通訊時所使用的偵聽埠。|無|任何埠|0到65535 |
-|不|FailoverTimeSeconds |當設定為10（預設值）時，閘道不會在10秒內應答的輸出呼叫會路由至下一個可用的幹線;如果沒有其他 trunks，就會自動中斷通話。 組織的網路速度與閘道回應速度若是很慢，可能會造成來電不必要地遭到掛斷。 預設值為10。|第|電話|Int|
-|不|ForwardCallHistory |指出是否透過主幹轉送通話記錄資訊。 如果啟用，Office 365 PSTN Proxy 會傳送兩個標頭： [歷程記錄] 資訊和 [參照者]。 預設值為**False** （$False）。 |虛假|滿足<br/>虛假|Boolean|
-|不|ForwardPAI|指出 P-Asserted-Identity (PAI) 標頭是否要隨通話轉接。 PAI 標頭可用於驗證來電者的身分識別。 如果啟用，則也會傳送隱私權： ID 標頭。 預設值為**False** （$False）。|虛假|滿足<br/>虛假|Boolean|
-|不|SendSIPOptions |定義 SBC 是否將傳送 SIP 選項。 如果停用，則會將 SBC 排除在監視及觸發系統中。 我們強烈建議您啟用 SIP 選項。 預設值為**True**。 |滿足|滿足<br/>虛假|Boolean|
-|不|MaxConcurrentSessions |由觸發系統所使用。 設定任何值後，當併發會話數量為 90% 或高於此值時，警示系統會在租使用者管理員產生警示。 如果未設定參數，就不會產生預警。 不過，監視系統會在每24小時報告併發會話數目。 |非|非<br/>1到100000 ||
-|不|MediaRelayRoutingLocationOverride |允許手動選取媒體路徑。 [直接傳送] 會根據 SBC 的公用 IP，指派媒體路徑的資料中心。 我們總是選取最接近 SBC 資料中心的資料。 不過，在某些情況下，來自例如美國範圍的公用 IP 可以指派給位於歐洲的 SBC。 在這種情況下，我們會使用不是最佳的媒體路徑。 這個參數可讓您手動設定媒體流量的首選區域。 我們只建議在通話記錄中清楚指出自動指派媒體路徑的 datacenter，不會指派最接近 SBC 資料中心的資料中心。 |無|ISO 格式的國家/地區代碼||
-|不|後|用來針對撥出通話啟用這個 SBC。 可用於暫時移除 SBC，或在進行更新或在維護期間進行。 |虛假|滿足<br/>虛假|Boolean|
+|是|稱|SBC 的 FQDN 名稱 |無|NoneFQDN name，限制63字元|在[Active Directory 中針對電腦、網域、網站和組織單位命名慣例](https://support.microsoft.com/help/909264)的允許和禁止字元清單|
+|否|MediaBypass |指示 SBC 的參數支援「媒體旁路」，且系統管理員想要使用它。|無|滿足<br/>虛假|Boolean|
+|是|SipSignallingPort |使用傳輸層安全性（TLS）通訊協定，與直接路由服務通訊時所使用的偵聽埠。|無|任何埠|0到65535 |
+|否|FailoverTimeSeconds |當設定為10（預設值）時，閘道不會在10秒內應答的輸出呼叫會路由至下一個可用的幹線;如果沒有其他 trunks，就會自動中斷通話。 組織的網路速度與閘道回應速度若是很慢，可能會造成來電不必要地遭到掛斷。 預設值為10。|第|電話|Int|
+|否|ForwardCallHistory |指出是否透過主幹轉送通話記錄資訊。 如果啟用，Office 365 PSTN Proxy 會傳送兩個標頭： [歷程記錄] 資訊和 [參照者]。 預設值為**False** （$False）。 |虛假|滿足<br/>虛假|Boolean|
+|否|ForwardPAI|指出 P-Asserted-Identity (PAI) 標頭是否要隨通話轉接。 PAI 標頭可用於驗證來電者的身分識別。 如果啟用，則也會傳送隱私權： ID 標頭。 預設值為**False** （$False）。|虛假|滿足<br/>虛假|Boolean|
+|否|SendSIPOptions |定義 SBC 是否將傳送 SIP 選項。 如果停用，則會將 SBC 排除在監視及觸發系統中。 我們強烈建議您啟用 SIP 選項。 預設值為**True**。 |滿足|滿足<br/>虛假|Boolean|
+|否|MaxConcurrentSessions |由觸發系統所使用。 設定任何值後，當併發會話數量為90% 或高於此值時，警示系統會在租使用者管理員產生警示。 如果未設定參數，就不會產生預警。 不過，監視系統會在每24小時報告併發會話數目。 |非|非<br/>1到100000 ||
+|否|MediaRelayRoutingLocationOverride |允許手動選取媒體路徑。 [直接傳送] 會根據 SBC 的公用 IP，指派媒體路徑的資料中心。 我們總是選取最接近 SBC 資料中心的資料。 不過，在某些情況下，來自例如美國範圍的公用 IP 可以指派給位於歐洲的 SBC。 在這種情況下，我們會使用不是最佳的媒體路徑。 這個參數可讓您手動設定媒體流量的首選區域。 我們只建議在通話記錄中清楚指出自動指派媒體路徑的 datacenter，不會指派最接近 SBC 資料中心的資料中心。 |無|ISO 格式的國家/地區代碼||
+|否|後|用來針對撥出通話啟用這個 SBC。 可用於暫時移除 SBC，或在進行更新或在維護期間進行。 |虛假|滿足<br/>虛假|Boolean|
  
 ### <a name="verify-the-sbc-pairing"></a>驗證 SBC 配對 
 
@@ -266,9 +266,9 @@ Microsoft 通話方案會自動套用為所有擁有 Microsoft 通話方案授�
 
 下表摘要列出使用三個語音路由的配置。 在這個範例中，所有三個路由都是「美國和加拿大」相同的 PSTN 使用量。
 
-|**PSTN 使用量**|**語音路線**|**數位模式**|**優先順序**|**SBC**|**說明**|
+|**PSTN 使用量**|**語音路線**|**數位模式**|**優先順序**|**SBC**|**描述**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|僅限美國|"雷德蒙 1"|^\\+ 1 （425\|206）（\d{7}） $|sr-1|sbc1.contoso.biz<br/>sbc2.contoso.biz|呼叫號碼 + 1 425 XXX XX xx 美元或 + 1 206 XXX XX xx 的活動路由|
+|僅限美國|"雷德蒙 1"|^\\+ 1 （425\|206）（\d{7}） $|1|sbc1.contoso.biz<br/>sbc2.contoso.biz|呼叫號碼 + 1 425 XXX XX xx 美元或 + 1 206 XXX XX xx 的活動路由|
 |僅限美國|"雷德蒙 2"|^\\+ 1 （425\|206）（\d{7}） $|pplx-2|sbc3.contoso.biz<br/>sbc4.contoso.biz|呼叫號碼的備份路由 + 1 425 XXX XX XX or + 1 206 XXX XX xx|
 |僅限美國|"Other + 1"|^\\+ 1 （\d{10}） $|3|sbc5.contoso.biz<br/>sbc6.contoso.biz|呼叫號碼的路由 + 1 XXX XXX XXX xx （除 + 1 425 XXX XX 或 + 1 206 XXX XX xx 以外）|
 |||||||
@@ -444,9 +444,9 @@ John：可撥打任何號碼的電話。 呼叫雷德蒙的數位範圍時，必
 
 下表摘要列出路由策略「無限制」的使用方式指派和語音路由。 
 
-|**PSTN 使用量**|**語音路線**|**數位模式**|**優先順序**|**SBC**|**說明**|
+|**PSTN 使用量**|**語音路線**|**數位模式**|**優先順序**|**SBC**|**描述**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|僅限美國|"雷德蒙 1"|^\\+ 1 （425\|206）（\d{7}） $|sr-1|sbc1.contoso.biz<br/>sbc2.contoso.biz|被呼叫者編號的作用中路由 + 1 425 XXX XX XX 或 + 1 206 XXX XX xx|
+|僅限美國|"雷德蒙 1"|^\\+ 1 （425\|206）（\d{7}） $|1|sbc1.contoso.biz<br/>sbc2.contoso.biz|被呼叫者編號的作用中路由 + 1 425 XXX XX XX 或 + 1 206 XXX XX xx|
 |僅限美國|"雷德蒙 2"|^\\+ 1 （425\|206）（\d{7}） $|pplx-2|sbc3.contoso.biz<br/>sbc4.contoso.biz|被呼叫者編號的備份路由 + 1 425 XXX XX XX 或 + 1 206 XXX XX xx|
 |僅限美國|"Other + 1"|^\\+ 1 （\d{10}） $|3|sbc5.contoso.biz<br/>sbc6>. contoso.biz|被呼叫者的電話號碼 + 1 XXX XXX XX （不包括 + 1 425 XXX XX 或 + 1 206 XXX xx xx）|
 |國際|國際|\d +|4|sbc2.contoso.biz<br/>sbc5.contoso.biz|任何數位模式的路線 |
@@ -485,15 +485,15 @@ John：可撥打任何號碼的電話。 呼叫雷德蒙的數位範圍時，必
    </pre>
 3. 接著，建立語音路由策略「無限制」。 在此語音路由原則中，PSTN 使用 "雷德蒙 1" 和 "雷德蒙" 會重複使用，以保留對號碼 "+ 1 425 XXX XX" 和 "+ 1 206 XXX XX" （作為本機或內部部署的呼叫）的特殊處理。
 
-```
-New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"
-```
+   ```
+   New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"
+   ```
 
-    Take note of the order of PSTN Usages:
+    請注意 PSTN 的使用順序：
 
-    a. If a call made to number "+1 425 XXX XX XX" with the usages configured as in the following example, the call follows the route set in "US and Canada" usage and the special routing logic is applied. That is, the call is routed using sbc1.contoso.biz and sbc2.contoso.biz first, and then sbc3.contoso.biz and sbc4.contoso.biz as the backup routes. 
+    是. 如果撥打的號碼是 "+ 1 425 XXX XX"，且使用下列範例所述的使用方式，則呼叫會遵循「美國和加拿大」用法中的路由設定，並套用特殊路由邏輯。 也就是說，通話是使用 sbc1.contoso.biz 和 sbc2.contoso.biz 進行路由，然後 sbc3.contoso.biz 和 sbc4.contoso.biz 做為備份路由。 
 
-    b.  If "International" PSTN usage is before "US and Canada," calls to +1 425 XXX XX XX are routed to sbc2.contoso.biz and sbc5.contoso.biz as part of the routing logic. Enter the command:
+    乙.  如果「國際」 PSTN 使用量在「美國和加拿大」之前，則對 + 1 425 XXX XX 的呼叫會路由至 sbc2.contoso.biz 和 sbc5.contoso.biz，成為路由邏輯的一部分。 輸入命令：
 
     ```New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"```
 
@@ -529,12 +529,12 @@ New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canad
 
 ## <a name="assign-teams-only-mode-to-users-to-ensure-calls-land-in-microsoft-teams"></a>將 [僅限團隊] 模式指派給使用者，以確保在 Microsoft 團隊中撥打土地
 
-直接路由要求使用者只能在 [僅限團隊] 模式中，以確保來電在團隊用戶端中保持通話。 若要將使用者置於 [僅限團隊] 模式，請將 [UpgradeToTeams] TeamsUpgradePolicy 的實例指派給他們。 如果您的組織使用商務用 Skype Server 或商務用 Skype Online，請參閱下列文章以瞭解 Skype 與團隊之間的資訊互用性：[與 skype 搭配使用團隊的組織的遷移與互通性指南商務](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype)用。 
+直接路由要求使用者只能在 [僅限團隊] 模式中，以確保來電在團隊用戶端中保持通話。 若要將使用者置於 [僅限團隊] 模式，請將 [UpgradeToTeams] TeamsUpgradePolicy 的實例指派給他們。 如果您的組織使用商務用 Skype Server 或商務用 Skype Online，請參閱下列文章，以瞭解 Skype 與團隊之間的資訊互用性：[與商務用 Skype 搭配使用團隊之組織的遷移與互通性指導](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype)方針。 
 
 
 ## <a name="configuring-sending-calls-directly-to-voicemail"></a>設定直接傳送來電至語音信箱
 
-[直接路由] 可讓您結束通話呼叫並直接傳送給使用者的語音信箱。 如果您想要直接將來電傳送到語音信箱，請將不透明的 = app 附加至 [要求 URI 標頭]。 例如，「sip： user@yourdomain.com; 不透明 = app：語音信箱」。
+[直接路由] 可讓您結束通話呼叫並直接傳送給使用者的語音信箱。 如果您想要直接將來電傳送到語音信箱，請將不透明的 = app 附加至 [要求 URI 標頭]。 例如，「sip： user@yourdomain .com; 不透明 = app：語音信箱」。
 在這種情況下，小組使用者將不會收到來電通知，該通話會直接連線至使用者的語音信箱。
 
 ## <a name="see-also"></a>另請參閱

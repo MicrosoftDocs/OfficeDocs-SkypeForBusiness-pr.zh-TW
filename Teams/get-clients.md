@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f8ea5133998e9d11e5ab070ffe66f7e719252ee5
-ms.sourcegitcommit: 0dba0ad1f8f00415c6437cadabed0548ce3281b1
+ms.openlocfilehash: f3332f25366ea79d69bb95727f01651cb158de53
+ms.sourcegitcommit: c2e315d0fcec742d2e1ba5ad90dffd1a1157a466
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39919145"
+ms.lasthandoff: 12/13/2019
+ms.locfileid: "40002237"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>為 Microsoft 團隊取得用戶端 
 
@@ -110,7 +110,7 @@ IT 管理員可以使用小組的 managed 部署來將安裝檔案發佈到其�
 
 > [!NOTE] 
 > 如果您發現錯誤，請使用`Report a Problem`用戶端中的 [從] 進行提交。 如有已知問題，請參閱[已知問題](Known-issues.md)。
-> 對於 Linux 版團隊支援，您可以使用（Microsoft Q&A） [https://docs.microsoft.com/answers/topics/teams.html] 上的 linux 論壇支援頻道。 在張貼問題時， `teams-linux`請務必使用標記。 
+> 對於 Linux 版團隊支援，您可以使用[Microsoft Q&的 Linux 論壇支援頻道](https://docs.microsoft.com/answers/topics/teams.html)。 在張貼問題時， `teams-linux`請務必使用標記。 
 
 #### <a name="install-teams-using-deb-package"></a>使用 DEB 套件安裝團隊
 

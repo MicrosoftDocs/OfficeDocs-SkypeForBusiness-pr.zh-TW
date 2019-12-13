@@ -15,12 +15,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何使用意見反應原則來控制貴組織中的小組使用者是否可以將團隊的意見反應提交給 Microsoft。
-ms.openlocfilehash: e43cc46e16a17ad4f059398e99736d14fdee62ee
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 1322023eb7644b84544ac8ca44fba0a63c6b868d
+ms.sourcegitcommit: f2c7626dbef4ed250b9a937a9b56d46fe2e2039e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570630"
+ms.lasthandoff: 12/12/2019
+ms.locfileid: "39998831"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>管理 Microsoft 團隊中的意見反應原則
 
@@ -38,7 +38,7 @@ ms.locfileid: "37570630"
 
 使用者也可以為團隊評分並傳送其所提供評級的詳細資料。 您可以在小組中的時間，向使用者顯示此彈出問卷。 當使用者按一下通知中的 [**提供意見**反應] 時，就會顯示該調查完成。
 
-![在小組中調查通知和表單的螢幕擷取畫面](media/manage-feedback-policies-in-teams-survey.png)
+![小組中的「調查通知」和「表單」的螢幕擷取畫面](media/manage-feedback-policies-in-teams-survey.png)
 
 ## <a name="set-whether-users-can-send-feedback-about-teams-to-microsoft"></a>設定使用者是否可以將關於團隊的意見反應傳送給 Microsoft
 
@@ -48,7 +48,7 @@ ms.locfileid: "37570630"
 
 例如，您想要允許貴組織中的所有使用者傳送意見反應，在訓練中的新員工以外，**提供意見**反應並接收問卷。 在這種情況下，您會建立自訂原則來關閉兩個功能，並將它指派給新的招聘。 貴組織中的所有其他使用者都會在已開啟功能的情況下，取得全域原則。  
 
-您*可以在[這裡找到](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)***新的 CsTeamsFeedbackPolicy** Cmdlet，以建立自訂原則和**授與 CsTeamsFeedbackPolicy** Cmdlet，以將它指派給一或多個使用者或使用者群組（例如安全性群組或通訊群組。
+您*可以在[這裡找到](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)***新的 CsTeamsFeedbackPolicy** Cmdlet，以建立自訂原則與**授與 CsTeamsFeedbackPolicy** Cmdlet，以將它指派給一或多個使用者或使用者群組（例如安全群組或通訊群組）。
 
 若要關閉並開啟這些功能，請設定下列參數：
 
@@ -88,7 +88,7 @@ $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-O
 ```
 將群組中的所有使用者指派給特定的意見反應原則。 在這個範例中，它是新的雇用意見反應原則。
 ```
-$members | ForEach-Object {Grant-CsTeamsFeedbackPolicy -PolicyName "New Hire Feedback Policy" -Identity $_.EmailAddress}
+$members | ForEach-Object {Grant-CsTeamsFeedbackPolicy -PolicyName "New Hire Feedback Policy" -Identity $_.UserPrincipalName}
 ``` 
 根據群組中的成員數目而定，此命令可能需要幾分鐘的時間執行。
 

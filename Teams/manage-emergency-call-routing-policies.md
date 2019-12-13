@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何使用及管理 Microsoft 團隊中的緊急通話路由原則。
 f1keywords: ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
-ms.openlocfilehash: 704becbffc0168c10ab9f357a6f6ffe8431790d2
-ms.sourcegitcommit: 5243494676ffa039fc0a32e6279e5a9a05675eec
+ms.openlocfilehash: 4520bc1d9cc6a4e84a3702e32db859b784ae02bc
+ms.sourcegitcommit: f2c7626dbef4ed250b9a937a9b56d46fe2e2039e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/12/2019
-ms.locfileid: "39986954"
+ms.locfileid: "39998801"
 ---
 # <a name="manage-emergency-call-routing-policies-in-microsoft-teams"></a>管理 Microsoft 團隊中的緊急通話路由原則
 
@@ -44,7 +44,7 @@ ms.locfileid: "39986954"
 5. 定義其中一個緊急電話號碼。 若要執行此動作，請在 [**緊急數位**] 底下，執行下列動作：
     1. [**緊急撥號字串**]：輸入 [緊急撥號字串]。 這個撥號字串表示通話是緊急通話。
         > [!NOTE]
-        > 在直接路由中，我們正從緊急撥號字串前面的「+」傳送緊急通話的小組用戶端轉移。 在轉換完成之前，與緊急撥號字串相符的語音路由模式應該可確保符合的字串有且沒有前面的 "+" （例如911和 + 911）。 例如，^\+？911或. *。
+        > 在直接路由中，我們正從緊急撥號字串前面的「+」傳送緊急通話的小組用戶端轉移。 在轉換完成之前，與緊急撥號字串相符的語音路由模式應該可確保符合的字串有且沒有前面的 "+" （例如911和 + 911）。 例如，^\\+？911或. *。
     2. **緊急撥號遮罩**：針對每個緊急電話號碼，您可以指定零個或多個緊急撥號遮罩。 撥號遮罩是您要翻譯成緊急撥號字串值的數位。 這可讓您撥打備用的緊急電話號碼，仍能取得緊急通話服務的來電。 <br>例如，您會將112新增為緊急撥號遮罩，這是大多數歐洲的緊急服務號碼，而911則是緊急撥號字串。 歐洲造訪的團隊使用者可能不知道911是美國的緊急電話號碼，而且當他們撥打112時，通話是911。 若要定義多個撥號遮罩，請以分號分隔每個值。 例如，112; 212。
     3. **PSTN 使用量**：選取 [公開交換電話網絡（PSTN）] 的使用方式。 PSTN 使用量是用來判斷使用哪個路由來傳送緊急呼叫給有權使用的使用者。 與此使用相關聯的路線應該指向專用於緊急通話的 SIP 幹線，或指向將緊急呼叫路由到最接近的公用安全應答點（PSAP）的緊急位置識別號碼（ELIN）閘道。
 
@@ -114,7 +114,7 @@ $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-O
 ```
 將群組中的所有使用者指派給特定的團隊原則。 在這個範例中，它是 HR 緊急通話路由原則。
 ```
-$members | ForEach-Object { Grant-CsTeamsChannelsPolicy -PolicyName "HR Emergency Call Routing Policy" -Identity $_.EmailAddress}
+$members | ForEach-Object { Grant-CsTeamsChannelsPolicy -PolicyName "HR Emergency Call Routing Policy" -Identity $_.UserPrincipalName}
 ``` 
 根據群組中的成員數目而定，此命令可能需要幾分鐘的時間執行。
 

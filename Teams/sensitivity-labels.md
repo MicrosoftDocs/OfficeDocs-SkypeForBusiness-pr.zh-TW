@@ -15,12 +15,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何在 Microsoft 團隊中定義及使用敏感度標籤。
-ms.openlocfilehash: 3a0c40a51653a525587a0662949a3fdd4e63faf4
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: 899bf8c3dc187df6fa5e035817458a10330c66a6
+ms.sourcegitcommit: c2e315d0fcec742d2e1ba5ad90dffd1a1157a466
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38653569"
+ms.lasthandoff: 12/13/2019
+ms.locfileid: "40002317"
 ---
 # <a name="sensitivity-labels-for-microsoft-teams"></a>Microsoft 團隊的敏感度標籤
 
@@ -34,9 +34,41 @@ ms.locfileid: "38653569"
 
 另一方面，敏感度標籤及其原則會自動強制執行，以結合群組平臺、安全性 & 合規性中心及團隊服務的組合來進行。 敏感度標籤可提供強大的基礎結構支援，以保護貴組織的機密資料。  
 
-## <a name="create-and-publish-sensitivity-labels-for-teams"></a>建立及發佈小組的敏感度標籤
+## <a name="create-manage-and-publish-sensitivity-labels-for-teams"></a>建立、管理及發佈小組的敏感度標籤
 
 如需如何啟用、建立及發佈小組的敏感度標籤，請參閱[在 Microsoft 團隊、Office 365 群組和 SharePoint 網站上使用敏感度標籤](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)。
+
+>[!IMPORTANT]
+>建立、更新及刪除敏感度標籤時，需要小心地將發佈標籤與使用者進行排序。 順序中的任何偏差都可能會導致所有使用者的持續性團隊建立錯誤。 因此，當您<a href="#createpublishlabels">建立及發佈標籤</a>、<a href="#modifydeletelabels">修改及刪除已發佈的標籤</a>，以及<a href="#manageerrors">管理團隊建立錯誤</a>時，請務必執行下列動作。
+
+**建立及發佈標籤** <a name="createpublishlabels"></a>
+
+在安全性 & 合規性中心建立及發佈標籤時，最多可能需要24小時才能讓標籤在團隊建立介面中變為可見。 使用下列步驟來發佈租使用者中所有使用者的標籤：
+1. 建立標籤並將其發佈，以在租使用者中進行幾個選取的使用者帳戶。
+2. 在標籤發佈之後，請等候24小時。
+3. 24小時之後，請嘗試使用可存取標籤的其中一個使用者帳戶來建立擁有標籤的小組。
+4. 如果團隊在步驟3中成功建立，請繼續進行併發布租使用者中其餘使用者的標籤。
+
+**修改及刪除已發佈的標籤** <a name="modifydeletelabels"></a>
+
+刪除或修改與靈敏度原則相關聯的標籤時，可能會導致小組建立跨租使用者失敗。 因此，在您刪除或修改標籤之前，您必須先解除標籤與其相關聯原則的關聯。 使用下列步驟  
+若要刪除或修改標籤：
+1. 從使用標籤的所有原則中移除標籤。 或者，您也可以刪除原則本身。
+2. 從原則移除標籤，或原則本身遭到刪除時，請等候48小時，然後再繼續進行。
+3. 在48小時後，啟動團隊建立介面，並確認租使用者中的任何使用者都看不到該標籤。
+4. 現在，您可以安全地刪除或修改標籤。
+
+**管理團隊建立錯誤** <a name="manageerrors"></a>
+
+如果小組建立在公眾預覽版期間開始失敗，您有兩個選項：
+ - 在小組建立期間，請確定任何使用者都不強制使用敏感度標籤。
+ - 使用 [[啟用此預覽](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites#enable-this-preview)] 中的腳本關閉敏感度標籤。
+
+請注意，EnableMIPLabels 設定必須設定為 false，如下所示：
+
+```
+$setting["EnableMIPLabels"] = "False"
+ ```
 
 ## <a name="using-sensitivity-labels-with-teams"></a>在團隊中使用敏感度標籤
 

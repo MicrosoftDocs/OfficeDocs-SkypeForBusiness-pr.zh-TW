@@ -17,12 +17,12 @@ search.appverid: MET150
 description: 瞭解 Microsoft 團隊中的應用程式設定原則，以及如何使用這些原則將 app 釘選到您組織中的使用者自訂小組。
 f1keywords:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: aaee74017fc6a380c77526b28c19411e413f37d0
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: b7f0585c62d7d22e1fc5a7e55c90e59f8cda554d
+ms.sourcegitcommit: f2c7626dbef4ed250b9a937a9b56d46fe2e2039e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570289"
+ms.lasthandoff: 12/12/2019
+ms.locfileid: "39998851"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>在 Microsoft 團隊中管理 app 設定原則
 
@@ -35,7 +35,7 @@ ms.locfileid: "37570289"
 
 |團隊桌面用戶端  |團隊行動用戶端 |
 |---------|---------|
-|![顯示團隊桌面用戶端的螢幕擷取畫面](media/app-setup-policies-desktop-app-bar.png)<br>  |   ![顯示團隊行動用戶端的螢幕擷取畫面](media/app-setup-policies-mobile-app-bar.png)      |
+|![顯示小組桌面用戶端的螢幕擷取畫面](media/app-setup-policies-desktop-app-bar.png)<br>  |   ![顯示團隊行動用戶端的螢幕擷取畫面](media/app-setup-policies-mobile-app-bar.png)      |
 
 您可以在 Microsoft [團隊管理中心] 管理 app 設定原則。 您可以使用全域（組織範圍預設值）原則，或建立自訂原則，並將它們指派給使用者。 除非您建立並指派自訂原則，否則貴組織中的使用者會自動取得全域原則。
 
@@ -56,7 +56,7 @@ ms.locfileid: "37570289"
 4. 開啟或關閉 [**允許上傳自訂的應用程式**]，視您是否要讓使用者將自訂應用程式上傳給團隊而定。 如果 [**允許協力廠商] 或 [自訂應用程式**] 在 app 許可權原則中的[組織內應用程式設定](teams-app-permission-policies.md#manage-org-wide-app-settings)中關閉，您將無法變更此設定。
 5. 在 [**新增釘選的應用程式**] 窗格中，搜尋您要新增的應用程式，然後按一下 [**新增**]。 您也可以依應用程式許可權原則篩選 app。 當您選取 app 清單後，請按一下 [**新增**]。
 
-     ![顯示 [新增釘選的 app] 窗格的螢幕擷取畫面](media/app-setup-policies-add-apps.png)
+     ![顯示 [新增釘選的應用程式] 窗格的螢幕擷取畫面](media/app-setup-policies-add-apps.png)
 
 6. 依您希望它們出現在團隊中的順序排列應用程式，然後按一下 [**儲存**]。
 
@@ -89,7 +89,7 @@ ms.locfileid: "37570289"
 2. 按一下原則名稱左方，選取原則。
 3. 選取 [**管理使用者**]。
 4. 在 [**管理使用者**] 窗格中，依 [顯示名稱] 或 [使用者名稱] 搜尋使用者，選取名稱，然後選取 [**新增**]。 針對您要新增的每個使用者重複此步驟。
-5. 完成新增使用者後，請選取 [**儲存**]。
+5. 完成新增使用者之後，請選取 [**儲存**]。
 
 ### <a name="assign-a-custom-app-setup-policy-to-users-in-a-group"></a>將自訂應用程式設定原則指派給群組中的使用者
 
@@ -110,18 +110,18 @@ $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-O
 ```
 將群組中的所有使用者指派給特定的 app 設定原則。 在這個範例中，它是 HR App 設定原則。
 ```
-$members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setup Policy" -Identity $_.EmailAddress}
+$members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setup Policy" -Identity $_.UserPrincipalName}
 ``` 
 根據群組中的成員數目而定，此命令可能需要幾分鐘的時間執行。
 
-## <a name="faq"></a>常見問題
+## <a name="faq"></a>常見問題集
 
 ### <a name="working-with-app-setup-policies"></a>使用應用程式設定原則
 
 #### <a name="what-built-in-app-setup-policies-are-included-in-the-microsoft-teams-admin-center"></a>Microsoft 團隊系統管理中心包含哪些內建應用程式設定原則？
 
 - **全域（組織範圍預設值）**：除非您指派其他原則，否則此預設原則會套用到貴組織中的所有使用者。 編輯 [全域原則]，將最重要的 app 釘選到您的使用者。
-- **FirstLineWorker**：此原則適用于第一線員工工作者。 您可以將它指派給貴組織中的第一線員工工作人員。 請務必注意，您所建立的自訂原則，您必須將原則指派給使用者，才能讓設定生效。 如需詳細資訊，請移至本文的將[自訂應用程式設定原則指派給 [使用者](#assign-a-custom-app-setup-policy-to-users)] 區段。
+- **FirstLineWorker**：此原則適用于第一列工作人員。 您可以將它指派給您組織中的第一列工作人員。 請務必注意，您所建立的自訂原則，您必須將原則指派給使用者，才能讓設定生效。 如需詳細資訊，請移至本文的將[自訂應用程式設定原則指派給 [使用者](#assign-a-custom-app-setup-policy-to-users)] 區段。
 
 #### <a name="why-cant-i-find-an-app-in-the-add-pinned-apps-pane"></a>為什麼我無法在 [新增釘選的 app] 窗格中找到應用程式？
 
@@ -152,7 +152,7 @@ $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setu
 |團隊桌面用戶端 |團隊行動用戶端 |
 |---------|---------|
 |在團隊側面的應用程式行中，按一下 **.。。其他應用程式**。| 在團隊底部附近的 [應用程式行] 中，向上滑動。|
-|![螢幕擷取畫面顯示 [團隊桌面用戶端] 中的 [更多應用程式]](media/app-setup-policies-desktop-more-apps.png)<br>   |![在團隊行動用戶端中顯示更多應用程式的螢幕擷取畫面](media/app-setup-policies-mobile-more-apps.png)  
+|![在團隊桌面用戶端中顯示更多應用程式的螢幕擷取畫面](media/app-setup-policies-desktop-more-apps.png)<br>   |![在團隊行動用戶端中顯示更多應用程式的螢幕擷取畫面](media/app-setup-policies-mobile-more-apps.png)  
 
 #### <a name="what-do-i-need-to-know-about-the-teams-mobile-experience"></a>關於小組行動體驗，我還需要知道什麼？
 
@@ -171,5 +171,5 @@ $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setu
 在提交 app 之前，請務必遵循標誌指導方針。 若要深入瞭解，請參閱[賣方儀表板提交的檢查清單](https://docs.microsoft.com/microsoftteams/platform/publishing/office-store-checklist)。 
 
  ## <a name="related-topics"></a>相關主題
-- [團隊中應用程式的系統管理設定](admin-settings.md)
+- [在 Teams 中的應用程式系統管理設定](admin-settings.md)
 - [將應用程式發佈至團隊用戶端的租使用者應用程式目錄](tenant-apps-catalog-teams.md)

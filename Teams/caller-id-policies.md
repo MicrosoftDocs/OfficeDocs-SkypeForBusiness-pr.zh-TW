@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何在 Microsoft 團隊中使用和管理本機號碼原則，以變更或封鎖貴組織中的小組使用者本機號碼。
-ms.openlocfilehash: b30f2f8650d1d875c56254d99efddb2f5fdbb5d0
-ms.sourcegitcommit: 0dba0ad1f8f00415c6437cadabed0548ce3281b1
+ms.openlocfilehash: 8a8e235c1adf24e5a11b0b62e7542d5fcae194be
+ms.sourcegitcommit: f2c7626dbef4ed250b9a937a9b56d46fe2e2039e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39919367"
+ms.lasthandoff: 12/12/2019
+ms.locfileid: "39998821"
 ---
 # <a name="manage-caller-id-policies-in-microsoft-teams"></a>管理 Microsoft 團隊中的呼叫者識別碼原則
 
@@ -104,7 +104,7 @@ $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-O
 ```
 將群組中的所有使用者指派給特定的呼叫者 ID 原則。 在這個範例中，它支援本機號碼原則。
 ```
-$members | ForEach-Object { Grant-CsCallingLineIdentity -PolicyName "Support Caller ID Policy" -Identity $_.EmailAddress}
+$members | ForEach-Object { Grant-CsCallingLineIdentity -PolicyName "Support Caller ID Policy" -Identity $_.UserPrincipalName}
 ``` 
 根據群組中的成員數目而定，此命令可能需要幾分鐘的時間執行。
 
