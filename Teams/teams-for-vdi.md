@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2ac9b520334b29df8f2fc05808b32f2e73db8557
-ms.sourcegitcommit: 1448bb2e66074322b8f4bf234fce36ea9c8f9913
+ms.openlocfilehash: fd9440ce7c4d35af28e577c9d9e01845f298ef01
+ms.sourcegitcommit: c15ab82834005b9a19247e06488f1f21161fc426
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39966776"
+ms.lasthandoff: 12/13/2019
+ms.locfileid: "40020057"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>虛擬化桌面基礎結構的團隊
 
@@ -68,12 +68,14 @@ Citrix 虛擬 App 與桌上型電腦（先前稱為 XenApp 和 XenDesktop）為 
 
 如需最新的伺服器和用戶端需求，請參閱[此 Citrix 網站](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html)。
 
-## <a name="install-the-teams-desktop-app-on-vdi"></a>在 VDI 上安裝小組桌面應用程式
+## <a name="install-or-update-the-teams-desktop-app-on-vdi"></a>在 VDI 上安裝或更新小組桌面應用程式
 
 您可以使用每電腦安裝或使用 MSI 套件的每個使用者安裝，部署 VDI 版團隊桌面應用程式。 決定使用哪種方法，取決於您使用的是持續性或非持續設定，以及貴組織的相關功能需求。
 針對專用的持續設定，這兩種方法都可以運作。  不過，對於非持續性設定，小組需要使用每電腦安裝才能有效運作。 請參閱[非持續性設定](#non-persistent-setup)一節。
 
 在安裝每電腦的情況下，自動更新是停用的。 這表示若要更新團隊應用程式，您必須卸載目前的版本，才能更新為較新的版本。 針對每位使用者安裝，會啟用自動更新。 對於大多數的 VDI 部署，我們建議您使用每電腦安裝來部署團隊。
+
+若要更新為最新的團隊版本，請先從最新的團隊版本部署開始卸載程式。
 
 為了讓 VDI 環境中的團隊 AV 優化功能正常運作，瘦用戶端端點必須能夠存取網際網路。 如果瘦用戶端端點無法使用網際網路存取，優化啟動將會失敗。 這表示使用者處於未優化的媒體狀態。
 
@@ -93,7 +95,7 @@ Citrix 虛擬 App 與桌上型電腦（先前稱為 XenApp 和 XenDesktop）為 
 
 在非永久性設定中，使用者登出後，使用者的本機作業系統變更就不會保留。 這類設置通常是共用多個使用者會話。 VM 配置會根據使用者數量及可用的物理盒資源而有所不同。
 
-針對非持續性設定，小組桌面應用程式必須安裝在每一台電腦上的黃金影像中。 （若要深入瞭解，請參閱在[VDI 上安裝 [小組桌面應用程式](#install-the-teams-desktop-app-on-vdi)] 區段）。 這可確保在使用者會話期間有效啟動團隊 app。 將團隊與非持久設定搭配使用時，也需要設定檔的快取管理員，才能高效地進行團隊執行時間資料同步處理。這樣可確保在使用者會話期間會快取適當的使用者特定資訊（例如，使用者資料、設定檔和設定）。  有許多可用的快取管理員解決方案。 例如， [FSLogix](https://docs.microsoft.com/fslogix/overview)。 如需特定的設定指示，請參閱您的快取管理員提供者。
+針對非持續性設定，小組桌面應用程式必須安裝在每一台電腦上的黃金影像中。 （若要深入瞭解，請參閱[安裝或更新 VDI 區段上的小組桌面應用程式](#install-or-update-the-teams-desktop-app-on-vdi)）。 這可確保在使用者會話期間有效啟動團隊 app。 將團隊與非持久設定搭配使用時，也需要設定檔的快取管理員，才能高效地進行團隊執行時間資料同步處理。這樣可確保在使用者會話期間會快取適當的使用者特定資訊（例如，使用者資料、設定檔和設定）。  有許多可用的快取管理員解決方案。 例如， [FSLogix](https://docs.microsoft.com/fslogix/overview)。 如需特定的設定指示，請參閱您的快取管理員提供者。
 
 ##### <a name="teams-cached-content-exclusion-list-for-non-persistent-setup"></a>小組快取內容排除清單以進行非持續設定
 
@@ -110,11 +112,11 @@ Citrix 虛擬 App 與桌上型電腦（先前稱為 XenApp 和 XenDesktop）為 
 
 在透過 Office 365 專業增強版部署團隊之前，您必須先卸載任何預先存在的團隊應用程式（如果這些 app 是使用各電腦安裝來部署的）。
 
-透過 Office 365 專業增強版的團隊是針對每位使用者所安裝。 若要深入瞭解，請參閱在[VDI 上安裝 [小組桌面應用程式](#install-the-teams-desktop-app-on-vdi)] 區段。
+透過 Office 365 專業增強版的團隊是針對每位使用者所安裝。 若要深入瞭解，請參閱[安裝或更新 VDI 區段上的小組桌面應用程式](#install-or-update-the-teams-desktop-app-on-vdi)。
 
 #### <a name="teams-deployments-through-office-365-proplus-updates"></a>透過 Office 365 專業增強版更新的團隊部署
 
-團隊也會新增至 Office 365 專業增強版的現有安裝。 由於 Office 365 專業增強版只會針對每位使用者安裝小組，請參閱在[VDI 上安裝 [小組桌面應用程式](#install-the-teams-desktop-app-on-vdi)] 區段。
+團隊也會新增至 Office 365 專業增強版的現有安裝。 由於 Office 365 專業增強版只會針對每位使用者安裝小組，請參閱[安裝或更新 VDI 區段上的小組桌面應用程式](#install-or-update-the-teams-desktop-app-on-vdi)。
 
 #### <a name="using-teams-with-per-machine-installation-and-office-365-proplus"></a>使用團隊進行每電腦安裝和 Office 365 專業增強版
 
@@ -331,7 +333,8 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity “user email id”
 
 ### <a name="client-deployment-installation-and-setup"></a>用戶端部署、安裝和設定
 
-- 在每電腦安裝中，VDI 上的團隊不會以非 VDI 團隊用戶端的方式自動更新。 您必須安裝新的 MSI 來更新 VM 影像，如在[VDI 上安裝 [小組桌面應用程式](#install-the-teams-desktop-app-on-vdi)] 一節所述。 您必須卸載目前的版本，才能更新為較新的版本。
+- 在每電腦安裝中，VDI 上的團隊不會以非 VDI 團隊用戶端的方式自動更新。 您必須安裝新的 MSI 來更新 VM 影像，如在 VDI 的 [[安裝或更新團隊桌面應用程式](#install-or-update-the-teams-desktop-app-on-vdi)] 區段中所述。 您必須卸載目前的版本，才能更新為較新的版本。
+- 團隊應該針對每個使用者或每個電腦來部署。 不支援針對每位使用者和每個電腦並行部署團隊。  若要從每個電腦或每位使用者遷移到其中一個模式，請遵循卸載程式，然後重新部署到其中一種模式。
 - 在此時間，Citrix 不支援 MacOs 和 Linux 版用戶端。
 - Citrix 不支援使用在端點上定義的明確 HTTP proxy。 
 

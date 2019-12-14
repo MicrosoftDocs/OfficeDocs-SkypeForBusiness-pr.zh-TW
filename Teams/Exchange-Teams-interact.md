@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 622a173985d68260b210d844052d3b08dc5b5b88
-ms.sourcegitcommit: b8e16703e4611ca2bde55896ec158b33be4f9ba0
+ms.openlocfilehash: b7ca2b091cfe27c1e81d429ac95f085b52c8465d
+ms.sourcegitcommit: c15ab82834005b9a19247e06488f1f21161fc426
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39842425"
+ms.lasthandoff: 12/13/2019
+ms.locfileid: "40019967"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 與 Microsoft 團隊如何互動
 
@@ -41,7 +41,7 @@ ms.locfileid: "39842425"
 
 **支援的動作：**
 
-| 使用者的信箱託管于： | eDiscovery| 法律&nbsp;封存 | 留成| 團隊和頻道管理 |建立及查看會議| 修改使用者個人資料圖片 | 通話記錄 | 管理連絡人 | 存取 Outlook 連絡人 | 語音信箱 |新增及設定連接器|新增及設定索引標籤|新增及設定 bot| 
+| 使用者的信箱託管于： | eDiscovery| 法律&nbsp;封存 | 留成| 團隊和頻道管理 |在團隊中建立及查看會議| 修改使用者個人資料圖片 | 通話記錄 | 管理連絡人 | 存取 Outlook 連絡人 | 語音信箱 |新增及設定連接器|新增及設定索引標籤|新增及設定 bot| 
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |**Exchange Online**|是<sup>2</sup>|是<sup>2</sup>|是|是|是|是|是|是|是|是|是|是|是|
 |**Exchange Online 專用 vNext**|是<sup>2</sup>|是<sup>2</sup>|是|是|是|是|是|是|是|是|是|是|是|
@@ -79,7 +79,7 @@ Microsoft 團隊可搭配數種 Office 365 服務使用，為使用者提供豐�
 >針對 Exchange 內部部署與團隊整合，必須針對 AAD 同步處理的使用者指派所需的授權。
 
 > [!IMPORTANT]
-> 如果您在將使用者移至 [**僅限團隊**] 模式之後卸載商務用 Skype 用戶端，目前狀態可能會在 Outlook 和其他 Office app 中停止運作。 [目前狀態] 在小組中可以正常運作。 若要解決此問題，請在 Microsoft 團隊右上角選取您的個人檔案圖片，然後選取 [**設定**]。 在 [**一般**] 索引標籤的 [**應用程式**] 底下，選取 **[以 Office 聊天應用程式註冊團隊（需要重新開機 office 應用程式）**]。 選取此選項之後，請關閉並重新開啟所有 Office app （包括 Outlook）。 開啟 Outlook 之後，便可使用目前狀態資訊。
+> 如果您在將使用者移至 [**僅限團隊**] 模式之後卸載商務用 Skype 用戶端，目前狀態可能會在 Outlook 和其他 Office app 中停止運作。 目前狀態在 Teams 中可正常運作。 若要解決此問題，請在 Microsoft 團隊右上角選取您的個人檔案圖片，然後選取 [**設定**]。 在 [**一般**] 索引標籤的 [**應用程式**] 底下，選取 **[以 Office 聊天應用程式註冊團隊（需要重新開機 office 應用程式）**]。 選取此選項之後，請關閉並重新開啟所有 Office app （包括 Outlook）。 開啟 Outlook 之後，便可使用目前狀態資訊。
 
 ## <a name="additional-considerations"></a>其他考慮
 

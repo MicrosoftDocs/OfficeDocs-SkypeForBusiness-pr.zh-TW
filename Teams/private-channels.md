@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何在 Microsoft 團隊中使用和管理私人頻道。
-ms.openlocfilehash: b4937addf861be56a0a90a2c63a0ed6181bdc555
-ms.sourcegitcommit: f3b698379eb663202ce127eeaf6c07328c166556
+ms.openlocfilehash: d7a491a64e32edef61b067c864c21f41e19f267d
+ms.sourcegitcommit: c15ab82834005b9a19247e06488f1f21161fc426
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "38077426"
+ms.lasthandoff: 12/13/2019
+ms.locfileid: "40020047"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft 團隊中的私人頻道
 
@@ -139,6 +139,12 @@ Microsoft 團隊中的私人頻道會在您的小組中建立焦點空間，共�
 團隊會管理私人頻道 SharePoint 網站集合的生命週期。 如果網站集合是在小組外刪除，只要私人通道仍在使用中，背景作業就會在四個小時內復原網站。 如果網站已刪除且已實刪除，就會為私人頻道提供新的網站集合。
 
 如果已還原私人頻道或包含私人頻道的小組，網站集合就會還原。 如果私人通道網站集合已還原，且超過專用通道的30天虛刪除視窗，網站集合就會以獨立的網站集合的方式運作。
+
+## <a name="private-channel-message-compliance-records"></a>私人通道訊息合規性記錄
+
+在私人通道中傳送的訊息記錄會傳送到所有私人通道成員的信箱，而不是群組信箱。 記錄的標題會設定格式，以指出其傳送的是哪一種私人頻道。
+
+如需有關執行電子檔探索搜尋私人通道訊息的詳細資訊，請參閱電子檔探索（[私人頻道](ediscovery-investigation.md#ediscovery-of-private-channels)）。
 
 ## <a name="considerations-around-access-in-private-channels"></a>私人通道存取權的考慮
 

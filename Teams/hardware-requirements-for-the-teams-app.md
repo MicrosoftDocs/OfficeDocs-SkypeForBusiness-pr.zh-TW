@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 81fc050df43e6f0c6d179601b1a9186974222276
-ms.sourcegitcommit: 1448bb2e66074322b8f4bf234fce36ea9c8f9913
+ms.openlocfilehash: 1c33a0ed8bf88469e6e9ab41a049a1d566cc686b
+ms.sourcegitcommit: c15ab82834005b9a19247e06488f1f21161fc426
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39966706"
+ms.lasthandoff: 12/13/2019
+ms.locfileid: "40019957"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Microsoft 團隊應用程式的硬體需求
 
@@ -41,7 +41,7 @@ ms.locfileid: "39966706"
 |.NET 版本    |  需要 .NET 4.5 CLR 或更新版本       |
 |顯示器    |  USB 2.0 攝影機       |
 |裝置    |   標準膝上型電腦相機、麥克風和喇叭    | 
-|影片通話與會議 | 若要在視頻通話和線上會議中取得較佳的體驗，我們建議您使用具有 2.0 GHz 處理器和 4.0 GB RAM （或更新版本）的電腦。 [選擇性**模糊處理我的背景**影片] 效果需要具備高級向量擴充2（AVX2）支援的處理器。 如需不支援的解碼器與編碼器清單，請參閱[硬體解碼器和編碼器驅動程式建議](hardware-decoders-and-encoders.md)。 |
+|影片通話與會議 | <ul><li>若要在視頻通話和線上會議中取得較佳的體驗，我們建議您使用具有 2.0 GHz 處理器和 4.0 GB RAM （或更新版本）的電腦。 </li><li>[選擇性**模糊處理我的背景**影片] 效果需要具備高級向量擴充2（AVX2）支援的處理器。 如需不支援的解碼器與編碼器清單，請參閱[硬體解碼器和編碼器驅動程式建議](hardware-decoders-and-encoders.md)。</li><li>使用 Microsoft 團隊聊天室中的鄰近性偵測來加入會議需要藍牙 LE （需要在用戶端裝置上啟用藍牙），而 Windows 用戶端則需要64位的團隊用戶端。 在32位團隊用戶端上無法使用。</li></ul> |
 |Teams 即時活動 | 如果您正在產生小組即時事件，我們建議您使用具有 Core i5 Kaby Lake processor、4.0 GB RAM （或更新版本）和硬體編碼器的電腦。 如需不支援的解碼器與編碼器清單，請參閱[硬體解碼器和編碼器驅動程式建議](hardware-decoders-and-encoders.md)。 |
 
 ## <a name="hardware-requirements-for-the-teams-desktop-app-on-a-mac"></a>Mac 上的小組桌面應用程式的硬體需求
@@ -55,7 +55,7 @@ ms.locfileid: "39966706"
 |作業系統  |    Mac OS X 10.11 El Capitan 或更新版本     |
 |顯示器  |    相容網路攝像頭     |
 |語音    |  相容的麥克風與喇叭、耳機與麥克風或對等裝置       |
-|影片通話與會議 | 若要在視頻通話和線上會議中取得較佳的體驗，我們建議您使用具有 2.0 GHz 處理器和 4.0 GB RAM （或更新版本）的電腦。 [選擇性模糊處理我的背景影片] 效果需要具有先進向量擴充2（AVX2）支援的處理器，且支援最晚2013的 Mac 裝置及更新版本。 如需不支援的解碼器與編碼器清單，請參閱[硬體解碼器和編碼器驅動程式建議](hardware-decoders-and-encoders.md)。|
+|影片通話與會議 | 若要在視頻通話和線上會議中取得較佳的體驗，我們建議您使用具有 2.0 GHz 處理器和 4.0 GB RAM （或更新版本）的電腦。  <ul><li>[選擇性**模糊處理我的背景**影片] 效果需要具有先進向量擴充2（AVX2）支援的處理器，且支援最晚2013的 Mac 裝置及更新版本。 如需不支援的解碼器與編碼器清單，請參閱[硬體解碼器和編碼器驅動程式建議](hardware-decoders-and-encoders.md)。</li><li>在 Mac OS 上無法使用 Microsoft 團隊聊天室中的鄰近性偵測來加入會議。</li></ul> |
 
 ## <a name="hardware-requirements-for-the-teams-desktop-app-on-a-linux"></a>Linux 上的小組桌面應用程式的硬體需求
 
@@ -70,7 +70,7 @@ ms.locfileid: "39966706"
 |顯示器    |  USB 2.0 攝影機       |
 |裝置    |   標準膝上型電腦相機、麥克風和喇叭    | 
 |語音    |  相容的麥克風與喇叭、耳機與麥克風或對等裝置       |
-|影片通話與會議 | 若要在視頻通話和線上會議中取得較佳的體驗，我們建議您使用具有 2.0 GHz 處理器和 4.0 GB RAM （或更新版本）的電腦。 [選擇性模糊處理我的背景影片] 效果需要具有先進向量擴充2（AVX2）支援的處理器，且支援最晚2013的 Mac 裝置及更新版本。 如需不支援的解碼器與編碼器清單，請參閱[硬體解碼器和編碼器驅動程式建議](hardware-decoders-and-encoders.md)。
+|影片通話與會議 | <ul><li>若要在視頻通話和線上會議中取得較佳的體驗，我們建議您使用具有 2.0 GHz 處理器和 4.0 GB RAM （或更新版本）的電腦。 </li><li>[選擇性模糊處理我的背景影片] 效果需要具有先進向量擴充2（AVX2）支援的處理器，且支援最晚2013的 Mac 裝置及更新版本。 如需不支援的解碼器與編碼器清單，請參閱[硬體解碼器和編碼器驅動程式建議](hardware-decoders-and-encoders.md)。</li><li>在 Linux 上無法使用 Microsoft 團隊聊天室中的鄰近性偵測來加入會議。</li></ul>
 |支援的 Linux 發行 | Ubuntu 16.04 LTS、18.04 LTS、Fedora 30 Workstation、RHEL 8 工作站、CentOS 8
 
 
