@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 瞭解如何為 Microsoft 團隊設定及測試雲端自動語音應答。
-ms.openlocfilehash: 36725b9c322c5d084fdfc344132f36b9265ce9dd
-ms.sourcegitcommit: b1bf37a96a8faa169d8a32b7478f1e2d1022ebbb
+ms.openlocfilehash: 2cd468b3a4f151d6ad19d2ad430bb94045fb808f
+ms.sourcegitcommit: 89106cfda0d900d8be541943b7d1537bc69ed57f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "38318126"
+ms.lasthandoff: 12/16/2019
+ms.locfileid: "40070223"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>設定雲端自動語音應答
 
@@ -218,9 +218,8 @@ ms.locfileid: "38318126"
 
 **依名稱撥號**如果您啟用這個選項，來電者就可以使用 [透過**名稱撥號**] 搜尋貴組織中的人員。 他們會說出使用者的名稱和語音辨識會與使用者相符。 您可以在 [選用的撥號作用域] 頁面中，設定這些服務中和不包含的人員。 使用電話系統授權的任何線上使用者，或任何使用商務用 Skype Server 主機內部部署的使用者，都是合格的使用者，而且可以使用 [撥號者名稱] 找到。
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-透過**延伸撥號**（此預覽功能尚未提供給 [一般公用]）如果您啟用此選項，則呼叫者可以輸入其電話分機，與貴組織中的使用者連線。 您可以在 [選用撥號作用中] 頁面中，選取哪些使用者列為 [可供**撥號**] 或 [無法使用]。 使用電話系統授權的任何線上使用者，或任何使用商務用 Skype Server 主機內部部署的使用者，都是符合資格的使用者，而且可透過分機找到。
+透過**分機撥打電話**如果您啟用此選項，則呼叫者可以輸入其電話分機，與您組織中的使用者連線。 您可以在 [選用撥號作用中] 頁面中，選取哪些使用者列為 [可供**撥號**] 或 [無法使用]。 使用電話系統授權的任何線上使用者，或任何使用商務用 Skype Server 主機內部部署的使用者，都是符合資格的使用者，而且可透過分機找到。
 
 > [!IMPORTANT]
 > 請注意下列事項：

@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 提供 IT 專業人員，其中包含適用于商務用 Skype 2016、商務用 Skype 2015 及 Lync 2013 用戶端之最新更新資訊的連結。
-ms.openlocfilehash: 5fc7c8970f87cbb998c8803fe1dd230e693ed040
-ms.sourcegitcommit: d2bee305a3588f8487bba3396b1825be7a52f6d2
+ms.openlocfilehash: 70a99da3d3e8c9c6cdbff5d68cdb7fe8c255ca3d
+ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38714469"
+ms.lasthandoff: 12/17/2019
+ms.locfileid: "40069384"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>使用 Windows Installer （MSI）之商務用 Skype 的最新版本更新
 
@@ -44,6 +44,7 @@ ms.locfileid: "38714469"
 
 |套件名稱|KB 數|發行日期|
 |:---  |:---  |:---  |
+|商務用 Skype 2016 更新 |[KB 4484102](https://support.microsoft.com/kb/4484102) | 2019年10月|
 |商務用 Skype 2016 更新 |[KB 4475577](https://support.microsoft.com/kb/4475577) | 2019年9月|
 |商務用 Skype 2016 更新 |[KB 4475548](https://support.microsoft.com/kb/4475548) | 2019年8月|
 |商務用 Skype 2016 更新 |[KB 4475545](https://support.microsoft.com/kb/4475545) | 2019年7月|

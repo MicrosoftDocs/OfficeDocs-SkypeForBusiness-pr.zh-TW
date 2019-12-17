@@ -14,12 +14,12 @@ search.appverid: MET150
 description: 瞭解當您需要提交以電子形式儲存的法律訴訟資訊時，要採取的動作。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e645085130b65283a1841661c4e2885e5ea9cba4
-ms.sourcegitcommit: ddb4eaf634476680494025a3aa1c91d15fb58413
+ms.openlocfilehash: 205b10c9fc1576b260e72c145239d56b1c71b643
+ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "38231114"
+ms.lasthandoff: 12/17/2019
+ms.locfileid: "40069184"
 ---
 <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>在 Microsoft 團隊中進行 eDiscovery 調查內容
 ============================
@@ -42,6 +42,8 @@ ms.locfileid: "38231114"
 3.  若要查看使用者信箱中的私人聊天，他們也位於 [交談歷程記錄] 底下的 [小組聊天] 資料夾內。
 
 ## <a name="ediscovery-of-guest-to-guest-chats"></a>電子檔探索訪客與來賓聊天
+
+目前，對於只有來賓參與1:1 或1： N 聊天的情況，我們不支援電子檔探索您的聊天訊息。 
 
 若沒有信箱，來賓對訪客的聊天（沒有家用租使用者的1xN 聊天）就不會被編制索引，因此也不會包含在 eDiscovery 中。 若要協助電子檔探索以進行來賓對訪客聊天，會建立一個雲端信箱（或幻影信箱）來儲存1xN 資料。 在將團隊聊天資料儲存在雲端型信箱之後，就會針對 eDiscovery 與合規性內容搜尋編制索引。
 

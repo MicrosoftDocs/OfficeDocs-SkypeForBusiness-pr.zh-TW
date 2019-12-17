@@ -19,16 +19,16 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '瞭解手機系統可為您做些什麼。 '
-ms.openlocfilehash: d6bc3d8265059520e3f8448f800de91331e26e01
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: bd17ff93c2327b63920dc4a180277dfce885de0c
+ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37568528"
+ms.lasthandoff: 12/17/2019
+ms.locfileid: "40069394"
 ---
 # <a name="what-is-phone-system-in-office-365"></a>什麼是 Office 365 中的電話系統？
 
-[**電話系統**] 是 Microsoft 技術，可在 Office 365 雲端中使用商務用 Skype Online 和 Microsoft 團隊來啟用呼叫控制和 PBX 功能。 [電話系統] 可讓您將現有的 PBX 系統取代成從 Office 365 提供且已緊密整合到雲端體驗的一組功能。 如需更多有關功能的資訊，請參閱[以下是您在 Office 365 中使用電話系統所取得的內容](here-s-what-you-get-with-phone-system.md)。
+[**電話系統**] 是 Microsoft 技術，可在 Office 365 雲端中使用商務用 Skype Online 和 Microsoft 團隊來啟用呼叫控制和 PBX 功能。 [電話系統] 可讓您將現有的 PBX 系統取代成從 Office 365 提供且已緊密整合到雲端體驗的一組功能。 如需這些功能的詳細資訊，請參閱[以下是您在 Office 365 中使用電話系統所取得的內容](here-s-what-you-get-with-phone-system.md)。
   
 使用電話系統，使用者可以使用商務用 Skype Online 和 Microsoft 團隊來撥打和接聽通話、轉接通話，以及將通話設為靜音或取消靜音。 電話系統使用者可以按一下其通訊錄中的名稱，以及商務用 Skype 或 Microsoft 小組通話該人員。 若要撥打及接聽電話，電話系統使用者可以使用其行動裝置、可擕式電腦或電腦的耳機，或是使用商務用 Skype 和 Microsoft 團隊的許多 IP 電話之一。 [電話系統管理員] 可管理在通訊、共同作業等所用的同一個主控台中的呼叫選項和設定。
   

@@ -19,12 +19,12 @@ f1keywords:
 ms.collection:
 - M365-collaboration
 description: 瞭解如何在您的組織中管理使用者排程的小組會議設定。
-ms.openlocfilehash: cba1a51130a9999ca62c70700a387c88ea1ff58e
-ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
+ms.openlocfilehash: adb1beaa7aff84d2ef51820332bc7f823b124a22
+ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "38746446"
+ms.lasthandoff: 12/17/2019
+ms.locfileid: "40069454"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>在 Microsoft 團隊中管理會議設定
 
@@ -52,7 +52,7 @@ ms.locfileid: "38746446"
 
 1. 建立寬度188不超過30圖元的影像（相當小）。
 2. 將影像儲存為 JPG 或 PNG 格式。
-3. 將影像儲存在您組織中的每個人都可以存取的中央位置，例如網路共用。
+3. 將影像儲存在每一個接收邀請的人都可以存取的位置，例如公用網站。
 
     現在，您可以將它新增到會議邀請。 請參閱後續步驟。
 

@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 37b74c631bc8194037b332e821b29fa61cb6530b
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 8f12b80fa1914166d48860b15cda7a928ca94ece
+ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516756"
+ms.lasthandoff: 12/17/2019
+ms.locfileid: "40069194"
 ---
 # <a name="plan-my-users-experience"></a>規劃我的使用者體驗
 
@@ -41,7 +41,7 @@ Microsoft 團隊擁有可供 web、桌面（Windows 和 Mac）及行動裝置（
 
 在下圖中您可以看到，端點是提供使用者品質體驗的重要組建區塊。
 
-描述三個品質元件的![品質圖表三個元件](media/plan-my-users-experience-image1.png "，以及服務管理如何與所有三個元件重迭的圖表。將焦點放在端點上。")
+![描述三個品質元件的圖表](media/plan-my-users-experience-image1.png "描述三個品質元件的圖表，以及服務管理如何與所有三個元件重迭。將焦點放在端點上。")
 
 團隊端點可以在許多裝置上執行，包括 Pc、Mac、平板電腦和行動裝置。 部分體驗不僅包括裝置，而且使用者如何連線到裝置，例如使用裝置內建的麥克風/喇叭、earbuds 或優化的耳機。 使用優化的耳機可豐富整體使用者體驗。
 
@@ -106,7 +106,9 @@ Microsoft 團隊可以用於會議或作為電話系統。 使用這些功能時
 選取裝置之後，請將它們包含在最終驗證的試驗測試方案中。 在試驗期間利用調查來收集意見反應，以確保您的裝置策略是最佳的。
 
 > [!NOTE]
-> 目前，我們建議使用透過商務用 Skype 認證計畫認證的音訊裝置。 若要尋找此程式下認證的裝置，請參閱[針對商務用 Skype 解決方案目錄認證的 USB 裝置](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs)。
+> 目前，我們建議使用透過商務用 Skype 認證計畫認證的音訊裝置。 若要尋找此程式下認證的裝置，請參閱[Microsoft 團隊裝置](https://products.office.com/en-us/microsoft-teams/across-devices/devices)和[USB 音訊與視頻裝置](https://docs.microsoft.com/SkypeForBusiness/certification/devices-usb-devices)。
+
+
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>決策點</td><td><ul><li>決定您組織的整體裝置策略，以取得使用者和會議室的體驗。</li></ul></td></tr>

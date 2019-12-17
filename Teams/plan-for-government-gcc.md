@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b99941cfcd1622a20304ec9fd8d52143c9690ab9
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: e4228210fa7b6d9518fa060b2bdd555f434ed6f2
+ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573270"
+ms.lasthandoff: 12/17/2019
+ms.locfileid: "40069304"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>規劃 Microsoft 365 政府版-GCC 部署
 
@@ -49,7 +49,7 @@ Microsoft 365 政府版-GCC 環境提供對雲端服務（包括 FedRAMP 適中�
 
 |    |     |
 |-----------|------------|
-| ![描述決策點的圖示](media/audio_conferencing_image7.png) <br/>決策點|<ul><li>決定 Microsoft 365 政府版-GCC 是否適合您的組織。</li><li>確認您的組織符合資格需求。</li></ul> |
+| ![描繪決策點的圖示](media/audio_conferencing_image7.png) <br/>決策點|<ul><li>決定 Microsoft 365 政府版-GCC 是否適合您的組織。</li><li>確認您的組織符合資格需求。</li></ul> |
 
 > [!Note]
 > Microsoft 365 政府版-GCC 僅適用于美國。 非美國政府客戶可以從許多[Office 365 政府方案](https://products.office.com/en/government/compare-office-365-government-plans)中選擇。
@@ -74,22 +74,22 @@ Microsoft 365 政府版-GCC 環境提供對雲端服務（包括 FedRAMP 適中�
 |                             | 功能                     | GCC            |
 |-----------------------------|-----------------------------|----------------|
 | 基本 | Id | 離線 |
-| | 平臺 | 離線 |
+| | 目前狀態 | 離線 |
 | | 整合的目前狀態（商務用 Skype 和小組已統一） | 離線 |
 | 操作 | 複製 | 離線 |
 |  | 我的活動 | 離線 |
-| 交流 | 交談 | 離線 |
-| | Files | 離線 |
+| 聊天 | 交談 | 離線 |
+| | 檔案 | 離線 |
 | | 組織結構 | 離線 |
 | | 操作 | 離線 |
 | | 互通性（1:1 團隊-商務用 Skype 聊天） | 離線 |
-| 協同 | 頻道訊息 | 離線 |
+| Teams | 頻道訊息 | 離線 |
 | | 頻道檔案 | 離線 |
 | | [OneNote] 索引標籤 | 在政府積壓工作 |
 | | 透過電子郵件傳送頻道 | 無法使用 |
 | | 新增成員 | 離線 |
 | | 來賓存取 | 離線 |
-| 舉行 | 排程會議 | 離線 |
+| 會議 | 排程會議 | 離線 |
 | | 加入會議 | 離線 |
 | | VoIP 會議 | 離線 |
 | | 桌面共用 | 離線 |
@@ -100,8 +100,8 @@ Microsoft 365 政府版-GCC 環境提供對雲端服務（包括 FedRAMP 適中�
 | | 會議記事 | 離線 |
 | | 即時事件 | 離線 |
 | | 同盟會議 | 離線 |
-| | Surface Hub 支援 | 無法使用 |
-| 撥 | 聯絡 | 離線 |
+| | Surface Hub 支援 | 離線 |
+| 撥 | 連絡人 | 離線 |
 | | 歷程記錄 | 離線 |
 | | 語音信箱 | 離線 |
 | | VoIP 通話 | 離線 |
@@ -124,12 +124,12 @@ Microsoft 365 政府版-GCC 環境提供對雲端服務（包括 FedRAMP 適中�
 | | 通話和會議的 eDiscovery | 離線 |
 | | 組織自動語音應答 | 離線 |
 | | Skype 消費者-小組通話支援 | 離線 |
-| Files | 近 | 離線 |
-| | Microsoft 團隊 | 離線 |
+| 檔案 | 近 | 離線 |
+| | Microsoft Teams | 離線 |
 | 存放 | App Store | 在政府積壓工作 |
 | 檢索 | 錯誤資訊 | 離線 |
-| | 連絡人 | 離線 |
-| | Files | 離線 |
+| | 人員 | 離線 |
+| | 檔案 | 離線 |
 | | 斜杠命令 | 離線 |
 | 從屬 | 合規性內容搜尋 | 離線 |
 | | 留成 | 離線 |

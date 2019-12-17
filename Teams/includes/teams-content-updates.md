@@ -3,53 +3,6 @@
 
 
 
-## <a name="week-of-november-04-2019"></a>2019年11月4日
-
-
-| 發佈日期 |主題標題 | 切換 |
-|------|------------|--------|
-| 11/4/2019 | [在 Microsoft 團隊中管理您的商務用應用程式](/MicrosoftTeams/manage-your-lob-apps) | 日期 |
-| 11/4/2019 | [在 Microsoft 團隊中共用檔案](/MicrosoftTeams/sharing-files-in-teams) | 日期 |
-| 11/4/2019 | [開啟並使用通話品質儀表板](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) | 日期 |
-| 11/4/2019 | [SharePoint Online 與商務用 OneDrive 與 Microsoft 團隊互動的方式](/MicrosoftTeams/sharepoint-onedrive-interact) | 日期 |
-| 11/4/2019 | [在 Microsoft 團隊中封存或刪除小組](/MicrosoftTeams/archive-or-delete-a-team) | 日期 |
-| 11/4/2019 | [在 Microsoft 團隊中指派小組擁有者和成員](/MicrosoftTeams/assign-roles-permissions) | 日期 |
-| 11/4/2019 | [在 [審核記錄] 中搜尋 Microsoft 團隊中的事件](/MicrosoftTeams/audit-log-events) | 日期 |
-| 11/4/2019 | [在 Microsoft 團隊中組織團隊的最佳做法](/MicrosoftTeams/best-practices-organizing) | 日期 |
-| 11/4/2019 | [在 Microsoft 團隊中使用內容搜尋](/MicrosoftTeams/content-search) | 日期 |
-| 11/4/2019 | [在 Microsoft 團隊中進行 eDiscovery 調查內容](/MicrosoftTeams/ediscovery-investigation) | 日期 |
-| 11/4/2019 | [開始使用 Teams 範本](/MicrosoftTeams/get-started-with-teams-templates) | 日期 |
-| 11/4/2019 | [Microsoft 團隊中的資訊障礙](/MicrosoftTeams/information-barriers-in-teams) | 日期 |
-| 11/4/2019 | [在法律封存上放置 Microsoft 團隊使用者或團隊](/MicrosoftTeams/legal-hold) | 日期 |
-| 11/4/2019 | [管理小組中的訊息傳遞原則](/MicrosoftTeams/messaging-policies-in-teams) | 日期 |
-| 11/4/2019 | [Microsoft 團隊保留原則常見問題](/MicrosoftTeams/retention-policies-faq) | 日期 |
-| 11/4/2019 | [Microsoft 團隊中的保留原則已知問題](/MicrosoftTeams/retention-policies-known-issues) | 日期 |
-| 11/4/2019 | [Microsoft 團隊中的保留原則](/MicrosoftTeams/retention-policies) | 日期 |
-| 11/4/2019 | [Microsoft 團隊中的安全性與合規性概述](/MicrosoftTeams/security-compliance-overview) | 日期 |
-| 11/4/2019 | [Microsoft 團隊中的團隊和頻道概覽](/MicrosoftTeams/teams-channels-overview) | 日期 |
-| 11/4/2019 | [管理 Microsoft 團隊中的團隊原則](/MicrosoftTeams/teams-policies) | 日期 |
-| 11/4/2019 | [為 Microsoft 團隊取得用戶端](/MicrosoftTeams/get-clients) | 日期 |
-| 11/5/2019 | [為 Microsoft 團隊取得用戶端](/MicrosoftTeams/get-clients) | 日期 |
-| 11/5/2019 | [Microsoft 團隊應用程式的硬體需求](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | 日期 |
-| 11/5/2019 | [使用 Exchange Online 部署 Microsoft 團隊聊天室](/MicrosoftTeams/room-systems/with-exchange-online) | 日期 |
-| 11/5/2019 | 在 Microsoft 團隊中共用檔案 | 移除 |
-| 11/5/2019 | [開啟並使用通話品質儀表板](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) | 日期 |
-| 11/5/2019 | [適用于團隊管理員的患者應用程式](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-overview) | 日期 |
-| 11/5/2019 | [Microsoft 團隊會議室需求](/MicrosoftTeams/room-systems/requirements) | 日期 |
-| 11/6/2019 | [巴林中的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bahrain) | 日期 |
-| 11/6/2019 | [Microsoft Teams 的限制和規格](/MicrosoftTeams/limits-specifications-teams) | 日期 |
-| 11/6/2019 | [Teams 中的使用者目前狀態](/MicrosoftTeams/presence-admins) | 日期 |
-| 11/6/2019 | [從商務用 Skype 內部部署（Microsoft 團隊）升級至團隊](/MicrosoftTeams/upgrade-to-teams-on-prem-overview) | 日期 |
-| 11/6/2019 | [使用 XML 設定檔遠端系統管理 Microsoft 團隊聊天室的主控台設定](/MicrosoftTeams/room-systems/content-camera) | 日期 |
-| 11/7/2019 | [管理 Microsoft 團隊中的原則套件](/MicrosoftTeams/manage-policy-packages) | 日期 |
-| 11/7/2019 | [Microsoft 團隊聊天室授權](/MicrosoftTeams/room-systems/skype-room-systems-v2) | 日期 |
-| 11/8/2019 | [電話系統直接路由](/MicrosoftTeams/direct-routing-call-notifications) | 日期 |
-| 11/8/2019 | [使用 XML 設定檔遠端系統管理 Microsoft 團隊聊天室的主控台設定](/MicrosoftTeams/room-systems/xml-config-file) | 日期 |
-| 11/8/2019 | [在 Microsoft 團隊中管理私人頻道的生命週期](/MicrosoftTeams/private-channels-life-cycle-management) | 日期 |
-| 11/8/2019 | [Microsoft 團隊中的私人頻道](/MicrosoftTeams/private-channels) | 日期 |
-| 11/8/2019 | [Microsoft 團隊聊天室授權](/MicrosoftTeams/room-systems/skype-room-systems-v2) | 日期 |
-
-
 ## <a name="week-of-november-11-2019"></a>2019年11月11日
 
 
@@ -196,3 +149,50 @@
 | 12/6/2019 | [Microsoft Teams 訓練](/MicrosoftTeams/training-microsoft-teams-landing-page) | 日期 |
 | 12/6/2019 | [Microsoft 團隊會議室需求](/MicrosoftTeams/room-systems/requirements) | 日期 |
 | 12/6/2019 | [虛擬化桌面基礎結構的團隊](/MicrosoftTeams/teams-for-vdi) | 日期 |
+
+
+## <a name="week-of-december-09-2019"></a>2019年12月9日的周
+
+
+| 發佈日期 |主題標題 | 切換 |
+|------|------------|--------|
+| 12/9/2019 | [在 Microsoft 團隊中使用 Office 365 和自訂連接器](/MicrosoftTeams/office-365-custom-connectors) | 日期 |
+| 12/9/2019 | 在 Microsoft 團隊中新增私人聊天和頻道的機器人 | 移除 |
+| 12/9/2019 | [在 Microsoft 團隊中使用內建和自訂索引標籤](/MicrosoftTeams/built-in-custom-tabs) | 日期 |
+| 12/9/2019 | [Microsoft 團隊中的 app、bot、& 連接器](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | 日期 |
+| 12/9/2019 | [使用 Microsoft 團隊會議室恢復工具](/MicrosoftTeams/room-systems/recovery-tool) | 日期 |
+| 12/9/2019 | [Microsoft 團隊會議室需求](/MicrosoftTeams/room-systems/requirements) | 日期 |
+| 12/9/2019 | [使用 Advisor for Teams (預覽) 協助您推出 Microsoft Teams](/MicrosoftTeams/use-advisor-teams-roll-out) | 日期 |
+| 12/9/2019 | [Microsoft Teams 的已知問題](/MicrosoftTeams/known-issues) | 日期 |
+| 12/9/2019 | [管理 Microsoft 團隊中的呼叫者識別碼原則](/MicrosoftTeams/caller-id-policies) | 日期 |
+| 12/9/2019 | [建立和管理撥號對應表](/MicrosoftTeams/create-and-manage-dial-plans) | 日期 |
+| 12/9/2019 | [為 Microsoft 團隊取得用戶端](/MicrosoftTeams/get-clients) | 日期 |
+| 12/9/2019 | 升級 Pro for Microsoft 團隊\|藍圖 | 移除 |
+| 12/9/2019 | [什麼是撥號對應表？](/MicrosoftTeams/what-are-dial-plans) | 日期 |
+| 12/10/2019 | [在 Microsoft 團隊中為您的組織管理倒班應用程式](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | 日期 |
+| 12/10/2019 | [終止對 Microsoft StaffHub 的支援](/MicrosoftTeams/expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired) | 日期 |
+| 12/10/2019 | [在 Microsoft Teams 中與其他組織的使用者通訊](/MicrosoftTeams/communicate-with-users-from-other-organizations) | 日期 |
+| 12/10/2019 | [Microsoft 團隊應用程式的硬體需求](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | 日期 |
+| 12/10/2019 | [Microsoft 團隊外部（同盟）使用者的原生聊天體驗](/MicrosoftTeams/native-chat-for-external-users) | 日期 |
+| 12/10/2019 | [虛擬化桌面基礎結構的團隊](/MicrosoftTeams/teams-for-vdi) | 日期 |
+| 12/11/2019 | [管理 Microsoft 團隊中的 app 許可權原則](/MicrosoftTeams/teams-app-permission-policies) | 日期 |
+| 12/11/2019 | [管理 Microsoft 團隊中的緊急通話路由原則](/MicrosoftTeams/manage-emergency-call-routing-policies) | 日期 |
+| 12/11/2019 | [管理 Microsoft 團隊中的緊急通話原則](/MicrosoftTeams/manage-emergency-calling-policies) | 日期 |
+| 12/11/2019 | [版本資訊](/MicrosoftTeams/room-systems/srs2-release-note) | 日期 |
+| 12/12/2019 | [管理 Microsoft 團隊中的呼叫者識別碼原則](/MicrosoftTeams/caller-id-policies) | 日期 |
+| 12/12/2019 | [管理 Microsoft 團隊中的緊急通話路由原則](/MicrosoftTeams/manage-emergency-call-routing-policies) | 日期 |
+| 12/12/2019 | [管理 Microsoft 團隊中的緊急通話原則](/MicrosoftTeams/manage-emergency-calling-policies) | 日期 |
+| 12/12/2019 | [管理 Microsoft 團隊中的意見反應原則](/MicrosoftTeams/manage-feedback-policies-in-teams) | 日期 |
+| 12/12/2019 | [透過 SCCM 使用 MSI 安裝 Microsoft 團隊](/MicrosoftTeams/msi-deployment) | 日期 |
+| 12/12/2019 | [Microsoft 團隊的敏感度標籤](/MicrosoftTeams/sensitivity-labels) | 日期 |
+| 12/12/2019 | [在 Microsoft 團隊中管理 app 設定原則](/MicrosoftTeams/teams-app-setup-policies) | 日期 |
+| 12/12/2019 | [管理 Microsoft 團隊中的團隊原則](/MicrosoftTeams/teams-policies) | 日期 |
+| 12/12/2019 | [設定直接路由](/MicrosoftTeams/direct-routing-configure) | 日期 |
+| 12/12/2019 | [為 Microsoft 團隊取得用戶端](/MicrosoftTeams/get-clients) | 日期 |
+| 12/13/2019 | [Exchange 與 Microsoft 團隊如何互動](/MicrosoftTeams/exchange-teams-interact) | 日期 |
+| 12/13/2019 | [在 Microsoft Teams 中授權來賓存取](/MicrosoftTeams/teams-dependencies) | 日期 |
+| 12/13/2019 | [設定直接路由](/MicrosoftTeams/direct-routing-configure) | 日期 |
+| 12/13/2019 | [Microsoft 團隊應用程式的硬體需求](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | 日期 |
+| 12/13/2019 | [Microsoft 團隊中的私人頻道](/MicrosoftTeams/private-channels) | 日期 |
+| 12/13/2019 | [虛擬化桌面基礎結構的團隊](/MicrosoftTeams/teams-for-vdi) | 日期 |
+| 12/13/2019 | [使用 Advisor for Teams (預覽) 協助您推出 Microsoft Teams](/MicrosoftTeams/use-advisor-teams-roll-out) | 日期 |

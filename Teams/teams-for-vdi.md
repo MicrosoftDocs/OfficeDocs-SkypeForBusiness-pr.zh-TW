@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fd9440ce7c4d35af28e577c9d9e01845f298ef01
-ms.sourcegitcommit: c15ab82834005b9a19247e06488f1f21161fc426
+ms.openlocfilehash: 4c63195f4732931083a12a455b79d77d9c1e6b01
+ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/13/2019
-ms.locfileid: "40020057"
+ms.lasthandoff: 12/17/2019
+ms.locfileid: "40069344"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>虛擬化桌面基礎結構的團隊
 
@@ -128,12 +128,12 @@ Office 365 專業增強版不支援小組的每電腦安裝。 若要使用 [每
 
 ### <a name="deploy-the-teams-desktop-app-to-the-vm"></a>將團隊桌面應用程式部署到 VM
 
-1. 使用下列其中一個連結，下載與您的 VDI VM 作業系統相符的團隊 MSI 套件。
+1. 使用下列其中一個連結，下載與您的 VDI VM 作業系統相符的團隊 MSI 套件：
 
-    - [32位版本](https://statics.teams.microsoft.com/production-windows/1.2.00.32462/Teams_windows.msi)
-    - [64位版本](https://statics.teams.microsoft.com/production-windows-x64/1.2.00.32462/Teams_windows_x64.msi)
+    - [32位版本](https://statics.teams.cdn.office.net/production-windows/1.2.00.32462/Teams_windows.msi)
+    - [64位版本](https://statics.teams.cdn.office.net/production-windows-x64/1.2.00.32462/Teams_windows_x64.msi)
 
-    所需的小組桌面應用程式最低版本為版本1.2.00.31357。 （較舊版本不支援 PSTN 保留）
+    所需的小組桌面應用程式最低版本為版本1.2.00.31357。 （舊版中不支援 PSTN 保留。）
 
 2. 執行下列其中一項命令，將 MSI 安裝到 VDI VM：
 
@@ -155,14 +155,13 @@ Office 365 專業增強版不支援小組的每電腦安裝。 若要使用 [每
  
         下次互動式登入會話會啟動團隊並要求認證。
 
-3. 從 VDI VM 卸載 MSI 
+3. 從 VDI VM 卸載 MSI。 
 
-    有兩種方式可以卸載小組。  
+    有兩種方式可以卸載團隊：  
   
     - PowerShell 腳本（建議使用）：您可以使用此[PowerShell 腳本](scripts/powershell-script-teams-deployment-clean-up.md)，從目的電腦或使用者清理團隊。 它應該針對目的電腦上的每位使用者執行。 
     
-    - 命令列：此方法會移除團隊，但不會重新安裝團隊。  
-    執行下列命令：
+    - 命令列：此方法會移除團隊，但不會重新安裝團隊。 執行下列命令：
   
       ```
       msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name>
@@ -218,7 +217,7 @@ Office 365 專業增強版不支援小組的每電腦安裝。 若要使用 [每
 
 ### <a name="teams-on-chrome-browser-versus-teams-desktop-app-for-vdi"></a>Chrome 瀏覽器上的小組與 VDI 的小組桌面應用程式
 
-Chrome 瀏覽器上的小組無法使用 AV 優化來為 VDI 的小組桌面應用程式提供取代。 聊天與共同作業體驗會如期運作。 需要媒體時，有一些經驗可能無法在 Chrome 瀏覽器中滿足使用者的預期。
+Chrome 瀏覽器上的小組無法使用 AV 優化來為 VDI 的小組桌面應用程式提供取代。 聊天與共同作業體驗會如期運作。 需要媒體時，有一些經驗可能無法在 Chrome 瀏覽器中滿足使用者的預期：
 
 - 音訊與視頻資料流程體驗可能不是最佳的。 使用者可能會遇到延遲或降低品質。
 - 在瀏覽器設定中無法使用裝置設定。

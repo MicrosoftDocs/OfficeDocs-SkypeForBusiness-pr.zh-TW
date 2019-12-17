@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: 本文將討論 Microsoft 團隊聊天室中的累加性改進。
-ms.openlocfilehash: 721acfeb04512a75da225a4c638f15e13b4d5d65
-ms.sourcegitcommit: 4093a3e0d4c72777057d78ab06dc7d49d826c5de
+ms.openlocfilehash: 222a4737085c7201c3452ed9735cb5bee5689ff1
+ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2019
-ms.locfileid: "39987856"
+ms.lasthandoff: 12/17/2019
+ms.locfileid: "40069314"
 ---
 # <a name="release-notes"></a>版本資訊
 
@@ -27,7 +27,7 @@ ms.locfileid: "39987856"
 
 |最新發佈 |已發佈至 <br/> Microsoft 網上商店 |
 |--- |--- |
-|4.3.21.0 |12/09/2019 |
+|4.3.23.0 |12/13/2019 |
 |4.2.4.0 |10/07/2019 |
 |4.1.22.0 |08/15/2019 |
 |4.0.105.0 |07/10/2019 |
@@ -58,7 +58,7 @@ ms.locfileid: "39987856"
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft 團隊聊天室功能簡介和問題解決
 
-### <a name="43210-12092019"></a>4.3.21.0 （12/09/2019）
+### <a name="43230-12132019"></a>4.3.23.0 （12/13/2019）
 
 此更新中引入的專案：
 
@@ -66,7 +66,7 @@ ms.locfileid: "39987856"
 - [關於] 索引標籤上新增裝置配置，即可重新整理裝置管理員設定 UI
 - 會議室控制項回到主畫面
 - 在 GCC 中提供會議室 SKU
-- Surface Pro 系統的內容攝影機支援 
+- Surface Pro 系統的內容攝影機支援（最低所需的應用程式組建：4.2.4.0）
 
 ### <a name="4240-10072019"></a>4.2.4.0 （10/07/2019）
 
