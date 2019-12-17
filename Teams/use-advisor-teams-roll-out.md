@@ -18,12 +18,12 @@ f1keywords:
 - ms.teamsadmincenter.deploymentadvisor.overview
 ms.custom: ''
 description: 使用 Advisor for Teams (預覽) 協助您規劃和完成您的 Microsoft Teams 部署。
-ms.openlocfilehash: 63a3ae01dbe47323fd9227e65fa8c38a2d725ddf
-ms.sourcegitcommit: dc70fd277d9542d831741e14dba9ae22367210ae
+ms.openlocfilehash: 22b38da39ff0649077a8f4b388e4ffb39272824c
+ms.sourcegitcommit: da1327ce289afee32585dc2c7e7ac81823379975
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/09/2019
-ms.locfileid: "39909469"
+ms.lasthandoff: 12/14/2019
+ms.locfileid: "40032812"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>使用 Advisor for Teams 協助您推出 Microsoft Teams
 
@@ -31,19 +31,21 @@ ms.locfileid: "39909469"
 
 Advisor for Teams (預覽) 會引導您完成 Microsoft Teams 的推廣。 在您成功推出 Teams 前，Advisor for Teams 會評估您的 Office 365 租用戶環境，找出可能需要更新或修改的最常用設定。 接著，Advisor for Teams 會建立部署團隊 (在 Teams 中)，並為您要推出的每個工作負載建立頻道。部署團隊中的每項工作負載隨附有全方位的 Planner 計劃，其中包含每個工作負載的所有推出工作。  您可以使用此 Planner 計劃，將工作指派給每個推廣階段的負責人，包括專案經理、Teams 和 Office 365 系統管理員、支援人員，以及您的採用和使用者整備團隊。 每項推廣工作都包含所有您成功完成工作所需的指引和資源。
 
-Advisor for Teams 是 [Teams 系統管理中心](https://admin.teams.microsoft.com)的功能之一。 首次若要使用 Advisor for Teams，在儀表板上，按一下 **[部署 Teams 工作負載]** 小工具中的 **[啟動]** 按鈕。 或移至 **[Planning]** > **[Advisor]**。
+Advisor for Teams 是 [Teams 系統管理中心](https://admin.teams.microsoft.com)的功能之一。 您至少會需要 Office 365 商務基本版授權，才能運用 Advisor for Teams 和 Forms 與 Planner 的整合。 若要開始使用 Advisor for Teams，請在儀表板上按一下 **[部署 Teams 工作負載]** 小工具中的 **[啟動]** 按鈕。 或移至 **[Planning]** > **[Advisor]**。
 
 > [!IMPORTANT]
 > Advisor for Teams 不適用於 Microsoft 365 政府版 - GCC High 或 DoD 部署。
 
-在此 [部署和設定 Teams 的簡介](https://youtu.be/o2mlsUubIO4?t=44)影片中了解 Advisor for Teams (Advisor for Teams 在 0:50-3:15 分處)。
+如需 Advisor for Teams 的逐步指導，請參閱[部署及設定 Microsoft Teams](https://youtu.be/o2mlsUubIO4?t=50) Microsoft Mechanics 影片。
 
 ## <a name="using-advisor-for-teams-preview"></a>使用 Advisor for Teams (預覽)
 
-若要使用 Advisor for Teams，您不必成為 Teams 系統管理員，組織中的任何人都能使用。 我們已設定特殊權限，讓非系統管理員的使用者可以使用 Advisor for Teams，即使 Advisor for Teams 位於 Teams 系統管理中心亦可。 您「必須」是 Teams 系統管理員、Teams 服務系統管理員或全域系統管理員，才能開啟租用戶整備評估。
+若要使用 Advisor for Teams，您不必成為 Teams 系統管理員，組織中的任何人都能使用。 我們已設定特殊權限，讓非系統管理員的使用者可以使用 Advisor for Teams，即使 Advisor for Teams 位於 Teams 系統管理中心亦可。 您必須是 Teams 系統管理員、Teams 服務管理員或全域管理員，才能開啟租用戶整備評估 (這是因為特殊的非管理員角色無法存取位於評估底層的 Microsoft Graph API)。
 
-第一次使用 Advisor for Teams 時，Advisor for Teams 會在 Teams 中為您建立部署團隊。 針對您要推出的每個工作負載新增頻道。 
+第一次使用 Advisor for Teams 時，Advisor for Teams 會在 Teams 中為您建立部署團隊。 並針對您選取的每個工作負載新增頻道。
 
+> [!IMPORTANT]
+> 如果部署團隊已建立，而其他使用者嘗試建立，則會發生錯誤，通知他們與支援小組聯繫。 這可防止 Teams 意外公開現有團隊及其成員的相關資訊。 請要求部署團隊的擁有者新增您，或與支援人員聯繫以取得協助。
 
 ## <a name="available-advisor-for-teams-plans"></a>可使用的 Advisor for Teams 方案
 
@@ -53,50 +55,62 @@ Advisor for Teams 是 [Teams 系統管理中心](https://admin.teams.microsoft.c
     - 租用戶評估
     - Planner 計劃，包括採用工作
     - Forms 使用者問卷
+    - Advisor for Teams Bot
 1. 會議和研討會
     - 租用戶評估
     - Planner 計劃，包括採用工作
     - Forms 使用者問卷
+    - Advisor for Teams Bot
 
-我們建議您從交談、團隊、頻道和應用程式的方案開始。 您完成該工作負載的部署後，請返回 [Advisor]，按一下 **[新增頻道]** 以開始下一項工作負載。 
+我們建議您從交談、團隊、頻道和應用程式的方案開始。 您完成該工作負載的部署後，請返回 Advisor for Teams，按一下 **[新增頻道]** 以開始下一項工作負載。
 
 ## <a name="tenant-assessment"></a>租用戶評估
-每個方案都包含租用戶整備評估，可讓您在推出 Teams 前，用來找出並修復環境中任何不足之處。 以下是每項評估的檢查項目：
+每個方案都包含租用戶整備評估，可讓您在推出 Teams 前快速識別任何可能需要修復的環境問題。 評估包括必要條件與最佳做法。 每個評估測試都會顯示綠色核取記號或橙色警告三角形。 
 
-### <a name="chat-teams-channels-and-apps"></a>交談、團隊、頻道和應用程式
+- <sub><img src="media/use-advisor-teams-roll-out-image2.png" alt="Green check mark"/></img></sub>綠色核取記號表示租用戶已通過特定測試。 
+- <sub><img src="media/use-advisor-teams-roll-out-image1.png" alt="Yellow alert mark"/></img></sub>橙色警告三角形表示我們建議您追蹤以判斷是否需要任何動作 (例如，建議使用 Office 365 群組到期原則，但非必須)。
 
+> [!IMPORTANT]
+> 擁有系統管理員角色的使用者啟動 Advisor for Teams 後，所有評估都會在背景執行。 如果您進行更新或修補，這些內容可能不會在最多 24 小時內反映到評估中。 這只是暫時的，只要 Advisor for Teams 離開預覽版並公開發布，評估便會即時更新。
 
-|評估  |代表意義  |
+下列各節說明每項評估，包括是否有任何一項是必要條件或最佳做法、每項評估檢查的執行方式和理由，並視需要提供修補指引。
+
+### <a name="assessment-tests-for-all-workloads"></a>所有工作負載的評估測試
+
+|評估測試  |代表意義  |
 |---------|---------|
-|Teams 授權     |您的可用 Teams 授權是否為有效訂閱 |
-|Exchange 授權     |您的可用 Exchange Online 授權是否為有效訂閱。 雖然 Exchange 並非 Teams 基本功能的必要項目，但是與 Exchange 整合可以提供最佳的 Teams 體驗。         |
-|SharePoint Online 授權     | 您的可用 SharePoint Online 授權是否為有效訂閱。 每位使用者都需要一個 SharePoint Online 授權才能使用檔案儲存空間、頻道共同作業及交談。 
-|已啟用來賓存取     |Teams 中的來賓存取是否已開啟。 來賓存取的 Azure Active Directory 設定未檢閱。   |
-|已設定虛名網域     |您的租用戶是否有設定非 @onmicrosoft.com 的網域  |
-|已設定 Office 365 群組命名標準     | 是否已針對 Office 365 群組設定命名標準        |
-|已設定 Office 365 群組到期原則     |  是否已為 Office 365 群組定義群組過期原則。 如果未設定，該值會設為永不過期。        |
-|已設定外部存取     |如果已開啟外部存取，則您可以在 Teams 中與外部組織進行溝通。          |
+|已設定虛名網域     |您的租用戶是否有設定非 @onmicrosoft.com 的網域 (例如 @contoso.onmicrosoft.com)。 當然，您可以選擇使用 @onmicrosoft.com 網域或設定虛名網域。 如需詳細資訊，請參閱[新增網域至 Office 365](https://docs.microsoft.com/office365/admin/setup/add-domain)。 |
+|Teams 授權     |這是必要條件，您**必須具有** Teams 授權才能推出 Teams。 查詢 Microsoft Graph，查看您是否具有 Teams 授權 (至少有一個授權可供指派)。 如需詳細資訊，請參閱 [Teams 的 Office 365 授權](https://docs.microsoft.com/microsoftteams/office-365-licensing)。    |
+|Exchange Online 授權     |您的可用 Exchange Online 授權是否為有效訂閱。 雖然 Exchange 並非 Teams 基本功能的必要項目，但是與 Exchange 整合可以提供最佳的 Teams 體驗。 查詢 Microsoft Graph 以分析與租用戶相關聯的訂閱，並驗證您是否具有合格的 Exchange Online 授權訂閱 (至少有一個授權可供指派)。 如需詳細資訊，請參閱 [Exchange 和 Teams 如何互動](exchange-teams-interact.md)。    |
+|SharePoint Online 授權     |您的可用 SharePoint Online 授權是否為有效訂閱。 我們建議採用每位使用者 SharePoint Online 授權，以便在聊天中提供商務用 OneDrive 用於檔案儲存。 查詢 Microsoft Graph，查看您是否具有 SharePoint Online 授權 (至少有一個授權可供指派)。 如需詳細資訊，請參閱 [Sharepoint 和商務用 OneDrive 如何與 Teams 互動](https://docs.microsoft.com/microsoftteams/sharepoint-onedrive-interact)。    |
+|已啟用來賓存取     |是否已開啟[來賓存取](guest-access.md)。 來賓存取可讓您邀請外部使用者加入您的團隊。 使用 [Teams 來賓存取檢查清單](guest-access-checklist.md)逐步引導您開啟 Teams 中的來賓存取；此檢查清單包含所需的 Azure AD 組態。 |
+|已設定外部存取     |是否已開啟[外部存取](manage-external-access.md)。 預設為開啟，並採用開放式同盟。 |
 
-### <a name="meetings-and-conferencing"></a>會議和研討會
+### <a name="assessments-for-chat-teams-channels-and-apps"></a>聊天、團隊、頻道和應用程式評估
 
+除了[所有工作負載的評估測試](#assessment-tests-for-all-workloads)，還會針對聊天、團隊、頻道和應用程式工作負載執行下列額外的評估：
 
-|評估  |代表意義  |
+|評估測試  |代表意義  |
 |---------|---------|
-|Teams 授權     |您的可用 Teams 授權是否為有效訂閱 |
-|Exchange 授權     |您的可用 Exchange Online 授權是否為有效訂閱。 雖然 Exchange 並非 Teams 基本功能的必要項目，但是與 Exchange 整合可以提供最佳的 Teams 體驗。 |
-|音訊會議授權    |您的音訊會議授權是否為有效訂閱 |
-|Stream 授權     |您的 Stream 授權是否為有效訂閱，該授權可以在需要會議錄製時使用。 |
-|來賓存取     |Teams 中的來賓存取是否已開啟。 來賓存取的 Azure Active Directory 設定未檢閱。|
-|虛名網域     |您的租用戶是否有設定非 @onmicrosoft.com 的網域。  |
-|外部存取     |如果已開啟外部存取，則您可以在 Teams 中與外部組織進行溝通。 |
+|已設定 Office 365 群組命名原則     |是否已針對 Office 365 群組設定命名標準。 Office 365 群組命名原則可讓貴組織為使用者建立的團隊套用一致的命名策略，也適用於其他群組工作負載 (包括 Outlook、SharePoint、Planner 和 Yammer)。 此測試會經由 Microsoft Graph 查詢 Azure AD，以檢查適用於 Office 365 群組的命名原則是否存在。 如需詳細資訊，請參閱 [Office 365 群組命名原則](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy)。    |
+|已設定 Office 365 群組到期原則     |是否已為 Office 365 群組定義群組到期原則。 這能讓貴組織自動移除非作用中的團隊。 預設為關閉。 此測試經由 Microsoft Graph 查詢 Azure AD，並報告是否已修改預設值。 如需詳細資訊，請參閱 [Office 365 群組到期原則](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups-expiration-policy)。    |
 
+### <a name="assessments-for-meetings-and-conferencing"></a>會議和研討會評估
 
-### <a name="advisor-bot"></a>Advisor Bot
-Advisor 建立部署團隊後，Advisor Bot 會傳遞下列訊息。
+除了[所有工作負載的評估測試](#assessment-tests-for-all-workloads)，還會針對會議和研討會工作負載執行下列額外的評估：
+
+|評估測試  |代表意義  |
+|---------|---------|
+|音訊會議授權    |您的音訊會議授權是否為有效訂閱。 如果您要部署音訊會議橋接器，這是必要條件。 查詢 Microsoft Graph，查看您是否具有音訊會議授權 (至少有一個授權可供指派)。如需詳細資訊，請參閱 [Teams 附加元件授權](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。    |
+|Stream 授權     |您是否有使用 Microsoft Stream 授權的有效訂閱。 如果您要開啟會議錄製，這是必要條件。 查詢 Microsoft Graph，查看您是否具有 Microsoft Stream 授權 (至少有一個授權可供指派)。 如需有關 Stream 和開啟方式的詳細資訊，請參閱 [Teams 雲端會議錄製](cloud-recording.md)。
+
+### <a name="advisor-for-teams-bot"></a>Advisor for Teams Bot
+
+Advisor for Teams 建立部署團隊後，Advisor Bot 會在 [一般] 頻道傳遞下列訊息：
 
 >**歡迎使用 Microsoft Teams 的部署團隊！**
 >  
->此團隊的目的是引導您完成您組織的 Teams 推廣，給予您所有需要的資源並提供共同作業空間給專案團隊使用。 使用 Advisor for Teams 建立的每個頻道都包含有逐步的 Planner 規劃和其他資源，例如可在推廣期間使用的 Forms 使用者問卷。 您可以隨時返回並檢閱租用戶整備評估，或是使用 Teams 系統管理中心新增額外的工作負載計劃。 
+>此團隊的目的是引導您完成您組織的 Teams 推廣，給予您所有需要的資源並提供共同作業空間給專案團隊使用。 使用 Advisor for Teams 建立的每個頻道都包含有逐步的 Planner 規劃和其他資源，例如可在推廣期間使用的 Forms 使用者問卷。 您可以隨時返回並檢閱租用戶整備評估，或是使用 Teams 系統管理中心新增額外的工作負載計劃。
 > 
 >**行動信號** 
 >- 如果您剛開始使用 Teams 或 Planner，請參閱我們的 [Teams 逐步解說](https://teamsdemo.office.com/) 並觀賞 [Planner 快速入門影片](https://support.office.com/article/microsoft-planner-video-training-4d71390f-08d8-4db0-84ea-92fb078687c7)。 
@@ -104,19 +118,19 @@ Advisor 建立部署團隊後，Advisor Bot 會傳遞下列訊息。
 > 
 >若要深入了解 Advisor for Teams，請閱讀 [使用 Advisor for Teams 推出 Microsoft Teams](use-advisor-teams-roll-out.md)。
 >
+
 > [!IMPORTANT]
 > Advisor for Teams Bot 只能用來傳遞歡迎訊息給部署團隊。 不會收集額外的資料。
 
 > [!IMPORTANT]
-> Advisor for Teams Bot 依預設為啟用。 如果您使用或規劃要使用 Advisor for Teams，則請勿停用此功能。
-
+> Advisor for Teams Bot 依預設為開啟。 如果您使用或計劃使用 Advisor for Teams，則請勿關閉此功能。
 
 ## <a name="frequently-asked-questions"></a>常見問題集
 ### <a name="what-are-the-licensing-requirements-for-advisor-for-teams"></a>Advisor for Teams 的授權需求為何？
-除了 Teams 的授權之外，沒有其他額外的授權需求。
+您至少會需要 Office 365 商務基本版，才能運用 Advisor for Teams 和 Forms 與 Planner 的整合。
 
 ### <a name="can-i-delete-the-deployment-team"></a>我可以刪除部署團隊嗎？
-在 Advisor for Teams 建立您的部署團隊後，請像管理其他團隊一樣管理該團隊，包括刪除團隊。 請注意，如果您不是使用 Teams 系統管理中心刪除團隊，系統會報告該團隊依然存在。
+在 Advisor for Teams 建立您的部署團隊後，請像管理其他團隊一樣管理該團隊，包括刪除團隊。 請注意，如果您不是使用 Teams 系統管理中心刪除團隊，Teams 系統管理中心會顯示該團隊依然存在。 這只是暫時的，Advisor for Teams 離開預覽期間並公開發布時，便會修正此問題。
 
 ### <a name="can-i-add-or-remove-channels-in-the-deployment-team"></a>我是否可以在部署團隊中新增或移除頻道？
 可以，部署團隊建立後，您就能使用與其他任何團隊相同的方式管理頻道。
@@ -126,7 +140,6 @@ Advisor 建立部署團隊後，Advisor Bot 會傳遞下列訊息。
 
 ### <a name="can-i-modify-the-planner-plans"></a>我可以修改 Planner 計劃嗎？
 是的，Advisor for Teams 建立部署團隊後，您應該更新 Planner 計劃，使這項計劃能夠完全支援 Teams 的推出。 您可以修改任何項目，如目標區、工作、工作詳細資訊，就像其他任何 Planner 計劃一樣。
-
 
 ### <a name="can-i-modify-the-forms-survey"></a>我可以修改 Forms 問卷嗎？
 可以，Advisor for Teams 建立部署團隊後，您可以視需要修改 Forms 問卷。
@@ -149,3 +162,6 @@ Advisor for Teams 會尋求您的同意才收集非 EUII (使用者識別資訊)
 ## <a name="related-topics"></a>相關主題
 
 [如何推出 Teams](How-to-roll-out-teams.md)
+
+[用於授權的產品名稱和服務方案識別碼](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference
+) 
