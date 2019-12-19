@@ -20,12 +20,12 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: 瞭解如何在團隊中管理會議原則設定。
-ms.openlocfilehash: 1407e18387aac5ae9ad5bdaa894d738f48fb3b42
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: ba44188d978c9109d1ba3d038c5b1f48d0670746
+ms.sourcegitcommit: 43cab5f0fc8692174db09badf3d448e8ff6a50d6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37564963"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40744867"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>在團隊中管理會議原則
 
@@ -34,7 +34,7 @@ ms.locfileid: "37564963"
 
 您可以透過下列方式來實施原則，這會影響使用者在會議開始之前、會議期間或會議之後的會議體驗。
 
-|實現類型  |說明  |
+|實現類型  |描述  |
 |---------|---------|
 |每個召集人    |當您實施每個召集人原則時，所有會議參與者都會繼承召集人的原則。 例如，**自動承認人員**是每個召集人原則，並控制使用者是否要直接加入會議，或在會議廳中等待指派原則的使用者所排程的會議。          |
 |每位使用者    |當您執行每個使用者的原則時，只會套用每個使用者的原則，以限制召集人和/或會議參與者的特定功能。 例如，[**允許立即開會**] 是每個使用者的原則。     |
@@ -95,7 +95,7 @@ ms.locfileid: "37564963"
 ## <a name="meeting-policy-settings---general"></a>會議原則設定-一般
 
 - [允許頻道中的 [立即開會]](#allow-meet-now-in-channels)
-- [允許私人 [立即開會] （即將推出）](#allow-private-meet-now-coming-soon)
+- [允許私人 [立即開會]](#allow-private-meet-now)
 - [允許 Outlook 增益集](#allow-the-outlook-add-in)
 - [允許頻道會議排程](#allow-channel-meeting-scheduling)
 - [允許排程私人會議](#allow-scheduling-private-meetings)
@@ -106,7 +106,7 @@ ms.locfileid: "37564963"
 
 ![顯示郵件下方 [立即開會] 圖示的螢幕擷取畫面](media/meeting-policies-meet-now.png)
 
-### <a name="allow-private-meet-now-coming-soon"></a>允許私人 [立即開會] （即將推出）
+### <a name="allow-private-meet-now"></a>允許私人 [立即開會]
 
 這是針對每個使用者的原則，在會議開始之前就會套用。 此設定可控制使用者是否能開始即席私人會議。  
 
@@ -138,7 +138,7 @@ ms.locfileid: "37564963"
 
 - [允許進行文字](#allow-transcription)
 - [允許雲端錄製](#allow-cloud-recording)
-- [允許 IP 影片](#allow-ip-video)
+- [允許 IP 視訊](#allow-ip-video)
 - [媒體位元速率（KBs）](#media-bit-rate-kbs)
 - [啟用即時標題（預覽版本）](#enable-live-captions-preview)
 
@@ -160,7 +160,7 @@ ms.locfileid: "37564963"
 
 我們來看看下列範例。
 
-|使用者名 |會議原則  |允許雲端錄製 |
+|使用者 |會議原則  |允許雲端錄製 |
 |---------|---------|---------|
 |Daniela | 全域   | 虛假 |
 |Amanda | Location1MeetingPolicy | 滿足|
@@ -170,7 +170,7 @@ ms.locfileid: "37564963"
 
 若要深入瞭解雲端會議錄製，請參閱[小組雲端會議錄製](cloud-recording.md)。
 
-### <a name="allow-ip-video"></a>允許 IP 影片
+### <a name="allow-ip-video"></a>允許 IP 視訊
 
 這是每個組織單位和每個使用者原則的組合。 影片是會議的關鍵元件。 在某些組織中，系統管理員可能會想要進一步控制哪些使用者的會議擁有影片。 此設定控制是否能在使用者託管的會議中以及使用者開始的1:1 通話和群組通話中開啟影片。 在已啟用此原則的使用者組織的會議中，如果會議參與者也已啟用原則，則允許會議參與者在會議中進行影片共用。 沒有指派任何原則的會議參與者（例如匿名及同盟參與者）會繼承會議召集人的原則。
 
@@ -178,7 +178,7 @@ ms.locfileid: "37564963"
 
 我們來看看下列範例。
 
-|使用者名 |會議原則  |允許 IP 影片 |
+|使用者 |會議原則  |允許 IP 影片 |
 |---------|---------|---------|
 |Daniela   | 全域   | 滿足        |
 |Amanda    | Location1MeetingPolicy        | 虛假      |
@@ -213,7 +213,7 @@ ms.locfileid: "37564963"
 
 ## <a name="meeting-policy-settings---content-sharing"></a>會議原則設定-內容共用
 
-- [螢幕共用模式](#screen-sharing-mode)
+- [螢幕畫面分享模式](#screen-sharing-mode)
 - [允許參與者授與要求控制](#allow-a-participant-to-give-or-request-control)
 - [允許外部參與者授與或要求控制](#allow-an-external-participant-to-give-or-request-control)
 - [允許 PowerPoint 共用](#allow-powerpoint-sharing)
@@ -221,7 +221,7 @@ ms.locfileid: "37564963"
 - [允許共用筆記](#allow-shared-notes)
 - [允許在會議中聊天（即將推出）](#allow-chat-in-meetings-coming-soon)
 
-### <a name="screen-sharing-mode"></a>螢幕共用模式
+### <a name="screen-sharing-mode"></a>螢幕畫面分享模式
 
 這是每個組織單位和每個使用者原則的組合。 此設定控制使用者的會議是否允許桌面和/或視窗共用。 沒有指派任何原則的會議參與者（例如，匿名、來賓、B2B 及同盟參與者）會繼承會議召集人的原則。
 
@@ -233,7 +233,7 @@ ms.locfileid: "37564963"
 
 我們來看看下列範例。
 
-|使用者名 |會議原則 |螢幕共用模式 |
+|使用者 |會議原則 |螢幕畫面分享模式 |
 |---------|---------|---------|
 |Daniela  | 全域   | 整個畫面 |
 |Amanda   | Location1MeetingPolicy  | 禁止 |
@@ -256,7 +256,7 @@ Daniela 託管的會議可讓會議參與者共用整個螢幕或特定的應用
 
 我們來看看下列範例。
 
-|使用者名 |會議原則  |允許參與者授與要求控制 |
+|使用者 |會議原則  |允許參與者授與要求控制 |
 |---------|---------|---------|
 |Daniela   | 全域   | 滿足       |
 |Babek    | Location1MeetingPolicy        | 虛假   |
@@ -280,7 +280,7 @@ Daniela 可以將共用桌面或視窗控制權提供給依 Babek 組織的會�
 
 我們來看看下列範例。
 
-|使用者名 |會議原則  |允許 PowerPoint 共用 |
+|使用者 |會議原則  |允許 PowerPoint 共用 |
 |---------|---------|---------|
 |Daniela   | 全域   | 滿足       |
 |Amanda   | Location1MeetingPolicy        | 虛假   |
@@ -293,7 +293,7 @@ Amanda 無法在會議中共用 PowerPoint 投影片卡座，即使她是會議�
 
 我們來看看下列範例。
 
-|使用者名 |會議原則  |允許白板|
+|使用者 |會議原則  |允許白板|
 |---------|---------|---------|
 |Daniela   | 全域   | 滿足       |
 |Amanda   | Location1MeetingPolicy        | 虛假   |
@@ -306,7 +306,7 @@ Amanda 無法在會議中共用白板，即使她是會議召集人也一樣。 
 
 我們來看看下列範例。
 
-|使用者名 |會議原則  |允許共用筆記 |
+|使用者 |會議原則  |允許共用筆記 |
 |---------|---------|---------|
 |Daniela   | 全域   | 滿足       |
 |Amanda   | Location1MeetingPolicy | 虛假 |
@@ -387,8 +387,6 @@ Daniela 可以在 Amanda 的會議中記錄筆記，而 Amanda 無法在任何�
 |   | 貴組織中的每個人     |在大廳等候         |
 |   | 貴組織和聯盟組織中的每個人      | 在大廳等候         |
 
-
-[整篇文章](meeting-policies-in-teams.md)
 
 ## <a name="related-topics"></a>相關主題
 [小組中的訊息原則](messaging-policies-in-teams.md)

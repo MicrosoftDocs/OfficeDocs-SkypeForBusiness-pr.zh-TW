@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 71060818ceb826249cb726264c9533172edd1c39
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 12ef34ed9a4602f747b706c08586ecfe5854dcf4
+ms.sourcegitcommit: 43cab5f0fc8692174db09badf3d448e8ff6a50d6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573281"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40744857"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-high-deployments"></a>規劃 Microsoft 365 政府-GCC 高部署
 
@@ -40,7 +40,7 @@ Microsoft 365 政府版-GCC 高環境提供與美國雲端服務政府需求相�
 
 您可以在[Office 365 政府版方案](https://products.office.com/government/compare-office-365-government-plans)（包括[資格需求](https://products.office.com/government/compare-office-365-government-plans#EligibilityRequirements)）中找到有關適用于美國政府客戶的 Microsoft 365 政府版產品的詳細資訊。
 
-[ [Office 365 美國政府服務描述](https://docs.microsoft.com/en-us/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government)] 描述的是平臺的優點，這些好處是在美國內滿足合規性需求的中心。
+[ [Office 365 美國政府服務描述](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government)] 描述的是平臺的優點，這些好處是在美國內滿足合規性需求的中心。
 
 
 > [!Tip]
@@ -49,7 +49,7 @@ Microsoft 365 政府版-GCC 高環境提供與美國雲端服務政府需求相�
 
 |    |     |
 |-----------|------------|
-| ![描述決策點的圖示](media/audio_conferencing_image7.png) <br/>決策點|<ul><li>決定 Microsoft 365 政府版-GCC 高是否適合您的組織。</li><li>確認您的組織符合資格需求。</li></ul> |
+| ![描繪決策點的圖示](media/audio_conferencing_image7.png) <br/>決策點|<ul><li>決定 Microsoft 365 政府版-GCC 高是否適合您的組織。</li><li>確認您的組織符合資格需求。</li></ul> |
 
 > [!Note]
 > Microsoft 365 政府-GCC 高版僅適用于美國。 非美國政府客戶可以從許多[Office 365 政府方案](https://products.office.com/en/government/compare-office-365-government-plans)中選擇。
@@ -75,22 +75,22 @@ Microsoft 365 政府版-GCC 高環境提供與美國雲端服務政府需求相�
 |                             | 功能                     | GCC 高       |
 |-----------------------------|-----------------------------|----------------|
 | 基本 | Id | 離線 |
-| | 平臺 | 離線 |
+| | 目前狀態 | 離線 |
 | | 整合的目前狀態（商務用 Skype 和小組已統一） | 離線 |
 | 操作 | 複製 | 離線 |
 |  | 我的活動 | 離線 |
-| 交流 | 交談 | 離線 |
-| | Files | 離線 |
+| 聊天 | 交談 | 離線 |
+| | 檔案 | 離線 |
 | | 組織結構 | 離線 |
 | | 操作 | 離線 |
 | | 互通性（1:1 團隊-商務用 Skype 聊天） | 離線 |
-| 協同 | 頻道訊息 | 離線 |
+| Teams | 頻道訊息 | 離線 |
 | | 頻道檔案 | 離線 |
 | | [OneNote] 索引標籤 | 在政府積壓工作 |
 | | 透過電子郵件傳送頻道 | 無法使用 |
 | | 新增成員 | 離線 |
 | | 來賓存取 | 在政府積壓工作 |
-| 舉行 | 排程會議 | 離線 |
+| 會議 | 排程會議 | 離線 |
 | | 加入會議 | 離線 |
 | | VoIP 會議 | 離線 |
 | | 桌面共用 | 離線 |
@@ -102,14 +102,14 @@ Microsoft 365 政府版-GCC 高環境提供與美國雲端服務政府需求相�
 | | 廣播會議 | 在政府積壓工作 |
 | | 雲端（GCCH 至 GCCH）同盟會議 | 離線 |
 | | Surface Hub 支援 | 在政府積壓工作 |
-| 撥 | 聯絡 | 離線 |
+| 撥 | 連絡人 | 離線 |
 | | 歷程記錄 | 離線 |
 | | 語音信箱 | 離線 |
 | | VoIP 通話 | 離線 |
 | | 商務用 Skype-小組通話 | 離線 |
 | | 通話方案 | 無法使用 |
 | | 音訊會議（透過允許會議參與者透過 PSTN 加入） | 離線 |
-| | Microsoft Phone 系統直向路由 | 在政府積壓工作 |
+| | Microsoft Phone 系統直向路由 | 離線 |
 | | PSTN 呼叫者的大廳 | 在政府積壓工作 |
 | | 通話佇列 | 在政府積壓工作 |
 | | 老闆及代理人支援 | 在政府積壓工作 |
@@ -125,12 +125,12 @@ Microsoft 365 政府版-GCC 高環境提供與美國雲端服務政府需求相�
 | | 通話和會議的 eDiscovery | 離線 |
 | | 組織自動語音應答 | 在政府積壓工作 |
 | | Skype 消費者-小組通話支援 | 無法使用 |
-| Files | 近 | 離線 |
-| | Microsoft 團隊 | 離線 |
+| 檔案 | 近 | 離線 |
+| | Microsoft Teams | 離線 |
 | 存放 | App Store | 無法使用 |
 | 檢索 | 錯誤資訊 | 離線 |
-| | 連絡人 | 離線 |
-| | Files | 離線 |
+| | 人員 | 離線 |
+| | 檔案 | 離線 |
 | | 斜杠命令 | 離線 |
 | 從屬 | 合規性內容搜尋 | 離線 |
 | | 留成 | 離線 |

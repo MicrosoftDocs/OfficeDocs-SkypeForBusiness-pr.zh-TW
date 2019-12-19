@@ -1,11 +1,11 @@
 ---
-title: 以貝里斯為可用性
-author: CarolynRowe
-ms.author: crowe
+title: Dominica 中的可用性
+ms.author: v-lanac
+author: LanaChin
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, fafan
 ms.topic: reference
-ms.assetid: 46bce770-7c3c-4813-aa3c-26859989a849
+ms.assetid: 1eb066bc-394a-434e-87a2-61d257a7e77d
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
@@ -23,43 +23,44 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是適用于商務用 Skype 和 Microsoft 團隊（貝里斯）的 Office 365 服務。
-ms.openlocfilehash: 2212d4a95c8541c74c6c4706b3fabd3d271bbb1b
+description: 以下是適用于商務用 Skype 和 Microsoft 團隊 Dominica 的 Office 365 服務。
+ms.openlocfilehash: e6d9cc4ef19e152944c5d1f82adaa81e16c26bb5
 ms.sourcegitcommit: cb394272050d049ebceedb7df835b86362dfd8d1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/18/2019
-ms.locfileid: "40741347"
+ms.locfileid: "40741523"
 ---
-# <a name="availability-in-belize"></a>以貝里斯為可用性
+# <a name="availability-in-dominica"></a>Dominica 中的可用性
 
 [尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或進一步瞭解音訊會議與通話方案的國家/地區可用性。
 
-以下是適用于商務用 Skype 和 Microsoft 團隊（貝里斯）的 Office 365 服務。
+以下是適用于商務用 Skype 和 Microsoft 團隊 Dominica 的 Office 365 服務。
   
 ## <a name="audio-conferencing"></a>音訊會議
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
-|音訊會議是否可供購買？  <br/> |是，僅限[每分鐘支付](../audio-conferencing-pay-per-minute.md) <br/> |
-|是否會自動為音訊會議指派電話號碼？  <br/> |否  <br/> |
+|音訊會議是否可供購買？  <br/> |是，僅限[每分鐘支付](../audio-conferencing-pay-per-minute.md)  <br/> |
+|是否會自動為音訊會議指派電話號碼？  <br/> |否 <br> |
 |使用 [呼叫我] 功能撥出功能  <br/> |需要通訊點數  <br/> |
+   
    
 ## <a name="phone-system"></a>電話系統
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
-|電話系統是否可供購買？  <br/> |是  <br/> |
-|自動語音應答 <br/> |離線  <br/> |
-|通話佇列  <br/> |離線  <br/> |
-|語音信箱  <br/> |離線  <br/> |
+|電話系統是否可供購買？  <br/> | 是 <br/> |
+|自動語音應答 <br/> | 離線  <br/> |
+|通話佇列  <br/> | 離線 <br/> |
+|語音信箱  <br/> | 離線 <br/> |
    
 ## <a name="calling-plans"></a>通話方案
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
-|通話方案可供購買嗎？  <br/> |否  <br/> |
-|通話方案可用的分鐘數  <br/> |不適用  <br/> |
+|通話方案可供購買嗎？  <br/> | 否 <br/> |
+|通話方案可用的分鐘數  <br/> | 不適用<br/> |
 |可以撥出電話至嗎？  <br/> |不適用  <br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服務的付費和免付費電話號碼
@@ -85,4 +86,7 @@ ms.locfileid: "40741347"
 [取得商務用 Skype 和 Microsoft Teams 的服務電話號碼](/microsoftteams/getting-service-phone-numbers)
 
 [音訊會議與通話方案的適用國家/地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+
+  
+ 
 

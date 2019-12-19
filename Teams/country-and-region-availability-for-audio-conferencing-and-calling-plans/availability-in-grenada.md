@@ -1,11 +1,10 @@
 ---
-title: 以貝里斯為可用性
-author: CarolynRowe
-ms.author: crowe
+title: 在格瑞那達中的可用性
+author: LanaChin
+ms.author: v-lanac
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr, fafan
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
-ms.assetid: 46bce770-7c3c-4813-aa3c-26859989a849
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
@@ -23,27 +22,27 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是適用于商務用 Skype 和 Microsoft 團隊（貝里斯）的 Office 365 服務。
-ms.openlocfilehash: 2212d4a95c8541c74c6c4706b3fabd3d271bbb1b
+description: 以下是適用于商務用 Skype 的 Office 365 服務，以及可供您使用的 Microsoft 團隊。
+ms.openlocfilehash: 2a5c3a4dfd997be5d2266f24c488b267ba4ac563
 ms.sourcegitcommit: cb394272050d049ebceedb7df835b86362dfd8d1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/18/2019
-ms.locfileid: "40741347"
+ms.locfileid: "40741522"
 ---
-# <a name="availability-in-belize"></a>以貝里斯為可用性
+# <a name="availability-in-grenada"></a>在格瑞那達中的可用性
 
 [尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或進一步瞭解音訊會議與通話方案的國家/地區可用性。
 
-以下是適用于商務用 Skype 和 Microsoft 團隊（貝里斯）的 Office 365 服務。
+以下是適用于商務用 Skype 的 Office 365 服務，以及可供您使用的 Microsoft 團隊。
   
 ## <a name="audio-conferencing"></a>音訊會議
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
-|音訊會議是否可供購買？  <br/> |是，僅限[每分鐘支付](../audio-conferencing-pay-per-minute.md) <br/> |
-|是否會自動為音訊會議指派電話號碼？  <br/> |否  <br/> |
-|使用 [呼叫我] 功能撥出功能  <br/> |需要通訊點數  <br/> |
+|音訊會議是否可供購買？  <br/> |是，僅限[每分鐘支付](../audio-conferencing-pay-per-minute.md)  <br/> |
+|是否會自動為音訊會議指派電話號碼？  <br/> | 否 |
+|使用 [呼叫我] 功能撥出功能  <br/> | 需要通訊點數 <br/> |
    
 ## <a name="phone-system"></a>電話系統
 
@@ -66,11 +65,11 @@ ms.locfileid: "40741347"
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
-|您可以在哪一或哪些主要城市取得付費電話號碼？  <br/> |不適用  <br/> |
-|是否有付費電話號碼？  <br/> |否  <br/> |
+|您可以在哪一或哪些主要城市取得付費電話號碼？   | 不適用 <br/> |
+|是否有付費電話號碼？  <br/> |否 <br/> |
 |免費提供免付費電話號碼嗎？  <br/> |是  <br/> |
    
- 如果您想要取得音訊會議、自動語音應答及通話佇列的付費和免付費電話號碼，請參閱[取得商務用 Skype 和 Microsoft 團隊的服務電話號碼](/microsoftteams/getting-service-phone-numbers)。
+ 如果您想要取得語音會議的付費和免付費電話號碼，請參閱在[商務用 Skype 和 Microsoft 團隊取得服務電話號碼](/microsoftteams/getting-service-phone-numbers)。
   
 ## <a name="communications-credits"></a>通訊點數
 

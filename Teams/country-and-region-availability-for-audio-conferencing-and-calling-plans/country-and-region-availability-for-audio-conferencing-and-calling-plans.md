@@ -1,5 +1,5 @@
 ---
-title: 適用于音訊會議與通話方案的國家和地區可用性
+title: 音訊會議與通話方案的適用國家/地區
 ms.date: 03/18/2019
 ms.author: crowe
 author: CarolynRowe
@@ -25,71 +25,80 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 您可以選取國家/地區，查看音訊會議、電話系統、通話方案、通訊點數，以及是否有可用的付費和免費電話號碼。
-ms.openlocfilehash: b4ff3d9a760587788a93c459c7888b1972579f89
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: d98e085667c97dbf4b4afc6dfc67fe1eb847d731
+ms.sourcegitcommit: cb394272050d049ebceedb7df835b86362dfd8d1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573082"
+ms.lasthandoff: 12/18/2019
+ms.locfileid: "40741387"
 ---
-# <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>適用于音訊會議與通話方案的國家和地區可用性
+# <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>音訊會議與通話方案的適用國家/地區
 
 您可以選取國家或地區，以查看貴組織提供哪些雲端語音功能。
 ***
 ## <a name="select-your-country-or-region-to-see-whats-available-for-your-organization"></a>選取您的國家或地區，以查看貴組織可用的專案
 
 > [!div class="op_single_selector"]
-> - [阿爾及利亞](availability-in-algeria.md)    
+> - [阿爾及利亞](availability-in-algeria.md)
+> - [安提瓜與巴布達](availability-in-antigua-and-barbuda.md)
 > - [阿根廷](availability-in-argentina.md)
-> - [澳大利亞](availability-in-australia.md)
+> - [澳洲](availability-in-australia.md)
 > - [奧地利](availability-in-austria.md)
+> - [巴哈馬](availability-in-the-bahamas.md)
 > - [巴林](availability-in-bahrain.md)
+> - [島](availability-in-barbados.md)
 > - [白俄羅斯](availability-in-belarus.md)
 > - [比利時](availability-in-belgium.md)
 > - [貝里斯](availability-in-belize.md)
-> - [Benin](availability-in-benin.md)
+> - [貝南](availability-in-benin.md)
+> - [百慕達](availability-in-bermuda.md)
 > - [波士尼亞和黑塞哥維那](availability-in-bosniaherzegovina.md)
 > - [巴西](availability-in-brazil.md)
 > - [汶萊](availability-in-brunei.md)
 > - [保加利亞](availability-in-bulgaria.md)
 > - [柬埔寨](availability-in-cambodia.md)
 > - [加拿大](availability-in-canada.md)
+> - [開曼群島](availability-in-the-cayman-islands.md)
 > - [智利](availability-in-chile.md)
-> - [業務員](availability-in-china.md)
+> - [中國](availability-in-china.md)
 > - [哥倫比亞](availability-in-colombia.md)
 > - [哥斯大黎加](availability-in-costa-rica.md)
-> - [克羅地亞](availability-in-croatia.md)
+> - [克羅埃西亞](availability-in-croatia.md)
 > - [賽普勒斯](availability-in-cyprus.md)
-> - [捷克共和國](availability-in-the-czech-republic.md)
+> - [捷克](availability-in-the-czech-republic.md)
 > - [丹麥](availability-in-denmark.md)
+> - [Dominica](availability-in-dominica.md)
 > - [多明尼加共和國](availability-in-the-dominican-republic.md)
-> - [厄瓜多爾](availability-in-ecuador.md)
+> - [厄瓜多](availability-in-ecuador.md)
 > - [埃及](availability-in-egypt.md)
 > - [薩爾瓦多](availability-in-el-salvador.md)
 > - [愛沙尼亞](availability-in-estonia.md)
 > - [芬蘭](availability-in-finland.md)
 > - [法國](availability-in-france.md)
-> - [格魯吉亞](availability-in-georgia.md)
+> - [喬治亞](availability-in-georgia.md)
 > - [德國](availability-in-germany.md)
-> - [加納](availability-in-ghana.md)
+> - [迦納](availability-in-ghana.md)
 > - [希臘](availability-in-greece.md)
+> - [格瑞那達](availability-in-grenada.md)
+> - [關島](availability-in-guam.md)
 > - [宏都拉斯](availability-in-honduras.md)
-> - [香港特別行政區](availability-in-hong-kong.md)
+> - [香港](availability-in-hong-kong.md)
 > - [匈牙利](availability-in-hungary.md)
 > - [印度](availability-in-india.md)
 > - [印尼](availability-in-indonesia.md)
 > - [愛爾蘭](availability-in-ireland.md)
 > - [以色列](availability-in-israel.md)
 > - [義大利](availability-in-italy.md)
+> - [牙買加](availability-in-jamaica.md)
 > - [日本](availability-in-japan.md)
 > - [約旦](availability-in-jordan.md)
-> - [哈薩克斯坦](availability-in-kazakhstan.md)
-> - [肯雅](availability-in-kenya.md)
+> - [哈薩克](availability-in-kazakhstan.md)
+> - [肯亞](availability-in-kenya.md)
 > - [科威特](availability-in-kuwait.md)
-> - [拉托維亞](availability-in-latvia.md)
+> - [拉脫維亞](availability-in-latvia.md)
 > - [立陶宛](availability-in-lithuania.md)
 > - [盧森堡](availability-in-luxembourg.md)
-> - [馬其頓共和國](availability-in-macedonia.md)
+> - [馬其頓](availability-in-macedonia.md)
 > - [馬來西亞](availability-in-malaysia.md)
 > - [馬爾他](availability-in-malta.md)
 > - [墨西哥](availability-in-mexico.md)
@@ -109,34 +118,36 @@ ms.locfileid: "37573082"
 > - [波蘭](availability-in-poland.md)
 > - [葡萄牙](availability-in-portugal.md)
 > - [波多黎各](availability-in-puerto-rico.md)
-> - [卡塔爾](availability-in-qatar.md)
+> - [卡達](availability-in-qatar.md)
 > - [羅馬尼亞](availability-in-romania.md)
 > - [俄羅斯](availability-in-russia.md)
+> - [聖基茨與尼維斯](availability-in-saint-kitts-and-nevis.md)
+> - [聖露西亞](availability-in-saint-lucia.md)
 > - [沙烏地阿拉伯](availability-in-saudi-arabia.md)
 > - [塞爾維亞](availability-in-serbia.md)
 > - [新加坡](availability-in-singapore.md)
 > - [斯洛伐克](availability-in-slovakia.md)
 > - [斯洛維尼亞](availability-in-slovenia.md)
 > - [南非](availability-in-south-africa.md)
-> - [韓國](availability-in-south-korea.md)
+> - [南韓](availability-in-south-korea.md)
 > - [西班牙](availability-in-spain.md)
 > - [斯里蘭卡](availability-in-sri-lanka.md)
 > - [瑞典](availability-in-sweden.md)
 > - [瑞士](availability-in-switzerland.md)
-> - [臺灣](availability-in-taiwan.md)
+> - [台灣](availability-in-taiwan.md)
 > - [泰國](availability-in-thailand.md)
 > - [特立尼達和多巴哥](availability-in-trinidad-and-tobago.md)
-> - [突尼斯](availability-in-tunisia.md)
+> - [突尼西亞](availability-in-tunisia.md)
 > - [土耳其](availability-in-turkey.md)
 > - [烏克蘭](availability-in-the-ukraine.md)
-> - [阿拉伯聯合大公國（UAE）](availability-in-the-united-arab-emirates-uae.md)
+> - [阿拉伯聯合大公國 (UAE)](availability-in-the-united-arab-emirates-uae.md)
 > - [英國](availability-in-the-united-kingdom-u-k.md)
 > - [美國](availability-in-the-united-states-u-s.md)
 > - [烏拉圭](availability-in-uruguay.md)
 > - [委內瑞拉](availability-in-venezuela.md)
-> - [民主](availability-in-vietnam.md)
+> - [越南](availability-in-vietnam.md)
 
-**如果您要尋找含有所有國家和地區的試算表，請下載並儲存[雲端語音功能國家/地區可用性試算表](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-09052019)-(en-us).xlsx?raw=true)**。
+**如果您要尋找含有所有國家和地區的試算表，請下載並儲存[雲端語音功能國家/地區可用性試算表](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-12182019)-(en-us).xlsx?raw=true)**。
 
 ***
 
@@ -188,7 +199,7 @@ ms.locfileid: "37573082"
 您也可以參閱[電話系統和通話方案授權](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)以取得授權資訊。
 
 > [!NOTE]
-> [國家/地區] 是以**microsoft 365 系統管理中心** > [作用中**使用者**] 的使用者授權位置為基礎，而**不**是以 microsoft 365 系統**管理員組織設定檔**下所列的帳單位址為基礎。 **中央**。 
+> [國家/地區] 是以**microsoft 365 系統管理中心** > [作用中**使用者**] 的使用者授權位置為基礎，而**不**是以**microsoft 365 系統管理中心**[**組織設定檔**] 底下所列的帳單位址為基礎。 
   
 ### <a name="toll-and-toll-free-phone-numbers-for-services"></a>服務的付費和免付費電話號碼
 
@@ -208,7 +219,7 @@ ms.locfileid: "37573082"
 
 
 ## <a name="related-topics"></a>相關主題
-[取得商務用 Skype 和 Microsoft 團隊的服務電話號碼](/microsoftteams/getting-service-phone-numbers)
+[取得商務用 Skype 和 Microsoft Teams 的服務電話號碼](/microsoftteams/getting-service-phone-numbers)
 
   
  
