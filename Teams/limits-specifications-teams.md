@@ -15,12 +15,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 098477cc36237736009e1ec2010fea625d08937c
-ms.sourcegitcommit: 57304ac641931eed87e649555fd5eb5e58732dc5
+ms.openlocfilehash: aa6fad448f0251a44d31c5277b43390daeb3441c
+ms.sourcegitcommit: e43a66a7f769f855dc45c1bb7f83636d0390949b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "39679233"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "40823908"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和規格
 
@@ -101,6 +101,18 @@ Teams 的聊天是在 Microsoft Exchange 後端執行，因此 Exchange 的傳�
 |------------|---------------|
 |一個會議中的人員數目  | 250    |
 |PowerPoint 檔案大小的最大值 | 2 GB|
+
+### <a name="meeting-expiration"></a>會議到期
+
+|會議類型  |會議將在這些時間後到期  |每次您開始或更新會議，到期時間會延長這麼多時間  |
+|---------|---------|---------|
+|立即開會     |開始時間 + 8 小時         |不適用         |
+|一般 (沒有結束時間)     |開始時間 + 60 天         | 60 天        |
+|一般 (有結束時間)     |結束時間 + 60 天         |60 天         |
+|週期性 (沒有結束時間)     |開始時間 + 60 天         |60 天         |
+|週期性 (有結束時間)     |最後發生的結束時間 + 60 天         |60 天         |
+
+
 
 ## <a name="teams-live-events"></a>Teams 即時活動
 
