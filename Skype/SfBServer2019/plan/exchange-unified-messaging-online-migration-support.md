@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Microsoft 正在淘汰2020年2月的 Exchange 整合訊息 Online （ExchUMO）服務。 本文將摘要說明客戶應該知道哪些內容，並針對其業務連續性進行規劃。
-ms.openlocfilehash: 8b8a0590dd53301a93fb9a6b2ed50e0d5dc830ed
-ms.sourcegitcommit: 0f2024740e03af303efc62e7f54aa918a61ca51b
+ms.openlocfilehash: adef85a59a5d0add990196e5b76587b502f052b5
+ms.sourcegitcommit: 4ccc24dcf61cf9b59224b85757f93f8aceae1771
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "39890577"
+ms.lasthandoff: 12/24/2019
+ms.locfileid: "40854088"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange 整合通訊線上移轉支援
 
@@ -185,7 +185,7 @@ Office 365 租使用者管理員必須在 Microsoft 雲端自動語音應答服�
 | AA | 服務功能 | 下班後和假日治療  |  | 是 | 是    |
 | AA | 服務功能 | 使用文字到語音的自訂問候語  |  | 是 | 是    |
 | AA | 服務功能 | 擴充撥號   | 撥打電話給使用者以進行延伸  | 是   | 是    |
-| AA | 服務功能 | AA 呼叫者信箱來留言    |  | CY19   | 是    |
+| AA | 服務功能 | AA 呼叫者信箱來留言    |  | 是   | 是    |
 | AA | 服務功能 | 將多個 PSTN 號碼指派給 AA|  | 是 | 是    |
 | AA | 租使用者-系統管理功能 | 網頁入口網站管理   |  | 是 | 否    |
 | AA | 租使用者-系統管理功能 | PowerShell Cmdlet  |  | 是 | 是    |
