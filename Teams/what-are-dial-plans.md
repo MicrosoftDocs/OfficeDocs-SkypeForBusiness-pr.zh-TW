@@ -19,18 +19,18 @@ f1keywords: ms.teamsadmincenter.voice.dialplans.overview
 ms.custom:
 - Calling Plans
 description: '瞭解您可以在小組中使用的撥號方案類型（PSTN 呼叫撥號方案），以及如何為您的組織選擇一個電話。  '
-ms.openlocfilehash: 0dadb0335f622bb297d4299aafc50a40dafcc583
-ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
+ms.openlocfilehash: bd41b257af80a3a21da1013e604214d1e0303edf
+ms.sourcegitcommit: 472909325a47cf0ad00bed949d02ab5766d35832
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/17/2019
-ms.locfileid: "40069324"
+ms.lasthandoff: 12/28/2019
+ms.locfileid: "40891212"
 ---
 # <a name="what-are-dial-plans"></a>什麼是撥號對應表？
 
 撥號方案是一組命名的正常化規則，可將個別使用者撥打的電話號碼轉換成替代格式（通常是 E. 164），以進行呼叫授權及呼叫路由。
 
-撥號計畫由一或多個正常化規則所組成，這些規則定義以不同格式表示的電話號碼如何轉換為替代格式。 在不同的撥號方案中，相同的撥號字串可能會以不同的方式加以轉譯，因此，根據指派給特定使用者的撥號方案而定，相同的撥入號碼可能會以不同的方式進行轉換和路由。
+撥號計畫由一或多個正常化規則所組成，這些規則定義以不同格式表示的電話號碼如何轉換為替代格式。 在不同的撥號方案中，相同的撥號字串可能會以不同的方式加以轉譯，因此，根據指派給特定使用者的撥號方案而定，相同的撥入號碼可能會以不同的方式進行轉換和路由。 最多可以有1000個租使用者撥號方案。
 
 請參閱[建立及管理撥號計畫](create-and-manage-dial-plans.md)，以建立和管理租使用者撥號方案。
 
