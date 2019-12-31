@@ -13,12 +13,12 @@ ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection:
 - M365-collaboration
 description: 請閱讀本主題，以瞭解如何使用 Exchange 內部部署在混合式環境中部署 Microsoft 團隊聊天室的相關資訊。
-ms.openlocfilehash: 783e5af7f0325ecd78e613b445544c5231db46ab
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: cc9b46554bcbef227bc6f721a7af93331d9552ca
+ms.sourcegitcommit: e59914458b4c22cc12556795468bc019e00a8940
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38675407"
+ms.lasthandoff: 12/30/2019
+ms.locfileid: "40910051"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>使用 Exchange 內部部署來部署 Microsoft 團隊聊天室
 
@@ -44,11 +44,11 @@ Microsoft 提供[SkypeRoomProvisioningScript. ps1](https://go.microsoft.com/fwli
 
   - 您必須在 Office 365 方案中有商務用 Skype Online （方案2）或更高版本。 方案需要支援會議功能。
   
-  - - 如果您需要企業語音（PSTN 電話），請在您需要商務用 Skype Online （方案3）中使用電話服務提供者進行 Microsoft 團隊聊天室。
+  - 如果您需要企業語音（PSTN 電話），請在您需要商務用 Skype Online （方案3）中使用電話服務提供者進行 Microsoft 團隊聊天室。
   
-  - - 您的租使用者必須有 Exchange 信箱。
+  - 您的租使用者必須有 Exchange 信箱。
   
-  - - 您的 Microsoft 團隊會議室帳戶需要商務用 Skype Online （方案2）或商務用 Skype Online （方案3）授權，但不需要 Exchange Online 授權。
+  - 您的 Microsoft 團隊會議室帳戶需要商務用 Skype Online （方案2）或商務用 Skype Online （方案3）授權，但不需要 Exchange Online 授權。
 
 - 將商務用 Skype Server 授權指派給您的 Microsoft 團隊聊天室帳戶。
 
@@ -144,9 +144,9 @@ Microsoft 提供[SkypeRoomProvisioningScript. ps1](https://go.microsoft.com/fwli
 
 2. 取得帳戶的 SIP 位址：
 
-  ``` Powershell
-   $rm = Get-Csonlineuser -identity <insert SIP address> | select -expandproperty sipaddress
-   ```
+   ``` Powershell
+    $rm = Get-Csonlineuser -identity <insert SIP address> | select -expandproperty sipaddress
+    ```
 
 3. 若要啟用您的 Microsoft 團隊聊天室帳戶，請執行此命令：
 

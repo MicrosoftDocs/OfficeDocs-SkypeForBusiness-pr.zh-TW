@@ -3,46 +3,6 @@
 
 
 
-## <a name="week-of-november-18-2019"></a>2019年11月18日
-
-
-| 發佈日期 |主題標題 | 切換 |
-|------|------------|--------|
-| 11/18/2019 | [Microsoft 團隊中的資訊障礙](/MicrosoftTeams/information-barriers-in-teams) | 日期 |
-| 11/18/2019 | [Microsoft 團隊會議室需求](/MicrosoftTeams/room-systems/requirements) | 日期 |
-| 11/18/2019 | [建立通話佇列](/MicrosoftTeams/create-a-phone-system-call-queue) | 日期 |
-| 11/18/2019 | [開始使用適用於醫療保健組織的 Teams 範本](/MicrosoftTeams/expand-teams-across-your-org/healthcare/healthcare-templates) | 日期 |
-| 11/18/2019 | [Microsoft 團隊聊天室授權](/MicrosoftTeams/room-systems/skype-room-systems-v2) | 日期 |
-| 11/19/2019 | [Teams 中的使用者目前狀態](/MicrosoftTeams/presence-admins) | 日期 |
-| 11/19/2019 | [在 Microsoft 團隊中管理私人頻道的生命週期](/MicrosoftTeams/private-channels-life-cycle-management) | 日期 |
-| 11/19/2019 | [Microsoft 團隊聊天室授權](/MicrosoftTeams/room-systems/skype-room-systems-v2) | 日期 |
-| 11/19/2019 | [設定貴組織的通訊點數](/MicrosoftTeams/set-up-communications-credits-for-your-organization) | 日期 |
-| 11/19/2019 | [Microsoft Teams 中的來賓存取](/MicrosoftTeams/guest-access) | 日期 |
-| 11/19/2019 | [管理會議設定](/MicrosoftTeams/meeting-settings-in-teams) | 日期 |
-| 11/20/2019 | [在 Microsoft Teams 中與其他組織的使用者通訊](/MicrosoftTeams/communicate-with-users-from-other-organizations) | 日期 |
-| 11/20/2019 | [管理組織的 Microsoft Teams 設定](/MicrosoftTeams/enable-features-office-365) | 日期 |
-| 11/20/2019 | [為 Microsoft 團隊取得用戶端](/MicrosoftTeams/get-clients) | 日期 |
-| 11/20/2019 | [Microsoft 團隊中的身分識別模型與驗證](/MicrosoftTeams/identify-models-authentication) | 日期 |
-| 11/20/2019 | [Microsoft 團隊中的共用線條外觀](/MicrosoftTeams/shared-line-appearance) | 日期 |
-| 11/21/2019 | [在 [審核記錄] 中搜尋 Microsoft 團隊中的事件](/MicrosoftTeams/audit-log-events) | 日期 |
-| 11/21/2019 | [從 Slack 移轉到 Microsoft Teams](/MicrosoftTeams/migrate-slack-to-teams) | 日期 |
-| 11/21/2019 | [使用 Microsoft 團隊的網路 Planner](/MicrosoftTeams/network-planner) | 日期 |
-| 11/21/2019 | [Microsoft 團隊保留原則常見問題](/MicrosoftTeams/retention-policies-faq) | 日期 |
-| 11/21/2019 | [Microsoft 團隊中的保留原則](/MicrosoftTeams/retention-policies) | 日期 |
-| 11/21/2019 | [版本支援](/MicrosoftTeams/room-systems/srs2-lifecycle-support) | 日期 |
-| 11/21/2019 | [Microsoft 團隊中的團隊和頻道概覽](/MicrosoftTeams/teams-channels-overview) | 日期 |
-| 11/21/2019 | [在 Microsoft 團隊租使用者應用程式目錄中發佈應用程式](/MicrosoftTeams/tenant-apps-catalog-teams) | 日期 |
-| 11/22/2019 | [歡迎使用 Microsoft Teams](/MicrosoftTeams/teams-overview) | 日期 |
-| 11/22/2019 | [在 Microsoft 團隊中使用內建和自訂索引標籤](/MicrosoftTeams/built-in-custom-tabs) | 日期 |
-| 11/22/2019 | [在 Microsoft 團隊中通話駐留與取回](/MicrosoftTeams/call-park-and-retrieve) | 日期 |
-| 11/22/2019 | [建立通話佇列](/MicrosoftTeams/create-a-phone-system-call-queue) | 日期 |
-| 11/22/2019 | [在 Microsoft 團隊中管理您的裝置](/MicrosoftTeams/device-management) | 日期 |
-| 11/22/2019 | [為 Microsoft 團隊取得用戶端](/MicrosoftTeams/get-clients) | 日期 |
-| 11/22/2019 | [為您的使用者取得電話號碼](/MicrosoftTeams/getting-phone-numbers-for-your-users) | 日期 |
-| 11/22/2019 | [使用 Advisor for Teams (預覽) 協助您推出 Microsoft Teams](/MicrosoftTeams/use-advisor-teams-roll-out) | 日期 |
-| 11/22/2019 | [管理使用者對 Microsoft 團隊的存取權](/MicrosoftTeams/user-access) | 日期 |
-
-
 ## <a name="week-of-november-25-2019"></a>2019年11月25日
 
 
@@ -173,3 +133,11 @@
 | 12/18/2019 | [規劃 Microsoft 365 政府版-GCC 高部署版-Microsoft 團隊](/MicrosoftTeams/plan-for-government-gcc-high) | 日期 |
 | 12/18/2019 | [適用于團隊的電話和裝置](/MicrosoftTeams/teams-ip-phones) | 日期 |
 | 12/19/2019 | [Microsoft Teams 的限制和規格](/MicrosoftTeams/limits-specifications-teams) | 日期 |
+
+
+## <a name="week-of-december-23-2019"></a>2019年12月23日
+
+
+| 發佈日期 |主題標題 | 切換 |
+|------|------------|--------|
+| 12/27/2019 | [什麼是撥號對應表？](/MicrosoftTeams/what-are-dial-plans) | 日期 |

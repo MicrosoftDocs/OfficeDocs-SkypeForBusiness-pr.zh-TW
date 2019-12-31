@@ -17,12 +17,12 @@ search.appverid: MET150
 description: 瞭解 Microsoft 團隊中的應用程式設定原則，以及如何使用這些原則將 app 釘選到您組織中的使用者自訂小組。
 f1keywords:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: b7f0585c62d7d22e1fc5a7e55c90e59f8cda554d
-ms.sourcegitcommit: f2c7626dbef4ed250b9a937a9b56d46fe2e2039e
+ms.openlocfilehash: 271ffd879ddf55596da0c77765a269570a4878b2
+ms.sourcegitcommit: e59914458b4c22cc12556795468bc019e00a8940
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2019
-ms.locfileid: "39998851"
+ms.lasthandoff: 12/30/2019
+ms.locfileid: "40910041"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>在 Microsoft 團隊中管理 app 設定原則
 
@@ -168,7 +168,7 @@ $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setu
 
 #### <a name="my-organization-built-a-custom-teams-app-and-published-it-either-to-appsource-or-the-tenant-app-catalog-but-the-app-icon-isnt-displayed-as-expected-when-the-app-is-pinned-to-the-app-bar-in-teams-how-do-i-fix-it"></a>我的組織已建立自訂團隊應用程式，並將其發佈至 AppSource 或租使用者目錄，但是當 app 釘選到 [團隊] 中的應用程式行時，應用程式圖示不會顯示為預期。 我要如何修正？ 
 
-在提交 app 之前，請務必遵循標誌指導方針。 若要深入瞭解，請參閱[賣方儀表板提交的檢查清單](https://docs.microsoft.com/microsoftteams/platform/publishing/office-store-checklist)。 
+在提交 app 之前，請務必遵循標誌指導方針。 若要深入瞭解，請參閱[賣方儀表板提交的檢查清單](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/overview)。 
 
  ## <a name="related-topics"></a>相關主題
 - [在 Teams 中的應用程式系統管理設定](admin-settings.md)
