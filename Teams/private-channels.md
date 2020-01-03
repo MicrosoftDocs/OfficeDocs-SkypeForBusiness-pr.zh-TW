@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何在 Microsoft 團隊中使用和管理私人頻道。
-ms.openlocfilehash: d7a491a64e32edef61b067c864c21f41e19f267d
-ms.sourcegitcommit: c15ab82834005b9a19247e06488f1f21161fc426
+ms.openlocfilehash: 942070f9c77fb16895dd15e1920198f3604150f9
+ms.sourcegitcommit: 9c743b267b46a475a7da51c0899467960421ad8a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/13/2019
-ms.locfileid: "40020047"
+ms.lasthandoff: 01/02/2020
+ms.locfileid: "40929559"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft 團隊中的私人頻道
 
@@ -132,7 +132,7 @@ Microsoft 團隊中的私人頻道會在您的小組中建立焦點空間，共�
 
 ## <a name="private-channel-sharepoint-sites"></a>私人頻道 SharePoint 網站
 
-每個私人通道都有自己的 SharePoint 網站集合，針對檔案共用和快速資源調配進行優化。 個別的網站集合是確保對私人通道檔案的存取權僅限於專用通道的成員，與小組擁有者可以存取網站集合中所有資產的小組網站的方式不同。 根據預設，這些網站集合是使用文件庫建立的，而且可以透過[網站管理介面](https://support.office.com/article/Enable-or-disable-site-collection-features-A2F2A5C2-093D-4897-8B7F-37F86D83DF04)輕鬆地增強至完整功能的網站集合。 每個網站集合都是在與父團隊的網站集合相同的地理區域中建立。 這些羽量級網站具有自訂的範本識別碼（TEAMCHANNEL # 0），可讓您更輕鬆地透過 PowerShell 與圖形 API 進行管理。
+每個私人通道都有自己的 SharePoint 網站集合，針對檔案共用和快速資源調配進行優化。 個別的網站集合是確保對私人通道檔案的存取權僅限於專用通道的成員，與小組擁有者可以存取網站集合中所有資產的小組網站的方式不同。 根據預設，這些網站集合是使用文件庫建立的，而且可以透過[網站管理介面](https://support.office.com/article/Enable-or-disable-site-collection-features-A2F2A5C2-093D-4897-8B7F-37F86D83DF04)輕鬆地增強至完整功能的網站集合。 每個網站集合都是在與父團隊的網站集合相同的地理區域中建立。 這些羽量級網站具有自訂的範本識別碼（TEAMCHANNEL # 0），可讓您更輕鬆地透過 PowerShell 與圖形 API 進行管理。  根據設計，它們不會顯示在 SharePoint 系統管理中心。
 
 為了適應每個租使用者的網站集合數量上限，此限制已從500000增加到2000000。 私人通道網站集合會同步處理資料分類，並繼承父小組網站集合的來賓存取權。  網站集合擁有者和成員群組的成員資格會與團隊內的私人頻道成員資格保持同步。 在 SharePoint Online 中，對擁有者或成員群組的成員資格所做的任何變更，都會在四個小時內自動還原為私人通道成員資格。 當特定使用者需要存取檔而不需要存取私人通道訊息時，請將其新增至網站上的 [訪客] 群組或與 [擁有者] 和 [成員] 不同的新群組。
 
