@@ -13,12 +13,12 @@ ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
 ms.collection:
 - M365-collaboration
 description: 本文將討論 Microsoft 團隊聊天室裝置所使用的預設設定的遠端系統管理，包括套用自訂主題。
-ms.openlocfilehash: f00edb0d3d391daaf3cfa7a6f83e5c2951638236
-ms.sourcegitcommit: 1aa98e3865d5a0f7be5e1cba497dea4ac7b9c607
+ms.openlocfilehash: 042e62cda753cc622d3b2a6b614d5eca6880a97c
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38074615"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952456"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>使用 XML 設定檔遠端系統管理 Microsoft 團隊聊天室的主控台設定
 
@@ -30,7 +30,7 @@ ms.locfileid: "38074615"
 
 任何文字編輯器都可以用來建立設定檔。 **Xml 元素**表格說明此範例 SkypeSettings （必要檔案名）設定檔中顯示的元素。
   
-```
+```XML
 <SkypeSettings>
     <AutoScreenShare>true</AutoScreenShare>
     <HideMeetingName>true</HideMeetingName>
@@ -93,7 +93,7 @@ ms.locfileid: "38074615"
 |\<SendLogs\> |包裝箱 |第一 &#x2776;  ||
 |\<EmailAddressForLogsAndFeedback\> |字串 &#x2778;  || 設定當 [提供意見反應] 視窗出現時，可以傳送記錄的選擇性電子郵件地址。 |
 |\<SendLogsAndFeedback\> |布林值 &#x2777;  || 如果為 true，則會將記錄傳送給系統管理員。如果是 false，則只會傳送意見反應給系統管理員（而非記錄）。  |
-| \<台\>  |包裝箱 |第一 &#x2776;  | 子項目中連接的音訊裝置名稱與 [裝置管理器] 應用程式中所列的值相同。 此設定可以包含目前不存在於系統中的裝置，例如目前未連線到主機的 A/V 裝置。 該設定將會保留給個別裝置使用。  |
+| \<裝置\>  |包裝箱 |第一 &#x2776;  | 子項目中連接的音訊裝置名稱與 [裝置管理器] 應用程式中所列的值相同。 此設定可以包含目前不存在於系統中的裝置，例如目前未連線到主機的 A/V 裝置。 該設定將會保留給個別裝置使用。  |
 |\<MicrophoneForCommunication\> |字串 &#x2778;  ||設定在會議中用來做為錄製裝置的麥克風。 |
 |\<SpeakerForCommunication\> |字串 &#x2778;  ||要作為會議演講者使用的裝置。 這個設定是用來設定通話中使用的喇叭裝置。 |
 |\<DefaultSpeaker\> |字串 &#x2778;  ||要用來從 HDMI 攝取來源播放音訊的裝置。 |

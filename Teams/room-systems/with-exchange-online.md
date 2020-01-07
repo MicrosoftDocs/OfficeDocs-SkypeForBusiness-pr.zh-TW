@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: 如需如何使用 Exchange Online 部署 Microsoft 團隊聊天室的詳細資訊，請參閱本主題。
-ms.openlocfilehash: 8b4974b2da2fabf3230fc54359b041cebdffcdd9
-ms.sourcegitcommit: 2b4fcf2561134b9f1b9a1b49401d97da1286e89d
+ms.openlocfilehash: c9192dad3ffc8cb45a5b4a213865a1daa998075d
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37979786"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952486"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>使用 Exchange Online 部署 Microsoft 團隊聊天室
 
@@ -102,7 +102,7 @@ Import-PSSession $Session -DisableNameChecking
 3. 接下來，使用`Get-MsolAccountSku` <!--Get-AzureADSubscribedSku--> 若要為您的 Office 365 租使用者取得可用的 Sku 清單。
 4. 當您列出 Sku 之後，您就可以使用`Set-MsolUserLicense` <!-- Set-AzureADUserLicense--> Cmdlet. 在此情況下，$strLicense 是您所看到的 SKU 程式碼（例如 contoso： STANDARDPACK）。 
 
-  ```
+  ```PowerShell
     Set-MsolUser -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -UsageLocation 'US'
    Get-MsolAccountSku
    Set-MsolUserLicense -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -AddLicenses $strLicense

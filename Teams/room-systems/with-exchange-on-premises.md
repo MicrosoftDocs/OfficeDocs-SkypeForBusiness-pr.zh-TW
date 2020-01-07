@@ -13,12 +13,12 @@ ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection:
 - M365-collaboration
 description: 請閱讀本主題，以瞭解如何使用 Exchange 內部部署在混合式環境中部署 Microsoft 團隊聊天室的相關資訊。
-ms.openlocfilehash: cc9b46554bcbef227bc6f721a7af93331d9552ca
-ms.sourcegitcommit: e59914458b4c22cc12556795468bc019e00a8940
+ms.openlocfilehash: 62840e0a28ee1eba2a9b5a94f976f169eab628da
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/30/2019
-ms.locfileid: "40910051"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952716"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>使用 Exchange 內部部署來部署 Microsoft 團隊聊天室
 
@@ -71,7 +71,7 @@ Microsoft 提供[SkypeRoomProvisioningScript. ps1](https://go.microsoft.com/fwli
 
 2. 在 Exchange PowerShell 中，執行下列命令，為帳戶（信箱啟用帳戶）包裝箱提供信箱：
 
-   ``` Powershell
+   ```PowerShell
    Enable-Mailbox PROJECTRIGEL01@contoso.com -Room
    ```
 
@@ -95,7 +95,7 @@ Microsoft 提供[SkypeRoomProvisioningScript. ps1](https://go.microsoft.com/fwli
 
    這個範例會在名為 Project-Rigel-01 的聊天室信箱上設定這些設定。
 
-   ``` PowerShell
+   ```PowerShell
    Set-CalendarProcessing -Identity "Project-Rigel-01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
    ```
 

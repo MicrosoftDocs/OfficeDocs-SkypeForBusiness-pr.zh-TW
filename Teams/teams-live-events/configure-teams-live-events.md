@@ -16,12 +16,12 @@ description: 瞭解如何管理組織中保留的小組即時事件設定。
 f1keywords: ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bb2b0f6c29af383061877562e8e6762965937f5f
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 6ad9d97c6d4dd6b7eb370bda026dbee3e33f2a32
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570187"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952836"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>在 Microsoft 團隊中設定即時事件設定
 
@@ -44,7 +44,7 @@ ms.locfileid: "37570187"
 
 ### <a name="using-windows-powershell"></a>使用 Windows PowerShell
 執行下列動作：
-```
+```PowerShell
 Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}” 
 ```
 如需詳細資訊，請參閱[設定 CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps)。
@@ -68,11 +68,11 @@ Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}”
 根據您所使用的提供者，從提供者連絡人取得授權識別碼或 API 權杖及 API 範本，然後執行下列其中一項操作：
 
 **一兩** 
-```
+```PowerShell
 Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName hive -SdnLicenseId {license ID GUID provided by Hive} -SdnApiTemplateUrl “{API template URL provided by Hive}”
 ```
 **Kollective** 
-```
+```PowerShell
 Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName kollective -SdnApiTemplateUrl "{API template URL provided by Kollective}" -SdnApiToken {API token GUID provided by Kollective}
 ```
 如需詳細資訊，請參閱[設定 CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps)。
@@ -81,6 +81,6 @@ Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $T
 > 如果您打算使用外部應用程式或裝置建立即時事件，您也需要[使用 Microsoft Stream 來設定 eCDN 提供者](https://docs.microsoft.com/stream/network-caching)。 
 
 ### <a name="related-topics"></a>相關主題
-- [什麼是團隊即時活動？](what-are-teams-live-events.md)
-- [規劃團隊即時事件](plan-for-teams-live-events.md)
-- [設定小組即時事件](set-up-for-teams-live-events.md)
+- [什麼是 Teams 即時活動？](what-are-teams-live-events.md)
+- [Teams 即時活動的方案](plan-for-teams-live-events.md)
+- [設定 Teams 即時活動](set-up-for-teams-live-events.md)

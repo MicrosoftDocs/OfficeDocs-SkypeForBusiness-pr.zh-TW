@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何在您的組織中管理私人頻道的生命週期。
-ms.openlocfilehash: b33df48d6d019015a0e7553619e2e42d29f7ca11
-ms.sourcegitcommit: d2bee305a3588f8487bba3396b1825be7a52f6d2
+ms.openlocfilehash: 263f25e283670b0ab8cc0337c0936eee23f43c61
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38714479"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952886"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>在 Microsoft 團隊中管理私人頻道的生命週期
 
@@ -36,7 +36,7 @@ ms.locfileid: "38714479"
 
 做為管理員，您可以使用圖形 API 來控制成員是否可以在特定團隊中建立私人頻道。 以下是範例。
 
-```
+```Graph API
 PATCH /teams/<team_id>
 {"memberSettings": 
   {
@@ -65,13 +65,13 @@ PATCH /teams/<team_id>
 
 ### <a name="using-powershell"></a>使用 PowerShell
 
-```
+```PowerShell
 New-TeamChannel –GroupId <Group_Id> –MembershipType Private –DisplayName “<Channel_Name>” –Owner <Owner_UPN>
 ```
 
 ### <a name="using-graph-api"></a>使用圖形 API
 
-```
+```Graph API
 POST /teams/{id}/channels
 { "membershipType": "Private",
   "displayName": "<Channel_Name>",
@@ -86,7 +86,7 @@ POST /teams/{id}/channels
 
 您可能會想要取得在私人頻道中張貼的所有訊息和回復的清單，以供封存和審核之用。  以下說明如何使用圖形 API 來執行這項作業。
 
-```
+```Graph API
 GET /teams/{id}/channels/{id}/messages
 GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 ```
@@ -102,7 +102,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 1. 使用您的系統管理員帳戶安裝並[連線至 SharePoint Online 管理命令](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)介面。
 2. 執行下列動作，其中&lt;group_id&gt;是團隊的群組識別碼。 （您可以輕鬆地在小組連結中找到群組識別碼）。
 
-    ```
+    ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
     $groupID = “<group_id>"
     foreach ($site in $sites) {$x= Get-SpoSite -Identity
@@ -118,13 +118,13 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
     **徵求**
 
-    ```
+    ```Graph API
     GET https://graph.microsoft.com/beta/teams/<group_id>/channels?$filter=membershipType eq 'private'
     ```
 
     **應對**
 
-    ```
+    ```Graph API
     HTTP/1.1 200 OK
     Content-type: application/json
     Content-length:
@@ -148,13 +148,13 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
     **徵求**
 
-    ```
+    ```Graph API
     GET https://graph.microsoft.com/beta/teams/<group_id>/channels/<channel_id>/filesFolder
     ```
 
     **應對**
 
-    ```
+    ```Graph API
     HTTP/1.1 200 OK
     Content-type: application/json
     Content-length:
@@ -187,13 +187,13 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
     **徵求**
 
-    ```
+    ```PowerShell
     Get-TeamChannelUser -GroupId <group_id> -MembershipType Private -DisplayName "<channel_name>" 
     ```
     
     **應對**
 
-    ```
+    ```PowerShell
     HTTP/1.1 200 OK Content-type: application/json
     Content-length:
     {
@@ -213,7 +213,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 3. 將成員升級為擁有者。
 
-    ```
+    ```PowerShell
     Add-TeamChannelUser -GroupId <group_id> -MembershipType Private -DisplayName "<channel_name>" -User <UPN> -Role Owner
     ```
 
@@ -225,13 +225,13 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
     **徵求**
 
-    ```
+    ```Graph API
     GET https://graph.microsoft.com/beta/teams/<group_id>/channels/<channel_id>/members
     ```
     
     **應對**
 
-    ```
+    ```Graph API
     HTTP/1.1 200 OK Content-type: application/json
     Content-length: 
     {
@@ -261,7 +261,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
     **徵求**
 
-    ```
+    ```Graph API
     PATCH 
     https://graph.microsoft.com/beta/teams/<group_id>/channels/<channel_id>/members/<id>
       
@@ -273,7 +273,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
     **應對**
 
-    ```
+    ```Graph API
     HTTP/1.1 200 OK
     Content-type: application/json
 
@@ -301,26 +301,26 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 2. 啟動新的 Windows PowerShell 模組實例。
 3. 執行下列動作，從公用 PowerShell 庫中卸載團隊 PowerShell 模組：
 
-    ```
+    ```PowerShell
     Uninstall-Module -Name MicrosoftTeams
     ```
 
 4. 關閉所有現有的 PowerShell 會話。
 5. 再次啟動 Windows PowerShell 模組，然後執行下列動作，以將 PowerShell 測試圖庫註冊為受信任的來源：
 
-    ```
+    ```PowerShell
     Register-PSRepository -Name PSGalleryInt -SourceLocation https://www.poshtestgallery.com/ -InstallationPolicy Trusted
     ```
 
 6. 執行下列動作，從 PowerShell 測試圖庫安裝最新的團隊 PowerShell 模組：
 
-    ```
+    ```PowerShell
     Install-Module -Name MicrosoftTeams -Repository PSGalleryInt -Force
     ```
 
 7. 執行下列動作，確認已成功安裝 PowerShell 測試圖庫中的最新版本的團隊 PowerShell 模組：
 
-    ```
+    ```PowerShell
     Get-Module -Name MicrosoftTeams
     ```
 
@@ -332,13 +332,13 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 2. 啟動新的 Windows PowerShell 模組實例。
 3. 執行下列操作以從 PowerShell 測試圖庫更新目前已安裝的團隊 PowerShell 模組版本：
 
-    ```
+    ```PowerShell
     Update-Module -Name MicrosoftTeams -Force
     ```
 
 4. 執行下列動作，確認已成功安裝 PowerShell 測試圖庫中的最新版本的團隊 PowerShell 模組：
 
-    ```
+    ```PowerShell
     Get-Module -Name MicrosoftTeams
     ```
 

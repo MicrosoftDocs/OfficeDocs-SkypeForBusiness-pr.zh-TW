@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '瞭解如何為您的使用者設定雲端語音信箱。 '
-ms.openlocfilehash: f53ae3ac948c7b50fa2e68a3fc10cf619299fd16
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: e0ddeac2230d057ac64237a6728e8e707f5d8958
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571554"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952476"
 ---
 # <a name="set-up-cloud-voicemail"></a>設定雲端語音信箱
 
@@ -40,7 +40,7 @@ ms.locfileid: "37571554"
   
 1. 如果您的方案中不包含電話系統功能，您可能需要購買 [**電話系統**附加元件授權]。 您可能也需要購買 Exchange Online 授權。 請參閱[Microsoft 團隊附加元件授權](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
     
-2. [指派或移除商務用 Office 365 的授權](http://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)、[指派 Microsoft 團隊授權](assign-teams-licenses.md)，以及 Exchange Online 授權給您企業中的人員。 完成之後，他們就可以接收語音信箱訊息了！
+2. [指派或移除商務用 Office 365 的授權](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)、[指派 Microsoft 團隊授權](assign-teams-licenses.md)，以及 Exchange Online 授權給您企業中的人員。 完成之後，他們就可以接收語音信箱訊息了！
     
 3. 已新增到2017年3月的語音信箱支援，且預設為所有組織和使用者啟用。 您可以使用 Windows PowerShell 來停用您組織的方式，並依照下列步驟進行。
 
@@ -50,15 +50,15 @@ ms.locfileid: "37571554"
   
 1. 如果您的方案中不包含電話系統功能，您可能需要購買 [**電話系統**附加元件授權]。 您也需要購買 Exchange Online 授權。 請參閱[Microsoft 團隊附加元件授權](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
     
-2. [指派或移除商務用 Office 365 的授權](http://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)、[指派 Microsoft 團隊授權](assign-teams-licenses.md)，以及 Exchange Online 授權給您企業中的人員。
+2. [指派或移除商務用 Office 365 的授權](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)、[指派 Microsoft 團隊授權](assign-teams-licenses.md)，以及 Exchange Online 授權給您企業中的人員。
     
-3. 遵循針對您的使用者部署的內部部署 PSTN 呼叫解決方案的指示。 如果是雲端連接器版本，請依照[設定商務用 Skype 雲端連接器版本指南](https://technet.microsoft.com/library/mt605228.aspx)中的 [**允許使用者使用電話系統語音及語音信箱服務**] 區段中的指示進行。 針對使用商務用 Skype Server 的 PSTN 通話，請遵循[啟用企業內部部署的使用者](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises)。 針對團隊直接傳送路線，請遵循設定[直接路由](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-configure#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail)的 [**設定電話號碼] 和 [啟用企業語音及語音信箱**] 區段。
+3. 遵循針對您的使用者部署的內部部署 PSTN 呼叫解決方案的指示。 如果是雲端連接器版本，請依照[設定商務用 Skype 雲端連接器版本指南](https://technet.microsoft.com/library/mt605228.aspx)中的 [**允許使用者使用電話系統語音及語音信箱服務**] 區段中的指示進行。 針對使用商務用 Skype Server 的 PSTN 通話，請遵循[啟用企業內部部署的使用者](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises)。 針對團隊直接傳送路線，請遵循設定[直接路由](https://docs.microsoft.com/microsoftteams/direct-routing-configure#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail)的 [**設定電話號碼] 和 [啟用企業語音及語音信箱**] 區段。
 
 4. 已新增到2017年3月的語音信箱支援，且預設為所有組織和使用者啟用。 您可以使用 Windows PowerShell 來停用您組織的方式，並依照下列步驟進行。
 
-5. 語音信箱訊息是透過透過 Exchange Online 防護路由的 SMTP 傳送給使用者的 Exchange 信箱。 若要啟用成功傳遞這些郵件，請確認 exchange 連接器已在 Exchange 伺服器與 Exchange Online 防護之間正確設定;[使用連接器來設定郵件流程](https://docs.microsoft.com/en-us/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)。 
+5. 語音信箱訊息是透過透過 Exchange Online 防護路由的 SMTP 傳送給使用者的 Exchange 信箱。 若要啟用成功傳遞這些郵件，請確認 exchange 連接器已在 Exchange 伺服器與 Exchange Online 防護之間正確設定;[使用連接器來設定郵件流程](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)。 
 
-6. 若要啟用語音信箱功能（例如自訂問候語），以及商務用 Skype 用戶端中的視覺語音信箱，必須從 Office 365 連線至 Exchange server 信箱（透過 Exchange Web 服務）。 若要啟用此連線，您必須設定 exchange[與 Exchange Online 組織之間的 [設定 Oauth 驗證](https://technet.microsoft.com/en-us/library/dn594521(v=exchg.150).aspx)] 中所述的新 Exchange Oauth 驗證通訊協定，或從 EXCHANGE 2013 CU5 執行 exchange 混合式嚮導，或等於. 此外，您必須在商務用[Skype online 與 Exchange server 之間設定整合與 oauth](https://docs.microsoft.com/en-us/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)中所述的商務用 skype Online 與 exchange server 之間設定整合與 oauth。 
+6. 若要啟用語音信箱功能（例如自訂問候語），以及商務用 Skype 用戶端中的視覺語音信箱，必須從 Office 365 連線至 Exchange server 信箱（透過 Exchange Web 服務）。 若要啟用此連線，您必須設定 exchange[與 Exchange Online 組織之間的 [設定 Oauth 驗證](https://technet.microsoft.com/library/dn594521(v=exchg.150).aspx)] 中所述的新 Exchange Oauth 驗證通訊協定，或從 EXCHANGE 2013 CU5 或更高版本執行 exchange 混合式嚮導。 此外，您必須在商務用[Skype online 與 Exchange server 之間設定整合與 oauth](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)中所述的商務用 skype Online 與 exchange server 之間設定整合與 oauth。 
 
 ## <a name="setting-voicemail-policies-in-your-organization"></a>設定組織中的語音信箱原則
 
@@ -70,7 +70,7 @@ ms.locfileid: "37571554"
 貴組織中的使用者收到的語音信箱訊息是在您的 Office 365 租使用者託管的地區中 transcribed。 您的租使用者主機所在的地區可能不是接收語音信箱訊息的使用者所在的地區。 若要查看您的租使用者所在的地區，請移至 [[組織設定檔](https://go.microsoft.com/fwlink/p/?linkid=2067339)] 頁面，然後按一下 [**資料位置**] 旁的 [**查看詳細**資料]。
 
 > [!IMPORTANT]
-> 您無法使用**CsOnlineVoiceMailPolicy** Cmdlet 來建立用來進行新的新原則遮罩，而且您無法使用 CsOnlineVoiceMailPolicy Cmdlet 移除現有**的**原則實例。.
+> 您無法使用**CsOnlineVoiceMailPolicy** Cmdlet 來建立用來進行新的新原則遮罩，且無法使用**remove-CsOnlineVoiceMailPolicy** Cmdlet 來移除現有的原則實例。
 
 您可以使用語音信箱原則管理使用者的 [使用中] 設定。 若要查看所有可用的語音信箱原則實例，您可以使用[CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798311.aspx) Cmdlet。
 
@@ -82,7 +82,7 @@ ms.locfileid: "37571554"
 
 您的組織的預設設定是開啟，您可能會想要使用 [[設定] CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798310.aspx)停用它。 若要這樣做，請執行：
 
-```
+```PowerShell
 Set-CsOnlineVoicemailPolicy -EnableTranscription $false
 ```
 
@@ -90,7 +90,7 @@ Set-CsOnlineVoicemailPolicy -EnableTranscription $false
 
 預設情況下，您的組織會停用 [只提供猥褻遮罩] 功能。 如果有業務需求可啟用它，您可以使用 [[設定] CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798310.aspx)來啟用「轉譯猥褻遮罩」。 若要這樣做，請執行：
 
-```
+```PowerShell
 Set-CsOnlineVoicemailPolicy -EnableTranscriptionProfanityMasking $true
 ```
 
@@ -100,7 +100,7 @@ Set-CsOnlineVoicemailPolicy -EnableTranscriptionProfanityMasking $true
 
 若要停用單一使用者的操作，請執行：
 
-```
+```PowerShell
 Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionDisabled -Identity sip:amosmar@contoso.com
 ```
 
@@ -110,7 +110,7 @@ Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionDisabled -Identity sip:am
 
 若要針對單一使用者啟用 [只使用「猥褻] 遮罩，請執行：
 
-```
+```PowerShell
 Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionProfanityMaskingEnabled -Identity sip:amosmar@contoso.com
 ```
 
@@ -130,6 +130,6 @@ Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionProfanityMaskingEnabled -
 
 [以下是您在 Office 365 中使用電話系統所取得的結果](here-s-what-you-get-with-phone-system.md)
 
-[規劃商務用 Skype Server 與 Exchange Server 遷移](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/plan-um-migration)
+[規劃商務用 Skype 和 Exchange Server 的先決條件的移轉](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-um-migration)
 
 

@@ -20,12 +20,12 @@ f1keywords:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 686b0bc48cd2f6df590172d53618d96ca775aae0
-ms.sourcegitcommit: 1bb776e6c03086ca997d45b9b44660c4e426e8a4
+ms.openlocfilehash: bc541b3b1bc7c7aba723d7573224679b5900a550
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39984533"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952826"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>管理 Microsoft 團隊中的 app 許可權原則
 
@@ -121,15 +121,15 @@ ms.locfileid: "39984533"
 > 請依照在[單一 Windows PowerShell 視窗中連線至 [所有 Office 365 服務]](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)中的步驟，確認您首先連線至 [圖形模組] 和 [商務用 Skype] powershell 模組的 [Azure Active Directory PowerShell]。
 
 取得特定群組的 GroupObjectId。
-```
+```PowerShell
 $group = Get-AzureADGroup -SearchString "Contoso Pharmaceuticals HR Project"
 ```
 取得指定群組的成員。
-```
+```PowerShell
 $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
 ```
 將群組中的所有使用者指派給特定的 app 許可權原則。 在這個範例中，它是人力資源應用程式許可權原則。
-```
+```PowerShell
 $members | ForEach-Object { Grant-CsTeamsAppPermissionPolicy -PolicyName "HR App Permission Policy" -Identity $_.UserPrincipalName}
 ``` 
 根據群組中的成員數目而定，此命令可能需要幾分鐘的時間執行。

@@ -14,12 +14,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: lavenkat
 description: 快速開始使用中小型企業的團隊範本
-ms.openlocfilehash: acde79c2f7ce13088de1f80f968551ead2768fbf
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 3ca5e78f3a61f1e272960dc1d7338bd06f81d4c6
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568664"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952766"
 ---
 # <a name="get-started-with-teams-templates-for-small-and-medium-businesses"></a>快速開始使用中小型企業的團隊範本
 
@@ -34,7 +34,7 @@ Microsoft 團隊範本可讓您透過提供預先定義的設定、頻道及預�
 
 | 基底範本類型  | baseTemplateId | 此基礎範本隨附的屬性 |
 | :------------------ | :-------------- | :----------------------------------------------------- | 
-| SMB <br>整個公司 | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessOrgWide')`| 管道 <ul><li>一般\*</li><li>人力資源\*</li><li>有趣的內容\*</li></ul><br> 應用<ul><li>公司入口網站（已固定至**人力資源**頻道的網站） </li> </UL><br>團隊屬性 <ul><li>[團隊可見度] 設定為 [私人]</li></ul> |
+| SMB <br>整個公司 | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessOrgWide')`| 頻道 <ul><li>一般\*</li><li>人力資源\*</li><li>有趣的內容\*</li></ul><br> 應用程式<ul><li>公司入口網站（已固定至**人力資源**頻道的網站） </li> </UL><br>團隊屬性 <ul><li>[團隊可見度] 設定為 [私人]</li></ul> |
 
 * 自動將通道 
 
@@ -58,7 +58,7 @@ Content-Type: application/json
 
 | 基底範本類型  | baseTemplateId | 此基礎範本隨附的屬性 |
 | :------------------ | :-------------- | :----------------------------------------------------- | 
-| SMB <br>主管小組 | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessExecutive')` | 管道 <ul><li>一般\*</li><li>私有\*</li></ul> 應用<ul><li>OneNote （已釘選到**私人**頻道）</li> <li>Planner （釘選到**私人**頻道） </li></ul><br>團隊屬性 <ul><li>[團隊可見度] 設定為 [私人]</li></ul> | 
+| SMB <br>主管小組 | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessExecutive')` | 頻道 <ul><li>一般\*</li><li>私有\*</li></ul> 應用程式<ul><li>OneNote （已釘選到**私人**頻道）</li> <li>Planner （釘選到**私人**頻道） </li></ul><br>團隊屬性 <ul><li>[團隊可見度] 設定為 [私人]</li></ul> | 
 
 * 自動將通道<br>
 
@@ -82,7 +82,7 @@ Content-Type: application/json
 
 | 基底範本類型 | baseTemplateId | 此基礎範本隨附的屬性 |
 |:------------------ | :-------------- | :----------------------------------------------------- | 
-| SMB <br>財務  | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessFinance')`| 管道 <ul><li>一般\*</li><li>私有\*</li></ul><br> 應用<ul><li>OneNote （已釘選到**私人**頻道）</li> <li>Planner （釘選到**私人**頻道） </li> </ul><br>團隊屬性 <ul><li>[團隊可見度] 設定為 [私人]</li></ul> | 
+| SMB <br>財務  | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessFinance')`| 頻道 <ul><li>一般\*</li><li>私有\*</li></ul><br> 應用程式<ul><li>OneNote （已釘選到**私人**頻道）</li> <li>Planner （釘選到**私人**頻道） </li> </ul><br>團隊屬性 <ul><li>[團隊可見度] 設定為 [私人]</li></ul> | 
 
 * 自動將通道
 
@@ -98,11 +98,11 @@ Content-Type: application/json
     "description": "All posts, announcements and daily collaboration and communication within the Finance team members (and exec team members as appropriate).",
     "visibility": "Private"
 }
-``
+```
 
-### Example: Finance Team template extension script
+### <a name="example-finance-team-template-extension-script"></a>範例：財務小組範本延伸腳本
 
-``` Powershell
+```powershell
 {
   "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates('standard')",
   "displayName": "Finance",
@@ -173,6 +173,6 @@ Content-Type: application/json
 
 ## <a name="related-topics"></a>相關主題
 
-- [團隊範本快速入門](get-started-with-teams-templates.md)
+- [開始使用 Teams 範本](get-started-with-teams-templates.md)
 - [建立小組](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta)（在預覽中）
 

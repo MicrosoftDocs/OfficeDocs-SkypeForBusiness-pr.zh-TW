@@ -12,12 +12,12 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 description: 請閱讀本主題，以瞭解 Microsoft 團隊聊天室（即新一代 Skype 房間系統）的管理。
-ms.openlocfilehash: aeab9235b54138d649cee2f5e67a76a109c36c6a
-ms.sourcegitcommit: b8e16703e4611ca2bde55896ec158b33be4f9ba0
+ms.openlocfilehash: 4e1c554d5ae21d845fed9a543875feb631e0e264
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39842475"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952726"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft 團隊會議室維護和作業 
  
@@ -32,7 +32,7 @@ Microsoft [團隊聊天室] 是 Microsoft 的最新會議解決方案，旨在�
 
 若要收集記錄，您必須呼叫由 Microsoft 團隊聊天室應用程式隨附的記錄集合腳本。 在 [系統管理模式] 中，啟動提升許可權的命令提示字元，然後發出下列命令：
   
-```
+```PowerShell
 powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1
 ```
 
@@ -116,7 +116,7 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
     
 取得連接的裝置
   
-```
+```PowerShell
 invoke-command {Write-Host "VIDEO DEVICES:" 
 gwmi -Class Win32_PnPEntity | where {$_.PNPClass -eq "Image"} | Format-Table Name,Status,Present; Write-Host "AUDIO DEVICES:" 
 gwmi -Class Win32_PnPEntity | where {$_.PNPClass -eq "Media"} | Format-Table Name,Status,Present; Write-Host "DISPLAY DEVICES:" 
@@ -125,26 +125,26 @@ gwmi -Class Win32_PnPEntity | where {$_.PNPClass -eq "Monitor"} | Format-Table N
 
 取得 App 狀態
   
-```
+```PowerShell
 invoke-command { $package = get-appxpackage -User Skype -Name Microsoft.SkypeRoomSystem; if ($package -eq $null) {Write-host "SkypeRoomSystems not installed."} else {write-host "SkypeRoomSystem Version : " $package.Version}; $process = Get-Process -Name "Microsoft.SkypeRoomSystem" -ErrorAction SilentlyContinue; if ($process -eq $null) {write-host "App not running."} else {$process | format-list StartTime,Responding}}  -ComputerName <Device fqdn>
 ```
 
 取得系統資訊
   
-```
+```PowerShell
 invoke-command {gwmi -Class Win32_ComputerSystem | Format-List PartOfDomain,Domain,Workgroup,Manufacturer,Model
 gwmi -Class Win32_Bios | Format-List SerialNumber,SMBIOSBIOSVersion} -ComputerName <Device fqdn>
 ```
 
 重新開機系統
   
-```
+```PowerShell
 invoke-command { Shutdown /r /t 0 } -ComputerName <Device fqdn>
 ```
 
 檢索記錄
   
-```
+```PowerShell
 $targetDevice = "<Device fqdn> "
 $logFile = invoke-command {$output = Powershell.exe -ExecutionPolicy Bypass -File C:\Rigel\x64\Scripts\Provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1
 Get-ChildItem -Path C:\Rigel\*.zip | Sort-Object -Descending -Property LastWriteTime | Select-Object -First 1} -ComputerName $targetDevice
@@ -154,7 +154,7 @@ Copy-Item -Path $logFile.FullName -Destination .\ -FromSession $session; invoke-
 
 推入 XML 設定檔（或主題圖形）
   
-```
+```XML
 $movefile = "<path>";
 $targetDevice = "\\<Device fqdn> \Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState\SkypeSettings.xml"; 
 Copy-Item $movefile $targetDevice 
@@ -174,7 +174,7 @@ Copy-Item $movefile $targetDevice
 1. 從安裝[MSI](https://go.microsoft.com/fwlink/?linkid=851168)將套件解壓縮至裝置可以存取的共用。
 2. 針對 Microsoft 團隊聊天室裝置執行下列腳本，視需要將\<共用\>變更為裝置共用：
     
-```
+```PowerShell
 Add-AppxPackage -Update -ForceApplicationShutdown -Path '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\*.appx' -DependencyPath (Get-ChildItem '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\Dependencies\x64\*.appx' | Foreach-Object {$_.FullName})
 ```
 

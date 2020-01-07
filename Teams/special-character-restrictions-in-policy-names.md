@@ -19,12 +19,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords:
 - ms.teamsadmincenter.policies.naming.error
 description: 查看原則名稱中有哪些特殊字元，以及您可以執行哪些動作來修正這些問題。
-ms.openlocfilehash: 169f427cc0efc444adfbc7e0f8056337e615f733
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: a3e7bccc78641a07b7e2f2b02e12b6fe501f2405
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568653"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952756"
 ---
 # <a name="what-are-the-special-character-restrictions-in-teams-policies"></a>團隊原則中的特殊字元限制是什麼？
 
@@ -40,7 +40,7 @@ ms.locfileid: "37568653"
 
 **步驟 1-使用 PowerShell 進行遠端連線。**
 如果您尚未[設定您的 Windows PowerShell 電腦，請進行設定](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)。
-```
+```PowerShell
  Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
  $credential = Get-Credential
  $session = New-CsOnlineSession -Credential $credential
@@ -53,7 +53,7 @@ ms.locfileid: "37568653"
 > [!NOTE]
 > 這個範例是針對[訊息](https://docs.microsoft.com/powershell/module/skype/get-csteamsmessagingpolicy?view=skype-ps)原則。  這些步驟對於其他原則類型是相同的，但您必須使用正確的 Cmdlet。 
 
-  ```
+  ```PowerShell
   Get-CsTeamsMessagingPolicy -id <old_policy_name>
   ```
 
@@ -64,11 +64,11 @@ ms.locfileid: "37568653"
 
 執行此操作會為您建立新的原則，但您必須透過 [[設定] CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) ，然後執行才能新增正確的設定：
 
-  ```
+  ```PowerShell
   Set-CsTeamsMessagingPolicy -id <new_policy_name>
  ```
 **步驟 4-指派原則。**
- ```
+ ```PowerShell
 Grant-CsTeamsMessagingPolicy -Policy <new_policy_name>
  ```
 如需此 Cmdlet 的詳細資訊，請參閱[授權 CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmessagingpolicy?view=skype-ps) 。
@@ -76,14 +76,14 @@ Grant-CsTeamsMessagingPolicy -Policy <new_policy_name>
 **步驟 5-刪除舊原則。**
 
 這將會刪除含有特殊字元的舊原則。
-  ```
+  ```PowerShell
   Remove-CsTeamsMessagingPolicy -identity <old_policy_name>
   ```
 如需此 Cmdlet 的詳細資訊，請參閱[CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/remove-csteamsmessagingpolicy?view=skype-ps) 。
 
 如果這個命令成功，您就大功告成了。 如果上述命令傳回錯誤，這是因為舊原則已指派給使用者，因此您需要執行才能從原則中移除所有指派的使用者：
 
-```
+```PowerShell
 Grant-CsMessagingPolicy -Policy <old_policy_name> $null
 ```
 ### <a name="want-to-know-how-to-manage-with-windows-powershell"></a>想知道如何使用 Windows PowerShell 進行管理嗎？

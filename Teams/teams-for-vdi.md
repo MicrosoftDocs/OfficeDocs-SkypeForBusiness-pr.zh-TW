@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4c63195f4732931083a12a455b79d77d9c1e6b01
-ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
+ms.openlocfilehash: 2afe86014bcce01d60ceef768f6f888718c3696c
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/17/2019
-ms.locfileid: "40069344"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952846"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>虛擬化桌面基礎結構的團隊
 
@@ -262,7 +262,7 @@ Chrome 瀏覽器上的小組無法使用 AV 優化來為 VDI 的小組桌面應�
 
 下列範例顯示如何使用[授與 CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy) ，將 DisallowCalling 通話原則指派給使用者。
 
-```
+```PowerShell
 Grant-CsTeamsCallingPolicy -PolicyName DisallowCalling -Identity “user email id”
 ```
 
@@ -270,7 +270,7 @@ Grant-CsTeamsCallingPolicy -PolicyName DisallowCalling -Identity “user email i
 
 下列範例顯示如何使用[授與 CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy) ，將 AllOff 會議原則指派給使用者。
 
-```
+```PowerShell
 Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity “user email id”
 ```
 
@@ -314,7 +314,7 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity “user email id”
 
 下列範例顯示如何使用[授與 CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy) ，將 AllowCalling 通話原則指派給使用者。
 
-```
+```PowerShell
 Grant-CsTeamsCallingPolicy -PolicyName AllowCalling -Identity “user email id”
 ```
 
@@ -322,7 +322,7 @@ Grant-CsTeamsCallingPolicy -PolicyName AllowCalling -Identity “user email id�
 
 下列範例顯示如何使用[授與 CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy) ，將 AllOn 會議原則指派給使用者。
 
-```
+```PowerShell
 Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity “user email id”
 ```
 

@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 56d622a3a8757ca377c75bea79028dc5587b6bb8
-ms.sourcegitcommit: ed7439d03e37c9c0184daf5215a68c5492932a83
+ms.openlocfilehash: fcf18aa2487527c436b104011140524e6ce4ae5d
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "38290973"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952806"
 ---
 # <a name="quality-of-experience-review-guide"></a>體驗品質的審查指南
 
@@ -83,7 +83,7 @@ _圖 1-本指南涵蓋的主要操作區域_
 當您在小組和商務用 Skype 中討論品質時，請務必定義一個術語來達成共同的認識。 如這裡所定義的品質，是服務規格與使用者經驗的結合。
 
 <!-- Note: need to update graphic-->
-![服務度量和使用者體驗的圖例](media/qerguide-image-whatisquality.png "Service 量度是由資料流程比例差、可靠性、端點/裝置和用戶端版本所組成。使用者體驗是由使用者對服務品質的感覺所組成。」)
+![服務度量和使用者體驗的圖例](media/qerguide-image-whatisquality.png "服務規格是由較差的資料流程比率、可靠性、端點/裝置及用戶端版本所組成。使用者體驗是由使用者對服務品質的感覺所組成。")
 
 _圖 2-什麼是品質？_
 
@@ -225,7 +225,7 @@ _圖 3-小組和商務用 Skype Online 部署的重要類別_
 當您第一次執行這些工作時，會比後續反覆運算需要更多的精力，因為其中許多類別都需要您驗證部署設定。 在您達到已定義的目標之後，若要完成所需的狀態，請執行這些工作將協助您維護該狀態。
 
 <!--  This is a net new graphic, never was included in the online article. OOPS! -->
-![每個品質類別的每週工作清單](media/qerguide-image-tasks.png "L每個品質類別的每週作業 ist ")
+![每個品質類別的每週工作清單](media/qerguide-image-tasks.png "每個品質類別的每週工作清單")
 
 #### <a name="service-management-tasks"></a>服務管理工作
 
@@ -323,7 +323,7 @@ _圖 4-CQD 報表類別_
 
 2. 出現提示時，請開啟 Azure PowerShell 命令視窗並執行下列腳本，並輸入您的 Office 365 認證： 
 
-   ```
+   ```PowerShell
    Login-AzureRmAccount
    ```
 
@@ -345,7 +345,7 @@ _圖 4-CQD 報表類別_
 
 2. 執行下列命令：
 
-   ```
+   ```PowerShell
    (Get-cstenant).tenantid
    ```
 
@@ -367,7 +367,7 @@ _圖 5-選取產品篩選器_
 
 若要篩選所有詳細的報表，請在瀏覽器列中，將下列專案附加到 URL 的結尾：
 
-```
+```PowerShell
 /filter/[AllStreams].[Is Teams]|[FALSE]
 ```
 
@@ -531,7 +531,7 @@ _圖 11-查詢編輯器_
 
 若要實現 URL 篩選，請在瀏覽器位址列中，將下列專案附加到 URL 的結尾：
 
-```
+```PowerShell
 /filter/[AllStreams].[Second Tenant Id]\|[YOUR TENANT ID HERE]
 ```
 
@@ -541,7 +541,7 @@ _圖 11-查詢編輯器_
 
 若要篩選團隊或商務用 Skype 的報表，請將下列專案附加到 URL 的結尾：
 
-```
+```PowerShell
 /filter/[AllStreams].[Is Teams]|[TRUE | FALSE]
 ```
 
@@ -791,7 +791,7 @@ _圖 17-缺少建立報告_
 
 如需此工具的詳細資訊，請參閱[此博客文章](https://aka.ms/cqdtools)。
 
-#### <a name="network-planner"></a>網路 Planner
+#### <a name="network-planner"></a>網路規劃中心
 
 網路 Planner 只需幾個簡單的步驟，就能判斷及組織您雲端語音部署的網路需求。 透過提供貴組織的網路詳細資料和雲端語音使用，您可以大致計算雲端語音部署的網路需求、管理及匯出這些詳細資料以進行報告，以及查看區域以進行進一步調查以及後續步驟。
 

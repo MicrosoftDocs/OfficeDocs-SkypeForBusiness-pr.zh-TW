@@ -1,6 +1,5 @@
 ---
 title: 音訊會議與通話方案的適用國家/地區
-ms.date: 03/18/2019
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -25,12 +24,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 您可以選取國家/地區，查看音訊會議、電話系統、通話方案、通訊點數，以及是否有可用的付費和免費電話號碼。
-ms.openlocfilehash: d98e085667c97dbf4b4afc6dfc67fe1eb847d731
-ms.sourcegitcommit: cb394272050d049ebceedb7df835b86362dfd8d1
+ms.openlocfilehash: 4d7e1f2f4481baf51c6c3f619f47dc9440d957da
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/18/2019
-ms.locfileid: "40741387"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952436"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>音訊會議與通話方案的適用國家/地區
 
@@ -40,13 +39,13 @@ ms.locfileid: "40741387"
 
 > [!div class="op_single_selector"]
 > - [阿爾及利亞](availability-in-algeria.md)
-> - [安提瓜與巴布達](availability-in-antigua-and-barbuda.md)
+> - [安地卡及巴布達](availability-in-antigua-and-barbuda.md)
 > - [阿根廷](availability-in-argentina.md)
 > - [澳洲](availability-in-australia.md)
 > - [奧地利](availability-in-austria.md)
 > - [巴哈馬](availability-in-the-bahamas.md)
 > - [巴林](availability-in-bahrain.md)
-> - [島](availability-in-barbados.md)
+> - [巴貝多](availability-in-barbados.md)
 > - [白俄羅斯](availability-in-belarus.md)
 > - [比利時](availability-in-belgium.md)
 > - [貝里斯](availability-in-belize.md)
@@ -67,7 +66,7 @@ ms.locfileid: "40741387"
 > - [賽普勒斯](availability-in-cyprus.md)
 > - [捷克](availability-in-the-czech-republic.md)
 > - [丹麥](availability-in-denmark.md)
-> - [Dominica](availability-in-dominica.md)
+> - [多米尼克](availability-in-dominica.md)
 > - [多明尼加共和國](availability-in-the-dominican-republic.md)
 > - [厄瓜多](availability-in-ecuador.md)
 > - [埃及](availability-in-egypt.md)
@@ -121,7 +120,7 @@ ms.locfileid: "40741387"
 > - [卡達](availability-in-qatar.md)
 > - [羅馬尼亞](availability-in-romania.md)
 > - [俄羅斯](availability-in-russia.md)
-> - [聖基茨與尼維斯](availability-in-saint-kitts-and-nevis.md)
+> - [聖克里斯多福及尼維斯](availability-in-saint-kitts-and-nevis.md)
 > - [聖露西亞](availability-in-saint-lucia.md)
 > - [沙烏地阿拉伯](availability-in-saudi-arabia.md)
 > - [塞爾維亞](availability-in-serbia.md)
@@ -147,7 +146,7 @@ ms.locfileid: "40741387"
 > - [委內瑞拉](availability-in-venezuela.md)
 > - [越南](availability-in-vietnam.md)
 
-**如果您要尋找含有所有國家和地區的試算表，請下載並儲存[雲端語音功能國家/地區可用性試算表](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-12182019)-(en-us).xlsx?raw=true)**。
+**如果您要尋找含有所有國家和地區的試算表，請下載並儲存[雲端語音功能國家/地區可用性試算表](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-01012020)-(en-us).xlsx?raw=true)**。
 
 ***
 
