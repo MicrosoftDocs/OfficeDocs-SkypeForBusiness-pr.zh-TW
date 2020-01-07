@@ -788,6 +788,7 @@
 ### [喬治亞](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-georgia.md)
 ### [迦納](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ghana.md)
 ### [德國](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-germany.md)
+### [迦納](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ghana.md)
 ### [希臘](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-greece.md)
 ### [格瑞那達](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-grenada.md)
 ### [關島](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-guam.md)
@@ -812,8 +813,8 @@
 ### [馬爾他](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-malta.md)
 ### [墨西哥](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-mexico.md)
 ### [摩爾多瓦](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-moldova.md)
-### [摩洛哥](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-morocco.md)]
 ### [摩納哥](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-monaco.md)
+### [摩洛哥](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-morocco.md)
 ### [荷蘭](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-netherlands.md)
 ### [紐西蘭](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-new-zealand.md)
 ### [奈及利亞](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-nigeria.md)
