@@ -3,27 +3,6 @@
 
 
 
-## <a name="week-of-november-25-2019"></a>2019年11月25日
-
-
-| 發佈日期 |主題標題 | 切換 |
-|------|------------|--------|
-| 11/25/2019 | [媒體旁路搭配直接路由方案](/MicrosoftTeams/direct-routing-plan-media-bypass) | 日期 |
-| 11/25/2019 | [規劃直接路由](/MicrosoftTeams/direct-routing-plan) | 日期 |
-| 11/25/2019 | [Microsoft 團隊 PSTN 使用方式報告](/MicrosoftTeams/teams-analytics-and-reports/pstn-usage-report) | 日期 |
-| 11/26/2019 | [在您的 Office 365 組織中開啟 Microsoft 團隊](/MicrosoftTeams/office-365-set-up) | 日期 |
-| 11/26/2019 | [設定動態緊急電話](/MicrosoftTeams/configure-dynamic-emergency-calling) | 日期 |
-| 11/26/2019 | [設定依位置路由的網路設定](/MicrosoftTeams/location-based-routing-configure-network-settings) | 日期 |
-| 11/26/2019 | [啟用直接路由的依位置路由](/MicrosoftTeams/location-based-routing-enable) | 日期 |
-| 11/26/2019 | [規劃直接路由的依位置路由](/MicrosoftTeams/location-based-routing-plan) | 日期 |
-| 11/26/2019 | 依位置路由術語 | 移除 |
-| 11/26/2019 | [管理 Microsoft 團隊中的緊急通話路由原則](/MicrosoftTeams/manage-emergency-call-routing-policies) | 日期 |
-| 11/26/2019 | [管理 Microsoft 團隊中的緊急通話原則](/MicrosoftTeams/manage-emergency-calling-policies) | 日期 |
-| 11/26/2019 | [規劃緊急通話、緊急位址、緊急通話路由、動態緊急通話](/MicrosoftTeams/what-are-emergency-locations-addresses-and-call-routing) | 日期 |
-| 11/26/2019 | [Microsoft Teams 使用者的導學型訓練與影片](/MicrosoftTeams/instructor-led-training-teams-landing-page) | 日期 |
-| 11/27/2019 | [日本的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-japan) | 日期 |
-
-
 ## <a name="week-of-december-02-2019"></a>2019年12月2日
 
 
@@ -141,3 +120,11 @@
 | 發佈日期 |主題標題 | 切換 |
 |------|------------|--------|
 | 12/27/2019 | [什麼是撥號對應表？](/MicrosoftTeams/what-are-dial-plans) | 日期 |
+
+
+## <a name="week-of-december-30-2019"></a>2019年12月30日
+
+
+| 發佈日期 |主題標題 | 切換 |
+|------|------------|--------|
+| 1/2/2020 | [Microsoft 團隊中的私人頻道](/MicrosoftTeams/private-channels) | 日期 |

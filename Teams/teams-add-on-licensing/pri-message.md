@@ -17,16 +17,20 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 瞭解團隊訊息中的優先順序通知。
-ms.openlocfilehash: d5ef07a2aff31281d8d0429c74751bf53ec7e556
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 4e39af4c400fef5b44e0994d95821ea9005edbba
+ms.sourcegitcommit: 1329ddd54d2a22c493677581c838eb6b3456bacc
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572440"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "40947073"
 ---
-# <a name="messaging-policies-licensing"></a>郵件服務原則授權
+# <a name="messaging-policies-licensing"></a>訊息原則授權
 
-從2020年1月1日起，已授權的使用者將能夠根據訂閱的期限，以優先順序通知傳送緊急郵件。 IT 系統管理員會針對優先順序通知的使用提供報告，以支援適當的使用者授權。 無論授權為何，使用者都能透過優先順序通知接收不受限制的緊急訊息。 
+在2020年4月1日之前，所有使用者都可以使用 Microsoft 團隊中的無限制優先順序通知。 此促銷已延伸至2020年4月 2019 31 日之原始結束日期的年4月1日。 在4月1日之後，授權的使用者就能根據訂閱期限傳送優先順序通知。
+
+如2019年6月所宣告，當使用者有權存取優先順序通知功能時，可以將小組訊息標示為緊急。 緊急訊息會傳送優先順序通知，通知收件者的持續時間為20分鐘，或收件者閱讀郵件時的每兩分鐘。 此功能可最大化處理郵件的可能性。
+
+IT 系統管理員會針對優先順序通知的使用提供報告，以支援適當的使用者授權。 無論授權為何，使用者都能透過優先順序通知接收不受限制的緊急訊息。 [深入瞭解優先順序通知](https://docs.microsoft.com/MicrosoftTeams/messaging-policies-in-teams)。
 
 |區段| |每個月最多傳送5封郵件| 每個使用者傳送不含限制的郵件|
 |---|---|---|---|
