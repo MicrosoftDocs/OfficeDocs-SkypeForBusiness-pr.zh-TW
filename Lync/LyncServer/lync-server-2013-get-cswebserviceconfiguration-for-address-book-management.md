@@ -1,0 +1,67 @@
+---
+title: Lync Server 2013：針對通訊錄管理取得 CsWebServiceConfiguration
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Get-CsWebServiceConfiguration for Address Book management
+ms:assetid: 0b223733-5224-47d1-9b47-2109e6f135c9
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429692(v=OCS.15)
+ms:contentKeyID: 48183372
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 7e88d13a910a7883f88ceadc28225cbaa85bb17b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "40982798"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
+
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="get-cswebserviceconfiguration-for-address-book-management-in-lync-server-2013"></a>在 Lync Server 2013 中取得通訊錄管理的 CsWebServiceConfiguration
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主題上次修改日期：** 2012-11-01_
+
+誰可以執行這個 Cmdlet：根據預設，下列群組的成員有權在本機執行 CsWebServiceConfiguration Cmdlet： RTCUniversalUserAdmins、RTCUniversalServerAdmins。 若要傳回已指派這個 Cmdlet 的所有角色式存取控制（RBAC）角色的清單（包括您自行建立的任何自訂 RBAC 角色），請在 Windows PowerShell 提示中執行下列命令：
+
+    Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Get-CsWebServiceConfiguration"}
+
+CsWebServiceConfiguration 會傳回貴組織目前所使用之 Web 服務設定的資訊。 通訊錄服務感興趣是通訊群組清單延伸功能的狀態。 如果屬性 EnableGroupExpansion 為 True，您的組織目前允許群組延伸。
+
+例如：
+
+    Get-CsWebServiceConfiguration -Identity site:Redmond
+
+<div>
+
+## <a name="see-also"></a>請參閱
+
+
+[CsWebServiceConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsWebServiceConfiguration)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+
