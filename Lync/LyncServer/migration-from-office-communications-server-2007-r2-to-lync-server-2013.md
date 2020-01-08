@@ -1,0 +1,111 @@
+---
+title: 從 Office Communications Server 2007 R2 移轉至 Lync Server 2013
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Migration from Office Communications Server 2007 R2 to Lync Server 2013
+ms:assetid: f3fa4f5f-e9a2-4fb7-a12d-20f04173e697
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205375(v=OCS.15)
+ms:contentKeyID: 48185802
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 43064d265bc08cab3721d0f19fd7f89184871f0e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "40975959"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
+
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="migration-from-office-communications-server-2007-r2-to-lync-server-2013"></a>從 Office Communications Server 2007 R2 移轉至 Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主題上次修改日期：** 2012-10-19_
+
+本節中的主題會引導您完成從 Office 通訊伺服器 2007 R2 遷移到 Lync Server 2013 的程式
+
+<div>
+
+
+> [!IMPORTANT]  
+> 本檔說明完成每個遷移階段通常需要執行的步驟。 它不會針對每個可能的舊版部署拓撲或每個可能的遷移案例進行處理。 因此，您可能不需要執行所述的每個步驟，或者您可能需要執行其他步驟（視您的部署而定）。 本檔也提供驗證步驟的範例。 提供這些驗證步驟是為了協助您瞭解所需尋找的專案，以確保每個階段都能在您完成遷移時順利完成。 將這些驗證步驟調整為您特定的遷移程式。
+
+
+
+</div>
+
+本指南提供升級現有部署的相關資訊。 它不會說明如何變更您現有的拓撲。 本指南並未涵蓋新功能的實現。 在其他地方記錄詳細的程式時，本指南會將您導向至適當的檔或檔區段。
+
+此檔會根據下列清單中所指定的方式來定義字詞。
+
+  - *移動*  
+    將您的生產部署從舊版 Office 通訊伺服器 2007 R2 移至 Lync Server 2013。
+
+<!-- end list -->
+
+  - *更新*  
+    在伺服器或用戶端電腦上安裝更新版本的軟體。
+
+<!-- end list -->
+
+  - *共存*  
+    當某些功能已遷移至 Lync Server 2013 且其他功能仍保留在舊版 Office 通訊伺服器 2007 R2 中時，在遷移期間所存在的臨時環境。
+
+<!-- end list -->
+
+  - *互通性*  
+    您的部署在共存期間成功運作的能力。
+
+<div>
+
+## <a name="in-this-section"></a>本節內容
+
+  - [開始移轉之前](before-you-begin-the-migration_1.md)
+
+  - [移轉階段](migration-phases_1.md)
+
+  - [階段1：從 Office 通訊伺服器 2007 R2 規劃遷移](phase-1-plan-your-migration-from-office-communications-server-2007-r2.md)
+
+  - [階段 2：準備移轉](phase-2-prepare-for-migration_1.md)
+
+  - [階段3：部署 Lync Server 2013 試用版池](phase-3-deploy-lync-server-2013-pilot-pool_1.md)
+
+  - [階段4：合併拓撲](phase-4-merge-topologies.md)
+
+  - [階段5：設定試生產池](phase-5-configure-the-pilot-pool.md)
+
+  - [階段6：將使用者移至 [試驗] 池](phase-6-move-users-to-the-pilot-pool.md)
+
+  - [階段7：將 Lync Server 2013 Edge 伺服器新增到 [試驗] 池](phase-7-add-lync-server-2013-edge-server-to-pilot-pool.md)
+
+  - [階段8：從試驗部署移至生產環境](phase-8-move-from-pilot-deployment-into-production.md)
+
+  - [階段9：完成遷移後的工作](phase-9-complete-post-migration-tasks.md)
+
+  - [階段10：解除授權舊版網站](phase-10-decommission-legacy-site.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+

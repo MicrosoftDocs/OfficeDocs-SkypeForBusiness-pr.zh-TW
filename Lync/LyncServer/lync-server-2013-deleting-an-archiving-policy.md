@@ -1,0 +1,125 @@
+---
+title: Lync Server 2013：刪除存檔原則
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deleting an Archiving policy
+ms:assetid: 4739a691-41cc-4128-8bb8-6d5a4c02107a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520989(v=OCS.15)
+ms:contentKeyID: 48184043
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 3f151a940958273509191b35ed817409ba52b6dd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "40977739"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
+
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="deleting-an-archiving-policy-in-lync-server-2013"></a>刪除 Lync Server 2013 中的存檔原則
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主題上次修改日期：** 2013-02-23_
+
+您可以刪除使用者原則或網站原則。 無法移除全域原則。 如果您嘗試刪除全域原則，Lync Server 2013 會自動將原則重設為預設值。
+
+<div>
+
+
+> [!NOTE]  
+> 如果您已針對您的部署啟用 Microsoft Exchange 整合，Exchange 原則會控制是否針對託管于 Exchange 2013 的使用者啟用封存，並將其信箱放在就地保留中。 如需詳細資訊，請參閱在部署檔中<A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">使用 Exchange Server 整合時，在 Lync Server 2013 中設定存檔原則</A>。
+
+
+
+</div>
+
+<div>
+
+## <a name="to-delete-a-user-or-site-policy-for-archiving"></a>刪除使用者或網站原則以進行封存
+
+1.  從指派給 CsArchivingAdministrator 或 CsAdministrator 角色的使用者帳戶登入內部部署中的任何電腦。
+
+2.  開啟瀏覽器視窗，然後輸入系統管理員 URL，以開啟 Lync Server [控制台]。 如需可用於啟動 Lync Server [控制台] 的不同方法的詳細資訊，請參閱[開啟 Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+
+3.  在左側導覽列中，按一下 [**監視及**封存]，然後按一下 [封存**原則**]。
+
+4.  在歸檔原則清單中，按一下您要刪除的使用者或網站原則，按一下 [**編輯**]，然後按一下 [**刪除**]。
+
+5.  按一下 [認可]****。
+
+</div>
+
+<div>
+
+## <a name="removing-archiving-policies-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 移除存檔原則
+
+您可以使用 Windows PowerShell 和**CsArchivingPolicy** Cmdlet 來刪除存檔原則。 這個 Cmdlet 可以從 Lync Server 2013 管理命令介面或從 Windows PowerShell 的遠端會話中執行。 如需使用遠端 Windows PowerShell 連線至 Lync Server 的詳細資料，請參閱 Lync Server Windows PowerShell 博客文章「快速入門：使用遠端 PowerShell 管理 Microsoft Lync Server 2010」 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。
+
+<div>
+
+## <a name="to-remove-a-specified-archiving-policy"></a>移除指定的存檔原則
+
+  - 舉例來說， **Remove-CsArchivingPolicy**會刪除具有身分識別網站：雷德蒙的原則。 請注意，當您在網站範圍中設定原則時，系統會自動使用全域存檔原則來控制先前由網站原則管理的使用者。 下列命令會移除套用至雷德蒙者網站的存檔：
+    
+        Remove-CsArchivingPolicy -Identity site:Redmond
+
+</div>
+
+<div>
+
+## <a name="to-remove-all-the-archiving-policies-applied-to-the-per-user-scope"></a>若要移除所有套用至每個使用者範圍的存檔原則
+
+  - 這個命令會移除所有套用至每個使用者範圍的存檔原則：
+    
+        Get-CsArchivingPolicy -Filter "tag:*" | Remove-CsArchivingPolicy
+
+</div>
+
+<div>
+
+## <a name="to-remove-all-the-archiving-policies-that-disable-internal-archiving"></a>若要移除所有停用內部歸檔的歸檔原則
+
+  - 這個命令會移除已停用內部封存的所有存檔原則：
+    
+        Get-CsArchivingPolicy | Where-Object {$_.ArchiveInternal -eq $False} | Remove-CsArchivingPolicy
+
+</div>
+
+如需詳細資訊，請參閱[Remove CsArchivingPolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsArchivingPolicy) Cmdlet 的說明主題。
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>請參閱
+
+
+[在 Lync Server 2013 中管理內部和外部通訊的存檔](lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+

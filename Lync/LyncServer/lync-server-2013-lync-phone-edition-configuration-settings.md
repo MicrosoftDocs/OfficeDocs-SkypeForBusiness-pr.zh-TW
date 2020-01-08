@@ -1,0 +1,65 @@
+---
+title: Lync Server 2013： Lync Phone Edition 配置設定
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Lync Phone Edition configuration settings
+ms:assetid: fa0ec6c0-06d7-4f42-a4b2-27b56bf27a2d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721944(v=OCS.15)
+ms:contentKeyID: 49733881
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b16b83cc7dbc050d61a43d8a4f85ecedfa76e2a4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "40976916"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
+
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="lync-phone-edition-configuration-settings-in-lync-server-2013"></a>Lync Server 2013 中的 lync Phone Edition 配置設定
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主題上次修改日期：** 2012-10-10_
+
+執行 Lync Phone Edition 的裝置設定會全域套用，或者您可以建立適用于特定網站的新設定集合。 集合包括 SIP 安全性、裝置鎖設定等。
+
+<div>
+
+## <a name="in-this-section"></a>本節內容
+
+  - [在 Lync Server 2013 中查看 Lync 手機版設定資訊](lync-server-2013-view-lync-phone-edition-configuration-settings-information.md)
+
+  - [在 Lync Server 2013 中建立或修改 Lync 手機版配置設定的集合](lync-server-2013-create-or-modify-a-collection-of-lync-phone-edition-configuration-settings.md)
+
+  - [刪除 Lync Server 2013 中現有的 Lync Phone Edition 配置設定集合](lync-server-2013-delete-an-existing-collection-of-lync-phone-edition-configuration-settings.md)
+
+  - [在 Lync Server 2013 中設定 Lync Phone Edition 的安全性設定](lync-server-2013-configure-security-settings-for-lync-phone-edition.md)
+
+  - [在 Lync Server 2013 中強制執行電話鎖定](lync-server-2013-enforce-phone-locking.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+
