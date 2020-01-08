@@ -1,5 +1,5 @@
 ---
-title: 停用來完成遷移至雲端混合式
+title: 停用混合式以完成移轉至雲端
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -19,20 +19,20 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 本附錄包含詳細的步驟，停用混合式雲端合併彙算 Teams 和商務用 Skype 的一部分。
-ms.openlocfilehash: 7bd0b4c606a84dea08fb568d42fe403f624c522d
-ms.sourcegitcommit: b9710149ad0bb321929139118b7df0bc4cca08de
+ms.openlocfilehash: d3420c1bd40bbdeeff25747153210c2600d929f6
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "38010576"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40963071"
 ---
-# <a name="disable-hybrid-to-complete-migration-to-the-cloud"></a>停用來完成遷移至雲端混合式
+# <a name="disable-hybrid-to-complete-migration-to-the-cloud"></a>停用混合式以完成移轉至雲端
 
-您已經移動所有使用者從內部部署到雲端後，您可以解除委任商業部署內部部署商務用 Skype。 除了移除任何硬體，是以邏輯方式分隔從 Office 365 的內部部署停用混合式的重要步驟。 停用混合式所組成的 3 個步驟：
+將所有使用者從內部部署移至雲端之後，您就可以解除內部部署的商務用 Skype。 除了移除任何硬體以外，重要的步驟是透過停用混合式的方式，在邏輯上將該內部部署與 Office 365 分開。 停用混合式所組成的 3 個步驟：
 
-1. 更新為指向 Office 365 的 DNS 記錄。
+1. 更新 DNS 記錄，使它指向 Office 365。
 
-2. 停用 Office 365 租用戶中的分割網域。
+2. 在 Office 365 租用戶中停用分割網域。
 
 3. 停用在內部部署與 Office 365 通訊的功能。
 
@@ -57,13 +57,13 @@ ms.locfileid: "38010576"
 2.  *停用 Office 365 租用戶中的共用的 SIP 位址空間。*
 下列命令，需要完成從 Skype for Business Online PowerShell 視窗。
 
-    ```
+    ```PowerShell
     Set-CsTenantFederationConfiguration -SharedSipAddressSpace $false
     ```
  
 3.  *停用通訊與 Office 365 中內部部署的能力。*  
 必須從內部部署的 PowerShell] 視窗中執行以下命令：
-```
+```PowerShell
     Get-CsHostingProvider|Set-CsHostingProvider -Enabled $false
 ```
 
@@ -81,6 +81,6 @@ ms.locfileid: "38010576"
 
   ![Active Directory 使用者及電腦工具](../media/disable-hybrid-1.png)
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 [針對小組與 Skype for Business 的雲端彙總](cloud-consolidation.md)
