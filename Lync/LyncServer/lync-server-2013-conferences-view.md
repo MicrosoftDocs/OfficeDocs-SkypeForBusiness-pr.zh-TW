@@ -1,0 +1,129 @@
+---
+title: Lync Server 2013：會議視圖
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Conferences view
+ms:assetid: c0e5c4db-c135-401f-9296-e9a49f6499a1
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721871(v=OCS.15)
+ms:contentKeyID: 49733803
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 710aadb2770e9389d9e4becf206d68b8e8d815ee
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "40977248"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
+
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="conferences-view-in-lync-server-2013"></a>Lync Server 2013 中的會議視圖
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主題上次修改日期：** 2012-10-01_
+
+[會議] 視圖會儲存會議的相關資訊。 此視圖已在 Microsoft Lync Server 2013 中推出。
+
+
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>左欄</th>
+<th>資料類型</th>
+<th>詳細資料</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p><strong>SessionIdTime</strong></p></td>
+<td><p>datetime</p></td>
+<td><p>會話要求的時間。 與 SessionIdSeq 搭配使用，可唯一識別會話。 如需詳細資訊，請參閱<a href="lync-server-2013-dialogs-table.md">Lync Server 2013 中</a>的 [對話方塊] 資料表。</p></td>
+</tr>
+<tr class="even">
+<td><p><strong>SessionIdSeq</strong></p></td>
+<td><p>int</p></td>
+<td><p>識別會話的識別碼編號。 與 SessionIdTime 搭配使用，可唯一識別會話。 如需詳細資訊，請參閱<a href="lync-server-2013-dialogs-table.md">Lync Server 2013 中</a>的 [對話方塊] 資料表。</p></td>
+</tr>
+<tr class="odd">
+<td><p><strong>ConferenceUri</strong></p></td>
+<td><p>Nvarchar （450）</p></td>
+<td><p>會議的 URI。</p></td>
+</tr>
+<tr class="even">
+<td><p><strong>ConferenceUriType</strong></p></td>
+<td><p>Nvarchar （256）</p></td>
+<td><p>會議 URI 的類型。 如需詳細資訊，請參閱<a href="lync-server-2013-uritypes-table.md">Lync Server 2013 中</a>的 [UriTypes] 資料表。</p></td>
+</tr>
+<tr class="odd">
+<td><p><strong>ConfInstance</strong></p></td>
+<td><p>uniqueidentifier</p></td>
+<td><p>用於週期性會議。 每個週期性會議實例都有相同的 ConferenceUri，但 ConfInstance 不同。</p></td>
+</tr>
+<tr class="even">
+<td><p><strong>ConferenceStartTime</strong></p></td>
+<td><p>datetime</p></td>
+<td><p>會議的開始時間。</p></td>
+</tr>
+<tr class="odd">
+<td><p><strong>ConferenceEndTime</strong></p></td>
+<td><p>datetime</p></td>
+<td><p>會議的結束時間。</p></td>
+</tr>
+<tr class="even">
+<td><p><strong>OrganizerUri</strong></p></td>
+<td><p>Nvarchar （450）</p></td>
+<td><p>組織會議的使用者 URI。</p></td>
+</tr>
+<tr class="odd">
+<td><p><strong>OrganizerType</strong></p></td>
+<td><p>Nvarchar （256）</p></td>
+<td><p>組織會議的使用者 URI 類型。 如需詳細資訊，請參閱<a href="lync-server-2013-uritypes-table.md">Lync Server 2013 中</a>的 [UriTypes] 資料表。</p></td>
+</tr>
+<tr class="even">
+<td><p><strong>OrganizerTenant</strong></p></td>
+<td><p>Nvarchar （256）</p></td>
+<td><p>組織會議的使用者租使用者。 如需詳細資訊，請參閱<a href="lync-server-2013-tenants-table.md">Lync Server 2013 中</a>的 [承租人] 資料表。</p></td>
+</tr>
+<tr class="odd">
+<td><p><strong>集區</strong></p></td>
+<td><p>Nvarchar （256）</p></td>
+<td><p>主持會議之池的完整功能變數名稱。</p></td>
+</tr>
+<tr class="even">
+<td><p><strong>標識</strong></p></td>
+<td><p>Smallint</p></td>
+<td><p>包含會議屬性的位元遮罩。 可能的值包括：</p>
+<p>0X01-綜合交易</p></td>
+</tr>
+</tbody>
+</table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+
