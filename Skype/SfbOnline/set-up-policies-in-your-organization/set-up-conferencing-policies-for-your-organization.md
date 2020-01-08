@@ -1,5 +1,5 @@
 ---
-title: 為您的組織設定會議原則
+title: 設定組織的會議原則
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -18,14 +18,14 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 會議是商務用 Skype Online 的重要部分：「會議」可讓使用者群組線上進行，以查看投影片和影片、共用應用程式、exchange 檔案，以及其他溝通與共同作業。
-ms.openlocfilehash: d20b1a39f83a875d255a812fd86160445691ae2f
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: a30af18ea18251ff4cc099459083e7df23ba6378
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "37642640"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962481"
 ---
-# <a name="set-up-conferencing-policies-for-your-organization"></a>為您的組織設定會議原則
+# <a name="set-up-conferencing-policies-for-your-organization"></a>設定組織的會議原則
 
 會議是商務用 Skype Online 的重要部分：「會議」可讓使用者群組線上進行，以查看投影片和影片、共用應用程式、exchange 檔案，以及其他溝通與共同作業。
   
@@ -52,7 +52,7 @@ ms.locfileid: "37642640"
     
 4. 您也需要安裝適用于商務用 Skype Online 的 Windows PowerShell 模組，這可讓您建立連線到商務用 Skype Online 的遠端 Windows PowerShell 會話。 此模組只受64位電腦支援，可從[適用于商務用 Skype Online 的 Windows PowerShell 模組](https://go.microsoft.com/fwlink/?LinkId=294688)上的 Microsoft 下載中心下載。 如果出現提示，請重新開機電腦。
     
-    如果您需要進一步瞭解，請參閱[在單一 Windows PowerShell 視窗中連線至所有 Office 365 服務](https://technet.microsoft.com/EN-US/library/dn568015.aspx)。
+    如果您需要進一步瞭解，請參閱[在單一 Windows PowerShell 視窗中連線至所有 Office 365 服務](https://technet.microsoft.com/library/dn568015.aspx)。
     
 - **啟動 Windows PowerShell 會話**
     
@@ -63,70 +63,70 @@ ms.locfileid: "37642640"
     > [!NOTE]
     > 您在第一次使用商務用 Skype Online Windows PowerShell 模組時，您只需執行匯**入模組**命令。
 
-   ```      
+   ```PowerShell      
     Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
     $credential = Get-Credential
     $session = New-CsOnlineSession -Credential $credential
     Import-PSSession $session
    ```
 
-   如果您需要啟動 Windows PowerShell 的詳細資訊，請參閱[在單一 Windows powershell 視窗中連線至所有 Office 365 服務](https://technet.microsoft.com/EN-US/library/dn568015.aspx)，或[設定您的 windows powershell 電腦](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)。
+   如果您需要啟動 Windows PowerShell 的詳細資訊，請參閱[在單一 Windows powershell 視窗中連線至所有 Office 365 服務](https://technet.microsoft.com/library/dn568015.aspx)，或[設定您的 windows powershell 電腦](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)。
     
 ### <a name="block-file-transfers-and-desktop-sharing-during-meetings"></a>在會議期間封鎖檔案傳輸與桌面共用
 
 - 若要為這些設定建立新的原則，請執行：
   > 
-  > ```
+  > ```PowerShell
   > New-CsConferencingPolicy -Identity DesktopConferencingPolicy -EnableAppDesktopSharing None  $true -EnableFileTransfer $false
   > ```
-  > 如需進一步瞭解，請參閱[新版 CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779148.aspx) Cmdlet。
+  > 如需進一步瞭解，請參閱[新版 CsConferencingPolicy](https://technet.microsoft.com/library/mt779148.aspx) Cmdlet。
     
 - 若要將您建立的新原則授與貴組織中的所有使用者，請執行：
   > 
-  > ```
+  > ```PowerShell
   > Grant-CsConferencingPolicy -Identity "amos.marble@contoso.com" -PolicyName DesktopConferencingPolicy
   > ```
-  > 如需[CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) Cmdlet 的詳細資訊，請參閱。
+  > 如需[CsConferencingPolicy](https://technet.microsoft.com/library/mt779156.aspx) Cmdlet 的詳細資訊，請參閱。
     
-  如果您已建立原則，您可以使用[CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779157.aspx) Cmdlet 來變更現有的原則，然後使用[授與 CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) Cmdlet 將設定套用到您的使用者。
+  如果您已建立原則，您可以使用[CsConferencingPolicy](https://technet.microsoft.com/library/mt779157.aspx) Cmdlet 來變更現有的原則，然後使用[授與 CsConferencingPolicy](https://technet.microsoft.com/library/mt779156.aspx) Cmdlet 將設定套用到您的使用者。
   
 ### <a name="block-recording-of-conferences-and-prevent-anonymous-meeting-participants"></a>封鎖會議錄製並防止匿名會議參與者
 
 - 若要為這些設定建立新的原則，請執行： 
   > 
-  > ```
+  > ```PowerShell
   > New-CsConferencingPolicy -Identity ConferencingPolicy -AllowAnonymousParticipantsInMeetings  $false -AllowConferenceRecording $false
   > ```
-  > 如需進一步瞭解，請參閱[新版 CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779148.aspx) Cmdlet。
+  > 如需進一步瞭解，請參閱[新版 CsConferencingPolicy](https://technet.microsoft.com/library/mt779148.aspx) Cmdlet。
     
 - 若要將您建立的新原則授與 Amos 大理石，請執行：
   > 
-  > ```
+  > ```PowerShell
   >  Grant-CsConferencingPolicy -Identity "amos.marble@contoso.com" -PolicyName ConferencingPolicy
   > ```
-  > 如需[CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) Cmdlet 的詳細資訊，請參閱。
+  > 如需[CsConferencingPolicy](https://technet.microsoft.com//library/mt779156.aspx) Cmdlet 的詳細資訊，請參閱。
     
-如果您已建立原則，您可以使用[CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779157.aspx) Cmdlet 來變更現有的原則，然後使用[授與 CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) Cmdlet 將設定套用到您的使用者。
+如果您已建立原則，您可以使用[CsConferencingPolicy](https://technet.microsoft.com/library/mt779157.aspx) Cmdlet 來變更現有的原則，然後使用[授與 CsConferencingPolicy](https://technet.microsoft.com/library/mt779156.aspx) Cmdlet 將設定套用到您的使用者。
   
 ### <a name="block-anonymous-participants-from-recording-meetings-and-external-users-from-saving-meeting-content"></a>封鎖匿名參與者的錄製會議與外部使用者無法儲存會議內容
 
 - 若要為這些設定建立新的原則，請執行：  
   > 
-  > ```
+  > ```PowerShell
   > New-CsConferencingPolicy -Identity BlockedConferencingPolicy  -AllowExternalUsersToRecordMeeting  $false -AllowExternalUsersToSaveContent $false 
   > ```
-  > 如需進一步瞭解，請參閱[新版 CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779148.aspx) Cmdlet。
+  > 如需進一步瞭解，請參閱[新版 CsConferencingPolicy](https://technet.microsoft.com/library/mt779148.aspx) Cmdlet。
     
 - 若要將您建立的新原則授與貴組織中的所有使用者，請執行：
     
 > 
->   ```
+>   ```PowerShell
 >   Grant-CsConferencingPolicy -Identity "amos.marble@contoso.com" -PolicyName BlockedConferencingPolicy
 >   ```
 
-如需[CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) Cmdlet 的詳細資訊，請參閱。
+如需[CsConferencingPolicy](https://technet.microsoft.com/library/mt779156.aspx) Cmdlet 的詳細資訊，請參閱。
     
-如果您已建立原則，您可以使用[CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779157.aspx) Cmdlet 來變更現有的原則，然後使用[授與 CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) Cmdlet 將設定套用到您的使用者。
+如果您已建立原則，您可以使用[CsConferencingPolicy](https://technet.microsoft.com/library/mt779157.aspx) Cmdlet 來變更現有的原則，然後使用[授與 CsConferencingPolicy](https://technet.microsoft.com/library/mt779156.aspx) Cmdlet 將設定套用到您的使用者。
   
 ## <a name="want-to-know-more-about-windows-powershell"></a>想要深入瞭解 Windows PowerShell 嗎？
 
@@ -149,7 +149,7 @@ ms.locfileid: "37642640"
 
 [封鎖點對端檔案傳輸](block-point-to-point-file-transfers.md)
 
-[為您的組織設定用戶端原則](set-up-client-policies-for-your-organization.md)
+[設定組織的用戶端原則](set-up-client-policies-for-your-organization.md)
 
   
  

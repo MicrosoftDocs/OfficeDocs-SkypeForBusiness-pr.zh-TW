@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 商務用 Skype Online 可讓您建立其他外部存取原則。 與用戶端或會議原則不同（您可以使用多個組合），有三個預先定義的外部存取原則可涵蓋大部分案例。
-ms.openlocfilehash: 7f3edac77af8d9948ef7118c0f94b1ec9c3ae6c1
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 978bad4e87e3e7dbe2a9bac5565aa7a6a45ca2df
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "37642728"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962501"
 ---
 # <a name="create-custom-external-access-policies"></a>建立自訂外部存取原則
 
@@ -35,7 +35,7 @@ ms.locfileid: "37642728"
     
 - 同盟與消費者存取（_FederationAndPICDefault_）
     
-自訂外部原則可讓您建立上述設定未涵蓋的其他原則。 建立原則時，您必須設定所有必要的參數，且稍後無法變更。 建立新的自訂原則可讓您控制諸如 Skype 消費者存取的功能，或用來停用公用雲端音訊/視頻的原則，這是預先定義的設定所涵蓋的內容。 自訂外部存取原則遵循與用戶端、行動性與會議原則相同的語法。 您可以在[這裡](https://technet.microsoft.com/en-us/library/mt228132.aspx)找到更多關於這些設定的資訊。
+自訂外部原則可讓您建立上述設定未涵蓋的其他原則。 建立原則時，您必須設定所有必要的參數，且稍後無法變更。 建立新的自訂原則可讓您控制諸如 Skype 消費者存取的功能，或用來停用公用雲端音訊/視頻的原則，這是預先定義的設定所涵蓋的內容。 自訂外部存取原則遵循與用戶端、行動性與會議原則相同的語法。 您可以在[這裡](https://technet.microsoft.com/library/mt228132.aspx)找到更多關於這些設定的資訊。
   
 若要執行此工作，使用者必須使用受支援版本的2016隨選即用 Skype for business 應用程式（支援它）。 必須使用下列最低版本的商務用 Skype 2016 隨選即用用戶端：
   
@@ -60,7 +60,7 @@ ms.locfileid: "37642728"
     
 4. 您也需要安裝適用于商務用 Skype Online 的 Windows PowerShell 模組，這可讓您建立連線到商務用 Skype Online 的遠端 Windows PowerShell 會話。 此模組只受64位電腦支援，可從[適用于商務用 Skype Online 的 Windows PowerShell 模組](https://go.microsoft.com/fwlink/?LinkId=294688)上的 Microsoft 下載中心下載。 如果出現提示，請重新開機電腦。
     
-    如果您需要進一步瞭解，請參閱[在單一 Windows PowerShell 視窗中連線至所有 Office 365 服務](https://technet.microsoft.com/EN-US/library/dn568015.aspx)。
+    如果您需要進一步瞭解，請參閱[在單一 Windows PowerShell 視窗中連線至所有 Office 365 服務](https://technet.microsoft.com/library/dn568015.aspx)。
     
 - **啟動 Windows PowerShell 會話**
     
@@ -71,26 +71,26 @@ ms.locfileid: "37642728"
     > [!NOTE]
     > 您在第一次使用商務用 Skype Online Windows PowerShell 模組時，您只需執行匯**入模組**命令。
 
-   ```      
+   ```PowerShell      
     Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
     $credential = Get-Credential
     $session = New-CsOnlineSession -Credential $credential
     Import-PSSession $session
    ```
 
-   如果您需要啟動 Windows PowerShell 的詳細資訊，請參閱[在單一 Windows powershell 視窗中連線至所有 Office 365 服務](https://technet.microsoft.com/EN-US/library/dn568015.aspx)，或[設定您的 windows powershell 電腦](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)。
+   如果您需要啟動 Windows PowerShell 的詳細資訊，請參閱[在單一 Windows powershell 視窗中連線至所有 Office 365 服務](https://technet.microsoft.com/library/dn568015.aspx)，或[設定您的 windows powershell 電腦](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)。
     
 ## <a name="create-a-custom-external-access-policy-for-a-user"></a>為使用者建立自訂外部存取原則
 
 若要這樣做，請執行：
   
 > 
->   ```
+>   ```PowerShell
 >   New-CsExternalAccessPolicy -Identity BlockSkypeVideo -EnablePublicCloudAccess $True -EnablePublicCloudAudioVideoAccess $False -EnableFederationAccess $True -EnableOutsideAccess $True
 >   ```
 > 
 > 
->   ```
+>   ```PowerShell
 >   Grant-CsExternalAccessPolicy -PolicyName BlockSkypeVideo -Identity amosm@contoso.com
 >   ```
 
@@ -113,7 +113,7 @@ ms.locfileid: "37642728"
 ## <a name="related-topics"></a>相關主題
 [封鎖點對端檔案傳輸](block-point-to-point-file-transfers.md)
 
-[為您的組織設定用戶端原則](set-up-client-policies-for-your-organization.md)
+[設定組織的用戶端原則](set-up-client-policies-for-your-organization.md)
 
 [在組織中設定會議原則](set-up-conferencing-policies-for-your-organization.md)
 

@@ -1,5 +1,5 @@
 ---
-title: 封鎖點對端檔案傳輸
+title: 封鎖點對點檔案傳輸
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -18,14 +18,14 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 在商務用 Skype Online 中，您可以在現有的會議原則設定中，控制點對點（P2P）檔案傳輸。 不過，這會允許或封鎖使用者傳送檔案給同一個組織中的使用者，或其他組織的聯盟使用者。 遵循下列步驟，您可以封鎖與同盟組織或合作夥伴的 P2P 檔案傳輸。
-ms.openlocfilehash: 8e9f2bba654f2e44e4e7360f46730a6e1d2d9426
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: a92382a2fae3fd439aba4246937f1f6bda3c0b36
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "37642250"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962521"
 ---
-# <a name="block-point-to-point-file-transfers"></a>封鎖點對端檔案傳輸
+# <a name="block-point-to-point-file-transfers"></a>封鎖點對點檔案傳輸
 
 在商務用 Skype Online 中，您可以在現有的會議原則設定中，控制點對點（P2P）檔案傳輸。 不過，這會允許或封鎖使用者傳送檔案給同一個組織中的使用者，或其他組織的聯盟使用者。 遵循下列步驟，您可以封鎖與同盟組織或合作夥伴的 P2P 檔案傳輸。
   
@@ -35,7 +35,7 @@ ms.locfileid: "37642250"
     
 - 建立全域外部使用者通訊原則，設定為封鎖外部 P2P 檔案傳輸（_EnableP2PFileTransfer_設為_False_），並將它指派給貴組織中的使用者。 
     
-您可以在[這裡](https://technet.microsoft.com/en-us/library/mt228132.aspx)找到更多關於這些設定的資訊。
+您可以在[這裡](https://technet.microsoft.com/library/mt228132.aspx)找到更多關於這些設定的資訊。
   
 如果您組織外部的同盟使用者試圖傳送檔案給已套用原則的使用者，他們會收到**傳送失敗**的錯誤。 而且，如果使用者嘗試傳送檔案，他們會收到檔案**傳輸已關閉**的錯誤訊息。
   
@@ -62,7 +62,7 @@ ms.locfileid: "37642250"
     
 4. 您也需要安裝適用于商務用 Skype Online 的 Windows PowerShell 模組，這可讓您建立連線到商務用 Skype Online 的遠端 Windows PowerShell 會話。 此模組只受64位電腦支援，可從[適用于商務用 Skype Online 的 Windows PowerShell 模組](https://go.microsoft.com/fwlink/?LinkId=294688)上的 Microsoft 下載中心下載。 如果出現提示，請重新開機電腦。
     
-    如果您需要進一步瞭解，請參閱[在單一 Windows PowerShell 視窗中連線至所有 Office 365 服務](https://technet.microsoft.com/EN-US/library/dn568015.aspx)。
+    如果您需要進一步瞭解，請參閱[在單一 Windows PowerShell 視窗中連線至所有 Office 365 服務](https://technet.microsoft.com/library/dn568015.aspx)。
     
 - **啟動 Windows PowerShell 會話**
     
@@ -73,14 +73,14 @@ ms.locfileid: "37642250"
     > [!NOTE]
     > 您在第一次使用商務用 Skype Online Windows PowerShell 模組時，您只需執行匯**入模組**命令。
 
-   ```      
+   ```PowerShell      
     Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
     $credential = Get-Credential
     $session = New-CsOnlineSession -Credential $credential
     Import-PSSession $session
    ```
 
-   如果您需要啟動 Windows PowerShell 的詳細資訊，請參閱[在單一 Windows powershell 視窗中連線至所有 Office 365 服務](https://technet.microsoft.com/EN-US/library/dn568015.aspx)，或[設定您的 windows powershell 電腦](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)。
+   如果您需要啟動 Windows PowerShell 的詳細資訊，請參閱[在單一 Windows powershell 視窗中連線至所有 Office 365 服務](https://technet.microsoft.com/library/dn568015.aspx)，或[設定您的 windows powershell 電腦](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)。
     
 ## <a name="disable-p2p-file-transfers-for-your-organization"></a>停用貴組織的 P2P 檔案傳輸
 
@@ -88,7 +88,7 @@ ms.locfileid: "37642250"
   
 若要允許貴組織內的 P2P 傳輸，但封鎖外部檔案傳輸至另一個組織，您只需在全域層面進行變更。 若要執行此動作，請執行：
     
-  ```
+  ```PowerShell
   Set-CsExternalUserCommunicationPolicy -EnableP2PFileTransfer $False
   ```
 
@@ -96,11 +96,11 @@ ms.locfileid: "37642250"
 
 您可以建立新的原則並將其授與使用者，將此套用至使用者。 若要執行此動作，請執行： 
 > 
->   ```
+>   ```PowerShell
 >   New-CsExternalUserCommunicationPolicy -Identity BlockExternalFT -EnableP2PFileTransfer $False
 >   ```
 > 
->   ```
+>   ```PowerShell
 >   Grant-CsExternalUserCommunicationPolicy -PolicyName BlockExternalFT -Identity amosm@contoso.com
 >   ```
 
@@ -123,7 +123,7 @@ ms.locfileid: "37642250"
 ## <a name="related-topics"></a>相關主題
 [建立自訂外部存取原則](create-custom-external-access-policies.md)
 
-[為您的組織設定用戶端原則](set-up-client-policies-for-your-organization.md)
+[設定組織的用戶端原則](set-up-client-policies-for-your-organization.md)
 
 [在組織中設定會議原則](set-up-conferencing-policies-for-your-organization.md)
 

@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: '瞭解如何在 Office 365 中使用 PowerShell 在商務用 Skype 和 Lync 用戶端使用者介面之間切換 '
-ms.openlocfilehash: 2788799f5125aab63938241d737eade25f6cd61a
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 0f24879c136c98db1a856765cb164d376417ad5a
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "37642596"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962881"
 ---
 # <a name="switching-between-the-skype-for-business-and-the-lync-client-user-interfaces"></a>在商務用 Skype 和 Lync 用戶端使用者介面之間切換
 
@@ -43,7 +43,7 @@ ms.locfileid: "37642596"
 > [!IMPORTANT]
 > 切換使用者介面的_全域_原則設定將不會套用到已套用自訂原則的使用者。 若要能夠變更使用者介面，您必須針對已套用自訂原則的每個使用者執行下列動作：
   
-```
+```PowerShell
 Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI -Identity <username>
 ```
 
@@ -52,7 +52,7 @@ Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI -Identity <username>
   
 若要讓貴組織中的所有使用者都能使用商務用 Skype 用戶端，請開啟遠端 PowerShell，並輸入以下內容：
   
-```
+```PowerShell
 Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI
 ```
 
@@ -62,7 +62,7 @@ Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI
   
 若要讓貴組織中的所有使用者都能使用商務用 Skype （Lync）用戶端，請開啟遠端 PowerShell，並輸入以下內容： 
   
-```
+```PowerShell
 Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
 ```
 
@@ -72,7 +72,7 @@ Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
   
 若要允許貴組織中的一位使用者使用商務用 Skype 用戶端，請開啟遠端 PowerShell，並輸入以下內容：
   
-```
+```PowerShell
 Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI -Identity <username>
 ```
 
@@ -82,7 +82,7 @@ Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI -Identity <username>
   
 若要允許貴組織中的一位使用者使用商務用 Skype （Lync）用戶端，請開啟遠端 PowerShell，並輸入以下內容：
   
-```
+```PowerShell
 Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI -Identity <username>
 ```
 
@@ -93,7 +93,7 @@ Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI -Identity <username>
 若要允許貴組織中的多位使用者使用商務用 Skype 用戶端，請開啟遠端 PowerShell，並輸入以下內容：
   
 
-```
+```PowerShell
 $users = @("sip:bob@contoso.com","sip:fred@contoso.com") 
 
 $users | Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI
@@ -101,7 +101,7 @@ $users | Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI
 
 若要允許貴組織中的多位使用者使用商務用 Skype （Lync）用戶端，請開啟遠端 PowerShell，並輸入以下內容：
   
-```
+```PowerShell
 $users = @("sip:bob@contoso.com","sip:fred@contoso.com")
 
 $users | Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
@@ -109,13 +109,13 @@ $users | Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
 
 若要允許貴組織中的一組使用者使用商務用 Skype 用戶端，請開啟遠端 PowerShell，並輸入以下內容：
   
-```
+```PowerShell
 Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI
 ```
 
 若要允許貴組織中的一組使用者使用商務用 Skype （Lync）用戶端，請開啟遠端 PowerShell，並輸入以下內容：
   
-```
+```PowerShell
 Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
 ```
 
@@ -172,7 +172,7 @@ Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -Policy
     
 ## <a name="first-launch-client-behaviors"></a>第一次啟動用戶端行為
 
-根據預設，當使用者第一次啟動商務用 Skype 時，他們將永遠會看到商務用 Skype 使用者介面，即使您已透過將用戶端原則設定為 Lync 用戶端體驗（），也可以選擇 Lync`Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI`用戶端經驗（如所述）。先前. 幾分鐘之後，系統會要求使用者切換到 Lync 模式。
+根據預設，當使用者第一次啟動商務用 Skype 時，他們將永遠會看到商務用 Skype 的使用者介面，即使您已透過將用戶端原則設定為 Lync 用戶端體驗（），（`Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI`如先前所述），您已選取 lync 用戶端的使用經驗。 幾分鐘之後，系統會要求使用者切換到 Lync 模式。
   
 如果您想要在使用者第一次啟動商務用 Skype 用戶端時顯示 Lync 使用者介面，請在用戶端第一次更新之後，按照下列步驟進行：
   
@@ -214,7 +214,7 @@ Lync 使用者介面現在會在使用者第一次啟動商務用 Skype 用戶�
   
 在 **[\\HKEY_CURRENT_USER 軟體\\Microsoft\\Office\\15.0\\Lync]** 金鑰中，建立新的**DWORD （32位）值**。 **值名稱**必須是**TutorialFeatureEnabled**，而**值資料**必須設定為**0**。
   
-```
+```PowerShell
 "TutorialFeatureEnabled"=dword:00000000
 ```
 
@@ -246,7 +246,7 @@ Lync 使用者介面現在會在使用者第一次啟動商務用 Skype 用戶�
     
 |**域**|**要選取或輸入的值**|
 |:-----|:-----|
-|**執行** <br/> |**建立** <br/> |
+|**動作** <br/> |**建立** <br/> |
 |**一兩** <br/> | HKEY_CURRENT_USER <br/> |
 |**索引鍵路徑** <br/> |軟體\\Microsoft\\Office\\Lync  <br/> |
 |**值名稱** <br/> |EnableSkypeUI  <br/> |

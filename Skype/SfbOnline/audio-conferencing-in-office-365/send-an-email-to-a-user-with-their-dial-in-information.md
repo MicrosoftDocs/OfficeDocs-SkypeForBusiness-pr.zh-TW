@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 在商務用 Skype Online 中，以其音訊會議資訊傳送電子郵件給您的使用者。
-ms.openlocfilehash: cf1555f572c4c8f4e6c11e87315f2fdfcac22cd8
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 08e1f67f042d9497854f6d96643ff41e9bf528ed
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "37642861"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962571"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-skype-for-business-online"></a>在商務用 Skype Online 中，透過其音訊會議資訊傳送電子郵件給使用者
 
@@ -100,7 +100,7 @@ ms.locfileid: "37642861"
     
     若要使用音訊會議資訊傳送電子郵件給使用者，請執行下列動作：
     
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingUser -id amos.marble@contoso.com  -SendEmail
   ```
 
@@ -123,4 +123,4 @@ ms.locfileid: "37642861"
   
 ## <a name="related-topics"></a>相關主題
 
-[在 Office 365 中試用或購買音訊會議](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[試用或購買 Office 365 的音訊會議](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

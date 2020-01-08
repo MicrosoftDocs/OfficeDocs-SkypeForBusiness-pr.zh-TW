@@ -1,5 +1,5 @@
 ---
-title: 為您的組織設定行動原則
+title: 設定組織的行動原則
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -18,14 +18,14 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 您可以使用行動裝置上的商務用 Skype app 來設定使用者連線到商務用 Skype Online 的方式，例如可讓使用者使用公司電話號碼在手機上撥打及接聽電話的功能，而不是在其行動電話上撥打電話mber. 行動原則也可以用於在撥打或接聽來電時，需要使用 Wi-fi 連線。
-ms.openlocfilehash: 1e5cb04bbd63c91d1302ace41b1c9bdbaa492574
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 8ade1f69c7374009ea0f19fb1e777df76b45220c
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "37642775"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962551"
 ---
-# <a name="set-up-mobile-policies-for-your-organization"></a>為您的組織設定行動原則
+# <a name="set-up-mobile-policies-for-your-organization"></a>設定組織的行動原則
 
 您可以使用行動裝置上的商務用 Skype app 來設定使用者連線到商務用 Skype Online 的方式，例如可讓使用者使用公司電話號碼在手機上撥打及接聽電話的功能，而不是在其行動電話上撥打電話mber. 行動原則也可以用於在撥打或接聽來電時，需要使用 Wi-fi 連線。
   
@@ -48,7 +48,7 @@ ms.locfileid: "37642775"
     
 4. 您也需要安裝適用于商務用 Skype Online 的 Windows PowerShell 模組，這可讓您建立連線到商務用 Skype Online 的遠端 Windows PowerShell 會話。 此模組只受64位電腦支援，可從[適用于商務用 Skype Online 的 Windows PowerShell 模組](https://go.microsoft.com/fwlink/?LinkId=294688)上的 Microsoft 下載中心下載。 如果出現提示，請重新開機電腦。
     
-    如果您需要進一步瞭解，請參閱[在單一 Windows PowerShell 視窗中連線至所有 Office 365 服務](https://technet.microsoft.com/EN-US/library/dn568015.aspx)。
+    如果您需要進一步瞭解，請參閱[在單一 Windows PowerShell 視窗中連線至所有 Office 365 服務](https://technet.microsoft.com/library/dn568015.aspx)。
     
 - **啟動 Windows PowerShell 會話**
     
@@ -59,68 +59,68 @@ ms.locfileid: "37642775"
     > [!NOTE]
     > 您在第一次使用商務用 Skype Online Windows PowerShell 模組時，您只需執行匯**入模組**命令。
 
-   ```      
+   ```PowerShell      
     Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
     $credential = Get-Credential
     $session = New-CsOnlineSession -Credential $credential
     Import-PSSession $session
    ```
 
-   如果您需要啟動 Windows PowerShell 的詳細資訊，請參閱[在單一 Windows powershell 視窗中連線至所有 Office 365 服務](https://technet.microsoft.com/EN-US/library/dn568015.aspx)，或[設定您的 windows powershell 電腦](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)。
+   如果您需要啟動 Windows PowerShell 的詳細資訊，請參閱[在單一 Windows powershell 視窗中連線至所有 Office 365 服務](https://technet.microsoft.com/library/dn568015.aspx)，或[設定您的 windows powershell 電腦](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)。
 
 ### <a name="require-a-wifi-connection-for-video-for-a-user"></a>使用者需要一個 WiFi 連線才能取得影片
 
 - 若要為這些設定建立新的原則，請執行：
   > 
-  > ```
+  > ```PowerShell
   > New-CsMobilityPolicy -Identity MobilityPolicy -RequireWIFIForIPVideo $true
   > ```
-  > 如需進一步瞭解，請參閱[新版 CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779150.aspx) Cmdlet。
+  > 如需進一步瞭解，請參閱[新版 CsMobilityPolicy](https://technet.microsoft.com/library/mt779150.aspx) Cmdlet。
     
 - 若要將您建立的新原則授與貴組織中的所有使用者，請執行：
   > 
-  > ```
+  > ```PowerShell
   > Grant-CsMobilityPolicy -Identity"amos.marble@contoso.com" -PolicyName MobilityPolicy
   > ```
-  > 如需[CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx) Cmdlet 的詳細資訊，請參閱。
+  > 如需[CsMobilityPolicy](https://technet.microsoft.com/library/mt779149.aspx) Cmdlet 的詳細資訊，請參閱。
     
-  如果您已建立原則，您可以使用[CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779147.aspx) Cmdlet 來變更現有的原則，然後使用[授與 CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx) Cmdlet 將設定套用到您的使用者。
+  如果您已建立原則，您可以使用[CsMobilityPolicy](https://technet.microsoft.com/library/mt779147.aspx) Cmdlet 來變更現有的原則，然後使用[授與 CsMobilityPolicy](https://technet.microsoft.com/library/mt779149.aspx) Cmdlet 將設定套用到您的使用者。
   
 ### <a name="prevent-a-user-from-using-the-skype-for-business-app"></a>防止使用者使用商務用 Skype 應用程式
 
 - 若要為這些設定建立新的原則，請執行：
-  ```
+  ```PowerShell
   New-CsMobilityPolicy -Identity NoAppClientPolicy -EnableMobility $false 
   ```
-  如需進一步瞭解，請參閱[新版 CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779150.aspx) Cmdlet。
+  如需進一步瞭解，請參閱[新版 CsMobilityPolicy](https://technet.microsoft.com/library/mt779150.aspx) Cmdlet。
     
 - 若要將您建立的新原則授與 Amos 大理石，請執行：  
   > 
-  > ```
+  > ```PowerShell
   > Grant-CsMobilityPolicy -Identity "amos.marble@contoso.com"-PolicyName NoAppClientPolicy
   > ```
-  > 如需[CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx) Cmdlet 的詳細資訊，請參閱。
+  > 如需[CsMobilityPolicy](https://technet.microsoft.com/library/mt779149.aspx) Cmdlet 的詳細資訊，請參閱。
     
-  如果您已建立原則，您可以使用[CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779147.aspx) Cmdlet 來變更現有的原則，然後使用[授與 CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx) Cmdlet 將設定套用到您的使用者。
+  如果您已建立原則，您可以使用[CsMobilityPolicy](https://technet.microsoft.com/library/mt779147.aspx) Cmdlet 來變更現有的原則，然後使用[授與 CsMobilityPolicy](https://technet.microsoft.com/library/mt779149.aspx) Cmdlet 將設定套用到您的使用者。
   
 ### <a name="prevent-a-user-from-making-voice-over-ip-calls-using-a-mobile-device"></a>防止使用者使用行動裝置撥打電話給 IP 電話
 
 - 若要為這些設定建立新的原則，請執行：
   > 
-  > ```
+  > ```PowerShell
   > New-CsMobilityPolicy -Identity VoIPClientPolicy -EnableIPAudioVideo  $false
   > ```
-  > 如需進一步瞭解，請參閱[新版 CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779150.aspx) Cmdlet。
+  > 如需進一步瞭解，請參閱[新版 CsMobilityPolicy](https://technet.microsoft.com/library/mt779150.aspx) Cmdlet。
     
 - 若要將您建立的新原則授與貴組織中的所有使用者，請執行：
   > 
-  > ```
+  > ```PowerShell
   > Grant-CsMobilityPolicy -Identity "amos.marble@contoso.com" -PolicyName VoIPClientPolicy
   > ```
 
-  如需[CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx) Cmdlet 的詳細資訊，請參閱。
+  如需[CsMobilityPolicy](https://technet.microsoft.com/library/mt779149.aspx) Cmdlet 的詳細資訊，請參閱。
     
-如果您已建立原則，您可以使用[CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779147.aspx) Cmdlet 來變更現有的原則，然後使用[授與 CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx) Cmdlet 將設定套用到您的使用者。
+如果您已建立原則，您可以使用[CsMobilityPolicy](https://technet.microsoft.com/library/mt779147.aspx) Cmdlet 來變更現有的原則，然後使用[授與 CsMobilityPolicy](https://technet.microsoft.com/library/mt779149.aspx) Cmdlet 將設定套用到您的使用者。
   
 ## <a name="want-to-know-more-about-windows-powershell"></a>想要深入瞭解 Windows PowerShell 嗎？
 
@@ -143,7 +143,7 @@ ms.locfileid: "37642775"
 
 [封鎖點對端檔案傳輸](block-point-to-point-file-transfers.md)
 
-[為您的組織設定用戶端原則](set-up-client-policies-for-your-organization.md)
+[設定組織的用戶端原則](set-up-client-policies-for-your-organization.md)
 
 [在組織中設定會議原則](set-up-conferencing-policies-for-your-organization.md)
 

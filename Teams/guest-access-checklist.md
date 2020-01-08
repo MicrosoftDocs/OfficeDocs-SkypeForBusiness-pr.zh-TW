@@ -3,7 +3,6 @@ title: Microsoft 團隊來賓存取檢查清單
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 06/21/2019
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -16,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bcba883166e01bd8a18d6d76b4622df0740500c8
-ms.sourcegitcommit: 000fdb3bc1a0d4dda63fb00bab6a9a9ab0c85ab0
+ms.openlocfilehash: c3354f7b503b2f1ea91c050a751b5d7d9ab0537a
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39813773"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962531"
 ---
 <a name="microsoft-teams-guest-access-checklist"></a>Microsoft 團隊來賓存取檢查清單
 ==========================================
@@ -69,10 +68,10 @@ ms.locfileid: "39813773"
          > [!NOTE]
          > 如果您設定 [**成員可以**在 Office 365 群組和 Microsoft 團隊中邀請您**不**想再啟用來賓存取]，系統管理員可以控制您的目錄的來賓邀請。 來賓在目錄中後，就可以由非系統管理員成員，將它們新增至小組。 如需詳細資訊，請參閱[授權 Microsoft 團隊中的來賓存取](Teams-dependencies.md)。
          > [!IMPORTANT]
-         > 若要讓來賓存取能在 Teams 中完整運作，您必須將 [成員可邀請]**** 設定為 [是]****。   
+         > 若要讓來賓存取能在 Teams 中完整運作，您必須將 **[成員可邀請]** 設定為 **[是]**。   
      - **客人可以邀請**：若要讓客人邀請其他客人，請將此原則設定為 **[是]**。
          > [!IMPORTANT]
-         > Teams 目前不支援來賓邀請者角色，因此，即使您將 [來賓可邀請]**** 設定為 [是]****，來賓仍無法在 Teams 中邀請其他來賓。
+         > Teams 目前不支援來賓邀請者角色，因此，即使您將 **[來賓可邀請]** 設定為 **[是]**，來賓仍無法在 Teams 中邀請其他來賓。
      - **啟用電子郵件的一次性密碼（預覽版）**：如需一次性密碼功能的詳細資訊，請參閱[電子郵件一次性密碼驗證（預覽版）](https://docs.microsoft.com/azure/active-directory/b2b/one-time-passcode)。
      - 共同作業**限制**：如需有關允許或封鎖特定網域之邀請的詳細資訊，請參閱[允許或封鎖來自特定組織的 B2B 使用者邀請](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list)。
         > [!NOTE]
@@ -84,11 +83,11 @@ ms.locfileid: "39813773"
 
 ## <a name="step-3-configure-office-365-groups"></a>步驟3：設定 Office 365 群組
 
-1. 在 Microsoft 365 系統管理中心，移至 [**設定** > **服務] & [增益集** > ]**Office 365 群組**。
-2. 確認將**組織存取群組內容外的群組成員**設定為 [**開啟**]。 如果關閉此設定，來賓將無法存取任何群組內容。
-3. 確認 **[允許群組擁有者將組織外部的人員新增至群組**] 已設定為 [**開啟**]。 如果關閉此設定，小組擁有者將無法新增來賓。 此設定至少必須開啟才能支援來賓存取。
+1. 在 Microsoft 365 系統管理中心中，移至 [**設定** > **服務] & [增益集**]，然後選取 [ **Office 365 群組**]。
 
      ![螢幕擷取畫面顯示 Office 365 群組的切換](media/guest-access-checklist-office365.png)
+2. 確認已選取 [**允許組織存取群組內容外的群組成員**] 核取方塊。 如果未選取此設定，來賓將無法存取任何群組內容。
+3. 確認已選取 [**允許群組擁有者將組織外的人員新增至群組**] 核取方塊。 如果未選取此設定，小組擁有者將無法新增來賓。 此設定至少必須開啟才能支援來賓存取。
 
 如需設定這些設定的詳細指示，請參閱[管理 office 365 群組中的來賓存取](https://support.office.com/article/manage-guest-access-in-office-365-groups-9de497a9-2f5c-43d6-ae18-767f2e6fe6e0?appver=MOE150)，以及[控制 office 365 群組中的來賓存取權](Teams-dependencies.md#control-guest-access-in-office-365-groups)。
  
@@ -115,14 +114,16 @@ ms.locfileid: "39813773"
 
 ## <a name="step-5-verify-sharing-setting-in-sharepoint"></a>步驟5：驗證 SharePoint 中的共用設定
 
-這個小一點的大腦 teaser。 如果您已在 SharePoint 系統管理中心選取 [**不允許在您的組織外共用**] 設定，小組中的來賓存取就無法運作。
-
 1. 登入 Microsoft 365 系統管理中心。
-2. 按一下 [系統**管理中心**]，然後選取 [ **SharePoint**]。
-3. 在 SharePoint 系統管理中心中，選取 [**共用**]。
-4. 確定*沒有*選取 [不**允許在您的組織外共用**] 選項。
+2. 選取 [系統**管理中心**] 底下的 [ **SharePoint**]。
+3. 在新的 SharePoint 系統管理中心的 [**網站**] 底下，選取 [作用中的**網站**]。
+
+    ![SharePoint 系統管理中心的作用中網站](media/guest-access-checklist-SPOSettings0.png)
+
+3. 選取網站，然後按一下 [**共用**]。
+4. 確定該選項已設定為 [**任何人**] 或 [**現有來賓**]。
  
-     ![螢幕擷取畫面顯示 SparePoint Online 設定切換開關的範例。](media/guest-access-checklist-SPOSettings1.png)
+     ![螢幕擷取畫面顯示 SharePoint Online 設定切換開關的範例](media/guest-access-checklist-SPOSettings1.png)
 
 
 ## <a name="step-6-set-up-guest-user-permissions"></a>步驟6：設定來賓使用者許可權

@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: bjwhalen
-description: 從商務用 Skype 升級至團隊
+description: 從商務用 Skype 升級至 Teams
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2b801f9dfe27aec4cb35dc6d28b80e9dfbf55390
-ms.sourcegitcommit: b9710149ad0bb321929139118b7df0bc4cca08de
+ms.openlocfilehash: 1d33c0ab186013ca00c18b96dad539bd2af0f5ae
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "38010626"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40963081"
 ---
 # <a name="upgrade-from-skype-for-business-to-teams-mdash-for-it-administrators"></a>從商務用 Skype 升級至適用&mdash;于 IT 系統管理員的小組
 
@@ -73,9 +73,9 @@ ms.locfileid: "38010626"
 
 | 團隊經驗 | 在孤島模式中 | 在 TeamsOnly 模式中 |
 |:------------------ | :------------------- | :------------------ |
-| 傳入聊天與接聽的通話：|  團隊或商務用 Skype | 團隊 |
-| 在下列情況中接收 PSTN 通話： | 商務用 Skype <br>（在 [孤島] 模式中不支援使用團隊中的 PSTN 功能。）    | 團隊 |   
- |平臺  | 商務用 Skype 和團隊中的目前狀態是獨立的。 針對相同的孤島使用者，使用者可能會看到不同的狀態，視它們所使用的用戶端而定。 | 目前狀態僅根據使用者在團隊中的活動而定。 所有其他使用者（無論他們使用的用戶端），請參閱目前狀態。 | 
+| 傳入聊天與接聽的通話：|  團隊或商務用 Skype | Teams |
+| 在下列情況中接收 PSTN 通話： | 商務用 Skype <br>（在 [孤島] 模式中不支援使用團隊中的 PSTN 功能。）    | Teams |   
+ |目前狀態  | 商務用 Skype 和團隊中的目前狀態是獨立的。 針對相同的孤島使用者，使用者可能會看到不同的狀態，視它們所使用的用戶端而定。 | 目前狀態僅根據使用者在團隊中的活動而定。 所有其他使用者（無論他們使用的用戶端），請參閱目前狀態。 | 
  | 會議排程   | 使用者可以在小組或商務用 Skype 中排程會議。 它們會在 Outlook 中看到兩個增益集。 |   使用者只會在團隊中排程會議。 只有 [團隊] 增益集可在 Outlook 中使用。 | 
 
 下表摘要列出使用並列方法將您的組織遷移至團隊的優點與缺點。
@@ -148,25 +148,25 @@ ms.locfileid: "38010626"
 
 與其他原則不同，您無法在 Office 365 中建立新的 TeamsUpgradePolicy 實例。 所有現有的實例都會內嵌在服務中。  （請注意，mode 是 TeamsUpgradePolicy 內的屬性，而不是原則實例的名稱）。在部分（但非全部）情況下，原則實例的名稱與模式相同。 特別是，若要將 TeamsOnly 模式指派給使用者，您會將 TeamsUpgradePolicy 的「UpgradeToTeams」實例授與該使用者。 若要查看所有實例的清單，您可以執行下列命令：
 
-```
+```PowerShell
 Get-CsTeamsUpgradePolicy|ft Identity, Mode, NotifySfbUsers
 ```
 
 若要將線上使用者升級為 TeamsOnly 模式，請指派「UpgradeToTeams」實例： 
 
-```
+```PowerShell
 Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Identity $user 
 ```
 
 若要將內部部署商務用 Skype 使用者升級到 TeamsOnly 模式，請在內部部署工具集中使用 Move-csuser：
 
-```
+```PowerShell
 Move-CsUser -identity $user -Target sipfed.online.lync.com -MoveToTeams -credential $cred
 ```
 
 若要變更租使用者中所有使用者的模式，除了擁有明確的每個使用者授與許可權的人員之外，請執行下列命令：
 
-```
+```PowerShell
 Grant-CsTeamsUpgradePolicy -PolicyName SfbWithTeamsCollab -Global
 ```
 
@@ -185,13 +185,13 @@ Grant-CsTeamsUpgradePolicy -PolicyName SfbWithTeamsCollab -Global
 
 如果您的使用者是駐留在內部部署的商務用 Skype 伺服器，您必須使用內部部署工具集，且需要商務用 Skype server 2019 或 CU8 （適用于商務用 skype Server 2015）。 在 [內部部署] PowerShell 視窗中，使用 NotifySfbUsers = true 建立新的 TeamsUpgradePolicy 實例：
 
-```
+```PowerShell
 New-CsTeamsUpgradePolicy -Identity EnableNotification -NotifySfbUsers $true
 ```
 
 接著，使用相同的內部部署 PowerShell 視窗，將該新原則指派給所需的使用者：
 
-```
+```PowerShell
 Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 ```
 
@@ -249,7 +249,7 @@ Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 
 1. 將 [租使用者範圍] 的預設值設定為 mode SfbWithTeamsCollab，如下所示：
 
-   ```
+   ```PowerShell
    Grant-CsTeamsUpgradePolicy -PolicyName SfbWithTeamsCollab -Global
    ```
 
@@ -257,13 +257,13 @@ Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 
    - 如果使用者已經在線上：
 
-     ```
+     ```PowerShell
      Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Identity $username 
      ```
 
    - 如果使用者是內部部署：
 
-     ```
+     ```PowerShell
      Move-CsUser -identity $user -Target sipfed.online.lync.com -MoveToTeams -credential $cred 
      ```
 
@@ -290,7 +290,7 @@ Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 
 2. 針對在步驟1中找到的每個作用中團隊使用者，在遠端 PowerShell 中指派其孤島模式。 這可讓您移至下一個步驟，並確保您不會變更使用者體驗。  
 
-   ```
+   ```PowerShell
    $users=get-content “C:\MyPath\users.txt” 
     foreach ($user in $users){ 
     Grant-CsTeamsUpgradePolicy -identity $user -PolicyName Islands} 
@@ -298,7 +298,7 @@ Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 
 3. 將租使用者的原則設定為 SfbWithTeamsCollab：
 
-   ```
+   ```PowerShell
    Grant-CsTeamsUpgradePolicy -Global -PolicyName SfbWithTeamsCollab 
    ```
 
@@ -306,13 +306,13 @@ Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 
    針對駐留在商務用 Skype Online 的使用者：  
 
-   ```
+   ```PowerShell
    Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName UpgradeToTeams 
    ```
 
    針對駐留在內部部署的商務用 Skype 伺服器的使用者：  
 
-   ```
+   ```PowerShell
    Move-CsUser -Identity $user -Target sipfed.online.lync.com -MoveToTeams -credential $cred 
    ```
 
@@ -438,7 +438,7 @@ Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 
 - 如果現有的 TeamsOnly 或商務用 Skype Online 使用者已獲指派電話系統授權，則 EV-enabled 預設不會設定為 true。  如果在指派電話系統授權之前，將內部部署使用者移至雲端，也會發生這種情況。 不論是哪一種情況，管理員都必須指定下列 Cmdlet： 
 
-  ```
+  ```PowerShell
   Set-CsUser -EnterpriseVoiceEnabled $True 
   ```
 
@@ -446,14 +446,14 @@ Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 
 本節摘要說明在同一個組織中執行兩個小組和商務用 Skype 用戶端時可能會遇到的行為，無論使用何種模式和使用何種升級方法：
 
-- [舉行](#meetings)
+- [會議](#meetings)
 - [互通性](#interoperability)
 - [團隊交談-互通性與原生執行緒](#teams-conversations---interop-versus-native-threads)
-- [平臺](#presence)
-- [聯盟](#federation)
+- [目前狀態](#presence)
+- [同盟](#federation)
 - [連絡人](#contacts)
 
-### <a name="meetings"></a>舉行
+### <a name="meetings"></a>會議
 
 無論其模式為何，使用者都可以加入受邀者（無論是商務用 Skype 或團隊）所邀請的任何類型的會議。  不過，使用者必須以符合會議類型的對應用戶端加入會議：
 
@@ -510,7 +510,7 @@ Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 
 ![顯示已升級的商務用 Skype 使用者聊天的圖表](media/teams-upgrade-chat-with-upgraded-sfb-user.png)
 
-### <a name="presence"></a>平臺
+### <a name="presence"></a>目前狀態
 
 指定使用者的「目前狀態」是依據客戶在服務中的活動。 隨後便會發佈目前狀態，供其他使用者查看。  商務用 Skype 與團隊是獨立用戶端的個別服務，所以每個服務都有自己的狀態供使用者使用。   在團隊與商務用 Skype Online 中的目前狀態服務之間也有同步處理。  這可讓一個服務視需要從其他服務發佈使用者的目前狀態。 
 
@@ -526,7 +526,7 @@ Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 
 如需其他資訊，請參閱目前[狀態](coexistence-chat-calls-presence.md#presence)。
 
-### <a name="federation"></a>聯盟
+### <a name="federation"></a>同盟
 
 從小組聯盟到另一個使用商務用 Skype 的使用者，必須讓團隊使用者在商務用 Skype 中駐留在線上。 TeamsUpgradePolicy 會控制傳入的同盟聊天和通話的路由。 同盟路由行為與與相同租使用者案例相同，但在孤島模式除外。 當收件者處於孤島模式時：
 

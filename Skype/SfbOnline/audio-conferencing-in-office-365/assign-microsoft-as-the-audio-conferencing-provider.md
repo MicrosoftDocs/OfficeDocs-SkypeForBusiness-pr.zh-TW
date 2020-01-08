@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 瞭解如何將 Microsoft 電話撥入式會議提供者指派給商務用 Skype。
-ms.openlocfilehash: 18792e87b83f9ee69030a6d83fecdbb9513c6f73
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: deaafe36948a6fe3a7eb9eaaf49295c37f627595
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "37642247"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962731"
 ---
 # <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>將 Microsoft 指派為音訊會議提供者
 
@@ -65,7 +65,7 @@ Microsoft 音訊會議提供撥入式電話號碼、Pin 及會議 Id，可供會
 > 當提供者從另一個提供者變更為**Microsoft**時，使用者的音訊會議資訊（會議 ID、付費和免付費電話號碼）將會被取代。 變更提供者前，您應該先儲存此資訊。 
 
   
-若要針對少數使用者將提供者變更為 Microsoft，您可以使用[Enable-get-csonlinedialinconferencinguser](https://technet.microsoft.com/en-us/library/mt243813.aspx) Cmdlet。
+若要針對少數使用者將提供者變更為 Microsoft，您可以使用[Enable-get-csonlinedialinconferencinguser](https://technet.microsoft.com/library/mt243813.aspx) Cmdlet。
   
 
 ### <a name="using-a-windows-powershell-script-for-a-large-number-of-users"></a>針對大量使用者使用 Windows PowerShell 腳本
@@ -77,27 +77,27 @@ Microsoft 音訊會議提供撥入式電話號碼、Pin 及會議 Id，可供會
 
 **範例1：** 您可以提供您想要更新的使用者清單，以執行此腳本。
    
-  ```
+  ```PowerShell
 Script.ps1 -UserList <List of users>
 ./Script.ps1 -UserList "user01@constoso.com, user02@contoso.com, user03@contoso.com"
   ```
 
 **範例2：** 您可以提供一個 .csv 檔案，其中包含您要更新之每個使用者的電子郵件地址（別名），以執行此腳本。
    
-  ```
+  ```PowerShell
 Script.ps1 -CsvFile <Path of the csv file>
 ./Script.ps1 -CsvFile ".\\CsvFile.csv"
   ```
 
 **範例3：** 在這個範例中，您可以使用此腳本，將音訊會議提供者從 Intercall （或另一個提供者）變更為適用于貴組織中大量使用者的**Microsoft** 。
     
-  ```
+  ```PowerShell
   Script.ps1 -ACPProviderName <Provider>
   ./Script.ps1 -ACPProviderName "Intercall"
   ```
   以下是腳本：
 
-  ```
+  ```PowerShell
   <#
   .SYNOPSIS
 

@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '取得建立呼叫者加入商務用 Skype Online 會議的預設電話號碼的步驟。 '
-ms.openlocfilehash: b7f86f114601bf4e1658a65b5a8d6520c2785e1c
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 33c2f69cbd05efedf5af1bb35c7ea5d560930da4
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "37642368"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962511"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-skype-for-business-online"></a>在商務用 Skype Online 中設定邀請中包含的電話號碼
 
@@ -35,7 +35,7 @@ ms.locfileid: "37642368"
 Office 365 中的音訊會議可讓貴組織中的使用者建立商務用 Skype 會議，然後允許使用者使用電話撥入這些會議。 在 Office 365 中，您可以選擇使用 Microsoft 音訊會議橋接器或由已核准的音訊會議提供者（ACP）託管的協力廠商音訊會議橋。
   
 > [!NOTE]
-> 沒有一個資源包含所有撥入號碼的音訊會議清單。 如果您想要查看您所在地區或國家/地區是否有撥入電話號碼，請使用商務用 Skype 系統**管理中心** > **語音** > **電話號碼** **，按一下 [** 新增]，然後輸入**新的服務號碼**. 使用 [**國家/地區**]、[**州/地區**] 和 [**城市**] 的清單來篩選您的搜尋。 > 此外，如果您正在尋找免費的服務號碼，請從 [**省/市/自治區**] 清單中選取 [**免付費電話**]。
+> 沒有一個資源包含所有撥入號碼的音訊會議清單。 如果您要查看您的地區或國家/地區是否有可用的撥入電話號碼，請使用**商務用 Skype 系統管理中心** > **語音** > **電話號碼** **，按一下 [** 新增]，然後輸入新的**服務號碼**。 使用 [**國家/地區**]、[**州/地區**] 和 [**城市**] 的清單來篩選您的搜尋。 > 此外，如果您正在尋找免費的服務號碼，請從 [**省/市/自治區**] 清單中選取 [**免付費電話**]。
   
 「會議橋接」會為您的組織提供一組撥入電話號碼。 所有這些專案都可以用來加入會議召集人所建立的會議，但您可以選取哪些專案會包含在他們的會議邀請中。
   
@@ -100,7 +100,7 @@ Office 365 中的音訊會議可讓貴組織中的使用者建立商務用 Skype
     
     若要變更使用者的預設免付費電話號碼，請執行：
     
-  ```
+  ```PowerShell
   Set-CsOnlineDialinConferencingUser -Identity amos.marble@Contoso.com -TollFreeServiceNumber   +180045551234
   ```
 
@@ -109,25 +109,25 @@ Office 365 中的音訊會議可讓貴組織中的使用者建立商務用 Skype
     > [!NOTE]
     > 若要尋找 BridgeID，請使用**CsOnlineDialInConferencingBridge** Cmdlet。
   
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber +18005551234 -ToNumber +18005551239 NumberType TollFree -BridgeId <Bridge Id> -RescheduleMeetings 
   ```
 
   - 若要為所有不含1到 + 18005551234 的使用者設定預設免付費電話號碼，請執行：
     
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber $null -ToNumber +18005551234 -NumberType TollFree -BridgeId <Bridge Id>  
   ```
 
   - 若要將擁有 + 18005551234 的所有使用者的預設免付費電話號碼改為預設的免付費電話號碼至 + 18005551239，請執行：
     
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber +18005551234 -ToNumber +18005551239 NumberType TollFree -BridgeId <Bridge Id>
   ```
 
   - 若要將美國所有使用者的預設免付費電話號碼設定為 + 18005551234，請執行：
     
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -Country US -ToNumber +18005551234 -NumberType TollFree -BridgeId <Bridge Id>
   ```
   ## <a name="want-to-learn-more-about-windows-powershell"></a>想要深入瞭解 Windows PowerShell 嗎？
@@ -147,4 +147,4 @@ Office 365 中的音訊會議可讓貴組織中的使用者建立商務用 Skype
     
 ## <a name="related-topics"></a>相關主題
 
-[在 Office 365 中試用或購買音訊會議](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[試用或購買 Office 365 的音訊會議](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
