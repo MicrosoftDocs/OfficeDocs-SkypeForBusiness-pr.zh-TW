@@ -1,0 +1,61 @@
+---
+title: 移轉多個網站與集區
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Migrating multiple sites and pools
+ms:assetid: 3bf677d4-a5af-4f73-8fad-1abf5b668cc1
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688025(v=OCS.15)
+ms:contentKeyID: 49733615
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e7412d0ffb1a5d24c2f30b76b987a16903253bfb
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "40977625"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
+
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="migrating-multiple-sites-and-pools"></a><span data-ttu-id="d42a5-102">移轉多個網站與集區</span><span class="sxs-lookup"><span data-stu-id="d42a5-102">Migrating multiple sites and pools</span></span>
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="d42a5-103">_**主題上次修改日期：** 2012-08-26_</span><span class="sxs-lookup"><span data-stu-id="d42a5-103">_**Topic Last Modified:** 2012-08-26_</span></span>
+
+<span data-ttu-id="d42a5-104">Lync Server 2013 支援多網站和多池部署。</span><span class="sxs-lookup"><span data-stu-id="d42a5-104">Lync Server 2013 supports multi-site and multi-pool deployments.</span></span> <span data-ttu-id="d42a5-105">從 Office 通訊伺服器 2007 R2 將多個池遷移到 Lync Server 2013 的程式需要下列考慮：</span><span class="sxs-lookup"><span data-stu-id="d42a5-105">The process of migrating multiple pools from Office Communications Server 2007 R2 to Lync Server 2013 requires the following considerations:</span></span>
+
+1.  <span data-ttu-id="d42a5-106">部署 Lync Server 2013 試驗池之後，您必須定義將會移至 Lync Server 2013 池的試驗使用者子集，以及驗證使用者功能的方法。</span><span class="sxs-lookup"><span data-stu-id="d42a5-106">After deploying a Lync Server 2013 pilot pool, you need to define a subset of pilot users that will be moved to the Lync Server 2013 pool, and a methodology for validating the functionality of the users.</span></span>
+
+2.  <span data-ttu-id="d42a5-107">在試驗池中部署邊緣伺服器之後，您必須驗證外部使用者可以與 Lync Server 2013 池進行通訊。</span><span class="sxs-lookup"><span data-stu-id="d42a5-107">After deploying an Edge Server in the pilot pool, you need to validate that external users can communicate with the Lync Server 2013 pool.</span></span>
+
+3.  <span data-ttu-id="d42a5-108">將 Office 通訊伺服器 2007 R2 Edge 伺服器的聯盟路由轉換為試驗 Lync Server 2013 Edge 伺服器之後，您必須驗證聯盟使用者是否可以與 Lync Server 2013 池通訊。</span><span class="sxs-lookup"><span data-stu-id="d42a5-108">After transitioning the federated routes from Office Communications Server 2007 R2 Edge Servers to the pilot Lync Server 2013 Edge Servers, you need to validate that federated users can communicate with the Lync Server 2013 pool.</span></span>
+
+4.  <span data-ttu-id="d42a5-109">移動所有使用者和非使用者連絡人物件之後，您必須確認 Office 通訊伺服器 2007 R2 池是空的。</span><span class="sxs-lookup"><span data-stu-id="d42a5-109">After moving all the users and non-user contact objects, you need to validate that the Office Communications Server 2007 R2 pool is empty.</span></span>
+
+5.  <span data-ttu-id="d42a5-110">確認 Office 通訊伺服器 2007 R2 池為空白之後，您就可以將該池停用。</span><span class="sxs-lookup"><span data-stu-id="d42a5-110">After verifying that the Office Communications Server 2007 R2 pool is empty, you can then deactivate the pool.</span></span>
+    
+    <span data-ttu-id="d42a5-111">如需如何停用舊版 Office 通訊伺服器 2007 R2 池和伺服器的詳細資料，請參閱[階段10：解除舊版網站](phase-10-decommission-legacy-site.md)。</span><span class="sxs-lookup"><span data-stu-id="d42a5-111">For details about how to deactivate the legacy Office Communications Server 2007 R2 pool and servers, see [Phase 10: Decommission legacy site](phase-10-decommission-legacy-site.md).</span></span>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+

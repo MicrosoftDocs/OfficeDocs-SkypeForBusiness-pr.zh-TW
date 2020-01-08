@@ -1,0 +1,136 @@
+---
+title: Lync Server 2013：依類別分類的 Lync Server Cmdlet
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Lync Server 2013 cmdlets by category
+ms:assetid: 4ce274d7-b0ec-40b8-b85e-9a0613916ffb
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398306(v=OCS.15)
+ms:contentKeyID: 48184106
+ms.date: 09/20/2017
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8c7a5e0b3fa81d6730caed1f4ce2f89adf0d7d96
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "40977871"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
+
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="lync-server-2013-cmdlets-by-category"></a><span data-ttu-id="bff87-102">Lync Server 2013 Cmdlet （依類別分類）</span><span class="sxs-lookup"><span data-stu-id="bff87-102">Lync Server 2013 cmdlets by category</span></span>
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="bff87-103">_**主題上次修改日期：** 2017-09-20_</span><span class="sxs-lookup"><span data-stu-id="bff87-103">_**Topic Last Modified:** 2017-09-20_</span></span>
+
+<span data-ttu-id="bff87-104">Microsoft Lync Server 2013 隨附的幾乎 550 Cmdlet 專門設計，可讓系統管理員從命令列管理 Lync Server。</span><span class="sxs-lookup"><span data-stu-id="bff87-104">Microsoft Lync Server 2013 ships with almost 550 cmdlets specifically designed to allow administrators to manage Lync Server from the command line.</span></span> <span data-ttu-id="bff87-105">您可以從 Lync Server 管理命令介面存取 Cmdlet。</span><span class="sxs-lookup"><span data-stu-id="bff87-105">You access the cmdlets from the Lync Server Management Shell.</span></span> <span data-ttu-id="bff87-106">您可以直接從命令列中取得有關 Cmdlet 的說明，方法是輸入類似以下的命令：</span><span class="sxs-lookup"><span data-stu-id="bff87-106">You can retrieve help on a cmdlet directly from the command line by typing a command similar to the following:</span></span>
+
+    Get-Help New-CsVoicePolicy -Full
+
+<span data-ttu-id="bff87-107">上述命令會檢索所有適用于**CsVoicePolicy** Cmdlet 的說明。</span><span class="sxs-lookup"><span data-stu-id="bff87-107">The preceding command will retrieve all the help available for the **New-CsVoicePolicy** cmdlet.</span></span> <span data-ttu-id="bff87-108">使用您要取得說明的 Cmdlet 名稱來取代對**CsVoicePolicy**的參照。</span><span class="sxs-lookup"><span data-stu-id="bff87-108">Substitute the reference to **New-CsVoicePolicy** with the name of the cmdlet for which you want to retrieve help.</span></span>
+
+<span data-ttu-id="bff87-109">若要取得可供管理 Microsoft Lync Server 2013 的完整 Cmdlet 清單，請在 Lync Server Management 命令介面命令提示字元輸入下列內容：</span><span class="sxs-lookup"><span data-stu-id="bff87-109">To retrieve a full list of cmdlets available for managing Microsoft Lync Server 2013, type the following at the Lync Server Management Shell command prompt:</span></span>
+
+    Get-Command * -Module Lync -CommandType cmdlet
+
+<span data-ttu-id="bff87-110">如果您不確定所需的 Cmdlet，我們也會提供一份分類清單，其中列出 Cmdlet 及其說明主題。</span><span class="sxs-lookup"><span data-stu-id="bff87-110">If you are unsure which cmdlets you need, we have also provided a categorized list of cmdlets and their help topics.</span></span> <span data-ttu-id="bff87-111">您會發現某些 Cmdlet 會出現在多個類別中，這是因為它們適用于產品的多個區域。</span><span class="sxs-lookup"><span data-stu-id="bff87-111">You will find that some of the cmdlets show up in more than one category, which was intentional as they apply to multiple areas of the product.</span></span> <span data-ttu-id="bff87-112">以下是類別清單：</span><span class="sxs-lookup"><span data-stu-id="bff87-112">The following is a list of categories:</span></span>
+
+<div>
+
+
+> [!NOTE]
+> <span data-ttu-id="bff87-113">商務用 Skype Cmdlet 參考已移至 docs.microsoft.com。</span><span class="sxs-lookup"><span data-stu-id="bff87-113">Skype for Business cmdlet reference has moved to docs.microsoft.com.</span></span> <span data-ttu-id="bff87-114">按一下下方的連結，會將您帶到 [新增 docs.microsoft.com] 頁面。</span><span class="sxs-lookup"><span data-stu-id="bff87-114">Clicking on the links below will take you to the new docs.microsoft.com page.</span></span> <span data-ttu-id="bff87-115">內容現在已開啟來源，且可供 GitHub 的群組發佈。</span><span class="sxs-lookup"><span data-stu-id="bff87-115">The content is now open sourced and available for community contributions through GitHub.</span></span> <span data-ttu-id="bff87-116">想要進行共同作業嗎？</span><span class="sxs-lookup"><span data-stu-id="bff87-116">Interested in contributing?</span></span> <span data-ttu-id="bff87-117">查看存放庫中的讀我檔案：<A href="https://github.com/microsoftdocs/office-docs-powershell">https://github.com/MicrosoftDocs/office-docs-powershell</A></span><span class="sxs-lookup"><span data-stu-id="bff87-117">Check out the README in the repo here: <A href="https://github.com/microsoftdocs/office-docs-powershell">https://github.com/MicrosoftDocs/office-docs-powershell</A></span></span>
+
+
+
+</div>
+
+<div>
+
+## <a name="in-this-section"></a><span data-ttu-id="bff87-118">本節內容</span><span class="sxs-lookup"><span data-stu-id="bff87-118">In This Section</span></span>
+
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><p><span data-ttu-id="bff87-119"><a href="lync-server-2013-user-management-cmdlets.md">Lync Server 2013 中的使用者管理 Cmdlet</a></span><span class="sxs-lookup"><span data-stu-id="bff87-119"><a href="lync-server-2013-user-management-cmdlets.md">User management cmdlets in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="bff87-120"><a href="lync-server-2013-voice-application-cmdlets.md">Lync Server 2013 中的語音應用程式 Cmdlet</a></span><span class="sxs-lookup"><span data-stu-id="bff87-120"><a href="lync-server-2013-voice-application-cmdlets.md">Voice application cmdlets in Lync Server 2013</a></span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="bff87-121"><a href="lync-server-2013-client-management-cmdlets.md">Lync Server 2013 中的用戶端管理 Cmdlet</a></span><span class="sxs-lookup"><span data-stu-id="bff87-121"><a href="lync-server-2013-client-management-cmdlets.md">Client management cmdlets in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="bff87-122"><a href="lync-server-2013-advanced-enterprise-voice-cmdlets.md">Lync Server 2013 中的 [高級企業語音] Cmdlet</a></span><span class="sxs-lookup"><span data-stu-id="bff87-122"><a href="lync-server-2013-advanced-enterprise-voice-cmdlets.md">Advanced Enterprise Voice cmdlets in Lync Server 2013</a></span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="bff87-123"><a href="lync-server-2013-im-and-presence-cmdlets.md">Lync Server 2013 中的 IM 和目前狀態 Cmdlet</a></span><span class="sxs-lookup"><span data-stu-id="bff87-123"><a href="lync-server-2013-im-and-presence-cmdlets.md">IM and presence cmdlets in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="bff87-124"><a href="lync-server-2013-pstn-connectivity-cmdlets.md">Lync Server 2013 中的 PSTN 連通性 Cmdlet</a></span><span class="sxs-lookup"><span data-stu-id="bff87-124"><a href="lync-server-2013-pstn-connectivity-cmdlets.md">PSTN connectivity cmdlets in Lync Server 2013</a></span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="bff87-125"><a href="lync-server-2013-conferencing-cmdlets.md">Lync Server 2013 中的會議 Cmdlet</a></span><span class="sxs-lookup"><span data-stu-id="bff87-125"><a href="lync-server-2013-conferencing-cmdlets.md">Conferencing cmdlets in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="bff87-126"><a href="lync-server-2013-phones-and-devices-cmdlets.md">Lync Server 2013 中的電話和裝置 Cmdlet</a></span><span class="sxs-lookup"><span data-stu-id="bff87-126"><a href="lync-server-2013-phones-and-devices-cmdlets.md">Phones and devices cmdlets in Lync Server 2013</a></span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="bff87-127"><a href="lync-server-2013-infrastructure-and-deployment-cmdlets.md">Lync Server 2013 中的基礎結構和部署 Cmdlet</a></span><span class="sxs-lookup"><span data-stu-id="bff87-127"><a href="lync-server-2013-infrastructure-and-deployment-cmdlets.md">Infrastructure and deployment cmdlets in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="bff87-128"><a href="lync-server-2013-migration-and-coexistence-cmdlets.md">Lync Server 2013 中的遷移和共存 Cmdlet</a></span><span class="sxs-lookup"><span data-stu-id="bff87-128"><a href="lync-server-2013-migration-and-coexistence-cmdlets.md">Migration and coexistence cmdlets in Lync Server 2013</a></span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="bff87-129"><a href="lync-server-2013-security-cmdlets.md">Lync Server 2013 中的安全性 Cmdlet</a></span><span class="sxs-lookup"><span data-stu-id="bff87-129"><a href="lync-server-2013-security-cmdlets.md">Security cmdlets in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="bff87-130"><a href="lync-server-2013-lync-server-management-shell-configuration-cmdlets.md">Lync server 管理命令介面配置 Cmdlet （Lync Server 2013）</a></span><span class="sxs-lookup"><span data-stu-id="bff87-130"><a href="lync-server-2013-lync-server-management-shell-configuration-cmdlets.md">Lync Server Management Shell configuration cmdlets in Lync Server 2013</a></span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="bff87-131"><a href="lync-server-2013-server-roles-and-services-cmdlets.md">Lync Server 2013 中的伺服器角色和服務 Cmdlet</a></span><span class="sxs-lookup"><span data-stu-id="bff87-131"><a href="lync-server-2013-server-roles-and-services-cmdlets.md">Server roles and services cmdlets in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="bff87-132"><a href="lync-server-2013-mobility-cmdlets.md">Lync Server 2013 中的行動 Cmdlet</a></span><span class="sxs-lookup"><span data-stu-id="bff87-132"><a href="lync-server-2013-mobility-cmdlets.md">Mobility cmdlets in Lync Server 2013</a></span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="bff87-133"><a href="lync-server-2013-application-management-cmdlets.md">Lync Server 2013 中的應用程式管理 Cmdlet</a></span><span class="sxs-lookup"><span data-stu-id="bff87-133"><a href="lync-server-2013-application-management-cmdlets.md">Application management cmdlets in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="bff87-134"><a href="lync-server-2013-persistent-chat-server-cmdlets.md">Lync Server 2013 中的持續聊天伺服器 Cmdlet</a></span><span class="sxs-lookup"><span data-stu-id="bff87-134"><a href="lync-server-2013-persistent-chat-server-cmdlets.md">Persistent Chat Server cmdlets in Lync Server 2013</a></span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="bff87-135"><a href="lync-server-2013-federation-and-external-access-cmdlets.md">Lync Server 2013 中的同盟與外部存取 Cmdlet</a></span><span class="sxs-lookup"><span data-stu-id="bff87-135"><a href="lync-server-2013-federation-and-external-access-cmdlets.md">Federation and external access cmdlets in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="bff87-136"><a href="lync-server-2013-centralized-logging-cmdlets.md">Lync Server 2013 中的集中式記錄 Cmdlet</a></span><span class="sxs-lookup"><span data-stu-id="bff87-136"><a href="lync-server-2013-centralized-logging-cmdlets.md">Centralized Logging cmdlets in Lync Server 2013</a></span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="bff87-137"><a href="lync-server-2013-enterprise-voice-cmdlets.md">Lync Server 2013 中的企業語音 Cmdlet</a></span><span class="sxs-lookup"><span data-stu-id="bff87-137"><a href="lync-server-2013-enterprise-voice-cmdlets.md">Enterprise Voice cmdlets in Lync Server 2013</a></span></span></p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="bff87-138">請參閱</span><span class="sxs-lookup"><span data-stu-id="bff87-138">See Also</span></span>
+
+
+[<span data-ttu-id="bff87-139">Lync Server PowerShell 博客</span><span class="sxs-lookup"><span data-stu-id="bff87-139">Lync Server PowerShell Blog</span></span>](https://go.microsoft.com/fwlink/p/?linkid=203150)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+
