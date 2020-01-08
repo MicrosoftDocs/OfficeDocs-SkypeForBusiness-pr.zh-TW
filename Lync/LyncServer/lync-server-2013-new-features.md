@@ -1,0 +1,87 @@
+---
+title: Lync Server 2013 新功能
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: New server features
+ms:assetid: 2e6f8a57-ab84-4578-b358-870796cddf31
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425795(v=OCS.15)
+ms:contentKeyID: 48183722
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8fa65936e2e27a2b33595778961ca7edd1a2bcb4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "40978165"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
+
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="new-features-in-lync-server-2013"></a>Lync Server 2013 中的新功能
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主題上次修改日期：** 2012-10-04_
+
+Lync Server 2013 引進了許多新功能，以及對現有功能的重要增強功能。 本節提供這些新功能和增強功能的高層次簡介。
+
+在 Lync Server 2013 中的新功能討論，會分組在本節中的主題。
+
+<div>
+
+## <a name="in-this-section"></a>本節內容
+
+  - [Lync Server 2013 中的新管理功能](lync-server-2013-new-management-and-administration-features.md)
+
+  - [Lync Server 2013 中的拓撲變更](lync-server-2013-topology-changes.md)
+
+  - [Lync Server 2013 中新的災害復原和高可用性功能](lync-server-2013-new-disaster-recovery-and-high-availability-features.md)
+
+  - [Lync Server 2013 中的新虛擬化功能](lync-server-2013-new-virtualization-features.md)
+
+  - [Lync Server 2013 中的新 IM 和顯示狀態功能](lync-server-2013-new-im-and-presence-features.md)
+
+  - [Lync Server 2013 中的新會議功能](lync-server-2013-new-conferencing-features.md)
+
+  - [Lync Server 2013 中外部使用者存取的新功能](lync-server-2013-new-features-for-external-user-access.md)
+
+  - [Lync Server 2013 中的新企業語音功能](lync-server-2013-new-enterprise-voice-features.md)
+
+  - [Lync Server 2013 中的新監控功能](lync-server-2013-new-monitoring-features.md)
+
+  - [Lync Server 2013 中的新封存功能](lync-server-2013-new-archiving-features.md)
+
+  - [Lync Server 2013 中的新 Exchange Server 整合功能](lync-server-2013-new-exchange-server-integration-features.md)
+
+  - [Lync Server 2013 中的新常設聊天室伺服器功能](lync-server-2013-new-persistent-chat-server-features.md)
+
+  - [Lync Server 2013 中的新 IPv6 功能](lync-server-2013-new-ipv6-features.md)
+
+  - [Lync Server 2013 中新增整合連絡人存放區功能](lync-server-2013-new-unified-contact-store-feature.md)
+
+  - [Lync Server 2013 中的新視訊功能](lync-server-2013-new-video-features.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+

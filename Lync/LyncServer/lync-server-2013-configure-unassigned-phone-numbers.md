@@ -1,0 +1,71 @@
+---
+title: Lync Server 2013：設定未指派的電話號碼
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configure unassigned phone numbers
+ms:assetid: a0650659-dce7-455f-8977-02454bbfa400
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182559(v=OCS.15)
+ms:contentKeyID: 48185009
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 22441573c22a932c383c7821cce16d79b9767a7c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "40974487"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
+
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="configure-unassigned-phone-numbers-in-lync-server-2013"></a>在 Lync Server 2013 中設定未指派的電話號碼
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**主題上次修改日期：** 2012-11-01_
+
+Lync Server 可讓您設定對您的組織有效且未獲指派給使用者或電話的電話號碼撥入電話的行為。 若要設定此類通話的處理方式，您必須設定未指派的 [數位] 資料表。 您可以使用表格，將呼叫路由至宣告應用程式或 Exchange UM 伺服器。
+
+設定未指派號碼表的方式取決於其使用方式。您可以設定包含組織所有有效分機號碼、只包含未指派的分機號碼，或包含結合這兩種類型之號碼的表格。未指派號碼表可以同時包含已指派和未指派的號碼，但是只有在來電者撥打目前未指派的號碼時才會叫用。如果您在未指派號碼表中納入所有有效的分機號碼，可以指定每次某人離開組織時要執行的動作，而不必重新設定表格。如果表格中包含未指派的分機號碼，您可以針對特定號碼設計要採取的動作。例如，如果您變更客服人員的分機號碼，則可以在表格中包含舊的客服號碼，並且將它指派給提供新號碼的宣告。
+
+<div>
+
+
+> [!IMPORTANT]  
+> 在您設定 [未指定的數位] 資料表之前，您必須已定義一個或多個宣告，或已設定 Exchange UM 自動語音應答。 如需建立宣告的詳細資訊，請參閱<A href="lync-server-2013-create-an-announcement.md">在 Lync Server 2013 中建立公告</A>。 若要查看您是否已設定 Exchange UM 設定，請執行<STRONG>CsExUmContact</STRONG> Cmdlet。 如需詳細資訊，請參閱<A href="https://docs.microsoft.com/powershell/module/skype/Get-CsExUmContact">CsExUmContact</A>。
+
+
+
+</div>
+
+<div>
+
+## <a name="in-this-section"></a>本節內容
+
+  - [在 Lync Server 2013 中建立或修改未指定的數位範圍](lync-server-2013-create-or-modify-an-unassigned-number-range.md)
+
+  - [在 Lync Server 2013 中刪除未指定的數位範圍](lync-server-2013-delete-an-unassigned-number-range.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+

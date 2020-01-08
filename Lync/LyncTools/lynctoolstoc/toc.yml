@@ -1,0 +1,33 @@
+- name: Lync Server 2013 工具
+  href: ../lync-server-2013-tools.md
+  items:
+    - name: Lync Server 2013 應力與效能工具
+      href: ../lync-server-2013-stress-and-performance-tool.md
+      items:
+        - name: 簡介
+          href: ../introduction.md
+        - name: 先決條件
+          href: ../prerequisites.md
+        - name: Setup.exe
+          href: ../setup.md
+        - name: 設定 Lync Server 2013 案例
+          href: ../configure-lync-server-2013-scenarios.md
+          items:
+            - name: 提供要執行負載的拓撲
+              href: ../provisioning-the-topology-to-run-load.md
+            - name: 設定各種原則
+              href: ../configuring-the-various-policies.md
+        - name: 建立使用者和連絡人
+          href: ../create-users-and-contacts.md
+        - name: 設定使用者設定檔
+          href: ../configure-user-profile.md
+        - name: 執行 LyncPerfTool
+          href: ../run-lyncperftool.md
+        - name: 解釋結果
+          href: ../interpreting-the-results.md
+        - name: Lync Server 2013 應力與效能工具常見問題
+          href: ../lync-server-2013-stress-and-performance-tool-faq.md
+    - name: Lync Server 2013 資源套件工具檔
+      href: ../lync-server-2013-resource-kit-tools-documentation.md
+    - name: Lync Server 2013 持續聊天資源套件工具
+      href: ../lync-server-2013-persistent-chat-resource-kit-tools.md
