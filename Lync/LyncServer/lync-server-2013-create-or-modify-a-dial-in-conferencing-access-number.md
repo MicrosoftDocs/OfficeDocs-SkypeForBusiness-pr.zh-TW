@@ -1,0 +1,173 @@
+---
+title: Lync Server 2013：建立或修改電話撥入式會議存取號碼
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Create or modify a dial-in conferencing access number
+ms:assetid: 06f55c28-57f8-4d4e-8313-9740846796d9
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398126(v=OCS.15)
+ms:contentKeyID: 48183304
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8372c8117f2e33594ae59b3eff15c6d7eee96ba6
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "40975060"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
+
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="create-or-modify-a-dial-in-conferencing-access-number-in-lync-server-2013"></a><span data-ttu-id="2805b-102">在 Lync Server 2013 中建立或修改電話撥入式會議存取號碼</span><span class="sxs-lookup"><span data-stu-id="2805b-102">Create or modify a dial-in conferencing access number in Lync Server 2013</span></span>
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="2805b-103">_**主題上次修改日期：** 2012-09-17_</span><span class="sxs-lookup"><span data-stu-id="2805b-103">_**Topic Last Modified:** 2012-09-17_</span></span>
+
+<span data-ttu-id="2805b-104">如果您想要建立或修改電話撥入式會議存取號碼，請遵循下列步驟。</span><span class="sxs-lookup"><span data-stu-id="2805b-104">Follow these steps if you want to create or modify a dial-in conferencing access number.</span></span>
+
+<div>
+
+
+> [!IMPORTANT]  
+> <span data-ttu-id="2805b-105">在您建立新的撥入存取號碼之前，您必須在與新的撥入存取號碼相關聯的撥號方案中設定電話撥入式會議區域。</span><span class="sxs-lookup"><span data-stu-id="2805b-105">Before you create a new dial-in access number, you must set a dial-in conferencing region in the dial plan that is associated with the new dial-in access number.</span></span> <span data-ttu-id="2805b-106">多個撥號方案可以使用同一個區域。</span><span class="sxs-lookup"><span data-stu-id="2805b-106">Multiple dial plans can use the same region.</span></span>
+
+
+
+</div>
+
+<div>
+
+## <a name="to-create-or-modify-a-dial-in-access-number"></a><span data-ttu-id="2805b-107">建立或修改撥入存取號碼</span><span class="sxs-lookup"><span data-stu-id="2805b-107">To create or modify a dial-in access number</span></span>
+
+1.  <span data-ttu-id="2805b-108">從指派給 CsUserAdministrator 角色或 CsAdministrator 角色的使用者帳戶登入內部部署中的任何電腦。</span><span class="sxs-lookup"><span data-stu-id="2805b-108">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+
+2.  <span data-ttu-id="2805b-109">開啟瀏覽器視窗，然後輸入系統管理員 URL，以開啟 Lync Server [控制台]。</span><span class="sxs-lookup"><span data-stu-id="2805b-109">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="2805b-110">如需可用於啟動 Lync Server [控制台] 的不同方法的詳細資訊，請參閱[開啟 Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。</span><span class="sxs-lookup"><span data-stu-id="2805b-110">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+
+3.  <span data-ttu-id="2805b-111">在左側導覽列中，按一下 [**會議**]，然後按一下 [**撥入存取號碼**]。</span><span class="sxs-lookup"><span data-stu-id="2805b-111">In the left navigation bar, click **Conferencing** and then click **Dial-in Access Number**.</span></span>
+
+4.  <span data-ttu-id="2805b-112">在 [**撥入存取號碼**] 頁面上，執行下列其中一項操作：</span><span class="sxs-lookup"><span data-stu-id="2805b-112">On the **Dial-in Access Number** page, do one of the following:</span></span>
+    
+      - <span data-ttu-id="2805b-113">按一下 [**新增**] 以開啟**新的撥入存取號碼**。</span><span class="sxs-lookup"><span data-stu-id="2805b-113">Click **New** to open **New Dial-in Access Number**.</span></span>
+    
+      - <span data-ttu-id="2805b-114">按一下清單中的其中一個撥入存取號碼，按一下 [**編輯**]，然後按一下 [**顯示詳細資料**]。</span><span class="sxs-lookup"><span data-stu-id="2805b-114">Click one of the dial-in access numbers in the list, click **Edit**, and then click **Show details**.</span></span>
+        
+        <div>
+        
+
+        > [!NOTE]  
+        > <span data-ttu-id="2805b-115">使用 [搜尋] 欄位來搜尋撥入存取號碼清單中的欄內容，可能不會產生您預期的結果。</span><span class="sxs-lookup"><span data-stu-id="2805b-115">Using the search field to search for the contents of a column in the list of dial-in access numbers may not yield the results you expect.</span></span> <span data-ttu-id="2805b-116">您可以改為依您想要查看或變更的撥入存取號碼來排序清單。</span><span class="sxs-lookup"><span data-stu-id="2805b-116">Instead, sort the list by the column of interest to identify the dial-in access number you want to view or change.</span></span>
+
+        
+        </div>
+
+5.  <span data-ttu-id="2805b-117">在 [**顯示號碼**] 中，輸入「公用交換電話網絡（PSTN）電話撥打電話給」加入會議的電話號碼。</span><span class="sxs-lookup"><span data-stu-id="2805b-117">In **Display number**, type the phone number that public switched telephone network (PSTN) phone users dial to join a conference.</span></span>
+    
+    <div>
+    
+
+    > [!NOTE]  
+    > <span data-ttu-id="2805b-118">這個數位會顯示在 [會議邀請] 和 [電話撥入式會議設定] 網頁上。</span><span class="sxs-lookup"><span data-stu-id="2805b-118">This number is displayed in meeting invitations and on the Dial-in Conferencing Settings webpage.</span></span>
+
+    
+    </div>
+
+6.  <span data-ttu-id="2805b-119">在 [**顯示名稱**] 中，輸入撥入存取號碼的描述。</span><span class="sxs-lookup"><span data-stu-id="2805b-119">In **Display name**, type a description for the dial-in access number.</span></span> <span data-ttu-id="2805b-120">這是與 Lync 搜尋結果中的撥入存取號碼相關聯的名稱。</span><span class="sxs-lookup"><span data-stu-id="2805b-120">This is the name that is associated with the dial-in access number in Lync search results.</span></span>
+    
+    <div>
+    
+
+    > [!NOTE]  
+    > <span data-ttu-id="2805b-121">當使用者呼叫存取號碼時，此名稱就會顯示在用戶端中。</span><span class="sxs-lookup"><span data-stu-id="2805b-121">This name is displayed in the client when a user calls the access number.</span></span>
+
+    
+    </div>
+
+7.  <span data-ttu-id="2805b-122">在 [**行 uri**] 中，輸入電話 uri 格式的撥入存取號碼的 E. 164 個數字，包括數位前面的 + 符號，不含空格。</span><span class="sxs-lookup"><span data-stu-id="2805b-122">In **Line URI**, type the E.164 number of the dial-in access number in TEL URI format, including the + symbol before the number and excluding spaces.</span></span> <span data-ttu-id="2805b-123">例如，電話： + 14255550200。</span><span class="sxs-lookup"><span data-stu-id="2805b-123">For example, tel:+14255550200.</span></span>
+    
+    <div>
+    
+
+    > [!NOTE]  
+    > <span data-ttu-id="2805b-124">其他電話撥入式會議存取號碼無法重複使用相同的行 URI。</span><span class="sxs-lookup"><span data-stu-id="2805b-124">The same Line URI cannot be reused by another dial-in conferencing access number.</span></span>
+
+    
+    </div>
+
+8.  <span data-ttu-id="2805b-125">在**SIP URI**中，請執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="2805b-125">In **SIP URI**, do the following:</span></span>
+    
+      - <span data-ttu-id="2805b-126">在文字方塊中，輸入此電話撥入式會議存取號碼的唯一 SIP URI。</span><span class="sxs-lookup"><span data-stu-id="2805b-126">In the text box, type a unique SIP URI for this dial-in conferencing access number.</span></span> <span data-ttu-id="2805b-127">此 SIP URI 會顯示在各種位置，包括但不限於呼叫通知訊息及舊版 Communicator 用戶端版本。</span><span class="sxs-lookup"><span data-stu-id="2805b-127">This SIP URI is displayed in various locations including, but not limited to, call notification messages and previous versions of Communicator clients.</span></span>
+        
+        <div>
+        
+
+        > [!NOTE]  
+        > <span data-ttu-id="2805b-128">其他電話撥入式會議存取號碼無法重複使用相同的 SIP URI。</span><span class="sxs-lookup"><span data-stu-id="2805b-128">The same SIP URI cannot be reused by another dial-in conferencing access number.</span></span> <span data-ttu-id="2805b-129">在建立存取號碼之後，便無法修改 SIP URI。</span><span class="sxs-lookup"><span data-stu-id="2805b-129">The SIP URI cannot be modified after the access number is created.</span></span> <span data-ttu-id="2805b-130">變更 SIP URI 的唯一方式是刪除並重新建立存取號碼。</span><span class="sxs-lookup"><span data-stu-id="2805b-130">The only way to change the SIP URI is to delete and recreate the access number.</span></span>
+
+        
+        </div>
+    
+      - <span data-ttu-id="2805b-131">在下拉式清單方塊中，按一下支援此撥入存取號碼之會議助理應用程式的網域。</span><span class="sxs-lookup"><span data-stu-id="2805b-131">In the drop-down list box, click the domain of the Conferencing Attendant application that supports this dial-in access number.</span></span>
+
+9.  <span data-ttu-id="2805b-132">在 [Pool] （**池**）中，按一下執行支援此撥入存取號碼之會議助理實例的池。</span><span class="sxs-lookup"><span data-stu-id="2805b-132">In **Pool**, click the pool that is running the instance of Conferencing Attendant that supports this dial-in access number.</span></span>
+    
+    <div>
+    
+
+    > [!NOTE]  
+    > <span data-ttu-id="2805b-133">如果您在建立存取號碼後需要變更池，您必須使用<STRONG>CsApplicationEndpoint</STRONG> Cmdlet，或刪除並重新建立存取號碼。</span><span class="sxs-lookup"><span data-stu-id="2805b-133">If you need to change the pool after you create the access number, you must use the <STRONG>Move-CsApplicationEndpoint</STRONG> cmdlet or delete and recreate the access number.</span></span>
+
+    
+    </div>
+
+10. <span data-ttu-id="2805b-134">在**主要語言**中，按一下針對此撥入存取號碼播放提示的語言。</span><span class="sxs-lookup"><span data-stu-id="2805b-134">In **Primary language**, click the language in which prompts are played for this dial-in access number.</span></span>
+    
+    <div>
+    
+
+    > [!NOTE]  
+    > <span data-ttu-id="2805b-135">主要語言是會議助理用來接聽通話的語言。</span><span class="sxs-lookup"><span data-stu-id="2805b-135">The primary language is the language that the Conferencing Attendant uses to answer the call.</span></span> <span data-ttu-id="2805b-136">支援的語言會顯示在電話撥入式會議設定網頁上的每個存取電話號碼旁邊。</span><span class="sxs-lookup"><span data-stu-id="2805b-136">Supported languages are displayed alongside each access phone number on the Dial-in Conferencing Settings webpage.</span></span>
+
+    
+    </div>
+
+11. <span data-ttu-id="2805b-137">可選在**次要語言（最多四個）** 中，按一下 [**新增**]，選取您想要支援來電者至此撥入存取號碼的一或多個其他語言，然後按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="2805b-137">(Optional) In **Secondary languages (maximum of four)**, click **Add**, select one or more additional languages that you want to support for callers to this dial-in access number, and then click **OK**.</span></span>
+    
+    <div>
+    
+
+    > [!NOTE]  
+    > <span data-ttu-id="2805b-138">您最多可以為每個撥入存取號碼選擇四個次要語言。</span><span class="sxs-lookup"><span data-stu-id="2805b-138">You can choose up to four secondary languages for each dial-in access number.</span></span> <span data-ttu-id="2805b-139">使用者在撥入會議時，輸入會議 ID 前，就可以選取次要語言。</span><span class="sxs-lookup"><span data-stu-id="2805b-139">Users can select a secondary language before entering the conference ID when they dial in to a conference.</span></span>
+
+    
+    </div>
+
+12. <span data-ttu-id="2805b-140">若要新增撥入存取號碼的地區，請在 [**相關區域**] 底下，按一下 [**新增**]，按一下與此撥入存取號碼的撥號方案相關聯的一個或多個區域，然後按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="2805b-140">To add a region for the dial-in access number, under **Associated regions**, click **Add**, click one or more regions that are associated with the dial plans for this dial-in access number, and then click **OK**.</span></span>
+
+13. <span data-ttu-id="2805b-141">若要從撥入存取號碼刪除區域，請在 [**相關區域**] 底下，按一下您要刪除的區域，然後按一下 [**移除**]。</span><span class="sxs-lookup"><span data-stu-id="2805b-141">To delete a region from the dial-in access number, under **Associated regions**, click the region you want to delete, and then click **Remove**.</span></span>
+
+14. <span data-ttu-id="2805b-142">按一下 [認可]\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="2805b-142">Click **Commit**.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+
