@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 請閱讀本主題，瞭解 Microsoft 手機系統直通路由如何讓您將支援的客戶提供的會話邊界控制器（SBC）連線至 Microsoft Phone 系統。
-ms.openlocfilehash: 3fb9fcd8ec8dab78b03b408813d32292879cbec2
-ms.sourcegitcommit: 4c763a3824e6a2271d98a46d25a03c8f04ee2f74
+ms.openlocfilehash: 5b43bad6d0b8828a88ccb3ee48a85cb0c390e6a2
+ms.sourcegitcommit: 9eaa314a9e81a2a56686c035ba0292256ccb2bf5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "39257472"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "40995113"
 ---
 # <a name="plan-direct-routing"></a>規劃直接路由
 
@@ -116,6 +116,14 @@ Microsoft 團隊媒體的防火牆 IP 位址和埠 |如需詳細資訊，請參�
 如需有關手機系統授權的詳細資訊，請參閱[充分利用 office 365](https://products.office.com/compare-all-microsoft-office-products?tab=2)和[Office 365 方案選項](https://technet.microsoft.com/library/office-365-plan-options.aspx)。 
 
 如需手機系統授權的詳細資訊，請參閱[Microsoft 團隊附加元件授權](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。 
+
+## <a name="supported-end-points"></a>支援的端點 
+
+您可以使用做為終點：
+- 任何團隊 cleintg。 
+- 常見的區域電話，請參閱[設定 Microsoft 團隊的通用區域電話授權](https://docs.microsoft.com/en-us/microsoftteams/set-up-common-area-phones)plese。 注意在使用直接傳送來設定一般的區域手機時，不需要通話方案授權。
+- 商務用 Skype 3PIP 電話。 請參閱[Microsoft 團隊的商務用 Skype 電話（3PIP）支援](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Skype-for-Business-phones-3PIP-support-with-Microsoft-Teams/ba-p/789351)
+
 
 ## <a name="sbc-domain-names"></a>SBC 網功能變數名稱稱
 

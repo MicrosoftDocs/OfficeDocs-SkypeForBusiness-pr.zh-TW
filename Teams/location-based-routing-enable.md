@@ -14,12 +14,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 615848be1f91f80b0afd06c1eaa44a4f9d7b4f63
-ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
+ms.openlocfilehash: 48fbd1477194b7523b65ec527686b7304f0c37b2
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "39615793"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992018"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>啟用直接路由的依位置路由
 
@@ -39,16 +39,16 @@ ms.locfileid: "39615793"
 
 1. 使用[CsOnlinePstnUsage](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstnusage?view=skype-ps) Cmdlet 來設定 PSTN 用法。 針對多種用途，請使用逗號來分隔每個用法。
 
-    ```
+    ```PowerShell
     Set-CsOnlinePstnUsage -Usage <usages> 
     ```
     例如：
-    ```
+    ```PowerShell
     Set-CsOnlinePstnUsage -Usage "Long Distance", "Local", "Internal" 
     ```
 2. 使用[新的 CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csonlinevoiceroutingpolicy?view=skype-ps) Cmdlet 來建立語音路由策略，以將使用者與適當的 PSTN 用法進行關聯。
 
-    ```
+    ```PowerShell
     New-CsOnlineVoiceRoutingPolicy -Identity <voice routing policy ID> -Description <voice routing policy name> -OnlinePstnUsages <usages> 
     ```
     
@@ -58,7 +58,7 @@ ms.locfileid: "39615793"
 
     在這個範例中，我們會建立兩個新的語音路由策略，並將 PSTN 使用方式指派給它們。 
 
-    ```
+    ```PowerShell
     New-CsOnlineVoiceRoutingPolicy -Identity "DelhiVoiceRoutingPolicy" -Description "Delhi voice routing policy" -OnlinePstnUsages "Long Distance" 
     New-CsOnlineVoiceRoutingPolicy -Identity "HyderabadVoiceRoutingPolicy" -Description " Hyderabad voice routing policy" -OnlinePstnUsages "Long Distance", "Local", "Internal" 
     ```
@@ -70,18 +70,18 @@ ms.locfileid: "39615793"
     |線上 PSTN 用法  |長途  |遠距離、本機、內部  |
 
 3. 使用[授與 CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csonlinevoiceroutingpolicy?view=skype-ps) Cmdlet，將線上語音路由策略與需要強制執行路由限制的使用者建立關聯。
-    ```
+    ```PowerShell
     Grant-CsOnlineVoiceRoutingPolicy -Identity <User> -Tenant <TenantId>
     ```
 ## <a name="enable-location-based-routing-for-network-sites"></a>啟用網路網站的位置路由
 1.  使用[CsTenantNetworkSite](https://docs.microsoft.com/powershell/module/skype/set-cstenantnetworksite?view=skype-ps) Cmdlet 來啟用以位置為基礎的路由，並將語音路由策略與您的網路網站進行關聯，而您必須強制執行路由限制。
-    ```
+    ```PowerShell
     Set-CsTenantNetworkSite -Identity <site ID> -EnableLocationBasedRouting <$true|$false>  
     ```
 
     在這個範例中，我們會針對新德里網站和 Hyderabad 網站啟用位置路由。 
 
-    ```
+    ```PowerShell
     Set-CsTenantNetworkSite -Identity "Delhi" -EnableLocationBasedRouting $true  
     Set-CsTenantNetworkSite -Identity "Hyderabad" -EnableLocationBasedRouting $true 
     ```
@@ -96,13 +96,13 @@ ms.locfileid: "39615793"
 ## <a name="enable-location-based-routing-for-gateways"></a>啟用閘道的位置路由
 1. 使用[CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway?view=skype-ps) Cmdlet 來為每個閘道或網路網站建立閘道配置。 
 
-    ```
+    ```PowerShell
     New-CSOnlinePSTNGateway -Fqdn <FDQN registered for the SBC> -Identity <gateway configuration ID> -SipSignallingPort <listening port used> -Enabled $true 
     ```
     如果有多個閘道與系統相關聯（例如，閘道或 PBX），請修改每個閘道以啟用以位置為基礎的路由限制。 
 
     在這個範例中，我們會為每個閘道建立一個閘道配置。 
-    ```
+    ```PowerShell
     New-CsOnlinePSTNGateway -Fqdn sbc.contoso.com -Enabled $true -SipSignallingPort 5067 
     ```
     如需詳細資訊，請參閱[設定直接路由](direct-routing-configure.md)。
@@ -111,18 +111,18 @@ ms.locfileid: "39615793"
 
     啟用將呼叫路由至 pstn 閘道，並將呼叫路由到 PSTN 的閘道，並將閘道所在的網路網站與網路網站建立關聯，以進行位置路由。
 
-    ```
+    ```PowerShell
     Set-CSOnlinePSTNGateway -Identity <gateway configuration ID> -GatewaySiteLbrEnabled $true -GatewaySiteID <site ID> 
     ```
 
     在這個範例中，我們為在新德里與 Hyderabad 網站中與 PSTN 閘道相關聯的每個閘道啟用位置路由。 
-    ```
+    ```PowerShell
     Set-CSOnlinePSTNGateway -Identity sbc.contoso.com  -GatewaySiteLbrEnabled $true –GatewaySiteID “Delhi”
     Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com  -GatewaySiteLbrEnabled $true -GatewaySiteID “Hyderabad” 
     ```
     不要針對未將呼叫路由至 PSTN 的閘道啟用位置式路由。 不過，您仍然必須將閘道與系統所在的網路網站建立關聯。 這是因為以位置為基礎的路由限制需要針對透過此閘道所連線的端點而進行 PSTN 呼叫強制執行。 在這個範例中，對於與新德里與 Hyderabad 網站中的 PBX 系統相關聯的每個閘道，都不會啟用位置路由。
 
-    ```
+    ```PowerShell
     Get-CSONlinePSTNGateway -Identity sbc.contoso.com 
  
     Identity: sbc.contoso.com 
@@ -151,12 +151,12 @@ ms.locfileid: "39615793"
 
 使用[授與 CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy?view=skype-ps) Cmdlet，透過避免 PSTN 免付費旁路來啟用以位置為基礎的路由。
 
-```
+```PowerShell
 Grant-CsTeamsCallingPolicy -PolicyName <policy name> -id <user id> 
 ```
 在這個範例中，我們將避免 PSTN 免付費旁路 User1's 通話原則。 
 
-```
+```PowerShell
 Grant-CsTeamsCallingPolicy –PolicyName “AllowCallingPreventTollBypass” -id “User1” 
 ```
 

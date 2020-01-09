@@ -9,34 +9,34 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fed12cb5-2c80-476a-af3b-d55b450c5fbc
-description: '摘要: 瞭解如何在商務用 Skype Server 中刪除存檔設定。'
-ms.openlocfilehash: e2a79949da21c9b3b8e94019375ea0e1f0887353
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 摘要：瞭解如何在商務用 Skype Server 中刪除存檔設定。
+ms.openlocfilehash: 22da9464a4bb6b17c6d4b9aa63ad8990a9152c38
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190375"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992370"
 ---
 # <a name="delete-an-archiving-configuration-in-skype-for-business-server"></a>在商務用 Skype Server 中刪除封存配置
 
-**摘要:** 瞭解如何在商務用 Skype Server 中刪除封存配置。
+**摘要：** 瞭解如何在商務用 Skype Server 中刪除封存配置。
   
-您可以刪除網站配置或池設定, 但無法刪除全域設定。 如果您刪除全域設定, 系統會自動將其重設為預設值。
+您可以刪除網站配置或池設定，但無法刪除全域設定。 如果您刪除全域設定，系統會自動將其重設為預設值。
   
 ## <a name="delete-an-archiving-configuration-by-using-the-control-panel"></a>使用 [控制台] 刪除封存配置
 
-若要使用 [控制] 面板刪除封存配置:
+若要使用 [控制] 面板刪除封存配置：
   
 1. 從指派給 CsArchivingAdministrator 或 CsAdministrator 角色的使用者帳戶登入內部部署中的任何電腦。 
     
-2. 開啟瀏覽器視窗, 然後輸入系統管理員 URL, 開啟商務用 Skype Server 的 [控制台]。 
+2. 開啟瀏覽器視窗，然後輸入系統管理員 URL，開啟商務用 Skype Server 的 [控制台]。 
     
-3. 在左側導覽列中, 按一下 [**監視及**封存], 然後按一下 [封存**配置**]。
+3. 在左側導覽列中，按一下 [**監視及**封存]，然後按一下 [封存**配置**]。
     
-4. 在封存配置清單中, 按一下您要刪除的網站或池設定, 按一下 [**編輯**], 然後按一下 [**刪除**]。
+4. 在封存配置清單中，按一下您要刪除的網站或池設定，按一下 [**編輯**]，然後按一下 [**刪除**]。
     
     > [!NOTE]
-    > 您也可以按一下全域設定, 但如果您想要將全域設定重設為預設值, 請選擇此選項。 
+    > 您也可以按一下全域設定，但如果您想要將全域設定重設為預設值，請選擇此選項。 
   
 5. 按一下 [認可]****。
     
@@ -44,28 +44,28 @@ ms.locfileid: "36190375"
 
 您也可以使用**CsArchivingConfiguration** Cmdlet 刪除封存配置。
   
-例如, 下列命令會移除套用至雷德蒙者網站的存檔設定設定。 刪除網站範圍中設定的原則後, 由全域存檔原則會自動控制先前由網站原則管理的使用者:
+例如，下列命令會移除套用至雷德蒙者網站的存檔設定設定。 刪除網站範圍中設定的原則後，由全域存檔原則會自動控制先前由網站原則管理的使用者：
   
-```
+```PowerShell
 Remove-CsArchivingConfiguration -Identity "site:Redmond"
 ```
 
-下列命令會移除所有已套用至服務範圍的存檔設定:
+下列命令會移除所有已套用至服務範圍的存檔設定：
   
-```
+```PowerShell
 Get-CsArchivingConfiguration -Filter "site:*" | Remove-CsArchivingConfiguration
 ```
 
-[下一步] 命令會移除 Exchange 封存已停用的所有存檔設定:
+[下一步] 命令會移除 Exchange 封存已停用的所有存檔設定：
   
-```
+```PowerShell
 Get-CsArchivingConfiguration | Where-Object {$_.EnableExchangeArchiving -eq $False} | Remove-CsArchivingConfiguration
 ```
 
-您也可以使用**CsArchivingConfiguration** Cmdlet, 將全域設定重設為預設值。 例如, 假設您已在全域層級啟用 IM 會話存檔;下列命令會將值重設為預設值 (無), 這會停用全域層級的存檔:
+您也可以使用**CsArchivingConfiguration** Cmdlet，將全域設定重設為預設值。 例如，假設您已在全域層級啟用 IM 會話存檔;下列命令會將值重設為預設值（無），這會停用全域層級的存檔：
   
-```
+```PowerShell
 Remove-CsArchivingConfiguration -Identity global
 ```
 
-如需詳細資訊, 請參閱[Remove CsArchivingConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csarchivingconfiguration?view=skype-ps) Cmdlet 的說明主題。
+如需詳細資訊，請參閱[Remove CsArchivingConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csarchivingconfiguration?view=skype-ps) Cmdlet 的說明主題。

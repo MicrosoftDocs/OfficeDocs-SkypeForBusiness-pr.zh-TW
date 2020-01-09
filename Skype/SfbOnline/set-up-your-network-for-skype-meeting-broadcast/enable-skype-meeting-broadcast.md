@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - SMB
 description: 在貴組織中的人員可以使用 Skype 會議廣播之前，您必須先啟用它。 若要這樣做，您必須知道如何使用 Windows PowerShell。 如果您不知道 Windows PowerShell，請考慮聘用 Microsoft 合作夥伴來為您執行此步驟。
-ms.openlocfilehash: 1d96ce1bb234ee319af2eeb11442fc15736b8f54
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: edf9c372a98da9e09d7e9040c6d035e389c8b1ec
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "37642552"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40989138"
 ---
 # <a name="enable-skype-meeting-broadcast"></a>啟用 Skype 會議廣播
 
@@ -56,7 +56,7 @@ ms.locfileid: "37642552"
     
 7. 在**Windows PowerShell**視窗中，執行下列動作以連線到您的 Office 365 組織：
     
-   ```
+   ```PowerShell
    $Credential = get-credential
    $O365Session = New-CsOnlineSession -Credential $credential
    Import-PSSession $O365Session
@@ -64,7 +64,7 @@ ms.locfileid: "37642552"
 
 8. 執行下列動作，以確認您目前的 Skype 會議廣播設定：
     
-   ```
+   ```PowerShell
    Get-CsBroadcastMeetingConfiguration
    ```
 
@@ -74,7 +74,7 @@ ms.locfileid: "37642552"
   
 9. 執行下列動作，為您的組織啟用 Skype 會議廣播：
     
-   ```
+   ```PowerShell
    Set-CsBroadcastMeetingConfiguration -EnableBroadcastMeeting $True
    ```
 

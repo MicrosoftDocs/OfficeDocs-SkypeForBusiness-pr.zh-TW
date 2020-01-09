@@ -14,12 +14,12 @@ search.appverid: MET150
 description: 瞭解當您需要提交以電子形式儲存的法律訴訟資訊時，要採取的動作。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 205b10c9fc1576b260e72c145239d56b1c71b643
-ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
+ms.openlocfilehash: 43105db9a4e12d658bf5cf2e9c2c8897fdc918e3
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/17/2019
-ms.locfileid: "40069184"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40989788"
 ---
 <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>在 Microsoft 團隊中進行 eDiscovery 調查內容
 ============================
@@ -67,18 +67,18 @@ ms.locfileid: "40069184"
 
 1. 執行下列動作，以取得與團隊中的私人頻道相關聯的所有 SharePoint 網站集合的清單。
 
-    ```
+    ```PowerShell
     Get-SPOSite
     ```
 2. 執行下列 PowerShell 腳本，以取得與團隊中的私人頻道與父團隊群組識別碼相關聯的所有 SharePoint 網站集合 Url 清單。
 
-    ```
+    ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
     foreach ($site in $sites) {$x= get-sposite -identity $site.url -detail; $x.relatedgroupID; $x.url} 
     ```
 3. 針對每個團隊或群組識別碼，請執行下列 PowerShell 腳本來找出所有相關的專用通道網站，其中 $groupID 是團隊的群組識別碼。
 
-    ```
+    ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
     $groupID = “e8195240-4a70-4830-9106-80193cf717cb“
     foreach ($site in $sites) {$x= Get-SpoSite -Identity $site.url -Detail; if ($x.RelatedGroupId -eq $groupID) {$x.RelatedGroupId;$x.url}}
@@ -90,12 +90,12 @@ ms.locfileid: "40069184"
 
 1. 執行下列動作，取得小組中的私人頻道清單。
 
-    ```
+    ```PowerShell
     Get-TeamChannel -GroupId <GroupID> -MembershipType Private
     ```
 2. 執行下列動作以取得私人頻道成員的清單。
 
-    ```
+    ```PowerShell
     Get-TeamChannelUser -GroupId <GroupID> -DisplayName "Engineering" -Role Member
     ```
 3. 從小組中的每個私人頻道包含所有成員的信箱，成為 eDiscovery 搜尋查詢的一部分。

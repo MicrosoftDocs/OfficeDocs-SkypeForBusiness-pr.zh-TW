@@ -9,12 +9,12 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 遷移到商務用 Skype Server 2019 之後，您必須先將中央管理伺服器移至商務用 Skype Server 2019 前端伺服器或池，才能移除舊版伺服器。
-ms.openlocfilehash: 0e13dab272a60967c0ccc676a47954b75170eeb3
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: b6a2dd08949b5b15370f27e1da936009048982f6
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37435187"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40990928"
 ---
 # <a name="move-the-legacy-central-management-server-to-skype-for-business-server-2019"></a>將舊版中央管理伺服器移至商務用 Skype Server 2019
 
@@ -24,19 +24,19 @@ ms.locfileid: "37435187"
   
 成功移動中央管理伺服器之後，您應該從原始前端伺服器移除中央管理伺服器資料庫。 如需有關移除中央管理伺服器資料庫的詳細資訊，請參閱[移除前端池的 SQL Server 資料庫](remove-the-sql-server-database-for-a-front-end-pool.md)。
   
-您可以在商務用 Skype Server Management Shell 中使用 Windows PowerShell Cmdlet**移動 CsManagementServer** ，將資料庫從舊版安裝 SQL server 資料庫移至商務用 skype SERVER 2019 sql server 資料庫，然後更新SCP，指向商務用 Skype Server 2019 中央管理伺服器位置。 
+您可以在商務用 Skype Server Management Shell 中使用 Windows PowerShell Cmdlet **CsManagementServer** ，將資料庫從舊版安裝 SQL server 資料庫移至商務用 skype SERVER 2019 sql server 資料庫，然後更新 SCP 以指向商務用 skype Server 2019 中央管理伺服器位置。 
   
 在移動中央管理伺服器之前，請使用本節中的程式來準備商務用 Skype Server 2019 前端伺服器。
   
 ## <a name="to-prepare-an-enterprise-edition-front-end-pool"></a>準備企業版前端池
 
-1. 在您要重設中央管理伺服器位置的 [商務用 Skype Server 2019 企業版] 前端池上，登入商務用 Skype Server Management Shell 安裝為 RTCUniversalServerAdmins 成員的電腦。 ****[群組]。 您也必須在您要安裝中央管理儲存區的資料庫上，同時擁有 SQL Server 資料庫系統管理員的使用者權利和許可權。 
+1. 在您要重設中央管理伺服器位置的 [商務用 Skype Server 2019 企業版] 前端池上，登入將商務用 Skype Server Management Shell 安裝為**RTCUniversalServerAdmins**群組成員的電腦。 您也必須在您要安裝中央管理儲存區的資料庫上，同時擁有 SQL Server 資料庫系統管理員的使用者權利和許可權。 
     
 2. 開啟商務用 Skype Server 管理命令介面。
     
 3. 若要在商務用 Skype Server 2019 SQL Server 資料庫中建立新的中央管理存放區，請在商務用 Skype Server 管理命令介面中，鍵入：
     
-   ```
+   ```PowerShell
    Install-CsDatabase -CentralManagementDatabase -SQLServerFQDN <FQDN of your SQL Server> -SQLInstanceName <name of instance>
    ```
 
@@ -44,7 +44,7 @@ ms.locfileid: "37435187"
     
 ## <a name="to-prepare-a-standard-edition-front-end-server"></a>準備標準版的前端伺服器
 
-1. 在您想要重新置放中央管理伺服器的商務用 Skype Server 2019 標準版前端伺服器上，登入商務用 Skype Server Management Shell 作為 RTCUniversalServerAdmins 的成員安裝的電腦。 ****[群組]。 
+1. 在您想要重新置放中央管理伺服器的商務用 Skype Server 2019 標準版前端伺服器上，登入商務用 Skype Server Management Shell 安裝為**RTCUniversalServerAdmins**群組成員的電腦。 
     
 2. 開啟商務用 Skype Server 部署嚮導。
     
@@ -57,7 +57,7 @@ ms.locfileid: "37435187"
   
 5. 若要在商務用 Skype Server 2019 標準版前端伺服器上建立新的中央管理存放區，請在商務用 Skype Server 管理命令介面中，鍵入： 
     
-   ```
+   ```PowerShell
    Install-CsDatabase -CentralManagementDatabase -SQLServerFQDN <FQDN of your Standard Edition Server> -SQLInstanceName <name of instance - RTC by default>
    ```
 
@@ -71,7 +71,7 @@ ms.locfileid: "37435187"
     
 3. 在商務用 Skype Server Management 命令介面中，鍵入： 
     
-   ```
+   ```PowerShell
    Enable-CsTopology
    ```
 
@@ -80,7 +80,7 @@ ms.locfileid: "37435187"
   
 4. 在商務用 Skype Server 2019 前端伺服器或 [前端] 池中，在商務用 Skype Server 管理命令介面中，鍵入： 
     
-   ```
+   ```PowerShell
    Move-CsManagementServer
    ```
 
@@ -90,17 +90,17 @@ ms.locfileid: "37435187"
     
 7. 在商務用 Skype Server 2019 server 上，開啟商務用 Skype Server 部署嚮導。 
     
-8. 在商務用 Skype Server 部署嚮導中，按一下 [**安裝或更新商務用 Skype Server System**]，按一下 [**步驟2：設定] 或 [移除商務用 Skype server 元件**]，按一下 **[下一步**]，查看摘要，然後按一下 **[完成]。**. 
+8. 在商務用 Skype Server 部署嚮導中，按一下 [**安裝或更新商務用 Skype Server System**]，按一下 [**步驟2：設定] 或 [移除商務用 Skype server 元件**]，按一下 **[下一步]**，查看摘要，然後按一下 **[完成]**。 
     
 9. 在舊版安裝伺服器上，開啟 [部署] 嚮導。 
     
-10. 在商務用 Skype Server 部署嚮導中，按一下 [**安裝或更新商務用 Skype Server System**]，按一下 [**步驟2：設定] 或 [移除商務用 Skype server 元件**]，按一下 **[下一步**]，查看摘要，然後按一下 **[完成]。**. 
+10. 在商務用 Skype Server 部署嚮導中，按一下 [**安裝或更新商務用 Skype Server System**]，按一下 [**步驟2：設定] 或 [移除商務用 Skype server 元件**]，按一下 **[下一步]**，查看摘要，然後按一下 **[完成]**。 
     
 11. 重新開機商務用 Skype Server 2019 伺服器。 這是必要的，因為群組成員資格變更為 access 中央管理伺服器資料庫。
     
 12. 若要確認正在進行與新中央管理儲存體的複製，請在商務用 Skype Server Management Shell 中輸入： 
     
-    ```
+    ```PowerShell
     Get-CsManagementStoreReplicationStatus
     ```
 
@@ -118,13 +118,13 @@ ms.locfileid: "37435187"
   
 3. 若要從舊版安裝中央管理伺服器移除中央管理儲存資料庫檔案，請輸入：
     
-   ```
+   ```PowerShell
    Uninstall-CsDatabase -CentralManagementDatabase -SqlServerFqdn <FQDN of SQL Server> -SqlInstanceName <Name of source server>
    ```
 
     例如：
     
-   ```
+   ```PowerShell
    Uninstall-CsDatabase -CentralManagementDatabase -SqlServerFqdn sql.contoso.net -SqlInstanceName rtc
    ```
 

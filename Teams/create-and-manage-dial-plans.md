@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 瞭解如何建立和管理呼叫撥號方案（PSTN 呼叫撥號方案），以及管理它們的方式。
-ms.openlocfilehash: 7280614d2eab12dff30d17ad71a3ac213e94dcd4
-ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
+ms.openlocfilehash: c9623073cd5660a67bc2ba77b9c07a356d636520
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/17/2019
-ms.locfileid: "40069434"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991658"
 ---
 # <a name="create-and-manage-dial-plans"></a>建立和管理撥號對應表
 
@@ -92,7 +92,7 @@ ms.locfileid: "40069434"
     > 您在第一次使用商務用 Skype Online Windows PowerShell 模組時，您只需執行匯**入模組**命令。
   
 
-    ```
+    ```PowerShell
     Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
     $credential = Get-Credential
     $session = New-CsOnlineSession -Credential $credential
@@ -107,7 +107,7 @@ ms.locfileid: "40069434"
 
 - 若要建立新的撥號方案，請執行：
     
-  ```
+  ```PowerShell
   New-CsTenantDialPlan -Identity RedmondDialPlan -Description "Dial Plan for Redmond" -NormalizationRules <pslistmodifier> -ExternalAccessPrefix 9 -SimpleName "Dial-Plan-for-Redmond"
   ```
 
@@ -115,7 +115,7 @@ ms.locfileid: "40069434"
     
 - 若要編輯現有撥號方案的設定，請執行：
     
-  ```
+  ```PowerShell
   Set-CsTenantDialPlan -Identity RedmondDialPlan  -NormalizationRules <pslistmodifier> -ExternalAccessPrefix 9
     -SimpleName "Dial-Plan-for-Redmond"
   ```
@@ -124,7 +124,7 @@ ms.locfileid: "40069434"
     
 - 若要將使用者新增至撥號方案，請執行：
     
-  ```
+  ```PowerShell
   Grant-CsTenantDialPlan -Identity amos.marble@contoso.com -PolicyName RedmondDialPlan
   ```
 
@@ -132,7 +132,7 @@ ms.locfileid: "40069434"
     
 - 若要查看撥號計畫的設定，請執行：
     
-  ```
+  ```PowerShell
   Get-CsTenantDialPlan -Identity RedmondDialPlan
   ```
 
@@ -140,7 +140,7 @@ ms.locfileid: "40069434"
     
 - 若要刪除撥號方案，請執行：
     
-  ```
+  ```PowerShell
   Remove-CsTenantDialPlan -Identity RedmondDialPlan -force
   ```
 
@@ -148,7 +148,7 @@ ms.locfileid: "40069434"
     
 - 若要查看有效撥號方案的設定，請執行：
     
-  ```
+  ```PowerShell
   Get-CsEffectiveTenantDialPlan -Identity amos.marble@contoso.com
   ```
 
@@ -156,7 +156,7 @@ ms.locfileid: "40069434"
     
 - 若要測試撥號方案的有效設定，請執行：
     
-  ```
+  ```PowerShell
   Test-CsEffectiveTenantDialPlan -DialedNumber 14255550199 -Identity amos.marble@contoso.com
   ```
 
@@ -165,7 +165,7 @@ ms.locfileid: "40069434"
 #### <a name="using-a-powershell-script"></a>使用 PowerShell 腳本
 
 執行此動作以刪除與租使用者撥號方案相關聯的正常化規則，而不需要先刪除租使用者撥號方案：
-```
+```PowerShell
 $b1=New-CsVoiceNormalizationRule -Identity Global/NR4 -InMemory
 Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{add=$b1}
 (Get-CsTenantDialPlan -Identity RedmondDialPlan).NormalizationRules
@@ -173,19 +173,19 @@ $b2=New-CsVoiceNormalizationRule -Identity Global/NR4 -InMemory
 Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{remove=$b2}
 ```
 執行此動作，將下列正常化規則新增至現有的租使用者撥號方案（名為 RedmondDialPlan）。
-```
+```PowerShell
 $nr1=New-CsVoiceNormalizationRule -Parent Global -Description 'Organization extension dialing' -Pattern '^(\\d{3})$' -Translation '+14255551$1' -Name NR1 -IsInternalExtension $false -InMemory
 Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{add=$nr1}
 ```
 執行此操作，從現有的租使用者撥號方案（名為 RedmondDialPlan）移除下列正常化規則。
-```
+```PowerShell
 $nr1=New-CsVoiceNormalizationRule -Parent Global/NR1 -InMemory
 Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{remove=$nr1}
 ```
 
 當您想要檢查現有的正常化規則時，請執行下列動作，判斷您想要刪除的規則，然後使用其索引將它移除。 正常化規則陣列從索引0開始。 我們想要移除3位數的正常化規則，以便編制索引1。
   
-```
+```PowerShell
 Get-CsTenantDialPlan RedmondDialPlan).NormalizationRules
 Description         : 4-digit
 Pattern             : ^(\\d{4})$
@@ -205,12 +205,12 @@ Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{remove=$nr1
 
 執行此工作以找出已授與 RedmondDialPlan 租使用者撥號計畫的所有使用者。
   
-```
+```PowerShell
 Get-CsOnlineUser | Where-Object {$_.TenantDialPlan -eq "RedmondDialPlan"}
 ```
 
 執行此 TenantDialPlan，以移除所有擁有 sipfed.online.lync.com HostingProvider 的使用者指派的任何。
-```
+```PowerShell
 Get-CsOnlineUser -Filter {HostingProvider -eq “sipfed.online.lync.com”} | Grant-CsTenantDialPlan -policyname $null
 ```
 
@@ -218,7 +218,7 @@ Get-CsOnlineUser -Filter {HostingProvider -eq “sipfed.online.lync.com”} | Gr
   
 執行此工作以將內部部署撥號計畫儲存到 .xml 檔案。
   
-```
+```PowerShell
 $DPName = "OPDP1"
 $DPFileName = "dialplan.xml"
 Get-CsDialplan $DPName | Export-Clixml $DPFileName
@@ -226,7 +226,7 @@ Get-CsDialplan $DPName | Export-Clixml $DPFileName
 
 執行此工作來建立新的租使用者撥號方案。
   
-```
+```PowerShell
 $DPFileName = "dialplan.xml"
 $dp = Import-Clixml $DPFileName
 $NormRules = @()

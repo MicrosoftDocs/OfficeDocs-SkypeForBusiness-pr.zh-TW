@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何使用及管理 Microsoft 團隊中的緊急通話路由原則。
 f1keywords: ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
-ms.openlocfilehash: 4520bc1d9cc6a4e84a3702e32db859b784ae02bc
-ms.sourcegitcommit: f2c7626dbef4ed250b9a937a9b56d46fe2e2039e
+ms.openlocfilehash: 996ac202d837b4cfb253a2809880ce0907b33c6c
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2019
-ms.locfileid: "39998801"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992710"
 ---
 # <a name="manage-emergency-call-routing-policies-in-microsoft-teams"></a>管理 Microsoft 團隊中的緊急通話路由原則
 
@@ -105,15 +105,15 @@ ms.locfileid: "39998801"
 > 請依照在[單一 Windows PowerShell 視窗中連線至 [所有 Office 365 服務]](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)中的步驟，確認您首先連線至 [圖形模組] 和 [商務用 Skype] powershell 模組的 [Azure Active Directory PowerShell]。
 
 取得特定群組的 GroupObjectId。
-```
+```PowerShell
 $group = Get-AzureADGroup -SearchString "Contoso HR"
 ```
 取得指定群組的成員。
-```
+```PowerShell
 $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
 ```
 將群組中的所有使用者指派給特定的團隊原則。 在這個範例中，它是 HR 緊急通話路由原則。
-```
+```PowerShell
 $members | ForEach-Object { Grant-CsTeamsChannelsPolicy -PolicyName "HR Emergency Call Routing Policy" -Identity $_.UserPrincipalName}
 ``` 
 根據群組中的成員數目而定，此命令可能需要幾分鐘的時間執行。
@@ -124,7 +124,7 @@ $members | ForEach-Object { Grant-CsTeamsChannelsPolicy -PolicyName "HR Emergenc
 
 這個範例示範如何將稱為緊急呼叫路由策略1的原則指派給 Site1 網站。
 
-```
+```PowerShell
 Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Emergency Call Routing Policy 1"
 ```
 

@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 瞭解如何設定 Microsoft Phone 系統 Direct 路由。
-ms.openlocfilehash: beeecb1ece84980337c7fe385c6a0e1190bc5e3c
-ms.sourcegitcommit: cb394272050d049ebceedb7df835b86362dfd8d1
+ms.openlocfilehash: 8cdebcf9ae01a362c883ed5e51b0c883c4ea0d44
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/18/2019
-ms.locfileid: "40741377"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992590"
 ---
 # <a name="configure-direct-routing"></a>設定直接路由
 
@@ -57,7 +57,7 @@ ms.locfileid: "40741377"
  
 建立遠端 PowerShell 會話之後，請確認您可以看到管理 SBC 的命令。 若要驗證命令，請在 PowerShell 會話中輸入或複製/貼上下列內容，然後按 Enter： 
 
-```
+```PowerShell
 Get-Command *onlinePSTNGateway*
 ```
 
@@ -77,7 +77,7 @@ Function       Set-CsOnlinePSTNGateway    1.0        tmp_v5fiu1no.wxt
 
 若要將 SBC 與租使用者進行配對，請在 PowerShell 會話中輸入下列內容，然後按 Enter 鍵： 
 
-```
+```PowerShell
 New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignallingPort <SBC SIP Port> -MaxConcurrentSessions <Max Concurrent Sessions the SBC can handle> -Enabled $true 
 ```
   > [!NOTE]
@@ -88,7 +88,7 @@ New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignallingPort <SBC SIP Port> -MaxC
   > 除了在您的租使用者中註冊的網域外，請務必先擁有該網域的使用者以及指派的 E3 或 E5 授權。 如果不是，您會收到下列錯誤：<br/>
   `Can not use the “sbc.contoso.com” domain as it was not configured for this tenant`.
 
-```
+```PowerShell
 New-CsOnlinePSTNGateway -Identity sbc.contoso.com -Enabled $true -SipSignallingPort 5067 -MaxConcurrentSessions 100 
 ```
 回報
@@ -132,7 +132,7 @@ Enabled               : True
 
 成對閘道應該會出現在清單中，如下列範例所示，然後確認**Enabled**參數顯示的值**為 True**。 鍵
 
-```
+```PowerShell
 Get-CsOnlinePSTNGateway -Identity sbc.contoso.com  
 ```
 返回：
@@ -193,7 +193,7 @@ Enabled               : True
 1. [連線至遠端 PowerShell]。
 2. 發出命令： 
 
-```
+```PowerShell
 Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool
 ``` 
 
@@ -206,13 +206,13 @@ Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool
 1. 連線到遠端 PowerShell 會話。 
 2. 輸入命令： 
  
-```
+```PowerShell
 Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<E.164 phone number>
 ```
 
 例如，若要將使用者的電話號碼新增至 [Spencer Low]，您可以輸入下列專案： 
 
-```
+```PowerShell
 Set-CsUser -Identity "Spencer Low" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
 ```
 
@@ -283,16 +283,16 @@ Microsoft 通話方案會自動套用為所有擁有 Microsoft 通話方案授�
 
 在商務用 Skype 遠端 PowerShell 會話中，鍵入：
 
-```
+```PowerShell
 Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="US and Canada"}
 ```
 
 輸入以下內容以驗證是否已建立使用： 
-```
+```PowerShell
 Get-CSOnlinePSTNUsage
 ``` 
 這會傳回可能會被截斷的名稱清單：
-```
+```output
 Identity    : Global
 Usage       : {testusage, US and Canada, International, karlUsage. . .}
 ```
@@ -314,7 +314,7 @@ Usage       : {testusage, US and Canada, International, karlUsage. . .}
 
 若要建立「雷蒙德1」路線，請輸入：
 
-```
+```PowerShell
 New-CsOnlineVoiceRoute -Identity "Redmond 1" -NumberPattern "^\+1(425|206)
 (\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
 ```
@@ -331,14 +331,14 @@ Name                    : Redmond 1
 </pre>
 若要建立雷德蒙2路線，請輸入：
 
-```
+```PowerShell
 New-CsOnlineVoiceRoute -Identity "Redmond 2" -NumberPattern "^\+1(425|206)
 (\d{7})$" -OnlinePstnGatewayList sbc3.contoso.biz, sbc4.contoso.biz -Priority 2 -OnlinePstnUsages "US and Canada"
 ```
 
 若要建立其他 + 1 路線，請輸入：
 
-```
+```PowerShell
 New-CsOnlineVoiceRoute -Identity "Other +1" -NumberPattern "^\+1(\d{10})$"
 -OnlinePstnGatewayList sbc5.contoso.biz, sbc6.contoso.biz -OnlinePstnUsages "US and Canada"
 ```
@@ -350,13 +350,13 @@ New-CsOnlineVoiceRoute -Identity "Other +1" -NumberPattern "^\+1(\d{10})$"
 
 將所有呼叫路由至同一個 SBC。
 
-```
+```PowerShell
 Set-CsOnlineVoiceRoute -id "Redmond 1" -NumberPattern ".*" -OnlinePstnGatewayList sbc1.contoso.biz
 ```
 
 使用如下所示的選項，驗證您是否已`Get-CSOnlineVoiceRoute`透過執行 PowerShell 命令來正確設定路線：
 
-```
+```PowerShell
 Get-CsOnlineVoiceRoute | Where-Object {($_.priority -eq 1) -or ($_.priority -eq 2) or ($_.priority -eq 4) -Identity "Redmond 1" -NumberPattern "^\+1(425|206) (\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
 ```
 應傳回的專案：
@@ -391,7 +391,7 @@ Name            : Other +1
 
 在商務用 Skype Online 的 PowerShell 會話中，鍵入：
 
-```
+```PowerShell
 New-CsOnlineVoiceRoutingPolicy "US Only" -OnlinePstnUsages "US and Canada"
 ```
 
@@ -408,13 +408,13 @@ RouteType           : BYOT
 
 在商務用 Skype Online 的 PowerShell 會話中，鍵入：
 
-```
+```PowerShell
 Grant-CsOnlineVoiceRoutingPolicy -Identity "Spencer Low" -PolicyName "US Only"
 ```
 
 輸入以下命令以驗證原則指派：
 
-```
+```PowerShell
 Get-CsOnlineUser "Spencer Low" | select OnlineVoiceRoutingPolicy
 ```
 
@@ -468,13 +468,13 @@ John：可撥打任何號碼的電話。 呼叫雷德蒙的數位範圍時，必
 
 在商務用 Skype Online 的遠端 PowerShell 會話中，輸入：
 
-```
+```PowerShell
 Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="International"}
 ```
 
 **步驟 2**：建立新的語音路由「國際」。
 
-```
+```PowerShell
 New-CsOnlineVoiceRoute -Identity "International" -NumberPattern ".*" -OnlinePstnGatewayList sbc2.contoso.biz, sbc5.contoso.biz -OnlinePstnUsages "International"
 ```
 返回：
@@ -493,7 +493,7 @@ Name                      : International
 
 在此語音路由原則中，PSTN 使用 "雷德蒙 1" 和 "雷德蒙" 會重複使用，以保留對號碼 "+ 1 425 XXX XX" 和 "+ 1 206 XXX XX" （作為本機或內部部署的呼叫）的特殊處理。
 
-   ```
+   ```PowerShell
    New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"
    ```
 
@@ -503,7 +503,7 @@ Name                      : International
 
 乙. 如果「國際」 PSTN 使用量在「美國和加拿大」之前，則對 + 1 425 XXX XX 的呼叫會路由至 sbc2.contoso.biz 和 sbc5.contoso.biz，成為路由邏輯的一部分。 輸入命令：
 
-```
+```PowerShell
 New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"
 ```
 
@@ -518,13 +518,13 @@ RouteType             : BYOT
 
 **步驟 4**：使用下列命令，將語音路由策略指派給使用者「John xxxxx」。
 
-```
+```PowerShell
 Grant-CsOnlineVoiceRoutingPolicy -Identity "John Woods" -PolicyName "No Restrictions”
 ```
 
 然後使用命令驗證作業： 
 
-```
+```PowerShell
 Get-CsOnlineUser "John Woods" | Select OnlineVoiceRoutingPolicy
 ```
 
@@ -566,7 +566,7 @@ No Restrictions
 
 在範例案例中，我們會執行```New-CsOnlinePSTNGateway``` Cmdlet 來建立下列的 SBC 配置。
 
-```
+```PowerShell
 New-CSOnlinePSTNGateway -Identity sbc1.contoso.com -SipSignallingPort 5061 –InboundTeamsNumberTranslationRulesList ‘AddPlus1’, ‘AddE164SeattleAreaCode’ -InboundPSTNNumberTranslationRulesList ‘AddPlus1’ -OnboundPSTNNumberTranslationRulesList ‘AddSeattleAreaCode’,  -OutboundTeamsNumberTranslationRulesList ‘StripPlus1’
 ```
 

@@ -17,14 +17,14 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 瞭解如何在 GCCH 和 DoD 環境中搭配直接路由使用音訊會議。
-ms.openlocfilehash: 67c8a8b3ec16f36a93eb4561473facacdbd85464
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 6c1403fedbbb47231780916eb8c7acb8014539e9
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37639617"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992893"
 ---
-# <a name="audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>使用適用于 GCC 高和 DoD 之直接路由的音訊會議
+# <a name="audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>適用於 GCC High 和 DoD 的音訊會議搭配直接路由
 
 使用適用于 GCC 高和 DoD 之直接路由的音訊會議，可讓參與者透過電話裝置在您的 GCC 高或 DoD 組織中加入團隊會議。 會議參與者可能想要在案例中使用電話裝置加入小組會議，例如，當網際網路連線受到限制或使用者在路上且無法存取小組時。 參與者可以選擇透過撥入您組織的撥入電話號碼，或將會議撥出到電話裝置，來加入會議。
 
@@ -64,12 +64,12 @@ ms.locfileid: "37639617"
 
 您可以使用 csHybridTelephoneNumber PowerShell Cmdlet 來定義您租使用者中的服務電話號碼，以透過直接路由將呼叫路由至音訊會議服務。 
 
-  ```
+  ```PowerShell
   New-csHybridTelephoneNumber -TelephoneNumber <Phone number in E.164 format>
   ```
 
 例如：
-  ```
+  ```PowerShell
   New-csHybridTelephoneNumber -TelephoneNumber “+14250000000”
   ```
 
@@ -77,13 +77,13 @@ ms.locfileid: "37639617"
 
 您可以使用 csOnlineDialInConferencingServiceNumber PowerShell Cmdlet，將服務電話號碼指派給您組織的音訊會議橋。
 
-  ```
+  ```PowerShell
   Register-csOnlineDialInConferencingServiceNumber -identity <Telephone number in E.164 format> -BridgeId <Identity of the audio conferencing bridge>
   ```
 
 您可以使用 CsOnlineDialInConferencingBridge 來查看音訊會議橋接器的 ID。 例如：
 
-  ```
+  ```PowerShell
   $b= Get-CsOnlineDialInConferencingBridge
   Register-csOnlineDialInConferencingServiceNumber -identity 14257048060 -BridgeId $b.identity
   ```

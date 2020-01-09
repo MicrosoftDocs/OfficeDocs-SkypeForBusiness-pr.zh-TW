@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: 摘要：使用本主題準備商務用 Skype Server 2015 伺服器。 硬體、作業系統、資料庫、軟體、所有系統需求與建議都在這裡，以協助確保您的伺服器伺服器陣列已成功安裝和部署。
-ms.openlocfilehash: 3ca52a6d7a61a3f6b06985bf507461fe9285e337
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: a028ce7265718c0ce14b103bca8dcdb416e72885
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38626989"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40989278"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>商務用 Skype Server 2015 的伺服器需求
  
@@ -199,7 +199,7 @@ ms.locfileid: "38626989"
 
 為了協助您完成，您可以執行以下範例 PowerShell 腳本來自動化此程式：
 
-```
+```PowerShell
 Add-WindowsFeature NET-Framework-Core, RSAT-ADDS, Windows-Identity-Foundation, Web-Server, Web-Static-Content, Web-Default-Doc, Web-Http-Errors, Web-Dir-Browsing, Web-Asp-Net, Web-Net-Ext, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Log-Libraries, Web-Request-Monitor, Web-Http-Tracing, Web-Basic-Auth, Web-Windows-Auth, Web-Client-Auth, Web-Filtering, Web-Stat-Compression, Web-Dyn-Compression, NET-WCF-HTTP-Activation45, Web-Asp-Net45, Web-Mgmt-Tools, Web-Scripting-Tools, Web-Mgmt-Compat, Server-Media-Foundation, BITS, Desktop-Experience, Telnet-Client
 ```
 
@@ -256,7 +256,7 @@ IIS 中，已選取下列模組：
   
 另外，以下是一些 PowerShell 程式碼：
   
-```
+```PowerShell
 Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc, Web-Http-Errors, Web-Asp-Net, Web-Net-Ext, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Log-Libraries, Web-Request-Monitor, Web-Http-Tracing, Web-Basic-Auth, Web-Windows-Auth, Web-Client-Auth, Web-Filtering, Web-Stat-Compression, NET-WCF-HTTP-Activation45, Web-Asp-Net45, Web-Scripting-Tools, Web-Mgmt-Compat, Desktop-Experience, Telnet-Client
 ```
 

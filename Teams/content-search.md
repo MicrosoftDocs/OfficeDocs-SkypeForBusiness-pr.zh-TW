@@ -14,12 +14,12 @@ search.appverid: MET150
 description: 瞭解 Microsoft 團隊中的內容搜尋，以及如何搜尋來自 Exchange 的頻道交談、檔案上傳與 SharePoint 中的檔案上傳及修改，以及 OneNote 的變更。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3042a39d30ca14ff4eda9be6a1042bfca3484bd2
-ms.sourcegitcommit: ddb4eaf634476680494025a3aa1c91d15fb58413
+ms.openlocfilehash: fea6e671a84eec6f064a7ccc1f7f9b3f237a220d
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "38231154"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991078"
 ---
 <a name="use-content-search-in-microsoft-teams"></a>在 Microsoft 團隊中使用內容搜尋
 =====================================
@@ -54,18 +54,18 @@ ms.locfileid: "38231154"
 
 1. 執行下列動作，以取得與團隊中的私人頻道相關聯的所有 SharePoint 網站集合的清單。
 
-    ```
+    ```PowerShell
     Get-SPOSite
     ```
 2. 執行下列 PowerShell 腳本，以取得與團隊中的私人頻道與父團隊群組識別碼相關聯的所有 SharePoint 網站集合 Url 清單。
 
-    ```
+    ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
     foreach ($site in $sites) {$x= get-sposite -identity $site.url -detail; $x.relatedgroupID; $x.url} 
     ```
 3. 針對每個團隊或群組識別碼，請執行下列 PowerShell 腳本來識別所有相關的專用通道網站。
 
-    ```
+    ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
     $groupID = “e8195240-4a70-4830-9106-80193cf717cb“
     foreach ($site in $sites) {$x= Get-SpoSite -Identity $site.url -Detail; if ($x.RelatedGroupId -eq $groupID) {$x.RelatedGroupId;$x.url}}
@@ -77,12 +77,12 @@ ms.locfileid: "38231154"
 
 1. 執行下列動作，取得小組中的私人頻道清單。
 
-    ```
+    ```PowerShell
     Get-TeamChannel -GroupId <GroupID> -MembershipType Private
     ```
 2. 執行下列動作以取得私人頻道成員的清單。
 
-    ```
+    ```PowerShell
     Get-TeamChannelUser -GroupId <GroupID> -DisplayName "Engineering" -Role Member
     ```
 3. 從小組中的每個私人頻道包含所有成員的信箱，作為內容搜尋查詢的一部分。

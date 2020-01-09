@@ -1,5 +1,5 @@
 ---
-title: 使用商務用 Skype Online 連接器診斷連線問題
+title: 診斷商務用 Skype Online 連接器的連線問題
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -18,14 +18,14 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: 疑難排解建立用來連線到商務用 Skype Online 的遠端 PowerShell 會話，包括匯入模組、併發 shell、Live ID 和許可權錯誤。
-ms.openlocfilehash: 267580b8a78ce0c0002e6830ba06cc4ae031e42c
-ms.sourcegitcommit: 1336f6c182043016c42660d5f21632d82febb658
+ms.openlocfilehash: 38f6195a6c8e0c2a5f963d476e26abeb46f6ff4f
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "37642487"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991318"
 ---
-# <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>使用商務用 Skype Online 連接器診斷連線問題
+# <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>診斷商務用 Skype Online 連接器的連線問題
 
 本主題提供的資訊可協助您診斷並解決當您嘗試建立連線到商務用 Skype Online 的遠端 Microsoft PowerShell 會話時，可能會發生的問題。 請參閱下列各節：
   
@@ -53,10 +53,10 @@ ms.locfileid: "37642487"
 
 PowerShell 執行原則可協助判斷哪些設定檔可以載入到 PowerShell 主控台，以及使用者可以從該主控台執行哪些腳本。 除非執行原則已設定為 RemoteSigned，否則在最低限度的情況下，無法匯入商務用 Skype Online 連接器模組。 如果沒有，當您嘗試匯入模組時，您會收到下列錯誤訊息：
   
-- **錯誤**：<em>匯入-模組：檔案 C\\： Program\\files 常見\\檔案 Microsoft Lync Server\\2013\\模組\\LyncOnlineConnector LyncOnlineConnectorStartup。 psm1 無法載入，因為正在執行此系統已停用腳本。如需詳細資訊，請參閱https://go.microsoft.com/fwlink/?LinkID=135170about_Execution_Policies。</em>
+- **錯誤**：<em>匯入-模組：檔案 C\\： Program\\files 常見\\檔案 Microsoft Lync Server\\2013\\模組\\LyncOnlineConnector 無法載入 psm1，因為在這個系統上已停用執行腳本。如需詳細資訊，請參閱https://go.microsoft.com/fwlink/?LinkID=135170about_Execution_Policies。</em>
 
 - **解決**方式：若要解決此問題，請以系統管理員的身分啟動 PowerShell，然後執行下列命令：
-    ```
+    ```PowerShell
     Set-ExecutionPolicy RemoteSigned
     ```
     如需有關執行原則的詳細資訊，請參閱[關於執行](https://go.microsoft.com/fwlink/?LinkID=135170)原則。
@@ -78,11 +78,11 @@ PowerShell 執行原則可協助判斷哪些設定檔可以載入到 PowerShell 
   - **錯誤**： *CsWebTicket：無法連接即時 id 伺服器。請確定已啟用 proxy，或電腦有連線至 live id 伺服器的網路連線。*
 
 - **解決**方式：此錯誤通常表示 Microsoft Online Services 登入小幫手未執行。 您可以從 PowerShell 提示執行下列命令，以驗證此服務的狀態： 
-    ```
+    ```PowerShell
     Get-Service "msoidsvc"
     ```
     如果服務未執行，請使用此命令啟動服務：
-    ```
+    ```PowerShell
     Start-Service "msoidsvc"
     ```
 

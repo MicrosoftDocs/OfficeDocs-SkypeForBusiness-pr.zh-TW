@@ -1,5 +1,5 @@
 ---
-title: 設定動態緊急通話
+title: 設定動態緊急電話
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -11,15 +11,15 @@ ms.collection:
 ms.reviewer: roykuntz
 localization_priority: Normal
 search.appverid: MET150
-description: 設定動態緊急通話
+description: 設定動態緊急電話
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 53af7f64cd7050d3dcd6120f7729cd069a4331d0
-ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
+ms.openlocfilehash: 2d4480e875c37ba2c608c826bb648231c0f6fc23
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "39615853"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992088"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>規劃和設定動態緊急電話 
 
@@ -164,25 +164,25 @@ TeamsEmergencyCallRouting 原則只適用于直接路由。 （雖然您可以�
 
 例如，若要針對安全服務台通知啟用特定的使用者，請使用下列命令：
 
-```
+```PowerShell
 Grant-CsTeamsEmergencyCallingPolicy -Identity user1 -PolicyName SecurityDeskNotification
 ```
 
 若要將名為「Contoso 緊急通話原則1」的原則指派給 Site 1，請使用下列命令：
 
-```
+```PowerShell
 Set-CsTenantNetworkSite -identity "site1" -EmergencyCallingPolicy "Contoso Emergency Calling Policy 1"
 ```
 
 若要啟用緊急通話的特定直接路由使用者，請使用下列命令：
 
-```
+```PowerShell
 Grant-CsTeamsEmergencyCallRoutingPolicy -Identity user1 -PolicyName UnitedStates
 ```
 
 若要將名為「Contoso 紐約急救通話路由」的原則指派給 Site 1，請使用下列命令：
 
-```
+```PowerShell
 Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Contoso New York Emergency Call Routing"
 ```
 

@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 摘要：使用本主題準備商務用 Skype Server 2019 伺服器及網域基礎結構。 硬體、作業系統、資料庫、軟體、所有系統需求與建議，以及憑證 DNS、檔案共用及 Active Directory 資訊，都在這裡協助確保您的伺服器伺服器陣列已成功安裝及部署。
-ms.openlocfilehash: 385aabbf0a3c17abd9a9a22dfdb810720ca76660
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: 41faef4d02927e25e724b0c70922bdc6c5c3e05a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "37435164"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40988808"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>商務用 Skype Server 2019 的系統需求
  
@@ -52,7 +52,7 @@ ms.locfileid: "37435164"
 |CPU  <br/> |英特爾至強 E5-2673 v3 雙處理器、6核、2.4 兆赫（GHz）或更高版本。  <br/> 商務用 Skype Server 2019 角色不支援 Intel 安騰處理器。  <br/> |
 |儲存體  <br/> |32千百萬位元組（GB）。  <br/> |
 |光碟  <br/> |兩側  <br/> •8個或以上的 10000 RPM 硬碟磁片磁碟機，至少有 72 GB 的可用磁碟空間（使用 RAID 1 和6的兩個磁片）。  <br/> 或  <br/> •固態硬碟（SSDs）能夠提供與 8 10000 RPM 機械磁片磁碟機相同的可用空間和類似的效能。  <br/> |
-|局域網  <br/> |1個雙埠網路介面卡、1 Gbps 或更新版本（2個網路介面卡可用，但必須使用單一 MAC 位址和單一 IP 位址進行分組）。  <br/> 前端伺服器、後端伺服器和標準版伺服器**不**支援雙或多穴設定。 <br/> 只要客戶不會向作業系統公開，而且是用來監視及管理伺服器硬體，您就可以有帶外管理系統，例如 DRAC 或 ILO。 這個案例不構成多穴伺服器，而且受到支援。  <br/> |
+|網路  <br/> |1個雙埠網路介面卡、1 Gbps 或更新版本（2個網路介面卡可用，但必須使用單一 MAC 位址和單一 IP 位址進行分組）。  <br/> 前端伺服器、後端伺服器和標準版伺服器**不**支援雙或多穴設定。 <br/> 只要客戶不會向作業系統公開，而且是用來監視及管理伺服器硬體，您就可以有帶外管理系統，例如 DRAC 或 ILO。 這個案例不構成多穴伺服器，而且受到支援。  <br/> |
 
 
 適用于前端伺服器和後端伺服器的建議硬體：
@@ -62,7 +62,7 @@ ms.locfileid: "37435164"
 |CPU  <br/> |英特爾至強 E5-2673 v3 雙處理器、6核、2.4 兆赫（GHz）或更高版本。 <br/> 商務用 Skype Server 2019 角色不支援 Intel 安騰處理器。  <br/> |
 |儲存體  <br/> |64千百萬位元組（GB）。  <br/> |
 |光碟  <br/> |兩側  <br/> •8個或以上的 10000 RPM 硬碟磁片磁碟機，至少有 72 GB 的可用磁碟空間（使用 RAID 1 和6的兩個磁片）。  <br/> 或  <br/> •固態硬碟（SSDs）能夠提供與 8 10000 RPM 機械磁片磁碟機相同的可用空間和類似的效能。  <br/> |
-|局域網  <br/> |1個雙埠網路介面卡、1 Gbps 或更新版本（2個網路介面卡可用，但必須使用單一 MAC 位址和單一 IP 位址進行分組）。  <br/> 前端伺服器、後端伺服器和標準版伺服器**不**支援雙或多穴設定。 <br/> 只要客戶不會向作業系統公開，而且是用來監視及管理伺服器硬體，您就可以有帶外管理系統，例如 DRAC 或 ILO。 這個案例不構成多穴伺服器，而且受到支援。  <br/> |
+|網路  <br/> |1個雙埠網路介面卡、1 Gbps 或更新版本（2個網路介面卡可用，但必須使用單一 MAC 位址和單一 IP 位址進行分組）。  <br/> 前端伺服器、後端伺服器和標準版伺服器**不**支援雙或多穴設定。 <br/> 只要客戶不會向作業系統公開，而且是用來監視及管理伺服器硬體，您就可以有帶外管理系統，例如 DRAC 或 ILO。 這個案例不構成多穴伺服器，而且受到支援。  <br/> |
    
 適用于 Edge 伺服器、獨立轉送伺服器和控制器的建議硬體：
   
@@ -71,7 +71,7 @@ ms.locfileid: "37435164"
 |CPU  <br/> |英特爾至強 E5-2673 v3 雙處理器、6核、2.4 兆赫（GHz）或更高版本。  <br/> 商務用 Skype Server 2019 角色不支援 Intel 安騰處理器。  <br/> |
 |儲存體  <br/> |32 gb。  <br/> |
 |光碟  <br/> |兩側  <br/> •4個以上的 10000 RPM 硬碟磁片磁碟機，至少有 72 GB 的可用磁碟空間（磁片應該是 2x RAID 1 設定）。  <br/> 或  <br/> •固態硬碟（SSDs）能夠提供與 4 10000 RPM 機械磁片磁碟機相同的可用空間和類似的效能。  <br/> |
-|局域網  <br/> |1個雙埠網路介面卡、1 Gbps 或更新版本（2個網路介面卡可用，但必須使用單一 MAC 位址和單一 IP 位址進行分組）。  <br/> 對於視頻交互操作伺服器和控制器，**不**支援雙或多穴設定。 <br/> Edge 伺服器需要兩個雙埠網路介面卡、1 Gbps 或更高（或兩個成對式網路介面卡）的網路介面，每個配對都是以單一 MAC 位址與單一 IP 位址組成兩個組。  <br/> 在獨立的轉送伺服器上，安裝其他網路介面卡（Nic）來允許設定特定 PSTN IP 位址的支援。  <br/> |
+|網路  <br/> |1個雙埠網路介面卡、1 Gbps 或更新版本（2個網路介面卡可用，但必須使用單一 MAC 位址和單一 IP 位址進行分組）。  <br/> 對於視頻交互操作伺服器和控制器，**不**支援雙或多穴設定。 <br/> Edge 伺服器需要兩個雙埠網路介面卡、1 Gbps 或更高（或兩個成對式網路介面卡）的網路介面，每個配對都是以單一 MAC 位址與單一 IP 位址組成兩個組。  <br/> 在獨立的轉送伺服器上，安裝其他網路介面卡（Nic）來允許設定特定 PSTN IP 位址的支援。  <br/> |
 
 
 > [!NOTE]
@@ -130,7 +130,7 @@ ms.locfileid: "37435164"
    
 為了協助您完成，您可以執行以下範例 PowerShell 腳本來自動化此程式：
   
-```
+```PowerShell
 Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc, Web-Http-Errors, Web-Asp-Net, Web-Net-Ext, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Log-Libraries, Web-Request-Monitor, Web-Http-Tracing, Web-Basic-Auth, Web-Windows-Auth, Web-Client-Auth, Web-Filtering, Web-Stat-Compression, Web-Dyn-Compression, NET-WCF-HTTP-Activation45, Web-Asp-Net45, Web-Mgmt-Tools, Web-Scripting-Tools, Web-Mgmt-Compat, Windows-Identity-Foundation, Server-Media-Foundation, Telnet-Client, BITS, ManagementOData, Web-Mgmt-Console, Web-Metabase, Web-Lgcy-Mgmt-Console, Web-Lgcy-Scripting, Web-WMI, Web-Scripting-Tools, Web-Mgmt-Service
 ```
 
@@ -184,7 +184,7 @@ IIS 中，已選取下列模組：
   
 另外，以下是一些 PowerShell 程式碼：
   
-```
+```PowerShell
 Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc, Web-Http-Errors, Web-Asp-Net, Web-Net-Ext, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Log-Libraries, Web-Request-Monitor, Web-Http-Tracing, Web-Basic-Auth, Web-Windows-Auth, Web-Client-Auth, Web-Filtering, Web-Stat-Compression, NET-WCF-HTTP-Activation45, Web-Asp-Net45, Web-Scripting-Tools, Web-Mgmt-Compat, Server-Media-Foundation, Telnet-Client
 ```
 
@@ -436,7 +436,7 @@ Microsoft SQL Server 2016 （64位版本），而且您必須使用最新的更�
   
 - 支援1024、2048和4096的加密金鑰長度。 建議使用2048和更大的金鑰長度。
     
-- 預設摘要（即雜湊簽章）演算法是 RSA。 還支援 ECDH_P256、ECDH_P384 和 ECDH_P521 演算法。
+- 預設摘要（即雜湊簽章）演算法是 RSA。 也支援 ECDH_P256、ECDH_P384 及 ECDH_P521 演算法。
     
 這就是您要考慮的一點，而且從 CA 申請憑證的方式有很多。 我們將在下方提供一些進一步的指導方針，讓您的規劃盡可能順利進行。
   
@@ -518,7 +518,7 @@ Survivable 分支裝置的憑證（特別是適用于商務用 Skype Server 2019
   
 主管池與前端池的憑證需求：
   
-|**說明**|**SAN 專案**|
+|**描述**|**SAN 專案**|
 |:-----|:-----|
 |內部自動探索服務 URL  <br/> |SAN = lyncdiscoverinternal。\<sipdomain\>  <br/> |
 |外部自動探索服務 URL  <br/> |SAN = lyncdiscover。\<sipdomain\>  <br/> |
@@ -527,7 +527,7 @@ Survivable 分支裝置的憑證（特別是適用于商務用 Skype Server 2019
   
 反向 Proxy （公用 CA）證書需求：
   
-|**說明**|**SAN 專案**|
+|**描述**|**SAN 專案**|
 |:-----|:-----|
 |外部自動探索服務 URL  <br/> |SAN = lyncdiscover。\<sipdomain\>  <br/> |
    

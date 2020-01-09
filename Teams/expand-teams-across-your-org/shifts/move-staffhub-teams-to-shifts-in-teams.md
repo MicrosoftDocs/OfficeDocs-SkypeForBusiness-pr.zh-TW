@@ -16,12 +16,12 @@ ms.collection:
 - SPO_Content
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e7b534950c92cd4f9c7b21ff6a572fb0ba9a5261
-ms.sourcegitcommit: ddb4eaf634476680494025a3aa1c91d15fb58413
+ms.openlocfilehash: 4a14c7cbca85be266347cd6777ea1108cc63d065
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "38231254"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992840"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>將 Microsoft StaffHub 小組移至 Microsoft 團隊中的倒班
 
@@ -112,7 +112,7 @@ ms.locfileid: "38231254"
 
 執行下列系列命令，以取得 StaffHub 小組中所有非作用中帳戶的清單，並將清單匯出為 CSV 檔案。 每個命令都應該單獨執行。
 
-```
+```PowerShell
 $InvitedUsersObject = @()
 
 $StaffHubTeams = Get-StaffHubTeamsForTenant
@@ -190,18 +190,18 @@ $InvitedUsersObject | SELECT * | export-csv InvitedUsers.csv -NoTypeInformation
 
 執行下列動作來移動 StaffHub 小組。
 
-```
+```PowerShell
 Move-StaffHubTeam -TeamId <String>
 ```
 範例
 
-```
+```PowerShell
 Move-StaffHubTeam -TeamId "TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f"
 ```
 
 以下是當您提交要求以將 StaffHub 小組移至團隊時所取得的回應範例。
 
-```
+```output
  jobId                                      teamId                                      teamAlreadyInMicrosofteams  
 ---------------------------------------    ----------------------------------------    ---------------------------          
 JOB_81b1f191-3e19-45ce-ab32-3ef51f100000   TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f   false
@@ -209,18 +209,18 @@ JOB_81b1f191-3e19-45ce-ab32-3ef51f100000   TEAM_4bbc03af-c764-497f-a8a5-1c070847
 
 若要檢查移動要求的狀態，請執行下列動作。
 
-```
+```PowerShell
 Get-TeamMigrationJobStatus <String>
 ```
 範例
 
-```
+```PowerShell
 Get-TeamMigrationJobStatus -JobId "JOB_81b1f191-3e19-45ce-ab32-3ef51f100000"
 ```
 
 以下是您在移動進行中時所取得的回應範例。
 
-```
+```output
 jobId                                     status       teamId                                     isO365GroupCreated  Error
 ----------------------------------------  ----------   ----------------------------------------   ------------------  -----    
 JOB_81b1f191-3e19-45ce-ab32-3ef51f100000  inProgress   TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f  true                none
@@ -240,13 +240,13 @@ JOB_81b1f191-3e19-45ce-ab32-3ef51f100000  inProgress   TEAM_4bbc03af-c764-497f-a
 
 使用[PnPOnline](https://docs.microsoft.com/powershell/module/sharepoint-pnp/connect-pnponline?view=sharepoint-ps) Cmdlet 連線至 SharePoint Online 小組網站。
 
-```
+```PowerShell
 Connect-PnPOnline -Url https://<sharepoint URL>/sites/<Group Name>  
 ```
 
 針對您要從 StaffHub 移至 [團隊] 的每個檔案，請使用[PnPFile](https://docs.microsoft.com/powershell/module/sharepoint-pnp/move-pnpfile) Cmdlet 來移動檔案。
 
-```
+```PowerShell
 Move-PnPFile -ServerRelativeUrl "/sites/<Group Name>/Shared Documents/<File Name>" -TargetUrl "/sites/<Group Name>/Shared Documents/General/<File Name>" 
 ```
 
@@ -266,7 +266,7 @@ Move-PnPFile -ServerRelativeUrl "/sites/<Group Name>/Shared Documents/<File Name
 
 執行下列動作，取得貴組織中所有 StaffHub 小組的清單。
 
-```
+```PowerShell
 $StaffHubTeams = Get-StaffHubTeamsForTenant
 
 $StaffHubTeams[0] | Where-Object { $_.ManagedBy -eq ‘StaffHub’ }
@@ -274,7 +274,7 @@ $StaffHubTeams[0] | Where-Object { $_.ManagedBy -eq ‘StaffHub’ }
 
 然後，執行下列動作來移動所有團隊。
 
-```
+```PowerShell
 foreach ($team in $StaffHubTeams[0]) {Move-StaffHubTeam -TeamId $team.Id}
 ```
 
@@ -282,7 +282,7 @@ foreach ($team in $StaffHubTeams[0]) {Move-StaffHubTeam -TeamId $team.Id}
 
 針對已移至團隊或已存在於團隊中的任何小組，該作業將會是 "null"，因為工作不需要提交就能移動該小組。
 
-```
+```output
 jobId                                      teamId                                      teamAlreadyInMicrosofteams  
 ----------------------------------------   -----------------------------------------   --------------------------         
 null                                       TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f   true
@@ -293,7 +293,7 @@ JOB_81b1f191-3e19-45ce-ab32-3ef51f100000   TEAM_81b1f191-3e19-45ce-ab32-3ef51f10
 
 執行下列動作，取得貴組織中所有 StaffHub 小組識別碼的清單。
 
-```
+```PowerShell
 Get-StaffHubTeamsForTenant -ManagedBy "Staffhub"
 ```
 
@@ -307,7 +307,7 @@ Get-StaffHubTeamsForTenant -ManagedBy "Staffhub"
 
 建立 CSV 檔案之後，請執行下列動作，以移動您在 CSV 檔案中指定的小組。
 
-```
+```PowerShell
 $StaffHubTeams = Import-Csv .\teams.csv
 
 foreach ($team in $StaffHubTeams[0]) {Move-StaffHubTeam -TeamId $team.Id}
@@ -317,7 +317,7 @@ foreach ($team in $StaffHubTeams[0]) {Move-StaffHubTeam -TeamId $team.Id}
 
 執行下列動作，以取得貴組織中所有團隊成員的清單。 
 
-```
+```PowerShell
 Get-StaffHubTeamsForTenant -ManagedBy "Teams"
 ```
 
@@ -335,7 +335,7 @@ Get-StaffHubTeamsForTenant -ManagedBy "Teams"
 
 執行下列動作，以取得當您嘗試移動小組時所發生的「失敗」錯誤的詳細資訊：
 
-```
+```PowerShell
 Move-StaffHubTeam -TeamId <TeamId>
 
 $res = Get-TeamMigrationJobStatus -JobId <JobId>
@@ -347,7 +347,7 @@ $res.Status
 
 如果傳回「失敗」，請執行下列動作以取得錯誤的詳細資訊：
 
-```
+```PowerShell
 $res.Result.Error.Innererror
 ```
 
@@ -367,7 +367,7 @@ $res.Result.Error.Innererror
 
 執行下列命令以將一般資料夾新增至 SharePoint，然後再試一次：
 
-  ```
+  ```PowerShell
   Add-PnPFolder -Name General -Folder 'Shared Documents'
   ```  
 

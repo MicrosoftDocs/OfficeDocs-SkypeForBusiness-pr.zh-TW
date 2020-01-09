@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: 摘要：在您的環境中，準備及執行停用 TLS 1.0 和1.1。
-ms.openlocfilehash: f6fa608174bc22bc91512a69cc67a688b9bc7bb9
-ms.sourcegitcommit: 0dba0ad1f8f00415c6437cadabed0548ce3281b1
+ms.openlocfilehash: f10bd213be62b2d1dfa705e8ec8e0cc762706ee6
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39919307"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991548"
 ---
 # <a name="disable-tls-1011-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中停用 TLS 1.0/1。1
 
@@ -193,7 +193,7 @@ PIC （公用 IM 連線）至 Skype 消費者服務：我們不想停用 TLS 1.0
 
 將下列測試複製/貼上到記事本中，並重新命名 TLSPreReq 或您選擇的名稱，然後匯入：
 
-```
+```console
 Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v2.0.50727]
@@ -245,7 +245,7 @@ Windows Registry Editor Version 5.00
 
 將下列文字複製到記事本檔案中，然後將它重新命名為**TLSDisable**：
 
-```
+```console
 Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Cryptography\Configuration\SSL\00010002]

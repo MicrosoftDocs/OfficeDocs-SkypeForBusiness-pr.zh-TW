@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何針對 Microsoft 團隊中的雲端語音功能設定網路設定。
-ms.openlocfilehash: 72fb40b31b7881f550800bad5a2d2fca304431ae
-ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
+ms.openlocfilehash: 87cdf39e03999a9e249b7ec40af7ea2ad8612e69
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "39615893"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991638"
 ---
 # <a name="manage-your-network-topology-for-cloud-voice-features-in-microsoft-teams"></a>在 Microsoft 團隊中管理雲端語音功能的網路拓撲
 
@@ -84,12 +84,12 @@ ms.locfileid: "39615893"
 
  使用[新的-CsTenantNetworkRegion](https://docs.microsoft.com/powershell/module/skype/New-CsTenantNetworkRegion) Cmdlet 來定義網路區域。 請注意，RegionID 參數是代表區域地理位置的邏輯名稱，沒有相依性或限制，且 CentralSite &lt;site ID&gt;參數是選擇性的。
 
-```
+```PowerShell
 New-CsTenantNetworkRegion -NetworkRegionID <region ID>  
 ```
 
 在這個範例中，我們會建立一個名為「印度」的網路區域。
-```
+```PowerShell
 New-CsTenantNetworkRegion -NetworkRegionID "India"  
 ```
 
@@ -99,11 +99,11 @@ New-CsTenantNetworkRegion -NetworkRegionID "India"
 
 使用[新的-CsTenantNetworkSite](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksite?view=skype-ps) Cmdlet 來定義網路網站。 每個網路網站都必須與一個網路區域建立關聯。
 
-```
+```PowerShell
 New-CsTenantNetworkSite -NetworkSiteID <site ID> -NetworkRegionID <region ID>
 ```
 在這個範例中，我們會在印度區域中建立兩個新的網路網站、新德里與 Hyderabad。
-```
+```PowerShell
 New-CsTenantNetworkSite -NetworkSiteID "Delhi" -NetworkRegionID "India"
 New-CsTenantNetworkSite -NetworkSiteID "Hyderabad" -NetworkRegionID "India"
 ```
@@ -120,13 +120,13 @@ New-CsTenantNetworkSite -NetworkSiteID "Hyderabad" -NetworkRegionID "India"
 
 使用[CsTenantNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksubnet?view=skype-ps) Cmdlet 來定義網路子網，並將它們與網路網站建立關聯。 每個網路子網只能與一個網站建立關聯。
 
-```
+```PowerShell
 New-CsTenantNetworkSubnet -SubnetID <Subnet IP address> -MaskBits <Subnet bitmask> -NetworkSiteID <site ID>
 ```
 
 在這個範例中，我們會在子網192.168.0.0 與新德里 network 網站之間以及子網2001之間建立關聯：4898： e8：25：844e：926f：85ad： dd8e 和 Hyderabad 網路網站。
-```
 
+```PowerShell
 New-CsTenantNetworkSubnet -SubnetID "192.168.0.0" -MaskBits "24" -NetworkSiteID "Delhi"
 New-CsTenantNetworkSubnet -SubnetID "2001:4898:e8:25:844e:926f:85ad:dd8e" -MaskBits "120" -NetworkSiteID "Hyderabad"
 
@@ -140,11 +140,11 @@ New-CsTenantNetworkSubnet -SubnetID "2001:4898:e8:25:844e:926f:85ad:dd8e" -MaskB
 |網站識別碼  | Site （新德里） | Site 2 （Hyderabad） |
 
 針對多個子網，您可以使用如下的腳本匯入 CSV 檔案。
-```
+```PowerShell
 Import-CSV C:\subnet.csv | foreach {New-CsTenantNetworkSubnet –SubnetID $_.SubnetID-MaskBits $_.Mask -NetworkSiteID $_.SiteID}  
 ```
 在這個範例中，CSV 檔案看起來像這樣：
-```
+```output
 Identity, Mask, SiteID
 172.11.12.0, 24, Redmond
 172.11.13.0, 24, Chicago
@@ -157,11 +157,11 @@ Identity, Mask, SiteID
 ### <a name="define-external-subnets-external-trusted-ip-addresses"></a>定義外部子網（外部信任的 IP 位址）
 
 使用[CsTenantTrustedIPAddress](https://docs.microsoft.com/powershell/module/skype/new-cstenanttrustedipaddress?view=skype-ps) Cmdlet 來定義外部子網，並將其指派給租使用者。 您可以為租使用者定義不受限制的外部子網數。
-```
+```PowerShell
 New-CsTenantTrustedIPAddress -IPAddress <External IP address> -MaskBits <Subnet bitmask> -Description <description> 
 ```
 例如：
-```
+```PowerShell
 New-CsTenantTrustedIPAddress -IPAddress 198.51.100.0 -MaskBits 30 -Description "Contoso address"  
 ```
 

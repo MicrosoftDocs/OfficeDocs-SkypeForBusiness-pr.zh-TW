@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ef80290e6b8a1ce4de834a000148d60b2c5ef89d
-ms.sourcegitcommit: 7d5dd650480ca2e55c24ce30408a5058067f6932
+ms.openlocfilehash: 122a704df184619591f121f088162a045733cf4b
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "37775072"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992128"
 ---
 # <a name="install-the-microsoft-staffhub-powershell-module"></a>安裝 Microsoft StaffHub PowerShell 模組
 
@@ -37,40 +37,41 @@ ms.locfileid: "37775072"
     > 若要取得最新版本的 Windows PowerShell，請參閱[安裝 Windows powershell](https://docs.microsoft.com/powershell/scripting/install/installing-windows-powershell)。
 3. 執行下列動作：
 
-    ```
+    ```PowerShell
     $ENV:PSModulePath
     ```
 4. 檢查輸出中的資料夾路徑，並確認路徑中的所有資料夾都存在於您的電腦上，然後再移至下一個步驟。 如果資料夾遺失，請建立。
 5. 執行下列動作，以允許安裝 StaffHub PowerShell 模組：
 
-    ```
+    ```PowerShell
     Set-ExecutionPolicy RemoteSigned
     ```
 6. 執行下列動作，其中&lt;path&gt;是步驟3輸出中的路徑。 例如，路徑看起來可能像 C:\Users\User1\Documents\WindowsPowerShell\Modules。
 
     請務必分別執行每個命令。
 
-    ```
+    ```PowerShell
     Install-Module -Name PackageManagement -Force  -AllowClobber
     Install-Module -Name PowerShellGet -Force  -AllowClobber
     ```
 7. 退出 Windows PowerShell。
 8. 以全域系統管理員身分開啟 Windows PowerShell 3.0 或更新版本，然後執行下列動作：
 
-    ```
+    ```PowerShell
     Install-Module -Name MicrosoftStaffHub
-
-## Connect to the Microsoft StaffHub PowerShell module
-
-1. Run the following:
-
-    ```
-    連接-StaffHub
     ```
 
-2. When you're prompted, log in as a global admin.
+## <a name="connect-to-the-microsoft-staffhub-powershell-module"></a>連線到 Microsoft StaffHub PowerShell 模組
 
-## Related topics
+1. 執行下列動作：
 
-- [Microsoft StaffHub PowerShell reference](https://docs.microsoft.com/powershell/module/staffhub/?view=staffhub-ps)
-- [Move your Microsoft StaffHub teams to Shifts in Teams](move-staffhub-teams-to-shifts-in-teams.md)
+    ```PowerShell
+    Connect-StaffHub
+    ```
+
+2. 出現提示時，請以全域管理員身分登入。
+
+## <a name="related-topics"></a>相關主題
+
+- [Microsoft StaffHub PowerShell 參考](https://docs.microsoft.com/powershell/module/staffhub/?view=staffhub-ps)
+- [將 StaffHub 小組移動至 Teams 中的 Shifts](move-staffhub-teams-to-shifts-in-teams.md)

@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何在 Microsoft 團隊中使用和管理本機號碼原則，以變更或封鎖貴組織中的小組使用者本機號碼。
-ms.openlocfilehash: 8a8e235c1adf24e5a11b0b62e7542d5fcae194be
-ms.sourcegitcommit: f2c7626dbef4ed250b9a937a9b56d46fe2e2039e
+ms.openlocfilehash: aed6e3cbe2053ddc16b049608247f56705626249
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2019
-ms.locfileid: "39998821"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992883"
 ---
 # <a name="manage-caller-id-policies-in-microsoft-teams"></a>管理 Microsoft 團隊中的呼叫者識別碼原則
 
@@ -95,15 +95,15 @@ ms.locfileid: "39998821"
 > 請依照在[單一 Windows PowerShell 視窗中連線至 [所有 Office 365 服務]](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)中的步驟，確認您首先連線至 [圖形模組] 和 [商務用 Skype] powershell 模組的 [Azure Active Directory PowerShell]。
 
 取得特定群組的 GroupObjectId。
-```
+```PowerShell
 $group = Get-AzureADGroup -SearchString "Contoso Support"
 ```
 取得指定群組的成員。
-```
+```PowerShell
 $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
 ```
 將群組中的所有使用者指派給特定的呼叫者 ID 原則。 在這個範例中，它支援本機號碼原則。
-```
+```PowerShell
 $members | ForEach-Object { Grant-CsCallingLineIdentity -PolicyName "Support Caller ID Policy" -Identity $_.UserPrincipalName}
 ``` 
 根據群組中的成員數目而定，此命令可能需要幾分鐘的時間執行。

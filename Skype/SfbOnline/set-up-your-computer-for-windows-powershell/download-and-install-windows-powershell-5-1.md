@@ -1,5 +1,5 @@
 ---
-title: 下載並安裝 Windows PowerShell 5。1
+title: 下載並安裝 Windows PowerShell 5.1
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -19,14 +19,14 @@ ms.custom:
 - PowerShell
 - LIL_Placement
 description: 下載、安裝並使用 Windows PowerShell 5.1 來建立連線至商務用 Skype Online 的遠端 PowerShell 會話。
-ms.openlocfilehash: 5afca0ef1fd5d7437c3974de1424a664c99ab1a1
-ms.sourcegitcommit: 9c54fd0a51ece8624155dc543d5df922834aa51e
+ms.openlocfilehash: 190e1cdcbdd15018e576a4da8a50410cfb062a71
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "37642336"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992953"
 ---
-# <a name="download-and-install-windows-powershell-51"></a>下載並安裝 Windows PowerShell 5。1
+# <a name="download-and-install-windows-powershell-51"></a>下載並安裝 Windows PowerShell 5.1
 
 如果您使用的是 Windows 10 年度更新版或 Windows Server 2016，您應該已經有 Windows PowerShell 5.1。 這是因為此應用程式是預先預先安裝了這些作業系統。
   
@@ -36,7 +36,7 @@ ms.locfileid: "37642336"
     
 2. 在 PowerShell 主控台中，輸入下列命令，然後按 ENTER：
     
-   ```
+   ```PowerShell
    Get-Host | Select-Object Version
    ```
 
@@ -65,17 +65,17 @@ ms.locfileid: "37642336"
 3. 如果出現 [**使用者帳戶控制**] 對話方塊，請按一下 [**是]** ，確認您要在 [管理員認證] 下執行 PowerShell。
     
 PowerShell 執行之後，您必須變更執行原則，以允許執行遠端腳本。 在 PowerShell 主控台中，輸入下列命令，然後按 ENTER：
-```
+```PowerShell
 Set-ExecutionPolicy RemoteSigned -Force
 ```
    
  
 > [!NOTE]
-> 當您執行上述命令時，您可能會收到下列錯誤訊息： > * \\設定-ExecutionPolicy：存取 registry key'HKEY_LOCAL_MACHINE 軟體\\Microsoft\\PowerShell\\1 ShellIds\\ \\[Micrsoft] 遭到拒絕。* 如果您不是在 [管理員認證] 下執行 PowerShell，通常會發生此錯誤訊息。 關閉您的 PowerShell 會話，然後以系統管理員的身分開始新的會話。
+> 當您執行上述命令時，您可能會收到下列錯誤訊息： >*設定-ExecutionPolicy：無法存取登錄機碼 "HKEY_LOCAL_MACHINE\\軟體\\Microsoft\\PowerShell\\1\\ShellIds\\Micrsoft"。* 如果您不是在 [管理員認證] 下執行 PowerShell，通常會發生此錯誤訊息。 關閉您的 PowerShell 會話，然後以系統管理員的身分開始新的會話。
  
 若要確認是否已正確設定執行原則，請在 PowerShell 提示輸入以下內容，然後按 ENTER 鍵：
   
-```
+```PowerShell
 Get-ExecutionPolicy
 ```
 
@@ -103,7 +103,7 @@ Get-ExecutionPolicy
     
 PowerShell 主控台出現後，您應該確認 WinRM 服務正在執行且已正確設定。 若要確認服務正在執行，請在 PowerShell 提示輸入下列命令，然後按 ENTER：
   
-```
+```PowerShell
 Get-Service winrm
 ```
 
@@ -117,13 +117,13 @@ Running  winrm              Windows Remote Management (WS-Manag...
 
 如果服務狀態不等於「正在執行」，請輸入下列命令以啟動 WinRM 服務，然後按 ENTER：
   
-```
+```PowerShell
 Start-Service winrm
 ```
 
 在服務啟動後，請執行下列命令，以確認 WinRM 使用的是基本驗證：
   
-```
+```PowerShell
 winrm set winrm/config/client/auth '@{Basic="True"}'
 ```
 
@@ -144,7 +144,7 @@ Auth
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
    
 ## <a name="related-topics"></a>相關主題
-[設定您的 Windows PowerShell 電腦](set-up-your-computer-for-windows-powershell.md) 
+[設定 Windows PowerShell 電腦](set-up-your-computer-for-windows-powershell.md) 
 
   
  

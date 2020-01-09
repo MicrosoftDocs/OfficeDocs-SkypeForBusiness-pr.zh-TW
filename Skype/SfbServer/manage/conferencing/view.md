@@ -9,17 +9,17 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1c0976e-2bfb-475b-9255-ed6b093d8798
-description: '摘要: 瞭解如何在商務用 Skype Server 中查看會議原則。'
-ms.openlocfilehash: 1f1545761838cf176abd88fa12abd9ef5a1d8136
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 摘要：瞭解如何在商務用 Skype Server 中查看會議原則。
+ms.openlocfilehash: 7ea7b5cb9ba54fcf26e5f37b79320466c19d1050
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188914"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992188"
 ---
 # <a name="view-conferencing-policies-in-skype-for-business-server"></a>在商務用 Skype Server 中查看會議原則
  
-**摘要:** 瞭解如何在商務用 Skype Server 中查看會議原則。
+**摘要：** 瞭解如何在商務用 Skype Server 中查看會議原則。
   
 您可以使用商務用 Skype Server 的 [控制台] 或使用商務用 Skype Server Management Shell 來查看會議原則。
   
@@ -29,25 +29,25 @@ ms.locfileid: "36188914"
     
 2.  開啟商務用 Skype Server 的 [控制台]。
     
-3. 在左側導覽列中, 按一下 [**會議**], 然後按一下 [**會議原則**]。
+3. 在左側導覽列中，按一下 [**會議**]，然後按一下 [**會議原則**]。
     
-4. 在 [**會議原則**] 頁面上, 按兩下您要查看的會議原則。
+4. 在 [**會議原則**] 頁面上，按兩下您要查看的會議原則。
     
-5. 在 [**編輯檔案篩選器**] 中, 選取 [**顯示詳細資料**] 核取方塊。
+5. 在 [**編輯檔案篩選器**] 中，選取 [**顯示詳細資料**] 核取方塊。
     
     [**編輯會議原則\<]\> -** 已開啟顯示所選原則設定的原則。
     
-    如需設定設定的詳細資訊, 請參閱[在商務用 Skype 伺服器中建立會議原則](create-policies.md)。
+    如需設定設定的詳細資訊，請參閱[在商務用 Skype 伺服器中建立會議原則](create-policies.md)。
     
 ## <a name="view-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>使用商務用 Skype Server Management Shell 來查看會議原則
 
-若要查看會議原則, 請使用**CsConferencingPolicy** Cmdlet:
+若要查看會議原則，請使用**CsConferencingPolicy** Cmdlet：
   
-```
+```PowerShell
 Get-CsConferencingPolicy
 ```
 
-這個 Cmdlet 會傳回如下所示的資訊:
+這個 Cmdlet 會傳回如下所示的資訊：
   
 <pre>
 Identity                                  : Global
@@ -86,6 +86,6 @@ TotalReceiveVideoBitRateKb                : 6000
 EnableMultiViewJoin                       : True
 </pre>
 
-如需詳細資訊 (包括完整的語法描述及參數清單), 請參閱[CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/get-csconferencingpolicy?view=skype-ps)。
+如需詳細資訊（包括完整的語法描述及參數清單），請參閱[CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/get-csconferencingpolicy?view=skype-ps)。
   
 

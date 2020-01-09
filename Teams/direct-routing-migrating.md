@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 瞭解從商務用 Skype Online 和團隊設定觀點來決定要從商務用 Skype 移植所需的專案。
-ms.openlocfilehash: dd0b2cd1ac6014ea0f6c79a46314eb4e3d5e0380
-ms.sourcegitcommit: 96d98e145ff300833d827a7d43b4e4b0331b7538
+ms.openlocfilehash: 4c65a8c5d5a28ab5046c23e2743962fe1114c2a4
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39871709"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992580"
 ---
 # <a name="migrate-to-direct-routing"></a>移轉至直接路由
 
@@ -38,8 +38,8 @@ ms.locfileid: "39871709"
 
 |使用者物件屬性 |含有通話方案的電話系統|具有內部部署 PSTN 連線的電話系統（透過商務用 Skype Server）|具有內部部署 PSTN 連線的電話系統（透過雲端連接器）|具有內部部署 PSTN 連線的電話系統（透過直接路由）|
 |---|---|---|---|---|
-|端|商務用 Skype 或團隊 |商務用 Skype |商務用 Skype |團隊|
-|許可證|商務用 Skype Online</br>方案2</br></br>MCOProfessional 或 MCOSTANDARD）</br></br></br>電話系統（MCOEV）</br></br></br>通話方案</br>團隊|商務用 Skype Online 方案2（MCOProfessional 或 MCOSTANDARD）</br></br></br>電話系統（MCOEV）|商務用 Skype Online 方案2（MCOProfessional 或 MCOSTANDARD）</br></br></br>電話系統（MCOEV）|商務用 Skype Online 方案2（MCOProfessional 或 MCOSTANDARD</br></br></br>電話系統（MCOEV）</br></br>團隊|
+|用戶端|商務用 Skype 或團隊 |商務用 Skype |商務用 Skype |Teams|
+|許可證|商務用 Skype Online</br>方案2</br></br>MCOProfessional 或 MCOSTANDARD）</br></br></br>電話系統（MCOEV）</br></br></br>通話方案</br>Teams|商務用 Skype Online 方案2（MCOProfessional 或 MCOSTANDARD）</br></br></br>電話系統（MCOEV）|商務用 Skype Online 方案2（MCOProfessional 或 MCOSTANDARD）</br></br></br>電話系統（MCOEV）|商務用 Skype Online 方案2（MCOProfessional 或 MCOSTANDARD</br></br></br>電話系統（MCOEV）</br></br>Teams|
 OnPremLineURI |不適用|電話號碼必須從內部部署的 AD 進行同步處理。 |您可以在內部部署的 Active Directory 或 Azure Active Directory 中管理電話號碼。|您可以在內部部署的 Active Directory 或 Azure Active Directory 中管理電話號碼。 不過，如果組織有內部部署商務用 Skype，該號碼必須從內部部署的 Active Directory 進行同步處理。|
 |LineURI|PSTN 電話號碼|從 OnPremLineURI 參數自動設定|從 OnPremLineURI 參數自動設定|從 OnPremLineURI 參數自動設定|
 |EnterpriseVoiceEnabled|滿足|滿足|滿足|滿足|
@@ -86,7 +86,7 @@ Set-MsolUserLicense -UserPrincipalName <UPN> -RemoveLicenses $lic2
 
 建議您移除先前設定的語音路由資訊，如下所示：
 
-```
+```PowerShell
 Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN> 
 ```
 > 如果設定了全域 CsVoiceRoutingPolicy，建議您移除與此全域原則相關聯的任何 PSTN 使用方式。 
@@ -101,7 +101,7 @@ Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN>
 
 建議您移除先前設定的語音路由資訊，如下所示：
  
-```
+```PowerShell
 Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN> 
 Set-CsUserPstnSettings -Identity <UPN> -AllowInternationalCalls $false -HybridPSTNSite $null 
 ```

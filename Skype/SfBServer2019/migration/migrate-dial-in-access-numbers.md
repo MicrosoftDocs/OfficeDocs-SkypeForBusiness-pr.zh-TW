@@ -1,5 +1,5 @@
 ---
-title: 遷移撥入存取號碼
+title: 移轉撥入存取號碼
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -8,19 +8,19 @@ audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: 將撥入存取號碼移植到商務用 Skype Server 2019 需要執行 CsApplicationEndpoint Cmdlet 來遷移連絡人物件。 在舊版安裝與商務用 Skype Server 2019 的共存期間, 您在商務用 Skype Server 2019 中建立的撥入存取號碼與您在舊版安裝中建立的撥入存取號碼類似, 如以下所述。頂部.
-ms.openlocfilehash: 81f100979d009f4f9b48cf9a538ec92095a67ad8
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 將撥入存取號碼移植到商務用 Skype Server 2019 需要執行 CsApplicationEndpoint Cmdlet 來遷移連絡人物件。 在舊版安裝與商務用 Skype Server 2019 的共存期間，您在商務用 Skype Server 2019 中建立的撥入存取號碼與您在舊版安裝中建立的撥入存取號碼類似，如以下所述。頂部.
+ms.openlocfilehash: 35c1e665f8affdbf84628f9a7d532405779648f0
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36238731"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991138"
 ---
-# <a name="migrate-dial-in-access-numbers"></a>遷移撥入存取號碼
+# <a name="migrate-dial-in-access-numbers"></a>移轉撥入存取號碼
 
-將撥入存取號碼移植到商務用 Skype Server 2019 需要執行**CsApplicationEndpoint** Cmdlet 來遷移連絡人物件。 在舊版安裝與商務用 Skype Server 2019 的共存期間, 您在商務用 Skype Server 2019 中建立的撥入存取號碼與您在舊版安裝中建立的撥入存取號碼類似, 如以下所述。頂部. 
+將撥入存取號碼移植到商務用 Skype Server 2019 需要執行**CsApplicationEndpoint** Cmdlet 來遷移連絡人物件。 在舊版安裝與商務用 Skype Server 2019 的共存期間，您在商務用 Skype Server 2019 中建立的撥入存取號碼與您在舊版安裝中建立的撥入存取號碼類似，如以下所述。頂部. 
 
-您在舊版安裝中建立的撥入號碼, 但移動到商務用 Skype Server 2019, 或是在遷移期間或之後在商務用 Skype Server 2019 中建立的電話, 都具有下列特性:
+您在舊版安裝中建立的撥入號碼，但移動到商務用 Skype Server 2019，或是在遷移期間或之後在商務用 Skype Server 2019 中建立的電話，都具有下列特性：
 
 - 不會出現在 Office 通訊伺服器 2007 R2 會議邀請和 [撥入存取號碼] 頁面上。
 
@@ -36,34 +36,34 @@ ms.locfileid: "36238731"
 
 - 可在區域內使用 CsDialinConferencingAccessNumber Cmdlet 與 Priority 參數重新排序。
 
-您必須先完成指向舊版安裝池中的撥入存取號碼的遷移, 才能停止舊版安裝區。 如果您沒有完成撥入存取號碼遷移, 請參閱以下程式中所述的接入號碼來電將會失敗。
+您必須先完成指向舊版安裝池中的撥入存取號碼的遷移，才能停止舊版安裝區。 如果您沒有完成撥入存取號碼遷移，請參閱以下程式中所述的接入號碼來電將會失敗。
 
 > [!IMPORTANT]
-> 您必須先執行此程式, 然後才能解除舊版安裝池。 
+> 您必須先執行此程式，然後才能解除舊版安裝池。 
 
 > [!NOTE]
-> 我們建議您在網路使用量較低時移動撥入存取號碼 (如果有短暫的服務停機時間)。 
+> 我們建議您在網路使用量較低時移動撥入存取號碼（如果有短暫的服務停機時間）。 
 
 ## <a name="to-identify-and-move-dial-in-access-numbers"></a>識別及移動撥入存取號碼
 
-1. 啟動商務用 Skype Server 管理命令介面: 按一下 [**開始**], 按一下 [**所有程式**], 按一下 [ **Microsoft 商務用 skype server 2019**], 然後按一下 [**商務用 skype server 管理命令**介面]。
+1. 啟動商務用 Skype Server 管理命令介面：按一下 [**開始**]，按一下 [**所有程式**]，按一下 [ **Microsoft 商務用 skype server 2019**]，然後按一下 [**商務用 skype server 管理命令**介面]。
 
-2. 若要將每個撥入存取號碼移至託管于商務用 Skype Server 2019 的 pool, 請從命令列執行: 
+2. 若要將每個撥入存取號碼移至託管于商務用 Skype Server 2019 的 pool，請從命令列執行： 
 
-   ```
+   ```PowerShell
    Move-CsApplicationEndpoint -Identity <SIP URI of the access number to be moved> -Target <FQDN of the pool to which the access number is moving>
    ```
 
 3. 開啟商務用 Skype Server 的 [控制台]。
 
-4. 在左側導覽列中, 按一下 [**會議**]。
+4. 在左側導覽列中，按一下 [**會議**]。
 
 5. 按一下 [**撥入存取號碼**] 索引標籤。 
 
 6. 確認您要從中遷移的舊版安裝池中仍沒有任何撥入存取號碼。
 
     > [!NOTE]
-    > 當所有撥入存取號碼都指向商務用 Skype Server 2019 池時, 您就可以開始解除舊版安裝區。 
+    > 當所有撥入存取號碼都指向商務用 Skype Server 2019 池時，您就可以開始解除舊版安裝區。 
 
 ## <a name="verify-the-dial-in-access-number-migration-using-skype-for-business-server-control-panel"></a>使用商務用 Skype Server [控制台] 驗證撥入存取號碼遷移
 
@@ -71,7 +71,7 @@ ms.locfileid: "36238731"
 
 2. 開啟商務用 Skype Server 的 [控制台]。
 
-3. 在左側導覽列中, 按一下 [**會議**]。
+3. 在左側導覽列中，按一下 [**會議**]。
 
 4. 按一下 [**撥入存取號碼**] 索引標籤。 
 
@@ -81,9 +81,9 @@ ms.locfileid: "36238731"
 
 1. 開啟商務用 Skype Server 管理命令介面。
 
-2. 若要從命令列中傳回已轉移的所有電話撥入式會議存取電話號碼, 請執行下列動作:
+2. 若要從命令列中傳回已轉移的所有電話撥入式會議存取電話號碼，請執行下列動作：
 
-   ```
+   ```PowerShell
    Get-CsDialInConferencingAccessNumber -Filter {Pool -eq "<FQDN of the pool to which the access number is moved>"}
    ```
 

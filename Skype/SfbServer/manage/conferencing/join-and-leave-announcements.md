@@ -9,61 +9,61 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb09f9c2-c6dc-4083-b45a-8b6773341373
-description: '摘要: 瞭解如何管理會議加入, 以及如何在商務用 Skype Server 中保留宣告。'
-ms.openlocfilehash: 3d9a14e36dfe6b8df51e5ee91dd329ce34452cda
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 摘要：瞭解如何管理會議加入，以及如何在商務用 Skype Server 中保留宣告。
+ms.openlocfilehash: 5c2bc7175f99ee50e94bee26ef0e6d54a6a8db5a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36189661"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991828"
 ---
 # <a name="manage-conference-join-and-leave-announcements-in-skype-for-business-server"></a>在商務用 Skype Server 中管理會議加入與離開宣告
  
-**摘要:** 瞭解如何管理會議加入, 以及如何在商務用 Skype Server 中保留公告。
+**摘要：** 瞭解如何管理會議加入，以及如何在商務用 Skype Server 中保留公告。
   
-當撥入使用者加入或離開會議時, 會議宣告應用程式可以透過播放音調或說出其名稱來宣告其進入或結束。 您可以使用商務用 Skype Server Management 命令介面和**CsDialinConferencing** Cmdlet 以及下列參數來變更宣告的運作方式:
+當撥入使用者加入或離開會議時，會議宣告應用程式可以透過播放音調或說出其名稱來宣告其進入或結束。 您可以使用商務用 Skype Server Management 命令介面和**CsDialinConferencing** Cmdlet 以及下列參數來變更宣告的運作方式：
   
-- EnableNameRecording-判斷匿名參與者是否需要在進入會議之前先記錄他們的名稱。 預設值為「$true」, 表示加入會議時, 系統會提示匿名參與者指出他們的名稱。 (經過驗證的參與者不會記錄其名稱, 因為改為使用其顯示名稱。)
+- EnableNameRecording-判斷匿名參與者是否需要在進入會議之前先記錄他們的名稱。 預設值為「$true」，表示加入會議時，系統會提示匿名參與者指出他們的名稱。 （經過驗證的參與者不會記錄其名稱，因為改為使用其顯示名稱。）
     
-- EntryExitAnnouncementsEnabledByDefault-表示預設是否開啟或關閉宣告。 預設值為「$false」, 這表示參與者加入或離開會議時, 預設沒有宣告。 會議召集人可以在排程會議時覆蓋此設定。
+- EntryExitAnnouncementsEnabledByDefault-表示預設是否開啟或關閉宣告。 預設值為「$false」，這表示參與者加入或離開會議時，預設沒有宣告。 會議召集人可以在排程會議時覆蓋此設定。
     
-- EntryExitAnnouncementsType-表示每當參與者加入或離開已啟用宣告的會議時所採取的動作。 預設值為 "UseNames", 這表示您已開啟公告時的「Ken Myer 已加入會議」:
+- EntryExitAnnouncementsType-表示每當參與者加入或離開已啟用宣告的會議時所採取的動作。 預設值為 "UseNames"，這表示您已開啟公告時的「Ken Myer 已加入會議」：
     
-您可以在全域範圍或網站範圍中設定這些設定。 在網站範圍設定的設定, 會優先于在全域範圍中設定的設定。
+您可以在全域範圍或網站範圍中設定這些設定。 在網站範圍設定的設定，會優先于在全域範圍中設定的設定。
    
 
 ### <a name="to-modify-the-conference-join-and-leave-announcement-behavior"></a>修改會議加入並離開宣告行為
 
 1. 以 RTCUniversalServerAdmins 群組的成員或 Cs-ServerAdministrator 或 CsAdministrator 角色的成員的身分登入電腦。
     
-2. 啟動商務用 Skype Server 管理命令介面: 按一下 [**開始**], 按一下 [**所有程式**], 按一下 [**商務用 skype 2015**], 然後按一下 [**商務用 skype Server management Shell**]。
+2. 啟動商務用 Skype Server 管理命令介面：按一下 [**開始**]，按一下 [**所有程式**]，按一下 [**商務用 skype 2015**]，然後按一下 [**商務用 skype Server management Shell**]。
     
-3. 在命令提示字元執行下列動作:
+3. 在命令提示字元執行下列動作：
     
-   ```
+   ```PowerShell
    Get-CsDialinConferencingConfiguration
    ```
 
-此 Cmdlet 會在加入會議時, 以及參與者加入或離開電話撥入式會議時, 如何回應參與者是否必須記錄其名稱的相關資訊。
+此 Cmdlet 會在加入會議時，以及參與者加入或離開電話撥入式會議時，如何回應參與者是否必須記錄其名稱的相關資訊。
     
-4. 在命令提示字元執行下列動作:
+4. 在命令提示字元執行下列動作：
     
-   ```
+   ```PowerShell
    Set-CsDialinConferencingConfiguration -Identity <identity of dial-in conferencing settings to be modified>
    [-EnableNameRecording <$true | $false>]
    [-EntryExitAnnouncementsEnabledByDefault <$true | $false>]
    [-EntryExitAnnouncementsType <UseNames | ToneOnly]
    ```
 
-在下列範例中, 設定是在雷德蒙的網站範圍設定。 公告已開啟, 但在加入會議時, 系統不會提示參與者說出其名稱。 當參與者進入或離開會議時, 會播放音調:
+在下列範例中，設定是在雷德蒙的網站範圍設定。 公告已開啟，但在加入會議時，系統不會提示參與者說出其名稱。 當參與者進入或離開會議時，會播放音調：
   
-```
+```PowerShell
 Set-CsDialinConferencingConfiguration -Identity site:Redmond
 -EnableNameRecording $false
 -EntryExitAnnouncementsEnabledByDefault $true
 -EntryExitAnnouncementsType ToneOnly
 ```
 
-如需詳細資訊 (包括語法及完整的參數清單), 請參閱[設定 CsDialInConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps)。
+如需詳細資訊（包括語法及完整的參數清單），請參閱[設定 CsDialInConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps)。
   
 

@@ -9,49 +9,49 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c4e0c905-33a1-49d8-9276-1b338f94d085
-description: '摘要: 瞭解商務用 Skype Server 中的通話利率。'
-ms.openlocfilehash: e146bba647c9586d96682bf8056417630676726e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 摘要：瞭解商務用 Skype Server 中的通話利率。
+ms.openlocfilehash: 6902bdaa9b5021963d128bf67dab7adc8ab1d982
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188707"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991738"
 ---
 # <a name="rate-my-call-in-skype-for-business-server"></a>在商務用 Skype Server 中評價我的通話
 
-**摘要:** 瞭解商務用 Skype Server 中我的通話功能的利率。
+**摘要：** 瞭解商務用 Skype Server 中我的通話功能的利率。
 
-評價我的通話是商務用 Skype 2015 和2016用戶端的新功能, 可讓企業取得其最終使用者的意見反應。
+評價我的通話是商務用 Skype 2015 和2016用戶端的新功能，可讓企業取得其最終使用者的意見反應。
 
-[我的呼叫速度] 視窗會提供「star」評等系統, 以及音訊與視頻通話的預先定義權杖。 此外, 系統管理員還可以讓自訂欄位提供意見反應。
+[我的呼叫速度] 視窗會提供「star」評等系統，以及音訊與視頻通話的預先定義權杖。 此外，系統管理員還可以讓自訂欄位提供意見反應。
 
-收集的費率我的通話資料目前不包含在任何現有的監視報告中, 但有個別的監視報告。 資料是在 SQL 資料表中收集, 可以透過執行 SQL 查詢來存取。
+收集的費率我的通話資料目前不包含在任何現有的監視報告中，但有個別的監視報告。 資料是在 SQL 資料表中收集，可以透過執行 SQL 查詢來存取。
 
 ## <a name="rate-my-call-prerequisites"></a>評價我的通話先決條件
 
-在您的商務用 Skype Server 部署中的使用者可以存取我的通話功能之前, 必須先部署並設定下列元件:
+在您的商務用 Skype Server 部署中的使用者可以存取我的通話功能之前，必須先部署並設定下列元件：
 
--  您必須已安裝商務用 Skype Server (版本9160或更新版本)。
+-  您必須已安裝商務用 Skype Server （版本9160或更新版本）。
 
-- 讓您的使用者安裝並更新到最新版本的商務用 Skype, 也要求他們使用商務用 Skype UI。
+- 讓您的使用者安裝並更新到最新版本的商務用 Skype，也要求他們使用商務用 Skype UI。
 
 - 使用者必須駐留在商務用 Skype Server 前端池。
 
-- 您必須已部署商務用 Skype Server 監視資料庫, 並將其與您的商務用 Skype 伺服器池相關聯。
+- 您必須已部署商務用 Skype Server 監視資料庫，並將其與您的商務用 Skype 伺服器池相關聯。
 
-- 我們建議您部署通話品質儀表板 (CQD)。
+- 我們建議您部署通話品質儀表板（CQD）。
 
 ## <a name="configure-rate-my-call"></a>設定通話比率
 
-預設會在用戶端原則中啟用「我的通話」功能, 並具有下列設定:
+預設會在用戶端原則中啟用「我的通話」功能，並具有下列設定：
 
 - 費率通話顯示百分比-10%
 
 - 讓我的通話速度允許自訂使用者的意見反應-已停用
 
-不過, 如果您想要啟用基本功能, 則不需要採取任何動作, 但如果您想要自訂的意見反應, 您必須單獨啟用它。 下列 Windows PowerShell Cmdlet 是啟用自訂的使用者意見反應, 以及將 10% 的間隔變更為 80% 的範例。
+不過，如果您想要啟用基本功能，則不需要採取任何動作，但如果您想要自訂的意見反應，您必須單獨啟用它。 下列 Windows PowerShell Cmdlet 是啟用自訂的使用者意見反應，以及將10% 的間隔變更為80% 的範例。
 
-```
+```PowerShell
 Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 - RateMyCallAllowCustomUserFeedback $true 
 ```
 
@@ -63,11 +63,11 @@ Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 - 
 
  **[QoeMetrics]。[dbo]。[CallQualityFeedbackTokenDef]**-此表格包含標記定義。
 
-標記定義的編碼方式如下:
+標記定義的編碼方式如下：
 
 |||
 |:-----|:-----|
-|sr-1  <br/> |DistortedSpeech  <br/> |
+|1  <br/> |DistortedSpeech  <br/> |
 |pplx-2  <br/> | ElectronicFeedback <br/> |
 |3  <br/> | BackgroundNoise <br/> |
 |4  <br/> |MuffledSpeech  <br/> |
@@ -106,15 +106,15 @@ Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 - 
 |501  <br/> |Reliabilty_Join  <br/> |
 |502  <br/> |Reliabilty_Invite  <br/> |
 
- **[QoeMetrics]。[dbo]。[CallQualityFeedback]** 此表格包含「星」投票和客戶意見反應 (如果已啟用) 的輪詢結果。
+ **[QoeMetrics]。[dbo]。[CallQualityFeedback]** 此表格包含「星」投票和客戶意見反應（如果已啟用）的輪詢結果。
 
 您可以使用**select \* from [Table.Name]** 查詢或使用 Microsoft SQL Server Management Studio 來呼叫資料表中的資料。
 
-您可以使用下列 SQL 查詢:
+您可以使用下列 SQL 查詢：
 
  **音訊**
 
-```
+```SQL
 SELECT
         s.ConferenceDateTime
         ,Caller.URI as Caller
@@ -151,7 +151,7 @@ SELECT
 
  **顯示器**
 
-```
+```SQL
 SELECT
         s.ConferenceDateTime
         ,Caller.URI as Caller
@@ -188,9 +188,9 @@ SELECT
 
 ## <a name="updating-token-definitions"></a>更新標記定義
 
-最新的商務用 Skype 用戶端會報告您的\> [QoeMetrics] 中可能不存在的新問題標記識別項 (100)。[dbo]。[CallQualityFeedbackTokenDef] 表格。 若要使用最新的標記定義來更新資料庫資料表, 可以使用 Microsoft SQL Server Management Studio 在監視資料庫上執行下列 SQL 命令。 這個命令會取代 [QoeMetrics] 中的所有專案。[dbo]。[CallQualityFeedbackTokenDef] 表格。
+最新的商務用 Skype 用戶端會報告您的\> [QoeMetrics] 中可能不存在的新問題標記識別項（100）。[dbo]。[CallQualityFeedbackTokenDef] 表格。 若要使用最新的標記定義來更新資料庫資料表，可以使用 Microsoft SQL Server Management Studio 在監視資料庫上執行下列 SQL 命令。 這個命令會取代 [QoeMetrics] 中的所有專案。[dbo]。[CallQualityFeedbackTokenDef] 表格。
 
-```
+```SQL
 DELETE FROM [CallQualityFeedbackTokenDef];
 INSERT INTO [CallQualityFeedbackTokenDef] (TokenId, TokenDescription) VALUES
     (1,   N'DistortedSpeech'),

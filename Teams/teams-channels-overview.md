@@ -20,18 +20,17 @@ ms.collection:
 ms.custom: okr_smb
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6ea246588e6884e7c7dd2755d7d24aa486d193df
-ms.sourcegitcommit: 0f6321d51b40f06855679c18f7313febfedd419a
+ms.openlocfilehash: c125b8d62e78f9fc67689c5cd785f9cd13d8c619
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "38793389"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40990998"
 ---
+# <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft 團隊中的團隊和頻道概覽
+
 > [!NOTE]
 > 請複習下列資訊，瞭解團隊中的聊天、團隊、頻道、& 應用程式。 然後，移至 [[聊天]、[團隊]、[頻道]、& [團隊] 中的應用程式](deploy-chat-teams-channels-microsoft-teams-landing-page.md)，逐步引導您團隊推出的重要決策清單。
-
-<a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft 團隊中的團隊和頻道概覽
-=================================================
 
 現在就讓我們來看看 Microsoft 團隊如何允許個別團隊在商務案例間自行組織及共同作業：
 
@@ -51,7 +50,7 @@ ms.locfileid: "38793389"
 
 若要深入瞭解建立小組和頻道的最佳做法，請觀看這段短片。
 
-   > [!VIDEO https://www.youtube.com/embed/hjJWtoaRJeE]
+   > [!VIDEO https://www.youtube.com/embed/WkAVgNKn0hs]
 
 <a name="membership-roles-and-settings"></a>成員資格、角色和設定
 ------------------------------

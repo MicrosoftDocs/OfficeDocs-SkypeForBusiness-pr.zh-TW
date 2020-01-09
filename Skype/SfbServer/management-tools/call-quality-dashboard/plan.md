@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: 摘要：在您規劃通話品質儀表板時，瞭解要考慮的事項。
-ms.openlocfilehash: c98828f8fed3567a892e20dcab8040bb731c91f2
-ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
+ms.openlocfilehash: 3a0982f565495740887b6da07dd802de1205dcf8
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "37328435"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991408"
 ---
 # <a name="plan-for-call-quality-dashboard-for-skype-for-business-server"></a>規劃商務用 Skype Server 的通話品質儀表板 
  
@@ -193,10 +193,10 @@ CQD 中的資料處理分為兩個主要階段：
 
 |**加工**|**CPU 核心**|**RAM**|**在同一磁片上 QoE 封存與立方體**|**在同一磁片上 QoE 封存與 SQL Temp 資料庫**|
 |:-----|:-----|:-----|:-----|:-----|
-|虛擬機器  <br/> |4  <br/> |7 GB  <br/> |是的  <br/> |是的  <br/> |
-|4核  <br/> |4  <br/> |20 GB  <br/> |是的  <br/> |不  <br/> |
-|8核  <br/> |型  <br/> |32 GB  <br/> |是的  <br/> |不  <br/> |
-|16核  <br/> |位  <br/> |128 GB  <br/> |不  <br/> |不  <br/> |
+|虛擬機器  <br/> |4  <br/> |7 GB  <br/> |是  <br/> |是  <br/> |
+|4核  <br/> |4  <br/> |20 GB  <br/> |是  <br/> |否  <br/> |
+|8核  <br/> |型  <br/> |32 GB  <br/> |是  <br/> |否  <br/> |
+|16核  <br/> |位  <br/> |128 GB  <br/> |否  <br/> |否  <br/> |
    
 **效能結果**
 
@@ -284,11 +284,11 @@ CQD 需要下列作業系統：
   
 若要使用 PowerShell 安裝這些需求，請執行下列動作：
   
-```
+```PowerShell
 import-module servermanager
 ```
 
-```
+```PowerShell
 add-windowsfeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Asp-Net, Web-Asp-Net45, Web-Net-Ext, Web-Net-Ext45, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Url-Auth, Web-Windows-Auth, Web-Mgmt-Console
 ```
 
@@ -320,7 +320,7 @@ add-windowsfeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Asp-Net,
 
 針對最低許可權的原則，建議使用三個網域服務帳戶： 
   
-- 已有 QoE 量度資料庫的登入安全主體（具有 db_datareader 許可權），以及 QoE 封存 SQL Server 實例中的登入安全性主體（在安裝期間建立連結的伺服器物件所需）。 這個帳戶將用來執行 SQL Server 代理程式作業的「QoE 封存資料」步驟。
+- 在 QoE 封存 SQL Server 實例（在安裝期間建立連結的伺服器物件）中，已有 QoE 量度資料庫的登入安全性主體（具有 db_datareader 許可權）和登入安全性主體的一個。 這個帳戶將用來執行 SQL Server 代理程式作業的「QoE 封存資料」步驟。
     
 - 一種將用來執行 SQL Server 代理作業的「處理 Cube」步驟。 安裝程式將會建立登入安全性原則，以 QoE 封存資料庫（具有讀取和寫入權限），同時也會在多維資料集的 QoE 角色（具有完全控制許可權）中建立成員。
     

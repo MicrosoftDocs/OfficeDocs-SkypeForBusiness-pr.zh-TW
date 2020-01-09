@@ -15,12 +15,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何使用意見反應原則來控制貴組織中的小組使用者是否可以將團隊的意見反應提交給 Microsoft。
-ms.openlocfilehash: 1322023eb7644b84544ac8ca44fba0a63c6b868d
-ms.sourcegitcommit: f2c7626dbef4ed250b9a937a9b56d46fe2e2039e
+ms.openlocfilehash: 78a6f0856d8b973ecfa1c8af52ee50480be0e838
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2019
-ms.locfileid: "39998831"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991418"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>管理 Microsoft 團隊中的意見反應原則
 
@@ -59,7 +59,7 @@ ms.locfileid: "39998831"
 
 在這個範例中，我們會建立名為「新員工意見反應」原則的意見反應原則，然後關閉**提供意見反應和問卷**的功能。
 
-```
+```PowerShell
 New-CsTeamsFeedbackPolicy -identity "New Hire Feedback Policy" -userInitiatedMode disabled -receiveSurveysMode disabled
 ```
 
@@ -69,7 +69,7 @@ New-CsTeamsFeedbackPolicy -identity "New Hire Feedback Policy" -userInitiatedMod
 
 在這個範例中，我們會將名為「新增員工意見反應」原則的自訂原則指派給名為 user1 的使用者。
 
-```
+```PowerShell
 Grant-CsTeamsFeedbackPolicy -Identity user1@contoso.com -PolicyName "New Hire Feedback Policy"
 ```
 ### <a name="assign-a-custom-feedback-policy-to-users-in-a-group"></a>將自訂意見反應原則指派給群組中的使用者
@@ -79,15 +79,15 @@ Grant-CsTeamsFeedbackPolicy -Identity user1@contoso.com -PolicyName "New Hire Fe
 在這個範例中，我們會將名為「新增員工意見反應」原則的自訂意見反應原則指派給 Contoso 新員工群組中的所有使用者。  
 
 取得特定群組的 GroupObjectId。
-```
+```PowerShell
 $group = Get-AzureADGroup -SearchString "Contoso New Hires"
 ```
 取得指定群組的成員。
-```
+```PowerShell
 $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
 ```
 將群組中的所有使用者指派給特定的意見反應原則。 在這個範例中，它是新的雇用意見反應原則。
-```
+```PowerShell
 $members | ForEach-Object {Grant-CsTeamsFeedbackPolicy -PolicyName "New Hire Feedback Policy" -Identity $_.UserPrincipalName}
 ``` 
 根據群組中的成員數目而定，此命令可能需要幾分鐘的時間執行。

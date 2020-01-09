@@ -1,5 +1,5 @@
 ---
-title: 取得專案
+title: 取得項目
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -10,21 +10,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 9e189a48-4944-4f93-88d7-9d56b56770a6
-description: '摘要: 瞭解 [取得專案] 作業, 該作業是專案服務的一部分。 專案服務是 [通話品質] 儀表板的 [知識庫 API] 的一部分。 [通話品質儀表板] 是商務用 Skype Server 的工具。'
-ms.openlocfilehash: a1e7e8525df77cd5aacafb6d41316a985fbe9694
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 摘要：瞭解 [取得專案] 作業，該作業是專案服務的一部分。 專案服務是 [通話品質] 儀表板的 [知識庫 API] 的一部分。 [通話品質儀表板] 是商務用 Skype Server 的工具。
+ms.openlocfilehash: be93e16750c1a977a6bc3cfc9651e78a043ef563
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36186928"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992660"
 ---
-# <a name="get-items"></a>取得專案
+# <a name="get-items"></a>取得項目
  
-**摘要:** 瞭解 [取得專案] 作業, 該作業是專案服務的一部分。 專案服務是 [通話品質] 儀表板的 [知識庫 API] 的一部分。 [通話品質儀表板] 是商務用 Skype Server 的工具。
+**摘要：** 瞭解 [取得專案] 作業，該作業是專案服務的一部分。 專案服務是 [通話品質] 儀表板的 [知識庫 API] 的一部分。 [通話品質儀表板] 是商務用 Skype Server 的工具。
   
 [取得專案] 作業是 [呼叫品質] 儀表板的 [知識庫 API] 中的專案服務的一部分。
   
-## <a name="get-items"></a>取得專案
+## <a name="get-items"></a>取得項目
 
 [取得專案] 會傳回知識庫中的所有專案。
   
@@ -40,16 +40,16 @@ ms.locfileid: "36186928"
   
  **回應**-回應包括 HTTP 狀態碼和一組回應標頭。
   
- **狀態碼**-成功的操作會傳回狀態碼 200 (確定)。
+ **狀態碼**-成功的操作會傳回狀態碼200（確定）。
   
  **回應標題**-沒有其他標頭。
   
  **回應主體**-以下是 JSON 中的回應載荷範例。
   
 > [!NOTE]
-> 傳回 Item 物件的陣列。 如需專案物件的詳細資訊, 請參閱取得專案。 
+> 傳回 Item 物件的陣列。 如需專案物件的詳細資訊，請參閱取得專案。 
   
-```
+```json
 [{
 "itemId": 1652,
 "userId": 0,

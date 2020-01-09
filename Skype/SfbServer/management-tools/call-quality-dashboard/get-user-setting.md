@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 16611a55-79fb-487a-a936-20caca829f87
-description: '摘要: 瞭解 [取得使用者設定] 作業, 該操作是 [使用者設定] 服務的一部分。 [使用者設定] 服務是 [通話品質] 儀表板的 [知識庫 API] 的一部分。 [通話品質儀表板] 是商務用 Skype Server 的工具。'
-ms.openlocfilehash: 295e12405eb6a7ebbf45b87e3a06f3a745b90bad
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 摘要：瞭解 [取得使用者設定] 作業，該操作是 [使用者設定] 服務的一部分。 [使用者設定] 服務是 [通話品質] 儀表板的 [知識庫 API] 的一部分。 [通話品質儀表板] 是商務用 Skype Server 的工具。
+ms.openlocfilehash: 168e61aaebb47cb087e77cbd18e3e6edfd987227
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36186904"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992640"
 ---
 # <a name="get-user-setting"></a>取得使用者設定
  
-**摘要:** 瞭解 [取得使用者設定] 作業, 該操作是 [使用者設定] 服務的一部分。 [使用者設定] 服務是 [通話品質] 儀表板的 [知識庫 API] 的一部分。 [通話品質儀表板] 是商務用 Skype Server 的工具。
+**摘要：** 瞭解 [取得使用者設定] 作業，該操作是 [使用者設定] 服務的一部分。 [使用者設定] 服務是 [通話品質] 儀表板的 [知識庫 API] 的一部分。 [通話品質儀表板] 是商務用 Skype Server 的工具。
   
 [取得使用者設定] 作業是 [呼叫品質] 儀表板的 [知識庫 API] 中的 [使用者設定] 服務的一部分。
   
@@ -41,13 +41,13 @@ ms.locfileid: "36186904"
   
  **回應**-回應包括 HTTP 狀態碼和一組回應標頭。
   
- **狀態碼**-成功的操作會傳回狀態碼 200 (確定)。
+ **狀態碼**-成功的操作會傳回狀態碼200（確定）。
   
  **回應標題**-沒有其他標頭。
   
  **回應主體**-以下是 JSON 中的回應載荷範例。
   
-```
+```json
 {
 "userId": 6,
 "key": "ShowDescriptions",
@@ -57,8 +57,8 @@ ms.locfileid: "36186904"
 
  *userId* -使用者識別碼。
   
- ** 設定的索引鍵。
+ 設定的*索引鍵。*
   
- 設定的*value* (值)。
+ 設定的*value* （值）。
   
 

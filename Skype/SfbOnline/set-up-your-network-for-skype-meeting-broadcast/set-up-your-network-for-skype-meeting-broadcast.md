@@ -1,5 +1,5 @@
 ---
-title: 針對 Skype 會議廣播設定您的網路
+title: 為您的 Skype 會議廣播設定網路
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,14 +18,14 @@ f1keywords: None
 ms.custom:
 - SMB
 description: 瞭解商務用 Skype Online 的 Skype 會議廣播功能，可讓您安排、產生及廣播會議或事件給最多10000出席者的大型線上使用者。
-ms.openlocfilehash: 443810772eeb8bf11721825b06b6a87ccb2c97c8
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 95ad00be416a53e6e861ce4e9f235bded8e8075a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "37642124"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40990978"
 ---
-# <a name="set-up-your-network-for-skype-meeting-broadcast"></a>針對 Skype 會議廣播設定您的網路
+# <a name="set-up-your-network-for-skype-meeting-broadcast"></a>為您的 Skype 會議廣播設定網路
 
 在您[啟用 Skype 會議廣播](enable-skype-meeting-broadcast.md)Skype 會議廣播之後，您必須設定您的網路。 如果您想要為企業外部的人員舉行網路研討會和其他廣播，請執行此步驟。
 
@@ -61,27 +61,27 @@ ms.locfileid: "37642124"
 
 - 從 [**開始] 功能表**，以滑鼠右鍵按一下 [ **Windows PowerShell** ]，然後按一下 [**以系統管理員身分執行**]。 在 [ **Windows PowerShell** ] 視窗中，輸入每一行，然後按 enter 鍵。
 
-  ```
+  ```PowerShell
   $r = New-CsEdgeDomainPattern -Domain "noammeetings.lync.com"
   ```
 
-  ```
+  ```PowerShell
   $s = New-CsEdgeDomainPattern -Domain "emeameetings.lync.com"
   ```
 
-  ```
+  ```PowerShell
   $t = New-CsEdgeDomainPattern -Domain "apacmeetings.lync.com"
   ```
 
-  ```
+  ```PowerShell
   $n = New-CsEdgeDomainPattern -Domain "resources.lync.com"
   ```
 
-  ```
+  ```PowerShell
   $newAllowList = New-CsEdgeAllowList -AllowedDomain $r,$s,$t,$n
   ```
 
-  ```
+  ```PowerShell
   Set-CsTenantFederationConfiguration -AllowedDomains $newAllowList
   ```
 
@@ -99,7 +99,7 @@ ms.locfileid: "37642124"
 
 [啟用 Skype 會議廣播](enable-skype-meeting-broadcast.md)
 
-[Office 365 Url 與 IP 位址範圍](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)
+[Office 365 URL 與 IP 位址範圍](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)
 
 [設定商務用 Skype Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
 

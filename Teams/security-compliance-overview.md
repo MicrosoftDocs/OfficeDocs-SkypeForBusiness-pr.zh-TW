@@ -17,12 +17,12 @@ f1keywords:
 - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: da0e576bf299bcd4c5362e7055cd843805b783dc
-ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.openlocfilehash: 95f8910005121faceb261a399ed64a4f68e5cad4
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37968174"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40988798"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Microsoft 團隊中的安全性與合規性概述
 ======================================================
@@ -31,7 +31,7 @@ Microsoft 團隊是以 Office 365 超規模、企業級的雲端為基礎，提�
 
 團隊是標準的層級。 這包括下列標準： ISO 27001、ISO 27018、SSAE16 SOC 1 和 SOC 2、HIPAA 以及歐盟模型子句（EUMC）。 在 Microsoft 合規性架構中，Microsoft 將 Office 365 應用程式和服務分類成四種類別。 每個類別都是由要在該類別中列出的 Office 365 服務或相關 Microsoft 服務所需符合的特定合規性承諾所定義。
 
-符合行業領先規範承諾的合規性類別 C 和 D 中的服務會預設為啟用。 [類別 A] 和 [B] 中的服務隨附控制項，可為整個組織開啟或關閉這些服務。 您可以在[規範架構中找到適用于行業標準與規章](https://download.microsoft.com/download/B/2/7/B27B3EF3-8849-4C18-8BA4-5AD755728620/Compliance%20Framework_customer%20guidance.pdf)的詳細資料。 團隊也支援雲端安全聯盟規範。
+符合行業領先規範承諾的合規性類別 C 和 D 中的服務會預設為啟用。 [類別 A] 和 [B] 中的服務隨附控制項，可為整個組織開啟或關閉這些服務。 您可以在[規範架構中找到適用于行業標準與規章](https://download.microsoft.com/download/1/4/3/1434ABAB-B8E9-412D-8C3A-187B5FCB7A2F/Compliance%20Framework%20document.pdf)的詳細資料。 團隊也支援雲端安全聯盟規範。
 
 團隊也會強制執行整個小組和組織範圍的雙因素驗證、透過 Active Directory 進行單一登入，以及在傳輸期間和存放的資料加密。 檔案是儲存在 SharePoint 中，且由 SharePoint 加密來支援。 筆記是儲存在 OneNote 中，且由 OneNote 加密所支援。 OneNote 資料會儲存在小組 SharePoint 網站。 [Wiki] 索引標籤也可用於記事記錄，而其內容也會儲存在小組 SharePoint 網站中。
 
@@ -44,7 +44,7 @@ Microsoft 團隊是以 Office 365 超規模、企業級的雲端為基礎，提�
 
 ## <a name="auditing-and-reporting"></a>審核與報告
 
-[審核記錄搜尋] 會直接移至 Office 365 安全性 & 合規性中心]，並公開設定警報與/或報告審核事件的能力，方法是將工作負載的特定或一般事件集提供給無限制的審核時程表。 所有的審核記錄資料都可在 Office 365 安全 & 合規性中心內設定通知，以及篩選和匯出以進行進一步分析。 請參閱此[連結](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c)，深入瞭解如何在 Office 365 安全 & 合規性中心中執行 Microsoft 團隊活動的審核記錄搜尋。 
+[審核記錄搜尋] 會直接移至 Office 365 安全性 & 合規性中心]，並在 [無限制的審核時程表] 中針對管理員使用及調查，公開設定警報與/或報告審核事件的功能。 所有的審核記錄資料都可在 Office 365 安全 & 合規性中心內設定通知，以及篩選和匯出以進行進一步分析。 請參閱此[連結](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c)，深入瞭解如何在 Office 365 安全 & 合規性中心中執行 Microsoft 團隊活動的審核記錄搜尋。 
 
 ## <a name="compliance-content-search"></a>合規性內容搜尋
 
@@ -79,7 +79,7 @@ Microsoft 團隊是以 Office 365 超規模、企業級的雲端為基礎，提�
 
 ## <a name="legal-hold"></a>法律封存
 
-在訴訟期間，通常需要與使用者（保管人）或團隊相關聯的所有資料都保留永久，讓它可以作為案例的證據使用。 您可以在法律封存中放置使用者（使用者信箱）或團隊來達到此目的。 當小組中的任何小組都放在已設定目標查詢或篩選內容的 [信箱] 或 [網站集合] 子集時（[整個信箱] 或 [網站集合]），[保留] 會放在 [群組] 信箱上。 這可確保即使最終使用者刪除或編輯 ingested 群組信箱中的頻道訊息，該內容的不可變複本仍會維持在 eDiscovery 搜尋中並提供。 法律封存一般會套用在 eDiscovery 案例的內容中。 請參閱[此](https://support.office.com/article/overview-of-preservation-policies-9c3b1d52-40ce-4ba3-a520-9ae0be15538a)說明文章，以深入瞭解如何在 Office 365 安全 & 合規性中心中保留和保留。 
+在訴訟期間，通常需要與使用者（保管人）或團隊相關聯的所有資料都保留為不變，以便將它當作案例的證據使用。 您可以在法律封存中放置使用者（使用者信箱）或團隊來達到此目的。 當小組中的任何小組都放在已設定目標查詢或篩選內容的 [信箱] 或 [網站集合] 子集時（[整個信箱] 或 [網站集合]），[保留] 會放在 [群組] 信箱上。 這可確保即使最終使用者刪除或編輯 ingested 群組信箱中的頻道訊息，該內容的不可變複本仍會維持在 eDiscovery 搜尋中並提供。 法律封存一般會套用在 eDiscovery 案例的內容中。 請參閱[此](https://support.office.com/article/overview-of-preservation-policies-9c3b1d52-40ce-4ba3-a520-9ae0be15538a)說明文章，以深入瞭解如何在 Office 365 安全 & 合規性中心中保留和保留。 
 
 ## <a name="information-protection-architecture-for-microsoft-teams"></a>Microsoft 團隊的資訊保護架構。 
 
@@ -100,7 +100,7 @@ Microsoft 團隊是以 Office 365 超規模、企業級的雲端為基礎，提�
 當您遇到資訊保護功能時，Office 365 訂閱和相關聯的獨立授權將決定可用的功能集。
 
 
-| 資訊保護功能 | Office 365 商務基本版 | Office 365 商務進階版 | Office 365 企業版 E1 | Office 365 企業版 E3/E4 | Office 365 企業版 E5 |
+| 資訊保護功能 | Office 365 商務基本版 | Office 365 商務進階版 | Office 365 Enterprise E1 | Office 365 企業版 E3/E4 | Office 365 企業版 E5 |
 |-----------------------------------|--------------------------------|-----------------------------|--------------------------|-----------------------------|--------------------------|
 |              壓縮              |               -                |              -              |            -             |             是             |           是            |
 |        就地 eDiscovery        |               -                |              -              |            -             |             是             |           是            |

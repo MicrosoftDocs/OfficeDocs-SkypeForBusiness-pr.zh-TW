@@ -1,5 +1,5 @@
 ---
-title: 使用 PowerShell 控制小組的來賓存取
+title: 使用 PowerShell 控制來賓對團隊的存取
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -14,14 +14,14 @@ search.appverid: MET150
 description: 使用 PowerShell 來允許或封鎖對 Microsoft 團隊中的小組的來賓存取權。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 90ca96b6a28b1a94c375af0b4b4166da5bbee9e9
-ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
+ms.openlocfilehash: 94b7be4f67906ad5df2fe23b01cc2bdce662a8cb
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37753328"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40989838"
 ---
-<a name="use-powershell-to-control-guest-access-to-a-team"></a>使用 PowerShell 控制小組的來賓存取
+<a name="use-powershell-to-control-guest-access-to-a-team"></a>使用 PowerShell 控制來賓對團隊的存取
 ================================================
 
 除了使用 Microsoft 365 系統管理中心以及 Azure Active Directory （Azure AD）入口網站之外，您還可以使用 Windows PowerShell 來控制來賓存取。 您可以在 PowerShell 中執行下列動作：
@@ -45,7 +45,7 @@ ms.locfileid: "37753328"
  
 2.  將 PowerShell 會話連線到商務用 Skype Online 端點。
 
-    ```
+    ```PowerShell
     Import-Module SkypeOnlineConnector
     $Cred = Get-Credential
     $CSSession = New-CsOnlineSession -Credential $Cred
@@ -53,7 +53,7 @@ ms.locfileid: "37753328"
     ```
 3.  檢查您的設定， `AllowGuestUser`如果`$False`是，請使用[CsTeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps) Cmdlet 將它設定為`$True`。
 
-    ```
+    ```PowerShell
     Get-CsTeamsClientConfiguration
 
     Identity                         : Global

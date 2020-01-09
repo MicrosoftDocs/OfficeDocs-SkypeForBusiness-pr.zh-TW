@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6bd65376be278a3d07e5a7a8c4ba69ccd5408090
-ms.sourcegitcommit: a23f45ab3a2cb7b5c279356edddf61c4030c41bd
+ms.openlocfilehash: f4ed7f4bc282686c31f2f9c2239fbe6326e5151f
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39961608"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992540"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft 團隊中為您的組織管理倒班應用程式
 
@@ -87,15 +87,15 @@ App 設定原則可讓您自訂小組，以醒目提示貴組織中的使用者�
 > 請依照在[單一 Windows PowerShell 視窗中連線至 [所有 Office 365 服務]](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)中的步驟，確認您首先連線至 [圖形模組] 和 [商務用 Skype] powershell 模組的 [Azure Active Directory PowerShell]。
 
 取得特定群組的 GroupObjectId。
-```
+```PowerShell
 $group = Get-AzureADGroup -SearchString "Contoso Firstline Team"
 ```
 取得指定群組的成員。
-```
+```PowerShell
 $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
 ```
 將群組中的所有使用者指派至 FirstlineWorker 應用程式設定原則。
-```
+```PowerShell
 $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "FirstlineWorker" -Identity $_.EmailAddress}
 ``` 
 根據群組中的成員數目而定，此命令可能需要幾分鐘的時間執行。

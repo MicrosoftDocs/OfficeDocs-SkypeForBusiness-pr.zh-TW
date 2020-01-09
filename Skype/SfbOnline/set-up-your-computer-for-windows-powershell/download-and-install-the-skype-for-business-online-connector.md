@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: '下載、安裝及使用商務用 Skype Online 連接器，以建立連線至商務用 Skype Online 的遠端 Windows PowerShell 會話。 '
-ms.openlocfilehash: 7e97bc31d85370919eec7c50fae01d00f5b1ddac
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 4d794902ce39687c32f584f97b126c98f237c486
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "37642679"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991298"
 ---
 # <a name="download-and-install-the-skype-for-business-online-connector-module"></a>下載並安裝商務用 Skype Online 連接器模組
 
@@ -37,19 +37,19 @@ ms.locfileid: "37642679"
     
 安裝程式會將商務用 Skype Online 連接器模組（以及新的**CsOnlineSession** Cmdlet）複製到您的電腦。 若要存取模組，請在 [管理員認證] 底下啟動 Windows PowerShell 會話，然後執行下列命令：
   
-```
+```PowerShell
 Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
 ```
 
 如果您不想在每次啟動 Windows PowerShell 時都輸入這個命令，您可以將命令新增至您的 Windows PowerShell 設定檔。 若要執行此動作，請在 Windows PowerShell 提示中輸入下列命令，然後按 ENTER：
   
-```
+```PowerShell
 notepad.exe $profile
 ```
 
  [記事本] 出現時，在設定檔中已有的命令底部新增下列行：
   
-```
+```PowerShell
 Import-Module SkypeOnlineConnector
 ```
 

@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: 在 Windows PowerShell 中使用 CsOnlineUser Cmdlet，以取得貴組織商務用 Skype Online 使用者的相關資訊。
-ms.openlocfilehash: 02f3aa50f2256cd0d58f4c53cfa607c011bfa565
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 143f7934564caf4e2c00b5b4a40bc6f2e597950d
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "37642862"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40990988"
 ---
 # <a name="manage-user-accounts-using-the-online-connector"></a>使用線上連接器管理使用者帳戶
 
@@ -47,19 +47,19 @@ ms.locfileid: "37642862"
 
 若要傳回已針對商務用 Skype Online 啟用的所有使用者的相關資訊，請呼叫[CsOnlineUser](https://go.microsoft.com/fwlink/p/?linkid=849603) Cmdlet （不含任何其他參數）。
 
-```
+```PowerShell
 Get-CsOnlineUser
 ```
 
 若要針對單一、隨機選取的使用者傳回信息（例如，將此帳戶用於測試目的），請呼叫**CsOnlineUser** Cmdlet，並將_ResultSize_參數設定為1。
 
-```
+```PowerShell
 Get-CsOnlineUser -ResultSize 1
 ```
 
 這會讓**CsOnlineUser** Cmdlet 只傳回一位使用者的資訊，不論貴組織有多少使用者。 若要傳回五個使用者的資訊，請將_ResultSize_參數的值設定為5。
 
-```
+```PowerShell
 Get-CsOnlineUser -ResultSize 5
 ```
 
@@ -68,19 +68,19 @@ Get-CsOnlineUser -ResultSize 5
 
 在呼叫[CsOnlineUser](https://go.microsoft.com/fwlink/p/?linkid=849603) Cmdlet 時，有多種方式可以參考特定的使用者帳戶。 您可以使用使用者的 Active Directory 網域服務（AD DS）顯示名稱。
 
-```
+```PowerShell
 Get-CsOnlineUser -Identity "Ken Myer"
 ```
 
 您可以使用使用者的 SIP 位址。
 
-```
+```PowerShell
 Get-CsOnlineUser -Identity "sip:kenmyer@litwareinc.com"
 ```
 
 您可以使用使用者的使用者主要名稱（UPN）。
 
-```
+```PowerShell
 Get-CsOnlineUser -Identity "kenmyer@litwareinc.com"
 ```
 
@@ -89,19 +89,19 @@ Get-CsOnlineUser -Identity "kenmyer@litwareinc.com"
 
 根據預設， [CsOnlineUser](https://technet.microsoft.com/library/2bfafd70-a7d9-4308-a353-5ecf44249b53.aspx) Cmdlet 會針對每個商務用 Skype Online 使用者帳戶傳回大量的資訊。 如果您只對該資訊的子集感興趣，請將傳回的資料管道傳送給**Select 物件**Cmdlet。 例如，這個命令會傳回使用者 Ken Myer 的所有資料，然後使用**Select 物件**Cmdlet 來限制在螢幕上顯示的資訊，以便將顯示的資訊限制在與 KEN 的 AD DS 顯示名稱和撥號計畫。
 
-```
+```PowerShell
 Get-CsOnlineUser -Identity "Ken Myer" | Select-Object DisplayName, DialPlan
 ```
 
 下列命令會傳回所有使用者的顯示名稱和撥號計畫。
 
-```
+```PowerShell
 Get-CsOnlineUser | Select-Object DisplayName, DialPlan
 ```
 
 若要尋找商務用 Skype Online 使用者帳戶的屬性，請使用下列命令。
 
-```
+```PowerShell
 Get-CsOnlineUser | Get-Member
 ```
 
@@ -110,7 +110,7 @@ Get-CsOnlineUser | Get-Member
 
 透過使用[CsOnlineUser](https://go.microsoft.com/fwlink/p/?linkid=849603) Cmdlet 和_LdapFilter_或_Filter_參數，您可以輕鬆地傳回一組目標使用者的相關資訊。 例如，這個命令會傳回在財務部門中工作的所有使用者。
 
-```
+```PowerShell
 Get-CsOnlineUser -LdapFilter "department=Finance"
 ```
 

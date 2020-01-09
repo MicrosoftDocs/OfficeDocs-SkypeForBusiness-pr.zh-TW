@@ -10,93 +10,93 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4252b5a5-4267-4513-b18e-0253a8d66f72
-description: '摘要: 針對商務用 Skype Server 設定使用者的電話撥入式會議 PIN。'
-ms.openlocfilehash: d52c52e65fbfe706f243f420d6397319e4d00a32
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 摘要：針對商務用 Skype Server 設定使用者的電話撥入式會議 PIN。
+ms.openlocfilehash: 83d1aae54d6e8be4f31b5bd27b6a568d6d88db1e
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36193012"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992280"
 ---
 # <a name="set-a-users-dial-in-conferencing-pin-in-skype-for-business-server"></a>在商務用 Skype Server 中設定使用者的電話撥入式會議 PIN
  
-**摘要:** 針對商務用 Skype Server 設定使用者的電話撥入式會議 PIN。
+**摘要：** 針對商務用 Skype Server 設定使用者的電話撥入式會議 PIN。
   
-若要將電話撥入式會議加入為經過驗證的使用者, 擁有 Active Directory 網域服務 (AD DS) 認證的商務用 Skype 伺服器使用者需要個人識別碼 (PIN)。 如果使用者忘記電話撥入式會議 PIN, 或尚未使用商務用 Skype Server 設定 PIN, 您可以從商務用 Skype Server 的 [控制台] 設定使用者的 PIN。 您可以自動產生 PIN 或手動建立。
+若要將電話撥入式會議加入為經過驗證的使用者，擁有 Active Directory 網域服務（AD DS）認證的商務用 Skype 伺服器使用者需要個人識別碼（PIN）。 如果使用者忘記電話撥入式會議 PIN，或尚未使用商務用 Skype Server 設定 PIN，您可以從商務用 Skype Server 的 [控制台] 設定使用者的 PIN。 您可以自動產生 PIN 或手動建立。
   
 > [!NOTE]
-> PIN 的特定特性 (例如其最小長度) 可以設定為原則。 除了全域原則之外, 您還可以為個別的網站或使用者設定 PIN 原則。 
+> PIN 的特定特性（例如其最小長度）可以設定為原則。 除了全域原則之外，您還可以為個別的網站或使用者設定 PIN 原則。 
   
 ### <a name="to-set-a-users-pin"></a>若要設定使用者的 PIN
 
 1. 從指派給 CsUserAdministrator 角色或 CsAdministrator 角色的使用者帳戶登入內部部署中的任何電腦。
     
-2. 開啟瀏覽器視窗, 然後輸入系統管理員 URL, 開啟商務用 Skype Server 的 [控制台]。  
+2. 開啟瀏覽器視窗，然後輸入系統管理員 URL，開啟商務用 Skype Server 的 [控制台]。  
     
-3. 在左側導覽列中, 按一下 [**使用者**]。
+3. 在左側導覽列中，按一下 [**使用者**]。
     
-4. 使用下列其中一種方法來尋找使用者:
+4. 使用下列其中一種方法來尋找使用者：
     
-   - 在 [**搜尋使用者**] 方塊中, 輸入使用者帳戶的顯示名稱、名字、姓氏、安全帳戶管理員 (SAM) 帳戶名稱、SIP 位址或行統一資源識別項 (URI) 的全部或第一個部分, 然後按一下 [**尋找**]。
+   - 在 [**搜尋使用者**] 方塊中，輸入使用者帳戶的顯示名稱、名字、姓氏、安全帳戶管理員（SAM）帳戶名稱、SIP 位址或行統一資源識別項（URI）的全部或第一個部分，然後按一下 [**尋找**]。
     
-   - 如果您有已儲存的查詢, 請按一下 [**開啟查詢**] 圖示, 使用 [**開啟**舊檔] 對話方塊來檢索查詢 (usf 檔案), 然後按一下 [**尋找**]。
+   - 如果您有已儲存的查詢，請按一下 [**開啟查詢**] 圖示，使用 [**開啟**舊檔] 對話方塊來檢索查詢（usf 檔案），然後按一下 [**尋找**]。
     
-5. 可選指定額外的搜尋準則以縮小結果範圍:
+5. 可選指定額外的搜尋準則以縮小結果範圍：
     
    是. 按一下 [**新增篩選**]。
     
-   乙. 輸入使用者屬性或按一下下拉式清單中的箭號, 以選取該屬性。
+   乙. 輸入使用者屬性或按一下下拉式清單中的箭號，以選取該屬性。
     
-   c-clip. 在 [**等於**] 下拉式清單中, 按一下運算子 (例如 [**等於**] 或 [**不等於**])。
+   c-clip. 在 [**等於**] 下拉式清單中，按一下運算子（例如 [**等於**] 或 [**不等於**]）。
     
-   希望. 根據您所選取的使用者屬性, 輸入您想要用來篩選搜尋結果的準則, 只要輸入, 或按一下下拉式清單中的箭號即可。
+   希望. 根據您所選取的使用者屬性，輸入您想要用來篩選搜尋結果的準則，只要輸入，或按一下下拉式清單中的箭號即可。
     
     > [!TIP]
-    > 若要新增其他搜尋子句至您的查詢, 請按一下 [**新增篩選**]。 
+    > 若要新增其他搜尋子句至您的查詢，請按一下 [**新增篩選**]。 
   
    e. 按一下 [**尋找**]。
     
     > [!NOTE]
-    > 如果 PIN 已鎖定, 您必須先解除鎖定 PIN, 才能進行設定。 若要解除鎖定 PIN, 請按一下使用者, 按一下 [**動作**], 然後按一下 [**解除鎖定 pin**]。 
+    > 如果 PIN 已鎖定，您必須先解除鎖定 PIN，才能進行設定。 若要解除鎖定 PIN，請按一下使用者，按一下 [**動作**]，然後按一下 [**解除鎖定 pin**]。 
   
-6. 在搜尋結果中按一下使用者, 按一下 [**動作**], 然後按一下 [**設定 PIN**]。
+6. 在搜尋結果中按一下使用者，按一下 [**動作**]，然後按一下 [**設定 PIN**]。
     
-7. 在 [**設定 PIN** ] 對話方塊中, 執行下列其中一項操作:
+7. 在 [**設定 PIN** ] 對話方塊中，執行下列其中一項操作：
     
-   - 若要允許商務用 Skype Server 產生使用者的 PIN, 請選取 [**自動產生有效的 PIN** (預設值)]。
+   - 若要允許商務用 Skype Server 產生使用者的 PIN，請選取 [**自動產生有效的 PIN** （預設值）]。
     
-   - 若要建立您自己的 PIN, 請按一下 [**手動輸入特定 PIN**], 按一下文字方塊, 然後輸入符合 pin 原則設定中所指定 pin 需求的 pin。
+   - 若要建立您自己的 PIN，請按一下 [**手動輸入特定 PIN**]，按一下文字方塊，然後輸入符合 pin 原則設定中所指定 pin 需求的 pin。
     
 8. 按一下 [確定]****。
     
-9. 在 [**設定 PIN**] 中, 執行下列其中一項操作: 
+9. 在 [**設定 PIN**] 中，執行下列其中一項操作： 
     
-   - 選取 [**顯示 pin** ] 核取方塊以查看 pin, 然後複製 pin, 並使用貴組織的慣用方法將它與使用者進行通訊。
+   - 選取 [**顯示 pin** ] 核取方塊以查看 pin，然後複製 pin，並使用貴組織的慣用方法將它與使用者進行通訊。
     
-   - 按一下 [**開啟我的電子郵件應用程式], 將新的 PIN 傳送給使用者**, 即可透過電子郵件傳送 pin。 如果 Microsoft Office Outlook 是您的電子郵件用戶端, 則 PIN 會自動複製到新的電子郵件訊息中。 如果您使用不同的電子郵件用戶端, 請選取 [**顯示 pin** ] 核取方塊以查看 pin, 然後將它複製到您的電子郵件訊息中。
+   - 按一下 [**開啟我的電子郵件應用程式]，將新的 PIN 傳送給使用者**，即可透過電子郵件傳送 pin。 如果 Microsoft Office Outlook 是您的電子郵件用戶端，則 PIN 會自動複製到新的電子郵件訊息中。 如果您使用不同的電子郵件用戶端，請選取 [**顯示 pin** ] 核取方塊以查看 pin，然後將它複製到您的電子郵件訊息中。
     
 10. 按一下 [**關閉**]。
     
 ## <a name="assigning-a-user-pin-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 指派使用者 PIN
 
-您也可以使用 CsClientPin Cmdlet 來指派 PIN 碼。 您可以從商務用 Skype Server Management 命令介面或從 Windows PowerShell 遠端會話執行此 Cmdlet。 如需使用遠端 Windows PowerShell 連線至商務用 Skype Server 的詳細資料, 請參閱博客文章[: 「快速入門: 使用遠端 PowerShell 管理 Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)」。 在商務用 Skype 伺服器中, 程式是一樣的。 
+您也可以使用 CsClientPin Cmdlet 來指派 PIN 碼。 您可以從商務用 Skype Server Management 命令介面或從 Windows PowerShell 遠端會話執行此 Cmdlet。 如需使用遠端 Windows PowerShell 連線至商務用 Skype Server 的詳細資料，請參閱博客文章[：「快速入門：使用遠端 PowerShell 管理 Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)」。 在商務用 Skype 伺服器中，程式是一樣的。 
   
 ### <a name="to-auto-assign-a-pin-number-to-a-user"></a>自動將 PIN 號碼指派給使用者
 
-下列命令會將 PIN 碼指派給使用者 Ken Myer。 因為未包含 Pin 參數, 商務用 Skype 伺服器將自動產生並指派 PIN 碼。
+下列命令會將 PIN 碼指派給使用者 Ken Myer。 因為未包含 Pin 參數，商務用 Skype 伺服器將自動產生並指派 PIN 碼。
     
-  ```
+  ```PowerShell
   Set-CsClientPin -Identity "Ken Myer" 
   ```
 
 ### <a name="to-assign-a-specific-pin-number-to-a-user"></a>將特定的 PIN 碼指派給使用者
 
-這個命令會使用釘選參數, 將 PIN 碼121989指派給使用者 Ken Myer。
+這個命令會使用釘選參數，將 PIN 碼121989指派給使用者 Ken Myer。
     
-  ```
+  ```PowerShell
   Set-CsClientPin -Identity "Ken Myer" -Pin 121989
   ```
 
-如需詳細資訊, 請參閱[CsClientPin](https://docs.microsoft.com/powershell/module/skype/set-csclientpin?view=skype-ps) Cmdlet 的說明主題。
+如需詳細資訊，請參閱[CsClientPin](https://docs.microsoft.com/powershell/module/skype/set-csclientpin?view=skype-ps) Cmdlet 的說明主題。
   
 

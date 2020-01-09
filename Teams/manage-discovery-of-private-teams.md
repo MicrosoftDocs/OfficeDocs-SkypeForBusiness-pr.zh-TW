@@ -15,12 +15,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何透過團隊專案庫和搜尋結果中的建議，控制 Microsoft 團隊使用者是否可探索私人團隊。
-ms.openlocfilehash: b60c06299f779ebe798db1ff3df465f1683508ed
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: e2e0ec956b40ff5e84bb29874c0dc567edefd034
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571997"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992008"
 ---
 # <a name="manage-discovery-of-private-teams-in-microsoft-teams"></a>在 Microsoft 團隊中管理私人小組探索
 
@@ -65,7 +65,7 @@ ms.locfileid: "37571997"
 ### <a name="using-powershell"></a>使用 PowerShell
 
 使用 [**[設定團隊](https://docs.microsoft.com/powershell/module/teams/set-team?view=teams-ps)** Cmdlet] 來關閉或開啟現有私人小組的探索設定。 以下是如何讓團隊易於搜尋的範例：
-```
+```PowerShell
     Set-Team -GroupId 0abc123d-e4f5-67gh-i890-jk1m2n345o6p -ShowInTeamsSearchAndSuggestions $true
 ```
 您可以在腳本中使用這個 Cmdlet 來大量設定現有私人小組的探索設定。
@@ -79,7 +79,7 @@ ms.locfileid: "37571997"
 根據預設，對於組織中的所有使用者， **AllowPrivateTeamDiscovery**都設定為**true** 。
 
 在這個範例中，我們會建立名為 VendorPolicy 的原則，防止使用者發現任何已可探索的私人團隊，然後我們會將原則指派給名為 vendoruser1 的使用者。
-```
+```PowerShell
      New-CsTeamsChannelsPolicy -Identity VendorPolicy -AllowPrivateTeamDiscovery $false
      Grant-CsTeamsChannelsPolicy -Identity vendoruser1@company.com -PolicyName VendorPolicy
 ```

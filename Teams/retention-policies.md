@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6779e9b0fa236b1c239f9e6aa56d97e9437fb422
-ms.sourcegitcommit: 0f6321d51b40f06855679c18f7313febfedd419a
+ms.openlocfilehash: 73d8de57b7b47ced8217e0f7aca384f4b55b0468
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "38793519"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40988978"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Microsoft 團隊中的保留原則
 
@@ -39,7 +39,6 @@ ms.locfileid: "38793519"
 團隊保留原則尚不支援：
 
 - [高級保留原則] 不適用於小組聊天與團隊頻道訊息位置
-- 持續天數少於30天
 
 系統管理員可以為小組私人聊天設定個別保留原則（1:1 或1：許多聊天）與團隊頻道訊息。 在許多情況下，組織會考慮使用私人聊天資料，而不是頻道訊息，通常是更多與專案相關的交談。 在安全性 & 合規性中心（**資訊管理** > **保留**）中設定這些原則。 開啟**團隊頻道訊息**與**團隊聊天**，然後定義這些位置的保留原則（也會顯示在下圖中）。 
 
