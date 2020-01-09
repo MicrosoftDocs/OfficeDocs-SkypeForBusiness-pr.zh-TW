@@ -10,12 +10,12 @@ ms:contentKeyID: 48184392
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 410fd1fe521bd8d4750b290a54db26adb630a8be
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6172c526816a3572d6c364b714d5d4e7e5323cac
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40978473"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991368"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,11 +53,11 @@ _**主題上次修改日期：** 2014-05-29_
 
 若要將內部部署使用者移至 Lync Online 租使用者，請在 Lync Server Management Shell 中使用 Microsoft Office 365 租使用者的系統管理員認證來執行下列 Cmdlet。 將 [username@contoso.com] 取代為您想要移動的使用者資訊。
 
-   ```
+   ```PowerShell
     $creds=Get-Credential
    ```
 
-   ```
+   ```PowerShell
     Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -Credential $creds -HostedMigrationOverrideUrl <URL>
    ```
 

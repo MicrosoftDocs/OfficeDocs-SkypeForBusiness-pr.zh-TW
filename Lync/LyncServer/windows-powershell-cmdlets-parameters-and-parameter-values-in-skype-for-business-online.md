@@ -10,12 +10,12 @@ ms:contentKeyID: 56558799
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ce954eff790bae6974f144360637d6061318d3d3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d9e9582941b05a4151be5baa2ce74acfc79b3db3
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40977646"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992570"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -128,7 +128,7 @@ pldok. **記錄**
     
     這個方法很有用，不只是因為參數必須以破折號開頭，也可能是因為這與命令視窗不同，其中的引數是使用正斜線（/）開頭的：
     
-    ``` 
+    ```console 
     /b
     ```
 

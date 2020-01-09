@@ -10,12 +10,12 @@ ms:contentKeyID: 48184930
 ms.date: 12/09/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5a93fabf10355dcc4ba7873921c0aaf35475927c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: bf5eadb591b7e198ee75ff197b3836673ae0ecc3
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40976705"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992380"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -123,11 +123,11 @@ Lync Server Storage Service 使用 Windows Fabric 進行複製。 如果資料�
 
 若要解決此問題，請在變更部署的 IP 位址設定後重新開機 Lync Server services。 若要這樣做，請在 Lync Server 管理命令介面中執行下列 Cmdlet：
 
-   ```
+   ```PowerShell
     Stop-CsWindowsService -graceful
    ```
 
-   ```
+   ```PowerShell
     Start-CsWindowsService
    ```
 
@@ -449,11 +449,11 @@ Windows Fabric 安裝失敗，因為使用 HH： MM： SS 的時間格式建立�
 
 1.  啟動 Windows PowerShell 並執行下列 Cmdlet：
     
-       ```
+       ```PowerShell
         New-PSDrive -Name HKU -PSProvider Registry -Root HKEY_USERS
        ```
     
-       ```
+       ```PowerShell
         $a="HKU:\.Default\Control Panel\International"
        ```
 

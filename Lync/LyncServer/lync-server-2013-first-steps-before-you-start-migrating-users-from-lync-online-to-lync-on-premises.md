@@ -10,12 +10,12 @@ ms:contentKeyID: 62258123
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3e278fcb1e63c1db1334e625765d65d5d556e934
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ac0377c12cbda0d6080ecfe9b8e64fae08cbed59
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40975938"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40989128"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,19 +45,19 @@ _**主題上次修改日期：** 2014-05-08_
     
     安裝模組之後，您可以在 Lync Server 管理命令介面中輸入下列 Cmdlet 來建立遠端會話：
     
-       ```
+       ```PowerShell
         Import-Module LyncOnlineConnector
        ```  
     
-       ```
+       ```PowerShell
         $cred = Get-Credential
        ``` 
     
-       ```
+       ```PowerShell
         $CSSession = New-CsOnlineSession -Credential $cred
        ```
     
-       ```
+       ```PowerShell
         Import-PSSession $CSSession -AllowClobber
        ```
     
