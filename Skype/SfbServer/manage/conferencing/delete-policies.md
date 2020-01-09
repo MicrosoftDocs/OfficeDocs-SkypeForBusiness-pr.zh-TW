@@ -9,46 +9,46 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 497e6ca0-7a49-4f3e-9804-14414cf87b57
-description: '摘要: 瞭解如何在商務用 Skype Server 中刪除會議原則。'
-ms.openlocfilehash: 2d02fa580acbc11c1b41643ab25cecba618ed09a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 摘要：瞭解如何在商務用 Skype Server 中刪除會議原則。
+ms.openlocfilehash: 7cf195e53ec159a8999561c0ddb8461ee1bf0ba6
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36192579"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991868"
 ---
-# <a name="delete-conferencing-policies-in-skype-for-business-server"></a><span data-ttu-id="9b6f3-103">在商務用 Skype Server 中刪除會議原則</span><span class="sxs-lookup"><span data-stu-id="9b6f3-103">Delete conferencing policies in Skype for Business Server</span></span>
+# <a name="delete-conferencing-policies-in-skype-for-business-server"></a><span data-ttu-id="25d4f-103">在商務用 Skype Server 中刪除會議原則</span><span class="sxs-lookup"><span data-stu-id="25d4f-103">Delete conferencing policies in Skype for Business Server</span></span>
  
-<span data-ttu-id="9b6f3-104">**摘要:** 瞭解如何在商務用 Skype Server 中刪除會議原則。</span><span class="sxs-lookup"><span data-stu-id="9b6f3-104">**Summary:** Learn how to delete conferencing policies in Skype for Business Server.</span></span>
+<span data-ttu-id="25d4f-104">**摘要：** 瞭解如何在商務用 Skype Server 中刪除會議原則。</span><span class="sxs-lookup"><span data-stu-id="25d4f-104">**Summary:** Learn how to delete conferencing policies in Skype for Business Server.</span></span>
   
-<span data-ttu-id="9b6f3-105">您可以使用商務用 Skype Server 的 [控制台] 或使用商務用 Skype Server Management Shell 來刪除會議原則。</span><span class="sxs-lookup"><span data-stu-id="9b6f3-105">You can delete conferencing policies by using Skype for Business Server Control Panel or by using Skype for Business Server Management Shell.</span></span>
+<span data-ttu-id="25d4f-105">您可以使用商務用 Skype Server 的 [控制台] 或使用商務用 Skype Server Management Shell 來刪除會議原則。</span><span class="sxs-lookup"><span data-stu-id="25d4f-105">You can delete conferencing policies by using Skype for Business Server Control Panel or by using Skype for Business Server Management Shell.</span></span>
   
-## <a name="delete-conferencing-policies-by-using-skype-for-business-server-control-panel"></a><span data-ttu-id="9b6f3-106">使用商務用 Skype Server [控制台] 刪除會議原則</span><span class="sxs-lookup"><span data-stu-id="9b6f3-106">Delete conferencing policies by using Skype for Business Server Control Panel</span></span>
+## <a name="delete-conferencing-policies-by-using-skype-for-business-server-control-panel"></a><span data-ttu-id="25d4f-106">使用商務用 Skype Server [控制台] 刪除會議原則</span><span class="sxs-lookup"><span data-stu-id="25d4f-106">Delete conferencing policies by using Skype for Business Server Control Panel</span></span>
 
-1. <span data-ttu-id="9b6f3-107">從指派給 CsUserAdministrator 角色或 CsAdministrator 角色的使用者帳戶登入內部部署中的任何電腦。</span><span class="sxs-lookup"><span data-stu-id="9b6f3-107">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1. <span data-ttu-id="25d4f-107">從指派給 CsUserAdministrator 角色或 CsAdministrator 角色的使用者帳戶登入內部部署中的任何電腦。</span><span class="sxs-lookup"><span data-stu-id="25d4f-107">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
     
-2.  <span data-ttu-id="9b6f3-108">開啟商務用 Skype Server 的 [控制台]。</span><span class="sxs-lookup"><span data-stu-id="9b6f3-108">Open Skype for Business Server Control Panel.</span></span>
+2.  <span data-ttu-id="25d4f-108">開啟商務用 Skype Server 的 [控制台]。</span><span class="sxs-lookup"><span data-stu-id="25d4f-108">Open Skype for Business Server Control Panel.</span></span>
     
-3. <span data-ttu-id="9b6f3-109">在左側導覽列中, 按一下 [**會議**], 然後按一下 [**會議原則**]。</span><span class="sxs-lookup"><span data-stu-id="9b6f3-109">In the left navigation bar, click **Conferencing**, and then click **Conferencing Policy**.</span></span>
+3. <span data-ttu-id="25d4f-109">在左側導覽列中，按一下 [**會議**]，然後按一下 [**會議原則**]。</span><span class="sxs-lookup"><span data-stu-id="25d4f-109">In the left navigation bar, click **Conferencing**, and then click **Conferencing Policy**.</span></span>
     
-4. <span data-ttu-id="9b6f3-110">在會議原則清單中, 按一下您要刪除的網站或使用者原則, 按一下 [**編輯**], 然後按一下 [**刪除**]。</span><span class="sxs-lookup"><span data-stu-id="9b6f3-110">In the list of conferencing policies, click the site or user policy that you want to delete, click **Edit**, and then click **Delete**.</span></span>
+4. <span data-ttu-id="25d4f-110">在會議原則清單中，按一下您要刪除的網站或使用者原則，按一下 [**編輯**]，然後按一下 [**刪除**]。</span><span class="sxs-lookup"><span data-stu-id="25d4f-110">In the list of conferencing policies, click the site or user policy that you want to delete, click **Edit**, and then click **Delete**.</span></span>
     
-## <a name="delete-conferencing-policies-by-using-skype-for-business-server-management-shell"></a><span data-ttu-id="9b6f3-111">使用商務用 Skype Server Management 命令介面刪除會議原則</span><span class="sxs-lookup"><span data-stu-id="9b6f3-111">Delete conferencing policies by using Skype for Business Server Management Shell</span></span>
+## <a name="delete-conferencing-policies-by-using-skype-for-business-server-management-shell"></a><span data-ttu-id="25d4f-111">使用商務用 Skype Server Management 命令介面刪除會議原則</span><span class="sxs-lookup"><span data-stu-id="25d4f-111">Delete conferencing policies by using Skype for Business Server Management Shell</span></span>
 
-<span data-ttu-id="9b6f3-112">若要刪除會議原則, 請使用**CsConferencingPolicy** Cmdlet。</span><span class="sxs-lookup"><span data-stu-id="9b6f3-112">To delete conferencing policies, use the **Remove-CsConferencingPolicy** cmdlet.</span></span>
+<span data-ttu-id="25d4f-112">若要刪除會議原則，請使用**CsConferencingPolicy** Cmdlet。</span><span class="sxs-lookup"><span data-stu-id="25d4f-112">To delete conferencing policies, use the **Remove-CsConferencingPolicy** cmdlet.</span></span>
   
-<span data-ttu-id="9b6f3-113">下列命令會移除含身分識別 RedmondConferencingPolicy 的會議原則:</span><span class="sxs-lookup"><span data-stu-id="9b6f3-113">The following command removes the conferencing policy with the Identity RedmondConferencingPolicy:</span></span>
+<span data-ttu-id="25d4f-113">下列命令會移除含身分識別 RedmondConferencingPolicy 的會議原則：</span><span class="sxs-lookup"><span data-stu-id="25d4f-113">The following command removes the conferencing policy with the Identity RedmondConferencingPolicy:</span></span>
   
-```
+```PowerShell
 Remove-CsConferencingPolicy -Identity "RedmondConferencingPolicy"
 ```
 
-<span data-ttu-id="9b6f3-114">[下一步] 命令會刪除任何允許外部使用者錄製會議的會議原則:</span><span class="sxs-lookup"><span data-stu-id="9b6f3-114">The next command deletes any conferencing policies that allow external users to record the conference:</span></span>
+<span data-ttu-id="25d4f-114">[下一步] 命令會刪除任何允許外部使用者錄製會議的會議原則：</span><span class="sxs-lookup"><span data-stu-id="25d4f-114">The next command deletes any conferencing policies that allow external users to record the conference:</span></span>
   
-```
+```PowerShell
 Get-CsConferencingPolicy | Where-Object {$_.AllowExternalUsersToRecordMeetings -eq $True} | Remove-CsConferencingPolicy
 ```
 
-<span data-ttu-id="9b6f3-115">如需詳細資訊 (包括完整語法及參數清單), 請參閱[移除-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/remove-csconferencingpolicy?view=skype-ps)。</span><span class="sxs-lookup"><span data-stu-id="9b6f3-115">For more information, including complete syntax and a list of parameters, see [Remove-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/remove-csconferencingpolicy?view=skype-ps).</span></span>
+<span data-ttu-id="25d4f-115">如需詳細資訊（包括完整語法及參數清單），請參閱[移除-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/remove-csconferencingpolicy?view=skype-ps)。</span><span class="sxs-lookup"><span data-stu-id="25d4f-115">For more information, including complete syntax and a list of parameters, see [Remove-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/remove-csconferencingpolicy?view=skype-ps).</span></span>
   
 
