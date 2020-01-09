@@ -265,8 +265,8 @@
 ### [設定組織的用戶端原則](../set-up-policies-in-your-organization/set-up-client-policies-for-your-organization.md)
 
 ## [最佳化您的網路](../optimizing-your-network/optimizing-your-network.md)
-### [使用 ExpressRoute 的通話流程](../optimizing-your-network/call-flow-using-expressroute.md) (英文)
-### [商務用 Skype Online 中的 ExpressRoute 與 QoS](../optimizing-your-network/expressroute-and-qos-in-skype-for-business-online.md) (英文)
+### [使用 ExpressRoute 的通話流程](../optimizing-your-network/call-flow-using-expressroute.md)
+### [商務用 Skype Online 中的 ExpressRoute 與 QoS](../optimizing-your-network/expressroute-and-qos-in-skype-for-business-online.md)
 ### [媒體品質和網路連線效能](../optimizing-your-network/media-quality-and-network-connectivity-performance.md)
 ### [商務用 Skype Online 的 Proxy 伺服器](/microsoftteams/proxy-servers-for-skype-for-business-online?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [使用網路測試小幫手](/microsoftteams/use-network-testing-companion?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
