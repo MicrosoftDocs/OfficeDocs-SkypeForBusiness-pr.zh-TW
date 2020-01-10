@@ -1,5 +1,5 @@
 ---
-title: 移除-CcCertificationAuthorityFile
+title: Remove-CcCertificationAuthorityFile
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3600af8d-04de-4b9a-88ac-2491ca06494d
-description: CcCertificationAuthorityFile Cmdlet 會在 [商務用 Skype 雲端連接器版本] 的 [網站共用目錄] 下, 移除 [CA] 資料夾中的 [憑證授權單位服務] 備份檔案。
-ms.openlocfilehash: 3251c3f608b52d217e7db04d7b5081ff73c0b487
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: CcCertificationAuthorityFile Cmdlet 會在 [商務用 Skype 雲端連接器版本] 的 [網站共用目錄] 下，移除 [CA] 資料夾中的 [憑證授權單位服務] 備份檔案。
+ms.openlocfilehash: d7036633eaf092130fc6e4acaebda39d04ff17df
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190690"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003293"
 ---
-# <a name="remove-cccertificationauthorityfile"></a>移除-CcCertificationAuthorityFile
+# <a name="remove-cccertificationauthorityfile"></a>Remove-CcCertificationAuthorityFile
  
-CcCertificationAuthorityFile Cmdlet 會在商務用 Skype 雲端連接器的 [網站共用&lt;目錄&gt;] 下, 移除 [CA] 資料夾中的 [SiteRootDirectory \CA\SfB CCE Root. p12]相比. 
+CcCertificationAuthorityFile Cmdlet 會在 [商務用 Skype 雲端連接器版本]&lt;的 [&gt;網站共用目錄] 下，移除 CA 資料夾中的 [SiteRootDirectory \CA\SfB CCE Root. p12]。 
   
-```
+```powershell
 Remove-CcCertificationAuthorityFile
 ```
 
@@ -35,9 +35,9 @@ Remove-CcCertificationAuthorityFile
 
 ### <a name="example-1"></a>範例 1
 
-下列範例會移除 [&lt;SITEROOTDIRECTORY&gt;\CA\SfB CCE 根目錄. p12] 在 [網站共用目錄] 下的 [CA] 資料夾中的 [憑證授權單位服務] 備份檔案:
+下列範例會移除 [&lt;SITEROOTDIRECTORY&gt;\CA\SfB CCE 根目錄. p12] 在 [網站共用目錄] 下的 [CA] 資料夾中的 [憑證授權單位服務] 備份檔案：
   
-```
+```powershell
 Remove-CcCertificationAuthorityFile
 ```
 
@@ -54,6 +54,6 @@ Remove-CcCertificationAuthorityFile
 ## <a name="see-also"></a>另請參閱
 <a name="ReturnTypes"> </a>
 
-[備份-CcCertificationAuthority](backup-cccertificationauthority.md)
+[Backup-CcCertificationAuthority](backup-cccertificationauthority.md)
   
 

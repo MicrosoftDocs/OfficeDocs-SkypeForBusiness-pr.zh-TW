@@ -1,5 +1,5 @@
 ---
-title: CcApplianceDirectory
+title: Get-CcApplianceDirectory
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -11,20 +11,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c2fda202-db2f-4122-b630-7df11a697c5f
 description: CcApplianceDirectory Cmdlet 會檢索商務用 Skype 雲端連接器 Edition 主機伺服器上的工作目錄。 所有部署檔案都儲存在這個目錄中。
-ms.openlocfilehash: ada1b587b738d882f81557e61438d6642aa03fff
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 77064676062411c3417e554e422b0ffaae461191
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190798"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003403"
 ---
-# <a name="get-ccappliancedirectory"></a>CcApplianceDirectory
+# <a name="get-ccappliancedirectory"></a>Get-CcApplianceDirectory
  
 CcApplianceDirectory Cmdlet 會檢索商務用 Skype 雲端連接器 Edition 主機伺服器上的工作目錄。 所有部署檔案都儲存在這個目錄中。 
   
-此 Cmdlet 適用于商務用 Skype 雲端連接器 Edition 1.4.1, 1.4.2。
+此 Cmdlet 適用于商務用 Skype 雲端連接器 Edition 1.4.1，1.4.2。
   
-```
+```powershell
 Get-CcApplianceDirectory
 ```
 
@@ -37,9 +37,9 @@ Get-CcApplianceDirectory
 
 ### <a name="example-1"></a>範例 1
 
-下列範例顯示了儲存雲端連接器元件配置和虛擬機器檔案的目前資料夾:
+下列範例顯示了儲存雲端連接器元件配置和虛擬機器檔案的目前資料夾：
   
-```
+```powershell
 Get-CcApplianceDirectory
 ```
 
@@ -48,7 +48,7 @@ Get-CcApplianceDirectory
 
 CcApplianceDirectory Cmdlet 顯示所有配置和虛擬機器檔案、記錄及外部憑證儲存在雲端連接器裝置上的位置。
   
-每個雲端連接器裝置都有四個元件: 中繼伺服器、集中式管理商店、邊緣伺服器以及網網域控制站。 預設資料夾為 C:\Users\%userprofile%\CloudConnector\ApplianceRoot。 您可以使用 CCApplianceDirectory Cmdlet 變更此資料夾。
+每個雲端連接器裝置都有四個元件：中繼伺服器、集中式管理商店、邊緣伺服器以及網網域控制站。 預設資料夾為 C:\Users\%userprofile%\CloudConnector\ApplianceRoot。 您可以使用 CCApplianceDirectory Cmdlet 變更此資料夾。
   
 ## <a name="input-types"></a>輸入類型
 <a name="InputTypes"> </a>

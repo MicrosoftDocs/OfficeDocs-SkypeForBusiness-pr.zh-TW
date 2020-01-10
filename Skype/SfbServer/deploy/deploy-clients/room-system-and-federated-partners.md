@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1cc20323-ecba-4e87-a861-e54193e64cf0
 description: 請閱讀本主題，瞭解如何針對商務用 Skype 同盟合作夥伴設定 Skype 會議室系統。
-ms.openlocfilehash: 7bf67a910b2c0d73cf3e068e9524500804ca87f4
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 8ded7ba9be24cf1ac700be0ead1c7e0c3637becd
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775272"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002993"
 ---
 # <a name="skype-room-system-and-skype-for-business-federated-partners"></a>Skype 房間系統和商務用 Skype 聯盟合作夥伴
  
@@ -27,7 +27,7 @@ Skype 會議室系統依賴行事曆會議邀請中的 [加入商務用 Skype �
   
 這個限制的原因是 Outlook 和 Microsoft Exchange 不使用特殊的方法封裝資訊，以便在網際網路上傳送郵件。 此方法稱為 [傳輸中性封裝格式（TNEF）]，預設為從 Exchange 組織外部傳送的郵件停用。 若要在遠端 Skype 聊天室系統上顯示會議加入連結，傳送組織必須使用下列命令來啟用 TNEF：
   
-```
+```powershell
 New-RemoteDomain -DomainName Contoso.com -Name Contoso
 Set-RemoteDomain -Identity Contoso -TNEFEnabled $true
 ```

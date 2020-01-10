@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
 description: 摘要：在商務用 Skype 中部署商務用 Skype Web App 和 Skype 會議應用程式。
-ms.openlocfilehash: 273ffca9ae91973fe9e3953efc914364de382ed4
-ms.sourcegitcommit: 8a20cb7bd1d23e2cf2987f55039748bad60f501b
+ms.openlocfilehash: eb939ddf394ff62b9173939622a8ef3f20faaca9
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/12/2019
-ms.locfileid: "36972874"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003523"
 ---
 # <a name="deploy-web-downloadable-clients-in-skype-for-business-server"></a>在商務用 Skype Server 中部署網頁下載用戶端
 
@@ -52,19 +52,19 @@ ms.locfileid: "36972874"
 
 3. 從 Windows PowerShell 命令列介面，執行下列命令：
 
-    ```
+    ```powershell
     add-pssnapin Microsoft.Adfs.powershell
     ```
 
 4. 執行下列命令以建立合作關係：
 
-    ```
+    ```powershell
     Add-ADFSRelyingPartyTrust -Name ContosoApp -MetadataURL https://lyncpool.contoso.com/passiveauth/federationmetadata/2007-06/federationmetadata.xml
     ```
 
 5. 設定下列信賴方規則：
 
-    ```
+    ```powershell
    $IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "http://schemas.contoso.com/authorization/claims/permit", Value = "true");'$IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "http://schemas.contoso.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
    Set-ADFSRelyingPartyTrust -TargetName ContosoApp -IssuanceAuthorizationRules $IssuanceAuthorizationRules -IssuanceTransformRules $IssuanceTransformRules
    Set-CsWebServiceConfiguration -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
@@ -108,9 +108,9 @@ Windows 7 和 Windows Server 2008 R2 中的 BranchCache 功能可能會干擾商
 
 2. 若要存取 [登錄編輯程式]，請輸入**regedit**。
 
-3. 流覽至 HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\Installer。
+3. 流覽至 HKEY_LOCAL_MACHINE \Software\Policies\Microsoft\Windows\Installer。
 
-4. 編輯或新增類型 REG_DWORD 的 DisableMSI 登錄機碼，並將它設為0。
+4. 編輯或新增 REG_DWORD 類型的 DisableMSI 登錄機碼，並將其設定為0。
 
 5. 重新加入會議。
 
@@ -123,13 +123,13 @@ Windows 7 和 Windows Server 2008 R2 中的 BranchCache 功能可能會干擾商
 
 1. 當您啟用內容傳遞網路（CDN）的存取權時，使用者將能夠連線至 CDN 線上並取得 Skype 會議應用程式（在 Windows 上）和商務用 Skype for Mac （Mac），並將使用簡化的會議加入體驗。
 
-   ```
+   ```powershell
    Set-CsWebServiceConfiguration -MeetingUxUseCdn $True
    ```
 
 2. [允許用戶端從會議加入網頁] 或 [Skype 會議] App 傳送至 Microsoft server （預設為 false）。
 
-   ```
+   ```powershell
    Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True
    ```
 
@@ -137,7 +137,7 @@ Windows 7 和 Windows Server 2008 R2 中的 BranchCache 功能可能會干擾商
 
 3. 如果沒有提供 CDN，請先設定超時，然後再回到本機託管的商務用 Skype Web App 體驗。 預設值是6秒。 如果此值設定為0，就不會有超時。
 
-   ```
+   ```powershell
    Set-CsWebServiceConfiguration -JoinLauncherCdnTimeout (New-TimeSpan -Seconds 10)
    ```
 

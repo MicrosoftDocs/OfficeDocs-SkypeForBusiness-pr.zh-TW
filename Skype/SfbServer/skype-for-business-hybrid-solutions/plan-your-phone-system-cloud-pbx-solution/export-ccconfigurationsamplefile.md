@@ -10,21 +10,21 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0aaacc05-3430-4579-acbf-d7c7670c3864
-description: Export-CcConfigurationSampleFile Cmdlet 會將商務用 Skype 雲端連接器版本範例設定檔 (.ini) 匯出到雲端連接器裝置的裝置目錄。 您可以修改並重新命名檔案, 以用於您的部署。
-ms.openlocfilehash: 440253bc6b9c4e980a6f7ac4aae0c82ebad05660
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: Export-CcConfigurationSampleFile Cmdlet 會將商務用 Skype 雲端連接器版本範例設定檔（.ini）匯出到雲端連接器裝置的裝置目錄。 您可以修改並重新命名檔案，以用於您的部署。
+ms.openlocfilehash: b62d5d7ffa9e8f10aeae509201c5aa0a1e7fa0a4
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190801"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003423"
 ---
 # <a name="export-ccconfigurationsamplefile"></a>Export-CcConfigurationSampleFile
  
-Export-CcConfigurationSampleFile Cmdlet 會將商務用 Skype 雲端連接器版本範例設定檔 (.ini) 匯出到雲端連接器裝置的裝置目錄。 您可以修改並重新命名檔案, 以用於您的部署。
+Export-CcConfigurationSampleFile Cmdlet 會將商務用 Skype 雲端連接器版本範例設定檔（.ini）匯出到雲端連接器裝置的裝置目錄。 您可以修改並重新命名檔案，以用於您的部署。
   
-此 Cmdlet 適用于商務用 Skype 雲端連接器 Edition 1.4.1, 1.4.2。
+此 Cmdlet 適用于商務用 Skype 雲端連接器 Edition 1.4.1，1.4.2。
   
-```
+```powershell
 Export-CcConfigurationSampleFile
 ```
 
@@ -37,18 +37,18 @@ Export-CcConfigurationSampleFile
 
 ### <a name="example-1"></a>範例 1
 
-下列範例會從 Microsoft 網站下載範例設定檔, 並將它寫入雲端連接器裝置的裝置目錄:
+下列範例會從 Microsoft 網站下載範例設定檔，並將它寫入雲端連接器裝置的裝置目錄：
   
-```
+```powershell
 Export-CcConfigurationSampleFile
 ```
 
 ## <a name="detailed-description"></a>詳細描述
 <a name="DetailedDescription"> </a>
 
-目前的雲端連接器版本需要您在 .ini 檔案中提供數個參數;例如, 參數 (例如雲端連接器元件的虛擬機器 IP 位址、元件名稱、閘道參數等)。
+目前的雲端連接器版本需要您在 .ini 檔案中提供數個參數;例如，參數（例如雲端連接器元件的虛擬機器 IP 位址、元件名稱、閘道參數等）。
   
-這個 Cmdlet 是在雲端連接器的主機電腦上執行時, 從 Microsoft 網站下載含配置範例的示範 .ini 檔案。 這個 Cmdlet 會將檔案寫入雲端連接器裝置的裝置目錄中。 裝置目錄是使用 CcApplianceDirectory Cmdlet 來指定。
+這個 Cmdlet 是在雲端連接器的主機電腦上執行時，從 Microsoft 網站下載含配置範例的示範 .ini 檔案。 這個 Cmdlet 會將檔案寫入雲端連接器裝置的裝置目錄中。 裝置目錄是使用 CcApplianceDirectory Cmdlet 來指定。
   
 ## <a name="input-types"></a>輸入類型
 <a name="InputTypes"> </a>

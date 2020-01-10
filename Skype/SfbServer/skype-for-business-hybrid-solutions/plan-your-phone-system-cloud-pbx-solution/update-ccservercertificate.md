@@ -1,5 +1,5 @@
 ---
-title: 更新-CcServerCertificate
+title: Update-CcServerCertificate
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cd2889c4-0eb1-4752-9274-93a5a68a8080
-description: 當商務用 Skype 雲端連接器版本接近到期或已到期時, 更新-CcServerCertificate Cmdlet 會重新計算憑證。
-ms.openlocfilehash: 34da35e607f8941da9c962386509f8a0b87ec122
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 當商務用 Skype 雲端連接器版本接近到期或已到期時，更新-CcServerCertificate Cmdlet 會重新計算憑證。
+ms.openlocfilehash: 920770b4ce77e893a7195d1326ea13ac73e0cc70
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190573"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003113"
 ---
-# <a name="update-ccservercertificate"></a>更新-CcServerCertificate
+# <a name="update-ccservercertificate"></a>Update-CcServerCertificate
  
-當商務用 Skype 雲端連接器版本接近到期或已到期時, 更新-CcServerCertificate Cmdlet 會重新計算憑證。 
+當商務用 Skype 雲端連接器版本接近到期或已到期時，更新-CcServerCertificate Cmdlet 會重新計算憑證。 
   
-```
+```powershell
 Update-CcServerCertificate [[-Roles] <array> {Cms | MS | Edge}]
 ```
 
@@ -31,31 +31,31 @@ Update-CcServerCertificate [[-Roles] <array> {Cms | MS | Edge}]
 
 ### <a name="example-1"></a>範例 1
 
-下列範例會在憑證接近到期或已到期時, 續約中央管理商店、中繼伺服器和 Edge 伺服器的憑證:
+下列範例會在憑證接近到期或已到期時，續約中央管理商店、中繼伺服器和 Edge 伺服器的憑證：
   
-```
+```powershell
 Update-CcServerCertificate
 ```
 
 ### <a name="example-2"></a>範例 2
 
-下個範例會在伺服器和 Edge 伺服器接近到期或過期時, 續約的憑證:
+下個範例會在伺服器和 Edge 伺服器接近到期或過期時，續約的憑證：
   
-```
+```powershell
 Update-CcServerCertificate-Roles @("MS", "Edge")
 ```
 
 ## <a name="detailed-description"></a>詳細描述
 <a name="DetailedDescription"> </a>
 
-向中央管理商店、中繼伺服器和 Edge 伺服器頒發的雲端連接器內部憑證, 在來自憑證授權單位服務的兩年後有效。 如果證書接近到期或已過期, 請執行 CcServerCertificate Cmdlet 來更新證書。 
+向中央管理商店、中繼伺服器和 Edge 伺服器頒發的雲端連接器內部憑證，在來自憑證授權單位服務的兩年後有效。 如果證書接近到期或已過期，請執行 CcServerCertificate Cmdlet 來更新證書。 
   
 這個命令會取代雲端連接器2.0 和更新版本中的 CcServerCertificate Cmdlet。
   
 ## <a name="parameters"></a>參數
 <a name="DetailedDescription"> </a>
 
-|**參數**|**必要**|**類型**|**說明**|
+|**參數**|**必要**|**類型**|**描述**|
 |:-----|:-----|:-----|:-----|
 |角色  <br/> |選用  <br/> |System.object  <br/> | 雲端連接器伺服器角色的陣列。 <br/> |
    
@@ -74,7 +74,7 @@ Update-CcServerCertificate-Roles @("MS", "Edge")
 
 [Reset-CcCACertificate](reset-cccacertificate.md)
   
-[更新-CcServerCertificate](renew-ccservercertificate.md)
+[Renew-CcServerCertificate](renew-ccservercertificate.md)
   
 [Export-CcRootCertificate](export-ccrootcertificate.md)
   

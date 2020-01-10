@@ -1,5 +1,5 @@
 ---
-title: 發佈-CcAppliance
+title: Publish-CcAppliance
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e7d5b63e-ba7c-4757-8670-f96b2a91e646
-description: CcAppliance Cmdlet 會從線上租使用者配置取得高可用性資訊, 並將它發佈到主機伺服器上的商務用 Skype 雲端連接器 Edition 裝置。
-ms.openlocfilehash: 2fd17e2afdceabc8fbfb44a808b7e6c9ce6bd894
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: CcAppliance Cmdlet 會從線上租使用者配置取得高可用性資訊，並將它發佈到主機伺服器上的商務用 Skype 雲端連接器 Edition 裝置。
+ms.openlocfilehash: da9135f669cb5b8cbe127295b20d82fd1632a3d3
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190705"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003083"
 ---
-# <a name="publish-ccappliance"></a>發佈-CcAppliance
+# <a name="publish-ccappliance"></a>Publish-CcAppliance
  
-CcAppliance Cmdlet 會從線上租使用者配置取得高可用性資訊, 並將它發佈到主機伺服器上的商務用 Skype 雲端連接器 Edition 裝置。 
+CcAppliance Cmdlet 會從線上租使用者配置取得高可用性資訊，並將它發佈到主機伺服器上的商務用 Skype 雲端連接器 Edition 裝置。 
   
-```
+```powershell
 Publish-CcAppliance
 ```
 
@@ -35,9 +35,9 @@ Publish-CcAppliance
 
 ### <a name="example-1"></a>範例 1
 
-下列範例會從線上租使用者配置中取得高可用性資訊, 並將它發佈到主機伺服器上的雲端連接器裝置:
+下列範例會從線上租使用者配置中取得高可用性資訊，並將它發佈到主機伺服器上的雲端連接器裝置：
   
-```
+```powershell
 Publish-CcAppliance
 ```
 
@@ -59,12 +59,12 @@ Publish-CcAppliance
 ## <a name="see-also"></a>另請參閱
 <a name="ReturnTypes"> </a>
 
-[安裝-CcAppliance](install-ccappliance.md)
+[Install-CcAppliance](install-ccappliance.md)
   
-[卸載-CcAppliance](uninstall-ccappliance.md)
+[Uninstall-CcAppliance](uninstall-ccappliance.md)
   
 [Register-CcAppliance](register-ccappliance.md)
   
-[取消註冊-CcAppliance](unregister-ccappliance.md)
+[Unregister-CcAppliance](unregister-ccappliance.md)
   
 

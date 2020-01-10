@@ -1,5 +1,5 @@
 ---
-title: CcCredential
+title: Get-CcCredential
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -11,20 +11,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b2b5aefb-a08d-4bec-9204-76597d413849
 description: CcCredential Cmdlet 會傳回目前商務用 Skype 雲端連接器版本部署的認證。
-ms.openlocfilehash: 87dd3934767a4be7afb57889fd0641e8507fba13
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 46c51783361ad6613d1e2971600969b324f0f350
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190786"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003383"
 ---
-# <a name="get-cccredential"></a>CcCredential
+# <a name="get-cccredential"></a>Get-CcCredential
  
 CcCredential Cmdlet 會傳回目前商務用 Skype 雲端連接器版本部署的認證。 
   
-在版本2.0 及更新版本中, 您也可以使用-DisplayPassword 參數來顯示 TenantAdmin、DomainAdmin 和 VMAdmin 的密碼。
+在版本2.0 及更新版本中，您也可以使用-DisplayPassword 參數來顯示 TenantAdmin、DomainAdmin 和 VMAdmin 的密碼。
   
-```
+```powershell
 Get-CcCredential [[-AccountType] <string> {VmAdmin | DomainAdmin | SafeModeAdmin | ExternalCert | TenantAdmin}]
 ```
 
@@ -33,22 +33,22 @@ Get-CcCredential [[-AccountType] <string> {VmAdmin | DomainAdmin | SafeModeAdmin
 
 ### <a name="example-1"></a>範例 1
 
-下列範例會傳回雲端連接器虛擬機器網域之網域管理員的認證:
+下列範例會傳回雲端連接器虛擬機器網域之網域管理員的認證：
   
-```
+```powershell
 Get-CcCredential -AccountType DomainAdmin
 ```
 
 ## <a name="detailed-description"></a>詳細描述
 <a name="DetailedDescription"> </a>
 
-CcCredential Cmdlet 會傳回指定帳戶類型的認證資訊。 這些認證是由執行 CcAppliance 及安裝 CcAppliance Cmdlet 的管理員指定, 在部署目前的裝置時。 
+CcCredential Cmdlet 會傳回指定帳戶類型的認證資訊。 這些認證是由執行 CcAppliance 及安裝 CcAppliance Cmdlet 的管理員指定，在部署目前的裝置時。 
   
 CcCredential Cmdlet 會傳回系統. Management. PSCredential 物件的實例。 傳回物件的 password 屬性是 SecureString。
   
-如果您想要取得網域管理員密碼的明文, 請確定密碼是由主機伺服器上的目前登入帳戶所輸入, 然後以系統管理員身分開啟 PowerShell 主機, 然後執行下列腳本:
+如果您想要取得網域管理員密碼的明文，請確定密碼是由主機伺服器上的目前登入帳戶所輸入，然後以系統管理員身分開啟 PowerShell 主機，然後執行下列腳本：
   
-```
+```powershell
 $cred = Get-CcCredential -AccountType DomainAdmin
 $password =  $cred.Password
 $bstr = [System.Runtime.InteropServices.Marshal]::SecureStringToBSTR($password);
@@ -60,9 +60,9 @@ Write-Host $text
 ## <a name="parameters"></a>參數
 <a name="DetailedDescription"> </a>
 
-|**參數**|**必要**|**類型**|**說明**|
+|**參數**|**必要**|**類型**|**描述**|
 |:-----|:-----|:-----|:-----|
-| AccountType <br/> |必要  <br/> | System.String <br/> | AccountType 值可以是下列其中一項: <br/>  VmAdmin: 雲端連接器虛擬機器的本機系統管理員。 <br/>  DomainAdmin: 雲端連接器虛擬機器網域的網域系統管理員。 <br/>  SafeModeAdmin: SafeModeAdmin 雲端連接器虛擬電腦網網域控制站。 <br/>  ExternalCert: 在 Edge 伺服器上安裝外部憑證的帳戶。 <br/>  TenantAdmin: O365 租使用者的系統管理員。 <br/> |
+| AccountType <br/> |必要  <br/> | System.String <br/> | AccountType 值可以是下列其中一項： <br/>  VmAdmin：雲端連接器虛擬機器的本機系統管理員。 <br/>  DomainAdmin：雲端連接器虛擬機器網域的網域系統管理員。 <br/>  SafeModeAdmin： SafeModeAdmin 雲端連接器虛擬電腦網網域控制站。 <br/>  ExternalCert：在 Edge 伺服器上安裝外部憑證的帳戶。 <br/>  TenantAdmin： O365 租使用者的系統管理員。 <br/> |
    
 ## <a name="input-types"></a>輸入類型
 <a name="InputTypes"> </a>

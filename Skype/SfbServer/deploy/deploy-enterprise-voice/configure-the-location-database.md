@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
 description: 在商務用 Skype Server Enterprise Voice 中，設定、填入及發佈 E9-1-1 位置資料庫。
-ms.openlocfilehash: 5aad449d8d286fb4bd71373be33baea9cbb2c8f3
-ms.sourcegitcommit: 5e6eb8286bd5eb318a901e42235e91a58946c3a9
+ms.openlocfilehash: 1e972e78af1a83e68c2d28d0f636128b7c339cf2
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38038702"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001303"
 ---
 # <a name="configure-the-location-database-in-skype-for-business-server"></a>在商務用 Skype Server 中設定位置資料庫
  
@@ -48,7 +48,7 @@ ms.locfileid: "38038702"
 |**Network 元素**|**必要欄**|
 |:-----|:-----|
 |**無線存取點** <br/> |\<BSSID\>、\<描述\>、\<位置\>、\<公司\>名稱\<、\>HouseNumber\<、\>HouseNumberSuffix\<、\>PreDirectional,.。。  <br/> ...\<StreetName\>、\<StreetSuffix\>、\<PostDirectional\>、\<City\>、\<State\>、\<郵遞區號\>、\<國家/地區\>  <br/> |
-|**端子** <br/> |\<子\>網\<、\>描述\<、\>位置\<、\>公司\<名稱\>、\<HouseNumber\>、\<HouseNumberSuffix\>、PreDirectional,.。。  <br/> ...\<StreetName\>、\<StreetSuffix\>、\<PostDirectional\>、\<City\>、\<State\>、\<郵遞區號\>、\<國家/地區\>  <br/> |
+|**子網路** <br/> |\<子\>網\<、\>描述\<、\>位置\<、\>公司\<名稱\>、\<HouseNumber\>、\<HouseNumberSuffix\>、PreDirectional,.。。  <br/> ...\<StreetName\>、\<StreetSuffix\>、\<PostDirectional\>、\<City\>、\<State\>、\<郵遞區號\>、\<國家/地區\>  <br/> |
 |**通道** <br/> |\<ChassisID\>、\<PortIDSubType\>、\<PortID\>、\<描述\>、\<位置\>、\<公司\>名稱\<、\>HouseNumber\<、\>HouseNumberSuffix,.。。  <br/> ...\<PreDirectional\>、\<StreetName\>、\<StreetSuffix\>、\<PostDirectional\>、\<城市\>、\<州\>、\<郵遞區號\>、\<國家/地區\>  <br/> |
 |**Switch** <br/> |\<ChassisID\>、\<描述\>、\<位置\>、\<公司\>名稱\<、\>HouseNumber\<、\>HouseNumberSuffix\<、\>PreDirectional,.。。  <br/> ...\<StreetName\>、\<StreetSuffix\>、\<PostDirectional\>、\<City\>、\<State\>、\<郵遞區號\>、\<國家/地區\>  <br/> |
    
@@ -56,52 +56,52 @@ ms.locfileid: "38038702"
 
 1. 執行下列 Cmdlet，將子網位置新增至位置資料庫。
     
-   ```
+   ```powershell
    Set-CsLisSubnet -Subnet 157.56.66.0 -Description "Subnet 1" -Location Location1 -CompanyName "Litware" -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Redmond -State WA -PostalCode 99123 -Country US
    ```
 
     針對 ELIN 閘道，請將 ELIN 放在 [公司名稱] 欄位中。 您可以包含一個以上的 ELIN。 例如：
     
-   ```
+   ```powershell
    Set-CsLisSubnet -Subnet 157.56.66.0 -Description "Subnet 1" -Location Location1 -CompanyName 425-555-0100; 425-555-0200; 425-555-0300 -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Redmond -State WA -PostalCode 99123 -Country US
    ```
 
     或者，您也可以執行下列 Cmdlet，並使用名為「subnet .csv」的檔案來大量更新子網位置。
     
-   ```
+   ```powershell
    $g = Import-Csv subnets.csv
    $g | Set-CsLisSubnet
    ```
 
 2. 執行下列 Cmdlet，以將無線位置新增至位置資料庫。
     
-   ```
+   ```powershell
    Set-CsLisWirelessAccessPoint -BSSID 0A-23-CD-16-AA-2E -Description "Wireless1" -Location Location2 -CompanyName "Litware" -HouseNumber 2345 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Bellevue -State WA -PostalCode 99234 -Country US
    ```
 
    或者，您可以執行下列 Cmdlet，並使用名為 "waps" 的檔案來大量更新無線位置。
     
-   ```
+   ```powershell
    $g = Import-Csv waps.csv
    $g | Set-CsLisWirelessAccessPoint
    ```
 
 3. 執行下列 Cmdlet，將切換位置新增到位置資料庫。
     
-   ```
+   ```powershell
    Set-CsLisSwitch -ChassisID 0B-23-CD-16-AA-BB -Description "Switch1" -Location Location1 -CompanyName "Litware" -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Redmond -State WA -PostalCode 99123 -Country US
    ```
 
    或者，您也可以執行下列 Cmdlet，並使用一個名為 "users.csv" 的檔案來大量更新切換位置。
     
-   ```
+   ```powershell
    $g = Import-Csv switches.csv
    $g | Set-CsLisSwitch
    ```
 
 4. 執行下列 Cmdlet 以將埠位置新增到位置資料庫
     
-   ```
+   ```powershell
    Set-CsLisPort -ChassisID 0C-23-CD-16-AA-CC -PortID 0A-abcd -Description "Port1" -Location Location2 -CompanyName "Litware" -HouseNumber 2345 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Bellevue -State WA -PostalCode 99234 -Country US
    ```
 
@@ -109,7 +109,7 @@ ms.locfileid: "38038702"
     
    或者，您可以執行下列 Cmdlet，並使用名為「埠 .csv」的檔案來大量更新埠位置。
     
-   ```
+   ```powershell
    $g = Import-Csv ports.csv
    $g | Set-CsLisPort
    ```
@@ -122,14 +122,14 @@ ms.locfileid: "38038702"
     
 2. 執行下列 Cmdlet 來設定緊急服務提供者連線。
     
-   ```
+   ```powershell
    $pwd = Read-Host -AsSecureString <password>
    Set-CsLisServiceProvider -ServiceProviderName Provider1 -ValidationServiceUrl <URL provided by provider> -CertFileName <location of certificate provided by provider> -Password $pwd
    ```
 
 3. 執行下列 Cmdlet 以驗證位置資料庫中的位址。
     
-   ```
+   ```powershell
    Get-CsLisCivicAddress | Test-CsLisCivicAddress -UpdateValidationStatus
    ```
 
@@ -147,7 +147,7 @@ ms.locfileid: "38038702"
     
 - 執行下列 Cmdlet 來發佈位置資料庫。
     
-  ```
+  ```powershell
   Publish-CsLisConfiguration
   ```
 

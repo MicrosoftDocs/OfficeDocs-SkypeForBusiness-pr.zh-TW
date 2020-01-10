@@ -11,43 +11,43 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 56c37b3b-6517-49b9-86b7-ae48cc349119
 description: 在商務用 Skype Server Enterprise Voice 中建立或修改回應群組假日集。
-ms.openlocfilehash: 617966828e39aae1ffbbfe10a7452d9d40117a84
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 9dd9467a40f45d7252e92d9628d8678adbce3184
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240405"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003093"
 ---
 # <a name="optional-define-response-group-holiday-sets-in-skype-for-business"></a>可選在商務用 Skype 中定義回應群組假日集
  
 在商務用 Skype Server Enterprise Voice 中建立或修改回應群組假日集。
   
-[假日設定] 定義回應群組在商務中關閉的天數, 並指定要在這些日期採取的動作。 假日集是套用至回應群組的假日集合。
+[假日設定] 定義回應群組在商務中關閉的天數，並指定要在這些日期採取的動作。 假日集是套用至回應群組的假日集合。
   
 > [!NOTE]
-> 如果工作流程定義為受管理的工作流程, 則會指派任何使用者 CsResponseGroupManager 角色, 即可設定及修改他們所管理之工作流程的假日。 
+> 如果工作流程定義為受管理的工作流程，則會指派任何使用者 CsResponseGroupManager 角色，即可設定及修改他們所管理之工作流程的假日。 
   
 ### <a name="to-create-a-holiday-set"></a>建立假日集
 
-1. 以 RTCUniversalServerAdmins 群組成員的身分登入, 或以支援回應群組的預先定義之系統管理角色的成員的身分登入。
+1. 以 RTCUniversalServerAdmins 群組成員的身分登入，或以支援回應群組的預先定義之系統管理角色的成員的身分登入。
     
-2. 啟動商務用 Skype Server 管理命令介面: 按一下 [**開始**], 按一下 [**所有程式**], 按一下 [**商務用 skype 2015**], 然後按一下 [**商務用 skype Server management Shell**]。
+2. 啟動商務用 Skype Server 管理命令介面：按一下 [**開始**]，按一下 [**所有程式**]，按一下 [**商務用 skype 2015**]，然後按一下 [**商務用 skype Server management Shell**]。
     
-3. 針對您想要定義的每一個假日, 請執行:
+3. 針對您想要定義的每一個假日，請執行：
     
-   ```
+   ```powershell
    $x = New-CsRgsHoliday [-Name <holiday name>] -StartDate <starting date of holiday> -EndDate <ending date of holiday>
    ```
 
-    若要建立包含您定義之假日的假日集, 請執行:
+    若要建立包含您定義之假日的假日集，請執行：
     
-   ```
+   ```powershell
    New-CsRgsHolidaySet -Parent <service where the workflow is hosted> -Name <unique name for holiday set> -HolidayList <one or more holidays to be included in the holiday set>
    ```
 
-    下列範例顯示包含兩個假日的假日集:
+    下列範例顯示包含兩個假日的假日集：
     
-   ```
+   ```powershell
    $a = New-CsRgsHoliday -Name "New Year's Day" -StartDate "1/1/2018 12:00 AM" -EndDate "1/2/2018 12:00 AM" 
    $b = New-CsRgsHoliday -Name "Independence Day" -StartDate "7/4/2018 12:00 AM" -EndDate "7/5/2018 12:00 AM" 
    New-CsRgsHolidaySet -Parent "ApplicationServer:Redmond.contoso.com" -Name "2018 Holidays" -HolidayList ($a, $b)

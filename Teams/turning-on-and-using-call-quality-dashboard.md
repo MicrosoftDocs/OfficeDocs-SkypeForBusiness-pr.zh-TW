@@ -22,12 +22,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: '瞭解如何開啟和使用通話品質儀表板，並取得通話品質的摘要報告。 '
-ms.openlocfilehash: 8d6e97ea5454b8e933424c2e8db595a5af7ac8c8
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: 429904020a63b93fefd1adee7ee89d02a47f1d61
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972484"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41005164"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>開啟並使用 Microsoft 團隊和商務用 Skype Online 的通話品質儀表板
 
@@ -35,11 +35,13 @@ ms.locfileid: "37972484"
   
 通話品質儀表板（CQD）可讓您深入瞭解使用 Microsoft 團隊和商務用 Skype Online 服務所進行的通話品質。 本主題描述開始收集資料的步驟，您可以用來疑難排解通話品質問題。
 
-目前，CQD 版本3和 CQD 版本2都可供使用。 CQD v3 可在<span>https://cqd.teams.microsoft.com</span>。 使用您的 Microsoft 團隊管理員認證登入。
+目前，您可以使用 [高級 CQD] 和 [CQD]。 您可以在<span>https://cqd.teams.microsoft.com</span>使用 [高級 CQD]。 使用您的系統管理員認證的新 URL，但相同的記錄。
 
 ## <a name="latest-changes-and-updates"></a>最新變更與更新
 
-CQD 版本3會提供接近即時的 CQD 儀表板（延遲接近30分鐘），並使用使用者可辨識的資訊（EUII），讓系統管理員能夠放大至使用者層級。 此外，您還可以報告互動支援新的案例，例如：
+
+更新後的 CQD （在2019年11月之前）會提供近即時 CQD 儀表板。 CQD 資料現已于30分鐘內提供（與前一個 CQD，平均為24小時）。  更新的 CQD 會使用使用者可辨識的使用者可識別資訊（EUII），讓系統管理員能夠向下切入並放大使用者層級。 此外，您還可以報告互動支援新的案例，例如：
+
 
 - 依地區通話品質：
   - 依區域日期
@@ -355,7 +357,7 @@ CQD 使用建築物資料檔，這可協助提供有用的通話詳細資料。 
 
 ||||||||||||||||
 |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:---  |:--- |:---|
-|**欄欄位名稱**|NetworkIP  |NetworkName              |NetworkRange|BuildingName  |OwnershipType| BuildingType  |BuildingOfficeType|座   |郵遞區號|國家|市 |國家|InsideCorp&dagger;|ExpressRoute&Dagger;|VPN （選用）|
+|**欄欄位名稱**|NetworkIP  |NetworkName              |NetworkRange|BuildingName  |OwnershipType| BuildingType  |BuildingOfficeType|座   |郵遞區號|國家|市 |地區|InsideCorp&dagger;|ExpressRoute&Dagger;|VPN （選用）|
 |**資料類型**        | String    | String                  |電話      | String       | String      | String        |String            |String |String |String |String|String|Boolean   |Boolean     |Boolean|
 |**範例值**    |192.168.1.0|美國/西雅圖/西雅圖-海-1| 26         | 北京-海-1| 尚未     | 終止|工程學       |西雅圖|98001  |一下     |華盛頓    |MSUS  | 1        |0           | 0|
 |||||||||||||||||
@@ -387,11 +389,11 @@ CQD 會使用端點資料檔案。 欄值會用於通話記錄的第一個用戶
 
   **欄位順序：**
 
-終結點、EndpointModel、EndpointType、EndpointLabel1、EndpointLabel2、EndpointLabel3
+終結點、EndpointMake、EndpointModel、EndpointType、EndpointLabel1、EndpointLabel2、EndpointLabel3
 
   **範例列：**
 
-`1409W3534, Fabrikam Model 123, Laptop, IT designated 2018 Laptop, Asset Tag 5678, Purchase 2018,`  
+' 1409W3534，123製造商，Fabrikam 模型123，膝上型電腦，IT 指派2018膝上型電腦，資產標籤5678，購買2018
 
 ## <a name="create-custom-detailed-reports"></a>建立自訂的詳細報告
 

@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 674c4c43e1fe99639c6e8bfd9665e1bf0755e1ba
-ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
+ms.openlocfilehash: e5cc89afb43149f68dfc068492e1d0163e4b0721
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/17/2019
-ms.locfileid: "40069374"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003313"
 ---
 # <a name="setting-your-coexistence-and-upgrade-settings"></a>設定您的共存與升級設定
 
@@ -39,7 +39,7 @@ ms.locfileid: "40069374"
 
 ![](media/teams-logo-30x30.png) **使用 microsoft [團隊管理中心**] 顯示 Microsoft 團隊標誌的圖示
 
-1. 在左側導覽中，移至 [**組織範圍的設定** > **小組升級**]。 
+1. 在[Microsoft [團隊管理中心](https://admin.teams.microsoft.com/)] 的左導覽中，前往 [**整個組織的設定** > **團隊升級**]。 
 
 2. 在 [**小組升級**] 頁面的頂端，進行下列變更（如果他們會為您工作）。
     - 設定**共存**模式。

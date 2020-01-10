@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Phone System
 description: 瞭解如何在 Microsoft 團隊中設定雲端通話佇列的電話系統。
-ms.openlocfilehash: e55028bb3e77291e6ed69069b09d812907fc35fb
-ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
+ms.openlocfilehash: 95cf9701705950d997e1d200fee117b5f8f9738b
+ms.sourcegitcommit: 2fab6105dfc4c225de8c09ab79d9c2c273a3e4f6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "39211935"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "41005166"
 ---
 # <a name="create-a-cloud-call-queue"></a>建立雲端通話佇列
 
@@ -36,6 +36,7 @@ ms.locfileid: "39211935"
 - 當人員正在等候時，請播放音樂。
 - 在已啟用郵件的通訊群組清單和安全性群組中，將呼叫重新導向至呼叫代理程式。
 - 設定不同的參數，例如佇列大小上限、超時及呼叫處理選項。
+- 呼叫者的共用語音信箱，可為組織留下訊息。
 
 您可以使用[資源帳戶](manage-resource-accounts.md)將電話號碼與通話佇列建立關聯。 通話佇列可以直接撥號，或由自動語音應答上的選取進行存取。
 
@@ -165,9 +166,11 @@ ms.locfileid: "39211935"
 
 ### <a name="select-the-call-answering-options"></a>選取呼叫應答選項
 
-![含編號標注的通話應答選項之螢幕擷取畫面](media/5d249515-d532-4af2-90da-011404028b89.png)
+![通話應答選項的螢幕擷取畫面](media/5d249515-d532-4af2-90da-011404028b89.png) 
 
-![在前一個螢幕擷取畫面中參照標注的數位1圖示](media/sfbcallout1.png)
+若要直接新增個別的代理程式，而不將其新增至群組，請按一下 [**新增使用者**]。 將個別的代理放在您想要他們接聽通話的順序。 您最多可以新增20個獨立的代理程式（若要新增20個以上的專案，請將它們放在群組中）。
+
+呼叫會先路由到個別的 agent，然後路由到群組中的代理程式。 
 
 您最多可以選取200呼叫代理程式，其屬於下列任何一種郵寄清單或群組：
 

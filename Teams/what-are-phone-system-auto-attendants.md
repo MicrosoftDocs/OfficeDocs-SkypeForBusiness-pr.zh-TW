@@ -21,12 +21,12 @@ f1keywords: ms.teamsadmincenter.autoattendants.overview
 ms.custom:
 - Phone System
 description: 瞭解什麼是雲端自動語音應答，以及如何使用它們。
-ms.openlocfilehash: d326b707ff94d9d30e26f6da31f12588b083872e
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: e9d6da8a73333218990611bd287a852683d52f9c
+ms.sourcegitcommit: 2fab6105dfc4c225de8c09ab79d9c2c273a3e4f6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37924884"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "41004768"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>什麼是雲端自動語音應答？
 
@@ -45,6 +45,7 @@ Office 365 中的 [電話系統] 提供自動語音應答，可以用來讓外�
 - 它支援多種語言的提示、文字轉換語音及語音辨識。
 - 它支援指定假日和上班時間。
 - 它支援將來電轉接到操作員、其他使用者、通話佇列和自動語音應答。
+- 它支援呼叫者的共用語音信箱，以離開組織的訊息。
 
 > [!NOTE]
 > 本文適用于 Microsoft 團隊和商務用 Skype Online。
@@ -74,9 +75,9 @@ Office 365 中的 [電話系統] 提供自動語音應答，可以用來讓外�
 
 ### <a name="searching-for-users"></a>搜尋使用者
 
-[依名稱撥號] 是自動語音應答的功能，也稱為目錄搜尋。 它可讓呼叫您自動接聽的人員使用語音（語音辨識）或其電話鍵（DTMF）回應，輸入完整或部分名稱來搜尋公司的目錄、找出該人員，然後將來電轉接給對方。 您想要使用電話撥打電話及接通者的使用者 **，不需要有電話號碼或有指派通話方案，但他們必須具備電話系統授權（如果他們是線上使用者）或企業語音適用于商務用 Skype Server使用者**。 透過名稱撥號，您甚至可以尋找並將來電轉接給在不同國家或地區的多國組織所託管的 Microsoft 團隊使用者。 考慮到所需的先決條件，您可以在自動語音應答中明確啟用 [透過名稱撥號]。
+[依名稱撥號] 是自動語音應答的功能，也稱為目錄搜尋。 它可讓呼叫您自動接聽的人員使用語音（語音辨識）或其電話鍵（DTMF）回應，輸入完整或部分名稱來搜尋公司的目錄、找出該人員，然後將來電轉接給對方。 您想要使用電話撥打電話及接通者的使用者 **，不需要有電話號碼或有指派通話方案，但他們必須具備電話系統授權（如果他們是線上使用者），或是已針對商務用 Skype Server 使用者啟用企業語音功能**。 透過名稱撥號，您甚至可以尋找並將來電轉接給在不同國家或地區的多國組織所託管的 Microsoft 團隊使用者。 考慮到所需的先決條件，您可以在自動語音應答中明確啟用 [透過名稱撥號]。
 
-[透過分機號碼撥號] 是自動語音應答的一項功能，也就是目錄搜尋的一部分。 它可讓呼叫您自動接聽的人員使用語音（語音辨識）或其電話鍵（DTMF）回應，輸入他們要達到的使用者的電話分機，然後再傳送來電給對方。 您想要使用電話撥入及達到的使用者 **，不需要有電話號碼或有指派通話方案，但他們必須具備電話系統授權（如果他們是線上使用者）或企業語音功能（適用于商務用 Skype）伺服器使用者**。 您也必須為使用者設定適當的撥號方案。 透過分機號碼撥號，您甚至可以尋找並將來電轉接給在不同國家或地區的多國組織所託管的 Microsoft 團隊使用者。 根據所涉及的先決條件，您可以明確啟用自動語音應答中的 [透過分機撥號]。
+[透過分機號碼撥號] 是自動語音應答的一項功能，也就是目錄搜尋的一部分。 它可讓呼叫您自動接聽的人員使用語音（語音辨識）或其電話鍵（DTMF）回應，輸入他們要達到的使用者的電話分機，然後再傳送來電給對方。 您想要使用電話撥打電話並接通的使用者**不需要有電話號碼或有指派通話方案，但是他們必須有電話系統授權（如果他們是線上使用者），或是為商務用 Skype Server 使用者啟用企業語音功能**。 您也必須為使用者設定適當的撥號方案。 透過分機號碼撥號，您甚至可以尋找並將來電轉接給在不同國家或地區的多國組織所託管的 Microsoft 團隊使用者。 根據所涉及的先決條件，您可以明確啟用自動語音應答中的 [透過分機撥號]。
 
 #### <a name="maximum-directory-size"></a>目錄大小上限
 
@@ -239,7 +240,7 @@ Key 0 和 voice 命令 "Operator" 預設會將呼叫指派給指定的操作員�
 
 [以下是您在 Office 365 中使用電話系統所取得的結果](here-s-what-you-get-with-phone-system.md)
 
-[取得商務用 Skype 和 Microsoft 團隊的服務電話號碼](/microsoftteams/getting-service-phone-numbers)
+[取得商務用 Skype 和 Microsoft Teams 的服務電話號碼](/microsoftteams/getting-service-phone-numbers)
 
 [音訊會議與通話方案的適用國家/地區](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 

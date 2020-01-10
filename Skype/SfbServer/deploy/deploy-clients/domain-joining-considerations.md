@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3034fdcb-7c89-42c4-9c5e-13400e82d88f
 description: 若要瞭解如何將 Skype 會議室系統裝置電腦加入您的網域，請閱讀本主題。
-ms.openlocfilehash: 1cf95f416fabcdeabb878b204af25e262427ab07
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: b34161f946b2c79508555145635445214159bd61
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36774661"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003513"
 ---
 # <a name="skype-room-system-domain-joining-considerations"></a>Skype 會議室系統網域加入考慮
  
@@ -53,7 +53,7 @@ ms.locfileid: "36774661"
     
 如果您打算將 Skype 會議室系統電腦加入網域，以避免將 Skype 會議室系統電腦不小心加入非預期的 OU （可能無法從 Gpo 中移除），請確認您加入正確的 OU。 您可以使用來自 Skype 聊天室系統電腦的下列 Cmdlet，在正確的 OU 中加入，且不會收到可能會封鎖 LRS 功能的 Gpo。 請與您的系統管理員或 OEM 合作夥伴，以執行這些 Cmdlet：
   
-```
+```powershell
 $username = "contso.local\LRS01"
 $password = ConvertTo-SecureString "password123" -AsPlainText -Force
 $myCred = New-Object System.Management.Automation.PSCredential $username, $password
@@ -66,6 +66,6 @@ Add-Computer -DomainName contoso.local -Credential $mycred -OUPath "OU=LyncRoomS
 
 ## <a name="see-also"></a>另請參閱
   
-[裝置設定：建立新的或編輯現有](../../help-topics/help-lscp/device-configuration-create-new-or-edit-existing.md)
+[裝置組態：建立新的或編輯現有組態](../../help-topics/help-lscp/device-configuration-create-new-or-edit-existing.md)
 
 [管理服務品質](../../plan-your-deployment/network-requirements/network-requirements.md#managing-quality-of-service)

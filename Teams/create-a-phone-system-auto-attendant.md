@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 瞭解如何為 Microsoft 團隊設定及測試雲端自動語音應答。
-ms.openlocfilehash: 2cd468b3a4f151d6ad19d2ad430bb94045fb808f
-ms.sourcegitcommit: 89106cfda0d900d8be541943b7d1537bc69ed57f
+ms.openlocfilehash: 5a018b6c3b193d17bfbabdc5178c095a635e65ea
+ms.sourcegitcommit: 2fab6105dfc4c225de8c09ab79d9c2c273a3e4f6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/16/2019
-ms.locfileid: "40070223"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "41005168"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>設定雲端自動語音應答
 
@@ -162,6 +162,11 @@ ms.locfileid: "40070223"
   > **組織中的人員**可以是線上使用者，或使用商務用 Skype Server 託管內部部署的使用者。
 
   - **語音應用程式**選取已設定的自動語音應答或通話佇列。 您可以依與服務相關聯之資源帳戶的名稱來搜尋自動語音應答或通話佇列。
+  - **語音信箱**選取代表貴組織中需要存取此語音信箱的使用者的 Office 365 群組。 您也可以在這裡開啟語音信箱。 需要 Office 365 群組。
+
+  > [!NOTE]
+> 無法在團隊中存取透過此自動語音應答語音信箱帳戶傳送給使用者的語音訊息。 它們會以電子郵件的方式呈現。
+
 
 <!-- - **Auto attendant** Select the name of an existing auto attendant.
 - **Call queue** Select the name of an auto attendant that has already been created.
@@ -207,7 +212,9 @@ ms.locfileid: "40070223"
 - **運算子**如果已設定操作員，該選項會自動對應到 key 0，但是也可以刪除或重新指派給不同的金鑰。 選取此選項的來電者會傳送至指定的操作員。 如果運算子未設為任何鍵，語音命令 "Operator" 也會停用。 
 - **組織中的人員**可以是線上使用者，或使用商務用 Skype Server 託管內部部署的使用者。 使用者必須具備在 Office 365 中啟用企業語音或指派通話方案的電話系統授權。 在 [**依名稱搜尋**] 欄位中搜尋人員。
 
-  - **語音應用程式**選取已設定的自動語音應答或通話佇列。 您可以依與應用程式相關聯之資源帳戶的名稱來搜尋自動語音應答或通話佇列。
+- **語音應用程式**選取已設定的自動語音應答或通話佇列。 您可以依與應用程式相關聯之資源帳戶的名稱來搜尋自動語音應答或通話佇列。
+
+- **語音信箱**選取代表貴組織中需要存取此語音信箱的使用者的 Office 365 群組。 您也可以在這裡開啟語音信箱。 需要 Office 365 群組。
 
 <!-- - **Auto attendant** Select the name of an existing auto attendant in the **Search by name** field. You will also have to select a resource account associated to the auto attendant. The caller who selects this option is sent to that auto attendant.
 - **Call queue** Select the name of an existing call queue in the **Search by name** field. You will also have to select a resource account associated to the call queue. The caller who selects this option is sent to that call queue, where the call is answered by a call agent.

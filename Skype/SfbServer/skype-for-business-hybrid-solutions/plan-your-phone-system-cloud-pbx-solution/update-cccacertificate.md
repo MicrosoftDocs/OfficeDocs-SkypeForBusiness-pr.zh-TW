@@ -1,5 +1,5 @@
 ---
-title: 更新-CcCACertificate
+title: Update-CcCACertificate
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5b474789-75de-443c-89bd-de89be55a1dd
 description: CcCACertificate Cmdlet 會更新接近到期或已過期的商務用 Skype 雲端連接器版本根 CA 憑證。
-ms.openlocfilehash: e32b910d07aa4f2370af72d0a04bb939b80b3034
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 15be5d4518d7e375b4804ed2d9f22bd35a45ca7e
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190579"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003123"
 ---
-# <a name="update-cccacertificate"></a>更新-CcCACertificate
+# <a name="update-cccacertificate"></a>Update-CcCACertificate
  
 CcCACertificate Cmdlet 會更新接近到期或已過期的商務用 Skype 雲端連接器版本根 CA 憑證。 
   
-```
+```powershell
 Update-CcCACertificate
 ```
 
@@ -35,9 +35,9 @@ Update-CcCACertificate
 
 ### <a name="example-1"></a>範例 1
 
-下列範例會續約根 CA 憑證: 
+下列範例會續約根 CA 憑證： 
   
-```
+```powershell
 Update-CcCACertificate 
 ```
 
@@ -46,11 +46,11 @@ Update-CcCACertificate
 
 雲端連接器根 CA 憑證的有效期是從已安裝憑證授權單位服務的日期起五年後才能生效。
   
-如果根憑證接近到期或已過期, 請執行 CcCACertificate Cmdlet 來更新證書。 更新根憑證之後, AD Server、管理中心儲存區和 Edge 伺服器將會自動頒發新的憑證。
+如果根憑證接近到期或已過期，請執行 CcCACertificate Cmdlet 來更新證書。 更新根憑證之後，AD Server、管理中心儲存區和 Edge 伺服器將會自動頒發新的憑證。
   
-如果同一個 PSTN 網站中有多個裝置, 請在相同 PSTN 網站的所有裝置中執行 CcCACertificate Cmdlet。
+如果同一個 PSTN 網站中有多個裝置，請在相同 PSTN 網站的所有裝置中執行 CcCACertificate Cmdlet。
   
-最後一個步驟是執行 Export CcRootCertificate, 將根憑證匯出到第一個裝置中的本機檔案, 然後將匯出的憑證複製並安裝到 PSTN 閘道。
+最後一個步驟是執行 Export CcRootCertificate，將根憑證匯出到第一個裝置中的本機檔案，然後將匯出的憑證複製並安裝到 PSTN 閘道。
   
 這個命令會取代雲端連接器2.0 和更新版本中的 CcCACertificate Cmdlet。
   
@@ -69,7 +69,7 @@ Update-CcCACertificate
 
 [Reset-CcCACertificate](reset-cccacertificate.md)
   
-[更新-CcServerCertificate](renew-ccservercertificate.md)
+[Renew-CcServerCertificate](renew-ccservercertificate.md)
   
 [Export-CcRootCertificate](export-ccrootcertificate.md)
   

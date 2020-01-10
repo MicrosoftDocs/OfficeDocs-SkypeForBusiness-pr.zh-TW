@@ -14,32 +14,32 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 80201105-18f7-4c02-9c71-8df5a952f6c7
 description: 在商務用 Skype Server Enterprise Voice 中啟用 [通話許可控制]。
-ms.openlocfilehash: a1a2259c754af0275e473e6c0d175039450cecf7
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: e88c0e87f9c920420ce2091ac2d75d04db6ca98f
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240681"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002563"
 ---
 # <a name="enable-call-admission-control-in-skype-for-business-server"></a>在商務用 Skype Server 中啟用呼叫許可控制
  
 在商務用 Skype Server Enterprise Voice 中啟用 [通話許可控制]。 
   
-在您設定 [通話許可控制] 部署的網路設定之後, 您必須啟用 CAC, 才能使您的頻寬原則生效。
+在您設定 [通話許可控制] 部署的網路設定之後，您必須啟用 CAC，才能使您的頻寬原則生效。
   
 ### <a name="to-enable-call-admission-control-by-using-skype-for-business-server-management-shell"></a>使用商務用 Skype Server Management 命令介面啟用呼叫許可控制
 
-1. 啟動商務用 Skype Server 管理命令介面: 按一下 [**開始**], 按一下 [**所有程式**], 按一下 [**商務用 skype 2015**], 然後按一下 [**商務用 skype Server management Shell**]。
+1. 啟動商務用 Skype Server 管理命令介面：按一下 [**開始**]，按一下 [**所有程式**]，按一下 [**商務用 skype 2015**]，然後按一下 [**商務用 skype Server management Shell**]。
     
 2. 執行 CsNetworkConfiguration Cmdlet 以在您的網路中啟用 CAC。 例如，執行：
     
-   ```
+   ```powershell
    Set-CsNetworkConfiguration -EnableBandwidthPolicyCheck 1
    ```
 
-    如果您想要在網路中停用 CAC, 請執行下列動作:
+    如果您想要在網路中停用 CAC，請執行下列動作：
     
-   ```
+   ```powershell
    Set-CsNetworkConfiguration -EnableBandwidthPolicyCheck 0
    ```
 
@@ -47,16 +47,16 @@ ms.locfileid: "36240681"
 
 1. 開啟商務用 Skype Server 的 [控制台]。
     
-2. 在左側導覽列中, 按一下 [**網路**設定]。
+2. 在左側導覽列中，按一下 [**網路**設定]。
     
 3. 按一下 [**全域**導覽] 按鈕。
     
-4. 按一下清單中的 [**全域**], 然後選取 [**編輯**] 功能表上的 [**顯示詳細資料**]。
+4. 按一下清單中的 [**全域**]，然後選取 [**編輯**] 功能表上的 [**顯示詳細資料**]。
     
-5. 在 [**編輯全域設定**] 頁面上, 選取 [**啟用通話許可控制**] 核取方塊。
+5. 在 [**編輯全域設定**] 頁面上，選取 [**啟用通話許可控制**] 核取方塊。
     
     > [!NOTE]
-    > 如果您想要在整個部署中停用 [呼叫許可控制], 請清除此核取方塊。 
+    > 如果您想要在整個部署中停用 [呼叫許可控制]，請清除此核取方塊。 
   
 6. 按一下 [認可]****。 
     

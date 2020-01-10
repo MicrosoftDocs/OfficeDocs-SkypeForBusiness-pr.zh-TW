@@ -1,5 +1,5 @@
 ---
-title: CcSiteDirectory
+title: Get-CcSiteDirectory
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -11,20 +11,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a243758e-6774-4437-ad2e-d5cea5f04eb6
 description: CcSiteDirectory Cmdlet 會顯示網站層級設定檔的目前儲存目錄。 該資料夾包含基本 VHD 和商務用 Skype 雲端連接器版本安裝檔案。 此資料夾應與雲端連接器網站的所有其他裝置共用。
-ms.openlocfilehash: e0b8a793f0210535a726b0bed19f240bf8b30dd9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 095776a680fbbcc8c43a8f99700b357175010b5a
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190774"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003363"
 ---
-# <a name="get-ccsitedirectory"></a>CcSiteDirectory
+# <a name="get-ccsitedirectory"></a>Get-CcSiteDirectory
  
 CcSiteDirectory Cmdlet 會顯示網站層級設定檔的目前儲存目錄。 該資料夾包含基本 VHD 和商務用 Skype 雲端連接器版本安裝檔案。 此資料夾應與雲端連接器網站的所有其他裝置共用。
   
-這個 Cmdlet 適用于雲端連接器 Edition 1.4.1, 1.4.2。
+這個 Cmdlet 適用于雲端連接器 Edition 1.4.1，1.4.2。
   
-```
+```powershell
 Get-CcSiteDirectory
 ```
 
@@ -37,16 +37,16 @@ Get-CcSiteDirectory
 
 ### <a name="example-1"></a>範例 1
 
-下列範例顯示了儲存雲端連接器元件之配置和虛擬機器檔案的目前資料夾:
+下列範例顯示了儲存雲端連接器元件之配置和虛擬機器檔案的目前資料夾：
   
-```
+```powershell
 Get-CcSiteDirectory
 ```
 
 ## <a name="detailed-description"></a>詳細描述
 <a name="DetailedDescription"> </a>
 
-若要提供閘道關聯性與高可用性, 可以將雲端連接器裝置合併在網站中。 使用者已指派給網站, 而不是雲端連接器裝置。 每個網站都有儲存基本 VHD 和雲端連接器安裝檔案的共用資料夾。 裝置會在部署期間使用此資料夾。 預設資料夾為 C:\Users\%userprofile%\CloudConnector\SiteRoot。 您可以使用 CcSiteDirectory Cmdlet 變更路徑。
+若要提供閘道關聯性與高可用性，可以將雲端連接器裝置合併在網站中。 使用者已指派給網站，而不是雲端連接器裝置。 每個網站都有儲存基本 VHD 和雲端連接器安裝檔案的共用資料夾。 裝置會在部署期間使用此資料夾。 預設資料夾為 C:\Users\%userprofile%\CloudConnector\SiteRoot。 您可以使用 CcSiteDirectory Cmdlet 變更路徑。
   
 ## <a name="input-types"></a>輸入類型
 <a name="InputTypes"> </a>

@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eba70d88-13b3-4598-95d5-8a343c9e7d26
 description: 若要瞭解如何在混合式環境中部署 Skype 會議室系統，請閱讀本主題。
-ms.openlocfilehash: 80e7efaf5fe3705e052d40606ea5944527d43a61
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: f6364f7bb96ddf2b25aaaef2a341fce5b71372f5
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36774954"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003493"
 ---
 # <a name="skype-room-system-hybrid-deployments"></a>Skype 室系統混合式部署
 
@@ -29,7 +29,7 @@ ms.locfileid: "36774954"
   
 1. 若要在 Exchange Online 管理命令介面（LyncSample.ccsctp.net）中建立資源信箱，請參閱 Exchange Online 提供中的說明。
     
-   ```
+   ```powershell
    New-Mailbox -room -name "LRS Test 5" -RoomMailboxPassword (ConvertTo-SecureString <password> -AsPlainText -Force) -EnableRoomMailboxAccount $true 
    ```
 
@@ -52,7 +52,7 @@ ms.locfileid: "36774954"
     
 6. 在商務用 Skype 管理命令介面上，執行下列 Cmdlet 來啟用商務用 Skype 的 Skype 會議室系統帳戶：
     
-   ```
+   ```powershell
    Enable-CsMeetingRoom -SipAddress 'sip: lrstest5@LyncSample.com' -RegistrarPool pool1.child.corp.LyncSample.com -Identity lrstest5@LyncSample.com
    Set-CsMeetingRoom -Identity lrstest5@LyncSample.com -EnterpriseVoiceEnabled $true
    ```

@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4dd8be28-5156-411b-8ccd-eff7f75cb897
 description: 若要瞭解如何指派 Skype 會議室系統帳戶的會議原則，請閱讀本主題。
-ms.openlocfilehash: 20115ee2ab361a0bc15bf2053feb3f70bbe6f7ef
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: e235ac84b92f770ae16eec3bd99511e4beea8871
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775366"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003543"
 ---
 # <a name="conferencing-policy-for-skype-room-system-accounts"></a>Skype 會議室系統帳戶的會議原則
  
@@ -46,17 +46,17 @@ ms.locfileid: "36775366"
 |EnableAppDesktopSharing  <br/> |桌面  <br/> |影響 Skype 會議室系統中的 [立即開會] （ad hoc）白板會議  <br/> |
 |AllowConferenceRecording  <br/> |虛假  <br/> |適用于 Skype 室系統的 N/A。 如果為 TRUE，則遠端方可以記錄  <br/> |
 |EnableP2PRecording  <br/> |虛假  <br/> |適用于 Skype 室系統的 N/A。 如果為 TRUE，則遠端方可以記錄  <br/> |
-|EnableFileTransfer  <br/> |滿足  <br/> |N/A  <br/> |
-|EnableP2PFileTransfer  <br/> |滿足  <br/> |N/A  <br/> |
+|EnableFileTransfer  <br/> |滿足  <br/> |不適用  <br/> |
+|EnableP2PFileTransfer  <br/> |滿足  <br/> |不適用  <br/> |
 |EnableP2PVideo  <br/> |滿足  <br/> |讓 Skype 會議室系統用戶端參與對等的視頻會話  <br/> |
-|AllowLargeMeetings  <br/> |虛假  <br/> |N/A  <br/> |
+|AllowLargeMeetings  <br/> |虛假  <br/> |不適用  <br/> |
 |EnableDataCollaboration  <br/> |滿足  <br/> |影響 Skype 會議室系統中的 [立即開會] （ad hoc）白板會議  <br/> |
 |MaxVideoConferenceResolution  <br/> |採用  <br/> |已被商務用 Skype Server 忽略，Skype 室系統會使用 HD1080  <br/> |
 |MaxMeetingSize  <br/> |250  <br/> |影響 Skype 會議室系統中的 [立即開會] （ad hoc）白板會議  <br/> |
 |AudioBitRateKb  <br/> |200  <br/> |請參閱表格結尾的記事\*  <br/> |
 |VideoBitRateKb  <br/> |5000  <br/> |這是所允許的最大輸出視頻位元速率。 Skype 會議室系統可以傳送 1 1080 串流以及 pano （如果使用的是圓桌會議），以此位元速率傳送。 \*  <br/> |
 |AppSharingBitRateKb  <br/> |5000  <br/> |請參閱表格結尾的記事\*  <br/> |
-|FileTransferBitRateKb  <br/> |5000  <br/> |N/A  <br/> |
+|FileTransferBitRateKb  <br/> |5000  <br/> |不適用  <br/> |
 |TotalReceiveVideoBitRateKb  <br/> |20000  <br/> |我們建議您盡可能將此設定為最高。 有效的頻寬取決於會議時的網路狀況。\*  <br/> |
 |EnableMultiViewJoin  <br/> |滿足  <br/> |必須是適用于 Skype 會議室系統的 TRUE，才能確保多個視圖的影片串流  <br/> |
    
@@ -71,7 +71,7 @@ ms.locfileid: "36775366"
   
 下列命令可讓系統管理員對所有會議都要求驗證，包括不受限制的會議： 
   
-```
+```powershell
 Set-CsMeetingConfiguration -RequireRoomSystemsAuthorization $TRUE
 ```
 

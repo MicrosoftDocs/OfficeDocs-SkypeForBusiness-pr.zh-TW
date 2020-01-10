@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 80da9d71-3dcd-4ca4-8bd1-6d8196823206
 description: 若要瞭解如何在單一目錄林內部部署環境中部署 Skype 會議室系統，請閱讀本主題。
-ms.openlocfilehash: 2d73ee2313088c653f4362139cb431e55d92015b
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 091500e1abc1a5e65bb060793aca0d5babe9fb35
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775261"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002943"
 ---
 # <a name="skype-room-system-single-forest-on-premises-deployments"></a>Skype 會議室系統單一林內部部署
  
@@ -31,13 +31,13 @@ ms.locfileid: "36775261"
   
 1. 執行下列 Exchange 管理 PowerShell 命令：
     
-   ```
+   ```powershell
    Set-Mailbox -Name 'LRS-01' -Alias 'LRS01' -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
    ```
 
 2. 如果您打算建立新的信箱，請針對單一的林內部部署 Exchange 組織，執行下列命令：
     
-   ```
+   ```powershell
    New-Mailbox -UserPrincipalName LRS01@contoso.com -Alias LRS01 -Name "LRS-01" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
    ```
 
@@ -45,7 +45,7 @@ ms.locfileid: "36775261"
     
 3. 將帳戶設定為透過接受/拒絕會議來自動解決衝突。 Exchange 中的 Skype 會議室系統隨附的會議室帳戶可由個人管理，但請注意，直到個別人接受會議時，才會顯示在 Skype 會議室系統的主畫面行事曆上。
     
-   ```
+   ```powershell
    Set-CalendarProcessing -Identity LRS01 -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteSubject $false -RemovePrivateProperty $false
    ```
 
@@ -53,11 +53,11 @@ ms.locfileid: "36775261"
     
    若要提醒會議召集人在 Outlook 中讓會議成為線上商務用 Skype 會議，請執行下列命令來設定新帳戶的寄件提醒： 
     
-   ```
+   ```powershell
    Set-Mailbox -Identity LRS01@contoso.com -MailTip "This room is equipped with Lync Meeting Room (LRS), please make it a Lync Meeting to take advantage of the enhanced meeting experience from LRS"
    ```
 4. 使用下列命令來設定當地語系化的字串。 如果您的組織需要，您也可以新增自訂翻譯： 
-   ```
+   ```powershell
    $Temp = Get-Mailbox  LRS01@ contoso.com 
    $Temp.MailTipTranslations += "ES: Spanish translation of the message"
    Set-Mailbox -Identity LRS01@contoso.com -MailTipTranslations $Temp.MailTipTranslations
@@ -65,7 +65,7 @@ ms.locfileid: "36775261"
 
 5. [選用]：設定會議接受文字，為使用者供應商務用 Skype 會議室的相關資訊，以及在排程及加入會議時預期的情況。 
     
-   ```
+   ```powershell
    Set-CalendarProcessing -Identity LRS01 -AddAdditionalResponse $TRUE -AdditionalResponse "This is the Additional Response Text"
    ```
 
@@ -77,7 +77,7 @@ ms.locfileid: "36775261"
   
 1. 在 Active Directory 中，執行下列命令以啟用帳戶登入： 
     
-   ```
+   ```powershell
    Set-ADAccountPassword -Identity LRS01
    ```
 
@@ -85,7 +85,7 @@ ms.locfileid: "36775261"
     
 2. 設定密碼之後，請執行下列命令以啟用帳戶： 
     
-   ```
+   ```powershell
    Enable-ADAccount -Identity LRS01
    ```
 
@@ -100,18 +100,18 @@ ms.locfileid: "36775261"
   
 1. 執行下列命令，在商務用 Skype 伺服器池中啟用 Skype 會議室系統帳戶：
     
-   ```
+   ```powershell
    Enable-CsMeetingRoom -SipAddress "sip:LRS01@contoso.com" -domaincontroller DC-ND-001.contoso.com -RegistrarPool LYNCPool15.contoso.com -Identity LRS01
    ```
 
 2. [選用]：允許此帳戶透過啟用企業語音帳戶來撥打和接聽 PSTN 電話。 Skype 室系統不需要企業版語音，但如果您不啟用企業語音，Skype 聊天室系統用戶端將無法提供 PSTN 撥號功能：
     
-   ```
+   ```powershell
    Set-CsMeetingRoom LRS01 -domaincontroller DC-ND-001.contoso.com -LineURItel: +14255550555;ext=50555"
    Set-CsMeetingRoom -domaincontroller DC-ND-001.contoso.com -Identity LRS01 -EnterpriseVoiceEnabled $true
    ```
 
 > [!NOTE]
-> 如果您為 Skype 會議室系統會議室帳戶啟用企業版語音，請務必設定適合您組織的受限制語音原則。 如果商務用 Skype 會議室是公開提供的資源，任何人都可以使用它來加入會議（無論是排程的或點對點的）。 加入會議之後，該人員就可以撥出任何號碼。 在商務用 Skype Server 中，「從會議撥出」功能會使用使用者的語音原則，在此案例中，用來加入會議的 Skype 房間系統帳戶。 在舊版的 Lync Server 中，會使用召集人的語音原則。 因此，如果舊版 Lync Server 的使用者排程會議室，並邀請 Skype 會議室系統房間帳戶，任何人都可以使用商務用 Skype 會議室加入會議，而且可以撥打電話給任何國家/地區或國際電話[數位]，只要允許召集人撥打這些號碼即可。 
+> 如果您為 Skype 會議室系統會議室帳戶啟用企業版語音，請務必設定適合您組織的受限制語音原則。 如果商務用 Skype 會議室是公開提供的資源，任何人都可以使用它來加入會議（無論是排程的或點對點的）。 加入會議之後，該人員就可以撥出任何號碼。 在商務用 Skype Server 中，「從會議撥出」功能會使用使用者的語音原則，在此案例中，用來加入會議的 Skype 房間系統帳戶。 在舊版的 Lync Server 中，會使用召集人的語音原則。 因此，如果舊版 Lync Server 的使用者排程會議室並邀請 Skype 會議室系統房間帳戶，任何人都可以使用商務用 Skype 會議室加入會議，而且只要召集人撥打這些號碼，就可以撥打任何國家/地區或國際電話號碼。 
   
 

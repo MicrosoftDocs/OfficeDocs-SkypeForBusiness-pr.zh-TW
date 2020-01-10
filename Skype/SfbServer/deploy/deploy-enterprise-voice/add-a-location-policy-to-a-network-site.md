@@ -13,21 +13,21 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 43bfab8a-3d6b-4ca4-8425-879fd910502e
-description: 在商務用 Skype Server Enterprise Voice 中, 為網路網站指派 E9-1-1 位置原則。
-ms.openlocfilehash: 4a74b1ee44d1e2f34a51d7859235e10649d0e2ee
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 在商務用 Skype Server Enterprise Voice 中，為網路網站指派 E9-1-1 位置原則。
+ms.openlocfilehash: 36885fadddddd1fd0bf5ba91a6e0c30e79ef8b90
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234057"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001423"
 ---
 # <a name="add-a-location-policy-to-a-network-site-in-skype-for-business-server"></a>在商務用 Skype Server 中新增位置原則至網路網站
  
-在商務用 Skype Server Enterprise Voice 中, 為網路網站指派 E9-1-1 位置原則。 
+在商務用 Skype Server Enterprise Voice 中，為網路網站指派 E9-1-1 位置原則。 
   
-下列範例示範如何將在 [商務用 Skype 伺服器] 的 [[建立位置原則](create-location-policies.md)] 中定義的**雷蒙德**位置原則新增到現有的網路網站, 以及如何建立使用**雷蒙德**位置原則的新網路網站。
+下列範例示範如何將在 [商務用 Skype 伺服器] 的 [[建立位置原則](create-location-policies.md)] 中定義的**雷蒙德**位置原則新增到現有的網路網站，以及如何建立使用**雷蒙德**位置原則的新網路網站。
   
-如需使用網路網站的詳細資訊, 請參閱適用于下列 Cmdlet 的 Lync Server 管理命令介面檔:
+如需使用網路網站的詳細資訊，請參閱適用于下列 Cmdlet 的 Lync Server 管理命令介面檔：
   
 - **新-CsNetworkSite**
     
@@ -39,25 +39,25 @@ ms.locfileid: "36234057"
     
 ### <a name="to-assign-a-location-policy-to-an-existing-network-site"></a>將位置原則指派給現有的網路網站
 
-1. 啟動商務用 Skype Server 管理命令介面: 按一下 [**開始**], 按一下 [**所有程式**], 按一下 [**商務用 skype 2015**], 然後按一下 [**商務用 skype Server management Shell**]。
+1. 啟動商務用 Skype Server 管理命令介面：按一下 [**開始**]，按一下 [**所有程式**]，按一下 [**商務用 skype 2015**]，然後按一下 [**商務用 skype Server management Shell**]。
     
 2. 執行下列 Cmdlet 來修改現有的網路網站。
     
     將**雷德蒙**標記的位置原則指派給名為 [**雷蒙德**] 的現有網路網站。
     
-   ```
+   ```powershell
    Set-CsNetworkSite -Identity "Redmond" -NetworkRegionID "NorthAmerica" -LocationPolicy "Redmond"
    ```
 
 ### <a name="to-assign-a-location-policy-to-a-new-network-site"></a>將位置原則指派給新的網路網站
 
-1. 啟動商務用 Skype Server 管理命令介面: 按一下 [**開始**], 按一下 [**所有程式**], 按一下 [**商務用 skype 2015**], 然後按一下 [**商務用 skype Server management Shell**]。
+1. 啟動商務用 Skype Server 管理命令介面：按一下 [**開始**]，按一下 [**所有程式**]，按一下 [**商務用 skype 2015**]，然後按一下 [**商務用 skype Server management Shell**]。
     
 2. 執行下列 Cmdlet 以建立新的網路網站。
     
-    在網路區域中建立新的網路網站, 並指派**雷德蒙**標記的位置原則。
+    在網路區域中建立新的網路網站，並指派**雷德蒙**標記的位置原則。
     
-   ```
+   ```powershell
    New-CsNetworkSite -Identity "Redmond" -NetworkRegionID "NorthAmerica" -LocationPolicy "Redmond"
    ```
 

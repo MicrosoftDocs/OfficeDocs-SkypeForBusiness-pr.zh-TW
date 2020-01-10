@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
 description: 在 Exchange 內部部署與商務用 Skype Online 之間設定 OAuth 驗證，可啟用功能支援中所述的商務用 Skype 與 Exchange 整合功能。
-ms.openlocfilehash: 1d64f8fe7b2d6dcf276ae34e74c84faf5c93f65a
-ms.sourcegitcommit: 2b4fcf2561134b9f1b9a1b49401d97da1286e89d
+ms.openlocfilehash: 35dc8777ddf5c7102e99d726f916f9b8f8bb4aae
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37979776"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002893"
 ---
 # <a name="configure-integration-and-oauth-between-skype-for-business-online-and-exchange-server"></a>在商務用 Skype Online 與 Exchange Server 之間設定整合與 OAuth 
 
@@ -49,23 +49,23 @@ ms.locfileid: "37979776"
 
 為您的 Exchange 組織指定驗證的網域。 這個網域應該是用來做為內部部署 Exchange 帳戶的主要 SMTP 網域的同一個網域。 在下列程式中， \<這個網域稱為\>您的驗證網域。 此外， \<DomainControllerFQDN\>應該是網網域控制站的 FQDN。
 
-``` Powershell
+```powershell
 $user = New-MailUser -Name SfBOnline-ApplicationAccount -ExternalEmailAddress SfBOnline-ApplicationAccount@<your Verified Domain> -DomainController <DomainControllerFQDN>
 ```
 
 這個命令會將新的郵件使用者從地址清單中隱藏。
 
-``` Powershell
+```powershell
 Set-MailUser -Identity $user.Identity -HiddenFromAddressListsEnabled $True -DomainController <DomainControllerFQDN>
 ```
 
 接下來的兩個命令會將 [UserApplication] 和 [ArchiveApplication] 管理角色指派給這個新的帳戶。
 
-``` Powershell
+```powershell
 New-ManagementRoleAssignment -Role UserApplication -User $user.Identity -DomainController <DomainControllerFQDN>
 ```
 
-``` Powershell
+```powershell
 New-ManagementRoleAssignment -Role ArchiveApplication -User $user.Identity -DomainController <DomainControllerFQDN>
 ```
 
@@ -73,7 +73,7 @@ New-ManagementRoleAssignment -Role ArchiveApplication -User $user.Identity -Doma
 
 建立新的合作夥伴應用程式，並將使用您剛建立的帳戶。 在您的內部部署 Exchange 組織中的 Exchange PowerShell 中執行下列命令。
 
-``` Powershell
+```powershell
 New-PartnerApplication -Name SfBOnline -ApplicationIdentifier 00000004-0000-0ff1-ce00-000000000000 -Enabled $True -LinkedAccount $user.Identity
 ```
 
@@ -83,7 +83,7 @@ New-PartnerApplication -Name SfBOnline -ApplicationIdentifier 00000004-0000-0ff1
 
 將下列文字儲存到一個名為的 PowerShell 腳本檔案中，例如 ExportAuthCert. ps1。
 
-``` Powershell
+```powershell
 $thumbprint = (Get-AuthConfig).CurrentCertificateThumbprint
 if((test-path $env:SYSTEMDRIVE\OAuthConfig) -eq $false)
 {
@@ -107,7 +107,7 @@ $CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
 
 2. 將下列文字儲存到一個名為的 PowerShell 腳本檔案，例如`UploadAuthCert.ps1`。
 
-   ``` Powershell
+   ```powershell
    Connect-MsolService;
    Import-Module msonlineextended;
    $CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
@@ -128,7 +128,7 @@ $CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
 
 ### <a name="step-6-verify-that-the-certificate-has-uploaded-to-the-skype-for-business-service-principal"></a>步驟6：確認憑證已上傳到商務用 Skype 服務主體
 1. 在已開啟並驗證至 Azure Active Directory 的 PowerShell 中，執行下列動作：
-```
+```powershell
 Get-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000
 ```
 2. 出現 ReturnKeyValues 提示時按下 Enter
@@ -144,9 +144,9 @@ Get-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-00000
 
 3. 在 [清除] 資料夾中，使用[EWSEditor](https://blogs.msdn.microsoft.com/webdav_101/2018/03/12/where-to-get-ewseditor/)確認已歸檔的聊天訊息會存放在使用者的內部部署信箱中。
 
-或者，查看您的流量。 OAuth 握手中的流量確實是獨特的（且看起來不像基本驗證），特別是在領域中，您將會開始查看發行人流量，看起來像這樣： 00000004-0000-0ff1-ce00-000000000000 @ （有時候在@ 符號），在所傳遞的權杖中。 您不會看到 [使用者名稱] 或 [密碼]，也就是 OAuth 的端點。 但您會看到「Office」 issuer （在此例中，"4" 是商務用 Skype，以及您的訂閱領域）。
+或者，查看您的流量。 OAuth 握手中的流量確實是獨特的（且看起來不像基本驗證），特別是在領域中，您將會開始查看發行人流量，看起來像這樣： 00000004-0000-0ff1-ce00-000000000000 @ （有時候在 @ 符號前），在傳遞的權杖中。 您不會看到 [使用者名稱] 或 [密碼]，也就是 OAuth 的端點。 但您會看到「Office」 issuer （在此例中，"4" 是商務用 Skype，以及您的訂閱領域）。
 
-如果您想要確定您使用的是 OAuth 成功，請確認您知道要取得的內容，並瞭解流量應該看起來的樣子。 以下是您預期的做法，以下是[Microsoft 應用程式中的 OAuth 流量標準範例](https://download.microsoft.com/download/8/5/8/858F2155-D48D-4C68-9205-29460FD7698F/[MS-SPS2SAUTH].pdf)（雖然它不使用重新整理權杖），而且還有 Fiddler 擴充[功能](https://tools.ietf.org/html/draft-ietf-oauth-v2-23#page-34)可讓您在 OAuth JWT （JSON）中查看。網頁標記）。
+如果您想要確定您使用的是 OAuth 成功，請確認您知道要取得的內容，並瞭解流量應該看起來的樣子。 以下是您預期的做法，以下是[Microsoft 應用程式中的 OAuth 流量標準範例](https://download.microsoft.com/download/8/5/8/858F2155-D48D-4C68-9205-29460FD7698F/[MS-SPS2SAUTH].pdf)（雖然它不使用重新整理權杖），而且還有 Fiddler 擴充[功能](https://tools.ietf.org/html/draft-ietf-oauth-v2-23#page-34)可讓您查看 OAuth JWT （JSON Web 權杖）。
 
 以下是[一個設定一個範例](https://blogs.msdn.microsoft.com/kaevans/2015/03/30/updated-fiddler-oauth-inspector/)，但是您可以使用任何您想要執行此程式的網路追蹤工具。
 

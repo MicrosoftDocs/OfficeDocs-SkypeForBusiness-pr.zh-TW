@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 330367f2-22b0-43e3-b8fb-3e0d2e3b330e
 description: CcUpdate Cmdlet 會將商務用 Skype 雲端連接器 Edition 主機伺服器加入維護模式，以進行更新程式。 裝置會立即停止所有服務、結束任何正在進行的通話，並拒絕任何新的呼叫。
-ms.openlocfilehash: 3ff4c1543e3e882a7ccbaf0b9a216ce902a77c5f
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: 694faf7f03fb672ec61ee97db08fb61bcf0dc532
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "36193932"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003453"
 ---
 # <a name="enter-ccupdate"></a>Enter-CcUpdate
 
 CcUpdate Cmdlet 會將商務用 Skype 雲端連接器 Edition 主機伺服器加入維護模式，以進行更新程式。 裝置會立即停止所有服務、結束任何正在進行的通話，並拒絕任何新的呼叫。
   
-```
+```powershell
 Enter-CcUpdate
 ```
 
@@ -37,7 +37,7 @@ Enter-CcUpdate
 
 下列範例會進入 [維護] 模式，為更新程式準備裝置：
   
-```
+```powershell
 Enter-CcUpdate 
 ```
 

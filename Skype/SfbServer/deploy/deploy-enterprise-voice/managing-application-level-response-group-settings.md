@@ -13,43 +13,43 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: aab749a1-fa2d-4ce8-a6c6-ebcfa37ce02a
-description: 在商務用 Skype Server Enterprise Voice 中管理應用程式層級回應群組設定, 例如 [音樂封存] 和 [ringback 設定]。
-ms.openlocfilehash: d39569c380abcc22993f7d87fc27143f355e7084
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 在商務用 Skype Server Enterprise Voice 中管理應用程式層級回應群組設定，例如 [音樂封存] 和 [ringback 設定]。
+ms.openlocfilehash: 4c5964d84e5fb84bf1c20c3e43bb0cc4aa25ae17
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240532"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001273"
 ---
 # <a name="managing-application-level-response-group-settings-in-skype-for-business"></a>管理商務用 Skype 中的應用層級回應群組設定
  
-在商務用 Skype Server Enterprise Voice 中管理應用程式層級回應群組設定, 例如 [音樂封存] 和 [ringback 設定]。
+在商務用 Skype Server Enterprise Voice 中管理應用程式層級回應群組設定，例如 [音樂封存] 和 [ringback 設定]。
   
-回應群組應用程式的應用程式層級設定包括預設的 [以音樂為保留] 設定、預設的 [音樂保留] 音訊檔案、[代理程式 ringback 寬限期], 以及 [通話內容] 設定。 每個 pool 只能定義一組應用層級設定。 若要查看應用程式層級的設定, 請使用**CsRgsConfiguration** Cmdlet。 若要修改應用程式層級的設定, 請使用**CsRgsConfiguration** Cmdlet。
+回應群組應用程式的應用程式層級設定包括預設的 [以音樂為保留] 設定、預設的 [音樂保留] 音訊檔案、[代理程式 ringback 寬限期]，以及 [通話內容] 設定。 每個 pool 只能定義一組應用層級設定。 若要查看應用程式層級的設定，請使用**CsRgsConfiguration** Cmdlet。 若要修改應用程式層級的設定，請使用**CsRgsConfiguration** Cmdlet。
   
-只有在已定義 [保留自訂的音樂] 時, 才會播放預設的 [等候音樂] 狀態。 只有在指派給互動式工作流程的佇列中, 才能使用呼叫內容。 如果已啟用呼叫內容, 則代理程式可以在收到來電時, 看到來電者等候時間或工作流程問題與解答等資訊。
+只有在已定義 [保留自訂的音樂] 時，才會播放預設的 [等候音樂] 狀態。 只有在指派給互動式工作流程的佇列中，才能使用呼叫內容。 如果已啟用呼叫內容，則代理程式可以在收到來電時，看到來電者等候時間或工作流程問題與解答等資訊。
   
 ### <a name="to-modify-response-group-application-level-settings"></a>修改回應群組的應用層級設定
 
-1. 以 RTCUniversalServerAdmins 群組成員的身分登入, 或以支援回應群組的預先定義之系統管理角色的成員的身分登入。
+1. 以 RTCUniversalServerAdmins 群組成員的身分登入，或以支援回應群組的預先定義之系統管理角色的成員的身分登入。
     
-2. 啟動商務用 Skype Server 管理命令介面: 按一下 [**開始**], 按一下 [**所有程式**], 按一下 [**商務用 skype 2015**], 然後按一下 [**商務用 skype Server management Shell**]。
+2. 啟動商務用 Skype Server 管理命令介面：按一下 [**開始**]，按一下 [**所有程式**]，按一下 [**商務用 skype 2015**]，然後按一下 [**商務用 skype Server management Shell**]。
     
-3. 在命令列上執行:
+3. 在命令列上執行：
     
-   ```
+   ```powershell
    Set-CsRgsConfiguration -Identity <name of service hosting Response Group> [-AgentRingbackGracePeriod <# seconds until call returns to agent after declined>] [-DefaultMusicOnHoldFile <audio file>] [-DisableCallContext <$true | $false>]
    ```
 
     例如：
     
-   ```
+   ```powershell
    Set-CsRgsConfiguration -Identity "service:ApplicationServer:redmond.contoso.com" -AgentRingbackGracePeriod 30 -DisableCallContext $false
    ```
 
-    若要將音訊檔案指定為保留預設的音樂, 您必須先匯入音訊檔案。 例如：
+    若要將音訊檔案指定為保留預設的音樂，您必須先匯入音訊檔案。 例如：
     
-   ```
+   ```powershell
    $x = Import-CsRgsAudioFile -Identity "service:ApplicationServer:redmond.contoso.com" -FileName "MusicWhileYouWait.wav" -Content (Get-Content C:\Media\ MusicWhileYouWait.wav -Encoding byte -ReadCount 0)
    Set-CsRgsConfiguration -Identity "service:ApplicationServer:redmond.contoso.com" -DefaultMusicOnHoldFile <$x>
    ```

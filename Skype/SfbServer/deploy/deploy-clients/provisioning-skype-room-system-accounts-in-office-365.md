@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
 description: 請閱讀本主題，以瞭解如何在 Office 365 中預配 Skype 室系統帳戶。
-ms.openlocfilehash: 830c0e33a15639f3c78197d084748bb3b2cde600
-ms.sourcegitcommit: ddb4eaf634476680494025a3aa1c91d15fb58413
+ms.openlocfilehash: 66686af36e3f71f91114d10eb448dd0a77ad1a57
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "38231264"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003013"
 ---
 # <a name="provisioning-skype-room-system-accounts-in-office-365"></a>在 Office 365 中預配 Skype 會議室系統帳戶
  
@@ -71,7 +71,7 @@ ms.locfileid: "38231264"
   
 若要為 Skype 會議室系統設定現有的資源會議室信箱帳戶，請在 Exchange Online PowerShell 中執行下列命令：
   
-```
+```powershell
 $rm="confrm1@contoso.onmicrosoft.com"
 $newpass='pass@word1'
 Set-Mailbox -Identity $rm  -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString $newpass -AsPlainText -Force)
@@ -79,7 +79,7 @@ Set-Mailbox -Identity $rm  -EnableRoomMailboxAccount $true -RoomMailboxPassword 
 
 若要為 Skype 會議室系統建立新的 Exchange 資源信箱帳戶，請在 Exchange Online PowerShell 中執行下列命令：
   
-```
+```powershell
 $rm="confrm2@contoso.onmicrosoft.com"
 $newpass='pass@word1'
 New-Mailbox -Name "Conf Room 2" -MicrosoftOnlineServicesID $rm -Room  -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString $newpass -AsPlainText -Force)
@@ -101,7 +101,7 @@ New-Mailbox -Name "Conf Room 2" -MicrosoftOnlineServicesID $rm -Room  -EnableRoo
   
 1. 建立遠端 PowerShell 會話。 請注意，您需要下載商務用 Skype Online 連接器模組與 Microsoft Online Services 登入小幫手，並確認您的電腦已設定。 如需詳細資訊，請參閱[設定您的 Windows PowerShell 電腦](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)。
     
-   ```
+   ```powershell
    Import-Module LyncOnlineConnector
    $cssess=New-CsOnlineSession -Credential $cred
    Import-PSSession $cssess -AllowClobber
@@ -109,13 +109,13 @@ New-Mailbox -Name "Conf Room 2" -MicrosoftOnlineServicesID $rm -Room  -EnableRoo
 
 2. 若要啟用商務用 Skype 的 Skype 會議室系統帳戶，請執行下列命令：
     
-   ```
+   ```powershell
    Enable-CsMeetingRoom -Identity $rm -RegistrarPool "sippoolbl20a04.infra.lync.com" -SipAddressType EmailAddress
    ```
 
     您可以使用下列命令來傳回這個屬性，以取得商務用 Skype 使用者從您現有的帳戶中駐留的 RegistrarPool 位址：
     
-   ```
+   ```powershell
    Get-CsOnlineUser -Identity 'alice@contoso.onmicrosoft.com'| fl *registrarpool*
    ```
 
@@ -128,14 +128,14 @@ New-Mailbox -Name "Conf Room 2" -MicrosoftOnlineServicesID $rm -Room  -EnableRoo
   
 1. 使用您的租使用者全域系統管理員認證建立 Windows Azure Active Directory 會話。
     
-    ```
+    ```powershell
     $cred=Get-Credential admin@$org
     Connect-MsolService -Credential $cred
     ```
 
 2. 針對先前使用下列命令建立的 Skype 會議室系統房間帳戶，設定 [密碼永不過期] 設定：
     
-   ```
+   ```powershell
    Set-MsolUser -UserPrincipalName confrm1@skypelrs.onmicrosoft.com -PasswordNeverExpires $true
    ```
 

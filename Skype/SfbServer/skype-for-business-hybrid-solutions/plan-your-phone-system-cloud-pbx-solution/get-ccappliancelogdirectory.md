@@ -1,5 +1,5 @@
 ---
-title: CcApplianceLogDirectory
+title: Get-CcApplianceLogDirectory
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -10,21 +10,21 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8f16d8ea-8161-4b07-9c79-d57e786b3e78
-description: CcApplianceLogDirectory Cmdlet 會顯示目前的目錄, 其中儲存商務用 Skype 雲端連接器 Edition 裝置的記錄。
-ms.openlocfilehash: 675e89f49c7c1384edc7cfa5944c8aee3f236c79
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: CcApplianceLogDirectory Cmdlet 會顯示目前的目錄，其中儲存商務用 Skype 雲端連接器 Edition 裝置的記錄。
+ms.openlocfilehash: a8b7e1b13302bec27c2fe784804f8f43fe2e023c
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190792"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003393"
 ---
-# <a name="get-ccappliancelogdirectory"></a>CcApplianceLogDirectory
+# <a name="get-ccappliancelogdirectory"></a>Get-CcApplianceLogDirectory
  
-CcApplianceLogDirectory Cmdlet 會顯示目前的目錄, 其中儲存商務用 Skype 雲端連接器 Edition 裝置的記錄。
+CcApplianceLogDirectory Cmdlet 會顯示目前的目錄，其中儲存商務用 Skype 雲端連接器 Edition 裝置的記錄。
   
-此 Cmdlet 適用于商務用 Skype 雲端連接器 Edition 1.4.1, 1.4.2。
+此 Cmdlet 適用于商務用 Skype 雲端連接器 Edition 1.4.1，1.4.2。
   
-```
+```powershell
 Get-CcApplianceLogDirectory
 ```
 
@@ -37,20 +37,20 @@ Get-CcApplianceLogDirectory
 
 ### <a name="example-1"></a>範例 1
 
-下列範例會顯示儲存雲端連接器目前裝置記錄的目前資料夾:
+下列範例會顯示儲存雲端連接器目前裝置記錄的目前資料夾：
   
-```
+```powershell
 Get-CcApplianceLogDirectory
 ```
 
 ## <a name="detailed-description"></a>詳細描述
 <a name="DetailedDescription"> </a>
 
-CcApplianceLogDirectory Cmdlet 會顯示目前的目錄, 其中儲存雲端連接器裝置的記錄。 預設資料夾為 C:\Users\%userprofile%\CloudConnector\ApplianceRoot\Logs。 
+CcApplianceLogDirectory Cmdlet 會顯示目前的目錄，其中儲存雲端連接器裝置的記錄。 預設資料夾為 C:\Users\%userprofile%\CloudConnector\ApplianceRoot\Logs。 
   
 您可以使用 CcApplianceDirectory Cmdlet 變更目錄。 
   
-注意: 沒有變更 [記錄] 資料夾位置, 而不會變更裝置目錄的任何 Cmdlet。
+注意：沒有變更 [記錄] 資料夾位置，而不會變更裝置目錄的任何 Cmdlet。
   
 ## <a name="input-types"></a>輸入類型
 <a name="InputTypes"> </a>

@@ -13,32 +13,32 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: c4b4a736-3b2e-45b9-a965-19d22161ad57
-description: 在商務用 Skype Server Enterprise Voice 中, 將 SNMP 應用程式設定為使用 E9-1-1。
-ms.openlocfilehash: 2462c7af4473f8c29cf0e068ddc86b391d7e1df2
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 在商務用 Skype Server Enterprise Voice 中，將 SNMP 應用程式設定為使用 E9-1-1。
+ms.openlocfilehash: 5941a7fee85b486577df4c79848274528ddab952
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233944"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001373"
 ---
 # <a name="configure-an-snmp-application-in-skype-for-business-server"></a>在商務用 Skype Server 中設定 SNMP 應用程式
  
-在商務用 Skype Server Enterprise Voice 中, 將 SNMP 應用程式設定為使用 E9-1-1。 
+在商務用 Skype Server Enterprise Voice 中，將 SNMP 應用程式設定為使用 E9-1-1。 
   
-商務用 Skype 伺服器包含標準的 web 服務介面, 您可以用來將位置資訊服務連線至與埠和交換器資訊相符的 MAC 位址的簡單網路管理通訊協定 (SNMP) 應用程式。 
+商務用 Skype 伺服器包含標準的 web 服務介面，您可以用來將位置資訊服務連線至與埠和交換器資訊相符的 MAC 位址的簡單網路管理通訊協定（SNMP）應用程式。 
   
-如果已安裝 SNMP 應用程式, 且位置資訊服務無法在位置資料庫中找到相符的專案, 位置資訊服務會使用用戶端提供的 MAC 位址來自動查詢應用程式。 然後, 位置資訊服務會使用 SNMP 應用程式傳回的埠和切換資訊來重新查詢位置資料庫。
+如果已安裝 SNMP 應用程式，且位置資訊服務無法在位置資料庫中找到相符的專案，位置資訊服務會使用用戶端提供的 MAC 位址來自動查詢應用程式。 然後，位置資訊服務會使用 SNMP 應用程式傳回的埠和切換資訊來重新查詢位置資料庫。
   
 > [!NOTE]
 > MAC 位址無法在執行 Windows 8 的電腦上使用。 
   
 ### <a name="to-configure-the-snmp-application-url"></a>若要設定 SNMP 應用程式 URL
 
-1.  啟動商務用 Skype Server 管理命令介面: 按一下 [**開始**], 按一下 [**所有程式**], 按一下 [**商務用 skype 2015**], 然後按一下 [**商務用 skype Server management Shell**]。
+1.  啟動商務用 Skype Server 管理命令介面：按一下 [**開始**]，按一下 [**所有程式**]，按一下 [**商務用 skype 2015**]，然後按一下 [**商務用 skype Server management Shell**]。
     
 2. 執行下列 Cmdlet 來設定 SNMP 應用程式的 URL。 
     
-   ```
+   ```powershell
    Set-CsWebServiceConfiguration -MACResolverUrl "<SNMP application url>" 
    ```
 

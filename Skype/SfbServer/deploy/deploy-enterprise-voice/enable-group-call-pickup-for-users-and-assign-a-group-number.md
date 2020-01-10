@@ -13,36 +13,36 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: c33bb6c2-d43b-4fb6-a0fa-6d82a7b09abe
-description: 在商務用 Skype Server Enterprise Voice 中啟用群組呼叫挑選的使用者, 並指派群組號碼。
-ms.openlocfilehash: 78bdd78bf7e5bb3a9438a60b54a89664d22666ee
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 在商務用 Skype Server Enterprise Voice 中啟用群組呼叫挑選的使用者，並指派群組號碼。
+ms.openlocfilehash: 8ded9fbf7e9a9c8034684c1477c6aad92bfc9e5f
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240613"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002543"
 ---
 # <a name="enable-group-call-pickup-for-users-and-assign-a-group-number-in-skype-for-business"></a>在商務用 Skype 中為使用者啟用群組呼叫挑選並指派群組號碼
 
-在商務用 Skype Server Enterprise Voice 中啟用群組呼叫挑選的使用者, 並指派群組號碼。
+在商務用 Skype Server Enterprise Voice 中啟用群組呼叫挑選的使用者，並指派群組號碼。
 
-在您將呼叫挑選群組編號新增至 [通話駐留軌道] 表格之後, 您可以使用 SEFAUtil 工具, 將群組號碼指派給使用者, 並為他們啟用群組呼叫分揀。
+在您將呼叫挑選群組編號新增至 [通話駐留軌道] 表格之後，您可以使用 SEFAUtil 工具，將群組號碼指派給使用者，並為他們啟用群組呼叫分揀。
 
 > [!NOTE]
-> 在混合式部署中, 請勿將群組呼叫挑選群組指派給駐留在線上的使用者。 以線上為宿主的使用者無法參與群組通話挑選。 也就是說, 其他使用者無法接聽其來電, 也無法將來電應答給其他使用者。
+> 在混合式部署中，請勿將群組呼叫挑選群組指派給駐留在線上的使用者。 以線上為宿主的使用者無法參與群組通話挑選。 也就是說，其他使用者無法接聽其來電，也無法將來電應答給其他使用者。
 
 ### <a name="to-assign-a-group-number-and-enable-group-call-pickup-for-a-user"></a>指派群組號碼並為使用者啟用群組呼叫分揀
 
 1. 以系統管理員許可權登入您安裝 SEFAUtil 工具的電腦。
 
-2. 在命令列上執行:
+2. 在命令列上執行：
 
-   ```
+   ```console
    SEFAUtil.exe sip:<sip address of user> /server:<pool FQDN> /enablegrouppickup:<group number>
    ```
 
-    例如, 若要將群組號碼199指派給使用者:
+    例如，若要將群組號碼199指派給使用者：
 
-   ```
+   ```console
    SEFAUtil.exe katarina@contoso.com /server:pool01.contoso.com /enablegrouppickup:199
    ```
 
