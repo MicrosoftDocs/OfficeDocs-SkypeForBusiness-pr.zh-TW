@@ -1,5 +1,5 @@
 ---
-title: 匯入-CcConfiguration
+title: Import-CcConfiguration
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -11,57 +11,57 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 461361a0-9aa9-469d-ace0-dc70b95cd4a3
 description: 從本機檔案將商務用 Skype 雲端連接器版本設定匯入雲端連接器主機伺服器。
-ms.openlocfilehash: 3e165250b5158513aa683770d5eb1768c0e1e29c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c72a72351ecb6936832bc5d6a2493c5fa8dfe324
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190741"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003333"
 ---
-# <a name="import-ccconfiguration"></a><span data-ttu-id="ded78-103">匯入-CcConfiguration</span><span class="sxs-lookup"><span data-stu-id="ded78-103">Import-CcConfiguration</span></span>
+# <a name="import-ccconfiguration"></a><span data-ttu-id="af050-103">Import-CcConfiguration</span><span class="sxs-lookup"><span data-stu-id="af050-103">Import-CcConfiguration</span></span>
  
-<span data-ttu-id="ded78-104">從本機檔案將商務用 Skype 雲端連接器版本設定匯入雲端連接器主機伺服器。</span><span class="sxs-lookup"><span data-stu-id="ded78-104">Imports the Skype for Business Cloud Connector Edition configuration from a local file to the Cloud Connector host server.</span></span>
+<span data-ttu-id="af050-104">從本機檔案將商務用 Skype 雲端連接器版本設定匯入雲端連接器主機伺服器。</span><span class="sxs-lookup"><span data-stu-id="af050-104">Imports the Skype for Business Cloud Connector Edition configuration from a local file to the Cloud Connector host server.</span></span>
   
-```
+```powershell
 Import-CcConfiguration [-Force] [<CommonParameters>]
 ```
 
-## <a name="examples"></a><span data-ttu-id="ded78-105">範例</span><span class="sxs-lookup"><span data-stu-id="ded78-105">Examples</span></span>
-<span data-ttu-id="ded78-106"><a name="Examples"> </a></span><span class="sxs-lookup"><span data-stu-id="ded78-106"></span></span>
+## <a name="examples"></a><span data-ttu-id="af050-105">範例</span><span class="sxs-lookup"><span data-stu-id="af050-105">Examples</span></span>
+<span data-ttu-id="af050-106"><a name="Examples"> </a></span><span class="sxs-lookup"><span data-stu-id="af050-106"></span></span>
 
-### <a name="example-1"></a><span data-ttu-id="ded78-107">範例 1</span><span class="sxs-lookup"><span data-stu-id="ded78-107">Example 1</span></span>
+### <a name="example-1"></a><span data-ttu-id="af050-107">範例 1</span><span class="sxs-lookup"><span data-stu-id="af050-107">Example 1</span></span>
 
-<span data-ttu-id="ded78-108">下列範例會將 CloudConnector 從雲端連接器實例裝置目錄複寫到%SystemDrive%\ProgramData\CloudConnector 目錄:</span><span class="sxs-lookup"><span data-stu-id="ded78-108">The following example copies the CloudConnector.ini from the appliance directory of the Cloud Connector instance to %SystemDrive%\ProgramData\CloudConnector directory:</span></span>
+<span data-ttu-id="af050-108">下列範例會將 CloudConnector 從雲端連接器實例裝置目錄複寫到%SystemDrive%\ProgramData\CloudConnector 目錄：</span><span class="sxs-lookup"><span data-stu-id="af050-108">The following example copies the CloudConnector.ini from the appliance directory of the Cloud Connector instance to %SystemDrive%\ProgramData\CloudConnector directory:</span></span>
   
-```
+```powershell
 Import-CcConfiguration
 ```
 
-## <a name="detailed-description"></a><span data-ttu-id="ded78-109">詳細描述</span><span class="sxs-lookup"><span data-stu-id="ded78-109">Detailed Description</span></span>
-<span data-ttu-id="ded78-110"><a name="Examples"> </a></span><span class="sxs-lookup"><span data-stu-id="ded78-110"></span></span>
+## <a name="detailed-description"></a><span data-ttu-id="af050-109">詳細描述</span><span class="sxs-lookup"><span data-stu-id="af050-109">Detailed Description</span></span>
+<span data-ttu-id="af050-110"><a name="Examples"> </a></span><span class="sxs-lookup"><span data-stu-id="af050-110"></span></span>
 
-<span data-ttu-id="ded78-111">這個 Cmdlet 會從雲端連接器裝置的裝置目錄將 CloudConnector 複製到%SystemDrive%\ProgramData\CloudConnector 目錄。</span><span class="sxs-lookup"><span data-stu-id="ded78-111">This cmdlet copies the CloudConnector.ini from the appliance directory of the Cloud Connector appliance to the %SystemDrive%\ProgramData\CloudConnector directory.</span></span> <span data-ttu-id="ded78-112">裝置目錄是使用 CcApplianceDirectory Cmdlet 來指定。</span><span class="sxs-lookup"><span data-stu-id="ded78-112">The appliance directory is specified by using the Set-CcApplianceDirectory cmdlet.</span></span> <span data-ttu-id="ded78-113">這個 Cmdlet 會覆寫%SystemDrive%\ProgramData\CloudConnector. 中任何現有的檔案</span><span class="sxs-lookup"><span data-stu-id="ded78-113">The cmdlet will overwrite any existing file in %SystemDrive%\ProgramData\CloudConnector.</span></span> <span data-ttu-id="ded78-114">此命令適用于雲端連接器版本2.0.1 及更新版本。</span><span class="sxs-lookup"><span data-stu-id="ded78-114">This command applies to Cloud Connector Edition version 2.0.1 and later.</span></span>
+<span data-ttu-id="af050-111">這個 Cmdlet 會從雲端連接器裝置的裝置目錄將 CloudConnector 複製到%SystemDrive%\ProgramData\CloudConnector 目錄。</span><span class="sxs-lookup"><span data-stu-id="af050-111">This cmdlet copies the CloudConnector.ini from the appliance directory of the Cloud Connector appliance to the %SystemDrive%\ProgramData\CloudConnector directory.</span></span> <span data-ttu-id="af050-112">裝置目錄是使用 CcApplianceDirectory Cmdlet 來指定。</span><span class="sxs-lookup"><span data-stu-id="af050-112">The appliance directory is specified by using the Set-CcApplianceDirectory cmdlet.</span></span> <span data-ttu-id="af050-113">這個 Cmdlet 會覆寫%SystemDrive%\ProgramData\CloudConnector. 中任何現有的檔案</span><span class="sxs-lookup"><span data-stu-id="af050-113">The cmdlet will overwrite any existing file in %SystemDrive%\ProgramData\CloudConnector.</span></span> <span data-ttu-id="af050-114">此命令適用于雲端連接器版本2.0.1 及更新版本。</span><span class="sxs-lookup"><span data-stu-id="af050-114">This command applies to Cloud Connector Edition version 2.0.1 and later.</span></span>
   
-## <a name="parameters"></a><span data-ttu-id="ded78-115">參數</span><span class="sxs-lookup"><span data-stu-id="ded78-115">Parameters</span></span>
-<span data-ttu-id="ded78-116"><a name="Examples"> </a></span><span class="sxs-lookup"><span data-stu-id="ded78-116"></span></span>
+## <a name="parameters"></a><span data-ttu-id="af050-115">參數</span><span class="sxs-lookup"><span data-stu-id="af050-115">Parameters</span></span>
+<span data-ttu-id="af050-116"><a name="Examples"> </a></span><span class="sxs-lookup"><span data-stu-id="af050-116"></span></span>
 
-|<span data-ttu-id="ded78-117">**參數**</span><span class="sxs-lookup"><span data-stu-id="ded78-117">**Parameter**</span></span>|<span data-ttu-id="ded78-118">**必要**</span><span class="sxs-lookup"><span data-stu-id="ded78-118">**Required**</span></span>|<span data-ttu-id="ded78-119">**類型**</span><span class="sxs-lookup"><span data-stu-id="ded78-119">**Type**</span></span>|<span data-ttu-id="ded78-120">**說明**</span><span class="sxs-lookup"><span data-stu-id="ded78-120">**Description**</span></span>|
+|<span data-ttu-id="af050-117">**參數**</span><span class="sxs-lookup"><span data-stu-id="af050-117">**Parameter**</span></span>|<span data-ttu-id="af050-118">**必要**</span><span class="sxs-lookup"><span data-stu-id="af050-118">**Required**</span></span>|<span data-ttu-id="af050-119">**類型**</span><span class="sxs-lookup"><span data-stu-id="af050-119">**Type**</span></span>|<span data-ttu-id="af050-120">**描述**</span><span class="sxs-lookup"><span data-stu-id="af050-120">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-|<span data-ttu-id="ded78-121">Force</span><span class="sxs-lookup"><span data-stu-id="ded78-121">Force</span></span>  <br/> |<span data-ttu-id="ded78-122">選用</span><span class="sxs-lookup"><span data-stu-id="ded78-122">Optional</span></span>  <br/> |<span data-ttu-id="ded78-123">System.Management.Automation.SwitchParameter</span><span class="sxs-lookup"><span data-stu-id="ded78-123">System.Management.Automation.SwitchParameter</span></span>  <br/> |<span data-ttu-id="ded78-124">在%SystemDrive%\ProgramData\CloudConnector 中覆寫現有檔案而不發出通知。</span><span class="sxs-lookup"><span data-stu-id="ded78-124">Overwrite existing file in %SystemDrive%\ProgramData\CloudConnector without notification.</span></span>  <br/> |
+|<span data-ttu-id="af050-121">Force</span><span class="sxs-lookup"><span data-stu-id="af050-121">Force</span></span>  <br/> |<span data-ttu-id="af050-122">選用</span><span class="sxs-lookup"><span data-stu-id="af050-122">Optional</span></span>  <br/> |<span data-ttu-id="af050-123">System.Management.Automation.SwitchParameter</span><span class="sxs-lookup"><span data-stu-id="af050-123">System.Management.Automation.SwitchParameter</span></span>  <br/> |<span data-ttu-id="af050-124">在%SystemDrive%\ProgramData\CloudConnector 中覆寫現有檔案而不發出通知。</span><span class="sxs-lookup"><span data-stu-id="af050-124">Overwrite existing file in %SystemDrive%\ProgramData\CloudConnector without notification.</span></span>  <br/> |
    
-## <a name="input-types"></a><span data-ttu-id="ded78-125">輸入類型</span><span class="sxs-lookup"><span data-stu-id="ded78-125">Input Types</span></span>
-<span data-ttu-id="ded78-126"><a name="Examples"> </a></span><span class="sxs-lookup"><span data-stu-id="ded78-126"></span></span>
+## <a name="input-types"></a><span data-ttu-id="af050-125">輸入類型</span><span class="sxs-lookup"><span data-stu-id="af050-125">Input Types</span></span>
+<span data-ttu-id="af050-126"><a name="Examples"> </a></span><span class="sxs-lookup"><span data-stu-id="af050-126"></span></span>
 
-<span data-ttu-id="ded78-127">無。</span><span class="sxs-lookup"><span data-stu-id="ded78-127">None.</span></span> <span data-ttu-id="ded78-128">匯入-CcConfiguration Cmdlet 不接受流水線輸入。</span><span class="sxs-lookup"><span data-stu-id="ded78-128">The Import-CcConfiguration cmdlet does not accept pipelined input.</span></span>
+<span data-ttu-id="af050-127">無。</span><span class="sxs-lookup"><span data-stu-id="af050-127">None.</span></span> <span data-ttu-id="af050-128">匯入-CcConfiguration Cmdlet 不接受流水線輸入。</span><span class="sxs-lookup"><span data-stu-id="af050-128">The Import-CcConfiguration cmdlet does not accept pipelined input.</span></span>
   
-## <a name="return-types"></a><span data-ttu-id="ded78-129">傳回類型</span><span class="sxs-lookup"><span data-stu-id="ded78-129">Return Types</span></span>
-<span data-ttu-id="ded78-130"><a name="Examples"> </a></span><span class="sxs-lookup"><span data-stu-id="ded78-130"></span></span>
+## <a name="return-types"></a><span data-ttu-id="af050-129">傳回類型</span><span class="sxs-lookup"><span data-stu-id="af050-129">Return Types</span></span>
+<span data-ttu-id="af050-130"><a name="Examples"> </a></span><span class="sxs-lookup"><span data-stu-id="af050-130"></span></span>
 
-<span data-ttu-id="ded78-131">無。</span><span class="sxs-lookup"><span data-stu-id="ded78-131">None.</span></span>
+<span data-ttu-id="af050-131">無。</span><span class="sxs-lookup"><span data-stu-id="af050-131">None.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="ded78-132">另請參閱</span><span class="sxs-lookup"><span data-stu-id="ded78-132">See also</span></span>
-<span data-ttu-id="ded78-133"><a name="Examples"> </a></span><span class="sxs-lookup"><span data-stu-id="ded78-133"></span></span>
+## <a name="see-also"></a><span data-ttu-id="af050-132">另請參閱</span><span class="sxs-lookup"><span data-stu-id="af050-132">See also</span></span>
+<span data-ttu-id="af050-133"><a name="Examples"> </a></span><span class="sxs-lookup"><span data-stu-id="af050-133"></span></span>
 
-<span data-ttu-id="ded78-134">Export-CcConfiguration</span><span class="sxs-lookup"><span data-stu-id="ded78-134">Export-CcConfiguration</span></span>
+<span data-ttu-id="af050-134">Export-CcConfiguration</span><span class="sxs-lookup"><span data-stu-id="af050-134">Export-CcConfiguration</span></span>
   
 
