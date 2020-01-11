@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 瞭解如何設定 Microsoft Phone 系統 Direct 路由。
-ms.openlocfilehash: c109dd919ad2842f38d135cba848ad2a7b34914d
-ms.sourcegitcommit: fa20ea88e6a1c5d16ec3a364fc9d2b9a942cec9d
+ms.openlocfilehash: 7a3cd61c3b92482fd402b58734b2af720c21cf3a
+ms.sourcegitcommit: f238d70aa34cded327ed252b0eb2704cc7f8f5c5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 01/11/2020
-ms.locfileid: "41022288"
+ms.locfileid: "41023417"
 ---
 # <a name="configure-direct-routing"></a>設定直接路由
 
@@ -176,15 +176,7 @@ Enabled               : True
 
 如果您的商務用 skype Online 部署與商務用 Skype 2015 或 Lync 2010/2013 內部部署共同存在，則支援的唯一選項是在內部部署 Active Directory 中建立使用者，並將使用者同步處理到雲端（選項1）。 
 
-所需的授權： 
-
-- Office 365 企業版 E3 （包括 SfB Plan2、Exchange Plan2 及團隊） + 電話系統
-- Office 365 企業版 E5 （包括 SfB Plan2、Exchange Plan2、團隊及電話系統） 
-
-選用的授權： 
-
-- 通話方案 
-- 音訊會議 
+如需授權需求的相關資訊，請參閱[規劃直接路由](direct-routing-plan.md)中的[授權和其他需求](direct-routing-plan.md#licensing-and-other-requirements)。
 
 ### <a name="ensure-that-the-user-is-homed-in-skype-for-business-online"></a>確定使用者是在商務用 Skype Online 中託管 
 

@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a621c4e1cfcf9e485b68fd96a76d9179cef84a48
-ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
+ms.openlocfilehash: a1e8e74924bac23e2f8067fa5aa4d83a214b63d7
+ms.sourcegitcommit: f238d70aa34cded327ed252b0eb2704cc7f8f5c5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40952596"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "41023387"
 ---
 # <a name="install-microsoft-teams-using-msi"></a>使用 MSI 安裝 Microsoft 團隊
 
@@ -81,14 +81,21 @@ ms.locfileid: "40952596"
 > [!TIP]
 > 您可以使用我們的[Microsoft 團隊部署清理](scripts/Powershell-script-teams-deployment-clean-up.md)腳本，透過 SCCM 完成步驟1和2。
 
-## <a name="disable-auto-launch-for-the-msi-installer"></a>停用 MSI 安裝程式的自動啟動
+## <a name="prevent-teams-from-starting-automatically-after-installation"></a>避免團隊在安裝後自動啟動
 
-MSI 的預設行為是在使用者登入後立即安裝團隊用戶端，然後自動啟動團隊。 您可以使用下列參數來修改此行為，如下所示：
+MSI 的預設行為是在使用者登入後立即安裝 [小組] app，然後自動啟動小組。 如果您不想讓團隊在使用者安裝之後自動開始進行，您可以使用群組原則來設定策略設定，或停用 MSI 安裝程式的自動啟動。
 
-- 當使用者登入 Windows 時，系統會使用 MSI 安裝團隊
-- 不過，小組用戶端將無法啟動，直到使用者手動開始團隊為止
-- [開始] 團隊的快捷方式將會新增至使用者的桌面
-- 手動開始之後，每次使用者登入時，小組就會自動啟動
+#### <a name="use-group-policy-recommended"></a>使用群組原則（建議使用）
+
+啟用 [在安裝群組原則設定**之後，禁止 Microsoft 小組自動啟動**]。 您可以在 User Configuration\Policies\Administrative Templates\Microsoft 團隊中找到此原則設定。 這是建議的方法，因為您可以根據組織的需求關閉或開啟原則設定。
+
+在安裝團隊之前啟用此原則設定之後，小組就不會在使用者登入 Windows 時自動啟動。 使用者第一次登入團隊後，小組會在下次使用者登入時自動啟動。
+
+若要深入瞭解，請參閱[使用群組原則避免團隊在安裝之後自動啟動](https://docs.microsoft.com/deployoffice/teams-install#use-group-policy-to-prevent-microsoft-teams-from-starting-automatically-after-installation)。
+
+### <a name="disable-auto-launch-for-the-msi-installer"></a>停用 MSI 安裝程式的自動啟動
+
+您可以使用**選項 = "noAutoStart = true"** 參數來停用 MSI 安裝程式的自動啟動，如下所示。  
 
 針對32位版本
 ```PowerShell
@@ -98,6 +105,8 @@ msiexec /i Teams_windows.msi OPTIONS="noAutoStart=true"
 ```PowerShell
 msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true"
 ```
+
+當使用者登入 Windows 時，會在 MSI 中安裝小組，並將開始團隊的快捷方式新增至使用者的桌面。 在使用者手動開始團隊前，小組將無法啟動。 使用者手動啟動團隊後，小組會在使用者登入時自動啟動。
 
 > [!Note]
 > 如果您是手動執行 MSI，請務必以提升許可權執行。 即使您是以系統管理員身分執行，而且不是以提升許可權執行，安裝程式也無法將選項設定為停用自動啟動。
