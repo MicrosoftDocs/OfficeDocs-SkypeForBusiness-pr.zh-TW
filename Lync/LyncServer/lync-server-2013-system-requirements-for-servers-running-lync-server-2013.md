@@ -10,20 +10,22 @@ ms:contentKeyID: 48184564
 ms.date: 07/24/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6ad30b9687c9566adb7936612e71ae9f41e69095
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 301cd234e2218fc806423a9ffe9beb49994402f2
+ms.sourcegitcommit: 208179a3dd166f53b5a3058242cb84207909f4ee
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40978339"
+ms.lasthandoff: 01/13/2020
+ms.locfileid: "41104492"
 ---
+# <a name="system-requirements-for-servers-running-lync-server-2013"></a>執行 Lync Server 2013 之伺服器的系統需求
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="system-requirements-for-servers-running-lync-server-2013"></a>執行 Lync Server 2013 之伺服器的系統需求
+
 
 </div>
 
@@ -73,11 +75,13 @@ _**主題上次修改日期：** 2014-07-24_
 
 在標準版 Server 或 Enterprise Edition 前端伺服器上安裝作業系統軟體。 套用所有更新，讓作業系統的最新更新與必要更新層級與貴組織的標準一致。 如需有關操作需求的詳細資訊，請參閱支援檔中的[Lync server 2013 中的伺服器和工具作業系統支援](lync-server-2013-server-and-tools-operating-system-support.md)。
 
+> [!NOTE] Lync Server 2013 不支援就地升級作業系統。  您必須部署個別的 [池]，並將使用者遷移到具有不同作業系統的新池。
+
 <div>
 
 
 > [!NOTE]  
-> 若要讓 Lync Server 2013 在 Windows Server 2012 R2 上運作，您可能需要在 Windows Server 中變更登錄機碼的值。 您可能需要此變更，才能正常運作證書，以及讓用戶端向 Survivable 分支裝置註冊。 如需詳細資訊， <A class=uri href="http://support.microsoft.com/kb/2901554">http://support.microsoft.com/kb/2901554</A>請參閱。
+> 若要讓 Lync Server 2013 在 Windows Server 2012 R2 上運作，您可能需要在 Windows Server 中變更登錄機碼的值。 您可能需要此變更，才能正常運作證書，以及讓用戶端向 Survivable 分支裝置註冊。 如需詳細資訊， <A class=uri href="https://support.microsoft.com/kb/2901554">https://support.microsoft.com/kb/2901554</A>請參閱。
 
 
 
