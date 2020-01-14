@@ -5,23 +5,23 @@ ms.author: v-lanac
 author: lanachin
 TOCTitle: Managing the Archiving of internal and external communications
 ms:assetid: 6c2cf941-3204-4f1a-a7e0-416c828056d9
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204977(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ204977(v=OCS.15)
 ms:contentKeyID: 48184417
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3a9e3c0a0708075eecc28282021f98724325ff6c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 891318ba677891916af678b74365026d20d69016
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40976946"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111517"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="managing-the-archiving-of-internal-and-external-communications-in-lync-server-2013"></a>在 Lync Server 2013 中管理內部和外部通訊的存檔
 
@@ -59,9 +59,9 @@ _**主題上次修改日期：** 2012-10-09_
 
 ## <a name="in-this-section"></a>本節內容
 
-  - [在 Lync Server 2013 中建立存檔原則，以啟用或停用特定網站或使用者的內部或外部通訊的存檔](lync-server-2013-creating-an-archiving-policy-to-enable-or-disable-archiving-of-internal-or-external-communications-for-specific-sites-or-users.md)
+  - [在 Lync Server 2013 中建立存檔原則，以啟用或停用特定網站或使用者的內部或外部通訊的存檔](lync-server-2013-create-archiving-policy-sites-users.md)
 
-  - [在 Lync Server 2013 中變更存檔原則，以啟用或停用貴組織、網站或使用者的內部或外部通訊的封存功能](lync-server-2013-changing-an-archiving-policy-to-enable-or-disable-archiving-of-internal-or-external-communications-for-your-organization-sites-or-us.md)
+  - [在 Lync Server 2013 中變更存檔原則，以啟用或停用貴組織、網站或使用者的內部或外部通訊的封存功能](lync-server-2013-change-archiving-policy-org-sites-users.md)
 
   - [將存檔原則套用至 Lync Server 2013 中的使用者](lync-server-2013-applying-an-archiving-policy-to-users.md)
 

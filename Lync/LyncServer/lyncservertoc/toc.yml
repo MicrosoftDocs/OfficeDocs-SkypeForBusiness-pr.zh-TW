@@ -440,7 +440,7 @@
                 - name: 針對常設聊天室伺服器主要資料庫設定 SQL Server 記錄傳送
                   href: ../lync-server-2013-setting-up-sql-server-log-shipping-for-the-persistent-chat-server-primary-database.md
                 - name: 設定主要鏡像與記錄傳送次要資料庫之間的 SQL Server 記錄傳送
-                  href: ../lync-server-2013-setting-up-sql-server-log-shipping-between-the-primary-mirror-and-the-log-shipping-secondary-database.md
+                  href: ../lync-server-2013-set-up-log-shipping-secondary-database.md
             - name: Lync Server 2010 都會區網站復原
               href: ../lync-server-2013-compatibility-with-lync-server-2010-metropolitan-site-resiliency.md
         - name: 針對易管理性與虛擬化規劃
@@ -610,7 +610,7 @@
                   href: ../lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md
                   items:
                     - name: 憑證摘要 - 調整式合併 Edge (使用 NAT 透過私人 IP 位址進行 DNS 負載平衡)
-                      href: ../lync-server-2013-certificate-summary-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md
+                      href: ../lync-server-2013-certificate-summary-scaled-consolidated-edge-dns-load-balancing-private-ip.md
                     - name: 連接埠摘要 - 調整式合併 Edge (使用 NAT 透過私人 IP 位址進行 DNS 負載平衡)
                       href: ../lync-server-2013-port-summary-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md
                     - name: DNS 摘要 - 調整式合併 Edge (使用 NAT 透過私人 IP 位址進行 DNS 負載平衡)
@@ -3029,7 +3029,7 @@
                 - name: 移除 BackCompatSite
                   href: ../remove-backcompatsite.md
         - name: 從 Lync Server 2010 群組聊天或 Office Communications Server 2007 R2 群組聊天移轉至 Lync Server 2013 常設聊天室伺服器
-          href: ../migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md
+          href: ../migrate-to-lync-server-2013-persistent-chat-server.md
           items:
             - name: 標準移轉案例 - 高層級
               href: ../standard-migration-scenario-high-level.md
@@ -3959,9 +3959,9 @@
               href: ../lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md
               items:
                 - name: 建立存檔原則，以啟用或停用特定網站或使用者的內部或外部通訊的存檔
-                  href: ../lync-server-2013-creating-an-archiving-policy-to-enable-or-disable-archiving-of-internal-or-external-communications-for-specific-sites-or-users.md
+                  href: ../lync-server-2013-create-archiving-policy-sites-users.md
                 - name: 變更存檔原則以啟用或停用組織、網站或使用者的內部或外部通訊封存
-                  href: ../lync-server-2013-changing-an-archiving-policy-to-enable-or-disable-archiving-of-internal-or-external-communications-for-your-organization-sites-or-us.md
+                  href: ../lync-server-2013-change-archiving-policy-org-sites-users.md
                 - name: 將存檔原則套用至使用者
                   href: ../lync-server-2013-applying-an-archiving-policy-to-users.md
                 - name: 使用 Exchange Server 整合設定存檔原則
@@ -3978,7 +3978,7 @@
                 - name: 啟用或停用已歸檔資料的清除
                   href: ../lync-server-2013-enabling-or-disabling-the-purging-of-archived-data.md
                 - name: 啟用或停用重要模式，以封鎖或允許 IM 和網路會議會話（如果歸檔失敗）
-                  href: ../lync-server-2013-enabling-or-disabling-critical-mode-to-block-or-allow-im-and-web-conferencing-sessions-if-archiving-fails.md
+                  href: ../lync-server-2013-enable-disable-critical-mode.md
                 - name: 啟用或停用傳送封存免責聲明至同盟合作夥伴的功能
                   href: ../lync-server-2013-enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners.md
                 - name: 啟用或停用 Exchange 儲存體整合

@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
 description: 摘要：針對商務用 Skype Server 合成事務安裝及設定觀察程式節點。
-ms.openlocfilehash: 7711c7c2009149fc6dd49ed34b4c55312cb7417a
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 8c7ea0465d9a53bd8972c823ef7bfc7d7ee9b4bc
+ms.sourcegitcommit: 208179a3dd166f53b5a3058242cb84207909f4ee
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992440"
+ms.lasthandoff: 01/13/2020
+ms.locfileid: "41104482"
 ---
 # <a name="install-and-configure-watcher-nodes"></a>安裝和設定觀察程式節點
  
@@ -192,7 +192,7 @@ New-CsTrustedApplication -ApplicationId STWatcherNode -TrustedApplicationPoolFqd
 Enable-CsTopology
 ```
 
-執行 Enable-CsTopology 之後，請重新開機電腦。
+觀察程式節點電腦帳戶必須能夠查詢 CMS，以尋找某些綜合交易。 若要允許這項功能，請將觀察程式節點的電腦帳戶新增至 RTCUniversalReadOnlyAdmins 安全性群組。 發生廣告複製之後，請重新開機電腦。
   
 若要確認是否已建立新的受信任應用程式，請在商務用 Skype Server Management Shell 提示中輸入下列內容：
   

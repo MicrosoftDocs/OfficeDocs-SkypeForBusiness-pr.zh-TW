@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 摘要：使用本主題準備商務用 Skype Server 2019 伺服器及網域基礎結構。 硬體、作業系統、資料庫、軟體、所有系統需求與建議，以及憑證 DNS、檔案共用及 Active Directory 資訊，都在這裡協助確保您的伺服器伺服器陣列已成功安裝及部署。
-ms.openlocfilehash: 41faef4d02927e25e724b0c70922bdc6c5c3e05a
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: ea4ae18a3714058e0df4f42a0190046ce7006ef8
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40988808"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111377"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>商務用 Skype Server 2019 的系統需求
  
@@ -92,7 +92,7 @@ ms.locfileid: "40988808"
 |Windows Server 2016 <br/> ||
 ||
    
-此處所列作業系統以外的任何專案將無法正常運作;請不要嘗試安裝商務用 Skype Server 2019。 例如，[伺服器核心] 選項並未列出，因此不受支援。
+此處所列作業系統以外的任何專案將無法正常運作;請不要嘗試安裝商務用 Skype Server 2019。 例如，[伺服器核心] 選項並未列出，因此不受支援。  注意： Lync Server 2013 不支援 OS 就地升級。  您必須部署個別的 [池]，並將使用者遷移到具有不同 OS 的新池。
 
 > [!NOTE]
 > 
@@ -115,7 +115,7 @@ ms.locfileid: "40988808"
 |**軟體/角色**|**詳細資料**|
 |:-----|:-----|
 |Windows PowerShell 3。0  <br/> |所有商務用 Skype 伺服器伺服器都需要安裝 Windows PowerShell 3.0。  <br/> •此預設應該與 Windows Server 2016 一起安裝。<br/> |
-|Microsoft .NET Framework  <br/> |WCF 服務是以 Windows 功能安裝的**功能**，在 [**伺服器管理員**] 底下，最初不需要下載。 <br/> •您必須確認安裝此功能時，或者如果已安裝此功能，且您正在進行檢查，否則也會檢查並安裝**HTTP 啟用**選項，如下所示： <br/> ![螢幕擷取畫面顯示 .NET Framework 4.5 功能下的 HTTP 啟用選項。](../../SfbServer/media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png) <br/> 如果您有額外的快顯說明，請不要擔心需要安裝一些其他事項，才能安裝 HTTP 啟用。 這是正常的，按一下 [確定]，然後移至前面。 如果您沒有看到此快顯畫面，您可以假設這些專案已經安裝並繼續進行。  <br/> 安裝 Windows Server 2016 時，通常會安裝 Microsoft .NET Framework。 不過，商務用 Skype Server 需要 Microsoft .NET Framework 4.7 或4.8，因此您可能需要更新它。 您可以在[這裡](https://support.microsoft.com/en-us/help/3186497/the-net-framework-4-7-offline-installer-for-windows/)找到更新<br/> |
+|Microsoft .NET Framework  <br/> |WCF 服務是以 Windows 功能安裝的**功能**，在 [**伺服器管理員**] 底下，最初不需要下載。 <br/> •您必須確認安裝此功能時，或者如果已安裝此功能，且您正在進行檢查，否則也會檢查並安裝**HTTP 啟用**選項，如下所示： <br/> ![螢幕擷取畫面顯示 .NET Framework 4.5 功能下的 HTTP 啟用選項。](../../SfbServer/media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png) <br/> 如果您有額外的快顯說明，請不要擔心需要安裝一些其他事項，才能安裝 HTTP 啟用。 這是正常的，按一下 [確定]，然後移至前面。 如果您沒有看到此快顯畫面，您可以假設這些專案已經安裝並繼續進行。  <br/> 安裝 Windows Server 2016 時，通常會安裝 Microsoft .NET Framework。 不過，商務用 Skype Server 需要 Microsoft .NET Framework 4.7 或4.8，因此您可能需要更新它。 您可以在[這裡](https://support.microsoft.com/help/3186497/the-net-framework-4-7-offline-installer-for-windows/)找到更新<br/> |
 |媒體基礎  <br/> |針對 Windows Server 2016，Windows Media 格式設定執行時間會與 Microsoft 媒體基礎一起安裝。  <br/> 所有適用于會議的前端伺服器和標準版伺服器，都需要 Windows Media 格式執行時間來執行 Windows Media 音訊（.wma）檔案，這些檔案是通話駐留、宣告及回應群組應用程式，可供您使用通知和音樂進行播放。  <br/> |
 |Windows 身分識別基礎  <br/> |我們需要 Windows 身分識別基礎3.5，以支援商務用 Skype Server 2019 的伺服器對伺服器驗證案例。  <br/> •如果您是 Windows Server 2016，就不需要下載任何內容。 開啟 [**伺服器管理員**]，然後移至 [**新增角色及功能] 嚮導**。 **Windows 身分識別基礎 3.5**列在 [**功能**] 區段底下。 如果已選取，您就大功告成了。 否則選取它，然後按一下 **[下一步]** 以移至 [**安裝**] 按鈕。 <br/> |
 |遠端伺服器管理工具  <br/> |角色管理工具： AD DS 和 AD LDS 工具  <br/> |
@@ -273,7 +273,7 @@ Microsoft SQL Server 2016 （64位版本），而且您必須使用最新的更�
     
 在這些環境中，您可以有唯讀的網網域控制站嗎？ 只要有可用的可寫入網網域控制站，就能確定。
   
-請務必瞭解商務用 Skype Server 2019 不支援單一標示的網域。 他們是什麼？ 如果您有一個標示為 [contoso. 當地] 的根網域，那將會有任何問題。 如果您的根網域剛剛命名為 local，即表示不起作用，因此結果不支援此功能。 我們已[在這個知識庫文章中](https://support.microsoft.com/kb/300684/en-us)撰寫了更多相關資訊。
+請務必瞭解商務用 Skype Server 2019 不支援單一標示的網域。 他們是什麼？ 如果您有一個標示為 [contoso. 當地] 的根網域，那將會有任何問題。 如果您的根網域剛剛命名為 local，即表示不起作用，因此結果不支援此功能。 我們已[在這個知識庫文章中](https://support.microsoft.com/kb/300684/)撰寫了更多相關資訊。
   
 商務用 Skype Server 2019 也不支援重新命名網域。 如果您確實需要重新命名網域，您必須卸載商務用 Skype Server 2019、執行網域重新命名，然後重新安裝商務用 Skype Server 2019。
   
@@ -541,7 +541,7 @@ Survivable 分支裝置的憑證（特別是適用于商務用 Skype Server 2019
 
 商務用 Skype Server 2019 可以使用相同的檔案共用來儲存所有檔案。 您必須牢記下列事項：
   
-- 檔案共用必須是直接附加的儲存空間（DAS）或儲存區域網路（SAN），這包括分散式檔案系統（DFS），以及檔案存放區的獨立磁碟容錯陣列（RAID）。 如需 Windows Server 2012 DFS 的進一步閱讀，請參閱[此 DFS 頁面](https://technet.microsoft.com/en-us/library/jj127250.aspx)。
+- 檔案共用必須是直接附加的儲存空間（DAS）或儲存區域網路（SAN），這包括分散式檔案系統（DFS），以及檔案存放區的獨立磁碟容錯陣列（RAID）。 如需 Windows Server 2012 DFS 的進一步閱讀，請參閱[此 DFS 頁面](https://technet.microsoft.com/library/jj127250.aspx)。
     
 - 我們建議使用共用的群集來共用檔案。 如果您已經在使用其中一個，就應該群集 Windows Server 2012 或更高版本
 

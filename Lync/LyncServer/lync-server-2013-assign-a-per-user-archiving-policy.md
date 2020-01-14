@@ -5,17 +5,17 @@ ms.author: v-lanac
 author: lanachin
 TOCTitle: Assign a per-user archiving policy
 ms:assetid: a12ca483-b235-460f-b3fe-130fb3087264
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182560(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg182560(v=OCS.15)
 ms:contentKeyID: 48185014
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f82b2398002a1c2536c9a57b18f9276a9d138903
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 36d23e44e397a77f0d490d8fda27ee711d1c61c5
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40976407"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111577"
 ---
 # <a name="assign-a-per-user-archiving-policy-in-lync-server-2013"></a>在 Lync Server 2013 中指派每個使用者的存檔原則
 
@@ -28,7 +28,7 @@ ms.locfileid: "40976407"
 
 建立至少一個針對每位使用者的存檔原則之後，請使用本主題中的程式指派適當的原則，以指定是否要在伺服器上存檔特定使用者的內部通訊、外部通訊，或兩者。
 
-如需有關建立每使用者存檔原則的詳細資訊，請參閱[在 Lync Server 2013 中建立存檔原則，以啟用或停用特定網站或使用者的內部或外部通訊](lync-server-2013-creating-an-archiving-policy-to-enable-or-disable-archiving-of-internal-or-external-communications-for-specific-sites-or-users.md)。
+如需有關建立每使用者存檔原則的詳細資訊，請參閱[在 Lync Server 2013 中建立存檔原則，以啟用或停用特定網站或使用者的內部或外部通訊](lync-server-2013-create-archiving-policy-sites-users.md)。
 
 ## <a name="to-assign-a-per-user-archiving-policy"></a>指派每個使用者的存檔原則
 
@@ -90,7 +90,7 @@ ms.locfileid: "40976407"
 
 ## <a name="assigning-a-per-user-archiving-policy-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 指派每個使用者的存檔原則
 
-您可以使用 Windows PowerShell 和**Grant CsArchivingPolicy** Cmdlet 指派每個使用者的存檔原則。 您可以從 Lync Server 2013 管理命令介面或從 Windows PowerShell 遠端會話中執行此 Cmdlet。 如需使用遠端 Windows PowerShell 連線至 Lync Server 的詳細資料，請參閱 Lync Server Windows PowerShell 博客文章「快速入門：使用遠端 PowerShell 管理 Microsoft Lync Server 2010」 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。
+您可以使用 Windows PowerShell 和**Grant CsArchivingPolicy** Cmdlet 指派每個使用者的存檔原則。 您可以從 Lync Server 2013 管理命令介面或從 Windows PowerShell 遠端會話中執行此 Cmdlet。 如需使用遠端 Windows PowerShell 連線至 Lync Server 的詳細資料，請參閱 Lync Server Windows PowerShell 博客文章「快速入門：使用遠端 PowerShell 管理 Microsoft Lync Server 2010」 [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)。
 
 ## <a name="to-assign-a-per-user-archiving-policy-to-a-single-user"></a>將每個使用者的存檔原則指派給單一使用者
 
@@ -100,7 +100,7 @@ ms.locfileid: "40976407"
 
 ## <a name="to-assign-a-per-user-archiving-policy-to-multiple-users"></a>將每個使用者的存檔原則指派給多個使用者
 
-  - 這個命令會將每個使用者的存檔原則 RedmondArchivingPolicy 指派給擁有 [註冊機構] 池 atl-cs-001.litwareinc.com 之帳戶的所有使用者。 如需此命令中使用之篩選參數的詳細資訊，請參閱[move-csuser](https://technet.microsoft.com/en-us/library/gg398125\(v=ocs.15\)) Cmdlet 的相關檔。
+  - 這個命令會將每個使用者的存檔原則 RedmondArchivingPolicy 指派給擁有 [註冊機構] 池 atl-cs-001.litwareinc.com 之帳戶的所有使用者。 如需此命令中使用之篩選參數的詳細資訊，請參閱[move-csuser](https://technet.microsoft.com/library/gg398125\(v=ocs.15\)) Cmdlet 的相關檔。
     
         Get-CsUser -Filter {RegistrarPool -eq "atl-cs-001.litwareinc.com"} | Grant-CsArchivingPolicy -PolicyName "RedmondArchivingPolicy"
 
@@ -110,12 +110,12 @@ ms.locfileid: "40976407"
     
         Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName $Null
 
-如需詳細資訊，請參閱[Grant CsArchivingPolicy](https://technet.microsoft.com/en-us/library/gg398475\(v=ocs.15\)) Cmdlet 的說明主題。
+如需詳細資訊，請參閱[Grant CsArchivingPolicy](https://technet.microsoft.com/library/gg398475\(v=ocs.15\)) Cmdlet 的說明主題。
 
 ## <a name="see-also"></a>請參閱
 
 
-[在 Lync Server 2013 中建立存檔原則，以啟用或停用特定網站或使用者的內部或外部通訊的存檔](lync-server-2013-creating-an-archiving-policy-to-enable-or-disable-archiving-of-internal-or-external-communications-for-specific-sites-or-users.md)  
+[在 Lync Server 2013 中建立存檔原則，以啟用或停用特定網站或使用者的內部或外部通訊的存檔](lync-server-2013-create-archiving-policy-sites-users.md)  
 
 
 [在 Lync Server 2013 中指派每個使用者的原則](lync-server-2013-assigning-per-user-policies.md)

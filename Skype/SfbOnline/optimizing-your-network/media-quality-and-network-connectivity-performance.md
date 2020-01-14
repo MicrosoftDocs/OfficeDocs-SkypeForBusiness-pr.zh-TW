@@ -1,5 +1,5 @@
 ---
-title: 媒體質量和網路連線效能
+title: 媒體品質和網路連線效能
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: 本主題定義商務用 Skype Online 服務的一組網路效能需求，以及您可以如何選擇使用網際網路或 ExpressRoute，在您的網路和商務用 Skype Online （根據您的網路評估）之間的連線性連通. 如果您決定要部署 Azure ExpressRoute 以用於 Office 365 的專用連線，本檔也提供如何在不同的商務用 Skype Online 部署案例中規劃 ExpressRoute 連線的指導方針。
-ms.openlocfilehash: 5818c07bcc939d18275409fd34bb627be2f2abd9
-ms.sourcegitcommit: 4fb1c691f0f84d47e215c9c1775da9bdba875f61
+ms.openlocfilehash: de093cee8981a50e376a29eda3a38bae396e5ba3
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2019
-ms.locfileid: "37642682"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111497"
 ---
 # <a name="media-quality-and-network-connectivity-performance-in-skype-for-business-online"></a>商務用 Skype Online 中的媒體質量和網路連線效能
 
@@ -43,11 +43,11 @@ Azure ExpressRoute 不是 Office 365 服務的必要條件，包括商務用 Sky
 
 在商務用 Skype Online 即時媒體（音訊、影片及應用程式共用）品質上，有許多不同的因素，包括所使用的裝置、環境和網路連線能力。 
   
-#### <a name="devices"></a>台
+#### <a name="devices"></a>裝置
 
 在即時媒體會話中，所有參與者（例如耳機和網路 cams）所使用的媒體捕獲和轉譯裝置，都會對整體音訊與視頻品質產生很大的影響。 較低品質的裝置或裝置具有不正確的裝置驅動程式將會產生較低的音訊品質，並降低影像的圖像品質。 另一方面，經過認證的裝置或良好品質的裝置，可協助您進行回聲取消、雜色篩選、影片解析度和減少延遲。
   
-雖然不需要經過認證的音訊和視頻媒體裝置，但在商務用 Skype 中是強烈建議的裝置，以獲得最佳的媒體體驗。 如需所有商務用 Skype 認證裝置的清單，請參閱[商務用 skype 的電話和裝置](https://technet.microsoft.com/en-us/office/dn947482)。 您可以使用商務用 skype [Online 通話品質儀表板](/microsoftteams/turning-on-and-using-call-quality-dashboard)（在商務用**skype 系統管理中心**中找到）來驗證使用中的裝置是否正常運作，以及監控音訊與視頻媒體質量。
+雖然不需要經過認證的音訊和視頻媒體裝置，但在商務用 Skype 中是強烈建議的裝置，以獲得最佳的媒體體驗。 如需所有商務用 Skype 認證裝置的清單，請參閱[商務用 skype 的電話和裝置](https://technet.microsoft.com/office/dn947482)。 您可以使用商務用 skype [Online 通話品質儀表板](/microsoftteams/turning-on-and-using-call-quality-dashboard)（在商務用**skype 系統管理中心**中找到）來驗證使用中的裝置是否正常運作，以及監控音訊與視頻媒體質量。
   
 > [!TIP]
 > **已認證的裝置是取得最佳商務用 Skype 媒體質量體驗所需的裝置**。
@@ -60,7 +60,7 @@ Azure ExpressRoute 不是 Office 365 服務的必要條件，包括商務用 Sky
   
 若要更清楚地瞭解使用者的音訊和影片體驗，請使用商務用 Skype app**工具** > **選項** > **音訊裝置**或**視頻裝置**，以變更裝置的使用方式，並自訂其設定。
 
-#### <a name="network"></a>局域網
+#### <a name="network"></a>網路
 
 透過 IP 網路的即時媒體質量會受到網路連線品質的極大影響，但特別是下列數量：
   
@@ -164,12 +164,15 @@ QoS 可讓您將較高優先順序指派給攜帶音訊或視頻資料的網路�
   
 - 效能目標需要在任何公司的網路邊緣以及其最近的 Microsoft 網路邊緣之間進行連線，才能在同一洲上使用。
     
-- 網路效能目標會採用適當的頻寬和/或服務品質規劃。 當網路連線達到峰值負載時，這也適用于商務用 Skype 的即時媒體流量。 如需正確的頻寬與 QoS 規劃，請參閱[商務用 Skype Online 中的 ExpressRoute 與 QoS](https://support.office.com/en-us/article/ExpressRoute-and-QoS-in-Skype-for-Business-Online-20c654da-30ee-4e4f-a764-8b7d8844431d?ui=en-US&amp;rs=en-US&amp;ad=US)。
+- 網路效能目標會採用適當的頻寬和/或服務品質規劃。 當網路連線達到峰值負載時，這也適用于商務用 Skype 的即時媒體流量。 如需正確的頻寬與 QoS 規劃，請參閱[商務用 Skype Online 中的 ExpressRoute 與 QoS](https://support.office.com/article/ExpressRoute-and-QoS-in-Skype-for-Business-Online-20c654da-30ee-4e4f-a764-8b7d8844431d)。
     
 ## <a name="measuring-network-performance"></a>測量網路效能
 <a name="bkNetworkPerf"> </a>
 
 若要測量實際的網路效能（尤其是延遲與資料包遺失），請從任何公司的網路網站到網路邊緣，您可以使用 ping 等工具，針對從 Microsoft Edge 和資料執行的一組商務用 Skype 媒體轉送服務進行測試。中心網站。 
+
+>[!NOTE]
+> 透過 ping （ICMP）測量網路效能無法有效。 基於這個原因，下列的任意播 IP 會停止回應從2020年1月開始的 ICMP 要求。 為了有效測量網路的效果，Microsoft 建議[網路 Assesment 工具](https://www.microsoft.com/download/details.aspx?id=53885)。
   
 若要測試 Microsoft 網路的網際網路連線，建議您針對商務用 Skype 媒體轉送器的下列 VIPs 進行測試。 [*任意廣播] VIP*將解析為 Microsoft 網路 Edge 網站中最接近測試位置的媒體轉送 IP 位址。
   
@@ -236,7 +239,7 @@ Azure ExpressRoute 不是取得最佳商務用 Skype Online 媒體質量的需�
   
 Office 365 是一種高效能和安全的服務，可使用網際網路。 我們繼續投資新的安全性功能和地區邊緣節點，以持續改善安全性和效能。 Azure ExpressRoute 不是 Office 365 服務的必要條件，包括商務用 Skype Online。 Azure ExpressRoute 是提供的其中一個部署選項，可協助確保 Office 365 的連線符合商務用 Skype 網路的效能需求，並確保最佳的商務用 Skype Online 媒體質量體驗.
   
-針對商務用 Skype Online 媒體質量，您的公司網站與 Microsoft 網路邊緣之間的連線，必須符合[從商務用 skype 用戶端到 Microsoft 網路之網路效能需求的效能目標邊緣](media-quality-and-network-connectivity-performance.md#bkSfBClienttoEdge)，而且網路邊緣與 microsoft 網路邊緣之間的連線，符合網路[邊緣與 Microsoft 網路邊緣網路效能需求](media-quality-and-network-connectivity-performance.md#bkYourNetworkEdge)的效能目標。  
+針對商務用 Skype Online 媒體質量，您的公司網站與 microsoft 網路邊緣之間的連線，必須符合[從商務用 skype 用戶端到 microsoft 網路 edge 的網路效能需求](media-quality-and-network-connectivity-performance.md#bkSfBClienttoEdge)中的效能目標，而且您的網路邊緣與 microsoft 網路邊緣之間的連線速度，符合網路邊緣與[Microsoft 網路 edge 網路效能需求](media-quality-and-network-connectivity-performance.md#bkYourNetworkEdge)的效能目標。  
   
 您公司的物理網路連線也很重要，包括您的內部網路和雲端連接能力，以適應媒體流量的峰值。 Azure ExpressRoute 是多種方法，可協助客戶確保其商務用 Skype Online 雲端連線能力符合這些效能需求。
   
@@ -255,7 +258,7 @@ Office 365 是一種高效能和安全的服務，可使用網際網路。 我�
   
 ### <a name="internet-or-azure-expressroute"></a>網際網路或 Azure ExpressRoute？
 
-在針對商務用 Skype Online 作出網路連線選項的決定之前，客戶必須根據網路效能需求中所述的網路效能需求來評估其網路和目前的網際網路連線，[以連線至商務用 Skype Online](media-quality-and-network-connectivity-performance.md#bkNetworkPerf)。
+在針對商務用 Skype Online 作出網路連線選項的決定之前，客戶必須根據網路效能需求中所述的網路效能需求來評估其網路和目前[的網際網路連線，以連接至商務用 Skype online](media-quality-and-network-connectivity-performance.md#bkNetworkPerf)。
   
 如果目前網際網路連線的網路效能在高峰期間設定為足夠的容量，且符合從網站到 Microsoft 網路邊緣以及從網路邊緣到 Microsoft 網路邊緣的網路效能需求，您就可以繼續使用您現有的網際網路連線來連接至商務用 Skype Online。
   
@@ -269,7 +272,7 @@ Azure ExpressRoute 提供下列額外優點：
     
 - ExpressRoute 的設計目的是要在您的網路與 Microsoft 網路之間保留 DSCP QoS 標記。
     
-如需 ExpressRoute QoS 及容量規劃的詳細資訊，請參閱[商務用 Skype Online 中的 ExpressRoute 與 QoS](https://support.office.com/en-us/article/ExpressRoute-and-QoS-in-Skype-for-Business-Online-20c654da-30ee-4e4f-a764-8b7d8844431d?ui=en-US&amp;rs=en-US&amp;ad=US)。
+如需 ExpressRoute QoS 及容量規劃的詳細資訊，請參閱[商務用 Skype Online 中的 ExpressRoute 與 QoS](https://support.office.com/article/ExpressRoute-and-QoS-in-Skype-for-Business-Online-20c654da-30ee-4e4f-a764-8b7d8844431d)。
   
 ### <a name="can-i-setup-azure-expressroute-for-skype-for-business-online-only"></a>我可以只在商務用 Skype Online 中設定 Azure ExpressRoute 嗎？
 
@@ -286,7 +289,7 @@ Border 閘道通訊協定（BGP）是網際網路上的路由通訊協定，用�
   
 ### <a name="online-only-deployment---single-site"></a>僅限線上部署-單一網站
 
-如果您的所有使用者都使用商務用 Skype Online 服務，而且您的辦公室是以單一物理位置為中心，而您決定要部署 Azure ExpressRoute，您應該在公司網站之間設定單一 ExpressRoute 連線到最接近的[ExpressRoute 對等位置](https://azure.microsoft.com/documentation/articles/expressroute-locations/)。
+如果您的所有使用者都使用商務用 Skype Online 服務，而且您的辦事處是以單一物理位置為中心，而您決定要部署 Azure ExpressRoute，您應該在公司網站之間設定單一 ExpressRoute 連線到最接近的[expressroute 對等位置](https://azure.microsoft.com/documentation/articles/expressroute-locations/)。
   
 下圖顯示此類型部署的範例。 在這個範例中，Contoso 是位於佛羅里達州奧蘭多的大學。 Contoso 擁有10000教職員和學生。 從其位置到 Microsoft edge 網站的網際網路測試，在高峰課程時間顯示的資料包遺失率超過5%。 他們決定使用 ExpressRoute 與預配的頻寬來取得 Office 365 的專用連線，讓他們可以避免 Office 365 的網路擁塞，特別是適用于商務用 Skype Online 的實際時間流量。 在亞特蘭大、GA MeetMe 網站上，他們會透過 ExpressRoute 連線至 Microsoft 雲端。
   
@@ -298,13 +301,13 @@ Border 閘道通訊協定（BGP）是網際網路上的路由通訊協定，用�
   
 在下列範例中，Contoso 是總部在紐約的美國旅遊服務公司，但在美國還有其他辦事處。 其辦公室是透過使用 MPLS 來連接至 Office 365 的 WAN 進行連結。 它們最初是從其網際網路路由器設定 ExpressRoute 連線，在 Hoboken 中，新的澤西至紐約 MeetMe 網站。 
   
-透過這項設定，從許多網站到 Microsoft 網路（紐約邊緣網站）的網路流量，可以符合商務用 skype 用戶端連線網路效能目標（在[商務用 skype 用戶端的網路效能需求中描述）至 Microsoft 網路 Edge](media-quality-and-network-connectivity-performance.md#bkSfBClienttoEdge)。 不過，Contoso 的 west 海岸辦公室之間的延遲到紐約，都是單向的50ms。 此外，Honolulu 是 Contoso 的第二大 office，從 Honolulu 到紐約的延遲超過80ms 的單向。 為了確保這些辦公室中的使用者具備良好的媒體質量，Contoso 決定在其聖約瑟網站和矽低谷 ExpressRoute MeetMe 網站之間新增 west coast ExpressRoute 連線。
+透過這項設定，來自大多數網站的網路流量都可以從商務用 skype 用戶端連線至 microsoft 網路 Edge，以符合商務用 skype 客戶[端的網路效能需求](media-quality-and-network-connectivity-performance.md#bkSfBClienttoEdge)。 不過，Contoso 的 west 海岸辦公室之間的延遲到紐約，都是單向的50ms。 此外，Honolulu 是 Contoso 的第二大 office，從 Honolulu 到紐約的延遲超過80ms 的單向。 為了確保這些辦公室中的使用者具備良好的媒體質量，Contoso 決定在其聖約瑟網站和矽低谷 ExpressRoute MeetMe 網站之間新增 west coast ExpressRoute 連線。
   
 ![同一洲上有多個網站的快速路由器。](../images/bf57a473-01e1-4271-9675-385767bc58e1.png)
   
 ### <a name="online-only-deployment---multiple-sites-on-different-continents"></a>僅限線上部署-不同洲的多個網站
 
-如果您的所有使用者都是使用商務用 Skype Online 服務，而且您的辦事處位於多個洲的多個物理位置，則如果您決定要部署 Azure ExpressRoute，您應該為每個洲至少設定一個 ExpressRoute 連接在每個洲的主要網站之間，移至最接近的[ExpressRoute 對等位置](https://azure.microsoft.com/documentation/articles/expressroute-locations/)。 根據成本與收益，您可以選擇從不符合網路效能目標的網站部署其他 ExpressRoute 連線。
+如果您的所有使用者都是使用商務用 Skype Online 服務，而且您的辦事處位於多個洲的多個物理位置，則如果您決定要部署 Azure ExpressRoute，您應該針對其最接近的[expressroute 對等位置](https://azure.microsoft.com/documentation/articles/expressroute-locations/)，為每個洲主要網站的每個洲至少設定一個 ExpressRoute 連線。 根據成本與收益，您可以選擇從不符合網路效能目標的網站部署其他 ExpressRoute 連線。
   
 在下列範例中，Contoso 是一個大型企業法律公司，其中主要城市遍佈北美和歐洲的辦事處。 根據網際網路連線和其內部網路效能評估，Contoso 決定在北美使用兩個 ExpressRoute 連線，並針對其所有歐洲辦事處部署單一 ExpressRoute 電路。
   
@@ -314,7 +317,7 @@ Border 閘道通訊協定（BGP）是網際網路上的路由通訊協定，用�
 
 如果您擁有內部部署的 Lync 或商務用 Skype 部署，然後選擇要實施混合式商務用 Skype Online 整合，我們建議您在部署 Azure ExpressRoute 時，每個專案都必須具備至少一個 ExpressRoute 連接內部部署 Lync 或商務用 Skype Edge 網站，以及每個有辦事處的洲都至少有一個 ExpressRoute 連線。 根據成本與收益，您可以選擇從不符合網路效能目標的辦公室部署其他 ExpressRoute 連線。
   
-如果您有內部部署商務用 Skype 部署，您必須遵循[Edge 伺服器規劃與部署指南](https://technet.microsoft.com/en-us/library/mt346417.aspx)。 具體說來，邊緣伺服器必須可從您的網路外部進行訪問。 這通常是將可路由的公用 IP 位址指派給 Edge 伺服器，或使用網路位址轉譯（NAT）來實現。
+如果您有內部部署商務用 Skype 部署，您必須遵循[Edge 伺服器規劃與部署指南](https://technet.microsoft.com/library/mt346417.aspx)。 具體說來，邊緣伺服器必須可從您的網路外部進行訪問。 這通常是將可路由的公用 IP 位址指派給 Edge 伺服器，或使用網路位址轉譯（NAT）來實現。
   
 在下列範例中，Contoso 已有內部部署商務用 Skype Enterprise Voice 部署。 他們想要將內部部署使用者遷移至 Office 365 線上服務。 它們也決定使用混合式部署，讓他們可以繼續針對所有內部部署和線上使用者使用其現有的 PSTN 基礎結構。 Contoso 的內部部署資料中心與商務用 Skype Edge 伺服器位於芝加哥。 針對其部署，Contoso 決定在其芝加哥資料中心與芝加哥 ExpressRoute 之間設定一個 ExpressRoute 連線。 它們也新增了 [west coast ExpressRoute] 連線，以更好地提供其 Honolulu office。
   
@@ -326,9 +329,9 @@ Border 閘道通訊協定（BGP）是網際網路上的路由通訊協定，用�
   
 如果您決定要部署 Azure ExpressRoute 和雲端連接器版本，我們建議您為每個洲的主要網站設定至少一個 Express 路由連線至最接近的[ExpressRoute 對等位置](https://azure.microsoft.com/documentation/articles/expressroute-locations/)。 根據成本與收益，您可以選擇從無法符合網路效能目標的網站部署其他 ExpressRoute 連線。
   
-如果您有內部部署商務用 Skype 部署，您必須遵循[商務用 Skype 雲端連接器版本的規劃指南](https://technet.microsoft.com/EN-US/library/mt605227.aspx)。 具體來說，應該將存取邊緣與 A/V 邊緣服務指派給公用 IP 位址，並從 Office 365 資料中心存取。
+如果您有內部部署商務用 Skype 部署，您必須遵循[商務用 Skype 雲端連接器版本的規劃指南](https://technet.microsoft.com/library/mt605227.aspx)。 具體來說，應該將存取邊緣與 A/V 邊緣服務指派給公用 IP 位址，並從 Office 365 資料中心存取。
   
-在下列範例中，Contoso 是一個歐洲會計公司，其中有幾個主要的歐洲國家/地區和市集中的目前狀態。 當他們註冊商務用 Skype Online 以瞭解他們的所有共同作業需求時，他們會決定要為每個國家/地區加入一個雲端連接器，以繼續使用其 PSTN 基礎結構和已存在的載波合約。 根據其所有網站和 Microsoft 網路邊緣的測試，他們決定倫敦的單一 ExpressRoute 連線將有助於符合網路效能中所述的商務用 Skype 用戶端連線網路效能目標[從商務用 Skype 用戶端到 Microsoft 網路 Edge 的需求](media-quality-and-network-connectivity-performance.md#bkSfBClienttoEdge)。
+在下列範例中，Contoso 是一個歐洲會計公司，其中有幾個主要的歐洲國家/地區和市集中的目前狀態。 當他們註冊商務用 Skype Online 以瞭解他們的所有共同作業需求時，他們會決定要為每個國家/地區加入一個雲端連接器，以繼續使用其 PSTN 基礎結構和已存在的載波合約。 根據其在所有網站和 Microsoft 網路邊緣的測試，他們決定倫敦的單一 ExpressRoute 連線將可協助符合商務用 skype 用戶端連線網路的效能目標，具體說明請參閱[商務用 skype 用戶端到 Microsoft 網路 Edge 的網路效能需求](media-quality-and-network-connectivity-performance.md#bkSfBClienttoEdge)。
   
 ![ExpressRoute 雲端連接器1。](../images/ebdc96e5-b22a-4bf2-b668-062460b4b890.png)
   

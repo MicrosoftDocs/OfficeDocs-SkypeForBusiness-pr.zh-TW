@@ -20,12 +20,12 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: 瞭解如何在團隊中管理會議原則設定。
-ms.openlocfilehash: ba44188d978c9109d1ba3d038c5b1f48d0670746
-ms.sourcegitcommit: 43cab5f0fc8692174db09badf3d448e8ff6a50d6
+ms.openlocfilehash: a3978b3615fabbff000a20d53408d4fbc1d98f12
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40744867"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111707"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>在團隊中管理會議原則
 
@@ -262,6 +262,9 @@ Daniela 託管的會議可讓會議參與者共用整個螢幕或特定的應用
 |Babek    | Location1MeetingPolicy        | 虛假   |
 
 Daniela 可以將共用桌面或視窗控制權提供給依 Babek 組織的會議中的其他參與者，但 Babek 無法將控制權授與其他參與者。
+
+> [!NOTE]
+> 若要在共用期間提供並控制共用的內容，雙方都必須使用小組桌面用戶端。 當某個參與方在瀏覽器中執行團隊時，不支援此控制項。 這是由於我們計畫修正的技術限制所造成。 
 
 ### <a name="allow-an-external-participant-to-give-or-request-control"></a>允許外部參與者授與或要求控制
 

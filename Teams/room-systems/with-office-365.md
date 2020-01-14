@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: 如需有關如何使用 Office 365 部署 Microsoft 團隊聊天室的資訊，請閱讀本主題。
-ms.openlocfilehash: 467a7300a2912dcaffe66a44f0f6e181d36ced1c
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: cda552fbc38196751ccdcc105bcf9973fe321edd
+ms.sourcegitcommit: 208179a3dd166f53b5a3058242cb84207909f4ee
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38675437"
+ms.lasthandoff: 01/13/2020
+ms.locfileid: "41104472"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-office-365"></a>使用 Office 365 部署 Microsoft 團隊聊天室
 
@@ -205,7 +205,7 @@ ms.locfileid: "38675437"
 
 4. 按一下 [**授權**] 選項。
 
-5. 在 [**指派授權**] 區段中，您必須選取 [商務用 skype Online （方案2）] 或 [商務用 skype Online （方案3）]，這取決於您的授權，以及您在需要企業語音時所決定的內容。 如果您想要在 Microsoft 團隊聊天室使用雲端 PBX，您必須使用 [方案3授權]。 您至少需要 CloudPBX 才能進行語音連線。 然後根據 PSTN 連接方法設定混合式語音或 PSTN 通話。 如需詳細資訊，請參閱[Microsoft 團隊聊天室授權](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)。
+5. 在 [**指派授權**] 區段中，您必須選取 [商務用 skype Online （方案2）] 或 [商務用 skype Online （方案3）]，這取決於您的授權，以及您在需要企業語音時所決定的內容。 如果您想要在 Microsoft 團隊聊天室使用雲端 PBX，您必須使用 [方案3授權]。 您至少需要 CloudPBX 才能進行語音連線。 然後根據 PSTN 連接方法設定混合式語音或 PSTN 通話。 如需詳細資訊，請參閱[Microsoft 團隊聊天室授權](skype-room-systems-v2.md)。
 
 6. 按一下 [**儲存**] 以完成工作。
 
@@ -263,4 +263,4 @@ Enable-CsMeetingRoom -Identity rigel1@contoso.onmicrosoft.com -RegistrarPool sip
 
 [管理 Microsoft 團隊聊天室](skype-room-systems-v2.md)
 
-[Microsoft 團隊聊天室授權](/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)
+[Microsoft 團隊聊天室授權](skype-room-systems-v2.md)

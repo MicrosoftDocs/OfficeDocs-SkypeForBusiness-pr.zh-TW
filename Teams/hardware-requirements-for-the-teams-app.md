@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fd53a3bb39ba48046ce7670c567f630659daee62
-ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
+ms.openlocfilehash: e2efddf5248c045a7f3f2daf0ef250027cd15127
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40970961"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111347"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Microsoft 團隊應用程式的硬體需求
 
@@ -37,7 +37,7 @@ ms.locfileid: "40970961"
 |硬碟    | 3.0 GB 的可用磁碟空間        |
 |顯示幕    |   1024 x 768 畫面解析度 |
 |圖形硬體 |  最小 128 MB 圖形記憶體
-|作業系統  |    Windows 10、Windows 8.1 或32位與64位的 Windows 7 Service Pack 1。 為了獲得最佳體驗，請使用最新版本的任何作業系統。|
+|作業系統  |    Windows Server 2012 R2 +、Windows 10、Windows 8.1 或32位和64位的 Windows 7 Service Pack 1。 為了獲得最佳體驗，請使用最新版本的任何作業系統。|
 |.NET 版本    |  需要 .NET 4.5 CLR 或更新版本       |
 |顯示器    |  USB 2.0 攝影機       |
 |裝置    |   標準膝上型電腦相機、麥克風和喇叭    | 

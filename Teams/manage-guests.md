@@ -14,12 +14,12 @@ search.appverid: MET150
 description: IT 管理員可以在租使用者層級新增來賓、設定及管理來賓使用者原則和許可權、決定哪些使用者可以邀請客人，以及拉入來賓使用者活動的報告。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 41630c14c7d1aa9233f53df3c83bd36081d18682
-ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
+ms.openlocfilehash: 42910da02c55866e0ce4e04a099b60e55577ab8c
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37753288"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111357"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>管理 Microsoft 團隊中的來賓存取權
 ======================================
@@ -27,7 +27,7 @@ ms.locfileid: "37753288"
 > [!IMPORTANT]
 > 您可能必須等候長達24小時，變更才會生效。 
 
-**來賓**是 Microsoft 團隊中的使用者類型，包含在所有 Office 365 商務版 Premium、Office 365 企業版和 Office 365 教育版訂閱中。 不需要額外的 Office 365 授權。 請參閱以下有關[來賓存取授權](#guest-access-licensing-limits)的詳細資訊。
+**來賓**是 Microsoft 團隊中的使用者類型，包括所有 Office 365 商務版 Premium、Office 365 企業版、Office 365 商務基本版和 Office 365 教育版訂閱。 您不需要額外的 Office 365 授權。 請參閱以下有關[來賓存取授權](#guest-access-licensing-limits)的詳細資訊。
 
 [團隊訪客存取] 是租使用者層級設定，預設為關閉狀態。 如需如何開啟來賓存取的詳細資料，請參閱[開啟或關閉對團隊的來賓存取權](set-up-guests.md)，或使用[來賓存取檢查清單](guest-access-checklist.md)逐步引導您完成設定。
 
@@ -47,7 +47,7 @@ IT 管理員可以在租使用者層級新增來賓、設定及管理來賓使�
 
 ## <a name="guest-access-licensing-limits"></a>來賓存取授許可權制
 
-小組不會限制您可以新增的來賓數目。 不過，可以新增至您租使用者的來賓總數，是根據 Azure AD 授權所允許的內容，這通常是每個授權使用者的5個來賓。 如需詳細資訊，請參閱[AZURE AD B2B](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)共同版授權。
+Teams 未限制您可以新增的來賓數量。 然而，可以新增至租用戶的來賓總數會依據您 Azure AD 授權的允許量而定，通常是每位授權使用者允許 5 位來賓。 如需詳細資訊，請參閱 [Azure AD B2B 共同作業授權](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)。
 
 由於這些授許可權制（並將您的租使用者保持在最新狀態），因此您應該定期檢查來賓存取權，以找出有權存取不需要的使用者。 您可以使用 Azure AD 來建立群組成員或指派給應用程式的使用者的存取權審查。 建立週期性存取檢查可節省您的時間。 如果您需要例行查看有權存取應用程式或群組成員的使用者，您可以定義這些評論的頻率。 
 
@@ -64,11 +64,11 @@ IT 管理員可以在租使用者層級新增來賓、設定及管理來賓使�
 針對 Azure Active Directory 中的來賓存取設定，您需要2-24 小時才能讓變更在您的 Office 365 組織中生效。 當使用者嘗試將來賓新增到其小組時，如果使用者看到「與您的系統管理員聯繫」的訊息，可能是因為來賓功能尚未開啟，或設定尚未生效。 如需設定來賓存取問題的相關說明，請參閱[疑難排解團隊中的來賓存取權](troubleshoot-guest-access.md)。
 
   
-## <a name="external-access-federation-vs-guest-access"></a>外部存取（同盟）與來賓存取
+## <a name="external-access-federation-vs-guest-access"></a>外部存取 (同盟) 與來賓存取
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
-## <a name="more-information"></a>其他資訊
+## <a name="more-information"></a>詳細資訊
 
 如需使用 PowerShell 來管理來賓存取的相關資訊，請參閱[使用 powershell 控制對團隊的來賓存取權](guest-access-powershell.md)。
 

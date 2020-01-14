@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: 摘要：使用本主題準備商務用 Skype Server 2015 伺服器。 硬體、作業系統、資料庫、軟體、所有系統需求與建議都在這裡，以協助確保您的伺服器伺服器陣列已成功安裝和部署。
-ms.openlocfilehash: a028ce7265718c0ce14b103bca8dcdb416e72885
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 8a3771f66a2fe83f8772a8a5a07f643d372d7c1d
+ms.sourcegitcommit: 208179a3dd166f53b5a3058242cb84207909f4ee
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40989278"
+ms.lasthandoff: 01/13/2020
+ms.locfileid: "41104422"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>商務用 Skype Server 2015 的伺服器需求
  
@@ -72,7 +72,7 @@ ms.locfileid: "40989278"
 |Windows Server 2012 R2 Datacenter OS，已安裝所有必要的更新。  <br/> |Windows Server 2012 R2 標準作業系統已安裝所有必要的更新。  <br/> |
 |Windows Server 2012 Datacenter OS，已安裝所有必要的更新。  <br/> |Windows Server 2012 標準作業系統已安裝所有必要的更新。  <br/> |
    
-如果它不在此清單中，就無法正常運作，請不要嘗試在新的商務用 Skype Server 2015 上安裝。
+如果它不在此清單中，就無法正常運作，請不要嘗試在新安裝的商務用 Skype Server 2015 中使用。 請注意，Lync Server 2013 不支援就地升級作業系統。  您必須部署個別的 [池]，並將使用者遷移到具有不同作業系統的新池。
   
 > [!NOTE]
 > 您可能已經注意到 Windows Server 2008 R2 不在此清單中。 這是因為我們建議將所有新伺服器的 Windows Server 2012 R2 用於 SFB。 您應該只有在已安裝 Lync Server 2013 的現有伺服器，且您想要進行就地升級時，才能使用 Windows Server 2008 R2。 Windows Server 2008 R2 已達到1/13/2015 上主流支援週期的結尾，並將于其在1/14/2020 的支援週期終點結束。

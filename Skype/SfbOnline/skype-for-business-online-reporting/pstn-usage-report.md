@@ -1,5 +1,5 @@
 ---
-title: PSTN 使用狀況報告
+title: PSTN 使用報告
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,14 +18,14 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 新的商務用 Skype 系統管理中心報告區域會顯示您組織中的通話和音訊會議活動。 它可讓您深入探索報表，讓您更精確地瞭解每個使用者的活動。 例如，您可以使用 [商務用 Skype PSTN 使用詳細資料] 報告來查看輸入/撥出通話中花費的分鐘數，以及這些通話的成本。 您可以查看音訊會議 PSTN 使用狀況詳細資料（包括通話成本），以便了解您的使用方式，以及撥打帳單詳細資料來判斷貴組織內的使用方式。
-ms.openlocfilehash: bb6c2456a103782caea72baef5ac6e8df26a24a2
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 8f1818a3c80f04676c9e39f424737c3f10cd57e7
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "37642485"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111447"
 ---
-# <a name="pstn-usage-report"></a>PSTN 使用狀況報告
+# <a name="pstn-usage-report"></a>PSTN 使用報告
 
 新的商務用 Skype 系統管理中心**報告**區域會顯示您組織中的通話和音訊會議活動。 它可讓您深入探索報表，讓您更精確地瞭解每個使用者的活動。 例如，您可以使用 [**商務用 SKYPE PSTN 使用詳細資料**] 報告來查看輸入/撥出通話中花費的分鐘數，以及這些通話的成本。 您可以查看音訊會議 PSTN 使用狀況詳細資料（包括通話成本），以便了解您的使用方式，以及撥打帳單詳細資料來判斷貴組織內的使用方式。
   
@@ -65,12 +65,12 @@ ms.locfileid: "37642485"
      **通話方案呼叫類型** 
      *    **user_in** （使用者收到輸入 PSTN 通話） 
      *    **user_out** （使用者已發出出站 PSTN 通話） 
-     *    **user_out_conf** （使用者已在通話中新增2個或多個 PSTN 參與者，例如3路會議通話） 
+     *    **user_out_conf** （使用者已將2個或更多 PSTN 參與者加入通話中，例如3路會議通話） 
      *    **user_out_transfer** （使用者已將來電轉接至 PSTN 號碼） 
-     *    **user_out_forwarding** （使用者將來電轉接至 PSTN 號碼）
+     *    **user_out_forwarding** （使用者將呼叫轉寄至 PSTN 號碼）
 
      **音訊會議呼叫類型**
-     *    **conf_in** （對音訊會議橋接器的撥入通話） 
+     *    **conf_in** （撥入通話至音訊會議橋） 
      *    **conf_out** （來自音訊會議橋接的呼出通話通常是將 PSTN 號碼新增到會議）
 
      **整合通訊應用程式（UCAP）** 
@@ -104,10 +104,8 @@ ms.locfileid: "37642485"
 ***
 ![數位2](../images/sfbcallout2.png)<br/>按一下以將欄拖曳至依據特定欄進行分組，如果您想要建立一個將一或多個欄中的所有資料組成群組的視圖 **，請在這裡拖曳欄標題**。
  ***
-![數位3](../images/sfbcallout3.png)<br/>您也可以透過按一下或敲擊 [**匯出至 EXCEL** ] 按鈕，將報告資料匯出至索引標籤分隔的 excel 檔案。 您最多可以從目前日期匯出一年的資料。<br/><br/> 這會匯出所有使用者的資料，並可讓您進行簡單的排序與篩選，以進行進一步分析。 如果您的使用者少於2000，您可以在報表本身的資料表中排序和篩選。 
-    > [!Note] 
-    > Despite the export file named as .CSV (which implies a comma delimited export), as there may be commas in the data set, the file is actually delimited with **TABS** and not **COMMAS**.
-
+![數位3](../images/sfbcallout3.png)<br/>您也可以透過按一下或敲擊 [**匯出至 Excel** ] 按鈕，將報告資料匯出為逗號分隔的 Excel 檔案。 除非國家或地區的特定規定禁止將資料保留12個月，否則您可以從目前日期開始匯出一年的資料。<br/><br/> 這會匯出所有使用者的資料，並可讓您進行簡單的排序與篩選，以進行進一步分析。 如果您的使用者少於2000，您可以在報表本身的資料表中排序和篩選。 
+    
 ## <a name="want-to-see-other-skype-for-business-reports"></a>想要查看其他商務用 Skype 報表嗎？
 
 - [商務用 Skype 活動報告](activity-report.md)您可以查看使用者使用對等、組織的方式，以及參與會議會話的數量。
