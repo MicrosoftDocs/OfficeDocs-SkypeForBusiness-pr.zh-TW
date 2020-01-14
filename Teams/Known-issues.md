@@ -366,7 +366,7 @@ ms.locfileid: "40990648"
 
 |**問題標題**|**行為/徵狀**|**已知的因應措施**|**發現日期**|
 |:-----|:-----|:-----|:-----|
-|Symantec DLP 與 Teams 之間的交互操作性問題 <br/> |Symantec DLP 端點代理程式可能會干擾 Teams 程序，而這可能會導致啟動或結束失敗。  <br/> |如此 <a href="https://support.symantec.com/us/en/article.TECH220322.html">Symantec 支援文章</a>所述，從 Symantec DLP 的端點代理中排除 (加入白名單) Teams.exe。 <br/> |2019/7/15  <br/> |
+|Symantec DLP 與 Teams 之間的交互操作性問題 <br/> |Symantec DLP 端點代理程式可能會干擾 Teams 程序，而這可能會導致啟動或結束失敗。  <br/> |如此 <a href="https://support.symantec.com/us/en/article.TECH220322.html">Symantec 支援文章</a>所述，從 Symantec DLP 的端點代理中排除 (加入允許清單) Teams.exe。 <br/> |2019/7/15  <br/> |
 
 |**問題標題**|**行為/徵狀**|**已知的因應措施**|**發現日期**|
 |:-----|:-----|:-----|:-----|
