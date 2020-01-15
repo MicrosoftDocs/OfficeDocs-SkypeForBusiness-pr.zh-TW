@@ -20,12 +20,12 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: 瞭解如何在團隊中管理會議原則設定。
-ms.openlocfilehash: a3978b3615fabbff000a20d53408d4fbc1d98f12
-ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
+ms.openlocfilehash: 20382a41ac8d0a78d56ebcb51e852f5302ea74a7
+ms.sourcegitcommit: 447c5ffc27c5b0928e033f85914810af56e510ef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 01/14/2020
-ms.locfileid: "41111707"
+ms.locfileid: "41120393"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>在團隊中管理會議原則
 
@@ -120,7 +120,7 @@ ms.locfileid: "41111707"
 
 ### <a name="allow-channel-meeting-scheduling"></a>允許頻道會議排程
 
-這是針對每個使用者的原則，在會議開始之前就會套用。 此設定控制使用者是否可在團隊頻道中排程會議。  如果您關閉此功能，當使用者在團隊頻道中開始會議，且在小組中的會議排程會議時，使用者將無法使用 [**排程會議**] 選項，使用者就無法使用 [**選取要開會的頻道**] 選項。
+這是針對每個使用者的原則，在會議開始之前就會套用。 此設定控制使用者是否可在團隊頻道中排程會議。  如果您關閉此功能，當使用者在團隊頻道中開始會議，且團隊中的使用者停用 [**新增頻道**] 選項時，系統將無法使用 [**排程會議**] 選項。
 
 ![顯示團隊中的 [排程會議] 選項的螢幕擷取畫面](media/meeting-policies-schedule-a-meeting.png)
 
@@ -130,7 +130,7 @@ ms.locfileid: "41111707"
 
 這是針對每個使用者的原則，在會議開始之前就會套用。 此設定可控制使用者是否可以在小組中排程私人會議。 如果會議不是發佈至小組中的頻道，就是私人的。
 
-請注意，如果您關閉 [**允許排程私人會議**] 和 [**允許頻道會議排程**]，則無法使用 [**排程會議**] 選項，而且使用者將無法在小組中排程會議。
+請注意，如果您關閉 [**允許排程私人會議**] 和 [**允許頻道會議排程**]，就會針對小組中的使用者停用 [**新增必要的出席**者] 和 [**新增頻道**] 選項。
 
 <a name="bkaudioandvideo"> </a>
 
@@ -263,6 +263,8 @@ Daniela 託管的會議可讓會議參與者共用整個螢幕或特定的應用
 
 Daniela 可以將共用桌面或視窗控制權提供給依 Babek 組織的會議中的其他參與者，但 Babek 無法將控制權授與其他參與者。
 
+若要使用 PowerShell 來控制誰可以授與控制權或接受控制要求，請使用 AllowParticipantGiveRequestControl Cmdlet。
+
 > [!NOTE]
 > 若要在共用期間提供並控制共用的內容，雙方都必須使用小組桌面用戶端。 當某個參與方在瀏覽器中執行團隊時，不支援此控制項。 這是由於我們計畫修正的技術限制所造成。 
 
@@ -276,6 +278,8 @@ Daniela 可以將共用桌面或視窗控制權提供給依 Babek 組織的會�
    - 聯盟使用者  
 
 聯盟使用者是否可在共用時授與外部使用者控制權，由允許外部參與者在其組織中**提供或要求控制**設定。
+
+若要使用 PowerShell 來控制外部參與者是否可以授與控制權或接受控制權要求，請使用 AllowExternalParticipantGiveRequestControl Cmdlet。
 
 ### <a name="allow-powerpoint-sharing"></a>允許 PowerPoint 共用
 
