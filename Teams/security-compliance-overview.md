@@ -17,17 +17,19 @@ f1keywords:
 - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95f8910005121faceb261a399ed64a4f68e5cad4
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 56491fdde5dbd47e91f8c6f2386564b9e78160d3
+ms.sourcegitcommit: f742ad9ba61d6cc52a9ed6885d1f2893bcfad354
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40988798"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "41165613"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Microsoft 團隊中的安全性與合規性概述
 ======================================================
 
 Microsoft 團隊是以 Office 365 超規模、企業級的雲端為基礎，提供客戶預期的高級安全性與合規性功能。
+
+如需有關團隊安全性與合規性的簡短簡介（12:42 分），請觀看這段影片：[適用于 IT 的 Microsoft 團隊基本版：安全性與合規性](https://youtu.be/91lHNKVVvQ4)。
 
 團隊是標準的層級。 這包括下列標準： ISO 27001、ISO 27018、SSAE16 SOC 1 和 SOC 2、HIPAA 以及歐盟模型子句（EUMC）。 在 Microsoft 合規性架構中，Microsoft 將 Office 365 應用程式和服務分類成四種類別。 每個類別都是由要在該類別中列出的 Office 365 服務或相關 Microsoft 服務所需符合的特定合規性承諾所定義。
 

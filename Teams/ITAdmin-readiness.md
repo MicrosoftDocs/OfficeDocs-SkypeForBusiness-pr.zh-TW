@@ -16,12 +16,12 @@ f1keywords:
 description: 針對系統管理員如何規劃、部署及執行 Microsoft 團隊的訓練影片、PowerPoint 卡座、教學課程及其他資源。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e0fd8f08094549e26612872b73d42b96cbbb0080
-ms.sourcegitcommit: 2fd1fcb0e5944f36261e551df04819713d868a11
+ms.openlocfilehash: 3216327e5977429ca1d794dc719c89a216fe8fb9
+ms.sourcegitcommit: f742ad9ba61d6cc52a9ed6885d1f2893bcfad354
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "39886180"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "41165603"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Microsoft 團隊的系統管理訓練
 
@@ -90,7 +90,7 @@ ms.locfileid: "39886180"
 
 | 模組 | 顯示器 | PowerPoint 投影片組 |
 | ------------ | -------------------- | -------------------- |
-| [Microsoft 結構-IT YouTube 頻道的團隊基本套件](https://aka.ms/MicrosoftTeamsforIT) | [影片：團隊基本](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn)版（最小10:13）<br>[影片：部署 & 設定團隊-簡介](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2)（8:22 分鐘）  ||
+| [Microsoft 結構-IT YouTube 頻道的團隊基本套件](https://aka.ms/MicrosoftTeamsforIT) | [影片：團隊基本](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn)版（最小10:13）<br>[影片：部署 & 設定團隊-簡介](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2)（8:22 分鐘）  <br>[影片：安全性與合規性](https://youtu.be/91lHNKVVvQ4)（12:42 分鐘）||
 | 地基-核心元件 | [顯示器](https://aka.ms/teams-foundations) | [文稿](https://aka.ms/teams-foundations-deck) |
 | Windows 桌面用戶端 | [顯示器](https://aka.ms/teams-clients) | [文稿](https://aka.ms/teams-clients-deck) |
 | 管轄、管理與生命週期 | [顯示器](https://aka.ms/teams-governance) | [文稿](https://aka.ms/teams-governance-deck) |
