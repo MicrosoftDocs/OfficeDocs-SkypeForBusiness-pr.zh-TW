@@ -244,7 +244,6 @@
 ### [通話共用和群組來電接聽](call-sharing-and-group-call-pickup.md)
 ### [通話原則](teams-calling-policy.md)
 ### [共用線路外觀](shared-line-appearance.md)
-### [了解使用者如何在 Teams 用戶端封鎖 PSTN 通話](block-pstn-calls-on-Teams-clients.md)
 
 
 ## 通話方案

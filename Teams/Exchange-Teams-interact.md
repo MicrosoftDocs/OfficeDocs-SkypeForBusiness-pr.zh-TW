@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b7ca2b091cfe27c1e81d429ac95f085b52c8465d
-ms.sourcegitcommit: c15ab82834005b9a19247e06488f1f21161fc426
+ms.openlocfilehash: 6c3f0b5c545f1a7e8900c01a79544079ea4fedcc
+ms.sourcegitcommit: bcac0d94f6eb7132fc17b0ace62e7028f77b0ee6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/13/2019
-ms.locfileid: "40019967"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "41230313"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 與 Microsoft 團隊如何互動
 
@@ -43,8 +43,8 @@ ms.locfileid: "40019967"
 
 | 使用者的信箱託管于： | eDiscovery| 法律&nbsp;封存 | 留成| 團隊和頻道管理 |在團隊中建立及查看會議| 修改使用者個人資料圖片 | 通話記錄 | 管理連絡人 | 存取 Outlook 連絡人 | 語音信箱 |新增及設定連接器|新增及設定索引標籤|新增及設定 bot| 
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|**Exchange Online**|是<sup>2</sup>|是<sup>2</sup>|是|是|是|是|是|是|是|是|是|是|是|
-|**Exchange Online 專用 vNext**|是<sup>2</sup>|是<sup>2</sup>|是|是|是|是|是|是|是|是|是|是|是|
+|**Exchange Online**|是<sup>2</sup>|是<sup>2</sup>|是|是|是|是|是|是|是<sup>7</sup>|是|是|是|是|
+|**Exchange Online 專用 vNext**|是<sup>2</sup>|是<sup>2</sup>|是|是|是|是|是|是|是<sup>7</sup>|是|是|是|是|
 |**Exchange Online 專用–傳統**版（需要同步處理到 Azure AD）|是<sup>2</sup>|是<sup>2、3</sup>|是<sup>4|是|否|否|是|是|否|是<sup>5|是<sup>6|是|是|
 |**Exchange 內部部署**（需要同步處理到 Azure AD）|是<sup>2</sup>| 是<sup>2、3</sup> |是<sup>4|是|是（Exchange 2016 CU3 +）|是（Exchange 2016 CU3 +）|是|是|否|是<sup>5|是<sup>6|是|是|
 
@@ -60,8 +60,7 @@ ms.locfileid: "40019967"
 
 <sup>6</sup>如果小組的其中一個擁有者可以新增連接器，該小組中的其他人都能這樣做，即使他們的信箱是內部部署的。
 
-
-其他資訊：
+只有<sup>7</sup>個 [預設連絡人] 資料夾中的連絡人。 不支援存取其他連絡人資料夾或子資料夾。
 
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>充分利用 Microsoft 團隊的需求
 
