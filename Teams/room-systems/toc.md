@@ -22,7 +22,7 @@
 ### [內容相機](content-camera.md)
 
 ## 管理
-### [管理概觀](skype-room-systems-v2.md)
+### [管理概觀](skype-room-systems-v3.md)
 ### [維護和作業](room-systems-v2-operations.md)
 ### [已知問題](known-issues.md)
 ### [使用 Azure 監視器的裝置](azure-monitor-manage.md)
