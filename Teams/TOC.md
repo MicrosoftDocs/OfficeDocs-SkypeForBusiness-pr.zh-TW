@@ -132,7 +132,7 @@
 ## [在 Outlook 中使用 Teams 會議增益集](teams-add-in-for-outlook.md)
 ## [為您的使用者設定語音來電功能](set-up-the-call-me-feature-for-your-users.md)
 ## [設定會議移轉服務 (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-## [Microsoft Teams 會議室](room-systems/index.md)
+## [Microsoft Teams 會議室](rooms/index.md)
 ## [管理 Teams 中的白板](manage-whiteboard.md)
 
 
@@ -604,8 +604,8 @@
 #### [將電子醫療保健記錄整合至 Microsoft Teams](expand-teams-across-your-org/healthcare/patients-app.md)
 ##### [DSTU2 介面規格](expand-teams-across-your-org/healthcare/dstu2-interface.md)
 ##### [STU3 介面規格](expand-teams-across-your-org/healthcare/stu3-interface.md)
+##### [將病患應用程式連線至 Azure API for FHIR](expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir.md)
 #### [病患應用程式的稽核記錄](expand-teams-across-your-org/healthcare/patients-audit.md)
-
 ## [Microsoft Teams 教育版](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [快速入門 - Teams 教育版系統管理員](teams-quick-start-edu.yml)
 ### [Teams 教育版中的作業](expand-teams-across-your-org/assignments-in-teams.md)

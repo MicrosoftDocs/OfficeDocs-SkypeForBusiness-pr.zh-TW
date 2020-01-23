@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2aa6a4f4a498f5b694e3ff23d4043374def6fbff
-ms.sourcegitcommit: 70323d648e9ae3b20a710120b9dcdc452afc462b
+ms.openlocfilehash: b6b36f38ce2c72c085a7d52f403eba4bde7e8670
+ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "37698026"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "41268479"
 ---
 # <a name="faq--upgrading-from-skype-for-business-to-microsoft-teams"></a>常見問題 - 從商務用 Skype 升級至 Microsoft Teams
 
@@ -200,7 +200,7 @@ Teams 可以在教育版套件授權的所有 Office 365 中取得：除了在�
 
 ### <a name="will-skype-room-systems-v1-be-updated-to-support-teams-meetings"></a>Skype 會議室系統 v1 是否會更新以支援 Teams 會議？
 
-具有 Skype 會議室系統第 1 版 (SRS v1) 軟體的 Lync Room System (LRS) 裝置，已經在 2018 年 10 月 9 日終止支援。 這表示 Skype 會議室系統 v1 軟體將不再取得任何產品更新或修正。 如果客戶的裝置是使用 Skype 會議室系統 v1 軟體的 Lync Room System 裝置，建議您將其裝置升級至「Microsoft Teams 會議室」。 [深入了解](room-systems/lrs-migration.md)。
+具有 Skype 會議室系統第 1 版 (SRS v1) 軟體的 Lync Room System (LRS) 裝置，已經在 2018 年 10 月 9 日終止支援。 這表示 Skype 會議室系統 v1 軟體將不再取得任何產品更新或修正。 如果客戶的裝置是使用 Skype 會議室系統 v1 軟體的 Lync Room System 裝置，建議您將其裝置升級至「Microsoft Teams 會議室」。 [深入了解](rooms/lrs-migration.md)。
 
 ## <a name="management-capabilities"></a>管理功能
 

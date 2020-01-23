@@ -14,17 +14,17 @@ ms.collection:
 - Teams_Business_Voice
 title: Microsoft 365 Business Voice
 description: 了解如何規劃、部署及使用 Microsoft 365 Business Voice。
-ms.openlocfilehash: c34c447ac183effab5412f4202fd2c2b6c9d426f
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: 4e8d681955013c7f1efd5d75fd90cd0a7b0c7af8
+ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972334"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "41268679"
 ---
 <div id="main" class="v2">
     <div class="container">
         <h1>Microsoft 365 Business Voice 資源</h1>
-        <P>了解如何在組織中規劃、設定及使用 Microsoft 365 Business Voice。 Business Voice 讓中小型組織在沒有公司內部解決方案的費用和複雜性的情況下，輕鬆設定功能強大且彈性的電話系統。 </p>
+        <P>了解如何在組織中規劃、設定及使用 Microsoft 365 Business Voice。 Business Voice 讓中小型組織在沒有公司內部解決方案的費用和複雜性的情況下，輕鬆設定功能強大且彈性的電話系統。</p>
         <P></p>
         <ul class="pivots">
             <li>
