@@ -13,12 +13,12 @@ ms.service: msteams
 f1keywords: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: 9983b61f28e4bfb37b0f6673503e3a982e40da5a
-ms.sourcegitcommit: 2557331f72bd0d8637c9f1b2a9606ca48a1c9954
+ms.openlocfilehash: a4f18ee6f2237748c44385a06ac74625f89d9015
+ms.sourcegitcommit: f017e38095098d4d28c71241dddac53538be79d7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "39621271"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "41506865"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -38,12 +38,12 @@ Microsoft 很高興地舉辦一系列免費的即時線上訓練課程，幫助�
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/whats-new-megaphone-teams.svg" alt="What's new megaphone symbol" />
+                            <img src="https://docs.microsoft.com/office/media/icons/whats-new-megaphone-teams.svg" alt="What's new megaphone symbol" />
                         </div>
                     </div>
                     <div class="cardText">
                         <h3>向 Microsoft Teams 打聲招呼</h3>
-                        <p>什麼是 Microsoft Teams？ 加入我們的 30 分鐘導覽，探索 Teams 內容，以及其適用方式。</p>
+                        <p>什麼是 Microsoft Teams？ 加入我們的 30 分鐘導覽，探索 Teams 為何，並查看其實際的運作方式。</p>
                         <p><i>對象：全部</i></p>
                     </div>
                 </div>
@@ -58,7 +58,7 @@ Microsoft 很高興地舉辦一系列免費的即時線上訓練課程，幫助�
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-teams.svg" alt="Get started symbol" />
+                            <img src="https://docs.microsoft.com/office/media/icons/get-started-teams.svg" alt="Get started symbol" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -78,12 +78,32 @@ Microsoft 很高興地舉辦一系列免費的即時線上訓練課程，幫助�
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/tasks-teams.svg" alt="Tasks clipboard symbol" />
+                            <img src="https://docs.microsoft.com/office/media/icons/tasks-teams.svg" alt="Tasks clipboard symbol" />
                         </div>
                     </div>
                     <div class="cardText">
                         <h3>透過 Teams 進行有效會議</h3>
                         <p>了解如何利用 Teams 來進行會議前、中、後的體驗。</p>
+                        <p><i>對象：使用者</i></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://aka.ms/LearnTeamsApps"target="_blank">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/blocks-teams.svg" alt="Blocks" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>了解如何使用 Teams 中的應用程式</h3>
+                        <p>了解如何透過應用程式促進團隊合作。</p>
                         <p><i>對象：使用者</i></p>
                     </div>
                 </div>
@@ -98,7 +118,7 @@ Microsoft 很高興地舉辦一系列免費的即時線上訓練課程，幫助�
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/best-practices-teams.svg" alt="Best practices window" data-linktype="external"/>
+                            <img src="https://docs.microsoft.com/office/media/icons/best-practices-teams.svg" alt="Best practices window" data-linktype="external"/>
                         </div>
                     </div>
                     <div class="cardText">
@@ -112,53 +132,13 @@ Microsoft 很高興地舉辦一系列免費的即時線上訓練課程，幫助�
         </a>
     </li>
     <li>
-        <a href="https://microsoftteams.eventbuilder.com/From%20Skype%20for%20Business%20to%20Teams"target="_blank">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/users-people.svg" alt="Users/people" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>從商務用 Skype 轉換至 Teams</h3>
-                        <p>從商務用 Skype 轉換到 Teams 過程中，取得快速使用 Teams 所需的資訊。</p>
-                        <p><i>對象：使用者</i></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://aka.ms/TeamsForGov"target="_blank">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/globe-internet.svg" alt="Globe symbol" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>適用於美國政府的 Teams (GCC)</h3>
-                        <p>加入我們，獲得 Office 365 GCC 中 Teams 的互動式概觀，其中展示了共同作業的最佳做法。</p>
-                    <p><i>對象：全部</i></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
         <a href="https://aka.ms/TeamsEduWebinars"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/education-tutorial-teams.svg" alt="Education symbol" />
+                            <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" alt="Education symbol" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -172,33 +152,13 @@ Microsoft 很高興地舉辦一系列免費的即時線上訓練課程，幫助�
         </a>
     </li>
     <li>
-        <a href="https://aka.ms/LearnTeamsApps"target="_blank">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/blocks-teams.svg" alt="Blocks" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>了解如何使用 Teams 中的應用程式</h3>
-                        <p>了解如何透過應用程式促進團隊合作。</p>
-                        <p><i>對象：使用者</i></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
         <a href="https://docs.microsoft.com/MicrosoftTeams/upgrade-workshops-landing-page"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/migration-teams.svg" alt="Migration arrow symbol" />
+                            <img src="https://docs.microsoft.com/office/media/icons/migration-teams.svg" alt="Migration arrow symbol" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -218,7 +178,7 @@ Microsoft 很高興地舉辦一系列免費的即時線上訓練課程，幫助�
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/clock-teams.svg" alt="Clock symbol" />
+                            <img src="https://docs.microsoft.com/office/media/icons/clock-teams.svg" alt="Clock symbol" />
                         </div>
                     </div>
                     <div class="cardText">
