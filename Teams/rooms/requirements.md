@@ -12,12 +12,12 @@ ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
 description: 本文將摘要說明支援 Microsoft 團隊聊天室的需求。
-ms.openlocfilehash: c5d2fbc49d114614c0b3228dd92890d9200b3a6a
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: 33c72c4261b37427fba3d4c853ef2a6d9600e269
+ms.sourcegitcommit: f017e38095098d4d28c71241dddac53538be79d7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41268840"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "41506875"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft 團隊會議室需求
 
@@ -51,7 +51,7 @@ Microsoft 團隊聊天室會根據房間大小及用途，使用各種經認證�
   |[Crestron Flex UC-M130-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M130-T)|核心 i5|8 GB |128 GB |
   |[Crestron Flex UC-B130-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B130-T)|核心 i5|8 GB |128 GB |
   |[Crestron Flex UC-B140-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B140-T)|核心 i5|8 GB |128 GB |
-  |[Crestron Flex UC-M150-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M150-T)|酷睿 i7|8 GB |128 GB |
+  |[Crestron Flex UC-M150-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M150-T) + [CCS-UCA-MIC](https://www.crestron.com/en-US/Products/Audio/Microphones/Wired-Microphones/CCS-UCA-MIC-KIT)|酷睿 i7|8 GB |128 GB |
   [Crestron Flex UC-B160-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B160-T)|酷睿 i7|8 GB |128 GB|
   |[Crestron Flex UC-C160-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C160-T)|酷睿 i7|8 GB|128 GB|
   |[[會議室] G2 的 [HP 精英] 扇面](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |核心 i5 |8 GB |128 GB |
@@ -110,6 +110,8 @@ Microsoft 團隊聊天室會根據房間大小及用途，使用各種經認證�
 |[Jabra 810](http://www.jabra.com/supportpages/jabra-speak-810)   |1.2.23   |
 |[Yamaha YVC-1000](http://www.yamaha.com/products/en/communication/usb_conference_speakerphones/yvc-1000/)   |100c   |
 |[Yealink CP900](https://www.yealink.com/products_150.html) |100.20.0.29 |
+|[Shure Intellimix P300 音訊會議處理器](https://www.shure.com/en-US/products/mixers/p300)+</br></br> [Shure MXA 310 資料表陣列麥克風](https://www.shure.com/en-US/products/microphones/mxa310) | 4.1 |
+|[Shure Intellimix P300 音訊 Conferening 處理器](https://www.shure.com/en-US/products/mixers/p300) + </br></br> [Shure MXA 910，含 Intellimix 天花板陣列 Mic](https://www.shure.com/en-US/products/microphones/mxa910) | 4.1|
 |[Biamp Tesira AVB VT4 Fixed audio DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;</br></br> [Sennheiser TeamConnect 天花板2麥克風](https://en-us.sennheiser.com/tcc2)+ &Dagger;</br></br> [TESIRA EX-UBT](https://www.biamp.com/products/tesira/tesira-expanders)&Dagger; |  Biamp DSP：3.12.0.15  </br></br> TCC2: 1.3.3 </br></br> EX-UBT：3.12.0.15 |  |
 ||||||
 
