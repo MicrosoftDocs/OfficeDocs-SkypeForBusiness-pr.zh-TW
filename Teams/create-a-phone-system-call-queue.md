@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Phone System
 description: 瞭解如何在 Microsoft 團隊中設定雲端通話佇列的電話系統。
-ms.openlocfilehash: 95cf9701705950d997e1d200fee117b5f8f9738b
-ms.sourcegitcommit: 2fab6105dfc4c225de8c09ab79d9c2c273a3e4f6
+ms.openlocfilehash: be307c79330e324c7a5673cc4e636bf311f96289
+ms.sourcegitcommit: a6e051c5c5c100dbf2ff3ca8fc7babc4415babf3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "41005166"
+ms.lasthandoff: 01/25/2020
+ms.locfileid: "41557846"
 ---
 # <a name="create-a-cloud-call-queue"></a>建立雲端通話佇列
 
@@ -38,7 +38,7 @@ ms.locfileid: "41005166"
 - 設定不同的參數，例如佇列大小上限、超時及呼叫處理選項。
 - 呼叫者的共用語音信箱，可為組織留下訊息。
 
-您可以使用[資源帳戶](manage-resource-accounts.md)將電話號碼與通話佇列建立關聯。 通話佇列可以直接撥號，或由自動語音應答上的選取進行存取。
+您不會直接將電話號碼與通話佇列進行關聯，而是將電話號碼與[資源帳戶](manage-resource-accounts.md)相關聯。 通話佇列可以直接撥號，或由自動語音應答上的選取進行存取。
 
 來電者在暫停時，會聽到音樂，且通話會連線至呼叫代理程式 *（先進先出*（FIFO）訂單）。
 
@@ -68,7 +68,7 @@ ms.locfileid: "41005166"
 > 僅限 Microsoft 團隊使用者和代理程式支援電話佇列的直接路由服務號碼。
 
 > [!NOTE]
-> 若要將來電重新導向至貴組織中的線上人員，他們必須具備**電話系統**授權，且可供企業語音使用或擁有 Office 365 通話方案。 請參閱[指派商務用 Skype 授權](/Skype/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)或[指派 Microsoft 團隊授權](assign-teams-licenses.md)。 若要啟用企業語音，您可以使用 Windows PowerShell。 例如，執行：`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+> 若要將來電重新導向至貴組織中的線上人員，他們必須具備**電話系統**授權，且可供企業語音使用或擁有 Office 365 通話方案。 請參閱[指派 Microsoft 團隊授權](assign-teams-licenses.md)。 若要啟用企業語音，您可以使用 Windows PowerShell。 例如，執行：`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 - 若要深入瞭解 Office 365 通話方案，請參閱[手機系統和通話方案](calling-plan-landing-page.md)與[Office 365 的通話方案](calling-plans-for-office-365.md)。
 
@@ -102,46 +102,46 @@ ms.locfileid: "41005166"
   - Microsoft 團隊 Android 應用程式
 
     > [!NOTE]
-    > 指派直接傳送號碼的通話佇列不支援商務用 Skype 用戶端、Lync 用戶端或商務用 Skype IP 手機做為代理程式。 
+    > 指派直接傳送號碼的通話佇列不支援商務用 Skype 用戶端、Lync 用戶端或商務用 Skype IP 手機做為代理程式。
 
-## <a name="step-2--getting-or-transferring-toll-or-toll-free-service-phone-numbers"></a>步驟2：取得或轉移付費或免付費服務電話號碼
+## <a name="step-2--get-or-transfer-toll-or-toll-free-service-phone-numbers"></a>步驟2：取得或轉移付費或免付費服務電話號碼
 
-您必須先取得或轉讓現有的付費或免付費服務號碼，才能建立及設定通話佇列。 當您收到付費或免付費服務電話號碼之後，就會顯示在**Microsoft 團隊系統管理中心** > **的語音** > **電話號碼** > **新增**>，而**數位類型**則會列為 [服務] **（免付費）**。 若要取得您的服務號碼，請參閱[取得服務電話號碼](getting-service-phone-numbers.md)，或者如果您想要轉移現有的服務號碼，請參閱[將電話號碼轉移至 Office 365](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)。
+您必須先取得或轉讓現有的付費或免付費服務號碼，才能建立及設定通話佇列。 若要取得您的服務號碼，請參閱[取得服務電話號碼](getting-service-phone-numbers.md)，或者如果您想要轉移現有的服務號碼，請參閱[將電話號碼轉移至 Office 365](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)。 在您取得付費或免付費服務電話號碼之後，就會顯示在**Microsoft 團隊系統管理中心** > **的語音** > **電話號碼**中。 [免付費電話號碼] 會以**數位類型**的**服務列出（免付費電話）**。
 
 > [!NOTE]
 > 如果您在美國以外，您就無法使用 Microsoft 團隊系統管理中心來取得服務號碼。 移至 [[管理貴組織的電話號碼](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)]，瞭解如何從美國以外的地區進行。
 
-設定多個自動語音應答時，您可能只會將電話號碼指派給主要的自動助理資源帳戶，這可以讓呼叫者直接加入通話佇列或嵌套自動語音應答。 在這些情況下，您不需指派撥號鍵台選項，就能在您的系統中建立所有自動語音應答及呼叫佇列，然後在稍後編輯設定。 這是必要的，因為您不允許建立連結至通話佇列的選項，或是不存在的自動語音應答。
+當您設定多個自動語音應答時，通常會將電話號碼指派給主要的自動助理資源帳戶。 與嵌套自動語音應答或通話佇列相關聯的資源帳戶通常不需要電話號碼。 即使沒有電話號碼，該自動語音應答也可以將呼叫者指引至您的通話佇列或嵌套自動語音應答。 在這些情況下，您可以在系統中建立所有自動語音應答及呼叫佇列，而無需指派撥號鍵台選項，然後在稍後編輯設定。 通話佇列或自動語音應答必須存在，才能設定為功能表選項。
 
-## <a name="step-3--create-a-new-call-queue"></a>步驟3：建立新的通話佇列
+## <a name="step-3--create-a-call-queue"></a>步驟3：建立通話佇列
 
 [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
 > [!IMPORTANT]
 > 每個通話佇列都必須有一個相關聯的[資源帳戶](manage-resource-accounts.md)。 您必須先建立資源帳戶，然後才能將它與通話佇列建立關聯。
 
-### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft 團隊系統管理中心
+### <a name="use-the-microsoft-teams-admin-center"></a>使用 Microsoft 團隊系統管理中心
 
 在**Microsoft 團隊系統管理中心**、**語音** > **通話佇列**中，按一下 [ **+ 新增**]：
 
-### <a name="set-the-call-queue-display-name-and-resource-account"></a>設定通話佇列顯示名稱和資源帳戶
+### <a name="set-the-display-name-and-resource-account"></a>設定顯示名稱和資源帳戶
 
 ![含編號標注的新通話佇列的螢幕擷取畫面](media/37ecc300-a108-4294-8463-fce570dfce72.png)
 
 * * *
 
-![在前一個螢幕擷取畫面](media/sfbcallout1.png)
-**名稱**中參照標注的數位1圖示輸入通話佇列的描述性顯示名稱。 這個名稱是必要的，而且最多可以包含64個字元，包括空格。
+![數位1的圖示，在先前的螢幕擷取畫面](media/sfbcallout1.png)
+**名稱**中參照標注輸入通話佇列的描述性顯示名稱。 這個名稱是必要的，而且最多可以包含64個字元，包括空格。
 
  此名稱會顯示在撥入通話的通知中。
 
 * * *
 
-![在前一個螢幕擷取畫面中參照標注的數位2的圖示](media/sfbcallout2.png)
+![在前一個螢幕擷取畫面中，數位2的圖示會參照標注](media/sfbcallout2.png)
 
-**新增帳戶**選取資源帳戶。 資源帳戶可以或不與電話號碼的服務付費或免付費電話號碼相關聯，但每個通話佇列都需要相關聯的資源帳戶。
+**新增帳戶**選取資源帳戶。 所有通話佇列都必須有資源帳戶。 資源帳戶不需要擁有服務付費或免付費電話號碼。
 
-如果沒有列出任何專案，您必須先取得服務號碼並將其指派給資源帳戶，然後才能建立此通話佇列（如前文所述）。 若要取得您的服務號碼，請參閱[取得服務電話號碼](getting-service-phone-numbers.md)。 如果您希望通話佇列擁有相關聯的電話號碼，請按照[管理團隊中的資源帳戶](manage-resource-accounts.md)中所述的方式來建立資源帳戶。
+如果沒有列出任何資料，請先取得服務號碼，然後將其指派給資源帳戶，然後再建立通話佇列，如前文所述。 若要取得您的服務號碼，請參閱[取得服務電話號碼](getting-service-phone-numbers.md)。 如需如何指派電話號碼的詳細資訊，請參閱[管理團隊中的資源帳戶](manage-resource-accounts.md)。
 
 > [!NOTE]
 > 如果您想要或需要指派**網域**，您可以將它指派給通話佇列的資源帳戶。
@@ -152,21 +152,23 @@ ms.locfileid: "41005166"
 
 * * *
 
-![在前一個螢幕擷取畫面中參照標注的數位1圖示](media/sfbcallout1.png)
+![在前一個螢幕擷取畫面中，數位1的圖示會參照標注](media/sfbcallout1.png)
 
-[**問候語**] 是選擇性的。 這是呼叫撥入電話號碼的使用者所播放的問候語。
+**問候**撥打通話佇列號碼的使用者可播放選用的問候語。
 
 您可以上傳音訊檔（.wav、mp3 或 .wma 格式）。
 
-![在前一個螢幕擷取畫面中參照標注的數位2的圖示](media/sfbcallout2.png)
+![在前一個螢幕擷取畫面中，數位2的圖示會參照標注](media/sfbcallout2.png)
 
-**等候音樂**您可以將預設的音樂保留在通話佇列中，或者您可以將音訊檔案上傳成 .wav、mp3 或 .wma 格式，以供您的自訂音樂保留使用。
+**等候音樂**您可以在通話佇列隨附的情況下，使用預設的音樂保留。 您也可以將音訊檔案上傳成 .wav、mp3 或 .wma 格式，以供您的自訂音樂保留時使用。
 
 * * *
 
 ### <a name="select-the-call-answering-options"></a>選取呼叫應答選項
 
 ![通話應答選項的螢幕擷取畫面](media/5d249515-d532-4af2-90da-011404028b89.png) 
+
+![在前一個螢幕擷取畫面中，數位1的圖示會參照標注](media/sfbcallout1.png)
 
 若要直接新增個別的代理程式，而不將其新增至群組，請按一下 [**新增使用者**]。 將個別的代理放在您想要他們接聽通話的順序。 您最多可以新增20個獨立的代理程式（若要新增20個以上的專案，請將它們放在群組中）。
 
@@ -178,7 +180,7 @@ ms.locfileid: "41005166"
 - 安全性群組
 - 通訊群組清單
 
-所選取的通話代理程式必須是下列其中一項： 
+所選取的通話代理程式必須是： 
 
 - 已啟用手機系統授權和企業語音的線上使用者 
 - 使用通話方案的線上使用者
@@ -189,18 +191,18 @@ ms.locfileid: "41005166"
 
  若要啟用企業語音的代理程式，您可以使用 Windows PowerShell。 例如，執行：`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
-- 已新增至 Office 365 群組的**電話系統**授權或通話方案的使用者;已啟用郵件的通訊群組清單;或 [安全性群組]。 在通訊群組清單或安全性群組中，新新增的代理程式可能需要長達3小時，才能開始從通話佇列接收通話。 新建立的通訊群組清單或安全性群組可能需要長達48小時才能與通話佇列搭配使用。 新建立的 Office 365 群組幾乎會立即提供給您。
+- 已新增至 Office 365 群組的**電話系統**授權或通話方案的使用者;已啟用郵件的通訊群組清單;或 [安全性群組]。 當您將通訊群組清單或安全群組中的代理程式新增為通話佇列代理程式時，第一次呼叫到貨最多可能需要3小時的時間。 新建立的通訊群組清單或安全性群組可能需要長達48小時才能與通話佇列搭配使用。 新建立的 Office 365 群組幾乎會立即提供給您。
 
-- 如果您的代理程式是使用 Microsoft 團隊 App 接聽通話佇列通話，則必須在 TeamsOnly 模式中。
+- 如果您的代理正在使用 Microsoft 團隊 App 進行通話佇列通話，則必須在 TeamsOnly 模式中。
 
 ![[新增撥號代理程式] 窗格的螢幕擷取畫面](media/skype-for-business-add-agents-to-call-queue.png)
 
-![在前一個螢幕擷取畫面中參照標注的數位2的圖示](media/sfbcallout2.png)
+![在前一個螢幕擷取畫面中，數位2的圖示會參照標注](media/sfbcallout2.png)
 
-**路由方法**您**可以為通話**佇列發佈方法選擇 [行事等]、[**串列**] 或 [**迴圈**]。 所有新的和現有的通話佇列都會依預設選取 [助理] 路由。 使用 [接聽] 路由時，佇列中的第一次呼叫會同時響鈴所有呼叫代理程式。 第一個呼叫代理程式接聽電話，即可取得通話。
+**路由方法**您可以選擇 [立即 **]、[****串口**] 或 [**迴圈**] 作為分配方法。 所有新的和現有的通話佇列都會依預設選取 [助理] 路由。 使用 [接聽] 路由時，佇列中的第一次呼叫會同時響鈴所有呼叫代理程式。 第一個呼叫代理程式接聽電話，即可取得通話。
 
 - [行事鈴**路由**] 會讓佇列中的第一個呼叫同時撥打所有通話代理程式。 第一個呼叫代理程式接聽電話，即可取得通話。
-- 從呼叫代理程式清單的開頭開始，逐一撥打電話**給來電代理**程式。 無法在通話代理程式清單中排序代理程式。 如果代理程式關閉或沒接聽電話，通話會撥打清單中的下一個代理程式，並一次嘗試一個代理程式，直到在佇列中被拾取或等待超時為止。
+- 從呼叫代理程式清單的開始，將來電**路由**撥入電話撥打電話給一方。 無法在通話代理程式清單中排序代理程式。 如果代理程式關閉或沒接聽來電，該通話會撥打下一個代理程式，並嘗試所有的代理程式，直到它被挑選或超時為止。
   > [!NOTE]
   > 串列路由會略過**離線**、將其目前狀態設定為 [**請勿打擾**]，或已**選擇**不在此佇列中取得呼叫的代理程式。
 - **迴圈**平衡：將來電進行路由，讓每個通話代理程式從佇列取得相同數目的呼叫。 這在入站銷售環境中可能是您想要的，以確保所有通話代理程式之間有同等的機會。
@@ -211,27 +213,26 @@ ms.locfileid: "41005166"
 
 * * *
 
-![在前一個螢幕擷取畫面中參照標注的數位1圖示](media/sfbcallout1.png)
+![在前一個螢幕擷取畫面中，數位1的圖示會參照標注](media/sfbcallout1.png)
 
 **工程師可以選擇不接聽電話**您可以透過啟用此選項，選擇允許呼叫佇列代理程式退出宣告來自特定佇列的呼叫。
 
 啟用此選項可讓此佇列中的所有代理程式從該呼叫佇列開始或停止接聽通話。 您隨時都可以取消選取核取方塊，讓代理程式再次自動加入此佇列（所有代理的預設設定），以隨時撤銷代理自願退出許可權。
 
-若要存取退出宣告選項，工程師可以執行下列動作：
+若要存取退出宣告選項，工程師可以：
 
  1. 開啟其桌面商務用 Skype 用戶端中的**選項**。
  2. 在 [**來電轉接**] 索引標籤上，按一下 [**編輯線上編輯設定**] 連結。
- 3. 在 [使用者設定] 頁面上，按一下 [**通話佇列**]，然後清除任何要退出宣告之佇列的核取方塊。
+ 3. 在 [使用者設定] 頁面上，按一下 [**通話佇列**]，然後清除核取方塊以退出宣告佇列。
 
     > [!NOTE]
     > 使用商務用 Skype Desktop 以外的 app 或端點的代理程式可從 [使用者設定] 入口網站[https://aka.ms/cqsettings](https://aka.ms/cqsettings)存取 [退出宣告] 選項。
     >
     > 如果代理程式位於 Microsoft 團隊桌面用戶端，則他們可以使用通話設定退出宣告。 
 
-![[退出宣告通話設定] 的螢幕擷取畫面](media/create-a-phone-system-call-queue-image1.png)
+![在前一個螢幕擷取畫面中，數位2的圖示會參照標注](media/sfbcallout2.png)
 
-![數位2的圖示，在先前的螢幕擷取畫面](media/sfbcallout2.png)
-中參照標注**Agent 提醒設定**
+**Agent 警示設定**
 
 這會定義在串列或迴圈路由方法移至下一個代理程式之前，收到呼叫通知代理程式的持續時間。
 
@@ -245,13 +246,13 @@ ms.locfileid: "41005166"
 
 * * *
 
-![在前一個螢幕擷取畫面中參照標注的數位1圖示](media/sfbcallout1.png)
+![在前一個螢幕擷取畫面中，數位1的圖示會參照標注](media/sfbcallout1.png)
 
 **佇列中的最大通話**數使用此功能來設定可以同時在佇列中等候的最大通話數。 預設值為50，但範圍可以是0到200。 達到這個限制之後，就會按照您在 [**達到最大通話數**] 設定時所設定的方式來處理通話。
 
 * * *
 
-![在前一個螢幕擷取畫面中參照標注的數位2的圖示](media/sfbcallout2.png)
+![在前一個螢幕擷取畫面中，數位2的圖示會參照標注](media/sfbcallout2.png)
 
 **達到最大通話數時**當通話佇列達到其大小上限時（使用 **[佇列] 設定中的最大通話**設定），您可以選擇新的來電所要採取的動作。
 
@@ -266,41 +267,39 @@ ms.locfileid: "41005166"
 
 * * *
 
-![在前一個螢幕擷取畫面中參照標注的數位3圖示](media/sfbcallout3.png)
+![在前一個螢幕擷取畫面中，數位3的圖示會參照標注](media/sfbcallout3.png)
 
 **通話超時：最長等待時間**您也可以決定該通話在超時之前保留多少時間，且需要重新導向或中斷連線。 重新導向的位置，取決於您設定**通話超時**設定的方式。 您可以設定從0到45分鐘的時間。
 
 超時值可以設定為以秒為單位，以15秒為間隔。 這可讓您以較精細的細微性操作通話流程。 例如，您可以指定在30秒內未由代理程式接聽的任何通話移至目錄搜尋自動語音應答。
 
-![在前一個螢幕擷取畫面中參照標注的數位4圖示](media/sfbcallout4.png)
+![在前一個螢幕擷取畫面中，數位4的圖示會參照標注](media/sfbcallout4.png)
 
-**通話超時**當通話達到您在 [佇列] 設定**中等候通話**的限制時間時，您可以選擇此通話會發生的情況：
+**通話超時**當通話達到您在 [佇列] 設定**中等候通話時間**的限制時，您可以選擇通話會發生的情況：
 
 - **中斷**連線通話中斷連線。
 - **將此通話重新導向至**當您選擇此選項時，您可以使用下列選項：
-  - **貴公司中的人員**具備**電話系統**授權且可供企業語音或有通話方案的線上使用者。 您可以將它設定為可將呼叫的人傳送給語音信箱。 若要這樣做，請選取**貴公司中的人員**，並將其呼叫權直接轉寄給語音信箱。
+  - **貴公司中的人員**具備**電話系統**授權且可供企業語音或有通話方案的線上使用者。 若要設定它，讓撥入的人能傳送給語音信箱，請選取**貴公司中的人員**，並將其呼叫設定為直接轉接至語音信箱。
 
   若要瞭解語音信箱所需的授權，請參閱[設定雲端語音信箱](set-up-phone-system-voicemail.md)。
 
-  - **語音應用程式**選取與已建立之通話佇列或自動助理相關聯的資源帳戶名稱。
+  - **語音應用程式**選取與您已建立之通話佇列或自動助理相關聯之資源帳戶的名稱。
 
-## <a name="change-a-users-caller-id-for-outbound-calls"></a>變更撥出通話的使用者本機號碼
+## <a name="change-caller-id-for-outbound-calls"></a>變更撥出電話的本機號碼
 
-您可以改為使用 CsCallingLineIdentity Cmdlet，將電話撥入**式**呼叫的本機號碼改為呼叫佇列、自動語音應答或任何服務號碼，以保護使用者的身分識別。
-
-若要這樣做，請執行：
+若要保護通話代理程式的身分識別，請將本機號碼撥打電話給來電佇列、自動語音應答，或使用**新的 CsCallingLineIdentity** Cmdlet 的任何服務號碼，如下列範例所示：
 
 ``` Powershell
 New-CsCallingLineIdentity -Identity "UKSalesQueue" -CallingIdSubstitute "Service" -ServiceNumber 14258828080 -EnableUserOverride $False -Verbose
 ```
 
-然後使用**授與 CallingLineIdentity** Cmdlet 將原則套用到使用者。 若要這樣做，請執行：
+然後使用**授與 CallingLineIdentity** Cmdlet 將原則套用到使用者，如下例所示： 
 
 ``` Powershell
 Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@contoso.com"
 ```
 
-您可以[在組織中](/microsoftteams/how-can-caller-id-be-used-in-your-organization)，取得如何在組織中設定本機號碼設定的詳細資訊。
+如需詳細資訊，請參閱[如何在您的組織中使用來電](/microsoftteams/how-can-caller-id-be-used-in-your-organization)顯示。
 
 ## <a name="call-queue-cmdlets"></a>通話佇列 Cmdlet
 
@@ -316,13 +315,13 @@ Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@conto
 
 ### <a name="more-about-windows-powershell"></a>深入瞭解 Windows PowerShell
 
-- Windows PowerShell 全部說明如何管理使用者，以及允許或不允許的使用者執行。 在 Windows PowerShell 中，您可以使用單一管理點管理 Office 365 和 Microsoft 團隊，讓您有多個工作要執行，即可簡化日常作業。 若要開始使用 Windows PowerShell，請參閱以下主題：
+- Windows PowerShell 全部說明如何管理使用者，以及允許或不允許的使用者執行。 在 Windows PowerShell 中，您可以使用單一管理點管理 Office 365 和 Microsoft 團隊。 當您有多個工作需要執行時，它可以簡化日常作業。 若要開始使用 Windows PowerShell，請參閱以下主題：
 
   - [Windows PowerShell 與 Lync Online 的簡介](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
   - [為什麼需要使用 Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/why-you-need-to-use-office-365-powershell)
 
-- Windows PowerShell 在 Microsoft 團隊系統管理中心的速度、簡潔性和生產力上有許多優點，例如當您同時為多位使用者進行設定變更時。 請參閱下列主題，瞭解這些優點：
+- 當您一次為多位使用者進行變更時，Windows PowerShell 的速度、簡潔性和生產率都有許多優點。 請參閱下列主題，瞭解這些優點：
 
   - [使用 Windows PowerShell 管理 Office 365](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
 

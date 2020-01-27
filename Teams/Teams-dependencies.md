@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 透過四種不同的授權等級管理 Microsoft Teams 的來賓存取功能。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 200e0d94948d735786fd1775fc803c6017bd3100
-ms.sourcegitcommit: c15ab82834005b9a19247e06488f1f21161fc426
+ms.openlocfilehash: 0d37ed8412e30c20d676c29507451500e5f0c9d2
+ms.sourcegitcommit: a6e051c5c5c100dbf2ff3ca8fc7babc4415babf3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/13/2019
-ms.locfileid: "40019977"
+ms.lasthandoff: 01/25/2020
+ms.locfileid: "41554040"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>在 Microsoft Teams 中授權來賓存取
 ===========================================
@@ -60,10 +60,7 @@ Azure AD 包含有下列設定可設定外部使用者：
 
 - **[來賓使用者權限受限]**：**[是]** 表示來賓沒有某些目錄工作的權限，例如列舉使用者、群組或其他目錄資源。 此外，來賓不能指派為您目錄中的系統管理角色。 **[否]** 表示來賓與您目錄中的一般使用者一樣，擁有相同的目錄資料存取權。
 - **[系統管理員與來賓邀請者角色中的使用者可以邀請]**：**[是]** 表示系統管理員和來賓邀請者角色中的使用者將可以邀請來賓加入租用戶。 **[否]** 表示系統管理員和使用者無法邀請來賓加入租用戶。
-- **[成員可邀請]**：**[是]** 表示目錄中的非系統管理員成員可以邀請來賓，在受 Azure AD 保護的資源 (例如 SharePoint 網站或 Azure 資源) 上共同作業。 **[否]** 表示僅系統管理員可以邀請來賓加入目錄。</br>
-      
-    > [!IMPORTANT]
-    > 若要讓來賓存取能在 Teams 中完整運作，您必須將 **[成員可邀請]** 設定為 **[是]**。
+- **成員可邀請**：若要允許您目錄中的非系統管理員成員邀請來賓，請將此原則設定為 [是]**** (建議使用)。 如果您希望只讓系統管理員新增來賓，可以將此原則設定為 [否]****。 請記住，設定為 [否]**** 將會限制非系統管理員小組擁有者的來賓體驗；他們只能在已由系統管理員在 AAD 中新增的 Teams 中新增來賓。
 - **[來賓可邀請]**：**[是]** 表示目錄中的來賓可以邀請其他來賓，在受 Azure AD 保護的資源 (例如 SharePoint 網站或 Azure 資源) 上共同作業。 **[否]** 表示來賓無法邀請其他來賓與貴組織共同作業。
     > [!IMPORTANT]
     > Teams 目前不支援來賓邀請者角色，因此，即使您將 **[來賓可邀請]** 設定為 **[是]**，來賓仍無法在 Teams 中邀請其他來賓。

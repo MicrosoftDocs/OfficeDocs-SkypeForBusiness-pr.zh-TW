@@ -20,12 +20,12 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: 瞭解如何在團隊中管理會議原則設定。
-ms.openlocfilehash: 20382a41ac8d0a78d56ebcb51e852f5302ea74a7
-ms.sourcegitcommit: 447c5ffc27c5b0928e033f85914810af56e510ef
+ms.openlocfilehash: 41d1bf8c68ef96f3a657113864c21a993dfc3826
+ms.sourcegitcommit: a6e051c5c5c100dbf2ff3ca8fc7babc4415babf3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41120393"
+ms.lasthandoff: 01/25/2020
+ms.locfileid: "41554340"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>在團隊中管理會議原則
 
@@ -105,10 +105,10 @@ ms.locfileid: "41120393"
 這是針對每個使用者的原則，在會議開始之前就會套用。 此設定控制使用者是否可在團隊頻道中啟動零星會議。 如果您開啟此選項，當使用者在團隊頻道中張貼訊息時，使用者可以按一下撰寫方塊下的 [**立即開會**]，以在頻道中啟動零星會議。
 
 ![顯示郵件下方 [立即開會] 圖示的螢幕擷取畫面](media/meeting-policies-meet-now.png)
-
 ### <a name="allow-private-meet-now"></a>允許私人 [立即開會]
 
 這是針對每個使用者的原則，在會議開始之前就會套用。 此設定可控制使用者是否能開始即席私人會議。  
+
 
 ### <a name="allow-the-outlook-add-in"></a>允許 Outlook 增益集
 
@@ -140,7 +140,6 @@ ms.locfileid: "41120393"
 - [允許雲端錄製](#allow-cloud-recording)
 - [允許 IP 視訊](#allow-ip-video)
 - [媒體位元速率（KBs）](#media-bit-rate-kbs)
-- [啟用即時標題（預覽版本）](#enable-live-captions-preview)
 
 ### <a name="allow-transcription"></a>允許進行文字
 
@@ -197,20 +196,6 @@ ms.locfileid: "41120393"
 
 如果會議需要最高品質的影片體驗，例如 CEO 董事會會議和小組現場活動，我們建議您將頻寬設定為 10 Mbps。 即使已設定最大的體驗，小組媒體堆疊也會在檢測到某些網路條件時適應低頻寬情況（視情況而定）。 
 
-### <a name="enable-live-captions-preview"></a>啟用即時標題（預覽版本）
-
-這是針對每個使用者的原則，且適用于會議期間。 此設定會控制是否可使用 [**開啟即時標題**] 選項來開啟和關閉使用者出席會議中的即時輔助字幕。  
-
-![顯示 [開啟即時標題] 選項的螢幕擷取畫面](media/meeting-policies-live-captions.png)
-
-|設定值 |行為  |
-|---------|---------|
-|**停用且使用者可以覆寫**     | 在會議期間，使用者不會自動開啟 [即時] 標題。 使用者會看到 [溢出（**...**）] 功能表中的 [**開啟即時標題**] 選項，以將其開啟。 這是預設設定。 |
-|**禁止**     | 使用者在會議期間停用 [即時] 標題。 使用者沒有選項可將其開啟。          |
-
-
-<a name="bkcontentsharing"> </a>
-
 ## <a name="meeting-policy-settings---content-sharing"></a>會議原則設定-內容共用
 
 - [螢幕畫面分享模式](#screen-sharing-mode)
@@ -219,7 +204,6 @@ ms.locfileid: "41120393"
 - [允許 PowerPoint 共用](#allow-powerpoint-sharing)
 - [允許白板](#allow-whiteboard)
 - [允許共用筆記](#allow-shared-notes)
-- [允許在會議中聊天（即將推出）](#allow-chat-in-meetings-coming-soon)
 
 ### <a name="screen-sharing-mode"></a>螢幕畫面分享模式
 
@@ -266,7 +250,7 @@ Daniela 可以將共用桌面或視窗控制權提供給依 Babek 組織的會�
 若要使用 PowerShell 來控制誰可以授與控制權或接受控制要求，請使用 AllowParticipantGiveRequestControl Cmdlet。
 
 > [!NOTE]
-> 若要在共用期間提供並控制共用的內容，雙方都必須使用小組桌面用戶端。 當某個參與方在瀏覽器中執行團隊時，不支援此控制項。 這是由於我們計畫修正的技術限制所造成。 
+> 若要在共用期間提供並控制共用的內容，雙方都必須使用小組桌面用戶端。 當任一方執行瀏覽器中的 Teams 時，則不支援控制。 這是我們正計畫修正的技術限制所造成。 
 
 ### <a name="allow-an-external-participant-to-give-or-request-control"></a>允許外部參與者授與或要求控制
 
@@ -320,19 +304,16 @@ Amanda 無法在會議中共用白板，即使她是會議召集人也一樣。 
 
 Daniela 可以在 Amanda 的會議中記錄筆記，而 Amanda 無法在任何會議中記錄筆記。
 
-### <a name="allow-chat-in-meetings-coming-soon"></a>允許在會議中聊天（即將推出）
-
-這是每個召集人原則。 此設定控制是否允許在使用者的會議中使用會議聊天。 
-
-<a name="bkparticipantsandguests"> </a>
-
 ## <a name="meeting-policy-settings---participants--guests"></a>會議原則設定-參與者 & 來賓
 
 這些設定會控制哪些會議參與者會在會議廳中等待，並在會議遭到准許前進行會議，以及在會議中允許的參與程度。
 
 - [自動承認人員](#automatically-admit-people)
 - [允許匿名人員開始會議](#allow-anonymous-people-to-start-a-meeting)
-- [允許撥入使用者略過大廳](#allow-dial-in-users-to-bypass-the-lobby-coming-soon)
+- [允許撥入使用者略過大廳](#allow-dial-in-users-to-bypass-the-lobby)
+- [允許私人 [立即開會]](#allow-private-meet-now)
+- [啟用即時標題](#enable-live-captions)
+- [允許在會議中聊天](#allow-chat-in-meetings)
 
 > [!NOTE]
 >加入會議的選項會根據每個團隊群組的設定和連接方法而有所不同。 如果您的群組有音訊會議，且使用它來連接，請參閱[Office 365 中的音訊會議](https://docs.microsoft.com/microsoftteams/audio-conferencing-in-office-365)。 如果您的 [小組] 群組沒有音訊會議，請參閱[在小組中加入會議](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9)。
@@ -379,7 +360,7 @@ Daniela 可以在 Amanda 的會議中記錄筆記，而 Amanda 無法在任何�
 |   | 貴組織中的每個人     |在大廳等候         |
 |   | 貴組織和聯盟組織中的每個人      | 在大廳等候         |
 
-### <a name="allow-dial-in-users-to-bypass-the-lobby-coming-soon"></a>允許撥入使用者略過大廳（即將推出）
+### <a name="allow-dial-in-users-to-bypass-the-lobby"></a>允許撥入使用者略過大廳
 
 這是每個召集人原則。 此設定控制由手機撥入的人員是否直接加入會議，或無論是否已**自動准許 [人員**] 設定，也會在大廳中等待。
 
@@ -394,6 +375,29 @@ Daniela 可以在 Amanda 的會議中記錄筆記，而 Amanda 無法在任何�
 |   | 貴組織中的每個人     |在大廳等候         |
 |   | 貴組織和聯盟組織中的每個人      | 在大廳等候         |
 
+### <a name="allow-private-meet-now"></a>允許私人 [立即開會]
+
+這是針對每個使用者的原則，在會議開始之前就會套用。 此設定可控制使用者是否能開始即席私人會議。 
+
+### <a name="enable-live-captions"></a>啟用即時標題
+
+這是針對每個使用者的原則，且適用于會議期間。 此設定會控制是否可使用 [**開啟即時標題**] 選項來開啟和關閉使用者出席會議中的即時輔助字幕。  
+
+![顯示 [開啟即時標題] 選項的螢幕擷取畫面](media/meeting-policies-live-captions.png)
+
+|設定值 |行為  |
+|---------|---------|
+|**停用且使用者可以覆寫**     | 在會議期間，使用者不會自動開啟 [即時] 標題。 使用者會看到 [溢出（**...**）] 功能表中的 [**開啟即時標題**] 選項，以將其開啟。 這是預設設定。 |
+|**禁止**     | 使用者在會議期間停用 [即時] 標題。 使用者沒有選項可將其開啟。          |
+
+
+<a name="bkcontentsharing"> </a>
+
+### <a name="allow-chat-in-meetings"></a>允許在會議中聊天
+
+這是每個召集人原則。 此設定控制是否允許在使用者的會議中使用會議聊天。 
+
+<a name="bkparticipantsandguests"> </a>
 
 ## <a name="related-topics"></a>相關主題
 [小組中的訊息原則](messaging-policies-in-teams.md)

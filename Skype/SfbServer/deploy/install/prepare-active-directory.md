@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 985077a4-c8e1-4d5a-9fcf-fef41cf6d61d
 description: 摘要：瞭解如何準備 Active Directory 網域以進行商務用 Skype Server 的安裝。 從 Microsoft 評估中心下載免費試用版商務用 Skype Server，網址為： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。
-ms.openlocfilehash: 114b2a91491dd440972f589ff45d86835c676bef
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: a7b9a22042cecae76a5a5390b0778119363043b5
+ms.sourcegitcommit: a6e051c5c5c100dbf2ff3ca8fc7babc4415babf3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41000883"
+ms.lasthandoff: 01/25/2020
+ms.locfileid: "41554050"
 ---
 # <a name="prepare-active-directory-for-skype-for-business-server"></a>為商務用 Skype Server 準備 Active Directory
  
@@ -35,7 +35,7 @@ ms.locfileid: "41000883"
 商務用 Skype Server 與 Active Directory 網域服務（AD DS）緊密整合。 在商務用 Skype Server 第一次安裝之前，必須準備作用中的 Active Directory。 標題為 [**準備 Active Directory** ] 的部署嚮導區段會準備作用中的 active directory 環境，以便與商務用 Skype 伺服器搭配使用。
   
 > [!NOTE]
-> 商務用 Skype Server 使用（AD DS）來追蹤並與拓撲中的所有伺服器進行通訊。 每個伺服器都必須加入網域，才能讓商務用 Skype 伺服器正常運作。 
+> 商務用 Skype Server 使用（AD DS）來追蹤並與拓撲中的所有伺服器進行通訊。 這些伺服器中的大部分必須加入網域，才能讓商務用 Skype 伺服器正常運作。 請記住，「邊緣」和「反向 Proxy」等伺服器不應該加入網域。
   
 > [!IMPORTANT]
 > 針對部署中的每個網域，只能執行一次準備 Active Directory 程式。 

@@ -20,85 +20,54 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: '瞭解功能、可用性，以及如何規劃及設定商務用電話系統（雲端 PBX）。 '
-ms.openlocfilehash: 397c8b4b42151a726dec25885ed8924cddb9f181
-ms.sourcegitcommit: 2064c94eae82a5453674d38f0b28dcd6dc5c370e
+description: '瞭解功能、可用性，以及如何規劃及設定商務用 Microsoft Phone 系統。 '
+ms.openlocfilehash: fc4d771037a9305fa5f39148ad465211e491ceb4
+ms.sourcegitcommit: a6e051c5c5c100dbf2ff3ca8fc7babc4415babf3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "37885517"
+ms.lasthandoff: 01/25/2020
+ms.locfileid: "41554350"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>以下是您在 Office 365 中使用電話系統所取得的結果
 
-PBX 是企業內的電話系統。 Office 365 附加元件中的電話系統提供了 PBX 功能，但沒有複雜且昂貴的裝置。 
-  
-透過 [電話系統] 附加元件，您可以使用商務用 Skype 完成基本工作，例如撥打及接聽電話、轉接通話，以及靜音或 unmuting 通話，幾乎只要任何地方都能透過網際網路存取。 它在全球各地提供！ 
-  
-如需詳細資訊，請參閱[電話系統價格](https://products.office.com/microsoft-teams/voice-calling#requirements)。
+本文將說明 Office 365 功能中的電話系統。 如需使用電話系統作為私人分支 Exchange （PBX）替換的詳細資訊，以及連線至公用交換電話網絡（PSTN）的選項，請參閱[Office 365 中的電話系統是什麼](what-is-phone-system-in-office-365.md)。
+
+用戶端可在 PC、Mac 和行動裝置上使用，它可提供從平板電腦和手機到 Pc 和桌面 IP 手機的裝置功能。 如需詳細資訊，請參閱[取得 Microsoft 團隊的用戶端](get-clients.md)。
+
   
 ## <a name="phone-system-in-office-365-features"></a>Office 365 功能中的電話系統
 
-您的商務用 Skype 使用者可以使用電話系統來取得下列功能：
+[電話系統] 提供下列功能。 除非另有說明，否則在團隊和商務用 Skype Online 中都有提供功能。
   
 |||
 |:-----|:-----|
-|**Office 365 中的電話系統功能** <br/> |**說明** <br/> |
-|[什麼是雲端自動語音應答？](what-are-phone-system-auto-attendants.md) <br/> |雲端自動語音應答可用來為您的組織建立功能表系統，讓外部和內部呼叫者在功能表系統間移動，以找出電話，並將來電放到貴組織中的公司使用者或部門中。  <br/> |
-|呼叫應答/啟動（依名稱和號碼）  <br/> |使用觸控方式接聽進貨來電，並撥打完整的電話號碼，或按一下商務用 Skype 或 Outlook 中的名稱，以進行撥出通話。  <br/> |
-|[在商務用 Skype 中設定 [來電轉接] 選項](https://support.office.com/article/1ec2e7fb-471c-4c35-bc90-a35991b3f532) <br/> |代表您支援的管理員撥打或接聽電話。 當接聽來電給其他人時，通知會讓所有參與者都清楚。  <br/> |
-|[來電轉接和同時撥打](https://support.office.com/article/967d9aaf-3fed-448b-ab96-40bbc9a11a20) <br/> |這些功能可讓您設定轉寄規則，讓您的通話可以隨時隨地使用，而且您可以將來電轉接給同事或語音信箱。  <br/> |
-|[尋找先前的交談-Lync](https://support.office.com/article/d1d54123-0301-482e-b047-c82e9e2724a3) <br/> |您可以在同一個地方追蹤所有的交談，無論這些交談是來自 Im、電話通話或臨時和排程會議。 交談會記錄在您的通話記錄中。  <br/> |
-|通話保留/取得  <br/> | 在同時進行多個通話時使用。 當您接聽下一個撥入通話或撥出來電時，您目前的通話會自動保留。 <br/> |
-|[轉接商務用 Skype 通話](https://support.office.com/article/f9f312a3-ccc9-4215-86e8-8928b2df1f97) <br/> |將來電轉接給其他人。 或者，如果您需要離開您的辦公室，但想要繼續交談，您可以將來自電腦或 IP 手機的來電轉接到您的手機或平板電腦。  <br/> |
-|來電顯示  <br/> |您公司內部的通話會顯示詳細的本機號碼，可從您的公司目錄提取資訊，並顯示圖片和工作標題，而不只是電話號碼。 對於來自外部電話號碼的呼叫，會顯示電話服務提供者所提供的本機號碼。 如果外部電話號碼是您公司目錄中的次要號碼，則會顯示來自企業目錄的資訊。  <br/> |
-|[建立雲端通話佇列](/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue) <br/> |雲端通話佇列包括某人撥入您組織的電話號碼時所使用的問候語、自動保留通話的功能，以及在通話時搜尋下一個可用的呼叫代理程式來處理通話的功能在暫停時聆聽音樂。  <br/> |
-|[當某人的狀態變更時通知我](https://support.office.com/article/042a13d8-c815-4101-8b41-1e141b6bf6e9) <br/> | 此功能可讓您標記目前無法使用的人員，並在他們的目前狀態變更，而且已準備好接聽電話。 <br/> |
-|PC、Mac 和行動裝置版用戶端  <br/> | 這可讓您在裝置上從平板電腦和行動電話到 Pc 和桌面 IP 手機的通話功能。 <br/> |
-|裝置切換  <br/> |可讓您在其他裝置上玩通話或會議。  <br/> |
-|[變更您的 Lync 通知](https://support.office.com/article/15DB9F71-A3D1-4AD7-9D84-39F05520B4C2) <br/> |針對您每天所取得的不同通話類型播放不同的鈴聲，因此您可以快速知道誰正在撥打電話給您。  <br/> |
-|[在商務用 Skype 中變更您的目前狀態](https://support.office.com/article/9b64eef5-47b8-46d8-a744-f490e6f88feb) <br/> |使用目前狀態控制您的入站通訊，讓您封鎖除您明確指出的所有傳入通訊。  <br/> |
-|企業行事曆通話路由  <br/> |企業行事曆通話路由可讓您在商務用 Skype 中使用您的 Exchange 行事曆上班時間來啟用或停用通話轉移及同時撥打。  <br/> |
-|整合式撥號鍵台  <br/> | 在搜尋列和撥號鍵台中的任何位置，以名稱或按號碼撥號，以加速撥出電話的程式。 <br/> |
-|[使用您的手機撥打商務用 Skype](https://support.office.com/article/6a316c11-a05e-460c-b969-32ff0ad848e6) <br/> |當您的手機設定為使用您的 Office 365 認證登錄到商務用 Skype Online 時，您可以使用您的手機，透過電話撥打電話給您組織中的人員。  <br/>  |
-|Skype 與同盟通話  <br/> |您可以搜尋 Skype 目錄中的任何人，然後安全地連線、通訊及與他們共同作業。  <br/> |
-|[在商務用 Skype 中設定 [來電轉接] 選項](https://support.office.com/article/1ec2e7fb-471c-4c35-bc90-a35991b3f532) <br/> |在設定的時段內立即或之後傳送您的來電給您的小組。  <br/> |
-|[使用商務用 Skype 撥打和接聽視頻通話](https://support.office.com/article/abf62493-670f-4b0d-b2cf-fe03b49caf42) <br/> | 您可以在小型浮動視窗中看到喇叭的名稱和影片資料流程，所以您隨時可以開始回應任何問題。 <br/> |
-|[查看商務用 Skype 語音信箱與選項](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8) <br/> |以下是雲端語音信箱的運作方式：當使用者收到語音信箱時，會以電子郵件的形式傳送收件者的信箱，以附件形式傳送語音信箱。 他們也可以在其 Skype 認證的桌面手機、所有商務用 Skype 應用程式，或 Lync for Mac 2011 上聽取其訊息。  <br/> 雲端語音信箱包括個人化的問候語、訊息等候指標，以及使用來電回復。 您可以將所有的語音信箱存放在信箱中，並透過 PC、行動裝置和 IP 電話上的商務用 Skype 取得。  <br/> |
-|等候音樂 | 在2019年9月推出時，手機系統會播放服務所定義的預設音樂（當來自公用交換電話網絡（PSTN）的外部呼叫處於保留狀態時）。  除了呼叫佇列撥打電話之外，此功能也適用于一對一的 PSTN 對團隊通話。 這項功能可提供與其他平臺的保留期間通知同位。 （所有其他平臺都會在使用者保留時提供視覺提示，但 PSTN 呼叫者無法知道。） 在初次發行時，系統管理員不能設定此功能。 在 PSTN 通話的諮詢式轉接中，也不支援等候音樂。| 
-|反向編號查閱 | 在2019年9月提供，如果數位與 AAD 中的使用者相關聯，則電話系統會顯示呼叫 ID 給外部電話號碼。 如果電話號碼不在 AAD 中，則會顯示通訊提供的顯示名稱（如果有的話）。  |
+|**Office 365 中的電話系統功能** <br/> |**描述** <br/> |
+|[雲端自動語音應答](what-are-phone-system-auto-attendants.md) <br/> |可讓您建立可讓外部與內部呼叫者找到並將來電放入或轉接給貴組織中的公司使用者或部門的功能表系統。  <br/> |
+|[雲端通話佇列](create-a-phone-system-call-queue.md) <br/> |可讓您設定為貴組織管理呼叫佇列的方式：例如，[保留問候語]、[暫留音樂]、[搜尋下一個可用的通話代理程式] 來處理通話，依此類推。  <br/> |
+|等候音樂 | 當從公用交換電話網絡（PSTN）的外部呼叫置於保留狀態時，會播放服務所定義的預設音樂。 除了呼叫佇列撥打電話之外，此功能也適用于一對一的 PSTN 對團隊通話。 這項功能可提供與其他平臺的保留期間通知同位。 在初次發行時，系統管理員不能設定此功能。 在 PSTN 通話的諮詢式轉接中，也不支援等候音樂。|
+|呼叫應答/啟動（依名稱和號碼）  <br/> |讓使用者以觸控方式接聽來電，並撥打完整的電話號碼或按一下用戶端中的名稱，以進行撥出通話。  <br/> |
+|[來電轉接選項和同時撥打](https://support.office.com/article/call-forwarding-call-groups-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e) <br/> |讓使用者設定轉寄規則，讓通話在任何地方都能使用，或者來電可以轉寄給同事或語音信箱。  <br/> |
+|[[群組通話] 和 [轉寄至] 群組](call-sharing-and-group-call-pickup.md) <br/> | 讓使用者與同事共用來電，讓同事接聽在使用者無法使用時所發生的通話。 與其他通話共用形式（例如來電轉接或同時撥打）相比，中斷收件者的中斷更小，因為使用者可以設定接收共用通話的通知方式。 |
+|[轉接通話並 consultive 轉接](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0) <br/> |讓使用者將來電轉接給其他人。 或者，如果他們需要離開自己的 office，但想要繼續交談，他們可以將呼叫從他們的 PC 或 IP 手機轉接到他們的手機。  <br/> |
+|[轉接至語音信箱 mid 通話](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0) <br/> | 讓使用者在通話期間轉移至語音信箱。 |
+|[通話駐留和擷取](call-park-and-retrieve.md)  <br/> | 讓使用者在雲端的 [小組服務] 中保留通話。 當通話停用時，服務會產生唯一的呼叫檢索程式碼。 停用通話的使用者，或其他人可以使用該程式碼和支援的 app 或裝置來檢索通話。 <br/> |
+|從搜尋撥打電話號碼  <br/> | 讓使用者使用/call 命令並指定名稱或數位，在搜尋方塊中放置通話。 <br/> |
+|[來電顯示](how-can-caller-id-be-used-in-your-organization.md)  <br/> |從公司內部進行通話會顯示詳細的本機號碼，該識別碼會從公司目錄提取資訊，並顯示圖片識別碼和工作標題，而不只是電話號碼。 對於來自外部電話號碼的呼叫，會顯示電話服務提供者所提供的本機號碼。 如果外部電話號碼是企業目錄中的次要號碼，則會顯示來自企業目錄的資訊。  <br/> |
+|裝置切換  <br/> |讓使用者在與小組連接的另一個 HID 裝置上，玩通話或會議;例如，從電腦喇叭切換至耳機。   <br/> |
+|目前狀態式呼叫路由 <br/> |控制與目前狀態的入站通訊，讓使用者封鎖所有傳入通訊，除了特別指出的以外。  <br/> |
+|[整合式撥號鍵台](https://support.office.com/en-us/article/use-the-dial-pad-in-teams-27bc60b5-74c0-4e9c-808b-da4db9514d89) <br/> | 讓使用者在搜尋列和撥號鍵台中的任何位置以名稱或按號碼撥號，以加速撥出電話的程式。 <br/> |
+|聯盟通話  <br/> |讓使用者能夠與同盟租使用者安全地連線、溝通及共同作業。  <br/> |
+|[撥打及接聽視頻通話](https://support.office.com/article/abf62493-670f-4b0d-b2cf-fe03b49caf42) <br/> | 如果使用者的帳戶已啟用視頻通話，則使用者可以與連絡人進行面對面的視頻通話。 他們需要的是相機、電腦的喇叭和麥克風。 如果使用者的電腦沒有內建的音訊裝置，也可以使用耳機。<br/> |
+|[雲端語音信箱](set-up-phone-system-voicemail.md) <br/> | 當使用者收到語音信箱時，會以電子郵件的形式傳送給其 Exchange 信箱，並將語音信箱訊息做為附件。 使用者可以在其認證的桌面手機，以及所有團隊或商務用 Skype 應用程式上聽取他們的訊息。 已新增到2017年3月的語音信箱支援，且預設為所有組織和使用者啟用。   <br/> |
+|[雲端語音信箱使用者設定](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f?ui=en-US&rs=en-US&ad=US) <br/> | 讓使用者為語音信箱問候語設定用戶端設定、呼叫應答規則及問候語言，包括外出問候語。   |
+|[副鈴聲](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f) <br/> | 已將多個喇叭裝置連接至其電腦的使用者，可以選擇將次要裝置設定為除了預設的喇叭之外進行響鈴。 例如，當有耳機連接至 PC 和書桌喇叭的使用者，您可以選擇在撥打電話時同時撥打耳機和辦公桌喇叭，以免來電。  |
+|[獨特的鈴聲通知](https://support.office.com/en-us/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f)（僅限團隊）<br/> |讓使用者為一般通話、轉寄通話和委派通話選擇不同的鈴聲，讓他們可以區別通話類型。  <br/> |
+|[共用線路外觀](shared-line-appearance.md) <br/> | 讓使用者共用自己的電話線路，讓其他使用者代表自己撥打及接聽來電。|
+|[繁忙（僅](teams-calling-policy.md)限團隊） <br/> | 通話原則可讓您設定當使用者已在通話或會議中，或有保留的通話時處理來電的方式。 來電者在手機上時，來電者會聽到占線信號。 被呼叫者會收到未接來電通知，但無法接聽來電。 預設會停用此功能，但租使用者管理員可以開啟此功能。 |
+|[通話封鎖](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f?ui=en-US&rs=en-US&ad=US) <br/> | 讓使用者將（PSTN）電話號碼新增至封鎖的清單，讓該號碼的下一個呼叫封鎖給使用者。|
+|[常見的區域電話](set-up-common-area-phones.md) <br/> | 常見的區域手機通常位於大廳或會議室等區域，讓多人都能使用。 常見的區域手機是設定為裝置，而不是使用者，而且可以自動登入網路。|
+|[媒體旁路支援](direct-routing-plan-media-bypass.md)（僅適用于團隊直接路由） <br/> | 若要取得較佳的效能，請在會話邊界控制器（SBC）和用戶端之間保留媒體，而不是透過 Microsoft Phone 系統傳送。 |
 
-   
-## <a name="plan-and-set-up-the-phone-system-in-office-365"></a>規劃及設定 Office 365 中的電話系統
-<a name="bkmk_setup"> </a>
-
-以最適合您企業的方式設定電話系統：
-  
-- 您可以將電話系統附加元件與公司現有的電話線路搭配使用，或使用通話[方案](calling-plan-landing-page.md)服務撥入和撥出通話。
-    
-- 您可以從 Office 365 取得新的電話號碼，或將現有的電話號碼轉移到商務用 Skype。 
-    
-請參閱下列文章，在您的企業中規劃及設定電話系統：
-
-- [含有通話方案的電話系統](calling-plan-landing-page.md)
-
-- [設定通話方案](set-up-calling-plans.md)：本文提供逐步指示，以取得您的電話號碼，或將現有的電話號碼轉移到商務用 Skype。
-    
-- [Microsoft 電話解決方案](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)：本文將配置您所有的部署選項。 它也包含規劃整個雲端方案的相關資訊。 
-    
-- [Microsoft 團隊附加元件授權](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)：瞭解您需要購買哪些授權才能取得 Office 365 中的電話系統。
-    
-- [設定雲端語音信箱-系統管理協助](set-up-phone-system-voicemail.md)
-    
-- [探索商務用 skype](https://support.office.com/article/8a3491a3-c095-4718-80cf-cbbe4afe4eba)：協助貴公司中的人員瞭解如何使用商務用 skype 功能。 
-
-
-## <a name="availability"></a>供應
-<a name="bkmk_setup"> </a>
-
-||||
-|:-----|:-----|:-----|
-|**胖用戶端** <br/> |**行動用戶端** <br/> |**IP 電話** <br/> |
-| 可與 Office 365 中所有支援的電腦和 Mac 用戶端搭配使用。 <br/> [安裝商務用 Skype](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb) <br/> [針對 Office 365 設定 Lync for Mac 2011](https://support.office.com/article/ae3ebd0e-a1a7-48cf-9350-36b144dc5f88) <br/> | 我們有適用的商務用 Skype 用戶端： <br/> [且](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb#os_type=ios) <br/> [Android](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb#os_type=android) <br/> [Windows Phone](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb#os_type=windows_phone) <br/> |選擇與商務用 Skype 相容的大量電話。 請參閱[取得商務用 Skype Online 的電話](/skypeforbusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online)。 <br/> |
 
 ## <a name="availability-in-gcc-high-and-dod-clouds"></a>在 GCC 高和 DoD 雲彩中的可用性
 <a name="bkmk_setup"> </a>
@@ -108,12 +77,19 @@ PBX 是企業內的電話系統。 Office 365 附加元件中的電話系統提�
 - [轉接至語音信箱 mid 通話](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0)
 - 從搜尋列撥打電話號碼
 - 等候音樂
-- AAD 反向數位查閱
+- Azure AD 反向號碼查閱
 
 ## <a name="related-topics"></a>相關主題
-[取得商務用 Skype 和 Microsoft 團隊的服務電話號碼](/microsoftteams/getting-service-phone-numbers)
 
-[音訊會議與通話方案的適用國家/地區](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+- [什麼是 Office 365 中的電話系統](what-is-phone-system-in-office-365.md)
+- [Microsoft 團隊中的雲端語音](cloud-voice-landing-page.md)
+- [設定電話系統](setting-up-your-phone-system.md)
+- [哪一個通話方案適合您？](calling-plan-landing-page.md)
+- [電話系統直接路由](direct-routing-landing-page.md)
+- [監控及管理通話品質](monitor-call-quality-qos.md)
+- [Microsoft 團隊附加元件授權](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+- [電話系統價格](https://products.office.com/microsoft-teams/voice-calling#requirements)
+- [使用 callings 與會議的虛擬化桌面基礎結構團隊](teams-for-vdi.md#teams-on-vdi-with-calling-and-meetings)
 
   
  
