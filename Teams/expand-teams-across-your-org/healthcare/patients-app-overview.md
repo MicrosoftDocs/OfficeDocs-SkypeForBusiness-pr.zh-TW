@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: 適用于團隊管理員的患者應用程式
-ms.openlocfilehash: 550a92ac638f1d83cf8bca9a89e0e29d323247e0
-ms.sourcegitcommit: d7fab927e96954f294f28dfb33c0889f736b3ab5
+ms.openlocfilehash: 38750974ce2d4763cad79b9b4cf50a32f403c7a8
+ms.sourcegitcommit: 013190ad10cdc02ce02e583961f433d024d5d370
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/22/2020
-ms.locfileid: "41259062"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "41634836"
 ---
 # <a name="patients-app-overview"></a>病患應用程式概觀
 
@@ -28,8 +28,8 @@ ms.locfileid: "41259062"
 
 App 有兩種模式：
 
-- 透過 FHIR 連接至 EMRs 的 EMR 連線模式。 EMR 連線模式 app 會保留在私人預覽中，感興趣的客戶或系統管理員可能會透過在 teamsforhealthcare@service.microsoft.com 中除去 Microsoft 電子郵件，並提供其 Office 365 租使用者的相關資訊，以要求存取 app。
-- [手動] 模式可讓護理小組手動新增/攜帶患者資訊。 您可以在 [團隊 app] 商店中找到該應用程式，預設會供使用者下載，且位於公用預覽中。 在 Microsoft 團隊中，您可以使用[應用程式設定原則](../../teams-app-setup-policies.md)，將 app 限制在某些使用者區段中
+- 透過 FHIR 連接至 EMRs 的 EMR 連線模式。 EMR 連線模式 app 會保留在私人預覽中，感興趣的客戶或系統管理員可能會透過在[teamsforhealthcare@service.microsoft.com](mailto:teamsforhealthcare@service.microsoft.com)中除去 Microsoft 電子郵件，並提供其 Office 365 租使用者的相關資訊，以要求存取 app。
+- [手動] 模式可讓護理小組手動新增/攜帶患者資訊。 您可以在 [小組 app] 商店中找到應用程式，讓使用者在私人預覽中下載。 在團隊中，您可以使用[app 設定原則](../../teams-app-setup-policies.md)，將 app 限制在特定的使用者區段。 若要取得應用程式的存取權，您的租使用者必須是技術採納計畫（輕觸）的一部分。 請在[teamsforhealthcare@service.microsoft.com](mailto:teamsforhealthcare@service.microsoft.com)中放下我們的電子郵件，以啟動處理常式來要求存取權。
 
 ## <a name="usage-example"></a>用法範例
 

@@ -1,5 +1,5 @@
 ---
-title: 透過 SCCM 使用 MSI 安裝 Microsoft 團隊
+title: 透過 Microsoft 端點 Configuration Manager 使用 MSI 安裝 Microsoft 團隊
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -14,19 +14,19 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dd934c601b45258dd7a2e2c15ef49f19ffee9201
-ms.sourcegitcommit: 416a2d404a2ea15b484cd7579035e7f2282ac2cf
+ms.openlocfilehash: 2f6902ae52c04d0087bb6718b119ae66dd920ced
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/18/2020
-ms.locfileid: "41233272"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628129"
 ---
-# <a name="install-microsoft-teams-using-msi"></a>使用 MSI 安裝 Microsoft 團隊
+# <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>使用 Microsoft 端點 Configuration Manager 安裝 Microsoft 團隊
 
 > [!Tip]
 > 請觀看下列會話，瞭解 Windows 桌面用戶端的優點，以及如何進行規劃，以及部署方式：[團隊 Windows 桌面用戶端](https://aka.ms/teams-clients)
 
-若要使用 System Center Configuration Manager，或群組原則，或適用于廣泛部署的任何協力廠商發佈機制，Microsoft 提供了 MSI 檔案（32位與64位），管理員可以使用它來大量部署團隊來選取使用者或電腦。 系統管理員可以使用這些檔案來遠端部署團隊，讓使用者不需要手動下載團隊 app。 部署時，小組會自動啟動在該電腦上登入的所有使用者。 （您可以在安裝應用程式後停用自動啟動。 [請參閱下文](#disable-auto-launch-for-the-msi-installer)。）我們建議您將套件部署到電腦，讓電腦的所有新使用者也能從這項部署獲益。
+若要使用 Microsoft 端點設定管理員（或群組原則），或適用于廣泛部署的任何協力廠商發佈機制，Microsoft 提供了 MSI 檔案（32位與64位），管理員可以使用它來大量部署團隊來選取使用者，或桌上型電腦. 系統管理員可以使用這些檔案來遠端部署團隊，讓使用者不需要手動下載團隊 app。 部署時，小組會自動啟動在該電腦上登入的所有使用者。 （您可以在安裝應用程式後停用自動啟動。 [請參閱下文](#disable-auto-launch-for-the-msi-installer)。）我們建議您將套件部署到電腦，讓電腦的所有新使用者也能從這項部署獲益。
 
 以下是 MSI 檔案的連結：
 
@@ -41,7 +41,7 @@ ms.locfileid: "41233272"
 團隊也可以包含在 Office 365 專業增強版的部署中。 如需詳細資訊，請參閱[使用 Office 365 專業增強版部署 Microsoft 團隊](https://docs.microsoft.com/deployoffice/teams-install)。
 
 > [!Note]
-> 若要深入瞭解 SCCM，請參閱[System Center Configuration Manager 簡介](https://docs.microsoft.com/sccm/core/understand/introduction)。
+> 若要深入瞭解 Microsoft 端點建構管理員，請參閱[何謂 Configuration Manager？](https://docs.microsoft.com/configmgr/core/understand/introduction)。
 
 ## <a name="deployment-procedure-recommended"></a>部署程式（建議使用）
 
@@ -80,7 +80,7 @@ ms.locfileid: "41233272"
 3. 將 MSI 套件重新部署到該特定電腦。
 
 > [!TIP]
-> 您可以使用我們的[Microsoft 團隊部署清理](scripts/powershell-script-teams-deployment-clean-up.md)腳本，透過 SCCM 完成步驟1和2。
+> 您可以使用我們的[Microsoft 團隊部署清理](scripts/Powershell-script-teams-deployment-clean-up.md)腳本，透過 Configuration Manager 完成步驟1和2。
 
 ## <a name="prevent-teams-from-starting-automatically-after-installation"></a>避免團隊在安裝後自動啟動
 

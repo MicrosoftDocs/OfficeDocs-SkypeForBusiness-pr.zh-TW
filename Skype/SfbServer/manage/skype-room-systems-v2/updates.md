@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: M365-voice
 ms.assetid: ''
 description: 管理 Microsoft 團隊聊天室的 Windows 更新
-ms.openlocfilehash: 09be03b0308dfcf00a39421e2e84b75fe94a9fae
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 346747d3d5731f5b4504c45066a39a28f5289e70
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775314"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628679"
 ---
 # <a name="manage-windows-updates"></a>管理 Windows 更新
 
@@ -33,11 +33,11 @@ Microsoft 團隊聊天室會在 Windows 10 企業版 IoT 或 Windows 10 企業�
 
 ## <a name="windows-updates-for-businesshttpsdocsmicrosoftcomwindowsdeploymentupdatewaas-manage-updates-wufb-gpo-or-intune"></a>[商務用 Windows 更新](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb)（GPO 或 Intune）   
 - 更新是從 WU 或您的 WSUS 下載，但已設定的延遲超過 KB 的原始發行日期。 
-- 與多個 OU 或篩選的原則結合，這可讓您建立部署「鈴響」，管理員可以指定哪些裝置會先安裝品質更新，且稍後會安裝哪些裝置。 這可讓您在整個部署期間進行可靠性和效能測試，而不需要在 SCCM 中管理 Windows 更新的額外負荷（例如）。
+- 與多個 OU 或篩選的原則結合，這可讓您建立部署「鈴響」，管理員可以指定哪些裝置會先安裝品質更新，且稍後會安裝哪些裝置。 這可讓您在整個部署期間進行可靠性和效能測試，而不需要在 Microsoft 端點設定管理員中管理 Windows 更新等額外負荷。
 - 如果您想要頻寬管理和 Windows 相關的 Windows 更新提供，您可以同時[設定](https://docs.microsoft.com/windows/deployment/update/waas-integrate-wufb)WSUS 和商務用 windows 更新。
 - 功能更新。 請參閱下方的其他記事。
 
-## <a name="wsussccmhttpsdocsmicrosoftcomwindowsdeploymentupdatewaas-manage-updates-configuration-manager"></a>[WSUS/SCCM](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-configuration-manager)
+## <a name="wsusconfiguration-managerhttpsdocsmicrosoftcomwindowsdeploymentupdatewaas-manage-updates-configuration-manager"></a>[WSUS/Configuration Manager](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-configuration-manager)
 - 就像是商務用 Windows 更新，但在每個 "震鈴" 或整個部署中都有以特定的 KB 為目標的額外選項。 每個更新都可以個別部署和測試，而不是只依賴延遲。 
 - 功能更新。 請參閱下方的其他記事。
 
@@ -48,4 +48,4 @@ Microsoft 團隊聊天室會在 Windows 10 企業版 IoT 或 Windows 10 企業�
 
 Microsoft 團隊聊天室是「不在使用中」的「不在使用中」的功能，不會因 Windows 更新而自動安裝 Windows 更新或重新開機裝置。 不過，系統可能會下載更新，並等待下一次重新開機來進行安裝。 除非有人手動重新開機，否則系統會在自動重新開機時進行安裝。 Windows 更新在聊天室中應該是透明的，而使用者介面不應該被 Windows 更新中斷。
 
-如果您選擇 [加入網域]，請使用 SCCM 或 WSUS，並特別注意策略或動作，可能會導致裝置安裝更新，或在營業期間強制重新開機。 如果您在部署期間重新開機您的系統，或透過 UI 發出 Windows 更新通知，您會想要查看您的設定。
+如果您選擇 [加入網域]，請使用 Microsoft 端點建構管理員或 WSUS，請特別注意策略或動作，可能會導致裝置安裝更新，或在營業期間強制重新開機。 如果您在部署期間重新開機您的系統，或透過 UI 發出 Windows 更新通知，您會想要查看您的設定。

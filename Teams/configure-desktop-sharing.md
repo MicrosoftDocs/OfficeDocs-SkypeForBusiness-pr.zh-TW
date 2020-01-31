@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 99c6e2a5adb9d0f9a4b4e3f6f17b7484bda96a74
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: bb3340da960728b1a261efc510573702c5a17076
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37516883"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628709"
 ---
 <a name="configure-desktop-sharing-in-microsoft-teams"></a>在 Microsoft 團隊中設定桌面共用
 ============================================
@@ -28,7 +28,7 @@ ms.locfileid: "37516883"
 
 若要設定螢幕共用，您需要建立新的會議原則，然後將它指派給您想要管理的使用者。
 
-**在 Microsoft 團隊系統管理中心**
+**在[Microsoft 團隊系統管理中心](https://admin.teams.microsoft.com/)**
 
 1. 選取 [**會議** > **會議原則**]。
 
@@ -60,7 +60,7 @@ ms.locfileid: "37516883"
 
 ## <a name="use-powershell-to-configure-shared-desktop"></a>使用 PowerShell 來設定共用桌面
 
-您也可以使用[CsTeamsMeetingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) Cmdlet 來控制桌面共用。 設定下列參數：
+您也可以使用[CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) Cmdlet 來控制桌面共用。 設定下列參數：
 
 - 描述
 - ScreenSharingMode
@@ -70,5 +70,5 @@ ms.locfileid: "37516883"
 - AllowWhiteboard
 - AllowSharedNotes
 
-[深入瞭解如何使用 csTeamsMeetingPolicy Cmdlet](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)。
+[深入瞭解如何使用 csTeamsMeetingPolicy Cmdlet](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)。
 

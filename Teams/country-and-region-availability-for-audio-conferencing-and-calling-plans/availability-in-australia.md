@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是適用于商務用 Skype 的 Office 365 服務，以及適用于澳大利亞的 Microsoft 團隊。
-ms.openlocfilehash: 984450b96747db74966ae9f0880cd96b9eedb2b4
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 2ce9e45a4f2addbe35c0a853c6c009d58998d336
+ms.sourcegitcommit: 5932ec62a42d7b392fa31c6a2a3462389ac24b73
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37562703"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "41573739"
 ---
 # <a name="availability-in-australia"></a>澳大利亞的可用性
 
@@ -41,7 +41,7 @@ ms.locfileid: "37562703"
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
-|音訊會議是否可供購買？  <br/> |是的  <br/> |
+|音訊會議是否可供購買？  <br/> |是  <br/> |
 |是否會自動為音訊會議指派電話號碼？  <br/> |不。 [請](mailto:ptnapac@microsoft.com)與我們聯繫。 <br/> |
 |使用 [呼叫我] 功能撥出功能  <br/> |離線  <br/> |
 
@@ -49,14 +49,12 @@ ms.locfileid: "37562703"
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
-|電話系統是否可供購買？  <br/> |是的  <br/> |
+|電話系統是否可供購買？  <br/> |是  <br/> |
 |自動語音應答 <br/> |離線  <br/> |
 |通話佇列  <br/> |離線  <br/> |
 |語音信箱  <br/> |離線  <br/> |
 
 ## <a name="calling-plans"></a>通話方案
-> [!IMPORTANT]
-> 僅可透過適用于澳大利亞的租使用者使用 Telstra。 如需詳細資訊，請參閱[Telstra Office 365 的通話](https://aka.ms/TelstraVoicePlan)。
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
@@ -66,16 +64,28 @@ ms.locfileid: "37562703"
 
 > [!IMPORTANT]
 > 若要刪除澳大利亞訂閱者號碼（由 Telstra 提供），請直接與 Telstra。
-> 若要更新澳大利亞訂閱者號碼的緊急位址資訊（由 Telstra 提供），請直接與 Telstra。
+> 若要更新澳大利亞訂閱者號碼（由 Telstra 提供）的緊急位址資訊，請直接與 Telstra。
 > 如需詳細資訊，請參閱[Telstra Office 365 的通話](https://aka.ms/TelstraVoicePlan)。
+
+### <a name="if-your-tenant-is-located-outside-australia"></a>如果您的租使用者位於澳大利亞以外
+
+從2019年9月1日起，如果您的租使用者位於澳大利亞境外，您可以為位於澳大利亞的使用者購買通話方案。 這適用于下列國家和地區。
+
+|||
+|---------|---------|
+|地區    |美國以外的本土      |
+|APAC     |孟加拉國、不丹、汶萊、柬埔寨、香港、印尼、老撾、澳門特別行政區、馬來西亞、馬爾地夫、緬甸、尼泊爾、菲律賓、新加坡、斯里蘭卡、泰國、東帝汶-Leste、越南|
+|中東    |Bouvet Islands、安道爾、奧地利、比利時、安全島、保加利亞、克羅地亞、賽普勒斯、捷克共和國、丹麥、愛沙尼亞、法羅群島、芬蘭、法國、德國、直布羅陀、希臘、Isle、、冰島、格陵蘭、Guernsey、匈牙利、冰島、愛爾蘭、、Jan、澤西，拉脫維亞，列支敦斯登，立陶宛，盧森堡，馬爾他，摩納哥，荷蘭，挪威，波蘭，葡萄牙，羅馬尼亞，聖馬利諾，斯洛伐克，斯洛維尼亞，西班牙，斯瓦爾巴，瑞典，瑞士，英國，梵蒂岡，  |
+
+請注意，Office 365 的 Telstra 通話將會顯示為附加元件，僅供由 Telstra 提供給上述國家和地區的使用者使用。 針對其他地區的使用者，他們會繼續附加 Microsoft 通話方案或直接路由（如果適用的話）。 如需詳細資訊，請參閱[Telstra Office 365 的通話](https://aka.ms/TelstraVoicePlan)。
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服務的付費和免付費電話號碼
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
 |您可以在哪一或哪些主要城市取得付費電話號碼？  <br/> | <ul><li>德 <li>布里斯班 <li>  坎培拉 <li>Darwin <li>Melbourne <li>Newcastle <li> 思 <li>分部 <li>Wollongong  |
-|是否有付費電話號碼？  <br/> |是的  <br/> |
-|免費提供免付費電話號碼嗎？  <br/> |是的  <br/> |
+|是否有付費電話號碼？  <br/> |是  <br/> |
+|免費提供免付費電話號碼嗎？  <br/> |是  <br/> |
 
 如果您想要取得自動語音應答的免付費電話號碼和免付費電話號碼，[請](mailto:ptnapac@microsoft.com)與我們聯繫或音訊會議服務號碼。
 
@@ -83,12 +93,12 @@ ms.locfileid: "37562703"
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
-|通訊點數提供了嗎？  <br/> |是的  <br/> |
+|通訊點數提供了嗎？  <br/> |是  <br/> |
    
 如果您想要設定，請參閱[為您的組織設定通訊點數](../set-up-communications-credits-for-your-organization.md)。
   
 ## <a name="related-topics"></a>相關主題
 
-[取得商務用 Skype 和 Microsoft 團隊的服務電話號碼](/microsoftteams/getting-service-phone-numbers)
+[取得商務用 Skype 和 Microsoft Teams 的服務電話號碼](/microsoftteams/getting-service-phone-numbers)
 
-[適用于音訊會議與通話方案的國家和地區可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[音訊會議與通話方案的適用國家/地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

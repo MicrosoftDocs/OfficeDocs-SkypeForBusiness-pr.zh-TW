@@ -1,7 +1,7 @@
 ---
 title: 管理團隊中的資源帳戶
-ms.author: jambirk
-author: jambirk
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: jastark, wasseemh
 ms.topic: article
@@ -17,12 +17,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: 瞭解如何在 Microsoft 團隊中管理資源帳戶
-ms.openlocfilehash: a89fe9df7cc878369a06b9c959609dd435bcbd8c
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: e7e7e644d64aeb043e6403fd60d22ebcef155ebe
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925464"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628359"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>在 Microsoft Teams 中管理資源帳戶
 
@@ -107,24 +107,34 @@ ms.locfileid: "37925464"
 
 ![[資源帳戶] 頁面的螢幕擷取畫面](media/r-a-master.png)
 
-![在前一個螢幕擷取畫面中參照標注的數位1圖示](media/sfbcallout1.png)
+![在前一個螢幕擷取畫面中參照標注的數位1圖示](media/teamscallout1.png)
 
-若要建立新的資源帳戶，請按一下 [ **+ 新增帳戶**]。 在快顯視窗中，填寫資源帳戶的顯示名稱和使用者名稱（功能變數名稱必須自動填入），然後按一下 [**儲存**]。
+若要建立新的資源帳戶，請按一下 [ **+ 新增**]。 在快顯視窗**中，填寫**[**顯示名稱**]、[使用者名稱] （功能變數名稱必須自動填入），以及資源帳戶的**資源帳戶類型**。 根據您想要與資源帳戶建立關聯的 app，資源帳戶類型可以是**自動**語音應答或**呼叫佇列**。 當您準備好時，請按一下 [**儲存**]。
 
 ![[新增資源帳戶] 選項的螢幕擷取畫面](media/res-acct.png)
 
 接下來，將授權套用至 O365 系統管理中心的資源帳戶，如在[商務用 Office 365 中指派授權給使用者](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide)的說明。
 
-### <a name="edit-resource-account-name"></a>編輯資源帳戶名稱
+### <a name="edit-resource-account"></a>編輯資源帳戶 
 
-![數位2的圖示，參照前一個螢幕擷取畫面](media/sfbcallout2.png)中的標注，您可以使用 [**編輯**] 選項編輯資源帳戶顯示名稱。 完成後，按一下 [**儲存**]。
+![](media/teamscallout2.png)數位2的圖示，參照前一個螢幕擷取畫面中的標注，您可以使用 [**編輯**] 選項編輯資源帳戶**顯示名稱**和**資源帳戶**類型。 完成後，按一下 [**儲存**]。
+
 ![[編輯資源帳戶] 選項的螢幕擷取畫面](media/r-a-edit.png)
 
 <a name="phonenumber"> </a>
 
 ### <a name="assignunassign-phone-numbers-and-services"></a>指派/取消指派電話號碼和服務
 
-![數位3的圖示，在您建立資源帳戶並指派授權](media/sfbcallout3.png)之後，在前一個螢幕擷取畫面中參照標注，您可以按一下 [**指派/取消指派**]，將服務號碼指派給資源帳戶，或指派資源帳戶移到已存在的自動語音應答或通話佇列。 指派直接路由號碼只能使用 Cmdlet 完成。 如果您仍需建立通話佇列或自動語音應答，您可以在建立資源帳戶時連結該帳戶。 完成後，按一下 [**儲存**]。
+![數位3的圖示，在您建立資源帳戶並指派授權](media/teamscallout3.png)之後，在前一個螢幕擷取畫面中參照標注，您可以按一下 [**指派/取消指派**]，將服務號碼指派給資源帳戶、設定電話號碼類型，或將資源帳戶指派給已經存在的特定自動語音應答或通話佇列。 指派直接路由號碼只能使用 Cmdlet 完成。 如果您尚未建立要與資源帳戶相關聯的通話佇列或自動語音應答，請將該欄位留白。 您可以在建立資源帳戶時將它連結。 完成後，按一下 [**儲存**]。
+
+**電話號碼類型**的選項如下：
+
+- 無
+- Online
+- 免付費電話
+- 內部部署
+
+![[指派/取消指派] 選項的螢幕擷取畫面](media/r-a-assign.png)
 
 若要將直接路由或混合式編號指派給資源帳戶，您將需要使用 PowerShell，請參閱下一節。
 
@@ -134,7 +144,7 @@ ms.locfileid: "37925464"
 > [!IMPORTANT]
 > 電話號碼不會直接指派給自動語音應答或通話佇列，而是與自動語音應答或通話佇列相關聯的資源帳戶。
 
-![[指派/取消指派] 選項的螢幕擷取畫面](media/r-a-assign.png)
+
 
 ## <a name="change-an-existing-resource-account-to-use-a-virtual-user-license"></a>變更現有的資源帳戶以使用虛擬使用者授權
 
@@ -149,7 +159,7 @@ ms.locfileid: "37925464"
 
 - 下列 Powershell Cmdlet 範例顯示如何使用[新的 CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineApplicationInstance?view=skype-ps)建立以線上為宿主的資源帳戶。 
 
-- 針對駐留在商務用 Skype Server 2019 的資源帳戶（可搭配雲端通話佇列和雲端自動語音應答），請參閱[設定雲端通話佇列](/skypeforbusiness/hybrid/configure-call-queue.md)或[設定雲端自動](/skypeforbusiness/hybrid/configure-cloud-auto-attendant.md)語音應答。 混合式實現（在直接路由中的數位）將會使用[新的 CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps)。
+- 針對駐留在商務用 Skype Server 2019 的資源帳戶（可搭配雲端通話佇列和雲端自動語音應答），請參閱[設定雲端通話佇列](/skypeforbusiness/hybrid/configure-call-queue.md)或[設定雲端自動](/skypeforbusiness/hybrid/configure-cloud-auto-attendant.md)語音應答。 混合式實現（駐留在直接路由上的號碼）是使用[CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) Cmdlet （在內部部署商務用 Skype server 2019 伺服器上）進行設定。
 
 您在建立應用程式實例時所需使用的應用程式識別碼為：
 

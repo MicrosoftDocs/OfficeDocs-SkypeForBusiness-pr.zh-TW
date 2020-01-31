@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f698d46be07c60d2034b2e355ad70b488b2d7646
-ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
+ms.openlocfilehash: ed6b86aacf13b577d45ee982d32fae7565d37314
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41111477"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628539"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>為 Microsoft 團隊取得用戶端 
 
@@ -45,7 +45,7 @@ Microsoft 團隊桌面用戶端是獨立的應用程式，也[可在 Office 365 
 
 如果使用者具有適當的本地許可權（在 PC 上安裝[https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754)團隊用戶端但在 Mac 上是必要的系統管理員許可權），則使用者可以直接從桌面用戶端下載並安裝。
 
-IT 管理員可以選擇其慣用的方法，將安裝檔案分發給組織中的電腦。 一些範例包括 System Center Configuration Manager （Windows）或 Jamf Pro （macOS）。 若要取得適用于 Windows 發佈的 MSI 套件，請參閱[使用 MSI 安裝 Microsoft 團隊](msi-deployment.md)。  
+IT 管理員可以選擇其慣用的方法，將安裝檔案分發給組織中的電腦。 一些範例包括 Microsoft 端點建構管理員（Windows）或 Jamf Pro （macOS）。 若要取得適用于 Windows 發佈的 MSI 套件，請參閱[使用 MSI 安裝 Microsoft 團隊](msi-deployment.md)。  
 
 > [!NOTE]
 > 透過這些機制發佈用戶端只適用于 Microsoft 團隊用戶端的初始安裝，不適用於未來的更新。

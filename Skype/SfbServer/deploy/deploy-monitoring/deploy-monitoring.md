@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 244df419-d0a8-4b1d-aedd-a92114172ab6
 description: 摘要：瞭解如何在商務用 Skype Server 中部署監視。
-ms.openlocfilehash: 7f3bd96b814b45b625612aae9b56a706dfff470f
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: c6ccf371d07dfa7d4fbee582a47c7d1306d6c509
+ms.sourcegitcommit: 013190ad10cdc02ce02e583961f433d024d5d370
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41001144"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "41634846"
 ---
 # <a name="deploy-monitoring-in-skype-for-business-server"></a>在商務用 Skype Server 中部署監視
 
@@ -29,7 +29,7 @@ ms.locfileid: "41001144"
 
 2. 將監視存放區（即監視資料庫）與新的池建立關聯。 請注意，單一監視存儲可以與多個池建立關聯。 根據您的註冊機構池中駐留的使用者數目而定，這表示您不需要為每個池設定個別的監視資料庫。 相反地，單一監視存放區可以由多個池使用。
 
-雖然在您建立新的資料庫池的同時啟用監視通常是比較容易的，但是也可以建立一個已停用監視的新池。 如果您這樣做，您可以在稍後使用拓撲建立器來啟用服務： [拓撲建立器] 提供啟用或停用池監視的方式，或將池與不同的監視存放區建立關聯。 請記住，即使不再有監視伺服器角色，您仍需建立一或多個監視存儲：後端資料庫，用來儲存由監視服務收集的資料。 您可以使用 Microsoft SQL Server 2008 R2、Microsoft SQL Server 2012 或 Microsoft SQL Server 2014 來建立這些後端資料庫。
+雖然在您建立新的資料庫池的同時啟用監視通常是比較容易的，但是也可以建立一個已停用監視的新池。 如果您這樣做，您可以在稍後使用拓撲建立器來啟用服務： [拓撲建立器] 提供啟用或停用池監視的方式，或將池與不同的監視存放區建立關聯。 請記住，即使不再有監視伺服器角色，您仍需建立一或多個監視存儲：後端資料庫，用來儲存由監視服務收集的資料。 您可以使用 Microsoft SQL Server 2008 R2、Microsoft SQL Server 2012、Microsoft sql Server 2014 或 Microsoft SQL Server 2019 來建立這些後端資料庫。
 
 > [!NOTE]
 > 如果已針對某個池啟用監視，您可以停用收集監控資料的程式，而不需變更您的拓撲：商務用 Skype Server 提供一種方式，讓您可以停用（然後重新啟用）通話詳細資料錄製（CDR）或品質體驗（QoE）資料收集。 如需詳細資訊，請參閱本檔的設定通話詳細資料錄製和體驗設定一節。

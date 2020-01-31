@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 89f9ba68dd4fbd1cef271c0dd0a3fb73e10637a7
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: 52bc712798a1412a1c7c2c510c92af090608865d
+ms.sourcegitcommit: 5932ec62a42d7b392fa31c6a2a3462389ac24b73
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38626979"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "41573619"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>在 Outlook 中使用 Teams 會議增益集
 =======================================
@@ -40,10 +40,9 @@ ms.locfileid: "38626979"
 > - Windows 7 使用者必須在 Windows 的 windows 中安裝[通用 C 執行時間更新](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows)，小組會議增益集才能正常運作。
 > - 如果您是從 Microsoft 網上商店使用 Office Outlook 安裝，則不支援 [團隊會議] 增益集。 建議需要此增益集的使用者安裝隨選即用版本的 Office，如[Windows 10 中的 office 在 S 模式](https://support.office.com/article/faq-office-on-windows-10-in-s-mode-717193b5-ff9f-4388-84c0-277ddf07fe3f)文章中所述。
 
-
 ## <a name="teams-meeting-add-in-in-outlook-for-mac"></a>Mac 版 Outlook 中的團隊會議增益集
 
-如果 Outlook 執行 [生產組建16.24.414.0 及更新版本]，Mac 版 Outlook 中的 [小組會議] 按鈕就會出現在 Mac 版 Outlook 功能區中。
+Outlook for Mac 中的 [小組會議] 按鈕會顯示在 outlook for Mac 功能區中（如果 Outlook 執行的是「生產」組建16.24.414.0 及更新版本），且是使用 Office 365 用戶端訂閱啟動。
 
 使用者按一下 [**傳送**] 之後，會議座標（團隊加入連結和撥入號碼）就會新增到會議邀請中。  
 
@@ -100,10 +99,10 @@ FindTime 是 Outlook 的增益集，可協助使用者在整個公司的會議�
 | [團隊管理中心] 中的共存模式 | Outlook mobile 中的預設會議提供者 |
 | --------------------------------------|---------------------------------------------|
 | 索羅門群島 | 商務用 Skype |
-| 僅適用于商務用 Skype | 商務用 Skype |
+| 僅商務用 Skype | 商務用 Skype |
 | 商務用 Skype 與團隊共同作業 | 商務用 Skype |
-| 商務用 Skype 與團隊共同作業與會議 | 團隊 |
-| 僅限團隊 | 團隊 |
+| 商務用 Skype 與團隊共同作業與會議 | Teams |
+| 僅 Teams | Teams |
 
 ## <a name="other-considerations"></a>其他考慮
 

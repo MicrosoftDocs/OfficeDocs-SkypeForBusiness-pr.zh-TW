@@ -5,23 +5,23 @@ ms.author: v-lanac
 author: lanachin
 TOCTitle: Configuration management
 ms:assetid: 00ea1196-cb40-427f-99a4-5e8037cbf367
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720316(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Dn720316(v=OCS.15)
 ms:contentKeyID: 63969570
 ms.date: 05/16/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fa4bacdea1090351e9937e039fec184a1f59ab0f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: cb652485b03bcaee5e63bc4fc23d25fd5df958bd
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40975541"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628349"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuration-management-in-lync-server-2013"></a>Lync Server 2013 中的建構管理
 
@@ -73,7 +73,7 @@ _**主題上次修改日期：** 2015-05-15_
 
   - **自動腳本**   您可以撰寫簡單的腳本來報告諸如作業系統、service pack 層級等專案，以及軟體是否存在於特定電腦群組上。 您可以將這些腳本撰寫成組織的確切需求。 不過，所需的腳本數及其複雜性可能會使腳本的建立和維護成本高昂。
 
-  - **自動化工具**   根據您的企業規模與組織的需求而定，您可能會想要考慮使用自動工具。 系統中心 Configuration Manager 等工具會結合標準報表範本（例如 service pack 層級），也可讓您建立自訂的報表（例如，自訂的應用程式）。 系統中心 Configuration Manager 也可以用來報告硬體和軟體設定。
+  - **自動化工具**   根據您的企業規模與組織的需求而定，您可能會想要考慮使用自動工具。 例如 Microsoft 端點設定管理員的工具會結合標準報表範本（例如 service pack 層級），也可讓您建立自訂的報表（例如自訂的應用程式）。 Microsoft 端點建構管理員也可以用來報告硬體和軟體設定。
 
 </div>
 

@@ -3,7 +3,7 @@ title: 在 Microsoft 團隊中管理 app 設定原則
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.reviewer: lajin
+ms.reviewer: lajin,rarang
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -17,21 +17,21 @@ search.appverid: MET150
 description: 瞭解 Microsoft 團隊中的應用程式設定原則，以及如何使用這些原則將 app 釘選到您組織中的使用者自訂小組。
 f1keywords:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 3cc794829df70fcbadc8a461a6a953d381536365
-ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
+ms.openlocfilehash: e80cacb952bd456e742aa6da0fec32d50c5f3188
+ms.sourcegitcommit: 5932ec62a42d7b392fa31c6a2a3462389ac24b73
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40955307"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "41573785"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>在 Microsoft 團隊中管理 app 設定原則
 
 > [!NOTE]
 > 如果您已啟用整個組織內的應用程式許可權原則設定，**允許與自訂應用程式互動**，您可能不會在 Microsoft 團隊系統管理中心看到 app 安裝原則。 目前正在推出，且即將在您的組織中提供此功能。
 
-身為系統管理員，您可以使用應用程式設定原則來自訂 Microsoft 團隊，以醒目提示對您的使用者而言最重要的應用程式。 您可以選擇要釘選的 app，並設定它們出現的順序。 應用程式設定原則可讓您展示貴組織中的使用者所需的 app，包括由協力廠商或貴組織中的開發人員所建立的 app。 您也可以使用應用程式設定原則來管理內建功能的顯示方式。
+身為系統管理員，您可以使用應用程式設定原則來自訂 Microsoft 團隊，以醒目提示對您的使用者而言最重要的應用程式。 您可以選擇要釘選的 app，並設定它們出現的順序。 應用程式設定原則可讓您展示貴組織中的使用者所需的 app，包括由協力廠商或貴組織中的開發人員所建立的 app。 您也可以使用應用程式設定原則來控制使用者是否可以將 app 釘選到團隊，以及管理內建功能的顯示方式。
 
-應用程式會釘選到應用程式行。 這是團隊桌面用戶端和團隊行動用戶端（iOS 和 Android）底部的列。 
+應用程式會釘選到應用程式行。 這是團隊桌面用戶端和團隊行動用戶端（iOS 和 Android）底部的列。
 
 |團隊桌面用戶端  |團隊行動用戶端 |
 |---------|---------|
@@ -52,13 +52,16 @@ ms.locfileid: "40955307"
 
 1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**團隊 app** > **設定原則**]。
 2. 按一下 [**新增**]。
-3. 輸入原則的名稱和描述，然後按一下 [**新增應用程式**]。
-4. 開啟或關閉 [**允許上傳自訂的應用程式**]，視您是否要讓使用者將自訂應用程式上傳給團隊而定。 如果 [**允許協力廠商] 或 [自訂應用程式**] 在 app 許可權原則中的[組織內應用程式設定](teams-app-permission-policies.md#manage-org-wide-app-settings)中關閉，您將無法變更此設定。
-5. 在 [**新增釘選的應用程式**] 窗格中，搜尋您要新增的應用程式，然後按一下 [**新增**]。 您也可以依應用程式許可權原則篩選 app。 當您選取 app 清單後，請按一下 [**新增**]。
+    ![顯示 [新增應用程式設定原則] 頁面的螢幕擷取畫面](media/app-setup-policies-add.png)
+3. 輸入原則的名稱和描述。
+4. 開啟或關閉 [上**傳自訂應用程式**]，視您是否要讓使用者將自訂應用程式上傳至團隊而定。 如果 [**允許協力廠商應用**程式在 app 許可權原則中的[全組織性應用程式設定](teams-app-permission-policies.md#manage-org-wide-app-settings)中] 為關閉，您將無法變更此設定。
+5. 開啟或關閉 [**允許使用者釘**用]，視您是否要讓使用者將應用程式釘選到自己的應用程式行。
+6. 按一下 [**新增應用程式**]。
+7. 在 [**新增釘選的應用程式**] 窗格中，搜尋您要新增的應用程式，然後按一下 [**新增**]。 您也可以依應用程式許可權原則篩選 app。 當您選取 app 清單後，請按一下 [**新增**]。
 
      ![顯示 [新增釘選的應用程式] 窗格的螢幕擷取畫面](media/app-setup-policies-add-apps.png)
 
-6. 依您希望它們出現在團隊中的順序排列應用程式，然後按一下 [**儲存**]。
+8. 依您希望它們出現在團隊中的順序排列應用程式，然後按一下 [**儲存**]。
 
     ![顯示 [固定的 app] 區段的螢幕擷取畫面](media/app-setup-policies-new-policy-setup.png)
 

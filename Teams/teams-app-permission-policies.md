@@ -20,12 +20,12 @@ f1keywords:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: bc541b3b1bc7c7aba723d7573224679b5900a550
-ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
+ms.openlocfilehash: 8c42b4e2a8bf569d5aee6b2b822e81fc39ebfd81
+ms.sourcegitcommit: 5932ec62a42d7b392fa31c6a2a3462389ac24b73
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40952826"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "41573755"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>管理 Microsoft 團隊中的 app 許可權原則
 
@@ -42,6 +42,9 @@ ms.locfileid: "40952826"
 
 例如，您想要封鎖所有協力廠商應用程式，並允許 Microsoft 針對貴組織中的人力資源小組特定應用程式。 您可以建立名為 [HR App] 許可權原則的自訂原則，將它設定為 [封鎖] 並允許您想要的 app，然後將它指派給 HR 小組的使用者。
 
+> [!NOTE]
+> 如果您已在 Microsoft 365 政府版的環境中部署團隊，請參閱適用于[gcc 的 App 許可權原則](#app-permission-policies-for-gcc)，以深入瞭解適用于 GCC 的協力廠商應用程式設定。
+
 ## <a name="manage-org-wide-app-settings"></a>管理整個組織內的應用程式設定
 
 使用組織範圍內的應用程式設定來控制貴組織提供哪些 app。 全組織式應用程式設定會控制所有使用者的行為，並覆寫指派給使用者的任何其他應用程式許可權原則。 您可以使用它們來控制惡意或有問題的 app。
@@ -51,7 +54,7 @@ ms.locfileid: "40952826"
     ![整個組織內的應用程式設定的螢幕擷取畫面](media/app-permission-policies-org-wide-settings.png)
 3. 在**協力廠商應用程式**下，關閉或開啟這些設定以控制對協力廠商應用程式的存取：
 
-    - **允許團隊中的協力廠商或自訂應用程式**：這會控制使用者是否可以使用協力廠商或自訂應用程式。
+    - **允許在團隊中使用協力廠商**：這會控制使用者是否可以使用協力廠商應用程式。
     - **允許預設發佈至商店的任何新的協力廠商應用程式**：這會控制發佈至 [小組] 應用程式商店的新的協力廠商應用程式是否會自動在小組中提供。 如果您允許協力廠商應用程式，則只能設定此選項。
 
 4. 在 [**自訂應用程式**] 底下，關閉或開啟 [**允許與自訂應用程式互動**]。 這個設定控制使用者是否能與自訂（側載） app 互動。 請記住，這與允許使用者*上傳*自訂應用程式不同。
@@ -134,6 +137,28 @@ $members | ForEach-Object { Grant-CsTeamsAppPermissionPolicy -PolicyName "HR App
 ``` 
 根據群組中的成員數目而定，此命令可能需要幾分鐘的時間執行。
 
+## <a name="app-permission-policies-for-gcc"></a>適用于 GCC 的 App 許可權原則
+
+在 Microsoft 365 政府版的團隊部署中，請務必瞭解下列關於適用于 GCC 的協力廠商應用程式設定。
+
+在 GCC 中，預設會封鎖所有協力廠商應用程式。 此外，您會在 Microsoft 團隊系統管理中心的 [應用程式許可權原則] 頁面上，看到有關管理協力廠商應用程式的相關資訊。
+
+![在 GCC 中應用程式許可權原則的螢幕擷取畫面](media/app-permission-policies-gcc.png)
+
+若要為您組織中的使用者或一組使用者啟用協力廠商應用程式，請執行下列動作：
+
+1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**團隊 app** > ]**許可權原則**。
+2. 確認您要允許一組使用者使用的協力廠商應用程式已在組織層級封鎖。 若要這樣做，請按一下 [**整個組織的設定**]，然後在 [**封鎖的應用程式**] 下，確認已列出該應用程式。
+3. 編輯全域原則來封鎖協力廠商應用程式。 若要執行此動作：
+    1. 在 [應用程式許可權原則] 頁面上，按一下 [**全域（組織範圍預設值）**]，然後按一下 [**編輯**]。
+    2. 在 [**協力廠商應用程式**] 底下，選取 [**封鎖特定的 app 並允許所有其他**app]，新增應用程式，然後按一下 [**儲存**]。
+
+    > [!NOTE]
+    > 在您移至下一個步驟之前，請務必先執行此動作，才能允許組織層級的 app。 這是因為如果協力廠商應用程式未封鎖在全域原則中，則全域原則適用的所有使用者，都可以在組織階層允許時存取協力廠商 app。
+
+4. 允許組織階層的協力廠商應用程式。 若要這樣做，請按一下 [**整個組織的設定**]，然後在 [**封鎖的應用程式**] 底下，從清單中移除應用程式，然後按一下 [**儲存**]。
+5. [建立自訂應用程式許可權原則](#create-a-custom-app-permission-policy)以允許 app，然後[將原則指派](#assign-a-custom-app-permission-policy-to-users)給您想要的使用者。
+
 ## <a name="faq"></a>常見問題集
 
 ### <a name="working-with-app-permission-policies"></a>使用應用程式許可權原則
@@ -149,7 +174,7 @@ $members | ForEach-Object { Grant-CsTeamsAppPermissionPolicy -PolicyName "HR App
 
 使用應用程式許可權原則中的全組織設定，限制您的組織上傳自訂應用程式。  
 
-若要限制特定使用者上傳自訂應用程式，請使用自訂 app 原則（即將推出）。 若要深入瞭解，請參閱[管理團隊中的自訂應用程式原則和設定](teams-custom-app-policies-and-settings.md)。
+若要限制特定使用者上傳自訂應用程式，請使用自訂 app 原則。 若要深入瞭解，請參閱[管理團隊中的自訂應用程式原則和設定](teams-custom-app-policies-and-settings.md)。
 
 #### <a name="does-blocking-an-app-apply-to-teams-mobile-clients"></a>封鎖應用程式適用于團隊行動用戶端嗎？
 

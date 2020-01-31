@@ -20,12 +20,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: '瞭解 Microsoft 團隊聊天室中提供的功能。 '
-ms.openlocfilehash: 81a1ec8142ba43d17552c220495aae212ba2de04
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: 9358eafd4b4e4c9f556a6cca350afa2a5fa4b6fc
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41268829"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628249"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>團隊會議室授權更新
 
@@ -66,7 +66,7 @@ Microsoft 有一個專用的 SKU，可針對會議室裝置（例如 Microsoft �
 |啟動點對點會議 | 會議室 SKU  |商務用 Skype Server 標準版 CAL  <br/> 商務用 Skype Server 企業版 CAL|
 |啟動點對點會議，然後從會議撥出至電話號碼 |  會議室 SKU |商務用 Skype 標準 CAL  <br/> 商務用 Skype Server 企業版 CAL|
 |使用電話號碼為會議室提供電話號碼，以及撥打或接聽會議室或加入音訊會議  | 會議室 SKU  |商務用 Skype Server 標準版 CAL  <br/> 商務用 Skype Server Plus CAL  |
-|使用 Microsoft Intune 管理您的會議室裝置 |會議室 SKU  |使用[內部部署 MDM](https://docs.microsoft.com/sccm/mdm/plan-design/plan-on-premises-mdm)的 Microsoft Intune 訂閱 |
+|使用 Microsoft Intune 管理您的會議室裝置 |會議室 SKU  |使用[內部部署的 MDM](https://docs.microsoft.com/configmgr/mdm/plan-design/plan-on-premises-mdm)進行 Microsoft Intune 訂閱 |
 | |||
 
 > [!NOTE]

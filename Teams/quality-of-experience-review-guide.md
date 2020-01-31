@@ -3,7 +3,6 @@ title: Microsoft 團隊的經驗品質檢查指南
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 09/05/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
@@ -15,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fcf18aa2487527c436b104011140524e6ce4ae5d
-ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
+ms.openlocfilehash: 91a4cda0cb7f16363f3fa90deb0358bf5600330a
+ms.sourcegitcommit: 43a17ce6fea3951719b55bfbda03c500cef4816c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40952806"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41580900"
 ---
 # <a name="quality-of-experience-review-guide"></a>體驗品質的審查指南
 
@@ -58,25 +57,28 @@ _圖 1-本指南涵蓋的主要操作區域_
 
 本指南也專供指定的品質擁護者使用。 如需詳細資訊，請參閱[品質擁護者角色](4-envision-plan-my-service-management.md#the-quality-champion-role)。
 
-## <a name="prerequisites"></a>先決條件
+## <a name="assign-roles-for-accessing-cqd"></a>指派角色以存取 CQD
 
 使用本指南前，請確定您已指派適當的租使用者[角色](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)，以便存取 CQD。
 
--   **Office 365 全域系統管理員** 
+下表顯示每個角色可在 CQD 中執行的動作：
 
--   **商務用 Skype 系統管理員** 
 
--   **Teams 服務管理員** 
+|  |查看報表  |[查看 EUII] 欄位  |建立報表  |上傳資料  |
+|---------|:-------:|:-------:|:-------:|:-------:|
+|Office 365 全域系統管理員     |是         |是         |是         |是         |
+|Teams 服務管理員     |是         |是         |是         |是         |
+|Teams 通訊系統管理員     |是         |是         |是         |是         |
+|Teams 通訊支援工程師     |是         |是         |是         |否         |
+|團隊溝通支援專家     |是         |否         |是         |否         |
+|商務用 Skype 系統管理員     |是         |是         |是         |是         |
+|Azure AD 全域讀取器 |是         |是         |是         |否         |
+|Office 365 報告讀取器<sup>1</sup>     |是         |否         |是         |否         |
 
--   **Teams 通訊系統管理員** 
+<sup>1</sup>除了讀取 CQD 報表之外，Office 365 報告閱讀者還可以查看系統管理中心的所有[活動報告](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263)，以及[Microsoft 365 採用內容套件](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f)中的所有報告。
 
--   **Teams 通訊支援工程師** 
-
--   **團隊溝通支援專家** 
-
-或者，您可以將下列角色指派給 Office 365 使用者帳戶，只允許存取報告功能。
-
--   **報告閱讀程式：** 可以在系統管理中心中查看所有[活動報告](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263)、 [Microsoft 365 採用內容套件](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f)中的任何報告，以及 CQD 報告。
+> [!NOTE]
+> 如果您沒有看到 [EUII] （使用者可辨識的資訊），而且您擁有可查看此資訊的角色之一，請記住 CQD 只能在30天內保留 EUII。 已刪除30天之前的任何日期。
 
 ## <a name="what-is-quality"></a>什麼是品質？
 
@@ -285,6 +287,8 @@ CQD 雖然對分析趨勢和子網很有用，但並不一定會針對特定案�
 -   詳細報告可完全自訂，而且可以下載至 CSV 檔案、匯出或克隆。
 
 如需兩個版本之間差異的完整說明，請參閱[這篇文章](turning-on-and-using-call-quality-dashboard.md)。
+
+2020年1月[的新功能：下載 POWER BI 查詢範本以進行 CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD Power BI query templates.zip?raw=true)。 可自訂的 Power BI 範本，您可以用來分析及報告您的 CQD 資料。
 
 _圖 4-CQD 報表類別_
 

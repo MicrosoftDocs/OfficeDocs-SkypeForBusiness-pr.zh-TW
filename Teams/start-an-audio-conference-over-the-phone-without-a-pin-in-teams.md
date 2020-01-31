@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: '瞭解如何啟用或停用匿名呼叫者從 [小組] 管理中心加入會議。 '
-ms.openlocfilehash: 78b35b65c1bb27d366e8e9fa27c49ef32864081f
-ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
+ms.openlocfilehash: 380272f3f70d68a04a171ea820e391dd2dd5347a
+ms.sourcegitcommit: 43a17ce6fea3951719b55bfbda03c500cef4816c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "37570003"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41580840"
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-microsoft-teams"></a>在沒有 Microsoft 團隊中的 PIN 的情況下，透過電話啟動音訊會議
 
@@ -48,11 +48,11 @@ ms.locfileid: "37570003"
 
 3. 按一下 [**音訊會議**] 旁的 [**編輯**]。
 
-4. 在 [**音訊會議**] 窗格中，啟用或停用**未經驗證的呼叫者可以是會議中的第一個人員**。
+4. 在 [**音訊會議**] 窗格中，啟用或停**用撥入呼叫者可以是會議中的第一個人員**。
     
-4. 按一下 [**儲存**]。 
+4. 按一下 **[** 套用]。 
 
-**使用 Windows Powershell**
+**使用 Windows PowerShell**
   
 如需詳細資訊，請參閱[Microsoft 團隊 PowerShell 參考](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)。
 

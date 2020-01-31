@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: 閱讀本文以瞭解如何部署 Microsoft 團隊聊天室。
-ms.openlocfilehash: abe9b49febe313bb3b8d503b31562d6ae99128a0
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: 0511455516c1dd5ac011a15344bc8a576006fc70
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41268835"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628259"
 ---
 # <a name="deployment-overview"></a>部署概觀
 
@@ -133,7 +133,8 @@ _範例 Microsoft 團隊聊天室服務帳戶規劃表格_
 |-------------------------|-----------------------|   
 |部署少量的 Microsoft 團隊會議室裝置（<10）。 | 如果您使用的是 Surface Pro 的 Microsoft 團隊聊天室，請遵循[針對每個裝置安裝的安裝指示進行](console.md)。 [這個方便的影片會逐步引導您完成整個程式。](https://content.cloudguides.com/guides/Configure%20the%20Skype%20Room%20Systems%20console) 如果您使用的是整合解決方案，請使用 [廠商] 影像來部署，並視需要設定設定。 |
 | 從單一供應商的10與50裝置進行部署。     | 建立 WIM 的映射，[在指南中的步驟 6](console.md)之後暫停，並捕獲與您的仿製發佈技術搭配使用的發佈影像。    |
-| 部署50以上的 Microsoft 團隊會議室裝置、從多個供應商部署裝置，或需要組織特定的代理程式作為部署的一部分。 | 使用以任務排序器為基礎的軟體組建與發佈平臺，例如[System Center Configuration Manager](rooms-scale.md)。  |
+| 部署50以上的 Microsoft 團隊會議室裝置、從多個供應商部署裝置，或需要組織特定的代理程式作為部署的一部分。 | 使用以任務排序器為基礎的軟體組建與發佈平臺，例如[Microsoft 端點建構管理員](rooms-scale.md)。  |
+
 
 **Pro 提示**-每個 Microsoft 團隊聊天室都必須在您的網路上擁有有效且唯一的電腦名稱稱。 許多監視及警示系統會將電腦名稱稱顯示為金鑰識別碼，因此請務必開發 Microsoft 團隊聊天室部署的命名慣例，以讓支援人員輕鬆找出已標記的 Microsoft 團隊聊天室做為需要動作。 範例可能是使用 MTR-*網站*-*房間名稱*（MTR-CURIE）的模式。 
 

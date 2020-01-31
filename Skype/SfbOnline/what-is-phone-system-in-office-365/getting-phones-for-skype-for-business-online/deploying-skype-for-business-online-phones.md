@@ -1,5 +1,5 @@
 ---
-title: 部署商務用 Skype Online 手機
+title: 部署用商務用 Skype Online 電話
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,14 +20,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 瞭解如何取得正確的固件、根據需要進行更新、指派授權，以及設定商務用 Skype online 手機的設定等部署步驟
-ms.openlocfilehash: 8d3de52f7c732571b3692ed2b3683673acdb8e60
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: 10562165547a27bb8a2903e7f11f3c547cca1b1e
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "37642299"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628379"
 ---
-# <a name="deploying-skype-for-business-online-phones"></a>部署商務用 Skype Online 手機
+# <a name="deploying-skype-for-business-online-phones"></a>部署用商務用 Skype Online 電話
 
 這是部署指南，可協助您部署商務用 Skype Online IP 電話。
   
@@ -69,7 +69,7 @@ ms.locfileid: "37642299"
 > [!NOTE]
 > Polycom 之前，請先5.5.1 固件，然後再建立一個製造商專用的裝置鎖機制，該裝置會以商務用 Skype 實現「電話-鎖定」取代。 將使用「裝置鎖」保護的 5.4. a.x 中的手機升級為5.5.1，並不會從「裝置-鎖定」繼承 PIN 碼，這可以讓手機離開不安全。 已啟用「裝置鎖定」的使用者必須啟用下列 Polycom 裝置設定檔參數，讓使用者能夠控制升級的時間（popUpSK，deviceUpdate = 1）。 
   
-固件更新是由商務用 Skype 服務來管理。 每個商務用 Skype 認證手機的固件都會上傳到商務用 Skype 補救伺服器，且預設會在所有手機上啟用裝置更新。 電話會自動下載並安裝最新的認證組建，這取決於電話和巡迴檢測間隔中的非啟用時間。 您可以使用[CsIPPhonePolicy](https://technet.microsoft.com/en-us/library/mt629497.aspx) Cmdlet 來停用裝置更新設定，並將_EnableDeviceUpdate_參數設定為`false`。
+固件更新是由商務用 Skype 服務來管理。 每個商務用 Skype 認證手機的固件都會上傳到商務用 Skype 補救伺服器，且預設會在所有手機上啟用裝置更新。 電話會自動下載並安裝最新的認證組建，這取決於電話和巡迴檢測間隔中的非啟用時間。 您可以使用[CsIPPhonePolicy](https://technet.microsoft.com/library/mt629497.aspx) Cmdlet 來停用裝置更新設定，並將_EnableDeviceUpdate_參數設定為`false`。
   
 ![顯示部署手機的螢幕擷取畫面](../../images/be727622-1924-439f-96ca-89230739db9e.png)
   
@@ -88,7 +88,7 @@ ms.locfileid: "37642299"
   
 ### <a name="step-5---configuration-and-infrastructure-phone-settings"></a>步驟 5-配置與基礎結構電話設定
 
-您可以使用商務用 Skype 頻帶內管理 Windows PowerShell Cmdlet 來設定最常用的電話選項和原則。 如需這些參數和設定的詳細資料，請參閱[設定 CsIPPhonePolicy](https://technet.microsoft.com/en-us/library/mt629497.aspx) 。
+您可以使用商務用 Skype 頻帶內管理 Windows PowerShell Cmdlet 來設定最常用的電話選項和原則。 如需這些參數和設定的詳細資料，請參閱[設定 CsIPPhonePolicy](https://technet.microsoft.com/library/mt629497.aspx) 。
   
 如需網路基礎結構規劃，請參閱[Skype 操作架構](https://www.skypeoperationsframework.com/)。
   
@@ -172,19 +172,19 @@ ms.locfileid: "37642299"
 |||||||
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |**商務用 Skype** <br/> |**證券** <br/> |**電話登入方法** <br/> |**商務用 Skype access** <br/> |**已停用新式驗證與 MFA 的 Exchange 存取** <br/> |**已啟用新式驗證與 MFA 的 Exchange 存取** <br/> |
-|Online  <br/> |Online  <br/> |網頁登入  <br/> |是的  <br/> |是的  <br/> |是的  <br/> |
-|Online  <br/> |Online  <br/> |使用者名稱/密碼  <br/> |是的  <br/> |是的  <br/> |不  <br/> |
-|Online  <br/> |內部部署  <br/> |網頁登入  <br/> |是的  <br/> |不  <br/> |不  <br/> |
-|Online  <br/> |內部部署  <br/> |使用者名稱/密碼  <br/> |是的  <br/> |是的  <br/> |不  <br/> |
-|內部部署  <br/> |線上/內部部署  <br/> |PIN 驗證  <br/> |是的  <br/> |不  <br/> |不  <br/> |
-|內部部署  <br/> |線上/內部部署  <br/> |使用者名稱/密碼  <br/> |是的  <br/> |是的  <br/> |N/A  <br/> |
-|內部部署  <br/> |線上/內部部署  <br/> |透過 PC 登入（BTOE）  <br/> |是的  <br/> |是的  <br/> |N/A  <br/> |
+|Online  <br/> |Online  <br/> |網頁登入  <br/> |是  <br/> |是  <br/> |是  <br/> |
+|Online  <br/> |Online  <br/> |使用者名稱/密碼  <br/> |是  <br/> |是  <br/> |否  <br/> |
+|Online  <br/> |內部部署  <br/> |網頁登入  <br/> |是  <br/> |否  <br/> |否  <br/> |
+|Online  <br/> |內部部署  <br/> |使用者名稱/密碼  <br/> |是  <br/> |是  <br/> |否  <br/> |
+|內部部署  <br/> |線上/內部部署  <br/> |PIN 驗證  <br/> |是  <br/> |否  <br/> |否  <br/> |
+|內部部署  <br/> |線上/內部部署  <br/> |使用者名稱/密碼  <br/> |是  <br/> |是  <br/> |不適用  <br/> |
+|內部部署  <br/> |線上/內部部署  <br/> |透過 PC 登入（BTOE）  <br/> |是  <br/> |是  <br/> |不適用  <br/> |
    
 - **電話功能**根據 IP 電話夥伴，功能集可能會稍有不同。 若要取得完整的功能集，以及每個電話製造商功能的詳細資訊，請參閱[取得商務用 Skype Online 的電話](getting-phones-for-skype-for-business-online.md)。
     
 - **電話鎖定**是商務用 Skype 認證手機中的最近推出的功能，用來保護電話。 如果已啟用，將會要求使用者在驗證成功時建立 PIN。 一旦建立，手機會在您定義的空閒超時過期時鎖定，使用者會手動鎖定其手機，或使用電話配對將手機鎖與其電腦鎖同步處理。 如果電話鎖定 PIN 輸入錯誤數次，手機將會登入使用者，或需要系統管理員的程式碼來解除鎖定電話，但這會視電話夥伴而定。 使用者的 PIN 應該介於6到15位數。
     
-    您可以停用貴組織的電話封鎖功能（預設為啟用）、變更空閒超時，以及選擇使用者是否可以在來電時撥打或使用 inband 設定。 如需這些設定的詳細資訊，請參閱[設定 CsUCPhoneConfiguration](https://technet.microsoft.com/en-us/library/mt629497.aspx) 。
+    您可以停用貴組織的電話封鎖功能（預設為啟用）、變更空閒超時，以及選擇使用者是否可以在來電時撥打或使用 inband 設定。 如需這些設定的詳細資訊，請參閱[設定 CsUCPhoneConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csucphoneconfiguration?view=skype-ps) 。
     
 ## <a name="step-7-optional---if-you-have-device-pairing-and-better-together-over-ethernet-btoe"></a>步驟7（選用）-如果您有裝置配對，且搭配乙太網路更好地搭配（BToE）
 <a name="BK_BTOE"> </a>
@@ -205,7 +205,7 @@ BToE 可以設定為以兩種模式運作： [*自動*（預設）] 和 [*手動
     
      ![螢幕擷取畫面顯示與電腦的連線](../../images/e21d76c7-867c-4fe6-95c6-fc40c608ed0c.png)
   
-2. 從以下連結，從製造商網站下載並安裝最新的 BToE 軟體。 若要取得更佳的使用者體驗，您可以使用系統中心建構管理員（SCCM）等管理員發佈方案來散佈及安裝 BToE 軟體。 如需使用 SCCM 的說明，請參閱[System Center Configuration Manager 中的套件與程式](https://docs.microsoft.com/sccm/apps/deploy-use/packages-and-programs)。
+2. 從以下連結，從製造商網站下載並安裝最新的 BToE 軟體。 若要取得更佳的使用者體驗，您可以使用系統管理員發佈方案（例如 Microsoft 端點設定管理員）分發及安裝 BToE 軟體。 如需使用 Configuration Manager 的說明，請參閱[Configuration manager 中的套件與程式](https://docs.microsoft.com/configmgr/apps/deploy-use/packages-and-programs)。
     
    - [Polycom BToE 軟體下載網站](http://www.polycom.com/voice-conferencing-solutions/microsoft-phones.html)
     
@@ -213,17 +213,17 @@ BToE 可以設定為以兩種模式運作： [*自動*（預設）] 和 [*手動
     
    - [AudioCodes BToE 軟體下載](https://www.audiocodes.com/solutions-products/solutions/skype-for-business-microsoft-teams/skype-for-business-online)
     
-3. BToE 的伺服器設定設定為 [**啟用**]，而且預設為 [**自動模式]** 。 若要變更這些設定，請參閱[設定 CsIPPhonePolicy](https://technet.microsoft.com/en-us/library/mt629497.aspx)。
+3. BToE 的伺服器設定設定為 [**啟用**]，而且預設為 [**自動模式]** 。 若要變更這些設定，請參閱[設定 CsIPPhonePolicy](https://technet.microsoft.com/library/mt629497.aspx)。
     
 > [!NOTE]
 > Mac 和 VDI 平臺目前不支援 BToE。 
   
 ## <a name="related-topics"></a>相關主題
-[取得商務用 Skype 和 Microsoft 團隊的服務電話號碼](../../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
+[取得商務用 Skype 和 Microsoft Teams 的服務電話號碼](../../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 
 [以下是您在 Office 365 中使用電話系統所取得的結果](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
-[適用于音訊會議與通話方案的國家和地區可用性](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
+[音訊會議與通話方案的適用國家/地區](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 
   
  

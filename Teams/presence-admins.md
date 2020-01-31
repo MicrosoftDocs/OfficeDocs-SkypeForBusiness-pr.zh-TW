@@ -14,19 +14,19 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: be40c98a66e5f3023ce375d0a00515832280c7c0
-ms.sourcegitcommit: d2bee305a3588f8487bba3396b1825be7a52f6d2
+ms.openlocfilehash: b7660cc35986b8b0debc449bacde686bb9e2694b
+ms.sourcegitcommit: 43a17ce6fea3951719b55bfbda03c500cef4816c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38714489"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41580920"
 ---
 # <a name="user-presence-in-teams"></a>Teams 中的使用者目前狀態
 
 目前狀態是 Microsoft 團隊（以及整個 Office 365）中使用者設定檔的一部分，可指出使用者目前的可用性與其他使用者的狀態。 根據預設，您組織中的任何人都可以在線上看到其他使用者（幾乎即時）。
 
 > [!IMPORTANT]
-> 如果您在將使用者移至 [**僅限團隊**] 模式之後卸載商務用 Skype 用戶端，目前狀態將會在 Outlook 和其他 Office app 中停止運作。 [目前狀態] 在小組中可以正常運作。 因應措施：若要在 Outlook （以及其他 Office app）中查看目前狀態，您必須安裝商務用 Skype，即使您是在 [**僅限團隊**] 模式中執行團隊也一樣。 Microsoft 已注意到這個問題，正在努力解決問題。
+> 如果您在將使用者移至 [僅 Teams]**** 模式之後解除安裝商務用 Skype 用戶端，則 Outlook 和其他 Office應用程式中的目前狀態將會停止運作。 目前狀態在 Teams 中可正常運作。 因應措施：若要在 Outlook （以及其他 Office app）中查看目前狀態，您必須安裝商務用 Skype，即使您是在 [**僅限團隊**] 模式中執行團隊也一樣。 Microsoft 已發現此問題，正在努力解決中。
 
 Outlook 2013 傳統型應用程式和更新版本支援在 Outlook 中的 Teams 目前狀態。
 
@@ -39,7 +39,7 @@ Outlook 2013 傳統型應用程式和更新版本支援在 Outlook 中的 Teams 
 | ![穩定綠色核取記號，表示目前狀態為可用](media/Presence_Available.png) 離線|![穩定綠色核取記號，表示目前狀態為可用](media/Presence_Available.png) 離線|
 || ![開啟綠色核取記號，表示有空的 oof](media/Presence_Available_OOF.png) 可用、不在辦公室 |
 |  ![實心紅圈，表示忙碌](media/Presence_Busy.png) 狀況 |  ![實心紅圈，表示忙碌](media/Presence_Busy.png) 狀況  |
-|| ![實心紅圈，表示通話中的占線](media/Presence_Busy.png) 在通話中|
+|| ![實心紅圈，表示通話中的占線](media/Presence_Busy.png) 通話中|
 || ![實心紅圈，表示會議中的忙](media/Presence_Busy.png) 在會議中 |
 || ![開啟紅色圓圈，表示忙碌](media/Presence_Busy_OOF.png) 在通話中，外出|
 |  ![紅色圓圈（含白色線條）表示 [請勿打擾]](media/Presence_DND.png) 請勿打擾 ||

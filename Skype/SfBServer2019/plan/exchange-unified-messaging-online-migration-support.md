@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Microsoft 正在淘汰2020年2月的 Exchange 整合訊息 Online （ExchUMO）服務。 本文將摘要說明客戶應該知道哪些內容，並針對其業務連續性進行規劃。
-ms.openlocfilehash: adef85a59a5d0add990196e5b76587b502f052b5
-ms.sourcegitcommit: 4ccc24dcf61cf9b59224b85757f93f8aceae1771
+ms.openlocfilehash: 55382780fe6ef1c67cbecc1f6c997809f9173b8a
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/24/2019
-ms.locfileid: "40854088"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628669"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange 整合通訊線上移轉支援
 
@@ -233,7 +233,7 @@ Office 365 租使用者管理員必須在 Microsoft 雲端自動語音應答服�
 
 **自動語音應答來電轉接至 PSTN**我們鼓勵客戶設定暫時的因應措施，以滿足將自動語音應答來電轉接至外部 PSTN 號碼或 RGS 實例的需求。 
  
-在品質保證期間發現 [轉接到 PSTN 號碼] 功能時，不會及時固定該問題，讓客戶在2020年2月1日的排程退休日期之前開始遷移。 作為因應措施，管理員可以將自動語音應答呼叫者轉接至內部部署虛擬使用者，並使用 [作用中的呼叫轉寄] 設定來傳送至所需的 PSTN 電話號碼或 RGS 電話號碼。 
+在品質保證期間發現 [轉接到 PSTN 號碼] 功能時，系統不會及時固定該問題，讓客戶在2020年2月28日的排程退休日期之前開始遷移 Exchange UMO service。 作為因應措施，管理員可以將自動語音應答呼叫者轉接至內部部署虛擬使用者，並使用 [作用中的呼叫轉寄] 設定來傳送至所需的 PSTN 電話號碼或 RGS 電話號碼。 
  
 預期體驗
 - 系統管理員不需要授權虛擬使用者，因為這是一個因應措施解決方法 

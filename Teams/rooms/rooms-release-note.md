@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: 本文將討論 Microsoft 團隊聊天室中的累加性改進。
-ms.openlocfilehash: c3de17e0139d1ae20a2a4667e4c5fbab2d6b6d53
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: 9d174ddb8e0d6495f3d493ea6b64819efe648726
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41268853"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628649"
 ---
 # <a name="release-notes"></a>版本資訊
 
@@ -311,7 +311,7 @@ Microsoft 團隊聊天室版本3.0.12.0 （更新3）不再支援64位版本的 
 - 當裝置在會議室中偵測到其他人時，系統會自動醒來顯示器的 [永遠開啟裝置]
 - 輕鬆部署並更新 UWP （通用 Windows 平臺） Skype 會議應用程式
 - Windows AppLocker 會將裝置鎖定至 Skype 會議應用程式
-- 透過 Intune 和 SCCM （MDM）以 Windows 10 企業版裝置進行監控與管理
+- 透過 Intune 與 Configuration Manager （MDM），以 Windows 10 企業版裝置進行監控與管理
 - 企業級的可靠性
 - 由於您熟悉的 Skype 使用者介面，因此最終使用者的低訓練努力
 - 在 Surface Pro 4 平板電腦上執行

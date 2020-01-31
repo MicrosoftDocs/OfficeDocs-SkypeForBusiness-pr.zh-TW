@@ -20,14 +20,14 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: '瞭解附加元件授權、功能，以及如何購買 Office 365 企業版、E1、E3 和 E4 方案。 '
-ms.openlocfilehash: a6cdfdac5aaa56d9e1bc87df8f33b1143517f1ac
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: afc20061171962a8887e37aae0b85783d617cc85
+ms.sourcegitcommit: 5932ec62a42d7b392fa31c6a2a3462389ac24b73
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "37642446"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "41573629"
 ---
-# <a name="office-365-enterprise-e1-e3-and-e4"></a>Office 365 企業版 E1、E3 和 E4
+# <a name="office-365-enterprise-e1-e3-and-e4"></a>Office 365 企業版 E1、E3 及 E4
 
 如果您已購買[Office 365 企業版 E1](https://products.office.com/en-us/business/office-365-enterprise-e1-business-software)、 [E3](https://products.office.com/en-us/business/office-365-enterprise-e3-business-software)或 E4 方案，以下是您需要購買才能取得更多商務用 Skype 功能的附加元件授權。
 
@@ -40,6 +40,8 @@ ms.locfileid: "37642446"
 |**雲端語音信箱** <br/> |若是 E1 與 E4 方案，請購買 Exchange Online 方案2。 <br/>或者，切換到隨附于 Exchange Online 方案2（例如 Office 365 E3）的 Office 套件。 |
 |**通話方案** <br/> |1.**電話系統**附加元件 <br/> 2.[通話方案](/MicrosoftTeams/calling-plans-for-office-365)：您只能在購買**手機系統**附加元件後購買此產品。 <br/> |
    
+ > [!IMPORTANT]
+ > Office 365 E4 授權已正式停用。 如需詳細資訊，請參閱[Office 365 企業版 E4 客戶的重要資訊](https://support.office.com/article/important-information-for-office-365-enterprise-e4-customers-f9572348-43a2-43fa-a3d8-3b6c9c042147)。
   
 ## <a name="e1-and-e3-customers-how-to-see-prices-and-buy"></a>E1 與 E3 客戶：如何查看價格與購買
 <a name="bkmk_buypremium"> </a>

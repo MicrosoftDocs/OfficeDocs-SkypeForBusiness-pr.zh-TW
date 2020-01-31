@@ -12,12 +12,12 @@ ms.collection:
 - M365-collaboration
 ms.assetid: ''
 description: 管理 Microsoft 團隊聊天室的 Windows 更新
-ms.openlocfilehash: 87aab8b4c0d299b682f450d6d53ace33fc7a464b
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: be3555507b0c9a8967b444b96e8c6e4af8f35fbf
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41268873"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628559"
 ---
 # <a name="manage-windows-updates"></a>管理 Windows 更新
 
@@ -36,13 +36,13 @@ Microsoft 團隊聊天室會在 Windows 10 企業版 IoT 或 Windows 10 企業�
 
 - [商務用 Windows 更新](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb)下載
 - 更新是從 Windows Update 或您的 WSUS 下載，但在原始發行日期之後已設定延遲時間。
-- 您可以使用多個 Ou 或篩選原則來建立「振鈴」，管理員可以在其中指定哪些裝置會先安裝品質更新，且稍後會進行安裝。 在任何情況下，都可以在系統子集上測試可靠性和效能，而不需要在 SCCM 中管理 Windows 更新，就能在整個部署中推出更新。
+- 您可以使用多個 Ou 或篩選原則來建立「振鈴」，管理員可以在其中指定哪些裝置會先安裝品質更新，且稍後會進行安裝。 您可以在系統子集上測試可靠性和效能，而不需要在 Configuration Manager 中管理 Windows 更新的額外負荷，就能在整個部署中推出更新。
 - 如果您想要頻寬管理和商務用 Windows 更新提供的控制，您可以同時[設定](https://docs.microsoft.com/windows/deployment/update/waas-integrate-wufb)WSUS 和 windows 更新。
 - 功能更新。 請參閱後面的筆記。
 
-## <a name="wsussccm"></a>WSUS/SCCM
+## <a name="wsusconfiguration-manager"></a>WSUS/Configuration Manager
 
-- [WSUS/SCCM](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-configuration-manager)下載
+- [WSUS/Configuration Manager](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-configuration-manager)下載
 - 就像是商務用 Windows 更新，但在每個 "震鈴" 或整個部署中都有以特定的 KB 為目標的額外選項。 每個更新都可以個別部署和測試，而不是只依賴延遲。
 - 功能更新。 請參閱後面的筆記。
 
@@ -52,4 +52,4 @@ Microsoft 團隊聊天室會在 Windows 10 企業版 IoT 或 Windows 10 企業�
 
 Microsoft 團隊聊天室的功能是「不在使用中」的功能，且不會在 Windows 更新中安裝 Windows 更新或自動重新開機裝置。 系統會下載更新，並等待下一次重新開機來進行安裝。 除非有人手動重新開機，否則只會在每次自動重新開機時進行安裝。 Windows 更新在聊天室中應該是透明的，而且一般的操作應該不會被 Windows 更新中斷。
 
-如果您選擇 [網域加入裝置]，請使用 [SCCM] 或 [WSUS]。 特別注意在上班時間內導致裝置更新或強制重新開機的原則或動作。 您部署中的系統不應在使用期間重新開機，或在使用時間期間透過 UI 發出有關 Windows 更新的警示，請檢查您的設定（如果發生此行為）。
+如果您選擇 [網域加入裝置]，請使用 Microsoft 端點建構管理員或 WSUS。 特別注意在上班時間內導致裝置更新或強制重新開機的原則或動作。 您部署中的系統不應在使用期間重新開機，或在使用時間期間透過 UI 發出有關 Windows 更新的警示，請檢查您的設定（如果發生此行為）。

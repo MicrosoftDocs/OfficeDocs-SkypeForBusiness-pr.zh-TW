@@ -11,12 +11,12 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 description: 請閱讀本主題，以瞭解 Microsoft 團隊聊天室（即新一代 Skype 房間系統）的管理。
-ms.openlocfilehash: 626190406cf90cdbf09f2ab27d2b31f648f073c9
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: 0eb68e74368a9ae4463ab5f6a9721a844b151152
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41268858"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628659"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft 團隊會議室維護和作業 
  
@@ -61,9 +61,9 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 
 |工作組|未加入網域|已加入網域|
 |:-----|:-----|:-----|
-|重  <br/> |遠端桌面  <br/> 遠端 Powershell  <br/> |遠端桌面（需要進一步配置）  <br/> 遠端 Powershell （需要進一步配置）  <br/> SCCM  <br/> |
+|重  <br/> |遠端桌面  <br/> 遠端 Powershell  <br/> |遠端桌面（需要進一步配置）  <br/> 遠端 Powershell （需要進一步配置）  <br/> Configuration Manager  <br/> |
 |更新作業系統  <br/> |Windows Update  <br/> |Windows Update  <br/> 結合  <br/> |
-|App 更新  <br/> |Windows 網上商店  <br/> |Windows 網上商店  <br/> SCCM  <br/> |
+|App 更新  <br/> |Windows 網上商店  <br/> |Windows 網上商店  <br/> Configuration Manager  <br/> |
 |Skype 帳戶配置  <br/> |目前不支援  <br/> |目前不支援  <br/> |
 |Access 記錄  <br/> |目前不支援  <br/> |目前不支援  <br/> |
    
@@ -166,7 +166,7 @@ Copy-Item $movefile $targetDevice
   
 根據預設，Microsoft 球隊聊天室會連線至 Windows Update，以檢索作業系統和 USB 週邊裝置固件更新，並將其安裝在已設定的商務時間以外。 您可以登入管理員帳戶並執行 [設定] 應用程式，來設定上班時間。
   
-如果您想要手動管理更新，且無法遵循[Microsoft 網上商店 For Business](https://businessstore.microsoft.com/store) [發佈離線 app](https://docs.microsoft.com/microsoft-store/distribute-offline-apps)的一般程式，您可以從[部署套件](https://go.microsoft.com/fwlink/?linkid=851168)取得適當的 APPX 檔案和相依性（從指示[設定 Microsoft 團隊聊天室主控台](console.md)），可與 SCCM 搭配使用。 部署套件版本滯後于商店發行版本本，因此可能不一定會與最新的可用組建相符。
+如果您想要手動管理更新，且無法遵循[Microsoft 網上商店 For Business](https://businessstore.microsoft.com/store) [發佈離線 app](https://docs.microsoft.com/microsoft-store/distribute-offline-apps)的一般程式，您可以從[部署套件](https://go.microsoft.com/fwlink/?linkid=851168)取得適當的 APPX 檔案和相依性（從指示[設定 Microsoft 團隊聊天室主控台](console.md)），可與 Configuration Manager 搭配使用。 部署套件版本滯後于商店發行版本本，因此可能不一定會與最新的可用組建相符。
   
 ### <a name="to-update-using-powershell"></a>使用 Powershell 更新
 

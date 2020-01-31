@@ -19,22 +19,22 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: '瞭解如何為大廳、接待區域及會議室設定通用區域電話 '
-ms.openlocfilehash: d00d91d4461a8b197f8629d3dfe9cee6653b2473
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 95346976488c9e08286f8158dc280ef447b4fc8f
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925304"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628389"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>設定 Microsoft 團隊的通用區域電話授權
 > [!NOTE]
 > 常見的區域電話不支援語音信箱。
 
-常見的區域手機通常位於大廳或另一個區域（例如可供許多人撥打通話的區域）。例如，接收區域、會議廳或會議電話。 常見的區域手機是設定為裝置，而不是使用者，而且可以自動登入網路。
+常見的區域手機通常放在大廳或其他區域（可供許多人撥打通話）的區域中。例如，接收區域、會議廳或會議電話。 常見的區域手機是設定為裝置，而不是使用者，而且可以自動登入網路。
 
 在下列步驟中，我們將協助您設定電話系統帳戶，以便為您的組織部署常見的區域電話。 如需更完整的會議室體驗（包括音訊會議），請考慮使用會議室裝置購買專用的會議室授權。 
 
-您需要做的第一件事是購買常見的區域電話（CAP）授權，並確認您有已認證的電話。 若要搜尋並深入瞭解認證的手機，請移至[Microsoft 團隊裝置](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)。 
+首先，您需要購買通用的區域電話（CAP）授權，並確認您有已認證的電話。 若要搜尋並深入瞭解認證的手機，請移至[Microsoft 團隊裝置](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)。 
 
 ## <a name="step-1---buy-the-licenses"></a>步驟 1-購買授權
 
@@ -44,7 +44,7 @@ ms.locfileid: "37925304"
 
 2. 選取 [**通用區域電話** > **立即購買**]。
 
-3. 在 [**結帳**] 頁面上，按一下 [**立即購買**]。
+3. 在 [結帳] 頁面上，按一下 [**立即購買**]。
 
 4. 展開 [**附加元件訂閱**]，然後按一下以購買通話方案。 選擇 [**國內通話方案**] 或 [**國內與國際通話方案**]。
 
@@ -59,7 +59,7 @@ ms.locfileid: "37925304"
 |   |  常見的區域電話  |
 |---------|---------|
 |商務用 Skype |   &#x2714; |
-|Microsoft 團隊 |   &#x2714; |
+|Microsoft Teams |   &#x2714; |
 |電話系統 |    &#x2714; |
 |音訊會議 |       &#x2718; &sup1;  |
 |Microsoft Intune |        &#x2718; &sup2; |
@@ -93,17 +93,15 @@ ms.locfileid: "37925304"
 
 ## <a name="step-3---assign-a-phone-number-to-the-common-area-phone-user-account"></a>步驟 3-將電話號碼指派給通用區域電話使用者帳戶
 
-使用商務用 Skype 系統管理中心將號碼指派給使用者。
+使用 [團隊系統管理中心] 將號碼指派給使用者。
 
-1. 在 Microsoft 365 系統管理中心，選取 [系統**管理中心** > ]**團隊 & Skype** > **舊版入口網站**。
-
-2. 在商務用 Skype 系統管理中心中，選取 [**語音** > **電話號碼**]。
+1. 在 [團隊管理中心] 中，選取 [**語音** > **電話號碼**]。
 
 3.  從電話號碼清單中選取一個數位，然後按一下 [**指派**]。
 
 4. 在 [**指派**] 頁面上，于 [語音使用者] 方塊中，輸入將使用電話的使用者名稱，然後在 [**選取語音使用者**] 下拉式清單中選取使用者。
 
-5. 當您在這裡時，您將需要新增緊急位址。 選擇 [**依城市搜尋**]、[**依描述搜尋**] 或 [**依位置**從下拉式清單中搜尋]，然後在文字方塊中輸入 [城市]、[描述] 或 [位置]。 搜尋之後，請在 [**選取緊急位址**] 下查看，為您挑選合適的位址。
+5. 接下來，您必須新增緊急位址。 選擇 [**依城市搜尋**]、[**依描述搜尋**] 或 [**依位置**從下拉式清單中搜尋]，然後在文字方塊中輸入 [城市]、[描述] 或 [位置]。 搜尋之後，請在 [**選取緊急位址**] 下查看，為您挑選合適的位址。
 
 6. 按一下 [**儲存**]，您的使用者看起來會像這樣：
 
@@ -112,7 +110,7 @@ ms.locfileid: "37925304"
 > [!NOTE]
 > 使用者只有在已套用電話系統授權時，才會顯示。 如果您只這麼做，有時候使用者會在清單中顯示一個位。
 
-如需詳細資訊，請參閱為[您的使用者取得電話號碼](/microsoftteams/getting-phone-numbers-for-your-users)。
+如需詳細資訊，請參閱為[您的使用者取得電話號碼](getting-phone-numbers-for-your-users.md)。
 
 您也可以將您的電話號碼與其他運輸公司和「埠」取得聯繫，或將它傳送到 Office 365。 請參閱[將電話號碼傳送給團隊](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)。
 
