@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad0344d07fe9ea77e0970ca6ea11fdf62886098b
-ms.sourcegitcommit: 800a5c3881d0ebceb505a538fcf7e48f7b6df17e
+ms.openlocfilehash: 3a0e055305cc994730b22507b5ce0cf1823e43f0
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37913039"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628369"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Teams 中的生命週期管理方案
 
@@ -55,7 +55,7 @@ _團隊_是促進共同作業的人員、內容和工具的集合。 團隊會�
 團隊使用者類型決定團隊成員擁有的控制權：
 
 -   _團隊建立者_擁有可以在目錄中建立群組或團隊的權限。 系統管理員可以將此使用者類型限制為系統管理員或使用者的子集。 如需詳細資訊，請參閱[管理能建立 Office 365 群組的使用者](https://support.office.com/article/Manage-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618) (英文)。 
--   _團隊擁有者_管理團隊的成員資格和設定。 每個團隊最多可以有 10 位團隊擁有者。
+-   _團隊擁有者_管理團隊的成員資格和設定。 每個團隊最多可以有 100 位團隊擁有者。
 -   _團隊成員_是參與團隊的組織成員。
 -   _來賓_是組織外部的使用者。 如果您的組織已啟用[來賓存取](guest-access.md)，則擁有電子郵件地址的任何人都可以受邀成為來賓。
 

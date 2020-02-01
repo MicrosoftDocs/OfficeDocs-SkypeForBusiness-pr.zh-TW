@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Microsoft Teams 用戶端應用程式和系統管理員體驗目前的已知問題清單。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 50501c3d5e077deacaf183dd36efce72d295f556
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 9c613f2116b5ad9f97426f60466d71d4ffaddba1
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40990648"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628529"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams 的已知問題
 
@@ -312,6 +312,14 @@ ms.locfileid: "40990648"
 |**問題標題**|**行為/徵狀**|**已知的因應措施**|**發現日期**|
 |:-----|:-----|:-----|:-----|
 |Teams Planner 與 Planner 線上整合 <br/> |Planner 中的工作貯體不會在 Planner 線上體驗中顯示。  <br/> |無因應措施。 <br/> |2017/2/28  <br/>|
+
+
+|**問題標題**|**行為/徵狀**|**已知的因應措施**|**發現日期**|
+|:-----|:-----|:-----|:-----|
+|Teams Planner 與 Planner 線上整合 <br/> |擁有者無法透過從現有 Office 365 群組建立的團隊來建立方案。  <br/> |將成員權限提供給群組擁有者。 <br/> |2020/1/14  <br/>|
+
+
+
 
 |**問題標題**|**行為/徵狀**|**已知的因應措施**|**發現日期**|
 |:-----|:-----|:-----|:-----|

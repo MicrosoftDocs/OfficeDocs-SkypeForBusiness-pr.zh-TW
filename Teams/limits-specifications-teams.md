@@ -15,12 +15,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d89c2238e1956c4e51cbef72ce89347cec98a9e4
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 716e3daa33b28d874460fa53562875450002ed3e
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40990118"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628139"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和規格
 
@@ -33,6 +33,7 @@ ms.locfileid: "40990118"
 |一位使用者可以建立的團隊數目 | 受限於 250 的物件限制&sup1;         |
 |一位使用者可以加入成為成員的團隊數目|1,000|
 |一個團隊中的成員數目 | 5,000       |
+|每個團隊擁有者人數 | 100   |
 |一個租用戶中允許的全組織小組數目 | 5     |
 |一個[全組織小組](create-an-org-wide-team.md)中的成員數目 | 5,000       |
 |一位全域系統管理員可以建立的團隊數目        |  500,000   |
