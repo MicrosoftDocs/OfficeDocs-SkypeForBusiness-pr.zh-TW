@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 瞭解如何為 Microsoft 團隊設定及測試雲端自動語音應答。
-ms.openlocfilehash: 5a018b6c3b193d17bfbabdc5178c095a635e65ea
-ms.sourcegitcommit: 2fab6105dfc4c225de8c09ab79d9c2c273a3e4f6
+ms.openlocfilehash: be7e62bdad1fb0d9ed2d2d5e610c8eed5c49ae7f
+ms.sourcegitcommit: a47bd5194672820380d30722b60779ce2d8a8f78
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "41005168"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "41664371"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>設定雲端自動語音應答
 
@@ -162,22 +162,9 @@ ms.locfileid: "41005168"
   > **組織中的人員**可以是線上使用者，或使用商務用 Skype Server 託管內部部署的使用者。
 
   - **語音應用程式**選取已設定的自動語音應答或通話佇列。 您可以依與服務相關聯之資源帳戶的名稱來搜尋自動語音應答或通話佇列。
-  - **語音信箱**選取代表貴組織中需要存取此語音信箱的使用者的 Office 365 群組。 您也可以在這裡開啟語音信箱。 需要 Office 365 群組。
+  - **語音信箱**選取包含貴組織中需要存取此自動語音應答接收之語音信箱之使用者的 Office 365 群組。 語音信箱訊息會傳送至您指定的 Office 365 群組。 若要存取語音信箱訊息，群組成員可以流覽至 Outlook 中的群組來開啟。
 
-  > [!NOTE]
-> 無法在團隊中存取透過此自動語音應答語音信箱帳戶傳送給使用者的語音訊息。 它們會以電子郵件的方式呈現。
-
-
-<!-- - **Auto attendant** Select the name of an existing auto attendant.
-- **Call queue** Select the name of an auto attendant that has already been created.
-- **External phone number** routes the caller to a phone number outside your local system.
-- **Operator** directs the call to a user you designate as an Operator. If you haven't previously set up an operator, an option to create one now shows up. The 0 key is assigned to Operator by default. Options for setting an Operator are:
-
-  - **No operator** disables the "Operator" and "Press 0" options.
-  - **Person in your organization** can be an Online user or a user hosted on-premises using Skype for Business Server. They must have a Phone System license that is enabled for Enterprise Voice or assigned Calling Plans in Office 365. Search for the operator in the **Destination for your operator** field.
-  - **Auto attendant** lets you choose the name of an existing auto attendant.
-  - **Call queue** lets you select an existing call queue.
-  - **Group Voicemail** routes the call to a voicemail box that you select. -->
+      切換到 [**開啟** **] 以啟用**語音文字會議語音信箱訊息。
 
  * * *
 
@@ -214,7 +201,9 @@ ms.locfileid: "41005168"
 
 - **語音應用程式**選取已設定的自動語音應答或通話佇列。 您可以依與應用程式相關聯之資源帳戶的名稱來搜尋自動語音應答或通話佇列。
 
-- **語音信箱**選取代表貴組織中需要存取此語音信箱的使用者的 Office 365 群組。 您也可以在這裡開啟語音信箱。 需要 Office 365 群組。
+- **語音信箱**選取包含貴組織中需要存取此自動語音應答接收之語音信箱之使用者的 Office 365 群組。 語音信箱訊息會傳送至您指定的 Office 365 群組。 若要存取語音信箱訊息，群組成員可以流覽至 Outlook 中的群組來開啟。
+
+    切換到 [**開啟** **] 以啟用**語音文字會議語音信箱訊息。
 
 <!-- - **Auto attendant** Select the name of an existing auto attendant in the **Search by name** field. You will also have to select a resource account associated to the auto attendant. The caller who selects this option is sent to that auto attendant.
 - **Call queue** Select the name of an existing call queue in the **Search by name** field. You will also have to select a resource account associated to the call queue. The caller who selects this option is sent to that call queue, where the call is answered by a call agent.
