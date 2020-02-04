@@ -6,29 +6,29 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeploySSRSInvoke
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4a4ba8d6-ba43-45b3-b834-372d092561e7
 ROBOTS: NOINDEX, NOFOLLOW
-description: 在針對將監視伺服器報告部署到 Microsoft SQL Server 2008 R2 或 Microsoft SQL Server 2012 報表服務提供所需的資訊後, [執行] 命令會顯示已發出的命令摘要, 以安裝向 SQL Server Reporting Services 報告。
-ms.openlocfilehash: d0b57f6a7df4f1de9d8e46e24d7cbde744d2a13e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 在針對將監視伺服器報告部署到 Microsoft SQL Server 2008 R2 或 Microsoft SQL Server 2012 報表服務提供所需的資訊後，[執行] 命令會顯示已發出的命令摘要，以安裝向 SQL Server Reporting Services 報告。
+ms.openlocfilehash: 970b570c2fba75cf1afe4f4a217e809eb62a7411
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36193099"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41691668"
 ---
-# <a name="sql-server-reporting-services-invoke"></a><span data-ttu-id="c950b-103">SQL Server Reporting Services (叫用)</span><span class="sxs-lookup"><span data-stu-id="c950b-103">SQL Server Reporting Services (Invoke)</span></span>
+# <a name="sql-server-reporting-services-invoke"></a><span data-ttu-id="679dc-103">SQL Server Reporting Services (叫用)</span><span class="sxs-lookup"><span data-stu-id="679dc-103">SQL Server Reporting Services (Invoke)</span></span>
  
-<span data-ttu-id="c950b-104">提供監視伺服器報告部署到 Microsoft SQL Server Report Services 所需的資訊後, [執行] 命令會顯示已發出的命令摘要, 以將報告安裝至 SQL Server 報告服務.</span><span class="sxs-lookup"><span data-stu-id="c950b-104">After supplying the required information for the deployment of the Monitoring Server reports to the Microsoft SQL Server Report Services, the page Execute Commands displays a summary of commands that are issued to install the reports to the SQL Server Reporting Services.</span></span>
+<span data-ttu-id="679dc-104">提供監視伺服器報告部署到 Microsoft SQL Server Report Services 所需的資訊後，[執行] 命令會顯示已發出的命令摘要，以將報告安裝至 SQL Server 報告服務.</span><span class="sxs-lookup"><span data-stu-id="679dc-104">After supplying the required information for the deployment of the Monitoring Server reports to the Microsoft SQL Server Report Services, the page Execute Commands displays a summary of commands that are issued to install the reports to the SQL Server Reporting Services.</span></span>
   
-<span data-ttu-id="c950b-p101">請檢閱命令摘要，注意命令顯示的任何錯誤或警告訊息。如果產生記錄檔，請從摘要視窗下的下拉式清單中選取記錄檔，然後按一下 [檢視記錄檔] \*\*\*\* 來顯示記錄檔。</span><span class="sxs-lookup"><span data-stu-id="c950b-p101">Review the summary of commands and note any error or warning messages displayed from the commands. If a log file is generated, select the log file from the drop-down list under the summary window, and click **View Log** to display the log file.</span></span>
+<span data-ttu-id="679dc-p101">請檢閱命令摘要，注意命令顯示的任何錯誤或警告訊息。如果產生記錄檔，請從摘要視窗下的下拉式清單中選取記錄檔，然後按一下 [檢視記錄檔] \*\*\*\* 來顯示記錄檔。</span><span class="sxs-lookup"><span data-stu-id="679dc-p101">Review the summary of commands and note any error or warning messages displayed from the commands. If a log file is generated, select the log file from the drop-down list under the summary window, and click **View Log** to display the log file.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="c950b-107">若要讓 Reporting Services 報表順利部署, 且在部署完成後存取報表, 您必須具備 TCP/IP 埠 80 (如果您是在 Windows 防火牆中將憑證指派給 Reporting Services, 則您也可以使用 SSL 的 TCP 埠 443)在 SQL Server 上使用 [高級安全性]。</span><span class="sxs-lookup"><span data-stu-id="c950b-107">For the Reporting Services reports to deploy successfully, and to access the reports after deployment is complete, you must have TCP/IP port 80 (and optionally, TCP port 443 for SSL, if you assign a certificate to the Reporting Services) open in the Windows Firewall with Advanced Security on the SQL Server.</span></span> <span data-ttu-id="c950b-108">如需詳細資訊, 請參閱[將 Windows 防火牆設定為允許](https://go.microsoft.com/fwlink/p/?linkId=218031)Microsoft sql Server 2008 R2 的 SQL server 存取。</span><span class="sxs-lookup"><span data-stu-id="c950b-108">For details, see [Configure the Windows Firewall to Allow SQL Server Access](https://go.microsoft.com/fwlink/p/?linkId=218031) for Microsoft SQL Server 2008 R2.</span></span>
+> <span data-ttu-id="679dc-107">若要讓 Reporting Services 報表順利部署，且在部署完成後存取報表，您必須具備 TCP/IP 埠 80 443 （如果您是將憑證指派給 Reporting Services），請在 SQL Server 上以高級安全性在 Windows 防火牆中開啟。</span><span class="sxs-lookup"><span data-stu-id="679dc-107">For the Reporting Services reports to deploy successfully, and to access the reports after deployment is complete, you must have TCP/IP port 80 (and optionally, TCP port 443 for SSL, if you assign a certificate to the Reporting Services) open in the Windows Firewall with Advanced Security on the SQL Server.</span></span> <span data-ttu-id="679dc-108">如需詳細資訊，請參閱[將 Windows 防火牆設定為允許](https://go.microsoft.com/fwlink/p/?linkId=218031)Microsoft sql Server 2008 R2 的 SQL server 存取。</span><span class="sxs-lookup"><span data-stu-id="679dc-108">For details, see [Configure the Windows Firewall to Allow SQL Server Access](https://go.microsoft.com/fwlink/p/?linkId=218031) for Microsoft SQL Server 2008 R2.</span></span>
   
-<span data-ttu-id="c950b-109">檢查摘要之後, 按一下 **[完成]** 以完成報表安裝至 SQL Server Reporting Services。</span><span class="sxs-lookup"><span data-stu-id="c950b-109">After reviewing the summary, click **Finish** to complete the installation of the reports to the SQL Server Reporting Services.</span></span>
+<span data-ttu-id="679dc-109">檢查摘要之後，按一下 **[完成]** 以完成報表安裝至 SQL Server Reporting Services。</span><span class="sxs-lookup"><span data-stu-id="679dc-109">After reviewing the summary, click **Finish** to complete the installation of the reports to the SQL Server Reporting Services.</span></span>
   
 
