@@ -6,27 +6,27 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployCertImportBasics
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 474fac52-0b11-45dd-a211-fd2f1727238b
 ROBOTS: NOINDEX, NOFOLLOW
-description: 若要匯入憑證, 您必須提供憑證檔的路徑。 在 [選取證書檔案] 文字方塊中, 您可以輸入完整路徑和檔案名, 或按一下 [流覽] 按鈕, 然後流覽至路徑位置及檔案名 (通常是. p7b、.pfx 或 .cer 檔案)。
-ms.openlocfilehash: b04f8a2ca2e6d3104f4b36e4bc04b6cdd3c61940
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 若要匯入憑證，您必須提供憑證檔的路徑。 在 [選取證書檔案] 文字方塊中，您可以輸入完整路徑和檔案名，或按一下 [流覽] 按鈕，然後流覽至路徑位置及檔案名（通常是. p7b、.pfx 或 .cer 檔案）。
+ms.openlocfilehash: 273c5df6892a219c1584569b90cda62371b19c9d
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36187249"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41705778"
 ---
-# <a name="import-certificate-intro"></a><span data-ttu-id="e8e3c-104">匯入憑證 (簡介)</span><span class="sxs-lookup"><span data-stu-id="e8e3c-104">Import Certificate (Intro)</span></span>
+# <a name="import-certificate-intro"></a><span data-ttu-id="72b6d-104">匯入憑證 (簡介)</span><span class="sxs-lookup"><span data-stu-id="72b6d-104">Import Certificate (Intro)</span></span>
  
-<span data-ttu-id="e8e3c-105">若要匯入憑證, 您必須提供憑證檔的路徑。</span><span class="sxs-lookup"><span data-stu-id="e8e3c-105">To import a certificate, you must provide a path to the certificate file.</span></span> <span data-ttu-id="e8e3c-106">在 [**選取證書**檔案] 文字方塊中, 您可以輸入完整路徑和檔案名, 或按一下 [**流覽]** 按鈕, 然後流覽至路徑位置及檔案名 (通常是. p7b、.pfx 或 .cer 檔案)。</span><span class="sxs-lookup"><span data-stu-id="e8e3c-106">In the **Select Certificate file** text box, you can either type the full path and file name, or click the **Browse** button and navigate to the path location and the file name (typically, a .p7b, .pfx, or .cer file).</span></span>
+<span data-ttu-id="72b6d-105">若要匯入憑證，您必須提供憑證檔的路徑。</span><span class="sxs-lookup"><span data-stu-id="72b6d-105">To import a certificate, you must provide a path to the certificate file.</span></span> <span data-ttu-id="72b6d-106">在 [**選取證書**檔案] 文字方塊中，您可以輸入完整路徑和檔案名，或按一下 [**流覽]** 按鈕，然後流覽至路徑位置及檔案名（通常是. p7b、.pfx 或 .cer 檔案）。</span><span class="sxs-lookup"><span data-stu-id="72b6d-106">In the **Select Certificate file** text box, you can either type the full path and file name, or click the **Browse** button and navigate to the path location and the file name (typically, a .p7b, .pfx, or .cer file).</span></span>
   
-<span data-ttu-id="e8e3c-107">如果憑證包含私密金鑰, 請選取 [**憑證檔案包含憑證的私人金鑰**] 核取方塊。</span><span class="sxs-lookup"><span data-stu-id="e8e3c-107">If the certificate contains a private key, select the check box **Certificate file contains certificate's private key**.</span></span> <span data-ttu-id="e8e3c-108">選取此核取方塊之後, 就會啟用**密碼**文字輸入。</span><span class="sxs-lookup"><span data-stu-id="e8e3c-108">When this check box is selected, the **Password** text input is enabled.</span></span> <span data-ttu-id="e8e3c-109">如果您擁有與其相關聯的私密金鑰的憑證, 則在建立證書時, 通常會將密碼放在私密金鑰上。</span><span class="sxs-lookup"><span data-stu-id="e8e3c-109">If you have a certificate with a private key associated with it, a password is usually placed on the private key when the certificate is created.</span></span> <span data-ttu-id="e8e3c-110">您可以輸入私人金鑰的密碼, 以允許將憑證和私密金鑰匯入到憑證存放區。</span><span class="sxs-lookup"><span data-stu-id="e8e3c-110">You input the password for the private key to allow the certificate and the private key to be imported into the certificate store.</span></span> <span data-ttu-id="e8e3c-111">當您已提供憑證檔路徑的資訊, 以及選擇性地密碼 (如果需要的話), 請按 **[下一步]**。</span><span class="sxs-lookup"><span data-stu-id="e8e3c-111">When you have provided the information for the certificate file path, and optionally the private key password, if required, click **Next**.</span></span>
+<span data-ttu-id="72b6d-107">如果憑證包含私密金鑰，請選取 [**憑證檔案包含憑證的私人金鑰**] 核取方塊。</span><span class="sxs-lookup"><span data-stu-id="72b6d-107">If the certificate contains a private key, select the check box **Certificate file contains certificate's private key**.</span></span> <span data-ttu-id="72b6d-108">選取此核取方塊之後，就會啟用**密碼**文字輸入。</span><span class="sxs-lookup"><span data-stu-id="72b6d-108">When this check box is selected, the **Password** text input is enabled.</span></span> <span data-ttu-id="72b6d-109">如果您擁有與其相關聯的私密金鑰的憑證，則在建立證書時，通常會將密碼放在私密金鑰上。</span><span class="sxs-lookup"><span data-stu-id="72b6d-109">If you have a certificate with a private key associated with it, a password is usually placed on the private key when the certificate is created.</span></span> <span data-ttu-id="72b6d-110">您可以輸入私人金鑰的密碼，以允許將憑證和私密金鑰匯入到憑證存放區。</span><span class="sxs-lookup"><span data-stu-id="72b6d-110">You input the password for the private key to allow the certificate and the private key to be imported into the certificate store.</span></span> <span data-ttu-id="72b6d-111">當您已提供憑證檔路徑的資訊，以及選擇性地密碼（如果需要的話），請按 **[下一步]**。</span><span class="sxs-lookup"><span data-stu-id="72b6d-111">When you have provided the information for the certificate file path, and optionally the private key password, if required, click **Next**.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="e8e3c-112">如果您不知道私人金鑰的密碼, 匯入將會失敗。</span><span class="sxs-lookup"><span data-stu-id="e8e3c-112">If you do not know the password for the private key, the import will fail.</span></span> 
+> <span data-ttu-id="72b6d-112">如果您不知道私人金鑰的密碼，匯入將會失敗。</span><span class="sxs-lookup"><span data-stu-id="72b6d-112">If you do not know the password for the private key, the import will fail.</span></span> 
   
 

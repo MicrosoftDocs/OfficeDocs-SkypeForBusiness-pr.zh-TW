@@ -6,24 +6,24 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployStartServicesInvoke
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7992440b-8545-4af9-b3ac-ea200b9de084
 ROBOTS: NOINDEX, NOFOLLOW
-description: '[執行命令] 窗格上的 [摘要] 窗格會顯示所頒發之任務的狀態, 以啟動您要部署之商務用 Skype Server 角色服務器的服務。'
-ms.openlocfilehash: 3f8f6f26188f9586d8adbd7b7cecbdc982206302
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: '[執行命令] 窗格上的 [摘要] 窗格會顯示所頒發之任務的狀態，以啟動您要部署之商務用 Skype Server 角色服務器的服務。'
+ms.openlocfilehash: 3f1f19de0e591b23181c9e711991a2b9d99f9b4a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36193147"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41705278"
 ---
-# <a name="start-services-invoke"></a><span data-ttu-id="35c09-103">啟動服務 (叫用)</span><span class="sxs-lookup"><span data-stu-id="35c09-103">Start Services (Invoke)</span></span>
+# <a name="start-services-invoke"></a><span data-ttu-id="f88d5-103">啟動服務 (叫用)</span><span class="sxs-lookup"><span data-stu-id="f88d5-103">Start Services (Invoke)</span></span>
  
-<span data-ttu-id="35c09-104">[**執行命令**] 窗格上的 [摘要] 窗格會顯示所頒發之任務的狀態, 以啟動您要部署之商務用 Skype server 角色服務器的服務。</span><span class="sxs-lookup"><span data-stu-id="35c09-104">The summary pane on the **Executing Commands** pane displays the status of the tasks issued to start the services for the Skype for Business Server role server that you are deploying.</span></span> <span data-ttu-id="35c09-105">工作窗格中的摘要並不代表服務會即時啟動。</span><span class="sxs-lookup"><span data-stu-id="35c09-105">The summary in the task pane does not represent a real-time indication of service startup.</span></span> <span data-ttu-id="35c09-106">某些商務用 Skype Server 服務可能需要較長的時間才能開始初始啟動程式。</span><span class="sxs-lookup"><span data-stu-id="35c09-106">Some of the Skype for Business Server services may take an extended time to begin the initial startup process.</span></span> <span data-ttu-id="35c09-107">工作會發出啟動命令，但不會等候以判斷服務是否成功啟動。</span><span class="sxs-lookup"><span data-stu-id="35c09-107">The tasks are issuing the command to start, but do not wait to determine if the service is successfully started.</span></span> <span data-ttu-id="35c09-108">如果您必須監視服務啟動和服務狀態，則應該使用 Windows 服務 Microsoft Management Console (MMC)。</span><span class="sxs-lookup"><span data-stu-id="35c09-108">If you must monitor the service startup and service status, you should use the Windows Services Microsoft Management Console (MMC).</span></span>
+<span data-ttu-id="f88d5-104">[**執行命令**] 窗格上的 [摘要] 窗格會顯示所頒發之任務的狀態，以啟動您要部署之商務用 Skype server 角色服務器的服務。</span><span class="sxs-lookup"><span data-stu-id="f88d5-104">The summary pane on the **Executing Commands** pane displays the status of the tasks issued to start the services for the Skype for Business Server role server that you are deploying.</span></span> <span data-ttu-id="f88d5-105">工作窗格中的摘要並不代表服務會即時啟動。</span><span class="sxs-lookup"><span data-stu-id="f88d5-105">The summary in the task pane does not represent a real-time indication of service startup.</span></span> <span data-ttu-id="f88d5-106">某些商務用 Skype Server 服務可能需要較長的時間才能開始初始啟動程式。</span><span class="sxs-lookup"><span data-stu-id="f88d5-106">Some of the Skype for Business Server services may take an extended time to begin the initial startup process.</span></span> <span data-ttu-id="f88d5-107">工作會發出啟動命令，但不會等候以判斷服務是否成功啟動。</span><span class="sxs-lookup"><span data-stu-id="f88d5-107">The tasks are issuing the command to start, but do not wait to determine if the service is successfully started.</span></span> <span data-ttu-id="f88d5-108">如果您必須監視服務啟動和服務狀態，則應該使用 Windows 服務 Microsoft Management Console (MMC)。</span><span class="sxs-lookup"><span data-stu-id="f88d5-108">If you must monitor the service startup and service status, you should use the Windows Services Microsoft Management Console (MMC).</span></span>
   
-<span data-ttu-id="35c09-p102">工作窗格底下有一個顯示 [啟動服務] \*\*\*\* 記錄檔的下拉式清單。若要檢視記錄檔，請按一下 [檢視記錄檔]\*\*\*\*。按一下 [完成] \*\*\*\* 完成工作。</span><span class="sxs-lookup"><span data-stu-id="35c09-p102">Under the task pane is a drop-down list that displays the **Start Services** log file. To view the log file, click **View Log**. Click **Finish** to complete the task.</span></span>
+<span data-ttu-id="f88d5-p102">工作窗格底下有一個顯示 [啟動服務] \*\*\*\* 記錄檔的下拉式清單。若要檢視記錄檔，請按一下 [檢視記錄檔]\*\*\*\*。按一下 [完成] \*\*\*\* 完成工作。</span><span class="sxs-lookup"><span data-stu-id="f88d5-p102">Under the task pane is a drop-down list that displays the **Start Services** log file. To view the log file, click **View Log**. Click **Finish** to complete the task.</span></span>
   
 
