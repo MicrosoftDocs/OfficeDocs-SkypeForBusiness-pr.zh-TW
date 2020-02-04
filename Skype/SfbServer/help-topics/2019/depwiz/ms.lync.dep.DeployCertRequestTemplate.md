@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployCertRequestTemplate
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d00ed98f-46f2-4367-b34c-513e5eafdd06
 ROBOTS: NOINDEX, NOFOLLOW
-description: 您可以在 [指定備用憑證範本] 頁面上, 定義預設使用的 Web 類型憑證範本以外的憑證範本。 選取 [針對所選的認證機構使用備用憑證範本] 核取方塊, 然後在文字方塊憑證範本名稱中定義替換憑證範本的名稱。 您必須使用在憑證授權單位 (CA) 中定義的範本名稱。 按一下 [返回], 返回上一頁。 按一下 [取消] 以結束證書申請程式。
-ms.openlocfilehash: 003791098abd1a3f181f5122003ebfee07c5e320
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 您可以在 [指定備用憑證範本] 頁面上，定義預設使用的 Web 類型憑證範本以外的憑證範本。 選取 [針對所選的認證機構使用備用憑證範本] 核取方塊，然後在文字方塊憑證範本名稱中定義替換憑證範本的名稱。 您必須使用在憑證授權單位（CA）中定義的範本名稱。 按一下 [返回]，返回上一頁。 按一下 [取消] 以結束證書申請程式。
+ms.openlocfilehash: ab5cef4d0609eea59c304d3f4550c017c84d64f0
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36193534"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41691948"
 ---
 # <a name="certificate-request-specify-termplate"></a>憑證要求 (指定範本)
  

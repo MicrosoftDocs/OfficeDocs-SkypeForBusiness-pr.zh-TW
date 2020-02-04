@@ -6,23 +6,23 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.VoiceTrunkEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9591e691-63de-4c19-96a4-3bb394d1d4e2
 ROBOTS: NOINDEX, NOFOLLOW
-description: 您想要做什麼？ 按一下您要執行之任務的連結。
-ms.openlocfilehash: e249a0d6b1ad4298c464904e2f92323ab8813e1c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 您要做什麼？ 按一下您要執行之任務的連結。
+ms.openlocfilehash: d70d6943fb2c775847244d178614d39673489063
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36191860"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41690171"
 ---
-# <a name="trunk-configuration-create-new-or-edit-existing"></a>幹線設定: 建立新的或編輯現有的
+# <a name="trunk-configuration-create-new-or-edit-existing"></a>主幹組態：建立新的或編輯現有組態
 
-您想要做什麼？ 按一下您要執行之任務的連結。
+您要做什麼？ 按一下您要執行之任務的連結。
 
 - [在商務用 Skype Server 中使用 [旁路媒體] 設定主幹](../../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
 

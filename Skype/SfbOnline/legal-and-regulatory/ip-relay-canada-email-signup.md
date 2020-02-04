@@ -1,5 +1,5 @@
 ---
-title: 加拿大的 IP 中繼-註冊
+title: 加拿大 IP 轉送 - 註冊
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -13,19 +13,20 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: None
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Legal
 hideEdit: true
 description: 如何為加拿大的 IP 中繼帳戶 sigh。
-ms.openlocfilehash: a0d87822874f9a26f9778adbe9b9a9d6ca7edf5b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 9dda43f5489b63918142aff4c2c111f4471b958b
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "37642692"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41693108"
 ---
-# <a name="ip-relay-in-canada---sign-up"></a>加拿大的 IP 中繼-註冊
+# <a name="ip-relay-in-canada---sign-up"></a>加拿大 IP 轉送 - 註冊
 
 若要取得為加拿大設定的 IP 轉接帳戶，請填寫下表中的資訊，然後以電子郵件傳送給[ptn@microsoft.com](mailto:ptn@microsoft.com)。
 

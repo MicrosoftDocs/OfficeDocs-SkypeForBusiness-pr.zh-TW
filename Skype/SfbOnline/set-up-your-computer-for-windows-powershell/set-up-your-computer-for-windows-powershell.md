@@ -1,5 +1,5 @@
 ---
-title: 設定您的 Windows PowerShell 電腦
+title: 設定 Windows PowerShell 電腦
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -14,18 +14,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - PowerShell
 description: 瞭解透過 Windows PowerShell 遠端系統管理商務用 Skype Online 的需求，包括支援的作業系統。
-ms.openlocfilehash: 2c4cae9e7ff0d2ed1d7d27a2a8f6e790959a62fe
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: 5d959abd295c4eeb6916119644d6698e82cec5ba
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "37642771"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692638"
 ---
-# <a name="set-up-your-computer-for-windows-powershell"></a>設定您的 Windows PowerShell 電腦
+# <a name="set-up-your-computer-for-windows-powershell"></a>設定 Windows PowerShell 電腦
 
 只有在執行下列其中一個作業系統的64位電腦上，才支援使用 Microsoft PowerShell 在商務用 Skype Online 進行遠端系統管理：
 
@@ -55,7 +56,7 @@ ms.locfileid: "37642771"
   
 - [下載並安裝商務用 Skype Online 連接器模組](download-and-install-the-skype-for-business-online-connector.md)
     
-- [下載並安裝 Windows PowerShell 5。1](download-and-install-windows-powershell-5-1.md)
+- [下載並安裝 Windows PowerShell 5.1](download-and-install-windows-powershell-5-1.md)
 
 - [使用 Office 365 PowerShell 管理商務用 Skype Online](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/blob/live/Enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell.md)
     

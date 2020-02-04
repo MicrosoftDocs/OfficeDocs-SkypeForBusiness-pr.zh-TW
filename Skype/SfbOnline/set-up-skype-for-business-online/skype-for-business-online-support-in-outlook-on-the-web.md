@@ -1,5 +1,5 @@
 ---
-title: Outlook 網頁版的商務用 Skype Online 支援
+title: 網頁版 Outlook 的商務用 Skype Online 支援
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -14,18 +14,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Setup
 description: Office 365 中的 outlook 網頁版（Outlook Web App）從流覽列提供基本的商務用 Skype web 用戶端。 這個基本用戶端可供系統管理員尚未針對其 Office 365 組織設定 vanity URL 的線上使用者使用。 只要使用者的帳戶處於線上狀態且沒有 vanity URL，即使其組織有一些託管于內部部署的使用者帳戶，他們仍會看到體驗。 在內部部署使用者帳戶（無論是否有 vanity URL）或由 Microsoft 管理的使用者，都會在 Outlook web app 中看到 Lync 體驗。
-ms.openlocfilehash: 3a985bd8ad0a04198501ca8d1ec780496c59f561
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7eab3ce7c8d6ea8c1f004559ea92f64f554fb010
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "37642515"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692848"
 ---
-# <a name="skype-for-business-online-support-in-outlook-on-the-web"></a>Outlook 網頁版的商務用 Skype Online 支援
+# <a name="skype-for-business-online-support-in-outlook-on-the-web"></a>網頁版 Outlook 的商務用 Skype Online 支援
 
 Office 365 中的 outlook 網頁版（Outlook Web App）從流覽列提供基本的商務用 Skype web 用戶端。 這個基本用戶端可供系統管理員尚未針對其 Office 365 組織設定 vanity URL 的線上使用者使用。 只要使用者的帳戶處於線上狀態且沒有 vanity URL，即使其組織有一些託管于內部部署的使用者帳戶，他們仍會看到體驗。 在內部部署使用者帳戶（無論是否有 vanity URL）或由 Microsoft 管理的使用者，都會在 Outlook web app 中看到 Lync 體驗。
   
@@ -34,14 +35,14 @@ Office 365 中的 outlook 網頁版（Outlook Web App）從流覽列提供基本
 ||||
 |:-----|:-----|:-----|
 |**使用者帳戶位於** <br/> |**已設定 Vanity URL，或有專屬的組織** <br/> |**商務用 Skype 或 Lync 體驗？** <br/> |
-|Online  <br/> |不  <br/> |商務用 Skype 網頁版體驗  <br/> |
-|Online  <br/> |是的  <br/> |Lync web 體驗  <br/> |
-|混合式但駐留在線上  <br/> |不  <br/> |商務用 Skype 網頁版體驗  <br/> |
-|混合式但駐留在線上  <br/> |是的  <br/> |Lync web 體驗  <br/> |
-|混合式但以內部部署為宿主  <br/> |不  <br/> |Lync web 體驗  <br/> |
-|混合式但以內部部署為宿主  <br/> |是的  <br/> |Lync web 體驗  <br/> |
-|在內部部署上純粹  <br/> |不  <br/> |Lync web 體驗  <br/> |
-|在內部部署上純粹  <br/> |是的  <br/> |Lync web 體驗  <br/> |
+|Online  <br/> |否  <br/> |商務用 Skype 網頁版體驗  <br/> |
+|Online  <br/> |是  <br/> |Lync web 體驗  <br/> |
+|混合式但駐留在線上  <br/> |否  <br/> |商務用 Skype 網頁版體驗  <br/> |
+|混合式但駐留在線上  <br/> |是  <br/> |Lync web 體驗  <br/> |
+|混合式但以內部部署為宿主  <br/> |否  <br/> |Lync web 體驗  <br/> |
+|混合式但以內部部署為宿主  <br/> |是  <br/> |Lync web 體驗  <br/> |
+|在內部部署上純粹  <br/> |否  <br/> |Lync web 體驗  <br/> |
+|在內部部署上純粹  <br/> |是  <br/> |Lync web 體驗  <br/> |
    
 
 ## <a name="related-topics"></a>相關主題

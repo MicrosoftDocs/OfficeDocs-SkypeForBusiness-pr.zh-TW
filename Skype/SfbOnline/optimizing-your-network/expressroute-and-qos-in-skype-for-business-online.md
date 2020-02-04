@@ -15,16 +15,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Optimization
 description: '瞭解如何使用 Azure ExpressRoute，以具備頻寬需求的網路以及商務課程使用者體驗的服務品質功能。 '
-ms.openlocfilehash: e42cf42caafbb5ecd43b3660608a23d20cf8814e
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: f638a154e379d065d355010160bf8dff0ecc1b78
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "37642517"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41693078"
 ---
 # <a name="expressroute-and-qos-in-skype-for-business-online"></a>商務用 Skype Online 中的 ExpressRoute 與 QoS
 
@@ -65,12 +66,12 @@ Dewy 定律 LLC。 是一個相對較年輕的公司，而且律師及其他教�
   
 ||**總部（紐約州）**|**地區辦事處（3）**|**大型分支機搆（24）**|**小型分支機搆（50）**|
 |:-----|:-----|:-----|:-----|:-----|
-|上級  <br/> |20  <br/> |第  <br/> |sr-1  <br/> |sr-1  <br/> |
+|上級  <br/> |20  <br/> |第  <br/> |1  <br/> |1  <br/> |
 |合作夥伴  <br/> |150  <br/> |50  <br/> |第  <br/> |500  <br/> |
 |新源  <br/> |300  <br/> |100  <br/> |20  <br/> |第  <br/> |
 |律師助手  <br/> |400  <br/> |125  <br/> |為期  <br/> |工資  <br/> |
 |高層管理員  <br/> |100  <br/> |35  <br/> |6  <br/> |3  <br/> |
-|IT 及一般管理  <br/> |100  <br/> |位  <br/> |3  <br/> |pplx-2  <br/> |
+|IT 及一般管理  <br/> |100  <br/> |位  <br/> |3  <br/> |2  <br/> |
 |每個網站總計  <br/> |1070  <br/> |345  <br/> |70  <br/> |36  <br/> |
 |每個網站類別總計  <br/> |1070  <br/> |1035  <br/> |1680  <br/> |1800  <br/> |
    
@@ -91,7 +92,7 @@ Dewy 定律 LLC。 是一個相對較年輕的公司，而且律師及其他教�
     
 現在您已掌握基本功能，可為 Dewey 定律 LLC 供應商業成績的語音服務。我們建議您使用從網路服務合作夥伴連線至 Azure ExpressRoute 服務的多重通訊協定標籤（MPLS） IP 服務。 MPLS 提供 IP 服務，並針對延遲、抖動和資料包遺失進行效能保證。 不過，如果 MPLS 無法使用，您也可以使用乙太網路連接到其中一個 ExpressRoute 資料 exchange 合作夥伴。
   
-MPLS 提供者提供數種服務層級，但每個類別都使用不同的術語來加以識別。 您必須與提供者密切合作，確保他們瞭解您在[Lync 2010 和2013頻寬計算機](https://go.microsoft.com/fwlink/?LinkID=690282)中輸入的資料，以及適用于不同 Office 365 即時工作負載的選項程式.
+MPLS 提供者提供數種服務層級，但每個類別都使用不同的術語來加以識別。 您必須與提供者密切合作，確保他們瞭解您在[Lync 2010 和2013頻寬計算機](https://go.microsoft.com/fwlink/?LinkID=690282)中輸入的資料，以及適用于不同 Office 365 即時工作負載應用程式的選項。
   
 商務用 Skype 應用程式的資料可以對應到適當的 MPLS 服務類別，有兩個選項可供選擇：
   
@@ -166,10 +167,10 @@ Dewey 定律 LLC 的設計程式。 首先，請將使用者的使用者描述�
   
 |**網站名稱**|**網站中的使用者總數**|**像這樣的網站總數**|**使用者設定檔1**|**個人檔案1的使用者**|**使用者設定檔2**|**設定檔2的使用者**|**使用者設定檔3**|**設定檔3的使用者**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|設  <br/> |1070  <br/> |sr-1  <br/> |總經理/合作夥伴  <br/> |170  <br/> |關聯/律師助手  <br/> |700  <br/> |IT 管理員  <br/> |200  <br/> |
+|設  <br/> |1070  <br/> |1  <br/> |總經理/合作夥伴  <br/> |170  <br/> |關聯/律師助手  <br/> |700  <br/> |IT 管理員  <br/> |200  <br/> |
 |地區辦事處  <br/> |345  <br/> |3  <br/> |總經理/合作夥伴  <br/> |60  <br/> |關聯/律師助手  <br/> |225  <br/> |IT 系統管理員  <br/> |60  <br/> |
 |大型分支機搆  <br/> |70  <br/> |24  <br/> |總經理/合作夥伴  <br/> |11  <br/> |關聯/律師助手  <br/> |50  <br/> |IT 系統管理員  <br/> |9  <br/> |
-|小型分支辦公室  <br/> |36  <br/> |50  <br/> |總經理/合作夥伴  <br/> |6  <br/> |關聯/律師助手  <br/> |位  <br/> |IT 系統管理員  <br/> |sr-1  <br/> |
+|小型分支辦公室  <br/> |36  <br/> |50  <br/> |總經理/合作夥伴  <br/> |6  <br/> |關聯/律師助手  <br/> |位  <br/> |IT 系統管理員  <br/> |1  <br/> |
    
  **每個應用程式每個應用程式的頻寬，以 Kbps 為單位（「網站工作表」-欄 A 及 BQ 到 LF）**
   
@@ -225,7 +226,7 @@ Microsoft 的 ExpressRoute 服務提供專用的 Azure 雲端連線，但 Office
   
 此區段的目的是協助您瞭解在 IP 網路中支援即時流量，以及使用 Microsoft ExpressRoute Exchange 進行成功的 ExpressRoute 部署 Office 365 即時工作負載的難題提供者或網路服務提供者合作夥伴。
   
-QoS 可透過 ExpressRoute 網路線路完全從您的網路接受，並在 Microsoft 網路中用於商務用 Skype 流量。 今天，某些 Microsoft 的出站連線的部分內容缺少商務用 Skype 的 DSCP 值。 在輸出流量完全以 DSCP 值標示之前，您可以依照此的**使用網路存取控制清單（ACL）** 一節所述，在網路界限將 qos 標記新增到流量中所述的指導方針。本文.
+QoS 可透過 ExpressRoute 網路線路完全從您的網路接受，並在 Microsoft 網路中用於商務用 Skype 流量。 今天，某些 Microsoft 的出站連線的部分內容缺少商務用 Skype 的 DSCP 值。 在輸出流量完全標示 DSCP 值之前，您可以依照本文的**使用網路存取控制清單（ACL）** 一節所述，在網路界限將 qos 標記新增到流量中所述的指導方針。
   
 ### <a name="the-real-time-problem"></a>即時問題
 
@@ -325,9 +326,9 @@ IEEE 802.1 p 使用3位優先順序碼位（PCP）來識別訊息的優先順序
 |500  <br/> |500  <br/> |VO  <br/> |語音  <br/> |
 |4  <br/> |4  <br/> |六  <br/> |顯示器  <br/> |
 |3  <br/> |3  <br/> |頒發  <br/> |重要應用程式  <br/> |
-|pplx-2  <br/> |pplx-2  <br/> |EE  <br/> |出色的努力  <br/> |
-|0  <br/> |sr-1  <br/> |不必  <br/> |最佳努力  <br/> |
-|sr-1  <br/> |0  <br/> |巴克摩  <br/> |背景  <br/> |
+|2  <br/> |2  <br/> |EE  <br/> |出色的努力  <br/> |
+|0  <br/> |1  <br/> |不必  <br/> |最佳努力  <br/> |
+|1  <br/> |0  <br/> |巴克摩  <br/> |背景  <br/> |
    
 在其中，IEEE 802.1 p 的實現方式與 DSCP 基本相同，其通信量會針對每個優先順序等級排序為不同優先順序佇列，但 Wlan 的共用媒體性質是針對不同的方法。 雖然存取點和用戶端會針對不同的優先順序層次維持不同的輸出佇列，但在無線電通道上傳送畫面的方式也有所不同。
   
@@ -364,9 +365,9 @@ IEEE 802.1 p 使用3位優先順序碼位（PCP）來識別訊息的優先順序
 |DSCP 值-34  <br/> |
 |通話信號  <br/> |每個躍點行為（PHB）-類別選擇器（CS）3  <br/> |3  <br/> |2（AC_VI）  <br/> |
 |DSCP 值-24  <br/> |
-|低延遲資料  <br/> |每個躍點行為（PHB）-確保轉接（AF）21  <br/> |pplx-2  <br/> |3（AC_BE）  <br/> |
+|低延遲資料  <br/> |每個躍點行為（PHB）-確保轉接（AF）21  <br/> |2  <br/> |3（AC_BE）  <br/> |
 |DSCP 值-18  <br/> |
-|高輸送量資料  <br/> |每個躍點行為（PHB）-確保轉接（AF）11  <br/> |sr-1  <br/> |3（AC_BE）  <br/> |
+|高輸送量資料  <br/> |每個躍點行為（PHB）-確保轉接（AF）11  <br/> |1  <br/> |3（AC_BE）  <br/> |
 |DSCP 值-10  <br/> |
 |最佳努力  <br/> |每個躍點行為（PHB）-0  <br/> |0  <br/> |4（AC_BK）  <br/> |
 |DSCP 值-0  <br/> |

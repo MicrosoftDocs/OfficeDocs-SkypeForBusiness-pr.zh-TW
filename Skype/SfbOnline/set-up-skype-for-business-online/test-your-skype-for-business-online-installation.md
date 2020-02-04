@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Setup
 description: '瞭解如何設定測試帳戶和電腦，以及測試電話撥入式會議、線上功能（例如人員對人員通話、會議，以及登入和登出），以節省時間、支援電話並提高滿意度。 '
-ms.openlocfilehash: b7bce3818de3ae2a096330b11a7bb779bb62ec10
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b8ebf8f82ad4706282d9feca5cdf21f27df90adb
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "37642812"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692818"
 ---
 # <a name="test-your-skype-for-business-online-installation"></a>測試您的商務用 Skype Online 安裝
 
@@ -37,7 +38,7 @@ ms.locfileid: "37642812"
 
 - 包含商務用 Skype Online 之音訊會議提供者的帳戶。
 
-## <a name="what-do-you-want-to-do"></a>您想要做什麼？
+## <a name="what-do-you-want-to-do"></a>您要做什麼？
 
 > [設定測試帳戶](test-your-skype-for-business-online-installation.md#__toc328126910)
 > 

@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Setup
 description: 您可以使用行動裝置上的商務用 Skype app 來設定使用者連線到商務用 Skype Online 的方式，例如可讓使用者使用公司電話號碼在手機上撥打及接聽電話的功能，而不是在其行動電話上撥打電話mber. 行動原則也可以用於在撥打或接聽來電時，需要使用 Wi-fi 連線。
-ms.openlocfilehash: 8ade1f69c7374009ea0f19fb1e777df76b45220c
-ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
+ms.openlocfilehash: 7457b89014395a5ee833b8a35bde68751ade9cfd
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40962551"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692948"
 ---
 # <a name="set-up-mobile-policies-for-your-organization"></a>設定組織的行動原則
 

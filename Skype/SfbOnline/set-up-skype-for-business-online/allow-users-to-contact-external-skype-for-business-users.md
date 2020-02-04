@@ -1,5 +1,5 @@
 ---
-title: 允許使用者與外部商務用 Skype 使用者聯繫
+title: 允許使用者連絡外部商務用 Skype 使用者
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -14,7 +14,10 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1_keywords:
+f1.keywords:
+- CSH
+ms.custom:
+- Setup
 - For O365M_ShareLync
 - ms.lync.lac.OrgExternalAccess
 - ms.lync.lac.skypefederation
@@ -23,18 +26,16 @@ f1_keywords:
 - O365M_ShareLync
 - O365P_ExternalCommDesc
 - O365P_ShareLync
-ms.custom:
-- Setup
 - LIL_Placement
 description: '瞭解如何設定商務用 Skype，讓使用者與其他組織中的使用者交談，或讓連絡人以外的人員。 '
-ms.openlocfilehash: 570861f532371dc8eca253956ffdd200e60f5990
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: bc0a59487d3cfd3e5721d60213d367c750349604
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "37642439"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692938"
 ---
-# <a name="allow-users-to-contact-external-skype-for-business-users"></a>允許使用者與外部商務用 Skype 使用者聯繫
+# <a name="allow-users-to-contact-external-skype-for-business-users"></a>允許使用者連絡外部商務用 Skype 使用者
 
 > [!NOTE]
 > 商務用 Skype 同盟不適用於由世紀運營的 Office 365 和 Office 365 德國組織。 

@@ -1,5 +1,5 @@
 ---
-title: '商務用 Skype Online 方案1退休 '
+title: '終止對商務用 Skype Online 方案 1 的支援 '
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,18 +15,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Licensing
 description: 商務用 Skype Online 方案1已停用。 不過，如果您目前已訂閱商務用 Skype Online 方案1，此變更就不會立即影響您。 當您準備好移至新的方案時（無論是現在或在續約期間），您都有三個選項。
-ms.openlocfilehash: 6e3ede1a6c01fe48384faf92048e502c393a346a
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: d0d553946ddbde84ede48b715332e66aea75dac4
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "37642376"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692658"
 ---
-# <a name="skype-for-business-online-plan-1-retirement"></a>商務用 Skype Online 方案1退休 
+# <a name="skype-for-business-online-plan-1-retirement"></a>終止對商務用 Skype Online 方案 1 的支援 
 
 商務用 Skype Online 方案1已停用。 不過，如果您目前已訂閱商務用 Skype Online 方案1，此變更就不會立即影響您。 身為全域 Office 365 系統管理員，您會收到電子郵件更新，並在訊息中心（Microsoft 365 系統管理中心的一部分）中查看文章，其中包含您需要採取動作的相關資訊。 在此同時，您可以繼續使用現有的商務用 Skype Online 方案1授權。
 

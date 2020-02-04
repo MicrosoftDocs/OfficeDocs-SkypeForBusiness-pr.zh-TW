@@ -1,5 +1,5 @@
 ---
-title: 使用者封鎖的報告
+title: 使用者封鎖報告
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,18 +14,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Reporting
 description: '此報告以及其他商務用 Skype 報告，提供活動的詳細資料，包括整個組織的 PSTN 使用量。 '
-ms.openlocfilehash: 95269dc08806ab09a44f47153748d45a63fedbc2
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: d5fa69d096f5dc5f2af6f8b5a3c04a3155b8cd9e
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "37643011"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692328"
 ---
-# <a name="users-blocked-report"></a>使用者封鎖的報告
+# <a name="users-blocked-report"></a>使用者封鎖報告
 
 新的商務用 Skype**報告**儀表板會顯示您組織中的商務用 skype 產品的活動概覽。 它可讓您深入探索個別的產品層級報表，讓您更精確地瞭解每個產品內的活動。 例如，您可以使用商務用**Skype 使用者封鎖**報表來查看貴組織中已封鎖進行 PSTN 通話的使用者。 此報告以及其他商務用 Skype 報告，提供活動的詳細資料，包括整個組織的 PSTN 使用量。
   

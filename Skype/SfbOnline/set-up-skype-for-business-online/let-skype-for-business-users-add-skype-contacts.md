@@ -14,17 +14,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Setup
 - LIL_Placement
 description: '瞭解如何讓使用商務用 Skype 的使用者從貴組織外的商務用 skype 連絡人，然後將他們新增至他們的連絡人清單。 '
-ms.openlocfilehash: 3ba92977fa45686a900a78cfcf231a3c0985a933
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: d6251e8e86527172e6818d11b1e07da892b4b0ef
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "37642554"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692878"
 ---
 # <a name="let-skype-for-business-users-add-skype-contacts"></a>讓商務用 Skype 使用者新增 Skype 連絡人
 
@@ -96,13 +97,13 @@ ms.locfileid: "37642554"
   
 |**適用于 Skype 連絡人**|**Skype 連絡人無法使用**|
 |:-----|:-----|
-| 影片交談 <br/>  人員對人立即訊息 <br/>  平臺 <br/> | 多方 IM 交談 <br/>  三人以上的音訊與影片交談 <br/>  桌面與程式共用 <br/> |
+| 影片交談 <br/>  人員對人立即訊息 <br/>  目前狀態 <br/> | 多方 IM 交談 <br/>  三人以上的音訊與影片交談 <br/>  桌面與程式共用 <br/> |
    
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
    
 ## <a name="related-topics"></a>相關主題
 
-[允許使用者與外部商務用 Skype 使用者聯繫](allow-users-to-contact-external-skype-for-business-users.md)
+[允許使用者連絡外部商務用 Skype 使用者](allow-users-to-contact-external-skype-for-business-users.md)
   
 [設定商務用 Skype Online](set-up-skype-for-business-online.md)
 

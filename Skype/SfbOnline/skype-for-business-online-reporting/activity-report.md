@@ -14,17 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - O365E_ReportsS4BActivity
 ms.custom:
 - Reporting
 description: '瞭解如何取得商務用 Skype 活動報告、所包含的內容，以及如何解讀資料。 '
-ms.openlocfilehash: bedff059e1295714220ff70a7c97439f4b6aeef8
-ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
+ms.openlocfilehash: 1da7ea7b826d5a8f86691cda8b41b49298114d50
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "38746306"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692448"
 ---
 # <a name="activity-report"></a>活動報告
 

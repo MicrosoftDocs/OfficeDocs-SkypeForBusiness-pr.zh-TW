@@ -1,5 +1,5 @@
 ---
-title: PSTN 分鐘池報告
+title: PSTN 分鐘集區報告
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,18 +14,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Reporting
 description: 新的商務用 Skype 系統管理中心報告區域會顯示您組織中的通話和音訊會議活動。 它可讓您深入探索報表，讓您更精確地瞭解每個使用者的活動。 例如，您可以使用商務用 Skype PSTN 分鐘池報告來查看在您組織中的當月期間消耗的分鐘數。
-ms.openlocfilehash: 8d7441f74600557ac93051daf206af3f1f1842f9
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 2777b4f32b99a086110b75ca527eda29b0842b6e
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "37642484"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692428"
 ---
-# <a name="pstn-minute-pools-report"></a>PSTN 分鐘池報告
+# <a name="pstn-minute-pools-report"></a>PSTN 分鐘集區報告
 
 >[!NOTE]
 >此報告僅供預覽客戶使用。

@@ -14,18 +14,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - ms.lync.lac.MeetingInvitation
 - ms.teamsadmincenter.meetingsettings.invitationurls
 ms.custom:
 - Setup
 description: '使用圖形標誌、說明與合法 Url 以及頁尾文字自訂 Skype 會議邀請。 '
-ms.openlocfilehash: e43db5deeabcfa2db3e64423357d60b2723d606f
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: f17a6e3ab03484d250d6243caafcc3aecb0ff6ff
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "37642592"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692898"
 ---
 # <a name="customize-meeting-invitations"></a>自訂會議邀請
 
@@ -75,7 +75,7 @@ ms.locfileid: "37642592"
 ## <a name="related-topics"></a>相關主題
 <a name="__top"> </a>
 
-[在 Office 365 中試用或購買音訊會議](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[試用或購買 Office 365 的音訊會議](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 
   
  

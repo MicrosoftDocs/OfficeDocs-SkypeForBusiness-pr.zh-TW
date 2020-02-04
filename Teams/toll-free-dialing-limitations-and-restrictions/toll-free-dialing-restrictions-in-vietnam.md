@@ -18,16 +18,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: 這將協助您瞭解如何在每個國家/地區撥打免付費電話號碼。 在您選取國家/地區之後，系統會將您帶到特定國家/地區的頁面，其中包含特定的詳細資料、限制，以及免費提供免付費服務的服務可用性限制。 [撥號格式] 或 [格式] 會在每個國家/地區顯示所需的存取代碼，以撥打免付費電話號碼。
-ms.openlocfilehash: 7f60e95539af32bc80bc4922f61648aacb601de9
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 6a82c501074aeb775ea54daeabfcf8bc8d902ec1
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572582"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41693648"
 ---
 # <a name="toll-free-dialing-restrictions-in-vietnam"></a>越南免付費電話撥號限制
 
@@ -36,7 +37,7 @@ ms.locfileid: "37572582"
 
 | **詳細資料**                                      | **說明**                                                                                                                                                                                                                                                                                                                                                                                           |
 |:-------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 免費通話嗎？  <br/>           | 是的  <br/>                                                                                                                                                                                                                                                                                                                                                                                                |
+| 免費通話嗎？  <br/>           | 是  <br/>                                                                                                                                                                                                                                                                                                                                                                                                |
 | 撥號格式（s）  <br/>                         | 120-11-3XX <br/>  122-XXX-XX <br/>  1800 XXXX：已不再提供格式 <br/>                                                                                                                                                                                                                                                                                                                            |
 | 國家/地區 ISO 代碼  <br/>                   | VN  <br/>                                                                                                                                                                                                                                                                                                                                                                                                 |
 | 已覆蓋的島/地區  <br/>                  | 不適用  <br/>                                                                                                                                                                                                                                                                                                                                                                                     |
@@ -47,9 +48,9 @@ ms.locfileid: "37572582"
    
 ## <a name="related-topics"></a>相關主題
 
-[免付費撥號限制與限制](../toll-free-dialing-limitations-and-restrictions.md)
+[免付費電話的撥號限制](../toll-free-dialing-limitations-and-restrictions.md)
 
-[取得商務用 Skype 和 Microsoft 團隊的服務電話號碼](/microsoftteams/getting-service-phone-numbers)
+[取得商務用 Skype 和 Microsoft Teams 的服務電話號碼](/microsoftteams/getting-service-phone-numbers)
 
   
  

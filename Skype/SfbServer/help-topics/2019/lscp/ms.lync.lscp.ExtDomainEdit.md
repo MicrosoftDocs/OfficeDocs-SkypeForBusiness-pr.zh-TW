@@ -6,23 +6,23 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.ExtDomainEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 90979ccd-7439-4a66-b82d-222df1554d66
 ROBOTS: NOINDEX, NOFOLLOW
-description: 您想要做什麼？ 按一下您要執行之任務的連結。
-ms.openlocfilehash: 1834f59a2141ac27bcac2ec3a3ead765d72678dd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 您要做什麼？ 按一下您要執行之任務的連結。
+ms.openlocfilehash: faf2d5cee16c02acf1bb40d6eccf1b88d6597b2e
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190960"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41691368"
 ---
 # <a name="federated-domains-create-new-or-edit-existing"></a>同盟網域：建立新的或編輯現有
 
-您想要做什麼？ 按一下您要執行之任務的連結。
+您要做什麼？ 按一下您要執行之任務的連結。
 
 - [Configure Access for Federated Partners](https://technet.microsoft.com/library/5485e208-81e4-4e59-9aeb-1232c11dd8a2.aspx)
 

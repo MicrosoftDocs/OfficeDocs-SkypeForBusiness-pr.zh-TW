@@ -15,18 +15,18 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords:
+f1.keywords:
 - ms.lync.lac.DashboardOrganizationInformation
 - ms.lync.lac.DashboardUserStatistics
 ms.custom:
 - Setup
 description: 瞭解哪些商務用 Skype 使用者統計資料，例如已啟用的使用者數目、已啟用會議的使用者數，或已啟用 Office 365 的使用者。
-ms.openlocfilehash: d15ba89dda3a5a87162855d5746aed93b21598d0
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 2d6856129a9d94875efb05254293d87fbc88b8ec
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "37643009"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692742"
 ---
 # <a name="user-statistics-and-organization-information"></a>使用者統計資料與組織資訊
 
@@ -57,7 +57,7 @@ ms.locfileid: "37643009"
 |組織網域  <br/> |初次設定 Office 365 時，這些是已註冊的網域。  <br/> 若要新增網域，請參閱[在 Office 365 中新增多個網域](https://support.office.com/article/2d2fa996-b760-411d-a5cc-190d63f13207)。  <br/> 若要移除網域，請參閱[從 Office 365 移除網域](https://support.office.com/article/f09696b2-8c29-4588-a08b-b333da19810c)。  <br/> |
    
 ## <a name="related-topics"></a>相關主題
-[允許使用者與外部商務用 Skype 使用者聯繫](allow-users-to-contact-external-skype-for-business-users.md)
+[允許使用者連絡外部商務用 Skype 使用者](allow-users-to-contact-external-skype-for-business-users.md)
 
 [讓商務用 Skype 使用者新增 Skype 連絡人](let-skype-for-business-users-add-skype-contacts.md)
 

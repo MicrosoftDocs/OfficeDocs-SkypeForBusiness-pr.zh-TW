@@ -15,16 +15,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Phone System
 description: 瞭解如何取得正確的固件、根據需要進行更新、指派授權，以及設定常用區域手機的設定等部署步驟。
-ms.openlocfilehash: a245db1a2033f08d50e9a3c1a32f27981a3eb702
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: bfba106c262fb558a468f8cad26b3555b81b125e
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37924894"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692238"
 ---
 # <a name="set-up-common-area-phones"></a>設定公共區域電話
 常見的區域電話（CAP）通常放在諸如大廳或其他許多人都可以使用的區域中。 例如，將 Cap 設定為裝置，而不是使用者並自動登入網路，即接收區域電話、[門 phone] 或 [會議室電話]。 在下列步驟中，我們將協助您使用通話方案設定電話系統帳戶，以便為您的組織部署這些類型的電話。
@@ -143,6 +144,6 @@ ms.locfileid: "37924894"
 ### <a name="related-topics"></a>相關主題
 
 - 深入瞭解[部署商務用 Skype Online 手機](deploying-skype-for-business-online-phones.md)時可用的手機。
-- [在商務用 Skype Online 中取得電話](getting-phones-for-skype-for-business-online.md)
+- [取得商務用 Skype Online 的電話](getting-phones-for-skype-for-business-online.md)
 
 

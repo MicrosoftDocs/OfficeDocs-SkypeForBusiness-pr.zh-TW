@@ -1,5 +1,5 @@
 ---
-title: 在商務用 Skype Online 中取得電話
+title: 取得商務用 Skype Online 的電話
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,18 +17,19 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Phone System
 description: '從 Polycom、HP 和 Mitel，以及所需的授權，瞭解哪些手機可搭配商務用 Skype 使用。 '
-ms.openlocfilehash: ac3b262a9888acb95eef4e2e8822abc3441617c4
-ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
+ms.openlocfilehash: e852d54a1189ed8de7561e64809b1fc782fa644a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "37642490"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692248"
 ---
-# <a name="getting-phones-for-skype-for-business-online"></a>在商務用 Skype Online 中取得電話
+# <a name="getting-phones-for-skype-for-business-online"></a>取得商務用 Skype Online 的電話
 
 商務用 skype Online 可為想要取得傳統電話經驗的使用者（而不是使用商務用 Skype 應用程式）提供和支援桌面電話。 本主題涵蓋在商務用 Skype Online 中支援使用的電話和固件版本，以及當您在組織中設定手機時可協助您的其他資訊。
 
@@ -91,25 +92,25 @@ Microsoft 是與 Polycom、Yealink 和 AudioCodes 密切合作與共同作業，
 ||||||
 |:-----|:-----|:-----|:-----|:-----|
 |**功能** <br/> |**Polycom 3PIP** <br/> |**Yealink 3PIP** <br/> |**AudioCodes 3PIP** <br/> |**LPW** <br/> |
-|使用使用者認證登入  <br/> |是的  <br/> |是的  <br/> |是的  <br/> |不  <br/> |
-|透過電腦（配對）登入，僅限 Windows  <br/> |是的  <br/> |是的  <br/> |是的  <br/> |是的  <br/> |
-|使用登入（網頁登入）  <br/>  <br/> **注意：** 檢查 [部署指南] 中的 [支援清單]。           |是的  <br/> |是的  <br/> |是的  <br/> |不  <br/> |
-|按一下 [加入會議]  <br/> |是的  <br/> |是的  <br/> |是的  <br/> |是的  <br/> |
-|按一下撥打（配對）  <br/> |是的  <br/> |是的  <br/> |是的  <br/> |是的  <br/> |
-|會議控制項  <br/> |是的  <br/> |是的  <br/> |是的  <br/> |是的  <br/> |
-|視覺語音信箱  <br/> |是的  <br/> |是的  <br/> |是的  <br/> |是的  <br/> |
-|電話鎖定  <br/> |是的  <br/> |是的  <br/> |是的  <br/> |是的  <br/> |
-|裝置更新  <br/> |是的  <br/> |是的  <br/> |是的  <br/> |是的  <br/> |
-|頻帶內配  <br/> |是的  <br/> |是的  <br/> |是的  <br/> |是的  <br/> |
-|QoE  <br/> |是的  <br/> |是的  <br/> |是的  <br/> |不  <br/> |
-|記錄上傳  <br/> <br/> **注意：** 目前，所有的記錄都只會上傳到 Microsoft 支援小組;客戶無法存取手機記錄。           |是的  <br/> |是的  <br/> |是的  <br/> |是的  <br/> |
-|新式驗證  <br/> |是的  <br/> |是的  <br/> |是的  <br/> |不  <br/> |
-|多個緊急號碼  <br/> |是的  <br/> |不  <br/> |不  <br/> |是的  <br/> |
-|Exchange 行事曆整合 *  <br/> |是的  <br/> |是的  <br/> |是的  <br/> |是的  <br/> <br/> **注意：** 需要電腦 tethering           |
-|目前狀態整合  <br/> |是的  <br/> |是的  <br/> |是的  <br/> |是的  <br/> |
-|公司目錄  <br/> |是的  <br/> |是的  <br/> |是的  <br/> |是的  <br/> |
-|委派  <br/> |是的  <br/> |是的  <br/> |是的  <br/> |不  <br/> |
-|連絡人圖片整合  <br/> |不  <br/> |是的  <br/> |不  <br/> |是的  <br/> |
+|使用使用者認證登入  <br/> |是  <br/> |是  <br/> |是  <br/> |否  <br/> |
+|透過電腦（配對）登入，僅限 Windows  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
+|使用登入（網頁登入）  <br/>  <br/> **注意：** 檢查 [部署指南] 中的 [支援清單]。           |是  <br/> |是  <br/> |是  <br/> |否  <br/> |
+|按一下 [加入會議]  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
+|按一下撥打（配對）  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
+|會議控制項  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
+|視覺語音信箱  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
+|電話鎖定  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
+|裝置更新  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
+|頻帶內配  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
+|QoE  <br/> |是  <br/> |是  <br/> |是  <br/> |否  <br/> |
+|記錄上傳  <br/> <br/> **注意：** 目前，所有的記錄都只會上傳到 Microsoft 支援小組;客戶無法存取手機記錄。           |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
+|新式驗證  <br/> |是  <br/> |是  <br/> |是  <br/> |否  <br/> |
+|多個緊急號碼  <br/> |是  <br/> |否  <br/> |否  <br/> |是  <br/> |
+|Exchange 行事曆整合 *  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> <br/> **注意：** 需要電腦 tethering           |
+|目前狀態整合  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
+|公司目錄  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
+|委派  <br/> |是  <br/> |是  <br/> |是  <br/> |否  <br/> |
+|連絡人圖片整合  <br/> |否  <br/> |是  <br/> |否  <br/> |是  <br/> |
 ||||||
 
      
@@ -120,11 +121,11 @@ Microsoft 是與 Polycom、Yealink 和 AudioCodes 密切合作與共同作業，
 如需逐步設定指示，請參閱[部署商務用 Skype Online 手機](deploying-skype-for-business-online-phones.md)。
 
 ## <a name="related-topics"></a>相關主題
-[取得商務用 Skype 和 Microsoft 團隊的服務電話號碼](../getting-service-phone-numbers.md)
+[取得商務用 Skype 和 Microsoft Teams 的服務電話號碼](../getting-service-phone-numbers.md)
 
 [以下是您在 Office 365 中使用電話系統所取得的結果](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
-[適用于音訊會議與通話方案的國家和地區可用性](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
+[音訊會議與通話方案的適用國家/地區](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 
   
  

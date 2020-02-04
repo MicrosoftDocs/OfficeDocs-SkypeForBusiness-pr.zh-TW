@@ -16,23 +16,24 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Licensing
 description: '瞭解如何為手機系統、音訊會議、通話方案和通訊點數指派商務用 Skype 授權。 '
-ms.openlocfilehash: 997cffce5b98ed992371a0f43e701b2efc1ae128
-ms.sourcegitcommit: 6d5f09acdcdc8d5a36f7ac785349209e7496f17d
+ms.openlocfilehash: 9aa423683160c064b13be140c4226b2327dd9b69
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/07/2019
-ms.locfileid: "37642249"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692518"
 ---
 # <a name="assign-skype-for-business-licenses"></a>指派商務用 Skype 授權
 
 本文提供有關指派授權給使用者的秘訣，例如音訊會議、電話系統和通話方案等功能。 它也提供大量指派授權的腳本。
 
 > [!IMPORTANT]
-> 請參閱[商務用 Skype 附加元件授權](skype-for-business-and-microsoft-teams-add-on-licensing.md)，以取得您需要購買哪些授權，以及**如何購買**它們（視您的 Office 365 方案而定），讓使用者取得音訊會議、免付費電話號碼，以及撥打電話號碼以外的功能您的公司。
+> 請參閱[商務用 Skype 附加元件授權](skype-for-business-and-microsoft-teams-add-on-licensing.md)，以取得您需要購買哪些授權以及**如何購買**產品的相關資訊（視您的 Office 365 方案而定），讓使用者可以取得音訊會議、免付費電話號碼，以及撥打企業外部的電話號碼。
 
 
 ## <a name="phone-system-and-calling-plans-tips-and-scripts-for-assigning-licenses"></a>電話系統與通話方案：指派授權的秘訣與腳本
@@ -116,7 +117,7 @@ ms.locfileid: "37642249"
 
 ### <a name="what-you-need-to-know-before-assigning-audio-conferencing-licenses"></a>指派音訊會議授權前需要注意的事項
 
-- **協力廠商音訊會議提供者**：如果某人已設定為使用協力廠商音訊會議提供者，當您指派**音訊會議**授權時，系統會將其變更為使用 Microsoft 作為音訊會議服務. 您可以將它們變更回協力廠商提供者。
+- **協力廠商音訊會議提供者**：如果某人已設定為使用協力廠商音訊會議提供者，當您指派**音訊會議**授權時，系統會將其變更為使用 Microsoft 作為音訊會議提供者。 您可以將它們變更回協力廠商提供者。
 
 - 後續步驟：指派**音訊會議**授權之後，您需要指派音訊會議提供者。 請參閱 [將 Microsoft 指派為音訊會議提供者]。
 
@@ -203,7 +204,7 @@ foreach ($user in $users)
   
 [設定通話方案](/microsoftteams/set-up-calling-plans)
   
-[新增基金及管理通訊點數](/microsoftteams/add-funds-and-manage-communications-credits)
+[加值和管理通訊點數](/microsoftteams/add-funds-and-manage-communications-credits)
   
   
  

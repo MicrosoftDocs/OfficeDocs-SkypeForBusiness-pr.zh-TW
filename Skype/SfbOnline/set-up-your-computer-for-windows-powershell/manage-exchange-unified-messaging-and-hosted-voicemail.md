@@ -1,5 +1,5 @@
 ---
-title: 管理 Exchange 整合訊息及託管語音信箱
+title: 管理 Exchange 整合通訊與託管語音信箱
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -14,18 +14,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - PowerShell
 description: 在商務用 Skype Online 中使用 PowerShell 管理 Exchange 整合通訊功能，例如自動語音應答及訂閱者存取及託管語音信箱。
-ms.openlocfilehash: 4bc953307059a1679ad435b3674befe824e34056
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d0c2ff8cad705a2d00685e2c6935616ab8d64ac9
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "37642516"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692678"
 ---
-# <a name="manage-exchange-unified-messaging-and-hosted-voicemail"></a>管理 Exchange 整合訊息及託管語音信箱
+# <a name="manage-exchange-unified-messaging-and-hosted-voicemail"></a>管理 Exchange 整合通訊與託管語音信箱
 
 您可以使用一組 Cmdlet，在商務用 Skype Online 中管理 Exchange 整合訊息及託管語音信箱。
   

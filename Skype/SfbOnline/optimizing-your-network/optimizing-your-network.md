@@ -1,5 +1,5 @@
 ---
-title: 優化您的網路
+title: 最佳化您的網路
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Optimization
 description: 下列需求對於您針對您的組織所設定的所有商務用 Skype Online 功能而言，都是非常重要的。 我們知道你們中的部分都非常技術性-這份檔適用于您，但您不在其中。 如果您需要協助設定商務用 Skype Online，您應該閱讀這份檔，熟悉您需要考慮的事項。 您也可以在使用 Microsoft FastTrack Center、Microsoft 服務與帳戶小組，或使用 Microsoft 合作夥伴來瞭解如何符合這些需求，為您提供相關討論。
-ms.openlocfilehash: f81b2bebded33bf65ff391909dea4e6f638390fb
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: f4721ddc7db936e0351f78ba6bfc7033b8cd10d0
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "37642863"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41693058"
 ---
 # <a name="optimizing-your-network-for-skype-for-business-online"></a>針對商務用 Skype Online 優化您的網路
 
@@ -51,7 +52,7 @@ ms.locfileid: "37642863"
 
 透過 IP 的即時媒體質量（音訊、影片和應用程式共用）會大大影響端對端網路連線的品質。 若要獲得最佳的商務用 Skype Online 媒體質量，請務必確保貴公司的網路與商務用 Skype Online 之間有高品質的連線。 完成這項作業的最佳方式，就是根據網路容量來設定您的內部網路和雲端連線，以適應所有連線中的商務用 Skype Online 的峰值流量。
   
-使用[Microsoft 合作夥伴](https://partnercenter.microsoft.com/en-us/pcv/search)，您可以將各種 Office 365 應用程式（包括雲端的商務用 skype Online）連線到您的網路，以及商務用 Skype 的即時語音及視頻通訊功能需要網路服務必須特別設定為支援這些 Office 365 即時工作負載。 這包括具備足夠頻寬的網路，以傳送所需的流量，並且能夠支援服務品質（QoS）來為您的使用者供應商務類別體驗。
+使用[Microsoft 合作夥伴](https://partnercenter.microsoft.com/en-us/pcv/search)，您可以將各種 Office 365 應用程式連線到您的網路，包括雲端的商務用 skype Online，以及商務用 skype 的即時語音及視頻通訊功能，必須具備網路服務，才能支援這些 office 365 即時工作負載。 這包括具備足夠頻寬的網路，以傳送所需的流量，並且能夠支援服務品質（QoS）來為您的使用者供應商務類別體驗。
   
 在這裡，還有其他資源可協助您成功規劃及部署商務用 Skype Online 服務和功能，並確保您的網路服務符合這些需求：
   
@@ -129,7 +130,7 @@ Microsoft 建議使用 PAC 檔案排除 Office 365 Url，以將 Office 365 流�
   
 如需支援與認證的裝置的詳細資訊，請參閱下列內容：  
   
-- [在商務用 Skype Online 中取得電話](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md)
+- [取得商務用 Skype Online 的電話](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md)
     
 - [商務用 Skype 的電話和裝置](https://technet.microsoft.com/en-us/office/dn947482.aspx)
     

@@ -1,5 +1,5 @@
 ---
-title: '[會話詳細資料] 報告'
+title: 工作階段詳細資報告
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,18 +14,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Reporting
 description: 新的 Office 365 [報告] 儀表板會在您組織中的 Office 365 產品上顯示活動概覽。 它可讓您深入瞭解個別的產品層級報告，讓您更精確地瞭解每個產品內的活動。
-ms.openlocfilehash: faee3d0a4f2228ddc32121bf85cc2f6b3018f2cc
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 58f3c42c0a0188d4a2858e6b6b0a5bed93dfc72d
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "37642680"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692348"
 ---
-# <a name="session-details-report"></a>[會話詳細資料] 報告
+# <a name="session-details-report"></a>工作階段詳細資報告
 
 新的 Office 365 [**報告**] 儀表板會在您組織中的 Office 365 產品上顯示活動概覽。 它可讓您深入瞭解個別的產品層級報告，讓您更精確地瞭解每個產品內的活動。 例如，您可以使用商務用**Skype 的 [會話詳細資料**] 報告，查看個別使用者的通話體驗的詳細資料。
   

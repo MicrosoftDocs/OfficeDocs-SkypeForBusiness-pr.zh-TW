@@ -15,16 +15,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Optimization
 description: 本主題定義商務用 Skype Online 服務的一組網路效能需求，以及您可以如何選擇使用網際網路或 ExpressRoute，在您的網路和商務用 Skype Online （根據您的網路評估）之間的連線性連通. 如果您決定要部署 Azure ExpressRoute 以用於 Office 365 的專用連線，本檔也提供如何在不同的商務用 Skype Online 部署案例中規劃 ExpressRoute 連線的指導方針。
-ms.openlocfilehash: de093cee8981a50e376a29eda3a38bae396e5ba3
-ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
+ms.openlocfilehash: 2d9192f4dfb27de97527ff584c0ab0a204e20cca
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41111497"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41693068"
 ---
 # <a name="media-quality-and-network-connectivity-performance-in-skype-for-business-online"></a>商務用 Skype Online 中的媒體質量和網路連線效能
 

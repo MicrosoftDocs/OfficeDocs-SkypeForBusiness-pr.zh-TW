@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Setup
 description: 在商務用 Skype Online 中，您可以在現有的會議原則設定中，控制點對點（P2P）檔案傳輸。 不過，這會允許或封鎖使用者傳送檔案給同一個組織中的使用者，或其他組織的聯盟使用者。 遵循下列步驟，您可以封鎖與同盟組織或合作夥伴的 P2P 檔案傳輸。
-ms.openlocfilehash: a92382a2fae3fd439aba4246937f1f6bda3c0b36
-ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
+ms.openlocfilehash: 8c2cc90af2642a9094076c1569eee8b0ec4b15ff
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40962521"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41693038"
 ---
 # <a name="block-point-to-point-file-transfers"></a>封鎖點對點檔案傳輸
 

@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.RgsWorkFlowMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e4ee8abb-e1e5-413c-919d-cd3fb7193840
 ROBOTS: NOINDEX, NOFOLLOW
 description: 回應群組由代理群組、佇列和工作流程所組成。 回應群組工作流程定義回應群組應用程式接收電話撥入時所採取的動作。
-ms.openlocfilehash: dba5d07d922e652e0c80d97bf622fbb51747a00f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: fa7539b3ddda583e9d8b1de7b930c8330a42f334
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36192357"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41690728"
 ---
 # <a name="response-groups-workflow"></a>回應群組工作流程
 
@@ -28,7 +28,7 @@ ms.locfileid: "36192357"
 
 ## <a name="tasks-you-can-perform"></a>您可以執行的工作
 
-您可以從 [**回應群組** - **工作流程**] 頁面執行下列任務:
+您可以從 [**回應群組** - **工作流程**] 頁面執行下列任務：
 
 - 建立或變更查尋群組工作流程
 
@@ -58,6 +58,6 @@ ms.locfileid: "36192357"
 
 - **已啟用**指出是否已啟用工作流程來接收通話。
 
-如需回應群組功能與功能的詳細資訊, 請參閱規劃檔中的[商務用 Skype 伺服器中的回應群組應用程式規劃](../../../plan-your-deployment/enterprise-voice-solution/response-group.md)。 如需使用回應群組工作流程的詳細資料, 請參閱在作業檔中[管理回應群組工作流程](https://technet.microsoft.com/library/42cfccdd-2844-4875-b4e3-813e1df15f08.aspx)。
+如需回應群組功能與功能的詳細資訊，請參閱規劃檔中的[商務用 Skype 伺服器中的回應群組應用程式規劃](../../../plan-your-deployment/enterprise-voice-solution/response-group.md)。 如需使用回應群組工作流程的詳細資料，請參閱在作業檔中[管理回應群組工作流程](https://technet.microsoft.com/library/42cfccdd-2844-4875-b4e3-813e1df15f08.aspx)。
 
 

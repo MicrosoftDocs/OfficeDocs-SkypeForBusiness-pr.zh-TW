@@ -6,23 +6,23 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.UserNew
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 23408002-f83c-4b8a-ac65-6fb0e6bc414e
 ROBOTS: NOINDEX, NOFOLLOW
-description: 您想要做什麼？ 按一下您要執行之任務的連結。
-ms.openlocfilehash: 32982ae80badb4304631a8ea4882a8dddab77e71
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 您要做什麼？ 按一下您要執行之任務的連結。
+ms.openlocfilehash: 8c8290d1c830d51b80f01d02502fedee47bf5aac
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36189613"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41690478"
 ---
-# <a name="users-new-user"></a>使用者: 新使用者
+# <a name="users-new-user"></a>使用者：新使用者
 
-您想要做什麼？ 按一下您要執行之任務的連結。
+您要做什麼？ 按一下您要執行之任務的連結。
 
 - [新增使用者](https://technet.microsoft.com/library/1edd1c1c-307d-450b-abea-33aaf56bdf13.aspx)
 

@@ -14,17 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - ms.lync.lac.OrgPresencePrivacy
 ms.custom:
 - Setup
 description: '瞭解如何為您的使用者設定隱私權模式，讓他們能夠更好地控制人們查看其可用性的方式。 '
-ms.openlocfilehash: 42c902c11cd54d97e94499e23ac769161cfebbb9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e55d1533c8889801eaaf9fc4ba09716b12334b04
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "37642166"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692928"
 ---
 # <a name="configure-presence-privacy-mode"></a>設定目前狀態隱私權模式
 
