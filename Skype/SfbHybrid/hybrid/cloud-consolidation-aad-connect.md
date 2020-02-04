@@ -1,5 +1,5 @@
 ---
-title: 更新 AAD Connect 以包含一個以上的林
+title: 更新 AAD 連線至包含多個樹系
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -14,28 +14,30 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 audience: ITPro
+f1.keywords:
+- NOCSH
 appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-description: 此附錄包含更新 AAD 連線的詳細步驟, 以包含多個林, 做為小組和商務用 Skype 的雲端整合的一部分。
-ms.openlocfilehash: cbb4811d999601524557e7106840a66682565e5f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 本附錄包含更新 AAD 連線至包含在多個樹系的 microsoft Teams 和商務用 Skype 雲端彙總的詳細的步驟。
+ms.openlocfilehash: 3d3d72c14957f0ed8932d95fcd2dbe9ec9c1e37e
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36185488"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41696058"
 ---
-# <a name="update-aad-connect-to-include-more-than-one-forest"></a><span data-ttu-id="5bf54-103">更新 AAD Connect 以包含一個以上的林</span><span class="sxs-lookup"><span data-stu-id="5bf54-103">Update AAD Connect to include more than one forest</span></span>
+# <a name="update-aad-connect-to-include-more-than-one-forest"></a><span data-ttu-id="e06fe-103">更新 AAD 連線至包含多個樹系</span><span class="sxs-lookup"><span data-stu-id="e06fe-103">Update AAD Connect to include more than one forest</span></span>
 
-<span data-ttu-id="5bf54-104">Azure AD Connect 支援[從多個林進行同步](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-topologies)處理。</span><span class="sxs-lookup"><span data-stu-id="5bf54-104">Azure AD Connect supports [syncing from multiple forests](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-topologies).</span></span> <span data-ttu-id="5bf54-105">不過, 它只支援 Azure AD Connect 同步處理到 AAD 的一個實例。</span><span class="sxs-lookup"><span data-stu-id="5bf54-105">However, it supports only one instance of Azure AD Connect syncing to AAD.</span></span> <span data-ttu-id="5bf54-106">因此, 如果 Azure AD 已安裝在一個目錄林中, 則 AAD Connect 的現有實例必須更新, 才能從額外的林進行同步處理。</span><span class="sxs-lookup"><span data-stu-id="5bf54-106">Therefore, in cases where Azure AD is already installed in one forest, the existing instance of AAD Connect must be updated to sync from the additional forest.</span></span>
+<span data-ttu-id="e06fe-104">Azure AD Connect 支援[多個樹系同步處理](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-topologies)。</span><span class="sxs-lookup"><span data-stu-id="e06fe-104">Azure AD Connect supports [syncing from multiple forests](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-topologies).</span></span> <span data-ttu-id="e06fe-105">不過，它支援 Azure AD Connect 同步處理至 AAD 只能有一個執行的個體。</span><span class="sxs-lookup"><span data-stu-id="e06fe-105">However, it supports only one instance of Azure AD Connect syncing to AAD.</span></span> <span data-ttu-id="e06fe-106">因此，在 Azure AD 已安裝在一個樹系的情況下，AAD 連線的現有執行個體必須更新以從其他樹系的同步處理。</span><span class="sxs-lookup"><span data-stu-id="e06fe-106">Therefore, in cases where Azure AD is already installed in one forest, the existing instance of AAD Connect must be updated to sync from the additional forest.</span></span>
 
- - <span data-ttu-id="5bf54-107">如果所有身分識別都只會在兩個目錄林之間呈現一次, 您就可以直接重新執行 AAD 連接嚮導, 選擇 [自訂同步處理選項], 然後在 [連線**您的目錄]** 頁面上, 輸入其他林及憑據的名稱。</span><span class="sxs-lookup"><span data-stu-id="5bf54-107">If all identities are represented only once across both forests (that is, you haven’t made any mail-enabled contacts), then you can simply re-run the AAD Connect wizard, choose “Customize synchronization options,” and then on the **Connect Your Directories** page, enter the name of the additional forest and creds.</span></span><br><br>
- <span data-ttu-id="5bf54-108">![[連線您的目錄] 頁面](../media/cloud-consolidation-connect-your-directories.png)</span><span class="sxs-lookup"><span data-stu-id="5bf54-108">![The Connect your directories page](../media/cloud-consolidation-connect-your-directories.png)</span></span>
- - <span data-ttu-id="5bf54-109">不過, 如果使用者可以在多個目錄中存在, 而且您要合併資料 (例如, 如果連絡人物件存在於與另一個目錄林中的使用者對應的林中), 您將需要卸載 Azure AD Connect 並重新安裝。</span><span class="sxs-lookup"><span data-stu-id="5bf54-109">However, if users can exist in more than one directory and you’ll be merging the data (for example, if contact objects exist in a forest corresponding to users in another forest), you will need to uninstall Azure AD Connect and re-install it.</span></span>  <span data-ttu-id="5bf54-110">這是因為跨目錄林連接規則條件只能在第一次安裝期間進行設定。</span><span class="sxs-lookup"><span data-stu-id="5bf54-110">This is because the cross-forest join rules condition can only be configured during the first install.</span></span> <span data-ttu-id="5bf54-111">這會在下列頁面上完成:</span><span class="sxs-lookup"><span data-stu-id="5bf54-111">This is done on the following page:</span></span><br><br>
- <span data-ttu-id="5bf54-112">![唯一識別您的使用者頁面](../media/cloud-consolidation-uniquely-identifying-your-users.png)</span><span class="sxs-lookup"><span data-stu-id="5bf54-112">![The Uniquely identifying your users page](../media/cloud-consolidation-uniquely-identifying-your-users.png)</span></span>
+ - <span data-ttu-id="e06fe-107">如果這兩個樹系間只有一次表示所有的身分識別 （亦即，您還未做任何擁有郵件功能的連絡人），然後您可以只重新執行 [AAD 連線精靈]，選擇 [「 自訂同步處理選項 」，然後在 [**連線您的目錄**] 頁面中，輸入認證與其他樹系的名稱。</span><span class="sxs-lookup"><span data-stu-id="e06fe-107">If all identities are represented only once across both forests (that is, you haven’t made any mail-enabled contacts), then you can simply re-run the AAD Connect wizard, choose “Customize synchronization options,” and then on the **Connect Your Directories** page, enter the name of the additional forest and creds.</span></span><br><br>
+ <span data-ttu-id="e06fe-108">![[連線目錄頁面](../media/cloud-consolidation-connect-your-directories.png)</span><span class="sxs-lookup"><span data-stu-id="e06fe-108">![The Connect your directories page](../media/cloud-consolidation-connect-your-directories.png)</span></span>
+ - <span data-ttu-id="e06fe-109">不過，如果使用者可以在於超過一個目錄和您將會合併資料 （例如，如果連絡人物件對應至另一個樹系中的使用者樹系中有），則需要解除安裝 Azure AD Connect，並重新安裝它。</span><span class="sxs-lookup"><span data-stu-id="e06fe-109">However, if users can exist in more than one directory and you’ll be merging the data (for example, if contact objects exist in a forest corresponding to users in another forest), you will need to uninstall Azure AD Connect and re-install it.</span></span>  <span data-ttu-id="e06fe-110">這是因為只可以在第一個會安裝期間設定跨樹系聯結的規則條件。</span><span class="sxs-lookup"><span data-stu-id="e06fe-110">This is because the cross-forest join rules condition can only be configured during the first install.</span></span> <span data-ttu-id="e06fe-111">這是在下列頁面：</span><span class="sxs-lookup"><span data-stu-id="e06fe-111">This is done on the following page:</span></span><br><br>
+ <span data-ttu-id="e06fe-112">![唯一識別您的使用者] 頁面](../media/cloud-consolidation-uniquely-identifying-your-users.png)</span><span class="sxs-lookup"><span data-stu-id="e06fe-112">![The Uniquely identifying your users page](../media/cloud-consolidation-uniquely-identifying-your-users.png)</span></span>
 
 
-## <a name="see-also"></a><span data-ttu-id="5bf54-113">另請參閱</span><span class="sxs-lookup"><span data-stu-id="5bf54-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e06fe-113">另請參閱</span><span class="sxs-lookup"><span data-stu-id="e06fe-113">See also</span></span>
 
-[<span data-ttu-id="5bf54-114">團隊與商務用 Skype 的雲端整合</span><span class="sxs-lookup"><span data-stu-id="5bf54-114">Cloud Consolidation for Teams and Skype for Business</span></span>](cloud-consolidation.md)
+[<span data-ttu-id="e06fe-114">針對小組與 Skype for Business 的雲端彙總</span><span class="sxs-lookup"><span data-stu-id="e06fe-114">Cloud Consolidation for Teams and Skype for Business</span></span>](cloud-consolidation.md)
