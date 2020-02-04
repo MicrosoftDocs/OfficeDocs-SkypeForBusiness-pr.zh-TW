@@ -3,6 +3,8 @@ title: Lync Server 2013：呼叫診斷摘要報告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Call Diagnostic Summary Report
 ms:assetid: 9091de56-13e6-440e-9353-f57c10c906fe
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615016(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184789
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e747d257e7c88973790e8fd0c9ba828949248598
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0228af8690fe7170fc4fd77e72f67f6cb3adc08c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40977645"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743033"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -87,7 +89,7 @@ _**主題上次修改日期：** 2012-06-06_
 <thead>
 <tr class="header">
 <th>名稱</th>
-<th>描述</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>
@@ -150,7 +152,7 @@ _**主題上次修改日期：** 2012-06-06_
 <tr class="header">
 <th>名稱</th>
 <th>您可以針對此專案進行排序嗎？</th>
-<th>描述</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>
@@ -188,7 +190,7 @@ _**主題上次修改日期：** 2012-06-06_
 <tr class="header">
 <th>名稱</th>
 <th>您可以針對此專案進行排序嗎？</th>
-<th>描述</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>

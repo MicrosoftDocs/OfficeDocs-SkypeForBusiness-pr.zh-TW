@@ -3,6 +3,8 @@ title: Lync Server 2013：測試整合連絡人存放區存取權
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing Unified Contact Store access
 ms:assetid: 761f46bd-2e14-4f40-82b9-afa1eaa816b0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727309(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969621
 ms.date: 05/16/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ef1d8d8930b9e732faeef02c76d722331c726b67
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 47d5d216a1d7a389f20bf2c59f94baf54636d409
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40975625"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745403"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -62,7 +64,7 @@ _**主題上次修改日期：** 2015-05-15_
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>說明
 
 在 Lync Server 2013 中引入的整合連絡人存放區，可讓系統管理員選擇將使用者的連絡人儲存在 Microsoft Exchange Server 2013 中，而不是在 Lync Server 中。 這可讓使用者除了 Lync 2013 之外，還能在 Outlook Web Access 中存取同一組連絡人。 （或者，您可以繼續在 Lync Server 中儲存連絡人。 在這種情況下，使用者將必須維護兩組不同的連絡人：一個用於 Outlook 與 Outlook Web Access，另一個用於 Lync 2013。）
 

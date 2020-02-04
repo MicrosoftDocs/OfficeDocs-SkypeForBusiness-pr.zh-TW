@@ -3,6 +3,8 @@ title: 驗證拓撲資訊
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Verify topology information
 ms:assetid: aa4c424e-f87c-4be6-8df6-a0cd193b11fc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205151(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185046
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7657bb80d7acb6d48a4027c665fae70e469bb236
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ec6c73f274cb67b527aaf1147f20e83959487255
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40981684"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730833"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -56,7 +58,7 @@ _**主題上次修改日期：** 2012-09-26_
     
     </div>
 
-![拓撲產生器 BackCompatSite 對話方塊][拓撲建立器(images/JJ205243.62751c76-f018-4c6d-bb48-c61ef8974d31(OCS.15).jpg "BackCompatSite] 對話方塊")
+![拓撲產生器的 [BackCompatSite] 對話方塊](images/JJ205243.62751c76-f018-4c6d-bb48-c61ef8974d31(OCS.15).jpg "拓撲產生器的 [BackCompatSite] 對話方塊")
 
 您也可以使用 Lync Server 2013 [控制台] 來查看合併的拓撲。 在 Lync Server 2013 的 [控制台] 中，您可以查看合併後拓撲的每個伺服器 FQDN、池 FQDN 和網站名稱。 合併伺服器的**網站**名稱為**BackCompatSite**。
 
@@ -72,7 +74,7 @@ _**主題上次修改日期：** 2012-09-26_
 
 3.  在 [**狀態**] 索引標籤上，請在 [**網站**] 欄中尋找 [ **BackCompatSite** ]，確認您已合併的伺服器和池都出現。
 
-[ ![Lync Server 控制台]，顯示合併後的拓撲](images/JJ205151.f986ddd4-2040-454d-9389-7f6154b59cc9(OCS.15).jpg "Lync server 控制台，顯示合併的拓撲")
+![顯示合併拓撲的 Lync Server 控制台](images/JJ205151.f986ddd4-2040-454d-9389-7f6154b59cc9(OCS.15).jpg "顯示合併拓撲的 Lync Server 控制台")
 
 若要查看合併池的更多詳細資料，請使用**CsPool** Cmdlet。 除了拓撲結構建立器和 Lync Server 2013 [控制台] 中提供的資訊，此 Cmdlet 還會顯示在 Lync Server 2013 池中執行的服務。
 

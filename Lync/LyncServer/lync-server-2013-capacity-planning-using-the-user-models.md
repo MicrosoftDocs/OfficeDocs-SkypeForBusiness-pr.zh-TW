@@ -3,6 +3,8 @@ title: 使用使用者模型的 Lync Server 2013 容量規劃
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Capacity planning using the user models
 ms:assetid: 902ab23e-94d6-482a-9d6e-c0b28dc3e03d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615015(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733733
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3b7db58e8c6f3e84f95a51ddd393ddca5ec18091
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: cd9b3861e4c84b8df7585ad5cfbdfd5a82359282
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40973961"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736984"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -494,17 +496,17 @@ Microsoft 使用下表中的硬體，在其效能測試期間進行監視與歸�
 <tr class="odd">
 <td><p>CDR 資料庫記錄檔</p></td>
 <td><p>1</p></td>
-<td><p>pplx-2</p></td>
+<td><p>2</p></td>
 </tr>
 <tr class="even">
 <td><p>QoE 資料庫記錄檔</p></td>
 <td><p>1</p></td>
-<td><p>pplx-2</p></td>
+<td><p>2</p></td>
 </tr>
 <tr class="odd">
 <td><p>封存資料庫記錄檔</p></td>
 <td><p>1</p></td>
-<td><p>pplx-2</p></td>
+<td><p>2</p></td>
 </tr>
 </tbody>
 </table>

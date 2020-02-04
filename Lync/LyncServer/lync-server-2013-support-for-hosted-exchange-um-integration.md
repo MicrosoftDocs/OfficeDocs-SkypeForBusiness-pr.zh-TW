@@ -3,6 +3,8 @@ title: Lync Server 2013 主控 Exchange UM 整合支援
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Support for hosted Exchange UM integration
 ms:assetid: c7573ec3-013c-48d9-b59b-2a5427e6da35
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398821(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185376
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 56ba107c9a782acb15ccd8d57f82cf567f2b75e1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 24139ad5294bf908a85b797300397fa8b2ac9140
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40976854"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764379"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +39,7 @@ _**主題上次修改日期：** 2012-09-21_
 
 Lync Server 2013 ExUM 路由應用程式支援在內部部署環境中與 Exchange 整合通訊（UM）整合，其中 Lync Server 2013 與 Exchange UM 都安裝在您的企業內部，或由 a 託管的 Exchange UM服務提供者，如下圖所示。
 
-內部部署 lync ![Server EXCHANGE Um 部署](images/Gg398821.d6498eb9-87ee-40f3-8ecd-852f91546590(OCS.15).jpg "內部部署 LYNC Server exchange um 部署")
+![內部部署 Lync Server Exchange UM 部署](images/Gg398821.d6498eb9-87ee-40f3-8ecd-852f91546590(OCS.15).jpg "內部部署 Lync Server Exchange UM 部署")
 
 支援下列模式：
 

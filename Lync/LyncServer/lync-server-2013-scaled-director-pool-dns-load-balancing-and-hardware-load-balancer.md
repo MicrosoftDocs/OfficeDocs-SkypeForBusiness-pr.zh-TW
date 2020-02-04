@@ -3,6 +3,8 @@ title: 調整式 Director 集區 - DNS 負載平衡與硬體負載平衡器
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Scaled Director pool - DNS load balancing and hardware load balancer
 ms:assetid: a1f6ffc0-9e6e-4217-a923-025c9679e154
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205142(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185023
 ms.date: 03/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1cd92304ca3a1147737958ad9d9fc94a49b2e5e2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 16203f7e291b7957793e71872483c93f2d1d04d0
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40978401"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764991"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +41,7 @@ _**主題上次修改日期：** 2012-10-22_
 
 下列主題說明使用 DNS 負載平衡結合硬體負載平衡來部署控制器池的規劃考慮。 如果您想要使用硬體負載平衡，但不是主管池的 DNS 負載平衡，請參閱[Lync Server 2013 中的 [縮放後的控制器池-硬體負載平衡器](lync-server-2013-scaled-director-pool-hardware-load-balancer.md)]，描述該拓撲的規劃需求。
 
-已縮放的![控制器池](images/JJ205142.35a78a7a-b781-4c8f-951e-168451ba6a65(OCS.15).jpg "縮放控制器池")
+![調整式 Director 集區](images/JJ205142.35a78a7a-b781-4c8f-951e-168451ba6a65(OCS.15).jpg "調整式 Director 集區")
 
 <div>
 

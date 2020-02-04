@@ -3,6 +3,8 @@ title: 將單一使用者移至 [試驗] 池
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Move a single user to the pilot pool
 ms:assetid: 80d5b365-f153-4c61-a148-f9e18ce6e027
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688109(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733708
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 086af622644f8d8285ef5f7be8e17f75ff436000
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e8cb89fde2a62858c3bd9a402207f4b23fd51643
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40976817"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756047"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +39,7 @@ _**主題上次修改日期：** 2012-09-28_
 
 您可以使用 Lync Server 2013 [控制台] 或 [Lync Server 2013 管理命令介面]，將使用者從您的 Office 通訊伺服器 2007 R2 池移至您的 Lync Server 2013 試驗區。 在下列範例中，在 [註冊機構池] 欄中， ** \<[office 通訊伺服器\> ** ] 是 office 通訊伺服器 2007 R2 池，且所有六個使用者都已連線到此池。 使用下列程式將使用者移至 Lync Server 2013 池（使用 Lync Server 2013 控制台和 Lync Server 管理命令介面）。
 
-在 Lync server [控制台]![中搜尋 ocs]使用者(images/JJ688109.d2008fd6-868b-4f26-84cf-57bb69e073d3(OCS.15).jpg "在 Lync server [控制台] 中搜尋 ocs 使用者")
+![在 Lync Server 控制台中搜尋 OCS 使用者](images/JJ688109.d2008fd6-868b-4f26-84cf-57bb69e073d3(OCS.15).jpg "在 Lync Server 控制台中搜尋 OCS 使用者")
 
 <div>
 
@@ -57,7 +59,7 @@ _**主題上次修改日期：** 2012-09-28_
 
 7.  按一下 [**尋找**]，搜尋舊版 Office 通訊伺服器 2007 R2 使用者。
     
-    在 Lync server [控制台]![中搜尋 ocs]使用者(images/JJ688109.09528349-7915-41e1-91b4-6ab5c12b1b38(OCS.15).jpg "在 Lync server [控制台] 中搜尋 ocs 使用者")  
+    ![在 Lync Server 控制台中搜尋 OCS 使用者](images/JJ688109.09528349-7915-41e1-91b4-6ab5c12b1b38(OCS.15).jpg "在 Lync Server 控制台中搜尋 OCS 使用者")  
 
 8.  選取您要移至 Lync Server 2013 池的使用者。 在這個範例中，我們將移動 [使用者 Sara Davis]。
 
@@ -67,7 +69,7 @@ _**主題上次修改日期：** 2012-09-28_
 
 11. 按一下 [**動作**]，然後按一下 [**將選取的使用者移至資源庫**]。 按一下 [確定]****。
     
-    ![在 [移動使用者] 對話方塊中設定目的地池](images/JJ688109.d7dc0759-87c5-4c23-938f-361576621504(OCS.15).jpg "設定 [移動使用者] 對話方塊中的 [目標] 池")  
+    ![在 [移動使用者] 對話方塊中設定目的地集區](images/JJ688109.d7dc0759-87c5-4c23-938f-361576621504(OCS.15).jpg "在 [移動使用者] 對話方塊中設定目的地集區")  
 
 12. 確認使用者的 [**註冊機構池**] 欄現在包含 Lync Server 2013 池，這表示使用者已順利移動
 
@@ -89,7 +91,7 @@ _**主題上次修改日期：** 2012-09-28_
 
 4.  **RegistrarPool**身分識別現在會指向 Lync Server 2013 池。 此身分識別的狀態會確認使用者已順利移動。
     
-    ![Move-csuser Cmdlet 的輸出與](images/JJ205401.bc5d4672-8068-4475-b882-dbd305c801a9(OCS.15).jpg "含身分識別的 move-csuser Cmdlet")的身分識別篩選器輸出  
+    ![具有 Identity 篩選器之 Get-CsUser Cmdlet 的輸出](images/JJ205401.bc5d4672-8068-4475-b882-dbd305c801a9(OCS.15).jpg "具有 Identity 篩選器之 Get-CsUser Cmdlet 的輸出")  
     
     <div>
     

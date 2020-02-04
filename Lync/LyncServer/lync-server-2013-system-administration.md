@@ -3,6 +3,8 @@ title: Lync Server 2013：系統管理
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: System administration
 ms:assetid: 063eb962-b96a-4699-8579-bb7125112df4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720318(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969577
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d62526daf43308b4ed38538e5ea16e15b271fc9a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8e10f0d340ec0d291d0b184b8649f8f132683e08
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40976460"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764279"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -55,7 +57,7 @@ _**主題上次修改日期：** 2014-08-18_
 
 **系統疑難排解流程圖**
 
-![系統疑難排解]流程圖(images/Dn720318.869d0b89-6473-4b1f-9d90-59604b4b8e98(OCS.15).jpg "系統疑難排解流程圖")
+![系統疑難排解流程圖](images/Dn720318.869d0b89-6473-4b1f-9d90-59604b4b8e98(OCS.15).jpg "系統疑難排解流程圖")
 
   - **分類及優先順序**   ：此工作通常是由服務台所執行。 例如，問題可能會組成軟體問題或硬體問題。 接著該問題會傳送給適當的支援小組以進行調查。 判斷問題優先順序的規則，以及回應時間及解決時間，通常是在 SLA 中定義。
 

@@ -3,6 +3,8 @@ title: Lync Server 2013：tblPrincipal
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: tblPrincipal
 ms:assetid: 79a24502-b4ce-41f0-8979-8caddf535338
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558667(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184571
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c24f963b34ef6184675e724496d7d45ca1d40d27
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 25de9273fb6e153bb154bf0062edd96cb67bbac2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40975409"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41731533"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -49,7 +51,7 @@ tblPrincipal 包含所有的承擔者，包括使用者、資料夾和群組。
 <tr class="header">
 <th>左欄</th>
 <th>類型</th>
-<th>描述</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>
@@ -161,7 +163,7 @@ tblPrincipal 包含所有的承擔者，包括使用者、資料夾和群組。
 <thead>
 <tr class="header">
 <th>左欄</th>
-<th>描述</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>

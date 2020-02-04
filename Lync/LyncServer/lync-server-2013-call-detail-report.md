@@ -3,6 +3,8 @@ title: Lync Server 2013：通話詳細資料包告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Call Detail Report
 ms:assetid: 38862e35-3fec-41b9-a035-0b301942d446
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558637(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183843
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a258a5c228cfe96218c9c694b05055cc5ebd7eb6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ffbfa8c3553b33f75b0f014265f93cccf46e7de6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40977259"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743153"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -123,7 +125,7 @@ _**主題上次修改日期：** 2014-02-05_
 <tr class="header">
 <th>名稱</th>
 <th>您可以針對此專案進行排序嗎？</th>
-<th>描述</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>

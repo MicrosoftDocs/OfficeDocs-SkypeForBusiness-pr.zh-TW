@@ -3,6 +3,8 @@ title: Lync Server 2013：以位置為基礎的路由與諮詢式來電轉接
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Location-Based Routing and consultative call transfers
 ms:assetid: b12460c2-36c8-481f-b867-fe10dc1c0bdf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362836(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 56335089
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d7c7b73efb670c5569b8c4600c1759e981cda211
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4e433baf180b8e4abf50ec374848204bf6628eb0
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40974311"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765331"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +41,7 @@ _**主題上次修改日期：** 2013-07-31_
 
 **諮詢式通話轉移通話流程**
 
-在會議圖表中![，以位置為]基礎的會議圖表(images/Dn362836.e4d43d6f-23d2-49c9-b12b-15248a743f92(OCS.15).jpg "位置")路由
+![會議圖表的以位置為基礎的路由](images/Dn362836.e4d43d6f-23d2-49c9-b12b-15248a743f92(OCS.15).jpg "會議圖表的以位置為基礎的路由")
 
 當啟用位置路由的使用者啟動 PSTN 端點的諮詢式來電轉接時（如上圖所示），這會產生兩個作用中的通話、PSTN 使用者與 Lync 使用者 A 之間的呼叫，以及 Lync 使用者 A 和 Lync 使用者 B 之間的另一個通話。下列行為是由以位置為基礎的路由會議應用程式強制執行：
 

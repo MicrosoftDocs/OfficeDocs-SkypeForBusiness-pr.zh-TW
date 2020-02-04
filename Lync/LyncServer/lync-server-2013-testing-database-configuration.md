@@ -3,6 +3,8 @@ title: Lync Server 2013：測試資料庫配置
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing database configuration
 ms:assetid: 60f7fcd2-5efe-4791-b159-b0f9bf39a41b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727307(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969606
 ms.date: 07/07/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 805b62e234f7a5469d3af3677ba81478fb3abc8f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6fcf6679481d4f35a457eb72960a8ae999b004d3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40974478"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745823"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -62,7 +64,7 @@ _**主題上次修改日期：** 2016-07-07_
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>說明
 
 **CsDatabase** Cmdlet 會驗證一或多個 Lync Server 2013 資料庫的連線能力。 在執行時， **Test CsDatabase** Cmdlet 會讀取 Lync Server 拓撲，嘗試連線至相關資料庫，然後傳回每次嘗試的成功或失敗。 如果可以建立連線，則 Cmdlet 也會傳回此類資訊，例如資料庫名稱、SQL Server 版本資訊，以及任何已安裝鏡像資料庫的位置。
 

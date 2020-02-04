@@ -3,6 +3,8 @@ title: Lync Server 2013：tblPrincipalType
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: tblPrincipalType
 ms:assetid: 32e1c1d6-80f4-4624-bf4e-b4c77d3982fa
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558633(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183787
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 725d097e1e2e75b6430974a4f133cb5fa4130346
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6731d0bcda6e4e66b1b498a5f1bf91023627b1f0
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40982495"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764083"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -49,7 +51,7 @@ tblPrincipalType 包含主要類型來分類 tblPrincipal 資料表中的內容�
 <tr class="header">
 <th>左欄</th>
 <th>類型</th>
-<th>描述</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>
@@ -87,7 +89,7 @@ tblPrincipalType 包含主要類型來分類 tblPrincipal 資料表中的內容�
 <thead>
 <tr class="header">
 <th>左欄</th>
-<th>描述</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>
@@ -112,7 +114,7 @@ tblPrincipalType 包含主要類型來分類 tblPrincipal 資料表中的內容�
 <tr class="header">
 <th>標識號</th>
 <th>角色</th>
-<th>描述</th>
+<th>說明</th>
 <th>使用者</th>
 </tr>
 </thead>
@@ -124,7 +126,7 @@ tblPrincipalType 包含主要類型來分類 tblPrincipal 資料表中的內容�
 <td></td>
 </tr>
 <tr class="even">
-<td><p>pplx-2</p></td>
+<td><p>2</p></td>
 <td><p>AnyUser</p></td>
 <td><p>使用者類型的一般主體。 在 tblPrincipal 表格中未使用。</p></td>
 <td><p>是</p></td>

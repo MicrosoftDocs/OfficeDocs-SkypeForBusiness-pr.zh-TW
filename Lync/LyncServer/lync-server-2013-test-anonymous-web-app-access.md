@@ -3,6 +3,8 @@ title: Lync Server 2013：測試匿名 Web 應用程式存取權
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Test anonymous Web App access
 ms:assetid: 92f691cd-e05e-4bab-beb5-251d4b837a19
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn767949(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969630
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 701954a872645e80d6aac82cab1fbf5745ad6984
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8aabac9e106c325b7b1b964e6e594bb2b05ef85c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40982440"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746263"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -62,7 +64,7 @@ _**主題上次修改日期：** 2014-06-07_
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>說明
 
 Test CsWebAppAnonymous Cmdlet 會驗證匿名使用者是否可以使用 Lync Web App 加入 Lync Server 會議。 當您執行 Cmdlet 時，測試 CsWebAppAnonymous 會與 Web 票證服務聯絡，以取得匿名使用者的 Web 票證。 如果 Cmdlet 成功取得此票證，測試 CsWebAppAnonymous 就會與 Lync Server 取得聯繫，並嘗試建立獨立的會議以進行立即訊息、應用程式共用及資料共同作業。
 

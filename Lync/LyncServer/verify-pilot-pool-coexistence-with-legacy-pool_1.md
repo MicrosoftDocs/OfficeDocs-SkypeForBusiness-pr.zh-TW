@@ -3,6 +3,8 @@ title: 驗證試驗集區與舊版集區共存
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Verify pilot pool coexistence with legacy pool
 ms:assetid: 597d0fa6-ca04-4521-b1c2-72d7f35ecd08
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204914(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184209
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f67b113a4619d90345df9858f348d663383066d7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7585970a53ffd94959653555dad8a02724ba2f03
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40975469"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730883"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,7 +47,7 @@ _**主題上次修改日期：** 2012-09-28_
 
 3.  確定 Office 通訊伺服器 2007 R2 服務正在該池中執行。
     
-    ![Office 通訊伺服器 2007 R2 管理主控台](images/JJ721906.76897b6d-f433-47d2-930d-0816fc30a3c2(OCS.15).jpg "office 通訊伺服器 2007 R2 系統管理主控台")  
+    ![Office Communications Server 2007 R2 管理主控台](images/JJ721906.76897b6d-f433-47d2-930d-0816fc30a3c2(OCS.15).jpg "Office Communications Server 2007 R2 管理主控台")  
 
 </div>
 
@@ -61,7 +63,7 @@ _**主題上次修改日期：** 2012-09-28_
 
 4.  確認您部署的伺服器存在於您的試驗區池中。
     
-    ![Lync Server 控制台拓撲頁面][(images/JJ204914.a3d1ba5f-c1a7-45e8-b9a5-7cb07b01af8c(OCS.15).jpg "Lync server 控制台拓撲] 頁面")  
+    ![[Lync Server 控制台拓撲] 頁面](images/JJ204914.a3d1ba5f-c1a7-45e8-b9a5-7cb07b01af8c(OCS.15).jpg "[Lync Server 控制台拓撲] 頁面")  
 
 </div>
 
@@ -73,7 +75,7 @@ _**主題上次修改日期：** 2012-09-28_
 
 2.  確認列出的服務與下圖中的清單相符。
     
-    ![顯示 [lync services 已啟動]服務] 頁面的 [服務] 頁面，(images/JJ204914.fd35d54a-2ab6-4c09-b5e9-fd5bf10f6f51(OCS.15).jpg "顯示 lync services 已啟動")  
+    ![顯示已啟動 Lync 服務的服務頁面](images/JJ204914.fd35d54a-2ab6-4c09-b5e9-fd5bf10f6f51(OCS.15).jpg "顯示已啟動 Lync 服務的服務頁面")  
 
 </div>
 

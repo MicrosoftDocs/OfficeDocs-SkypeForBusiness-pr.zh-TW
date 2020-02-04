@@ -3,6 +3,8 @@ title: Lync Server 2013：測試 UCWA 會議
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing UCWA conferencing
 ms:assetid: 62b3866a-0759-4b1f-99ec-5a68d6a74f00
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727306(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969610
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9b05b67f6f235cdcf3153149c9bd2373c30815d9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9496b2a860f0a8272d6eb98df6a2c897aa245ec9
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40974369"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745393"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -62,7 +64,7 @@ _**主題上次修改日期：** 2014-11-03_
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>說明
 
 **CsUcwaConference** Cmdlet 會確認一組測試使用者可以使用整合通訊 Web API （UCWA）排程、加入並進行線上會議。 若要這樣做，此 Cmdlet 會使用 Lync Server web ticket 服務來驗證這兩個測試使用者，然後使用 Lync Server 進行註冊。 然後，該 Cmdlet 會使用召集人認證開始會議，並邀請參與者加入會議。 加入會議之後，**測試 CsUcwaConference** Cmdlet 會驗證使用者是否可以執行 exchange 立即訊息和執行池等動作，然後中斷會議連線並登出兩個測試使用者。 當測試完成時，也會刪除排程的會議。
 

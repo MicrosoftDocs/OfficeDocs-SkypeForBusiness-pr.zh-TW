@@ -3,6 +3,8 @@ title: Lync Server 2013：在 IIS 虛擬目錄上確認或設定驗證和憑證
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Verify or configure authentication and certification on IIS virtual directories
 ms:assetid: 3ca90be0-1d64-447c-807a-3a2ee3bf625e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429702(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183883
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0ae692f788d906d01852990490ace01f67eebe63
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 48399ed2a6eba53707218295adcd1cbd11a5e32c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40975420"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742153"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -74,7 +76,7 @@ _**主題上次修改日期：** 2012-05-25_
     
     [輸出] 是電腦個人憑證存放區中目前在伺服器上的憑證清單。 請注意，在結合的憑證（也就是預設、web 服務內部和 web 服務外部使用相同的憑證）中，您會看到 Use 屬性會以預設、WebServicesInternal 和 WebServicesExternal 來填入。 此外，每個使用類型的 Thumbprint 屬性都是相同的。 以下範例顯示 CsCertificate 的輸出範例：
     
-    目前![scert 狀態的 CsCertificate 資訊在](images/Gg429702.664f6326-6cd5-48e2-8235-fc3950ea43b4(OCS.15).jpg "目前的 scert 狀態上取得 CsCertificate 資訊")
+    ![目前 scert 狀態的 Get-CsCertificate 資訊](images/Gg429702.664f6326-6cd5-48e2-8235-fc3950ea43b4(OCS.15).jpg "目前 scert 狀態的 Get-CsCertificate 資訊")
 
 6.  在 Lync Server 管理命令介面中，輸入下列內容：
     
@@ -93,7 +95,7 @@ _**主題上次修改日期：** 2012-05-25_
     
     </div>
     
-    使用 request-(images/Gg429702.9e59a657-fa75-4454-8fd3-57c81e829f7b(OCS.15).jpg "CsCertifica 從 cert 要求")![使用 CsCertifica 輸出的 cert 要求輸出]
+    ![使用 Request-CsCertifica 從 cert 要求輸出](images/Gg429702.9e59a657-fa75-4454-8fd3-57c81e829f7b(OCS.15).jpg "使用 Request-CsCertifica 從 cert 要求輸出")
 
 7.  在 Lync Server 管理命令介面中，輸入下列內容：
     
@@ -105,7 +107,7 @@ _**主題上次修改日期：** 2012-05-25_
     
     CsCertificate Cmdlet 的輸出會顯示相同的憑證（由憑證指紋所識別）會指派給預設、WebServicesExternal 和 WebServicesInternal 用法。
     
-    ![從 CsCertificate 在 Iis WebExt 上]從 Set-(images/Gg429702.dd451c9d-7b49-4408-8071-c868cb1e678c(OCS.15).jpg "CSCERTIFICATE 輸出在 iis WebExt")上的輸出
+    ![IIS WebExt 之 Set-CsCertificate 的輸出](images/Gg429702.dd451c9d-7b49-4408-8071-c868cb1e678c(OCS.15).jpg "IIS WebExt 之 Set-CsCertificate 的輸出")
 
 </div>
 
