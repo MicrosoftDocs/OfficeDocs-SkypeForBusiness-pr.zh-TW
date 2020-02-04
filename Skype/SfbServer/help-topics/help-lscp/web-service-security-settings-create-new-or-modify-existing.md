@@ -7,22 +7,22 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.SecWebSvcEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eddda5af-ddee-4ded-9c70-a07af0f8d14d
-description: 您想要做什麼？ 按一下您要執行之任務的連結。
-ms.openlocfilehash: 0533ae864c8b065e6f3147d7034bd9c9577075b3
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 您要做什麼？ 按一下您要執行之任務的連結。
+ms.openlocfilehash: ee66ce32f6676b1756fd73ecbfdb3cb5d61b2e99
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36193631"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41685536"
 ---
-# <a name="web-service-security-settings-create-new-or-modify-existing"></a>Web 服務安全性設定: [建立新的] 或 [修改現有的]
+# <a name="web-service-security-settings-create-new-or-modify-existing"></a>Web 服務安全性設定：建立新的或編輯現有設定
 
-您想要做什麼？ 按一下您要執行之任務的連結。
+您要做什麼？ 按一下您要執行之任務的連結。
 
 - [在商務用 Skype Server 2015 中管理 Web 服務配置設定](../../manage/authentication/web-service-configuration-settings.md)
 
@@ -30,5 +30,5 @@ ms.locfileid: "36193631"
 
 - [刪除 Web 服務](https://technet.microsoft.com/library/c2b96f4c-4b07-48e6-9ca6-55bc0e0cf5a1.aspx)
 
-如需使用商務用 Skype Server [控制台] 所能執行的不同程式的詳細資訊, 請參閱[管理商務用 Skype server 2015](../../manage/manage.md)。
+如需使用商務用 Skype Server [控制台] 所能執行的不同程式的詳細資訊，請參閱[管理商務用 Skype server 2015](../../manage/manage.md)。
 

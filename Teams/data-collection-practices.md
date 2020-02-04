@@ -1,5 +1,5 @@
 ---
-title: 資料收集做法
+title: 資料收集方式
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,17 +16,18 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Legal
 hideEdit: true
 description: Microsoft 會收集人口普查、使用方式及錯誤資料，以瞭解商務用 Skype 的使用方式，以及使用者遇到問題的位置。 資料可用來規劃產品的改良功能。
-ms.openlocfilehash: d5e4e72ac06eb0638ed25dbf48321afd22b503ed
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: e84946fd8c61daad7e16f8f7e248f4a0e06c2ae4
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571843"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41680460"
 ---
 # <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>商務用 Skype 和 Microsoft 團隊資料收集做法
 
@@ -118,4 +119,4 @@ ms.locfileid: "37571843"
 ## <a name="related-topics"></a>相關主題
 [客戶經驗改進計畫](https://www.microsoft.com/products/ceip/default.mspx)
 
-[適用于音訊會議與通話方案的國家和地區可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[音訊會議與通話方案的適用國家/地區](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

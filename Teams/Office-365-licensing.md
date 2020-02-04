@@ -15,16 +15,16 @@ ms.custom:
 - NewAdminCenter_Update
 ms.collection:
 - M365-collaboration
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.voice.resourceaccounts.tooltip.phonenumber
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cf2671a1a637141abfc25033173ba4853cede605
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 29ad7a18c5b666a3dcd8c29c34c08e2a7c8b75b2
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569831"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41681420"
 ---
 <a name="office-365-licensing-for-microsoft-teams"></a>Microsoft 團隊的 Office 365 授權
 ========================================
@@ -35,8 +35,8 @@ ms.locfileid: "37569831"
 
 |小型企業方案  |企業方案  |教育方案  |開發人員計畫 |
 |---------|---------|---------|---------|
-|Office 365 商務基本版     |Office 365 企業版 E1  |Office 365 教育版 |Office 365 開發人員     |
-|Office 365 商務版     |Office 365 企業版 E3         |Office 365 教育版 Plus         |      |
+|Office 365 商務基本版     |Office 365 Enterprise E1  |Office 365 教育版 |Office 365 開發人員     |
+|Office 365 商務進階版     |Office 365 企業版 E3         |Office 365 教育版 Plus         |      |
 |商務用 Microsoft 365     |Office 365 企業版 E4 （已停用）         |Office 365 教育版 E3 （已停用）         |  |
 |     |Office 365 企業版 E5         |Office 365 教育版 E5  | 
 |     |Office 365 企業版 F1 |    |     | 

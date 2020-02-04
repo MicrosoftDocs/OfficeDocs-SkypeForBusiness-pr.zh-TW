@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.FrontEndGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8a5f21d0-f6c8-4907-9958-5ca36f702542
 description: 為編輯現有前端集區或 Standard Edition Server 的設定，我們為您提供了下列幾個區段：
-ms.openlocfilehash: bd4cbb507bff025f7133673c25f59beada37aeb5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8533d8be1e128b34d1fd8bf9280c1704a585fd46
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36189913"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684676"
 ---
 # <a name="front-end-general-settings-expander"></a>前端一般設定展開工具
 
@@ -101,7 +101,7 @@ ms.locfileid: "36189913"
 在 [內部 Web 服務]**** 中，指定下列項目：
 
 > [!CAUTION]
-> 如果您有多個前端池或前端伺服器, 則外部 Web 服務 FQDN 必須是唯一的。 例如, 如果您將前端伺服器的外部 Web 服務 FQDN 定義為**pool01.contoso.com**, 則無法將**pool01.contoso.com**用於另一個前端池或前端伺服器。 如果您也要部署控制器, 則針對任何主管或主管池所定義的外部 Web 服務 FQDN, 都必須是與任何其他控制器或主管池 (以及來自任何前端池或前端伺服器) 都是唯一的。 如果您決定使用自行定義的 FQDN 來覆寫內部 web 服務, 則每個 FQDN 都必須是與任何其他前端池、導演或控制器池都是唯一的。
+> 如果您有多個前端池或前端伺服器，則外部 Web 服務 FQDN 必須是唯一的。 例如，如果您將前端伺服器的外部 Web 服務 FQDN 定義為**pool01.contoso.com**，則無法將**pool01.contoso.com**用於另一個前端池或前端伺服器。 如果您也要部署控制器，則針對任何主管或主管池所定義的外部 Web 服務 FQDN，都必須是與任何其他控制器或主管池（以及來自任何前端池或前端伺服器）都是唯一的。 如果您決定使用自行定義的 FQDN 來覆寫內部 web 服務，則每個 FQDN 都必須是與任何其他前端池、導演或控制器池都是唯一的。
 
 - 如果您選取 [覆寫 FQDN]****，您可以為集區上的 [內部 Web]**** 服務識別指定不同的 FQDN。依預設，此設定是為前端集區定義的現行集區名稱。
 
@@ -111,7 +111,7 @@ ms.locfileid: "36189913"
 
 - 外部 Web 服務的 FQDN。此處指定的 FQDN 通常會依您外部連線的需求 (例如反向 Proxy) 而定義。
 
-- 部署所需的 HTTP 與 HTTPS 之聆聽連接埠與發行的連接埠。 HTTPS 的埠8080的預設設定與 HTTPS 的埠4443最初定義。 您可以根據您反向 Proxy 與外部網路的需求，為聆聽連接埠變更這些設定。 已發佈的埠會設定為 HTTP 的埠 80, 以及 HTTPS 的埠443的預設值。 這些值決定該池會偵聽傳入要求的埠。 通常不需要變更這些功能, 除非在該池有埠需求衝突的情況下。 需要使用相同埠值的內部和外部發佈埠。 這不是衝突。
+- 部署所需的 HTTP 與 HTTPS 之聆聽連接埠與發行的連接埠。 HTTPS 的埠8080的預設設定與 HTTPS 的埠4443最初定義。 您可以根據您反向 Proxy 與外部網路的需求，為聆聽連接埠變更這些設定。 已發佈的埠會設定為 HTTP 的埠80，以及 HTTPS 的埠443的預設值。 這些值決定該池會偵聽傳入要求的埠。 通常不需要變更這些功能，除非在該池有埠需求衝突的情況下。 需要使用相同埠值的內部和外部發佈埠。 這不是衝突。
 
 ### <a name="mediation-server"></a>中繼伺服器
 

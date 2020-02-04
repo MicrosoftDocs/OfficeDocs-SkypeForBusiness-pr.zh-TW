@@ -1,5 +1,5 @@
 ---
-title: IP 版本 (計畫工具)
+title: IP 版本（計畫工具）
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -7,24 +7,24 @@ manager: serdars
 ms.date: 4/6/2016
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.plan.IPVersion
 - ms.lync.plan.IPVersion
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: df92d228-de60-4025-b249-ad957130ef7b
-description: 在商務用 Skype Server 2015 中設定 IP 位址時, 有三個選項可供您選擇。 您可以將商務用 Skype Server 2015 設定為僅支援 IP 版本 4 (IPv4)、僅限 IP 版本 6 (IPv6), 或是兩者的組合 (稱為雙堆疊)。
-ms.openlocfilehash: a454881368e86cdd47fe23ce2ea60ec8cfc7b207
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 在商務用 Skype Server 2015 中設定 IP 位址時，有三個選項可供您選擇。 您可以將商務用 Skype Server 2015 設定為僅支援 IP 版本4（IPv4）、僅限 IP 版本6（IPv6），或是兩者的組合（稱為雙堆疊）。
+ms.openlocfilehash: 759f26f5b8ec282e033fafd6687bc838b2a9517c
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188452"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684206"
 ---
-# <a name="ip-version-planning-tool"></a>IP 版本 (計畫工具)
+# <a name="ip-version-planning-tool"></a>IP 版本（計畫工具）
  
-在商務用 Skype Server 2015 中設定 IP 位址時, 有三個選項可供您選擇。 您可以將商務用 Skype Server 2015 設定為僅支援 IP 版本 4 (IPv4)、僅限 IP 版本 6 (IPv6), 或是兩者的組合 (稱為雙堆疊)。
+在商務用 Skype Server 2015 中設定 IP 位址時，有三個選項可供您選擇。 您可以將商務用 Skype Server 2015 設定為僅支援 IP 版本4（IPv4）、僅限 IP 版本6（IPv6），或是兩者的組合（稱為雙堆疊）。
   
-如需有關如何選擇 IP 基礎結構的詳細資訊, 請參閱[在商務用 Skype 中規劃 IPv6](../../plan-your-deployment/network-requirements/ipv6.md)。
+如需有關如何選擇 IP 基礎結構的詳細資訊，請參閱[在商務用 Skype 中規劃 IPv6](../../plan-your-deployment/network-requirements/ipv6.md)。
   
 

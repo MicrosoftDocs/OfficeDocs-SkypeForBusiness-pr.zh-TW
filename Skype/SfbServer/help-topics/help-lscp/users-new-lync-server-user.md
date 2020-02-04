@@ -7,22 +7,22 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.UserNew
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 23408002-f83c-4b8a-ac65-6fb0e6bc414e
-description: 您想要做什麼？ 按一下您要執行之任務的連結。
-ms.openlocfilehash: b5ae9fb2aeb54926f0987feb7be16cbc71f785cc
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 您要做什麼？ 按一下您要執行之任務的連結。
+ms.openlocfilehash: 3a126e5c7e557c45842b0db1160acd05f8c81878
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36192314"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41685626"
 ---
-# <a name="users-new-lync-server-user"></a>使用者: 新的 Lync Server 使用者
+# <a name="users-new-lync-server-user"></a>使用者：新增 Lync Server 使用者
 
-您想要做什麼？ 按一下您要執行之任務的連結。
+您要做什麼？ 按一下您要執行之任務的連結。
 
 - [將新使用者新增至 Lync Server 2010](https://technet.microsoft.com/library/1edd1c1c-307d-450b-abea-33aaf56bdf13.aspx)
 
@@ -50,5 +50,5 @@ ms.locfileid: "36192314"
 
 - [指派每個使用者的持續聊天原則](https://technet.microsoft.com/library/e22168f2-fde1-4f0a-b194-1fc881436822.aspx)
 
-如需使用商務用 Skype Server [控制台] 所能執行的不同程式的詳細資訊, 請參閱[管理商務用 Skype server 2015](../../manage/manage.md)。
+如需使用商務用 Skype Server [控制台] 所能執行的不同程式的詳細資訊，請參閱[管理商務用 Skype server 2015](../../manage/manage.md)。
 

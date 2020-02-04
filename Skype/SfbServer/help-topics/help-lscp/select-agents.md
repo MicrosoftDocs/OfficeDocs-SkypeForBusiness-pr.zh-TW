@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.RgsSelAgent
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b5cf912b-8273-4c2c-a1e5-f25530b264d0
 description: '[代理程式] 是指派給回應群組通話的使用者。 回應群組必須獲派一個代理人群組，識別要接聽回應群組電話的代理人。 建立代理人群組的方法之一，是藉由選取符合資格的使用者來定義自訂群組。 已啟用適用于商務用 Skype Server 和企業語音的合格使用者。'
-ms.openlocfilehash: 4e80e99403b6b736722cf94ce37798a651402d03
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 74110e23778813390b89fe4fa727a1bf3b09cf8b
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36193023"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41685976"
 ---
 # <a name="select-agents"></a>選取代理人
 
@@ -30,9 +30,9 @@ ms.locfileid: "36193023"
 
 下列清單說明 [選取代理人]**** 對話方塊中的控制項。
 
-- **尋找**搜尋使用者的 SIP 位址或顯示名稱。 輸入全部或部分的位址或名稱。 [搜尋] 方塊保持空白, 以顯示所有已啟用商務用 Skype Server 和企業語音的使用者。
+- **尋找**搜尋使用者的 SIP 位址或顯示名稱。 輸入全部或部分的位址或名稱。 [搜尋] 方塊保持空白，以顯示所有已啟用商務用 Skype Server 和企業語音的使用者。
 
-- **要顯示的使用者數目上限**變更顯示的傳回結果數。 如果您預計有許多結果, 請使用這個計數器來限制搜尋。
+- **要顯示的使用者數目上限**變更顯示的傳回結果數。 如果您預計有許多結果，請使用這個計數器來限制搜尋。
 
 下列清單說明 [選取代理人]**** 對話方塊中的欄位。
 

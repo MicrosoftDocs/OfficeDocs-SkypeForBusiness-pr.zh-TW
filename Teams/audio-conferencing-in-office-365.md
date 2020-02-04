@@ -17,15 +17,15 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: ms.teamsadmincenter.audioconferencing.overview
+f1.keywords: ms.teamsadmincenter.audioconferencing.overview
 ms.custom:
 - Audio Conferencing
-ms.openlocfilehash: 5b7cb2e92a3246b7a3f5098e91c3ab84ad19bbf0
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: dcfa7b1aeafea515720d778ac6a6c6b3fd9f5aec
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925594"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684156"
 ---
 # <a name="audio-conferencing-in-office-365"></a>Office 365 的音訊會議
 Office 365 中的音訊會議可讓使用者從手機撥入會議。 音訊會議可讓最多250的電話出席者。
@@ -40,7 +40,7 @@ Office 365 中的音訊會議可讓使用者從手機撥入會議。 音訊會�
 - 使用者可以使用藍牙裝置加入會議「手閑」。
 - 人們能找到更簡單且更方便的情況。
 
-您只需要為規劃排程或領導會議的人員設定音訊會議。 在撥入的會議出席者不需要獲指派任何授權或其他設定。
+您只需要為打算排程或主持會議的人員設定音訊會議即可。 在撥入的會議出席者不需要獲指派任何授權或其他設定。
 
 出席者加入會議之後，他們也可以撥出會議，並邀請其他來電者加入商務用 Skype 或 Microsoft 團隊會議。 請參閱[從團隊會議撥出，讓其他人可以加入，](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md)或[從商務用 Skype 會議撥出，讓其他人可以加入該](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it)會議。
 

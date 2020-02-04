@@ -1,5 +1,5 @@
 ---
-title: 音訊會議支援的語言
+title: 音訊會議的支援語言
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,18 +17,19 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: 尋找每個國家或地區的電話撥入式會議語言，以及指派的區域性識別碼（en-us、da-深、de 等）
-ms.openlocfilehash: b49b5e942229244d2a37fb632badcb580f98ca61
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: c9f4abcb7a4149baa1d3de7d51f45cfc75d0be06
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37515755"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684126"
 ---
-# <a name="audio-conferencing-supported-languages"></a>音訊會議支援的語言
+# <a name="audio-conferencing-supported-languages"></a>音訊會議的支援語言
 
 當您在 Office 365 中設定和設定音訊會議時，您可以選取當來電者撥入商務用 Skype 或 Microsoft 團隊會議時所使用的主要和次要（最多4個）語言。 以下是音訊會議支援語言的清單： 
   
@@ -41,14 +42,14 @@ ms.locfileid: "37515755"
 |:-----|:-----|:-----|
 |阿拉伯文  <br/> |沙烏地阿拉伯  <br/> |ar-SA  <br/> |
 |保加利亞文  <br/> |保加利亞  <br/> |bg-BG  <br/> |
-|Cantonese  <br/> |香港特別行政區  <br/> |zh-cn&platform-HK  <br/> |
-|中文（簡體）  <br/> |業務員  <br/> |zh-cn&platform-CN  <br/> |
-|中文（繁體）  <br/> |臺灣  <br/> |zh-cn&platform-幼圓  <br/> |
-|克羅地亞語  <br/> |克羅地亞  <br/> |hr-HR  <br/> |
-|捷克文  <br/> |捷克共和國  <br/> |cs-CZ  <br/> |
+|Cantonese  <br/> |香港  <br/> |zh-cn&platform-HK  <br/> |
+|中文（簡體）  <br/> |中國  <br/> |zh-cn&platform-CN  <br/> |
+|中文（繁體）  <br/> |台灣  <br/> |zh-cn&platform-幼圓  <br/> |
+|克羅地亞語  <br/> |克羅埃西亞  <br/> |hr-HR  <br/> |
+|捷克文  <br/> |捷克  <br/> |cs-CZ  <br/> |
 |丹麥文  <br/> |丹麥  <br/> |da-深  <br/> |
 |荷蘭文  <br/> |荷蘭  <br/> |nl-nl&platform-NL-NL&PLATFORM  <br/> |
-|英語  <br/> |澳大利亞  <br/> |en-AU  <br/> |
+|英語  <br/> |澳洲  <br/> |en-AU  <br/> |
 |英語  <br/> |英國  <br/> |en GB  <br/> |
 |英語  <br/> |美國  <br/> |en-us  <br/> |
 |愛沙尼亞文  <br/> |愛沙尼亞  <br/> |et-EE  <br/> |
@@ -57,7 +58,7 @@ ms.locfileid: "37515755"
 |法語  <br/> |加拿大  <br/> |fr-CA  <br/> |
 |法語  <br/> |法國  <br/> |fr-fr  <br/> |
 |德語  <br/> |德國  <br/> |de  <br/> |
-|喬治亞語  <br/> |格魯吉亞  <br/> |ka-GE  <br/> |
+|喬治亞語  <br/> |喬治亞  <br/> |ka-GE  <br/> |
 |希臘文  <br/> |希臘  <br/> |el-GR  <br/> |
 |希伯來文  <br/> | 以色列 <br/> | 他-IL <br/> |
 |印度文  <br/> |印度  <br/> |你好  <br/> |
@@ -66,7 +67,7 @@ ms.locfileid: "37515755"
 |義大利文  <br/> |義大利  <br/> | it （it） <br/> |
 |日語  <br/> |日本  <br/> |ja-jp  <br/> |
 |朝鮮語  <br/> |韓國  <br/> |ko-KR  <br/> |
-|拉脫維亞文  <br/> |拉托維亞  <br/> |lv-LV  <br/> |
+|拉脫維亞文  <br/> |拉脫維亞  <br/> |lv-LV  <br/> |
 |立陶宛文  <br/> |立陶宛  <br/> |lt  <br/> |
 |馬來文  <br/> |馬來西亞  <br/> |ms-我的  <br/> |
 |挪威文（博克瑪律文）  <br/> |挪威  <br/> |nb-否  <br/> |
@@ -111,6 +112,6 @@ ms.locfileid: "37515755"
   
 ## <a name="related-topics"></a>相關主題
 
-[在 Office 365 中試用或購買音訊會議](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[試用或購買 Office 365 的音訊會議](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
 
 

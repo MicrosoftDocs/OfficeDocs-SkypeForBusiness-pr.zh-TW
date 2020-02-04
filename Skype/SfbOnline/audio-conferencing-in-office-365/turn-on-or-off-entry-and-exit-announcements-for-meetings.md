@@ -16,16 +16,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: '瞭解如何使用商務用 Skype 系統管理中心來開啟或關閉商務用 Skype Online 會議中的進入與結束公告。 '
-ms.openlocfilehash: 62b3437b75e36b57bebd167f6d2e155deb31a41b
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 6c0e54b149dc4b26e590e471876f33c49d8f07f3
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "37642916"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41680210"
 ---
 # <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings-in-skype-for-business-online"></a>開啟或關閉商務用 Skype Online 中的進入與結束會議宣告
 
@@ -75,4 +76,4 @@ ms.locfileid: "37642916"
   
 ## <a name="related-topics"></a>相關主題
 
-[音訊會議常見問題](/MicrosoftTeams/audio-conferencing-common-questions)
+[音訊會議的常見問題](/MicrosoftTeams/audio-conferencing-common-questions)

@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a5698058cbfecd62f92cfe9f198657f7c280deff
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: d266799bf2bc2cab9cd107836f9017bd7dc369bf
+ms.sourcegitcommit: 2cb46af39a0d116e8fd020aa04bd2ecbd6998a5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37568681"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41678967"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>使用新式驗證登入 Microsoft 團隊
 ==========================
@@ -38,6 +38,11 @@ Microsoft 團隊使用新式驗證來輕鬆且安全地保持登入體驗。 若
 - 如果使用者未在其他位置登入 Office 365 企業版帳戶，當他們開始團隊時，系統會要求他們提供單一要素或多重要素驗證（SFA 或 MFA），這取決於貴組織決定要需要處理的程式。
 
 - 如果使用者已登入加入網域的電腦，當他們啟動團隊時，可能會要求您執行一個更驗證步驟，視貴組織選擇要要求 MFA 或其電腦是否已需要 MFA 登入而定。 如果他們的電腦已要求 MFA 登入，當他們開啟 [小組] 時，應用程式就會自動啟動。
+
+- 如果使用者已登入加入網域的電腦，而且您不想要在小組登入畫面上預先填入使用者名稱，系統管理員可以設定下列 Windows 登錄來關閉使用者名稱的預先填入：電腦 \ HKEY_CURRENT_USER \Software\Microsoft\Office\Teams DisableUpnSuffixCheck （REG_DWORD）0x00000001 （1）
+
+  注意：跳過使用者名稱預先填入的使用者名稱（預設為「local」或「. corp」），因此您不需要設定登錄機碼，就能關閉這些名稱。 
+
 
 ### <a name="mac-users"></a>Mac 使用者 
 

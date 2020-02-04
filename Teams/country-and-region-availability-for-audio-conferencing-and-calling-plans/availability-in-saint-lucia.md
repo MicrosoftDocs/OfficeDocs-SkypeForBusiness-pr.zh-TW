@@ -17,18 +17,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: 以下是適用于商務用 Skype 和適用于聖露西亞的 Microsoft 團隊版 Office 365 服務。
-ms.openlocfilehash: b7d95c443178593c0400c92a1d2d9df86046e6ed
-ms.sourcegitcommit: cb394272050d049ebceedb7df835b86362dfd8d1
+ms.openlocfilehash: b62b4a9b6fbc97eb6357eb6ff3f768110bdac6ef
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/18/2019
-ms.locfileid: "40741540"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41683586"
 ---
 # <a name="availability-in-saint-lucia"></a>聖露西亞中的可用性
 

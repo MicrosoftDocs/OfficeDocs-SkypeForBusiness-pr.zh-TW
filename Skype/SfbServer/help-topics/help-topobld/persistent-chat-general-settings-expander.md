@@ -7,32 +7,32 @@ manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.PersistentChatGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 275ee1ae-ca58-4963-bc95-523319f90d96
-description: '您可以透過設定或定義這些屬性來編輯持續聊天伺服器或持續聊天伺服器池的一般設定:'
-ms.openlocfilehash: c79ef61e2b7609aa344766c37cf38adaa195f23d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 您可以透過設定或定義這些屬性來編輯持續聊天伺服器或持續聊天伺服器池的一般設定：
+ms.openlocfilehash: 184ee58f5b79547434281e073cf99a30d72b7bbc
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36191641"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684486"
 ---
 # <a name="persistent-chat-general-settings-expander"></a>常設聊天室一般設定展開工具
  
-您可以透過設定或定義這些屬性來編輯持續聊天伺服器或持續聊天伺服器池的**一般**設定:
+您可以透過設定或定義這些屬性來編輯持續聊天伺服器或持續聊天伺服器池的**一般**設定：
   
  **一般**
   
-- **FQDN**: 編輯此設定以定義持續聊天伺服器或持久聊天伺服器池的完整功能變數名稱
+- **FQDN**：編輯此設定以定義持續聊天伺服器或持久聊天伺服器池的完整功能變數名稱
     
-- **常設聊天室集區的顯示名稱**：定義此設定可為伺服器或集區提供使用者易記及易於讀取的設定。 這項設定可讓您的使用者更輕鬆地根據顯示名稱與指定的持續聊天伺服器或持續聊天伺服器池建立關聯, 而不是更難瞭解完整的功能變數名稱。
+- **常設聊天室集區的顯示名稱**：定義此設定可為伺服器或集區提供使用者易記及易於讀取的設定。 這項設定可讓您的使用者更輕鬆地根據顯示名稱與指定的持續聊天伺服器或持續聊天伺服器池建立關聯，而不是更難瞭解完整的功能變數名稱。
     
 - **常設聊天室連接埠**：指定用於常設聊天室的連接埠。
     
-您可以透過設定或定義這些屬性來編輯持續聊天伺服器或持續聊天伺服器池的**關聯**設定:
+您可以透過設定或定義這些屬性來編輯持續聊天伺服器或持續聊天伺服器池的**關聯**設定：
   
  **關聯**
   
@@ -40,33 +40,33 @@ ms.locfileid: "36191641"
     
     按一下 [新增] **** 定義新的 SQL Server 儲存區和選用執行個體。
     
-- 如果您想要為主要的 SQL Server 存放區啟用鏡像, 請選取 [**啟用 SQL Server store 鏡像**] 核取方塊。
+- 如果您想要為主要的 SQL Server 存放區啟用鏡像，請選取 [**啟用 SQL Server store 鏡像**] 核取方塊。
     
-    如果您選擇啟用 [SQL Server store 鏡像], 請從清單**鏡像 SQL Server store**選取 store 和 instance。
+    如果您選擇啟用 [SQL Server store 鏡像]，請從清單**鏡像 SQL Server store**選取 store 和 instance。
     
     按一下 [新增] **** 定義新的 SQL Server 儲存區和選用執行個體。
     
-- 如果您想要自動容錯移轉主要的 SQL Server store, 請選取 [**使用 SQL Server 鏡像見證來啟用自動容錯移轉**] 核取方塊。
+- 如果您想要自動容錯移轉主要的 SQL Server store，請選取 [**使用 SQL Server 鏡像見證來啟用自動容錯移轉**] 核取方塊。
     
-    如果您選擇啟用 [SQL Server store 鏡像見證] 來啟用自動容錯移轉, 請從清單中選取 [store] 和 [instance]。
+    如果您選擇啟用 [SQL Server store 鏡像見證] 來啟用自動容錯移轉，請從清單中選取 [store] 和 [instance]。
     
     按一下 [新增] **** 定義見證儲存區的新 SQL Server 儲存區和選用執行個體。
     
-- 如果您想要啟用 SQL Server 災害復原, 請選取 [**使用備份 SQL Server 存儲區來啟用災難**復原] 核取方塊。
+- 如果您想要啟用 SQL Server 災害復原，請選取 [**使用備份 SQL Server 存儲區來啟用災難**復原] 核取方塊。
     
     如果選擇啟用災害復原，請從 [備份 SQL Server 儲存區] **** 清單中選取儲存區和執行個體。
     
     按一下 [新增] **** 定義新的 SQL Server 儲存區和選用執行個體。
     
-- 如果您想要針對備份 SQL Server 鏡像存放區啟用鏡像, 請選取 [**啟用 SQL Server store 鏡像**] 核取方塊。
+- 如果您想要針對備份 SQL Server 鏡像存放區啟用鏡像，請選取 [**啟用 SQL Server store 鏡像**] 核取方塊。
     
-    如果您選擇啟用 [備份 SQL Server store 鏡像], 請從清單**備份 Sql server store mirror**選取 store 和 instance。
+    如果您選擇啟用 [備份 SQL Server store 鏡像]，請從清單**備份 Sql server store mirror**選取 store 和 instance。
     
     按一下 [新增] **** 定義新的 SQL Server 儲存區和選用執行個體。
     
-- 如果您想要自動容錯移轉備份 SQL Server 存放區, 請選取 [**使用 SQL Server 鏡像見證來啟用自動容錯移轉**] 核取方塊。
+- 如果您想要自動容錯移轉備份 SQL Server 存放區，請選取 [**使用 SQL Server 鏡像見證來啟用自動容錯移轉**] 核取方塊。
     
-    如果您選擇啟用 [SQL Server store 鏡像見證] 來啟用自動容錯移轉, 請從清單中選取 [store] 和 [instance]。
+    如果您選擇啟用 [SQL Server store 鏡像見證] 來啟用自動容錯移轉，請從清單中選取 [store] 和 [instance]。
     
     按一下 [新增] **** 定義見證儲存區的新 SQL Server 儲存區和選用執行個體。
     
@@ -76,15 +76,15 @@ ms.locfileid: "36191641"
     
     按一下 [新增] **** 定義新的 SQL Server 儲存區和選用執行個體。
     
-- 如果您想要針對合規性 SQL Server store 啟用鏡像, 請選取 [**啟用 SQL Server store 鏡像**] 核取方塊。
+- 如果您想要針對合規性 SQL Server store 啟用鏡像，請選取 [**啟用 SQL Server store 鏡像**] 核取方塊。
     
-    如果您選擇啟用合規性 SQL Server store 鏡像, 請從清單**相容性 Sql Server store mirror**選取 store 和 instance。
+    如果您選擇啟用合規性 SQL Server store 鏡像，請從清單**相容性 Sql Server store mirror**選取 store 和 instance。
     
     按一下 [新增] **** 定義新的 SQL Server 儲存區和選用執行個體。
     
-- 如果您想要自動容錯移轉 SQL Server store, 請選取 [**使用 SQL Server 鏡像見證來啟用自動容錯移轉**] 核取方塊。
+- 如果您想要自動容錯移轉 SQL Server store，請選取 [**使用 SQL Server 鏡像見證來啟用自動容錯移轉**] 核取方塊。
     
-    如果您選擇啟用 [SQL Server store 鏡像見證] 來啟用自動容錯移轉, 請從清單中選取 [store] 和 [instance]。
+    如果您選擇啟用 [SQL Server store 鏡像見證] 來啟用自動容錯移轉，請從清單中選取 [store] 和 [instance]。
     
     按一下 [新增] **** 定義見證儲存區的新 SQL Server 儲存區和選用執行個體。
     
@@ -92,19 +92,19 @@ ms.locfileid: "36191641"
     
     按一下 [新增] **** 定義新的 SQL Server 儲存區和選用執行個體。
     
-- 如果您想要針對合規性 SQL Server store 啟用鏡像, 請選取 [**啟用 SQL Server store 鏡像**] 核取方塊。
+- 如果您想要針對合規性 SQL Server store 啟用鏡像，請選取 [**啟用 SQL Server store 鏡像**] 核取方塊。
     
-    如果您選擇 [啟用合規性 SQL Server store 鏡像], 請從清單**備份相容性 Sql Server store mirror**中選取 store 和 instance。
+    如果您選擇 [啟用合規性 SQL Server store 鏡像]，請從清單**備份相容性 Sql Server store mirror**中選取 store 和 instance。
     
     按一下 [新增] **** 定義新的 SQL Server 儲存區和選用執行個體。
     
-- 如果您想要自動容錯移轉 [備份規範] SQL Server 存放區, 請選取 [**使用 SQL Server 鏡像見證來啟用自動容錯移轉**] 核取方塊。
+- 如果您想要自動容錯移轉 [備份規範] SQL Server 存放區，請選取 [**使用 SQL Server 鏡像見證來啟用自動容錯移轉**] 核取方塊。
     
-    如果您選擇啟用 [SQL Server store 鏡像見證] 來啟用自動容錯移轉, 請從清單中選取 [store] 和 [instance]。
+    如果您選擇啟用 [SQL Server store 鏡像見證] 來啟用自動容錯移轉，請從清單中選取 [store] 和 [instance]。
     
     按一下 [新增] **** 定義見證儲存區的新 SQL Server 儲存區和選用執行個體。
     
-- 檔案**存放區**從清單中選取檔案存放位置, 或按一下 [**新增**], 建立新的檔案存放區。
+- 檔案**存放區**從清單中選取檔案存放位置，或按一下 [**新增**]，建立新的檔案存放區。
     
   **確定**：接受並認可對話方塊的變更。
   

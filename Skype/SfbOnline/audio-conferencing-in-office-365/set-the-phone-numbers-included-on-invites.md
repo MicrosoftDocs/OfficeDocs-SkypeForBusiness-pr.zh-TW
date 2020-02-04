@@ -16,16 +16,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: '取得建立呼叫者加入商務用 Skype Online 會議的預設電話號碼的步驟。 '
-ms.openlocfilehash: 33c2f69cbd05efedf5af1bb35c7ea5d560930da4
-ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
+ms.openlocfilehash: c6a8c9c3b3d21a64ad54d84ed8bfab22044f9cf5
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40962511"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41680370"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-skype-for-business-online"></a>在商務用 Skype Online 中設定邀請中包含的電話號碼
 

@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.EdgeSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
 description: 若要編輯一或多個現有服器 Edge 集區的設定，請參考下列區段：
-ms.openlocfilehash: 307a861814a8e05065c70299b5ef2a82c20c8c42
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: cdc197bb5e6255a9ad0ff69110435908bf6156d5
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36189529"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684736"
 ---
 # <a name="edge-settings-expander"></a>Edge 設定展開工具
 
@@ -36,7 +36,7 @@ ms.locfileid: "36189529"
 
 Edge Server 集區的內部集區完整網域名稱 (FQDN)。編輯集區的 FQDN 以變更此設定。
 
-如果您要將同盟設定為使用 Lync Server 2013、Microsoft Lync Server 2010 或 Microsoft Office 通訊伺服器 2007 R2 信任合作夥伴, 請選取 [**針對此 Edge 池啟用同盟 (埠 5061)** ] 核取方塊。
+如果您要將同盟設定為使用 Lync Server 2013、Microsoft Lync Server 2010 或 Microsoft Office 通訊伺服器 2007 R2 信任合作夥伴，請選取 [**針對此 Edge 池啟用同盟（埠5061）** ] 核取方塊。
 
 選取 [啟用此 Edge 集區的 XMPP 同盟]****，啟用 XMPP 同盟。
 

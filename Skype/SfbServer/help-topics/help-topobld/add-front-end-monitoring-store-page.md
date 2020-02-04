@@ -1,5 +1,5 @@
 ---
-title: '[新增前端監視商店] 頁面'
+title: 新增前端監控存放區頁面
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -7,40 +7,40 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddFrontEndMonitoringStorePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 48e8587d-a9d2-4fc5-acc5-2bf0abf133c6
-description: '您可以設定下列屬性來定義監視 SQL Server 存放區:'
-ms.openlocfilehash: bd9a55e09a87f1c560f6e31d61094ddb915ad450
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 您可以設定下列屬性來定義監視 SQL Server 存放區：
+ms.openlocfilehash: 67da608f8f20f838c980640a2b6785c0ebb25fb1
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36187204"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41685156"
 ---
-# <a name="add-front-end-monitoring-store-page"></a>[新增前端監視商店] 頁面
+# <a name="add-front-end-monitoring-store-page"></a>新增前端監控存放區頁面
  
-您可以設定下列屬性來**定義監視 SQL Server 存放區**:
+您可以設定下列屬性來**定義監視 SQL Server 存放區**：
   
-- **監視 SQL server store**: 從清單中選取 SQL Server 完整的功能變數名稱 (以及可選擇的實例)。
+- **監視 SQL server store**：從清單中選取 SQL Server 完整的功能變數名稱（以及可選擇的實例）。
     
-    按一下 [**新增**] 以建立新的 SQL Server FQDN 定義, 也可以選擇 [監視伺服器] 存放區的 [實例名稱]。
+    按一下 [**新增**] 以建立新的 SQL Server FQDN 定義，也可以選擇 [監視伺服器] 存放區的 [實例名稱]。
     
-- 如果您想要新增監視伺服器的資料庫鏡像, 請選取 [**啟用 SQL Server store 鏡像**] 核取方塊。
+- 如果您想要新增監視伺服器的資料庫鏡像，請選取 [**啟用 SQL Server store 鏡像**] 核取方塊。
     
     從清單中選取現有的**監視 SQL Server store 鏡像**。
     
-    按一下 [**新增**] 以建立新的 SQL Server FQDN 定義, 並選擇性地使用鏡像存放區的實例名稱。
+    按一下 [**新增**] 以建立新的 SQL Server FQDN 定義，並選擇性地使用鏡像存放區的實例名稱。
     
-- 如果您已選取 **[啟用 Sql server store 鏡像**], 請選擇性地選取 [**使用 SQL server 鏡像見證來啟用自動容錯移轉**], 從清單中選取 SQL Server 鏡像存儲區。
+- 如果您已選取 **[啟用 Sql server store 鏡像**]，請選擇性地選取 [**使用 SQL server 鏡像見證來啟用自動容錯移轉**]，從清單中選取 SQL Server 鏡像存儲區。
     
-    按一下 [**新增**] 以建立新的 SQL Server FQDN 定義, 也可以選擇使用鏡像見證存儲的實例名稱。
+    按一下 [**新增**] 以建立新的 SQL Server FQDN 定義，也可以選擇使用鏡像見證存儲的實例名稱。
     
 按 [上一步] **** 回到上一個集區定義對話方塊。
   
-完成輸入此對話方塊的選項後, 請按 **[下一步**] 以繼續進行設定。
+完成輸入此對話方塊的選項後，請按 **[下一步**] 以繼續進行設定。
   
 按一下 [**取消**] 放棄所有變更並結束嚮導。
   
@@ -48,4 +48,4 @@ ms.locfileid: "36187204"
   
 ## <a name="see-also"></a>另請參閱
 
-[在商務用 Skype Server 2015 中, 將監控存放區與前端池建立關聯](../../deploy/deploy-monitoring/associate-a-monitoring-store.md)
+[在商務用 Skype Server 2015 中，將監控存放區與前端池建立關聯](../../deploy/deploy-monitoring/associate-a-monitoring-store.md)

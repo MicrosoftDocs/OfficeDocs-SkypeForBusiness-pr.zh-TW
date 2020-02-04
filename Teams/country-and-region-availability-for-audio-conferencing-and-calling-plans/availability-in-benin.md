@@ -17,18 +17,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: 以下是適用于商務用 Skype 和 Microsoft 團隊 Benin 的 Office 365 服務。
-ms.openlocfilehash: 98a667c40d0ae974a2b660bed5b77d54a82130f9
-ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
+ms.openlocfilehash: c24d29710f7b1bddd00a51bef7914cf71751e8d2
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40952856"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684026"
 ---
 # <a name="availability-in-benin"></a>Benin 中的可用性
 

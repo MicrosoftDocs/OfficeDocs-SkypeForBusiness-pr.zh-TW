@@ -7,28 +7,28 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.RgsQueueMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 29bde940-6107-494f-9bee-b6ebfa135e41
-description: 回應群組由代理群組、佇列和工作流程所組成。 回應群組佇列將呼叫控制到回應群組, 直到工程師接聽通話。
-ms.openlocfilehash: d1cfc4a1913c1d7f9cd54086108eb161a57db2cf
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 回應群組由代理群組、佇列和工作流程所組成。 回應群組佇列將呼叫控制到回應群組，直到工程師接聽通話。
+ms.openlocfilehash: 0f18c9c69fd78c8b4b3d9a5b667534cc398bc6e8
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36192058"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41686016"
 ---
 # <a name="response-groups-queue"></a>回應群組佇列
 
-回應群組由代理群組、佇列和工作流程所組成。 回應群組佇列將呼叫控制到回應群組, 直到工程師接聽通話。
+回應群組由代理群組、佇列和工作流程所組成。 回應群組佇列將呼叫控制到回應群組，直到工程師接聽通話。
 
 [**回應群組** - ] [**佇列**] 頁面會顯示針對您的組織定義的所有回應群組佇列清單。
 
 ## <a name="tasks-you-can-perform"></a>您可以執行的工作
 
-您可以從 [**回應群組** - ] 的 [**佇列**] 頁面執行下列工作:
+您可以從 [**回應群組** - ] 的 [**佇列**] 頁面執行下列工作：
 
 - 建立新的佇列
 
@@ -42,7 +42,7 @@ ms.locfileid: "36192058"
 
 - **新增**啟動新的佇列。
 
-- [**編輯**]開啟選取的佇列加以編輯、選取清單中的所有佇列, 或刪除選取的佇列。
+- [**編輯**]開啟選取的佇列加以編輯、選取清單中的所有佇列，或刪除選取的佇列。
 
 - **更新**刷新佇列清單。
 
@@ -54,6 +54,6 @@ ms.locfileid: "36192058"
 
 - **描述**佇列的描述。
 
-如需回應群組功能與功能的詳細資訊, 請參閱規劃檔中的[商務用 Skype Server 2015 中的回應群組應用程式規劃](../../plan-your-deployment/enterprise-voice-solution/response-group.md)。 如需使用回應群組佇列的詳細資料, 請參閱在作業檔中[管理回應群組佇列](https://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx)。
+如需回應群組功能與功能的詳細資訊，請參閱規劃檔中的[商務用 Skype Server 2015 中的回應群組應用程式規劃](../../plan-your-deployment/enterprise-voice-solution/response-group.md)。 如需使用回應群組佇列的詳細資料，請參閱在作業檔中[管理回應群組佇列](https://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx)。
 
 

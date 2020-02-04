@@ -16,18 +16,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords:
-- O365P_DialInConfDesc
+f1.keywords:
+- CSH
 ms.custom:
 - Audio Conferencing
 - LIL_Placement
+- O365P_DialInConfDesc
 description: '瞭解如何為您企業中需要使用手機加入電話會議的人員設定撥入或音訊會議。 '
-ms.openlocfilehash: 499a8a8ef05d23c74b030536d33b7a02cd6d9a1a
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: ea254da1f742db602d396868aad36a0c20951128
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37924974"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41680360"
 ---
 # <a name="set-up-audio-conferencing-for-skype-for-business"></a>設定商務用 Skype 的音訊會議
 
@@ -77,7 +78,7 @@ ms.locfileid: "37924974"
 ![](../images/sfb-logo-30x30.png) **使用商務用 skype 系統管理中心**顯示商務用 skype 標誌的圖示：
 
  1. 移至**Microsoft 365 管理中心** > **管理中心** > **小組** > **舊版入口網站**。
- 2. 選取 [**語音** > **電話號碼**]。
+ 2. 選取 [**語音** > **電話號碼]**。
  3. 選取電話號碼，然後按一下 [**指派**]。
 
 如需詳細資訊，請參閱[在音訊會議橋中變更電話號碼](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge)。

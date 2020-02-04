@@ -7,22 +7,22 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.SharedComponentsScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dc8238a0-24aa-47a0-b871-4465ada1761e
-description: 您以滑鼠右鍵按一下拓撲建立器階層樹狀結構中的 [共用元件] 來建立新的共用元件, 或存取拓撲層級選項。
-ms.openlocfilehash: 019609145621a882da632aa945623ca49822cf33
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 您以滑鼠右鍵按一下拓撲建立器階層樹狀結構中的 [共用元件] 來建立新的共用元件，或存取拓撲層級選項。
+ms.openlocfilehash: 4a1a00265f4c5c53df2a1d045a1ac31eaef2d48d
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36191926"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684386"
 ---
 # <a name="shared-components-scope-node"></a>共用元件範圍節點
  
-您以滑鼠右鍵按一下拓撲建立器階層樹狀結構中的 [**共用元件**] 來建立新的共用元件, 或存取拓撲層級選項。
+您以滑鼠右鍵按一下拓撲建立器階層樹狀結構中的 [**共用元件**] 來建立新的共用元件，或存取拓撲層級選項。
   
 ![共用元件範圍節點](../../media/Shared_Components_Scope_Node.jpg)
   
@@ -33,7 +33,7 @@ ms.locfileid: "36191926"
   
 ![共用元件範圍節點](../../media/Shared_Components_Scope_NodeB.jpg)
   
-您可以選取 [**拓撲**], 以按一下 [選項], 以開啟新的拓撲檔。 開啟現有的拓撲檔、從中央管理商店下載目前的拓撲, 儲存目前拓撲檔的複本, 發佈目前的拓撲檔, 安裝資料庫以建立目前已設定的資料庫配置。將 Office 通訊伺服器 2007 R2 合併至目前的部署中, 或移除部署。
+您可以選取 [**拓撲**]，以按一下 [選項]，以開啟新的拓撲檔。 開啟現有的拓撲檔、從中央管理商店下載目前的拓撲，儲存目前拓撲檔的複本，發佈目前的拓撲檔，安裝資料庫以建立目前已設定的資料庫配置。將 Office 通訊伺服器 2007 R2 合併至目前的部署中，或移除部署。
   
 ![共用元件範圍節點 C](../../media/Shared_Components_Scope_NodeC.jpg)
   

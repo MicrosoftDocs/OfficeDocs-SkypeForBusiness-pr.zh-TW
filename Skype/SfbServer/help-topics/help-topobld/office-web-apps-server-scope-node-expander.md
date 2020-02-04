@@ -7,26 +7,26 @@ manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.OfficeWebAppsServerScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f934e076-1022-40cd-8a4a-0b90ccf6f2a6
-description: '您以滑鼠右鍵按一下拓撲建立器中的 Office Web Apps 伺服器來執行下列動作:'
-ms.openlocfilehash: e861cc8ab134c7d11dd55730a3ea58d63d4ef38b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 您以滑鼠右鍵按一下拓撲建立器中的 Office Web Apps 伺服器來執行下列動作：
+ms.openlocfilehash: cf6b8e26d25e37c3c1e04e0257d4e8f7026af933
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36191644"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684496"
 ---
 # <a name="office-web-apps-server-scope-node-expander"></a>Office Web Apps Server 範圍節點展開工具
  
-您以滑鼠右鍵按一下拓撲建立器中的**Office Web Apps 伺服器**來執行下列動作:
+您以滑鼠右鍵按一下拓撲建立器中的**Office Web Apps 伺服器**來執行下列動作：
   
-- **新的 Office Web Apps server**: 啟動**定義新的 Office web apps 伺服器**嚮導, 用來定義新的 office web apps 伺服器。
+- **新的 Office Web Apps server**：啟動**定義新的 Office web apps 伺服器**嚮導，用來定義新的 office web apps 伺服器。
     
-除了 [新的 Office Web Apps 伺服器] 選項之外, 您還可以執行下列一般工作:
+除了 [新的 Office Web Apps 伺服器] 選項之外，您還可以執行下列一般工作：
   
 ![Office WebApps Server Scope 節點](../../media/OfficeWebApps_Server_Scope_Node.jpg)
   

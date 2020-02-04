@@ -14,14 +14,15 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 description: 瞭解如何為您組織中的使用者指派或變更緊急位置的位置。
-ms.openlocfilehash: 4179992476faa800684e29343227e03b563d7575
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 5fc4f9ceeb8fc602ae28831ba48fcf37191608b9
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37639644"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684166"
 ---
 # <a name="assign-or-change-the-place-for-an-emergency-location-for-a-user"></a>為使用者指派或變更緊急位置的位置
 
@@ -42,9 +43,9 @@ ms.locfileid: "37639644"
     
 ## <a name="related-topics"></a>相關主題
 
-- [什麼是緊急位置、地點及呼叫路由？](what-are-emergency-locations-addresses-and-call-routing.md)
-- [新增、變更或移除組織的緊急位置](add-change-remove-emergency-location-organization.md)
-- [新增、變更或移除組織中緊急位置的位置](add-change-remove-emergency-place-organization.md)
+- [什麼是緊急位置、地方和通話路由？](what-are-emergency-locations-addresses-and-call-routing.md)
+- [新增、變更或移除貴組織的緊急位置](add-change-remove-emergency-location-organization.md)
+- [新增、變更或移除貴組織緊急位置的地方](add-change-remove-emergency-place-organization.md)
 - [指派或變更使用者的緊急位置](assign-change-emergency-location-user.md)
 - [管理貴組織的電話號碼](/microsoftteams/manage-phone-numbers-for-your-organization)
-- [緊急通話條款與條件](/microsoftteams/emergency-calling-terms-and-conditions)
+- [緊急通話條款及條件](/microsoftteams/emergency-calling-terms-and-conditions)

@@ -16,16 +16,16 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.quantity
+f1.keywords: ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.quantity
 ms.custom:
 - Calling Plans
 description: 當您正在尋找並取得貴組織的電話號碼時，您可以取得的電話號碼會比您指派的授權還多。 但這取決於電話號碼類型，以及您購買及指派的授權類型。 您可以按一下撥號方案中使用的不同電話號碼，找出在 Microsoft 團隊中使用的不同電話號碼。
-ms.openlocfilehash: 58767883e25027909b69b9c5a78b7890ee7b3882
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 2ffb2d0ee80dffa52ff092d20348455458d8beca
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572077"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41680500"
 ---
 # <a name="how-many-phone-numbers-can-you-get"></a>您可以取得多少電話號碼？
 
@@ -49,13 +49,13 @@ ms.locfileid: "37572077"
 > 如果您需要取得更多的電話號碼，請[聯絡商務產品支援-系統管理協助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
   
 ## <a name="related-topics"></a>相關主題
-[傳送電話號碼常見問題](transferring-phone-numbers-common-questions.md)
+[移轉電話號碼的常見問題](transferring-phone-numbers-common-questions.md)
 
 [通話方案所用的不同類型的電話號碼](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
 [管理貴組織的電話號碼](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
-[緊急通話條款與條件](emergency-calling-terms-and-conditions.md)
+[緊急通話條款及條件](emergency-calling-terms-and-conditions.md)
 
 [緊急通話免責聲明標籤](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 

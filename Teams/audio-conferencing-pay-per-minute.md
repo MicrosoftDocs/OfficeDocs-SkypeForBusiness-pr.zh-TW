@@ -1,5 +1,5 @@
 ---
-title: 每分鐘付費語音會議
+title: 音訊會議按分鐘計費
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,18 +17,19 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Licensing
 description: 除了標準的音訊會議每個使用者授權之外，使用 Microsoft 大量授權的組織也可以選擇為其組織啟用音訊會議功能的每分鐘付款優惠。
-ms.openlocfilehash: 0f31d5b79c8b298dbd13c516856446ee2ead977a
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 7f0f0775ea6d3beef7dcd590f04c40845448a71b
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37515889"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684136"
 ---
-# <a name="audio-conferencing-pay-per-minute"></a>每分鐘付費語音會議
+# <a name="audio-conferencing-pay-per-minute"></a>音訊會議按分鐘計費
 
 除了標準音訊會議的每個使用者授權之外，大量和授權組織也可以選擇為其組織啟用音訊會議功能的每分鐘付費優惠。
   
@@ -41,7 +42,7 @@ ms.locfileid: "37515889"
   
 ## <a name="need-some-details"></a>需要一些詳細資料嗎？
 
-音訊會議的每個使用者授權提供包含撥入使用量和一些撥出使用量，語音會議每分鐘支付一次，您就**能每分鐘支付一次音訊會議的使用量，而不需每個使用者每月付款授權**]。 如此一來，所有撥入和撥出通話都將以每分鐘為單位收取費用，包括：
+[音訊會議每使用者授權] 提供的電話撥入使用量和一些撥出使用量，語音會議每分鐘支付一次，**就能在不付費每位使用者每月授權的情況下，每分鐘支付一次音訊會議使用方式**。 如此一來，所有撥入和撥出通話都將以每分鐘為單位收取費用，包括：
   
 - 您組織的電話撥入式音訊會議號碼。
     

@@ -7,22 +7,22 @@ manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.TrunkScopdeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6561236d-fe30-451d-ac74-7545eb98267a
-description: '您以滑鼠右鍵按一下拓撲建立器中現有的 SIP 幹線, 以執行下列動作:'
-ms.openlocfilehash: 6b0db3a7a37c510d5340bd2e9da7a1273f7197e3
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 您以滑鼠右鍵按一下拓撲建立器中現有的 SIP 幹線，以執行下列動作：
+ms.openlocfilehash: d5095170ff3820f430e6093ceab926529e5b38be
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36193151"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684316"
 ---
 # <a name="trunk-scope-node"></a>主幹範圍節點
  
-您以滑鼠右鍵按一下拓撲建立器中現有的 SIP 幹線, 以執行下列動作:
+您以滑鼠右鍵按一下拓撲建立器中現有的 SIP 幹線，以執行下列動作：
   
 - **編輯內容**：啟動用來編輯或重新定義現有 SIP 主幹設定的 [編輯內容精靈]****
     

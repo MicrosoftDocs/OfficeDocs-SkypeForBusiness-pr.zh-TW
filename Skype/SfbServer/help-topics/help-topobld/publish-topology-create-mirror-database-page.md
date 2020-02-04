@@ -1,5 +1,5 @@
 ---
-title: 發佈拓撲建立鏡像資料庫頁面
+title: 發行拓撲建立鏡像資料庫頁面
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -7,26 +7,26 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.PublishTopologyCreateMirrorDatabasePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f05ffca1-e972-4ee2-8370-2ef5df03e179
-description: 這是初步檔, 可能會變更。 空白主題是以預留位置形式提供。
-ms.openlocfilehash: 9b3d6ab08319e9438d680f608fc293cd25a52f8a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 這是初步檔，可能會變更。 空白主題是以預留位置形式提供。
+ms.openlocfilehash: e57f6669ed95ccae0e0f205fcf2bc9bae01af635
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36191584"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684446"
 ---
-# <a name="publish-topology-create-mirror-database-page"></a>發佈拓撲建立鏡像資料庫頁面
+# <a name="publish-topology-create-mirror-database-page"></a>發行拓撲建立鏡像資料庫頁面
  
-這是初步檔, 可能會變更。 空白主題是以預留位置形式提供。
+這是初步檔，可能會變更。 空白主題是以預留位置形式提供。
   
-拓撲建立器會分析您定義的拓撲檔中的所有設定。 如果您已設定鏡像的 SQL Server 資料庫, 您會看到顯示鏡像儲存體、主要商店、檔案共用路徑和資料庫路徑的畫面。 您可以選取與資料庫鏡像存放區相關聯的核取方塊, 以建立鏡像資料庫及檔案共用路徑。 如果您不想要建立資料庫並將其部署到已定義的 SQL Server, 請清除資料庫鏡像的核取方塊。
+拓撲建立器會分析您定義的拓撲檔中的所有設定。 如果您已設定鏡像的 SQL Server 資料庫，您會看到顯示鏡像儲存體、主要商店、檔案共用路徑和資料庫路徑的畫面。 您可以選取與資料庫鏡像存放區相關聯的核取方塊，以建立鏡像資料庫及檔案共用路徑。 如果您不想要建立資料庫並將其部署到已定義的 SQL Server，請清除資料庫鏡像的核取方塊。
   
- 如果您在目前選取 [不安裝其中一個或所有的資料庫], 請清除您不會安裝的資料庫。 稍後, 您可以在拓撲建立器中, 以滑鼠右鍵按一下大多數節點專案, 選擇使用 [**安裝資料庫**]。
+ 如果您在目前選取 [不安裝其中一個或所有的資料庫]，請清除您不會安裝的資料庫。 稍後，您可以在拓撲建立器中，以滑鼠右鍵按一下大多數節點專案，選擇使用 [**安裝資料庫**]。
   
 ## <a name="see-also"></a>另請參閱
 

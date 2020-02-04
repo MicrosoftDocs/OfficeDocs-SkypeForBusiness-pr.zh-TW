@@ -16,16 +16,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: '瞭解關於 Pin 的資訊，以及如何在商務用 Skype Online 中重設。 '
-ms.openlocfilehash: a00c36475059a05bb7cf3a9057920b63a09e9a43
-ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
+ms.openlocfilehash: fdd11e3ef9c656b4b2cc6b929a2963e9b5e10824
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40962691"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41680560"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-skype-for-business-online"></a>在商務用 Skype Online 中重設音訊會議 PIN
 

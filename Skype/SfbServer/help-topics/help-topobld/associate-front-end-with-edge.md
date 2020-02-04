@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AssociateFrontEndWithEdgePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f09c9b3e-1f5f-4486-8113-e62c10cff138
 description: 每個前端集區都只能有一個相關聯的 Edge Server 或 Edge 集區。當您啟用網站的外部使用者存取時，您可以提供遠端使用者的支援。您也可以啟用同盟使用者的支援，包括特定公用立即訊息 (IM) 連線提供者 (例如 Windows Live) 的使用者支援，以及匿名使用者的支援。
-ms.openlocfilehash: d8daeb1fd03d0952cac31d6c8dbe603c14053787
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c68195607feea74f29048affaf12662b2682ad39
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36193325"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684926"
 ---
 # <a name="associate-front-end-with-edge"></a>建立前端與 Edge 的關聯
 

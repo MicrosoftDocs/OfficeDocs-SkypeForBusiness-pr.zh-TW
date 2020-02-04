@@ -17,16 +17,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Phone System
 description: '瞭解功能、可用性，以及如何規劃及設定商務用 Microsoft Phone 系統。 '
-ms.openlocfilehash: fc4d771037a9305fa5f39148ad465211e491ceb4
-ms.sourcegitcommit: a6e051c5c5c100dbf2ff3ca8fc7babc4415babf3
+ms.openlocfilehash: ad2feebec1a5c7745563308f0004f1839e358117
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/25/2020
-ms.locfileid: "41554350"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41680490"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>以下是您在 Office 365 中使用電話系統所取得的結果
 
@@ -41,7 +42,7 @@ ms.locfileid: "41554350"
   
 |||
 |:-----|:-----|
-|**Office 365 中的電話系統功能** <br/> |**描述** <br/> |
+|**Office 365 中的電話系統功能** <br/> |**說明** <br/> |
 |[雲端自動語音應答](what-are-phone-system-auto-attendants.md) <br/> |可讓您建立可讓外部與內部呼叫者找到並將來電放入或轉接給貴組織中的公司使用者或部門的功能表系統。  <br/> |
 |[雲端通話佇列](create-a-phone-system-call-queue.md) <br/> |可讓您設定為貴組織管理呼叫佇列的方式：例如，[保留問候語]、[暫留音樂]、[搜尋下一個可用的通話代理程式] 來處理通話，依此類推。  <br/> |
 |等候音樂 | 當從公用交換電話網絡（PSTN）的外部呼叫置於保留狀態時，會播放服務所定義的預設音樂。 除了呼叫佇列撥打電話之外，此功能也適用于一對一的 PSTN 對團隊通話。 這項功能可提供與其他平臺的保留期間通知同位。 在初次發行時，系統管理員不能設定此功能。 在 PSTN 通話的諮詢式轉接中，也不支援等候音樂。|

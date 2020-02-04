@@ -7,20 +7,20 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.RgsGroupMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b8bd4c3f-3d32-42b2-9712-2d0f159577d8
 description: 回應群組由代理群組、佇列和工作流程所組成。 [代理程式群組] 是指派給回應群組通話的一組人員。
-ms.openlocfilehash: c0b99013e3e91272f9da509a020d12e15b28df76
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f8049d172b0ee58a87d74a5fa406dd6498d3a12a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36189556"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41685986"
 ---
-# <a name="response-groups-group"></a>回應群組: 群組
+# <a name="response-groups-group"></a>回應群組：群組
 
 回應群組由代理群組、佇列和工作流程所組成。 [代理程式群組] 是指派給回應群組通話的一組人員。
 
@@ -28,7 +28,7 @@ ms.locfileid: "36189556"
 
 ## <a name="tasks-you-can-perform"></a>您可以執行的工作
 
-您可以從 [**回應群組** - ]**群組**頁面執行下列工作:
+您可以從 [**回應群組** - ]**群組**頁面執行下列工作：
 
 - 建立新的代理群組
 
@@ -42,7 +42,7 @@ ms.locfileid: "36189556"
 
 - **新增**啟動新的 [代理] 群組。
 
-- [**編輯**]開啟選取的代理群組以進行編輯、選取清單中的所有代理群組, 或刪除選取的 agent 群組。
+- [**編輯**]開啟選取的代理群組以進行編輯、選取清單中的所有代理群組，或刪除選取的 agent 群組。
 
 - **更新**刷新代理群組清單。
 
@@ -54,6 +54,6 @@ ms.locfileid: "36189556"
 
 - **描述**[代理] 群組的描述。
 
-如需回應群組功能與功能的詳細資訊, 請參閱規劃檔中的[商務用 Skype Server 2015 中的回應群組應用程式規劃](../../plan-your-deployment/enterprise-voice-solution/response-group.md)。 如需管理代理人群組的詳細資訊，請參閱作業文件中的〈[Managing Agent Groups](https://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx)〉。
+如需回應群組功能與功能的詳細資訊，請參閱規劃檔中的[商務用 Skype Server 2015 中的回應群組應用程式規劃](../../plan-your-deployment/enterprise-voice-solution/response-group.md)。 如需管理代理人群組的詳細資訊，請參閱作業文件中的〈[Managing Agent Groups](https://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx)〉。
 
 

@@ -17,19 +17,20 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 - LIL_Placement
 description: 您可以選取國家/地區，查看音訊會議、電話系統、通話方案、通訊點數，以及是否有可用的付費和免費電話號碼。
-ms.openlocfilehash: 4d7e1f2f4481baf51c6c3f619f47dc9440d957da
-ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
+ms.openlocfilehash: cc1acc2e112477c441b9bfb492dff49183e5dc3d
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40952436"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41682520"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>音訊會議與通話方案的適用國家/地區
 

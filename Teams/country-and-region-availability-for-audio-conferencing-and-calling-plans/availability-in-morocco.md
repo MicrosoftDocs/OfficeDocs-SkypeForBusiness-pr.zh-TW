@@ -17,18 +17,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: 以下是適用于商務用 Skype 和 Microsoft 團隊（適用于摩洛哥）的 Office 365 服務。
-ms.openlocfilehash: ac89283080c66fbcf3d89541fff93e67750dbd34
-ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
+ms.openlocfilehash: 5e835821828bed8eeae02612e37ac8d231aa9f5f
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40952416"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41683686"
 ---
 # <a name="availability-in-morocco"></a>在摩洛哥中的可用性
 

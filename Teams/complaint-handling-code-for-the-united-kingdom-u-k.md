@@ -16,17 +16,18 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Legal
 hideEdit: true
 description: '瞭解如何在商務用 Skype 通話服務（在英國進行 PSTN 通話）中提出投訴，以及如何解決未解決之投訴的糾紛問題。 '
-ms.openlocfilehash: c521c7bd19ffcdfe870ac3835e3ad1c75c9ff1be
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: d3f20a2a84a419ff959670bbd6b63742d2ad1ba5
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516905"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684096"
 ---
 # <a name="calling-plans-in-office-365---complaint-handling-code-for-the-united-kingdom-uk"></a>Office 365 中的通話方案-英國的投訴處理常式代碼（英國）
 
@@ -86,5 +87,5 @@ Ombudsman Services 與 Microsoft 無關，並將針對投訴的優點作出 impa
 
 
 ## <a name="related-topics"></a>相關主題
-[適用于音訊會議與通話方案的國家和地區可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[音訊會議與通話方案的適用國家/地區](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
