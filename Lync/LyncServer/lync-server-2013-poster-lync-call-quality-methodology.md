@@ -3,6 +3,8 @@ title: Lync Server 2013：標牌： Lync 通話品質方法
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: 'Poster: Lync Call Quality Methodology'
 ms:assetid: a069f4e5-4f80-4f0f-8657-2e07276b6b41
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn593600(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 61084874
 ms.date: 06/24/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e18dc59e0b8669bb48962874291e63523f37eb48
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 95105501d0403600e88d01ad5fa84363c1e81785
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40978196"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724973"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +39,7 @@ _**主題上次修改日期：** 2016-06-24_
 
 本文隨附于[Lync 通話品質方法](http://go.microsoft.com/fwlink/?linkid=391841)海報，您可以從下載中心下載它。
 
-![說明 CQM]程式海報的海報，(images/Dn594589.d239e04a-1c3b-4f0e-93af-88b85198615a(OCS.15).jpg "說明 CQM")程式
+![描述 CQM 程序的海報](images/Dn594589.d239e04a-1c3b-4f0e-93af-88b85198615a(OCS.15).jpg "描述 CQM 程序的海報")
 
 您可以使用此海報來瞭解 CQM，這是 Lync 2013 和2010的通話品質方法，可協助您找到並消除影響 Lync 實現中包含企業語音功能之通話品質與使用者體驗的問題。 通話品質方法是一種新的疑難排解與服務管理架構，可讓您更好地專注于在 Lync 中改善企業語音服務。 在本文中，您可以深入瞭解 CQM、所監視的伺服器和解決方案類型，以及如何處理收集的遙測資料。
 

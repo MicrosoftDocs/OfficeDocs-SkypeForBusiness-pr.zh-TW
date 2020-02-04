@@ -3,6 +3,8 @@ title: Lync Server 2013：在拓撲建立器中定義其他 trunks
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Define additional trunks in Topology Builder
 ms:assetid: e68b8377-50a2-452a-bf5c-910929e34236
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721915(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733849
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b18d12762566258051d5fe0e7c71921b9fff160c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c55e8073bd1ad1bb2db69096e4e58aa2b148e775
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40982461"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728483"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -69,7 +71,7 @@ _**主題上次修改日期：** 2012-10-04_
 
 2.  在 Lync Server 2013、您的網站名稱、**共用元件**中，以滑鼠右鍵按一下 [ **Trunks** ] 節點，然後按一下 [**新主幹**]。
     
-    ![Lync Server 拓撲]建立器檔案結構畫面 [(images/JJ721915.90d5b349-aa1e-407a-87ed-fa112f478560(OCS.15).png "Lync server 拓撲產生器檔案結構] 畫面")
+    ![Lync Server 拓撲產生器檔案結構畫面](images/JJ721915.90d5b349-aa1e-407a-87ed-fa112f478560(OCS.15).png "Lync Server 拓撲產生器檔案結構畫面")
 
 3.  在 [**定義新主幹**] 中，指定要唯一識別主幹的易記名稱。 您不能有兩個名稱相同的 trunks。
     
@@ -84,7 +86,7 @@ _**主題上次修改日期：** 2012-10-04_
 
 4.  在 [**關聯的 PSTN 閘道**] 底下，選取 PSTN 閘道對，以與此幹線建立關聯。
     
-    ![Pstn 閘道對端的屬性設定]適用于(images/JJ721915.7c3fe8ee-8f4c-4413-8462-8347228e61bb(OCS.15).png "pstn 閘道對幹線的 trunk 屬性設定")
+    ![主幹之 PSTN 閘道對等的內容設定](images/JJ721915.7c3fe8ee-8f4c-4413-8462-8347228e61bb(OCS.15).png "主幹之 PSTN 閘道對等的內容設定")
 
 5.  在 [ **PSTN 閘道的偵聽埠**] 底下，輸入對等（PSTN 閘道、IP PBX 或 SBC）的偵聽埠，將會從要與此幹線關聯的中繼伺服器接收 SIP 訊息。 預設對等埠是針對傳輸控制通訊協定（TCP）和5067（針對傳輸層安全性（TLS））的5066。 預設的 Survivable 分支裝置埠是適用于 TCP 的5081，以及適用于 TLS 的5082。
 

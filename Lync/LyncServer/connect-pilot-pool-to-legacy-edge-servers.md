@@ -3,6 +3,8 @@ title: 將試驗集區連線到舊版 Edge Server
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Connect pilot pool to legacy Edge Servers
 ms:assetid: c3b67220-5705-47f6-852e-415204f3626c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721875(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733808
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7fc42c645548ea9bad072da5f18643271a9eceeb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 447a0ead887b8283aa2701963a0107ef318bb312
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40977206"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723223"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,7 +55,7 @@ _**主題上次修改日期：** 2012-09-29_
 
 5.  在 [**網站同盟路由指派**] 底下，選取 [**啟用 SIP 同盟**]，然後選取 [lync server 2010 控制器]，或 [Lync server 2010 Edge 伺服器（如果沒有列出主管）]。
     
-    ![編輯屬性、同盟路由頁面](images/JJ721875.5f1d04c3-c724-426d-b27d-3fe89c6c5cfb(OCS.15).jpg "編輯屬性、同盟路由頁面")  
+    ![編輯內容，[同盟路由] 頁面](images/JJ721875.5f1d04c3-c724-426d-b27d-3fe89c6c5cfb(OCS.15).jpg "編輯內容，[同盟路由] 頁面")  
 
 6.  按一下 **[確定]** 以關閉 [**編輯屬性**] 頁面。
 
@@ -63,7 +65,7 @@ _**主題上次修改日期：** 2012-09-29_
 
 9.  從清單中選取舊版邊緣伺服器。
     
-    [![編輯屬性] 對話方塊，選取舊版邊緣 [](images/JJ721875.feae8156-540e-4804-bb0a-2b5736ec2900(OCS.15).jpg "編輯屬性] 對話方塊，然後選取舊版邊緣")  
+    ![[編輯內容] 對話方塊，選取舊版 Edge](images/JJ721875.feae8156-540e-4804-bb0a-2b5736ec2900(OCS.15).jpg "[編輯內容] 對話方塊，選取舊版 Edge")  
 
 10. 按一下 **[確定]** 以關閉 [**編輯屬性**] 頁面。
 

@@ -3,6 +3,8 @@ title: 部署 Lync Server 2013 試用版池
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploy Lync Server 2013 pilot pool
 ms:assetid: a81aba1e-e636-434b-8c56-4150435bb55d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205144(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185028
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 93fb3c5062cc1f817d3de7b869f57600178ad454
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: dbe36710ab0acee23af1d8b83adece108cf86c4d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40981675"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41722993"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -57,7 +59,7 @@ _**主題上次修改日期：** 2013-11-22_
 
 3.  以滑鼠右鍵按一下 [**企業版頂層端池**]，然後選取 [**新的前端池**]。
     
-    ![拓撲產生器伺服器池選取子功能表](images/JJ205144.c2feed27-3418-42a6-a254-76e83607db9c(OCS.15).jpg "拓撲建立器伺服器池選取子功能表")
+    ![拓撲產生器伺服器集區選取子功能表](images/JJ205144.c2feed27-3418-42a6-a254-76e83607db9c(OCS.15).jpg "拓撲產生器伺服器集區選取子功能表")
 
 4.  輸入 [池 FQDN]。 當您定義您的試驗池時，您可以選擇部署企業版的前端池或標準版伺服器。 Lync Server 2013 不需要您的試點專案池功能與舊版池中部署的功能相符。
     
@@ -70,31 +72,31 @@ _**主題上次修改日期：** 2013-11-22_
     
     </div>
     
-    ![定義新的 [前臺結束] 池嚮導 fqdn 頁面](images/JJ205144.c5fd138c-e75a-413a-827f-b1461c996d40(OCS.15).jpg "定義新的 [前端] 池 [fqdn] 頁面")
+    ![[定義新前端集區精靈 FQDN] 頁面](images/JJ205144.c5fd138c-e75a-413a-827f-b1461c996d40(OCS.15).jpg "[定義新前端集區精靈 FQDN] 頁面")
 
 5.  在 [**選取功能**] 頁面上，選取您要用於此前端池之功能的核取方塊。 例如，如果您只部署立即訊息（IM）和目前狀態功能，您可以選取 [會議] 核取方塊以允許多方 IM，但不會選取 [撥入（PSTN）會議]、[企業語音] 或 [通話許可控制] 核取方塊。因為它們代表語音、影片和共同作業會議功能。 如需有關選取功能的其他資訊，請參閱部署檔中的[Lync server 2013 中的定義及設定前端池或標準版伺服器](lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md)。
     
-    ![前端池選取功能頁面](images/JJ204718.5c3f3ff9-6e17-4d66-9b13-3bd55b38246b(OCS.15).jpg "正面端池選取 [功能] 頁面")
+    ![前端集區的 [選取功能] 頁面](images/JJ204718.5c3f3ff9-6e17-4d66-9b13-3bd55b38246b(OCS.15).jpg "前端集區的 [選取功能] 頁面")
 
 6.  在 [**選取 collocated 伺服器角色**] 頁面上，我們建議您 Collocate Lync server 2013 中的中繼伺服器。 當您將舊版拓撲與 Lync Server 2013 合併時，我們會要求您先 collocate Lync Server 2010 轉送伺服器。 在合併拓朴並設定 Lync Server 2013 轉送伺服器之後，您可以決定是否要保留 collocated 轉送伺服器，或在部署期間將轉送伺服器角色移至 Lync Server 2013 時，將它變更為獨立伺服器。程式.
     
-    ![前端池選取 [collocated 伺服器角色] 頁面](images/JJ204718.e00b7eba-010b-44ed-b0a6-6ab3e534fb8c(OCS.15).jpg "前端池選取 [collocated 伺服器角色] 頁面")
+    ![前端集區的 [選取組合的伺服器角色] 頁面](images/JJ204718.e00b7eba-010b-44ed-b0a6-6ab3e534fb8c(OCS.15).jpg "前端集區的 [選取組合的伺服器角色] 頁面")
 
 7.  在 [**將伺服器角色與此前端池建立關聯**] 頁面上的 [試驗池] 部署期間，請不要選擇 [**啟用此前端池的媒體元件要使用 Edge 池**] 選項。 這是您將在稍後的遷移階段啟用並加入線上的功能。 暫時清除此設定。
     
-    ![關聯伺服器角色與前端池頁面](images/JJ204718.2d95a798-ad76-4dad-9392-ce41f4d938d1(OCS.15).jpg "將伺服器角色與前端池頁面建立關聯")
+    ![[建立伺服器角色與前端集區的關聯] 頁面](images/JJ204718.2d95a798-ad76-4dad-9392-ce41f4d938d1(OCS.15).jpg "[建立伺服器角色與前端集區的關聯] 頁面")
 
 8.  在 [**選取 Office Web Apps 伺服器**] 頁面上，按一下 [**新增**]，然後指定應用程式伺服器的 FQDN。
     
-    ![定義新的 Office Web Apps 伺服器 fqdn 屬性](images/JJ204718.25c6b455-f1b8-4326-a569-6e338153d398(OCS.15).jpg "定義新的 Office WEB apps server fqdn 屬性")
+    ![定義新 Office Online Server FQDN 內容](images/JJ204718.25c6b455-f1b8-4326-a569-6e338153d398(OCS.15).jpg "定義新 Office Online Server FQDN 內容")
 
 9.  在**定義 [封存 Sql Server store** ] 頁面上，定義 [lync server 封存與監控的 sql server store] 時，請選取舊版 lync server 2013 建立的 sql server 實例。
     
-    ![定義 [封存 Sql server store]] （定義封存）(images/JJ204718.0f76f1dc-d0d7-42a0-aea3-400b8e1f35cd(OCS.15).jpg "[sql server Store") ] （存檔）頁面
+    ![[定義封存 SQL Server 存放區] 頁面](images/JJ204718.0f76f1dc-d0d7-42a0-aea3-400b8e1f35cd(OCS.15).jpg "[定義封存 SQL Server 存放區] 頁面")
 
 10. 若要發佈拓撲，請以滑鼠右鍵按一下**Lync Server**節點，然後按一下 [**發佈拓撲**]。
     
-    顯示已設定拓撲結構建立器顯示(images/JJ205144.c3eafa20-159e-4355-a23d-9f72aeb26037(OCS.15).jpg "已設定拓朴")的![拓撲產生器]
+    ![顯示設定拓撲的拓撲產生器](images/JJ205144.c3eafa20-159e-4355-a23d-9f72aeb26037(OCS.15).jpg "顯示設定拓撲的拓撲產生器")
 
 11. 發佈程式完成後，請按一下 **[完成]**。
 

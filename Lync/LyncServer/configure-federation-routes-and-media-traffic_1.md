@@ -3,6 +3,8 @@ title: 設定同盟路由與媒體流量
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Configure federation routes and media traffic
 ms:assetid: ed6cb922-7863-453a-adce-2ce0ba761d74
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721925(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733860
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4542ae02cc72dfbac05dfa982e2fbda7f2924919
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7af8228a7537f1bbef4e92af852834459281a817
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40977727"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728173"
 ---
 # <a name="configure-federation-routes-and-media-traffic"></a>設定同盟路由與媒體流量
 
@@ -63,7 +65,7 @@ ms.locfileid: "40977727"
 
 5.  在 [網站同盟路由指派] 下，清除 [**啟用 SIP 聯盟**] 旁的核取方塊，以停用**BackCompatSite**的同盟路由。
     
-    [![編輯屬性] 對話方塊、[同盟路由](images/JJ721925.2a80c103-c0cc-43ed-ba00-420f9add006a(OCS.15).jpg "編輯屬性] 對話方塊、[同盟] 路由")
+    ![[編輯內容] 對話方塊，同盟路由](images/JJ721925.2a80c103-c0cc-43ed-ba00-420f9add006a(OCS.15).jpg "[編輯內容] 對話方塊，同盟路由")
 
 6.  按一下 **[確定]** 以關閉 [編輯屬性] 頁面。
 
@@ -79,11 +81,11 @@ ms.locfileid: "40977727"
 
 3.  在 [**指定邊緣設定**] 上，選取目前針對 [同盟] 設定的**邊緣伺服器內部 FQDN** ，然後按一下 [**變更**]。
     
-    [![合併 OCS 2007 R2 拓撲]，指定 [邊緣設定]](images/JJ721925.42c15aaf-c1ac-4fb1-a086-665835c57b23(OCS.15).jpg "合併 OCS 2007 R2 拓撲，指定邊緣設定")
+    ![合併 OCS 2007 R2 拓撲，指定 Edge 設定](images/JJ721925.42c15aaf-c1ac-4fb1-a086-665835c57b23(OCS.15).jpg "合併 OCS 2007 R2 拓撲，指定 Edge 設定")
 
 4.  按一下 **[下一步]** ，接受預設設定，直到您到達 [**指定外部邊緣**] 頁面為止：
     
-    ![拓撲建立器指定外部邊緣頁面](images/JJ721925.e36f3a1f-3655-456e-9e6d-4814c37da0bf(OCS.15).jpg "拓撲建立器指定外部邊緣頁面")
+    ![拓撲產生器的 [指定外部 Edge] 頁面](images/JJ721925.e36f3a1f-3655-456e-9e6d-4814c37da0bf(OCS.15).jpg "拓撲產生器的 [指定外部 Edge] 頁面")
 
 5.  在 [**指定外部邊緣**] 中，清除 [**此 Edge 池用於同盟與公用 IM**連線] 核取方塊。 這將會移除與 BackCompatSite 的同盟關聯。
     
@@ -103,7 +105,7 @@ ms.locfileid: "40977727"
 
 10. **發佈嚮導**完成後，請按一下 **[完成**] 以關閉嚮導。
     
-    [拓撲建立器] ![，其中包含在]合併拓撲建立器之後顯示網站(images/JJ721925.92b679ad-332f-49aa-b4e2-19f939b711ca(OCS.15).jpg "的")網站
+    ![具有合併之後顯示之網站的拓撲產生器](images/JJ721925.92b679ad-332f-49aa-b4e2-19f939b711ca(OCS.15).jpg "具有合併之後顯示之網站的拓撲產生器")
     
     如上圖所示，位於 [**網站同盟路由指派**] 下的**SIP 同盟**設定為 [**已停用**]。
 
@@ -129,7 +131,7 @@ ms.locfileid: "40977727"
 
 5.  輸入 Lync Server 2013 Edge 伺服器的 FQDN，然後按一下 **[確定]**。
     
-    ![Ocs 全域屬性、[同盟]]索引標籤(images/JJ721925.da633f72-43c6-4dac-8d37-ccd0dcde79c9(OCS.15).jpg "OCS 全域屬性、[同盟]")索引標籤
+    ![OCS 通用內容，[同盟] 索引標籤](images/JJ721925.da633f72-43c6-4dac-8d37-ccd0dcde79c9(OCS.15).jpg "OCS 通用內容，[同盟] 索引標籤")
 
 ## <a name="to-turn-on-lync-server-2013-edge-server-federation"></a>若要開啟 Lync Server 2013 Edge 伺服器同盟
 
@@ -145,7 +147,7 @@ ms.locfileid: "40977727"
 
 3.  在 [**一般**] 頁面上，選取 [**針對此 Edge 池啟用同盟（埠5061）** ] 核取方塊。
     
-    ![編輯屬性、一般、啟用邊緣同盟](images/JJ721925.2aeb5958-da55-4910-b3d7-2124e144a2f0(OCS.15).jpg "編輯屬性、一般、啟用邊緣同盟")
+    ![編輯內容，一般，啟用 Edge 同盟](images/JJ721925.2aeb5958-da55-4910-b3d7-2124e144a2f0(OCS.15).jpg "編輯內容，一般，啟用 Edge 同盟")
 
 4.  按一下 **[確定]** 以關閉 [編輯屬性] 頁面。
 
@@ -159,7 +161,7 @@ ms.locfileid: "40977727"
 
 9.  按一下 **[確定]** 以關閉 [**編輯屬性**] 頁面。
     
-    ![編輯屬性、一般、關聯邊緣池](images/JJ721925.33d43297-10cd-412e-bf4a-a1d9a84b9009(OCS.15).jpg "編輯屬性、一般、關聯邊緣池")
+    ![編輯內容，一般，關聯 Edge 集區](images/JJ721925.33d43297-10cd-412e-bf4a-a1d9a84b9009(OCS.15).jpg "編輯內容，一般，關聯 Edge 集區")
     
     針對多網站部署，請在每個網站完成此程式。
 
@@ -173,7 +175,7 @@ ms.locfileid: "40977727"
 
 4.  從下拉式方塊中，選取 [Lync Server 2013 Edge 伺服器]。
     
-    [![編輯屬性] 對話方塊、[關聯邊緣池]] [(images/JJ721925.0cb76b08-5923-4972-8d7a-a829cb77136b(OCS.15).jpg "編輯屬性] 對話方塊、[關聯邊緣] 池")
+    ![[編輯內容] 對話方塊，關聯 Edge 集區](images/JJ721925.0cb76b08-5923-4972-8d7a-a829cb77136b(OCS.15).jpg "[編輯內容] 對話方塊，關聯 Edge 集區")
 
 5.  按一下 **[確定]** 以關閉 [**編輯屬性**] 頁面。
 

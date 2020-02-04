@@ -3,6 +3,8 @@ title: Lync Server 2013 適用於中型組織的參考拓樸
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Reference topology for medium-size organizations
 ms:assetid: 446b0914-2198-445e-ab6e-94802acebd5c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425939(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184026
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 41a003bd87e4dc8b85e78946a5ce870f3f6dd045
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: da4c29107a6ca3d33e76708be9eec07297eeaf93
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40982787"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724403"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +41,7 @@ _**主題上次修改日期：** 2013-10-07_
 
 **中型組織的參考拓撲**
 
-單一資料![中心圖表的參照拓撲](images/Gg425939.12b574fd-0b14-4563-a88c-3c8b0809bb90(OCS.15).jpg "單一資料中心圖表的參照拓撲")
+![單一資料中心圖表的參考拓撲](images/Gg425939.12b574fd-0b14-4563-a88c-3c8b0809bb90(OCS.15).jpg "單一資料中心圖表的參考拓撲")
 
   - **新增更多前端伺服器以容納更多使用者。**   此圖中的確切拓撲包含三個前端伺服器來提供20000使用者的支援。 如果您有單一的中央網站及更多使用者，您可以直接在池中新增更多前端伺服器。 每個池的使用者數目上限為80000，且有十二個前端伺服器。
     

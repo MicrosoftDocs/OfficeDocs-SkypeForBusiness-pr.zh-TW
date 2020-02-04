@@ -3,6 +3,8 @@ title: 設定各種原則
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring the Various Policies
 ms:assetid: e3b3cbda-7c17-470b-acb0-82fdcc473184
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945610(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541436
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a105ea62b82d904007a2faa0493fd17092b84462
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6316a1027de963cefea6c0c76051f09cb5d33538
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40974860"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727683"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -99,7 +101,7 @@ _**主題上次修改日期：** 2013-02-24_
 
 請參閱範例 ConferenceAutoAttendantConfiguration. ps1。 記下 ConferencingAutoAttendant 的電話號碼（預設為1121111111），這樣您就可以將它輸入到 LyncPerf 工具設定工具中，以進行配置產生。
 
-設定![會議助理應用程式，]以設定(images/JJ945610.0618a22f-27a9-423a-9085-d2bf71e82db6(OCS.15).jpg "會議助理應用程式")
+![設定會議服務員應用程式](images/JJ945610.0618a22f-27a9-423a-9085-d2bf71e82db6(OCS.15).jpg "設定會議服務員應用程式")
 
 如需詳細資訊，請參閱 lync server 2013 檔和 lync server 2013 中的[Lync server 2013](https://technet.microsoft.com/en-us/library/gg415675\(v=ocs.15\))和[電話撥入式會議 Cmdlet](https://technet.microsoft.com/en-us/library/gg415630\(v=ocs.15\))中的 Web 會議 Cmdlet Cmdlet 說明。
 
@@ -132,7 +134,7 @@ _**主題上次修改日期：** 2013-02-24_
 
 2.  您可以在 UserProvisioningTool 中的 [**宏] 索引標籤上填入**值來設定位址，如下圖所示。
     
-    ![配置位置資訊服務。](images/JJ945610.8ac1faa1-e9f9-40d0-b8b7-b159f4f459f7(OCS.15).jpg "配置位置資訊服務。")  
+    ![設定位置資訊服務。](images/JJ945610.8ac1faa1-e9f9-40d0-b8b7-b159f4f459f7(OCS.15).jpg "設定位置資訊服務。")  
 
 3.  按一下 [**產生 .Lis 設定檔**]。
 
@@ -154,7 +156,7 @@ _**主題上次修改日期：** 2013-02-24_
 
 請參閱範例 ResponseGroupConfiguration. ps1。 如需詳細資訊，請參閱 lync server 2013 檔和適用于[Lync server 2013 中之回應群組應用程式 Cmdlet](https://technet.microsoft.com/en-us/library/gg415654\(v=ocs.15\))的 Cmdlet 說明。若要查看回應群組應用程式設定， `https://<poolfqdn>/RgsConfig/`請參閱，如下圖所示。
 
-![[回應群組設定] 工具。](images/JJ945610.480a9440-2283-4533-98f8-86daaab4781c(OCS.15).jpg "[回應群組設定] 工具。")
+![回應群組設定工具。](images/JJ945610.480a9440-2283-4533-98f8-86daaab4781c(OCS.15).jpg "回應群組設定工具。")
 
 </div>
 

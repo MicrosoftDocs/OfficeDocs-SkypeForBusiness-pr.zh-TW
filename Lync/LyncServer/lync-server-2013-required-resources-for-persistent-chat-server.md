@@ -3,6 +3,8 @@ title: Lync Server 2013：常設聊天室伺服器的必要資源
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Required resources
 ms:assetid: bce50b95-f3c8-407e-963a-d8896ee77fbc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205211(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185255
 ms.date: 02/05/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ac51432de0a6ca261e42f77d64ef1aa1a615cb6d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 31683641e50a3e3bc898841b0cf4b0911e046262
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40982458"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723823"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -69,13 +71,13 @@ _**主題上次修改日期：** 2016-02-05_
 
 **當資料中心位於具有高頻寬/低延遲的地理位置時，延伸持久聊天伺服器池。**
 
-![持續聊天伺服器池 HBW 設定考試](images/JJ205211.55d10910-c824-41e6-bed2-08d13a2abd65(OCS.15).jpg "持續聊天伺服器池 HBW 配置測試")
+![Persistent Chat Server 集區 HBW 組態範例](images/JJ205211.55d10910-c824-41e6-bed2-08d13a2abd65(OCS.15).jpg "Persistent Chat Server 集區 HBW 組態範例")
 
 下圖顯示延伸的持久聊天伺服器池拓撲，其中資料中心是具有低頻寬/高延遲的地理位置。
 
 **當資料中心位於具有低頻寬/高延遲的地理位置時，延伸持久聊天伺服器池。**
 
-![持續聊天伺服器池 LBW 設定考試](images/JJ205211.586b0a3a-3767-4991-944f-ee54389512aa(OCS.15).jpg "持續聊天伺服器池 LBW 配置測試")
+![Persistent Chat Server 集區 LBW 組態範例](images/JJ205211.586b0a3a-3767-4991-944f-ee54389512aa(OCS.15).jpg "Persistent Chat Server 集區 LBW 組態範例")
 
 </div>
 

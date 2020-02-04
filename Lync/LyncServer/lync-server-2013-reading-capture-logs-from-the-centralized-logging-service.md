@@ -3,6 +3,8 @@ title: Lync Server 2013：從集中式記錄服務讀取捕獲記錄
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Reading capture logs from the Centralized Logging Service
 ms:assetid: c86ccf61-d86f-4ebd-b8d1-984a1b73005d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721879(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733813
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 55bfeaa5bc9a2e89d8c52529c5d05ae7e3ee8feb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2713c9a1209aad4a96fcb3a76afaf7c2bc61c0dc
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40974977"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724553"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -49,11 +51,11 @@ _**主題上次修改日期：** 2016-12-28_
 
 Lync Server 2013 引進了一份更新版本的 Snooper，其中包含一些新功能。 下列螢幕擷取畫面顯示 Office 通訊伺服器2007的 Snooper 版本。
 
-![Office 通訊2007版本的 Snooper。](images/JJ721879.129503a8-8edd-4bb0-a68f-c43f9a548b93(OCS.15).jpg "Office 通訊2007版本的 Snooper。")
+![Office Communications 2007 版 Snooper。](images/JJ721879.129503a8-8edd-4bb0-a68f-c43f9a548b93(OCS.15).jpg "Office Communications 2007 版 Snooper。")
 
 下列螢幕擷取畫面顯示 Lync Server 2013 調試工具中所包含的新 Snooper 版本。
 
-![Lync Server 2013 版本的 Snooper。](images/JJ721879.131495dd-8220-4ae4-af37-0ac5c318fd45(OCS.15).jpg "Lync Server 2013 版本的 Snooper。")
+![Lync Server 2013 版 Snooper。](images/JJ721879.131495dd-8220-4ae4-af37-0ac5c318fd45(OCS.15).jpg "Lync Server 2013 版 Snooper。")
 
 下列螢幕擷取畫面顯示工具列，其中包含常用的函數。
 
@@ -61,11 +63,11 @@ Lync Server 2013 引進了一份更新版本的 Snooper，其中包含一些新�
 
 而且，新增值的最新功能就是流程圖（[通話流程]）圖表視圖。 您可以在 [**郵件**] 索引標籤中選取郵件流程，然後按一下 [**通話流程**] 按鈕。 當您在郵件中進行時，會使用新的資料來更新通話流程圖表。
 
-![Snooper 2013 通話流程圖表。](images/JJ721879.bb8be45d-a842-48fe-86f8-380207d70bab(OCS.15).jpg "Snooper 2013 通話流程圖表。")
+![Snooper 2013 通話流程圖。](images/JJ721879.bb8be45d-a842-48fe-86f8-380207d70bab(OCS.15).jpg "Snooper 2013 通話流程圖。")
 
 您可以將游標暫留在圖表視圖上，並取得流程與訊息以及伺服器元素的訊息和內容的詳細資料。 按一下任何通話流程箭號，即可移至 [郵件] 視圖中的郵件。
 
-![通話流程圖表訊息詳細資料。](images/JJ721879.1147d720-38a9-4bda-8361-78f27ecde3d1(OCS.15).jpg "通話流程圖表訊息詳細資料。")
+![通話流程圖訊息詳細資料。](images/JJ721879.1147d720-38a9-4bda-8361-78f27ecde3d1(OCS.15).jpg "通話流程圖訊息詳細資料。")
 
 <div>
 

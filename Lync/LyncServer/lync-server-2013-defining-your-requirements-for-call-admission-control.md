@@ -3,6 +3,8 @@ title: Lync Server 2013：定義通話許可控制需求
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Defining your organization's requirements for call admission control
 ms:assetid: 5122171a-a5b0-4059-b033-846caec10d1e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398334(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184104
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7737d303c7239df451c71b4f92d4dcd8dfe5b2e4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ba23e34099ed75f61f8025711189c60d36ca18f0
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40974214"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41722353"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -60,7 +62,7 @@ _**主題上次修改日期：** 2013-10-28_
 
 **通話許可控制的範例拓撲**
 
-![Litware inc. 網路拓朴範例](images/Gg398334.477f3b52-2973-4026-9bc0-b1c6bf9f4803(OCS.15).jpg "Litware Inc.. 網路拓朴範例")
+![Litware Inc. 網路拓撲範例](images/Gg398334.477f3b52-2973-4026-9bc0-b1c6bf9f4803(OCS.15).jpg "Litware Inc. 網路拓撲範例")
 
 <div>
 

@@ -3,6 +3,8 @@ title: 準備 Lync Server 的 Active Directory
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Prepare Active Directory for Lync Server
 ms:assetid: 54cd597d-0c2d-479c-8c52-1babc53f71dc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688059(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733653
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5ff5be6fbf3849c51979f3cf94dbc36d14e5b282
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: bface3b7e2515ed7ec8a8f3d78f21e867a6d6c00
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40977097"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727343"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,11 +45,11 @@ _**主題上次修改日期：** 2012-09-17_
 
 2.  選取 [**準備 Active Directory**]。
     
-    ![Lync server 2013 部署嚮導，歡迎頁面](images/JJ205265.5f88ae18-9c3c-42ea-a91a-836ecf5d515f(OCS.15).jpg "Lync Server 2013 部署嚮導，歡迎頁面")
+    ![Lync Server 2013 部署精靈，歡迎頁面](images/JJ205265.5f88ae18-9c3c-42ea-a91a-836ecf5d515f(OCS.15).jpg "Lync Server 2013 部署精靈，歡迎頁面")
 
 3.  完成步驟1到5。
     
-    ![部署嚮導、Active Directory Prearation](images/JJ205265.eddd9e94-fa70-453f-8810-b99a2bf0844a(OCS.15).jpg "部署嚮導、active directory Prearation")
+    ![部署精靈、Active Directory 準備](images/JJ205265.eddd9e94-fa70-453f-8810-b99a2bf0844a(OCS.15).jpg "部署精靈、Active Directory 準備")
 
 </div>
 

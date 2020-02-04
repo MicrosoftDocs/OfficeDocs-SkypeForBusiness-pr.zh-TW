@@ -3,6 +3,8 @@ title: 建立使用者和連絡人
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Create Users and Contacts
 ms:assetid: 04b24d07-2864-463d-b508-544c2674c4ab
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945587(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541412
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6f09ac6fd667b77b47e27ec9fb9caac44b9a13e1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b1463a7caaad2bcf36996eaac4bd47e2bab25e6f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40975482"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727573"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -77,7 +79,7 @@ _**主題上次修改日期：** 2013-02-22_
 
 當 Lync Server 使用者提供工具開啟時 **，按一下 [設定]，然後**選取 [**載入**設定]。 若要開始配置使用者和連絡人，請載入套件中包含的預設檔案 SampleData .xml。 這將會針對您的系統所需修正的範例資料來預填入欄位。 如果您有預先配置的 XML 檔案，而該檔案已包含自訂的設定，請改為載入該檔案。 在 Lync Server 使用者預配工具中填入欄位，如下列各節所述。
 
-[![使用者建立]]索引標籤。[(images/JJ945587.80d3c17b-7482-4818-8381-1eff8717d2fe(OCS.15).jpg "使用者建立]")索引標籤。
+![[User Creation] (使用者建立) 索引標籤。](images/JJ945587.80d3c17b-7482-4818-8381-1eff8717d2fe(OCS.15).jpg "[User Creation] (使用者建立) 索引標籤。")
 
 若要設定伺服器選項，請遵循下列步驟。
 
@@ -149,7 +151,7 @@ _**主題上次修改日期：** 2013-02-22_
 
 [連絡人建立] 索引標籤可讓您指定使用者連絡人的詳細資料。
 
-![連絡人 [建立]]索引標籤。(images/JJ945587.7508726e-83e6-4878-8edd-114543d9af24(OCS.15).jpg "連絡人 [建立]")索引標籤。
+![[Contacts Creation] (連絡人建立) 索引標籤。](images/JJ945587.7508726e-83e6-4878-8edd-114543d9af24(OCS.15).jpg "[Contacts Creation] (連絡人建立) 索引標籤。")
 
 若要設定使用者的連絡人，請執行下列步驟。
 
@@ -195,7 +197,7 @@ _**主題上次修改日期：** 2013-02-22_
 
 Lync Server 2013 應力和效能工具的其中一個功能，就是模擬 Lync 2013 中的通訊群組清單（DL）擴充功能。 如果您不打算在 UserProvisioningTool 中啟用 DL 延伸，您可以略過這個步驟。
 
-[![通訊群組清單建立]]索引標籤。[(images/JJ945587.0a1d681b-2aea-4724-90d8-efa8a526f600(OCS.15).jpg "通訊群組清單建立]")索引標籤。
+![[Distribution List Creation] (通訊群組清單建立) 索引標籤。](images/JJ945587.0a1d681b-2aea-4724-90d8-efa8a526f600(OCS.15).jpg "[Distribution List Creation] (通訊群組清單建立) 索引標籤。")
 
 [通訊群組清單] 索引標籤可讓您建立使用壓力與效能工具來進行通訊群組清單擴充功能的 Dl。 在建立 Dl 之前，必須先安裝 Lync Server 2013。 您必須已執行 Lync Server 2013 ForestPrep。 否則，DL 屬性不會存在於 Active Directory 網域服務架構中，且工具將無法建立 DLs。
 
@@ -225,7 +227,7 @@ Lync Server 2013 應力和效能工具的其中一個功能，就是模擬 Lync 
 
 Lync Server 2013 應力和效能工具的其中一個功能，就是產生位置資訊服務的虛擬設定檔。 位置資訊服務通常不會對伺服器產生任何重要的效能影響。
 
-![位置資訊服務 [配置]]索引標籤。(images/JJ945587.52ea4e9e-d50a-4dc9-982b-31ee5ace4578(OCS.15).jpg "位置資訊服務 [配置]")索引標籤。
+![[Location Info Service Config] (位置資訊服務設定) 索引標籤。](images/JJ945587.52ea4e9e-d50a-4dc9-982b-31ee5ace4578(OCS.15).jpg "[Location Info Service Config] (位置資訊服務設定) 索引標籤。")
 
 如果您選擇要測試這項功能，您可以在表單中填入所提及的值，然後按一下 [產生 IIS 配置檔案] 按鈕。 它將會產生名為 .LIS\_子網 .CSV、.lis\_開關 .csv、.LIS\_埠 .csv 和 .lis\_的 WAP .csv 的 CSV 檔案。 接著，您可以使用**CsLisSubnet** Cmdlet、 **CsLisSwitch** Cmdlet、 **set CsLisPort** Cmdlet 以及**SET-CsWirelessAccessPoint** Cmdlet，將這些 CSV 檔案匯入到 iis 資料庫。
 

@@ -3,6 +3,8 @@ title: 部署 Lync Server 2013 試用版池
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploy Lync Server 2013 pilot pool
 ms:assetid: 19c27053-8b21-401f-ad91-75c2dd355e91
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204718(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183539
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f5e9068ca3ff5a2827991869598a2066473cc5af
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 46e6d4bd34c20038e430323b0f78ccf4f918aa62
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40975507"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724043"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -57,7 +59,7 @@ _**主題上次修改日期：** 2013-11-22_
 
 3.  輸入主要 SIP 網域。
     
-    ![建立新拓撲、定義主要網域頁面](images/JJ204718.68775d87-f32c-494a-8386-6d4c81e81284(OCS.15).jpg "建立新的拓撲，定義主要網域頁面")
+    ![建立新拓撲，[定義主要網域] 頁面](images/JJ204718.68775d87-f32c-494a-8386-6d4c81e81284(OCS.15).jpg "建立新拓撲，[定義主要網域] 頁面")
 
 4.  繼續完成嚮導，直到您到達 [**定義新的前臺端池**] 嚮導。 按一下 [下一步]。
 
@@ -72,31 +74,31 @@ _**主題上次修改日期：** 2013-11-22_
     
     </div>
     
-    ![定義 [前端池 fqdn] 頁面]以(images/JJ204718.5ff4336c-13fa-47cc-899b-066f267eb3f0(OCS.15).jpg "定義 [前端池 fqdn] 頁面")
+    ![[定義前端集區 FQDN] 頁面](images/JJ204718.5ff4336c-13fa-47cc-899b-066f267eb3f0(OCS.15).jpg "[定義前端集區 FQDN] 頁面")
 
 6.  定義將新增至池中的電腦。
     
-    [![定義新的前端池] 對話方塊][(images/JJ204718.374f0ed4-988b-465f-9861-8d1db401e76f(OCS.15).jpg "定義新的前端池] 對話方塊")
+    ![[定義新前端集區] 對話方塊](images/JJ204718.374f0ed4-988b-465f-9861-8d1db401e76f(OCS.15).jpg "[定義新前端集區] 對話方塊")
 
 7.  在 [**選取功能**] 頁面上，選取您要用於此前端池之功能的核取方塊。 例如，如果您只部署立即訊息（IM）和目前狀態功能，您可以選取 [會議] 核取方塊以允許多方 IM，但不會選取 [撥入（PSTN）會議]、[企業語音] 或 [通話許可控制] 核取方塊。因為它們代表語音、影片和共同作業會議功能。 如需有關選取功能的其他資訊，請參閱部署檔中的[Lync server 2013 中的定義及設定前端池或標準版伺服器](lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md)。
     
-    ![前端池選取功能頁面](images/JJ204718.5c3f3ff9-6e17-4d66-9b13-3bd55b38246b(OCS.15).jpg "正面端池選取 [功能] 頁面")
+    ![前端集區的 [選取功能] 頁面](images/JJ204718.5c3f3ff9-6e17-4d66-9b13-3bd55b38246b(OCS.15).jpg "前端集區的 [選取功能] 頁面")
 
 8.  在 [**選取 collocated 伺服器角色**] 頁面上，我們建議您 Collocate Lync server 2013 中的中繼伺服器。 當您將舊版拓撲與 Lync Server 2013 合併時，我們會要求您先 collocate Office 通訊伺服器 2007 R2 轉送伺服器。 在合併拓朴並設定 Lync Server 2013 轉送伺服器之後，您可以決定是否要保留 collocated 轉送伺服器，或在部署期間將轉送伺服器角色移至 Lync Server 2013 時，將它變更為獨立伺服器。程式.
     
-    ![前端池選取 [collocated 伺服器角色] 頁面](images/JJ204718.e00b7eba-010b-44ed-b0a6-6ab3e534fb8c(OCS.15).jpg "前端池選取 [collocated 伺服器角色] 頁面")
+    ![前端集區的 [選取組合的伺服器角色] 頁面](images/JJ204718.e00b7eba-010b-44ed-b0a6-6ab3e534fb8c(OCS.15).jpg "前端集區的 [選取組合的伺服器角色] 頁面")
 
 9.  在 [**將伺服器角色與此前端池建立關聯**] 頁面上的 [試驗池] 部署期間，請不要選擇 [**啟用此前端池的媒體元件要使用 Edge 池**] 選項。 這是您將在稍後的遷移階段啟用並加入線上的功能。 暫時清除此設定。
     
-    ![關聯伺服器角色與前端池頁面](images/JJ204718.2d95a798-ad76-4dad-9392-ce41f4d938d1(OCS.15).jpg "將伺服器角色與前端池頁面建立關聯")
+    ![[建立伺服器角色與前端集區的關聯] 頁面](images/JJ204718.2d95a798-ad76-4dad-9392-ce41f4d938d1(OCS.15).jpg "[建立伺服器角色與前端集區的關聯] 頁面")
 
 10. 在 [**選取 Office Web Apps 伺服器**] 頁面上，按一下 [**新增**]，然後指定應用程式伺服器的 FQDN。
     
-    ![定義新的 Office Web Apps 伺服器 fqdn 屬性](images/JJ204718.25c6b455-f1b8-4326-a569-6e338153d398(OCS.15).jpg "定義新的 Office WEB apps server fqdn 屬性")
+    ![定義新 Office Online Server FQDN 內容](images/JJ204718.25c6b455-f1b8-4326-a569-6e338153d398(OCS.15).jpg "定義新 Office Online Server FQDN 內容")
 
 11. 在 [**定義存檔 SQL Server store** ] 頁面上，選取舊版 Lync Server 2013 建立的 SQL Server 實例。
     
-    ![定義 [封存 Sql server store]] （定義封存）(images/JJ204718.0f76f1dc-d0d7-42a0-aea3-400b8e1f35cd(OCS.15).jpg "[sql server Store") ] （存檔）頁面
+    ![[定義封存 SQL Server 存放區] 頁面](images/JJ204718.0f76f1dc-d0d7-42a0-aea3-400b8e1f35cd(OCS.15).jpg "[定義封存 SQL Server 存放區] 頁面")
 
 12. 在 [**定義監視 SQL Server 存放區**] 頁面上，選取舊版 Lync server 2013 建立的 SQL Server 實例。 按一下 **[完成]**。
 
@@ -104,7 +106,7 @@ _**主題上次修改日期：** 2013-11-22_
 
 14. 更新**管理存取 URL**。
     
-    ![編輯屬性、簡單 url 頁面](images/JJ204718.ef596dd2-1983-47e0-b342-4fc7a0e36380(OCS.15).jpg "編輯屬性、簡單 url 頁面")
+    ![編輯內容，[簡單 URL] 頁面](images/JJ204718.ef596dd2-1983-47e0-b342-4fc7a0e36380(OCS.15).jpg "編輯內容，[簡單 URL] 頁面")
     
     如需簡單 Url 的其他資訊，請參閱部署檔中的 [[在 Lync Server 2013 編輯或設定簡單 url](lync-server-2013-edit-or-configure-simple-urls.md) ] 主題。
 
@@ -112,7 +114,7 @@ _**主題上次修改日期：** 2013-11-22_
 
 16. 從下拉式清單中，選取 [Lync Server 2013] 池。
     
-    ![編輯屬性、集中式管理伺服器頁面](images/JJ204718.211955fc-85f2-462d-8709-e6ea67092e89(OCS.15).jpg "編輯屬性、中央管理伺服器頁面")
+    ![編輯內容，[中央管理伺服器] 頁面](images/JJ204718.211955fc-85f2-462d-8709-e6ea67092e89(OCS.15).jpg "編輯內容，[中央管理伺服器] 頁面")
 
 17. 按一下 [確定] 以關閉 **[編輯屬性**] 頁面。
 
@@ -122,7 +124,7 @@ _**主題上次修改日期：** 2013-11-22_
 
 20. 返回 [Lync Server 2013 部署嚮導]，然後按一下 [**安裝或更新 Lync Server 系統**]。
     
-    ![Lync server 2013 部署嚮導](images/JJ204718.fb05adef-ad29-4905-9090-d409261b0e48(OCS.15).jpg "Lync Server 2013 部署嚮導")
+    ![Lync Server 2013 部署精靈](images/JJ204718.fb05adef-ad29-4905-9090-d409261b0e48(OCS.15).jpg "Lync Server 2013 部署精靈")
 
 若要安裝 configuration store 的本機複本並啟動必要的服務，請參閱部署檔中的[Lync Server 2013 設定前端伺服器和前端池](lync-server-2013-setting-up-front-end-servers-and-front-end-pools.md)。
 

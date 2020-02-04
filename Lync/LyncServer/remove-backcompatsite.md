@@ -3,6 +3,8 @@ title: 移除 BackCompatSite
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Remove BackCompatSite
 ms:assetid: 039650e3-541b-45c2-a682-c4fa08423118
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204637(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183265
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fe6a3d1dc92e45bc99892e7827394376b6f28b12
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ccfcd48c575e300b12fe08611d6f898749041478
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40981661"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727193"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -49,7 +51,7 @@ _**主題上次修改日期：** 2012-09-28_
 
 4.  在 [**指定舊版 Edge** ] 頁面上，確定 Edge 伺服器清單是空的。 如果清單不是空白，請使用 [**移除**] 按鈕來移除所有舊版邊緣伺服器，然後按 **[下一步]**。
     
-    [![合併拓撲嚮導]，指定 [邊緣設定] 頁面](images/JJ204637.fb35a59a-711e-4259-b177-7311df1fed3c(OCS.15).jpg "合併拓撲嚮導，指定 [edge 設定] 頁面")  
+    ![合併拓撲精靈，[指定 Edge 安裝] 頁面](images/JJ204637.fb35a59a-711e-4259-b177-7311df1fed3c(OCS.15).jpg "合併拓撲精靈，[指定 Edge 安裝] 頁面")  
 
 5.  在 [**指定內部 SIP 埠設定**] 頁面上，按一下 **[下一步]**。
 

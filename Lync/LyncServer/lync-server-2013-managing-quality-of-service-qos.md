@@ -1,6 +1,8 @@
 ---
 title: Lync Server 2013：管理服務品質（QoS）
 ms.reviewer: ''
+f1.keywords:
+- NOCSH
 TOCTitle: Managing Quality of Service (QoS)
 author: lanachin
 ms.author: v-lanac
@@ -11,12 +13,12 @@ ms:contentKeyID: 48185049
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 96f25d35f0d96c9e1681c6b4d2c2c3b3079aad34
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ce88471361c63fde3ebf8a3ea716a140567e722e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40974320"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725583"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

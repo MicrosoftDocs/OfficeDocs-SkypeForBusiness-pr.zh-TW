@@ -3,6 +3,8 @@ title: Lync Server 2013： QoE 查看詳細資料
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: QoE view details
 ms:assetid: 6a658318-a317-4546-a44c-a9c473d8e86a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688081(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733677
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8e223ff2adee63eb8e13304e4df6db519e85014f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d47fb90b7ffb9eb0cb7fcd1631a0f00ca249276a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40977086"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724603"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -46,7 +48,7 @@ _**主題上次修改日期：** 2012-10-03_
 <thead>
 <tr class="header">
 <th>[視圖名稱]</th>
-<th>描述</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>

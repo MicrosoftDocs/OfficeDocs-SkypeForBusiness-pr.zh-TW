@@ -3,6 +3,8 @@ title: 將試驗集區連線到舊版 Edge Server
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Connect pilot pool to legacy Edge Servers
 ms:assetid: 9ed13c41-f3ab-4e1d-beb6-a00152c541e2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205136(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185003
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 40d54a7432451901a32cb8e31d201ef732a731bd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 09858b03c787af034790c94bcbf12ca6ea7ceecf
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40976976"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723143"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -51,7 +53,7 @@ _**主題上次修改日期：** 2012-10-02_
 
 4.  在 [**網站同盟路由指派**] 底下，選取 [**啟用 SIP 同盟**]，然後選取 [Office 通訊伺服器 2007 r2 控制器]，或 [Office 通訊伺服器 2007 r2 Edge 伺服器] （如果沒有列出主管）。
     
-    [![編輯屬性] 對話方塊，[同盟路由] 頁面][(images/JJ205136.bc13014b-3578-4d9e-9ff7-bdd09130b676(OCS.15).jpg "編輯屬性] 對話方塊，[同盟路由] 頁面")  
+    ![[編輯內容] 對話方塊，[同盟路由] 頁面](images/JJ205136.bc13014b-3578-4d9e-9ff7-bdd09130b676(OCS.15).jpg "[編輯內容] 對話方塊，[同盟路由] 頁面")  
 
 5.  按一下 **[確定]** 以關閉 [**編輯屬性**] 頁面。
 
@@ -61,7 +63,7 @@ _**主題上次修改日期：** 2012-10-02_
 
 8.  從清單中選取 BackCompatSite 的邊緣伺服器介面。
     
-    ![[編輯屬性] 對話方塊，一般頁面 [](images/JJ205136.75045212-03ca-4b82-8337-5dacb487094f(OCS.15).jpg "編輯屬性] 對話方塊，[一般] 頁面")  
+    ![[編輯內容] 對話方塊，[一般] 頁面](images/JJ205136.75045212-03ca-4b82-8337-5dacb487094f(OCS.15).jpg "[編輯內容] 對話方塊，[一般] 頁面")  
 
 9.  按一下 **[確定]** 以關閉 [**編輯屬性**] 頁面。
 

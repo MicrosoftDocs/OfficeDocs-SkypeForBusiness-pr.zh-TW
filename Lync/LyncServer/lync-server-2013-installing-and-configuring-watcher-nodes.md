@@ -3,6 +3,8 @@ title: Lync Server 2013：安裝及設定觀察程式節點
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Installing and configuring watcher nodes
 ms:assetid: 61f6deea-e3ef-4468-9be8-a65705815ebb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204943(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184284
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 36d466cbffff1cf1e68eefe120215895e52e7c81
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 89465227e351da3c69116201efe5ee4eab89eca4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40977835"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726163"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -57,7 +59,7 @@ _**主題上次修改日期：** 2013-11-07_
 <thead>
 <tr class="header">
 <th>Cmdlet 名稱（測試名稱）</th>
-<th>描述</th>
+<th>說明</th>
 <th>綜合交易類型</th>
 </tr>
 </thead>

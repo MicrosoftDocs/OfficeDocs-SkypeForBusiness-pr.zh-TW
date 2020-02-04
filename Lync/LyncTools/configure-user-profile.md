@@ -3,6 +3,8 @@ title: 設定使用者設定檔
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Configure User Profile
 ms:assetid: 52713245-e502-4539-a238-66ff1aca26b1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945594(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541419
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e982156928cf36b4e20eaf86175d7acbdf048b6c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a2441fe97bb57ffdf0f6200f1201e192bfc6bf14
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40982603"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727703"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -61,7 +63,7 @@ Lync Server 2013 的 [應力] 和 [效能] 套件中所包含的工具可讓您�
 
 [Lync Server 2013 載入組態工具] 的 [**常用**設定] 索引標籤如下圖所示。 填寫 [**通用**設定] 索引標籤的欄位，如以下步驟所述。
 
-[![常見設定]]索引標籤。[(images/JJ945594.c68dcc8f-10f2-499e-95a2-fccbcc206c2f(OCS.15).jpg "常見設定]")索引標籤。
+![[Common Configuration] (一般設定) 索引標籤。](images/JJ945594.c68dcc8f-10f2-499e-95a2-fccbcc206c2f(OCS.15).jpg "[Common Configuration] (一般設定) 索引標籤。")
 
 1.  在 [**可用的電腦數**] 中，輸入或按一下您要用來執行 LyncPerfTool 的電腦數。 我們建議您針對您要模擬的每個4500使用者使用一部電腦。 如果您降低載入層級，或只使用可用功能的子集，該數位可能會有所不同。 （在 [**一般情況**] 索引標籤上設定 [負載等級]。）
 
@@ -95,7 +97,7 @@ Lync Server 2013 的 [應力] 和 [效能] 套件中所包含的工具可讓您�
 
 針對您要執行的每個一般案例，或 [保留停用] 來設定其負載等級與參數。
 
-![[一般情況]]索引標籤。(images/JJ945594.4f046d39-b532-4baf-99a6-c89d1d6d1fcc(OCS.15).jpg "[一般情況]")索引標籤。
+![[General Scenarios] (一般案例) 索引標籤。](images/JJ945594.4f046d39-b532-4baf-99a6-c89d1d6d1fcc(OCS.15).jpg "[General Scenarios] (一般案例) 索引標籤。")
 
 1.  在**立即訊息**（包括對等與會議）中，為載入層級指定適當的值。
     
@@ -142,7 +144,7 @@ Lync Server 2013 的 [應力] 和 [效能] 套件中所包含的工具可讓您�
 
 使用 [**語音案例**] 索引標籤來設定所有語音相關案例。
 
-[![語音案例]]索引標籤。[(images/JJ945594.28edf664-da59-40b0-9a0e-196f01e9ca86(OCS.15).jpg "語音案例]")索引標籤。
+![[Voice Scenarios] (語音案例) 索引標籤。](images/JJ945594.28edf664-da59-40b0-9a0e-196f01e9ca86(OCS.15).jpg "[Voice Scenarios] (語音案例) 索引標籤。")
 
 1.  在**VoIP**中，按一下 [**高級**] 按鈕，然後提供 [ **PhoneAreaCode** ] 和 [ **LocationProfile** （撥號方案）] 欄位的值。 您也必須為**載入層級**指定值。 如果已啟用 [ **VoIP**與**UC/PSTN 閘道**的負載等級]，就會一直產生將模擬外部呼叫的公用交換電話網絡（PSTN）設定檔。
 
@@ -183,7 +185,7 @@ Lync Server 2013 的 [應力] 和 [效能] 套件中所包含的工具可讓您�
 
 使用 [**延伸**] 索引標籤來設定所有對等相關案例。
 
-[![延伸]]索引標籤。[(images/JJ945594.65ccf6de-0e8d-47ba-93f3-9dcb39d3fd62(OCS.15).jpg "延伸]")索引標籤。
+![[Reach] (連絡) 索引標籤。](images/JJ945594.65ccf6de-0e8d-47ba-93f3-9dcb39d3fd62(OCS.15).jpg "[Reach] (連絡) 索引標籤。")
 
 1.  按一下 **[一般延伸設定**] 旁的 [**高級**] 按鈕。 將 [欄位**UcwaTargetServerUrl** ] 設定為 [控制器池虛擬 IP （VIP）] 或 [頂層端池 VIP]。
 
@@ -201,7 +203,7 @@ Lync Server 2013 的 [應力] 和 [效能] 套件中所包含的工具可讓您�
 
 使用 [**行動**] 索引標籤來設定所有行動相關案例。
 
-[![行動]]索引標籤。[(images/JJ945594.4dd8f3e0-921c-48a5-8b23-2a0330d3c334(OCS.15).jpg "行動]")索引標籤。
+![[Mobility] (行動) 索引標籤。](images/JJ945594.4dd8f3e0-921c-48a5-8b23-2a0330d3c334(OCS.15).jpg "[Mobility] (行動) 索引標籤。")
 
 1.  按一下 [**行動性（UCWA）**] 旁的 [**高級**] 按鈕。 將 [欄位**UcwaTargetServerUrl** ] 設定為 [控制器池虛擬 IP （VIP）] 或 [頂層端池 VIP]。
 
@@ -225,11 +227,11 @@ Lync Server 2013 的 [應力] 和 [效能] 套件中所包含的工具可讓您�
 
 [Lync Server 2013 載入組態工具] 的 [**摘要**] 索引標籤如下圖所示。
 
-[![摘要]]索引標籤。[(images/JJ945594.c675e869-8ded-4195-8c2a-68d844fc96ad(OCS.15).jpg "摘要]")索引標籤。
+![[Summary] (摘要) 索引標籤。](images/JJ945594.c675e869-8ded-4195-8c2a-68d844fc96ad(OCS.15).jpg "[Summary] (摘要) 索引標籤。")
 
 [**摘要**] 索引標籤會指出要在每個案例中使用的使用者。 若要手動設定使用者編號範圍，請選取 [**啟用自訂使用者範圍產生**] 核取方塊，然後在包含您要自訂之**使用者範圍**的資料表中，按兩下該案例。 Check （RunClient）在啟動時加入登入延遲，以包含產生的批次檔案中的延遲，以與登入速率相對應。 在登入大量的使用者時，這對避免伺服器超載很有用。 按一下 [**產生**檔案]，然後選取您要產生配置的資料夾。 當您的檔案已成功建立之後，就會出現類似下圖的對話方塊。
 
-![已建立檔案的確認。](images/JJ945594.00dc1e92-bfba-48e7-9568-b97ad864491e(OCS.15).jpg "已建立檔案的確認。")
+![檔案已建立的確認通知。](images/JJ945594.00dc1e92-bfba-48e7-9568-b97ad864491e(OCS.15).jpg "檔案已建立的確認通知。")
 
 </div>
 

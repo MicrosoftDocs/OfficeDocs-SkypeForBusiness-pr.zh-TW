@@ -3,6 +3,8 @@ title: Lync Server 2013：幹線間路由
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Inter-trunk routing
 ms:assetid: f687a548-1f2e-48ed-9745-a13dc1f3698f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721940(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733877
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 204402ba6620fa75b64bb9710ce979b44b63f412
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 37a9feb818f48317f9a3dddd78a70700e3f6ccfc
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40975692"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725843"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,11 +41,11 @@ Lync Server 2013 提供基本的會話管理，並支援 intertrunk 路由。 �
 
 下圖說明 Lync Server 2013，提供 PSTN 閘道與 IP PBX 之間的 interconnectivity。
 
-連線![pstn 閘道/IP pbx 圖的 Lync server]連接(images/JJ721940.cc3858ca-2ee3-4d51-8a51-db078366b50b(OCS.15).jpg "pstn 閘道/ip pbx 圖表的 lync server")
+![連接 PSTN 閘道/IP-PBX 圖表的 Lync Server](images/JJ721940.cc3858ca-2ee3-4d51-8a51-db078366b50b(OCS.15).jpg "連接 PSTN 閘道/IP-PBX 圖表的 Lync Server")
 
 下圖說明連接兩個 IP PBX 系統的 Lync Server 2013。
 
-![Lync server 互連 ip-pax 系統圖表](images/JJ721940.6ba18ec9-df70-498a-9cf7-7fc41e5ec432(OCS.15).jpg "LYNC server 互連 ip-pax 系統圖表")
+![交互連接 IP-PAX 系統圖表的 Lync Server](images/JJ721940.6ba18ec9-df70-498a-9cf7-7fc41e5ec432(OCS.15).jpg "交互連接 IP-PAX 系統圖表的 Lync Server")
 
 </div>
 
