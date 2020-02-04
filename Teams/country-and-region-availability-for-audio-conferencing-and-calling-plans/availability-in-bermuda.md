@@ -17,18 +17,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: 以下是適用于商務用 Skype 的 Office 365 服務，以及可供百慕達作業使用的 Microsoft 團隊。
-ms.openlocfilehash: 52a54a5ec6ef4d4ae68472d5489e829bc642f281
-ms.sourcegitcommit: cb394272050d049ebceedb7df835b86362dfd8d1
+ms.openlocfilehash: 422fcb988140a272619f00174c29715ed5c99b37
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/18/2019
-ms.locfileid: "40741524"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695339"
 ---
 # <a name="availability-in-bermuda"></a>在百慕達中的可用性
 

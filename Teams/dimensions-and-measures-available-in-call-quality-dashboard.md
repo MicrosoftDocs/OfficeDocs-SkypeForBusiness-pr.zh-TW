@@ -16,15 +16,16 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom: Reporting
 description: 取得 Microsoft 團隊與商務用 Skype Online 的通話品質儀表板所使用之尺寸與度量的詳細資訊。
-ms.openlocfilehash: 82602565d0589e55cb76bffa6bece218bc02a295
-ms.sourcegitcommit: 43a17ce6fea3951719b55bfbda03c500cef4816c
+ms.openlocfilehash: 9e2dc32802b2a13d9d0a24824a083702c2f2d27c
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41580890"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41696038"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard"></a>[通話品質] 儀表板中提供的尺寸與測量
 
@@ -57,7 +58,7 @@ CQD 中的許多尺寸與測量值標示為第一或第二筆。 下列邏輯會
 
 維度資訊是根據上傳到 CQD 入口網站的資料而定。 許多維度值也可以用來做為篩選。 下表列出目前在 CQD 中可用的維度，按照用來建立報表或編輯先前定義的報表的 [查詢編輯器] 中所列的順序進行。
 
-| 名稱 | 資料類型  | 描述 | 空白值的可能原因 |
+| 名稱 | 資料類型  | 說明 | 空白值的可能原因 |
 |:---  |:---        |:---         |:--- |
 |**端點**|||
 | 第一個 CPU 名稱  | String  | 第一個端點所使用之 CPU 的名稱。 <br/> **範例值：** Contoso CPU X11 @ 1.80 GHz | <br/>&bull;端點未報告此資料   |
@@ -167,10 +168,10 @@ CQD 中的許多尺寸與測量值標示為第一或第二筆。 下列邏輯會
 | 第一個使用者代理程式  | String  | 第一個端點的使用者代理程式字串。 <br/> **範例值：** UCCAPI/16.0.7766.5281 OC/16.0.7766.2047 （商務用 Skype） | &bull;第一個端點未報告使用者代理   |
 | 第二個使用者代理程式  | String  | 第二個端點的使用者代理字串。 <br/> **範例值：** UCCAPI/16.0.7766.5281 OC/16.0.7766.2047 （商務用 Skype） | &bull;第二個端點未報告任何使用者代理   |
 | 會議類型  | 枚舉 <br/>**可能的值：** <br/>&bull;會議： applicationsharing <br/>&bull;會議：音訊-影片 <br/>&bull;會議：焦點 | 會議 URI 的類型。  <br/> **範例值：** 會議：音訊-影片 | &bull;非會議案例。   |
-| 會議 ID （在 lync.cqd.com 中）<br/>通話 ID （在 cqd.teams.microsoft.com 中）  | String  | 與資料流程相關聯的會議 ID （或通話識別碼）。 在 cqd.teams.microsoft.com 中，所有通話都有來電 Id，不論他們是人員對人（P2P）通話還是電話會議。  這個維度可能有太多的資料列，無法做為報表中的維度。 您可以改為使用篩選。  <br/> **範例值：** 0001P6GK  | &bull;非會議案例。 |
+| 會議 ID  | String | 與資料流程相關聯的會議 ID （或通話識別碼）。 在 cqd.teams.microsoft.com 中，所有通話都有來電 ID，不論他們是人員對人（P2P）通話還是電話會議。 在 cqd.lync.com 中，此值僅針對商務用 Skype 會議呼叫 avialble。  這個維度可能有太多的資料列，無法做為報表中的維度。 您可以改為使用篩選。  <br/> **範例值（cqd.lync.com）：** 0001P6GK <br/> **範例值（cqd.teams.microsoft.com）：** 5a962ccf-b9cb-436a-a433-f28bf5404ad8  | |
 | 第一個用戶端 App 版本  | String  | 第一個端點所用的應用程式版本。 資料是從使用者代理程式字串分析而來。 <br/> **範例值：** 16.0.7766.2047 | &bull;無法解析版本字串 <br/>&bull;未報告值。   |
 | 第二個用戶端 App 版本  | String  | 第二個端點所用的應用程式版本。 資料是從使用者代理程式字串分析而來。 <br/> **範例值：** 16.0.7766.2047 | &bull;無法解析版本字串 <br/>&bull;未報告值。 |
-|會議 Id|String |會議的識別碼，在建立會議時產生。 | |
+|會議 Id （在 cqd.teams.microsoft.com 中） <br/> 會議 ID （在 cqd.lync.com 中） |String |會議的識別碼，在建立會議時產生。 <br/> **範例值（商務用 Skype）：** 0001P6GK  <br/> **範例價值（團隊）：** 19： meeting_MzB .。。zIw@thread v2| |
 |**網路**||| 
 | 傳輸  | 枚舉 <br/>**可能的值：** <br/>&bull;UDP-IN <br/>&bull;TCP-OUT <br/>&bull;可識別  | 資料流程使用的網路傳輸類型。  無法辨識：指出系統無法判斷傳輸類型是 TCP 還是 UDP。  | &bull;未報告傳輸類型 <br/>&bull;媒體路徑沒有建立  |
 | 第一次連接 Ice  | 枚舉 <br/>**可能的值：** <br/>&bull;DIRECT = 直接網路路徑 <br/>&bull;繼電器 = 穿越中繼 <br/>&bull;HTTP = 經由 HTTP proxy <br/>&bull;失敗 = 連線失敗 | 第一個端點所使用的 ICE 連線類型。  |&bull;未報告傳輸類型 <br/>&bull;媒體路徑沒有建立   |
@@ -462,7 +463,7 @@ CQD 所使用的字串通常是從資料檔案衍生而來，而且這些字元�
 
 許多測量值也可以用來做為篩選。 下表列出 CQD 中目前可用的度量，依 [查詢編輯器] 中列出的順序顯示。
 
-|度量值名稱 |訂購 |描述 |
+|度量值名稱 |訂購 |說明 |
 |:--- |:--- |:--- |
 |資料流程計數總計 |串流數 |不論媒體類型為何，都要編號媒體資料流程。 |
 | CDR 可用資料流程計數總計 | 串流數 |提供可靠性/診斷資訊的媒體資料流程數目。 請參閱[商務用 Skype Server 中的通話詳細資料錄製（CDR）](https://docs.microsoft.com/skypeforbusiness/manage/health-and-monitoring/call-detail-recording-cdr) |

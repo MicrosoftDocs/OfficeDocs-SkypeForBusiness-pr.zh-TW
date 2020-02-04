@@ -15,13 +15,13 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何在 Microsoft 團隊中使用和管理緊急通話原則。
-f1keywords: ms.teamsadmincenter.voice.emergencycallingpolicies.overview
-ms.openlocfilehash: d6dc6f58085fedadf25f80272bc55dcc7723db19
-ms.sourcegitcommit: f2c7626dbef4ed250b9a937a9b56d46fe2e2039e
+f1.keywords: ms.teamsadmincenter.voice.emergencycallingpolicies.overview
+ms.openlocfilehash: b339f2ef46e0d9949fb440d2ad5a6fa0dee09fe4
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2019
-ms.locfileid: "39998791"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41694369"
 ---
 # <a name="manage-emergency-calling-policies-in-microsoft-teams"></a>管理 Microsoft 團隊中的緊急通話原則
 

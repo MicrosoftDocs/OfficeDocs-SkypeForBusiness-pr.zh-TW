@@ -7,22 +7,22 @@ manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.OfficeWebAppsServersScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 087ca1f2-2329-4fa1-b6bb-685f2f4ba296
-description: 您以滑鼠右鍵按一下 [Office Web Apps 伺服器], 然後選取 [新增 Office Web Apps 伺服器] 來開啟嚮導。
-ms.openlocfilehash: ebaa4405d0b6f7f29447c43cbd5bcd8f36d21e8d
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+description: 您以滑鼠右鍵按一下 [Office Web Apps 伺服器]，然後選取 [新增 Office Web Apps 伺服器] 來開啟嚮導。
+ms.openlocfilehash: dae79cd222e7de0a7b645d674841cf78bac2c4e7
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "36194106"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41696888"
 ---
 # <a name="office-web-apps-servers-scope-node"></a>Office Web Apps Server 範圍節點
 
-您以滑鼠右鍵按一下 [ **Office Web Apps 伺服器**], 然後選取 [**新增 Office web apps 伺服器**] 來開啟嚮導。
+您以滑鼠右鍵按一下 [ **Office Web Apps 伺服器**]，然後選取 [**新增 Office web apps 伺服器**] 來開啟嚮導。
 
 ![OfficeWebApps Server Scope 節點](../../media/OfficeWebApps_Servers_Scope_Node.jpg)
 

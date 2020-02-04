@@ -16,16 +16,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: 瞭解您需要的專案，以及會議召集人可以使用商務用 Skype 撥出給其他人的方式。
-ms.openlocfilehash: 4f46315c7817ad7e8e529fabff9a3a333527a266
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 392c868763c071e534daf8488baf751269792773
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "37642953"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695688"
 ---
 # <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>從商務用 Skype 會議撥出，讓其他人可以加入
 
@@ -57,7 +58,7 @@ ms.locfileid: "37642953"
   
 ## <a name="want-to-know-more-about-audio-conferencing"></a>想要深入瞭解音訊會議嗎？
 
-[在 Office 365 中試用或購買音訊會議](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[試用或購買 Office 365 的音訊會議](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
     
 - [商務用 Skype 附加元件授權](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
     

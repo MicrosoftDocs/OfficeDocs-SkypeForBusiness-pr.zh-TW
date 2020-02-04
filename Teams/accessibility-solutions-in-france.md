@@ -1,5 +1,5 @@
 ---
-title: 商務用 Skype Online 和 Microsoft 團隊的協助工具解決方案
+title: 商務用 Skype Online 和 Microsoft Teams 的輔助工具解決方案
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,17 +16,18 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: None
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Legal
 hideEdit: true
 description: Fournir des expériences accessibles à tous est au cœur de la Microsoft，qui consiste à permettre à chaque personne à chaque 組織 de la planète d'accomplir davantage。 Microsoft offre 取消特定 nombre de fonctionnalités d'accessibilité澆築 Skype Entreprise et Microsoft 團隊 qui s'inscrivent dans 兒子參與勞 faveur de l'accessibilité！ de l'inclusion。
-ms.openlocfilehash: c68afb52c2e3abfde9a5e6e06cc79aa87b918dc2
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 2f2218c9439a0fa0e6ea20889ee905d2fbadef77
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516839"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695878"
 ---
 # <a name="accessibility-solutions-for-skype-for-business-online-and-microsoft-teams-in-france"></a>在華北進行商務用 Skype Online 和 Microsoft 團隊的協助工具解決方案
 
@@ -68,13 +69,13 @@ Microsoft 團隊 fournit des 頁面 d'aide avec des raccourcis clavier et des �
 
 - [批註 utiliser] 取消 lecteur d'écran 澆築 rechercher des alertes et y répondre dans Microsoft[https://support.office.com/fr-fr/article/utiliser-un-lecteur-d-%C3%A9cran-pour-rechercher-des-alertes-et-y-r%C3%A9pondre-dans-microsoft-teams-8290757e-789d-4e5a-a2ac-9ae4a07d55c2?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR](https://support.office.com/fr-fr/article/utiliser-un-lecteur-d-%C3%A9cran-pour-rechercher-des-alertes-et-y-r%C3%A9pondre-dans-microsoft-teams-8290757e-789d-4e5a-a2ac-9ae4a07d55c2?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR)團隊（） 
 
-Microsoft 團隊 permet maintenant aux utilisateurs de brouiller leur arrière-pendant 果 réunions qui，ce peut être utile 果 personnes malentendantes qui ont difficultés lire sur 果 lèvres celles qui peuvent être facilement distraitesenvironnement actif： [ https://support.office.com/fr-fr/article/rendre-votre-arrière-flou-dans-une--réunion-équipe？ f77a2381-443a-499d-825e-509a140f4780 = fr&ui = fr-fr&rs = fr-fr&ad = fr](https://support.office.com/fr-fr/article/rendre-votre-arrière-plan-flou-dans-une-réunion-en-équipe-f77a2381-443a-499d-825e-509a140f4780?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR)。
+Microsoft 團隊 permet maintenant aux utilisateurs de brouiller leur arrière pendant 果 réunions，ce qui peut être utile 果 personnes malentendantes qui ont difficultés lire sur 果 lèvres celles qui： peuvent-être-facilement-distraites-environnement--actif-ère [ https://support.office.com/fr-fr/article/rendre-votre-arri？ omkt = fr&ui = fr-fr&rs = fr-fr&ad = fr](https://support.office.com/fr-fr/article/rendre-votre-arrière-plan-flou-dans-une-réunion-en-équipe-f77a2381-443a-499d-825e-509a140f4780?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR)。
 
-De +、la fonction de 聊天 de Microsoft 團隊 inclut désormais 「沉浸式閱讀器」、ce qui permet aux utilisateurs ayant des difficultés，visuelles taille，de texte d'augmenter 原則 et l'espacement 果，et deréduire le champ de l'expérience de 講座： [https://support.office.com/fr-fr/article/utiliser-le-lecteur-immersif-dans-microsoft-teams-a700c0d0-bc53-4696-a94d-4fbc86ac7a9a?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR](https://support.office.com/fr-fr/article/utiliser-le-lecteur-immersif-dans-microsoft-teams-a700c0d0-bc53-4696-a94d-4fbc86ac7a9a?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR)。 
+De +、la fonction de 研討 de Microsoft 團隊 inclut désormais 「沉浸式閱讀程式」，ce qui permet aux utilisateurs ayant des difficultés，visuelles taille，de texte d'augmenter 原則： l'espacement 果，果 le thèmes de réduire de la： [https://support.office.com/fr-fr/article/utiliser-le-lecteur-immersif-dans-microsoft-teams-a700c0d0-bc53-4696-a94d-4fbc86ac7a9a?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR](https://support.office.com/fr-fr/article/utiliser-le-lecteur-immersif-dans-microsoft-teams-a700c0d0-bc53-4696-a94d-4fbc86ac7a9a?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR)。 
 
 Skype Entreprise permet le réglage de la taille du texte messagerie instantanée 澆築 une 講座加 facile，et Microsoft 團隊 permet le 縮放。 Skype Entreprise et 果équipes Microsoft fournissent une 協助澆築 TTY。 Lorsque vous utilisez Skype Entreprise，果功能表 de réponse vocale 互動式 peuvent être ralentis，accélérés et redémarrés，et 果 utilisateurs peuvent choisir de pas afficher 果指示。 Microsoft 團隊 permet le réglage de vitesse de la messagerie vocale。
 
-果 utilisateurs 解除 Skype Entreprise peuvent également choisir de recevoir leurs 訊息 vocaux sous forme de texte，ce qui est particulièrement bénéfique 澆築果 personnes malentendantes ou sourdes，à條件 qu'ils utilisent Outlook 2010 ou des 版本加上 récentes [https://support.office.com/fr-fr/article/Activer-ou-d%c3%a9sactiver-l-aper%c3%a7u-de-messagerie-vocale-de-la-messagerie-unifi%c3%a9e-43691569-3C6E-4583-AB89-889E511FA583?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR](https://support.office.com/fr-fr/article/Activer-ou-d%c3%a9sactiver-l-aper%c3%a7u-de-messagerie-vocale-de-la-messagerie-unifi%c3%a9e-43691569-3C6E-4583-AB89-889E511FA583?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR)：。 果 administrateurs informatiques 取消 Microsoft 團隊 peuvent gérer la leurs 用戶端。 
+果 utilisateurs 解除 Skype Entreprise peuvent également choisir de recevoir leurs 訊息 vocaux sous forme de texte，ce qui est particulièrement bénéfique 澆築果 personnes malentendantes ou sourdes，à條件 qu'ils utilisent 2010 ou des 版本加上 récentes [https://support.office.com/fr-fr/article/Activer-ou-d%c3%a9sactiver-l-aper%c3%a7u-de-messagerie-vocale-de-la-messagerie-unifi%c3%a9e-43691569-3C6E-4583-AB89-889E511FA583?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR](https://support.office.com/fr-fr/article/Activer-ou-d%c3%a9sactiver-l-aper%c3%a7u-de-messagerie-vocale-de-la-messagerie-unifi%c3%a9e-43691569-3C6E-4583-AB89-889E511FA583?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR)：。 果 administrateurs informatiques 取消 Microsoft 團隊 peuvent gérer la leurs 用戶端。 
 
 La 偵測 Vocale Windows peut également aider 果 personnes à mobilité réduite en leur faisant bénéficier de l'utilisation des commandes vocales plutôt que du clavier ou de la souris。 Des 指示澆築 savoir comment activer la 偵測 vocale sur ordinateur fonctionnant sous Windows 10 sont disponibles ici： [https://support.microsoft.com/fr-fr/help/17208/windows-10-use-speech-recognition](https://support.microsoft.com/fr-fr/help/17208/windows-10-use-speech-recognition)。 
   

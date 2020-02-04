@@ -7,24 +7,24 @@ manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.MonitoringServerScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 05867db5-ad62-41e3-b1ac-f21f43d1e90b
-description: '在 Lync Server 2013 拓撲建立器中, 您可以在執行監視的伺服器上按一下滑鼠右鍵, 按一下工具列中的 [動作], 或按一下 [動作] 窗格中的任務, 然後針對執行監視的伺服器, 按一下下列其中一個選項:'
-ms.openlocfilehash: ac099710bfd33effdf490a41d1b3e735894ceee1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 在 Lync Server 2013 拓撲建立器中，您可以在執行監視的伺服器上按一下滑鼠右鍵，按一下工具列中的 [動作]，或按一下 [動作] 窗格中的任務，然後針對執行監視的伺服器，按一下下列其中一個選項：
+ms.openlocfilehash: 7fc5905ba8a0f98df0ee548642050806b4b801dc
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190126"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41696948"
 ---
 # <a name="monitoring-scope-node"></a>監控範圍節點
  
-在 Lync Server 2013 拓撲建立器中, 您可以執行與執行監視的個別伺服器相關的工作, 只要以滑鼠右鍵按一下主控台樹中執行監視的伺服器, 按一下工具列中的 [**動作**], 或按一下 [動作] 中的任務窗格, 然後針對執行監視的伺服器, 按一下下列其中一個選項:
+在 Lync Server 2013 拓撲建立器中，您可以在執行監視的伺服器上按一下滑鼠右鍵，或按一下工具列中的 [**動作**]，或按一下 [動作] 窗格中的工作，然後按一下下列其中一個選項來執行監視：
   
-- **編輯內容**。 針對執行監視的伺服器開啟 [**編輯屬性**] 頁面, 您可以在此變更執行監視的伺服器或監視 SQL server 資料庫的完整功能變數名稱 (FQDN)。
+- **編輯內容**。 針對執行監視的伺服器開啟 [**編輯屬性**] 頁面，您可以在此變更執行監視的伺服器或監視 SQL server 資料庫的完整功能變數名稱（FQDN）。
     
 - **刪除**。 從拓撲和監視 SQL Server 資料庫刪除執行監視的伺服器。
     

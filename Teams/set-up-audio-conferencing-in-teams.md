@@ -16,17 +16,18 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: '瞭解如何為您企業中需要使用手機加入電話會議的人員設定撥入或音訊會議。 '
-ms.openlocfilehash: d630f6f149f61609209cc4ead23ed7232647cb08
-ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
+ms.openlocfilehash: 0a483dba984799a3c9e0f1a63ed908dde9a9ca08
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "37925364"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41693948"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>為 Microsoft 團隊設定音訊會議
 
@@ -42,7 +43,7 @@ ms.locfileid: "37925364"
 ## <a name="step-1-find-out-if-audio-conferencing-is-available-in-your-countryregion"></a>步驟1：瞭解您的國家/地區是否提供音訊會議
 <a name="__top"> </a>
 
-移至[適用于音訊會議與通話方案的國家和地區可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，然後選取您的國家或地區以取得音訊會議的可用性資訊，以及電話系統、通話方案、免付費電話和免付費電話的相關資訊。號碼和通訊點數。 
+移至 [國家/地區] 及 [[語音會議與通話方案](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)]，然後選取您的國家或地區，以取得音訊會議的可用性資訊，以及電話系統、通話方案、付費和免付費電話號碼的相關資訊，以及通訊點數。 
  
 ## <a name="step-2-get-and-assign-licenses"></a>步驟2：取得並指派授權
  
@@ -79,7 +80,7 @@ ms.locfileid: "37925364"
 ![](media/sfb-logo-30x30.png) **使用商務用 skype 系統管理中心**顯示商務用 skype 標誌的圖示：
 
  1. 移至**Microsoft 365 管理中心** > **管理中心** > **小組** > **舊版入口網站**。
- 2. 選取 [**語音** > **電話號碼**]。
+ 2. 選取 [**語音** > **電話號碼]**。
  3. 選取電話號碼，然後按一下 [**指派**]。
 
 如需詳細資訊，請參閱[在音訊會議橋中變更電話號碼](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)。

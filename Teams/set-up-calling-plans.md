@@ -16,17 +16,18 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 針對 Office 365 通話方案，您可以瞭解如何購買及設定授權、取得電話號碼、新增並指派緊急位置及電話號碼給使用者，以及告訴使用者他們的新電話號碼。
-ms.openlocfilehash: b77db0169eedf1250ff7ddc8ea83c208e2b91849
-ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
+ms.openlocfilehash: 6c43408c09edaa220a6d3f030680a48fe321e6dd
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "41628409"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41693928"
 ---
 # <a name="set-up-calling-plans"></a>設定通話方案
 

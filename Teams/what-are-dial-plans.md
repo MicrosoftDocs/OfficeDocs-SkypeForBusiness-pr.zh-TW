@@ -15,16 +15,16 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: ms.teamsadmincenter.voice.dialplans.overview
+f1.keywords: ms.teamsadmincenter.voice.dialplans.overview
 ms.custom:
 - Calling Plans
 description: '瞭解您可以在小組中使用的撥號方案類型（PSTN 呼叫撥號方案），以及如何為您的組織選擇一個電話。  '
-ms.openlocfilehash: bd41b257af80a3a21da1013e604214d1e0303edf
-ms.sourcegitcommit: 472909325a47cf0ad00bed949d02ab5766d35832
+ms.openlocfilehash: a40d36b124b0bc1adbe9bc676a68a3b9c1d158ea
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/28/2019
-ms.locfileid: "40891212"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41694318"
 ---
 # <a name="what-are-dial-plans"></a>什麼是撥號對應表？
 
@@ -77,7 +77,7 @@ ms.locfileid: "40891212"
 
 針對使用者撥號方案，您應該指定一個描述名稱，以識別將指派撥號方案的使用者。 撥號計畫簡單名稱是使用從撥號方案名稱衍生的字串預先填入。 [簡易名稱] 欄位為 [可編輯]，可讓您為撥號方案建立更具描述性的命名慣例。 [簡易名稱] 值不能為空白，且必須是唯一的。 最佳做法是為您的整個組織開發一個命名慣例，然後在所有網站和使用者中統一使用這個慣例。
 
-### <a name="description"></a>描述
+### <a name="description"></a>說明
 
 我們建議您輸入適用之地理位置的通用、可識別名稱，或對應的撥號方案所屬的使用者群組。
 
@@ -119,7 +119,7 @@ ms.locfileid: "40891212"
 
 ||||||
 |:-----|:-----|:-----|:-----|:-----|
-|**規則名稱** <br/> |**描述** <br/> |**數位模式** <br/> |**翻譯** <br/> |**範例** <br/> |
+|**規則名稱** <br/> |**說明** <br/> |**數位模式** <br/> |**翻譯** <br/> |**範例** <br/> |
 |4digitExtension  <br/> |翻譯4位數延伸。  <br/> |^ （\\d{4}） $  <br/> |+ 1425555 $ 1  <br/> |0100已轉譯為 + 14255550100  <br/> |
 |5digitExtension  <br/> |翻譯5位數的延伸。  <br/> |^ 5 （\\d{4}） $  <br/> |+ 1425555 $ 1  <br/> |50100已轉譯為 + 14255550100  <br/> |
 |7digitcallingRedmond  <br/> |將7位數的數位轉譯為雷德式當地電話號碼。  <br/> |^ （\\d{7}） $  <br/> |+ 1425 $ 1  <br/> |5550100已轉譯為 + 14255550100  <br/>|

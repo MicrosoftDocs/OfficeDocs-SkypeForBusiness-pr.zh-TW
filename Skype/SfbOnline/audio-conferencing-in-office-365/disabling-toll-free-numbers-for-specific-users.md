@@ -15,16 +15,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: 系統管理員可以控制召集人如何在會議中使用免付費電話號碼。
-ms.openlocfilehash: 541398a760f41effc37e802cafde1141acca2d57
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 42323afd397612c3cdc0549bdcc33b16cfdae9ea
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "37642335"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695678"
 ---
 # <a name="disabling-toll-free-numbers-for-specific-skype-for-business-online-users"></a>針對特定商務用 Skype Online 使用者停用免付費電話號碼
  
@@ -46,7 +47,7 @@ ms.locfileid: "37642335"
 
  - 參與者可以使用電話號碼繼續加入召集人的會議。 
 
-## <a name="disabling-toll-free-numbers-for-specific-users"></a>針對特定使用者停用免付費電話號碼 
+## <a name="disabling-toll-free-numbers-for-specific-users"></a>停用特定使用者的免付費電話號碼 
 
 從**Microsoft [團隊管理中心**]：
 

@@ -7,22 +7,22 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.SecWebSvcMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4ea30583-e5bd-4498-9bd8-38604c61e658
-description: 您想要做什麼？ 按一下您要執行之任務的連結。
-ms.openlocfilehash: a95012aa8e90a8b6429cc6f036a485095354d750
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 您要做什麼？ 按一下您要執行之任務的連結。
+ms.openlocfilehash: e652a71f3b400149da1dabef9f635f5654d7ca5e
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36193629"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41698998"
 ---
 # <a name="web-service-security-settings"></a>Web 服務安全性設定
 
-您想要做什麼？ 按一下您要執行之任務的連結。
+您要做什麼？ 按一下您要執行之任務的連結。
 
 - [在商務用 Skype Server 2015 中管理 Web 服務配置設定](../../manage/authentication/web-service-configuration-settings.md)
 
@@ -30,5 +30,5 @@ ms.locfileid: "36193629"
 
 - [刪除 Web 服務](https://technet.microsoft.com/library/c2b96f4c-4b07-48e6-9ca6-55bc0e0cf5a1.aspx)
 
-如需使用商務用 Skype Server [控制台] 所能執行的不同程式的詳細資訊, 請參閱[管理商務用 Skype server 2015](../../manage/manage.md)。
+如需使用商務用 Skype Server [控制台] 所能執行的不同程式的詳細資訊，請參閱[管理商務用 Skype server 2015](../../manage/manage.md)。
 

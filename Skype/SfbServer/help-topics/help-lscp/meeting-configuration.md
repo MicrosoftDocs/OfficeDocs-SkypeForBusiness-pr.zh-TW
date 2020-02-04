@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.ConfMeetingSettingMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 24e8f749-d54c-4315-a8fe-bb9303b356ef
-description: '[會議設定設定] 定義使用者可以建立的會議類型 (也就是 calledmeetings), 並控制匿名使用者和電話撥入式會議使用者可以加入這些會議的方式 (或是否有)。 這些設定僅適用于排程的會議。 它們不適用於在用戶端中按一下 [立即開會] 選項所建立的即席會議。'
-ms.openlocfilehash: 82619b255f99dc5a82d6a9cb704fe5443fe83d23
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: '[會議設定設定] 定義使用者可以建立的會議類型（也就是 calledmeetings），並控制匿名使用者和電話撥入式會議使用者可以加入這些會議的方式（或是否有）。 這些設定僅適用于排程的會議。 它們不適用於在用戶端中按一下 [立即開會] 選項所建立的即席會議。'
+ms.openlocfilehash: 5e4d0b11bc169b7658061e33fdfb8ddf0bd4b044
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36192481"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41700038"
 ---
 # <a name="meeting-configuration"></a>會議組態
 
@@ -26,11 +26,11 @@ ms.locfileid: "36192481"
 
 會議設定會套用在全域、網站或集區層級：
 
-- **全域會議設定:** 預設會建立全域會議設定。 您只可編輯全域會議設定，但無法加以刪除。 如果您嘗試移除全域會議設定，所有設定皆會重設為預設值。
+- **全域會議設定：** 預設會建立全域會議設定。 您只可編輯全域會議設定，但無法加以刪除。 如果您嘗試移除全域會議設定，所有設定皆會重設為預設值。
 
-- **網站會議配置 (選用):** 您可以建立一或多個網站會議設定, 每個設定都適用于特定網站。 網站設定優先於全域設定。
+- **網站會議配置（選用）：** 您可以建立一或多個網站會議設定，每個設定都適用于特定網站。 網站設定優先於全域設定。
 
-- **[泳池會議設定] (選用):** 您可以建立一個或多個 [池會議] 設定, 每個設定都適用于特定的文件庫。 集區設定優先於全域設定和網站設定。
+- **[泳池會議設定] （選用）：** 您可以建立一個或多個 [池會議] 設定，每個設定都適用于特定的文件庫。 集區設定優先於全域設定和網站設定。
 
 「會議設定」**** 頁面會顯示針對組織所定義的所有會議設定的清單。
 
@@ -50,7 +50,7 @@ ms.locfileid: "36192481"
 
 - **新增**啟動新的網站會議設定或 [池會議] 設定。
 
-- [**編輯**]開啟選取的會議設定以進行編輯、選取清單中的所有會議設定, 或刪除選取的網站設定或文件庫設定。
+- [**編輯**]開啟選取的會議設定以進行編輯、選取清單中的所有會議設定，或刪除選取的網站設定或文件庫設定。
 
     > [!NOTE]
     > **刪除** 會將全域會議設定重設為預設值。
@@ -61,7 +61,7 @@ ms.locfileid: "36192481"
 
 - **名稱**識別會議配置。
 
-- **範圍**識別會議設定的範圍: [全域]、[網站] 或 [文件庫]。
+- **範圍**識別會議設定的範圍： [全域]、[網站] 或 [文件庫]。
 
 如需使用會議設定的詳細資訊，請參閱作業文件中的〈[Create a or modify a Collection of Meeting Configuration Settings](https://technet.microsoft.com/library/ce6773c1-a0d5-4405-8e32-33a6f3a46a1a.aspx)〉。
 

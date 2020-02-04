@@ -7,22 +7,22 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.TopoStatusSvcEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0a5a0ce5-a191-42d1-acad-f8f17895305d
-description: 您想要做什麼？ 按一下您要執行之任務的連結。
-ms.openlocfilehash: 030d37edb6eecb0040a691d7fd30c6534a7525e4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 您要做什麼？ 按一下您要執行之任務的連結。
+ms.openlocfilehash: 7a68650baf0856b1a2ed4f7416ea872b7b625957
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36192434"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41699368"
 ---
-# <a name="topology-view-service-detail"></a>拓撲: 查看服務詳細資料
+# <a name="topology-view-service-detail"></a>拓撲：檢視服務詳細資料
 
-您想要做什麼？ 按一下您要執行之任務的連結。
+您要做什麼？ 按一下您要執行之任務的連結。
 
 - [查看執行 Lync Server 2010 的電腦清單](https://technet.microsoft.com/library/44eeec27-8b99-44f0-b0bd-622c12393d34.aspx)
 
@@ -32,5 +32,5 @@ ms.locfileid: "36192434"
 
 - [避免新的服務連線](https://technet.microsoft.com/library/977dcc5c-2aac-48ef-86a1-a8d47b4d9e74.aspx)
 
-如需使用商務用 Skype Server [控制台] 所能執行的不同程式的詳細資訊, 請參閱[管理商務用 Skype server 2015](../../manage/manage.md)。
+如需使用商務用 Skype Server [控制台] 所能執行的不同程式的詳細資訊，請參閱[管理商務用 Skype server 2015](../../manage/manage.md)。
 

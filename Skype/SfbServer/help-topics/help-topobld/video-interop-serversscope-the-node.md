@@ -1,5 +1,5 @@
 ---
-title: 影片交互操作伺服器-節點範圍
+title: 視訊 Interop 伺服器 - 範圍節點
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -7,30 +7,30 @@ manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.VideoInteropServersScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 963e6693-26bc-439f-b76d-04389e6ebbf9
-description: 在 [拓撲建立器] 中定義新的 VIS 或視頻閘道所需的步驟, 請參閱在商務用 Skype Server 2015 中建立 VIS 池子的線上說明。
-ms.openlocfilehash: f3bd7e14b34031153ef9c3f94c919e92639e6462
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 在 [拓撲建立器] 中定義新的 VIS 或視頻閘道所需的步驟，請參閱在商務用 Skype Server 2015 中建立 VIS 池子的線上說明。
+ms.openlocfilehash: f295804645b5832206f6a5a22e29ab7f45d7ba25
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36189367"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41696458"
 ---
-# <a name="video-interop-servers---scope-the-node"></a>影片交互操作伺服器-節點範圍
+# <a name="video-interop-servers---scope-the-node"></a>視訊 Interop 伺服器 - 範圍節點
  
-在 [拓撲建立器] 中定義新的 VIS 或視頻閘道所需的步驟, 請參閱在[商務用 Skype Server 2015 中建立 VIS 池子](../../deploy/deploy-video-interop-server/create-a-vis-pool.md)的線上說明。
+在 [拓撲建立器] 中定義新的 VIS 或視頻閘道所需的步驟，請參閱在[商務用 Skype Server 2015 中建立 VIS 池子](../../deploy/deploy-video-interop-server/create-a-vis-pool.md)的線上說明。
   
-在使用 Windows PowerShell 的伺服器上指派視頻交互操作伺服器角色所需的步驟, 在[商務用 Skype Server 2015 中的 [部署 VIS 伺服器角色] 中](../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md)說明為線上。
+在使用 Windows PowerShell 的伺服器上指派視頻交互操作伺服器角色所需的步驟，在[商務用 Skype Server 2015 中的 [部署 VIS 伺服器角色] 中](../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md)說明為線上。
   
-在[商務用 Skype server 2015 中設定 [視頻互通性伺服器](../../deploy/deploy-video-interop-server/configure-the-vis.md)], 以線上說明使用 Windows PowerShell 的新視頻互通性伺服器的配置步驟。
+在[商務用 Skype server 2015 中設定 [視頻互通性伺服器](../../deploy/deploy-video-interop-server/configure-the-vis.md)]，以線上說明使用 Windows PowerShell 的新視頻互通性伺服器的配置步驟。
   
- 要在 Cisco GUI 中設定的視頻閘道的設定, 以便與 VIS 進行交互操作, 請參閱設定[CUCM 以進行與商務用 Skype Server 2015 的交互操作](../../deploy/deploy-video-interop-server/configure-cucm-for-interoperation.md)。
+ 要在 Cisco GUI 中設定的視頻閘道的設定，以便與 VIS 進行交互操作，請參閱設定[CUCM 以進行與商務用 Skype Server 2015 的交互操作](../../deploy/deploy-video-interop-server/configure-cucm-for-interoperation.md)。
   
- 若要在 Cisco GUI 中設定的 VTC 設定, 以使用[商務用 Skype Server 2015 設定交互操作的 VTC](../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md), 請參閱線上說明。
+ 若要在 Cisco GUI 中設定的 VTC 設定，以使用[商務用 Skype Server 2015 設定交互操作的 VTC](../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md)，請參閱線上說明。
   
 ## <a name="see-also"></a>另請參閱
 

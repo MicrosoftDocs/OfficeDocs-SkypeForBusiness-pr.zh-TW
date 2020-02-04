@@ -16,16 +16,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Licensing
 description: '瞭解什麼是通訊點數（PSTN 消費）帳單、如何尋找比率，以及您所取得的服務。 '
-ms.openlocfilehash: 284c4b04ad1652b7a9ab3cb5d6d9bcb2f0902550
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 5da6f5807f5fd2868097525f1abe6ecd5def6d5f
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568572"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41694278"
 ---
 # <a name="what-are-communications-credits"></a>什麼是通訊點數？
 
@@ -55,7 +56,7 @@ ms.locfileid: "37568572"
   
 ## <a name="what-is-it"></a>這是什麼？
 
-若要在商務用 Skype 中使用免付費電話號碼，請務必在這些通話以每分鐘計費的情況下進行通訊。 此外，建議您針對您的通話方案以及需要撥出至**任何 PSTN 目的地**功能的音訊會議使用者設定通訊點數。 包含許多國家/地區，但某些目的地可能不會包含在您的通話方案或音訊會議訂閱中。 如果您沒有設定通訊點數或指派授權給您的使用者，而您的組織時間卻超出了幾分鐘（視您的通話方案、音訊會議方案或您的國家/地區），這些使用者將無法撥打電話或從線上撥出語音會議會議。
+若要在商務用 Skype 中使用免付費電話號碼，請務必在這些通話以每分鐘計費的情況下進行通訊。 此外，建議您針對您的通話方案以及需要撥出至**任何 PSTN 目的地**功能的音訊會議使用者設定通訊點數。 包含許多國家/地區，但某些目的地可能不會包含在您的通話方案或音訊會議訂閱中。 如果您沒有設定通訊點數或指派使用者的授權給您的使用者，而您的組織數分鐘內（視您的通話方案、音訊會議方案或您的國家/地區），這些使用者將無法撥打線上音訊會議會議或撥出電話。
   
 > [!NOTE]
 > 您必須設定通訊點數，然後為**Microsoft 365 系統管理中心** > **使用者** > 作用中**使用者**的每位使用者指派通訊信用授權。 
@@ -71,7 +72,7 @@ ms.locfileid: "37568572"
   
 ## <a name="communications-credits"></a>通訊點數
 
-每個組織會有不同的通話方案數量與比率，以進行考慮。 您必須從目前的服務提供者取得這種類型的使用資料。 針對使用商務用 Skype 已成為其服務提供者的組織，您可以在**Microsoft 365 系統管理中心** > **報告**或**商務用 skype 系統管理中心** > 報告中查看，以取得使用方式資料。**** PSTN 使用**狀況詳細資料。**  > 
+每個組織會有不同的通話方案數量與比率，以進行考慮。 您必須從目前的服務提供者取得這種類型的使用資料。 針對使用商務用 Skype 已成為其服務提供者的組織，您可以在**Microsoft 365 系統管理中心** > **報告**或**商務用 skype 系統管理中心** > **報告** > **PSTN 使用狀況詳細**資料，以取得使用方式資料。
   
 當您設定通訊點數時，您需要調查貴組織的通話使用量，以判斷您需要加入的金額。 您可以透過查看**PSTN 使用狀況詳細資料**報告來取得通話使用狀況的資訊。 此報告可讓您將通話資料記錄匯出至 Excel 並建立自訂報表。
 

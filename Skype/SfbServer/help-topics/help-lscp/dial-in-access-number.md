@@ -7,22 +7,22 @@ manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.ConfCAAMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1b2c8676-b132-4ba0-a242-a1edf30a3d44
-description: 您想要做什麼？ 按一下您要執行之任務的連結。
-ms.openlocfilehash: 7ab81b895ee0654ff848e644982fd83300ad7563
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 您要做什麼？ 按一下您要執行之任務的連結。
+ms.openlocfilehash: da4ca582526861ffba5fa6435836d72a901a3fc2
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190264"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41700228"
 ---
 # <a name="dial-in-access-number"></a>電話撥入式會議存取號碼
 
-您想要做什麼？ 按一下您要執行之任務的連結。
+您要做什麼？ 按一下您要執行之任務的連結。
 
 - [Create or Modify a Dial-in Conferencing Access Number](https://technet.microsoft.com/library/06f55c28-57f8-4d4e-8313-9740846796d9.aspx)
 

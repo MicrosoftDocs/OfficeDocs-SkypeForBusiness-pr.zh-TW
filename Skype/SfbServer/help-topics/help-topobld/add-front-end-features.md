@@ -7,36 +7,36 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddFrontEndFeaturesPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 97441ec2-573a-4ba4-ab4c-df4cf6baf321
-description: 選取要為 [前端] 池啟用的每個功能。 您必須至少部署立即啟用, 且無法取消選取的立即訊息 (IM)。 您也可以選擇部署 [會議]、[企業語音] 和 [通話許可控制] (CAC) 等其他功能。 某些功能依賴您的拓撲。
-ms.openlocfilehash: 720f98964ff3e5847b89531fbf6bd9633825d27e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 選取要為 [前端] 池啟用的每個功能。 您必須至少部署立即啟用，且無法取消選取的立即訊息（IM）。 您也可以選擇部署 [會議]、[企業語音] 和 [通話許可控制] （CAC）等其他功能。 某些功能依賴您的拓撲。
+ms.openlocfilehash: b44fb728c8910ec5016f20f154606dd7708c141e
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188062"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41698268"
 ---
 # <a name="add-front-end-features"></a>新增前端功能
 
-選取要為 [前端] 池啟用的每個功能。 您必須至少部署立即啟用, 且無法取消選取的立即訊息 (IM)。 您也可以選擇部署 [會議]、[企業語音] 和 [通話許可控制] (CAC) 等其他功能。 某些功能依賴您的拓撲。
+選取要為 [前端] 池啟用的每個功能。 您必須至少部署立即啟用，且無法取消選取的立即訊息（IM）。 您也可以選擇部署 [會議]、[企業語音] 和 [通話許可控制] （CAC）等其他功能。 某些功能依賴您的拓撲。
 
 - 會議
 
 - 企業語音
 
-- 通話許可控制 (CAC)
+- 通話許可控制（CAC）
 
-- 方面
+- 封存
 
-- 監控程式
+- 監視
 
 > [!NOTE]
-> 如果您想要在您的部署中啟用 CAC, 您必須在每個中央網站的每一個池中只啟用 CAC。 如果您要部署語音功能或 A/V 會議, 我們建議使用 CAC。
+> 如果您想要在您的部署中啟用 CAC，您必須在每個中央網站的每一個池中只啟用 CAC。 如果您要部署語音功能或 A/V 會議，我們建議使用 CAC。
 
-如需指定企業版文件庫功能的詳細資料, 請參閱在部署檔中[定義及設定前端池](https://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx)。
+如需指定企業版文件庫功能的詳細資料，請參閱在部署檔中[定義及設定前端池](https://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx)。
 
 

@@ -1,5 +1,5 @@
 ---
-title: 新增、變更或移除組織的緊急位置
+title: 新增、變更或移除貴組織的緊急位置
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 description: '瞭解如何在 Microsoft 團隊系統管理中心新增、變更或移除您組織的緊急位置。 '
-ms.openlocfilehash: ddef21811f4317f1ac10d5eb7d94bd67f1faaaad
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 2471f13f67555eeff4e0a1b130c416dbbe97b0c7
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37639645"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695823"
 ---
-# <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>新增、變更或移除組織的緊急位置
+# <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>新增、變更或移除貴組織的緊急位置
 
 緊急位置必須與電話號碼相關聯，但在這種情況下，可能會因國家/地區而異。 例如，在美國，當您將電話號碼指派給使用者時，您必須建立緊急位置。 在英國，當您從 Office 365 取得電話號碼或從目前的服務提供者轉接電話號碼時，您必須將緊急位置與電話號碼產生關聯。
 
@@ -61,6 +62,6 @@ ms.locfileid: "37639645"
 ## <a name="related-topics"></a>相關主題
 
 -[什麼是緊急位置、地點及呼叫路由？](what-are-emergency-locations-addresses-and-call-routing.md)
-- [新增、變更或移除組織中緊急位置的位置](add-change-remove-emergency-place-organization.md)
+- [新增、變更或移除貴組織緊急位置的地方](add-change-remove-emergency-place-organization.md)
 - [管理貴組織的電話號碼](/microsoftteams/manage-phone-numbers-for-your-organization)
-- [緊急通話條款與條件](/microsoftteams/emergency-calling-terms-and-conditions)
+- [緊急通話條款及條件](/microsoftteams/emergency-calling-terms-and-conditions)

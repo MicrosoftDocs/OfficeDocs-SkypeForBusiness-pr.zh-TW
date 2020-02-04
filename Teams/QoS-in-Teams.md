@@ -11,19 +11,19 @@ audience: admin
 description: 在 Microsoft 團隊中為貴組織的服務品質（QoS）準備貴組織的網路。
 localization_priority: Normal
 search.appverid: MET150
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.meetingsettings.qos
 - ms.teamsadmincenter.meetingsettings.network.qosmarkers
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: efa2dfadc760d99f87d8d69137992712c90b32ef
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 83275f7fbcec60727ed75c0a56ffda113b36fd26
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572555"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695638"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>在 Microsoft 團隊中實現服務品質（QoS）
 
@@ -65,7 +65,7 @@ QoS 只會在針對呼叫者之間的所有連結所執行時正常運作。 如
 
 當網路流量進入路由器時，通信量會放入佇列中。 如果未設定 QoS 原則，則只有一個佇列，且所有資料都會以相同的優先順序先進行處理，即先完成。 這表示語音流量（對延遲非常敏感）可能會停滯通信量，而延遲幾個額外毫秒就不會發生問題。
 
-當您實現 QoS 時，您會使用數個擁塞管理功能（例如 Cisco 的優先順序佇列和類別式加權公平佇列[CBWFQ](https://www.cisco.com/en/US/docs/ios/12_0t/12_0t5/feature/guide/cbwfq.html#wp17641)）和擁塞回避功能（例如加權隨機時間較早）來定義多個佇列。偵測[WRED](https://en.wikipedia.org/wiki/Weighted_random_early_detection)）。
+當您實現 QoS 時，您會使用數個擁塞管理功能（例如 Cisco 的優先順序佇列和類別式加權公平佇列[CBWFQ](https://www.cisco.com/en/US/docs/ios/12_0t/12_0t5/feature/guide/cbwfq.html#wp17641)）和擁塞回避功能（例如加權隨機的預先偵測[WRED](https://en.wikipedia.org/wiki/Weighted_random_early_detection)）來定義多個佇列。
 
 _圖2。QoS 佇列的範例_
 
@@ -77,7 +77,7 @@ _圖2。QoS 佇列的範例_
 
 您可以在網路路由器上使用存取控制清單（Acl），透過埠標記來實現 QoS。 以埠為基礎的標記是最可靠的方法，因為它能在混合式 Windows 和 Mac 環境中運作，且最容易實現。 行動用戶端不會提供使用 DSCP 值來標示流量的機制，所以需要這個方法。  
 
-使用這個方法，您的網路路由器會檢查傳入的資料包，如果資料包是使用特定的埠或埠範圍來接收，則會將它識別為特定媒體類型，並將預先定義的[DSCP](https://tools.ietf.org/html/rfc2474)標記加到該類型的佇列中。[資料包標頭]，讓其他裝置可以辨識其流量類型，並在其佇列中賦予其優先順序。
+使用這個方法，您的網路路由器會檢查傳入的資料包，如果資料包是使用特定的埠或埠範圍來接收，則會將它識別為特定媒體類型，並將它放在該類型的佇列中， [](https://tools.ietf.org/html/rfc2474)以便讓其他裝置辨識其流量類型，並在其佇列中賦予其優先順序。
 
 雖然這可跨平臺使用，但它只會在 WAN edge （並非所有用戶端電腦的方式）標示流量，並產生管理負荷。 您應該參閱路由器製造商提供的檔，以取得實現此方法的指示。
 
@@ -162,7 +162,7 @@ _建議的初始埠範圍_
 在團隊中，不同工作負載所使用的 QoS 來源埠應該積極管理，並視需要調整。 參照表格在[每個媒體類型的 [初始埠範圍](#choose-initial-port-ranges-for-each-media-type)] 中，埠範圍都是可調整的，但 DSCP 標記無法進行設定。 一旦您實現這些設定之後，您可能會發現特定媒體類型需要多或較少的埠。 [[通話分析] 和 [通話品質儀表板](difference-between-call-analytics-and-call-quality-dashboard.md)] 應該用於決定是否要在團隊實施之後調整埠範圍，以及定期視需要變更。
 
 > [!NOTE]
-> 如果您已經根據來源埠範圍和商務用 Skype Online 的 DSCP 標記來設定 QoS，則相同的設定會套用至小組，而且不需要對對應進行進一步的用戶端或網路變更，但您可能必須[設定範圍在團隊系統管理中心中使用](meeting-settings-in-teams.md#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings)，以符合針對商務用 Skype Online 所設定的內容。
+> 如果您已經根據來源埠範圍及商務用 Skype Online 的 DSCP 標記來設定 QoS，則相同的設定會套用至小組，而且不需要對對應進行進一步的用戶端或網路變更，不過您可能必須[將在團隊系統管理中心使用的範圍](meeting-settings-in-teams.md#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings)與商務用 Skype Online 所設定的範圍相符。
 
 如果您先前已在內部部署部署商務用 Skype Server，您可能需要重新檢查您的 QoS 原則，並視需要調整，以符合您已驗證的埠範圍設定，為小組提供高品質的使用者體驗。
 
@@ -200,10 +200,10 @@ _建議的初始埠範圍_
 
 針對由 GPO 標記的每個工作負荷，重複進行驗證。
 
-## <a name="more-information"></a>其他資訊
+## <a name="more-information"></a>詳細資訊
 
 [影片：網路規劃](https://aka.ms/teams-networking)
 
-[為 Microsoft 團隊準備貴組織的網路](prepare-network.md)
+[針對 Microsoft Teams 準備組織的網路](prepare-network.md)
 
 [ExpressRoute QoS 需求](https://docs.microsoft.com/azure/expressroute/expressroute-qos)

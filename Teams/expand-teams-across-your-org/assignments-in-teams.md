@@ -10,7 +10,7 @@ ms.collection:
 - M365-collaboration
 search.appverid: MET150
 ms.reviewer: jastark
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.assignments.overview
 - ms.teamsadmincenter.assignments.tooltip.emaildigest
 - ms.teamsadmincenter.assignments.tooltip.makecode
@@ -19,14 +19,14 @@ description: 瞭解如何在 [教育版團隊中的 Microsoft 團隊系統管理
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cce2e18059350e11986b4ca1ddcbe47fbc285231
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: d8d62d32aae46714c592200432cf1220e56e9fb7
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570388"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41693798"
 ---
-# <a name="assignments-in-teams-for-education"></a>在教育版小組中的作業
+# <a name="assignments-in-teams-for-education"></a>Teams 教育版中的作業
 
 作業是指派給課程中的學生或團隊成員的工作或工作單位，成為其研究的一部分。 您可以在團隊類別中建立作業。
 

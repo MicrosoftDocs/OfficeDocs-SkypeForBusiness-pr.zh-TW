@@ -16,16 +16,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: 瞭解如何搜尋您可以指派給使用者的電話號碼、根據國家或地區和城市，以及指定您所需的號碼數量。
-ms.openlocfilehash: b3e7c93fd2759beed7588bda49d0326f018a4ab8
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 1229f74473ff5f12bf137011dcdc9ad6a87d44f0
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573434"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41694198"
 ---
 # <a name="search-for-phone-numbers-for-users"></a>搜尋使用者的電話號碼
 
@@ -64,20 +65,20 @@ ms.locfileid: "37573434"
 8. 在 [**取得號碼**] 頁面上，選取您想要的電話號碼，按一下 [**取得號碼**]，然後按 **[下一步]**。
 
     > [!IMPORTANT]
-    > 您可以取得超過您授權的其他電話號碼。 若要判斷您可以取得多少電話號碼，請用您的授權數量，加上 10% 的授權數量，然後再加上10。 例如，如果您有 100**國內通話方案**和/或**國際通話方案**授權，您可以保留120電話號碼，假設您還沒有取得這些100使用者的電話號碼。 如需更多詳細資料，請參閱[您可以取得多少電話號碼？](/microsoftteams/how-many-phone-numbers-can-you-get)
+    > 您可以取得超過您授權的其他電話號碼。 若要判斷您可以取得多少電話號碼，請用您的授權數量，加上10% 的授權數量，然後再加上10。 例如，如果您有 100**國內通話方案**和/或**國際通話方案**授權，您可以保留120電話號碼，假設您還沒有取得這些100使用者的電話號碼。 如需更多詳細資料，請參閱[您可以取得多少電話號碼？](/microsoftteams/how-many-phone-numbers-can-you-get)
 
 9. 在**確認**頁面上，確認您的選擇，然後按一下 [**下單**]。
 
 10. 當您回到 [**電話號碼**] 頁面時，請選取您要指派的電話號碼，然後按一下 [**編輯**] 將它指派給使用者。  
 
 ## <a name="related-topics"></a>相關主題
-[傳送電話號碼常見問題](/microsoftteams/transferring-phone-numbers-common-questions)
+[移轉電話號碼的常見問題](/microsoftteams/transferring-phone-numbers-common-questions)
 
 [通話方案所用的不同類型的電話號碼](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
 [管理貴組織的電話號碼](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[緊急通話條款與條件](/microsoftteams/emergency-calling-terms-and-conditions)
+[緊急通話條款及條件](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [緊急通話免責聲明標籤](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 

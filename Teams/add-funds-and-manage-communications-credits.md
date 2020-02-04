@@ -1,5 +1,5 @@
 ---
-title: 新增基金及管理通訊點數
+title: 加值和管理通訊點數
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -16,7 +16,7 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - O365E_SFBVoiceCredit
 - O365E_SFBVoiceCreditAether
 - O365M_SFBVoiceCredit
@@ -28,14 +28,14 @@ f1keywords:
 ms.custom:
 - Licensing
 description: '瞭解如何為商務用 Skype 服務支付通訊點數（PSTN 消費），並查看規劃，讓您的使用者保持不間斷的電話系統存取。 '
-ms.openlocfilehash: 30f3d164fd28cfc9bbec034c404d9fe71a58568b
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 76b1281c69968164091daebff035a4c2b9bc75e1
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516809"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695821"
 ---
-# <a name="add-funds-and-manage-communications-credits"></a>新增基金及管理通訊點數
+# <a name="add-funds-and-manage-communications-credits"></a>加值和管理通訊點數
 
 通訊點數是您在 Office 365 中支付電話系統和通話方案的便利方式。 通訊點數可協助確保您和您的使用者永遠不會被捕獲，且無法進行下列作業：
   
@@ -83,7 +83,7 @@ ms.locfileid: "37516809"
 
 - [設定商務用 Skype Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     
-- [設定雲端語音信箱-系統管理協助](set-up-phone-system-voicemail.md)
+- [設定雲端語音信箱 - 系統管理說明](set-up-phone-system-voicemail.md)
     
 - 設定[Office 365 的](calling-plans-for-office-365.md)[通話方案](set-up-calling-plans.md)和通話方案
         

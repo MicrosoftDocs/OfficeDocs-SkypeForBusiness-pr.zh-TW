@@ -7,24 +7,24 @@ manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.BranchOfficeApplianceScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8632ddaa-9572-4129-9db4-de0f13438d43
-description: 這個節點會顯示完整的功能變數名稱 (FQDN)、關聯的池和伺服器, 以及此 Survivable 分支裝置的復原資訊。 您可以執行下列動作：
-ms.openlocfilehash: 04cbcf24aeaad5fe8b6c3810b2e6b7dd20db0e8a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 這個節點會顯示完整的功能變數名稱（FQDN）、關聯的池和伺服器，以及此 Survivable 分支裝置的復原資訊。 您可以執行下列動作：
+ms.openlocfilehash: bf792ee4673e6135f8e2bc08b3973a9b4be9b497
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36193305"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41697668"
 ---
 # <a name="branch-office-appliance-scope-node"></a>Branch Office Appliance 範圍節點
  
-這個節點會顯示完整的功能變數名稱 (FQDN)、關聯的池和伺服器, 以及此 Survivable 分支裝置的復原資訊。 您可以執行下列動作：
+這個節點會顯示完整的功能變數名稱（FQDN）、關聯的池和伺服器，以及此 Survivable 分支裝置的復原資訊。 您可以執行下列動作：
   
-- **編輯內容**。 開啟此 Survivable 分支裝置的 [**編輯屬性**] 頁面, 您可以在此變更 FQDN (如果拓撲尚未發佈)、關聯性和復原設定。
+- **編輯內容**。 開啟此 Survivable 分支裝置的 [**編輯屬性**] 頁面，您可以在此變更 FQDN （如果拓撲尚未發佈）、關聯性和復原設定。
     
 - **刪除**。從拓撲中刪除伺服器。
     

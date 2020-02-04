@@ -15,16 +15,16 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.numbertype
+f1.keywords: ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.numbertype
 ms.custom:
 - Calling Plans
 description: 瞭解小組針對通話方案所使用的不同電話號碼類型。
-ms.openlocfilehash: 353f3810be41aff5365b9dca00831d6b5a4dad5c
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 398dfce4b82cb898d6c3f3835e80905c911f52ac
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572264"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41696048"
 ---
 # <a name="different-kinds-of-phone-numbers-used-for-calling-plans"></a>通話方案所用的不同類型的電話號碼
 
@@ -58,10 +58,10 @@ Microsoft 團隊根據您想要使用電話號碼的目的，使用不同的電�
 
 ## <a name="related-topics"></a>相關主題
 
-[傳送電話號碼常見問題](transferring-phone-numbers-common-questions.md)
+[移轉電話號碼的常見問題](transferring-phone-numbers-common-questions.md)
 
 [管理貴組織的電話號碼](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
-[緊急通話條款與條件](emergency-calling-terms-and-conditions.md)
+[緊急通話條款及條件](emergency-calling-terms-and-conditions.md)
 
 [緊急通話免責聲明標籤](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)

@@ -16,17 +16,18 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Legal
 hideEdit: true
 description: '瞭解適用于英國商務用 Skype 的通話方案（PSTN 通話方案）準則、取得協助的方式，以及如何提交投訴及解決糾紛的方法。 '
-ms.openlocfilehash: 6ece2fcc6190ba800ba927147f4746a4fc0f2fd0
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 99ca68670d743279ded96df26adb1f09d66e8b12
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37515848"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695458"
 ---
 # <a name="calling-plans-in-office-365---code-of-practice-for-the-united-kingdom-uk"></a>Office 365 通話方案-英國的練習準則（英國）
 
@@ -148,5 +149,5 @@ Office 365 通話方案依賴您的寬頻連線。 如果您的寬頻連線遇�
 
 
 ## <a name="related-topics"></a>相關主題
-[適用于音訊會議與通話方案的國家和地區可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[音訊會議與通話方案的適用國家/地區](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 

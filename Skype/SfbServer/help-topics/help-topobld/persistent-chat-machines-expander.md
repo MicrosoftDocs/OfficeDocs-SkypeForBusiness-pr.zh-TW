@@ -7,24 +7,24 @@ manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.PersistentChatMachinesExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 15bc1c8f-71bd-4d66-bba1-cac0f2fe90bf
 description: 您可以使用 [電腦狀態設定] 中所列的伺服器或池來啟動或停用已部署的持久聊天伺服器或持久聊天伺服器池。 從清單中選取伺服器或集區，然後按一下 [成為作用中] 按鈕，即可將伺服器或集區設為作用中。
-ms.openlocfilehash: c8faf7bc05973e4453b4432b2aed27afdd79787e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 709c2bd179cfdde824a2e94b25b277d201c5046c
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36191635"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41696878"
 ---
 # <a name="persistent-chat-machines-expander"></a>常設聊天室電腦展開工具
  
 您可以使用 [**電腦狀態設定**] 中所列的伺服器或池來啟動或停用已部署的持久聊天伺服器或持久聊天伺服器池。 從清單中選取伺服器或集區，然後按一下 [成為作用中]**** 按鈕，即可將伺服器或集區設為作用中。
   
-您可以在清單中選取伺服器或文件庫, 然後按一下 [**設為非**使用中], 將已部署的持久聊天伺服器或持續性聊天伺服器池設定為非使用中。 您至少必須將一部伺服器設為作用中。
+您可以在清單中選取伺服器或文件庫，然後按一下 [**設為非**使用中]，將已部署的持久聊天伺服器或持續性聊天伺服器池設定為非使用中。 您至少必須將一部伺服器設為作用中。
   
  **確定**：接受並認可對話方塊的變更。
   

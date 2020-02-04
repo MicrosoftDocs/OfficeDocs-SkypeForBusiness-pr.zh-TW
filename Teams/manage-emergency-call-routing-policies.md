@@ -15,13 +15,13 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何使用及管理 Microsoft 團隊中的緊急通話路由原則。
-f1keywords: ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
-ms.openlocfilehash: 996ac202d837b4cfb253a2809880ce0907b33c6c
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+f1.keywords: ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
+ms.openlocfilehash: 8eee73b3ce6283cf2cb6105b4d1b43433ec7e057
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992710"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41694374"
 ---
 # <a name="manage-emergency-call-routing-policies-in-microsoft-teams"></a>管理 Microsoft 團隊中的緊急通話路由原則
 

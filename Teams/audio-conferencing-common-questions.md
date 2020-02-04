@@ -1,5 +1,5 @@
 ---
-title: 音訊會議常見問題
+title: 音訊會議的常見問題
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,18 +17,19 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: 以下是我們從我們想要使用音訊會議的客戶所取得的主要問題。
-ms.openlocfilehash: 7779a732a10f8a55f8bbdbb977ac9850cd2307bd
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 2dd772a9a6488b09092ac0687ca125409accf85b
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516985"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695718"
 ---
-# <a name="audio-conferencing-common-questions"></a>音訊會議常見問題
+# <a name="audio-conferencing-common-questions"></a>音訊會議的常見問題
 
 以下是我們從我們想要使用音訊會議的客戶所取得的主要問題。 
   
@@ -90,7 +91,7 @@ ms.locfileid: "37516985"
   
 ## <a name="why-did-users-start-receiving-emails-with-their-audio-conferencing-information"></a>為什麼使用者要開始接收含有其音訊會議資訊的電子郵件？
 
-我們新增了一項新功能，讓您（[管理員](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)）傳送及更新音訊會議資訊和在電子郵件中 PIN。 若要深入瞭解它，包括如何停用它，請參閱[啟用或停用 Microsoft 團隊中的音訊會議設定變更時傳送電子郵件](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)，或在[商務用 Skype 中的音訊會議設定變更時啟用或停用傳送電子郵件線上](/SkypeForBusiness/audio-conferencing-in-office-365/enable-or-disable-sending-emails-when-their-settings-change)。
+我們新增了一項新功能，讓您（[管理員](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)）傳送及更新音訊會議資訊和在電子郵件中 PIN。 若要深入瞭解它，包括如何停用它，請參閱[啟用或停用 Microsoft 團隊中的音訊會議設定變更時傳送電子郵件](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)，或在[商務用 Skype Online 中的音訊會議設定變更時啟用或停](/SkypeForBusiness/audio-conferencing-in-office-365/enable-or-disable-sending-emails-when-their-settings-change)用傳送電子郵件。
   
 ## <a name="can-audio-conferencing-be-used-by-the-users-who-are-part-of-an-on-premises-deployment-of-skype-for-business-server"></a>在內部部署商務用 Skype Server 中，使用者可以使用音訊會議嗎？
 
@@ -146,7 +147,7 @@ ms.locfileid: "37516985"
 
 - **選項 #1**：根據預設，如果會議召集人和所有參與者都使用電話加入會議，會議召集人需要輸入他或她的音訊會議 PIN，才能開始會議。 來電者在撥打線上會議的電話號碼時，系統會詢問他們是否要驗證為指定會議的召集人。 在召集人開始之前透過撥入方式加入會議的所有參與者都將放在大廳，並會在保留時聆聽音樂。 如果是商務用 Skype 會議，在召集人輸入其音訊會議 PIN 之後，所有參與者都會自動加入會議。 在 Microsoft 團隊會議中，參與者會根據召集人會議原則中的 [自動承認人員] 設定的值來加入會議。
 
-- **選項 #2**：如果針對特定召集人啟用了 [允許未驗證的呼叫者成為會議中的第一位人員] 設定（預設為停用），則該使用者排程的所有會議都將能在沒有召集人輸入他/她的情況下啟動。她的音訊會議 PIN。 啟用此設定時，只要第一位參與者透過撥入電話號碼加入會議，就會立即開始會議，而不會將其放在大廳中。 如需其他資訊，請參閱[在 Microsoft 團隊中管理使用者的音訊會議設定](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)，或[管理商務用 Skype Online 中使用者的音訊會議設定](/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-a-user)。
+- **選項 #2**：如果已針對特定召集人啟用 [允許未驗證的呼叫者成為會議中的第一位人員] 設定（預設為停用），則該使用者排程的所有會議都將能在沒有召集人輸入其音訊會議 PIN 的情況下啟動。 啟用此設定時，只要第一位參與者透過撥入電話號碼加入會議，就會立即開始會議，而不會將其放在大廳中。 如需其他資訊，請參閱[在 Microsoft 團隊中管理使用者的音訊會議設定](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)，或[管理商務用 Skype Online 中使用者的音訊會議設定](/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-a-user)。
    
 ## <a name="related-topics"></a>相關主題
 

@@ -1,5 +1,5 @@
 ---
-title: 緊急通話條款與條件
+title: 緊急通話條款及條件
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -17,27 +17,28 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: '瞭解緊急服務（911）與傳統的電話語音有何不同，以及如何撥打電話。 '
-ms.openlocfilehash: 356e858f39b1e7c6b812b99f46ecde42a35de81d
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 921756e7b26774066e0d0b7c5c2a7693c1405a90
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568416"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41696128"
 ---
-# <a name="emergency-calling-terms-and-conditions"></a>緊急通話條款與條件
+# <a name="emergency-calling-terms-and-conditions"></a>緊急通話條款及條件
 
 ## <a name="important-information"></a>重要資訊
 
 緊急服務通話與 Office 365 中與傳統電話語音的通話方案有不同的運作方式。 您必須瞭解這些差異，並將它們與 Office 365 中的通話方案傳達給所有使用者，這一點非常重要。 您已確認並同意您已閱讀並瞭解緊急服務通話中的差異，並會針對每位使用者提供 Office 365 通話方案的相關通知。
   
-緊急服務通話功能的差異包括：（i）商務用 Skype 和小組可能不知道來電者進行緊急服務通話的實際位置，這可能會導致呼叫被路由到錯誤的緊急事件服務的話務中心和/或緊急服務被分派到錯誤的位置;（ii）如果使用者的小組用戶端已離線，或使用者的裝置因任何原因而無法存取網際網路（例如網路中斷或電源中斷），則不支援並預期無法使用在 Office 365 中透過電話系統進行緊急服務通話;而且（iii）雖然 Office 365 中的呼叫方案可以在網際網路連線的世界各地使用，但使用者不應從其家用國家/地區以外的位置進行緊急服務通話，因為呼叫可能不會路由至該國家/地區的適當通話中心。
+緊急服務通話功能的差異包括：（i）商務用 Skype 和小組可能不知道呼叫者進行緊急服務通話的實際位置，這可能會導致呼叫被路由到錯誤的緊急服務話務中心，而/或緊急服務被傳送到錯誤的位置;（ii）如果使用者的小組用戶端已離線，或使用者的裝置因任何原因而無法存取網際網路（例如網路中斷或電源中斷），則不支援並預期無法使用在 Office 365 中透過電話系統進行緊急服務通話;而且（iii）雖然 Office 365 中的呼叫方案可以在可使用網際網路連線的世界任何地方使用，但使用者不應從其家用國家/地區以外的位置進行緊急服務呼叫，因為呼叫可能不會傳送到該國家/地區的適當話務中心。
   
 ## <a name="related-topics"></a>相關主題
-[傳送電話號碼常見問題](transferring-phone-numbers-common-questions.md)
+[移轉電話號碼的常見問題](transferring-phone-numbers-common-questions.md)
 
 [通話方案所用的不同類型的電話號碼](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 

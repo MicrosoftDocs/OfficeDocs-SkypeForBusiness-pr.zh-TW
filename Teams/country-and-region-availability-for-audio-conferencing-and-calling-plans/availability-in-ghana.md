@@ -17,18 +17,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: 以下是適用于商務用 Skype 的 Office 365 服務，以及適用于加納的 Microsoft 團隊。
-ms.openlocfilehash: 43b63df598dbe23b0c331b7acce500eb6c9982b3
-ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
+ms.openlocfilehash: b93b524ab492f487878d11080b19d1339febfe00
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40952796"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695128"
 ---
 # <a name="availability-in-ghana"></a>加納中的可用性
 

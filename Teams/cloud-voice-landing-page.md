@@ -11,22 +11,22 @@ ms.collection:
 - M365-collaboration
 - M365-voice
 ms.reviewer: crowe
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.dashboard.helparticle.cloudvoice
 search.appverid: MET150
 description: 在小組中部署雲端語音的登陸頁面
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 969d55f41226d1c6effaf4c183992f15bf48e385
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: b1c172de4e29b5246e17bd6cd280679b7f3ef8a2
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925574"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695478"
 ---
 # <a name="cloud-voice-in-microsoft-teams"></a>Microsoft 團隊中的雲端語音
 
-您已完成[快速入門](get-started-with-teams-quick-start.md)。 您已在整個組織中利用[聊天、團隊、頻道、& 應用程式](deploy-chat-teams-channels-microsoft-teams-landing-page.md)來推出小組。 也許您已將[會議 & 會議](deploy-meetings-microsoft-teams-landing-page.md)已部署。 現在您已經準備好為使用者新增雲端語音功能。 
+您已完成[開始使用](get-started-with-teams-quick-start.md)。 您已使用[聊天、團隊、頻道和應用程式](deploy-chat-teams-channels-microsoft-teams-landing-page.md)在組織中推出 Teams。 也許您已將[會議 & 會議](deploy-meetings-microsoft-teams-landing-page.md)已部署。 現在您已經準備好為使用者新增雲端語音功能。 
 
 雲端語音提供私人分支 Exchange （PBX）功能，以及連線至公用交換電話網絡（PSTN）的選項。
 
@@ -40,17 +40,17 @@ ms.locfileid: "37925574"
 
 下列文章提供在小組中部署和使用雲端語音功能的詳細資訊：
 
-- [Office 365 中的電話系統](what-is-phone-system-in-office-365.md)
+- [Office 365 電話系統](what-is-phone-system-in-office-365.md)
 - [含有通話方案的電話系統](calling-plan-landing-page.md)
 - [電話系統直接路由](direct-routing-landing-page.md)
 - [雲端語音部署](cloud-voice-deployment.md)
-- [Microsoft 電話解決方案](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)
+- [Microsoft 電話語音解決方案](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)
 - 請觀看下列會話，深入瞭解手機系統： [Microsoft 團隊中的電話系統簡介](https://aka.ms/teams-phone-system)
 
 
 ## <a name="core-deployment-decisions"></a>核心部署決策
 
-這些是大多陣列織想要變更的設定（如果小組預設設定不適用於組織）。
+這些是大部分組織想要變更的設定 (如果 Teams 的預設設定不符合組織的需求)。
 
 ## <a name="phone-system-office-365"></a>電話系統（Office 365）
 
@@ -81,7 +81,7 @@ ms.locfileid: "37925574"
 - 語音信箱
 - 通話身分識別
 - Microsoft 的電話號碼
-- 撥號方案
+- 撥號對應表
 - 通話佇列
 - 自動語音應答
 
@@ -106,7 +106,7 @@ ms.locfileid: "37925574"
 
 ### <a name="phone-numbers-from-microsoft"></a>Microsoft 的電話號碼
 
-Microsoft 提供兩種電話號碼類型：可指派給貴組織中的使用者的*訂閱者*（使用者）號碼，以及*服務*號碼（以付費和免付費服務號碼提供），這些號碼都有較高的同時通話容量比訂閱者號碼還可以指派給諸如音訊會議、自動語音應答或通話佇列等服務。
+Microsoft 提供兩種電話號碼類型：可指派給您組織中的使用者的*訂閱者*（使用者）號碼，以及*服務*號碼（例如付費和免付費服務號碼），這些號碼的撥打能力比訂閱者號碼更高，而且可以指派給諸如音訊會議、自動語音應答或通話佇列等服務。
 
 |問問自己|動作 |
 | :------------|:-------|
@@ -115,16 +115,16 @@ Microsoft 提供兩種電話號碼類型：可指派給貴組織中的使用者�
 我要如何將現有的電話號碼移植至團隊？|如需詳細資訊，請參閱[將電話號碼轉移至 Microsoft 團隊](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)。
 |||
 
-### <a name="dial-plans"></a>撥號方案
+### <a name="dial-plans"></a>撥號對應表
 
 Office 365 的 [電話系統] 功能中的撥號方案是一組正常化規則，可將撥打的電話號碼轉換成替代格式（通常是164個格式），用於呼叫授權及呼叫路由。
 
-如需撥號方案的詳細資訊，請參閱[什麼是撥號方案？](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans)
+如需撥號對應表的相關資訊，請參閱[什麼是撥號對應表？](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans) (英文版)
 
 |問問自己|動作 |
 |:------------|:-------|
-| 我的組織是否需要自訂的撥號方案？ | 若要協助判斷您是否需要自訂撥號方案，請參閱[規劃租使用者撥號方案](what-are-dial-plans.md#planning-for-tenant-dial-plans)|
-哪些使用者需要自訂的撥號方案，以及應該將哪些租使用者撥號方案指派給每個使用者？ | 若要將使用者新增至 PowerShell 中的自訂撥號方案，請參閱[建立及管理撥號方案](create-and-manage-dial-plans.md)。 |
+| 我的組織需要自訂的撥號對應表？ | 若要協助判斷您是否需要自訂撥號方案，請參閱[規劃租使用者撥號方案](what-are-dial-plans.md#planning-for-tenant-dial-plans)|
+哪些使用者需要自訂的撥號對應表，以及應指派給每個使用者何種租用戶撥號對應表？ | 若要將使用者新增至 PowerShell 中的自訂撥號方案，請參閱[建立及管理撥號方案](create-and-manage-dial-plans.md)。 |
 |||
 
 ### <a name="call-queues"></a>通話佇列
@@ -144,7 +144,7 @@ Office 365 的 [電話系統] 功能中的撥號方案是一組正常化規則�
 |:------------|:-------|
 | 我的組織是否需要自動語音應答？ | 如需詳細資訊，請參閱[什麼是雲端自動](what-are-phone-system-auto-attendants.md)語音應答，以及[設定雲端自動](create-a-phone-system-auto-attendant.md)語音應答。 |
 
-### <a name="devices"></a>台
+### <a name="devices"></a>裝置
 
 如需支援的裝置的詳細資訊，請參閱下列內容：
 

@@ -7,24 +7,24 @@ manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.PersistentChatsScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c5f2873f-6601-4483-850d-c135b530392a
-description: '您可以在 [拓撲建立器] 中以滑鼠右鍵按一下 [永久聊天] 池來執行下列動作:'
-ms.openlocfilehash: 60c28ea5999030717da0885801eb6410c3d9a712
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 您可以在 [拓撲建立器] 中以滑鼠右鍵按一下 [永久聊天] 池來執行下列動作：
+ms.openlocfilehash: 15f73a250944cc30b26cbeec093015b861b83f2e
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36193771"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41697578"
 ---
 # <a name="create-persistent-chat-servers-scope-node"></a>建立 Persistent Chat Server 範圍節點
  
-您可以在 [拓撲建立器] 中以滑鼠右鍵按一下 [**永久聊天] 池**來執行下列動作:
+您可以在 [拓撲建立器] 中以滑鼠右鍵按一下 [**永久聊天] 池**來執行下列動作：
   
-- **新的持續聊天**區: 啟動 [**定義新的持久聊天**區] 嚮導, 用來定義新的持久聊天伺服器或池。
+- **新的持續聊天**區：啟動 [**定義新的持久聊天**區] 嚮導，用來定義新的持久聊天伺服器或池。
     
 除了 [新增常設聊天室集區] 選項，您還可以執行下列一般工作：
   

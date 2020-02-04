@@ -7,22 +7,22 @@ manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.ClientDeviceTestEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8f9125dd-04b3-4a6d-9f41-4f19ddaf7a2d
-description: 測試裝置功能與裝置更新功能要一起搭配使用。 您可以將測試裝置新增至「測試裝置」頁面，然後先使用此裝置來確認新更新的功能，再將更新部署至生產裝置。 您可以在全域 (在整個環境中) 測試裝置，或在單一網站內測試裝置。 您是以裝置的媒體存取控制 (MAC) 位址或序號來識別測試裝置。 當您新增裝置時, 它會出現在商務用 Skype Server [控制台] 的 [測試裝置] 頁面上的清單中。
-ms.openlocfilehash: 18cc276889e479a9aea7ac87950e2f50bb627578
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 測試裝置功能與裝置更新功能要一起搭配使用。 您可以將測試裝置新增至「測試裝置」頁面，然後先使用此裝置來確認新更新的功能，再將更新部署至生產裝置。 您可以在全域 (在整個環境中) 測試裝置，或在單一網站內測試裝置。 您是以裝置的媒體存取控制 (MAC) 位址或序號來識別測試裝置。 當您新增裝置時，它會出現在商務用 Skype Server [控制台] 的 [測試裝置] 頁面上的清單中。
+ms.openlocfilehash: 56f5c7b43f55f50c5fa5e73cade3f74bea752778
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36192450"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41699460"
 ---
 # <a name="test-device-create-new-or-edit-existing"></a>測試裝置：建立新的或編輯現有
 
-測試裝置功能與裝置更新功能要一起搭配使用。 您可以將測試裝置新增至「測試裝置」**** 頁面，然後先使用此裝置來確認新更新的功能，再將更新部署至生產裝置。 您可以在全域 (在整個環境中) 測試裝置，或在單一網站內測試裝置。 您是以裝置的媒體存取控制 (MAC) 位址或序號來識別測試裝置。 當您新增裝置時, 它會出現在商務用 Skype Server [控制台] 的 [**測試裝置**] 頁面上的清單中。
+測試裝置功能與裝置更新功能要一起搭配使用。 您可以將測試裝置新增至「測試裝置」**** 頁面，然後先使用此裝置來確認新更新的功能，再將更新部署至生產裝置。 您可以在全域 (在整個環境中) 測試裝置，或在單一網站內測試裝置。 您是以裝置的媒體存取控制 (MAC) 位址或序號來識別測試裝置。 當您新增裝置時，它會出現在商務用 Skype Server [控制台] 的 [**測試裝置**] 頁面上的清單中。
 
 ## <a name="tasks-you-can-perform"></a>您可以執行的工作
 
@@ -36,13 +36,13 @@ ms.locfileid: "36192450"
 
 下列清單說明頁面上的功能表、命令、欄位及內容。
 
-- **範圍**識別測試裝置的範圍 (全域或網站)。
+- **範圍**識別測試裝置的範圍（全域或網站）。
 
 - **名稱**您可以新增或修改測試裝置的名稱。
 
 - **裝置名稱**您可以新增或修改測試裝置的名稱。
 
-- **識別碼類型**您可以選取下列其中一項來選取要用來識別裝置的方法:
+- **識別碼類型**您可以選取下列其中一項來選取要用來識別裝置的方法：
 
   - **MAC 位址**
 

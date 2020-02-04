@@ -1,5 +1,5 @@
 ---
-title: 新增、變更或移除組織中緊急位置的位置
+title: 新增、變更或移除貴組織緊急位置的地方
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 description: '瞭解如何在 Microsoft 團隊系統管理中心新增、變更或移除您組織緊急位置的位置。 '
-ms.openlocfilehash: 5b297d2c9253919c0ffa780bb8f035c273852036
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: a72d2ece731dcac33732d510b0cbd10975575cbc
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37639547"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695825"
 ---
-# <a name="add-change-or-remove-a-place-for-an-emergency-location-in-your-organization"></a>新增、變更或移除組織中緊急位置的位置
+# <a name="add-change-or-remove-a-place-for-an-emergency-location-in-your-organization"></a>新增、變更或移除貴組織緊急位置的地方
 
 視貴組織中的物理位置數量而定，您可以新增建築物、地面和辦事處的位置，以建立更明確的緊急位置。 如需詳細資訊，請參閱[什麼是緊急位置、地點及呼叫路由？](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing) 。
   
@@ -51,6 +52,6 @@ ms.locfileid: "37639547"
     
 ## <a name="related-topics"></a>相關主題
 
-- [新增、變更或移除組織中緊急位置的位置](add-change-remove-emergency-place-organization.md)
+- [新增、變更或移除貴組織緊急位置的地方](add-change-remove-emergency-place-organization.md)
 - [管理貴組織的電話號碼](/microsoftteams/manage-phone-numbers-for-your-organization)
-- [緊急通話條款與條件](/microsoftteams/emergency-calling-terms-and-conditions)
+- [緊急通話條款及條件](/microsoftteams/emergency-calling-terms-and-conditions)

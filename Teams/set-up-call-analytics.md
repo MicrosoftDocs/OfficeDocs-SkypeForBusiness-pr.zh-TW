@@ -16,16 +16,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Reporting
 description: 設定並使用呼叫分析來識別和疑難排解商務用 Skype 和 Microsoft 團隊通話品質問題。
-ms.openlocfilehash: 7a91bc0d8503d313ae3b3dfa7ddd32b6a8c5207a
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 4b4ab2b60025169351e10a5a8cc3938d146e4f2d
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571246"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41693938"
 ---
 # <a name="set-up-call-analytics"></a>設定通話分析
 
@@ -65,7 +66,7 @@ ms.locfileid: "37571246"
 ||收件者電話號碼  <br/> |除後三位數以外的整個電話號碼都會以星號符號加以混淆。 例如，15552823 * * *。  <br/> |除後三位數以外的整個電話號碼都會以星號符號加以混淆。 例如，15552823 * * *。  <br/> |
 ||**[通話詳細資料** > **] 索引**標籤 <br/> |未顯示資訊。  <br/> |顯示所有的詳細資料，例如裝置名稱、IP 位址、子網對應等。  <br/> |
 ||**通話詳細資料** > [**高級** > **調試**] 索引標籤 <br/> |未顯示資訊。  <br/> |顯示所有的詳細資料，例如 DNS 尾碼和 SSID。  <br/> |
-|**舉行** <br/> |參與者名稱  <br/> |僅限代理程式搜尋的使用者名稱。 已識別為內部使用者或外部使用者的其他參與者。  <br/> |顯示所有名稱。  <br/> |
+|**會議** <br/> |參與者名稱  <br/> |僅限代理程式搜尋的使用者名稱。 已識別為內部使用者或外部使用者的其他參與者。  <br/> |顯示所有名稱。  <br/> |
 ||參與者計數  <br/> |參與者數目。  <br/> |參與者數目。  <br/> |
 ||會話詳細資料  <br/> |顯示的會話詳細資料（含例外狀況）。 只顯示代理程式搜尋的使用者名稱。 已識別為內部使用者或外部使用者的其他參與者。 以星號符號加以混淆之電話號碼的後三位數。  <br/> |顯示 [會話詳細資料]。 顯示 [使用者名稱] 和 [會話詳細資料]。 以星號符號加以混淆之電話號碼的後三位數。  <br/> |
 ||||
@@ -91,9 +92,9 @@ ms.locfileid: "37571246"
 ## <a name="related-topics"></a>相關主題
 <a name="BKMK_UploadFiles"> </a>
 
-[使用呼叫分析來排查不佳的通話品質問題](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+[使用通話分析來疑難排解不良通話品質](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
-[[通話分析] 和 [通話品質儀表板]](difference-between-call-analytics-and-call-quality-dashboard.md)
+[通話分析和通話品質儀表板](difference-between-call-analytics-and-call-quality-dashboard.md)
 
   
  

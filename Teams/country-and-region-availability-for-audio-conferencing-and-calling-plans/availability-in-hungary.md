@@ -18,18 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: 以下是適用于商務用 Skype 和適用于匈牙利的 Microsoft 團隊的 Office 365 服務。
-ms.openlocfilehash: 375a77d73aba8533a0a5cb319fdb3e834b889614
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 377015440d921d4c9bf5a0525b010486db01523b
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571854"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695048"
 ---
 # <a name="availability-in-hungary"></a>匈牙利中的可用性
 
@@ -41,7 +42,7 @@ ms.locfileid: "37571854"
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
-|音訊會議是否可供購買？  <br/> |是的  <br/> |
+|音訊會議是否可供購買？  <br/> |是  <br/> |
 |是否會自動為音訊會議指派電話號碼？  <br/> |是，適用于：<br/><ul><li> 布達佩斯</ul> 如果您需要專用的電話號碼，請參閱[取得商務用 Skype 和 Microsoft 團隊的服務電話號碼](/microsoftteams/getting-service-phone-numbers)。  <br/> |
 |使用 [呼叫我] 功能撥出功能  <br/> |離線  <br/> |
    
@@ -49,7 +50,7 @@ ms.locfileid: "37571854"
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
-|電話系統是否可供購買？  <br/> |是的  <br/> |
+|電話系統是否可供購買？  <br/> |是  <br/> |
 | 自動語音應答 <br/> |離線  <br/> |
 |通話佇列  <br/> |離線  <br/> |
 |語音信箱  <br/> |離線  <br/> |
@@ -58,7 +59,7 @@ ms.locfileid: "37571854"
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
-|通話方案可供購買嗎？  <br/> |不  <br/> |
+|通話方案可供購買嗎？  <br/> |否  <br/> |
 |通話方案可用的分鐘數  <br/> |不適用  <br/> |
 |可以撥出電話至嗎？  <br/> |不適用  <br/> |
    
@@ -67,8 +68,8 @@ ms.locfileid: "37571854"
 |**功能**|**詳細資料**|
 |:-----|:-----|
 |您可以在哪一或哪些主要城市取得付費電話號碼？  <br/> | <ul><li>布達佩斯 <li>  Debrecen <li>  Miskolc <li>  Szeged </ul> |
-|是否有付費電話號碼？  <br/> |是的  <br/> |
-|免費提供免付費電話號碼嗎？  <br/> |是的  <br/> |
+|是否有付費電話號碼？  <br/> |是  <br/> |
+|免費提供免付費電話號碼嗎？  <br/> |是  <br/> |
    
  如果您想要取得音訊會議、自動語音應答及通話佇列的付費和免付費電話號碼，請參閱[取得商務用 Skype 和 Microsoft 團隊的服務電話號碼](/microsoftteams/getting-service-phone-numbers)。
   
@@ -76,13 +77,13 @@ ms.locfileid: "37571854"
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
-|通訊點數提供了嗎？  <br/> |是的  <br/> |
+|通訊點數提供了嗎？  <br/> |是  <br/> |
    
 如果您想要設定，請參閱[為您的組織設定通訊點數](../set-up-communications-credits-for-your-organization.md)。
 
 ## <a name="related-topics"></a>相關主題
 
-[取得商務用 Skype 和 Microsoft 團隊的服務電話號碼](/microsoftteams/getting-service-phone-numbers)
+[取得商務用 Skype 和 Microsoft Teams 的服務電話號碼](/microsoftteams/getting-service-phone-numbers)
 
-[適用于音訊會議與通話方案的國家和地區可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[音訊會議與通話方案的適用國家/地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
