@@ -3,6 +3,8 @@ title: Lync Server 2013：編輯設計
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Editing the design
 ms:assetid: 08f639ba-0e5f-4ae7-9191-c3d96c25b169
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558608(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541445
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 601c313231a26341c3c4cf8a4897d11872dec9a2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: dfce3bc4242140364005a9a981282ecb90a42d3b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40976080"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739453"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +41,7 @@ _**主題上次修改日期：** 2013-02-21_
 
 規劃工具會顯示所選網站的網站拓撲。 [網站] 頁面底部有四個索引標籤：
 
-![規劃工具網站拓撲](images/Gg558608.e6189c20-360a-42bd-ba90-11bdb5b7551b(OCS.15).jpg "規劃工具網站拓撲")
+![規劃工具的站台拓撲](images/Gg558608.e6189c20-360a-42bd-ba90-11bdb5b7551b(OCS.15).jpg "規劃工具的站台拓撲")
 
   - 網站拓撲：目前顯示的頁面，其中包含拓撲的視覺概況（如建議）。
 
@@ -47,7 +49,7 @@ _**主題上次修改日期：** 2013-02-21_
 
   - Edge 管理報表-Edge 管理員報告總共包含四個報告：
     
-    ![Edge 管理報表頁面](images/Gg558608.0019cc5e-af39-4cb9-82ce-58f6388242ff(OCS.15).jpg "邊緣管理報表頁面")  
+    ![Edge 管理員報告頁面](images/Gg558608.0019cc5e-af39-4cb9-82ce-58f6388242ff(OCS.15).jpg "Edge 管理員報告頁面")  
     
       - 摘要報告–邊緣網路設定的一般設定報告。 如果您將 [ **Edge 網狀圖**] 頁面上的值編輯為要在實際部署中使用的 [拓撲 tcp/ip] 和 [FQDN] 值，這些位址和名稱將會顯示在這裡。 否則，會出現預設文字。
     

@@ -3,6 +3,8 @@ title: Lync Server 2013：整合內部部署 Unified Messaging 的指導方針
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Guidelines for integrating on-premises Unified Messaging and Lync Server
 ms:assetid: 829ac017-6907-40f9-be22-787a28eae0ac
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398656(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184681
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 15973bf2055339e375e4aecc7cfd1f61ac205dbb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3f3e57245f0a8edf5b545f9a67547e6be6f63399
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40976330"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739613"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -88,7 +90,7 @@ _**主題上次修改日期：** 2012-09-25_
 
 **範例1： Exchange UM 復原**
 
-![EXCHANGE Um 範例 1](images/Gg398656.3644b847-0847-4550-a989-e3fc51de5c4b(OCS.15).jpg "Exchange um 範例 1")
+![Exchange UM 範例 1](images/Gg398656.3644b847-0847-4550-a989-e3fc51de5c4b(OCS.15).jpg "Exchange UM 範例 1")
 
 在範例1中，Exchange UM 伺服器1和2在 Tukwila 資料中心中啟用，而在都柏林資料中心啟用 Exchange UM 伺服器3和4。 在 Tukwila 中發生 Exchange UM 停用時，網域名稱系統（DNS）會將伺服器1和2的記錄分別設定為指向 [伺服器 3] 和 [4]。 在都柏林中發生 Exchange UM 停用時，伺服器3和4的 DNS A 記錄應該設定為分別指向 [伺服器 1] 和 [2]。
 
@@ -109,7 +111,7 @@ _**主題上次修改日期：** 2012-09-25_
 
 **範例2： Exchange UM 復原**
 
-![EXCHANGE Um 範例 2](images/Gg398656.15754273-306e-448d-b258-84bc2936a2e8(OCS.15).jpg "Exchange um 範例 2")
+![Exchange UM 範例 2](images/Gg398656.15754273-306e-448d-b258-84bc2936a2e8(OCS.15).jpg "Exchange UM 範例 2")
 
 在範例2的 [一般操作條件] 下，Exchange UM 伺服器1和2在 Tukwila 資料中心中啟用，且在都柏林資料中心啟用 Exchange UM 伺服器3和4。 所有四個伺服器都包含在 Tukwila 使用者的 SIP URI 撥號計畫中;不過，伺服器3和4會停用。 例如，在 Tukwila 中發生 Exchange um 停用時，應該停用 exchange UM 伺服器1和2，然後啟用 Exchange UM 伺服器3和4，以便將 Tukwila Exchange UM 流量路由到都柏林中的伺服器。
 

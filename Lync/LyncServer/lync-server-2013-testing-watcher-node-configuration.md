@@ -3,6 +3,8 @@ title: Lync Server 2013：測試觀察程式節點配置
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing watcher node configuration
 ms:assetid: f9ecd85c-0ae9-4906-b786-6b002b5a77c6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn751537(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969667
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 65d2c79de4f86e490244ef63948c263d8f387fc5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 920fc39d3800f83a2d40a613c391b2f0c93e4dac
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40976452"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745263"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -62,7 +64,7 @@ _**主題上次修改日期：** 2014-11-03_
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>說明
 
 如果您使用 Microsoft System Center Operations Manager 來監視 Lync Server 2013，就可以選擇設定「觀察程式節點」：定期及自動執行綜合交易的電腦，以驗證 Lync Server 的運作方式正確. 系統會將觀察程式節點指派給 pool，並使用**CsWatcherNodeConfiguration** Cmdlet 進行管理。 請注意，如果您使用的是系統中心作業管理員，則不需要安裝觀察程式節點。 您仍可在不使用觀察程式節點的情況下監控您的系統。 唯一的差異是，您必須手動呼叫任何您想要執行的綜合交易，而不是由 Operations Manager 自動呼叫。
 

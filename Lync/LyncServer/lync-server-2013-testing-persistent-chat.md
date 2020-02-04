@@ -3,6 +3,8 @@ title: Lync Server 2013：測試持久聊天
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing persistent chat
 ms:assetid: d351b6f2-bc31-42e0-9e8d-c347713d6b4a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727313(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969651
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d4f805984382388fd44904db746d818decb8871a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 78e756de75dda7d7b0a96d9a49233818a5c86576
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40975857"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745618"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -62,7 +64,7 @@ _**主題上次修改日期：** 2014-11-03_
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>說明
 
 **Test CsPersistentChatMessage** Cmdlet 會確認一組測試使用者可以使用持續聊天服務來交換郵件。 若要這樣做，此 Cmdlet 會將這兩個使用者記錄在 Lync Server 2013、將使用者連線至持續聊天室、交換一對訊息，然後退出聊天室並登出兩個使用者。 請注意，如果您未建立任何聊天室，或者沒有為兩個測試使用者帳戶指派永久聊天原則，且該策略可讓使用者存取持續聊天服務，則呼叫此 Cmdlet 將會失敗。
 

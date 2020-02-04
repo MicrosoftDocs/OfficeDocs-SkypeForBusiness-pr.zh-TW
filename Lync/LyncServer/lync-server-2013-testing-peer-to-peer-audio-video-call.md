@@ -3,6 +3,8 @@ title: Lync Server 2013：測試對等音訊/視頻通話
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing peer to peer audio/video call
 ms:assetid: 95eb3693-b866-4652-bc45-9b75fdb40b49
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn743835(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969627
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 43fc4da7619dcc4cfd88417b52543dc23c447883
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e319ace4ee4cc6613ac5ed29659ac14c5853d7b5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40975533"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745633"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -62,7 +64,7 @@ _**主題上次修改日期：** 2014-06-05_
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>說明
 
 Test-CsP2PAV 是用來判斷一組測試使用者是否可以參與對等 A/V 交談。 若要測試這種情況，請將兩位使用者登入 Lync Server，然後啟動 Cmdlet。 假設兩次登錄成功，則第一個使用者接著邀請第二位使用者加入 A/V 通話。 第二個使用者接受通話，兩個使用者之間的連線就會得到測試，然後通話就會結束，並從系統登出測試使用者。
 

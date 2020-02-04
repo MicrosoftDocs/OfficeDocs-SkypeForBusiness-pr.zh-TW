@@ -3,6 +3,8 @@ title: Lync Server 2013：主控 Exchange UM 路由
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Hosted Exchange UM routing
 ms:assetid: 6c90dc8b-6aef-4ce8-b483-37c7b5a553c2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398512(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184422
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 90cc1112effd0eac0a25614ee50d7008ee1c5e37
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e04198813f7bb0647671dbb23e12889b108ee846
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40974089"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739003"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,7 +47,7 @@ Lync Server 2013 Exchange UM 路由應用程式使用來自使用者帳戶設定
 
 **混合式部署 Exchange UM 路由的範例**
 
-內部部署 lync ![Server EXCHANGE um 部署](images/Gg398512.75258286-1f23-487b-bf46-d8538e7d540e(OCS.15).jpg "內部部署 LYNC server exchange um 部署")
+![內部部署 Lync Server Exchange UM 部署](images/Gg398512.75258286-1f23-487b-bf46-d8538e7d540e(OCS.15).jpg "內部部署 Lync Server Exchange UM 部署")
 
 Exchange UM 路由可以設定為將呼叫路由到已啟用內部部署 Exchange um 的使用者，或傳送給已啟用託管 Exchange UM 的使用者，或結合兩個使用者。
 

@@ -3,6 +3,8 @@ title: Lync Server 2013：對等 IM 報告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Peer-to-Peer IM Report
 ms:assetid: 19ec0145-2398-437b-8989-f780c179b798
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558620(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183533
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f44d25ec36788e6964ea81bde71e82f3746c5aee
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 359c3fad7f41d990ffdba3aa533d0d5f10456665
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40982677"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755303"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -73,7 +75,7 @@ _**主題上次修改日期：** 2012-11-01_
 <thead>
 <tr class="header">
 <th>名稱</th>
-<th>描述</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>
@@ -140,7 +142,7 @@ _**主題上次修改日期：** 2012-11-01_
 <tr class="header">
 <th>名稱</th>
 <th>您可以針對此專案進行排序嗎？</th>
-<th>描述</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>
@@ -183,7 +185,7 @@ _**主題上次修改日期：** 2012-11-01_
 <tr class="header">
 <th>名稱</th>
 <th>您可以針對此專案進行排序嗎？</th>
-<th>描述</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>

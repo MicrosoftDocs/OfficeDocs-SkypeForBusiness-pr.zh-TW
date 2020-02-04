@@ -3,6 +3,8 @@ title: Lync Server 2013：針對集中式記錄服務使用停止功能
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Using Stop for the Centralized Logging Service
 ms:assetid: 09ac093e-8f30-4874-84b4-12548ac8c898
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687964(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733549
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 521328b688f90ca591abddb3e59e7d49ae771b15
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 621d7c02530fea62b1601c1db755292c8f819a6e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40981823"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743963"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -65,7 +67,7 @@ _**主題上次修改日期：** 2012-11-01_
     
         Show-CsClsLogging
     
-    呼叫 show-CsCl 之後![，在呼叫 CsCl](images/JJ687964.eb190c32-529c-4277-a731-52c47d22d8fa(OCS.15).jpg "windows powershell 主控台")之後的 windows powershell 主控台
+    ![呼叫 Show-CsCl 之後的 Windows PowerShell 主控台](images/JJ687964.eb190c32-529c-4277-a731-52c47d22d8fa(OCS.15).jpg "呼叫 Show-CsCl 之後的 Windows PowerShell 主控台")
     
     CsClsLogging 的結果就是執行中之案例的摘要，以及它們正在執行的範圍。 如需詳細資訊，請參閱[顯示-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/Show-CsClsLogging)。
 

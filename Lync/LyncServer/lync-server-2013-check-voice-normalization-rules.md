@@ -3,6 +3,8 @@ title: Lync Server 2013：檢查語音正常化規則
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Check voice normalization rules
 ms:assetid: bf71a218-71cd-4b64-b8e8-b3a98b6e87a2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn725212(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969649
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 487415fccc1e779daa476a4e76aa99a891f6b7fe
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 04e383f38d5af6f106354a766c857635bcd87eb3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40977756"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733863"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -62,7 +64,7 @@ _**主題上次修改日期：** 2014-05-20_
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>說明
 
 語音正常化規則是用來將使用者所撥的電話號碼（例如2065551219）轉換為 Lync Server （+ 12065551219）所使用的 E. 164 格式。 例如，如果使用者習慣撥電話號碼（不包括國家/地區碼或區號（例如5551219）），則您必須有可將該數位轉換為 E.i 格式的語音正常化規則： + 12065551219。 如果沒有這類規則，使用者將無法呼叫555-1219。
 

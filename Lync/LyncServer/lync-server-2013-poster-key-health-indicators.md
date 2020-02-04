@@ -3,6 +3,8 @@ title: Lync Server 2013：海報：主要健康情況指示符
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: 'Poster: Key Health Indicators'
 ms:assetid: 8367dccf-adaa-4a0b-a4ed-bc9570cc5e24
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn593599(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 61084873
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9454197642ac87f5d8bc0d768795854d792f9a31
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 812ce68c84f86250fd25cc646bbcd5faddf0e566
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40977551"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747443"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +39,7 @@ _**主題上次修改日期：** 2014-02-10_
 
 本文將提供[主要的健康情況指示符：維護健康的 Lync 伺服器海報的基礎](http://go.microsoft.com/fwlink/?linkid=391838)，您可以從下載中心下載。
 
-![標牌說明使用 KHI 資料](images/Dn594589.b6fe82bd-d70f-4c1f-a812-b615ac5fa7d7(OCS.15).jpg "海報說明使用 KHI 資料進行疑難排解")的疑難排解
+![描述使用 KHI 資料疑難排解的海報](images/Dn594589.b6fe82bd-d70f-4c1f-a812-b615ac5fa7d7(OCS.15).jpg "描述使用 KHI 資料疑難排解的海報")
 
 您可以使用此海報來瞭解主要的健康情況指標（KHIs）、效能計數器，以及可顯示使用者經驗問題的閾值。 收集 KHI 資料通常是實施通話品質方法（CQM）的第一個步驟，主要是為了確保 Lync 使用者的音質音訊體驗。
 

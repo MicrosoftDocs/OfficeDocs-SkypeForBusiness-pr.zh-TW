@@ -3,6 +3,8 @@ title: 測試指派給網站之 Kerberos 帳戶的設定
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing configuration of the Kerberos account assigned to a site
 ms:assetid: a087d77e-c59e-44f5-9caa-ccfd41be7276
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn743837(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969637
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e12a780c4c900423b23eff6cdaae15ba15786b6c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c096edc0267501bb17870a5c018e4b6b0c513422
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40976000"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745843"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -62,7 +64,7 @@ _**主題上次修改日期：** 2014-06-05_
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>說明
 
 CsKerberosAccountAssignment Cmdlet 可讓您確認 Kerberos 帳戶是否與指定的網站產生關聯、該帳戶是否已正確設定，以及該帳戶是否如預期的方式運作。 Kerberos 帳戶是電腦帳戶，可充當執行網際網路資訊伺服器（IIS）之網站中所有電腦的驗證原則。 因為這些帳戶使用 Kerberos 驗證通訊協定，所以帳戶稱為 Kerberos 帳戶，而新的驗證程式則稱為 Kerberos web 驗證。 這可讓您使用單一帳戶來管理所有 IIS 伺服器。
 

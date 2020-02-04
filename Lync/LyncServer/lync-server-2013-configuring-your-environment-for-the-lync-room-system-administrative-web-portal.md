@@ -3,6 +3,8 @@ title: Lync Server 2013：為 Lync Room System Administrative Web Portal 設定�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring your environment for the Lync Room System Administrative Web Portal
 ms:assetid: 1bf3cc55-cfa8-46ee-a8bc-6dab3bff76b2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn436325(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 56737623
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0ef7596e65c44f871da8c26a0526a389dde72a45
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4f0f415cfeca5b798a1e29ac6ebe09105fbf08b4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40982401"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740583"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -65,19 +67,19 @@ _**主題上次修改日期：** 2014-05-22_
     
      
     
-    具有安全性群組(images/Dn436325.5d432819-a2e2-452c-bc2a-5d4ee79d8c33(OCS.15).png "角色之管理員群組之")![安全性群組角色清單的管理員群組清單]  
+    ![具有安全性群組角色之管理員群組的清單](images/Dn436325.5d432819-a2e2-452c-bc2a-5d4ee79d8c33(OCS.15).png "具有安全性群組角色之管理員群組的清單")  
     
      
 
 5.  將 LRSFullAccessAdminGroup 新增為 LRSSupportAdminGroup 的成員。
     
-    ![LRSSupportAdminGroup 屬性 [成員] 頁面](images/Dn436325.91a4a28a-cacf-4ef6-aac1-915ec41c9648(OCS.15).png "LRSSupportAdminGroup 屬性 [成員] 頁面")  
+    ![[LRSSupportAdminGroup 內容成員] 頁面](images/Dn436325.91a4a28a-cacf-4ef6-aac1-915ec41c9648(OCS.15).png "[LRSSupportAdminGroup 內容成員] 頁面")  
     
      
 
 6.  使用 [名稱 LRSSupport] 建立啟用 SIP 的 Active Directory 使用者。 將此使用者新增至 LRSSupportAdminGroup。
     
-    ![LRSSupportAdminGroup 屬性 [成員] 頁面](images/Dn436325.7638055d-22ac-4909-914d-1966f5623909(OCS.15).png "LRSSupportAdminGroup 屬性 [成員] 頁面")  
+    ![[LRSSupportAdminGroup 內容成員] 頁面](images/Dn436325.7638055d-22ac-4909-914d-1966f5623909(OCS.15).png "[LRSSupportAdminGroup 內容成員] 頁面")  
     
      
 

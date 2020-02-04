@@ -3,6 +3,8 @@ title: Lync Server 2013：檢查憑證報告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Reviewing the Certificates Report
 ms:assetid: 549cfc9b-3cc5-4483-a93c-fc0738c7f622
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558651(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541477
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4a83167576746d3f90d96658b0dd3d65815f5375
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 410e9e99fccae7378b5260c9aa3a2281a3004cd5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40976445"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733033"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +39,7 @@ _**主題上次修改日期：** 2013-02-21_
 
 [憑證] 報告包含建議的 Lync Server 2013 部署所需的所有憑證。 規劃工具帳戶會提供所輸入之主旨名稱和消費者的替代名稱。 未編輯的預設文字，可能會代表負責要求和頒發憑證的小組所面臨的潛在挑戰。 憑證資訊也會包含憑證的頒發位置資訊。 如果基礎結構沒有內部公開金鑰基礎結構（PKI），則可以透過公用證書提供者要求所有憑證。 [延伸金鑰用法（EKU）] 和 [指派給] 報表中的欄位，對於瞭解每個證書的用途和位置都很有説明。
 
-![憑證管理員報告](images/Gg558651.63a29335-d9e4-41ae-97ec-3c9d9fd30d8a(OCS.15).jpg "證書系統管理報告")
+![憑證管理員報告](images/Gg558651.63a29335-d9e4-41ae-97ec-3c9d9fd30d8a(OCS.15).jpg "憑證管理員報告")
 
 仔細檢查，並務必瞭解部署中每個憑證的使用及用途。 如果有關于憑證的問題，請判斷哪個伺服器或服務正在與其交談。 Lync Server 2013 中的憑證是用於兩個主要用途：
 

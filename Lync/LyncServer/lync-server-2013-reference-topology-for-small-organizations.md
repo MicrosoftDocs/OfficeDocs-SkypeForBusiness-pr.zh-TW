@@ -3,6 +3,8 @@ title: 適用于小型組織的 Lync Server 2013 參考拓撲
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Reference topology for small organizations
 ms:assetid: 0453aeee-c41f-44e6-a6e0-aaace526ca08
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398095(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183272
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c06a3585a342ecc7fa7c41ff2b2b2682d2b8a0c3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7e0171d9678d5d890cf4ecb81f6de25f9b558b05
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40977626"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746863"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +41,7 @@ _**主題上次修改日期：** 2013-10-07_
 
 **小型組織的參照拓撲**
 
-![部署三個伺服器圖表的參照拓撲圖]部署(images/Gg398095.25196d0d-dd07-451b-83ba-94c0ddf59030(OCS.15).jpg "三個伺服器圖表")
+![部署三個伺服器圖表的參考拓撲](images/Gg398095.25196d0d-dd07-451b-83ba-94c0ddf59030(OCS.15).jpg "部署三個伺服器圖表的參考拓撲")
 
   - **部署這個組織的一組標準版伺服器**   在其中央網站上有4000使用者。 組織已部署兩個標準版伺服器並成對搭配，以啟用高可用性和災害復原。 每個伺服器住房2000使用者，但所有使用者的相關資訊都會在兩個伺服器之間同步處理。 如果其中一個是關閉的，系統管理員可以將這些使用者的服務容錯移轉到其他伺服器，並將使用者的中斷降至最低。 如需有關 Lync Server 2013 中高可用性與災害復原功能的詳細資訊，請參閱[在 Lync server 2013 中規劃高可用性和災難](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)復原。
 

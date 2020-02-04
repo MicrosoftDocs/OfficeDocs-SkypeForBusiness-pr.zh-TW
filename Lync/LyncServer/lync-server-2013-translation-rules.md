@@ -3,6 +3,8 @@ title: Lync Server 2013：翻譯規則
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Translation rules
 ms:assetid: 6e067bd4-4931-4385-81ac-2acae45a16d8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398520(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184460
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 22b6fbacf068f6a1a388a968989259afec81d17a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d4ae330633acb04a35abe19356f4b00ff09ef41a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40978348"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745053"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -71,7 +73,7 @@ Lync Server 2013 企業語音要求將所有撥號字串標準化為 E.i 格式�
 </colgroup>
 <thead>
 <tr class="header">
-<th>描述</th>
+<th>說明</th>
 <th>起始位數</th>
 <th>全長</th>
 <th>移除的位數</th>

@@ -3,6 +3,8 @@ title: Lync Server 2013：tblComplianceState
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: tblComplianceState
 ms:assetid: ea82e56c-3cca-4d89-b4e6-6bcaeb1f2830
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615045(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185937
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fce70f05b317ac7467fd17306d6933c66087e5e6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 61824b09d1c36aec876ef81762205c81c7f1300d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40975478"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764199"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -49,7 +51,7 @@ tblComplianceState 包含全池相容性狀態資訊。
 <tr class="header">
 <th>左欄</th>
 <th>類型</th>
-<th>描述</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>
