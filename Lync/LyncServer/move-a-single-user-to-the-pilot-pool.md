@@ -3,6 +3,8 @@ title: 將單一使用者移至 [試驗] 池
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Move a single user to the pilot pool
 ms:assetid: e9de81a8-40dd-4446-81e7-a2b810eaea50
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205401(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185905
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e9ee58a49afaa9c1e57689b6a3a87fac1a6a4502
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c14c4a772ced3939d979bd8d4cd053207b0c5613
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40976094"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765301"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,7 +45,7 @@ _**主題上次修改日期：** 2012-09-26_
 
 **Lync Server 2013 [控制台] 中的使用者清單**
 
-![Lync server [控制台]、[移動使用者] 對話方塊][(images/JJ721870.a2bce284-0392-4db3-9bb2-9f12699738e7(OCS.15).jpg "Lync server] 控制台、[移動使用者] 對話方塊")
+![Lync Server 控制台，[移動使用者] 對話方塊](images/JJ721870.a2bce284-0392-4db3-9bb2-9f12699738e7(OCS.15).jpg "Lync Server 控制台，[移動使用者] 對話方塊")
 
 1.  使用 RTCUniversalServerAdmins 群組成員的帳戶或 CsAdministrator 或 CsUserAdministrator 系統管理角色的成員登入前端伺服器。
 
@@ -59,7 +61,7 @@ _**主題上次修改日期：** 2012-09-26_
 
 7.  按一下 [**動作**]，然後按一下 [**將選取的使用者移至資源庫**]。 按一下 [確定]****。
     
-    [![移動使用者]、[目的地註冊機構池] 對話方塊][(images/JJ205401.8a375003-dc00-4541-b578-4d88f2010601(OCS.15).png "移動使用者]、[目的地註冊員池] 對話方塊")  
+    ![移動使用者，[目的地登錄器集區] 對話方塊](images/JJ205401.8a375003-dc00-4541-b578-4d88f2010601(OCS.15).png "移動使用者，[目的地登錄器集區] 對話方塊")  
 
 8.  確認使用者的 [**註冊機構池**] 欄現在包含 Lync Server 2013 池，這表示使用者已順利移動。
 
@@ -81,7 +83,7 @@ _**主題上次修改日期：** 2012-09-26_
 
 4.  **RegistrarPool**身分識別現在會指向 Lync Server 2013 池。 此身分識別的狀態會確認使用者已順利移動。
     
-    ![Move-csuser Cmdlet 的輸出與](images/JJ205401.bc5d4672-8068-4475-b882-dbd305c801a9(OCS.15).jpg "含身分識別的 move-csuser Cmdlet")的身分識別篩選器輸出  
+    ![具有 Identity 篩選器之 Get-CsUser Cmdlet 的輸出](images/JJ205401.bc5d4672-8068-4475-b882-dbd305c801a9(OCS.15).jpg "具有 Identity 篩選器之 Get-CsUser Cmdlet 的輸出")  
     
     <div>
     

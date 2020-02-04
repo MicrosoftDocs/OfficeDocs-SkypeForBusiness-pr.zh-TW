@@ -3,6 +3,8 @@ title: Lync Server 2013： Lync 2013 的新增及變更的設定
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: New and changed settings for Lync 2013
 ms:assetid: bb13789c-7eda-461c-a387-02ea8ca4dabe
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205204(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185241
 ms.date: 12/08/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 675997e815dc80ec173e75ca68358ef23c12f380
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: fb5366f7e3d4c2aba81b5b8b25873ea22d54c3a6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40976043"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765844"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -52,7 +54,7 @@ _**主題上次修改日期：** 2014-12-05_
 <tr class="header">
 <th>新增功能</th>
 <th>Lync Server 管理命令介面 Cmdlet</th>
-<th>描述</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>
@@ -131,7 +133,7 @@ _**主題上次修改日期：** 2014-12-05_
 <tr class="header">
 <th>參數</th>
 <th>Lync Server 管理命令介面 Cmdlet</th>
-<th>描述</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>

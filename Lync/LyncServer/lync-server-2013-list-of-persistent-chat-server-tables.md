@@ -3,6 +3,8 @@ title: Lync Server 2013：常設聊天室伺服器清單表格
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: List of Persistent Chat Server tables
 ms:assetid: 26c9e271-3516-4d90-b930-70fec4e359ea
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558628(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183659
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4d5c16160d51373fe1eef5b7cbaefe728b904545
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4902f0710752dd38c146b01bddcc44e135735201
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40976829"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765401"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -50,7 +52,7 @@ _**主題上次修改日期：** 2012-10-06_
 <thead>
 <tr class="header">
 <th>表格</th>
-<th>描述</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>
@@ -101,7 +103,7 @@ _**主題上次修改日期：** 2012-10-06_
 <thead>
 <tr class="header">
 <th>表格</th>
-<th>描述</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>
@@ -166,7 +168,7 @@ _**主題上次修改日期：** 2012-10-06_
 <thead>
 <tr class="header">
 <th>表格</th>
-<th>描述</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>
@@ -213,7 +215,7 @@ _**主題上次修改日期：** 2012-10-06_
 <thead>
 <tr class="header">
 <th>表格</th>
-<th>描述</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>
