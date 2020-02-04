@@ -3,6 +3,8 @@ title: 使用 CsCertificate 集中的 [暫存 AV] 和 [OAuth 憑證]
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Staging AV and OAuth certificates using -Roll in Set-CsCertificate
 ms:assetid: 22dec3cc-4b6b-4df2-b269-5b35df4731a7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ660292(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49354387
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4acdf759181dee3df872c7803ec595c63fb07016
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 583ab13e50cac7c7a8b345a2ea2cf4c4e1e38d7f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40975598"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764429"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -117,7 +119,7 @@ A/V 驗證服務負責頒發用戶端和其他 A/V 消費者所使用的權杖�
 
 在下列範例中，系統管理員會判斷出 A/V Edge 服務憑證到期於07/22/2012 上的 2:00:00 PM。 他要求並接收新的憑證，並將其匯入到其池中的每個邊緣伺服器。 在07/22/2012 時，他開始執行 CsCertificate with-滾、-Thumbprint 等於新憑證的指紋字串，並將– EffectiveTime 設定為 07/22/2012 6:00:00 AM。 他在每個 Edge 伺服器上執行這個命令。
 
-![使用 [滾] 和 [EffectiveDate] 參數。](images/JJ660292.21d51a76-0d03-4ed7-a37e-a7c14940265f(OCS.15).jpg "使用 [滾] 和 [EffectiveDate] 參數。")
+![使用 Roll 與 EffectiveDate 參數。](images/JJ660292.21d51a76-0d03-4ed7-a37e-a7c14940265f(OCS.15).jpg "使用 Roll 與 EffectiveDate 參數。")
 
 當達到有效時間時（7/22/2012 6:00:00 AM），所有新的權杖都是由新的憑證所頒發。 驗證權杖時，會先對照新憑證驗證權杖。 如果驗證失敗，則會嘗試舊的憑證。 嘗試新的並回到舊憑證的程式將會繼續，直到舊憑證的到期時間為止。 舊憑證到期後（7/22/2012 2:00:00 PM），權杖將只會由新憑證驗證。 使用 CsCertificate Cmdlet 和– Previous 參數，就能安全地移除舊的憑證。
 

@@ -3,6 +3,8 @@ title: Lync Server 2013：測試使用者與 Exchange UM 的連線
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing user connection to Exchange UM
 ms:assetid: 0b83fbf4-e124-4efd-a0a9-202eb849af82
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727300(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969573
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0cc54577e94f7679e833f06a4a5de060aaf761a6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0d4a4c4194ad730a64b167aaaf33151c8a7684e8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40977202"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745363"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -62,7 +64,7 @@ _**主題上次修改日期：** 2014-11-01_
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>說明
 
 **CsExUMConnectivity** Cmdlet 會驗證指定的使用者是否可以連線到 Microsoft Exchange Server 2013 整合通訊服務。 請注意，這個 Cmdlet 只會驗證是否可以與服務建立連線。 它不會測試服務本身。 若要測試整合訊息服務（執行綜合交易 Cmdlet，以實際在使用者信箱中留下語音信箱），請使用 CsExUMVoiceMail Cmdlet。
 

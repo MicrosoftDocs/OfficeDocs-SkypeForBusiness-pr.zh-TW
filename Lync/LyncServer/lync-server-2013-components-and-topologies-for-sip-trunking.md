@@ -3,6 +3,8 @@ title: Lync Server 2013：SIP 主幹連線的元件與拓撲
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Components and topologies for SIP trunking
 ms:assetid: 8ed9a9d0-517e-4f36-a131-22cdafa257fa
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398720(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184775
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dc1b80078f942f3f70957a7af6b27b7dd9210046
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d30c589ff02717ad49ce89d0d4e3324f6fe993e9
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40975455"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742563"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +41,7 @@ _**主題上次修改日期：** 2012-09-21_
 
 **SIP 中繼拓撲**
 
-![Sip 中繼拓撲](images/Gg398720.669fb55d-7c81-4e21-9421-fabc43d6e064(OCS.15).jpg "SIP 中繼拓撲")
+![SIP 主幹拓撲](images/Gg398720.669fb55d-7c81-4e21-9421-fabc43d6e064(OCS.15).jpg "SIP 主幹拓撲")
 
 如圖表中所示，IP 虛擬私人網路（VPN）是在商業網路與公用交換電話網絡（PSTN）服務提供者之間連線所使用。 這個私人網路絡的用途是提供 IP 連線、加強安全性，以及（選擇）取得服務品質（QoS）保證。 由於 VPN 的性質，您不需要針對媒體流量使用傳輸層安全性（TLS）來傳送 SIP 信號流量或安全即時傳輸通訊協定（SRTP）。 企業與服務提供者之間的連線是由針對 SIP 的純 TCP 連線和純時間傳輸通訊協定（RTP）（透過 UDP），透過 IP VPN 傳送媒體隧道。 確定 VPN 路由器之間的所有防火牆都已開啟埠，以允許 VPN 路由器進行通訊，以及 VPN 路由器外部邊緣的 IP 位址可公開路由。
 

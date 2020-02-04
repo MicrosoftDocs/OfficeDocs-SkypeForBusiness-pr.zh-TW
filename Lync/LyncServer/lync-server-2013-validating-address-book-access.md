@@ -3,6 +3,8 @@ title: Lync Server 2013：驗證通訊錄存取權
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Validating address book access
 ms:assetid: 630682c6-9262-46c5-9af1-6193db70374b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720916(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969611
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 233ad9804ea0f9ddd1075ea01bf7a4c8f35da819
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 96fe45f1491ca518a6985b0c15f8bcc229bd7f8c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40974919"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763667"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -62,7 +64,7 @@ _**主題上次修改日期：** 2014-06-05_
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>說明
 
 CsAddressBookService Cmdlet 提供一種驗證使用者是否可以連線到通訊錄下載 Web 服務的方式。 當您執行 Cmdlet 時，測試 CsAddressBookService 會連線至指定的池中的通訊錄下載 Web 服務，並要求通訊錄檔案的位置。 如果通訊錄下載 Web 服務提供該位置，則會認為測試已成功完成。 如果要求遭到拒絕，則會認為測試失敗。
 

@@ -3,6 +3,8 @@ title: Lync Server 2013：測試電話撥入式會議會話
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing dial-in conferencing session
 ms:assetid: 6c505be5-5af7-450c-b3ca-10d9122bee5c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn743834(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969613
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: efcc6d9277f7333989c59b812ed76087b9b6ca9b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1afb4ee2e1a500b08c3481f71994f585298bc8c2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40982644"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745833"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -62,7 +64,7 @@ _**主題上次修改日期：** 2014-06-05_
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>說明
 
 CsDialInConferencing Cmdlet 會驗證使用者是否可以參與電話撥入式會議。 測試 CsDialInConferencing 的運作方式是嘗試將測試使用者記錄在系統上。 如果登入成功，則 Cmdlet 會使用使用者的認證和許可權來嘗試所有可用的電話撥入式會議存取號碼。 每次撥入嘗試的成功或失敗都會說出，然後從 Lync Server 登出測試使用者。測試 CsDialInConferencing 只會驗證是否可以建立適當的連線。 Cmdlet 不會實際撥打任何電話或建立任何其他使用者可以加入的撥入會議。
 

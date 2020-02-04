@@ -3,6 +3,8 @@ title: Lync Server 2013：測試使用群組延伸的能力
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing ability to employ group expansion
 ms:assetid: 9b0fc954-6f9c-411a-ab32-94ebabc42de2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn743836(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969634
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f99be38a906c508346f580b36d055ccba86a168e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d79c5432bc2efca0d3a958d3837793eaf227b251
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40975762"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745973"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -62,7 +64,7 @@ _**主題上次修改日期：** 2014-06-05_
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>說明
 
 CsGroupExpansion Cmdlet 可讓您判斷群組延伸在貴組織內是否正常運作。 啟用群組展開時，使用者會將通訊群組設定為連絡人。 這表示這些使用者只要將訊息定至群組，而不是群組成員，就可以傳送相同的立即訊息給所有的群組成員。 [群組延伸] 可讓您快速且輕鬆地查看所有群組成員及其目前狀態。
 

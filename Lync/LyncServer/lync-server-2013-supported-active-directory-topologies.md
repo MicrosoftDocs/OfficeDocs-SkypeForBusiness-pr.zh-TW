@@ -3,6 +3,8 @@ title: Lync Server 2013：支援的 Active Directory 拓撲
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Supported Active Directory topologies
 ms:assetid: 0c76b778-7652-4eb0-b161-86f2d4a94ccf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398173(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183391
 ms.date: 10/02/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3dc15cea3d07dc4e00f1d2a5527c862d90a078c6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3e4aca368f6ea7d5b31a1cfe74273dfbd42a6594
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40974950"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764359"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,7 +55,7 @@ Lync Server 2013 支援與 Microsoft Lync Server 2010 和 Microsoft Office 通�
 
 **拓撲圖例索引**
 
-![拓撲]圖的(images/Gg398173.0c3cc89f-6c43-4bc8-b2ec-61d89e391ee9(OCS.15).jpg "索引鍵")
+![拓撲圖例索引](images/Gg398173.0c3cc89f-6c43-4bc8-b2ec-61d89e391ee9(OCS.15).jpg "拓撲圖例索引")
 
 <div>
 
@@ -65,7 +67,7 @@ Lync Server （單一網域林）支援的最簡單的 Active Directory 拓撲�
 
 **單一網域拓撲**
 
-![單一網域拓朴](images/Gg398173.258b3b3f-0558-4a36-a4c2-031be7299668(OCS.15).jpg "單一網域拓朴")
+![單一網域拓撲](images/Gg398173.258b3b3f-0558-4a36-a4c2-031be7299668(OCS.15).jpg "單一網域拓撲")
 
 </div>
 
@@ -85,7 +87,7 @@ Lync Server 支援的另一個 Active Directory 拓撲是一個由根網域以�
 
 **具多重網域的單一樹系**
 
-具有多個網域的![單一目錄林](images/Gg398173.2b809c72-c3cd-4fad-afe6-8c2dae779750(OCS.15).jpg "單一目錄林")
+![具多重網域的單一樹系](images/Gg398173.2b809c72-c3cd-4fad-afe6-8c2dae779750(OCS.15).jpg "具多重網域的單一樹系")
 
 </div>
 
@@ -105,7 +107,7 @@ Lync Server 支援的另一個 Active Directory 拓撲是一個由根網域以�
 
 **具多重樹狀結構的單一樹系**
 
-具有多個樹的![單一目錄林]的單一目錄(images/Gg398173.db30fa49-174a-4974-8695-41dd78e39432(OCS.15).jpg "林")
+![具多重樹狀結構的單一樹系](images/Gg398173.db30fa49-174a-4974-8695-41dd78e39432(OCS.15).jpg "具多重樹狀結構的單一樹系")
 
 </div>
 
@@ -129,7 +131,7 @@ Lync Server 支援多個在中央目錄林拓撲結構中設定的目錄林。 �
 
 **中央樹系拓撲**
 
-![中央林拓撲](images/Gg398173.7feb049a-453b-4134-9128-873b83ee1755(OCS.15).jpg "中央林拓撲")
+![中央樹系拓撲](images/Gg398173.7feb049a-453b-4134-9128-873b83ee1755(OCS.15).jpg "中央樹系拓撲")
 
 </div>
 
@@ -147,7 +149,7 @@ Lync Server 支援多個在中央目錄林拓撲結構中設定的目錄林。 �
 
 **資源林拓撲**
 
-![Active Directory 資源林拓撲](images/Gg398173.54ab82f1-e9e5-40f0-a54e-86e340b65c2a(OCS.15).jpg "Active Directory 資源林拓撲")
+![Active Directory 資源樹系拓撲](images/Gg398173.54ab82f1-e9e5-40f0-a54e-86e340b65c2a(OCS.15).jpg "Active Directory 資源樹系拓撲")
 
 </div>
 

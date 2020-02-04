@@ -3,6 +3,8 @@ title: Lync Server 2013：測試 Lync Phone Edition 登入
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing Lync Phone Edition login
 ms:assetid: 1ccde6bf-9a2d-4fcf-b81f-1bc9fee2cfbb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn690128(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969583
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cb2cf0dae748cf82e83e86389abf55c55c8c70e8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3bfce8b1e034fd9772e10178366b0ed524fdbd55
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40974230"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745663"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -62,7 +64,7 @@ _**主題上次修改日期：** 2014-06-05_
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>說明
 
 CsPhoneBootstrap Cmdlet 可讓管理員驗證指定的使用者（使用電話號碼和指派給他/她的 PIN）可以從 Lync 2013 Phone 版本相容的裝置登入系統。 （實際不需要裝置就能執行測試。）
 

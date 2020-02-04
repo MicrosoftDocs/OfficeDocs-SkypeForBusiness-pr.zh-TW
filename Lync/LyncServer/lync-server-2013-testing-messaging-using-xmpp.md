@@ -3,6 +3,8 @@ title: Lync Server 2013：使用 XMPP 測試訊息
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing messaging using XMPP
 ms:assetid: ae5305ba-e5fc-4ca0-a805-872b4ebaf981
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727312(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969641
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: acd03cdf2a5215c980b788dbaffafc5936fe5b5e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d5a1840e344ee19114cca424822fa1df14028495
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40982413"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745643"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -62,7 +64,7 @@ _**主題上次修改日期：** 2014-11-03_
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>說明
 
 [可擴展訊息與目前狀態通訊協定（XMPP）] 是標準通訊通訊協定（根據 XML），用於透過網際網路傳送郵件。 XMPP 最初已命名為 Jabber，且受到數個網際網路訊息與通訊應用程式（例如 Google 交談和 Facebook 聊天）支援。 **CsXmppIM** Cmdlet 會確認使用者可以與 XMPP 網路上的使用者交換立即訊息。 請注意，若要讓此測試成功，您必須具備 XMPP 使用者的有效 SIP 位址，且該 SIP 位址必須位於已設定為允許 XMPP 合作夥伴的網路上。
 

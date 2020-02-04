@@ -3,6 +3,8 @@ title: Lync Server 2013：測試複本服務
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing the replica service
 ms:assetid: 4ff2cc91-0036-4c5a-9792-7bf43d8ce18d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727303(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969600
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5b1a9dca37c30231a2f0f297e94321dfc12405d0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c955da727a4213098a5b6af4f6fbb348bb60dd21
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40974827"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745433"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -62,7 +64,7 @@ _**主題上次修改日期：** 2014-11-03_
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>說明
 
 **CsReplica** Cmdlet 會確認 Lync Server 2013 複本服務正在本機電腦上執行。 **CsReplica** Cmdlet 會執行下列工作：
 

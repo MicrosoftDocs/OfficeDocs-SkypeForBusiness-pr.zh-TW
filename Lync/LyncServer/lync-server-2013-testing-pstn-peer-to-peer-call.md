@@ -3,6 +3,8 @@ title: Lync Server 2013：測試 PSTN 對等通話
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing PSTN peer to peer call
 ms:assetid: 7e128eef-9ada-49b4-940f-97d7d13f1e4a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn690131(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969622
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 51b74697c7d6d5a037537bb036494d89264c4e75
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9f120747eb50e8c1c52bb14d0a8883db8133022c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40974514"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745613"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -62,7 +64,7 @@ _**主題上次修改日期：** 2014-06-05_
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>說明
 
 CsPstnPeerToPeerCall Cmdlet 會驗證一組使用者必須在公用交換電話網絡（PSTN）閘道上進行對等呼叫的能力。 當您呼叫 Test CsPstnPeerToPeerCall 時，此 Cmdlet 會先嘗試將兩個測試使用者登入 Lync Server。 假設記錄成功，則 Cmdlet 會讓使用者1嘗試使用 PSTN 閘道呼叫 user 2。 CsPstnPeerToPeerCall 將會使用撥號計畫、語音原則以及指派給測試使用者的其他原則和設定設定來撥打此通話。 如果測試是以規劃方式進行，此 Cmdlet 會驗證使用者2是否能夠接聽通話，然後從系統登出測試帳戶。
 

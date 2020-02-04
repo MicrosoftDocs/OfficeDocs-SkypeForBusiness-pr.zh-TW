@@ -3,6 +3,8 @@ title: Lync Server 2013：測試行動使用者存取權
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Test mobile user access
 ms:assetid: 81d97420-428b-41b7-91ef-185d572d3456
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn767947(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969624
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eda2ec2d02fe4189c8e34cf700f6f1fd07895ef6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 628fd3aae4f66316627176c3af025eb63202bafb
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40977605"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746223"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -62,7 +64,7 @@ _**主題上次修改日期：** 2014-06-07_
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>說明
 
 行動裝置服務可讓行動裝置使用者執行如下動作：
 

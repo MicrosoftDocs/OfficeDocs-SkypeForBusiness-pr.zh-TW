@@ -3,6 +3,8 @@ title: Lync Server 2013：編輯網路設定圖表
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Editing the network configuration diagram
 ms:assetid: 47425ab1-5645-4d6f-b202-64bcce43e3ef
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558643(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541469
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2772cad1d1a16aa0363b1ab50d0bcaadacb91a08
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: dc199098d27364c3bc5f512a48d2e512c7c9d984
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40974590"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729383"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +39,7 @@ _**主題上次修改日期：** 2013-02-21_
 
 在 Lync Server 2013 中，設計工具的大部分工作都是由定義 IP 位址的專案，以及網狀圖表專案的完整功能變數名稱（Fqdn）。 在此頁面上輸入的資訊會納入至 [規劃工具] 中所含的報告及其他資訊。
 
-![規劃工具網狀圖](images/Gg558643.eeabee2d-698c-4b79-baa5-caa4cfb7edb3(OCS.15).jpg "規劃工具網狀圖")
+![規劃工具網狀圖](images/Gg558643.eeabee2d-698c-4b79-baa5-caa4cfb7edb3(OCS.15).jpg "規劃工具的網路圖表")
 
 規劃工具會建立含 IP 位址和 Fqdn 預設文字的網狀圖表。
 

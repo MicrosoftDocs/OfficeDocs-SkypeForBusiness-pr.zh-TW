@@ -3,6 +3,8 @@ title: Lync Server 2013：連接埠摘要 - 反向 Proxy
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Port summary - Reverse proxy
 ms:assetid: 59b9ac3c-3e6f-4776-b366-174f0dd1f2eb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204932(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184251
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3a86b993a35210934f5ebef61464c11a153bf297
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f2944cde932413f00b5a4dcb75cd4a37bd5b3a3a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40976860"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747593"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,7 +47,7 @@ _**主題上次修改日期：** 2013-02-15_
 
   - 埠4443用於從反向 proxy 內部介面到前端伺服器、前端池虛擬 IP （VIP）或選用控制器或控制器池 VIP 的流量
     
-    ![13142405-d5c9-45b7-a8b7-a8c89f09c97c](images/JJ204932.13142405-d5c9-45b7-a8b7-a8c89f09c97c(OCS.15).jpg "13142405-d5c9-") 45b7-a8b7-a8c89f09c97c  
+    ![13142405-d5c9-45b7-a8b7-a8c89f09c97c](images/JJ204932.13142405-d5c9-45b7-a8b7-a8c89f09c97c(OCS.15).jpg "13142405-d5c9-45b7-a8b7-a8c89f09c97c")  
     
     <div>
     

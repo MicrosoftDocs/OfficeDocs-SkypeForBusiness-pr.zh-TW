@@ -3,6 +3,8 @@ title: Lync Server 2013：建立新的主幹設定集合
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create a new collection of trunk configuration settings
 ms:assetid: 4ebd710c-38cd-4cff-9a45-df029d424580
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688054(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733647
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f4c578fd670661413df0a8fb81cb1ce0316db13f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: dc29d75fc90156516751ad53712b53f4848ab5bb
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40982432"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740413"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -58,7 +60,7 @@ SIP 幹線設定設定會定義在服務提供者上，exchange 中繼伺服器�
 <tr class="header">
 <th>UI 設定</th>
 <th>PowerShell 參數</th>
-<th>描述</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>
@@ -68,8 +70,8 @@ SIP 幹線設定設定會定義在服務提供者上，exchange 中繼伺服器�
 <td><p>集合的唯一識別碼。 這個屬性是唯讀的;您無法變更主幹設定集合的身分識別。</p></td>
 </tr>
 <tr class="even">
-<td><p>描述</p></td>
-<td><p>描述</p></td>
+<td><p>說明</p></td>
+<td><p>說明</p></td>
 <td><p>提供一種方式，讓系統管理員可以儲存有關設定的附加資訊（例如，主幹設定的用途）。</p></td>
 </tr>
 <tr class="odd">

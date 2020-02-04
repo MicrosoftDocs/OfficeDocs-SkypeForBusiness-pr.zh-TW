@@ -3,6 +3,8 @@ title: Lync Server 2013：測試服務啟用與群組許可權
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing service activation and group permissions
 ms:assetid: 2c59e603-ba85-40ba-91a7-51c6fd39472e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn743833(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969594
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a6616e1f2835ab55f9e3e8f98e5a8693ef3d2fb4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ef22928f9506c4ec67acd3de6bad80274f8c0f12
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40974602"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745573"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -62,7 +64,7 @@ _**主題上次修改日期：** 2014-06-05_
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>說明
 
 CsTopology Cmdlet 可讓您驗證 Lync Server 2013 在全域範圍中是否正常運作。 根據預設，此 Cmdlet 會檢查您的整個 Lync 伺服器基礎結構，確認所需的服務正在執行，且已針對這些服務以及在安裝 Lync Server 時所建立的通用安全性群組設定適當的許可權.
 

@@ -3,6 +3,8 @@ title: Lync Server 2013：測試位置原則
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing location policy
 ms:assetid: 23d06fd3-31ee-4480-ba1e-d179a55b8b14
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn690127(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969591
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e034be609bfe773a15935d7f0875e0155b57df75
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2a954405cb8dbba842250e0545ac8661d4f3795c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40976453"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745773"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -62,7 +64,7 @@ _**主題上次修改日期：** 2014-06-05_
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>說明
 
 Test CsLocationPolicy Cmdlet 會驗證是否已將位置原則指派給使用者。 位置原則是用來套用與 E9-1-1 功能及用戶端位置相關的設定。 位置原則會判斷使用者是否已啟用 E9-1-1，如果答案是「是」，則是緊急通話的行為。 例如，您可以使用位置原則來定義哪一個號碼是由緊急通話（911在美國）、企業安全性是否應該自動通知，以及應該如何傳送通話。
 

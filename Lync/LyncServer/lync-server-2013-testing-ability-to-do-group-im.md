@@ -3,6 +3,8 @@ title: Lync Server 2013：測試群組 IM 的功能
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing ability to do group IM
 ms:assetid: ca5545bc-51ac-490f-b96b-917bb742ad04
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn743839(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969652
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c371db385b29f68aa8cc9280a901d095c43f2ac2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8552d5caadf26d70265f5538f10c6152eb67dcc8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40977535"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745983"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -62,7 +64,7 @@ _**主題上次修改日期：** 2014-06-05_
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>說明
 
 CsGroupIM Cmdlet 會確認貴組織中的使用者可以執行群組立即訊息會話。 當您執行 Test CsGroupIM 時，此 Cmdlet 會嘗試將一組測試使用者登入 Lync Server。 如果成功，測試 CsGroupIM 會使用第一個測試使用者建立新的會議，然後邀請第二位使用者加入會議。 在交換郵件之後，這兩個使用者就會中斷與系統的連線。 請注意，所有這一切都不會發生任何使用者互動，也不會影響任何實際的使用者。 例如，假設 [測試帳戶 sip:kenmyer@litwareinc.com] 對應給擁有真正的 Lync 伺服器帳戶的真實使用者。 在這種情況下，將會執行測試，而不會對真正的 Ken Myer 造成任何干擾。 例如，即使 Ken Myer 測試帳戶登入系統，該人員仍會保持登入狀態。 同樣地，實際的 Ken Myer 不會收到加入會議的邀請。 該邀請將由測試帳戶傳送給及接受。
 

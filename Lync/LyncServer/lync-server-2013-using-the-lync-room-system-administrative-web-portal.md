@@ -3,6 +3,8 @@ title: Lync Server 2013：使用 Lync Room System 系統管理 Web 入口網站
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Using the Lync Room System Administrative Web Portal
 ms:assetid: c387b2a3-3e42-4642-af72-88126ed2820f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn743660(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 62268951
 ms.date: 11/13/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2369cdde9d14275fddf007b5e073c748ce5a8906
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c891309d76dda20f875592841925c852fe2e3351
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40978226"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743933"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -47,7 +49,7 @@ _**主題上次修改日期：** 2014-11-10_
 
 2.  輸入 LRSSupport 帳戶的認證，或是已新增至 LRSSupportAdminGroup 安全性群組的帳戶。
 
-![Lync 會議室系統管理入口網站登入螢幕](images/Dn436326.050bcf70-2f3b-46b2-9b96-ebd12679b713(OCS.15).png "Lync 會議室系統管理入口網站登入畫面")
+![[Lync Room System 管理入口網站登入] 畫面](images/Dn436326.050bcf70-2f3b-46b2-9b96-ebd12679b713(OCS.15).png "[Lync Room System 管理入口網站登入] 畫面")
 
 </div>
 
@@ -67,7 +69,7 @@ _**主題上次修改日期：** 2014-11-10_
 
   - **[上次**   重新整理] 會顯示最後一次重新整理網頁的時間。
 
-![Lync 會議室系統管理入口網站摘要查看](images/Dn743660.f829ce90-dd95-4725-bd94-6870c5dcf046(OCS.15).png "Lync 會議室系統管理入口網站摘要視圖")
+![Lync Room System 管理入口網站摘要檢視](images/Dn743660.f829ce90-dd95-4725-bd94-6870c5dcf046(OCS.15).png "Lync Room System 管理入口網站摘要檢視")
 
 </div>
 
@@ -83,7 +85,7 @@ _**主題上次修改日期：** 2014-11-10_
 
 在 [設定] 區段中，您可以設定聊天室的密碼、房間標籤及預設音量等級。 如果您設定這些設定，變更只會在您重新開機 LRS 主控台後進行複製。 您只會看到版本15.12 及更新版本之 Lync 機房系統的系統更新設定。
 
-![Lync 會議室系統管理入口網站室設定](images/Dn743660.ab162e19-41ac-4991-9b2a-92575aa53eda(OCS.15).png "Lync 會議室系統管理入口網站室設定")
+![Lync Room System 管理入口網站會議室設定](images/Dn743660.ab162e19-41ac-4991-9b2a-92575aa53eda(OCS.15).png "Lync Room System 管理入口網站會議室設定")
 
 </div>
 
@@ -93,7 +95,7 @@ _**主題上次修改日期：** 2014-11-10_
 
 [詳細資料] 區段提供 LRS 會議室設定的唯讀摘要，包括：上次重新整理的時間;下次會議;上次更新、維護和校準;預設喇叭、麥克風和鈴聲設定;新版SIP URI;螢幕數目及每個畫面的詳細資料;狀態和活動。
 
-![Lync 會議室系統管理入口網站詳細資料查看](images/Dn743660.2958bbba-db74-4670-a920-87fdfb2fc22d(OCS.15).png "Lync 會議室系統管理入口網站詳細資料檢視")
+![Lync Room System 管理入口網站詳細資料檢視](images/Dn743660.2958bbba-db74-4670-a920-87fdfb2fc22d(OCS.15).png "Lync Room System 管理入口網站詳細資料檢視")
 
 </div>
 
@@ -103,7 +105,7 @@ _**主題上次修改日期：** 2014-11-10_
 
 疑難排解一節可用來遠端收集記錄，並將它們儲存到指定的位置。 您也可以重新開機 LRS 主控台（LRS 使用者介面），或重新開機整個系統。 若要收集記錄，請以指定的格式提供資料夾路徑，並確認資料夾擁有 LRS 電腦帳戶的寫入權限。 如果記錄大小太大，可能需要最多5分鐘的時間來完成收集記錄。 重新整理頁面會提供最新狀態。
 
-![Lync 會議室系統管理入口網站室記錄](images/Dn743660.749aee71-deaa-4ace-a146-fe2b349f0f42(OCS.15).png "Lync 室系統管理員入口網站房間記錄")
+![Lync Room System 管理入口網站會議室登入](images/Dn743660.749aee71-deaa-4ace-a146-fe2b349f0f42(OCS.15).png "Lync Room System 管理入口網站會議室登入")
 
 </div>
 
@@ -113,7 +115,7 @@ _**主題上次修改日期：** 2014-11-10_
 
 [健康情況] 區段提供 Lync Server 連線、音訊裝置、視頻裝置、復原狀態及螢幕裝置的健康情況的視覺指示。
 
-![Lync 會議室系統管理入口網站室健康情況](images/Dn743660.8cc644f8-8e3e-42d5-9079-045d8fe9daa7(OCS.15).png "Lync 室系統管理員入口網站健康情況")
+![Lync Room System 管理入口網站會議室健康情況](images/Dn743660.8cc644f8-8e3e-42d5-9079-045d8fe9daa7(OCS.15).png "Lync Room System 管理入口網站會議室健康情況")
 
 </div>
 

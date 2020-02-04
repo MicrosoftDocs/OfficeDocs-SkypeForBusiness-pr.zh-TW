@@ -3,6 +3,8 @@ title: Lync Server 2013：撥號方案與正常化規則
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Dial plans and normalization rules
 ms:assetid: fde45195-6eb4-403c-9094-57df7fc0bd2a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413082(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185960
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5d399c49db109a7bac1a1cd3ac430280cb70f665
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d4f1cc8221281502487a8f58e1562674432ea29d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40977578"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762271"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -109,7 +111,7 @@ _**主題上次修改日期：** 2012-09-21_
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>說明
 
 我們建議您輸入所要套用之對應撥號方案之地理位置的通用、可識別名稱。 例如，如果撥號方案名稱是 London.Contoso.com，則建議使用倫敦的描述。
 
@@ -198,7 +200,7 @@ _**主題上次修改日期：** 2012-09-21_
 <thead>
 <tr class="header">
 <th>規則名稱</th>
-<th>描述</th>
+<th>說明</th>
 <th>數位模式</th>
 <th>翻譯</th>
 <th>範例</th>

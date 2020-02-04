@@ -3,6 +3,8 @@ title: Lync Server 2013：停用或重新啟用 Lync Server 的使用者帳戶
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Disable or re-enable user account for Lync Server
 ms:assetid: 12497d00-f665-4a97-be68-854c5a8be4fc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429696(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183455
 ms.date: 04/05/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7944af89ffae7545ba3a2593c7617fc944a7916e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: aea86048fa29e9b6a21aa040093edff3f53ffe27
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40978125"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757617"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

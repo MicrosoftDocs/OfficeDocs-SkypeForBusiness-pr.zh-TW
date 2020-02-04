@@ -3,6 +3,8 @@ title: Lync Server 2013：集中式記錄服務的簡介
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Overview of the Centralized Logging Service
 ms:assetid: 975718a0-f3e3-404d-9453-6224e73bfdd0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688145(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733746
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 647e6b1e5797b3936dc1fef6023c85ce4baf68b7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1460699b6516ab4e510c9715b2464ce442466faa
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40982765"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755447"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,7 +45,7 @@ _**主題上次修改日期：** 2013-02-22_
 
 **ClsController 通訊至 ClsAgent**
 
-![CLSController 和 CLSAgent 之間的關聯。](images/JJ688145.68c90811-5cf9-4a84-95b7-ea9ffc61eac4(OCS.15).jpg "CLSController 和 CLSAgent 之間的關聯。")
+![CLSController 與 CLSAgent 之間的關係。](images/JJ688145.68c90811-5cf9-4a84-95b7-ea9ffc61eac4(OCS.15).jpg "CLSController 與 CLSAgent 之間的關係。")
 
 您使用 Windows Server 命令列介面或使用 Lync Server Management Shell 發出命令。 這些命令會在您登入的電腦上執行，並傳送到您部署中的 ClsAgent 本機或其他電腦和池。
 
