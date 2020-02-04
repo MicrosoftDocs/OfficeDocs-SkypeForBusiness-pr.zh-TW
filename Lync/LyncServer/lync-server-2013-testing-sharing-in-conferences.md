@@ -3,6 +3,8 @@ title: Lync Server 2013：測試會議中的共用
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing sharing in conferences
 ms:assetid: e6021d70-6ed9-414d-954c-06eef397dc1a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727314(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969660
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ce4cd1a45d1eddf8875d85ff28886b0c04c29cfe
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 54997f5ec8cd81154c1a456541ec0612187ec747
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40977553"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745493"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -62,7 +64,7 @@ _**主題上次修改日期：** 2014-11-01_
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>說明
 
 在 Lync Server 2013 中，資料會議是使用諸如 whiteboarding 或批註等共同作業的任何會議。 **Test CsDataConference** Cmdlet 可讓您確認一組使用者可以參與資料會議。
 

@@ -3,6 +3,8 @@ title: Lync Server 2013：測試使用者目前狀態發佈及訂閱
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing user presence publishing and subscribing
 ms:assetid: 27694c71-8e63-4aa4-b49f-fa06ccb81949
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn743832(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969587
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 17c7052550067868ff201c809a51e1d119c5f8a1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4d506ed0115fd5346048ff8870763a7ffc888a69
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40982442"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745293"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -62,7 +64,7 @@ _**主題上次修改日期：** 2014-06-05_
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>說明
 
 Test-CsPresence 是用來判斷一組測試使用者是否可以登入 Lync Server，以及 exchange 目前狀態資訊。 若要這樣做，此 Cmdlet 會先將兩位使用者記錄在系統上。 如果兩個登錄都成功，第一個測試使用者就會要求接收來自第二個使用者的目前狀態資訊。 第二個使用者發佈此資訊，而測試 CsPresence 驗證資訊已順利傳送給第一個使用者。 在交換目前狀態資訊之後，兩個測試使用者就會從 Lync Server 登入。
 

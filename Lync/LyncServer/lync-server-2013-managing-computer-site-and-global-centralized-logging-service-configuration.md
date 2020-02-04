@@ -3,6 +3,8 @@ title: 管理電腦、網站和全域集中式記錄服務設定
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing computer, site and global Centralized Logging Service configuration
 ms:assetid: 93b9a354-9aea-4b3a-a4fe-68a89f436196
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688138(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733738
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 02c18e57b81daf93139493d046b8b2124e04e767
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8f714c82fdc4ade0fc70b0a977e32ef46b26914d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40974593"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729333"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -93,7 +95,7 @@ _**主題上次修改日期：** 2014-02-04_
 
 當您執行**CsClsConfiguration**時，它會顯示類似下列螢幕擷取畫面的資訊，其中的部署目前具有預設的全域設定，但未定義網站配置：
 
-![從 CsClsConfiguration 輸出的範例。](images/JJ688029.23f98ddc-fc48-499a-b6c5-752611f2a0b0(OCS.15).jpg "從 CsClsConfiguration 輸出的範例。")
+![Get-CsClsConfiguration 輸出範例。](images/JJ688029.23f98ddc-fc48-499a-b6c5-752611f2a0b0(OCS.15).jpg "Get-CsClsConfiguration 輸出範例。")
 
 </div>
 

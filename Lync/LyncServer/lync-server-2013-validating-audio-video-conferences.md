@@ -3,6 +3,8 @@ title: Lync Server 2013：驗證音訊/視訊會議
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Validating audio/video conferences
 ms:assetid: 6c8c422a-d501-42cb-820b-b002f9b2250b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720915(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969615
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b0e608f0c765c4dd552645320ec947c7e8a54ac4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 89bb8f38ea650bf64179b917b227d7ccaaf10791
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40975036"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763647"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -66,7 +68,7 @@ _**主題上次修改日期：** 2014-06-05_
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>說明
 
 Test CsAVConference Cmdlet 會檢查兩個測試使用者是否可以參與音訊/視頻（A/V）會議。 當 Cmdlet 執行時，兩個使用者會登入系統。 成功登入之後，第一位使用者會建立 A/V 會議，然後等候第二位使用者加入該會議。 在短暫的資料交換之後，該會議即會刪除，而這兩個測試使用者就會登入。
 

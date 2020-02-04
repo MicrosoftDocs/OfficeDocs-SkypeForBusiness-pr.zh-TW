@@ -3,6 +3,8 @@ title: Lync Server 2013：設定 DNS 負載平衡
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure DNS for load balancing
 ms:assetid: 1b2e8414-8676-4872-8ecf-ea07196f74de
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398251(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183540
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7e370d3b66e82b02bd5668fc1c9cab4ee41da759
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f5b68bf226c71d65835791577ab9a45f18b2a10e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40980358"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758351"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -162,7 +164,7 @@ _**主題上次修改日期：** 2012-10-01_
 
 3.  按一下 [**高級**] 索引標籤，選取 [**啟用迴圈複用**並**啟用網路遮罩排序**]，然後按一下 **[確定]**。
     
-    [ ![Dns 迴圈法] 對話方塊]中的 [dns 迴圈](images/Gg398251.e7bf6125-8d78-4460-8401-0a8e7e21d305(OCS.15).jpg "對話方塊")
+    ![DNS 循環配置資源對話方塊](images/Gg398251.e7bf6125-8d78-4460-8401-0a8e7e21d305(OCS.15).jpg "DNS 循環配置資源對話方塊")
 
 <div>
 

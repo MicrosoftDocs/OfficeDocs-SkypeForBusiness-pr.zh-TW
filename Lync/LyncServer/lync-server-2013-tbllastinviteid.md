@@ -3,6 +3,8 @@ title: Lync Server 2013：tblLastInviteId
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: tblLastInviteId
 ms:assetid: 222b3508-5963-4ddc-b4f3-e8412767e61b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558625(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183608
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: be882798a620933af28c7e6697a388ef01817e5a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c92a51ed9b775990d048bf45bfa54a893ba15856
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40974265"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764169"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -49,7 +51,7 @@ tblLastInviteId 包含每位使用者所產生（並在 tblPrincipalInvites 資�
 <tr class="header">
 <th>左欄</th>
 <th>類型</th>
-<th>描述</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>
@@ -77,7 +79,7 @@ tblLastInviteId 包含每位使用者所產生（並在 tblPrincipalInvites 資�
 <thead>
 <tr class="header">
 <th>左欄</th>
-<th>描述</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>

@@ -3,6 +3,8 @@ title: 驗證 Office Communications Server 2007 R2 環境
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Verify Office Communications Server 2007 R2 environment
 ms:assetid: e051bdd5-e7ef-4754-8705-900b2c57f37c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721906(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733840
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9369ad631b772e0a73677ab3214e24083426148a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0fb67868c9f7eddfe2b11b4238c5fdd1bd14d8e6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40976824"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730903"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,7 +47,7 @@ _**主題上次修改日期：** 2012-10-16_
 
 3.  確定服務正在標準版伺服器或企業版池上執行。
     
-    ![Office 通訊伺服器 2007 R2 管理主控台](images/JJ721906.76897b6d-f433-47d2-930d-0816fc30a3c2(OCS.15).jpg "office 通訊伺服器 2007 R2 系統管理主控台")
+    ![Office Communications Server 2007 R2 管理主控台](images/JJ721906.76897b6d-f433-47d2-930d-0816fc30a3c2(OCS.15).jpg "Office Communications Server 2007 R2 管理主控台")
 
 **審查針對 Office 通訊伺服器 2007 R2 設定的使用者**
 
@@ -57,7 +59,7 @@ _**主題上次修改日期：** 2012-10-16_
 
 4.  驗證 Office 通訊伺服器 2007 R2 使用者的清單。
     
-    在(images/JJ721906.f6bb7c4f-cbed-4389-8d0a-69a28577f17a(OCS.15).jpg "Ocs 管理工具")中的 [ocs 管理工具清單 fo 使用者]![中的使用者清單]
+    ![OCS 管理工具中的使用者清單](images/JJ721906.f6bb7c4f-cbed-4389-8d0a-69a28577f17a(OCS.15).jpg "OCS 管理工具中的使用者清單")
 
 **驗證舊版 XMPP 聯盟合作夥伴設定**
 
@@ -65,7 +67,7 @@ _**主題上次修改日期：** 2012-10-16_
 
 2.  確認已啟動 Office 通訊伺服器 XMPP 閘道服務。
     
-    ![Office 通訊伺服器 XMPP 閘道服務](images/JJ721906.23223724-3c4b-4cb9-ace2-1cab2c3c91c3(OCS.15).jpg "OFFICE 通訊伺服器 XMPP 閘道服務")
+    ![Office Communications Server XMPP 閘道服務](images/JJ721906.23223724-3c4b-4cb9-ace2-1cab2c3c91c3(OCS.15).jpg "Office Communications Server XMPP 閘道服務")
 
 </div>
 

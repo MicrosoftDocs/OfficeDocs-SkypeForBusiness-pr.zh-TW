@@ -3,6 +3,8 @@ title: Lync Server 2013：準備與部署 Lync Server 混合式環境的步驟
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Steps to prepare and deploy Lync Server 2013 hybrid environment
 ms:assetid: a50d4f7b-63f4-4663-af63-56ca87e4e3e7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205157(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185060
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d239d7a57be1aa96dde1f9ccf30c2965de982017
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6ebcce8d0021789a409c8f41b5f635d82284b7bc
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40974500"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764389"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -48,7 +50,7 @@ _**主題上次修改日期：** 2016-12-08_
 <tr class="header">
 <th>完畢?</th>
 <th>循序漸進</th>
-<th>描述</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>
