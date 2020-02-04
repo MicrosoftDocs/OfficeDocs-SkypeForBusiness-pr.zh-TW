@@ -1,5 +1,5 @@
 ---
-title: 新增伺服器
+title: 新增伺服器​​
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -7,68 +7,68 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddMachinePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 61647eac-9062-4381-9c80-3cbf70b7db33
-description: '若要將新的伺服器新增至現有的伺服器池中, 請在池中是下列其中一項:'
-ms.openlocfilehash: 32033d7d758528fc925c5c228971c040828bd654
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 若要將新的伺服器新增至現有的伺服器池中，請在池中是下列其中一項：
+ms.openlocfilehash: c19aad7f55c6ebc22ee64c715700d8cc7116bccb
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36191722"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41698038"
 ---
-# <a name="add-server"></a><span data-ttu-id="89824-103">新增伺服器</span><span class="sxs-lookup"><span data-stu-id="89824-103">Add Server</span></span>
+# <a name="add-server"></a><span data-ttu-id="1b9ea-103">新增伺服器​​</span><span class="sxs-lookup"><span data-stu-id="1b9ea-103">Add Server</span></span>
  
-<span data-ttu-id="89824-104">若要將新的伺服器新增至現有的伺服器池中, 請在池中是下列其中一項:</span><span class="sxs-lookup"><span data-stu-id="89824-104">To add a new server to an existing pool of servers, where the pool is one of the following:</span></span>
+<span data-ttu-id="1b9ea-104">若要將新的伺服器新增至現有的伺服器池中，請在池中是下列其中一項：</span><span class="sxs-lookup"><span data-stu-id="1b9ea-104">To add a new server to an existing pool of servers, where the pool is one of the following:</span></span>
   
-- <span data-ttu-id="89824-105">企業版前端伺服器</span><span class="sxs-lookup"><span data-stu-id="89824-105">Enterprise Edition Front End Server</span></span>
+- <span data-ttu-id="1b9ea-105">企業版前端伺服器</span><span class="sxs-lookup"><span data-stu-id="1b9ea-105">Enterprise Edition Front End Server</span></span>
     
-- <span data-ttu-id="89824-106">控制器伺服器</span><span class="sxs-lookup"><span data-stu-id="89824-106">Director server</span></span>
+- <span data-ttu-id="1b9ea-106">控制器伺服器</span><span class="sxs-lookup"><span data-stu-id="1b9ea-106">Director server</span></span>
     
-- <span data-ttu-id="89824-107">中繼伺服器</span><span class="sxs-lookup"><span data-stu-id="89824-107">Mediation Server</span></span>
+- <span data-ttu-id="1b9ea-107">中繼伺服器</span><span class="sxs-lookup"><span data-stu-id="1b9ea-107">Mediation Server</span></span>
     
-- <span data-ttu-id="89824-108">音訊/視訊會議伺服器</span><span class="sxs-lookup"><span data-stu-id="89824-108">Audio/Video Conferencing Server</span></span>
+- <span data-ttu-id="1b9ea-108">音訊/視訊會議伺服器</span><span class="sxs-lookup"><span data-stu-id="1b9ea-108">Audio/Video Conferencing Server</span></span>
     
-- <span data-ttu-id="89824-109">受信任的應用程式伺服器</span><span class="sxs-lookup"><span data-stu-id="89824-109">Trusted Application server</span></span>
+- <span data-ttu-id="1b9ea-109">受信任的應用程式伺服器</span><span class="sxs-lookup"><span data-stu-id="1b9ea-109">Trusted Application server</span></span>
     
-<span data-ttu-id="89824-110">每個新的 [池伺服器] 都有不同的需求。</span><span class="sxs-lookup"><span data-stu-id="89824-110">Each of the new pool servers has different requirements.</span></span> <span data-ttu-id="89824-111">在下列各節中, 找出您要新增到現有區的伺服器類型, 並提供所需的資訊, 並為每個伺服器類型定義。</span><span class="sxs-lookup"><span data-stu-id="89824-111">In the following sections, locate the type of server that you are adding to the existing pool, and supply the information requested as it is defined for each server type.</span></span> <span data-ttu-id="89824-112">您提供要求的資訊來定義新的 pool 伺服器。</span><span class="sxs-lookup"><span data-stu-id="89824-112">You provide the requested information to define the new pool server.</span></span>
+<span data-ttu-id="1b9ea-110">每個新的 [池伺服器] 都有不同的需求。</span><span class="sxs-lookup"><span data-stu-id="1b9ea-110">Each of the new pool servers has different requirements.</span></span> <span data-ttu-id="1b9ea-111">在下列各節中，找出您要新增到現有區的伺服器類型，並提供所需的資訊，並為每個伺服器類型定義。</span><span class="sxs-lookup"><span data-stu-id="1b9ea-111">In the following sections, locate the type of server that you are adding to the existing pool, and supply the information requested as it is defined for each server type.</span></span> <span data-ttu-id="1b9ea-112">您提供要求的資訊來定義新的 pool 伺服器。</span><span class="sxs-lookup"><span data-stu-id="1b9ea-112">You provide the requested information to define the new pool server.</span></span>
   
- <span data-ttu-id="89824-113">**企業版前端伺服器**</span><span class="sxs-lookup"><span data-stu-id="89824-113">**Enterprise Edition Front End Server**</span></span>
+ <span data-ttu-id="1b9ea-113">**企業版前端伺服器**</span><span class="sxs-lookup"><span data-stu-id="1b9ea-113">**Enterprise Edition Front End Server**</span></span>
   
-- <span data-ttu-id="89824-114">在網域名稱系統 (DNS) 中定義之新伺服器的完整功能變數名稱 (FQDN)。</span><span class="sxs-lookup"><span data-stu-id="89824-114">Fully qualified domain name (FQDN) of the new server as it is defined in Domain Name System (DNS).</span></span>
+- <span data-ttu-id="1b9ea-114">在網域名稱系統（DNS）中定義之新伺服器的完整功能變數名稱（FQDN）。</span><span class="sxs-lookup"><span data-stu-id="1b9ea-114">Fully qualified domain name (FQDN) of the new server as it is defined in Domain Name System (DNS).</span></span>
     
-- <span data-ttu-id="89824-115">選取 [**使用所有已設定的 ip 位址**], 這表示電腦上定義的任何 ip 位址都可以使用。</span><span class="sxs-lookup"><span data-stu-id="89824-115">Select **Use all configured IP addresses**, which means that any IP address defined on the computer can be used.</span></span> <span data-ttu-id="89824-116">或者, 您也可以選取 [**將服務使用限制為選取的 IP 位址**], 並在新伺服器上輸入特定的位址。</span><span class="sxs-lookup"><span data-stu-id="89824-116">Alternatively, you can select **Limit service usage to selected IP addresses** and enter a specific address on the new server.</span></span> <span data-ttu-id="89824-117">輸入的 IP 位址是唯一將回應託管服務的 IP 位址。</span><span class="sxs-lookup"><span data-stu-id="89824-117">The IP address entered is the only IP address which will respond for the hosted services.</span></span>
+- <span data-ttu-id="1b9ea-115">選取 [**使用所有已設定的 ip 位址**]，這表示電腦上定義的任何 ip 位址都可以使用。</span><span class="sxs-lookup"><span data-stu-id="1b9ea-115">Select **Use all configured IP addresses**, which means that any IP address defined on the computer can be used.</span></span> <span data-ttu-id="1b9ea-116">或者，您也可以選取 [**將服務使用限制為選取的 IP 位址**]，並在新伺服器上輸入特定的位址。</span><span class="sxs-lookup"><span data-stu-id="1b9ea-116">Alternatively, you can select **Limit service usage to selected IP addresses** and enter a specific address on the new server.</span></span> <span data-ttu-id="1b9ea-117">輸入的 IP 位址是唯一將回應託管服務的 IP 位址。</span><span class="sxs-lookup"><span data-stu-id="1b9ea-117">The IP address entered is the only IP address which will respond for the hosted services.</span></span>
     
-- <span data-ttu-id="89824-118">在前端伺服器上 collocated 轉送伺服器時, 定義**PSTN IP 位址**。</span><span class="sxs-lookup"><span data-stu-id="89824-118">Define a **PSTN IP address** when a Mediation Server is collocated on the Front End Server.</span></span>
+- <span data-ttu-id="1b9ea-118">在前端伺服器上 collocated 轉送伺服器時，定義**PSTN IP 位址**。</span><span class="sxs-lookup"><span data-stu-id="1b9ea-118">Define a **PSTN IP address** when a Mediation Server is collocated on the Front End Server.</span></span>
     
-- <span data-ttu-id="89824-119">選取 [**啟用 ipv6** ], 為此伺服器啟用 ipv6。</span><span class="sxs-lookup"><span data-stu-id="89824-119">Select **Enable IPv6** to enable IPv6 for this server.</span></span>
+- <span data-ttu-id="1b9ea-119">選取 [**啟用 ipv6** ]，為此伺服器啟用 ipv6。</span><span class="sxs-lookup"><span data-stu-id="1b9ea-119">Select **Enable IPv6** to enable IPv6 for this server.</span></span>
     
-  <span data-ttu-id="89824-120">**控制器伺服器**</span><span class="sxs-lookup"><span data-stu-id="89824-120">**Director server**</span></span>
+  <span data-ttu-id="1b9ea-120">**控制器伺服器**</span><span class="sxs-lookup"><span data-stu-id="1b9ea-120">**Director server**</span></span>
   
-- <span data-ttu-id="89824-121">在 DNS 中定義的新伺服器 FQDN。</span><span class="sxs-lookup"><span data-stu-id="89824-121">The FQDN of the new server as it is defined in DNS.</span></span>
+- <span data-ttu-id="1b9ea-121">在 DNS 中定義的新伺服器 FQDN。</span><span class="sxs-lookup"><span data-stu-id="1b9ea-121">The FQDN of the new server as it is defined in DNS.</span></span>
     
-- <span data-ttu-id="89824-122">選取 [**使用所有已設定的 ip 位址**], 表示將會使用電腦上定義的任何 ip 位址。</span><span class="sxs-lookup"><span data-stu-id="89824-122">Select **Use all configured IP addresses**, which means that any IP address defined on the computer will be used.</span></span> <span data-ttu-id="89824-123">或者, 您也可以選取 [**將服務使用限制為選取的 IP 位址**], 並在新伺服器上輸入特定的 ip 位址。</span><span class="sxs-lookup"><span data-stu-id="89824-123">Alternatively, you select **Limit service usage to selected IP addresses** and enter a specific IP address on the new server.</span></span> <span data-ttu-id="89824-124">輸入的 IP 位址是唯一將回應託管服務的 IP 位址。</span><span class="sxs-lookup"><span data-stu-id="89824-124">The IP address entered is the only IP address which will respond for the hosted services.</span></span>
+- <span data-ttu-id="1b9ea-122">選取 [**使用所有已設定的 ip 位址**]，表示將會使用電腦上定義的任何 ip 位址。</span><span class="sxs-lookup"><span data-stu-id="1b9ea-122">Select **Use all configured IP addresses**, which means that any IP address defined on the computer will be used.</span></span> <span data-ttu-id="1b9ea-123">或者，您也可以選取 [**將服務使用限制為選取的 IP 位址**]，並在新伺服器上輸入特定的 ip 位址。</span><span class="sxs-lookup"><span data-stu-id="1b9ea-123">Alternatively, you select **Limit service usage to selected IP addresses** and enter a specific IP address on the new server.</span></span> <span data-ttu-id="1b9ea-124">輸入的 IP 位址是唯一將回應託管服務的 IP 位址。</span><span class="sxs-lookup"><span data-stu-id="1b9ea-124">The IP address entered is the only IP address which will respond for the hosted services.</span></span>
     
-  <span data-ttu-id="89824-125">**中繼伺服器**</span><span class="sxs-lookup"><span data-stu-id="89824-125">**Mediation Server**</span></span>
+  <span data-ttu-id="1b9ea-125">**中繼伺服器**</span><span class="sxs-lookup"><span data-stu-id="1b9ea-125">**Mediation Server**</span></span>
   
-- <span data-ttu-id="89824-126">在 DNS 中定義的新伺服器 FQDN。</span><span class="sxs-lookup"><span data-stu-id="89824-126">The FQDN of the new server as it is defined in DNS.</span></span>
+- <span data-ttu-id="1b9ea-126">在 DNS 中定義的新伺服器 FQDN。</span><span class="sxs-lookup"><span data-stu-id="1b9ea-126">The FQDN of the new server as it is defined in DNS.</span></span>
     
-- <span data-ttu-id="89824-127">選取 [**使用所有已設定的 ip 位址**], 這表示電腦上定義的任何 ip 位址都可以使用。</span><span class="sxs-lookup"><span data-stu-id="89824-127">Select **Use all configured IP addresses**, which means that any IP address defined on the computer can be used.</span></span> <span data-ttu-id="89824-128">或者, 您也可以選取 [**將服務使用限制為選取的 IP 位址**], 並在新伺服器上輸入特定的 ip 位址作為主要 ip 位址, 並輸入公用交換電話網絡 (PSTN) ip 位址的 ip 位址。</span><span class="sxs-lookup"><span data-stu-id="89824-128">Alternatively, you select **Limit service usage to selected IP addresses** and enter a specific IP address on the new server as the Primary IP address, and an enter an IP address for the public switched telephone network (PSTN) IP address.</span></span> <span data-ttu-id="89824-129">輸入的 IP 位址是唯一將回應指定服務的 IP 位址。</span><span class="sxs-lookup"><span data-stu-id="89824-129">The IP addresses entered are the only IP address which will respond for the designated services.</span></span>
+- <span data-ttu-id="1b9ea-127">選取 [**使用所有已設定的 ip 位址**]，這表示電腦上定義的任何 ip 位址都可以使用。</span><span class="sxs-lookup"><span data-stu-id="1b9ea-127">Select **Use all configured IP addresses**, which means that any IP address defined on the computer can be used.</span></span> <span data-ttu-id="1b9ea-128">或者，您也可以選取 [**將服務使用限制為選取的 IP 位址**]，並在新伺服器上輸入特定的 ip 位址作為主要 ip 位址，並輸入公用交換電話網絡（PSTN） ip 位址的 ip 位址。</span><span class="sxs-lookup"><span data-stu-id="1b9ea-128">Alternatively, you select **Limit service usage to selected IP addresses** and enter a specific IP address on the new server as the Primary IP address, and an enter an IP address for the public switched telephone network (PSTN) IP address.</span></span> <span data-ttu-id="1b9ea-129">輸入的 IP 位址是唯一將回應指定服務的 IP 位址。</span><span class="sxs-lookup"><span data-stu-id="1b9ea-129">The IP addresses entered are the only IP address which will respond for the designated services.</span></span>
     
     > [!NOTE]
-    > <span data-ttu-id="89824-130">在中繼伺服器中, 為主要 IP 位址和 PSTN IP 位址輸入的 IP 位址, 預設是相同的。</span><span class="sxs-lookup"><span data-stu-id="89824-130">For the Mediation Server, the IP address entered for the Primary IP address and the PSTN IP address is the same by default.</span></span> <span data-ttu-id="89824-131">如果您使用的是專用的網路介面, 或在相同的網路介面上單獨的 IP 位址, 就可以單獨定義 IP 位址。</span><span class="sxs-lookup"><span data-stu-id="89824-131">The IP addresses can be defined separately if you are using dedicated network interfaces or separate IP addresses on the same network interface.</span></span> <span data-ttu-id="89824-132">如果您有兩個網路介面, 一個適用于本機網路連線, 另一個用於 PSTN 連線, 則必須指派不同的 IP 位址。</span><span class="sxs-lookup"><span data-stu-id="89824-132">If you have two network interfaces, one for the local network connection and one for the PSTN connection, you must assign different IP addresses.</span></span> 
+    > <span data-ttu-id="1b9ea-130">在中繼伺服器中，為主要 IP 位址和 PSTN IP 位址輸入的 IP 位址，預設是相同的。</span><span class="sxs-lookup"><span data-stu-id="1b9ea-130">For the Mediation Server, the IP address entered for the Primary IP address and the PSTN IP address is the same by default.</span></span> <span data-ttu-id="1b9ea-131">如果您使用的是專用的網路介面，或在相同的網路介面上單獨的 IP 位址，就可以單獨定義 IP 位址。</span><span class="sxs-lookup"><span data-stu-id="1b9ea-131">The IP addresses can be defined separately if you are using dedicated network interfaces or separate IP addresses on the same network interface.</span></span> <span data-ttu-id="1b9ea-132">如果您有兩個網路介面，一個適用于本機網路連線，另一個用於 PSTN 連線，則必須指派不同的 IP 位址。</span><span class="sxs-lookup"><span data-stu-id="1b9ea-132">If you have two network interfaces, one for the local network connection and one for the PSTN connection, you must assign different IP addresses.</span></span> 
   
-  <span data-ttu-id="89824-133">**音訊/視訊會議伺服器**</span><span class="sxs-lookup"><span data-stu-id="89824-133">**Audio/Video Conferencing Server**</span></span>
+  <span data-ttu-id="1b9ea-133">**音訊/視訊會議伺服器**</span><span class="sxs-lookup"><span data-stu-id="1b9ea-133">**Audio/Video Conferencing Server**</span></span>
   
-- <span data-ttu-id="89824-134">在 DNS 中定義的新伺服器 FQDN。</span><span class="sxs-lookup"><span data-stu-id="89824-134">The FQDN of the new server as it is defined in DNS.</span></span>
+- <span data-ttu-id="1b9ea-134">在 DNS 中定義的新伺服器 FQDN。</span><span class="sxs-lookup"><span data-stu-id="1b9ea-134">The FQDN of the new server as it is defined in DNS.</span></span>
     
-- <span data-ttu-id="89824-135">選取 [**使用所有已設定的 ip 位址**], 這表示電腦上定義的任何 ip 位址都可以使用。</span><span class="sxs-lookup"><span data-stu-id="89824-135">Select **Use all configured IP addresses**, which means that any IP address defined on the computer can be used.</span></span> <span data-ttu-id="89824-136">或者, 您也可以選取 [**將服務使用限制為選取的 IP 位址**], 並在新伺服器上輸入特定的位址。</span><span class="sxs-lookup"><span data-stu-id="89824-136">Alternatively, you can select **Limit service usage to selected IP addresses** and enter a specific address on the new server.</span></span> <span data-ttu-id="89824-137">輸入的 IP 位址是唯一將回應託管服務的 IP 位址。</span><span class="sxs-lookup"><span data-stu-id="89824-137">The IP address entered is the only IP address which will respond for the hosted services.</span></span>
+- <span data-ttu-id="1b9ea-135">選取 [**使用所有已設定的 ip 位址**]，這表示電腦上定義的任何 ip 位址都可以使用。</span><span class="sxs-lookup"><span data-stu-id="1b9ea-135">Select **Use all configured IP addresses**, which means that any IP address defined on the computer can be used.</span></span> <span data-ttu-id="1b9ea-136">或者，您也可以選取 [**將服務使用限制為選取的 IP 位址**]，並在新伺服器上輸入特定的位址。</span><span class="sxs-lookup"><span data-stu-id="1b9ea-136">Alternatively, you can select **Limit service usage to selected IP addresses** and enter a specific address on the new server.</span></span> <span data-ttu-id="1b9ea-137">輸入的 IP 位址是唯一將回應託管服務的 IP 位址。</span><span class="sxs-lookup"><span data-stu-id="1b9ea-137">The IP address entered is the only IP address which will respond for the hosted services.</span></span>
     
-  <span data-ttu-id="89824-138">**受信任的應用程式伺服器**</span><span class="sxs-lookup"><span data-stu-id="89824-138">**Trusted Application server**</span></span>
+  <span data-ttu-id="1b9ea-138">**受信任的應用程式伺服器**</span><span class="sxs-lookup"><span data-stu-id="1b9ea-138">**Trusted Application server**</span></span>
   
-- <span data-ttu-id="89824-139">在 DNS 中定義的新伺服器 FQDN。</span><span class="sxs-lookup"><span data-stu-id="89824-139">The FQDN of the new server as it is defined in DNS.</span></span>
+- <span data-ttu-id="1b9ea-139">在 DNS 中定義的新伺服器 FQDN。</span><span class="sxs-lookup"><span data-stu-id="1b9ea-139">The FQDN of the new server as it is defined in DNS.</span></span>
     
 

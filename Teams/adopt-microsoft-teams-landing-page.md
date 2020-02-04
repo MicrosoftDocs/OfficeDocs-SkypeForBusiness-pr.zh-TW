@@ -14,21 +14,21 @@ ms.custom: Adopt
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.dashboard.helparticle.adoption
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 25ed0a4f704663a05364ca05031f89924cc7b3f5
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: d534bfd865de1f12fb902b4a7ce1a2a0f5edef6a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "36483408"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695698"
 ---
 # <a name="adopt-microsoft-teams"></a>採納 Microsoft 團隊
 
-如果您是小型企業版，或者想要從聊天、團隊 & 頻道及會議中開始推出小組，請使用我們的規範性[入門指南](get-started-with-teams-quick-start.md)，以快速開始使用。 如果您是有混合式或內部部署商務用 Skype 設定的大型組織，或如果您想要推出語音功能（例如 Office 365 通話方案或電話系統），您可以從我們的入門指南開始，但您需要額外的下列指導方針，在 [較**深採用指南**] 底下。
+如果您是小型企業版，或者想要從聊天、團隊 & 頻道及會議中開始推出小組，請使用我們的規範性[入門指南](get-started-with-teams-quick-start.md)，以快速開始使用。 如果您是有混合式或內部部署商務用 Skype 設定的大型組織，或如果您想要推出語音功能（例如 Office 365 通話方案或電話系統），您可以從我們的**入門指南中**開始，但以下是您需要的其他指導方針。
 
 <ul class="panelContent cardsFTitle">
     <li>

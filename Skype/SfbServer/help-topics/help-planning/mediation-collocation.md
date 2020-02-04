@@ -1,5 +1,5 @@
 ---
-title: 轉送 Collocation (規劃工具)
+title: 轉送 Collocation （規劃工具）
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -7,26 +7,26 @@ manager: serdars
 ms.date: 4/8/2016
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.plan.MediationCollocation
 - ms.lync.plan.MediationCollocation
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5ddc2ad3-9275-408a-a0ab-cc7a2c2d2fdc
-description: '中繼伺服器會根據預設, 與前端伺服器 collocated。 您也可以將中繼伺服器部署在獨立的池中, 以提高效能, 或部署 SIP 中繼 (在這種情況下, 強烈建議使用獨立的池)。 Collocation 商務用 Skype Server 函數, 就像在 Lync Server 2013 中一樣。 如需詳細資訊, 請參閱下列主題:'
-ms.openlocfilehash: 197e2f171882f41d7297a8d82f1e251d35d3e833
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 中繼伺服器會根據預設，與前端伺服器 collocated。 您也可以將中繼伺服器部署在獨立的池中，以提高效能，或部署 SIP 中繼（在這種情況下，強烈建議使用獨立的池）。 Collocation 商務用 Skype Server 函數，就像在 Lync Server 2013 中一樣。 如需詳細資訊，請參閱下列主題：
+ms.openlocfilehash: 9e5d4df566e86473d132ddd7c3c112d7399bedde
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188152"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41698808"
 ---
-# <a name="mediation-collocation-planning-tool"></a><span data-ttu-id="8db46-106">轉送 Collocation (規劃工具)</span><span class="sxs-lookup"><span data-stu-id="8db46-106">Mediation Collocation (Planning Tool)</span></span>
+# <a name="mediation-collocation-planning-tool"></a><span data-ttu-id="57e43-106">轉送 Collocation （規劃工具）</span><span class="sxs-lookup"><span data-stu-id="57e43-106">Mediation Collocation (Planning Tool)</span></span>
  
-<span data-ttu-id="8db46-107">中繼伺服器會根據預設, 與前端伺服器 collocated。</span><span class="sxs-lookup"><span data-stu-id="8db46-107">The Mediation Server is collocated with the Front End Server by default.</span></span> <span data-ttu-id="8db46-108">您也可以將中繼伺服器部署在獨立的池中, 以提高效能, 或部署 SIP 中繼 (在這種情況下, 強烈建議使用獨立的池)。</span><span class="sxs-lookup"><span data-stu-id="8db46-108">The Mediation Server can also be deployed in a stand-alone pool for performance reasons, or if you deploy SIP trunking, in which case the stand-alone pool is strongly recommended.</span></span> <span data-ttu-id="8db46-109">Collocation 商務用 Skype Server 函數, 就像在 Lync Server 2013 中一樣。</span><span class="sxs-lookup"><span data-stu-id="8db46-109">Collocation in Skype for Business Server functions just as it did in Lync Server 2013.</span></span> <span data-ttu-id="8db46-110">如需詳細資訊, 請參閱下列主題:</span><span class="sxs-lookup"><span data-stu-id="8db46-110">For details, see the following topics:</span></span>
+<span data-ttu-id="57e43-107">中繼伺服器會根據預設，與前端伺服器 collocated。</span><span class="sxs-lookup"><span data-stu-id="57e43-107">The Mediation Server is collocated with the Front End Server by default.</span></span> <span data-ttu-id="57e43-108">您也可以將中繼伺服器部署在獨立的池中，以提高效能，或部署 SIP 中繼（在這種情況下，強烈建議使用獨立的池）。</span><span class="sxs-lookup"><span data-stu-id="57e43-108">The Mediation Server can also be deployed in a stand-alone pool for performance reasons, or if you deploy SIP trunking, in which case the stand-alone pool is strongly recommended.</span></span> <span data-ttu-id="57e43-109">Collocation 商務用 Skype Server 函數，就像在 Lync Server 2013 中一樣。</span><span class="sxs-lookup"><span data-stu-id="57e43-109">Collocation in Skype for Business Server functions just as it did in Lync Server 2013.</span></span> <span data-ttu-id="57e43-110">如需詳細資訊，請參閱下列主題：</span><span class="sxs-lookup"><span data-stu-id="57e43-110">For details, see the following topics:</span></span>
   
-- [<span data-ttu-id="8db46-111">Lync Server 2013 中支援的伺服器組合</span><span class="sxs-lookup"><span data-stu-id="8db46-111">Supported server collocation in Lync Server 2013</span></span>](https://technet.microsoft.com/en-us/library/gg425885%28v=ocs.15%29.aspx)
+- [<span data-ttu-id="57e43-111">Lync Server 2013 中支援的伺服器組合</span><span class="sxs-lookup"><span data-stu-id="57e43-111">Supported server collocation in Lync Server 2013</span></span>](https://technet.microsoft.com/en-us/library/gg425885%28v=ocs.15%29.aspx)
     
-- [<span data-ttu-id="8db46-112">在商務用 Skype Server 2015 中的中繼伺服器元件</span><span class="sxs-lookup"><span data-stu-id="8db46-112">Mediation Server component in Skype for Business Server 2015</span></span>](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md)
+- [<span data-ttu-id="57e43-112">在商務用 Skype Server 2015 中的中繼伺服器元件</span><span class="sxs-lookup"><span data-stu-id="57e43-112">Mediation Server component in Skype for Business Server 2015</span></span>](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md)
     
 
