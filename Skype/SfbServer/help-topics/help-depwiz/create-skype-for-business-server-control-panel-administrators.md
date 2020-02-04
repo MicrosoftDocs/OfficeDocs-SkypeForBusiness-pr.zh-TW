@@ -7,22 +7,22 @@ manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployMainCreateCSCPAdmin
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3312926a-4671-4030-bb92-90ac24c778dd
-description: '若要授與商務用 Skype Server 2015 的存取權, 請執行下列動作:'
-ms.openlocfilehash: 6fe5fee80921121c71ccdc4bb6e6de29ac4302fb
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 若要授與商務用 Skype Server 2015 的存取權，請執行下列動作：
+ms.openlocfilehash: fc192db37cb0808326d1098d396f0d2b31642537
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36193352"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41687716"
 ---
 # <a name="create-skype-for-business-server-control-panel-administrators"></a>建立商務用 Skype Server 控制台系統管理員
  
-若要授與商務用 Skype Server 2015 的存取權, 請執行下列動作:
+若要授與商務用 Skype Server 2015 的存取權，請執行下列動作：
   
 1. 使用 Domain Admins 群組成員或 RTCUniversalServerAdmins 群組成員的身分登入。
     
@@ -35,11 +35,11 @@ ms.locfileid: "36193352"
 5. 在 [成員] 索引標籤上，確認您選取的使用者或群組已存在。按一下 [確定]****。
     
 > [!TIP]
-> 商務用 Skype Server 的 [控制台] 是一個以角色為基礎的存取控制工具。 [CsAdministrator] 群組中的成員資格可讓使用商務用 Skype Server 控制台的使用者完全控制所有可用的設定功能。 有些其他的角色是針對特定功能而設計。 您不需要針對商務用 Skype Server 啟用使用者, 就能成為管理群組的成員。 
+> 商務用 Skype Server 的 [控制台] 是一個以角色為基礎的存取控制工具。 [CsAdministrator] 群組中的成員資格可讓使用商務用 Skype Server 控制台的使用者完全控制所有可用的設定功能。 有些其他的角色是針對特定功能而設計。 您不需要針對商務用 Skype Server 啟用使用者，就能成為管理群組的成員。 
   
-其他角色包括:
+其他角色包括：
   
-- **CsArchiving:** 此群組的成員可以執行所有的存檔功能, 例如設定及管理封存伺服器角色。
+- **CsArchiving：** 此群組的成員可以執行所有的存檔功能，例如設定及管理封存伺服器角色。
     
 - **CsHelpDesk：** 這個群組的成員可以檢視設定和部署，包括使用者內容及原則。成員也可以執行特定的疑難排解工作。
     
@@ -47,14 +47,14 @@ ms.locfileid: "36193352"
     
 - **CsResponseGroupAdministrator：** 成員可以管理和設定回應群組服務。
     
-- **CsServerAdministrator:** 成員可以管理、監視及疑難排解所有執行商務用 Skype Server 的伺服器。
+- **CsServerAdministrator：** 成員可以管理、監視及疑難排解所有執行商務用 Skype Server 的伺服器。
     
 - **CsUserAdministrator：** 成員可以管理、啟用與停用使用者，以及指派現有的原則給使用者。
     
-- **CsViewOnlyAdministrator:** 成員可以查看伺服器資訊的部署與設定。 這個成員資格可讓成員監視執行商務用 Skype Server 2015 的伺服器的健康情況。
+- **CsViewOnlyAdministrator：** 成員可以查看伺服器資訊的部署與設定。 這個成員資格可讓成員監視執行商務用 Skype Server 2015 的伺服器的健康情況。
     
-- **CsVoiceAdministrator:** 成員可以在商務用 Skype Server 中建立、設定及管理語音相關設定。
+- **CsVoiceAdministrator：** 成員可以在商務用 Skype Server 中建立、設定及管理語音相關設定。
     
-若要協助保留安全性與角色式的存取控制完整性, 請將使用者新增至群組, 以定義使用者在管理商務用 Skype Server 部署時所執行的角色。
+若要協助保留安全性與角色式的存取控制完整性，請將使用者新增至群組，以定義使用者在管理商務用 Skype Server 部署時所執行的角色。
   
 

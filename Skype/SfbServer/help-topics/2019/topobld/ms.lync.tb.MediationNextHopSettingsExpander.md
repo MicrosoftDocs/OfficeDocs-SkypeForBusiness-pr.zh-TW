@@ -6,24 +6,24 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.MediationNextHopSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 814f5b06-3e5a-4a39-804d-7f7d3fbee54d
 ROBOTS: NOINDEX, NOFOLLOW
-description: 您可以從下拉式清單中選取已定義的企業版前端池或標準版前端伺服器, 以指定中繼伺服器池或中繼伺服器的下一個躍點。 主管或主管池不是中繼伺服器池或中繼伺服器下一個躍點的有效選取範圍, 且不會出現在清單中。 按一下 [確定] 接受並儲存您的變更。 按一下 [取消] 捨棄變更並結束內容頁面。
-ms.openlocfilehash: 8784b996ce36fcf30a907dfd58278b0b2e66c7e0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 您可以從下拉式清單中選取已定義的企業版前端池或標準版前端伺服器，以指定中繼伺服器池或中繼伺服器的下一個躍點。 主管或主管池不是中繼伺服器池或中繼伺服器下一個躍點的有效選取範圍，且不會出現在清單中。 按一下 [確定] 接受並儲存您的變更。 按一下 [取消] 捨棄變更並結束內容頁面。
+ms.openlocfilehash: de7bced46d832b9e054904b952a65dde7cfaec64
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36193115"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41688196"
 ---
 # <a name="mediation-next-hop-settings-expander"></a>中繼下一個躍點設定展開工具
  
-您可以從下拉式清單中選取已定義的企業版前端池或標準版前端伺服器, 以指定中繼伺服器池或中繼伺服器的下一個躍點。 主管或主管池不是中繼伺服器池或中繼伺服器下一個躍點的有效選取範圍, 且不會出現在清單中。 按一下 **[確定]** 接受並儲存您的變更。 按一下 [取消]**** 捨棄變更並結束內容頁面。
+您可以從下拉式清單中選取已定義的企業版前端池或標準版前端伺服器，以指定中繼伺服器池或中繼伺服器的下一個躍點。 主管或主管池不是中繼伺服器池或中繼伺服器下一個躍點的有效選取範圍，且不會出現在清單中。 按一下 **[確定]** 接受並儲存您的變更。 按一下 [取消]**** 捨棄變更並結束內容頁面。
   
-如需有關中繼伺服器池或中繼伺服器的設定的詳細資訊, 請參閱部署檔中的商務用 Skype 伺服器的拓撲建立器中的 [[部署轉送伺服器](../../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)]。
+如需有關中繼伺服器池或中繼伺服器的設定的詳細資訊，請參閱部署檔中的商務用 Skype 伺服器的拓撲建立器中的 [[部署轉送伺服器](../../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)]。
   
 

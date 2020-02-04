@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.EdgeSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要編輯一或多個現有服器 Edge 集區的設定，請參考下列區段：
-ms.openlocfilehash: 02ee1db9019e6a12b9c166cbb766e8a90ac55da2
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0ab3ab15a9f05796c5d60be1d1e499e1e4839058
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36189193"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41688548"
 ---
 # <a name="edge-settings-expander"></a>Edge 設定展開工具
 
@@ -35,7 +35,7 @@ ms.locfileid: "36189193"
 
 Edge Server 集區的內部集區完整網域名稱 (FQDN)。編輯集區的 FQDN 以變更此設定。
 
-如果您要設定與商務用 Skype Server 2015 伺服器的同盟, 請選取 [**針對此 Edge 池啟用同盟 (埠 5061)** ] 核取方塊。
+如果您要設定與商務用 Skype Server 2015 伺服器的同盟，請選取 [**針對此 Edge 池啟用同盟（埠5061）** ] 核取方塊。
 
 指定 [內部組態複寫連接埠 (HTTPS)]**** 的連接埠號碼。
 
