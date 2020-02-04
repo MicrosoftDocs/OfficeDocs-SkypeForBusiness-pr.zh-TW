@@ -3,6 +3,8 @@ title: Lync Server 2013：管理 PIN 設定
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing PIN settings
 ms:assetid: d4a104e2-830c-47f1-a5dd-de7a937cc83a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721898(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733832
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 29043f92a447a926d901646216649a9150f4e4d6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a9b0b516f39fd407ceca5d4ab7a471056dc24847
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40977824"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756107"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "40977824"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-pin-settings-in-lync-server-2013"></a><span data-ttu-id="6812d-102">管理 Lync Server 2013 中的 PIN 設定</span><span class="sxs-lookup"><span data-stu-id="6812d-102">Managing PIN settings in Lync Server 2013</span></span>
+# <a name="managing-pin-settings-in-lync-server-2013"></a><span data-ttu-id="46915-102">管理 Lync Server 2013 中的 PIN 設定</span><span class="sxs-lookup"><span data-stu-id="46915-102">Managing PIN settings in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,17 +35,17 @@ ms.locfileid: "40977824"
 
 <span> </span>
 
-<span data-ttu-id="6812d-103">_**主題上次修改日期：** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="6812d-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="46915-103">_**主題上次修改日期：** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="46915-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="6812d-104">使用下節中的程式管理 Lync Server 2013 中的 PIN 設定。</span><span class="sxs-lookup"><span data-stu-id="6812d-104">Use the procedures in the following section to manage PIN settings in Lync Server 2013.</span></span>
+<span data-ttu-id="46915-104">使用下節中的程式管理 Lync Server 2013 中的 PIN 設定。</span><span class="sxs-lookup"><span data-stu-id="46915-104">Use the procedures in the following section to manage PIN settings in Lync Server 2013.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="6812d-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="6812d-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="46915-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="46915-105">In This Section</span></span>
 
-  - [<span data-ttu-id="6812d-106">管理 Lync Server 2013 中的 PIN 原則</span><span class="sxs-lookup"><span data-stu-id="6812d-106">Managing PIN policies in Lync Server 2013</span></span>](lync-server-2013-managing-pin-policies.md)
+  - [<span data-ttu-id="46915-106">管理 Lync Server 2013 中的 PIN 原則</span><span class="sxs-lookup"><span data-stu-id="46915-106">Managing PIN policies in Lync Server 2013</span></span>](lync-server-2013-managing-pin-policies.md)
 
-  - [<span data-ttu-id="6812d-107">在 Lync Server 2013 中管理使用者 Pin</span><span class="sxs-lookup"><span data-stu-id="6812d-107">Managing user PINs in Lync Server 2013</span></span>](lync-server-2013-managing-user-pins.md)
+  - [<span data-ttu-id="46915-107">在 Lync Server 2013 中管理使用者 Pin</span><span class="sxs-lookup"><span data-stu-id="46915-107">Managing user PINs in Lync Server 2013</span></span>](lync-server-2013-managing-user-pins.md)
 
 </div>
 

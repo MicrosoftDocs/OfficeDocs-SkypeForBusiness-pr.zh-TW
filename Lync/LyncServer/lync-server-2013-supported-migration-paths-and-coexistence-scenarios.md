@@ -3,6 +3,8 @@ title: Lync Server 2013：支援的移轉路徑和並存案例
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Supported migration paths and coexistence scenarios
 ms:assetid: 55449540-2f94-4a7c-9533-2b54e93fca58
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398367(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184182
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4bdd08b70c6ef25400c7d13380c314093cff8356
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 71f298db233a76f40538fe2372d4a23f2dc7de62
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40974818"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41731693"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "40974818"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="supported-migration-paths-and-coexistence-scenarios-in-lync-server-2013"></a><span data-ttu-id="298b2-102">Lync Server 2013 中支援的移轉路徑和並存案例</span><span class="sxs-lookup"><span data-stu-id="298b2-102">Supported migration paths and coexistence scenarios in Lync Server 2013</span></span>
+# <a name="supported-migration-paths-and-coexistence-scenarios-in-lync-server-2013"></a><span data-ttu-id="55bce-102">Lync Server 2013 中支援的移轉路徑和並存案例</span><span class="sxs-lookup"><span data-stu-id="55bce-102">Supported migration paths and coexistence scenarios in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,17 +35,17 @@ ms.locfileid: "40974818"
 
 <span> </span>
 
-<span data-ttu-id="298b2-103">_**主題上次修改日期：** 2012-04-30_</span><span class="sxs-lookup"><span data-stu-id="298b2-103">_**Topic Last Modified:** 2012-04-30_</span></span>
+<span data-ttu-id="55bce-103">_**主題上次修改日期：** 2012-04-30_</span><span class="sxs-lookup"><span data-stu-id="55bce-103">_**Topic Last Modified:** 2012-04-30_</span></span>
 
-<span data-ttu-id="298b2-104">Lync Server 2013 支援從 Microsoft Lync Server 2010 和 Microsoft Office 通訊伺服器 2007 R2 進行遷移，包括與這些先前部署的特定用戶端和伺服器元件共存。</span><span class="sxs-lookup"><span data-stu-id="298b2-104">Lync Server 2013 supports migration from Microsoft Lync Server 2010 and Microsoft Office Communications Server 2007 R2, including coexistence with specific client and server components of those previous deployments.</span></span>
+<span data-ttu-id="55bce-104">Lync Server 2013 支援從 Microsoft Lync Server 2010 和 Microsoft Office 通訊伺服器 2007 R2 進行遷移，包括與這些先前部署的特定用戶端和伺服器元件共存。</span><span class="sxs-lookup"><span data-stu-id="55bce-104">Lync Server 2013 supports migration from Microsoft Lync Server 2010 and Microsoft Office Communications Server 2007 R2, including coexistence with specific client and server components of those previous deployments.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="298b2-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="298b2-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="55bce-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="55bce-105">In This Section</span></span>
 
-  - [<span data-ttu-id="298b2-106">Lync Server 2013 中支援的伺服器轉移路徑和並存案例</span><span class="sxs-lookup"><span data-stu-id="298b2-106">Supported server migration paths and coexistence scenarios in Lync Server 2013</span></span>](lync-server-2013-supported-server-migration-paths-and-coexistence-scenarios.md)
+  - [<span data-ttu-id="55bce-106">Lync Server 2013 中支援的伺服器轉移路徑和並存案例</span><span class="sxs-lookup"><span data-stu-id="55bce-106">Supported server migration paths and coexistence scenarios in Lync Server 2013</span></span>](lync-server-2013-supported-server-migration-paths-and-coexistence-scenarios.md)
 
-  - [<span data-ttu-id="298b2-107">Lync Server 2013 中舊部署支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="298b2-107">Supported clients from previous deployments in Lync Server 2013</span></span>](lync-server-2013-supported-clients-from-previous-deployments.md)
+  - [<span data-ttu-id="55bce-107">Lync Server 2013 中舊部署支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="55bce-107">Supported clients from previous deployments in Lync Server 2013</span></span>](lync-server-2013-supported-clients-from-previous-deployments.md)
 
 </div>
 
