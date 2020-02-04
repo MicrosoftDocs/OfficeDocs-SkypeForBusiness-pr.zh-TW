@@ -1,5 +1,5 @@
 ---
-title: 更新 AAD Connect 以包含一個以上的林
+title: 更新 AAD 連線至包含多個樹系
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -14,28 +14,30 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 audience: ITPro
+f1.keywords:
+- NOCSH
 appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-description: 此附錄包含更新 AAD 連線的詳細步驟, 以包含多個林, 做為小組和商務用 Skype 的雲端整合的一部分。
-ms.openlocfilehash: cbb4811d999601524557e7106840a66682565e5f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 本附錄包含更新 AAD 連線至包含在多個樹系的 microsoft Teams 和商務用 Skype 雲端彙總的詳細的步驟。
+ms.openlocfilehash: 3d3d72c14957f0ed8932d95fcd2dbe9ec9c1e37e
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36185488"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41696058"
 ---
-# <a name="update-aad-connect-to-include-more-than-one-forest"></a>更新 AAD Connect 以包含一個以上的林
+# <a name="update-aad-connect-to-include-more-than-one-forest"></a>更新 AAD 連線至包含多個樹系
 
-Azure AD Connect 支援[從多個林進行同步](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-topologies)處理。 不過, 它只支援 Azure AD Connect 同步處理到 AAD 的一個實例。 因此, 如果 Azure AD 已安裝在一個目錄林中, 則 AAD Connect 的現有實例必須更新, 才能從額外的林進行同步處理。
+Azure AD Connect 支援[多個樹系同步處理](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-topologies)。 不過，它支援 Azure AD Connect 同步處理至 AAD 只能有一個執行的個體。 因此，在 Azure AD 已安裝在一個樹系的情況下，AAD 連線的現有執行個體必須更新以從其他樹系的同步處理。
 
- - 如果所有身分識別都只會在兩個目錄林之間呈現一次, 您就可以直接重新執行 AAD 連接嚮導, 選擇 [自訂同步處理選項], 然後在 [連線**您的目錄]** 頁面上, 輸入其他林及憑據的名稱。<br><br>
- ![[連線您的目錄] 頁面](../media/cloud-consolidation-connect-your-directories.png)
- - 不過, 如果使用者可以在多個目錄中存在, 而且您要合併資料 (例如, 如果連絡人物件存在於與另一個目錄林中的使用者對應的林中), 您將需要卸載 Azure AD Connect 並重新安裝。  這是因為跨目錄林連接規則條件只能在第一次安裝期間進行設定。 這會在下列頁面上完成:<br><br>
- ![唯一識別您的使用者頁面](../media/cloud-consolidation-uniquely-identifying-your-users.png)
+ - 如果這兩個樹系間只有一次表示所有的身分識別 （亦即，您還未做任何擁有郵件功能的連絡人），然後您可以只重新執行 [AAD 連線精靈]，選擇 [「 自訂同步處理選項 」，然後在 [**連線您的目錄**] 頁面中，輸入認證與其他樹系的名稱。<br><br>
+ ![[連線目錄頁面](../media/cloud-consolidation-connect-your-directories.png)
+ - 不過，如果使用者可以在於超過一個目錄和您將會合併資料 （例如，如果連絡人物件對應至另一個樹系中的使用者樹系中有），則需要解除安裝 Azure AD Connect，並重新安裝它。  這是因為只可以在第一個會安裝期間設定跨樹系聯結的規則條件。 這是在下列頁面：<br><br>
+ ![唯一識別您的使用者] 頁面](../media/cloud-consolidation-uniquely-identifying-your-users.png)
 
 
 ## <a name="see-also"></a>另請參閱
 
-[團隊與商務用 Skype 的雲端整合](cloud-consolidation.md)
+[針對小組與 Skype for Business 的雲端彙總](cloud-consolidation.md)

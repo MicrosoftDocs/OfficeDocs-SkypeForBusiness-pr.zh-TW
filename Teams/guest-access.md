@@ -10,18 +10,18 @@ audience: admin
 search.appverid: MET150
 description: Microsoft Teams 中的來賓存取可將團隊和頻道的存取權授與給組織外部人員，讓貴組織中的團隊與組織外部的人員共同作業。
 localization_priority: Priority
-f1keywords: ms.teamsadmincenter.orgwidesettings.guestaccess.overview
+f1.keywords: ms.teamsadmincenter.orgwidesettings.guestaccess.overview
 ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3ccaf4cae1b82b206ebfd27b185dddaf2ab0eece
-ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
+ms.openlocfilehash: e3490d208f95138d9aad57d69f55957dafb8734e
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "38746286"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707548"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Microsoft Teams 中的來賓存取
 ======================================
@@ -74,7 +74,6 @@ ms.locfileid: "38746286"
 - 建立或修改團隊
 - 瀏覽團隊
 - 將檔案上傳至個人對個人的聊天
-- 如果來賓知道使用者的完整電子郵件識別碼，來賓仍然可以搜尋和尋找使用者 (不屬於其團隊)。 為避免發生這種情況，IT 系統管理員可以使用如[限域目錄搜尋](teams-scoped-directory-search.md)等模式的功能，將來賓限制在其自己的虛擬 GAL 中。
 - 目前，Teams 僅支援由 [Azure B2B 所定義](https://docs.microsoft.com/azure/active-directory/b2b/user-properties)來賓使用者的狀態 1 和狀態 2
 
 如需來賓在 Teams 中可以和不可以使用的功能完整清單，請參閱[比較團隊成員和來賓功能](guest-experience.md#comparison-of-team-member-and-guest-capabilities)表格。 若要深入了解 Office 365 等級的來賓存取，請參閱[將來賓新增至 Office 365 群組](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6)。
