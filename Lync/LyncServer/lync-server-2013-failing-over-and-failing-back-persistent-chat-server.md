@@ -3,6 +3,8 @@ title: Lync Server 2013：容錯移轉和容錯回復常設聊天室伺服器
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Failing over and failing back Persistent Chat Server
 ms:assetid: bc9a791f-d15c-48c8-8682-1a8ad19d8c75
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205214(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185259
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e9871c5cfe4d92bacadd6ec8c2c92dea0d3b25a6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d36196da91cacfc47d0f3117a534567ab76e3946
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40975065"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765211"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "40975065"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="failing-over-and-failing-back-persistent-chat-server-in-lync-server-2013"></a><span data-ttu-id="fe686-102">Lync Server 2013 中的容錯移轉和容錯回復常設聊天室伺服器</span><span class="sxs-lookup"><span data-stu-id="fe686-102">Failing over and failing back Persistent Chat Server in Lync Server 2013</span></span>
+# <a name="failing-over-and-failing-back-persistent-chat-server-in-lync-server-2013"></a><span data-ttu-id="6b3b6-102">Lync Server 2013 中的容錯移轉和容錯回復常設聊天室伺服器</span><span class="sxs-lookup"><span data-stu-id="6b3b6-102">Failing over and failing back Persistent Chat Server in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,17 +35,17 @@ ms.locfileid: "40975065"
 
 <span> </span>
 
-<span data-ttu-id="fe686-103">_**主題上次修改日期：** 2012-08-03_</span><span class="sxs-lookup"><span data-stu-id="fe686-103">_**Topic Last Modified:** 2012-08-03_</span></span>
+<span data-ttu-id="6b3b6-103">_**主題上次修改日期：** 2012-08-03_</span><span class="sxs-lookup"><span data-stu-id="6b3b6-103">_**Topic Last Modified:** 2012-08-03_</span></span>
 
-<span data-ttu-id="fe686-104">若要進行容錯移轉，並讓 Lync Server 2013 （持久聊天伺服器）連線，您應該熟悉 Microsoft SQL Server 2008 R2 及更新版本的複製與容錯移轉處理常式。</span><span class="sxs-lookup"><span data-stu-id="fe686-104">To fail over and fail back Lync Server 2013, Persistent Chat Server, you should be familiar with replication and failover processes for Microsoft SQL Server 2008 R2 and later.</span></span> <span data-ttu-id="fe686-105">您也應該熟悉永久聊天伺服器服務。</span><span class="sxs-lookup"><span data-stu-id="fe686-105">You should also be familiar with the Persistent Chat Server services.</span></span>
+<span data-ttu-id="6b3b6-104">若要進行容錯移轉，並讓 Lync Server 2013 （持久聊天伺服器）連線，您應該熟悉 Microsoft SQL Server 2008 R2 及更新版本的複製與容錯移轉處理常式。</span><span class="sxs-lookup"><span data-stu-id="6b3b6-104">To fail over and fail back Lync Server 2013, Persistent Chat Server, you should be familiar with replication and failover processes for Microsoft SQL Server 2008 R2 and later.</span></span> <span data-ttu-id="6b3b6-105">您也應該熟悉永久聊天伺服器服務。</span><span class="sxs-lookup"><span data-stu-id="6b3b6-105">You should also be familiar with the Persistent Chat Server services.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="fe686-106">本節內容</span><span class="sxs-lookup"><span data-stu-id="fe686-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="6b3b6-106">本節內容</span><span class="sxs-lookup"><span data-stu-id="6b3b6-106">In This Section</span></span>
 
-  - [<span data-ttu-id="fe686-107">在 Lync Server 2013 中容錯移轉常設聊天室伺服器</span><span class="sxs-lookup"><span data-stu-id="fe686-107">Failing over Persistent Chat Server in Lync Server 2013</span></span>](lync-server-2013-failing-over-persistent-chat-server.md)
+  - [<span data-ttu-id="6b3b6-107">在 Lync Server 2013 中容錯移轉常設聊天室伺服器</span><span class="sxs-lookup"><span data-stu-id="6b3b6-107">Failing over Persistent Chat Server in Lync Server 2013</span></span>](lync-server-2013-failing-over-persistent-chat-server.md)
 
-  - [<span data-ttu-id="fe686-108">在 Lync Server 2013 中容錯回復常設聊天室伺服器</span><span class="sxs-lookup"><span data-stu-id="fe686-108">Failing back Persistent Chat Server in Lync Server 2013</span></span>](lync-server-2013-failing-back-persistent-chat-server.md)
+  - [<span data-ttu-id="6b3b6-108">在 Lync Server 2013 中容錯回復常設聊天室伺服器</span><span class="sxs-lookup"><span data-stu-id="6b3b6-108">Failing back Persistent Chat Server in Lync Server 2013</span></span>](lync-server-2013-failing-back-persistent-chat-server.md)
 
 </div>
 

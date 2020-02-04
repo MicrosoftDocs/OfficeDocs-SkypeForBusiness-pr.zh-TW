@@ -3,6 +3,8 @@ title: 管理類別
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Manage categories
 ms:assetid: 1b118d91-b4c4-4b2f-b842-b451417ec2c6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204719(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183543
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c7632c0de3c17c921af05a8daa225364727a3a3d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3bac2433702a90624e3ee4fb865bfb70b6d07d16
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40977749"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757167"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "40977749"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="manage-categories"></a><span data-ttu-id="cbede-102">管理類別</span><span class="sxs-lookup"><span data-stu-id="cbede-102">Manage categories</span></span>
+# <a name="manage-categories"></a><span data-ttu-id="f1e54-102">管理類別</span><span class="sxs-lookup"><span data-stu-id="f1e54-102">Manage categories</span></span>
 
 </div>
 
@@ -33,9 +35,9 @@ ms.locfileid: "40977749"
 
 <span> </span>
 
-<span data-ttu-id="cbede-103">_**主題上次修改日期：** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="cbede-103">_**Topic Last Modified:** 2012-10-06_</span></span>
+<span data-ttu-id="f1e54-103">_**主題上次修改日期：** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="f1e54-103">_**Topic Last Modified:** 2012-10-06_</span></span>
 
-<span data-ttu-id="cbede-104">若要建立新的持續聊天伺服器類別</span><span class="sxs-lookup"><span data-stu-id="cbede-104">To create a new Persistent Chat Server Category</span></span>
+<span data-ttu-id="f1e54-104">若要建立新的持續聊天伺服器類別</span><span class="sxs-lookup"><span data-stu-id="f1e54-104">To create a new Persistent Chat Server Category</span></span>
 
     New-CsPersistentChatCategory -Name Foo -PersistentChatPoolFqdn client.contoso1b118d91-b4c4-4b2f-b842-b451417ec2c6.com [other parameters]
 
@@ -43,48 +45,48 @@ ms.locfileid: "40977749"
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="cbede-105">只有有一個以上的持續聊天伺服器池時，才需要 PersistentChatPoolFqdn。</span><span class="sxs-lookup"><span data-stu-id="cbede-105">PersistentChatPoolFqdn is needed only if there is more than one Persistent Chat Server pool.</span></span>
+> <span data-ttu-id="f1e54-105">只有有一個以上的持續聊天伺服器池時，才需要 PersistentChatPoolFqdn。</span><span class="sxs-lookup"><span data-stu-id="f1e54-105">PersistentChatPoolFqdn is needed only if there is more than one Persistent Chat Server pool.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="cbede-106">變更現有的持久性聊天伺服器類別</span><span class="sxs-lookup"><span data-stu-id="cbede-106">To make changes to existing Persistent Chat Server Category</span></span>
+<span data-ttu-id="f1e54-106">變更現有的持久性聊天伺服器類別</span><span class="sxs-lookup"><span data-stu-id="f1e54-106">To make changes to existing Persistent Chat Server Category</span></span>
 
     Set-CsPersistentChatCategory -Identity testCat -AllowedMembers @{Add="sip:user1@contoso.com", "CN=container,DC=contoso,DC=com"}  -DeniedMembers @{Add="sip:user2@contoso.com"}
     Set-CsPersistentChatCategory -Identity testCat -Creators @{Add="sip:user1@contoso.com"}
 
-<span data-ttu-id="cbede-107">Windows PowerShell：可以同時設定 AllowedMembers、DeniedMembers 和創意者。</span><span class="sxs-lookup"><span data-stu-id="cbede-107">Windows PowerShell: AllowedMembers, DeniedMembers, and Creators can be set simultaneously.</span></span> <span data-ttu-id="cbede-108">創意者應該是 AllowedMembers 的子集（負 DeniedMembers）。</span><span class="sxs-lookup"><span data-stu-id="cbede-108">Creators should be the subset of AllowedMembers minus DeniedMembers.</span></span> <span data-ttu-id="cbede-109">您也可以與成員和建立者同時設定類別的屬性。</span><span class="sxs-lookup"><span data-stu-id="cbede-109">You can also set the properties of a category at the same time as the members and creators.</span></span>
+<span data-ttu-id="f1e54-107">Windows PowerShell：可以同時設定 AllowedMembers、DeniedMembers 和創意者。</span><span class="sxs-lookup"><span data-stu-id="f1e54-107">Windows PowerShell: AllowedMembers, DeniedMembers, and Creators can be set simultaneously.</span></span> <span data-ttu-id="f1e54-108">創意者應該是 AllowedMembers 的子集（負 DeniedMembers）。</span><span class="sxs-lookup"><span data-stu-id="f1e54-108">Creators should be the subset of AllowedMembers minus DeniedMembers.</span></span> <span data-ttu-id="f1e54-109">您也可以與成員和建立者同時設定類別的屬性。</span><span class="sxs-lookup"><span data-stu-id="f1e54-109">You can also set the properties of a category at the same time as the members and creators.</span></span>
 
 <div>
 
-## <a name="create-get-set-or-remove-a-category"></a><span data-ttu-id="cbede-110">建立、取得、設定或移除類別</span><span class="sxs-lookup"><span data-stu-id="cbede-110">Create, Get, Set, or Remove a Category</span></span>
+## <a name="create-get-set-or-remove-a-category"></a><span data-ttu-id="f1e54-110">建立、取得、設定或移除類別</span><span class="sxs-lookup"><span data-stu-id="f1e54-110">Create, Get, Set, or Remove a Category</span></span>
 
-<span data-ttu-id="cbede-111">若要建立新類別</span><span class="sxs-lookup"><span data-stu-id="cbede-111">To create a new Category</span></span>
+<span data-ttu-id="f1e54-111">若要建立新類別</span><span class="sxs-lookup"><span data-stu-id="f1e54-111">To create a new Category</span></span>
 
     New-CsPersistentChatCategory -Name <String> [-PersistentChatPoolFqdn <String>] [-Description <String>] [-EnableInvitations<Switch Parameter>] [-EnableFileUpload <Switch Parameter>] [-RemoveChatHistory <Switch Parameter>] [-MaxContentSize <Integer>]
 
-<span data-ttu-id="cbede-112">若要取得類別</span><span class="sxs-lookup"><span data-stu-id="cbede-112">To get a Category</span></span>
+<span data-ttu-id="f1e54-112">若要取得類別</span><span class="sxs-lookup"><span data-stu-id="f1e54-112">To get a Category</span></span>
 
     Get-CsPersistentChatCategory -Identity <String>
 
-<span data-ttu-id="cbede-113">或</span><span class="sxs-lookup"><span data-stu-id="cbede-113">or</span></span>
+<span data-ttu-id="f1e54-113">或</span><span class="sxs-lookup"><span data-stu-id="f1e54-113">or</span></span>
 
     Get-CsPersistentChatCategory -PersistentChatPoolFqdn <String>
 
-<span data-ttu-id="cbede-114">若要設定類別</span><span class="sxs-lookup"><span data-stu-id="cbede-114">To set a Category</span></span>
+<span data-ttu-id="f1e54-114">若要設定類別</span><span class="sxs-lookup"><span data-stu-id="f1e54-114">To set a Category</span></span>
 
     Set-CsPersistentChatCategory -Instance <CategoryObject> [-WhatIf] [-Confirm] [<CommonParameters>]
 
-<span data-ttu-id="cbede-115">或</span><span class="sxs-lookup"><span data-stu-id="cbede-115">or</span></span>
+<span data-ttu-id="f1e54-115">或</span><span class="sxs-lookup"><span data-stu-id="f1e54-115">or</span></span>
 
     Set-CsPersistentChatCategory [-Identity] <string> [-Name <string>] [-Description <string>] [-Invitations <bool>] [-FileUpload <bool>] [-ChatHistory <bool>] [-AllowedMembers <PSListModifier[string]>] [-DeniedMembers <PSListModifier[string]>] [-Creators <PSListModifier[string]>] [-WhatIf] [-Confirm]  [<CommonParameters>]
 
-<span data-ttu-id="cbede-116">移除類別</span><span class="sxs-lookup"><span data-stu-id="cbede-116">To remove a Category</span></span>
+<span data-ttu-id="f1e54-116">移除類別</span><span class="sxs-lookup"><span data-stu-id="f1e54-116">To remove a Category</span></span>
 
     Remove-CsPersistentChatCategory -Instance <CategoryObject> [-Force <Switch Parameter>] [-Confirm <Switch Parameter>]
 
-<span data-ttu-id="cbede-117">或</span><span class="sxs-lookup"><span data-stu-id="cbede-117">or</span></span>
+<span data-ttu-id="f1e54-117">或</span><span class="sxs-lookup"><span data-stu-id="f1e54-117">or</span></span>
 
     Remove-CsPersistentChatCategory -Identity <String> [-Force <Switch Parameter>] [-Confirm <Switch Parameter>]
 

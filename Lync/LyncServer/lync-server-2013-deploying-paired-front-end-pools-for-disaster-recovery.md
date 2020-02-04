@@ -3,6 +3,8 @@ title: Lync Server 2013：針對災害復原部署配對前端集區
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploying paired Front End pools for disaster recovery
 ms:assetid: 2f12467c-8b90-43e6-831b-a0b096427f17
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204773(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183727
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c01549722fe04d0a4833a9d2c37fd5e85dc575a7
-ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
+ms.openlocfilehash: d264128a7fef38fd220d2527772d6065dca7c964
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40975636"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740913"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "40975636"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploying-paired-front-end-pools-for-disaster-recovery-in-lync-server-2013"></a><span data-ttu-id="e87cc-102">在 Lync Server 2013 中針對災害復原部署配對前端集區</span><span class="sxs-lookup"><span data-stu-id="e87cc-102">Deploying paired Front End pools for disaster recovery in Lync Server 2013</span></span>
+# <a name="deploying-paired-front-end-pools-for-disaster-recovery-in-lync-server-2013"></a><span data-ttu-id="1cee4-102">在 Lync Server 2013 中針對災害復原部署配對前端集區</span><span class="sxs-lookup"><span data-stu-id="1cee4-102">Deploying paired Front End pools for disaster recovery in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,45 +35,45 @@ ms.locfileid: "40975636"
 
 <span> </span>
 
-<span data-ttu-id="e87cc-103">_**主題上次修改日期：** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="e87cc-103">_**Topic Last Modified:** 2013-02-21_</span></span>
+<span data-ttu-id="1cee4-103">_**主題上次修改日期：** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="1cee4-103">_**Topic Last Modified:** 2013-02-21_</span></span>
 
-<span data-ttu-id="e87cc-104">您可以使用 [拓撲建立器] 輕鬆地部署成對的前端池災害復原拓撲。</span><span class="sxs-lookup"><span data-stu-id="e87cc-104">You can easily deploy the disaster recovery topology of paired Front End pools using Topology Builder.</span></span>
+<span data-ttu-id="1cee4-104">您可以使用 [拓撲建立器] 輕鬆地部署成對的前端池災害復原拓撲。</span><span class="sxs-lookup"><span data-stu-id="1cee4-104">You can easily deploy the disaster recovery topology of paired Front End pools using Topology Builder.</span></span>
 
 <div>
 
-## <a name="to-deploy-a-pair-of-front-end-pools"></a><span data-ttu-id="e87cc-105">部署一對前端池</span><span class="sxs-lookup"><span data-stu-id="e87cc-105">To deploy a pair of Front End pools</span></span>
+## <a name="to-deploy-a-pair-of-front-end-pools"></a><span data-ttu-id="1cee4-105">部署一對前端池</span><span class="sxs-lookup"><span data-stu-id="1cee4-105">To deploy a pair of Front End pools</span></span>
 
-1.  <span data-ttu-id="e87cc-106">如果池是新的且尚未定義，請使用拓撲產生器建立池。</span><span class="sxs-lookup"><span data-stu-id="e87cc-106">If the pools are new and not yet defined, use Topology Builder to create the pools.</span></span>
+1.  <span data-ttu-id="1cee4-106">如果池是新的且尚未定義，請使用拓撲產生器建立池。</span><span class="sxs-lookup"><span data-stu-id="1cee4-106">If the pools are new and not yet defined, use Topology Builder to create the pools.</span></span>
 
-2.  <span data-ttu-id="e87cc-107">在拓撲建立器中，以滑鼠右鍵按一下兩個池中的一個，然後按一下 [**編輯屬性**]。</span><span class="sxs-lookup"><span data-stu-id="e87cc-107">In Topology Builder, right-click one of the two pools, and then click **Edit Properties**.</span></span>
+2.  <span data-ttu-id="1cee4-107">在拓撲建立器中，以滑鼠右鍵按一下兩個池中的一個，然後按一下 [**編輯屬性**]。</span><span class="sxs-lookup"><span data-stu-id="1cee4-107">In Topology Builder, right-click one of the two pools, and then click **Edit Properties**.</span></span>
 
-3.  <span data-ttu-id="e87cc-108">按一下左窗格中的 [**復原**]，然後在右窗格中選取 [**關聯的備份池**]。</span><span class="sxs-lookup"><span data-stu-id="e87cc-108">Click **Resiliency** in the left pane, and then select **Associated Backup Pool** in the right pane.</span></span>
+3.  <span data-ttu-id="1cee4-108">按一下左窗格中的 [**復原**]，然後在右窗格中選取 [**關聯的備份池**]。</span><span class="sxs-lookup"><span data-stu-id="1cee4-108">Click **Resiliency** in the left pane, and then select **Associated Backup Pool** in the right pane.</span></span>
 
-4.  <span data-ttu-id="e87cc-109">在 [關聯的**備份] 池**下方的方塊中，選取您要與此 pool 配對的池。</span><span class="sxs-lookup"><span data-stu-id="e87cc-109">In the box below **Associated Backup Pool**, select the pool that you want to pair with this pool.</span></span> <span data-ttu-id="e87cc-110">只有尚未與另一個池配對的現有池，才可以從中選取。</span><span class="sxs-lookup"><span data-stu-id="e87cc-110">Only existing pools that are not already paired with another pool will be available to select from.</span></span>
+4.  <span data-ttu-id="1cee4-109">在 [關聯的**備份] 池**下方的方塊中，選取您要與此 pool 配對的池。</span><span class="sxs-lookup"><span data-stu-id="1cee4-109">In the box below **Associated Backup Pool**, select the pool that you want to pair with this pool.</span></span> <span data-ttu-id="1cee4-110">只有尚未與另一個池配對的現有池，才可以從中選取。</span><span class="sxs-lookup"><span data-stu-id="1cee4-110">Only existing pools that are not already paired with another pool will be available to select from.</span></span>
     
-    <span data-ttu-id="e87cc-111">![36080581-db76-497d-bf9e-f02b39574d0e](images/JJ204773.36080581-db76-497d-bf9e-f02b39574d0e(OCS.15).png "36080581-db76-497d-bf9e-f02b39574d0e")</span><span class="sxs-lookup"><span data-stu-id="e87cc-111">![36080581-db76-497d-bf9e-f02b39574d0e](images/JJ204773.36080581-db76-497d-bf9e-f02b39574d0e(OCS.15).png "36080581-db76-497d-bf9e-f02b39574d0e")</span></span>  
+    <span data-ttu-id="1cee4-111">![36080581-db76-497d-bf9e-f02b39574d0e](images/JJ204773.36080581-db76-497d-bf9e-f02b39574d0e(OCS.15).png "36080581-db76-497d-bf9e-f02b39574d0e")</span><span class="sxs-lookup"><span data-stu-id="1cee4-111">![36080581-db76-497d-bf9e-f02b39574d0e](images/JJ204773.36080581-db76-497d-bf9e-f02b39574d0e(OCS.15).png "36080581-db76-497d-bf9e-f02b39574d0e")</span></span>  
 
-5.  <span data-ttu-id="e87cc-112">選取 [**自動容錯移轉及語音回切**]，然後按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="e87cc-112">Select **Automatic failover and failback for Voice**, and then click **OK**.</span></span>
+5.  <span data-ttu-id="1cee4-112">選取 [**自動容錯移轉及語音回切**]，然後按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="1cee4-112">Select **Automatic failover and failback for Voice**, and then click **OK**.</span></span>
     
-    <span data-ttu-id="e87cc-113">當您查看此池的詳細資料時，關聯的池現在會出現在右窗格中的 [**復原**] 底下。</span><span class="sxs-lookup"><span data-stu-id="e87cc-113">When you view the details about this pool, the associated pool now appears in the right pane under **Resiliency**.</span></span>
+    <span data-ttu-id="1cee4-113">當您查看此池的詳細資料時，關聯的池現在會出現在右窗格中的 [**復原**] 底下。</span><span class="sxs-lookup"><span data-stu-id="1cee4-113">When you view the details about this pool, the associated pool now appears in the right pane under **Resiliency**.</span></span>
 
-6.  <span data-ttu-id="e87cc-114">使用拓撲產生器發佈拓撲。</span><span class="sxs-lookup"><span data-stu-id="e87cc-114">Use Topology Builder to publish the topology.</span></span>
+6.  <span data-ttu-id="1cee4-114">使用拓撲產生器發佈拓撲。</span><span class="sxs-lookup"><span data-stu-id="1cee4-114">Use Topology Builder to publish the topology.</span></span>
 
-7.  <span data-ttu-id="e87cc-115">如果兩個池尚未部署，請立即部署它們，設定就會完成。</span><span class="sxs-lookup"><span data-stu-id="e87cc-115">If the two pools were not yet deployed, deploy them now and the configuration will be complete.</span></span> <span data-ttu-id="e87cc-116">您可以略過此程式中的最後兩個步驟。</span><span class="sxs-lookup"><span data-stu-id="e87cc-116">You can skip the final two steps in this procedure.</span></span>
+7.  <span data-ttu-id="1cee4-115">如果兩個池尚未部署，請立即部署它們，設定就會完成。</span><span class="sxs-lookup"><span data-stu-id="1cee4-115">If the two pools were not yet deployed, deploy them now and the configuration will be complete.</span></span> <span data-ttu-id="1cee4-116">您可以略過此程式中的最後兩個步驟。</span><span class="sxs-lookup"><span data-stu-id="1cee4-116">You can skip the final two steps in this procedure.</span></span>
     
-    <span data-ttu-id="e87cc-117">不過，如果已在您定義成對關聯之前部署了池，您必須完成下列兩個最後一個步驟。</span><span class="sxs-lookup"><span data-stu-id="e87cc-117">However, if the pools were already deployed before you defined the paired relationship, you must complete the following two final steps.</span></span>
+    <span data-ttu-id="1cee4-117">不過，如果已在您定義成對關聯之前部署了池，您必須完成下列兩個最後一個步驟。</span><span class="sxs-lookup"><span data-stu-id="1cee4-117">However, if the pools were already deployed before you defined the paired relationship, you must complete the following two final steps.</span></span>
 
-8.  <span data-ttu-id="e87cc-118">在兩個池的每個前端伺服器上，執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="e87cc-118">On every Front End Server in both pools, run the following:</span></span>
+8.  <span data-ttu-id="1cee4-118">在兩個池的每個前端伺服器上，執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="1cee4-118">On every Front End Server in both pools, run the following:</span></span>
     ```console
     <system drive>\Program Files\Microsoft Lync Server 2013\Deployment\Bootstrapper.exe 
     ```
-    <span data-ttu-id="e87cc-119">這會設定備份配對所需的其他服務才能正常運作。</span><span class="sxs-lookup"><span data-stu-id="e87cc-119">This configures other services required for backup pairing to work correctly.</span></span>
+    <span data-ttu-id="1cee4-119">這會設定備份配對所需的其他服務才能正常運作。</span><span class="sxs-lookup"><span data-stu-id="1cee4-119">This configures other services required for backup pairing to work correctly.</span></span>
 
-9.  <span data-ttu-id="e87cc-120">從 Lync Server Management Shell 命令提示字元，執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="e87cc-120">From a Lync Server Management Shell command prompt, run the following:</span></span>
+9.  <span data-ttu-id="1cee4-120">從 Lync Server Management Shell 命令提示字元，執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="1cee4-120">From a Lync Server Management Shell command prompt, run the following:</span></span>
     ```powershell
     Start-CsWindowsService -Name LYNCBACKUP
     ```
-10. <span data-ttu-id="e87cc-121">使用下列 Cmdlet 強迫兩個池的使用者與會議資料相互同步處理：</span><span class="sxs-lookup"><span data-stu-id="e87cc-121">Force the user and conference data of both pools to be synchronized with each other, with the following cmdlets:</span></span>
+10. <span data-ttu-id="1cee4-121">使用下列 Cmdlet 強迫兩個池的使用者與會議資料相互同步處理：</span><span class="sxs-lookup"><span data-stu-id="1cee4-121">Force the user and conference data of both pools to be synchronized with each other, with the following cmdlets:</span></span>
     
        ```powershell
         Invoke-CsBackupServiceSync -PoolFqdn <Pool1 FQDN>
@@ -81,7 +83,7 @@ ms.locfileid: "40975636"
         Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN>
        ```
     
-    <span data-ttu-id="e87cc-122">同步處理資料可能需要一些時間。</span><span class="sxs-lookup"><span data-stu-id="e87cc-122">Synchronizing the data may take some time.</span></span> <span data-ttu-id="e87cc-123">您可以使用下列 Cmdlet 來檢查狀態。</span><span class="sxs-lookup"><span data-stu-id="e87cc-123">You can use the following cmdlets to check the status.</span></span> <span data-ttu-id="e87cc-124">確定兩個方向的狀態都是穩定的狀態。</span><span class="sxs-lookup"><span data-stu-id="e87cc-124">Make sure that the status in both directions is in steady state.</span></span>
+    <span data-ttu-id="1cee4-122">同步處理資料可能需要一些時間。</span><span class="sxs-lookup"><span data-stu-id="1cee4-122">Synchronizing the data may take some time.</span></span> <span data-ttu-id="1cee4-123">您可以使用下列 Cmdlet 來檢查狀態。</span><span class="sxs-lookup"><span data-stu-id="1cee4-123">You can use the following cmdlets to check the status.</span></span> <span data-ttu-id="1cee4-124">確定兩個方向的狀態都是穩定的狀態。</span><span class="sxs-lookup"><span data-stu-id="1cee4-124">Make sure that the status in both directions is in steady state.</span></span>
     
        ```powershell
         Get-CsBackupServiceStatus -PoolFqdn <Pool1 FQDN>
@@ -95,7 +97,7 @@ ms.locfileid: "40975636"
 
 
 > [!NOTE]  
-> <span data-ttu-id="e87cc-125">[語音] 的 [<STRONG>自動容錯移轉</STRONG>] 選項和 [拓撲建立器] 中的關聯時間間隔，只適用于 Lync Server 2010 中引入的語音復原功能。</span><span class="sxs-lookup"><span data-stu-id="e87cc-125">The <STRONG>Automatic failover and failback for Voice</STRONG> option and the associated time intervals in Topology Builder apply only to the voice resiliency features that were introduced in Lync Server 2010.</span></span> <span data-ttu-id="e87cc-126">選取此選項並不表示本檔中討論的 [池容錯移轉] 為 [自動]。</span><span class="sxs-lookup"><span data-stu-id="e87cc-126">Selecting this option does not imply that the pool failover discussed in this document is automatic.</span></span> <span data-ttu-id="e87cc-127">[池容錯移轉] 和 [回切] 總是需要系統管理員手動喚醒呼叫容錯移轉與回切 Cmdlet。</span><span class="sxs-lookup"><span data-stu-id="e87cc-127">Pool failover and failback always require an administrator to manually invoke the failover and failback cmdlets, respectively.</span></span>
+> <span data-ttu-id="1cee4-125">[語音] 的 [<STRONG>自動容錯移轉</STRONG>] 選項和 [拓撲建立器] 中的關聯時間間隔，只適用于 Lync Server 2010 中引入的語音復原功能。</span><span class="sxs-lookup"><span data-stu-id="1cee4-125">The <STRONG>Automatic failover and failback for Voice</STRONG> option and the associated time intervals in Topology Builder apply only to the voice resiliency features that were introduced in Lync Server 2010.</span></span> <span data-ttu-id="1cee4-126">選取此選項並不表示本檔中討論的 [池容錯移轉] 為 [自動]。</span><span class="sxs-lookup"><span data-stu-id="1cee4-126">Selecting this option does not imply that the pool failover discussed in this document is automatic.</span></span> <span data-ttu-id="1cee4-127">[池容錯移轉] 和 [回切] 總是需要系統管理員手動喚醒呼叫容錯移轉與回切 Cmdlet。</span><span class="sxs-lookup"><span data-stu-id="1cee4-127">Pool failover and failback always require an administrator to manually invoke the failover and failback cmdlets, respectively.</span></span>
 
 
 
