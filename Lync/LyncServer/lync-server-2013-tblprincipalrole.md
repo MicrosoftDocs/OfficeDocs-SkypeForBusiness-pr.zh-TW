@@ -3,6 +3,8 @@ title: Lync Server 2013：tblPrincipalRole
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: tblPrincipalRole
 ms:assetid: dcd16dc1-a66c-4720-a48f-ec8b28337383
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615039(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185597
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 560f454531060a8458c8c920a1e4c5921867f3e4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: de125c0f314bd0ba72b9bbd463201b12d3e19eea
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40975388"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41731173"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -49,7 +51,7 @@ tblPrincipalRole 包含指派給節點的明確角色。
 <tr class="header">
 <th>左欄</th>
 <th>類型</th>
-<th>描述</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>
@@ -87,7 +89,7 @@ tblPrincipalRole 包含指派給節點的明確角色。
 <thead>
 <tr class="header">
 <th>左欄</th>
-<th>描述</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>

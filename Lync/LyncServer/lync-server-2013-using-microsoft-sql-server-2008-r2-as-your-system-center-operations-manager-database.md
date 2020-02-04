@@ -3,6 +3,8 @@ title: Lync Server 2013：使用 Microsoft SQL Server 2008 R2 作為 System Cent
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Using Microsoft SQL Server 2008 R2 as your System Center Operations Manager database
 ms:assetid: 0efe76da-8854-499e-bdc7-3623244a8e85
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687969(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733555
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 858134b4d7f2a2fbc4e15c14e121ac12679c9ddc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 27516e7ca6c3fb70a01b7c1d245054d515ae351b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40982701"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744053"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

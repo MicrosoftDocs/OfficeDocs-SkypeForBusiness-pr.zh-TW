@@ -3,6 +3,8 @@ title: Lync Server 2013：管理組織的 Access Edge 設定
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Manage Access Edge Configuration for your organization
 ms:assetid: 0145eb08-984f-4ecd-bf9c-364817619c2a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552443(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48679555
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 05d2bcca7836bd451b2535fb02c350facd7fc1bf
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4739599f92b9189a208e1bb320a53b82d66a3a9c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40974038"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733443"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

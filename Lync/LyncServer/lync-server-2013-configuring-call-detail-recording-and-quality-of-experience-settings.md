@@ -3,6 +3,8 @@ title: 設定詳細通話記錄及經驗品質設定
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring call detail recording and Quality of Experience settings
 ms:assetid: 009a0499-4f8c-450d-9c72-a565a08e9f7a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204621(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183223
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 67c9759faad4ed96cdf65d8bd22c5778512933de
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 504c2221e9f8a3ef32e2cebbb792f5e03aef15c5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40974829"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756337"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -51,7 +53,7 @@ _**主題上次修改日期：** 2012-10-17_
 <thead>
 <tr class="header">
 <th>Property</th>
-<th>描述</th>
+<th>說明</th>
 <th>預設值</th>
 </tr>
 </thead>
@@ -94,7 +96,7 @@ _**主題上次修改日期：** 2012-10-17_
 <thead>
 <tr class="header">
 <th>Property</th>
-<th>描述</th>
+<th>說明</th>
 <th>預設值</th>
 </tr>
 </thead>

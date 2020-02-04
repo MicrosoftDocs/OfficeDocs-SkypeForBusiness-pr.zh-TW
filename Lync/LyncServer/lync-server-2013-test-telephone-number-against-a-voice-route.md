@@ -3,6 +3,8 @@ title: Lync Server 2013：根據語音路線測試電話號碼
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Test telephone number against a voice route
 ms:assetid: 9a77ed6d-9394-4bef-9344-3d91b6959b97
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn725211(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969631
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ed50971c9656d454a44eeee627de95c187ef008f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5d4105b54c7d5b745efddeeb961960c402aaa349
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40974182"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746173"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -62,7 +64,7 @@ _**主題上次修改日期：** 2014-05-20_
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>說明
 
 語音路由可搭配語音原則共同作業，協助將企業語音通話路由至 PSTN 網路。 每個語音路線都包含一個正則運算式（數位模式），可識別將透過特定語音路線路由的電話號碼：路線將能夠處理符合此正則運算式的任何電話號碼。 例如，語音路由可能有一個正則運算式，可讓它處理任何10位數的數位。 這表示路由可以處理如下所示的電話號碼：
 

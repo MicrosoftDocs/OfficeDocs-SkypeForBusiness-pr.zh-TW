@@ -3,6 +3,8 @@ title: Lync Server 2013：tblServerIdentity
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: tblServerIdentity
 ms:assetid: 5411c9bc-b0b3-41fc-8b7e-fa71cccd770b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558648(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184125
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e7bdd939f838a9f72191d3aae27b9a4a56d26be3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2379622ee5b1121367c35b4baac98d6c79d61023
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40974735"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41731203"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -49,7 +51,7 @@ tblServerIdentity 包含持續聊天伺服器池中的活動聊天伺服器。
 <tr class="header">
 <th>左欄</th>
 <th>類型</th>
-<th>描述</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>
@@ -82,7 +84,7 @@ tblServerIdentity 包含持續聊天伺服器池中的活動聊天伺服器。
 <thead>
 <tr class="header">
 <th>左欄</th>
-<th>描述</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>

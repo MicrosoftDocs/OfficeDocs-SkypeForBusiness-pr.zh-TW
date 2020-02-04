@@ -3,6 +3,8 @@ title: 對照主要街道位址指南來測試市政位址
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing civic addresses against the master street address guide
 ms:assetid: dc680de9-2a0f-4fd3-a99e-9bab0bc30ae5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn690132(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969657
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dfa4dd28ec05546366e029b6fb9fdf1c4b3ae310
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 37d6aa1443dc2e062aa099237d9b25f2b33e32b2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40982691"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745806"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -62,7 +64,7 @@ _**主題上次修改日期：** 2014-06-05_
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>說明
 
 CsLisCivicAddress Cmdlet 可用來驗證新增至您的位置資訊服務（.LIS）資料庫的位置。 這個 Cmdlet 的運作方式是將位置與主要街道位址指南（MSAG）中的位置（屬於您的 E9-1-1 網路路由提供者）進行比較。 如果您沒有網路路由提供者或無法取得提供者，您的測試將會失敗。
 

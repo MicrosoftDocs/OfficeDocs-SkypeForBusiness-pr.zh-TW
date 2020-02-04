@@ -3,6 +3,8 @@ title: Lync Server 2013：變更 Web 服務 URL
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Change the Web Services URL
 ms:assetid: 4cee37c0-3b99-4207-997f-bf4229d760c0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520992(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184063
 ms.date: 11/16/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 335c73a56da1d8b9a28e7089a7cc2238724a322b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 934e448f48413df2938deab8a0d08389cfad37bd
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40975827"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730153"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -47,7 +49,7 @@ _**主題上次修改日期：** 2015-11-16_
 
 </div>
 
-![編輯 Web 服務池設定][(images/Gg520992.fbdf5cc9-479a-463f-bb1d-53575ecdfc9d(OCS.15).jpg "編輯 Web 服務] 池設定")
+![編輯 Web 服務集區設定](images/Gg520992.fbdf5cc9-479a-463f-bb1d-53575ecdfc9d(OCS.15).jpg "編輯 Web 服務集區設定")
 
 <div>
 

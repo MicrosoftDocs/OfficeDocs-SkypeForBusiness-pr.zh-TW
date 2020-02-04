@@ -3,6 +3,8 @@ title: Lync Server 2013：測試網頁排程程式
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing the Web scheduler
 ms:assetid: 58e34058-1afa-42e3-9096-c4ea1954c237
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727304(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969603
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: beb4030a87302c8abaaba9418eaba06b831ed8d6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 65d7dc70bad90dc4e4c94e2db273f44ed20c50ce
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40982441"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745413"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -62,7 +64,7 @@ _**主題上次修改日期：** 2014-11-03_
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>說明
 
 **Test CsWebScheduler** Cmdlet 可讓您判斷特定使用者是否可以使用 Web 排程器來排程會議。 Web 排程器可讓未執行 Outlook 的使用者排程線上會議。 在其他專案中，這項新功能（包含在 Microsoft Lync Server 2010 資源套件隨附的網頁排程工具中找到的功能）可讓使用者：
 

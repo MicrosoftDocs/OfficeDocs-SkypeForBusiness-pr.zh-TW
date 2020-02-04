@@ -3,6 +3,8 @@ title: Lync Server 2013：持久聊天伺服器的容量規劃
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Capacity planning for Persistent Chat Server
 ms:assetid: 7a850cd5-c789-4795-a8ff-083be21ae784
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615006(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184580
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7af60947a1132d26d5e8ba015d54cdbea80b8b54
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: dde4bcb499e38e729850f06bb08590bf537696e5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40978392"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737023"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -82,7 +84,7 @@ _**主題上次修改日期：** 2012-10-05_
 
 **單一持久聊天伺服器**
 
-![單一伺服器拓朴與合規性服務](images/Gg398500.9168fa52-61e0-4d17-a14d-45fd32e81456(OCS.15).jpg "單一伺服器拓撲（含合規性服務")）
+![安裝有 Compliance Service 的單一伺服器拓撲](images/Gg398500.9168fa52-61e0-4d17-a14d-45fd32e81456(OCS.15).jpg "安裝有 Compliance Service 的單一伺服器拓撲")
 
 </div>
 
@@ -96,7 +98,7 @@ _**主題上次修改日期：** 2012-10-05_
 
 **多個持續聊天伺服器**
 
-![多個伺服器拓撲]結構(images/Gg398500.19aea898-28df-4d9b-903c-f72ef062d919(OCS.15).jpg "多個伺服器拓撲")
+![多部伺服器拓撲](images/Gg398500.19aea898-28df-4d9b-903c-f72ef062d919(OCS.15).jpg "多部伺服器拓撲")
 
 在四伺服器持續式聊天伺服器部署中，80000使用者可以同時登入並使用持續聊天，在每個伺服器上，都會將負載平均分佈在20000個使用者。 如果一個伺服器無法使用，則連接至該伺服器的使用者將無法存取永久聊天伺服器。 已中斷連線的使用者會自動轉移到其餘的伺服器，直到無法還原無法使用的伺服器為止。 根據網路上持久聊天流量的數量，此傳輸可能需要幾分鐘的時間。 因為其餘的每個伺服器都可能會裝載許多30000的使用者，所以建議您儘快還原無法使用的伺服器，以免發生效能問題。 否則，您可以使用 [拓撲建立器] 或 [Windows PowerShell Cmdlet]，將另一個持久聊天伺服器設為可用，請**CsPersistentChatActiveServer**。
 
@@ -597,11 +599,11 @@ _**主題上次修改日期：** 2012-10-05_
 </tr>
 <tr class="even">
 <td><p>每位使用者的中型聊天室數</p></td>
-<td><p>pplx-2</p></td>
+<td><p>2</p></td>
 </tr>
 <tr class="odd">
 <td><p>每個使用者的大型聊天室數</p></td>
-<td><p>pplx-2</p></td>
+<td><p>2</p></td>
 </tr>
 <tr class="even">
 <td><p>每位使用者加入的房間數</p></td>

@@ -3,6 +3,8 @@ title: Lync Server 2013：測試應用程式共用
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing application sharing
 ms:assetid: 8d21db9b-10d1-4b43-b057-0deb1df1c205
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727310(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969629
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 77a65e2dbea8ca0df01fab37c08f47c8e7d0c5b6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ab428e5bbfb5ffc58fa7b1d092cd7fc04b117226
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40975088"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745853"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -62,7 +64,7 @@ _**主題上次修改日期：** 2014-11-01_
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>說明
 
 **Test CsASConference** Cmdlet 會確認一組測試使用者可以參與包含應用程式共用的線上會議。 若要這樣做，Cmdlet 會使用 Lync Server 2013 登錄兩個使用者，然後使用其中一個使用者帳戶來建立包含應用程式共用的新會議。 然後，此 Cmdlet 會驗證第二個使用者是否可以加入該會議。
 

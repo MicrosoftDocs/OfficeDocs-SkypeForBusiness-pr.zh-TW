@@ -3,6 +3,8 @@ title: Lync Server 2013：啟用 Lync-Skype 連線功能
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enabling Lync-Skype connectivity
 ms:assetid: 34c4db3e-582f-41fb-85c4-3438ae02f09f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn440170(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 57793361
 ms.date: 12/16/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 794d2a71c07e742a3ab5597d4bd2aff77157d675
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0125ff4719cd3dfeb65353df747395e596b45dac
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40978176"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735813"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,7 +47,7 @@ _**主題上次修改日期：** 2014-12-16_
 
 必須具備同盟，才能讓 Skype 使用者與您組織中的 Lync 使用者通訊。 公用立即訊息連線（PIC）是一種同盟類別，而且必須加以設定，才能讓 Lync 使用者與 Skype 使用者通訊。 [同盟] 和 [PIC] 是使用 Lync Server [控制台] 進行設定，如下所示。
 
-![顯示](images/Dn440170.451b94e3-0b38-488c-835f-1f25690e8074(OCS.15).jpg "pic")
+![顯示 PIC](images/Dn440170.451b94e3-0b38-488c-835f-1f25690e8074(OCS.15).jpg "顯示 PIC")
 
 <div>
 
@@ -119,7 +121,7 @@ _**主題上次修改日期：** 2014-12-16_
 
 3.  您現在可以從 Lync 用戶端選取 [Skype] 作為 PIC 提供者，並透過指定其 Microsoft 帳戶來新增 Skype 用戶端。 此外，已透過其 Microsoft 帳戶合併並登入的 Skype 使用者，可以傳送聯絡人要求給 Lync 使用者。 如需 Microsoft 帳戶的詳細資訊，請參閱[什麼是 microsoft 帳戶？](https://support.skype.com/en/faq/fa12059/what-is-a-microsoft-account)。 如需將用戶端新增至 Lync 的其他資訊，請參閱[在 Lync Server 2013 中使用 Lync Skype 連線功能做為最終使用者](lync-server-2013-using-lync-skype-connectivity-as-an-end-user.md)。
     
-    ![新增 Skype 連絡人](images/Dn440170.df0e6ed9-2374-4dfa-a815-87281989487c(OCS.15).jpg "新增 skype 連絡人")
+    ![新增 Skype 連絡人](images/Dn440170.df0e6ed9-2374-4dfa-a815-87281989487c(OCS.15).jpg "新增 Skype 連絡人")
 
 4.  如需有關修改託管提供者的詳細資訊，請參閱「建立或編輯託管 SIP [http://go.microsoft.com/fwlink/p/?LinkId=306065](http://go.microsoft.com/fwlink/p/?linkid=306065)聯盟提供者」。
 

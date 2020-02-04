@@ -3,6 +3,8 @@ title: Lync Server 2013：Active Directory 網域服務準備工作概觀
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Overview of Active Directory Domain Services preparation
 ms:assetid: cdd2a652-6a0d-4728-9950-3fcaa7a80066
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398869(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185662
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 26636846ce7b985a33af3175d51798c4c12c5ea7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d51d0fec8f36749f52acf3272bf83dee3170da8f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40974392"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755627"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -52,7 +54,7 @@ _**主題上次修改日期：** 2012-10-29_
 <tr class="header">
 <th></th>
 <th>循序漸進</th>
-<th>描述</th>
+<th>說明</th>
 <th>在何處執行</th>
 </tr>
 </thead>

@@ -3,6 +3,8 @@ title: Lync Server 2013：測試在兩個使用者之間 IM 的功能
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing ability to IM between two users
 ms:assetid: a0f3f5c6-f115-4c3f-90ac-5fdc932b417e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn743838(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969635
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2ea824216c456e9f673a5383eab0b788933bf53d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 201aceceadeba3c6c97530925273097fe039bc08
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40977196"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745893"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -62,7 +64,7 @@ _**主題上次修改日期：** 2014-06-05_
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>說明
 
 CsIM Cmdlet 會驗證一對測試使用者可以交換立即訊息。 在呼叫時，CsIM Cmdlet 會嘗試將一組測試使用者登入 Lync Server 來啟動。 假設兩次登入成功，則 Cmdlet 會在兩個測試使用者之間啟動 IM 會話。 （使用者1邀請使用者2加入 IM 會話，而使用者2則接受邀請。）在確認郵件可以在兩個使用者之間交換之後，測試 CsIM 接著結束 IM 會話，並將使用者從系統中記錄。
 

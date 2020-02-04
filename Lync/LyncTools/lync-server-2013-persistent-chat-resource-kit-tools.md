@@ -3,6 +3,8 @@ title: Lync Server 2013 持續聊天資源套件工具
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Lync Server 2013 Persistent Chat Resource Kit Tools
 ms:assetid: 7a34d2ba-eb25-4e22-92d1-b9baf81b102c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945599(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541423
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2c851be7bb7046021cc2d37c88ef03bdea60c95a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a827892dac61ff88d0527eafb7d94948afa21885
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40976022"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739413"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -89,7 +91,7 @@ Lync Server 2013 持續性聊天資源套件工具可協助您更輕鬆地為部
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>說明
 
 AffCheck 工具會確認持久的聊天后端資料庫使用者和群組隸屬關係記錄與 Active Directory 網域服務相符。
 
@@ -157,7 +159,7 @@ AffCheck 工具會確認持久的聊天后端資料庫使用者和群組隸屬�
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>說明
 
 PersistentChatMonitoringSummary 工具會將持續聊天監視資訊從監視資料庫移至指定的 CSV 記錄檔。
 
@@ -218,7 +220,7 @@ CSV 檔案將會包含持續交談會話的細目分類，包括總會話數、�
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>說明
 
 持續聊天的壓力工具提供一種簡單的方法來模擬持久聊天的使用方式，以測試真實世界的效能，包括各種使用者模型，以更適合您預期的使用方式。
 
@@ -299,7 +301,7 @@ CSV 檔案將會包含持續交談會話的細目分類，包括總會話數、�
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>說明
 
 ChatUpgradeVerifier 是一種持續聊天的特定資料庫比較工具。 此工具會將群組聊天 2007 R2 或群組聊天2010資料庫（2007/2010Db）與永久聊天2013資料庫（2013Db）進行比較。
 
@@ -331,7 +333,7 @@ ChatUpgradeVerifier 檔案必須包含 GroupChat2007R2Db 參數或 GroupChat2010
 
 ## <a name="example"></a>範例
 
-執行![ChatUpgradeVerifier。]執行(images/JJ945599.4c273bc3-7926-47c7-ade7-34522721ebf9(OCS.15).jpg "ChatUpgradeVerifier。")
+![執行 ChatUpgradeVerifier.exe。](images/JJ945599.4c273bc3-7926-47c7-ade7-34522721ebf9(OCS.15).jpg "執行 ChatUpgradeVerifier.exe。")
 
 </div>
 
@@ -343,7 +345,7 @@ ChatUpgradeVerifier 檔案必須包含 GroupChat2007R2Db 參數或 GroupChat2010
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>說明
 
 ChatUsageReport 工具會產生持續聊天服務用法的 HTML 報告。
 
@@ -457,7 +459,7 @@ ChatUsageReport：
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>說明
 
 ScheduleADSyncForPrincipal 是 Microsoft SQL Server 2012 腳本，在連線至持久聊天后端資料庫時，必須直接在 SQL Server Management Studio 中執行。 此腳本可讓您強制持續聊天與 Active Directory 網域服務的使用者記錄同步處理，而不是等待排程的同步處理時間。
 

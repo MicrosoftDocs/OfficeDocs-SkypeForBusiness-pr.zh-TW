@@ -3,6 +3,8 @@ title: Lync Server 2013：持久聊天伺服器的元件與拓撲
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Components and topologies for Persistent Chat Server
 ms:assetid: 6a0a14a0-baad-44e9-b26e-4d192c0a0e70
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398500(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184420
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 14ae22b2afed27109fb6e2c514211293cef42a46
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 862635d091a216df61058c0f0ff00eaa9d32a0c2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40974812"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742573"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -153,7 +155,7 @@ Lync Server 2013 支援各種不同的 collocation 案例，可讓您靈活地�
 
 **單一持久聊天伺服器**
 
-![單一伺服器拓朴與合規性服務](images/Gg398500.9168fa52-61e0-4d17-a14d-45fd32e81456(OCS.15).jpg "單一伺服器拓撲（含合規性服務")）
+![安裝有 Compliance Service 的單一伺服器拓撲](images/Gg398500.9168fa52-61e0-4d17-a14d-45fd32e81456(OCS.15).jpg "安裝有 Compliance Service 的單一伺服器拓撲")
 
 </div>
 
@@ -167,7 +169,7 @@ Lync Server 2013 支援各種不同的 collocation 案例，可讓您靈活地�
 
 **多個持續聊天伺服器**
 
-![多個伺服器拓撲]結構(images/Gg398500.19aea898-28df-4d9b-903c-f72ef062d919(OCS.15).jpg "多個伺服器拓撲")
+![多部伺服器拓撲](images/Gg398500.19aea898-28df-4d9b-903c-f72ef062d919(OCS.15).jpg "多部伺服器拓撲")
 
 多伺服器拓朴提供伺服器功能的彙集。 在伺服器池中，持續聊天服務會與資料進行通訊和共用。 例如，您可以從系統中的任何持續聊天服務取得最初張貼到一個持續聊天服務的聊天記錄。 透過一個持久聊天服務上傳的檔案，可透過任何持續聊天服務存取。 使用者可以連線至不同的持續聊天伺服器前端伺服器，而且可以彼此聊天和通訊。
 

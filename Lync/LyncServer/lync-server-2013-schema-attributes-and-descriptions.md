@@ -3,6 +3,8 @@ title: Lync Server 2013：架構屬性和描述
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Schema attributes and descriptions
 ms:assetid: b009df76-9c22-471d-b57a-bda009a98261
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412841(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185083
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fc18b4b074302ba3c233670f21fd8479bbd0b0f8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 72da4adb0f660604dba7f20c9ddc333425086df2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40977830"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732633"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -62,7 +64,7 @@ _**主題上次修改日期：** 2012-10-06_
 <thead>
 <tr class="header">
 <th>Attribute</th>
-<th>描述</th>
+<th>說明</th>
 <th>批註</th>
 </tr>
 </thead>

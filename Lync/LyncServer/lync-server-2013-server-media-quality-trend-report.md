@@ -3,6 +3,8 @@ title: Lync Server 2013：伺服器媒體質量趨勢報告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Server Media Quality Trend Report
 ms:assetid: 8a51fd13-1487-4632-b5ec-f7ae2abe8ed4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205071(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184760
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dc60cd4c0d8d00fa67a5fe77ca70e61058191baa
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c4efb7e2f29c1da75a81f4df4ec586c396d77d3d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40976074"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732433"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -75,7 +77,7 @@ _**主題上次修改日期：** 2012-11-12_
 <thead>
 <tr class="header">
 <th>名稱</th>
-<th>描述</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>
@@ -176,7 +178,7 @@ _**主題上次修改日期：** 2012-11-12_
 <tr class="header">
 <th>名稱</th>
 <th>您可以針對此專案進行排序嗎？</th>
-<th>描述</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>

@@ -3,6 +3,8 @@ title: Lync Server 2013：在虛擬機器上登入和使用 Lync 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Signing in and using Lync 2013 on the virtual machine
 ms:assetid: 6140fc19-5bef-4b58-9b0f-19112b5ecd00
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204948(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184318
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d3b890f008b30ecf008bd2e6f03803fbfe6c1674
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 40c5c18c4e991c3b53e37e090e7f2d960a32f71c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40975877"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732033"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,11 +45,11 @@ _**主題上次修改日期：** 2012-10-03_
 
 3.  Lync 會從 VDI 外掛程式開始配對。 配對完成之前，用戶端會在 Lync 狀態列中顯示兩個圖示。 左下角的圖示表示沒有可用的音訊裝置，右下方的閃爍圖示則表示正在進行 VDI 配對，如下所示：
     
-    ![LYNC vdi 圖示，顯示成功]配對的(images/JJ204948.303d618c-4bc8-41c4-8553-2475de0d395e(OCS.15).png "lync vdi 圖示顯示成功配對")  
+    ![顯示成功配對的 Lync VDI 圖示](images/JJ204948.303d618c-4bc8-41c4-8553-2475de0d395e(OCS.15).png "顯示成功配對的 Lync VDI 圖示")  
 
 4.  在已成功進行 VDI 配對之後，圖示會變更，以指出將用於通話的音訊裝置和 VDI 配對成功：
     
-    ![LYNC vdi 配對圖示，顯示成功]的(images/JJ204948.57be3387-a3e5-4949-831e-f5ff9fcc5598(OCS.15).png "lync vdi 配對圖示（顯示成功")）  
+    ![顯示成功的 Lync VDI 配對圖示](images/JJ204948.57be3387-a3e5-4949-831e-f5ff9fcc5598(OCS.15).png "顯示成功的 Lync VDI 配對圖示")  
 
 5.  在 Lync 對使用 VDI 外掛程式之後，使用者可以在連線至本機電腦的 Lync 相容裝置上看到他或她的目前狀態。 使用者現在可以照常進行呼叫並接聽通話。
 

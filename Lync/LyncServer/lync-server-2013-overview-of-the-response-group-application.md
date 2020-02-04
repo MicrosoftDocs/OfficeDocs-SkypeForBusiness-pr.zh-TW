@@ -3,6 +3,8 @@ title: Lync Server 2013：回應群組應用程式的概覽
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Overview of the Response Group application
 ms:assetid: 6cc333e7-4029-4372-86b2-016040c415fb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398513(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184453
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b523a05509b0043effb8cb2b761d7ee06fd36751
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2b01181296a42f786a4739b5ec59d775212baaf5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40974491"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755417"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -71,7 +73,7 @@ _**主題上次修改日期：** 2012-09-11_
 <thead>
 <tr class="header">
 <th>回應群組類型</th>
-<th>描述</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>
@@ -119,7 +121,7 @@ _**主題上次修改日期：** 2012-09-11_
 <li><p>代理程式</p></li>
 <li><p>歡迎訊息</p></li>
 <li><p>回應群組名稱</p></li>
-<li><p>描述</p></li>
+<li><p>說明</p></li>
 <li><p>顯示數位</p></li>
 <li><p>商務時間</p></li>
 <li><p>等候音樂</p></li>

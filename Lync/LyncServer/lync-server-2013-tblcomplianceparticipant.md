@@ -3,6 +3,8 @@ title: Lync Server 2013：tblComplianceParticipant
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: tblComplianceParticipant
 ms:assetid: 5d7e0dea-74f7-46d1-badf-b94abc8f066d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558655(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184262
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e98b257552f728d0976df6331673f1f55d0dbdeb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 484948a01c82dc8ca256e3e50e484c94a9b81de4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40978444"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41731553"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -49,7 +51,7 @@ tblComplianceParticipant 包含每個通道及每個伺服器的目前參與者�
 <tr class="header">
 <th>左欄</th>
 <th>類型</th>
-<th>描述</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>
@@ -103,7 +105,7 @@ tblComplianceParticipant 包含每個通道及每個伺服器的目前參與者�
 <thead>
 <tr class="header">
 <th>左欄</th>
-<th>描述</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>

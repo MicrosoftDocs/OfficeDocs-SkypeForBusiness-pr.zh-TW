@@ -3,6 +3,8 @@ title: 設定媒體旁路全域設定以使用網站和區域資訊
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure media bypass global settings to use site and region information
 ms:assetid: 0a21cdf1-f350-49da-b346-70806f256bea
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398150(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183360
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cd070e6380a896548b851ac7d3472cd86eeba75b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ac820c444f894aabf060c06d6f034f7d92b696c2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40975446"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757747"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

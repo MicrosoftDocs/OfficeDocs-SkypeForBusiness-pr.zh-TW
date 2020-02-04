@@ -3,6 +3,8 @@ title: Lync Server 2013：測試使用者登入 Lync Server 的能力
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing the ability of a user to log on to Lync Server
 ms:assetid: d9cd0f9b-6ef2-4050-a4ca-263c5afa93ee
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn743841(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969655
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: adf6cae2899d08765faf5d605ea20ae111f395ce
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4fb1d0af8a5191c7e0af1ffe3319c426c116b586
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40974099"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745463"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -62,7 +64,7 @@ _**主題上次修改日期：** 2014-06-05_
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>說明
 
 CsRegistration Cmdlet 可讓您確認貴組織中的使用者可以登入 Lync Server。 當您執行 Test CsRegistration 時，此 Cmdlet 會嘗試將測試使用者登入 Lync Server，然後，如果成功，則會將測試使用者從系統中斷連線。 在任何情況下，都不會發生任何使用者互動，也不會影響任何實際的使用者。 例如，假設 [測試帳戶 sip:kenmyer@litwareinc.com] 對應給擁有真正的 Lync 伺服器帳戶的真實使用者。 在這種情況下，將會執行測試，而不會對真正的 Ken Myer 造成任何干擾。 當 Ken Myer 測試帳戶從系統登出時，該人員將會保持登入狀態的 Ken Myer。
 

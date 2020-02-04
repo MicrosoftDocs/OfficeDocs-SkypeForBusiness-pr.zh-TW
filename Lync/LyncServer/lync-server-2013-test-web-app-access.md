@@ -3,6 +3,8 @@ title: Lync Server 2013：測試 Web App 存取權
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Test Web App access
 ms:assetid: 17d67ea3-f74d-4952-ac2b-92c0dacc8014
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn767944(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969584
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6d118f019883bd5c0f00295bb92287c9593192a3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7618bcc9a69d177950bae64354106a67721e822a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40974513"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746003"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -62,7 +64,7 @@ _**主題上次修改日期：** 2014-06-07_
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>說明
 
 CsWebApp Cmdlet 會驗證經過驗證的使用者可以使用 Lync Web App 加入 Lync Server 會議。 當您執行 Cmdlet 時，CsWebApp 會與 Web 票證服務聯絡，以取得指定使用者的網頁入場券。 這些入場券可有效地充當 Lync Server 會議的「許可票證」。 如果可以檢索票證，且如果使用者可以進行驗證，CsWebApp 將會與 Lync Server 取得聯繫，並嘗試建立獨立的會議以進行立即訊息、應用程式共用及資料共同作業。
 

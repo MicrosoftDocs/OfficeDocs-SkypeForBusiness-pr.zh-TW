@@ -3,6 +3,8 @@ title: Lync Server 2013：驗證通訊錄網頁查詢
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Validating address book web query
 ms:assetid: e6ae0a5a-e131-4cfe-9a33-6e611831072d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720925(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969662
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 44c43b4332be67bb164f21a2bb07459d61b23e85
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 31d6a38c0c1d8a67977f9dd66da2a94b51a4f9ab
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40975415"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763657"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -62,7 +64,7 @@ _**主題上次修改日期：** 2014-06-05_
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>說明
 
 CsAddressBookWebQuery Cmdlet 可讓系統管理員確認使用者可以使用通訊錄網頁查詢服務來搜尋特定的連絡人。 當您執行 Cmdlet 時，測試 CsAddressBookWebQuery 會先連線到要驗證的 Web 票證服務。 如果驗證成功，則 Cmdlet 會連線至通訊錄網頁查詢服務，並搜尋指定的連絡人。 如果找到該連絡人，則 Cmdlet 會嘗試將該資訊傳回本機電腦。 只有在所有這些步驟都能完成時，才會將測試標示為成功。
 

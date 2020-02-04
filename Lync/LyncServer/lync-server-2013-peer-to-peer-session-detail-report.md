@@ -3,6 +3,8 @@ title: Lync Server 2013：點對點工作階段詳細資料包告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Peer-to-Peer Session Detail Report
 ms:assetid: 6be1d676-68f7-4a53-a72a-de73296c5571
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558659(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184416
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ec73febb248a8b61979c0aad2df6977c9feccb91
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: bff140db52a98e0b442ca65bbbb8b148282c5755
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40974296"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755293"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -95,7 +97,7 @@ _**主題上次修改日期：** 2012-06-06_
 <thead>
 <tr class="header">
 <th>名稱</th>
-<th>描述</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>
@@ -195,7 +197,7 @@ _**主題上次修改日期：** 2012-06-06_
 <tr class="header">
 <th>名稱</th>
 <th>您可以針對此專案進行排序嗎？</th>
-<th>描述</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>
@@ -238,7 +240,7 @@ _**主題上次修改日期：** 2012-06-06_
 <tr class="header">
 <th>名稱</th>
 <th>您可以針對此專案進行排序嗎？</th>
-<th>描述</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>

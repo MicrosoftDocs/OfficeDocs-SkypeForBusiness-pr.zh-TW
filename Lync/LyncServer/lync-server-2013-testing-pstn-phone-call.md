@@ -3,6 +3,8 @@ title: Lync Server 2013：測試 PSTN 通話
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing PSTN phone call
 ms:assetid: dc7d319d-a627-45b6-a978-6111901251e3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn690133(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969656
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 641b2f77079fee100d8f3ac85a1a7580d7cf7d84
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8095b4b0bb6aa4e6920d291c3fde3885ae6bfb03
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40978166"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745583"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -62,7 +64,7 @@ _**主題上次修改日期：** 2014-06-05_
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>說明
 
 CsPstnOutboundCall Cmdlet 會測試使用者撥打電話給 PSTN 上電話號碼的功能。 當您執行 Test CsPstnOutboundCall 時，此 Cmdlet 會先嘗試將測試使用者記錄到 Lync Server。 如果登入成功，則 Cmdlet 會嘗試撥打 PSTN 閘道的電話撥打電話。 這個電話將會使用撥號計畫、語音原則，以及指派給測試帳戶的其他原則和設定來撥打。 接聽來電時，Cmdlet 會在網路上傳送雙音調多頻率（DTMF）碼，以驗證媒體連線性。
 

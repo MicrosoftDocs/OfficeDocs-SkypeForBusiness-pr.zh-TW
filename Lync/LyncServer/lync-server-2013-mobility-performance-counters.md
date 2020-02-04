@@ -3,6 +3,8 @@ title: Lync Server 2013：行動性效能計數器
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Mobility performance counters
 ms:assetid: d18ed85a-673d-4695-aa3f-ac83a38ab90a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690046(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185441
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8c0759ccd6a9203dfac87f0ec55f555d49d19ccc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 439c179476c89de8a5245e80e26586d42f4f6e3b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40974061"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758685"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -54,7 +56,7 @@ Mcx 行動服務資料表中計數器的類別名稱是**LS： WEB Mobile 通訊
 <thead>
 <tr class="header">
 <th>反</th>
-<th>描述</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>
@@ -248,7 +250,7 @@ Mcx 行動服務資料表中計數器的類別名稱是**LS： WEB Mobile 通訊
 <thead>
 <tr class="header">
 <th>反</th>
-<th>描述</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>

@@ -3,6 +3,8 @@ title: Lync Server 2013：媒體質量摘要報告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Media Quality Summary Report
 ms:assetid: 8bd59ad6-3087-49c8-b692-5573fe2ffcd8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615012(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184776
 ms.date: 06/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5c967c6d6b120c73cb933281d4edb17be1868900
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6980168a2d509bc32b9aa48f30167bca8721fef2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40975534"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41766084"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -103,7 +105,7 @@ _**主題上次修改日期：** 2016-06-29_
 <thead>
 <tr class="header">
 <th>名稱</th>
-<th>描述</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>
@@ -178,7 +180,7 @@ _**主題上次修改日期：** 2016-06-29_
 <tr class="header">
 <th>名稱</th>
 <th>您可以針對此專案進行排序嗎？</th>
-<th>描述</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>
@@ -274,7 +276,7 @@ _**主題上次修改日期：** 2016-06-29_
 <tr class="header">
 <th>名稱</th>
 <th>您可以針對此專案進行排序嗎？</th>
-<th>描述</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>
@@ -373,7 +375,7 @@ _**主題上次修改日期：** 2016-06-29_
 <tr class="header">
 <th>名稱</th>
 <th>您可以針對此專案進行排序嗎？</th>
-<th>描述</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>

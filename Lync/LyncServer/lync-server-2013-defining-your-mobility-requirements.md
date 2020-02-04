@@ -3,6 +3,8 @@ title: Lync Server 2013：定義行動需求
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Defining your mobility requirements
 ms:assetid: b7608335-cdeb-4aae-8e4b-d80c55f0d62b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690039(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185226
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 604812d96f58a53ee008bfe42603243571138d1e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2721f88ce703fe4c26fbc7a9a6cd02cdde6b14a8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40974625"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762751"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -125,7 +127,7 @@ _**主題上次修改日期：** 2013-02-14_
     <thead>
     <tr class="header">
     <th>功能/參數名稱/範圍（原則參數名稱可能不一樣）</th>
-    <th>描述</th>
+    <th>說明</th>
     <th>採用</th>
     </tr>
     </thead>

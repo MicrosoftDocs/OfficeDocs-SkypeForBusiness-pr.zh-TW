@@ -3,6 +3,8 @@ title: Lync Server 2013：中繼伺服器元件
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Mediation Server component
 ms:assetid: 5b19edef-4a54-43c9-aa12-5643b8108355
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398399(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184239
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a1f3476f8b4e99b2abccb67f1d75446a126df03d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 363b277003d7ca1581475ec7c1197bb0f60ccfaa
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40976374"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41766074"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -71,7 +73,7 @@ _**主題上次修改日期：** 2012-09-21_
 
 **中繼伺服器所使用的信號和媒體通訊協定**
 
-![中繼伺服器通訊協定](images/Gg398399.c3d39ba0-e323-4a58-8f07-4e80d3278af2(OCS.15).jpg "圖表")
+![中繼伺服器通訊協定圖表](images/Gg398399.c3d39ba0-e323-4a58-8f07-4e80d3278af2(OCS.15).jpg "中繼伺服器通訊協定圖表")
 
 <div>
 

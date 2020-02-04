@@ -3,6 +3,8 @@ title: Lync Server 2013：會議摘要報告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Conference Summary Report
 ms:assetid: 62f54812-5700-45a3-8526-8f58b0f77fbc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558656(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184299
 ms.date: 09/03/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dde91a25d33bac5af8b1759b1fbfc90cfb9bc0ff
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 68858d56c47953a99928a59e5f83485ba9d305cb
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40977254"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756997"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -181,7 +183,7 @@ _**主題上次修改日期：** 2014-09-03_
 <thead>
 <tr class="header">
 <th>名稱</th>
-<th>描述</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>
@@ -240,7 +242,7 @@ _**主題上次修改日期：** 2014-09-03_
 <tr class="header">
 <th>名稱</th>
 <th>您可以針對此專案進行排序嗎？</th>
-<th>描述</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>

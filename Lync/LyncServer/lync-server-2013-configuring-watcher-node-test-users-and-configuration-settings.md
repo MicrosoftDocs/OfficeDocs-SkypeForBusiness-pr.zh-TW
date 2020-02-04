@@ -3,6 +3,8 @@ title: 設定觀察程式節點測試使用者和配置設定
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring watcher node test users and configuration settings
 ms:assetid: ab00e9cb-f539-4aa6-bcb4-5533fbe7bc44
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205152(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185048
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d446934e8d84a12a6eecd84fbc94a956d8ae95e8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a3713844d5d2364459a28c5919bb1d32d421d706
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40975422"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733663"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: Lync Server 2013：疑難排解 Lync VDI 外掛程式
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Troubleshooting the Lync VDI plug-in
 ms:assetid: 183c9449-b907-409c-b5ed-b02af3bd93ee
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204713(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183525
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7afaa0067e4ca06f8bb40ff201b090a45c66f442
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f1dfd8082ef0f0cdfc2a7931a675398507daaa51
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40975932"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744983"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,7 +55,7 @@ _**主題上次修改日期：** 2012-10-10_
 
 當 VDI 外掛程式配對失敗時，右下角的配對圖示會顯示為紅色的 [X]，如下所示：
 
-![LYNC vdi 圖示，顯示成功]配對的(images/JJ204948.303d618c-4bc8-41c4-8553-2475de0d395e(OCS.15).png "lync vdi 圖示顯示成功配對")
+![顯示成功配對的 Lync VDI 圖示](images/JJ204948.303d618c-4bc8-41c4-8553-2475de0d395e(OCS.15).png "顯示成功配對的 Lync VDI 圖示")
 
 下列是失敗的可能原因，以及您可以採取的修正動作。
 
