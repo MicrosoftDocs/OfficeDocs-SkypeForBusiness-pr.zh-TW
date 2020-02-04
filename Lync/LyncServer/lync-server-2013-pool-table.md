@@ -3,6 +3,8 @@ title: Lync Server 2013：Pool 表格
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Pool table
 ms:assetid: 92ded8fd-d0ad-4f8a-9e6f-2e8a690fda3a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398746(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184803
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 08f878b9eefef86fba0fed4dd039b9a60b6f035d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 31fd637ac4d612d53804f679b82f1de53b327772
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40977719"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725153"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "40977719"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="pool-table-in-lync-server-2013"></a><span data-ttu-id="30455-102">Lync Server 2013 中的 Pool 表格</span><span class="sxs-lookup"><span data-stu-id="30455-102">Pool table in Lync Server 2013</span></span>
+# <a name="pool-table-in-lync-server-2013"></a><span data-ttu-id="14210-102">Lync Server 2013 中的 Pool 表格</span><span class="sxs-lookup"><span data-stu-id="14210-102">Pool table in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,9 +35,9 @@ ms.locfileid: "40977719"
 
 <span> </span>
 
-<span data-ttu-id="30455-103">_**主題上次修改日期：** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="30455-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+<span data-ttu-id="14210-103">_**主題上次修改日期：** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="14210-103">_**Topic Last Modified:** 2012-10-02_</span></span>
 
-<span data-ttu-id="30455-104">[Pool] 資料表是一個支援資料表，可儲存各種前端池的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="30455-104">The Pool table is a supporting table that stores information about the various Front End pools.</span></span> <span data-ttu-id="30455-105">資料表中的每一筆記錄代表一個池。</span><span class="sxs-lookup"><span data-stu-id="30455-105">Each record in the table represents one pool.</span></span>
+<span data-ttu-id="14210-104">[Pool] 資料表是一個支援資料表，可儲存各種前端池的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="14210-104">The Pool table is a supporting table that stores information about the various Front End pools.</span></span> <span data-ttu-id="14210-105">資料表中的每一筆記錄代表一個池。</span><span class="sxs-lookup"><span data-stu-id="14210-105">Each record in the table represents one pool.</span></span>
 
 
 <table>
@@ -47,24 +49,24 @@ ms.locfileid: "40977719"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="30455-106"><strong>左欄</strong></span><span class="sxs-lookup"><span data-stu-id="30455-106"><strong>Column</strong></span></span></th>
-<th><span data-ttu-id="30455-107"><strong>資料類型</strong></span><span class="sxs-lookup"><span data-stu-id="30455-107"><strong>Data Type</strong></span></span></th>
-<th><span data-ttu-id="30455-108"><strong>索引鍵/索引</strong></span><span class="sxs-lookup"><span data-stu-id="30455-108"><strong>Key/Index</strong></span></span></th>
-<th><span data-ttu-id="30455-109"><strong>詳細資料</strong></span><span class="sxs-lookup"><span data-stu-id="30455-109"><strong>Details</strong></span></span></th>
+<th><span data-ttu-id="14210-106"><strong>左欄</strong></span><span class="sxs-lookup"><span data-stu-id="14210-106"><strong>Column</strong></span></span></th>
+<th><span data-ttu-id="14210-107"><strong>資料類型</strong></span><span class="sxs-lookup"><span data-stu-id="14210-107"><strong>Data Type</strong></span></span></th>
+<th><span data-ttu-id="14210-108"><strong>索引鍵/索引</strong></span><span class="sxs-lookup"><span data-stu-id="14210-108"><strong>Key/Index</strong></span></span></th>
+<th><span data-ttu-id="14210-109"><strong>詳細資料</strong></span><span class="sxs-lookup"><span data-stu-id="14210-109"><strong>Details</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="30455-110"><strong>PoolKey</strong></span><span class="sxs-lookup"><span data-stu-id="30455-110"><strong>PoolKey</strong></span></span></p></td>
-<td><p><span data-ttu-id="30455-111">int</span><span class="sxs-lookup"><span data-stu-id="30455-111">int</span></span></p></td>
-<td><p><span data-ttu-id="30455-112">首選</span><span class="sxs-lookup"><span data-stu-id="30455-112">Primary</span></span></p></td>
-<td><p><span data-ttu-id="30455-113">識別這個池子的唯一號碼。</span><span class="sxs-lookup"><span data-stu-id="30455-113">Unique number identifying this pool.</span></span></p></td>
+<td><p><span data-ttu-id="14210-110"><strong>PoolKey</strong></span><span class="sxs-lookup"><span data-stu-id="14210-110"><strong>PoolKey</strong></span></span></p></td>
+<td><p><span data-ttu-id="14210-111">int</span><span class="sxs-lookup"><span data-stu-id="14210-111">int</span></span></p></td>
+<td><p><span data-ttu-id="14210-112">首選</span><span class="sxs-lookup"><span data-stu-id="14210-112">Primary</span></span></p></td>
+<td><p><span data-ttu-id="14210-113">識別這個池子的唯一號碼。</span><span class="sxs-lookup"><span data-stu-id="14210-113">Unique number identifying this pool.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="30455-114"><strong>PoolName</strong></span><span class="sxs-lookup"><span data-stu-id="30455-114"><strong>PoolName</strong></span></span></p></td>
-<td><p><span data-ttu-id="30455-115">Nvarchar （256）</span><span class="sxs-lookup"><span data-stu-id="30455-115">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="30455-116">唯一 </span><span class="sxs-lookup"><span data-stu-id="30455-116">Unique </span></span></p></td>
-<td><p><span data-ttu-id="30455-117">池 FQDN。</span><span class="sxs-lookup"><span data-stu-id="30455-117">Pool FQDN.</span></span></p></td>
+<td><p><span data-ttu-id="14210-114"><strong>PoolName</strong></span><span class="sxs-lookup"><span data-stu-id="14210-114"><strong>PoolName</strong></span></span></p></td>
+<td><p><span data-ttu-id="14210-115">Nvarchar （256）</span><span class="sxs-lookup"><span data-stu-id="14210-115">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="14210-116">唯一 </span><span class="sxs-lookup"><span data-stu-id="14210-116">Unique </span></span></p></td>
+<td><p><span data-ttu-id="14210-117">池 FQDN。</span><span class="sxs-lookup"><span data-stu-id="14210-117">Pool FQDN.</span></span></p></td>
 </tr>
 </tbody>
 </table>

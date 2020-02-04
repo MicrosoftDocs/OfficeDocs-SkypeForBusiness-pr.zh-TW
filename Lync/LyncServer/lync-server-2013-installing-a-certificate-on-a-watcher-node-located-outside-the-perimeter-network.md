@@ -3,6 +3,8 @@ title: Lync Server 2013：在周邊網路以外的觀察程式節點上安裝憑
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Installing a certificate on a watcher node located outside the perimeter network
 ms:assetid: 825c9c02-1951-4d7a-a25e-a313a85333f8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688113(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733711
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1479ffdd7f6652b96f3015e047194d76bf1e8978
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 10cd31639445fab6138ea77cb40a03d727ecce12
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40977588"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726173"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "40977588"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="installing-a-certificate-on-a-watcher-node-located-outside-the-perimeter-network-of-lync-server-2013"></a><span data-ttu-id="4eb11-102">在 Lync Server 2013 周邊網路以外的監視者節點上安裝憑證</span><span class="sxs-lookup"><span data-stu-id="4eb11-102">Installing a certificate on a watcher node located outside the perimeter network of Lync Server 2013</span></span>
+# <a name="installing-a-certificate-on-a-watcher-node-located-outside-the-perimeter-network-of-lync-server-2013"></a><span data-ttu-id="434dc-102">在 Lync Server 2013 周邊網路以外的監視者節點上安裝憑證</span><span class="sxs-lookup"><span data-stu-id="434dc-102">Installing a certificate on a watcher node located outside the perimeter network of Lync Server 2013</span></span>
 
 </div>
 
@@ -33,11 +35,11 @@ ms.locfileid: "40977588"
 
 <span> </span>
 
-<span data-ttu-id="4eb11-103">_**主題上次修改日期：** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="4eb11-103">_**Topic Last Modified:** 2012-10-22_</span></span>
+<span data-ttu-id="434dc-103">_**主題上次修改日期：** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="434dc-103">_**Topic Last Modified:** 2012-10-22_</span></span>
 
-<span data-ttu-id="4eb11-104">在周邊網路（例如在 Lync Server Edge 伺服器）之外，企業外部（例如外部綜合交易觀察程式節點）或跨 Active Directory 網域服務信任邊界的 System Center Operations Manager 代理程式可能需要系統中心作業管理員閘道伺服器的設定。</span><span class="sxs-lookup"><span data-stu-id="4eb11-104">System Center Operations Manager agents running in a perimeter network (such as a Lync Server Edge Server), outside of the enterprise (such as an external synthetic transaction watcher node), or across an Active Directory Domain Services trust boundary, might require the configuration of a System Center Operations Manager Gateway Server.</span></span> <span data-ttu-id="4eb11-105">這個伺服器角色允許沒有與根管理伺服器有信任關係的代理程式，以引發通知。</span><span class="sxs-lookup"><span data-stu-id="4eb11-105">This server role allows agents that do not have a trust relationship with the Root Management Server to raise alerts.</span></span> <span data-ttu-id="4eb11-106">如需詳細資訊，請參閱 System Center Operations Manager TechNet 文件庫中的「管理 Operations Manager 2007 中[http://go.microsoft.com/fwlink/p/?LinkId=268703](http://go.microsoft.com/fwlink/p/?linkid=268703)的閘道伺服器」。</span><span class="sxs-lookup"><span data-stu-id="4eb11-106">For details, see "Managing Gateway Servers in Operations Manager 2007" in the System Center Operations Manager TechNet Library at [http://go.microsoft.com/fwlink/p/?LinkId=268703](http://go.microsoft.com/fwlink/p/?linkid=268703).</span></span>
+<span data-ttu-id="434dc-104">在周邊網路（例如在 Lync Server Edge 伺服器）之外，企業外部（例如外部綜合交易觀察程式節點）或跨 Active Directory 網域服務信任邊界的 System Center Operations Manager 代理程式可能需要系統中心作業管理員閘道伺服器的設定。</span><span class="sxs-lookup"><span data-stu-id="434dc-104">System Center Operations Manager agents running in a perimeter network (such as a Lync Server Edge Server), outside of the enterprise (such as an external synthetic transaction watcher node), or across an Active Directory Domain Services trust boundary, might require the configuration of a System Center Operations Manager Gateway Server.</span></span> <span data-ttu-id="434dc-105">這個伺服器角色允許沒有與根管理伺服器有信任關係的代理程式，以引發通知。</span><span class="sxs-lookup"><span data-stu-id="434dc-105">This server role allows agents that do not have a trust relationship with the Root Management Server to raise alerts.</span></span> <span data-ttu-id="434dc-106">如需詳細資訊，請參閱 System Center Operations Manager TechNet 文件庫中的「管理 Operations Manager 2007 中[http://go.microsoft.com/fwlink/p/?LinkId=268703](http://go.microsoft.com/fwlink/p/?linkid=268703)的閘道伺服器」。</span><span class="sxs-lookup"><span data-stu-id="434dc-106">For details, see "Managing Gateway Servers in Operations Manager 2007" in the System Center Operations Manager TechNet Library at [http://go.microsoft.com/fwlink/p/?LinkId=268703](http://go.microsoft.com/fwlink/p/?linkid=268703).</span></span>
 
-<span data-ttu-id="4eb11-107">如果您在其中一個位置部署代理程式，您也必須要求並設定可讓監視者節點傳送警示給 System Center Operations Manager 的憑證。</span><span class="sxs-lookup"><span data-stu-id="4eb11-107">If you deploy an agent in one of these locations, you will also need to request and configure a certificate that enables the watcher node to send alerts to System Center Operations Manager.</span></span> <span data-ttu-id="4eb11-108">為了簡化此程式，Operations Manager 小組已建立一組實用程式，讓您在監視者節點電腦上要求並安裝正確類型的憑證。</span><span class="sxs-lookup"><span data-stu-id="4eb11-108">To simplify this process, the Operations Manager team has created a set of utilities that enable you to request and install the correct type of certificate on the watcher node computer.</span></span> <span data-ttu-id="4eb11-109">如需詳細資訊，以及若要下載這些實用程式，請參閱「透過證書產生嚮導輕鬆地取得非網域加入的代理程式」 [http://go.microsoft.com/fwlink/p/?LinkId=267421](http://go.microsoft.com/fwlink/p/?linkid=267421)中的 [博客文章]。</span><span class="sxs-lookup"><span data-stu-id="4eb11-109">For details, and to download these utilities, see the "Obtaining Certificates for Non-Domain Joined Agents Made Easy With Certificate Generation Wizard" blog article at [http://go.microsoft.com/fwlink/p/?LinkId=267421](http://go.microsoft.com/fwlink/p/?linkid=267421).</span></span>
+<span data-ttu-id="434dc-107">如果您在其中一個位置部署代理程式，您也必須要求並設定可讓監視者節點傳送警示給 System Center Operations Manager 的憑證。</span><span class="sxs-lookup"><span data-stu-id="434dc-107">If you deploy an agent in one of these locations, you will also need to request and configure a certificate that enables the watcher node to send alerts to System Center Operations Manager.</span></span> <span data-ttu-id="434dc-108">為了簡化此程式，Operations Manager 小組已建立一組實用程式，讓您在監視者節點電腦上要求並安裝正確類型的憑證。</span><span class="sxs-lookup"><span data-stu-id="434dc-108">To simplify this process, the Operations Manager team has created a set of utilities that enable you to request and install the correct type of certificate on the watcher node computer.</span></span> <span data-ttu-id="434dc-109">如需詳細資訊，以及若要下載這些實用程式，請參閱「透過證書產生嚮導輕鬆地取得非網域加入的代理程式」 [http://go.microsoft.com/fwlink/p/?LinkId=267421](http://go.microsoft.com/fwlink/p/?linkid=267421)中的 [博客文章]。</span><span class="sxs-lookup"><span data-stu-id="434dc-109">For details, and to download these utilities, see the "Obtaining Certificates for Non-Domain Joined Agents Made Easy With Certificate Generation Wizard" blog article at [http://go.microsoft.com/fwlink/p/?LinkId=267421](http://go.microsoft.com/fwlink/p/?linkid=267421).</span></span>
 
 </div>
 

@@ -3,6 +3,8 @@ title: Lync Server 2013：Manufacturers 表格
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Manufacturers table
 ms:assetid: 734608b3-5a3a-4b61-87dc-9a8551401d06
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398549(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184481
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 241934d8a350a37ef227582f9258075026b8380e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8123d516e41d2d6a25d4cfca2234110bff129782
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40974464"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723983"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "40974464"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="manufacturers-table-in-lync-server-2013"></a><span data-ttu-id="f34ba-102">Lync Server 2013 中的 Manufacturers 表格</span><span class="sxs-lookup"><span data-stu-id="f34ba-102">Manufacturers table in Lync Server 2013</span></span>
+# <a name="manufacturers-table-in-lync-server-2013"></a><span data-ttu-id="e7cd5-102">Lync Server 2013 中的 Manufacturers 表格</span><span class="sxs-lookup"><span data-stu-id="e7cd5-102">Manufacturers table in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,9 +35,9 @@ ms.locfileid: "40974464"
 
 <span> </span>
 
-<span data-ttu-id="f34ba-103">_**主題上次修改日期：** 2010-11-07_</span><span class="sxs-lookup"><span data-stu-id="f34ba-103">_**Topic Last Modified:** 2010-11-07_</span></span>
+<span data-ttu-id="e7cd5-103">_**主題上次修改日期：** 2010-11-07_</span><span class="sxs-lookup"><span data-stu-id="e7cd5-103">_**Topic Last Modified:** 2010-11-07_</span></span>
 
-<span data-ttu-id="f34ba-104">[製造商] 資料表是支援資料表。</span><span class="sxs-lookup"><span data-stu-id="f34ba-104">The Manufacturers table is a supporting table.</span></span> <span data-ttu-id="f34ba-105">每筆記錄儲存一個裝置（辦公桌電話）製造商的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="f34ba-105">Each record stores information about one device (desk phone) manufacturer.</span></span>
+<span data-ttu-id="e7cd5-104">[製造商] 資料表是支援資料表。</span><span class="sxs-lookup"><span data-stu-id="e7cd5-104">The Manufacturers table is a supporting table.</span></span> <span data-ttu-id="e7cd5-105">每筆記錄儲存一個裝置（辦公桌電話）製造商的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="e7cd5-105">Each record stores information about one device (desk phone) manufacturer.</span></span>
 
 
 <table>
@@ -47,24 +49,24 @@ ms.locfileid: "40974464"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="f34ba-106">左欄</span><span class="sxs-lookup"><span data-stu-id="f34ba-106">Column</span></span></th>
-<th><span data-ttu-id="f34ba-107">資料類型</span><span class="sxs-lookup"><span data-stu-id="f34ba-107">Data Type</span></span></th>
-<th><span data-ttu-id="f34ba-108">索引鍵/索引</span><span class="sxs-lookup"><span data-stu-id="f34ba-108">Key/Index</span></span></th>
-<th><span data-ttu-id="f34ba-109">詳細資料</span><span class="sxs-lookup"><span data-stu-id="f34ba-109">Details</span></span></th>
+<th><span data-ttu-id="e7cd5-106">左欄</span><span class="sxs-lookup"><span data-stu-id="e7cd5-106">Column</span></span></th>
+<th><span data-ttu-id="e7cd5-107">資料類型</span><span class="sxs-lookup"><span data-stu-id="e7cd5-107">Data Type</span></span></th>
+<th><span data-ttu-id="e7cd5-108">索引鍵/索引</span><span class="sxs-lookup"><span data-stu-id="e7cd5-108">Key/Index</span></span></th>
+<th><span data-ttu-id="e7cd5-109">詳細資料</span><span class="sxs-lookup"><span data-stu-id="e7cd5-109">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="f34ba-110"><strong>[Manufacturerid</strong></span><span class="sxs-lookup"><span data-stu-id="f34ba-110"><strong>ManufacturerId</strong></span></span></p></td>
-<td><p><span data-ttu-id="f34ba-111">int</span><span class="sxs-lookup"><span data-stu-id="f34ba-111">int</span></span></p></td>
-<td><p><span data-ttu-id="f34ba-112">首選</span><span class="sxs-lookup"><span data-stu-id="f34ba-112">Primary</span></span></p></td>
-<td><p><span data-ttu-id="f34ba-113">識別此製造商的唯一號碼。</span><span class="sxs-lookup"><span data-stu-id="f34ba-113">Unique number identifying this manufacturer.</span></span></p></td>
+<td><p><span data-ttu-id="e7cd5-110"><strong>[Manufacturerid</strong></span><span class="sxs-lookup"><span data-stu-id="e7cd5-110"><strong>ManufacturerId</strong></span></span></p></td>
+<td><p><span data-ttu-id="e7cd5-111">int</span><span class="sxs-lookup"><span data-stu-id="e7cd5-111">int</span></span></p></td>
+<td><p><span data-ttu-id="e7cd5-112">首選</span><span class="sxs-lookup"><span data-stu-id="e7cd5-112">Primary</span></span></p></td>
+<td><p><span data-ttu-id="e7cd5-113">識別此製造商的唯一號碼。</span><span class="sxs-lookup"><span data-stu-id="e7cd5-113">Unique number identifying this manufacturer.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f34ba-114"><strong>製造商</strong></span><span class="sxs-lookup"><span data-stu-id="f34ba-114"><strong>Manufacturer</strong></span></span></p></td>
-<td><p><span data-ttu-id="f34ba-115">Nvarchar （256）</span><span class="sxs-lookup"><span data-stu-id="f34ba-115">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="e7cd5-114"><strong>製造商</strong></span><span class="sxs-lookup"><span data-stu-id="e7cd5-114"><strong>Manufacturer</strong></span></span></p></td>
+<td><p><span data-ttu-id="e7cd5-115">Nvarchar （256）</span><span class="sxs-lookup"><span data-stu-id="e7cd5-115">nvarchar(256)</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="f34ba-116">[製造商名稱]。</span><span class="sxs-lookup"><span data-stu-id="f34ba-116">Manufacturer name.</span></span></p></td>
+<td><p><span data-ttu-id="e7cd5-116">[製造商名稱]。</span><span class="sxs-lookup"><span data-stu-id="e7cd5-116">Manufacturer name.</span></span></p></td>
 </tr>
 </tbody>
 </table>
