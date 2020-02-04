@@ -3,6 +3,8 @@ title: Lync Server 2013：管理 IM 及顯示狀態設定
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing IM and presence settings
 ms:assetid: a01b8384-16a1-41b5-a00a-fdb9afb5aa88
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182558(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184933
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2204ba5cb9b293cd9113a566e524d856a8bf6a08
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5cb99a3020d33223849bb6eda149d4258a6950a4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40981799"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729253"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "40981799"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-im-and-presence-settings-in-lync-server-2013"></a><span data-ttu-id="1965c-102">在 Lync Server 2013 中管理 IM 及顯示狀態設定</span><span class="sxs-lookup"><span data-stu-id="1965c-102">Managing IM and presence settings in Lync Server 2013</span></span>
+# <a name="managing-im-and-presence-settings-in-lync-server-2013"></a><span data-ttu-id="783b5-102">在 Lync Server 2013 中管理 IM 及顯示狀態設定</span><span class="sxs-lookup"><span data-stu-id="783b5-102">Managing IM and presence settings in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,17 +35,17 @@ ms.locfileid: "40981799"
 
 <span> </span>
 
-<span data-ttu-id="1965c-103">_**主題上次修改日期：** 2012-10-14_</span><span class="sxs-lookup"><span data-stu-id="1965c-103">_**Topic Last Modified:** 2012-10-14_</span></span>
+<span data-ttu-id="783b5-103">_**主題上次修改日期：** 2012-10-14_</span><span class="sxs-lookup"><span data-stu-id="783b5-103">_**Topic Last Modified:** 2012-10-14_</span></span>
 
-<span data-ttu-id="1965c-104">本節中的主題提供您可以使用 Lync Server 2013 [控制台] 中的 [ **IM 和目前狀態**] 群組執行的工作逐步程式。</span><span class="sxs-lookup"><span data-stu-id="1965c-104">Topics in this section provide step-by-step procedures for tasks that you can perform using the **IM and Presence** group in Lync Server 2013 Control Panel.</span></span>
+<span data-ttu-id="783b5-104">本節中的主題提供您可以使用 Lync Server 2013 [控制台] 中的 [ **IM 和目前狀態**] 群組執行的工作逐步程式。</span><span class="sxs-lookup"><span data-stu-id="783b5-104">Topics in this section provide step-by-step procedures for tasks that you can perform using the **IM and Presence** group in Lync Server 2013 Control Panel.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="1965c-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="1965c-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="783b5-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="783b5-105">In This Section</span></span>
 
-  - [<span data-ttu-id="1965c-106">在 Lync Server 2013 中設定立即訊息（IM）的檔案傳輸與 URL 篩選</span><span class="sxs-lookup"><span data-stu-id="1965c-106">Configuring file transfer and URL filtering for instant messaging (IM) in Lync Server 2013</span></span>](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md)
+  - [<span data-ttu-id="783b5-106">在 Lync Server 2013 中設定立即訊息（IM）的檔案傳輸與 URL 篩選</span><span class="sxs-lookup"><span data-stu-id="783b5-106">Configuring file transfer and URL filtering for instant messaging (IM) in Lync Server 2013</span></span>](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md)
 
-  - [<span data-ttu-id="1965c-107">在 Lync Server 2013 中指派每個使用者的目前狀態原則</span><span class="sxs-lookup"><span data-stu-id="1965c-107">Assigning per-user presence policies in Lync Server 2013</span></span>](lync-server-2013-assigning-per-user-presence-policies.md)
+  - [<span data-ttu-id="783b5-107">在 Lync Server 2013 中指派每個使用者的目前狀態原則</span><span class="sxs-lookup"><span data-stu-id="783b5-107">Assigning per-user presence policies in Lync Server 2013</span></span>](lync-server-2013-assigning-per-user-presence-policies.md)
 
 </div>
 

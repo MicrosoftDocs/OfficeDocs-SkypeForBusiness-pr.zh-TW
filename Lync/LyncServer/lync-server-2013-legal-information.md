@@ -3,6 +3,8 @@ title: Lync Server 2013 法律資訊
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Legal information
 ms:assetid: 035d9ad5-7526-44f7-a543-5f65cc66ec6f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398086(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183258
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 85c941a180e8bc2ded07961cefef9db64a0d0794
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f9486431d320a5ba081afd85daa3b5e295028a12
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40978327"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757997"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "40978327"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="legal-information-for-lync-server-2013"></a><span data-ttu-id="3f8ef-102">Lync Server 2013 的法律資訊</span><span class="sxs-lookup"><span data-stu-id="3f8ef-102">Legal information for Lync Server 2013</span></span>
+# <a name="legal-information-for-lync-server-2013"></a><span data-ttu-id="3891f-102">Lync Server 2013 的法律資訊</span><span class="sxs-lookup"><span data-stu-id="3891f-102">Legal information for Lync Server 2013</span></span>
 
 </div>
 
@@ -33,15 +35,15 @@ ms.locfileid: "40978327"
 
 <span> </span>
 
-<span data-ttu-id="3f8ef-103">_**主題上次修改日期：** 2011-02-22_</span><span class="sxs-lookup"><span data-stu-id="3f8ef-103">_**Topic Last Modified:** 2011-02-22_</span></span>
+<span data-ttu-id="3891f-103">_**主題上次修改日期：** 2011-02-22_</span><span class="sxs-lookup"><span data-stu-id="3891f-103">_**Topic Last Modified:** 2011-02-22_</span></span>
 
-<span data-ttu-id="3f8ef-104">本檔是以「原樣」提供。</span><span class="sxs-lookup"><span data-stu-id="3f8ef-104">This document is provided “as-is”.</span></span> <span data-ttu-id="3f8ef-105">本檔中所述的資訊和視圖，包括 URL 及其他網際網路網站參照，可能會隨之變更，恕不另行通知。</span><span class="sxs-lookup"><span data-stu-id="3f8ef-105">Information and views expressed in this document, including URL and other Internet Web site references, may change without notice.</span></span>
+<span data-ttu-id="3891f-104">本檔是以「原樣」提供。</span><span class="sxs-lookup"><span data-stu-id="3891f-104">This document is provided “as-is”.</span></span> <span data-ttu-id="3891f-105">本檔中所述的資訊和視圖，包括 URL 及其他網際網路網站參照，可能會隨之變更，恕不另行通知。</span><span class="sxs-lookup"><span data-stu-id="3891f-105">Information and views expressed in this document, including URL and other Internet Web site references, may change without notice.</span></span>
 
-<span data-ttu-id="3f8ef-106">本文中描述的一些範例只提供給說明，且是虛構的。</span><span class="sxs-lookup"><span data-stu-id="3f8ef-106">Some examples depicted herein are provided for illustration only and are fictitious.</span></span> <span data-ttu-id="3f8ef-107">沒有任何實際的關聯或連線是有意或無意的。</span><span class="sxs-lookup"><span data-stu-id="3f8ef-107">No real association or connection is intended or should be inferred.</span></span>
+<span data-ttu-id="3891f-106">本文中描述的一些範例只提供給說明，且是虛構的。</span><span class="sxs-lookup"><span data-stu-id="3891f-106">Some examples depicted herein are provided for illustration only and are fictitious.</span></span> <span data-ttu-id="3891f-107">沒有任何實際的關聯或連線是有意或無意的。</span><span class="sxs-lookup"><span data-stu-id="3891f-107">No real association or connection is intended or should be inferred.</span></span>
 
-<span data-ttu-id="3f8ef-108">本檔不會提供任何 Microsoft 產品中任何智慧財產權的法律權利。</span><span class="sxs-lookup"><span data-stu-id="3f8ef-108">This document does not provide you with any legal rights to any intellectual property in any Microsoft product.</span></span> <span data-ttu-id="3f8ef-109">您可以複製並使用這份檔，以供您的內部參考用途使用。</span><span class="sxs-lookup"><span data-stu-id="3f8ef-109">You may copy and use this document for your internal, reference purposes.</span></span>
+<span data-ttu-id="3891f-108">本檔不會提供任何 Microsoft 產品中任何智慧財產權的法律權利。</span><span class="sxs-lookup"><span data-stu-id="3891f-108">This document does not provide you with any legal rights to any intellectual property in any Microsoft product.</span></span> <span data-ttu-id="3891f-109">您可以複製並使用這份檔，以供您的內部參考用途使用。</span><span class="sxs-lookup"><span data-stu-id="3891f-109">You may copy and use this document for your internal, reference purposes.</span></span>
 
-<span data-ttu-id="3f8ef-110">版權所有© 2013 Microsoft Corporation。</span><span class="sxs-lookup"><span data-stu-id="3f8ef-110">Copyright © 2013 Microsoft Corporation.</span></span> <span data-ttu-id="3f8ef-111">保留擁有權利。</span><span class="sxs-lookup"><span data-stu-id="3f8ef-111">All rights reserved.</span></span>
+<span data-ttu-id="3891f-110">版權所有© 2013 Microsoft Corporation。</span><span class="sxs-lookup"><span data-stu-id="3891f-110">Copyright © 2013 Microsoft Corporation.</span></span> <span data-ttu-id="3891f-111">保留擁有權利。</span><span class="sxs-lookup"><span data-stu-id="3891f-111">All rights reserved.</span></span>
 
 </div>
 

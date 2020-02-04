@@ -3,6 +3,8 @@ title: Lync Server 2013：監視後端 Lync 伺服器儲存效能
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Monitoring back end Lync Server 2013 storage performance
 ms:assetid: 71627c70-1953-4ac2-afbe-f3ad85be0f44
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720917(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969619
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b4c63956cebc7f532f92b6e0729bdfe811d0fdfb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7c4d3741564cd0228213400d7ee1fbb7271c4ddd
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40975082"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756857"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "40975082"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="monitoring-back-end-lync-server-2013-storage-performance"></a><span data-ttu-id="f4099-102">監視後端 Lync Server 2013 儲存效能</span><span class="sxs-lookup"><span data-stu-id="f4099-102">Monitoring back end Lync Server 2013 storage performance</span></span>
+# <a name="monitoring-back-end-lync-server-2013-storage-performance"></a><span data-ttu-id="97df4-102">監視後端 Lync Server 2013 儲存效能</span><span class="sxs-lookup"><span data-stu-id="97df4-102">Monitoring back end Lync Server 2013 storage performance</span></span>
 
 </div>
 
@@ -33,13 +35,13 @@ ms.locfileid: "40975082"
 
 <span> </span>
 
-<span data-ttu-id="f4099-103">_**主題上次修改日期：** 2014-05-02_</span><span class="sxs-lookup"><span data-stu-id="f4099-103">_**Topic Last Modified:** 2014-05-02_</span></span>
+<span data-ttu-id="97df4-103">_**主題上次修改日期：** 2014-05-02_</span><span class="sxs-lookup"><span data-stu-id="97df4-103">_**Topic Last Modified:** 2014-05-02_</span></span>
 
-<span data-ttu-id="f4099-104">Lync Server 2013 後端資料庫是 Lync Server 2013 部署中非常重要的部分。</span><span class="sxs-lookup"><span data-stu-id="f4099-104">The Lync Server 2013 back-end databases are a very important part of the Lync Server 2013 deployment.</span></span> <span data-ttu-id="f4099-105">我們建議您持續監視資料庫及各個事務記錄，以協助確定 Lync Server 2013 後端執行效果最佳。</span><span class="sxs-lookup"><span data-stu-id="f4099-105">We recommend constantly monitoring the databases and respective transaction logs to help to make sure that the Lync Server 2013 back end is performing optimally.</span></span>
+<span data-ttu-id="97df4-104">Lync Server 2013 後端資料庫是 Lync Server 2013 部署中非常重要的部分。</span><span class="sxs-lookup"><span data-stu-id="97df4-104">The Lync Server 2013 back-end databases are a very important part of the Lync Server 2013 deployment.</span></span> <span data-ttu-id="97df4-105">我們建議您持續監視資料庫及各個事務記錄，以協助確定 Lync Server 2013 後端執行效果最佳。</span><span class="sxs-lookup"><span data-stu-id="97df4-105">We recommend constantly monitoring the databases and respective transaction logs to help to make sure that the Lync Server 2013 back end is performing optimally.</span></span>
 
-<span data-ttu-id="f4099-106">下表列出應監視的效能計數器，以瞭解儲存效能的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="f4099-106">The following table identifies performance counters that should be monitored to learn information about Storage Performance.</span></span> <span data-ttu-id="f4099-107">必須先決定這些計數器的比較基準值（系統是其正常負載預期載入），以瞭解系統負載壓力時的效能變更。</span><span class="sxs-lookup"><span data-stu-id="f4099-107">The baseline values for these counters must be determined first (when system is at its normal, expected load) to understand the performance changes when system is stressed.</span></span>
+<span data-ttu-id="97df4-106">下表列出應監視的效能計數器，以瞭解儲存效能的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="97df4-106">The following table identifies performance counters that should be monitored to learn information about Storage Performance.</span></span> <span data-ttu-id="97df4-107">必須先決定這些計數器的比較基準值（系統是其正常負載預期載入），以瞭解系統負載壓力時的效能變更。</span><span class="sxs-lookup"><span data-stu-id="97df4-107">The baseline values for these counters must be determined first (when system is at its normal, expected load) to understand the performance changes when system is stressed.</span></span>
 
-### <a name="performance-counters-to-be-monitored"></a><span data-ttu-id="f4099-108">要監視的效能計數器</span><span class="sxs-lookup"><span data-stu-id="f4099-108">Performance counters to be monitored</span></span>
+### <a name="performance-counters-to-be-monitored"></a><span data-ttu-id="97df4-108">要監視的效能計數器</span><span class="sxs-lookup"><span data-stu-id="97df4-108">Performance counters to be monitored</span></span>
 
 <table>
 <colgroup>
@@ -48,49 +50,49 @@ ms.locfileid: "40975082"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="f4099-109">效能計數器</span><span class="sxs-lookup"><span data-stu-id="f4099-109">Performance Counter</span></span></th>
-<th><span data-ttu-id="f4099-110">比較基準閾值</span><span class="sxs-lookup"><span data-stu-id="f4099-110">Baseline thresholds</span></span></th>
+<th><span data-ttu-id="97df4-109">效能計數器</span><span class="sxs-lookup"><span data-stu-id="97df4-109">Performance Counter</span></span></th>
+<th><span data-ttu-id="97df4-110">比較基準閾值</span><span class="sxs-lookup"><span data-stu-id="97df4-110">Baseline thresholds</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="f4099-111">事務/秒（RTC）</span><span class="sxs-lookup"><span data-stu-id="f4099-111">Transactions/sec (RTC)</span></span></p></td>
+<td><p><span data-ttu-id="97df4-111">事務/秒（RTC）</span><span class="sxs-lookup"><span data-stu-id="97df4-111">Transactions/sec (RTC)</span></span></p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f4099-112">事務/秒（rtcdyn）</span><span class="sxs-lookup"><span data-stu-id="f4099-112">Transactions/sec (rtcdyn)</span></span></p></td>
+<td><p><span data-ttu-id="97df4-112">事務/秒（rtcdyn）</span><span class="sxs-lookup"><span data-stu-id="97df4-112">Transactions/sec (rtcdyn)</span></span></p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f4099-113">事務/秒（tempdb）</span><span class="sxs-lookup"><span data-stu-id="f4099-113">Transactions/sec (tempdb)</span></span></p></td>
+<td><p><span data-ttu-id="97df4-113">事務/秒（tempdb）</span><span class="sxs-lookup"><span data-stu-id="97df4-113">Transactions/sec (tempdb)</span></span></p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f4099-114">記錄刷新/秒（RTC）</span><span class="sxs-lookup"><span data-stu-id="f4099-114">Log Flushes/sec (RTC)</span></span></p></td>
+<td><p><span data-ttu-id="97df4-114">記錄刷新/秒（RTC）</span><span class="sxs-lookup"><span data-stu-id="97df4-114">Log Flushes/sec (RTC)</span></span></p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f4099-115">記錄刷新/秒（rtcdyn）</span><span class="sxs-lookup"><span data-stu-id="f4099-115">Log Flushes/sec (rtcdyn)</span></span></p></td>
+<td><p><span data-ttu-id="97df4-115">記錄刷新/秒（rtcdyn）</span><span class="sxs-lookup"><span data-stu-id="97df4-115">Log Flushes/sec (rtcdyn)</span></span></p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f4099-116">記錄刷新/秒（tempdb）</span><span class="sxs-lookup"><span data-stu-id="f4099-116">Log Flushes/sec (tempdb)</span></span></p></td>
+<td><p><span data-ttu-id="97df4-116">記錄刷新/秒（tempdb）</span><span class="sxs-lookup"><span data-stu-id="97df4-116">Log Flushes/sec (tempdb)</span></span></p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f4099-117">磁片傳輸/秒（讀取 + 寫入）-RTC 資料庫</span><span class="sxs-lookup"><span data-stu-id="f4099-117">Disk Transfers/sec (read+write) - RTC db</span></span></p></td>
+<td><p><span data-ttu-id="97df4-117">磁片傳輸/秒（讀取 + 寫入）-RTC 資料庫</span><span class="sxs-lookup"><span data-stu-id="97df4-117">Disk Transfers/sec (read+write) - RTC db</span></span></p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f4099-118">磁片傳輸/秒-RTC 記錄</span><span class="sxs-lookup"><span data-stu-id="f4099-118">Disk Transfers/sec - RTC log</span></span></p></td>
+<td><p><span data-ttu-id="97df4-118">磁片傳輸/秒-RTC 記錄</span><span class="sxs-lookup"><span data-stu-id="97df4-118">Disk Transfers/sec - RTC log</span></span></p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f4099-119">磁片傳輸/sec-rtcdyn db</span><span class="sxs-lookup"><span data-stu-id="f4099-119">Disk Transfers/sec - rtcdyn db</span></span></p></td>
+<td><p><span data-ttu-id="97df4-119">磁片傳輸/sec-rtcdyn db</span><span class="sxs-lookup"><span data-stu-id="97df4-119">Disk Transfers/sec - rtcdyn db</span></span></p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f4099-120">磁片傳輸/秒-rtcdyn 記錄</span><span class="sxs-lookup"><span data-stu-id="f4099-120">Disk Transfers/sec - rtcdyn log</span></span></p></td>
+<td><p><span data-ttu-id="97df4-120">磁片傳輸/秒-rtcdyn 記錄</span><span class="sxs-lookup"><span data-stu-id="97df4-120">Disk Transfers/sec - rtcdyn log</span></span></p></td>
 <td></td>
 </tr>
 </tbody>
