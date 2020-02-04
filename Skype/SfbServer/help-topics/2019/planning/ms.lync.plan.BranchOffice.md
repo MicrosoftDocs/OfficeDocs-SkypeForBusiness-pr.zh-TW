@@ -1,28 +1,28 @@
 ---
-title: 分支網站 (規劃工具)
+title: 分支網站（規劃工具）
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.plan.BranchOffice
 - ms.lync.plan.BranchOffice
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b9d0779-436f-4965-8110-a41ff4d0302d
 ROBOTS: NOINDEX, NOFOLLOW
-description: 如需分支網站復原的詳細資料, 請參閱規劃分支網站語音復原。
-ms.openlocfilehash: f15f3d1f813a327fce27492b34dc024b170b1b3e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 如需分支網站復原的詳細資料，請參閱規劃分支網站語音復原。
+ms.openlocfilehash: b671e962c5faceb14842aa94dda76925a917d614
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36191842"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41689998"
 ---
-# <a name="branch-sites-planning-tool"></a>分支網站 (規劃工具)
+# <a name="branch-sites-planning-tool"></a>分支網站（規劃工具）
 
-如需分支網站復原的詳細資料, 請參閱[規劃分支網站語音復原](https://technet.microsoft.com/library/67713f57-3ded-4127-ac37-57d8099bf384.aspx)。
+如需分支網站復原的詳細資料，請參閱[規劃分支網站語音復原](https://technet.microsoft.com/library/67713f57-3ded-4127-ac37-57d8099bf384.aspx)。
 
 

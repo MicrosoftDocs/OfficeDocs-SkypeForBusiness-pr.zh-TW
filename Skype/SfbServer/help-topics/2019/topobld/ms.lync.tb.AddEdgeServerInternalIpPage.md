@@ -1,26 +1,26 @@
 ---
-title: 新增 Edge 伺服器內部 IP
+title: 新增 Edge Server 內部 IP
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddEdgeServerInternalIpPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 13485e9d-190e-4ece-b997-1cbf45aae77c
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[內部 IP 位址] 是 Edge 伺服器內部介面的 IP 位址。'
-ms.openlocfilehash: be2f0dcaa4c05387fd84348c5e8e10a6708e14fa
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c78377b83a2ff931bd701a62374a05271c524e3e
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36193570"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41689432"
 ---
-# <a name="add-edge-server-internal-ip"></a>新增 Edge 伺服器內部 IP
+# <a name="add-edge-server-internal-ip"></a>新增 Edge Server 內部 IP
 
 [內部 IP 位址] 是 Edge 伺服器內部介面的 IP 位址。
 
