@@ -14,13 +14,13 @@ ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: landing-page
 ms.author: tonysmit
-f1keywords: ms.teamsadmincenter.dashboard.helparticle.sfboadmindocumentation
-ms.openlocfilehash: d2d2d647d200d6b043dbf131102fba402af6bf1f
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+f1.keywords: ms.teamsadmincenter.dashboard.helparticle.sfboadmindocumentation
+ms.openlocfilehash: e99816442b6cde308765c1b5fef9bc8a1599434f
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "37642915"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41705918"
 ---
 # <a name="skype-for-business-online-admin"></a>商務用 Skype Online 系統管理員
 
@@ -136,7 +136,7 @@ ms.locfileid: "37642915"
                     <div class="cardText">
                         <h3>稿件</h3>
                         <p><a 
-                        href="/microsoftteams/setting-up-your-phone-system">在組織中設定電話系統</a></p>
+                        href="/microsoftteams/setting-up-your-phone-system">設定組織的電話系統</a></p>
                         <p><a href="/SkypeForBusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers">與音訊會議進行協力廠商整合</a></p>
                     </div>
                 </div>
@@ -190,7 +190,7 @@ ms.locfileid: "37642915"
                 <div class="card">
                     <div class="cardText">
                         <h3>音訊會議</h3>
-                        <p><a href="/MicrosoftTeams/audio-conferencing-common-questions">Office 365 中的音訊會議</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization">管理組織的音訊會議設定</a></p><p><a href="/MicrosoftTeams/audio-conferencing-common-questions">音訊會議常見問題</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/compare-audio-conferencing-providers">比較音訊會議提供者</a></p><p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans">查看您的國家/地區是否有可用的音訊會議</a></p>
+                        <p><a href="/MicrosoftTeams/audio-conferencing-common-questions">Office 365 的音訊會議</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization">管理組織的音訊會議設定</a></p><p><a href="/MicrosoftTeams/audio-conferencing-common-questions">音訊會議的常見問題</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/compare-audio-conferencing-providers">比較音訊會議提供者</a></p><p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans">查看您的國家/地區是否有可用的音訊會議</a></p>
                     </div>
                 </div>
             </div>
@@ -202,7 +202,7 @@ ms.locfileid: "37642915"
                 <div class="card">
                     <div class="cardText">
                         <h3>設定</h3>
-                        <p><a href="/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online">設定商務用 Skype Online</a></p><p><a href="/SkypeForBusiness/set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users">允許使用者與外部商務用 Skype 使用者聯繫</a></p><p><a href="/SkypeForBusiness/set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts">讓商務用 Skype 使用者新增 Skype 連絡人</a></p>
+                        <p><a href="/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online">設定商務用 Skype Online</a></p><p><a href="/SkypeForBusiness/set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users">允許使用者連絡外部商務用 Skype 使用者</a></p><p><a href="/SkypeForBusiness/set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts">讓商務用 Skype 使用者新增 Skype 連絡人</a></p>
                      </div>
                 </div>
             </div>
