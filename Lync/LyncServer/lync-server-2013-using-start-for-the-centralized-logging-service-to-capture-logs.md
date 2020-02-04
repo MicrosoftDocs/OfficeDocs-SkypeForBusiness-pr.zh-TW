@@ -3,6 +3,8 @@ title: 使用「開始」進行集中式記錄服務來捕獲記錄
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Using Start for the Centralized Logging Service to capture logs
 ms:assetid: 0512b9ce-7f5b-48eb-a79e-f3498bacf2de
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687958(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733543
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5033b4a8dfd8121e2f0b5926623a55358188935e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 75090036b7120c8af7cda132c26d5b4fb02d3dab
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40978379"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743993"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -87,7 +89,7 @@ _**主題上次修改日期：** 2013-02-21_
     
     </div>
     
-    ![正在執行開始-CsClsLogging。](images/JJ687958.c5be7413-8cef-4de7-9712-944d20cc2fa4(OCS.15).jpg "正在執行開始-CsClsLogging。")
+    ![執行 Start-CsClsLogging。](images/JJ687958.c5be7413-8cef-4de7-9712-944d20cc2fa4(OCS.15).jpg "執行 Start-CsClsLogging。")
 
 4.  若要開始其他案例，請使用**CsClsLogging** Cmdlet 及其他案例的名稱來執行，如下所示（例如，案例**驗證**）：
     
@@ -118,7 +120,7 @@ _**主題上次修改日期：** 2013-02-21_
     
     這個案例的成功執行會傳回如下所示的結果：
     
-    ![正在執行開始-CsClsLogging。](images/JJ687958.399f0c2e-c08c-40ab-b6c6-381dddc12fe9(OCS.15).jpg "正在執行開始-CsClsLogging。")
+    ![執行 Start-CsClsLogging。](images/JJ687958.399f0c2e-c08c-40ab-b6c6-381dddc12fe9(OCS.15).jpg "執行 Start-CsClsLogging。")
     
     請注意，在這個範例中，AlwaysOn 案例正在執行，且 UserReplicator 案例正在執行。
 

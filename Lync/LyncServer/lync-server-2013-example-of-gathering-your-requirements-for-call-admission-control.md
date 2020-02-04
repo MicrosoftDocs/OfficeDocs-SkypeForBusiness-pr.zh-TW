@@ -3,6 +3,8 @@ title: 收集通話許可控制需求的範例
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Example of gathering your requirements for call admission control
 ms:assetid: 3363ac53-b7c4-4a59-aea1-b2f3ee016ae1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425827(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183820
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e17d9abb0387f0d77c696487558dec0c915b1651
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 345f5d7e41dd9da3e6d68c59ce9656d3052c57b5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40974067"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756267"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -67,7 +69,7 @@ _**主題上次修改日期：** 2012-09-21_
     
     **將商業網路分成三個網路區域的範例**
     
-    含3個網路區域的3個網路區域(images/Gg425827.08937347-250f-488f-ba5f-c256e6afcd8b(OCS.15).jpg "網路拓撲範例")的![網路拓撲範例]  
+    ![三個網路地區的網路拓撲範例](images/Gg425827.08937347-250f-488f-ba5f-c256e6afcd8b(OCS.15).jpg "三個網路地區的網路拓撲範例")  
     
     <div>
     
@@ -193,7 +195,7 @@ _**主題上次修改日期：** 2012-09-21_
     
     **由 WAN 頻寬（底特律、Reno 和 Albuquerque 所限制的三個網路網站，即北美擁有3個不受頻寬限制的網路區域（芝加哥、紐約和）和三個網路網站**
     
-    受![wan 頻寬限制的網路網站範例]範例(images/Gg425827.d9d1f231-db4d-4dd7-8fbc-eb0b6d1e705d(OCS.15).jpg "網路網站受 wan 頻寬的限制")  
+    ![受 WAN 頻寬限制的網路站台範例](images/Gg425827.d9d1f231-db4d-4dd7-8fbc-eb0b6d1e705d(OCS.15).jpg "受 WAN 頻寬限制的網路站台範例")  
 
 5.  針對每個頻寬受限制的 WAN 連結，請判斷下列事項：
     
@@ -414,7 +416,7 @@ _**主題上次修改日期：** 2012-09-21_
     
     **具有相關頻寬限制的網路區域連結**
     
-    3地區限制(images/Gg425827.25259afa-ee7c-4d26-bc41-92ba9cb56dec(OCS.15).jpg "的") ![3 個區域之間的限制]範例  
+    ![三個地區之間的限制範例](images/Gg425827.25259afa-ee7c-4d26-bc41-92ba9cb56dec(OCS.15).jpg "三個地區之間的限制範例")  
     
     ### <a name="region-link-bandwidth-information-bandwidth-in-kbps"></a>地區連結頻寬資訊（頻寬以 kbps 為單位）
     
@@ -529,7 +531,7 @@ _**主題上次修改日期：** 2012-09-21_
     
     **[CAC 網路區域北美] 顯示在 Reno 和 Albuquerque 之間的網站間連結的頻寬容量和頻寬限制**
     
-    受![wan 頻寬限制的網路網站範例]受(images/Gg425827.063e5e1d-b6c8-4e8c-98db-c227c78f671d(OCS.15).jpg "wan 頻寬限制的網路網站")範例  
+    ![受 WAN 頻寬限制的網路站台範例](images/Gg425827.063e5e1d-b6c8-4e8c-98db-c227c78f671d(OCS.15).jpg "受 WAN 頻寬限制的網路站台範例")  
     
     ### <a name="bandwidth-information-for-an-inter-site-link-between-two-network-sites-bandwidth-in-kbps"></a>兩個網路網站之間的站間連結頻寬資訊（頻寬以 kbps 為單位）
     

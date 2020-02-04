@@ -3,6 +3,8 @@ title: Lync Server 2013：在拓撲建立器中定義閘道
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Define a gateway in Topology Builder
 ms:assetid: 456e5a96-d9f6-42a6-862c-a69464391628
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425945(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184036
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0c9e57ad4e3d8c1692731bcfd4a56dc5c3d05bda
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 18f257648ba24930eaab0d314e34178ffd67a0c2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40977757"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733653"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

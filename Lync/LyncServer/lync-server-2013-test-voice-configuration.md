@@ -3,6 +3,8 @@ title: Lync Server 2013：測試語音設定
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Test voice configuration
 ms:assetid: 574794a3-cb30-4762-bb62-3a68574f05e9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn725208(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969605
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fbe9be7e0f7962bbab546822e7ce6cd47e063540
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9532327640be12351143632813d403edddf5c437
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40974983"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746043"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -62,7 +64,7 @@ _**主題上次修改日期：** 2014-05-20_
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>說明
 
 Lync Server 包含數個 Windows PowerShell Cmdlet （例如 Test CsVoiceRoute 和 Test CsVoicePolicy、Test New-cstrunkconfiguration），可讓您驗證企業語音結構的個別元件-語音路線、語音原則，SIP trunks –如期運作。
 

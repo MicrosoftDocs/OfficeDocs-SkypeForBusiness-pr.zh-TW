@@ -3,6 +3,8 @@ title: 驗證 Lync Server 2010 環境
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Verify Lync Server 2010 environment
 ms:assetid: bfc7c620-556a-43cd-b1ed-2c268ec2b5cc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205231(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185301
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 248d779bc43b7c3e220728222aca030036f17e00
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2a871955f53515491ed09ece5e5da21ef7a9fef8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40976326"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730913"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -51,7 +53,7 @@ _**主題上次修改日期：** 2012-10-19_
 
 2.  確認下列服務正在前端伺服器上執行：
     
-    ![在]前端伺服器上執行的服務清單（在(images/JJ205231.639f2729-b759-4d8e-b4ad-59d7f68adcd2(OCS.15).jpg "前端伺服器")上執行的服務）
+    ![在前端伺服器上執行的服務清單](images/JJ205231.639f2729-b759-4d8e-b4ad-59d7f68adcd2(OCS.15).jpg "在前端伺服器上執行的服務清單")
 
 **在 Lync Server [控制台] 中查看 Lync Server 2010 拓撲**
 
@@ -61,7 +63,7 @@ _**主題上次修改日期：** 2012-10-19_
 
 3.  選取 [**拓撲**]。 確認您的 Lync Server 2010 部署中的各個伺服器都已列出。
     
-    ![Lync server 2010 [控制台拓撲] 頁面][(images/JJ205231.338ce4fb-2162-4176-a249-ec4ae021fa6a(OCS.15).jpg "lync Server 2010] 控制台的 [拓撲圖] 頁面")
+    ![[Lync Server 2010 控制台拓撲] 頁面](images/JJ205231.338ce4fb-2162-4176-a249-ec4ae021fa6a(OCS.15).jpg "[Lync Server 2010 控制台拓撲] 頁面")
 
 **在 Lync Server [控制台] 中查看 Lync Server 2010 使用者**
 
@@ -71,7 +73,7 @@ _**主題上次修改日期：** 2012-10-19_
 
 3.  確認 [**註冊機構池**] 欄針對列出的每位使用者，指向 [Lync Server 2010] 池。
     
-    ![Lync server 2010 [控制台]] 會列出使用者的(images/JJ205231.a9378c40-7a52-4c78-ad83-1463847c9edb(OCS.15).jpg "lync Server 2010 [控制台")]
+    ![列出使用者的 Lync Server 2010 控制台](images/JJ205231.a9378c40-7a52-4c78-ad83-1463847c9edb(OCS.15).jpg "列出使用者的 Lync Server 2010 控制台")
 
 **驗證 Lync Server 2010 Edge 與同盟設定**
 
@@ -85,15 +87,15 @@ _**主題上次修改日期：** 2012-10-19_
 
 5.  選取 [網站] 節點，然後驗證是否已設定 [**網站同盟路由指派**] 值。
     
-    ![拓撲建立器、網站同盟路由](images/JJ205231.87de3735-af7e-4280-8d72-c42cb0ea1c05(OCS.15).jpg "拓撲建立器、網站同盟路由")
+    ![拓撲產生器，網站同盟路由](images/JJ205231.87de3735-af7e-4280-8d72-c42cb0ea1c05(OCS.15).jpg "拓撲產生器，網站同盟路由")
 
 6.  接著，選取 [標準版伺服器] 或 [企業版頂層端] 池。 判斷是否已針對低於 [資源**關聯**性] 的媒體設定 Edge 池。
     
-    ![顯示]伺服器和池拓撲建立器的拓撲產生器，(images/JJ205231.5ad5ea3b-b122-44dd-8968-f1147d6d45f1(OCS.15).jpg "顯示伺服器和池")
+    ![顯示伺服器與集區的拓撲產生器](images/JJ205231.5ad5ea3b-b122-44dd-8968-f1147d6d45f1(OCS.15).jpg "顯示伺服器與集區的拓撲產生器")
 
 7.  最後，選取 [邊緣] 池，並識別下一個躍點池是否已設定在**下一個躍點選取範圍**下。
     
-    ![拓撲建立器，下一個躍點選取](images/JJ205231.3121e723-fba7-498e-a786-bde7be1a55e2(OCS.15).jpg "拓撲建立器，下一個躍點選取")
+    ![拓撲產生器，下一個躍點選取範圍](images/JJ205231.3121e723-fba7-498e-a786-bde7be1a55e2(OCS.15).jpg "拓撲產生器，下一個躍點選取範圍")
 
 **驗證舊版 XMPP 聯盟合作夥伴設定**
 
@@ -101,7 +103,7 @@ _**主題上次修改日期：** 2012-10-19_
 
 2.  確認已啟動 Office 通訊伺服器 XMPP 閘道服務。
     
-    ![Office 通訊伺服器 XMPP 閘道服務](images/JJ721906.23223724-3c4b-4cb9-ace2-1cab2c3c91c3(OCS.15).jpg "OFFICE 通訊伺服器 XMPP 閘道服務")
+    ![Office Communications Server XMPP 閘道服務](images/JJ721906.23223724-3c4b-4cb9-ace2-1cab2c3c91c3(OCS.15).jpg "Office Communications Server XMPP 閘道服務")
 
 </div>
 

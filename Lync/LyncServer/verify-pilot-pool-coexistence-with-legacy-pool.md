@@ -3,6 +3,8 @@ title: 驗證試驗集區與舊版集區共存
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Verify pilot pool coexistence with legacy pool
 ms:assetid: fe7e14bb-c7eb-4719-b154-009e99360520
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205420(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185964
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7de258bff926e2e100fa7c9a4952a4d70ca64373
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: fe3b3e04940c90cba4e46fc165c2494f77105667
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40980343"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730893"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -47,7 +49,7 @@ _**主題上次修改日期：** 2012-09-29_
 
 **Lync Server 2013 服務**
 
-![Lync Server services]已開始(images/JJ205420.cfff9385-6bf6-461c-982c-e727c9f20b70(OCS.15).png "的 lync") server services 清單
+![已啟動的 Lync Server 服務清單](images/JJ205420.cfff9385-6bf6-461c-982c-e727c9f20b70(OCS.15).png "已啟動的 Lync Server 服務清單")
 
 </div>
 
@@ -59,7 +61,7 @@ _**主題上次修改日期：** 2012-09-29_
 
 **開啟 Lync Server 2013 [控制台]**
 
-[![選取 url] 對話方塊]中的 [(images/JJ205420.b1f8e650-9c3c-4563-a403-5069f198342f(OCS.15).png "選取 url]")對話方塊
+![[選取 URL] 對話方塊](images/JJ205420.b1f8e650-9c3c-4563-a403-5069f198342f(OCS.15).png "[選取 URL] 對話方塊")
 
 <div>
 
@@ -75,7 +77,7 @@ _**主題上次修改日期：** 2012-09-29_
 
 **Lync Server 2013 [控制台拓撲] 頁面**
 
-![Lync server [控制台]-[拓撲頁面]](images/JJ205420.4ed1cc7a-cb3e-42f6-82e2-6d4d71d19352(OCS.15).jpg "Lync Server [控制台]-[拓撲] 頁面")
+![[Lync Server 控制台 - 拓撲] 頁面](images/JJ205420.4ed1cc7a-cb3e-42f6-82e2-6d4d71d19352(OCS.15).jpg "[Lync Server 控制台 - 拓撲] 頁面")
 
 </div>
 
@@ -87,7 +89,7 @@ _**主題上次修改日期：** 2012-09-29_
 
 **Lync Server 2010 拓撲建立器錯誤訊息**
 
-![Lync Server 拓撲建立器 Mmc 貼齊錯誤](images/JJ205420.f6666343-c348-4d81-ae0e-6ba5a44e16c4(OCS.15).png "Lync SERVER 拓撲產生器 Mmc 貼齊錯誤")
+![Lync Server 拓撲產生器 MMC 貼齊錯誤](images/JJ205420.f6666343-c348-4d81-ae0e-6ba5a44e16c4(OCS.15).png "Lync Server 拓撲產生器 MMC 貼齊錯誤")
 
 </div>
 

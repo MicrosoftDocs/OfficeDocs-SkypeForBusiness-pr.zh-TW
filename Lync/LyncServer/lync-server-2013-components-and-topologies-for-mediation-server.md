@@ -3,6 +3,8 @@ title: Lync Server 2013：中繼伺服器的元件和拓撲
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Components and topologies for Mediation Server
 ms:assetid: 71397168-36c3-4d21-b8ef-db6a751634ee
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398537(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184487
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1f9c353dc65f5e943e082df9321a934ea8f14be1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 62516645266f67b7be61154b45afd00107ec3814
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40978462"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742613"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -75,13 +77,13 @@ Lync Server 2013 的中繼伺服器是預設的 collocated，其中包含標準�
 
 **在 site 1 與網站2上的中繼伺服器連線之 WAN 連結的網站範例**
 
-使用仲介(images/Gg398537.67872e61-1444-447b-918c-abe89abc3004(OCS.15).jpg "伺服器 Wan 閘道")的 [![中繼伺服器 wan 閘道]] 語音拓撲的語音拓撲
+![中繼伺服器 WAN 閘道的語音拓撲](images/Gg398537.67872e61-1444-447b-918c-abe89abc3004(OCS.15).jpg "中繼伺服器 WAN 閘道的語音拓撲")
 
 下圖顯示的是一種簡單的拓撲，其中的中繼伺服器是與位於 Site 1 之前端池的註冊機構 collocated，並與 Site 1 的 IP PBX 具有直接 SIP 連線。 在此圖中，中繼伺服器也會控制網站2的 PSTN 閘道。 假設 Lync 使用者同時存在於網站1和2。 另外，假設 IP PBX 有一個相關聯的媒體處理器，必須由所有源自 Lync 端點的媒體來遍歷，然後才能傳送到由 IP PBX 控制的媒體端點。 在此拓朴中，會使用 [媒體旁路] 來全域啟用網站和區域資訊，而 PBX 和 PSTN 閘道的 trunks 已啟用媒體旁路。
 
 **在 site 1 和 PBX 伺服器上，由 WAN 連結與在 site 2 上的中繼伺服器連線的網站範例**
 
-![語音拓撲中繼伺服器 WAN pbx](images/Gg398537.df6c8a5b-8431-4187-907d-ff5ca26eeeec(OCS.15).jpg "語音拓撲中繼伺服器 wan pbx")
+![中繼伺服器 WAN PBX 的語音拓撲](images/Gg398537.df6c8a5b-8431-4187-907d-ff5ca26eeeec(OCS.15).jpg "中繼伺服器 WAN PBX 的語音拓撲")
 
 如需有關 PBX 拓朴規劃的詳細資訊，請參閱 lync server [2013 中的中繼伺服器部署指導方針](lync-server-2013-deployment-guidelines-for-mediation-server.md)和[lync server 2013 中的直接 SIP 部署選項](lync-server-2013-direct-sip-deployment-options.md)。
 
