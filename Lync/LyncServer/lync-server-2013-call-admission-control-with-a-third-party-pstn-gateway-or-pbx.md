@@ -3,6 +3,8 @@ title: 協力廠商 PSTN 閘道或 PBX 的通話許可控制
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Call admission control with a third-party PSTN gateway or PBX
 ms:assetid: 95dc4ceb-bcad-48ee-86ec-af911727f853
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398762(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184850
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c1996b56a50dbe616c8dc6e9b9b1c779c564b185
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 09aae207844fed12c840918a533fb181ca36634e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40982451"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743173"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,7 +47,7 @@ _**主題上次修改日期：** 2012-10-20_
 
 **Case 1：在中繼伺服器與 PSTN 閘道之間的 CAC**
 
-![Case 1：在中繼伺服器 Pstn 閘道之間出現 cac]的情況(images/Gg398762.4bebf9ee-2732-4ea6-bbe5-0269b2903d8c(OCS.15).jpg "1：在中繼伺服器 pstn 閘道之間出現 cac")
+![案例 1：中繼伺服器和 PSTN 閘道間的 CAC](images/Gg398762.4bebf9ee-2732-4ea6-bbe5-0269b2903d8c(OCS.15).jpg "案例 1：中繼伺服器和 PSTN 閘道間的 CAC")
 
 在這個範例中，在中繼伺服器和 PSTN 閘道之間會套用 CAC。 如果在網路網站1的 Lync 用戶端使用者要透過 Network Site 2 中的 PSTN 閘道撥 PSTN 通話，媒體會透過 WAN 連結來流動。 因此，每個 PSTN 會話都會執行兩個 CAC 檢查：
 
@@ -75,7 +77,7 @@ _**主題上次修改日期：** 2012-10-20_
 
 **Case 2：在中繼伺服器與含 MTP 的協力廠商 PBX 之間使用的 CAC**
 
-![Case 2：在具有 mtp 的中繼伺服器 pbx 之間使用的 cac](images/Gg398762.1c0b5263-c053-4cca-842f-85dd670760c8(OCS.15).jpg "： CAC （含 Mtp 的中繼伺服器 pbx") ）
+![案例 2：中繼伺服器和具有 MTP 之 PBX 間的 CAC](images/Gg398762.1c0b5263-c053-4cca-842f-85dd670760c8(OCS.15).jpg "案例 2：中繼伺服器和具有 MTP 之 PBX 間的 CAC")
 
 在這個範例中，在中繼伺服器與 PBX/MTP 之間會套用 CAC。 如果網路網站1的 Lync 用戶端使用者是透過網路 Site 2 中的 PBX/MTP 來撥打 PSTN 電話，則媒體會透過 WAN 連結來流動。 因此，對於每個 PSTN 會話，都會執行兩個 CAC 檢查：
 
@@ -105,7 +107,7 @@ Case 3 與前兩個案例稍有不同。 如果在協力廠商 PBX 上沒有 MTP
 
 **Case 3：在中繼伺服器與沒有 MTP 的協力廠商 PBX 之間使用 CAC**
 
-![案例3：在中繼伺服器 pbx 之間的 cac 沒有 mtp](images/Gg398762.f4bcf800-3a68-4037-bb3f-adb2fdf50d32(OCS.15).jpg "案例3：在中繼伺服器 PBX 之間沒有 mtp")
+![案例 3：中繼伺服器和不具有 MTP 之 PBX 間的 CAC](images/Gg398762.f4bcf800-3a68-4037-bb3f-adb2fdf50d32(OCS.15).jpg "案例 3：中繼伺服器和不具有 MTP 之 PBX 間的 CAC")
 
 在這個範例中，如果網路網站1的 Lync 用戶端使用者透過 PBX 撥打電話給使用者，則中繼伺服器只能在 proxy 腿（在 Lync 用戶端應用程式和中繼伺服器之間）執行 CAC 檢查。 因為在進行會話時，中繼伺服器沒有端點裝置的相關資訊，所以在通話建立之前，無法在 WAN 連結（在中繼伺服器與協力廠商端點之間）執行 CAC 檢查。 不過，在建立會話之後，中繼伺服器會針對主幹上使用的頻寬進行記帳。
 

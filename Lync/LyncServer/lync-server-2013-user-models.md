@@ -3,6 +3,8 @@ title: Lync Server 2013：使用者模型
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Lync Server 2013 user models
 ms:assetid: c551371c-d740-4372-bada-f0d713ec0d33
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398811(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733811
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8185fc2fdb92f907eb013349b8a202df2b7b62bb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f8f45b3ea11911ea7a3dce36b0b6a9d64ac1e690
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40977187"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744583"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,7 +55,7 @@ _**主題上次修改日期：** 2013-10-07_
 <thead>
 <tr class="header">
 <th>類別</th>
-<th>描述</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>
@@ -143,7 +145,7 @@ _**主題上次修改日期：** 2013-10-07_
 <thead>
 <tr class="header">
 <th>類別</th>
-<th>描述</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>
@@ -227,7 +229,7 @@ _**主題上次修改日期：** 2013-10-07_
 <thead>
 <tr class="header">
 <th>類別</th>
-<th>描述</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>
@@ -319,7 +321,7 @@ _**主題上次修改日期：** 2013-10-07_
 <thead>
 <tr class="header">
 <th>類別</th>
-<th>描述</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>
@@ -357,7 +359,7 @@ _**主題上次修改日期：** 2013-10-07_
 <thead>
 <tr class="header">
 <th>類別</th>
-<th>描述</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>
@@ -385,7 +387,7 @@ _**主題上次修改日期：** 2013-10-07_
 <thead>
 <tr class="header">
 <th>類別</th>
-<th>描述</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>
@@ -413,7 +415,7 @@ _**主題上次修改日期：** 2013-10-07_
 <thead>
 <tr class="header">
 <th>類別</th>
-<th>描述</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>

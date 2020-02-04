@@ -3,6 +3,8 @@ title: Lync Server 2013：測試使用者與 Exchange UM 語音信箱的連線
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing user connection to Exchange UM voicemail
 ms:assetid: 574da104-8823-4061-9fb6-353639f1884d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727305(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969604
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f09921d62eddb1f1b426e0e3b1fc4984a0987a8e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c533781fedc3bf3d6266bae80e5c59cacbec4874
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40975425"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745383"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -62,7 +64,7 @@ _**主題上次修改日期：** 2014-11-01_
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>說明
 
 **CsExUMVoiceMail** Cmdlet 可讓系統管理員確認使用者可以存取及使用 Microsoft Exchange Server 2013 整合通訊服務。 若要這樣做，此 Cmdlet 會連線到整合郵件服務，並在指定的信箱中留下語音信箱。 這可以是系統提供的語音信箱，也可以是自訂的。WAV 檔案，您已經錄製了自己的檔案。
 

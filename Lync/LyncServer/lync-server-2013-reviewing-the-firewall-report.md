@@ -3,6 +3,8 @@ title: Lync Server 2013：審查防火牆報告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Reviewing the Firewall Report
 ms:assetid: 5ccc60b5-751a-425b-ab60-6885d3114c94
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558654(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541481
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 995f35221e03086dc2777c1e02702fced17bbcdd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 56539fd8afcfe934aa6a3850ae6869cf08d64802
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40981691"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765081"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +41,7 @@ Lync Server 2013 有一組可能複雜的防火牆規則。 規劃工具會根�
 
 從防火牆管理的角度來看，應仔細檢查報告，以確保現有的防火牆規則沒有任何衝突，且沒有任何原則或程式可能違反。
 
-![防火牆系統管理員報告](images/Gg558654.575c1081-5849-45a2-b73c-ab96f55518c3(OCS.15).jpg "防火牆系統管理員報告")
+![防火牆管理員報告](images/Gg558654.575c1081-5849-45a2-b73c-ab96f55518c3(OCS.15).jpg "防火牆管理員報告")
 
 <div>
 

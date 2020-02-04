@@ -3,6 +3,8 @@ title: Lync Server 2013：測試撥號計畫
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing the dial plan
 ms:assetid: 70eec03c-aca3-4106-86a7-77ae96b53779
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn690130(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969616
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2815248084e7591c11157cde3fb4851722315073
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8e0e39b88d7b6c90a55d236038d03cc4cc717319
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40975117"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745453"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -62,7 +64,7 @@ _**主題上次修改日期：** 2014-06-05_
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>說明
 
 CsDialPlan Cmdlet 可讓您查看將撥號方案套用到指定電話號碼的結果。 撥號方案提供資訊（例如如何套用正常化規則），而必要的做法是讓企業語音使用者撥打電話。 考慮撥入號碼和撥號方案，這個 Cmdlet 會確認將套用撥號計畫中的哪個正常化規則，以及翻譯後的數位。
 

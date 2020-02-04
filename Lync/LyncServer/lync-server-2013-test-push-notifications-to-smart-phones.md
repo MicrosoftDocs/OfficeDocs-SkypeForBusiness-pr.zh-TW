@@ -3,6 +3,8 @@ title: Lync Server 2013：測試推播通知至智慧手機
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Test push notifications to smart phones
 ms:assetid: 8f5ca7d1-1ccb-4cb0-b417-730559e79b6e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn767948(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969626
 ms.date: 03/15/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 653becc1cc22abc8b3c04e0ab3d2a2d1260a98d9
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 94daa288757e2a0af446b455b951af9a990147b3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992078"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746213"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -62,7 +64,7 @@ _**主題上次修改日期：** 2017-03-15_
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>說明
 
 推播通知服務（Apple 推播通知服務和 Microsoft 推播通知服務）可以傳送事件通知（例如新的立即訊息或新的語音信箱）至行動裝置（例如 Iphone 和 Windows phone），即使 Lync 用戶端在這些裝置上，目前已暫停或在背景中執行。 推播通知服務是在 Microsoft 伺服器上執行的雲端服務。 若要利用推播通知，您必須能夠連線到並透過推播通知 clearinghouse 進行驗證。 CsMcxPushNotification Cmdlet 可讓系統管理員確認推播通知要求可以透過邊緣伺服器路由至推播通知 clearinghouse。
 

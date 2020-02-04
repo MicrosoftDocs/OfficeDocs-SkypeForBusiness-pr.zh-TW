@@ -3,6 +3,8 @@ title: 將多個使用者移至 [試驗] 池
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Move multiple users to the pilot pool
 ms:assetid: 9492797f-2a26-4773-8ad2-97cb53fa68fc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688143(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733745
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2ffc3e01df30f4a8e1b9c9b9aeca2b2013003980
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 70d031481746f9f7408cc7b5e36081bb977b189d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40975919"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743763"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,7 +55,7 @@ _**主題上次修改日期：** 2012-10-02_
 
 6.  選取兩個您要移至 Lync Server 2013 池的使用者。 在這個範例中，我們會將使用者唐到 [陽入] 和 [Claus Hansen]。
     
-    透過搜尋(images/JJ688143.76beb4fa-72e0-41ef-b96e-3553e96645c0(OCS.15).jpg "ocs 使用者所顯示")的 [![搜尋 ocs 使用者]] 使用者清單所顯示的使用者清單  
+    ![搜尋 OCS 使用者之後顯示的使用者清單](images/JJ688143.76beb4fa-72e0-41ef-b96e-3553e96645c0(OCS.15).jpg "搜尋 OCS 使用者之後顯示的使用者清單")  
 
 7.  從 [**動作**] 功能表中，選取 [**將選取的使用者移至資源庫**]。
 
@@ -61,7 +63,7 @@ _**主題上次修改日期：** 2012-10-02_
 
 9.  按一下 [**動作**]，然後按一下 [**將選取的使用者移至資源庫**]。 按一下 [確定]。
     
-    [![移動使用者]、[目的地註冊機構池] 對話方塊][(images/JJ205401.8a375003-dc00-4541-b578-4d88f2010601(OCS.15).png "移動使用者]、[目的地註冊員池] 對話方塊")  
+    ![移動使用者，[目的地登錄器集區] 對話方塊](images/JJ205401.8a375003-dc00-4541-b578-4d88f2010601(OCS.15).png "移動使用者，[目的地登錄器集區] 對話方塊")  
 
 10. 確認使用者的 [**註冊機構池**] 欄現在包含 Lync Server 2013 池，這表示使用者已順利移動。
 
@@ -77,7 +79,7 @@ _**主題上次修改日期：** 2012-10-02_
     
         Get-CsUser -Filter {DisplayName -eq "User1" -or DisplayName - eq "User2"} | Move-CsLegacyUser -Target "pool_FQDN"
     
-    ![移動舊版使用者](images/JJ688143.57cfc28e-3df5-459f-83ef-8b0edf182a25(OCS.15).jpg "範例 Cmdlet 以移動舊版使用者")的範例 Cmdlet  
+    ![可移動舊使用者的範例 Cmdlet](images/JJ688143.57cfc28e-3df5-459f-83ef-8b0edf182a25(OCS.15).jpg "可移動舊使用者的範例 Cmdlet")  
 
 3.  在命令列中，輸入下列內容：
     
@@ -85,7 +87,7 @@ _**主題上次修改日期：** 2012-10-02_
 
 4.  **註冊機構池**標識現在應該指向您在上一個步驟中指定為 [ ** \_池 FQDN** ] 的 [池]。 此身分識別的狀態會確認使用者已順利移動。 重複步驟**以驗證您**的操作2已移動。
     
-    Powershell 取得![UsUser 身分識別 Cmdlet](images/JJ205096.8ff04c67-37a0-4156-bfbc-28f9f7b137c8(OCS.15).jpg "輸出的 Powershell UsUser 身分識別 Cmdlet")  
+    ![PowerShell UsUser 身分識別 Cmdlet 的輸出](images/JJ205096.8ff04c67-37a0-4156-bfbc-28f9f7b137c8(OCS.15).jpg "PowerShell Get-UsUser -Identity Cmdlet 的輸出")  
 
 </div>
 
@@ -101,7 +103,7 @@ _**主題上次修改日期：** 2012-10-02_
     
         Get-CsUser -OnOfficeCommunicationServer | Move-CsLegacyUser -Target "pool_FQDN"
     
-    ![在 pool 範例 Cmdlet 中移動所有舊版使用者]以(images/JJ688143.e6a2d578-296e-476c-bd45-d757917ea853(OCS.15).jpg "移動池中所有舊版使用者")的範例 Cmdlet  
+    ![可移動集區中所有舊使用者的範例 Cmdlet](images/JJ688143.e6a2d578-296e-476c-bd45-d757917ea853(OCS.15).jpg "可移動集區中所有舊使用者的範例 Cmdlet")  
 
 3.  接下來，針對其中一個試驗使用者執行**move-csuser** 。
     
@@ -111,7 +113,7 @@ _**主題上次修改日期：** 2012-10-02_
 
 5.  此外，我們還可以在 Lync Server 2013 的 [控制台] 中查看使用者清單，並確認 [註冊機構] 池值現在會指向 [Lync Server 2013] 池。
     
-    ![Lync server 2013 控制台使用者清單](images/JJ205096.3f2e87a7-ec59-43c5-82cb-e770108bfb04(OCS.15).jpg "Lync server 2013 控制台使用者清單")  
+    ![Lync Server 2013 控制台使用者清單](images/JJ205096.3f2e87a7-ec59-43c5-82cb-e770108bfb04(OCS.15).jpg "Lync Server 2013 控制台使用者清單")  
 
 </div>
 
