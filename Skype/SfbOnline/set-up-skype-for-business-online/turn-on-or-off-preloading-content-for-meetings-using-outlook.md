@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Setup
 description: '瞭解如何在 Outlook 會議邀請中使用檔案或附件，在商務用 Skype 會議中開啟或關閉預先載入的內容。 '
-ms.openlocfilehash: f876519ba7d3cf25e61f4f6458129d724d1bcb84
-ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
+ms.openlocfilehash: 66373c3609584efb34d54ef4ad9331af608b5a81
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40962781"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706298"
 ---
 # <a name="turn-on-or-off-allowing-content-to-be-preloaded-for-meetings-using-outlook"></a>開啟或關閉允許使用 Outlook 預先載入會議內容的功能
 

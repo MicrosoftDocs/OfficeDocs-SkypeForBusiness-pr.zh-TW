@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - PowerShell
 description: '下載、安裝及使用商務用 Skype Online 連接器，以建立連線至商務用 Skype Online 的遠端 Windows PowerShell 會話。 '
-ms.openlocfilehash: 4d794902ce39687c32f584f97b126c98f237c486
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 02c08d4172e2f42fb03c024fa2b0958a8e8b4637
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991298"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706258"
 ---
 # <a name="download-and-install-the-skype-for-business-online-connector-module"></a>下載並安裝商務用 Skype Online 連接器模組
 

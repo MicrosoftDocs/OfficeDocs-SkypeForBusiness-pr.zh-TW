@@ -15,16 +15,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Optimization
 description: 本文將協助說明商務用 Skype Online 與 ExpressRoute 的核心通話流程原則，並提供一些通話流程的詳細範例，讓您可以正確瞭解及規劃。
-ms.openlocfilehash: 59198cf24445ba486b193436b4374fea6698f146
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 3c728dab868177aab07c6fe618fba3a8c357eaa2
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "37642778"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706668"
 ---
 # <a name="call-flow-using-expressroute"></a>使用 ExpressRoute 的通話流程
 
@@ -40,7 +41,7 @@ ms.locfileid: "37642778"
 
 - [設定商務用 Skype Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
 
-- [Office 365 Url 與 IP 位址範圍](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)
+- [Office 365 URL 與 IP 位址範圍](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)
 
 - [ExpressRoute 概述](https://docs.microsoft.com/azure/expressroute/expressroute-introduction)
 
@@ -66,7 +67,7 @@ ms.locfileid: "37642778"
 
  **網際網路**這是整個網路的一部分，該網路區段將由從您的網路外部連線到商務用 Skype Online 的使用者使用，且在未設定 ExpressRoute 時用於所有連線。 網際網路及其所有連線都不由您或 Microsoft 管理，所以無法決定效能與路由路徑，這將會對整個通話流程和品質產生最大的影響。
 
- **ExpressRoute**這個網段是整個網路的一部分，可為您提供專用、私人的 Microsoft 網路連線連線。 這是將您的網路連線至 Microsoft 網路（Office 365 資料中心）的選項，適合與網路速度和效能（例如商務用 Skype Online 即時通訊）相關的所有工作負載。 在您的網路與 Microsoft 網路之間進行 ExpressRoute 連線使用[expressroute 連線提供者](https://azure.microsoft.com/documentation/articles/expressroute-locations/)來提供私人和受管理的網路（含99.9% 的正常運作時間），並支援可改善效能的服務品質（QoS）在網路擁塞期間進行即時媒體。
+ **ExpressRoute**這個網段是整個網路的一部分，可為您提供專用、私人的 Microsoft 網路連線連線。 這是將您的網路連線至 Microsoft 網路（Office 365 資料中心）的選項，適合與網路速度和效能（例如商務用 Skype Online 即時通訊）相關的所有工作負載。 在您的網路與 Microsoft 網路之間進行 ExpressRoute 連線：使用[expressroute 連線提供者](https://azure.microsoft.com/documentation/articles/expressroute-locations/)來提供私人和受管理的網路，包括99.9% 的正常運作時間和支援服務品質（QoS），可在網路擁塞期間提升即時媒體的效能。
 
  **Microsoft 網路**這個網段是支援 Office 365 服務之整個網路的一部分。 這包含 Office 365 線上伺服器之間的所有通訊。 這可能包括流經 Microsoft 網路骨幹的流量，並在地理區域之間傳送。
 

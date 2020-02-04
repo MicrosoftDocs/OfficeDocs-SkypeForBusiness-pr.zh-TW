@@ -14,15 +14,15 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: 瞭解訊息原則，以及如何使用它們來控制小組中的聊天訊息。
-ms.openlocfilehash: 590b0de09488a1d4e1cdaba3530a9a34894e45d0
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 676217cbd9101884e01cef1afd39203efc090f16
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991558"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707278"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>管理小組中的訊息傳遞原則
 

@@ -6,23 +6,23 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.SecWebSvcEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eddda5af-ddee-4ded-9c70-a07af0f8d14d
 ROBOTS: NOINDEX, NOFOLLOW
-description: 您想要做什麼？ 按一下您要執行之任務的連結。
-ms.openlocfilehash: 4bb8f8be5deee1c1757b16113e9d865411a27484
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 您要做什麼？ 按一下您要執行之任務的連結。
+ms.openlocfilehash: 219deeabc7916104485dbd2f56a24cc695bd5fb0
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36192348"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41704348"
 ---
-# <a name="web-service-security-settings-create-new-or-modify-existing"></a>Web 服務安全性設定: [建立新的] 或 [修改現有的]
+# <a name="web-service-security-settings-create-new-or-modify-existing"></a>Web 服務安全性設定：建立新的或編輯現有設定
 
-您想要做什麼？ 按一下您要執行之任務的連結。
+您要做什麼？ 按一下您要執行之任務的連結。
 
 - [在商務用 Skype Server 中管理 Web 服務配置設定](../../../manage/authentication/web-service-configuration-settings.md)
 

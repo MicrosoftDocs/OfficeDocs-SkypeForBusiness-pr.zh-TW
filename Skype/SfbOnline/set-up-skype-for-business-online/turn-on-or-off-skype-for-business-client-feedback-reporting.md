@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Setup
 description: 您可以讓您的商務用 Skype 使用者使用內建的商務用 Skype 應用程式意見反應工具，讓使用者報告問題，並直接向 Microsoft 提供意見反應，以瞭解他們的體驗。
-ms.openlocfilehash: 984fcfb7b327eb36e66df7d1ab6508d96c429481
-ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
+ms.openlocfilehash: 7d9b94b31e51287f535628c8485d263301ef991b
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40962741"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706288"
 ---
 # <a name="turn-on-or-off-skype-for-business-client-feedback-reporting"></a>開啟或關閉商務用 Skype 用戶端意見反應報告
 

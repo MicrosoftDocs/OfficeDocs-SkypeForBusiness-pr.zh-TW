@@ -6,23 +6,23 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployCertsMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6ab661d7-5741-4cad-bbe4-62cf862ded85
 ROBOTS: NOINDEX, NOFOLLOW
-description: 若要「要求」、「指派」、「移除」或「檢視」憑證，請使用「憑證精靈」。 您必須以 RTCUniversalServerAdmins 群組的成員身分登入。 若要向公用憑證授權單位 (CA) 要求憑證，您不需要任何其他群組成員資格。 若要從貴組織的公開金鑰基礎結構 (PKI) 要求憑證, 您必須確認您需要的其他人 (如果有的話)。 在要求工作期間, 您可以輸入將用來從您的 PKI 頒發 CA 申請憑證的備用認證。
-ms.openlocfilehash: daafbdd6730b86b7509323528405bec5277d264d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 若要「要求」、「指派」、「移除」或「檢視」憑證，請使用「憑證精靈」。 您必須以 RTCUniversalServerAdmins 群組的成員身分登入。 若要向公用憑證授權單位 (CA) 要求憑證，您不需要任何其他群組成員資格。 若要從貴組織的公開金鑰基礎結構（PKI）要求憑證，您必須確認您需要的其他人（如果有的話）。 在要求工作期間，您可以輸入將用來從您的 PKI 頒發 CA 申請憑證的備用認證。
+ms.openlocfilehash: 7bb6cd04687bab6cfad14a6f71a673adf06da4e7
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36193102"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41705558"
 ---
 # <a name="certificate-wizard"></a>憑證精靈
  
-若要「要求」****、「指派」****、「移除」**** 或「檢視」**** 憑證，請使用「憑證精靈」。 您必須以 RTCUniversalServerAdmins 群組的成員身分登入。 若要向公用憑證授權單位 (CA) 要求憑證，您不需要任何其他群組成員資格。 若要從貴組織的公開金鑰基礎結構 (PKI) 要求憑證, 您必須確認您需要的其他人 (如果有的話)。 在要求工作期間, 您可以輸入將用來從您的 PKI 頒發 CA 申請憑證的備用認證。
+若要「要求」****、「指派」****、「移除」**** 或「檢視」**** 憑證，請使用「憑證精靈」。 您必須以 RTCUniversalServerAdmins 群組的成員身分登入。 若要向公用憑證授權單位 (CA) 要求憑證，您不需要任何其他群組成員資格。 若要從貴組織的公開金鑰基礎結構（PKI）要求憑證，您必須確認您需要的其他人（如果有的話）。 在要求工作期間，您可以輸入將用來從您的 PKI 頒發 CA 申請憑證的備用認證。
   
 若要要求新的憑證，請按一下 [要求]****。
   
@@ -43,7 +43,7 @@ ms.locfileid: "36193102"
 若要匯入憑證存放區中不存在的憑證，請按一下 [匯入憑證]****。
   
 > [!NOTE]
-> [匯入憑證] **** 通常可用來處理透過其他程序而非「憑證精靈」中要求所接收的憑證。 例如，PKI 系統管理員建立憑證並提供給您。 使用 [匯**入憑證**], 將憑證匯入電腦的憑證存放區, 並將它提供給商務用 Skype 伺服器加以指派。
+> [匯入憑證] **** 通常可用來處理透過其他程序而非「憑證精靈」中要求所接收的憑證。 例如，PKI 系統管理員建立憑證並提供給您。 使用 [匯**入憑證**]，將憑證匯入電腦的憑證存放區，並將它提供給商務用 Skype 伺服器加以指派。
   
 若要完成向組織中的 CA 要求憑證的要求程序 (需要 CA 系統管理員核准)，請按一下 [處理擱置的要求]****。憑證要求會傳回擱置狀態，也會顯示擱置的要求的識別碼。若要繼續處理擱置狀態的憑證，請按一下 [重新整理]****，以啟用 [處理擱置的要求] **** 按鈕。[處理擱置的要求] **** 按鈕將可供使用 (不再呈現灰色)。接著，您可以嘗試擷取擱置的要求，但在 CA 系統管理員發出或拒絕憑證之前，要求的狀態仍為擱置。如果「憑證精靈」未建立有效的擱置要求，則無法使用此按鈕。
   

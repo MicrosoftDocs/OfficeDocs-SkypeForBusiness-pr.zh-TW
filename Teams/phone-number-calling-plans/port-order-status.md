@@ -1,5 +1,5 @@
 ---
-title: 您的埠訂單狀態為何？
+title: 您的移轉訂單狀態為何？
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -12,18 +12,18 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: ''
+f1.keywords: ''
 ms.custom:
 - Calling Plans
 description: '瞭解如何取得您的埠順序的狀態，以及您可以對這些訂單採取的不同動作。 '
-ms.openlocfilehash: 7c7b0c745ac4af01b58771463f348f5ac0f3dac7
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 3ad816e9dcedc18fe13d45db0bec36285d4f090f
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925637"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708629"
 ---
-# <a name="whats-the-status-of-your-port-orders"></a>您的埠訂單狀態為何？
+# <a name="whats-the-status-of-your-port-orders"></a>您的移轉訂單狀態為何？
 
 若要查看您的埠順序狀態，請在 Microsoft 團隊系統管理中心的左導覽中，移至 > 的**語音** > **埠訂單**，然後按一下 [**訂單歷程記錄**]。 每個埠訂單狀態都列在 [**狀態**] 欄中。
 
@@ -45,7 +45,7 @@ ms.locfileid: "37925637"
 
 ## <a name="related-topics"></a>相關主題
 
-- [什麼是埠順序？](port-order-overview.md)
+- [什麼是移轉訂單？](port-order-overview.md)
 - [通話方案所用的不同類型的電話號碼](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [管理貴組織的電話號碼](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [緊急通話條款及條件](../emergency-calling-terms-and-conditions.md)

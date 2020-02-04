@@ -13,15 +13,15 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: 瞭解在小組中設定即時事件的步驟，包括準備網路、指派授權、使用原則來啟用即時事件功能及排程使用者，以及設定協力廠商的發佈提供者。
-f1keywords: ms.teamsadmincenter.liveevents.policies
+f1.keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8ce126b6e0e7a1bc9efec28f3b7fec5020c2da1e
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: ebc72d8238e5551c7a09cae3d617e8f6a187befb
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570154"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708329"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>在 Microsoft 團隊中設定即時事件
 
@@ -105,11 +105,11 @@ ms.locfileid: "37570154"
 
 下列 SDN/eCDN 解決方案是預先整合的，可設定為搭配資料流程使用。
 
-- **Hive 流式處理**可為即時和點播的企業影片發佈提供簡單且功能強大的方案。 Hive 是一種軟體式解決方案，不需要額外的硬體或頻寬，而且提供安全的方式來啟用成千上萬同時進行的視頻檢視器，而不會影響您的網路。 針對想要在購買 SDN/eCDN 方案之前，想要瞭解其網路上的影響影片的客戶，Hive 資料流程也會為 Microsoft 客戶提供以瀏覽器為基礎的分析方案。 [深入瞭解](https://www.hivestreaming.com/partners/integration-partners/microsoft/)。
+- **Hive 流式處理**可為即時和點播的企業影片發佈提供簡單且功能強大的方案。 Hive 是一種軟體式解決方案，不需要額外的硬體或頻寬，而且提供安全的方式來啟用成千上萬同時進行的視頻檢視器，而不會影響您的網路。 針對想要在購買 SDN/eCDN 方案之前，想要瞭解其網路上的影響影片的客戶，Hive 資料流程也會為 Microsoft 客戶提供以瀏覽器為基礎的分析方案。 [深入了解](https://www.hivestreaming.com/partners/integration-partners/microsoft/)。
  
-- **Kollective**是一個以雲端為基礎的智慧對等發佈平臺，可利用您現有的網路基礎結構，以多種形式（即時資料流影片、點播影片、軟體更新、安全性修補程式等等）來傳送內容。更快速地以較低的頻寬可靠地進行。 我們的安全平臺受世界上最大的金融機構信任，而且沒有額外的硬體、設定和維護很簡單。 [深入瞭解](https://kollective.com/microsoft-pilot/)。
+- **Kollective**是一個以雲端為基礎的智慧對等發佈平臺，可利用您現有的網路基礎結構，以多種形式（即時資料流影片、點播影片、軟體更新、安全性修補程式等等）來傳送內容。 我們的安全平臺受世界上最大的金融機構信任，而且沒有額外的硬體、設定和維護很簡單。 [深入了解](https://kollective.com/microsoft-pilot/)。
  
-- **斜坡 OmniCache**提供新一代網路發佈，並確保跨全球 wan 順暢地傳送影片內容，協助事件發生器優化網路頻寬，並支援成功的即時事件廣播和隨選傳遞. 我們即將推出在小組中產生的即時事件支援的快速衝刺 OmniCache。 [深入瞭解](http://www.ramp.com)。 
+- **斜坡 OmniCache**提供新一代網路發佈，並確保透過全球 wan 順暢地傳送影片內容，協助事件發生器優化網路頻寬，並支援成功的即時事件廣播和點播資料流程。 我們即將推出在小組中產生的即時事件支援的快速衝刺 OmniCache。 [深入了解](http://www.ramp.com)。 
  
 > [!NOTE] 
 > 您所選擇的 SDN 或 eCDN 方案受限於所選的**協力廠商提供者服務條款與隱私權原則**，這將會控制提供者的解決方案的使用。 您使用的是提供者的解決方案，不會受到 Microsoft 大量授權條款或線上服務條款的制約。 如果您不同意**協力廠商提供者的條款**，請不要在小組中啟用此方案。 
@@ -120,7 +120,7 @@ ms.locfileid: "37570154"
 移至 [[設定團隊中的即時事件] 設定](configure-teams-live-events.md)。
 
 ### <a name="related-topics"></a>相關主題
-- [什麼是團隊即時活動？](what-are-teams-live-events.md)
-- [規劃團隊即時事件](plan-for-teams-live-events.md)
+- [什麼是 Teams 即時活動？](what-are-teams-live-events.md)
+- [Teams 即時活動的方案](plan-for-teams-live-events.md)
 - [在團隊中設定即時事件設定](configure-teams-live-events.md)
 

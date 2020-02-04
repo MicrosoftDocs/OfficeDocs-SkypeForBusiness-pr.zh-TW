@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.DirectorsScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0c725237-2e43-4ba2-a7ad-dce0057d265f
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[Director 集區] 節點會列出您的拓撲中的 Director 集區。 您可以執行下列動作：'
-ms.openlocfilehash: def27a8e60437c4949115f7d48dd5493d063fa58
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: efdf068b523114cabc3132449bdf5cc7748c4b1b
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188980"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41702278"
 ---
 # <a name="directors-scope-node"></a>Director 範圍節點
  

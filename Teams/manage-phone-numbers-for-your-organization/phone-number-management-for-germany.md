@@ -1,5 +1,5 @@
 ---
-title: 德國電話號碼管理
+title: 德國的電話號碼管理
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -15,18 +15,19 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: 使用此表格來尋找在德國針對 Microsoft 團隊取得及管理電話號碼的相關資訊。
-ms.openlocfilehash: 11158e3927539485cb5fc0149ce44aa051fef947
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: d97ff79106bd993023bbea0d4725215804dda9e2
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573137"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707008"
 ---
-# <a name="phone-number-management-for-germany"></a>德國電話號碼管理
+# <a name="phone-number-management-for-germany"></a>德國的電話號碼管理
 
 使用此表格來尋找在德國針對 Microsoft 團隊取得及管理電話號碼的相關資訊。 
   
@@ -45,6 +46,6 @@ ms.locfileid: "37573137"
 
 [管理貴組織的電話號碼](manage-phone-numbers-for-your-organization.md)
 
-[緊急通話條款與條件](../emergency-calling-terms-and-conditions.md)
+[緊急通話條款及條件](../emergency-calling-terms-and-conditions.md)
   
 [緊急通話免責聲明標籤](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)  

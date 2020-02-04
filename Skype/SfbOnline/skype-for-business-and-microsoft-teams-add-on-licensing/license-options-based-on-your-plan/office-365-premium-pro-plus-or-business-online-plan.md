@@ -15,17 +15,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Licensing
 - LIL_Placement
 description: 瞭解附加元件授權、功能，以及如何購買 Office 365 專業增強版或商務用 Skype Online 獨立方案2。
-ms.openlocfilehash: fbfef42e1b1e0e77c5c6cb6be7ad2c1449025f4e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: fdd84898c584d8de62a990fc25f44a27fb0d50a5
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "37642825"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706088"
 ---
 # <a name="office-365-proplus-or-skype-for-business-online-standalone-plan-2"></a>Office 365 專業增強版或商務用 Skype Online 獨立方案2
 

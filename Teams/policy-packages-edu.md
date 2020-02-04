@@ -1,5 +1,5 @@
 ---
-title: EDU 系統管理員適用的 Microsoft 團隊原則套件
+title: 適用於教育界管理員的 Microsoft Teams 原則套件
 author: jambirk
 ms.author: jambirk
 manager: serdars
@@ -13,18 +13,18 @@ ms.collection:
 - Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-f1keywords: ms.teamsadmincenter.policypackages.overview
+f1.keywords: ms.teamsadmincenter.policypackages.overview
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何在 Microsoft 團隊中使用及管理原則套件。
-ms.openlocfilehash: a49ab725ff0042b75afca9b1f9b4d7d9655c34b7
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: 922481747e83b8885641185b8a7e4fa65bb2a1bd
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38676251"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708659"
 ---
-# <a name="microsoft-teams-policy-packages-for-edu-admins"></a>EDU 系統管理員適用的 Microsoft 團隊原則套件
+# <a name="microsoft-teams-policy-packages-for-edu-admins"></a>適用於教育界管理員的 Microsoft Teams 原則套件
 
 Microsoft 團隊中的原則套件會收集預先定義的原則與原則設定，您可以指派給擁有機構中相似角色的使用者。 原則套件可簡化、簡化及協助在管理原則時提供一致性。 在正常做法中，您會為每位使用者指派一個原則套件，並視需要重新定義每個套件中的原則，以符合該使用者群組的需求。 當您更新套件中的設定時，指派給該套件的所有使用者都會變更為大量更新。
 
@@ -36,14 +36,14 @@ Microsoft 團隊中的原則套件會收集預先定義的原則與原則設定�
 
 原則套件的預先定義原則：
 - 傳訊
-- 舉行
+- 會議
 - App 設定
 - 通話
 - 即時活動
 
 Microsoft 團隊目前包含下列原則套件：
 
-|[Microsoft 團隊系統管理中心] 中列出的套件名稱 |最適合用於  |描述 |
+|[Microsoft 團隊系統管理中心] 中列出的套件名稱 |最適合用於  |說明 |
 |:--- |:--- |:--- |
 |Education_Teacher| 教育版與員工| 使用這組原則與原則設定，可讓您組織內的教師與員工在 Microsoft 團隊中授與聊天、通話和會議的完整存取權。 |
 |Education_PrimaryStudent | 主要的學校老學生  | 較年輕、貴機構內主要的學校較舊學生可能需要 Microsoft 團隊中的更多限制。 使用這組原則與原則設定來限制會議建立與管理、聊天管理和私人通話等功能。 |

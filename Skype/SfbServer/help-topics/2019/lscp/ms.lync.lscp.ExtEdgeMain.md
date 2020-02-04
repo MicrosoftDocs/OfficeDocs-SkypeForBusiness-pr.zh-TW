@@ -6,23 +6,23 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.ExtEdgeMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1bd49911-df70-4f96-85bc-1f005ea65163
 ROBOTS: NOINDEX, NOFOLLOW
-description: 您想要做什麼？ 按一下您要執行之任務的連結。
-ms.openlocfilehash: 1412d0e1048c1022f6a8b97368fd439025642ffc
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 您要做什麼？ 按一下您要執行之任務的連結。
+ms.openlocfilehash: ab2ef8be79c3cae5fd137110c7b982c6049104b6
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36190939"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41704968"
 ---
 # <a name="access-edge-configuration"></a>Access Edge 組態
 
-您想要做什麼？ 按一下您要執行之任務的連結。
+您要做什麼？ 按一下您要執行之任務的連結。
 
 - [Enable or Disable Remote User Access for Your Organization](https://technet.microsoft.com/library/8ec58f4b-9f6d-47b4-a187-d18a83fe4577.aspx)
 

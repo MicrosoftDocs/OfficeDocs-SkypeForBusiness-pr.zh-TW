@@ -1,5 +1,5 @@
 ---
-title: 澳大利亞電話號碼管理
+title: 澳洲的電話號碼管理
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -14,18 +14,19 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: 您可以在此表格中尋找有關在澳大利亞的 Microsoft 團隊中取得與管理電話號碼的資訊。
-ms.openlocfilehash: f8576f383937a9e8889a660619d169cd657d8de7
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 5c8b5a668c8a1ec0a1ab34bd214955cd7e4ef25b
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573159"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707128"
 ---
-# <a name="phone-number-management-for-australia"></a>澳大利亞電話號碼管理
+# <a name="phone-number-management-for-australia"></a>澳洲的電話號碼管理
 在澳大利亞，我們已與 Telstra 進行合作，為使用澳大利亞帳單位址的客戶購買及提供通話方案。 Telstra 將出售其通話方案、提供澳大利亞的使用者號碼，同時也提供自動語音接聽者和電話號碼的電話號碼管理支援。 不過，音訊會議的服務號碼和授權仍將由 Office 365 來出售及管理。
 
 如需[Telstra 通話 For Office 365](https://aka.ms/TelstraVoicePlan)的詳細資訊。
@@ -50,4 +51,4 @@ ms.locfileid: "37573159"
 
 [管理貴組織的電話號碼](manage-phone-numbers-for-your-organization.md)
 
-[緊急通話條款與條件](../emergency-calling-terms-and-conditions.md)
+[緊急通話條款及條件](../emergency-calling-terms-and-conditions.md)

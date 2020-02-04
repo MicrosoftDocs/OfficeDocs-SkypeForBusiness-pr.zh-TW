@@ -1,5 +1,5 @@
 ---
-title: 已封鎖 Skype 會議廣播的使用者授權
+title: 封鎖的 Skype 會議廣播的使用者授權
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - SMB
 description: 遺憾的是，當使用者移至https://broadcast.skype.com並想要使用 Skype 會議廣播時，系統會封鎖某些使用者授權。 如果使用者看到這則訊息，就會將封鎖的授權指派給他們。 如果您仍想要他們使用，請指派另一個 Office 365 授權。
-ms.openlocfilehash: 52e6936e0dd91c896d0eea397f6352ab3b453c64
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a1284cbb6126a0a6d31ab64942f04f9e40c04fe6
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "37642772"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706138"
 ---
 # <a name="blocked-user-licenses-for-hosting-skype-meeting-broadcast"></a>主持 Skype 會議廣播的封鎖使用者授權
 

@@ -1,5 +1,5 @@
 ---
-title: 使用呼叫分析來排查不佳的通話品質問題
+title: 使用通話分析來疑難排解不良通話品質
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -17,20 +17,20 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.directrouting.callanalytics
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 ms.custom:
 - Reporting
 description: 使用裝置、網路和連線的呼叫分析詳細資料，來針對 Microsoft 團隊及商務用 Skype 通話和會議的使用者問題進行疑難排解。
-ms.openlocfilehash: 4b2d6a5a18bf0a13f3fd32aecb8ad98192f3851a
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: e8b1fe4bbad2b744310d0b609fdc6c6d5a23fea2
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568631"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707719"
 ---
-# <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>使用呼叫分析來排查不佳的通話品質問題
+# <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>使用通話分析來疑難排解不良通話品質
 
 [通話分析] 可協助您排查 Microsoft 團隊和商務用 Skype 的通話或連線問題。 [通話分析] 會顯示適用于 Office 365 帳戶中每位使用者之通話與會議的裝置、網路及連線能力的詳細資訊。 如果已將組建、網站和租使用者資訊新增至呼叫分析，也會針對每個通話和會話顯示該資訊。 透過 [呼叫分析] 提供的資訊可協助您瞭解使用者為何通話或會議感覺不佳的原因。 
   
@@ -81,16 +81,16 @@ ms.locfileid: "37568631"
   
 對於有經驗品質（QoE）資料的音訊會話，下表說明將會話限制為**不良**的主要問題。
   
-|**出現**|**圖**|**說明**|
+|**問題**|**圖**|**說明**|
 |:-----|:-----|:-----|
-|撥號設定  <br/> |課時  <br/> |錯誤碼 Ms-診斷程式20-29 指出通話設定失敗。 使用者無法加入通話或會議。  <br/> |
-|音訊網路分類不佳通話  <br/> |課時  <br/> |遇到網路品質問題（例如資料包遺失、抖動、NMOS 下降、RTT 或隱藏比率）。 如需有關用來將不佳通話分類之條件的詳細資訊，請參閱這篇[Microsoft 博客文章](https://go.microsoft.com/fwlink/p/?linkid=852133)。  <br/> |
-|裝置無法運作  <br/> |台  <br/> | 裝置無法正常運作。 裝置的運作比例如下： <br/>  DeviceRenderNotFunctioningEventRatio >= 0.005 <br/>  DeviceCaptureNotFunctioningEventRatio >= 0.005 <br/> |
+|撥號設定  <br/> |工作階段  <br/> |錯誤碼 Ms-診斷程式20-29 指出通話設定失敗。 使用者無法加入通話或會議。  <br/> |
+|音訊網路分類不佳通話  <br/> |工作階段  <br/> |遇到網路品質問題（例如資料包遺失、抖動、NMOS 下降、RTT 或隱藏比率）。 如需有關用來將不佳通話分類之條件的詳細資訊，請參閱這篇[Microsoft 博客文章](https://go.microsoft.com/fwlink/p/?linkid=852133)。  <br/> |
+|裝置無法運作  <br/> |裝置  <br/> | 裝置無法正常運作。 裝置的運作比例如下： <br/>  DeviceRenderNotFunctioningEventRatio >= 0.005 <br/>  DeviceCaptureNotFunctioningEventRatio >= 0.005 <br/> |
    
 ## <a name="related-topics"></a>相關主題
 [設定通話分析](set-up-call-analytics.md)
 
-[[通話分析] 和 [通話品質儀表板]](difference-between-call-analytics-and-call-quality-dashboard.md)
+[通話分析和通話品質儀表板](difference-between-call-analytics-and-call-quality-dashboard.md)
 
   
  

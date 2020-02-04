@@ -16,16 +16,17 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: '做為 Office 365 系統管理員，您可以針對組織中的個別使用者編輯 Microsoft 團隊音訊會議設定，例如提供者、預設的付費或免付費電話號碼、會議 ID 或 PIN 等。 '
-ms.openlocfilehash: 673441acebf9b31893925539471040bffa621f38
-ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
+ms.openlocfilehash: 13d7af0dccefdbe1c0febcc6a6903b410221f0f8
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "37571920"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708669"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-microsoft-teams"></a>在 Microsoft 團隊中管理使用者的音訊會議設定
 

@@ -16,16 +16,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: 使用此表格來尋找在 Microsoft 團隊的英國（英國）中取得與管理電話號碼的相關資訊。
-ms.openlocfilehash: bdad256ee68b1ecd6cf07dc7bf67388a6929dc26
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 3fb9da13b10c5e45f910d172a350cd6869dbaaa1
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571953"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706938"
 ---
 # <a name="phone-number-management-for-the-uk"></a>英國的電話號碼管理
 
@@ -46,7 +47,7 @@ ms.locfileid: "37571953"
 
 [管理貴組織的電話號碼](manage-phone-numbers-for-your-organization.md)
 
-[緊急通話條款與條件](../emergency-calling-terms-and-conditions.md)
+[緊急通話條款及條件](../emergency-calling-terms-and-conditions.md)
   
 [緊急通話免責聲明標籤](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
  

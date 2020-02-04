@@ -16,16 +16,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: '做為 Office 365 系統管理員，您可以針對組織中的個別使用者編輯商務用 Skype Online 音訊會議設定，例如提供者、預設的付費或免付費電話號碼、會議 ID 或 PIN 等。 '
-ms.openlocfilehash: ee60b8fc97313e38fd680b8deb42bc991e03b0f0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c9a5f90d0c7577571188764393ecc667a243cd56
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "37642167"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707178"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-skype-for-business-online"></a>在商務用 Skype Online 中管理使用者的音訊會議設定
 
@@ -66,4 +67,4 @@ ms.locfileid: "37642167"
 
 [管理組織的音訊會議設定](manage-the-audio-conferencing-settings-for-my-organization.md)
 
-[音訊會議常見問題](/MicrosoftTeams/audio-conferencing-common-questions)
+[音訊會議的常見問題](/MicrosoftTeams/audio-conferencing-common-questions)

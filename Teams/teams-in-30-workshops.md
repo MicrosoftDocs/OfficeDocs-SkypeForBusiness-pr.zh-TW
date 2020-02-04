@@ -14,16 +14,16 @@ ms.collection:
 ms.reviewer: dearbeen, nsuter
 search.appverid: MET150
 description: 即時、互動式的討論會，旨在讓您在30天內就能與 Microsoft 團隊保持聯繫並開始執行。
-f1keywords: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
+f1.keywords: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 ROBOTS: NOINDEX
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 92b57b34eea5459e3d800df49876b133510dbde4
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: fb8d5b133bcc8ee905df51b9c006f173eb4947b6
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570209"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708449"
 ---
 <div id="main" class="v2">
     <div class="container">

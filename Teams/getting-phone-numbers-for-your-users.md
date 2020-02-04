@@ -15,16 +15,17 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: '瞭解如何取得新的、埠或轉讓現有的團隊編號，以及如何向使用者顯示變更。 '
-ms.openlocfilehash: 51f436a3b2d462e9984fb9fc09620e7c1a77307d
-ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
+ms.openlocfilehash: caba9206ab4c1f12250085a8323b22fabf57cc9e
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "39209199"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707869"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>為您的使用者取得電話號碼
 

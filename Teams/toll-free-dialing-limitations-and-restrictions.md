@@ -1,5 +1,5 @@
 ---
-title: 免付費撥號限制與限制
+title: 免付費電話的撥號限制
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,19 +16,20 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: 這將協助您瞭解如何在每個國家/地區撥打免付費電話號碼。 在您選取國家/地區之後，系統會將您帶到特定國家/地區的頁面，其中包含特定的詳細資料、限制，以及免費提供免付費服務的服務可用性限制。 [撥號格式] 或 [格式] 會在每個國家/地區顯示所需的存取代碼，以撥打免付費電話號碼。
-ms.openlocfilehash: d9cf7bf601237552b397413c65875707157a73c9
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 41bc08f37d96674a88ad4d180198cba189780846
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571648"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708204"
 ---
-# <a name="toll-free-dialing-limitations-and-restrictions"></a>免付費撥號限制與限制
+# <a name="toll-free-dialing-limitations-and-restrictions"></a>免付費電話的撥號限制
 
 這將協助您瞭解如何在每個國家或地區撥打免費電話號碼。 選取國家/地區之後，系統會將您帶到一個頁面，其中包含特定的詳細資料、限制及限制。 [撥號格式] 或 [格式] 會在每個國家/地區顯示所需的存取代碼，以撥打免付費電話號碼。
   
@@ -38,7 +39,7 @@ ms.locfileid: "37571648"
 
 > [!div class="op_single_selector"]    
 > - [阿根廷](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md)
-> - [澳大利亞](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-australia.md)
+> - [澳洲](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-australia.md)
 > - [白俄羅斯](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belarus.md)
 > - [比利時](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belgium.md)
 > - [貝里斯](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belize.md)
@@ -47,27 +48,27 @@ ms.locfileid: "37571648"
 > - [汶萊](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brunei.md)
 > - [保加利亞](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bulgaria.md)
 > - [智利](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chile.md)
-> - [中國（北部）](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinanorth-10-800-714-xxxx-range.md)
-> - [中國（南部）](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinasouth-10-800-140-xxxx-range.md)
+> - [中國 (北方)](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinanorth-10-800-714-xxxx-range.md)
+> - [中國 (南方)](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinasouth-10-800-140-xxxx-range.md)
 > - [哥倫比亞](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-columbia.md)
-> - [克羅地亞](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-croatia.md)
+> - [克羅埃西亞](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-croatia.md)
 > - [賽普勒斯](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-cyprus.md)
 > - [丹麥](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-denmark.md)
-> - [厄瓜多爾](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-ecuador.md)
+> - [厄瓜多](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-ecuador.md)
 > - [埃及](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-egypt.md)
 > - [愛沙尼亞](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-estonia.md)
 > - [芬蘭](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-finland.md)
 > - [法國](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-france.md)
 > - [德國](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-germany.md)
 > - [宏都拉斯](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-honduras.md)
-> - [香港特別行政區](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hong-kong.md)
+> - [香港](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hong-kong.md)
 > - [匈牙利](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hungary.md)
 > - [印度](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-india.md)
 > - [印尼](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-indonesia.md)
 > - [愛爾蘭](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-ireland.md)
 > - [以色列](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-israel.md)
 > - [日本](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-japan.md)
-> - [肯雅](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-kenya.md)
+> - [肯亞](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-kenya.md)
 > - [盧森堡](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-luxembourg.md)
 > - [馬來西亞](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-malaysia.md)
 > - [墨西哥](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-mexico.md)
@@ -80,7 +81,7 @@ ms.locfileid: "37571648"
 > - [菲律賓](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-philippines.md)
 > - [波蘭](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-poland.md)
 > - [葡萄牙](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-portugal.md)
-> - [卡塔爾](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-qatar.md)
+> - [卡達](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-qatar.md)
 > - [羅馬尼亞](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-romania.md)
 > - [沙烏地阿拉伯](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-saudi-arabia.md)
 > - [塞爾維亞](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-serbia.md)
@@ -88,17 +89,17 @@ ms.locfileid: "37571648"
 > - [斯洛伐克](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-slovakia.md)
 > - [斯洛維尼亞](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-slovenia.md)
 > - [南非](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-south-africa.md)
-> - [韓國](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-south-korea.md)
+> - [南韓](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-south-korea.md)
 > - [西班牙](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-spain.md)
 > - [瑞典](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-sweden.md)
-> - [臺灣](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-taiwan.md)
+> - [台灣](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-taiwan.md)
 > - [泰國](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-thailand.md)
 > - [土耳其](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-turkey.md)
-> - [阿拉伯聯合大公國（UAE）](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-arab-emirates.md)
+> - [阿拉伯聯合大公國 (UAE)](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-arab-emirates.md)
 > - [英國](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-kingdom-u-k.md)
 > - [烏拉圭](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-uruguay.md)
 > - [委內瑞拉](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-venezuela.md)
-> - [民主](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-vietnam.md)
+> - [越南](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-vietnam.md)
   
 ## <a name="here-are-some-important-things-for-you-to-remember-about-toll-free-numbers"></a>以下是您要記住免費電話號碼的一些重要事項：
 
@@ -119,7 +120,7 @@ ms.locfileid: "37571648"
 > 如果您需要取得更多的電話號碼，請[聯絡商務產品支援-系統管理協助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
     
 ## <a name="related-topics"></a>相關主題
-[取得商務用 Skype 和 Microsoft 團隊的服務電話號碼](/microsoftteams/getting-service-phone-numbers)
+[取得商務用 Skype 和 Microsoft Teams 的服務電話號碼](/microsoftteams/getting-service-phone-numbers)
 
   
  

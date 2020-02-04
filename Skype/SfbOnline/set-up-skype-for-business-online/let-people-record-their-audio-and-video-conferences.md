@@ -1,5 +1,5 @@
 ---
-title: 讓人員錄製其音訊和視訊會議
+title: 讓人員錄製音訊和視訊會議
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -14,19 +14,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - O365P_RecordingDesc
 ms.custom:
 - Setup
 description: '如何開啟音訊與視訊會議的錄製，並瞭解錄製中的內容和不包含的內容。 '
-ms.openlocfilehash: a7bb57fa4fe0124a4e2d6afb262fd298cb29e419
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 551e7d748a849ae945226b4aa1ef1640e3163da0
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "37642954"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706488"
 ---
-# <a name="let-people-record-their-audio-and-video-conferences"></a>讓人員錄製其音訊和視訊會議
+# <a name="let-people-record-their-audio-and-video-conferences"></a>讓人員錄製音訊和視訊會議
 
 ## <a name="choose-the-default-recording-setting-for-a-single-user-or-everyone-in-your-organization"></a>針對單一使用者或貴組織中的所有人選擇預設的錄製設定
 

@@ -16,7 +16,7 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.voice.phonenumbers.overview
 - ms.teamsadmincenter.voice.searchandacquire.PSTNpartner
 - ms.lync.lac.NewNumberManualAcquisitionOpenSupportTicket
@@ -24,12 +24,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 瞭解如何為您的組織取得及管理 Microsoft 團隊的電話號碼。
-ms.openlocfilehash: 7ff1da0b93c6775b8e564f6ea324404697c92411
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 597003e05ac467b51a0901f0c8daec498041c70a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571986"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707188"
 ---
 # <a name="manage-phone-numbers-for-your-organization"></a>管理貴組織的電話號碼
 
@@ -46,7 +46,7 @@ ms.locfileid: "37571986"
 
 **選取您的國家或地區，以尋找您所需的可下載表單**
 > [!div class="op_single_selector"]
-> - [澳大利亞](phone-number-management-for-australia.md)
+> - [澳洲](phone-number-management-for-australia.md)
 > - [比利時](phone-number-management-for-belgium.md)
 > - [加拿大](phone-number-management-for-canada.md)
 > - [法國](phone-number-management-for-france.md)
@@ -94,6 +94,6 @@ ms.locfileid: "37571986"
     
 ## <a name="related-topics"></a>相關主題
 
-[緊急通話條款與條件](../emergency-calling-terms-and-conditions.md)
+[緊急通話條款及條件](../emergency-calling-terms-and-conditions.md)
 
 [緊急通話免責聲明標籤](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true) 

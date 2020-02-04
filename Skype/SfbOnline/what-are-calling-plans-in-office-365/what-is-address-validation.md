@@ -14,17 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - ms.lync.lac.CivicAddressValidation
 ms.custom:
 - Calling Plans
 description: '瞭解什麼是位址驗證、重要的原因，以及它與緊急位址及服務的關聯方式。 '
-ms.openlocfilehash: 3c6a6aa8b739ce2b23f8637298b108ebb52ed220
-ms.sourcegitcommit: 4bb900228cc55e0cbbce8c5b74b7de8df5a2288f
+ms.openlocfilehash: ad555792bf6951e8de5fb746546aec40e05b0eba
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "37642520"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41705868"
 ---
 # <a name="what-is-address-validation"></a>什麼是位址驗證？
 
@@ -41,7 +41,7 @@ ms.locfileid: "37642520"
 
 [管理貴組織的電話號碼](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[緊急通話條款與條件](/microsoftteams/emergency-calling-terms-and-conditions)
+[緊急通話條款及條件](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [商務用 Skype Online：緊急通話免責聲明標籤](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 

@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Setup
 description: 商務用 Skype Online 可讓您建立其他外部存取原則。 與用戶端或會議原則不同（您可以使用多個組合），有三個預先定義的外部存取原則可涵蓋大部分案例。
-ms.openlocfilehash: 978bad4e87e3e7dbe2a9bac5565aa7a6a45ca2df
-ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
+ms.openlocfilehash: 49572dc1aaef3d595bd0de41fd6359d90e8d803a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40962501"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706658"
 ---
 # <a name="create-custom-external-access-policies"></a>建立自訂外部存取原則
 

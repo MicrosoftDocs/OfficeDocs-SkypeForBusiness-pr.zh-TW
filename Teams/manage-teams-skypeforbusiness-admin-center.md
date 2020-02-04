@@ -12,18 +12,18 @@ description: 瞭解如何在從 Microsoft 365 系統管理中心將團隊體驗�
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
-f1keywords: ms.teamsadmincenter.dashboard.helparticle.manageteamsnewadmincenter
+f1.keywords: ms.teamsadmincenter.dashboard.helparticle.manageteamsnewadmincenter
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 3d856e0cb9792e4e83dad9daa3e0716ffd3981c8
-ms.sourcegitcommit: 57304ac641931eed87e649555fd5eb5e58732dc5
+ms.openlocfilehash: 1a914fbfe393c01d7f2024c2890e11e0d8678e23
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "39679243"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708371"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>在轉換至新 Microsoft Teams 系統管理中心期間管理 Teams
 ======================================================
@@ -54,11 +54,11 @@ ms.locfileid: "39679243"
 |依使用者/授權類型設定     |針對所有使用者開啟或關閉 Microsoft 團隊          |已棄用<sup>1</sup>        |         |
 |團隊和頻道     |         |重新導向至 Azure Active Directory 群組管理（與目前的體驗相同）。              |使用者         |
 |團隊和頻道     |         |重定向至 AAD 群組管理（與目前的經驗相同）。             |使用者          |
-|應用|預設啟用新的外部應用程式|整個組織內的應用程式設定|Tenant|
-|應用|允許外部應用程式|整個組織內的應用程式設定|Tenant|
-|應用|允許側載外部應用程式<sup>2</sup>|[TeamsAppSetupPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps)|使用者|
-|應用|預設 app<sup>3</sup>|TeamsAppPermissionPolicy|使用者|
-|應用|外部應用程式<sup>3</sup>|TeamsAppPermissionPolicy|使用者|
+|應用程式|預設啟用新的外部應用程式|整個組織內的應用程式設定|Tenant|
+|應用程式|允許外部應用程式|整個組織內的應用程式設定|Tenant|
+|應用程式|允許側載外部應用程式<sup>2</sup>|[TeamsAppSetupPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps)|使用者|
+|應用程式|預設 app<sup>3</sup>|TeamsAppPermissionPolicy|使用者|
+|應用程式|外部應用程式<sup>3</sup>|TeamsAppPermissionPolicy|使用者|
 |通話與會議     |允許針對私人會議進行排程         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |使用者          |
 |通話與會議     |允許點對點通道頻道         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |使用者          |
 |通話與會議     |允許針對頻道會議進行排程         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |使用者          |

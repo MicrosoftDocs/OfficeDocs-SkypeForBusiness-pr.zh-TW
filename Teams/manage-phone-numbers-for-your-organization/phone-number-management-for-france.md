@@ -15,16 +15,17 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: 您可以在此表格中尋找在 Microsoft 團隊中取得與管理電話號碼的相關資訊。
-ms.openlocfilehash: 822d577086ca6c941431ebc48d6b8b8be5c4aa5a
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 82a8dac1d21ca34a679ed162738d519d1601826c
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571975"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707028"
 ---
 # <a name="phone-number-management-for-france"></a>法國的電話號碼管理
 
@@ -45,6 +46,6 @@ ms.locfileid: "37571975"
 
 [管理貴組織的電話號碼](manage-phone-numbers-for-your-organization.md)
 
-[緊急通話條款與條件](../emergency-calling-terms-and-conditions.md)
+[緊急通話條款及條件](../emergency-calling-terms-and-conditions.md)
   
 [緊急通話免責聲明標籤](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true) 

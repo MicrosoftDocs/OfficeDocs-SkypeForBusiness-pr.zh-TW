@@ -16,17 +16,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords:
+f1.keywords:
 - ms.lync.lac.NumberActivationStatePending
 ms.custom:
 - Calling Plans
 description: 位址驗證是設定 Office 365 通話方案的重要部分。 它會為貴組織中的使用者提供緊急呼叫位址，以供緊急回應服務使用。
-ms.openlocfilehash: e849960fb09ecfe5739d05c9e0a3ba1040352a09
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 7e4d9faa9a58469c2be751a0cb724650f544d077
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "37642926"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41705828"
 ---
 # <a name="why-is-number-activation-just-pending"></a>為什麼數位啟用只是擱置的？
 
@@ -101,11 +101,11 @@ ms.locfileid: "37642926"
 
   
 ## <a name="related-topics"></a>相關主題
-[傳送電話號碼常見問題](/microsoftteams/transferring-phone-numbers-common-questions)
+[移轉電話號碼的常見問題](/microsoftteams/transferring-phone-numbers-common-questions)
 
 [通話方案所用的不同類型的電話號碼](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[緊急通話條款與條件](/microsoftteams/emergency-calling-terms-and-conditions)
+[緊急通話條款及條件](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [商務用 Skype Online：緊急通話免責聲明標籤](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
   

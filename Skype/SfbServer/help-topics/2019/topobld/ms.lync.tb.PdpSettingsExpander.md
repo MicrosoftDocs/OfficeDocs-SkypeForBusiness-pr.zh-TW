@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.PdpSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dc94f75e-9abe-4e02-b835-3c845b317d65
 ROBOTS: NOINDEX, NOFOLLOW
 description: 通話許可控制 (CAC) 是由地區、網站和子網路所構成的網路，可讓您根據可用頻寬來限制音訊和視訊傳輸。在設定 CAC 的網路之後，您必須啟用 CAS，才能強制執行頻寬限制。
-ms.openlocfilehash: aac6fdb1633216409d876804d7bd132574c94231
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 62d77de88a6bf0f0195e1c54eef4e5cac6d2a409
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36193504"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41701768"
 ---
 # <a name="call-admission-control-settings-expander"></a>通話許可控制設定展開工具
  
@@ -29,8 +29,8 @@ ms.locfileid: "36193504"
   
 在網站的 [編輯內容]**** 對話方塊的 [通話許可控制設定]**** 區段中，您可以變更下列設定：
   
-- **啟用呼叫許可控制**選取此設定以啟用 CAC。 清除此設定以針對您的整個網路停用 CAC。 若要啟用 CAC, 您必須將您的網路設定為 CAC。 如需詳細資訊, 請參閱部署檔中的[商務用 Skype 伺服器中的 [部署呼叫許可控制](../../../deploy/deploy-enterprise-voice/deploy-call-admission-control.md)]。
+- **啟用呼叫許可控制**選取此設定以啟用 CAC。 清除此設定以針對您的整個網路停用 CAC。 若要啟用 CAC，您必須將您的網路設定為 CAC。 如需詳細資訊，請參閱部署檔中的[商務用 Skype 伺服器中的 [部署呼叫許可控制](../../../deploy/deploy-enterprise-voice/deploy-call-admission-control.md)]。
     
-- **用於執行呼叫許可控制的 [前端] 池**如果您啟用的是 CAC, 您可以變更執行它的池。 從下拉式清單中選取 [[] 池。
+- **用於執行呼叫許可控制的 [前端] 池**如果您啟用的是 CAC，您可以變更執行它的池。 從下拉式清單中選取 [[] 池。
     
 

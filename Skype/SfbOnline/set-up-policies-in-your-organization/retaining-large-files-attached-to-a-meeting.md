@@ -14,20 +14,21 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Setup
-description: 您可以將檔案附加到商務用 Skype 會議，參與者可以開啟並下載。 附加到商務用 Skype 會議的檔案會保留在任何參與者的信箱中，其信箱是在訴訟封存中，已套用 Office 365 保留原則，或是放在與 Office 365 安全性中與 eDiscovery 案例相關的保留中&amp;合規性中心。 此內容會儲存到其信箱中的參與者 [可復原的專案] 資料夾中。
-ms.openlocfilehash: 4a8022b522f933ff8897586f632764eda77c6a67
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 您可以將檔案附加到商務用 Skype 會議，參與者可以開啟並下載。 附加到商務用 Skype 會議的檔案會保留在任何參與者的信箱中，其信箱是在訴訟封存中，已套用 Office 365 保留原則，或是放在與 Office 365 安全&amp;規範中心中與 eDiscovery 案例相關的保留中。 此內容會儲存到其信箱中的參與者 [可復原的專案] 資料夾中。
+ms.openlocfilehash: fdd6786cb9b7e5535abee47eb1f0b538b6a22b45
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "37642677"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706648"
 ---
 # <a name="retaining-large-files-attached-to-a-skype-for-business-meeting"></a>保留附加到商務用 Skype 會議的大型檔案
 
-您可以將檔案附加到商務用 Skype 會議，參與者可以開啟並下載。 附加到商務用 Skype 會議的檔案會保留在任何參與者的信箱中，其信箱是在訴訟封存中，已套用 Office 365 保留原則，或是放在與 Office 365 安全性中與 eDiscovery 案例相關的保留中&amp;合規性中心。 此內容會儲存到其信箱中的參與者 [可復原的**專案**] 資料夾中。
+您可以將檔案附加到商務用 Skype 會議，參與者可以開啟並下載。 附加到商務用 Skype 會議的檔案會保留在任何參與者的信箱中，其信箱是在訴訟封存中，已套用 Office 365 保留原則，或是放在與 Office 365 安全&amp;規範中心中與 eDiscovery 案例相關的保留中。 此內容會儲存到其信箱中的參與者 [可復原的**專案**] 資料夾中。
   
 [保留在信箱中的檔案] 是已編制索引，因此可在搜尋參與者信箱時，在安全&amp;規範中心中執行內容搜尋時搜尋。 不過，大於 30 MB 的附加檔案會分割成兩個或更多較小的檔案，並儲存為壓縮（.zip）檔案。 這些較小檔案的*內容*不會編制索引以進行搜尋，而且可能不會在內容搜尋中傳回。 不過，這些檔案的*中繼資料*（例如檔案名和作者）是針對搜尋編制索引，而且可能會在內容搜尋中傳回。
   
@@ -41,7 +42,7 @@ ms.locfileid: "37642677"
 
 [封鎖點對端檔案傳輸](block-point-to-point-file-transfers.md)
 
-[為您的組織設定用戶端原則](set-up-client-policies-for-your-organization.md)
+[設定組織的用戶端原則](set-up-client-policies-for-your-organization.md)
 
 [在組織中設定會議原則](set-up-conferencing-policies-for-your-organization.md)
   

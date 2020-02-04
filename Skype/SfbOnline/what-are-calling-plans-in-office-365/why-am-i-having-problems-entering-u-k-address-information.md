@@ -16,17 +16,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords:
+f1.keywords:
 - ms.lync.lac.CivicAddressGBSyntaxError
 ms.custom:
 - Calling Plans
 description: 以下是為什麼您無法在英國（英國）正確驗證位址或位址的一些原因。
-ms.openlocfilehash: e710f2ef502bb264677bc89d5cdebb2584d48679
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0d854f41c13f2f34a0582b70d85ca841b4ccc53a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "37642925"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41705858"
 ---
 # <a name="why-am-i-having-problems-entering-uk-address-information"></a>為什麼我無法輸入英國 位址資訊？
 
@@ -111,11 +111,11 @@ ms.locfileid: "37642925"
 
    
 ## <a name="related-topics"></a>相關主題
-[傳送電話號碼常見問題](/microsoftteams/transferring-phone-numbers-common-questions)
+[移轉電話號碼的常見問題](/microsoftteams/transferring-phone-numbers-common-questions)
 
 [通話方案所用的不同類型的電話號碼](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[緊急通話條款與條件](/microsoftteams/emergency-calling-terms-and-conditions)
+[緊急通話條款及條件](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [商務用 Skype Online：緊急通話免責聲明標籤](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 

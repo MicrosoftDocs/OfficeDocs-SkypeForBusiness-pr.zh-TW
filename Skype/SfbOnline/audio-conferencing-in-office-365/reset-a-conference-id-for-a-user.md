@@ -16,16 +16,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: '瞭解在商務用 Skype Online 中重設使用者的會議 ID，以及取得會議更新與遷移工具的連結的步驟。 '
-ms.openlocfilehash: 0e214444b80f6562c733526acbb6f87c66e46922
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: c87db0972fb8144d7a8a807de81905f5be23191c
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "37642326"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707148"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-skype-for-business-online"></a>在商務用 Skype Online 中重設使用者的會議 ID
 
@@ -85,4 +86,4 @@ ms.locfileid: "37642326"
     
 ## <a name="related-topics"></a>相關主題
 
-[重設音訊會議 PIN](reset-the-audio-conferencing-pin.md)
+[重設音訊會議 PIN 碼](reset-the-audio-conferencing-pin.md)

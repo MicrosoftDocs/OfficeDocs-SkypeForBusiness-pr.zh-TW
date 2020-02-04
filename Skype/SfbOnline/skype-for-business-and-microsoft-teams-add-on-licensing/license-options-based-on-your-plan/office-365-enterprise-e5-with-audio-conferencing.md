@@ -15,17 +15,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Licensing
 - LIL_Placement
 description: '瞭解附加元件授權、功能，以及如何購買 Office 365 企業版方案。 '
-ms.openlocfilehash: c0da6cc3d28cb5f41e29509a7f75dbe8c3a1b476
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1913d16b4a6595db27b4d32a10023866a5f76bb0
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "37643024"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706098"
 ---
 # <a name="office-365-enterprise-e5"></a>Office 365 企業版 E5
 

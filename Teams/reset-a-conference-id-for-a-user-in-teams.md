@@ -15,16 +15,17 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: '瞭解在 Microsoft 團隊中重設使用者的會議 ID，以及取得會議更新與遷移工具的連結的步驟。 '
-ms.openlocfilehash: 894761811bfc9c353c7a145c83c7a201a587f1e2
-ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
+ms.openlocfilehash: 42da4c52ed0e81cddb2ffa49b5a2f1a3eceee0f7
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "37568364"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707488"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-microsoft-teams"></a>在 Microsoft 團隊中重設使用者的會議 ID
 
@@ -75,4 +76,4 @@ Windows PowerShell 全部說明如何管理使用者，以及允許或不允許�
     
 ## <a name="related-topics"></a>相關主題
 
-[重設音訊會議 PIN](reset-the-audio-conferencing-pin-in-teams.md)
+[重設音訊會議 PIN 碼](reset-the-audio-conferencing-pin-in-teams.md)

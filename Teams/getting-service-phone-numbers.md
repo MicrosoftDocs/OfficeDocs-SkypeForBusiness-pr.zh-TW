@@ -16,16 +16,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Phone System
 description: 除了從 Office 365 取得使用者的電話號碼之外，您還可以在 [音訊會議] （適用于 [會議室]）、自動語音應答及通話佇列（亦稱為服務號碼）等服務中搜尋和取得付費或免付費電話號碼。 服務電話號碼的並行通話容量比使用者或訂閱者電話號碼要高。
-ms.openlocfilehash: 831bfc30feccca06fbfa9414e92d6dc5a957cb40
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 80d6de01ffcf88579be6ef3ffb550d7ea231c796
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569550"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707889"
 ---
 # <a name="getting-service-phone-numbers"></a>取得服務電話號碼
 
@@ -87,7 +88,7 @@ ms.locfileid: "37569550"
 ## <a name="related-topics"></a>相關主題
 [以下是您在 Office 365 中使用電話系統所取得的結果](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
-[適用于音訊會議與通話方案的國家和地區可用性](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
+[音訊會議與通話方案的適用國家/地區](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 
   
  

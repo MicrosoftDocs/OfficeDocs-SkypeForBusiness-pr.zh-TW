@@ -1,5 +1,5 @@
 ---
-title: 什麼是埠順序？
+title: 什麼是移轉訂單？
 ms.author: v-lanac
 author: lanachin
 manager: serdars
@@ -12,18 +12,18 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: ms.teamsadmincenter.voice.phonenumbers.porting.overview
+f1.keywords: ms.teamsadmincenter.voice.phonenumbers.porting.overview
 ms.custom:
 - Calling Plans
 description: 瞭解什麼是埠訂單，以及如何將電話號碼從服務提供者轉移至團隊。
-ms.openlocfilehash: 4edaac3722e8fc37ca856b240171f923a0a99f66
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 3f75acf8711838b159bacfe11169e500273eaf01
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925633"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708759"
 ---
-# <a name="whats-a-port-order"></a>什麼是埠順序？
+# <a name="whats-a-port-order"></a>什麼是移轉訂單？
 
 如果您目前有電話服務提供者或運營商，而且您已經有電話號碼供使用者或服務使用，您必須建立「*埠順序*」，將這些電話號碼轉移至 Microsoft 團隊。 當您將號碼移過時，您可以將這些電話號碼指派給使用者和服務，例如音訊會議（適用于會議橋接）、自動語音應答及通話佇列。
   
@@ -161,7 +161,7 @@ ms.locfileid: "37925633"
 
 ## <a name="related-topics"></a>相關主題
 
-- [您的埠訂單狀態為何？](port-order-status.md)
+- [您的移轉訂單狀態為何？](port-order-status.md)
 - [通話方案所用的不同類型的電話號碼](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [管理貴組織的電話號碼](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [緊急通話條款及條件](../emergency-calling-terms-and-conditions.md)

@@ -1,5 +1,5 @@
 ---
-title: 手動提交埠順序
+title: 手動提交移轉訂單
 ms.author: v-lanac
 author: lanachin
 manager: serdars
@@ -13,18 +13,18 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: ''
+f1.keywords: ''
 ms.custom:
 - Calling Plans
 description: 瞭解如何手動提交埠訂單要求。
-ms.openlocfilehash: 90864afc9923f6977dfcfc9376d1191b740f242a
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 6844865159da4df084bb8ecfb5d324b19fbfebb5
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925635"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708738"
 ---
-# <a name="manually-submit-a-port-order"></a>手動提交埠順序
+# <a name="manually-submit-a-port-order"></a>手動提交移轉訂單
 
 在某些國家和地區，您可能必須手動提交服務要求，才能取得電話號碼、傳送電話號碼、放開電話號碼或變更位址。 若要查看每個國家/地區所需的內容，或深入瞭解編號移植的詳細資訊，請參閱[管理貴組織的電話號碼](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
 
@@ -60,7 +60,7 @@ ms.locfileid: "37925635"
 
 ## <a name="related-topics"></a>相關主題
 
-- [什麼是埠順序？](port-order-overview.md)
+- [什麼是移轉訂單？](port-order-overview.md)
 - [通話方案所用的不同類型的電話號碼](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [管理貴組織的電話號碼](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [緊急通話條款及條件](../emergency-calling-terms-and-conditions.md)

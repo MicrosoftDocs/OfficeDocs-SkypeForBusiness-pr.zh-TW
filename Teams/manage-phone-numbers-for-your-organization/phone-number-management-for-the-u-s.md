@@ -16,16 +16,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: 您可以在此表格中尋找有關在 Microsoft 團隊的美國（以及波多黎各）中取得及管理電話號碼的資訊。
-ms.openlocfilehash: d65dc8727d99d2387721176b9ee94242db6ff04a
-ms.sourcegitcommit: 43a17ce6fea3951719b55bfbda03c500cef4816c
+ms.openlocfilehash: 8013b3a822f9e453dd60bb7e5af73a1326f7c04c
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41580810"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706928"
 ---
 # <a name="phone-number-management-for-the-us"></a>美國的電話號碼管理
 

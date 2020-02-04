@@ -1,5 +1,5 @@
 ---
-title: 深入瞭解通話行識別碼與呼叫方名稱
+title: 深入了解通話線路識別碼和來電方名稱
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,18 +15,19 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: 瞭解為何您需要新增在您使用 [新的當地號碼埠順序] 嚮導時可以變更帳戶的授權人員。
-ms.openlocfilehash: 833bb27aa34b16601485437be9e25e2e41c2bf4e
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: a687bc1aca8a47b349415d4a0cc2dc9f61f81884
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573376"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708799"
 ---
-# <a name="more-about-calling-line-id-and-calling-party-name"></a>深入瞭解通話行識別碼與呼叫方名稱
+# <a name="more-about-calling-line-id-and-calling-party-name"></a>深入了解通話線路識別碼和來電方名稱
 
 CallerID （如通常所說的話），實際上是由兩個面向使用者的可識別區塊所組成：
     - 電話號碼（通常稱為 CLID 或呼叫行識別碼） 

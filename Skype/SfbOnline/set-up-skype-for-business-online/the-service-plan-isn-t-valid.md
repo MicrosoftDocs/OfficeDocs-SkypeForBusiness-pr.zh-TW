@@ -15,17 +15,17 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords:
+f1.keywords:
 - ms.lync.lac.ServicePlanNotValid
 ms.custom:
 - Setup
 description: '在商務用 Skype Online 服務方案不是有效錯誤之後，請參閱在何處將有效的服務方案指派給使用者。 '
-ms.openlocfilehash: 896ac04909e9b00ada8e18e6a83f7fa9096f7455
-ms.sourcegitcommit: 3c11153ffdc3296a9cf2a7078fff5049c091e55a
+ms.openlocfilehash: 2c3137cb5e8873c1416d7fac2d20930c8f378844
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/01/2019
-ms.locfileid: "37642287"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706438"
 ---
 # <a name="the-users-skype-for-business-online-service-plan-isnt-valid"></a>使用者的商務用 Skype Online 服務方案無效
 

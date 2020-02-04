@@ -1,5 +1,5 @@
 ---
-title: 在商務用 Skype Online 中設定目前狀態
+title: 設定商務用 Skype Online 的顯示狀態
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -14,19 +14,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - O365P_OnlinePresenceDesc
 ms.custom:
 - Setup
 description: '瞭解如何設定商務用 Skype，讓您可以查看同事的可用性。 '
-ms.openlocfilehash: ba6ff112eee78e6e70b435b19caa62187a98afcf
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 7e0389d232d1b05a39827ed89e82acb6aa35a82a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "37642206"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706518"
 ---
-# <a name="configure-presence-in-skype-for-business-online"></a>在商務用 Skype Online 中設定目前狀態
+# <a name="configure-presence-in-skype-for-business-online"></a>設定商務用 Skype Online 的顯示狀態
 
 根據預設，任何可以使用商務用 Skype 與組織中的人員進行通訊的人，也可以查看該人員是否處於線上狀態。 [商務用 Skype] 會顯示人員是否可在線上、會議、離線或其他標記中取得。
 

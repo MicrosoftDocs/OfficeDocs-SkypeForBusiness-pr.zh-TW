@@ -15,19 +15,19 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.voice.pstnservicedesk
 - ms.teamsadmincenter.voice.contactPSTNsupport
 ROBOTS: NOINDEX, NOFOLLOW
 ms.custom:
 - Calling Plans
 description: 當您取得貴組織的電話號碼或移植（轉移）號碼時，您可能需要在 PSTN 服務台取得說明和支援。
-ms.openlocfilehash: 72484e6957a17593c6a286505dfce00e051f0762
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 69e3d8dfc3d4568ca4801105459580b5f108e5a0
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570608"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707238"
 ---
 # <a name="pstn-service-desk-help"></a>PSTN service 服務台說明
 
@@ -44,5 +44,5 @@ ms.locfileid: "37570608"
 
 [管理貴組織的電話號碼](manage-phone-numbers-for-your-organization.md)
 
-[緊急通話條款與條件](../emergency-calling-terms-and-conditions.md)
+[緊急通話條款及條件](../emergency-calling-terms-and-conditions.md)
   

@@ -16,16 +16,17 @@ appliesto:
 - Skype for Business Online
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Security
 description: 商務用 Skype Online 的安全性指南<add description>
-ms.openlocfilehash: 8fb0ef5322af99e3868a64be4101cf898918c449
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 268a9859439ca91b5ad7cd8d5e32edf707860cde
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "37642217"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706808"
 ---
 # <a name="security-and-skype-for-business-online"></a>安全性與商務用 Skype Online
 
@@ -168,7 +169,7 @@ SfBO 使用 TLS 和 MTLS 來加密立即訊息。 不論流量是限制在內部
 |**流量類型**|**受**|
 |伺服器與伺服器|MTLS|
 |用戶端到伺服器|EAP-TLS|
-|立即訊息和目前狀態|TLS （如果針對 TLS 進行設定）|
+|立即訊息與顯示狀態|TLS （如果針對 TLS 進行設定）|
 |媒體的音訊和影片與桌面共用|SRTP|
 |桌面共用（信號）|EAP-TLS|
 |網路會議|EAP-TLS|

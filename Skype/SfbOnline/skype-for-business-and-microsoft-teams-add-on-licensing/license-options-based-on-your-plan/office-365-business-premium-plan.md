@@ -1,5 +1,5 @@
 ---
-title: 'Office 365 商務版 '
+title: 'Office 365 商務進階版 '
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,19 +15,20 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Licensing
 - LIL_Placement
 description: '瞭解附加元件授權、功能，以及如何購買 Office 365 商務版 Premium 方案。 '
-ms.openlocfilehash: 0e1c5ebe64c105e15485c0722920ec1437d05b27
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 9ffc251fafb9c1304f78d215a2b5c26d17ae9aae
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "37642255"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706108"
 ---
-# <a name="office-365-business-premium"></a>Office 365 商務版
+# <a name="office-365-business-premium"></a>Office 365 商務進階版
 
 如果您有[Office 365 商務版 Premium](https://products.office.com/en/business/office-365-business-premium)，您可以使用商務用 Skype 撥打訂閱中的其他人員。 例如，如果您的公司有10人，您可以使用商務用 Skype 呼叫和傳送 IM 給對方。
 

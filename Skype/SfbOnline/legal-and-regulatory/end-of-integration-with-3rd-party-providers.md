@@ -14,17 +14,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: None
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Legal
 hideEdit: true
 description: 在2021年7月31日，生命計畫結束時，將會結束與協力廠商音訊會議提供者（協力廠商 ACP）的商務用 Skype 的整合。
-ms.openlocfilehash: f5d821b1dbb71fb2b1371230a6d7575d6fb70fe8
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: b9bd1640d615babab29a073aeeee2b1beb92fc02
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "37642491"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706688"
 ---
 # <a name="end-of-life-program-for-the-integration-of-skype-for-business-with-third-party-audio-conferencing-providers"></a>在商務用 Skype 中與協力廠商音訊會議提供者整合的生命計畫結束 
 
@@ -72,7 +73,7 @@ Microsoft 已宣佈結束生命計畫的開始，以便與協力廠商音訊會�
 
 遷移至 Microsoft 音訊會議很簡單，只要取得服務授權之後，就可以完成幾個步驟。 若要瞭解如何遷移至 Microsoft 音訊會議，請參閱：
 
-- [在 Office 365 中試用或購買音訊會議](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+- [試用或購買 Office 365 的音訊會議](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
  
 **合計**
 

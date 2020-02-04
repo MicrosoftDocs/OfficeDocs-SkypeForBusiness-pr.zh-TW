@@ -16,17 +16,18 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 瞭解哪些國家和地區有電話撥入式會議號碼，以及它們的自動指派方式。
-ms.openlocfilehash: d7de04be8fb02e12b97dc964cd0fe8e1c37c821d
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: df588b2bd920a66b7d44d3dbaedd01478a2229f2
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573317"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708619"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-microsoft-teams"></a>Microsoft 團隊中音訊會議的電話號碼
 
@@ -76,4 +77,4 @@ ms.locfileid: "37573317"
    
 ## <a name="related-topics"></a>相關主題
 
-[在 Office 365 中試用或購買音訊會議](/skypeforbusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[試用或購買 Office 365 的音訊會議](/skypeforbusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

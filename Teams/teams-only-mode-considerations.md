@@ -12,18 +12,18 @@ description: 準備升級至 [僅限 Microsoft 團隊] 模式
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-f1keywords: ms.teamsadmincenter.orgwidesettings.teamsupgrade.upgradetoteams
+f1.keywords: ms.teamsadmincenter.orgwidesettings.teamsupgrade.upgradetoteams
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 81609298a580594e8c54d185d7dea3be86824139
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: 89aded4747bc0a3f41fd78ce1bdced7b3363775b
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37435108"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708309"
 ---
 # <a name="teams-only-mode-considerations"></a>僅限團隊的模式考慮
 
@@ -31,7 +31,7 @@ ms.locfileid: "37435108"
 
 升級至 [僅限團隊] 模式可透過單一用戶端體驗，為使用者提供 Microsoft 團隊的全部好處，即在 Office 365 中進行團隊合作的中心。 此外，[團隊專用] 模式中的使用者會在團隊中收到所有通話和聊天，不論寄件者是使用商務用 Skype 還是小組，以及互通性與同盟支援的好處。
 
-雖然成千上萬的客戶已成功升級至 Microsoft 團隊，但在這種情況下，可能也會影響貴組織的升級時程表和使用者體驗。 特別是，升級選項並不一定表示貴組織已準備好進行這項變更。 若要獲得最佳的使用者體驗，請確認團隊符合您的共同作業和溝通需求，請確認您的網路已準備好支援小組，並在將使用者升級至團隊之前先執行您的使用者準備方案。 
+雖然成千上萬的客戶已成功升級至 Microsoft 團隊，但在這種情況下，可能也會影響貴組織的升級時程表和使用者體驗。 特別是，升級選項並不一定表示貴組織已準備好進行這項變更。 為了獲得最佳使用者體驗，請確認 Teams 符合您的共同作業與通訊需求，並確認您的網路已準備好可支援 Teams，並在將使用者升級至 Teams 之前，先進行您的使用者整備計劃。 
 
 > [!IMPORTANT]
 > 如果您剛剛開始升級規劃，請務必複習我們的完整升級指導方針和規劃資源。 [從這裡開始](upgrade-start-here.md)。 

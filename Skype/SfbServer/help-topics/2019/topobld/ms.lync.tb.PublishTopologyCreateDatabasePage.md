@@ -6,35 +6,35 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.PublishTopologyCreateDatabasePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4d391619-1cab-4265-ae8a-2519993705bc
 ROBOTS: NOINDEX, NOFOLLOW
-description: '[拓撲建立器] 提供在 SQL Server store 上安裝資料庫的方法。 當您使用 [拓撲建立器] 來安裝資料庫時, 應用程式會讀取拓撲中的資訊, 然後在指定的 SQL Server 電腦或 SQL Server 群集上安裝所需的資料庫。 這是唯一可以使用拓撲產生器進行的資料庫安裝類型。 如果您需要在特定電腦上安裝特定資料庫, 或必須安裝 collocated 資料庫, 則必須改為使用 Windows PowerShell 命令列介面和安裝 CsDatabase Cmdlet。'
-ms.openlocfilehash: 5736e399771eef30808e62c8a11876d1b6f3d8ed
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: '[拓撲建立器] 提供在 SQL Server store 上安裝資料庫的方法。 當您使用 [拓撲建立器] 來安裝資料庫時，應用程式會讀取拓撲中的資訊，然後在指定的 SQL Server 電腦或 SQL Server 群集上安裝所需的資料庫。 這是唯一可以使用拓撲產生器進行的資料庫安裝類型。 如果您需要在特定電腦上安裝特定資料庫，或必須安裝 collocated 資料庫，則必須改為使用 Windows PowerShell 命令列介面和安裝 CsDatabase Cmdlet。'
+ms.openlocfilehash: b10fe3c476fe4519e425b6990f32302df61758c3
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36193386"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41701650"
 ---
 # <a name="create-database"></a>建立資料庫
  
-[拓撲建立器] 提供在 SQL Server store 上安裝資料庫的方法。 當您使用 [拓撲建立器] 來安裝資料庫時, 應用程式會讀取拓撲中的資訊, 然後在指定的 SQL Server 電腦或 SQL Server 群集上安裝所需的資料庫。 這是唯一可以使用拓撲產生器進行的資料庫安裝類型。 如果您需要在特定電腦上安裝特定資料庫, 或必須安裝 collocated 資料庫, 則必須改為使用 Windows PowerShell 命令列介面和[安裝 CsDatabase](https://docs.microsoft.com/powershell/module/skype/install-csdatabase?view=skype-ps) Cmdlet。
+[拓撲建立器] 提供在 SQL Server store 上安裝資料庫的方法。 當您使用 [拓撲建立器] 來安裝資料庫時，應用程式會讀取拓撲中的資訊，然後在指定的 SQL Server 電腦或 SQL Server 群集上安裝所需的資料庫。 這是唯一可以使用拓撲產生器進行的資料庫安裝類型。 如果您需要在特定電腦上安裝特定資料庫，或必須安裝 collocated 資料庫，則必須改為使用 Windows PowerShell 命令列介面和[安裝 CsDatabase](https://docs.microsoft.com/powershell/module/skype/install-csdatabase?view=skype-ps) Cmdlet。
   
 ### <a name="creating-a-database"></a>建立資料庫
 
-1. 按一下 [商務用 Skype 伺服器] 節點, 然後按一下 [**安裝資料庫**]。
+1. 按一下 [商務用 Skype 伺服器] 節點，然後按一下 [**安裝資料庫**]。
     
-2. 在 [**安裝資料庫**] 對話方塊的 [**建立資料庫**] 頁面上, 選取要建立新資料庫的 SQL Server store 的完整功能變數名稱 (FQDN)。
+2. 在 [**安裝資料庫**] 對話方塊的 [**建立資料庫**] 頁面上，選取要建立新資料庫的 SQL Server store 的完整功能變數名稱（FQDN）。
     
 3. 按一下 [進階]****。在 [選取資料庫檔案位置]**** 對話方塊中，選取下列其中一個選項：
     
    - **自動判斷資料庫檔案位置**。選取此選項時，拓撲產生器會使用內建的演算法選擇資料庫記錄與資料檔案的儲存位置。
     
-   - **使用 SQL Server 執行個體預設值**。 選取此選項時，不會使用內建的演算法選擇資料庫記錄與資料檔案的儲存位置。 相反地, 記錄和資料檔案會儲存在 SQL Server 預設路徑所指定的位置 (這些路徑必須由 SQL Server 系統管理員設定為高級)。 資料檔案會儲存在預設的 SQL Server 資料檔案位置中，而記錄檔案則儲存在預設的 SQL Server 記錄檔案位置中。
+   - **使用 SQL Server 執行個體預設值**。 選取此選項時，不會使用內建的演算法選擇資料庫記錄與資料檔案的儲存位置。 相反地，記錄和資料檔案會儲存在 SQL Server 預設路徑所指定的位置（這些路徑必須由 SQL Server 系統管理員設定為高級）。 資料檔案會儲存在預設的 SQL Server 資料檔案位置中，而記錄檔案則儲存在預設的 SQL Server 記錄檔案位置中。
     
 4. 按一下 [確定]****。
     

@@ -11,7 +11,7 @@ description: 商務用 Skype 和 Microsoft 團隊共存選項與模式的詳細�
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.orgwidesettings.teamsfeatures.upgradetoteamsarticle
 - ms.teamsadmincenter.upgradeoverride.learnmore
 ms.collection:
@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5de243402cd5694b2e4a498f7ff7650cd8f49f4a
-ms.sourcegitcommit: 2e005b335b1566c99b93fc311498702838466324
+ms.openlocfilehash: 6d9f4583e3ea15a073e0dbbebbebaee9db64678d
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/02/2019
-ms.locfileid: "37931641"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707528"
 ---
 ![升級歷程圖表，強調專案定義階段](media/upgrade-banner-project-definition.png "升級歷程階段，重點放在專案定義階段")
 
@@ -99,9 +99,9 @@ ms.locfileid: "37931641"
 
 | 團隊經驗 | 在孤島模式中 | 在 TeamsOnly 模式中 |
 |:------------------ | :------------------- | :------------------ |
-| 傳入聊天與接聽的通話：|  團隊或商務用 Skype | 協同 |
-| 在下列情況中接收 PSTN 通話： | 商務用 Skype <br>（在 [孤島] 模式中不支援使用團隊中的 PSTN 功能。）    | 協同 |   
- |平臺  | 商務用 Skype 和團隊中的目前狀態是獨立的。 針對相同的孤島使用者，使用者可能會看到不同的狀態，視它們所使用的用戶端而定。 | 目前狀態僅根據使用者在團隊中的活動而定。 所有其他使用者（無論他們使用的用戶端），請參閱目前狀態。 | 
+| 傳入聊天與接聽的通話：|  團隊或商務用 Skype | Teams |
+| 在下列情況中接收 PSTN 通話： | 商務用 Skype <br>（在 [孤島] 模式中不支援使用團隊中的 PSTN 功能。）    | Teams |   
+ |目前狀態  | 商務用 Skype 和團隊中的目前狀態是獨立的。 針對相同的孤島使用者，使用者可能會看到不同的狀態，視它們所使用的用戶端而定。 | 目前狀態僅根據使用者在團隊中的活動而定。 所有其他使用者（無論他們使用的用戶端），請參閱目前狀態。 | 
  | 會議排程   | 使用者可以在小組或商務用 Skype 中排程會議。 它們會在 Outlook 中看到兩個增益集。 |   使用者只會在團隊中排程會議。 只有 [團隊] 增益集可在 Outlook 中使用。 | 
 
 下表摘要列出使用重迭的功能方法將您的組織遷移至團隊的優點與缺點。
@@ -143,10 +143,10 @@ ms.locfileid: "37931641"
 
 |團隊經驗  |在 SfBWithTeamsCollab 模式中 |在 SfBWithTeamsCollabAndMeetings 模式中 |在 TeamsOnly 模式中  |
 |---------|---------|---------|---------|
-|貴組織中的使用者傳入聊天和 VOIP 通話的方式如下：     | 商務用 Skype        | 商務用 Skype       | 協同        |
-|在下列情況中接收 PSTN 通話：     | 商務用 Skype        |商務用 Skype         | 協同        |
-|平臺     | 商務用 Skype        |商務用 Skype         | 協同        |
-|會議排程     | 商務用 Skype         | 協同        | 協同        |
+|貴組織中的使用者傳入聊天和 VOIP 通話的方式如下：     | 商務用 Skype        | 商務用 Skype       | Teams        |
+|在下列情況中接收 PSTN 通話：     | 商務用 Skype        |商務用 Skype         | Teams        |
+|目前狀態     | 商務用 Skype        |商務用 Skype         | Teams        |
+|會議排程     | 商務用 Skype         | Teams        | Teams        |
 
 
 下表摘要列出使用商務用 Skype 模式做為 TeamsOnly 模式的過渡階段的優點與缺點。
@@ -177,7 +177,7 @@ ms.locfileid: "37931641"
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/> <br/>決策點</td><td><ul> 哪些升級旅程適合貴組織的業務需求？<br><br></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next step"/><br/>下一個步驟</td><td><ul> 找出您目前的部署模型、使用案例案例，以及貴組織的重要考慮，將會通知您的小組最適合您的組織。<br><br></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next step"/><br/>後續步驟</td><td><ul> 找出您目前的部署模型、使用案例案例，以及貴組織的重要考慮，將會通知您的小組最適合您的組織。<br><br></ul></td></tr>
 </table>
 
 <table>

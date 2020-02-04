@@ -13,19 +13,19 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.meetingpolicies.overview
 - ms.teamsadmincenter.meetingpolicies.audioandvideo
 - ms.teamsadmincenter.meetingpolicies.contentsharing
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: 瞭解如何在團隊中管理會議原則設定。
-ms.openlocfilehash: 9199be5eced7faee3e72f7b94c1f9e3be3c9573c
-ms.sourcegitcommit: a47bd5194672820380d30722b60779ce2d8a8f78
+ms.openlocfilehash: 2223882020bf9ea045e18d42c6591eceba628999
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "41649096"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708839"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>在團隊中管理會議原則
 
@@ -34,7 +34,7 @@ ms.locfileid: "41649096"
 
 您可以透過下列方式來實施原則，這會影響使用者在會議開始之前、會議期間或會議之後的會議體驗。
 
-|實現類型  |描述  |
+|實現類型  |說明  |
 |---------|---------|
 |每個召集人    |當您實施每個召集人原則時，所有會議參與者都會繼承召集人的原則。 例如，**自動承認人員**是每個召集人原則，並控制使用者是否要直接加入會議，或在會議廳中等待指派原則的使用者所排程的會議。          |
 |每位使用者    |當您執行每個使用者的原則時，只會套用每個使用者的原則，以限制召集人和/或會議參與者的特定功能。 例如，[**允許在頻道中立即開會**] 是每個使用者的原則。     |

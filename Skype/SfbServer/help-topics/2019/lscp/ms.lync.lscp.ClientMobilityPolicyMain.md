@@ -6,27 +6,27 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.ClientMobilityPolicyMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6ab53530-143d-4f1e-90cd-a92685f98a20
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[ClientsMobility 原則] 頁面會顯示您部署中可用的行動原則。'
-ms.openlocfilehash: b475a50495c2056c7559982dc6ac1db1aa9edc05
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ef7329456fe1a39e00edb1dced8fe368736a9b7d
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36193224"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41705098"
 ---
-# <a name="clients-mobility-policy"></a>用戶端: 行動原則
+# <a name="clients-mobility-policy"></a>用戶端：行動性原則
 
 [**用戶端****行動原則**] 頁面會顯示您部署中可用的行動原則。
 
 ## <a name="tasks-you-can-perform"></a>您可以執行的工作
 
-您可以在 [**行動原則**] 頁面上執行下列任務:
+您可以在 [**行動原則**] 頁面上執行下列任務：
 
 - 查看現有行動原則
 
@@ -40,15 +40,15 @@ ms.locfileid: "36193224"
 
 
 
-- **搜尋欄位**在文字方塊中輸入字串, 即可篩選顯示的原則。
+- **搜尋欄位**在文字方塊中輸入字串，即可篩選顯示的原則。
 
-- **新增**按一下 [**新增**], 然後選取 [**網站**] 或 [**使用者**] 來建立新的行動原則。
+- **新增**按一下 [**新增**]，然後選取 [**網站**] 或 [**使用者**] 來建立新的行動原則。
 
-- [**編輯**]選取原則, 然後按一下 [**編輯**] 以編輯選取原則的屬性。
+- [**編輯**]選取原則，然後按一下 [**編輯**] 以編輯選取原則的屬性。
 
-- **更新**刷新顯示的原則清單。 當您按一下****[重新整理], 就會清除搜尋篩選字串, 並顯示所有現有的原則。
+- **更新**刷新顯示的原則清單。 當您按一下 [重新整理]，就會清除搜尋篩選**字串，並**顯示所有現有的原則。
 
-如需有關設定行動原則的詳細資訊, 請參閱設定[行動原則](https://technet.microsoft.com/library/595536e0-9bb3-49a3-8d13-1a77351ebc62.aspx)。
+如需有關設定行動原則的詳細資訊，請參閱設定[行動原則](https://technet.microsoft.com/library/595536e0-9bb3-49a3-8d13-1a77351ebc62.aspx)。
 
 ## <a name="see-also"></a>另請參閱
 

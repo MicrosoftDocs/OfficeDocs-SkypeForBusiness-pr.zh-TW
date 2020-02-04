@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.EdgeServersScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0d49587e-5079-4fe0-a9b9-fb0853811fca
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[Edge 集區] 節點會列出您拓撲中的 Edge 集區。 您可以執行下列動作：'
-ms.openlocfilehash: 97c5df70d5e23ba0c88a9be0e9fa5c6295d6b535
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 77e7ddcec767550d7e2b88279ac53d9ad87841be
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36193436"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41702228"
 ---
 # <a name="edge-servers-scope-node"></a>Edge Server 範圍節點
  

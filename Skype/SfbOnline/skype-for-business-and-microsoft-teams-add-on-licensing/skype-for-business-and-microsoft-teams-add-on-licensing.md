@@ -17,17 +17,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Licensing
 - LIL_Placement
 description: '瞭解附加元件授權、您可以取得的功能、如何為您的產品購買，以及如何將您現有的運營商與他們搭配使用。 您可以取得 Office 365、通訊點數和通話方案的定價與方案詳細資料。 '
-ms.openlocfilehash: 748a08d088e3637566b6c6c1636bbf7a513f1f4d
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: c48136176673676df83833833b4424d8d0a593f3
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "37642864"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706078"
 ---
 # <a name="skype-for-business-add-on-licensing"></a>商務用 Skype 附加元件授權
 
@@ -60,21 +61,21 @@ ms.locfileid: "37642864"
 |**您的會議撥入存取的免費電話號碼，以及從會議撥出的電話號碼，透過撥打世界各地的任何電話號碼來新增人員** <br/> |如果您要新增音訊會議，建議您[設定通訊點數](/microsoftteams/set-up-communications-credits-for-your-organization)。 <br/> |
 |**電話系統** <br/> |PBX 是企業中的電話系統。 Office 365 中的 [電話系統] 是託管電話語音。 它提供傳統與創新的 PBX 功能，但沒有複雜且昂貴的裝置。 [以下是您在 Office 365 中使用電話系統所取得的內容](/MicrosoftTeams/here-s-what-you-get-with-phone-system)。  <br/> 如果您要尋找多少成本，請參閱[電話系統的需求](https://products.office.com/en-us/skype-for-business/cloud-pbx#requirements)。  <br/> |
 |**通話方案** <br/> |呼叫其他商務用 Skype 使用者是免費的，但如果您想讓您的使用者能夠撥打電話給公司以外的任何電話號碼，請取得通話[方案](/MicrosoftTeams/calling-plans-for-office-365)。 Office 365 中有國內通話方案和國內和國際通話方案。  <br/> 如果您要尋找多少成本，請參閱[通話方案的需求](https://products.office.com/en-us/skype-for-business/pstn-calling-plans#requirements)。  <br/> |
-|**Microsoft 團隊聊天室** <br/> |這不是附加元件，而是將影片、音訊和內容共用放在會議室的功能。 請參閱[Microsoft 團隊聊天室](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)。  <br/> |
+|**Microsoft Teams 會議室** <br/> |這不是附加元件，而是將影片、音訊和內容共用放在會議室的功能。 請參閱[Microsoft 團隊聊天室](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)。  <br/> |
 
 需要與某個人討論所有附加元件選項嗎？ [客戶支援部門-系統管理協助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
 
-## <a name="license-options-based-on-your-plan"></a>以您的方案為基礎的授權選項
+## <a name="license-options-based-on-your-plan"></a>根據您方案的授權選項
 
 您可使用的附加元件授權選項，取決於您的 Office 365 或商務用 Skype 方案。 請參閱下列主題，瞭解適用于您方案的資訊、功能和選項。
 
-- [Office 365 商務版](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-business-premium-plan.md)
-- [Office 365 Premium、Office 365 專業增強版或商務用 Skype Online 方案2](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-premium-pro-plus-or-business-online-plan.md)
-- [Office 365 企業版 E1、E3 和 E4](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e1-e3-e4.md)
+- [Office 365 商務進階版](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-business-premium-plan.md)
+- [ Office 365 進階版、Office 365 專業增強版或商務用 Skype Online 方案 2](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-premium-pro-plus-or-business-online-plan.md)
+- [Office 365 企業版 E1、E3 及 E4](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e1-e3-e4.md)
 - [Office 365 企業版 E5](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing.md)
-- [Office 365 企業版 E5 （不含音訊會議）](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-without-audio-conferencing.md)
-- [Microsoft 團隊聊天室](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)
-- [.GOV、EDU 和非盈利性組織](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/gov-edu-and-nonprofit-organizations.md)
+- [Office 365 企業版 E5 (不含音訊會議)](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-without-audio-conferencing.md)
+- [Microsoft Teams 會議室](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)
+- [政府機關、教育界和非營利組織](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/gov-edu-and-nonprofit-organizations.md)
 
 如需每個商務用 Skype 方案的功能詳細清單及比較，請參閱[商務用 Skype Online 服務說明](https://go.microsoft.com/fwlink/?LinkId=730729)。
 
@@ -103,10 +104,10 @@ ms.locfileid: "37642864"
 
 - [設定商務用 Skype Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
     
-- [設定雲端語音信箱-系統管理協助](/microsoftteams/set-up-phone-system-voicemail)
+- [設定雲端語音信箱 - 系統管理說明](/microsoftteams/set-up-phone-system-voicemail)
     
 - 設定[Office 365 的](/MicrosoftTeams/calling-plans-for-office-365)[通話方案](/microsoftteams/set-up-calling-plans)和通話方案
     
-- [新增基金及管理通訊點數](/microsoftteams/add-funds-and-manage-communications-credits)
+- [加值和管理通訊點數](/microsoftteams/add-funds-and-manage-communications-credits)
     
 - [設定雲端連接器](https://technet.microsoft.com/en-us/library/mt605228.aspx)並[下載雲端連接器](https://aka.ms/CloudConnectorInstaller)

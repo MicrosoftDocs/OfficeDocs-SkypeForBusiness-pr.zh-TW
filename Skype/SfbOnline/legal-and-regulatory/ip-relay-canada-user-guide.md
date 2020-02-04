@@ -13,19 +13,20 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: None
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Legal
 hideEdit: true
 description: 如何使用加拿大的 IP 中轉帳戶。
-ms.openlocfilehash: 8fa60a7e8a5b91326733aacde610bc2ed125a627
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: fd02fe763c8913a76c5fff6e1cf765a8fce425b5
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "37642258"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706678"
 ---
-# <a name="ip-relay-in-canada---user-guide"></a>加拿大的 IP 中繼-使用者指南
+# <a name="ip-relay-in-canada---user-guide"></a>加拿大 IP 轉送 - 使用者指南
 
 Microsoft 的 IP 訊息中繼服務描述：
 
@@ -82,7 +83,7 @@ IP 訊息中繼運算子會與911聯繫，確認您的位址，並以各種緊�
 
 ## <a name="related-topics"></a>相關主題
 
-[加拿大的 IP 中繼-註冊](ip-relay-canada-email-signup.md)
+[加拿大 IP 轉送 - 註冊](ip-relay-canada-email-signup.md)
 
 
 

@@ -16,16 +16,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: 瞭解如何啟用或停用您的使用者在商務用 Skype Online 中加入會議時，是否可以記錄他們的名稱。
-ms.openlocfilehash: 19fad95c0775663db799a59da159ed145aedda6b
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 88c1a24acc6d623410ec8048a7e41d5c9f17d637
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "37642859"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707208"
 ---
 # <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-skype-for-business-online"></a>讓使用者在商務用 Skype Online 中加入會議時，記錄他們的名稱
 
@@ -74,4 +75,4 @@ ms.locfileid: "37642859"
   
 ## <a name="related-topics"></a>相關主題
 
-[在 Office 365 中試用或購買音訊會議](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[試用或購買 Office 365 的音訊會議](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

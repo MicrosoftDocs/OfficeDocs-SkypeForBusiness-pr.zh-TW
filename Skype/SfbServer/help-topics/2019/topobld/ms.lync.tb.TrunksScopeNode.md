@@ -6,23 +6,23 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.TrunksScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4ee527fa-ebec-40a9-a6bf-0cabd098aaa9
 ROBOTS: NOINDEX, NOFOLLOW
-description: '在拓撲建立器中, 以滑鼠右鍵按一下 [Trunks], 以執行下列動作:'
-ms.openlocfilehash: 9fff67ce969ac30d5098ebbfaf2fafa9822588de
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 在拓撲建立器中，以滑鼠右鍵按一下 [Trunks]，以執行下列動作：
+ms.openlocfilehash: 48b82e9fb0d9e69dd1eb045e7352248532969c86
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36193886"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41701408"
 ---
 # <a name="trunks-scope-node"></a>主幹範圍節點
  
-在拓撲建立器中, 以滑鼠右鍵按一下 [ **Trunks** ], 以執行下列動作:
+在拓撲建立器中，以滑鼠右鍵按一下 [ **Trunks** ]，以執行下列動作：
   
 - **新增主幹**：啟動用來定義新 SIP 主幹的 [定義新的主幹精靈]****。
     

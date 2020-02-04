@@ -1,5 +1,5 @@
 ---
-title: 設定和疑難排解商務用 Skype Online 委派
+title: 商務用 Skype Online 委派的設定和疑難排解
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -14,18 +14,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Setup
 description: 本文說明如何設定和疑難排解商務用 Skype Online 委派。 本文提供設定建議、最佳做法及疑難排解步驟的指導方針。
-ms.openlocfilehash: 0528bbb3dc25e085d38f86c040eb5129c9d039c1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: fac2b68deec94825d57fd06b436d00feaa924a5c
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "37642170"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706478"
 ---
-# <a name="set-up-and-troubleshoot-skype-for-business-online-delegation"></a>設定和疑難排解商務用 Skype Online 委派
+# <a name="set-up-and-troubleshoot-skype-for-business-online-delegation"></a>商務用 Skype Online 委派的設定和疑難排解
 
 本文說明如何設定和疑難排解商務用 Skype Online 委派。 本文提供設定建議、最佳做法及疑難排解步驟的指導方針。
   

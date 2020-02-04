@@ -16,17 +16,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 瞭解哪些國家和地區有電話撥入式會議號碼，以及它們的自動指派方式。
-ms.openlocfilehash: 1e988db094b6d49f8fb8da548f6d71b3607975e2
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: 32eeebf54fbb9e6ab75ca0e43734f64b1d811c10
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "37642555"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707158"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-skype-for-business-online"></a>商務用 Skype Online 中的音訊會議電話號碼
 
@@ -36,7 +37,7 @@ ms.locfileid: "37642555"
 當您設定商務用 Skype 的**音訊會議**時，撥入電話號碼會自動指派給您的組織。 您可以移至**商務用 Skype 系統管理中心** > **音訊會議** > **Microsoft 橋接器**，以查看指派給您音訊會議橋接器的電話號碼。 請參閱[音訊會議號碼清單](see-a-list-of-audio-conferencing-numbers.md)。
   
 > [!NOTE]
-> 沒有一個資源包含所有撥入號碼的音訊會議清單。 如果您想要查看您的地區或國家/地區是否有撥入電話號碼，請使用**商務用 Skype 系統管理中心** > 的**語音** > **電話號碼**，按一下 [新增]，**然後按一下**[**新增服務]。數位**。 使用 [**國家/地區**]、[**州/地區**] 和 [**城市**] 的清單來篩選您的搜尋。 此外，如果您正在尋找免付費服務號碼，請從 [**省/市/地區**] 清單中選取 [**免付費電話**]。
+> 沒有一個資源包含所有撥入號碼的音訊會議清單。 如果您想要查看您的地區或國家/地區是否有可用的撥入電話號碼，請使用**商務用 Skype 系統管理中心** > **語音** > **電話號碼**，按一下 [新增]，**然後按一下 [****新的服務號碼**]。 使用 [**國家/地區**]、[**州/地區**] 和 [**城市**] 的清單來篩選您的搜尋。 此外，如果您正在尋找免付費服務號碼，請從 [**省/市/地區**] 清單中選取 [**免付費電話**]。
   
 ## <a name="audio-conferencing-coverage-and-pricing"></a>音訊會議覆蓋範圍與定價
 
@@ -88,4 +89,4 @@ ms.locfileid: "37642555"
    
 ## <a name="related-topics"></a>相關主題
 
-[在 Office 365 中試用或購買音訊會議](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[試用或購買 Office 365 的音訊會議](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

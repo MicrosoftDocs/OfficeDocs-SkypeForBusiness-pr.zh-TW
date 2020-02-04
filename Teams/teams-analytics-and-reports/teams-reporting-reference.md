@@ -9,18 +9,18 @@ ms.service: msteams
 ms.reviewer: svemu
 localization_priority: Normal
 search.appverid: MET150
-f1keywords: ms.teamsadmincenter.analyticsandreports.overview
+f1.keywords: ms.teamsadmincenter.analyticsandreports.overview
 ms.collection:
 - M365-collaboration
 description: 瞭解 Microsoft 團隊系統管理中心提供的團隊報表。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 43d31c24745bb0ceba26160c09a3d11b5db0905b
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 3b0bcf2fe9d45d9ec2a4c574e9683688d58eb4a7
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570980"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708479"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Microsoft 團隊分析和報告
 
@@ -41,10 +41,10 @@ Microsoft 團隊系統管理中心提供 Microsoft 團隊的新分析與報告�
 
 |Report  |測量的專案是什麼？ |
 |---------|---------|
-|[團隊使用量報告](teams-usage-report.md)  |  作用中的使用者<br/>團隊和頻道中的作用中使用者<br/>現用頻道<br/>錯誤資訊<br/>團隊的隱私權設定<br/>團隊中的來賓   |
-|[團隊使用者活動報告](user-activity-report.md)  |  1:1 通話使用者參與<br/>使用者在小組聊天中張貼的訊息<br/>使用者在私人聊天中張貼的訊息<br/>使用者的上一個活動日期     |
-|[團隊裝置使用量報告](device-usage-report.md)   |  Windows 使用者<br/>Mac 使用者<br/>iOS 使用者<br/>Android 手機使用者     |
-|[團隊即時事件使用量報告](teams-live-event-usage-report.md)   |  總計視圖<br>開始時間<br>事件狀態<br>召集人<br>代表<br>方<br>錄製設定<br>生產類型    |
+|[Teams 使用報告](teams-usage-report.md)  |  作用中的使用者<br/>團隊和頻道中的作用中使用者<br/>現用頻道<br/>錯誤資訊<br/>團隊的隱私權設定<br/>團隊中的來賓   |
+|[Teams 使用者活動報告](user-activity-report.md)  |  1:1 通話使用者參與<br/>使用者在小組聊天中張貼的訊息<br/>使用者在私人聊天中張貼的訊息<br/>使用者的上一個活動日期     |
+|[Teams 裝置使用報告](device-usage-report.md)   |  Windows 使用者<br/>Mac 使用者<br/>iOS 使用者<br/>Android 手機使用者     |
+|[Teams 即時活動使用報告](teams-live-event-usage-report.md)   |  總計視圖<br>開始時間<br>事件狀態<br>召集人<br>代表<br>方<br>錄製設定<br>生產類型    |
 |[團隊 PSTN 封鎖的使用者報告](pstn-blocked-users-report.md)   |  顯示名稱<br>電話號碼<br>不必<br>動作類型<br>動作日期和時間   |
 |[團隊 PSTN 分鐘池報告](pstn-minute-pools-report.md) |  國家或地區<br>功能（授權） <br>總分鐘數<br>使用的分鐘數<br>可用分鐘數|
 |[團隊 PSTN 使用方式報告-通話方案](pstn-usage-report.md#calling-plans)|  時間戳記<br>使用者名稱<br>電話號碼<br>通話類型 <br>呼叫給<br>移至國家或地區 <br>呼叫來源 <br>從國家或地區<br>收費<br>貨幣<br>內<br>國內/國際<br>通話 ID<br>數位類型<br>國家或地區<br>會議 ID<br>功能（授權）|

@@ -15,16 +15,17 @@ ms.appliesto:
 - Skype for Business
 localization_priority: Normal
 ROBOTS: NOIDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Setup
 description: '此商務用 Skype 組織和使用者設定的摘要可協助您深入瞭解公用 IM 連線、會議邀請、錄製通話及會議等內容。  '
-ms.openlocfilehash: b039a97aea20fb4914deb077bd4aa76dbf13c1b3
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: fd8db122b1e0ec8ef205c07f68826dea83a833c7
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "37642406"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706458"
 ---
 # <a name="skype-for-business-online-settings-summary"></a>商務用 Skype Online 設定摘要
 
@@ -38,8 +39,8 @@ ms.locfileid: "37642406"
 
 |**正在**|**說明**|**設置**|**瞭解更多資訊**|
 |:-----|:-----|:-----|:-----|
-|網域同盟  <br/> |與使用商務用 Skype Online 的其他組織進行通訊。  <br/> |後  <br/> |[允許使用者與外部商務用 Skype 使用者聯繫](allow-users-to-contact-external-skype-for-business-users.md) <br/> |
-|公用 IM 連線  <br/> |與商務用 Skype Online 使用者通訊。  <br/> |後  <br/> |[允許使用者與外部商務用 Skype 使用者聯繫](allow-users-to-contact-external-skype-for-business-users.md) <br/> |
+|網域同盟  <br/> |與使用商務用 Skype Online 的其他組織進行通訊。  <br/> |後  <br/> |[允許使用者連絡外部商務用 Skype 使用者](allow-users-to-contact-external-skype-for-business-users.md) <br/> |
+|公用 IM 連線  <br/> |與商務用 Skype Online 使用者通訊。  <br/> |後  <br/> |[允許使用者連絡外部商務用 Skype 使用者](allow-users-to-contact-external-skype-for-business-users.md) <br/> |
 |行動電話通知  <br/> |針對商務用 Skype Online、iPhone 和 iPad 選擇推播通知服務，或停用通知。  <br/> |Microsoft 推播通知服務和 Apple 推播通知服務  <br/> |[開啟或關閉行動電話通知](turn-on-or-off-mobile-phone-notifications.md) <br/> |
 |目前狀態隱私權模式  <br/> |決定誰可以查看商務用 Skype Online 使用者的目前狀態。  <br/> |自動顯示目前狀態資訊  <br/> |[設定目前狀態隱私權模式](configure-presence-privacy-mode.md) <br/> |
 |會議邀請  <br/> |新增您自己的標誌和頁尾;新增說明與法律資訊的連結。  <br/> |未設定  <br/> |[自訂會議邀請](customize-meeting-invitations.md) <br/> |
