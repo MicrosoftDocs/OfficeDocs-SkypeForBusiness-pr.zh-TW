@@ -3,6 +3,8 @@ title: Lync Server 2013：查看最佳做法分析工具的報告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Viewing reports from Best Practices Analyzer
 ms:assetid: 7217a47b-36b1-4923-81ea-df754cff29bb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg607690(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184465
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fb2c229d683ecd0dcf4fee94b456514527226152
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e79732661152ba0929b62ae64f46b0cbfdb95217
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40974872"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757237"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "40974872"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="viewing-reports-from-best-practices-analyzer-in-lync-server-2013"></a><span data-ttu-id="19181-102">在 Lync Server 2013 中查看最佳做法分析程式的報告</span><span class="sxs-lookup"><span data-stu-id="19181-102">Viewing reports from Best Practices Analyzer in Lync Server 2013</span></span>
+# <a name="viewing-reports-from-best-practices-analyzer-in-lync-server-2013"></a><span data-ttu-id="b2e63-102">在 Lync Server 2013 中查看最佳做法分析程式的報告</span><span class="sxs-lookup"><span data-stu-id="b2e63-102">Viewing reports from Best Practices Analyzer in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,57 +35,57 @@ ms.locfileid: "40974872"
 
 <span> </span>
 
-<span data-ttu-id="19181-103">_**主題上次修改日期：** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="19181-103">_**Topic Last Modified:** 2012-09-21_</span></span>
+<span data-ttu-id="b2e63-103">_**主題上次修改日期：** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="b2e63-103">_**Topic Last Modified:** 2012-09-21_</span></span>
 
-<span data-ttu-id="19181-104">當您使用最佳做法分析程式來掃描您的環境時，請指定掃描的名稱。</span><span class="sxs-lookup"><span data-stu-id="19181-104">When you use Best Practices Analyzer to scan your environment, you specify a name for the scan.</span></span> <span data-ttu-id="19181-105">在最佳做法分析程式完成掃描之後，它會將掃描結果儲存在報告中，並將其儲存在掃描的名稱底下。</span><span class="sxs-lookup"><span data-stu-id="19181-105">After Best Practices Analyzer completes a scan, it stores the scan results in reports and saves them under the name of the scan.</span></span> <span data-ttu-id="19181-106">完成掃描之後，您可以按一下 [直接從 [**掃描已完成**] 頁面上的 [**查看此最佳做法的報告**] 來查看為該掃描產生的報告。</span><span class="sxs-lookup"><span data-stu-id="19181-106">Upon completion of the scan, you can view the reports generated for that scan by clicking **View a report of this Best Practices scan** directly from the **Scanning Completed** page.</span></span> <span data-ttu-id="19181-107">您也可以稍後從該掃描或前一次掃描中查看報告。</span><span class="sxs-lookup"><span data-stu-id="19181-107">You can also view the reports from that scan or previous scans at a later time.</span></span> <span data-ttu-id="19181-108">您可以在執行掃描的本機電腦上，查看報告、匯入另一部電腦的掃描結果，或匯出掃描結果，以在安裝了最佳做法分析程式的另一部電腦上查看報告。</span><span class="sxs-lookup"><span data-stu-id="19181-108">You can view reports on the local computer on which the scan was run, import scan results from another computer, or export scan results to view the reports on another computer on which Best Practices Analyzer is installed.</span></span>
+<span data-ttu-id="b2e63-104">當您使用最佳做法分析程式來掃描您的環境時，請指定掃描的名稱。</span><span class="sxs-lookup"><span data-stu-id="b2e63-104">When you use Best Practices Analyzer to scan your environment, you specify a name for the scan.</span></span> <span data-ttu-id="b2e63-105">在最佳做法分析程式完成掃描之後，它會將掃描結果儲存在報告中，並將其儲存在掃描的名稱底下。</span><span class="sxs-lookup"><span data-stu-id="b2e63-105">After Best Practices Analyzer completes a scan, it stores the scan results in reports and saves them under the name of the scan.</span></span> <span data-ttu-id="b2e63-106">完成掃描之後，您可以按一下 [直接從 [**掃描已完成**] 頁面上的 [**查看此最佳做法的報告**] 來查看為該掃描產生的報告。</span><span class="sxs-lookup"><span data-stu-id="b2e63-106">Upon completion of the scan, you can view the reports generated for that scan by clicking **View a report of this Best Practices scan** directly from the **Scanning Completed** page.</span></span> <span data-ttu-id="b2e63-107">您也可以稍後從該掃描或前一次掃描中查看報告。</span><span class="sxs-lookup"><span data-stu-id="b2e63-107">You can also view the reports from that scan or previous scans at a later time.</span></span> <span data-ttu-id="b2e63-108">您可以在執行掃描的本機電腦上，查看報告、匯入另一部電腦的掃描結果，或匯出掃描結果，以在安裝了最佳做法分析程式的另一部電腦上查看報告。</span><span class="sxs-lookup"><span data-stu-id="b2e63-108">You can view reports on the local computer on which the scan was run, import scan results from another computer, or export scan results to view the reports on another computer on which Best Practices Analyzer is installed.</span></span>
 
-<span data-ttu-id="19181-109">掃描結果會顯示在下列類型的報告中：</span><span class="sxs-lookup"><span data-stu-id="19181-109">Scan results are presented in the following types of reports:</span></span>
+<span data-ttu-id="b2e63-109">掃描結果會顯示在下列類型的報告中：</span><span class="sxs-lookup"><span data-stu-id="b2e63-109">Scan results are presented in the following types of reports:</span></span>
 
-  - <span data-ttu-id="19181-110">清單報表</span><span class="sxs-lookup"><span data-stu-id="19181-110">List reports</span></span>
+  - <span data-ttu-id="b2e63-110">清單報表</span><span class="sxs-lookup"><span data-stu-id="b2e63-110">List reports</span></span>
 
-  - <span data-ttu-id="19181-111">樹狀報表</span><span class="sxs-lookup"><span data-stu-id="19181-111">Tree reports</span></span>
+  - <span data-ttu-id="b2e63-111">樹狀報表</span><span class="sxs-lookup"><span data-stu-id="b2e63-111">Tree reports</span></span>
 
-  - <span data-ttu-id="19181-112">其他報表</span><span class="sxs-lookup"><span data-stu-id="19181-112">Other reports</span></span>
+  - <span data-ttu-id="b2e63-112">其他報表</span><span class="sxs-lookup"><span data-stu-id="b2e63-112">Other reports</span></span>
 
-<span data-ttu-id="19181-113">這些報表包括錯誤、警告及其他資訊。</span><span class="sxs-lookup"><span data-stu-id="19181-113">These reports include errors, warnings, and other information.</span></span> <span data-ttu-id="19181-114">如需這些報表與問題的詳細資料，請參閱[瞭解 Lync Server 2013 中由最佳做法分析工具所建立的報表](lync-server-2013-understanding-reports-created-by-best-practices-analyzer.md)。</span><span class="sxs-lookup"><span data-stu-id="19181-114">For details about each of these types of reports and issues, see [Understanding reports created by Best Practices Analyzer in Lync Server 2013](lync-server-2013-understanding-reports-created-by-best-practices-analyzer.md).</span></span>
+<span data-ttu-id="b2e63-113">這些報表包括錯誤、警告及其他資訊。</span><span class="sxs-lookup"><span data-stu-id="b2e63-113">These reports include errors, warnings, and other information.</span></span> <span data-ttu-id="b2e63-114">如需這些報表與問題的詳細資料，請參閱[瞭解 Lync Server 2013 中由最佳做法分析工具所建立的報表](lync-server-2013-understanding-reports-created-by-best-practices-analyzer.md)。</span><span class="sxs-lookup"><span data-stu-id="b2e63-114">For details about each of these types of reports and issues, see [Understanding reports created by Best Practices Analyzer in Lync Server 2013](lync-server-2013-understanding-reports-created-by-best-practices-analyzer.md).</span></span>
 
-<span data-ttu-id="19181-115">使用下列程式來查看先前由最佳做法分析工具產生的掃描結果。</span><span class="sxs-lookup"><span data-stu-id="19181-115">Use the following procedure to view scan results previously generated by Best Practices Analyzer.</span></span>
+<span data-ttu-id="b2e63-115">使用下列程式來查看先前由最佳做法分析工具產生的掃描結果。</span><span class="sxs-lookup"><span data-stu-id="b2e63-115">Use the following procedure to view scan results previously generated by Best Practices Analyzer.</span></span>
 
 <div>
 
-## <a name="to-view-reports-from-a-previous-scan"></a><span data-ttu-id="19181-116">若要從先前的掃描中查看報表</span><span class="sxs-lookup"><span data-stu-id="19181-116">To view reports from a previous scan</span></span>
+## <a name="to-view-reports-from-a-previous-scan"></a><span data-ttu-id="b2e63-116">若要從先前的掃描中查看報表</span><span class="sxs-lookup"><span data-stu-id="b2e63-116">To view reports from a previous scan</span></span>
 
-1.  <span data-ttu-id="19181-117">使用本機使用者帳戶成員的帳戶登入已安裝最佳做法分析程式的電腦。</span><span class="sxs-lookup"><span data-stu-id="19181-117">Log on to a computer on which Best Practices Analyzer is installed using an account that is a member of the local User account.</span></span>
+1.  <span data-ttu-id="b2e63-117">使用本機使用者帳戶成員的帳戶登入已安裝最佳做法分析程式的電腦。</span><span class="sxs-lookup"><span data-stu-id="b2e63-117">Log on to a computer on which Best Practices Analyzer is installed using an account that is a member of the local User account.</span></span>
     
     > [!NOTE]  
-    > <span data-ttu-id="19181-118">您可以使用本機管理員群組成員的帳戶來查看掃描結果，但除非您有適當的使用者權利和許可權，否則您無法執行掃描。</span><span class="sxs-lookup"><span data-stu-id="19181-118">You can view the results of a scan using an account that is a member of the local Administrators group, but you cannot run a scan unless you have appropriate user rights and permissions.</span></span> <span data-ttu-id="19181-119">如需詳細資訊，請參閱<A href="lync-server-2013-group-memberships-and-user-rights-requirements-for-best-practices-analyzer.md">Lync Server 2013 中最佳做法分析程式的群組成員資格和使用者權利需求</A>。</span><span class="sxs-lookup"><span data-stu-id="19181-119">For details, see <A href="lync-server-2013-group-memberships-and-user-rights-requirements-for-best-practices-analyzer.md">Group memberships and user rights requirements for Best Practices Analyzer in Lync Server 2013</A>.</span></span>
+    > <span data-ttu-id="b2e63-118">您可以使用本機管理員群組成員的帳戶來查看掃描結果，但除非您有適當的使用者權利和許可權，否則您無法執行掃描。</span><span class="sxs-lookup"><span data-stu-id="b2e63-118">You can view the results of a scan using an account that is a member of the local Administrators group, but you cannot run a scan unless you have appropriate user rights and permissions.</span></span> <span data-ttu-id="b2e63-119">如需詳細資訊，請參閱<A href="lync-server-2013-group-memberships-and-user-rights-requirements-for-best-practices-analyzer.md">Lync Server 2013 中最佳做法分析程式的群組成員資格和使用者權利需求</A>。</span><span class="sxs-lookup"><span data-stu-id="b2e63-119">For details, see <A href="lync-server-2013-group-memberships-and-user-rights-requirements-for-best-practices-analyzer.md">Group memberships and user rights requirements for Best Practices Analyzer in Lync Server 2013</A>.</span></span>
 
-2.  <span data-ttu-id="19181-120">按一下 [**開始**]，指向 [**所有程式**]，按一下 [ **Microsoft Lync Server 2013**]，然後按一下 [**最佳做法分析工具**]。</span><span class="sxs-lookup"><span data-stu-id="19181-120">Click **Start**, point to **All Programs**, click **Microsoft Lync Server 2013**, and then click **Best Practices Analyzer**.</span></span>
+2.  <span data-ttu-id="b2e63-120">按一下 [**開始**]，指向 [**所有程式**]，按一下 [ **Microsoft Lync Server 2013**]，然後按一下 [**最佳做法分析工具**]。</span><span class="sxs-lookup"><span data-stu-id="b2e63-120">Click **Start**, point to **All Programs**, click **Microsoft Lync Server 2013**, and then click **Best Practices Analyzer**.</span></span>
 
-3.  <span data-ttu-id="19181-121">在 [**歡迎**] 畫面上，按一下 **[選取要查看的掃描結果**]。</span><span class="sxs-lookup"><span data-stu-id="19181-121">On the **Welcome** screen, click **Select the scan results to view**.</span></span>
+3.  <span data-ttu-id="b2e63-121">在 [**歡迎**] 畫面上，按一下 **[選取要查看的掃描結果**]。</span><span class="sxs-lookup"><span data-stu-id="b2e63-121">On the **Welcome** screen, click **Select the scan results to view**.</span></span>
 
-4.  <span data-ttu-id="19181-122">在 [**選取最佳做法掃描至視圖**] 頁面上，執行下列其中一項操作：</span><span class="sxs-lookup"><span data-stu-id="19181-122">On the **Select a Best Practices Scan to View** page, do one of the following:</span></span>
+4.  <span data-ttu-id="b2e63-122">在 [**選取最佳做法掃描至視圖**] 頁面上，執行下列其中一項操作：</span><span class="sxs-lookup"><span data-stu-id="b2e63-122">On the **Select a Best Practices Scan to View** page, do one of the following:</span></span>
     
-      - <span data-ttu-id="19181-123">若要從本機儲存的掃描結果清單中查看報告，請按一下掃描的名稱，然後按一下 [**查看此掃描的報告**]。</span><span class="sxs-lookup"><span data-stu-id="19181-123">To view reports from the list of locally stored scan results, click the name of scan, and then click **View a report of this scan**.</span></span>
+      - <span data-ttu-id="b2e63-123">若要從本機儲存的掃描結果清單中查看報告，請按一下掃描的名稱，然後按一下 [**查看此掃描的報告**]。</span><span class="sxs-lookup"><span data-stu-id="b2e63-123">To view reports from the list of locally stored scan results, click the name of scan, and then click **View a report of this scan**.</span></span>
         
         > [!NOTE]  
-        > <span data-ttu-id="19181-124">最佳做法分析&lt;工具會從資料夾 systemDrive&gt;\\檔和設定\\&lt;使用者&gt;\Application Data\Microsoft\RtcBPA. 建立本機檔案清單</span><span class="sxs-lookup"><span data-stu-id="19181-124">The Best Practices Analyzer creates the list of local files from the folder &lt;systemDrive&gt;\\Documents and Settings\\&lt;user&gt;\Application Data\Microsoft\RtcBPA.</span></span>
+        > <span data-ttu-id="b2e63-124">最佳做法分析&lt;工具會從資料夾 systemDrive&gt;\\檔和設定\\&lt;使用者&gt;\Application Data\Microsoft\RtcBPA. 建立本機檔案清單</span><span class="sxs-lookup"><span data-stu-id="b2e63-124">The Best Practices Analyzer creates the list of local files from the folder &lt;systemDrive&gt;\\Documents and Settings\\&lt;user&gt;\Application Data\Microsoft\RtcBPA.</span></span>
     
-      - <span data-ttu-id="19181-125">若要查看儲存在其他位置之掃描結果的報告，請按一下 [匯**入掃描**]，找出包含掃描結果的檔案，然後按一下 [**開啟**]。</span><span class="sxs-lookup"><span data-stu-id="19181-125">To view reports for results of a scan that are stored at another location, click **Import scan**, locate the file containing the scan results, and then click **Open**.</span></span>
+      - <span data-ttu-id="b2e63-125">若要查看儲存在其他位置之掃描結果的報告，請按一下 [匯**入掃描**]，找出包含掃描結果的檔案，然後按一下 [**開啟**]。</span><span class="sxs-lookup"><span data-stu-id="b2e63-125">To view reports for results of a scan that are stored at another location, click **Import scan**, locate the file containing the scan results, and then click **Open**.</span></span>
         
         > [!NOTE]  
-        > <span data-ttu-id="19181-126">如果這台電腦上的最佳做法分析程式版本不符合收集檔案資料所用的版本，則在匯入後，電腦上的工具可能會再次分析檔案。</span><span class="sxs-lookup"><span data-stu-id="19181-126">If the version of Best Practices Analyzer on this computer does not match the version that was used to collect the data in the imported file, the tool on your computer might analyze the file again, after it is imported.</span></span>
+        > <span data-ttu-id="b2e63-126">如果這台電腦上的最佳做法分析程式版本不符合收集檔案資料所用的版本，則在匯入後，電腦上的工具可能會再次分析檔案。</span><span class="sxs-lookup"><span data-stu-id="b2e63-126">If the version of Best Practices Analyzer on this computer does not match the version that was used to collect the data in the imported file, the tool on your computer might analyze the file again, after it is imported.</span></span>
 
-5.  <span data-ttu-id="19181-127">在 [**查看最佳做法報表**] 頁面上，執行下列其中一項操作：</span><span class="sxs-lookup"><span data-stu-id="19181-127">On the **View Best Practices Report** page, do one of the following:</span></span>
+5.  <span data-ttu-id="b2e63-127">在 [**查看最佳做法報表**] 頁面上，執行下列其中一項操作：</span><span class="sxs-lookup"><span data-stu-id="b2e63-127">On the **View Best Practices Report** page, do one of the following:</span></span>
     
-      - <span data-ttu-id="19181-128">若要在依伺服器元件組織的清單中查看報表，請按一下 [**清單報表**]，然後按一下 [**所有問題**] 索引標籤或 [**資訊性專案**] 索引標籤。</span><span class="sxs-lookup"><span data-stu-id="19181-128">To view reports in a list organized by server component, click **List Reports**, and then click either the **All Issues** tab or the **Informational Items** tab.</span></span>
+      - <span data-ttu-id="b2e63-128">若要在依伺服器元件組織的清單中查看報表，請按一下 [**清單報表**]，然後按一下 [**所有問題**] 索引標籤或 [**資訊性專案**] 索引標籤。</span><span class="sxs-lookup"><span data-stu-id="b2e63-128">To view reports in a list organized by server component, click **List Reports**, and then click either the **All Issues** tab or the **Informational Items** tab.</span></span>
     
-      - <span data-ttu-id="19181-129">若要以依結果類型組織的階層式清單形式來查看報表，請按一下 [**樹狀報表**]，然後按一下 [**詳細視圖**] 索引標籤或 [**摘要視圖**] 索引標籤。</span><span class="sxs-lookup"><span data-stu-id="19181-129">To view reports as a hierarchical list organized by types of results, click **Tree Reports**, and then click either the **Detailed View** tab or the **Summary View** tab.</span></span>
+      - <span data-ttu-id="b2e63-129">若要以依結果類型組織的階層式清單形式來查看報表，請按一下 [**樹狀報表**]，然後按一下 [**詳細視圖**] 索引標籤或 [**摘要視圖**] 索引標籤。</span><span class="sxs-lookup"><span data-stu-id="b2e63-129">To view reports as a hierarchical list organized by types of results, click **Tree Reports**, and then click either the **Detailed View** tab or the **Summary View** tab.</span></span>
     
-      - <span data-ttu-id="19181-130">若要查看其他報表，請按一下 [**其他報表**]。</span><span class="sxs-lookup"><span data-stu-id="19181-130">To view other reports, click **Other Reports**.</span></span>
+      - <span data-ttu-id="b2e63-130">若要查看其他報表，請按一下 [**其他報表**]。</span><span class="sxs-lookup"><span data-stu-id="b2e63-130">To view other reports, click **Other Reports**.</span></span>
     
     > [!NOTE]  
-    > <span data-ttu-id="19181-131">如需最佳做法分析程式報告以及其所識別問題的詳細資料，請參閱<A href="lync-server-2013-viewing-and-working-with-reports-created-by-best-practices-analyzer.md">在 Lync server 2013 中查看和使用最佳做法分析程式所建立的報表</A>，並<A href="lync-server-2013-analyzing-and-resolving-issues-identified-by-best-practices-analyzer.md">在 lync Server 2013 中分析及解決最佳做法分析工具所識別的問題</A>。</span><span class="sxs-lookup"><span data-stu-id="19181-131">For details about the Best Practices Analyzer reports and the issues that they identify, see <A href="lync-server-2013-viewing-and-working-with-reports-created-by-best-practices-analyzer.md">Viewing and working with reports created by Best Practices Analyzer in Lync Server 2013</A> and <A href="lync-server-2013-analyzing-and-resolving-issues-identified-by-best-practices-analyzer.md">Analyzing and resolving issues identified by Best Practices Analyzer in Lync Server 2013</A>.</span></span>
+    > <span data-ttu-id="b2e63-131">如需最佳做法分析程式報告以及其所識別問題的詳細資料，請參閱<A href="lync-server-2013-viewing-and-working-with-reports-created-by-best-practices-analyzer.md">在 Lync server 2013 中查看和使用最佳做法分析程式所建立的報表</A>，並<A href="lync-server-2013-analyzing-and-resolving-issues-identified-by-best-practices-analyzer.md">在 lync Server 2013 中分析及解決最佳做法分析工具所識別的問題</A>。</span><span class="sxs-lookup"><span data-stu-id="b2e63-131">For details about the Best Practices Analyzer reports and the issues that they identify, see <A href="lync-server-2013-viewing-and-working-with-reports-created-by-best-practices-analyzer.md">Viewing and working with reports created by Best Practices Analyzer in Lync Server 2013</A> and <A href="lync-server-2013-analyzing-and-resolving-issues-identified-by-best-practices-analyzer.md">Analyzing and resolving issues identified by Best Practices Analyzer in Lync Server 2013</A>.</span></span>
 
 </div>
 

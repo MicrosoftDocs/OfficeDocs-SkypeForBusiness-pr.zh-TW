@@ -3,6 +3,8 @@ title: Lync Server 2013：將群組呼叫挑選號碼指派給使用者
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Assign Group Call Pickup numbers to users
 ms:assetid: b8e79275-8e7e-4799-b908-f34f61df22f0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945647(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541508
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e919b1fb4ee225eba1c5317ff1f3049791075bcc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e65eef9fcf425ad8ea9f36dc57899bb6af924bf5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "40977841"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734053"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "40977841"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="assign-group-call-pickup-numbers-to-users-in-lync-server-2013"></a><span data-ttu-id="18867-102">在 Lync Server 2013 中將群組呼叫挑選號碼指派給使用者</span><span class="sxs-lookup"><span data-stu-id="18867-102">Assign Group Call Pickup numbers to users in Lync Server 2013</span></span>
+# <a name="assign-group-call-pickup-numbers-to-users-in-lync-server-2013"></a><span data-ttu-id="329e8-102">在 Lync Server 2013 中將群組呼叫挑選號碼指派給使用者</span><span class="sxs-lookup"><span data-stu-id="329e8-102">Assign Group Call Pickup numbers to users in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,15 +35,15 @@ ms.locfileid: "40977841"
 
 <span> </span>
 
-<span data-ttu-id="18867-103">_**主題上次修改日期：** 2013-01-30_</span><span class="sxs-lookup"><span data-stu-id="18867-103">_**Topic Last Modified:** 2013-01-30_</span></span>
+<span data-ttu-id="329e8-103">_**主題上次修改日期：** 2013-01-30_</span><span class="sxs-lookup"><span data-stu-id="329e8-103">_**Topic Last Modified:** 2013-01-30_</span></span>
 
-<span data-ttu-id="18867-104">在您將群組呼叫挑選群組編號新增至 [通話駐留軌道] 表格之後，您就可以將群組指派給使用者。</span><span class="sxs-lookup"><span data-stu-id="18867-104">After you add Group Call Pickup group numbers to the call park orbit table, you can assign the groups to users.</span></span> <span data-ttu-id="18867-105">使用次要延伸功能啟用（SEFAUtil）資源套件工具，將呼叫挑選群組指派給使用者。</span><span class="sxs-lookup"><span data-stu-id="18867-105">Use the secondary extension feature activation (SEFAUtil ) resource kit tool to assign call pickup groups to users.</span></span>
+<span data-ttu-id="329e8-104">在您將群組呼叫挑選群組編號新增至 [通話駐留軌道] 表格之後，您就可以將群組指派給使用者。</span><span class="sxs-lookup"><span data-stu-id="329e8-104">After you add Group Call Pickup group numbers to the call park orbit table, you can assign the groups to users.</span></span> <span data-ttu-id="329e8-105">使用次要延伸功能啟用（SEFAUtil）資源套件工具，將呼叫挑選群組指派給使用者。</span><span class="sxs-lookup"><span data-stu-id="329e8-105">Use the secondary extension feature activation (SEFAUtil ) resource kit tool to assign call pickup groups to users.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="18867-106">在混合式部署中，請勿將群組呼叫挑選群組指派給駐留在線上的使用者。</span><span class="sxs-lookup"><span data-stu-id="18867-106">In a hybrid deployment, do not assign a Group Call Pickup group to users who are homed online.</span></span> <span data-ttu-id="18867-107">以線上為宿主的使用者無法參與群組通話挑選。</span><span class="sxs-lookup"><span data-stu-id="18867-107">Users who are homed online cannot participate in Group Call Pickup.</span></span> <span data-ttu-id="18867-108">也就是說，其他使用者無法接聽其來電，也無法將來電應答給其他使用者。</span><span class="sxs-lookup"><span data-stu-id="18867-108">That is, their calls cannot be answered by other users, and they cannot answer calls to other users.</span></span>
+> <span data-ttu-id="329e8-106">在混合式部署中，請勿將群組呼叫挑選群組指派給駐留在線上的使用者。</span><span class="sxs-lookup"><span data-stu-id="329e8-106">In a hybrid deployment, do not assign a Group Call Pickup group to users who are homed online.</span></span> <span data-ttu-id="329e8-107">以線上為宿主的使用者無法參與群組通話挑選。</span><span class="sxs-lookup"><span data-stu-id="329e8-107">Users who are homed online cannot participate in Group Call Pickup.</span></span> <span data-ttu-id="329e8-108">也就是說，其他使用者無法接聽其來電，也無法將來電應答給其他使用者。</span><span class="sxs-lookup"><span data-stu-id="329e8-108">That is, their calls cannot be answered by other users, and they cannot answer calls to other users.</span></span>
 
 
 
@@ -49,15 +51,15 @@ ms.locfileid: "40977841"
 
 <div>
 
-## <a name="to-assign-a-group-call-pickup-group-to-a-user"></a><span data-ttu-id="18867-109">將 [群組呼叫] 群組指派給使用者</span><span class="sxs-lookup"><span data-stu-id="18867-109">To assign a Group Call Pickup group to a user</span></span>
+## <a name="to-assign-a-group-call-pickup-group-to-a-user"></a><span data-ttu-id="329e8-109">將 [群組呼叫] 群組指派給使用者</span><span class="sxs-lookup"><span data-stu-id="329e8-109">To assign a Group Call Pickup group to a user</span></span>
 
-1.  <span data-ttu-id="18867-110">以系統管理員許可權登入您安裝 SEFAUtil 工具的電腦。</span><span class="sxs-lookup"><span data-stu-id="18867-110">Log on to the computer where you installed the SEFAUtil tool with administrator rights.</span></span>
+1.  <span data-ttu-id="329e8-110">以系統管理員許可權登入您安裝 SEFAUtil 工具的電腦。</span><span class="sxs-lookup"><span data-stu-id="329e8-110">Log on to the computer where you installed the SEFAUtil tool with administrator rights.</span></span>
 
-2.  <span data-ttu-id="18867-111">在命令列上執行：</span><span class="sxs-lookup"><span data-stu-id="18867-111">At the command line, run:</span></span>
+2.  <span data-ttu-id="329e8-111">在命令列上執行：</span><span class="sxs-lookup"><span data-stu-id="329e8-111">At the command line, run:</span></span>
     
         SEFAUtil.exe sip:<sip address of user> /server:<pool FQDN> /enablegrouppickup:<group number>
     
-    <span data-ttu-id="18867-112">例如：</span><span class="sxs-lookup"><span data-stu-id="18867-112">For example:</span></span>
+    <span data-ttu-id="329e8-112">例如：</span><span class="sxs-lookup"><span data-stu-id="329e8-112">For example:</span></span>
     
         SEFAUtil.exe katarina@contoso.com /server:pool01.contoso.com /enablegrouppickup:199
 
@@ -65,11 +67,11 @@ ms.locfileid: "40977841"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="18867-113">請參閱</span><span class="sxs-lookup"><span data-stu-id="18867-113">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="329e8-113">請參閱</span><span class="sxs-lookup"><span data-stu-id="329e8-113">See Also</span></span>
 
 
-[<span data-ttu-id="18867-114">在 Lync Server 2013 中為使用者啟用群組呼叫挑選</span><span class="sxs-lookup"><span data-stu-id="18867-114">Enable Group Call Pickup for users in Lync Server 2013</span></span>](lync-server-2013-enable-group-call-pickup-for-users.md)  
-[<span data-ttu-id="18867-115">停用 Lync Server 2013 中的使用者的群組呼叫分揀</span><span class="sxs-lookup"><span data-stu-id="18867-115">Disable Group Call Pickup for users in Lync Server 2013</span></span>](lync-server-2013-disable-group-call-pickup-for-users.md)  
+[<span data-ttu-id="329e8-114">在 Lync Server 2013 中為使用者啟用群組呼叫挑選</span><span class="sxs-lookup"><span data-stu-id="329e8-114">Enable Group Call Pickup for users in Lync Server 2013</span></span>](lync-server-2013-enable-group-call-pickup-for-users.md)  
+[<span data-ttu-id="329e8-115">停用 Lync Server 2013 中的使用者的群組呼叫分揀</span><span class="sxs-lookup"><span data-stu-id="329e8-115">Disable Group Call Pickup for users in Lync Server 2013</span></span>](lync-server-2013-disable-group-call-pickup-for-users.md)  
   
 
 </div>
