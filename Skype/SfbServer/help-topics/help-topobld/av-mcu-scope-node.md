@@ -7,35 +7,35 @@ manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AvMcuScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 45e90203-2da3-44c3-beaf-02456fa970a1
 description: 此節點會顯示此 A/V 會議集區的集區完整網域名稱 (FQDN) 及關聯的前端集區。您可以執行下列動作：
-ms.openlocfilehash: bba5a1782aaad093656024e026fe9f15ea27b16d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 52c00dd917ed9a4e4deb12eb621a05feaec3fe4d
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36193313"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684896"
 ---
-# <a name="av-mcu-scope-node"></a><span data-ttu-id="67fec-104">AV MCU 範圍節點</span><span class="sxs-lookup"><span data-stu-id="67fec-104">AV MCU Scope Node</span></span>
+# <a name="av-mcu-scope-node"></a><span data-ttu-id="08113-104">AV MCU 範圍節點</span><span class="sxs-lookup"><span data-stu-id="08113-104">AV MCU Scope Node</span></span>
  
-<span data-ttu-id="67fec-p102">此節點會顯示此 A/V 會議集區的集區完整網域名稱 (FQDN) 及關聯的前端集區。您可以執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="67fec-p102">This node shows the pool fully qualified domain name (FQDN) and associated Front End pools for this A/V Conferencing pool. You can perform the following actions:</span></span>
+<span data-ttu-id="08113-p102">此節點會顯示此 A/V 會議集區的集區完整網域名稱 (FQDN) 及關聯的前端集區。您可以執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="08113-p102">This node shows the pool fully qualified domain name (FQDN) and associated Front End pools for this A/V Conferencing pool. You can perform the following actions:</span></span>
   
-- <span data-ttu-id="67fec-p103">**新增伺服器**。啟動 [定義新的伺服器精靈]\*\*\*\*，以便將其他 Edge Server 新增到此集區。</span><span class="sxs-lookup"><span data-stu-id="67fec-p103">**New Server**. Starts the **Define New Server** wizard, which you can use to add another Edge Server to this pool.</span></span>
+- <span data-ttu-id="08113-p103">**新增伺服器**。啟動 [定義新的伺服器精靈]\*\*\*\*，以便將其他 Edge Server 新增到此集區。</span><span class="sxs-lookup"><span data-stu-id="08113-p103">**New Server**. Starts the **Define New Server** wizard, which you can use to add another Edge Server to this pool.</span></span>
     
-- <span data-ttu-id="67fec-p104">**編輯內容**。開啟此伺服器的「編輯內容」\*\*\*\* 頁面，您可以在此處變更集區 FQDN 及關聯的前端集區。</span><span class="sxs-lookup"><span data-stu-id="67fec-p104">**Edit Properties**. Opens the **Edit Properties** page for this server, where you can change the pool FQDN and associated Front End pools.</span></span>
+- <span data-ttu-id="08113-p104">**編輯內容**。開啟此伺服器的「編輯內容」\*\*\*\* 頁面，您可以在此處變更集區 FQDN 及關聯的前端集區。</span><span class="sxs-lookup"><span data-stu-id="08113-p104">**Edit Properties**. Opens the **Edit Properties** page for this server, where you can change the pool FQDN and associated Front End pools.</span></span>
     
-- <span data-ttu-id="67fec-p105">**刪除**。從拓撲刪除集區。</span><span class="sxs-lookup"><span data-stu-id="67fec-p105">**Delete**. Deletes the pool from the topology.</span></span>
+- <span data-ttu-id="08113-p105">**刪除**。從拓撲刪除集區。</span><span class="sxs-lookup"><span data-stu-id="08113-p105">**Delete**. Deletes the pool from the topology.</span></span>
     
-<span data-ttu-id="67fec-113">除了這些選項之外，您也可以執行下列一般工作：</span><span class="sxs-lookup"><span data-stu-id="67fec-113">In addition to these options, you can perform the following general tasks:</span></span>
+<span data-ttu-id="08113-113">除了這些選項之外，您也可以執行下列一般工作：</span><span class="sxs-lookup"><span data-stu-id="08113-113">In addition to these options, you can perform the following general tasks:</span></span>
   
-- <span data-ttu-id="67fec-p106">**拓撲**。您可以使用這個選項來定義新的拓撲、開啟現有的拓撲、下載目前拓撲、儲存拓撲的複本、發行拓撲、安裝資料庫、合併元件，或是移除部署。</span><span class="sxs-lookup"><span data-stu-id="67fec-p106">**Topology**. You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components, or remove the deployment.</span></span>
+- <span data-ttu-id="08113-p106">**拓撲**。您可以使用這個選項來定義新的拓撲、開啟現有的拓撲、下載目前拓撲、儲存拓撲的複本、發行拓撲、安裝資料庫、合併元件，或是移除部署。</span><span class="sxs-lookup"><span data-stu-id="08113-p106">**Topology**. You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components, or remove the deployment.</span></span>
     
-- <span data-ttu-id="67fec-p107">**檢視**。您可以使用這個選項來自訂拓撲產生器中的檢視，方法是選取要在主控台樹狀目錄檢視中顯示及隱藏的項目。</span><span class="sxs-lookup"><span data-stu-id="67fec-p107">**View**. You can use this option to customize the view in Topology Builder by selecting the items to show and hide in the console tree views.</span></span>
+- <span data-ttu-id="08113-p107">**檢視**。您可以使用這個選項來自訂拓撲產生器中的檢視，方法是選取要在主控台樹狀目錄檢視中顯示及隱藏的項目。</span><span class="sxs-lookup"><span data-stu-id="08113-p107">**View**. You can use this option to customize the view in Topology Builder by selecting the items to show and hide in the console tree views.</span></span>
     
-- <span data-ttu-id="67fec-p108">**說明**。您可以使用這個選項，存取作用中節點的說明。</span><span class="sxs-lookup"><span data-stu-id="67fec-p108">**Help**. You can use this option to access Help for the active node.</span></span>
+- <span data-ttu-id="08113-p108">**說明**。您可以使用這個選項，存取作用中節點的說明。</span><span class="sxs-lookup"><span data-stu-id="08113-p108">**Help**. You can use this option to access Help for the active node.</span></span>
     
 

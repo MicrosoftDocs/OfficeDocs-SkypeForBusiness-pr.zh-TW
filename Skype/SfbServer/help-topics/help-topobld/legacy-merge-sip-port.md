@@ -7,23 +7,23 @@ manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.LegacyMergeSipPortPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 19bf6b9b-d111-4285-9735-62fd9a04dc3b
 description: 與用戶端、舊版的前端集區及伺服器進行通訊的預設傳輸控制通訊協定 (TCP) SIP 連接埠為連接埠 5061。 如果沒有使用預設值，則選取 [所有集區和伺服器的 SIP 連接埠:] 並輸入新值。
-ms.openlocfilehash: 853b50cd7e7e18b15374312bf9c52a0e5c27151b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 930252be234fa0b0bd8dd87db921d30226485d66
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36189811"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684596"
 ---
-# <a name="legacy-merge-sip-port"></a><span data-ttu-id="ae3b3-104">舊版合併 SIP 連接埠</span><span class="sxs-lookup"><span data-stu-id="ae3b3-104">Legacy Merge SIP Port</span></span>
+# <a name="legacy-merge-sip-port"></a><span data-ttu-id="cc847-104">舊版合併 SIP 連接埠</span><span class="sxs-lookup"><span data-stu-id="cc847-104">Legacy Merge SIP Port</span></span>
  
-<span data-ttu-id="ae3b3-p102">與用戶端、舊版的前端集區及伺服器進行通訊的預設傳輸控制通訊協定 (TCP) SIP 連接埠為連接埠 5061。如果沒有使用預設值，則選取 [所有集區和伺服器的 SIP 連接埠:]\*\*\*\* 並輸入新值。</span><span class="sxs-lookup"><span data-stu-id="ae3b3-p102">The default Transmission Control Protocol (TCP) SIP port for communicating with clients, legacy Front End pools, and servers is 5061. If the default value was not used, select **SIP port for all pools and servers:** and enter the new value.</span></span>
+<span data-ttu-id="cc847-p102">與用戶端、舊版的前端集區及伺服器進行通訊的預設傳輸控制通訊協定 (TCP) SIP 連接埠為連接埠 5061。如果沒有使用預設值，則選取 [所有集區和伺服器的 SIP 連接埠:]\*\*\*\* 並輸入新值。</span><span class="sxs-lookup"><span data-stu-id="cc847-p102">The default Transmission Control Protocol (TCP) SIP port for communicating with clients, legacy Front End pools, and servers is 5061. If the default value was not used, select **SIP port for all pools and servers:** and enter the new value.</span></span>
   
-<span data-ttu-id="ae3b3-107">如果舊有的部署已經設為自動用戶端登入，請選取 [針對各集區 SIP 連接埠設定的自動探索] \*\*\*\* 並按 [下一步] \*\*\*\* 繼續。</span><span class="sxs-lookup"><span data-stu-id="ae3b3-107">If your legacy deployment is configured for Automatic Client sign-in, select **Automatic discovery of SIP port configuration for each pool** and click **Next** to continue.</span></span>
+<span data-ttu-id="cc847-107">如果舊有的部署已經設為自動用戶端登入，請選取 [針對各集區 SIP 連接埠設定的自動探索] \*\*\*\* 並按 [下一步] \*\*\*\* 繼續。</span><span class="sxs-lookup"><span data-stu-id="cc847-107">If your legacy deployment is configured for Automatic Client sign-in, select **Automatic discovery of SIP port configuration for each pool** and click **Next** to continue.</span></span>
   
 
