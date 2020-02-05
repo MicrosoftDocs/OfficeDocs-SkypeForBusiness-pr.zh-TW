@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: 您可以在 Microsoft 團隊取得與管理日本電話號碼的相關資訊中使用此表格。
-ms.openlocfilehash: c3e8692b4095843d17352c13509deaa701aa6e54
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 47a4e034b298cdf751349e9cfbdc9947c8cc898f
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573126"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706988"
 ---
 # <a name="phone-number-management-for-japan"></a>日本的電話號碼管理
 
@@ -53,4 +54,4 @@ ms.locfileid: "37573126"
 
 [管理貴組織的電話號碼](manage-phone-numbers-for-your-organization.md)
 
-[緊急通話條款與條件](../emergency-calling-terms-and-conditions.md)
+[緊急通話條款及條件](../emergency-calling-terms-and-conditions.md)

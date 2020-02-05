@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f1878194-c756-4794-8fa1-15dd2118b4b3
 description: 請閱讀本主題，瞭解如何在商務用 Skype Server Enterprise Voice 中設定增強型緊急服務（E9-1）位置原則。
-ms.openlocfilehash: b7511de949e1c67fdf7a828d06826d22826f5694
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: d06e22850b1556e4c7d9143b49176aff23bb6640
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41000873"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767936"
 ---
 # <a name="create-location-policies-in-skype-for-business-server"></a>在商務用 Skype Server 中建立位置原則
 

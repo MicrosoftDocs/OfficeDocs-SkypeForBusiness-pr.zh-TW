@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Microsoft 正在淘汰2020年2月的 Exchange 整合訊息 Online （ExchUMO）服務。 本文將摘要說明客戶應該知道哪些內容，並針對其業務連續性進行規劃。
-ms.openlocfilehash: 55382780fe6ef1c67cbecc1f6c997809f9173b8a
-ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
+ms.openlocfilehash: 1518bf9d5c45b4d53ee2934bb996978b82159617
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "41628669"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737123"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange 整合通訊線上移轉支援
 
-如需2019年2月8日的[公告](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/)參考，Microsoft 即將于2020年2月前淘汰 Exchange 整合訊息線上（ExchUMO）服務。 本文將摘要說明客戶應該知道的內容，並針對其業務連續性進行規劃。
+如需2019年2月8日的[公告](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/)參考，Microsoft 即將于2020年2月28日停用 Exchange 整合訊息 Online （ExchUMO）服務。 本文將摘要說明客戶應該知道的內容，並針對其業務連續性進行規劃。
  
 ExchUMO 是由客戶針對語音信箱、自動語音應答、通話佇列及傳真整合服務進行部署。 Microsoft 方案可協助客戶遷移到已支援商務用 Skype Online 和 Microsoft 團隊的成千上萬客戶的手機系統服務。
 
@@ -77,7 +77,7 @@ Microsoft 已發現各種使用 ExchUMO 功能的客戶部署，並將根據下�
     在系統管理通知中心中查看有關使用者遷移的詳細資料與時程表的相關通知。 通知會在您的遷移期間前至少在30天內傳送。 
 
     > [!Note]
-    > 如果您收到與使用者的 [遷移] 時程表的通知，而且想要推遲您的遷移以滿足業務關鍵型的原因，您可以使用 Microsoft 支援服務來執行此動作。 請注意，您無法將遷移推遲到2020年2月的退休日期之後。 針對可能有其他問題的客戶，請聯絡您的帳戶小組或 Microsoft 支援人員。 已使用 Office 365 的客戶可透過 Office 365 管理入口網站提交支援案例。 
+    > 如果您收到與使用者的 [遷移] 時程表的通知，而且想要推遲您的遷移以滿足業務關鍵型的原因，您可以使用 Microsoft 支援服務來執行此動作。 請注意，您無法將遷移推遲到2020年2月28日的退休日期之後。 針對可能有其他問題的客戶，請聯絡您的帳戶小組或 Microsoft 支援人員。 已使用 Office 365 的客戶可透過 Office 365 管理入口網站提交支援案例。 
 
 6. **考慮在規劃的遷移中加入宣告**
 

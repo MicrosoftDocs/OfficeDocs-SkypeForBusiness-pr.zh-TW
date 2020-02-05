@@ -5,6 +5,8 @@ author: CarolynRowe
 manager: serdars
 ms.reviewer: bjwhalen
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -16,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 摘要： 了解如何移轉使用者設定，並將使用者移至 Teams。
-ms.openlocfilehash: 0d37fc1a875763552b2b0cebbd29a0f9c7a62e8d
-ms.sourcegitcommit: b9710149ad0bb321929139118b7df0bc4cca08de
+ms.openlocfilehash: c719741323c0e1bc8435adf10364356d069e8774
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "38010616"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726743"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>將使用者從內部部署移至 Teams
 
@@ -59,7 +61,7 @@ ms.locfileid: "38010616"
 
 Move-csuser 是來自商務 Management Shell PowerShell 視窗，內部部署商務用 Skype。 所需權限與執行下列步驟會將使用者移至 Skype for Business Online，您還必須指定 MoveToTeams 參數，而您必須確定，使用者也已授與授權 （除了商務用 Skype 的 teams 的相同Online)。
 
-[所需的系統管理認證](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)所述，您必須具有足夠的權限，在內部部署環境和 Office 365 租用戶中。 您可以使用單一帳戶的權限在這兩個環境中，或者您可以使用內部部署認證，啟動 Business Server 管理命令介面視窗內部部署商務用 Skype，並使用`-Credential`參數，以指定 Office 365 認證具有必要的 Office 365 系統管理角色的帳戶。
+[所需的系統管理認證](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)所述，您必須具有足夠的權限，在內部部署環境和 Office 365 租用戶中。 您可以使用單一帳戶的權限在這兩個環境中，或者您可以使用內部部署認證，啟動 Business Server 管理命令介面視窗內部部署商務用 Skype，並使用`-Credential`參數，以指定必要的 Office 365 系統管理角色與 Office 365 帳戶的認證。
 
 若要將使用者移至 Teams 只使用 Move-csuser 的模式：
 
@@ -110,13 +112,13 @@ Grant-CsTeamsUpgradePolicy -Identity username@contoso.com -PolicyName EnableNoti
 
 根據預設，DownloadTeams 的值為 True;不過，它是*只*接受如果 NotifySfbUser = True 針對指定的使用者。
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 [Move-csuser](https://docs.microsoft.com/powershell/module/skype/move-csuser)
 
 [授與 CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy
 )
 
-[組織使用 Teams 與 Skype for Business 的移轉和互通性指導](/microsoftteams/migration-interop-guidance-for-teams-with-skype)
+[搭配使用 Teams 與商務用 Skype 之組織的移轉和互通性指引](/microsoftteams/migration-interop-guidance-for-teams-with-skype)
 
 [商務用 Skype 共存](/microsoftteams/coexistence-chat-calls-presence)

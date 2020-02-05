@@ -7,15 +7,17 @@ audience: ITPro
 ms.reviewer: PhillipGarding
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 0813184a-ab40-417c-b3a3-c2090766b831
 description: 摘要：如何使用 Config.xml 檔案來指定其他安裝指示。
-ms.openlocfilehash: d561e4f6e3213ae7dff160b9b43e02f26ecc0522
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: a935e3623e99324eb24caef4e7e232d2311c5cfb
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41002933"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768646"
 ---
 # <a name="use-configxml-to-perform-installation-tasks-in-skype-for-business-clients"></a>在商務用 Skype 用戶端中使用 Config.xml 執行安裝工作
 
@@ -46,7 +48,7 @@ ms.locfileid: "41002933"
 **Config .xml 元素**
 
 
-| **元件**              | **描述**                                                                                                                                                                                                                                                                                         |
+| **元件**              | **說明**                                                                                                                                                                                                                                                                                         |
 |:-------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Configuration  <br/>     | 高層元素（必要）。 包含 Product 屬性，例如： Product = Lync （這適用于商務用 Skype 用戶端）  <br/>                                                                                                                                                          |
 | OptionState  <br/>       | 指定安裝期間特定產品功能的處理方式。 使用下列屬性來避免安裝 Business Connectivity Service，其中包含會干擾 Outlook 的共用元件： <br/>  識別碼 = "LOBiMain" <br/>  State = "不存在" <br/>  子級 = "Force" <br/> |

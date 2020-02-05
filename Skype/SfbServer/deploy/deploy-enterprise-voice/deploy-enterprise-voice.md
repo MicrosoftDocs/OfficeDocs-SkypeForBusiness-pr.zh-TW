@@ -7,27 +7,29 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: b5b593a6-ac30-461c-8c8c-0041e2c9ab04
-description: '摘要: 瞭解如何在中央網站部署商務用 Skype Server 的企業語音。'
-ms.openlocfilehash: 3e85ac96415788e8e15ba1ed11786864b6fc3124
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 摘要：瞭解如何在中央網站部署商務用 Skype Server 的企業語音。
+ms.openlocfilehash: 1b1b1d0f79d1730bd491314f4f4e97b43b0acb62
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245774"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767546"
 ---
 # <a name="deploy-enterprise-voice-in-skype-for-business-server"></a>在商務用 Skype Server 中部署企業版語音
 
-**摘要:** 瞭解如何在中央網站部署商務用 Skype Server 的企業語音。
+**摘要：** 瞭解如何在中央網站部署商務用 Skype Server 的企業語音。
 
-您可以在中央網站使用本主題來部署企業語音。 若要在分支網站上部署企業語音, 請跳過[部署分支網站](https://technet.microsoft.com/library/1475dee0-66ae-4ee5-b6f1-7409b4bbff45.aspx)。
+您可以在中央網站使用本主題來部署企業語音。 若要在分支網站上部署企業語音，請跳過[部署分支網站](https://technet.microsoft.com/library/1475dee0-66ae-4ee5-b6f1-7409b4bbff45.aspx)。
 
-本節包含適用于部署的程式, 其中, 在每個前端伺服器或標準版伺服器上 collocated 的中繼伺服器 (如有建議), 以及使用獨立的中繼伺服器池的部署。如果您使用拓撲建立器定義併發布在每個前端伺服器或標準版伺服器上 collocates 轉送伺服器的拓撲, 就可以略過下列內容, 因為部署嚮導已自動安裝檔案供當您為前端伺服器池或標準版伺服器安裝檔案時, 會進行中繼伺服器:
+本節包含適用于部署的程式，其中，在每個前端伺服器或標準版伺服器上 collocated 的中繼伺服器（如有建議），以及使用獨立的中繼伺服器池的部署。如果您使用拓撲建立器定義併發布在每個前端伺服器或標準版伺服器上 collocates 轉送伺服器的拓撲，就可以略過下列內容，因為部署嚮導已自動安裝檔案供當您為前端伺服器池或標準版伺服器安裝檔案時，會進行中繼伺服器：
 ## <a name="in-this-section"></a>本節內容
 
 - [商務用 Skype Server 中的企業語音安全性與設定先決條件](enterprise-voice-security.md)

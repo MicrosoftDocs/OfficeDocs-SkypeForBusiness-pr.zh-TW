@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 5ea18841-afdc-4ccb-8d86-30584c1f5aca
 description: 摘要：瞭解如何在商務用 Skype Server 中建立、發佈及匯出邊緣伺服器拓撲。
-ms.openlocfilehash: c625656f1686b6e72be2f0223d6560464bb9e7bc
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 3abde687899f240174e91d2583321bcdc6855fff
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41001473"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768326"
 ---
 # <a name="create-your-edge-topology-for-skype-for-business-server"></a>為商務用 Skype Server 建立邊緣拓撲
  
@@ -254,7 +256,7 @@ ms.locfileid: "41001473"
     
 ## <a name="publish-your-edge-server-topology"></a>發佈 Edge 伺服器拓撲
 
-完成上述步驟後，就可以發佈這個新的拓朴，這也會讓您將它匯出到商務用 Skype Server Edge 伺服器或 Edge 池。 請依照下列步驟進行：
+完成上述步驟後，就可以發佈這個新的拓朴，這也會讓您將它匯出到商務用 Skype Server Edge 伺服器或 Edge 池。 請遵循下列步驟：
   
 1. 啟動**拓撲**建立器（如果尚未從上一個程式開始）。
     
