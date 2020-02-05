@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 66867a96-ff00-497d-889c-2e908cc384ce
 description: 摘要：請閱讀本主題，以瞭解如何設定商務用 Skype 使用者的用戶端體驗。
-ms.openlocfilehash: 0122e86648a30cf0c4a17957b5d000b742d4c16a
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 678bda8499ddae61f0cca3b3bbb606283192660b
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003533"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769076"
 ---
 # <a name="configure-the-client-experience-with-skype-for-business-2015"></a>使用商務用 Skype 2015 設定用戶端體驗
  

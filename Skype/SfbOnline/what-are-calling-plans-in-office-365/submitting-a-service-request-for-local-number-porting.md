@@ -17,16 +17,17 @@ appliesto:
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
-- ms.lync.lac.PortOrderQuickViewPanelO365Support
+- CSH
 ms.custom:
 - Calling Plans
+- ms.lync.lac.PortOrderQuickViewPanelO365Support
 description: '如果您要將超過999的電話號碼轉接到商務用 Skype，請瞭解如何提交一個埠訂單服務要求，以讓他們移動。 '
-ms.openlocfilehash: d7a19608700a0ecd85880ad880031aa2e21409ff
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: a8260308d5072478dba4ff054bb54e841bacfdda
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41705878"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769306"
 ---
 # <a name="submitting-a-service-request-for-local-number-porting"></a>提交本機號碼移植服務要求
 

@@ -14,12 +14,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 48fbd1477194b7523b65ec527686b7304f0c37b2
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 763eadd0f38ce1dcaf941a92ed8221024f23b6ed
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992018"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769806"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>啟用直接路由的依位置路由
 
@@ -97,13 +97,13 @@ ms.locfileid: "40992018"
 1. 使用[CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway?view=skype-ps) Cmdlet 來為每個閘道或網路網站建立閘道配置。 
 
     ```PowerShell
-    New-CSOnlinePSTNGateway -Fqdn <FDQN registered for the SBC> -Identity <gateway configuration ID> -SipSignallingPort <listening port used> -Enabled $true 
+    New-CSOnlinePSTNGateway -Fqdn <FDQN registered for the SBC> -Identity <gateway configuration ID> -SipSignalingPort <listening port used> -Enabled $true 
     ```
     如果有多個閘道與系統相關聯（例如，閘道或 PBX），請修改每個閘道以啟用以位置為基礎的路由限制。 
 
     在這個範例中，我們會為每個閘道建立一個閘道配置。 
     ```PowerShell
-    New-CsOnlinePSTNGateway -Fqdn sbc.contoso.com -Enabled $true -SipSignallingPort 5067 
+    New-CsOnlinePSTNGateway -Fqdn sbc.contoso.com -Enabled $true -SipSignalingPort 5067 
     ```
     如需詳細資訊，請參閱[設定直接路由](direct-routing-configure.md)。
     

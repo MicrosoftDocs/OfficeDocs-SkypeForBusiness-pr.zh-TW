@@ -15,16 +15,17 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 f1.keywords:
-- O365P_OnlinePresenceDesc
+- CSH
 ms.custom:
 - Setup
+- O365P_OnlinePresenceDesc
 description: '瞭解如何設定商務用 Skype，讓您可以查看同事的可用性。 '
-ms.openlocfilehash: 7e0389d232d1b05a39827ed89e82acb6aa35a82a
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 75294b62e516ef5e39a498f91ff6284c0a26cac5
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706518"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769726"
 ---
 # <a name="configure-presence-in-skype-for-business-online"></a>設定商務用 Skype Online 的顯示狀態
 

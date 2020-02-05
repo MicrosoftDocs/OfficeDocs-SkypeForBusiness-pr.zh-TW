@@ -1,5 +1,5 @@
 ---
-title: 針對多個承租人設定會話框線控制器
+title: 設定多個租用戶的工作階段邊界控制器
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -14,14 +14,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 瞭解如何設定一個會話邊界控制器（SBC）來提供多個承租人。
-ms.openlocfilehash: 5009f600af0d9632ed94b544e75f791d9ecead85
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: c58a6f264910e0d916d5d338598b58e132f2c413
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572132"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769826"
 ---
-# <a name="configure-a-session-border-controller-for-multiple-tenants"></a>針對多個承租人設定會話框線控制器
+# <a name="configure-a-session-border-controller-for-multiple-tenants"></a>設定多個租用戶的工作階段邊界控制器
 
 直接路由支援設定一個會話邊界控制器（SBC）來提供多個租使用者。
 
@@ -57,7 +57,7 @@ Microsoft 不會管理運營商。 Microsoft 提供 PBX （Microsoft 手機系�
 
 - **AudioCodes：** [直接路由設定筆記](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams)，在「將 AudioCodes SBC 連線至 Microsoft 團隊直接路由託管模型配置記事」中所述的 SBC 主機案例設定。 
 - **Oracle：** [直接路由設定筆記](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html)，在「Microsoft」一節中將說明 SBC 主機案例的設定。 
-- **功能區通訊：** 請參閱[功能區通訊 SBC 核心 Microsoft 團隊配置指南](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe)，瞭解如何設定功能區核心數列的 SBCs 與此頁面[功能區最佳做法-為 Microsoft 團隊直接路由 SBC 設定電信公司Edge](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+Carriers+for+Microsoft+Teams+Direct+Routing)
+- **功能區通訊：** 請參閱[功能區通訊 SBC 核心 Microsoft 團隊配置指南](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe)，瞭解如何設定功能區核心數列的 SBCs 與此頁面[功能區最佳做法-為 Microsoft 團隊直接路由 SBC 邊緣配置電信公司](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+Carriers+for+Microsoft+Teams+Direct+Routing)
 - **TE-系統（anynode）：** 請在[TE 系統社區頁面](https://community.te-systems.de/)上登錄，以取得有關如何針對多個租使用者設定 anynode SBC 的檔和範例。
 
 > [!NOTE]
@@ -83,7 +83,7 @@ Microsoft 不會管理運營商。 Microsoft 提供 PBX （Microsoft 手機系�
 
 ![顯示網域和連絡人標題需求的圖表](media/direct-routing-1-sbc-requirements.png)
 
-SBC 需要認證，才能驗證連線。 針對 SBC 主機案例，電信公司必須向* \*base_domain （例如\*customers.adatum.biz）* 要求證書。 這個憑證可以用來驗證從單一 SBC 提供的多個租使用者的連線。
+SBC 需要認證，才能驗證連線。 針對 SBC 主機案例，電信公司需要使用* \*base_domain （例如\*customers.adatum.biz）* 要求證書。 這個憑證可以用來驗證從單一 SBC 提供的多個租使用者的連線。
 
 
 下表是一個配置的範例。
@@ -217,7 +217,7 @@ SBC 需要認證，才能驗證連線。 針對 SBC 主機案例，電信公司�
 根據這項意見反應，Microsoft 正在為客戶租使用者提供新的邏輯來提供 trunks。
 
 引入了兩個新的實體：
--   使用命令 New-CSOnlinePSTNGateway 在載波租使用者中註冊的載波幹線，例如新的-CSOnlinePSTNGateway-FQDN customers.adatum.biz-SIPSignallingport 5068-ForwardPAI $true。
+-   使用命令 New-CSOnlinePSTNGateway 在載波租使用者中註冊的載波幹線，例如新的-CSOnlinePSTNGateway-FQDN customers.adatum.biz-SIPSignalingport 5068-ForwardPAI $true。
 
 -   衍生的主幹，不需要註冊。 它只是從載波幹線中新增的想要的主機名稱。 它會從載波幹線衍生其所有設定參數。 衍生主幹不需要在 PowerShell 中建立，而且與載波幹線的關聯性是以 FQDN 名稱為基礎（請參閱下方的詳細資料）。
 

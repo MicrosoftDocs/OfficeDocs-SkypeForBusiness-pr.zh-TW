@@ -7,15 +7,17 @@ audience: ITPro
 ms.reviewer: sohailta
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: c336ee9a-1ed8-4f64-9f7f-89549ae24c40
 description: 若要瞭解 Skype 室系統的管理工具，請閱讀本主題。
-ms.openlocfilehash: c9289d3fffa78dd7ffd94fa17784c1b06c2278b1
-ms.sourcegitcommit: fa55f9e3690fcca36b530bd13a9eeaa44120b87c
+ms.openlocfilehash: 74c484b321312fc77c7a1e892f41bdeac8af49ff
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "37547256"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768856"
 ---
 # <a name="skype-room-system-manageability-and-tools"></a>Skype 室系統可管理性與工具
  
@@ -54,7 +56,7 @@ ms.locfileid: "37547256"
     
 - 如有需要，請向 [會議室系統] 要求 [已執行] （電話號碼），並更新 Active Directory 工具中的 [一般電話] 欄位。
     
-## <a name="network"></a>局域網
+## <a name="network"></a>網路
 
 - 請確定您有 Skype 房間系統的有線網路連線。
     

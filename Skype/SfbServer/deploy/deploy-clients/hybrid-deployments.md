@@ -7,15 +7,17 @@ audience: ITPro
 ms.reviewer: sohailta
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: eba70d88-13b3-4598-95d5-8a343c9e7d26
 description: 若要瞭解如何在混合式環境中部署 Skype 會議室系統，請閱讀本主題。
-ms.openlocfilehash: f6364f7bb96ddf2b25aaaef2a341fce5b71372f5
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 3fe92990fa80f938d078c92624232a289b5f8621
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003493"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768966"
 ---
 # <a name="skype-room-system-hybrid-deployments"></a>Skype 室系統混合式部署
 

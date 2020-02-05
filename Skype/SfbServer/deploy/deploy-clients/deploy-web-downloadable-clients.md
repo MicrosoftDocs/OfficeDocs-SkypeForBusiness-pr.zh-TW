@@ -7,15 +7,17 @@ audience: ITPro
 ms.reviewer: PhillipGarding
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
 description: 摘要：在商務用 Skype 中部署商務用 Skype Web App 和 Skype 會議應用程式。
-ms.openlocfilehash: eb939ddf394ff62b9173939622a8ef3f20faaca9
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 5f4cc14ab3774096846053e6da41647c1987a1dd
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003523"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768956"
 ---
 # <a name="deploy-web-downloadable-clients-in-skype-for-business-server"></a>在商務用 Skype Server 中部署網頁下載用戶端
 

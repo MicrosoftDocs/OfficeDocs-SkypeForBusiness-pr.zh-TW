@@ -7,15 +7,17 @@ audience: ITPro
 ms.reviewer: sohailta
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: df9f33b6-0360-4354-b651-bd35da533e33
 description: 請閱讀本主題，瞭解如何在擁有多個版本商務用 Skype Server 和 Lync Server 的環境中部署 Skype 會議室系統。
-ms.openlocfilehash: 6524a7312644ec306185b952caf17818d29344af
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: a4856977931d459fba3b11a65b21e49a25cc418b
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36774671"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768836"
 ---
 # <a name="skype-room-system-migration-considerations"></a>Skype 會議室系統的遷移考慮
  
@@ -31,7 +33,7 @@ Lync Server 中的使用者複製程式（UR）元件會從 Active Directory 取
   
 您可以使用下列選項來解決此問題： 
   
-- 將您的自動探索 SRV 記錄（_sipinternaltls _tcp）指向 Lync Server 2013 池。
+- 將您的自動探索 SRV 記錄（_sipinternaltls _tcp .com）指向 Lync Server 2013 池。
     
 - 如果第一個選項無法使用，您必須手動設定 LRS，並在 Skype 會議室系統主控台應用程式中直接設定，以提供 Lync Server 2013 池位址。 
     

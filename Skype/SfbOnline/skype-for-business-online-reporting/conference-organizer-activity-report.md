@@ -15,16 +15,17 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 f1.keywords:
-- O365E_ReportsS4BOrgActivity
+- CSH
 ms.custom:
 - Reporting
+- O365E_ReportsS4BOrgActivity
 description: '瞭解如何取得商務用 Skype 會議已整理的活動報告，以及如何解讀及加以自訂。 '
-ms.openlocfilehash: 6cbba90fd874fb4b2d4b3799e0765c2de66e8be4
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: f005a1ee53d1fc5ab5ee9e4736ff8d6d241f3a6e
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706068"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769386"
 ---
 # <a name="conference-organizer-activity-report"></a>會議召集人活動報告
 

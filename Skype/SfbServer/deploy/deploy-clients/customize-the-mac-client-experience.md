@@ -7,15 +7,17 @@ ms.reviewer: PhillipGarding
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: d1d9cfec-e923-4d02-a306-ee40a9114cb8
 description: 本文將說明 Mac 版商務用 Skype 的客戶喜好設定及預設值，以及如何在 App 外編輯這些設定。
-ms.openlocfilehash: 582c9a1b12cf6dd687eff5fe0cb829e1aca98df7
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 796ccdc7d876547e38482a853dc9f89c38bcf53d
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41002653"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768826"
 ---
 # <a name="customize-the-mac-client-experience-in-skype-for-business"></a>在商務用 Skype 中自訂 Mac 用戶端體驗
  
@@ -32,7 +34,7 @@ Mac 用戶端上的商務用 Skype 所能使用的某些功能和行為是由用
 **用戶端喜好設定鍵**
 
 
-| 機碼 | 類型 | 值 | 描述 |
+| 機碼 | 類型 | 值 | 說明 |
 |:-----|:-----|:-----|:-----|
 |autoDetectAutoDicoveryURLs    |Bool    |0 = 手動伺服器設定  <br/> 1 = 自動伺服器偵測（預設）    |指定商務用 Skype 識別登入期間要使用的傳輸和伺服器的方式。 如果您啟用此原則設定，您必須指定**internalAutoDiscoveryURL**和**externalAutoDiscoveryURL**。   |
 |internalAutoDiscoveryURL    |String    |完整的自動探索 URL    |內部自動探索 URL    |

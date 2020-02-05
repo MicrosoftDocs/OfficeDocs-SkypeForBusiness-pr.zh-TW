@@ -15,20 +15,21 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 f1.keywords:
-- O365E_SkypeforBusinessON
-- O365M_SkypeforBusinessON
-- O365P_SkypeforBusinessON
+- CSH
 ms.custom:
 - Setup
 - Alchemy
 - LIL_Placement
+- O365E_SkypeforBusinessON
+- O365M_SkypeforBusinessON
+- O365P_SkypeforBusinessON
 description: '瞭解如何為您的組織設定您的網域、使用者、IM 和目前狀態，以安裝商務用 Skype。 另請參閱如何設定音訊會議、電話系統和通話方案，以及 Skype 會議廣播。 '
-ms.openlocfilehash: d30a141b80ade00ef03bafdfab388df56e4b1b7d
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: dda75716014c81b2c1fcf333bfd7e9e05ea606e0
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692868"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769596"
 ---
 # <a name="set-up-skype-for-business-online"></a>設定商務用 Skype Online
 

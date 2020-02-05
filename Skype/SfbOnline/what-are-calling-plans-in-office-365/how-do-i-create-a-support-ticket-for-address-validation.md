@@ -16,16 +16,18 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1.keywords: ms.lync.lac.CivicAddressValidationOpenSupportTicket
+f1.keywords:
+- CSH
 ms.custom:
 - Calling Plans
+- ms.lync.lac.CivicAddressValidationOpenSupportTicket
 description: 位址驗證是設定 Office 365 通話方案的重要部分。 它會為貴組織中的使用者提供緊急呼叫位址，以供緊急回應服務使用。
-ms.openlocfilehash: 010191a3e70e9f4d9be6ec34d57118d9b79dfec4
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: dd748a532957790d977b10fc0ec94f7f8af7b910
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41705898"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769316"
 ---
 # <a name="how-do-i-create-a-support-ticket-for-address-validation"></a>如何建立位址驗證的支援票證？
 

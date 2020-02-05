@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 瞭解如何設定 Microsoft Phone 系統 Direct 路由。
-ms.openlocfilehash: 40439fd31db458f8cb306c0e3dbd456aa59a7a21
-ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
+ms.openlocfilehash: d4d804d48a97757d0a810cb16b22fec9f09df300
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41111727"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769816"
 ---
 # <a name="configure-direct-routing"></a>設定直接路由
 
@@ -78,7 +78,7 @@ Function       Set-CsOnlinePSTNGateway    1.0        tmp_v5fiu1no.wxt
 若要將 SBC 與租使用者進行配對，請在 PowerShell 會話中輸入下列內容，然後按 Enter 鍵： 
 
 ```PowerShell
-New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignallingPort <SBC SIP Port> -MaxConcurrentSessions <Max Concurrent Sessions the SBC can handle> -Enabled $true 
+New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignalingPort <SBC SIP Port> -MaxConcurrentSessions <Max Concurrent Sessions the SBC can handle> -Enabled $true 
 ```
   > [!NOTE]
   > 1. 我們強烈建議您在 SBC 中設定最大通話限制，使用可在 SBC 檔中找到的資訊。 如果 SBC 是容量等級，則限制會觸發通知。
@@ -89,13 +89,13 @@ New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignallingPort <SBC SIP Port> -MaxC
   `Can not use the “sbc.contoso.com” domain as it was not configured for this tenant`.
 
 ```PowerShell
-New-CsOnlinePSTNGateway -Identity sbc.contoso.com -Enabled $true -SipSignallingPort 5067 -MaxConcurrentSessions 100 
+New-CsOnlinePSTNGateway -Identity sbc.contoso.com -Enabled $true -SipSignalingPort 5067 -MaxConcurrentSessions 100 
 ```
 回報
 <pre>
 Identity              : sbc.contoso.com 
 Fqdn                  : sbc.contoso.com 
-SipSignallingPort     : 5067 
+SipSignalingPort     : 5067 
 FailoverTimeSeconds   : 10 
 ForwardCallHistory    : False 
 ForwardPai            : False 
@@ -107,11 +107,11 @@ Enabled               : True
  
 下表列出您可以在設定參數時使用的其他參數```New-CsOnlinePstnGateway```。
 
-|必填？|名稱|描述|設置|可能值|類型與限制|
+|必填？|名稱|說明|設置|可能值|類型與限制|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |是|稱|SBC 的 FQDN 名稱 |無|NoneFQDN name，限制63字元|在[Active Directory 中針對電腦、網域、網站和組織單位命名慣例](https://support.microsoft.com/help/909264)的允許和禁止字元清單|
 |否|MediaBypass |指示 SBC 的參數支援「媒體旁路」，且系統管理員想要使用它。|無|滿足<br/>虛假|Boolean|
-|是|SipSignallingPort |使用傳輸層安全性（TLS）通訊協定，與直接路由服務通訊時所使用的偵聽埠。|無|任何埠|0到65535 |
+|是|SipSignalingPort |使用傳輸層安全性（TLS）通訊協定，與直接路由服務通訊時所使用的偵聽埠。|無|任何埠|0到65535 |
 |否|FailoverTimeSeconds |當設定為10（預設值）時，閘道不會在10秒內應答的輸出呼叫會路由至下一個可用的幹線;如果沒有其他 trunks，就會自動中斷通話。 組織的網路速度與閘道回應速度若是很慢，可能會造成來電不必要地遭到掛斷。 預設值為10。|第|電話|Int|
 |否|ForwardCallHistory |指出是否透過主幹轉送通話記錄資訊。 如果啟用，Office 365 PSTN Proxy 會傳送兩個標頭： [歷程記錄] 資訊和 [參照者]。 預設值為**False** （$False）。 |虛假|滿足<br/>虛假|Boolean|
 |否|ForwardPAI|指出 P-Asserted-Identity (PAI) 標頭是否要隨通話轉接。 PAI 標頭可用於驗證來電者的身分識別。 如果啟用，則也會傳送隱私權： ID 標頭。 預設值為**False** （$False）。|虛假|滿足<br/>虛假|Boolean|
@@ -139,7 +139,7 @@ Get-CsOnlinePSTNGateway -Identity sbc.contoso.com
 <pre>
 Identity              : sbc.contoso.com  
 Fqdn                  : sbc.contoso.com 
-SipSignallingPort     : 5067 
+SipSignalingPort     : 5067 
 CodecPriority         : SILKWB,SILKNB,PCMU,PCMA 
 ExcludedCodecs        :  
 FailoverTimeSeconds   : 10 
@@ -258,10 +258,10 @@ Microsoft 通話方案會自動套用為所有擁有 Microsoft 通話方案授�
 
 下表摘要列出使用三個語音路由的配置。 在這個範例中，所有三個路由都是「美國和加拿大」相同的 PSTN 使用量。
 
-|**PSTN 使用量**|**語音路線**|**數位模式**|**優先順序**|**SBC**|**描述**|
+|**PSTN 使用量**|**語音路線**|**數位模式**|**優先順序**|**SBC**|**說明**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |僅限美國|"雷德蒙 1"|^\\+ 1 （425\|206）（\d{7}） $|1|sbc1.contoso.biz<br/>sbc2.contoso.biz|呼叫號碼 + 1 425 XXX XX xx 美元或 + 1 206 XXX XX xx 的活動路由|
-|僅限美國|"雷德蒙 2"|^\\+ 1 （425\|206）（\d{7}） $|pplx-2|sbc3.contoso.biz<br/>sbc4.contoso.biz|呼叫號碼的備份路由 + 1 425 XXX XX XX or + 1 206 XXX XX xx|
+|僅限美國|"雷德蒙 2"|^\\+ 1 （425\|206）（\d{7}） $|2|sbc3.contoso.biz<br/>sbc4.contoso.biz|呼叫號碼的備份路由 + 1 425 XXX XX XX or + 1 206 XXX XX xx|
 |僅限美國|"Other + 1"|^\\+ 1 （\d{10}） $|3|sbc5.contoso.biz<br/>sbc6.contoso.biz|呼叫號碼的路由 + 1 XXX XXX XXX xx （除 + 1 425 XXX XX 或 + 1 206 XXX XX xx 以外）|
 |||||||
 
@@ -439,10 +439,10 @@ John：可撥打任何號碼的電話。 呼叫雷德蒙的數位範圍時，必
 
 下表摘要列出路由策略「無限制」的使用方式指派和語音路由。 
 
-|**PSTN 使用量**|**語音路線**|**數位模式**|**優先順序**|**SBC**|**描述**|
+|**PSTN 使用量**|**語音路線**|**數位模式**|**優先順序**|**SBC**|**說明**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |僅限美國|"雷德蒙 1"|^\\+ 1 （425\|206）（\d{7}） $|1|sbc1.contoso.biz<br/>sbc2.contoso.biz|被呼叫者編號的作用中路由 + 1 425 XXX XX XX 或 + 1 206 XXX XX xx|
-|僅限美國|"雷德蒙 2"|^\\+ 1 （425\|206）（\d{7}） $|pplx-2|sbc3.contoso.biz<br/>sbc4.contoso.biz|被呼叫者編號的備份路由 + 1 425 XXX XX XX 或 + 1 206 XXX XX xx|
+|僅限美國|"雷德蒙 2"|^\\+ 1 （425\|206）（\d{7}） $|2|sbc3.contoso.biz<br/>sbc4.contoso.biz|被呼叫者編號的備份路由 + 1 425 XXX XX XX 或 + 1 206 XXX XX xx|
 |僅限美國|"Other + 1"|^\\+ 1 （\d{10}） $|3|sbc5.contoso.biz<br/>sbc6>. contoso.biz|被呼叫者的電話號碼 + 1 XXX XXX XX （不包括 + 1 425 XXX XX 或 + 1 206 XXX xx xx）|
 |國際|國際|\d +|4|sbc2.contoso.biz<br/>sbc5.contoso.biz|任何數位模式的路線 |
 
@@ -559,7 +559,7 @@ No Restrictions
 在範例案例中，我們會執行```New-CsOnlinePSTNGateway``` Cmdlet 來建立下列的 SBC 配置。
 
 ```PowerShell
-New-CSOnlinePSTNGateway -Identity sbc1.contoso.com -SipSignallingPort 5061 –InboundTeamsNumberTranslationRulesList ‘AddPlus1’, ‘AddE164SeattleAreaCode’ -InboundPSTNNumberTranslationRulesList ‘AddPlus1’ -OnboundPSTNNumberTranslationRulesList ‘AddSeattleAreaCode’,  -OutboundTeamsNumberTranslationRulesList ‘StripPlus1’
+New-CSOnlinePSTNGateway -Identity sbc1.contoso.com -SipSignalingPort 5061 –InboundTeamsNumberTranslationRulesList ‘AddPlus1’, ‘AddE164SeattleAreaCode’ -InboundPSTNNumberTranslationRulesList ‘AddPlus1’ -OnboundPSTNNumberTranslationRulesList ‘AddSeattleAreaCode’,  -OutboundTeamsNumberTranslationRulesList ‘StripPlus1’
 ```
 
 指派給 SBC 的翻譯規則摘要如下表所示。

@@ -15,19 +15,20 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 f1.keywords:
-- ms.lync.lac.UsersExternalAccess
-- ms.lync.lac.UsersGeneralOptions
-- ms.lync.lac.UsersLyncToPhoneMoreInfo
+- CSH
 ms.custom:
 - Setup
 - LIL_Placement
+- ms.lync.lac.UsersExternalAccess
+- ms.lync.lac.UsersGeneralOptions
+- ms.lync.lac.UsersLyncToPhoneMoreInfo
 description: '瞭解如何變更個別使用者的商務用 Skype 設定，例如音訊與視訊會議、通話和會議的錄製。 '
-ms.openlocfilehash: a384acdadb6ca4df621d45abdde4157df2029619
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: d6054db4bfdd8b161dca427237a10d70ba558fcb
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706508"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769686"
 ---
 # <a name="admins-configure-skype-for-business-settings-for-individual-users"></a>系統管理員：針對個別使用者設定商務用 Skype 設定
 

@@ -16,16 +16,17 @@ appliesto:
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
-- ms.lync.lac.BroadcastMeetingsPreview
+- CSH
 ms.custom:
 - SMB
+- ms.lync.lac.BroadcastMeetingsPreview
 description: 商務用 Skype 的客戶預覽程式可讓您及早存取新的產品和功能。 它可讓您的組織取得快速的外觀，在您自己的環境中測試新功能，並在我們發佈產品組建至一般大眾之前提供意見反應。 若要深入瞭解，請參閱商務用 Skype preview。
-ms.openlocfilehash: 16cfbfd05c5d1e54ba9613e088c99f7eece4f67a
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 7f3550db7259e1606e4ac4e5e4b766c73f61566a
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692558"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769436"
 ---
 # <a name="skype-meeting-broadcast-preview-settings"></a>Skype 會議廣播預覽設定
 

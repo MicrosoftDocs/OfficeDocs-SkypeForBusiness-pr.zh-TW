@@ -17,16 +17,17 @@ appliesto:
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
-- ms.lync.lac.NumberActivationStateFailed
+- CSH
 ms.custom:
 - Calling Plans
+- ms.lync.lac.NumberActivationStateFailed
 description: 位址驗證是設定 Office 365 通話方案的重要部分。 它會為貴組織中的使用者提供緊急呼叫位址，以供緊急回應服務使用。
-ms.openlocfilehash: ebfe408183de656f271d65ad7bebb6e413ab39c8
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: aa84186013deab98143113197dc080406dcec798
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692278"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769146"
 ---
 # <a name="why-has-number-activation-failed"></a>為什麼數位啟用失敗？
 位址驗證是設定 Office 365 通話方案的重要部分。 如果由於某種原因無法因位址驗證而啟動電話號碼，您將需要建立服務要求。 您這樣做的方式取決於貴組織的規模。
