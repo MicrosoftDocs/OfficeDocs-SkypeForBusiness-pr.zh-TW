@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,26 +16,26 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f8163910-8935-475d-88a2-3aa44feb9dbe
 description: 在商務用 Skype Server 中建立或修改 [企業語音通話許可控制] 所使用的網路區域連結。
-ms.openlocfilehash: 3c40488c3cbb4d5116f9b242bb198ba20f13bd58
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 20fdbca9eb56fad9b69c6299177301e82fbf115a
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41001733"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767906"
 ---
-# <a name="create-network-region-links-in-skype-for-business-server"></a><span data-ttu-id="ef1eb-103">在商務用 Skype Server 中建立網路區域連結</span><span class="sxs-lookup"><span data-stu-id="ef1eb-103">Create network region links in Skype for Business Server</span></span>
+# <a name="create-network-region-links-in-skype-for-business-server"></a><span data-ttu-id="0986a-103">在商務用 Skype Server 中建立網路區域連結</span><span class="sxs-lookup"><span data-stu-id="0986a-103">Create network region links in Skype for Business Server</span></span>
  
-<span data-ttu-id="ef1eb-104">在商務用 Skype Server 中建立或修改 [企業語音通話許可控制] 所使用的網路區域連結。</span><span class="sxs-lookup"><span data-stu-id="ef1eb-104">Create or modify network region links, which are used by Enterprise Voice call admission control in Skype for Business Server.</span></span> 
+<span data-ttu-id="0986a-104">在商務用 Skype Server 中建立或修改 [企業語音通話許可控制] 所使用的網路區域連結。</span><span class="sxs-lookup"><span data-stu-id="0986a-104">Create or modify network region links, which are used by Enterprise Voice call admission control in Skype for Business Server.</span></span> 
   
-<span data-ttu-id="ef1eb-105">網路中的區域是透過物理 WAN 連線來連結。</span><span class="sxs-lookup"><span data-stu-id="ef1eb-105">Regions within a network are linked through physical WAN connectivity.</span></span> <span data-ttu-id="ef1eb-106">[網路區域] 連結會建立兩個設定為 [呼叫許可控制] （CAC）的區域之間的連結，並設定這些區域之間音訊與視頻流量的頻寬限制。</span><span class="sxs-lookup"><span data-stu-id="ef1eb-106">A network region link creates a link between two regions configured for Call Admission Control (CAC) and sets the bandwidth limitations on audio and video traffic between these regions.</span></span>
+<span data-ttu-id="0986a-105">網路中的區域是透過物理 WAN 連線來連結。</span><span class="sxs-lookup"><span data-stu-id="0986a-105">Regions within a network are linked through physical WAN connectivity.</span></span> <span data-ttu-id="0986a-106">[網路區域] 連結會建立兩個設定為 [呼叫許可控制] （CAC）的區域之間的連結，並設定這些區域之間音訊與視頻流量的頻寬限制。</span><span class="sxs-lookup"><span data-stu-id="0986a-106">A network region link creates a link between two regions configured for Call Admission Control (CAC) and sets the bandwidth limitations on audio and video traffic between these regions.</span></span>
   
-<span data-ttu-id="ef1eb-107">此範例拓撲在北美與 APAC 區域之間有連結，以及 EMEA 與 APAC 區域之間的連結。</span><span class="sxs-lookup"><span data-stu-id="ef1eb-107">The example topology has a link between the North America and APAC regions, and a link between the EMEA and APAC regions.</span></span> <span data-ttu-id="ef1eb-108">上述每一個區域連結都受 WAN 頻寬的限制，如地區連結頻寬資訊資料表中所述[：在商務用 Skype Server 中收集通話許可控制需求](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md)。</span><span class="sxs-lookup"><span data-stu-id="ef1eb-108">Each of these region links is constrained by WAN bandwidth, as described in Region Link Bandwidth Information table in [Example: Gathering requirements for call admission control in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md).</span></span>
+<span data-ttu-id="0986a-107">此範例拓撲在北美與 APAC 區域之間有連結，以及 EMEA 與 APAC 區域之間的連結。</span><span class="sxs-lookup"><span data-stu-id="0986a-107">The example topology has a link between the North America and APAC regions, and a link between the EMEA and APAC regions.</span></span> <span data-ttu-id="0986a-108">上述每一個區域連結都受 WAN 頻寬的限制，如地區連結頻寬資訊資料表中所述[：在商務用 Skype Server 中收集通話許可控制需求](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md)。</span><span class="sxs-lookup"><span data-stu-id="0986a-108">Each of these region links is constrained by WAN bandwidth, as described in Region Link Bandwidth Information table in [Example: Gathering requirements for call admission control in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md).</span></span>
   
-### <a name="to-create-network-region-links-by-using-skype-for-business-server-management-shell"></a><span data-ttu-id="ef1eb-109">使用商務用 Skype Server Management Shell 建立網路區域連結</span><span class="sxs-lookup"><span data-stu-id="ef1eb-109">To create network region links by using Skype for Business Server Management Shell</span></span>
+### <a name="to-create-network-region-links-by-using-skype-for-business-server-management-shell"></a><span data-ttu-id="0986a-109">使用商務用 Skype Server Management Shell 建立網路區域連結</span><span class="sxs-lookup"><span data-stu-id="0986a-109">To create network region links by using Skype for Business Server Management Shell</span></span>
 
-1. <span data-ttu-id="ef1eb-110">啟動商務用 Skype Server 管理命令介面：按一下 [**開始**]，按一下 [**所有程式**]，按一下 [**商務用 skype 2015**]，然後按一下 [**商務用 skype Server management Shell**]。</span><span class="sxs-lookup"><span data-stu-id="ef1eb-110">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
+1. <span data-ttu-id="0986a-110">啟動商務用 Skype Server 管理命令介面：按一下 [**開始**]，按一下 [**所有程式**]，按一下 [**商務用 skype 2015**]，然後按一下 [**商務用 skype Server management Shell**]。</span><span class="sxs-lookup"><span data-stu-id="0986a-110">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
     
-2. <span data-ttu-id="ef1eb-111">執行新的 CsNetworkRegionLink Cmdlet 來建立區域連結，並套用適當的頻寬原則設定檔。</span><span class="sxs-lookup"><span data-stu-id="ef1eb-111">Run the New-CsNetworkRegionLink cmdlet to create the region links and apply appropriate bandwidth policy profiles.</span></span> <span data-ttu-id="ef1eb-112">例如，執行：</span><span class="sxs-lookup"><span data-stu-id="ef1eb-112">For example, run:</span></span>
+2. <span data-ttu-id="0986a-111">執行新的 CsNetworkRegionLink Cmdlet 來建立區域連結，並套用適當的頻寬原則設定檔。</span><span class="sxs-lookup"><span data-stu-id="0986a-111">Run the New-CsNetworkRegionLink cmdlet to create the region links and apply appropriate bandwidth policy profiles.</span></span> <span data-ttu-id="0986a-112">例如，執行：</span><span class="sxs-lookup"><span data-stu-id="0986a-112">For example, run:</span></span>
     
    ```powershell
    New-CsNetworkRegionLink -NetworkRegionLinkID NA-EMEA-LINK -NetworkRegionID1 NorthAmerica -NetworkRegionID2 EMEA -BWPolicyProfileID 50Mb_Link
@@ -43,37 +45,37 @@ ms.locfileid: "41001733"
    New-CsNetworkRegionLink -NetworkRegionLinkID EMEA-APAC-LINK -NetworkRegionID1 EMEA -NetworkRegionID2 APAC -BWPolicyProfileID 25Mb_Link
    ```
 
-### <a name="to-create-network-region-links-by-using-skype-for-business-server-control-panel"></a><span data-ttu-id="ef1eb-113">使用商務用 Skype Server [控制台] 建立網路區域連結</span><span class="sxs-lookup"><span data-stu-id="ef1eb-113">To create network region links by using Skype for Business Server Control Panel</span></span>
+### <a name="to-create-network-region-links-by-using-skype-for-business-server-control-panel"></a><span data-ttu-id="0986a-113">使用商務用 Skype Server [控制台] 建立網路區域連結</span><span class="sxs-lookup"><span data-stu-id="0986a-113">To create network region links by using Skype for Business Server Control Panel</span></span>
 
-1. <span data-ttu-id="ef1eb-114">開啟商務用 Skype Server 的 [控制台]。</span><span class="sxs-lookup"><span data-stu-id="ef1eb-114">Open Skype for Business Server Control Panel.</span></span>
+1. <span data-ttu-id="0986a-114">開啟商務用 Skype Server 的 [控制台]。</span><span class="sxs-lookup"><span data-stu-id="0986a-114">Open Skype for Business Server Control Panel.</span></span>
     
-2. <span data-ttu-id="ef1eb-115">在左側導覽列中，按一下 [**網路**設定]。</span><span class="sxs-lookup"><span data-stu-id="ef1eb-115">In the left navigation bar, click **Network Configuration**.</span></span>
+2. <span data-ttu-id="0986a-115">在左側導覽列中，按一下 [**網路**設定]。</span><span class="sxs-lookup"><span data-stu-id="0986a-115">In the left navigation bar, click **Network Configuration**.</span></span>
     
-3. <span data-ttu-id="ef1eb-116">按一下 [**地區] 連結**瀏覽按鈕。</span><span class="sxs-lookup"><span data-stu-id="ef1eb-116">Click the **Region Link** navigation button.</span></span>
+3. <span data-ttu-id="0986a-116">按一下 [**地區] 連結**瀏覽按鈕。</span><span class="sxs-lookup"><span data-stu-id="0986a-116">Click the **Region Link** navigation button.</span></span>
     
-4. <span data-ttu-id="ef1eb-117">按一下 [**新增**]。</span><span class="sxs-lookup"><span data-stu-id="ef1eb-117">Click **New**.</span></span>
+4. <span data-ttu-id="0986a-117">按一下 [**新增**]。</span><span class="sxs-lookup"><span data-stu-id="0986a-117">Click **New**.</span></span>
     
-5. <span data-ttu-id="ef1eb-118">在 [**新增區域連結**] 頁面上，按一下 [**名稱**]，然後輸入網路區域連結的名稱。</span><span class="sxs-lookup"><span data-stu-id="ef1eb-118">On the **New Region Link** page, click **Name** and then type a name for the network region link.</span></span>
+5. <span data-ttu-id="0986a-118">在 [**新增區域連結**] 頁面上，按一下 [**名稱**]，然後輸入網路區域連結的名稱。</span><span class="sxs-lookup"><span data-stu-id="0986a-118">On the **New Region Link** page, click **Name** and then type a name for the network region link.</span></span>
     
-6. <span data-ttu-id="ef1eb-119">按一下 [**網路區域 #1**]，然後按一下清單中您要連結至 [網路區域] 的網路區域 #2。</span><span class="sxs-lookup"><span data-stu-id="ef1eb-119">Click **Network Region #1**, and then click the network region in the list that you want to link to Network Region #2.</span></span>
+6. <span data-ttu-id="0986a-119">按一下 [**網路區域 #1**]，然後按一下清單中您要連結至 [網路區域] 的網路區域 #2。</span><span class="sxs-lookup"><span data-stu-id="0986a-119">Click **Network Region #1**, and then click the network region in the list that you want to link to Network Region #2.</span></span>
     
-7. <span data-ttu-id="ef1eb-120">按一下 [**網路區域 #2**]，然後在清單中按一下您想要連結至 [網路區域] 的網路區域 #1。</span><span class="sxs-lookup"><span data-stu-id="ef1eb-120">Click **Network Region #2**, and then click a network region in the list that you want to link to Network Region #1.</span></span>
+7. <span data-ttu-id="0986a-120">按一下 [**網路區域 #2**]，然後在清單中按一下您想要連結至 [網路區域] 的網路區域 #1。</span><span class="sxs-lookup"><span data-stu-id="0986a-120">Click **Network Region #2**, and then click a network region in the list that you want to link to Network Region #1.</span></span>
     
-8. <span data-ttu-id="ef1eb-121">或者，按一下 [**頻寬原則**]，然後選取您要套用到 [網路區域] 連結的頻寬原則設定檔。</span><span class="sxs-lookup"><span data-stu-id="ef1eb-121">Optionally, click **Bandwidth policy**, and then select the bandwidth policy profile that you want to apply to the network region link.</span></span>
+8. <span data-ttu-id="0986a-121">或者，按一下 [**頻寬原則**]，然後選取您要套用到 [網路區域] 連結的頻寬原則設定檔。</span><span class="sxs-lookup"><span data-stu-id="0986a-121">Optionally, click **Bandwidth policy**, and then select the bandwidth policy profile that you want to apply to the network region link.</span></span>
     
     > [!NOTE]
-    > <span data-ttu-id="ef1eb-122">只有在 [網路區域] 連結受到頻寬限制且您想要使用 CAC 來控制該連結上的媒體流量時，才能套用頻寬原則。</span><span class="sxs-lookup"><span data-stu-id="ef1eb-122">Apply a bandwidth policy only if the network region link is bandwidth-constrained and you want to use CAC to control media traffic on that link.</span></span> 
+    > <span data-ttu-id="0986a-122">只有在 [網路區域] 連結受到頻寬限制且您想要使用 CAC 來控制該連結上的媒體流量時，才能套用頻寬原則。</span><span class="sxs-lookup"><span data-stu-id="0986a-122">Apply a bandwidth policy only if the network region link is bandwidth-constrained and you want to use CAC to control media traffic on that link.</span></span> 
   
-9. <span data-ttu-id="ef1eb-123">按一下 [認可]\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="ef1eb-123">Click **Commit**.</span></span>
+9. <span data-ttu-id="0986a-123">按一下 [認可]\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="0986a-123">Click **Commit**.</span></span>
     
-10. <span data-ttu-id="ef1eb-124">若要為您的拓撲建立網路區域連結，請重複步驟4到9，以及其他地區的設定。</span><span class="sxs-lookup"><span data-stu-id="ef1eb-124">To finish creating network region links for your topology, repeat steps 4 through 9 with settings for other regions.</span></span>
+10. <span data-ttu-id="0986a-124">若要為您的拓撲建立網路區域連結，請重複步驟4到9，以及其他地區的設定。</span><span class="sxs-lookup"><span data-stu-id="0986a-124">To finish creating network region links for your topology, repeat steps 4 through 9 with settings for other regions.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="ef1eb-125">另請參閱</span><span class="sxs-lookup"><span data-stu-id="ef1eb-125">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0986a-125">另請參閱</span><span class="sxs-lookup"><span data-stu-id="0986a-125">See also</span></span>
 
-[<span data-ttu-id="ef1eb-126">新-CsNetworkRegionLink</span><span class="sxs-lookup"><span data-stu-id="ef1eb-126">New-CsNetworkRegionLink</span></span>](https://docs.microsoft.com/powershell/module/skype/new-csnetworkregionlink?view=skype-ps)
+[<span data-ttu-id="0986a-126">新-CsNetworkRegionLink</span><span class="sxs-lookup"><span data-stu-id="0986a-126">New-CsNetworkRegionLink</span></span>](https://docs.microsoft.com/powershell/module/skype/new-csnetworkregionlink?view=skype-ps)
   
-[<span data-ttu-id="ef1eb-127">CsNetworkRegionLink</span><span class="sxs-lookup"><span data-stu-id="ef1eb-127">Get-CsNetworkRegionLink</span></span>](https://docs.microsoft.com/powershell/module/skype/get-csnetworkregionlink?view=skype-ps)
+[<span data-ttu-id="0986a-127">CsNetworkRegionLink</span><span class="sxs-lookup"><span data-stu-id="0986a-127">Get-CsNetworkRegionLink</span></span>](https://docs.microsoft.com/powershell/module/skype/get-csnetworkregionlink?view=skype-ps)
   
-[<span data-ttu-id="ef1eb-128">Set-CsNetworkRegionLink</span><span class="sxs-lookup"><span data-stu-id="ef1eb-128">Set-CsNetworkRegionLink</span></span>](https://docs.microsoft.com/powershell/module/skype/set-csnetworkregionlink?view=skype-ps)
+[<span data-ttu-id="0986a-128">Set-CsNetworkRegionLink</span><span class="sxs-lookup"><span data-stu-id="0986a-128">Set-CsNetworkRegionLink</span></span>](https://docs.microsoft.com/powershell/module/skype/set-csnetworkregionlink?view=skype-ps)
   
-[<span data-ttu-id="ef1eb-129">移除-CsNetworkRegionLink</span><span class="sxs-lookup"><span data-stu-id="ef1eb-129">Remove-CsNetworkRegionLink</span></span>](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkregionlink?view=skype-ps)
+[<span data-ttu-id="0986a-129">移除-CsNetworkRegionLink</span><span class="sxs-lookup"><span data-stu-id="0986a-129">Remove-CsNetworkRegionLink</span></span>](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkregionlink?view=skype-ps)
