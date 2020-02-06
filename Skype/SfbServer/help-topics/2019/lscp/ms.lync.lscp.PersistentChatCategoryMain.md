@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.PersistentChatCategoryMain
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: b71c6e6f-681c-4230-954d-3e95ab64ca00
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您可以使用 [常設聊天室] 頁面的 [類別] 區段來設定類別。 持續聊天室類別是組織聊天室的邏輯結構。 類別定義一組預設的存取控制清單 (ACL)，以控制可能建立或加入聊天室的使用者和使用者群組。 您可以使用類別，在不同的組織部門間強制執行道德管束。
-ms.openlocfilehash: 55d2d57fa0c12f4a2dcca54af1d8f6c650e7a9f6
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 11c28d21b673bba435c87804a5cb32728216818b
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41704448"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41797574"
 ---
 # <a name="persistent-chat-category-main-page"></a>常設聊天室類別主要頁面
 

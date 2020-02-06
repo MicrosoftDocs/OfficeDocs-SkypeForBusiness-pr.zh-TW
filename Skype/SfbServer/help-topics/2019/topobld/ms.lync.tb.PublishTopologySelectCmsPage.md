@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.PublishTopologySelectCmsPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: df447066-2840-431b-bc4e-acf8aa692d71
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您可以使用 [拓撲建立器] 發佈已設定的拓撲。 系統會要求您從清單中選取前端伺服器或前端池將會擔任中央管理儲存區的角色。 在任何指定時間，只有一個前端伺服器或前端池可以擁有此角色。
-ms.openlocfilehash: 9cecdc170934f7359597484e56299e2fe76499b9
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: cae0f79b9787458ae1dd24077dfdd46689378414
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41701668"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41795414"
 ---
 # <a name="publish-topology-select-cms-page"></a>發行拓撲選取 CMS 頁面
  

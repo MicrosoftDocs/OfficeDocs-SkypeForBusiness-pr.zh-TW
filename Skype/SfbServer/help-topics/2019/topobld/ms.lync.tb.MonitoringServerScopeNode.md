@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.MonitoringServerScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 05867db5-ad62-41e3-b1ac-f21f43d1e90b
 ROBOTS: NOINDEX, NOFOLLOW
 description: 在拓撲建立器中，您可以在執行監視的伺服器上按一下滑鼠右鍵，然後按一下工具列中的 [動作]，或按一下 [動作] 窗格中的任務，然後按一下其中一個執行監視之伺服器的下列選項：
-ms.openlocfilehash: ab3565efefe7f11b4d65472e8b0a97e73ebd47c4
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 291ab9e8a0fef76ea80044c6495765a21b0e5b54
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41688176"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41796172"
 ---
 # <a name="monitoring-scope-node"></a>監控範圍節點
  

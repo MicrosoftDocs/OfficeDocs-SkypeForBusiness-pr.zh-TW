@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.UserSelContact
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 8732867c-4f78-454a-a4cc-49c3e76ce40c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 使用 [從 Active Directory 選取] 對話方塊尋找您要啟用商務用 Skype 的連絡人。 在搜尋方塊中，輸入您要尋找之連絡人的 SIP 位址或顯示名稱。 若要擷取所有可用的連絡人，請不要在搜尋方塊中輸入任何內容。
-ms.openlocfilehash: 6deef44cf2d4cd27c8bd6403021e6340196d5e0e
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: f92d9edcc54b020e0e6908ea4a26c9bed1739d23
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41690488"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794922"
 ---
 # <a name="select-contacts-from-active-directory"></a>從 Active Directory 選取連絡人
  

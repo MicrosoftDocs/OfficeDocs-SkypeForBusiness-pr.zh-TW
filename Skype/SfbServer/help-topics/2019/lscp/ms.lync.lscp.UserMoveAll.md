@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.UserMoveAll
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 48bf9dad-bc51-4996-9417-8f15c1d476ad
 ROBOTS: NOINDEX, NOFOLLOW
 description: 在 [移動使用者] 對話方塊中，您可以選取要在部署中將使用者帳戶從一個池中移到另一個池的來源和目標池。
-ms.openlocfilehash: c020a54bcbd3398efe86d782f87826a241a94103
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 9566405c6c088270168368855c88bedece9595dd
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41704078"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794972"
 ---
 # <a name="move-all-users"></a>移動所有使用者
 

@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.VideoGatewayScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2071b375-4978-4ff5-ae38-5e4a621bf6a3
 ROBOTS: NOINDEX, NOFOLLOW
 description: 在 [拓撲建立器] 中定義新的 VIS 或視頻閘道所需的步驟，在商務用 Skype Server 的 [建立 VIS] 池中進行說明。
-ms.openlocfilehash: eec795802a8841d887a4f46fdb6d7c739cad435b
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 70fc58eeed2e0427d05b4075b99f14570011f805
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41701388"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41795062"
 ---
 # <a name="video-gateway-scope"></a>視訊閘道範圍
  

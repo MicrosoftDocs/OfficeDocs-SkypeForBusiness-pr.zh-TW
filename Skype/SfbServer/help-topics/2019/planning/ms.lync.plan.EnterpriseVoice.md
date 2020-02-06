@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.plan.EnterpriseVoice
 - ms.lync.plan.EnterpriseVoice
 ms.prod: skype-for-business-itpro
@@ -14,12 +16,12 @@ localization_priority: Normal
 ms.assetid: 8749fc54-4cd1-4c25-9a64-60e4bdab9767
 ROBOTS: NOINDEX, NOFOLLOW
 description: 透過企業語音，商務用 Skype 伺服器提供獨立的網際網路通訊協定（VoIP）產品，以增強或取代傳統的專用分支 exchange （PBX）系統。
-ms.openlocfilehash: aff5644f3710d5e0053bd81e3bee49ba936d14ff
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: b4f9e05d6e80da2de569adba157c66d44f445950
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41703768"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41797304"
 ---
 # <a name="enterprise-voice-planning-tool"></a>企業語音（計畫工具）
  

@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.VoiceAdhocTestSave
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 7874119d-d92b-484e-bbda-62f65241debd
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您可以使用 [儲存語音路由測試案例資訊] 對話方塊來儲存暫時的語音路由測試案例。 在 [儲存語音路由測試案例資訊] 中，輸入您想要在名稱中提供此測試案例的名稱，然後按一下 [確定]。
-ms.openlocfilehash: 1f481683c79838e3893e50b3e2a5b49fb0f99370
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 46c70c426a27b598c3048543cfb6e7a9f764dd01
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41703948"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41797880"
 ---
 # <a name="save-voice-routing-test-case-information"></a>儲存語音路由測試案例資訊
  

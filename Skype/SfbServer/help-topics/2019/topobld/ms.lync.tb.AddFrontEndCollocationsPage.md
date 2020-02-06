@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.AddFrontEndCollocationsPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 23e3bda7-a8bf-4da4-88e5-098ae2aa268f
 ROBOTS: NOINDEX, NOFOLLOW
 description: 在企業版部署中，A/V 會議服務是在前端池中 collocated。 您也可以在前端池中 collocate 轉送伺服器，或將它部署為獨立伺服器。 如果已啟用會議，A/V 會議服務就會一直 collocated。
-ms.openlocfilehash: fe9eccaa7a59963b202009eba68aa0fdb9f1a15d
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: f651a206529ee968fc32bf86b6314c004f82c3bd
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41702918"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794882"
 ---
 # <a name="add-front-end-server-collocations"></a>新增前端伺服器組合
 

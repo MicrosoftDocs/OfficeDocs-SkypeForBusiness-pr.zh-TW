@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.ClientPhoneCfgMain
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: e1148124-e04a-4ae6-b601-ed48df69d194
 ROBOTS: NOINDEX, NOFOLLOW
 description: 裝置設定是用於管理商務用 Skype Phone 版裝置（全域或網站內）的設定集合。 這些設定讓您可設定諸如必要的安全性模式、裝置記錄層次、語音服務品質 (QoS) 設定，以及電話是否應該在沒有任何活動的指定期間過後自動鎖定。
-ms.openlocfilehash: 05cd530c86453a71583137dc1029f6ed4ad56da8
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: dd6caaa1695e3250e48bf839f56edf47ff2dbcfb
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41705058"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41796492"
 ---
 # <a name="device-configuration"></a>裝置設定
  

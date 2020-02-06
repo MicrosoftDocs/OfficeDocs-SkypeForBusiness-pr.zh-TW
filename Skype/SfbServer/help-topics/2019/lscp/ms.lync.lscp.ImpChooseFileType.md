@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.ImpChooseFileType
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 3638cdc8-71dd-4a22-8613-83859af97387
 ROBOTS: NOINDEX, NOFOLLOW
 description: 使用 [選取檔案類型副檔名] 對話方塊，選取您要封鎖或允許的檔案類型延伸，方法是選取（封鎖）或清除（允許） [檔案類型延伸] 底下的延伸旁邊的核取方塊。 按一下箭號以展開類別，並查看該類別的所有檔案類型延伸。 如果您想要選取類別的所有檔案類型延伸，請選取 [類別名稱]。
-ms.openlocfilehash: b738ea0b9c6ea19e616c42e83395e6efcdf11682
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 4b15ddf1ed4786ae279d36848398b82814f153f8
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41691178"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41796442"
 ---
 # <a name="select-file-type-extensions"></a>選取副檔名類型
  

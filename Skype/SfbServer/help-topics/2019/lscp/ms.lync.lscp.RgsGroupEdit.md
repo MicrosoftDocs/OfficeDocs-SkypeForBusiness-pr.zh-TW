@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.RgsGroupEdit
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 79eaaf6c-6928-4925-8220-c7ada6b37205
 ROBOTS: NOINDEX, NOFOLLOW
 description: 代理人群組會定義接聽回應群組 (稱為代理人) 電話的人選，以及要套用至群組中所有代理人的設定。
-ms.openlocfilehash: 2fde88426c659492cff350007b7e88a53581c67d
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: cde6175c6a4820ce1d2e354c6c322af05467c139
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41690908"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41797524"
 ---
 # <a name="response-groups-create-new-or-edit-existing-agent-group"></a>回應群組：建立新代理人群組或編輯現有代理人群組
 

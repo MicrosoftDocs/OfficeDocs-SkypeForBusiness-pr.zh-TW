@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.ConfMeetingSettingEdit
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: e8fc19fa-6cd7-4f68-b90a-1c7e1b649abd
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[會議設定] 設定會為使用者排程的會議定義使用者的加入體驗。 這些設定僅適用于排程的會議。 它們不適用於在用戶端中按一下 [立即開會] 選項所建立的即席會議。'
-ms.openlocfilehash: ce94eff347d4cbae35d78ced44873e8164abe0d5
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 7c86415d08d2b48d542334ac74bc1316102e592d
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41691398"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41796312"
 ---
 # <a name="meeting-configuration-create-new-or-edit-existing"></a>會議組態：建立新的或編輯現有組態
 

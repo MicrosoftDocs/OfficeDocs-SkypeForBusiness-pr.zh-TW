@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.PersistentChatConfig
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 3f2891e6-bad3-4a23-a345-b7de4cae3bd9
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您的持續聊天伺服器部署可以主持許多併發持久聊天室。 聊天室在伺服器上會組織成一組類別。 每個聊天室各屬於一項類別，而且會繼承該類別中的一些設定。 這樣的組織會建立一個有用的結構，可用於根據其商業用途來識別交談，並促進委派管理功能和簡化管理。
-ms.openlocfilehash: e8074c7271686ba9200178058b156ed967d5401c
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 220bddbfd391f019310e994db66a63e51785e144
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41690888"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41797564"
 ---
 # <a name="persistent-chat-configuration"></a>常設聊天室組態
 

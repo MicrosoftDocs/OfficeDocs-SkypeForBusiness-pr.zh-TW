@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.UserNewContact
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 05e0d949-0cc6-4d3c-b935-a09a6ad52adc
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您要做什麼？ 按一下您要執行之任務的連結。
-ms.openlocfilehash: accce662f2887c6dfb78e8d1f0024905e9f41b84
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: a54e61b54b31d89e38975c50b21bcdeb49f798f2
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41704068"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794952"
 ---
 # <a name="users-new-contact-objects"></a>使用者：新增連絡人物件
 

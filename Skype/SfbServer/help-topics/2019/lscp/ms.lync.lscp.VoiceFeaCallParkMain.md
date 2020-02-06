@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.VoiceFeaCallParkMain
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: b752617d-554d-470e-b17b-387403ac74ed
 ROBOTS: NOINDEX, NOFOLLOW
 description: 當通話停用時，會將來電轉接到暫時的號碼中，讓通話一直留在有人將它取出或超時。您必須使用您為寄存通話保留的延伸編號範圍來設定表格。 這些分機必須是虛擬分機 (也就是，沒有為分機指派任何使用者或電話)。 每個執行通話駐留應用程式的池都可以有一或多個延伸範圍。 在您的部署中，這些範圍必須是全域唯一的。
-ms.openlocfilehash: 6519a678c2370e9763dddd3680c3a64257fe4305
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 7f4a660c3fdd1dbba5080b93bec0aac116d453ea
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41690318"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41797810"
 ---
 # <a name="call-park"></a>通話駐留
 

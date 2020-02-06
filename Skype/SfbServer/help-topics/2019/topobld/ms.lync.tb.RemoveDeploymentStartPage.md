@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.RemoveDeploymentStartPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8659fefa-97f1-4d4a-9628-5c6dae86b244
 ROBOTS: NOINDEX, NOFOLLOW
 description: 如果您想要解除整個部署，請執行移除部署嚮導。 這個嚮導會建立一個由單一前端伺服器組成的空白拓撲。 在您執行此嚮導併發布空白拓撲之後，您就無法還原為原始拓撲。
-ms.openlocfilehash: 5cef0f444db92c799fd46f6d3c2d34ddcafa3bc1
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: d5724dacfb4ec1f13b7e2a2f5a5350e9d6f87366
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41688006"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41797214"
 ---
 # <a name="remove-deployment-introduction"></a>移除部署簡介
  

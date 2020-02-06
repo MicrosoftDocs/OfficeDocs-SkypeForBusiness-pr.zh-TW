@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.dep.DeployCertRequestBasics
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 2c6b40d5-207a-4ca9-a090-e43350f4968f
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[名稱及安全性設定] 頁面提供一個文字方塊，以定義易記名稱、私人與公開金鑰對的位長的下拉式清單，以及可讓您將證書的私密金鑰標示為可匯出的核取方塊。'
-ms.openlocfilehash: f1945089d8f58297476c98228fa2cff68e88c24f
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 26315f24dd14989bd2832d6f28e591a7ae38cc64
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41705708"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41796764"
 ---
 # <a name="certificate-request-basic"></a>憑證要求 (基本)
  

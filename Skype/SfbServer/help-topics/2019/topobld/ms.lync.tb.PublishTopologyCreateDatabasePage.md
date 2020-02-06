@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.PublishTopologyCreateDatabasePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4d391619-1cab-4265-ae8a-2519993705bc
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[拓撲建立器] 提供在 SQL Server store 上安裝資料庫的方法。 當您使用 [拓撲建立器] 來安裝資料庫時，應用程式會讀取拓撲中的資訊，然後在指定的 SQL Server 電腦或 SQL Server 群集上安裝所需的資料庫。 這是唯一可以使用拓撲產生器進行的資料庫安裝類型。 如果您需要在特定電腦上安裝特定資料庫，或必須安裝 collocated 資料庫，則必須改為使用 Windows PowerShell 命令列介面和安裝 CsDatabase Cmdlet。'
-ms.openlocfilehash: b10fe3c476fe4519e425b6990f32302df61758c3
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: b31d970338848a2fb39d3d41b1ecdcc550efe277
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41701650"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41795454"
 ---
 # <a name="create-database"></a>建立資料庫
  

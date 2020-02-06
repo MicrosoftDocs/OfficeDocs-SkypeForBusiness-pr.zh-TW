@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.dep.DeployCertPendingReturned
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 3ee3f595-947a-41c4-acb8-036336b4f17e
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[線上憑證要求狀態] 頁面會傳回憑證的目前狀態。 如果憑證仍與憑證授權單位系統管理員（亦即尚未核准）中的擱置核准狀態相同，即表示該憑證仍在處理中。'
-ms.openlocfilehash: 4505258bb46f2475dc43bc3b3446e04ccfac1a86
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 16950c61193051b9ae590ef3bc61c40b298cdb21
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41705738"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41796804"
 ---
 # <a name="pending-certificate-returned"></a>擱置的憑證 (已傳回)
  

@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.VideoInteropServerPortSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 416ba609-5a32-4c60-b346-ef3119932c91
 ROBOTS: NOINDEX, NOFOLLOW
 description: 在 [拓撲建立器] 中定義新的 VIS 或視頻閘道所需的步驟，在商務用 Skype Server 的 [建立 VIS] 池中進行說明。
-ms.openlocfilehash: 37939e1f1f8cff103758651246374dda0d374897
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: e0125f51164a5f82df99c1f83fd560cce538cfbe
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41687896"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41795254"
 ---
 # <a name="video-interop-server-port-settings-expander"></a>視訊 Interop 伺服器連接埠設定展開工具
  

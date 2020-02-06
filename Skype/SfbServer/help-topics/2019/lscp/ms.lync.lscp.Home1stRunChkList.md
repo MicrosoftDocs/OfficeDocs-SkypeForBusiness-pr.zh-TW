@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.Home1stRunChkList
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 4d0c7306-e87e-464a-82ad-a5537f141500
 ROBOTS: NOINDEX, NOFOLLOW
 description: 歡迎使用商務用 Skype Server 的 [控制台]，它是用來管理和管理商務用 Skype Server 的 web 使用者介面。 您可以使用控制台來執行過去只能透過 Microsoft 管理主控台執行的管理工作類型。
-ms.openlocfilehash: 9fe3c04746d15e67cc37a8039b3b43db869b1835
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 0efd6b5730154e0f1847de6f4caf87867f977817
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41691278"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41797634"
 ---
 # <a name="first-run-checklist-for-skype-for-business-server-control-panel"></a>商務用 Skype Server 控制台的初次執行檢查清單
 

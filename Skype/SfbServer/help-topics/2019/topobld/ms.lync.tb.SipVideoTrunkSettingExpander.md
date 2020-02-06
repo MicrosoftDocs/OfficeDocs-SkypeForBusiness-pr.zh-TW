@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.SipVideoTrunkSettingExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 39e21ee3-3b4e-4ef3-b977-5abeec63bcff
 ROBOTS: NOINDEX, NOFOLLOW
 description: 在 [拓撲建立器] 中定義新的 VIS 或視頻閘道所需的步驟，在商務用 Skype Server 的 [建立 VIS] 池中進行說明。
-ms.openlocfilehash: bfd259f3533e1114571ed63de4471c33a5a37521
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 20c91a80336418cce255f9a18949df235ebb1566
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41701538"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41796072"
 ---
 # <a name="sip-video-trunk-setting-expander"></a>SIP 視訊主幹設定展開工具
  

@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.dep.DeployCertsMain
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 6ab661d7-5741-4cad-bbe4-62cf862ded85
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要「要求」、「指派」、「移除」或「檢視」憑證，請使用「憑證精靈」。 您必須以 RTCUniversalServerAdmins 群組的成員身分登入。 若要向公用憑證授權單位 (CA) 要求憑證，您不需要任何其他群組成員資格。 若要從貴組織的公開金鑰基礎結構（PKI）要求憑證，您必須確認您需要的其他人（如果有的話）。 在要求工作期間，您可以輸入將用來從您的 PKI 頒發 CA 申請憑證的備用認證。
-ms.openlocfilehash: 7bb6cd04687bab6cfad14a6f71a673adf06da4e7
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 4a36026f1dd79bbee591ba48158675adfc9455f5
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41705558"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41796102"
 ---
 # <a name="certificate-wizard"></a>憑證精靈
  

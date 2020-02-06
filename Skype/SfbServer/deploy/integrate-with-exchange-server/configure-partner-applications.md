@@ -8,16 +8,18 @@ ms.date: 12/20/2018
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 9c3a3054-6201-433f-b128-4c49d3341370
 description: 摘要：針對 Exchange Server 2016 或 Exchange Server 2013 及商務用 Skype Server，將伺服器設定為伺服器驗證。
-ms.openlocfilehash: 004b9c1926f00cd869658ae0b90679897d20516b
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 9512d271b23f26afcb1ef6385a1a6dd5d513c948
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41001253"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41797074"
 ---
 # <a name="configure-partner-applications-in-skype-for-business-server-and-exchange-server"></a>在商務用 Skype Server 和 Exchange Server 中設定合作夥伴應用程式
  

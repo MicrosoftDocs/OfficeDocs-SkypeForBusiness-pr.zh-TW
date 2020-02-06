@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.dep.DeployMainInstallReplica
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: d9c4bcc2-11a7-4d4d-858d-224db217ad32
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要開始安裝新的商務用 Skype Server 角色服務器，您必須先安裝將主持本機配置存放區的本機 SQL 伺服器。 本機配置存儲將充當商務用 Skype Server 中央管理商店（CMS）的唯讀複本。
-ms.openlocfilehash: 51343bc68415d5c3a9b99b0697285f2e5c30d557
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 365529c3c9cb15ea50cd6a482bd2a69143daa219
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41705450"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794792"
 ---
 # <a name="install-local-configuration-store"></a>安裝本機設定存放區
 

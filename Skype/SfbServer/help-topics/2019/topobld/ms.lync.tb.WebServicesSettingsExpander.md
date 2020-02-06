@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.WebServicesSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aefc9f51-a171-4a58-be65-7accb470cb2a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 從拓撲建立器中，您可以修改內部和外部 web 服務所使用的埠設定。 此外，如果您要部署網域名稱系統（DNS）負載平衡，您可以使用 [拓撲建立器] 來設定解析為該池中所有伺服器之物理 IP 位址的 [池] 完整功能變數名稱（FQDN）。
-ms.openlocfilehash: fddcaa00de9b8a8d74e209790b429280901b037c
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: e2460305199d1d626e44e5476adc6baf618ebe89
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41701338"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41795224"
 ---
 # <a name="web-services-settings-expander"></a>Web 服務設定展開工具
  

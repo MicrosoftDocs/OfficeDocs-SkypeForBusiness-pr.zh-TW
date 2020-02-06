@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 953cfc1ba7c9b05954859f7bc8ac1db2352b3a0e
-ms.sourcegitcommit: 96d98e145ff300833d827a7d43b4e4b0331b7538
+ms.openlocfilehash: f291e0c2902754f346dfadb855e4e6bc6fbd573c
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39871719"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41795152"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>在 Microsoft 團隊中建立組織範圍的小組
 
@@ -27,7 +27,7 @@ ms.locfileid: "39871719"
 
 有了組織範圍的小組，全域管理員就能輕鬆地建立一份公開小組，在組織中的每位使用者都能拉入，並在使用者加入並離開組織時，將成員資格保持在最新狀態。 只有全域管理員才能建立整個組織的團隊，而且目前組織範圍的小組僅限於5000使用者以外的組織。 此外，每個租使用者最多隻能有五個組織範圍的團隊。 如果符合這些需求，全域系統管理員會在建立小組時，看到**組織外**的選項，讓他們選取 [**從頭開始建立小組**]。 
 
-![[組織範圍] 選項的螢幕擷取畫面，可用於建立整個組織的小組](media/create-org-wide-team.png "[組織範圍] 選項的螢幕擷取畫面，可用於建立整個組織的小組")
+![建立整個組織團隊之組織範圍選項的螢幕擷取畫面](media/create-org-wide-team.png "[組織範圍] 選項的螢幕擷取畫面，可用於建立整個組織的小組")
 
 建立組織範圍的小組後，所有全域管理員都會新增為團隊擁有者，而所有作用中的使用者都會新增為小組成員。 未授權的使用者也會新增至小組。 未授權的使用者第一次登入小組時，系統會為該使用者指派 Microsoft 團隊商業雲端試用版授權。 若要深入瞭解試用版授權，請參閱[管理團隊商業雲端試用版優惠](iw-trial-teams.md)。 
 
@@ -58,9 +58,9 @@ ms.locfileid: "39871719"
 
  減少 @mentions 讓他們避免整個組織超載。 移至團隊，然後按一下 [ **̇̇̇其他選項** > [**管理團隊**]。 按一下 [**設定**] 索引標籤上的 [ <strong>@mentions</strong> ] > 關閉 **[顯示成員] 選項以 @team 或 @ [團隊名稱]]**。 
 
-### <a name="automatically-favorite-important-channels"></a>自動將重要頻道設為最愛
+### <a name="automatically-show-important-channels"></a>自動顯示重要頻道
 
-我最愛的重要頻道，以確保貴組織中的每個人都參與特定交談。 若要深入瞭解，請參閱[適用于整個團隊的自動最愛頻道](https://support.office.com/article/auto-favorite-channels-for-the-whole-team-a948272c-5aa5-429c-863c-4e1e1cd6b0f6)。
+顯示重要頻道，以確保貴組織中的每個人都參與特定交談。 若要深入瞭解，請參閱[適用于整個團隊的自動最愛頻道](https://support.office.com/article/auto-favorite-channels-for-the-whole-team-a948272c-5aa5-429c-863c-4e1e1cd6b0f6)。 
 
 ### <a name="set-up-channel-moderation"></a>設定頻道裁決
 

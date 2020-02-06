@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.AddArchivingServerFileStorePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e95f938e-4dd2-48b8-95a3-05b4c63d4810
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要啟用立即訊息 (IM) 和 Web 會議內容的封存，您必須指定檔案共用來作為檔案存放區，以存放所有 Web 會議內容的複本。您可以使用現有的檔案共用作為封存檔案存放區，也可以指定新的檔案共用。若要指定新的檔案共用，請指定檔案共用將位於的檔案伺服器的完整網域名稱 (FQDN)，以及要作為新檔案共用的資料夾名稱。
-ms.openlocfilehash: 568d7254b4af28271befcf51811ff3659780fe3f
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: db55b6fd1a5b727e685a9b528c457e244a723c97
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41689698"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794862"
 ---
 # <a name="add-archiving-server-file-store"></a>新增封存伺服器檔案存放區
 

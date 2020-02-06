@@ -6,9 +6,11 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.HybridSignIntoO365
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.collection:
 - Ent_O365_Hybrid
@@ -17,12 +19,12 @@ ms.collection:
 ms.assetid: 791026d0-730f-4225-872e-74c9b5c166d7
 ROBOTS: NOINDEX, NOFOLLOW
 description: 使用商務用 Skype Server 混合式管理性嚮導，協助您設定與商務用 Skype Online 混合使用的環境。
-ms.openlocfilehash: 34bcf0abd4067d584837f2501c5876b063ef537b
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 1d42e408452bf55c03d0e4399f3dbe6971ce225d
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41704828"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41795394"
 ---
 # <a name="hybrid-wizard-sign-in-to-office-365"></a>混合精靈：登入 365
 

@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.plan.PersistentChat
 - ms.lync.plan.PersistentChat
 ms.prod: skype-for-business-itpro
@@ -14,12 +16,12 @@ localization_priority: Normal
 ms.assetid: ec111e2e-15dd-4b9b-ba9c-6125139319a1
 ROBOTS: NOINDEX, NOFOLLOW
 description: 永久聊天伺服器可讓使用者參與多方、依時間保留的、以主題為基礎的交談。
-ms.openlocfilehash: b19675363388057ecf2102326eadec1d3dfc4449
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 1f321edbe5936c9e10164ef3762ad279d01b531e
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41703458"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41797104"
 ---
 # <a name="persistent-chat-planning-tool"></a>持續聊天（計畫工具）
 

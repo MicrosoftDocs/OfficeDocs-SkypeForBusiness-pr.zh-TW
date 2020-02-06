@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.AddFrontEndAssociationsPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 95620425-defd-47fd-a5c0-e4a283d812a5
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您可以立即將伺服器角色與前端集區相關聯，對需要先部署其他伺服器的特定功能啟用支援。您也可以稍後再將伺服器角色與前端集區關聯。以下是可以和前端集區關聯的伺服器角色：
-ms.openlocfilehash: f269b51477dce0d502c1ca00956f4a25bfc124f2
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: d305cc6b251646e52c2351188572b05f6f6d28c8
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41689332"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794892"
 ---
 # <a name="add-front-end-associations"></a>新增前端關聯
 
