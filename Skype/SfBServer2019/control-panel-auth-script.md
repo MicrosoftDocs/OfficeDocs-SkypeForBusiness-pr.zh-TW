@@ -8,19 +8,21 @@ ms.date: 07/23/2019
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
-description: 協助程式腳本, 透過 OAuth 通訊協定, 將 SFB 2019 控制台驗證與 Office 365 進行設定。
-ms.openlocfilehash: d53848aa0724f381d5f7320c13be14087777bfab
-ms.sourcegitcommit: 11c5c046371b4203c585ef8f1e4ab5d3659144a0
+description: 協助程式腳本，透過 OAuth 通訊協定，將 SFB 2019 控制台驗證與 Office 365 進行設定。
+ms.openlocfilehash: d434ad1530e05af396982a6c6278a80b9a416aa6
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "36194122"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824057"
 ---
-# <a name="skype-for-business-server-2019-control-panel-authentication-script"></a><span data-ttu-id="102b7-103">商務用 Skype Server 2019 控制台驗證腳本</span><span class="sxs-lookup"><span data-stu-id="102b7-103">Skype for Business Server 2019 control panel authentication script</span></span>
+# <a name="skype-for-business-server-2019-control-panel-authentication-script"></a><span data-ttu-id="1e770-103">商務用 Skype Server 2019 控制台驗證腳本</span><span class="sxs-lookup"><span data-stu-id="1e770-103">Skype for Business Server 2019 control panel authentication script</span></span>
 
-<span data-ttu-id="102b7-104">安裝商務用 Skype Server 2019 累計更新 1 (作為新 [控制台] 的一部分) 後, 此腳本應該會執行。</span><span class="sxs-lookup"><span data-stu-id="102b7-104">This script should be run after installing Skype for Business Server 2019 Cumulative Update 1, as part of the set-up for the new Control Panel.</span></span> <span data-ttu-id="102b7-105">此腳本將在 Azure 上建立 Azure AD 應用程式。</span><span class="sxs-lookup"><span data-stu-id="102b7-105">This script will create an Azure AD Application on Azure.</span></span> <span data-ttu-id="102b7-106">這將協助您在新的 [控制台] 中使用 OAuth 登入 Office 365。</span><span class="sxs-lookup"><span data-stu-id="102b7-106">This will help in signing into Office 365 using OAuth in the new Control Panel.</span></span>
+<span data-ttu-id="1e770-104">安裝商務用 Skype Server 2019 累計更新1（作為新 [控制台] 的一部分）後，此腳本應該會執行。</span><span class="sxs-lookup"><span data-stu-id="1e770-104">This script should be run after installing Skype for Business Server 2019 Cumulative Update 1, as part of the set-up for the new Control Panel.</span></span> <span data-ttu-id="1e770-105">此腳本將在 Azure 上建立 Azure AD 應用程式。</span><span class="sxs-lookup"><span data-stu-id="1e770-105">This script will create an Azure AD Application on Azure.</span></span> <span data-ttu-id="1e770-106">這將協助您在新的 [控制台] 中使用 OAuth 登入 Office 365。</span><span class="sxs-lookup"><span data-stu-id="1e770-106">This will help in signing into Office 365 using OAuth in the new Control Panel.</span></span>
 
 ```
 <#
