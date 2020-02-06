@@ -6,27 +6,29 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.ImpChooseFileType
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 3638cdc8-71dd-4a22-8613-83859af97387
 ROBOTS: NOINDEX, NOFOLLOW
 description: 使用 [選取檔案類型副檔名] 對話方塊，選取您要封鎖或允許的檔案類型延伸，方法是選取（封鎖）或清除（允許） [檔案類型延伸] 底下的延伸旁邊的核取方塊。 按一下箭號以展開類別，並查看該類別的所有檔案類型延伸。 如果您想要選取類別的所有檔案類型延伸，請選取 [類別名稱]。
-ms.openlocfilehash: b738ea0b9c6ea19e616c42e83395e6efcdf11682
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 4b15ddf1ed4786ae279d36848398b82814f153f8
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41691178"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41796442"
 ---
-# <a name="select-file-type-extensions"></a><span data-ttu-id="b0b86-105">選取副檔名類型</span><span class="sxs-lookup"><span data-stu-id="b0b86-105">Select File Type Extensions</span></span>
+# <a name="select-file-type-extensions"></a><span data-ttu-id="4a035-105">選取副檔名類型</span><span class="sxs-lookup"><span data-stu-id="4a035-105">Select File Type Extensions</span></span>
  
-<span data-ttu-id="b0b86-106">使用 [**選取檔案類型副檔名**] 對話方塊，選取您要封鎖或允許的檔案類型延伸，方法是選取（封鎖）或清除（允許） [**檔案類型延伸**] 底下的延伸旁邊的核取方塊。</span><span class="sxs-lookup"><span data-stu-id="b0b86-106">Use the **Select File Type Extensions** dialog box to select the file type extensions that you want to block or allow by selecting (to block) or clearing (to allow) the check boxes next to the extensions under **File type extensions**.</span></span> <span data-ttu-id="b0b86-107">按一下箭號以展開類別，並查看該類別的所有檔案類型延伸。</span><span class="sxs-lookup"><span data-stu-id="b0b86-107">Click the arrow to expand a category and view all of the file type extensions for that category.</span></span> <span data-ttu-id="b0b86-108">如果您想要選取類別的所有檔案類型延伸，請選取 [類別名稱]。</span><span class="sxs-lookup"><span data-stu-id="b0b86-108">If you want to select all of the file type extensions for a category, select the category name.</span></span> 
+<span data-ttu-id="4a035-106">使用 [**選取檔案類型副檔名**] 對話方塊，選取您要封鎖或允許的檔案類型延伸，方法是選取（封鎖）或清除（允許） [**檔案類型延伸**] 底下的延伸旁邊的核取方塊。</span><span class="sxs-lookup"><span data-stu-id="4a035-106">Use the **Select File Type Extensions** dialog box to select the file type extensions that you want to block or allow by selecting (to block) or clearing (to allow) the check boxes next to the extensions under **File type extensions**.</span></span> <span data-ttu-id="4a035-107">按一下箭號以展開類別，並查看該類別的所有檔案類型延伸。</span><span class="sxs-lookup"><span data-stu-id="4a035-107">Click the arrow to expand a category and view all of the file type extensions for that category.</span></span> <span data-ttu-id="4a035-108">如果您想要選取類別的所有檔案類型延伸，請選取 [類別名稱]。</span><span class="sxs-lookup"><span data-stu-id="4a035-108">If you want to select all of the file type extensions for a category, select the category name.</span></span> 
   
-<span data-ttu-id="b0b86-109">如果您在 [檔案**類型延伸**] 中沒有看到您要選取之檔案類型的副檔名，請在 [新增**新副檔名至] 清單**中的文字方塊中輸入副檔名，然後按一下 [**新增**]。</span><span class="sxs-lookup"><span data-stu-id="b0b86-109">If you do not see the extension for a file type that you want to select listed in **File type extensions**, type the extension in the text box under **Add new file extensions to the list**, and then click **Add**.</span></span> 
+<span data-ttu-id="4a035-109">如果您在 [檔案**類型延伸**] 中沒有看到您要選取之檔案類型的副檔名，請在 [新增**新副檔名至] 清單**中的文字方塊中輸入副檔名，然後按一下 [**新增**]。</span><span class="sxs-lookup"><span data-stu-id="4a035-109">If you do not see the extension for a file type that you want to select listed in **File type extensions**, type the extension in the text box under **Add new file extensions to the list**, and then click **Add**.</span></span> 
   
-<span data-ttu-id="b0b86-110">在您將所有想要的檔案類型副檔名新增至 [選取的**檔案類型副檔名**] 清單後，按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="b0b86-110">After you have added all of the file type extensions that you want to the **Selected file type extensions** list, click **OK**.</span></span>
+<span data-ttu-id="4a035-110">在您將所有想要的檔案類型副檔名新增至 [選取的**檔案類型副檔名**] 清單後，按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="4a035-110">After you have added all of the file type extensions that you want to the **Selected file type extensions** list, click **OK**.</span></span>
   
  
   

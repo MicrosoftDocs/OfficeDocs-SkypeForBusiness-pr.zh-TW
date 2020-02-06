@@ -6,28 +6,30 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.ExtXmppPartnerEdit
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 7a14552e-96b0-4a3d-bb9b-4813c97dd8e1
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您要做什麼？ 按一下您要執行之任務的連結。
-ms.openlocfilehash: 6a4fa01301ba982b2c5afcce1b03d79d81b550e5
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 2ca59a2c8815dad8b4f5e55b37b4f4b8a38b1b53
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41691268"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41797654"
 ---
-# <a name="xmpp-federated-partners-create-new-or-edit-existing"></a><span data-ttu-id="43ca0-104">XMPP 同盟協力廠商：建立新的或編輯現有</span><span class="sxs-lookup"><span data-stu-id="43ca0-104">XMPP Federated Partners: Create New or Edit Existing</span></span>
+# <a name="xmpp-federated-partners-create-new-or-edit-existing"></a><span data-ttu-id="c6dd6-104">XMPP 同盟協力廠商：建立新的或編輯現有</span><span class="sxs-lookup"><span data-stu-id="c6dd6-104">XMPP Federated Partners: Create New or Edit Existing</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="43ca0-105">XMPP 閘道和 proxy 可在商務用 Skype Server 2015 中使用，但商務用 Skype Server 2019 已不再支援。</span><span class="sxs-lookup"><span data-stu-id="43ca0-105">XMPP Gateways and proxies are available in Skype for Business Server 2015 but are no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="43ca0-106">如需詳細資訊，請參閱[遷移 XMPP 同盟](../../../../SfBServer2019/migration/migrating-xmpp-federation.md)。</span><span class="sxs-lookup"><span data-stu-id="43ca0-106">See [Migrating XMPP federation](../../../../SfBServer2019/migration/migrating-xmpp-federation.md) for more information.</span></span>
+> <span data-ttu-id="c6dd6-105">XMPP 閘道和 proxy 可在商務用 Skype Server 2015 中使用，但商務用 Skype Server 2019 已不再支援。</span><span class="sxs-lookup"><span data-stu-id="c6dd6-105">XMPP Gateways and proxies are available in Skype for Business Server 2015 but are no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="c6dd6-106">如需詳細資訊，請參閱[遷移 XMPP 同盟](../../../../SfBServer2019/migration/migrating-xmpp-federation.md)。</span><span class="sxs-lookup"><span data-stu-id="c6dd6-106">See [Migrating XMPP federation](../../../../SfBServer2019/migration/migrating-xmpp-federation.md) for more information.</span></span>
 
-<span data-ttu-id="43ca0-107">您要做什麼？</span><span class="sxs-lookup"><span data-stu-id="43ca0-107">What do you want to do?</span></span> <span data-ttu-id="43ca0-108">按一下您要執行之任務的連結。</span><span class="sxs-lookup"><span data-stu-id="43ca0-108">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="c6dd6-107">您要做什麼？</span><span class="sxs-lookup"><span data-stu-id="c6dd6-107">What do you want to do?</span></span> <span data-ttu-id="c6dd6-108">按一下您要執行之任務的連結。</span><span class="sxs-lookup"><span data-stu-id="c6dd6-108">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="43ca0-109">建立或編輯 XMPP 合作夥伴配置</span><span class="sxs-lookup"><span data-stu-id="43ca0-109">Create or Edit XMPP Partner Configuration</span></span>](https://technet.microsoft.com/library/362dbe5e-8ee9-4aba-8c26-5907312b4a60.aspx)
+- [<span data-ttu-id="c6dd6-109">建立或編輯 XMPP 合作夥伴配置</span><span class="sxs-lookup"><span data-stu-id="c6dd6-109">Create or Edit XMPP Partner Configuration</span></span>](https://technet.microsoft.com/library/362dbe5e-8ee9-4aba-8c26-5907312b4a60.aspx)
 
-- [<span data-ttu-id="43ca0-110">XMPP 聯盟夥伴的協商設定資料表</span><span class="sxs-lookup"><span data-stu-id="43ca0-110">Negotiation Settings Table for XMPP Federated Partners</span></span>](https://technet.microsoft.com/library/ef773942-ef92-4f71-85a1-738dfebdfa00.aspx)
+- [<span data-ttu-id="c6dd6-110">XMPP 聯盟夥伴的協商設定資料表</span><span class="sxs-lookup"><span data-stu-id="c6dd6-110">Negotiation Settings Table for XMPP Federated Partners</span></span>](https://technet.microsoft.com/library/ef773942-ef92-4f71-85a1-738dfebdfa00.aspx)
 

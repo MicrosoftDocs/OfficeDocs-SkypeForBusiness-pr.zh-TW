@@ -7,47 +7,49 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.RootScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d190f1f0-7741-432a-84ac-9530bb00abef
 ROBOTS: NOINDEX, NOFOLLOW
 description: Lync Server 節點會列出您拓撲中的中心網站。 您可以執行下列動作：
-ms.openlocfilehash: 7deac280f0de13dc5f199347190a28a1ad64d0dc
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 88d134879e98cf0e17589eb86ede4c88d58a8950
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41701568"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41795274"
 ---
-# <a name="skype-for-business-server-root-scope-node"></a><span data-ttu-id="02c72-104">Lync Server 根範圍節點</span><span class="sxs-lookup"><span data-stu-id="02c72-104">Skype for Business Server Root Scope Node</span></span>
+# <a name="skype-for-business-server-root-scope-node"></a><span data-ttu-id="67d73-104">Lync Server 根範圍節點</span><span class="sxs-lookup"><span data-stu-id="67d73-104">Skype for Business Server Root Scope Node</span></span>
  
-<span data-ttu-id="02c72-105">**Lync Server**節點會列出您拓撲中的中心網站。</span><span class="sxs-lookup"><span data-stu-id="02c72-105">The **Lync Server** node lists the central sites in your topology.</span></span> <span data-ttu-id="02c72-106">您可以執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="02c72-106">You can perform the following actions:</span></span>
+<span data-ttu-id="67d73-105">**Lync Server**節點會列出您拓撲中的中心網站。</span><span class="sxs-lookup"><span data-stu-id="67d73-105">The **Lync Server** node lists the central sites in your topology.</span></span> <span data-ttu-id="67d73-106">您可以執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="67d73-106">You can perform the following actions:</span></span>
   
-- <span data-ttu-id="02c72-107">**新的中央網站**。</span><span class="sxs-lookup"><span data-stu-id="02c72-107">**New Central Site**.</span></span> <span data-ttu-id="02c72-108">啟動 [定義新的中心網站] 嚮導，您可以使用它將新的中央網站新增至拓撲。</span><span class="sxs-lookup"><span data-stu-id="02c72-108">Starts the Define New Central Site wizard, which you use to add a new central site to the topology.</span></span>
+- <span data-ttu-id="67d73-107">**新的中央網站**。</span><span class="sxs-lookup"><span data-stu-id="67d73-107">**New Central Site**.</span></span> <span data-ttu-id="67d73-108">啟動 [定義新的中心網站] 嚮導，您可以使用它將新的中央網站新增至拓撲。</span><span class="sxs-lookup"><span data-stu-id="67d73-108">Starts the Define New Central Site wizard, which you use to add a new central site to the topology.</span></span>
     
-- <span data-ttu-id="02c72-109">**編輯內容**。</span><span class="sxs-lookup"><span data-stu-id="02c72-109">**Edit Properties**.</span></span> <span data-ttu-id="02c72-110">可讓您編輯影響整個拓撲的設定，例如支援的會話初始通訊協定（SIP）網域及簡單的 Url。</span><span class="sxs-lookup"><span data-stu-id="02c72-110">Enables you to edit settings that affect your whole topology, such as supported Session Initiation Protocol (SIP) domains and simple URLs.</span></span>
+- <span data-ttu-id="67d73-109">**編輯內容**。</span><span class="sxs-lookup"><span data-stu-id="67d73-109">**Edit Properties**.</span></span> <span data-ttu-id="67d73-110">可讓您編輯影響整個拓撲的設定，例如支援的會話初始通訊協定（SIP）網域及簡單的 Url。</span><span class="sxs-lookup"><span data-stu-id="67d73-110">Enables you to edit settings that affect your whole topology, such as supported Session Initiation Protocol (SIP) domains and simple URLs.</span></span>
     
-- <span data-ttu-id="02c72-111">**新的拓撲**。</span><span class="sxs-lookup"><span data-stu-id="02c72-111">**New Topology**.</span></span> <span data-ttu-id="02c72-112">可讓您為您的部署開始建立新的拓撲。</span><span class="sxs-lookup"><span data-stu-id="02c72-112">Enables you to start creating a new topology for your deployment.</span></span> <span data-ttu-id="02c72-113">您可以在規劃部署時，在安裝伺服器之前，使用這個選項。</span><span class="sxs-lookup"><span data-stu-id="02c72-113">This option is useful when you are planning your deployment, before you have installed your servers.</span></span> <span data-ttu-id="02c72-114">如果您已使用目前的拓朴來安裝您的部署，請不要按一下這個選項。</span><span class="sxs-lookup"><span data-stu-id="02c72-114">Do not click this option if you have already used your current topology to install your deployment.</span></span>
+- <span data-ttu-id="67d73-111">**新的拓撲**。</span><span class="sxs-lookup"><span data-stu-id="67d73-111">**New Topology**.</span></span> <span data-ttu-id="67d73-112">可讓您為您的部署開始建立新的拓撲。</span><span class="sxs-lookup"><span data-stu-id="67d73-112">Enables you to start creating a new topology for your deployment.</span></span> <span data-ttu-id="67d73-113">您可以在規劃部署時，在安裝伺服器之前，使用這個選項。</span><span class="sxs-lookup"><span data-stu-id="67d73-113">This option is useful when you are planning your deployment, before you have installed your servers.</span></span> <span data-ttu-id="67d73-114">如果您已使用目前的拓朴來安裝您的部署，請不要按一下這個選項。</span><span class="sxs-lookup"><span data-stu-id="67d73-114">Do not click this option if you have already used your current topology to install your deployment.</span></span>
     
-- <span data-ttu-id="02c72-115">**開啟拓撲**。</span><span class="sxs-lookup"><span data-stu-id="02c72-115">**Open Topology**.</span></span> <span data-ttu-id="02c72-116">開啟您已儲存的拓撲檔案。</span><span class="sxs-lookup"><span data-stu-id="02c72-116">Opens a topology file that you have saved.</span></span>
+- <span data-ttu-id="67d73-115">**開啟拓撲**。</span><span class="sxs-lookup"><span data-stu-id="67d73-115">**Open Topology**.</span></span> <span data-ttu-id="67d73-116">開啟您已儲存的拓撲檔案。</span><span class="sxs-lookup"><span data-stu-id="67d73-116">Opens a topology file that you have saved.</span></span>
     
-- <span data-ttu-id="02c72-117">**下載拓撲**。</span><span class="sxs-lookup"><span data-stu-id="02c72-117">**Download Topology**.</span></span> <span data-ttu-id="02c72-118">從中央管理存放區載入您目前已部署的拓撲。</span><span class="sxs-lookup"><span data-stu-id="02c72-118">Loads your current deployed topology from the Central Management store.</span></span> <span data-ttu-id="02c72-119">如果您已定義拓撲，且已建立中央管理存放區，您應該隨時選擇這個選項來載入您的拓撲。</span><span class="sxs-lookup"><span data-stu-id="02c72-119">If you have already defined a topology and established the Central Management store, you should always choose this option to load your topology.</span></span>
+- <span data-ttu-id="67d73-117">**下載拓撲**。</span><span class="sxs-lookup"><span data-stu-id="67d73-117">**Download Topology**.</span></span> <span data-ttu-id="67d73-118">從中央管理存放區載入您目前已部署的拓撲。</span><span class="sxs-lookup"><span data-stu-id="67d73-118">Loads your current deployed topology from the Central Management store.</span></span> <span data-ttu-id="67d73-119">如果您已定義拓撲，且已建立中央管理存放區，您應該隨時選擇這個選項來載入您的拓撲。</span><span class="sxs-lookup"><span data-stu-id="67d73-119">If you have already defined a topology and established the Central Management store, you should always choose this option to load your topology.</span></span>
     
-- <span data-ttu-id="02c72-120">**將拓朴複本儲存為**。</span><span class="sxs-lookup"><span data-stu-id="02c72-120">**Save a Copy of Topology As**.</span></span> <span data-ttu-id="02c72-121">將目前的拓朴儲存至檔案，以便在您稍後可在拓撲產生器中再次載入。</span><span class="sxs-lookup"><span data-stu-id="02c72-121">Saves the current topology to a file that you can load again later in Topology Builder.</span></span>
+- <span data-ttu-id="67d73-120">**將拓朴複本儲存為**。</span><span class="sxs-lookup"><span data-stu-id="67d73-120">**Save a Copy of Topology As**.</span></span> <span data-ttu-id="67d73-121">將目前的拓朴儲存至檔案，以便在您稍後可在拓撲產生器中再次載入。</span><span class="sxs-lookup"><span data-stu-id="67d73-121">Saves the current topology to a file that you can load again later in Topology Builder.</span></span>
     
-- <span data-ttu-id="02c72-122">**發佈拓撲**。</span><span class="sxs-lookup"><span data-stu-id="02c72-122">**Publish Topology**.</span></span> <span data-ttu-id="02c72-123">使用此選項可將此拓朴發佈到中央管理儲存體，以便您開始部署伺服器。</span><span class="sxs-lookup"><span data-stu-id="02c72-123">Use this option to publish this topology to the Central Management store, so that you can begin deploying your servers.</span></span>
+- <span data-ttu-id="67d73-122">**發佈拓撲**。</span><span class="sxs-lookup"><span data-stu-id="67d73-122">**Publish Topology**.</span></span> <span data-ttu-id="67d73-123">使用此選項可將此拓朴發佈到中央管理儲存體，以便您開始部署伺服器。</span><span class="sxs-lookup"><span data-stu-id="67d73-123">Use this option to publish this topology to the Central Management store, so that you can begin deploying your servers.</span></span>
     
-- <span data-ttu-id="02c72-124">[**安裝資料庫**]。</span><span class="sxs-lookup"><span data-stu-id="02c72-124">**Install Database**.</span></span> <span data-ttu-id="02c72-125">可讓您建立部署所需的資料庫。</span><span class="sxs-lookup"><span data-stu-id="02c72-125">Enables you to create the databases necessary for your deployment.</span></span>
+- <span data-ttu-id="67d73-124">[**安裝資料庫**]。</span><span class="sxs-lookup"><span data-stu-id="67d73-124">**Install Database**.</span></span> <span data-ttu-id="67d73-125">可讓您建立部署所需的資料庫。</span><span class="sxs-lookup"><span data-stu-id="67d73-125">Enables you to create the databases necessary for your deployment.</span></span>
     
-- <span data-ttu-id="02c72-126">**合併 Office 通訊伺服器 2007 R2 拓撲**。</span><span class="sxs-lookup"><span data-stu-id="02c72-126">**Merge Office Communications Server 2007 R2 Topology**.</span></span> <span data-ttu-id="02c72-127">啟動 [拓撲建立器合併] 嚮導。</span><span class="sxs-lookup"><span data-stu-id="02c72-127">Starts the Topology Builder Merge wizard.</span></span> <span data-ttu-id="02c72-128">這個工具會收集您先前 Office 通訊伺服器環境的相關資訊，包括邊緣伺服器資訊，並將該資訊發佈至共用資料庫。</span><span class="sxs-lookup"><span data-stu-id="02c72-128">This tool collects information about your previous Office Communications Server environment, including Edge Server information, and publishes that information to a shared database.</span></span> 
+- <span data-ttu-id="67d73-126">**合併 Office 通訊伺服器 2007 R2 拓撲**。</span><span class="sxs-lookup"><span data-stu-id="67d73-126">**Merge Office Communications Server 2007 R2 Topology**.</span></span> <span data-ttu-id="67d73-127">啟動 [拓撲建立器合併] 嚮導。</span><span class="sxs-lookup"><span data-stu-id="67d73-127">Starts the Topology Builder Merge wizard.</span></span> <span data-ttu-id="67d73-128">這個工具會收集您先前 Office 通訊伺服器環境的相關資訊，包括邊緣伺服器資訊，並將該資訊發佈至共用資料庫。</span><span class="sxs-lookup"><span data-stu-id="67d73-128">This tool collects information about your previous Office Communications Server environment, including Edge Server information, and publishes that information to a shared database.</span></span> 
     
-- <span data-ttu-id="02c72-129">**移除部署**。</span><span class="sxs-lookup"><span data-stu-id="02c72-129">**Remove Deployment**.</span></span> <span data-ttu-id="02c72-130">啟動 [移除部署嚮導]，可讓您開始移除整個部署。</span><span class="sxs-lookup"><span data-stu-id="02c72-130">Starts the Remove Deployment wizard, which enables you to start removing your whole deployment.</span></span>
+- <span data-ttu-id="67d73-129">**移除部署**。</span><span class="sxs-lookup"><span data-stu-id="67d73-129">**Remove Deployment**.</span></span> <span data-ttu-id="67d73-130">啟動 [移除部署嚮導]，可讓您開始移除整個部署。</span><span class="sxs-lookup"><span data-stu-id="67d73-130">Starts the Remove Deployment wizard, which enables you to start removing your whole deployment.</span></span>
     
-<span data-ttu-id="02c72-131">除了這些選項之外，您也可以執行下列一般工作：</span><span class="sxs-lookup"><span data-stu-id="02c72-131">In addition to these options, you can perform the following general tasks:</span></span>
+<span data-ttu-id="67d73-131">除了這些選項之外，您也可以執行下列一般工作：</span><span class="sxs-lookup"><span data-stu-id="67d73-131">In addition to these options, you can perform the following general tasks:</span></span>
   
-- <span data-ttu-id="02c72-132">**檢視**。</span><span class="sxs-lookup"><span data-stu-id="02c72-132">**View**.</span></span> <span data-ttu-id="02c72-133">您可以使用這個選項，透過選取要顯示的專案，並在主控台樹狀檢視中隱藏，來自訂拓撲建立器的視圖。</span><span class="sxs-lookup"><span data-stu-id="02c72-133">You can use this option to customize the view of Topology Builder by selecting the items to show and hide in the console tree views.</span></span>
+- <span data-ttu-id="67d73-132">**檢視**。</span><span class="sxs-lookup"><span data-stu-id="67d73-132">**View**.</span></span> <span data-ttu-id="67d73-133">您可以使用這個選項，透過選取要顯示的專案，並在主控台樹狀檢視中隱藏，來自訂拓撲建立器的視圖。</span><span class="sxs-lookup"><span data-stu-id="67d73-133">You can use this option to customize the view of Topology Builder by selecting the items to show and hide in the console tree views.</span></span>
     
-- <span data-ttu-id="02c72-p114">**說明**。您可以使用這個選項，存取作用中節點的說明。</span><span class="sxs-lookup"><span data-stu-id="02c72-p114">**Help**. You can use this option to access Help for the active node.</span></span>
+- <span data-ttu-id="67d73-p114">**說明**。您可以使用這個選項，存取作用中節點的說明。</span><span class="sxs-lookup"><span data-stu-id="67d73-p114">**Help**. You can use this option to access Help for the active node.</span></span>
     
 
