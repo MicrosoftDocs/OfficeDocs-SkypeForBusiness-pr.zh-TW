@@ -8,22 +8,24 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.LegacyMergeFqdnPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d72841ff-3c4d-4233-a933-f3a95d75d89b
 description: '[存取邊緣池內 FQDN] 是用於各種案例，在這種情況下，內部使用者與外部使用者進行聯盟、遠端使用者存取及公用 IM 連線。 如果您的舊版環境中部署了負載平衡的邊緣伺服器，請輸入內部負載平衡器的完整功能變數名稱（FQDN）。'
-ms.openlocfilehash: f77d5b962ccfa36b9a819accc42258da1c639cc6
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: a684ae21e693119bd6bccd1a457d42cf4b37d3a7
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41684616"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41819755"
 ---
-# <a name="legacy-merge-fqdn"></a><span data-ttu-id="1f317-104">舊版合併 FQDN</span><span class="sxs-lookup"><span data-stu-id="1f317-104">Legacy Merge FQDN</span></span>
+# <a name="legacy-merge-fqdn"></a><span data-ttu-id="d25ea-104">舊版合併 FQDN</span><span class="sxs-lookup"><span data-stu-id="d25ea-104">Legacy Merge FQDN</span></span>
  
-<span data-ttu-id="1f317-105">[**存取邊緣池內 FQDN** ] 是用於各種案例，在這種情況下，內部使用者與外部使用者進行聯盟、遠端使用者存取及公用 IM 連線。</span><span class="sxs-lookup"><span data-stu-id="1f317-105">The **Access Edge Pool internal FQDN** is used for a variety of scenarios where internal users communicate with external users for federation, remote user access, and public IM connectivity.</span></span> <span data-ttu-id="1f317-106">如果您的舊版環境中部署了負載平衡的邊緣伺服器，請輸入內部負載平衡器的完整功能變數名稱（FQDN）。</span><span class="sxs-lookup"><span data-stu-id="1f317-106">If a load-balanced Edge Server was deployed in your legacy environment, enter the fully qualified domain name (FQDN) of the internal load balancer.</span></span>
+<span data-ttu-id="d25ea-105">[**存取邊緣池內 FQDN** ] 是用於各種案例，在這種情況下，內部使用者與外部使用者進行聯盟、遠端使用者存取及公用 IM 連線。</span><span class="sxs-lookup"><span data-stu-id="d25ea-105">The **Access Edge Pool internal FQDN** is used for a variety of scenarios where internal users communicate with external users for federation, remote user access, and public IM connectivity.</span></span> <span data-ttu-id="d25ea-106">如果您的舊版環境中部署了負載平衡的邊緣伺服器，請輸入內部負載平衡器的完整功能變數名稱（FQDN）。</span><span class="sxs-lookup"><span data-stu-id="d25ea-106">If a load-balanced Edge Server was deployed in your legacy environment, enter the fully qualified domain name (FQDN) of the internal load balancer.</span></span>
   
-<span data-ttu-id="1f317-107">**內部的 SIP 存取埠**值**5061**是預設的傳輸控制通訊協定（TCP） SIP 埠，用於與用戶端、舊版前端池和伺服器進行通訊。</span><span class="sxs-lookup"><span data-stu-id="1f317-107">The **Internal SIP access port** value of **5061** is the default Transmission Control Protocol (TCP) SIP port for communicating with clients, legacy Front End pools and servers.</span></span> <span data-ttu-id="1f317-108">如果未使用預設值，請更新**內部 SIP 存取埠：** 值。</span><span class="sxs-lookup"><span data-stu-id="1f317-108">If the default value was not used, update the **Internal SIP access port:** value.</span></span>
+<span data-ttu-id="d25ea-107">**內部的 SIP 存取埠**值**5061**是預設的傳輸控制通訊協定（TCP） SIP 埠，用於與用戶端、舊版前端池和伺服器進行通訊。</span><span class="sxs-lookup"><span data-stu-id="d25ea-107">The **Internal SIP access port** value of **5061** is the default Transmission Control Protocol (TCP) SIP port for communicating with clients, legacy Front End pools and servers.</span></span> <span data-ttu-id="d25ea-108">如果未使用預設值，請更新**內部 SIP 存取埠：** 值。</span><span class="sxs-lookup"><span data-stu-id="d25ea-108">If the default value was not used, update the **Internal SIP access port:** value.</span></span>
   
 

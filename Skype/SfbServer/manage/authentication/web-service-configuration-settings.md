@@ -7,125 +7,127 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f3f04d81-8a1f-427f-bd0f-fb659024e096
 description: 摘要：管理商務用 Skype Server 中的 Web 服務配置設定。
-ms.openlocfilehash: 383b85e156dfdbc6af7606da49d4cf89bf655698
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 2ab23e499cff7678ddb50c57cdc6f396a3c4203c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991928"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818675"
 ---
-# <a name="manage-web-service-configuration-settings-in-skype-for-business-server"></a><span data-ttu-id="ec659-103">在商務用 Skype Server 中管理 Web 服務配置設定</span><span class="sxs-lookup"><span data-stu-id="ec659-103">Manage Web Service configuration settings in Skype for Business Server</span></span>
+# <a name="manage-web-service-configuration-settings-in-skype-for-business-server"></a><span data-ttu-id="e7ff0-103">在商務用 Skype Server 中管理 Web 服務配置設定</span><span class="sxs-lookup"><span data-stu-id="e7ff0-103">Manage Web Service configuration settings in Skype for Business Server</span></span>
  
-<span data-ttu-id="ec659-104">**摘要：** 管理商務用 Skype Server 中的 Web 服務配置設定。</span><span class="sxs-lookup"><span data-stu-id="ec659-104">**Summary:** Manage Web Service configuration settings in Skype for Business Server.</span></span>
+<span data-ttu-id="e7ff0-104">**摘要：** 管理商務用 Skype Server 中的 Web 服務配置設定。</span><span class="sxs-lookup"><span data-stu-id="e7ff0-104">**Summary:** Manage Web Service configuration settings in Skype for Business Server.</span></span>
   
-<span data-ttu-id="ec659-105">您可以使用 [ **Web 服務**] 頁面來設定存取商務用 Skype Server 相關 web 伺服器與 web 服務的驗證方法。</span><span class="sxs-lookup"><span data-stu-id="ec659-105">You can use the **Web Service** page to configure the authentication methods for accessing Skype for Business Server related web servers and Web Services.</span></span>
+<span data-ttu-id="e7ff0-105">您可以使用 [ **Web 服務**] 頁面來設定存取商務用 Skype Server 相關 web 伺服器與 web 服務的驗證方法。</span><span class="sxs-lookup"><span data-stu-id="e7ff0-105">You can use the **Web Service** page to configure the authentication methods for accessing Skype for Business Server related web servers and Web Services.</span></span>
   
-<span data-ttu-id="ec659-106">請按照這些步驟建立新的 Web 服務原則。</span><span class="sxs-lookup"><span data-stu-id="ec659-106">Follow these steps to create a new Web Service policy.</span></span>
+<span data-ttu-id="e7ff0-106">請按照這些步驟建立新的 Web 服務原則。</span><span class="sxs-lookup"><span data-stu-id="e7ff0-106">Follow these steps to create a new Web Service policy.</span></span>
   
-### <a name="to-create-new-web-service-configuration-settings"></a><span data-ttu-id="ec659-107">若要建立新的 web 服務設定</span><span class="sxs-lookup"><span data-stu-id="ec659-107">To create new web service configuration settings</span></span>
+### <a name="to-create-new-web-service-configuration-settings"></a><span data-ttu-id="e7ff0-107">若要建立新的 web 服務設定</span><span class="sxs-lookup"><span data-stu-id="e7ff0-107">To create new web service configuration settings</span></span>
 
-1.  <span data-ttu-id="ec659-108">從屬於 RTCUniversalServerAdmins 群組成員的使用者帳戶（或擁有同等的使用者權利），或指派給 CsServerAdministrator 或 CsAdministrator 角色，登入您在其中部署商務用 Skype Server 的網路中的任何電腦.</span><span class="sxs-lookup"><span data-stu-id="ec659-108">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Skype for Business Server.</span></span>
+1.  <span data-ttu-id="e7ff0-108">從屬於 RTCUniversalServerAdmins 群組成員的使用者帳戶（或擁有同等的使用者權利），或指派給 CsServerAdministrator 或 CsAdministrator 角色，登入您在其中部署商務用 Skype Server 的網路中的任何電腦.</span><span class="sxs-lookup"><span data-stu-id="e7ff0-108">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Skype for Business Server.</span></span>
     
-2. <span data-ttu-id="ec659-109">開啟瀏覽器視窗，然後輸入系統管理員 URL，開啟商務用 Skype Server 的 [控制台]。</span><span class="sxs-lookup"><span data-stu-id="ec659-109">Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.</span></span>  
+2. <span data-ttu-id="e7ff0-109">開啟瀏覽器視窗，然後輸入系統管理員 URL，開啟商務用 Skype Server 的 [控制台]。</span><span class="sxs-lookup"><span data-stu-id="e7ff0-109">Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.</span></span>  
     
-3. <span data-ttu-id="ec659-110">在左側導覽列中，按一下 [**安全性**]，然後按一下 [ **Web 服務**]。</span><span class="sxs-lookup"><span data-stu-id="ec659-110">In the left navigation bar, click **Security** and then click **Web Service**.</span></span>
+3. <span data-ttu-id="e7ff0-110">在左側導覽列中，按一下 [**安全性**]，然後按一下 [ **Web 服務**]。</span><span class="sxs-lookup"><span data-stu-id="e7ff0-110">In the left navigation bar, click **Security** and then click **Web Service**.</span></span>
     
-4. <span data-ttu-id="ec659-111">在 [ **Web 服務**] 頁面上，按一下 [**新增**]，然後執行下列其中一項操作：</span><span class="sxs-lookup"><span data-stu-id="ec659-111">On the **Web Service** page, click **New**, and then do one of the following:</span></span>
+4. <span data-ttu-id="e7ff0-111">在 [ **Web 服務**] 頁面上，按一下 [**新增**]，然後執行下列其中一項操作：</span><span class="sxs-lookup"><span data-stu-id="e7ff0-111">On the **Web Service** page, click **New**, and then do one of the following:</span></span>
     
-   - <span data-ttu-id="ec659-112">若要設定網站的 Web 服務，請按一下 [**網站**設定]。</span><span class="sxs-lookup"><span data-stu-id="ec659-112">To configure the Web Service for a site, click **Site configuration**.</span></span> <span data-ttu-id="ec659-113">在 [**選取網站**] 中，按一下要將 Web 服務原則套用到哪個網站，然後按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="ec659-113">In **Select a Site**, click the site to which the Web Service policy will be applied a site and click **OK**.</span></span>
+   - <span data-ttu-id="e7ff0-112">若要設定網站的 Web 服務，請按一下 [**網站**設定]。</span><span class="sxs-lookup"><span data-stu-id="e7ff0-112">To configure the Web Service for a site, click **Site configuration**.</span></span> <span data-ttu-id="e7ff0-113">在 [**選取網站**] 中，按一下要將 Web 服務原則套用到哪個網站，然後按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="e7ff0-113">In **Select a Site**, click the site to which the Web Service policy will be applied a site and click **OK**.</span></span>
     
-   - <span data-ttu-id="ec659-114">若要設定文件庫的 Web 服務，請按一下 [**池配置**]。</span><span class="sxs-lookup"><span data-stu-id="ec659-114">To configure the Web Service for a pool, click **Pool configuration**.</span></span> <span data-ttu-id="ec659-115">在 [**選取服務**] 中，按一下將套用 Web 服務原則的服務，然後按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="ec659-115">In **Select a Service**, click the service to which the Web Service policy will be applied and click **OK**.</span></span> 
+   - <span data-ttu-id="e7ff0-114">若要設定文件庫的 Web 服務，請按一下 [**池配置**]。</span><span class="sxs-lookup"><span data-stu-id="e7ff0-114">To configure the Web Service for a pool, click **Pool configuration**.</span></span> <span data-ttu-id="e7ff0-115">在 [**選取服務**] 中，按一下將套用 Web 服務原則的服務，然後按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="e7ff0-115">In **Select a Service**, click the service to which the Web Service policy will be applied and click **OK**.</span></span> 
     
-5. <span data-ttu-id="ec659-116">在 [**新增 Web 服務**] 中，在**整合的 windows 驗證**中，選取 [**協商**]、[**整合式 windows 驗證**] 或 [**無**]。</span><span class="sxs-lookup"><span data-stu-id="ec659-116">In **New Web Service Setting**, in **Integrated Windows authentication**, select **Negotiate**, **Integrated Windows authentication**, or **None**.</span></span>
+5. <span data-ttu-id="e7ff0-116">在 [**新增 Web 服務**] 中，在**整合的 windows 驗證**中，選取 [**協商**]、[**整合式 windows 驗證**] 或 [**無**]。</span><span class="sxs-lookup"><span data-stu-id="e7ff0-116">In **New Web Service Setting**, in **Integrated Windows authentication**, select **Negotiate**, **Integrated Windows authentication**, or **None**.</span></span>
     
-6. <span data-ttu-id="ec659-117">根據您的環境中用戶端和支援的功能，選取下列一或多個專案：</span><span class="sxs-lookup"><span data-stu-id="ec659-117">Select one or more of the following depending on the capabilities of the clients and support in your environment:</span></span>
+6. <span data-ttu-id="e7ff0-117">根據您的環境中用戶端和支援的功能，選取下列一或多個專案：</span><span class="sxs-lookup"><span data-stu-id="e7ff0-117">Select one or more of the following depending on the capabilities of the clients and support in your environment:</span></span>
     
-   - <span data-ttu-id="ec659-118">**啟用 Pin 驗證**，讓用戶端使用 pin 碼進行驗證。</span><span class="sxs-lookup"><span data-stu-id="ec659-118">**Enable PIN Authentication** to enable clients to be authenticated using PIN numbers.</span></span>
+   - <span data-ttu-id="e7ff0-118">**啟用 Pin 驗證**，讓用戶端使用 pin 碼進行驗證。</span><span class="sxs-lookup"><span data-stu-id="e7ff0-118">**Enable PIN Authentication** to enable clients to be authenticated using PIN numbers.</span></span>
     
-   - <span data-ttu-id="ec659-119">**啟用憑證驗證**，將池中的伺服器頒發憑證給用戶端。</span><span class="sxs-lookup"><span data-stu-id="ec659-119">**Enable certificate authentication** to have the servers in the pool issue certificates to clients.</span></span>
+   - <span data-ttu-id="e7ff0-119">**啟用憑證驗證**，將池中的伺服器頒發憑證給用戶端。</span><span class="sxs-lookup"><span data-stu-id="e7ff0-119">**Enable certificate authentication** to have the servers in the pool issue certificates to clients.</span></span>
     
-   - <span data-ttu-id="ec659-120">**啟用憑證連結下載**，讓伺服器提供驗證憑證下載該憑證的憑證鏈。</span><span class="sxs-lookup"><span data-stu-id="ec659-120">**Enable certificate chain download** to have servers presented with an authentication certificate download the certificate chain for that certificate.</span></span>
+   - <span data-ttu-id="e7ff0-120">**啟用憑證連結下載**，讓伺服器提供驗證憑證下載該憑證的憑證鏈。</span><span class="sxs-lookup"><span data-stu-id="e7ff0-120">**Enable certificate chain download** to have servers presented with an authentication certificate download the certificate chain for that certificate.</span></span>
     
-7. <span data-ttu-id="ec659-121">按一下 [認可]\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="ec659-121">Click **Commit**.</span></span>
+7. <span data-ttu-id="e7ff0-121">按一下 [認可]\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="e7ff0-121">Click **Commit**.</span></span>
     
-## <a name="modify-existing-web-service-configuration-settings"></a><span data-ttu-id="ec659-122">修改現有的 Web 服務設定</span><span class="sxs-lookup"><span data-stu-id="ec659-122">Modify existing Web Service configuration settings</span></span>
+## <a name="modify-existing-web-service-configuration-settings"></a><span data-ttu-id="e7ff0-122">修改現有的 Web 服務設定</span><span class="sxs-lookup"><span data-stu-id="e7ff0-122">Modify existing Web Service configuration settings</span></span>
 
-<span data-ttu-id="ec659-123">您可以使用 [ **Web 服務**] 頁面來設定存取商務用 Skype Server 相關 web 伺服器與 web 服務的驗證方法。</span><span class="sxs-lookup"><span data-stu-id="ec659-123">You can use the **Web Service** page to configure the authentication methods for accessing Skype for Business Server related web servers and Web Services.</span></span>
+<span data-ttu-id="e7ff0-123">您可以使用 [ **Web 服務**] 頁面來設定存取商務用 Skype Server 相關 web 伺服器與 web 服務的驗證方法。</span><span class="sxs-lookup"><span data-stu-id="e7ff0-123">You can use the **Web Service** page to configure the authentication methods for accessing Skype for Business Server related web servers and Web Services.</span></span>
   
-<span data-ttu-id="ec659-124">請依照這些步驟來修改現有的 Web 服務原則。</span><span class="sxs-lookup"><span data-stu-id="ec659-124">Follow these steps to modify an existing Web Service policy.</span></span>
+<span data-ttu-id="e7ff0-124">請依照這些步驟來修改現有的 Web 服務原則。</span><span class="sxs-lookup"><span data-stu-id="e7ff0-124">Follow these steps to modify an existing Web Service policy.</span></span>
   
-### <a name="to-modify-existing-web-service-configuration-settings"></a><span data-ttu-id="ec659-125">修改現有的 Web 服務設定</span><span class="sxs-lookup"><span data-stu-id="ec659-125">To modify existing Web service configuration settings</span></span>
+### <a name="to-modify-existing-web-service-configuration-settings"></a><span data-ttu-id="e7ff0-125">修改現有的 Web 服務設定</span><span class="sxs-lookup"><span data-stu-id="e7ff0-125">To modify existing Web service configuration settings</span></span>
 
-1.  <span data-ttu-id="ec659-126">從屬於 RTCUniversalServerAdmins 群組成員的使用者帳戶（或擁有同等的使用者權利），或指派給 CsServerAdministrator 或 CsAdministrator 角色，登入您在其中部署商務用 Skype Server 的網路中的任何電腦.</span><span class="sxs-lookup"><span data-stu-id="ec659-126">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Skype for Business Server.</span></span>
+1.  <span data-ttu-id="e7ff0-126">從屬於 RTCUniversalServerAdmins 群組成員的使用者帳戶（或擁有同等的使用者權利），或指派給 CsServerAdministrator 或 CsAdministrator 角色，登入您在其中部署商務用 Skype Server 的網路中的任何電腦.</span><span class="sxs-lookup"><span data-stu-id="e7ff0-126">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Skype for Business Server.</span></span>
     
-2. <span data-ttu-id="ec659-127">開啟瀏覽器視窗，然後輸入系統管理員 URL，開啟商務用 Skype Server 的 [控制台]。</span><span class="sxs-lookup"><span data-stu-id="ec659-127">Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.</span></span>  
+2. <span data-ttu-id="e7ff0-127">開啟瀏覽器視窗，然後輸入系統管理員 URL，開啟商務用 Skype Server 的 [控制台]。</span><span class="sxs-lookup"><span data-stu-id="e7ff0-127">Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.</span></span>  
     
-3. <span data-ttu-id="ec659-128">在左側導覽列中，按一下 [**安全性**]，然後按一下 [ **Web 服務**]。</span><span class="sxs-lookup"><span data-stu-id="ec659-128">In the left navigation bar, click **Security** and then click **Web Service**.</span></span>
+3. <span data-ttu-id="e7ff0-128">在左側導覽列中，按一下 [**安全性**]，然後按一下 [ **Web 服務**]。</span><span class="sxs-lookup"><span data-stu-id="e7ff0-128">In the left navigation bar, click **Security** and then click **Web Service**.</span></span>
     
-4. <span data-ttu-id="ec659-129">在 [ **Web 服務**] 頁面上，按一下 [設定]，按一下 [**編輯**]，然後按一下 [**顯示詳細資料**]。</span><span class="sxs-lookup"><span data-stu-id="ec659-129">On the **Web Service** page, click a configuration, click **Edit**, and then click **Show details**.</span></span>
+4. <span data-ttu-id="e7ff0-129">在 [ **Web 服務**] 頁面上，按一下 [設定]，按一下 [**編輯**]，然後按一下 [**顯示詳細資料**]。</span><span class="sxs-lookup"><span data-stu-id="e7ff0-129">On the **Web Service** page, click a configuration, click **Edit**, and then click **Show details**.</span></span>
     
-5. <span data-ttu-id="ec659-130">在 [**編輯 Web 服務**] 中，在**整合的 windows 驗證**中，選取 [**協商**]、[**整合式 windows 驗證**] 或 [**無**]。</span><span class="sxs-lookup"><span data-stu-id="ec659-130">In **Edit Web Service Setting**, in **Integrated Windows authentication**, select **Negotiate**, **Integrated Windows authentication**, or **None**.</span></span>
+5. <span data-ttu-id="e7ff0-130">在 [**編輯 Web 服務**] 中，在**整合的 windows 驗證**中，選取 [**協商**]、[**整合式 windows 驗證**] 或 [**無**]。</span><span class="sxs-lookup"><span data-stu-id="e7ff0-130">In **Edit Web Service Setting**, in **Integrated Windows authentication**, select **Negotiate**, **Integrated Windows authentication**, or **None**.</span></span>
     
-6. <span data-ttu-id="ec659-131">根據您的環境中用戶端和支援的功能，選取下列一或多個專案：</span><span class="sxs-lookup"><span data-stu-id="ec659-131">Select one or more of the following depending on the capabilities of the clients and support in your environment:</span></span>
+6. <span data-ttu-id="e7ff0-131">根據您的環境中用戶端和支援的功能，選取下列一或多個專案：</span><span class="sxs-lookup"><span data-stu-id="e7ff0-131">Select one or more of the following depending on the capabilities of the clients and support in your environment:</span></span>
     
-   - <span data-ttu-id="ec659-132">**啟用 Pin 驗證**，讓用戶端使用 pin 碼進行驗證。</span><span class="sxs-lookup"><span data-stu-id="ec659-132">**Enable PIN Authentication** to enable clients to be authenticated using PIN numbers.</span></span>
+   - <span data-ttu-id="e7ff0-132">**啟用 Pin 驗證**，讓用戶端使用 pin 碼進行驗證。</span><span class="sxs-lookup"><span data-stu-id="e7ff0-132">**Enable PIN Authentication** to enable clients to be authenticated using PIN numbers.</span></span>
     
-   - <span data-ttu-id="ec659-133">**啟用憑證驗證**，將池中的伺服器頒發憑證給用戶端。</span><span class="sxs-lookup"><span data-stu-id="ec659-133">**Enable certificate authentication** to have the servers in the pool issue certificates to clients.</span></span>
+   - <span data-ttu-id="e7ff0-133">**啟用憑證驗證**，將池中的伺服器頒發憑證給用戶端。</span><span class="sxs-lookup"><span data-stu-id="e7ff0-133">**Enable certificate authentication** to have the servers in the pool issue certificates to clients.</span></span>
     
-   - <span data-ttu-id="ec659-134">**啟用憑證連結下載**，讓伺服器提供驗證憑證下載該憑證的憑證鏈。</span><span class="sxs-lookup"><span data-stu-id="ec659-134">**Enable certificate chain download** to have servers presented with an authentication certificate download the certificate chain for that certificate.</span></span>
+   - <span data-ttu-id="e7ff0-134">**啟用憑證連結下載**，讓伺服器提供驗證憑證下載該憑證的憑證鏈。</span><span class="sxs-lookup"><span data-stu-id="e7ff0-134">**Enable certificate chain download** to have servers presented with an authentication certificate download the certificate chain for that certificate.</span></span>
     
-7. <span data-ttu-id="ec659-135">按一下 [認可]\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="ec659-135">Click **Commit**.</span></span>
+7. <span data-ttu-id="e7ff0-135">按一下 [認可]\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="e7ff0-135">Click **Commit**.</span></span>
     
-## <a name="delete-existing-web-service-configuration-settings"></a><span data-ttu-id="ec659-136">刪除現有的 Web 服務設定設定</span><span class="sxs-lookup"><span data-stu-id="ec659-136">Delete existing Web Service configuration settings</span></span>
+## <a name="delete-existing-web-service-configuration-settings"></a><span data-ttu-id="e7ff0-136">刪除現有的 Web 服務設定設定</span><span class="sxs-lookup"><span data-stu-id="e7ff0-136">Delete existing Web Service configuration settings</span></span>
 
-<span data-ttu-id="ec659-137">請依照下列步驟刪除 web 服務設定。</span><span class="sxs-lookup"><span data-stu-id="ec659-137">Follow these steps to delete web service configuration settings.</span></span>
+<span data-ttu-id="e7ff0-137">請依照下列步驟刪除 web 服務設定。</span><span class="sxs-lookup"><span data-stu-id="e7ff0-137">Follow these steps to delete web service configuration settings.</span></span>
   
-### <a name="to-delete-web-service-configuration-settings"></a><span data-ttu-id="ec659-138">刪除 web 服務配置設定</span><span class="sxs-lookup"><span data-stu-id="ec659-138">To delete web service configuration settings</span></span>
+### <a name="to-delete-web-service-configuration-settings"></a><span data-ttu-id="e7ff0-138">刪除 web 服務配置設定</span><span class="sxs-lookup"><span data-stu-id="e7ff0-138">To delete web service configuration settings</span></span>
 
-1.  <span data-ttu-id="ec659-139">從屬於 RTCUniversalServerAdmins 群組成員的使用者帳戶（或擁有同等的使用者權利），或指派給 CsServerAdministrator 或 CsAdministrator 角色，登入您在其中部署商務用 Skype Server 的網路中的任何電腦.</span><span class="sxs-lookup"><span data-stu-id="ec659-139">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Skype for Business Server.</span></span>
+1.  <span data-ttu-id="e7ff0-139">從屬於 RTCUniversalServerAdmins 群組成員的使用者帳戶（或擁有同等的使用者權利），或指派給 CsServerAdministrator 或 CsAdministrator 角色，登入您在其中部署商務用 Skype Server 的網路中的任何電腦.</span><span class="sxs-lookup"><span data-stu-id="e7ff0-139">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Skype for Business Server.</span></span>
     
-2. <span data-ttu-id="ec659-140">開啟瀏覽器視窗，然後輸入系統管理員 URL，開啟商務用 Skype Server 的 [控制台]。</span><span class="sxs-lookup"><span data-stu-id="ec659-140">Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.</span></span>  
+2. <span data-ttu-id="e7ff0-140">開啟瀏覽器視窗，然後輸入系統管理員 URL，開啟商務用 Skype Server 的 [控制台]。</span><span class="sxs-lookup"><span data-stu-id="e7ff0-140">Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.</span></span>  
     
-3. <span data-ttu-id="ec659-141">在左側導覽列中，按一下 [**安全性**]，然後按一下 [ **Web 服務**]。</span><span class="sxs-lookup"><span data-stu-id="ec659-141">In the left navigation bar, click **Security** and then click **Web Service**.</span></span>
+3. <span data-ttu-id="e7ff0-141">在左側導覽列中，按一下 [**安全性**]，然後按一下 [ **Web 服務**]。</span><span class="sxs-lookup"><span data-stu-id="e7ff0-141">In the left navigation bar, click **Security** and then click **Web Service**.</span></span>
     
-4. <span data-ttu-id="ec659-142">在 [ **Web 服務**] 頁面上，于 [搜尋] 欄位中，輸入您要刪除之原則的全部或部分名稱。</span><span class="sxs-lookup"><span data-stu-id="ec659-142">On the **Web Service** page, and in the search field, type all or part of the name of the policy you want to delete.</span></span>
+4. <span data-ttu-id="e7ff0-142">在 [ **Web 服務**] 頁面上，于 [搜尋] 欄位中，輸入您要刪除之原則的全部或部分名稱。</span><span class="sxs-lookup"><span data-stu-id="e7ff0-142">On the **Web Service** page, and in the search field, type all or part of the name of the policy you want to delete.</span></span>
     
-5. <span data-ttu-id="ec659-143">在原則清單中，按一下您想要的原則，按一下 [**編輯**]，然後按一下 [**刪除**]。</span><span class="sxs-lookup"><span data-stu-id="ec659-143">In the list of policies, click the policy that you want, click **Edit**, and then click **Delete**.</span></span>
+5. <span data-ttu-id="e7ff0-143">在原則清單中，按一下您想要的原則，按一下 [**編輯**]，然後按一下 [**刪除**]。</span><span class="sxs-lookup"><span data-stu-id="e7ff0-143">In the list of policies, click the policy that you want, click **Edit**, and then click **Delete**.</span></span>
     
-6. <span data-ttu-id="ec659-144">按一下 [確定]\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="ec659-144">Click **OK**.</span></span>
+6. <span data-ttu-id="e7ff0-144">按一下 [確定]\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="e7ff0-144">Click **OK**.</span></span>
     
-## <a name="deleting-web-service-configuration-settings-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="ec659-145">使用 Windows PowerShell Cmdlet 刪除 Web 服務配置設定</span><span class="sxs-lookup"><span data-stu-id="ec659-145">Deleting Web Service Configuration Settings by Using Windows PowerShell Cmdlets</span></span>
+## <a name="deleting-web-service-configuration-settings-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="e7ff0-145">使用 Windows PowerShell Cmdlet 刪除 Web 服務配置設定</span><span class="sxs-lookup"><span data-stu-id="e7ff0-145">Deleting Web Service Configuration Settings by Using Windows PowerShell Cmdlets</span></span>
 
-<span data-ttu-id="ec659-146">您可以使用 Windows PowerShell 與**Remove CsWebServiceConfiguration** Cmdlet 來刪除 web 服務設定設定。</span><span class="sxs-lookup"><span data-stu-id="ec659-146">You can delete web service configuration settings by using Windows PowerShell and the **Remove-CsWebServiceConfiguration** cmdlet.</span></span> <span data-ttu-id="ec659-147">您可以從商務用 Skype Server Management 命令介面或從 Windows PowerShell 遠端會話執行此 Cmdlet。</span><span class="sxs-lookup"><span data-stu-id="ec659-147">You can run this cmdlet from the Skype for Business Server Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="ec659-148">如需使用遠端 Windows PowerShell 連線至商務用 Skype Server 的詳細資料，請參閱博客文章[：「快速入門：使用遠端 PowerShell 管理 Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)」。</span><span class="sxs-lookup"><span data-stu-id="ec659-148">For details about using remote Windows PowerShell to connect to Skype for Business Server, see the blog article ["Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell"](https://go.microsoft.com/fwlink/p/?linkId=255876).</span></span> <span data-ttu-id="ec659-149">在商務用 Skype 伺服器中，程式是一樣的。</span><span class="sxs-lookup"><span data-stu-id="ec659-149">The process is the same in Skype for Business Server.</span></span>
+<span data-ttu-id="e7ff0-146">您可以使用 Windows PowerShell 與**Remove CsWebServiceConfiguration** Cmdlet 來刪除 web 服務設定設定。</span><span class="sxs-lookup"><span data-stu-id="e7ff0-146">You can delete web service configuration settings by using Windows PowerShell and the **Remove-CsWebServiceConfiguration** cmdlet.</span></span> <span data-ttu-id="e7ff0-147">您可以從商務用 Skype Server Management 命令介面或從 Windows PowerShell 遠端會話執行此 Cmdlet。</span><span class="sxs-lookup"><span data-stu-id="e7ff0-147">You can run this cmdlet from the Skype for Business Server Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="e7ff0-148">如需使用遠端 Windows PowerShell 連線至商務用 Skype Server 的詳細資料，請參閱博客文章[：「快速入門：使用遠端 PowerShell 管理 Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)」。</span><span class="sxs-lookup"><span data-stu-id="e7ff0-148">For details about using remote Windows PowerShell to connect to Skype for Business Server, see the blog article ["Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell"](https://go.microsoft.com/fwlink/p/?linkId=255876).</span></span> <span data-ttu-id="e7ff0-149">在商務用 Skype 伺服器中，程式是一樣的。</span><span class="sxs-lookup"><span data-stu-id="e7ff0-149">The process is the same in Skype for Business Server.</span></span>
   
-### <a name="to-delete-a-specific-collection-of-web-service-configuration-settings"></a><span data-ttu-id="ec659-150">刪除 web 服務設定的特定集合</span><span class="sxs-lookup"><span data-stu-id="ec659-150">To delete a specific collection of web service configuration settings</span></span>
+### <a name="to-delete-a-specific-collection-of-web-service-configuration-settings"></a><span data-ttu-id="e7ff0-150">刪除 web 服務設定的特定集合</span><span class="sxs-lookup"><span data-stu-id="e7ff0-150">To delete a specific collection of web service configuration settings</span></span>
 
-- <span data-ttu-id="ec659-151">下列命令會移除套用至雷德蒙網站的 Web 服務安全性設定：</span><span class="sxs-lookup"><span data-stu-id="ec659-151">The following command removes the Web Service security settings applied to the Redmond site:</span></span>
+- <span data-ttu-id="e7ff0-151">下列命令會移除套用至雷德蒙網站的 Web 服務安全性設定：</span><span class="sxs-lookup"><span data-stu-id="e7ff0-151">The following command removes the Web Service security settings applied to the Redmond site:</span></span>
     
   ```PowerShell
   Remove-CsWebServiceConfiguration -Identity "site:Redmond"
   ```
 
-### <a name="to-delete-all-of-the-web-service-configuration-settings-applied-to-the-site-scope"></a><span data-ttu-id="ec659-152">若要刪除所有套用至網站範圍的 web 服務設定設定</span><span class="sxs-lookup"><span data-stu-id="ec659-152">To delete all of the web service configuration settings applied to the site scope</span></span>
+### <a name="to-delete-all-of-the-web-service-configuration-settings-applied-to-the-site-scope"></a><span data-ttu-id="e7ff0-152">若要刪除所有套用至網站範圍的 web 服務設定設定</span><span class="sxs-lookup"><span data-stu-id="e7ff0-152">To delete all of the web service configuration settings applied to the site scope</span></span>
 
-<span data-ttu-id="ec659-153">下列命令會移除所有套用至服務範圍的 Web 服務安全性設定：</span><span class="sxs-lookup"><span data-stu-id="ec659-153">The following command removes all of the Web Service security settings applied to the service scope:</span></span>
+<span data-ttu-id="e7ff0-153">下列命令會移除所有套用至服務範圍的 Web 服務安全性設定：</span><span class="sxs-lookup"><span data-stu-id="e7ff0-153">The following command removes all of the Web Service security settings applied to the service scope:</span></span>
     
   ```PowerShell
   Get-CsWebServiceConfiguration -Filter "service:*" | Remove-CsWebServiceConfiguration
   ```
 
-### <a name="to-delete-all-of-the-web-service-configuration-settings-that-allow-certificate-authentication"></a><span data-ttu-id="ec659-154">若要刪除所有允許憑證驗證的 web 服務設定設定</span><span class="sxs-lookup"><span data-stu-id="ec659-154">To delete all of the web service configuration settings that allow certificate authentication</span></span>
+### <a name="to-delete-all-of-the-web-service-configuration-settings-that-allow-certificate-authentication"></a><span data-ttu-id="e7ff0-154">若要刪除所有允許憑證驗證的 web 服務設定設定</span><span class="sxs-lookup"><span data-stu-id="e7ff0-154">To delete all of the web service configuration settings that allow certificate authentication</span></span>
 
-<span data-ttu-id="ec659-155">下列命令會移除所有允許使用憑證驗證的 Web 服務安全性設定：</span><span class="sxs-lookup"><span data-stu-id="ec659-155">The following command removes all the Web Service security settings that allow the use of certificate authentication:</span></span>
+<span data-ttu-id="e7ff0-155">下列命令會移除所有允許使用憑證驗證的 Web 服務安全性設定：</span><span class="sxs-lookup"><span data-stu-id="e7ff0-155">The following command removes all the Web Service security settings that allow the use of certificate authentication:</span></span>
     
   ```PowerShell
   Get-CsWebServiceConfiguration | Where-Object {$_.UseCertificateAuth -eq $True} | Remove-CsWebServiceConfiguration
   ```
 
-<span data-ttu-id="ec659-156">如需詳細資訊，請參閱[移除-CsWebServiceConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-cswebserviceconfiguration?view=skype-ps)。</span><span class="sxs-lookup"><span data-stu-id="ec659-156">For details, see [Remove-CsWebServiceConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-cswebserviceconfiguration?view=skype-ps).</span></span>
+<span data-ttu-id="e7ff0-156">如需詳細資訊，請參閱[移除-CsWebServiceConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-cswebserviceconfiguration?view=skype-ps)。</span><span class="sxs-lookup"><span data-stu-id="e7ff0-156">For details, see [Remove-CsWebServiceConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-cswebserviceconfiguration?view=skype-ps).</span></span>
   
 

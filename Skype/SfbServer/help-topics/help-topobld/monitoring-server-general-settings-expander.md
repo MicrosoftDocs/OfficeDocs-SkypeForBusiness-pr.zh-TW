@@ -8,24 +8,26 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.MonitoringServerGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b45e4b2f-a6e8-4919-979e-1ba74fd46028
 description: 在拓撲產生器中，您可以編輯個別監控伺服器的內容，方法是以滑鼠右鍵按一下主控台樹狀目錄中的監控伺服器，然後按一下工具列中的 [動作]；或是按一下 [動作] 窗格中的工作，然後按一下 [編輯內容]，並變更下列任一選項：
-ms.openlocfilehash: 23e6a1c4e1db0fd01ce5b6043a795e9abb4070b1
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 3f81469727c2c99caef4895eb3d55ad03091d36c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41684516"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41819535"
 ---
-# <a name="monitoring-server-general-settings-expander"></a><span data-ttu-id="c2845-103">監控伺服器一般設定展開工具</span><span class="sxs-lookup"><span data-stu-id="c2845-103">Monitoring Server General Settings Expander</span></span>
+# <a name="monitoring-server-general-settings-expander"></a><span data-ttu-id="89629-103">監控伺服器一般設定展開工具</span><span class="sxs-lookup"><span data-stu-id="89629-103">Monitoring Server General Settings Expander</span></span>
  
-<span data-ttu-id="c2845-104">在拓撲產生器中，您可以編輯個別監控伺服器的內容，方法是以滑鼠右鍵按一下主控台樹狀目錄中的監控伺服器，然後按一下工具列中的 [動作]\*\*\*\*；或是按一下 [動作] 窗格中的工作，然後按一下 [編輯內容]\*\*\*\*，並變更下列任一選項：</span><span class="sxs-lookup"><span data-stu-id="c2845-104">In Topology Builder, you can edit the properties for an individual Monitoring Server either by right-clicking the Monitoring Server in the console tree and then clicking **Action** in the toolbar, or by clicking a task in the Actions pane and then clicking **Edit Properties**, and changing any of the following options:</span></span>
+<span data-ttu-id="89629-104">在拓撲產生器中，您可以編輯個別監控伺服器的內容，方法是以滑鼠右鍵按一下主控台樹狀目錄中的監控伺服器，然後按一下工具列中的 [動作]\*\*\*\*；或是按一下 [動作] 窗格中的工作，然後按一下 [編輯內容]\*\*\*\*，並變更下列任一選項：</span><span class="sxs-lookup"><span data-stu-id="89629-104">In Topology Builder, you can edit the properties for an individual Monitoring Server either by right-clicking the Monitoring Server in the console tree and then clicking **Action** in the toolbar, or by clicking a task in the Actions pane and then clicking **Edit Properties**, and changing any of the following options:</span></span>
   
-- <span data-ttu-id="c2845-105">**FQDN**，以變更您要部署為監控伺服器的伺服器的完整網域名稱 (FQDN)。</span><span class="sxs-lookup"><span data-stu-id="c2845-105">**FQDN**, to change the fully qualified domain name (FQDN) of the server that you want to deploy as a Monitoring Server.</span></span>
+- <span data-ttu-id="89629-105">**FQDN**，以變更您要部署為監控伺服器的伺服器的完整網域名稱 (FQDN)。</span><span class="sxs-lookup"><span data-stu-id="89629-105">**FQDN**, to change the fully qualified domain name (FQDN) of the server that you want to deploy as a Monitoring Server.</span></span>
     
-- <span data-ttu-id="c2845-p101">**SQL 儲存區**，以變更要用作監控 SQL Server 資料庫的 SQL Server 執行個體。如果您變更監控伺服器的 SQL Server 資料庫，必須重新啟動監控伺服器以確保變更生效。</span><span class="sxs-lookup"><span data-stu-id="c2845-p101">**SQL store**, to change the instance of SQL Server to be used for the monitoring SQL Server database. If you change the SQL Server database of a Monitoring Server, you must restart the Monitoring Server for the change to take effect.</span></span>
+- <span data-ttu-id="89629-p101">**SQL 儲存區**，以變更要用作監控 SQL Server 資料庫的 SQL Server 執行個體。如果您變更監控伺服器的 SQL Server 資料庫，必須重新啟動監控伺服器以確保變更生效。</span><span class="sxs-lookup"><span data-stu-id="89629-p101">**SQL store**, to change the instance of SQL Server to be used for the monitoring SQL Server database. If you change the SQL Server database of a Monitoring Server, you must restart the Monitoring Server for the change to take effect.</span></span>
     
 

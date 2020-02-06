@@ -7,58 +7,60 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: b6f3a605-e0c6-461e-b17a-41d8039ace9d
 description: 摘要：瞭解商務用 Skype 伺服器中的 [失敗清單] 報告。
-ms.openlocfilehash: d0ba76974d99b123c99e3df40a6850736423ab73
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 8d0ca503f1a7883ab9ec1dd4ded8556b2ee3ab0f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992820"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817943"
 ---
-# <a name="failure-list-report-in-skype-for-business-server"></a><span data-ttu-id="8bf45-103">商務用 Skype Server 中的 [失敗清單] 報告</span><span class="sxs-lookup"><span data-stu-id="8bf45-103">Failure List Report in Skype for Business Server</span></span> 
+# <a name="failure-list-report-in-skype-for-business-server"></a><span data-ttu-id="5cdc5-103">商務用 Skype Server 中的 [失敗清單] 報告</span><span class="sxs-lookup"><span data-stu-id="5cdc5-103">Failure List Report in Skype for Business Server</span></span> 
  
-<span data-ttu-id="8bf45-104">**摘要：** 瞭解商務用 Skype Server 中的 [失敗清單] 報告。</span><span class="sxs-lookup"><span data-stu-id="8bf45-104">**Summary:** Learn about the Failure List Report in Skype for Business Server.</span></span>
+<span data-ttu-id="5cdc5-104">**摘要：** 瞭解商務用 Skype Server 中的 [失敗清單] 報告。</span><span class="sxs-lookup"><span data-stu-id="5cdc5-104">**Summary:** Learn about the Failure List Report in Skype for Business Server.</span></span>
   
-<span data-ttu-id="8bf45-105">[失敗清單] 報告會提供參與對等無法進行對等或會議會話的個別參與者的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="8bf45-105">The Failure List report provides information about the individual participants who took part in a failed peer-to-peer or conferencing session.</span></span> <span data-ttu-id="8bf45-106">此資訊包含遇到問題之使用者的 URI，以及與失敗相關聯的 SIP 回應程式碼與診斷 ID。</span><span class="sxs-lookup"><span data-stu-id="8bf45-106">This information includes the URI of the user who experienced the problem, as well as the SIP Response code and Diagnostic ID associated with the failure.</span></span>
+<span data-ttu-id="5cdc5-105">[失敗清單] 報告會提供參與對等無法進行對等或會議會話的個別參與者的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="5cdc5-105">The Failure List report provides information about the individual participants who took part in a failed peer-to-peer or conferencing session.</span></span> <span data-ttu-id="5cdc5-106">此資訊包含遇到問題之使用者的 URI，以及與失敗相關聯的 SIP 回應程式碼與診斷 ID。</span><span class="sxs-lookup"><span data-stu-id="5cdc5-106">This information includes the URI of the user who experienced the problem, as well as the SIP Response code and Diagnostic ID associated with the failure.</span></span>
   
-## <a name="accessing-the-failure-list-report"></a><span data-ttu-id="8bf45-107">存取失敗清單報告</span><span class="sxs-lookup"><span data-stu-id="8bf45-107">Accessing the Failure List Report</span></span>
+## <a name="accessing-the-failure-list-report"></a><span data-ttu-id="5cdc5-107">存取失敗清單報告</span><span class="sxs-lookup"><span data-stu-id="5cdc5-107">Accessing the Failure List Report</span></span>
 
-<span data-ttu-id="8bf45-108">若要存取 [失敗清單] 報告，請按一下 [商務用 Skype 伺服器] 的 [[失敗] 發佈報告中](failure-distribution-report.md)的任何一個度量單位：</span><span class="sxs-lookup"><span data-stu-id="8bf45-108">The Failure List Report is accessed by clicking any of the following metrics on the [Failure Distribution Report in Skype for Business Server](failure-distribution-report.md):</span></span>
+<span data-ttu-id="5cdc5-108">若要存取 [失敗清單] 報告，請按一下 [商務用 Skype 伺服器] 的 [[失敗] 發佈報告中](failure-distribution-report.md)的任何一個度量單位：</span><span class="sxs-lookup"><span data-stu-id="5cdc5-108">The Failure List Report is accessed by clicking any of the following metrics on the [Failure Distribution Report in Skype for Business Server](failure-distribution-report.md):</span></span>
   
-- <span data-ttu-id="8bf45-109">常見的診斷原因（會話）</span><span class="sxs-lookup"><span data-stu-id="8bf45-109">Top diagnostic reasons (sessions)</span></span>
+- <span data-ttu-id="5cdc5-109">常見的診斷原因（會話）</span><span class="sxs-lookup"><span data-stu-id="5cdc5-109">Top diagnostic reasons (sessions)</span></span>
     
-- <span data-ttu-id="8bf45-110">熱門形式（會話）</span><span class="sxs-lookup"><span data-stu-id="8bf45-110">Top modalities (sessions)</span></span>
+- <span data-ttu-id="5cdc5-110">熱門形式（會話）</span><span class="sxs-lookup"><span data-stu-id="5cdc5-110">Top modalities (sessions)</span></span>
     
-- <span data-ttu-id="8bf45-111">頂層池（會話）</span><span class="sxs-lookup"><span data-stu-id="8bf45-111">Top pools (sessions)</span></span>
+- <span data-ttu-id="5cdc5-111">頂層池（會話）</span><span class="sxs-lookup"><span data-stu-id="5cdc5-111">Top pools (sessions)</span></span>
     
-- <span data-ttu-id="8bf45-112">熱門來源（會話）</span><span class="sxs-lookup"><span data-stu-id="8bf45-112">Top sources (sessions)</span></span>
+- <span data-ttu-id="5cdc5-112">熱門來源（會話）</span><span class="sxs-lookup"><span data-stu-id="5cdc5-112">Top sources (sessions)</span></span>
     
-- <span data-ttu-id="8bf45-113">Top 元件（會話）</span><span class="sxs-lookup"><span data-stu-id="8bf45-113">Top components (sessions)</span></span>
+- <span data-ttu-id="5cdc5-113">Top 元件（會話）</span><span class="sxs-lookup"><span data-stu-id="5cdc5-113">Top components (sessions)</span></span>
     
-- <span data-ttu-id="8bf45-114">使用者的最上層（會話）</span><span class="sxs-lookup"><span data-stu-id="8bf45-114">Top from users (sessions)</span></span>
+- <span data-ttu-id="5cdc5-114">使用者的最上層（會話）</span><span class="sxs-lookup"><span data-stu-id="5cdc5-114">Top from users (sessions)</span></span>
     
-- <span data-ttu-id="8bf45-115">使用者的最上層（會話）</span><span class="sxs-lookup"><span data-stu-id="8bf45-115">Top to users (sessions)</span></span>
+- <span data-ttu-id="5cdc5-115">使用者的最上層（會話）</span><span class="sxs-lookup"><span data-stu-id="5cdc5-115">Top to users (sessions)</span></span>
     
-- <span data-ttu-id="8bf45-116">使用者代理程式（會話）的頂端</span><span class="sxs-lookup"><span data-stu-id="8bf45-116">Top from user agents (sessions)</span></span>
+- <span data-ttu-id="5cdc5-116">使用者代理程式（會話）的頂端</span><span class="sxs-lookup"><span data-stu-id="5cdc5-116">Top from user agents (sessions)</span></span>
     
-<span data-ttu-id="8bf45-117">在 [失敗清單] 報告中，您可以透過按一下點對點工作階段的會話詳細資料指標，[在商務用 Skype Server 中存取點對點工作階段詳細資料包告](peer-to-peer-session-detail-report.md)。</span><span class="sxs-lookup"><span data-stu-id="8bf45-117">From the Failure List Report you can access the [Peer-to-Peer Session Detail Report in Skype for Business Server](peer-to-peer-session-detail-report.md) by clicking the Session detail metric for a peer-to-peer session.</span></span> <span data-ttu-id="8bf45-118">您也可以按一下會議的會議指標，以存取會議詳細資料包告。</span><span class="sxs-lookup"><span data-stu-id="8bf45-118">You can also access the Conference Detail Report by clicking the Conference metric for a conference.</span></span>
+<span data-ttu-id="5cdc5-117">在 [失敗清單] 報告中，您可以透過按一下點對點工作階段的會話詳細資料指標，[在商務用 Skype Server 中存取點對點工作階段詳細資料包告](peer-to-peer-session-detail-report.md)。</span><span class="sxs-lookup"><span data-stu-id="5cdc5-117">From the Failure List Report you can access the [Peer-to-Peer Session Detail Report in Skype for Business Server](peer-to-peer-session-detail-report.md) by clicking the Session detail metric for a peer-to-peer session.</span></span> <span data-ttu-id="5cdc5-118">您也可以按一下會議的會議指標，以存取會議詳細資料包告。</span><span class="sxs-lookup"><span data-stu-id="5cdc5-118">You can also access the Conference Detail Report by clicking the Conference metric for a conference.</span></span>
   
-## <a name="making-the-best-use-of-the-failure-list-report"></a><span data-ttu-id="8bf45-119">充分利用 [失敗清單] 報告</span><span class="sxs-lookup"><span data-stu-id="8bf45-119">Making the Best Use of the Failure List Report</span></span>
+## <a name="making-the-best-use-of-the-failure-list-report"></a><span data-ttu-id="5cdc5-119">充分利用 [失敗清單] 報告</span><span class="sxs-lookup"><span data-stu-id="5cdc5-119">Making the Best Use of the Failure List Report</span></span>
 
-<span data-ttu-id="8bf45-120">在 [失敗清單] 報告中，您只要將滑鼠放在該值上，就能查看每個回應代碼或每個診斷 ID 的描述。</span><span class="sxs-lookup"><span data-stu-id="8bf45-120">In the Failure List Report, you can view a description for each Response code or each Diagnostic ID simply by holding your mouse over that value.</span></span> <span data-ttu-id="8bf45-121">例如，如果您將滑鼠放在診斷 ID 7025 上，您會看到下列顯示在工具提示中：</span><span class="sxs-lookup"><span data-stu-id="8bf45-121">For example, if you hold your mouse over Diagnostic ID 7025 you'll see the following displayed in a tooltip:</span></span>
+<span data-ttu-id="5cdc5-120">在 [失敗清單] 報告中，您只要將滑鼠放在該值上，就能查看每個回應代碼或每個診斷 ID 的描述。</span><span class="sxs-lookup"><span data-stu-id="5cdc5-120">In the Failure List Report, you can view a description for each Response code or each Diagnostic ID simply by holding your mouse over that value.</span></span> <span data-ttu-id="5cdc5-121">例如，如果您將滑鼠放在診斷 ID 7025 上，您會看到下列顯示在工具提示中：</span><span class="sxs-lookup"><span data-stu-id="5cdc5-121">For example, if you hold your mouse over Diagnostic ID 7025 you'll see the following displayed in a tooltip:</span></span>
   
-<span data-ttu-id="8bf45-122">為使用者建立媒體時發生內部伺服器錯誤。</span><span class="sxs-lookup"><span data-stu-id="8bf45-122">Internal server error creating media for user.</span></span>
+<span data-ttu-id="5cdc5-122">為使用者建立媒體時發生內部伺服器錯誤。</span><span class="sxs-lookup"><span data-stu-id="5cdc5-122">Internal server error creating media for user.</span></span>
   
-<span data-ttu-id="8bf45-123">請務必注意，[失敗清單] 報告不會提供直接檢索至少參與一個失敗會話之所有使用者清單的簡單方法，也不會提供判斷哪些使用者最常參與失敗的方法。課時.</span><span class="sxs-lookup"><span data-stu-id="8bf45-123">It's important to note that the Failure List Report does not provide a straightforward way to directly retrieve a list of all the users who participated in at least one failed session, nor does it provide a way to determine which users were most-often involved in a failed session.</span></span> <span data-ttu-id="8bf45-124">（一件事，失敗清單報告沒有篩選功能）。不過，如果您匯出資料，然後將它轉換成逗號分隔值檔案，您可以使用 Windows PowerShell 來尋找問題等問題的答案。</span><span class="sxs-lookup"><span data-stu-id="8bf45-124">(For one thing, the Failure List Report has no filtering capabilities.) However, if you export the data and then convert it to a comma-separated values file, you can use Windows PowerShell to find the answers to questions like those.</span></span> <span data-ttu-id="8bf45-125">例如，假設您將資料儲存至。名為 C:\Data\ 的 CSV 檔案 Failure_List .csv。</span><span class="sxs-lookup"><span data-stu-id="8bf45-125">For example, suppose you save the data to a .CSV file named C:\Data\Failure_List.csv.</span></span> <span data-ttu-id="8bf45-126">根據儲存在該檔案中的資料，此命令會列出至少有一個失敗的會話中所涉及的所有使用者：</span><span class="sxs-lookup"><span data-stu-id="8bf45-126">Based on the data saved in that file, this command lists all the users who were involved in at least one failed session:</span></span> 
+<span data-ttu-id="5cdc5-123">請務必注意，[失敗清單] 報告不會提供直接檢索至少參與一個失敗會話之所有使用者清單的簡單方法，也不會提供判斷哪些使用者最常參與失敗的方法。課時.</span><span class="sxs-lookup"><span data-stu-id="5cdc5-123">It's important to note that the Failure List Report does not provide a straightforward way to directly retrieve a list of all the users who participated in at least one failed session, nor does it provide a way to determine which users were most-often involved in a failed session.</span></span> <span data-ttu-id="5cdc5-124">（一件事，失敗清單報告沒有篩選功能）。不過，如果您匯出資料，然後將它轉換成逗號分隔值檔案，您可以使用 Windows PowerShell 來尋找問題等問題的答案。</span><span class="sxs-lookup"><span data-stu-id="5cdc5-124">(For one thing, the Failure List Report has no filtering capabilities.) However, if you export the data and then convert it to a comma-separated values file, you can use Windows PowerShell to find the answers to questions like those.</span></span> <span data-ttu-id="5cdc5-125">例如，假設您將資料儲存至。名為 C:\Data\ 的 CSV 檔案 Failure_List .csv。</span><span class="sxs-lookup"><span data-stu-id="5cdc5-125">For example, suppose you save the data to a .CSV file named C:\Data\Failure_List.csv.</span></span> <span data-ttu-id="5cdc5-126">根據儲存在該檔案中的資料，此命令會列出至少有一個失敗的會話中所涉及的所有使用者：</span><span class="sxs-lookup"><span data-stu-id="5cdc5-126">Based on the data saved in that file, this command lists all the users who were involved in at least one failed session:</span></span> 
   
 ```PowerShell
 $failures = Import-Csv -Path " C:\Data\Failure_List.csv"
 $failure |Sort-Object "From user" | Select-Object "From user" -Unique
 ```
 
-<span data-ttu-id="8bf45-127">該命令會傳回如下所示的清單：</span><span class="sxs-lookup"><span data-stu-id="8bf45-127">That command will return a list similar to this:</span></span>
+<span data-ttu-id="5cdc5-127">該命令會傳回如下所示的清單：</span><span class="sxs-lookup"><span data-stu-id="5cdc5-127">That command will return a list similar to this:</span></span>
   
 <pre>
     From user
@@ -70,14 +72,14 @@ $failure |Sort-Object "From user" | Select-Object "From user" -Unique
     Ken.Myer@litwareinc.com
 </pre>
 
-<span data-ttu-id="8bf45-128">這兩個命令會傳回每位使用者所涉及的失敗會話總數：</span><span class="sxs-lookup"><span data-stu-id="8bf45-128">These two commands report back the total number of failed sessions that each user was involved in:</span></span>
+<span data-ttu-id="5cdc5-128">這兩個命令會傳回每位使用者所涉及的失敗會話總數：</span><span class="sxs-lookup"><span data-stu-id="5cdc5-128">These two commands report back the total number of failed sessions that each user was involved in:</span></span>
   
 ```PowerShell
 $failures = Import-Csv -Path "C:\Data\Failure_List.csv"
 $failures | Group-Object "From user" | Select-Object Count, Name | Sort-Object -Property Count -Descending
 ```
 
-<span data-ttu-id="8bf45-129">這樣會傳回如下所示的資料：</span><span class="sxs-lookup"><span data-stu-id="8bf45-129">That will return data similar to this:</span></span>
+<span data-ttu-id="5cdc5-129">這樣會傳回如下所示的資料：</span><span class="sxs-lookup"><span data-stu-id="5cdc5-129">That will return data similar to this:</span></span>
   
 <pre>
 Count    Name
@@ -89,25 +91,25 @@ Count    Name
     14    Henrik.Jensen@litwareinc.com
 </pre>
 
-## <a name="filters"></a><span data-ttu-id="8bf45-130">濾鏡</span><span class="sxs-lookup"><span data-stu-id="8bf45-130">Filters</span></span>
+## <a name="filters"></a><span data-ttu-id="5cdc5-130">濾鏡</span><span class="sxs-lookup"><span data-stu-id="5cdc5-130">Filters</span></span>
 
-<span data-ttu-id="8bf45-131">無。</span><span class="sxs-lookup"><span data-stu-id="8bf45-131">None.</span></span> <span data-ttu-id="8bf45-132">您無法篩選失敗清單報告。</span><span class="sxs-lookup"><span data-stu-id="8bf45-132">You cannot filter the Failure List Report.</span></span>
+<span data-ttu-id="5cdc5-131">無。</span><span class="sxs-lookup"><span data-stu-id="5cdc5-131">None.</span></span> <span data-ttu-id="5cdc5-132">您無法篩選失敗清單報告。</span><span class="sxs-lookup"><span data-stu-id="5cdc5-132">You cannot filter the Failure List Report.</span></span>
   
-## <a name="metrics"></a><span data-ttu-id="8bf45-133">指標</span><span class="sxs-lookup"><span data-stu-id="8bf45-133">Metrics</span></span>
+## <a name="metrics"></a><span data-ttu-id="5cdc5-133">指標</span><span class="sxs-lookup"><span data-stu-id="5cdc5-133">Metrics</span></span>
 
-<span data-ttu-id="8bf45-134">下表列出每個失敗的通話在失敗清單報告中所提供的資訊。</span><span class="sxs-lookup"><span data-stu-id="8bf45-134">The following table lists the information provided in the Failure List Report for each failed call.</span></span>
+<span data-ttu-id="5cdc5-134">下表列出每個失敗的通話在失敗清單報告中所提供的資訊。</span><span class="sxs-lookup"><span data-stu-id="5cdc5-134">The following table lists the information provided in the Failure List Report for each failed call.</span></span>
   
-<span data-ttu-id="8bf45-135">**失敗清單報告度量單位**</span><span class="sxs-lookup"><span data-stu-id="8bf45-135">**Failure List Report Metrics**</span></span>
+<span data-ttu-id="5cdc5-135">**失敗清單報告度量單位**</span><span class="sxs-lookup"><span data-stu-id="5cdc5-135">**Failure List Report Metrics**</span></span>
 
-|<span data-ttu-id="8bf45-136">**名稱**</span><span class="sxs-lookup"><span data-stu-id="8bf45-136">**Name**</span></span>|<span data-ttu-id="8bf45-137">**您可以針對此專案進行排序嗎？**</span><span class="sxs-lookup"><span data-stu-id="8bf45-137">**Can you sort on this item?**</span></span>|<span data-ttu-id="8bf45-138">**描述**</span><span class="sxs-lookup"><span data-stu-id="8bf45-138">**Description**</span></span>|
+|<span data-ttu-id="5cdc5-136">**名稱**</span><span class="sxs-lookup"><span data-stu-id="5cdc5-136">**Name**</span></span>|<span data-ttu-id="5cdc5-137">**您可以針對此專案進行排序嗎？**</span><span class="sxs-lookup"><span data-stu-id="5cdc5-137">**Can you sort on this item?**</span></span>|<span data-ttu-id="5cdc5-138">**說明**</span><span class="sxs-lookup"><span data-stu-id="5cdc5-138">**Description**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="8bf45-139">**報告時間**</span><span class="sxs-lookup"><span data-stu-id="8bf45-139">**Reported time**</span></span> <br/> |<span data-ttu-id="8bf45-140">否</span><span class="sxs-lookup"><span data-stu-id="8bf45-140">No</span></span>  <br/> |<span data-ttu-id="8bf45-141">記錄報告的日期和時間。</span><span class="sxs-lookup"><span data-stu-id="8bf45-141">Date and time the report was recorded.</span></span>  <br/> |
-|<span data-ttu-id="8bf45-142">**徵求**</span><span class="sxs-lookup"><span data-stu-id="8bf45-142">**Request**</span></span> <br/> |<span data-ttu-id="8bf45-143">否</span><span class="sxs-lookup"><span data-stu-id="8bf45-143">No</span></span>  <br/> |<span data-ttu-id="8bf45-144">失敗的 SIP 要求類型。</span><span class="sxs-lookup"><span data-stu-id="8bf45-144">SIP request type that failed.</span></span> <span data-ttu-id="8bf45-145">例如，[邀請] 或 [再見]。</span><span class="sxs-lookup"><span data-stu-id="8bf45-145">For example, INVITE or BYE.</span></span>  <br/> |
-|<span data-ttu-id="8bf45-146">**回應代碼**</span><span class="sxs-lookup"><span data-stu-id="8bf45-146">**Response code**</span></span> <br/> |<span data-ttu-id="8bf45-147">否</span><span class="sxs-lookup"><span data-stu-id="8bf45-147">No</span></span>  <br/> |<span data-ttu-id="8bf45-148">在會議失敗時傳送 SIP 回應代碼。</span><span class="sxs-lookup"><span data-stu-id="8bf45-148">SIP response code sent when the conference failed.</span></span>  <br/> |
-|<span data-ttu-id="8bf45-149">**診斷識別碼**</span><span class="sxs-lookup"><span data-stu-id="8bf45-149">**Diagnostic ID**</span></span> <br/> |<span data-ttu-id="8bf45-150">否</span><span class="sxs-lookup"><span data-stu-id="8bf45-150">No</span></span>  <br/> |<span data-ttu-id="8bf45-151">附加至 SIP 訊息的唯一識別碼（ms diagnostics 標頭形式），通常可在疑難排解錯誤中提供有用的資訊。</span><span class="sxs-lookup"><span data-stu-id="8bf45-151">Unique identifier (in the form of an ms-diagnostics header) attached to a SIP message that often provides information useful in troubleshooting errors.</span></span>  <br/> |
-|<span data-ttu-id="8bf45-152">**加入成本時間（毫秒）**</span><span class="sxs-lookup"><span data-stu-id="8bf45-152">**Join cost time (ms)**</span></span> <br/> |<span data-ttu-id="8bf45-153">否</span><span class="sxs-lookup"><span data-stu-id="8bf45-153">No</span></span>  <br/> |<span data-ttu-id="8bf45-154">使用者加入會議所需的時間長度（以毫秒為單位）。</span><span class="sxs-lookup"><span data-stu-id="8bf45-154">Amount of time (in milliseconds) required for the user to join the conference.</span></span>  <br/> |
-|<span data-ttu-id="8bf45-155">**從使用者**</span><span class="sxs-lookup"><span data-stu-id="8bf45-155">**From user**</span></span> <br/> |<span data-ttu-id="8bf45-156">否</span><span class="sxs-lookup"><span data-stu-id="8bf45-156">No</span></span>  <br/> |<span data-ttu-id="8bf45-157">啟動通話的使用者的 SIP 位址。</span><span class="sxs-lookup"><span data-stu-id="8bf45-157">SIP address of the user who initiated the call.</span></span>  <br/> |
-|<span data-ttu-id="8bf45-158">**從使用者代理程式**</span><span class="sxs-lookup"><span data-stu-id="8bf45-158">**From user agent**</span></span> <br/> |<span data-ttu-id="8bf45-159">否</span><span class="sxs-lookup"><span data-stu-id="8bf45-159">No</span></span>  <br/> |<span data-ttu-id="8bf45-160">啟動通話之使用者的端點所使用的軟體。</span><span class="sxs-lookup"><span data-stu-id="8bf45-160">Software used by the endpoint of the user who initiated the call.</span></span>  <br/> |
-|<span data-ttu-id="8bf45-161">**給使用者**</span><span class="sxs-lookup"><span data-stu-id="8bf45-161">**To user**</span></span> <br/> |<span data-ttu-id="8bf45-162">否</span><span class="sxs-lookup"><span data-stu-id="8bf45-162">No</span></span>  <br/> |<span data-ttu-id="8bf45-163">呼叫的使用者的 SIP 位址。</span><span class="sxs-lookup"><span data-stu-id="8bf45-163">SIP address of the user who was being called.</span></span>  <br/> |
+|<span data-ttu-id="5cdc5-139">**報告時間**</span><span class="sxs-lookup"><span data-stu-id="5cdc5-139">**Reported time**</span></span> <br/> |<span data-ttu-id="5cdc5-140">否</span><span class="sxs-lookup"><span data-stu-id="5cdc5-140">No</span></span>  <br/> |<span data-ttu-id="5cdc5-141">記錄報告的日期和時間。</span><span class="sxs-lookup"><span data-stu-id="5cdc5-141">Date and time the report was recorded.</span></span>  <br/> |
+|<span data-ttu-id="5cdc5-142">**徵求**</span><span class="sxs-lookup"><span data-stu-id="5cdc5-142">**Request**</span></span> <br/> |<span data-ttu-id="5cdc5-143">否</span><span class="sxs-lookup"><span data-stu-id="5cdc5-143">No</span></span>  <br/> |<span data-ttu-id="5cdc5-144">失敗的 SIP 要求類型。</span><span class="sxs-lookup"><span data-stu-id="5cdc5-144">SIP request type that failed.</span></span> <span data-ttu-id="5cdc5-145">例如，[邀請] 或 [再見]。</span><span class="sxs-lookup"><span data-stu-id="5cdc5-145">For example, INVITE or BYE.</span></span>  <br/> |
+|<span data-ttu-id="5cdc5-146">**回應代碼**</span><span class="sxs-lookup"><span data-stu-id="5cdc5-146">**Response code**</span></span> <br/> |<span data-ttu-id="5cdc5-147">否</span><span class="sxs-lookup"><span data-stu-id="5cdc5-147">No</span></span>  <br/> |<span data-ttu-id="5cdc5-148">在會議失敗時傳送 SIP 回應代碼。</span><span class="sxs-lookup"><span data-stu-id="5cdc5-148">SIP response code sent when the conference failed.</span></span>  <br/> |
+|<span data-ttu-id="5cdc5-149">**診斷識別碼**</span><span class="sxs-lookup"><span data-stu-id="5cdc5-149">**Diagnostic ID**</span></span> <br/> |<span data-ttu-id="5cdc5-150">否</span><span class="sxs-lookup"><span data-stu-id="5cdc5-150">No</span></span>  <br/> |<span data-ttu-id="5cdc5-151">附加至 SIP 訊息的唯一識別碼（ms diagnostics 標頭形式），通常可在疑難排解錯誤中提供有用的資訊。</span><span class="sxs-lookup"><span data-stu-id="5cdc5-151">Unique identifier (in the form of an ms-diagnostics header) attached to a SIP message that often provides information useful in troubleshooting errors.</span></span>  <br/> |
+|<span data-ttu-id="5cdc5-152">**加入成本時間（毫秒）**</span><span class="sxs-lookup"><span data-stu-id="5cdc5-152">**Join cost time (ms)**</span></span> <br/> |<span data-ttu-id="5cdc5-153">否</span><span class="sxs-lookup"><span data-stu-id="5cdc5-153">No</span></span>  <br/> |<span data-ttu-id="5cdc5-154">使用者加入會議所需的時間長度（以毫秒為單位）。</span><span class="sxs-lookup"><span data-stu-id="5cdc5-154">Amount of time (in milliseconds) required for the user to join the conference.</span></span>  <br/> |
+|<span data-ttu-id="5cdc5-155">**從使用者**</span><span class="sxs-lookup"><span data-stu-id="5cdc5-155">**From user**</span></span> <br/> |<span data-ttu-id="5cdc5-156">否</span><span class="sxs-lookup"><span data-stu-id="5cdc5-156">No</span></span>  <br/> |<span data-ttu-id="5cdc5-157">啟動通話的使用者的 SIP 位址。</span><span class="sxs-lookup"><span data-stu-id="5cdc5-157">SIP address of the user who initiated the call.</span></span>  <br/> |
+|<span data-ttu-id="5cdc5-158">**從使用者代理程式**</span><span class="sxs-lookup"><span data-stu-id="5cdc5-158">**From user agent**</span></span> <br/> |<span data-ttu-id="5cdc5-159">否</span><span class="sxs-lookup"><span data-stu-id="5cdc5-159">No</span></span>  <br/> |<span data-ttu-id="5cdc5-160">啟動通話之使用者的端點所使用的軟體。</span><span class="sxs-lookup"><span data-stu-id="5cdc5-160">Software used by the endpoint of the user who initiated the call.</span></span>  <br/> |
+|<span data-ttu-id="5cdc5-161">**給使用者**</span><span class="sxs-lookup"><span data-stu-id="5cdc5-161">**To user**</span></span> <br/> |<span data-ttu-id="5cdc5-162">否</span><span class="sxs-lookup"><span data-stu-id="5cdc5-162">No</span></span>  <br/> |<span data-ttu-id="5cdc5-163">呼叫的使用者的 SIP 位址。</span><span class="sxs-lookup"><span data-stu-id="5cdc5-163">SIP address of the user who was being called.</span></span>  <br/> |
    
 
