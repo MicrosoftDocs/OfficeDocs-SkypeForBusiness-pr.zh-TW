@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 將撥入存取號碼移植到商務用 Skype Server 2019 需要執行 CsApplicationEndpoint Cmdlet 來遷移連絡人物件。 在舊版安裝與商務用 Skype Server 2019 的共存期間，您在商務用 Skype Server 2019 中建立的撥入存取號碼與您在舊版安裝中建立的撥入存取號碼類似，如以下所述。頂部.
-ms.openlocfilehash: 35c1e665f8affdbf84628f9a7d532405779648f0
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 5333cc7cb835fc6bf324de9ab12a868f95b72972
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991138"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813501"
 ---
 # <a name="migrate-dial-in-access-numbers"></a>移轉撥入存取號碼
 

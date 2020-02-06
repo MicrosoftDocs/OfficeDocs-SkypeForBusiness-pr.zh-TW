@@ -8,18 +8,20 @@ ms.date: 2/15/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 6eacfa99-9759-4c13-aca3-8992c2ff2710
 description: 瞭解如何在 Office 365 （雲端 PBX）中，準備您的雲端連接器裝置以進行部署與手機系統搭配使用。
-ms.openlocfilehash: 779cb53dd19d627d8864da65e3e41f5d6dabee99
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 6e6cb71353dc2a2339fe92ce45d0cd3dee9f21a1
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41001943"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41814431"
 ---
 # <a name="prepare-your-cloud-connector-appliance"></a>準備 Cloud Connector 設備
 

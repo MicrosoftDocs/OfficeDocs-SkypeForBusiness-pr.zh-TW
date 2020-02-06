@@ -8,17 +8,19 @@ ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.SelectDeniedMembers
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c626b6b4-15f3-4a59-bb1d-55dc8c60f5cb
 description: 持續聊天系統管理員可以建立及管理聊天室類別。 在建立及管理聊天室類別的過程中，持續性聊天管理員可以設定主體（Active Directory 網域服務群組/容器/使用者），這些使用者有權存取成為特定類別之聊天室的成員/提供者。 持續聊天管理員也可以將 DeniedMembers 新增至某個類別，並將它們變成 [允許] 清單的明確排除式。 DeniedMembers 會覆寫 AllowedMembers 中的內容。
-ms.openlocfilehash: c8b357abe49d794283b7165d9c5decdffaece275
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 9b1ed2201849b2953dc65430b7821dab32ef293f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41685878"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41822246"
 ---
 # <a name="select-denied-members"></a>選取拒絕的成員
 

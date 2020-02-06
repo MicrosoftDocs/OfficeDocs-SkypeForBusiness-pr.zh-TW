@@ -8,17 +8,19 @@ ms.date: 4/14/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.AssociateBranchOfficeApplianceWithEdgePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3f02e4bd-f86f-4a84-9c04-28d2a53b10b1
 description: 如果您已部署邊緣伺服器且必須提供供外部使用的媒體服務，請選擇下拉式清單中要與 Survivable 分支裝置或 Survivable 分支伺服器關聯的邊緣伺服器或池。 請按 [下一步] 繼續。
-ms.openlocfilehash: f1623071d5a35812a069e10a43452ba5ebb440f9
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: ae187a7a501d2d5e658a4aa0ab95a3d2ce48d79d
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41697838"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41820445"
 ---
 # <a name="associate-branch-office-appliance-with-edge"></a>建立 Branch Office Appliance 與 Edge 的關聯
  

@@ -8,17 +8,19 @@ ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.PersistentChatPolicyMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0dc18d5c-82d6-4d39-afb1-efdb3ae6d2c7
 description: 您可以使用 [常設聊天室] 群組的 [常設聊天室原則] 頁面來管理全域、集區、網站或使用者層級的原則，包括為部署設定預設全域原則，以及建立一個或多個其他使用者和站台原則。 如果使用者依原則啟用持久聊天伺服器，則持續聊天伺服器環境會出現在其用戶端中。
-ms.openlocfilehash: cf7a534a13b1bccf98fcae1929c17494a0a5a138
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 053e7fb4f03f7e152a238a3b155eac161433c141
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41699908"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41822516"
 ---
 # <a name="persistent-chat-policy-main-page"></a>常設聊天室原則主要頁面
  

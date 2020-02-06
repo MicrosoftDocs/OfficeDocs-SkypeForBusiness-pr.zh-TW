@@ -7,14 +7,16 @@ manager: serdars
 audience: End User
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 當使用者按一下會議邀請中的會議連結時，[會議加入] 頁面會偵測使用者電腦上已安裝的用戶端。 如果已安裝用戶端，該用戶端會開啟並加入會議。 如果沒有安裝用戶端，則預設會開啟 Web 應用程式。
-ms.openlocfilehash: 5c9e6653783d90411e0f701b5d3395c569d8bdff
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 35b8b816d5c01f3061dc697cf7f37a4314a5f083
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40989558"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813791"
 ---
 # <a name="configure-the-meeting-join-page"></a>設定會議加入頁面
 
@@ -24,7 +26,7 @@ ms.locfileid: "40989558"
   
 **會議加入頁面 CsWebServiceConfiguration 參數**
 
-|**CsWebServiceConfiguration 參數**|**描述**|
+|**CsWebServiceConfiguration 參數**|**說明**|
 |:-----|:-----|
 |ShowJoinUsingLegacyClientLink  <br/> |如果設為 True，則使用者使用 Lync 以外的用戶端應用程式加入會議時，系統會提供加入會議的機會。 預設值為 False。  <br/> |
 |ShowAlternateJoinOptionsExpanded  <br/> |當設定為 True 時，加入線上會議的替代選項會自動展開並向使用者顯示。 當設定為 False （預設值）時，將會提供這些選項，但使用者將必須針對自己顯示選項清單。  <br/> |

@@ -8,17 +8,19 @@ ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.dep.DeployCertRequestCA
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a609f1b0-ae13-44ca-a467-b7fb14ff18a1
 description: 在 [選擇憑證授權單位 (CA)] 頁面上向線上憑證授權單位 (CA) (通常是您內部網路上的伺服器) 提出憑證申請時，您會看到兩個選項：
-ms.openlocfilehash: 6cd2eb648897adc4c6d627f8c97659ce3b13ea4e
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: b70daa9a4b9a212d770176b652e3ac70b7149c4e
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41687806"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41823887"
 ---
 # <a name="certificate-request-certificate-authority"></a>憑證要求 (憑證授權單位)
  

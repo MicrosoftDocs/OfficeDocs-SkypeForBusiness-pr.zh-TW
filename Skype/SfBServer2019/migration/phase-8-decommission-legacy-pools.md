@@ -7,24 +7,26 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.custom: httpsfix
-description: 下列主題提供更新 DNS 專案、移動內容管理伺服器、解除授權池以及停用與從舊版部署移除伺服器和池的指導方針。 並非本節所列的所有程式都是必要的。 閱讀檔, 並判斷要使用的解除授權程式。
-ms.openlocfilehash: 5edad470bcd7bcf0340a311a890f73ef01645138
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 下列主題提供更新 DNS 專案、移動內容管理伺服器、解除授權池以及停用與從舊版部署移除伺服器和池的指導方針。 並非本節所列的所有程式都是必要的。 閱讀檔，並判斷要使用的解除授權程式。
+ms.openlocfilehash: 2398e9ce681edc2bba9f4f93d54f39d727bdb75e
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237281"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813101"
 ---
-# <a name="phase-8-decommission-legacy-pools"></a>階段 8: 解除授權舊版池
+# <a name="phase-8-decommission-legacy-pools"></a>階段 8：解除委任舊版集區
 
-下列主題提供更新 DNS 專案、移動內容管理伺服器、解除授權池以及停用與從舊版部署移除伺服器和池的指導方針。 並非本節所列的所有程式都是必要的。 閱讀檔, 並判斷要使用的解除授權程式。 
+下列主題提供更新 DNS 專案、移動內容管理伺服器、解除授權池以及停用與從舊版部署移除伺服器和池的指導方針。 並非本節所列的所有程式都是必要的。 閱讀檔，並判斷要使用的解除授權程式。 
   
-有關移除伺服器和伺服器角色的已過期但已詳盡的文章, 以及如何解除部署的相關逐步指南, 請下載[卸載 Microsoft Lync server 並移除伺服器角色](https://go.microsoft.com/fwlink/p/?linkId=246227)。 
+有關移除伺服器和伺服器角色的已過期但已詳盡的文章，以及如何解除部署的相關逐步指南，請下載[卸載 Microsoft Lync server 並移除伺服器角色](https://go.microsoft.com/fwlink/p/?linkId=246227)。 
   
 > [!IMPORTANT]
-> 如需遷移和升級 Microsoft 整合通訊管理 API (UCMA) 應用程式的相關資訊, 請參閱解除舊版環境的相關資訊[: 共存、遷移和升級案例](https://go.microsoft.com/fwlink/p/?LinkId=269555)。
+> 如需遷移和升級 Microsoft 整合通訊管理 API （UCMA）應用程式的相關資訊，請參閱解除舊版環境的相關資訊[：共存、遷移和升級案例](https://go.microsoft.com/fwlink/p/?LinkId=269555)。
   
 ## <a name="in-this-section"></a>本節內容
 
@@ -34,12 +36,12 @@ ms.locfileid: "36237281"
 > 
 > [移動會議目錄](move-conference-directories.md)
 > 
-> [移除存檔伺服器關聯](remove-the-archiving-server-association.md)
+> [移除封存伺服器關聯](remove-the-archiving-server-association.md)
 > 
-> [移除監視伺服器關聯](remove-the-monitoring-server-association.md)
+> [移除監控伺服器關聯](remove-the-monitoring-server-association.md)
 > 
 > [移除企業版前端伺服器或標準版前端伺服器](remove-the-front-end-server.md)
 > 
-> [移除後端伺服器上的 SQL Server 實例和資料庫](remove-sql-server-instances-and-databases-on-the-back-end-server.md)
+> [移除後端伺服器上的 SQL Server 執行個體與資料庫](remove-sql-server-instances-and-databases-on-the-back-end-server.md)
     
 

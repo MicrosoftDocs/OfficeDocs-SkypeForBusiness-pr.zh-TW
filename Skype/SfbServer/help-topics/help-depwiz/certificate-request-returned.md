@@ -8,17 +8,19 @@ ms.date: 4/1/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.dep.DeployCertRequestReturned
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4ada9045-0fdf-4470-8574-2fa08bab9392
 description: '[線上憑證要求狀態] 頁面提供成功建立併發出線上憑證要求所產生的重要資訊。 此頁面提供可唯一識別憑證的憑證指紋。 根據預設，會選取 [將此憑證指派給商務用 Skype Server 認證用途] 核取方塊。 如果您按一下 [完成]，就會自動將憑證指派給 Lync Server 2013，目的是您在證書要求的建立步驟期間定義的用途。 根據預設，會指派證書的目的為：'
-ms.openlocfilehash: 885de54ec8deeef1d326e39b5a35e7b08c633973
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 7b4ee3d615de0d0d58e041ba1860cc1cd2d34219
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41687746"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41823807"
 ---
 # <a name="certificate-request-returned"></a>憑證要求 (已傳回)
  

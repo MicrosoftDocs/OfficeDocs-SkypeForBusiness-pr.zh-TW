@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 您可以使用商務用 Skype Server 2019 控制台或商務用 Skype Server 2019 管理命令介面，從舊版池中將使用者移至您的商務用 skype Server 2019 試用版文件庫。 在下列範例中，在 [註冊機構池] 欄中，pool01.contoso.net 是舊版池，且所有六個使用者都已連線到此池。 使用下列程式將使用者移至商務用 Skype 2019 Server 2019 的 [商務用 Skype] 伺服器的 [控制台] 和 [商務用 Skype 伺服器管理] 命令介面。
-ms.openlocfilehash: 8964dd3dc868c22cd14389ba70b88d32b6bd145a
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: cc8c657b5e8d9cea760472c80da28bad4cf21f2e
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40988958"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813301"
 ---
 # <a name="move-a-single-user-to-the-pilot-pool"></a>將單一使用者移至 [試驗] 池
 

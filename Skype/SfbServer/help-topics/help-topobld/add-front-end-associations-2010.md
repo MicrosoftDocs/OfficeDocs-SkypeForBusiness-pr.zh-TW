@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.AddFrontEndAssociationsPage2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a01dff6c-50cc-463d-ac08-9f22e044bdc8
 description: 您可以將伺服器角色與前端池建立關聯，以啟用需要部署其他伺服器的特定功能支援。 您也可以稍後再將伺服器角色與前端集區關聯。 以下是可以和前端集區關聯的伺服器角色：
-ms.openlocfilehash: 7eaa29c4902516b92b4700065967edf97e725d0d
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: fd0bf53f21cf8de35bbdd6c707f3bdd51e3b6049
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41685186"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41820915"
 ---
 # <a name="add-front-end-associations-2010"></a>新增前端關聯 2010
 

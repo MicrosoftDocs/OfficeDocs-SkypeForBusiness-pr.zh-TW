@@ -8,17 +8,19 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.AddEdgeServerPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9bd9c2b2-8329-4b31-a937-e462f5cc7293
 description: 若要將 Edge Server 或 Edge Server 集區納入拓撲設計，您必須為要部署 Edge Server 或 Edge Server 集區的伺服器指定完整網域名稱 (FQDN)。 在發佈包括 Edge 伺服器或 Edge 伺服器池以及安裝商務用 Skype Server 的拓撲之前，您應該已完成部署外部使用者存取的所有先決條件。 如需這些必要條件的詳細資訊，請參閱部署文件中的〈Preparing for Installation of Servers in the Perimeter Network〉。
-ms.openlocfilehash: 3433f5dac67d0e02fb8e8552e205092a51082cc6
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 1f8b5c71e0e857db285c9f272ceb8873492f54ed
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41698338"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41820945"
 ---
 # <a name="add-edge-server"></a>新增 Edge Server
 

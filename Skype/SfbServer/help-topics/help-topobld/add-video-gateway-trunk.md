@@ -8,17 +8,19 @@ ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.AddVideoGatewayTrunkPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9485bea9-c646-4eb7-b3d0-dcbc57cdfbda
 description: 在 [拓撲建立器] 中定義新的 VIS 或視頻閘道所需的步驟，請參閱在商務用 Skype Server 2015 中建立 VIS 池子的線上說明。
-ms.openlocfilehash: cda9c6366a5f5b16e21bc8a4fd56342978e0b13b
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: c421c53736cc5486d749cdc2f16ca5a1d19edd3c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41684996"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41820535"
 ---
 # <a name="add-video-gateway-trunk"></a>新增視訊閘道主幹
  

@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.VoiceTrunkCallingRuleEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2b6493f1-1be5-45b4-841a-09425cb302e1
 description: 您可以使用新的幹線設定：新的電話號碼轉換規則，以建立新的翻譯規則。 如需轉譯規則的詳細資訊，請參閱下列主題：
-ms.openlocfilehash: 29ca0e48ca77469961e016c43b05b58c3ab3b05d
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: b0cf251459971d4d6f192630444b188be6effb69
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41686248"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41822606"
 ---
 # <a name="new-calling-number-translation-rule"></a>新增來電號碼轉譯規則
 

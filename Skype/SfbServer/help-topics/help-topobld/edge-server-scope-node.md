@@ -8,17 +8,19 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.EdgeServerScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3f597f6f-c55c-4290-a1cf-3efcc0adfb99
 description: 此節點顯示集區的完整網域名稱 (FQDN) 與此 Edge 集區的其他基本設定。您可以執行下列動作：
-ms.openlocfilehash: ae1c6af147934898f636f6afbd206911008f9872
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: d96f3ee328ae60b95ad1bbdca2a9d1b517a5357c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41684746"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41820035"
 ---
 # <a name="edge-server-scope-node"></a>Edge Server 範圍節點
  

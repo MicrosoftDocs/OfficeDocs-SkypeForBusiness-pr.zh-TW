@@ -8,17 +8,19 @@ ms.date: 3/23/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.ClientDeviceTestMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a1ea564c-f403-4f61-a36b-5a429708e7ca
 description: 您可以將測試裝置新增至「測試裝置」頁面，然後先使用此裝置來確認新更新的功能，再將更新部署至生產裝置。 您可以在全域 (在整個環境中) 測試裝置，或在單一網站內測試裝置。 您是以裝置的媒體存取控制 (MAC) 位址或序號來識別測試裝置。 當您新增裝置時，它會出現在商務用 Skype Server [控制台] 的 [測試裝置] 頁面上的清單中。
-ms.openlocfilehash: f60cf047c1a6ecf902283920de9513e1a51c1acc
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: ea6d0e74bf72a8887b3c6cd0f9c46e503af316fe
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41685756"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41822045"
 ---
 # <a name="test-device"></a>測試裝置
 

@@ -8,17 +8,19 @@ ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.MonArchSettingEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49096960-c442-4846-be8f-03c167acea41
 description: 您可以使用封存組態控制部署的封存選項。封存組態除了包含全域組態之外，也可能包含一或多個站台組態與集區組態：
-ms.openlocfilehash: 8b860e2a2604f013dbb4b3dcccedc39602ae29f1
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: af8819d44fb510a0addb460dc98b4d18bdbfd88c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41700598"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41823216"
 ---
 # <a name="archiving-configuration-create-new-or-edit-existing"></a>封存組態：建立新的或編輯現有
  

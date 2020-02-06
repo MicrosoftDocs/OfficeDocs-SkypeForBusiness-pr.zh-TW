@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.AddAvMcuPoolPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e201875e-1e81-4756-942f-c17d177e997b
 description: 沒有 collocated A/V 會議服務的中央網站所有企業版前端伺服器都可以使用相同的獨立 A/V 會議池。 針對每個 A/V 會議池，您必須指定該池的完整功能變數名稱（FQDN），以及它將只具有單一 A/V 會議伺服器或多個負載平衡的 A/V 會議伺服器。
-ms.openlocfilehash: cf34ca6b82f31b0232748d15f0b0cc6597511249
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 1d78a9d24659ec2ad571c01528323796e7ae5d18
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41685386"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41821315"
 ---
 # <a name="add-av-mcu-pool"></a>新增 A/V MCU 集區
  

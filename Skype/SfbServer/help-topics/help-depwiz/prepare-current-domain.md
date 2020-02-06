@@ -8,17 +8,19 @@ ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.dep.DeployMainDomainPrep
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bfcb37ca-34eb-4d0d-9694-6edd2e7fe0f3
 description: 若要準備網域以主持運行商務用 Skype Server 2015 或商務用 Skype Server 使用者的伺服器，您必須完成步驟5：準備目前的網域，如使用安裝程式執行網域準備主題中所述。 若要完成此步驟，您必須以目前準備之網域中的 Domain Admins 群組成員身分，或網域所屬之樹系的 Enterprise Admins 群組成員身分登入。 若要準備網域，請執行下列操作：
-ms.openlocfilehash: 58ff8ff515d171f7d0d1b0c2fb7d653e25c3ad31
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 2f3563c9a1c857e9d4828ca63cf2cb675f524e56
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41687406"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41823547"
 ---
 # <a name="prepare-current-domain"></a>準備目前的網域
 

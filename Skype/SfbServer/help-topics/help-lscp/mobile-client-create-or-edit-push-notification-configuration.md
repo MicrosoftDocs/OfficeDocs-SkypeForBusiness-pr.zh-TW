@@ -8,17 +8,19 @@ ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.ClientPushNotificationCfgEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fb39af60-c999-42fb-9538-0bd87098f508
 description: 「推播通知」及「推播通知結算所」(PNCH) 是行動功能的兩個主要部分。推播通知是將訊息傳送至 PNCH 的程序。在訊息送達行動用戶端或超過逾時期限之前，都會保留在這裡。
-ms.openlocfilehash: c4a149588abd9e741ae934d73ec23ad2355e772c
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: ca302e0dbdde2c1628abc6c0257ee807f6f152a8
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41686286"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41822666"
 ---
 # <a name="mobile-client-create-or-edit-push-notification-configuration"></a>行動用戶端：建立或編輯推播通知設定
  

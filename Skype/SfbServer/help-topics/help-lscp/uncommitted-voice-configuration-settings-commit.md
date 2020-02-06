@@ -8,17 +8,19 @@ ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.VoiceViewSumCommit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb51f2ef-0235-4b77-8b2c-e2b0d3ff3608
 description: 使用 [未認可的語音組態設定] 對話方塊，檢閱您所做的所有變更。 捲動對話方塊，檢閱所有未認可的變更，或是按一下箭頭展開或收合不同的區段。 完成時，按一下 [認可] 以認可所有變更，或是按一下 [取消] 返回並修改您的變更。
-ms.openlocfilehash: 0582f85168b70e239a9ac43a4a0e73b3e07cff14
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: d6c1f92e32127b1c491f54e3c781467c5ac77304
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41685656"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41821885"
 ---
 # <a name="uncommitted-voice-configuration-settings-commit"></a>未認可的語音組態設定：認可
  

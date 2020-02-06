@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.RgsGroupMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b8bd4c3f-3d32-42b2-9712-2d0f159577d8
 description: 回應群組由代理群組、佇列和工作流程所組成。 [代理程式群組] 是指派給回應群組通話的一組人員。
-ms.openlocfilehash: f8049d172b0ee58a87d74a5fa406dd6498d3a12a
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: cda04ebe55c24405e3034b8c813a771f82d3115e
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41685986"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41822386"
 ---
 # <a name="response-groups-group"></a>回應群組：群組
 

@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.dep.DeployAIOInvoke
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5da0aa73-8bf8-41f3-81e7-94f955cda541
 description: 在 [執行命令] 頁面上，安裝 SQL Server Express 和設定來充當中央管理儲存區的工作，可以在工作窗格中查看。 根據預設，會建立名稱為「RTC」的 SQL Server 資料庫實例。 您也可以建立防火牆規則，以允許伺服器和用戶端與資料庫和實例進行通訊的入站和輸出存取。 工作完成後，您可以從下拉式清單中選取記錄檔。 記錄檔稱為 [引導本機電腦]。 選取記錄檔後，按一下 [查看記錄]。 檢查記錄檔，查看是否有任何錯誤和警告。 當您準備好要繼續時，請按一下 [完成]。 您現在應該使用拓撲建立器定義拓撲（如果您尚未這麼做）。
-ms.openlocfilehash: 729bdacffff09876272e45a34377ced950e88ebf
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 16cc6ada75ae90da4da2cb269aed26adbf472a33
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41700808"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41823437"
 ---
 # <a name="prepare-single-standard-edition-server-invoke"></a>準備單一 Standard Edition Server (叫用)
  

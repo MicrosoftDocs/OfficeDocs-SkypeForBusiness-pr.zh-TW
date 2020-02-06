@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.EdgeMachineSettingsExpander2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fb72a5b5-70f4-44af-8dfd-c5d32e563882
 description: 若要將 Edge 伺服器電腦的屬性編輯為單一邊緣伺服器或邊緣池中的成員電腦，請設定伺服器名稱和 IP 位址設定設定：
-ms.openlocfilehash: 411e870a874366754d17d0601ed1f216ce18899a
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: b90a3a00dcb1198e696112fc3d3ded08ff00060d
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41684776"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41820095"
 ---
 # <a name="edge-machine-settings-expander-for-lync-server-2010"></a>Edge 電腦設定展開工具 (適用於 Lync Server 2010)
  

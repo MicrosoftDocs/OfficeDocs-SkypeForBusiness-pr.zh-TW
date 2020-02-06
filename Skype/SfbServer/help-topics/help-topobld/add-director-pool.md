@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.AddDirectorPoolPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 751ead48-b97f-4c6f-ba6b-14d446473658
 description: 若要定義控制器池 FQDN，請選取多個電腦池，其中包含負載平衡池中的兩個或多個控制器，或是單一電腦池。 您也必須輸入要用來連線到主管池或單一控制器 FQDN 的完整功能變數名稱（FQDN）。 對於控制器電腦池，這會是硬體負載平衡器之虛擬 IP 的網域名稱系統（DNS）專案，或是 DNS 負載平衡的共用 DNS 專案。
-ms.openlocfilehash: 150975cedf09c19acac1afffab25f5becf053fe3
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 1a419c6a27118cbdf7ffe841a39b9b60e6e84577
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41698568"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41821185"
 ---
 # <a name="add-director-pool"></a>新增 Director 集區
  

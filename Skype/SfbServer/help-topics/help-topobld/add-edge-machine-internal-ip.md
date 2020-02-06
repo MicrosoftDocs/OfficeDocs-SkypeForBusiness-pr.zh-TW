@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.AddEdgeMachineInternalIpPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 34717d03-5ece-4be3-9d05-25497250dc16
 description: 使用此頁面來指定邊緣伺服器的內部 IP 位址與內部完整功能變數名稱（FQDN）。
-ms.openlocfilehash: b26e86391dca65665c368ab5ce7f0f9eb36d4940
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 0b7b9117734b621b9fd15fd116eb3520ebf963fe
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41698508"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41821125"
 ---
 # <a name="add-edge-machine-internal-ip"></a>新增 Edge 電腦內部 IP
 

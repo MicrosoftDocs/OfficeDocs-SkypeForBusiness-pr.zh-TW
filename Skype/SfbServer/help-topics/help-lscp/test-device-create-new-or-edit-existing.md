@@ -8,17 +8,19 @@ ms.date: 3/23/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.ClientDeviceTestEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8f9125dd-04b3-4a6d-9f41-4f19ddaf7a2d
 description: 測試裝置功能與裝置更新功能要一起搭配使用。 您可以將測試裝置新增至「測試裝置」頁面，然後先使用此裝置來確認新更新的功能，再將更新部署至生產裝置。 您可以在全域 (在整個環境中) 測試裝置，或在單一網站內測試裝置。 您是以裝置的媒體存取控制 (MAC) 位址或序號來識別測試裝置。 當您新增裝置時，它會出現在商務用 Skype Server [控制台] 的 [測試裝置] 頁面上的清單中。
-ms.openlocfilehash: 56f5c7b43f55f50c5fa5e73cade3f74bea752778
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: e34a70091e4558db4c2e201f86c9aa81d50f3dda
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41699460"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41822055"
 ---
 # <a name="test-device-create-new-or-edit-existing"></a>測試裝置：建立新的或編輯現有
 

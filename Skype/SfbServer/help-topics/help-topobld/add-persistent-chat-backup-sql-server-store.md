@@ -8,17 +8,19 @@ ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.AddPersistentChatBackupSqlStorePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 106698e4-ce73-4a34-8fc7-e9d3208a17dc
 description: 您可以設定備份 SQL Server 存放區，以提供持久聊天伺服器或持久聊天伺服器池的備份資料庫。
-ms.openlocfilehash: 05baf1760b1f7a4f8c30d964b55811d56a2830a8
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 0f8fe19d95adff9e2ac538600f3dcf5153c25afd
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41698078"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41820705"
 ---
 # <a name="add-persistent-chat-backup-sql-server-store"></a>新增常設聊天室備份 SQL Server 儲存區
  

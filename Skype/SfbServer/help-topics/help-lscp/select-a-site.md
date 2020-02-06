@@ -8,17 +8,19 @@ ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.SelectSite
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 09472310-a40f-4360-b6f1-1a9ac8888965
 description: 使用 [選取站台] 對話方塊，尋找環境中可用的網站。 若要使用現有的網站，請按一下清單中的網站，再按一下 [確定]。
-ms.openlocfilehash: 8ca8b8df7564dc491a0160786868014a5713a7bb
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: d12c515318de901d3104a545791c04303163b69b
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41699718"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41822316"
 ---
 # <a name="select-a-site"></a>選取網站
 

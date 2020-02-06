@@ -8,17 +8,19 @@ ms.date: 4/13/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.dep.DeployMainInstallReplica
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d9c4bcc2-11a7-4d4d-858d-224db217ad32
 description: 若要開始安裝新的商務用 Skype Server 2015 角色服務器，您必須先安裝將裝載本機配置存放區的本機 SQL 伺服器。 本機配置存儲將充當商務用 Skype Server 中央管理商店（CMS）的唯讀複本。 您必須以電腦的本機系統管理員身分登入伺服器 (您在伺服器上執行「安裝本機設定存放區」步驟)，並具備 RTCUniversalServerAdmins 或 RTCUniversalGlobalReadOnlyGroup 群組的成員資格。 若要在 Edge Server 上執行安裝程式，便無需具備 RTCUniversalServerAdmins 或 RTCUniversalGlobalReadOnlyGroup 群組的成員資格。 會從匯出的定義檔（而不是從中央管理儲存體）讀取拓撲建立器定義檔。 若要匯出拓撲建立器定義檔，並將它提供給邊緣伺服器，請參閱匯出拓撲並將它複製到外部媒體以進行 Edge 安裝的主題。
-ms.openlocfilehash: 83412bbef1305dab51cbb35ad9044f756154905c
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 7908a862a01871988d6afe6ae1b0cf9c752e9d30
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41687637"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41823617"
 ---
 # <a name="install-local-configuration-store"></a>安裝本機設定存放區
 

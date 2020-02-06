@@ -8,17 +8,19 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.ArchivingGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0b820af7-8d00-42e2-979c-dbae17159a08
 description: 在拓撲產生器中，您可以編輯執行封存之個別伺服器的內容，方法是在主控台樹狀目錄中執行封存的伺服器上按右鍵，然後按一下工具列中的 [動作]，或是按一下 [動作] 窗格中的工作，再按一下 [編輯內容] 並變更下列任一選項：
-ms.openlocfilehash: 2de8465be3f9a650aad3dd9b44b995a7dc6a7a67
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 4a838b6b6246ae99de7ff5ff3d84603a0f25c2ed
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41697868"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41820485"
 ---
 # <a name="archiving-server-general-settings-expander"></a>封存伺服器一般設定展開工具
  

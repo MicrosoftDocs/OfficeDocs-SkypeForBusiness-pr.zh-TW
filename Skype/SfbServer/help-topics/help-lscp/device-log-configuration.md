@@ -8,17 +8,19 @@ ms.date: 3/23/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.ClientDeviceCfgMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c9b81f20-ce8c-40f1-8bed-50775cc35e58
 description: 裝置更新 Web 服務可自動建立記錄檔，並記錄裝置的更新活動。 在組織的資料管理戰略中，您可能會想要針對記錄資料快取大小、記錄檔案大小，或在清除前的記錄檔案保留時間長度設定門限。 您可以根據組織的需求變更這些設定。 若您不希望裝置更新 Web 服務自動清除記錄檔，也可視需要手動加以清除。 您可以變更全域的記錄檔設定，或針對個別網站進行變更。
-ms.openlocfilehash: d0f054f4c9209b552f1f084efab73f0750aefb18
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 7621a70ebfb8a2129e468ce38655dcc61bdbf420
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41686846"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41822896"
 ---
 # <a name="device-log-configuration"></a>裝置記錄組態
 

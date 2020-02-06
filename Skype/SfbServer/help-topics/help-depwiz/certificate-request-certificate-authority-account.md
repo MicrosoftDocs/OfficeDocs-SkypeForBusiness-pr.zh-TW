@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.dep.DeployCertRequestCAAccount
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6251322d-ac36-4760-b467-bcd543af22aa
 description: 若要提交要求，您的憑證授權單位（CA）可能需要您目前登入的使用者以外的認證。 若要允許另一位使用者的憑證申請，請選取 [為憑證授權單位指定備用認證] 核取方塊，然後輸入使用者名稱或 [域 \ 使用者名] 給可以要求憑證的使用者。 在 [密碼] 文字方塊中，輸入您所指定之使用者的密碼。 然後，使用者名稱和密碼就會作為證書申請程式的一部分，而不是在實際的憑證要求中傳送給線上 CA。
-ms.openlocfilehash: 91dfba477599bc32547150702db7646fc2049893
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 53176cf825b7a4be02a3f4709aefe2aa83515984
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41701228"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41823897"
 ---
 # <a name="certificate-request-certificate-authority-account"></a>簽署要求 (憑證授權單位帳戶)
  

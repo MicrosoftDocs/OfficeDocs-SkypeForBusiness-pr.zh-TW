@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.VoiceViewSum
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fa2bc914-dfe0-4a1f-b827-41092a715a5d
 description: 使用 [未提交的語音設定] 對話方塊來查看您所做的所有變更。 捲動對話方塊，檢閱所有未認可的變更，或是按一下箭頭展開或收合不同的區段。 完成後，請按一下 [關閉]。 關閉此對話方塊之後，您可以修改變更或確認變更。
-ms.openlocfilehash: be90c7a2c55dd1728d3498ce208f1b785800c186
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 7b9b8bd766be74ddcf71702720f3cd9f2b4d86a1
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41699248"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41821875"
 ---
 # <a name="uncommitted-voice-configuration-settings-review"></a>未認可的語音組態設定：檢閱
  

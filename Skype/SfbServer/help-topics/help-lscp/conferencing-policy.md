@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.ConfMeetingPolicyMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 90eaa64e-369e-448d-bac4-2574c7c598b8
 description: 會議原則定義使用者在會議（也稱為會議）期間可使用的功能和功能。
-ms.openlocfilehash: 6649471efd9d8d592de1e9395fd6eba8eadb9e23
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 7ff058057300dfa21013f3f6bf3784ab64d5032f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41700418"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41823026"
 ---
 # <a name="conferencing-policy"></a>會議原則
 

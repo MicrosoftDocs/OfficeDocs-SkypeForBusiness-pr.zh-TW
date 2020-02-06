@@ -8,17 +8,19 @@ ms.date: 5/21/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.UserMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50feb75f-92a1-4916-b92e-c039e1290c52
 description: 您可以使用搜尋查詢的結果來設定商務用 Skype Server 的使用者。 您可以依顯示名稱、名字、姓氏、安全帳戶管理員（SAM）帳戶名稱、SIP 位址或行統一資源識別項（URI）來搜尋使用者。 您也可以使用 Lync Server [控制台] 或 [Active Directory 使用者和電腦] 管理單元來搜尋使用者。
-ms.openlocfilehash: 75682c6cc732ce94baf312ddae847b5bb8bf37ec
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 4d0fc01a5843408effa69aceb5c95a74c875213a
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41686826"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41822936"
 ---
 # <a name="control-panel---updated-user-search"></a>使用者搜尋
 

@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.dep.DeployForestPrepInvoke
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 18bab895-6cb1-4c07-a88d-ad0aed67293a
 description: '[執行命令] 頁面會在作業執行時顯示工作摘要。 查看 [摘要] 畫面並確認工作已成功完成，且沒有任何錯誤。 請檢查警告，確定它們應該正常運作。 在摘要窗格底下，您應該會看到 [任務狀態：已完成]。 在下拉式清單中，應該會顯示記錄檔準備林。 如果不是，請選取記錄檔，然後按一下 [查看記錄]，以查看任務的詳細動作和結果。 按一下 [完成] 以完成林的準備作業。'
-ms.openlocfilehash: 607422d130520b664584b4e5fb2688bb168ceb38
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 2f835d63bee39619cd888c6fdec385ddff533643
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41687386"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41823507"
 ---
 # <a name="prepare-current-forrest-invoke"></a>準備目前的樹系 (叫用)
  

@@ -8,17 +8,19 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.AddDirectorFileStorePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a15b69e0-d3d1-4648-af25-1c0f25e5da8e
 description: 您必須指定檔案共用作為 Director 的檔案存放區。您可以使用現有的檔案共用作為檔案存放區，也可以指定新的檔案共用。若要指定新的檔案共用，請指定檔案共用將位於的檔案伺服器的完整網域名稱 (FQDN)，以及要作為新檔案共用的資料夾名稱。
-ms.openlocfilehash: 0321131a69ac4db691bc2d9b6f44845536bee535
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 85cde2a9f670b2f9e044e3ffe833cb8959f838b3
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41685336"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41821215"
 ---
 # <a name="add-director-file-store"></a>新增 Director 檔案存放區
 

@@ -8,17 +8,19 @@ ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.dep.DeployMainForestPrep
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 11f5e359-97eb-45f7-a730-9ddbbaa40b83
 description: 若要準備 Active Directory 網域服務林，您必須成功地延伸架構，如執行架構準備的主題中所述，並確定架構已複製。
-ms.openlocfilehash: 4286ff0bd9b3291f631e3466b0e790174807a8bf
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: d13660eb703a793c1fc59ed422bd0b317986a86b
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41687396"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41823527"
 ---
 # <a name="prepare-current-forest"></a>準備目前的樹系
 

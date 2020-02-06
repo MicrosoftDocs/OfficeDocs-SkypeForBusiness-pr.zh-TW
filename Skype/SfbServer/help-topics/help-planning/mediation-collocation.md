@@ -8,18 +8,20 @@ ms.date: 4/8/2016
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.plan.MediationCollocation
 - ms.lync.plan.MediationCollocation
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5ddc2ad3-9275-408a-a0ab-cc7a2c2d2fdc
 description: 中繼伺服器會根據預設，與前端伺服器 collocated。 您也可以將中繼伺服器部署在獨立的池中，以提高效能，或部署 SIP 中繼（在這種情況下，強烈建議使用獨立的池）。 Collocation 商務用 Skype Server 函數，就像在 Lync Server 2013 中一樣。 如需詳細資訊，請參閱下列主題：
-ms.openlocfilehash: 9e5d4df566e86473d132ddd7c3c112d7399bedde
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 669d6033789376ef92773311888247c8c75c1ea5
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41698808"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41821405"
 ---
 # <a name="mediation-collocation-planning-tool"></a>轉送 Collocation （規劃工具）
  

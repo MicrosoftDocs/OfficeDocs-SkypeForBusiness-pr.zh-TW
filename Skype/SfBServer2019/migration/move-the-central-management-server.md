@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 遷移到商務用 Skype Server 2019 之後，您必須先將中央管理伺服器移至商務用 Skype Server 2019 前端伺服器或池，才能移除舊版伺服器。
-ms.openlocfilehash: b6a2dd08949b5b15370f27e1da936009048982f6
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 6f78a242ce42a3dca56cc1e4e1f2fa604611d68c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40990928"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813241"
 ---
 # <a name="move-the-legacy-central-management-server-to-skype-for-business-server-2019"></a>將舊版中央管理伺服器移至商務用 Skype Server 2019
 

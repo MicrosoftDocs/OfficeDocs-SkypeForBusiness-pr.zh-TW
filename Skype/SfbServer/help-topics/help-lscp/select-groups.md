@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.RgsSelGroup
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d780f676-c2c5-4f57-90dd-df5fcd204d76
 description: 回應群組佇列將呼叫控制到回應群組，直到工程師接聽通話。 佇列已指派代理群組。 當您建立或編輯佇列時，您可以使用 [選取群組] 對話方塊來選取一或多個要指派給佇列的代理群組。
-ms.openlocfilehash: ea097fcda4023b307eb3649eb5dcf12494791e59
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: c84d98b47ba5bfec1ec69dd4b60b073dc5935f48
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41699578"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41822196"
 ---
 # <a name="select-groups"></a>選取群組
 

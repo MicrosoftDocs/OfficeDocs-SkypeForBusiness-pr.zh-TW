@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: hub-page
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7b6da49b-ac72-4ab0-8957-166e330b38fa
 description: 摘要：規劃、實施或管理商務用 Skype Server 時，請視需要查看這些海報。
-ms.openlocfilehash: 60c7550d095c68f5fff1a7d9da8292adaa86922c
-ms.sourcegitcommit: c2e315d0fcec742d2e1ba5ad90dffd1a1157a466
+ms.openlocfilehash: 2b2d7383c2f9df5c4f05a0e53e7c5afae0db5609
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/13/2019
-ms.locfileid: "40002247"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41814091"
 ---
 # <a name="technical-diagrams-for-skype-for-business-server"></a>商務用 Skype Server 的技術圖表
 
@@ -41,7 +43,7 @@ ms.locfileid: "40002247"
 
 如需有關使用 Microsoft 團隊的詳細資訊，請參閱[Microsoft 團隊 IT 架構與電話解決方案海報](https://docs.microsoft.com/MicrosoftTeams/teams-architecture-solutions-posters)。
 
-|職稱|描述|
+|職稱|說明|
 |:---|:---|
 |**商務用 Skype Server 通訊協定的工作負載** <br/>![SfB 通訊協定工作負載海報](media/0dccf933-eab3-4793-a8a4-4f6b9b0b4fa0.png)<br/>[PDF 版本](https://go.microsoft.com/fwlink/p/?LinkId=550989)（適用于行動裝置或平板電腦） <br/> [Visio 版本](https://go.microsoft.com/fwlink/p/?LinkId=550991)（適用于使用 visio 的使用者） |下載此海報，以便更清楚瞭解商務用 Skype 伺服器與用戶端在不同服務層級的需求。<br/> <br/> 大小：11×17英寸（多張紙，可在大部分 office 印表機上輕鬆列印） <br/> <br/> 此海報是使用 Visio 2015 建立的。 特定環境不需要任何修改。 |
 |**商務用 Skype 通話品質方法** <br/> ![通話品質方法海報](media/69d33707-8dc4-446a-8d72-0a77be59a64a.png)[PDF 版本](https://go.microsoft.com/fwlink/p/?LinkId=617899)（適用于行動裝置或平板電腦） <br/> [Visio 版本](https://go.microsoft.com/fwlink/p/?LinkId=617900)（適用于使用 visio 的使用者） |下載此海報以瞭解 CQM （適用于商務用 Skype Server 2015 的通話品質方法），協助您找出並消除影響包含企業語音功能之實現的通話品質與使用者體驗的問題。 <br/> <br/> 如果您想要以遊戲者的身分播放，請使用 [[下載詳細資料] 頁面](https://go.microsoft.com/fwlink/p/?LinkId=617898)取得可列印卡片及規則。 將此海報與[CQM 計分卡](https://go.microsoft.com/fwlink/p/?LinkId=617904)搭配使用。 <br/><br/> 大小： 34-44 英寸 <br/> <br/> 此海報是使用 Visio 2015 建立的。 特定環境不需要任何修改。 |

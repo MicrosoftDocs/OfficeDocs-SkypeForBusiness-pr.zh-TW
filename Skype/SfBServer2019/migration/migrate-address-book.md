@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 一般來說，通訊錄會與您的其他拓撲一起遷移。 不過，如果您在舊版環境中自訂下列各項，可能需要執行一些遷移後步驟：
-ms.openlocfilehash: 8c8e66a8182890ee6e3673769ddc620bb04404c6
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 73c491a538e6bce95779533b88513321c674f018
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40990098"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813601"
 ---
 # <a name="migrate-address-book"></a>移轉通訊錄
 

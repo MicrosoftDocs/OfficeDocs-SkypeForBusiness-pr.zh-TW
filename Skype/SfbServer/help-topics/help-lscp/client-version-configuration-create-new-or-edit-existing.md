@@ -8,17 +8,19 @@ ms.date: 3/23/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.ClientCVSettingEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 07fec57c-5cd3-422a-829a-0b62cb0092c4
 description: 用戶端版本設定可用來開啟或關閉用戶端版本控制。 全域用戶端版本設定會與商務用 Skype Server 一起安裝，並用於針對整個伺服器部署啟用或停用用戶端版本控制。 啟用全域設定時，任何既有的用戶端版本原則都會在使用者嘗試登入時生效。 若不想要執行用戶端版本控制，可以停用全域用戶端版本設定。
-ms.openlocfilehash: f970053cb359fb0735535720da7c8310e015ac37
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 3ead41348d6a9010187f968140ce4c1146a42db0
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41686957"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41823096"
 ---
 # <a name="client-version-configuration-create-new-or-edit-existing"></a>用戶端版本組態：建立新的或編輯現有
 
