@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: ''
 description: 摘要：使用本主題準備商務用 Skype Server 2019 伺服器及網域基礎結構。 硬體、作業系統、資料庫、軟體、所有系統需求與建議，以及憑證 DNS、檔案共用及 Active Directory 資訊，都在這裡協助確保您的伺服器伺服器陣列已成功安裝及部署。
-ms.openlocfilehash: ea4ae18a3714058e0df4f42a0190046ce7006ef8
-ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
+ms.openlocfilehash: c6f30ad4caa8dcb31cf035c3f82de4ab87c41f3d
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41111377"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41812591"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>商務用 Skype Server 2019 的系統需求
  
@@ -518,7 +520,7 @@ Survivable 分支裝置的憑證（特別是適用于商務用 Skype Server 2019
   
 主管池與前端池的憑證需求：
   
-|**描述**|**SAN 專案**|
+|**說明**|**SAN 專案**|
 |:-----|:-----|
 |內部自動探索服務 URL  <br/> |SAN = lyncdiscoverinternal。\<sipdomain\>  <br/> |
 |外部自動探索服務 URL  <br/> |SAN = lyncdiscover。\<sipdomain\>  <br/> |
@@ -527,7 +529,7 @@ Survivable 分支裝置的憑證（特別是適用于商務用 Skype Server 2019
   
 反向 Proxy （公用 CA）證書需求：
   
-|**描述**|**SAN 專案**|
+|**說明**|**SAN 專案**|
 |:-----|:-----|
 |外部自動探索服務 URL  <br/> |SAN = lyncdiscover。\<sipdomain\>  <br/> |
    

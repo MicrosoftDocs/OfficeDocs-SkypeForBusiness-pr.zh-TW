@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
-description: 在共存狀態中部署商務用 Skype Server 2019 之前, 您必須確認已設定並啟動舊版服務。 在部署商務用 Skype Server 2019 試驗池之前, 請務必先找出舊版環境中存在的重要服務和功能。 在部署 Microsoft 商務用 Skype Server 2019 XMPP 的共存狀態與舊版 XMPP 部署之前, 您必須確認已設定並啟動舊版 XMPP 服務, 並找出舊版 XMPP 設定是由哪些聯盟夥伴提供作用.
-ms.openlocfilehash: 4c648dbbadeca50c12eb6047958ef63066ed7a3a
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 在共存狀態中部署商務用 Skype Server 2019 之前，您必須確認已設定並啟動舊版服務。 在部署商務用 Skype Server 2019 試驗池之前，請務必先找出舊版環境中存在的重要服務和功能。 在部署 Microsoft 商務用 Skype Server 2019 XMPP 的共存狀態與舊版 XMPP 部署之前，您必須確認已設定並啟動舊版 XMPP 服務，並找出舊版 XMPP 設定是由哪些聯盟夥伴提供作用.
+ms.openlocfilehash: 34c9ecbc4fe9863c09b2648145ff46c1628ef655
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244099"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41812691"
 ---
 # <a name="verify-the-legacy-environment"></a>驗證舊版環境
 
-在共存狀態中部署商務用 Skype Server 2019 之前, 您必須確認已設定並啟動舊版服務。 在部署商務用 Skype Server 2019 試驗池之前, 請務必先找出舊版環境中存在的主要服務和功能。 在部署 Microsoft 商務用 Skype Server 2019 XMPP 的共存狀態與舊版 XMPP 部署之前, 您必須確認已設定並啟動舊版 XMPP 服務, 並找出舊版 XMPP 的聯盟夥伴配置支援。 驗證舊版部署需要進行下列作業:
+在共存狀態中部署商務用 Skype Server 2019 之前，您必須確認已設定並啟動舊版服務。 在部署商務用 Skype Server 2019 試驗池之前，請務必先找出舊版環境中存在的主要服務和功能。 在部署 Microsoft 商務用 Skype Server 2019 XMPP 的共存狀態與舊版 XMPP 部署之前，您必須確認已設定並啟動舊版 XMPP 服務，並找出舊版 XMPP 的聯盟夥伴配置支援。 驗證舊版部署需要進行下列作業：
   
 - 確認舊版服務已啟動
     
@@ -32,7 +34,7 @@ ms.locfileid: "36244099"
 
 1. 從舊版前端伺服器流覽至 [管理 Tools\Services] 小程式。
     
-2. 確認下列服務正在前端伺服器上執行:
+2. 確認下列服務正在前端伺服器上執行：
     
      ![在前端伺服器上執行的服務清單](../media/migration_lyncserver_config_w14_services.jpg)
   
@@ -50,9 +52,9 @@ ms.locfileid: "36244099"
 
 1. 開啟商務用 Skype Server 的 [控制台]。
     
-2. 選取 [**使用者**], 然後按一下 [**尋找**]。
+2. 選取 [**使用者**]，然後按一下 [**尋找**]。
     
-3. 確認 [**註冊機構池**] 欄會針對所列的每位使用者, 指向舊版資源區。 
+3. 確認 [**註冊機構池**] 欄會針對所列的每位使用者，指向舊版資源區。 
     
      ![[控制台] 列出使用者](../media/migration_lyncserver_2010_allusers.JPG)
   
@@ -62,11 +64,11 @@ ms.locfileid: "36244099"
     
 2. 選取 [**從現有的部署下載拓撲**。
     
-3. 選擇檔案名, 然後使用預設的 tbxml 檔案類型來儲存拓撲。
+3. 選擇檔案名，然後使用預設的 tbxml 檔案類型來儲存拓撲。
     
-4. 展開舊版 [安裝] 節點, 以顯示部署中的各種伺服器角色。
+4. 展開舊版 [安裝] 節點，以顯示部署中的各種伺服器角色。
     
-5. 選取 [網站] 節點, 然後確認已設定 [**網站同盟路由指派**] 值。 
+5. 選取 [網站] 節點，然後確認已設定 [**網站同盟路由指派**] 值。 
     
      ![拓撲產生器，網站同盟路由](../media/migration_lyncserver_w14_federation.jpg)
   
@@ -74,7 +76,7 @@ ms.locfileid: "36244099"
     
      ![顯示伺服器與集區的拓撲產生器](../media/migration_lyncserver_w14_edgepool_media.jpg)
   
-7. 選取 [邊緣] 池, 並識別下一個躍點池是否已設定在**下一個躍點選取範圍**下方。
+7. 選取 [邊緣] 池，並識別下一個躍點池是否已設定在**下一個躍點選取範圍**下方。
     
      ![拓撲產生器，下一個躍點選取範圍](../media/migration_lyncserver_w14_nexthop.jpg)
   
