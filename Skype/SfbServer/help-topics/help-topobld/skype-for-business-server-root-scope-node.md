@@ -8,17 +8,19 @@ ms.date: 8/10/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.RootScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d190f1f0-7741-432a-84ac-9530bb00abef
 description: Lync Server 節點會列出您拓撲中的中心網站。 您可以執行下列動作：
-ms.openlocfilehash: c61bfae684de1f883fc63dc8e6a5a0adf4af4e8a
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: c30dbe502810eaa0f9c6ecdcaae2c0fdb04bb672
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41696618"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41819225"
 ---
 # <a name="skype-for-business-server-root-scope-node"></a>Lync Server 根範圍節點
  

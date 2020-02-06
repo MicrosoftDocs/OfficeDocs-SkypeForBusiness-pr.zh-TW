@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.RegistrarSettingsExpander2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 17dcd75c-bd9a-407e-af9b-c61cb1201c07
 description: 您編輯復原設定，並設定下列屬性：
-ms.openlocfilehash: 31a8504aecbc14ae2c81ad27a3aaeedbe9e40b66
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: adc3d3f0be42d542583cf269a7acf83d98df8dd7
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41684416"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41819335"
 ---
 # <a name="registrar-settings-expander-for-lync-server-for-2010"></a>登錄器設定展開工具 (適用於 Lync Server 2010)
  

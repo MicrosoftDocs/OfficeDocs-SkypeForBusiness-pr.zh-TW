@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 64f05569-07c7-4f76-a96b-ea4125a510d5
 description: 摘要：瞭解商務用 Skype Server 中的體驗品質（QoE）設定。
-ms.openlocfilehash: 254e6f1032026f715c30017f984bc2906f46e0df
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 5366937f1faa01e6533b51677122713ee9e839fa
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992790"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818033"
 ---
 # <a name="create-quality-of-experience-configuration-settings-in-skype-for-business-server"></a>在商務用 Skype Server 中建立體驗配置設定品質
  
@@ -27,7 +29,7 @@ ms.locfileid: "40992790"
   
 您可以使用商務用 Skype Server 的 [控制台] 或[新的-CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csqoeconfiguration?view=skype-ps) Cmdlet 來建立 QoE 設定設定。 如果您使用商務用 Skype Server 的 [控制台] 來建立新設定，您可以使用下列選項：
   
-|**UI 設定**|**PowerShell 參數**|**描述**|
+|**UI 設定**|**PowerShell 參數**|**說明**|
 |:-----|:-----|:-----|
 |名稱  <br/> |Identity  <br/> |要建立之設定的唯一識別碼。 QoE 設定只能在網站範圍建立。  <br/> |
 |啟用監視 QoE 資料  <br/> |EnableQoE  <br/> |指定是否要收集 QoE 記錄並將它儲存到監視資料庫。  <br/> |

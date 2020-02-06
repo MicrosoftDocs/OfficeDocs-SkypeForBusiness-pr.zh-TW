@@ -8,17 +8,19 @@ ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.SqlInstanceScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bd270488-ceb9-4920-bef3-ed9fe8eff36c
 description: 這個節點會顯示這個 Microsoft SQL Server 的完整功能變數名稱（FQDN），以及該伺服器上的 SQL Server 實例，以及使用此 SQL Server 的池或伺服器。 您可以執行下列動作：
-ms.openlocfilehash: c7ceecaa032d4cd6ad7032ee210a765f21f38212
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: ab13624b6d018ee2d62d6dcbb1d2b092a83e1c8b
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41684356"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41819215"
 ---
 # <a name="sql-instance-scope-node"></a>SQL 執行個體範圍節點
  

@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 22dec3cc-4b6b-4df2-b269-5b35df4731a7
 description: 摘要：適用于商務用 Skype Server 的 [階段 AV] 和 [OAuth 憑證]。
-ms.openlocfilehash: 37edb6843d420ca3387958c54b3db8c72a28be92
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 530e8f603d2c5be368df37354c3974e2b5abeb5a
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991958"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818725"
 ---
 # <a name="stage-av-and-oauth-certificates-in-skype-for-business-server-using--roll-in-set-cscertificate"></a>使用 CsCertificate 中的商務用 Skype 伺服器階段 AV 和 OAuth 憑證
  
@@ -85,7 +87,7 @@ A/V 驗證服務負責頒發用戶端和其他 A/V 消費者所使用的權杖�
 |**圖說文字**|**階段**|
 |:-----|:-----|
 |1  <br/> |開始： 7/22/2015 12:00:00 AM  <br/> 目前的 AudioVideoAuthentication 憑證到期於7/22/2015 上的 2:00:00 PM。 這是由憑證上的到期時間戳記所決定。 規劃您的憑證取代和滾動更新，以在現有的憑證達到到期時間前，在8小時內重迭（預設權杖存留期）。 這個範例中使用 2:00:00 AM 前置時間，讓系統管理員有足夠的時間來設定新憑證，並在6:00:00 上午的時間前進行設定。  <br/> |
-|pplx-2  <br/> |上午 7/22/2015 2:00:00 至 7/22/2015 5:59:59 AM  <br/> 在邊緣伺服器上以 6:00:00 AM 的有效時間設定憑證（4小時內制時間適用于這個範例，但可能較長）使用 [CsCertificate 類型\<的憑證使用量\>類型- \<新憑證的新\>憑證 EffectiveDate \<datetime 字串] 的指紋指紋\>  <br/> |
+|2  <br/> |上午 7/22/2015 2:00:00 至 7/22/2015 5:59:59 AM  <br/> 在邊緣伺服器上以 6:00:00 AM 的有效時間設定憑證（4小時內制時間適用于這個範例，但可能較長）使用 [CsCertificate 類型\<的憑證使用量\>類型- \<新憑證的新\>憑證 EffectiveDate \<datetime 字串] 的指紋指紋\>  <br/> |
 |3  <br/> |上午 7/22/2015 6:00 至 7/22/2015 2:00 PM  <br/> 若要驗證權杖，請先嘗試新的憑證，如果新憑證無法驗證權杖，就會嘗試舊的憑證。 這個程式用於8小時（預設權杖存留期）重疊期間內的所有權杖。  <br/> |
 |4  <br/> |結束： 7/22/2015 2:00:01 PM  <br/> 舊憑證已過期，新憑證已被佔用。 您可以安全地移除舊憑證，並移除 CsCertificate 類型\<的憑證使用\>類型-前一個  <br/> |
    

@@ -11,45 +11,47 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
-description: 如果您為遠端使用者啟用遠端使用者存取, 支援的遠端使用者透過網際網路連線, 而且不需要使用 VPN 連線, 就能使用商務用 Skype 伺服器與內部使用者共同作業。
-ms.openlocfilehash: dde2bbb2d71d84bc9102683afc37208e3c4616bd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 如果您為遠端使用者啟用遠端使用者存取，支援的遠端使用者透過網際網路連線，而且不需要使用 VPN 連線，就能使用商務用 Skype 伺服器與內部使用者共同作業。
+ms.openlocfilehash: b562dbe7a849ca4266a45303008ff9081903658d
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188866"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818374"
 ---
 # <a name="enable-or-disable-remote-user-access-in-skype-for-business-server"></a>在商務用 Skype Server 中啟用或停用遠端使用者存取
 
-遠端使用者是組織內擁有持久 Active Directory 身分識別的使用者。 當遠端使用者未連線到貴組織的網路時, 您可以使用虛擬私人網路 (VPN), 從您的網路外部登入商務用 Skype 伺服器。 遠端使用者包括在家中或在路上以及其他遠端工作人員 (例如受信任的供應商, 即已獲授與企業認證的人員) 工作的員工。 如果您為遠端使用者啟用遠端使用者存取, 支援的遠端使用者透過網際網路連線, 而且不需要使用 VPN 連線, 就能使用商務用 Skype 伺服器與內部使用者共同作業。
+遠端使用者是組織內擁有持久 Active Directory 身分識別的使用者。 當遠端使用者未連線到貴組織的網路時，您可以使用虛擬私人網路（VPN），從您的網路外部登入商務用 Skype 伺服器。 遠端使用者包括在家中或在路上以及其他遠端工作人員（例如受信任的供應商，即已獲授與企業認證的人員）工作的員工。 如果您為遠端使用者啟用遠端使用者存取，支援的遠端使用者透過網際網路連線，而且不需要使用 VPN 連線，就能使用商務用 Skype 伺服器與內部使用者共同作業。
 
-若要支援遠端使用者存取, 您必須啟用遠端使用者存取。 當您啟用遠端使用者存取時, 就會為您的整個組織啟用此許可權。 如果您稍後想要暫時或永久避免遠端使用者存取, 您可以針對您的組織停用它。 使用本節中的程式來啟用或停用貴組織的遠端使用者存取權。
+若要支援遠端使用者存取，您必須啟用遠端使用者存取。 當您啟用遠端使用者存取時，就會為您的整個組織啟用此許可權。 如果您稍後想要暫時或永久避免遠端使用者存取，您可以針對您的組織停用它。 使用本節中的程式來啟用或停用貴組織的遠端使用者存取權。
 
 
 > [!NOTE]  
-> 啟用遠端使用者存取只會指定執行 Access Edge 服務的伺服器支援與遠端使用者的通訊, 但遠端使用者無法參與立即訊息 (IM) 或組織中的會議, 除非您在此設定至少一個管理遠端使用者存取使用的原則。 在一個策略層級套用的商務用 Skype 伺服器原則設定, 可以覆寫在其他原則層級套用的設定。 商務用 Skype Server 原則優先順序為: 使用者原則 (最具影響力) 會覆寫網站原則, 然後網站原則會覆寫全域原則 (最小的影響)。 這表示原則設定越接近策略設定的物件, 就會受到對物件的影響。 如需有關設定遠端使用者存取的原則的詳細資訊, 請參閱[在商務用 Skype Server 中設定控制遠端使用者存取權的原則](../external-access-policies/configure-policies-to-control-remote-user-access.md)。
+> 啟用遠端使用者存取只會指定執行 Access Edge 服務的伺服器支援與遠端使用者的通訊，但遠端使用者無法參與立即訊息（IM）或組織中的會議，除非您在此設定至少一個管理遠端使用者存取使用的原則。 在一個策略層級套用的商務用 Skype 伺服器原則設定，可以覆寫在其他原則層級套用的設定。 商務用 Skype Server 原則優先順序為：使用者原則（最具影響力）會覆寫網站原則，然後網站原則會覆寫全域原則（最小的影響）。 這表示原則設定越接近策略設定的物件，就會受到對物件的影響。 如需有關設定遠端使用者存取的原則的詳細資訊，請參閱[在商務用 Skype Server 中設定控制遠端使用者存取權的原則](../external-access-policies/configure-policies-to-control-remote-user-access.md)。
 
 
 ## <a name="to-enable-or-disable-remote-user-access-for-your-organization"></a>若要啟用或停用貴組織的遠端使用者存取權
 
-1.  從是 RTCUniversalServerAdmins 群組成員的使用者帳戶 (或是擁有同等的使用者權利), 或是指派給 CsAdministrator 角色, 登入內部部署中的任何電腦。
+1.  從是 RTCUniversalServerAdmins 群組成員的使用者帳戶（或是擁有同等的使用者權利），或是指派給 CsAdministrator 角色，登入內部部署中的任何電腦。
 
-2.  開啟瀏覽器視窗, 然後輸入系統管理員 URL, 開啟商務用 Skype Server 的 [控制台]。 
+2.  開啟瀏覽器視窗，然後輸入系統管理員 URL，開啟商務用 Skype Server 的 [控制台]。 
 
-3.  在左側導覽列中, 按一下 [**同盟與外部存取**], 然後按一下 [**存取邊緣**設定]。
+3.  在左側導覽列中，按一下 [**同盟與外部存取**]，然後按一下 [**存取邊緣**設定]。
 
-4.  在 [**存取邊緣**設定] 頁面上, 按一下 [**全域**], 按一下 [**編輯**], 然後按一下 [**顯示詳細資料**]。
+4.  在 [**存取邊緣**設定] 頁面上，按一下 [**全域**]，按一下 [**編輯**]，然後按一下 [**顯示詳細資料**]。
 
-5.  在 [**編輯存取邊緣**設定] 中, 執行下列其中一項操作:
+5.  在 [**編輯存取邊緣**設定] 中，執行下列其中一項操作：
     
-      - 若要為您的組織啟用遠端使用者存取, 請選取 [**啟用遠端使用者存取權**] 核取方塊。
+      - 若要為您的組織啟用遠端使用者存取，請選取 [**啟用遠端使用者存取權**] 核取方塊。
     
-      - 若要停用您組織的遠端使用者存取權, 請清除 [**啟用遠端使用者存取權**] 核取方塊。
+      - 若要停用您組織的遠端使用者存取權，請清除 [**啟用遠端使用者存取權**] 核取方塊。
 
 6.  按一下 [認可]****。
 
-若要讓遠端使用者登入執行商務用 Skype Server 的伺服器, 您也必須至少設定一個外部存取原則來支援遠端使用者存取。 如需詳細資訊, 請參閱[在商務用 Skype Server 中設定控制遠端使用者存取權的原則](../external-access-policies/configure-policies-to-control-remote-user-access.md)。
+若要讓遠端使用者登入執行商務用 Skype Server 的伺服器，您也必須至少設定一個外部存取原則來支援遠端使用者存取。 如需詳細資訊，請參閱[在商務用 Skype Server 中設定控制遠端使用者存取權的原則](../external-access-policies/configure-policies-to-control-remote-user-access.md)。
 
 
 ## <a name="enabling-or-disabling-remote-user-access-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 來啟用或停用遠端使用者存取
@@ -58,13 +60,13 @@ ms.locfileid: "36188866"
 
 ## <a name="to-enable-remote-user-access"></a>啟用遠端使用者存取
 
-  - 若要啟用遠端使用者存取, 請將**AllowOutsideUsers**屬性的值設定為 True ($True):
+  - 若要啟用遠端使用者存取，請將**AllowOutsideUsers**屬性的值設定為 True （$True）：
     
         Set-CsAccessEdgeConfiguration -AllowOutsideUsers $True
 
 ## <a name="to-disable-remote-user-access"></a>若要停用遠端使用者存取
 
-  - 若要停用遠端使用者存取, 請將**AllowOutsideUsers**屬性的值設定為 False ($False):
+  - 若要停用遠端使用者存取，請將**AllowOutsideUsers**屬性的值設定為 False （$False）：
     
         Set-CsAccessEdgeConfiguration -AllowOutsideUsers $False
 

@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 9da13470-001e-415f-b8c5-29b1f3b531ba
 description: 摘要：瞭解商務用 Skype Server 中使用的每個使用者呼叫診斷報告。
-ms.openlocfilehash: c2ef55243680cbb8bc088c2b056b298428b70b50
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: dbe9fc3e9140619f3c0f6015a313f84d2e8cbdaf
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992068"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818134"
 ---
 # <a name="call-diagnostic-reports-per-user-in-skype-for-business-server"></a>在商務用 Skype Server 中呼叫診斷報告（每位使用者）
   
@@ -115,7 +117,7 @@ $x | Where-Object {$_.Modalities -match "audio"} | Group-Object "From user" | Se
 **使用者活動報表篩選**
 
 
-| **名稱**   | **描述**  |
+| **名稱**   | **說明**  |
 |:-----------|:--------|
 | **從** <br/>             | 時間範圍的開始日期/時間。 若要依時間查看資料，請輸入 [開始日期] 和 [時間]，如下所示：  <br/> 7/17/12015 1:00 PM  <br/> 如果您沒有輸入開始時間，報告會在指定日期自動于12:00 點開始。 若要依天查看資料，只需輸入日期：  <br/> 7/17/12015  <br/> 若要依周或依月查看，請在您要查看的周或月份中，輸入您要查看的日期（不需要輸入周或月的第一天）：  <br/> 7/13/2015  <br/> 周數總是從星期日到星期六執行。  <br/>                                                      |
 | **自** <br/>               | 時間範圍的結束日期/時間。 若要依時間查看資料，請輸入 [結束日期] 和 [時間]，如下所示：  <br/> 7/17/12015 1:00 PM  <br/> 如果您沒有輸入結束時間，報告會在指定日期自動結束于12:00。 若要依天查看資料，只需輸入日期：  <br/> 7/17/12015  <br/> 若要依周或依月查看，請在您要查看的周或月份中，輸入您要查看的日期（不需要輸入周或月的第一天）：  <br/> 7/13/2015  <br/> 周數總是從星期日到星期六執行。  <br/>                                                             |
@@ -130,7 +132,7 @@ $x | Where-Object {$_.Modalities -match "audio"} | Group-Object "From user" | Se
 
 **點對點工作階段的度量單位**
 
-|**名稱**|**您可以針對此專案進行排序嗎？**|**描述**|
+|**名稱**|**您可以針對此專案進行排序嗎？**|**說明**|
 |:-----|:-----|:-----|
 |**具體** <br/> |否  <br/> |當您按一下此專案時，報告會顯示所選會話的點對點工作階段詳細資料包告。  <br/> |
 |**從使用者** <br/> |是  <br/> |啟動點對點工作階段之使用者的 SIP 位址。  <br/> |
@@ -147,7 +149,7 @@ $x | Where-Object {$_.Modalities -match "audio"} | Group-Object "From user" | Se
 
 **會議會話的度量單位**
 
-|**名稱**|**您可以針對此專案進行排序嗎？**|**描述**|
+|**名稱**|**您可以針對此專案進行排序嗎？**|**說明**|
 |:-----|:-----|:-----|
 |**會議 URI** <br/> |是  <br/> |唯一的會議識別碼。 當您按一下此專案時，報告會顯示所選會話的會議詳細資料包告。 展開此專案時，報告會顯示會議參與者的相關資訊。 如需詳細資訊，請參閱本主題稍後的「會議參與者的規格」一節。  <br/> |
 |**召集人** <br/> |是  <br/> |組織會議的使用者的 SIP 位址。  <br/> |
@@ -161,7 +163,7 @@ $x | Where-Object {$_.Modalities -match "audio"} | Group-Object "From user" | Se
 
 **會議參與者的度量單位**
 
-|**名稱**|**您可以針對此專案進行排序嗎？**|**描述**|
+|**名稱**|**您可以針對此專案進行排序嗎？**|**說明**|
 |:-----|:-----|:-----|
 |**角色** <br/> |否  <br/> |使用者的會議角色（例如，簡報者）。  <br/> |
 |**參加** <br/> |否  <br/> |使用者的 SIP 位址。  <br/> |

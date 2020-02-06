@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: b6f3a605-e0c6-461e-b17a-41d8039ace9d
 description: 摘要：瞭解商務用 Skype 伺服器中的 [失敗清單] 報告。
-ms.openlocfilehash: d0ba76974d99b123c99e3df40a6850736423ab73
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 8d0ca503f1a7883ab9ec1dd4ded8556b2ee3ab0f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992820"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817943"
 ---
 # <a name="failure-list-report-in-skype-for-business-server"></a>商務用 Skype Server 中的 [失敗清單] 報告 
  
@@ -99,7 +101,7 @@ Count    Name
   
 **失敗清單報告度量單位**
 
-|**名稱**|**您可以針對此專案進行排序嗎？**|**描述**|
+|**名稱**|**您可以針對此專案進行排序嗎？**|**說明**|
 |:-----|:-----|:-----|
 |**報告時間** <br/> |否  <br/> |記錄報告的日期和時間。  <br/> |
 |**徵求** <br/> |否  <br/> |失敗的 SIP 要求類型。 例如，[邀請] 或 [再見]。  <br/> |

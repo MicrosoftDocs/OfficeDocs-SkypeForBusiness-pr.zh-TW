@@ -11,14 +11,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: '當您將原則設定為支援與同盟夥伴的通訊時，這些原則會套用至同盟網域的使用者。 '
-ms.openlocfilehash: d9192589191590cd96f72323681ef4df6513e36d
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 2e9385436427fd73f90e308d7747cf304bf37501
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991758"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818314"
 ---
 # <a name="configure-policies-to-control-federated-user-access-in-skype-for-business-server"></a>在商務用 Skype Server 中設定控制聯盟使用者存取權的原則
 

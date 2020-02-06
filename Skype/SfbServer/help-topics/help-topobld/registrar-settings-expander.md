@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.RegistrarSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c7486ab3-61fd-45c6-9edc-a15535f273ff
 description: 復原功能可為註冊機構池提供高可用性和災害復原。 在主要註冊機發生故障時提供備份註冊機構，備份註冊機構可能會接管失敗的註冊機，讓使用者可以登入及通訊。 根據主要註冊機構失敗的系統，使用者可能會遇到精簡功能。
-ms.openlocfilehash: bac382486b45acbb2e25d3be26d23ea67f1aa15b
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: c603310e6b99721aace04c4e596989fc394ef0ea
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41696728"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41819325"
 ---
 # <a name="registrar-settings-expander"></a>登錄器設定展開工具
  

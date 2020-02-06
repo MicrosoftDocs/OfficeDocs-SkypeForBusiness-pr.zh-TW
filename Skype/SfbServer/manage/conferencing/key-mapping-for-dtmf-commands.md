@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: f91e80ee-a587-4a1b-ac8f-12fa102c098c
 description: 摘要：瞭解如何在商務用 Skype Server 中管理雙音調多頻率（DTMF）命令的按鍵對應。
-ms.openlocfilehash: 3bab799bb116d0ded48002eb91898ffc1587543c
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: fdb9846da81c4029fa67df606fa021397a46b3ad
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991818"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818534"
 ---
 # <a name="manage-key-mapping-for-dtmf-commands-in-skype-for-business-server"></a>在商務用 Skype Server 中管理 DTMF 命令的金鑰組應
  

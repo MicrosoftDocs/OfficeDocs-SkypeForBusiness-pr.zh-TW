@@ -7,6 +7,8 @@ audience: ITPro
 ms.topic: conceptual
 manager: serdars
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed53a566-0504-46f9-81a7-116a637833af
 description: 摘要：瞭解在商務用 Skype Server 中 Edge 伺服器的系統需求。
-ms.openlocfilehash: 01a5cce8dd1ccb85d322b6c66615d022c8d6c2df
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: 4ef2feeb2b486bc9be9f4eb59136d74ef542dd31
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "36187807"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803313"
 ---
 # <a name="edge-server-system-requirements-in-skype-for-business-server"></a>商務用 Skype Server 中的邊緣伺服器系統需求
  
@@ -193,7 +195,7 @@ Director 是內部的下一個躍點伺服器，會從傳送給商務用 Skype S
   
 以下是（選用）主管及（必要）前端池 Web 服務的 HLB 需求：
   
-- 針對您的內部 Web 服務 Vip，請在您的 HLB 上設定 Source_addr 暫留（內部埠80，443）。 在商務用 Skype Server 中，Source_addr [暫留] 表示來自單一 IP 位址的多個連線總是傳送到一台伺服器，以維持會話狀態。
+- 針對您的內部 Web 服務 Vip，請在您的 HLB 上 Source_addr 設定 [暫留] （內部埠80，443）。 在商務用 Skype Server 中，Source_addr 暫留表示來自單一 IP 位址的多個連線，永遠會傳送到一台伺服器，以維持會話狀態。
     
 - 使用1800秒的 TCP 空閒超時。
     
@@ -216,7 +218,7 @@ Director 是內部的下一個躍點伺服器，會從傳送給商務用 Skype S
 |\<pool\>web_mco_443_vs  <br/> 443  <br/> |4443  <br/> |前端  <br/> 5061  <br/> |無  <br/> |IP-HTTPS  <br/> |
 |\<pool\>web_mco_80_vs  <br/> 80  <br/> |8080  <br/> |前端  <br/> 5061  <br/> |無  <br/> |HTTP  <br/> |
    
-## <a name="hardware-and-software-requirements"></a>硬體和軟體需求
+## <a name="hardware-and-software-requirements"></a>硬體及軟體需求
 
 我們已在商務用 skype Server 2015 和[商務用 Skype server 2019 檔的系統需求](../../../SfBServer2019/plan/system-requirements.md)[的完整伺服器需求](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)中，涵蓋了 Edge 伺服器硬體和軟體需求。
   

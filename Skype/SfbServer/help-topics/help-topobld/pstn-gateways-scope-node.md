@@ -8,17 +8,19 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.PstnGatewaysScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7a11bae5-9c0e-4eea-9754-2e918e19eeff
 description: '[PSTN 閘道] 節點會列出您拓撲中的公用交換電話網路 (PSTN) 閘道。 您可以執行下列動作：'
-ms.openlocfilehash: d657ededf035672785683561bff872eb88bf222f
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 2a95efef9a9e9809b026efca79f13900af7ae7ba
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41696788"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41819405"
 ---
 # <a name="pstn-gateways-scope-node"></a>PSTN 閘道範圍節點
  

@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: dc574afa-0b7d-404f-99b3-c812430b7c70
 description: 摘要：瞭解如何建立商務用 Skype Server 的存檔設定。
-ms.openlocfilehash: bd2a139e7321542e3b13259ebc2ec1e4ba731caf
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: bc7319f2de8398dd3d9e9a79948d1af6eaeb98bc
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992740"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818955"
 ---
 # <a name="create-an-archiving-configuration-in-skype-for-business-server"></a>在商務用 Skype Server 中建立封存配置
 

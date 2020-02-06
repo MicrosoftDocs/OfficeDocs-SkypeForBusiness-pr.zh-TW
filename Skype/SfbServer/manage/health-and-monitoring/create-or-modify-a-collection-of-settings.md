@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: c830be5a-2a82-468d-9c46-d3fec0f79fd0
 description: 摘要：瞭解商務用 Skype Server 中的通話詳細資料錄製（CDR）。
-ms.openlocfilehash: 52c5f3de5b3c83fe5701b339ecf45ed7f80a0988
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 88e86aaec7ca922db39b8c74dc1b354ab0389ba7
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992520"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818043"
 ---
 # <a name="create-or-modify-a-collection-of-cdr-configuration-settings-in-skype-for-business-server"></a>在商務用 Skype Server 中建立或修改 CDR 配置設定的集合
  
@@ -27,7 +29,7 @@ ms.locfileid: "40992520"
   
 您可以使用商務用 Skype Server 的 [控制台] 或[CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/new-cscdrconfiguration?view=skype-ps) Cmdlet 來建立 CDR 配置設定。 您可以使用商務用 Skype Server 的 [控制台] 或[CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) Cmdlet 來修改現有的設定。 如果您使用商務用 Skype Server 的 [控制台] 來建立或修改設定，您可以使用下列選項：
   
-|**UI 設定**|**PowerShell 參數**|**描述**|
+|**UI 設定**|**PowerShell 參數**|**說明**|
 |:-----|:-----|:-----|
 |名稱  <br/> |Identity  <br/> |所建立的 CDR 配置設定的唯一識別碼。 這些設定只能在網站範圍建立。  <br/> |
 |啟用 CDRs 的監控  <br/> |EnableCDR  <br/> |指出是否已啟用 CDR。  <br/> |

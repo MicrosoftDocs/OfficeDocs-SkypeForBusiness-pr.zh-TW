@@ -8,17 +8,19 @@ ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.SipVideoTrunksScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a4df43f5-0563-4738-a020-7aec3bc46e17
 description: 在 [拓撲建立器] 中定義新的 VIS 或視頻閘道所需的步驟，請參閱在商務用 Skype Server 2015 中建立 VIS 池子的線上說明。
-ms.openlocfilehash: 33bfee26ffbee0a6b55c219b4f15b7d510cba6d5
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: c29f5192b8d26fecbf931a495c820b2e7341c658
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41684366"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41819235"
 ---
 # <a name="sip-video-trunks-scope-node"></a>SIP 視訊主幹範圍節點
  

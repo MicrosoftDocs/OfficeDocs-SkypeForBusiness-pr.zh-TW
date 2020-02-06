@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: a6b41de2-1466-4240-8a70-14ce6f0f3ddc
 description: 摘要：瞭解如何在商務用 Skype Server 中指定 QoE 資料的保留。
-ms.openlocfilehash: c597c0e5e3fbd2a8a92304ffd55d866a15c121a9
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: a7f8173518d12daffb23658f5b81fa35b39d13da
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992038"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817842"
 ---
 # <a name="modify-quality-of-experience-settings-in-skype-for-business-server"></a>在商務用 Skype Server 中修改體驗品質設定
 

@@ -7,28 +7,30 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: d18ed85a-673d-4695-aa3f-ac83a38ab90a
-description: '摘要: 瞭解您可以用來監視執行整合通訊 Web API (UCWA) 和商務用 Skype Server Mcx 行動服務的伺服器的效能計數器。'
-ms.openlocfilehash: 91ca77b9719dc6b76ea9bb054856abf82bb3ebd4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 摘要：瞭解您可以用來監視執行整合通訊 Web API （UCWA）和商務用 Skype Server Mcx 行動服務的伺服器的效能計數器。
+ms.openlocfilehash: e9a3ade40694ef18e1022388d48838822d409625
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36188728"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817762"
 ---
 # <a name="mobility-performance-counters-in-skype-for-business-server"></a>商務用 Skype Server 中的行動效能計數器
  
-**摘要:** 瞭解您可以用來監視執行整合通訊 Web API (UCWA) 和商務用 Skype Server Mcx 行動服務的伺服器的效能計數器。
+**摘要：** 瞭解您可以用來監視執行整合通訊 Web API （UCWA）和商務用 Skype Server Mcx 行動服務的伺服器的效能計數器。
   
-下表列出效能計數器的名稱和描述, 您可以用來監視執行整合通訊 Web API (UCWA) 和商務用 Skype Server Mcx 行動服務的伺服器。 
+下表列出效能計數器的名稱和描述，您可以用來監視執行整合通訊 Web API （UCWA）和商務用 Skype Server Mcx 行動服務的伺服器。 
   
-UCWA 資料表中計數器的類別名稱是**LS: WEB-UCWA**。
+UCWA 資料表中計數器的類別名稱是**LS： WEB-UCWA**。
   
-Mcx 行動服務資料表中計數器的類別名稱是**LS: WEB Mobile 通訊服務**。
+Mcx 行動服務資料表中計數器的類別名稱是**LS： WEB Mobile 通訊服務**。
 
 > [!NOTE]
-> MCX (行動服務) 對舊版行動用戶端的支援已不再提供給商務用 Skype Server 2019。 所有目前的商務用 Skype 行動用戶端都已使用整合通訊 Web API (UCWA) 來支援立即訊息 (IM)、目前狀態和連絡人。 使用 MCX 的舊版用戶端的使用者將需要升級至目前的用戶端。
+> MCX （行動服務）對舊版行動用戶端的支援已不再提供給商務用 Skype Server 2019。 所有目前的商務用 Skype 行動用戶端都已使用整合通訊 Web API （UCWA）來支援立即訊息（IM）、目前狀態和連絡人。 使用 MCX 的舊版用戶端的使用者將需要升級至目前的用戶端。
   
 ## <a name="performance-counters-for-ucwa"></a>UCWA 的效能計數器
 
@@ -38,7 +40,7 @@ Mcx 行動服務資料表中計數器的類別名稱是**LS: WEB Mobile 通訊�
 |使用中的應用程式共用模態計數  <br/> |應用程式共用模態的目前數量  <br/> |
 |使用中的音訊模態計數  <br/> |目前的音訊模態數量  <br/> |
 |活動資料共同作業計數  <br/> |目前的資料共同作業數  <br/> |
-|Active Directory 相片取得延遲 (毫秒)  <br/> |這個計數器顯示從 active directory 中檢索相片的平均時間 (以毫秒為單位)  <br/> |
+|Active Directory 相片取得延遲（毫秒）  <br/> |這個計數器顯示從 active directory 中檢索相片的平均時間（以毫秒為單位）  <br/> |
 |使用中的訊息模態計數  <br/> |目前的訊息模態數量  <br/> |
 |使用中全景視頻的狀態計數  <br/> |目前的全景視頻模態數量  <br/> |
 |作用中未決取得計數  <br/> |目前處於作用中未決的取得次數;在伺服器上保留較長的連線連接  <br/> |
@@ -49,11 +51,11 @@ Mcx 行動服務資料表中計數器的類別名稱是**LS: WEB Mobile 通訊�
 |收到的應用程式建立要求/秒  <br/> |每秒收到應用程式建立要求的速率  <br/> |
 |作為 MCU 連接失敗  <br/> |MCU 連接失敗的次數  <br/> |
 |AV MCU 聯接失敗  <br/> |AV MCU 連接失敗次數  <br/> |
-|應用程式的平均啟動時間 (毫秒)  <br/> |應用程式的平均啟動時間 (以毫秒為單位)  <br/> |
-|會話的平均存留期 (毫秒)  <br/> |會話的平均存留期 (以毫秒為單位)  <br/> |
+|應用程式的平均啟動時間（毫秒）  <br/> |應用程式的平均啟動時間（以毫秒為單位）  <br/> |
+|會話的平均存留期（毫秒）  <br/> |會話的平均存留期（以毫秒為單位）  <br/> |
 |資料 MCU 連接失敗  <br/> |資料 MCU 連接失敗次數  <br/> |
-|Exchange 連絡人搜尋延遲時間 (毫秒)  <br/> |這個計數器顯示在 Exchange 中搜尋連絡人的平均時間 (以毫秒為單位)  <br/> |
-|Exchange HD 相片取得延遲 (毫秒)  <br/> |這個計數器顯示從 Exchange 中檢索相片的平均時間 (以毫秒為單位)  <br/> |
+|Exchange 連絡人搜尋延遲時間（毫秒）  <br/> |這個計數器顯示在 Exchange 中搜尋連絡人的平均時間（以毫秒為單位）  <br/> |
+|Exchange HD 相片取得延遲（毫秒）  <br/> |這個計數器顯示從 Exchange 中檢索相片的平均時間（以毫秒為單位）  <br/> |
 |HTTP 4xx 回應/秒  <br/> |每秒回應與 HTTP 4xx 代碼的回應速率  <br/> |
 |HTTP 5xx 回應/秒  <br/> |每秒回應與 HTTP 5xx 代碼的回應速率  <br/> |
 |IM MCU 連接失敗  <br/> |IM MCU 連接失敗的次數  <br/> |
@@ -66,7 +68,7 @@ Mcx 行動服務資料表中計數器的類別名稱是**LS: WEB Mobile 通訊�
 |目前狀態訂閱失敗  <br/> |訂閱目前狀態失敗的次數  <br/> |
 |註冊端點失敗  <br/> |要註冊端點的失敗次數  <br/> |
 |收到的要求/秒  <br/> |每秒收到要求的速率  <br/> |
-|成功的要求/秒  <br/> |每秒成功要求的速度 (HTTP 2xx/3xx 回應碼)  <br/> |
+|成功的要求/秒  <br/> |每秒成功要求的速度（HTTP 2xx/3xx 回應碼）  <br/> |
 |已成功建立應用程式要求/秒  <br/> |成功應用程式建立要求的每秒匯率  <br/> |
 |已超時擱置中的 [取得計數]  <br/> |超時的未決取得數  <br/> |
 |收到的應用程式建立要求總計  <br/> |在服務啟動後收到的應用程式建立要求總數量  <br/> |
@@ -82,10 +84,10 @@ Mcx 行動服務資料表中計數器的類別名稱是**LS: WEB Mobile 通訊�
 
 |**反**|**說明**|
 |:-----|:-----|
-|會話的平均存留期 (以毫秒為單位)  <br/> |會話的平均存留期 (以毫秒為單位)  <br/> |
-|目前的推播通知訂閱  <br/> |推播通知訂閱的目前數目。 這個數位與目前的活動會話計數, 代表已針對 Windows Mobile 或 iPhone 裝置註冊的目前活動會話子集。  <br/> |
+|會話的平均存留期（以毫秒為單位）  <br/> |會話的平均存留期（以毫秒為單位）  <br/> |
+|目前的推播通知訂閱  <br/> |推播通知訂閱的目前數目。 這個數位與目前的活動會話計數，代表已針對 Windows Mobile 或 iPhone 裝置註冊的目前活動會話子集。  <br/> |
 |目前使用中的網路超時輪詢計數  <br/> |超時的網路輪詢數  <br/> |
-|目前使用中的輪詢計數  <br/> |目前使用中的輪詢數 (與伺服器的長時間連接)  <br/> |
+|目前使用中的輪詢計數  <br/> |目前使用中的輪詢數（與伺服器的長時間連接）  <br/> |
 |目前的活動會話計數  <br/> |行動服務中的目前已註冊端點數目  <br/> |
 |目前處於作用中狀態訂閱的目前活動會話計數  <br/> |目前處於作用中狀態訂閱的目前活動會話數  <br/> |
 |失敗/秒的推播通知要求  <br/> |每秒失敗推播通知的速率  <br/> |
@@ -115,4 +117,4 @@ Mcx 行動服務資料表中計數器的類別名稱是**LS: WEB Mobile 通訊�
 |成功的傳出語音通話總數  <br/> |成功的出站通話總次數  <br/> |
    
 > [!NOTE]
-> MCX (行動服務) 對舊版行動用戶端的支援已不再提供給商務用 Skype Server 2019。 所有目前的商務用 Skype 行動用戶端都已使用整合通訊 Web API (UCWA) 來支援立即訊息 (IM)、目前狀態和連絡人。 使用 MCX 的舊版用戶端的使用者將需要升級至目前的用戶端。
+> MCX （行動服務）對舊版行動用戶端的支援已不再提供給商務用 Skype Server 2019。 所有目前的商務用 Skype 行動用戶端都已使用整合通訊 Web API （UCWA）來支援立即訊息（IM）、目前狀態和連絡人。 使用 MCX 的舊版用戶端的使用者將需要升級至目前的用戶端。

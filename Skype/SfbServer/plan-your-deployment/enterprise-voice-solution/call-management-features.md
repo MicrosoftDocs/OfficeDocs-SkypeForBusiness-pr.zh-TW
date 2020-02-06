@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,28 +16,28 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5f557345-5a04-45d6-b274-c02dbfe41b33
 description: 商務用 Skype Server Enterprise Voice 支援的通話管理功能概覽。
-ms.openlocfilehash: 9c1bdc73ea4656fa2e0d352988f61d6db428a80c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e987f2c004c3ef5583a673a87f3b7acdb9f83ddf
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36187771"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803213"
 ---
 # <a name="plan-for-call-management-features-in-skype-for-business"></a>規劃商務用 Skype 中的通話管理功能
 
 商務用 Skype Server Enterprise Voice 支援的通話管理功能概覽。
 
-企業語音通話管理功能可控制如何傳送和接聽來電。 商務用 Skype 伺服器提供下列通話管理功能:
+企業語音通話管理功能可控制如何傳送和接聽來電。 商務用 Skype 伺服器提供下列通話管理功能：
 
-- **通話寄存**: 讓語音使用者暫時停止通話, 然後從相同或另一個手機挑選通話。
+- **通話寄存**：讓語音使用者暫時停止通話，然後從相同或另一個手機挑選通話。
 
-- **群組拾取**: 可讓語音使用者挑選撥打電話給指派給呼叫挑選群組之其他語音使用者的通話。
+- **群組拾取**：可讓語音使用者挑選撥打電話給指派給呼叫挑選群組之其他語音使用者的通話。
 
-- **回應群組**: 使用查尋群組或互動式語音回應 (IVR) 問題與解答, 將來電路由至代理群組。
+- **回應群組**：使用查尋群組或互動式語音回應（IVR）問題與解答，將來電路由至代理群組。
 
-- [**公告**]: 針對未指派號碼的通話播放訊息, 或在別處傳送通話, 或同時將呼叫路由。
+- [**公告**]：針對未指派號碼的通話播放訊息，或在別處傳送通話，或同時將呼叫路由。
 
-如果您打算部署企業語音, 您可以選擇實現這些通話管理功能的任何或全部。
+如果您打算部署企業語音，您可以選擇實現這些通話管理功能的任何或全部。
 
 ## <a name="in-this-section"></a>本節內容
 

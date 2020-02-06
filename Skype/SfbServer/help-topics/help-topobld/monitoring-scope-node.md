@@ -8,17 +8,19 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.MonitoringServerScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 05867db5-ad62-41e3-b1ac-f21f43d1e90b
 description: 在 Lync Server 2013 拓撲建立器中，您可以在執行監視的伺服器上按一下滑鼠右鍵，按一下工具列中的 [動作]，或按一下 [動作] 窗格中的任務，然後針對執行監視的伺服器，按一下下列其中一個選項：
-ms.openlocfilehash: 7fc5905ba8a0f98df0ee548642050806b4b801dc
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: dbdc131eab19f36e84d576c31a3a0b8274aa4bea
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41696948"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41819545"
 ---
 # <a name="monitoring-scope-node"></a>監控範圍節點
  

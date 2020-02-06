@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 3b28e432-596f-45a5-a070-577d6fa748d9
 description: 摘要：瞭解如何在商務用 Skype Server 中啟用通話詳細資料錄製（CDR）記錄。
-ms.openlocfilehash: 3474a82bfc9ed8e8bad954bb91346989d9181465
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 6c4460ac004ee15893b81f09f7bd59943365e64c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992943"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817973"
 ---
 # <a name="enable-call-detail-recording-in-skype-for-business-server"></a>在商務用 Skype Server 中啟用呼叫詳細資料錄製
 

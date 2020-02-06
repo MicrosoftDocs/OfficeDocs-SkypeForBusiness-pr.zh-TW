@@ -7,20 +7,22 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d4a104e2-830c-47f1-a5dd-de7a937cc83a
-description: '摘要: 管理商務用 Skype Server 中的 PIN 設定。'
-ms.openlocfilehash: 70a55c99ccb7f18820321af2ff31db7fbfd0818f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 摘要：管理商務用 Skype Server 中的 PIN 設定。
+ms.openlocfilehash: cea16a42459f15a3d87df7e2b78779e67c4502bc
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36191563"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818765"
 ---
 # <a name="manage-pin-settings-in-skype-for-business-server"></a>在商務用 Skype Server 中管理 PIN 設定
  
-**摘要:** 在商務用 Skype Server 中管理 PIN 設定。
+**摘要：** 在商務用 Skype Server 中管理 PIN 設定。
   
 使用下列各節中的程式來管理商務用 Skype Server 中的 Pin。
   
@@ -36,7 +38,7 @@ ms.locfileid: "36191563"
     
 - [在商務用 Skype Server 中指派每位使用者的 PIN 原則](assign-a-per-user-pin-policy.md)
     
-使用下列程式, 從商務用 Skype Server [控制台] 的 [**使用者**] 區段管理使用者的電話撥入式會議 pin。
+使用下列程式，從商務用 Skype Server [控制台] 的 [**使用者**] 區段管理使用者的電話撥入式會議 pin。
   
 - [在商務用 Skype Server 中設定使用者的電話撥入式會議 PIN](set-a-user-s-dial-in-conferencing-pin.md)
     

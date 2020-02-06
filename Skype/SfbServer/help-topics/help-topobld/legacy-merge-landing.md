@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.LegacyMergeLandingPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6dd2227a-1fbd-4133-b27f-227b0fe47805
 description: '[指定邊緣設定] 頁面可讓您設定舊版 Edge 伺服器資訊。 按一下 [新增]，指定舊版 Edge 伺服器版本的 Office 通訊伺服器部署。 如果您的舊版環境中沒有任何邊緣伺服器，請按 [下一步] 繼續。'
-ms.openlocfilehash: c39ef561ff157edfef37bd6b97616df9aed60abe
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 189ae2d1cb611b553af349c68def5b347634fb10
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41697148"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41819745"
 ---
 # <a name="legacy-merge-landing"></a>舊版合併登陸
  

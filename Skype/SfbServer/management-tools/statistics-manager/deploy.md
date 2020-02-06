@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: 摘要：請閱讀本主題，以瞭解如何部署商務用 Skype Server 的統計資料管理器。
-ms.openlocfilehash: 57b799079da400389b9e3049406a52bbba4dc1e6
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 44aad14970716f00550255855d251919a767a268
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40990608"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803963"
 ---
 # <a name="deploy-statistics-manager-for-skype-for-business-server"></a>部署商務用 Skype Server 統計資料
  

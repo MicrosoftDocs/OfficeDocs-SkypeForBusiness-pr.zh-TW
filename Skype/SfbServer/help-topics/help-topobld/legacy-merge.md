@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.LegacyMergeAddPicPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 085fde15-e33a-4d95-8d06-4da1d5d7c770
 description: 網路會議外部 FQDN 允許外部使用者加入內部部署會議。 輸入舊版 Edge 伺服器的網路會議外部介面的完整功能變數名稱（FQDN）。
-ms.openlocfilehash: bb059855f7893ef7b2b9c601835bb53e6f0d280b
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 19e508bdaaf44f64b3d907070d96a3691ce611c0
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41697088"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41819685"
 ---
 # <a name="legacy-merge"></a>舊版合併
 

@@ -8,17 +8,19 @@ ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.SipVideoTrunkSettingExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 39e21ee3-3b4e-4ef3-b977-5abeec63bcff
 description: 在 [拓撲建立器] 中定義新的 VIS 或視頻閘道所需的步驟，請參閱在商務用 Skype Server 2015 中建立 VIS 池子的線上說明。
-ms.openlocfilehash: b531c6b06ba6a9d59ec1b6c19524579278c4a1df
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: aa529278c0df482d1978d4cab9eba0fe1cdcc8e6
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41696658"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41819245"
 ---
 # <a name="sip-video-trunk-setting-expander"></a>SIP 視訊主幹設定展開工具
  

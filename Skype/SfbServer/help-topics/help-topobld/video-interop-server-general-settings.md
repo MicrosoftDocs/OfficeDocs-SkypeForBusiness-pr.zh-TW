@@ -8,17 +8,19 @@ ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.VideoInteropServerGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5c508eab-0b08-4fb2-b2b2-eca2eaf2053a
 description: 在 [拓撲建立器] 中定義新的 VIS 或視頻閘道所需的步驟，請參閱在商務用 Skype Server 2015 中建立 VIS 池子的線上說明。
-ms.openlocfilehash: f6326469db5ccca3ecb641c8efefc155c1f0d494
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 8569bc112c7bff0c6f6382cefbfa63e38ba07f43
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41696488"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41819085"
 ---
 # <a name="video-interop-server-general-settings"></a>視訊 Interop 伺服器一般設定
  

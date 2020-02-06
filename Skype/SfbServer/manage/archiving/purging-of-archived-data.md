@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 14c2b4fd-f612-4909-808d-09c655fc9f8a
 description: 摘要：瞭解如何管理商務用 Skype Server 的存檔資料清除。
-ms.openlocfilehash: f168f7fe744ef388de246cbcd2dd9de0fc2ef805
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 7953c6085183e3ace0e395f0c8751897acd49380
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991608"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818875"
 ---
 # <a name="manage-purging-of-archived-data-in-skype-for-business-server"></a>在商務用 Skype Server 中管理已歸檔資料的清除
 

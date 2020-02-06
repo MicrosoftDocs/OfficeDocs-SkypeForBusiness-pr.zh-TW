@@ -8,17 +8,19 @@ ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.VideoInteropServerNextHopSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5a161404-b294-47fa-ad62-0e12bffcd8e4
 description: 在 [拓撲建立器] 中定義新的 VIS 或視頻閘道所需的步驟，請參閱在商務用 Skype Server 2015 中建立 VIS 池子的線上說明。
-ms.openlocfilehash: bd3a86b6279d160c955d5131a9728ebeb307aefb
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 1456ab3a18f86604b972f51a044f0129310166da
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41684286"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41819075"
 ---
 # <a name="video-interop-server-next-hop-settings"></a>視訊 Interop 伺服器下一個躍點設定
  

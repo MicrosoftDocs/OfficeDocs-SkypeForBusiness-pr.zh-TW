@@ -8,17 +8,19 @@ ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.VideoInteropServersScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 963e6693-26bc-439f-b76d-04389e6ebbf9
 description: 在 [拓撲建立器] 中定義新的 VIS 或視頻閘道所需的步驟，請參閱在商務用 Skype Server 2015 中建立 VIS 池子的線上說明。
-ms.openlocfilehash: f295804645b5832206f6a5a22e29ab7f45d7ba25
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: c2cfcc5cb04d4134f23c4a1646c0f4027b65e95d
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41696458"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41819035"
 ---
 # <a name="video-interop-servers---scope-the-node"></a>視訊 Interop 伺服器 - 範圍節點
  

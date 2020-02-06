@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.FeMediationServiceSettingsExpander2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 37166b87-8a43-42a6-a2aa-5a45bed8a6f3
 description: 您可以在此對話方塊中編輯 [轉送伺服器 PSTN 閘道] 設定的屬性。 您定義下列設定：
-ms.openlocfilehash: bd24c24d14e24ed7e4ce53bc30d01b2e955be6cf
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: dfe3defeb7cdce787321a401ca2a5450ee6b4ab8
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41697278"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41819875"
 ---
 # <a name="front-end-mediation-service-settings-expander-for-lync-server-2010"></a>前端中繼服務設定展開工具 (適用於 Lync Server 2010)
  

@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: f42e4d60-699b-4870-8bb5-13b51bb6eb2b
 description: 摘要：瞭解商務用 Skype Server 中的裝置報表。
-ms.openlocfilehash: 9b9198d8080c8f1e22e59e2cd496bb7fb318eaae
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: cb3dcf506d7853136b1cddf7f6b7848891cb77e7
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992410"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817993"
 ---
 # <a name="device-report-in-skype-for-business-server"></a>商務用 Skype Server 中的裝置報告
  
@@ -126,7 +128,7 @@ $x
   
 **裝置報表篩選**
 
-|**名稱**|**描述**|
+|**名稱**|**說明**|
 |:-----|:-----|
 |**從** <br/> |時間範圍的開始日期/時間。 若要依時間查看資料，請輸入 [開始日期] 和 [時間]，如下所示：  <br/> 7/7/2015 1:00 PM  <br/> 如果您沒有輸入開始時間，報告會在指定日期自動于12:00 點開始。 若要依天查看資料，只需輸入日期：  <br/> 7/7/2015  <br/> 若要依周或依月查看，請在您要查看的周或月份中，輸入您要查看的日期（不需要輸入周或月的第一天）：  <br/> 7/3/2015  <br/> 周數總是從星期日到星期六執行。  <br/> |
 |**自** <br/> |時間範圍的結束日期/時間。 若要依時間查看資料，請輸入 [結束日期] 和 [時間]，如下所示：  <br/> 7/7/2015 1:00 PM  <br/> 如果您沒有輸入結束時間，報告會在指定日期自動結束于12:00。 若要依天查看資料，只需輸入日期：  <br/> 7/7/2015  <br/> 若要依周或依月查看，請在您要查看的周或月份中，輸入您要查看的日期（不需要輸入周或月的第一天）：  <br/> 7/3/2015  <br/> 周數總是從星期日到星期六執行。  <br/> |
@@ -145,7 +147,7 @@ $x
   
 **裝置報表度量單位**
 
-|**名稱**|**您可以針對此專案進行排序嗎？**|**描述**|
+|**名稱**|**您可以針對此專案進行排序嗎？**|**說明**|
 |:-----|:-----|:-----|
 |**捕獲裝置** <br/> |是  <br/> |用來傳送音訊的裝置（例如麥克風或網路攝像機）。  <br/> |
 |**轉譯裝置** <br/> |是  <br/> |用於接收音訊的裝置（例如，耳機或喇叭）。  <br/> |

@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 8b88bed9-2b37-4caf-b119-48688076e06a
 description: 摘要：瞭解如何刪除商務用 Skype Server 的存檔原則。
-ms.openlocfilehash: c08b76996b3d54e8be07e731faae87dce0470cc1
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 8e2a2c21f6d137fcdb87e69c041cf08143092be1
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992360"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818925"
 ---
 # <a name="delete-an-existing-archiving-policy-in-skype-for-business-server"></a>在商務用 Skype Server 中刪除現有的存檔原則
 

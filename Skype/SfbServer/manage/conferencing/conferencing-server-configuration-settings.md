@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 36bed690-6e22-4e11-88c1-b40a20836c6a
 description: 摘要：瞭解如何在商務用 Skype Server 中管理會議服務器配置設定。
-ms.openlocfilehash: be6ccb094cc19a29534d1ca78eb2cae1457d6512
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: c43734a2d79bf07023486eb163fff7bbef56e73f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991898"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818634"
 ---
 # <a name="manage-conferencing-server-configuration-settings-in-skype-for-business-server"></a>在商務用 Skype Server 中管理會議服務器配置設定
  
@@ -33,7 +35,7 @@ ms.locfileid: "40991898"
   
 **會議配置設定**
 
-|**Cmdlet**|**描述**|
+|**Cmdlet**|**說明**|
 |:-----|:-----|
 |[CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csconferencingconfiguration?view=skype-ps) <br/> |傳回貴組織會議配置設定的相關資訊。  <br/> |
 |[New-CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csconferencingconfiguration?view=skype-ps) <br/> |建立新的會議配置設定集合。  <br/> |
