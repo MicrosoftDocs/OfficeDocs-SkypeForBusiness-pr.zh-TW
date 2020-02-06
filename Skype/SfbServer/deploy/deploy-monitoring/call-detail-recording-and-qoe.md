@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 009a0499-4f8c-450d-9c72-a565a08e9f7a
 description: 摘要：瞭解如何在商務用 Skype Server 中設定 CDR 及 QoE。
-ms.openlocfilehash: 93dc0dd5917e476d3c993562dfd06bc3a086f8dc
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 3e0ff3e8dab09f38d71f9b5211f900e0f0e5fe9f
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41001113"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41790051"
 ---
 # <a name="configure-call-detail-recording-and-quality-of-experience-settings-in-skype-for-business-server"></a>在商務用 Skype Server 中設定通話詳細資料錄製和經驗品質設定
  
@@ -33,7 +35,7 @@ Set-CsQoEConfiguration -Identity "global" -EnableQoE $False
 
 當您安裝商務用 Skype Server 時，您也會安裝預先定義的 [CDR] 和 [QoE] 全域設定。 [通話詳細資料錄製] 使用的一些常用設定的預設值如下表所示：
   
-|**Property**|**描述**|**預設值**|
+|**Property**|**說明**|**預設值**|
 |:-----|:-----|:-----|
 |EnableCDR  <br/> |指出是否已啟用 CDR。 如果為 True，則會收集所有 CDR 記錄，並將其寫入監視資料庫。  <br/> |滿足  <br/> |
 |EnablePurging  <br/> |指出 CDR 記錄是否會定期從資料庫中刪除。 如果為 True，則在屬性 KeepCallDetailForDays （適用于 CDR 記錄）和 KeepErrorReportForDays （針對 CDR 錯誤）指定的時段之後，將會刪除記錄。 如果是 False，則會無限期維護 CDR 記錄。  <br/> |滿足  <br/> |
@@ -42,7 +44,7 @@ Set-CsQoEConfiguration -Identity "global" -EnableQoE $False
    
 同樣地，此表格會顯示所選 QoE 設定的預設值：
   
-|**Property**|**描述**|**預設值**|
+|**Property**|**說明**|**預設值**|
 |:-----|:-----|:-----|
 |EnableQoE  <br/> |指出是否已啟用 QoE 監視。 如果為 True，則會收集所有 QoE 記錄並寫入監視資料庫。  <br/> |滿足  <br/> |
 |EnablePurging  <br/> |指出 QoE 記錄是否會定期從資料庫中刪除。 如果為 True，則會在 KeepQoEDataForDays 屬性指定的時段之後刪除記錄。 如果是 False，QoE 記錄將會無限期維護。  <br/> |滿足  <br/> |

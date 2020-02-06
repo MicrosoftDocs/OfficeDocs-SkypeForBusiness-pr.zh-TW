@@ -1,7 +1,7 @@
 ---
 title: 在法律封存上放置 Microsoft 團隊使用者或團隊
 author: LolaJacobsen
-ms.author: lolaj
+ms.author: heidip
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -13,12 +13,12 @@ search.appverid: MET150
 description: 瞭解如何使用安全性 & 合規性中心在 Microsoft 團隊使用者或小組中進行法律封存，以及如何根據資料需求來瞭解需要法律封存。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 25bd8e235be79ed805a854cbda2b4947f1c1269b
-ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.openlocfilehash: 1d6d41c9dba2aa5eff5d0f5d488b7403b54add5e
+ms.sourcegitcommit: 05aab1044fe34a65af18ed7368f9622e08f28f1e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37968034"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "41779218"
 ---
 <a name="place-a-microsoft-teams-user-or-team-on-legal-hold"></a>在法律封存上放置 Microsoft 團隊使用者或團隊
 ==================================================
@@ -29,7 +29,7 @@ ms.locfileid: "37968034"
 > [保留使用者] 不會自動將群組放在 [保留] 或 [相反]。
 
 > [!NOTE]
-> 我們尚不支援針對私人通道訊息進行法定保留的設定。 支援在私人通道中共用的檔案的法定保留。
+> 我們很快就會提供私人通道訊息的法律封存支援。 支援在私人通道中共用的檔案的法定保留。
 
 > [!IMPORTANT]
 > 當使用者或群組處於保留狀態時，所有郵件複本都會保留下來。 範例： Clay 在頻道中張貼了一封郵件，然後修改該郵件。 在保留案例中，會保留郵件的兩份複本。 不需法律封存，就只會保留最新的郵件。

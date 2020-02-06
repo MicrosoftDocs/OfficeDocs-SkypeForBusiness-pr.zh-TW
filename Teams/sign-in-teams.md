@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d266799bf2bc2cab9cd107836f9017bd7dc369bf
-ms.sourcegitcommit: 2cb46af39a0d116e8fd020aa04bd2ecbd6998a5f
+ms.openlocfilehash: 9911a014fe3bd3e3ede151e2a85e8181c399e463
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41678967"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41790611"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>使用新式驗證登入 Microsoft 團隊
 ==========================
@@ -54,6 +54,9 @@ Microsoft 團隊使用新式驗證來輕鬆且安全地保持登入體驗。 若
 
 ## <a name="signing-out-of-microsoft-teams-after-completing-modern-authentication"></a>在完成新式驗證後登出 Microsoft 團隊
 若要登出團隊，使用者可以按一下應用程式頂端的個人檔案圖片，**然後選取 [登出]**。他們也可以在其工作列中以滑鼠右鍵按一下應用程式圖示，然後選取 [**登出**]。登出團隊之後，他們需要再次輸入其認證，才能啟動 app。
+
+## <a name="urls-and-ip-address-ranges"></a>Url 與 IP 位址範圍
+小組需要連線至網際網路。 若要瞭解在 Office 365 方案、政府及其他雲彩中使用團隊的客戶應可存取的端點，請參閱[這裡](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)的說明。 除此之外，您也必須允許存取https://ssl.gstatic.com。
 
 ## <a name="troubleshooting-modern-authentication"></a>現代驗證疑難排解
 

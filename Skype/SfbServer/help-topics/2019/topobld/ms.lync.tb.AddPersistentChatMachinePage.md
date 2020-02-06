@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.AddPersistentChatMachinePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f87c3abb-d8b4-4e51-af84-9b579e3807c5
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您可以在 [電腦 FQDN] 中輸入完整的功能變數名稱（FQDN），來定義將成為持久聊天伺服器池的電腦。 此名稱必須是網域名稱系統 DNS 主機 (A 或 AAAA) 記錄中所定義的電腦名稱。
-ms.openlocfilehash: 4eb570d93906b57de3e27a7ee6313e98755691e6
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 2380ad248ed4fc1841e32cc86e81e46bcf328515
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41702738"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41787743"
 ---
 # <a name="define-computers-in-persistent-chat-pool"></a>定義常設聊天室集區中的電腦
 

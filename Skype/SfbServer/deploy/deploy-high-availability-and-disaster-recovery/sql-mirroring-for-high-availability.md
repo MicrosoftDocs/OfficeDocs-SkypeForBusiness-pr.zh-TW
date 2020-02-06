@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 70224520-b5c8-4940-a08e-7fb9b1adde8d
 description: 若要能夠部署 SQL 鏡像，您的伺服器必須執行至少 SQL Server 2008 R2。 這個版本必須在所有涉及的伺服器上執行：主要、鏡像和見證。 如需詳細資訊，請參閱 SQL Server 2008 的累積更新套件9（Service Pack 1）。
-ms.openlocfilehash: 19f315d643ea5b9379445bf7571e49e7d658f5ab
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 2be6b59d294db6a74ffe902648511658a07242ca
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003583"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41790061"
 ---
 # <a name="deploy-sql-mirroring-for-back-end-server-high-availability-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中部署適用于後端伺服器高可用性的 SQL 鏡像
 

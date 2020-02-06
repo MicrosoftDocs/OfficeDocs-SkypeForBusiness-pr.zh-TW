@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - Ent_O365_Hybrid
@@ -15,12 +17,12 @@ ms.collection:
 - IT_Skype4B_Hybrid
 ms.assetid: 2979802e-fc6b-4555-bc43-7cd48f6a1d88
 description: 摘要：瞭解針對內部部署商務用 Skype Server 混合式部署所需執行的步驟，以設定 Skype 會議廣播。
-ms.openlocfilehash: ac08707a60e0c71719ab2cb85141e89329a947f9
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 8bdbb163f5ef867711ce109bc923ba0ec8401ffa
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41002803"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41790941"
 ---
 # <a name="configure-your-on-premises-deployment-for-skype-meeting-broadcast"></a>針對 Skype 會議廣播設定內部部署部署
  

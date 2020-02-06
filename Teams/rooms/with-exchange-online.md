@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: 如需如何使用 Exchange Online 部署 Microsoft 團隊聊天室的詳細資訊，請參閱本主題。
-ms.openlocfilehash: e53fd2ebd25ef6b625ada84b60d58e42e8c13a28
-ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
+ms.openlocfilehash: e07d8ed3e7d04122a2a084803ad72c3bdb541918
+ms.sourcegitcommit: a61d33fe15982bd8a34f1759b6b89be5aa699fe3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "41628419"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "41784800"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>使用 Exchange Online 部署 Microsoft 團隊聊天室
 
@@ -36,6 +36,8 @@ ms.locfileid: "41628419"
 
    > [!NOTE]
    >  此區段中的[Windows PowerShell Cmdlet 的 Azure Active Directory 模組](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0)（例如，MsolUser）已在設定 Microsoft 團隊聊天室裝置的帳戶中經過測試。 但其他 Cmdlet 可能可以運作，但在這種特定情況下並未經過測試。
+
+如果您已部署 Active Directory Federation Services （AD FS），您可能必須先將使用者帳戶轉換為受管理的使用者，然後才能執行這些步驟，然後在完成這些步驟之後，再將使用者轉換回聯盟使用者。
   
 ### <a name="create-an-account-and-set-exchange-properties"></a>建立帳戶並設定 Exchange 屬性
 
@@ -54,23 +56,21 @@ ms.locfileid: "41628419"
    如果您要變更現有的資源信箱：
 
    ``` Powershell
-   Set-Mailbox -Identity 'PROJECTRIGEL01' -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
+   Set-Mailbox -Identity 'PROJECT01' -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
    ```
 
     如果您要建立新的資源信箱：
 
    ``` Powershell
-   New-Mailbox -MicrosoftOnlineServicesID 'PROJECTRIGEL01@contoso.com' -Alias PROJECTRIGEL01 -Name "Project-Rigel-01" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
+   New-Mailbox -MicrosoftOnlineServicesID 'PROJECT01@contoso.com' -Alias PROJECT01 -Name "Project--01" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
    ```
 
 3. 若要改善會議體驗，您必須在使用者帳戶上設定 Exchange 屬性，如下所示：
 
    ``` Powershell
-   Set-CalendarProcessing -Identity 'PROJECTRIGEL01@contoso.com' -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false
-   Set-CalendarProcessing -Identity 'PROJECTRIGEL01@contoso.com' -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
+   Set-CalendarProcessing -Identity 'PROJECT01@contoso.com' -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false
+   Set-CalendarProcessing -Identity 'PROJECT01@contoso.com' -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
    ```
-
-
 
 ### <a name="add-an-email-address-for-your-on-premises-domain-account"></a>新增內部部署網域帳戶的電子郵件地址
 
@@ -86,10 +86,10 @@ ms.locfileid: "41628419"
 
 ### <a name="assign-an-office-365-license"></a>指派 Office 365 授權
 
-1. 首先，連線到 Azure AD 來套用某些帳戶設定。 您可以執行此 Cmdlet 來進行連線。 如需 Active Directory 的詳細資訊，請參閱[Azure ActiveDirectory （import-module msonline） 1.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0)。 
+1. 首先，連線到 Azure AD 來套用某些帳戶設定。 您可以執行此 Cmdlet 來進行連線。 如需 Active Directory 的詳細資訊，請參閱[Azure ActiveDirectory （import-module msonline） 1.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0)。
 
    > [!NOTE]
-   > [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0)不受支援。 
+   > [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0)不受支援。
 
     ``` PowerShell
    Connect-MsolService -Credential $cred
@@ -103,14 +103,14 @@ ms.locfileid: "41628419"
 4. 當您列出 Sku 之後，您就可以使用`Set-MsolUserLicense` <!-- Set-AzureADUserLicense--> Cmdlet. 在此情況下，$strLicense 是您所看到的 SKU 程式碼（例如 contoso： STANDARDPACK）。 
 
     ```PowerShell
-      Set-MsolUser -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -UsageLocation 'US'
+    Set-MsolUser -UserPrincipalName 'PROJECT01@contoso.com' -UsageLocation 'US'
      Get-MsolAccountSku
-     Set-MsolUserLicense -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -AddLicenses $strLicense
+     Set-MsolUserLicense -UserPrincipalName 'PROJECT01@contoso.com' -AddLicenses $strLicense
     ```
   <!--   ``` Powershell
-     Set-AzureADUserLicense -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -UsageLocation 'US'
+     Set-AzureADUserLicense -UserPrincipalName 'PROJECT01@contoso.com' -UsageLocation 'US'
      Get-AzureADSubscribedSku
-     Set-AzureADUserLicense -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -AddLicenses $strLicense
+     Set-AzureADUserLicense -UserPrincipalName 'PROJECT01@contoso.com' -AddLicenses $strLicense
      ``` -->
 
 ### <a name="enable-the-user-account-with-skype-for-business-server"></a>使用商務用 Skype Server 啟用使用者帳戶

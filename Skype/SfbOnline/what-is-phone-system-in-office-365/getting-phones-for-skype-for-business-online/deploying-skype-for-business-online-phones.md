@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 瞭解如何取得正確的固件、根據需要進行更新、指派授權，以及設定商務用 Skype online 手機的設定等部署步驟
-ms.openlocfilehash: 5eda8c9e21ed93b09b9033c5b70bb359894330f7
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: efcea04a454d846c0140e9d1dba561da228df1de
+ms.sourcegitcommit: a61d33fe15982bd8a34f1759b6b89be5aa699fe3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41705808"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "41784750"
 ---
 # <a name="deploying-skype-for-business-online-phones"></a>部署用商務用 Skype Online 電話
 
@@ -40,7 +40,7 @@ ms.locfileid: "41705808"
 
 在您開始之前，請先下載手機制造商的管理指南和手機使用者手冊。
   
-- 針對 Polycom 手機，請參閱[Polycom 部署指南](http://www.polycom.com/voice-conferencing-solutions/desktop-ip-phones.html)。
+- 若為 Polycom 手機，請參閱[Poly 文件庫](https://documents.polycom.com/category/voice)。
     
 - 針對 Yealink 手機，請參閱[Yealink 商務用 SKYPE HD SIP 手機方案](http://www.yealink.com/products_top_2.html)。
     

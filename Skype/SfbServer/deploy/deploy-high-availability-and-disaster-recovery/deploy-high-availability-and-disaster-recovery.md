@@ -1,5 +1,5 @@
 ---
-title: 部署高可用性與災害復原
+title: 部署高可用性和災害復原
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -7,26 +7,28 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 21007bad-62ce-4553-98e0-02aaa1345781
-description: 商務用 Skype Server 提供高可用性, 包括伺服器池、含池配對的災害復原, 以及後端伺服器高可用性的數種模式, 包括 AlwaysOn 可用性群組、資料庫鏡像及 SQL 容錯移轉叢集。
-ms.openlocfilehash: cb4d39df7f6a12a14c25533d8c6fb1ae95da24d4
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 商務用 Skype Server 提供高可用性，包括伺服器池、含池配對的災害復原，以及後端伺服器高可用性的數種模式，包括 AlwaysOn 可用性群組、資料庫鏡像及 SQL 容錯移轉叢集。
+ms.openlocfilehash: 68c6a12f80ac2d915c678f69146d0001daedbe5c
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240060"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41790121"
 ---
-# <a name="deploy-high-availability-and-disaster-recovery"></a>部署高可用性與災害復原
+# <a name="deploy-high-availability-and-disaster-recovery"></a>部署高可用性和災害復原
  
-商務用 Skype Server 提供高可用性, 包括伺服器池、含池配對的災害復原, 以及後端伺服器高可用性的數種模式, 包括 AlwaysOn 可用性群組、資料庫鏡像及 SQL 容錯移轉叢集。 
+商務用 Skype Server 提供高可用性，包括伺服器池、含池配對的災害復原，以及後端伺服器高可用性的數種模式，包括 AlwaysOn 可用性群組、資料庫鏡像及 SQL 容錯移轉叢集。 
   
-高可用性指的是在一或多個伺服器關閉的情況下, 仍可使用商務用 Skype Server 服務。災害復原指的是在自然或人工造成災難的情況下, 讓服務繼續進行, 並在災難發生前保留盡可能大的資料。
+高可用性指的是在一或多個伺服器關閉的情況下，仍可使用商務用 Skype Server 服務。災害復原指的是在自然或人工造成災難的情況下，讓服務繼續進行，並在災難發生前保留盡可能大的資料。
   
-本節說明如何部署這些功能, 以及如何針對您的其他伺服器角色提供高可用性和災難復原所需採取的步驟。
+本節說明如何部署這些功能，以及如何針對您的其他伺服器角色提供高可用性和災難復原所需採取的步驟。
 
 > [!NOTE]
-> 在商務用 Skype Server 2015 中提供 SQL 鏡像, 但商務用 Skype Server 2019 已不再支援。 使用商務用 Skype Server 2019 時, AlwaysOn 可用性群組、AlwaysOn 容錯移轉叢集實例 (FCI) 和 SQL 容錯移轉叢集方法都是可取的。
+> 在商務用 Skype Server 2015 中提供 SQL 鏡像，但商務用 Skype Server 2019 已不再支援。 使用商務用 Skype Server 2019 時，AlwaysOn 可用性群組、AlwaysOn 容錯移轉叢集實例（FCI）和 SQL 容錯移轉叢集方法都是可取的。
   
 ## <a name="related-sections"></a>相關章節
 
