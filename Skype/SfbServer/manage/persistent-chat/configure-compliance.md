@@ -8,94 +8,96 @@ ms.date: 1/31/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 24e36ea3-fb8a-45a4-b6b7-38c2e256b218
 description: 摘要：瞭解如何在商務用 Skype Server 2015 中設定持續聊天伺服器合規性服務。
-ms.openlocfilehash: a02384c68c04798ea453b94bf736a2c6ff276397
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 54131eeddc95afd71978ada3a84fba3d4ab52716
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991988"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817234"
 ---
-# <a name="configure-the-compliance-service-for-persistent-chat-server-in-skype-for-business-server-2015"></a><span data-ttu-id="23280-103">設定常設聊天室伺服器的規範服務</span><span class="sxs-lookup"><span data-stu-id="23280-103">Configure the Compliance service for Persistent Chat Server in Skype for Business Server 2015</span></span>
+# <a name="configure-the-compliance-service-for-persistent-chat-server-in-skype-for-business-server-2015"></a><span data-ttu-id="1ba82-103">設定常設聊天室伺服器的規範服務</span><span class="sxs-lookup"><span data-stu-id="1ba82-103">Configure the Compliance service for Persistent Chat Server in Skype for Business Server 2015</span></span>
 
-<span data-ttu-id="23280-104">**摘要：** 瞭解如何在商務用 Skype Server 2015 中設定持續聊天伺服器合規性服務。</span><span class="sxs-lookup"><span data-stu-id="23280-104">**Summary:** Learn how to configure the Persistent Chat Server Compliance service in Skype for Business Server 2015.</span></span>
+<span data-ttu-id="1ba82-104">**摘要：** 瞭解如何在商務用 Skype Server 2015 中設定持續聊天伺服器合規性服務。</span><span class="sxs-lookup"><span data-stu-id="1ba82-104">**Summary:** Learn how to configure the Persistent Chat Server Compliance service in Skype for Business Server 2015.</span></span>
 
-<span data-ttu-id="23280-105">持續聊天合規性可讓系統管理員維持持久聊天訊息及活動的封存。</span><span class="sxs-lookup"><span data-stu-id="23280-105">Persistent Chat compliance lets administrators maintain an archive of Persistent Chat messages as well as activities.</span></span> <span data-ttu-id="23280-106">合規性服務會記錄及歸檔與每個持續聊天伺服器交談相關的資料，包括參與者：</span><span class="sxs-lookup"><span data-stu-id="23280-106">The Compliance service records and archives data related to each Persistent Chat Server conversation, including when a participant:</span></span>
+<span data-ttu-id="1ba82-105">持續聊天合規性可讓系統管理員維持持久聊天訊息及活動的封存。</span><span class="sxs-lookup"><span data-stu-id="1ba82-105">Persistent Chat compliance lets administrators maintain an archive of Persistent Chat messages as well as activities.</span></span> <span data-ttu-id="1ba82-106">合規性服務會記錄及歸檔與每個持續聊天伺服器交談相關的資料，包括參與者：</span><span class="sxs-lookup"><span data-stu-id="1ba82-106">The Compliance service records and archives data related to each Persistent Chat Server conversation, including when a participant:</span></span>
 
-- <span data-ttu-id="23280-107">加入持久聊天室</span><span class="sxs-lookup"><span data-stu-id="23280-107">Joins a Persistent Chat room</span></span>
+- <span data-ttu-id="1ba82-107">加入持久聊天室</span><span class="sxs-lookup"><span data-stu-id="1ba82-107">Joins a Persistent Chat room</span></span>
 
-- <span data-ttu-id="23280-108">離開聊天室</span><span class="sxs-lookup"><span data-stu-id="23280-108">Leaves a chat room</span></span>
+- <span data-ttu-id="1ba82-108">離開聊天室</span><span class="sxs-lookup"><span data-stu-id="1ba82-108">Leaves a chat room</span></span>
 
-- <span data-ttu-id="23280-109">張貼訊息</span><span class="sxs-lookup"><span data-stu-id="23280-109">Posts a message</span></span>
+- <span data-ttu-id="1ba82-109">張貼訊息</span><span class="sxs-lookup"><span data-stu-id="1ba82-109">Posts a message</span></span>
 
-- <span data-ttu-id="23280-110">查看聊天記錄</span><span class="sxs-lookup"><span data-stu-id="23280-110">Views chat history</span></span>
+- <span data-ttu-id="1ba82-110">查看聊天記錄</span><span class="sxs-lookup"><span data-stu-id="1ba82-110">Views chat history</span></span>
 
-- <span data-ttu-id="23280-111">上傳檔案</span><span class="sxs-lookup"><span data-stu-id="23280-111">Uploads a file</span></span>
+- <span data-ttu-id="1ba82-111">上傳檔案</span><span class="sxs-lookup"><span data-stu-id="1ba82-111">Uploads a file</span></span>
 
-- <span data-ttu-id="23280-112">下載檔案</span><span class="sxs-lookup"><span data-stu-id="23280-112">Downloads a file</span></span>
+- <span data-ttu-id="1ba82-112">下載檔案</span><span class="sxs-lookup"><span data-stu-id="1ba82-112">Downloads a file</span></span>
 
-<span data-ttu-id="23280-113">您可以視需要從合規性 SQL 資料庫中檢索此資訊。</span><span class="sxs-lookup"><span data-stu-id="23280-113">This information can be retrieved from the Compliance SQL database as needed.</span></span> 
+<span data-ttu-id="1ba82-113">您可以視需要從合規性 SQL 資料庫中檢索此資訊。</span><span class="sxs-lookup"><span data-stu-id="1ba82-113">This information can be retrieved from the Compliance SQL database as needed.</span></span> 
 
 > [!NOTE]
-> <span data-ttu-id="23280-114">商務用 Skype Server 2015 提供持續聊天，但商務用 Skype Server 2019 已不再支援。</span><span class="sxs-lookup"><span data-stu-id="23280-114">Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="23280-115">團隊中提供了相同的功能。</span><span class="sxs-lookup"><span data-stu-id="23280-115">The same functionality is available in Teams.</span></span> <span data-ttu-id="23280-116">如需詳細資訊，請參閱[Microsoft 團隊升級快速](/microsoftteams/upgrade-start-here)入門。</span><span class="sxs-lookup"><span data-stu-id="23280-116">For more information, see [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here).</span></span> <span data-ttu-id="23280-117">如果您需要使用持續聊天，您可以選擇將需要此功能的使用者遷移至小組，或繼續使用商務用 Skype Server 2015。</span><span class="sxs-lookup"><span data-stu-id="23280-117">If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams, or to continue using Skype for Business Server 2015.</span></span> 
+> <span data-ttu-id="1ba82-114">商務用 Skype Server 2015 提供持續聊天，但商務用 Skype Server 2019 已不再支援。</span><span class="sxs-lookup"><span data-stu-id="1ba82-114">Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="1ba82-115">團隊中提供了相同的功能。</span><span class="sxs-lookup"><span data-stu-id="1ba82-115">The same functionality is available in Teams.</span></span> <span data-ttu-id="1ba82-116">如需詳細資訊，請參閱[Microsoft 團隊升級快速](/microsoftteams/upgrade-start-here)入門。</span><span class="sxs-lookup"><span data-stu-id="1ba82-116">For more information, see [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here).</span></span> <span data-ttu-id="1ba82-117">如果您需要使用持續聊天，您可以選擇將需要此功能的使用者遷移至小組，或繼續使用商務用 Skype Server 2015。</span><span class="sxs-lookup"><span data-stu-id="1ba82-117">If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams, or to continue using Skype for Business Server 2015.</span></span> 
 
-## <a name="configure-the-compliance-service-by-using-windows-powershell"></a><span data-ttu-id="23280-118">使用 Windows PowerShell 設定合規性服務</span><span class="sxs-lookup"><span data-stu-id="23280-118">Configure the Compliance service by using Windows PowerShell</span></span>
+## <a name="configure-the-compliance-service-by-using-windows-powershell"></a><span data-ttu-id="1ba82-118">使用 Windows PowerShell 設定合規性服務</span><span class="sxs-lookup"><span data-stu-id="1ba82-118">Configure the Compliance service by using Windows PowerShell</span></span>
 
-<span data-ttu-id="23280-119">使用 [拓撲結構建立器] 啟用合規性服務之後，您可以使用**CsPersistenChatComplianceConfiguration** Cmdlet 來設定服務：</span><span class="sxs-lookup"><span data-stu-id="23280-119">After the Compliance service has been enabled by using the Topology Builder, you can configure the service by using the **Set-CsPersistenChatComplianceConfiguration** cmdlet:</span></span>
+<span data-ttu-id="1ba82-119">使用 [拓撲結構建立器] 啟用合規性服務之後，您可以使用**CsPersistenChatComplianceConfiguration** Cmdlet 來設定服務：</span><span class="sxs-lookup"><span data-stu-id="1ba82-119">After the Compliance service has been enabled by using the Topology Builder, you can configure the service by using the **Set-CsPersistenChatComplianceConfiguration** cmdlet:</span></span>
 
 ```PowerShell
 Set-CsPersistentChatComplianceConfiguration [-Identity <XdsIdentity>] <COMMON PARAMETERS>
 ```
 
-<span data-ttu-id="23280-120">或</span><span class="sxs-lookup"><span data-stu-id="23280-120">or</span></span>
+<span data-ttu-id="1ba82-120">或</span><span class="sxs-lookup"><span data-stu-id="1ba82-120">or</span></span>
 
 ```PowerShell
 Set-CsPersistentChatComplianceConfiguration [-Instance <PSObject>] <COMMON PARAMETERS>
 ```
 
-<span data-ttu-id="23280-121">您可以設定下列參數：</span><span class="sxs-lookup"><span data-stu-id="23280-121">You can set the following parameters:</span></span>
+<span data-ttu-id="1ba82-121">您可以設定下列參數：</span><span class="sxs-lookup"><span data-stu-id="1ba82-121">You can set the following parameters:</span></span>
 
-- <span data-ttu-id="23280-122">AdapterType-可讓您指定配接器類型。</span><span class="sxs-lookup"><span data-stu-id="23280-122">AdapterType - Lets you specify the adapter type.</span></span> <span data-ttu-id="23280-123">配接器是協力廠商的產品，可將合規性資料庫中的資料轉換成特定的格式。</span><span class="sxs-lookup"><span data-stu-id="23280-123">An adapter is a third-party product that converts the data in the compliance database to a specific format.</span></span> <span data-ttu-id="23280-124">[XML] 是預設值。</span><span class="sxs-lookup"><span data-stu-id="23280-124">XML is the default.</span></span>
+- <span data-ttu-id="1ba82-122">AdapterType-可讓您指定配接器類型。</span><span class="sxs-lookup"><span data-stu-id="1ba82-122">AdapterType - Lets you specify the adapter type.</span></span> <span data-ttu-id="1ba82-123">配接器是協力廠商的產品，可將合規性資料庫中的資料轉換成特定的格式。</span><span class="sxs-lookup"><span data-stu-id="1ba82-123">An adapter is a third-party product that converts the data in the compliance database to a specific format.</span></span> <span data-ttu-id="1ba82-124">[XML] 是預設值。</span><span class="sxs-lookup"><span data-stu-id="1ba82-124">XML is the default.</span></span>
 
-- <span data-ttu-id="23280-125">OneChatRoomPerOutputFile-此參數可讓您指定要為每個聊天室建立不同的報表。</span><span class="sxs-lookup"><span data-stu-id="23280-125">OneChatRoomPerOutputFile - This parameter lets you specify that separate reports to be created for each chat room.</span></span>
+- <span data-ttu-id="1ba82-125">OneChatRoomPerOutputFile-此參數可讓您指定要為每個聊天室建立不同的報表。</span><span class="sxs-lookup"><span data-stu-id="1ba82-125">OneChatRoomPerOutputFile - This parameter lets you specify that separate reports to be created for each chat room.</span></span>
 
-- <span data-ttu-id="23280-126">AddChatRoomDetails-啟用時，此參數會記錄資料庫中每個聊天室的其他詳細資料。</span><span class="sxs-lookup"><span data-stu-id="23280-126">AddChatRoomDetails - When enabled, this parameter records additional details about each chat room in the database.</span></span> <span data-ttu-id="23280-127">因為此設定會大幅增加資料庫大小，所以預設為停用。</span><span class="sxs-lookup"><span data-stu-id="23280-127">Because this setting can greatly increase the size of the database, it is disabled by default.</span></span>
+- <span data-ttu-id="1ba82-126">AddChatRoomDetails-啟用時，此參數會記錄資料庫中每個聊天室的其他詳細資料。</span><span class="sxs-lookup"><span data-stu-id="1ba82-126">AddChatRoomDetails - When enabled, this parameter records additional details about each chat room in the database.</span></span> <span data-ttu-id="1ba82-127">因為此設定會大幅增加資料庫大小，所以預設為停用。</span><span class="sxs-lookup"><span data-stu-id="1ba82-127">Because this setting can greatly increase the size of the database, it is disabled by default.</span></span>
 
-- <span data-ttu-id="23280-128">AddUserDetails-啟用時，此參數會記錄資料庫中每個聊天室使用者的其他詳細資料。</span><span class="sxs-lookup"><span data-stu-id="23280-128">AddUserDetails - When enabled, this parameter records additional details about each chat room user in the database.</span></span> <span data-ttu-id="23280-129">因為此設定會大幅增加資料庫大小，所以預設為停用。</span><span class="sxs-lookup"><span data-stu-id="23280-129">Because this setting can greatly increase the size of the database, it is disabled by default.</span></span>
+- <span data-ttu-id="1ba82-128">AddUserDetails-啟用時，此參數會記錄資料庫中每個聊天室使用者的其他詳細資料。</span><span class="sxs-lookup"><span data-stu-id="1ba82-128">AddUserDetails - When enabled, this parameter records additional details about each chat room user in the database.</span></span> <span data-ttu-id="1ba82-129">因為此設定會大幅增加資料庫大小，所以預設為停用。</span><span class="sxs-lookup"><span data-stu-id="1ba82-129">Because this setting can greatly increase the size of the database, it is disabled by default.</span></span>
 
-- <span data-ttu-id="23280-130">身分識別-此參數可讓規範設定成為特定集合的範圍，包括全域、網站和服務層級。</span><span class="sxs-lookup"><span data-stu-id="23280-130">Identity - This parameter allows compliance settings to be scoped for a particular collection, including the global, site, and service levels.</span></span> <span data-ttu-id="23280-131">預設為 [全域] 層級。</span><span class="sxs-lookup"><span data-stu-id="23280-131">The default is the global level.</span></span> 
+- <span data-ttu-id="1ba82-130">身分識別-此參數可讓規範設定成為特定集合的範圍，包括全域、網站和服務層級。</span><span class="sxs-lookup"><span data-stu-id="1ba82-130">Identity - This parameter allows compliance settings to be scoped for a particular collection, including the global, site, and service levels.</span></span> <span data-ttu-id="1ba82-131">預設為 [全域] 層級。</span><span class="sxs-lookup"><span data-stu-id="1ba82-131">The default is the global level.</span></span> 
 
-- <span data-ttu-id="23280-132">RunInterval-此參數規定伺服器在建立下一個相容性輸出檔案之前的時間長度（預設值為15分鐘）。</span><span class="sxs-lookup"><span data-stu-id="23280-132">RunInterval - This parameter dictates the amount of time before the server creates the next compliance output file (the default is 15 minutes).</span></span>
+- <span data-ttu-id="1ba82-132">RunInterval-此參數規定伺服器在建立下一個相容性輸出檔案之前的時間長度（預設值為15分鐘）。</span><span class="sxs-lookup"><span data-stu-id="1ba82-132">RunInterval - This parameter dictates the amount of time before the server creates the next compliance output file (the default is 15 minutes).</span></span>
 
-## <a name="use-a-customized-compliance-adapter"></a><span data-ttu-id="23280-133">使用自訂的合規性配接器</span><span class="sxs-lookup"><span data-stu-id="23280-133">Use a customized compliance adapter</span></span>
+## <a name="use-a-customized-compliance-adapter"></a><span data-ttu-id="1ba82-133">使用自訂的合規性配接器</span><span class="sxs-lookup"><span data-stu-id="1ba82-133">Use a customized compliance adapter</span></span>
 
-<span data-ttu-id="23280-134">您可以撰寫自訂配接器，而不是使用隨持續聊天伺服器一起安裝的 XmlAdapter。</span><span class="sxs-lookup"><span data-stu-id="23280-134">You can write a custom adapter instead of using the XmlAdapter that is installed with Persistent Chat Server.</span></span> <span data-ttu-id="23280-135">若要完成這項作業，您必須提供包含實現**IComplianceAdapter**介面之公用類別的 .net Framework 元件。</span><span class="sxs-lookup"><span data-stu-id="23280-135">To accomplish this, you must provide a .NET Framework assembly that contains a public class that implements the **IComplianceAdapter** interface.</span></span> <span data-ttu-id="23280-136">您必須將此元件放在持續聊天伺服器池中每個伺服器的 [永久聊天伺服器安裝] 資料夾中。</span><span class="sxs-lookup"><span data-stu-id="23280-136">You must place this assembly in the Persistent Chat Server installation folder of each server in your Persistent Chat Server pool.</span></span> <span data-ttu-id="23280-137">任何一個合規性伺服器都可以為您的配接器提供合規性資料，但合規性伺服器將不會提供重複的合規性資料給您的配接器的多個實例。</span><span class="sxs-lookup"><span data-stu-id="23280-137">Any one of the Compliance servers can provide compliance data to your adapter, but the compliance servers will not provide duplicate compliance data to multiple instances of your adapter.</span></span>
+<span data-ttu-id="1ba82-134">您可以撰寫自訂配接器，而不是使用隨持續聊天伺服器一起安裝的 XmlAdapter。</span><span class="sxs-lookup"><span data-stu-id="1ba82-134">You can write a custom adapter instead of using the XmlAdapter that is installed with Persistent Chat Server.</span></span> <span data-ttu-id="1ba82-135">若要完成這項作業，您必須提供包含實現**IComplianceAdapter**介面之公用類別的 .net Framework 元件。</span><span class="sxs-lookup"><span data-stu-id="1ba82-135">To accomplish this, you must provide a .NET Framework assembly that contains a public class that implements the **IComplianceAdapter** interface.</span></span> <span data-ttu-id="1ba82-136">您必須將此元件放在持續聊天伺服器池中每個伺服器的 [永久聊天伺服器安裝] 資料夾中。</span><span class="sxs-lookup"><span data-stu-id="1ba82-136">You must place this assembly in the Persistent Chat Server installation folder of each server in your Persistent Chat Server pool.</span></span> <span data-ttu-id="1ba82-137">任何一個合規性伺服器都可以為您的配接器提供合規性資料，但合規性伺服器將不會提供重複的合規性資料給您的配接器的多個實例。</span><span class="sxs-lookup"><span data-stu-id="1ba82-137">Any one of the Compliance servers can provide compliance data to your adapter, but the compliance servers will not provide duplicate compliance data to multiple instances of your adapter.</span></span>
 
-<span data-ttu-id="23280-138">介面是在命名空間`Microsoft.Rtc.Internal.Chat.Server.Compliance`的合規性 .dll 程式集中定義。</span><span class="sxs-lookup"><span data-stu-id="23280-138">The interface is defined in the Compliance.dll assembly in the namespace  `Microsoft.Rtc.Internal.Chat.Server.Compliance`.</span></span> <span data-ttu-id="23280-139">介面定義您的自訂配接器必須實現的兩種方法。</span><span class="sxs-lookup"><span data-stu-id="23280-139">The interface defines two methods that your custom adapter must implement.</span></span>
+<span data-ttu-id="1ba82-138">介面是在命名空間`Microsoft.Rtc.Internal.Chat.Server.Compliance`的合規性 .dll 程式集中定義。</span><span class="sxs-lookup"><span data-stu-id="1ba82-138">The interface is defined in the Compliance.dll assembly in the namespace  `Microsoft.Rtc.Internal.Chat.Server.Compliance`.</span></span> <span data-ttu-id="1ba82-139">介面定義您的自訂配接器必須實現的兩種方法。</span><span class="sxs-lookup"><span data-stu-id="1ba82-139">The interface defines two methods that your custom adapter must implement.</span></span>
 
-<span data-ttu-id="23280-140">當配接器第一次載入時，Persistent 聊天相容性伺服器將呼叫下列方法。</span><span class="sxs-lookup"><span data-stu-id="23280-140">The Persistent Chat Compliance server will call the following method when the adapter first loads.</span></span> <span data-ttu-id="23280-141">`AdapterConfig`包含與合規性配接器相關的持續聊天相容性設定：</span><span class="sxs-lookup"><span data-stu-id="23280-141">The  `AdapterConfig` contains the Persistent Chat compliance configuration that is relevant to the compliance adapter:</span></span>
+<span data-ttu-id="1ba82-140">當配接器第一次載入時，Persistent 聊天相容性伺服器將呼叫下列方法。</span><span class="sxs-lookup"><span data-stu-id="1ba82-140">The Persistent Chat Compliance server will call the following method when the adapter first loads.</span></span> <span data-ttu-id="1ba82-141">`AdapterConfig`包含與合規性配接器相關的持續聊天相容性設定：</span><span class="sxs-lookup"><span data-stu-id="1ba82-141">The  `AdapterConfig` contains the Persistent Chat compliance configuration that is relevant to the compliance adapter:</span></span>
 
 ```cpp
 void SetConfig(AdapterConfig config)
 ```
 
-<span data-ttu-id="23280-142">只要有要翻譯的新資料，持續性聊天規範伺服器就會以週期性的時間間隔呼叫下列方法。</span><span class="sxs-lookup"><span data-stu-id="23280-142">The Persistent Chat Compliance server calls the following method at periodic intervals as long as there is new data to translate.</span></span> <span data-ttu-id="23280-143">這個時間間隔與持續聊天相容`RunInterval`性設定中的設定相同：</span><span class="sxs-lookup"><span data-stu-id="23280-143">This time interval is equal to the  `RunInterval` as set in the Persistent Chat Compliance configuration:</span></span>
+<span data-ttu-id="1ba82-142">只要有要翻譯的新資料，持續性聊天規範伺服器就會以週期性的時間間隔呼叫下列方法。</span><span class="sxs-lookup"><span data-stu-id="1ba82-142">The Persistent Chat Compliance server calls the following method at periodic intervals as long as there is new data to translate.</span></span> <span data-ttu-id="1ba82-143">這個時間間隔與持續聊天相容`RunInterval`性設定中的設定相同：</span><span class="sxs-lookup"><span data-stu-id="1ba82-143">This time interval is equal to the  `RunInterval` as set in the Persistent Chat Compliance configuration:</span></span>
 
 ```cpp
 void Translate(ConversationCollection conversations)
 ```
 
-<span data-ttu-id="23280-144">`ConversationCollection`包含上次呼叫此方法時所收集的交談資訊。</span><span class="sxs-lookup"><span data-stu-id="23280-144">The  `ConversationCollection` contains the conversation information that was collected from the last time this method was called.</span></span>
+<span data-ttu-id="1ba82-144">`ConversationCollection`包含上次呼叫此方法時所收集的交談資訊。</span><span class="sxs-lookup"><span data-stu-id="1ba82-144">The  `ConversationCollection` contains the conversation information that was collected from the last time this method was called.</span></span>
 
-## <a name="customize-the-xslt-definition-file"></a><span data-ttu-id="23280-145">自訂 XSLT 定義檔</span><span class="sxs-lookup"><span data-stu-id="23280-145">Customize the XSLT definition file</span></span>
+## <a name="customize-the-xslt-definition-file"></a><span data-ttu-id="1ba82-145">自訂 XSLT 定義檔</span><span class="sxs-lookup"><span data-stu-id="1ba82-145">Customize the XSLT definition file</span></span>
 
-<span data-ttu-id="23280-146">合規性資料會以 XML 形式傳送，您可以使用 XSLT 定義檔，將其轉換成最符合貴組織的格式。</span><span class="sxs-lookup"><span data-stu-id="23280-146">The compliance data is delivered as XML, which you can transform into the format that best fits your organization, by using an XSLT definition file.</span></span> <span data-ttu-id="23280-147">本主題描述合規性服務所建立的 XML 檔案。</span><span class="sxs-lookup"><span data-stu-id="23280-147">This topic describes the XML file that the Compliance service creates.</span></span> <span data-ttu-id="23280-148">它也提供 XSLT 定義和輸出檔案的範例。</span><span class="sxs-lookup"><span data-stu-id="23280-148">It also provides samples of XSLT definition and output files.</span></span>
+<span data-ttu-id="1ba82-146">合規性資料會以 XML 形式傳送，您可以使用 XSLT 定義檔，將其轉換成最符合貴組織的格式。</span><span class="sxs-lookup"><span data-stu-id="1ba82-146">The compliance data is delivered as XML, which you can transform into the format that best fits your organization, by using an XSLT definition file.</span></span> <span data-ttu-id="1ba82-147">本主題描述合規性服務所建立的 XML 檔案。</span><span class="sxs-lookup"><span data-stu-id="1ba82-147">This topic describes the XML file that the Compliance service creates.</span></span> <span data-ttu-id="1ba82-148">它也提供 XSLT 定義和輸出檔案的範例。</span><span class="sxs-lookup"><span data-stu-id="1ba82-148">It also provides samples of XSLT definition and output files.</span></span>
 
-### <a name="output-format"></a><span data-ttu-id="23280-149">輸出格式</span><span class="sxs-lookup"><span data-stu-id="23280-149">Output format</span></span>
+### <a name="output-format"></a><span data-ttu-id="1ba82-149">輸出格式</span><span class="sxs-lookup"><span data-stu-id="1ba82-149">Output format</span></span>
 
-<span data-ttu-id="23280-150">合規性服務輸出是依交談（交談元素），然後依訊息（Messages 元素）來分類，如下列程式碼範例所示：</span><span class="sxs-lookup"><span data-stu-id="23280-150">The Compliance service output is categorized by conversation (the Conversation element) and then by message (the Messages element), as shown in the following code sample:</span></span>
+<span data-ttu-id="1ba82-150">合規性服務輸出是依交談（交談元素），然後依訊息（Messages 元素）來分類，如下列程式碼範例所示：</span><span class="sxs-lookup"><span data-stu-id="1ba82-150">The Compliance service output is categorized by conversation (the Conversation element) and then by message (the Messages element), as shown in the following code sample:</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?> 
@@ -112,7 +114,7 @@ void Translate(ConversationCollection conversations)
 </Conversations>
 ```
 
-<span data-ttu-id="23280-151">交談元素包含四個元素（通道、FirstMessage、StartTimeUTC 和 EndTimeUTC）。</span><span class="sxs-lookup"><span data-stu-id="23280-151">A Conversation element contains four elements (Channel, FirstMessage, StartTimeUTC, and EndTimeUTC).</span></span> <span data-ttu-id="23280-152">通道元素包含聊天室的統一資源識別項（URI），而 FirstMessage 元素則說明 Messages 元素中的第一封郵件。</span><span class="sxs-lookup"><span data-stu-id="23280-152">The Channel element contains the Uniform Resource Identifier (URI) of the chat room, and the FirstMessage element describes the first message in the Messages element.</span></span> <span data-ttu-id="23280-153">StartTimeUTC 和 EndTimeUTC 元素會提供交談的開始和結束時間，如下列程式碼範例所示：</span><span class="sxs-lookup"><span data-stu-id="23280-153">The StartTimeUTC and EndTimeUTC elements provide the start and end times for the conversation, as shown in the following code sample:</span></span>
+<span data-ttu-id="1ba82-151">交談元素包含四個元素（通道、FirstMessage、StartTimeUTC 和 EndTimeUTC）。</span><span class="sxs-lookup"><span data-stu-id="1ba82-151">A Conversation element contains four elements (Channel, FirstMessage, StartTimeUTC, and EndTimeUTC).</span></span> <span data-ttu-id="1ba82-152">通道元素包含聊天室的統一資源識別項（URI），而 FirstMessage 元素則說明 Messages 元素中的第一封郵件。</span><span class="sxs-lookup"><span data-stu-id="1ba82-152">The Channel element contains the Uniform Resource Identifier (URI) of the chat room, and the FirstMessage element describes the first message in the Messages element.</span></span> <span data-ttu-id="1ba82-153">StartTimeUTC 和 EndTimeUTC 元素會提供交談的開始和結束時間，如下列程式碼範例所示：</span><span class="sxs-lookup"><span data-stu-id="1ba82-153">The StartTimeUTC and EndTimeUTC elements provide the start and end times for the conversation, as shown in the following code sample:</span></span>
 
 ```XML
 <<FirstMessage type="JOIN" content="" id="0">
@@ -121,7 +123,7 @@ void Translate(ConversationCollection conversations)
 </FirstMessage>
 ```
 
-<span data-ttu-id="23280-154">Message 元素包含兩個元素（寄件者與 DateTimeUTC）和三個屬性（類型、內容和識別碼）。</span><span class="sxs-lookup"><span data-stu-id="23280-154">A Message element contains two elements (Sender and DateTimeUTC) and three attributes (Type, Content, and ID).</span></span> <span data-ttu-id="23280-155">Sender 元素代表傳送訊息的使用者，而 DateTimeUTC 元素則代表事件發生的時間，如下列程式碼範例所示：</span><span class="sxs-lookup"><span data-stu-id="23280-155">The Sender element represents the user who sends the message, and the DateTimeUTC element represents when an event occurs, as shown in the following code sample:</span></span>
+<span data-ttu-id="1ba82-154">Message 元素包含兩個元素（寄件者與 DateTimeUTC）和三個屬性（類型、內容和識別碼）。</span><span class="sxs-lookup"><span data-stu-id="1ba82-154">A Message element contains two elements (Sender and DateTimeUTC) and three attributes (Type, Content, and ID).</span></span> <span data-ttu-id="1ba82-155">Sender 元素代表傳送訊息的使用者，而 DateTimeUTC 元素則代表事件發生的時間，如下列程式碼範例所示：</span><span class="sxs-lookup"><span data-stu-id="1ba82-155">The Sender element represents the user who sends the message, and the DateTimeUTC element represents when an event occurs, as shown in the following code sample:</span></span>
 
 ```XML
 <Message type="JOIN" content="" id="0">
@@ -130,31 +132,31 @@ void Translate(ConversationCollection conversations)
 </Message>
 ```
 
-<span data-ttu-id="23280-156">下表說明訊息屬性類型、內容和識別碼。</span><span class="sxs-lookup"><span data-stu-id="23280-156">The following table describes the message attributes Type, Content, and ID.</span></span>
+<span data-ttu-id="1ba82-156">下表說明訊息屬性類型、內容和識別碼。</span><span class="sxs-lookup"><span data-stu-id="1ba82-156">The following table describes the message attributes Type, Content, and ID.</span></span>
 
-<span data-ttu-id="23280-157">**郵件元素屬性**</span><span class="sxs-lookup"><span data-stu-id="23280-157">**Messages Element Attributes**</span></span>
+<span data-ttu-id="1ba82-157">**郵件元素屬性**</span><span class="sxs-lookup"><span data-stu-id="1ba82-157">**Messages Element Attributes**</span></span>
 
-|<span data-ttu-id="23280-158">**Attribute**</span><span class="sxs-lookup"><span data-stu-id="23280-158">**Attribute**</span></span>|<span data-ttu-id="23280-159">**描述**</span><span class="sxs-lookup"><span data-stu-id="23280-159">**Description**</span></span>|<span data-ttu-id="23280-160">**選擇性/必要**</span><span class="sxs-lookup"><span data-stu-id="23280-160">**Optional/Required**</span></span>|
+|<span data-ttu-id="1ba82-158">**Attribute**</span><span class="sxs-lookup"><span data-stu-id="1ba82-158">**Attribute**</span></span>|<span data-ttu-id="1ba82-159">**說明**</span><span class="sxs-lookup"><span data-stu-id="1ba82-159">**Description**</span></span>|<span data-ttu-id="1ba82-160">**選擇性/必要**</span><span class="sxs-lookup"><span data-stu-id="1ba82-160">**Optional/Required**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="23280-161">類型</span><span class="sxs-lookup"><span data-stu-id="23280-161">Type</span></span>  <br/> |<span data-ttu-id="23280-162">指定郵件類型。</span><span class="sxs-lookup"><span data-stu-id="23280-162">Specifies the message type.</span></span> <span data-ttu-id="23280-163">訊息類型將在 [訊息元素] 訊息類型資料表中說明。</span><span class="sxs-lookup"><span data-stu-id="23280-163">The message types are described in the Message Elements Message Types table.</span></span>  <br/> |<span data-ttu-id="23280-164">必要</span><span class="sxs-lookup"><span data-stu-id="23280-164">Required</span></span>  <br/> |
-|<span data-ttu-id="23280-165">內容</span><span class="sxs-lookup"><span data-stu-id="23280-165">Content</span></span>  <br/> |<span data-ttu-id="23280-166">包含郵件的內容。</span><span class="sxs-lookup"><span data-stu-id="23280-166">Contains the content of the message.</span></span> <span data-ttu-id="23280-167">含有連線類型或元件的訊息，不會使用此屬性。</span><span class="sxs-lookup"><span data-stu-id="23280-167">Messages with a Type of Join or Part do not use this attribute.</span></span>  <br/> |<span data-ttu-id="23280-168">選用</span><span class="sxs-lookup"><span data-stu-id="23280-168">Optional</span></span>  <br/> |
-|<span data-ttu-id="23280-169">標識號</span><span class="sxs-lookup"><span data-stu-id="23280-169">ID</span></span>  <br/> |<span data-ttu-id="23280-170">指定內容的唯一識別碼。</span><span class="sxs-lookup"><span data-stu-id="23280-170">Specifies the unique ID of the content.</span></span> <span data-ttu-id="23280-171">這個屬性只會與聊天類型的訊息搭配使用。</span><span class="sxs-lookup"><span data-stu-id="23280-171">This attribute is used only with messages with a Type of Chat.</span></span>  <br/> |<span data-ttu-id="23280-172">選用</span><span class="sxs-lookup"><span data-stu-id="23280-172">Optional</span></span>  <br/> |
+|<span data-ttu-id="1ba82-161">類型</span><span class="sxs-lookup"><span data-stu-id="1ba82-161">Type</span></span>  <br/> |<span data-ttu-id="1ba82-162">指定郵件類型。</span><span class="sxs-lookup"><span data-stu-id="1ba82-162">Specifies the message type.</span></span> <span data-ttu-id="1ba82-163">訊息類型將在 [訊息元素] 訊息類型資料表中說明。</span><span class="sxs-lookup"><span data-stu-id="1ba82-163">The message types are described in the Message Elements Message Types table.</span></span>  <br/> |<span data-ttu-id="1ba82-164">必要</span><span class="sxs-lookup"><span data-stu-id="1ba82-164">Required</span></span>  <br/> |
+|<span data-ttu-id="1ba82-165">內容</span><span class="sxs-lookup"><span data-stu-id="1ba82-165">Content</span></span>  <br/> |<span data-ttu-id="1ba82-166">包含郵件的內容。</span><span class="sxs-lookup"><span data-stu-id="1ba82-166">Contains the content of the message.</span></span> <span data-ttu-id="1ba82-167">含有連線類型或元件的訊息，不會使用此屬性。</span><span class="sxs-lookup"><span data-stu-id="1ba82-167">Messages with a Type of Join or Part do not use this attribute.</span></span>  <br/> |<span data-ttu-id="1ba82-168">選用</span><span class="sxs-lookup"><span data-stu-id="1ba82-168">Optional</span></span>  <br/> |
+|<span data-ttu-id="1ba82-169">標識號</span><span class="sxs-lookup"><span data-stu-id="1ba82-169">ID</span></span>  <br/> |<span data-ttu-id="1ba82-170">指定內容的唯一識別碼。</span><span class="sxs-lookup"><span data-stu-id="1ba82-170">Specifies the unique ID of the content.</span></span> <span data-ttu-id="1ba82-171">這個屬性只會與聊天類型的訊息搭配使用。</span><span class="sxs-lookup"><span data-stu-id="1ba82-171">This attribute is used only with messages with a Type of Chat.</span></span>  <br/> |<span data-ttu-id="1ba82-172">選用</span><span class="sxs-lookup"><span data-stu-id="1ba82-172">Optional</span></span>  <br/> |
 
-<span data-ttu-id="23280-173">每個寄件者元素都包含五個屬性：使用者名稱、識別碼、電子郵件、內部和 URI。</span><span class="sxs-lookup"><span data-stu-id="23280-173">Each Sender element contains five attributes: the user name, ID, email, internal, and URI.</span></span> <span data-ttu-id="23280-174">下表說明這些屬性。</span><span class="sxs-lookup"><span data-stu-id="23280-174">These attributes are described in the following table.</span></span>
+<span data-ttu-id="1ba82-173">每個寄件者元素都包含五個屬性：使用者名稱、識別碼、電子郵件、內部和 URI。</span><span class="sxs-lookup"><span data-stu-id="1ba82-173">Each Sender element contains five attributes: the user name, ID, email, internal, and URI.</span></span> <span data-ttu-id="1ba82-174">下表說明這些屬性。</span><span class="sxs-lookup"><span data-stu-id="1ba82-174">These attributes are described in the following table.</span></span>
 
-<span data-ttu-id="23280-175">**寄件者元素屬性**</span><span class="sxs-lookup"><span data-stu-id="23280-175">**Sender Element Attributes**</span></span>
+<span data-ttu-id="1ba82-175">**寄件者元素屬性**</span><span class="sxs-lookup"><span data-stu-id="1ba82-175">**Sender Element Attributes**</span></span>
 
-|<span data-ttu-id="23280-176">**Attribute**</span><span class="sxs-lookup"><span data-stu-id="23280-176">**Attribute**</span></span>|<span data-ttu-id="23280-177">**描述**</span><span class="sxs-lookup"><span data-stu-id="23280-177">**Description**</span></span>|<span data-ttu-id="23280-178">**選擇性/必要**</span><span class="sxs-lookup"><span data-stu-id="23280-178">**Optional/Required**</span></span>|
+|<span data-ttu-id="1ba82-176">**Attribute**</span><span class="sxs-lookup"><span data-stu-id="1ba82-176">**Attribute**</span></span>|<span data-ttu-id="1ba82-177">**說明**</span><span class="sxs-lookup"><span data-stu-id="1ba82-177">**Description**</span></span>|<span data-ttu-id="1ba82-178">**選擇性/必要**</span><span class="sxs-lookup"><span data-stu-id="1ba82-178">**Optional/Required**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="23280-179">Username</span><span class="sxs-lookup"><span data-stu-id="23280-179">Username</span></span>  <br/> |<span data-ttu-id="23280-180">寄件者的名稱。</span><span class="sxs-lookup"><span data-stu-id="23280-180">The name of the sender.</span></span>  <br/> |<span data-ttu-id="23280-181">選用</span><span class="sxs-lookup"><span data-stu-id="23280-181">Optional</span></span>  <br/> |
-|<span data-ttu-id="23280-182">標識號</span><span class="sxs-lookup"><span data-stu-id="23280-182">ID</span></span>  <br/> |<span data-ttu-id="23280-183">寄件者的唯一識別碼。</span><span class="sxs-lookup"><span data-stu-id="23280-183">The sender's unique ID.</span></span>  <br/> |<span data-ttu-id="23280-184">必要</span><span class="sxs-lookup"><span data-stu-id="23280-184">Required</span></span>  <br/> |
-|<span data-ttu-id="23280-185">電子郵件</span><span class="sxs-lookup"><span data-stu-id="23280-185">Email</span></span>  <br/> |<span data-ttu-id="23280-186">寄件者的電子郵件地址。</span><span class="sxs-lookup"><span data-stu-id="23280-186">The sender's email address.</span></span>  <br/> |<span data-ttu-id="23280-187">選用</span><span class="sxs-lookup"><span data-stu-id="23280-187">Optional</span></span>  <br/> |
-|<span data-ttu-id="23280-188">內部</span><span class="sxs-lookup"><span data-stu-id="23280-188">Internal</span></span>  <br/> |<span data-ttu-id="23280-189">判斷使用者是否為內部使用者或同盟使用者。</span><span class="sxs-lookup"><span data-stu-id="23280-189">Determines whether the user is an internal user or a federated user.</span></span> <span data-ttu-id="23280-190">如果該值設定為 true，則使用者為 internal。</span><span class="sxs-lookup"><span data-stu-id="23280-190">If the value is set to true, the user is internal.</span></span>  <br/> |<span data-ttu-id="23280-191">選用</span><span class="sxs-lookup"><span data-stu-id="23280-191">Optional</span></span>  <br/> |
-|<span data-ttu-id="23280-192">Url</span><span class="sxs-lookup"><span data-stu-id="23280-192">Uri</span></span>  <br/> |<span data-ttu-id="23280-193">使用者的 SIP URI。</span><span class="sxs-lookup"><span data-stu-id="23280-193">The user's SIP URI.</span></span>  <br/> |<span data-ttu-id="23280-194">必要</span><span class="sxs-lookup"><span data-stu-id="23280-194">Required</span></span>  <br/> |
+|<span data-ttu-id="1ba82-179">Username</span><span class="sxs-lookup"><span data-stu-id="1ba82-179">Username</span></span>  <br/> |<span data-ttu-id="1ba82-180">寄件者的名稱。</span><span class="sxs-lookup"><span data-stu-id="1ba82-180">The name of the sender.</span></span>  <br/> |<span data-ttu-id="1ba82-181">選用</span><span class="sxs-lookup"><span data-stu-id="1ba82-181">Optional</span></span>  <br/> |
+|<span data-ttu-id="1ba82-182">標識號</span><span class="sxs-lookup"><span data-stu-id="1ba82-182">ID</span></span>  <br/> |<span data-ttu-id="1ba82-183">寄件者的唯一識別碼。</span><span class="sxs-lookup"><span data-stu-id="1ba82-183">The sender's unique ID.</span></span>  <br/> |<span data-ttu-id="1ba82-184">必要</span><span class="sxs-lookup"><span data-stu-id="1ba82-184">Required</span></span>  <br/> |
+|<span data-ttu-id="1ba82-185">電子郵件</span><span class="sxs-lookup"><span data-stu-id="1ba82-185">Email</span></span>  <br/> |<span data-ttu-id="1ba82-186">寄件者的電子郵件地址。</span><span class="sxs-lookup"><span data-stu-id="1ba82-186">The sender's email address.</span></span>  <br/> |<span data-ttu-id="1ba82-187">選用</span><span class="sxs-lookup"><span data-stu-id="1ba82-187">Optional</span></span>  <br/> |
+|<span data-ttu-id="1ba82-188">內部</span><span class="sxs-lookup"><span data-stu-id="1ba82-188">Internal</span></span>  <br/> |<span data-ttu-id="1ba82-189">判斷使用者是否為內部使用者或同盟使用者。</span><span class="sxs-lookup"><span data-stu-id="1ba82-189">Determines whether the user is an internal user or a federated user.</span></span> <span data-ttu-id="1ba82-190">如果該值設定為 true，則使用者為 internal。</span><span class="sxs-lookup"><span data-stu-id="1ba82-190">If the value is set to true, the user is internal.</span></span>  <br/> |<span data-ttu-id="1ba82-191">選用</span><span class="sxs-lookup"><span data-stu-id="1ba82-191">Optional</span></span>  <br/> |
+|<span data-ttu-id="1ba82-192">Url</span><span class="sxs-lookup"><span data-stu-id="1ba82-192">Uri</span></span>  <br/> |<span data-ttu-id="1ba82-193">使用者的 SIP URI。</span><span class="sxs-lookup"><span data-stu-id="1ba82-193">The user's SIP URI.</span></span>  <br/> |<span data-ttu-id="1ba82-194">必要</span><span class="sxs-lookup"><span data-stu-id="1ba82-194">Required</span></span>  <br/> |
 
-<span data-ttu-id="23280-195">下列範例顯示了 Messages 元素可以包含的郵件類型。</span><span class="sxs-lookup"><span data-stu-id="23280-195">The following examples show the message types that the Messages element can contain.</span></span> <span data-ttu-id="23280-196">它也提供如何使用每個元素的範例。</span><span class="sxs-lookup"><span data-stu-id="23280-196">It also provides examples of how each element is used.</span></span>
+<span data-ttu-id="1ba82-195">下列範例顯示了 Messages 元素可以包含的郵件類型。</span><span class="sxs-lookup"><span data-stu-id="1ba82-195">The following examples show the message types that the Messages element can contain.</span></span> <span data-ttu-id="1ba82-196">它也提供如何使用每個元素的範例。</span><span class="sxs-lookup"><span data-stu-id="1ba82-196">It also provides examples of how each element is used.</span></span>
 
-<span data-ttu-id="23280-197">[加入]-使用者加入聊天室。</span><span class="sxs-lookup"><span data-stu-id="23280-197">Join - A user joins a chat room.</span></span>
+<span data-ttu-id="1ba82-197">[加入]-使用者加入聊天室。</span><span class="sxs-lookup"><span data-stu-id="1ba82-197">Join - A user joins a chat room.</span></span>
 
 ```XML
 <Message type="JOIN" content="" id="0">
@@ -163,7 +165,7 @@ void Translate(ConversationCollection conversations)
 </Message
 ```
 
-<span data-ttu-id="23280-198">部分-使用者離開聊天室。</span><span class="sxs-lookup"><span data-stu-id="23280-198">Part - A user leaves a chat room.</span></span>
+<span data-ttu-id="1ba82-198">部分-使用者離開聊天室。</span><span class="sxs-lookup"><span data-stu-id="1ba82-198">Part - A user leaves a chat room.</span></span>
 
 ```XML
 <Message type="PART" content="" id="0">
@@ -172,7 +174,7 @@ void Translate(ConversationCollection conversations)
 </Message>
 ```
 
-<span data-ttu-id="23280-199">聊天-寄件者的電子郵件地址。</span><span class="sxs-lookup"><span data-stu-id="23280-199">Chat - The sender's email address.</span></span>
+<span data-ttu-id="1ba82-199">聊天-寄件者的電子郵件地址。</span><span class="sxs-lookup"><span data-stu-id="1ba82-199">Chat - The sender's email address.</span></span>
 
 ```XML
 <Message type="CHAT" content="hello" id="1">
@@ -181,7 +183,7 @@ void Translate(ConversationCollection conversations)
 </Message>
 ```
 
-<span data-ttu-id="23280-200">Backchat-使用者要求聊天記錄中的內容。</span><span class="sxs-lookup"><span data-stu-id="23280-200">Backchat - A user requests content from chat history.</span></span>
+<span data-ttu-id="1ba82-200">Backchat-使用者要求聊天記錄中的內容。</span><span class="sxs-lookup"><span data-stu-id="1ba82-200">Backchat - A user requests content from chat history.</span></span>
 
 ```XML
 <Message type="BACKCHAT" content="backchatcontent" id="0">
@@ -190,7 +192,7 @@ void Translate(ConversationCollection conversations)
 </Message>
 ```
 
-<span data-ttu-id="23280-201">檔案上傳-使用者上傳檔案。</span><span class="sxs-lookup"><span data-stu-id="23280-201">File upload - A user uploads a file.</span></span>
+<span data-ttu-id="1ba82-201">檔案上傳-使用者上傳檔案。</span><span class="sxs-lookup"><span data-stu-id="1ba82-201">File upload - A user uploads a file.</span></span>
 
 ```XML
 <Message type="FILEUPLOAD" content="0988239a-bb66-4616-90a4-b07771a2097c.txt" id="0">
@@ -199,7 +201,7 @@ void Translate(ConversationCollection conversations)
 </Message>
 ```
 
-<span data-ttu-id="23280-202">檔案下載-使用者下載檔案。</span><span class="sxs-lookup"><span data-stu-id="23280-202">File download - A user downloads a file.</span></span>
+<span data-ttu-id="1ba82-202">檔案下載-使用者下載檔案。</span><span class="sxs-lookup"><span data-stu-id="1ba82-202">File download - A user downloads a file.</span></span>
 
 ```XML
 <Message type="FILEDOWNLOAD" content="006074ca-24f0-4b35-8bd8-98006a2d1aa8.txt" id="0">
@@ -208,9 +210,9 @@ void Translate(ConversationCollection conversations)
 </Message>
 ```
 
-### <a name="default-persistent-chat-output-xsd-and-example-xsl-transform"></a><span data-ttu-id="23280-203">預設持續聊天輸出 XSD 和範例 XSL 轉換</span><span class="sxs-lookup"><span data-stu-id="23280-203">Default Persistent Chat Output XSD and Example XSL Transform</span></span>
+### <a name="default-persistent-chat-output-xsd-and-example-xsl-transform"></a><span data-ttu-id="1ba82-203">預設持續聊天輸出 XSD 和範例 XSL 轉換</span><span class="sxs-lookup"><span data-stu-id="1ba82-203">Default Persistent Chat Output XSD and Example XSL Transform</span></span>
 
-<span data-ttu-id="23280-204">下列程式碼範例包含合規性伺服器的預設輸出：</span><span class="sxs-lookup"><span data-stu-id="23280-204">The following code sample contains the default output from the Compliance Server:</span></span>
+<span data-ttu-id="1ba82-204">下列程式碼範例包含合規性伺服器的預設輸出：</span><span class="sxs-lookup"><span data-stu-id="1ba82-204">The following code sample contains the default output from the Compliance Server:</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -309,7 +311,7 @@ void Translate(ConversationCollection conversations)
 </xs:schema>
 ```
 
-<span data-ttu-id="23280-205">下列程式碼範例包含範例 XSL 轉換：</span><span class="sxs-lookup"><span data-stu-id="23280-205">The following code sample contains a sample XSL transform:</span></span>
+<span data-ttu-id="1ba82-205">下列程式碼範例包含範例 XSL 轉換：</span><span class="sxs-lookup"><span data-stu-id="1ba82-205">The following code sample contains a sample XSL transform:</span></span>
 
 ```XML
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs">
