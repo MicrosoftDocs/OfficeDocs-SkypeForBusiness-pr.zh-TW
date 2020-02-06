@@ -8,15 +8,17 @@ ms.date: 3/31/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 216abec2-d354-4ee3-9999-0a6b350a4a5f
 description: Convert CcIsoToVhdx Cmdlet 會使用客戶提供的 Windows Server 2012 R2 ISO 檔案來建立基本虛擬硬碟檔案（VHDX）。 在部署商務用 Skype 雲端連接器版本期間，會用到 VHDX 檔案。
-ms.openlocfilehash: 780002c54a77746c51f418cae077ffcc9b1fb608
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: f6b16c27b82919f24b9ee0e3094fb03fffa6443b
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41001343"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802423"
 ---
 # <a name="convert-ccisotovhdx"></a>Convert-CcIsoToVhdx
  
@@ -28,7 +30,7 @@ Convert-CcIsoToVhdx [[-IsoFilePath] <string>] [-GeneralizeOnly] [-PauseBeforeUpd
 
 ## <a name="parameters"></a>參數
 
-|**參數**|**必要**|**類型**|**描述**|
+|**參數**|**必要**|**類型**|**說明**|
 |:-----|:-----|:-----|:-----|
 |IsoFilePath  <br/> | 必要 <br/> |System.String  <br/> | Windows Server 2012 R2 ISO 檔案的路徑。 <br/> |
 |GeneralizeOnly  <br/> |選用  <br/> |System.Management.Automation.SwitchParameter  <br/> |如果轉換過程在 Windows 更新期間失敗，您可以嘗試設定網路/proxy 並手動更新 Windows。 手動工作完成後，您可以使用-GeneralizeOnly 參數執行此 Cmdlet，這會完成剩餘的作業。  <br/> |
