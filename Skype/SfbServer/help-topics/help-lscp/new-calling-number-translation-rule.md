@@ -8,26 +8,28 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.VoiceTrunkCallingRuleEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2b6493f1-1be5-45b4-841a-09425cb302e1
 description: 您可以使用新的幹線設定：新的電話號碼轉換規則，以建立新的翻譯規則。 如需轉譯規則的詳細資訊，請參閱下列主題：
-ms.openlocfilehash: 29ca0e48ca77469961e016c43b05b58c3ab3b05d
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: b0cf251459971d4d6f192630444b188be6effb69
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41686248"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41822606"
 ---
-# <a name="new-calling-number-translation-rule"></a><span data-ttu-id="782fd-104">新增來電號碼轉譯規則</span><span class="sxs-lookup"><span data-stu-id="782fd-104">New Calling Number Translation Rule</span></span>
+# <a name="new-calling-number-translation-rule"></a><span data-ttu-id="8f5d0-104">新增來電號碼轉譯規則</span><span class="sxs-lookup"><span data-stu-id="8f5d0-104">New Calling Number Translation Rule</span></span>
 
-<span data-ttu-id="782fd-105">您可以使用**新的幹線**設定：**新的電話號碼轉換規則**，以建立新的翻譯規則。</span><span class="sxs-lookup"><span data-stu-id="782fd-105">You can use the **New Trunk Configuration**: **New Calling Number Translation Rule** to create a new translation rule.</span></span> <span data-ttu-id="782fd-106">如需轉譯規則的詳細資訊，請參閱下列主題：</span><span class="sxs-lookup"><span data-stu-id="782fd-106">For details about translation rules, see the following topics:</span></span>
+<span data-ttu-id="8f5d0-105">您可以使用**新的幹線**設定：**新的電話號碼轉換規則**，以建立新的翻譯規則。</span><span class="sxs-lookup"><span data-stu-id="8f5d0-105">You can use the **New Trunk Configuration**: **New Calling Number Translation Rule** to create a new translation rule.</span></span> <span data-ttu-id="8f5d0-106">如需轉譯規則的詳細資訊，請參閱下列主題：</span><span class="sxs-lookup"><span data-stu-id="8f5d0-106">For details about translation rules, see the following topics:</span></span>
 
-1. [<span data-ttu-id="782fd-107">在商務用 Skype Server 2015 中建立或修改呼叫 ID 簡報的翻譯規則</span><span class="sxs-lookup"><span data-stu-id="782fd-107">Create or modify a translation rule for called ID presentation in Skype for Business Server 2015</span></span>](../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
+1. [<span data-ttu-id="8f5d0-107">在商務用 Skype Server 2015 中建立或修改呼叫 ID 簡報的翻譯規則</span><span class="sxs-lookup"><span data-stu-id="8f5d0-107">Create or modify a translation rule for called ID presentation in Skype for Business Server 2015</span></span>](../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
 
-2. [<span data-ttu-id="782fd-108">Trunk Configuration and Translation Rules</span><span class="sxs-lookup"><span data-stu-id="782fd-108">Trunk Configuration and Translation Rules</span></span>](https://technet.microsoft.com/library/0c339511-a185-484e-94f0-dbe918b7e48a.aspx)
+2. [<span data-ttu-id="8f5d0-108">Trunk Configuration and Translation Rules</span><span class="sxs-lookup"><span data-stu-id="8f5d0-108">Trunk Configuration and Translation Rules</span></span>](https://technet.microsoft.com/library/0c339511-a185-484e-94f0-dbe918b7e48a.aspx)
 
-3. [<span data-ttu-id="782fd-109">定義翻譯規則</span><span class="sxs-lookup"><span data-stu-id="782fd-109">Defining Translation Rules</span></span>](https://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx)
+3. [<span data-ttu-id="8f5d0-109">定義翻譯規則</span><span class="sxs-lookup"><span data-stu-id="8f5d0-109">Defining Translation Rules</span></span>](https://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx)
 
 

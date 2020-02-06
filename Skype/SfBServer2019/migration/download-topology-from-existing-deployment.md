@@ -7,32 +7,34 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
-description: 建立商務用 Skype Server 2019 池時, 您將會使用與舊版安裝相關聯的中央管理儲存。 當您在第一次使用及後續編輯會話時啟動拓撲產生器時, 系統會提示您輸入您想要拓撲建立器載入目前設定檔的位置。 因為已定義拓撲結構, 且已建立中央管理儲存區, 所以您應該選擇從現有的部署下載拓撲。 拓撲建立器將會讀取資料庫並檢索目前的定義。
-ms.openlocfilehash: 33dc190bae5bd5d983d13932b4a9933fe5f74976
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 建立商務用 Skype Server 2019 池時，您將會使用與舊版安裝相關聯的中央管理儲存。 當您在第一次使用及後續編輯會話時啟動拓撲產生器時，系統會提示您輸入您想要拓撲建立器載入目前設定檔的位置。 因為已定義拓撲結構，且已建立中央管理儲存區，所以您應該選擇從現有的部署下載拓撲。 拓撲建立器將會讀取資料庫並檢索目前的定義。
+ms.openlocfilehash: 19c6072917e6fb8a0ec96ad22f89a0baab716f85
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36238737"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813631"
 ---
-# <a name="download-topology-from-existing-deployment"></a><span data-ttu-id="5d63d-106">從現有部署下載拓撲</span><span class="sxs-lookup"><span data-stu-id="5d63d-106">Download topology from existing deployment</span></span>
+# <a name="download-topology-from-existing-deployment"></a><span data-ttu-id="09062-106">從現有部署下載拓撲</span><span class="sxs-lookup"><span data-stu-id="09062-106">Download topology from existing deployment</span></span>
 
-<span data-ttu-id="5d63d-107">建立商務用 Skype Server 2019 池時, 您將會使用與舊版安裝相關聯的中央管理儲存。</span><span class="sxs-lookup"><span data-stu-id="5d63d-107">When creating a Skype for Business Server 2019 pool, you will use the Central Management Store that is associated with the legacy installation.</span></span> <span data-ttu-id="5d63d-108">當您在第一次使用及後續編輯會話時啟動拓撲產生器時, 系統會提示您輸入您想要拓撲建立器載入目前設定檔的位置。</span><span class="sxs-lookup"><span data-stu-id="5d63d-108">When you start Topology Builder on first use and subsequent edit sessions, you are prompted for the location where you want Topology Builder to load the current configuration document.</span></span> <span data-ttu-id="5d63d-109">因為已定義拓撲結構, 且已建立中央管理儲存區, 所以您應該選擇從現有的部署下載拓撲。</span><span class="sxs-lookup"><span data-stu-id="5d63d-109">Because you already have a topology defined and have established the Central Management store, you should choose to download a topology from an existing deployment.</span></span> <span data-ttu-id="5d63d-110">拓撲建立器將會讀取資料庫並檢索目前的定義。</span><span class="sxs-lookup"><span data-stu-id="5d63d-110">Topology Builder will read the database and retrieve the current definition.</span></span> 
+<span data-ttu-id="09062-107">建立商務用 Skype Server 2019 池時，您將會使用與舊版安裝相關聯的中央管理儲存。</span><span class="sxs-lookup"><span data-stu-id="09062-107">When creating a Skype for Business Server 2019 pool, you will use the Central Management Store that is associated with the legacy installation.</span></span> <span data-ttu-id="09062-108">當您在第一次使用及後續編輯會話時啟動拓撲產生器時，系統會提示您輸入您想要拓撲建立器載入目前設定檔的位置。</span><span class="sxs-lookup"><span data-stu-id="09062-108">When you start Topology Builder on first use and subsequent edit sessions, you are prompted for the location where you want Topology Builder to load the current configuration document.</span></span> <span data-ttu-id="09062-109">因為已定義拓撲結構，且已建立中央管理儲存區，所以您應該選擇從現有的部署下載拓撲。</span><span class="sxs-lookup"><span data-stu-id="09062-109">Because you already have a topology defined and have established the Central Management store, you should choose to download a topology from an existing deployment.</span></span> <span data-ttu-id="09062-110">拓撲建立器將會讀取資料庫並檢索目前的定義。</span><span class="sxs-lookup"><span data-stu-id="09062-110">Topology Builder will read the database and retrieve the current definition.</span></span> 
   
-### <a name="to-download-a-topology-from-an-existing-deployment"></a><span data-ttu-id="5d63d-111">從現有的部署下載拓撲</span><span class="sxs-lookup"><span data-stu-id="5d63d-111">To download a topology from an existing deployment</span></span>
+### <a name="to-download-a-topology-from-an-existing-deployment"></a><span data-ttu-id="09062-111">從現有的部署下載拓撲</span><span class="sxs-lookup"><span data-stu-id="09062-111">To download a topology from an existing deployment</span></span>
 
-1. <span data-ttu-id="5d63d-112">開啟商務用 Skype Server 部署嚮導。</span><span class="sxs-lookup"><span data-stu-id="5d63d-112">Open the Skype for Business Server Deployment Wizard.</span></span>
+1. <span data-ttu-id="09062-112">開啟商務用 Skype Server 部署嚮導。</span><span class="sxs-lookup"><span data-stu-id="09062-112">Open the Skype for Business Server Deployment Wizard.</span></span>
     
-2. <span data-ttu-id="5d63d-113">從**商務用 Skype Server 2019-部署嚮導**頁面, 按一下 [**安裝管理工具**]。</span><span class="sxs-lookup"><span data-stu-id="5d63d-113">From the **Skype for Business Server 2019 - Deployment Wizard** page, click **Install Administrative Tools**.</span></span>
+2. <span data-ttu-id="09062-113">從**商務用 Skype Server 2019-部署嚮導**頁面，按一下 [**安裝管理工具**]。</span><span class="sxs-lookup"><span data-stu-id="09062-113">From the **Skype for Business Server 2019 - Deployment Wizard** page, click **Install Administrative Tools**.</span></span>
     
-3. <span data-ttu-id="5d63d-114">啟動拓撲產生器: 按一下 [**開始**], 按一下 [**所有程式**], 按一下 [ **Microsoft 商務用 skype server 2019**], 然後按一下 [**商務用 skype server 拓撲**建立器]。</span><span class="sxs-lookup"><span data-stu-id="5d63d-114">Start Topology Builder: Click **Start**, click **All Programs**, click **Microsoft Skype for Business Server 2019**, and then click **Skype for Business Server Topology Builder**.</span></span>
+3. <span data-ttu-id="09062-114">啟動拓撲產生器：按一下 [**開始**]，按一下 [**所有程式**]，按一下 [ **Microsoft 商務用 skype server 2019**]，然後按一下 [**商務用 skype server 拓撲**建立器]。</span><span class="sxs-lookup"><span data-stu-id="09062-114">Start Topology Builder: Click **Start**, click **All Programs**, click **Microsoft Skype for Business Server 2019**, and then click **Skype for Business Server Topology Builder**.</span></span>
     
-4. <span data-ttu-id="5d63d-115">選取 [**從現有的部署下載拓撲**。</span><span class="sxs-lookup"><span data-stu-id="5d63d-115">Select **Download Topology from existing deployment**.</span></span>
+4. <span data-ttu-id="09062-115">選取 [**從現有的部署下載拓撲**。</span><span class="sxs-lookup"><span data-stu-id="09062-115">Select **Download Topology from existing deployment**.</span></span>
   
-5. <span data-ttu-id="5d63d-116">選擇檔案名, 然後使用預設的 tbxml 檔案類型來儲存拓撲。</span><span class="sxs-lookup"><span data-stu-id="5d63d-116">Choose a file name, and save the topology with the default .tbxml file type.</span></span>
+5. <span data-ttu-id="09062-116">選擇檔案名，然後使用預設的 tbxml 檔案類型來儲存拓撲。</span><span class="sxs-lookup"><span data-stu-id="09062-116">Choose a file name, and save the topology with the default .tbxml file type.</span></span>
     
-6. <span data-ttu-id="5d63d-117">展開商務用 Skype Server 節點, 以顯示部署中的各種伺服器角色。</span><span class="sxs-lookup"><span data-stu-id="5d63d-117">Expand the Skype for Business Server node to reveal the various server roles in the deployment.</span></span>
+6. <span data-ttu-id="09062-117">展開商務用 Skype Server 節點，以顯示部署中的各種伺服器角色。</span><span class="sxs-lookup"><span data-stu-id="09062-117">Expand the Skype for Business Server node to reveal the various server roles in the deployment.</span></span>
     
   
 

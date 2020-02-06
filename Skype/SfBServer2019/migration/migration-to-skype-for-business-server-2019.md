@@ -7,55 +7,57 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 本節中的主題會引導您逐步完成遷移至商務用 Skype Server 2019 的程式。
-ms.openlocfilehash: 8e58eaa3870e8149e874a1ec196a728976f429f3
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 51c3be10b90198e1abe24172aa35ab167e871739
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36238086"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813401"
 ---
-# <a name="migration-to-skype-for-business-server-2019"></a><span data-ttu-id="e9bb1-103">遷移至商務用 Skype Server 2019</span><span class="sxs-lookup"><span data-stu-id="e9bb1-103">Migration to Skype for Business Server 2019</span></span>
+# <a name="migration-to-skype-for-business-server-2019"></a><span data-ttu-id="4efea-103">遷移至商務用 Skype Server 2019</span><span class="sxs-lookup"><span data-stu-id="4efea-103">Migration to Skype for Business Server 2019</span></span>
 
-<span data-ttu-id="e9bb1-104">本節中的主題會引導您逐步完成遷移至商務用 Skype Server 2019 的程式。</span><span class="sxs-lookup"><span data-stu-id="e9bb1-104">The topics in this section guide you through the process of migrating to Skype for Business Server 2019.</span></span> <span data-ttu-id="e9bb1-105">本文涵蓋將 Lync Server 2013 或商務用 Skype Server 2015 遷移至商務用 Skype Server 2019。</span><span class="sxs-lookup"><span data-stu-id="e9bb1-105">This article covers migrating Lync Server 2013 or Skype for Business Server 2015 to Skype for Business Server 2019.</span></span>
+<span data-ttu-id="4efea-104">本節中的主題會引導您逐步完成遷移至商務用 Skype Server 2019 的程式。</span><span class="sxs-lookup"><span data-stu-id="4efea-104">The topics in this section guide you through the process of migrating to Skype for Business Server 2019.</span></span> <span data-ttu-id="4efea-105">本文涵蓋將 Lync Server 2013 或商務用 Skype Server 2015 遷移至商務用 Skype Server 2019。</span><span class="sxs-lookup"><span data-stu-id="4efea-105">This article covers migrating Lync Server 2013 or Skype for Business Server 2015 to Skype for Business Server 2019.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="e9bb1-106">在整個內容中, 我們使用*舊版的舊版*Lync server 2013 或您要遷移至商務用 skype server 2019 的商務用 skype server 2015。</span><span class="sxs-lookup"><span data-stu-id="e9bb1-106">Throughout the content, we use the term *legacy* to refer to the legacy Lync Server 2013 or Skype for Business Server 2015 that you are migrating to Skype for Business Server 2019.</span></span>
+> <span data-ttu-id="4efea-106">在整個內容中，我們使用*舊版的舊版*Lync server 2013 或您要遷移至商務用 skype server 2019 的商務用 skype server 2015。</span><span class="sxs-lookup"><span data-stu-id="4efea-106">Throughout the content, we use the term *legacy* to refer to the legacy Lync Server 2013 or Skype for Business Server 2015 that you are migrating to Skype for Business Server 2019.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="e9bb1-107">本指南描述完成每個遷移階段通常需要執行的步驟。</span><span class="sxs-lookup"><span data-stu-id="e9bb1-107">This guide describes the steps generally required to accomplish each phase of migration.</span></span> <span data-ttu-id="e9bb1-108">它不會針對每個可能的舊版部署拓撲或每個可能的遷移案例進行處理。</span><span class="sxs-lookup"><span data-stu-id="e9bb1-108">It does not address every possible legacy deployment topology or every possible migration scenario.</span></span> <span data-ttu-id="e9bb1-109">因此, 您可能不需要執行所述的每個步驟, 或者您可能需要執行其他步驟 (視您的部署而定)。</span><span class="sxs-lookup"><span data-stu-id="e9bb1-109">Therefore, you may not need to perform every step described, or you may need to perform additional steps, depending on your deployment.</span></span> <span data-ttu-id="e9bb1-110">本指南也提供驗證步驟的範例。</span><span class="sxs-lookup"><span data-stu-id="e9bb1-110">This guide also provides examples of verification steps.</span></span> <span data-ttu-id="e9bb1-111">提供這些驗證步驟是為了協助您瞭解所需尋找的專案, 以確保每個階段都能在您完成遷移時順利完成。</span><span class="sxs-lookup"><span data-stu-id="e9bb1-111">These verification steps are provided to help you understand what you need to look for to ensure that each phase completes successfully as you progress through your migration.</span></span> <span data-ttu-id="e9bb1-112">將這些驗證步驟調整為您特定的遷移程式。</span><span class="sxs-lookup"><span data-stu-id="e9bb1-112">Tailor these verification steps to your specific migration process.</span></span> 
+> <span data-ttu-id="4efea-107">本指南描述完成每個遷移階段通常需要執行的步驟。</span><span class="sxs-lookup"><span data-stu-id="4efea-107">This guide describes the steps generally required to accomplish each phase of migration.</span></span> <span data-ttu-id="4efea-108">它不會針對每個可能的舊版部署拓撲或每個可能的遷移案例進行處理。</span><span class="sxs-lookup"><span data-stu-id="4efea-108">It does not address every possible legacy deployment topology or every possible migration scenario.</span></span> <span data-ttu-id="4efea-109">因此，您可能不需要執行所述的每個步驟，或者您可能需要執行其他步驟（視您的部署而定）。</span><span class="sxs-lookup"><span data-stu-id="4efea-109">Therefore, you may not need to perform every step described, or you may need to perform additional steps, depending on your deployment.</span></span> <span data-ttu-id="4efea-110">本指南也提供驗證步驟的範例。</span><span class="sxs-lookup"><span data-stu-id="4efea-110">This guide also provides examples of verification steps.</span></span> <span data-ttu-id="4efea-111">提供這些驗證步驟是為了協助您瞭解所需尋找的專案，以確保每個階段都能在您完成遷移時順利完成。</span><span class="sxs-lookup"><span data-stu-id="4efea-111">These verification steps are provided to help you understand what you need to look for to ensure that each phase completes successfully as you progress through your migration.</span></span> <span data-ttu-id="4efea-112">將這些驗證步驟調整為您特定的遷移程式。</span><span class="sxs-lookup"><span data-stu-id="4efea-112">Tailor these verification steps to your specific migration process.</span></span> 
   
-<span data-ttu-id="e9bb1-113">本指南提供升級現有部署的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="e9bb1-113">This guide provides information specific to upgrading your existing deployment.</span></span> <span data-ttu-id="e9bb1-114">它不會說明如何變更您現有的拓撲。</span><span class="sxs-lookup"><span data-stu-id="e9bb1-114">It does not explain how to change your existing topology.</span></span> <span data-ttu-id="e9bb1-115">本指南並未涵蓋新功能的實現。</span><span class="sxs-lookup"><span data-stu-id="e9bb1-115">This guide does not cover the implementation of new features.</span></span> <span data-ttu-id="e9bb1-116">在其他地方記錄詳細的程式時, 本指南會將您導向至文章或文章區段。</span><span class="sxs-lookup"><span data-stu-id="e9bb1-116">When a detailed procedure is documented elsewhere, this guide directs you to the article or article section.</span></span> 
+<span data-ttu-id="4efea-113">本指南提供升級現有部署的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="4efea-113">This guide provides information specific to upgrading your existing deployment.</span></span> <span data-ttu-id="4efea-114">它不會說明如何變更您現有的拓撲。</span><span class="sxs-lookup"><span data-stu-id="4efea-114">It does not explain how to change your existing topology.</span></span> <span data-ttu-id="4efea-115">本指南並未涵蓋新功能的實現。</span><span class="sxs-lookup"><span data-stu-id="4efea-115">This guide does not cover the implementation of new features.</span></span> <span data-ttu-id="4efea-116">在其他地方記錄詳細的程式時，本指南會將您導向至文章或文章區段。</span><span class="sxs-lookup"><span data-stu-id="4efea-116">When a detailed procedure is documented elsewhere, this guide directs you to the article or article section.</span></span> 
   
-<span data-ttu-id="e9bb1-117">本文將根據下列清單中所指定的字詞加以定義。</span><span class="sxs-lookup"><span data-stu-id="e9bb1-117">This article defines terms as specified in the following list.</span></span>
+<span data-ttu-id="4efea-117">本文將根據下列清單中所指定的字詞加以定義。</span><span class="sxs-lookup"><span data-stu-id="4efea-117">This article defines terms as specified in the following list.</span></span>
   
-<span data-ttu-id="e9bb1-118">**遷移:** 將您的生產部署從 Lync Server 2013 或商務用 Skype Server 2015 移至商務用 Skype Server 2019。</span><span class="sxs-lookup"><span data-stu-id="e9bb1-118">**migration:** Moving your production deployment from Lync Server 2013 or Skype for Business Server 2015 to Skype for Business Server 2019.</span></span>
+<span data-ttu-id="4efea-118">**遷移：** 將您的生產部署從 Lync Server 2013 或商務用 Skype Server 2015 移至商務用 Skype Server 2019。</span><span class="sxs-lookup"><span data-stu-id="4efea-118">**migration:** Moving your production deployment from Lync Server 2013 or Skype for Business Server 2015 to Skype for Business Server 2019.</span></span>
     
-<span data-ttu-id="e9bb1-119">**共存:** 在遷移期間, 當某些功能已遷移至商務用 Skype Server 2019 且其他功能仍保留在先前版本時, 在遷移期間所存在的臨時環境。</span><span class="sxs-lookup"><span data-stu-id="e9bb1-119">**coexistence:** The temporary environment that exists during migration when some functionality has been migrated to Skype for Business Server 2019 and other functionality still remains on a prior version.</span></span>
+<span data-ttu-id="4efea-119">**共存：** 在遷移期間，當某些功能已遷移至商務用 Skype Server 2019 且其他功能仍保留在先前版本時，在遷移期間所存在的臨時環境。</span><span class="sxs-lookup"><span data-stu-id="4efea-119">**coexistence:** The temporary environment that exists during migration when some functionality has been migrated to Skype for Business Server 2019 and other functionality still remains on a prior version.</span></span>
     
-<span data-ttu-id="e9bb1-120">**互通性:** 您的部署在共存期間成功運作的能力。</span><span class="sxs-lookup"><span data-stu-id="e9bb1-120">**interoperability:** The ability of your deployment to operate successfully during the period of coexistence.</span></span>
+<span data-ttu-id="4efea-120">**互通性：** 您的部署在共存期間成功運作的能力。</span><span class="sxs-lookup"><span data-stu-id="4efea-120">**interoperability:** The ability of your deployment to operate successfully during the period of coexistence.</span></span>
 
-<span data-ttu-id="e9bb1-121">**舊版:** 您要從中移出的系統, 即 Lync Server 2013 或商務用 Skype Server 2015。</span><span class="sxs-lookup"><span data-stu-id="e9bb1-121">**legacy:** The system you are migrating away from, which is either Lync Server 2013 or Skype for Business Server 2015.</span></span>
+<span data-ttu-id="4efea-121">**舊版：** 您要從中移出的系統，即 Lync Server 2013 或商務用 Skype Server 2015。</span><span class="sxs-lookup"><span data-stu-id="4efea-121">**legacy:** The system you are migrating away from, which is either Lync Server 2013 or Skype for Business Server 2015.</span></span>
     
-## <a name="in-this-section"></a><span data-ttu-id="e9bb1-122">本節內容</span><span class="sxs-lookup"><span data-stu-id="e9bb1-122">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="4efea-122">本節內容</span><span class="sxs-lookup"><span data-stu-id="4efea-122">In this section</span></span>
 
-- [<span data-ttu-id="e9bb1-123">開始進行遷移之前</span><span class="sxs-lookup"><span data-stu-id="e9bb1-123">Before you begin the migration</span></span>](before-you-begin-the-migration.md)
+- [<span data-ttu-id="4efea-123">開始移轉之前</span><span class="sxs-lookup"><span data-stu-id="4efea-123">Before you begin the migration</span></span>](before-you-begin-the-migration.md)
     
-- [<span data-ttu-id="e9bb1-124">階段 1: 規劃您的遷移</span><span class="sxs-lookup"><span data-stu-id="e9bb1-124">Phase 1: Plan your migration</span></span>](phase-1-plan-your-migration.md)
+- [<span data-ttu-id="4efea-124">階段 1：規劃移轉</span><span class="sxs-lookup"><span data-stu-id="4efea-124">Phase 1: Plan your migration</span></span>](phase-1-plan-your-migration.md)
     
-- [<span data-ttu-id="e9bb1-125">階段 2: 準備遷移</span><span class="sxs-lookup"><span data-stu-id="e9bb1-125">Phase 2: Prepare for migration</span></span>](phase-2-prepare-for-migration.md)
+- [<span data-ttu-id="4efea-125">階段 2：準備移轉</span><span class="sxs-lookup"><span data-stu-id="4efea-125">Phase 2: Prepare for migration</span></span>](phase-2-prepare-for-migration.md)
     
-- [<span data-ttu-id="e9bb1-126">階段 3: 部署試生產池</span><span class="sxs-lookup"><span data-stu-id="e9bb1-126">Phase 3: Deploy pilot pool</span></span>](phase-3-deploy-pilot-pool.md)
+- [<span data-ttu-id="4efea-126">階段 3：部署試驗集區</span><span class="sxs-lookup"><span data-stu-id="4efea-126">Phase 3: Deploy pilot pool</span></span>](phase-3-deploy-pilot-pool.md)
     
-- <span data-ttu-id="e9bb1-127">[階段 4: 將測試使用者移至 [試驗] 池](phase-4-move-test-users-to-the-pilot-pool.md)</span><span class="sxs-lookup"><span data-stu-id="e9bb1-127">[Phase 4: Move test users to the pilot pool](phase-4-move-test-users-to-the-pilot-pool.md)</span></span>
+- <span data-ttu-id="4efea-127">[階段4：將測試使用者移至 [試驗] 池](phase-4-move-test-users-to-the-pilot-pool.md)</span><span class="sxs-lookup"><span data-stu-id="4efea-127">[Phase 4: Move test users to the pilot pool](phase-4-move-test-users-to-the-pilot-pool.md)</span></span>
     
-- [<span data-ttu-id="e9bb1-128">階段 5: 將邊緣伺服器新增至試驗池</span><span class="sxs-lookup"><span data-stu-id="e9bb1-128">Phase 5: Add Edge Server to pilot pool</span></span>](phase-5-add-edge-server-to-pilot-pool.md)
+- [<span data-ttu-id="4efea-128">階段 5：將 Edge Server 新增到試驗集區</span><span class="sxs-lookup"><span data-stu-id="4efea-128">Phase 5: Add Edge Server to pilot pool</span></span>](phase-5-add-edge-server-to-pilot-pool.md)
     
-- [<span data-ttu-id="e9bb1-129">階段 6: 從試驗部署移至生產環境</span><span class="sxs-lookup"><span data-stu-id="e9bb1-129">Phase 6: Move from pilot deployment into production</span></span>](phase-6-move-from-pilot-deployment-into-production.md)
+- [<span data-ttu-id="4efea-129">階段 6：從試驗部署移至生產</span><span class="sxs-lookup"><span data-stu-id="4efea-129">Phase 6: Move from pilot deployment into production</span></span>](phase-6-move-from-pilot-deployment-into-production.md)
     
-- [<span data-ttu-id="e9bb1-130">階段 7: 完成遷移後的工作</span><span class="sxs-lookup"><span data-stu-id="e9bb1-130">Phase 7: Complete post-migration tasks</span></span>](phase-7-complete-post-migration-tasks.md)
+- [<span data-ttu-id="4efea-130">階段 7：完成移轉後的工作</span><span class="sxs-lookup"><span data-stu-id="4efea-130">Phase 7: Complete post-migration tasks</span></span>](phase-7-complete-post-migration-tasks.md)
     
-- [<span data-ttu-id="e9bb1-131">階段 8: 解除授權舊版池</span><span class="sxs-lookup"><span data-stu-id="e9bb1-131">Phase 8: Decommission legacy pools</span></span>](phase-8-decommission-legacy-pools.md)
+- [<span data-ttu-id="4efea-131">階段 8：解除委任舊版集區</span><span class="sxs-lookup"><span data-stu-id="4efea-131">Phase 8: Decommission legacy pools</span></span>](phase-8-decommission-legacy-pools.md)
     
 
