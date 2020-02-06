@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.ClientCVSettingMain
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: cb17314e-b89e-4821-8855-12f8fd2edc9b
 ROBOTS: NOINDEX, NOFOLLOW
 description: 除了指定您想要在您的環境中支援的用戶端版本之外，您也可以針對尚未定義版本原則的用戶端指定預設動作。 這可讓您限制在您的環境中使用的用戶端版本，這可以協助您控制支援多個用戶端版本所產生的成本。
-ms.openlocfilehash: d19eb77fd86020f01785ef77bd6651a83c748b55
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: e5675a2b3cab2309a78c2d8dc88041beee8cc619
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41691568"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794562"
 ---
 # <a name="client-version-configuration"></a>用戶端版本組態
 

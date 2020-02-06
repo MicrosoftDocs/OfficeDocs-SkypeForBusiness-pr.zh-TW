@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.ExternalApplicationGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aa7268ac-b9e3-4d25-bff4-e59d305120f2
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要編輯已定義之受信任的應用程式伺服器的屬性，請遵循下列指示進行。
-ms.openlocfilehash: dffeb52ab1633a936a73cb2270a204d26ccf1056
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: eacc0c854290fcf24196a8e4c58829231dc725c4
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41702168"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41793741"
 ---
 # <a name="external-application-general-settings-expander"></a>外部應用程式一般設定展開工具
  

@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.dep.DeployCertRequestSanDesc
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 3485f663-e114-43d7-8fe3-fcc4e5ae71ce
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[受領人名稱/主旨替換名稱] 頁面會顯示消費者名稱和所有用來填充憑證的消費者替換名稱摘要。 提供給消費者名稱和消費者替換名稱的名稱是從定義檔收集，就像您在拓撲建立器中定義部署時所建立的一樣。'
-ms.openlocfilehash: e731d0cebf405150a1bdbb2674d4f411193b83d1
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 656439cca7676714ae141ec3184f3101963a4bc1
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41691988"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794281"
 ---
 # <a name="certificate-request-subject-alternate-names"></a>憑證要求 (主體別名)
  

@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.ExternalApplicationScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dfd21945-331a-4058-97b6-d17690353702
 ROBOTS: NOINDEX, NOFOLLOW
 description: 此節點會顯示此信任的應用程式集區的集區完整網域名稱 (FQDN)、複寫設定和下一個躍點集區。您可以執行下列動作：
-ms.openlocfilehash: 61f10cc9fdbb7b8af83d7f8742ed0675d887ad56
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: f96eb641ea09c9b7a61602b6b7c070e9a67eb73b
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41702188"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41793721"
 ---
 # <a name="external-application-scope-node"></a>外部應用程式範圍節點
  

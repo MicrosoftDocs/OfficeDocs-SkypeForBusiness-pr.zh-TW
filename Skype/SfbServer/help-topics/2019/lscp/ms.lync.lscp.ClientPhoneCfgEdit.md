@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.ClientPhoneCfgEdit
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: aac152bf-80e9-408a-9dbb-60d0843484ab
 ROBOTS: NOINDEX, NOFOLLOW
 description: 在 [新增裝置設定] 或 [編輯裝置設定] 頁面上，您可以建立或修改用來管理商務用 Skype Phone Edition 的設定集合。 這些設定讓您可設定諸如必要的安全性模式、裝置記錄層次、語音服務品質 (QoS) 設定，以及電話是否應該在沒有任何活動的指定期間過後自動鎖定。
-ms.openlocfilehash: fce3ad1410dc16cc6a238823f11cdba0f4c4c391
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 772463b5816c4ce40b70be8cb38af2fee8daa0bf
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41691478"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794482"
 ---
 # <a name="device-configuration-create-new-or-edit-existing"></a>裝置設定：建立新的或編輯現有
  

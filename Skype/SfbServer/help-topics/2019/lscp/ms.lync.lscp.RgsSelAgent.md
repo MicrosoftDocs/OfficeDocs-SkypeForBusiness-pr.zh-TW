@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.RgsSelAgent
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: b5cf912b-8273-4c2c-a1e5-f25530b264d0
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[代理程式] 是指派給回應群組通話的使用者。 回應群組必須獲派一個代理人群組，識別要接聽回應群組電話的代理人。 建立代理人群組的方法之一，是藉由選取符合資格的使用者來定義自訂群組。 已啟用適用于商務用 Skype Server 和企業語音的合格使用者。'
-ms.openlocfilehash: 15185ab3ad7bb16018d7995d5e7eaef6198dc68a
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 0efc0c0afeff33472075c68cf4300bb5ecf51c66
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41690768"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41793471"
 ---
 # <a name="select-agents"></a>選取代理人
 

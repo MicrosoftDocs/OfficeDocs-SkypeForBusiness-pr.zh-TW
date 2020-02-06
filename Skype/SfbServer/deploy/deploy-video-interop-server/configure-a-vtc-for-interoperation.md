@@ -7,30 +7,32 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1016aed6-99fe-452e-8b20-81c814808c3d
-description: '摘要: 設定 VTC 裝置以搭配商務用 Skype 伺服器使用。'
-ms.openlocfilehash: 8c5310479aea38f5623f8ac2e10ef64978aa4aee
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 摘要：設定 VTC 裝置以搭配商務用 Skype 伺服器使用。
+ms.openlocfilehash: b266c8cc97898fe192ec023183a565b921d86949
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235669"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41798080"
 ---
 # <a name="configure-a-vtc-for-interoperation-with-skype-for-business-server"></a>設定與商務用 Skype 伺服器交互操作的 VTC
  
-**摘要:** 將 VTC 裝置設定為與商務用 Skype 伺服器搭配使用。
+**摘要：** 將 VTC 裝置設定為與商務用 Skype 伺服器搭配使用。
   
-您必須針對將透過 SIP 幹線與 Cisco 整合通訊管理員 (CallManager 或 CUCM) 視頻閘道連線到商務用 Skype VIS 伺服器的每個 VTC, 執行下列設定自訂程式。
+您必須針對將透過 SIP 幹線與 Cisco 整合通訊管理員（CallManager 或 CUCM）視頻閘道連線到商務用 Skype VIS 伺服器的每個 VTC，執行下列設定自訂程式。
   
-此處所述的設定僅做為如何設定 CUCM 以搭配 VIS 使用的範例。 您也可以使用替代 CUCM 功能的其他設定和/或用法來達到相同的結果。 針對特定案例, 不建議使用最佳配置。
+此處所述的設定僅做為如何設定 CUCM 以搭配 VIS 使用的範例。 您也可以使用替代 CUCM 功能的其他設定和/或用法來達到相同的結果。 針對特定案例，不建議使用最佳配置。
   
 ### <a name="configure-a-vtc-registered-with-cucm"></a>設定註冊至 CUCM 的 VTC
 
-1. 登入 Cisco VTC 裝置, 然後流覽至 [配置-\>系統設定]\>-[設定]。
+1. 登入 Cisco VTC 裝置，然後流覽至 [配置-\>系統設定]\>-[設定]。
     
-2. 確認下列設定, 視需要修正: 
+2. 確認下列設定，視需要修正： 
     
    |**參數**|**建議的設定**|
    |:-----|:-----|
@@ -40,16 +42,16 @@ ms.locfileid: "36235669"
    
 3. 流覽至 [配置\>-系統設定\>-網路]。
     
-4. 確認下列設定, 視需要修正: 
+4. 確認下列設定，視需要修正： 
     
    |**參數**|**建議的設定**|
    |:-----|:-----|
    |DNS 功能變數名稱  <br/> | CUCM 的網功能變數名稱稱 <br/> |
    |DNS 伺服器1位址  <br/> | 您想要的 DNS 伺服器位址 <br/> |
    
-5. 流覽至 [配置\>-系統設定\>-網路服務]。 確定已關閉 H-323 模式, 且已開啟 SIP 模式。 
+5. 流覽至 [配置\>-系統設定\>-網路服務]。 確定已關閉 H-323 模式，且已開啟 SIP 模式。 
     
-6. 當端點註冊至 CUCM 時, 這些選項會自動設定。 確認下列設定, 視需要修正: 
+6. 當端點註冊至 CUCM 時，這些選項會自動設定。 確認下列設定，視需要修正： 
     
    |**參數**|**建議的設定**|
    |:-----|:-----|
@@ -62,7 +64,7 @@ ms.locfileid: "36235669"
    
 7. 流覽至 [配置\>-系統設定\>-SIP]。
     
-8. 確認下列設定, 視需要修正: 
+8. 確認下列設定，視需要修正： 
     
    |**參數**|**建議的設定**|
    |:-----|:-----|
@@ -73,12 +75,12 @@ ms.locfileid: "36235669"
    |設定檔 1-URI  <br/> | 在 CUCM 註冊時自動指派 <br/> |
    |Proxy 1-位址  <br/> |CUCM 的主機名稱  <br/> |
    
-VTC 現在已針對互用性進行設定。 在服務開始之前, 請先在 CUCM 端執行最後一個步驟。
+VTC 現在已針對互用性進行設定。 在服務開始之前，請先在 CUCM 端執行最後一個步驟。
 ### <a name="configure-vtc-devices-on-cucm"></a>在 CUCM 上設定 VTC 裝置
 
 1. 登入 CUCM 並流覽至 Cisco 一體化 CM 管理-\>裝置-\>電話-\>尋找。 
     
-2. 選取要設定的 VTC 裝置。 確認 [電話設定] 畫面上的下列設定, 並視需要修正。 變更或驗證這些設定之後, 按一下 [**儲存**]。
+2. 選取要設定的 VTC 裝置。 確認 [電話設定] 畫面上的下列設定，並視需要修正。 變更或驗證這些設定之後，按一下 [**儲存**]。
     
    |**參數**|**建議的設定**|
    |:-----|:-----|
@@ -92,21 +94,21 @@ VTC 現在已針對互用性進行設定。 在服務開始之前, 請先在 CUC
    |通訊協定的特定資訊-訂閱通話搜尋空間  <br/> | CSS_SfBVideoInterop <br/> |
    |通訊協定的特定資訊-SIP 設定檔  <br/> | Telepresence 端點的標準 SIP 設定檔 <br/> |
    
-3. 儲存 VTC 設定之後, 請重新流覽裝置的 [電話設定] 畫面。 在畫面頂端的 [關聯] 群組中, 按一下影片交互操作的關聯。 這會顯示 [目錄號碼設定] 畫面。 
+3. 儲存 VTC 設定之後，請重新流覽裝置的 [電話設定] 畫面。 在畫面頂端的 [關聯] 群組中，按一下影片交互操作的關聯。 這會顯示 [目錄號碼設定] 畫面。 
     
-4. 確認下列設定, 視需要修正: 
+4. 確認下列設定，視需要修正： 
     
-    根據目錄號碼資訊和目錄編號設定, 進行適當的變更。
+    根據目錄號碼資訊和目錄編號設定，進行適當的變更。
     
    |**參數**|**建議的設定**|
    |:-----|:-----|
    | 目錄號碼資訊-路由分區 <br/> | SfBVideoInterop_RoutePartition <br/> |
    |目錄號碼設定-呼叫搜尋空間  <br/> | CSS_SfBVideoInterop <br/> |
    |MLPP 備用方及機密存取層級設定-MLPP 呼叫搜尋空間  <br/> | CSS_SfBVideoInterop <br/> |
-   |裝置上的第1行 (本機號碼)  <br/> | 視需要 <br/> |
-   |裝置上的第1列-ASCII 顯示 (來電者識別碼)  <br/> | 視需要 <br/> |
+   |裝置上的第1行（本機號碼）  <br/> | 視需要 <br/> |
+   |裝置上的第1列-ASCII 顯示（來電者識別碼）  <br/> | 視需要 <br/> |
    
-5. 完成後, 請滾動至畫面頂端, 然後按 [**儲存**]。 
+5. 完成後，請滾動至畫面頂端，然後按 [**儲存**]。 
     
 此 VTC 裝置的設定現已完成。 您將需要針對企業中的其他 VTC 裝置重複此程式。
 

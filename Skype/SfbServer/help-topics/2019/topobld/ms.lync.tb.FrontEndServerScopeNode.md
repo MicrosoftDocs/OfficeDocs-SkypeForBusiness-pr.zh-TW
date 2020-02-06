@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.FrontEndServerScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 16f6382d-1cbd-4656-b9cb-1adda13b97ae
 ROBOTS: NOINDEX, NOFOLLOW
 description: 此節點顯示此前端集區或 Standard Edition Server 的組態資訊。 您可以執行下列動作：
-ms.openlocfilehash: 262b30461dd7a2a3fd511e0834dd2dc4f36084aa
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: ddd0cfbb80284f8f8a19162b1ae32e0f45d0857a
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41702118"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41793641"
 ---
 # <a name="front-end-server-scope-node"></a>前端伺服器範圍節點
  

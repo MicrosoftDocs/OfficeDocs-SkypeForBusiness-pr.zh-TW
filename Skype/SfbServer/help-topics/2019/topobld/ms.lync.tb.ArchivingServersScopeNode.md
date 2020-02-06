@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.ArchivingServersScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0c5f46c7-67bf-4daa-b7a9-4b59fd7792a0
 ROBOTS: NOINDEX, NOFOLLOW
 description: 在拓撲產生器中，您可以執行與個別封存伺服器相關的工作，作法為在主控台樹狀目錄中的 [封存伺服器] 上按滑鼠右鍵，按一下工具列中的 [動作] (或按一下 [動作] 窗格中的工作)，然後按一下以下封存伺服器選項：
-ms.openlocfilehash: 46bd2ec34ccd6a1e4004acb14c9718120529eb66
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 899b2d52dd37f9768d0e46613bff7fd87d2c8148
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41688866"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794051"
 ---
 # <a name="archiving-servers-scope-node"></a>封存伺服器範圍節點
  

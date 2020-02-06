@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.AddEdgeServerNatIpPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aa97fd0e-48b9-4a66-b55a-12291641c967
 ROBOTS: NOINDEX, NOFOLLOW
 description: 公用 IP 位址是網路位址轉譯（NAT）所使用的 IP 位址。 IP 位址必須是公開路由的。 這是必要的，因為您已選取此嚮導 [選取功能] 頁面上的 [此 Edge 池的外部 IP 位址是由 NAT 轉譯] 選項。
-ms.openlocfilehash: f06d9b61d5ffad29d24e143cf3afbbc4501a67d4
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 988b585145b6607002b6de0aafffbdc95b9c54c6
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41689412"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41798170"
 ---
 # <a name="add-edge-server-nat-ip"></a>新增 Edge Server NAT IP
 

@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.AvMcuSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b0633d75-e0bb-4b4e-9abe-1f1c647a6c7d
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要編輯已定義之 A/V 會議伺服器池的屬性，請執行下列動作：
-ms.openlocfilehash: 3f33383767d0b0d1606b185d50e518e64241ba74
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: ce06468396ed936ffe47fa5848f6c3128ce390b6
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41702408"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41793911"
 ---
 # <a name="av-mcu-settings-expander"></a>AV MCU 設定展開工具
  

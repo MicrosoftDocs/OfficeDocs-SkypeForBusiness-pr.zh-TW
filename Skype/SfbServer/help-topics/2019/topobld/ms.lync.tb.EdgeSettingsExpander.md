@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.EdgeSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要編輯一或多個現有服器 Edge 集區的設定，請參考下列區段：
-ms.openlocfilehash: 0ab3ab15a9f05796c5d60be1d1e499e1e4839058
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: cce6358779371d45b6db3707d01987b189a344af
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41688548"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41793751"
 ---
 # <a name="edge-settings-expander"></a>Edge 設定展開工具
 

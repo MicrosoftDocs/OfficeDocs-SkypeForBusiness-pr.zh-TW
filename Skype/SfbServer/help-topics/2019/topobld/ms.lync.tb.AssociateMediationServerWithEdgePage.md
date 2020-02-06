@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.AssociateMediationServerWithEdgePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 65c5d93c-9f0d-4a60-8bd1-d05eb6bc2088
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要定義中繼伺服器，請指定將中繼伺服器與前端伺服器以及邊緣伺服器或池關聯的設定。 若要將中繼伺服器或池與 Edge 伺服器或 Edge 伺服器池關聯，請執行下列動作：
-ms.openlocfilehash: a575586ba31a92b81da47e4e0fe1014b290570e7
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: a1361c6bfc1fef2232132a781704fbdb08d801a8
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41702458"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41793961"
 ---
 # <a name="associate-mediation-server-with-edge"></a>建立中繼伺服器與 Edge 的關聯
  

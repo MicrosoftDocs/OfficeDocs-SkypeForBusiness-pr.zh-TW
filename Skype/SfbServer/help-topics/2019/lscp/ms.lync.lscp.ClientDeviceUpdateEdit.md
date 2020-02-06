@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.ClientDeviceUpdateEdit
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: e534e6a5-fb3e-40b1-a189-fce64c42f512
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您可以將裝置記錄設定新增至 [編輯記錄] 設定頁面，以判斷最大記錄快取大小、最大記錄檔大小，或記錄檔案在清除之前所保留的時間長度。 您可以根據組織的需求變更這些設定。
-ms.openlocfilehash: 6c448b886b14397f65d7ebeb5a52b90a38c7b320
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: f2c169038b69fbbb3e68838827a9a77d472c87e4
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41691538"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794522"
 ---
 # <a name="device-log-configuration-edit"></a>裝置記錄組態：編輯
  
