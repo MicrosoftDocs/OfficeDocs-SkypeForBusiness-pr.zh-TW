@@ -6,22 +6,24 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.dep.DeploySchemaPrepIntro
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: e74f0ef5-4ced-489e-9509-e0464dad5c24
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要啟動工作來延伸商務用 Skype Server 的架構，您必須從 [準備模式] 頁面開始。 按 [下一步] 繼續準備架構。
-ms.openlocfilehash: dea2d246672d69d9ce5e6d369d9ca50213b84eb9
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: faa4e9c9389eee6b54f13d1a8312310fc69c0faa
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41691658"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794652"
 ---
-# <a name="prepare-schema-intro"></a><span data-ttu-id="61cff-104">準備架構 (簡介)</span><span class="sxs-lookup"><span data-stu-id="61cff-104">Prepare Schema (Intro)</span></span>
+# <a name="prepare-schema-intro"></a><span data-ttu-id="42219-104">準備架構 (簡介)</span><span class="sxs-lookup"><span data-stu-id="42219-104">Prepare Schema (Intro)</span></span>
  
-<span data-ttu-id="61cff-105">若要啟動工作來延伸商務用 Skype Server 的架構，您必須從 [**準備模式**] 頁面開始。</span><span class="sxs-lookup"><span data-stu-id="61cff-105">To start the task to extend the schema for Skype for Business Server, you begin on the **Prepare Schema** page.</span></span> <span data-ttu-id="61cff-106">按 [下一步]\*\*\*\* 繼續準備架構。</span><span class="sxs-lookup"><span data-stu-id="61cff-106">Click **Next** to continue with the schema preparation.</span></span>
+<span data-ttu-id="42219-105">若要啟動工作來延伸商務用 Skype Server 的架構，您必須從 [**準備模式**] 頁面開始。</span><span class="sxs-lookup"><span data-stu-id="42219-105">To start the task to extend the schema for Skype for Business Server, you begin on the **Prepare Schema** page.</span></span> <span data-ttu-id="42219-106">按 [下一步]\*\*\*\* 繼續準備架構。</span><span class="sxs-lookup"><span data-stu-id="42219-106">Click **Next** to continue with the schema preparation.</span></span>
   
 
