@@ -8,15 +8,17 @@ ms.date: 8/8/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 784ff94a-4b33-4dbd-ba74-27acc3eb6954
 description: CcCredential Cmdlet 會設定目前商務用 Skype 雲端連接器版本部署的認證。
-ms.openlocfilehash: bcb88f11fb78d995e6d8271593c2e09bb0b11d22
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: b7620a6d76415e4e2a49ea9bd628d1e1cba7f4ff
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003213"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824207"
 ---
 # <a name="set-cccredential"></a>Set-CcCredential
  
@@ -47,7 +49,7 @@ CcCredential Cmdlet 會為租使用者管理員設定帳戶名稱和密碼。 �
 ## <a name="parameters"></a>參數
 <a name="DetailedDescription"> </a>
 
-|**參數**|**必要**|**類型**|**描述**|
+|**參數**|**必要**|**類型**|**說明**|
 |:-----|:-----|:-----|:-----|
 | AccountType <br/> | 必要 <br/> |System.String  <br/> | 參數值必須是 "TenantAdmin"、"VmAdmin" 或 "DomainAdmin"。 <br/> |
    

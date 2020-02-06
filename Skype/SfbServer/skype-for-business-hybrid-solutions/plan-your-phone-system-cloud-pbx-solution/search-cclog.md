@@ -8,15 +8,17 @@ ms.date: 3/20/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: bbae05f9-d8de-40dc-8968-d225dcde80e4
 description: CcLog Cmdlet 會在商務用 Skype 雲端連接器 Edition 裝置記錄目錄中搜尋來電記錄和撥出通話記錄。
-ms.openlocfilehash: c248720931ef1c15d633c51bb6daa6c414631a18
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: a512d715f1640184217ce07e0b666954a6541fd2
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003233"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824229"
 ---
 # <a name="search-cclog"></a>Search-CcLog
  
@@ -53,7 +55,7 @@ CsClsLogging Cmdlet 提供搜尋集中式記錄服務所產生之記錄檔的命
 ## <a name="parameters"></a>參數
 <a name="DetailedDescription"> </a>
 
-|**參數**|**必要**|**類型**|**描述**|
+|**參數**|**必要**|**類型**|**說明**|
 |:-----|:-----|:-----|:-----|
 |開始  <br/> | 必要 <br/> |System.object  <br/> | 要搜尋記錄專案的開始日期和時間。 在當地時區中指定。 <br/> |
 |EndTime  <br/> |必要  <br/> |System.object  <br/> |要搜尋記錄專案的結束日期和時間。 在當地時區中指定。  <br/> |

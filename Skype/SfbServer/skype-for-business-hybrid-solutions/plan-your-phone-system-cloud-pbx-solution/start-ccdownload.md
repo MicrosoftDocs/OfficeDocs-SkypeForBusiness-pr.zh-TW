@@ -8,15 +8,17 @@ ms.date: 8/8/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 19338a34-1bfb-4787-b057-5e34a333711d
 description: CcDownload Cmdlet 會以同步方式下載商務用 Skype 雲端連接器版本 bits 與 msi 檔案。
-ms.openlocfilehash: 5c493862151a308208bf83e142421f3257e476e0
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 3298b02fbb792392860f05ebb15a9221b45e47b4
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003183"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824177"
 ---
 # <a name="start-ccdownload"></a>Start-CcDownload
  
@@ -63,7 +65,7 @@ Start-CcDownload -DownloadBitsOnly
 ## <a name="parameters"></a>參數
 <a name="DetailedDescription"> </a>
 
-|**參數**|**必要**|**類型**|**描述**|
+|**參數**|**必要**|**類型**|**說明**|
 |:-----|:-----|:-----|:-----|
 |DownloadUrlRoot  <br/> | 選用 <br/> |System.String  <br/> | 私人下載網站中的特定雲端連接器版本完整 URL。 使用此參數時請謹慎，請務必注意您要下載的雲端連接器版本。 <br/> |
 |DownloadBitsOnly  <br/> |選用  <br/> |System.Management.Automation.SwitchParameter  <br/> |略過步驟若要從下載網站下載並安裝 MSI，請只下載雲端連接器位。  <br/> |

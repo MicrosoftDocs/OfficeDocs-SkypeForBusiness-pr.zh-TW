@@ -8,15 +8,17 @@ ms.date: 7/18/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 44da2f8d-0bf5-4f3e-b2e7-bb181dbbe646
 description: CcCACertificate Cmdlet 會更新接近到期或已到期的商務用 Skype 雲端連接器版本根 CA 憑證。 此命令已在雲端連接器2.0 和更新版本中變更為 CcCACertificate。
-ms.openlocfilehash: 493b733eab9cbd8331a93d72dc4a865f3574fbe8
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: e92709cd1da0ffccd2b356000dbd2345ba56a1d9
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003273"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824269"
 ---
 # <a name="renew-cccacertificate"></a>Renew-CcCACertificate
  

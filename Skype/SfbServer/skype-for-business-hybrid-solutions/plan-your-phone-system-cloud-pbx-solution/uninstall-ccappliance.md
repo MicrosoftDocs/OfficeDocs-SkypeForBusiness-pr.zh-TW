@@ -8,15 +8,17 @@ ms.date: 2/23/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: e1b3cdd7-08e9-41a6-843a-3b4baf886cd0
 description: CcAppliance Cmdlet 會從主機伺服器卸載執行中的商務用 Skype 雲端連接器 Edition 裝置。
-ms.openlocfilehash: f37c3092103832c9efd3b24d2efbedf00e8f54ac
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: c92ad5c31e2e254e4f10511835b6cc9f60c7c43c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003143"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824137"
 ---
 # <a name="uninstall-ccappliance"></a>Uninstall-CcAppliance
  
@@ -61,7 +63,7 @@ Uninstall-CcAppliance -Version 1.3.8 -Confirm:$false
 ## <a name="parameters"></a>參數
 <a name="DetailedDescription"> </a>
 
-|**參數**|**必要**|**類型**|**描述**|
+|**參數**|**必要**|**類型**|**說明**|
 |:-----|:-----|:-----|:-----|
 | 版本 <br/> | 選用 <br/> |System.String  <br/> | 將從主機伺服器卸載的雲端連接器版本。 如果未指定，請卸載目前的執行版本。 <br/> |
 |Force  <br/> |選用  <br/> |System.Management.Automation.SwitchParameter  <br/> |如果要卸載目前的執行中的版本，請嘗試在卸載虛擬電腦前排出中繼伺服器與 Edge 伺服器上的伺服器。 如果您指定了 "Force" 開關，即使排出服務失敗，虛擬機器也將會卸載。 這個參數只是用來卸載目前的運行版本。  <br/> |

@@ -8,15 +8,17 @@ ms.date: 11/15/2017
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: aeca610b-db0a-45cf-95b9-ae9a6bbccb45
 description: '[還原 Cc-認證] Cmdlet 會還原目前商務用 Skype 雲端連接器版本部署的所有認證。'
-ms.openlocfilehash: adac3f0b9ca6cf392b537a9c5d0f2095021c7120
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: b2cd35b284bcd7e49aabbaa3055c397915565d09
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003243"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824239"
 ---
 # <a name="restore-cccredentials"></a>Restore-CcCredentials
  

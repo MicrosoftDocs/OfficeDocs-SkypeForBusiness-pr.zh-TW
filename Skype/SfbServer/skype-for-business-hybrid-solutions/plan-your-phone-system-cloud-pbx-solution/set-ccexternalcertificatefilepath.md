@@ -8,15 +8,17 @@ ms.date: 3/31/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 443d071e-633e-4337-b20b-f30cdfbd4aaf
 description: CcExternalCertificateFilePath Cmdlet 會指定要儲存中繼伺服器或 Edge 伺服器憑證的路徑。
-ms.openlocfilehash: e71a50f09a4ce3d085746c30f7591e8a07eb38de
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 9216b82626da7160d6e1bfa8d611757321a2683a
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003203"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824197"
 ---
 # <a name="set-ccexternalcertificatefilepath"></a>Set-CcExternalCertificateFilePath
  
@@ -67,7 +69,7 @@ Set-CcExternalCertificateFilePath -Target MediationServer -Path C:\CloudConnecto
 ## <a name="parameters"></a>參數
 <a name="DetailedDescription"> </a>
 
-|**參數**|**必要**|**類型**|**描述**|
+|**參數**|**必要**|**類型**|**說明**|
 |:-----|:-----|:-----|:-----|
 | 目標 <br/> | 必要 <br/> |System.String  <br/> |所要求的檔路徑類型。 類型包括：  <br/> EdgeServer （預設值）  <br/> MediationServer  <br/> |
 |Import  <br/> |選用  <br/> |System.Management.Automation.SwitchParameter  <br/> |指示必須將憑證匯入到中繼伺服器。 如果您是第一次部署裝置，則不需要此參數。 如果您想要變更已部署版本中的現有憑證，必須輸入參數。  <br/> |

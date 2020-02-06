@@ -8,15 +8,17 @@ ms.date: 7/11/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: cd2889c4-0eb1-4752-9274-93a5a68a8080
 description: 當商務用 Skype 雲端連接器版本接近到期或已到期時，更新-CcServerCertificate Cmdlet 會重新計算憑證。
-ms.openlocfilehash: 920770b4ce77e893a7195d1326ea13ac73e0cc70
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: da52efcd3fdf6a0793e085098bf6f72725115e9c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003113"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824107"
 ---
 # <a name="update-ccservercertificate"></a>Update-CcServerCertificate
  
@@ -55,7 +57,7 @@ Update-CcServerCertificate-Roles @("MS", "Edge")
 ## <a name="parameters"></a>參數
 <a name="DetailedDescription"> </a>
 
-|**參數**|**必要**|**類型**|**描述**|
+|**參數**|**必要**|**類型**|**說明**|
 |:-----|:-----|:-----|:-----|
 |角色  <br/> |選用  <br/> |System.object  <br/> | 雲端連接器伺服器角色的陣列。 <br/> |
    
