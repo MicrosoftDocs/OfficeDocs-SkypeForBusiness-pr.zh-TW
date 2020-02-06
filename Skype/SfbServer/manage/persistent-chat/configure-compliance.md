@@ -8,15 +8,17 @@ ms.date: 1/31/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 24e36ea3-fb8a-45a4-b6b7-38c2e256b218
 description: 摘要：瞭解如何在商務用 Skype Server 2015 中設定持續聊天伺服器合規性服務。
-ms.openlocfilehash: a02384c68c04798ea453b94bf736a2c6ff276397
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 54131eeddc95afd71978ada3a84fba3d4ab52716
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991988"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817234"
 ---
 # <a name="configure-the-compliance-service-for-persistent-chat-server-in-skype-for-business-server-2015"></a>設定常設聊天室伺服器的規範服務
 
@@ -134,7 +136,7 @@ Message 元素包含兩個元素（寄件者與 DateTimeUTC）和三個屬性（
 
 **郵件元素屬性**
 
-|**Attribute**|**描述**|**選擇性/必要**|
+|**Attribute**|**說明**|**選擇性/必要**|
 |:-----|:-----|:-----|
 |類型  <br/> |指定郵件類型。 訊息類型將在 [訊息元素] 訊息類型資料表中說明。  <br/> |必要  <br/> |
 |內容  <br/> |包含郵件的內容。 含有連線類型或元件的訊息，不會使用此屬性。  <br/> |選用  <br/> |
@@ -144,7 +146,7 @@ Message 元素包含兩個元素（寄件者與 DateTimeUTC）和三個屬性（
 
 **寄件者元素屬性**
 
-|**Attribute**|**描述**|**選擇性/必要**|
+|**Attribute**|**說明**|**選擇性/必要**|
 |:-----|:-----|:-----|
 |Username  <br/> |寄件者的名稱。  <br/> |選用  <br/> |
 |標識號  <br/> |寄件者的唯一識別碼。  <br/> |必要  <br/> |

@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 026c4469-f471-4e4f-a77d-a7d22a925e5a
 description: 摘要：瞭解如何將更多商務用 Skype Server 資料庫新增至現有的 AlwaysOn 可用性群組，並瞭解在 Skype 中修補或升級作為 AlwaysOn 可用性群組一部分的後端伺服器之後所需的其他步驟。商務伺服器。
-ms.openlocfilehash: 221964eb7d8dfcbb0303a0e1148de4fcef6cec51
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 579b00047a9966e3ce991863506f5686d8a2d520
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991538"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817134"
 ---
 # <a name="manage-databases-with-an-alwayson-availability-group-in-skype-for-business-server"></a>在商務用 Skype Server 中使用 AlwaysOn 可用性群組管理資料庫
 

@@ -8,16 +8,18 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 93f42230-24a2-418d-9770-bf4670a9d78f
 description: 若要執行商務用 Skype Server 2015 的壓力與效能工具，您必須能夠同時管理使用者、連絡人和使用者設定檔、設定要執行的工具，然後查看工具產生的輸出或結果。
-ms.openlocfilehash: af4d0dcb1cc4196f98941799c61dcf29510ba795
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 9920eb446452b9df23470a46c16eab754cc91577
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992480"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816142"
 ---
 # <a name="using-the-skype-for-business-server-2015-stress-and-performance-tool"></a>使用商務用 Skype Server 2015 應力與效能工具
  
@@ -408,7 +410,7 @@ LyncPerfTool.exe /file:IM_client0.xml /displayfile
   
 **一般資訊**
 
-|**效能計數器**|**描述**|
+|**效能計數器**|**說明**|
 |:-----|:-----|
 |花費的時間（以分鐘為單位）  <br/> |進程開始之後所花費的時間。  <br/> |
 |作用中端點  <br/> |目前連線到伺服器的端點數目。  <br/> |
@@ -418,7 +420,7 @@ LyncPerfTool.exe /file:IM_client0.xml /displayfile
    
 **目前狀態資訊**
 
-|**效能計數器**|**描述**|
+|**效能計數器**|**說明**|
 |:-----|:-----|
 |SetPresence 通話  <br/> |目前狀態變更嘗試的總數。 針對不同類型的目前狀態變更，請參閱 SetPresence （目前狀態類型）通話效能計數器。  <br/> |
 |SetPresence 的 NNN 回應  <br/> |從伺服器接收的 nnn 回應碼總數目。  <br/> |
@@ -427,7 +429,7 @@ LyncPerfTool.exe /file:IM_client0.xml /displayfile
    
 **通訊錄服務資訊**
 
-|**效能計數器**|**描述**|
+|**效能計數器**|**說明**|
 |:-----|:-----|
 |嘗試的 ABS 完整/增量檔案下載  <br/> |已嘗試完整或增量檔案下載要求的總數目。  <br/> |
 |ABS 完整/Delta 檔案下載成功  <br/> |已嘗試完整或增量檔案下載要求的總數目。  <br/> |
@@ -441,7 +443,7 @@ LyncPerfTool.exe /file:IM_client0.xml /displayfile
   
 **通訊群組清單（DL）資訊**
 
-|**效能計數器**|**描述**|
+|**效能計數器**|**說明**|
 |:-----|:-----|
 |已嘗試來電  <br/> |嘗試的通訊群組清單展開（DLX） web 服務要求總數。  <br/> |
 |通話成功  <br/> |傳回成功回應代碼之 DLX web 服務要求的總數目。  <br/> |
@@ -454,7 +456,7 @@ LyncPerfTool.exe /file:IM_client0.xml /displayfile
   
 **VoIP 基本資訊**
 
-|**效能計數器**|**描述**|
+|**效能計數器**|**說明**|
 |:-----|:-----|
 |使用中的通話  <br/> |目前正在進行的傳入/傳出語音通話總數。  <br/> |
 |呼叫終止  <br/> |已終止的傳入/傳出語音通話總數。  <br/> |
@@ -466,14 +468,14 @@ LyncPerfTool.exe /file:IM_client0.xml /displayfile
    
 **回應群組服務通話資訊**
 
-|**效能計數器**|**描述**|
+|**效能計數器**|**說明**|
 |:-----|:-----|
 |使用中的通話  <br/> |回應群組應用程式的使用中通話總次數。  <br/> |
 |已嘗試來電  <br/> |嘗試的通話總次數。  <br/> |
    
 **立即訊息（IM）通話資訊**
 
-|**效能計數器**|**描述**|
+|**效能計數器**|**說明**|
 |:-----|:-----|
 |使用中的通話  <br/> |正在進行內傳/撥出的立即訊息通話總數。  <br/> |
 |呼叫終止  <br/> |已終止傳入/傳出立即訊息通話的總數。  <br/> |
@@ -484,7 +486,7 @@ LyncPerfTool.exe /file:IM_client0.xml /displayfile
    
 **App 共用呼叫資訊**
 
-|**效能計數器**|**描述**|
+|**效能計數器**|**說明**|
 |:-----|:-----|
 |使用中的通話  <br/> |正在進行中傳入/傳出應用程式共用通話的總數。  <br/> |
 |呼叫終止  <br/> |已終止的傳入/傳出應用程式共用通話總數。  <br/> |
@@ -494,7 +496,7 @@ LyncPerfTool.exe /file:IM_client0.xml /displayfile
    
 **CAA 通話資訊**
 
-|**效能計數器**|**描述**|
+|**效能計數器**|**說明**|
 |:-----|:-----|
 |使用中的通話  <br/> |目前正在進行中的內送/出局公用電話網絡（PSTN）通話總數。  <br/> |
 |呼叫終止  <br/> |已終止的傳入/傳出 PSTN 通話總數。  <br/> |
@@ -503,7 +505,7 @@ LyncPerfTool.exe /file:IM_client0.xml /displayfile
    
 **會議資訊**
 
-|**效能計數器**|**描述**|
+|**效能計數器**|**說明**|
 |:-----|:-----|
 |即時立即訊息會議  <br/> |即時立即訊息會議的總數。  <br/> |
 |活動音訊/視訊會議  <br/> |正在進行的音訊/視頻（A/V）會議總數。  <br/> |
@@ -514,7 +516,7 @@ LyncPerfTool.exe /file:IM_client0.xml /displayfile
    
 **UCWA 用戶端計數器**
 
-|**效能計數器**|**描述**|
+|**效能計數器**|**說明**|
 |:-----|:-----|
 |成功的 IMMCU 連接總數  <br/> |已加入之立即訊息會議的總數。  <br/> |
 |成功的 DMCU 連接總數  <br/> |已加入/V 會議的總數。  <br/> |

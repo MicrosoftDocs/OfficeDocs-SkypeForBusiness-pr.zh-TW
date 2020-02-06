@@ -7,20 +7,22 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: e7967dd9-0d6a-4a80-8b59-b8fc2e5615f8
-description: '摘要: 瞭解 [取得上次整合資料] 作業, 該作業是 [通話品質儀表板] 的資料 API 的一部分。 [通話品質儀表板] 是商務用 Skype Server 的工具。'
-ms.openlocfilehash: d110bdc1fe88a9fe7f77abe7f7b9ed47a3324eb0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 摘要：瞭解 [取得上次整合資料] 作業，該作業是 [通話品質儀表板] 的資料 API 的一部分。 [通話品質儀表板] 是商務用 Skype Server 的工具。
+ms.openlocfilehash: a3b66114f457e48b169419baddbaa4e4dc8c0764
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36186916"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816772"
 ---
 # <a name="get-last-integration-data"></a>取得上次整合資料
  
-**摘要:** 瞭解 [取得上次整合資料] 作業, 該作業是 [通話品質儀表板] 的資料 API 的一部分。 [通話品質儀表板] 是商務用 Skype Server 的工具。
+**摘要：** 瞭解 [取得上次整合資料] 作業，該作業是 [通話品質儀表板] 的資料 API 的一部分。 [通話品質儀表板] 是商務用 Skype Server 的工具。
   
 [取得最後一個整合資料] 作業是 [通話品質儀表板] 的資料 API 的一部分。
   
@@ -28,7 +30,7 @@ ms.locfileid: "36186916"
 
 [取得上次整合資料] 作業會傳回最後一次成功/失敗的存檔及 cube 處理的清單。
   
-此功能預設為停用, 必須透過設定資料 API 來啟用。
+此功能預設為停用，必須透過設定資料 API 來啟用。
   
 
 |**法**|**要求 URI**|**HTTP 版本**|
@@ -43,7 +45,7 @@ ms.locfileid: "36186916"
   
  **回應**-回應包括 HTTP 狀態碼和一組回應標頭。
   
- **狀態碼**-成功的操作會傳回狀態碼 200 (確定)。
+ **狀態碼**-成功的操作會傳回狀態碼200（確定）。
   
  **回應標題**-沒有其他標頭。
   

@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.dep.DeployForestPrepGroupDomain
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 1da76935-ab93-46e5-a862-3f2a77171760
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您必須指出您需要在林中建立通用群組的位置。 [通用群組位置] 頁面會使用您登入之電腦所屬的網域作為預設的成員。 如果您想要在預設本地域以外的網域中建立通用群組，請選取 [網域 FQDN]，然後在文字方塊中輸入完整的功能變數名稱（FQDN）。 如果您是從您想要建立通用群組的網域執行林準備工作，則提供備用網域很有説明。 請按 [下一步] 繼續。
-ms.openlocfilehash: fc4889179f445085b7044a0d0828fdc957e00bf1
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 509b889affbe16da74b7f7211303553e30833569
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41691878"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41798410"
 ---
 # <a name="prepare-current-forest-universal-group-location"></a>準備目前的樹系 (萬用群組位置)
  

@@ -8,16 +8,18 @@ ms.date: 2/13/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ca03f9ab-a227-4903-85a8-427df6a0a5bb
 description: 摘要：瞭解如何設定您的商務用 Skype Server 2015 基礎結構，以搭配 System Center Operations Manager 使用。
-ms.openlocfilehash: 5622b09b3d55b4d0d3a3fe026f66b28e3c4be75e
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 7982cd26b512574864e2d53d9c8ef771781348f7
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "36824546"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816102"
 ---
 # <a name="manage-skype-for-business-server-2015-using-scom-management-pack"></a>使用 SCOM 管理套件管理商務用 Skype Server 2015
  
@@ -59,7 +61,7 @@ ms.locfileid: "36824546"
 |CPU  <br/> |下列其中一項：  <br/> 64-位處理器、四核、2.33 GHz 或更新版本  <br/> 64位雙路處理器、雙核、2.33 GHz 或更新版本  <br/> |
 |儲存體  <br/> |8 GB  <br/> |
 |作業系統  <br/> |Windows Server 2008 R2  <br/> Windows Server 2012 R2  <br/> |
-|局域網  <br/> |1 Gbps 的1個網路介面卡  <br/> |
+|網路  <br/> |1 Gbps 的1個網路介面卡  <br/> |
    
 ## <a name="prerequisites"></a>先決條件
 
@@ -126,10 +128,10 @@ ms.locfileid: "36824546"
 
 |登記、目前狀態和連絡人支援的綜合交易|||
 |:-----|:-----|:-----|
-|sr-1  <br/> |註冊（使用者登入）  <br/> |可用的 Lync Server 2010 及以上版本  <br/> |
-|pplx-2  <br/> |通訊錄服務（檔案下載）  <br/> |可用的 Lync Server 2010 及以上版本  <br/> |
+|1  <br/> |註冊（使用者登入）  <br/> |可用的 Lync Server 2010 及以上版本  <br/> |
+|2  <br/> |通訊錄服務（檔案下載）  <br/> |可用的 Lync Server 2010 及以上版本  <br/> |
 |3  <br/> |通訊錄 Web 查詢  <br/> |可用的 Lync Server 2010 及以上版本  <br/> |
-|4  <br/> |平臺  <br/> |可用的 Lync Server 2010 及以上版本  <br/> |
+|4  <br/> |目前狀態  <br/> |可用的 Lync Server 2010 及以上版本  <br/> |
 |500  <br/> |整合連絡人存放區  <br/> |可用的 Lync Server 2013 及以上版本  <br/> |
 ||||   
 
@@ -145,10 +147,10 @@ ms.locfileid: "36824546"
 
 |支援的會議和持續聊天的綜合交易|||
 |:-----|:-----|:-----|
-|9  <br/> |音訊視訊會議  <br/> |適用于 Lync Server 2010 及以上版本  <br/> |
+|9  <br/> |音訊和視訊會議  <br/> |適用于 Lync Server 2010 及以上版本  <br/> |
 |第  <br/> |資料會議  <br/> |適用于 Lync Server 2013 及以上版本  <br/> |
 |11  <br/> |立即訊息會議  <br/> |適用于 Lync Server 2010 及以上版本  <br/> |
-|之間  <br/> | 持續聊天 <br/> |適用于 Lync Server 2013 及以上版本  <br/> |
+|之間  <br/> | 常設聊天室 <br/> |適用于 Lync Server 2013 及以上版本  <br/> |
 |合  <br/> |加入啟動器（排程的會議）  <br/> |適用于 Lync Server 2013 及以上版本  <br/> |
 |4  <br/> |電話撥入式會議  <br/> |商務用 Skype Server 2015 中的新功能  <br/> |
 |工資  <br/> |應用程式共用會議  <br/> |商務用 Skype Server 2015 中的新功能  <br/> |
@@ -161,7 +163,7 @@ ms.locfileid: "36824546"
 |滿  <br/> |AV 邊緣連通性 Exchange 整合郵件連線（語音信箱）  <br/> |適用于 Lync Server 2013 及以上版本  <br/> |
 |合  <br/> |PSTN 對等通話  <br/> |適用于 Lync Server 2010 及以上版本  <br/> |
 |20  <br/> |XMPP 立即訊息（同盟）  <br/> |在 Lync Server 2013 和商務用 Skype 2015 中提供  <br/> |
-|日前  <br/> |影片交互操作伺服器  <br/> |商務用 Skype Server 2015 中的新功能  <br/> |
+|日前  <br/> |視訊互通性伺服器  <br/> |商務用 Skype Server 2015 中的新功能  <br/> |
 ||||
    
 ## <a name="how-health-rolls-up"></a>健康情況匯總

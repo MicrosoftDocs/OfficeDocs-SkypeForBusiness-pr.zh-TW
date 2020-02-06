@@ -8,16 +8,18 @@ ms.date: 11/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
 description: 摘要：針對商務用 Skype Server 合成事務安裝及設定觀察程式節點。
-ms.openlocfilehash: 8c7ea0465d9a53bd8972c823ef7bfc7d7ee9b4bc
-ms.sourcegitcommit: 208179a3dd166f53b5a3058242cb84207909f4ee
+ms.openlocfilehash: 8efe291f72312b7634ae644d0e910cf58951b7a6
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/13/2020
-ms.locfileid: "41104482"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816092"
 ---
 # <a name="install-and-configure-watcher-nodes"></a>安裝和設定觀察程式節點
  
@@ -35,7 +37,7 @@ ms.locfileid: "41104482"
   
 可供觀察程式節點使用的綜合交易，包括下列各項：
   
-|**Cmdlet 名稱（測試名稱）**|**描述**|
+|**Cmdlet 名稱（測試名稱）**|**說明**|
 |:-----|:-----|
 |Test-CsAddressBookService （ABS）  <br/> |確認使用者可以查詢不在連絡人清單中的使用者。  <br/> |
 |CsAddressBookWebQuery （ABWQ）  <br/> |確認使用者可以透過 HTTP 找不在連絡人清單中的使用者。  <br/> |
@@ -152,7 +154,7 @@ MaximumLogonAttempts :
   
 當您設定 [觀察程式] 節點時，您也必須選擇該節點要採用的驗證方法類型。 商務用 Skype Server 2015 可讓您選擇兩種驗證方法的其中一種：信任的伺服器或認證驗證。 下表顯示這兩種方法之間的差異：
   
-||**描述**|**支援的位置**|
+||**說明**|**支援的位置**|
 |:-----|:-----|:-----|
 |TrustedServer  <br/> |使用憑證來類比內部伺服器並略過驗證難題。  <br/> 適用于喜歡管理單一憑證的系統管理員，而不是每個觀察程式節點上的許多使用者密碼。  <br/> |在企業內。  <br/> 使用這個方法，觀察程式節點必須與受監視的池位於同一個網域中。 如果觀察程式節點和池位於不同的網域中，請改用認證驗證。  <br/> |
 |Negotiate  <br/> |在每個觀察程式節點上安全地儲存在 Windows 認證管理器中的使用者名稱和密碼。  <br/> 這個模式需要更多的密碼管理，但是企業外部之觀察程式節點的唯一選項。 這些觀察程式節點無法被視為受信任的端點以進行驗證。  <br/> |在企業外部。  <br/> 在企業內。  <br/> |

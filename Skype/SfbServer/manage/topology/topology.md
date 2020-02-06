@@ -7,19 +7,21 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: b2f8ce22-938e-4e22-8a1a-c829a1366b27
-description: '摘要: 瞭解在商務用 Skype Server 中管理拓撲的步驟。'
-ms.openlocfilehash: 402e8e725aeb92d7b80f87c9b9d1c6f7d66fc807
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 摘要：瞭解在商務用 Skype Server 中管理拓撲的步驟。
+ms.openlocfilehash: 42058c3263cfebfe1341d0b7249bb0ba5ef5a368
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36187084"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817084"
 ---
 # <a name="manage-your-topology-in-skype-for-business-server"></a>在商務用 Skype Server 中管理您的拓撲 
  
-**摘要:** 瞭解在商務用 Skype Server 中管理拓撲的步驟。
+**摘要：** 瞭解在商務用 Skype Server 中管理拓撲的步驟。
   
 下列主題提供管理商務用 Skype Server 拓撲及前端伺服器所涉及之任務的逐步指示。
   

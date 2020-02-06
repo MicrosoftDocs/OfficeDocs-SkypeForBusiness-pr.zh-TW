@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ec62b70f-885e-4272-b9d2-a574ea434b64
 description: 摘要：瞭解如何使用通話品質儀表板。 [通話品質儀表板] 是商務用 Skype Server 的工具。
-ms.openlocfilehash: 09eb8bdae508ff9a5fe39fec67b0f440859efad0
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 61b20062925f59474d387a022a92663e0ffcd6ba
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36774703"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816662"
 ---
 # <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>使用商務用 Skype Server 的通話品質儀表板
 
@@ -34,7 +36,7 @@ CQD 是一種網頁入口網站，可根據體驗品質（QoE）資料快速建�
 
 此外，CQD 會公開 web Api，讓使用者以程式設計方式存取要在自訂儀表板中使用的多維資料集資料。
 
-### <a name="feature-overview"></a>功能概述
+### <a name="feature-overview"></a>功能概觀
 
 當您流覽 [通話品質] 儀表板時，您會看到下列畫面：
 
@@ -103,31 +105,31 @@ CQD 是一種網頁入口網站，可根據體驗品質（QoE）資料快速建�
 
 |左欄|資料類型|允許 Null 嗎？|詳細資料|
 |:-----|:-----|:-----|:-----|
-|BuildingKey |int |不 |CqdBuilding 資料表的主鍵。 |
-|BuildingName |Varchar （80） |不 |建築物名稱。 |
-|BuildingShortName |Varchar （10） |不 |[建築物名稱] 的較短版本。 |
-|OwnershipTypeId |int |不 |外鍵，與 CqdBuildingOwners 資料表中的其中一個專案相符。 |
-|BuildingTypeId |int |不 |外鍵，與 CqdBuildingType 資料表中的其中一個專案相符。 |
-|款 |浮 |是的 |建築物的緯度。 |
-|經度 |浮 |是的 |建築物的經度。 |
-|CityName |Varchar （30） |是的 |建築物所在的市/縣名。 |
-|郵遞區號 |Varchar （25） |是的 |組建所在的郵遞區號。 |
-|CountryShortCode |Varchar （2） |是的 |組建所在國家/地區的 ISO 3166-1 字母2代碼。 |
-|StateProvinceCode |Varchar （3） |是的 |建築物所在之州/省的三個字母縮寫。 |
-|InsideCorp |稍微 |是的 |[位] 表示該組建是否為商業網路的一部分。 |
-|BuildingOfficeType |Nvarchar （150） |是的 |建立 office 類型的描述。 |
-|國家 |Varchar （25） |是的 |組建所在的地區。 |
+|BuildingKey |int |否 |CqdBuilding 資料表的主鍵。 |
+|BuildingName |Varchar （80） |否 |建築物名稱。 |
+|BuildingShortName |Varchar （10） |否 |[建築物名稱] 的較短版本。 |
+|OwnershipTypeId |int |否 |外鍵，與 CqdBuildingOwners 資料表中的其中一個專案相符。 |
+|BuildingTypeId |int |否 |外鍵，與 CqdBuildingType 資料表中的其中一個專案相符。 |
+|款 |浮 |是 |建築物的緯度。 |
+|經度 |浮 |是 |建築物的經度。 |
+|CityName |Varchar （30） |是 |建築物所在的市/縣名。 |
+|郵遞區號 |Varchar （25） |是 |組建所在的郵遞區號。 |
+|CountryShortCode |Varchar （2） |是 |組建所在國家/地區的 ISO 3166-1 字母2代碼。 |
+|StateProvinceCode |Varchar （3） |是 |建築物所在之州/省的三個字母縮寫。 |
+|InsideCorp |稍微 |是 |[位] 表示該組建是否為商業網路的一部分。 |
+|BuildingOfficeType |Nvarchar （150） |是 |建立 office 類型的描述。 |
+|地區 |Varchar （25） |是 |組建所在的地區。 |
 |||||
 
 **CqdNetwork**
 
 |左欄|資料類型|允許 Null 嗎？|詳細資料|
 |:-----|:-----|:-----|:-----|
-|局域網 |Varchar （25） |不 |子網位址。 |
-|NetworkRange |Tinyint |是的 |子網路遮罩。 |
-|NetworkNameID |int |是的 |選擇性地對應至 CqdNetworkName 資料表中的列。 |
-|BuildingKey |int |是的 |外鍵，與 CqdBuilding 資料表中的其中一個專案相符。 |
-|UpdatedDate |datetime |不 |上次更新專案的日期時間。 |
+|網路 |Varchar （25） |否 |子網位址。 |
+|NetworkRange |Tinyint |是 |子網路遮罩。 |
+|NetworkNameID |int |是 |選擇性地對應至 CqdNetworkName 資料表中的列。 |
+|BuildingKey |int |是 |外鍵，與 CqdBuilding 資料表中的其中一個專案相符。 |
+|UpdatedDate |datetime |否 |上次更新專案的日期時間。 |
 ||||||
 
 根據預設，下一個資料表有一個專案（0，"Unknown"）。
@@ -136,8 +138,8 @@ CQD 是一種網頁入口網站，可根據體驗品質（QoE）資料快速建�
 
 |左欄|資料類型|允許 Null 嗎？|詳細資料|
 |:-----|:-----|:-----|:-----|
-|BuildingTypeId |int |不 |CqdBuildingType 資料表的主鍵。 |
-|BuildingTypeDesc |char （18） |不 |[建築物類型描述]。 |
+|BuildingTypeId |int |否 |CqdBuildingType 資料表的主鍵。 |
+|BuildingTypeDesc |char （18） |否 |[建築物類型描述]。 |
 |||||
 
 根據預設，下一個資料表有一個專案（0，"Unknown"，0，null）。
@@ -146,10 +148,10 @@ CQD 是一種網頁入口網站，可根據體驗品質（QoE）資料快速建�
 
 |左欄|資料類型|允許 Null 嗎？|詳細資料|
 |:-----|:-----|:-----|:-----|
-|OwnershipTypeId |int |不 |CqdBuildingOwnershipType 資料表的主鍵。 |
-|OwnershipTypeDesc |Varchar （25） |不 |擁有權類型描述。 |
-|LeaseInd |Tinyint |是的 |參照 CqdBuildingOwnershipType 資料表中另一列的索引，用於識別租的建築物。 |
-|擁有者 |Varchar （50） |是的 |建立擁有者。 |
+|OwnershipTypeId |int |否 |CqdBuildingOwnershipType 資料表的主鍵。 |
+|OwnershipTypeDesc |Varchar （25） |否 |擁有權類型描述。 |
+|LeaseInd |Tinyint |是 |參照 CqdBuildingOwnershipType 資料表中另一列的索引，用於識別租的建築物。 |
+|擁有者 |Varchar （50） |是 |建立擁有者。 |
 |||||
 
 根據預設，下一個資料表有一個專案（0，"Unknown"，0，null）。
@@ -158,11 +160,11 @@ CQD 是一種網頁入口網站，可根據體驗品質（QoE）資料快速建�
 
 |左欄|資料類型|允許 Null 嗎？|詳細資料|
 |:-----|:-----|:-----|:-----|
-|面臨 |Nvarchar （50） |不 |CqdBssid 資料表的主鍵。 是 WiFi 存取點的 BSSID。 |
-|員工 |Nvarchar （50） |是的 |Wifi 存取點控制器資訊。 |
-|phy |Nvarchar （50） |是的 |Phy 資訊。 |
-|應付 |Nvarchar （50） |是的 |Wifi 存取點名稱。 |
-|創建 |Nvarchar （500） |是的 |WiFi 存取點所在的建築物名稱。 |
+|面臨 |Nvarchar （50） |否 |CqdBssid 資料表的主鍵。 是 WiFi 存取點的 BSSID。 |
+|員工 |Nvarchar （50） |是 |Wifi 存取點控制器資訊。 |
+|phy |Nvarchar （50） |是 |Phy 資訊。 |
+|應付 |Nvarchar （50） |是 |Wifi 存取點名稱。 |
+|創建 |Nvarchar （500） |是 |WiFi 存取點所在的建築物名稱。 |
 ||||
 
 ## <a name="cqd-streams"></a>CQD 串流
@@ -238,7 +240,7 @@ CQD 不使用 [來電者/被叫獲方程式] 欄位，而是使用 "First" 和 "
 
 ## <a name="operational-processes"></a>操作程式
 
-先審查及修正受管理的資料流程。 此區域中的品質應該在您的控制項內是 100%，因此最容易修正。
+先審查及修正受管理的資料流程。 此區域中的品質應該在您的控制項內是100%，因此最容易修正。
 
 ### <a name="managed-streams"></a>受管理的資料流程
 

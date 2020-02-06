@@ -8,15 +8,17 @@ ms.date: 1/20/2017
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622
 description: 本主題描述商務用 Skype Server 2015 資源套件中的工具，包括每個工具的用途，以及其用法範例。 商務用 Skype Server 2015 資源套件能讓部署及管理商務用 Skype Server 2015 的 IT 系統管理員更容易進行例行工作。 例如，網路會議資料工具可用於輕鬆控制使用者在線上會議期間上傳的資料。 SEFAUtil 工具可用來設定代理人來電轉接及應答使用者。 我們鼓勵 IT 系統管理員使用這些工具來更有效率地管理商務用 Skype Server 2015。
-ms.openlocfilehash: 0087f4286246833f0266ad0c78636bad00167756
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: c4fb43d7996133f5608b13a3fea693665ebd3e4b
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992530"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816252"
 ---
 # <a name="skype-for-business-server-2015-resource-kit-tools-documentation"></a>商務用 Skype Server 2015 資源套件工具檔
 
@@ -71,7 +73,7 @@ ms.locfileid: "40992530"
 
 通訊錄服務設定工具（ABSConfig）是一種管理工具，可協助系統管理員在商務用 Skype Server 2015 中自訂通訊錄服務設定。 這個工具也能讓商務用 Skype Server 2015 系統管理員還原預設通訊錄服務設定。
 
-### <a name="description"></a>描述
+### <a name="description"></a>說明
 
 ABSConfig 是圖形使用者介面應用程式，可讓系統管理員設定與通訊錄服務相關的 Active Directory 網域服務屬性。
 
@@ -141,7 +143,7 @@ ABSConfig 工具可讓系統管理員快速且輕鬆地使用工具來自訂商�
 
 3. 在網路設定檔中設定的所有連結，以及每個頻寬策略服務所報告的即時頻寬使用量
 
-### <a name="description"></a>描述
+### <a name="description"></a>說明
 
 [頻寬原則服務監視工具] 是以 GUI 式應用程式的方式來實現。 系統管理員執行 PDPMonUI 來啟動該工具。
 
@@ -181,7 +183,7 @@ ABSConfig 工具可讓系統管理員快速且輕鬆地使用工具來自訂商�
 
 [頻寬利用率分析] 是一種工具，可在商業網路中，透過廣域網路連結的 UC 端點，建立各種頻寬使用量的報告。 這些報告可用來瞭解目前的頻寬使用量模式，並協助您進行頻寬容量規劃。
 
-### <a name="description"></a>描述
+### <a name="description"></a>說明
 
 [頻寬利用率分析] 是以 GUI 式應用程式的方式來實現。 這個工具會針對網路上的音訊利用率專門產生報告，並協助您進行容量規劃。 它也會根據指派給各種連結的頻寬容量來反覆運算。
 
@@ -369,7 +371,7 @@ ABSConfig 工具可讓系統管理員快速且輕鬆地使用工具來自訂商�
 
 呼叫 Parkometer 是一種命令列應用程式，可讓您輕鬆存取 [通話駐留軌道] 資料庫。
 
-### <a name="description"></a>描述
+### <a name="description"></a>說明
 
 呼叫 Parkometer 是一種追蹤目前寄存通話的工具。 它也會收集有關軌道式及通話駐留伺服器（CPS）用法的統計資料。 這個命令列工具提供從本機或遠端連線的電腦對 CPS 軌道 SQL Server 資料庫的讀取和寫入存取權。
 
@@ -463,7 +465,7 @@ Integrated Security=false;"/>
 ## <a name="dbanalyze"></a>DBAnalyze
 <a name="dba"> </a>
 
-### <a name="description"></a>描述
+### <a name="description"></a>說明
 
 DBAnalyze 是一種命令列工具，可協助管理員收集有關商務用 Skype Server 2015 資料庫的分析報告。 DBAnalyze 具有下列模式： [診斷]、[使用者資料]、[會議]、[MCUs] 和 [磁片碎片]：
 
@@ -533,7 +535,7 @@ DBAnalyzer 可讓系統管理員快速且輕鬆地分析商務用 Skype Server 2
 
 ImportStorageServiceData 資源套件工具可讓您重新匯入儲存空間服務（LYSS）的佇列和端點資料，並傳回儲存服務。
 
-### <a name="description"></a>描述
+### <a name="description"></a>說明
 
 從存儲服務中清除的資料，可能會根據佇列專案狀態或資料庫大小，自動（定期）。 這可能是因為手動調用 pool 容錯移轉 Cmdlet，或 StorageServiceFullFlush Cmdlet （這是池容錯移轉 Cmdlet 的調用）。 請注意，如果前端的任何儲存服務（LYSS）資料庫大小都在 [標準] 層級之上，則最好不要重新匯入資料，因為這樣做可能只會導致更多資料匯出回來。此外，您應該先解決導致存儲服務佇列增長的錯誤所帶來的任何問題（例如 Exchange 端點錯誤、網路問題或其他問題）。
 
@@ -719,7 +721,7 @@ Tool has finished execution.
 
 LCSSync 工具可協助您在多目錄林環境中部署商務用 Skype Server 2015 通訊軟體。 這個工具是用來將來自不同使用者目錄林的使用者和群組，作為 Active Directory 網域服務連絡人物件與已安裝商務用 Skype Server 2015 的中央目錄林同步處理。
 
-### <a name="description"></a>描述
+### <a name="description"></a>說明
 
  LCSSync 會使用中央林中的同步處理 Active Directory 網域服務連絡人物件，讓使用者使用商務用 Skype Server。 若要提供單一登入，主要使用者帳戶必須對應到商務用 Skype Server 2015 的中央林中的 Active Directory 網域服務連絡人物件。 此工具可協助執行該對應。 此工具提供範本，可用於在 Microsoft 身分識別整合伺服器中建立管理代理程式。
 
@@ -732,7 +734,7 @@ LCSSync 工具可協助您在多目錄林環境中部署商務用 Skype Server 2
 
 LookupUserConsole 工具會顯示特定使用者的內部商務用 Skype 伺服器路由資訊。 在診斷部署和路由問題時，Microsoft 支援個人資訊可能會很有用。
 
-### <a name="description"></a>描述
+### <a name="description"></a>說明
 
  執行 LookupUserConsole 會開啟接受 SIP 位址的命令提示字元，並嘗試顯示與它們相關的內部商務用 Skype Server 路由資訊。 輸入**exit**以結束 LookupUserConsole 工具。
 
@@ -787,7 +789,7 @@ C:\Program Files\Skype for Business Server 2015 \ ResKit\>LookupUserConsole
 
 MSTurnPing 工具可讓商務用 Skype Server 2015 通訊軟體的管理員檢查執行音訊/視頻邊緣和音訊/視頻驗證服務的伺服器狀態，以及在拓撲中執行頻寬原則服務的伺服器。
 
-### <a name="description"></a>描述
+### <a name="description"></a>說明
 
 MSTurnPing 工具可讓商務用 Skype Server 2015 通訊軟體的管理員檢查執行音訊/視頻邊緣和音訊/視頻驗證服務的伺服器狀態，以及在拓撲中執行頻寬原則服務的伺服器。
 
@@ -848,7 +850,7 @@ MsTurnPing -ServerRole BandwidthPolicyServer
 
 商務用 Skype Server 2015 通訊軟體系統管理員可以使用網路設定檢視器來查看已設定為允許即時通訊會話的企業的通話許可控制（CAC）網路拓朴，例如根據指定的頻寬容量進行語音或視頻通話。 商務用 skype Server 2015 系統管理員會定義 CAC 原則，這些原則是由使用商務用 Skype Server 2015 所安裝的頻寬原則服務所強制執行。
 
-### <a name="description"></a>描述
+### <a name="description"></a>說明
 
 網路設定檢視器（NetworkConfigurationViewer）可讓系統管理員執行下列工作：
 
@@ -915,7 +917,7 @@ MsTurnPing -ServerRole BandwidthPolicyServer
 
 回應群組應用程式讓代理能夠使用其內建的 Web 服務存取有用的即時資訊。 遺憾的是，在應用程式以外不提供此資料的圖形視圖。 回應群組代理程式動態資源套件工具可提供一種簡單且圖形化的方式來存取此資訊，並使用即時 Skype 通訊軟體資訊（例如其他代理的目前狀態）加強。
 
-### <a name="description"></a>描述
+### <a name="description"></a>說明
 
 回應群組代理程式活是一種 Windows 應用程式，可提供登入和登出功能，以及一些即時資訊（例如，群組成員資格和目前的呼叫數量）到回應群組代理程式。 它應該是 [代理群組] 頁面的增強版本（可從商務用 Skype 存取）。
 
@@ -986,7 +988,7 @@ SEFAUtil （次要延伸功能啟用）是一種命令列工具，可讓商務�
 
 SEFAUtil （次要延伸功能啟用）可讓商務用 Skype Server 2015 系統管理員和支援人員在 Skype 中設定代理人響鈴、來電轉接、同時撥打、團隊通話設定和群組通話提貨商務用伺服器2015使用者。 此工具也可讓系統管理員查詢針對特定使用者發佈的呼叫路由設定。
 
-### <a name="description"></a>描述
+### <a name="description"></a>說明
 
 目前的 SEFAUtil 版本只是一個命令列工具;沒有支援圖形使用者介面。 此工具是以 Microsoft 整合通訊管理 API （UCMA）3.0 為基礎。 此工具中的功能可讓系統管理員和支援人員執行下列作業：
 
@@ -1402,7 +1404,7 @@ UM Enabled: True
 ## <a name="sysprepps1"></a>SYSPrep. ps1
 <a name="SYSPrep"> </a>
 
-### <a name="description"></a>描述
+### <a name="description"></a>說明
 
 SYSPrep. ps1 是 Windows PowerShell 腳本，可在您的 Windows Server 2008 作業系統電腦上安裝下列商務用 Skype Server 2015 先決條件。
 
@@ -1454,7 +1456,7 @@ SYSPrep. ps1 是 Windows PowerShell 腳本，可在您的 Windows Server 2008 �
 
 [未指派的號碼宣告] 遷移工具可讓商務用 Skype Server 2015 系統管理員將宣告應用程式所提供的 [未指派的號碼] 設定從來源 Skype 伺服器或池中移至[目的地商務用 Skype 伺服器] 或 [池]。
 
-### <a name="description"></a>描述
+### <a name="description"></a>說明
 
 [取消指派的號碼宣告] 遷移工具是一個 Windows PowerShell 腳本，可將來源伺服器或池的宣告應用程式所提供的未指定編號設定移至不同的伺服器或池中。
 
@@ -1524,7 +1526,7 @@ Move-CsAnnouncementConfiguration.ps1 -Source SfBS2015Pool.contoso.com -Destinati
 
 網路會議資料工具可讓商務用 Skype Server 2015 通訊軟體的系統管理員對與召集人的網路會議相關的資料進行更多的控制。 案例包括根據時間戳記準則刪除特定使用者的會議資料的功能。
 
-### <a name="description"></a>描述
+### <a name="description"></a>說明
 
 這個工具可讓系統管理員執行下列作業：
 

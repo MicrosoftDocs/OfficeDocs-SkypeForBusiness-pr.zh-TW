@@ -8,15 +8,17 @@ ms.date: 3/28/2016
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: c1037909-0750-411a-98c1-3a327eed4ae8
 description: 摘要：瞭解如何在商務用 Skype Server 2015 中設定持久聊天伺服器聊天室的增益集。
-ms.openlocfilehash: c7243184f273704335dda3c8709de17e767f6b51
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 01e58422f28d0027114f5bc424f01eb9ef3d9e14
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992108"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817289"
 ---
 # <a name="configure-add-ins-for-persistent-chat-rooms-in-skype-for-business-server-2015"></a>設定常設聊天室的增益集
  
@@ -58,7 +60,7 @@ ms.locfileid: "40992108"
 您可以使用下列 Windows PowerShell Cmdlet 來設定聊天室的增益集。 如需語法的詳細資料（包括所有可用的參數），請參閱[商務用 Skype Server 2015 管理命令](../management-shell.md)介面。
   
 
-|**Cmdlet**|**描述**|
+|**Cmdlet**|**說明**|
 |:-----|:-----|
 |New-CsPersistentChatAddin  <br/> |建立新的增益集  <br/> |
 |Set-CsPersistentChatAddin  <br/> |設定現有增益集的設定  <br/> |

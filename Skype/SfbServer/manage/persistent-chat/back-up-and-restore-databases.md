@@ -8,15 +8,17 @@ ms.date: 3/28/2016
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 4f2b689b-7f15-48dc-a069-da7bc8527def
 description: 摘要：瞭解如何在商務用 Skype Server 2015 中備份及還原持續聊天伺服器資料庫。
-ms.openlocfilehash: a8c407c35b9d864889c26cbea7296dbed86516fa
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 9da64a3ba6f6ad8053faebf0d536a610e02cce8f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991968"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817339"
 ---
 # <a name="back-up-and-restore-persistent-chat-databases-in-skype-for-business-server-2015"></a>備份和還原常設聊天室資料庫
  

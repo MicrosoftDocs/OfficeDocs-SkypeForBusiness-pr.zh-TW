@@ -8,15 +8,17 @@ ms.date: 1/31/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: b0c834b9-b5c8-41d5-865b-c8b180e76d13
 description: 摘要：瞭解如何在商務用 Skype Server 2015 中管理持久聊天伺服器類別。
-ms.openlocfilehash: f0c85c2246c85c93f96e6c13cef0a5d4360213cb
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 03e01e6221cdb32e4a2c77314e256a195b9ea4d3
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991998"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817329"
 ---
 # <a name="manage-categories-in-persistent-chat-server-in-skype-for-business-server-2015"></a>管理常設聊天室伺服器中的類別
  
@@ -82,7 +84,7 @@ ms.locfileid: "40991998"
 您可以使用下列 Windows PowerShell Cmdlet 來設定類別：
   
 
-|**Cmdlet**|**描述**|
+|**Cmdlet**|**說明**|
 |:-----|:-----|
 |新-CsPersistentChatCategory  <br/> |建立新類別  <br/> |
 |Set-CsPersistentChatCategory  <br/> |設定現有類別的設定  <br/> |

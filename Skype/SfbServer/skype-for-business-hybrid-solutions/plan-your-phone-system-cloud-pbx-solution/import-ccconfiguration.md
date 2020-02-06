@@ -8,15 +8,17 @@ ms.date: 10/11/2017
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 461361a0-9aa9-469d-ace0-dc70b95cd4a3
 description: 從本機檔案將商務用 Skype 雲端連接器版本設定匯入雲端連接器主機伺服器。
-ms.openlocfilehash: c72a72351ecb6936832bc5d6a2493c5fa8dfe324
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 626ba52d4d67f99dd67d3d1f91d26d6e6d03f95e
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003333"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41799853"
 ---
 # <a name="import-ccconfiguration"></a>Import-CcConfiguration
  
@@ -45,7 +47,7 @@ Import-CcConfiguration
 ## <a name="parameters"></a>參數
 <a name="Examples"> </a>
 
-|**參數**|**必要**|**類型**|**描述**|
+|**參數**|**必要**|**類型**|**說明**|
 |:-----|:-----|:-----|:-----|
 |Force  <br/> |選用  <br/> |System.Management.Automation.SwitchParameter  <br/> |在%SystemDrive%\ProgramData\CloudConnector 中覆寫現有檔案而不發出通知。  <br/> |
    

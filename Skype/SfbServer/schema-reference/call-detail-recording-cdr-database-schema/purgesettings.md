@@ -8,15 +8,17 @@ ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 9ff2c8fc-4ae8-4f22-96a8-1f4d5eecbf2d
 description: PurgeSettings 資料表包含的資訊可指定是否會自動從 CDR 資料庫中刪除過時的呼叫詳細資料記錄。 請注意，您也可以透過執行下列命令，在商務用 Skype Server 2015 中取得清除相關資訊：
-ms.openlocfilehash: fbbd7908446fdb042c8fdfa2f0c8bec2d83b24d9
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 81e702a4d62b4c85fb849a768c97428719ddc391
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992913"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41814961"
 ---
 # <a name="purgesettings-table"></a>PurgeSettings 資料表
  

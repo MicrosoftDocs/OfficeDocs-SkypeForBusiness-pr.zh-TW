@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 25c2450a-f7b3-4dd2-987d-64f4246dd019
 description: 摘要：瞭解通話品質儀表板的資料 API。 [通話品質儀表板] 是商務用 Skype Server 的工具。
-ms.openlocfilehash: 016cc1be9f5cd5506f8ee7d8ddbe2765e0015ffd
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: e302c04dee298f9e5d2f33c908b5421ecff4de9a
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "36571917"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816862"
 ---
 # <a name="data-api-for-call-quality-dashboard-cqd-in-skype-for-business-server"></a>商務用 Skype Server 中的通話品質儀表板（CQD）的資料 API
  
@@ -33,7 +35,7 @@ ms.locfileid: "36571917"
 
 |**一道**|**說明**|
 |:-----|:-----|
-|[取得立方體](get-cube.md) <br/> |取得可用尺寸與測量的清單。  <br/> |
+|[取得 Cube](get-cube.md) <br/> |取得可用尺寸與測量的清單。  <br/> |
 |[取得維度成員](get-dimension-members.md) <br/> |[取得維度成員] 操作會傳回特定維度之成員的清單。 它也提供篩選成員清單及取得子集的功能，以減少線路傳輸成本。  <br/> |
 |[執行查詢](run-query.md) <br/> |[執行查詢] 作業能根據指定的尺寸、測量及篩選，在立方體上執行查詢，並傳回資料。  <br/> |
 |[清除快取](clear-cache.md) <br/> |[清除快取] 操作會刪除查詢和資料在伺服器上的快取。 這將會重設快取，然後從 QoE Cube 取得新的資料，之後就會出現新的要求。  <br/> |

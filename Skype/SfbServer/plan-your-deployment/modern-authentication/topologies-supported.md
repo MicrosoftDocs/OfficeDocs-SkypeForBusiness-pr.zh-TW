@@ -7,17 +7,19 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: 258430b0-574a-47fb-90b7-54ee8996b2ec
 description: 本文列出商務用 Skype 中的新式驗證支援哪些線上和內部部署拓撲，以及適用于每個拓朴的安全性功能。
-ms.openlocfilehash: 0d66790d2c471af29ed5c3f886393b1cd33f2b6a
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: 2eb043768c46406696b32da5dfb84e2358a30749
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "36193922"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815821"
 ---
 # <a name="skype-for-business-topologies-supported-with-modern-authentication"></a>現代驗證支援的商務用 Skype 拓撲
  

@@ -8,6 +8,8 @@ ms.date: 2/15/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - Ent_O365_Hybrid
@@ -17,12 +19,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4598565a-c228-4265-ad03-d2aef95b31a0
 description: 若要讓使用者在 Office 365 （雲端 PBX）中使用電話系統，您必須先啟用企業語音，然後將電話號碼指派給他們。 您可以使用內部部署的部署來執行此動作，而使用者仍在內部部署的部署中。
-ms.openlocfilehash: 8bf8720896aa8115cb24d3b632b4ae576f466bcc
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 4409de1965fbcca641dde69d70c734d1bcd3a8b6
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003473"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802293"
 ---
 # <a name="enable-the-users-for-enterprise-voice-on-premises"></a>啟用企業內部部署的使用者
  

@@ -8,15 +8,17 @@ ms.date: 3/20/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 62fdc9cc-e82e-463f-b8b3-05d5c6482ea2
 description: CcExternalCertificateFilePath Cmdlet 會傳回商務用 Skype 雲端連接器版本部署的外部憑證檔路徑。 使用者準備這個證書。
-ms.openlocfilehash: 7a471b0e4258728bfaa50558aab54955346b457c
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 143595d30bb71756544a16ad464da05a229f476d
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003373"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41799903"
 ---
 # <a name="get-ccexternalcertificatefilepath"></a>Get-CcExternalCertificateFilePath
  
@@ -55,7 +57,7 @@ Get-CcExternalCertificateFilePath -Target MediationServer
 ## <a name="parameters"></a>參數
 <a name="DetailedDescription"> </a>
 
-|**參數**|**必要**|**類型**|**描述**|
+|**參數**|**必要**|**類型**|**說明**|
 |:-----|:-----|:-----|:-----|
 |目標  <br/> |選用  <br/> | System.Management.Automation.SwitchParameter <br/> |所要求的檔路徑類型。 類型包括：  <br/> EdgeServer （預設值）  <br/> MediationServer  <br/> |
    

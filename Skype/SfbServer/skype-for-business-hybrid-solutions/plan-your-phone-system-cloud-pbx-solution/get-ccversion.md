@@ -8,15 +8,17 @@ ms.date: 6/30/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 7d370abd-0c01-4490-88a1-55b42e51b663
 description: 傳回雲端連接器裝置的版本。 CCVersion 只能在雲端連接器的主機電腦上使用。
-ms.openlocfilehash: a7d50bbcd01dc80fe3e2202286c1adc1b5d5f9bd
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 706b480c2f8e277b7f41fe28e88cc062fea6603a
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003343"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41799843"
 ---
 # <a name="get-ccversion"></a>Get-CcVersion
  
@@ -32,7 +34,7 @@ Get-CcVersion [[-VersionType] <String>] [<CommonParameters>]
   
 ## <a name="parameters"></a>參數
 
-|**參數**|**必要**|**類型**|**描述**|
+|**參數**|**必要**|**類型**|**說明**|
 |:-----|:-----|:-----|:-----|
 |VersionType  <br/> |選用  <br/> |System.String  <br/> |版本類型。 參數的值可以是 RunningScripts、RunningBits、BackupBits 或 All。 預設值為 RunningScripts。  <br/> |
    

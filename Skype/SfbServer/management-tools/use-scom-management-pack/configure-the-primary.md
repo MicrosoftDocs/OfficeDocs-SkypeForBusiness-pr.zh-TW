@@ -8,16 +8,18 @@ ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c7e21cce-1dd2-489a-a2eb-f632799f7523
 description: 摘要：設定您的主要管理伺服器、安裝 System Center Operations Manager，並匯入商務用 Skype Server 2015 的管理套件。
-ms.openlocfilehash: adee7ef72e6b59854e2b458aa33fdb4880923eed
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 0492a86062577d5118860faae8beca50f9f7bed2
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992460"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816122"
 ---
 # <a name="configure-the-primary-management-server"></a>設定主要管理伺服器
 

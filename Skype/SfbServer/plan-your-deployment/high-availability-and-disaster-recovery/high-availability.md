@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 965041b7-3136-49f2-89c1-8b30417cb8ea
 description: 瞭解商務用 Skype Server 中的前端池管理，包括管理池、仲裁損失，以及僅有兩個前端伺服器的池之特殊步驟。
-ms.openlocfilehash: d54474b6e3013b2d092f55b80000f5578e266f81
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: 731284d6df761b7fb023c92c656cae5cd6d0ed77
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37435176"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815911"
 ---
 # <a name="front-end-pool-high-availability-and-management"></a>前端池高可用性與管理
  
@@ -40,7 +42,7 @@ ms.locfileid: "37435176"
   
 |池中的伺服器總數  <br/> |必須執行才能第一次啟動該池的伺服器數量  <br/> |
 |:-----|:-----|
-|pplx-2  <br/> |sr-1  <br/> |
+|2  <br/> |1  <br/> |
 |3  <br/> |3  <br/> |
 |4  <br/> |3  <br/> |
 |500  <br/> |4  <br/> |
@@ -55,7 +57,7 @@ ms.locfileid: "37435176"
 
 
    
-每次啟動該池之後，伺服器的 85% 應該會啟動（如前面的資料表所示）。 如果此伺服器數無法啟動（但可以啟動足夠的伺服器，因此您不是在池層級的仲裁遺失），您可以使用`Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery` Cmdlet 來讓該池從路由群組層級仲裁遺失中復原，並產生進度。 如需如何使用此 Cmdlet 的詳細資訊，請參閱[Reset-CsPoolRegistrarState](https://docs.microsoft.com/powershell/module/skype/reset-cspoolregistrarstate?view=skype-ps)。 
+每次啟動該池之後，伺服器的85% 應該會啟動（如前面的資料表所示）。 如果此伺服器數無法啟動（但可以啟動足夠的伺服器，因此您不是在池層級的仲裁遺失），您可以使用`Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery` Cmdlet 來讓該池從路由群組層級仲裁遺失中復原，並產生進度。 如需如何使用此 Cmdlet 的詳細資訊，請參閱[Reset-CsPoolRegistrarState](https://docs.microsoft.com/powershell/module/skype/reset-cspoolregistrarstate?view=skype-ps)。 
   
 > [!NOTE]
 > 在有偶數個伺服器的 [pool] 中，商務用 Skype 伺服器使用主要的 SQL 資料庫作為見證。 在像這樣的池子中，如果您關閉主資料庫並切換到鏡像複本，然後關閉足夠的前端伺服器，以使其根據前面的資料表執行時，整個池都會向下移動。 如需詳細資訊，請參閱[資料庫鏡像見證](https://go.microsoft.com/fwlink/?LinkId=393672)。 
@@ -66,7 +68,7 @@ ms.locfileid: "37435176"
   
 |池中的前端伺服器總數  <br/> |必須執行才能供擁有池中運作的伺服器數量  <br/> |
 |:-----|:-----|
-|pplx-2  <br/> |sr-1  <br/> |
+|2  <br/> |1  <br/> |
 |3-4  <br/> |任何2  <br/> |
 |5-6  <br/> |任何3  <br/> |
 |utf-7  <br/> |任何4  <br/> |

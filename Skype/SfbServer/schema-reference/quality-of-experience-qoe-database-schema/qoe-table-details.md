@@ -8,19 +8,21 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: f10f0796-3c09-4cb8-bd0d-15f783835f03
-description: 以下各節詳細說明每個經驗品質 (QoE) 資料庫架構資料表中的欄。
-ms.openlocfilehash: 371fdd6f3d61ef799fd45f08e7cb4a8a1fea03f0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 以下各節詳細說明每個經驗品質（QoE）資料庫架構資料表中的欄。
+ms.openlocfilehash: a09e39bc0e942b68a0b53d6c8718ab8973d7ba7f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36192650"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41807191"
 ---
 # <a name="qoe-table-details"></a>QoE 表格詳細資料
  
-以下各節詳細說明每個經驗品質 (QoE) 資料庫架構資料表中的欄。
+以下各節詳細說明每個經驗品質（QoE）資料庫架構資料表中的欄。
   
 - [AppliedBandwidthSource 表格](appliedbandwidthsource.md)
     
@@ -64,7 +66,7 @@ ms.locfileid: "36192650"
     
 - [Pool 表格](pool.md)
     
-- [PurgeSettings table (QoE)](purgesettings-qoe.md)
+- [PurgeSettings table （QoE）](purgesettings-qoe.md)
     
 - [地區表格](region.md)
     
@@ -82,7 +84,7 @@ ms.locfileid: "36192650"
     
 - [UserAgent 表格](useragent.md)
     
-- [UserAgentDef table (QoE)](useragentdef-qoe.md)
+- [UserAgentDef table （QoE）](useragentdef-qoe.md)
     
 - [UserSite 表格](usersite.md)
     

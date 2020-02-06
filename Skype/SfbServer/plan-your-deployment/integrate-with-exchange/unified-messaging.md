@@ -8,16 +8,18 @@ ms.date: 2/16/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7b22002b-7e6a-4d3f-b600-a733a7e3778a
 description: 摘要：在規劃將商務用 Skype 伺服器與 Exchange 2013 或2016整合時，請複習本主題。
-ms.openlocfilehash: bed73151b1010dd287c21ea55372e4eb18117665
-ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
+ms.openlocfilehash: 1ae6ad10f1e817b9ace0240c79d09251a23dd61c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "37772616"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815861"
 ---
 # <a name="plan-for-exchange-unified-messaging-integration-in-skype-for-business"></a>在商務用 Skype 中規劃 Exchange 整合訊息整合
 
@@ -61,7 +63,7 @@ ms.locfileid: "37772616"
 
 ### <a name="exchange-server-components"></a>Exchange Server 元件
 
-您必須部署 Microsoft Exchange 信箱伺服器和用戶端存取，才能提供整合式整合[訊息及商務用 Skype Server 功能](#features-of-integrated-unified-messaging-and-skype-for-business-server)中所述的 Exchange UM 功能及服務。伺服器會寄存使用者信箱，並提供單一儲存空間來存放電子郵件和語音信箱。 Exchange UM 在 Exchange 信箱和用戶端存取伺服器上以服務的方式執行。
+若要提供在您組織中[的整合式整合訊息與商務用 Skype Server 的功能](#features-of-integrated-unified-messaging-and-skype-for-business-server)中所說明的 Exchange UM 功能及服務，您必須部署 Microsoft Exchange 信箱伺服器和用戶端存取伺服器，以存放使用者信箱，並提供電子郵件和語音信箱的單一儲存位置。 Exchange UM 在 Exchange 信箱和用戶端存取伺服器上以服務的方式執行。
 
 如需 Microsoft Exchange Server 2010 中 Exchange UM 元件的詳細資訊，請參閱[部署內部部署 EXCHANGE UM，以提供 Lync Server 2013 預覽語音信箱](https://technet.microsoft.com/library/9673bd73-a3a3-425d-870f-04d801c6d0d5.aspx)。
 

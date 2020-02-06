@@ -8,18 +8,17 @@ ms.date: 4/8/2016
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- ms.lync.plan.HighAvailability
-- ms.lync.plan.HighAvailability
+- NOCSH
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 14a897b3-2406-46c7-b08f-490085b3d048
 description: 商務用 Skype Server 2015 中大多數伺服器角色的主要高可用性配置，都是透過 [彙集] 以伺服器冗余為基礎。 如果執行特定伺服器角色的伺服器失敗，則池中執行相同角色的其他伺服器會載入該伺服器。
-ms.openlocfilehash: 53b98b72c70fcb624ab59fc7bfc3fbffadbd231a
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 4b10eab9e2de3741958e2ed17cfc92aa430ed3ea
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41696288"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816392"
 ---
 # <a name="high-availability-planning-tool"></a>高可用性（規劃工具）
  

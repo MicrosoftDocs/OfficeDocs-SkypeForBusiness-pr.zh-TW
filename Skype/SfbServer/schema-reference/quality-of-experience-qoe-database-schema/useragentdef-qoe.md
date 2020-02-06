@@ -1,5 +1,5 @@
 ---
-title: UserAgentDef table (QoE)
+title: UserAgentDef table （QoE）
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -8,24 +8,26 @@ ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: cfd8e3e0-4076-4162-9381-5276da8316d9
 description: UserAgentDef 表格會將使用者代理程式識別碼對應至代理程式的描述性名稱。 使用者代理是用來連線到商務用 Skype Server 的軟體用戶端。
-ms.openlocfilehash: 1cb64834cf9a68536dab9a5f5f90cf1189dff7e9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 515795ceed159d34a9b776e81b7f00b112ef29b8
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36192618"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41805011"
 ---
-# <a name="useragentdef-table-qoe"></a>UserAgentDef table (QoE)
+# <a name="useragentdef-table-qoe"></a>UserAgentDef table （QoE）
  
 UserAgentDef 表格會將使用者代理程式識別碼對應至代理程式的描述性名稱。 使用者代理是用來連線到商務用 Skype Server 的軟體用戶端。
   
 |**UAType**|**UAName**|**UACategory**|
 |:-----|:-----|:-----|
-|sr-1  <br/> |MediationServer  <br/> |MediationServer  <br/> |
-|pplx-2  <br/> |AV-MCU  <br/> |AV-MCU  <br/> |
+|1  <br/> |MediationServer  <br/> |MediationServer  <br/> |
+|2  <br/> |AV-MCU  <br/> |AV-MCU  <br/> |
 |4  <br/> |OC  <br/> |OC  <br/> |
 |型  <br/> |OCPhone  <br/> |OCPhone  <br/> |
 |位  <br/> |LMC  <br/> |LMC  <br/> |
@@ -33,11 +35,11 @@ UserAgentDef 表格會將使用者代理程式識別碼對應至代理程式的�
 |64  <br/> |年  <br/> |年  <br/> |
 |64  <br/> |MC  <br/> |年  <br/> |
 |128  <br/> |值守  <br/> |值守  <br/> |
-|256  <br/> |Conferencing_Announcement_Service_ 1。0  <br/> |頒發  <br/> |
-|512  <br/> |Conferencing_Attendant_ 1。0  <br/> |CAA  <br/> |
-|512  <br/> |Conference_Auto_Attendant_ 1。0  <br/> |CAA  <br/> |
+|256  <br/> |Conferencing_Announcement_Service_1. 0  <br/> |頒發  <br/> |
+|512  <br/> |Conferencing_Attendant_1. 0  <br/> |CAA  <br/> |
+|512  <br/> |Conference_Auto_Attendant_1. 0  <br/> |CAA  <br/> |
 |1024  <br/> |Response_Group_Service  <br/> |RG  <br/> |
-|1032  <br/> |Call_Park_Service_ 1。0  <br/> |CPS  <br/> |
+|1032  <br/> |Call_Park_Service_1. 0  <br/> |CPS  <br/> |
 |1040  <br/> |Response_Group_Service Announcement_Service  <br/> |完工  <br/> |
 |2048  <br/> |Ccs 的應用程式  <br/> |CCS  <br/> |
 |16386  <br/> |CoMo  <br/> |CoMo  <br/> |

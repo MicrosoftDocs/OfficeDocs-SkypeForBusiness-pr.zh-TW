@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: SIP 幹線設定設定會定義在服務提供者上，exchange 中繼伺服器與公用交換式電話網絡（PSTN）閘道、IP 公用分支 exchange （PBX）或會話邊界控制器（SBC）之間的關聯性與能力。
-ms.openlocfilehash: 8fb180994fdcd8409b0776a2fcaee6316110a36d
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 0ccbf86891d6265298411ad2f90988123529b614
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992550"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816902"
 ---
 # <a name="view-trunk-configuration-information-in-skype-for-business-server"></a>在商務用 Skype Server 中查看幹線設定資訊
 

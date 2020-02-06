@@ -8,22 +8,24 @@ ms.date: 2/16/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1bcadf0a-ca3d-436f-a2a0-09329d487b18
 description: 摘要：在規劃將商務用 Skype 伺服器與 Exchange 2013 或2016整合時，請複習本主題。
-ms.openlocfilehash: dfb9eb926cb1ebd046f06597eecc0c2204fea97b
-ms.sourcegitcommit: fa55f9e3690fcca36b530bd13a9eeaa44120b87c
+ms.openlocfilehash: db6cdbf5297c2397acadcb65ad615533ae6dbe2f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "37547266"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815891"
 ---
 # <a name="deployment-process-overview-for-integrating-on-premises-unified-messaging-and-skype-for-business"></a>整合內部部署整合訊息與商務用 Skype 的部署程式概述
  
 **摘要：** 在規劃將商務用 Skype Server 與 Exchange 2013 或2016整合時，請複習本主題。
   
- 如果您想要將 Exchange 整合訊息（UM）與商務用 Skype Server 整合，您必須執行本主題中所述的工作。 此外，請務必參閱在[商務用 Skype 中規劃 Exchange 整合訊息整合](unified-messaging.md)中所述的規劃與部署最佳做法。 本主題假設您已將商務用 Skype Server 與 collocated 中繼伺服器一起部署，且您已為使用者啟用商務用 Skype Server，但您可能還沒有執行所有部署和設定步驟來啟用企業語音，例如說明如何在部署檔中[部署商務用 Skype Server 中的企業版語音](../../deploy/deploy-enterprise-voice/deploy-enterprise-voice.md)。
+ 如果您想要將 Exchange 整合訊息（UM）與商務用 Skype Server 整合，您必須執行本主題中所述的工作。 此外，請務必參閱在[商務用 Skype 中規劃 Exchange 整合訊息整合](unified-messaging.md)中所述的規劃與部署最佳做法。 本主題假設您已將商務用 Skype Server 與 collocated 中繼伺服器一起部署，且您已為使用者啟用商務用 Skype Server，但您可能還沒有執行所有部署和設定步驟來啟用企業語音，如在部署檔中的[商務用 Skype Server 中部署企業語音](../../deploy/deploy-enterprise-voice/deploy-enterprise-voice.md)。
  
 > [!NOTE]
 > 在商務用 Skype Server 2019 中，Exchange 整合的郵件功能已不再提供，因為它會使用電話系統來錄製語音信箱訊息，然後將錄製保留在使用者的 Exchange 信箱中。 如需詳細資訊，請參閱[規劃雲端語音信箱服務](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)。

@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 674b523b-c0b7-4ed6-9e67-afa6e8ac7e12
 description: 商務用 Skype Server 管理命令介面提供伺服器管理和管理的命令列介面。 它是在 Windows PowerShell 中建立的，包含一組專用於 Skype 與舊版 Lync server 產品的完整管理和管理 Cmdlet。
-ms.openlocfilehash: 4890194824caaea771d31e008d4546d871d0da8a
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 294de750795985d50c6301a88f4b835f1cad78b7
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991588"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817552"
 ---
 # <a name="skype-for-business-server-management-shell"></a>商務用 Skype Server 管理命令介面
  

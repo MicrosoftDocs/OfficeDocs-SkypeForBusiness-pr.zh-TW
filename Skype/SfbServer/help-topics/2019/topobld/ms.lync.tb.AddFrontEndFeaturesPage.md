@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.AddFrontEndFeaturesPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 97441ec2-573a-4ba4-ab4c-df4cf6baf321
 ROBOTS: NOINDEX, NOFOLLOW
 description: 選取要為 [前端] 池啟用的每個功能。 您必須至少部署立即啟用，且無法取消選取的立即訊息（IM）。 您也可以選擇部署 [會議]、[企業語音] 和 [通話許可控制] （CAC）等其他功能。 某些功能依賴您的拓撲。
-ms.openlocfilehash: 6525ffb123ad3170ad8e0ba8faffc56effda989b
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 6debbfe324abf626918768e1a3cae6f0b4b112ff
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41689309"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41798560"
 ---
 # <a name="add-front-end-features"></a>新增前端功能
 

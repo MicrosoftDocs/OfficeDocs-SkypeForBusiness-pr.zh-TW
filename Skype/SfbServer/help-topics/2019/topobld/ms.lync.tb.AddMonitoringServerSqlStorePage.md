@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.AddMonitoringServerSqlStorePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d873a2ad-9d3a-4ef6-9f25-ccdd3716218c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 監視伺服器需要支援的64位版本的 SQL Server 資料庫軟體，才能儲存監視資料。 您可以選取先前定義的 SQL Server 資料庫來進行監視，或指定新的 SQL Server 資料庫，方法是指定 sql Server 資料庫將駐留之伺服器的完整功能變數名稱（FQDN），以及 SQL 的實例您想要用於新的 SQL Server 資料庫的伺服器（可以是預設實例，或是您指定的命名實例）。
-ms.openlocfilehash: 2ce8127165d37fd34d792b26fc41a1424569eaf5
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: b51d4802d67175177ca48419f495cbbccf981f4f
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41689132"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41798460"
 ---
 # <a name="add-monitoring-server-sql-server-store"></a>新增監控伺服器 SQL Server 存放區
 

@@ -8,18 +8,20 @@ ms.date: 11/15/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 0ebba3a4-6124-434c-84aa-32b1cc3345bc
 description: 請閱讀本主題，以瞭解使用雲端連接器版本2.0 和更新版本部署媒體旁路的步驟。
-ms.openlocfilehash: 63d8f9e289c38a50444bee2667c98543e09b875d
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 771d3a7294fde38b032e4cd9a281f70156280d3a
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003483"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802343"
 ---
 # <a name="deploy-media-bypass-in-cloud-connector-edition"></a>在雲端連接器版本中部署媒體旁路
  

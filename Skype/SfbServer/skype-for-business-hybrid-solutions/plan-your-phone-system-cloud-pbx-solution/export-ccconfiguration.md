@@ -8,15 +8,17 @@ ms.date: 11/15/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: e3775bd6-682c-4f62-aafc-974fe3a65c61
 description: 將商務用 Skype 雲端連接器版本設定匯出到商務用 Skype 雲端連接器 Edition 主機伺服器上的本機檔案。
-ms.openlocfilehash: cb3ea5a48c4e8911dc94526f85a517082d057b6e
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: cd0745081e3f069aaf58c9ffdbf24494bfb3ece1
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003433"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41801463"
 ---
 # <a name="export-ccconfiguration"></a>Export-CcConfiguration
  
@@ -45,7 +47,7 @@ Export CcConfiguration Cmdlet 可讓您將雲端連接器設定儲存至選取�
 ## <a name="parameters"></a>參數
 <a name="Examples"> </a>
 
-|**參數**|**必要**|**類型**|**描述**|
+|**參數**|**必要**|**類型**|**說明**|
 |:-----|:-----|:-----|:-----|
 |路徑  <br/> |必要  <br/> |System.String  <br/> |將儲存雲端連接器設定的完整檔案路徑。  <br/> |
    

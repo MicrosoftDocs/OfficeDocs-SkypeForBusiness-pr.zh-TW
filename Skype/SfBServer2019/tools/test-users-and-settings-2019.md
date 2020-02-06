@@ -8,15 +8,17 @@ ms.date: 2/13/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 摘要：針對商務用 Skype Server 合成事務，設定測試使用者帳戶和觀察程式節點設定。
-ms.openlocfilehash: 991b78a4581d616e79aaa4f096a76aad8636b632
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 2e365e2212cd2ade76d02c878891e1bbfcfdc433
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40989028"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41799653"
 ---
 # <a name="configure-watcher-node-test-users-and-settings"></a>設定觀察程式節點測試使用者和設定
  

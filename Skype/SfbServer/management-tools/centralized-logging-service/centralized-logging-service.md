@@ -8,16 +8,18 @@ ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 975718a0-f3e3-404d-9453-6224e73bfdd0
 description: 摘要：瞭解商務用 Skype Server 2015 中集中式記錄服務的服務元件和設定設定。
-ms.openlocfilehash: 1dfdc0de999e79182e5beb57c6d51ecc75359672
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 6d3ac969e5d9e5898acfe2a95c6fc08e115ab545
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992600"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816622"
 ---
 # <a name="centralized-logging-service-in-skype-for-business-2015"></a>商務用 Skype 2015 中的集中式記錄服務
  
@@ -106,7 +108,7 @@ ClsAgent 會維護全部的索引檔案。在本機電腦上的快取檔案。 C
   
     此 Cmdlet 的結果會顯示集中式記錄服務的目前設定。
     
-|**配置設定**|**描述**|
+|**配置設定**|**說明**|
 |:-----|:-----|
 |**Identity** <br/> |識別此設定的範圍和名稱。 只有一個全域配置，且每個網站都有一個設定。  <br/> |
 |**案例** <br/> |此設定所定義之所有案例的清單。  <br/> |

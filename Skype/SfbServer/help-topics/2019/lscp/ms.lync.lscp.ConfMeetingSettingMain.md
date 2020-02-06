@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.ConfMeetingSettingMain
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 24e8f749-d54c-4315-a8fe-bb9303b356ef
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[會議設定設定] 定義使用者可以建立的會議類型（也就是 calledmeetings），並控制匿名使用者和電話撥入式會議使用者可以加入這些會議的方式（或是否有）。 這些設定僅適用于排程的會議。 它們不適用於在用戶端中按一下 [立即開會] 選項所建立的即席會議。'
-ms.openlocfilehash: 15dfed475928fe56b42e7a47522c911256b0f033
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 66a1ff8134eec701cd3bd11b305c4e04e18ef99a
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41705008"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41798580"
 ---
 # <a name="meeting-configuration"></a>會議組態
 

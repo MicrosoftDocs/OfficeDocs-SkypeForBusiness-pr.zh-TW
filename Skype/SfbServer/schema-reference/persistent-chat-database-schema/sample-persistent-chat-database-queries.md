@@ -8,21 +8,23 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 545b1a93-9758-4344-98cc-aa0e559d494f
 description: 本節包含持久聊天資料庫的範例查詢。
-ms.openlocfilehash: fef40c2f36547fb0772d2e938bf8259246ec2055
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f967e62ade8186bb2f0dae79c06af71e872808af
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36192764"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41814721"
 ---
 # <a name="sample-persistent-chat-database-queries"></a>常設聊天室資料庫查詢範例
  
 本節包含持久聊天資料庫的範例查詢。
   
-使用下列範例, 在特定日期之後取得最活躍的持續聊天室清單。
+使用下列範例，在特定日期之後取得最活躍的持續聊天室清單。
   
 ```
 SELECT nodeName as ChatRoom, COUNT(*) as ChatMessages
@@ -32,7 +34,7 @@ SELECT nodeName as ChatRoom, COUNT(*) as ChatMessages
   ORDER BY ChatMessages DESC
 ```
 
-使用下列範例, 在特定日期之後取得最活躍的使用者清單。
+使用下列範例，在特定日期之後取得最活躍的使用者清單。
   
 ```
 SELECT prinName as Name, count(*) as ChatMessages
@@ -58,7 +60,7 @@ SELECT prinName as Name
   where principalID = 7 and affiliationID = prinID
 ```
 
-使用下列範例, 取得使用者 (Jane 道瓊) 是直接成員的每個聊天室的清單。
+使用下列範例，取得使用者（Jane 道瓊）是直接成員的每個聊天室的清單。
   
 ```
 SELECT DISTINCT nodeName as ChatRoom, prinName as Name          

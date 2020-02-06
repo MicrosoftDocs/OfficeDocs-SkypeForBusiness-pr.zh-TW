@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 21507e18-bd79-4019-9c3a-0867fccaa3b4
 description: 摘要：請閱讀本主題，瞭解如何在商務用 Skype Server 中實施及管理大型會議的最佳做法。
-ms.openlocfilehash: 136896a45be36508af419d84bc5bd684c9d8a429
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: 615b34158ebbd8985610d704fd4d6605c762ab3e
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "36193930"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815971"
 ---
 # <a name="plan-for-large-meetings-in-skype-for-business-server"></a>在商務用 Skype Server 中規劃大型會議
  
@@ -57,7 +59,7 @@ ms.locfileid: "36193930"
   
 專用來主持大型會議的商務用 Skype 伺服器池應該同時主持一或多達1000使用者的會議時間，因此必須透過不限頻帶的排程程式來預先預留會議時間，以確保從前端伺服器。 若要同時支援多個大型會議，您應該設定多個專用大型會議池。
   
-如需硬體和軟體需求的詳細資訊，以及規劃支援大型會議的拓撲，請參閱[商務用 Skype Server 中的會議硬體和軟體需求](hardware-and-software-requirements.md)，以及[規劃會議拓撲商務用 Skype 伺服器](conferencing-topology.md)。
+如需硬體和軟體需求的詳細資訊，以及規劃支援大型會議的拓撲，請參閱[商務用 Skype server 中的會議硬體和軟體需求](hardware-and-software-requirements.md)，以及[規劃商務用 skype server 的會議拓撲](conferencing-topology.md)。
   
 ## <a name="implement-best-practices-for-large-meetings"></a>針對大型會議實施最佳做法
 

@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: c0fd6056-87bc-4136-902a-f1b37cd3a1ca
 description: 摘要：瞭解如何管理商務用 Skype Server 的通話詳細資料錄製（CDR）資料。
-ms.openlocfilehash: ec24b5b1901bec053417c3a938c688cd4692f1c9
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 7cb9926ee8ec124b2fc75a69653c43c0150b6446
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991718"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817672"
 ---
 # <a name="specify-retention-of-cdr-data-in-skype-for-business-server"></a>在商務用 Skype Server 中指定 CDR 資料的保留
  
