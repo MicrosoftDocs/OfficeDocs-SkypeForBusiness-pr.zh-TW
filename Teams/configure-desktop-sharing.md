@@ -9,66 +9,68 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: 設定會議原則，讓使用者在團隊聊天或會議中共用其桌面
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bb3340da960728b1a261efc510573702c5a17076
-ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
+ms.openlocfilehash: 366aaeb4f48670ae04d4b53d21196ef2d9e81fb4
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "41628709"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825541"
 ---
-<a name="configure-desktop-sharing-in-microsoft-teams"></a><span data-ttu-id="6b7d3-103">在 Microsoft 團隊中設定桌面共用</span><span class="sxs-lookup"><span data-stu-id="6b7d3-103">Configure desktop sharing in Microsoft Teams</span></span>
+<a name="configure-desktop-sharing-in-microsoft-teams"></a><span data-ttu-id="676c6-103">在 Microsoft 團隊中設定桌面共用</span><span class="sxs-lookup"><span data-stu-id="676c6-103">Configure desktop sharing in Microsoft Teams</span></span>
 ============================================
 
-<span data-ttu-id="6b7d3-104">桌面共用可讓使用者在會議或聊天期間呈現畫面或應用程式。</span><span class="sxs-lookup"><span data-stu-id="6b7d3-104">Desktop sharing lets users present a screen or app during a meeting or chat.</span></span> <span data-ttu-id="6b7d3-105">系統管理員可以在 Microsoft 團隊中設定螢幕共用，讓使用者共用整個螢幕、應用程式或檔案。</span><span class="sxs-lookup"><span data-stu-id="6b7d3-105">Admins can configure screen sharing in Microsoft Teams to let users share an entire screen, an app, or a file.</span></span> <span data-ttu-id="6b7d3-106">您可以讓使用者提供或要求控制、允許 PowerPoint 共用、新增白板，以及允許共用筆記。</span><span class="sxs-lookup"><span data-stu-id="6b7d3-106">You can let users give or request control, allow PowerPoint sharing, add a whiteboard, and allow shared notes.</span></span> <span data-ttu-id="6b7d3-107">您也可以設定匿名或外部使用者是否可以要求共用畫面的控制權。</span><span class="sxs-lookup"><span data-stu-id="6b7d3-107">You can also configure whether anonymous or external users can request control of the shared screen.</span></span>
+<span data-ttu-id="676c6-104">桌面共用可讓使用者在會議或聊天期間呈現畫面或應用程式。</span><span class="sxs-lookup"><span data-stu-id="676c6-104">Desktop sharing lets users present a screen or app during a meeting or chat.</span></span> <span data-ttu-id="676c6-105">系統管理員可以在 Microsoft 團隊中設定螢幕共用，讓使用者共用整個螢幕、應用程式或檔案。</span><span class="sxs-lookup"><span data-stu-id="676c6-105">Admins can configure screen sharing in Microsoft Teams to let users share an entire screen, an app, or a file.</span></span> <span data-ttu-id="676c6-106">您可以讓使用者提供或要求控制、允許 PowerPoint 共用、新增白板，以及允許共用筆記。</span><span class="sxs-lookup"><span data-stu-id="676c6-106">You can let users give or request control, allow PowerPoint sharing, add a whiteboard, and allow shared notes.</span></span> <span data-ttu-id="676c6-107">您也可以設定匿名或外部使用者是否可以要求共用畫面的控制權。</span><span class="sxs-lookup"><span data-stu-id="676c6-107">You can also configure whether anonymous or external users can request control of the shared screen.</span></span>
 
-<span data-ttu-id="6b7d3-108">若要設定螢幕共用，您需要建立新的會議原則，然後將它指派給您想要管理的使用者。</span><span class="sxs-lookup"><span data-stu-id="6b7d3-108">To configure screen sharing, you create a new meetings policy and then assign it to the users you want to manage.</span></span>
+<span data-ttu-id="676c6-108">若要設定螢幕共用，您需要建立新的會議原則，然後將它指派給您想要管理的使用者。</span><span class="sxs-lookup"><span data-stu-id="676c6-108">To configure screen sharing, you create a new meetings policy and then assign it to the users you want to manage.</span></span>
 
-<span data-ttu-id="6b7d3-109">**在[Microsoft 團隊系統管理中心](https://admin.teams.microsoft.com/)**</span><span class="sxs-lookup"><span data-stu-id="6b7d3-109">**In the [Microsoft Teams admin center](https://admin.teams.microsoft.com/)**</span></span>
+<span data-ttu-id="676c6-109">**在[Microsoft 團隊系統管理中心](https://admin.teams.microsoft.com/)**</span><span class="sxs-lookup"><span data-stu-id="676c6-109">**In the [Microsoft Teams admin center](https://admin.teams.microsoft.com/)**</span></span>
 
-1. <span data-ttu-id="6b7d3-110">選取 [**會議** > **會議原則**]。</span><span class="sxs-lookup"><span data-stu-id="6b7d3-110">Select **Meetings** > **Meeting policies**.</span></span>
+1. <span data-ttu-id="676c6-110">選取 [**會議** > **會議原則**]。</span><span class="sxs-lookup"><span data-stu-id="676c6-110">Select **Meetings** > **Meeting policies**.</span></span>
 
     ![顯示已選取會議原則的螢幕擷取畫面](media/configure-desktop-sharing-image1.png)
 
-2. <span data-ttu-id="6b7d3-112">在 [**會議原則**] 頁面上，選取 [**新增原則**]。</span><span class="sxs-lookup"><span data-stu-id="6b7d3-112">On the **Meeting policies** page, select **New policy**.</span></span>
+2. <span data-ttu-id="676c6-112">在 [**會議原則**] 頁面上，選取 [**新增原則**]。</span><span class="sxs-lookup"><span data-stu-id="676c6-112">On the **Meeting policies** page, select **New policy**.</span></span>
 
     ![顯示會議原則訊息的螢幕擷取畫面](media/configure-desktop-sharing-image2.png)
 
-3. <span data-ttu-id="6b7d3-114">為您的原則命名唯一的標題，然後輸入簡短的描述。</span><span class="sxs-lookup"><span data-stu-id="6b7d3-114">Give your policy a unique title and enter a brief description.</span></span>
+3. <span data-ttu-id="676c6-114">為您的原則命名唯一的標題，然後輸入簡短的描述。</span><span class="sxs-lookup"><span data-stu-id="676c6-114">Give your policy a unique title and enter a brief description.</span></span>
 
-4. <span data-ttu-id="6b7d3-115">在 [**內容共用**] 底下，從下拉式清單中選擇**螢幕共用模式**：</span><span class="sxs-lookup"><span data-stu-id="6b7d3-115">Under **Content sharing**, choose a **Screen sharing mode** from the drop-down list:</span></span>
+4. <span data-ttu-id="676c6-115">在 [**內容共用**] 底下，從下拉式清單中選擇**螢幕共用模式**：</span><span class="sxs-lookup"><span data-stu-id="676c6-115">Under **Content sharing**, choose a **Screen sharing mode** from the drop-down list:</span></span>
 
-   - <span data-ttu-id="6b7d3-116">**整個畫面**-讓使用者共用其整個桌面。</span><span class="sxs-lookup"><span data-stu-id="6b7d3-116">**Entire screen** – lets users share their entire desktop.</span></span>
-   - <span data-ttu-id="6b7d3-117">**單一應用程式**-讓使用者將螢幕共用限制在單一作用中的應用程式。</span><span class="sxs-lookup"><span data-stu-id="6b7d3-117">**Single application** – lets users limit screen sharing to a single active application.</span></span>
-   - <span data-ttu-id="6b7d3-118">[**已停用**]-關閉螢幕共用。</span><span class="sxs-lookup"><span data-stu-id="6b7d3-118">**Disabled** – Turns off screen sharing.</span></span>
+   - <span data-ttu-id="676c6-116">**整個畫面**-讓使用者共用其整個桌面。</span><span class="sxs-lookup"><span data-stu-id="676c6-116">**Entire screen** – lets users share their entire desktop.</span></span>
+   - <span data-ttu-id="676c6-117">**單一應用程式**-讓使用者將螢幕共用限制在單一作用中的應用程式。</span><span class="sxs-lookup"><span data-stu-id="676c6-117">**Single application** – lets users limit screen sharing to a single active application.</span></span>
+   - <span data-ttu-id="676c6-118">[**已停用**]-關閉螢幕共用。</span><span class="sxs-lookup"><span data-stu-id="676c6-118">**Disabled** – Turns off screen sharing.</span></span>
 
     ![顯示共用模式選項的螢幕擷取畫面](media/configure-desktop-sharing-image3.png)
 
-5. <span data-ttu-id="6b7d3-120">開啟或關閉下列設定：</span><span class="sxs-lookup"><span data-stu-id="6b7d3-120">Turn the following settings on or off:</span></span>
+5. <span data-ttu-id="676c6-120">開啟或關閉下列設定：</span><span class="sxs-lookup"><span data-stu-id="676c6-120">Turn the following settings on or off:</span></span>
 
-    - <span data-ttu-id="6b7d3-121">[**允許參與者授與要求控制**]：讓小組成員可以授與要求控制簡報者的桌面或應用程式。</span><span class="sxs-lookup"><span data-stu-id="6b7d3-121">**Allow a participant to give or request control** – lets members of the team give or request control of the presenter’s desktop or application.</span></span>
-    - <span data-ttu-id="6b7d3-122">[**允許外部參與者授與要求控制**]：讓來賓與外部（同盟）使用者提供或要求簡報者的桌面或應用程式的控制權。</span><span class="sxs-lookup"><span data-stu-id="6b7d3-122">**Allow an external participant to give or request control** – lets guests and external (federated) users give or request control of the presenter’s desktop or application.</span></span>
-    - <span data-ttu-id="6b7d3-123">[**允許 powerpoint 共用**]：可讓使用者建立可讓 PowerPoint 簡報上傳及共用的會議。</span><span class="sxs-lookup"><span data-stu-id="6b7d3-123">**Allow PowerPoint sharing** - lets users create meetings that allow PowerPoint presentations to be uploaded and shared.</span></span>
-    - <span data-ttu-id="6b7d3-124">[**允許使用白板**]-讓使用者共用白板。</span><span class="sxs-lookup"><span data-stu-id="6b7d3-124">**Allow whiteboard** – lets users share a whiteboard.</span></span>
-    - <span data-ttu-id="6b7d3-125">[**允許共用筆記**]：讓使用者取得共用筆記。</span><span class="sxs-lookup"><span data-stu-id="6b7d3-125">**Allow shared notes** – lets users take shared notes.</span></span>
+    - <span data-ttu-id="676c6-121">[**允許參與者授與要求控制**]：讓小組成員可以授與要求控制簡報者的桌面或應用程式。</span><span class="sxs-lookup"><span data-stu-id="676c6-121">**Allow a participant to give or request control** – lets members of the team give or request control of the presenter’s desktop or application.</span></span>
+    - <span data-ttu-id="676c6-122">[**允許外部參與者授與要求控制**]：讓來賓與外部（同盟）使用者提供或要求簡報者的桌面或應用程式的控制權。</span><span class="sxs-lookup"><span data-stu-id="676c6-122">**Allow an external participant to give or request control** – lets guests and external (federated) users give or request control of the presenter’s desktop or application.</span></span>
+    - <span data-ttu-id="676c6-123">[**允許 powerpoint 共用**]：可讓使用者建立可讓 PowerPoint 簡報上傳及共用的會議。</span><span class="sxs-lookup"><span data-stu-id="676c6-123">**Allow PowerPoint sharing** - lets users create meetings that allow PowerPoint presentations to be uploaded and shared.</span></span>
+    - <span data-ttu-id="676c6-124">[**允許使用白板**]-讓使用者共用白板。</span><span class="sxs-lookup"><span data-stu-id="676c6-124">**Allow whiteboard** – lets users share a whiteboard.</span></span>
+    - <span data-ttu-id="676c6-125">[**允許共用筆記**]：讓使用者取得共用筆記。</span><span class="sxs-lookup"><span data-stu-id="676c6-125">**Allow shared notes** – lets users take shared notes.</span></span>
 
-6. <span data-ttu-id="6b7d3-126">按一下 [**儲存**]。</span><span class="sxs-lookup"><span data-stu-id="6b7d3-126">Click **Save**.</span></span>
+6. <span data-ttu-id="676c6-126">按一下 [**儲存**]。</span><span class="sxs-lookup"><span data-stu-id="676c6-126">Click **Save**.</span></span>
 
-## <a name="use-powershell-to-configure-shared-desktop"></a><span data-ttu-id="6b7d3-127">使用 PowerShell 來設定共用桌面</span><span class="sxs-lookup"><span data-stu-id="6b7d3-127">Use PowerShell to configure shared desktop</span></span>
+## <a name="use-powershell-to-configure-shared-desktop"></a><span data-ttu-id="676c6-127">使用 PowerShell 來設定共用桌面</span><span class="sxs-lookup"><span data-stu-id="676c6-127">Use PowerShell to configure shared desktop</span></span>
 
-<span data-ttu-id="6b7d3-128">您也可以使用[CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) Cmdlet 來控制桌面共用。</span><span class="sxs-lookup"><span data-stu-id="6b7d3-128">You can also use the [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) cmdlet to control desktop sharing.</span></span> <span data-ttu-id="6b7d3-129">設定下列參數：</span><span class="sxs-lookup"><span data-stu-id="6b7d3-129">Set the following parameters:</span></span>
+<span data-ttu-id="676c6-128">您也可以使用[CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) Cmdlet 來控制桌面共用。</span><span class="sxs-lookup"><span data-stu-id="676c6-128">You can also use the [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) cmdlet to control desktop sharing.</span></span> <span data-ttu-id="676c6-129">設定下列參數：</span><span class="sxs-lookup"><span data-stu-id="676c6-129">Set the following parameters:</span></span>
 
-- <span data-ttu-id="6b7d3-130">描述</span><span class="sxs-lookup"><span data-stu-id="6b7d3-130">Description</span></span>
-- <span data-ttu-id="6b7d3-131">ScreenSharingMode</span><span class="sxs-lookup"><span data-stu-id="6b7d3-131">ScreenSharingMode</span></span>
-- <span data-ttu-id="6b7d3-132">AllowParticipantGiveRequestControl</span><span class="sxs-lookup"><span data-stu-id="6b7d3-132">AllowParticipantGiveRequestControl</span></span>
-- <span data-ttu-id="6b7d3-133">AllowExternalParticipantGiveRequestControl</span><span class="sxs-lookup"><span data-stu-id="6b7d3-133">AllowExternalParticipantGiveRequestControl</span></span>
-- <span data-ttu-id="6b7d3-134">AllowPowerPointSharing</span><span class="sxs-lookup"><span data-stu-id="6b7d3-134">AllowPowerPointSharing</span></span>
-- <span data-ttu-id="6b7d3-135">AllowWhiteboard</span><span class="sxs-lookup"><span data-stu-id="6b7d3-135">AllowWhiteboard</span></span>
-- <span data-ttu-id="6b7d3-136">AllowSharedNotes</span><span class="sxs-lookup"><span data-stu-id="6b7d3-136">AllowSharedNotes</span></span>
+- <span data-ttu-id="676c6-130">說明</span><span class="sxs-lookup"><span data-stu-id="676c6-130">Description</span></span>
+- <span data-ttu-id="676c6-131">ScreenSharingMode</span><span class="sxs-lookup"><span data-stu-id="676c6-131">ScreenSharingMode</span></span>
+- <span data-ttu-id="676c6-132">AllowParticipantGiveRequestControl</span><span class="sxs-lookup"><span data-stu-id="676c6-132">AllowParticipantGiveRequestControl</span></span>
+- <span data-ttu-id="676c6-133">AllowExternalParticipantGiveRequestControl</span><span class="sxs-lookup"><span data-stu-id="676c6-133">AllowExternalParticipantGiveRequestControl</span></span>
+- <span data-ttu-id="676c6-134">AllowPowerPointSharing</span><span class="sxs-lookup"><span data-stu-id="676c6-134">AllowPowerPointSharing</span></span>
+- <span data-ttu-id="676c6-135">AllowWhiteboard</span><span class="sxs-lookup"><span data-stu-id="676c6-135">AllowWhiteboard</span></span>
+- <span data-ttu-id="676c6-136">AllowSharedNotes</span><span class="sxs-lookup"><span data-stu-id="676c6-136">AllowSharedNotes</span></span>
 
-<span data-ttu-id="6b7d3-137">[深入瞭解如何使用 csTeamsMeetingPolicy Cmdlet](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)。</span><span class="sxs-lookup"><span data-stu-id="6b7d3-137">[Learn more about using the csTeamsMeetingPolicy cmdlet](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps).</span></span>
+<span data-ttu-id="676c6-137">[深入瞭解如何使用 csTeamsMeetingPolicy Cmdlet](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)。</span><span class="sxs-lookup"><span data-stu-id="676c6-137">[Learn more about using the csTeamsMeetingPolicy cmdlet](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps).</span></span>
 
