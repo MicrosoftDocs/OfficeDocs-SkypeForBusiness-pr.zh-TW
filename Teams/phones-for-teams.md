@@ -10,16 +10,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
+f1.keywords:
+- NOCSH
 ms.collection:
 - M365-voice
 localization_priority: Normal
 description: 本文涵蓋針對 Microsoft 團隊認證的手機清單，以及手機認證中 Microsoft 團隊支援的功能。
-ms.openlocfilehash: 958836bb3a959b077d0032f58d6b8f287bee407c
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: b811a92977d10601aa601e1bae811ef73c34dce8
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38675387"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836863"
 ---
 # <a name="phones-for-microsoft-teams"></a>Microsoft 團隊的電話
 
@@ -52,7 +54,7 @@ Microsoft 團隊可為需要傳統電話體驗的使用者支援一套手機。 
 |Exchange 行事曆整合 |是|是|
 |連絡人圖片整合  |是|是|
 |公司目錄存取 | 是|是|
-|**舉行**|   ||
+|**會議**|   ||
 |按一下 [加入會議]  | 是  |是 |
 |加入商務用 Skype 會議 | 是  | 是|
 |會議通話控制（靜音/取消靜音、保留/繼續、掛斷、新增/移除參與者）|是|是|

@@ -13,14 +13,16 @@ description: 如何使用新式驗證登入 Microsoft 團隊。
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
+f1.keywords:
+- NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9911a014fe3bd3e3ede151e2a85e8181c399e463
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+ms.openlocfilehash: 79f04161c070ff4818fdb2dfc212e5c3fc98b2b0
+ms.sourcegitcommit: 8e2fa7b744d0a174b699ae7298d4688b971eeff3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41790611"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41845134"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>使用新式驗證登入 Microsoft 團隊
 ==========================
@@ -39,9 +41,14 @@ Microsoft 團隊使用新式驗證來輕鬆且安全地保持登入體驗。 若
 
 - 如果使用者已登入加入網域的電腦，當他們啟動團隊時，可能會要求您執行一個更驗證步驟，視貴組織選擇要要求 MFA 或其電腦是否已需要 MFA 登入而定。 如果他們的電腦已要求 MFA 登入，當他們開啟 [小組] 時，應用程式就會自動啟動。
 
-- 如果使用者已登入加入網域的電腦，而且您不想要在小組登入畫面上預先填入使用者名稱，系統管理員可以設定下列 Windows 登錄來關閉使用者名稱的預先填入：電腦 \ HKEY_CURRENT_USER \Software\Microsoft\Office\Teams DisableUpnSuffixCheck （REG_DWORD）0x00000001 （1）
+- 如果使用者已登入加入網域的電腦，而且您不想在小組登入畫面上預先填入使用者名稱，系統管理員可以設定下列 Windows 登錄來關閉使用者名稱（UPN）的預先填入：
 
-  注意：跳過使用者名稱預先填入的使用者名稱（預設為「local」或「. corp」），因此您不需要設定登錄機碼，就能關閉這些名稱。 
+  電腦 \ HKEY_CURRENT_USER \Software\Microsoft\Office\Teams<br/>
+  SkipUpnPrefill （REG_DWORD）<br/>
+  0x00000001 （1）
+
+    > [!NOTE]
+    > 在預設情況下，跳過使用者名稱預先填入的使用者名稱，是以「local」或「. corp」為開啟狀態，因此您不需要設定登錄機碼，就能關閉這些名稱。 
 
 
 ### <a name="mac-users"></a>Mac 使用者 
@@ -62,5 +69,5 @@ Microsoft 團隊使用新式驗證來輕鬆且安全地保持登入體驗。 若
 
 每個使用團隊的組織都能使用新式驗證，所以如果使用者無法完成程式，您的網域或貴組織的 Office 365 企業版帳戶可能會有問題。 
 
-如需詳細資訊，請參閱[為什麼我無法登入 Microsoft 團隊？](https://support.office.com/article/why-am-i-having-trouble-signing-in-to-microsoft-teams-a02f683b-61a3-4008-9447-ee60c5593b0f)。
+如需詳細資訊，請參閱[為什麼我無法登入 Microsoft 團隊？](https://support.office.com/article/why-am-i-having-trouble-signing-in-to-microsoft-teams-a02f683b-61a3-4008-9447-ee60c5593b0f)
 

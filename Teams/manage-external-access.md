@@ -12,17 +12,19 @@ ms.collection:
 ms.reviewer: vinbel
 search.appverid: MET150
 f1.keywords:
+- CSH
+ms.custom:
 - ms.teamsadmincenter.externalaccess.overview
 description: 您的小組或 IT 系統管理員可以為其他網域設定外部存取（同盟），讓來自這些網域的使用者參與團隊。
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: a04a5547e13b8b93864b1b23dc598b08877c745a
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: eb0b252f2df1deb3e2a92bfada9a04b1df561316
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707288"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836893"
 ---
 <a name="manage-external-access-in-microsoft-teams"></a>在 Microsoft 團隊中管理外部存取
 ======================================================

@@ -10,15 +10,17 @@ audience: admin
 ms.service: msteams
 ms.collection:
 - M365-collaboration
+f1.keywords:
+- NOCSH
 description: 瞭解如何使用 PowerShell 控制項來管理 Microsoft 團隊。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a83e8114020ef400ba983f483727436bbd383736
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: d22eb0b14d25bec57949bb804e8bb8098ee33510
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570121"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836953"
 ---
 # <a name="teams-powershell-overview"></a>團隊 PowerShell 概覽
 
@@ -50,29 +52,29 @@ PowerShell 控制項的參考檔將會告知您要調查的 Cmdlet 所在的模�
 
 | Cmdlet | 可在預覽中使用 | 在1.0 中提供 |
 |------- | -------------------- | ------------------------------ |
-| 附加 TeamUser | 是的 | 是的 |
-| 連接-MicrosoftTeams | 是的 | 是的 |
-| 中斷連線-MicrosoftTeams | 是的 | 是的 |
-| 取得團隊 | 是的 | 是的 |
-| TeamChannel | 是的 | 是的 |
-| TeamFunSettings | 僅限1.0 發行之前 | 不 |
-| TeamGuestSettings | 僅限1.0 發行之前 | 不 |
-| TeamHelp | 是的 | 是的 |
-| TeamMemberSettings | 僅限1.0 發行之前 | 不 |
-| TeamMessagingSettings | 僅限1.0 發行之前 | 不 |
-| TeamUser | 是的 | 是的 |
-| 新團隊 | 是的 | 是的 |
-| 新-TeamChannel | 是的 | 是的 |
-| 移除團隊 | 是的 | 是的 |
-| 移除-TeamChannel | 是的 | 是的 |
-| 移除-TeamUser | 是的 | 是的 |
-| 集-小組 | 是的 | 是的 |
-| Set-TeamChannel | 是的 | 是的 |
-| Set-TeamFunSettings | 僅限1.0 發行之前 | 不 |
-| Set-TeamGuestSettings | 僅限1.0 發行之前 | 不 |
-| Set-TeamMemberSettings | 僅限1.0 發行之前 | 不 |
-| Set-TeamMessagingSettings | 僅限1.0 發行之前 | 不 |
-| Set-TeamPicture | 是的 | 否，規劃 |
+| 附加 TeamUser | 是 | 是 |
+| 連接-MicrosoftTeams | 是 | 是 |
+| 中斷連線-MicrosoftTeams | 是 | 是 |
+| 取得團隊 | 是 | 是 |
+| TeamChannel | 是 | 是 |
+| TeamFunSettings | 僅限1.0 發行之前 | 否 |
+| TeamGuestSettings | 僅限1.0 發行之前 | 否 |
+| TeamHelp | 是 | 是 |
+| TeamMemberSettings | 僅限1.0 發行之前 | 否 |
+| TeamMessagingSettings | 僅限1.0 發行之前 | 否 |
+| TeamUser | 是 | 是 |
+| 新團隊 | 是 | 是 |
+| 新-TeamChannel | 是 | 是 |
+| 移除團隊 | 是 | 是 |
+| 移除-TeamChannel | 是 | 是 |
+| 移除-TeamUser | 是 | 是 |
+| 集-小組 | 是 | 是 |
+| Set-TeamChannel | 是 | 是 |
+| Set-TeamFunSettings | 僅限1.0 發行之前 | 否 |
+| Set-TeamGuestSettings | 僅限1.0 發行之前 | 否 |
+| Set-TeamMemberSettings | 僅限1.0 發行之前 | 否 |
+| Set-TeamMessagingSettings | 僅限1.0 發行之前 | 否 |
+| Set-TeamPicture | 是 | 否，規劃 |
 
 
 ## <a name="managing-policies-via-powershell"></a>透過 PowerShell 管理原則
@@ -120,7 +122,7 @@ PowerShell 控制項的參考檔將會告知您要調查的 Cmdlet 所在的模�
 
 ## <a name="other-powershell-tools"></a>其他 PowerShell 工具
 
-您可以在[Microsoft 團隊 Cmdlet 參考](https://docs.microsoft.com/powershell/teams/?view=teams-ps)和 Skype 中找到如何使用所有 PowerShell 控制項來管理 Microsoft 團隊和商務用 skype 的詳細指示，包括每個原則中設定的詳細描述。 [商務 Cmdlet 參考](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)。
+您可以在[microsoft [團隊 Cmdlet 參考](https://docs.microsoft.com/powershell/teams/?view=teams-ps)] 和 [[商務用 skype] Cmdlet 參考](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)中，找到有關如何使用所有 PowerShell 控制項來管理 Microsoft 團隊和商務用 skype 的詳細指示，包括每個原則中設定的詳細描述。
 
 ## <a name="learn-more"></a>瞭解更多資訊
 

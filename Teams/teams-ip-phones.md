@@ -14,17 +14,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Skype for Business Certification
 - dn947482
 description: 針對 Microsoft 團隊認證的 IP 服務台與會議電話
-ms.openlocfilehash: 4dbacc0804b7981a990d9401113965b4cb01ba4c
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 83305c4d4d60c3347e7c55cab312311ddb014ebf
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41708439"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837653"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Microsoft 團隊的 IP 手機認證
 

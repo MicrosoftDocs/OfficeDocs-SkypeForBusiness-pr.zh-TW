@@ -9,18 +9,20 @@ audience: admin
 ms.service: msteams
 ms.reviewer: dstrome
 description: 瞭解如何設定與 Microsoft 團隊搭配使用的 Exchange 混合式組織。
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bd18381a8d889a1cebad04234e56bf11def9197e
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: eb81460a5a3d388bc9634cb53ce15655933534c5
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569860"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41834443"
 ---
 <a name="configure-an-exchange-hybrid-organization-for-use-with-microsoft-teams"></a>設定 Exchange 混合式組織以搭配 Microsoft 團隊使用
 ======================================================================

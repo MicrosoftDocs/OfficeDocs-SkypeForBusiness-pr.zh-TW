@@ -17,16 +17,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Phone System
 description: '瞭解如何為您的使用者設定雲端語音信箱。 '
-ms.openlocfilehash: 1e33928c8ebd241d37f572d80eb895a0164e0d41
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 51e03417d3bdbd09b631fa2bd07b6009bf54693e
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41693818"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41838003"
 ---
 # <a name="set-up-cloud-voicemail"></a>設定雲端語音信箱
 

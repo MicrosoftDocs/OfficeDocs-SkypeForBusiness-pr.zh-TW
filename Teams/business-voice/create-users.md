@@ -6,6 +6,8 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
+f1.keywords:
+- NOCSH
 localization_priority: Priority
 MS.collection:
 - Teams_ITAdmin_Help
@@ -15,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb8277c11cbcc459da9da8fd8d4f5b9c329470f3
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: 851c661a2a75a3dfe82212b896041ddd2516c678
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41269279"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824831"
 ---
 # <a name="create-and-license-business-voice-users-and-assign-them-phone-numbers"></a>建立及授權商務語音使用者，並指派電話號碼給使用者
 

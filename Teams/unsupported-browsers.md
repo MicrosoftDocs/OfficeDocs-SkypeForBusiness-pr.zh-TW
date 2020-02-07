@@ -9,17 +9,19 @@ audience: admin
 MS.collection:
 - M365-collaboration
 ms.reviewer: nakulm
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解團隊如何在不受支援的瀏覽器中支援音訊和影片。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3412d195e560ee2be1e850d9fcb146d0a0f54d25
-ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
+ms.openlocfilehash: 5f2fc7ee97a5172a849c14d9ede6d93ffc08d302
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "39615903"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837253"
 ---
 # <a name="microsoft-teams-meetings-on-unsupported-browsers"></a>Microsoft 團隊在不支援的瀏覽器上的會議
 

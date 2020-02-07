@@ -8,6 +8,8 @@ audience: admin
 ms.service: msteams
 ms.reviewer: dearbeen
 description: 當您從商務用 Skype 規劃到 Microsoft 團隊時，如何執行詳細的環境探索。
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -15,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 029d4870a6826866ddff9b712c5acd2b59897b75
-ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
+ms.openlocfilehash: 7f49626f6526fe05aed81f39574a094347e0a3ae
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "37772397"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41834523"
 ---
 <a name="environmental-discovery-for-a-microsoft-teams-rollout"></a>Microsoft 團隊推出的環境探索
 ===================================================
@@ -203,7 +205,7 @@ ms.locfileid: "37772397"
 > | 關鍵字 | 自動回應 | 批註 |
 > |---|---|---|
 > | 您目前的使用方式 <br>商務用 Skype？ | **__** % 總作用中使用者與已啟用的使用者 | |
-> | 貴組織的使用方式 <br>商務用 Skype？ | 1:1 交談 <br>&nbsp;&nbsp; IM &nbsp; <input type="checkbox"> <br>&nbsp;&nbsp;通話&nbsp; <input type="checkbox"> <br>&nbsp;&nbsp;共用&nbsp; <input type="checkbox"><br> 舉行 <br>&nbsp;&nbsp;會議&nbsp; <input type="checkbox"><br>&nbsp;&nbsp;共用&nbsp; <input type="checkbox"><br>&nbsp;&nbsp;通話&nbsp; <input type="checkbox"> | |
+> | 貴組織的使用方式 <br>商務用 Skype？ | 1:1 交談 <br>&nbsp;&nbsp; IM &nbsp; <input type="checkbox"> <br>&nbsp;&nbsp;通話&nbsp; <input type="checkbox"> <br>&nbsp;&nbsp;共用&nbsp; <input type="checkbox"><br> 會議 <br>&nbsp;&nbsp;會議&nbsp; <input type="checkbox"><br>&nbsp;&nbsp;共用&nbsp; <input type="checkbox"><br>&nbsp;&nbsp;通話&nbsp; <input type="checkbox"> | |
 > | 貴組織是否已採用使用者 <br>並變更管理團隊？ | <input type="checkbox">是的<br/> <input type="checkbox">不 | |
 > | 您目前如何衡量技術的成功 <br>像商務用 Skype 這樣的部署？ | | |
 > | 您所說的使用者群百分比是 <br>採用商務用 Skype 嗎？ | | |

@@ -1,5 +1,5 @@
 ---
-title: 具有 PSTN 連接的混合式環境中的使用者帳戶
+title: 含有 PSTN 連線功能的混合式環境中的使用者帳戶
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -13,15 +13,17 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
+f1.keywords:
+- NOCSH
 description: 瞭解使用者建立的不同組合，以及支援或不受支援的組合。
-ms.openlocfilehash: bf2fee0646e5230964673af4dbfa4fed22086cdc
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: f33c7bffadb443aafad6fa0e7d910f6416a95d6f
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572110"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837283"
 ---
-# <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>具有 PSTN 連接的混合式環境中的使用者帳戶
+# <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>含有 PSTN 連線功能的混合式環境中的使用者帳戶
 
 ## <a name="about-the-environment"></a>關於環境
 
@@ -56,12 +58,12 @@ ms.locfileid: "37572110"
 
 |**中建立的使用者物件**  |**使用者的商務用 Skype 服務提供者**|**使用者的用戶端**|**語音選項**|**受**|
 | ------------ | --------- | --------- | --------- | -------- |
-|內部部署廣告| 內部部署 |商務用 Skype   | 企業語音   |是的|
-|內部部署廣告|Online| 商務用 Skype  | 混合式語音連接   |是的 |
-|內部部署廣告|Online |Microsoft 團隊 |直接路由  |是的 |
+|內部部署廣告| 內部部署 |商務用 Skype   | 企業語音   |是|
+|內部部署廣告|Online| 商務用 Skype  | 混合式語音連接   |是 |
+|內部部署廣告|Online |Microsoft Teams |直接路由  |是 |
 |**不支援的組合**    | |         |         |      |
 |Azure AD| 內部部署/線上 | 商務用 Skype/Microsoft 團隊|企業語音/混合式語音連接/直接路由  |否，您必須先在內部部署 AD 中建立使用者物件 |
-|內部部署廣告  |內部部署| Microsoft 團隊| 企業語音/混合式語音連接/直接路由   |否，內部部署商務用 Skype 不支援 Microsoft 團隊用戶端 |     
+|內部部署廣告  |內部部署| Microsoft Teams| 企業語音/混合式語音連接/直接路由   |否，內部部署商務用 Skype 不支援 Microsoft 團隊用戶端 |     
 |內部部署廣告  |Online |商務用 Skype  | 直接路由  |否，商務用 Skype 用戶端不支援直接傳送，且在商務用 Skype 中必須啟用使用者的企業語音功能  |
 
 

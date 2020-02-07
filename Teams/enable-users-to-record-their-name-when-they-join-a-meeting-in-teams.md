@@ -17,16 +17,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Audio Conferencing
 description: 瞭解如何啟用或停用您的使用者在 Microsoft 團隊中加入會議時是否可以記錄他們的名稱。
-ms.openlocfilehash: e81a4ad209a07eee2ab72d428aa7bd32a6e2c4c3
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: b7b04ba5959d4ffbbb4664401ccf8e95b46c48b9
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41696148"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836103"
 ---
 # <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-microsoft-teams"></a>讓使用者在 Microsoft 團隊中加入會議時，記錄他們的名稱
 

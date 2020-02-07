@@ -7,18 +7,20 @@ audience: ITPro
 ms.reviewer: sohailta
 ms.topic: quickstart
 ms.service: msteams
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection:
 - M365-collaboration
 description: 請閱讀本主題，以瞭解如何使用 Exchange 內部部署在混合式環境中部署 Microsoft 團隊聊天室的相關資訊。
-ms.openlocfilehash: c8309f4d7007bcd249334c554d284e5be00bfa16
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: eb399eea64707e07d796ee36e85036e662ce8de1
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41268872"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41838183"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>使用 Exchange 內部部署來部署 Microsoft 團隊聊天室
 
@@ -69,7 +71,7 @@ Microsoft 提供[SkypeRoomProvisioningScript. ps1](https://go.microsoft.com/fwli
 
 1. [開啟 Exchange 管理命令](https://docs.microsoft.com/powershell/exchange/exchange-server/open-the-exchange-management-shell)介面或[使用遠端 PowerShell 連線至您的 Exchange 伺服器](https://docs.microsoft.com/powershell/exchange/exchange-server/connect-to-exchange-servers-using-remote-powershell)。
 
-2. 在 Exchange PowerShell 中，執行下列命令，為帳戶（信箱啟用帳戶）包裝箱提供信箱：
+2. 在 Exchange PowerShell 中，執行下列命令，為帳戶建立信箱（信箱啟用帳戶）：
 
    ```PowerShell
    Enable-Mailbox PROJECTRIGEL01@contoso.com -Room

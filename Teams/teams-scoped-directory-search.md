@@ -13,16 +13,18 @@ search.appverid: MET150
 ms.collection:
 - M365-collaboration
 description: 瞭解如何使用 Microsoft 團隊範圍的目錄搜尋來提供目錄的自訂視圖。
+f1.keywords:
+- CSH
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fca0feadf29ce83a8a6867f0e00b06fc0426a203
-ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
+ms.openlocfilehash: ca20e7293f20d68ea98f61a98090f7892ba294e8
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "37772330"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836943"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>使用 Microsoft Teams 限域目錄搜尋
 
@@ -37,8 +39,8 @@ Microsoft 團隊可讓組織為使用者提供目錄的自訂視圖。 Microsoft
 
 從範圍目錄搜尋獲益的案例，與通訊錄原則案例類似。 例如，您可能會想在下列情況下使用範圍內的目錄搜尋：
 
-- 貴組織在其租使用者中有多個公司，您想要彼此分隔。 
-- 您的學校想要限制教職員和學生之間的聊天。 
+- 貴組織的租用戶中有多家公司，您想要將其分開。 
+- 學校需要限制教職員與學生之間的交談。 
  
 若要瞭解如何使用通訊錄原則，請參閱[Exchange Online 中的資訊屏障原則](https://docs.microsoft.com/microsoft-365/compliance/information-barriers)。
 

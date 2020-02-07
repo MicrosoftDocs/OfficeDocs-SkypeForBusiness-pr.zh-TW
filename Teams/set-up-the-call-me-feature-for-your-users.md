@@ -1,5 +1,5 @@
 ---
-title: 為您的使用者設定 [撥號給我] 功能
+title: 為您的使用者設定語音來電功能
 author: LanaChin
 ms.author: v-lanac
 ms.reviewer: macai, phedry
@@ -12,16 +12,18 @@ description: 瞭解如何在團隊中設定 [呼叫我] 功能，讓使用者可
 localization_priority: Normal
 ms.collection:
 - M365-voice
+f1.keywords:
+- NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8bd9ca9b73d3d2e60b707d0f40ebb1797d4e1a00
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: fe895fee4f3bc0872d277429289b5d04d6c9161d
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571543"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837993"
 ---
-# <a name="set-up-the-call-me-feature-for-your-users"></a>為您的使用者設定 [撥號給我] 功能
+# <a name="set-up-the-call-me-feature-for-your-users"></a>為您的使用者設定語音來電功能
 
 在 Microsoft 團隊中，[**撥號給我**] 功能可讓使用者透過電話加入會議的音訊部分。 這在使用音訊電腦的情況下可能很方便。 使用者透過其手機或土地線，以及會議&mdash;的內容部分（例如其他會議參與者共用螢幕或透過電腦播放影片&mdash;），取得會議的音訊部分。
 

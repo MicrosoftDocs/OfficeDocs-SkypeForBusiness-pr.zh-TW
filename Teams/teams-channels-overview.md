@@ -11,21 +11,18 @@ search.appverid: MET150
 description: 瞭解可供多種需求（例如財務、活動規劃、銷售等）的各種團隊、頻道和應用程式。
 localization_priority: Normal
 f1.keywords:
-- ms.teamsadmincenter.dashboard.helparticle.msteamsfiles
-- ms.teamsadmincenter.dashboard.helparticle.teamsandchannels
-- ms.teamsadmincenter.teamschannel.overview
-- ms.teamsadmincenter.teamssettings.overview
+- CSH
+ms.custom: okr_smb
 ms.collection:
 - M365-collaboration
-ms.custom: okr_smb
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b6e241deaf074fb7ccd6db9789539838c1027e40
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 4b0a516ae74ea012d8cba4e85509b5b37ee27163
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41708149"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41834883"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft 團隊中的團隊和頻道概覽
 

@@ -11,16 +11,18 @@ audience: admin
 description: 瞭解如何規劃在團隊中實施管理功能。
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4ab8f3571ac38273f40cc228c05b51c8f00159a1
-ms.sourcegitcommit: 800a5c3881d0ebceb505a538fcf7e48f7b6df17e
+ms.openlocfilehash: afd990c0a49b1f61bb5be717cc3bf2ad7bc70935
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37913038"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836185"
 ---
 # <a name="plan-for-governance-in-teams"></a>Teams 中的控管方案
 
@@ -75,8 +77,8 @@ ms.locfileid: "37913038"
 
 |           |            |
 |-----------|------------|
-| ![描述決策點的圖示](media/audio_conferencing_image7.png) <br/>決策點|<ul><li>貴組織是否需要指定團隊的到期日？</li><li>貴組織是否需要將特定的資料保留原則套用至團隊？</li><li>貴組織是否希望能夠封存不活躍的小組，以保持內容處於唯讀狀態？</li></ul>|
-| ![描述後續步驟的圖示](media/audio_conferencing_image9.png)<br/>後續步驟|<ul><li>記錄貴組織的小組到期、資料保留及封存需求。</li><li>規劃將這些需求作為您團隊推出的一部分來執行。</li><li>溝通及發佈您的原則，以告知小組使用者他們可以預期的行為。</li></ul>|
+| ![描繪決策點的圖示](media/audio_conferencing_image7.png) <br/>決策點|<ul><li>貴組織是否需要指定團隊的到期日？</li><li>貴組織是否需要將特定的資料保留原則套用至團隊？</li><li>貴組織是否希望能夠封存不活躍的小組，以保持內容處於唯讀狀態？</li></ul>|
+| ![描繪後續步驟的圖示](media/audio_conferencing_image9.png)<br/>後續步驟|<ul><li>記錄貴組織的小組到期、資料保留及封存需求。</li><li>規劃將這些需求作為您團隊推出的一部分來執行。</li><li>溝通及發佈您的原則，以告知小組使用者他們可以預期的行為。</li></ul>|
 
 > [!TIP]
 > 使用下表來捕獲貴組織的需求。
@@ -108,8 +110,8 @@ ms.locfileid: "37913038"
 
 |         |         |
 |---------|---------|
-| ![描述決策點的圖示](media/audio_conferencing_image7.png) <br/>決策點|<ul><li>貴組織是否需要限制您整個租使用者的小組功能？</li><li>貴組織是否需要限制特定使用者的小組功能？</li></ul>|
-| ![描述後續步驟的圖示](media/audio_conferencing_image9.png)<br/>後續步驟|<ul><li>在租使用者層級中記錄您組織限制小組功能的需求。</li><li>規劃將您的特定需求作為小組推出的一部分來實現。</li><li>溝通及發佈您的原則，以告知小組使用者他們可以預期的行為。</li></ul>|
+| ![描繪決策點的圖示](media/audio_conferencing_image7.png) <br/>決策點|<ul><li>貴組織是否需要限制您整個租使用者的小組功能？</li><li>貴組織是否需要限制特定使用者的小組功能？</li></ul>|
+| ![描繪後續步驟的圖示](media/audio_conferencing_image9.png)<br/>後續步驟|<ul><li>在租使用者層級中記錄您組織限制小組功能的需求。</li><li>規劃將您的特定需求作為小組推出的一部分來實現。</li><li>溝通及發佈您的原則，以告知小組使用者他們可以預期的行為。</li></ul>|
 
 ### <a name="teams-feature-management-focus-areas"></a>團隊功能管理焦點區域
 
@@ -117,7 +119,7 @@ ms.locfileid: "37913038"
 
 如需所有設定的詳細清單，包括如何針對您的組織實施相關的技術指導方針，請參閱下列文章：
 
-- [管理貴組織的 Microsoft 團隊設定](enable-features-office-365.md)
+- [管理組織的 Microsoft Teams 設定](enable-features-office-365.md)
 - [在轉換至新 Microsoft Teams 系統管理中心期間管理 Teams](manage-teams-skypeforbusiness-admin-center.md)
 - [在團隊中管理會議原則](meeting-policies-in-teams.md)
 - [管理小組中的訊息傳遞原則](messaging-policies-in-teams.md)
@@ -133,7 +135,7 @@ ms.locfileid: "37913038"
 
 ## <a name="related-topics"></a>相關主題
 
-[團隊的管理快速入門](teams-adoption-governance-quick-start.md)
+[Teams 的控管快速入門](teams-adoption-governance-quick-start.md) (英文)
 
 <!--
 ## Teams lifecycle management

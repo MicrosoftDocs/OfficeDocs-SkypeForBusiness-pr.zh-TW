@@ -13,16 +13,18 @@ search.appverid: MET150
 ms.collection:
 - M365-collaboration
 description: 瞭解如何使用團隊範本來建立擁有預先定義頻道的小組。
+f1.keywords:
+- CSH
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 378977e86854f3c4b2192017fa10ce19aeb4990e
-ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.openlocfilehash: fef3357f938be0e9261d0b5459c9f6aa16942329
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37968314"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837013"
 ---
 # <a name="get-started-with-teams-templates"></a>開始使用 Teams 範本
 

@@ -13,13 +13,15 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
+f1.keywords:
+- NOCSH
 description: 請閱讀本主題，瞭解 Microsoft 手機系統直通路由如何讓您將支援的客戶提供的會話邊界控制器（SBC）連線至 Microsoft Phone 系統。
-ms.openlocfilehash: 3a379a8e41b4b3c09bd9b0662485c3e3ce041491
-ms.sourcegitcommit: 013190ad10cdc02ce02e583961f433d024d5d370
+ms.openlocfilehash: f1d6c914a2ed95a073fdf900628ad96fa10b7428
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "41634856"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41835143"
 ---
 # <a name="plan-direct-routing"></a>規劃直接路由
 

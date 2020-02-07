@@ -10,17 +10,19 @@ ms.reviewer: anach
 audience: admin
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 ms.collection:
 - M365-collaboration
 description: 瞭解 Microsoft 團隊（例如雲端、同步處理及同盟）中的不同身分識別模型。 此外，您也可以瞭解多重要素驗證。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c1aba56bccd78a0492e801299f47199b44c296f2
-ms.sourcegitcommit: d46e739785595727e2b3e1e5f96f5bff65e78540
+ms.openlocfilehash: 11bf92cc2801d67d9b19d3c54f4c878e0913ffc3
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "38753350"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41835923"
 ---
 <a name="identity-models-and-authentication-in-microsoft-teams"></a>Microsoft 團隊中的身分識別模型與驗證
 ==========================================

@@ -10,18 +10,20 @@ ms.reviewer: sonua
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft 團隊會在 Outlook 中安裝增益集，讓使用者從 Outlook 排程團隊會議。
+f1.keywords:
+- CSH
 ms.custom:
 - NewAdminCenter_Update
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 52bc712798a1412a1c7c2c510c92af090608865d
-ms.sourcegitcommit: 5932ec62a42d7b392fa31c6a2a3462389ac24b73
+ms.openlocfilehash: 3054c961faa2587b203bd1522c266a55e0c34174
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "41573619"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41834663"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>在 Outlook 中使用 Teams 會議增益集
 =======================================

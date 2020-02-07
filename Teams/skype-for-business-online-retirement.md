@@ -1,5 +1,5 @@
 ---
-title: 商務用 Skype Online 退休
+title: 終止對商務用 Skype Online 的支援
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -13,16 +13,18 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
+f1.keywords:
+- NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ae0d278955f6935b55fda9b0e2dc3b13503b1f77
-ms.sourcegitcommit: 8cfb6bd11706ac3f0da93382359d5231e16e9234
+ms.openlocfilehash: c9986355905cb40e26182368dec8f53d796432fe
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "37639216"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837943"
 ---
-# <a name="skype-for-business-online-retirement"></a>商務用 Skype Online 退休
+# <a name="skype-for-business-online-retirement"></a>終止對商務用 Skype Online 的支援
 
 商務用 Skype Online 將于2021年7月31日停用。 本文提供有關退休方案的詳細資料，並簡要說明我們為什麼要進行這項發佈，以及我們所做的摘要，以協助客戶遷移至團隊。
  
@@ -45,6 +47,6 @@ ms.locfileid: "37639216"
 - **團隊與 Skype 消費者交互操作**性。 團隊與 Skype 消費者之間的互通性可讓兩個服務的使用者使用聊天與通話進行通訊。  團隊和 Skype 消費者互通性將在第一季的行事歷年2020中提供給小組。
 - **連絡人中心整合與合規性錄製**。 在這個月的早些時候，我們宣佈團隊與 Five9、Genesys，以及支援使用 ASC、NICE 和 Verint 來提供合規性錄製的小組合作關係。   我們也會與其他商務用 Skype Online 認證合作夥伴合作，將其他的連絡人中心與合規性記錄解決方案推向小組的市場。
  
-當您準備好開始使用時，我們會提供[一組完整的技術指導方針和規劃資源](https://aka.ms/SkypeToTeams)，包括行之有效的成功架構、最佳做法、規劃檔、[免費的講師指導訓練](instructor-led-training-teams-landing-page.md)，以及[FastTrack](https://www.microsoft.com/FastTrack)針對符合資格的訂閱加入協助。
+當您準備好開始使用時，我們會提供[一組完整的技術指導方針和規劃資源](https://aka.ms/SkypeToTeams)，包括經驗證的成功架構、最佳做法、規劃檔、[免費的講師指導訓練](instructor-led-training-teams-landing-page.md)，以及[FastTrack](https://www.microsoft.com/FastTrack)適用于合格訂閱的「加入協助」。
  
 從2014的簡介來看，商務用 Skype 對於世界各地數百萬人而言是一個重要的工具。  透過將即時消息、呼叫及影片結合在單一 app 中，產品已建立了令人興奮的新商業溝通構想。 Microsoft 團隊是該願景中的下一章，目前我們還不只是宣佈退休商務用 Skype Online 服務，我們也會在團隊中溝通信心。  在市場上有兩年以上的時間後，小組就能為我們需求最苛刻的客戶做好準備，而且我們認為您會喜歡我的愛！  如果您是目前的商務用 Skype Online 客戶，請立即開始規劃您的遷移。  我們承諾協助您處理每個步驟，而且我們無法等到您體驗到新的工作方式。 

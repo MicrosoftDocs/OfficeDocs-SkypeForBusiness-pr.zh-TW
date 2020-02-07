@@ -11,18 +11,20 @@ audience: admin
 search.appverid: MET150
 description: 瞭解如何升級免費的 Microsoft 團隊版本
 localization_priority: Normal
+f1.keywords:
+- CSH
 ms.custom:
 - NewAdminCenter_Update
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fd0de5ba0901b77ef42e40ca0b18228d5d78e6fb
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: a0c86a22449fef5563b531558d45188c74ea8280
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568484"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837163"
 ---
 <a name="upgrade-microsoft-teams-free-to-office-365-subscription-version"></a>免費升級 Microsoft 團隊 Office 365 訂閱版本
 ======================================================
@@ -89,7 +91,7 @@ ms.locfileid: "37568484"
 
 完成升級後，請參閱[開始使用 Microsoft 團隊](get-started-with-teams-quick-start.md)進行第一個步驟，並[採用 microsoft 團隊](adopt-microsoft-teams-landing-page.md)分階段向您組織的小組採用分階段的做法。
 
-## <a name="more-information"></a>其他資訊
+## <a name="more-information"></a>詳細資訊
 
 - 若要深入瞭解團隊版本及其功能，請參閱[比較團隊方案](https://products.office.com/microsoft-teams/free)。
 - 如需升級至完整版團隊的詳細資訊，請參閱[免費將團隊升級至](https://support.office.com/article/Upgrade-from-Teams-free-to-Teams-29475bbd-a34f-4175-9b33-d44430f8ad39)團隊。

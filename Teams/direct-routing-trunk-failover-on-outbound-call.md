@@ -1,5 +1,5 @@
 ---
-title: 呼出通話的幹線容錯移轉
+title: 輸出呼叫上的主幹容錯移轉
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,15 +13,17 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
+f1.keywords:
+- NOCSH
 description: 請閱讀本主題，瞭解如何處理來自團隊的呼出通話的中繼容錯移轉至會話邊界控制器（SBC）。
-ms.openlocfilehash: a5462de971fed32a0618800b257b9c6e37b462af
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: c88394cba0a98316ac272901a6ab2972e9eaf3c8
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572121"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836175"
 ---
-# <a name="trunk-failover-on-outbound-calls"></a>呼出通話的幹線容錯移轉
+# <a name="trunk-failover-on-outbound-calls"></a>輸出呼叫上的主幹容錯移轉
 
 本主題說明如何避免呼出通話的幹線容錯移轉--從團隊到會話邊界控制器（SBC）。
 

@@ -16,16 +16,18 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1.keywords: ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.quantity
+f1.keywords:
+- CSH
 ms.custom:
 - Calling Plans
+- ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.quantity
 description: 當您正在尋找並取得貴組織的電話號碼時，您可以取得的電話號碼會比您指派的授權還多。 但這取決於電話號碼類型，以及您購買及指派的授權類型。 您可以按一下撥號方案中使用的不同電話號碼，找出在 Microsoft 團隊中使用的不同電話號碼。
-ms.openlocfilehash: 2ffb2d0ee80dffa52ff092d20348455458d8beca
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: d620e10c90474857325b15201d3b899d728ed815
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41680500"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836285"
 ---
 # <a name="how-many-phone-numbers-can-you-get"></a>您可以取得多少電話號碼？
 

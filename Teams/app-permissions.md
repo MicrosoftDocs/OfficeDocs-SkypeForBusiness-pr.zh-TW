@@ -13,15 +13,17 @@ ms.collection:
 search.appverid: MET150
 ms.reviewer: rowille
 description: 瞭解哪些資料和許可權應用程式是從您的組織要求的。
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4a5efc1ec447d1aeda3c42841752b6fd6e1f1938
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 5d7548d4d162310bc239c752e2bce38e725008f9
+ms.sourcegitcommit: 8e2fa7b744d0a174b699ae7298d4688b971eeff3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516781"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41845224"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Microsoft 團隊 app 許可權和考慮
 
@@ -40,7 +42,7 @@ Microsoft 團隊 app 是一種將一或多項功能匯總成_應用程式套件_
 |    |     |
 |-----------|------------|
 | ![描述決策點的圖示](media/audio_conferencing_image7.png) <br/>決策點|<ul><li>您可以使用下表做為說明，瞭解您正在調查哪些應用程式要求哪些許可權。</li></ul> |
-| ![描述下一個步驟的圖示](media/audio_conferencing_image9.png)<br/>下一個步驟|<ul><li>研究 app 或服務本身，決定是否要允許您組織中的存取權。 例如，bot 會從使用者傳送和接收訊息，除了企業業務線 bot 之外，它們位於合規性界限外。 因此，任何包含 bot 的 app 都需要這些許可權，並至少擁有該風險設定檔。 </li></ul>|
+| ![描繪後續步驟的圖示](media/audio_conferencing_image9.png)<br/>後續步驟|<ul><li>研究 app 或服務本身，決定是否要允許您組織中的存取權。 例如，bot 會從使用者傳送和接收訊息，除了企業業務線 bot 之外，它們位於合規性界限外。 因此，任何包含 bot 的 app 都需要這些許可權，並至少擁有該風險設定檔。 </li></ul>|
 
 ## <a name="global-app-permissions-and-considerations"></a>全域 app 許可權和考慮
 
@@ -60,25 +62,25 @@ Microsoft 團隊 app 是一種將一或多項功能匯總成_應用程式套件_
 
 ### <a name="required-permissions"></a>所需許可權
 
-- RECEIVE_MESSAGE, REPLYTO_MESSAGE. Bot 可以接收來自使用者的訊息並回復。<sup>1</sup>
+- RECEIVE_MESSAGE、REPLYTO_MESSAGE。 Bot 可以接收來自使用者的訊息並回復。<sup>1</sup>
 
-- POST_MESSAGE_USER. 在使用者將訊息傳送至 bot 之後，bot 可以隨時傳送使用者的直接訊息（也稱為*預先訊息*）。
+- POST_MESSAGE_USER]。 在使用者將訊息傳送至 bot 之後，bot 可以隨時傳送使用者的直接訊息（也稱為*預先訊息*）。
 
-- GET_CHANNEL_LIST. 新增至團隊的 bot 可以取得團隊中頻道的名稱和識別碼清單。
+- GET_CHANNEL_LIST]。 新增至團隊的 bot 可以取得團隊中頻道的名稱和識別碼清單。
 
 ### <a name="optional-permissions"></a>選用許可權
 
 - 等. 在頻道中使用時，應用程式的機器人可以存取小組成員的基本身分識別資訊（名字、姓氏、使用者主體名稱 [UPN]、電子郵件地址）;在個人或群組聊天中使用時，bot 可以為這些使用者存取相同的資訊。
 
-- POST_MESSAGE_TEAM. 可讓 app 的 bot 隨時將直接（主動）訊息傳送給任何小組成員，即使使用者之前從未與 bot 交談也一樣。
+- POST_MESSAGE_TEAM]。 可讓 app 的 bot 隨時將直接（主動）訊息傳送給任何小組成員，即使使用者之前從未與 bot 交談也一樣。
 
-- 下列內容不是明確的許可權，但由 RECEIVE_MESSAGE 和 REPLYTO_MESSAGE 以及可以使用機器人的範圍（在資訊清單中宣告）來隱含：
+- 下列內容不是明確的許可權，但會顯示在資訊清單中，RECEIVE_MESSAGE 和 REPLYTO_MESSAGE 以及可以使用 bot 的範圍（在資訊清單中宣告）：
  
-    - RECEIVE_MESSAGE_PERSONAL, REPLYTO_MESSAGE_PERSONAL
-    - RECEIVE_MESSAGE_GROUPCHAT, REPLYTO_MESSAGE_GROUPCHAT
-    - RECEIVE_MESSAGE_TEAM, REPLYTO_MESSAGE_TEAM
+    - RECEIVE_MESSAGE_PERSONAL、REPLYTO_MESSAGE_PERSONAL
+    - RECEIVE_MESSAGE_GROUPCHAT、REPLYTO_MESSAGE_GROUPCHAT
+    - RECEIVE_MESSAGE_TEAM、REPLYTO_MESSAGE_TEAM
 
-- SEND_FILES, RECEIVE_FILES.<sup>2</sup>控制 bot 是否可以在個人聊天中傳送和接收檔案（群組聊天或頻道尚不支援此功能）。
+- SEND_FILES、RECEIVE_FILES。<sup>2</sup>控制 bot 是否可以在個人聊天中傳送和接收檔案（群組聊天或頻道尚不支援此功能）。
 
 ### <a name="considerations"></a>考量
 
@@ -106,9 +108,9 @@ Microsoft 團隊 app 是一種將一或多項功能匯總成_應用程式套件_
 
 - 另一方面，訊息擴充功能請參閱使用者的 IP 位址和引用資訊。
 
-- 應用程式指導方針（以及我們的 AppSource 審查程式）需要在將個人聊天訊息張貼給使用者時（透過 POST_MESSAGE_TEAM 許可權）來決定有效用途。 在使用不當的情況下，使用者可以封鎖機器人，租使用者系統管理員可以封鎖 app，而且 Microsoft 可以視需要集中封鎖機器人。
+- 應用程式指導方針（以及我們的 AppSource 審查程式）需要在將個人聊天訊息張貼給使用者時加以決定（透過 POST_MESSAGE_TEAM 許可權）來保證有效的目的。 在使用不當的情況下，使用者可以封鎖機器人，租使用者系統管理員可以封鎖 app，而且 Microsoft 可以視需要集中封鎖機器人。
 
-<sup>1</sup>部分機器人只會傳送訊息（POST_MESSAGE_USER）。 它們稱為「只通知」機器人，但該詞彙並未參照允許或不允許 bot 執行的動作，這表示 bot 不想公開會話中的體驗。 團隊使用此欄位來停用通常會啟用的 UI 中的功能;bot 與確實會公開會話體驗的 bot 相比，未受到任何允許的限制。
+<sup>1</sup>部分機器人只傳送郵件（POST_MESSAGE_USER）。 它們稱為「只通知」機器人，但該詞彙並未參照允許或不允許 bot 執行的動作，這表示 bot 不想公開會話中的體驗。 團隊使用此欄位來停用通常會啟用的 UI 中的功能;bot 與確實會公開會話體驗的 bot 相比，未受到任何允許的限制。
 
 <sup>2</sup>是由應用程式的資訊清單 .csv 檔案中 bot 物件上的 SupportsFiles 布林值屬性所管轄。
 
@@ -145,7 +147,7 @@ POST_MESSAGE_CHANNEL
 
 ### <a name="optional-permissions"></a>選用許可權
 
-REPLYTO_CONNECTOR_MESSAGE. 某些連接器支援可操作的訊息，讓使用者能夠將回應傳送給連接器訊息，例如新增對 GitHub 問題的回復或將日期新增至 Trello 卡片。
+REPLYTO_CONNECTOR_MESSAGE]。 某些連接器支援可操作的訊息，讓使用者能夠將回應傳送給連接器訊息，例如新增對 GitHub 問題的回復或將日期新增至 Trello 卡片。
 
 ### <a name="considerations"></a>考量
 
@@ -153,7 +155,7 @@ REPLYTO_CONNECTOR_MESSAGE. 某些連接器支援可操作的訊息，讓使用�
 
 - 將連接器郵件張貼到頻道時，任何資料都不會離開公司網路。
 
-- 支援可操作之訊息的連接器（REPLYTO_CONNECTOR_MESSAGE 許可權）也不會看到 IP 位址和引用資訊;此資訊會傳送至 Microsoft，然後路由至先前已在連接器入口網站中向 Microsoft 註冊的 HTTP 端點。
+- 支援可操作之訊息的連接器（REPLYTO_CONNECTOR_MESSAGE 許可權）也看不到 IP 位址與引用資訊，請參閱此資訊會傳送至 Microsoft，然後路由至先前已在連接器入口網站中向 Microsoft 註冊的 HTTP 端點。
 
 - 每次為頻道設定連接器時，就會建立該連接器實例的唯一 URL。 如果該連接器實例已刪除，就不能再使用該 URL。
 
@@ -168,11 +170,11 @@ REPLYTO_CONNECTOR_MESSAGE. 某些連接器支援可操作的訊息，讓使用�
 
 ## <a name="outgoing-webhooks"></a>外寄 webhooks
 
-如果已為租使用者啟用側載，則會在團隊擁有者或團隊成員即時地建立*外寄 webhooks* 。 它們不是團隊 app 的功能;包含此資訊是為了提供完整功能。
+*外寄 webhooks*是由小組擁有者或團隊成員動態建立。 它們不是團隊 app 的功能;包含此資訊是為了提供完整功能。
 
 ### <a name="required-permissions"></a>所需許可權
 
-RECEIVE_MESSAGE, REPLYTO_MESSAGE. 可以接收來自使用者的訊息並回復。
+RECEIVE_MESSAGE、REPLYTO_MESSAGE。 可以接收來自使用者的訊息並回復。
 
 ### <a name="optional-permissions"></a>選用許可權
 

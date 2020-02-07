@@ -14,15 +14,17 @@ ms.collection:
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: 瞭解如何衡量團隊規模廣泛啟用的結果與成功率。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 24b04571a647838ee4890c813e7f3b83f387c12d
-ms.sourcegitcommit: 25b6bf2c3050390cd668d2495ffcf31c44d0ff62
+ms.openlocfilehash: 51f1af667e7cf4e387b9e05eec40d17bb48a550d
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37749271"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837853"
 ---
 # <a name="define-outcomes-and-success-for-your-microsoft-teams-adoption"></a>為您的 Microsoft 團隊採納定義結果與成功
 
@@ -75,7 +77,7 @@ ms.locfileid: "37749271"
 | 團隊優先 | 團隊核心 | 團隊變大 | 並排 Skype | 移轉 |
 |------------ | ---------- | ------------ | ------------------ | --------- |
 | 與小組領導雲端部署 | 團隊領導共同作業案例 | 團隊和組織範圍團隊中的所有員工 | 啟用團隊和商務用 Skype | 從商務用 Skype 將使用者遷移至團隊 |
-| -適用于新的或低使用量的 Office 365 客戶 <br/>-在客戶特定案例中靠團隊打頭陣 <br/>-醒目提示集成的使用者經驗，並加速 Office 365 的價值 <br/>-配合規劃工作負載來避免串列實現 | -啟用團隊以及 OneDrive 和 SharePoint Online <br/>-使用 Microsoft Stream 建立公司內部網路以共用新聞資源和影片<br/>**更好地搭配**： <br/>協同<br/>SharePoint<br/>Yammer<br/>員<br/>PowerApps |-適用于低於5000座位的客戶（目前限制）<br/>-啟用跨組織與一個團隊共同作業<br/>-自動化一般工作（假期要求、員工勘察、管理層參與） |-使用團隊核心戰術來加速共同作業<br/>-根據所需大小和功能集醒目提示會議案例指引</br>-使用商務用 Skype 進行企業通話、互通性及混合式案例<br/>-使用公用藍圖進行功能規劃。 |-規劃從商務用 Skype 移至團隊，方法是建立客戶的服務戰略藍圖<br/>-附加至功能版本排程<br/>-建議包含並排和小組核心，以簡化轉場
+| -適用于新的或低使用量的 Office 365 客戶 <br/>-在客戶特定案例中靠團隊打頭陣 <br/>-醒目提示集成的使用者經驗，並加速 Office 365 的價值 <br/>-配合規劃工作負載來避免串列實現 | -啟用團隊以及 OneDrive 和 SharePoint Online <br/>-使用 Microsoft Stream 建立公司內部網路以共用新聞資源和影片<br/>**更好地搭配**： <br/>Teams<br/>SharePoint<br/>Yammer<br/>員<br/>PowerApps |-適用于低於5000座位的客戶（目前限制）<br/>-啟用跨組織與一個團隊共同作業<br/>-自動化一般工作（假期要求、員工勘察、管理層參與） |-使用團隊核心戰術來加速共同作業<br/>-根據所需大小和功能集醒目提示會議案例指引</br>-使用商務用 Skype 進行企業通話、互通性及混合式案例<br/>-使用公用藍圖進行功能規劃。 |-規劃從商務用 Skype 移至團隊，方法是建立客戶的服務戰略藍圖<br/>-附加至功能版本排程<br/>-建議包含並排和小組核心，以簡化轉場
 
 以下是我們針對大多數客戶組織的建議。 不過，也有例外狀況。 若要針對此處未提及的任何案例取得指導方針，請在我們的推動採用群體中提出您的問題，或與 FastTrack 小組或 Microsoft 合作夥伴網路取得聯繫。
 
@@ -85,7 +87,7 @@ ms.locfileid: "37749271"
 
     團隊也是最大的，也就是那些想要簡化員工溝通與接洽之1000員工的最佳支援策略。 使用組織範圍的小組可以讓人員共同查看任何裝置上的一般工作與計畫。 
 
-- **選擇 [** 並排]：對於使用商務用 Skype 進行音訊會議、會議室裝置支援或雲端語音功能的組織，我們建議您並排執行團隊和 Skype，以讓您的員工熟悉核心共同作業功能，在規劃商務用 Skype 時，您可方便貴公司進行。 請注意，並排執行這兩個用戶端可能會對使用哪個工具造成使用者混淆，因此我們建議您在採用歷程中將此階段保持簡短。 
+- **選擇 [** 並排]：適用于使用商務用 Skype 進行音訊會議、會議室裝置支援或雲端語音功能的組織，我們建議您執行團隊和 Skype，以讓您的員工掌握核心共同作業功能，同時從商務用 skype 開始規劃您的公司。 請注意，並排執行這兩個用戶端可能會對使用哪個工具造成使用者混淆，因此我們建議您在採用歷程中將此階段保持簡短。 
 
 - **選擇 [遷移**]：從商務用 Skype 遷移至團隊從技術角度來看，還有其他元件，但使用者採納歷程與團隊成為大型實現的元件一樣。 此外，您還會針對團隊會議經驗和介面、新的持續聊天行為，以及與商務用 Skype 不同的其他體驗的其他元素進行教育。
 

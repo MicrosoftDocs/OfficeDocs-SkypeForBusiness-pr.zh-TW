@@ -1,5 +1,5 @@
 ---
-title: 團隊用戶端體驗與共存模式的一致性
+title: Teams 用戶端體驗和遵從共存模式
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -7,25 +7,27 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: bjwhalen
 audience: admin
-description: 團隊用戶端體驗與共存模式的一致性
+description: Teams 用戶端體驗和遵從共存模式
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6e05a95871dbe36f969c048f32d9bca99fec5d45
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: eea9d83a582bfe463233cfafe9564a238e00e198
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37435236"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837373"
 ---
 <a name="about-upgrade-basic"></a>
 
-# <a name="teams-client-experience-and-conformance-to-coexistence-modes"></a>團隊用戶端體驗與共存模式的一致性
+# <a name="teams-client-experience-and-conformance-to-coexistence-modes"></a>Teams 用戶端體驗和遵從共存模式
 
 
 商務用 Skype 共存模式（SfBOnly、SfBWithTeamsCollab、SfBWithTeamsCollabAndMeetings）的用途，是提供使用者的簡單且可預測的體驗，就像是組織從商務用 Skype 轉換到團隊。  如果組織要移至團隊，則 [**團隊專用**] 模式是每個使用者的最終目的地，但並非所有使用者都需要同時指派**團隊**（或任何其他模式）。  在使用者進入 TeamsOnly 模式之前，組織可以使用任何商務用 Skype 共存模式，以確保**僅供團隊**使用的使用者和尚不在小組中的使用者進行預期通訊。 
@@ -62,7 +64,7 @@ ms.locfileid: "37435236"
 
 |**模態（應用程式）**|**原則。設定**|
 |---|---|
-|交流|TeamsMessagingPolicy.AllowUserChat|
+|聊天|TeamsMessagingPolicy.AllowUserChat|
 |通話|TeamsCallingPolicy.AllowPrivateCalling|
 |會議排程|TeamsMeetingPolicy.AllowPrivateMeetingScheduling</br>TeamsMeetingPolicy.AllowChannelMeetingScheduling|
 |||
@@ -76,7 +78,7 @@ ms.locfileid: "37435236"
 |SfBWithTeamsCollab 或 SfBOnly|禁止|禁止|禁止|禁止|
 ||||||
 
-使用 PowerShell 時，此`Grant-CsTeamsUpgradePolicy` Cmdlet 會檢查 TeamsMessagingPolicy、TeamsCallingPolicy 和 TeamsMeetingPolicy 中對應設定的設定，以判斷是否會將這些設定取代 TeamsUpgradePolicy，如果是，PowerShell 中提供了資訊性訊息。  如上所述，不需要再設定其他原則設定。 以下是 PowerShell 警告外觀的範例：
+使用 PowerShell 時，此`Grant-CsTeamsUpgradePolicy` Cmdlet 會檢查 TeamsMessagingPolicy、TeamsCallingPolicy 和 TeamsMeetingPolicy 中對應設定的設定，以判斷這些設定是否會被 TeamsUpgradePolicy 取代，如果是，則會在 PowerShell 中提供資訊訊息。  如上所述，不需要再設定其他原則設定。 以下是 PowerShell 警告外觀的範例：
 
 `Grant-CsTeamsUpgradePolicy -Identity user1@contoso.com -PolicyName SfBWithTeamsCollab`
 

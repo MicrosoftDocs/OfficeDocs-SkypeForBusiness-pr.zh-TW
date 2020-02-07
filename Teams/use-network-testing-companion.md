@@ -1,5 +1,5 @@
 ---
-title: 使用網路測試副
+title: 使用網路測試小幫手
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -12,19 +12,21 @@ ms.collection:
 ms.reviewer: lolaj
 search.appverid: MET150
 description: 瞭解如何下載並使用網路測試副工具。
+f1.keywords:
+- CSH
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 193bc6b335766da15e28ff805efb0558bdf6ef4d
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: c3d292eecb6173f98a2e95dbbd5a1097f5f785eb
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568600"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836753"
 ---
-<a name="use-the-network-testing-companion"></a>使用網路測試副
+<a name="use-the-network-testing-companion"></a>使用網路測試小幫手
 =================================
 
 商務用 Skype 和 Microsoft 團隊[網路測試副](https://www.powershellgallery.com/packages/NetworkTestingCompanion/1.5.4)能讓您輕鬆地測試網路品質，以及您連線到商務用 skype Online 或 Microsoft 團隊的連線方式。 您可以輕鬆地解讀結果並與網路系統管理員共用，以深入瞭解潛在的網路問題。

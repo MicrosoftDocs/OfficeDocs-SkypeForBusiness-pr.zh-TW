@@ -11,18 +11,20 @@ ms.reviewer: jatpatel
 description: 針對 Surface Hub 設定 Microsoft 團隊的管理員設定。
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom:
 - Devices
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 37c38577fe3bda9ed2a1c2e224390e89f44de96b
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 5634c4ac5e5955d099555cce4f74b57a527662e9
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570099"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836933"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>部署適用于 Surface Hub 的 Microsoft 團隊
 ======================================
@@ -61,8 +63,8 @@ ms.locfileid: "37570099"
 |電話  |說明  |
 |---------|---------|
 |0     | [開始] 畫面上的 Skype 偏好 app，[團隊會議] 可供使用        |
-|sr-1     | [開始] 畫面上的 [小組偏好] app，提供 Skype 會議        |
-|pplx-2     | [開始] 畫面上的 [團隊專用] 應用程式（Skype app 無法使用）        |
+|1     | [開始] 畫面上的 [小組偏好] app，提供 Skype 會議        |
+|2     | [開始] 畫面上的 [團隊專用] 應用程式（Skype app 無法使用）        |
  
 1. 將 USB 金鑰附加至 Surface Hub 裝置。 
 2. 在 Surface Hub 裝置上開啟 [**設定**] 應用程式。 
@@ -88,7 +90,7 @@ ms.locfileid: "37570099"
 |正在   |值    |
 |----------|---------|
 |路徑      | ./Vendor/MSFT/SurfaceHub/Properties/VtcAppPackageId        |
-|資料類型 | 字串-將 [團隊應用程式套件識別碼] 設定為**MicrosoftTeamsforSurfaceHub_8wekyb3d8bbwe！團隊** |
+|資料類型 | 字串-將 [團隊應用程式套件識別碼] 設定為「 **Microsoft MicrosoftTeamsforSurfaceHub_8wekyb3d8bbwe！」。團隊** |
 |作業| 取得、設定        |
 
 重新開機 Surface Hub 裝置。 裝置重新開機之後，您應該能夠從 [開始] 畫面啟動 [團隊] app，然後從行事曆加入會議。

@@ -16,16 +16,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Audio Conferencing
 description: 系統管理員可以控制召集人如何在會議中使用免付費電話號碼。
-ms.openlocfilehash: e6a62473c2db2e2a36a0b0302831afe0b4877f8f
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 7bc830529fc24a61be914998e923ad2d5288b7c5
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707268"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837263"
 ---
 # <a name="disabling-toll-free-numbers-for-specific-teams-users"></a>針對特定團隊使用者停用免付費電話號碼
 

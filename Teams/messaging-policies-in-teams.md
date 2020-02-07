@@ -15,14 +15,16 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
+- CSH
+ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: 瞭解訊息原則，以及如何使用它們來控制小組中的聊天訊息。
-ms.openlocfilehash: 676217cbd9101884e01cef1afd39203efc090f16
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: ceb77747da051c5b7e4fb764d6b6679335d8f366
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707278"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836443"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>管理小組中的訊息傳遞原則
 

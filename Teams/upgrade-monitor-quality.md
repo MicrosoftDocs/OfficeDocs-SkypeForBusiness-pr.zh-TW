@@ -10,30 +10,32 @@ ms.reviewer: dearbeen
 description: 監視 Microsoft 團隊品質與使用方式所需的工作與活動
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ecc3781f3190b7c7e5f52aec7ecf9dbae0894886
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 69f36da55daf95da66fa87b90487dde447953f53
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236425"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837173"
 ---
-![圖表醒目提示升級歷程的卓越運作階段](media/upgrade-banner-op-excellence.png "升級歷程階段, 重點放在卓越運作階段")
+![圖表醒目提示升級歷程的卓越運作階段](media/upgrade-banner-op-excellence.png "升級歷程階段，重點放在卓越運作階段")
 
-本文是您升級歷程的卓越運作階段的一部分, 在您完成從商務用 Skype 升級至團隊之後, 就會立即開始。
+本文是您升級歷程的卓越運作階段的一部分，在您完成從商務用 Skype 升級至團隊之後，就會立即開始。
 
-# <a name="quality-of-experience-review-guide"></a>經驗品質回顧指南
+# <a name="quality-of-experience-review-guide"></a>體驗品質的審查指南
 
-[[體驗品質檢查指南](https://aka.ms/qerguide)] 包含一組活動, 可針對改善使用者體驗的重要區域評估並提供修正指導方針, 如下所示。
+[[體驗品質檢查指南](https://aka.ms/qerguide)] 包含一組活動，可針對改善使用者體驗的重要區域評估並提供修正指導方針，如下所示。
 
-在![審閱期間要檢查的主要區域圖例。](media/plan-my-service-management-image2.png "體驗品質檢查期間要檢查的主要區域: 音訊、可靠性及使用者問卷結果。")
+![在審閱期間要檢查的主要區域圖例。](media/plan-my-service-management-image2.png "體驗品質檢查期間要檢查的主要區域：音訊、可靠性及使用者問卷結果。")
 
-透過不斷評估並修正指南中所述的區域, 您可以減少對使用者經驗造成負面影響的可能性。 在部署中遇到的大多數使用者體驗問題, 都可以分為下列類別:
+透過不斷評估並修正指南中所述的區域，您可以減少對使用者經驗造成負面影響的可能性。 在部署中遇到的大多數使用者體驗問題，都可以分為下列類別：
 
 - 防火牆或 proxy 配置不完整
 
@@ -47,8 +49,8 @@ ms.locfileid: "36236425"
 
 - 有問題的子網或網路裝置
 
-體驗品質檢查指南中提供的指導方針主要是使用通話品質儀表板 (CQD) 作為主要工具來報告和調查所述的每一個區域, 並將焦點放在音訊上以最大化採納與影響。 針對網路所做的任何優化, 以改善音訊體驗, 也會直接翻譯成影片和桌面共用的改良功能。
+體驗品質檢查指南中提供的指導方針主要是使用通話品質儀表板（CQD）作為主要工具來報告和調查所述的每一個區域，並將焦點放在音訊上以最大化採納與影響。 針對網路所做的任何優化，以改善音訊體驗，也會直接翻譯成影片和桌面共用的改良功能。
 
-我們強烈建議您提前提名品質擁護者。 命名之後, 他們應該開始熟悉[體驗品質檢查指南](https://aka.ms/qerguide)中的內容。
+我們強烈建議您提前提名品質擁護者。 命名之後，他們應該開始熟悉[體驗品質檢查指南](https://aka.ms/qerguide)中的內容。
 
 <!--ENDOFSECTION-->

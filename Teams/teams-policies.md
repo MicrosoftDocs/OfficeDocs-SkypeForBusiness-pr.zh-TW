@@ -16,18 +16,20 @@ localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何使用及管理組織中的小組原則，以控制使用者可在團隊和頻道中執行的動作。
 f1.keywords:
+- CSH
+ms.custom:
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discoverteams
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.createchannels
 - ms.teamsadmincenter.teams.teamsandchannelpolicies.overview
 - ms.teamsadmincenter.teamsandchannelpolicies.overview
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
-ms.openlocfilehash: 81192f405563c3f7eb023050745d68fcd4c067f9
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: dc3d5fa4880f3255017b535657a4a32a51789c82
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41708319"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836963"
 ---
 # <a name="manage-teams-policies-in-microsoft-teams"></a>管理 Microsoft 團隊中的團隊原則
 

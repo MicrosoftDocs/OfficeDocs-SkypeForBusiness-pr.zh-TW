@@ -10,18 +10,20 @@ ms.reviewer: dearbeen
 description: 使用本指導方針，瞭解如何正確評估您目前的環境以升級至團隊的需求。
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f4716eac44880ca149fb757d2f16ebfe80ccab65
-ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
+ms.openlocfilehash: 5000ecb5195654e902c06f329c910c0a5edb7d55
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "37772317"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837124"
 ---
 ![升級歷程圖表，強調技術就緒階段](media/upgrade-banner-tech-readiness.png "升級歷程階段，重點放在技術準備階段")
 
@@ -182,7 +184,7 @@ ms.locfileid: "37772317"
 > | 關鍵字 | 自動回應 | 批註 |
 > |---|---|---|
 > | 您目前的使用方式 <br>商務用 Skype？ | **__** % 總作用中使用者與已啟用的使用者 | |
-> | 貴組織的使用方式 <br>商務用 Skype？ | 1:1 交談 <br>&nbsp;&nbsp; IM &nbsp; <input type="checkbox"> <br>&nbsp;&nbsp;通話&nbsp; <input type="checkbox"> <br>&nbsp;&nbsp;共用&nbsp; <input type="checkbox"><br> 舉行 <br>&nbsp;&nbsp;會議&nbsp; <input type="checkbox"><br>&nbsp;&nbsp;共用&nbsp; <input type="checkbox"><br>&nbsp;&nbsp;通話&nbsp; <input type="checkbox"> | |
+> | 貴組織的使用方式 <br>商務用 Skype？ | 1:1 交談 <br>&nbsp;&nbsp; IM &nbsp; <input type="checkbox"> <br>&nbsp;&nbsp;通話&nbsp; <input type="checkbox"> <br>&nbsp;&nbsp;共用&nbsp; <input type="checkbox"><br> 會議 <br>&nbsp;&nbsp;會議&nbsp; <input type="checkbox"><br>&nbsp;&nbsp;共用&nbsp; <input type="checkbox"><br>&nbsp;&nbsp;通話&nbsp; <input type="checkbox"> | |
 > | 貴組織是否已採用使用者 <br>並變更管理團隊？ | <input type="checkbox">是的<br/> <input type="checkbox">不 | |
 > | 您目前如何衡量技術的成功 <br>像商務用 Skype 這樣的部署？ | | |
 > | 您所說的使用者群百分比是 <br>採用商務用 Skype 嗎？ | | |
@@ -191,7 +193,7 @@ ms.locfileid: "37772317"
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/> <br/>決策點</td><td><ul><li>誰負責完成環境評估？</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next step"/><br/>下一個步驟</td><td><ul><li>記錄環境評估的結果。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next step"/><br/>後續步驟</td><td><ul><li>記錄環境評估的結果。</li></ul></td></tr>
 </table>
 
 在您評估您的環境之後，請繼續執行下一個步驟：[準備您的網路](upgrade-prepare-environment-prepare-network.md)。

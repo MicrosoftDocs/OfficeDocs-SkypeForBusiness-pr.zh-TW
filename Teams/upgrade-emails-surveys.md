@@ -7,21 +7,23 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
 audience: admin
-description: 在 conjunciton 中使用的電子郵件與調查範例, 以及從商務用 Skype 升級至團隊的加速十步驟行動方案
+description: 在 conjunciton 中使用的電子郵件與調查範例，以及從商務用 Skype 升級至團隊的加速十步驟行動方案
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 27dc5a5daf92ce0dad214dcc5cf8c26bbc78ea6d
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 7b90c8f5d7094c036f29a6b64ecfca4e26f51640
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236384"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837223"
 ---
 # <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>升級基本通訊的電子郵件與調查範例
 
@@ -31,13 +33,13 @@ ms.locfileid: "36236384"
 
 ### <a name="stakeholder-email-for-step-1"></a>步驟1的專案關係人電子郵件
 
-主題行:
+主題行：
 
 ```
 IMPORTANT ANNOUNCEMENT Regarding Skype for Business
 ```
 
-電子郵件的主體:
+電子郵件的主體：
 
 ````
 As Microsoft [announced](https://blogs.office.com/2017/09/25/a-new-vision-for-intelligent-communications-in-office-365/) in September 2017, Skype for Business and Microsoft Teams will be coming together into one solution. Teams builds on the great capabilities of Skype for Business and offers chat (IM), meetings, audio/video calling, file management, and a project workspace in one collaboration tool.
@@ -53,13 +55,13 @@ Microsoft has provided an upgrade checklist outlining the essential tasks we sho
 
 ### <a name="notify-users-email-for-step-4"></a>在步驟4中通知使用者電子郵件
 
-主題行:
+主題行：
 
 ```
 IMPORTANT ANNOUNCEMENT Regarding Skype for Business
 ```
 
-電子郵件的主體:
+電子郵件的主體：
 
 ````
 From instant messaging to meetings to audio calling, we understand how much you rely on technologies like Skype for Business to get your job done. We’re excited to announce that we’ll be transitioning to Microsoft Teams, which provides one solution for your communication and collaboration needs. Teams leverages much of what you know and love about Skype for Business and expands what’s possible, integrating chat (IM), online meetings, calling, file management and a project workspace all into one interface.
@@ -82,13 +84,13 @@ If you have questions or need help, please reach out to <<insert company support
 
 ### <a name="remind-users-email-for-step-6"></a>在步驟6中提醒使用者電子郵件
 
-[主旨] 行: 提醒: 準備好升級至團隊
+[主旨] 行：提醒：準備好升級至團隊
 
 ```
 ACTION REQUIRED: Host your next online meeting in Teams
 ```
 
-電子郵件的主體:
+電子郵件的主體：
 ````
 We’re just <<X weeks/days>> away from the transition to Microsoft Teams and want to make sure that you’re ready. Online meetings are part of our everyday life, so take time this week to get acquainted with online meetings in Teams. Complete the following steps for the smoothest experience:
 
@@ -113,13 +115,13 @@ Should you have questions about this upgrade, contact <<insert alias or contact 
 
 ### <a name="welcome-users-email-from-the-executive-sponsor-for-step-7"></a>歡迎使用者從總經理主辦方傳送電子郵件給步驟7
 
-主題行:
+主題行：
 
 ```
 PLEASE READ: Skype for Business is now Microsoft Teams
 ```
 
-電子郵件的主體:
+電子郵件的主體：
 
 ````
 Let me be the first to officially welcome you to Microsoft Teams. Your Skype for Business client will be decommissioned, and Teams is your default application for chat and meetings. In case you missed it, let’s review what Microsoft Teams can do for you:
@@ -148,13 +150,13 @@ Regards,
 
 ### <a name="check-in-email-for-step-9"></a>[存回電子郵件] 的步驟9
 
-主題行:
+主題行：
 
 ```
 ACTION REQUESTED: Tell us about your Microsoft Teams experience
 ```
 
-電子郵件的主體:
+電子郵件的主體：
 
 ````
 We upgraded to Microsoft Teams just over a week ago and want to hear from you.
@@ -168,15 +170,15 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 <a name="step-10-email"></a>
 
-### <a name="email-to-ask-users-to-give-teams-and-channels-a-try-for-step-10"></a>在步驟10的電子郵件中, 要求使用者提供小組和頻道的嘗試
+### <a name="email-to-ask-users-to-give-teams-and-channels-a-try-for-step-10"></a>在步驟10的電子郵件中，要求使用者提供小組和頻道的嘗試
 
-主題行:
+主題行：
 
 ```
 CALL TO ACTION: Give teams and channels a try
 ```
 
-電子郵件的主體:
+電子郵件的主體：
 
 ````
 Now that you’re up and running with Microsoft Teams, learn what else Teams can do for you. More than just enabling chat and meetings, Teams serves as a hub for teamwork—where you can chat, collaborate, and share content with the people you work with. Using the teams and channels functionality enables you to organize your projects and conversations in a way that works for you.
@@ -199,16 +201,16 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 ## <a name="sample-surveys"></a>範例問卷
 
-指出您在團隊中執行下列活動的熟練程度, 以及是否有一或多個您想要深入瞭解的活動。
+指出您在團隊中執行下列活動的熟練程度，以及是否有一或多個您想要深入瞭解的活動。
 
-| &nbsp; | 訓練有素 | 有點熟練 | 根本不擅長 | 想要深入瞭解 | N/A | 不確定/不熟悉 | | | | |
+| &nbsp; | 訓練有素 | 有點熟練 | 根本不擅長 | 想要深入瞭解 | 不適用 | 不確定/不熟悉 | | | | |
 |---|---|---|---|---|---|---|---|---|---|---|
 | 使用團隊進行 IM/與其他人聊天 | | | | | | | | | | |
 | 使用團隊進行線上會議 | | | | | | | | | | |
-| 使用團隊共同作業 (團隊和頻道) | | | | | | | | | | |
+| 使用團隊共同作業（團隊和頻道） | | | | | | | | | | |
 | 在我的行動裝置上使用團隊 | | | | | | | | | | |
 
-| **如果有任何問題, 您無法使用 Microsoft 團隊嗎？** | **選取所有適用的** |
+| **如果有任何問題，您無法使用 Microsoft 團隊嗎？** | **選取所有適用的** |
 |---|---|
 | 我從未聽說過 | &#9744; |
 | 我的電腦上沒有安裝該元件 | &#9744; |
@@ -216,14 +218,14 @@ Should you have questions, contact <<insert alias or contact info>>.
 | 我沒有時間來評估它以滿足我的需求 | &#9744; |
 | 我已經使用了其他能滿足通訊與共同作業需求的應用程式 | &#9744; |
 | 在使用前需要訓練 | &#9744; |
-| 我嘗試使用它, 但遇到技術問題或不佳的體驗 | &#9744; |
+| 我嘗試使用它，但遇到技術問題或不佳的體驗 | &#9744; |
 | 我們的支援中心無法協助我解決問題 | &#9744; |
-| 沒有, 我目前使用它 | &#9744; |
-| 其他 (請指定) | &#9744; |
+| 沒有，我目前使用它 | &#9744; |
+| 其他（請指定） | &#9744; |
 
-**您可能會將 Microsoft 團隊推薦給朋友/同事的可能性為何？(0 = 根本不可能 .。。10 = 極有可能)**
+**您可能會將 Microsoft 團隊推薦給朋友/同事的可能性為何？（0 = 根本不可能 .。。10 = 極有可能）**
 
-| 0 | sr-1 | pplx-2 | 3 | 4 | 500 | 6 | utf-7 | 型 | 9 | 第 |
+| 0 | 1 | 2 | 3 | 4 | 500 | 6 | utf-7 | 型 | 9 | 第 |
 | ---| --- | ---|---|---|---|---|---|---|---|---|
 |&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |
 

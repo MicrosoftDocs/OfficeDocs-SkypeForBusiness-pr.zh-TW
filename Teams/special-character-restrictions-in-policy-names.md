@@ -17,14 +17,16 @@ appliesto:
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
+- CSH
+ms.custom:
 - ms.teamsadmincenter.policies.naming.error
 description: 查看原則名稱中有哪些特殊字元，以及您可以執行哪些動作來修正這些問題。
-ms.openlocfilehash: a3b7c8dfcba8d88f0428711a913344b33b431c37
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 4116f34c06667a3bd4e75f9a5541b23c8ea79dcb
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707588"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837923"
 ---
 # <a name="what-are-the-special-character-restrictions-in-teams-policies"></a>團隊原則中的特殊字元限制是什麼？
 

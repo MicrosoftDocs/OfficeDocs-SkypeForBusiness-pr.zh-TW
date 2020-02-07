@@ -11,16 +11,18 @@ search.appverid: MET150
 description: 瞭解如何安裝和設定 Microsoft 團隊的 Moodle 整合應用程式
 keywords: 團隊 Moodle 應用程式整合外掛程式
 localization_priority: Normal
+f1.keywords:
+- NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5c6e2d8cfb4e3932d4559a5c5c7b618189da7e57
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: 128e476447898e659961a27e071b992b6b802ebf
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37572055"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836613"
 ---
 # <a name="installing-the-moodle-integration-with-microsoft-teams"></a>安裝 Moodle 整合與 Microsoft 團隊
 

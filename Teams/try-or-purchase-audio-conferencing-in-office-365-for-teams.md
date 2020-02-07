@@ -17,16 +17,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- ms.lync.lac.CpcGettingStarted
+- CSH
 ms.custom:
 - Audio Conferencing
+- ms.lync.lac.CpcGettingStarted
 description: '瞭解如何試用或購買 Office 365 的音訊會議（PSTN 會議）授權，以設定人員可以撥入的電話會議。 '
-ms.openlocfilehash: 527455cc0f4d1a818c18271e3cf9bbafb04e2794
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 6c2b7583dcf286ba3b761a3445e3eff241896194
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41708639"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837613"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-microsoft-teams"></a>在 Microsoft 團隊的 Office 365 中試用或購買音訊會議
 

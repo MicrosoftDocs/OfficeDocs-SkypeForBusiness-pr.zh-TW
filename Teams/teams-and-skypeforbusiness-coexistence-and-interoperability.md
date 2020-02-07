@@ -10,18 +10,20 @@ ms.reviewer: dearbeen
 description: 商務用 Skype 和 Microsoft 團隊共存選項與商務用 Skype 與團隊之間的互通性的詳細資料。
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 16defcd2cd5a855cbc3713f5a35886bb936c5a45
-ms.sourcegitcommit: 299f854bbb73887ba315b09b9adf9ea9ff91e8ec
+ms.openlocfilehash: adadf5bbc4ad8ea177e194c699eff7bd08384b87
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37062969"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837413"
 ---
 ![升級歷程圖表，強調專案定義階段](media/upgrade-banner-project-definition.png "升級歷程階段，重點放在專案定義階段")
 
@@ -43,7 +45,7 @@ ms.locfileid: "37062969"
 
 ## <a name="coexistence-of-teams-and-skype-for-business"></a>團隊與商務用 Skype 的共存
 
-除了共同作業功能之外，小組還提供聊天、通話和會議功能。 視您選擇部署團隊的方式而定，這些功能可能會與商務用 Skype 針對特定使用者所提供的功能重迭。 預設模式是在商務用 Skype 中使用功能重迭來執行團隊;不過，使用者可以指派幾種共存模式（也稱為升級模式），以確保這些功能不會與該使用者重疊（在這種情況下，小組與商務用 Skype 之間提供互通性）。 例如，如果您的商務用 Skype 伺服器內部部署資產有複雜的企業語音部署，但想要讓您的使用者儘快享有新式會議，您可能會想[先評估會議](meetings-first.md)，做為替代方案路徑.
+除了共同作業功能之外，小組還提供聊天、通話和會議功能。 視您選擇部署團隊的方式而定，這些功能可能會與商務用 Skype 針對特定使用者所提供的功能重迭。 預設模式是在商務用 Skype 中使用功能重迭來執行團隊;不過，使用者可以指派幾種共存模式（也稱為升級模式），以確保這些功能不會與該使用者重疊（在這種情況下，小組與商務用 Skype 之間提供互通性）。 例如，如果您的商務用 Skype 伺服器內部部署資產有複雜的企業語音部署，但想要讓您的使用者儘快享有新式會議，您可能會想要先以備用路徑來評估[會議](meetings-first.md)。
 
 我們建議您查看下列共存模式，以協助判斷哪個路徑適合您的組織。
 
@@ -56,15 +58,15 @@ ms.locfileid: "37062969"
 
 在此共存模式（稱為**孤島**）中，每個用戶端應用程式都是以個別的孤島運作。 商務用 skype 會與商務用 Skype 進行交談，而團隊則會與團隊進行交談。 使用者應該隨時執行這兩個用戶端，而且可以在啟動通訊的用戶端中以本機方式進行通訊。 如此一來，就不需要在**孤島**模式中進行互通性。
 
-若要避免令人混淆或 regressed 的商務用 Skype 體驗、外部（同盟）通訊、PSTN 語音服務及語音應用程式、Office 整合、USB 裝置的 HID 控制項，以及其他幾個整合繼續由 Skype 處理針對商務用，在**孤島**模式中無法使用小組。 在**孤島**模式中，在小組中不支援手機系統;在此模式中，只有企業語音用戶端是商務用 Skype。
+若要避免令人混淆或 regressed 的商務用 Skype 體驗、外部（同盟）通訊、PSTN 語音服務及語音應用程式、Office 整合、USB 裝置的 HID 控制項，以及其他幾個整合，都繼續由商務用 Skype 來處理，且不能在使用**孤島**模式的小組中取得。 在**孤島**模式中，在小組中不支援手機系統;在此模式中，只有企業語音用戶端是商務用 Skype。
 
 > [!Important]
 > 在**孤島**模式中，來自同盟使用者（組織外部人員）的所有訊息和呼叫都會傳送到商務用 Skype。 升級至 [**僅限團隊**] 模式之後，組織外的所有訊息和呼叫都會傳送給小組。
 
 > [!Tip]
-> 商務用 Skype Online 客戶建議的路徑是從預設的**孤島**模式開始，將組織中的 [推動團隊採用] 飽和度，然後快速移至 [**僅限團隊**] 模式。 在內部部署與混合式客戶（尤其是複雜的客戶）中，您可以從使用團隊共同作業模式將**商務用 skype**部署成起點，而不是**孤島**模式，以及從**商務用 skype 進行團隊共同作業與會議**模式（也就是，如果適用的話），以及組織準備好要採用團隊時的 [**只有小組**] 模式。
+> 商務用 Skype Online 客戶建議的路徑是從預設的**孤島**模式開始，將組織中的 [推動團隊採用] 飽和度，然後快速移至 [**僅限團隊**] 模式。 在內部部署與混合式客戶（尤其是複雜的客戶）中，您可以從使用團隊共同作業模式將**商務用 skype**部署為起點而不是**孤島**模式，並在組織準備好要採用團隊時，在**商務用 skype 中使用**團隊共同作業與會議模式（也就是會議優先）和 [**僅限小組**]。
 
-### <a name="skype-for-business-only"></a>僅適用于商務用 Skype
+### <a name="skype-for-business-only"></a>僅商務用 Skype
 
 在此共存模式中，使用者會保持在商務用 Skype （而非小組）中，以進行聊天、會議和通話功能，而且不會將小組用於小組和頻道。 此模式目前可供使用。不過，在目前的實施中，使用者不會自動關閉團隊和頻道。 您可以使用應用程式許可權原則來隱藏小組和頻道，以達到此目的。
 
@@ -74,10 +76,10 @@ ms.locfileid: "37062969"
 
 
 > [!IMPORTANT]
-> 如果您在將使用者移至 [**僅限團隊**] 模式之後卸載商務用 Skype 用戶端，目前狀態將會在 Outlook 和其他 Office app 中停止運作。 [目前狀態] 在小組中可以正常運作。 因應措施：若要在 Outlook （以及其他 Office app）中查看目前狀態，您必須安裝商務用 Skype，即使您是在 [**僅限團隊**] 模式中執行團隊也一樣。 Microsoft 已注意到這個問題，正在努力解決問題。
+> 如果您在將使用者移至 [僅 Teams]**** 模式之後解除安裝商務用 Skype 用戶端，則 Outlook 和其他 Office應用程式中的目前狀態將會停止運作。 目前狀態在 Teams 中可正常運作。 因應措施：若要在 Outlook （以及其他 Office app）中查看目前狀態，您必須安裝商務用 Skype，即使您是在 [**僅限團隊**] 模式中執行團隊也一樣。 Microsoft 已發現此問題，正在努力解決中。
 
 
-**團隊只有**使用者（也稱為已*升級*的使用者）可以存取團隊中的所有功能。 他們可能會保留商務用 Skype 用戶端，以在已由未升級的使用者或外部合作夥伴組織的商務用 Skype 上加入會議。 已升級的使用者可以使用小組與商務用 Skype 之間的互通性功能，繼續與組織中的其他使用者進行通訊（前提是這些商務用 Skype 使用者不在**孤島中**mode）。 不過，升級後的使用者無法啟動商務用 Skype 聊天、通話或會議。
+**團隊只有**使用者（也稱為已*升級*的使用者）可以存取團隊中的所有功能。 他們可能會保留商務用 Skype 用戶端，以在已由未升級的使用者或外部合作夥伴組織的商務用 Skype 上加入會議。 已升級的使用者可以使用小組與商務用 Skype 之間的互通性功能，繼續與組織中的其他使用者進行通訊（前提是這些商務用 Skype 使用者不是以**孤島**模式提供）。 不過，升級後的使用者無法啟動商務用 Skype 聊天、通話或會議。
 
 只要您的組織準備好讓部分或所有使用者使用團隊作為其唯一的通訊與共同作業工具，您就可以將這些使用者升級至 [**僅限團隊**] 模式。 如果您是從**孤島**模式升級，我們建議您先將團隊在整個組織中採納，然後再開始升級程式。 這可避免由於**孤島**模式無法提供互通性而造成的通訊案例中斷。
 
@@ -89,7 +91,7 @@ ms.locfileid: "37062969"
 
 您可以使用此模式在您的環境中引入小組，在您繼續利用商務用 Skype 中的現有投資。 在此模式中，您可以讓商務用 Skype 保持不變的狀態，以進行聊天、通話和會議功能，並新增小組共同作業功能（團隊和頻道）、在 Office 365 中存取檔案，以及應用程式。 團隊通訊功能（私人聊天、通話及排程會議）預設會在此模式中關閉。
 
-在內部部署或混合使用商務用 Skype 伺服器起點的組織，如果他們想要為使用者提供其通訊的互通性與可預見性，也應該考慮使用這**種模式。** 提供可預測的時程表供其升級至小組（而不是以**孤島**模式來依賴採用飽和）。
+在內部部署或混合使用商務用 Skype 伺服器起點的組織，如果他們想要為其使用者提供互通性與可預見性，以及將其升級至小組所需的預期時程表（而不是以**孤島**模式來依賴採用飽和），請考慮使用這**種模式。**
 
 ### <a name="skype-for-business-with-teams-collaboration-and-meetings-also-known-as-meetings-first"></a>商務用 Skype 與團隊共同作業與會議（也稱為會議）
 
@@ -100,7 +102,7 @@ ms.locfileid: "37062969"
 此共存模式對於使用商務用 Skype 內部部署的組織而言，可能需要一些時間才能升級至小組，且想要儘快從優質團隊會議中獲益。
 
 > [!Note]
-> 當您在任何共存模式（除了**孤島**、團隊及商務用 Skype）中部署時，可進行[交互操作](#interoperability-of-teams-and-skype-for-business)，讓使用者與他人互動並相互通話，並確保通訊在您的整個組織期間都能持續流動遷移至團隊。 共存模式控制互通性。 接收器的共存模式決定是否可使用互通性。 例如，如果收件者處於只能在一位用戶端（假設、團隊）中提供聊天的模式，則在發起者使用其他用戶端（在此案例中為商務用 Skype）開始聊天時，通常會提供聊天互通性。 另一方面，如果收件者處於兩個用戶端（孤島模式）中都有聊天功能的模式，就不會對聊天提供互通性。 該訊息將由接收器在發起者開始聊天的同一個用戶端中接收。 因此，在**孤島**模式中適當的通訊需要團隊採用飽和功能;也就是說，所有使用者都積極使用及監視兩個用戶端。
+> 當您在任何共存模式（除了**孤島**、團隊和商務用 Skype）中部署時，可進行[交互操作](#interoperability-of-teams-and-skype-for-business)，讓使用者與他人互動並相互通話，並確保您的通訊在您的整個組織期間都能在您的小組中持續流動。 共存模式控制互通性。 接收器的共存模式決定是否可使用互通性。 例如，如果收件者處於只能在一位用戶端（假設、團隊）中提供聊天的模式，則在發起者使用其他用戶端（在此案例中為商務用 Skype）開始聊天時，通常會提供聊天互通性。 另一方面，如果收件者處於兩個用戶端（孤島模式）中都有聊天功能的模式，就不會對聊天提供互通性。 該訊息將由接收器在發起者開始聊天的同一個用戶端中接收。 因此，在**孤島**模式中適當的通訊需要團隊採用飽和功能;也就是說，所有使用者都積極使用及監視兩個用戶端。
 
 > [!TIP]
 > 若要協助根據您想要在小組中啟用的功能，在商務用 Skype 仍在使用中時，找出建議的升級模式，請利用[Skype 與團隊升級嚮導](https://aka.ms/SkypeToTeamsWizard)。
@@ -110,7 +112,7 @@ ms.locfileid: "37062969"
 | | | |
 |---|---|---|
 |<img src="media/audio_conferencing_image7.png" alt= "An icon depicting a decision point"/>|決策點|<ul><li>最符合貴組織和使用者需求的共存模式是哪一種？</li></ul>|
-|<img src="media/audio_conferencing_image9.png" alt= "An icon depicting the next step"/>|下一個步驟|<ul><li>選擇升級歷程的最佳方式。</li></ul>|
+|<img src="media/audio_conferencing_image9.png" alt= "An icon depicting the next step"/>|後續步驟|<ul><li>選擇升級歷程的最佳方式。</li></ul>|
 
 ## <a name="interoperability-of-teams-and-skype-for-business"></a>團隊與商務用 Skype 的互通性
 
@@ -140,7 +142,7 @@ ms.locfileid: "37062969"
 > [!Important]
 > 在內部部署商務用 Skype 的交互操作體驗中，您需要在內部部署環境中使用 Office 365 商務用 Skype 的混合模式。 如需詳細資訊，請參閱[遷移和互通性指導](https://aka.ms/SkypeToTeams-Interop)方針。
 
-在已指派下列其中一個共存模式的使用者中，也可以使用這些交互操作體驗：**商務用 skype 與團隊**共同作業、**商務用 skype 與團隊共同作業及會議**、 **skype**僅限企業或**團隊**。 在**孤島**模式中，沒有使用者互通性。
+在已指派下列其中一個共存模式的使用者中，也可以使用這些交互操作體驗：**商務用 skype 與團隊**共同作業、**商務用 skype 與團隊**共同作業、會議、**商務用 skype**或**僅限團隊**。 在**孤島**模式中，沒有使用者互通性。
 
 ### <a name="native-interop-experience-limitations"></a>原生交互操作體驗限制
 
@@ -204,7 +206,7 @@ Windows 版小組桌面用戶端、Mac 版小組桌面用戶端及支援內容�
 
 在租使用者互通性和跨租使用者的共同通話和聊天中，都有提供團隊會議的這項升級。 此選項預設為開啟狀態，且系統管理員沒有提供任何設定。 不過，如果系統管理員已設定``-AllowPrivateMeetNow`` ``CsTeamsMeetingPolicy``為``$false``，就會關閉該使用者。
 
-在您複習本文之後，請參閱[選擇升級歷程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)、[遷移和互通性指導](https://aka.ms/SkypeToTeams-Interop)方針、[與商務用 Skype 共存](coexistence-chat-calls-presence.md)，以及[設定您的共存與升級設定](https://aka.ms/SkypeToTeams-SetCoexistence)以進行實施詳細資料.
+在您複習本文之後，請參閱[選擇您的升級歷程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)、[移植與互通性指導](https://aka.ms/SkypeToTeams-Interop)方針、[與商務用 Skype 共存](coexistence-chat-calls-presence.md)，以及[設定您的共存與升級設定](https://aka.ms/SkypeToTeams-SetCoexistence)以取得詳細資料。
 
 ## <a name="related-links"></a>相關連結
 

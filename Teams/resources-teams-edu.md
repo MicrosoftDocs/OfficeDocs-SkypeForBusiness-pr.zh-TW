@@ -11,16 +11,18 @@ audience: admin
 description: 小組資源清單，便於 IT 管理員在教育中取得。
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6eb86cd3679b6cd90b646add994760c4d41aa46d
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: dc9413690f98afeab9bb96baefd3d73e8b56d3f8
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569981"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41838243"
 ---
 <a name="microsoft-teams-resources-for-education-admins"></a>適用于教育系統管理員的 Microsoft 團隊資源
 ==============================================
@@ -45,7 +47,7 @@ ms.locfileid: "37569981"
 |---------|---------|
 |**開始使用 Microsoft 團隊取得教育版-秘訣和訣竅**<br>[下載現成的 .pdf 檔](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-packet-get-started.pdf?raw=true)<br>![快速入門 Microsoft 團隊教育版的螢幕擷取畫面。](media/package-teams-edu-get-started.png)    |
 
-## <a name="call-to-action"></a>行動動作
+## <a name="call-to-action"></a>行動信號
 
 - 查看我們的[Microsoft 團隊互動示範](https://teamsdemo.office.com/)（完成5分鐘）
 - 在[microsoft 365 系統管理中心](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns)開啟 microsoft 團隊（以 Office 365 系統管理員身分登入）

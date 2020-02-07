@@ -17,16 +17,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Audio Conferencing
 description: '瞭解如何在 Microsoft 團隊中查看您組織中已啟用電話撥入式會議的使用者清單。 '
-ms.openlocfilehash: f769953a2cbce7ee91a5a75c00cbcb0e2a2b3814
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 9330aef9e143764949c4589535126eb2dd72e883
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41694128"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41838143"
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-microsoft-teams"></a>在 Microsoft 團隊中查看已啟用音訊會議的使用者清單
 

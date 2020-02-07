@@ -8,6 +8,8 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
+f1.keywords:
+- NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
@@ -15,12 +17,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何透過團隊專案庫和搜尋結果中的建議，控制 Microsoft 團隊使用者是否可探索私人團隊。
-ms.openlocfilehash: e2e0ec956b40ff5e84bb29874c0dc567edefd034
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 0d068de791afd32d38b2b49ada275c6e3eced41c
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992008"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836513"
 ---
 # <a name="manage-discovery-of-private-teams-in-microsoft-teams"></a>在 Microsoft 團隊中管理私人小組探索
 

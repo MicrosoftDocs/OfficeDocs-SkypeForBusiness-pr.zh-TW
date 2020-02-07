@@ -12,19 +12,19 @@ localization_priority: Normal
 search.appverid: MET150
 description: 瞭解不同的 Office 365 授權，以及哪些使用者可以使用 Microsoft 團隊以及如何啟用或停用。
 ms.custom:
-- NewAdminCenter_Update
+- ms.teamsadmincenter.voice.resourceaccounts.tooltip.phonenumber
 ms.collection:
 - M365-collaboration
 f1.keywords:
-- ms.teamsadmincenter.voice.resourceaccounts.tooltip.phonenumber
+- CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 29ad7a18c5b666a3dcd8c29c34c08e2a7c8b75b2
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 012a45c679faef7e547b5017590c7b81c577dde5
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41681420"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41834323"
 ---
 <a name="office-365-licensing-for-microsoft-teams"></a>Microsoft 團隊的 Office 365 授權
 ========================================

@@ -16,13 +16,15 @@ localization_priority: Normal
 search.appverid: MET150
 description: 瞭解 Microsoft 團隊中的應用程式設定原則，以及如何使用這些原則將 app 釘選到您組織中的使用者自訂小組。
 f1.keywords:
+- CSH
+ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 93b687bffb536295e758fb6d7c1baf43710901e9
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 9117837aab1b218ea34a77731eebaba8f4d27783
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41708489"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837393"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>在 Microsoft 團隊中管理 app 設定原則
 

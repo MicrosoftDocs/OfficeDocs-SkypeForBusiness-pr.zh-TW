@@ -17,16 +17,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Audio Conferencing
 description: '瞭解如何啟用或停用匿名呼叫者從 [小組] 管理中心加入會議。 '
-ms.openlocfilehash: c971b73aade62c0ef9e34c0467a956477e80ca7c
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 87588bc8edfcc4d50b5589339f92f56829ec38ef
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707558"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837913"
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-microsoft-teams"></a>在沒有 Microsoft 團隊中的 PIN 的情況下，透過電話啟動音訊會議
 

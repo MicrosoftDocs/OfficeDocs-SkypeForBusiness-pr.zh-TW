@@ -11,16 +11,18 @@ ms.collection:
 ms.reviewer: bjwhalen
 search.appverid: MET150
 description: 本文將協助您挑選共存模式並設定其他共存設定。
+f1.keywords:
+- CSH
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e5cc89afb43149f68dfc068492e1d0163e4b0721
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: e0eee70dd27647e59a742f4155ba292b54684eaa
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003313"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837973"
 ---
 # <a name="setting-your-coexistence-and-upgrade-settings"></a>設定您的共存與升級設定
 

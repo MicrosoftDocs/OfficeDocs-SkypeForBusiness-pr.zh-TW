@@ -17,16 +17,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Audio Conferencing
 description: '取得建立呼叫者的預設電話號碼以加入 Microsoft 團隊會議的步驟。 '
-ms.openlocfilehash: abe426149ca0fed3c1a28128cc327783844c2478
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: b5a43b0987160b87ac4a6e25b10ae6d850612ac1
+ms.sourcegitcommit: 8e2fa7b744d0a174b699ae7298d4688b971eeff3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41694018"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41845234"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>在 Microsoft 團隊中設定邀請中所包含的電話號碼
 
@@ -52,13 +52,11 @@ Office 365 中的音訊會議可讓貴組織中的使用者建立 Microsoft 團�
 
 ![](media/teams-logo-30x30.png) **使用 microsoft [團隊管理中心**] 顯示 Microsoft 團隊標誌的圖示
 
-1. 在左側導覽中，按一下 [**使用者**]，然後從可用使用者清單中選取使用者。
+1. 在左側導覽中，按一下 [**使用者**]。
 
     ![顯示在 Microsoft 團隊系統管理中心中選取使用者](media/teams-set-phone-numbers-on-invites-image1.png)
 
-2. 按一下頁面頂端的 [**編輯**]。
-
-    ![按一下 [Microsoft 團隊系統管理中心] 中的 [編輯]。](media/teams-set-phone-numbers-on-invites-image2.png)
+2. 按一下可用使用者清單中的使用者名稱。
 
 3. 按一下 [**音訊會議**] 旁的 [**編輯**]。 
     

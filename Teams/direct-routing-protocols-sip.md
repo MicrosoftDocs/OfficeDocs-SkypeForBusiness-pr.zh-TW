@@ -12,15 +12,17 @@ ms.collection:
 - M365-voice
 ms.reviewer: nmurav
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: 直接路由式通訊協定
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6ab2203544e1d0e4d8679a4ad8107c2048e5b3b8
-ms.sourcegitcommit: 89106cfda0d900d8be541943b7d1537bc69ed57f
+ms.openlocfilehash: 5fc90ace7a2b1bd8a6984c7268903a1a6063e137
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/16/2019
-ms.locfileid: "40065673"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41835033"
 ---
 # <a name="direct-routing---sip-protocol"></a>直接路由 SIP 通訊協定
 
@@ -251,7 +253,7 @@ SIP proxy 會將「參考」視為 SIP URI，由主機名稱中的 SIP proxy FQD
 
 [被參照] 標頭是一個 SIP URI，其上有 transferor MRI，以及 transferor 租使用者識別碼和其他傳輸內容參數，如下表所示：
 
-| 參數 | 值 | 描述 |  
+| 參數 | 值 | 說明 |  
 |:---------------------  |:---------------------- |:---------------------- |
 | x-m | MRI | 以 [抄送] 填充的 transferor/轉讓目標的完整 MRI |
 | x-y | 租使用者識別碼 | x-y 的租使用者識別碼（由 CC 填入）選用的租使用者識別碼 |

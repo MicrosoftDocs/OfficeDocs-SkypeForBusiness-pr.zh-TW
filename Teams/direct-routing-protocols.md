@@ -12,15 +12,17 @@ ms.collection:
 - M365-voice
 ms.reviewer: nmurav
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: 直接路由式通訊協定
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a470c402ebfd4e70955f4e864d45dbaaca476dfd
-ms.sourcegitcommit: 89106cfda0d900d8be541943b7d1537bc69ed57f
+ms.openlocfilehash: 7462822626b698f95b80a716a55f94dfe92148ff
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/16/2019
-ms.locfileid: "40065623"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41835023"
 ---
 # <a name="direct-routing---definitions-and-rfc-standards"></a>直接路由定義與 RFC 標準
 
@@ -75,7 +77,7 @@ ms.locfileid: "40065623"
 
 下表列出 Microsoft 在其中的 SIP 或媒體堆疊實現與標準偏離的 RFC 區段：
 
-| RFC 和章節 | 描述 | 差異 |
+| RFC 和章節 | 說明 | 差異 |
 | :---------------------  |:---------------------- |:-----------------------|
 | [RFC 6337，區段5.3 保留並繼續媒體](https://tools.ietf.org/html/rfc6337#section-5.3) | RFC 可讓您使用 "a = 不活躍"，"a = sendonly"，a = recvonly "保留通話。 |SIP proxy 只支援 "a = 非使用中"，而且不了解 SBC 是傳送 "a = sendonly" 或 "a = recvonly"。
 | [在使用 c = 0.0.0.0 接收 SDP 時的 RFC 6337，區段5.4」行為](https://tools.ietf.org/html/rfc6337#section-5.4) | [RFC3264](https://tools.ietf.org/html/rfc3264)要求工程師能夠接收連接位址為0.0.0.0 的 SDP，在這種情況下，這表示 RTP 和 RTCP 都不應傳送給對等。 | SIP proxy 不支援此選項。 |

@@ -13,16 +13,18 @@ ms.collection:
 - Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-f1.keywords: ms.teamsadmincenter.policypackages.overview
+f1.keywords:
+- CSH
+ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何在 Microsoft 團隊中使用及管理原則套件。
-ms.openlocfilehash: 922481747e83b8885641185b8a7e4fa65bb2a1bd
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: a06e32d72f4bd82b1db6b74e32312c113a1d7086
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41708659"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837343"
 ---
 # <a name="microsoft-teams-policy-packages-for-edu-admins"></a>適用於教育界管理員的 Microsoft Teams 原則套件
 

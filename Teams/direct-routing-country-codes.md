@@ -13,13 +13,15 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
+f1.keywords:
+- NOCSH
 description: 請閱讀本文，找出直接路由的媒體路徑國家/地區代碼。
-ms.openlocfilehash: 277544a5b169c2e2e17cea530239e992321d3d46
-ms.sourcegitcommit: c6d0da888ceb13f38bae139a1ced428e121e60b5
+ms.openlocfilehash: 4d3e19ceeab48e7ade6ffa9b51bff68f38613426
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39837565"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836093"
 ---
 # <a name="direct-routing-media-path-country-codes"></a>直接路由媒體路徑國家/地區代碼
 
@@ -48,7 +50,7 @@ CSOnlinePSTNGateway-身分識別 sbc1.contoso.com – MediaRelayRoutingLocationO
 | 安哥拉          | AO |
 | Anguilla        | AI |
 | Antarctica      | AQ | 
-| 安提瓜與巴布達 | 證券交易所 |
+| 安地卡及巴布達 | 證券交易所 |
 | 阿根廷       | AR |
 | 亞美尼亞         | 為何 |
 | Aruba           | AW |
@@ -58,7 +60,7 @@ CSOnlinePSTNGateway-身分識別 sbc1.contoso.com – MediaRelayRoutingLocationO
 | 巴哈馬         | BS |
 | 巴林         | BH |
 | 孟加拉國      | 過 |
-| 島        | BB |
+| 巴貝多        | BB |
 | 白俄羅斯         | 按照 |
 | 比利時         | 不必 |
 | 貝里斯          | BZ |
@@ -102,7 +104,7 @@ CSOnlinePSTNGateway-身分識別 sbc1.contoso.com – MediaRelayRoutingLocationO
 | Czechia         | CZ |
 | 丹麥         | 深 |
 | 吉布地        | DJ |
-| Dominica        | 矩陣 |
+| 多米尼克        | 矩陣 |
 | 多明尼加共和國 | 請 |
 | 厄瓜多         | 成員國 |
 | 埃及           | 例如 |
@@ -228,7 +230,7 @@ CSOnlinePSTNGateway-身分識別 sbc1.contoso.com – MediaRelayRoutingLocationO
 | 盧安達          | 燒錄 |
 | 沙巴            | X |
 | 聖 Barthelemy | BL |
-| 聖基茨與尼維斯 | KN |
+| 聖克里斯多福及尼維斯 | KN |
 | 聖露西亞     | LC-FC |
 | 聖聖馬丁    | 大型機 |
 | 聖匹島 | 經理 |

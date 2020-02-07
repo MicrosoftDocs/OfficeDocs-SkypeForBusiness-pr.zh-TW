@@ -10,17 +10,19 @@ audience: admin
 description: 適用于 IT 專業人員的指導方針，可在處理受美國政府 DoD 法規制約之資料的實體中，將 Office 365 部署驅動。
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 33495b8a4122df6c0c5d380b835dbfb3a9271eb2
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: be952d838135a03a873d7193118febf5639bd415
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573292"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836853"
 ---
 # <a name="plan-for-microsoft-365-government---dod-deployments"></a>規劃 Microsoft 365 政府 DoD 部署
 
@@ -49,7 +51,7 @@ Microsoft 365 政府 DoD 環境提供與美國雲端服務政府需求相符的�
 
 |    |     |
 |-----------|------------|
-| ![描述決策點的圖示](media/audio_conferencing_image7.png) <br/>決策點|<ul><li>決定 Microsoft 365 政府 DoD 是否適合您的組織。</li><li>確認您的組織符合資格需求。</li></ul> |
+| ![描繪決策點的圖示](media/audio_conferencing_image7.png) <br/>決策點|<ul><li>決定 Microsoft 365 政府 DoD 是否適合您的組織。</li><li>確認您的組織符合資格需求。</li></ul> |
 
 > [!Note]
 > Microsoft 365 政府-DoD 僅適用于美國。 非美國政府客戶可以從許多[Office 365 政府方案](https://products.office.com/en/government/compare-office-365-government-plans)中選擇。
@@ -75,22 +77,22 @@ Microsoft 365 政府 DoD 環境提供與美國雲端服務政府需求相符的�
 |                             | 功能                     | DoD       |
 |-----------------------------|-----------------------------|----------------|
 | 基本 | Id | 離線 |
-| | 平臺 | 離線 |
+| | 目前狀態 | 離線 |
 | | 整合的目前狀態（商務用 Skype 和小組已統一） | 在政府積壓工作 |
 | 操作 | 複製 | 離線 |
 |  | 我的活動 | 離線 |
-| 交流 | 交談 | 離線 |
-| | Files | 離線 |
+| 聊天 | 交談 | 離線 |
+| | 檔案 | 離線 |
 | | 組織結構 | 離線 |
 | | 操作 | 離線 |
 | | 互通性（1:1 團隊-商務用 Skype 聊天） | 在政府積壓工作 |
-| 協同 | 頻道訊息 | 離線 |
+| Teams | 頻道訊息 | 離線 |
 | | 頻道檔案 | 離線 |
 | | [OneNote] 索引標籤 | 在政府積壓工作 |
 | | 透過電子郵件傳送頻道 | 無法使用 |
 | | 新增成員 | 離線 |
 | | 來賓存取 | 在政府積壓工作 |
-| 舉行 | 排程會議 | 離線 |
+| 會議 | 排程會議 | 離線 |
 | | 加入會議 | 離線 |
 | | VoIP 會議 | 離線 |
 | | 桌面共用 | 離線 |
@@ -101,7 +103,7 @@ Microsoft 365 政府 DoD 環境提供與美國雲端服務政府需求相符的�
 | | 廣播會議 | 在政府積壓工作 |
 | | 雲端（DoD 到 DoD）同盟會議 | 離線 |
 | | Surface Hub 支援 | 在政府積壓工作 |
-| 撥 | 聯絡 | 離線 |
+| 撥 | 連絡人 | 離線 |
 | | 歷程記錄 | 離線 |
 | | 語音信箱 | 離線 |
 | | VoIP 通話 | 離線 |
@@ -124,12 +126,12 @@ Microsoft 365 政府 DoD 環境提供與美國雲端服務政府需求相符的�
 | | 通話和會議的 eDiscovery | 離線 |
 | | 組織自動語音應答 | 在政府積壓工作 |
 | | Skype 消費者-小組通話支援 | 無法使用 |
-| Files | 近 | 離線 |
-| | Microsoft 團隊 | 離線 |
+| 檔案 | 近 | 離線 |
+| | Microsoft Teams | 離線 |
 | 存放 | App Store | 無法使用 |
 | 檢索 | 錯誤資訊 | 離線 |
-| | 連絡人 | 離線 |
-| | Files | 離線 |
+| | 人員 | 離線 |
+| | 檔案 | 離線 |
 | | 斜杠命令 | 離線 |
 | 從屬 | 合規性內容搜尋 | 離線 |
 | | 留成 | 離線 |

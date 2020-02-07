@@ -17,16 +17,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Optimization
 description: 本文提供與團隊或商務用 Skype 一起使用 proxy 伺服器的相關資訊。
-ms.openlocfilehash: e71dd21d8d359093b5dada84a8d0788e8dff6af3
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 7eeb319c9c352f4f04abef581b88c1eddf46951d
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41708829"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837303"
 ---
 # <a name="proxy-servers-for-teams-or-skype-for-business-online"></a>Teams 或商務用 Skype Online 的 Proxy 伺服器
 

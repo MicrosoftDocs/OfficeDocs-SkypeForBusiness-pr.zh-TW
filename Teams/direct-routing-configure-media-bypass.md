@@ -1,5 +1,5 @@
 ---
-title: 使用直接路由來設定媒體旁路
+title: 設定媒體旁路搭配直接路由
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,15 +13,17 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
+f1.keywords:
+- NOCSH
 description: 請閱讀本主題，瞭解如何使用 [電話系統直接路由] 設定媒體旁路。
-ms.openlocfilehash: 2931194783e2055c468ec2d7ad1286b9fe1940ae
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 8d6891d8ecabace3b093e2dc788edee6e9cc5bd1
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572231"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837603"
 ---
-# <a name="configure-media-bypass-with-direct-routing"></a>使用直接路由來設定媒體旁路
+# <a name="configure-media-bypass-with-direct-routing"></a>設定媒體旁路搭配直接路由
 
 在使用直接路由配置旁路媒體之前，請確定您有[使用直接路由的媒體旁路方案](direct-routing-plan-media-bypass.md)。
 

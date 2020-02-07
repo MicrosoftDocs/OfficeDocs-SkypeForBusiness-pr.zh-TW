@@ -17,16 +17,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Audio Conferencing
 description: '瞭解如何從 Microsoft 團隊中查詢您的電話撥入式會議號碼。 '
-ms.openlocfilehash: 693012a2417e6fc828d2ff5be9b22e255a3bc810
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 05008f8c3d51d17023be26dcc78e9e0b60243a5c
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41694148"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41838163"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>在 Microsoft 團隊中查看音訊會議號碼清單
 

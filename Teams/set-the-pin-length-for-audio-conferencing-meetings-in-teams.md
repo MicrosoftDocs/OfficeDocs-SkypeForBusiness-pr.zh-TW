@@ -17,16 +17,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Audio Conferencing
 description: 瞭解 PIN 長度與需求的參數，並瞭解如何在 Microsoft 團隊中設定會議的長度。
-ms.openlocfilehash: 7f7f477d14556baa7d2a47e5062aacd5de5796fd
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 2827845cb53aa822f09ebdd0948cc06e679e4c0a
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41693998"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41838073"
 ---
 # <a name="set-the-pin-length-for-audio-conferencing-meetings-in-microsoft-teams"></a>在 Microsoft 團隊中設定音訊會議會議的 PIN 長度
 

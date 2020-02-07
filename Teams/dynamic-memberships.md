@@ -1,5 +1,5 @@
 ---
-title: 團隊的動態成員資格概覽
+title: 小組的動態成員資格概觀
 author: jambirk
 ms.author: jambirk
 manager: serdars
@@ -9,19 +9,21 @@ ms.service: msteams
 audience: admin
 search.appverid: MET150
 description: 瞭解以 AAD 為基礎的動態團隊成員資格。
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3d22c7f068617cd4c5c73c850a37eaa89a0c8efa
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 04ac33bdd87b8bd7566e7588a3353a2f49920286
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569893"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836843"
 ---
-# <a name="overview-of-dynamic-membership-for-teams"></a>團隊的動態成員資格概覽
+# <a name="overview-of-dynamic-membership-for-teams"></a>小組的動態成員資格概觀
 
 Microsoft 團隊支援使用*動態成員資格*與 Office 365 群組相關聯的小組。 動態成員資格可讓團隊的成員資格由一或多個在 Azure Active Directory （Azure AD）中檢查特定使用者屬性的規則所定義。 當使用者屬性變更或使用者加入並離開租使用者時，系統會自動新增或移除正確的團隊。
 

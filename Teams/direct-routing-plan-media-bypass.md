@@ -13,13 +13,15 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
+f1.keywords:
+- NOCSH
 description: 請閱讀本主題，以瞭解如何使用手機系統直接路由規劃媒體旁路。
-ms.openlocfilehash: dbc88f7954708ef3842c0cb7afa67815c70976a6
-ms.sourcegitcommit: 4c763a3824e6a2271d98a46d25a03c8f04ee2f74
+ms.openlocfilehash: 98f09d00960615c09dca8dcd78275a418d650f3e
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "39257482"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41835973"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>媒體旁路搭配直接路由方案
 
@@ -247,8 +249,8 @@ SIP/TLS| SIP Proxy | SBC | 1024-65535 | 在 SBC 上定義 |
 
 | 頻寬 | 從 | 自 | 來源埠 | 目的地埠|
 | :-------- | :-------- |:-----------|:--------|:---------|
-UDP/SRTP | 端 | SBC | 50 000 – 50 019  | 在 SBC 上定義 |
-| UDP/SRTP | SBC | 端 | 在 SBC 上定義 | 50 000 – 50 019  |
+UDP/SRTP | 用戶端 | SBC | 50 000 – 50 019  | 在 SBC 上定義 |
+| UDP/SRTP | SBC | 用戶端 | 在 SBC 上定義 | 50 000 – 50 019  |
 
 
 注意：如果您的網路裝置會轉譯用戶端的來源埠，請確定已在網路設備與 SBC 之間開啟已轉換的埠。 

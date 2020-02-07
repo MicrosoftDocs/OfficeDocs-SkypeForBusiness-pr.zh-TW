@@ -17,16 +17,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Phone System
 description: '瞭解您可以在商務用 Skype 中針對預設系統訊息設定哪些語言。 '
-ms.openlocfilehash: 65b17d13ba0e7c1091b3f55d56a90b4100a4746b
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 78d3c53782e83ae191983bd8d7af2f1f5072f1df
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707829"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836583"
 ---
 # <a name="languages-for-voicemail-greetings-and-messages"></a>語音信箱問候語和訊息的語言
 

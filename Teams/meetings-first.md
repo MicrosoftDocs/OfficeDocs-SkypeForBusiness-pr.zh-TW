@@ -10,19 +10,21 @@ ms.reviewer: francoid
 description: 首先瞭解會議，在這裡使用者可以在小組中建立會議，同時繼續使用商務用 Skype 進行聊天、通話和目前狀態。
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3207a7e7f460cb2941dd4c46df2a215df7997ed4
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 10321d02398c6c2b0ffc2143a9bafa406fbec637
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37639191"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836453"
 ---
-# <a name="meetings-first"></a>先進行會議
+# <a name="meetings-first"></a>會議優先
 
 「會議優先」是以企業語音內部部署為目標，並針對商務用 Skype 伺服器組織進行優化，且要盡可能快速地開始使用團隊會議。 對於這些組織而言，會議優先是使用 [**孤島**] 模式來排定小組會議體驗的替代方案。
 
@@ -103,7 +105,7 @@ ms.locfileid: "37639191"
 
 在您授權使用者並準備好貴組織的小組會議之後，就可以開始為您的使用者啟用會議。 我們已將它簡化了：單一設定就可以執行所有工作！
 
-在會議中先進行所有功能與使用者體驗，包括團隊用戶端設定和使用者體驗的[自動一致性](teams-client-experience-and-conformance-to-coexistence-modes.md)、會議遷移服務，以及更好的功能，都是透過授予使用者（或使用者群組或租使用者預設值）在[Microsoft 團隊系統管理中心](manage-teams-in-modern-portal.md)或使用[PowerShell](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)中， [SfBWithTeamsCollabAndMeetings 共存模式](setting-your-coexistence-and-upgrade-settings.md)。
+您必須先在[Microsoft 團隊系統管理中心](manage-teams-in-modern-portal.md)或使用[PowerShell](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)中授予使用者（或使用者組管理員）的 [ [SfBWithTeamsCollabAndMeetings 共存] 模式](setting-your-coexistence-and-upgrade-settings.md)，以在會議中執行所有功能和使用者體驗，包括團隊用戶端設定和使用者體驗的[自動一致性](teams-client-experience-and-conformance-to-coexistence-modes.md)、會議遷移服務以及更好的功能。
 
 ![[管理員] 設定的螢幕擷取畫面，以先啟用會議](media/teams-meeting-admin-settings.png)
 

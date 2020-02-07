@@ -1,5 +1,5 @@
 ---
-title: Microsoft 團隊如何使用記憶體
+title: Microsoft Teams 如何使用記憶體
 author: msdmaguire
 ms.author: dmaguire
 manager: serdars
@@ -12,16 +12,18 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_PracticalGuidance
+f1.keywords:
+- NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6dcbe03851b8dbb31cd0bd6f1b580913d4dc683d
-ms.sourcegitcommit: f017e38095098d4d28c71241dddac53538be79d7
+ms.openlocfilehash: 05cbd2f4b6691c873393a7ba711e03aadf70a2f2
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "41506895"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836983"
 ---
-# <a name="how-microsoft-teams-uses-memory"></a>Microsoft 團隊如何使用記憶體
+# <a name="how-microsoft-teams-uses-memory"></a>Microsoft Teams 如何使用記憶體
 
 有些 Microsoft 團隊使用者有關于團隊如何使用記憶體的問題。 本文說明團隊如何使用記憶體，以及為什麼團隊桌面應用程式（應用程式）和團隊 web app 不會防止同一部電腦上的其他應用程式和工作負載能以最佳的方式執行。 團隊是設計用來使用新式 web 技術的。 若要這樣做，小組桌面用戶端是在 Electron 上開發的，使用 Chromium 來轉譯。 此轉譯引擎是在如今許多最流行的瀏覽器（包括邊緣與 Chrome）之後，都是相同的轉譯引擎。
 

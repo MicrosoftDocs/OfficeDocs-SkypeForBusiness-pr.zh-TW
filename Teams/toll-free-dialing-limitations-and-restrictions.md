@@ -17,17 +17,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: 這將協助您瞭解如何在每個國家/地區撥打免付費電話號碼。 在您選取國家/地區之後，系統會將您帶到特定國家/地區的頁面，其中包含特定的詳細資料、限制，以及免費提供免付費服務的服務可用性限制。 [撥號格式] 或 [格式] 會在每個國家/地區顯示所需的存取代碼，以撥打免付費電話號碼。
-ms.openlocfilehash: 41bc08f37d96674a88ad4d180198cba189780846
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 270d169be6992b97dfba94bedd4802560af78ef8
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41708204"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836903"
 ---
 # <a name="toll-free-dialing-limitations-and-restrictions"></a>免付費電話的撥號限制
 

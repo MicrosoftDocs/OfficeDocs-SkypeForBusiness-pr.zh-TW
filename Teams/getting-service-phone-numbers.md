@@ -17,16 +17,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Phone System
 description: 除了從 Office 365 取得使用者的電話號碼之外，您還可以在 [音訊會議] （適用于 [會議室]）、自動語音應答及通話佇列（亦稱為服務號碼）等服務中搜尋和取得付費或免付費電話號碼。 服務電話號碼的並行通話容量比使用者或訂閱者電話號碼要高。
-ms.openlocfilehash: 80d6de01ffcf88579be6ef3ffb550d7ea231c796
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 90538f21018ecde402994076243eb2ba893ccc98
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707889"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836993"
 ---
 # <a name="getting-service-phone-numbers"></a>取得服務電話號碼
 

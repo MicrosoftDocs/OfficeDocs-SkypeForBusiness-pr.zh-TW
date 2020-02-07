@@ -11,15 +11,17 @@ ms.collection:
 - M365-collaboration
 ms.reviewer: lucarras
 search.appverid: MET150
-description: 連接器可提供您經常直接在頻道中使用之服務的內容和更新，讓您的團隊保持最新狀態。
+f1.keywords:
+- NOCSH
+description: 連接器透過將您經常使用的服務中的內容和更新直接發送到頻道中，進而使您的團隊保持最新狀態。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 05f892791c3f299cbd146d7a34b0062cc957486f
-ms.sourcegitcommit: dc70fd277d9542d831741e14dba9ae22367210ae
+ms.openlocfilehash: cc65939048fd8e54bd122a4dc52d2a611b8453cc
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/09/2019
-ms.locfileid: "39909329"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41834373"
 ---
 <a name="use-office-365-and-custom-connectors-in-microsoft-teams"></a>在 Microsoft 團隊中使用 Office 365 和自訂連接器
 =======================================================
@@ -54,4 +56,4 @@ Office 365 連接器可搭配 Microsoft 團隊和 Office 365 群組使用，讓�
 <a name="develop-custom-connectors"></a>開發自訂連接器
 ----------------------------
 
-您也可以建立自訂連接器，以及接收和外寄 webhooks。 如需詳細資訊，請參閱我們的[開發人員檔](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors)。
+您也可以建立自訂連接器，以及接收和外寄 webhooks。 如需詳細資訊，請參閱我們的[開發人員文件](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors)。

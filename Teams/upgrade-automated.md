@@ -10,18 +10,20 @@ audience: admin
 description: 從商務用 Skype 自動升級至團隊的概覽
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f6e994f41f44c2895d394b432b37bed617ad2eb
-ms.sourcegitcommit: 70323d648e9ae3b20a710120b9dcdc452afc462b
+ms.openlocfilehash: 1ed959f74be1074ab8ed60b3fe54f06384b7990a
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "37698048"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836165"
 ---
 # <a name="automated-upgrades-from-skype-for-business-online-to-microsoft-teams"></a>從商務用 Skype Online 到 Microsoft 團隊的自動升級
 
@@ -47,7 +49,7 @@ Microsoft 將自動升級提供給小組，以協助小型企業從商務用 Sky
 |  |  |
 |---------|---------|
 |**聊天與通話**     | <UL><LI>所有通話和聊天都是在小組中開始和接收<LI>使用者可以使用任何商務用 Skype 使用者進行交互操作（聊天/通話）<LI>使用者無法與使用客戶用 Skype 的使用者通訊<LI>如果使用者嘗試登入商務用 Skype，就會將他們重新導向至團隊      </UL>  |
-|**舉行**     |  <UL><LI>使用者排程小組中的所有新會議（已取代外掛程式）    </UL>   |
+|**會議**     |  <UL><LI>使用者排程小組中的所有新會議（已取代外掛程式）    </UL>   |
 |**已遷移的資料**     |<UL><LI>商務用 Skype 中的現有連絡人，包括同盟（但不含通訊群組清單）<LI>現有的商務用 Skype 會議（無論是內部部署還是線上）都能轉換成團隊會議</UL>         |
 
 ## <a name="postponing-your-automated-upgrade"></a>推遲您的自動升級

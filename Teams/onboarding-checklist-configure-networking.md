@@ -10,22 +10,24 @@ ms.reviewer: rowille
 audience: admin
 description: 當您為團隊設定您的網路時，請遵循此檢查清單中的核心、執行任務和活動。
 localization_priority: Normal
+f1.keywords:
+- NOCSH
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6cf45acd7053864dbb92e58444cdcc4b162cec9b
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 489857d1109230339a051712db374040800275fd
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573340"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41835953"
 ---
 # <a name="configure-networking"></a>設定網路
 
-| 不 | 活動或任務 | 說明 | 完畢? | 其他資訊 |
+| 否 | 活動或任務 | 說明 | 完畢? | 其他資訊 |
 |----|--------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| sr-1  | 審查小組的網路需求 | 在進入網路的詳細資料之前，請先對您的網路需求進行全面瞭解。 | | [為 Microsoft 團隊準備貴組織的網路](https://docs.microsoft.com/microsoftteams/prepare-network)                                                               |
-| pplx-2  | 提供網路就緒研討會 | 執行網路就緒評估。 | |  |
+| 1  | 審查小組的網路需求 | 在進入網路的詳細資料之前，請先對您的網路需求進行全面瞭解。 | | [針對 Microsoft Teams 準備組織的網路](https://docs.microsoft.com/microsoftteams/prepare-network)                                                               |
+| 2  | 提供網路就緒研討會 | 執行網路就緒評估。 | |  |
 | 3  | 使用網路 Planner | 執行網路頻寬規劃。 | | |
 | 4  | 驗證使用者連線所需的 NAT 池大小 | 確保已將足夠的公用 IP 位址指派給 NAT 池，以避免埠耗盡。 埠耗盡會影響內部使用者和裝置無法連線至 Office 365 服務的情況。 <br/><br/>連線問題是使用者對雲端服務的感覺問題的主要原因。 | | [使用 Office 365 的 NAT 支援](https://support.office.com/article/NAT-support-with-Office-365-170e96ea-d65d-4e51-acac-1de56abe39b9) |
 | 500  | 實施最有效率的路由至 Microsoft 資料中心 | 找出可使用當地或地區出口點數盡可能高效地連線至 Microsoft 網路的位置。 <br/><br/>[**其他資訊**] 欄中的文章說明用戶端如何利用 Office 365 名稱解析中的功能，以及如何有效地將 IP 路由連接至最接近的地區資料中心。 | | [Office 365 用戶端連線](https://support.office.com/article/Client-connectivity-4232abcf-4ae5-43aa-bfa1-9a078a99c78b) |

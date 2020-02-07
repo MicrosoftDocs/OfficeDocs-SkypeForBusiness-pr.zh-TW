@@ -11,24 +11,26 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: 深入瞭解如何在 Microsoft 團隊中組織團隊和頻道。
+f1.keywords:
+- CSH
 ms.custom: Adopt
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c077d49a09210862936d94d46708db95efe4585b
-ms.sourcegitcommit: 6ba9eeb81b7d55ffc319d6d6658d0ecac83c2159
+ms.openlocfilehash: 3ff198dcc7898f463c5b2c299ab9b9fb411f3382
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "37142053"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837723"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>瞭解 Microsoft 團隊中的團隊和頻道
 
 團隊和頻道的概念是 Microsoft 團隊良好、高效實施的基礎。 
 
-- 小組是共同作業的人員、內容和工具集合，共同為您的公司產生商業成果。 團隊是以 Office 365 群組為基礎，且變更 Office 365 群組成員資格與團隊同步處理。 
+- 小組是共同作業的人員、內容和工具集合，共同為您的公司產生商業成果。 Teams 的建置基礎為 Office 365 群組，因此 Office 365 群組成員資格的變更會同步至團隊。 
 
 - [頻道] 是指小組中的共同作業空間，實際工時已完成。 
 
@@ -43,9 +45,9 @@ ms.locfileid: "37142053"
 
 小組存取類型決定誰可以加入團隊：
 
-- *私人*小組受限於小組擁有者核准的小組成員。 這是大型組織中的專案團隊和虛擬小組的一般設定。
+- *私人*團隊限團隊擁有者核准的團隊成員。 這是大型組織中專案團隊和虛擬團隊的標準設定。
 
-- *公用*團隊會公開給組織中的任何人，且使用者可以直接加入他們。 公用團隊可用於共同作業，這些主題涉及不同部門中的人員，或是處理不同專案的人員。 對於較小的組織而言，這是一個很好的預設設定。
+- *公用*團隊會公開給組織中的任何人，且使用者可以直接加入他們。 公用團隊可用於共同作業，這些主題涉及不同部門中的人員，或是處理不同專案的人員。 這是非常適合小型組織的預設設定。
 
 ## <a name="use-teams-to-drive-cross-organization-collaboration"></a>使用團隊推動跨組織共同作業
 

@@ -17,16 +17,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Licensing
 description: '瞭解什麼是通訊點數（PSTN 消費）帳單、如何尋找比率，以及您所取得的服務。 '
-ms.openlocfilehash: 5da6f5807f5fd2868097525f1abe6ecd5def6d5f
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 4fe46800df7dbef9baf8184283d0e4d811388f53
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41694278"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836733"
 ---
 # <a name="what-are-communications-credits"></a>什麼是通訊點數？
 
