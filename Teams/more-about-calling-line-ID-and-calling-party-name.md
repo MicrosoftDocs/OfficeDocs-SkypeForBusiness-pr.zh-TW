@@ -16,16 +16,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Calling Plans
 description: 瞭解為何您需要新增在您使用 [新的當地號碼埠順序] 嚮導時可以變更帳戶的授權人員。
-ms.openlocfilehash: a687bc1aca8a47b349415d4a0cc2dc9f61f81884
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 2e6911179b3a973b0d966867ca5186fc0e21ae8a
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41708799"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41832653"
 ---
 # <a name="more-about-calling-line-id-and-calling-party-name"></a>深入了解通話線路識別碼和來電方名稱
 

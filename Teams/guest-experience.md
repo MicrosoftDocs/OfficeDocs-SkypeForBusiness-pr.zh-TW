@@ -9,18 +9,20 @@ ms.service: msteams
 ms.reviewer: sbhatta
 search.appverid: MET150
 description: 瞭解適用于來賓使用者的 Microsoft 團隊功能。
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9b923a92c9fb8a7475d9424861a7204da7f19780
-ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
+ms.openlocfilehash: 8c700ed6fb4f95f3cc9a4ecfc6d66c7791aabb74
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37753428"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41833233"
 ---
 <a name="what-the-guest-experience-is-like"></a>來賓體驗像什麼
 =================================
@@ -59,31 +61,31 @@ ms.locfileid: "37753428"
 
 | 通話功能 | 來賓 | E1 與 E3 使用者 | E5 和企業語音使用者 |
 | --------------- | ----- | -------------- | -------------- |
-| VOIP 通話 | 是的 | 是的 | 是的 |
-| 群組通話 | 是的 | 是的 | 是的 |
-| 核心通話控制支援（保留、靜音、影片開啟/關閉、螢幕共用） | 是的 | 是的 | 是的 |
-| 轉移目標 | 是的 | 是的 | 是的 |
-| 可以轉接來電 | 是的 | 是的 | 是的 |
-| 可進行諮詢式轉接 | 是的 | 是的 | 是的 |
-| 可透過 VOIP 將其他使用者新增至通話 | 是的 | 是的 | 是的 |
-| 可以透過電話號碼將使用者新增到通話中 | 不 | 不 | 是的 |
-| 轉寄目標 | 不 | 是的 | 是的 |
-| 通話群組目標 | 不 | 是的 | 是的 |
-| 未回復的目標 | 不 | 是的 | 是的 |
-| 可以是聯盟呼叫的目標 | 不 | 是的 | 是的 |
-| 可以進行聯盟通話 | 不 | 是的 | 是的 |
-| 可以立即轉寄其來電 | 不 | 不 | 是的 |
-| 可以同時撥打來電 | 不 | 不 | 是的 |
-| 可以傳送未接聽的電話 | 不 | 不 | 是的 |
-| 未接來電可移至語音信箱 | 不 | 無<sup>1</sup> |是的 |
-| 擁有可接聽電話的電話號碼 | 不 | 不 | 是的 |
-| 可以撥打電話號碼 | 不 | 不 | 是的 |
-| 可以存取通話設定 | 不 | 不 | 是的 |
-| 可以變更語音信箱問候語 | 不 | 無<sup>1</sup> | 是的 |
-| 可以變更鈴聲 | 不 | 不  | 是的 |
-| 支援 TTY | 不 | 不 | 是的 |
-| 可以擁有代理人 | 不 | 不 | 是的 |
-|  可以是代理人 | 不 | 不 | 是的 |
+| VOIP 通話 | 是 | 是 | 是 |
+| 群組通話 | 是 | 是 | 是 |
+| 核心通話控制支援（保留、靜音、影片開啟/關閉、螢幕共用） | 是 | 是 | 是 |
+| 轉移目標 | 是 | 是 | 是 |
+| 可以轉接來電 | 是 | 是 | 是 |
+| 可進行諮詢式轉接 | 是 | 是 | 是 |
+| 可透過 VOIP 將其他使用者新增至通話 | 是 | 是 | 是 |
+| 可以透過電話號碼將使用者新增到通話中 | 否 | 否 | 是 |
+| 轉寄目標 | 否 | 是 | 是 |
+| 通話群組目標 | 否 | 是 | 是 |
+| 未回復的目標 | 否 | 是 | 是 |
+| 可以是聯盟呼叫的目標 | 否 | 是 | 是 |
+| 可以進行聯盟通話 | 否 | 是 | 是 |
+| 可以立即轉寄其來電 | 否 | 否 | 是 |
+| 可以同時撥打來電 | 否 | 否 | 是 |
+| 可以傳送未接聽的電話 | 否 | 否 | 是 |
+| 未接來電可移至語音信箱 | 否 | 無<sup>1</sup> |是 |
+| 擁有可接聽電話的電話號碼 | 否 | 否 | 是 |
+| 可以撥打電話號碼 | 否 | 否 | 是 |
+| 可以存取通話設定 | 否 | 否 | 是 |
+| 可以變更語音信箱問候語 | 否 | 無<sup>1</sup> | 是 |
+| 可以變更鈴聲 | 否 | 否  | 是 |
+| 支援 TTY | 否 | 否 | 是 |
+| 可以擁有代理人 | 否 | 否 | 是 |
+|  可以是代理人 | 否 | 否 | 是 |
 
 
 <sup>1</sup>這個功能即將推出。
@@ -91,7 +93,7 @@ ms.locfileid: "37753428"
 > [!NOTE]
 > Office 365 系統管理員會控制來賓可用的功能。 
 
-## <a name="frequently-asked-questions"></a>常見問題
+## <a name="frequently-asked-questions"></a>常見問題集
 
 ### <a name="how-do-i-leave-an-organization-that-ive-been-invited-to"></a>如何離開受邀者的組織？
 如果您受邀您不想成為客人的組織，您可以選擇離開該組織。 如需詳細資訊，請移至[將組織設為來賓使用者](https://docs.microsoft.com/azure/active-directory/b2b/leave-the-organization)。 或者，您也可以要求組織管理員將您從其租使用者中移除。 請注意，如果您想要在將來存取組織，您在任何一種情況下都必須重新受邀租使用者。

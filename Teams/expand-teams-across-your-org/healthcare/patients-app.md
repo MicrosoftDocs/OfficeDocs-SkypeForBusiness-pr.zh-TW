@@ -1,5 +1,5 @@
 ---
-title: 患者 app 概述
+title: 病患應用程式概觀
 author: jambirk
 ms.author: jambirk
 manager: serdars
@@ -7,6 +7,8 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
@@ -15,14 +17,14 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: Microsoft 團隊患者 app EHR 整合
-ms.openlocfilehash: d3869d8646a417ec681a48321610b7cfffd50e5a
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 8d5723f90fe56c2af342f1cfd76e3ab9bde04c60
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569287"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827651"
 ---
-# <a name="integrating-electronic-healthcare-records-into-microsoft-teams"></a>將電子醫療保健記錄整合至 Microsoft 團隊
+# <a name="integrating-electronic-healthcare-records-into-microsoft-teams"></a>將電子醫療保健記錄整合至 Microsoft Teams
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
@@ -59,9 +61,9 @@ ms.locfileid: "37569287"
 
 ## <a name="functional-and-technical-requirements"></a>功能與技術需求  
 
-### <a name="authentication"></a>Authentication  
+### <a name="authentication"></a>驗證  
 
-*不支援使用者層級授權*的 App 層級授權是更常受支援的資料轉換方式，也是透過 FHIR 公開連線來 EHR 資料，即使 EHR 系統可能會執行使用者層級授權. 互通性服務（合作夥伴）會取得 EHR 資料的提升存取權，當其公開與適當的 FHIR 資源相同的資料時，不會將授權內容傳到互通性服務消費者（患者 app）與互通性整合[服務] 或 [平臺]。 患者應用程式將無法強制執行使用者層級授權，但卻支援應用程式在患者 app 與互通性合作夥伴的服務之間進行應用程式驗證。
+*不支援使用者層級授權*的 App 層級授權，就是執行資料轉換並公開連線來透過 FHIR 來 EHR 資料的最常見方式，即使 EHR 系統可能會執行使用者層級授權也一樣。 互通性服務（合作夥伴）會取得 EHR 資料的提升存取權，當其公開與適當的 FHIR 資源相同的資料時，不會將授權內容傳到互通性服務消費者（患者 app）與互通性整合[服務] 或 [平臺]。 患者應用程式將無法強制執行使用者層級授權，但卻支援應用程式在患者 app 與互通性合作夥伴的服務之間進行應用程式驗證。
 
 應用程式至應用程式驗證模型的描述如下：
 
@@ -77,7 +79,7 @@ ms.locfileid: "37569287"
     {"resourceType"： "CapabilityStatement"，。
         .
         .
-        "rest"： [{] mode "：" server "，" security "： {" extension "： [{" extension "： [{] url"： "" token "，" valueUri "：https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/token" ""}，{"url"： "授權"，"valueUri"https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/authorize： ""}]，"url"http://fhir-registry.smarthealthit.org/StructureDefinition/oauth-uris： "" ""： [{"system"： "http://hl7.org/fhir/ValueSet/restful-security-service" "" ""： "OAuth"} ] } ] }, .
+        "rest"： [{] mode "：" server "，" security "： {" extension "： [{" extension "： [{" url "：] 權杖"，"valueUri"： "https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/token" "}，{" url "：" 授權 "，" valueUri "：https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/authorize" ""} "，" url "http://fhir-registry.smarthealthit.org/StructureDefinition/oauth-uris：" "" ""，"服務"： [{"："http://hl7.org/fhir/ValueSet/restful-security-service"" "code"： "OAuth"} "" ""}，）。
                 .
                 .
             } ] }
@@ -94,7 +96,7 @@ ms.locfileid: "37569287"
 
 * * *
 
-合作夥伴服務提供患者 app 的 client_id 和 client_secret，透過合作夥伴端的驗證註冊入口網站加以管理。 合作夥伴服務提供端點以使用用戶端認證流程來要求存取權杖。 成功的回應必須包含 token_type、access_token 和 expires_in 參數。
+合作夥伴服務提供患者 app 的 client_id 和 client_secret，透過合作夥伴端的驗證註冊入口網站加以管理。 合作夥伴服務提供端點以使用用戶端認證流程來要求存取權杖。 成功的回應必須包含 token_type、access_token 及 expires_in 參數。
 
 ### <a name="routing-mapping-aad-tenant-to-the-provider-endpoint"></a>路由：將 AAD 租使用者對應至提供者端點
 
@@ -164,6 +166,6 @@ ms.locfileid: "37569287"
 
     ![患者 app 伺服器設定的螢幕擷取畫面](../../media/patients-server.png)
 
-5. 開始使用 app 從 FHIR Server/EHR 搜尋患者，並將它們新增到清單中，並在問題無法使用時[提供意見反應給我們](mailto:Teamsforhealthcare@service.microsoft.com?subject=Microsoft%20Teams%20Patients%20App%20feedback)。 此外，若要建立完整的驗證版本的患者 app-> FHIR 伺服器流程，請透過舊版的 Microsoft 團隊進行醫療保健產品工程，並在前面提到的電子郵件要求來闡明需求，我們將根據上述 FHIR 介面檔中所述的驗證需求，協助為您啟用此功能。  
+5. 開始使用 app 從 FHIR Server/EHR 搜尋患者，並將它們新增到清單中，並在問題無法使用時[提供意見反應給我們](mailto:Teamsforhealthcare@service.microsoft.com?subject=Microsoft%20Teams%20Patients%20App%20feedback)。 此外，若要建立完整的經過驗證的患者應用程式（> FHIR 伺服器流程），請透過舊版的 Microsoft 團隊進行醫療保健產品工程，以 FHIR 介面檔中上述所述的驗證需求為您啟用此功能。  
 
 

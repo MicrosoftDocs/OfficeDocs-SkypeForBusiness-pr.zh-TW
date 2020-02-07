@@ -12,17 +12,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
 description: 瞭解免費的虛擬使用者授權。
-ms.openlocfilehash: ebf98f852610dd5acfea2bcd65daca7b7541b5aa
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 0b580a396dedfab81ab207fa0b1d6fee5caa705b
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571166"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826511"
 ---
 # <a name="phone-systemvirtual-user-license"></a>電話系統-虛擬使用者授權 
 
@@ -74,4 +76,4 @@ Contoso 應該考慮重新設計自動語音應答及呼叫佇列系統。 如�
 
 [自動語音應答和通話佇列服務更新](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Auto-Attendant-and-Call-Queues-Service-Update/ba-p/564521)
 
-[管理 Microsoft 團隊中的資源帳戶](../manage-resource-accounts.md)
+[在 Microsoft Teams 中管理資源帳戶](../manage-resource-accounts.md)

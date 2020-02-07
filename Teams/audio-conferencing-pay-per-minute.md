@@ -18,16 +18,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Licensing
 description: 除了標準的音訊會議每個使用者授權之外，使用 Microsoft 大量授權的組織也可以選擇為其組織啟用音訊會議功能的每分鐘付款優惠。
-ms.openlocfilehash: 7f0f0775ea6d3beef7dcd590f04c40845448a71b
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: ac73ca3396e5fff9e9146206a8f9e2008d9065f7
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41684136"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826281"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>音訊會議按分鐘計費
 

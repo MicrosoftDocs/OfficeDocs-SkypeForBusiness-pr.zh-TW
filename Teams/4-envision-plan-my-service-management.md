@@ -10,18 +10,20 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: 規劃運營角色並指派品質擁護者來提供和維護高品質的部署。
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bab0026b14514114f9c6e975046ee561dade6f40
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: c44d1b35c19abb224f40bf71c81c61b91967c182
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516759"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825151"
 ---
 # <a name="plan-my-service-management"></a>規劃我的服務管理
 
@@ -36,7 +38,7 @@ ms.locfileid: "37516759"
 服務管理包括管理 Microsoft 團隊端到端的所有活動與程式。 服務管理的部分元件（由 Office 365 服務本身所組成的基礎結構元件）是 Microsoft 的責任，而客戶對其使用者負責管理團隊、網路和的各個方面。其提供的端點。
 如需團隊服務管理的客戶責任以及其與 underpin 使用者體驗品質的關鍵元件的完整討論，請參閱[規劃服務管理和品質](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide)。
 
-三個品質元件（即 Office 365 服務、網路及端點）的![三個品質元件]圖表，(media/plan-my-service-management-image1.png "以及服務管理如何與這三個元件重迭。")
+![三個品質元件的圖表](media/plan-my-service-management-image1.png "這三個元件的 [品質]--[Office 365 服務]、[網路] 和 [端點] 的圖表，以及服務管理如何與這三個元件重迭。")
 
 <!--ENDOFSECTION-->
 
@@ -91,7 +93,7 @@ ms.locfileid: "37516759"
 
 [品質體驗檢查指南] 中有一組活動，可針對改善使用者體驗的主要區域評估並提供修正指導方針，如下圖所示。
 
-[![品質體驗] 中要檢查的主要區域圖例查看](media/plan-my-service-management-image2.png "品質體驗檢查期間要檢查的重要區域：音訊、可靠性及使用者問卷調查結果。")
+![在品質體驗檢查期間檢查的主要區域圖例](media/plan-my-service-management-image2.png "在品質體驗檢查期間要檢查的主要區域：音訊、可靠性及使用者問卷結果。")
 
 透過不斷評估與修正本檔中所述的區域，您可以減少對使用者經驗造成負面影響的可能性。 在部署中遇到的大多數使用者體驗問題，都可以分為下列類別：
 

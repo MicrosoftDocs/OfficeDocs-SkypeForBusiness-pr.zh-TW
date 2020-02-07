@@ -16,17 +16,18 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords:
-- ms.teamsadmincenter.callqueues.overview"
+f1.keywords:
+- CSH
 ms.custom:
+- ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: 瞭解如何在 Microsoft 團隊中設定雲端通話佇列的電話系統。
-ms.openlocfilehash: 2744a989225098b47814c53cb089de7a0ee6cfe4
-ms.sourcegitcommit: a47bd5194672820380d30722b60779ce2d8a8f78
+ms.openlocfilehash: 0447bf7aa8d935b214dc9db7c9a730d27fbb0b23
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "41664348"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824784"
 ---
 # <a name="create-a-cloud-call-queue"></a>建立雲端通話佇列
 

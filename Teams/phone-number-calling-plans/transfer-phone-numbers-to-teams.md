@@ -8,6 +8,8 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
+f1.keywords:
+- NOCSH
 ms.collection:
 - M365-voice
 appliesto:
@@ -15,18 +17,18 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: ''
-ms.openlocfilehash: 9794a1690fb0cbbe529816c9d8a5f855d393c6f2
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 53c17cdd3a1b6726e0219147e4dadd1cba7b25ff
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925629"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827931"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>將電話號碼轉移至 Microsoft 團隊
 
 使用 Microsoft 團隊系統管理中心中的移植嚮導，將您的電話號碼從目前的服務提供者轉移至團隊。 在您將電話號碼移植至團隊後，Microsoft 就會成為您的服務提供者，並將您的電話號碼帳單。
 
-在您開始之前，我們建議您查看 [[埠順序](port-order-overview.md)] 中的資訊。 如果您有電話撥入式會議橋接、自動語音應答或其他服務號碼、免付費電話號碼，或您要轉移給小組的999使用者（訂閱者）電話號碼，請參閱[管理您的電話號碼[組織](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)] 下載正確的表單，並將其傳送給我們。
+在您開始之前，我們建議您查看 [[埠順序](port-order-overview.md)] 中的資訊。 如果您有電話撥入式會議橋接、自動語音應答或其他服務號碼、免付費電話號碼，或是要傳送給小組的999使用者（訂閱者）電話號碼，請參閱[管理貴組織的電話號碼](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)以下載正確的表單，並傳送給我們。
 
   > [!NOTE]
   > 我們處理的埠訂單只會在美國營業日傳送電話號碼，而不是在公用假日或週末進行。
@@ -89,7 +91,7 @@ ms.locfileid: "37925629"
 
 ## <a name="related-topics"></a>相關主題
 
-- [什麼是埠順序？](port-order-overview.md)
+- [什麼是移轉訂單？](port-order-overview.md)
 - [通話方案所用的不同類型的電話號碼](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [管理貴組織的電話號碼](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [緊急通話條款及條件](../emergency-calling-terms-and-conditions.md)

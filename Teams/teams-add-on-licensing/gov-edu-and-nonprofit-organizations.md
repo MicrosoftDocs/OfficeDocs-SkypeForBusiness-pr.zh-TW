@@ -12,17 +12,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
 description: '瞭解 .GOV、EDU 和非盈利性組織方案的附加元件授權和功能。 '
-ms.openlocfilehash: d63145cf6a8c761b4454fff212bd0e593ac8f395
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 9d33cbb7367a1608b0ff7c9fdd05447a98edba8b
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571210"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826681"
 ---
 # <a name="gov-edu-and-non-profit-organizations"></a>.GOV、EDU 和非盈利性組織
 
@@ -30,8 +32,8 @@ ms.locfileid: "37571210"
 
 |**團隊功能**|**可供 .GOV （GCC）使用**|**可供 .GOV （非 GCC）**|**可供 EDU**|**可供非盈利性組織使用**|
 |:-----|:-----|:-----|:-----|:-----|
-|音訊會議  <br/> |是的  <br/> |是的  <br/> |是的  <br/> |是的  <br/> |
-|Office 365 Phone 系統  <br/> |是的  <br/> |是的  <br/> |是的  <br/> |是的  <br/> |
-|Office 365 通話方案  <br/> |是的  <br/> |是的  <br/> |是的  <br/> |是的  <br/> |
+|音訊會議  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
+|Office 365 Phone 系統  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
+|Office 365 通話方案  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
    
 請參閱這篇博客文章：[高級 Office 365 功能現已提供給美國政府社區雲端客戶](https://www.microsoft.com/en-us/microsoft-365/blog/2017/01/17/advanced-office-365-capabilities-now-available-to-u-s-government-community-customers/)。

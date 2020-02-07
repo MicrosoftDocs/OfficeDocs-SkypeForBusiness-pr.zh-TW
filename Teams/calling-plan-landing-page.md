@@ -9,21 +9,23 @@ ms.service: msteams
 audience: admin
 ms.collection:
 - M365-voice
+f1.keywords:
+- NOCSH
 ms.reviewer: crowe
 search.appverid: MET150
 description: '[通話方案] 登陸頁面'
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d27169d5f65fb693ce49453f7e7c965f867198ad
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: c62ce8a891244920257623aea9a62859161a129f
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925584"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825191"
 ---
 # <a name="which-calling-plan-is-right-for-you"></a>哪一個通話方案適合您？ 
 
-您已完成[快速入門](get-started-with-teams-quick-start.md)。 您已在整個組織中利用[聊天、團隊、頻道、& 應用程式](deploy-chat-teams-channels-microsoft-teams-landing-page.md)來推出小組。 也許您已將[會議 & 會議](deploy-meetings-microsoft-teams-landing-page.md)已部署。 現在您已經準備好要新增雲端語音工作負載，而您決定使用 Microsoft 手機系統搭配通話方案來連線至公用的交換電話網絡（PSTN）。 
+您已完成[快速入門](get-started-with-teams-quick-start.md)。 您已使用[聊天、團隊、頻道和應用程式](deploy-chat-teams-channels-microsoft-teams-landing-page.md)在組織中推出 Teams。 也許您已將[會議 & 會議](deploy-meetings-microsoft-teams-landing-page.md)已部署。 現在您已經準備好要新增雲端語音工作負載，而您決定使用 Microsoft 手機系統搭配通話方案來連線至公用的交換電話網絡（PSTN）。 
 
 本文說明通話方案的核心部署決定，以及您可能想要根據貴組織的需求設定的其他考慮。 您也應該閱讀[Microsoft 團隊中的雲端語音](cloud-voice-landing-page.md)，以取得關於 Microsoft 雲端語音服務的詳細資訊。
 
@@ -32,7 +34,7 @@ ms.locfileid: "37925584"
 
 下列文章提供有關部署和使用 Microsoft 通話方案的詳細資訊：
 
-- [Office 365 中的電話系統](what-is-phone-system-in-office-365.md)
+- [Office 365 電話系統](what-is-phone-system-in-office-365.md)
 - [Office 365 的通話方案](calling-plans-for-office-365.md)
 - [設定通話方案](set-up-calling-plans.md)
 

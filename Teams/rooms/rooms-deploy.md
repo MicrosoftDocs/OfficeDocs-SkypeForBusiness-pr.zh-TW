@@ -7,18 +7,20 @@ audience: ITPro
 ms.reviewer: sohailta
 ms.topic: quickstart
 ms.service: msteams
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: 閱讀本文以瞭解如何部署 Microsoft 團隊聊天室。
-ms.openlocfilehash: 0511455516c1dd5ac011a15344bc8a576006fc70
-ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
+ms.openlocfilehash: 3cc8df810989163b622a96dc5f16c8aa883447cd
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "41628259"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825961"
 ---
 # <a name="deployment-overview"></a>部署概觀
 
@@ -61,7 +63,7 @@ Microsoft 團隊聊天室的部署實質上會分解成幾個階段：
 
 根據您針對 Microsoft 團隊聊天室部署所決定啟用的共同作業案例，您必須判斷您指派給您的每個 Microsoft 團隊聊天室服務帳戶所指派的功能和功能。
 
-| **例子** | **描述** | **Microsoft 團隊聊天室服務帳戶功能** |
+| **例子** | **說明** | **Microsoft 團隊聊天室服務帳戶功能** |
 |---------- |------------- | --- |
 | 互動式會議            | 使用語音、影片和螢幕共用;將 Microsoft 團隊會議室製作成 bookable 資源                     | 針對商務用 Skype 啟用，已啟用 Exchange （資源信箱） |
 | 電話撥入式會議            | 使用電話撥入式會議座標，從 Microsoft 團隊聊天室主控台*直接*開始進行會議 | 已啟用音訊會議                                          |

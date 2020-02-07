@@ -10,21 +10,22 @@ layout: LandingPage
 ms.date: 10/31/2018
 audience: admin
 ms.service: msteams
-ms.custom: Adopt
+ms.custom:
+- ms.teamsadmincenter.dashboard.helparticle.adoption
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 f1.keywords:
-- ms.teamsadmincenter.dashboard.helparticle.adoption
+- CSH
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d534bfd865de1f12fb902b4a7ce1a2a0f5edef6a
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: c0adc30b5bfbdefc5936d94ec476943616fb2449
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695698"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827161"
 ---
 # <a name="adopt-microsoft-teams"></a>採納 Microsoft 團隊
 
@@ -158,7 +159,7 @@ ms.locfileid: "41695698"
                     </div>
                     <div class="cardText">
                         <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase1">開始使用</a></h3>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-get-started">開始使用</a></p>
+                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-get-started">快速入門</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-understand-teams-and-channels">了解小組和頻道</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-your-first-teams">建立您的第一個應用程式</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-assess-readiness">評估文化與組織就緒性</a></p>

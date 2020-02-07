@@ -17,17 +17,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Legal
 hideEdit: true
 description: '瞭解適用于英國商務用 Skype 的通話方案（PSTN 通話方案）準則、取得協助的方式，以及如何提交投訴及解決糾紛的方法。 '
-ms.openlocfilehash: 99ca68670d743279ded96df26adb1f09d66e8b12
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: a811b3a49310a81d5cc62502fe210367b5ac6905
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695458"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824941"
 ---
 # <a name="calling-plans-in-office-365---code-of-practice-for-the-united-kingdom-uk"></a>Office 365 通話方案-英國的練習準則（英國）
 

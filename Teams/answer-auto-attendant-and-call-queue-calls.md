@@ -1,5 +1,5 @@
 ---
-title: 直接從小組應答自動回應及呼叫佇列通話
+title: 直接從 Teams 回答自動語音應答和通話佇列的通話
 ms.reviewer: waseemh
 author: LolaJacobsen
 ms.author: lolaj
@@ -9,6 +9,8 @@ ms.date: 09/20/2018
 ms.topic: conceptual
 ms.service: msteams
 description: 描述雲端自動語音應答和通話佇列，並說明您可以如何在團隊中回答這些通話。
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -16,14 +18,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a508aeb6c5e1359c9b3432834f2f0f3d141aea2d
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 8e864e32409730373d98263215b0bcc35d9b404d
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516792"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825311"
 ---
-<a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>直接從小組應答自動回應及呼叫佇列通話
+<a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>直接從 Teams 回答自動語音應答和通話佇列的通話
 ===========================================================
 
 團隊使用者可以從雲端自動語音應答並直接從其小組用戶端呼叫佇列來接收和接聽通話。 針對團隊使用者，現在可以使用自動語音應答功能，而且通話佇列功能是在預覽中。 

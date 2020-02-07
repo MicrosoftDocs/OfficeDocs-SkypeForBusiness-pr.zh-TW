@@ -18,16 +18,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Audio Conferencing
 description: 尋找每個國家或地區的電話撥入式會議語言，以及指派的區域性識別碼（en-us、da-深、de 等）
-ms.openlocfilehash: c9f4abcb7a4149baa1d3de7d51f45cfc75d0be06
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 061458585854cf9a80113dce9877779806c7c418
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41684126"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826221"
 ---
 # <a name="audio-conferencing-supported-languages"></a>音訊會議的支援語言
 

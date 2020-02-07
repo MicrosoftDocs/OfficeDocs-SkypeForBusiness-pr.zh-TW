@@ -17,16 +17,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Audio Conferencing
 description: 瞭解您需要的專案，以及會議召集人可以使用團隊撥出給其他人的方式。
-ms.openlocfilehash: 5a4a3c0d90bbf07e336dd9ec32c61f99192389a5
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: f0c8ca62c5e985ecae4bc5a0f373a95b0d1ce69e
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41680470"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826971"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>從 Microsoft 團隊會議撥出，讓其他人可以加入
 

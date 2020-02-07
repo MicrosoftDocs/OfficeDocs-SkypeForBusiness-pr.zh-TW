@@ -1,5 +1,5 @@
 ---
-title: 將患者 app 連線至 Azure API 以進行 FHIR
+title: 將病患應用程式連線至 Azure API for FHIR
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -7,6 +7,8 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 MS.collection:
 - M365-collaboration
@@ -15,14 +17,14 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: 瞭解如何將 Microsoft 團隊中的患者 app 連線至 Azure API for FHIR （快速醫療保健互通性資源）。
-ms.openlocfilehash: e532aa9f9fbecb472db63a1ddad4cd71518a8041
-ms.sourcegitcommit: d7fab927e96954f294f28dfb33c0889f736b3ab5
+ms.openlocfilehash: 92c5b033215b0e5520b0321042d52579dfb019bf
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/22/2020
-ms.locfileid: "41259088"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827721"
 ---
-# <a name="connect-the-patients-app-to-azure-api-for-fhir"></a>將患者 app 連線至 Azure API 以進行 FHIR
+# <a name="connect-the-patients-app-to-azure-api-for-fhir"></a>將病患應用程式連線至 Azure API for FHIR
 
 請依照下列步驟，允許 Microsoft 團隊中的患者 app 存取 FHIR 實例的 Azure API。 本文假設您有在您的租使用者中設定和設定[FHIR 實例的 AZURE API](https://azure.microsoft.com/services/azure-api-for-fhir/) 。  如果您還沒有在租使用者中建立 FHIR 實例的 Azure API，請參閱[快速入門：使用 azure 入口網站部署 FHIR 的 AZURE api](https://docs.microsoft.com/azure/healthcare-apis/fhir-paas-portal-quickstart)。
 

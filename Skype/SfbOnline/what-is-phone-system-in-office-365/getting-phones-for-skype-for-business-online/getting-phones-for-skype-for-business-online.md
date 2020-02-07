@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: '從 Polycom、HP 和 Mitel，以及所需的授權，瞭解哪些手機可搭配商務用 Skype 使用。 '
-ms.openlocfilehash: e852d54a1189ed8de7561e64809b1fc782fa644a
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: f779462ad6def85cee43139d450d19b5d70195a3
+ms.sourcegitcommit: a61d33fe15982bd8a34f1759b6b89be5aa699fe3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692248"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "41784760"
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>取得商務用 Skype Online 的電話
 
@@ -51,7 +51,7 @@ Microsoft 是與 Polycom、Yealink 和 AudioCodes 密切合作與共同作業，
 |Yealink  <br/> |SIP-TXXG 商務用 Skype 版本  <br/> |
 |AudioCodes  <br/> |UCXXXHDEG (SfB)  <br/> |
    
-如需有關 Polycom 手機的詳細資訊，請參閱[Microsoft 的語音方案](http://www.polycom.com/voice-conferencing-solutions/desktop-ip-phones.html)。
+如需有關 Polycom 手機的詳細資訊，請參閱[Poly 文件庫](https://documents.polycom.com/category/voice)。
   
 如需有關 Yealink 手機的詳細資訊，請參閱[商務用 SKYPE IP 電話](http://www.yealink.com/products_list_10.html#filter2)。
   

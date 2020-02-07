@@ -9,15 +9,17 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: 瞭解如何透過您的行銷活動的主要股東、業務成果、成功措施及管理，為 Microsoft 團隊建立變更管理戰略。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c2a01203246f56984f001acbfb4cb889e969c8f
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 8e6c07271caecd2c84301930f0b71aa6eda0011a
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516980"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824971"
 ---
 <a name="create-a-change-management-strategy-for-microsoft-teams"></a>建立 Microsoft 團隊的變更管理策略
 =======================================================

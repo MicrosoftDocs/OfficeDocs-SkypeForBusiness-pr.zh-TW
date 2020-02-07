@@ -9,6 +9,8 @@ ms.service: msteams
 audience: admin
 ms.reviewer: Rowille
 description: 在 Microsoft 團隊中，將音訊會議帶入 IT 管理員的影片。
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -16,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2ab70883c3ac98b6a67fe7f1685d161ffc7d5960
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: 2bdfc195f492c5c9c88a7daeb3a950dfb190ef83
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37516739"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825491"
 ---
 <a name="videos-audio-conferencing-in-microsoft-teams"></a>影片： Microsoft 團隊中的音訊會議
 =============================================

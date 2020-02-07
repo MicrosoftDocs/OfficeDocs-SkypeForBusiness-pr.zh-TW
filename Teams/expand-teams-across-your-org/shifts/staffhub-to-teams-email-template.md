@@ -9,18 +9,20 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: 您可以使用此電子郵件範本，在您組織中的使用者傳達從 Microsoft StaffHub 到 Microsoft 團隊的轉場。
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a7b78940590d6c81422f09002685d7911055dfc4
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 1baea026c70d3132e1753e334341b89e261a1493
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37639058"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825771"
 ---
 # <a name="staffhub-to-teams-sample-email-to-users"></a>StaffHub 至團隊範例電子郵件給使用者
 
@@ -58,5 +60,5 @@ ms.locfileid: "37639058"
 
 ## <a name="related-topics"></a>相關主題
 
-- [規劃將您的 StaffHub 團隊移至團隊中的倒班](plan-to-move-staffhub-teams-to-shifts-in-teams.md)
-- [將 Microsoft StaffHub 小組移至團隊中](move-staffhub-teams-to-shifts-in-teams.md)
+- [規劃將 StaffHub 小組移動至 Teams 中的 Shifts](plan-to-move-staffhub-teams-to-shifts-in-teams.md)
+- [將 StaffHub 小組移動至 Teams 中的 Shifts](move-staffhub-teams-to-shifts-in-teams.md)

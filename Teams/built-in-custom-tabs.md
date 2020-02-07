@@ -10,23 +10,25 @@ audience: admin
 ms.collection:
 - M365-collaboration
 ms.reviewer: lucarras
+f1.keywords:
+- NOCSH
 search.appverid: MET150
 description: 瞭解如何使用內建和自訂索引標籤來包含交談、檔案、地圖等功能。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a4a07a8e6469de812dfc440119e5f53bcf393c03
-ms.sourcegitcommit: dc70fd277d9542d831741e14dba9ae22367210ae
+ms.openlocfilehash: e542b1370cdd03fb0c39c5bf471df58ec0c7e989
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/09/2019
-ms.locfileid: "39909359"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824691"
 ---
 <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>在 Microsoft 團隊中使用內建和自訂索引標籤
 ==================================================
 
 索引標籤可讓小組成員存取頻道內或聊天中的專用空間中的服務與內容。 這可讓小組直接使用工具和資料，並在頻道或聊天的內容內，提供有關工具和資料的交談。
 
-擁有者和小組成員可以在頻道、私人聊天和群組聊天中新增索引標籤，以協助整合其雲端服務。 您可以新增索引標籤，協助使用者輕鬆存取及管理他們所需的資料，或與最多的資料互動。 這可以是 Power BI 報表、儀表板，或甚至是[Microsoft 串流](https://go.microsoft.com/fwlink/?linkid=855785)視頻通道，您可以在這裡發佈訓練影片。
+擁有者與團隊成員可以在頻道、私人聊天和群組聊天中新增索引標籤，協助整合其雲端服務。 您可以新增索引標籤，協助使用者輕鬆存取及管理他們所需的資料，或與最多的資料互動。 這可以是 Power BI 報表、儀表板，或甚至是[Microsoft 串流](https://go.microsoft.com/fwlink/?linkid=855785)視頻通道，您可以在這裡發佈訓練影片。
 
 ![索引標籤中各種內容的三個螢幕擷取畫面。](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image4.png)
 
@@ -53,7 +55,7 @@ ms.locfileid: "39909359"
 
 ## <a name="develop-custom-tabs"></a>開發自訂索引標籤
 
-除了內建索引標籤之外，您還可以設計及開發自己的索引標籤，以整合至小組或與其他群組共用。 如需詳細資訊，請參閱我們的[開發人員檔](/microsoftteams/platform/tabs/what-are-tabs)。
+除了內建索引標籤之外，您還可以設計及開發自己的索引標籤，以整合至小組或與其他群組共用。 如需詳細資訊，請參閱我們的[開發人員文件](/microsoftteams/platform/tabs/what-are-tabs)。
 
 ![Microsoft 團隊中 [自訂] 索引標籤範例的螢幕擷取畫面。](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image5.png)
 

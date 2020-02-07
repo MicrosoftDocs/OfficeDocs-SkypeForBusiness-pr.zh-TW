@@ -7,6 +7,8 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
@@ -15,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: Microsoft 團隊患者 app EHR 整合
-ms.openlocfilehash: 179cd031b6e32ee3ed32a6d3be1fa4afaae68cc2
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: d7acea1002d80a397469d242cfbbb1adfba07a24
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570366"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827801"
 ---
 # <a name="dstu2-interface-specification"></a>DSTU2 介面規格
 
@@ -80,11 +82,11 @@ ms.locfileid: "37570366"
     回應： {"resourceType"： "患者"，"id"： "<患者 id>"，）。
       .
       .
-      "name"： [{"use"： "官方"，"prefix"： ["Mr"]，"family"： ["Chau"]，"已指定"： ["Hugh"]}]、"識別碼"： [{"use"： [{"："http://hl7.org/fhir/v2/0203{"" ""： "{" a，"" "" "，" code "：" Mr "}]}，" 性別 "：" 男 "" "" "" 性別 "：" 男 "，" 出生日期 "：" 1957-06-05 1234567"，" careProvider "： [{" 顯示 "：" Jane Doe "}]，}
+      "name"： [{"use"： "官方"，"prefix"： ["Mr"]，"" 稱謂 "： [" Chau "]，" family "： [" Hugh "]}]，" 識別碼 "： [{" 使用 "：" 官方 "，" 類型 "： {" code "： [{" （"MRhttp://hl7.org/fhir/v2/0203"} ""，"的值"： "1234567"}]，"性別"： "男"，"生日"： "1957-06-05"，"careProvider"： [{"顯示"： "Jane Doe"}]，}
 
 * * *
 
-資源搜尋在/Patient/_search 及下列參數中使用 POST 方法：
+資源搜尋使用/Patient/_search 的 POST 方法，以及下列參數：
 
 1. 標識號
 2. [家人]：包含 = （搜尋姓氏中包含值的所有患者。）
@@ -105,7 +107,7 @@ ms.locfileid: "37570366"
 
 * * *
 
-    要求：文章 <fhir-伺服器>/Patient/_search 要求主體：給定 = hugh&系列 = chau
+    要求：文章 <fhir-伺服器>/Patient/_search 要求主體：給定 = hugh&家族 = chau
     
     回應： {"resourceType"： "套裝"，"id"： "<束-識別碼>"，。
       .
@@ -142,7 +144,7 @@ ms.locfileid: "37570366"
 
     要求：取得 <fhir-伺服器>/Observation？患者 =<患者 id>&_sort:d esc = 日期&類別 = 重要標誌
     
-    回應： {"resourceType"： "套裝"，"id"： "<束-識別碼>"，"輸入"： "searchset"，"總計"：20，"entry"： [@ "，" id "：" <資源 id> "，" "類別"： {"編碼"： [{code "：" 重要識別碼 "}]，}，" code "： {" 編碼"： [{" 系統 "："http://loinc.org"，" 程式碼 "：" 39156-5 "，" 顯示 "：" bmi "}]，}，" effectiveDateTime "：" 2009-12-01 "，" valueQuantity "： {" value "：34.4，" "裝置"： "千克/m2"，"system"http://unitsofmeasure.org： "" ""，"code"： "千克/m2"}}，}，。
+    回應： {"resourceType"： "套裝"，"id"： "<束-識別碼>"，"輸入"： "searchset"，"總計"：20，"專案"： [{"資源"： {"resourceType"： "觀測"，"id"： "<資源 id>"，"" 類別 "： {" 編碼 "： [{code"： "重要-符號"}]，}，"code"： {"編碼"： [{"系統"： "http://loinc.org" "，" code "：" 39156-5 "，" 顯示 "：" bmi "}]，}，" effectiveDateTime "：" 2009-12-01 "，" valueQuantity "： {" 值 "：34.4，" 單位 "：" kg/m2 "，" 系統 "：http://unitsofmeasure.org" ""，"code"： "千克/m2"}}，}，。
         .
         .
       ] }
@@ -173,7 +175,7 @@ ms.locfileid: "37570366"
 
     要求：取得 <fhir-server>/Condition？患者 =<患者 id>&_count = 10
     
-    回應： {"resourceType"： "套裝"，"id"：> <"searchset"，"total"，"類型"： ""，"總計"：1，"entry"： [{"資源"： {"resourceType"： "Condition"，"id"： "<資源 id>"，"代碼"： {"code"： [{              "系統"： "http://snomed.info/sct" "，" code "：" 386033004 "，" 顯示 "：" Neuropathy （nerve 損壞） "}]}，" dateRecorded "：" 2018-09-17 "，" 嚴重度 "： {" 編碼 "： [{" system "："http://snomed.info/sct"，" code "：" 24484000 "，" 顯示 "：" 嚴重 "}"}}，}]}
+    回應： {"resourceType"： "套裝"，"id"： "<套件-識別碼>"，"類型"： "searchset"，"total"：1，"條目"： [{"resource"： {"resourceType"： "Condition"，"識別碼"： "<資源 id>"，"code"： {"code"： [{"系統"： "http://snomed.info/sct"，"code"： "386033004"，"顯示"： "Neuropathy （nerve 損失）"}]}，"dateRecorded"： "2018-09-17"，"嚴重性"： {"code"： [{"system "："http://snomed.info/sct"，" code "：" 24484000 "，" 顯示 "：" 嚴重 "}"}}，}]}
 
 * * *
 
@@ -202,7 +204,7 @@ ms.locfileid: "37570366"
 
     要求：取得 <fhir-伺服器>/Encounter？患者 =<患者 id>&_sort:d esc = 日期&_count = 1
     
-    回應： {"resourceType"： "捆綁式"，"類型"： "searchset"，"總計"：1，"entry"： [{"資源" .. {"resourceType"： "遇到"，"id"： "<資源識別碼>"，"識別碼"： [{"使用"： "官方"，"值"： "<id>" "）]，" status "： "到貨時間"，"類型"： [{"a"} "： [{" 顯示 "：" 約會 "}]，}]，" 患者 "： {" 參考 "：" 患者/<患者-id> "}，" period "： {" start "：" 09/17/2018 1:00:00 PM "}，" location "： [{             "位置"： {"顯示"： "診所-ENT"}，} "}}]}
+    回應： {"resourcetype"： "捆綁式"，"類型"： "searchset"，"總計"：1，"entry"： [{"資源"：]，"：" <資源識別碼> "，" 識別碼 "： [{" 使用 "：" 官方 "，" 值 "："<id>"}]，" 狀態 "： [[]，" 類型 "： [{" 編碼 "： [{" 顯示 "：" 約會 "}]，}]，" 患者 "： {" 參考 "：" 患者/<患者-識別碼> "}，" period "： {" start "：" 09/17/2018 1:00:00 PM "}，" location "： [{             "位置"： {"顯示"： "診所-ENT"}，} "}}]}
 
 * * *
 
@@ -234,7 +236,7 @@ ms.locfileid: "37570366"
 
     要求：取得 <fhir-server>/AllergyIntolerance？患者 =<患者 id>
     
-    回應： {"resourceType"： "套件"，"識別碼"： "<束-識別碼>"，"類型"： "searchset"，"總計"：1，"條目"： [{"：]，" entry "：" AllergyIntolerance "，" id "：" <資源 id> "，" recordedDate "：" 2018-09-17T07：00：00.000Z "，" 物質 "： {" 文字 "：" Cashew 螺母 "}，" 狀態 "：「已確認」，" 反應 "： [{" 物質 "： {" 文字 "：" Cashew 螺母 allergenic 解壓 Injectable 產品 "}，" manifestati在 "： [{" 文字 "：" Anaphylactic 反應 "}]}]}]}
+    回應： {"resourceType"： "套裝"，"id"： "> <searchset"，"" 類型 "：" "，" 總計 "：1，" 條目 "： [{" 資源 "： {" resourceType "：" AllergyIntolerance "，" id "：" <資源識別碼> "，" recordedDate "：" 2018-09-17T07：00： 00.000 Z "，" 物質 "： {" 文字 "：" Cashew 螺母 "}，" 狀態 "：" 已確認 "，" 反應 "： [{" 物質 "： {" 文字 "：" Cashew 螺母 allergenic 解壓 Injectable 產品 "}，" manifestati在 "： [{" 文字 "：" Anaphylactic 反應 "}]}]}]}
 
 * * *
 
@@ -266,7 +268,7 @@ ms.locfileid: "37570366"
 
     要求：取得 <fhir-server>/MedicationOrder？患者 =<患者 id>&_count = 10
     
-    回應： {"resourceType"： "套裝"，"id> <"： "searchset"，"total"：1，"MedicationOrder"，"[總計]：1，" entry "： [{"，"id"： "<資源 id>"，"dateWritten"： "2018-09-17"，"medicationCodeableConcept "： {" 文字 "：" Lisinopril 20 MG 口頭平板電腦 "}，" prescriber "： {「顯示"： "Jane Doe"}，"dosageInstruction"： [{"文字"： "1 每日"}]}}]}
+    回應： {"resourceType"： "套裝"，"id"： "<套件-識別碼>"，"類型"： "searchset"，"total"：1，"條目"： [{"resource"： {"resourceType"： "MedicationOrder"，"識別碼"： "<資源 id>"，"dateWritten"： "2018-09-17"，"medicationCodeableConcept"： {"文字"： "Lisinopril 20 MG，[]：" prescriber "： {" 顯示 "：" Jane Doe "}，" dosageInstruction "： [{" 文字 "：" 1 天 "}"}}]}
 
 * * *  
 
@@ -288,7 +290,7 @@ ms.locfileid: "37570366"
 
     要求：取得 <fhir-server>/Coverage？患者 =<患者 id>
     
-    回應： {"resourceType"： "套裝"，"類型"： "searchset"，"總計"：1，"entry"： [{"資源"：]，"條目"： "覆蓋率"，"id"： "<資源識別碼>"，"資料記錄"： "無主要保險"，"訂閱者"： {"參考資料"，"<患者-識別碼> "}}}}
+    回應： {"resourceType"： "套裝"，"輸入"： "searchset"，"總計"：1，"條目"： [{"資源"： {"resourceType"： "覆蓋範圍"，"id"： "<資源識別碼>"，"資料記錄"： "沒有主要保險業"，"訂閱者"： {"參考資料"： "患者/<患者 id>"}}}]}
 
 * * *
 

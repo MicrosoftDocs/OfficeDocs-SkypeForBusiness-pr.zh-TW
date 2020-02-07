@@ -12,17 +12,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
 description: '瞭解附加元件授權、功能，以及如何購買 Office 365 商務版 Premium 方案。 '
-ms.openlocfilehash: 4e9c71da15938bb35956dbbeb2f35288e900623d
-ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
+ms.openlocfilehash: b51724524f56fe534c95ede85bca7535ab1be396
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41111697"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826561"
 ---
 # <a name="office-365-business-premium"></a>Office 365 商務進階版
 

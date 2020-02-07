@@ -9,6 +9,8 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: 瞭解如何移動 Microsoft StaffHub 小組，並安排資料在 Microsoft 團隊中的變化。
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
@@ -16,12 +18,12 @@ ms.collection:
 - SPO_Content
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4a14c7cbca85be266347cd6777ea1108cc63d065
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 4060dae11ad90793c6124b1b37971b15437caf39
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992840"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825751"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>將 Microsoft StaffHub 小組移至 Microsoft 團隊中的倒班
 
@@ -163,10 +165,10 @@ $InvitedUsersObject | SELECT * | export-csv InvitedUsers.csv -NoTypeInformation
 
 在您的加入戰略中，請為使用者提供訓練與指導方針，以協助他們熟悉團隊。 與使用者共用下列資源，讓他們知道要取得團隊用戶端、訓練及支援的位置：
 
-- [團隊網頁用戶端](https://teams.microsoft.com)
+- [Teams Web 用戶端](https://teams.microsoft.com)
 - [桌面和行動用戶端下載連結](https://teams.microsoft.com/downloads)
-- [團隊訓練影片](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
-- [團隊說明文件](https://support.office.com/teams)
+- [Teams 訓練影片](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
+- [Teams 說明文件](https://support.office.com/teams)
 
 如需部署團隊及促進團隊採納的指導方針，請參閱[如何推出](../../How-to-roll-out-teams.md)團隊並[採用團隊](../../adopt-microsoft-teams-landing-page.md)。
 
@@ -372,7 +374,7 @@ $res.Result.Error.Innererror
   ```  
 
 ## <a name="related-topics"></a>相關主題
-- [如何推出 Microsoft 團隊](../../How-to-roll-out-teams.md)
+- [如何推出 Microsoft Teams](../../How-to-roll-out-teams.md)
 - [終止對 Microsoft StaffHub 的支援](microsoft-staffhub-to-be-retired.md)
 - [在 Microsoft 團隊中為您的組織管理倒班應用程式](manage-the-shifts-app-for-your-organization-in-teams.md)
 - [StaffHub PowerShell 參考](https://docs.microsoft.com/powershell/module/staffhub/?view=staffhub-ps)

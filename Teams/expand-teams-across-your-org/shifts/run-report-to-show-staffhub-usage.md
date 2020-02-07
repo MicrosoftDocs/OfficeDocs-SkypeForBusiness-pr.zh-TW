@@ -1,5 +1,5 @@
 ---
-title: 執行報表以顯示使用中的 StaffHub 使用量
+title: 執行報告以顯示作用中 StaffHub 的使用情況
 author: LanaChin
 ms.author: v-lanac
 ms.reviewer: lisawu
@@ -9,20 +9,22 @@ ms.service: msteams
 audience: admin
 search.appverid: MET150
 description: 瞭解如何執行報表以取得貴組織中作用中 StaffHub 使用者的清單。
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 49091f7d8ada565adea61bf8219c6da828358893
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: fe7851e57cd6d812d0b8904668ca5fd67fd5999d
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569660"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826691"
 ---
-# <a name="run-a-report-to-show-active-staffhub-usage"></a>執行報表以顯示使用中的 StaffHub 使用量
+# <a name="run-a-report-to-show-active-staffhub-usage"></a>執行報告以顯示作用中 StaffHub 的使用情況
 
 > [!IMPORTANT]
 > 2019年12月31日生效，Microsoft StaffHub 將停用。 我們正在將 StaffHub 功能組建至 Microsoft 團隊。 今天，小組包含針對排程管理的倒班應用程式，而其他功能則會隨著時間推移而推出。 StaffHub 將會停止針對2019年12月31日的所有使用者使用。 任何試圖開啟 StaffHub 的人，都會顯示一則訊息，讓他們下載小組。 若要深入瞭解，請參閱[Microsoft StaffHub 停用](microsoft-staffhub-to-be-retired.md)。  

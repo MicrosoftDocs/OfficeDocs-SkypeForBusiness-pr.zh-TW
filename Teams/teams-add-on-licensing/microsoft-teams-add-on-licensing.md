@@ -13,17 +13,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
 description: 瞭解附加元件授權、您可以使用每個授權所取得的功能、如何為您的產品購買，以及如何將您現有的運營商與他們搭配使用。 您可以取得 Office 365、通訊點數和通話方案的定價與方案詳細資料。
-ms.openlocfilehash: 6b3f850980db71e1347802dd0ab59c38c46e4ebc
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: e7a4853bcb5cb1522f185f8f66ccb0931cdc2be2
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37571199"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826631"
 ---
 # <a name="microsoft-teams-add-on-licensing"></a>Microsoft 團隊附加元件授權
 
@@ -49,7 +51,7 @@ Microsoft 團隊授權是專為您提供最大限度的彈性。 例如，在一
 
 |||
 |:-----|:-----|
-|**功能** <br/> |**描述** <br/> |
+|**功能** <br/> |**說明** <br/> |
 |**音訊會議** <br/> |有時候貴組織中的人員必須使用電話撥入團隊會議，而不是使用其電腦。 在這種情況下，請使用 [音訊會議] 功能。  <br/> 若要瞭解您的國家或地區是否有可用的音訊會議，請參閱[音訊會議與通話方案的國家/地區可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。 <br/> 如果您要尋找多少成本，請參閱[音訊會議的價格](https://products.office.com/microsoft-teams/online-meeting-solutions)。  <br/> |
 |**您的會議撥入存取的免費電話號碼，以及從會議撥出的電話號碼，透過撥打世界各地的任何電話號碼來新增人員** <br/> |如果您要新增音訊會議，建議您[設定通訊點數](../set-up-communications-credits-for-your-organization.md)。 <br/> |
 |**電話系統** <br/> |PBX 是企業中的電話系統。 Office 365 中的 [電話系統] 是託管電話語音。 它提供傳統與創新的 PBX 功能，但沒有複雜且昂貴的裝置。 [以下是您在 Office 365 中使用電話系統所取得的內容](../here-s-what-you-get-with-phone-system.md)。  <br/> 如果您要尋找多少成本，請參閱[電話系統](https://products.office.com/microsoft-teams/voice-calling)。  <br/> |

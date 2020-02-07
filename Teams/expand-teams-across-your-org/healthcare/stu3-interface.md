@@ -7,6 +7,8 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
@@ -15,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: Microsoft 團隊患者 app EHR 整合
-ms.openlocfilehash: 836c28f339a3936f03315b005c0eedfc49e0f2ba
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 6c7638436f35a1e460c176964dfc63624985b12e
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569240"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827631"
 ---
 # <a name="stu3-interface-specification"></a>STU3 介面規格
 
@@ -71,7 +73,7 @@ ms.locfileid: "37569240"
 2. 名稱。前置詞
 3. [GeneralPractitioner]-GeneralPractitioner 參照應包含在患者資源中（僅顯示欄位）
 
-資源搜尋在/Patient/_search 及下列參數中使用 POST 方法：
+資源搜尋使用/Patient/_search 的 POST 方法，以及下列參數：
 
 1. 標識號
 2. [家人 =] （搜尋姓氏中包含值的所有患者）
@@ -92,16 +94,16 @@ ms.locfileid: "37569240"
 
 * * *
 
-    要求：文章 <fhir-伺服器>/Patient/_search 要求主體：給定 = ruth&系列 = 黑色
+    要求：文章 <fhir-伺服器>/Patient/_search 要求正文：指定 = ruth&家族 = 黑色
     
-    回應： {"resourceType"： "套裝"，"id"： "<束-識別碼>"，"" 元 "： {" lastUpdated "：" 2019-01-14T23：44： 45.052 + 00： [{"}，" 類型 "：" searchset "，" 總計 "：1，" link "： [{" 關聯 "：" self "，" url "： <fhir-伺服器>/Patient/_search"}]，"entry"： [{"fullUrl "： <fhir-server>/Patient/<患者 id>"，"資源"： {"resourceType"： "患者"，"id"： "<患者 id>"，"元"： {"versionId"： "1"，"lastUpdated"： "2017-10-18T18：32： 37.000 + 00： 00"}，"文字"： {"狀態"： "generated"，"div"： "<div>？        <p>黑色 Ruth</p>？      </div>"}，" 識別碼 "： [{" use "：" 一般 "，" type "： {" 編碼 "： [{] 系統"： "http://hl7.org/fhir/v2/0203" "，" code "：" MR "，" 顯示 "：" 醫學記錄號碼 "，" userSelected "： false}]，" 文字 "：" 醫療記錄號碼 "}，" 系統 "：http://hospital.smarthealthit.org" ""，"值"： "1234567"}]，"" active "： true，"名稱 "： [{" use "：" 官方 "，" family "：" 黑色 "，" 指定 "： [" Ruth "，" C. "
-    [}]，"電訊"： [{"系統"： "phone"，"值"： "800-599-2739"，"使用"： "home"}，{[system]： "phone"，"值"： "800-808-7785"，"使用"： "[mobile"}，{"system"： "電子郵件"，"性別"： "女"，"生日"： "1951-08-23"，"位址 "： [{" 使用 "：" home "，" line "： [" 26 南部 RdApt 22 "]，" 市 "：" Sapulpa "，" 州 "：" OK "，" 郵遞區號 "：" 74066 "，" 國家 "：" USA "}]}，" search "： {" mode "：" match "}}"}
+    回應： {"resourceType"： "套裝"，"id"： "<束-識別碼>"，"中繼資料"： {"lastUpdated"： "2019-01-14T23：44： 45.052 + 00：" "，" type "：" searchset "，" 總計 "：1，" link "： [{" 關聯 "：" self "，" url "： <fhir-server>/Patient/_search"}]，"專案"： [{"fullUrl"： <fhir-伺服器>/Patient/<患者 id> "，" 資源 "： {" resourceType "：" 患者 "，" id "：" <患者 id> "，" meta "： {" versionId "：" 1 "，" lastUpdated "：" 2017-10-18T18：32： 37.000 + 00： 00 "}，" 文字 "： {" status "：" generated "，" div "："<div>？        <p>黑色 Ruth</p>？      </div>"}，" 識別碼 "： [{" 使用 "：" 一般 "，" 輸入 "： {" code "： [{" 系統 "："http://hl7.org/fhir/v2/0203""，"code"： "MR"，"顯示"： "醫學記錄號碼"，"userSelected"： false}]，"文字"： "醫學記錄號碼"}，"system"：http://hospital.smarthealthit.org""，"值"： "1234567"}]，"active"： true，"name"： [{"use" "" 官方 "，" family "： [" Ruth "，" C]。
+    [}]，"電信"： [{[系統]： "phone"，"值"： "800-599-2739"，"使用"： "home"}，{"系統"： "phone"，"值"： "800-808-7785"，"使用"： "mobile"}，{"system"： "？"，"value"： "ruth.black@example.com"}]，"性別"： "女"，"生日"： "1951-08-23"，"位址"： [{"使用"： "home"，"line"： ["26 南部 RdApt 22"]，"城市"： "Sapulpa"，"state"： "確定"，"郵遞區號"： "74066"，"國家/地區"： "USA"}]}，"search"： {"mode"： "match"}}]}
 
 * * *
 
     要求：取得 <fhir-server>/Patient/<患者 id>
     
-    回應： {"resourceType"： "患者"，"id"： "<患者 id>"，"識別碼"： [{"use"： "一般"，"類型"： {"編碼"： [{"："http://hl7.org/fhir/v2/0203"" "，" code "：" MR "，}"，"文字"： "醫學記錄號碼"}，"name"： "1234567"}]，"name"： [{"use"： "官方"，"family "：" 凱倫 "，" 給定 "： [" 楊 "，" X]。 [}]，"性別"： "男"，"出生日期"： "1925-12-23"，}
+    回應： {"resourceType"： "患者"，"id"： "<患者-識別碼>"，"識別碼"： [{"use"： "一般"，"類型"： {"編碼"： [{"系統"： "http://hl7.org/fhir/v2/0203"，"code"： "MR"，} "，" 文字 "：" 醫療記錄號碼 "}，" name "：" 1234567 "}"，"name"： [{"use"： "官方"，"family"： "凱倫"，"name"： ["楊"，"X"。 [}]，"性別"： "男"，"出生日期"： "1925-12-23"，}
 
 * * *
 
@@ -123,7 +125,7 @@ ms.locfileid: "37569240"
 資源搜尋使用 [取得] 方法及下列參數：
 
 1. 患者 =\<患者 id>
-2. _sort =-date
+2. _sort =-日期
 3. 類別（我們將查詢 "category = 重要符號"）來檢索重要符號清單。
 
 請參閱此通話範例：
@@ -132,7 +134,7 @@ ms.locfileid: "37569240"
 
     要求：取得 <fhir-伺服器>/Observation？患者 =<患者 id>&類別 = 重要標誌
     
-    回應： {"resourceType"： "套裝"，"識別碼"： "<套件識別碼>"，"類型"： "searchset"，"total"：20，"專案"： [{"資源"： {"resourceType"： "觀察"，"id"： "<資源 id>"，"" 類別 "： [{" 編碼 "： [{" system "："http://hl7.org/fhir/observation-category"，" code "："重要-符號 "}]，}]，" code "： {" 編碼 "： [{" "系統"：http://loinc.org""，"程式碼"： "8867-4"，"顯示"： "heart_rate"}]}，"effectiveDateTime"： "2009-04-08T00：00： 00" "：72.0，" [unit "：" {節拍}/min "，" system "："http://unitsofmeasure.org"，}}}，。
+    回應： {"resourceType"： "套裝"，"id"： "<束-識別碼>"，"類型"： "searchset"，"總計"：20，"專案"： [{"資源"： {"resourceType"： "觀測"，"識別碼"： "<資源 id>"，"類別"： [{"http://hl7.org/fhir/observation-category"，"" 類別 "：" "" "，" code "：" 重要-符號 "}]，}" "程式碼"： {"編碼"： [{"系統"： "http://loinc.org" "，" code "：" 8867-4 "，" 顯示 "：" heart_rate "}]}，" effectiveDateTime "：" 2009-04-08T00：00： 00-06： 00 "，" valueQuantity "： {" 值 "：72.0，" unit "：" {節拍}/min "，" system "："http://unitsofmeasure.org"，}}}，。
         .
         .
       ] }
@@ -163,7 +165,7 @@ ms.locfileid: "37569240"
 
     要求：取得 <fhir-server>/Condition？患者 =<患者 id>&_count = 10
     
-    回應： {"resourceType"： "套裝"，"id"： "<束-識別碼>"，"輸入"： "searchset"，"總計"：2，"條目"： [{"資源"： {"resourceType"： "Condition"，"id"： "<資源識別碼>"，"id"： "資源識別碼"： [{"system"： "http://snomed.info/sct"，"code"： "185903001"，"顯示 "：" 需要 influenza 免疫 "，}]}，" 嚴重度 "： {" 編碼 "： [{" 系統 "：http://snomed.info/sct" "，" code "：" 24484000 "，" 顯示 "：" 嚴重 "}]}，" assertedDate "：" 2018-04-04 "}}，）。
+    回應： {"resourceType"： "套件"，"識別碼"： "<套件-識別碼>"，"類型"： "searchset"，"總計"：2，"entry"： [{"資源"： {"resourceType"： "Condition"，"id"： "<資源 id>"，"代碼"： {"code"： [{"系統"：]http://snomed.info/sct"，" 程式碼 "：" 185903001 "，" 顯示 "：" 需要 influenza 免疫 "，}]}，" 嚴重度 "： {" 編碼 "： [{" 系統 "：http://snomed.info/sct" "，" code "：" 24484000 "，" 顯示 "：" 嚴重 "}]}，" assertedDate "：" 2018-04-04 "}}，）。
         .
         .
       ] }
@@ -219,7 +221,7 @@ ms.locfileid: "37569240"
 
     要求：取得 <fhir-server>/AllergyIntolerance？患者 =<患者 id>
     
-    回應： {"resourceType"： "捆綁> 式"，"id <"： "searchset"，"總計"：1，"輸入"： ""，"total"：1，"entry"： "AllergyIntolerance"，"id"： "<資源-id>"，"clinicalStatus"： "active"，""rificationStatus "：" 已確認 "，" code "： {" code "： [{"： ""http://rxnav.nlm.nih.gov/REST/Ndfrt""，"code"： "N0000175503"，"顯示"： "sulfonamide antibacterial"，}]，"文字"： "sulfonamide antibacterial "}，" assertedDate "：" 2018-01-01T00：00： 00-07： 00 "，" 反應 "： [{" 表現形式]： [{"編碼"： [{"系統"：http://snomed.info/sct"" "" "271807003"，"顯示"： "皮膚 rash"，}]，"文字"： "皮膚 rash"}]，}]}}]}
+    回應： {"resourceType"： "套裝"，"id"： "<套件-識別碼>"，"類型"： "searchset"，"total"：1，"條目"： [{"resource"： {"resourceType"： "AllergyIntolerance"，"識別碼"： "<資源識別碼>"，"clinicalStatus"： "active"，"verificationStatus"： "已確認"，"code"： "http://rxnav.nlm.nih.gov/REST/Ndfrt"，"code"： "N0000175503"，"顯示"： "sulfonamide antibacterial"，} "，" 文字 ".." sulfonamide antibacterial "}，" assertedDate "：" 2018-01-01T00：00： 00-2007： 00 "，" [{]： [{""： [{"編碼"： [{http://snomed.info/sct"271807003"，"顯示"： "外觀 rash"，}]，"文字"： "外觀 rash"}]，}]}}]}
 
 * * *
 

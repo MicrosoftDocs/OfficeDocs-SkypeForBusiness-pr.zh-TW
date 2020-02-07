@@ -10,20 +10,22 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: 小組服務管理所需的工作和活動，包括監控服務健康情況，以及評估並確保網路品質與使用方式。
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 61d0bc220de81b67c27d21d3ea22c7974a4c84d1
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: a63ce726a3a09fb820a6008aa0edf50a0e88ea95
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37517084"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826981"
 ---
-# <a name="operate-my-service"></a>操作我的服務
+# <a name="operate-my-service"></a>營運我的服務
 
 本文將為您的組織成功操作雲端語音服務的需求進行概覽。 透過正常運作您的雲端語音服務，您可以確定您為貴組織提供優質且可靠的體驗。
 
@@ -39,7 +41,7 @@ ms.locfileid: "37517084"
 
 本指南中的任務和活動會分為八個類別，如下列圖表所示。 在下列各節中，您將會展開這些類別中的每一種。
 
-![描述任務與活動類別清單的圖表]，此圖表說明(media/operate-my-service-image1.png "小組服務管理所包含的任務與活動類別清單。圖表也會說明服務管理主要是客戶任務。")
+![描述任務與活動類別清單的圖表](media/operate-my-service-image1.png "說明小組服務管理所包含之任務與活動類別清單的圖表。圖表也會說明服務管理主要是客戶任務。")
 
 
 <table>
@@ -191,8 +193,8 @@ Microsoft 團隊是雲端服務。 如此一來，就能夠快速提供新的功
 
 |       變更就緒性       | 狀態值 |                      備忘稿/後續步驟                      |    擁有者     |
 |------------------------------|--------|------------------------------------------------------------|--------------|
-|     需要變更      |  是的   | 系統管理員只需要為已識別的使用者啟用錄製。 | 支援小組 |
-| 技術就緒已完成 |  是的   |                                                            | 支援小組 |
+|     需要變更      |  是   | 系統管理員只需要為已識別的使用者啟用錄製。 | 支援小組 |
+| 技術就緒已完成 |  是   |                                                            | 支援小組 |
 |                              |        |                                                            |              |
 
 **使用者變更管理** 
@@ -200,9 +202,9 @@ Microsoft 團隊是雲端服務。 如此一來，就能夠快速提供新的功
 | 變更就緒性 | 狀態值   | 備忘稿/後續步驟 | 擁有者 |
 |----|----|----|-----|
 | 使用者影響                  | 低溫                  |                                                                 |                        |
-| 需要使用者就緒      | 是的                  |                                                                 |                        |
-| 通訊就緒         | 不                   | 通訊電子郵件已起草（待定審閱）。            | 溝通小組    |
-| 訓練準備               | 是的                  | 訓練將會利用現有的 Microsoft 影片。                | 訓練小組          |
+| 需要使用者就緒      | 是                  |                                                                 |                        |
+| 通訊就緒         | 否                   | 通訊電子郵件已起草（待定審閱）。            | 溝通小組    |
+| 訓練準備               | 是                  | 訓練將會利用現有的 Microsoft 影片。                | 訓練小組          |
 
 **狀態軌**
 
@@ -251,7 +253,7 @@ Microsoft 團隊是雲端服務。 如此一來，就能夠快速提供新的功
 
 #### <a name="required-permissions"></a>所需許可權
 
-系統管理中心的使用方式報告可由獲指派**全域管理員**角色的人員存取，或由產品特定的系統管理員角色（**Exchange 管理員**、**商務用 Skype 系統管理員**、 **SharePoint系統管理員**）。
+系統管理中心的使用方式報告可由獲指派**全域管理員**角色的人員或產品特定的系統管理員角色（**Exchange 系統**管理員、**商務用 Skype 系統**管理員、 **SharePoint 系統管理員**）存取。
 
 此外，對於需要存取報表的使用者，也可以使用 [**報表閱讀**者角色]，但不要執行任何需要系統管理員層級許可權的工作。 您指派這個角色來為任何擁有者的人提供使用方式報告，以監控和推動採用。 如需其他可用角色的詳細資訊，請參閱[關於 Office 365 系統管理員角色](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)。
 
@@ -316,7 +318,7 @@ NPS 是一種索引，範圍從–100到100，以衡量客戶對於建議公司�
 
 -   從1到6是 Detractors：不滿意可能會損害您服務並妨礙增長的客戶。
 
-![說明 nps 縮放](media/operate-my-service-image2.png "此圖表的圖表示範 nps 的比例。它顯示0到6的排名是 detractors，7到8是無源，9到10是支援者。")
+![說明 NPS 縮放比例的圖表](media/operate-my-service-image2.png "此圖表示範 NPS 的縮放比例。它顯示0到6的排名是 detractors，7到8是無源，9到10是支援者。")
 
 雖然基 NPS 編號很有用，但您可以從分析使用者的意見來取得最大的價值。 他們將協助您瞭解使用者為何（或不會）建議團隊給其他人。 這些意見反應可提供寶貴的意見反應，以協助專案或服務管理小組瞭解提供品質服務所需的調整。
 
@@ -354,16 +356,16 @@ NPS 是一種索引，範圍從–100到100，以衡量客戶對於建議公司�
 | 監視 Office 365 IPs 與 Url                                | 使用提供的[RSS](https://go.microsoft.com/fwlink/p/?linkid=236301)摘要來監控[Office 365 url 和 IP 位址範圍](https://aka.ms/o365ips)的任何變更，並啟動適用網路群組的變更要求。                                                                                                                                | 日常                  |               |
 | 根據 Office 365 IPs 和 Url 的變更來更新網路 | 更新適用的網路元件（防火牆、proxy 伺服器、Vpn、用戶端防火牆等等），以反映[Office 365 url 與 IP 位址範圍](https://aka.ms/o365ips)的變更。                                                                                                                                                              | 視需要              |               |
 | 提供建築物資料                                          | 針對品質擁護者（或相關的股東）提供更新的子網資訊，以確保[CQD 中的建築物定義](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)保持在最新狀態。 | 視需要              |               |
-| 實施變更                                               | 在網路上實施變更，以支援變更團隊的業務與技術需求。 網路元素可以包含：<ul><li>道</li><li>疑難排解</li><li>有線和 Wi-fi 網路</li><li>網際網路連線與 ExpressRoute</li><li>DN</li></ul>     | 視需要              |               |
+| 實施變更                                               | 在網路上實施變更，以支援變更團隊的業務與技術需求。 網路元素可以包含：<ul><li>道</li><li>疑難排解</li><li>有線和 Wi-fi 網路</li><li>網際網路連線與 ExpressRoute</li><li>DNS</li></ul>     | 視需要              |               |
 | 網路監視與報告                               | 使用您現有的協力廠商網路管理工具和您的網路供應商提供的報告功能，監控網路端以結束可用性、利用率和容量趨勢。 使用趨勢資料進行網路容量規劃。                                                                                                            | 每日、每週、每月 |               |
 | 容量規劃                                              | 與團隊服務擁有者共同作業，以瞭解變更可能增加額外容量變更的業務與技術需求。                                | 視需要              |               |
-| 網路疑難排解與修正                        | 協助團隊技術人員、服務擁有者和主要的專案關係人，進行疑難排解並修正與團隊連線、可靠性或品質相關的問題。 網路元素可以包含：<ul><li>道</li><li>疑難排解</li><li>有線和 Wi-fi 網路</li><li>網際網路連線與 ExpressRoute</li><li>DN</li></ul>    | 視需要              |               |
+| 網路疑難排解與修正                        | 協助團隊技術人員、服務擁有者和主要的專案關係人，進行疑難排解並修正與團隊連線、可靠性或品質相關的問題。 網路元素可以包含：<ul><li>道</li><li>疑難排解</li><li>有線和 Wi-fi 網路</li><li>網際網路連線與 ExpressRoute</li><li>DNS</li></ul>    | 視需要              |               |
 | 災害復原與高可用性測試                | 在網路基礎結構上執行一般的高可用性和災害復原測試，以確保它符合小組服務的規定服務等級目標（Slo）或服務層級協定（Sla）。                                                                                                                                                  | 次                |               |
 
 
 ### <a name="references"></a>提到 
 
-[Office 365 Url 與 IP 位址範圍](https://aka.ms/o365ips)
+[Office 365 URL 與 IP 位址範圍](https://aka.ms/o365ips)
 
 [建立資料架構](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#tenant-data-file-format-and-building-data-file-structure)
 
@@ -397,7 +399,7 @@ NPS 是一種索引，範圍從–100到100，以衡量客戶對於建議公司�
 
 [上傳租使用者資料資訊](turning-on-and-using-call-quality-dashboard.md#upload-tenant-data-information)
 
-[經驗品質回顧指南](https://aka.ms/qerguide)
+[體驗品質的審查指南](https://aka.ms/qerguide)
 
 <!--ENDOFSECTION-->
 
@@ -452,17 +454,17 @@ Wi-fi 驅動程式可能會造成問題。 舉例來說，驅動程式可能會�
 
 ### <a name="references"></a>提到 
 
-[Office 365 Url 與 IP 位址範圍](https://aka.ms/o365ips)
+[Office 365 URL 與 IP 位址範圍](https://aka.ms/o365ips)
 
 [為 Microsoft 團隊取得用戶端](get-clients.md)
 
 [Microsoft 團隊社區](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams)
 
-[Microsoft 團隊的已知問題](known-issues.md)
+[Microsoft Teams 的已知問題](known-issues.md)
 
 [驗證 Microsoft 團隊的服務健康情況](service-health.md)
 
-[客戶支援部門-系統管理協助](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+[連絡商務產品的客戶支援 - 系統管理說明](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 [連絡人 Premier 支援](https://support.microsoft.com/premier/contacts)
 
@@ -470,7 +472,7 @@ Wi-fi 驅動程式可能會造成問題。 舉例來說，驅動程式可能會�
 
 <!--ENDOFSECTION-->
 
-## <a name="manage-teams"></a>管理團隊
+## <a name="manage-teams"></a>管理 Teams
 
 部署 Microsoft 團隊服務之後，您必須執行數個與其管理相關的活動。 活動範圍包括從管理服務和個別使用者到容量規劃，以及提供授權與電話號碼。 下列各節涵蓋一些常見的管理工作。
 
@@ -493,19 +495,19 @@ Wi-fi 驅動程式可能會造成問題。 舉例來說，驅動程式可能會�
 
 [指派或變更使用者的緊急位址](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user)
 
-[新增、變更或移除組織的緊急位置](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization)
+[新增、變更或移除貴組織的緊急位置](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization)
 
-[建立及管理撥號方案](create-and-manage-dial-plans.md)
+[建立和管理撥號對應表](create-and-manage-dial-plans.md)
 
 #### <a name="common-tasks-for-audio-conferencing"></a>音訊會議的一般工作
 
 [變更音訊會議橋接器的設定](change-the-settings-for-an-audio-conferencing-bridge.md)
 
-[變更音訊會議橋的電話號碼](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)
+[變更音訊會議橋接器的電話號碼](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)
 
 [管理使用者的音訊會議設定](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
 
-[重設音訊會議 PIN](reset-the-audio-conferencing-pin-in-teams.md)
+[重設音訊會議 PIN 碼](reset-the-audio-conferencing-pin-in-teams.md)
 
 ### <a name="license-management"></a>授權管理
 
@@ -544,11 +546,11 @@ Wi-fi 驅動程式可能會造成問題。 舉例來說，驅動程式可能會�
 
 <!--ENDOFSECTION-->
 
-## <a name="quality-of-experience-review-guide"></a>經驗品質回顧指南
+## <a name="quality-of-experience-review-guide"></a>體驗品質的審查指南
 
 [[體驗品質檢查指南](https://aka.ms/qerguide)] 包含一組活動，可針對改善使用者體驗的重要區域評估並提供修正指導方針，如下所示。
 
-![在體驗品質檢查期間查看要檢查的區域圖表](media/plan-my-service-management-image2.png "： [音訊]、[可靠性] 和 [使用者問卷調查] 結果。")
+![在體驗品質檢查期間檢查的區域圖表](media/plan-my-service-management-image2.png "體驗品質檢查期間要檢查的主要區域：音訊、可靠性及使用者問卷結果。")
 
 透過不斷評估並修正指南中所述的區域，您可以減少對使用者經驗造成負面影響的可能性。 在部署中遇到的大多數使用者體驗問題，都可以分為下列類別：
 

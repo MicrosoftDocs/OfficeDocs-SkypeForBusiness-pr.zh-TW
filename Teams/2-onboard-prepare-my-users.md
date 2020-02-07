@@ -10,20 +10,22 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: 透過定義您的目標、瞭解驗收的外觀，以及提供訓練與支援，建立規劃，以促進使用者採用。
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 026edba5c85fa010ee583b501d1ecc1f18308518
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 7e4404d27b1e3b7e32d6c4b53558fd17e30ef4ae
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516914"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825081"
 ---
-# <a name="prepare-my-users"></a>準備使用者
+# <a name="prepare-my-users"></a>準備我的使用者
 
 本文將提供準備使用者使用雲端語音服務的需求。 只要正確地準備使用者，您就能確定貴組織的價值是最大的。
 
@@ -46,7 +48,7 @@ ms.locfileid: "37516914"
 
 下列影像是客戶從商務用 Skype 升級至團隊之遠景價值聲明的範例。
 
-![兩欄表格顯示構想與值](media/prepare-my-users-new-image1.png "兩欄表格（含視覺）-為什麼我們這麼做？（組織階層）在左邊，還有價值-對我而言是什麼？右側的（使用者層級）")
+![顯示遠景與價值的兩欄式表格](media/prepare-my-users-new-image1.png "有視覺的雙欄表格-為什麼我們這麼做？（組織階層）在左邊，還有價值-對我而言是什麼？右側的（使用者層級）")
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>決策點</td><td><ul><li>您是否已將福利與價值明確地表述給您的使用者，以便為這項新的解決方案帶來其購買權？</li></ul></td></tr>
@@ -126,7 +128,7 @@ ms.locfileid: "37516914"
 
 下列影像是角色表格的範例。
 
-[![值] 資料表列出 [角色詳細資料](media/prepare-my-users-image2.png "] 表格，其中列出角色及其共同角色，以及通訊與共同作業解決方案相依性。[總經理] 角色會醒目提示，包含有關設定檔的詳細資料（在生活中是星期幾），以及功能、裝置和訓練管理需求。")
+![[值] 資料表列出角色詳細資料](media/prepare-my-users-image2.png "列出角色及其共同角色，以及通訊與共同作業解決方案相依性的表格。[總經理] 角色會醒目提示，包含有關設定檔的詳細資料（在生活中是星期幾），以及功能、裝置和訓練管理需求。")
 
 針對每個使用案例，請與您的專案小組討論下列專案：
 

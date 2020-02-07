@@ -7,6 +7,8 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: v-rifer
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 search.appverid: MET150
 MS.collection:
@@ -14,12 +16,12 @@ MS.collection:
 description: 瞭解如何使用 Microsoft 團隊系統管理中心中的 [團隊 PSTN 分鐘數] 報告，以查看在您組織的當月期間消耗的分鐘數。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f67bc5e20d9e1f23e63b0b4c78b3e198d4b30a40
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 0fa9b8f4a676c1e937fed02eabc0e7cd4acd5325
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37639474"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827321"
 ---
 # <a name="microsoft-teams-pstn-minute-pools-report"></a>Microsoft 團隊 PSTN 分鐘池報告
 
@@ -35,8 +37,8 @@ Microsoft [小組系統管理中心] 的 [團隊 PSTN 分鐘數] 報告可讓您
 
 |圖說文字 |說明  |
 |--------|-------------|
-|**sr-1**   |每個報告都有產生的日期。 報告通常會反映來自啟用時間的24到48小時延遲時間。 |
-|**pplx-2**   |按一下功能（授權）來查看該功能的活動。 |
+|**1**   |每個報告都有產生的日期。 報告通常會反映來自啟用時間的24到48小時延遲時間。 |
+|**2**   |按一下功能（授權）來查看該功能的活動。 |
 |**3**   |X 軸是 [國家] 或 [地區]。 Y 軸是分鐘數。 <br>將游標暫留在圖表上的橫條圖上，即可查看該使用位置的活動。  |
 |**4**   |您可以按一下圖例中的專案，篩選您在圖表上看到的內容。 例如，按一下 [**未使用**的、**國內的使用者**、不**使用****資料**] 或 [國際]，只會看到與每個專案相關的資訊。 |
 |**500**   |此表格提供依功能和使用位置來細分的分鐘數。 <ul><li>[**國家或地區**] 是使用位置。 </li><li>[**功能描述**] 是通話使用之授權的描述。  您可能會在此報告中看到的功能描述包括： <ul><li>國內和國際通話方案（1200國內分鐘）</li><li>國內和國際通話方案（3000國內分鐘）</li><li>國內和國際通話方案（600國際分鐘）</li></ul></li><br><li>[**總分鐘**數] 是指月份中可用的總分鐘數。</li><li>**使用的分鐘**數是每個月使用的分鐘數</li> <li>[**可用分鐘**數] 是月份剩餘的分鐘數。</li><li>**功能**是通話使用的授權。 您可能會看到的授權包括：<ul><li>**MCOPSTNPP** -通訊點數</li><li>**MCOPSTN1** -國內通話方案（3000美元/1200 分歐盟方案）</li><li>**MCOPSTN2** -國際通話方案</li><li>**MCOPSTN5** -國內通話方案（120最小通話方案）</li><li>**MCOPSTN6** -國內通話方案（240最小通話方案）</li><li>**MCOMEETADD** -音訊會議</li><li>**MCOMEETACPEA** -每分鐘付款音訊會議</li></ul></li> </ul> 若要在表格中查看您想要的資訊，請務必將資料行新增至資料表。|

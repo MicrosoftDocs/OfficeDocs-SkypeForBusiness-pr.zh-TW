@@ -10,16 +10,18 @@ audience: admin
 search.appverid: MET150
 description: 瞭解您必須針對直接路由及增強緊急服務的位置路由設定的網路設定。
 localization_priority: Normal
+f1.keywords:
+- NOCSH
 ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 74cf743d41f37cca2b8df4f25cc8f5328db6d776
-ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
+ms.openlocfilehash: 9c24444e9beb38aa1d0888e415d9dca3a46e249a
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "39615883"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824951"
 ---
 # <a name="network-settings-for-cloud-voice-features-in-microsoft-teams"></a>Microsoft 團隊中雲端語音功能的網路設定
 

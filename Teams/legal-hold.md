@@ -10,15 +10,17 @@ ms.collection:
 - M365-collaboration
 ms.reviewer: anach
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: 瞭解如何使用安全性 & 合規性中心在 Microsoft 團隊使用者或小組中進行法律封存，以及如何根據資料需求來瞭解需要法律封存。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1d6d41c9dba2aa5eff5d0f5d488b7403b54add5e
-ms.sourcegitcommit: 05aab1044fe34a65af18ed7368f9622e08f28f1e
+ms.openlocfilehash: 0526ed2d5b0aa48ab7229c8fa40dbb13413c3139
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "41779218"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41833463"
 ---
 <a name="place-a-microsoft-teams-user-or-team-on-legal-hold"></a>在法律封存上放置 Microsoft 團隊使用者或團隊
 ==================================================

@@ -9,14 +9,16 @@ ms.topic: article
 ms.service: msteams
 ms.collection:
 - M365-collaboration
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 本文討論如何使用 Microsoft 團隊聊天室的 [恢復工具]，讓您用來將已過期的系統變成受支援的狀態。
-ms.openlocfilehash: 3a62256a5e39d93033588ca2be779e9c3b76a4f5
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: 452f5d9d15375bec7ac25c07c865add8a01b0345
+ms.sourcegitcommit: ac922addbc1422b5c41273a2e03196efb2ed7770
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41268841"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41831175"
 ---
 # <a name="use-the-microsoft-teams-rooms-recovery-tool"></a>使用 Microsoft 團隊會議室恢復工具
 
@@ -27,7 +29,7 @@ ms.locfileid: "41268841"
 下載最新的[Microsoft 團隊聊天室安裝套件](https://go.microsoft.com/fwlink/?linkid=851168)，並將其解壓縮至 Microsoft 團隊聊天室裝置可存取的 USB 記憶棒或網路共用。
 
 > [!NOTE]
-> 從 MSI 解壓縮檔案的方式有許多種。 提取所有檔案並保留其目錄結構的任何機制都是可接受的。 其中一個方法是使用命令`msiexec /qn PathToMsi /qb TARGETDIR=PathToTarget`來`PathToMsi`代表 Microsoft 團隊聊天室安裝套件的完整路徑，並`PathToTarget`代表您想要解壓縮檔案的目的檔案夾的完整路徑。
+> 從 MSI 解壓縮檔案的方式有許多種。 提取所有檔案並保留其目錄結構的任何機制都是可接受的。 其中一個方法是使用命令`msiexec /a PathToMsi /qb TARGETDIR=PathToTarget`來`PathToMsi`代表 Microsoft 團隊聊天室安裝套件的完整路徑，並`PathToTarget`代表您想要解壓縮檔案的目的檔案夾的完整路徑。
 
 ## <a name="running-the-tool"></a>執行工具
 

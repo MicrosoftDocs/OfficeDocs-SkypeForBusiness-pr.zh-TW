@@ -1,5 +1,5 @@
 ---
-title: 開始使用適用于醫療保健組織的團隊
+title: 開始使用適用於醫療保健組織的 Teams
 author: jambirk
 ms.author: jambirk
 manager: serdars
@@ -7,6 +7,8 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
@@ -14,15 +16,15 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: 開始使用適用于醫療保健組織的團隊
-ms.openlocfilehash: e8c41249da52ce9a5e19471954de6d71db3df1b3
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+description: 開始使用適用於醫療保健組織的 Teams
+ms.openlocfilehash: f246e0ab5abd412947ceeb871b16f464001b89bb
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569229"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827621"
 ---
-# <a name="get-started-with-teams-for-healthcare-organizations"></a>開始使用適用于醫療保健組織的團隊
+# <a name="get-started-with-teams-for-healthcare-organizations"></a>開始使用適用於醫療保健組織的 Teams
 
 Microsoft 團隊提供許多適用于醫院和其他醫療保健組織的功能。 團隊功能正處於開發階段，可協助醫院進行下列作業：
 
@@ -38,7 +40,7 @@ Microsoft 團隊提供許多適用于醫院和其他醫療保健組織的功能�
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
-Microsoft 團隊現在有一個專門針對醫療保健組織的護理協調解決方案，可協助他們提供最佳的患者治療。 Crux 的 [護理協調] 解決方案是「Microsoft 團隊患者 app」，它是第一個與電子醫療記錄（[EHR）系統](https://www.hl7.org/fhir/)整合的第一個參與方索引標籤 app，可讓您有價值地使用。在內容中將醫療資訊納入 Microsoft 小組，以實現臨床共同作業及通訊。  
+Microsoft 團隊現在有一個專門針對醫療保健組織的護理協調解決方案，可協助他們提供最佳的患者治療。 護理協調解決方案的 crux 是「Microsoft 團隊患者 app」，它是一種與電子健康情況記錄（EHR）系統整合的第一個參與方索引標籤 app，可使用快速的醫療保健互通性資源（[FHIR](https://www.hl7.org/fhir/)）介面將寶貴的醫療資訊帶入 Microsoft 團隊中，以實現臨床共同作業及通訊。  
 
 護理協調方案可以與主要獨立軟體廠商（Isv）進行介面，讓您可以使用現有的健康資料標準（例如 HL7v2 和 FHIR），將患者 app 連線至您的 EHR 系統。 具備下列業界領袖的 Microsoft 合作夥伴，可與團隊建立電子健康情況記錄整合：
 

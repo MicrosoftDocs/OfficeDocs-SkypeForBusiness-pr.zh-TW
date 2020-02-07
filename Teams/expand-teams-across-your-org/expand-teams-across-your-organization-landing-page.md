@@ -7,18 +7,20 @@ author: lanachin
 ms.author: v-lanac
 manager: serdars
 audience: admin
+f1.keywords:
+- NOCSH
 ms.service: msteams
 ms.collection:
 - M365-collaboration
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0efee84379feef72831e2a443a75d6df0f5dc87b
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: fdca563e731c751797f972730270f62ce490eaf0
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570377"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827791"
 ---
 # <a name="expand-microsoft-teams-across-your-organization"></a>在您的組織中展開 Microsoft 團隊
 
@@ -36,7 +38,7 @@ ms.locfileid: "37570377"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>團隊倒班</h3>
+                        <h3>Teams 中的 Shifts</h3>
                     </div>
                 </div>
             </div>
@@ -54,7 +56,7 @@ ms.locfileid: "37570377"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>醫療保健團隊</h3>
+                        <h3>適用於醫療保健的 Teams</h3>
                     </div>
                 </div>
             </div>
@@ -72,7 +74,7 @@ ms.locfileid: "37570377"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>教育團隊</h3>
+                        <h3>Microsoft Teams 教育版</h3>
                     </div>
                 </div>
             </div>
@@ -90,7 +92,7 @@ ms.locfileid: "37570377"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>零售團隊</h3>
+                        <h3>適用於零售業的 Teams</h3>
                     </div>
                 </div>
             </div>
@@ -108,7 +110,7 @@ ms.locfileid: "37570377"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>政府團隊</h3>
+                        <h3>適用於政府機關的 Teams</h3>
                     </div>
                 </div>
             </div>

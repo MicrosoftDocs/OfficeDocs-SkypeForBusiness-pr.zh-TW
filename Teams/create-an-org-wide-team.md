@@ -10,16 +10,18 @@ ms.service: msteams
 search.appverid: MET150
 description: 瞭解如何在團隊中建立和管理組織範圍的團隊。
 localization_priority: Normal
+f1.keywords:
+- NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f291e0c2902754f346dfadb855e4e6bc6fbd573c
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+ms.openlocfilehash: 854294f1ddb8e677037c151e3f7b3cada6e31c16
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 02/06/2020
-ms.locfileid: "41795152"
+ms.locfileid: "41826751"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>在 Microsoft 團隊中建立組織範圍的小組
 

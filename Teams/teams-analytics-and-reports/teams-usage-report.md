@@ -7,6 +7,8 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: svemu
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -14,12 +16,12 @@ ms.collection:
 description: 瞭解如何使用 Microsoft 團隊系統管理中心中的 [團隊使用量] 報告，以取得貴組織中的小組活動的概覽。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7aba4d3e185052d7c4f5399dd9370a05a4a7dc0a
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 3419ecb6c4ef1b976681f626fd8ec567e665d6a5
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570969"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827231"
 ---
 # <a name="microsoft-teams-usage-report"></a>Microsoft 團隊使用量報告
 
@@ -36,8 +38,8 @@ Microsoft 團隊系統管理中心中的 [團隊使用量] 報告可讓您大致
 
 |圖說文字 |說明  |
 |--------|-------------|
-|**sr-1**   |您可以針對過去7天或28天的趨勢，查看 [團隊使用狀況] 活動報告。 |
-|**pplx-2**   |每個報告都有產生此報告的日期。 報告通常會反映來自啟用時間的24到48小時延遲時間。 |
+|**1**   |您可以針對過去7天或28天的趨勢，查看 [團隊使用狀況] 活動報告。 |
+|**2**   |每個報告都有產生此報告的日期。 報告通常會反映來自啟用時間的24到48小時延遲時間。 |
 |**3**   |<ul><li>圖表上的 X 軸是報表所選取的日期範圍。</li> <li> Y 軸是作用中專案或活動的計數。</li> </ul>將游標暫留在代表指定日期的專案或活動點上，即可查看該專案或該日期的活動實例數。|
 |**4**   |您可以按一下圖例中的專案，篩選您在圖表上看到的內容。 例如，按一下 [**總**作用中的使用者]、[**團隊] & [頻道**作用中的使用者]、[作用中**通道**] 或 [**郵件**]，只會看到與每個資訊相關 變更此選取範圍不會變更表格中的資訊。 |
 |**500**   |此表格提供依團隊進行的使用方式細分。 <ul><li>[**團隊名稱**] 是團隊的顯示名稱。 您可以按一下團隊名稱，移至 Microsoft 團隊系統管理中心的小組 [設定] 頁面。 </li> <li>**隱私權**指的是私人小組或公用小組。</li> <li>[作用中的**使用者**] 是團隊中在指定時段內作用中的使用者數目。</li><li>[**來賓**] 是團隊中指定時間內的來賓人數。</li> </li> </ul>請注意，如果使用者帳戶已不存在於 Azure AD 中，則使用者名稱會在資料表中顯示為 "--"。 <br><br>若要在表格中查看您想要的資訊，請務必將資料行新增至資料表。 |

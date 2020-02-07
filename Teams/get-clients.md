@@ -13,16 +13,18 @@ ms.reviewer: harij, rafarhi
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何使用 Microsoft 團隊提供的各種用戶端，包括 web、桌面（Windows 和 Mac），以及行動裝置（Android 與 iOS）。
+f1.keywords:
+- CSH
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ed6b86aacf13b577d45ee982d32fae7565d37314
-ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
+ms.openlocfilehash: e4abae267bf1a8c0c770eebf1c1b12018a6c7deb
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "41628539"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41833763"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>為 Microsoft 團隊取得用戶端 
 
@@ -168,7 +170,7 @@ sudo zypper refresh
 sudo zypper install teams
 ```
 
-## <a name="web-client"></a>網頁用戶端 
+## <a name="web-client"></a>Web 用戶端 
 
 Web 用戶端（[https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)）是一種完整的功能用戶端，可在各種不同的瀏覽器中使用。 網頁用戶端支援使用 webRTC 進行通話與會議，因此在網頁瀏覽器中不需要使用外掛程式或下載來執行團隊。 瀏覽器必須設定為允許協力廠商 cookie。 
 

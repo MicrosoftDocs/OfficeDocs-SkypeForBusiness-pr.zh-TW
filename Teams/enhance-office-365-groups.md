@@ -9,18 +9,20 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 description: 透過邀請 ditribution 清單至團隊、新增已啟用郵件功能的安全性群組等專案，瞭解如何透過 Microsoft 團隊來加強 Office 365 群組。
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fd1769fad917cb942072df4ff58aa1f4fcb91c14
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 99afab167cdc865214f621d9994c3b5d124e98ed
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573041"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41832913"
 ---
 <a name="enhance-existing-office-365-groups-with-microsoft-teams"></a>使用 Microsoft 團隊增強現有的 Office 365 群組
 =======================================================

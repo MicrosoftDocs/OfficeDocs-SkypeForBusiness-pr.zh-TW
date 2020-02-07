@@ -7,6 +7,8 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: svemu
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -14,12 +16,12 @@ ms.collection:
 description: 瞭解如何使用 Microsoft 團隊系統管理中心中的 [團隊即時事件使用量] 報告，以取得貴組織中的小組即時事件活動的概覽。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c391370e757aedcf9ede889fc46f165cfc636f4
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: af8a7d0225c3098f48de689a15921cd6f1f2f1c9
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571144"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827241"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Microsoft 團隊即時事件使用量報告
 
@@ -38,8 +40,8 @@ Microsoft 團隊系統管理中心的 [小組即時事件使用量] 報告會顯
 
 |圖說文字 |說明  |
 |--------|-------------|
-|**sr-1**   |您可以在過去7天、28天或您所設定的自訂日期範圍中，查看 [團隊即時事件] 報表的趨勢。 |
-|**pplx-2**   |每個報告都有產生的日期。 當頁面重新整理時，報告會反映接近的即時活動。 |
+|**1**   |您可以在過去7天、28天或您所設定的自訂日期範圍中，查看 [團隊即時事件] 報表的趨勢。 |
+|**2**   |每個報告都有產生的日期。 當頁面重新整理時，報告會反映接近的即時活動。 |
 |**3**   |<ul><li>圖表上的 X 軸是報表所選取的日期範圍。</li> <li> Y 軸是總計的視圖數。</li> </ul>將游標停留在指定日期上的點上，即可查看該日期上所有即時事件的視圖數。|
 |**4**   |下表提供每個即時事件的細目分類。 <ul><li>**事件**是即時事件的顯示名稱。 按一下事件名稱，取得事件的[詳細資料](#view-event-details)。 </li> <li>[**開始時間**] 指的是事件的開始日期和時間。</li> <li>**事件狀態**顯示事件是否已發生。  </li><li>[**召集人**] 是事件召集人的名稱。</li> <li>**演示**者是事件簡報者的名稱。</li><li>**發生器**是事件發生器的名稱。</li><li>[**視圖**] 是唯一的視圖數。</li><li>[**錄製**] 會顯示 [錄製] 設定為 [開啟] 或 [關閉]。</li><li>[**生產類型**] 會顯示事件是在團隊中產生，還是由外部應用程式或裝置產生。</li></li> </ul>請注意，如果使用者帳戶已不存在於 Azure AD 中，則使用者名稱會在資料表中顯示為 "--"。 <br><br>若要在表格中查看您想要的資訊，請務必將資料行新增至資料表。 |
 |**500**   |選取 [**編輯欄**] 以新增或移除表格中的欄。|
@@ -55,4 +57,4 @@ Microsoft 團隊系統管理中心的 [小組即時事件使用量] 報告會顯
 ## <a name="related-topics"></a>相關主題
 
 - [團隊分析和報告](teams-reporting-reference.md)
-- [什麼是團隊即時活動？](../teams-live-events/what-are-teams-live-events.md)
+- [什麼是 Teams 即時活動？](../teams-live-events/what-are-teams-live-events.md)

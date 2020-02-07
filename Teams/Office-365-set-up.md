@@ -10,6 +10,8 @@ ms.reviewer: ritikag
 audience: admin
 description: 瞭解如何為您的 Office 365 組織開啟 Microsoft 團隊。
 localization_priority: Normal
+f1.keywords:
+- CSH
 ms.custom:
 - NewAdminCenter_Update
 search.appverid: MET150
@@ -17,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1631ac21a71e19088a05aedb629b9245a06a08f9
-ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
+ms.openlocfilehash: a4772cc676cb9b26ec613488553e96be26d93cfa
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "39615683"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41833343"
 ---
 # <a name="turn-on-teams-in-your-organization"></a>開啟貴組織中的 Teams
 

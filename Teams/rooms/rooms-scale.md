@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.service: msteams
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
@@ -30,12 +32,12 @@ no-loc:
 - Azure Monitor
 - Log Analytics
 - Operations Management Suite
-ms.openlocfilehash: 3735553c1d2c0cc1b0d7e6065be606b69337e9cc
-ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
+ms.openlocfilehash: eb1e4337f97f16df6d7ef039bf4ba095ed692995
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "41628639"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827921"
 ---
 # <a name="deploy-microsoft-teams-rooms-by-using-microsoft-endpoint-configuration-manager"></a>使用 Microsoft 端點 Configuration Manager 部署 Microsoft 團隊聊天室
 
@@ -154,7 +156,7 @@ Configuration Manager 需要多個套件來部署並設定 Microsoft 團隊會�
 
 您需要建立並設定下列套件，然後將它們發佈到已指派發佈點伺服器角色的 Configuration Manager 網站系統。
 
-| **套件名稱**                     | **類型**               | **描述**                                                                           |
+| **套件名稱**                     | **類型**               | **說明**                                                                           |
 |--------------------------------------|------------------------|-------------------------------------------------------------------------------------------|
 | SRS v2-SRS 應用程式套件     | 軟體套件       | Microsoft 團隊聊天室部署套件封裝                                      |
 | SRS v2-Sysprep 套件             | 軟體套件       | [自訂以無人參與的 .xml] 來設定 Microsoft 團隊會議室單位            |

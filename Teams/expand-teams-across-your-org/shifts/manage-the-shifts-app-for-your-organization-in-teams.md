@@ -9,18 +9,20 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: 瞭解如何針對貴組織中的第一線員工工作人員，在小組中設定和管理倒班 app。
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f4ed7f4bc282686c31f2f9c2239fbe6326e5151f
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 7514ef06248eb4685558c3a327a8de1cea12bb62
+ms.sourcegitcommit: ac922addbc1422b5c41273a2e03196efb2ed7770
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992540"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41831165"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft 團隊中為您的組織管理倒班應用程式
 
@@ -77,11 +79,11 @@ App 設定原則可讓您自訂小組，以醒目提示貴組織中的使用者�
 2. 在 [**指派的原則**] 旁，選擇 [**編輯**]。
 3. 在 [**團隊 App 設定原則**] 底下，選取 [ **FirstlineWorker**]，然後選擇 [**儲存**]。
 
-#### <a name="assign-the-firstlineworker-app-setup-policy-to-users-in-a-group"></a>將 FirstlineWorker 應用程式設定原則指派給群組中的使用者
+#### <a name="assign-the-firstlineworker-app-setup-policy-to-user-members-of-a-group"></a>將 FirstlineWorker 應用程式設定原則指派給群組的使用者成員
 
-您可以將 FirstlineWorker 應用程式設定原則指派給群組中的使用者（例如安全性群組），方法是連線到 Azure Active Directory PowerShell for Graph 模組及商務用 Skype PowerShell 模組。 如需有關使用 PowerShell 來管理團隊的詳細資訊，請參閱[團隊 PowerShell 概覽](../../teams-powershell-overview.md)。
+您可以將 FirstlineWorker 應用程式設定原則指派給群組的使用者成員（例如安全性群組），方法是連線到 Azure Active Directory PowerShell for Graph 模組及商務用 Skype PowerShell 模組。 如需有關使用 PowerShell 來管理團隊的詳細資訊，請參閱[團隊 PowerShell 概覽](../../teams-powershell-overview.md)。
 
-在這個範例中，我們會將 FirstlineWorker 應用程式設定原則指派給 Contoso 第一線員工小組群組中的所有使用者。
+在這個範例中，我們會將 FirstlineWorker 應用程式設定原則指派給 Contoso 第一線員工小組群組的所有使用者成員。
 
 > [!NOTE]
 > 請依照在[單一 Windows PowerShell 視窗中連線至 [所有 Office 365 服務]](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)中的步驟，確認您首先連線至 [圖形模組] 和 [商務用 Skype] powershell 模組的 [Azure Active Directory PowerShell]。
@@ -94,9 +96,9 @@ $group = Get-AzureADGroup -SearchString "Contoso Firstline Team"
 ```PowerShell
 $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
 ```
-將群組中的所有使用者指派至 FirstlineWorker 應用程式設定原則。
+將 FirstlineWorker 應用程式設定原則指派給群組的所有使用者成員。
 ```PowerShell
-$members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "FirstlineWorker" -Identity $_.EmailAddress}
+$members | ForEach-Object {Grant-CsTeamsAppSetupPolicy -PolicyName "FirstlineWorker" -Identity $_.EmailAddress}
 ``` 
 根據群組中的成員數目而定，此命令可能需要幾分鐘的時間執行。
 

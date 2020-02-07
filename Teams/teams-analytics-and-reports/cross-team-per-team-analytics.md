@@ -7,6 +7,8 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: v-rifer
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 search.appverid: MET150
 MS.collection:
@@ -14,12 +16,12 @@ MS.collection:
 description: 瞭解團隊中的跨團隊分析及每個團隊分析，可讓使用者查看他們是其成員之小組的使用資料。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6914d391d8dfdd1e5a5b5e0e7f826bef78e67678
-ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
+ms.openlocfilehash: 436d78bc52fae316a7c5ac61a7f42d7d74988ee0
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/17/2019
-ms.locfileid: "40069444"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827371"
 ---
 # <a name="view-cross-team-and-per-team-analytics-in-teams"></a>檢視 Teams 中的跨小組和每一小組分析
 
@@ -36,7 +38,7 @@ ms.locfileid: "40069444"
 
     ![cross-team-and-per-team-analytics-cross-team .png](../media/cross-team-and-per-team-analytics-cross-team.png)
 
-    |選項 |描述  |
+    |選項 |說明  |
     |--------|-------------|
     |**名稱**   |團隊名稱。 |
     |**作用中的使用者**   |團隊中的作用中使用者數與團隊活動在指定時段內的趨勢線。 我們定義 
@@ -52,7 +54,7 @@ ms.locfileid: "40069444"
 
     ![cross-team-and-per-team-analytics-per-team .png](../media/cross-team-and-per-team-analytics-per-team.png)
 
-    |選項 |描述  |
+    |選項 |說明  |
     |--------|-------------|
     |**摘要**   |團隊活動摘要，包括下列專案：<ul><li>小組中的使用者總數</li> <li> 在小組聊天中張貼的唯一郵件總數 </li> </ul> |
     |**作用中的使用者**   |團隊中的作用中及非作用中使用者數目。|

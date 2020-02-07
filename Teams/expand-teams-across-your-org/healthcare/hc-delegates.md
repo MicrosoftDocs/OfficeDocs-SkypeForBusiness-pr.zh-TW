@@ -1,5 +1,5 @@
 ---
-title: 郵件委派
+title: 訊息委派
 author: jambirk
 ms.author: jambirk
 manager: serdars
@@ -7,6 +7,8 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
@@ -15,14 +17,14 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: acolonna
 description: 使用者可以將另一個使用者明確地設定為其狀態訊息中的代理人。
-ms.openlocfilehash: 56c0e9bd5394e738170130bab15803e5cb4d741c
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: ec1f590cad4ada605b4a487d982b3a2459ecb5f2
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570355"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827781"
 ---
-# <a name="message-delegation"></a>郵件委派
+# <a name="message-delegation"></a>訊息委派
 
 使用者可以已明確將其狀態設為 [離開] 或 [請勿打擾]，並提供自訂文字。 郵件委派功能的運作方式如下：
 
@@ -63,4 +65,4 @@ ms.locfileid: "37570355"
 
 ## <a name="related-topics"></a>相關主題
 
-[在商務用 Skype 中共存](../../coexistence-chat-calls-presence.md)
+[與商務用 Skype 共存](../../coexistence-chat-calls-presence.md)

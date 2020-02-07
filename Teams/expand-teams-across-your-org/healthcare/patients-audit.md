@@ -7,20 +7,22 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
 ms.reviewer: anach
 description: 適用于團隊管理員的患者應用程式
-ms.openlocfilehash: 7afa6004191c460428200e7804dfb10a748fc65b
-ms.sourcegitcommit: 25b6bf2c3050390cd668d2495ffcf31c44d0ff62
+ms.openlocfilehash: fd2aa97e9eb8fefdcaa4e9a4ccc432f42dbee5ce
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37749545"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827611"
 ---
-# <a name="audit-logs-for-patients-app"></a>患者 app 的審核記錄
+# <a name="audit-logs-for-patients-app"></a>病患應用程式的稽核記錄
 
 患者應用程式活動的審核記錄可讓事件回應小組審閱患者的電子醫療記錄（EMR）或患者保健資訊（PHI）的變更，並判斷在中的 PHI 存取原則或程式是否有所改進需要生產力工具。 審核記錄事件涵蓋透過患者 app 使用者介面執行的動作。
 

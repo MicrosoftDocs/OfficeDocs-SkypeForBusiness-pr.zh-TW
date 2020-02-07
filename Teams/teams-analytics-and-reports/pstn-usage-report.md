@@ -7,6 +7,8 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: v-rifer
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 search.appverid: MET150
 MS.collection:
@@ -14,12 +16,12 @@ MS.collection:
 description: 瞭解如何使用 Microsoft 團隊系統管理中心的 [小組 PSTN 使用量] 報告，以取得貴組織中通話和音訊會議的使用方式的概覽。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c91530af745a287198e99dbb83cd39257d978452
-ms.sourcegitcommit: 4c763a3824e6a2271d98a46d25a03c8f04ee2f74
+ms.openlocfilehash: 430ef53d5739a79644a57dbee1c0a30b0ab26852
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "39257432"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827281"
 ---
 # <a name="microsoft-teams-pstn-usage-report"></a>Microsoft 團隊 PSTN 使用方式報告
 
@@ -38,7 +40,7 @@ Microsoft [團隊管理中心] 中的 [團隊 PSTN 使用方式] 報告可讓您
 
 ![系統管理中心的通話方案 PSTN 使用報告報告的螢幕擷取畫面](../media/teams-reports-pstn-usage-calling-plans-with-callouts.png "[Microsoft 團隊系統管理中心] 中含有編號標注的 PSTN 使用狀況報告螢幕擷取畫面")
 
-|圖說文字 |描述  |
+|圖說文字 |說明  |
 |--------|-------------|
 |**1**   |您可以在過去7天、28天或您設定的自訂日期範圍中查看趨勢 |
 |**2**   |每個報告都有產生的日期。 報告通常會反映來自啟用時間的24到48小時延遲時間。 |
@@ -53,7 +55,7 @@ Microsoft [團隊管理中心] 中的 [團隊 PSTN 使用方式] 報告可讓您
 
 ![系統管理中心 [直接路由 PSTN 使用狀況報告] 報告的螢幕擷取畫面](../media/teams-reports-pstn-usage-direct-routing-with-callouts.png "在 Microsoft 團隊系統管理中心使用編號標注直接路由 PSTN 使用方式報告的螢幕擷取畫面")
 
-|圖說文字 |描述  |
+|圖說文字 |說明  |
 |--------|-------------|
 |**1**   |您可以在過去7天或28天的趨勢中查看報告。 |
 |**2**   |每個報告都有產生的日期。 報告通常會反映來自啟用時間的24到48小時延遲時間。 |

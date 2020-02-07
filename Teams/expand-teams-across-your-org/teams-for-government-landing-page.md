@@ -1,5 +1,5 @@
 ---
-title: 政府團隊
+title: 適用於政府機關的 Teams
 description: 瞭解如何在 Microsoft 365 政府環境中規劃和部署團隊。
 layout: LandingPage
 ms.topic: landing-page
@@ -7,20 +7,22 @@ author: lanachin
 ms.author: v-lanac
 manager: serdars
 audience: admin
+f1.keywords:
+- NOCSH
 ms.service: msteams
 ms.collection:
 - M365-collaboration
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ed301d7791dfffdb5da365d7131b5c114180e920
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 8dbce000bd42abc7a06c708d47c1af5a9bccbd24
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569630"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826641"
 ---
-# <a name="teams-for-government"></a>政府團隊
+# <a name="teams-for-government"></a>適用於政府機關的 Teams
 
 使用這些資源來瞭解在 Microsoft 365 政府環境中部署團隊的特定考慮。 當您準備好時，請針對小組使用相同的部署路徑，如[如何推出 Microsoft 團隊](../How-to-roll-out-teams.md)中所述。
 
@@ -54,7 +56,7 @@ ms.locfileid: "37569630"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>規劃 Microsoft 365 政府-GCC 高</h3>
+                        <h3>Microsoft 365 政府版的方案 - GCC High</h3>
                     </div>
                 </div>
             </div>
@@ -90,7 +92,7 @@ ms.locfileid: "37569630"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>使用適用于 GCC 高和 DoD 之直接路由的音訊會議</h3>
+                        <h3>適用於 GCC High 和 DoD 的音訊會議搭配直接路由</h3>
                     </div>
                 </div>
             </div>

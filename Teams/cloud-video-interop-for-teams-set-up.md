@@ -8,6 +8,8 @@ ms.service: msteams
 audience: admin
 search.appverid: MET150
 ms.reviewer: srividhc
+f1.keywords:
+- NOCSH
 description: 本文說明如何規劃及設定貴組織使用者的雲端視頻互通性。
 localization_priority: Normal
 ms.collection:
@@ -15,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a94292719f8f93b818cbc52dd312859611940e3b
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 1e937e7825000d02156c1f5ede2671711006cbdd
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516658"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825101"
 ---
 # <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>為 Microsoft 團隊設定雲端影片互通性
 
@@ -28,7 +30,7 @@ ms.locfileid: "37516658"
 
 ![在組織中部署 CVI](media/deploying-cvi.png)
 
-## <a name="plan"></a>平面圖
+## <a name="plan"></a>規劃
 
 請參閱[Microsoft 團隊的雲端影片交互操作](cloud-video-interop.md)，以取得有關如何識別貴組織中要使用的合作夥伴或合作夥伴的資訊。 
 
@@ -100,10 +102,10 @@ ms.locfileid: "37516658"
 您可以透過下列方式，與您的 VTC 裝置加入團隊會議：
  
 - IVR （互動式語音回復）
-    - 您可以使用 tenantkey @ 網域撥入合作夥伴的 IVR。 
+    - 您可以使用 tenantkey@domain 撥入夥伴的 IVR。 
     - 在您進入合作夥伴 IVR 之後，系統會提示您輸入 VTC conferenceId，這會將您連線至 [團隊會議]。
 - 直接撥號
-    - 您可以直接撥入小組會議，而不需與夥伴的 IVR 互動，只要使用 [直接撥號] 功能 tenantkey 的完整字串即可。VTC ConferenceId @ 網域。
+    - 您可以直接撥入小組會議，而不需與夥伴的 IVR 互動，只要使用 [直接撥號] 功能 tenantkey 的完整字串即可。VTC [ConferenceId@domain]。
 - 單點觸控撥號
     - 如果您有整合的小組聊天室，您可以使用合作夥伴提供的單一觸控式撥號功能（不需要輸入任何撥號字串）。
 

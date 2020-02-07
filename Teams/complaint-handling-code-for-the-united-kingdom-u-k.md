@@ -17,17 +17,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Legal
 hideEdit: true
 description: '瞭解如何在商務用 Skype 通話服務（在英國進行 PSTN 通話）中提出投訴，以及如何解決未解決之投訴的糾紛問題。 '
-ms.openlocfilehash: d3f20a2a84a419ff959670bbd6b63742d2ad1ba5
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 4a035c77756acc811eec184c0749623a2142cf41
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41684096"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825571"
 ---
 # <a name="calling-plans-in-office-365---complaint-handling-code-for-the-united-kingdom-uk"></a>Office 365 中的通話方案-英國的投訴處理常式代碼（英國）
 

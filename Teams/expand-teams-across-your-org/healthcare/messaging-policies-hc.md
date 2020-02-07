@@ -1,5 +1,5 @@
 ---
-title: 開始使用適用于醫療保健組織的安全訊息
+title: 開始使用適用於醫療保健組織的 Secure Messaging
 author: jambirk
 ms.author: jambirk
 manager: serdars
@@ -7,6 +7,8 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
@@ -14,21 +16,21 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: 開始使用適用于醫療保健組織的安全訊息
-ms.openlocfilehash: 1b4048dc168de0c36c3c322cc9bb7d4e2d9c3958
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+description: 開始使用適用於醫療保健組織的 Secure Messaging
+ms.openlocfilehash: ff4f9089d7fba87678345d37f8c9d85949fb478e
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570333"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827731"
 ---
-# <a name="get-started-with-secure-messaging-for-healthcare-organizations"></a>開始使用適用于醫療保健組織的安全訊息
+# <a name="get-started-with-secure-messaging-for-healthcare-organizations"></a>開始使用適用於醫療保健組織的 Secure Messaging
 
 郵件服務原則可用來控制 Microsoft 團隊中的使用者可以使用哪些聊天和通道訊息功能，而且這也是醫療保健組織（例如醫院、診所或醫生辦公室）的整體部署安全訊息的一部分。以及時的方式挑選及操作的訊息是至關重要的，就是了解何時要閱讀重要的訊息。
 
 您可以針對組織中的人員，使用預設原則或建立一或多個自訂的訊息策略。 建立原則之後，您將指派給它一個使用者或貴組織中的一組使用者。 例如，您可以選擇只允許特定工作角色使用這些功能（例如醫生和護士）及其他工人（例如 janitorial 或廚房教職員），以取得更有限的功能集。 自己決定貴組織的需求為何，以下是最常提出的建議。
 
-您可以使用系統管理員認證登入，然後在左側流覽窗格中選擇 [**訊息原則**]，輕鬆地在[Microsoft [小組管理中心](http://admin.teams.microsoft.com)] 中管理原則。
+您可以使用系統管理員認證登入，然後在左側流覽窗格中選擇 [**訊息原則**]，輕鬆地在[Microsoft [小組管理中心](https://admin.teams.microsoft.com)] 中管理原則。
 
  ![[訊息原則] 頁面的螢幕擷取畫面](../../media/messaging-policies-image1.png)
 
@@ -42,7 +44,7 @@ ms.locfileid: "37570333"
 
 - ![在前一個螢幕擷取畫面](../../media/sfbcallout1.png)中參照標注的圖示：已**讀回執**讀信回條可讓聊天訊息的寄件者知道其郵件是由1:1 和群組聊天20人或較少的收件者閱讀。 使用此設定來指定讀信回條是由使用者控制、針對所有人開啟，或針對所有人關閉。 在醫療保健組織中，郵件讀信回條很重要，因為他們移除郵件是否已讀取的 uncertainly。
 
-  針對醫療保健應用程式，請選擇 [**由使用者控制**] 或 [**針對所有人**]。 請注意，為整個租**使用者**設定回執的唯一方式，就是只針對整個租使用者（名為「全域（組織範圍的預設值）」的預設原則），或在中使用所有訊息原則。租使用者使用相同的收據設定。 當**針對所有人**啟用此功能時，[已讀] 的 [已讀] 功能最有效。
+  針對醫療保健應用程式，請選擇 [**由使用者控制**] 或 [**針對所有人**]。 請注意，為整個租**使用者**設定回執的唯一方式，就是只針對整個租使用者（名為「全域（組織範圍的預設值）」的預設原則），或在租使用者中的所有訊息原則都使用相同的收據設定。 當**針對所有人**啟用此功能時，[已讀] 的 [已讀] 功能最有效。
 
     *沒有讀信回條的用法範例：* Jakob Roth （高風險患者）可獲准在醫院中。Sofia Krause 是一個護士，共同作業是共同作業（IDT）的醫療人員小組（），其中包括不同的專家，都是指派給本患者的主要護理協調員。  Sofia 會將電子郵件及其他立即訊息傳送給使用各種訊息用戶端和應用程式的護士和醫生群組，而且通常不會收到任何回應，也不會指出郵件是否由小組成員閱讀。 由於 tangled 通訊流程，Jakob 的藥物是 misapplied，而他的醫院仍在延伸。
 
@@ -63,4 +65,4 @@ ms.locfileid: "37570333"
 ## <a name="related-topics"></a>相關主題
 
 - [管理小組中的訊息傳遞原則](../../messaging-policies-in-teams.md)
-- [開始使用適用于醫療保健組織的團隊](teams-in-hc.md)
+- [開始使用適用於醫療保健組織的 Teams](teams-in-hc.md)

@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: msteams
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: 本文將討論 Microsoft 團隊聊天室裝置所使用的預設設定的遠端系統管理，包括套用自訂主題。
-ms.openlocfilehash: 35ca0898dbaa1309848f4725f21cd11bf9511752
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: b470804ac2c5a44a0eb74330ea5158c2e9fe9098
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41268851"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824531"
 ---
 # <a name="content-cameras"></a>內容相機
 

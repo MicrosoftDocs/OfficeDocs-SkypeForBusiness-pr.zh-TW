@@ -7,6 +7,8 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: svemu
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -14,12 +16,12 @@ ms.collection:
 description: 瞭解如何使用 Microsoft 團隊系統管理中心中的 [團隊裝置使用量] 報告，以瞭解貴組織中的使用者如何連線至團隊。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 76831972e4f813b9e7b8c0dcc9a8cdbebb9e3a34
-ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
+ms.openlocfilehash: 16abf763579a542583f3aafa30252c1423759641
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "37772606"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827351"
 ---
 # <a name="microsoft-teams-device-usage-report"></a>Microsoft 團隊裝置使用量報告
 
@@ -36,8 +38,8 @@ Microsoft 團隊系統管理中心的 [小組裝置使用量] 報告可提供使
 
 |圖說文字 |說明  |
 |--------|-------------|
-|**sr-1**   |您可以在過去7天或28天的趨勢中查看小組裝置使用方式報告。  |
-|**pplx-2**   |每個報告都有產生報告的日期。 報告通常會反映來自啟用時間的24到48小時延遲時間。 |
+|**1**   |您可以在過去7天或28天的趨勢中查看小組裝置使用方式報告。  |
+|**2**   |每個報告都有產生報告的日期。 報告通常會反映來自啟用時間的24到48小時延遲時間。 |
 |**3**   |<ul><li>圖表上的 X 軸代表用來連接至團隊的不同裝置（**Windows**、 **Mac**、 **Linux**、 **iOS**、 **Android 手機**）。 </li><li>Y 軸是在所選時間範圍內使用裝置的使用者數目。</li> </ul>將游標暫留在代表裝置的列上，即可查看使用裝置連接至團隊的使用者數目。|
 |**4**   |此表格可讓您細分使用者的裝置使用量。 <ul><li>[**顯示名稱**] 是使用者的顯示名稱。 您可以按一下顯示名稱，移至 Microsoft 團隊系統管理中心的 [使用者設定] 頁面。 </li><li>如果使用者是在 Windows 電腦上的小組桌面用戶端中使用中，則會選取 [ **Windows** ]。</li><li>如果使用者在 macOS 電腦上的小組桌面用戶端中處於作用中，則會選取**Mac** 。 </li> <li>如果使用者使用的是 Linux 電腦上的小組桌面用戶端，則會選取 [ **Linux** ]。 </li> <li>如果使用者在 iOS 的 [小組行動用戶端] 上是作用中的，就會選取**ios** 。</li><li>如果使用者在 Android 版團隊行動用戶端上是作用中的，則會選取 [ **android 手機**]。 <li>[**上一個活動**] 是使用者參與團隊活動的最後一個日期（UTC）。</li> </ul> 請注意，如果使用者帳戶已不存在於 Azure AD 中，則使用者名稱會在資料表中顯示為 "--"。 <br><br>若要在表格中查看您想要的資訊，請務必將資料行新增至資料表。 |
 |**500**   |選取 [**編輯欄**] 以新增或移除表格中的欄。 |

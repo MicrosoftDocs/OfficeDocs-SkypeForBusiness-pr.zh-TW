@@ -10,18 +10,20 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: 下載網站啟用行動手冊以規劃您的團隊推出，並加速及優化使用者採納、品質與滿意度。
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 760beb6b5f786367c76ce9ac2b66d808fa10c6de
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 65a9c79dd29656b7bdc8563f0444d90133399f2b
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516762"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825171"
 ---
 # <a name="deploy-my-service"></a>部署我的服務
 
@@ -42,7 +44,7 @@ ms.locfileid: "37516762"
 -   減少支援需求並提高使用者滿意度。
 
 > [!NOTE]
-> 本文和相關的行動手冊並不是用來描述服務啟用所需的每個技術設定步驟，或提供撥號音給特定網站。 相反地，他們會將重點放在快速的使用者的活動和工作上，並讓他們透過快速且流暢的過渡來開始使用團隊語音作業，同時將支援需求降至最低。 如需如何針對團隊語音設定您的環境的最佳技術指導方針，請參閱設定[小組語音工作負載](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)的 [[直接佈線](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md)]、[團隊[核心功能](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)]、[[網路]針對團隊](onboarding-checklist-configure-networking.md)，並[啟用 Office 365](onboarding-checklist-enable-office-365.md)。
+> 本文和相關的行動手冊並不是用來描述服務啟用所需的每個技術設定步驟，或提供撥號音給特定網站。 相反地，他們會將重點放在快速的使用者的活動和工作上，並讓他們透過快速且流暢的過渡來開始使用團隊語音作業，同時將支援需求降至最低。 如需如何針對團隊語音設定最佳環境的技術指導方針，請參閱設定[小組語音工作負載](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)的 [加入] 檢查清單、設定[團隊中的直接佈線](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md)、[團隊核心功能](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)、[針對團隊提供的網路](onboarding-checklist-configure-networking.md)，以及[啟用 Office 365](onboarding-checklist-enable-office-365.md)。
 
 <!--ENDOFSECTION-->
 
@@ -65,7 +67,7 @@ ms.locfileid: "37516762"
 
 [[網站啟用行動手冊] 語音（行動手冊）](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)是 Microsoft Excel 活頁簿。 這五個焦點區域中的每一個都是活頁簿中的個別工作表，而每個部署工作和活動都會群組到其中一個工作表上。
 
-![[網站啟用] 的螢幕擷取畫面]顯示(media/deploy-my-service-image1.png "行動手冊的螢幕")快照
+![[網站啟用行動手冊] 的螢幕擷取畫面](media/deploy-my-service-image1.png "行動手冊的螢幕擷取畫面")
 
 > [!NOTE]
 > 您將針對團隊推出的範圍內的每個網站，建立一個單獨的行動手冊實例。
@@ -84,7 +86,7 @@ ms.locfileid: "37516762"
 
 4. 輸入**網站名稱、網站程式碼**及**規劃的啟動日期**，如下所示。 這是一個重要的步驟，因為它會針對行動手冊中的每個活動調整建議的截止時間。
 
-   ![包含網站名稱、網站程式碼及規劃啟動日期]範例的範例，(media/deploy-my-service-image2.png "包括紐約的網站名稱、網站程式碼 NY01，以及規劃啟動日期為20年3月 18")日
+   ![包含網站名稱、網站程式碼及規劃啟動日期的範例](media/deploy-my-service-image2.png "含紐約網站名稱、網站程式碼 NY01 及規劃啟動日期為20年3月18日的範例")
 
 5. 查看每個活動、執行必要的動作，並在您逐步完成時程表時更新狀態。 狀態以圖形表示，如下所述：
   
@@ -94,7 +96,7 @@ ms.locfileid: "37516762"
 
 6. 狀態是在每個區段中累計，而節標題則是以其中一個狀態指標來設定格式。 [**每週] 狀態**也會自動更新。
 
-[(media/deploy-my-service-image6.png "行動手冊] 中每週狀態滾動")的 [行動手冊] 螢幕擷取畫面![中的每週狀態匯總螢幕擷取畫面]
+![[行動手冊] 中每週狀態匯總的螢幕擷取畫面](media/deploy-my-service-image6.png "[行動手冊] 中每週狀態匯總的螢幕擷取畫面")
 
 > [!TIP]
 > 針對您所有的位置，重複上述步驟。
