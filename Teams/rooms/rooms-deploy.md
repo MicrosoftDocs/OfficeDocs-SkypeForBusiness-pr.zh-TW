@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: 閱讀本文以瞭解如何部署 Microsoft 團隊聊天室。
-ms.openlocfilehash: 3cc8df810989163b622a96dc5f16c8aa883447cd
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 650302d6d952a59c1cc460e2cdf8758cfb0fcd41
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825961"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41863344"
 ---
 # <a name="deployment-overview"></a>部署概觀
 
@@ -45,7 +45,7 @@ Microsoft 團隊聊天室的部署實質上會分解成幾個階段：
 -   [證書](rooms-prep.md#certificates)
 -   [Proxy](rooms-prep.md#proxy)
 
-**Pro 提示**-如果您想要使用 proxy 伺服器來提供 Microsoft 團隊或商務用 Skype Online 的存取權，請先[閱讀本文](https://docs.microsoft.com/skypeforbusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online)。 請注意，當您透過 proxy 伺服器上的商務用 Skype 流量時，我們建議您完全忽略 proxy 伺服器。 商務用 Skype 通訊已加密，所以 proxy 伺服器無法讓它更加安全。 我們建議您按照較廣泛的部署來[評估我的環境](https://docs.microsoft.com/MicrosoftTeams/3-envision-evaluate-my-environment#network-readiness)，以進行頻寬規劃，並評估您的網路對即時流量的適用性。
+**Pro 提示**-如果您想要使用 proxy 伺服器來提供團隊或商務用 Skype Online 的存取權，請先[閱讀本文](../proxy-servers-for-skype-for-business-online.md)。 請注意，當您透過 proxy 伺服器上的商務用 Skype 流量時，我們建議您完全忽略 proxy 伺服器。 商務用 Skype 通訊已加密，所以 proxy 伺服器無法讓它更加安全。 我們建議您按照較廣的部署，在您的[網路上準備小組](../prepare-network.md)進行頻寬規劃，並評估您的網路對即時流量的適用性。
 
 |    |     |
 |-----------|------------|
@@ -63,7 +63,7 @@ Microsoft 團隊聊天室的部署實質上會分解成幾個階段：
 
 根據您針對 Microsoft 團隊聊天室部署所決定啟用的共同作業案例，您必須判斷您指派給您的每個 Microsoft 團隊聊天室服務帳戶所指派的功能和功能。
 
-| **例子** | **說明** | **Microsoft 團隊聊天室服務帳戶功能** |
+| **例子** | **描述** | **Microsoft 團隊聊天室服務帳戶功能** |
 |---------- |------------- | --- |
 | 互動式會議            | 使用語音、影片和螢幕共用;將 Microsoft 團隊會議室製作成 bookable 資源                     | 針對商務用 Skype 啟用，已啟用 Exchange （資源信箱） |
 | 電話撥入式會議            | 使用電話撥入式會議座標，從 Microsoft 團隊聊天室主控台*直接*開始進行會議 | 已啟用音訊會議                                          |

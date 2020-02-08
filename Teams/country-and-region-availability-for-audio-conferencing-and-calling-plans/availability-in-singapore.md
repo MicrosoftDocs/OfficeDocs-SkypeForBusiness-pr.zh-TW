@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是適用于商務用 Skype 和 Microsoft 團隊供新加坡使用的 Office 365 服務。
-ms.openlocfilehash: 8dc90878ad4a38f27d21d6a9c7cf731a9ff15cc0
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: d7e6484d2860225a75b0916c6f567f3a14a76dda
+ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41694678"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41852410"
 ---
 # <a name="availability-in-singapore"></a>在新加坡中的可用性
 
@@ -62,6 +62,8 @@ ms.locfileid: "41694678"
 |通話方案可供購買嗎？  <br/> |否  <br/> |
 |通話方案可用的分鐘數  <br/> |不適用  <br/> |
 |可以撥出電話至嗎？  <br/> |不適用  <br/> |
+
+如果無法購買通話方案，請考慮使用[電話系統 Direct 路由](../direct-routing-landing-page.md)。 透過直接路由，您可以在幾乎任何電話運營商中使用電話系統。
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服務的付費和免付費電話號碼
 

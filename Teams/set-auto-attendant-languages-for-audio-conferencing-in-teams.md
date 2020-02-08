@@ -17,16 +17,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Audio Conferencing
 description: 瞭解如何在 Microsoft 團隊中針對音訊會議號碼選取音訊會議自動語音應答語言。
-ms.openlocfilehash: a8755acf77d0b512924156ff303ed0b11f014a45
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: a84ee0b230ed8de35da3a4fdea488eee9b3628e6
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41694038"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41838103"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>在 Microsoft 團隊中設定音訊會議的自動助理語言
 

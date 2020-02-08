@@ -3,12 +3,11 @@ title: 針對 Microsoft Teams 準備組織的網路
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/25/2019
-ms.topic: reference
+ms.topic: article
 ms.service: msteams
-ms.reviewer: arachman
+ms.reviewer: jastark, kojika
 audience: admin
-description: 瞭解如何準備及管理您的 Microsoft 團隊網路。 資訊包括網路需求、頻寬需求，以及其他考慮。
+description: 在您推出 Microsoft 團隊前，請先評估並準備您的網路，以確定它已準備好供團隊使用。 資訊包括網路需求、頻寬需求和網路優化指導方針。
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -17,106 +16,145 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0d331a063feacbaea5cb510c316d2b27d982eb03
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: dd27dfd6fccba5c7e9db52d58f7a6253849bea54
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834633"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41862903"
 ---
-# <a name="prepare-your-organizations-network-for-microsoft-teams"></a>針對 Microsoft Teams 準備組織的網路
+# <a name="prepare-your-organizations-network-for-microsoft-teams"></a>針對 Microsoft Teams 準備組織的網路 
 
+## <a name="network-requirements"></a>網路需求
 
-團隊結合三種形式的流量：
+如果您已經針對[Office 365 優化您的網路](https://docs.microsoft.com/Office365/Enterprise/assessing-network-connectivity)，您可能已經準備好開始進行 Microsoft 團隊。 在任何情況下，請先檢查下列專案，然後再開始進行團隊推出：
 
--   Office 365 線上環境與團隊用戶端之間的資料流量（[通知]、[目前狀態]、[聊天]、檔案上傳和下載、OneNote 同步處理）。
+1.  您所有的位置都有網際網路存取權（讓他們可以連線到 Office 365）嗎？ 除了標準的網路流量之外，請確定您已針對團隊中的媒體開啟下列專案（適用于所有位置）：
 
--   對等即時通訊流量（音訊、影片、桌面共用）。
+    |  |  |
+    |---------|---------|
+    |埠     |UDP 埠<strong>3478</strong>到<strong>3481</strong>        |
+    |[IP 位址](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) |<strong>13.107.64.0/18</strong>和<strong>52.112.0.0/14</strong>        |
+    
+2.  您有 Office 365 的驗證網域（例如，contoso.com）嗎？
+    
+      - 如果您的組織尚未推出 Office 365，請參閱[商務用 Office 365 快速入門](https://docs.microsoft.com/office365/admin/admin-overview/get-started-with-office-365)。
+      - 如果您的組織尚未新增或設定 Office 365 的驗證網域，請參閱[驗證您的 office 365 網域](https://docs.microsoft.com/office365/admin/setup/domains-faq)。
 
--   會議即時通訊流量（音訊、影片、桌面共用）。
+3.  貴組織已部署 Exchange Online 和 SharePoint Online 嗎？
+    
+      - 如果您的組織沒有 Exchange Online，請參閱[瞭解 exchange 與 Microsoft 團隊互動的方式](exchange-teams-interact.md)。
+      - 如果您的組織沒有 SharePoint Online，請參閱[瞭解 Sharepoint online 與商務用 OneDrive 與 Microsoft 團隊互動的方式](sharepoint-onedrive-interact.md)。
 
-這會影響兩個層次上的網路：流量會直接在 Microsoft 團隊用戶端與對等案例之間流動，且流量將在 Office 365 環境與 Microsoft 團隊用戶端之間流動，以進行會議案例。 為確保最佳流量流程，必須允許流量在內部網路區段（例如，在 WAN 之間的網站之間）以及網路網站與 Office 365 之間流動。 無法開啟正確的埠或主動封鎖特定的埠，可能會造成降級的體驗。
-
-
-若要在 Microsoft 團隊中取得即時媒體的最佳體驗，您的網路必須符合 Office 365 的網路需求。 如需詳細資訊，請參閱[商務用 Skype Online 的媒體質量和網路連線效能](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance)。
-
-針對這兩個定義網段（用戶端到 microsoft edge，以及客戶邊緣至 Microsoft Edge），請考慮下列建議。
-
-
-|值  |用戶端到 Microsoft Edge  |客戶邊緣到 Microsoft Edge  |
-|:--- |:--- |:--- |
-|**延遲（一種方式）**\*  |< 50ms          |< 30ms         |
-|**延遲（RTT 或往返時間）**\* |< 100ms   |< 60ms |
-|**突發資料包遺失**    |在任何200ms 間隔期間，<10%         |在任何200ms 間隔期間，<1%         |
-|**資料包遺失**     |在任何15s 間隔期間，<1%          |在任何15s 間隔期間，<0.1%         |
-|**資料包內部到達抖動**    |在任何15s 間隔期間 <30ms         |在任何15s 間隔期間 <15ms         |
-|**資料包重新排序**    |<0.05% 的順序外資料包         |<0.01% 的順序外資料包         |
-
-\*延遲量度目標假設您的公司網站或網站，而且 Microsoft 邊緣位於同一個洲上。
-
-您的 Microsoft 網路 edge 的公司網站連線包含第一個躍點網路存取，這可以是 WiFi 或其他無線技術。
-
-網路效能目標會採用適當的頻寬與/或[QoS 規劃](QoS-in-Teams.md)。 換句話說，當網路連線達到峰值負載時，這些需求會直接套用至團隊即時媒體流量。
-
-如需針對團隊準備網路的詳細說明，請參閱[網路 Planner](https://docs.microsoft.com/microsoftteams/network-planner)。
-
-
-## <a name="bandwidth-requirements"></a>頻寬需求
-無論您的網路狀況為何，Microsoft 團隊都能提供最佳的音訊、影片和內容共用體驗。 有了可變的編解碼器，就可以在有限的頻寬環境中協商媒體，且影響極小。 但在頻寬不是一個重要問題時，體驗可以針對品質進行優化，包括最高解析度（含1080p 解析度），最多30fps 影片和15fps 內容，以及高保真音訊。
-
-[!INCLUDE [Bandwidth requirements](includes/bandwidth-requirements.md)]
-
-
-<!--
-The content you will find below can be used as supplemental background information; however, it is recommended that customers use [Network Planner](https://aka.ms/bwcalc) to track their needs.
+確認符合這些網路需求之後，您就可以準備好要[推出小組](How-to-roll-out-teams.md)。 如果您是大型的跨國公司，或者如果您知道您有一些網路限制，請繼續閱讀以瞭解如何為團隊評估及優化您的網路。
 
 > [!IMPORTANT]
->If the required bandwidth is not available, the media stack inside Teams will degrade the quality of the audio/video session to accommodate for that lower amount of available bandwidth, impacting the quality of the call/meeting. The Teams client will attempt to prioritize the quality of audio over the quality of video. It is therefore extremely important to have the expected bandwidth available.
+> **針對教育機構**：如果您的組織是教育機構，且您是使用學生資訊系統（SIS），請先[部署學校資料同步](https://docs.microsoft.com/schooldatasync/)處理，然後再將團隊推出。
+>  
+> 執行**內部部署商務用 Skype server**：如果您的組織正在執行內部部署商務用 skype 伺服器（或 Lync Server），您必須[設定 Azure AD Connect](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-azure-ad-connect) ，才能將您的內部部署目錄與 Office 365 同步處理。
 
+### <a name="best-practice-monitor-your-network-using-cqd-and-call-analytics"></a>最佳做法：使用 CQD 和通話分析監控您的網路 
 
-|Activity  |Download Bandwidth  |Upload Bandwidth  |Traffic Flow |
-|---------|---------|---------|---------|
-|**Peer to peer Audio Call**     |0.1 Mb         |0.1Mb         |Client <> Client         |
-|**Peer to peer Video Call (full screen)**     |4 Mb         |4Mb         |Client <> Client          |
-|**Peer to peer Desktop Sharing (1920*1080 resolution)**     |4 Mb         |4 Mb         |Client <> Client          |
-|**2 Participant Meeting**     |4 Mb         |4 Mb         |Client <> Office 365         |
-|**3 participant meeting**     |8 Mb         |6.5 Mb         |Client <> Office 365           |
-|**4 participant meeting**     |5.5 Mb         |4 Mb         |Client <> Office 365           |
-|**5 participant+ meeting**     |6 Mb         |1.5 Mb         |Client <> Office 365           |
--->
+使用[通話品質儀表板（CQD）](turning-on-and-using-call-quality-dashboard.md) ，深入瞭解團隊中的通話和會議品質。 CQD 可協助您保持密切留意品質、可靠性和使用者體驗，以協助您優化網路。 CQD 會在整個組織中查看匯總遙測，在這種情況下，整體模式會變得明顯，讓您找出問題並規劃修正。 此外，CQD 提供豐富的度量報告，可讓您深入瞭解整體品質、可靠性及使用者體驗。 
 
-<a name="additional-network-considerations"></a>其他網路考慮
----------------
+您將使用[呼叫分析](set-up-call-analytics.md)來調查個別使用者的通話與會議問題。
 
-#### <a name="external-name-resolution"></a>外部名稱解析
+## <a name="network-optimization"></a>網路優化
 
-請確定執行團隊用戶端的所有用戶端電腦都可以解析外部 DNS 查詢，以探索 Office 365 提供的服務，而且您的防火牆無法防止存取。 如需設定防火牆埠的相關資訊，請移至[Office 365 url 與 IP 範圍](office-365-urls-ip-address-ranges.md)。
+如果您是小型企業版且已推出 Office 365，則下列工作是選擇性的，而且不是必要的。 使用本指導方針來優化您的網路與團隊效能，或者您知道您有一些網路限制。
 
-#### <a name="nat-pool-size"></a>NAT 池子大小
+在下列情況中，您可能會想要執行額外的網路優化動作：
 
-當多個使用者/裝置使用網路位址轉譯（NAT）或埠位址轉換（PAT）存取 Office 365 時，您必須確保隱藏在每個公開路由的 IP 位址後面的裝置不會超過支援的號碼。
+  - 團隊執行緩慢（可能是您的頻寬不夠用）
+  - 呼叫繼續放下（可能是防火牆或 proxy 攔截程式所致）
+  - 呼叫是靜態 y、剪取，或像是機器人的語音音效（可能是抖動或資料包遺失）
 
-若要緩解此風險，請確保已將充足的公用 IP 位址指派給 NAT 池，以避免埠耗盡。 埠耗盡會導致內部使用者和裝置在連線至 Office 365 服務時面臨問題。 如需詳細資訊，請參閱[Office 365 的 NAT 支援](https://support.office.com/article/NAT-support-with-Office-365-170e96ea-d65d-4e51-acac-1de56abe39b9)。
+如需網路優化的深入討論，包括識別及修正網路障礙的指導方針，請參閱[Office 365 網路連接原則](https://aka.ms/pnc)。
 
-#### <a name="intrusion-detection-and-prevention-guidance"></a>**入侵偵測與防範指導方針**
+<table>
+<thead>
+<tr class="header">
+<th><strong>網路優化工作</strong></th>
+<th><strong>詳細資料</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>網路 planner</td>
+<td><p>如需評估網路的協助，包括貴組織之物理位置的頻寬計算和網路需求，請查看 [<a href="https://admin.teams.microsoft.com">小組管理中心</a>] 中的 [<a href="https://docs.microsoft.com/microsoftteams/network-planner">網路 Planner</a>工具]。 當您提供您的網路詳細資料和團隊使用量時，網路 Planner 會計算您的網路需求，以便在整個組織的物理位置部署團隊和雲端語音。</p>
+<p>如需範例案例，請參閱<a href="https://docs.microsoft.com/microsoftteams/tutorial-network-planner-example">使用網路 Planner-範例案例</a>。</p></td>
+</tr>
+<tr class="even">
+<td>團隊顧問</td>
+<td><a href="https://docs.microsoft.com/microsoftteams/use-advisor-teams-roll-out">團隊的 Advisor</a>是<a href="https://admin.teams.microsoft.com">團隊系統管理中心</a>的一部分。 在您成功推出 Teams 前，它會評估您的 Office 365 環境，找出可能需要更新或修改的最常用設定。</td>
+</tr>
+<tr class="odd">
+<td>外部名稱解析</td>
+<td>請確定執行團隊用戶端的所有電腦都可以解析外部 DNS 查詢，以探索 Office 365 提供的服務，而且您的防火牆不會防止存取。 如需設定防火牆埠的相關資訊，請移至<a href="https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges">Office 365 url 與 IP 範圍</a>。</td>
+</tr>
+<tr class="odd">
+<td>驗證（NAT）池子大小</td>
+<td>驗證使用者連線所需的網路位址轉譯（NAT）池大小。 當多個使用者和裝置使用<a href="https://docs.microsoft.com/office365/enterprise/nat-support-with-office-365">網路位址轉譯（NAT）或埠位址轉換（PAT）</a>存取 Office 365 時，您必須確保隱藏在每個公開路由的 IP 位址後面的裝置不會超過支援的號碼。 確保已將足夠的公用 IP 位址指派給 NAT 池，以避免埠耗盡。 埠耗盡會影響內部使用者和裝置無法連線至 Office 365 服務的情況。</td>
+</tr>
+<tr class="even">
+<td>路由至 Microsoft 資料中心</td>
+<td><a href="https://docs.microsoft.com/office365/enterprise/client-connectivity">實施最有效率的路由至 Microsoft 資料中心</a>。 找出可使用當地或地區出口點數盡可能高效地連線至 Microsoft 網路的位置。</td>
+</tr>
+<tr class="odd">
+<td>入侵偵測與防範指導方針</td>
+<td>如果您的環境針對外寄連線的安全層級部署了<a href="https://docs.microsoft.com/azure/network-watcher/network-watcher-intrusion-detection-open-source-tools">入侵偵測</a>或防護系統（IDS/IPS），請務必將所有 Office 365 url 加上白名單。</td>
+</tr>
+<tr class="even">
+<td>設定分割隧道 VPN</td>
+<td><p>我們建議您為小組流量提供備用路徑，這種方法會繞過虛擬私人網路（VPN），通常稱為[分割隧道 VPN](https://docs.microsoft.com/windows/security/identity-protection/vpn/vpn-routing)。 分割隧道表示 Office 365 的流量不會透過 VPN，而是直接移至 Office 365。 略過您的 VPN 會對團隊品質產生正面影響，並減少從 VPN 裝置與組織網路的載入。 若要實現分割隧道 VPN，請與您的 VPN 廠商合作。</p>
+<p>我們建議您避開 VPN 的其他原因：
+<ul>
+<li><p>Vpn 通常不會設計或設定為支援即時媒體。</p></li> 
+<li><p>某些 Vpn 可能也不支援 UDP （這是小組所需要的）。</p></li> 
+<li><p>Vpn 也會在已加密的媒體流量上方引入額外的加密層級。</p></li> 
+<li><p>由於將流量釘選到 VPN 裝置上，因此可能無法有效地連接至團隊。</p></li></td>
+</tr>
+<tr class="odd">
+<td>實施 QoS</td>
+<td><a href="https://docs.microsoft.com/microsoftteams/qos-in-teams">使用服務品質（QoS）</a>來設定資料包優先順序。 這將改善團隊中的通話品質，並協助您監控通話品質並進行問題的疑難排解。 QoS 應該在受管理的網路的所有區段上執行。 即使已針對頻寬充分提供網路，QoS 也會在事件發生時，在發生意外的網路事件時，降低風險。 透過 QoS，語音流量的優先順序會使這些意外事件不會對品質造成負面影響。</td>
+</tr>
+<tr class="even">
+<td>優化 WiFi</td>
+<td><p>與 VPN 類似，WiFi 網路不一定設計或設定為支援即時媒體。 規劃或優化 WiFi 網路以支援小組是高品質部署的重要考慮。 請考慮下列因素：</p>
+<ul>
+<li><p>實施 QoS 或 WiFi 多媒體（WMM），以確保媒體流量在您的 WiFi 網路上適當地進行優先順序設定。</p></li>
+<li><p>規劃及優化 WiFi 區段和存取點的位置。 2.4 GHz 範圍可能會根據存取點位置提供適當的體驗，但存取點通常會受到在該範圍中運作的其他消費者裝置的影響。 5 GHz 的範圍更適合用於即時媒體，因為它有大量的功能，但需要更多存取點才能取得足夠的覆蓋範圍。 端點也需要支援該範圍，並將其設定為可據此加以設定以利用這些區段。</p></li>
+<li><p>如果您使用的是雙頻帶 WiFi 網路，請考慮執行頻帶控制。 [<em>樂隊</em>控制] 是由 WiFi 廠家提供的技術，可影響雙頻帶用戶端使用 5 GHz 範圍。</p></li>
+<li><p>當同一個頻道的存取點太靠近時，可能會導致信號重迭，並無意間爭奪，從而導致使用者無法正常使用。 確定彼此連續的存取點位於沒有交疊的頻道上。</p></li>
+</ul>
+<p>每個無線廠商都有自己的部署其無線解決方案的建議。 請諮詢您的 WiFi 供應商以取得特定指導方針。</p></td>
+</tr>
+</tbody>
+</table>
 
-如果您的環境針對外部連線安全層級部署了入侵偵測及/或防護系統（IDS/IPS），請確定任何具有目的地至 Office 365 Url 的流量都是白名單。
+## <a name="bandwidth-requirements"></a>頻寬需求
 
-<a name="network-health-determination"></a>網路狀況判斷
------------------
+無論您的網路狀況為何，小組都會設計為提供最佳的音訊、影片和內容共用體驗。 如此一來，當頻寬不足時，小組會將音訊品質與影片品質進行優先順序。
 
-規劃您網路中的 Microsoft 團隊實施時，您必須確保您具備所需的頻寬，您可以存取所有必要的 IP 位址、已開啟正確的埠，以及滿足即時媒體的效能需求.
+在頻寬*不*受限制的情況下，小組會優化媒體質量，包括高達1080p 的影片解析度、30fps 影片和15fps 內容，以及高保真音訊。 
 
-如果您知道您不符合這些準則，您的使用者將無法在通話和會議期間因品質差而從小組獲得最佳體驗。
+[!INCLUDE [bandwidth-requirements](includes/bandwidth-requirements.md)]
 
-如果您不符合這些準則，這是考慮暫停專案以確保您在繼續之前符合準則的時間。
-
-
-|  |  |  |
-|---------|---------|---------|
-|![代表決策點的圖示](media/Prepare_your_organizations_network_for_Microsoft_Teams_image3.png)    |決策點         |您是否已評估您的網路功能以支援即時媒體？<br></br>如果您的網路未正確評定，或是您知道它不支援即時媒體，您會停用影片和螢幕共用功能來減少網路影響與不佳的團隊體驗嗎？         |
-|![代表後續步驟的圖示](media/Prepare_your_organizations_network_for_Microsoft_Teams_image4.png)     |後續步驟         |網路品質未知：執行網路就緒評估，以判斷您的網路是否已準備好使用即時媒體。<br></br>網路品質差：執行網路修正步驟，為高品質即時媒體提供適當的環境。<br></br>網路滿意：確保所有 IP 位址和埠都能正確存取。           |
 
 ## <a name="related-topics"></a>相關主題
 
-[影片：網路規劃](https://aka.ms/teams-networking)
+[Office 365 網路連接原則](https://aka.ms/pnc)
+
+[全球端點：商務用 Skype Online 與團隊](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)
+
+[小組的 Proxy 伺服器](proxy-servers-for-skype-for-business-online.md)
+
+[團隊中的媒體：為什麼會議很簡單](https://aka.ms/teams-media)
+
+[團隊中的媒體：深入瞭解媒體流程](https://aka.ms/teams-media-flows)
+
+[Teams 中的身分識別和驗證](identify-models-authentication.md)
+
+[如何推出 Teams](How-to-roll-out-teams.md)
+
+

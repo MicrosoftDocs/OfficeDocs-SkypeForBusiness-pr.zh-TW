@@ -12,14 +12,16 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-voice
+f1.keywords:
+- NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 19e97053120f5f28dcd634fd2047fed0abd2dd57
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 8899316d24616bf61918b93c9edd7118b89f5347
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573387"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41832668"
 ---
 # <a name="implement-qos-and-monitor-call-quality-in-microsoft-teams"></a>在 Microsoft 團隊中實施 QoS 及監視通話品質
 
@@ -27,7 +29,7 @@ ms.locfileid: "37573387"
 
 當您的使用者開始使用團隊撥打電話和召開會議時，他們可能會遇到來電或 chopping 通話或會議的問題。 共用影片可能會凍結或像素化，或完全失敗。 這是因為 IP 資料包所代表的語音和影片通信量遇到網路擁塞，而不是順序讀出或根本無法進行。 有幾種方法可以在它們出現表面並防止其傳回（主要是服務品質（QoS））時，找出這些問題。
 
-**[服務品質（QoS）** ] 是一種允許即時網路流量（例如語音或視頻串流），可讓您在不太敏感的通信量（例如下載新的 app，增加額外的下載沒太大的交易。 QoS 會使用 Windows 群組原則物件和路由功能（稱為埠的存取控制清單）來識別及標記即時資料流中的所有資料包，這可協助您的網路提供語音、影片和螢幕共用來傳送自己的專用部分網路頻寬。
+**[服務品質（QoS）** ] 是一種允許即時網路流量（例如語音或視頻串流），可讓您在不太敏感的通信量（例如下載新的應用程式，增加額外的 app，而不是大筆交易）的情況下，對網路延遲所保密。 QoS 會使用 Windows 群組原則物件和路由功能（稱為埠的存取控制清單）來識別及標記即時資料流中的所有資料包，這可協助您的網路提供語音、影片和螢幕共用來傳送自己的專用部分網路頻寬。
 
  現在，我們只是說它是透過郵件傳送信件的方式：如果您傳送 it 書籍的速度非常快，且有足夠的功能，如果您將它傳送給第一個課程，就能以更快的速度傳送它，而且如果您傳送 it 優先順序郵件，它會在兩天內取得。 當然的網路比郵件執行的速度更快，但仍會執行 true，因為速度對於某些應用程式來說非常重要，而且對其他人而言並不重要。 這個主旨本身在本質上是非常複雜且難以理解，但它會在使用者體驗上帶來巨大的差異，因此需要提前進行投資與精力。 已閱讀[[在 Microsoft 團隊中實施服務品質（QoS）](QoS-in-Teams.md) ]，以取得更詳細的討論。
 
@@ -47,10 +49,10 @@ ms.locfileid: "37573387"
 
 [設定通話分析](set-up-call-analytics.md)
 
-[使用呼叫分析來排查不佳的通話品質問題](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+[使用通話分析來疑難排解不良通話品質](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
-[開啟並使用通話品質儀表板](turning-on-and-using-call-quality-dashboard.md)
+[開啟和使用通話品質儀表板](turning-on-and-using-call-quality-dashboard.md)
 
-[通話品質儀表板中提供的維度與量值](dimensions-and-measures-available-in-call-quality-dashboard.md)
+[通話品質儀表板中提供的維度和量值](dimensions-and-measures-available-in-call-quality-dashboard.md)
 
-[通話品質儀表板中的資料流程分類](stream-classification-in-call-quality-dashboard.md)
+[通話品質儀表板中的資料流分類](stream-classification-in-call-quality-dashboard.md)

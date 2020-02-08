@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6c5287db10067ad26feac8b3074de97a977646cf
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 82b9418f2e87550667cbc163f8f37a0989ec2b30
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837093"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41863434"
 ---
 ![升級歷程圖表，強調技術就緒階段](media/upgrade-banner-tech-readiness.png "升級歷程階段，重點放在技術準備階段")
 
@@ -43,5 +43,5 @@ ms.locfileid: "41837093"
 - 為[您的 IT 員工做好準備](upgrade-prepare-IT-pros.md)，協助確保他們有成功升級歷程所需的專案。
 - 確認您的環境符合所有[先決條件](upgrade-plan-journey-prerequisites.md)，並瞭解 Office 365 服務與團隊之間的相依性。
 - 若要[評估您的環境](upgrade-plan-journey-evaluate-environment.md)，請使用範例問卷問卷來執行環境探索，以確認貴組織已準備好將升級遷移到團隊。
-- 針對您的網路規劃、準備及採取任何必要的修正步驟來[準備您的網路](upgrade-prepare-environment-prepare-network.md)，以支援小組工作負載。
+- 針對您的網路規劃、準備及採取任何必要的修正步驟來[準備您的網路](prepare-network.md)，以支援小組工作負載。
 - 使用 [加入檢查清單][準備您的服務](upgrade-prepare-environment-prepare-service.md)以進行推出，以確保您的小組配置已準備好支援將您的使用者從商務用 Skype 遷移至團隊。

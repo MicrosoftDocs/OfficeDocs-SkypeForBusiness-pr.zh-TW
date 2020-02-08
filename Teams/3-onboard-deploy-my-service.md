@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 65a9c79dd29656b7bdc8563f0444d90133399f2b
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 86e9fd1b26bebd120136c3c33abf0a44ffa03e0d
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825171"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41862813"
 ---
 # <a name="deploy-my-service"></a>部署我的服務
 
@@ -44,7 +44,7 @@ ms.locfileid: "41825171"
 -   減少支援需求並提高使用者滿意度。
 
 > [!NOTE]
-> 本文和相關的行動手冊並不是用來描述服務啟用所需的每個技術設定步驟，或提供撥號音給特定網站。 相反地，他們會將重點放在快速的使用者的活動和工作上，並讓他們透過快速且流暢的過渡來開始使用團隊語音作業，同時將支援需求降至最低。 如需如何針對團隊語音設定最佳環境的技術指導方針，請參閱設定[小組語音工作負載](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)的 [加入] 檢查清單、設定[團隊中的直接佈線](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md)、[團隊核心功能](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)、[針對團隊提供的網路](onboarding-checklist-configure-networking.md)，以及[啟用 Office 365](onboarding-checklist-enable-office-365.md)。
+> 本文和相關的行動手冊並不是用來描述服務啟用所需的每個技術設定步驟，或提供撥號音給特定網站。 相反地，他們會將重點放在快速的使用者的活動和工作上，並讓他們透過快速且流暢的過渡來開始使用團隊語音作業，同時將支援需求降至最低。 如需如何針對團隊語音設定最佳環境的技術指導方針，請參閱設定[小組語音工作負載](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)的 [加入] 檢查清單、設定[團隊中的直接佈線](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md)、[團隊核心功能](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)、[針對團隊提供的網路](prepare-network.md)，以及[啟用 Office 365](onboarding-checklist-enable-office-365.md)。
 
 <!--ENDOFSECTION-->
 

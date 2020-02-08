@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是適用于商務用 Skype 和 Microsoft 團隊的 Office 365 服務，可供賽普勒斯使用。
-ms.openlocfilehash: 8d3cfc2d1121fb43313ea0bb43222ab8af3d4ccc
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: c030c166846fa1ed61cb398e79f542fe74d58328
+ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41683936"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41853638"
 ---
 # <a name="availability-in-cyprus"></a>賽普勒斯中的可用性
 
@@ -62,6 +62,8 @@ ms.locfileid: "41683936"
 |通話方案可供購買嗎？  <br/> |否  <br/> |
 |通話方案可用的分鐘數  <br/> |不適用  <br/> |
 |可以撥出電話至嗎？  <br/> |不適用  <br/> |
+
+如果無法購買通話方案，請考慮使用[電話系統 Direct 路由](../direct-routing-landing-page.md)。 透過直接路由，您可以在幾乎任何電話運營商中使用電話系統。
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服務的付費和免付費電話號碼
 

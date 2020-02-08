@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 418496b5dd86fb9720393721854c0fcf68daf52a
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: efc7193549fac95a29a574f455576dec5ea35c58
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825141"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41862823"
 ---
 # <a name="prepare-my-service"></a>準備我的服務
 
@@ -37,7 +37,7 @@ ms.locfileid: "41825141"
 
 *  [設定團隊核心功能](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)
 
-*  [設定網路](onboarding-checklist-configure-networking.md)
+*  [準備您的網路](prepare-network.md)
 
 *  [在團隊中設定雲端語音工作負載](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)
 

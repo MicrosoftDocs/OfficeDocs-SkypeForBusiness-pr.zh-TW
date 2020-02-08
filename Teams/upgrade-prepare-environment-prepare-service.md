@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d723cae9bf26896f40fe14ad8f04038da6ed04dc
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 5e70d9bed1dfc2f04d7c5fa5a6823f93a02ec759
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836113"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41863444"
 ---
 ![升級歷程圖表，強調技術就緒階段](media/upgrade-banner-tech-readiness.png "升級歷程階段，重點放在技術準備階段")
 
@@ -46,7 +46,7 @@ ms.locfileid: "41836113"
 
 - [設定團隊核心功能](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)
 
-- [設定網路](onboarding-checklist-configure-networking.md)
+- [準備您的網路](prepare-network.md)
 
 - [在團隊中設定雲端語音工作負載](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)
 

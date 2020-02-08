@@ -10,16 +10,18 @@ ms.service: msteams
 search.appverid: MET150
 localization_priority: Priority
 description: 未取得 Microsoft Teams 授權的 Office 365 使用者可以起始 Exploratory Teams 授權。
+f1.keywords:
+- NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6777dfbafac89c798955245b93f1e4537093b0cf
-ms.sourcegitcommit: 96d98e145ff300833d827a7d43b4e4b0331b7538
+ms.openlocfilehash: 7aa3969d3943598c8e5657e1fcb94730179f57fe
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39871781"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837683"
 ---
 <a name="manage-the-microsoft-teams-exploratory-license"></a>管理 Microsoft Teams Exploratory 授權
 =======================================================
@@ -79,15 +81,16 @@ Teams Exploratory 體驗隨附 Exchange Online 授權，但在系統管理員指
 
 您可以關閉使用者安裝試用版應用程式和服務的功能，即可防止使用者執行 Teams Exploratory 體驗。
 
-1. 從 [Microsoft 365 系統管理中心](https://portal.office.com/adminportal/home)，移至 [設定]****  >  [服務與增益集]****  >  [使用者所擁有的應用程式與服務]****。
+1. 從 [Microsoft 365 系統管理中心][](https://portal.office.com/adminportal/home)，移至 [設定]****  >  [設定]****、選取 [服務]****，然後選取 [使用者所擁有的應用程式與服務]****。
 
-    ![系統管理中心的 [服務與增益集] 頁面的螢幕擷取畫面](media/iw-trial-enable-1.png)
+    ![系統管理中心的 [服務] 頁面的螢幕擷取畫面](media/iw-trial-services.png)
 
-2. 關閉 [讓使用者安裝試用版的應用程式與服務]****。
+2. 取消選取 [讓使用者安裝試用版的應用程式與服務]**** 核取方塊。
 
-    ![系統管理中心的 [使用者所擁有的應用程式與服務] 頁面的螢幕擷取畫面](media/iw-trial-enable-2.png)
-> [!NOTE]
-> 如果貴組織不符合 Teams Exploratory 使用資格，您將不會看到 [讓使用者安裝試用版應用程式與服務]**** 切換功能。
+    ![系統管理中心的 [使用者所擁有的應用程式與服務] 頁面的螢幕擷取畫面](media/iw-trial-user-owned-apps-services.png)
+
+    > [!NOTE]
+    > 如果貴組織不符合 Teams Exploratory 使用資格，您將不會看到 [讓使用者安裝試用版的應用程式與服務]**** 選項。
 
 ### <a name="manage-availability-for-a-user-with-a-license-that-includes-teams"></a>管理具有 Teams 授權的使用者可用性
 
@@ -118,10 +121,9 @@ Teams Exploratory 體驗隨附 Exchange Online 授權，但在系統管理員指
 3. 在右側的 [產品授權]**** 列中，選擇 [編輯]****。
 
 4. 在 [產品授權]**** 窗格中，將此探勘授權的開關切換至 [關閉]****。
-
-    
->[!Note]
->組織中的第一個使用者啟動 Teams Exploratory 體驗之後，將會出現 [Teams Exploratory] 切換開關。
+   
+    >[!Note]
+    >組織中的第一個使用者啟動 Teams Exploratory 體驗之後，將會出現 [Teams Exploratory] 切換開關。
 
 ### <a name="manage-teams-for-users-who-have-the-teams-exploratory-license"></a>管理適用於擁有 Teams Exploratory 授權之使用者的 Teams
 

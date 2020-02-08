@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是適用于商務用 Skype 的 Office 365 服務，以及柬埔寨提供的 Microsoft 團隊。
-ms.openlocfilehash: 9425f1638614ff970e3d7a961e0b9451ea0e4c77
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 441d3fe9973b6c16bd5fddadd2509659c6629b1a
+ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41683996"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41853738"
 ---
 # <a name="availability-in-cambodia"></a>柬埔寨中的可用性
 
@@ -61,6 +61,8 @@ ms.locfileid: "41683996"
 |通話方案可供購買嗎？  <br/> |否  <br/> |
 |通話方案可用的分鐘數  <br/> |不適用  <br/> |
 |可以撥出電話至嗎？  <br/> |不適用  <br/> |
+
+如果無法購買通話方案，請考慮使用[電話系統 Direct 路由](../direct-routing-landing-page.md)。 透過直接路由，您可以在幾乎任何電話運營商中使用電話系統。
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服務的付費和免付費電話號碼
 

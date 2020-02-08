@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5000ecb5195654e902c06f329c910c0a5edb7d55
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 2b97adde4f5016262ac3de1a5b79c9d69975580b
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837124"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41863484"
 ---
 ![升級歷程圖表，強調技術就緒階段](media/upgrade-banner-tech-readiness.png "升級歷程階段，重點放在技術準備階段")
 
@@ -196,4 +196,4 @@ ms.locfileid: "41837124"
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next step"/><br/>後續步驟</td><td><ul><li>記錄環境評估的結果。</li></ul></td></tr>
 </table>
 
-在您評估您的環境之後，請繼續執行下一個步驟：[準備您的網路](upgrade-prepare-environment-prepare-network.md)。
+在您評估您的環境之後，請繼續執行下一個步驟：[準備您的網路](prepare-network.md)。

@@ -480,7 +480,6 @@
 ### [準備 Teams 的 IT 人員](upgrade-prepare-IT-pros.md)
 ### [先決條件](upgrade-plan-journey-prerequisites.md)
 ### [評估您的環境](upgrade-plan-journey-evaluate-environment.md)
-### [準備您的網路](upgrade-prepare-environment-prepare-network.md)
 ### [準備您的服務](upgrade-prepare-environment-prepare-service.md)
 
 ## 為貴組織做好使用 Teams 的準備
@@ -673,8 +672,7 @@
 # 參考
 
 ## 準備好推出 Teams
-### [檢查環境的 Teams 整備程度](environment-readiness.md)
-### [為貴組織的網路做好使用 Teams 的準備](prepare-network.md)
+### [針對 Teams 準備組織的網路](prepare-network.md)
 ### [使用 Advisor for Teams 來推行 Teams](use-advisor-teams-roll-out.md)
 ### [使用 Teams 的網路規劃中心](network-planner.md)
 ### [網路規劃中心逐步解說](tutorial-network-planner-example.yml)

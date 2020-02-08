@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Optimization
 description: 本文提供與團隊或商務用 Skype 一起使用 proxy 伺服器的相關資訊。
-ms.openlocfilehash: 7eeb319c9c352f4f04abef581b88c1eddf46951d
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: ca81c32064406af0e5bc3d614566a96ec5646a91
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837303"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41863184"
 ---
 # <a name="proxy-servers-for-teams-or-skype-for-business-online"></a>Teams 或商務用 Skype Online 的 Proxy 伺服器
 
@@ -50,17 +50,13 @@ Microsoft 也強烈建議：
     
 - 允許 UDP 流量
     
-- 遵循我們的網路指導方針中的其他建議：
-    
-  - [商務用 Skype Online 中的媒體質量和網路連線效能](https://support.office.com/en-us/article/Media-Quality-and-Network-Connectivity-Performance-in-Skype-for-Business-Online-5fe3e01b-34cf-44e0-b897-b0b2a83f0917)
-    
-  - [針對商務用 Skype Online 優化您的網路](https://support.office.com/en-us/article/Optimizing-your-network-for-Skype-for-Business-Online-b363bdca-b00d-4150-96c3-ec7eab5a8a43)
+- 遵循我們的網路指導方針中的其他建議：[針對團隊準備貴組織的網路](prepare-network.md)
+  
     
 遵循此指導方針應該將潛在問題降至最低。
   
 ## <a name="related-topics"></a>相關主題
 
-[針對商務用 Skype Online 優化您的網路](https://support.office.com/en-us/article/Optimizing-your-network-for-Skype-for-Business-Online-b363bdca-b00d-4150-96c3-ec7eab5a8a43)
+[Office 365 網路連接原則](https://aka.ms/pnc)
 
-  
- 
+[針對 Teams 準備組織的網路](prepare-network.md)

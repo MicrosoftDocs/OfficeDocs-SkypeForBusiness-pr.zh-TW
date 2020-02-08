@@ -14,14 +14,15 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.custom: ''
+f1.keywords:
+- NOCSH
 description: 從 Slack 移轉到 Microsoft Teams 的完全指引。
-ms.openlocfilehash: 56278359062bb7f154b5e3248c343f98c62cb916
-ms.sourcegitcommit: 0f6321d51b40f06855679c18f7313febfedd419a
+ms.openlocfilehash: 15ef6203fa2cf27d081865e3966198f033b1bd80
+ms.sourcegitcommit: 8e2fa7b744d0a174b699ae7298d4688b971eeff3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "38793469"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41845207"
 ---
 # <a name="migrate-from-slack-to-microsoft-teams"></a>從 Slack 移轉到 Microsoft Teams
 
@@ -43,7 +44,7 @@ ms.locfileid: "38793469"
 
 下列圖表提供了在本文中我們將涵蓋之 Slack 移轉狀況的高等級看法。 
 
-:::image type="content" source="media/migrate-slack-to-teams-image2.png" alt-text="顯示 Slack 匯出狀況的圖表。":::
+![顯示 Slack 匯出狀況的圖表。](media/migrate-slack-to-teams-image2.png)
 
 完成本章節後，您應能了解：
 - Slack 工作區的服務等級
@@ -80,7 +81,7 @@ Slack 中的應用程式就如同 Teams 中的應用程式。 當您在工作區
 
 前往 <your Slack workspace>.slack.com/apps/manage 以取得應用程式和自訂整合清單。 此頁面也會顯示每個應用程式使用中的設定數量。 自訂整合按照「移轉能力」而有所不同。 如果是 Web Hook，您通常可以將其傳送到 Office 365 連接器，以將工作流程轉換至 Teams。 視情況評估 Bot 和其他應用程式，以規劃將其移至 Teams。
 
-*如果您的系統管理員已限制應用程式使用，您可能不會看到可用應用程式的完整清單。
+\* 如果您的系統管理員已限制應用程式使用，您可能不會看到可用應用程式的完整清單。
 
 ### <a name="users"></a>使用者
 您在 Slack 中使用的身分識別模式，可能不會直接對應到 Office 365。 例如，您的 Slack 使用者電子郵件地址可能不會對應到 Office 365 的公司或學校帳戶。 開始規劃 Teams 推出前，您應先建立使用者識別碼對應。
@@ -162,10 +163,10 @@ Write-Host "`n $(Get-Timestamp) Generated SlackToAzureADIdentityMapping.csv. Exi
 ```
 
 完成本章節後，您應已具有：
-- 含有使用方式統計資料之每個工作區的頻道清單
-- 具有每個頻道設定的 Slack 應用程式清單
-- 已決定您要匯出 Slack 訊息歷程記錄的類型 (如果有)
-- Slack 帳戶對應至 Microsoft 工作或學校帳戶的使用者清單，以及其擁有的 Teams 授權
+- 含有使用方式統計資料之每個工作區的頻道清單。
+- 具有每個頻道設定的 Slack 應用程式清單。
+- 已決定您要匯出 Slack 訊息歷程記錄的類型 (如果有)。
+- Slack 帳戶對應至 Microsoft 工作或學校帳戶的使用者清單，以及其擁有的 Teams 授權。
 
 ## <a name="plan-your-teams-deployment"></a>規劃 Teams 部署
 您已由 Slack 匯出所需的項目 (並留下不需要的任何項目)。 現在可以規劃推出 Teams 的方式並匯入您的 Slack 資料。 這是一個根據使用方式評估何者適合團隊的好機會，並將這些元素包含至您的 Teams 部署方案。 在本章節的結尾，您將具有您的 Teams 使用者、頻道和應用程式的藍圖。 

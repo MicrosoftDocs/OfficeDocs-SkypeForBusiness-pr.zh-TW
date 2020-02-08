@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e63a287fcd265a22dc2f9264920d3b0283a5bd6a
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: b9bac6ee38c166250746b6ce9f4fb48afe3cbfe2
+ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836205"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41852100"
 ---
 # <a name="upgrade-from-skype-for-business-to-teams-mdash-for-it-administrators"></a>從商務用 Skype 升級至適用&mdash;于 IT 系統管理員的小組
 
@@ -40,21 +40,21 @@ ms.locfileid: "41836205"
 
 有兩種方法可以將現有的組織從商務用 Skype （無論是線上或內部部署）遷移至團隊：
 
-- **並列方法**（使用孤島模式）：將現有商務用 Skype 組織中的使用者引入團隊，讓他們可以在過渡階段中並排使用這兩個用戶端。 在此期間，您可以使用大部分的團隊功能，但不是所有功能。 此設定的模式稱為 [孤島]，這是任何擁有商務用 Skype 之現有組織的預設模式。 組織就緒之後，系統管理員會將使用者移至 TeamsOnly 模式。
+- 重**迭的功能方法**（使用 [安全島] 模式）：現有的商務用 Skype 組織中的使用者會被引入至小組，讓他們可以在過渡階段中使用這兩個用戶端。 在此期間，您可以使用大部分的團隊功能，但不是所有功能。 此設定的模式稱為 [孤島]，這是任何擁有商務用 Skype 之現有組織的預設模式。 組織就緒之後，系統管理員會將使用者移至 TeamsOnly 模式。
 
-- **受管理的方法**（使用一或多個商務用 skype 模式）：系統管理員會針對組織中的使用者管理聊天、通話及會議排程功能的轉場（從商務用 skype 移至團隊）。  您可以在商務用 Skype 或團隊中使用這些功能，但不能同時在這兩者中找到。 系統管理員使用 TeamsUpgradePolicy 控制何時將此功能移至團隊中的使用者。 尚未處於 TeamsOnly 模式的使用者會繼續使用商務用 Skype 進行聊天和通話，而這兩組使用者可以透過交互操作功能進行通訊。 系統管理員會透過逐漸將更多使用者遷移至 TeamsOnly 模式，來管理轉換。  
+- **選取功能方法**（使用一或多個商務用 skype 模式）：系統管理員會管理組織中使用者的聊天、通話及會議排程功能的轉場（從商務用 skype 移至團隊）。  您可以在商務用 Skype 或團隊中使用這些功能，但不能同時在這兩者中找到。 系統管理員使用 TeamsUpgradePolicy 控制何時將此功能移至團隊中的使用者。 尚未處於 TeamsOnly 模式的使用者會繼續使用商務用 Skype 進行聊天和通話，而這兩組使用者可以透過交互操作功能進行通訊。 系統管理員會透過逐漸將更多使用者遷移至 TeamsOnly 模式，來管理轉換。  
 
 本文將說明這兩種方法，並提供每個方法的優缺點，協助您為您的組織選擇正確的方法。 
 
-## <a name="side-by-side-method-using-islands-mode"></a>並列方法（使用孤島模式）
+## <a name="overlapping-capabilities-method-using-islands-mode"></a>重迭的功能方法（使用孤島模式）
 
-透過並行方法，使用者可以使用小組與商務用 Skype 用戶端進行聊天、VoIP 通話及會議。 此狀態稱為「孤島」模式，因為商務用 Skype 和團隊的通訊流量會保持不變（即使是相同的使用者），而兩個不同的用戶端彼此之間都不會相互通訊（針對同一個組織中的使用者）。 例如，假設收件者使用者 A 處於孤島模式：
+使用重迭的功能方法，使用者可以使用小組和商務用 Skype 用戶端來進行聊天、VoIP 通話和會議。 此狀態稱為「孤島」模式，因為商務用 Skype 和團隊的通訊流量會保持不變（即使是相同的使用者），而兩個不同的用戶端彼此之間都不會相互通訊（針對同一個組織中的使用者）。 例如，假設收件者使用者 A 處於孤島模式：
 
 - 從另一個使用者的商務用 Skype 用戶端發起的通訊，將永遠位於使用者 A 的商務用 Skype 用戶端。
 - 從另一個使用者的團隊用戶端發起的通訊，在使用者 A 的團隊用戶端中，*如果其他使用者位於同一個組織中*，就會永遠居住在該使用者。 
 - 從另一個使用者的團隊用戶端發起的通訊，在使用者 A 的商務用 Skype 用戶端（*如果其他使用者位於同盟組織中*）中，將永遠居住在該使用者。
 
-[孤島模式] 是尚未 TeamsOnly 之任何現有組織的預設 TeamsUpgradePolicy 模式。 當您指派 Office 365 授權時，系統會預設指派 [小組] 和 [商務用 Skype Online] 授權。 （即使使用者是在商務用 Skype 伺服器中託管內部部署，也是如此。 無論使用者是駐留在內部部署還是線上，都可以讓商務用 Skype Online 授權保持啟用，因為這是完整的小組功能目前所需要的。事實上，如果您未採取任何步驟來變更預設設定，您的組織可能已有大量的小組使用量。  這是並列方法的其中一個優點之一。 它可讓組織內的快速、使用者導向採用。
+[孤島模式] 是尚未 TeamsOnly 之任何現有組織的預設 TeamsUpgradePolicy 模式。 當您指派 Office 365 授權時，系統會預設指派 [小組] 和 [商務用 Skype Online] 授權。 （即使使用者是在商務用 Skype 伺服器中託管內部部署，也是如此。 無論使用者是駐留在內部部署還是線上，都可以讓商務用 Skype Online 授權保持啟用，因為這是完整的小組功能目前所需要的。事實上，如果您未採取任何步驟來變更預設設定，您的組織可能已有大量的小組使用量。  這是重迭功能方法的其中一個優點之一。 它可讓組織內的快速、使用者導向採用。
 
 為了讓這個方法有效運作，它需要所有使用者同時執行這兩個用戶端。 您可以在商務用 Skype 或團隊用戶端中，將組織內部的內送聊天和組織中的電話撥入至使用者，而不是收件者的控制權。 這取決於寄件者用來啟動通訊的用戶端。 如果寄件者和收件者是在不同的組織中，在 [孤島] 模式中的來電與聊天，在商務用 Skype 用戶端中，將永遠居住在該使用者。  
 
@@ -80,7 +80,7 @@ ms.locfileid: "41836205"
  |目前狀態  | 商務用 Skype 和團隊中的目前狀態是獨立的。 針對相同的孤島使用者，使用者可能會看到不同的狀態，視它們所使用的用戶端而定。 | 目前狀態僅根據使用者在團隊中的活動而定。 所有其他使用者（無論他們使用的用戶端），請參閱目前狀態。 | 
  | 會議排程   | 使用者可以在小組或商務用 Skype 中排程會議。 它們會在 Outlook 中看到兩個增益集。 |   使用者只會在團隊中排程會議。 只有 [團隊] 增益集可在 Outlook 中使用。 | 
 
-下表摘要列出使用並列方法將您的組織遷移至團隊的優點與缺點。
+下表摘要列出使用重迭的功能方法將您的組織遷移至團隊的優點與缺點。
 
 | 專業人員     |       利弊 |
 | :------------------ | :---------------- |
@@ -89,19 +89,19 @@ ms.locfileid: "41836205"
 | 在團隊中開始使用最少的管理工作量。 | 如果不是組織中的所有人都使用團隊，則可以使用「使用孤島」模式並移至 TeamsOnly 模式，特別是在團隊中的所有使用者都不是使用中時。 例如，當使用者子集升級為 TeamsOnly 模式之後，這些使用者就只能在小組中傳送。 針對 [孤島] 模式中的其他人口，這些訊息將永遠位於小組中。 但如果其中一些總體不是執行團隊，他們將會認為這些訊息是未接的。 |
 |  | 在使用團隊時，在商務用 Skype 伺服器中擁有內部部署帳戶的使用者，沒有互通性或同盟支援。  如果您有混合式的孤島使用者，這可能會造成混淆，因為有些人是駐留在商務用 Skype Online 中，還有一些是在商務用 Skype 內部部署中。   |
 
-## <a name="managed-transition-method-using-skype-for-business-modes"></a>受管理的轉換方法（使用商務用 Skype 模式）
+## <a name="select-capabilities-method-using-skype-for-business-modes"></a>選取功能方法（使用商務用 Skype 模式）
 
-有些組織可能想要讓使用者在組織從商務用 Skype 轉換為小組時，為他們的使用者提供更簡單且更具預見性的體驗。 在這個模型中，IT 系統管理員會在 TeamsUpgradePolicy 中使用其中一個商務用 Skype 模式，以明確指定哪些使用者在遷移到 TeamsOnly 模式之前仍在商務用 Skype 中。 當他們準備好將選取的使用者移至 TeamsOnly 模式時，系統管理員會更新這些使用者的 TeamsOnly 模式。  隨著部署的進展，越來越多的使用者會從商務用 Skype 轉換成 TeamsOnly 模式。  在此轉換期間：
+有些組織可能想要讓使用者在組織從商務用 Skype 轉換為小組時，為他們的使用者提供更簡單且更具預見性的體驗。 在這個模型中，IT 系統管理員會在 TeamsUpgradePolicy 中使用其中一個商務用 Skype 模式，以明確指定哪些使用者在遷移到 TeamsOnly 模式之前仍在商務用 Skype 中。 當他們準備好將選取的使用者移至 TeamsOnly 模式時，系統管理員會更新這些使用者的 TeamsOnly 模式。 隨著部署的進展，越來越多的使用者會從商務用 Skype 轉換成 TeamsOnly 模式。  在此轉換期間：
 
 - 無論是來自其他使用者的小組或商務用 Skype 用戶端，仍在商務用 Skype 中的使用者都會收到其商務用 Skype 用戶端的所有傳入聊天和通話。 此外，對於這些商務用 Skype 使用者，小組用戶端中的 [通話與聊天] 功能已停用，以協助避免使用者混淆，並確保正確地進行路由。 
 
 - 在 TeamsOnly 模式中的使用者會收到其團隊用戶端中的所有傳入聊天和通話，而不管通訊來自何處：團隊、商務用 Skype 或任何類型的同盟使用者。 
 
-與孤島方法不同的是，在受管理的轉換方法中，商務用 Skype 使用者和 TeamsOnly 使用者可以彼此通訊。 商務用 Skype 使用者與團隊使用者之間的通訊稱為互通性或 "互通性"。 （請參閱[互通性](#interoperability)。）在商務用 Skype 和小組中的另一個使用者之間，互通性通訊可能是一對一的。 此外，受邀的使用者永遠都可以加入商務用 Skype 或團隊會議，但是他們必須使用與會議類型相對應的用戶端。 如需詳細資訊，請參閱[會議](#meetings)。
+與孤島方法不同的是，在 [選取功能] 方法中，商務用 Skype 使用者和 TeamsOnly 使用者可以彼此通訊。 商務用 Skype 使用者與團隊使用者之間的通訊稱為互通性或 "互通性"。 （請參閱[互通性](#interoperability)。）在商務用 Skype 和小組中的另一個使用者之間，互通性通訊可能是一對一的。 此外，受邀的使用者永遠都可以加入商務用 Skype 或團隊會議，但是他們必須使用與會議類型相對應的用戶端。 如需詳細資訊，請參閱[會議](#meetings)。
 
-因為受管理轉換中的使用者通常不是孤島模式，所以無論其他使用者使用哪一個用戶端，使用者的目前狀態都是一致的。 如果使用者使用的是其中一種商務用 Skype 模式，所有其他使用者都會在商務用 Skype 中根據該使用者的活動查看目前狀態。 同樣地，如果使用者處於 TeamsOnly 模式，則所有其他使用者會根據團隊中該使用者的活動查看目前狀態。 如需詳細資訊，請參閱目前[狀態](#presence)。
+因為在選取功能轉換中的使用者通常不會使用孤島模式，所以無論其他使用者使用哪個用戶端，使用者的目前狀態都是一致的。 如果使用者使用的是其中一種商務用 Skype 模式，所有其他使用者都會在商務用 Skype 中根據該使用者的活動查看目前狀態。 同樣地，如果使用者處於 TeamsOnly 模式，則所有其他使用者會根據團隊中該使用者的活動查看目前狀態。 如需詳細資訊，請參閱目前[狀態](#presence)。
 
-對於尚未使用小組開始的組織，系統管理員應該將全租使用者的模式從孤島變更為 SfbWithTeamsCollab。 （適用于已有一些團隊使用的組織，系統管理員應該「grandfather」小組中已開啟的使用者，以確保此變更不適用於他們。 如需詳細資訊，請參閱[已在孤島模式中使用團隊之組織的受管理升級](#a-managed-upgrade-for-an-organization-that-is-already-using-teams-in-islands-mode)。
+對於尚未使用小組開始的組織，系統管理員應該將全租使用者的模式從孤島變更為 SfbWithTeamsCollab。 （適用于已有一些團隊使用的組織，系統管理員應該「grandfather」小組中已開啟的使用者，以確保此變更不適用於他們。 如需詳細資訊，請參閱[已在孤島模式中使用團隊之組織的 [選取功能更新](#a-select-capabilities-upgrade-for-an-organization-that-is-already-using-teams-in-islands-mode)]。
 
 當模式從孤島變更為 SfbWithTeamsCollab 時，如果使用者使用的是商務用 Skype，就不會有任何差異。 不過，如果使用者要開始使用小組，就只會對功能（例如團隊 & 頻道和檔案）公開。 小組中不提供聊天、通話和會議排程，因為系統管理員擁有（適用于目前）指派商務用 Skype 作為這些功能的所需用戶端。  
 
@@ -118,7 +118,7 @@ ms.locfileid: "41836205"
 | 專業人員     |       利弊 |
 | :------------------ | :---------------- |
 | 可預測的最終使用者路由。  根據系統管理員的選取，在商務用 Skype 或團隊（但不是兩者）中，所有通話和聊天都是居住的。  | 互通性交談缺少豐富文字、檔案共用及螢幕共用的支援。  這可以與點播會議進行合作，但這並不是無縫的。  |
-| 消除對使用者造成的混亂，因為只有一位用戶端提供所提供的功能。  | 使用者不能同時針對相同的一組功能嘗試並行兩個用戶端。 如果使用者認為從商務用 Skype 移至團隊，做為主要模式班次，這可能特別是一個因數。 |
+| 消除對使用者造成的混亂，因為只有一位用戶端提供所提供的功能。  | 使用者不能同時嘗試兩個用戶端的同一組功能。 如果使用者認為從商務用 Skype 移至團隊，做為主要模式班次，這可能特別是一個因數。 |
 | 可讓團隊增加簡介。  |  | |
 | 系統管理員完全控制從商務用 Skype 到團隊的轉場。 |  | | 
 | 允許組織使用團隊進行會議，即使尚未準備好將其完全移至 TeamsOnly 模式。 |  | |
@@ -128,7 +128,7 @@ ms.locfileid: "41836205"
 
 下表摘要列出升級的方法：
 
-| 並排（使用孤島模式）     |      管理（使用商務用 Skype 模式） |
+| 重迭的功能（使用孤島模式）     |      選取功能（使用商務用 Skype 模式） |
 | :------------------ | :---------------- |
 | 在升級到 TeamsOnly 之前，使用者必須同時執行這兩個用戶端，因為傳入聊天和通話可能會在其中一個用戶端中進行。   | [聊天] 只會根據收件者的模式，在一個用戶端中呼叫土地。 未升級的使用者可以同時執行這兩個用戶端，但不存在任何正常的重迭（在小組中不提供通話與聊天）。  系統管理員也可以控制使用者是否要在小組或商務用 Skype 中排程會議。   |
 | 使用者可以並排使用商務用 Skype 和團隊來提供相同的功能。   | 可讓系統管理員將小組的網路新功能引入使用者（團隊和頻道），但不提供在商務用 Skype 中也存在的相同功能。   |
@@ -138,7 +138,7 @@ ms.locfileid: "41836205"
 
 針對上述其中一種方法，系統管理員會使用[TeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)（控制使用者的共存模式）來管理轉換為 TeamsOnly。 如需每個模式的詳細資訊，請參閱[共存模式](migration-interop-guidance-for-teams-with-skype.md#coexistence-modes)。
 
-無論系統管理員是使用商務用 Skype 模式執行受管理的轉場，或是從預設孤島設定直接升級至 TeamsOnly 模式，TeamsUpgradePolicy 是主要工具。  就像團隊中的任何其他原則一樣，TeamsUpgradePolicy 可以直接指派給使用者，也可以設定為租使用者範圍的預設值。 針對使用者的任何指派，都優先于租使用者預設設定。  它可以在團隊管理員主控台和 PowerShell 中進行管理。
+系統管理員是使用商務用 Skype 模式執行選取功能轉場，或只從預設孤島設定升級到 TeamsOnly 模式，TeamsUpgradePolicy 是主要工具。  就像團隊中的任何其他原則一樣，TeamsUpgradePolicy 可以直接指派給使用者，也可以設定為租使用者範圍的預設值。 針對使用者的任何指派，都優先于租使用者預設設定。  它可以在團隊管理員主控台和 PowerShell 中進行管理。
 
 系統管理員可以將任何 TeamsUpgradePolicy 模式指派給使用者，不論該使用者是駐留在商務用 Skype Online 或內部部署中，除了只能將 TeamsOnly 模式指派給已駐留在商務用 Skype Online 的使用者外。 這是因為，只有當使用者駐留在商務用 Skype Online 中，才可以使用商務用 Skype 使用者和同盟進行交互操作。
 
@@ -228,22 +228,22 @@ Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 
 本節將說明下列升級選項：
 
-- 並行升級（使用孤島模式）
-- 尚未使用團隊開始的組織的受管理升級
-- 已在孤島模式中使用團隊之組織的受管理升級
+- 重迭的功能更新（使用孤島模式）
+- 尚未使用團隊開始的組織的 [選取功能更新]
+- 已在孤島模式中使用團隊之組織的 [選取功能更新]
 
-### <a name="side-by-side-upgrade-using-islands-mode"></a>並行升級（使用孤島模式）
+### <a name="overlapping-capabilities-upgrade-using-islands-mode"></a>重迭的功能更新（使用孤島模式）
 
-若要並排升級選項：
+針對 [重迭的功能更新] 選項：
 
 - 如果您可以為整體組織執行快速升級，請考慮此選項。  由於同時執行這兩個用戶端有潛在的風險，因此最好將此時段最小化。 您應該確保您的使用者知道同時執行這兩個用戶端。
 
 - 此選項是現成的模型，而且不需要系統管理員指令即可開始使用小組，除非指派 Office 365 授權。 如果您的使用者已經有商務用 Skype Online，您可能已經在這個模型中了。
 
-- 這可能會讓人感挑戰性，並移至 TeamsOnly。 由於升級的使用者只透過團隊進行通訊，組織中與該使用者進行通訊的任何其他使用者都必須使用團隊。  如果您有尚未開始使用小組的使用者，他們會面臨遺失的郵件。 此外，他們在商務用 Skype 中不會看到 TeamsOnly 使用者的線上狀態。 有些組織會選擇使用租使用者全域原則來執行租使用者範圍的升級，以避免這種情況，但需要等到所有使用者都準備好進行升級。
+- 在重迭功能模式並移至 TeamsOnly 時，可能會造成困難。 由於升級的使用者只透過團隊進行通訊，組織中與該使用者進行通訊的任何其他使用者都必須使用團隊。  如果您有尚未開始使用小組的使用者，他們會面臨遺失的郵件。 此外，他們在商務用 Skype 中不會看到 TeamsOnly 使用者的線上狀態。 有些組織會選擇使用租使用者全域原則來執行租使用者範圍的升級，以避免這種情況，但需要等到所有使用者都準備好進行升級。
 
 
-### <a name="a-managed-upgrade-for-an-organization-that-has-not-yet-started-using-teams"></a>尚未使用團隊開始的組織的受管理升級
+### <a name="a-select-capabilities-upgrade-for-an-organization-that-has-not-yet-started-using-teams"></a>尚未使用團隊開始的組織的 [選取功能更新]
 
 如果您的組織在團隊中還沒有任何作用中的使用者，第一個步驟是將 TeamsUpgradePolicy 的預設租使用者範圍原則設定為其中一個商務用 Skype 模式，例如 SfbWithTeamsCollab。  尚未開始使用團隊的使用者，將不會注意到行為的任何差異。 不過，在租使用者層級設定此原則，就可以開始將使用者升級至 TeamsOnly 模式，並確保升級後的使用者仍可與未升級的使用者通訊。  一旦您發現您的試驗使用者，您就可以將其升級至 TeamsOnly。  如果他們是內部部署，請使用 Move-csuser。 如果它們是線上的，只要使用 TeamsUpgradePolicy 就能指派 TeamsOnly 模式。  根據預設，由這些使用者排程的任何商務用 Skype 會議都會遷移至團隊。
 
@@ -275,12 +275,12 @@ Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 - Move-csuser 是內部部署工具中的一個 Cmdlet。 MoveToTeams 開關需要使用 CU8 的商務用 Skype Server 2019 或商務用 Skype Server 2015。 如果您使用的是先前的版本，您可以先將使用者移至商務用 Skype Online，然後將 TeamsOnly 模式授與該使用者。
 - 根據預設，當您升級至 TeamsOnly 模式或指派 SfbWithTeamsCollabAndMeetings 模式時，商務用 Skype 會議會遷移至團隊。  
 
-下圖顯示的是組織的受管理升級的概念性階段，不含預先使用的團隊。 橫條圖的高度代表使用者數目。 在升級的任何階段中，所有使用者都可以彼此通訊。  商務用 Skype 使用者使用互通性與 TeamsOnly 使用者進行通訊，反之亦然。
+下圖顯示的是沒有預先使用團隊之組織之 [選取功能更新] 的概念性階段。 橫條圖的高度代表使用者數目。 在升級的任何階段中，所有使用者都可以彼此通訊。  商務用 Skype 使用者使用互通性與 TeamsOnly 使用者進行通訊，反之亦然。
 
-![顯示未預先使用團隊之受管理升級的圖表](media/teams-upgrade-1.png)
+![顯示 [沒有預先使用團隊的選取功能更新的圖表]](media/teams-upgrade-1.png)
 
 
-### <a name="a-managed-upgrade-for-an-organization-that-is-already-using-teams-in-islands-mode"></a>已在孤島模式中使用團隊之組織的受管理升級
+### <a name="a-select-capabilities-upgrade-for-an-organization-that-is-already-using-teams-in-islands-mode"></a>已在孤島模式中使用團隊之組織的 [選取功能更新]
 
 如果貴組織中的部分使用者積極地在孤島模式中使用團隊，您可能不想移除現有使用者的功能。 因此，您必須先執行額外步驟，才能變更租使用者範圍的原則。 解決方案是在將租使用者範圍的原則設定為 SfbWithTeamsCollab 之前，將這些現有的活動團隊使用者「grandfather」成孤島模式。  完成之後，您就可以繼續進行部署，不過，您將會有兩個使用者群組會移至 TeamsOnly：在團隊中使用中的使用者將會處於孤島模式，其餘的使用者將處於 SfbWithTeamsCollab 模式。 您可以逐步將這些使用者移至 TeamsOnly 模式。
 
@@ -318,10 +318,10 @@ Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
    Move-CsUser -Identity $user -Target sipfed.online.lync.com -MoveToTeams -credential $cred 
    ```
 
-下圖顯示的是受管理轉換的概念性階段，在開始時，會有活躍的孤島使用者。 橫條圖的高度代表使用者數目。 在升級的任何階段中，所有使用者都可以彼此通訊。  商務用 Skype 使用者使用互通性與 TeamsOnly 使用者進行通訊，反之亦然。
+下圖顯示的是選取功能轉換的概念性階段，在開始時，有活躍的孤島使用者。 橫條圖的高度代表使用者數目。 在升級的任何階段中，所有使用者都可以彼此通訊。  商務用 Skype 使用者使用互通性與 TeamsOnly 使用者進行通訊，反之亦然。
 
 
-![顯示在孤島模式中使用作用中使用者進行的 managed 升級的圖表](media/teams-upgrade-2.png)
+![圖表顯示在孤島模式中使用 [選取功能更新] 的活動使用者](media/teams-upgrade-2.png)
 
    
 
@@ -337,7 +337,7 @@ Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 
 - *在商務用 Skype 內部部署中使用企業語音的使用者*，他們將會移至線上並使用 Microsoft 通話方案。  將此使用者遷移至團隊需要將使用者的內部部署商務用 Skype 帳戶移至雲端，並將該使用者電話號碼的埠與 A 進行協調）指派新的訂閱者號碼可用區域。
 
-本文僅提供高層次的概覽。  如需詳細資訊，請參閱[手機系統 Direct 路由](direct-routing-landing-page.md)與[通話方案](calling-plan-landing-page.md)。 此外，請注意，只有當使用者處於 TeamsOnly 模式時，才會支援使用電話系統與團隊。  如果使用者使用的是孤島模式，則只有商務用 Skype 支援電話系統。 
+本文僅提供高層次的概覽。 如需詳細資訊，請參閱[手機系統 Direct 路由](direct-routing-landing-page.md)與[通話方案](calling-plan-landing-page.md)。 此外，請注意，只有當使用者處於 TeamsOnly 模式時，才會支援使用電話系統與團隊。  如果使用者使用的是孤島模式，則只有商務用 Skype 支援電話系統。 
 
 ### <a name="from-skype-for-business-online-with-microsoft-calling-plans"></a>使用 Microsoft 通話方案從商務用 Skype Online 
 

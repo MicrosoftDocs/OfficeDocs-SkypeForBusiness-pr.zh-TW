@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.quickstartteamsadmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 51fd22257635502e92b89482f320b6bd68987cfe
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 2acb9d1734bb04c4db522417064c3d99fd660d89
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826701"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41863214"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams 中的聊天、團隊、頻道和應用程式
 
@@ -53,7 +53,7 @@ Teams 為您的組織提供絕佳的現成共同作業體驗，而大部分組�
 
 |問問自己|動作 |
 |------------|-------|
-|我的組織是否已準備好要推出 Teams？|若要回答此問題，請參閱： <ul><li> [針對 Teams 檢查環境的整備程度](environment-readiness.md)</li><li>[針對 Teams 準備組織的網路](prepare-network.md)</li><li>[Office 365 URL 與 IP 位址範圍](office-365-urls-ip-address-ranges.md)</li><li>[建立團隊時規劃 Office 365 群組](plan-office-365-groups.md)</li></ul>|
+|我的組織是否已準備好要推出 Teams？|若要回答此問題，請參閱： <ul><li>[針對 Teams 準備組織的網路](prepare-network.md)</li><li>[Office 365 URL 與 IP 位址範圍](office-365-urls-ip-address-ranges.md)</li><li>[建立團隊時規劃 Office 365 群組](plan-office-365-groups.md)</li></ul>|
 |||
 
 ## <a name="core-deployment-decisions"></a>核心部署決策

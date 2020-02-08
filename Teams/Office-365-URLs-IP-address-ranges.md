@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 52bbf0ae0c104989c63315b42d3aaa08985da637
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 1258138ce6f57dfb0284e030f7a813acf8b94a62
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834383"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41862793"
 ---
 <a name="office-365-urls-and-ip-address-ranges"></a>Office 365 URL 與 IP 位址範圍
 =====================================
@@ -32,6 +32,6 @@ ms.locfileid: "41834383"
 
 團隊通話和會議體驗是在由 Skype 與商務用 Skype 同時使用的下一代雲端基礎結構上建立。 這些技術投資包括適用于媒體處理的 Azure 雲端服務和信號、.H 視頻編解碼器、絞絲及 Opus 音訊編解碼器、網路復原、遙測及品質診斷。 如此一來，可能會有與 Skype 和商務用 Skype 相關聯所需的 Url 和 Ip。
 
-針對所有的 Office 365 工作負載，建議的 [團隊服務] 連線方法是在可能的情況下略過轉寄 proxy。 當 proxy 伺服器位於用戶端與 Office 365 資料中心時，媒體可能會受到 TCP （而不是 UDP）的影響，而不會影響媒體質量。 下載範例 proxy PAC 檔案，這些檔案可用來設定從[管理 Office 365 端點](https://support.office.com/article/99cab9d4-ef59-4207-9f2b-3728eb46bf9a)到繞過流量旁路的情況。
+針對所有的 Office 365 工作負載，建議的 [團隊服務] 連線方法是在可能的情況下略過轉寄 proxy。 當 proxy 伺服器位於用戶端與 Office 365 資料中心時，媒體可能會受到 TCP （而不是 UDP）的影響，而不會影響媒體質量。 下載範例 proxy PAC 檔案，這些檔案可用來設定從[管理 Office 365 端點](https://docs.microsoft.com/office365/enterprise/managing-office-365-endpoints)到繞過流量旁路的情況。
 
-如果您的網路和安全性原則需要 Office 365 流量來流過 proxy 伺服器，請務必先滿足上述需求，然後再將團隊部署到生產環境中（[請查看小組的 Proxy 伺服器或商務用 Skype Online](proxy-servers-for-skype-for-business-online.md)以取得指導方針）。
+如果您的網路和安全性原則需要 Office 365 流量，才能透過 proxy 伺服器流過，請先確認已滿足上述需求，才能將團隊部署到生產環境。 如需詳細資訊，請參閱[小組或商務用 Skype Online 的 Proxy 伺服器](proxy-servers-for-skype-for-business-online.md)。

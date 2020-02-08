@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d403a97b5c9a7320834d6c78f78cafa28d54116a
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 42b4efcd2e9b38aebb7f44d3aa09d7be1ca634f3
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837183"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41863524"
 ---
 # <a name="about-the-upgrade-framework"></a>關於升級架構
 
@@ -68,7 +68,7 @@ ms.locfileid: "41837183"
 | 循序漸進 |  | 總結 | 資源 |
 |------|--|---------|----------|
 | **1** | **評估您的環境與完成團隊的技術加入** | 確定您的環境已準備好讓團隊協助優化使用者體驗，並在一段時間後輕鬆升級。 | [升級至團隊之前先評估您的環境](upgrade-plan-journey-evaluate-environment.md)。<br><br> [準備您的服務以升級至小組](upgrade-prepare-environment-prepare-service.md) |
-| **2** | **針對團隊優化網路，特別是針對即時媒體案例** | 如果您要部署音訊、影片或會議，請採取這些額外步驟來優化您的網路，以取得該功能。 | [準備您的網路以升級至團隊](upgrade-prepare-environment-prepare-network.md) |
+| **2** | **針對團隊優化網路，特別是針對即時媒體案例** | 如果您要部署音訊、影片或會議，請採取這些額外步驟來優化您的網路，以取得該功能。 | [準備您的網路以升級至團隊](prepare-network.md) |
 | **3** | **評估組織變更準備情況及定義團隊合作案例** | 瞭解您的使用者基礎，以準備正確的價值訊息與教育層級，以促進並加速使用者的採用。 | [組織變更就緒性](upgrade-org-change-readiness.md#organizational-change-readiness) |
 | **4** | **準備使用者準備方案以定義您將如何溝通、訓練及支援使用者** | 個人化您的通訊、訓練與支援方案，以確保最佳 receptiveness 新的技術。 | [準備使用者整備計畫](upgrade-user-readiness.md)<br><br>[升級成功套件](https://aka.ms/UpgradeSuccessKit) |
 | **500** | **宣告 Microsoft 團隊的擱置啟動** | 儘早進行溝通，以協助使用者感覺，減少混亂並產生令人興奮的效果。 | [升級成功套件](https://aka.ms/UpgradeSuccessKit) |

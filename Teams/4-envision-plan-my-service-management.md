@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c44d1b35c19abb224f40bf71c81c61b91967c182
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 1268a87e5e5ae48547e1f2489641ac13cd3bae64
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825151"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41862713"
 ---
 # <a name="plan-my-service-management"></a>規劃我的服務管理
 
@@ -36,7 +36,7 @@ ms.locfileid: "41825151"
 服務管理的概念很可能不是大多陣列織的新概念。 您可能已經實現與現有服務相關聯的進程和工作。 如此一來，您可能會在規劃服務管理時補充所需的內容，以備日後支援 Microsoft 團隊。
 
 服務管理包括管理 Microsoft 團隊端到端的所有活動與程式。 服務管理的部分元件（由 Office 365 服務本身所組成的基礎結構元件）是 Microsoft 的責任，而客戶對其使用者負責管理團隊、網路和的各個方面。其提供的端點。
-如需團隊服務管理的客戶責任以及其與 underpin 使用者體驗品質的關鍵元件的完整討論，請參閱[規劃服務管理和品質](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide)。
+如需團隊服務管理的客戶責任以及其與 underpin 使用者體驗品質的關鍵元件的完整討論，請參閱[規劃服務管理和品質](https://docs.microsoft.com/MicrosoftTeams/prepare-network)。
 
 ![三個品質元件的圖表](media/plan-my-service-management-image1.png "這三個元件的 [品質]--[Office 365 服務]、[網路] 和 [端點] 的圖表，以及服務管理如何與這三個元件重迭。")
 
@@ -62,7 +62,7 @@ ms.locfileid: "41825151"
 >下列是一個範本範例，可將您執行以支援此專案的操作角色對應練習的結果進行記錄。
 
 
-|操作角色 |說明 |團隊 |連絡人詳細資料 |
+|操作角色 |描述 |團隊 |連絡人詳細資料 |
 |---------|---------|---------|---------|
 |服務擁有者|服務擁有者、公司分部介面、戰略|TBA|TBA|
 |音訊會議作業|每日作業、使用者和裝置帳戶移動/新增/變更、監控|TBA| TBA| 

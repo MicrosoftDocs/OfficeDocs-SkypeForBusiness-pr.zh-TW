@@ -17,16 +17,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Calling Plans
 description: Office 365 中的電話系統提供使用者指派電話號碼的預設本機號碼。 您可以變更或封鎖使用者的本機號碼（也稱為通話行識別碼）。 若要深入瞭解如何在您的組織中使用本機號碼，請參閱如何在貴組織中使用本機號碼。
-ms.openlocfilehash: b41399a747e472203c8a906a1fd43c9981cf5136
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 9b31e761ee59626482b0cd98991ae1ab886af7b6
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41694008"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41838093"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>設定使用者的來電顯示
 Office 365 中的電話系統提供使用者指派電話號碼的預設本機號碼。 您可以變更或封鎖使用者的本機號碼（也稱為通話行識別碼）。 若要深入瞭解如何在[您的組織](how-can-caller-id-be-used-in-your-organization.md)中使用本機號碼，請參閱如何在貴組織中使用本機號碼。

@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是適用于商務用 Skype 的 Office 365 服務，以及適用于特立尼達和多巴哥的 Microsoft 團隊。
-ms.openlocfilehash: 1bac3c3f105e78d11231a81d9cd69c9c061fb09c
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 1828add9420ba55c789e058b0f0c6e16350cb63b
+ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41683396"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41852163"
 ---
 # <a name="availability-in-trinidad-and-tobago"></a>特立尼達和多巴哥可用性
 
@@ -62,6 +62,8 @@ ms.locfileid: "41683396"
 |通話方案可供購買嗎？  <br/> |否  <br/> |
 |通話方案可用的分鐘數  <br/> |不適用  <br/> |
 |可以撥出電話至嗎？  <br/> |不適用  <br/> |
+
+如果無法購買通話方案，請考慮使用[電話系統 Direct 路由](../direct-routing-landing-page.md)。 透過直接路由，您可以在幾乎任何電話運營商中使用電話系統。
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服務的付費和免付費電話號碼
 

@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eab5673c1b4dcbc1810c96588577e6ee53938609
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 2e3ef345df2696cd0d450f8b16d93508d0eed545
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837143"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41863514"
 ---
 ![升級歷程圖表，強調卓越運作階段](media/upgrade-banner-op-excellence.png "升級歷程階段，重點放在卓越運作階段")
 
@@ -147,7 +147,7 @@ Microsoft System Center 是一個整合的管理平臺，可協助您管理資�
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>每日/每週/每月/所需任務
 
-| 操作 | 說明 | 節奏 | 指派的小組 |
+| 操作 | 描述 | 節奏 | 指派的小組 |
 |---|---|---|---|
 | 監視服務健康情況 | 使用可用的工具，主動監視 Microsoft 團隊服務健康情況（以及相依服務）。 相依服務包括： Exchange Online、SharePoint Online、商務用 OneDrive、Azure Active Directory。 | 即時 | |
 | 事件通知 | 通知內部干係人影響團隊服務的活動。 內部的專案關係人可加入使用者、服務中心及事件管理器。 | 視需要 | |
@@ -220,7 +220,7 @@ Microsoft 團隊是雲端服務。 如此一來，就能夠快速提供新的功
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>每日/每週/每月/所需任務
 
-| 操作| 說明| 節奏| 指派的小組 |
+| 操作| 描述| 節奏| 指派的小組 |
 |---|---|---|---|
 | 監控變更| 監視 Microsoft 團隊服務即將進行的變更。| 日常||
 | 規劃變更| 評估並規劃新功能，包括溝通方案、線上認知活動，以及訓練。| 視需要 ||
@@ -275,7 +275,7 @@ Microsoft 團隊是雲端服務。 如此一來，就能夠快速提供新的功
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>每日/每週/每月/所需任務
 
-| 操作 | 說明 | 節奏 | 指派的小組 |
+| 操作 | 描述 | 節奏 | 指派的小組 |
 |---|---|---|---|
 | 測量使用量（啟用階段） | 在啟用階段繼續 onboarded 網站時，測量及評估團隊使用方式。 根據需要解決使用方式問題。 | 周更新 | |
 | 測量使用量 | 在「磁片磁碟機價值」階段中測量及評估團隊的使用方式（部署完成後）。 根據需要解決使用方式問題。 | 快遞 | |
@@ -328,7 +328,7 @@ NPS 是一個從–100到100的索引，可以衡量客戶對公司產品或服�
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>每日/每週/每月/視需要的任務
 
-| 操作 | 說明 | 節奏 | 指派的小組 |
+| 操作 | 描述 | 節奏 | 指派的小組 |
 |---|---|---|---|
 | 評估使用者觀點 | 使用問卷調查或訪談，或透過團隊或 Yammer 中的意見反應頻道來捕獲及評估使用者觀點。 | 視需要 | |
 | 更新採納方案 | 根據使用者意見反應，在您的組織中變更磁片磁碟機;這可能包含您的通訊方案變更、訓練程式，或您提供給使用者支援的方式。 | 視需要 | |
@@ -345,7 +345,7 @@ NPS 是一個從–100到100的索引，可以衡量客戶對公司產品或服�
 
 ## <a name="manage-network-quality"></a>管理網路品質
 
-許多核心規劃元素會進入優化、調整大小及修正您的網路基礎結構，以確保 Microsoft 團隊服務的高品質、高效的路徑。 規劃工作與需求在我們的[網路準備](upgrade-prepare-environment-prepare-network.md)指導方針中講述。 網路由於升級、擴充或其他業務需求而經常隨著時間不斷演化。 您必須針對網路規劃活動中的小組需求加以考慮，這一點非常重要。
+許多核心規劃元素會進入優化、調整大小及修正您的網路基礎結構，以確保 Microsoft 團隊服務的高品質、高效的路徑。 規劃工作與需求在我們的[網路準備](prepare-network.md)指導方針中講述。 網路由於升級、擴充或其他業務需求而經常隨著時間不斷演化。 您必須針對網路規劃活動中的小組需求加以考慮，這一點非常重要。
 
 雖然網路規劃是小組部署的重要層面，但務必確保網路保持健康狀態，並根據變更的業務或技術需求保持在最新狀態。
 
@@ -353,7 +353,7 @@ NPS 是一個從–100到100的索引，可以衡量客戶對公司產品或服�
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>每日/每週/每月/所需任務
 
-| 操作 | 說明 | 節奏 | 指派的小組 |
+| 操作 | 描述 | 節奏 | 指派的小組 |
 |---|---|---|---|
 | 監視 Office 365 IPs 與 Url | 使用提供的[RSS](https://go.microsoft.com/fwlink/p/?linkid=236301)摘要來監控[Office 365 url 和 IP 位址範圍](https://aka.ms/o365ips)的任何變更，並啟動適用網路群組的變更要求。 | 日常 | |
 | 根據 Office 365 IPs 和 Url 的變更來更新網路 | 更新適用的網路元件（防火牆、proxy 伺服器、Vpn、用戶端防火牆等等），以反映[Office 365 url 與 IP 位址範圍](https://aka.ms/o365ips)的變更。 | 視需要 | |
@@ -386,7 +386,7 @@ NPS 是一個從–100到100的索引，可以衡量客戶對公司產品或服�
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>每日/每週/每月/所需任務
 
-| 操作 | 說明 | 節奏 | 指派的小組 |
+| 操作 | 描述 | 節奏 | 指派的小組 |
 |---|---|---|---|
 | 提名與訓練品質擁護者（s） | 提名並訓練品質專家。 | 視需要 | |
 | 執行經驗檢查品質審查（QERs） | 執行 QER 以找出品質與可靠性的趨勢、針對已定義的目標進行審查，以及向組織中的主要干係人報告。 | 每月（在部署期間每週） | |
@@ -431,7 +431,7 @@ Wi-fi 驅動程式可能會造成問題。 舉例來說，驅動程式可能會�
 
 1. **驗證服務健康情況：** 使用者可能遇到的問題，可能與對團隊服務或 itsdependent 服務產生負面影響的事件有關。 第一步，我們建議您確認沒有作用中的服務問題。 請參閱[如何檢查 Office 365 服務健康情況](https://support.office.com/article/How-to-check-Office-365-service-health-932AD3AD-533C-418A-B938-6E44E8BC33B0)。 請記得檢查相依服務的狀態（例如，Exchange、SharePoint、商務用 OneDrive）。 如需深入瞭解服務健康情況，請在上一節 [[監視服務健康情況](#monitor-service-health)] 中進一步討論。
 
-2. **驗證用戶端連線：** 連線問題導致小組中的功能或登入問題。 我們建議您驗證與服務的連線性（尤其是新網站或位置）。 請確定每個網站都遵循下列[Office 365 url 和 IP 位址範圍](https://aka.ms/o365ips)指引。 您可以利用[Microsoft 網路評估工具](https://www.microsoft.com/download/details.aspx?id=53885)來執行連線測試，以驗證媒體埠是否已正確開啟以供團隊功能使用。 [網路就緒](upgrade-prepare-environment-prepare-network.md)指示中提供如何執行連線測試的詳細步驟。
+2. **驗證用戶端連線：** 連線問題導致小組中的功能或登入問題。 我們建議您驗證與服務的連線性（尤其是新網站或位置）。 請確定每個網站都遵循下列[Office 365 url 和 IP 位址範圍](https://aka.ms/o365ips)指引。 您可以利用[Microsoft 網路評估工具](https://www.microsoft.com/download/details.aspx?id=53885)來執行連線測試，以驗證媒體埠是否已正確開啟以供團隊功能使用。 [網路就緒](prepare-network.md)指示中提供如何執行連線測試的詳細步驟。
 
 3. **檢查已知問題清單：** 請參閱[小組已知問題的清單](known-issues.md)，以判斷是否有這些問題對使用者造成負面影響。 遵循提供的因應措施（如果有的話）來解決問題。
 
@@ -441,7 +441,7 @@ Wi-fi 驅動程式可能會造成問題。 舉例來說，驅動程式可能會�
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>每日/每週/每月/所需任務
 
-| 操作 | 說明 | 節奏 | 指派的小組 |
+| 操作 | 描述 | 節奏 | 指派的小組 |
 |---|---|---|---|
 | 端點需求 | 確定團隊端點繼續符合在[Microsoft 團隊取得用戶端](get-clients.md)中所列之團隊的所有軟體需求。 | 次 | |
 | 端點防火牆 | 根據[Office 365 url 和 IP 位址範圍](https://aka.ms/o365ips)中的資訊，在端點防火牆上維護適當的排除。 您的協力廠商廠商將提供有關如何維護排除項的特定指導方針。 訂閱[rss](https://support.office.com/o365ip/rss)摘要，以自動收到變更的通知。 | 視需要 | |
@@ -494,7 +494,7 @@ Wi-fi 驅動程式可能會造成問題。 舉例來說，驅動程式可能會�
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>每日/每週/每月/所需任務
 
-| 操作 | 說明 | 節奏 | 指派的小組 |
+| 操作 | 描述 | 節奏 | 指派的小組 |
 |---|---|---|---|
 | 服務管理 | 管理整個租使用者的團隊設定。 | 視需要 | |
 | 使用者管理 | 在小組中管理使用者的設定和授權。 | 視需要 | |

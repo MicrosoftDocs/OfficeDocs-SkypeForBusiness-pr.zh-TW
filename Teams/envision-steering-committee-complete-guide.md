@@ -15,12 +15,12 @@ localization_priority: Normal
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a4ab037b416ab7a197f15729c73d8c1b9e107e50
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 4338e2b6b169fa6f8fc46ae116f3d297096543f7
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41832793"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41862984"
 ---
 # <a name="steering-committee"></a>籌畫指導委員會
 
@@ -127,7 +127,7 @@ ms.locfileid: "41832793"
 
         -   識別後續步驟，以及委員會成員可能需要的協助。
 
--   品質概覽：使用[品質擁護](envision-planning-for-service-management-and-quality-complete-guide.md#the-quality-champion-role)者的報表
+-   品質概覽：使用指導方針[為小組準備您的網路](prepare-network.md)。
 
     -   準備深入說明這些品質報告的結果，並加入修正任何所述問題的建議。
 

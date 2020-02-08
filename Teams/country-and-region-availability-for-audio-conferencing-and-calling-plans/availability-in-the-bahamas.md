@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是適用于商務用 Skype 和 Microsoft 團隊（巴哈馬）的 Office 365 服務。
-ms.openlocfilehash: f7737dc9409f44629b45ae1a181846f85972ed0d
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: e29521e5af41fae97570f4f66baf134952a5ce49
+ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41683516"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41852321"
 ---
 # <a name="availability-in-the-bahamas"></a>巴哈馬中的可用性
 
@@ -61,6 +61,8 @@ ms.locfileid: "41683516"
 |通話方案可供購買嗎？  <br/> |否  <br/> |
 |通話方案可用的分鐘數  <br/> |不適用  <br/> |
 |可以撥出電話至嗎？  <br/> |不適用  <br/> |
+
+如果無法購買通話方案，請考慮使用[直接路由](../direct-routing-landing-page.md)。 透過直接路由，您可以在幾乎任何電話運營商中使用電話系統。
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服務的付費和免付費電話號碼
 
