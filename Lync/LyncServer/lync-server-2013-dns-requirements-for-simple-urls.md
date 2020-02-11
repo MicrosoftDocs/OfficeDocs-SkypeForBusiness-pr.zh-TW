@@ -12,18 +12,18 @@ ms:contentKeyID: 48183912
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bfc827a1cd48bdc6a7a15b8ba54f7ac451d1b352
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2a05b5e5afc645c9219d02c8a551e4c0af9d93b0
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737373"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888712"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="https://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="dns-requirements-for-simple-urls-in-lync-server-2013"></a>Lync Server 2013 中簡單 URL 的 DNS 需求
 
@@ -182,13 +182,13 @@ Lync Server 支援下列三個簡單的 Url： [開會]、[撥入] 和 [管理�
 
 若要設定這一點，請建立兩個 GeoDNS 位址。 每個位址都有兩個 DNS A 或 CNAME 記錄，可解析成成對組成的兩個池以進行災害復原。 一個 GeoDNS 位址用於內部存取，並解析為兩個池的內部網路 FQDN 或負載平衡器 IP 位址。 其他 GeoDNS 位址是用於外部存取，並解析為兩個池的外部 web FQDN 或負載平衡器 IP 位址。 下列是使用池之 Fqdn 的 [符合簡單 URL] 的範例。
 
-   ```
+   ```console
     Meet-int.geolb.contoso.com
          Pool1InternalWebFQDN.contoso.com
          Pool2InternalWebFQDN.contoso.com
    ```
 
-   ```
+   ```console
    Meet-ext.geolb.contoso.com
          Pool1ExternalWebFQDN.contoso.com
          Pool2ExternalWebFQDN.contoso.com
@@ -212,8 +212,10 @@ Lync Server 支援下列三個簡單的 Url： [開會]、[撥入] 和 [管理�
 
 設定此設定之後，您必須使用監視應用程式來設定 HTTP 監視來監視失敗。 針對外部存取，請務必確認 HTTPS 取得對外部網路 FQDN 的自動探索要求，或兩個池的負載平衡器 IP 位址成功。 例如，下列要求不能包含任何**ACCEPT**標頭，而且必須傳回**200 OK**。
 
+```console
     HTTPS GET Pool1ExternalWebFQDN.contoso.com/autodiscover/autodiscoverservice.svc/root
     HTTPS GET Pool2ExternalWebFQDN.contoso.com/autodiscover/autodiscoverservice.svc/root
+```
 
 針對內部存取，您必須在兩個池的內部網路 FQDN 或負載平衡器 IP 位址上，監視埠5061。 如果偵測到任何連線失敗，這些池的 VIP 必須關閉埠80、443和444。
 

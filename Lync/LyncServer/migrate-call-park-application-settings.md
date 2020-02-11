@@ -12,18 +12,18 @@ ms:contentKeyID: 49733583
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4ba55ec7ff54858d3324df2ab8794176a5dc7a10
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ee1afd2e53bd29571818b9194fe77d3d350386f1
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762961"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888762"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="https://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="migrate-call-park-application-settings"></a>移轉通話駐留應用程式設定
 
@@ -39,11 +39,11 @@ _**主題上次修改日期：** 2012-10-19_
 
 從 Lync Server 2010 將呼叫駐留應用程式遷移至 Lync Server 2013，包括設定 Lync Server 2013 池以及在 Lync Server 2010 中上傳的任何自訂音樂保留檔案，還原服務層級設定和 retargeting所有呼叫公園軌道式移至 Lync Server 2013 池。 如果您已在 Lync Server 2010 pool 中設定自訂的音樂保留檔案，則需要將這些檔案複製到新的 Lync Server 2013 池。 此外，建議您將來自 Lync Server 2010 的任何通話駐留自訂的音樂保留檔案從 Lync Server 備份到另一個目的地，以保留針對通話駐留上傳的任何自訂音樂保留檔案的個別備份複本。 通話駐留應用程式的自訂音樂保留檔案會儲存在該池的檔案存放區中。 若要將 Lync Server 2010 pool 檔案存放區中的音訊檔案複製到 Lync Server 2013 檔案存放區，請使用**Xcopy**命令及下列參數：
 
-   ```
+   ```console
     Xcopy <Source: Lync Server 2010 Pool CPS File Store Path> <Destination: Lync Server 2013 Pool CPS File Store Path>
    ```
 
-   ```
+   ```console
     Example usage:  Xcopy "<Lync Server 2010 File Store Path>\OcsFileStore\coX-ApplicationServer-X\AppServerFiles\CPS\"  "<Lync Server 2013 File Store Path>\OcsFileStore\coX-ApplicationServer-X\AppServerFiles\CPS\" 
    ```
 
@@ -65,8 +65,8 @@ _**主題上次修改日期：** 2012-10-19_
 
     
     </div>
-    
-        Set-CsCpsConfiguration -Identity "<LS2013 Call Park Service ID>" -CallPickupTimeoutThreshold "<LS2010 CPS TimeSpan>" -EnableMusicOnHold "<LS2010 CPS value>" -MaxCallPickupAttempts "<LS2010 CPS pickup attempts>" -OnTimeoutURI "<LS2010 CPS timeout URI>"
+    ```powershell
+        Set-CsCpsConfiguration -Identity "<LS2013 Call Park Service ID>"-CallPickupTimeoutThreshold"<LS2010 CPS TimeSpan>"-EnableMusicOnHold"<LS2010 CPS value>"-MaxCallPickupAttempts"<LS2010 CPS pickup attempts>"-OnTimeoutURI"<LS2010 CPS timeout URI>"```
 
 若要將所有通話駐留軌道範圍從 Lync Server 2010 pool 重新指派給 Lync Server 2013，您可以使用 Lync Server 的 [控制台] 或 [Lync Server 管理命令介面]。
 
@@ -87,14 +87,17 @@ _**主題上次修改日期：** 2012-10-19_
 1.  開啟 Lync Server 管理命令介面。
 
 2.  在命令列中，輸入下列內容：
-    
-        Get-CsCallParkOrbit
+    ```powershell
+    Get-CsCallParkOrbit
+    ```
     
     這個 Cmdlet 會列出部署中所有的通話駐留軌道的範圍。 所有已設定為 Lync Server 2010 池之**CallParkServiceId**和**CallParkServerFqdn**參數的通話駐留軌道式，都必須重新分派。
     
     若要將 Lync Server 2010 通話駐留軌道範圍重新指派給 Lync Server 2013 池，請在命令列輸入下列內容：
     
-        Set-CsCallParkOrbit -Identity "<Call Park Orbit Identity>" -CallParkService "service:ApplicationServer:<Lync Server 2013 Pool FQDN>"
+    ```powershell
+    Set-CsCallParkOrbit -Identity "<Call Park Orbit Identity>" -CallParkService "service:ApplicationServer:<Lync Server 2013 Pool FQDN>"
+    ```
 
 將所有通話駐留軌道範圍重新指派給 Lync Server 2013 池之後，通話駐留應用程式的遷移程式將會完成，而 Lync Server 2013 池會處理所有未來的通話駐留要求。
 
