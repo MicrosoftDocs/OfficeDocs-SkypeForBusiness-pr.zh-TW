@@ -1,0 +1,53 @@
+### YamlMime:Hub
+title: Microsoft Teams 技術文件
+summary: Microsoft Teams 技術文件
+brand: teams
+metadata:
+  title: Microsoft Teams 技術文件
+  description: Microsoft Teams 技術文件
+  ms.service: msteams
+  ms.topic: hub-page
+  audience: ITPro
+  author: samanro
+  ms.author: samanro
+  ms.date: 07/03/2019
+  localization_priority: Priority
+  ms.openlocfilehash: 6c588d03d27d0f4c6641546a75e9e371b2b8c04b
+  ms.sourcegitcommit: 5e2dc3430e63bc0a17b87a63fa36ac93d96d8134
+  ms.translationtype: MT
+  ms.contentlocale: zh-TW
+  ms.lasthandoff: 02/11/2020
+  ms.locfileid: "41889422"
+additionalContent:
+  sections:
+  - title: IT 專業人員
+    items:
+    - title: 歡迎使用 Teams
+      summary: 取得團隊的概覽，並以團隊管理員或 IT 專業人員的身分瞭解您所需的技術指導方針。
+      url: /MicrosoftTeams/teams-overview
+    - title: 從商務用 Skype 升級至 Teams
+      summary: 尋找指導方針與工具來探索團隊的最佳路徑。
+      url: /MicrosoftTeams/upgrade-start-here
+    - title: 採用中樞
+      summary: 取得工具以支援您的團隊推出。
+      url: /MicrosoftTeams/adopt-microsoft-teams-landing-page
+    - title: 尋找訓練與影片
+      summary: 取得小組訓練-適用于您和您的使用者。
+      url: /MicrosoftTeams/training-microsoft-teams-landing-page
+    - title: 海報：Teams 架構和電話語音解決方案
+      summary: 取得小組 IT 架構與電話解決方案的可列印圖例。
+      url: /microsoftteams/teams-architecture-solutions-posters
+    - title: 在組織中擴大 Teams
+      summary: 尋找您行業的自訂解決方案，包括醫療保健、第一線員工工人、零售、政府及教育版。
+      url: /MicrosoftTeams/expand-teams-across-your-org/expand-teams-across-your-organization-landing-page
+  - title: 針對其他物件
+    items:
+    - title: Teams 技術社群
+      summary: 加入小組技術社區來提出問題並取得答案，並閱讀小組博客。
+      url: https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams
+    - title: 使用者 Teams 說明
+      summary: 移至 [說明]、[訓練]，以及適用于最終使用者的新內容。
+      url: https://support.office.com/Teams
+    - title: Teams 開發人員平台
+      summary: 瞭解團隊開發人員平臺，以及它如何讓您建立實用且功能強大的 app。
+      url: /microsoftteams/platform/overview
