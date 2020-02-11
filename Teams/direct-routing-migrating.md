@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 瞭解從商務用 Skype Online 和團隊設定觀點來決定要從商務用 Skype 移植所需的專案。
-ms.openlocfilehash: 85b53bf33cd8f9015ea9294876a06da3532ad085
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: fa7a3e09d4f79328545bff29b2f440ba0bfe6990
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836053"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888582"
 ---
 # <a name="migrate-to-direct-routing"></a>移轉至直接路由
 
@@ -31,7 +31,7 @@ ms.locfileid: "41836053"
 - 在商務用 Skype Server （適用于商務用 Skype Online）中使用內部部署 PSTN 連線的 Office 365 Phone 系統  
 - 使用雲端連接器版本（適用于商務用 Skype Online）進行內部部署 PSTN 連線的 Office 365 Phone 系統
 
-  
+
 除了這些設定步驟之外，還需要在會話邊界控制器（SBC）上進行設定，以將呼叫路由至新的路線。 超出本檔範圍。 如需詳細資訊，請參閱您的 SBC 供應商檔。  
 
 ## <a name="user-provisioning-end-state-for-various-pstn-connectivity-options"></a>針對各種 PSTN 連接選項的使用者預配結束狀態 
@@ -72,7 +72,7 @@ OnPremLineURI |不適用|電話號碼必須從內部部署的 AD 進行同步處
  
 建議您移除先前設定的授權方案資訊，如下所示：
  
-```
+```powershell
 $companyname = “contoso” 
 $lic1 = $companyname + “:MCOPSTN1” 
 $lic2 = $companyname + “:MCOPSTN2” 
@@ -91,6 +91,7 @@ Set-MsolUserLicense -UserPrincipalName <UPN> -RemoveLicenses $lic2
 ```PowerShell
 Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN> 
 ```
+> [!NOTE]
 > 如果設定了全域 CsVoiceRoutingPolicy，建議您移除與此全域原則相關聯的任何 PSTN 使用方式。 
 
 ## <a name="migrating-from-office-365-phone-system-with-on-premises-pstn-connectivity-via-cloud-connector-edition"></a>透過雲端連接器 Edition 透過 Office 365 Phone System 與內部部署 PSTN 連線能力進行遷移 

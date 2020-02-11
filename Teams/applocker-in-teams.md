@@ -15,12 +15,12 @@ f1.keywords:
 description: 瞭解如何啟用 AppLocker 應用程式控制原則的小組桌面用戶端應用程式。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2d3e9df38164c5253aab3a331b47b26892a910b7
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 13a1afd4ad4089db3c6b0c1223bf06831d9be667
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826381"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888552"
 ---
 # <a name="applocker-application-control-policies-in-microsoft-teams"></a>Microsoft 團隊中的 AppLocker 應用程式控制原則
 
@@ -42,7 +42,7 @@ AppLocker 規則會組織成集合規則。 AppLocker 規則會套用至目標�
 
 對於團隊用戶端應用程式（所有檔案，所有版本），請將下列專案新增至可執行檔規則 & DLL 規則：
 
-```
+```console
 Publisher: O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US
 Product name: MICROSOFT TEAMS
 Product name: MICROSOFT TEAMS UPDATE

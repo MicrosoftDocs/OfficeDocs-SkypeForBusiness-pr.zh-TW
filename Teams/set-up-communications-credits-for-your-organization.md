@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Licensing
 description: '瞭解如何為您的使用者和組織設定通訊點數（PSTN 消費）帳單授權。 '
-ms.openlocfilehash: 426ca88cb25aad988960add812595f89eed17595
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: e1672c2d3c66690393e34b90fbeb1b2be4d54042
+ms.sourcegitcommit: 5e2dc3430e63bc0a17b87a63fa36ac93d96d8134
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838023"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41889412"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>設定貴組織的通訊點數
 
@@ -58,9 +58,9 @@ ms.locfileid: "41838023"
 
 1. 使用您的公司或學校帳戶登入新的 Office 365 入口網站。
     
-2. 在 Microsoft 365 系統管理中心的左導覽中，移至 [**帳單** > **訂閱** > ]**新增訂閱**。
+2. 在 Microsoft 365 系統管理中心的左導覽中，前往 [**帳單** > **購買服務**]。 向下滾動，然後選取 [**附加**元件]。
 
-3. 展開 **[附加元件訂閱**]，然後選擇 [**通訊點數** > ] [**立即購買**]。
+3. 選取 [**通訊點數**]。
     
 4. 在 [**通訊點數**訂閱] 頁面上，填入您的資訊，然後按 **[下一步]**：
     
@@ -93,9 +93,9 @@ ms.locfileid: "41838023"
     
 2. 在 Microsoft 365 系統管理中心的左導覽中，移至 [**使用者** > 作用中的**使用者**]，然後從清單中選取一個或多位使用者。
     
-3. 在 [**產品授權**] 底下的 [動作] 窗格中，按一下 [**編輯**]。
+3. 選擇 [**授權及應用程式**]。
     
-4. 在 [**產品授權**] 頁面上，將 [**通訊點數**] 切換至 [**開啟**] 以指派此授權，然後按一下 [**儲存**]。
+4. 將**通訊點數**切換至 [**開啟**] 以指派此授權，然後選取 [**儲存**]。
     
     > [!NOTE]
     > 即使您有指派**企業版 E5**授權的使用者，仍建議您這麼做。

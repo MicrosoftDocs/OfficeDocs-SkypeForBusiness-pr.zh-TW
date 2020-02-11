@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何針對 Microsoft 團隊中的雲端語音功能設定網路設定。
-ms.openlocfilehash: d192fdd03f38b3e9c7fb0832d3a84bf464af0665
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 2f615de14cb38c24a1789b968e7c77e38698e26d
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837493"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888702"
 ---
 # <a name="manage-your-network-topology-for-cloud-voice-features-in-microsoft-teams"></a>在 Microsoft 團隊中管理雲端語音功能的網路拓撲
 
@@ -104,11 +104,14 @@ New-CsTenantNetworkRegion -NetworkRegionID "India"
 ```PowerShell
 New-CsTenantNetworkSite -NetworkSiteID <site ID> -NetworkRegionID <region ID>
 ```
+
 在這個範例中，我們會在印度區域中建立兩個新的網路網站、新德里與 Hyderabad。
+
 ```PowerShell
 New-CsTenantNetworkSite -NetworkSiteID "Delhi" -NetworkRegionID "India"
 New-CsTenantNetworkSite -NetworkSiteID "Hyderabad" -NetworkRegionID "India"
 ```
+
 下表顯示在這個範例中定義的網路網站。
 
 ||網站1 |網站2 |
@@ -131,8 +134,8 @@ New-CsTenantNetworkSubnet -SubnetID <Subnet IP address> -MaskBits <Subnet bitmas
 ```PowerShell
 New-CsTenantNetworkSubnet -SubnetID "192.168.0.0" -MaskBits "24" -NetworkSiteID "Delhi"
 New-CsTenantNetworkSubnet -SubnetID "2001:4898:e8:25:844e:926f:85ad:dd8e" -MaskBits "120" -NetworkSiteID "Hyderabad"
-
 ```
+
 下表顯示在這個範例中定義的子網。
 
 ||網站1 |網站2 |
@@ -142,11 +145,14 @@ New-CsTenantNetworkSubnet -SubnetID "2001:4898:e8:25:844e:926f:85ad:dd8e" -MaskB
 |網站識別碼  | Site （新德里） | Site 2 （Hyderabad） |
 
 針對多個子網，您可以使用如下的腳本匯入 CSV 檔案。
+
 ```PowerShell
 Import-CSV C:\subnet.csv | foreach {New-CsTenantNetworkSubnet –SubnetID $_.SubnetID-MaskBits $_.Mask -NetworkSiteID $_.SiteID}  
 ```
+
 在這個範例中，CSV 檔案看起來像這樣：
-```output
+
+```console
 Identity, Mask, SiteID
 172.11.12.0, 24, Redmond
 172.11.13.0, 24, Chicago
@@ -159,10 +165,13 @@ Identity, Mask, SiteID
 ### <a name="define-external-subnets-external-trusted-ip-addresses"></a>定義外部子網（外部信任的 IP 位址）
 
 使用[CsTenantTrustedIPAddress](https://docs.microsoft.com/powershell/module/skype/new-cstenanttrustedipaddress?view=skype-ps) Cmdlet 來定義外部子網，並將其指派給租使用者。 您可以為租使用者定義不受限制的外部子網數。
+
 ```PowerShell
 New-CsTenantTrustedIPAddress -IPAddress <External IP address> -MaskBits <Subnet bitmask> -Description <description> 
 ```
+
 例如：
+
 ```PowerShell
 New-CsTenantTrustedIPAddress -IPAddress 198.51.100.0 -MaskBits 30 -Description "Contoso address"  
 ```

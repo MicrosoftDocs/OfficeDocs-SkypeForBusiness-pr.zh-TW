@@ -16,12 +16,12 @@ ms.reviewer: mikedav
 description: 瞭解如何指派音訊會議、電話系統和通話方案等功能的授權。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 967b67c1d8bc92009e1319260373c9b8abc52b99
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 46ae5952d79f3f0ef0a6137b240661550ecead00
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826311"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888682"
 ---
 # <a name="assign-microsoft-teams-licenses"></a>指派 Microsoft 團隊授權
 
@@ -58,7 +58,7 @@ ms.locfileid: "41826311"
 
 腳本中的授權或產品名稱的名稱會以斜體列出（請參閱在此範例之後，請參閱[電話系統和通話方案產品名稱或 sku 用於腳本](#phone-system-and-calling-plans-product-names-or-skus-used-for-scripting)）。
 
-```
+```powershell
 #Create a text file with a single row containing list of UserPrincipalName (UPN) of users to license. The MSOLservice uses UPN to license user accounts in Office 365.
 
 #Example of text file:
@@ -93,6 +93,7 @@ for each ($user in $users)
  }
 
 ```
+
 ## <a name="phone-system-and-calling-plans-product-names-or-skus-used-for-scripting"></a>用於腳本的電話系統和通話方案產品名稱或 Sku
 
 | 產品名稱 | SKU 元件名稱 |
@@ -131,7 +132,7 @@ for each ($user in $users)
 
 這個範例會指派企業版 E3 授權以及音訊會議授權。
 
-```
+```powershell
 #Create a text file with a single row containing list of UserPrincipalName(UPN) of users to license. The MSOLservice uses UPN to license user accounts in Office 365.
 #Example of text file:
 #user1@domain.com
@@ -165,6 +166,7 @@ foreach ($user in $users)
     Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "companyname:MCOMEETADV " -ErrorAction SilentlyContinue
     }
 ```
+
 ## <a name="audio-conferencing-product-names-or-skus-used-for-scripting"></a>用於腳本的音訊會議產品名稱或 SKU
 
 | 產品名稱 | SKU 元件名稱 |

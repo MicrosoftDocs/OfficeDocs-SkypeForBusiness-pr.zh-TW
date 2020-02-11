@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 31a8731d5d9a1717b3e8574aae3de4a8402dfb78
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 6f57eeb44fd728d1b656ce13f56cf2c5997805b9
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41832483"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888362"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>使用 Microsoft 端點 Configuration Manager 安裝 Microsoft 團隊
 
@@ -104,11 +104,14 @@ MSI 的預設行為是在使用者登入後立即安裝 [小組] app，然後自
 您可以使用**選項 = "noAutoStart = true"** 參數來停用 MSI 安裝程式的自動啟動，如下所示。  
 
 針對32位版本
-```PowerShell
+
+```console
 msiexec /i Teams_windows.msi OPTIONS="noAutoStart=true"
 ```
+
 針對64位版本
-```PowerShell
+
+```console
 msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true"
 ```
 

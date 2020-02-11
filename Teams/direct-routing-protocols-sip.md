@@ -17,12 +17,12 @@ f1.keywords:
 description: 直接路由式通訊協定
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5fc90ace7a2b1bd8a6984c7268903a1a6063e137
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 6b93ea469a1a27e796b5cc2016fd63c9cfd3acdd
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41835033"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888562"
 ---
 # <a name="direct-routing---sip-protocol"></a>直接路由 SIP 通訊協定
 
@@ -92,7 +92,7 @@ ms.locfileid: "41835033"
 
 目前電話號碼必須包含加號（+），如下列範例所示。 
 
-```
+```console
 INVITE sip:+18338006777@sip.pstnhub.microsoft.com SIP /2.0
 ```
 
@@ -204,7 +204,7 @@ SIP proxy 會根據 SBC 所報告的功能，選取該方法。 如果 SBC 指�
 
 下列是一個 SBC 範例，該範例會傳送支援 method 方法的訊息：
 
-```
+```console
 ALLOW: INVITE, OPTIONS, INFO, BYE, CANCEL, ACK, PRACK, UPDATE, REFER, SUBSCRIBE, NOTIFY
 ```
 
@@ -212,7 +212,7 @@ ALLOW: INVITE, OPTIONS, INFO, BYE, CANCEL, ACK, PRACK, UPDATE, REFER, SUBSCRIBE,
 
 指示不支援此參考方法的 SBC 範例：
 
-```
+```console
 ALLOW: INVITE, ACK, CANCEL, BYE, INFO, NOTIFY, PRACK, UPDATE, OPTIONS
 ```
 
@@ -253,7 +253,7 @@ SIP proxy 會將「參考」視為 SIP URI，由主機名稱中的 SIP proxy FQD
 
 [被參照] 標頭是一個 SIP URI，其上有 transferor MRI，以及 transferor 租使用者識別碼和其他傳輸內容參數，如下表所示：
 
-| 參數 | 值 | 說明 |  
+| 參數 | 值 | 描述 |  
 |:---------------------  |:---------------------- |:---------------------- |
 | x-m | MRI | 以 [抄送] 填充的 transferor/轉讓目標的完整 MRI |
 | x-y | 租使用者識別碼 | x-y 的租使用者識別碼（由 CC 填入）選用的租使用者識別碼 |
@@ -292,7 +292,7 @@ Microsof [建議] 請務必套用 user = 電話參數，以簡化通話設定處
 
 以下是 SIP proxy 傳送之歷程記錄資訊標頭的格式：
 
-```
+```console
 <sip:UserB@sip.pstnhub.microsoft.com?Privacy=history&Reason=SIP%3B\cause%3D486>;index=1.2,
 ```
 
@@ -301,7 +301,7 @@ Microsof [建議] 請務必套用 user = 電話參數，以簡化通話設定處
 
 頁首範例：
 
-```
+```console
 History-info: 
 <sip:+14257123456@sip.pstnhub.microsoft.com;user=phone?Reason=SIP;cause=302;text=”Move Temporarily”>;index=1
 <sip:+14257123457@sip.pstnhub.microsoft.com;user=phone?Reason=SIP;cause=496;text=”User Busy”>;index=1.1

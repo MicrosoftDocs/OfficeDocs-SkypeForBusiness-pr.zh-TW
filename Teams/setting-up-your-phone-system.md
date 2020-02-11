@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: '瞭解如何為您的組織設定電話系統（雲端 PBX）。 '
-ms.openlocfilehash: 71e12447d0a6951ef787bf7c7cd82024375e11fd
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: e1ae56200132ab4468b6db8d490c12d11b7a6deb
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837983"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888722"
 ---
 # <a name="set-up-phone-system-in-your-organization"></a>在組織中設定電話系統
 
@@ -116,7 +116,7 @@ ms.locfileid: "41837983"
 
 ## <a name="step-8-if-you-want-to-set-up-a-cloud-auto-attendant"></a>步驟8：如果您想要設定雲端自動助理
 
-自動語音應答讓撥入您組織的人員，並流覽功能表系統，以取得正確的部門、呼叫佇列、人員或接線員。 您可以使用商務用 Skype 系統管理中心，為您的組織建立自動語音應答。
+自動語音應答讓撥入您組織的人員，並流覽功能表系統，以取得正確的部門、呼叫佇列、人員或接線員。 您可以使用小組系統管理中心，為您的組織建立自動語音應答。
 
 如需設定雲端自動 attendendant 的相關資訊，請參閱[設定雲端自動](create-a-phone-system-auto-attendant.md)語音應答。
 

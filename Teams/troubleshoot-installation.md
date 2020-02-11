@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何針對 Windows 上的小組桌面用戶端應用程式的安裝與更新問題進行疑難排解。
-ms.openlocfilehash: f47edf351d6a55f57977fee823d670b749896049
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 5c6ee4da7e4bb78463cb262cb382e3a090529bb5
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837623"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888842"
 ---
 # <a name="troubleshoot-microsoft-teams-installation-and-update-issues-on-windows"></a>針對 Windows 上的 Microsoft 團隊安裝和更新問題進行疑難排解
 
@@ -77,36 +77,36 @@ ms.locfileid: "41837623"
 
     1. 執行下列動作，移至您的 TEMP 資料夾：
 
-        ```
+        ```console
         cd /d %TEMP%
         ```
     2. 複製設定和應用程式記錄。 請注意，根據失敗的點，可能不會顯示部分記錄。
 
-        ```
+        ```console
         copy %LocalAppData%\SquirrelTemp\SquirrelSetup.log SquirrelSetup.log
         copy %AppData%\Microsoft\Teams\logs.txt logs.txt
         copy %LocalAppData%\Microsoft\Teams\SquirrelSetup.log SquirrelSetup_Teams.log
         ```
     3. 執行下列動作來捕獲開啟的控點。
 
-        ```
+        ```console
         handle > handles.txt
         ```
 
     4. 執行下列動作來捕獲開啟的 Dll。
 
-        ```
+        ```console
         listdlls -v Teams > dlls.txt
         ```
     5. 執行下列動作來捕獲正在執行的驅動程式。
 
-        ```
+        ```console
         driverquery /v > driverquery.txt
         ```
 
     6. 執行下列動作來捕獲 [小組] 資料夾的存取控制清單（Acl）。
 
-        ``` 
+        ```console 
         icacls %LOCALAPPDATA%\Microsoft\Teams /save icacls.txt /T
         ```
 

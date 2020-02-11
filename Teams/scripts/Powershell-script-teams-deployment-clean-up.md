@@ -15,12 +15,12 @@ description: 使用此 PowerShell 腳本清除目的電腦或特定使用者的 
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-ms.openlocfilehash: f6e6f54bb1e0a4098994f4fb17b167f8ae02dd70
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: c02b918d0fe3d686266fd385a5378e47d98e2508
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827581"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888252"
 ---
 <a name="powershell-script-sample---microsoft-teams-deployment-clean-up"></a>PowerShell 腳本範例-Microsoft 團隊部署清理
 -------------------------------------------------------------------------
@@ -30,7 +30,7 @@ ms.locfileid: "41827581"
 
 ## <a name="sample-script"></a>範例腳本
 
-````powershell
+```powershell
 <#
 .SYNOPSIS
 This script allows you to uninstall the Microsoft Teams app and remove Teams directory for a user.
@@ -61,6 +61,6 @@ catch
     Write-Error -ErrorRecord $_
     exit /b 1
 }
-````
+```
 
 

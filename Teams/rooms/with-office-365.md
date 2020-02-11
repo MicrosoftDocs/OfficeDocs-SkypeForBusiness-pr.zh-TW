@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: 如需有關如何使用 Office 365 部署 Microsoft 團隊聊天室的資訊，請閱讀本主題。
-ms.openlocfilehash: d3fcfdd0b2aabc5d69946ba60b5b8c6fbc73f713
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 39a703b844df1a1ff487187772ff8eb8ea035191
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827441"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888752"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-office-365"></a>使用 Office 365 部署 Microsoft 團隊聊天室
 
@@ -36,7 +36,7 @@ ms.locfileid: "41827441"
 
 - Office 365 方案中的商務用 Skype Online （方案2或企業方案）或更高版本。 方案需要允許電話撥入式會議功能。
 
-- 如果您需要來自會議的撥入功能，您將需要音訊會議和電話系統授權。  如果您需要來自會議的撥出功能，您需要國內或國內和國際通話方案。
+- 如果您需要來自會議的撥入功能，您將需要音訊會議和電話系統授權。  如果您需要來自會議的撥出功能，您需要音訊會議授權。
 
 - 您的租使用者必須有 Exchange 信箱。
 

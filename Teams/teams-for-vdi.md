@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e412f6f45fabda12ca01df0f50c46f3989b0afd1
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 7abe63551eee449afd507a786cd2efbf70e89afa
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837663"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888642"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>虛擬化桌面基礎結構的團隊
 
@@ -141,7 +141,7 @@ Office 365 專業增強版不支援小組的每電腦安裝。 若要使用 [每
 
     - 每位使用者安裝（預設）
   
-        ```
+        ```console
         msiexec /i <path_to_msi> /l*v <install_logfile_name>
         ```
     
@@ -149,7 +149,7 @@ Office 365 專業增強版不支援小組的每電腦安裝。 若要使用 [每
     
     - 每電腦安裝
 
-        ```
+        ```console
         msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1
         ```
 
@@ -165,7 +165,7 @@ Office 365 專業增強版不支援小組的每電腦安裝。 若要使用 [每
     
     - 命令列：此方法會移除團隊，但不會重新安裝團隊。 執行下列命令：
   
-      ```
+      ```console
       msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name>
       ```
       這會從 [程式檔（x86）] 資料夾或 [Program Files] 資料夾中卸載小組，視作業系統環境而定。

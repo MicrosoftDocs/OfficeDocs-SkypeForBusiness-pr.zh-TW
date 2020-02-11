@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 瞭解如何設定 Microsoft Phone 系統 Direct 路由。
-ms.openlocfilehash: 22cb8e289cd78d1736bb594280c6ebfc248c02a0
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 86406af88648d367f02fd420c9ba278bdfd47185
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836083"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888592"
 ---
 # <a name="configure-direct-routing"></a>設定直接路由
 
@@ -49,9 +49,9 @@ ms.locfileid: "41836083"
 
 以下是可讓您將 SBC 連接或配對至直接路由介面的三個高層次步驟： 
 
-- 使用 PowerShell**連線到商務用 Skype Online**系統管理中心 
-- 對 SBC 進行配對 
-- 驗證配對 
+1. 使用 PowerShell**連線到商務用 Skype Online**系統管理中心 
+2. 對 SBC 進行配對 
+3. 驗證配對 
 
 ### <a name="connect-to-skype-for-business-online-by-using-powershell"></a>使用 PowerShell 連線到商務用 Skype Online 
 
@@ -109,7 +109,7 @@ Enabled               : True
  
 下表列出您可以在設定參數時使用的其他參數```New-CsOnlinePstnGateway```。
 
-|必填？|名稱|說明|設置|可能值|類型與限制|
+|必填？|名稱|描述|設置|可能值|類型與限制|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |是|稱|SBC 的 FQDN 名稱 |無|NoneFQDN name，限制63字元|在[Active Directory 中針對電腦、網域、網站和組織單位命名慣例](https://support.microsoft.com/help/909264)的允許和禁止字元清單|
 |否|MediaBypass |指示 SBC 的參數支援「媒體旁路」，且系統管理員想要使用它。|無|滿足<br/>虛假|Boolean|
@@ -204,16 +204,16 @@ Enabled               : True
     Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<E.164 phone number>
     ```
 
-例如，若要將使用者的電話號碼新增至 [Spencer Low]，您可以輸入下列專案： 
+    例如，若要將使用者的電話號碼新增至 [Spencer Low]，您可以輸入下列專案： 
 
-```PowerShell
-Set-CsUser -Identity "Spencer Low" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
-```
+    ```PowerShell
+    Set-CsUser -Identity "Spencer Low" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+    ```
 
-所使用的電話號碼必須設定為完整的 E. 164 電話號碼（國家/地區碼）。 
+    所使用的電話號碼必須設定為完整的 E. 164 電話號碼（國家/地區碼）。 
 
-  > [!NOTE]
-  > 如果使用者的電話號碼是在內部部署管理，請使用內部部署商務用 Skype 管理命令介面或 [控制台] 來設定使用者的電話號碼。 
+      > [!NOTE]
+      > 如果使用者的電話號碼是在內部部署管理，請使用內部部署商務用 Skype 管理命令介面或 [控制台] 來設定使用者的電話號碼。 
 
 ### <a name="configure-voice-routing"></a>設定語音路由 
 
@@ -260,10 +260,10 @@ Microsoft 通話方案會自動套用為所有擁有 Microsoft 通話方案授�
 
 下表摘要列出使用三個語音路由的配置。 在這個範例中，所有三個路由都是「美國和加拿大」相同的 PSTN 使用量。
 
-|**PSTN 使用量**|**語音路線**|**數位模式**|**優先順序**|**SBC**|**說明**|
+|**PSTN 使用量**|**語音路線**|**數位模式**|**優先順序**|**SBC**|**描述**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |僅限美國|"雷德蒙 1"|^\\+ 1 （425\|206）（\d{7}） $|1|sbc1.contoso.biz<br/>sbc2.contoso.biz|呼叫號碼 + 1 425 XXX XX xx 美元或 + 1 206 XXX XX xx 的活動路由|
-|僅限美國|"雷德蒙 2"|^\\+ 1 （425\|206）（\d{7}） $|2|sbc3.contoso.biz<br/>sbc4.contoso.biz|呼叫號碼的備份路由 + 1 425 XXX XX XX or + 1 206 XXX XX xx|
+|僅限美國|"雷德蒙 2"|^\\+ 1 （425\|206）（\d{7}） $|pplx-2|sbc3.contoso.biz<br/>sbc4.contoso.biz|呼叫號碼的備份路由 + 1 425 XXX XX XX or + 1 206 XXX XX xx|
 |僅限美國|"Other + 1"|^\\+ 1 （\d{10}） $|3|sbc5.contoso.biz<br/>sbc6.contoso.biz|呼叫號碼的路由 + 1 XXX XXX XXX xx （除 + 1 425 XXX XX 或 + 1 206 XXX XX xx 以外）|
 |||||||
 
@@ -286,7 +286,7 @@ Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="US and Canada"}
 Get-CSOnlinePSTNUsage
 ``` 
 這會傳回可能會被截斷的名稱清單：
-```output
+```console
 Identity    : Global
 Usage       : {testusage, US and Canada, International, karlUsage. . .}
 ```
@@ -441,10 +441,10 @@ John：可撥打任何號碼的電話。 呼叫雷德蒙的數位範圍時，必
 
 下表摘要列出路由策略「無限制」的使用方式指派和語音路由。 
 
-|**PSTN 使用量**|**語音路線**|**數位模式**|**優先順序**|**SBC**|**說明**|
+|**PSTN 使用量**|**語音路線**|**數位模式**|**優先順序**|**SBC**|**描述**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |僅限美國|"雷德蒙 1"|^\\+ 1 （425\|206）（\d{7}） $|1|sbc1.contoso.biz<br/>sbc2.contoso.biz|被呼叫者編號的作用中路由 + 1 425 XXX XX XX 或 + 1 206 XXX XX xx|
-|僅限美國|"雷德蒙 2"|^\\+ 1 （425\|206）（\d{7}） $|2|sbc3.contoso.biz<br/>sbc4.contoso.biz|被呼叫者編號的備份路由 + 1 425 XXX XX XX 或 + 1 206 XXX XX xx|
+|僅限美國|"雷德蒙 2"|^\\+ 1 （425\|206）（\d{7}） $|pplx-2|sbc3.contoso.biz<br/>sbc4.contoso.biz|被呼叫者編號的備份路由 + 1 425 XXX XX XX 或 + 1 206 XXX XX xx|
 |僅限美國|"Other + 1"|^\\+ 1 （\d{10}） $|3|sbc5.contoso.biz<br/>sbc6>. contoso.biz|被呼叫者的電話號碼 + 1 XXX XXX XX （不包括 + 1 425 XXX XX 或 + 1 206 XXX xx xx）|
 |國際|國際|\d +|4|sbc2.contoso.biz<br/>sbc5.contoso.biz|任何數位模式的路線 |
 
@@ -487,28 +487,28 @@ Name                      : International
 
 在此語音路由原則中，PSTN 使用 "雷德蒙 1" 和 "雷德蒙" 會重複使用，以保留對號碼 "+ 1 425 XXX XX" 和 "+ 1 206 XXX XX" （作為本機或內部部署的呼叫）的特殊處理。
 
-   ```PowerShell
-   New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"
-   ```
+  ```PowerShell
+  New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"
+  ```
 
 請注意 PSTN 的使用順序：
 
-是. 如果撥打的號碼是 "+ 1 425 XXX XX"，且使用下列範例所述的使用方式，則呼叫會遵循「美國和加拿大」用法中的路由設定，並套用特殊路由邏輯。 也就是說，通話是使用 sbc1.contoso.biz 和 sbc2.contoso.biz 進行路由，然後 sbc3.contoso.biz 和 sbc4.contoso.biz 做為備份路由。
+  是. 如果撥打的號碼是 "+ 1 425 XXX XX"，且使用下列範例所述的使用方式，則呼叫會遵循「美國和加拿大」用法中的路由設定，並套用特殊路由邏輯。 也就是說，通話是使用 sbc1.contoso.biz 和 sbc2.contoso.biz 進行路由，然後 sbc3.contoso.biz 和 sbc4.contoso.biz 做為備份路由。
 
-乙. 如果「國際」 PSTN 使用量在「美國和加拿大」之前，則對 + 1 425 XXX XX 的呼叫會路由至 sbc2.contoso.biz 和 sbc5.contoso.biz，成為路由邏輯的一部分。 輸入命令：
+  乙. 如果「國際」 PSTN 使用量在「美國和加拿大」之前，則對 + 1 425 XXX XX 的呼叫會路由至 sbc2.contoso.biz 和 sbc5.contoso.biz，成為路由邏輯的一部分。 輸入命令：
 
-```PowerShell
-New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"
-```
+  ```PowerShell
+  New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"
+  ```
 
-傳回
+返回：
 
-<pre>
-Identity              : International 
-OnlinePstnUsages : {US and Canada, International}    
-Description      :  
-RouteType             : BYOT
-</pre>
+    <pre>
+    Identity              : International 
+    OnlinePstnUsages : {US and Canada, International}    
+    Description      :  
+    RouteType             : BYOT
+    </pre>
 
 **步驟 4**：使用下列命令，將語音路由策略指派給使用者「John xxxxx」。
 
