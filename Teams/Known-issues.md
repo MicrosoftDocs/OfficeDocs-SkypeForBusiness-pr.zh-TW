@@ -18,12 +18,12 @@ f1.keywords:
 description: Microsoft Teams 用戶端應用程式和系統管理員體驗目前的已知問題清單。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1f18bd8fa85ce07596fe36106ea97ef36e698a78
-ms.sourcegitcommit: 8e2fa7b744d0a174b699ae7298d4688b971eeff3
+ms.openlocfilehash: b90c2ab7b204964082c05cbc657c4945f5730fde
+ms.sourcegitcommit: f859843003b34feab18a3d2df34fdbb9858e7148
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41845144"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41889446"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams 的已知問題
 
@@ -75,6 +75,10 @@ ms.locfileid: "41845144"
 |立即開會中的雲端視訊 Interop 資訊  <br/> ||如果您在 Microsoft Teams 中使用現有的 CVI 授權建立會議的 [立即開會] 執行個體，CVI 資訊將不會填入。 <br/> |建議您排程會議以填入這項資訊。  <br/> |2019/6/11  <br/> |
 
 ## <a name="authentication"></a>驗證
+
+|**問題標題**|**行為/徵狀**|**已知的因應措施**|**發現日期**|
+|:-----|:-----|:-----|:-----|
+|Teams 需要存取 Google Gstatic <br/> |Teams 目前需要讓所有使用者存取 (TCP 通訊埠 443) 連線到 Google ssl.gstatic.com 服務 (https://ssl.gstatic.com)。即使您沒有使用 Gstatic 亦同。 Teams 很快會移除此要求 (2020 年初)。 <br/> | 無因應措施。 <br/> |2020/2/10  <br/> |
 
 |**問題標題**|**行為/徵狀**|**已知的因應措施**|**發現日期**|
 |:-----|:-----|:-----|:-----|
