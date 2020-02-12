@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 請閱讀本主題，瞭解 Microsoft 手機系統直通路由如何讓您將支援的客戶提供的會話邊界控制器（SBC）連線至 Microsoft Phone 系統。
-ms.openlocfilehash: 4e6e26f0beaa74806ebc52ca31c007f5ec085fdc
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: d279792315aec17df10f5c1335306147c7080287
+ms.sourcegitcommit: eab284e2add7af1b3f3c5f1f77c0a3bbf77857a7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863174"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "41953774"
 ---
 # <a name="plan-direct-routing"></a>規劃直接路由
 
@@ -257,7 +257,7 @@ FQDN sip.pstnhub.gov.teams.microsoft.us 將解析成下列其中一個 IP 位址
 
 |**頻寬**|**從**|**自**|**來源埠**|**目的地埠**|
 |:--- |:--- |:--- |:--- |:--- |
-|SIP/TLS|SIP Proxy|SBC|1024–65535（適用于 Office 365 GCC 高/DoD 只有埠5061和5062必須使用）|在 SBC 上定義|
+|SIP/TLS|SIP Proxy|SBC|1024–65535|在 SBC 上定義（適用于 Office 365 GCC 高/DoD 專用埠5061和5062必須使用）|
 SIP/TLS|SBC|SIP Proxy|在 SBC 上定義|5061|
 ||||||
 
