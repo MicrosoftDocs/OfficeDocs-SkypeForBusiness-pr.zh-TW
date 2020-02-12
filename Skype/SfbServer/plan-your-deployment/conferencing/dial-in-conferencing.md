@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: ea024a26-37b3-410e-961b-83ab85c07540
 description: 摘要：請閱讀本主題，瞭解如何在商務用 Skype Server 中規劃電話撥入式會議。
-ms.openlocfilehash: 90fe1ff1770d34b9fe0671de1a2fc0f9382acae5
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: f78f5dcea5ce26bdfeb0ba52a6eeaf046ae6965b
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815991"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888542"
 ---
 # <a name="plan-for-dial-in-conferencing-in-skype-for-business-server"></a>在商務用 Skype Server 中規劃電話撥入式會議
  
@@ -92,9 +92,9 @@ ms.locfileid: "41815991"
 
 在使用商務用 Skype 時，會議目錄會在參與者用來加入會議的字母數位會議 ID 之間保留對應，以及電話撥入式會議參與者用來加入會議的僅限數位會議 ID。 會議 ID 的格式如下所示：
   
-```
-<housekeeping digit (1 digit)><conference directory (usually 1-2 digits)><conference number (variable number of digits><check digit (1 digit)>
-```
+
+\<內務處理位數（1位數\>\<）會議目錄（通常是 1-2\>\<位數）會議號碼（可變\>\<位數檢查位數（1位數）\>
+
 
 建立多個會議目錄可確保會議 Id 保持不變，直到建立大量的會議為止。 在每位使用者有典型會議數的組織中，我們建議您為池中的每個999使用者建立一個會議目錄。 使用這種準則，會議 Id 通常可以保持很小的狀態。 不過，一旦會議目錄數（跨多個池）超過9個，會議 ID 號碼就會增長以支援其他會議。
   

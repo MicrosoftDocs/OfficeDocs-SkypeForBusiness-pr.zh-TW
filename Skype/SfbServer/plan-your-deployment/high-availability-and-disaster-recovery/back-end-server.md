@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c559aacb-4e1d-4e78-9582-41f966ad418d
 description: 瞭解商務用 Skype Server 支援的後端伺服器高可用性選項，包括 AlwaysOn 可用性群組、AlwaysOn 容錯移轉叢集實例、資料庫鏡像，以及 SQL 容錯移轉叢集。
-ms.openlocfilehash: a0aeb53aea0ee2eab25875de0fddbfd0fc26d90a
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 4c814e525b3a1d0900e7162255ec4d7e86d79605
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815951"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888612"
 ---
 # <a name="back-end-server-high-availability-in-skype-for-business-server"></a>商務用 Skype Server 的後端伺服器高可用性
  
@@ -56,7 +56,7 @@ ms.locfileid: "41815951"
     
 
 > [!NOTE]
-> 在商務用 Skype Server 2015 中提供 SQL 鏡像，但商務用 Skype Server 2019 已不再支援。 使用商務用 Skype Server 2019 時，AlwaysOn 可用性群組、AlwaysOn 容錯移轉叢集實例（FCI）和 SQL 容錯移轉叢集方法都是可取的。
+> 在商務用 Skype Server 2015 中提供 SQL 鏡像，但商務用 Skype Server 2019 已不再支援。 在商務用 Skype Server 2019 中，AlwaysOn 可用性群組、AlwaysOn 容錯移轉叢集實例（FCI）和 SQL 容錯移轉叢集方法都是唯一受支援的選項。
     
 商務用 Skype Server 的後端伺服器高可用性不支援非同步資料庫鏡像。 在本檔的其餘部分中，資料庫鏡像代表同步資料庫鏡像，除非明確指出。 
   

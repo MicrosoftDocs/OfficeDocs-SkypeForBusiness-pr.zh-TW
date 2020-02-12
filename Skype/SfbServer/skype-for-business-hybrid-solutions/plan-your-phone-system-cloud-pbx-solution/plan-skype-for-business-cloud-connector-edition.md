@@ -20,18 +20,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: 在商務用 Skype 雲端連接器版本中尋找資訊，這是一組封裝的虛擬機器（Vm），可在 Office 365 （雲端 PBX）中實現與電話系統的內部部署 PSTN 連線。
-ms.openlocfilehash: 20ea88b230fe0fd9a590c489cb6f0017a2c27209
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 966c295692dcc176a9003d134a161c45e90d47e6
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814461"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41887732"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>規劃商務用 Skype 雲端連接器版本
 
 在商務用 Skype 雲端連接器版本中尋找資訊，這是一組封裝的虛擬機器（Vm），可在 Office 365 （雲端 PBX）中實現與電話系統的內部部署 PSTN 連線。
 
-如果您還沒有已有的 Lync 伺服器或商務用 Skype Server 部署，雲端連接器版本可能是貴組織的正確方案。 如果您仍在調查 Office 365 方案中的哪個電話系統適合您的企業，請參閱[Microsoft 電話方案](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)。
+如果您還沒有已有的 Lync 伺服器或商務用 Skype Server 部署，雲端連接器版本可能是貴組織的正確方案。 如果您仍在調查 Office 365 方案中的哪個電話系統適合您的企業，請參閱[Microsoft 電話方案](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)。
 
 本檔說明雲端連接器版本需求和支援的拓撲，並協助您規劃雲端連接器版本部署。 在設定雲端連接器環境之前，請務必閱讀本主題。 當您準備好要部署並設定雲端連接器版本時，請參閱[設定及管理商務用 Skype 雲端連接器版本](configure-skype-for-business-cloud-connector-edition.md)。
 
@@ -429,7 +429,7 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 
 - [Office 365 url 和 IP 位址範圍](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)中的[憑證吊銷清單 url](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2)
 
-- Windows Update：[如何為軟體更新設定防火牆](https://technet.microsoft.com/en-us/library/bb693717.aspx)
+- Windows Update：[如何為軟體更新設定防火牆](https://technet.microsoft.com/library/bb693717.aspx)
 
 - 商務用 Skype Online 系統管理 PowerShell \*：. online.lync.com
 
@@ -455,7 +455,7 @@ Edge 元件需要解析 Office 365 服務的外部名稱，以及其他雲端連
 首先，您必須定義下列常見的部署參數：
 
 
-|**選項**|**說明**|**筆記**|
+|**選項**|**描述**|**筆記**|
 |:-----|:-----|:-----|
 |SIP 網域  <br/> |公司使用者正在使用 SIP URI。 提供此部署所提供的所有 SIP 網域。 您可以有一個以上的 SIP 網域。  <br/> ||
 |PSTN 網站數量  <br/> |您將部署的 PSTN 網站數目。  <br/> ||
@@ -474,7 +474,7 @@ Edge 元件需要解析 Office 365 服務的外部名稱，以及其他雲端連
 
 
 
-|**網站參數**|**說明**|**筆記**|
+|**網站參數**|**描述**|**筆記**|
 |:-----|:-----|:-----|
 |虛擬電腦網功能變數名稱稱  <br/> |雲端連接器內部元件的功能變數名稱。 這個網域必須不同于生產網域。 所有雲端連接器裝置上的名稱必須相同。  <br/> 在 .ini 檔案中的名稱： "VirtualMachineDomain"  <br/> |. 本地域是可取的。  <br/> |
 |雲端連接器網網域控制站名稱  <br/> |網網域控制站的名稱。  <br/> 在 .ini 檔案中的名稱： "ServerName"  <br/> |必須小於或等於15個字元。 輸入 [僅 Netbios 名稱]。  <br/> |
@@ -545,14 +545,14 @@ Edge 元件需要解析 Office 365 服務的外部名稱，以及其他雲端連
 
 - **選項1。** Subject 名稱必須包含您指派給 Edge 元件的 [池名稱]。 請注意，因為這個名稱是為線上商務用 Skype Edge 元件所保留，所以無法 sip.sipdomain.com 消費者名稱。 SAN 必須包含 sip.sipdomain.com 和存取邊緣池名稱：
 
-  ```
+  ```console
   SN = accessedgepoolnameforsite1.sipdomain.com, SAN = sip.sipdomain.com,
   acessedgepoolnameforsite1.sipdomain.com
   ```
 
 - **選項2。** 如果您想要在您部署的所有邊緣池伺服器上使用單一萬用字元憑證，您可以使用 sipdomain.com 的萬用字元 SAN 專案\*，而不是憑證中的邊緣池名稱。 Subject 名稱可以是您已部署的任何邊緣池的存取邊緣池名稱：
 
-  ```
+  ```console
   SN = accessedgepoolnameforsite1.sipdomain.com, SAN = sip.sipdomain.com, SAN = *.sipdomain.com
   ```
 
@@ -568,14 +568,14 @@ Edge 元件需要解析 Office 365 服務的外部名稱，以及其他雲端連
 
 - **選項1。** Subject 名稱必須包含您為邊緣元件所指派的池子名稱。 請注意，因為這個名稱是為線上商務用 Skype Edge 元件所保留，所以無法 sip.sipdomain.com 消費者名稱。 SAN 必須包含 sip.sipdomain.com 和存取邊緣池名稱：
 
-  ```
+  ```console
   SN = accessedgepoolnameforsite1.sipdomain1.com, SAN = sip.sipdomain1.com, sip.sipdomain2.com,
   acessedgepoolnameforsite1.sipdomain1.com
   ```
 
 - <strong>選項2。</strong>如果您想要在您部署的所有邊緣池伺服器上使用單一萬用字元憑證，您可以使用 sipdomain.com 的萬用字元 SAN 專案\*，而不是憑證中的邊緣池名稱。 Subject 名稱可以是您已部署的任何邊緣池的存取邊緣池名稱：
 
-  ```
+  ```console
   SN = accessedgepoolnameforsite1.sipdomain.com, SAN = sip.sipdomain1.com, sip.sipdomain2.com,
   SAN = *.sipdomain1.com
   ```
@@ -585,7 +585,7 @@ Edge 元件需要解析 Office 365 服務的外部名稱，以及其他雲端連
 
 針對部署的目的，您可以使用下表：
 
-|**件**|**說明**|**筆記**|
+|**件**|**描述**|**筆記**|
 |:-----|:-----|:-----|
 |您將在部署中使用哪個選項？  <br/> |選項1或2  <br/> ||
 |SN.EXE  <br/> |為您的憑證提供 SN  <br/> ||
@@ -708,7 +708,7 @@ Edge 元件需要解析 Office 365 服務的外部名稱，以及其他雲端連
 
 如需詳細資訊，請參閱下列內容：
 
-- [Microsoft 電話語音解決方案](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)
+- [Microsoft 電話語音解決方案](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)
 
 - [設定及管理商務用 Skype 雲端連接器版本](configure-skype-for-business-cloud-connector-edition.md)
 

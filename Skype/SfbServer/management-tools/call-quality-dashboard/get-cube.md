@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c8eeb387-dc1e-44e0-bbf9-a566f8bda551
 description: 摘要：瞭解 [取得 Cube] 作業，該作業是 [通話品質儀表板] 的資料 API 的一部分。 [通話品質儀表板] 是商務用 Skype Server 的工具。
-ms.openlocfilehash: 7ae24309ea49d8f7d8d2684c141adb44c5bff2b5
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 1d8327439d79e7d02182dc7195bc0052bf6c923c
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816832"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888822"
 ---
 # <a name="get-cube"></a>取得 Cube
  
@@ -52,7 +52,7 @@ ms.locfileid: "41816832"
 > [!NOTE]
 > 這個範例只會顯示每個 Cube 元素群組的前兩個元素。 
   
-```
+```json
 {
 "Kpis": [{
 "FriendlyName": "Poor Trend Month",

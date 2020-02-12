@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 8d1d5819-add2-4f5d-a436-74c00a281df0
 description: 如果您需要移除目前作為商務用 Skype Server 部署之檔案存放區的檔案伺服器，或如果您需要進行其他變更，以使目前的檔案存放庫無法使用，您必須先建立新的共用。 接著，您需要執行下列步驟：
-ms.openlocfilehash: e1c4338e33e736c04dbb1a2a2e81a7233df65763
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 91ba8393a958188e368ff3f8f5d2a85bcfcc1396
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817104"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888452"
 ---
 # <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server"></a>在商務用 Skype Server 中將檔案儲存資料移至新的檔案存放區
 
@@ -37,7 +37,7 @@ ms.locfileid: "41817104"
 
 1. 以 RTCUniversersalServerAdmins 或 CsServerAdministrator 群組成員的身分登入電腦，其中安裝的是商務用 Skype 伺服器、系統管理工具。
 
-2.  開啟瀏覽器視窗，然後輸入系統管理員 URL，開啟商務用 Skype Server 的 [控制台]。
+2. 開啟瀏覽器視窗，然後輸入系統管理員 URL，開啟商務用 Skype Server 的 [控制台]。
 
 3. 在左側導覽列中，按一下 [**拓撲**]，然後按一下 [**狀態**]。
 
@@ -55,8 +55,8 @@ ms.locfileid: "41817104"
 
    c-clip. 在 [**定義新檔案存放區**] 的 [檔案**伺服器 FQDN**] 底下，輸入檔案伺服器的完整功能變數名稱（FQDN）。 在 [檔案**共用**] 底下，輸入新檔案共用的資料夾名稱，然後按一下 **[確定]**。
 
-    > [!IMPORTANT]
-    > 此步驟會定義要在拓撲建立器中使用的新檔存放區。 您只需定義一次，不能針對每個伺服器定義。 您必須先在已定義的檔案伺服器上建立已定義的檔案共用，才能發佈拓撲。 如需詳細資訊，請參閱[定義前端的檔案存放區](https://technet.microsoft.com/library/90994400-c4e5-4509-af41-121ac716fbca.aspx)。
+     > [!IMPORTANT]
+     > 此步驟會定義要在拓撲建立器中使用的新檔存放區。 您只需定義一次，不能針對每個伺服器定義。 您必須先在已定義的檔案伺服器上建立已定義的檔案共用，才能發佈拓撲。 如需詳細資訊，請參閱[定義前端的檔案存放區](https://technet.microsoft.com/library/90994400-c4e5-4509-af41-121ac716fbca.aspx)。
 
 8. 針對使用檔案存放區的每個伺服器或池，請執行下列動作：
 
@@ -70,10 +70,9 @@ ms.locfileid: "41817104"
 
 11. 在命令列中，輸入下列內容：
 
-     ```console
-     Robocopy \\<OldFileServer>\<OldShare> \\<NewFileServer>\<NewShare> /S /R:10 /W:10 /XF Meeting.Active /MT /LOG:<directory path\logname>
-
-     ```
+    ```console
+    Robocopy \\<OldFileServer>\<OldShare> \\<NewFileServer>\<NewShare> /S /R:10 /W:10 /XF Meeting.Active /MT /LOG:<directory path\logname>
+    ```
 
     > [!TIP]
     > /S 開關會複製到檔案、目錄及子目錄中。 /XF 開關會跳過名為「會議」的任何檔案。 使用/MT 開關的 [robocopy] 的目前版本，會以多個執行緒大幅增加複製速度。 如果是/LOG 開關，請使用 C:\Logfiles\log.txt. 形式的目錄路徑和記錄檔案名 這個開關會建立位於指定位置的作業記錄檔。
@@ -88,8 +87,6 @@ ms.locfileid: "41817104"
 
 ## <a name="see-also"></a>另請參閱
 
-
 [將伺服器重新指派至不同的檔案存放區](https://technet.microsoft.com/library/18509cce-a4d2-4537-a822-f99de6d7598e.aspx)
 
 [移除檔案存放區](https://technet.microsoft.com/library/1ba7eb15-5c87-4357-b4d8-f59409ac7f71.aspx)
-

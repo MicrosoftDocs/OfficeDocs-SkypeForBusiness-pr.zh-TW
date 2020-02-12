@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 24e36ea3-fb8a-45a4-b6b7-38c2e256b218
 description: 摘要：瞭解如何在商務用 Skype Server 2015 中設定持續聊天伺服器合規性服務。
-ms.openlocfilehash: 54131eeddc95afd71978ada3a84fba3d4ab52716
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: f25df3e85112f91c1286c0be49c428c364acf018
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817234"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41887842"
 ---
 # <a name="configure-the-compliance-service-for-persistent-chat-server-in-skype-for-business-server-2015"></a>設定常設聊天室伺服器的規範服務
 
@@ -116,8 +116,8 @@ void Translate(ConversationCollection conversations)
 
 交談元素包含四個元素（通道、FirstMessage、StartTimeUTC 和 EndTimeUTC）。 通道元素包含聊天室的統一資源識別項（URI），而 FirstMessage 元素則說明 Messages 元素中的第一封郵件。 StartTimeUTC 和 EndTimeUTC 元素會提供交談的開始和結束時間，如下列程式碼範例所示：
 
-```XML
-<<FirstMessage type="JOIN" content="" id="0">
+```xml
+<FirstMessage type="JOIN" content="" id="0">
       <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
       <DateTimeUTC since1970="1212610540953" string="2008-06-04T20:15:40.9535482Z" long="633482073409535482" /> 
 </FirstMessage>
@@ -125,7 +125,7 @@ void Translate(ConversationCollection conversations)
 
 Message 元素包含兩個元素（寄件者與 DateTimeUTC）和三個屬性（類型、內容和識別碼）。 Sender 元素代表傳送訊息的使用者，而 DateTimeUTC 元素則代表事件發生的時間，如下列程式碼範例所示：
 
-```XML
+```xml
 <Message type="JOIN" content="" id="0">
   <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
   <DateTimeUTC since1970="1206211842612" string="2008-03-22T18:50:42.6127374Z" long="633418086426127374" /> 
@@ -136,7 +136,7 @@ Message 元素包含兩個元素（寄件者與 DateTimeUTC）和三個屬性（
 
 **郵件元素屬性**
 
-|**Attribute**|**說明**|**選擇性/必要**|
+|**Attribute**|**描述**|**選擇性/必要**|
 |:-----|:-----|:-----|
 |類型  <br/> |指定郵件類型。 訊息類型將在 [訊息元素] 訊息類型資料表中說明。  <br/> |必要  <br/> |
 |內容  <br/> |包含郵件的內容。 含有連線類型或元件的訊息，不會使用此屬性。  <br/> |選用  <br/> |
@@ -146,7 +146,7 @@ Message 元素包含兩個元素（寄件者與 DateTimeUTC）和三個屬性（
 
 **寄件者元素屬性**
 
-|**Attribute**|**說明**|**選擇性/必要**|
+|**Attribute**|**描述**|**選擇性/必要**|
 |:-----|:-----|:-----|
 |Username  <br/> |寄件者的名稱。  <br/> |選用  <br/> |
 |標識號  <br/> |寄件者的唯一識別碼。  <br/> |必要  <br/> |
@@ -158,7 +158,7 @@ Message 元素包含兩個元素（寄件者與 DateTimeUTC）和三個屬性（
 
 [加入]-使用者加入聊天室。
 
-```XML
+```xml
 <Message type="JOIN" content="" id="0">
   <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
   <DateTimeUTC since1970="1206211842612" string="2008-03-22T18:50:42.6127374Z" long="633418086426127374" /> 
@@ -167,7 +167,7 @@ Message 元素包含兩個元素（寄件者與 DateTimeUTC）和三個屬性（
 
 部分-使用者離開聊天室。
 
-```XML
+```xml
 <Message type="PART" content="" id="0">
   < Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
   <DateTimeUTC since1970="1212610602532" string="2008-06-04T20:16:42.5324614Z" long="633482074025324614" /> 
@@ -176,7 +176,7 @@ Message 元素包含兩個元素（寄件者與 DateTimeUTC）和三個屬性（
 
 聊天-寄件者的電子郵件地址。
 
-```XML
+```xml
 <Message type="CHAT" content="hello" id="1">
   <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
   <DateTimeUTC since1970="1205351800522" string="2008-03-12T19:56:40.522264Z" long="633409486005222640" /> 
@@ -185,7 +185,7 @@ Message 元素包含兩個元素（寄件者與 DateTimeUTC）和三個屬性（
 
 Backchat-使用者要求聊天記錄中的內容。
 
-```XML
+```xml
 <Message type="BACKCHAT" content="backchatcontent" id="0">
   <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
   <DateTimeUTC since1970="1206034385284" string="2008-03-20T17:33:05.2841594Z" long="633416311852841594" /> 
@@ -194,7 +194,7 @@ Backchat-使用者要求聊天記錄中的內容。
 
 檔案上傳-使用者上傳檔案。
 
-```XML
+```xml
 <Message type="FILEUPLOAD" content="0988239a-bb66-4616-90a4-b07771a2097c.txt" id="0">
   <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
   <DateTimeUTC since1970="1205351828975" string="2008-03-12T19:57:08.9755711Z" long="633409486289755711" /> 
@@ -203,7 +203,7 @@ Backchat-使用者要求聊天記錄中的內容。
 
 檔案下載-使用者下載檔案。
 
-```XML
+```xml
 <Message type="FILEDOWNLOAD" content="006074ca-24f0-4b35-8bd8-98006a2d1aa8.txt" id="0">
   <Sender UserName="kazuto@litwareinc.com" id="10" email="" internal="true" uri="kazuto@litwareinc.com" /> 
   <DateTimeUTC since1970="1212611141851" string="2008-06-04T20:25:41.8518646Z" long="633482079418518646" /> 
@@ -214,7 +214,7 @@ Backchat-使用者要求聊天記錄中的內容。
 
 下列程式碼範例包含合規性伺服器的預設輸出：
 
-```XML
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <xs:schema id="Conversations" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
    <xs:simpleType name="ComplianceMessageType">
@@ -313,7 +313,7 @@ Backchat-使用者要求聊天記錄中的內容。
 
 下列程式碼範例包含範例 XSL 轉換：
 
-```XML
+```xml
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs">
    <xsl:output method="xml" encoding="UTF-8" indent="yes" />
 

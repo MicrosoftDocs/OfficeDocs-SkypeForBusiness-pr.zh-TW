@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622
 description: 本主題描述商務用 Skype Server 2015 資源套件中的工具，包括每個工具的用途，以及其用法範例。 商務用 Skype Server 2015 資源套件能讓部署及管理商務用 Skype Server 2015 的 IT 系統管理員更容易進行例行工作。 例如，網路會議資料工具可用於輕鬆控制使用者在線上會議期間上傳的資料。 SEFAUtil 工具可用來設定代理人來電轉接及應答使用者。 我們鼓勵 IT 系統管理員使用這些工具來更有效率地管理商務用 Skype Server 2015。
-ms.openlocfilehash: c4fb43d7996133f5608b13a3fea693665ebd3e4b
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 1a0b787f8cd82291d408e3e3ad30e58e0b8a3627
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816252"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888882"
 ---
 # <a name="skype-for-business-server-2015-resource-kit-tools-documentation"></a>商務用 Skype Server 2015 資源套件工具檔
 
@@ -73,7 +73,7 @@ ms.locfileid: "41816252"
 
 通訊錄服務設定工具（ABSConfig）是一種管理工具，可協助系統管理員在商務用 Skype Server 2015 中自訂通訊錄服務設定。 這個工具也能讓商務用 Skype Server 2015 系統管理員還原預設通訊錄服務設定。
 
-### <a name="description"></a>說明
+### <a name="description"></a>描述
 
 ABSConfig 是圖形使用者介面應用程式，可讓系統管理員設定與通訊錄服務相關的 Active Directory 網域服務屬性。
 
@@ -94,7 +94,7 @@ ABSConfig 工具可以使用 ABSConfig 檔案啟動。 工具隨即開啟至 [**
 
 ABSConfig 會將通訊錄服務配置儲存在資料庫中。
 
-```PowerShell
+```console
 Path: %ProgramFiles%\Skype for Business Server 2015\Reskit
 ```
 
@@ -143,7 +143,7 @@ ABSConfig 工具可讓系統管理員快速且輕鬆地使用工具來自訂商�
 
 3. 在網路設定檔中設定的所有連結，以及每個頻寬策略服務所報告的即時頻寬使用量
 
-### <a name="description"></a>說明
+### <a name="description"></a>描述
 
 [頻寬原則服務監視工具] 是以 GUI 式應用程式的方式來實現。 系統管理員執行 PDPMonUI 來啟動該工具。
 
@@ -183,7 +183,7 @@ ABSConfig 工具可讓系統管理員快速且輕鬆地使用工具來自訂商�
 
 [頻寬利用率分析] 是一種工具，可在商業網路中，透過廣域網路連結的 UC 端點，建立各種頻寬使用量的報告。 這些報告可用來瞭解目前的頻寬使用量模式，並協助您進行頻寬容量規劃。
 
-### <a name="description"></a>說明
+### <a name="description"></a>描述
 
 [頻寬利用率分析] 是以 GUI 式應用程式的方式來實現。 這個工具會針對網路上的音訊利用率專門產生報告，並協助您進行容量規劃。 它也會根據指派給各種連結的頻寬容量來反覆運算。
 
@@ -231,8 +231,8 @@ ABSConfig 工具可讓系統管理員快速且輕鬆地使用工具來自訂商�
 
 - 自訂報表，並使用 BandwidthUtilizationAnalyzer 進行 xlsm。
 
-> [!IMPORTANT]
-> 我們強烈建議您不要由最終使用者手動啟動 BandwidthUtilizationAnalyzer。
+    > [!IMPORTANT]
+    > 我們強烈建議您不要由最終使用者手動啟動 BandwidthUtilizationAnalyzer。
 
 #### <a name="starting-bandwidth-utilization-analyzer"></a>啟動頻寬利用率分析程式
 
@@ -266,10 +266,10 @@ ABSConfig 工具可讓系統管理員快速且輕鬆地使用工具來自訂商�
 
 - **臨時檔案儲存位置**產生報告時儲存中間檔案的臨時檔案位置。
 
-![頻寬使用量分析中的檔案目錄](../media/Reskit_2012_Tools_Documentation_Image5.jpg)
+    ![頻寬使用量分析中的檔案目錄](../media/Reskit_2012_Tools_Documentation_Image5.jpg)
 
-> [!NOTE]
-> 請確定有足夠的檔案存取伺服器記錄，並將 [臨時檔案存放區] 資料夾提供給工具使用者。
+    > [!NOTE]
+    > 請確定有足夠的檔案存取伺服器記錄，並將 [臨時檔案存放區] 資料夾提供給工具使用者。
 
 #### <a name="step-3---collect-the-logs-and-start-the-report-viewer"></a>步驟 3-收集記錄並啟動報表檢視器
 
@@ -371,7 +371,7 @@ ABSConfig 工具可讓系統管理員快速且輕鬆地使用工具來自訂商�
 
 呼叫 Parkometer 是一種命令列應用程式，可讓您輕鬆存取 [通話駐留軌道] 資料庫。
 
-### <a name="description"></a>說明
+### <a name="description"></a>描述
 
 呼叫 Parkometer 是一種追蹤目前寄存通話的工具。 它也會收集有關軌道式及通話駐留伺服器（CPS）用法的統計資料。 這個命令列工具提供從本機或遠端連線的電腦對 CPS 軌道 SQL Server 資料庫的讀取和寫入存取權。
 
@@ -465,7 +465,7 @@ Integrated Security=false;"/>
 ## <a name="dbanalyze"></a>DBAnalyze
 <a name="dba"> </a>
 
-### <a name="description"></a>說明
+### <a name="description"></a>描述
 
 DBAnalyze 是一種命令列工具，可協助管理員收集有關商務用 Skype Server 2015 資料庫的分析報告。 DBAnalyze 具有下列模式： [診斷]、[使用者資料]、[會議]、[MCUs] 和 [磁片碎片]：
 
@@ -517,7 +517,7 @@ DBAnalyze 是一種命令列工具，可協助管理員收集有關商務用 Sky
 
 下列是有效 Dbanalyze 命令的範例：
 
-```
+```console
 dbanalyze.exe /report:diag
 dbanalyze.exe /report:user /user:usera@domainb.com
 dbanalyze.exe /report:conf /user:bob@example.com /conf:1W9J71SKSX2X
@@ -535,7 +535,7 @@ DBAnalyzer 可讓系統管理員快速且輕鬆地分析商務用 Skype Server 2
 
 ImportStorageServiceData 資源套件工具可讓您重新匯入儲存空間服務（LYSS）的佇列和端點資料，並傳回儲存服務。
 
-### <a name="description"></a>說明
+### <a name="description"></a>描述
 
 從存儲服務中清除的資料，可能會根據佇列專案狀態或資料庫大小，自動（定期）。 這可能是因為手動調用 pool 容錯移轉 Cmdlet，或 StorageServiceFullFlush Cmdlet （這是池容錯移轉 Cmdlet 的調用）。 請注意，如果前端的任何儲存服務（LYSS）資料庫大小都在 [標準] 層級之上，則最好不要重新匯入資料，因為這樣做可能只會導致更多資料匯出回來。此外，您應該先解決導致存儲服務佇列增長的錯誤所帶來的任何問題（例如 Exchange 端點錯誤、網路問題或其他問題）。
 
@@ -558,7 +558,7 @@ ImportStorageServiceData 資源套件工具可讓您重新匯入儲存空間服�
 
 ### <a name="examples"></a>範例
 
-```
+```console
 >  C:\StorageService>ImportStorageServiceData.exe
 Description:
 This tool will re-import Storage Service (LYSS) flushed queue data back in.  For a pool: you are required to run this tool on a machine inside the pool which has the Lync Server Management Shell installed.  Additionally, all front end machines need to have Windows Powershell Remoting enabled before executing this tool by executing Enable-PSRemoting.  Also, please ensure that all Storage Service instance DB Size are at the 'Normal' level (verify this by viewing Eventlog events). Otherwise re-importing may cause data to be flushed out again if any Storage Service instance DB size level goes above 'Normal'.
@@ -721,7 +721,7 @@ Tool has finished execution.
 
 LCSSync 工具可協助您在多目錄林環境中部署商務用 Skype Server 2015 通訊軟體。 這個工具是用來將來自不同使用者目錄林的使用者和群組，作為 Active Directory 網域服務連絡人物件與已安裝商務用 Skype Server 2015 的中央目錄林同步處理。
 
-### <a name="description"></a>說明
+### <a name="description"></a>描述
 
  LCSSync 會使用中央林中的同步處理 Active Directory 網域服務連絡人物件，讓使用者使用商務用 Skype Server。 若要提供單一登入，主要使用者帳戶必須對應到商務用 Skype Server 2015 的中央林中的 Active Directory 網域服務連絡人物件。 此工具可協助執行該對應。 此工具提供範本，可用於在 Microsoft 身分識別整合伺服器中建立管理代理程式。
 
@@ -734,7 +734,7 @@ LCSSync 工具可協助您在多目錄林環境中部署商務用 Skype Server 2
 
 LookupUserConsole 工具會顯示特定使用者的內部商務用 Skype 伺服器路由資訊。 在診斷部署和路由問題時，Microsoft 支援個人資訊可能會很有用。
 
-### <a name="description"></a>說明
+### <a name="description"></a>描述
 
  執行 LookupUserConsole 會開啟接受 SIP 位址的命令提示字元，並嘗試顯示與它們相關的內部商務用 Skype Server 路由資訊。 輸入**exit**以結束 LookupUserConsole 工具。
 
@@ -746,7 +746,7 @@ LookupUserConsole 工具會顯示特定使用者的內部商務用 Skype 伺服�
 
 C:\Program Files\Skype for Business Server 2015 \ ResKit\>LookupUserConsole
 
-```
+```console
 > sip:john.doe@vdomain.com
 
   Execution time (ms):                            171.094
@@ -789,7 +789,7 @@ C:\Program Files\Skype for Business Server 2015 \ ResKit\>LookupUserConsole
 
 MSTurnPing 工具可讓商務用 Skype Server 2015 通訊軟體的管理員檢查執行音訊/視頻邊緣和音訊/視頻驗證服務的伺服器狀態，以及在拓撲中執行頻寬原則服務的伺服器。
 
-### <a name="description"></a>說明
+### <a name="description"></a>描述
 
 MSTurnPing 工具可讓商務用 Skype Server 2015 通訊軟體的管理員檢查執行音訊/視頻邊緣和音訊/視頻驗證服務的伺服器狀態，以及在拓撲中執行頻寬原則服務的伺服器。
 
@@ -835,7 +835,7 @@ MSTurnPing 工具可讓商務用 Skype Server 2015 通訊軟體的管理員檢�
 
 下列是工具輸入的範例。
 
-```
+```console
 MsTurnPing -ServerRole AudioVideoEdgeServer
 
 MsTurnPing -ServerRole BandwidthPolicyServer
@@ -850,7 +850,7 @@ MsTurnPing -ServerRole BandwidthPolicyServer
 
 商務用 Skype Server 2015 通訊軟體系統管理員可以使用網路設定檢視器來查看已設定為允許即時通訊會話的企業的通話許可控制（CAC）網路拓朴，例如根據指定的頻寬容量進行語音或視頻通話。 商務用 skype Server 2015 系統管理員會定義 CAC 原則，這些原則是由使用商務用 Skype Server 2015 所安裝的頻寬原則服務所強制執行。
 
-### <a name="description"></a>說明
+### <a name="description"></a>描述
 
 網路設定檢視器（NetworkConfigurationViewer）可讓系統管理員執行下列工作：
 
@@ -917,7 +917,7 @@ MsTurnPing -ServerRole BandwidthPolicyServer
 
 回應群組應用程式讓代理能夠使用其內建的 Web 服務存取有用的即時資訊。 遺憾的是，在應用程式以外不提供此資料的圖形視圖。 回應群組代理程式動態資源套件工具可提供一種簡單且圖形化的方式來存取此資訊，並使用即時 Skype 通訊軟體資訊（例如其他代理的目前狀態）加強。
 
-### <a name="description"></a>說明
+### <a name="description"></a>描述
 
 回應群組代理程式活是一種 Windows 應用程式，可提供登入和登出功能，以及一些即時資訊（例如，群組成員資格和目前的呼叫數量）到回應群組代理程式。 它應該是 [代理群組] 頁面的增強版本（可從商務用 Skype 存取）。
 
@@ -988,7 +988,7 @@ SEFAUtil （次要延伸功能啟用）是一種命令列工具，可讓商務�
 
 SEFAUtil （次要延伸功能啟用）可讓商務用 Skype Server 2015 系統管理員和支援人員在 Skype 中設定代理人響鈴、來電轉接、同時撥打、團隊通話設定和群組通話提貨商務用伺服器2015使用者。 此工具也可讓系統管理員查詢針對特定使用者發佈的呼叫路由設定。
 
-### <a name="description"></a>說明
+### <a name="description"></a>描述
 
 目前的 SEFAUtil 版本只是一個命令列工具;沒有支援圖形使用者介面。 此工具是以 Microsoft 整合通訊管理 API （UCMA）3.0 為基礎。 此工具中的功能可讓系統管理員和支援人員執行下列作業：
 
@@ -1047,7 +1047,7 @@ SEFAUtil 工具只能在屬於受信任的應用程式池的電腦上執行。 U
 
 1. SEFAUTil 工具只能在屬於受信任的應用程式池的電腦上執行。 如有需要，您可以透過商務用 Skype Server Management 命令介面（含下列 Cmdlet）來將池新增為新的受信任的應用程式池：
 
-   ```PowerShell
+   ```powershell
    New-CsTrustedApplicationPool -id <Pool FQDN> -Registrar <Pool Registrar FQDN> -site Site:<Pool Site>
    ```
 
@@ -1056,7 +1056,7 @@ SEFAUtil 工具只能在屬於受信任的應用程式池的電腦上執行。 U
 
 2. 受信任的應用程式必須在 SEFAUtil 工具的拓撲中定義。 若要將 SEFAUtil 定義為新的受信任的應用程式，請使用商務用 Skype Server 管理命令介面，並執行下列 Cmdlet：
 
-   ```PowerShell
+   ```powershell
    New-CsTrustedApplication -ApplicationId sefautil -TrustedApplicationPoolFqdn <Pool FQDN> -Port 7489
    ```
 
@@ -1070,7 +1070,7 @@ SEFAUtil 工具只能在屬於受信任的應用程式池的電腦上執行。 U
 
 3. 需要啟用拓撲變更。 您可以透過執行下列 Cmdlet，透過商務用 Skype Server Management Shell 來啟用拓撲變更：
 
-   ```PowerShell
+   ```powershell
    Enable-CsToplogy
    ```
 
@@ -1099,7 +1099,7 @@ SEFAUtil 工具只能在屬於受信任的應用程式池的電腦上執行。 U
 
  **收**
 
-```output
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1112,13 +1112,13 @@ Call Forward No Answer to: voicemail
 
 這個範例會將呼叫轉寄/沒有應答目的地和響鈴延遲設定。 此處未提供/server 開關;SEFAUtil 嘗試自動探索商務用 Skype Server 2015。
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /enablefwdnoanswer /callanswerwaittime:30 /setfwddestination:+1425555 0126@contoso.com;user=phone
 ```
 
  **收**
 
-```output
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1131,13 +1131,13 @@ Call Forward No Answer to: sip:+14255550126@contoso.com;user=phone
 
 這個範例會立即啟用來電轉接給其他使用者。
 
-```
+```console
 SEFAUtil.exe sip:katarina@contoso.com /enablefwdimmediate /setfwddestination:anders@contoso.com
 ```
 
  **收**
 
-```output
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1149,13 +1149,13 @@ Forward immediate to: sip:anders@contoso.com
 
 這個範例會立即停用 [來電轉接]。
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com katarina@contoso.com  /disablefwdimmediate
 ```
 
  **收**
 
-```output
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1168,13 +1168,13 @@ Call Forward No Answer to: voicemail
 
 這個範例會將使用者新增為代理人，並設定同時撥打的代理人。
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /adddelegate:joe@contoso.com /simulringdelegates
 ```
 
  **收**
 
-```output
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1185,13 +1185,13 @@ Simultaneously Ringing Delegates: sip:joe@contoso.com
 
 這個範例會將在先前範例中設定的同時響鈴規則變更為 [延遲的響鈴] 規則。
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /delayringdelegates:10
 ```
 
  **收**
 
-```output
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1206,13 +1206,13 @@ Delay Ringing Delegates (delay:10 seconds): sip:joe@contoso.com
 > [!NOTE]
 > 移除最後一個代理人時，系統會自動停用委派鈴聲。
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /removedelegate:joe@contoso.com
 ```
 
  **收**
 
-```output
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1225,13 +1225,13 @@ Call Forward No Answer to: voicemail
 
 這個範例會新增代理人，並設定 [來電轉接至代理人] 規則。
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /adddelegate:anders@contoso.com /fwdtodelegates
 ```
 
  **收**
 
-```output
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1242,7 +1242,7 @@ Forwarding calls to Delegates: sip:anders@contoso.com
 
 這個範例可同時撥打並設定同時撥打的目的地號碼。
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /setsimulringdestination:+14255550126 /enablesimulring
 ```
 
@@ -1251,7 +1251,7 @@ SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /setsimulrin
 
  **收**
 
-```output
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1263,13 +1263,13 @@ Simul_Ringing to: sip:+14255550126@contoso.com;user=phone
 
 這個範例會停用 [同時撥打]。
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /disablesimulring
 ```
 
  **收**
 
-```output
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1282,7 +1282,7 @@ Call Forward No Answer to: voicemail
 
 這個範例會將小組成員新增至使用者的小組通話群組，並允許同時撥打給小組通話群組。
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /addteammember:anders@contoso.com /simulringteam
 ```
 
@@ -1291,7 +1291,7 @@ SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /addteammemb
 
  **收**
 
-```output
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1302,7 +1302,7 @@ Team ringing enabled. Team: sip:anders@contoso.com
 
 這個範例會移除使用者小組通話群組的小組成員。
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /removeteammember:anders@contoso.com
 ```
 
@@ -1311,7 +1311,7 @@ SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /removeteamm
 
  **收**
 
-```output
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1323,13 +1323,13 @@ Call Forward No Answer to: voicemail
 
 這個範例會將 [延遲] 響鈴變更為 [小組通話群組時間] 設定。
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /delayringteam:5
 ```
 
  **收**
 
-```output
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1340,7 +1340,7 @@ Delay Ringing Team (delay:5 seconds). Team: sip:anders@contoso.com
 
 這個範例會為指定的使用者啟用團隊通話。
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /simulringteam
 ```
 
@@ -1353,13 +1353,13 @@ SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /simulringte
 
 這個範例會為指定的使用者停用小組通話。
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /disableteamcall
 ```
 
  **收**
 
-```output
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1371,13 +1371,13 @@ Call Forward No Answer to: voicemail
 
 這個範例會將分揀群組指派給使用者，並啟用群組呼叫挑選。
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /enablegrouppickup:199
 ```
 
  **收**
 
-```output
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1388,14 +1388,14 @@ Group Pickup Orbit: sip:199;phone-context=user-default@ contoso.com;user=phone
 
 這個範例會為指定的使用者停用 [群組呼叫挑選]。
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /disablegrouppickup
 ```
 
 > [!NOTE]
 > 當您停用使用者的 [群組呼叫分揀] 時，系統不會保留指派給使用者的群組號碼。 如果您隨後想要重新啟用該使用者的群組呼叫分揀，您必須使用/enablegrouppickup 開關再次指派群組號碼。
 
-```
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1404,7 +1404,7 @@ UM Enabled: True
 ## <a name="sysprepps1"></a>SYSPrep. ps1
 <a name="SYSPrep"> </a>
 
-### <a name="description"></a>說明
+### <a name="description"></a>描述
 
 SYSPrep. ps1 是 Windows PowerShell 腳本，可在您的 Windows Server 2008 作業系統電腦上安裝下列商務用 Skype Server 2015 先決條件。
 
@@ -1456,7 +1456,7 @@ SYSPrep. ps1 是 Windows PowerShell 腳本，可在您的 Windows Server 2008 �
 
 [未指派的號碼宣告] 遷移工具可讓商務用 Skype Server 2015 系統管理員將宣告應用程式所提供的 [未指派的號碼] 設定從來源 Skype 伺服器或池中移至[目的地商務用 Skype 伺服器] 或 [池]。
 
-### <a name="description"></a>說明
+### <a name="description"></a>描述
 
 [取消指派的號碼宣告] 遷移工具是一個 Windows PowerShell 腳本，可將來源伺服器或池的宣告應用程式所提供的未指定編號設定移至不同的伺服器或池中。
 
@@ -1509,7 +1509,7 @@ CsAnnouncementConfiguration 腳本需要下表所述的兩個參數。
 
 這個範例會將來源池（Lync Server 2013）的 [未指定的數位宣告]，移至目的地池（商務用 Skype Server 2015）。
 
-```PowerShell
+```powershell
 Move-CsAnnouncementConfiguration.ps1 -Source LS2013Pool.contoso.com -Destination SfBS2015Pool.contoso.com
 ```
 
@@ -1517,7 +1517,7 @@ Move-CsAnnouncementConfiguration.ps1 -Source LS2013Pool.contoso.com -Destination
 
 這個範例會將來源池（商務用 Skype Server 2015）的 [未指定的數目宣告]，移至目的地池（Lync Server 2013）。
 
-```PowerShell
+```powershell
 Move-CsAnnouncementConfiguration.ps1 -Source SfBS2015Pool.contoso.com -Destination LS2013Pool.contoso.com
 ```
 
@@ -1526,7 +1526,7 @@ Move-CsAnnouncementConfiguration.ps1 -Source SfBS2015Pool.contoso.com -Destinati
 
 網路會議資料工具可讓商務用 Skype Server 2015 通訊軟體的系統管理員對與召集人的網路會議相關的資料進行更多的控制。 案例包括根據時間戳記準則刪除特定使用者的會議資料的功能。
 
-### <a name="description"></a>說明
+### <a name="description"></a>描述
 
 這個工具可讓系統管理員執行下列作業：
 
@@ -1538,8 +1538,8 @@ Move-CsAnnouncementConfiguration.ps1 -Source SfBS2015Pool.contoso.com -Destinati
 
 4. 當使用者從一個池移到另一個時，移動與單一使用者相關聯的所有 Web 會議資料。
 
-> [!NOTE]
-> 在 Lync Server 2010 的資源工具組工具中，當使用者從一個中心移到另一個時，就能移動與單一使用者相關聯的所有 Web 會議資料。 此功能現在已從這個工具中棄用，取而代之的是**MoveConferenceData**參數。 如需此參數的詳細資訊，請參閱[move-csuser](https://docs.microsoft.com/powershell/module/skype/move-csuser.md?view=skype-ps) Cmdlet。
+    > [!NOTE]
+    > 在 Lync Server 2010 的資源工具組工具中，當使用者從一個中心移到另一個時，就能移動與單一使用者相關聯的所有 Web 會議資料。 此功能現在已從這個工具中棄用，取而代之的是**MoveConferenceData**參數。 如需此參數的詳細資訊，請參閱[move-csuser](https://docs.microsoft.com/powershell/module/skype/move-csuser.md?view=skype-ps) Cmdlet。
 
 此工具只會刪除處於非作用中的會議的會議資料。 無法刪除使用中的會議（或會話中的會議）。
 
@@ -1565,13 +1565,13 @@ Move-CsAnnouncementConfiguration.ps1 -Source SfBS2015Pool.contoso.com -Destinati
 
 ![Web Conf Data 工具參數。](../media/Reskit_2012_Tools_Documentation_Image51.JPG)
 
-```
+```console
 WebConfDataTool.exe /User:user0@contoso.com /Action:query ""/ExpirationDate:08/09/2010 12:00:00""
 ```
 
 前面的範例顯示查詢命令的運作方式。 這類命令的輸出會是受此工具影響之所有會議內容資料夾的清單。
 
-```
+```console
 WebConfDataTool.exe /User:user0@contoso.com /Action:delete
 ```
 

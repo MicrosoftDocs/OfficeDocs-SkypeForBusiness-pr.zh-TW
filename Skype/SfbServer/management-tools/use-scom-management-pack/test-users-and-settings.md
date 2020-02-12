@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ab2e0d93-cf52-4a4e-b5a4-fd545df7a1a9
 description: 摘要：針對商務用 Skype Server 合成事務，設定測試使用者帳戶和觀察程式節點設定。
-ms.openlocfilehash: ce0c82f6f850c7a2b632c828f938979747d99e97
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 877e7256c31bf5bf66f25e80c9625078cfc15b02
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816112"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888852"
 ---
 # <a name="configure-watcher-node-test-users-and-settings"></a>設定觀察程式節點測試使用者和設定
  
@@ -278,19 +278,21 @@ Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -UseIn
     
 2. 在主控台視窗中，輸入下列命令，然後按 ENTER 鍵。 
     
-```console
-bitsadmin /util /SetIEProxy NetworkService NO_PROXY
-```
+    ```console
+    bitsadmin /util /SetIEProxy NetworkService NO_PROXY
+    ```
 
-您會在命令視窗中看到如下所示的訊息：
+    您會在命令視窗中看到如下所示的訊息：
+
+    ```console
+    BITSAdmin is deprecated and is not guaranteed to be available in future versions of Windows. Administration tools for the BITS service are now provided by BITS PowerShell cmdlets.
   
-BITSAdmin 已過時，且不保證可在未來版本的 Windows 中使用。 BITS 服務的管理工具現已由 BITS PowerShell Cmdlet 提供。
-  
-[帳戶 NetworkService] 設定為 [NO_PROXY] 的網際網路 proxy 設定。 
-  
-（連接 = 預設值）
-  
-此訊息表示您已停用網路服務帳戶的 Internet Explorer proxy 設定。
+    Internet proxy settings for account NetworkService set to NO_PROXY. 
+      
+    (connection = default)
+    ```
+      
+    此訊息表示您已停用網路服務帳戶的 Internet Explorer proxy 設定。
   
 ### <a name="exchange-unified-messaging-synthetic-transaction"></a>Exchange 整合訊息綜合交易
 
@@ -304,7 +306,7 @@ Exchange 整合通訊（UM）綜合交易會確認測試使用者可以連線至
   
 您可以使用持續聊天綜合交易來設定此通道： 
   
-```
+```powershell
 $cred1 = Get-Credential "contoso\testUser1"
 $cred2 = Get-Credential "contoso\testUser2"
 
@@ -376,7 +378,7 @@ Set-CsWatcherNodeConfiguration -Identity pool0.contoso.com -Tests @{Add="XmppIM"
   
 若要安裝 VISSTSupportPackage，請確保已安裝 msi 的相依性（在 [系統需求] 底下）。 執行 VISSTSupportPackage 以進行簡單的安裝。 .Msi 會安裝下列路徑中的所有檔案：「%ProgramFiles%\VIS 綜合交易支援套件」。
   
-如需如何執行 VIS 綜合交易的詳細資訊，請參閱[CsP2PVideoInteropServerSipTrunkAV](https://technet.microsoft.com/en-us/library/dn985894.aspx) Cmdlet 的檔。
+如需如何執行 VIS 綜合交易的詳細資訊，請參閱[CsP2PVideoInteropServerSipTrunkAV](https://technet.microsoft.com/library/dn985894.aspx) Cmdlet 的檔。
   
 ## <a name="changing-the-run-frequency-for-synthetic-transactions"></a>變更綜合交易的執行頻率
 <a name="special_synthetictrans"> </a>

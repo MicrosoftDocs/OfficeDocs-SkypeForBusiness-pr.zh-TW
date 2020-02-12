@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 946189fa-521f-455c-9762-904e7e41b791
 description: 摘要：請閱讀本主題，以針對商務用 Skype Server 的統計管理員部署進行疑難排解。
-ms.openlocfilehash: a787297b25b983303e65f398dfb7b275ae044944
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 12b6176e64d034d94e8a6ad86e748c1906f9c0c5
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816212"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888872"
 ---
 # <a name="troubleshoot-statistics-manager-for-skype-for-business-server"></a>疑難排解商務用 Skype Server 統計資料
  
@@ -47,7 +47,7 @@ ms.locfileid: "41816212"
 
     搜尋 "MaxProcessMemoryMB"，然後將值變更為 "0"，如下所示：
     
-  ```console
+  ```xml
   <setting name="MaxProcessMemoryMB" serializeAs="String"> <value>300</value> </setting>
   ```
 
@@ -60,13 +60,13 @@ ms.locfileid: "41816212"
     
     如果代理程式無法連線至監聽器電腦，請檢查下列專案：
     
-1. 確定偵聽程式服務正在監聽程式電腦上執行。 如果不是，請確定 Redis 正在該伺服器上執行，然後重新開機監聽器服務。
-    
-    檢查偵聽程式電腦上的統計資料管理員事件記錄，以確保統計資料管理員攔截器服務本身沒有任何問題。
-    
-2. 使用連接工具（例如 telnet）來驗證從代理程式電腦到正確埠上的監聽器的連線性。
-    
-    如果不是，請確定已針對監聽器電腦所連接的網路類型（私人/公用/網域），在監聽器電腦上啟用 [接收] 防火牆規則。 如果監聽器電腦沒有加入網域，網路可能會列為公用，而且在該情況下，安裝了 [統計資料管理器] 的防火牆規則預設不會套用。
+    1. 確定偵聽程式服務正在監聽程式電腦上執行。 如果不是，請確定 Redis 正在該伺服器上執行，然後重新開機監聽器服務。
+        
+        檢查偵聽程式電腦上的統計資料管理員事件記錄，以確保統計資料管理員攔截器服務本身沒有任何問題。
+        
+    2. 使用連接工具（例如 telnet）來驗證從代理程式電腦到正確埠上的監聽器的連線性。
+        
+        如果不是，請確定已針對監聽器電腦所連接的網路類型（私人/公用/網域），在監聽器電腦上啟用 [接收] 防火牆規則。 如果監聽器電腦沒有加入網域，網路可能會列為公用，而且在該情況下，安裝了 [統計資料管理器] 的防火牆規則預設不會套用。
     
 - **4000** -從偵聽程式下載伺服器資訊失敗（不明原因）
     

@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
 description: 摘要：瞭解通話品質儀表板的部署程式。 [通話品質儀表板] 是商務用 Skype Server 的工具。
-ms.openlocfilehash: ccfb19bf8069bf72d52d7399b012d81af72e4110
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 3ab7ea5130b33578169505969ee8f43a73a2ac32
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816852"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888832"
 ---
 # <a name="deploy-call-quality-dashboard-for-skype-for-business-server"></a>部署商務用 Skype Server 的通話品質儀表板
  
@@ -88,7 +88,7 @@ QoE 封存的設定程式會涉及建立 QoE 封存資料庫、部署 SQL Server
    - **SQL 代理作業使用者-使用者名稱&amp;密碼：** 網域服務帳戶名稱和密碼（遮罩），會用來執行 SQL Server 代理作業的「QoE 封存資料」步驟（這會執行儲存程式，以將資料從 QoE 量度 DB 提取到封存資料庫），因此，此帳戶必須具備對 QoE 公制 DB 的讀取存取權，如 [帳戶] 區段中所述。 這個帳戶也需要在 QoE 封存 SQL Server 實例中擁有登入。
     
      > [!NOTE]
-     > 運行 SQL Server 實例的帳戶（例如 NT SERVICE\MSSQLSERVER）必須具備上述所給之目錄的存取/許可權，才能成功安裝。 如需詳細資訊，請參閱[設定資料庫引擎存取的檔案系統許可權](https://msdn.microsoft.com/en-us/library/jj219062%28v=sql.110%29.aspx)
+     > 運行 SQL Server 實例的帳戶（例如 NT SERVICE\MSSQLSERVER）必須具備上述所給之目錄的存取/許可權，才能成功安裝。 如需詳細資訊，請參閱[設定資料庫引擎存取的檔案系統許可權](https://msdn.microsoft.com/library/jj219062%28v=sql.110%29.aspx)
   
 7. 按一下 [下一步] 時，安裝程式將執行必要的檢查，並在遇到任何問題時報告。 當所有的先決條件檢查完成時，安裝程式會移至 [立方體設定] 頁面。 
     
@@ -104,7 +104,7 @@ QoE 封存的設定程式會涉及建立 QoE 封存資料庫、部署 SQL Server
    - **立方體分析伺服器：** 要在其中建立多維資料集的 SQL Server Analysis Services 實例名稱。 這可以是不同的電腦，但安裝使用者必須是目標 SQL Server Analysis Service 實例之伺服器系統管理員的成員。
     
      > [!NOTE]
-     >  如需有關設定 Analysis Services Server 系統管理員許可權的詳細資訊，請參閱[授與伺服器管理員許可權（Analysis Services）](https://msdn.microsoft.com/en-us/library/ms174561.aspx)
+     >  如需有關設定 Analysis Services Server 系統管理員許可權的詳細資訊，請參閱[授與伺服器管理員許可權（Analysis Services）](https://msdn.microsoft.com/library/ms174561.aspx)
   
    - **使用多個分區：** 預設值會設定為 [多個分區]，這需要商務智慧版本或企業版的 SQL Server。 針對標準版，請選取 [單一分區] 選項。 請注意，如果使用單一分區，cube 處理效能可能會受到影響。
     
@@ -135,7 +135,7 @@ QoE 封存的設定程式會涉及建立 QoE 封存資料庫、部署 SQL Server
   
 如果啟用 [偵錯模式]，就會顯示詳細的記錄訊息。 若要啟用 [偵錯模式]，請移至 **%SYSTEMDRIVE%\Program Files\Skype For Business 2015 CQD\QoEDataService\web.config**，並更新下列行，以將此值設定為**True**：
 
-```
+```xml
 <add key="QoEDataLib.DebugMode" value="True" /> 
 ```
 
@@ -161,7 +161,7 @@ QoE 封存的設定程式會涉及建立 QoE 封存資料庫、部署 SQL Server
   
 配置詳細資料儲存在位於入口網站物理目錄的 web.config 中。
   
-```XML
+```xml
 <?xml version="1.0" encoding="UTF-8"?> <configuration> <system.webServer> <security> <authorization> <remove users="*" roles="" verbs="" /> <add accessType="Allow" roles="CQDPortalUsers" /> </authorization> </security> </system.webServer> </configuration> 
 ```
 
@@ -233,7 +233,7 @@ QoE 封存的設定程式會涉及建立 QoE 封存資料庫、部署 SQL Server
   
 若要在 IIS 中啟用 SSL/TLS，並強迫使用者透過安全的 HTTPS （而不是 HTTP）連線：
   
-1. 在 IIS 中設定安全通訊端層，請參閱[在 iis 7 中配置安全通訊端層](https://technet.microsoft.com/en-us/library/cc771438%28v=ws.10%29.aspx)。 完成後，[ `http`取代`https`為]。
+1. 在 IIS 中設定安全通訊端層，請參閱[在 iis 7 中配置安全通訊端層](https://technet.microsoft.com/library/cc771438%28v=ws.10%29.aspx)。 完成後，[ `http`取代`https`為]。
     
 2. 如需在 SQL Server 連線中啟用 TLS 的指示，請參閱[如何使用 Microsoft 管理主控台針對 SQL Server 實例啟用 SSL 加密](https://support.microsoft.com/en-us/kb/316898/)。
     

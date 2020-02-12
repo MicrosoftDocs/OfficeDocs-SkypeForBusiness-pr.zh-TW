@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 93f42230-24a2-418d-9770-bf4670a9d78f
 description: 若要執行商務用 Skype Server 2015 的壓力與效能工具，您必須能夠同時管理使用者、連絡人和使用者設定檔、設定要執行的工具，然後查看工具產生的輸出或結果。
-ms.openlocfilehash: 9920eb446452b9df23470a46c16eab754cc91577
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 0bdffee133e583ebaf4177d3226479838495c69f
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816142"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888862"
 ---
 # <a name="using-the-skype-for-business-server-2015-stress-and-performance-tool"></a>使用商務用 Skype Server 2015 應力與效能工具
  
@@ -145,8 +145,8 @@ ms.locfileid: "41816142"
     
 8. 按一下 [**建立連絡人**]，開始建立連絡人。 這個程式可能需要幾分鐘的時間。 完成之後，會出現一個對話方塊，其中顯示 [作業已順利完成] 訊息。 您可以從以使用者 [建立] 索引標籤建立的使用者身分登入，以驗證所建立的連絡人。
     
-> [!NOTE]
-> 建立連絡人之後，此工具會重新開機目標池中的所有前端伺服器。 前端伺服器可能需要較長時間（最多2小時）才能啟動，視這個作業建立的連絡人數量而定。 
+    > [!NOTE]
+    > 建立連絡人之後，此工具會重新開機目標池中的所有前端伺服器。 前端伺服器可能需要較長時間（最多2小時）才能啟動，視這個作業建立的連絡人數量而定。 
   
 #### <a name="distribution-list"></a>通訊群組清單
 
@@ -367,7 +367,7 @@ Check **（RunClient）在啟動時加入登入延遲**，以便在產生的批�
     
 2. 流覽至用戶端資料夾，並執行**RunClient**批次腳本。 您可以在 Windows 資源管理器中按兩下批次檔案，該檔案將會執行該用戶端的所有設定檔。 您也可以使用下列語法，從用戶端資料夾執行腳本：
     
-   ```PowerShell
+   ```console
    RunClient0.bat "C:\Program Files\Skype for Business Server 2015\LyncStressAndPerfTool\LyncStress" 
    ```
 
@@ -410,7 +410,7 @@ LyncPerfTool.exe /file:IM_client0.xml /displayfile
   
 **一般資訊**
 
-|**效能計數器**|**說明**|
+|**效能計數器**|**描述**|
 |:-----|:-----|
 |花費的時間（以分鐘為單位）  <br/> |進程開始之後所花費的時間。  <br/> |
 |作用中端點  <br/> |目前連線到伺服器的端點數目。  <br/> |
@@ -420,7 +420,7 @@ LyncPerfTool.exe /file:IM_client0.xml /displayfile
    
 **目前狀態資訊**
 
-|**效能計數器**|**說明**|
+|**效能計數器**|**描述**|
 |:-----|:-----|
 |SetPresence 通話  <br/> |目前狀態變更嘗試的總數。 針對不同類型的目前狀態變更，請參閱 SetPresence （目前狀態類型）通話效能計數器。  <br/> |
 |SetPresence 的 NNN 回應  <br/> |從伺服器接收的 nnn 回應碼總數目。  <br/> |
@@ -429,7 +429,7 @@ LyncPerfTool.exe /file:IM_client0.xml /displayfile
    
 **通訊錄服務資訊**
 
-|**效能計數器**|**說明**|
+|**效能計數器**|**描述**|
 |:-----|:-----|
 |嘗試的 ABS 完整/增量檔案下載  <br/> |已嘗試完整或增量檔案下載要求的總數目。  <br/> |
 |ABS 完整/Delta 檔案下載成功  <br/> |已嘗試完整或增量檔案下載要求的總數目。  <br/> |
@@ -443,7 +443,7 @@ LyncPerfTool.exe /file:IM_client0.xml /displayfile
   
 **通訊群組清單（DL）資訊**
 
-|**效能計數器**|**說明**|
+|**效能計數器**|**描述**|
 |:-----|:-----|
 |已嘗試來電  <br/> |嘗試的通訊群組清單展開（DLX） web 服務要求總數。  <br/> |
 |通話成功  <br/> |傳回成功回應代碼之 DLX web 服務要求的總數目。  <br/> |
@@ -456,7 +456,7 @@ LyncPerfTool.exe /file:IM_client0.xml /displayfile
   
 **VoIP 基本資訊**
 
-|**效能計數器**|**說明**|
+|**效能計數器**|**描述**|
 |:-----|:-----|
 |使用中的通話  <br/> |目前正在進行的傳入/傳出語音通話總數。  <br/> |
 |呼叫終止  <br/> |已終止的傳入/傳出語音通話總數。  <br/> |
@@ -468,14 +468,14 @@ LyncPerfTool.exe /file:IM_client0.xml /displayfile
    
 **回應群組服務通話資訊**
 
-|**效能計數器**|**說明**|
+|**效能計數器**|**描述**|
 |:-----|:-----|
 |使用中的通話  <br/> |回應群組應用程式的使用中通話總次數。  <br/> |
 |已嘗試來電  <br/> |嘗試的通話總次數。  <br/> |
    
 **立即訊息（IM）通話資訊**
 
-|**效能計數器**|**說明**|
+|**效能計數器**|**描述**|
 |:-----|:-----|
 |使用中的通話  <br/> |正在進行內傳/撥出的立即訊息通話總數。  <br/> |
 |呼叫終止  <br/> |已終止傳入/傳出立即訊息通話的總數。  <br/> |
@@ -486,7 +486,7 @@ LyncPerfTool.exe /file:IM_client0.xml /displayfile
    
 **App 共用呼叫資訊**
 
-|**效能計數器**|**說明**|
+|**效能計數器**|**描述**|
 |:-----|:-----|
 |使用中的通話  <br/> |正在進行中傳入/傳出應用程式共用通話的總數。  <br/> |
 |呼叫終止  <br/> |已終止的傳入/傳出應用程式共用通話總數。  <br/> |
@@ -496,7 +496,7 @@ LyncPerfTool.exe /file:IM_client0.xml /displayfile
    
 **CAA 通話資訊**
 
-|**效能計數器**|**說明**|
+|**效能計數器**|**描述**|
 |:-----|:-----|
 |使用中的通話  <br/> |目前正在進行中的內送/出局公用電話網絡（PSTN）通話總數。  <br/> |
 |呼叫終止  <br/> |已終止的傳入/傳出 PSTN 通話總數。  <br/> |
@@ -505,7 +505,7 @@ LyncPerfTool.exe /file:IM_client0.xml /displayfile
    
 **會議資訊**
 
-|**效能計數器**|**說明**|
+|**效能計數器**|**描述**|
 |:-----|:-----|
 |即時立即訊息會議  <br/> |即時立即訊息會議的總數。  <br/> |
 |活動音訊/視訊會議  <br/> |正在進行的音訊/視頻（A/V）會議總數。  <br/> |
@@ -516,7 +516,7 @@ LyncPerfTool.exe /file:IM_client0.xml /displayfile
    
 **UCWA 用戶端計數器**
 
-|**效能計數器**|**說明**|
+|**效能計數器**|**描述**|
 |:-----|:-----|
 |成功的 IMMCU 連接總數  <br/> |已加入之立即訊息會議的總數。  <br/> |
 |成功的 DMCU 連接總數  <br/> |已加入/V 會議的總數。  <br/> |

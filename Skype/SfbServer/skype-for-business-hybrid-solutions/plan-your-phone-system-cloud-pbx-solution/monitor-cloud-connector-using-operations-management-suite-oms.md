@@ -13,18 +13,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: edf4a04c-d4c9-4c05-aacc-9e084618bb55
 description: 閱讀本主題以瞭解如何使用 Microsoft Operations Management Suite （OMS）來監控雲端連接器版本2.1 及更新版本的部署。
-ms.openlocfilehash: 1dcac3519624cef898622f915b08b24363453b84
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 6c63baf078dc865a4e3aef574cff30bedabf3819
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41799623"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888632"
 ---
 # <a name="monitor-cloud-connector-using-operations-management-suite-oms"></a>使用 Operations Management Suite (OMS) 監控 Cloud Connector
 
 閱讀本主題以瞭解如何使用 Microsoft Operations Management Suite （OMS）來監控雲端連接器版本2.1 及更新版本的部署。
 
-您現在可以使用 Operations Management Suite （OMS）（Microsoft 雲端 IT 管理解決方案）來監視雲端連接器版本2.1 及更新版本的部署。 OMS 記錄分析可讓您監視及分析資源的可用性與效能，包括物理電腦和虛擬機器。 如需 OMS 和 Log Analytics 的詳細資訊，請參閱[什麼是作業管理套件（OMS）？](https://docs.microsoft.com/azure/operations-management-suite/operations-management-suite-overview)。
+您現在可以使用 Operations Management Suite （OMS）（Microsoft 雲端 IT 管理解決方案）來監視雲端連接器版本2.1 及更新版本的部署。 OMS 記錄分析可讓您監視及分析資源的可用性與效能，包括物理電腦和虛擬機器。 如需 OMS 和 Log Analytics 的詳細資訊，請參閱[什麼是作業管理套件（OMS）？](https://docs.microsoft.com/azure/operations-management-suite/operations-management-suite-overview)
 
 本主題包含下列各節：
 
@@ -58,28 +58,28 @@ ms.locfileid: "41799623"
 
 - **如果您要安裝新的雲端連接器裝置，或想要重新部署裝置**，請在執行安裝程式前按照下列步驟進行： CcAppliance：
 
-1. 在 CloudConnector 檔案 [Common] （通用）區段中，將 OMSEnabled 參數設定為 True。
+    1. 在 CloudConnector 檔案 [Common] （通用）區段中，將 OMSEnabled 參數設定為 True。
 
-    每次部署或升級雲端連接器時，都會嘗試將 OMS 代理程式自動安裝到 Vm。 啟用這項功能，以讓 OMS 代理程式可在雲端連接器自動更新後繼續進行。
+        每次部署或升級雲端連接器時，都會嘗試將 OMS 代理程式自動安裝到 Vm。 啟用這項功能，以讓 OMS 代理程式可在雲端連接器自動更新後繼續進行。
 
-2. 若要設定 OMS 識別碼和金鑰，請執行 CcCredential-AccountType OMSWorkspace。 
+    2. 若要設定 OMS 識別碼和金鑰，請執行 CcCredential-AccountType OMSWorkspace。 
 
 - **如果您要在現有的雲端連接器裝置上安裝 OMS 代理程式**，請遵循下列步驟：
 
-1. 在 CloudConnector 檔案 [Common] （通用）區段中，設定 OMSEnabled = true。 
+    1. 在 CloudConnector 檔案 [Common] （通用）區段中，設定 OMSEnabled = true。 
 
-2. 執行匯入-CcConfiguration。 
+    2. 執行匯入-CcConfiguration。 
 
-3. 執行安裝-CcOMSAgent。 
+    3. 執行安裝-CcOMSAgent。 
 
-    > [!NOTE]
-    > 如果您還沒有設定 OMSWorkspace 認證，當您執行安裝-CcOMSAgent 時，系統會提示您輸入認證。 
+        > [!NOTE]
+        > 如果您還沒有設定 OMSWorkspace 認證，當您執行安裝-CcOMSAgent 時，系統會提示您輸入認證。 
 
 - **如果您想要在已安裝 OMS 代理程式的雲端連接器裝置中更新 OMS 工作區識別碼或金鑰：**
 
-1. 若要設定 OMS 識別碼和金鑰，請執行 CcCredential-AccountType OMSWorkspace。 
+    1. 若要設定 OMS 識別碼和金鑰，請執行 CcCredential-AccountType OMSWorkspace。 
 
-2. 若要套用更新，請執行安裝-CcOMSAgent。 
+    2. 若要套用更新，請執行安裝-CcOMSAgent。 
 
 - **針對所有案例，請確認 agent 已連線，如下所示：**
 
@@ -116,15 +116,15 @@ ms.locfileid: "41799623"
 
      總活動通話：
 
-   - LS： MediationServer-撥入電話（_Total\- ）電流 
+       - LS： MediationServer-撥入電話（_Total\- ）電流 
 
-   - LS： MediationServer-呼出通話（_Total\- ）電流 
+       - LS： MediationServer-呼出通話（_Total\- ）電流 
 
      總活動媒體旁路通話：
 
-   - LS： MediationServer-撥入通話（_Total\- ）使用中的媒體旁路通話 
+       - LS： MediationServer-撥入通話（_Total\- ）使用中的媒體旁路通話 
 
-   - LS： MediationServer-呼出通話（_Total\- ）動態媒體旁路通話 
+       - LS： MediationServer-呼出通話（_Total\- ）動態媒體旁路通話 
 
      > [!NOTE]
      > 您必須在文字方塊中手動輸入效能計數器。 它們不會顯示為下拉式清單中的選項。 
@@ -155,7 +155,7 @@ OMS 中有兩種類型的警示： [結果] 通知數和 [公制測量] 警示�
 
 - 錯誤預警的查詢如下：
 
-  ```
+  ```Kusto
   Event | where Computer contains "MediationServer" | where EventLog == "Lync Server" and (EventID == 25002 or EventID == 25003)  | summarize arg_max(TimeGenerated, EventID) by Computer | where EventID == 25003
   ```
 
@@ -167,19 +167,19 @@ OMS 中有兩種類型的警示： [結果] 通知數和 [公制測量] 警示�
 
 - [重設警示] 的查詢是：
 
-  ```
+  ```Kusto
   Event | where Computer contains "MediationServer" | where EventLog == "Lync Server" and (EventID == 25002 or EventID == 25003) | summarize arg_max(TimeGenerated, EventID) by Computer  | where EventID == 2500
   ```
 
     重設查詢與錯誤查詢完全相反。 針對每個電腦，如果最後一個事件是服務啟動事件，則會傳回一個，否則返回一個如果最後一個事件是服務停止事件，它將不會傳回任何內容。
 
-  **建立警示對：「在中繼伺服器中過多的併發通話」和「併發呼叫回到標準載入」**
+**建立警示對：「在中繼伺服器中過多的併發通話」和「併發呼叫回到標準載入」**
 
 若要建立此通知：
 
 - 錯誤預警的查詢如下：
 
-  ```
+  ```Kusto
   Perf | where Computer contains "MediationServer" | where (ObjectName == "LS:MediationServer - Outbound Calls" or ObjectName == "LS:MediationServer - Inbound Calls") | summarize arg_max(TimeGenerated, CounterValue) by ObjectName, Computer | summarize  TotalCalls = sum(CounterValue) by Computer| where TotalCalls >= 500
   ```
 
@@ -187,17 +187,17 @@ OMS 中有兩種類型的警示： [結果] 通知數和 [公制測量] 警示�
 
 - [重設警示] 的查詢是：
 
-  ```
+  ```Kusto
   Perf  | where Computer contains "MediationServer" | where (ObjectName == "LS:MediationServer - Outbound Calls" or ObjectName ==  "LS:MediationServer - Inbound Calls") | summarize arg_max(TimeGenerated, CounterValue) by ObjectName, Computer | summarize  TotalCalls = sum(CounterValue) by Computer| where TotalCalls < 500
   ```
 
     重設查詢與錯誤查詢完全相反。 針對每個電腦，查詢會取得撥入通話和撥出通話的最後一個計數器，並加總這兩個值。 如果 sum 值小於500，則會傳回一個記錄;否則不會傳回任何內容。
 
-  **建立警示：「伺服器上的\> CPU 使用量90或 RTCMEDIARELAY 已停止在伺服器中」警報**
+**建立警示：「伺服器上的\> CPU 使用量90或 RTCMEDIARELAY 已停止在伺服器中」警報**
 
 若要建立此通知，查詢是：
 
-```
+```Kusto
 search *| where Computer contains "MediationServer" | where (Type == "Perf" or Type == "Event") | where ((ObjectName ==  "Processor" and CounterName == "% Processor Time") or EventLog == "Lync Server") | where (CounterValue > 90 or EventID == 22003)
 ```
 

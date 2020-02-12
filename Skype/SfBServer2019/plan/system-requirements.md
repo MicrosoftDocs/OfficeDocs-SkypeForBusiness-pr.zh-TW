@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: ''
 description: 摘要：使用本主題準備商務用 Skype Server 2019 伺服器及網域基礎結構。 硬體、作業系統、資料庫、軟體、所有系統需求與建議，以及憑證 DNS、檔案共用及 Active Directory 資訊，都在這裡協助確保您的伺服器伺服器陣列已成功安裝及部署。
-ms.openlocfilehash: c6f30ad4caa8dcb31cf035c3f82de4ab87c41f3d
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: fbfb66d24b3e3fbc07ac5fa798b372cc1bf4a268
+ms.sourcegitcommit: 5e2dc3430e63bc0a17b87a63fa36ac93d96d8134
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41812591"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41889372"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>商務用 Skype Server 2019 的系統需求
  
@@ -265,8 +265,6 @@ Microsoft SQL Server 2016 （64位版本），而且您必須使用最新的更�
     
 您部署商務用 Skype Server 2019 的任何網域的網域功能層級，以及您部署商務用 Skype Server 2019 的任何目錄林功能層級，都必須是下列其中一項：
   
-- Windows Server 2019
-
 - Windows Server 2016
     
 - Windows Server 2012 R2
@@ -520,7 +518,7 @@ Survivable 分支裝置的憑證（特別是適用于商務用 Skype Server 2019
   
 主管池與前端池的憑證需求：
   
-|**說明**|**SAN 專案**|
+|**描述**|**SAN 專案**|
 |:-----|:-----|
 |內部自動探索服務 URL  <br/> |SAN = lyncdiscoverinternal。\<sipdomain\>  <br/> |
 |外部自動探索服務 URL  <br/> |SAN = lyncdiscover。\<sipdomain\>  <br/> |
@@ -529,7 +527,7 @@ Survivable 分支裝置的憑證（特別是適用于商務用 Skype Server 2019
   
 反向 Proxy （公用 CA）證書需求：
   
-|**說明**|**SAN 專案**|
+|**描述**|**SAN 專案**|
 |:-----|:-----|
 |外部自動探索服務 URL  <br/> |SAN = lyncdiscover。\<sipdomain\>  <br/> |
    

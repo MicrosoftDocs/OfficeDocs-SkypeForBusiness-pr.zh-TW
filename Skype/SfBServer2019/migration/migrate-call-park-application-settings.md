@@ -11,22 +11,22 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: '[通話駐留] 應用程式的遷移包括設定商務用 Skype Server 2019 池，其中包含已在舊版安裝中上傳的任何自訂音樂保留檔案，還原服務層級設定並 retargeting 所有通話駐留軌道式商務用 Skype Server 2019 池。 如果已在池中設定自訂的 [封存暫停] 檔案，則需要將這些檔案複製到新的商務用 Skype Server 2019 池。 此外，建議您將任何通話駐留自訂的音樂保留檔案從另一個目的地備份，以保留針對通話駐留上傳的任何自訂音樂保留檔案的個別備份複本。 通話駐留應用程式的自訂音樂保留檔案會儲存在該池的檔案存放區中。 若要將文件庫檔案存放區中的音訊檔案複製到商務用 Skype Server 2019 檔案存放區，請使用 Xcopy 命令及下列參數：'
-ms.openlocfilehash: b9e55bc76e718d499482fb21e029a0a74e8f207f
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 058f2f1652dcb7c05730fd058e9867a4c2dee8af
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41813581"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888132"
 ---
 # <a name="migrate-call-park-application-settings"></a>移轉通話駐留應用程式設定
 
 [通話駐留] 應用程式的遷移包括設定商務用 Skype Server 2019 池，其中包含已在舊版安裝中上傳的任何自訂音樂保留檔案，還原服務層級設定並重新導向所有通話駐留軌道式[商務用 Skype Server 2019] 池。 如果已在池中設定自訂的 [封存暫停] 檔案，則需要將這些檔案複製到新的商務用 Skype Server 2019 池。 此外，建議您將任何通話駐留自訂的 [封存] 檔案移到另一個目的地，以保留針對通話駐留上傳的任何自訂音樂保留檔案的個別備份複本。 通話駐留應用程式的自訂音樂保留檔案會儲存在該池的檔案存放區中。 若要將文件庫檔案存放區中的音訊檔案複製到商務用 Skype Server 2019 檔案存放區，請使用**Xcopy**命令及下列參數： 
 
-```
+```console
 Xcopy <Source: legacy Pool CPS File Store Path> <Destination: Skype for Business Server 2019 Pool CPS File Store Path>
 ```
 
-```
+```console
 Example usage:  Xcopy "<legacy File Store Path>\OcsFileStore\coX-ApplicationServer-X\AppServerFiles\CPS\"  "<Skype for Business Server 2019 File Store Path>\OcsFileStore\coX-ApplicationServer-X\AppServerFiles\CPS\" 
 ```
 

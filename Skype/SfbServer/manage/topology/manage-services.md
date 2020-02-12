@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 瞭解如何查看服務狀態、啟動和停止服務，以及防範服務的會話。
-ms.openlocfilehash: 154c7b2d5ff858e22be4159ec1797ef6a6724445
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: da617e386f30469c1b787522f8472d822d02b1e5
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817114"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888442"
 ---
 # <a name="manage-services-in-skype-for-business-server"></a>管理商務用 Skype Server 中的服務
 
@@ -59,7 +59,9 @@ ms.locfileid: "41817114"
 
 若要在電腦上查看服務狀態，請在商務用 Skype Server Management Shell 中輸入類似以下的命令，然後按 Enter：
 
-`Get-CsWindowsService -ComputerName atl-cs-001.litwareinc.com | Select-Object RoleName, Status`
+```powershell
+Get-CsWindowsService -ComputerName atl-cs-001.litwareinc.com | Select-Object RoleName, Status
+```
 
 這個命令會傳回如下所示的資訊：
 
@@ -75,7 +77,7 @@ RoleName                                  Status
 {MediationServer}                         Running
 ```
 
-如需詳細資訊，請參閱[CsWindowsService](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsWindowsService)。
+如需詳細資訊，請參閱[CsWindowsService](https://docs.microsoft.com/powershell/module/skype/Get-CsWindowsService)。
 
 ## <a name="start-or-stop-skype-for-business-services"></a>啟動或停止商務用 Skype 服務
 
@@ -85,7 +87,9 @@ RoleName                                  Status
 
 1. 從屬於 RTCUniversalServerAdmins 群組成員的使用者帳戶（或擁有同等的使用者權利），或指派給 CsServerAdministrator 或 CsAdministrator 角色，登入您在其中部署商務用 Skype Server 的網路中的任何電腦. 您可以執行如下所示的命令來判斷您是否已獲指派 CsServerAdministrator 或 CsAdministrator RBAC 角色：
 
-    `Get-CsAdminRoleAssignment -Identity "kenmyer"`
+    ```powershell
+    Get-CsAdminRoleAssignment -Identity "kenmyer"`
+    ```
 
 2. 開啟瀏覽器視窗，然後輸入系統管理員 URL，開啟商務用 Skype Server 的 [控制台]。 如需可用於啟動商務用 Skype Server 控制台的不同方法的詳細資訊，請參閱[安裝及開啟 [管理工具](../../management-tools/install-and-open-administrative-tools.md)]。
 3. 在左側導覽列中，按一下 [**拓撲**]，然後按一下 [**狀態**]。

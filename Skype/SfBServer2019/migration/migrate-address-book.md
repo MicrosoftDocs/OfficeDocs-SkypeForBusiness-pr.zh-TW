@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 一般來說，通訊錄會與您的其他拓撲一起遷移。 不過，如果您在舊版環境中自訂下列各項，可能需要執行一些遷移後步驟：
-ms.openlocfilehash: 73c491a538e6bce95779533b88513321c674f018
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 976717679a5a2f1dbdd1e2045cc5d5dfe43911e3
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41813601"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888162"
 ---
 # <a name="migrate-address-book"></a>移轉通訊錄
 
@@ -51,13 +51,13 @@ ms.locfileid: "41813601"
 
     包含所需空格或標點符號的字串會導致正常化規則失敗，因為這些字元會從輸入到正常化規則的字串中去除。 如果您有包含所需空格或標點符號的字串，您必須修改字串。 例如，下列字串將導致正常化規則失敗：
 
-   ```
+   ```console
    \s*\(\s*\d\d\d\s*\)\s*\-\s*\d\d\d\s*\-\s*\d\d\d\d
    ```
 
     下列字串不會導致正常化規則失敗：
 
-   ```
+   ```console
    \s*\(?\s*\d\d\d\s*\)?\s*\-?\s*\d\d\d\s*\-?\s*\d\d\d\d
    ```
 

@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 04e6bdd3-bbd1-47ca-8114-94a3db6beeeb
 description: 本節包含適用于體驗品質（QoE）資料庫的範例查詢。
-ms.openlocfilehash: 46286f23a2f687d8c7464c2e131e4cef943a57c2
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 099e0ed179ab22e3610aaf8b00d3745a315bb734
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41806201"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888652"
 ---
 # <a name="sample-qoe-database-queries"></a>範例 QoE 資料庫查詢
  
@@ -26,13 +26,13 @@ ms.locfileid: "41806201"
   
 使用下列範例來取得所有音訊流量的抖動與資料包遺失平均值。
   
-```
+```SQL
 select avg(cast(JitterInterArrival as bigint)) as JitterAvg, avg(PacketLossRate) as PacketLossRateAvg from AudioStream
 ```
 
 使用下列範例來找出已使用會議主控台的會議總數。
   
-```
+```SQL
 select avg(ConversationalMOS)
 from SessionView s
 inner join MediaLineView m
@@ -45,7 +45,7 @@ on s.ConferenceDateTime = m.ConferenceDateTime
 
 使用下列範例來取得每個擷取裝置的 ConversstionalMOS、SendingMOS 和 ListendingMOS。
   
-```
+```SQL
 select t.DeviceName as Device, count(*) as SampleNum, avg(ConversationalMOS) as ConversationalMOS, avg(SendListenMOS) SendingMOS, avg(RecvListenMOS) as ListendingMOS
 from
 (

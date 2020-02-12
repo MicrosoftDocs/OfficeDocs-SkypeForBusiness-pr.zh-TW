@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 25c2450a-f7b3-4dd2-987d-64f4246dd019
 description: 摘要：瞭解通話品質儀表板的資料 API。 [通話品質儀表板] 是商務用 Skype Server 的工具。
-ms.openlocfilehash: e302c04dee298f9e5d2f33c908b5421ecff4de9a
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: b8ff4823fad320ae57b8f06104afbb354c09b4eb
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816862"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888432"
 ---
 # <a name="data-api-for-call-quality-dashboard-cqd-in-skype-for-business-server"></a>商務用 Skype Server 中的通話品質儀表板（CQD）的資料 API
  
@@ -33,7 +33,7 @@ ms.locfileid: "41816862"
 其餘的作業包括在下表中。
   
 
-|**一道**|**說明**|
+|**一道**|**描述**|
 |:-----|:-----|
 |[取得 Cube](get-cube.md) <br/> |取得可用尺寸與測量的清單。  <br/> |
 |[取得維度成員](get-dimension-members.md) <br/> |[取得維度成員] 操作會傳回特定維度之成員的清單。 它也提供篩選成員清單及取得子集的功能，以減少線路傳輸成本。  <br/> |
@@ -52,7 +52,7 @@ ms.locfileid: "41816862"
   
 請記得包含確切的通訊協定、主機名稱和埠（如果有的話）。 不要將任何正斜線字元（/）放在結尾處。 您可以使用逗號分隔來指定多個專案。
   
-```
+```xml
 <configuration>
   <appSettings>
     <add key="corsTrustedOrigin" value="https://<trusted-server>,http://<another-trusted-domain>:8080" /> <!-- Domains which are trusted to get the data -->

@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: 摘要：查看商務用 Skype Server 部署選項的案例。 無論您是要使用單一伺服器或慣用伺服器池（含 DNS 或 HLB），本主題都應該有所協助。
-ms.openlocfilehash: e0fef305a29f753b9293593e7e1eb70b936f1a19
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: b3893c11e1ce0cfdf9ab0b0452ef0a30a6442ee7
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41802163"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41887760"
 ---
 # <a name="advanced-edge-server-dns-planning-for-skype-for-business-server"></a>商務用 Skype Server 的高級邊緣伺服器 DNS 規劃
  
@@ -172,7 +172,7 @@ ms.locfileid: "41802163"
     
     例如，如果您的 SIP 網域是 contoso.com，而您有一個名為 pool01 的前端池（其中包含兩個前端伺服器），您將需要下列 pin 點區域及內部 DNS 中的記錄：
     
-  ```
+  ```console
   dnscmd . /zoneadd _sipinternaltls._tcp.contoso.com. /dsprimary
   dnscmd . /recordadd _sipinternaltls._tcp.contoso.com. @ SRV 0 0 5061 pool01.contoso.com.
   dnscmd . /zoneadd pool01.contoso.com. /dsprimary
@@ -184,7 +184,7 @@ ms.locfileid: "41802163"
 
     您的環境中可能會有第二個 SIP 網域。 在這種情況下，您將需要下列 pin 點區域及內部 DNS 中的記錄：
     
-  ```
+  ```console
   dnscmd . /zoneadd _sipinternaltls._tcp.fabrikam.com. /dsprimary
   dnscmd . /recordadd _sipinternaltls._tcp.fabrikam.com. @ SRV 0 0 5061 pool01.fabrikam.com.
   dnscmd . /zoneadd pool01.fabrikam.com. /dsprimary

@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 8856f6bc-5460-4f35-acf2-f7662f01579b
 description: 摘要：瞭解 [取得整合記錄] 作業，該作業是 [通話品質儀表板] 的資料 API 的一部分。 [通話品質儀表板] 是商務用 Skype Server 的工具。
-ms.openlocfilehash: 9caa909e80a0bab5257af16fe77e9d154947a56e
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: e1d790f4723eaaf716482143f08c78624db47433
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816812"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888802"
 ---
 # <a name="get-integration-log"></a>取得整合記錄
  
@@ -51,7 +51,7 @@ ms.locfileid: "41816812"
   
  **回應主體**-以下是記錄專案的範例結構。
   
-```
+```json
 [
 {"LogCategory":"<category>","LogTime":"2015-03-18T10:28:29.10","LogDescription":"<log description>"}
 ]

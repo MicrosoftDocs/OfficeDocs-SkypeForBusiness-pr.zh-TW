@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bd89bbf7-cb98-4cd8-bbfa-0484663d14db
 description: 摘要：瞭解 [取得維度成員] 操作。 [取得維度成員] 作業是 [通話品質儀表板] 的資料 API 的一部分。 [通話品質儀表板] 是商務用 Skype Server 的工具。
-ms.openlocfilehash: ba80e14c011d6cecb9b70f8a8faf32764b5b433d
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 40e5ac8b95c24c3a8cb759da99f7d7aeaa391576
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816822"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888812"
 ---
 # <a name="get-dimension-members"></a>取得維度成員
  
@@ -41,7 +41,7 @@ ms.locfileid: "41816822"
   
  **要求主體**-這包含我們想要其成員的維度名稱。 此外，在傳回的成員數目上限，您可以指定一些篩選來限制傳回的成員。
   
-```
+```json
 {
 "ByPassCache": false,
 "DataModelName": "[StartDate].[Month]",
@@ -63,7 +63,7 @@ ms.locfileid: "41816822"
 > [!NOTE]
 > 清單只會顯示清單的一小部分。 
   
-```
+```json
 {
 "MembersCount": 493,
 "Members": [["[1990-01-01T00:00:00]",
