@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：應用程式表
+title: Lync Server 2013： 應用程式表
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183757
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 649463f3fe543e17172ecf69daa5a380c2b5e774
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c6cc89733e9e3ce85737caa29e62e3c033211713
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737613"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037263"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="application-table-in-lync-server-2013"></a><span data-ttu-id="51f16-102">Lync Server 2013 中的應用程式表</span><span class="sxs-lookup"><span data-stu-id="51f16-102">Application table in Lync Server 2013</span></span>
+# <a name="application-table-in-lync-server-2013"></a><span data-ttu-id="e1410-102">Lync Server 2013 中的應用程式表</span><span class="sxs-lookup"><span data-stu-id="e1410-102">Application table in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41737613"
 
 <span> </span>
 
-<span data-ttu-id="51f16-103">_**主題上次修改日期：** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="51f16-103">_**Topic Last Modified:** 2012-09-28_</span></span>
+<span data-ttu-id="e1410-103">_**主題上次修改日期：** 2012年-09-28_</span><span class="sxs-lookup"><span data-stu-id="e1410-103">_**Topic Last Modified:** 2012-09-28_</span></span>
 
-<span data-ttu-id="51f16-104">此表格儲存有關 [路由和連線] 中所涉及的 Lync Server 2013 中各種程式的資訊。</span><span class="sxs-lookup"><span data-stu-id="51f16-104">This table stores information about the various processes within Lync Server 2013 involved in routing and connections.</span></span>
+<span data-ttu-id="e1410-104">此表格會儲存在路由及連線 Lync Server 2013 的相關之各種程序的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="e1410-104">This table stores information about the various processes within Lync Server 2013 involved in routing and connections.</span></span>
 
 
 <table>
@@ -49,24 +49,24 @@ ms.locfileid: "41737613"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="51f16-105">左欄</span><span class="sxs-lookup"><span data-stu-id="51f16-105">Column</span></span></th>
-<th><span data-ttu-id="51f16-106">資料類型</span><span class="sxs-lookup"><span data-stu-id="51f16-106">Data Type</span></span></th>
-<th><span data-ttu-id="51f16-107">索引鍵/索引</span><span class="sxs-lookup"><span data-stu-id="51f16-107">Key/Index</span></span></th>
-<th><span data-ttu-id="51f16-108">詳細資料</span><span class="sxs-lookup"><span data-stu-id="51f16-108">Details</span></span></th>
+<th><span data-ttu-id="e1410-105">欄</span><span class="sxs-lookup"><span data-stu-id="e1410-105">Column</span></span></th>
+<th><span data-ttu-id="e1410-106">資料類型</span><span class="sxs-lookup"><span data-stu-id="e1410-106">Data Type</span></span></th>
+<th><span data-ttu-id="e1410-107">主索引鍵 /</span><span class="sxs-lookup"><span data-stu-id="e1410-107">Key/Index</span></span></th>
+<th><span data-ttu-id="e1410-108">詳細資料</span><span class="sxs-lookup"><span data-stu-id="e1410-108">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="51f16-109"><strong>ApplicationId</strong></span><span class="sxs-lookup"><span data-stu-id="51f16-109"><strong>ApplicationId</strong></span></span></p></td>
-<td><p><span data-ttu-id="51f16-110">int</span><span class="sxs-lookup"><span data-stu-id="51f16-110">int</span></span></p></td>
-<td><p><span data-ttu-id="51f16-111">首選</span><span class="sxs-lookup"><span data-stu-id="51f16-111">Primary</span></span></p></td>
-<td><p><span data-ttu-id="51f16-112">識別此應用程式的唯一號碼。</span><span class="sxs-lookup"><span data-stu-id="51f16-112">Unique number identifying this application.</span></span></p></td>
+<td><p><span data-ttu-id="e1410-109"><strong>ApplicationId</strong></span><span class="sxs-lookup"><span data-stu-id="e1410-109"><strong>ApplicationId</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1410-110">int</span><span class="sxs-lookup"><span data-stu-id="e1410-110">int</span></span></p></td>
+<td><p><span data-ttu-id="e1410-111">主要</span><span class="sxs-lookup"><span data-stu-id="e1410-111">Primary</span></span></p></td>
+<td><p><span data-ttu-id="e1410-112">用於識別此應用程式的唯一號碼。</span><span class="sxs-lookup"><span data-stu-id="e1410-112">Unique number identifying this application.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="51f16-113"><strong>名稱</strong></span><span class="sxs-lookup"><span data-stu-id="51f16-113"><strong>Name</strong></span></span></p></td>
-<td><p><span data-ttu-id="51f16-114">Nvarchar （256）</span><span class="sxs-lookup"><span data-stu-id="51f16-114">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="e1410-113"><strong>名稱</strong></span><span class="sxs-lookup"><span data-stu-id="e1410-113"><strong>Name</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1410-114">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="e1410-114">nvarchar(256)</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="51f16-115">伺服器元件的名稱。</span><span class="sxs-lookup"><span data-stu-id="51f16-115">Name of the server component.</span></span></p></td>
+<td><p><span data-ttu-id="e1410-115">伺服器元件的名稱。</span><span class="sxs-lookup"><span data-stu-id="e1410-115">Name of the server component.</span></span></p></td>
 </tr>
 </tbody>
 </table>

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：同時響鈴
+title: Lync Server 2013： 同時響鈴
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803990
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1bcdb0d30bccfe628fd02861d257d79268046b77
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4e3104da5e7d351bda26698087e97106cafbdff4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764509"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037503"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="simultaneous-ringing-in-lync-server-2013"></a><span data-ttu-id="11c82-102">Lync Server 2013 中的同時響鈴</span><span class="sxs-lookup"><span data-stu-id="11c82-102">Simultaneous ringing in Lync Server 2013</span></span>
+# <a name="simultaneous-ringing-in-lync-server-2013"></a><span data-ttu-id="f8c60-102">同時響鈴的 Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f8c60-102">Simultaneous ringing in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41764509"
 
 <span> </span>
 
-<span data-ttu-id="11c82-103">_**主題上次修改日期：** 2013-03-09_</span><span class="sxs-lookup"><span data-stu-id="11c82-103">_**Topic Last Modified:** 2013-03-09_</span></span>
+<span data-ttu-id="f8c60-103">_**上次修改主題：** 2013年-03-09_</span><span class="sxs-lookup"><span data-stu-id="f8c60-103">_**Topic Last Modified:** 2013-03-09_</span></span>
 
-<span data-ttu-id="11c82-104">當呼叫方啟用同時撥打時，以位置為基礎的路由會分析呼叫方的位置，以及呼叫方的端點，判斷是否應該路由通話。</span><span class="sxs-lookup"><span data-stu-id="11c82-104">When the called party has simultaneous ringing enabled, Location-Based Routing analyzes the location of the calling party and the endpoints of the called parties to determine whether the call should be routed.</span></span>
+<span data-ttu-id="f8c60-104">當受話的方具有已啟用同時響鈴時，位置型路由會分析的呼叫方的位置和受話方設定決定是否應路由傳送通話的端點。</span><span class="sxs-lookup"><span data-stu-id="f8c60-104">When the called party has simultaneous ringing enabled, Location-Based Routing analyzes the location of the calling party and the endpoints of the called parties to determine whether the call should be routed.</span></span>
 
-<span data-ttu-id="11c82-105">下表說明設定同時撥打的使用者，以及同時撥打的目標，是相同網路網站、不同網路網站或未知網路網站中的使用者。</span><span class="sxs-lookup"><span data-stu-id="11c82-105">The following table illustrates a user configured with simultaneous ringing, and the simultaneous ringing target is a user in the same network site, in a different network site, or in an unknown network site.</span></span>
+<span data-ttu-id="f8c60-105">下表說明設定與同時響鈴的使用者，同時響鈴的目標是相同的網路站台、 不同的網路網站，或無法辨識的網路網站的使用者。</span><span class="sxs-lookup"><span data-stu-id="f8c60-105">The following table illustrates a user configured with simultaneous ringing, and the simultaneous ringing target is a user in the same network site, in a different network site, or in an unknown network site.</span></span>
 
 
 <table>
@@ -51,24 +51,24 @@ ms.locfileid: "41764509"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="11c82-106">打入的 PSTN 通話</span><span class="sxs-lookup"><span data-stu-id="11c82-106">Incoming PSTN call for</span></span></th>
-<th><span data-ttu-id="11c82-107">與被呼叫方位於相同的網路網站中</span><span class="sxs-lookup"><span data-stu-id="11c82-107">Located in the same network site as callee</span></span></th>
-<th><span data-ttu-id="11c82-108">位於不同于被人的網路網站</span><span class="sxs-lookup"><span data-stu-id="11c82-108">Located in different network site than callee</span></span></th>
-<th><span data-ttu-id="11c82-109">位於未知的網路網站中，或未啟用以位置為基礎的路由</span><span class="sxs-lookup"><span data-stu-id="11c82-109">Located in unknown network site or not enabled for Location-Based Routing</span></span></th>
+<th><span data-ttu-id="f8c60-106">傳入 PSTN 通話</span><span class="sxs-lookup"><span data-stu-id="f8c60-106">Incoming PSTN call for</span></span></th>
+<th><span data-ttu-id="f8c60-107">位於與受話者位於相同網路站台</span><span class="sxs-lookup"><span data-stu-id="f8c60-107">Located in the same network site as callee</span></span></th>
+<th><span data-ttu-id="f8c60-108">位於比受話者的不同的網路網站</span><span class="sxs-lookup"><span data-stu-id="f8c60-108">Located in different network site than callee</span></span></th>
+<th><span data-ttu-id="f8c60-109">位於不明的網路站台或未啟用位置型的路由</span><span class="sxs-lookup"><span data-stu-id="f8c60-109">Located in unknown network site or not enabled for Location-Based Routing</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="11c82-110">Lync 使用者</span><span class="sxs-lookup"><span data-stu-id="11c82-110">Lync user</span></span></p></td>
-<td><p><span data-ttu-id="11c82-111">允許同時撥打</span><span class="sxs-lookup"><span data-stu-id="11c82-111">Simultaneous ring allowed</span></span></p></td>
-<td><p><span data-ttu-id="11c82-112">不允許同時撥打</span><span class="sxs-lookup"><span data-stu-id="11c82-112">Simultaneous ring not allowed</span></span></p></td>
-<td><p><span data-ttu-id="11c82-113">不允許同時撥打</span><span class="sxs-lookup"><span data-stu-id="11c82-113">Simultaneous ring not allowed</span></span></p></td>
+<td><p><span data-ttu-id="f8c60-110">Lync 使用者</span><span class="sxs-lookup"><span data-stu-id="f8c60-110">Lync user</span></span></p></td>
+<td><p><span data-ttu-id="f8c60-111">允許的同時響鈴</span><span class="sxs-lookup"><span data-stu-id="f8c60-111">Simultaneous ring allowed</span></span></p></td>
+<td><p><span data-ttu-id="f8c60-112">不允許的同時響鈴</span><span class="sxs-lookup"><span data-stu-id="f8c60-112">Simultaneous ring not allowed</span></span></p></td>
+<td><p><span data-ttu-id="f8c60-113">不允許的同時響鈴</span><span class="sxs-lookup"><span data-stu-id="f8c60-113">Simultaneous ring not allowed</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
   
-<span data-ttu-id="11c82-114">下表說明 Lync 使用者（亦即 Lync 呼叫者）在同一個網路網站、不同網路網站或來自未知網路網站的呼叫。</span><span class="sxs-lookup"><span data-stu-id="11c82-114">The following table illustrates a call from a Lync user (i.e. Lync caller) in the same network site, in a different network site, or from an unknown network site.</span></span> <span data-ttu-id="11c82-115">被呼叫方有一個 PSTN 端點（亦即手機）設定為同時振鈴目標。</span><span class="sxs-lookup"><span data-stu-id="11c82-115">The callee has a PSTN endpoint (i.e. cellphone) configured as a simultaneous ring target.</span></span> <span data-ttu-id="11c82-116">在這個案例中，以位置為基礎的路由會判斷是否應該將呼叫路由到被呼叫者的同時環目標（亦即手機）。</span><span class="sxs-lookup"><span data-stu-id="11c82-116">In this scenario, Location-Based Routing will determine whether the call should be routed to the simultaneous ring target (i.e. cellphone) of the callee or not.</span></span>
+<span data-ttu-id="f8c60-114">下表說明從 Lync 使用者 （亦即 Lync 呼叫者） 的呼叫中相同的網路網站，在不同的網路網站中，或從不明的網路網站。</span><span class="sxs-lookup"><span data-stu-id="f8c60-114">The following table illustrates a call from a Lync user (i.e. Lync caller) in the same network site, in a different network site, or from an unknown network site.</span></span> <span data-ttu-id="f8c60-115">受話者已設定為同時響鈴目標 PSTN 端點 （亦即行動電話）。</span><span class="sxs-lookup"><span data-stu-id="f8c60-115">The callee has a PSTN endpoint (i.e. cellphone) configured as a simultaneous ring target.</span></span> <span data-ttu-id="f8c60-116">在此案例中，位置型路由會決定是否在呼叫應被路由傳送至受話者的同時響鈴目標 (亦即 cellphone) 或不。</span><span class="sxs-lookup"><span data-stu-id="f8c60-116">In this scenario, Location-Based Routing will determine whether the call should be routed to the simultaneous ring target (i.e. cellphone) of the callee or not.</span></span>
 
 
 <table>
@@ -80,18 +80,18 @@ ms.locfileid: "41764509"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="11c82-117">同時撥打目標</span><span class="sxs-lookup"><span data-stu-id="11c82-117">Simultaneous ring target</span></span></th>
-<th><span data-ttu-id="11c82-118">與被呼叫方位於相同的網路網站中</span><span class="sxs-lookup"><span data-stu-id="11c82-118">Located in the same network site as callee</span></span></th>
-<th><span data-ttu-id="11c82-119">位於不同于被人的網路網站</span><span class="sxs-lookup"><span data-stu-id="11c82-119">Located in different network site than callee</span></span></th>
-<th><span data-ttu-id="11c82-120">位於未知的網路網站中，或未啟用以位置為基礎的路由</span><span class="sxs-lookup"><span data-stu-id="11c82-120">Located in unknown network site or not enabled for Location-Based Routing</span></span></th>
+<th><span data-ttu-id="f8c60-117">同時響鈴目標</span><span class="sxs-lookup"><span data-stu-id="f8c60-117">Simultaneous ring target</span></span></th>
+<th><span data-ttu-id="f8c60-118">位於與受話者位於相同網路站台</span><span class="sxs-lookup"><span data-stu-id="f8c60-118">Located in the same network site as callee</span></span></th>
+<th><span data-ttu-id="f8c60-119">位於比受話者的不同的網路網站</span><span class="sxs-lookup"><span data-stu-id="f8c60-119">Located in different network site than callee</span></span></th>
+<th><span data-ttu-id="f8c60-120">位於不明的網路站台或未啟用位置型的路由</span><span class="sxs-lookup"><span data-stu-id="f8c60-120">Located in unknown network site or not enabled for Location-Based Routing</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="11c82-121">PSTN 端點</span><span class="sxs-lookup"><span data-stu-id="11c82-121">PSTN endpoint</span></span></p></td>
-<td><p><span data-ttu-id="11c82-122">透過來電者的網站語音路由策略允許同時撥打</span><span class="sxs-lookup"><span data-stu-id="11c82-122">Simultaneous ring allowed through the caller’s site voice routing policy</span></span></p></td>
-<td><p><span data-ttu-id="11c82-123">透過來電者的網站語音路由策略允許同時撥打</span><span class="sxs-lookup"><span data-stu-id="11c82-123">Simultaneous ring allowed through the caller’s site voice routing policy</span></span></p></td>
-<td><p><span data-ttu-id="11c82-124">透過呼叫者的語音原則允許同時撥打，以進行位置式路由的 trunks</span><span class="sxs-lookup"><span data-stu-id="11c82-124">Simultaneous ring allowed through the caller’s voice policy to trunks not enabled for Location-Based Routing</span></span></p></td>
+<td><p><span data-ttu-id="f8c60-121">PSTN 端點</span><span class="sxs-lookup"><span data-stu-id="f8c60-121">PSTN endpoint</span></span></p></td>
+<td><p><span data-ttu-id="f8c60-122">透過發話者網站的語音路由原則所允許的同時響鈴</span><span class="sxs-lookup"><span data-stu-id="f8c60-122">Simultaneous ring allowed through the caller’s site voice routing policy</span></span></p></td>
+<td><p><span data-ttu-id="f8c60-123">透過發話者網站的語音路由原則所允許的同時響鈴</span><span class="sxs-lookup"><span data-stu-id="f8c60-123">Simultaneous ring allowed through the caller’s site voice routing policy</span></span></p></td>
+<td><p><span data-ttu-id="f8c60-124">發話者的語音原則未啟用位置型路由的主幹，透過允許的同時響鈴</span><span class="sxs-lookup"><span data-stu-id="f8c60-124">Simultaneous ring allowed through the caller’s voice policy to trunks not enabled for Location-Based Routing</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -99,10 +99,10 @@ ms.locfileid: "41764509"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="11c82-125">請參閱</span><span class="sxs-lookup"><span data-stu-id="11c82-125">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f8c60-125">另請參閱</span><span class="sxs-lookup"><span data-stu-id="f8c60-125">See Also</span></span>
 
 
-[<span data-ttu-id="11c82-126">Lync Server 2013 中的位置基礎路由案例</span><span class="sxs-lookup"><span data-stu-id="11c82-126">Scenarios for Location-Based Routing in Lync Server 2013</span></span>](lync-server-2013-scenarios-for-location-based-routing.md)  
+[<span data-ttu-id="f8c60-126">依位置路由 Lync Server 2013 中的案例</span><span class="sxs-lookup"><span data-stu-id="f8c60-126">Scenarios for Location-Based Routing in Lync Server 2013</span></span>](lync-server-2013-scenarios-for-location-based-routing.md)  
   
 
 </div>

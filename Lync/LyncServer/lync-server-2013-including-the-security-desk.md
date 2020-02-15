@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：包括安全服務台
+title: Lync Server 2013： 包括安全性桌面
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184084
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d792626a973a790313b2cdc1bd9df9092175f28a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 99f35087d03b046fade741140dc3f5522e6c6d05
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763807"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038665"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="including-the-security-desk-in-lync-server-2013"></a><span data-ttu-id="35549-102">包括 Lync Server 2013 中的安全服務台</span><span class="sxs-lookup"><span data-stu-id="35549-102">Including the security desk in Lync Server 2013</span></span>
+# <a name="including-the-security-desk-in-lync-server-2013"></a><span data-ttu-id="edabb-102">Lync Server 2013 中包括安全性桌面</span><span class="sxs-lookup"><span data-stu-id="edabb-102">Including the security desk in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41763807"
 
 <span> </span>
 
-<span data-ttu-id="35549-103">_**主題上次修改日期：** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="35549-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+<span data-ttu-id="edabb-103">_**主題上次修改日期：** 2012年-10-02_</span><span class="sxs-lookup"><span data-stu-id="edabb-103">_**Topic Last Modified:** 2012-10-02_</span></span>
 
-<span data-ttu-id="35549-104">您的公司可能需要安全服務台才能參與緊急通話。</span><span class="sxs-lookup"><span data-stu-id="35549-104">Your company may require the security desk to become involved in an emergency call.</span></span> <span data-ttu-id="35549-105">若要協助您決定如何將安全服務台整合至 E9-1 1 1，您應該回答下列問題。</span><span class="sxs-lookup"><span data-stu-id="35549-105">To help decide how to integrate the Security Desk into you E9-1-1 deployment, you should answer the following questions.</span></span>
+<span data-ttu-id="edabb-p101">您的公司可能需要警衛室介入處理緊急通話。為了協助決定如何將警衛室整合至 E9-1-1 部署，您應該回答下列問題。</span><span class="sxs-lookup"><span data-stu-id="edabb-p101">Your company may require the security desk to become involved in an emergency call. To help decide how to integrate the Security Desk into you E9-1-1 deployment, you should answer the following questions.</span></span>
 
-  - <span data-ttu-id="35549-106">**您希望安全服務台在有緊急通話時收到通知嗎？**</span><span class="sxs-lookup"><span data-stu-id="35549-106">**Do you want the security desk to be notified when there is an emergency call?**</span></span>  
-    <span data-ttu-id="35549-107">您可以設定位置原則，讓 Lync Server 將立即訊息（IM）通知傳送給一或多個安全性人員的 Lync SIP 位址。</span><span class="sxs-lookup"><span data-stu-id="35549-107">You can configure the location policy so that Lync Server sends instant messaging (IM) alerts to the Lync SIP addresses of one or more security personnel.</span></span> <span data-ttu-id="35549-108">這些警示包含撥入緊急通話之人員的名稱、電話號碼和地點，以及協助安全人員協助緊急情況。</span><span class="sxs-lookup"><span data-stu-id="35549-108">These alerts contain the name, number, and location of the person placing the emergency call, and facilitate security personnel in assisting with the emergency situation.</span></span>
+  - <span data-ttu-id="edabb-106">**您是否希望在有人撥打緊急通話時通知警衛室？**</span><span class="sxs-lookup"><span data-stu-id="edabb-106">**Do you want the security desk to be notified when there is an emergency call?**</span></span>  
+    <span data-ttu-id="edabb-107">您可以設定的位置原則，讓該 Lync Server 傳送立即訊息 (IM) 提醒一或多個安全性人員的 Lync SIP 位址。</span><span class="sxs-lookup"><span data-stu-id="edabb-107">You can configure the location policy so that Lync Server sends instant messaging (IM) alerts to the Lync SIP addresses of one or more security personnel.</span></span> <span data-ttu-id="edabb-108">這些通知包含撥打緊急電話的人員名稱、號碼及位置，以加速安全人員協助處理緊急狀況。</span><span class="sxs-lookup"><span data-stu-id="edabb-108">These alerts contain the name, number, and location of the person placing the emergency call, and facilitate security personnel in assisting with the emergency situation.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="35549-109">**您是否想要在每次緊急通話中舉行安全服務台？**</span><span class="sxs-lookup"><span data-stu-id="35549-109">**Do you want to conference the security desk in on each emergency call?**</span></span>  
-    <span data-ttu-id="35549-110">如果緊急服務服務提供者支援，您可以設定位置原則，在每次緊急通話中加入回撥號碼。</span><span class="sxs-lookup"><span data-stu-id="35549-110">If supported by the emergency services service provider, you can configure the location policy to include a callback number with each emergency call.</span></span> <span data-ttu-id="35549-111">然後，提供者會使用這個數位，將貴組織的安全性人員加入緊急通話中。</span><span class="sxs-lookup"><span data-stu-id="35549-111">This number is then used by the provider to conference your organization's security personnel into emergency calls.</span></span> <span data-ttu-id="35549-112">此會議可在位置原則中設定為單向（僅供聆聽）或雙向（雙向）。</span><span class="sxs-lookup"><span data-stu-id="35549-112">This conferencing can be configured in the location policy to be one-way (listen-only) or two-way (bidirectional).</span></span>
+  - <span data-ttu-id="edabb-109">**您想要針對每一通緊急通話都邀請警衛室參加會議嗎？**</span><span class="sxs-lookup"><span data-stu-id="edabb-109">**Do you want to conference the security desk in on each emergency call?**</span></span>  
+    <span data-ttu-id="edabb-p103">只要緊急服務服務提供者有支援，您可以設定位置原則，以隨每通緊急通話附上回撥號碼。然後提供者就會針對緊急電話，使用此號碼來召集您組織的安全人員開會。此會議可在位置原則中設定為單向 (只能聆聽) 或雙向。</span><span class="sxs-lookup"><span data-stu-id="edabb-p103">If supported by the emergency services service provider, you can configure the location policy to include a callback number with each emergency call. This number is then used by the provider to conference your organization's security personnel into emergency calls. This conferencing can be configured in the location policy to be one-way (listen-only) or two-way (bidirectional).</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="35549-113">如有需要，您可以針對每個位置原則設定不同的緊急人員。</span><span class="sxs-lookup"><span data-stu-id="35549-113">If desired, you can configure different emergency personnel for each location policy.</span></span> <span data-ttu-id="35549-114">這可讓您自訂公司內部不同區域的回應，或針對來源於網路以外的緊急呼叫建立不同的行為。</span><span class="sxs-lookup"><span data-stu-id="35549-114">This allows you to customize the response for different areas within your company, or create different behavior for emergency calls that originate from inside as opposed to outside the network.</span></span> <span data-ttu-id="35549-115">您可以使用通訊群組來指定您想要通知的人員。</span><span class="sxs-lookup"><span data-stu-id="35549-115">You can use distribution groups to specify the personnel you want to notify.</span></span>
+> <span data-ttu-id="edabb-p104">必要時，您可以為每個位置原則設定不同的緊急人員。這樣可讓您針對公司內的不同區域自訂回應，或針對來自網路內部和外部的緊急電話分別建立不同的行為。您可以使用通訊群組來指定想要通知的人員。</span><span class="sxs-lookup"><span data-stu-id="edabb-p104">If desired, you can configure different emergency personnel for each location policy. This allows you to customize the response for different areas within your company, or create different behavior for emergency calls that originate from inside as opposed to outside the network. You can use distribution groups to specify the personnel you want to notify.</span></span>
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：從另一個應用程式啟動 Lync
+title: Lync Server 2013： 從另一個應用程式啟動 Lync
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184184
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dafb8295d3070cd9f38e8691e654146978156d45
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c22f5e365e47ae7b6a41cd6e917b87718e07ac9e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764399"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038755"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="starting-lync-from-another-application"></a><span data-ttu-id="6d2a5-102">從另一個應用程式啟動 Lync</span><span class="sxs-lookup"><span data-stu-id="6d2a5-102">Starting Lync from another application</span></span>
+# <a name="starting-lync-from-another-application"></a><span data-ttu-id="7c67e-102">從另一個應用程式啟動 Lync</span><span class="sxs-lookup"><span data-stu-id="7c67e-102">Starting Lync from another application</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41764399"
 
 <span> </span>
 
-<span data-ttu-id="6d2a5-103">_**主題上次修改日期：** 2013-02-20_</span><span class="sxs-lookup"><span data-stu-id="6d2a5-103">_**Topic Last Modified:** 2013-02-20_</span></span>
+<span data-ttu-id="7c67e-103">_**上次修改主題：** 2013年-02-20 個_</span><span class="sxs-lookup"><span data-stu-id="7c67e-103">_**Topic Last Modified:** 2013-02-20_</span></span>
 
-<span data-ttu-id="6d2a5-104">您可以使用命令列參數快速啟動 Lync 2013。</span><span class="sxs-lookup"><span data-stu-id="6d2a5-104">You can use command-line parameters to quick-start Lync 2013.</span></span> <span data-ttu-id="6d2a5-105">例如，如果使用者在其他應用程式中按一下電話號碼，應用程式可以啟動 Lync 2013 的實例，並初始化該號碼的呼叫。</span><span class="sxs-lookup"><span data-stu-id="6d2a5-105">For example, if a user clicks a phone number in another application, the application can start an instance of Lync 2013 and initiate a call to that number.</span></span>
+<span data-ttu-id="7c67e-104">您可以使用命令列參數，以快速開始 Lync 2013。</span><span class="sxs-lookup"><span data-stu-id="7c67e-104">You can use command-line parameters to quick-start Lync 2013.</span></span> <span data-ttu-id="7c67e-105">例如，如果使用者按一下 [其他應用程式中的電話號碼，應用程式可以啟動 Lync 2013 的執行個體，並啟動該號碼。</span><span class="sxs-lookup"><span data-stu-id="7c67e-105">For example, if a user clicks a phone number in another application, the application can start an instance of Lync 2013 and initiate a call to that number.</span></span>
 
-<span data-ttu-id="6d2a5-106">Lync 2013 也可以辨識以分號分隔的多方會議連絡人名稱清單。</span><span class="sxs-lookup"><span data-stu-id="6d2a5-106">Lync 2013 can also recognize a semicolon-delimited list of contact names for multiparty conferencing.</span></span>
+<span data-ttu-id="7c67e-106">Lync 2013 還能辨識分號分隔的連絡人名稱清單以便進行多方會議。</span><span class="sxs-lookup"><span data-stu-id="7c67e-106">Lync 2013 can also recognize a semicolon-delimited list of contact names for multiparty conferencing.</span></span>
 
-<span data-ttu-id="6d2a5-107">如果 Lync 2013 已設定為在啟動時自動登入，則使用命令列參數啟動 Lync 2013，就會開啟 Lync 主視窗。</span><span class="sxs-lookup"><span data-stu-id="6d2a5-107">If Lync 2013 is configured to automatically sign in when started, then starting Lync 2013 with command-line parameters will open the Lync main window.</span></span> <span data-ttu-id="6d2a5-108">如果 Lync 未設定為在啟動時自動登入，[登入] 視窗就會隨即開啟。</span><span class="sxs-lookup"><span data-stu-id="6d2a5-108">If Lync is not configured to automatically sign in when started, the sign-in window opens.</span></span>
+<span data-ttu-id="7c67e-107">若 Lync 2013 設為自動啟動時，登入，然後以命令列參數啟動 Lync 2013 將會開啟在 Lync 主視窗。</span><span class="sxs-lookup"><span data-stu-id="7c67e-107">If Lync 2013 is configured to automatically sign in when started, then starting Lync 2013 with command-line parameters will open the Lync main window.</span></span> <span data-ttu-id="7c67e-108">如果 Lync 未設定成在啟動時，會自動登入，登入視窗隨即開啟。</span><span class="sxs-lookup"><span data-stu-id="7c67e-108">If Lync is not configured to automatically sign in when started, the sign-in window opens.</span></span>
 
-<span data-ttu-id="6d2a5-109">下表顯示可用的參數。</span><span class="sxs-lookup"><span data-stu-id="6d2a5-109">The following table shows the available parameters.</span></span>
+<span data-ttu-id="7c67e-109">下表顯示可用的參數。</span><span class="sxs-lookup"><span data-stu-id="7c67e-109">The following table shows the available parameters.</span></span>
 
-### <a name="lync-2013-command-line-parameters"></a><span data-ttu-id="6d2a5-110">Lync 2013 命令列參數</span><span class="sxs-lookup"><span data-stu-id="6d2a5-110">Lync 2013 Command-Line Parameters</span></span>
+### <a name="lync-2013-command-line-parameters"></a><span data-ttu-id="7c67e-110">Lync 2013 命令列參數</span><span class="sxs-lookup"><span data-stu-id="7c67e-110">Lync 2013 Command-Line Parameters</span></span>
 
 <table>
 <colgroup>
@@ -55,50 +55,50 @@ ms.locfileid: "41764399"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="6d2a5-111">延伸</span><span class="sxs-lookup"><span data-stu-id="6d2a5-111">Extension</span></span></th>
-<th><span data-ttu-id="6d2a5-112">資料的格式</span><span class="sxs-lookup"><span data-stu-id="6d2a5-112">Format of Data</span></span></th>
-<th><span data-ttu-id="6d2a5-113">動作</span><span class="sxs-lookup"><span data-stu-id="6d2a5-113">Action</span></span></th>
+<th><span data-ttu-id="7c67e-111">副檔名</span><span class="sxs-lookup"><span data-stu-id="7c67e-111">Extension</span></span></th>
+<th><span data-ttu-id="7c67e-112">資料格式</span><span class="sxs-lookup"><span data-stu-id="7c67e-112">Format of Data</span></span></th>
+<th><span data-ttu-id="7c67e-113">動作</span><span class="sxs-lookup"><span data-stu-id="7c67e-113">Action</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="6d2a5-114">tel</span><span class="sxs-lookup"><span data-stu-id="6d2a5-114">tel:</span></span></p></td>
-<td><p><span data-ttu-id="6d2a5-115">電話 URI</span><span class="sxs-lookup"><span data-stu-id="6d2a5-115">tel URI</span></span></p></td>
-<td><p><span data-ttu-id="6d2a5-116">開啟 [交談] 視窗以進行音訊通話，但不會撥打指定的電話號碼。</span><span class="sxs-lookup"><span data-stu-id="6d2a5-116">Opens the Conversation window for an audio call but does not dial the specified number.</span></span></p></td>
+<td><p><span data-ttu-id="7c67e-114">tel:</span><span class="sxs-lookup"><span data-stu-id="7c67e-114">tel:</span></span></p></td>
+<td><p><span data-ttu-id="7c67e-115">tel URI</span><span class="sxs-lookup"><span data-stu-id="7c67e-115">tel URI</span></span></p></td>
+<td><p><span data-ttu-id="7c67e-116">開啟音訊通話的 [交談] 視窗，但不會撥打指定的號碼。</span><span class="sxs-lookup"><span data-stu-id="7c67e-116">Opens the Conversation window for an audio call but does not dial the specified number.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6d2a5-117">callto</span><span class="sxs-lookup"><span data-stu-id="6d2a5-117">callto:</span></span></p></td>
-<td><p><span data-ttu-id="6d2a5-118">電話：，sip：，或 typeable 電話 URI</span><span class="sxs-lookup"><span data-stu-id="6d2a5-118">tel:, sip:, or typeable tel URI</span></span></p></td>
-<td><p><span data-ttu-id="6d2a5-119">開啟 [交談] 視窗以進行音訊通話，但不會撥打指定的電話號碼。</span><span class="sxs-lookup"><span data-stu-id="6d2a5-119">Opens the Conversation window for an audio call but does not dial the specified number.</span></span></p></td>
+<td><p><span data-ttu-id="7c67e-117">callto:</span><span class="sxs-lookup"><span data-stu-id="7c67e-117">callto:</span></span></p></td>
+<td><p><span data-ttu-id="7c67e-118">tel:，sip:，或可輸入的 tel URI</span><span class="sxs-lookup"><span data-stu-id="7c67e-118">tel:, sip:, or typeable tel URI</span></span></p></td>
+<td><p><span data-ttu-id="7c67e-119">開啟音訊通話的 [交談] 視窗，但不會撥打指定的號碼。</span><span class="sxs-lookup"><span data-stu-id="7c67e-119">Opens the Conversation window for an audio call but does not dial the specified number.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6d2a5-120">呼吸</span><span class="sxs-lookup"><span data-stu-id="6d2a5-120">sip:</span></span></p></td>
-<td><p><span data-ttu-id="6d2a5-121">SIP URI</span><span class="sxs-lookup"><span data-stu-id="6d2a5-121">SIP URI</span></span></p></td>
-<td><p><span data-ttu-id="6d2a5-122">在參與者清單中，開啟含有指定 SIP 統一資源識別項（URI）的 [交談] 視窗。</span><span class="sxs-lookup"><span data-stu-id="6d2a5-122">Opens the Conversation window with the specified SIP Uniform Resource Identifier (URI) in the participant list.</span></span></p></td>
+<td><p><span data-ttu-id="7c67e-120">sip:</span><span class="sxs-lookup"><span data-stu-id="7c67e-120">sip:</span></span></p></td>
+<td><p><span data-ttu-id="7c67e-121">SIP URI</span><span class="sxs-lookup"><span data-stu-id="7c67e-121">SIP URI</span></span></p></td>
+<td><p><span data-ttu-id="7c67e-122">開啟 「 交談 」 視窗與指定之 SIP 統一資源識別元 (URI) 在參與者清單中。</span><span class="sxs-lookup"><span data-stu-id="7c67e-122">Opens the Conversation window with the specified SIP Uniform Resource Identifier (URI) in the participant list.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6d2a5-123">那些</span><span class="sxs-lookup"><span data-stu-id="6d2a5-123">Sips:</span></span></p></td>
-<td><p><span data-ttu-id="6d2a5-124">SIP URI</span><span class="sxs-lookup"><span data-stu-id="6d2a5-124">SIP URI</span></span></p></td>
-<td><p><span data-ttu-id="6d2a5-125">如果 Lync 2013 設定為使用傳輸層安全性（TLS）通訊協定，則功能與 sip 完全一樣：。</span><span class="sxs-lookup"><span data-stu-id="6d2a5-125">If Lync 2013 is configured to use the Transport Layer Security (TLS) protocol, functions exactly like sip:.</span></span> <span data-ttu-id="6d2a5-126">如果沒有使用 TLS，則會顯示一個對話方塊，通知使用者需要較高的安全性等級。</span><span class="sxs-lookup"><span data-stu-id="6d2a5-126">If TLS is not being used, displays a dialog box informing the user that a higher level of security is required.</span></span></p></td>
+<td><p><span data-ttu-id="7c67e-123">Sips:</span><span class="sxs-lookup"><span data-stu-id="7c67e-123">Sips:</span></span></p></td>
+<td><p><span data-ttu-id="7c67e-124">SIP URI</span><span class="sxs-lookup"><span data-stu-id="7c67e-124">SIP URI</span></span></p></td>
+<td><p><span data-ttu-id="7c67e-125">如果 Lync 2013 設定為使用傳輸層安全性 (TLS) 通訊協定，函式完全像 sip:。</span><span class="sxs-lookup"><span data-stu-id="7c67e-125">If Lync 2013 is configured to use the Transport Layer Security (TLS) protocol, functions exactly like sip:.</span></span> <span data-ttu-id="7c67e-126">如果未使用 TLS，會顯示對話方塊，告知使用者的安全性層級必要。</span><span class="sxs-lookup"><span data-stu-id="7c67e-126">If TLS is not being used, displays a dialog box informing the user that a higher level of security is required.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6d2a5-127">會議</span><span class="sxs-lookup"><span data-stu-id="6d2a5-127">conf:</span></span></p></td>
-<td><p><span data-ttu-id="6d2a5-128">加入會議的 SIP URI</span><span class="sxs-lookup"><span data-stu-id="6d2a5-128">SIP URI of conference to join</span></span></p></td>
-<td><p><span data-ttu-id="6d2a5-129">如果 URI 是 self，請將焦點放在一起，並顯示 [僅限名單] 視圖。</span><span class="sxs-lookup"><span data-stu-id="6d2a5-129">If URI is self, instantiates the focus and brings up roster-only view.</span></span> <span data-ttu-id="6d2a5-130">否則，會顯示 [名單] 視圖，但不會傳送邀請。</span><span class="sxs-lookup"><span data-stu-id="6d2a5-130">Otherwise, brings up roster view but does not send INVITE.</span></span></p></td>
+<td><p><span data-ttu-id="7c67e-127">conf:</span><span class="sxs-lookup"><span data-stu-id="7c67e-127">conf:</span></span></p></td>
+<td><p><span data-ttu-id="7c67e-128">SIP URI 的會議加入</span><span class="sxs-lookup"><span data-stu-id="7c67e-128">SIP URI of conference to join</span></span></p></td>
+<td><p><span data-ttu-id="7c67e-129">如果 self URI，具現化焦點，並會帶出名冊僅限檢視。</span><span class="sxs-lookup"><span data-stu-id="7c67e-129">If URI is self, instantiates the focus and brings up roster-only view.</span></span> <span data-ttu-id="7c67e-130">否則，會帶出名冊檢視，但不會傳送邀請。</span><span class="sxs-lookup"><span data-stu-id="7c67e-130">Otherwise, brings up roster view but does not send INVITE.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6d2a5-131">傳遞</span><span class="sxs-lookup"><span data-stu-id="6d2a5-131">im:</span></span></p></td>
-<td><p><span data-ttu-id="6d2a5-132">SIP URI</span><span class="sxs-lookup"><span data-stu-id="6d2a5-132">SIP URI</span></span></p></td>
-<td><p><span data-ttu-id="6d2a5-133">顯示含有 SIP URI 的立即訊息（IM）專用交談視窗。</span><span class="sxs-lookup"><span data-stu-id="6d2a5-133">Displays an instant messaging (IM)-only Conversation window with the SIP URI.</span></span> <span data-ttu-id="6d2a5-134">接受在不含任何分隔符號的角括弧（&lt;&gt;）內指定的多個 SIP uri。</span><span class="sxs-lookup"><span data-stu-id="6d2a5-134">Accepts multiple SIP URIs specified inside angle brackets (&lt;&gt;) without any separator.</span></span></p>
+<td><p><span data-ttu-id="7c67e-131">im:</span><span class="sxs-lookup"><span data-stu-id="7c67e-131">im:</span></span></p></td>
+<td><p><span data-ttu-id="7c67e-132">SIP URI</span><span class="sxs-lookup"><span data-stu-id="7c67e-132">SIP URI</span></span></p></td>
+<td><p><span data-ttu-id="7c67e-133">會顯示 [立即訊息 (IM)-僅交談視窗與 SIP URI。</span><span class="sxs-lookup"><span data-stu-id="7c67e-133">Displays an instant messaging (IM)-only Conversation window with the SIP URI.</span></span> <span data-ttu-id="7c67e-134">可接受多個 SIP Uri 指定內角括弧 (&lt;&gt;) 不含任何分隔符號。</span><span class="sxs-lookup"><span data-stu-id="7c67e-134">Accepts multiple SIP URIs specified inside angle brackets (&lt;&gt;) without any separator.</span></span></p>
 <pre><code>im:&lt;sip:user1@host&gt;&lt;sip:user2@host&gt;</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="6d2a5-135">下表提供這些命令列參數的範例。</span><span class="sxs-lookup"><span data-stu-id="6d2a5-135">The following table provides examples of these command-line parameters.</span></span>
+<span data-ttu-id="7c67e-135">下表提供上述命令列參數範例。</span><span class="sxs-lookup"><span data-stu-id="7c67e-135">The following table provides examples of these command-line parameters.</span></span>
 
-### <a name="command-line-parameter-examples"></a><span data-ttu-id="6d2a5-136">命令列參數範例</span><span class="sxs-lookup"><span data-stu-id="6d2a5-136">Command-Line Parameter Examples</span></span>
+### <a name="command-line-parameter-examples"></a><span data-ttu-id="7c67e-136">命令列參數範例</span><span class="sxs-lookup"><span data-stu-id="7c67e-136">Command-Line Parameter Examples</span></span>
 
 <table>
 <colgroup>
@@ -107,30 +107,30 @@ ms.locfileid: "41764399"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="6d2a5-137">示例</span><span class="sxs-lookup"><span data-stu-id="6d2a5-137">Instance</span></span></th>
-<th><span data-ttu-id="6d2a5-138">這樣</span><span class="sxs-lookup"><span data-stu-id="6d2a5-138">Results</span></span></th>
+<th><span data-ttu-id="7c67e-137">執行個體</span><span class="sxs-lookup"><span data-stu-id="7c67e-137">Instance</span></span></th>
+<th><span data-ttu-id="7c67e-138">結果</span><span class="sxs-lookup"><span data-stu-id="7c67e-138">Results</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="6d2a5-139">電話： + 14255550101</span><span class="sxs-lookup"><span data-stu-id="6d2a5-139">Tel:+14255550101</span></span></p></td>
-<td><p><span data-ttu-id="6d2a5-140">開啟只有 [+ 14255550101] 的 [僅限手機] 視圖。</span><span class="sxs-lookup"><span data-stu-id="6d2a5-140">Opens a phone-only view with +14255550101.</span></span></p></td>
+<td><p><span data-ttu-id="7c67e-139">Tel: 14255550101</span><span class="sxs-lookup"><span data-stu-id="7c67e-139">Tel:+14255550101</span></span></p></td>
+<td><p><span data-ttu-id="7c67e-140">會開啟 14255550101 的僅限電話檢視。</span><span class="sxs-lookup"><span data-stu-id="7c67e-140">Opens a phone-only view with +14255550101.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6d2a5-141">Callto：電話： + 14255550101</span><span class="sxs-lookup"><span data-stu-id="6d2a5-141">Callto:tel:+ 14255550101</span></span></p></td>
-<td><p><span data-ttu-id="6d2a5-142">開啟只有 [+ 14255550101] 的 [僅限手機] 視圖。</span><span class="sxs-lookup"><span data-stu-id="6d2a5-142">Opens a phone-only view with +14255550101.</span></span></p></td>
+<td><p><span data-ttu-id="7c67e-141">Callto:tel: + 14255550101</span><span class="sxs-lookup"><span data-stu-id="7c67e-141">Callto:tel:+ 14255550101</span></span></p></td>
+<td><p><span data-ttu-id="7c67e-142">會開啟 14255550101 的僅限電話檢視。</span><span class="sxs-lookup"><span data-stu-id="7c67e-142">Opens a phone-only view with +14255550101.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6d2a5-143">Callto:sip:kazuto@litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="6d2a5-143">Callto:sip:kazuto@litwareinc.com</span></span></p></td>
-<td><p><span data-ttu-id="6d2a5-144">開啟 [僅限手機] 視圖，並顯示 kazuto@litwareinc.com。</span><span class="sxs-lookup"><span data-stu-id="6d2a5-144">Opens a phone-only view with kazuto@litwareinc.com.</span></span></p></td>
+<td><p><span data-ttu-id="7c67e-143">Callto:sip:kazuto@litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="7c67e-143">Callto:sip:kazuto@litwareinc.com</span></span></p></td>
+<td><p><span data-ttu-id="7c67e-144">開啟內含 kazuto@litwareinc.com 的僅限電話檢視。</span><span class="sxs-lookup"><span data-stu-id="7c67e-144">Opens a phone-only view with kazuto@litwareinc.com.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6d2a5-145">sip:kazuto@litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="6d2a5-145">sip:kazuto@litwareinc.com</span></span></p></td>
-<td><p><span data-ttu-id="6d2a5-146">使用 kazuto@litwareinc.com 開啟交談視窗。</span><span class="sxs-lookup"><span data-stu-id="6d2a5-146">Opens a Conversation window with kazuto@litwareinc.com.</span></span></p></td>
+<td><p><span data-ttu-id="7c67e-145">sip:kazuto@litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="7c67e-145">sip:kazuto@litwareinc.com</span></span></p></td>
+<td><p><span data-ttu-id="7c67e-146">開啟內含 kazuto@litwareinc.com 的交談視窗。</span><span class="sxs-lookup"><span data-stu-id="7c67e-146">Opens a Conversation window with kazuto@litwareinc.com.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6d2a5-147">會議： sip：https://meet.contoso.com/kazuto/7322994</span><span class="sxs-lookup"><span data-stu-id="6d2a5-147">conf:sip:https://meet.contoso.com/kazuto/7322994</span></span></p></td>
-<td><p><span data-ttu-id="6d2a5-148">開啟交談視窗，並顯示會議音訊連接選項。</span><span class="sxs-lookup"><span data-stu-id="6d2a5-148">Opens a Conversation window and displays meeting audio join options.</span></span></p></td>
+<td><p><span data-ttu-id="7c67e-147">conf:sip:https://meet.contoso.com/kazuto/7322994</span><span class="sxs-lookup"><span data-stu-id="7c67e-147">conf:sip:https://meet.contoso.com/kazuto/7322994</span></span></p></td>
+<td><p><span data-ttu-id="7c67e-148">開啟的交談視窗並顯示會議音訊加入選項。</span><span class="sxs-lookup"><span data-stu-id="7c67e-148">Opens a Conversation window and displays meeting audio join options.</span></span></p></td>
 </tr>
 </tbody>
 </table>

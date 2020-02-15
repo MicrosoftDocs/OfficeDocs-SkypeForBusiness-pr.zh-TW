@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：管理封存
+title: Lync Server 2013： 管理封存
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184003
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b3bb7ecac5204fc42b44e919dbbab8e9b720acc7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 16c9b901575e844954b9dd3454c4ecc7c86e7c3b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738863"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037213"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-lync-server-2013-archiving"></a><span data-ttu-id="b7702-102">管理 Lync Server 2013 封存</span><span class="sxs-lookup"><span data-stu-id="b7702-102">Managing Lync Server 2013 Archiving</span></span>
+# <a name="managing-lync-server-2013-archiving"></a><span data-ttu-id="85c34-102">管理 Lync Server 2013 封存</span><span class="sxs-lookup"><span data-stu-id="85c34-102">Managing Lync Server 2013 Archiving</span></span>
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41738863"
 
 <span> </span>
 
-<span data-ttu-id="b7702-103">_**主題上次修改日期：** 2012-10-10_</span><span class="sxs-lookup"><span data-stu-id="b7702-103">_**Topic Last Modified:** 2012-10-10_</span></span>
+<span data-ttu-id="85c34-103">_**主題上次修改日期：** 2012年-10-10_</span><span class="sxs-lookup"><span data-stu-id="85c34-103">_**Topic Last Modified:** 2012-10-10_</span></span>
 
-<span data-ttu-id="b7702-104">當您為貴組織部署存檔時，您會在部署期間指定初始配置。</span><span class="sxs-lookup"><span data-stu-id="b7702-104">When you deploy Archiving for your organization, you specify the initial configuration during deployment.</span></span> <span data-ttu-id="b7702-105">不過，有時候您可能會想要變更針對日常管理執行封存支援的方式，或符合貴組織中的新需求。</span><span class="sxs-lookup"><span data-stu-id="b7702-105">However, there may be times when you want to change how you implement archiving support for day-to-day management or to meet new requirements in your organization.</span></span> <span data-ttu-id="b7702-106">例如，您可能需要針對貴組織內的特定網站、文件庫或使用者設定不同的存檔支援。</span><span class="sxs-lookup"><span data-stu-id="b7702-106">For example, you may need to set up archiving support differently for a specific site, pool, or users within your organization.</span></span> <span data-ttu-id="b7702-107">針對駐留在 Lync Server 2013 的使用者，您可以建立及自訂存檔原則與設定。</span><span class="sxs-lookup"><span data-stu-id="b7702-107">For users homed on Lync Server 2013, you do this be creating and customizing archiving policies and configurations.</span></span> <span data-ttu-id="b7702-108">如果您使用的是 Microsoft Exchange 整合，您也必須設定 Exchange 2013 設定。</span><span class="sxs-lookup"><span data-stu-id="b7702-108">If you use Microsoft Exchange integration, you must also configure Exchange 2013 settings.</span></span> <span data-ttu-id="b7702-109">本節提供的資訊和程式可讓您變更歸檔部署。</span><span class="sxs-lookup"><span data-stu-id="b7702-109">This section provides information and procedures to enable you to make changes to your Archiving deployment.</span></span>
+<span data-ttu-id="85c34-104">當您為組織部署封存時，會在部署期間指定初始設定。</span><span class="sxs-lookup"><span data-stu-id="85c34-104">When you deploy Archiving for your organization, you specify the initial configuration during deployment.</span></span> <span data-ttu-id="85c34-105">然而，有時您可能會想要改變您對例行管理實作封存支援的方式，或符合組織中的新需求。</span><span class="sxs-lookup"><span data-stu-id="85c34-105">However, there may be times when you want to change how you implement archiving support for day-to-day management or to meet new requirements in your organization.</span></span> <span data-ttu-id="85c34-106">例如，您可能會需要對特定網站、集區或組織內的使用者以不同的方式設定封存支援。</span><span class="sxs-lookup"><span data-stu-id="85c34-106">For example, you may need to set up archiving support differently for a specific site, pool, or users within your organization.</span></span> <span data-ttu-id="85c34-107">隸屬於 Lync Server 2013 的使用者，針對您這麼做會建立及自訂封存原則和設定。</span><span class="sxs-lookup"><span data-stu-id="85c34-107">For users homed on Lync Server 2013, you do this be creating and customizing archiving policies and configurations.</span></span> <span data-ttu-id="85c34-108">如果您使用 Microsoft Exchange 整合，您必須也設定 Exchange 2013。</span><span class="sxs-lookup"><span data-stu-id="85c34-108">If you use Microsoft Exchange integration, you must also configure Exchange 2013 settings.</span></span> <span data-ttu-id="85c34-109">本節所提供的資訊和程序可讓您變更您的封存部署。</span><span class="sxs-lookup"><span data-stu-id="85c34-109">This section provides information and procedures to enable you to make changes to your Archiving deployment.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="b7702-110">本節內容</span><span class="sxs-lookup"><span data-stu-id="b7702-110">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="85c34-110">本章節內容</span><span class="sxs-lookup"><span data-stu-id="85c34-110">In This Section</span></span>
 
-  - [<span data-ttu-id="b7702-111">存檔在 Lync Server 2013 中的運作方式</span><span class="sxs-lookup"><span data-stu-id="b7702-111">How Archiving works in Lync Server 2013</span></span>](lync-server-2013-how-archiving-works.md)
+  - [<span data-ttu-id="85c34-111">封存 Lync Server 2013 中的運作方式</span><span class="sxs-lookup"><span data-stu-id="85c34-111">How Archiving works in Lync Server 2013</span></span>](lync-server-2013-how-archiving-works.md)
 
-  - [<span data-ttu-id="b7702-112">在 Lync Server 2013 中管理內部和外部通訊的存檔</span><span class="sxs-lookup"><span data-stu-id="b7702-112">Managing the Archiving of internal and external communications in Lync Server 2013</span></span>](lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md)
+  - [<span data-ttu-id="85c34-112">管理 Lync Server 2013 中的內部和外部通訊的封存</span><span class="sxs-lookup"><span data-stu-id="85c34-112">Managing the Archiving of internal and external communications in Lync Server 2013</span></span>](lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md)
 
-  - [<span data-ttu-id="b7702-113">管理您組織、網站和池的 Lync Server 2013 中的封存配置選項</span><span class="sxs-lookup"><span data-stu-id="b7702-113">Managing Archiving configuration options in Lync Server 2013 for your organization, sites, and pools</span></span>](lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md)
+  - [<span data-ttu-id="85c34-113">管理 Lync Server 2013 中為您的組織、 網站及集區的封存設定選項</span><span class="sxs-lookup"><span data-stu-id="85c34-113">Managing Archiving configuration options in Lync Server 2013 for your organization, sites, and pools</span></span>](lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md)
 
-  - [<span data-ttu-id="b7702-114">在 Lync Server 2013 中變更封存資料庫選項</span><span class="sxs-lookup"><span data-stu-id="b7702-114">Changing Archiving database options in Lync Server 2013</span></span>](lync-server-2013-changing-archiving-database-options.md)
+  - [<span data-ttu-id="85c34-114">Lync Server 2013 中的變更封存資料庫選項</span><span class="sxs-lookup"><span data-stu-id="85c34-114">Changing Archiving database options in Lync Server 2013</span></span>](lync-server-2013-changing-archiving-database-options.md)
 
-  - [<span data-ttu-id="b7702-115">從 Lync Server 2013 匯出已歸檔的資料</span><span class="sxs-lookup"><span data-stu-id="b7702-115">Exporting archived data from Lync Server 2013</span></span>](lync-server-2013-exporting-archived-data.md)
+  - [<span data-ttu-id="85c34-115">從 Lync Server 2013 中匯出封存的資料</span><span class="sxs-lookup"><span data-stu-id="85c34-115">Exporting archived data from Lync Server 2013</span></span>](lync-server-2013-exporting-archived-data.md)
 
 </div>
 
