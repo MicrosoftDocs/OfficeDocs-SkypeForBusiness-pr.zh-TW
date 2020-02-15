@@ -1,5 +1,5 @@
 ---
-title: 查看 Lync Server 啟用之使用者帳戶的相關資訊
+title: 檢視已啟用 Lync server 的使用者帳戶的相關資訊
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733568
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ba84f9ef504dcf9e8798a7d25a0ea79b3cb367cf
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0662bb954e3ac914d29d7dce7b22cb4ad2659c19
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757327"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007132"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="viewing-information-about-user-accounts-enabled-for-lync-server-2013"></a><span data-ttu-id="c57d3-102">查看已針對 Lync Server 2013 啟用的使用者帳戶資訊</span><span class="sxs-lookup"><span data-stu-id="c57d3-102">Viewing information about user accounts enabled for Lync Server 2013</span></span>
+# <a name="viewing-information-about-user-accounts-enabled-for-lync-server-2013"></a><span data-ttu-id="839ef-102">檢視使用者帳戶啟用 Lync Server 2013 的相關資訊</span><span class="sxs-lookup"><span data-stu-id="839ef-102">Viewing information about user accounts enabled for Lync Server 2013</span></span>
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41757327"
 
 <span> </span>
 
-<span data-ttu-id="c57d3-103">_**主題上次修改日期：** 2012-10-18_</span><span class="sxs-lookup"><span data-stu-id="c57d3-103">_**Topic Last Modified:** 2012-10-18_</span></span>
+<span data-ttu-id="839ef-103">_**主題上次修改日期：** 2012年-10-18_</span><span class="sxs-lookup"><span data-stu-id="839ef-103">_**Topic Last Modified:** 2012-10-18_</span></span>
 
-<span data-ttu-id="c57d3-104">請依照本節中的程式，查看 Lync Server 2013 使用者帳戶的設定與原則資訊。</span><span class="sxs-lookup"><span data-stu-id="c57d3-104">Follow the procedures in this section to view settings and policy information for Lync Server 2013 user accounts.</span></span>
+<span data-ttu-id="839ef-104">請遵循此區段可以檢視的設定和原則資訊 Lync Server 2013 的使用者帳戶中的程序。</span><span class="sxs-lookup"><span data-stu-id="839ef-104">Follow the procedures in this section to view settings and policy information for Lync Server 2013 user accounts.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="c57d3-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="c57d3-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="839ef-105">本章節內容</span><span class="sxs-lookup"><span data-stu-id="839ef-105">In This Section</span></span>
 
-  - [<span data-ttu-id="c57d3-106">在 Lync Server 2013 中搜尋 Lync Server 使用者</span><span class="sxs-lookup"><span data-stu-id="c57d3-106">Search for Lync Server users in Lync Server 2013</span></span>](lync-server-2013-search-for-lync-server-users.md)
+  - [<span data-ttu-id="839ef-106">搜尋 Lync Server 2013 中的 Lync Server 使用者</span><span class="sxs-lookup"><span data-stu-id="839ef-106">Search for Lync Server users in Lync Server 2013</span></span>](lync-server-2013-search-for-lync-server-users.md)
 
 </div>
 
 <div>
 
-## <a name="related-sections"></a><span data-ttu-id="c57d3-107">相關各節</span><span class="sxs-lookup"><span data-stu-id="c57d3-107">Related Sections</span></span>
+## <a name="related-sections"></a><span data-ttu-id="839ef-107">相關各節</span><span class="sxs-lookup"><span data-stu-id="839ef-107">Related Sections</span></span>
 
-[<span data-ttu-id="c57d3-108">在 Lync Server 2013 中指派每個使用者的原則</span><span class="sxs-lookup"><span data-stu-id="c57d3-108">Assigning per-user policies in Lync Server 2013</span></span>](lync-server-2013-assigning-per-user-policies.md)
+[<span data-ttu-id="839ef-108">指派 Lync Server 2013 中的個別使用者原則</span><span class="sxs-lookup"><span data-stu-id="839ef-108">Assigning per-user policies in Lync Server 2013</span></span>](lync-server-2013-assigning-per-user-policies.md)
 
 </div>
 

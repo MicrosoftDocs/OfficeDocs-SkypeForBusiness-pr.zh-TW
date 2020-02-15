@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：在災害復原期間管理通話駐留
+title: Lync Server 2013： 災害復原期間管理通話駐留
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733645
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f324064e2936bda7b5e015aa502aaca10407e591
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 727751762fc63d9e4f888b20dabd62fef0278ea6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733413"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007802"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="manage-call-park-during-disaster-recovery-in-lync-server-2013"></a><span data-ttu-id="c15be-102">在 Lync Server 2013 中於災害復原期間管理通話駐留</span><span class="sxs-lookup"><span data-stu-id="c15be-102">Manage Call Park during disaster recovery in Lync Server 2013</span></span>
+# <a name="manage-call-park-during-disaster-recovery-in-lync-server-2013"></a><span data-ttu-id="54c20-102">Lync Server 2013 中的災害復原期間管理通話駐留</span><span class="sxs-lookup"><span data-stu-id="54c20-102">Manage Call Park during disaster recovery in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41733413"
 
 <span> </span>
 
-<span data-ttu-id="c15be-103">_**主題上次修改日期：** 2012-09-10_</span><span class="sxs-lookup"><span data-stu-id="c15be-103">_**Topic Last Modified:** 2012-09-10_</span></span>
+<span data-ttu-id="54c20-103">_**主題上次修改日期：** 2012年-09-10_</span><span class="sxs-lookup"><span data-stu-id="54c20-103">_**Topic Last Modified:** 2012-09-10_</span></span>
 
-<span data-ttu-id="c15be-104">Lync Server 2013 支援在災害復原期間，在備份池中的通話駐留。</span><span class="sxs-lookup"><span data-stu-id="c15be-104">Lync Server 2013 supports Call Park in the backup pool during disaster recovery.</span></span> <span data-ttu-id="c15be-105">本節說明如果您想要在中斷期間支援電話寄存，以及在中斷期間停用通話的情況，請考慮下列事項。</span><span class="sxs-lookup"><span data-stu-id="c15be-105">This section describes things to consider if you want to support Call Park during an outage and what happens to parked calls during the stages of an outage.</span></span>
+<span data-ttu-id="54c20-104">Lync Server 2013 支援備份集區中的通話駐留災害復原期間。</span><span class="sxs-lookup"><span data-stu-id="54c20-104">Lync Server 2013 supports Call Park in the backup pool during disaster recovery.</span></span> <span data-ttu-id="54c20-105">本小節會說明若您想要支援系統中斷期間的通話駐留和會發生什麼情況駐留的通話中斷的階段期間的考量事項。</span><span class="sxs-lookup"><span data-stu-id="54c20-105">This section describes things to consider if you want to support Call Park during an outage and what happens to parked calls during the stages of an outage.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="c15be-106">本節內容</span><span class="sxs-lookup"><span data-stu-id="c15be-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="54c20-106">本章節內容</span><span class="sxs-lookup"><span data-stu-id="54c20-106">In This Section</span></span>
 
-  - [<span data-ttu-id="c15be-107">在 Lync Server 2013 中規劃通話駐留災害復原</span><span class="sxs-lookup"><span data-stu-id="c15be-107">Planning for Call Park disaster recovery in Lync Server 2013</span></span>](lync-server-2013-planning-for-call-park-disaster-recovery.md)
+  - [<span data-ttu-id="54c20-107">規劃 Lync Server 2013 中的通話駐留災害復原</span><span class="sxs-lookup"><span data-stu-id="54c20-107">Planning for Call Park disaster recovery in Lync Server 2013</span></span>](lync-server-2013-planning-for-call-park-disaster-recovery.md)
 
-  - [<span data-ttu-id="c15be-108">集區失敗期間使用 Lync Server 2013 的通話駐留體驗</span><span class="sxs-lookup"><span data-stu-id="c15be-108">Call Park experience in Lync Server 2013 during pool failure</span></span>](lync-server-2013-call-park-experience-during-pool-failure.md)
+  - [<span data-ttu-id="54c20-108">Lync Server 2013 的集區失敗期間的通話駐留經驗</span><span class="sxs-lookup"><span data-stu-id="54c20-108">Call Park experience in Lync Server 2013 during pool failure</span></span>](lync-server-2013-call-park-experience-during-pool-failure.md)
 
 </div>
 

@@ -13,20 +13,20 @@ ms:contentKeyID: 48184202
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f890507ed4f6dd81b90557edd3ce5545fb401cc2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d9dbbb1cd160d66717fe716ee31a8b0712b348ba
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724033"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42003588"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="before-you-begin-the-migration"></a><span data-ttu-id="c5207-102">開始移轉之前</span><span class="sxs-lookup"><span data-stu-id="c5207-102">Before you begin the migration</span></span>
+# <a name="before-you-begin-the-migration"></a><span data-ttu-id="0dd5c-102">開始移轉之前</span><span class="sxs-lookup"><span data-stu-id="0dd5c-102">Before you begin the migration</span></span>
 
 </div>
 
@@ -36,23 +36,23 @@ ms.locfileid: "41724033"
 
 <span> </span>
 
-<span data-ttu-id="c5207-103">_**主題上次修改日期：** 2012-08-29_</span><span class="sxs-lookup"><span data-stu-id="c5207-103">_**Topic Last Modified:** 2012-08-29_</span></span>
+<span data-ttu-id="0dd5c-103">_**主題上次修改日期：** 2012年-08-29_</span><span class="sxs-lookup"><span data-stu-id="0dd5c-103">_**Topic Last Modified:** 2012-08-29_</span></span>
 
-<span data-ttu-id="c5207-104">在開始之前，我們建議您閱讀本檔和下列指南，讓您熟悉如何部署對應的 Lync Server 2013 角色：</span><span class="sxs-lookup"><span data-stu-id="c5207-104">Before you begin, we recommend that you read this document and the following guides to familiarize yourself with deploying the corresponding Lync Server 2013 roles:</span></span>
+<span data-ttu-id="0dd5c-104">在您開始之前，建議您先閱讀本文件及下列指南，以熟悉部署對應的 Lync Server 2013 角色：</span><span class="sxs-lookup"><span data-stu-id="0dd5c-104">Before you begin, we recommend that you read this document and the following guides to familiarize yourself with deploying the corresponding Lync Server 2013 roles:</span></span>
 
-  - [<span data-ttu-id="c5207-105">部署 Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c5207-105">Deploying Lync Server 2013</span></span>](lync-server-2013-deploying-lync-server.md)
+  - [<span data-ttu-id="0dd5c-105">部署 Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0dd5c-105">Deploying Lync Server 2013</span></span>](lync-server-2013-deploying-lync-server.md)
 
-  - [<span data-ttu-id="c5207-106">在 Lync Server 2013 中部署外部使用者存取</span><span class="sxs-lookup"><span data-stu-id="c5207-106">Deploying external user access in Lync Server 2013</span></span>](lync-server-2013-deploying-external-user-access.md)
+  - [<span data-ttu-id="0dd5c-106">部署 Lync Server 2013 中的外部使用者存取</span><span class="sxs-lookup"><span data-stu-id="0dd5c-106">Deploying external user access in Lync Server 2013</span></span>](lync-server-2013-deploying-external-user-access.md)
 
-  - [<span data-ttu-id="c5207-107">在 Lync Server 2013 中部署用戶端和裝置</span><span class="sxs-lookup"><span data-stu-id="c5207-107">Deploying clients and devices in Lync Server 2013</span></span>](lync-server-2013-deploying-clients-and-devices.md)
+  - [<span data-ttu-id="0dd5c-107">部署用戶端和 Lync Server 2013 中的裝置</span><span class="sxs-lookup"><span data-stu-id="0dd5c-107">Deploying clients and devices in Lync Server 2013</span></span>](lync-server-2013-deploying-clients-and-devices.md)
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="c5207-108">本節內容</span><span class="sxs-lookup"><span data-stu-id="c5207-108">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="0dd5c-108">本章節內容</span><span class="sxs-lookup"><span data-stu-id="0dd5c-108">In This Section</span></span>
 
-  - [<span data-ttu-id="c5207-109">移轉程序</span><span class="sxs-lookup"><span data-stu-id="c5207-109">Migration process</span></span>](migration-process_1.md)
+  - [<span data-ttu-id="0dd5c-109">移轉程序</span><span class="sxs-lookup"><span data-stu-id="0dd5c-109">Migration process</span></span>](migration-process_1.md)
 
-  - [<span data-ttu-id="c5207-110">移轉階段</span><span class="sxs-lookup"><span data-stu-id="c5207-110">Migration phases</span></span>](migration-phases_1.md)
+  - [<span data-ttu-id="0dd5c-110">移轉階段</span><span class="sxs-lookup"><span data-stu-id="0dd5c-110">Migration phases</span></span>](migration-phases_1.md)
 
 </div>
 

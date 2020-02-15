@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：通話駐留所使用的元件
+title: 通話保留所使用的 Lync Server 2013： 元件
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185374
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ae458d7ef3245e366e4f2bdd61f192401909213b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4a0b6d6bece5fa107e0fe130aab983458acbc0a4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757077"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007933"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="components-used-by-call-park-in-lync-server-2013"></a><span data-ttu-id="43ee7-102">Lync Server 2013 中通話駐留所使用的元件</span><span class="sxs-lookup"><span data-stu-id="43ee7-102">Components used by Call Park in Lync Server 2013</span></span>
+# <a name="components-used-by-call-park-in-lync-server-2013"></a><span data-ttu-id="5c6e5-102">Lync Server 2013 中的通話保留所使用的元件</span><span class="sxs-lookup"><span data-stu-id="5c6e5-102">Components used by Call Park in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41757077"
 
 <span> </span>
 
-<span data-ttu-id="43ee7-103">_**主題上次修改日期：** 2012-09-13_</span><span class="sxs-lookup"><span data-stu-id="43ee7-103">_**Topic Last Modified:** 2012-09-13_</span></span>
+<span data-ttu-id="5c6e5-103">_**主題上次修改日期：** 2012年-09-13_</span><span class="sxs-lookup"><span data-stu-id="5c6e5-103">_**Topic Last Modified:** 2012-09-13_</span></span>
 
-<span data-ttu-id="43ee7-104">當您部署企業語音時，會自動安裝通話駐留應用程式。</span><span class="sxs-lookup"><span data-stu-id="43ee7-104">The Call Park application is automatically installed when you deploy Enterprise Voice.</span></span> <span data-ttu-id="43ee7-105">您可以透過設定語音原則來啟用通話駐留。</span><span class="sxs-lookup"><span data-stu-id="43ee7-105">You enable Call Park by configuring voice policy.</span></span> <span data-ttu-id="43ee7-106">下列 Lync Server 2013 元件支援通話駐留應用程式：</span><span class="sxs-lookup"><span data-stu-id="43ee7-106">The following Lync Server 2013 components support the Call Park application:</span></span>
+<span data-ttu-id="5c6e5-104">當您部署企業語音時，會自動安裝的通話駐留應用程式。</span><span class="sxs-lookup"><span data-stu-id="5c6e5-104">The Call Park application is automatically installed when you deploy Enterprise Voice.</span></span> <span data-ttu-id="5c6e5-105">您可以設定語音原則，以啟用通話駐留。</span><span class="sxs-lookup"><span data-stu-id="5c6e5-105">You enable Call Park by configuring voice policy.</span></span> <span data-ttu-id="5c6e5-106">通話駐留應用程式支援下列的 Lync Server 2013 元件：</span><span class="sxs-lookup"><span data-stu-id="5c6e5-106">The following Lync Server 2013 components support the Call Park application:</span></span>
 
-  - <span data-ttu-id="43ee7-107">**應用程式服務**   應用程式服務提供部署、託管及管理整合通訊應用程式（例如通話駐留應用程式）的平臺。</span><span class="sxs-lookup"><span data-stu-id="43ee7-107">**Application service**   Application service provides a platform for deploying, hosting, and managing unified communications applications, such as the Call Park application.</span></span> <span data-ttu-id="43ee7-108">應用程式服務會自動安裝在前端池的每個前端伺服器上，以及每個標準版伺服器上。</span><span class="sxs-lookup"><span data-stu-id="43ee7-108">Application service is automatically installed on every Front End Server in a Front End pool and on every Standard Edition server.</span></span>
+  - <span data-ttu-id="5c6e5-107">**應用程式服務**   應用程式服務提供的平台的部署，裝載，及管理整合通訊應用程式，例如通話駐留應用程式。</span><span class="sxs-lookup"><span data-stu-id="5c6e5-107">**Application service**   Application service provides a platform for deploying, hosting, and managing unified communications applications, such as the Call Park application.</span></span> <span data-ttu-id="5c6e5-108">在每個前端伺服器上的前端集區中，每個 Standard Edition server 上，會自動安裝應用程式服務。</span><span class="sxs-lookup"><span data-stu-id="5c6e5-108">Application service is automatically installed on every Front End Server in a Front End pool and on every Standard Edition server.</span></span>
 
-  - <span data-ttu-id="43ee7-109">**通話駐留應用**   程式通話駐留應用程式是由應用程式服務託管的其中一個整合通訊應用程式。</span><span class="sxs-lookup"><span data-stu-id="43ee7-109">**Call Park application**   The Call Park application is one of the unified communications applications that are hosted by Application service.</span></span> <span data-ttu-id="43ee7-110">當您部署企業語音時，系統會自動包含此檔案。</span><span class="sxs-lookup"><span data-stu-id="43ee7-110">It is included automatically when you deploy Enterprise Voice.</span></span> <span data-ttu-id="43ee7-111">通話駐留公園並檢索來電，並管理通話駐留軌道式。</span><span class="sxs-lookup"><span data-stu-id="43ee7-111">Call Park parks and retrieves calls and manages call park orbits.</span></span>
+  - <span data-ttu-id="5c6e5-109">**通話駐留應用程式**   通話駐留應用程式是下列其中一個裝載的應用程式服務的整合的通訊應用程式。</span><span class="sxs-lookup"><span data-stu-id="5c6e5-109">**Call Park application**   The Call Park application is one of the unified communications applications that are hosted by Application service.</span></span> <span data-ttu-id="5c6e5-110">自動當您部署企業語音時，它是包含在內。</span><span class="sxs-lookup"><span data-stu-id="5c6e5-110">It is included automatically when you deploy Enterprise Voice.</span></span> <span data-ttu-id="5c6e5-111">通話駐留公園與擷取通話，並管理通話駐留軌道。</span><span class="sxs-lookup"><span data-stu-id="5c6e5-111">Call Park parks and retrieves calls and manages call park orbits.</span></span>
 
-  - <span data-ttu-id="43ee7-112">**[音樂封存-**   檔案] 如果 [啟用中的音樂]，音樂檔案會在通話暫停時播放。</span><span class="sxs-lookup"><span data-stu-id="43ee7-112">**Music-on hold-file**   If music in enabled, the music file is played while a call is parked.</span></span> <span data-ttu-id="43ee7-113">安裝通話公園應用程式時，會包含預設的音樂檔案。</span><span class="sxs-lookup"><span data-stu-id="43ee7-113">A default music file is included when the Call Park application is installed.</span></span>
+  - <span data-ttu-id="5c6e5-112">**等候音樂上保留檔案**   駐留通話時，如果音樂中的啟用，播放音樂檔案。</span><span class="sxs-lookup"><span data-stu-id="5c6e5-112">**Music-on hold-file**   If music in enabled, the music file is played while a call is parked.</span></span> <span data-ttu-id="5c6e5-113">通話駐留應用程式已安裝時，包含預設的等候音樂檔案。</span><span class="sxs-lookup"><span data-stu-id="5c6e5-113">A default music file is included when the Call Park application is installed.</span></span>
 
-  - <span data-ttu-id="43ee7-114">**檔案存放區**   通話駐留應用程式使用檔案存放區來儲存自訂音訊檔案。</span><span class="sxs-lookup"><span data-stu-id="43ee7-114">**File Store**   The Call Park application uses File Store to hold custom audio files.</span></span>
+  - <span data-ttu-id="5c6e5-114">**檔案存放區**   通話駐留應用程式會使用檔案存放區來保留自訂音訊檔案。</span><span class="sxs-lookup"><span data-stu-id="5c6e5-114">**File Store**   The Call Park application uses File Store to hold custom audio files.</span></span>
 
-  - <span data-ttu-id="43ee7-115">**Lync server [控制台**   ] 您可以使用 lync server [控制台] 來設定 [通話駐留軌道] 表格，並為使用者啟用通話駐留。</span><span class="sxs-lookup"><span data-stu-id="43ee7-115">**Lync Server Control Panel**   You can use Lync Server Control Panel to configure the call park orbit table and to enable Call Park for users.</span></span>
+  - <span data-ttu-id="5c6e5-115">**Lync Server Control Panel**   設定通話駐留軌道表，並為使用者啟用通話駐留，您可以使用 Lync Server Control Panel。</span><span class="sxs-lookup"><span data-stu-id="5c6e5-115">**Lync Server Control Panel**   You can use Lync Server Control Panel to configure the call park orbit table and to enable Call Park for users.</span></span>
 
-  - <span data-ttu-id="43ee7-116">**Lync server management shell**   ：您可以使用 lync server 管理命令介面 Cmdlet 來執行所有通話駐留應用程式設定。</span><span class="sxs-lookup"><span data-stu-id="43ee7-116">**Lync Server Management Shell**   All Call Park application configuration can be performed by using Lync Server Management Shell cmdlets.</span></span>
+  - <span data-ttu-id="5c6e5-116">**Lync Server 管理命令介面**   可以使用 Lync Server 管理命令介面指令程式執行所有通話駐留應用程式設定。</span><span class="sxs-lookup"><span data-stu-id="5c6e5-116">**Lync Server Management Shell**   All Call Park application configuration can be performed by using Lync Server Management Shell cmdlets.</span></span>
 
 </div>
 

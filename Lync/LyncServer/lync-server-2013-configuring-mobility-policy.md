@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：設定行動原則
+title: Lync Server 2013： 設定行動性原則
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184204
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 39a7f0791def99e0b42a57b1f13aae88abbfafa4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6410e50a5e7d84de152b9a4e4bd1f962c5a3c9bd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763397"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008405"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-mobility-policy-in-lync-server-2013"></a><span data-ttu-id="9cb74-102">在 Lync Server 2013 中設定行動原則</span><span class="sxs-lookup"><span data-stu-id="9cb74-102">Configuring mobility policy in Lync Server 2013</span></span>
+# <a name="configuring-mobility-policy-in-lync-server-2013"></a><span data-ttu-id="d6d54-102">在 Lync Server 2013 中設定行動性原則</span><span class="sxs-lookup"><span data-stu-id="d6d54-102">Configuring mobility policy in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,49 +35,49 @@ ms.locfileid: "41763397"
 
 <span> </span>
 
-<span data-ttu-id="9cb74-103">_**主題上次修改日期：** 2013-02-13_</span><span class="sxs-lookup"><span data-stu-id="9cb74-103">_**Topic Last Modified:** 2013-02-13_</span></span>
+<span data-ttu-id="d6d54-103">_**上次修改主題：** 2013年-02-13_</span><span class="sxs-lookup"><span data-stu-id="d6d54-103">_**Topic Last Modified:** 2013-02-13_</span></span>
 
     Some information in this topic pertains to Cumulative Updates for Lync Server 2013: February 2013.
 
-<span data-ttu-id="9cb74-104">Lync Server 2013 提供行動原則，可決定誰可以使用行動功能、透過公司通話、透過 IP （VoIP）或影片呼叫，以及 VoIP 或視頻是否需要 WiFi。</span><span class="sxs-lookup"><span data-stu-id="9cb74-104">Lync Server 2013 provides mobility policies that determine who can use mobility features, Call via Work, voice over IP (VoIP) or video, and whether WiFi will be required for either VoIP or video.</span></span> <span data-ttu-id="9cb74-105">[透過工作通話] 功能可讓行動使用者使用公司電話號碼（而不是行動電話號碼）撥打及接聽行動電話上的通話。</span><span class="sxs-lookup"><span data-stu-id="9cb74-105">The Call via Work feature enables a mobile user to make and receive calls on a mobile phone by using a work phone number instead of the mobile phone number.</span></span> <span data-ttu-id="9cb74-106">此功能可防止呼叫的參與方查看來電者的行動電話號碼，並讓使用者避免撥出電話費。</span><span class="sxs-lookup"><span data-stu-id="9cb74-106">This feature prevents the called party from seeing the caller's mobile phone number and enables a user to avoid outbound calling charges.</span></span> <span data-ttu-id="9cb74-107">設定 VoIP 和影片可讓使用者接收併發出 VoIP 通話和影片。</span><span class="sxs-lookup"><span data-stu-id="9cb74-107">Configuring VoIP and video makes it possible for users to receive and make VoIP calls and video.</span></span> <span data-ttu-id="9cb74-108">WiFi 使用的設定定義使用者的裝置是否需要透過行動資料網路使用 WiFi 網路。</span><span class="sxs-lookup"><span data-stu-id="9cb74-108">Settings for WiFi usage define if a user’s device will be required to use a WiFi network over a cellular data network.</span></span>
+<span data-ttu-id="d6d54-104">Lync Server 2013 提供行動性原則，以決定誰可以使用行動功能，透過工時，voice over IP (VoIP) 或視訊通話和是否 WiFi 將會需要 VoIP 或視訊。</span><span class="sxs-lookup"><span data-stu-id="d6d54-104">Lync Server 2013 provides mobility policies that determine who can use mobility features, Call via Work, voice over IP (VoIP) or video, and whether WiFi will be required for either VoIP or video.</span></span> <span data-ttu-id="d6d54-105">從公司撥號功能可讓行動使用者撥打及接聽通話行動電話上的使用公司電話號碼，而不是行動電話號碼。</span><span class="sxs-lookup"><span data-stu-id="d6d54-105">The Call via Work feature enables a mobile user to make and receive calls on a mobile phone by using a work phone number instead of the mobile phone number.</span></span> <span data-ttu-id="d6d54-106">這項功能防止受話的方看到發話者的行動電話號碼，並可讓使用者以避免輸出通話的費用。</span><span class="sxs-lookup"><span data-stu-id="d6d54-106">This feature prevents the called party from seeing the caller's mobile phone number and enables a user to avoid outbound calling charges.</span></span> <span data-ttu-id="d6d54-107">設定 VoIP 和影片，可讓使用者接收，並使 VoIP 通話和影片。</span><span class="sxs-lookup"><span data-stu-id="d6d54-107">Configuring VoIP and video makes it possible for users to receive and make VoIP calls and video.</span></span> <span data-ttu-id="d6d54-108">如果使用者的裝置都必須透過行動數據網路使用 WiFi 網路設定 WiFi 的使用狀況定義。</span><span class="sxs-lookup"><span data-stu-id="d6d54-108">Settings for WiFi usage define if a user’s device will be required to use a WiFi network over a cellular data network.</span></span>
 
-<span data-ttu-id="9cb74-109">根據預設，行動性、透過公司通話，以及 VoIP 與視頻功能都已啟用。</span><span class="sxs-lookup"><span data-stu-id="9cb74-109">By default, mobility, Call via Work, and the VoIP and video features are enabled.</span></span> <span data-ttu-id="9cb74-110">已停用 [VoIp] 和 [影片] 需要 WiFi 的設定。</span><span class="sxs-lookup"><span data-stu-id="9cb74-110">The settings to require WiFi for VoIp and video are disabled.</span></span> <span data-ttu-id="9cb74-111">系統管理員可以執行 Cmdlet 來判斷誰有權存取這些功能。</span><span class="sxs-lookup"><span data-stu-id="9cb74-111">Administrators can determine who has access to these features by running a cmdlet.</span></span> <span data-ttu-id="9cb74-112">您可以關閉 [全域]、[按網站] 或 [由使用者] 以外的選項。</span><span class="sxs-lookup"><span data-stu-id="9cb74-112">You can turn options off globally, by site, or by user.</span></span>
+<span data-ttu-id="d6d54-109">根據預設，會啟用行動性、 工作，透過呼叫和 VoIP 和視訊功能。</span><span class="sxs-lookup"><span data-stu-id="d6d54-109">By default, mobility, Call via Work, and the VoIP and video features are enabled.</span></span> <span data-ttu-id="d6d54-110">需要 VoIp 和視訊 WiFi 設定已停用。</span><span class="sxs-lookup"><span data-stu-id="d6d54-110">The settings to require WiFi for VoIp and video are disabled.</span></span> <span data-ttu-id="d6d54-111">系統管理員可以執行 Cmdlet 來決定哪些人可以存取這些功能。</span><span class="sxs-lookup"><span data-stu-id="d6d54-111">Administrators can determine who has access to these features by running a cmdlet.</span></span> <span data-ttu-id="d6d54-112">您可以依網站或使用者來全域關閉選項。</span><span class="sxs-lookup"><span data-stu-id="d6d54-112">You can turn options off globally, by site, or by user.</span></span>
 
-<span data-ttu-id="9cb74-113">若要能夠使用行動功能及透過公司通話，使用者必須符合下列先決條件：</span><span class="sxs-lookup"><span data-stu-id="9cb74-113">To be able to use mobility features and Call via Work, users must meet the following prerequisites:</span></span>
+<span data-ttu-id="d6d54-113">若要能夠使用行動功能和「從公司撥號」功能，使用者必須符合下列先決條件：</span><span class="sxs-lookup"><span data-stu-id="d6d54-113">To be able to use mobility features and Call via Work, users must meet the following prerequisites:</span></span>
 
-  - <span data-ttu-id="9cb74-114">必須針對 Lync Server 2013 啟用使用者。</span><span class="sxs-lookup"><span data-stu-id="9cb74-114">Users must be enabled for Lync Server 2013.</span></span>
+  - <span data-ttu-id="d6d54-114">使用者必須能夠針對 Lync Server 2013。</span><span class="sxs-lookup"><span data-stu-id="d6d54-114">Users must be enabled for Lync Server 2013.</span></span>
 
-  - <span data-ttu-id="9cb74-115">必須為使用者啟用企業語音。</span><span class="sxs-lookup"><span data-stu-id="9cb74-115">Users must be enabled for Enterprise Voice.</span></span>
+  - <span data-ttu-id="d6d54-115">使用者必須能夠使用 Enterprise Voice。</span><span class="sxs-lookup"><span data-stu-id="d6d54-115">Users must be enabled for Enterprise Voice.</span></span>
 
-  - <span data-ttu-id="9cb74-116">必須將 [ **EnableMobility** ] 選項設定為 True 的行動原則指派給使用者。</span><span class="sxs-lookup"><span data-stu-id="9cb74-116">Users must be assigned a mobility policy that has the **EnableMobility** option set to True.</span></span>
+  - <span data-ttu-id="d6d54-116">使用者必須被指派 [EnableMobility]\*\*\*\* 選項設為 True 的行動原則。</span><span class="sxs-lookup"><span data-stu-id="d6d54-116">Users must be assigned a mobility policy that has the **EnableMobility** option set to True.</span></span>
 
-<span data-ttu-id="9cb74-117">若要讓使用者能夠透過工作使用通話，他們必須滿足下列兩個額外的先決條件：</span><span class="sxs-lookup"><span data-stu-id="9cb74-117">For users to be able to use Call via Work, they must meet the following two additional prerequisites:</span></span>
+<span data-ttu-id="d6d54-117">若要讓使用者能夠使用「從公司撥號」，使用者必須符合下列兩項先決條件：</span><span class="sxs-lookup"><span data-stu-id="d6d54-117">For users to be able to use Call via Work, they must meet the following two additional prerequisites:</span></span>
 
-  - <span data-ttu-id="9cb74-118">必須為使用者指派已選取 [**啟用同時撥打電話**] 選項的語音原則。</span><span class="sxs-lookup"><span data-stu-id="9cb74-118">Users must be assigned a voice policy that has the **Enable simultaneous ringing of phones** option selected.</span></span>
+  - <span data-ttu-id="d6d54-118">使用者必須被指派已選取 [使電話同時響鈴]\*\*\*\* 選項的語音原則。</span><span class="sxs-lookup"><span data-stu-id="d6d54-118">Users must be assigned a voice policy that has the **Enable simultaneous ringing of phones** option selected.</span></span>
 
-  - <span data-ttu-id="9cb74-119">必須將 [ **EnableOutsideVoice** ] 選項設定為 True 的行動原則指派給使用者。</span><span class="sxs-lookup"><span data-stu-id="9cb74-119">Users must be assigned a mobility policy that has the **EnableOutsideVoice** option set to True.</span></span>
+  - <span data-ttu-id="d6d54-119">必須為使用者指派 **[EnableOutsideVoice]** 選項設為 True 的行動原則。</span><span class="sxs-lookup"><span data-stu-id="d6d54-119">Users must be assigned a mobility policy that has the **EnableOutsideVoice** option set to True.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="9cb74-120">未啟用企業語音的使用者可以使用他們的行動裝置，讓 Lync 透過 IP （VoIP）通話，或使用其行動裝置上的 [按一下以加入] 連結來加入會議（如果您為這些使用者指派了適當的語音原則選項）。</span><span class="sxs-lookup"><span data-stu-id="9cb74-120">Users who are not enabled for Enterprise Voice can use their mobile devices to make Lync to Lync Voice over IP (VoIP) calls, or can join conferences by using the Click to Join link on their mobile devices, if you assign those users the appropriate options for voice policy.</span></span> <span data-ttu-id="9cb74-121">如需詳細資訊，請參閱<A href="lync-server-2013-defining-your-mobility-requirements.md">定義 Lync Server 2013 的行動需求</A>。</span><span class="sxs-lookup"><span data-stu-id="9cb74-121">For details, see <A href="lync-server-2013-defining-your-mobility-requirements.md">Defining your mobility requirements for Lync Server 2013</A>.</span></span>
+> <span data-ttu-id="d6d54-120">未啟用 Enterprise voice 的使用者可以使用其行動裝置進行 Lync 至 Lync Voice over IP (VoIP) 通話，或其行動裝置上使用 [按一下以加入連結，如果您指派這些使用者語音原則的適當選項可以加入會議。</span><span class="sxs-lookup"><span data-stu-id="d6d54-120">Users who are not enabled for Enterprise Voice can use their mobile devices to make Lync to Lync Voice over IP (VoIP) calls, or can join conferences by using the Click to Join link on their mobile devices, if you assign those users the appropriate options for voice policy.</span></span> <span data-ttu-id="d6d54-121">如需詳細資訊，請參閱<A href="lync-server-2013-defining-your-mobility-requirements.md">定義 Lync Server 2013 的行動性需求</A>。</span><span class="sxs-lookup"><span data-stu-id="d6d54-121">For details, see <A href="lync-server-2013-defining-your-mobility-requirements.md">Defining your mobility requirements for Lync Server 2013</A>.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="9cb74-122">如需有關啟用 Lync Server 2013 使用者的詳細資料，請參閱[停用或重新啟用 Lync server 2013 的使用者帳戶](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md)。</span><span class="sxs-lookup"><span data-stu-id="9cb74-122">For details about enabling users for Lync Server 2013, see [Disable or re-enable user account for Lync Server 2013](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md).</span></span> <span data-ttu-id="9cb74-123">如需有關啟用企業語音使用者的詳細資料，請參閱[在 Lync Server 2013 中啟用企業語音的使用者](lync-server-2013-enable-users-for-enterprise-voice.md)。</span><span class="sxs-lookup"><span data-stu-id="9cb74-123">For details about enabling users for Enterprise Voice, see [Enable users for Enterprise Voice in Lync Server 2013](lync-server-2013-enable-users-for-enterprise-voice.md).</span></span> <span data-ttu-id="9cb74-124">如需設定語音原則選項的詳細資料，請參閱[修改語音原則和設定 Lync Server 2013 中的 PSTN 使用記錄](lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md)。</span><span class="sxs-lookup"><span data-stu-id="9cb74-124">For details about setting voice policy options, see [Modify a voice policy and configure PSTN usage records in Lync Server 2013](lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md).</span></span>
+<span data-ttu-id="d6d54-122">如需啟用使用者的 Lync Server 2013 的詳細資訊，請參閱[停用或重新啟用 Lync Server 2013 的使用者帳戶](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md)。</span><span class="sxs-lookup"><span data-stu-id="d6d54-122">For details about enabling users for Lync Server 2013, see [Disable or re-enable user account for Lync Server 2013](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md).</span></span> <span data-ttu-id="d6d54-123">如需為使用者啟用 Enterprise Voice 的詳細資訊，請參閱[啟用使用者的 Lync Server 2013 中的企業語音](lync-server-2013-enable-users-for-enterprise-voice.md)。</span><span class="sxs-lookup"><span data-stu-id="d6d54-123">For details about enabling users for Enterprise Voice, see [Enable users for Enterprise Voice in Lync Server 2013](lync-server-2013-enable-users-for-enterprise-voice.md).</span></span> <span data-ttu-id="d6d54-124">如需設定語音原則選項的詳細資訊，請參閱[修改語音原則和設定 Lync Server 2013 中的 PSTN 使用方式記錄](lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md)。</span><span class="sxs-lookup"><span data-stu-id="d6d54-124">For details about setting voice policy options, see [Modify a voice policy and configure PSTN usage records in Lync Server 2013](lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md).</span></span>
 
 <div>
 
-## <a name="to-modify-global-mobility-policy"></a><span data-ttu-id="9cb74-125">修改全域行動原則</span><span class="sxs-lookup"><span data-stu-id="9cb74-125">To modify global mobility policy</span></span>
+## <a name="to-modify-global-mobility-policy"></a><span data-ttu-id="d6d54-125">修改全域行動原則</span><span class="sxs-lookup"><span data-stu-id="d6d54-125">To modify global mobility policy</span></span>
 
-1.  <span data-ttu-id="9cb74-126">登入 Lync Server 管理命令介面與 Ocscore 安裝為 CsAdministrator 角色成員的任何電腦。</span><span class="sxs-lookup"><span data-stu-id="9cb74-126">Log on to any computer where Lync Server Management Shell and Ocscore are installed as a member of the CsAdministrator role.</span></span>
+1.  <span data-ttu-id="d6d54-126">登入 Lync Server 管理命令介面和 Ocscore CsAdministrator 角色的成員身分安裝所在的任何電腦。</span><span class="sxs-lookup"><span data-stu-id="d6d54-126">Log on to any computer where Lync Server Management Shell and Ocscore are installed as a member of the CsAdministrator role.</span></span>
 
-2.  <span data-ttu-id="9cb74-127">啟動 Lync Server 管理命令介面：按一下 [**開始**]，按一下 [**所有程式**]，按一下 [ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。</span><span class="sxs-lookup"><span data-stu-id="9cb74-127">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+2.  <span data-ttu-id="d6d54-127">啟動 Lync Server 管理命令介面： 按一下 [**開始]**，按一下 [**所有程式]**、 [ **Microsoft Lync Server 2013**]，然後按一下**Lync Server 管理命令介面**。</span><span class="sxs-lookup"><span data-stu-id="d6d54-127">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-3.  <span data-ttu-id="9cb74-128">在全球範圍內關閉行動與通話的存取權。</span><span class="sxs-lookup"><span data-stu-id="9cb74-128">Turn off access to mobility and Call via Work globally.</span></span> <span data-ttu-id="9cb74-129">在命令列中，輸入：</span><span class="sxs-lookup"><span data-stu-id="9cb74-129">At the command line, type:</span></span>
+3.  <span data-ttu-id="d6d54-p105">全域關閉對行動性和「從公司撥號」功能的存取權。在命令列中輸入：</span><span class="sxs-lookup"><span data-stu-id="d6d54-p105">Turn off access to mobility and Call via Work globally. At the command line, type:</span></span>
     
         Set-CsMobilityPolicy -EnableMobility $False -EnableOutsideVoice $False
     
@@ -85,7 +85,7 @@ ms.locfileid: "41763397"
     
 
     > [!NOTE]  
-    > <span data-ttu-id="9cb74-130">您可以透過工作關閉通話，而不需關閉行動存取權。</span><span class="sxs-lookup"><span data-stu-id="9cb74-130">You can turn off Call via Work without turning off access to mobility.</span></span> <span data-ttu-id="9cb74-131">不過，您也無法關閉行動，也不需要關閉 [透過工作通話]。</span><span class="sxs-lookup"><span data-stu-id="9cb74-131">However, you cannot turn off mobility without also turning off Call via Work.</span></span>
+    > <span data-ttu-id="d6d54-p106">您不需要關閉對行動性的存取權，即可關閉「從公司撥號」。不過，如果您要關閉行動性，也必須關閉「從公司撥號」。</span><span class="sxs-lookup"><span data-stu-id="d6d54-p106">You can turn off Call via Work without turning off access to mobility. However, you cannot turn off mobility without also turning off Call via Work.</span></span>
 
     
     </div>
@@ -94,13 +94,13 @@ ms.locfileid: "41763397"
 
 <div>
 
-## <a name="to-modify-mobility-policy-by-site"></a><span data-ttu-id="9cb74-132">依網站修改行動原則</span><span class="sxs-lookup"><span data-stu-id="9cb74-132">To modify mobility policy by site</span></span>
+## <a name="to-modify-mobility-policy-by-site"></a><span data-ttu-id="d6d54-132">依網站修改行動原則</span><span class="sxs-lookup"><span data-stu-id="d6d54-132">To modify mobility policy by site</span></span>
 
-1.  <span data-ttu-id="9cb74-133">登入 Lync Server 管理命令介面與 Ocscore 安裝為 CsAdministrator 角色成員的任何電腦。</span><span class="sxs-lookup"><span data-stu-id="9cb74-133">Log on to any computer where Lync Server Management Shell and Ocscore are installed as a member of the CsAdministrator role.</span></span>
+1.  <span data-ttu-id="d6d54-133">登入 Lync Server 管理命令介面和 Ocscore CsAdministrator 角色的成員身分安裝所在的任何電腦。</span><span class="sxs-lookup"><span data-stu-id="d6d54-133">Log on to any computer where Lync Server Management Shell and Ocscore are installed as a member of the CsAdministrator role.</span></span>
 
-2.  <span data-ttu-id="9cb74-134">啟動 Lync Server 管理命令介面：按一下 [**開始**]，按一下 [**所有程式**]，按一下 [ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。</span><span class="sxs-lookup"><span data-stu-id="9cb74-134">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+2.  <span data-ttu-id="d6d54-134">啟動 Lync Server 管理命令介面： 按一下 [**開始]**，按一下 [**所有程式]**、 [ **Microsoft Lync Server 2013**]，然後按一下**Lync Server 管理命令介面**。</span><span class="sxs-lookup"><span data-stu-id="d6d54-134">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-3.  <span data-ttu-id="9cb74-135">建立網站層級原則，然後關閉 [VoIP] 和 [影片]，並啟用 [IP 音訊] 和 [依網站的 IP 視頻]。</span><span class="sxs-lookup"><span data-stu-id="9cb74-135">Create a site-level policy, and turn off VoIP and video, and enable Require WiFi for IP Audio and for IP Video by site.</span></span> <span data-ttu-id="9cb74-136">在命令列中，輸入：</span><span class="sxs-lookup"><span data-stu-id="9cb74-136">At the command line, type:</span></span>
+3.  <span data-ttu-id="d6d54-135">建立網站層級原則，並關閉 VoIP 和視訊，並啟用需要 WiFi IP 音訊和視訊 IP 」 網站。</span><span class="sxs-lookup"><span data-stu-id="d6d54-135">Create a site-level policy, and turn off VoIP and video, and enable Require WiFi for IP Audio and for IP Video by site.</span></span> <span data-ttu-id="d6d54-136">在命令列中輸入：</span><span class="sxs-lookup"><span data-stu-id="d6d54-136">At the command line, type:</span></span>
     
         New-CsMobilityPolicy -Identity site:<site identifier> -EnableIPAudioVideo $False -RequireWiFiForIPAudio $True -RequireWiFiForIPVideo $True
 
@@ -108,20 +108,20 @@ ms.locfileid: "41763397"
 
 <div>
 
-## <a name="to-modify-mobility-policy-by-user"></a><span data-ttu-id="9cb74-137">依使用者修改行動原則</span><span class="sxs-lookup"><span data-stu-id="9cb74-137">To modify mobility policy by user</span></span>
+## <a name="to-modify-mobility-policy-by-user"></a><span data-ttu-id="d6d54-137">依使用者修改行動原則</span><span class="sxs-lookup"><span data-stu-id="d6d54-137">To modify mobility policy by user</span></span>
 
-1.  <span data-ttu-id="9cb74-138">登入 Lync Server 管理命令介面與 Ocscore 安裝為 CsAdministrator 角色成員的任何電腦。</span><span class="sxs-lookup"><span data-stu-id="9cb74-138">Log on to any computer where Lync Server Management Shell and Ocscore are installed as a member of the CsAdministrator role.</span></span>
+1.  <span data-ttu-id="d6d54-138">登入 Lync Server 管理命令介面和 Ocscore CsAdministrator 角色的成員身分安裝所在的任何電腦。</span><span class="sxs-lookup"><span data-stu-id="d6d54-138">Log on to any computer where Lync Server Management Shell and Ocscore are installed as a member of the CsAdministrator role.</span></span>
 
-2.  <span data-ttu-id="9cb74-139">啟動 Lync Server 管理命令介面：按一下 [**開始**]，按一下 [**所有程式**]，按一下 [ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。</span><span class="sxs-lookup"><span data-stu-id="9cb74-139">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+2.  <span data-ttu-id="d6d54-139">啟動 Lync Server 管理命令介面： 按一下 [**開始]**，按一下 [**所有程式]**、 [ **Microsoft Lync Server 2013**]，然後按一下**Lync Server 管理命令介面**。</span><span class="sxs-lookup"><span data-stu-id="d6d54-139">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-3.  <span data-ttu-id="9cb74-140">建立使用者層級行動原則，並透過使用者的工作關閉行動與通話。</span><span class="sxs-lookup"><span data-stu-id="9cb74-140">Create user level mobility policies and turn off mobility and Call via Work by user.</span></span> <span data-ttu-id="9cb74-141">在命令列中，輸入：</span><span class="sxs-lookup"><span data-stu-id="9cb74-141">At the command line, type:</span></span>
+3.  <span data-ttu-id="d6d54-p108">建立使用者層級行動原則，並依使用者關閉行動性和「從公司撥號」。在命令列中輸入：</span><span class="sxs-lookup"><span data-stu-id="d6d54-p108">Create user level mobility policies and turn off mobility and Call via Work by user. At the command line, type:</span></span>
     
         New-CsMobilityPolicy -Identity <policy name> -EnableMobility $False -EnableOutsideVoice $False
         Grant-CsMobilityPolicy -Identity <user identifier> -PolicyName <policy name>
     
-    <span data-ttu-id="9cb74-142">您可以透過工作關閉通話，而不需關閉行動存取權。</span><span class="sxs-lookup"><span data-stu-id="9cb74-142">You can turn off Call via Work without turning off access to mobility.</span></span> <span data-ttu-id="9cb74-143">不過，您也無法關閉行動，也不需要關閉 [透過工作通話]。</span><span class="sxs-lookup"><span data-stu-id="9cb74-143">However, you cannot turn off mobility without also turning off Call via Work.</span></span>
+    <span data-ttu-id="d6d54-p109">您不需要關閉對行動性的存取權，即可關閉「從公司撥號」。不過，如果您要關閉行動性，也必須關閉「從公司撥號」。</span><span class="sxs-lookup"><span data-stu-id="d6d54-p109">You can turn off Call via Work without turning off access to mobility. However, you cannot turn off mobility without also turning off Call via Work.</span></span>
     
-    <span data-ttu-id="9cb74-144">例如：</span><span class="sxs-lookup"><span data-stu-id="9cb74-144">For example:</span></span>
+    <span data-ttu-id="d6d54-144">例如：</span><span class="sxs-lookup"><span data-stu-id="d6d54-144">For example:</span></span>
     
         New-CsMobilityPolicy "tag:disableOutsideVoice" -EnableOutsideVoice $False
         Grant-CsMobilityPolicy -Identity -MobileUser1@contoso.com -PolicyName Tag:disableOutsideVoice
@@ -130,22 +130,22 @@ ms.locfileid: "41763397"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="9cb74-145">請參閱</span><span class="sxs-lookup"><span data-stu-id="9cb74-145">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d6d54-145">請參閱</span><span class="sxs-lookup"><span data-stu-id="d6d54-145">See Also</span></span>
 
 
-[<span data-ttu-id="9cb74-146">停用或重新啟用 Lync Server 2013 的使用者帳戶</span><span class="sxs-lookup"><span data-stu-id="9cb74-146">Disable or re-enable user account for Lync Server 2013</span></span>](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md)  
-[<span data-ttu-id="9cb74-147">在 Lync Server 2013 中啟用企業語音的使用者</span><span class="sxs-lookup"><span data-stu-id="9cb74-147">Enable users for Enterprise Voice in Lync Server 2013</span></span>](lync-server-2013-enable-users-for-enterprise-voice.md)  
-[<span data-ttu-id="9cb74-148">在 Lync Server 2013 中修改語音原則和設定 PSTN 使用狀況記錄</span><span class="sxs-lookup"><span data-stu-id="9cb74-148">Modify a voice policy and configure PSTN usage records in Lync Server 2013</span></span>](lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md)  
+[<span data-ttu-id="d6d54-146">停用或重新啟用 Lync Server 2013 的使用者帳戶</span><span class="sxs-lookup"><span data-stu-id="d6d54-146">Disable or re-enable user account for Lync Server 2013</span></span>](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md)  
+[<span data-ttu-id="d6d54-147">啟用使用者的 Lync Server 2013 中的 Enterprise Voice</span><span class="sxs-lookup"><span data-stu-id="d6d54-147">Enable users for Enterprise Voice in Lync Server 2013</span></span>](lync-server-2013-enable-users-for-enterprise-voice.md)  
+[<span data-ttu-id="d6d54-148">修改語音原則和設定 Lync Server 2013 中的 PSTN 使用方式記錄</span><span class="sxs-lookup"><span data-stu-id="d6d54-148">Modify a voice policy and configure PSTN usage records in Lync Server 2013</span></span>](lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md)  
 
 
-[<span data-ttu-id="9cb74-149">定義 Lync Server 2013 的行動需求</span><span class="sxs-lookup"><span data-stu-id="9cb74-149">Defining your mobility requirements for Lync Server 2013</span></span>](lync-server-2013-defining-your-mobility-requirements.md)  
+[<span data-ttu-id="d6d54-149">定義 Lync Server 2013 的行動性需求</span><span class="sxs-lookup"><span data-stu-id="d6d54-149">Defining your mobility requirements for Lync Server 2013</span></span>](lync-server-2013-defining-your-mobility-requirements.md)  
 
 
-[<span data-ttu-id="9cb74-150">New-CsMobilityPolicy</span><span class="sxs-lookup"><span data-stu-id="9cb74-150">New-CsMobilityPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsMobilityPolicy)  
-[<span data-ttu-id="9cb74-151">Set-CsMobilityPolicy</span><span class="sxs-lookup"><span data-stu-id="9cb74-151">Set-CsMobilityPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsMobilityPolicy)  
-[<span data-ttu-id="9cb74-152">Get-CsMobilityPolicy</span><span class="sxs-lookup"><span data-stu-id="9cb74-152">Get-CsMobilityPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsMobilityPolicy)  
-[<span data-ttu-id="9cb74-153">授與 CsMobilityPolicy</span><span class="sxs-lookup"><span data-stu-id="9cb74-153">Grant-CsMobilityPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/Grant-CsMobilityPolicy)  
-[<span data-ttu-id="9cb74-154">Remove-CsMobilityPolicy</span><span class="sxs-lookup"><span data-stu-id="9cb74-154">Remove-CsMobilityPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/Remove-CsMobilityPolicy)  
+[<span data-ttu-id="d6d54-150">新 CsMobilityPolicy</span><span class="sxs-lookup"><span data-stu-id="d6d54-150">New-CsMobilityPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsMobilityPolicy)  
+[<span data-ttu-id="d6d54-151">Set-csmobilitypolicy</span><span class="sxs-lookup"><span data-stu-id="d6d54-151">Set-CsMobilityPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsMobilityPolicy)  
+[<span data-ttu-id="d6d54-152">Get-csmobilitypolicy</span><span class="sxs-lookup"><span data-stu-id="d6d54-152">Get-CsMobilityPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsMobilityPolicy)  
+[<span data-ttu-id="d6d54-153">Grant-csmobilitypolicy</span><span class="sxs-lookup"><span data-stu-id="d6d54-153">Grant-CsMobilityPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/Grant-CsMobilityPolicy)  
+[<span data-ttu-id="d6d54-154">Remove-csmobilitypolicy</span><span class="sxs-lookup"><span data-stu-id="d6d54-154">Remove-CsMobilityPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/Remove-CsMobilityPolicy)  
   
 
 </div>

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：會議摘要報告
+title: Lync Server 2013： 會議摘要報告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184299
 ms.date: 09/03/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 68858d56c47953a99928a59e5f83485ba9d305cb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f3ad7208095473529204fd69db631718d8bd774e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756997"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007852"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="conference-summary-report-in-lync-server-2013"></a><span data-ttu-id="dbc85-102">Lync Server 2013 中的 [會議摘要] 報告</span><span class="sxs-lookup"><span data-stu-id="dbc85-102">Conference Summary Report in Lync Server 2013</span></span>
+# <a name="conference-summary-report-in-lync-server-2013"></a><span data-ttu-id="0ff57-102">Lync Server 2013 中的會議摘要報告</span><span class="sxs-lookup"><span data-stu-id="0ff57-102">Conference Summary Report in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41756997"
 
 <span> </span>
 
-<span data-ttu-id="dbc85-103">_**主題上次修改日期：** 2014-09-03_</span><span class="sxs-lookup"><span data-stu-id="dbc85-103">_**Topic Last Modified:** 2014-09-03_</span></span>
+<span data-ttu-id="0ff57-103">_**上次修改主題：** 2014年-09-03_</span><span class="sxs-lookup"><span data-stu-id="0ff57-103">_**Topic Last Modified:** 2014-09-03_</span></span>
 
-<span data-ttu-id="dbc85-104">[會議摘要] 報告提供您的線上會議會話的整體視圖。</span><span class="sxs-lookup"><span data-stu-id="dbc85-104">The Conference Summary Report provides an overall view of your online conferencing sessions.</span></span> <span data-ttu-id="dbc85-105">會議通常會涉及超過2個使用者，且需要使用 Microsoft Lync Server 2013 會議服務。</span><span class="sxs-lookup"><span data-stu-id="dbc85-105">A conference typically involves more than 2 users and requires the use of Microsoft Lync Server 2013 conferencing services.</span></span> <span data-ttu-id="dbc85-106">相比之下，點對點工作階段通常只涉及2個使用者，不需要使用 Lync Server 的會議服務。</span><span class="sxs-lookup"><span data-stu-id="dbc85-106">By comparison, a peer-to-peer session typically involves just 2 users and does not require the use of Lync Server's conferencing services.</span></span> <span data-ttu-id="dbc85-107">對等活動會報告在[Lync Server 2013 的對等活動摘要報告](lync-server-2013-peer-to-peer-activity-summary-report.md)上。</span><span class="sxs-lookup"><span data-stu-id="dbc85-107">Peer-to-peer activities are reported on the [Peer-to-Peer Activity Summary Report in Lync Server 2013](lync-server-2013-peer-to-peer-activity-summary-report.md).</span></span>
+<span data-ttu-id="0ff57-104">會議摘要報告提供線上會議工作階段的整體檢視。</span><span class="sxs-lookup"><span data-stu-id="0ff57-104">The Conference Summary Report provides an overall view of your online conferencing sessions.</span></span> <span data-ttu-id="0ff57-105">會議通常涉及 2 個以上的使用者，並需要在使用 Microsoft Lync Server 2013 會議服務。</span><span class="sxs-lookup"><span data-stu-id="0ff57-105">A conference typically involves more than 2 users and requires the use of Microsoft Lync Server 2013 conferencing services.</span></span> <span data-ttu-id="0ff57-106">相較之下，對等工作階段通常只涉及兩位使用者，而且不需要使用 Lync Server 的會議服務。</span><span class="sxs-lookup"><span data-stu-id="0ff57-106">By comparison, a peer-to-peer session typically involves just 2 users and does not require the use of Lync Server's conferencing services.</span></span> <span data-ttu-id="0ff57-107">對等活動報告上的[Lync Server 2013 中的對等活動摘要報告](lync-server-2013-peer-to-peer-activity-summary-report.md)。</span><span class="sxs-lookup"><span data-stu-id="0ff57-107">Peer-to-peer activities are reported on the [Peer-to-Peer Activity Summary Report in Lync Server 2013](lync-server-2013-peer-to-peer-activity-summary-report.md).</span></span>
 
-<span data-ttu-id="dbc85-108">[會議摘要報告] 不僅告訴您在指定時間內所舉行的會議數量（每小時、每天、每週、每月），也會告知您參與這些會議的人員總數，以及唯一會議的總人數組織.</span><span class="sxs-lookup"><span data-stu-id="dbc85-108">The Conference Summary Report not only tells you how many conferences were held during a given time period (hourly, daily, weekly, monthly) but also tells you the total number of people who took part in those conferences, and the total number of unique conference organizers.</span></span>
+<span data-ttu-id="0ff57-108">會議摘要報告不但會告訴您在指定的時間期間內 （每小時、 每天、 每週、 每月） 已保留多少場會議，但也會告訴您參與那些會議的人員總數以及唯一會議總數召集人。</span><span class="sxs-lookup"><span data-stu-id="0ff57-108">The Conference Summary Report not only tells you how many conferences were held during a given time period (hourly, daily, weekly, monthly) but also tells you the total number of people who took part in those conferences, and the total number of unique conference organizers.</span></span>
 
-<span data-ttu-id="dbc85-109">「唯一」召集人是指至少安排一個會議的人。</span><span class="sxs-lookup"><span data-stu-id="dbc85-109">A "unique” organizer is anyone who schedules at least one conference.</span></span> <span data-ttu-id="dbc85-110">例如，如果 Pilar 方排程一個會議，她將其計算為一個唯一的召集人。</span><span class="sxs-lookup"><span data-stu-id="dbc85-110">For example, if Pilar Ackerman schedules one conference she counts as one unique organizer.</span></span> <span data-ttu-id="dbc85-111">如果 Ken Myer 排程148會議給他，太多是一個唯一的召集人。</span><span class="sxs-lookup"><span data-stu-id="dbc85-111">If Ken Myer schedules 148 conferences he, too counts as one unique organizer.</span></span> <span data-ttu-id="dbc85-112">例如，下表顯示已排程8個會議，但只有三個唯一的召集人（Ken Myer、Pilar 方和 David Ahs）。</span><span class="sxs-lookup"><span data-stu-id="dbc85-112">For example, the table below shows 8 conferences scheduled, but just three unique organizers (Ken Myer, Pilar Ackerman, and David Ahs).</span></span>
+<span data-ttu-id="0ff57-p102">「專屬」召集人是任何至少排程一場會議的人。例如，如果 Pilar Ackerman 排程一場會議，她就算是一位專屬召集人。如果 Ken Myer 排程 148 場會議，他也算是一位專屬召集人。 例如，下表顯示排程 8 場會議，但只有 3 位專屬召集人 (Ken Myer、Pilar Ackerman 及 David Ahs)。</span><span class="sxs-lookup"><span data-stu-id="0ff57-p102">A "unique” organizer is anyone who schedules at least one conference. For example, if Pilar Ackerman schedules one conference she counts as one unique organizer. If Ken Myer schedules 148 conferences he, too counts as one unique organizer. For example, the table below shows 8 conferences scheduled, but just three unique organizers (Ken Myer, Pilar Ackerman, and David Ahs).</span></span>
 
 
 <table>
@@ -51,66 +51,66 @@ ms.locfileid: "41756997"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="dbc85-113">會議召集人</span><span class="sxs-lookup"><span data-stu-id="dbc85-113">Conference Organizer</span></span></th>
-<th><span data-ttu-id="dbc85-114">會議日期</span><span class="sxs-lookup"><span data-stu-id="dbc85-114">Conference Date</span></span></th>
+<th><span data-ttu-id="0ff57-113">會議召集人</span><span class="sxs-lookup"><span data-stu-id="0ff57-113">Conference Organizer</span></span></th>
+<th><span data-ttu-id="0ff57-114">會議日期</span><span class="sxs-lookup"><span data-stu-id="0ff57-114">Conference Date</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="dbc85-115">Ken Myer</span><span class="sxs-lookup"><span data-stu-id="dbc85-115">Ken Myer</span></span></p></td>
-<td><p><span data-ttu-id="dbc85-116">7/7/2012 10:00 AM</span><span class="sxs-lookup"><span data-stu-id="dbc85-116">7/7/2012 10:00 AM</span></span></p></td>
+<td><p><span data-ttu-id="0ff57-115">Ken Myer</span><span class="sxs-lookup"><span data-stu-id="0ff57-115">Ken Myer</span></span></p></td>
+<td><p><span data-ttu-id="0ff57-116">7/7/2012 10:00 AM</span><span class="sxs-lookup"><span data-stu-id="0ff57-116">7/7/2012 10:00 AM</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="dbc85-117">David Ahs</span><span class="sxs-lookup"><span data-stu-id="dbc85-117">David Ahs</span></span></p></td>
-<td><p><span data-ttu-id="dbc85-118">7/7/2012 10:00 AM</span><span class="sxs-lookup"><span data-stu-id="dbc85-118">7/7/2012 10:00 AM</span></span></p></td>
+<td><p><span data-ttu-id="0ff57-117">David Ahs</span><span class="sxs-lookup"><span data-stu-id="0ff57-117">David Ahs</span></span></p></td>
+<td><p><span data-ttu-id="0ff57-118">7/7/2012 10:00 AM</span><span class="sxs-lookup"><span data-stu-id="0ff57-118">7/7/2012 10:00 AM</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="dbc85-119">Ken Myer</span><span class="sxs-lookup"><span data-stu-id="dbc85-119">Ken Myer</span></span></p></td>
-<td><p><span data-ttu-id="dbc85-120">7/7/2012 11:00 AM</span><span class="sxs-lookup"><span data-stu-id="dbc85-120">7/7/2012 11:00 AM</span></span></p></td>
+<td><p><span data-ttu-id="0ff57-119">Ken Myer</span><span class="sxs-lookup"><span data-stu-id="0ff57-119">Ken Myer</span></span></p></td>
+<td><p><span data-ttu-id="0ff57-120">7/7/2012 11:00 AM</span><span class="sxs-lookup"><span data-stu-id="0ff57-120">7/7/2012 11:00 AM</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="dbc85-121">Pilar 方</span><span class="sxs-lookup"><span data-stu-id="dbc85-121">Pilar Ackerman</span></span></p></td>
-<td><p><span data-ttu-id="dbc85-122">7/7/2012 11:00 AM</span><span class="sxs-lookup"><span data-stu-id="dbc85-122">7/7/2012 11:00 AM</span></span></p></td>
+<td><p><span data-ttu-id="0ff57-121">Pilar Ackerman</span><span class="sxs-lookup"><span data-stu-id="0ff57-121">Pilar Ackerman</span></span></p></td>
+<td><p><span data-ttu-id="0ff57-122">7/7/2012 11:00 AM</span><span class="sxs-lookup"><span data-stu-id="0ff57-122">7/7/2012 11:00 AM</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="dbc85-123">Ken Myer</span><span class="sxs-lookup"><span data-stu-id="dbc85-123">Ken Myer</span></span></p></td>
-<td><p><span data-ttu-id="dbc85-124">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="dbc85-124">7/7/2012 1:00 PM</span></span></p></td>
+<td><p><span data-ttu-id="0ff57-123">Ken Myer</span><span class="sxs-lookup"><span data-stu-id="0ff57-123">Ken Myer</span></span></p></td>
+<td><p><span data-ttu-id="0ff57-124">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="0ff57-124">7/7/2012 1:00 PM</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="dbc85-125">Pilar 方</span><span class="sxs-lookup"><span data-stu-id="dbc85-125">Pilar Ackerman</span></span></p></td>
-<td><p><span data-ttu-id="dbc85-126">7/7/2012 2:00 PM</span><span class="sxs-lookup"><span data-stu-id="dbc85-126">7/7/2012 2:00 PM</span></span></p></td>
+<td><p><span data-ttu-id="0ff57-125">Pilar Ackerman</span><span class="sxs-lookup"><span data-stu-id="0ff57-125">Pilar Ackerman</span></span></p></td>
+<td><p><span data-ttu-id="0ff57-126">7/7/2012 2:00 PM</span><span class="sxs-lookup"><span data-stu-id="0ff57-126">7/7/2012 2:00 PM</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="dbc85-127">Ken Myer</span><span class="sxs-lookup"><span data-stu-id="dbc85-127">Ken Myer</span></span></p></td>
-<td><p><span data-ttu-id="dbc85-128">7/2/2012 10:00 AM</span><span class="sxs-lookup"><span data-stu-id="dbc85-128">7/2/2012 10:00 AM</span></span></p></td>
+<td><p><span data-ttu-id="0ff57-127">Ken Myer</span><span class="sxs-lookup"><span data-stu-id="0ff57-127">Ken Myer</span></span></p></td>
+<td><p><span data-ttu-id="0ff57-128">7/2/2012 10:00 AM</span><span class="sxs-lookup"><span data-stu-id="0ff57-128">7/2/2012 10:00 AM</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="dbc85-129">Pilar 方</span><span class="sxs-lookup"><span data-stu-id="dbc85-129">Pilar Ackerman</span></span></p></td>
-<td><p><span data-ttu-id="dbc85-130">7/2/2012 10:00 AM</span><span class="sxs-lookup"><span data-stu-id="dbc85-130">7/2/2012 10:00 AM</span></span></p></td>
+<td><p><span data-ttu-id="0ff57-129">Pilar Ackerman</span><span class="sxs-lookup"><span data-stu-id="0ff57-129">Pilar Ackerman</span></span></p></td>
+<td><p><span data-ttu-id="0ff57-130">7/2/2012 10:00 AM</span><span class="sxs-lookup"><span data-stu-id="0ff57-130">7/2/2012 10:00 AM</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="dbc85-131">[會議摘要] 報告也會指出包括音訊和/或影片在內的會議數。</span><span class="sxs-lookup"><span data-stu-id="dbc85-131">The Conference Summary Report also indicates how many conferences included audio and/or video.</span></span>
+<span data-ttu-id="0ff57-131">會議摘要報告還會指出多少場會議包含音訊和/或視訊。</span><span class="sxs-lookup"><span data-stu-id="0ff57-131">The Conference Summary Report also indicates how many conferences included audio and/or video.</span></span>
 
 <div>
 
-## <a name="accessing-the-conference-summary-report"></a><span data-ttu-id="dbc85-132">存取會議摘要報告</span><span class="sxs-lookup"><span data-stu-id="dbc85-132">Accessing the Conference Summary Report</span></span>
+## <a name="accessing-the-conference-summary-report"></a><span data-ttu-id="0ff57-132">存取會議摘要報告</span><span class="sxs-lookup"><span data-stu-id="0ff57-132">Accessing the Conference Summary Report</span></span>
 
-<span data-ttu-id="dbc85-133">[會議摘要] 報告是從 [監控報告] 首頁存取。</span><span class="sxs-lookup"><span data-stu-id="dbc85-133">The Conference Summary Report is accessed from the Monitoring Reports home page.</span></span> <span data-ttu-id="dbc85-134">您可以按一下下列其中一個度量來向下切入會議活動報告：</span><span class="sxs-lookup"><span data-stu-id="dbc85-134">You can drill down to the Conference Activity report by clicking either of the following metrics:</span></span>
+<span data-ttu-id="0ff57-p103">從 [監控報告] 首頁可存取會議摘要報告。按下列計量，即可向下切入至會議活動報告：</span><span class="sxs-lookup"><span data-stu-id="0ff57-p103">The Conference Summary Report is accessed from the Monitoring Reports home page. You can drill down to the Conference Activity report by clicking either of the following metrics:</span></span>
 
-  - <span data-ttu-id="dbc85-135">會議總數</span><span class="sxs-lookup"><span data-stu-id="dbc85-135">Total conferences</span></span>
+  - <span data-ttu-id="0ff57-135">會議總數</span><span class="sxs-lookup"><span data-stu-id="0ff57-135">Total conferences</span></span>
 
-  - <span data-ttu-id="dbc85-136">參與者總數</span><span class="sxs-lookup"><span data-stu-id="dbc85-136">Total participants</span></span>
+  - <span data-ttu-id="0ff57-136">參與者總數</span><span class="sxs-lookup"><span data-stu-id="0ff57-136">Total participants</span></span>
 
 </div>
 
 <div>
 
-## <a name="making-the-best-use-of-the-conference-summary-report"></a><span data-ttu-id="dbc85-137">充分利用會議摘要報告</span><span class="sxs-lookup"><span data-stu-id="dbc85-137">Making the Best Use of the Conference Summary Report</span></span>
+## <a name="making-the-best-use-of-the-conference-summary-report"></a><span data-ttu-id="0ff57-137">發揮會議摘要報告的最大效用</span><span class="sxs-lookup"><span data-stu-id="0ff57-137">Making the Best Use of the Conference Summary Report</span></span>
 
-<span data-ttu-id="dbc85-138">[會議摘要] 報告中所使用之大部分標準的總值，可以在報表底部找到;向下滾動以查看值，例如在指定的時段內所保留的會議總數，以及參與這些會議的人員總數。</span><span class="sxs-lookup"><span data-stu-id="dbc85-138">Total values for most of the metrics used on the Conference Summary Report can be found at the bottom of the report; scroll down to see values such as the total number of conferences held during the specified time period, and the total number of people who participated in those conferences.</span></span> <span data-ttu-id="dbc85-139">在報表底部沒有匯總的一個度量單位是唯一的會議召集人總數。</span><span class="sxs-lookup"><span data-stu-id="dbc85-139">One metric that is not totaled at the bottom of the report is Total unique conference organizers.</span></span> <span data-ttu-id="dbc85-140">為什麼不呢？</span><span class="sxs-lookup"><span data-stu-id="dbc85-140">Why not?</span></span> <span data-ttu-id="dbc85-141">以下是其中一個原因。</span><span class="sxs-lookup"><span data-stu-id="dbc85-141">Here’s one reason.</span></span> <span data-ttu-id="dbc85-142">假設您要查看一個月的資料。</span><span class="sxs-lookup"><span data-stu-id="dbc85-142">Suppose you are looking at a month's worth of data.</span></span> <span data-ttu-id="dbc85-143">在第1天，您有34唯一的會議召集人;在第2天，您有27個唯一的會議召集人。</span><span class="sxs-lookup"><span data-stu-id="dbc85-143">On day 1 you had 34 unique conference organizers; on day 2 you had 27 unique conference organizers.</span></span> <span data-ttu-id="dbc85-144">這是否表示您有61唯一的會議召集人來執行這兩天？</span><span class="sxs-lookup"><span data-stu-id="dbc85-144">Does that mean you had 61 unique conference organizers for those two days?</span></span> <span data-ttu-id="dbc85-145">不一定。</span><span class="sxs-lookup"><span data-stu-id="dbc85-145">Not necessarily.</span></span> <span data-ttu-id="dbc85-146">畢竟，在第2天組織會議的所有27人，都可能是在第1天共同進行會議的34人員。</span><span class="sxs-lookup"><span data-stu-id="dbc85-146">After all, all 27 people who organized conferences on day 2 might be among the 34 people who organized conferences on day 1.</span></span> <span data-ttu-id="dbc85-147">例如，在這份簡單的報表中，請注意，在7/7/2012 和7/2/2012 上，Ken Myer 與 Pilar 方排程的會議：</span><span class="sxs-lookup"><span data-stu-id="dbc85-147">For example, in this simple report, note that Ken Myer and Pilar Ackerman scheduled conferences both on 7/7/2012 and on 7/2/2012:</span></span>
+<span data-ttu-id="0ff57-p104">會議摘要報告上大多數所用計量的總數值可見於報告下方；向下捲動即可見到這些值，例如指定期間內舉行的會議總數，以及參與這些會議的總人數。報告下方未總計的一個計量是專屬會議召集人總數。理由何在？原因之一是，假設您在檢視一個月的資料，第一天有 34 位專屬會議召集人，第二天有 27 位專屬會議召集人。這表示兩天總共有 61 位專屬會議召集人嗎？這可不一定。畢竟在第二天召集會議的所有 27 位人員有有可能就在第一天召集會議的 34 位人員之中。例如，在下列簡單報告中，注意到 Ken Myer 與 Pilar Ackerman 在 7/7/2012 和 7/2/2012 兩天都有排程會議：</span><span class="sxs-lookup"><span data-stu-id="0ff57-p104">Total values for most of the metrics used on the Conference Summary Report can be found at the bottom of the report; scroll down to see values such as the total number of conferences held during the specified time period, and the total number of people who participated in those conferences. One metric that is not totaled at the bottom of the report is Total unique conference organizers. Why not? Here’s one reason. Suppose you are looking at a month's worth of data. On day 1 you had 34 unique conference organizers; on day 2 you had 27 unique conference organizers. Does that mean you had 61 unique conference organizers for those two days? Not necessarily. After all, all 27 people who organized conferences on day 2 might be among the 34 people who organized conferences on day 1. For example, in this simple report, note that Ken Myer and Pilar Ackerman scheduled conferences both on 7/7/2012 and on 7/2/2012:</span></span>
 
 
 <table>
@@ -120,60 +120,60 @@ ms.locfileid: "41756997"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="dbc85-148">會議召集人</span><span class="sxs-lookup"><span data-stu-id="dbc85-148">Conference Organizer</span></span></th>
-<th><span data-ttu-id="dbc85-149">會議日期</span><span class="sxs-lookup"><span data-stu-id="dbc85-149">Conference Date</span></span></th>
+<th><span data-ttu-id="0ff57-148">會議召集人</span><span class="sxs-lookup"><span data-stu-id="0ff57-148">Conference Organizer</span></span></th>
+<th><span data-ttu-id="0ff57-149">會議日期</span><span class="sxs-lookup"><span data-stu-id="0ff57-149">Conference Date</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="dbc85-150">Ken Myer</span><span class="sxs-lookup"><span data-stu-id="dbc85-150">Ken Myer</span></span></p></td>
-<td><p><span data-ttu-id="dbc85-151">7/7/2012 10:00 AM</span><span class="sxs-lookup"><span data-stu-id="dbc85-151">7/7/2012 10:00 AM</span></span></p></td>
+<td><p><span data-ttu-id="0ff57-150">Ken Myer</span><span class="sxs-lookup"><span data-stu-id="0ff57-150">Ken Myer</span></span></p></td>
+<td><p><span data-ttu-id="0ff57-151">7/7/2012 10:00 AM</span><span class="sxs-lookup"><span data-stu-id="0ff57-151">7/7/2012 10:00 AM</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="dbc85-152">David Ahs</span><span class="sxs-lookup"><span data-stu-id="dbc85-152">David Ahs</span></span></p></td>
-<td><p><span data-ttu-id="dbc85-153">7/7/2012 10:00 AM</span><span class="sxs-lookup"><span data-stu-id="dbc85-153">7/7/2012 10:00 AM</span></span></p></td>
+<td><p><span data-ttu-id="0ff57-152">David Ahs</span><span class="sxs-lookup"><span data-stu-id="0ff57-152">David Ahs</span></span></p></td>
+<td><p><span data-ttu-id="0ff57-153">7/7/2012 10:00 AM</span><span class="sxs-lookup"><span data-stu-id="0ff57-153">7/7/2012 10:00 AM</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="dbc85-154">Ken Myer</span><span class="sxs-lookup"><span data-stu-id="dbc85-154">Ken Myer</span></span></p></td>
-<td><p><span data-ttu-id="dbc85-155">7/7/2012 11:00 AM</span><span class="sxs-lookup"><span data-stu-id="dbc85-155">7/7/2012 11:00 AM</span></span></p></td>
+<td><p><span data-ttu-id="0ff57-154">Ken Myer</span><span class="sxs-lookup"><span data-stu-id="0ff57-154">Ken Myer</span></span></p></td>
+<td><p><span data-ttu-id="0ff57-155">7/7/2012 11:00 AM</span><span class="sxs-lookup"><span data-stu-id="0ff57-155">7/7/2012 11:00 AM</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="dbc85-156">Pilar 方</span><span class="sxs-lookup"><span data-stu-id="dbc85-156">Pilar Ackerman</span></span></p></td>
-<td><p><span data-ttu-id="dbc85-157">7/7/2012 11:00 AM</span><span class="sxs-lookup"><span data-stu-id="dbc85-157">7/7/2012 11:00 AM</span></span></p></td>
+<td><p><span data-ttu-id="0ff57-156">Pilar Ackerman</span><span class="sxs-lookup"><span data-stu-id="0ff57-156">Pilar Ackerman</span></span></p></td>
+<td><p><span data-ttu-id="0ff57-157">7/7/2012 11:00 AM</span><span class="sxs-lookup"><span data-stu-id="0ff57-157">7/7/2012 11:00 AM</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="dbc85-158">Ken Myer</span><span class="sxs-lookup"><span data-stu-id="dbc85-158">Ken Myer</span></span></p></td>
-<td><p><span data-ttu-id="dbc85-159">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="dbc85-159">7/7/2012 1:00 PM</span></span></p></td>
+<td><p><span data-ttu-id="0ff57-158">Ken Myer</span><span class="sxs-lookup"><span data-stu-id="0ff57-158">Ken Myer</span></span></p></td>
+<td><p><span data-ttu-id="0ff57-159">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="0ff57-159">7/7/2012 1:00 PM</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="dbc85-160">Pilar 方</span><span class="sxs-lookup"><span data-stu-id="dbc85-160">Pilar Ackerman</span></span></p></td>
-<td><p><span data-ttu-id="dbc85-161">7/7/2012 2:00 PM</span><span class="sxs-lookup"><span data-stu-id="dbc85-161">7/7/2012 2:00 PM</span></span></p></td>
+<td><p><span data-ttu-id="0ff57-160">Pilar Ackerman</span><span class="sxs-lookup"><span data-stu-id="0ff57-160">Pilar Ackerman</span></span></p></td>
+<td><p><span data-ttu-id="0ff57-161">7/7/2012 2:00 PM</span><span class="sxs-lookup"><span data-stu-id="0ff57-161">7/7/2012 2:00 PM</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="dbc85-162">Ken Myer</span><span class="sxs-lookup"><span data-stu-id="dbc85-162">Ken Myer</span></span></p></td>
-<td><p><span data-ttu-id="dbc85-163">7/2/2012 10:00 AM</span><span class="sxs-lookup"><span data-stu-id="dbc85-163">7/2/2012 10:00 AM</span></span></p></td>
+<td><p><span data-ttu-id="0ff57-162">Ken Myer</span><span class="sxs-lookup"><span data-stu-id="0ff57-162">Ken Myer</span></span></p></td>
+<td><p><span data-ttu-id="0ff57-163">7/2/2012 10:00 AM</span><span class="sxs-lookup"><span data-stu-id="0ff57-163">7/2/2012 10:00 AM</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="dbc85-164">Pilar 方</span><span class="sxs-lookup"><span data-stu-id="dbc85-164">Pilar Ackerman</span></span></p></td>
-<td><p><span data-ttu-id="dbc85-165">7/2/2012 10:00 AM</span><span class="sxs-lookup"><span data-stu-id="dbc85-165">7/2/2012 10:00 AM</span></span></p></td>
+<td><p><span data-ttu-id="0ff57-164">Pilar Ackerman</span><span class="sxs-lookup"><span data-stu-id="0ff57-164">Pilar Ackerman</span></span></p></td>
+<td><p><span data-ttu-id="0ff57-165">7/2/2012 10:00 AM</span><span class="sxs-lookup"><span data-stu-id="0ff57-165">7/2/2012 10:00 AM</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="dbc85-166">若要進一步瞭解組織會議的唯一使用者總數，請變更您的時間間隔;例如，依月份查看資料，而不是依日期查看。</span><span class="sxs-lookup"><span data-stu-id="dbc85-166">To get a better idea of the total number of unique users who organized conferences, change your time interval; for example, look at the data by month instead of by day.</span></span>
+<span data-ttu-id="0ff57-166">若要更清楚了解召集會議之專屬使用者的總數，請變更時間間隔；例如，按月而不是按日來檢視資料。</span><span class="sxs-lookup"><span data-stu-id="0ff57-166">To get a better idea of the total number of unique users who organized conferences, change your time interval; for example, look at the data by month instead of by day.</span></span>
 
 </div>
 
 <div>
 
-## <a name="filters"></a><span data-ttu-id="dbc85-167">濾鏡</span><span class="sxs-lookup"><span data-stu-id="dbc85-167">Filters</span></span>
+## <a name="filters"></a><span data-ttu-id="0ff57-167">篩選</span><span class="sxs-lookup"><span data-stu-id="0ff57-167">Filters</span></span>
 
-<span data-ttu-id="dbc85-168">篩選提供一種方式，可讓您傳回更精細設定目標的資料集，或以不同方式查看傳回的資料。</span><span class="sxs-lookup"><span data-stu-id="dbc85-168">Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways.</span></span> <span data-ttu-id="dbc85-169">例如，[會議摘要] 報告可讓您選擇資料的分組方式。</span><span class="sxs-lookup"><span data-stu-id="dbc85-169">For example, the Conference Summary Report enables you to choose how data should be grouped.</span></span> <span data-ttu-id="dbc85-170">在這種情況下，會議會依小時、日、周或月進行分組。</span><span class="sxs-lookup"><span data-stu-id="dbc85-170">In this case, conferences grouped by hour, day, week, or month.</span></span>
+<span data-ttu-id="0ff57-p105">篩選器可以讓您傳回更精確的資料集或者以不同方法檢視傳回的資料。例如，會議摘要報告可讓您選擇如何將資料分組。在這種情況下，會議會按照小時、日、星期或月加以分組。</span><span class="sxs-lookup"><span data-stu-id="0ff57-p105">Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways. For example, the Conference Summary Report enables you to choose how data should be grouped. In this case, conferences grouped by hour, day, week, or month.</span></span>
 
-<span data-ttu-id="dbc85-171">下表列出可與會議摘要報告搭配使用的篩選。</span><span class="sxs-lookup"><span data-stu-id="dbc85-171">The following table lists the filters that you can use with the Conference Summary Report.</span></span>
+<span data-ttu-id="0ff57-171">下表列出您可以用於會議摘要報告的篩選器。</span><span class="sxs-lookup"><span data-stu-id="0ff57-171">The following table lists the filters that you can use with the Conference Summary Report.</span></span>
 
-### <a name="conference-summary-report-filters"></a><span data-ttu-id="dbc85-172">會議摘要報表篩選</span><span class="sxs-lookup"><span data-stu-id="dbc85-172">Conference Summary Report Filters</span></span>
+### <a name="conference-summary-report-filters"></a><span data-ttu-id="0ff57-172">會議摘要報告篩選器</span><span class="sxs-lookup"><span data-stu-id="0ff57-172">Conference Summary Report Filters</span></span>
 
 <table>
 <colgroup>
@@ -182,41 +182,41 @@ ms.locfileid: "41756997"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="dbc85-173">名稱</span><span class="sxs-lookup"><span data-stu-id="dbc85-173">Name</span></span></th>
-<th><span data-ttu-id="dbc85-174">說明</span><span class="sxs-lookup"><span data-stu-id="dbc85-174">Description</span></span></th>
+<th><span data-ttu-id="0ff57-173">名稱</span><span class="sxs-lookup"><span data-stu-id="0ff57-173">Name</span></span></th>
+<th><span data-ttu-id="0ff57-174">描述</span><span class="sxs-lookup"><span data-stu-id="0ff57-174">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="dbc85-175"><strong>從</strong></span><span class="sxs-lookup"><span data-stu-id="dbc85-175"><strong>From</strong></span></span></p></td>
-<td><p><span data-ttu-id="dbc85-176">時間範圍的開始日期/時間。</span><span class="sxs-lookup"><span data-stu-id="dbc85-176">Start date/time for the time range.</span></span> <span data-ttu-id="dbc85-177">若要依時間查看資料，請輸入 [開始日期] 和 [時間]，如下所示：</span><span class="sxs-lookup"><span data-stu-id="dbc85-177">To view data by hours, enter both the start date and time as follows:</span></span></p>
-<p><span data-ttu-id="dbc85-178">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="dbc85-178">7/7/2012 1:00 PM</span></span></p>
-<p><span data-ttu-id="dbc85-179">如果您沒有輸入開始時間，報告會在指定日期自動于12:00 點開始。</span><span class="sxs-lookup"><span data-stu-id="dbc85-179">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day.</span></span> <span data-ttu-id="dbc85-180">若要依天查看資料，只需輸入日期：</span><span class="sxs-lookup"><span data-stu-id="dbc85-180">To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="dbc85-181">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="dbc85-181">7/7/2012</span></span></p>
-<p><span data-ttu-id="dbc85-182">若要依周或依月查看，請在您要查看的周或月份中，輸入您要查看的日期（不需要輸入周或月的第一天）：</span><span class="sxs-lookup"><span data-stu-id="dbc85-182">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="dbc85-183">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="dbc85-183">7/3/2012</span></span></p>
-<p><span data-ttu-id="dbc85-184">周數總是從星期日到星期六執行。</span><span class="sxs-lookup"><span data-stu-id="dbc85-184">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="0ff57-175"><strong>From</strong></span><span class="sxs-lookup"><span data-stu-id="0ff57-175"><strong>From</strong></span></span></p></td>
+<td><p><span data-ttu-id="0ff57-p106">時間範圍的開始日期/時間。若要按照小時檢視資料，請輸入開始日期和時間，如下所示：</span><span class="sxs-lookup"><span data-stu-id="0ff57-p106">Start date/time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
+<p><span data-ttu-id="0ff57-178">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="0ff57-178">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="0ff57-p107">如果您未輸入開始時間，報告會自動從指定日期凌晨 12 點開始。若要按照日期檢視資料，只要輸入日期即可：</span><span class="sxs-lookup"><span data-stu-id="0ff57-p107">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="0ff57-181">2012/7/7</span><span class="sxs-lookup"><span data-stu-id="0ff57-181">7/7/2012</span></span></p>
+<p><span data-ttu-id="0ff57-182">若要按星期或月份檢視，請輸入當週或該月您想檢視的日期 (您不必輸入當週或該月的第一天)：</span><span class="sxs-lookup"><span data-stu-id="0ff57-182">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="0ff57-183">2012/7/3</span><span class="sxs-lookup"><span data-stu-id="0ff57-183">7/3/2012</span></span></p>
+<p><span data-ttu-id="0ff57-184">星期永遠是從星期日開始星期六結束。</span><span class="sxs-lookup"><span data-stu-id="0ff57-184">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="dbc85-185"><strong>自</strong></span><span class="sxs-lookup"><span data-stu-id="dbc85-185"><strong>To</strong></span></span></p></td>
-<td><p><span data-ttu-id="dbc85-186">時間範圍的結束日期/時間。</span><span class="sxs-lookup"><span data-stu-id="dbc85-186">End date/time for the time range.</span></span> <span data-ttu-id="dbc85-187">若要依時間查看資料，請輸入 [結束日期] 和 [時間]，如下所示：</span><span class="sxs-lookup"><span data-stu-id="dbc85-187">To view data by hours, enter both the end date and time as follows:</span></span></p>
-<p><span data-ttu-id="dbc85-188">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="dbc85-188">7/7/2012 1:00 PM</span></span></p>
-<p><span data-ttu-id="dbc85-189">如果您沒有輸入結束時間，報告會在指定日期自動結束于12:00。</span><span class="sxs-lookup"><span data-stu-id="dbc85-189">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day.</span></span> <span data-ttu-id="dbc85-190">若要依天查看資料，只需輸入日期：</span><span class="sxs-lookup"><span data-stu-id="dbc85-190">To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="dbc85-191">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="dbc85-191">7/7/2012</span></span></p>
-<p><span data-ttu-id="dbc85-192">若要依周或依月查看，請在您要查看的周或月份中，輸入您要查看的日期（不需要輸入周或月的第一天）：</span><span class="sxs-lookup"><span data-stu-id="dbc85-192">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="dbc85-193">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="dbc85-193">7/3/2012</span></span></p>
-<p><span data-ttu-id="dbc85-194">周數總是從星期日到星期六執行。</span><span class="sxs-lookup"><span data-stu-id="dbc85-194">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="0ff57-185"><strong>To</strong></span><span class="sxs-lookup"><span data-stu-id="0ff57-185"><strong>To</strong></span></span></p></td>
+<td><p><span data-ttu-id="0ff57-p108">時間範圍的結束日期/時間。若要按照小時檢視資料，請輸入開始日期和時間，如下所示：</span><span class="sxs-lookup"><span data-stu-id="0ff57-p108">End date/time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
+<p><span data-ttu-id="0ff57-188">7/7/2012 下午 1:00</span><span class="sxs-lookup"><span data-stu-id="0ff57-188">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="0ff57-p109">如果您未輸入結束時間，報告會自動在指定日期凌晨 12 點結束。若要按照日期檢視資料，只要輸入日期即可：</span><span class="sxs-lookup"><span data-stu-id="0ff57-p109">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="0ff57-191">2012/7/7</span><span class="sxs-lookup"><span data-stu-id="0ff57-191">7/7/2012</span></span></p>
+<p><span data-ttu-id="0ff57-192">若要按星期或月份檢視，請輸入當週或該月您想檢視的日期 (您不必輸入當週或該月的第一天)：</span><span class="sxs-lookup"><span data-stu-id="0ff57-192">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="0ff57-193">2012/7/3</span><span class="sxs-lookup"><span data-stu-id="0ff57-193">7/3/2012</span></span></p>
+<p><span data-ttu-id="0ff57-194">星期永遠是從星期日開始星期六結束。</span><span class="sxs-lookup"><span data-stu-id="0ff57-194">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="dbc85-195"><strong>Interval</strong></span><span class="sxs-lookup"><span data-stu-id="dbc85-195"><strong>Interval</strong></span></span></p></td>
-<td><p><span data-ttu-id="dbc85-196">時間間隔。</span><span class="sxs-lookup"><span data-stu-id="dbc85-196">Time interval.</span></span> <span data-ttu-id="dbc85-197">選取下列其中一項：</span><span class="sxs-lookup"><span data-stu-id="dbc85-197">Select one of the following:</span></span></p>
+<td><p><span data-ttu-id="0ff57-195"><strong>Interval</strong></span><span class="sxs-lookup"><span data-stu-id="0ff57-195"><strong>Interval</strong></span></span></p></td>
+<td><p><span data-ttu-id="0ff57-p110">時間間隔。請選取下列其中一項：</span><span class="sxs-lookup"><span data-stu-id="0ff57-p110">Time interval. Select one of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="dbc85-198">每小時（最多可顯示25小時）</span><span class="sxs-lookup"><span data-stu-id="dbc85-198">Hourly (a maximum of 25 hours can be displayed)</span></span></p></li>
-<li><p><span data-ttu-id="dbc85-199">每天（最多可以顯示31天）</span><span class="sxs-lookup"><span data-stu-id="dbc85-199">Daily (a maximum of 31 days can be displayed)</span></span></p></li>
-<li><p><span data-ttu-id="dbc85-200">每週（最多可以顯示12周）</span><span class="sxs-lookup"><span data-stu-id="dbc85-200">Weekly (a maximum of 12 weeks can be displayed)</span></span></p></li>
-<li><p><span data-ttu-id="dbc85-201">每月（最多可以顯示12個月）</span><span class="sxs-lookup"><span data-stu-id="dbc85-201">Monthly (a maximum of 12 months can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="0ff57-198">每小時 (最多可以顯示 25 個小時)</span><span class="sxs-lookup"><span data-stu-id="0ff57-198">Hourly (a maximum of 25 hours can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="0ff57-199">每日 (最多可以顯示 31 天)</span><span class="sxs-lookup"><span data-stu-id="0ff57-199">Daily (a maximum of 31 days can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="0ff57-200">每週 (最多可以顯示 12 週)</span><span class="sxs-lookup"><span data-stu-id="0ff57-200">Weekly (a maximum of 12 weeks can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="0ff57-201">每月 (最多可以顯示 12 個月)</span><span class="sxs-lookup"><span data-stu-id="0ff57-201">Monthly (a maximum of 12 months can be displayed)</span></span></p></li>
 </ul>
-<p><span data-ttu-id="dbc85-202">如果 [開始] 和 [結束] 日期超過所選間隔所允許的最大值數目，則只會顯示最大值數（從開始日期開始）。</span><span class="sxs-lookup"><span data-stu-id="dbc85-202">If the start and end dates exceed the maximum number of values allowed for the selected interval, only the maximum number of values (starting from the start date) are displayed.</span></span> <span data-ttu-id="dbc85-203">例如，如果您選取 [開始日期 7/7/2012] 和 [結束日期] 2/28/2012 的 [日間隔]，則會顯示 8/7/2012 12:00 AM 至 9/7/2012 12:00 AM （也就是31天內的資料）的資料。</span><span class="sxs-lookup"><span data-stu-id="dbc85-203">For example, if you select the Daily interval with a start date of 7/7/2012 and an end date of 2/28/2012, data is displayed for the days 8/7/2012 12:00 AM to 9/7/2012 12:00 AM (that is, a total of 31 days' worth of data).</span></span></p></td>
+<p><span data-ttu-id="0ff57-p111">若開始與結束日期超出所選間隔允許的上限值，將只會顯示上限值 (從開始日期開始顯示)。例如，若您選取 [每日] 間隔，並將開始與結束日期分別設為 8/7/2012 及 2/28/2012，將只會顯示 8/7/2012 上午 12:00 至 9/7/2012 上午 12:00 這段期間的資料 (亦即只會顯示 31 天的資料)。</span><span class="sxs-lookup"><span data-stu-id="0ff57-p111">If the start and end dates exceed the maximum number of values allowed for the selected interval, only the maximum number of values (starting from the start date) are displayed. For example, if you select the Daily interval with a start date of 7/7/2012 and an end date of 2/28/2012, data is displayed for the days 8/7/2012 12:00 AM to 9/7/2012 12:00 AM (that is, a total of 31 days' worth of data).</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -226,11 +226,11 @@ ms.locfileid: "41756997"
 
 <div>
 
-## <a name="metrics"></a><span data-ttu-id="dbc85-204">指標</span><span class="sxs-lookup"><span data-stu-id="dbc85-204">Metrics</span></span>
+## <a name="metrics"></a><span data-ttu-id="0ff57-204">計量</span><span class="sxs-lookup"><span data-stu-id="0ff57-204">Metrics</span></span>
 
-<span data-ttu-id="dbc85-205">下表是會議摘要報告所提供的資訊。</span><span class="sxs-lookup"><span data-stu-id="dbc85-205">The following table the information provided by the Conferences Summary Report.</span></span>
+<span data-ttu-id="0ff57-205">下表列出會議摘要報告提供的資訊。</span><span class="sxs-lookup"><span data-stu-id="0ff57-205">The following table the information provided by the Conferences Summary Report.</span></span>
 
-### <a name="conference-summary-report-metrics"></a><span data-ttu-id="dbc85-206">會議摘要報表度量單位</span><span class="sxs-lookup"><span data-stu-id="dbc85-206">Conference Summary Report Metrics</span></span>
+### <a name="conference-summary-report-metrics"></a><span data-ttu-id="0ff57-206">會議摘要報告計量</span><span class="sxs-lookup"><span data-stu-id="0ff57-206">Conference Summary Report Metrics</span></span>
 
 <table>
 <colgroup>
@@ -240,65 +240,65 @@ ms.locfileid: "41756997"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="dbc85-207">名稱</span><span class="sxs-lookup"><span data-stu-id="dbc85-207">Name</span></span></th>
-<th><span data-ttu-id="dbc85-208">您可以針對此專案進行排序嗎？</span><span class="sxs-lookup"><span data-stu-id="dbc85-208">Can you sort on this item?</span></span></th>
-<th><span data-ttu-id="dbc85-209">說明</span><span class="sxs-lookup"><span data-stu-id="dbc85-209">Description</span></span></th>
+<th><span data-ttu-id="0ff57-207">姓名</span><span class="sxs-lookup"><span data-stu-id="0ff57-207">Name</span></span></th>
+<th><span data-ttu-id="0ff57-208">可以排序這個項目嗎？</span><span class="sxs-lookup"><span data-stu-id="0ff57-208">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="0ff57-209">描述</span><span class="sxs-lookup"><span data-stu-id="0ff57-209">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="dbc85-210"><strong>工資</strong></span><span class="sxs-lookup"><span data-stu-id="dbc85-210"><strong>Hourly</strong></span></span></p>
-<p><span data-ttu-id="dbc85-211"><strong>日常</strong></span><span class="sxs-lookup"><span data-stu-id="dbc85-211"><strong>Daily</strong></span></span></p>
-<p><span data-ttu-id="dbc85-212"><strong>周更新</strong></span><span class="sxs-lookup"><span data-stu-id="dbc85-212"><strong>Weekly</strong></span></span></p>
-<p><span data-ttu-id="dbc85-213"><strong>次</strong></span><span class="sxs-lookup"><span data-stu-id="dbc85-213"><strong>Monthly</strong></span></span></p></td>
-<td><p><span data-ttu-id="dbc85-214">否</span><span class="sxs-lookup"><span data-stu-id="dbc85-214">No</span></span></p></td>
-<td><p><span data-ttu-id="dbc85-215">指出您在 [篩選] 工具列上選取的時間間隔。</span><span class="sxs-lookup"><span data-stu-id="dbc85-215">Indicates the time interval that you selected on the filter toolbar.</span></span> <span data-ttu-id="dbc85-216">在適當的地方，您可以按一下指定的時間間隔，以查看該間隔的詳細資訊。</span><span class="sxs-lookup"><span data-stu-id="dbc85-216">Where applicable, you can click a given time interval to view detailed information for that interval.</span></span> <span data-ttu-id="dbc85-217">例如，如果您使用的是每日間隔，而您按一下 [7/7/2012]，就會看到該日期的使用者註冊活動的每小時細目。</span><span class="sxs-lookup"><span data-stu-id="dbc85-217">For example, if you are using the Daily interval and you click 7/7/2012, you see an hourly breakdown of user registration activity for that date.</span></span></p></td>
+<td><p><span data-ttu-id="0ff57-210"><strong>每小時</strong></span><span class="sxs-lookup"><span data-stu-id="0ff57-210"><strong>Hourly</strong></span></span></p>
+<p><span data-ttu-id="0ff57-211"><strong>每日</strong></span><span class="sxs-lookup"><span data-stu-id="0ff57-211"><strong>Daily</strong></span></span></p>
+<p><span data-ttu-id="0ff57-212"><strong>每週</strong></span><span class="sxs-lookup"><span data-stu-id="0ff57-212"><strong>Weekly</strong></span></span></p>
+<p><span data-ttu-id="0ff57-213"><strong>每月</strong></span><span class="sxs-lookup"><span data-stu-id="0ff57-213"><strong>Monthly</strong></span></span></p></td>
+<td><p><span data-ttu-id="0ff57-214">否</span><span class="sxs-lookup"><span data-stu-id="0ff57-214">No</span></span></p></td>
+<td><p><span data-ttu-id="0ff57-p112">指出在篩選工具列上所選取的時間間隔。在適用的情況下，只要按一下指定的時間間隔，即可檢視該間隔的詳細資訊。例如，若是使用 [每日] 間隔，而按一下 7/7/2012，將可檢視當天按小時顯示的使用者註冊活動。</span><span class="sxs-lookup"><span data-stu-id="0ff57-p112">Indicates the time interval that you selected on the filter toolbar. Where applicable, you can click a given time interval to view detailed information for that interval. For example, if you are using the Daily interval and you click 7/7/2012, you see an hourly breakdown of user registration activity for that date.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="dbc85-218"><strong>會議總數</strong></span><span class="sxs-lookup"><span data-stu-id="dbc85-218"><strong>Total conferences</strong></span></span></p></td>
-<td><p><span data-ttu-id="dbc85-219">否</span><span class="sxs-lookup"><span data-stu-id="dbc85-219">No</span></span></p></td>
-<td><p><span data-ttu-id="dbc85-220">已保留的會議總數（無論會議類型為何）。</span><span class="sxs-lookup"><span data-stu-id="dbc85-220">Total number of conferences (regardless of conference type) that were held.</span></span> <span data-ttu-id="dbc85-221">當您按一下此專案時，報告會顯示所選時段的會議活動報告。</span><span class="sxs-lookup"><span data-stu-id="dbc85-221">When you click this item, the report shows you the Conference Activity Report for the selected time period.</span></span></p></td>
+<td><p><span data-ttu-id="0ff57-218"><strong>會議總數</strong></span><span class="sxs-lookup"><span data-stu-id="0ff57-218"><strong>Total conferences</strong></span></span></p></td>
+<td><p><span data-ttu-id="0ff57-219">否</span><span class="sxs-lookup"><span data-stu-id="0ff57-219">No</span></span></p></td>
+<td><p><span data-ttu-id="0ff57-p113">已舉辦的會議總數 (無論會議類型為何)。當您按一下此項目，報告即顯示所選定時段的會議活動報告。</span><span class="sxs-lookup"><span data-stu-id="0ff57-p113">Total number of conferences (regardless of conference type) that were held. When you click this item, the report shows you the Conference Activity Report for the selected time period.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="dbc85-222"><strong>參與者總數</strong></span><span class="sxs-lookup"><span data-stu-id="dbc85-222"><strong>Total participants</strong></span></span></p></td>
-<td><p><span data-ttu-id="dbc85-223">否</span><span class="sxs-lookup"><span data-stu-id="dbc85-223">No</span></span></p></td>
-<td><p><span data-ttu-id="dbc85-224">參與會議的人員總數。</span><span class="sxs-lookup"><span data-stu-id="dbc85-224">Total number of people who took part in the conferences.</span></span> <span data-ttu-id="dbc85-225">當您按一下此專案時，報告會顯示所選時段的會議活動報告。</span><span class="sxs-lookup"><span data-stu-id="dbc85-225">When you click this item, the report shows you the Conference Activity Report for the selected time period.</span></span></p></td>
+<td><p><span data-ttu-id="0ff57-222"><strong>參與者總數</strong></span><span class="sxs-lookup"><span data-stu-id="0ff57-222"><strong>Total participants</strong></span></span></p></td>
+<td><p><span data-ttu-id="0ff57-223">否</span><span class="sxs-lookup"><span data-stu-id="0ff57-223">No</span></span></p></td>
+<td><p><span data-ttu-id="0ff57-p114">參加會議的總人數。當您按一下此項目，報告即顯示所選定時段的會議活動報告。</span><span class="sxs-lookup"><span data-stu-id="0ff57-p114">Total number of people who took part in the conferences. When you click this item, the report shows you the Conference Activity Report for the selected time period.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="dbc85-226"><strong>每個會議的平均參與者</strong></span><span class="sxs-lookup"><span data-stu-id="dbc85-226"><strong>Average participants per conference</strong></span></span></p></td>
-<td><p><span data-ttu-id="dbc85-227">否</span><span class="sxs-lookup"><span data-stu-id="dbc85-227">No</span></span></p></td>
-<td><p><span data-ttu-id="dbc85-228">參與特定會議的平均人數。</span><span class="sxs-lookup"><span data-stu-id="dbc85-228">Average number of people who took part in a given conference.</span></span> <span data-ttu-id="dbc85-229">由由總參與者數除會議數來決定。</span><span class="sxs-lookup"><span data-stu-id="dbc85-229">Determined by dividing the total conferences by the total participants.</span></span></p></td>
+<td><p><span data-ttu-id="0ff57-226"><strong>每次會議的平均參加人數</strong></span><span class="sxs-lookup"><span data-stu-id="0ff57-226"><strong>Average participants per conference</strong></span></span></p></td>
+<td><p><span data-ttu-id="0ff57-227">否</span><span class="sxs-lookup"><span data-stu-id="0ff57-227">No</span></span></p></td>
+<td><p><span data-ttu-id="0ff57-p115">參加給定會議的平均人數。將會議總數除以參與者總數得之。</span><span class="sxs-lookup"><span data-stu-id="0ff57-p115">Average number of people who took part in a given conference. Determined by dividing the total conferences by the total participants.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="dbc85-230"><strong>A/V 會議總數</strong></span><span class="sxs-lookup"><span data-stu-id="dbc85-230"><strong>Total A/V conferences</strong></span></span></p></td>
-<td><p><span data-ttu-id="dbc85-231">否</span><span class="sxs-lookup"><span data-stu-id="dbc85-231">No</span></span></p></td>
-<td><p><span data-ttu-id="dbc85-232">包含音訊或影片的會議總數。</span><span class="sxs-lookup"><span data-stu-id="dbc85-232">Total number of conferences that included audio or video.</span></span></p></td>
+<td><p><span data-ttu-id="0ff57-230"><strong>A/V 會議總數</strong></span><span class="sxs-lookup"><span data-stu-id="0ff57-230"><strong>Total A/V conferences</strong></span></span></p></td>
+<td><p><span data-ttu-id="0ff57-231">否</span><span class="sxs-lookup"><span data-stu-id="0ff57-231">No</span></span></p></td>
+<td><p><span data-ttu-id="0ff57-232">包含音訊或視訊的會議總數。</span><span class="sxs-lookup"><span data-stu-id="0ff57-232">Total number of conferences that included audio or video.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="dbc85-233"><strong>A/V 會議紀要總計</strong></span><span class="sxs-lookup"><span data-stu-id="dbc85-233"><strong>Total A/V conference minutes</strong></span></span></p></td>
-<td><p><span data-ttu-id="dbc85-234">否</span><span class="sxs-lookup"><span data-stu-id="dbc85-234">No</span></span></p></td>
-<td><p><span data-ttu-id="dbc85-235">專用於音訊/視訊會議的總分鐘數。</span><span class="sxs-lookup"><span data-stu-id="dbc85-235">Total number of minutes devoted to audio/video conferencing.</span></span></p>
-<p><span data-ttu-id="dbc85-236">總計 A/V 會議分鐘數的度量會總結所有音訊/視覺會議類型，包括： A/V 會議;IM 會議;app 共用會議;資料會議;和 PSTN 會議。</span><span class="sxs-lookup"><span data-stu-id="dbc85-236">The Total A/V conference minutes metric summarizes all the audio/visual conference types, including: A/V conferences; IM conferences; app sharing conferences; data conferences; and PSTN conferences.</span></span></p></td>
+<td><p><span data-ttu-id="0ff57-233"><strong>A/V 會議總分鐘數</strong></span><span class="sxs-lookup"><span data-stu-id="0ff57-233"><strong>Total A/V conference minutes</strong></span></span></p></td>
+<td><p><span data-ttu-id="0ff57-234">否</span><span class="sxs-lookup"><span data-stu-id="0ff57-234">No</span></span></p></td>
+<td><p><span data-ttu-id="0ff57-235">用於音訊/視訊會議的總分鐘數。</span><span class="sxs-lookup"><span data-stu-id="0ff57-235">Total number of minutes devoted to audio/video conferencing.</span></span></p>
+<p><span data-ttu-id="0ff57-236">總 A / V 會議分鐘公制摘要列出所有音訊/視訊會議類型，包括： A / V 會議;IM 會議;應用程式共用會議;資料會議;與 PSTN 會議。</span><span class="sxs-lookup"><span data-stu-id="0ff57-236">The Total A/V conference minutes metric summarizes all the audio/visual conference types, including: A/V conferences; IM conferences; app sharing conferences; data conferences; and PSTN conferences.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="dbc85-237"><strong>A/V 會議參與者紀要總計</strong></span><span class="sxs-lookup"><span data-stu-id="dbc85-237"><strong>Total A/V conference participant minutes</strong></span></span></p></td>
-<td><p><span data-ttu-id="dbc85-238">否</span><span class="sxs-lookup"><span data-stu-id="dbc85-238">No</span></span></p></td>
-<td><p><span data-ttu-id="dbc85-239">專用於音訊/視訊會議的參與者總分鐘數。</span><span class="sxs-lookup"><span data-stu-id="dbc85-239">Total number of participant minutes devoted to audio/video conferencing.</span></span> <span data-ttu-id="dbc85-240">例如，假設一個使用者在音訊/視訊會議中花費5分鐘，而另一個使用者在該會議中花3分鐘的時間。</span><span class="sxs-lookup"><span data-stu-id="dbc85-240">For example, suppose one user spends 5 minutes in an audio/video conference and a second user spends 3 minutes in that same conference.</span></span> <span data-ttu-id="dbc85-241">這會產生總共8個參與者的分鐘數：5分鐘再加上3分鐘。</span><span class="sxs-lookup"><span data-stu-id="dbc85-241">That makes a total of 8 participant minutes: 5 minutes plus 3 minutes.</span></span></p></td>
+<td><p><span data-ttu-id="0ff57-237"><strong>A/V 會議參與者總分鐘數</strong></span><span class="sxs-lookup"><span data-stu-id="0ff57-237"><strong>Total A/V conference participant minutes</strong></span></span></p></td>
+<td><p><span data-ttu-id="0ff57-238">否</span><span class="sxs-lookup"><span data-stu-id="0ff57-238">No</span></span></p></td>
+<td><p><span data-ttu-id="0ff57-p116">用於音訊/視訊會議的參與者總分鐘數。例如，假設一位使用者花 5 分鐘參加音訊/視訊會議，而另一位使用者花 3 分鐘參加相同的會議。所以參與者總分鐘數為 8 分鐘：5 分鐘加 3 分鐘。</span><span class="sxs-lookup"><span data-stu-id="0ff57-p116">Total number of participant minutes devoted to audio/video conferencing. For example, suppose one user spends 5 minutes in an audio/video conference and a second user spends 3 minutes in that same conference. That makes a total of 8 participant minutes: 5 minutes plus 3 minutes.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="dbc85-242"><strong>平均/V 會議分鐘數</strong></span><span class="sxs-lookup"><span data-stu-id="dbc85-242"><strong>Average A/V conference minutes</strong></span></span></p></td>
-<td><p><span data-ttu-id="dbc85-243">否</span><span class="sxs-lookup"><span data-stu-id="dbc85-243">No</span></span></p></td>
-<td><p><span data-ttu-id="dbc85-244">每個音訊/視訊會議的平均分鐘數。</span><span class="sxs-lookup"><span data-stu-id="dbc85-244">Average number of minutes per audio/video conference.</span></span></p></td>
+<td><p><span data-ttu-id="0ff57-242"><strong>A/V 會議平均分鐘數</strong></span><span class="sxs-lookup"><span data-stu-id="0ff57-242"><strong>Average A/V conference minutes</strong></span></span></p></td>
+<td><p><span data-ttu-id="0ff57-243">否</span><span class="sxs-lookup"><span data-stu-id="0ff57-243">No</span></span></p></td>
+<td><p><span data-ttu-id="0ff57-244">每次音訊/視訊會議的平均分鐘數。</span><span class="sxs-lookup"><span data-stu-id="0ff57-244">Average number of minutes per audio/video conference.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="dbc85-245"><strong>會議唯一召集人總數</strong></span><span class="sxs-lookup"><span data-stu-id="dbc85-245"><strong>Total number of unique organizers of conferences</strong></span></span></p></td>
-<td><p><span data-ttu-id="dbc85-246">否</span><span class="sxs-lookup"><span data-stu-id="dbc85-246">No</span></span></p></td>
-<td><p><span data-ttu-id="dbc85-247">至少組織一次會議的使用者總數。</span><span class="sxs-lookup"><span data-stu-id="dbc85-247">Total number of users who organized at least one conference.</span></span> <span data-ttu-id="dbc85-248">組織多個會議的使用者會算作一個唯一的召集人，就像只組織單一會議的使用者。</span><span class="sxs-lookup"><span data-stu-id="dbc85-248">Users who organized more than one conference are counted as one unique organizer, just like users who only organized a single conference.</span></span></p></td>
+<td><p><span data-ttu-id="0ff57-245"><strong>會議專屬召集人總數</strong></span><span class="sxs-lookup"><span data-stu-id="0ff57-245"><strong>Total number of unique organizers of conferences</strong></span></span></p></td>
+<td><p><span data-ttu-id="0ff57-246">否</span><span class="sxs-lookup"><span data-stu-id="0ff57-246">No</span></span></p></td>
+<td><p><span data-ttu-id="0ff57-p117">至少召集過一次會議的使用者總數。召集過多次會議的使用者計為一個專屬召集人，就像只召集過一次會議的使用者一樣。</span><span class="sxs-lookup"><span data-stu-id="0ff57-p117">Total number of users who organized at least one conference. Users who organized more than one conference are counted as one unique organizer, just like users who only organized a single conference.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="dbc85-249"><strong>會議訊息總計</strong></span><span class="sxs-lookup"><span data-stu-id="dbc85-249"><strong>Total conference messages</strong></span></span></p></td>
-<td><p><span data-ttu-id="dbc85-250">否</span><span class="sxs-lookup"><span data-stu-id="dbc85-250">No</span></span></p></td>
-<td><p><span data-ttu-id="dbc85-251">在會議期間傳送的立即訊息總數。</span><span class="sxs-lookup"><span data-stu-id="dbc85-251">Total number of instant messages sent during the conferences.</span></span></p></td>
+<td><p><span data-ttu-id="0ff57-249"><strong>會議訊息總數</strong></span><span class="sxs-lookup"><span data-stu-id="0ff57-249"><strong>Total conference messages</strong></span></span></p></td>
+<td><p><span data-ttu-id="0ff57-250">否</span><span class="sxs-lookup"><span data-stu-id="0ff57-250">No</span></span></p></td>
+<td><p><span data-ttu-id="0ff57-251">會議期間傳送的立即訊息總數。</span><span class="sxs-lookup"><span data-stu-id="0ff57-251">Total number of instant messages sent during the conferences.</span></span></p></td>
 </tr>
 </tbody>
 </table>

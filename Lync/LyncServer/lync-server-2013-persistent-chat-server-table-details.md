@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：常設聊天室伺服器表格詳細資料
+title: Lync Server 2013： 常設聊天室伺服器資料表詳細資料
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185323
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cd738a423744257968eb029abdd29e5964c0c623
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3caf59185bc3fbe985ea8b7d4371d464b515e3fe
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755213"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006891"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="persistent-chat-server-table-details-in-lync-server-2013"></a><span data-ttu-id="ab4b2-102">Lync Server 2013 中的常設聊天室伺服器表格詳細資料</span><span class="sxs-lookup"><span data-stu-id="ab4b2-102">Persistent Chat Server table details in Lync Server 2013</span></span>
+# <a name="persistent-chat-server-table-details-in-lync-server-2013"></a><span data-ttu-id="3c941-102">在 Lync Server 2013 常設聊天室伺服器資料表詳細資料</span><span class="sxs-lookup"><span data-stu-id="3c941-102">Persistent Chat Server table details in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,75 +35,75 @@ ms.locfileid: "41755213"
 
 <span> </span>
 
-<span data-ttu-id="ab4b2-103">_**主題上次修改日期：** 2012-06-25_</span><span class="sxs-lookup"><span data-stu-id="ab4b2-103">_**Topic Last Modified:** 2012-06-25_</span></span>
+<span data-ttu-id="3c941-103">_**主題上次修改日期：** 2012年-06-25_</span><span class="sxs-lookup"><span data-stu-id="3c941-103">_**Topic Last Modified:** 2012-06-25_</span></span>
 
-<span data-ttu-id="ab4b2-104">下列主題詳細說明每個持久性聊天資料庫架構資料表中的欄。</span><span class="sxs-lookup"><span data-stu-id="ab4b2-104">The following topics detail the columns in each of the Persistent Chat database schema tables.</span></span>
+<span data-ttu-id="3c941-104">下列主題將詳細說明每個常設聊天室資料庫架構表格中的資料行。</span><span class="sxs-lookup"><span data-stu-id="3c941-104">The following topics detail the columns in each of the Persistent Chat database schema tables.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="ab4b2-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="ab4b2-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="3c941-105">本章節內容</span><span class="sxs-lookup"><span data-stu-id="3c941-105">In This Section</span></span>
 
-  - [<span data-ttu-id="ab4b2-106">Lync Server 2013 中的 tblADCookie</span><span class="sxs-lookup"><span data-stu-id="ab4b2-106">tblADCookie in Lync Server 2013</span></span>](lync-server-2013-tbladcookie.md)
+  - [<span data-ttu-id="3c941-106">Lync Server 2013 中的 tblADCookie</span><span class="sxs-lookup"><span data-stu-id="3c941-106">tblADCookie in Lync Server 2013</span></span>](lync-server-2013-tbladcookie.md)
 
-  - [<span data-ttu-id="ab4b2-107">Lync Server 2013 中的 tblPrincipalMemberDifference</span><span class="sxs-lookup"><span data-stu-id="ab4b2-107">tblPrincipalMemberDifference in Lync Server 2013</span></span>](lync-server-2013-tblprincipalmemberdifference.md)
+  - [<span data-ttu-id="3c941-107">Lync Server 2013 中的 tblPrincipalMemberDifference</span><span class="sxs-lookup"><span data-stu-id="3c941-107">tblPrincipalMemberDifference in Lync Server 2013</span></span>](lync-server-2013-tblprincipalmemberdifference.md)
 
-  - [<span data-ttu-id="ab4b2-108">Lync Server 2013 中的 tblADUpdates</span><span class="sxs-lookup"><span data-stu-id="ab4b2-108">tblADUpdates in Lync Server 2013</span></span>](lync-server-2013-tbladupdates.md)
+  - [<span data-ttu-id="3c941-108">Lync Server 2013 中的 tblADUpdates</span><span class="sxs-lookup"><span data-stu-id="3c941-108">tblADUpdates in Lync Server 2013</span></span>](lync-server-2013-tbladupdates.md)
 
-  - [<span data-ttu-id="ab4b2-109">Lync Server 2013 中的 tblPrincipalMembers</span><span class="sxs-lookup"><span data-stu-id="ab4b2-109">tblPrincipalMembers in Lync Server 2013</span></span>](lync-server-2013-tblprincipalmembers.md)
+  - [<span data-ttu-id="3c941-109">Lync Server 2013 中的 tblprincipalmembers 表格</span><span class="sxs-lookup"><span data-stu-id="3c941-109">tblPrincipalMembers in Lync Server 2013</span></span>](lync-server-2013-tblprincipalmembers.md)
 
-  - [<span data-ttu-id="ab4b2-110">Lync Server 2013 中的 tblPrincipalMeta</span><span class="sxs-lookup"><span data-stu-id="ab4b2-110">tblPrincipalMeta in Lync Server 2013</span></span>](lync-server-2013-tblprincipalmeta.md)
+  - [<span data-ttu-id="3c941-110">Lync Server 2013 中的 tblprincipalmeta 表格</span><span class="sxs-lookup"><span data-stu-id="3c941-110">tblPrincipalMeta in Lync Server 2013</span></span>](lync-server-2013-tblprincipalmeta.md)
 
-  - [<span data-ttu-id="ab4b2-111">Lync Server 2013 中的 tblSkippedAffiliations</span><span class="sxs-lookup"><span data-stu-id="ab4b2-111">tblSkippedAffiliations in Lync Server 2013</span></span>](lync-server-2013-tblskippedaffiliations.md)
+  - [<span data-ttu-id="3c941-111">Lync Server 2013 中的 tblSkippedAffiliations</span><span class="sxs-lookup"><span data-stu-id="3c941-111">tblSkippedAffiliations in Lync Server 2013</span></span>](lync-server-2013-tblskippedaffiliations.md)
 
-  - [<span data-ttu-id="ab4b2-112">Lync Server 2013 中的 tblPrincipalType</span><span class="sxs-lookup"><span data-stu-id="ab4b2-112">tblPrincipalType in Lync Server 2013</span></span>](lync-server-2013-tblprincipaltype.md)
+  - [<span data-ttu-id="3c941-112">Lync Server 2013 中的參照 tblPrincipalType</span><span class="sxs-lookup"><span data-stu-id="3c941-112">tblPrincipalType in Lync Server 2013</span></span>](lync-server-2013-tblprincipaltype.md)
 
-  - [<span data-ttu-id="ab4b2-113">Lync Server 2013 中的 tblPrincipal</span><span class="sxs-lookup"><span data-stu-id="ab4b2-113">tblPrincipal in Lync Server 2013</span></span>](lync-server-2013-tblprincipal.md)
+  - [<span data-ttu-id="3c941-113">Lync Server 2013 中的 tblPrincipal</span><span class="sxs-lookup"><span data-stu-id="3c941-113">tblPrincipal in Lync Server 2013</span></span>](lync-server-2013-tblprincipal.md)
 
-  - [<span data-ttu-id="ab4b2-114">Lync Server 2013 中的 tblPrincipalAffiliations</span><span class="sxs-lookup"><span data-stu-id="ab4b2-114">tblPrincipalAffiliations in Lync Server 2013</span></span>](lync-server-2013-tblprincipalaffiliations.md)
+  - [<span data-ttu-id="3c941-114">Lync Server 2013 中的 Principalaffiliations</span><span class="sxs-lookup"><span data-stu-id="3c941-114">tblPrincipalAffiliations in Lync Server 2013</span></span>](lync-server-2013-tblprincipalaffiliations.md)
 
-  - [<span data-ttu-id="ab4b2-115">Lync Server 2013 中的 tblNode</span><span class="sxs-lookup"><span data-stu-id="ab4b2-115">tblNode in Lync Server 2013</span></span>](lync-server-2013-tblnode.md)
+  - [<span data-ttu-id="3c941-115">Lync Server 2013 中的 tblNode</span><span class="sxs-lookup"><span data-stu-id="3c941-115">tblNode in Lync Server 2013</span></span>](lync-server-2013-tblnode.md)
 
-  - [<span data-ttu-id="ab4b2-116">Lync Server 2013 中的 tblRoleType</span><span class="sxs-lookup"><span data-stu-id="ab4b2-116">tblRoleType in Lync Server 2013</span></span>](lync-server-2013-tblroletype.md)
+  - [<span data-ttu-id="3c941-116">Lync Server 2013 中的 tblRoleType</span><span class="sxs-lookup"><span data-stu-id="3c941-116">tblRoleType in Lync Server 2013</span></span>](lync-server-2013-tblroletype.md)
 
-  - [<span data-ttu-id="ab4b2-117">Lync Server 2013 中的 tblScopePrincipal</span><span class="sxs-lookup"><span data-stu-id="ab4b2-117">tblScopePrincipal in Lync Server 2013</span></span>](lync-server-2013-tblscopeprincipal.md)
+  - [<span data-ttu-id="3c941-117">Lync Server 2013 中的 tblScopePrincipal</span><span class="sxs-lookup"><span data-stu-id="3c941-117">tblScopePrincipal in Lync Server 2013</span></span>](lync-server-2013-tblscopeprincipal.md)
 
-  - [<span data-ttu-id="ab4b2-118">Lync Server 2013 中的 tblPrincipalRole</span><span class="sxs-lookup"><span data-stu-id="ab4b2-118">tblPrincipalRole in Lync Server 2013</span></span>](lync-server-2013-tblprincipalrole.md)
+  - [<span data-ttu-id="3c941-118">Lync Server 2013 中的 tblPrincipalRole</span><span class="sxs-lookup"><span data-stu-id="3c941-118">tblPrincipalRole in Lync Server 2013</span></span>](lync-server-2013-tblprincipalrole.md)
 
-  - [<span data-ttu-id="ab4b2-119">Lync Server 2013 中的 tblSiopWhiteList</span><span class="sxs-lookup"><span data-stu-id="ab4b2-119">tblSiopWhiteList in Lync Server 2013</span></span>](lync-server-2013-tblsiopwhitelist.md)
+  - [<span data-ttu-id="3c941-119">Lync Server 2013 中的 tblSiopWhiteList</span><span class="sxs-lookup"><span data-stu-id="3c941-119">tblSiopWhiteList in Lync Server 2013</span></span>](lync-server-2013-tblsiopwhitelist.md)
 
-  - [<span data-ttu-id="ab4b2-120">Lync Server 2013 中的 tblEnumAttribute</span><span class="sxs-lookup"><span data-stu-id="ab4b2-120">tblEnumAttribute in Lync Server 2013</span></span>](lync-server-2013-tblenumattribute.md)
+  - [<span data-ttu-id="3c941-120">Lync Server 2013 中的 tblEnumAttribute</span><span class="sxs-lookup"><span data-stu-id="3c941-120">tblEnumAttribute in Lync Server 2013</span></span>](lync-server-2013-tblenumattribute.md)
 
-  - [<span data-ttu-id="ab4b2-121">Lync Server 2013 中的 tblEnumValue</span><span class="sxs-lookup"><span data-stu-id="ab4b2-121">tblEnumValue in Lync Server 2013</span></span>](lync-server-2013-tblenumvalue.md)
+  - [<span data-ttu-id="3c941-121">Lync Server 2013 中的 tblEnumValue</span><span class="sxs-lookup"><span data-stu-id="3c941-121">tblEnumValue in Lync Server 2013</span></span>](lync-server-2013-tblenumvalue.md)
 
-  - [<span data-ttu-id="ab4b2-122">Lync Server 2013 中的 tblPrincipalInvites</span><span class="sxs-lookup"><span data-stu-id="ab4b2-122">tblPrincipalInvites in Lync Server 2013</span></span>](lync-server-2013-tblprincipalinvites.md)
+  - [<span data-ttu-id="3c941-122">Lync Server 2013 中的 tblPrincipalInvites</span><span class="sxs-lookup"><span data-stu-id="3c941-122">tblPrincipalInvites in Lync Server 2013</span></span>](lync-server-2013-tblprincipalinvites.md)
 
-  - [<span data-ttu-id="ab4b2-123">Lync Server 2013 中的 tblChat</span><span class="sxs-lookup"><span data-stu-id="ab4b2-123">tblChat in Lync Server 2013</span></span>](lync-server-2013-tblchat.md)
+  - [<span data-ttu-id="3c941-123">Lync Server 2013 中的 tblChat</span><span class="sxs-lookup"><span data-stu-id="3c941-123">tblChat in Lync Server 2013</span></span>](lync-server-2013-tblchat.md)
 
-  - [<span data-ttu-id="ab4b2-124">Lync Server 2013 中的 tblLastInviteId</span><span class="sxs-lookup"><span data-stu-id="ab4b2-124">tblLastInviteId in Lync Server 2013</span></span>](lync-server-2013-tbllastinviteid.md)
+  - [<span data-ttu-id="3c941-124">Lync Server 2013 中的 tbllastinviteid 表格</span><span class="sxs-lookup"><span data-stu-id="3c941-124">tblLastInviteId in Lync Server 2013</span></span>](lync-server-2013-tbllastinviteid.md)
 
-  - [<span data-ttu-id="ab4b2-125">Lync Server 2013 中的 tblLastChatId</span><span class="sxs-lookup"><span data-stu-id="ab4b2-125">tblLastChatId in Lync Server 2013</span></span>](lync-server-2013-tbllastchatid.md)
+  - [<span data-ttu-id="3c941-125">Lync Server 2013 中的 tbllastchatid 表格</span><span class="sxs-lookup"><span data-stu-id="3c941-125">tblLastChatId in Lync Server 2013</span></span>](lync-server-2013-tbllastchatid.md)
 
-  - [<span data-ttu-id="ab4b2-126">Lync Server 2013 中的 tblPreference</span><span class="sxs-lookup"><span data-stu-id="ab4b2-126">tblPreference in Lync Server 2013</span></span>](lync-server-2013-tblpreference.md)
+  - [<span data-ttu-id="3c941-126">Lync Server 2013 中的 tblPreference</span><span class="sxs-lookup"><span data-stu-id="3c941-126">tblPreference in Lync Server 2013</span></span>](lync-server-2013-tblpreference.md)
 
-  - [<span data-ttu-id="ab4b2-127">Lync Server 2013 中的 tblFileToken</span><span class="sxs-lookup"><span data-stu-id="ab4b2-127">tblFileToken in Lync Server 2013</span></span>](lync-server-2013-tblfiletoken.md)
+  - [<span data-ttu-id="3c941-127">Lync Server 2013 中的 tblFileToken</span><span class="sxs-lookup"><span data-stu-id="3c941-127">tblFileToken in Lync Server 2013</span></span>](lync-server-2013-tblfiletoken.md)
 
-  - [<span data-ttu-id="ab4b2-128">Lync Server 2013 中的 tblServerIdentity</span><span class="sxs-lookup"><span data-stu-id="ab4b2-128">tblServerIdentity in Lync Server 2013</span></span>](lync-server-2013-tblserveridentity.md)
+  - [<span data-ttu-id="3c941-128">tblServerIdentity 在 Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3c941-128">tblServerIdentity in Lync Server 2013</span></span>](lync-server-2013-tblserveridentity.md)
 
-  - [<span data-ttu-id="ab4b2-129">Lync Server 2013 中的 tblAdminLock</span><span class="sxs-lookup"><span data-stu-id="ab4b2-129">tblAdminLock in Lync Server 2013</span></span>](lync-server-2013-tbladminlock.md)
+  - [<span data-ttu-id="3c941-129">Lync Server 2013 中的 tblAdminLock</span><span class="sxs-lookup"><span data-stu-id="3c941-129">tblAdminLock in Lync Server 2013</span></span>](lync-server-2013-tbladminlock.md)
 
-  - [<span data-ttu-id="ab4b2-130">Lync Server 2013 中的 tblSystemRevision</span><span class="sxs-lookup"><span data-stu-id="ab4b2-130">tblSystemRevision in Lync Server 2013</span></span>](lync-server-2013-tblsystemrevision.md)
+  - [<span data-ttu-id="3c941-130">Lync Server 2013 中的 tblSystemRevision</span><span class="sxs-lookup"><span data-stu-id="3c941-130">tblSystemRevision in Lync Server 2013</span></span>](lync-server-2013-tblsystemrevision.md)
 
-  - [<span data-ttu-id="ab4b2-131">Lync Server 2013 中的 tblActivePeers</span><span class="sxs-lookup"><span data-stu-id="ab4b2-131">tblActivePeers in Lync Server 2013</span></span>](lync-server-2013-tblactivepeers.md)
+  - [<span data-ttu-id="3c941-131">Lync Server 2013 中的 tblActivePeers</span><span class="sxs-lookup"><span data-stu-id="3c941-131">tblActivePeers in Lync Server 2013</span></span>](lync-server-2013-tblactivepeers.md)
 
-  - [<span data-ttu-id="ab4b2-132">Lync Server 2013 中的 tblConfig</span><span class="sxs-lookup"><span data-stu-id="ab4b2-132">tblConfig in Lync Server 2013</span></span>](lync-server-2013-tblconfig.md)
+  - [<span data-ttu-id="3c941-132">Lync Server 2013 中的 tblConfig</span><span class="sxs-lookup"><span data-stu-id="3c941-132">tblConfig in Lync Server 2013</span></span>](lync-server-2013-tblconfig.md)
 
-  - [<span data-ttu-id="ab4b2-133">Lync Server 2013 中的 tblComplianceData</span><span class="sxs-lookup"><span data-stu-id="ab4b2-133">tblComplianceData in Lync Server 2013</span></span>](lync-server-2013-tblcompliancedata.md)
+  - [<span data-ttu-id="3c941-133">Lync Server 2013 中的 tblComplianceData</span><span class="sxs-lookup"><span data-stu-id="3c941-133">tblComplianceData in Lync Server 2013</span></span>](lync-server-2013-tblcompliancedata.md)
 
-  - [<span data-ttu-id="ab4b2-134">Lync Server 2013 中的 tblComplianceFanout</span><span class="sxs-lookup"><span data-stu-id="ab4b2-134">tblComplianceFanout in Lync Server 2013</span></span>](lync-server-2013-tblcompliancefanout.md)
+  - [<span data-ttu-id="3c941-134">Lync Server 2013 中的 tblcompliancefanout 表格</span><span class="sxs-lookup"><span data-stu-id="3c941-134">tblComplianceFanout in Lync Server 2013</span></span>](lync-server-2013-tblcompliancefanout.md)
 
-  - [<span data-ttu-id="ab4b2-135">Lync Server 2013 中的 tblComplianceParticipant</span><span class="sxs-lookup"><span data-stu-id="ab4b2-135">tblComplianceParticipant in Lync Server 2013</span></span>](lync-server-2013-tblcomplianceparticipant.md)
+  - [<span data-ttu-id="3c941-135">Lync Server 2013 中的 tblComplianceParticipant</span><span class="sxs-lookup"><span data-stu-id="3c941-135">tblComplianceParticipant in Lync Server 2013</span></span>](lync-server-2013-tblcomplianceparticipant.md)
 
-  - [<span data-ttu-id="ab4b2-136">Lync Server 2013 中的 tblComplianceState</span><span class="sxs-lookup"><span data-stu-id="ab4b2-136">tblComplianceState in Lync Server 2013</span></span>](lync-server-2013-tblcompliancestate.md)
+  - [<span data-ttu-id="3c941-136">Lync Server 2013 中的 tblComplianceState</span><span class="sxs-lookup"><span data-stu-id="3c941-136">tblComplianceState in Lync Server 2013</span></span>](lync-server-2013-tblcompliancestate.md)
 
 </div>
 

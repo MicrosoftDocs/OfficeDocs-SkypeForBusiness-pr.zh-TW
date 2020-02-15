@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：PayloadDescription 表格
+title: 'Lync Server 2013: PayloadDescription 表格'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185353
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2fe905db80edae74e81cc496c9ad70ca3148854f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 44edea16dc4874b797dd69402709a880c530147c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755387"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41989698"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="payloaddescription-table-in-lync-server-2013"></a><span data-ttu-id="9b456-102">Lync Server 2013 中的 PayloadDescription 表格</span><span class="sxs-lookup"><span data-stu-id="9b456-102">PayloadDescription table in Lync Server 2013</span></span>
+# <a name="payloaddescription-table-in-lync-server-2013"></a><span data-ttu-id="51bbe-102">Lync Server 2013 中為 PayloadDescription table</span><span class="sxs-lookup"><span data-stu-id="51bbe-102">PayloadDescription table in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41755387"
 
 <span> </span>
 
-<span data-ttu-id="9b456-103">_**主題上次修改日期：** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="9b456-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+<span data-ttu-id="51bbe-103">_**主題上次修改日期：** 2012年-10-02_</span><span class="sxs-lookup"><span data-stu-id="51bbe-103">_**Topic Last Modified:** 2012-10-02_</span></span>
 
-<span data-ttu-id="9b456-104">PayloadDescription 資料表是支援資料表。</span><span class="sxs-lookup"><span data-stu-id="9b456-104">The PayloadDescription table is a supporting table.</span></span> <span data-ttu-id="9b456-105">每個記錄代表一個在音訊或視頻會話中使用的編解碼器。</span><span class="sxs-lookup"><span data-stu-id="9b456-105">Each record represents one Codec, which is used in an audio or video session.</span></span>
+<span data-ttu-id="51bbe-104">: PayloadDescription 表格是一種支援資料表。</span><span class="sxs-lookup"><span data-stu-id="51bbe-104">The PayloadDescription table is a supporting table.</span></span> <span data-ttu-id="51bbe-105">每筆記錄代表一個轉碼器，使用音訊或視訊工作階段中。</span><span class="sxs-lookup"><span data-stu-id="51bbe-105">Each record represents one Codec, which is used in an audio or video session.</span></span>
 
 
 <table>
@@ -49,24 +49,24 @@ ms.locfileid: "41755387"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="9b456-106"><strong>左欄</strong></span><span class="sxs-lookup"><span data-stu-id="9b456-106"><strong>Column</strong></span></span></th>
-<th><span data-ttu-id="9b456-107"><strong>資料類型</strong></span><span class="sxs-lookup"><span data-stu-id="9b456-107"><strong>Data Type</strong></span></span></th>
-<th><span data-ttu-id="9b456-108"><strong>索引鍵/索引</strong></span><span class="sxs-lookup"><span data-stu-id="9b456-108"><strong>Key/Index</strong></span></span></th>
-<th><span data-ttu-id="9b456-109"><strong>詳細資料</strong></span><span class="sxs-lookup"><span data-stu-id="9b456-109"><strong>Details</strong></span></span></th>
+<th><span data-ttu-id="51bbe-106"><strong>欄</strong></span><span class="sxs-lookup"><span data-stu-id="51bbe-106"><strong>Column</strong></span></span></th>
+<th><span data-ttu-id="51bbe-107"><strong>資料類型</strong></span><span class="sxs-lookup"><span data-stu-id="51bbe-107"><strong>Data Type</strong></span></span></th>
+<th><span data-ttu-id="51bbe-108"><strong>主索引鍵 /</strong></span><span class="sxs-lookup"><span data-stu-id="51bbe-108"><strong>Key/Index</strong></span></span></th>
+<th><span data-ttu-id="51bbe-109"><strong>詳細資料</strong></span><span class="sxs-lookup"><span data-stu-id="51bbe-109"><strong>Details</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="9b456-110"><strong>PayloadDescriptionKey</strong></span><span class="sxs-lookup"><span data-stu-id="9b456-110"><strong>PayloadDescriptionKey</strong></span></span></p></td>
-<td><p><span data-ttu-id="9b456-111">int</span><span class="sxs-lookup"><span data-stu-id="9b456-111">int</span></span></p></td>
-<td><p><span data-ttu-id="9b456-112">首選</span><span class="sxs-lookup"><span data-stu-id="9b456-112">Primary</span></span></p></td>
-<td><p><span data-ttu-id="9b456-113">識別編解碼器的唯一號碼。</span><span class="sxs-lookup"><span data-stu-id="9b456-113">Unique number identifying the Codec.</span></span></p></td>
+<td><p><span data-ttu-id="51bbe-110"><strong>PayloadDescriptionKey</strong></span><span class="sxs-lookup"><span data-stu-id="51bbe-110"><strong>PayloadDescriptionKey</strong></span></span></p></td>
+<td><p><span data-ttu-id="51bbe-111">int</span><span class="sxs-lookup"><span data-stu-id="51bbe-111">int</span></span></p></td>
+<td><p><span data-ttu-id="51bbe-112">主要</span><span class="sxs-lookup"><span data-stu-id="51bbe-112">Primary</span></span></p></td>
+<td><p><span data-ttu-id="51bbe-113">用於識別轉碼器的唯一號碼。</span><span class="sxs-lookup"><span data-stu-id="51bbe-113">Unique number identifying the Codec.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9b456-114"><strong>PayloadDescription</strong></span><span class="sxs-lookup"><span data-stu-id="9b456-114"><strong>PayloadDescription</strong></span></span></p></td>
-<td><p><span data-ttu-id="9b456-115">Nvarchar （256）</span><span class="sxs-lookup"><span data-stu-id="9b456-115">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="9b456-116">唯一</span><span class="sxs-lookup"><span data-stu-id="9b456-116">Unique</span></span></p></td>
-<td><p><span data-ttu-id="9b456-117">編解碼器名稱。</span><span class="sxs-lookup"><span data-stu-id="9b456-117">Codec name.</span></span></p></td>
+<td><p><span data-ttu-id="51bbe-114"><strong>: PayloadDescription</strong></span><span class="sxs-lookup"><span data-stu-id="51bbe-114"><strong>PayloadDescription</strong></span></span></p></td>
+<td><p><span data-ttu-id="51bbe-115">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="51bbe-115">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="51bbe-116">Unique</span><span class="sxs-lookup"><span data-stu-id="51bbe-116">Unique</span></span></p></td>
+<td><p><span data-ttu-id="51bbe-117">轉碼器名稱。</span><span class="sxs-lookup"><span data-stu-id="51bbe-117">Codec name.</span></span></p></td>
 </tr>
 </tbody>
 </table>
