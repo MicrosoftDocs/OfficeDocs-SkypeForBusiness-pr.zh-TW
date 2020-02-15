@@ -12,20 +12,20 @@ ms:contentKeyID: 48184631
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 44111dbdec945e525b1ef54d910e1cf7f3b5a5d0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c2b7dbf410aaf5ab6bedd322d018abab76a8324e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730343"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041172"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="backup-registrar-relationships-in-lync-server-2013"></a>Lync Server 2013 中的備份登錄器關聯
+# <a name="backup-registrar-relationships-in-lync-server-2013"></a>備份 Lync Server 2013 中的登錄器關聯
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41730343"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-06-28_
+_**主題上次修改日期：** 2012年-06-28_
 
-除了提供災害復原能力之外，有兩個成對的池充當彼此的備份註冊機構。 在 Lync Server 2013 中，前端池之間的備份註冊機構關聯通常是1:1 和互惠。 這表示如果 P1 是 P2 的備份，則 P2 必須是 P1 的備份，而且不可以是任何其他前端池的備份。 這是 Lync Server 2010 所做的變更，在這種情況下，前端池備份關聯可能有多個。
+除了提供災害復原能力之外，兩個配對的集區也可作為彼此的備份登錄器。 在 Lync Server 2013 中，前端集區之間的備份登錄器關聯性，而一律 1:1 逆向。 這表示，如果 P1 是 P2 的備份，則 P2 必須是 P1 的備份，而且兩者之中的任一個不可成為其他任何前端集區的備份。 這是從 Lync Server 2010，前端集區的備份關係可能是多對一的變更。
 
-即使兩個前端池之間的備份關聯必須是1:1 和對稱式，每個前端池也可以是任意數量的 Survivable 分支裝置的備份註冊機構，就像在 Lync Server 2010 中一樣。
+即使兩個前端集區之間的備份關係必須是 1:1，以及進行對稱式，每個前端集區仍然可以成為任何數量的 Survivable Branch Appliance，就如同 Lync Server 2010 的備份登錄器。
 
-請注意，Lync Server 2013 不會將災害復原支援延伸至 Survivable 分支裝置上的使用者。 如果前端池是 Survivable 分支裝置的備份，則登入 Survivable 分支裝置的使用者也會進入復原模式，即使使用者駐留在頂層池之後，也會發生容錯移轉到備份前端池。
+請注意，Lync Server 2013 不會擴充災害復原支援使用者隸屬於 Survivable Branch Appliance。 如果前端集區中做為備份 Survivable Branch appliance 下降，使用者登入 Survivable Branch Appliance 可分為恢復能力模式即使使用者隸屬於前端集區容錯移轉至備份的前端集區。
 
 </div>
 

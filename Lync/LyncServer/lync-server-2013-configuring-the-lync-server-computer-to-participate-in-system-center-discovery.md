@@ -1,5 +1,5 @@
 ---
-title: 將 Lync Server 電腦設定為參與 System Center 探索
+title: 設定 Lync Server 電腦以參與 System Center 搜索
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183731
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8cec18903f1621d5a616debbbdd16f3c834ac21c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2b59622306fbde12eb570b72c95b37cec7885c7f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734673"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42040922"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-the-lync-server-2013-computer-to-participate-in-system-center-discovery"></a>將 Lync Server 2013 電腦設定為參與 System Center 探索
+# <a name="configuring-the-lync-server-2013-computer-to-participate-in-system-center-discovery"></a>設定 Lync Server 2013 電腦以參與 System Center 搜索
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41734673"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-20_
+_**主題上次修改日期：** 2012年-10-20 個_
 
-若要確保您的新 Lync Server agent 參與 System Center Operations Manager 的探索程式，您必須在安裝 System Center Operations Manager 主控台的每台電腦上完成下列程式：
+若要確保您新的 Lync Server 代理程式參與探索程序中的 System Center Operations Manager，您必須完成下列程序在每一部已安裝 System Center Operations Manager 主控台的電腦上：
 
-1.  按一下 [**管理**] 索引標籤上的 [**代理程式管理**]。
+1.  在 [管理]**** 索引標籤上，按一下 [代理程式管理]****。
 
-2.  以滑鼠右鍵按一下電腦的名稱，然後按一下 [**屬性**]。 在 [內容 **] 對話方塊的 [** **安全性**] 索引標籤上，選取 [**允許此代理程式充當 proxy 並探索其他電腦上的 managed 物件**]，然後按一下 **[確定]**。
+2.  在電腦名稱上按一下滑鼠右鍵，然後按一下 [內容]****。在 [內容]**** 對話方塊中的 [安全性]**** 索引標籤上，選取 [允許此代理程式作為 Proxy 並探索其他電腦中的受管理物件]****，然後按一下 [確定]****。
 
-完成步驟2之後，請重新開機 Health 代理服務。 （重新開機服務將會「強制」探索新的電腦。 如果您不重新開機服務，系統中心作業管理員可能需要4小時的時間才能探索新電腦。 重新開機服務之後，請確認該電腦上的 Operations Manager 事件記錄中沒有記錄任何錯誤事件。
+完成步驟 2 之後，請重新啟動健康狀態代理程式服務 (重新啟動服務會「強制執行」新機器的探索。若您沒有重新啟動服務，則在 4 個小時過後，System Center Operations Manager 才會探索新機器)。重新啟動服務之後，請在該電腦上確認 Operations Manager 事件記錄中沒有記錄任何錯誤事件。
 
 </div>
 

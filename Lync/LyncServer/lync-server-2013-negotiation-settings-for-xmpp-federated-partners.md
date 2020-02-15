@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：XMPP 同盟夥伴的交涉設定
+title: Lync Server 2013： 交涉設定為 XMPP 同盟協力廠商
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48679567
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 995ee34d0a2dcf28ca6aa4f8158d0e08d1533191
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c190e4a45a70bd527aa8fc6323a671d481f04872
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765934"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42039095"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="negotiation-settings-for-xmpp-federated-partners-in-lync-server-2013"></a>Lync Server 2013 中 XMPP 同盟夥伴的交涉設定
+# <a name="negotiation-settings-for-xmpp-federated-partners-in-lync-server-2013"></a>交涉設定為 XMPP 同盟協力廠商在 Lync Server 2013
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41765934"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-21_
+_**主題上次修改日期：** 2012年-10-21_
 
-XMPP 合作夥伴設定中協商類型的設定有多種可能的組合。 並非所有這些組合都是有效的。 本主題中所述的表格將定義有效和不正確設定。 常見的設定會顯示在第一個資料表中，第二個數據表描述所有可能的組合。 請注意，除非也提供*傳輸層安全性*（TLS），**否則**您不能有*簡單的驗證與安全性層*（SASL）。 SASL 是以未加密（可讀）的格式傳送，除非受到其他方法（例如 TLS）保護，否則切勿傳送。
+設定中的 XMPP 協力廠商的交涉類型的設定有各種可能的組合。 並非所有的這些組合都有效。 本主題中詳述的表格會定義有效及無效的設定。 一般設定一文中所述的第一個表格，其中所有可能組合第二個表格。 請注意，您不能有*簡單驗證及安全性階層*(SASL)**除非***傳輸層安全性*(TLS) 也是可用的。 SASL 傳送以未加密 （讀取） 的格式，且應該永遠不容許傳輸除非由另一個方法，例如 TLS 保護。
 
-### <a name="common-xmpp-federation-negotiation-methods"></a>常見的 XMPP 聯盟協商方法
+### <a name="common-xmpp-federation-negotiation-methods"></a>常見的 XMPP 同盟交涉方法
 
 <table>
 <colgroup>
@@ -51,47 +51,47 @@ XMPP 合作夥伴設定中協商類型的設定有多種可能的組合。 並�
 </colgroup>
 <thead>
 <tr class="header">
-<th>傳輸層安全性（TLS）</th>
-<th>簡單驗證與安全性層（SASL）</th>
-<th>回撥（驗證）</th>
+<th>傳輸層安全性 (TLS)</th>
+<th>簡單驗證及安全性階層 (SASL)</th>
+<th>回撥驗證</th>
 <th>預期的驗證方法</th>
-<th>筆記</th>
+<th>附註</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>必要</p></td>
 <td><p>必要</p></td>
-<td><p>虛假</p></td>
-<td><p>TLS 之上的 SASL</p></td>
-<td><p>TLS 和 SASL 所需的資訊有助於確保 SASL 訊息資料流程是安全的。 如果 XMPP 聯盟合作夥伴未將 TLS 設定為 [必要] 或 [選用]，就無法使用回撥，且無法用於 fallback 方法。</p></td>
+<td><p>False</p></td>
+<td><p>SASL 優於 TLS</p></td>
+<td><p>需要協助確保 SASL 郵件資料流是安全的 TLS 和 SASL。 回撥不提供，如果 XMPP 同盟協力廠商不必要或選用設定 TLS 無法用於後援方法。</p></td>
 </tr>
 <tr class="even">
 <td><p>必要</p></td>
-<td><p>選用</p></td>
-<td><p>滿足</p></td>
-<td><p>TLS 上的 SASL、TLS 回撥、TCP 回撥</p></td>
-<td><p>如果 XMPP 聯盟合作夥伴已將 [SASL] 設定為 [選用] 或 [所需的 SASL]，請使用 TLS。 如果沒有可用的 SASL，將會使用 TLS 上的回撥。</p></td>
+<td><p>選擇性</p></td>
+<td><p>True</p></td>
+<td><p>SASL 優於 TLS、 TLS 回撥、 TCP 回撥</p></td>
+<td><p>依需要 TLS，會使用 XMPP 同盟協力廠商已將 SASL 設定為選用或必要 SASL。 如果無法使用 SASL，則會使用透過 TLS 的回撥。</p></td>
 </tr>
 <tr class="odd">
 <td><p>選用</p></td>
 <td><p>選用</p></td>
-<td><p>滿足</p></td>
-<td><p>TLS 上的 SASL、TLS 回撥、TCP 回撥</p></td>
-<td><p>在提供的協商方法中非常靈活，這些設定會依賴 XMPP 聯盟夥伴的設定。 如果合作夥伴選用 TLS 選擇性或必要，但不支援 SASL，則可以使用 TLS 回撥。 如果合作夥伴將 TLS 和 SASL 設定為 [選用] 或 [必要]，則會使用在 SASL 上最佳的 TLS 選取。</p></td>
+<td><p>True</p></td>
+<td><p>SASL 優於 TLS、 TLS 回撥、 TCP 回撥</p></td>
+<td><p>雖然很有彈性中提供的交涉方法，這些設定會依賴 XMPP 同盟協力廠商的設定。 如果協力廠商 TLS 選用或必要，但不是支援 SASL，則可使用 TLS 回撥。 如果協力廠商 TLS 和 SASL 設為選用或必要，會使用 TLS over SASL 最佳選擇。</p></td>
 </tr>
 <tr class="even">
 <td><p>不支援</p></td>
 <td><p>不支援</p></td>
-<td><p>滿足</p></td>
+<td><p>True</p></td>
 <td><p>TCP 回撥</p></td>
-<td><p>在許多情況下，TCP 回撥是唯一可行的解決方法。 比其他選項更不可取，它會提供一定層面的信任。</p></td>
+<td><p>在許多情況下，TCP 回撥是唯一可能的解決方案。 較不建議比其他選項，但是它提供某種程度的信任。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="xmpp-federation-negotiation-methods-matrix---complete"></a>XMPP 同盟協商方法矩陣-完成
+### <a name="xmpp-federation-negotiation-methods-matrix---complete"></a>XMPP 同盟交涉方法矩陣： 完成
 
 <table>
 <colgroup>
@@ -103,23 +103,23 @@ XMPP 合作夥伴設定中協商類型的設定有多種可能的組合。 並�
 </colgroup>
 <thead>
 <tr class="header">
-<th>傳輸層安全性（TLS）</th>
-<th>簡單驗證與安全性層（SASL）</th>
-<th>回撥（驗證）</th>
-<th>預期驗證方法</th>
-<th>無法正確設定的記事、警告或錯誤</th>
+<th>傳輸層安全性 (TLS)</th>
+<th>簡單驗證及安全性階層 (SASL)</th>
+<th>回撥驗證</th>
+<th>預期的驗證方法</th>
+<th>備忘稿、 警告或錯誤不正確的設定</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>必要</p></td>
 <td><p>必要</p></td>
-<td><p>滿足</p></td>
-<td><p>TLS 之上的 SASL</p></td>
+<td><p>True</p></td>
+<td><p>SASL 優於 TLS</p></td>
 <td><div>
 
 > [!WARNING]  
-> 如果需要 SASL 和 TLS，回撥將無法運作。
+> 如果需要 SASL 與 TLS 的回撥將無法運作。
 
 
 </div></td>
@@ -127,19 +127,19 @@ XMPP 合作夥伴設定中協商類型的設定有多種可能的組合。 並�
 <tr class="even">
 <td><p>必要</p></td>
 <td><p>必要</p></td>
-<td><p>虛假</p></td>
-<td><p>TLS 之上的 SASL</p></td>
+<td><p>False</p></td>
+<td><p>SASL 優於 TLS</p></td>
 <td></td>
 </tr>
 <tr class="odd">
 <td><p>選用</p></td>
 <td><p>必要</p></td>
-<td><p>滿足</p></td>
-<td><p>TLS 上的 SASL、TLS 回撥、TCP 回撥</p></td>
+<td><p>True</p></td>
+<td><p>SASL 優於 TLS、 TLS 回撥、 TCP 回撥</p></td>
 <td><div>
 
 > [!WARNING]  
-> SASL 需要 TLS。 [允許 TLS 為選用] 可能會導致會話協商失敗。
+> SASL 要求 TLS。 允許為選用的 TLS，可能會造成失敗的工作階段交涉。
 
 
 </div></td>
@@ -147,12 +147,12 @@ XMPP 合作夥伴設定中協商類型的設定有多種可能的組合。 並�
 <tr class="even">
 <td><p>選用</p></td>
 <td><p>必要</p></td>
-<td><p>虛假</p></td>
-<td><p>TLS 之上的 SASL</p></td>
+<td><p>False</p></td>
+<td><p>SASL 優於 TLS</p></td>
 <td><div>
 
 > [!WARNING]  
-> SASL 需要 TLS。 [允許 TLS 為選用] 可能會導致會話協商失敗。
+> SASL 要求 TLS。 允許為選用的 TLS，可能會造成失敗的工作階段交涉。
 
 
 </div></td>
@@ -160,12 +160,12 @@ XMPP 合作夥伴設定中協商類型的設定有多種可能的組合。 並�
 <tr class="odd">
 <td><p>不支援</p></td>
 <td><p>必要</p></td>
-<td><p>滿足</p></td>
+<td><p>True</p></td>
 <td><p>TCP 回撥</p></td>
 <td><div>
 
 > [!WARNING]  
-> SASL 需要 TLS。 [允許 TLS 為選用] 可能會導致會話協商失敗。
+> SASL 要求 TLS。 允許為選用的 TLS，可能會造成失敗的工作階段交涉。
 
 
 </div></td>
@@ -173,45 +173,45 @@ XMPP 合作夥伴設定中協商類型的設定有多種可能的組合。 並�
 <tr class="even">
 <td><p>不支援</p></td>
 <td><p>必要</p></td>
-<td><p>虛假</p></td>
+<td><p>False</p></td>
 <td><div>
 
 > [!WARNING]  
-> 不正確設定
+> 無效組態
 
 
 </div></td>
 <td><div>
 
 > [!WARNING]  
-> 因為 SASL 需要 TLS，而且 TLS 無法使用，所以 SASL/TLS 無法成功。 TCP 回撥是設定為 false，而且無法使用。
+> 因為 SASL 需要 TLS、 TLS 不提供，SASL/TLS 無法成功。 TCP 回撥設定為 false，並無法使用。
 
 
 </div></td>
 </tr>
 <tr class="odd">
 <td><p>必要</p></td>
-<td><p>選用</p></td>
-<td><p>滿足</p></td>
-<td><p>TLS 上的 SASL，TLS 回撥</p></td>
+<td><p>選擇性</p></td>
+<td><p>True</p></td>
+<td><p>SASL 優於 TLS、 TLS 回撥</p></td>
 <td></td>
 </tr>
 <tr class="even">
 <td><p>必要</p></td>
-<td><p>選用</p></td>
-<td><p>虛假</p></td>
-<td><p>TLS 之上的 SASL</p></td>
+<td><p>選擇性</p></td>
+<td><p>False</p></td>
+<td><p>SASL 優於 TLS</p></td>
 <td></td>
 </tr>
 <tr class="odd">
 <td><p>選用</p></td>
 <td><p>選用</p></td>
-<td><p>滿足</p></td>
-<td><p>TLS 上的 SASL、TLS 回撥、TCP 回撥</p></td>
+<td><p>True</p></td>
+<td><p>SASL 優於 TLS、 TLS 回撥、 TCP 回撥</p></td>
 <td><div>
 
 > [!WARNING]  
-> SASL 需要 TLS。 [允許 TLS 為選用] 可能會導致會話協商失敗。
+> SASL 要求 TLS。 允許為選用的 TLS，可能會造成失敗的工作階段交涉。
 
 
 </div></td>
@@ -219,12 +219,12 @@ XMPP 合作夥伴設定中協商類型的設定有多種可能的組合。 並�
 <tr class="even">
 <td><p>選用</p></td>
 <td><p>選用</p></td>
-<td><p>虛假</p></td>
-<td><p>TLS 之上的 SASL</p></td>
+<td><p>False</p></td>
+<td><p>SASL 優於 TLS</p></td>
 <td><div>
 
 > [!WARNING]  
-> SASL 需要 TLS。 [允許 TLS 為選用] 可能會導致會話協商失敗。
+> SASL 要求 TLS。 允許為選用的 TLS，可能會造成失敗的工作階段交涉。
 
 
 </div></td>
@@ -232,12 +232,12 @@ XMPP 合作夥伴設定中協商類型的設定有多種可能的組合。 並�
 <tr class="odd">
 <td><p>不支援</p></td>
 <td><p>選用</p></td>
-<td><p>滿足</p></td>
+<td><p>True</p></td>
 <td><p>TCP 回撥</p></td>
 <td><div>
 
 > [!WARNING]  
-> SASL 需要 TLS。 [允許 TLS 為選用] 可能會導致會話協商失敗。
+> SASL 要求 TLS。 允許為選用的 TLS，可能會造成失敗的工作階段交涉。
 
 
 </div></td>
@@ -245,18 +245,18 @@ XMPP 合作夥伴設定中協商類型的設定有多種可能的組合。 並�
 <tr class="even">
 <td><p>不支援</p></td>
 <td><p>選用</p></td>
-<td><p>虛假</p></td>
+<td><p>False</p></td>
 <td><div>
 
 > [!WARNING]  
-> 不正確設定
+> 無效組態
 
 
 </div></td>
 <td><div>
 
 > [!WARNING]  
-> SASL 需要 TLS。 [允許 TLS 為選用] 可能會導致會話協商失敗。
+> SASL 要求 TLS。 允許為選用的 TLS，可能會造成失敗的工作階段交涉。
 
 
 </div></td>
@@ -264,19 +264,19 @@ XMPP 合作夥伴設定中協商類型的設定有多種可能的組合。 並�
 <tr class="odd">
 <td><p>必要</p></td>
 <td><p>不支援</p></td>
-<td><p>滿足</p></td>
+<td><p>True</p></td>
 <td><p>TLS 回撥</p></td>
-<td><p>[配置] 允許 TLS 回撥。</p></td>
+<td><p>組態可用於 TLS 回撥。</p></td>
 </tr>
 <tr class="even">
 <td><p>必要</p></td>
 <td><p>不支援</p></td>
-<td><p>虛假</p></td>
-<td><p>不正確設定</p></td>
+<td><p>False</p></td>
+<td><p>無效組態</p></td>
 <td><div>
 
 > [!WARNING]  
-> 必須啟用 SASL 或回撥。
+> SASL 或回撥必須啟用。
 
 
 </div></td>
@@ -284,19 +284,19 @@ XMPP 合作夥伴設定中協商類型的設定有多種可能的組合。 並�
 <tr class="odd">
 <td><p>選用</p></td>
 <td><p>不支援</p></td>
-<td><p>滿足</p></td>
-<td><p>TLS 回撥，TCP 回撥</p></td>
-<td><p>根據另一個端點的協商選項，將會接受 TCP 或 TLS 回撥。</p></td>
+<td><p>True</p></td>
+<td><p>TLS 回撥、 TCP 回撥</p></td>
+<td><p>根據其他端點的交涉選擇，TCP 或 TLS 回撥將被接受。</p></td>
 </tr>
 <tr class="even">
 <td><p>選用</p></td>
 <td><p>不支援</p></td>
-<td><p>虛假</p></td>
-<td><p>不正確設定</p></td>
+<td><p>False</p></td>
+<td><p>無效組態</p></td>
 <td><div>
 
 > [!WARNING]  
-> 必須啟用 SASL 或回撥。
+> SASL 或回撥必須啟用。
 
 
 </div></td>
@@ -304,19 +304,19 @@ XMPP 合作夥伴設定中協商類型的設定有多種可能的組合。 並�
 <tr class="odd">
 <td><p>不支援</p></td>
 <td><p>不支援</p></td>
-<td><p>滿足</p></td>
+<td><p>True</p></td>
 <td><p>TCP 回撥</p></td>
-<td><p>TCP 回撥是唯一可用的協商方法</p></td>
+<td><p>TCP 回撥是可用的唯一的交涉方法</p></td>
 </tr>
 <tr class="even">
 <td><p>不支援</p></td>
 <td><p>不支援</p></td>
-<td><p>虛假</p></td>
-<td><p>不正確設定</p></td>
+<td><p>False</p></td>
+<td><p>無效組態</p></td>
 <td><div>
 
 > [!WARNING]  
-> 必須啟用 SASL 或回撥。
+> SASL 或回撥必須啟用。
 
 
 </div></td>

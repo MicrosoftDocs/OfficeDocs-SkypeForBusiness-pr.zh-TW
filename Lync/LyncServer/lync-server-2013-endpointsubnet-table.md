@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：EndpointSubnet 表格
+title: 'Lync Server 2013: EndpointSubnet 表格'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185514
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 055aa9460fb63e96d20472d6102c249ecf71a78b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 94e457eefed95eb813f49675b8f1c479e124bee8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735593"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042200"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41735593"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-02_
+_**主題上次修改日期：** 2012年-10-02_
 
-EndpointSubnet 資料表是支援資料表。 每個記錄代表一個從端點捕獲的子網。
+EndpointSubnet 表格是一種支援資料表。 每筆記錄代表一個端點從擷取的子網路。
 
 
 <table>
@@ -49,9 +49,9 @@ EndpointSubnet 資料表是支援資料表。 每個記錄代表一個從端點�
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>左欄</strong></th>
+<th><strong>欄</strong></th>
 <th><strong>資料類型</strong></th>
-<th><strong>索引鍵/索引</strong></th>
+<th><strong>主索引鍵 /</strong></th>
 <th><strong>詳細資料</strong></th>
 </tr>
 </thead>
@@ -60,13 +60,13 @@ EndpointSubnet 資料表是支援資料表。 每個記錄代表一個從端點�
 <td><p><strong>SubnetIP</strong></p></td>
 <td><p>int</p></td>
 <td><p>主要、外部</p></td>
-<td><p>子網的整數表示。</p></td>
+<td><p>子網路的整數表示。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>NextUpdateTS</strong></p></td>
 <td><p>datetime</p></td>
 <td></td>
-<td><p>僅供內部使用。</p></td>
+<td><p>僅限內部使用。</p></td>
 </tr>
 </tbody>
 </table>

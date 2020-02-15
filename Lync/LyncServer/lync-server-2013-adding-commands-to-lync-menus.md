@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：將命令新增至 Lync 功能表
+title: Lync Server 2013： 將命令新增至 Lync 功能表
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185091
 ms.date: 04/11/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b1cbce99116159d119eaa604b7000764913b3cbe
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 96a0df07a44392857f4384a1285245229874cdaa
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738173"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038605"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="adding-commands-to-lync-menus-in-lync-server-2013"></a>在 Lync Server 2013 中將命令新增至 Lync 功能表
+# <a name="adding-commands-to-lync-menus-in-lync-server-2013"></a>將命令新增至 Lync Server 2013 中的 Lync 功能表
 
 </div>
 
@@ -35,45 +35,45 @@ ms.locfileid: "41738173"
 
 <span> </span>
 
-_**主題上次修改日期：** 2016-04-11_
+_**主題上次修改日期：** 2016年-04-11_
 
-您可以將自訂命令新增到 Lync 2013 功能表，並將目前使用者的 SIP 統一資源識別項（URI）傳遞給自訂命令啟動的應用程式。
+您可以將自訂命令新增至 Lync 2013 功能表，並將 SIP 統一資源識別元 (URI) 的目前使用者] 和 [所選的連絡人傳遞至自訂命令啟動的應用程式。
 
-您新增的自訂命令可以出現在下列一或多個功能表上：
+您新增的自訂命令可以出現在一或多個下列功能表上：
 
-  - Lync 主視窗之功能表列上的 [工具] 功能表
+  - [工具] 功能表上的功能表列，在 Lync 主視窗
 
-  - 連絡人清單中連絡人的快捷方式功能表
+  - 在 [連絡人] 清單中的連絡人快顯功能表
 
-  - [交談] 視窗中的 [更多選項] 功能表
+  - [更多選項] 功能表中 [交談] 視窗
 
-  - [交談] 視窗參與者清單中所列人員的快捷方式功能表
+  - 在 [交談] 視窗參與者清單中所列人員快顯功能表
 
-  - 連絡人卡片中的 [選項] 功能表
+  - [選項] 功能表中的連絡人卡片
 
-您可以為兩種類型的應用程式定義自訂命令，即執行下列其中一項的應用程式：
+您可以定義自訂命令以兩種類型的應用程式-應用程式，執行下列其中一項：
 
-  - 僅適用于目前的使用者，且已在本機電腦上啟動。
+  - 僅適用於目前的使用者和本機電腦上啟動。
 
-  - 涉及其他使用者（例如線上共同作業程式），而且必須在每個使用者的電腦上啟動。
+  - 包含其他使用者，例如線上共同作業的程式，且必須每位使用者的電腦上啟動。
 
-您可以使用下列方式來呼叫自訂命令：
+可以透過下列方式叫用自訂命令：
 
-  - 選取一或多個使用者，然後選擇 [自訂] 命令。
+  - 選取一或多個使用者，然後選擇 [自訂命令。
 
-  - 啟動兩方或多方交談，然後選擇 [自訂] 命令。
+  - 啟動雙方或多方交談，，，然後選擇自訂命令。
 
 <div>
 
-## <a name="to-add-a-custom-command"></a>新增自訂命令
+## <a name="to-add-a-custom-command"></a>若要新增自訂命令
 
-使用下表中的登錄設定，將命令新增至功能表中。 這些專案會放在登錄的下列其中一個位置：
+使用下表中的登錄設定，可將命令新增至功能表。 這些項目會放置在登錄的下列位置：
 
-  - 針對32位 OS：\_HKEY\_LOCAL\\機器\\軟體\\Microsoft\\Office\\15.0\\Lync\\SessionManager 應用程式
+  - 針對 32 位元作業系統： HKEY\_本機\_機器\\軟體\\Microsoft\\Office\\15.0\\Lync\\SessionManager\\應用程式
 
-  - 若是64位 OS：\_HKEY\_LOCAL\\機器\\軟體\\Wow6432Node\\Microsoft\\Office\\15.0\\Lync\\SessionManager 應用程式
+  - 針對 64 位元的作業系統： HKEY\_本機\_機器\\軟體\\Wow6432Node\\Microsoft\\Office\\15.0\\Lync\\SessionManager\\應用程式
 
-### <a name="custom-command-registry-entries"></a>自訂命令登錄專案
+### <a name="custom-command-registry-entries"></a>自訂命令登錄項目
 
 <table>
 <colgroup>
@@ -84,20 +84,20 @@ _**主題上次修改日期：** 2016-04-11_
 <thead>
 <tr class="header">
 <th>名稱</th>
-<th>類型</th>
-<th>資料</th>
+<th>Type</th>
+<th>Data (資料)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>名稱</p></td>
+<td><p>姓名</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>出現在功能表上的應用程式名稱。</p></td>
+<td><p>顯示在功能表上的應用程式名稱。</p></td>
 </tr>
 <tr class="even">
 <td><p>ApplicationType</p></td>
-<td><p>雙倍</p></td>
-<td><p>0 = 可執行檔（預設值）</p>
+<td><p>DWORD</p></td>
+<td><p>0 = 可執行檔 （預設值）</p>
 <div>
 
 > [!NOTE]  
@@ -114,7 +114,7 @@ _**主題上次修改日期：** 2016-04-11_
 <div>
 
 > [!NOTE]  
-> 如果 ApplicationType 為0（可執行），則必須指定。
+> 必須指定是否 ApplicationType 為 0 （可執行檔）。
 
 
 </div></td>
@@ -122,31 +122,31 @@ _**主題上次修改日期：** 2016-04-11_
 <tr class="even">
 <td><p>路徑</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>要與任何參數一起開始的完整路徑，包括預設參數<em>% user id%</em>與<em>% contact id%</em>。</p></td>
+<td><p>為與任何參數，包括預設參數<em>%使用者識別碼 %</em>和<em>%連絡人識別碼 %</em>一起啟動的完整路徑。</p></td>
 </tr>
 <tr class="odd">
 <td><p>SessionType</p></td>
-<td><p>雙倍</p></td>
-<td><p>0 = 本機會話。 應用程式是在本機電腦上啟動。</p>
-<p>1 = 兩方會話（預設）。 Lync 2013 會在本機啟動應用程式，然後將桌面通知傳送給其他使用者。 其他使用者按一下通知，即可在他們的電腦上啟動應用程式。</p>
-<p>2 = 多方會話。 Lync 2013 會在本機啟動應用程式，然後將桌面通知傳送給其他使用者。 其他使用者按一下通知，即可在他們的電腦上啟動指定的應用程式。</p></td>
+<td><p>DWORD</p></td>
+<td><p>0 = 本機工作階段。在本機電腦上啟動應用程式。</p>
+<p>1 = 兩方工作階段 (預設)。 Lync 2013 啟動本機的應用程式，並再將桌面通知傳送給其他使用者。 其他使用者點選其電腦上啟動應用程式的通知。</p>
+<p>2 = 多方工作階段。 Lync 2013 啟動本機的應用程式，並再將桌面通知傳送給其他使用者。 其他使用者按一下通知給他們的電腦上啟動指定的應用程式。</p></td>
 </tr>
 <tr class="even">
 <td><p>ExtensibleMenu</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>出現此命令的功能表清單，並以分號分隔。 可能的值包括：</p>
+<td><p>此命令將會出現的位置，功能表清單以分號分隔。 可能的值有：</p>
 <p>MainWindowActions</p>
 <p>MainWindowRightClick</p>
 <p>ConversationWindowActions</p>
 <p>ConversationWindowRightClick</p>
 <p>ContactCardMenu</p>
-<p>如果未定義 ExtensibleMenu，則會使用 MainWindowRightClick 和 ConversationWindowActions 的預設值。</p></td>
+<p>如果沒有定義 ExtensibleMenu ，會使用 MainWindowRightClick 和 ConversationWindowActions 的預設值。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-例如，下列登錄編輯程式（。REG）檔案會顯示在 [交談] 視窗中新增 Contoso [銷售連絡人管理員] 功能表項目到 [動作] 功能表的結果：
+例如，下列登錄編輯程式 (。登錄） 檔案會顯示將 Contoso Sales Contact Manager 功能表項目新增至 [交談] 視窗中的 [動作] 功能表的結果：
 
     Windows Registry Editor Version 5.00
     [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Office\15.0\Lync\SessionManager\Apps\{1F9F07C6-7E0B-462B-AAD7-98C6DBEA8F69}]
@@ -164,15 +164,15 @@ _**主題上次修改日期：** 2016-04-11_
 
 ## <a name="to-access-a-custom-command"></a>若要存取自訂命令
 
-若要在新增自訂命令之後存取它，請根據您定義的 ExtensibleMenu 值，執行下列其中一項操作：
+若要存取自訂命令後就當簡報加入，執行下列命令，根據您定義的 ExtensibleMenu 值其中一項：
 
-  - **MainWindowActions**   在 Lync 主視窗中，按一下 [**工具**]，然後按一下您的自訂命令。
+  - **MainWindowActions**   在 Lync 主視窗中，按一下 [**工具**]，然後按一下 [您的自訂命令。
 
-  - **MainWindowRightClick**   在 Lync 主視窗中，以滑鼠右鍵按一下連絡人，然後按一下您的自訂命令。
+  - **MainWindowRightClick**   在 Lync 主視窗中，以滑鼠右鍵按一下連絡人，，，然後按一下 [您的自訂命令。
 
-  - **ConversationWindowActions**   在交談視窗中，按一下 [**更多選項**] 圖示，然後按一下您的自訂命令。
+  - **ConversationWindowActions**   中 [交談] 視窗中，按一下 [**更多選項**] 圖示，然後按一下 [您的自訂命令。
 
-  - **ConversationWindowRightClick**   在交談視窗中，以滑鼠右鍵按一下連絡人名稱，然後按一下您的自訂命令。
+  - **ConversationWindowRightClick**   在 [交談] 視窗中，以滑鼠右鍵按一下連絡人名稱，，，然後按一下 [您的自訂命令。
 
 </div>
 

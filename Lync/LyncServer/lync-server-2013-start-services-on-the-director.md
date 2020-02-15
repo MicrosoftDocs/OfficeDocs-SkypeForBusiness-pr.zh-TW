@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：在 Director 上啟動服務
+title: Lync Server 2013： 在 Director 上啟動服務
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183351
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b15b1285fa81f59c2b0a116e8ee80eeee2e8e952
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 94d4ab3755739742f96cb2b0f4377d4059d63bfd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731823"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038765"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="start-services-on-the-director-in-lync-server-2013"></a>在 Lync Server 2013 中的 Director 上啟動服務
+# <a name="start-services-on-the-director-in-lync-server-2013"></a>Lync Server 2013 中在 Director 上啟動服務
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41731823"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-09-08_
+_**主題上次修改日期：** 2012年-09-08_
 
-安裝本機配置存放區後，安裝 Lync Server 元件，並在 Director 上設定憑證之後，您必須在伺服器上啟動 Lync Server services。 您可以使用下列程式，在您的部署中的每個控制器上啟動服務。
+安裝本機設定存放區、 安裝 Lync Server 元件]，並在 Director 上設定憑證之後，您必須在伺服器上啟動 Lync Server 服務。 您可以使用下列程序，在您部署中的每個 Director 上啟動服務。
 
 <div>
 
-## <a name="to-start-services-on-a-director"></a>在主管上啟動服務
+## <a name="to-start-services-on-a-director"></a>若要在 Director 上啟動服務
 
-1.  在 Lync Server 部署嚮導中，在 [ **Lync server 2013** ] 頁面上，按一下 [**步驟4：啟動服務**] 旁的 [**執行**] 按鈕。
+1.  在 [Lync Server 部署精靈] [ **Lync Server 2013** ] 頁面上，按一下 [**執行**] 按鈕旁**步驟 4： 啟動服務**。
 
-2.  在 [**啟動服務**] 頁面上，按一下 **[下一步]** ，即可在伺服器上啟動 Lync Server Services。
+2.  在 [**啟動服務**] 頁面上，按 [**下一步**若要在伺服器上啟動 Lync Server 服務。
 
-3.  在 [**執行命令**] 頁面上，已成功啟動所有服務之後，按一下 **[完成]**。
+3.  在「執行命令」**** 頁面上順利啟動所有服務之後，按一下 **[完成]**。
 
-4.  在**步驟4：啟動服務**，按一下 **[服務狀態] （選用）**。
+4.  在 **[步驟 4：啟動服務]** 下，按一下 **[服務狀態 (選擇性)]**。
 
-5.  在伺服器上的 [**服務**Microsoft Management CONSOLE （MMC）] 中，確認所有的 Lync server 2013 服務都在執行中。
+5.  在 [**服務**Microsoft Management Console (MMC) 的伺服器上，確認所有 Lync Server 2013 服務都在執行。
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：DeRegisterType 表格
+title: 'Lync Server 2013: DeRegisterType 表格'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183346
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 65c94513a3578f8608da555cdd0b3e2273b8a7da
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 915a5d0a2c5c4a5f38063b56dc133d2558aa65ac
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762531"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042170"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41762531"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-09-28_
+_**主題上次修改日期：** 2012年-09-28_
 
-DeRegisterType 資料表是一個靜態資料表，它儲存可能的使用者取消註冊類型（例如「用戶端已啟動」、「註冊已過期」或「用戶端已停止回應」）清單。
+DeRegisterType 表格是靜態表格，可儲存使用者取消註冊可能類型的清單 (如「由用戶端起始」、「註冊到期」或「用戶端停止回應」)。
 
 
 <table>
@@ -49,32 +49,32 @@ DeRegisterType 資料表是一個靜態資料表，它儲存可能的使用者�
 </colgroup>
 <thead>
 <tr class="header">
-<th>左欄</th>
+<th>欄</th>
 <th>資料類型</th>
-<th>索引鍵/索引</th>
+<th>主索引鍵 /</th>
 <th>詳細資料</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>DeRegisterTypeId</strong></p></td>
-<td><p>Tinyint</p></td>
-<td><p>首選</p></td>
+<td><p>tinyint</p></td>
+<td><p>主要</p></td>
 <td></td>
 </tr>
 <tr class="even">
 <td><p><strong>DeRegisterReason</strong></p></td>
-<td><p>Nvarchar （256）</p></td>
+<td><p>nvarchar(256)</p></td>
 <td></td>
 <td><p>允許的值：</p>
 <ul>
-<li><p>0--未知</p></li>
-<li><p>1--用戶端啟動取消註冊</p></li>
-<li><p>2--註冊已過期</p></li>
-<li><p>3-用戶端發生故障</p></li>
-<li><p>4--使用者屬性已變更</p></li>
-<li><p>5-首選註冊機構已變更</p></li>
-<li><p>6--生存模式中的舊版用戶端</p></li>
+<li><p>0 -- 不明</p></li>
+<li><p>1 -- 由用戶端起始取消註冊</p></li>
+<li><p>2 -- 註冊到期</p></li>
+<li><p>3 – 用戶端損毀</p></li>
+<li><p>4 -- 使用者屬性變更</p></li>
+<li><p>5 – 慣用的登錄器變更</p></li>
+<li><p>6 -- 舊版用戶端處於生存模式</p></li>
 </ul></td>
 </tr>
 </tbody>

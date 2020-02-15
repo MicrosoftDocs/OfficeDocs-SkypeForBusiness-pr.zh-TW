@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：自訂 XSLT 定義檔案
+title: Lync Server 2013： 自訂 XSLT 定義檔
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49557733
 ms.date: 09/11/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bf2ab41ed1d9a57f3a3ad5e55e78f46055fc8e87
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7652e2bd31f27c711724e67f67aac29d33038606
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728703"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041072"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="customizing-the-xslt-definition-file-in-lync-server-2013"></a>在 Lync Server 2013 中自訂 XSLT 定義檔案
+# <a name="customizing-the-xslt-definition-file-in-lync-server-2013"></a>自訂 Lync Server 2013 中的 XSLT 定義檔
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "41728703"
 
 <span> </span>
 
-_**主題上次修改日期：** 2014-09-11_
+_**上次修改主題：** 2014年-09-11_
 
-合規性服務會記錄及歸檔與每個 Lync Server 2013 （持續聊天伺服器交談）相關的資料，包括參與者：
+規範服務記錄及封存與每個 Lync Server 2013，Persistent Chat Server 交談，包括參與者相關的資料：
 
-  - 加入持久聊天室
+  - 聯結常設聊天室會議室
 
   - 離開聊天室
 
   - 張貼訊息
 
-  - 查看聊天記錄
+  - 檢視聊天歷程記錄
 
   - 上傳檔案
 
   - 下載檔案
 
-資料會以 XML 形式傳送，您可以使用 XSLT 定義檔，將其轉換成最符合您組織的格式。 本主題描述合規性服務所建立的 XML 檔案。 它也提供 XSLT 定義和輸出檔案的範例。
+資料會以 XML 提供，您可以使用 XSLT 定義檔，將其轉換成最適合您組織的格式。本主題說明規範服務所建立的 XML 檔案。另外也有提供 XSLT 定義及輸出檔範例。
 
 <div>
 
 ## <a name="output-format"></a>輸出格式
 
-合規性服務輸出是依交談（交談元素），然後依訊息（Messages 元素）來分類，如下列程式碼範例所示。
+規範服務輸出會先依交談 (Conversation 元素) 分類，再依訊息 (Messages 元素) 分類，如下列程式碼範例所示。
 
     <?xml version="1.0" encoding="utf-8" ?> 
     <Conversations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
@@ -72,23 +72,23 @@ _**主題上次修改日期：** 2014-09-11_
       </Conversation>
     </Conversations>
 
-交談元素包含四個元素（通道、FirstMessage、StartTimeUTC 和 EndTimeUTC）。 通道元素包含聊天室的統一資源識別項（URI），而 FirstMessage 元素則說明 Messages 元素中的第一封郵件。 StartTimeUTC 和 EndTimeUTC 元素會提供交談的開始和結束時間，如下列程式碼範例所示。
+Conversation 元素包含四個元素 (Channel、FirstMessage、StartTimeUTC 及 EndTimeUTC)。Channel 元素包含聊天室的統一資源識別項 (URI)，而 FirstMessage 元素會描述 Messages 元素中的第一則訊息。StartTimeUTC 及 EndTimeUTC 元素提供交談的開始和結束時間，如下列程式碼範例所示。
 
     <<FirstMessage type="JOIN" content="" id="0">
           <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
           <DateTimeUTC since1970="1212610540953" string="2008-06-04T20:15:40.9535482Z" long="633482073409535482" /> 
     </FirstMessage>
 
-Message 元素包含兩個元素（寄件者與 DateTimeUTC）和三個屬性（類型、內容和識別碼）。 Sender 元素代表傳送訊息的使用者，而 DateTimeUTC 元素則代表事件發生的時間，如下列程式碼範例所示。
+Message 元素包含兩個元素 (Sender 和 DateTimeUTC) 及三個屬性 (Type、Content 和 ID)。Sender 元素代表傳送訊息的使用者，而 DateTimeUTC 元素代表事件發生的時間，如下列程式碼範例所示。
 
     <Message type="JOIN" content="" id="0">
       <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
       <DateTimeUTC since1970="1206211842612" string="2008-03-22T18:50:42.6127374Z" long="633418086426127374" /> 
     </Message>
 
-下表說明訊息屬性類型、內容和識別碼。
+下表描述訊息屬性 Type、 Content 及 id。
 
-### <a name="messages-element-attributes"></a>郵件元素屬性
+### <a name="messages-element-attributes"></a>Messages 元素屬性
 
 <table>
 <colgroup>
@@ -98,34 +98,34 @@ Message 元素包含兩個元素（寄件者與 DateTimeUTC）和三個屬性（
 </colgroup>
 <thead>
 <tr class="header">
-<th>Attribute</th>
-<th>說明</th>
-<th>選擇性/必要</th>
+<th>屬性</th>
+<th>描述</th>
+<th>選用/必要</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>類型</p></td>
-<td><p>指定郵件類型。 訊息類型將在 [訊息元素] 訊息類型資料表中說明。</p></td>
+<td><p>Type</p></td>
+<td><p>指定訊息類型。訊息類型描述在「訊息元素訊息類型」表格中。</p></td>
 <td><p>必要</p></td>
 </tr>
 <tr class="even">
 <td><p>內容</p></td>
-<td><p>包含郵件的內容。 含有連線類型或元件的訊息，不會使用此屬性。</p></td>
+<td><p>包含訊息內容。Type 為 Join 或 Part 的訊息不使用此屬性。</p></td>
 <td><p>選用</p></td>
 </tr>
 <tr class="odd">
-<td><p>標識號</p></td>
-<td><p>指定內容的唯一識別碼。 這個屬性只會與聊天類型的訊息搭配使用。</p></td>
+<td><p>ID</p></td>
+<td><p>指定內容的唯一識別碼。此屬性僅用於 Type 為 Chat 的訊息。</p></td>
 <td><p>選用</p></td>
 </tr>
 </tbody>
 </table>
 
 
-每個寄件者元素都包含五個屬性：使用者名稱、識別碼、電子郵件、內部和 URI。 下表說明這些屬性。
+每個 Sender 元素都包含五個屬性：user name、ID、email、internal 和 URI。這些屬性的說明如下表。
 
-### <a name="sender-element-attributes"></a>寄件者元素屬性
+### <a name="sender-element-attributes"></a>Sender 元素屬性
 
 <table>
 <colgroup>
@@ -135,34 +135,34 @@ Message 元素包含兩個元素（寄件者與 DateTimeUTC）和三個屬性（
 </colgroup>
 <thead>
 <tr class="header">
-<th>Attribute</th>
-<th>說明</th>
-<th>選擇性/必要</th>
+<th>屬性</th>
+<th>描述</th>
+<th>選用/必要</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Username</p></td>
-<td><p>寄件者的名稱。</p></td>
+<td><p>使用者名稱</p></td>
+<td><p>傳送者的名稱。</p></td>
 <td><p>選用</p></td>
 </tr>
 <tr class="even">
-<td><p>標識號</p></td>
-<td><p>寄件者的唯一識別碼。</p></td>
+<td><p>ID</p></td>
+<td><p>傳送者的唯一識別碼。</p></td>
 <td><p>必要</p></td>
 </tr>
 <tr class="odd">
 <td><p>電子郵件</p></td>
-<td><p>寄件者的電子郵件地址。</p></td>
+<td><p>傳送者的電子郵件地址。</p></td>
 <td><p>選用</p></td>
 </tr>
 <tr class="even">
 <td><p>內部</p></td>
-<td><p>判斷使用者是否為內部使用者或同盟使用者。 如果該值設定為 true，則使用者為 internal。</p></td>
+<td><p>決定使用者為內部使用者或同盟使用者。如果該值設為 true，則為內部使用者。</p></td>
 <td><p>選用</p></td>
 </tr>
 <tr class="odd">
-<td><p>Url</p></td>
+<td><p>Uri</p></td>
 <td><p>使用者的 SIP URI。</p></td>
 <td><p>必要</p></td>
 </tr>
@@ -170,9 +170,9 @@ Message 元素包含兩個元素（寄件者與 DateTimeUTC）和三個屬性（
 </table>
 
 
-下表說明 Messages 元素可包含的郵件類型。 它也提供如何使用每個元素的範例。
+下表說明 Messages 元素可包含的訊息類型。其中也提供各元素的用法範例。
 
-### <a name="message-element-message-types"></a>郵件元素訊息類型
+### <a name="message-element-message-types"></a>Message 元素訊息類型
 
 <table>
 <colgroup>
@@ -182,14 +182,14 @@ Message 元素包含兩個元素（寄件者與 DateTimeUTC）和三個屬性（
 </colgroup>
 <thead>
 <tr class="header">
-<th>郵件類型</th>
-<th>說明</th>
+<th>如果郵件類型</th>
+<th>描述</th>
 <th>程式碼範例</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>起來</p></td>
+<td><p>加入</p></td>
 <td><p>使用者加入聊天室。</p></td>
 <td><pre><code>&lt;Message type=&quot;JOIN&quot; content=&quot;&quot; id=&quot;0&quot;&gt;
   &lt;Sender UserName=&quot;TestUser kazuto&quot; id=&quot;10&quot; email=&quot;kazuto@litwareinc.com&quot; internal=&quot;true&quot; uri=&quot;kazuto@litwareinc.com&quot; /&gt; 
@@ -197,7 +197,7 @@ Message 元素包含兩個元素（寄件者與 DateTimeUTC）和三個屬性（
 &lt;/Message</code></pre></td>
 </tr>
 <tr class="even">
-<td><p>部件</p></td>
+<td><p>部分</p></td>
 <td><p>使用者離開聊天室。</p></td>
 <td><pre><code>&lt;Message type=&quot;PART&quot; content=&quot;&quot; id=&quot;0&quot;&gt;
   &lt; Sender UserName=&quot;TestUser kazuto&quot; id=&quot;10&quot; email=&quot;kazuto@litwareinc.com&quot; internal=&quot;true&quot; uri=&quot;kazuto@litwareinc.com&quot; /&gt; 
@@ -206,22 +206,22 @@ Message 元素包含兩個元素（寄件者與 DateTimeUTC）和三個屬性（
 </tr>
 <tr class="odd">
 <td><p>聊天</p></td>
-<td><p>寄件者的電子郵件地址。</p></td>
+<td><p>傳送者的電子郵件地址。</p></td>
 <td><pre><code>&lt;Message type=&quot;CHAT&quot; content=&quot;hello&quot; id=&quot;1&quot;&gt;
   &lt;Sender UserName=&quot;TestUser kazuto&quot; id=&quot;10&quot; email=&quot;kazuto@litwareinc.com&quot; internal=&quot;true&quot; uri=&quot;kazuto@litwareinc.com&quot; /&gt; 
   &lt;DateTimeUTC since1970=&quot;1205351800522&quot; string=&quot;2008-03-12T19:56:40.522264Z&quot; long=&quot;633409486005222640&quot; /&gt; 
 &lt;/Message&gt;</code></pre></td>
 </tr>
 <tr class="even">
-<td><p>Backchat</p></td>
-<td><p>使用者要求聊天記錄中的內容。</p></td>
+<td><p>討論串</p></td>
+<td><p>使用者要求聊天歷程記錄中的內容。</p></td>
 <td><pre><code>&lt;Message type=&quot;BACKCHAT&quot; content=&quot;backchatcontent&quot; id=&quot;0&quot;&gt;
   &lt;Sender UserName=&quot;TestUser kazuto&quot; id=&quot;10&quot; email=&quot;kazuto@litwareinc.com&quot; internal=&quot;true&quot; uri=&quot;kazuto@litwareinc.com&quot; /&gt; 
   &lt;DateTimeUTC since1970=&quot;1206034385284&quot; string=&quot;2008-03-20T17:33:05.2841594Z&quot; long=&quot;633416311852841594&quot; /&gt; 
 &lt;/Message&gt;</code></pre></td>
 </tr>
 <tr class="odd">
-<td><p>檔案上傳</p></td>
+<td><p>File upload</p></td>
 <td><p>使用者上傳檔案。</p></td>
 <td><pre><code>&lt;Message type=&quot;FILEUPLOAD&quot; content=&quot;0988239a-bb66-4616-90a4-b07771a2097c.txt&quot; id=&quot;0&quot;&gt;
   &lt;Sender UserName=&quot;TestUser kazuto&quot; id=&quot;10&quot; email=&quot;kazuto@litwareinc.com&quot; internal=&quot;true&quot; uri=&quot;kazuto@litwareinc.com&quot; /&gt; 
@@ -229,7 +229,7 @@ Message 元素包含兩個元素（寄件者與 DateTimeUTC）和三個屬性（
 &lt;/Message&gt;</code></pre></td>
 </tr>
 <tr class="even">
-<td><p>檔案下載</p></td>
+<td><p>File download</p></td>
 <td><p>使用者下載檔案。</p></td>
 <td><pre><code>&lt;Message type=&quot;FILEDOWNLOAD&quot; content=&quot;006074ca-24f0-4b35-8bd8-98006a2d1aa8.txt&quot; id=&quot;0&quot;&gt;
   &lt;Sender UserName=&quot;kazuto@litwareinc.com&quot; id=&quot;10&quot; email=&quot;&quot; internal=&quot;true&quot; uri=&quot;kazuto@litwareinc.com&quot; /&gt; 
@@ -242,9 +242,9 @@ Message 元素包含兩個元素（寄件者與 DateTimeUTC）和三個屬性（
 
 <div>
 
-## <a name="default-persistent-chat-output-xsd-and-example-xsl-transform"></a>預設持續聊天輸出 XSD 和範例 XSL 轉換
+## <a name="default-persistent-chat-output-xsd-and-example-xsl-transform"></a>預設常設聊天輸出 XSD 及 XSL 轉換範例
 
-下列程式碼範例包含合規性伺服器的預設輸出。
+下列程式碼範例包含規範伺服器中的預設輸出。
 
     <?xml version="1.0" encoding="utf-8"?>
     <xs:schema id="Conversations"  xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
@@ -341,7 +341,7 @@ Message 元素包含兩個元素（寄件者與 DateTimeUTC）和三個屬性（
       </xs:element>
     </xs:schema>
 
-下列程式碼範例包含範例 XSL 轉換。
+下列程式碼範例包含 XSL 轉換範例。
 
     <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs">
        <xsl:output method="xml" encoding="UTF-8" indent="yes" />

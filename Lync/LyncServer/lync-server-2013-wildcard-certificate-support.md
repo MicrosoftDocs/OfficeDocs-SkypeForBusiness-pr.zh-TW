@@ -12,16 +12,16 @@ ms:contentKeyID: 48183382
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8a3e64dcfd16212e618a8ebe152bd2516a25b26d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 18b1313432cac09f03cd414b90d9a068f271edef
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727493"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041202"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,77 +35,77 @@ ms.locfileid: "41727493"
 
 <span> </span>
 
-_**主題上次修改日期：** 2013-03-21_
+_**上次修改主題：** 2013年-03-21_
 
-Lync Server 2013 使用憑證來提供通訊加密和伺服器身分識別驗證。 在某些情況下（例如透過反向 proxy 的 web 發佈），強主題替換名稱（SAN）專案與提供服務之伺服器的完整功能變數名稱（FQDN）不需要。 在這些情況下，您可以使用包含萬用字元 SAN 專案的憑證（通常稱為 "萬用字元"）來降低從公用憑證授權單位申請之憑證的成本，以及減少憑證規劃程式的複雜性.
+Lync Server 2013 使用憑證來提供通訊加密] 及 [server 身分識別驗證。 某些情況下，例如透過反向 Proxy 的 Web 發佈，不需要與代表服務之伺服器完整網域名稱 (FQDN) 相符的強式主體替代名稱 (SAN) 項目。 在這些情況下，您可以使用含萬用字元 SAN 項目的憑證 (一般稱為「萬用字元憑證」) 來降低從公用憑證授權單位要求憑證的成本，並能降低憑證的規劃程序複雜度。
 
 <div>
 
 
 > [!WARNING]  
-> 若要保留整合通訊（UC）裝置（例如，辦公桌電話）的功能，您應該仔細測試已部署的憑證，以確保在您執行萬用字元憑證後裝置正常運作。
+> 若要保留整合通訊 (UC) 裝置 (例如，電話機) 的功能，您應該仔細測試部署的憑證，確定實作萬用字元憑證之後，裝置的功能正常運作。
 
 
 
 </div>
 
-在任何角色中，都不支援萬用字元專案作為 subject 名稱（也稱為「公用名」或「CN」）。 使用 SAN 中的萬用字元專案時，支援下列伺服器角色：
+不支援將萬用字元項目做為任何角色的主體名稱 (又稱為一般名稱或 CN)。在 SAN 中使用萬用字元項目時，支援下列伺服器角色：
 
   - <span></span>  
-    **反向 proxy。**   對於簡單的 URL （達到及撥入）發行憑證，支援萬用字元 SAN 專案。
+    **反向 proxy。**   簡單 URL （meet 和 dialin） 發行的憑證可支援萬用字元 SAN 項目。
 
   - <span></span>  
-    **反向 proxy。**   LyncDiscover 發佈憑證上的 san 專案支援萬用字元 san 專案。
+    **反向 proxy。**   萬用字元 SAN 項目都支援 SAN 項目中的 LyncDiscover 發行的憑證。
 
   - <span></span>  
-    **導演。**   對於簡單的 url （達到及撥入），以及適用于 LyncDiscover 和 LyncDiscoverInternal 網頁元件的 SAN 專案，都支援萬用字元 san 專案。
+    **Director。**   萬用字元 SAN 項目支援簡單 Url （meet 和 dialin） 和 SAN 項目 LyncDiscover 和 LyncDiscoverInternal Director web 元件。
 
   - <span></span>  
-    **前端伺服器（標準版）和前端池（企業版）。** 對於簡單的 Url （達到及撥入），以及適用于 LyncDiscover 和 LyncDiscoverInternal （在前端網頁元件中）的 SAN 專案，都支援萬用字元 SAN 專案。
+    **前端伺服器 (Standard Edition) 及前端集區 (Enterprise Edition)。** 萬用字元 SAN 項目支援簡單 url （meet 和 dialin），和 SAN 項目 LyncDiscover 和 LyncDiscoverInternal 前方結束 web 元件。
 
   - <span></span>  
-    **Exchange 整合通訊（UM）。**   在部署成獨立伺服器時，伺服器不會使用 SAN 專案。
+    **Exchange 整合通訊 (UM)。**   伺服器不會使用 SAN 項目部署為獨立伺服器時。
 
   - <span></span>  
-    **Microsoft Exchange Server 用戶端存取伺服器。**   內部和外部用戶端支援 SAN 中的萬用字元專案。
+    **Microsoft Exchange Server 用戶端存取伺服器。**   內部和外部用戶端支援在 SAN 中的萬用字元項目。
 
   - <span></span>  
-    **Exchange 整合通訊（UM）與相同伺服器上的 Microsoft Exchange Server 用戶端存取伺服器。**   支援萬用字元 SAN 專案。
+    **在同一部伺服器上的 Exchange 整合通訊 (UM) 及 Microsoft Exchange Server 用戶端存取伺服器。**   支援萬用字元 SAN 項目。
 
-在本主題中未解決的伺服器角色：
+本主題中未介紹的伺服器角色：
 
-  - 內部伺服器角色（包括但不限於中繼伺服器、封存及監視伺服器、Survivable 分支裝置或 Survivable 分支伺服器）
+  - 內部伺服器角色 （包括，但不是限於中繼伺服器、 封存和監控伺服器、 Survivable Branch Appliance 或 Survivable Branch 伺服器）
 
-  - 外部邊緣伺服器介面
+  - 外部 Edge Server 介面
 
-  - 內部邊緣伺服器
+  - 內部 Edge Server
     
     <div>
     
 
     > [!NOTE]  
-    > 針對內部邊緣伺服器介面，您可以將萬用字元專案指派給 SAN，而且受支援。 不會查詢內部邊緣伺服器上的 SAN，且萬用字元 SAN 專案的值有限。
+    > 內部的 Edge Server 介面的萬用字元項目可以指派給 SAN (英文），並支援。 SAN (英文） 內部 Edge Server 上不在查詢中，而且萬用字元 SAN 項目時限制的值。
 
     
     </div>
 
-如需憑證設定的詳細資料，包括在憑證中使用萬用字元，請參閱下列主題：
+如需詳細資訊的憑證組態，包括萬用字元的使用中的憑證，請參閱下列主題：
 
-  - [Lync Server 2013 中內部伺服器的憑證需求](lync-server-2013-certificate-requirements-for-internal-servers.md)
+  - [適用於 Lync Server 2013 中的內部伺服器的憑證需求](lync-server-2013-certificate-requirements-for-internal-servers.md)
 
   - [Lync Server 2013 中的外部使用者存取的憑證需求](lync-server-2013-certificate-requirements-for-external-user-access.md)
 
-  - [Lync Server 2013 中的憑證摘要 - DNS 與 HLB 負載平衡](lync-server-2013-certificate-summary-dns-and-hlb-load-balanced.md)
+  - [憑證摘要-DNS 與 HLB 負載平衡 Lync Server 2013 中](lync-server-2013-certificate-summary-dns-and-hlb-load-balanced.md)
 
-  - [Lync Server 2013 中的憑證摘要 - 單一 Director](lync-server-2013-certificate-summary-single-director.md)
+  - [憑證摘要-Lync Server 2013 中的單一 Director](lync-server-2013-certificate-summary-single-director.md)
 
-  - [Lync Server 2013 中的憑證摘要 - 調整式 Director 集區 (硬體負載平衡器)](lync-server-2013-certificate-summary-scaled-director-pool-hardware-load-balancer.md)
+  - [憑證摘要-調整式 Director 集區、 Lync Server 2013 中的硬體負載平衡器](lync-server-2013-certificate-summary-scaled-director-pool-hardware-load-balancer.md)
 
-  - [Lync Server 2013 中的憑證摘要 - 反向 Proxy](lync-server-2013-certificate-summary-reverse-proxy.md)
+  - [憑證摘要-Lync Server 2013 中的反向 proxy](lync-server-2013-certificate-summary-reverse-proxy.md)
 
-  - [整合內部部署 Unified Messaging 和 Lync Server 2013 的指導方針](lync-server-2013-guidelines-for-integrating-on-premises-unified-messaging.md)
+  - [指導方針整合內部 Unified Messaging 和 Lync Server 2013](lync-server-2013-guidelines-for-integrating-on-premises-unified-messaging.md)
 
-如需針對 Exchange 設定憑證的詳細資料，包括萬用字元的使用，請參閱 Exchange 2013 產品檔。
+如需設定 Exchange，包括萬用字元，請使用憑證的詳細資訊請參閱 < Exchange 2013 產品的說明文件。
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：設定回應群組
+title: Lync Server 2013： 若要設定回應群組
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185359
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b94bc731ac00a4ff774930f506282b6aef16cbaa
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: eda955072f42989e6323ea6422d8b25736cf8c32
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739263"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041062"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,19 +35,19 @@ ms.locfileid: "41739263"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-30_
+_**主題上次修改日期：** 2012年-10-30_
 
-[回應] 群組是一個企業語音功能，可將來電路由並列隊給一組人員（例如服務台或客戶*服務台）。*
+回應群組是人員的路由和佇列來電給群組，稱為 「*代理程式*，例如服務台或客戶服務人員 Enterprise Voice 功能。
 
-當您部署企業語音時，會在前端伺服器或標準版伺服器上自動安裝及啟用回應群組所需的元件。 若要讓使用者使用 [回應群組]，您必須先設定 [代理群組]、[佇列]，然後再設定 [工作流程]。 此外，回應群組管理員可以將現有工作流程的設定委派給回應群組管理員，然後可以修改及重新設定工作流程及其關聯的代理群組和佇列。
+「回應群組」所需的元件，會在您部署企業語音時自動安裝於前端伺服器或 Standard Edition Server 上並啟用。 若要讓使用者能夠使用「回應群組」，您必須依序設定專員群組、佇列和工作流程。 此外，回應群組管理員可委派給現有的工作流程至回應群組管理員，可以再修改及重新設定工作流程和其相關聯的代理群組和佇列的組態。
 
-本節將引導您完成 Lync Server 2013 回應群組的設定。 它假設您已閱讀與回應群組相關的規劃區段，並已部署企業版伺服器或使用企業語音的標準版伺服器。
+本節會引導您完成的 Lync Server 2013 回應群組組態。 假設您已經閱讀規劃章節與回應群組，並且已部署 Enterprise Edition 伺服器或 Standard Edition 伺服器與 Enterprise Voice。
 
 <div>
 
 
 > [!TIP]  
-> 如需使用 Lync Server 管理命令介面（包括範例腳本）建立回應群組的詳細資料，請參閱使用 Lync Server 管理命令介面的「建立您的<A href="http://go.microsoft.com/fwlink/p/?linkid=204108">http://go.microsoft.com/fwlink/p/?linkId=204108</A>第一個回應群組」。
+> 如需使用 Lync Server 管理命令介面，包括範例指令碼建立回應群組的詳細資訊，請參閱 「 建立您第一個回應群組使用 Lync Server 管理命令介面 」 在<A href="http://go.microsoft.com/fwlink/p/?linkid=204108">http://go.microsoft.com/fwlink/p/?linkId=204108</A>。
 
 
 
@@ -55,31 +55,31 @@ _**主題上次修改日期：** 2012-10-30_
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [Lync Server 2013 中的回應群組設定權限和先決條件](lync-server-2013-response-group-configuration-permissions-and-prerequisites.md)
+  - [回應群組設定權限和 Lync Server 2013 中的必要條件](lync-server-2013-response-group-configuration-permissions-and-prerequisites.md)
 
-  - [Lync Server 2013 中的回應群組部署程式](lync-server-2013-deployment-process-for-response-group.md)
+  - [Lync Server 2013 中的回應群組部署程序](lync-server-2013-deployment-process-for-response-group.md)
 
-  - [在 Lync Server 2013 中建立工作流程的案例概觀](lync-server-2013-overview-of-workflow-creation-scenarios.md)
+  - [Lync Server 2013 中的工作流程建立案例概觀](lync-server-2013-overview-of-workflow-creation-scenarios.md)
 
-  - [在 Lync Server 2013 中建立回應群組代理群組](lync-server-2013-create-response-group-agent-groups.md)
+  - [建立回應群組代理群組 Lync Server 2013](lync-server-2013-create-response-group-agent-groups.md)
 
-  - [在 Lync Server 2013 中建立回應群組佇列](lync-server-2013-create-response-group-queues.md)
+  - [Lync Server 2013 中建立回應群組佇列](lync-server-2013-create-response-group-queues.md)
 
-  - [可選在 Lync Server 2013 中定義回應群組的上班時間](lync-server-2013-optional-define-response-group-business-hours.md)
+  - [（選用）Lync Server 2013 中的定義回應群組營業時間](lync-server-2013-optional-define-response-group-business-hours.md)
 
-  - [可選在 Lync Server 2013 中定義回應群組假日集](lync-server-2013-optional-define-response-group-holiday-sets.md)
+  - [（選用）Lync Server 2013 中的定義回應群組假日集](lync-server-2013-optional-define-response-group-holiday-sets.md)
 
-  - [在 Lync Server 2013 中建立回應群組工作流程](lync-server-2013-create-response-group-workflows.md)
+  - [Lync Server 2013 中建立回應群組工作流程](lync-server-2013-create-response-group-workflows.md)
 
-  - [可選在 Lync Server 2013 中驗證回應群組部署](lync-server-2013-optional-verify-response-group-deployment.md)
+  - [（選用）Lync Server 2013 中驗證回應群組部署](lync-server-2013-optional-verify-response-group-deployment.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
 [規劃 Lync Server 2013 中的通話管理功能](lync-server-2013-planning-for-call-management-features.md)  

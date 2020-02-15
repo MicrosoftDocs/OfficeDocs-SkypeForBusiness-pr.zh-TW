@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：解決核心基礎結構的威脅
+title: Lync Server 2013： 處理核心基礎結構的威脅
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 60918604
 ms.date: 08/01/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1ca8675fea59c34ba5bf40269387e328f357fe88
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4f6c221b55cd8af2b4217b5aa1f287ae79b19d01
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737983"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038435"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="addressing-threats-to-your-core-infrastructure-for-lync-server-2013"></a>針對 Lync Server 2013 的核心基礎結構解決威脅
+# <a name="addressing-threats-to-your-core-infrastructure-for-lync-server-2013"></a>處理 Lync Server 2013 的核心基礎結構的威脅
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "41737983"
 
 <span> </span>
 
-_**主題上次修改日期：** 2016-08-01_
+_**主題上次修改日期：** 2016年-08-01_
 
-除了遵循 Microsoft Lync Server 2013 部署的最佳做法之外，您還可以在部署的特定區域中查看、瞭解及解決任何需求，以協助確保安全性。
+除了下列的 Microsoft Lync Server 2013 部署的最佳作法，您可以協助確保安全性檢閱、 瞭解並解決任何特定區域的部署中的需求。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [Lync Server 2013 中核心基礎結構的最佳做法](lync-server-2013-best-practices-for-your-core-infrastructure.md)
+  - [您在 Lync Server 2013 中的核心基礎結構的最佳做法](lync-server-2013-best-practices-for-your-core-infrastructure.md)
 
-  - [增強及保護 Lync Server 2013 的伺服器和應用程式](lync-server-2013-hardening-and-protecting-servers-and-applications.md)
+  - [增強及保護伺服器和 Lync Server 2013 的應用程式](lync-server-2013-hardening-and-protecting-servers-and-applications.md)
 
-  - [Lync Server 2013 的防毒掃描排除項目](lync-server-2013-antivirus-scanning-exclusions.md)
+  - [防毒掃描排除的 Lync Server 2013](lync-server-2013-antivirus-scanning-exclusions.md)
 
-  - [在 Lync Server 2013 中保護傳輸的資料 - 封存、監控、群組交談規範伺服器資料庫](lync-server-2013-protecting-data-in-transit-–-archiving-monitoring-group-chat-compliance-server-databases.md)
+  - [保護傳輸 – 封存、 監控、 群組聊天規範伺服器資料庫在 Lync Server 2013 中的資料](lync-server-2013-protecting-data-in-transit-–-archiving-monitoring-group-chat-compliance-server-databases.md)
 
-  - [減少 Lync Server 2013 來路不明的 IM](lync-server-2013-reducing-unsolicited-im.md)
+  - [Lync Server 2013 的減少來路不明的 IM](lync-server-2013-reducing-unsolicited-im.md)
 
-  - [在 Lync Server 2013 中保護 IIS](lync-server-2013-protecting-iis.md)
+  - [保護 Lync Server 2013 中的 IIS](lync-server-2013-protecting-iis.md)
 
-  - [適用於 Lync Server 2013 的 Windows 更新](lync-server-2013-windows-update-for-lync-server.md)
+  - [Lync Server 2013 的 Windows 更新](lync-server-2013-windows-update-for-lync-server.md)
 
 </div>
 

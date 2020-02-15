@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：針對通訊錄管理取得 CsWebServiceConfiguration
+title: 'Lync Server 2013: Get-CsWebServiceConfiguration 適用於通訊錄管理'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183372
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c04cc523e27d655aa69b05f522efccf8153a37ba
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5f795f0e8f503a055388150e201e8d4f3a19bf39
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730573"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037935"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="get-cswebserviceconfiguration-for-address-book-management-in-lync-server-2013"></a>在 Lync Server 2013 中取得通訊錄管理的 CsWebServiceConfiguration
+# <a name="get-cswebserviceconfiguration-for-address-book-management-in-lync-server-2013"></a>適用於通訊錄管理 Lync Server 2013 中的 get-CsWebServiceConfiguration
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41730573"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-11-01_
+_**主題上次修改日期：** 2012年-11-01_
 
-誰可以執行這個 Cmdlet：根據預設，下列群組的成員有權在本機執行 CsWebServiceConfiguration Cmdlet： RTCUniversalUserAdmins、RTCUniversalServerAdmins。 若要傳回已指派這個 Cmdlet 的所有角色式存取控制（RBAC）角色的清單（包括您自行建立的任何自訂 RBAC 角色），請在 Windows PowerShell 提示中執行下列命令：
+誰可以執行這個 Cmdlet：根據預設，會授權下列群組的成員在本機執行 Get-CsWebServiceConfiguration Cmdlet：RTCUniversalUserAdmins、RTCUniversalServerAdmins。若要傳回指派給該 Cmdlet 的所有角色型存取控制 (RBAC) 角色清單 (包括您自己建立的任何自訂 RBAC 角色)，請在 Windows PowerShell 提示中輸入下列命令：
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Get-CsWebServiceConfiguration"}
 
-CsWebServiceConfiguration 會傳回貴組織目前所使用之 Web 服務設定的資訊。 通訊錄服務感興趣是通訊群組清單延伸功能的狀態。 如果屬性 EnableGroupExpansion 為 True，您的組織目前允許群組延伸。
+Get-CsWebServiceConfiguration 會傳回目前貴組織中使用的 Web 服務組態資訊。通訊群組清單延伸功能的狀態對於通訊錄服務有益。如果 EnableGroupExpansion 屬性為 True，則您的組織目前可允許群組延伸。
 
 例如：
 
@@ -52,7 +52,7 @@ CsWebServiceConfiguration 會傳回貴組織目前所使用之 Web 服務設定�
 ## <a name="see-also"></a>請參閱
 
 
-[CsWebServiceConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsWebServiceConfiguration)  
+[Get-cswebserviceconfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsWebServiceConfiguration)  
   
 
 </div>

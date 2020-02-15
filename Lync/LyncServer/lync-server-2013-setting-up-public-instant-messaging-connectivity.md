@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：設定 Public Instant Messaging Connectivity
+title: Lync Server 2013： 設定 public instant messaging 連線
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184661
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 871f513170fcb0491f6732751cfc1b23877526b8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 31224e145fc5fea1623b0236b87ae9cdec3f82b7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732253"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42040862"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-public-instant-messaging-connectivity-in-lync-server-2013"></a>在 Lync Server 2013 中設定 Public Instant Messaging Connectivity
+# <a name="setting-up-public-instant-messaging-connectivity-in-lync-server-2013"></a>設定 Lync Server 2013 中的 public instant messaging 連線
 
 </div>
 
@@ -35,41 +35,41 @@ ms.locfileid: "41732253"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-09-08_
+_**主題上次修改日期：** 2012年-09-08_
 
-如果您的組織想要支援與 AOL 的公用立即訊息（IM）連線，您就無法使用 Lync Server 部署嚮導來要求認證。 請改為執行下列程式中的步驟。
+如果您的組織想要支援與 AOL 的公用立即訊息 (IM) 連線能力，您將無法使用 Lync Server 部署精靈要求憑證。請改為執行下列程序的步驟。
 
 <div>
 
-## <a name="setting-up-public-instant-messaging-connectivity"></a>設定公用立即訊息連線能力
+## <a name="setting-up-public-instant-messaging-connectivity"></a>設定 Public Instant Messaging Connectivity
 
-1.  在前端伺服器上，開啟 [拓撲建立器]。 展開 [邊緣池]，然後以滑鼠右鍵按一下 Edge 伺服器或 Edge 伺服器池。 選取 [編輯屬性]。
+1.  在前端伺服器上，開啟拓撲建置器。展開 Edge 集區，然後以滑鼠右鍵按一下 Edge Server 或 Edge Server 集區。選取 [編輯內容]。
 
-2.  在 [編輯屬性] 底下的 [一般] 底下，選取 [針對此 Edge 池啟用同盟（埠5061）]。 按一下 [確定]。
+2.  在 [編輯內容] 的 [一般] 下方，選取 [啟用此 Edge 集區的同盟 (連接埠 5061)]。按一下 [確定]。
 
-3.  按一下 [動作]，選取 [拓撲]，選取 [發佈]。 發佈拓撲時出現提示時，請按 [下一步]。 發佈完成後，請按一下 [完成]。
+3.  按一下 [動作]，然後依序選取 [拓撲] 和 [發行]。出現發行拓撲的提示時，按 [下一步]。完成發行時，按一下 [完成]。
 
-4.  在邊緣伺服器上，開啟 Lync Server 部署嚮導。 按一下 [安裝或更新 Lync Server 系統]，然後按一下 [設定] 或 [移除 Lync Server 元件]。 再次按一下 [執行]。
+4.  在 Edge Server 上，開啟 [Lync Server 部署精靈]。按一下 [安裝或更新 Lync Server 系統]，然後按一下 [安裝或移除 Lync Server 元件]。按一下 [再執行一次]。
 
-5.  在安裝程式 Lync Server 元件上，按一下 [下一步]。 [摘要] 畫面會在執行時顯示動作。 完成部署之後，按一下 [查看記錄] 以查看可用的記錄檔。 按一下 [完成] 以完成部署。
+5.  在 [安裝 Lync Server 元件] 中按 [下一步]。摘要畫面將顯示所執行的動作。一旦部署完成，按一下 [檢視記錄檔]，檢視出現的記錄檔。按一下 [完成] 即可完成部署。
 
 </div>
 
 <div>
 
-## <a name="to-create-a-certificate-request-for-the-external-interface-of-the-edge-server-to-support-public-im-connectivity-with-aol"></a>建立邊緣伺服器外部介面的憑證要求，以支援與 AOL 的公用 IM 連線
+## <a name="to-create-a-certificate-request-for-the-external-interface-of-the-edge-server-to-support-public-im-connectivity-with-aol"></a>若要為 Edge Server 的外部介面建立憑證要求以支援對 AOL 的公用 IM 連線能力
 
-1.  當 CA 提供所需的範本時，請從 Edge 伺服器使用下列 Windows PowerShell Cmdlet，以要求憑證
+1.  若有必要的範本可提供給 CA，請在 Edge Server 中使用下列 Windows PowerShell Cmdlet 以要求憑證：
     
         Request-CsCertificate -New -Type AccessEdgeExternal  -Output C:\ <certfilename.txt or certfilename.csr>  -ClientEku $true -Template <template name>
     
-    Lync Server 所用之範本的預設憑證名是 Web 服務器。 如果您需要\<使用不同\>于預設範本的範本，請只指定範本名稱。
+    使用 Lync Server 的預設憑證名稱是範本的網頁伺服器。 僅指定\<範本名稱\>如果您需要使用不同於預設範本的範本。
     
     <div>
     
 
     > [!IMPORTANT]  
-    > 如果您的組織想要支援與 AOL 的公用 IM 連線，您必須使用 Windows PowerShell，而不是憑證嚮導，以要求將憑證指派給存取邊緣服務的外部邊緣。 這是因為證書嚮導用來要求憑證的憑證授權單位（CA） Web 服務器範本不支援用戶端 EKU 配置。 在使用 Windows PowerShell 建立憑證前，CA 管理員必須建立並部署支援用戶端 EKU 的新範本。
+    > 如果您的組織想要支援搭配 AOL 的公用 IM 連線，您必須要求要指派給 Access Edge service 的外部邊緣憑證而不是 [憑證] 精靈使用 Windows PowerShell。 這是因為憑證精靈用來要求憑證的 Certificate Authority (CA) 伺服器範本不支援用戶端 EKU 組態。 使用 Windows PowerShell 來建立憑證之前, 的 CA 系統管理員必須建立及部署支援用戶端 EKU 新範本。
 
     
     </div>

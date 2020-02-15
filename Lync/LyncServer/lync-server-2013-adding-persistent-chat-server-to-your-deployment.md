@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：將常設聊天室伺服器新增至您的部署
+title: Lync Server 2013： 新增至部署 Persistent Chat Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184919
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c7a41e89193f4871197ab9b429eb6ab9a9078a7e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 71d354449c02a0b57b737f01841a0f5841aa80c9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738033"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038535"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="adding-persistent-chat-server-to-your-deployment-in-lync-server-2013"></a>在 Lync Server 2013 中將常設聊天室伺服器新增至您的部署
+# <a name="adding-persistent-chat-server-to-your-deployment-in-lync-server-2013"></a>Persistent Chat Server 新增至 Lync Server 2013 中部署
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41738033"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-09-12_
+_**主題上次修改日期：** 2012年-09-12_
 
-在您安裝 Lync Server 2013 （持久聊天伺服器）的每個伺服器上安裝必備軟體之後，您必須使用拓撲建立器，才能在拓撲中新增持續聊天伺服器支援，然後發佈拓撲。
+您計劃部署 Lync Server 2013，Persistent Chat Server，每部伺服器上安裝必要軟體之後您必須使用拓撲產生器將 Persistent Chat Server 支援新增至您的拓撲，並再發行拓撲。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [在 Lync Server 2013 中將常設聊天室伺服器新增至拓撲](lync-server-2013-add-persistent-chat-server-to-the-topology.md)
+  - [將常設聊天室伺服器新增至 Lync Server 2013 中的拓撲](lync-server-2013-add-persistent-chat-server-to-the-topology.md)
 
-  - [在 Lync Server 2013 中發行更新後的拓撲](lync-server-2013-publish-the-updated-topology.md)
+  - [在 Lync Server 2013 中發佈更新過的拓撲](lync-server-2013-publish-the-updated-topology.md)
 
 </div>
 

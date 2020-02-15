@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：取得常設聊天室伺服器集區可用性
+title: Lync Server 2013： 取得 Persistent Chat Server 集區可用性
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184322
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 065a677400775c33f89521f8dce213cde67007ae
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: efc7758e46a0d05d0e543def60486e2ef48d3dcb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765111"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037915"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="get-persistent-chat-server-pool-availability-in-lync-server-2013"></a>在 Lync Server 2013 中取得常設聊天室伺服器集區可用性
+# <a name="get-persistent-chat-server-pool-availability-in-lync-server-2013"></a>在 [Lync Server 2013 取得 Persistent Chat Server 集區可用性
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41765111"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-03-23_
+_**主題上次修改日期：** 2012年-03-23_
 
-若要取得持久的聊天伺服器池可用性
+若要取得 Persistent Chat Server 集區可用性
 
     Get-CsService -PersistentChatServer
 

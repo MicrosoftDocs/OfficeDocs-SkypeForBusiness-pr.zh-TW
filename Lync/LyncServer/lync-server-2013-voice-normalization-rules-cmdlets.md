@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：語音正常化規則 Cmdlet
+title: Lync Server 2013： 語音正規化規則 cmdlet
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184758
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d0ea2374d334a617d7824a073e62f557e6ca9916
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1ce93f84f977630ec4b0764b67ce4622c9b81f53
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757187"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041533"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="voice-normalization-rules-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的語音正常化規則 Cmdlet
+# <a name="voice-normalization-rules-cmdlets-in-lync-server-2013"></a>語音正規化規則在 Lync Server 2013 中的指令程式
 
 </div>
 
@@ -35,49 +35,49 @@ ms.locfileid: "41757187"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-06-20_
+_**主題上次修改日期：** 2012年-06-20 個_
 
-語音正常化規則是用來將電話撥號需求（例如，撥打電話9至外線）轉換為 Microsoft Lync Server 2013 所使用的 E. 164 電話號碼格式。
+語音正規化規則可用來將電話撥號要求 （例如，撥打外線 9） 轉換成 E.164 電話號碼格式使用 Microsoft Lync Server 2013。
 
 <div>
 
-## <a name="voice-normalization-rules-cmdlets"></a>語音正常化規則 Cmdlet
+## <a name="voice-normalization-rules-cmdlets"></a>Voice Normalization Rules Cmdlets
 
-下列 Cmdlet 可用於管理語音正常化規則。
+下列指令程式可用來管理語音正規化規則。
 
-**語音正常化規則**
-
-  - <span></span>  
-    [CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg398393(v=OCS.15))
+**語音正規化規則**
 
   - <span></span>  
-    [新-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg398240(v=OCS.15))
+    [Get-csvoicenormalizationrule](https://technet.microsoft.com/library/Gg398393(v=OCS.15))
 
   - <span></span>  
-    [移除-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg398501(v=OCS.15))
+    [新來](https://technet.microsoft.com/library/Gg398240(v=OCS.15))
 
   - <span></span>  
-    [Set-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg398491(v=OCS.15))
+    [移除來](https://technet.microsoft.com/library/Gg398501(v=OCS.15))
 
   - <span></span>  
-    [Test-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg399003(v=OCS.15))
+    [Set-csvoicenormalizationrule](https://technet.microsoft.com/library/Gg398491(v=OCS.15))
+
+  - <span></span>  
+    [測試來](https://technet.microsoft.com/library/Gg399003(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [新-CsVoiceRegex](https://technet.microsoft.com/en-us/library/Gg412751(v=OCS.15))
+    [新 CsVoiceRegex](https://technet.microsoft.com/library/Gg412751(v=OCS.15))
 
 </div>
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
-[Lync Server 2013 中的企業語音 Cmdlet](lync-server-2013-enterprise-voice-cmdlets.md)  
+[Lync Server 2013 中的 Enterprise Voice cmdlet](lync-server-2013-enterprise-voice-cmdlets.md)  
 
 
-[Lync Server PowerShell 博客](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+[Lync Server PowerShell 部落格](http://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：Director 案例
+title: Director 的 Lync Server 2013： 案例
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185419
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ac7c5a262f5323f28ff089766cab1f4d65e30757
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 23b05a44e139c59dcb0656c2339d67a0e529e59a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732613"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038185"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="scenarios-for-the-director-in-lync-server-2013"></a>Lync Server 2013 中的 Director 案例
+# <a name="scenarios-for-the-director-in-lync-server-2013"></a>Lync Server 2013 中 Director 的案例
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41732613"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-22_
+_**主題上次修改日期：** 2012年-10-22_
 
-Director 是執行 Microsoft Lync Server 2013 通訊軟體的伺服器，可驗證使用者要求，但不會家用任何使用者帳戶。 控制器也會託管與前端伺服器類似的 web 服務，並會驗證 web 票證要求並提供其他服務。
+Director 是執行 Microsoft Lync Server 2013 通訊軟體，可以驗證使用者要求，但不會主控任何使用者帳戶的伺服器。 Director 也主控 web 服務類似於前端伺服器會驗證的 web 票證要求並提供其他服務。
 
 <div>
 
 
 > [!IMPORTANT]  
-> 如果您要部署控制器，您必須透過反向 proxy 以及前端伺服器的 web 服務，在外部發佈控制器 web 服務。 下列主題說明可能的控制器拓撲的規劃程式。
+> 如果您部署 Director 時，您必須發佈外部通過反向 proxy 的 Director web 服務以及前端伺服器 web 服務。 下列主題將說明可能的 Director 拓撲的規劃程序。
 
 
 
@@ -51,23 +51,23 @@ Director 是執行 Microsoft Lync Server 2013 通訊軟體的伺服器，可驗�
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [Lync Server 2013 中的 Director 概觀](lync-server-2013-overview-of-the-director.md)
+  - [Lync Server 2013 中 Director 概觀](lync-server-2013-overview-of-the-director.md)
 
   - [Lync Server 2013 中 Director 的必要元件](lync-server-2013-components-required-for-the-director.md)
 
-  - [Lync Server 2013 中 Director 的軟硬體需求](lync-server-2013-hardware-and-software-requirements-for-the-director.md)
+  - [Lync Server 2013 中 director 的硬體和軟體需求](lync-server-2013-hardware-and-software-requirements-for-the-director.md)
 
   - [Lync Server 2013 中的單一 Director](lync-server-2013-single-director.md)
 
-  - [Lync Server 2013 中的調整式 Director 集區](lync-server-2013-scaled-director-pool.md)
+  - [Lync Server 2013 中的調整式的 Director 集區](lync-server-2013-scaled-director-pool.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
 [Lync Server 2013 中支援的拓撲](lync-server-2013-supported-topologies.md)  

@@ -12,16 +12,16 @@ ms:contentKeyID: 48185851
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 08c87692e169bac11c29bc1beeb61df8c6c964b7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e9041f63f012f7251c51bb60d912417a2ed0494e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729833"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037713"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,19 +35,19 @@ ms.locfileid: "41729833"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-01_
+_**主題上次修改日期：** 2012年-10-01_
 
-用戶端電腦必須符合在 Lync Server 2013 部署中支援用戶端的特定硬體需求。 部署 IP 電話和類比裝置之前，必須先進行其他硬體設定。
+用戶端電腦必須符合特定硬體需求，才能在 Lync Server 2013 部署中支援的用戶端。 額外的硬體設定必須在就緒，才能部署 IP 電話和類比裝置。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
   - [Lync Server 2013 中的 Lync 用戶端硬體支援](lync-server-2013-lync-client-hardware-support.md)
 
   - [Lync Server 2013 中的裝置硬體支援](lync-server-2013-device-hardware-support.md)
 
-  - [Lync Server 2013 中的行動性支援](lync-server-2013-mobility-support.md)
+  - [Lync Server 2013 中的行動支援](lync-server-2013-mobility-support.md)
 
 </div>
 
