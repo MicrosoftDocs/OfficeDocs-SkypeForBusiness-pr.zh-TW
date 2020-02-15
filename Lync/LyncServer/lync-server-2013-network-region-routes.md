@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：網路區域路由
+title: Lync Server 2013： 網路地區路由
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733608
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e84c2b0114393a0d9234e18af8af7c8c98f3d8b5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 83db08d7e0630a74ae5c4366afb3b18ed9d7e567
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765894"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049105"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="network-region-routes-in-lync-server-2013"></a>Lync Server 2013 中的網路區域路由
+# <a name="network-region-routes-in-lync-server-2013"></a>Lync Server 2013 中的網路地區路由
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41765894"
 
 <span> </span>
 
-_**主題上次修改日期：** 2013-02-21_
+_**上次修改主題：** 2013年-02-21_
 
-*網路區域路由*定義一對網路區域之間的路由。 通話許可控制部署中的每一組網路區域都需要網路區域路由。 這可讓部署中的每個網路區域存取每一個其他區域。 使用本節中的程式來查看、建立、修改或刪除網路區域路由。
+*網路地區路由*會定義一對網路地區之間的路由。在您的通話許可控制部署中的每一對網路地區都需要網路地區路由。這可讓部署中的每一個網路地區都可以存取所有其他的地區。使用本節中的這個程序進行檢視、建立、修改或刪除網路地區路由。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [在 Lync Server 2013 中建立或修改網路區域](lync-server-2013-creating-or-modifying-network-regions.md)
+  - [建立或修改 Lync Server 2013 中的網路地區](lync-server-2013-creating-or-modifying-network-regions.md)
 
-  - [在 Lync Server 2013 中查看網路區域路線資訊](lync-server-2013-viewing-network-region-route-information.md)
+  - [Lync Server 2013 中檢視網路地區路由資訊](lync-server-2013-viewing-network-region-route-information.md)
 
-  - [在 Lync Server 2013 中刪除現有的網路區域路由](lync-server-2013-deleting-existing-network-region-routes.md)
+  - [Lync Server 2013 中刪除現有網路地區路由](lync-server-2013-deleting-existing-network-region-routes.md)
 
 </div>
 
@@ -55,7 +55,7 @@ _**主題上次修改日期：** 2013-02-21_
 
 ## <a name="reference"></a>參考
 
-[在 Lync Server 2013 中部署高級企業語音功能](lync-server-2013-deploying-advanced-enterprise-voice-features.md)
+[部署 Lync Server 2013 中的進階的 Enterprise Voice 功能](lync-server-2013-deploying-advanced-enterprise-voice-features.md)
 
 </div>
 

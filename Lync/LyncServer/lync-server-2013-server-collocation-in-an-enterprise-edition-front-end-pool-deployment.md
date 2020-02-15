@@ -1,5 +1,5 @@
 ---
-title: Enterprise Edition 前端集區部署中的 Lync Server 2013 伺服器組合
+title: Lync Server 2013 Enterprise Edition 前端集區部署中的伺服器共同配置
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183287
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ad549c614fc14b74126a7e81e0223ad584e68141
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 74afcdd9212ebced9d93f0f699b90dd7a89edefd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732483"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049375"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="server-collocation-in-an-enterprise-edition-front-end-pool-deployment-for-lync-server-2013"></a>Enterprise Edition 前端集區部署中 Lync Server 2013 的伺服器組合
+# <a name="server-collocation-in-an-enterprise-edition-front-end-pool-deployment-for-lync-server-2013"></a>在 Enterprise Edition 前端集區部署 Lync Server 2013 中的伺服器共同配置
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "41732483"
 
 <span> </span>
 
-_**主題上次修改日期：** 2013-11-11_
+_**上次修改主題：** 2013年-11-11_
 
-本節說明您可以在 Lync Server 2013 前端池部署中 collocate 的伺服器角色、資料庫及檔案共用。
+本節說明伺服器角色、 資料庫及檔案共用，您可以在 Lync Server 2013 前端集區部署中組合。
 
 <div>
 
 ## <a name="server-roles"></a>伺服器角色
 
-在 Lync Server 2013 中，A/V 會議服務、轉送服務、監控及封存都是在前端伺服器上 collocated，但需要進行額外的設定才能啟用它們。 如果您不想要 collocate 前端伺服器的中繼伺服器，您可以將它作為獨立的中繼伺服器部署在另一部電腦上。
+在 Lync Server 2013 中，A / V 會議服務、 中繼服務、 監控和封存都組合於前端伺服器，但其他設定，才能加以啟用。 如果您不想將中繼伺服器與前端伺服器組合在一起，您可以在另一部電腦上將其部署為獨立的中繼伺服器。
 
-您可以使用前端伺服器 collocate 受信任的應用程式伺服器。
+您可以將信任的應用程式伺服器與前端伺服器組合在一起。
 
-下列伺服器角色必須分別部署在不同的電腦上：
+下列伺服器角色必須分別部署到個別的電腦上：
 
   - Director
 
-  - Edge 伺服器
+  - Edge Server
 
-  - 中繼伺服器（如果沒有與前端伺服器 collocated）
+  - 中繼伺服器 (如果未與前端伺服器組合在一起)
 
-  - Office Web Apps 伺服器
+  - Office Web Apps Server
 
-您無法 collocate 持久聊天伺服器角色與前端伺服器。
+您無法組合常設聊天室伺服器角色與前端伺服器。
 
 </div>
 
@@ -65,7 +65,7 @@ _**主題上次修改日期：** 2013-11-11_
 
 ## <a name="databases"></a>資料庫
 
-您可以在同一個資料庫伺服器上 collocate 下列每一個資料庫：
+您可以在相同的資料庫伺服器中組合下列每一個資料庫：
 
   - 後端資料庫
 
@@ -73,23 +73,23 @@ _**主題上次修改日期：** 2013-11-11_
 
   - 封存資料庫
 
-  - 持續聊天資料庫
+  - 常設聊天室資料庫
 
-  - 持續聊天合規性資料庫
+  - 常設聊天室規範資料庫
 
-您可以在單一 SQL Server 實例中 collocate 任何或任何或所有這些資料庫，或針對每個實例使用個別的 SQL Server 實例，但有下列限制：
+您可以組合任何或所有這些資料庫的 SQL Server 的單一執行個體，或使用 SQL Server 個別執行個體各有下列限制：
 
-  - 每個 SQL Server 實例都只能包含一個後端資料庫、單一監視資料庫、單一封存資料庫、單一持續式聊天資料庫，以及單一持續聊天合規性資料庫。
+  - 每個 SQL Server 執行個體可以包含單一後端資料庫、 一個監控資料庫、 一個封存資料庫、 單一常設聊天室資料庫及單一常設聊天室規範資料庫。
 
-  - 資料庫伺服器不支援一個以上的前端池、一個封存部署，以及一個監視部署，但不論資料庫是使用相同的 SQL Server 實例，還是不同的 SQL Server 實例，都可以支援其中一個。
+  - 資料庫伺服器不支援一個以上的前端集區、 一個封存部署以及監控部署，但是可支援一個的每一個，不論資料庫是否使用相同的 SQL Server 執行個體或個別的 SQL Server 執行個體。
 
-您可以 collocate 與資料庫共用檔案，如本節稍後所述。
+您可以如本節後面所述，將檔案共用與資料庫組合在一起。
 
 <div>
 
 
 > [!NOTE]  
-> 在 Lync Server 2013 中，您可以選擇將存檔儲存與 Exchange 2013 儲存空間整合在您的部署中的部分或所有使用者。 您無法在與 Exchange 儲存空間相同的伺服器上，部署任何執行 Lync Server 或元件的伺服器。
+> 在 Lync Server 2013 中，您必須與您在部署中的部分或所有使用者的 Exchange 2013 儲存體整合封存存放區的選項。 您無法在部署任何為 Exchange 存放在相同伺服器上執行 Lync Server 或元件的伺服器。
 
 
 
@@ -99,7 +99,7 @@ _**主題上次修改日期：** 2013-11-11_
 
 
 > [!IMPORTANT]  
-> 雖然支援 collocation 資料庫，但資料庫大小可以快速增加。 例如，當您考慮將封存資料庫與其他資料庫 collocating 時，請注意，如果您要封存的郵件超過幾個使用者，存檔資料庫所需的磁碟空間就會變得很大。 基於這個原因，我們不建議您 collocating 多個資料庫，特別是封存資料庫、持久聊天資料庫，或與後端資料庫的持續聊天合規性資料庫。
+> 雖然支援資料庫的組合，但是資料庫大小可能會快速增加。 例如，當您考慮將封存資料庫與其他資料庫組合在一起時，請注意，如果您要封存較多使用者的訊息，封存資料庫所需的磁碟空間可能會變得極大。 基於這個理由，我們不建議組合多個資料庫，尤其是封存資料庫、 常設聊天室資料庫或後端資料庫的常設聊天室規範資料庫。
 
 
 
@@ -111,25 +111,25 @@ _**主題上次修改日期：** 2013-11-11_
 
 ## <a name="file-share"></a>檔案共用
 
-檔案共用可以是個別的伺服器，也可以與下列任一或所有專案在同一台伺服器上 collocated：
+檔案共用可以是個別的伺服器，或是在相同的伺服器上組合為下列任何一種或所有情況：
 
-  - 資料庫伺服器，包括企業版頂層端池的後端伺服器
+  - 資料庫伺服器，包括 Enterprise Edition 前端集區的後端伺服器
 
   - 封存資料庫
 
   - 監控資料庫
 
-  - 持續聊天資料庫
+  - 常設聊天室資料庫
 
-  - 持續聊天合規性資料庫
+  - 常設聊天室規範資料庫
 
-單一檔案共用可用於多個前端池，標準版伺服器（全部位於同一個網站中）。
+單一檔案共用可以用於多個前端集區、Standard Edition Server (全部在同一個網站中)。
 
 <div>
 
 
 > [!NOTE]  
-> 在 Lync Server 2013 中，監視及封存使用 Lync Server 檔案共用作為前端伺服器。
+> 在 Lync Server 2013 中，監控和封存會使用 Lync Server 檔案共用作為前端伺服器。
 
 
 
@@ -141,9 +141,9 @@ _**主題上次修改日期：** 2013-11-11_
 
 ## <a name="other-components"></a>其他元件
 
-如果您想要支援使用任何 Lync Server 2013 伺服器角色的同盟使用者共用網頁內容，則您無法 collocate 並非 Lync Server 2013 元件的反向 proxy 伺服器，但在部署中則是必要的。 不過，您可以針對 Lync Server 2013 部署執行反向 proxy 支援，方法是在組織中針對其他應用程式所使用的現有反向 proxy 伺服器上設定支援。
+您無法將組合在一起的反向 proxy 伺服器，這不是 Lync Server 2013 的元件，但如果您想要支援共用與任何 Lync Server 2013 伺服器角色的同盟使用者的 web 內容所需部署中。 您，不過，可實作 Lync Server 2013 部署的反向 proxy 支援適用於其他應用程式的組織中現有的反向 proxy 伺服器上設定的支援。
 
-您無法使用任何 SharePoint Server 角色 collocate 任何 Exchange 整合訊息（UM）元件或 SharePoint 元件。
+您無法將任何 Exchange 整合通訊 (UM) 元件或 SharePoint 元件與任何 SharePoint Server 角色的組合。
 
 </div>
 

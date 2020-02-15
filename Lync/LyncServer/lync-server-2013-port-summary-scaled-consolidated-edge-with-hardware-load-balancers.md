@@ -1,5 +1,5 @@
 ---
-title: 連接埠摘要 - 調整式合併 Edge (利用硬體負載平衡器)
+title: 連接埠摘要-調整式合併邊緣搭配硬體負載平衡器
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184841
 ms.date: 04/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6260a4ad7f2717e0b4eb2446fc5b17671c3e45a5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a3cad84208df5129b3a10c1e80aa28442ebcbd44
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725033"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049475"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="port-summary---scaled-consolidated-edge-with-hardware-load-balancers-in-lync-server-2013"></a>Lync Server 2013 中的連接埠摘要 - 調整式合併 Edge (利用硬體負載平衡器)
+# <a name="port-summary---scaled-consolidated-edge-with-hardware-load-balancers-in-lync-server-2013"></a>連接埠摘要-調整式合併邊緣搭配硬體負載平衡器在 Lync Server 2013
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41725033"
 
 <span> </span>
 
-_**主題上次修改日期：** 2015-04-27_
+_**主題上次修改日期：** 2015 年 04 月 27 日_
 
-此案例架構中所述的 Lync Server 2013、Edge 伺服器功能與 Lync Server 2010 中所實施的內容非常類似。 最顯著的新增是針對可擴展訊息和目前狀態通訊協定（XMPP）的**TCP 專案上**的埠5269。 Lync Server 2013 可選擇在 Edge 伺服器或 Edge 池以及前端伺服器或頂層端池中的 XMPP 閘道伺服器上部署 XMPP proxy。
+Lync Server 2013 中，在此案例的架構中所述的 Edge Server 功能是非常類似於項目已在 Lync Server 2010 中實作。 最值得注意的是加入了可延伸訊息及目前狀態通訊協定 (XMPP) 的連接埠 **5269 over TCP** 項目。 Lync Server 2013 選擇性地部署 Edge Server 或 Edge 集區與前端伺服器或前端集區上的 XMPP 閘道伺服器上的 XMPP proxy。
 
-除了 IPv4，Edge 伺服器現在還支援 IPv6。 為清楚起見，在案例中只使用 IPv4。
+IPv4，除了 Edge Server 現在可支援 IPv6。 但為了清楚說明起見，此案例僅會使用 IPv4。
 
-**使用硬體負載平衡來調整合並的邊緣**
+**調整式合併 Edge，使用硬體負載平衡**
 
-![Edge Server 周邊網路連接埠與通訊協定](images/Gg398739.063f7dd1-16db-4cc7-8708-bca9bc41184d(OCS.15).jpg "Edge Server 周邊網路連接埠與通訊協定")
+![Edge Server 周邊網路連接埠和通訊協定](images/Gg398739.063f7dd1-16db-4cc7-8708-bca9bc41184d(OCS.15).jpg "Edge Server 周邊網路連接埠和通訊協定")
 
 <div>
 
-## <a name="port-and-protocol-details"></a>埠與通訊協定詳細資料
+## <a name="port-and-protocol-details"></a>連接埠和通訊協定詳細資料
 
-建議您只開啟支援您提供外部存取的功能所需的埠。
+建議您開啟支援所提供給外部存取的功能所需的連接埠。
 
-若要讓遠端存取作用於任何 edge 服務，必須具備 SIP 流量來流動雙向，如入站/出站邊緣流量圖所示。 換句話說，在「立即訊息（IM）」、「目前狀態」、「web 會議」、音訊/視頻（A/V）及同盟中，都會涉及來自存取邊緣服務的 SIP 訊息。
+適用於任何 edge service 的遠端存取，它是強制雙向輸入/輸出 edge 流量圖所示流向允許的 SIP 流量。 換句話說，來回 Access Edge Service 的 SIP 訊息會涉及立即訊息 (IM)、顯示狀態、Web 會議、音訊/視訊 (A/V) 與同盟等功能。
 
-### <a name="firewall-summary-for-scaled-consolidated-edge-hardware-load-balanced-external-interface--node-1-and-node-2-example"></a>已調整合並邊緣的防火牆摘要、硬體負載平衡：外部介面–節點1和節點2（範例）
+### <a name="firewall-summary-for-scaled-consolidated-edge-hardware-load-balanced-external-interface--node-1-and-node-2-example"></a>調整式合併 Edge，硬體負載平衡的防火牆摘要： 外部介面 – 節點 1 與節點 2 (Example)
 
 <table>
 <colgroup>
@@ -64,84 +64,84 @@ _**主題上次修改日期：** 2015-04-27_
 </colgroup>
 <thead>
 <tr class="header">
-<th>角色/通訊協定/TCP 或 UDP/埠</th>
+<th>角色/通訊協定/TCP 或 UDP/連接埠</th>
 <th>來源 IP 位址</th>
 <th>目的地 IP 位址</th>
-<th>筆記</th>
+<th>附註</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Access/HTTP/TCP/80</p></td>
-<td><p>Edge 伺服器存取邊緣服務公用 IP 位址</p></td>
-<td><p>每</p></td>
-<td><p>憑證吊銷/CRL 檢查及檢索</p></td>
+<td><p>Edge Server Access Edge 服務公用 IP 位址</p></td>
+<td><p>任何</p></td>
+<td><p>憑證撤銷/CRL 檢查及擷取</p></td>
 </tr>
 <tr class="even">
 <td><p>Access/DNS/TCP/53</p></td>
-<td><p>Edge 伺服器存取邊緣服務公用 IP 位址</p></td>
-<td><p>每</p></td>
-<td><p>TCP 的 DNS 查詢</p></td>
+<td><p>Edge Server Access Edge 服務公用 IP 位址</p></td>
+<td><p>任何</p></td>
+<td><p>透過 TCP 的 DNS 查詢</p></td>
 </tr>
 <tr class="odd">
 <td><p>Access/DNS/UDP/53</p></td>
-<td><p>Edge 伺服器存取邊緣服務公用 IP 位址</p></td>
-<td><p>每</p></td>
-<td><p>經由 UDP 的 DNS 查詢</p></td>
+<td><p>Edge Server Access Edge 服務公用 IP 位址</p></td>
+<td><p>任何</p></td>
+<td><p>透過 UDP 的 DNS 查詢</p></td>
 </tr>
 <tr class="even">
 <td><p>A/V/RTP/TCP/50000-59999</p></td>
-<td><p>Edge 伺服器 A/V 邊緣的服務 IP 位址</p></td>
-<td><p>每</p></td>
-<td><p>與執行 Office 通訊伺服器2007、Office 通訊伺服器 2007 R2、Lync Server 2010 和 Lync Server 2013 的合作夥伴進行聯盟時需要。</p></td>
+<td><p>Edge Server A / V Edge service IP 位址</p></td>
+<td><p>任何</p></td>
+<td><p>所需的同盟與協力廠商執行 Office Communications Server 2007、 Office Communications Server 2007 R2、 Lync Server 2010 和 Lync Server 2013。</p></td>
 </tr>
 <tr class="odd">
 <td><p>A/V/RTP/UDP/50000-59999</p></td>
-<td><p>Edge 伺服器 A/V 邊緣服務公用 IP 位址</p></td>
-<td><p>每</p></td>
-<td><p>只有與執行 Office 通訊伺服器2007之夥伴的同盟才需要。</p></td>
+<td><p>Edge Server A / V Edge service 公用 IP 位址</p></td>
+<td><p>任何</p></td>
+<td><p>僅適用於同盟需要與執行 Office Communications Server 2007 的協力廠商。</p></td>
 </tr>
 <tr class="even">
 <td><p>A/V/RTP/TCP/50000-59999</p></td>
-<td><p>每</p></td>
-<td><p>Edge 伺服器 A/V 邊緣服務公用 IP 位址</p></td>
-<td><p>僅限執行 Office 通訊伺服器2007之合作夥伴的同盟所需</p></td>
+<td><p>任何</p></td>
+<td><p>Edge Server A / V Edge service 公用 IP 位址</p></td>
+<td><p>僅適用於同盟需要與協力廠商執行 Office Communications Server 2007</p></td>
 </tr>
 <tr class="odd">
 <td><p>A/V/RTP/UDP/50000-59999</p></td>
-<td><p>每</p></td>
-<td><p>Edge 伺服器 A/V 邊緣服務公用 IP 位址</p></td>
-<td><p>僅限執行 Office 通訊伺服器2007之合作夥伴的同盟所需</p></td>
+<td><p>任何</p></td>
+<td><p>Edge Server A / V Edge service 公用 IP 位址</p></td>
+<td><p>僅適用於同盟需要與協力廠商執行 Office Communications Server 2007</p></td>
 </tr>
 <tr class="even">
-<td><p>A/V/STUN、MSTURN/UDP/3478</p></td>
-<td><p>Edge 伺服器 A/V 邊緣服務公用 IP 位址</p></td>
-<td><p>每</p></td>
-<td><p>3478 [輸出] 是用來判斷 Lync Server 所與之通訊的邊緣伺服器版本，也是從邊緣伺服器到邊緣伺服器的媒體流量。 使用 Lync Server 2010、Windows Live Messenger 和 Office 通訊伺服器 2007 R2 進行聯盟所需，以及在公司中部署了多個 Edge 池的情況。</p></td>
+<td><p>A/V/STUN，MSTURN/UDP/3478</p></td>
+<td><p>Edge Server A / V Edge service 公用 IP 位址</p></td>
+<td><p>任何</p></td>
+<td><p>3478 輸出用於判斷 Lync Server 與通訊，以及從 Edge Server 至 Edge Server 的媒體流量的 Edge Server 的版本。 所需的 Lync Server 2010、 Windows Live Messenger 與 Office Communications Server 2007 R2，同盟，以及如果公司內部署多個 Edge 集區。</p></td>
 </tr>
 <tr class="odd">
-<td><p>A/V/STUN、MSTURN/UDP/3478</p></td>
-<td><p>每</p></td>
-<td><p>Edge 伺服器 A/V 邊緣服務公用 IP 位址</p></td>
-<td><p>STUN/開啟候選人對 UDP/3478 的協商</p></td>
+<td><p>A/V/STUN，MSTURN/UDP/3478</p></td>
+<td><p>任何</p></td>
+<td><p>Edge Server A / V Edge service 公用 IP 位址</p></td>
+<td><p>透過 UDP/3478 之 STUN/TURN 候選的交涉</p></td>
 </tr>
 <tr class="even">
-<td><p>A/V/STUN、MSTURN/TCP/443</p></td>
-<td><p>每</p></td>
-<td><p>Edge 伺服器 A/V 邊緣服務公用 IP 位址</p></td>
-<td><p>STUN/開啟候選人對 TCP/443 的協商</p></td>
+<td><p>A/V/STUN，MSTURN/TCP/443</p></td>
+<td><p>任何</p></td>
+<td><p>Edge Server A / V Edge service 公用 IP 位址</p></td>
+<td><p>透過 UDP/443 之 STUN/TURN 候選的交涉</p></td>
 </tr>
 <tr class="odd">
-<td><p>A/V/STUN、MSTURN/TCP/443</p></td>
-<td><p>Edge 伺服器 A/V 邊緣服務公用 IP 位址</p></td>
-<td><p>每</p></td>
-<td><p>STUN/開啟候選人對 TCP/443 的協商</p></td>
+<td><p>A/V/STUN，MSTURN/TCP/443</p></td>
+<td><p>Edge Server A / V Edge service 公用 IP 位址</p></td>
+<td><p>任何</p></td>
+<td><p>透過 UDP/443 之 STUN/TURN 候選的交涉</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="firewall-summary-for-scaled-consolidated-edge-hardware-load-balanced-internal-interface-node-1-and-node-2"></a>用於調整合並邊緣的防火牆摘要、硬體負載平衡：內部介面節點1和節點2
+### <a name="firewall-summary-for-scaled-consolidated-edge-hardware-load-balanced-internal-interface-node-1-and-node-2"></a>調整式合併 Edge，硬體負載平衡的防火牆摘要： 內部介面節點 1 與節點 2
 
 <table>
 <colgroup>
@@ -152,108 +152,108 @@ _**主題上次修改日期：** 2015-04-27_
 </colgroup>
 <thead>
 <tr class="header">
-<th>角色/通訊協定/TCP 或 UDP/埠</th>
+<th>角色/通訊協定/TCP 或 UDP/連接埠</th>
 <th>來源 IP 位址</th>
 <th>目的地 IP 位址</th>
-<th>筆記</th>
+<th>附註</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>XMPP/MTLS/TCP/23456</p></td>
-<td><p>[任何] （可以定義為前端伺服器位址，或執行 XMPP 閘道服務的前端池虛擬 IP 位址）</p></td>
-<td><p>Edge 伺服器內部介面</p></td>
-<td><p>在前端伺服器或前端池上執行的 XMPP 閘道服務的輸出 XMPP 流量</p></td>
+<td><p>任何 （可定義為前端伺服器位址] 或 [前端集區虛擬 IP 位址執行 「 XMPP 閘道服務）</p></td>
+<td><p>Edge Server 內部介面</p></td>
+<td><p>從前端伺服器或前端集區上執行的 XMPP 閘道服務的輸出 XMPP 流量</p></td>
 </tr>
 <tr class="even">
 <td><p>HTTPS/TCP/4443</p></td>
-<td><p>[任何] （可定義為擁有中央管理儲存區的前端伺服器伺服器 IP 或池）</p></td>
-<td><p>Edge 伺服器內部介面</p></td>
-<td><p>從中央管理儲存體將變更複製到 Edge 伺服器</p></td>
+<td><p>任何 （可定義為前端伺服器 server IP 或保有中央管理存放區的集區）</p></td>
+<td><p>Edge Server 內部介面</p></td>
+<td><p>從中央管理存放區的 Edge server 的變更的複寫</p></td>
 </tr>
 <tr class="odd">
 <td><p>PSOM/MTLS/TCP/8057</p></td>
-<td><p>[任何] （可以定義為 [控制器 IP]、[前端伺服器 IP] 或 [池虛擬 IP]）</p></td>
-<td><p>Edge 伺服器內部介面</p></td>
-<td><p>從內部部署到內部邊緣伺服器介面的網路會議流量</p></td>
+<td><p>任何 （可定義為 Director IP、 前端伺服器 IP 或集區虛擬 IP）</p></td>
+<td><p>Edge Server 內部介面</p></td>
+<td><p>從內部部署至 Internal Edge Server 介面的 web 會議流量</p></td>
 </tr>
 <tr class="even">
 <td><p>STUN/MSTURN/UDP/3478</p></td>
-<td><p>[任何] （可以定義為 [控制器 IP]、[前端伺服器 IP] 或 [池虛擬 IP]）</p></td>
-<td><p>Edge 伺服器內部介面</p></td>
-<td><p>內部與外部使用者之間的 A/V 媒體傳輸的首選路徑、Survivable 分支裝置或 Survivable 分支伺服器</p></td>
+<td><p>任何 （可定義為 Director IP、 前端伺服器 IP 或集區虛擬 IP）</p></td>
+<td><p>Edge Server 內部介面</p></td>
+<td><p>慣用的路徑 a / V 媒體傳輸內部與外部使用者，Survivable Branch Appliance 或 Survivable Branch 伺服器之間</p></td>
 </tr>
 <tr class="odd">
 <td><p>STUN/MSTURN/TCP/443</p></td>
-<td><p>[任何] （可以定義為 [控制器 IP]、[前端伺服器 IP] 或 [池虛擬 IP]）</p></td>
-<td><p>Edge 伺服器內部介面</p></td>
-<td><p>內部與外部使用者之間的 A/V 媒體傳輸的回退路徑、Survivable 分支裝置或 Survivable 分支伺服器如果無法建立 UDP 通訊，則會使用 TCP 進行檔案傳輸與桌面共用</p></td>
+<td><p>任何 （可定義為 Director IP、 前端伺服器 IP 或集區虛擬 IP）</p></td>
+<td><p>Edge Server 內部介面</p></td>
+<td><p>後援路徑 a / V 媒體傳輸內部與外部使用者，Survivable Branch Appliance 或 Survivable Branch 伺服器之間，如果無法建立 UDP 通訊、 TCP 用於檔案傳輸及桌面共用</p></td>
 </tr>
 <tr class="even">
 <td><p>MTLS/TCP/50001</p></td>
-<td><p>每</p></td>
-<td><p>Edge 伺服器內部介面</p></td>
-<td><p>使用 Lync Server 管理命令介面與集中式記錄服務 Cmdlet、ClsController 命令列（ClsController）或 agent （ClsAgent .exe）命令和記錄集合的集中式記錄服務控制器</p></td>
+<td><p>任何</p></td>
+<td><p>Edge Server 內部介面</p></td>
+<td><p>使用 Lync Server 管理命令介面和 Centralized Logging Service 指令程式、 ClsController 命令列 (ClsController.exe) 或代理程式 (ClsAgent.exe) 命令和記錄集合的集中式記錄服務控制站</p></td>
 </tr>
 <tr class="odd">
 <td><p>MTLS/TCP/50002</p></td>
-<td><p>每</p></td>
-<td><p>Edge 伺服器內部介面</p></td>
-<td><p>使用 Lync Server 管理命令介面與集中式記錄服務 Cmdlet、ClsController 命令列（ClsController）或 agent （ClsAgent .exe）命令和記錄集合的集中式記錄服務控制器</p></td>
+<td><p>任何</p></td>
+<td><p>Edge Server 內部介面</p></td>
+<td><p>使用 Lync Server 管理命令介面和 Centralized Logging Service 指令程式、 ClsController 命令列 (ClsController.exe) 或代理程式 (ClsAgent.exe) 命令和記錄集合的集中式記錄服務控制站</p></td>
 </tr>
 <tr class="even">
 <td><p>MTLS/TCP/50003</p></td>
-<td><p>每</p></td>
-<td><p>Edge 伺服器內部介面</p></td>
-<td><p>使用 Lync Server 管理命令介面與集中式記錄服務 Cmdlet、ClsController 命令列（ClsController）或 agent （ClsAgent .exe）命令和記錄集合的集中式記錄服務控制器</p></td>
+<td><p>任何</p></td>
+<td><p>Edge Server 內部介面</p></td>
+<td><p>使用 Lync Server 管理命令介面和 Centralized Logging Service 指令程式、 ClsController 命令列 (ClsController.exe) 或代理程式 (ClsAgent.exe) 命令和記錄集合的集中式記錄服務控制站</p></td>
 </tr>
 </tbody>
 </table>
 
 
-硬體負載平衡器在部署時有特定的需求，以提供 Lync Server 的可用性與負載平衡。 這些需求是在下圖和資料表中定義。 協力廠商廠商對於此處定義的需求，可能會使用不同的術語。 您必須將 Lync Server 的需求對應到您的硬體負載平衡器提供者所提供的功能和設定選項。
+硬體負載平衡器有時提供可用性和負載平衡的 Lync Server 部署的特定需求。 下圖與資料表中定義的需求。 第三方廠商可能使用不同的術語，如以下所定義的需求。 您必須將 Lync Server 的需求對應至您的硬體負載平衡器廠商所提供的組態選項的功能。
 
-配置硬體負載平衡器時，請考慮下列需求：
+當設定硬體負載平衡器，請考慮下列需求：
 
-  - 您可以在硬體負載平衡器（HLB）上設定來源網路位址轉譯（SNAT），以存取邊緣服務和網路會議 Edge 服務
+  - 來源網路位址轉譯 (SNAT) 可以設定上的 Access Edge service 和 Web Conferencing Edge service 的硬體負載平衡器 (HLB)
 
-  - SNAT 不能在 A/V 邊緣服務上設定-A/V Edge 服務必須回應實際的伺服器位址，而不是 HLB 的虛擬 IP （VIP），以便透過 NAT （STUN）/traversal 使用中繼 NAT （關閉）/federation 轉彎（FTURN）來正常運作
+  - SNAT 無法進行設定的 a / V Edge service – A / V Edge service 必須回應與實際的伺服器位址，不 HLB 虛擬 IP (VIP)，如簡單周遊 UDP 透過 NAT (STUN) / 周遊使用轉送 NAT （開啟） / 同盟開啟 (FTURN) 才能正常運作
     
-      - 如果用戶端傳送要求給 HLB，回應必須從 HLB VIP 傳回
+      - 如果用戶端會將要求傳送至 HLB，回應必須來自回 HLB VIP
     
-      - 如果用戶端傳送要求給邊緣，回應必須從邊緣 IP 傳回
+      - 如果用戶端會將要求傳送至 Edge，回應必須來自回 Edge IP
 
-  - 公用 IP 位址是在每個伺服器介面和 HLB 的 Vip 上使用，而您的公用 IP 位址需求是 N + 1，其中包含每個真實伺服器介面的公用 IP 位址，以及每個 HLB VIP 的一個公用 IP 位址。 如果您在池中有2台邊緣伺服器，這會產生9個公用 IP 位址，其中3個是用於 HLB Vip，另一個用於每個 Edge 伺服器介面（在伺服器上總共6個）
+  - HLB Vip 和每個伺服器介面上使用公用 IP 位址和您的公用 IP 位址需求為 N + 1，其中有是實際的伺服器的每個介面，另一個用於每個 HLB VIP 公用 IP 位址。 其中您有 2 Edge server 集區，這會導致 9 公用 IP 位址，其中 3 及所用的 HLB Vip，一個用於每個 Edge server 介面 （6 的伺服器總計）
 
-  - 針對 [存取邊緣服務] 和 [Web 會議 Edge 服務] （以及在 HLB 上使用 NAT），用戶端會與 VIP 進行聯絡，而 VIP 會將來源 IP 位址從用戶端變更為自己的 IP 位址。 伺服器介面會將寄件者位址定址至 VIP，而 VIP 會從伺服器介面 IP 位址變更來源位址，並將資料包傳送給用戶端。
+  - Access edge service 和 Web Conferencing Edge service] （和 HLB 上使用 NAT） 用戶端的連絡人的 VIP，來源 IP 位址從用戶端它自己的 IP 位址的 VIP 變更。 伺服器介面 vip，來源地址從伺服器介面 IP 位址的 VIP 變更位址的回覆地址，並將封包傳送到用戶端
 
-  - 在 A/V 邊緣服務中，VIP 不能變更來源 IP 位址，而真正的伺服器位址會直接傳回用戶端–您無法在 HLB 上設定 NAT 以進行 AV 流量
+  - A / V Edge service 為 VIP 不得變更來源 IP 位址，以及實際的伺服器位址直接傳回給用戶端 – 您不能用於 AV 流量 HLB 上設定 NAT
     
-      - 如果用戶端傳送要求至 HLB VIP，回應必須從 HLB VIP 傳回
+      - 如果用戶端會將要求傳送至 HLB VIP，回應必須來自回 HLB VIP
     
-      - 如果用戶端傳送要求至 Edge IP，回應必須從邊緣 IP 傳回
+      - 如果用戶端會將要求傳送至 Edge IP，回應必須來自回 Edge IP
 
-  - 針對 AV，外部防火牆會保留所有資料包的真實伺服器公用 IP 位址
+  - AV，如外部防火牆會保留所有的封包的實際的伺服器公用 IP 位址
 
-  - 一旦建立，用戶端到 A/V 邊緣服務通訊就是真實的伺服器，而不是 HLB
+  - 一次建立的用戶端 a / V Edge 服務通訊是實際的伺服器，不 HLB
 
-  - 內部邊緣至內部伺服器和用戶端必須路由，且為主機伺服器或用戶端的所有內部網路設定持久路由
+  - 必須路由傳送至內部伺服器和用戶端的內部邊緣，並在該主機伺服器或用戶端的所有內部網路設定持續路由
 
-  - HLB 存取邊緣服務 VIP 將充當每個 Edge 伺服器介面的預設閘道
+  - HLB Access Edge service VIP 做為預設閘道，以每個 Edge server 介面
 
 <div>
 
 
 > [!NOTE]
-> 如需有關 NAT 規劃與功能的進一步資訊，請參閱<A href="lync-server-2013-hardware-load-balancer-requirements.md">Lync Server 2013 的硬體負載平衡器需求</A>。
+> 如需規劃 NAT 和功能的進一步資訊，請參閱<A href="lync-server-2013-hardware-load-balancer-requirements.md">硬體負載平衡器需求，針對 Lync Server 2013</A>。
 
 
 
 </div>
 
-![Edge Server 連接埠與通訊協定詳細資訊](images/Gg398739.1c193b80-98ab-4d59-a854-dbfdb5e209e2(OCS.15).jpg "Edge Server 連接埠與通訊協定詳細資訊")
+![Edge Server 的連接埠和通訊協定詳細資料](images/Gg398739.1c193b80-98ab-4d59-a854-dbfdb5e209e2(OCS.15).jpg "Edge Server 的連接埠和通訊協定詳細資料")
 
-### <a name="external-port-settings-required-for-scaled-consolidated-edge-hardware-load-balanced-external-interface-virtual-ips"></a>已調整的合併邊緣所需的外部埠設定、硬體負載平衡：外部介面虛擬 Ip
+### <a name="external-port-settings-required-for-scaled-consolidated-edge-hardware-load-balanced-external-interface-virtual-ips"></a>外部連接埠設定所需的調整式合併 Edge，硬體負載平衡： 外部介面虛擬 Ip
 
 <table>
 <colgroup>
@@ -264,66 +264,66 @@ _**主題上次修改日期：** 2015-04-27_
 </colgroup>
 <thead>
 <tr class="header">
-<th>角色/通訊協定/TCP 或 UDP/埠</th>
+<th>角色/通訊協定/TCP 或 UDP/連接埠</th>
 <th>來源 IP 位址</th>
 <th>目的地 IP 位址</th>
-<th>筆記</th>
+<th>附註</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>XMPP/TCP/5269</p></td>
-<td><p>每</p></td>
-<td><p>XMPP Proxy service （與存取邊緣服務共用 IP 位址）</p></td>
-<td><p>XMPP Proxy service 接受來自已定義 XMPP 聯合體中 XMPP 連絡人的流量</p></td>
+<td><p>任何</p></td>
+<td><p>XMPP Proxy 服務 （與 Access Edge 服務共用 IP 位址）</p></td>
+<td><p>XMPP Proxy 服務接受來自定義之 XMPP 同盟中 XMPP 連絡人的流量</p></td>
 </tr>
 <tr class="even">
 <td><p>XMPP/TCP/5269</p></td>
-<td><p>XMPP Proxy service （與存取邊緣服務共用 IP 位址）</p></td>
-<td><p>每</p></td>
-<td><p>XMPP Proxy service 會傳送流量給已定義 XMPP 聯合體中的 XMPP 連絡人</p></td>
+<td><p>XMPP Proxy 服務 （與 Access Edge 服務共用 IP 位址）</p></td>
+<td><p>任何</p></td>
+<td><p>XMPP Proxy 服務將流量傳送至已定義之 XMPP 同盟中 XMPP 連絡人</p></td>
 </tr>
 <tr class="odd">
-<td><p>Access/SIP （TLS）/TCP/443</p></td>
-<td><p>每</p></td>
+<td><p>Access/SIP (TLS) / TCP/443</p></td>
+<td><p>任何</p></td>
 <td><p>Access Edge 服務公用 VIP 位址</p></td>
-<td><p>外部使用者存取的用戶端到伺服器 SIP 流量</p></td>
+<td><p>外部使用者存取從用戶端到伺服器的 SIP 流量</p></td>
 </tr>
 <tr class="even">
-<td><p>Access/SIP （MTLS）/TCP/5061</p></td>
-<td><p>每</p></td>
+<td><p>Access/SIP (MTLS) / TCP/5061</p></td>
+<td><p>任何</p></td>
 <td><p>Access Edge 服務公用 VIP 位址</p></td>
-<td><p>使用 SIP 的 SIP 信號、同盟與公用 IM 連線</p></td>
+<td><p>SIP 使用 SIP 信號、 同盟與公用 IM 連線</p></td>
 </tr>
 <tr class="odd">
-<td><p>Access/SIP （MTLS）/TCP/5061</p></td>
+<td><p>Access/SIP (MTLS) / TCP/5061</p></td>
 <td><p>Access Edge 服務公用 VIP 位址</p></td>
-<td><p>聯盟合作夥伴</p></td>
-<td><p>使用 SIP 的 SIP 信號、同盟與公用 IM 連線</p></td>
+<td><p>同盟協力廠商</p></td>
+<td><p>SIP 使用 SIP 信號、 同盟與公用 IM 連線</p></td>
 </tr>
 <tr class="even">
-<td><p>網路會議/PSOM （TLS）/TCP/443</p></td>
-<td><p>每</p></td>
-<td><p>Edge 伺服器網路會議 Edge 服務公用 VIP 位址</p></td>
-<td><p>網路會議媒體</p></td>
+<td><p>Web 會議 /PSOM (TLS) / TCP/443</p></td>
+<td><p>任何</p></td>
+<td><p>Edge Server Web Conferencing Edge service 公用 VIP 位址</p></td>
+<td><p>Web 會議媒體</p></td>
 </tr>
 <tr class="odd">
-<td><p>A/V/STUN、MSTURN/UDP/3478</p></td>
-<td><p>每</p></td>
-<td><p>Edge 伺服器 A/V 邊緣服務公用 VIP 位址</p></td>
-<td><p>STUN/開啟候選人對 UDP/3478 的協商</p></td>
+<td><p>A/V/STUN，MSTURN/UDP/3478</p></td>
+<td><p>任何</p></td>
+<td><p>Edge Server A / V Edge service 公用 VIP 位址</p></td>
+<td><p>透過 UDP/3478 之 STUN/TURN 候選的交涉</p></td>
 </tr>
 <tr class="even">
-<td><p>A/V/STUN、MSTURN/TCP/443</p></td>
-<td><p>每</p></td>
-<td><p>Edge 伺服器 A/V 邊緣服務公用 VIP 位址</p></td>
-<td><p>STUN/開啟候選人對 TCP/443 的協商</p></td>
+<td><p>A/V/STUN，MSTURN/TCP/443</p></td>
+<td><p>任何</p></td>
+<td><p>Edge Server A / V Edge service 公用 VIP 位址</p></td>
+<td><p>透過 UDP/443 之 STUN/TURN 候選的交涉</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="firewall-summary-for-scaled-consolidated-edge-hardware-load-balanced-internal-interface-virtual-ips"></a>用於調整合並邊緣的防火牆摘要、硬體負載平衡：內部介面虛擬 Ip
+### <a name="firewall-summary-for-scaled-consolidated-edge-hardware-load-balanced-internal-interface-virtual-ips"></a>調整式合併 Edge，硬體負載平衡的防火牆摘要： 內部介面虛擬 Ip
 
 <table>
 <colgroup>
@@ -334,48 +334,48 @@ _**主題上次修改日期：** 2015-04-27_
 </colgroup>
 <thead>
 <tr class="header">
-<th>角色/通訊協定/TCP 或 UDP/埠</th>
+<th>角色/通訊協定/TCP 或 UDP/連接埠</th>
 <th>來源 IP 位址</th>
 <th>目的地 IP 位址</th>
-<th>筆記</th>
+<th>附註</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Access/SIP （MTLS）/TCP/5061</p></td>
-<td><p>[任何] （可定義為 [控制器]、[控制器池] 虛擬 IP 位址、[前端伺服器] 或 [前端池虛擬 IP 位址]）</p></td>
-<td><p>Edge 伺服器內部 VIP 介面</p></td>
-<td><p>輸出 SIP 流量（從控制器、控制器池虛擬 IP 位址、前端伺服器或前端池虛擬 IP 位址）到內部邊緣 VIP</p></td>
+<td><p>Access/SIP (MTLS) / TCP/5061</p></td>
+<td><p>任何 （可定義為 Director，Director 集區虛擬 IP 位址、 前端伺服器或前端集區虛擬 IP 位址）</p></td>
+<td><p>Edge Server 內部 VIP 介面</p></td>
+<td><p>輸出 SIP 流量 （來自 Director、 Director 集區虛擬 IP 位址、 前端伺服器或前端集區虛擬 IP 位址) 內部 Edge VIP</p></td>
 </tr>
 <tr class="even">
-<td><p>Access/SIP （MTLS）/TCP/5061</p></td>
-<td><p>Edge 伺服器內部 VIP 介面</p></td>
-<td><p>[任何] （可定義為 [控制器]、[控制器池] 虛擬 IP 位址、[前端伺服器] 或 [前端池虛擬 IP 位址]）</p></td>
-<td><p>來自 Edge 伺服器內部介面的入站 SIP 流量（針對控制器、控制器池虛擬 IP 位址、前端伺服器或前端池虛擬 IP 位址）</p></td>
+<td><p>Access/SIP (MTLS) / TCP/5061</p></td>
+<td><p>Edge Server 內部 VIP 介面</p></td>
+<td><p>任何 （可定義為 Director，Director 集區虛擬 IP 位址、 前端伺服器或前端集區虛擬 IP 位址）</p></td>
+<td><p>輸入從 Edge Server 內部介面的 SIP 流量 （至 Director、 Director 集區虛擬 IP 位址、 前端伺服器或前端集區虛擬 IP 位址)</p></td>
 </tr>
 <tr class="odd">
 <td><p>SIP/MTLS/TCP/5062</p></td>
-<td><p>[任何] （可以使用此 Edge 伺服器定義為前端伺服器 IP 位址或前端池 IP 位址或任何 Survivable 分支裝置或 Survivable 分支伺服器）</p></td>
-<td><p>Edge 伺服器內部 VIP 介面</p></td>
-<td><p>使用此 Edge 伺服器從前端伺服器或前端池 IP 位址或任何 Survivable 分支裝置或 Survivable 分支伺服器驗證 A/V 使用者（A/V 驗證服務）</p></td>
+<td><p>任何 （可定義為前端伺服器 IP 位址，或前端集區的 IP 位址或任何 Survivable Branch Appliance 或 Survivable Branch 伺服器使用此 Edge Server）</p></td>
+<td><p>Edge Server 內部 VIP 介面</p></td>
+<td><p>驗證 A / V 使用者 (A / V 驗證服務) 從前端伺服器或前端集區 IP 位址或任何 Survivable Branch Appliance 或 Survivable Branch 伺服器使用此 Edge Server</p></td>
 </tr>
 <tr class="even">
 <td><p>STUN/MSTURN/UDP/3478</p></td>
-<td><p>每</p></td>
-<td><p>Edge 伺服器內部 VIP 介面</p></td>
-<td><p>內部與外部使用者之間的 A/V 媒體傳輸的首選路徑</p></td>
+<td><p>任何</p></td>
+<td><p>Edge Server 內部 VIP 介面</p></td>
+<td><p>內部與外部使用者之間 A/V 媒體傳輸的慣用路徑</p></td>
 </tr>
 <tr class="odd">
 <td><p>STUN/MSTURN/TCP/443</p></td>
-<td><p>每</p></td>
-<td><p>Edge 伺服器內部 VIP 介面</p></td>
-<td><p>內部與外部使用者之間的 A/V 媒體傳輸的回退路徑如果無法建立 UDP 通訊，則會使用 TCP 進行檔案傳輸與桌面共用</p></td>
+<td><p>任何</p></td>
+<td><p>Edge Server 內部 VIP 介面</p></td>
+<td><p>內部及外部使用者之間 A/V 媒體傳輸的後援路徑，如果無法建立 UDP 通訊，就會使用 TCP 進行檔案傳輸及桌面共用</p></td>
 </tr>
 <tr class="even">
 <td><p>STUN/MSTURN/TCP/443</p></td>
-<td><p>Edge 伺服器內部 VIP 介面</p></td>
-<td><p>每</p></td>
-<td><p>內部與外部使用者之間的 A/V 媒體傳輸的回退路徑如果無法建立 UDP 通訊，則會使用 TCP 進行檔案傳輸與桌面共用</p></td>
+<td><p>Edge Server 內部 VIP 介面</p></td>
+<td><p>任何</p></td>
+<td><p>內部及外部使用者之間 A/V 媒體傳輸的後援路徑，如果無法建立 UDP 通訊，就會使用 TCP 進行檔案傳輸及桌面共用</p></td>
 </tr>
 </tbody>
 </table>

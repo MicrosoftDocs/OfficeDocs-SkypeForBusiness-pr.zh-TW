@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：安全性規劃
+title: Lync Server 2013： 規劃安全性
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 56107267
 ms.date: 06/22/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 02028b3ed63fe8f5cd40fd118bd36c73af9d15cd
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3bcc5c5cb36717084f9ec5715feb30b11ced5a3e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725203"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045225"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,19 +35,19 @@ ms.locfileid: "41725203"
 
 <span> </span>
 
-_**主題上次修改日期：** 2016-06-22_
+_**主題上次修改日期：** 2016年-06-22_
 
-使用此安全性區段來評估與管理您的 Lync Server 2013 部署的安全性風險。
+使用此安全性] 區段中，評定和管理您的部署 Lync Server 2013 的安全性風險。
 
-即使您的 Lync Server 2013 部署適中，您的網路中也可能有自己的安全性檔案的元件。 因此，此區段不太可能涵蓋與您的部署有關之所有元件和區域的安全性的所有方面。
+即使您的 Lync Server 2013 部署是太大，您可能必須在您的網路中有自己的安全性文件的元件。 因此，也不太可能本節涵蓋所有元件和區域的改變您的部署安全性的各個層面。
 
-使用此章節作為開始使用 Lync Server 2013 部署安全性的起點。 它提供評估與管理最常見的安全性風險的一般指導方針和最佳做法。 其他產品和安全性資源列在每個主題的結尾。
+做為起點這個區段可用來處理 Lync Server 2013 部署的安全性。 它可以用來評估及管理最常見的安全性風險中提供一般指導方針和最佳作法。 其他的產品與安全性資源會列出每個主題結尾處。
 
 <div>
 
 
 > [!IMPORTANT]  
-> 安全性是一個不斷發展的主題。 隨著新的威脅與解決方案的出現，過期的檔、解決方案、方法及程式應該使用最新的資料來取代。
+> 安全性是一個持續不斷變化的主題。 為新的威脅與解決方案發生，以最新的材料應該取代過期文件、 解決方案、 方法及程序。
 
 
 
@@ -55,19 +55,19 @@ _**主題上次修改日期：** 2016-06-22_
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [Lync Server 2013 的主要安全性功能](lync-server-2013-key-security-features.md)
+  - [Lync Server 2013 中的關鍵安全性功能](lync-server-2013-key-security-features.md)
 
-  - [現代的日期計算中的常見安全性威脅](lync-server-2013-common-security-threats-in-modern-day-computing.md)
+  - [新式天運算的常見安全性威脅](lync-server-2013-common-security-threats-in-modern-day-computing.md)
 
-  - [Lync Server 2013 的防毒掃描排除項目](lync-server-2013-antivirus-scanning-exclusions.md)
+  - [防毒掃描排除的 Lync Server 2013](lync-server-2013-antivirus-scanning-exclusions.md)
 
   - [Lync Server 2013 的安全性架構](lync-server-2013-security-framework-for-lync-server.md)
 
-  - [針對 Lync Server 2013 的核心基礎結構解決威脅](lync-server-2013-addressing-threats-to-your-core-infrastructure.md)
+  - [處理 Lync Server 2013 的核心基礎結構的威脅](lync-server-2013-addressing-threats-to-your-core-infrastructure.md)
 
-  - [在 Lync Server 2013  中部署 SQL Server 非標準連接埠和別名](deploying-a-sql-server-nonstandard-port-and-alias-in-lync-server-2013.md)
+  - [部署 SQL Server 使用非標準連接埠和 Lync Server 2013 中的別名](deploying-a-sql-server-nonstandard-port-and-alias-in-lync-server-2013.md)
 
 </div>
 

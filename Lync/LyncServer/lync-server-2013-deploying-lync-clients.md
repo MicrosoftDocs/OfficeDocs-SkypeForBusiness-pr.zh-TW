@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：部署 Lync 用戶端
+title: Lync Server 2013： 部署 Lync 用戶端
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183925
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3d7f4497fb6842befba3f5facf5de023b94b4a76
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 351fc1b62f0ef72cb3580f3c5d43dc8486799aec
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733595"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050475"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploying-lync-clients-in-lync-server-2013"></a>在 Lync Server 2013 中部署 Lync 用戶端
+# <a name="deploying-lync-clients-in-lync-server-2013"></a>部署 Lync Server 2013 中的 Lync 用戶端
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41733595"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-03_
+_**主題上次修改日期：** 2012年-10-03_
 
-Lync 2013 為用戶端部署帶來了不同的方法。 從先前的版本出發，Lync 2013 不再有自己的安裝程式。 相反地，Lync 隨附于 Office 2013 安裝程式。 若要將 Lync 2013 部署至您的使用者，您可以使用 Office 2013 安裝方法和自訂工具。
+Lync 2013 引進了用戶端部署的不同方法。 從舊版不同，在 Lync 2013 就不再有它自己的安裝程式。 相反地，Lync 隨附於 Office 2013 安裝程式。 若要將 Lync 2013 部署到您的使用者，您可以使用 Office 2013 的安裝方式與自訂工具。
 
-  - **Office 2013 Windows 安裝程式**是一個以 Windows 安裝程式為基礎的安裝套件，由多個 MSI 檔案組成。 語言中立的核心 MSI 套件與一或多個語言特定套件結合，以製作完整的產品。 安裝程式會彙編個別套件，並在安裝使用者電腦上的 Office 期間和之後執行自訂及維護作業。 本節中的主題說明如何使用及自訂 Office 2013 Windows 安裝程式來部署 Lync 2013。
+  - **Office 2013 Windows Installer**是 Windows installer 安裝套件，包含多個 MSI 檔案。 中性語言核心 MSI 套件結合了一或多個特定語言套件，組成完整的產品。 安裝程式組合了個別套件，在安裝 Office 於使用者的電腦期間 (以及之後)，執行自訂與維護工作。 本節中的主題說明如何使用和自訂 Office 2013 Windows 安裝程式，以部署 Lync 2013。
 
-  - **Office 2013** [隨選即用] 是從 Microsoft office 365 入口網站將 Office 設定檔案流向使用者的安裝程式。 系統管理員可以使用 Office 部署工具進行「隨選即用」來自訂安裝。 因為 Office 2013 隨選即用主要是在 Microsoft Office 365 環境中使用，所以本節不詳細說明此安裝方法。 有關使用及自訂「隨選即用」安裝的詳細資訊，請參閱 Office 2013 資源套件檔。 系統管理員也可以將 Office 2013 隨選即用程式及語言來源檔案下載到內部部署位置，這在您想要將網路上的需求最小化或防止使用者從網際網路安裝軟體時很有用。公司安全性需求。
+  - **Office 2013 隨-即**是會從 Microsoft Office 365 入口網站串流 Office 安裝程式檔案傳送給使用者的安裝程式。 管理員可以使用隨選即用的 Office 部署工具來自訂安裝。 由於 Office 2013 到隨主要用於 Microsoft Office 365 環境，本節中的詳細資料不說明此安裝方法。 使用 Office 2013 Resource Kit > 文件中使用和自訂按一下-隨選即用安裝的詳細的資訊。 系統管理員也可以下載至內部部署位置，也就是很有用，當您想要減少網路上的需求，或防止使用者從網際網路由於安裝軟體的 Office 2013 按一下-隨選即用程式及語言來源檔案公司安全性需求。
 
-本節中的主題將重點放在如何使用 Office 2013 MSI 安裝程式部署用戶端。 您的主要參考應該是 Office 2013 資源套件檔，其中詳細說明如何準備您的基礎結構、自訂安裝程式，以及部署 Office 2013。 不過，您應該將 Office 檔與本節中的主題搭配使用，以指出 Lync 2013 專用的部署考慮。
+本節中的主題著重於如何使用 Office 2013 MSI 型安裝程式來部署用戶端。 您的主要參考應詳細說明如何準備您的基礎結構、 自訂安裝程式，並部署 Office 2013 Office 2013 Resource Kit > 文件。 不過，您應該使用本節各主題中，這是專屬於 Lync 2013 的部署考量註明搭配 Office 文件。
 
 <div>
 
@@ -51,9 +51,9 @@ Lync 2013 為用戶端部署帶來了不同的方法。 從先前的版本出發
 > [!NOTE]  
 > <UL>
 > <LI>
-> <P>Lync 2013 的線上會議增益集（支援 Outlook 訊息和共同作業用戶端中的會議管理）會自動使用 Lync 2013 進行安裝。</P>
+> <P>線上會議增益集 for Lync 2013 支援 Outlook 訊息和共同作業用戶端內管理會議，與 Lync 2013 自動安裝。</P>
 > <LI>
-> <P>Office 2013 安裝程式不會卸載舊版的 Lync 或 Office Communicator。 Lync 2013 用戶端與其他 Lync 或 Office Communicator 用戶端並排安裝</P></LI></UL>
+> <P>Office 2013 安裝程式不會解除安裝舊版的 Lync 或 Office Communicator。 Lync 2013 用戶端安裝並排顯示與其他 Lync 或 Office Communicator 用戶端</P></LI></UL>
 
 
 
@@ -61,15 +61,15 @@ Lync 2013 為用戶端部署帶來了不同的方法。 從先前的版本出發
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [在 Lync Server 2013 中自訂用戶端安裝](lync-server-2013-customizing-client-installation.md)
+  - [自訂 Lync Server 2013 中的用戶端安裝](lync-server-2013-customizing-client-installation.md)
 
-  - [在 Lync Server 2013 中自訂 Lync 行為和使用者介面](lync-server-2013-customizing-lync-behavior-and-the-user-interface.md)
+  - [自訂 Lync 2010 和 Lync Server 2013 中的使用者介面](lync-server-2013-customizing-lync-behavior-and-the-user-interface.md)
 
-  - [在 Lync Server 2013 中自訂線上會議增益集](lync-server-2013-customizing-the-online-meeting-add-in.md)
+  - [自訂的線上會議增益集在 Lync Server 2013](lync-server-2013-customizing-the-online-meeting-add-in.md)
 
-  - [在 Lync Server 2013 中設定會議加入頁面](lync-server-2013-configuring-the-meeting-join-page.md)
+  - [Lync Server 2013 中設定會議加入頁面](lync-server-2013-configuring-the-meeting-join-page.md)
 
   - [在 Lync Server 2013 中設定支援的用戶端版本](lync-server-2013-configuring-supported-client-versions.md)
 

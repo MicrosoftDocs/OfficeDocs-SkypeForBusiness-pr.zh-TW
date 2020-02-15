@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：執行最佳做法分析程式的需求
+title: 執行 Best Practices Analyzer Lync Server 2013： 需求
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183880
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ac02b2f6c6f47a59663a414635eebe1d2e4ec851
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1c265e73f94ddfe08b7f72a1d0b4e94958208ff8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723803"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045485"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="requirements-for-running-best-practices-analyzer-in-lync-server-2013"></a>在 Lync Server 2013 中執行最佳做法分析程式的需求
+# <a name="requirements-for-running-best-practices-analyzer-in-lync-server-2013"></a>執行 Lync Server 2013 中的最佳做法分析程式的需求
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41723803"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-09-19_
+_**主題上次修改日期：** 2012年-09-19_
 
-您可以使用 Lync Server 2013、最佳做法分析程式來掃描您的 Lync Server 2013 環境。 您無法使用它來掃描先前的環境，但是您可以使用舊版的工具來掃描這些環境。 如需有關下載並使用 Lync Server 2010 和 Office 通訊伺服器 2007 R2 版最佳做法分析程式的詳細資料，請參閱「Lync Server 2010、最佳做法[http://go.microsoft.com/fwlink/p/?linkId=210536](http://go.microsoft.com/fwlink/p/?linkid=256358)分析程式」和「Office 通訊伺服器2007與 Office 通訊伺服器 2007 R2 的最佳做法[http://go.microsoft.com/fwlink/p/?linkId=256358](http://go.microsoft.com/fwlink/p/?linkid=210651)分析程式」。
+您可以使用 Lync Server 2013，來掃描您的 Lync Server 2013 環境的最佳做法分析程式。 無法使用它來掃描舊版的環境，而必須使用舊版工具來掃描那些環境。 如需下載和使用 Lync Server 2010 和 Office Communications Server 2007 R2 版本的最佳做法分析程式的詳細資訊，請參閱 「 Lync Server 2010，最佳做法分析程式 」 在[http://go.microsoft.com/fwlink/p/?linkId=210536](http://go.microsoft.com/fwlink/p/?linkid=256358)和 」 最佳作法 Analyzer 的 Office Communications Server 2007 和 Office Communications Server 2007 R2 」 在[http://go.microsoft.com/fwlink/p/?linkId=256358](http://go.microsoft.com/fwlink/p/?linkid=210651)。
 
-開始進行掃描之前，您應該先確定 Lync Server 2013 環境中的所有元件都在執行和連線。
+之前開始掃描，您應該確定您的 Lync Server 2013 環境中的所有元件都都在執行並在線上。
 
 <div>
 
 
 > [!NOTE]  
-> 根據 Edge 伺服器的設定以及任何相關的周邊網路設定（包括防火牆設定和許可權），最佳做法分析程式可能無法存取及掃描您的邊緣伺服器。 如果您在掃描中包含 Edge 伺服器，且報告指出存取邊緣伺服器時發生問題，您可能會想要從掃描選項中移除邊緣伺服器，然後再次執行掃描，以使問題不會顯示在報表中。
+> 取決於 Edge Server 的組態及任何的相關周邊網路設定 (包括防火牆設定及權限)，最佳做法分析程式有可能無法存取並掃描 Edge Server。如果將 Edge Server 涵蓋在掃描中，而報告指出存取 Edge Server 發生問題，最好將 Edge Server 從掃描選項中移除，然後再次執行掃描，報告就不會顯示這個問題。
 
 
 

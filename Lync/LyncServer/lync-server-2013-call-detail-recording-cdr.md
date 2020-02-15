@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：通話詳細資料錄製（CDR）
+title: Lync Server 2013： 詳細通話記錄 (CDR)
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733675
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2e7490e974b970c7c0a68e16b03ed19306d89183
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bf5eb1c82b6cabff3657890c83f4e8240a30e23f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743143"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045375"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="call-detail-recording-cdr-in-lync-server-2013"></a>在 Lync Server 2013 中呼叫詳細資料錄製（CDR）
+# <a name="call-detail-recording-cdr-in-lync-server-2013"></a>通話詳細記錄 (CDR) 在 [Lync Server 2013
 
 </div>
 
@@ -35,32 +35,32 @@ ms.locfileid: "41743143"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-22_
+_**主題上次修改日期：** 2012年-10-22_
 
-通話詳細資料錄製（CDR）記錄使用狀況與對等活動的相關診斷資訊，包括實例訊息、透過網際網路通訊協定（VoIP）通話、應用程式共用、檔案傳輸及會議。 使用資料可用來計算投資回報率（ROI），而診斷資料可用來針對對等活動和會議進行疑難排解。 當您安裝 Lync Server 2013 時，您也會安裝預先定義的 CDR 全域配置設定集合。 使用本節中的主題來設定 CDR。
+詳細通話記錄 (CDR) 會記錄對等活動的使用和診斷資訊，包括立即訊息、Voice over Internet Protocol (VoIP) 通話、應用程式共用、檔案傳輸和會議。 使用資料可用來計算投資報酬率 (ROI)，而診斷資料可用來疑難排解對等活動和會議。 當您安裝 Lync Server 2013 時，您也會安裝預先定義的 CDR 的通用組態設定集合。 請使用本節中的主題來設定 CDR。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [在 Lync Server 2013 中查看 CDR 配置資訊](lync-server-2013-view-cdr-configuration-information.md)
+  - [Lync Server 2013 中檢視 CDR 組態資訊](lync-server-2013-view-cdr-configuration-information.md)
 
-  - [啟用 Lync Server 2013 的通話詳細資料錄製](lync-server-2013-enable-call-detail-recording.md)
+  - [啟用 Lync Server 2013 中的通話詳細記錄](lync-server-2013-enable-call-detail-recording.md)
 
-  - [在 Lync Server 2013 中建立或修改 CDR 配置設定的集合](lync-server-2013-create-or-modify-a-collection-of-cdr-configuration-settings.md)
+  - [建立或修改的 Lync Server 2013 中的 CDR 組態設定集合](lync-server-2013-create-or-modify-a-collection-of-cdr-configuration-settings.md)
 
-  - [在 Lync Server 2013 中刪除現有的 CDR 配置設定集合](lync-server-2013-delete-an-existing-collection-of-cdr-configuration-settings.md)
+  - [刪除現有的 Lync Server 2013 中的 CDR 組態設定集合](lync-server-2013-delete-an-existing-collection-of-cdr-configuration-settings.md)
 
-  - [在 Lync Server 2013 中手動清除通話詳細資料錄製和體驗的品質資料庫](lync-server-2013-manually-purging-the-call-detail-recording-and-quality-of-experience-databases.md)
+  - [手動清除詳細通話記錄及 Lync Server 2013 中的經驗品質資料庫](lync-server-2013-manually-purging-the-call-detail-recording-and-quality-of-experience-databases.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
-[在 Lync Server 2013 中設定通話詳細資料錄製和體驗品質設定](lync-server-2013-configuring-call-detail-recording-and-quality-of-experience-settings.md)  
+[在 Lync Server 2013 中設定詳細通話記錄與經驗品質設定](lync-server-2013-configuring-call-detail-recording-and-quality-of-experience-settings.md)  
   
 
 </div>

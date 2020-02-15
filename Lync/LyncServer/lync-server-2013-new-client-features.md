@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：新用戶端功能
+title: Lync Server 2013： 新的用戶端功能
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183431
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6f4709743df0cffaed9200bf3dc480cc19fd48f0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9aa31c37c2785d6e789fb6d02523ddd27cd8a152
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765784"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051437"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41765784"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-06-04_
+_**主題上次修改日期：** 2012年-06-04_
 
 下列各節說明 Lync Server 2013 用戶端的新功能和部署更新。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [Lync Server 2013 中的用戶端最新訊息](lync-server-2013-what-s-new-for-clients.md)
+  - [What's new for Lync Server 2013 中的用戶端](lync-server-2013-what-s-new-for-clients.md)
 
-  - [Lync Server 2013 中新增的裝置功能](lync-server-2013-what-s-new-for-devices.md)
+  - [What's new for Lync Server 2013 中的裝置](lync-server-2013-what-s-new-for-devices.md)
 
 </div>
 

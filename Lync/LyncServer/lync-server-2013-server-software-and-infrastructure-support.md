@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：伺服器軟體和基礎結構支援
+title: Lync Server 2013： 伺服器軟體和基礎結構支援
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184127
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9f9b7ef52da78219f66df79d9e02bc67786b76d8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ad3368748f7cbfa1c8ca41e1c563283ef5a390bb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764841"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051305"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41764841"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-06-29_
+_**主題上次修改日期：** 2012年-06-29_
 
-伺服器元件的軟體支援，包括所有 Lync Server 2013 伺服器角色和儲存空間，包括支援的作業系統、資料庫軟體、基礎結構軟體，以及支援特定功能所需的其他軟體。 它也包括伺服器元件的虛擬化。
+伺服器元件，包括所有 Lync Server 2013 伺服器角色與儲存裝置的軟體支援包括支援的作業系統、 資料庫軟體、 基礎結構軟體和其他支援特定功能所需的軟體。 也包括伺服器元件的虛擬化。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
   - [Lync Server 2013 中的伺服器及工具作業系統支援](lync-server-2013-server-and-tools-operating-system-support.md)
 
@@ -59,7 +59,7 @@ _**主題上次修改日期：** 2012-06-29_
 
   - [Lync Server 2013 中的 IP 和網路通訊協定支援](lync-server-2013-ip-and-networking-protocol-support.md)
 
-  - [Lync Server 2013 中的 Public Instant Messaging 支援](lync-server-2013-public-instant-messaging-support.md)
+  - [Lync Server 2013 中的 public instant messaging 支援](lync-server-2013-public-instant-messaging-support.md)
 
   - [Lync Server 2013 控制台的瀏覽器支援](lync-server-2013-browser-support-for-lync-server-control-panel.md)
 

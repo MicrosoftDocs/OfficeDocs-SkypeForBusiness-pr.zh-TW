@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：Phones 表格
+title: 'Lync Server 2013: Phones 表格'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183996
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cddf5eac7cc85852f4a7f61f4b746091158257e2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 53c3a67381a101bd9aecc4872d4e08b4fb8daea3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755183"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050835"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="phones-table-in-lync-server-2013"></a>Lync Server 2013 中的 Phones 表格
+# <a name="phones-table-in-lync-server-2013"></a>Lync Server 2013 中的 phones 表格
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41755183"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-08-20_
+_**主題上次修改日期：** 2012年-08-20 個_
 
-[電話] 資料表是支援表格。 資料表中的每一筆記錄都儲存 VoIP 通話中有記錄在資料庫中的一個電話號碼的相關資訊。
+Phones 表格是一種支援資料表。 在資料表中的每一筆記錄儲存一個電話號碼中擁有記錄資料庫中的 VoIP 通話的相關資訊。
 
 
 <table>
@@ -49,9 +49,9 @@ _**主題上次修改日期：** 2012-08-20_
 </colgroup>
 <thead>
 <tr class="header">
-<th>左欄</th>
+<th>欄</th>
 <th>資料類型</th>
-<th>索引鍵/索引</th>
+<th>主索引鍵 /</th>
 <th>詳細資料</th>
 </tr>
 </thead>
@@ -59,12 +59,12 @@ _**主題上次修改日期：** 2012-08-20_
 <tr class="odd">
 <td><p><strong>PhoneId</strong></p></td>
 <td><p>int</p></td>
-<td><p>首選</p></td>
-<td><p>標識此手機的唯一號碼。</p></td>
+<td><p>主要</p></td>
+<td><p>用於識別此電話的唯一號碼。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>PhoneUri</strong></p></td>
-<td><p>Nvarchar （450）</p></td>
+<td><p>nvarchar(450)</p></td>
 <td><p> </p></td>
 <td><p>電話號碼。</p></td>
 </tr>
@@ -72,8 +72,8 @@ _**主題上次修改日期：** 2012-08-20_
 <td><p><strong>NextUpdateTS</strong></p></td>
 <td><p>dateTime</p></td>
 <td></td>
-<td><p>時間戳記（僅供內部使用）。</p>
-<p>此欄位是在 Microsoft Lync Server 2013 中推出。</p></td>
+<td><p>時間戳記 （僅限內部使用）。</p>
+<p>Microsoft Lync Server 2013 中已採用此欄位。</p></td>
 </tr>
 </tbody>
 </table>

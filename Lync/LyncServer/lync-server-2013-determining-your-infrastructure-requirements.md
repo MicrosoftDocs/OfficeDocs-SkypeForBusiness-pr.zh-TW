@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：判斷基礎結構需求
+title: Lync Server 2013： 決定您的基礎結構需求
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185780
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d9a90b1e2b79532273b9035bc6614aa5bdd2ff96
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d5446972b10bd761cb5958dbfc2a3762698e4311
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762461"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049315"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="determining-your-infrastructure-requirements-for-lync-server-2013"></a>判斷 Lync Server 2013 的基礎結構需求
+# <a name="determining-your-infrastructure-requirements-for-lync-server-2013"></a>決定針對 Lync Server 2013 基礎結構需求
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41762461"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-09-10_
+_**主題上次修改日期：** 2012年-09-10_
 
-您必須找出並瞭解您的部署基礎結構需求，以便在部署 Lync Server 前規劃如何滿足這些需求。
+您必須識別並了解您的部署的基礎結構需求，以便您可以規劃如何符合這些需求，才能部署 Lync Server。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [判定 Lync Server 2013 的系統需求](lync-server-2013-determining-your-system-requirements.md)
+  - [決定您的 Lync Server 2013 的系統需求](lync-server-2013-determining-your-system-requirements.md)
 
-  - [Lync Server 2013 的 Active Directory 基礎結構需求](lync-server-2013-active-directory-infrastructure-requirements.md)
+  - [Lync Server 2013 的 active Directory 基礎結構需求](lync-server-2013-active-directory-infrastructure-requirements.md)
 
   - [Lync Server 2013 的憑證基礎結構需求](lync-server-2013-certificate-infrastructure-requirements.md)
 
-  - [Lync Server 2013 中的 Internet Information Services (IIS) 需求](lync-server-2013-internet-information-services-iis-requirements.md)
+  - [在 [Lync Server 2013 的網際網路資訊服務 (IIS) 需求](lync-server-2013-internet-information-services-iis-requirements.md)
 
 </div>
 

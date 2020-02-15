@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：回應群組的容量規劃
+title: Lync Server 2013： 容量規劃回應群組
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184951
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5efb1b928ce7b4bafbbff20ad31872fe12735fe0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4e5724978347b50db2790e4d5798aace8489acbb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736989"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046256"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="capacity-planning-for-response-group-in-lync-server-2013"></a>Lync Server 2013 中的回應群組的容量規劃
+# <a name="capacity-planning-for-response-group-in-lync-server-2013"></a>容量規劃的 Lync Server 2013 中的回應群組
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41736989"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-29_
+_**主題上次修改日期：** 2012年-10-29_
 
 <div id="sectionSection0" class="section">
 
-下表說明您可以用來做為容量規劃需求基礎的 [回應群組] 使用者模型。
+下表說明您可以使用容量規劃需求為基礎的回應群組使用者模型。
 
 <div>
 
 
 > [!NOTE]  
-> 下表中的數位假設您針對所有回應群組音訊檔案使用 16 kHz、單聲道、16位波（.wav）檔案。 如果您使用其他檔案格式（例如，Windows Media Audio （.wma）），這些數位可能會有所不同。
+> 下表中的數字假設，您使用 16 kHz 單音的 16 位元 Wave (.wav) 檔案的所有回應群組音訊檔案。 如果您使用其他檔案格式，例如 Windows Media Audio (.wma) 數字可能會有所不同。
 
 
 
@@ -55,7 +55,7 @@ _**主題上次修改日期：** 2012-10-29_
 
 
 > [!IMPORTANT]  
-> 請記住，對於災難復原容量規劃，配對池的每個池都應該能夠處理兩個池中所有回應群組的工作量。
+> 請記住，災害復原容量規劃，配對集區的每個集區應該能夠處理兩個集區中的所有回應群組的工作負載。
 
 
 
@@ -71,44 +71,44 @@ _**主題上次修改日期：** 2012-10-29_
 </colgroup>
 <thead>
 <tr class="header">
-<th>衡量</th>
-<th>每個企業版池（含8個前端伺服器）</th>
-<th>每個標準版 server</th>
+<th>評量</th>
+<th>每個 Enterprise Edition 集區 （使用 8 前端伺服器）</th>
+<th>每個 Standard Edition 伺服器</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>每秒來電數</p></td>
-<td><p>位</p></td>
-<td><p>2</p></td>
+<td><p>每秒來電</p></td>
+<td><p>16 </p></td>
+<td><p>2 </p></td>
 </tr>
 <tr class="even">
-<td><p>連線到 IVR 或 MoH 的並行呼叫</p></td>
+<td><p>連線至 IVR 或 MoH 的並行通話</p></td>
 <td><p>480</p></td>
 <td><p>60</p></td>
 </tr>
 <tr class="odd">
-<td><p>並行匿名會話（無 IM）</p></td>
+<td><p>並行匿名工作階段數 （不含 IM)</p></td>
 <td><p>224</p></td>
 <td><p>28</p></td>
 </tr>
 <tr class="even">
-<td><p>並行匿名會話（與 IM）</p></td>
+<td><p>並行匿名工作階段數 （包含 IM)</p></td>
 <td><p>64</p></td>
-<td><p>型</p></td>
+<td><p>8 </p></td>
 </tr>
 <tr class="odd">
-<td><p>使用中的代理程式（正式與非正式）</p></td>
+<td><p>作用中的代理程式 （正式和非正式）</p></td>
 <td><p>1200</p></td>
 <td><p>1200</p></td>
 </tr>
 <tr class="even">
-<td><p>查尋群組的數目</p></td>
+<td><p>群組搜尋數目</p></td>
 <td><p>400</p></td>
 <td><p>400</p></td>
 </tr>
 <tr class="odd">
-<td><p>IVR 群組數（使用語音辨識）</p></td>
+<td><p>（使用語音辨識） IVR 群組數</p></td>
 <td><p>200</p></td>
 <td><p>200</p></td>
 </tr>

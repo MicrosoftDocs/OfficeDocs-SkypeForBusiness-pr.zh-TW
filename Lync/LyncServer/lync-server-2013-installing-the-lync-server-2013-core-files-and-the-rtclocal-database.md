@@ -1,5 +1,5 @@
 ---
-title: 安裝 Lync Server 2013 core 檔案和 RTCLocal 資料庫
+title: 安裝 Lync Server 2013 核心檔案與 RTCLocal 資料庫
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183591
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: da8f0dd1fb83c595ed444a487d0321c571a09315
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c8502e1af9ddb607c25ed04429f6b5bb7fbfe980
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725993"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046806"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="installing-the-lync-server-2013-core-files-and-the-rtclocal-database"></a>安裝 Lync Server 2013 core 檔案和 RTCLocal 資料庫
+# <a name="installing-the-lync-server-2013-core-files-and-the-rtclocal-database"></a>安裝 Lync Server 2013 核心檔案與 RTCLocal 資料庫
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "41725993"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-20_
+_**主題上次修改日期：** 2012年-10-20 個_
 
-若要在電腦上安裝 Lync Server 2013 core 檔案，請完成下列程式。 當您安裝核心檔案時，系統會自動安裝 RTCLocal 資料庫。 請注意，您不需要在觀察程式節點上安裝 SQL Server。 相反地，系統會自動為您安裝 SQL Server Express。
+若要安裝在電腦上的 Lync Server 2013 核心檔案，請完成下列程序。 當您安裝的核心檔案時，會自動安裝 RTCLocal 資料庫。 請注意，您不需要在監看員節點上安裝 SQL Server。 相反地，SQL Server Express 會自動安裝您。
 
-若要安裝 Lync Server 2013 core 檔案和 RTCLocal 資料庫：
+若要安裝 Lync Server 2013 核心檔案與 RTCLocal 資料庫：
 
-1.  在觀察程式節點電腦上，按一下 [**開始**]，按一下 [**所有程式**]，按一下 [**附件**]，以滑鼠右鍵按一下**命令提示**字元，然後按一下 [**以系統管理員身分執行**]。
+1.  在監看員節點電腦上，按一下 [**開始]**、 [**所有程式]**、 [**附屬應用程式**、 以滑鼠右鍵按一下 [**命令提示字元處**，，然後按一下**以管理員身分執行**。
 
-2.  在主控台視窗中，輸入下列命令，然後按 ENTER，使用適用于 Lync 伺服器設定檔案的路徑：
+2.  在主控台視窗中，輸入下列命令，然後按 ENTER，Lync Server 安裝程式檔案使用適當的路徑：
     
         D:\Setup.exe /BootstrapLocalMgmt
 
-若要確認已成功安裝核心 Lync 伺服器元件，請按一下 [**開始**]，按一下 [**所有程式**]，按一下 [ **lync server 2013**]，然後按一下 [ **lync server Management Shell**]。 在 Lync Server 2013 管理命令介面中，輸入下列 Windows PowerShell 命令，然後按 ENTER：
+若要確認已成功安裝核心的 Lync Server 元件，按一下 [**開始]**、 [**所有程式]**、 [ **Lync Server 2013**]，然後按一下**Lync Server 管理命令介面**。 Lync Server 2013 管理命令介面中，輸入下列 Windows PowerShell 命令，並按 ENTER:
 
     Get-CsWatcherNodeConfiguration
 
-當您第一次執行此命令時，系統不會傳回任何資料，因為您尚未設定任何觀察程式節點電腦。 只要命令執行時不會傳回錯誤，您就可以假設 Lync Server 安裝程式已順利完成。
+第一次您執行此命令中，您不傳回任何資料是因為您有尚未設定任何監看員節點電腦上。 只要命令執行時未傳回錯誤，您可以假設 Lync Server 安裝程式順利完成。
 
-如果您的系統監控程式節點電腦位於周邊網路內，您可以執行下列命令以驗證 Lync Server 2013 的安裝：
+如果您的監看員節點電腦位於周邊網路內，您可以執行下列命令來確認 Lync Server 2013 的安裝：
 
     Get-CsPinPolicy
 
-您會收到如下所示的資訊，視您在組織中設定使用的個人識別碼（PIN）原則而定：
+您會收到類似下列命令，根據設定供組織使用的個人識別碼 (pin) 原則數量的資訊：
 
     Identity             : Global
     Description          :
@@ -67,7 +67,7 @@ _**主題上次修改日期：** 2012-10-20_
     PINLifetime          : 0
     MaximumLogonAttempts :
 
-如果您看到 PIN 原則的相關資訊，表示您已成功安裝核心元件。
+如果您看到 PIN 原則的相關的資訊，就表示您已成功安裝核心元件。
 
 </div>
 

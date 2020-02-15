@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：規劃組織
+title: Lync Server 2013： 規劃您的組織
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185940
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 80eda087b78fa5733f3ac58d758a7187c1061c91
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b0d2d9aa7bed75c4ae8667adca435175adfd138d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725173"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050585"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="organization-planning-for-lync-server-2013"></a>Lync Server 2013 的組織規劃
+# <a name="organization-planning-for-lync-server-2013"></a>規劃 Lync Server 2013 的組織
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41725173"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-09-24_
+_**主題上次修改日期：** 2012年-09-24_
 
-本節中的主題可協助您開始規劃 Lync Server 部署。
+本節中的主題可協助您開始使用 Lync Server 部署規劃。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [決定如何部署 Lync server 2013](lync-server-2013-deciding-how-to-deploy-microsoft-lync.md) ，提供在 Lync server 2013 的基本部署案例之間進行選擇的指導方針。
+  - [決定如何部署 Lync Server 2013](lync-server-2013-deciding-how-to-deploy-microsoft-lync.md)之間的 Lync Server 2013 這些基本部署案例選擇提供指導方針。
 
-  - [開始進行 Lync Server 2013 的規劃程式](lync-server-2013-beginning-the-planning-process.md)，可協助您瞭解如何開始規劃內部部署部署，以及規劃檔如何與拓撲建立器搭配使用。
+  - [開始 Lync Server 2013 的規劃程序](lync-server-2013-beginning-the-planning-process.md)可協助您了解如何開始規劃內部部署，以及規劃文件使用拓撲產生器的運作方式。
 
-  - [規劃 Lync server 2013 之前，您必須先瞭解](lync-server-2013-topology-basics-you-must-know-before-planning.md)lync server 拓撲的基本概念，包括支援高可用性和災害復原的網站、伺服器池及拓撲。
+  - [規劃 Lync Server 2013 的前必須知道的拓撲基本知識](lync-server-2013-topology-basics-you-must-know-before-planning.md)說明 Lync Server 拓撲，包括網站、 伺服器集區，以及支援高可用性與災害復原的拓撲的基本概念。
 
-  - [Lync server 2013 的初始規劃決定](lync-server-2013-initial-planning-decisions.md)會引導您完成您必須回答的問題，以決定 Lync Server 要部署的工作負荷和功能。
+  - [初始規劃決策以便 Lync Server 2013](lync-server-2013-initial-planning-decisions.md)會引導您完成決定哪些工作負載和 Lync Server 部署的功能，您必須回答的問題。
 
-  - [Lync Server 2013 的用戶端](lync-server-2013-clients.md)說明您可以部署至組織使用者的不同類型用戶端軟體，包括電腦安裝的用戶端軟體、web 用戶端及行動裝置。
+  - [Lync Server 2013 的用戶端](lync-server-2013-clients.md)說明不同類型的用戶端軟體，您可以部署到貴組織的使用者，包括電腦安裝用戶端軟體、 web 式用戶端和行動裝置。
 
-  - [Lync Server 2013 中的參照拓撲](lync-server-2013-reference-topologies.md)顯示三個範例拓朴，在三種典型的組織類型中，說明了良好的拓撲設計，並說明設計這些拓朴的許多決策背後的理由。
+  - [Lync Server 2013 中的參考拓撲](lync-server-2013-reference-topologies.md)顯示三個範例拓撲，以說明三種典型組織類型，良好拓撲設計，並解釋在設計這些拓撲的決策背後。
 
 </div>
 

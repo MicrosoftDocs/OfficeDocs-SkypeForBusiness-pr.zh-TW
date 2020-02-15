@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：設定通訊錄管理的 CsClientPolicy
+title: 'Lync Server 2013: Set-CsClientPolicy 適用於通訊錄管理'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185726
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 608f55660908a0fe6af3aa08aa8dd81f1fec0cf0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f726e42d5827c153cac08a11e43d4e4f9423da1d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764679"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046546"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="set-csclientpolicy-for-address-book-management-in-lync-server-2013"></a>在 Lync Server 2013 中設定通訊錄管理 CsClientPolicy
+# <a name="set-csclientpolicy-for-address-book-management-in-lync-server-2013"></a>適用於 Lync Server 2013 中的通訊錄管理的 Set-csclientpolicy
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41764679"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-11-01_
+_**主題上次修改日期：** 2012年-11-01_
 
-誰可以執行這個 Cmdlet：根據預設，下列群組的成員有權在本機執行 CsClientPolicy Cmdlet： RTCUniversalServerAdmins。 若要傳回已指派這個 Cmdlet 的所有角色式存取控制（RBAC）角色的清單（包括您自行建立的任何自訂 RBAC 角色），請在 Windows PowerShell 提示中執行下列命令：
+誰可以執行此 Cmdlet：下列群組的成員預設會獲授權可以在本機上執行 Set-CsClientPolicy Cmdlet：RTCUniversalServerAdmins。 若要傳回所有獲指派此 Cmdlet 的角色型存取控制 (RBAC) 角色清單 (包括您自行建立的自訂 RBAC 角色)，請在 Windows PowerShell 命令提示中執行下列命令：
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClientPolicy"}
 
-與 New-CsClientPolicy 類似，CsClientPolicy Cmdlet 可讓您修改現有的用戶端設定。
+類似於 New-csclientpolicy，Set-csclientpolicy cmdlet 可讓您修改已經已備妥的用戶端設定。
 
 例如：
 
@@ -52,7 +52,7 @@ _**主題上次修改日期：** 2012-11-01_
 ## <a name="see-also"></a>請參閱
 
 
-[Set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy)  
+[Set-csclientpolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy)  
   
 
 </div>

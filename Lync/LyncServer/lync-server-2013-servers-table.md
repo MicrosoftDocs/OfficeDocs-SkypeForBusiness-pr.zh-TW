@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：Servers 表格
+title: Lync Server 2013： 伺服器表格
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183487
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ce2bfcda6abe5ae60c5cd936f99f1adb80fd1eee
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2a11c909ab64b8e93c01376df05e64bc694385c4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764831"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049074"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="servers-table-in-lync-server-2013"></a>Lync Server 2013 中的 Servers 表格
+# <a name="servers-table-in-lync-server-2013"></a>Lync Server 2013 中的伺服器表格
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41764831"
 
 <span> </span>
 
-_**主題上次修改日期：** 2010-11-05_
+_**主題上次修改日期：** 2010年-11-05_
 
-[Servers] 資料表是一個支援資料表，可儲存各種伺服器的相關資訊。 資料表中的每一筆記錄代表一台伺服器。
+伺服器表格是一種支援資料表儲存的各種伺服器的相關資訊。 在資料表中的每一筆記錄代表一部伺服器。
 
 
 <table>
@@ -49,9 +49,9 @@ _**主題上次修改日期：** 2010-11-05_
 </colgroup>
 <thead>
 <tr class="header">
-<th>左欄</th>
+<th>欄</th>
 <th>資料類型</th>
-<th>索引鍵/索引</th>
+<th>主索引鍵 /</th>
 <th>詳細資料</th>
 </tr>
 </thead>
@@ -59,12 +59,12 @@ _**主題上次修改日期：** 2010-11-05_
 <tr class="odd">
 <td><p><strong>ServerId</strong></p></td>
 <td><p>int</p></td>
-<td><p>首選</p></td>
-<td><p>標識此伺服器的唯一號碼。</p></td>
+<td><p>主要</p></td>
+<td><p>用於識別此伺服器的唯一號碼。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ServerFQDN</strong></p></td>
-<td><p>Nvarchar （256）</p></td>
+<td><p>nvarchar(256)</p></td>
 <td><p> </p></td>
 <td><p>伺服器 FQDN。</p></td>
 </tr>

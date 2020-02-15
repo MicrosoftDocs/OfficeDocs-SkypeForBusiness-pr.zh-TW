@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：部署行動用戶端
+title: Lync Server 2013： 部署行動用戶端
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185854
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8b4b3d0e47172af35464cbd95e56a762f3d590fa
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4cd27963546b45425d6ddd134ce716b475f3dd1b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757627"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050605"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploying-mobile-clients-in-lync-server-2013"></a>在 Lync Server 2013 中部署行動用戶端
+# <a name="deploying-mobile-clients-in-lync-server-2013"></a>部署 Lync Server 2013 中的行動用戶端
 
 </div>
 
@@ -35,20 +35,20 @@ ms.locfileid: "41757627"
 
 <span> </span>
 
-_**主題上次修改日期：** 2013-02-19_
+_**上次修改主題：** 2013年-02-19_
 
-適用于行動用戶端的 Lync 2013 app 提供立即訊息（IM）、增強的目前狀態，以及由執行專業版 Windows Mobile 的電話連線的組織中的使用者電話。 您可以透過將 Lync 2013 導向給其行動電話的 app marketplace 來指示使用者安裝 Lync。
+Lync 2013 行動用戶端應用程式會提供立即訊息 (IM)、 增強型目前狀態和電話語音的組織中從智慧型手機或執行 Windows Mobile 的專業版的電話所連接的使用者。 您可以指示使用者導向至行動電話應用程式市集安裝 Lync 2013。
 
 <div>
 
 
 > [!NOTE]  
-> Lync Server 2013 也支援適用于行動用戶端的 Lync 2010。 如需詳細資訊，請參閱 Lync Server 2010 TechNet 文件庫中的下列文章： 
+> Lync Server 2013 行動用戶端也支援 Lync 2010。 如需詳細資訊，請參閱 < Lync Server 2010 TechNet library 中的下列文章： 
 > <UL>
 > <LI>
-> <P>「規劃行動用戶端」 <A href="http://go.microsoft.com/fwlink/p/?linkid=235955">http://go.microsoft.com/fwlink/p/?LinkID=235955</A>。</P>
+> <P>「 規劃行動用戶端 」 在<A href="http://go.microsoft.com/fwlink/p/?linkid=235955">http://go.microsoft.com/fwlink/p/?LinkID=235955</A>。</P>
 > <LI>
-> <P>[部署行動用戶端] <A href="http://go.microsoft.com/fwlink/p/?linkid=236068">http://go.microsoft.com/fwlink/p/?LinkID=236068</A>。</P></LI></UL>
+> <P>在 「 部署行動用戶端" <A href="http://go.microsoft.com/fwlink/p/?linkid=236068">http://go.microsoft.com/fwlink/p/?LinkID=236068</A>。</P></LI></UL>
 
 
 
@@ -56,11 +56,11 @@ _**主題上次修改日期：** 2013-02-19_
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [在 Lync Server 2013 中部署 Lync for Windows Phone](lync-server-2013-deploying-lync-for-windows-phone.md)
+  - [部署 Lync for Lync Server 2013 中的 Windows Phone](lync-server-2013-deploying-lync-for-windows-phone.md)
 
-  - [在 Lync Server 2013 中部署 iPhone 和 iPad 版 Lync](lync-server-2013-deploying-lync-for-iphone-and-ipad.md)
+  - [部署 Lync for iPhone 和 Lync Server 2013 中的 iPad](lync-server-2013-deploying-lync-for-iphone-and-ipad.md)
 
 </div>
 

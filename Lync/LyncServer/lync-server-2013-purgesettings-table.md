@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： PurgeSettings 表格
+title: 'Lync Server 2013: PurgeSettings 表'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184932
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 56ea95d0ba54a34eaa315ff345efb45cd563700c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 32522f0818b95e829bbb643dea8749e2f91d1f31
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747023"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045825"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="purgesettings-table-in-lync-server-2013"></a>Lync Server 2013 中的 PurgeSettings 表格
+# <a name="purgesettings-table-in-lync-server-2013"></a>Lync Server 2013 中的 PurgeSettings 表
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41747023"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-09-28_
+_**主題上次修改日期：** 2012年-09-28_
 
-PurgeSettings 資料表包含的資訊可指定是否會自動從 CDR 資料庫中刪除過時的呼叫詳細資料記錄。 請注意，您也可以透過執行下列命令，在 Microsoft Lync Server 2013 管理命令介面中取得清除相關資訊：
+PurgeSettings 表包含指定是否 （時） 的資訊從 CDR 資料庫會自動刪除過期的通話詳細記錄。 請注意，清除的相關資訊，還可以取得從 Microsoft Lync Server 2013 管理命令介面中執行下列命令：
 
     Get-CsCdrConfiguration
 
-系統管理員應該將 PurgeSettings 資料表視為唯讀：只有使用[新的-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsCdrConfiguration)或[Set CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsCdrConfiguration) Cmdlet，才能對通話詳細資料清除設定進行變更。
+系統管理員應將 PurgeSettings 表格視為唯讀： 通話詳細資料的清除設定應該只會變更使用[New-cscdrconfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsCdrConfiguration)或[Set-cscdrconfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsCdrConfiguration) cmdlet。
 
-此表格是在 Microsoft Lync Server 2013 中推出。
+Microsoft Lync Server 2013 中已採用此表格。
 
 
 <table>
@@ -55,42 +55,42 @@ PurgeSettings 資料表包含的資訊可指定是否會自動從 CDR 資料庫�
 </colgroup>
 <thead>
 <tr class="header">
-<th>左欄</th>
+<th>欄</th>
 <th>資料類型</th>
-<th>索引鍵/索引</th>
+<th>主索引鍵 /</th>
 <th>詳細資料</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>標識號</strong></p></td>
+<td><p><strong>Id</strong></p></td>
 <td><p>int</p></td>
-<td><p>首選</p></td>
-<td><p>CDR 清除設定集合的唯一識別碼。</p></td>
+<td><p>主要</p></td>
+<td><p>唯一識別項集合的 CDR 清除設定。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>EnablePurge</strong></p></td>
-<td><p>稍微</p></td>
+<td><p>位元</p></td>
 <td></td>
-<td><p>當設定為 True （1）時，Microsoft Lync Server 2013 會定期從 CDR 資料庫清除過時的記錄。 [清除] 會在每天的 PurgeHour 設定所指定的聖多美上進行。 如果設定為 False （0），則不會自動從資料庫清除記錄。 預設值為 True。</p></td>
+<td><p>當設為 True （1) Microsoft Lync Server 2013 會定期從 CDR 資料庫清除過期的記錄。 清除動作會每天在 PurgeHour 設定中指定的時間加以執行。 若設為 False (0)，就不會從資料庫自動清除記錄。 預設值為 True。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>KeepCallDetailForDays</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>指定將從資料庫清除的 CDR 記錄（天數）的存留期：如果已啟用清除，則早于此值的 CDR 記錄將會從資料庫中移除。 預設值為60天。</p></td>
+<td><p>指定的保留天數會從資料庫中清除的 CDR 記錄 （以天數）： 如果啟用 [清除]，將會從資料庫中移除 CDR 記錄超過此值。 預設值為 60 天。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>KeepErrorReportForDays</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>指定將從資料庫清除的錯誤報表記錄（天數）的存留期：如果已啟用清除，則超過此值的錯誤報表記錄將會從資料庫中移除。 預設值為60天。</p></td>
+<td><p>指定錯誤報告中的記錄 （天），將會從資料庫中清除存留期： 如果啟用 [清除]，將會從資料庫中移除錯誤報告的記錄超過此值。 預設值為 60 天。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>PurgeHour</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>指定要在進行資料庫清除時的當地時間。 時間是以 24 小時制指定，0 代表午夜 (12:00 AM)，而 23 則代表 11:00 PM。 請注意，您只能指定一天中的小時數：值為10（表示 10:00 AM），但不允許值為 10:30 of 10.5 （表示 10:30 AM）。 預設值為 2 (2:00 AM)。</p></td>
+<td><p>指定要執行資料庫清除的時間。 時間是以 24 小時制指定，0 代表午夜 (上午 12:00)，而 23 則代表下午 11:00。 請注意，您僅能指定時間的時數：允許將值設為 10 (代表上午 10:00)，但不允許設為 10:30 的 10.5 (代表上午 10:30)。 預設值為 2 (2:00 AM)。</p></td>
 </tr>
 </tbody>
 </table>

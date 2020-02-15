@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：設定通訊錄管理的 CsWebServiceConfiguration
+title: 'Lync Server 2013: Set-CsWebServiceConfiguration 適用於通訊錄管理'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184572
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e5c66339ba7f5efaa12ebe684d612280b50a49df
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 52c10e3a0a405b7f437573325470f48d38ecd931
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732273"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046536"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="set-cswebserviceconfiguration-for-address-book-management-in-lync-server-2013"></a>在 Lync Server 2013 中設定通訊錄管理 CsWebServiceConfiguration
+# <a name="set-cswebserviceconfiguration-for-address-book-management-in-lync-server-2013"></a>設定 CsWebServiceConfiguration 適用於 Lync Server 2013 中的 Address Book 管理
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41732273"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-11-01_
+_**主題上次修改日期：** 2012年-11-01_
 
-誰可以執行這個 Cmdlet：根據預設，下列群組的成員有權在本機執行 CsWebServiceConfiguration Cmdlet： RTCUniversalServerAdmins。 若要傳回已指派這個 Cmdlet 的所有角色式存取控制（RBAC）角色的清單（包括您自行建立的任何自訂 RBAC 角色），請在 Windows PowerShell 提示中執行下列命令：
+誰可以執行這個 Cmdlet：根據預設，下列群組的成員已獲得授權，可在本機執行 Set-CsWebServiceConfiguration Cmdlet：RTCUniversalServerAdmins。若要傳回指派給該 Cmdlet 的所有角色型存取控制 (RBAC) 角色清單 (包括您自己建立的任何自訂 RBAC 角色)，請在 Windows PowerShell 提示中輸入下列命令：
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsWebServiceConfiguration"}
 
-CsWebServiceConfiguration Cmdlet 可讓系統管理員在 Web 服務的設定中重新定義現有的屬性。
+Set-CsWebServiceConfiguration Cmdlet 可讓系統管理員重新定義 Web 服務設定中的現有屬性。
 
 例如：
 
@@ -52,7 +52,7 @@ CsWebServiceConfiguration Cmdlet 可讓系統管理員在 Web 服務的設定中
 ## <a name="see-also"></a>請參閱
 
 
-[Set-CsWebServiceConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsWebServiceConfiguration)  
+[Set-cswebserviceconfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsWebServiceConfiguration)  
   
 
 </div>

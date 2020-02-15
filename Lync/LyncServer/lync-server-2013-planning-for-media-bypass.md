@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：規劃媒體旁路
+title: Lync Server 2013： 規劃媒體旁路
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184768
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 97b28559ea58439d370042d54ab7ef58943bc594
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0bb4d495637cd78e430e975e9831421906bfbf6e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41751153"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050085"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-media-bypass-in-lync-server-2013"></a>在 Lync Server 2013 中規劃媒體旁路
+# <a name="planning-for-media-bypass-in-lync-server-2013"></a>規劃 Lync Server 2013 中的媒體旁路
 
 </div>
 
@@ -35,35 +35,35 @@ ms.locfileid: "41751153"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-09-21_
+_**主題上次修改日期：** 2012年-09-21_
 
-「媒體旁路」是指當信號流經中繼伺服器時，從媒體路徑中移除轉送伺服器。
+媒體旁路指的是移除媒體路徑儘通話訊號周遊中繼伺服器移除中繼伺服器。
 
-媒體旁路可減少延遲、不必要的轉換、資料包遺失的可能性，以及可能失敗的點數，以改善語音品質。 可提高可伸縮性，因為取消繞過呼叫的媒體處理減少了中繼伺服器上的負載。 這個負載的減少是補充了轉送伺服器控制多個閘道的能力。
+媒體旁路可以改善語音品質以減少延遲、 不必要的轉譯、 封包遺失的可能性和潛在的失敗點的數目。 延展性可以改良，因為抵銷的媒體略過通話處理會減少中繼伺服器上的負載。 載入此減少補充控制多個閘道中繼伺服器的能力。
 
-如果不含轉送伺服器的分支網站是透過受限制頻寬的一個或多個 WAN 連結連線到中央網站，媒體略過減少頻寬需求，只要允許分支網站的用戶端媒體直接流向本機閘道，而不首先，必須在中央網站和返回轉送伺服器的 WAN 連結之間流動。
+媒體旁路其中分支網站沒有中繼伺服器會連線至中央網站透過一或多個頻寬限制的 WAN 連結，以允許媒體直接流向本地閘道不在分支網站的用戶端降低頻寬需求第一次不必流程跨 WAN 連結至中央網站中繼伺服器和備份。
 
-透過從媒體處理中免除轉送伺服器，媒體旁路也可能會減少企業語音結構所需的中繼伺服器數目。
+藉由減輕中繼伺服器的媒體處理，媒體旁路還能減少需要 Enterprise Voice 基礎結構的中繼伺服器的數目。
 
-下圖顯示拓撲中的基本媒體與信號路徑，以及不使用媒體旁路的情況。
+下圖顯示基本媒體和訊號路徑在拓撲中使用及沒有媒體旁路。
 
-**媒體與信號路徑，以及不使用媒體旁路**
+**媒體和訊號路徑包含和不含媒體旁路**
 
-![強制語音 CAC 媒體旁路連線](images/Gg398703.4d66d529-0912-4de1-abec-266f54272eb3(OCS.15).jpg "強制語音 CAC 媒體旁路連線")
+![語音 CAC 媒體旁路連線強制執行](images/Gg398703.4d66d529-0912-4de1-abec-266f54272eb3(OCS.15).jpg "語音 CAC 媒體旁路連線強制執行")
 
-一般來說，只要有可能就啟用媒體旁路。
+作為一般規則，請盡可能啟用媒體旁路。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [Lync Server 2013 中的媒體旁路概覽](lync-server-2013-overview-of-media-bypass.md)
+  - [Lync Server 2013 中的媒體旁路概觀](lync-server-2013-overview-of-media-bypass.md)
 
-  - [Lync Server 2013 中的媒體旁路模式](lync-server-2013-media-bypass-modes.md)
+  - [媒體旁路模式的 Lync Server 2013](lync-server-2013-media-bypass-modes.md)
 
-  - [Lync Server 2013 中的媒體旁路和通話許可控制](lync-server-2013-media-bypass-and-call-admission-control.md)
+  - [媒體旁路和 Lync Server 2013 中的通話許可控制](lync-server-2013-media-bypass-and-call-admission-control.md)
 
-  - [Lync Server 2013 中媒體旁路的技術需求](lync-server-2013-technical-requirements-for-media-bypass.md)
+  - [Lync Server 2013 中略過媒體的技術需求](lync-server-2013-technical-requirements-for-media-bypass.md)
 
 </div>
 
@@ -71,19 +71,19 @@ _**主題上次修改日期：** 2012-09-21_
 
 ## <a name="related-sections"></a>相關各節
 
-[在 Lync Server 2013 中部署高級企業語音功能](lync-server-2013-deploying-advanced-enterprise-voice-features.md)
+[部署 Lync Server 2013 中的進階的 Enterprise Voice 功能](lync-server-2013-deploying-advanced-enterprise-voice-features.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
-[在 Lync Server 2013 中使用 [旁路媒體] 設定主幹](lync-server-2013-configure-a-trunk-with-media-bypass.md)  
+[設定與 Lync Server 2013 中的媒體旁路的主幹](lync-server-2013-configure-a-trunk-with-media-bypass.md)  
 
 
-[Lync Server 2013 中的全域媒體旁路選項](lync-server-2013-global-media-bypass-options.md)  
+[通用媒體旁路 Lync Server 2013 中的選項](lync-server-2013-global-media-bypass-options.md)  
   
 
 </div>

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：其他伺服器角色 Cmdlet
+title: Lync Server 2013： 其他伺服器角色的 cmdlet
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184801
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fa633bb9a1d5abcf34feb027b3fd364c5ad6b4cf
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 43a4c63851e45ea1763650d8e908427672bd7fbf
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755647"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047337"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="other-server-role-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的其他伺服器角色 Cmdlet
+# <a name="other-server-role-cmdlets-in-lync-server-2013"></a>Lync Server 2013 的其他伺服器角色 cmdlet
 
 </div>
 
@@ -35,34 +35,34 @@ ms.locfileid: "41755647"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-03-21_
+_**主題上次修改日期：** 2012年-03-21_
 
-這些 Cmdlet 提供管理不適合伺服器角色類別（例如邊緣伺服器或通訊錄服務器）的「一次性」伺服器角色（例如會議服務器）的方法。
+這些 cmdlet 提供方法來管理不符合伺服器角色類別，例如 Edge Servers 或 Address Book 的 「 one-off 」 伺服器角色 （如會議伺服器）。
 
 <div>
 
 ## <a name="other-server-role-and-cmdlets"></a>其他伺服器角色和 Cmdlet
 
-以下是直接與管理其他伺服器角色和服務相關的 Cmdlet 清單：
+以下是 cmdlet 的與管理其他伺服器角色和服務直接相關清單：
 
 **其他伺服器角色**
 
   - <span></span>  
-    [Set-CsConferenceServer](https://technet.microsoft.com/en-us/library/Gg398738(v=OCS.15))
+    [Set-csconferenceserver](https://technet.microsoft.com/library/Gg398738(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Set-CsUserServer](https://technet.microsoft.com/en-us/library/Gg413026(v=OCS.15))
+    [設定 CsUserServer](https://technet.microsoft.com/library/Gg413026(v=OCS.15))
 
 </div>
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
-[Lync Server PowerShell 博客](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+[Lync Server PowerShell 部落格](http://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

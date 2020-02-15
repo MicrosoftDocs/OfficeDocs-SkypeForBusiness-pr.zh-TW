@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：針對混合式部署設定自動探索
+title: Lync Server 2013： 設定自動探索的混合式部署
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541521
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8924194d89eafb75c06ff78ed3b765699e36b196
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f97ed9c5346252782b8105bf1de9f76bf3522155
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734863"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049725"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-autodiscover-in-lync-server-2013-for-hybrid-deployments"></a>在 Lync Server 2013 中設定自動探索以進行混合式部署
+# <a name="configuring-autodiscover-in-lync-server-2013-for-hybrid-deployments"></a>Lync Server 2013 中設定自動探索的混合式部署
 
 </div>
 
@@ -35,43 +35,43 @@ ms.locfileid: "41734863"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-12-12_
+_**主題上次修改日期：** 2012年-12-12_
 
-混合式部署是使用 Microsoft Lync Online 雲端服務和內部部署部署的配置。 在此類型的設定中，自動探索服務必須能夠找出使用者實際所處的位置。 那就是說，「自動探索」會尋找使用者帳戶，以及主持使用者帳戶的伺服器所在的位置，而不考慮它是在內部部署還是在 Lync Online 部署中。
+混合式部署是使用 Microsoft Lync Online 的雲端服務和內部部署的設定。 在這種組態，自動探索服務必須能夠找出使用者的實際所在的位置。 也就是說，自動探索可協助找出的使用者帳戶，而伺服器主控的使用者帳戶是，不論是否在內部部署或 Lync Online 部署中。
 
-例如，如果使用者的帳戶是駐留在 Lync Online 的伺服器上，則在稱為「探索」的程式中，嘗試尋找使用者的操作會如下所*示：*
+比方說，如果 Lync Online 中的伺服器所架設的使用者帳戶，則嘗試尋找使用者將會發生，如下所示，稱為*可測知性*程序中：
 
-  - 使用者啟動到內部部署部署的連線嘗試，請**contoso.com**。
+  - 從使用者起始的嘗試連線到內部部署， **contoso.com**。
 
-  - 該嘗試會傳送至 lyncdiscover.contoso.com，即與自動探索服務相關聯的 DNS 名稱。
+  - 嘗試傳送至 lyncdiscover.contoso.com，自動探索服務相關聯的 DNS 名稱。
 
-  - 自動探索會參照 contoso.com 內部部署部署的假設註冊機構池，並提供使用者在 Lync Online 中託管之實際主伺服器的資訊。 自動探索接著會將對**lync.com** online 自動探索服務的參照傳送給使用者。
+  - 自動探索指的是在內部部署 contoso.com 假定的登錄器集區，並提供使用者的實際的主伺服器裝載於 Lync Online 的詳細資訊。 自動探索再傳送使用者轉介**lync.com**線上自動探索服務。
 
-  - 使用者初始化 lync.com online 自動探索服務的連線嘗試，而且可以找到使用者的帳戶和使用者的主伺服器。
+  - 使用者會嘗試連線到 lync.com 線上自動探索服務，且能找出使用者的帳戶和使用者的主伺服器。
 
-若要讓用戶端發現使用者主伺服器所在的部署，您必須使用新的統一資源定位器（URL）來設定自動探索服務。 請執行下列動作來設定自動探索服務。
+若要啟用用戶端探索使用者主伺服器所在的部署，您必須設定自動探索服務與新的統一資源定位器 (URL)。 依下列方式來設定自動探索服務。
 
 <div>
 
-## <a name="configuring-autodiscover-for-hybrid-deployments"></a>針對混合式部署設定自動探索
+## <a name="configuring-autodiscover-for-hybrid-deployments"></a>設定自動探索的混合式部署
 
-1.  在[Lync Server 2013 的自動探索服務需求](lync-server-2013-autodiscover-service-requirements.md)主題中，您可以使用 CsHostingProvider 來取得屬性 ProxyFQDN 的值。
+1.  在主題[Lync Server 2013 的自動探索服務需求](lync-server-2013-autodiscover-service-requirements.md)，您可以使用 Get-cshostingprovider 擷取屬性 ProxyFQDN 的值。
 
-2.  從 Lync Server 管理命令介面輸入
+2.  從 Lync Server 管理命令介面中，輸入
     
         Set-CsHostingProvider -Identity [identity] -AutodiscoverUrl https://webdir.online.lync.com/autodiscover/autodisccoverservice.svc/root
     
-    使用\[共用\] SIP 位址空間的功能變數名稱取代身分識別的位置。
+    其中\[identity\]取代共用 SIP 位址空間的網域名稱。
 
 </div>
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
-[CsHostingProvider](https://docs.microsoft.com/powershell/module/skype/Get-CsHostingProvider)  
-[Set-CsHostingProvider](https://docs.microsoft.com/powershell/module/skype/Set-CsHostingProvider)  
+[Get-cshostingprovider](https://docs.microsoft.com/powershell/module/skype/Get-CsHostingProvider)  
+[設定 CsHostingProvider](https://docs.microsoft.com/powershell/module/skype/Set-CsHostingProvider)  
   
 
 </div>

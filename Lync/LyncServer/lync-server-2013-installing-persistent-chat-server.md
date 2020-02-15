@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：安裝常設聊天室伺服器
+title: Lync Server 2013： 安裝常設聊天室伺服器
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184216
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 73bca2a47c65b4654ffdc94eeab2ef3dc3924e92
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 28c1a068df21883a80e447d3407e023f3eb7de9c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726013"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045255"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="installing-persistent-chat-server-in-lync-server-2013"></a>在 Lync Server 2013 中安裝常設聊天室伺服器
+# <a name="installing-persistent-chat-server-in-lync-server-2013"></a>Lync Server 2013 中安裝常設聊天室伺服器
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41726013"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-01_
+_**主題上次修改日期：** 2012年-10-01_
 
-安裝永久性聊天伺服器已整合至 Lync Server 2013 設定，並使用 Lync Server 2013 用來進行安裝的相同引導程式。 如需安裝指示，請參閱部署檔中的 [[部署 Lync Server 2013](lync-server-2013-deploying-lync-server.md) ]。
+安裝 Persistent Chat Server 整合到 Lync Server 2013 安裝程式，並使用相同的啟動載入器 Lync Server 2013 所使用的安裝。 如需安裝指示，請參閱部署文件中的[Deploying Lync Server 2013](lync-server-2013-deploying-lync-server.md)。
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：建立或修改新的用戶端版本原則規則
+title: Lync Server 2013： 建立或修改新的用戶端版本原則規則
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 50873758
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 442341c51ef6477f72fb9e88cdea5fe7fc527aa8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ae209caef3910ad08d09391cb13de4e1e0ceb7a2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41722443"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045996"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-new-client-version-policy-rule-in-lync-server-2013"></a>在 Lync Server 2013 中建立或修改新的用戶端版本原則規則
+# <a name="create-or-modify-a-new-client-version-policy-rule-in-lync-server-2013"></a>建立或修改 Lync Server 2013 中新的用戶端版本原則規則
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41722443"
 
 <span> </span>
 
-_**主題上次修改日期：** 2013-01-21_
+_**上次修改主題：** 2013年-01-21_
 
-用戶端版本原則規則定義使用者嘗試使用特定用戶端和用戶端版本登入時應採取的動作。 您可以從 Lync Server 2013 [控制台] 建立或修改用戶端版本原則的個別規則。
+用戶端版本原則規則定義當使用者嘗試登入特定的用戶端與用戶端版本時應該採取的動作。 您可以建立或修改 Lync Server 2013 控制台從用戶端版本原則的個別規則。
 
 <div>
 
 
 > [!IMPORTANT]  
-> 規則會依優先順序順序列出。 例如，如果您有允許執行版本1.5 的用戶端連線的規則，接著是一個規則，該規則會封鎖執行版本低於2.0 之版本的用戶端，且會允許執行版本1.5 的用戶端連線。
+> 規則會列在的優先順序。 比方說，如果您有一個規則，可讓用戶端執行連線 1.5 版，後面接著會封鎖用戶端規則執行更早版本的版本比 2.0 中，第一個規則的優先順序，和允許執行 1.5 版用戶端連接。
 
 
 
@@ -51,47 +51,47 @@ _**主題上次修改日期：** 2013-01-21_
 
 <div>
 
-## <a name="to-create-or-modify-client-version-policy-rules-with-lync-server-control-panel"></a>使用 Lync Server [控制台] 建立或修改用戶端版本原則規則
+## <a name="to-create-or-modify-client-version-policy-rules-with-lync-server-control-panel"></a>若要建立或修改用戶端版本原則規則與 Lync Server Control Panel
 
-1.  使用 Lync Server [控制台][在 Lync server 2013 中建立或修改新的用戶端版本原則](lync-server-2013-create-or-modify-a-new-client-version-policy.md)。
+1.  [建立或修改 Lync Server 2013 中的新用戶端版本原則](lync-server-2013-create-or-modify-a-new-client-version-policy.md)與 Lync Server Control Panel。
 
-2.  在 [**編輯用戶端版本原則**] 頁面上，執行下列其中一項操作：
+2.  在 [**編輯用戶端版本原則**] 頁面上，執行下列其中一項：
     
-      - 按一下 [**新增**]，建立新的用戶端版本規則。
+      - 按一下 [**新增**]，以建立新的用戶端版本規則。
     
-      - 在清單中按一下其中一個已定義的用戶端類型，然後按一下 [**顯示詳細資料**]。
+      - 按一下其中一個已定義的用戶端類型的清單中，，然後按一下 [**顯示詳細資料**。
     
     <div>
     
 
     > [!NOTE]  
-    > 您可以使用萬用字元來指示用戶端類型。
+    > 您可以使用萬用字元表示用戶端類型。
 
     
     </div>
 
-3.  在 [**使用者代理**] 中，選取用戶端類型。
+3.  **使用者代理程式**] 中選取的用戶端類型。
 
-4.  在 [**版本號碼**] 底下，執行下列動作：
+4.  [**版本號碼**] 下方執行下列動作：
     
-      - 在 [**主要版本**] 中，輸入與用戶端主要版本相對應的數位。
+      - 在 [**主要版本**中，輸入對應至用戶端主要版本號碼。
     
-      - 在 [**次要版本**] 中，輸入與用戶端次要發行版本相對應的數位。
+      - 在 [**次要版本**中，輸入對應至用戶端次要版本號碼。
     
-      - 在 [**組建**] 中，輸入與用戶端主要和次要版本相對應的數位。
+      - 在**建立**時，輸入對應至用戶端主要和次要版本號碼。
     
-      - 在 [Update] （**更新**）中，輸入與用戶端更新版本相對應的數位。
+      - 在**更新**時，輸入對應至用戶端更新版本的號碼。
     
     <div>
     
 
     > [!NOTE]  
-    > 您可以使用萬用字元來表示用戶端的版本號碼。
+    > 您可以使用萬用字元表示用戶端版本號碼。
 
     
     </div>
 
-5.  若要針對您在上述步驟中指定的用戶端版本指定相符的作業，請在 [**比較**] 作業中，按一下下列其中一個選項：
+5.  若要指定您在先前步驟中，在**比較作業**中，指定用戶端版本比對作業按一下下列其中一項：
     
       - **相同**
     
@@ -105,32 +105,32 @@ _**主題上次修改日期：** 2013-01-21_
     
       - **舊於或相同**
 
-6.  若要指定在滿足上述步驟中的準則時要執行的動作，請按一下下列其中一個**動作**：
+6.  若要指定的巨集指令來執行前述步驟中的條件符合時，按一下 [**巨集指令**中下列其中之一：
     
       - 若要允許用戶端登入，請按一下 [**允許**]。
     
-      - 若要允許用戶端登入並從 Windows Server Update Services 或 Microsoft Update 接收更新，請按一下 [**允許及升級**]。 只有在選取 [使用者代理**OC** ] 時，才能使用此動作。
+      - 若要允許用戶端登入，並從 Windows Server Update Service 或 Microsoft Update 」 接收更新，請按一下 [**允許並升級**。 選取 [使用者代理程式**OC**時才使用此巨集指令。
         
         <div>
         
 
         > [!NOTE]  
-        > 選取此動作會在使用者下次登入 Lync 2013 時，顯示通知。 通知指出有可用的更新，即使更新還沒有發佈至 Windows Server Update Service 或 Microsoft Update。 為避免混淆，您應該僅在有可用更新時選擇此動作。
+        > 選取此巨集指令會顯示 [下一次使用者登入 Lync 2013 的通知。 通知指出有可用的更新，即使更新還沒有發佈至 Windows Server Update Service 或 Microsoft Update。 若要避免混淆，您應該僅在更新可用時選擇此動作。
 
         
         </div>
     
-      - 若要允許用戶端登入，並顯示有關下載其他用戶端版本之位置的訊息，請按一下 [**允許使用 URL**]。 您可以稍後在此程式中指定 URL。
+      - 若要允許用戶端登入並顯示一則訊息關於到哪裡下載另一個用戶端版本，請按一下 [**以 URL 允許**]。 您稍後在此程序中指定的 URL。
     
       - 若要防止用戶端登入，請按一下 [**封鎖**]。
     
-      - 若要防止用戶端登入，並允許用戶端從 Windows Server Update Services 或 Microsoft Update 接收更新，請按一下 [**封鎖及升級**]。 只有在選取 [使用者代理**OC** ] 時，才能使用此動作。
+      - 若要防止用戶端登入，並允許用戶端以從 Windows Server Update Service 或 Microsoft Update 」 接收更新，請按一下 [**封鎖並升級**。 選取 [使用者代理程式**OC**時才使用此巨集指令。
     
-      - 若要防止用戶端登入，並顯示一則訊息，瞭解如何下載另一個用戶端版本，請按一下 [**以 URL 封鎖**]。 您可以稍後在此程式中指定 URL。
+      - 若要防止用戶端登入並顯示一則訊息關於到哪裡下載另一個用戶端版本，按一下 [**以 URL 封鎖**]。 您稍後在此程序中指定的 URL。
 
-7.  可選如果您在上一個步驟中按一下 [**允許 url**或**包含 url 的封鎖**]，請輸入用戶端下載 Url，以加入**url**中的郵件。
+7.  （選用）如果您在先前步驟中，按一下**以 URL 允許**] 或 [**以 URL 封鎖**]，類型用戶端下載**URL**] 中的訊息中包含的 URL。
 
-8.  按一下 **[確定]**，然後按一下 [**確認**]。
+8.  按一下 [**確定**]，然後按一下 [**認可]**。
 
 </div>
 

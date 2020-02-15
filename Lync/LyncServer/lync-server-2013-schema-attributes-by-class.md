@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：依類別的架構屬性
+title: Lync Server 2013： 結構描述由類別的屬性
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184468
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 160a148705ececfcbe105dcbc3fca819d4790a0d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8394a1333cff66b076612ed197fa2a6a7af12ec6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764941"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049435"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="schema-attributes-by-class-in-lync-server-2013"></a>Lync Server 2013 中依類別分類的架構屬性
+# <a name="schema-attributes-by-class-in-lync-server-2013"></a>由 Lync Server 2013 中的類別的結構描述屬性
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41764941"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-08-29_
+_**主題上次修改日期：** 2012年-08-29_
 
-本節列出可包含在每個 Lync Server 2013 類別中的架構屬性，以及可包含在其他類別中的類別。 如需所有類別及其描述的清單，請參閱[Lync Server 2013 中的架構類別與說明](lync-server-2013-schema-classes-and-descriptions.md)。 如需所有屬性及其描述的清單，請參閱[Lync Server 2013 中的架構屬性及描述](lync-server-2013-schema-attributes-and-descriptions.md)。
+此章節將列出可以包含的每個 Lync Server 2013 類別，可以包含在其他類別的類別的結構描述屬性。 所有類別和及其描述的清單，請參閱[架構類別和 Lync Server 2013 中的描述](lync-server-2013-schema-classes-and-descriptions.md)。 所有屬性和及其描述的清單，請參閱[結構描述的屬性和 Lync Server 2013 中的描述](lync-server-2013-schema-attributes-and-descriptions.md)。
 
 <div>
 
-## <a name="attributes-by-class"></a>依類別分類的屬性
+## <a name="attributes-by-class"></a>屬性 (依類別)
 
 
 <table>
@@ -51,247 +51,247 @@ _**主題上次修改日期：** 2012-08-29_
 </colgroup>
 <thead>
 <tr class="header">
-<th>靜態類</th>
+<th>類別</th>
 <th>可能包含這些屬性</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>資訊</p></td>
-<td><p>SourceObjectDN</p>
-<p>msRTCSIP-AcpInfo</p>
-<p>msRTCSIP-ApplicationDestination</p>
-<p>msRTCSIP-ApplicationOptions</p>
-<p>msRTCSIP-ApplicationPrimaryLanguage</p>
-<p>msRTCSIP-ApplicationSecondaryLanguages</p>
-<p>msRTCSIP-ArchivingEnabled</p>
-<p>msRTCSIP-DeploymentLocator</p>
-<p>msRTCSIP-FederationEnabled</p>
-<p>msRTCSIP-GroupingID</p>
-<p>msRTCSIP-InternetAccessEnabled</p>
-<p>msRTCSIP 線</p>
-<p>msRTCSIP-LineServer</p>
-<p>msRTCSIP-OptionFlags</p>
-<p>msRTCSIP-OriginatorSid</p>
-<p>msRTCSIP-OwnerUrn</p>
-<p>msRTCSIP-PrimaryHomeServer</p>
-<p>msRTCSIP-PrimaryUserAddress</p>
-<p>msRTCSIP-PrivateLine</p>
-<p>msRTCSIP-ProxyAddresses</p>
-<p>msRTCSIP-SourceObjectType</p>
-<p>msRTCSIP-TargetHomeServer</p>
-<p>msRTCSIP-TargetUserPolicies</p>
-<p>msRTCSIP-TenantId</p>
-<p>msRTCSIP-UserEnabled</p>
-<p>msRTCSIP-UserExtension</p>
-<p>msRTCSIP-UserLocationProfile</p>
-<p>msRTCSIP-UserPolicies</p>
-<p>msRTCSIP-UserPolicy</p>
-<p>msRTCSIP-UserRoutingGroupId</p>
+<td><p>連絡人</p></td>
+<td><p>Msds-alloweddnssuffixes Msds-sourceobjectdn</p>
+<p>包含 AcpInfo</p>
+<p>包含 ApplicationDestination</p>
+<p>包含 ApplicationOptions</p>
+<p>包含 ApplicationPrimaryLanguage</p>
+<p>包含 ApplicationSecondaryLanguages</p>
+<p>包含 ArchivingEnabled</p>
+<p>包含 DeploymentLocator</p>
+<p>包含下列 FederationEnabled</p>
+<p>msrtcsip-groupingid 的 Partitionbyou</p>
+<p>包含 InternetAccessEnabled</p>
+<p>包含列</p>
+<p>包含 LineServer</p>
+<p>包含 OptionFlags</p>
+<p>包含 OriginatorSid</p>
+<p>包含 OwnerUrn</p>
+<p>包含 PrimaryHomeServer</p>
+<p>包含 PrimaryUserAddress</p>
+<p>包含 PrivateLine</p>
+<p>包含 ProxyAddresses</p>
+<p>包含 SourceObjectType</p>
+<p>包含 TargetHomeServer</p>
+<p>包含 TargetUserPolicies</p>
+<p>包含 TenantId</p>
+<p>包含 UserEnabled</p>
+<p>包含 UserExtension</p>
+<p>包含 UserLocationProfile</p>
+<p>包含 UserPolicies</p>
+<p>包含 UserPolicy</p>
+<p>包含 UserRoutingGroupId</p>
 <p>ProxyAddresses</p></td>
 </tr>
 <tr class="even">
-<td><p>郵件-收件者</p></td>
+<td><p>Mail-Recipient</p></td>
 <td><p>msExchUCVoiceMailSettings</p>
 <p>msExchUserHoldPolicies</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-ApplicationServerService</p></td>
-<td><p>msRTCSIP-ApplicationServerBL</p></td>
+<td><p>包含 ApplicationServerService</p></td>
+<td><p>包含 ApplicationServerBL</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-ApplicationServerSettings</p></td>
-<td><p>msRTCSIP-ApplicationList</p>
-<p>msRTCSIP-ApplicationServerPoolLink</p>
-<p>msRTCSIP-ExtensionData</p>
-<p>msRTCSIP-ServerVersion</p></td>
+<td><p>包含 ApplicationServerSettings</p></td>
+<td><p>包含 ApplicationList</p>
+<p>包含 ApplicationServerPoolLink</p>
+<p>包含 ExtensionData</p>
+<p>包含 ServerVersion</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-ConferenceDirectory</p></td>
-<td><p>msRTCSIP-ConferenceDirectoryHomePool</p>
-<p>msRTCSIP-ConferenceDirectoryId</p>
-<p>msRTCSIP-ConferenceDirectoryTargetPool</p>
-<p>msRTCSIP-ExtensionData</p></td>
+<td><p>包含 ConferenceDirectory</p></td>
+<td><p>包含 ConferenceDirectoryHomePool</p>
+<p>包含 ConferenceDirectoryId</p>
+<p>包含 ConferenceDirectoryTargetPool</p>
+<p>包含 ExtensionData</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-DefaultCWABank</p></td>
-<td><p>msRTCSIP-DefaultCWAExternalURL</p>
-<p>msRTCSIP-DefaultCWAInternalURL</p></td>
+<td><p>包含 DefaultCWABank</p></td>
+<td><p>包含 DefaultCWAExternalURL</p>
+<p>包含 DefaultCWAInternalURL</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-網域</p></td>
-<td><p>msRTCSIP-預設值</p>
-<p>msRTCSIP-DomainData</p>
-<p>msRTCSIP-功能變數名稱</p></td>
+<td><p>包含網域</p></td>
+<td><p>包含預設值</p>
+<p>包含 DomainData</p>
+<p>包含網域名稱</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-EdgeProxy</p></td>
-<td><p>msRTCSIP-EdgeProxyData</p>
-<p>msRTCSIP-EdgeProxyFQDN</p></td>
+<td><p>包含 EdgeProxy</p></td>
+<td><p>包含 EdgeProxyData</p>
+<p>包含 EdgeProxyFQDN</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-EnterpriseMCUSettings</p></td>
-<td><p>msRTCSIP-MCUData</p>
-<p>msRTCSIP-MCUFactoryAddress</p>
-<p>msRTCSIP-ServerVersion</p></td>
+<td><p>包含 EnterpriseMCUSettings</p></td>
+<td><p>包含 MCUData</p>
+<p>包含 MCUFactoryAddress</p>
+<p>包含 ServerVersion</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-EnterpriseMediationServerSettings</p></td>
-<td><p>msRTCSIP-ExtensionData</p>
-<p>msRTCSIP-ServerVersion</p>
-<p>msRTCSIP-TrustedServiceLinks</p></td>
+<td><p>包含 EnterpriseMediationServerSettings</p></td>
+<td><p>包含 ExtensionData</p>
+<p>包含 ServerVersion</p>
+<p>包含 TrustedServiceLinks</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-EnterpriseServerSettings</p></td>
-<td><p>msRTCSIP-EnterpriseServices</p>
-<p>msRTCSIP-PoolAddress</p>
-<p>msRTCSIP-ServerData</p>
-<p>msRTCSIP-ServerVersion</p></td>
+<td><p>包含 EnterpriseServerSettings</p></td>
+<td><p>包含 EnterpriseServices</p>
+<p>包含 PoolAddress</p>
+<p>包含 server 資料</p>
+<p>包含 ServerVersion</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-GlobalTopologySetting</p></td>
-<td><p>msRTCSIP-BackEndServer</p>
-<p>msRTCSIP-ExtensionData</p>
-<p>msRTCSIP-MirrorBackEndServer</p>
-<p>msRTCSIP-ServerVersion</p></td>
+<td><p>包含 GlobalTopologySetting</p></td>
+<td><p>包含 BackEndServer</p>
+<p>包含 ExtensionData</p>
+<p>包含 MirrorBackEndServer</p>
+<p>包含 ServerVersion</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-LocalNormalization</p></td>
-<td><p>msRTCSIP-LocalNormalizationOptions</p></td>
+<td><p>包含 LocalNormalization</p></td>
+<td><p>包含 LocalNormalizationOptions</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-LocationContactMapping</p></td>
-<td><p>msRTCSIP-ExtensionData</p>
-<p>msRTCSIP-MappingContact</p>
-<p>msRTCSIP-MappingLocation</p></td>
+<td><p>包含 LocationContactMapping</p></td>
+<td><p>包含 ExtensionData</p>
+<p>包含 MappingContact</p>
+<p>包含 MappingLocation</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-LocationProfile</p></td>
-<td><p>msRTCSIP-ExternalAccessCode</p>
-<p>msRTCSIP-LocationProfileOptions</p></td>
+<td><p>包含 LocationProfile</p></td>
+<td><p>包含 ExternalAccessCode</p>
+<p>包含 LocationProfileOptions</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-MCUFactory</p></td>
-<td><p>msRTCSIP-MCUFactoryData</p>
-<p>msRTCSIP-MCUFactoryProviderID</p>
-<p>msRTCSIP-MCUServers</p>
-<p>msRTCSIP-MCUType</p>
-<p>msRTCSIP-MCUVendor</p>
-<p>msRTCSIP-PoolAddresses</p>
-<p>msRTCSIP-ServerVersion</p></td>
+<td><p>包含 MCUFactory</p></td>
+<td><p>包含 MCUFactoryData</p>
+<p>包含 MCUFactoryProviderID</p>
+<p>包含 MCUServers</p>
+<p>包含 MCUType</p>
+<p>包含 MCUVendor</p>
+<p>包含 PoolAddresses</p>
+<p>包含 ServerVersion</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-MCUFactoryService</p></td>
-<td><p>msRTCSIP-MCUFactoryPath</p></td>
+<td><p>包含 MCUFactoryService</p></td>
+<td><p>包含 MCUFactoryPath</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-行動性</p></td>
-<td><p>msRTCSIP-MobilityFlags</p>
-<p>msRTCSIP-MobilityPolicy</p></td>
+<td><p>包含行動性</p></td>
+<td><p>包含 MobilityFlags</p>
+<p>包含 MobilityPolicy</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-MonitoringServer</p></td>
-<td><p>dnsHostName</p>
-<p>msRTCSIP-ExtensionData</p>
-<p>msRTCSIP-ServerVersion</p></td>
+<td><p>包含 MonitoringServer</p></td>
+<td><p>只能用</p>
+<p>包含 ExtensionData</p>
+<p>包含 ServerVersion</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-Pool</p></td>
-<td><p>msRTCSIP-ApplicationList</p>
-<p>msRTCSIP-BackEndServer</p>
-<p>msRTCSIP-dnsHostName</p>
-<p>msRTCSIP-PoolData</p>
-<p>msRTCSIP-PoolDisplayName</p>
-<p>msRTCSIP-PoolDomainFQDN</p>
-<p>msRTCSIP-PoolFunctionality</p>
-<p>msRTCSIP-PoolType</p>
-<p>msRTCSIP-PoolVersion</p>
-<p>msRTCSIP-TrustedServiceLinks</p></td>
+<td><p>包含集區</p></td>
+<td><p>包含 ApplicationList</p>
+<p>包含 BackEndServer</p>
+<p>包含只能用</p>
+<p>包含 PoolData</p>
+<p>包含 PoolDisplayName</p>
+<p>包含 PoolDomainFQDN</p>
+<p>包含 PoolFunctionality</p>
+<p>包含 PoolType</p>
+<p>包含 PoolVersion</p>
+<p>包含 TrustedServiceLinks</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-PoolService</p></td>
-<td><p>msRTCSIP-FrontEndServers</p></td>
+<td><p>包含 PoolService</p></td>
+<td><p>包含 FrontEndServers</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-目前狀態</p></td>
-<td><p>msRTCSIP-PresenceFlags</p>
-<p>msRTCSIP-PresencePolicy</p></td>
+<td><p>包含目前狀態</p></td>
+<td><p>包含 PresenceFlags</p>
+<p>包含 PresencePolicy</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-TrustedMCU</p></td>
-<td><p>msRTCSIP-MCUType</p>
-<p>msRTCSIP-MCUVendor</p>
-<p>msRTCSIP-RoutingPoolDN</p>
-<p>msRTCSIP-TrustedMCUData</p>
-<p>msRTCSIP-TrustedMCUFQDN</p>
-<p>msRTCSIP-TrustedServerVersion</p></td>
+<td><p>包含 TrustedMCU</p></td>
+<td><p>包含 MCUType</p>
+<p>包含 MCUVendor</p>
+<p>包含 RoutingPoolDN</p>
+<p>包含 TrustedMCUData</p>
+<p>包含 TrustedMCUFQDN</p>
+<p>包含 TrustedServerVersion</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-TrustedProxy</p></td>
-<td><p>msRTCSIP-TrustedProxyData</p>
-<p>msRTCSIP-TrustedProxyFQDN</p>
-<p>msRTCSIP-TrustedServerVersion</p></td>
+<td><p>包含 TrustedProxy</p></td>
+<td><p>包含 TrustedProxyData</p>
+<p>包含 TrustedProxyFQDN</p>
+<p>包含 TrustedServerVersion</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-TrustedServer</p></td>
-<td><p>msRTCSIP-TrustedServerData</p>
-<p>msRTCSIP-TrustedServerFQDN</p>
-<p>msRTCSIP-TrustedServerVersion</p></td>
+<td><p>包含 TrustedServer</p></td>
+<td><p>包含 TrustedServerData</p>
+<p>包含 TrustedServerFQDN</p>
+<p>包含 TrustedServerVersion</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-TrustedService</p></td>
-<td><p>msRTCSIP-ExtensionData</p>
-<p>msRTCSIP 路由</p>
-<p>msRTCSIP-RoutingPoolDN</p>
-<p>msRTCSIP-ServerBL</p>
-<p>msRTCSIP-TrustedServerFQDN</p>
-<p>msRTCSIP-TrustedServerVersion</p>
-<p>msRTCSIP-TrustedServiceFlags</p>
-<p>msRTCSIP-TrustedServicePort</p>
-<p>msRTCSIP-TrustedServiceType</p></td>
+<td><p>包含 TrustedService</p></td>
+<td><p>包含 ExtensionData</p>
+<p>包含可路由傳送</p>
+<p>包含 RoutingPoolDN</p>
+<p>包含 ServerBL</p>
+<p>包含 TrustedServerFQDN</p>
+<p>包含 TrustedServerVersion</p>
+<p>包含 TrustedServiceFlags</p>
+<p>包含 TrustedServicePort</p>
+<p>包含 TrustedServiceType</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-TrustedWebComponentsServer</p></td>
-<td><p>msRTCSIP-TrustedWebComponentsServerData</p>
-<p>msRTCSIP-TrustedWebComponentsServerFQDN</p>
-<p>msRTCSIP-TrustedServerVersion</p></td>
+<td><p>包含 TrustedWebComponentsServer</p></td>
+<td><p>包含 TrustedWebComponentsServerData</p>
+<p>包含 TrustedWebComponentsServerFQDN</p>
+<p>包含 TrustedServerVersion</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-WebComponentsService</p></td>
-<td><p>msRTCSIP-WebComponentsServers</p></td>
+<td><p>包含 WebComponentsService</p></td>
+<td><p>包含 WebComponentsServers</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-WebComponentSettings</p></td>
-<td><p>msRTCSIP-WebComponentsData</p>
-<p>msRTCSIP-WebComponentsPoolAddress</p>
-<p>msRTCSIP-ServerVersion</p></td>
+<td><p>包含 WebComponentSettings</p></td>
+<td><p>包含 WebComponentsData</p>
+<p>包含 WebComponentsPoolAddress</p>
+<p>包含 ServerVersion</p></td>
 </tr>
 <tr class="even">
 <td><p>使用者</p></td>
-<td><p>msRTCSIP-AcpInfo</p>
-<p>msRTCSIP-ApplicationOptions</p>
-<p>msRTCSIP-ArchivingEnabled</p>
-<p>msRTCSIP-DeploymentLocator</p>
-<p>msRTCSIP-FederationEnabled</p>
-<p>msRTCSIP-GroupingID</p>
-<p>msRTCSIP-InternetAccessEnabled</p>
-<p>msRTCSIP 線</p>
-<p>msRTCSIP-LineServer</p>
-<p>msRTCSIP-OptionFlags</p>
-<p>msRTCSIP-OriginatorSid</p>
-<p>msRTCSIP-OwnerUrn</p>
-<p>msRTCSIP-PrimaryHomeServer</p>
-<p>msRTCSIP-PrimaryUserAddress</p>
-<p>msRTCSIP-PrivateLine</p>
-<p>msRTCSIP-TargetHomeServer</p>
-<p>msRTCSIP-TargetUserPolicies</p>
-<p>msRTCSIP-TenantId</p>
-<p>msRTCSIP-UserEnabled</p>
-<p>msRTCSIP-UserExtension</p>
-<p>msRTCSIP-UserLocationProfile</p>
-<p>msRTCSIP-UserPolicies</p>
-<p>msRTCSIP-UserPolicy</p>
-<p>msRTCSIP-UserRoutingGroupId</p>
+<td><p>包含 AcpInfo</p>
+<p>包含 ApplicationOptions</p>
+<p>包含 ArchivingEnabled</p>
+<p>包含 DeploymentLocator</p>
+<p>包含下列 FederationEnabled</p>
+<p>msrtcsip-groupingid 的 Partitionbyou</p>
+<p>包含 InternetAccessEnabled</p>
+<p>包含列</p>
+<p>包含 LineServer</p>
+<p>包含 OptionFlags</p>
+<p>包含 OriginatorSid</p>
+<p>包含 OwnerUrn</p>
+<p>包含 PrimaryHomeServer</p>
+<p>包含 PrimaryUserAddress</p>
+<p>包含 PrivateLine</p>
+<p>包含 TargetHomeServer</p>
+<p>包含 TargetUserPolicies</p>
+<p>包含 TenantId</p>
+<p>包含 UserEnabled</p>
+<p>包含 UserExtension</p>
+<p>包含 UserLocationProfile</p>
+<p>包含 UserPolicies</p>
+<p>包含 UserPolicy</p>
+<p>包含 UserRoutingGroupId</p>
 <p>ProxyAddresses</p></td>
 </tr>
 </tbody>
@@ -310,81 +310,81 @@ _**主題上次修改日期：** 2012-08-29_
 </colgroup>
 <thead>
 <tr class="header">
-<th>靜態類</th>
-<th>可能包含這個類別</th>
+<th>類別</th>
+<th>可能包含此類別</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>serviceConnectionPoint</p></td>
-<td><p>msRTCSIP-伺服器</p>
-<p>msRTCSIP-PoolService</p>
-<p>msRTCSIP-MCU</p>
-<p>msRTCSIP-MCUFactoryService</p>
-<p>msRTCSIP-WebComponents</p>
-<p>msRTCSIP-WebComponentsService</p>
-<p>msRTCSIP-ApplicationServerService</p>
-<p>msRTCSIP-服務</p>
-<p>msRTCSIP-ConnectionPoint</p>
-<p>msRTCSIP-MediationServer</p>
-<p>msRTCSIP-ApplicationServer</p></td>
+<td><p>包含伺服器</p>
+<p>包含 PoolService</p>
+<p>包含 MCU</p>
+<p>包含 MCUFactoryService</p>
+<p>包含 WebComponents</p>
+<p>包含 WebComponentsService</p>
+<p>包含 ApplicationServerService</p>
+<p>包含服務</p>
+<p>包含 ConnectionPoint</p>
+<p>包含 MediationServer</p>
+<p>包含 ApplicationServer</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-服務</p></td>
-<td><p>msRTCSIP-GlobalContainer</p>
-<p>msRTCSIP-Pool</p>
-<p>msRTCSIP-MCUFactories</p>
-<p>msRTCSIP-TrustedMCUs</p>
-<p>msRTCSIP-TrustedWebComponentsServers</p>
-<p>msRTCSIP-TrustedProxies</p>
-<p>msRTCSIP-TrustedServices</p>
-<p>msRTCSIP-ApplicationContacts</p>
-<p>msRTCSIP-LocationContactMappings</p>
-<p>msRTCSIP-ConferenceDirectories</p>
-<p>msRTCSIP-GlobalTopologySettings</p></td>
+<td><p>包含服務</p></td>
+<td><p>包含 Msrtcsip-globalcontainer</p>
+<p>包含集區</p>
+<p>包含 MCUFactories</p>
+<p>包含 TrustedMCUs</p>
+<p>包含 TrustedWebComponentsServers</p>
+<p>包含 TrustedProxies</p>
+<p>包含 TrustedServices</p>
+<p>包含 ApplicationContacts</p>
+<p>包含 LocationContactMappings</p>
+<p>包含 ConferenceDirectories</p>
+<p>包含 GlobalTopologySettings</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-GlobalContainer</p></td>
-<td><p>msRTCSIP-網域</p>
-<p>msRTCSIP-TrustedServer</p>
-<p>msRTCSIP-EdgeProxy</p>
-<p>msRTCSIP-MonitoringServer</p></td>
+<td><p>包含 Msrtcsip-globalcontainer</p></td>
+<td><p>包含網域</p>
+<p>包含 TrustedServer</p>
+<p>包含 EdgeProxy</p>
+<p>包含 MonitoringServer</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-Pool</p></td>
-<td><p>msRTCSIP-Pool</p></td>
+<td><p>包含集區</p></td>
+<td><p>包含集區</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-MCUFactories</p></td>
-<td><p>msRTCSIP-MCUFactory</p></td>
+<td><p>包含 MCUFactories</p></td>
+<td><p>包含 MCUFactory</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-TrustedMCUs</p></td>
-<td><p>msRTCSIP-TrustedMCU</p></td>
+<td><p>包含 TrustedMCUs</p></td>
+<td><p>包含 TrustedMCU</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-TrustedWebComponentsServers</p></td>
-<td><p>msRTCSIP-TrustedWebComponentsServer</p></td>
+<td><p>包含 TrustedWebComponentsServers</p></td>
+<td><p>包含 TrustedWebComponentsServer</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-TrustedProxies</p></td>
-<td><p>msRTCSIP-TrustedProxy</p></td>
+<td><p>包含 TrustedProxies</p></td>
+<td><p>包含 TrustedProxy</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-TrustedServices</p></td>
-<td><p>msRTCSIP-TrustedService</p></td>
+<td><p>包含 TrustedServices</p></td>
+<td><p>包含 TrustedService</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-LocationContactMappings</p></td>
-<td><p>msRTCSIP-LocationContactMapping</p></td>
+<td><p>包含 LocationContactMappings</p></td>
+<td><p>包含 LocationContactMapping</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-ConferenceDirectories</p></td>
-<td><p>msRTCSIP-ConferenceDirectory</p></td>
+<td><p>包含 ConferenceDirectories</p></td>
+<td><p>包含 ConferenceDirectory</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-GlobalTopologySettings</p></td>
-<td><p>msRTCSIP-GlobalTopologySetting</p></td>
+<td><p>包含 GlobalTopologySettings</p></td>
+<td><p>包含 GlobalTopologySetting</p></td>
 </tr>
 </tbody>
 </table>

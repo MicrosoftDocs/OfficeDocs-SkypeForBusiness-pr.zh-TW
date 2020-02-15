@@ -1,5 +1,5 @@
 ---
-title: 定義手動取得位置的使用者體驗
+title: 定義手動取得位置的使用者經驗
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185435
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 46b5913547ab7d5030ca40070de36b4deb1f6a89
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 56cb653b1058bd73cf57842d77b734a9e96eaf10
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728323"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045876"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="defining-the-user-experience-for-manually-acquiring-a-location-in-lync-server-2013"></a>定義在 Lync Server 2013 中手動取得位置的使用者體驗
+# <a name="defining-the-user-experience-for-manually-acquiring-a-location-in-lync-server-2013"></a>定義手動取得位置 Lync Server 2013 中的使用者經驗
 
 </div>
 
@@ -35,22 +35,22 @@ ms.locfileid: "41728323"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-03_
+_**主題上次修改日期：** 2012年-10-03_
 
-如果用戶端位於網路以外，或未定義的子網中，使用者可以手動輸入位置。 但在緊急通話期間，通話會先傳送到國家/地區 E9-1-1 緊急通話回應中心（ECRC）發送器，然後再傳送到公用安全回應點（PSAP）。 ECRC 將會 verbally 查詢位置的來電者，然後根據提供的資訊將呼叫轉寄至適當的 PSAP。
+如果用戶端位於外部網路，或在 [定義的子網路，使用者可以手動輸入位置。 但期間，緊急通話，通話會先被路由傳送至國家/區域 E9-1-1 緊急通話回應中心 (ECRC) 發送程式之前路由傳送到公用安全回應點 (PSAP)。 ECRC 將口頭查詢來電者輸入位置，然後將通話轉接至適當的 PSAP，根據所提供的資訊。
 
-  - **如果使用者不是由位置資訊服務自動提供某個位置，系統會提示使用者輸入位置嗎？**  
-    例如，如果用戶端位於未定義的子網、在旅館中，或在網路以外的任何地方，使用者是否必須輸入位置？
+  - **是否應提示使用者輸入位置，當一個未自動提供位置資訊服務？**  
+    例如，如果用戶端位於中定義的子網路、 在家中、 旅館或網路外的任何其他地方，應該使用者必須輸入位置？
     
-    您可以設定位置原則中**所需的位置**設定，以定義用戶端行為。 將此值設定為 [否] 表示系統不會提示使用者輸入位置。 將此值設定為 [是] 表示系統會提示使用者輸入位置，但可以關閉提示。 將此值設定為 [免責聲明] 表示系統會提示使用者輸入位置，且在他們嘗試關閉提示時，會顯示免責聲明。 在任何情況下，使用者都可以照常繼續使用用戶端。
+    您可以定義的用戶端行為的位置原則中設定的**位置所需**的設定。 將此值設定為，使用者將不會提示輸入位置不表示。 設定此值設為 [是] 表示 [位置]，系統會提示使用者，但可以解除提示。 設定免責聲明這個值表示使用者將會提示輸入位置，並且會顯示免責聲明如果使用者嘗試解除提示。 在所有情況下，使用者可以繼續使用用戶端像平常一樣。
 
-當使用者手動輸入位置時，該位置會對應到用戶端網路預設閘道的 MAC 位址，並儲存在用戶端的每個使用者資料表中。 當使用者回到任何先前儲存的位置時，Lync 用戶端會自動將自己設為該位置。
+當使用者手動輸入位置時，位置會對應至用戶端的網路的預設閘道的 MAC 位址，並儲存在位於用戶端上的每位使用者資料表中。 當使用者傳回至任何先前已儲存的位置時，Lync 用戶端會自動設定本身至該位置。
 
 <div>
 
 
 > [!NOTE]
-> 您只能修改用戶端的目前位置，但您也可以刪除儲存在本機使用者資料表中的任何位置。
+> 您可以修改您的用戶端的目前位置，但您也可以刪除本機使用者資料表中儲存的任何位置。
 
 
 

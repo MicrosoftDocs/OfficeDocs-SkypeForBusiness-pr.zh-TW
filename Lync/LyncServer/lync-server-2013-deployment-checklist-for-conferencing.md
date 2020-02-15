@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013 會議部署檢查清單
+title: Lync Server 2013 會議的部署檢查表
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185754
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9ea0fec545c2241a05b7f6b65d1a05fad9add349
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 649908e0d2503c886a1ad71937604d0234eb2270
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728183"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049925"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deployment-checklist-for-conferencing-in-lync-server-2013"></a>Lync Server 2013 中的會議部署檢查清單
+# <a name="deployment-checklist-for-conferencing-in-lync-server-2013"></a>Lync Server 2013 中的會議的部署檢查表
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41728183"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-09-30_
+_**主題上次修改日期：** 2012年-09-30_
 
-下列主題提供部署及設定網路會議、A/V 會議和電話撥入式會議的檢查清單。
+下列主題提供一份檢查清單來部署及設定 web 會議、 A / V 會議及電話撥入式會議。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [Lync Server 2013 的網路會議部署檢查清單](lync-server-2013-deployment-checklist-for-web-conferencing.md)
+  - [Lync Server 2013 中的 web 會議的部署檢查表](lync-server-2013-deployment-checklist-for-web-conferencing.md)
 
-  - [Lync Server 2013 中的 A/V 會議部署檢查清單](lync-server-2013-deployment-checklist-for-a-v-conferencing.md)
+  - [部署檢查清單 a / V 會議在 Lync Server 2013](lync-server-2013-deployment-checklist-for-a-v-conferencing.md)
 
-  - [Lync Server 2013 中的電話撥入式會議的部署檢查清單](lync-server-2013-deployment-checklist-for-dial-in-conferencing.md)
+  - [Lync Server 2013 中的電話撥入式會議的部署檢查表](lync-server-2013-deployment-checklist-for-dial-in-conferencing.md)
 
 </div>
 

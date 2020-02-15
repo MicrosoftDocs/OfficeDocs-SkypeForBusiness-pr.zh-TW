@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：撥出電話
+title: Lync Server 2013： 撥出電話
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803960
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1a353cecbf1cdc1ff411c2cfe7c57edcd909c5c8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ca0cdc7781143b0e76ff83a980f00da58c814f02
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755637"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049565"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="outgoing-calls-in-lync-server-2013"></a>在 Lync Server 2013 中撥出電話
+# <a name="outgoing-calls-in-lync-server-2013"></a>Lync Server 2013 中的撥出電話
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41755637"
 
 <span> </span>
 
-_**主題上次修改日期：** 2013-03-09_
+_**上次修改主題：** 2013年-03-09_
 
-針對位置路由的使用者的出站呼叫路由會受到使用者端點的網路位置的影響。 下表說明根據呼叫者終點的位置，以位置為基礎的路由會如何影響傳出通話的路由。
+路由撥出電話的使用者啟用位置型路由是受影響使用者的端點的網路位置。 下表說明如何以位置為主的路由會影響路由撥出通話根據發話者端點的位置。
 
-### <a name="caller-placing-an-outbound-call-to-the-pstn"></a>來電者撥入到 PSTN 的電話
+### <a name="caller-placing-an-outbound-call-to-the-pstn"></a>來電者將放至 PSTN 撥出電話
 
 <table>
 <colgroup>
@@ -50,20 +50,20 @@ _**主題上次修改日期：** 2013-03-09_
 <thead>
 <tr class="header">
 <th></th>
-<th>使用者端點位於已啟用位置路由的網路網站中</th>
-<th>使用者端點位於未知的網路網站中，或未啟用以位置為基礎的路由</th>
+<th>位於啟用位置型路由的網路網站的使用者端點</th>
+<th>使用者端點位於不明的網路網站，或未啟用位置型的路由</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>撥出通話的授權</p></td>
-<td><p>根據使用者的語音原則，進行撥號授權</p></td>
-<td><p>根據使用者的語音原則，進行撥號授權</p></td>
+<td><p>撥出電話的授權</p></td>
+<td><p>呼叫是根據授權的使用者的語音原則</p></td>
+<td><p>呼叫是根據授權的使用者的語音原則</p></td>
 </tr>
 <tr class="even">
-<td><p>傳送撥出通話</p></td>
-<td><p>根據網路網站的語音路由策略來傳送通話</p></td>
-<td><p>通話是依據使用者的語音原則傳送，只能透過 trunks （如果有的話）啟用。</p></td>
+<td><p>撥出電話路由</p></td>
+<td><p>通話路由傳送根據網路網站的語音路由原則</p></td>
+<td><p>通話路由傳送，根據使用者的語音原則，以及只能透過主幹 （如果有的話） 未啟用位置型的路由</p></td>
 </tr>
 </tbody>
 </table>
@@ -71,10 +71,10 @@ _**主題上次修改日期：** 2013-03-09_
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
-[Lync Server 2013 中的位置基礎路由案例](lync-server-2013-scenarios-for-location-based-routing.md)  
+[依位置路由 Lync Server 2013 中的案例](lync-server-2013-scenarios-for-location-based-routing.md)  
   
 
 </div>

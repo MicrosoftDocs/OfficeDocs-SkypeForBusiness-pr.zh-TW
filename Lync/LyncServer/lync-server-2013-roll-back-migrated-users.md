@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：復原已移轉的使用者
+title: Lync Server 2013： 復原已移轉的使用者
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185286
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5e8b8c53f835bbbaa363a91ef547dd1d301c8976
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7398e69e5a02924025d63fc48096244d67c49aeb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732903"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051467"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="roll-back-migrated-users-in-lync-server-2013"></a>在 Lync Server 2013 中復原已移轉的使用者
+# <a name="roll-back-migrated-users-in-lync-server-2013"></a>回復移轉 Lync Server 2013 中的使用者
 
 </div>
 
@@ -35,20 +35,20 @@ ms.locfileid: "41732903"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-07_
+_**主題上次修改日期：** 2012年-10-07_
 
-如果您需要回滾 [整合連絡人存放區] 功能，請只有在您將使用者移回 Exchange 2010 或 Lync Server 2010 時，才能回滾連絡人。 若要回滾，請停用使用者的原則，然後執行**CsUcsRollback** Cmdlet。 僅僅執行**Invoke CsUcsRollback**是無法確保永久復原，因為如果原則沒有停用，就會再次啟動整合式連絡人存放區遷移。 例如，如果使用者因為 Exchange 2013 已回滾至 Exchange 2010，且使用者的信箱移至 Exchange 2013，則在回滾之後的7天內就會再次開始進行整合連絡人商店遷移（只要整合連絡人存放區）在使用者服務原則中，仍已啟用使用者的。
+如果您需要回復整合的連絡人存放區功能，，回復連絡人，只有當您將使用者移回至 Exchange 2010 或 Lync Server 2010。 若要回復，停用使用者的原則，然後執行 [ **Invoke-csucsrollback** cmdlet。 只執行**Invoke-csucsrollback**單獨不足以確保永久回復，因為如果原則未停用整合連絡人存放區移轉也會重新啟動。 例如，如果使用者復原，因為 Exchange 2013 會回復至 Exchange 2010 和使用者的信箱然後移至 Exchange 2013，整合連絡人存放區移轉將會被起始再次七天之後復原，只要整合的連絡人存放區仍維持啟用的使用者服務原則中的使用者。
 
 <div>
 
 
 > [!IMPORTANT]  
-> 在下列情況下， <STRONG>move-csuser</STRONG> Cmdlet 會從 Exchange 2013 自動將使用者的連絡人存放區回滾至 Lync Server 2013： 
+> <STRONG>Move-csuser</STRONG> cmdlet 會自動回復使用者的連絡人存放區從 Exchange 2013 到 Lync Server 2013 在下列情況： 
 > <UL>
 > <LI>
-> <P>當使用者從 Lync Server 2013 移至 Lync Server 2010 時。</P>
+> <P>當使用者從 Lync Server 2013 移至 Lync Server 2010。</P>
 > <LI>
-> <P>使用者被遷移時（例如，當使用者從 Lync Online 移至 Lync Server 2013 內部部署時，或相反）。</P></LI></UL>
+> <P>當使用者是跨部署移轉，例如當使用者從移 Lync Online 至 Lync Server 2013 內部部署，反之亦然。</P></LI></UL>
 
 
 
@@ -58,12 +58,12 @@ _**主題上次修改日期：** 2012-10-07_
 
 
 > [!IMPORTANT]  
-> 從備份資料庫匯入整合連絡人存放區資料時，如果在匯出與匯入之間變更了整合連絡人存放區模式，就會導致整合連絡人存放區資料和使用者資料遭到損毀。 例如： 
+> 從備份資料庫匯入整合連絡人存放區資料可能會導致整合連絡人存放區資料和損毀如果整合連絡人存放區模式變更之間匯出及匯入的使用者資料。 例如： 
 > <UL>
 > <LI>
-> <P>如果您先匯出連絡人清單，然後再將使用者的連絡人遷移至 Exchange 2013，然後在遷移之後，將相同的資料匯入，整合的連絡人商店資料和連絡人清單都會損毀。</P>
+> <P>如果您匯出連絡人清單，才能在使用者的連絡人移轉至 Exchange 2013，然後，在移轉後匯入相同的資料，但是整合連絡人存放區資料和連絡人清單就會損毀。</P>
 > <LI>
-> <P>如果您在將使用者遷移至 Exchange 2013 之後匯出資料，請先回滾遷移，然後在遷移之後，在您匯入資料之後，整合連絡人商店資料和連絡人清單都會損毀。</P></LI></UL>
+> <P>如果您將使用者移轉至 Exchange 2013 之後，您可以匯出 userdata，回復移轉，然後從將資料匯入移轉後因任何原因，整合的連絡人存放區資料和連絡人清單就會損毀。</P></LI></UL>
 
 
 
@@ -73,21 +73,21 @@ _**主題上次修改日期：** 2012-10-07_
 
 
 > [!IMPORTANT]  
-> 在將 Exchange 信箱從 Exchange 2013 移至 Exchange 2010 之前，Exchange 管理員必須先將 Lync Server 使用者連絡人從 Exchange 2013 回滾至 Lync Server。 若要將整合的連絡人存放區連絡人回滾至 Lync Server，請參閱本節稍後的程式「將整合的連絡人商店連絡人從 Exchange 2013 回滾至 Lync Server 2013」。
+> 您將 Exchange 信箱從 Exchange 2013 移至 Exchange 2010 之前，Exchange 系統管理員必須確定，Lync Server 系統管理員已先回復 Lync Server 使用者連絡人從 Exchange 2013 到 Lync Server。 若要將回復到 Lync Server 整合連絡人存放區連絡人，請參閱本節稍後的 < 對復原整合連絡人存放區連絡人從 Exchange 2013 to Lync Server 2013 中，「 程序。
 
 
 
 </div>
 
-下列程式說明如何退回使用者連絡人。 如果您使用**move-csuser** Cmdlet 在 Lync server 2013 和 lync server 2010 之間移動使用者，您可以略過這些步驟，因為**move-csuser** Cmdlet 會在將使用者從 lync Server 2013 移至 lync server 2010 時，自動回滾 unifed 連絡人存放區。 **Move-csuser**不會停用整合式連絡人存放區原則，因此，如果使用者移回 Lync Server 2013，就會重複遷移至整合連絡人存放區。
+下列程序說明如何回復使用者的連絡人。 如果您使用**Move-csuser** cmdlet 來 Lync Server 2013 和 Lync Server 2010 之間移動使用者時，因為**Move-csuser** cmdlet 會自動回復 unifed 連絡人存放區時它將使用者從 Lync Server 2013 移至 Lync Server 2010 可以略過這些步驟。 **Move-csuser**不讓移轉至整合連絡人存放區會循環，如果使用者移回至 Lync Server 2013 停用整合連絡人存放區原則。
 
 <div>
 
-## <a name="to-roll-back-user-contacts-from-lync-server-2013-to-lync-server-2010"></a>從 Lync Server 2013 將使用者連絡人退回 Lync Server 2010
+## <a name="to-roll-back-user-contacts-from-lync-server-2013-to-lync-server-2010"></a>將回復使用者連絡人從 Lync Server 2013 到 Lync Server 2010
 
-1.  啟動 Lync Server 管理命令介面：按一下 [**開始**]，按一下 [**所有程式**]，按一下 [ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
+1.  啟動 Lync Server 管理命令介面： 按一下 [**開始]**，按一下 [**所有程式]**、 [ **Microsoft Lync Server 2013**]，然後按一下**Lync Server 管理命令介面**。
 
-2.  停用 [整合連絡人存放區]，讓使用者回滾之後就不會 remigrated。 （只有在您想要確保使用者在未來不會 remigrate 的情況下，才能執行此步驟）。若要停用個別使用者的整合連絡人存放區，請在命令列輸入：
+2.  停用回以便不被 remigrated rollback 之後復原使用者的整合連絡人存放區。 （執行這個步驟只有當您想要確保使用者將不會在未來的遷移時）。若要停用整合連絡人存放區針對個別使用者，請在命令列中輸入：
     
         Set-CsUserServicesPolicy -Identity "<policy name>" -UcsAllowed $False
     
@@ -95,18 +95,18 @@ _**主題上次修改日期：** 2012-10-07_
     
         Set-CsUserServicesPolicy -Identity "UCS Enabled Users" -UcsAllowed $False
 
-3.  在將使用者從 Lync Server 2013 移至 Lync Server 2010 之前，請先針對 Lync Server 上的指定使用者將好友清單回滾。
+3.  之前先從 Lync Server 2013 的使用者移至 Lync Server 2010 中，將回復朋友清單中所指定使用者的 Lync 伺服器上。
     
     <div>
     
 
     > [!IMPORTANT]  
-    > 如果省略此步驟，合作者清單將會遺失。
+    > 如果省略這個步驟，將會遺失朋友清單。
 
     
     </div>
 
-4.  返回指定的使用者。 在命令列中，輸入：
+4.  回復為指定的使用者。 在命令列中輸入：
     
         Invoke-CsUcsRollback -Identity "<user display name>"
     
@@ -118,7 +118,7 @@ _**主題上次修改日期：** 2012-10-07_
     
 
     > [!IMPORTANT]  
-    > 我們不建議您使用– Force 選項來強制復原。 如果您使用這個選項，使用者的連絡人將會遺失。
+    > 我們不建議使用-Force 參數來強制執行復原。 如果您使用此選項，將會遺失使用者的連絡人。
 
     
     </div>
@@ -127,11 +127,11 @@ _**主題上次修改日期：** 2012-10-07_
 
 <div>
 
-## <a name="to-roll-back-unified-contact-store-contacts-from-exchange-2013-to-lync-server-2013"></a>若要將整合的連絡人存放區連絡人從 Exchange 2013 回滾至 Lync Server 2013
+## <a name="to-roll-back-unified-contact-store-contacts-from-exchange-2013-to-lync-server-2013"></a>將回復整合連絡人存放區連絡人從 Exchange 2013 到 Lync Server 2013
 
-1.  啟動 Lync Server 管理命令介面：按一下 [**開始**]，按一下 [**所有程式**]，按一下 [ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
+1.  啟動 Lync Server 管理命令介面： 按一下 [**開始]**，按一下 [**所有程式]**、 [ **Microsoft Lync Server 2013**]，然後按一下**Lync Server 管理命令介面**。
 
-2.  停用 [整合連絡人存放區]，讓使用者回滾之後就不會 remigrated。 若要停用個別使用者的整合連絡人存放區，請在命令列輸入：
+2.  停用回以便不被 remigrated rollback 之後復原使用者的整合連絡人存放區。 若要停用整合連絡人存放區針對個別使用者，請在命令列中輸入：
     
         Set-CsUserServicesPolicy -Identity "<policy name>" -UcsAllowed $False
     
@@ -139,7 +139,7 @@ _**主題上次修改日期：** 2012-10-07_
     
         Set-CsUserServicesPolicy -Identity "UCS Enabled Users" -UcsAllowed $False
 
-3.  返回指定的使用者。 在命令列中，輸入：
+3.  回復為指定的使用者。 在命令列中輸入：
     
         Invoke-CsUcsRollback -Identity "<user display name>"
     
@@ -151,12 +151,12 @@ _**主題上次修改日期：** 2012-10-07_
     
 
     > [!IMPORTANT]  
-    > 您必須先退回 Lync Server 使用者，然後移動 Exchange 2013 信箱。 在 Lync Server 復原完成之前，Exchange 管理員會封鎖回退 Exchange。 我們不建議您使用– Force 選項來強制復原。 如果您使用這個選項，使用者的連絡人將會遺失。
+    > 您必須先將回復 Lync Server 使用者]，然後再移 Exchange 2013 信箱。 Exchange 系統管理員會封鎖復原 Exchange，直到 Lync Server 復原已完成。 我們不建議使用-Force 參數來強制執行復原。 如果您使用此選項，將會遺失使用者的連絡人。
 
     
     </div>
 
-4.  當您將使用者回滾至 Lync Server 之後，Exchange 管理員就可以將 Exchange 使用者從 Exchange 2013 回滾至 Exchange 2010。
+4.  您將回復使用者到 Lync Server 之後，Exchange 系統管理員可以將回復 Exchange 使用者從 Exchange 2013 到 Exchange 2010。
 
 </div>
 

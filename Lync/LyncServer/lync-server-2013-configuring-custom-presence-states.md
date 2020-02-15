@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：設定自訂的目前狀態
+title: Lync Server 2013： 設定自訂目前狀態
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185534
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c69f7a5b32b4ad0dd31f8be118aa2f2173ff3e22
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 75e2e47af4951e98f21ea6b26572d39b5eebcb8d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758193"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046476"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-custom-presence-states-in-lync-server-2013"></a>在 Lync Server 2013 中設定自訂的目前狀態
+# <a name="configuring-custom-presence-states-in-lync-server-2013"></a>在 Lync Server 2013 中設定自訂目前狀態
 
 </div>
 
@@ -35,42 +35,42 @@ ms.locfileid: "41758193"
 
 <span> </span>
 
-_**主題上次修改日期：** 2013-01-10_
+_**上次修改主題：** 2013年-01-10_
 
-若要在 Lync 2013 中定義自訂的目前狀態，請建立 XML 自訂目前設定檔案，然後使用**CSClientPolicy**或**CSClientPolicy**參數 CustomStateURL 的 Lync Server Management Shell Cmdlet 來指定其位置。
+若要在 Lync 2013 中定義自訂目前狀態，建立 XML 自訂目前狀態設定檔，並接著藉由使用 Lync Server 管理命令介面 cmdlet **New-csclientpolicy**或**Set-csclientpolicy**搭配參數 customstateurl 來指定其位置。
 
-設定檔具有下列屬性：
+設定檔包含下列屬性：
 
-  - 您可以使用 [可用]、[忙碌] 和 [請勿打擾] 目前狀態指示器來設定自訂的目前狀態。
+  - 可以使用適用於 」、 「 忙碌 」 和 「 請勿打擾顯示狀態指示器來設定自訂目前狀態。
 
-  - Availability 屬性會判斷哪個目前狀態標記與自訂狀態的狀態文字相關聯。 在本主題稍後的範例中，[從家用版工作] 的狀態文字會顯示在綠色（可用）目前狀態指示器的右側。
+  - 可用性屬性會決定關聯的自訂狀態的狀態文字的顯示狀態指示器。 在本主題稍後的範例中，狀態文字在家工作會顯示綠色 （線上） 顯示狀態指示器的右邊。
 
-  - 狀態文字的最大長度為64個字元。
+  - 狀態文字的長度上限是 64 個字元。
 
-  - 最多可以新增四個自訂目前狀態。
+  - 可以新增最多四個自訂目前狀態。
 
-  - CustomStateURL 參數會指定設定檔的位置。 在 Lync 2013 中，SIP 高安全性模式預設為啟用，因此您必須將自訂目前狀態設定檔案儲存在已啟用 HTTPS 的 web 伺服器上。 否則，Lync 2013 用戶端將無法與其連線。 例如，有效的位址就是`https://lspool.corp.contoso.com/ClientConfigFolder/CustomPresence.xml`。
+  - CustomStateURL 參數指定的組態檔的位置。 在 Lync 2013 中，SIP 高安全性模式預設會啟用，因此您需要儲存網頁伺服器已啟用 HTTPS 上的自訂目前狀態設定檔。 否則，Lync 2013 用戶端將無法連線到它。 例如，就是有效的地址`https://lspool.corp.contoso.com/ClientConfigFolder/CustomPresence.xml`。
 
 <div>
 
 
 > [!NOTE]  
-> 雖然在生產環境中不建議這樣做，但您可以在用戶端上使用 EnableSIPHighSecurityMode 登錄設定來停用 SIP 高安全性模式，來測試位於非 HTTPS 檔案共用上的設定檔。 接著，您可以使用 CustomStateURL 登錄設定來指定設定檔的非 HTTPS 位置。 請注意，Lync 2013 會說明 Lync 2010 登錄設定，但已更新註冊表配置單元。 您會建立如下所示的註冊表設定： 
+> 雖然不建議在生產環境中，您可以測試的組態檔，位於非 HTTPS 檔案共用上使用 EnableSIPHighSecurityMode 登錄設定，停用用戶端上的 SIP 高安全性模式。 然後您可以使用 customstateurl 來登錄設定來指定的組態檔的非 HTTPS 位置。 請注意，Lync 2013 接受 Lync 2010 登錄設定，但已更新登錄區。 您可以建立的登錄設定，如下所示： 
 > <UL>
 > <LI>
-> <P>HKEY_LOCAL_MACHINE \SOFTWARE\Policies\Microsoft\Office\15.0\Lync\EnableSIPHighSecurityMode</P>
+> <P>HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\15.0\Lync\EnableSIPHighSecurityMode</P>
 > <P>類型： DWORD</P>
-> <P>值資料：0</P>
+> <P>數值資料： 0</P>
 > <LI>
-> <P>HKEY_LOCAL_MACHINE \SOFTWARE\Policies\Microsoft\Office\15.0\Lync\CustomStateURL</P>
-> <P>類型： String （REG_SZ）</P>
-> <P>值資料（範例）： file://\\lspool. com\LSFileShare\ClientConfigFolder\Presence.xml 或 file:///c:/LSFileShare/ClientConfigFolder/Group_1_Pres.xml</P></LI></UL>
+> <P>HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\15.0\Lync\CustomStateURL</P>
+> <P>類型： 字串 (REG_SZ)</P>
+> <P>數值資料 （範例）： file://\\lspool.corp.contoso.com\LSFileShare\ClientConfigFolder\Presence.xml 或 file:///c:/LSFileShare/ClientConfigFolder/Group_1_Pres.xml</P></LI></UL>
 
 
 
 </div>
 
-在 XML 設定檔中指定一個或多個地區識別碼（LCID）架構，以當地語系化您的自訂目前狀態。 本主題稍後的範例會將當地語系化顯示為英文-美國（1033）、挪威文（1044）、法文-法國（1036）及土耳其文（1055）。 如需 Lcid 的清單，請參閱 Microsoft 所指派的地區<http://go.microsoft.com/fwlink/p/?linkid=157331>識別碼。
+XML 設定檔，以指定一或多個地區設定識別碼 (LCID) 結構描述當地語系化您自訂目前狀態。 稍後在這個範例主題會顯示成英文-當地語系化 United States (1033)、 挪威文-巴克摩 (1044)、 法文-法國 (1036) 及土耳其文 (1055)。 Lcid 的清單，請參閱在 microsoft 指派的地區識別碼<http://go.microsoft.com/fwlink/p/?linkid=157331>。
 
 <div>
 
@@ -99,18 +99,18 @@ _**主題上次修改日期：** 2013-01-10_
           </customState>
         </customStates>
 
-2.  將 XML 設定檔儲存到已啟用 HTTPS 的 web 伺服器。 在這個範例中，檔案稱為 [目前狀態 .xml] 並儲存在位置https://lspool.corp.contoso.com/ClientConfigFolder/CustomPresence.xml。
+2.  儲存至網頁伺服器的 XML 設定檔，以啟用 HTTPS。 在這個範例中，該檔案是名為 Presence.xml 和儲存位置， https://lspool.corp.contoso.com/ClientConfigFolder/CustomPresence.xml。
 
-3.  啟動 Lync Server 管理命令介面：按一下 [**開始**]，按一下 [**所有程式**]，按一下 [ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
+3.  啟動 Lync Server 管理命令介面： 按一下 [**開始]**，按一下 [**所有程式]**、 [ **Microsoft Lync Server 2013**]，然後按一下**Lync Server 管理命令介面**。
 
-4.  在 Lync Server 管理命令介面中，使用類似下列的命令來定義 XML 設定檔的位置：
+4.  在 Lync Server 管理命令介面，定義在 XML 設定檔的位置使用類似下列的命令：
     
         New-CsClientPolicy -Identity ContosoCustomStates 
         -CustomStateURL "https://lspool.corp.contoso.com/ClientConfigFolder/CustomPresence.xml"
 
-5.  使用**授與 CSClientPolicy** Cmdlet 將此新原則指派給使用者。
+5.  使用**Grant-csclientpolicy** cmdlet 將此新原則指派給使用者。
 
-如需詳細資訊，請參閱 Lync Server 管理命令介面檔中的[新 CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsClientPolicy)與[授與 CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsClientPolicy) 。
+如需詳細資訊，請參閱 Lync Server 管理命令介面文件中的[New-csclientpolicy](https://docs.microsoft.com/powershell/module/skype/New-CsClientPolicy)和[Grant-csclientpolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsClientPolicy) 。
 
 <div>
 
@@ -118,9 +118,9 @@ _**主題上次修改日期：** 2013-01-10_
 > [!NOTE]  
 > <UL>
 > <LI>
-> <P>依預設，Lync Server 2013&nbsp;會每隔三小時更新一次用戶端原則和設定。</P>
+> <P>根據預設，Lync Server 2013&nbsp;每三小時更新用戶端原則和設定。</P>
 > <LI>
-> <P>如果您想要繼續使用舊版版本（例如 CustomStateURL）的群組原則設定，Lync 2013 會辨識這些設定（如果它們位於新的 Policy registry 配置單元（HKEY_LOCAL_MACHINE \SOFTWARE\Policies\Microsoft\Office\15.0\Lync）中。 不過，以伺服器為基礎的用戶端原則優先。</P></LI></UL>
+> <P>如果您想要繼續使用群組原則設定，從先前的版本，例如 CustomStateURL、 Lync 2013 會辨識設定，如果他們位於中新的原則登錄區 (HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\15.0\Lync)。 不過，伺服器為基礎的用戶端原則的優先順序。</P></LI></UL>
 
 
 

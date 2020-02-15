@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：安裝 Lync 會議室系統管理網頁入口網站
+title: Lync Server 2013： 安裝 Lync 會議室系統管理的入口網站
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 56737622
 ms.date: 04/09/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dcfc78429ef021afcb0ed286ad86a39e63bfbf62
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6af0f52b940e9bcfb78048ef3a2c60f09d265073
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725983"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045235"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="installing-the-lync-room-system-administrative-web-portal-in-lync-server-2013"></a>在 Lync Server 2013 中安裝 Lync 會議室系統管理網頁入口網站
+# <a name="installing-the-lync-room-system-administrative-web-portal-in-lync-server-2013"></a>安裝 Lync Server 2013 中的 Lync 會議室系統管理的入口網站
 
 </div>
 
@@ -35,54 +35,54 @@ ms.locfileid: "41725983"
 
 <span> </span>
 
-_**主題上次修改日期：** 2015-04-09_
+_**主題上次修改日期：** 2015年-04-09_
 
-您可以從 Microsoft 下載中心下載 Microsoft Lync 會議室系統管理網頁入口網站[http://go.microsoft.com/fwlink/p/?LinkId=324044](http://go.microsoft.com/fwlink/p/?linkid=324044)。
+您可以從 Microsoft 下載中心下載 Microsoft Lync 會議室系統管理入口網站[http://go.microsoft.com/fwlink/p/?LinkId=324044](http://go.microsoft.com/fwlink/p/?linkid=324044)。
 
-若要安裝 Lync 會議室系統管理網頁入口網站，請使用下列步驟。
+若要安裝 Lync 會議室系統管理入口網站，請使用下列步驟。
 
-1.  在 Lync Server 管理命令介面中執行下列 Cmdlet，以設定受信任的應用程式埠：
+1.  在 Lync Server 管理命令介面中執行下列 cmdlet 來設定信任的應用程式連接埠：
     
         Set-CsWebServer -Identity POOLFQDN -MeetingRoomAdminPortalInternalListeningPort 4456 -MeetingRoomAdminPortalExternalListeningPort 4457
 
-2.  若要安裝會議室入口網站，請下載**LyncRoomAdminPortal** ，然後以系統管理員身分執行。
+2.  若要安裝會議會議室入口網站，請下載**LyncRoomAdminPortal.exe**並再執行身為系統管理員。
 
-3.  從下列位置開啟 Web.config 檔案：
+3.  開啟 Web.config 檔案，從下列位置：
     
-    % Program Files%\\Microsoft Lync Server 2013\\網頁元件\\會議室入口網站\\Int\\處理常式\\
+    %程式檔案 %\\Microsoft Lync Server 2013\\Web 元件\\會議會議室入口網站\\Int\\處理常式\\
 
-4.  在 web.config 檔案中，將 PortalUserName 變更為在步驟2中建立的使用者名稱，在「設定 Lync 聊天室系統管理入口網站的先決條件」區段（步驟中的建議名稱是 LRSApp）中。
+4.  在 Web.Config 檔案中，變更 PortalUserName 為在步驟 2 中建立的 「 設定必要條件的 Lync 會議室系統管理員入口網站 」 （中步驟的建議的名稱是 LRSApp）] 區段下的使用者名稱：
     
         <add key="PortalUserName" value="sip:LRSApp@domain.com" />
 
-5.  因為 LRS 管理入口網站是受信任的應用程式，因此您不需要在入口網站設定中提供密碼。 如果此使用者使用的註冊機構並非是本機註冊機構，您必須在 Web.config 檔案中加入下列一行，以指定其註冊機構：
+5.  因為 LRS 系統管理入口網站中的受信任的應用程式，您不需要提供入口網站設定中的密碼。 如果此使用者使用本機登錄器比其他註冊機構，您需要指定它的登錄器的 Web.Config 檔案中加入下行：
     
         <add key="PortalUserRegistrarFQDN" value="pool-xxxx.domain.com" />
 
-6.  如果使用的埠不是5061，請在 web.config 檔案中新增下列行：
+6.  如果使用的連接埠 5061 以外，請在 Web.Config 檔案中加入下列一行：
     
         <add key="PortalUserRegistrarPort" value="5061" />
 
 <div>
 
-## <a name="verifying-installation-of-the-lync-room-system-administrative-web-portal"></a>驗證 Lync 會議室系統管理網頁入口網站的安裝
+## <a name="verifying-installation-of-the-lync-room-system-administrative-web-portal"></a>確認 Lync 會議室系統管理 Web 入口網站的安裝
 
-若要確認 Lync 會議室系統管理網頁入口網站的安裝，請執行下列動作：
+若要確認安裝 Lync 會議室系統管理入口網站，請執行下列動作：
 
 
-1.  在前端伺服器上，流覽至下列 URL：
+1.  在前端伺服器上，瀏覽至下列 URL:
     
-    HTTPs://\<fe-伺服器\>/lrs
+    https://\<fe-server\>/lrs
     
-    您不應該看到任何錯誤，如下圖所示：
+    下圖所示，應該不會看到任何錯誤：
     
-    ![[Lync Room System 管理入口網站登入] 畫面](images/Dn436326.050bcf70-2f3b-46b2-9b96-ebd12679b713(OCS.15).png "[Lync Room System 管理入口網站登入] 畫面")
+    ![Lync 會議室系統管理員入口網站登入畫面](images/Dn436326.050bcf70-2f3b-46b2-9b96-ebd12679b713(OCS.15).png "Lync 會議室系統管理員入口網站登入畫面")
 
-2.  如果您沒有看到任何錯誤，請嘗試從拓撲中的任何其他電腦存取下列 URL：
+2.  如果看不到任何錯誤，請嘗試從拓撲中的任何其他電腦存取下列 URL:
     
-    HTTPs://\<fe-伺服器\>/lrs
+    https://\<fe-server\>/lrs
     
-    若要存取頁面，您將需要新增 DNS 記錄，如「自動用戶端登入所需的 DNS 記錄」中所述[http://go.microsoft.com/fwlink/p/?LinkId=318056](http://go.microsoft.com/fwlink/p/?linkid=318056)。
+    若要存取 [] 頁面上，您必須新增 DNS 記錄所述的 「 需要 DNS 記錄的自動用戶端登入 」 在[http://go.microsoft.com/fwlink/p/?LinkId=318056](http://go.microsoft.com/fwlink/p/?linkid=318056)。
 
 </div>
 

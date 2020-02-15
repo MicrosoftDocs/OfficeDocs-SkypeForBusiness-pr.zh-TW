@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：媒體旁路簡介
+title: 媒體旁路的 Lync Server 2013： 概觀
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184924
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 84c70cae521deebecf30e7c8ec6505b18e9842fa
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9d5cc3106ffaabd6aee985c225f6cc13fdd5fbb6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755497"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050935"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-media-bypass-in-lync-server-2013"></a>Lync Server 2013 中的媒體旁路概覽
+# <a name="overview-of-media-bypass-in-lync-server-2013"></a>Lync Server 2013 中的媒體旁路概觀
 
 </div>
 
@@ -35,37 +35,37 @@ ms.locfileid: "41755497"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-09-21_
+_**主題上次修改日期：** 2012年-09-21_
 
-如果您想要將部署的中繼伺服器數量減至最少，則可以使用 [媒體旁路]。 通常，會將中繼伺服器池部署在中央網站，它會控制分支網站上的閘道。 啟用「媒體旁路」可讓您從分支網站上的用戶端直接透過閘道從分支網站傳送公用交換電話網絡（PSTN）通話的媒體。 Lync Server 2013 出站通話路由及企業語音原則必須正確設定，才能將分支網站用戶端的 PSTN 呼叫路由至適當的閘道。
+當您想要部署的中繼伺服器的數目降至最低，媒體旁路特別有用。 一般而言，或中繼伺服器集區將會部署在中央網站，而且它會控制在分支站台的閘道。 啟用媒體旁路允許來自在分支站台的用戶端至流程直接通過這些網站閘道的公用交換的電話網路 (PSTN) 通話的媒體。 Lync Server 2013 撥出電話路由和企業語音原則必須正確設定，讓來自用戶端在分支網站的 PSTN 通話路由傳送至適當的閘道。
 
-Wi-fi 網路通常會比有線網路遇到更多的資料包遺失情況。 從這個資料包遺失中進行的復原並非通常是由閘道所能容納的。 因此，建議您先評估 Wi-fi 網路的品質，然後再決定是否應該針對無線子網啟用旁路。 在延遲減少與從資料包遺失到恢復的情況下，也有一個折衷考慮。 RTAudio （可供不略過中繼伺服器的呼叫使用的編解碼器）更適合處理資料包遺失。
+Wi-fi 網路通常會遇到更多比有線網路封包遺失。 從這個封包遺失復原不是通常可以容納的閘道。 因此，建議您先決定是否應啟用無線子網路的旁路評估的 Wi-fi 網路品質。 與封包遺失考量，以及從復原延遲減少沒有取捨。 RTAudio，這是適用於不會略過中繼伺服器的呼叫轉碼器是更適合處理封包遺失。
 
-在您的企業語音結構就緒之後，規劃媒體略過簡單。
+您的企業語音結構就緒後，規劃媒體旁路便相當簡單。
 
-  - 如果您的中央拓撲沒有 WAN 連結至分支網站，您可以啟用全域媒體旁路，因為不需要微調控制措施。
+  - 如果您有集中式的拓撲，而 WAN 連結至分支網站，您可以啟用通用媒體旁路，因為不需要精細的控制。
 
-  - 如果您有包含一或多個網路區域及其附屬分支網站的分散式拓朴，請判斷下列事項：
+  - 如果您有分散式的拓撲，其中包含一或多個網路地區及其附屬的分支網站的決定下列項目：
     
-      - 您的中繼伺服器對等是否能夠支援媒體旁路所需的功能。
+      - 中繼伺服器對等是否可以支援媒體旁路所需的功能。
     
-      - 每個網路區域中的哪些網站有良好的連接。
+      - 每個網路地區中的哪些網站已妥善連接。
     
-      - [媒體旁路] 與 [呼叫許可控制] 的組合適合您的網路。
+      - 哪一種媒體組合旁路和通話許可控制適合您的網路。
 
-當您啟用媒體旁路時，系統會自動為網路區域建立唯一的旁路 ID，以及該區域內不含頻寬限制的所有網路網站。 在區域內具有頻寬限制的網站，以及使用頻寬限制連接到區域的網站，會分別指派自己獨特的旁路 Id。
+當您啟用媒體旁路時，唯一的旁路 ID 會自動產生的網路地區，並沒有該區域內的頻寬限制的所有網路網站。 使用的區域內的頻寬限制的網站和網站透過與頻寬限制的 WAN 連結來連線至區域是每個指派給其專屬唯一旁路 Id。
 
-當使用者撥打電話給 PSTN 時，中繼伺服器會將用戶端子網上的旁路 ID 與閘道子網的旁路 ID 進行比較。 如果兩個旁路識別碼相符，就會使用媒體旁路進行通話。 如果旁路識別碼不相符，通話的媒體必須透過中繼伺服器進行流動。
+當使用者進行 pstn 通話時，中繼伺服器比較旁路 ID 之用戶端子網路與閘道子網路的旁路識別碼。 如果這兩個略過識別碼比對，媒體旁路用於通話。 略過不相符識別碼，如果通話的媒體必須經過中繼伺服器。
 
-當使用者從 PSTN 接收來電時，使用者的用戶端會將它的旁路 ID 與 PSTN 閘道的旁路識別碼進行比較。 如果兩個旁路識別碼相符，媒體就會直接從閘道流向用戶端，而不需要轉送伺服器。
+當使用者收到 PSTN 呼叫時，使用者的用戶端會比較的 PSTN 閘道其旁路識別碼。 如果這兩個略過識別碼比對，媒體流向直接從用戶端，略過中繼伺服器閘道。
 
-只有 Lync 2010 或以上的用戶端與裝置支援與中繼伺服器的媒體旁路互動。
+只有 Lync 2010 或以上的用戶端和裝置支援媒體旁路與中繼伺服器之間的互動。
 
 <div>
 
 
 > [!IMPORTANT]  
-> 除了在全域啟用旁路媒體之外，您還必須在每個 PSTN 主幹上個別啟用媒體旁路。 如果旁路是全域啟用，但未針對特定 PSTN 幹線啟用，則任何涉及 PSTN 幹線的呼叫都不會呼叫媒體旁路。 此外，當 [媒體旁路] 設定為<STRONG>使用網站和區域資訊</STRONG>時，您必須將所有可路由的子網與它們所在的網站建立關聯。 如果在不想要略過的網站內有可路由的子網，在您啟用媒體旁路之前，必須將這些子網群組放在新的網站中。 如此一來，就能保證 unroutable 子網已獲指派不同的旁路 ID。
+> 除了啟用媒體旁路全域，您必須啟用媒體旁路，分別在每個 PSTN 主幹。 如果旁路全域，已啟用，但未啟用特定的 PSTN 主幹，媒體旁路將不會叫用任何涉及該 PSTN 主幹的通話。 此外，當媒體旁路設為<STRONG>使用網站與地區資訊</STRONG>，您必須關聯可路由傳送的所有子網路所屬的所在的網站。 如果不想略過站台內的路由傳送子網路，則這些子網路應進行分組，新的站台內啟用媒體旁路之前。 這樣可確保無法路由的子網路會指派不同的旁路 id。
 
 
 
@@ -73,12 +73,12 @@ Wi-fi 網路通常會比有線網路遇到更多的資料包遺失情況。 從�
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
-[Lync Server 2013 中的媒體旁路模式](lync-server-2013-media-bypass-modes.md)  
-[Lync Server 2013 中的媒體旁路和通話許可控制](lync-server-2013-media-bypass-and-call-admission-control.md)  
-[Lync Server 2013 中媒體旁路的技術需求](lync-server-2013-technical-requirements-for-media-bypass.md)  
+[媒體旁路模式的 Lync Server 2013](lync-server-2013-media-bypass-modes.md)  
+[媒體旁路和 Lync Server 2013 中的通話許可控制](lync-server-2013-media-bypass-and-call-admission-control.md)  
+[Lync Server 2013 中略過媒體的技術需求](lync-server-2013-technical-requirements-for-media-bypass.md)  
   
 
 </div>

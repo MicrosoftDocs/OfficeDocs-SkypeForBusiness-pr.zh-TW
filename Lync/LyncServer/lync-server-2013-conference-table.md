@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：Conference 表格
+title: Lync Server 2013： 會議表格
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183700
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4941dc3ef59630cd77cfb0f8a51407d15ca628f7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 733b3fc6fa77f8f18de1a5c79be86a5aea340cec
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756977"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048584"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="conference-table-in-lync-server-2013"></a>Lync Server 2013 中的 Conference 表格
+# <a name="conference-table-in-lync-server-2013"></a>Lync Server 2013 中的會議表格
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41756977"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-02_
+_**主題上次修改日期：** 2012年-10-02_
 
-[會議] 表格是支援表格。 每個記錄代表一個會議或點對點工作階段。
+會議表格是一種支援資料表，其中的每一項記錄都代表一個會議或對等工作階段。
 
 
 <table>
@@ -49,9 +49,9 @@ _**主題上次修改日期：** 2012-10-02_
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>左欄</strong></th>
+<th><strong>欄</strong></th>
 <th><strong>資料類型</strong></th>
-<th><strong>索引鍵/索引</strong></th>
+<th><strong>主索引鍵 /</strong></th>
 <th><strong>詳細資料</strong></th>
 </tr>
 </thead>
@@ -59,26 +59,26 @@ _**主題上次修改日期：** 2012-10-02_
 <tr class="odd">
 <td><p><strong>ConferenceKey</strong></p></td>
 <td><p>int</p></td>
-<td><p>首選</p></td>
-<td><p>標識此會議記錄的唯一號碼。</p></td>
+<td><p>主要</p></td>
+<td><p>用於識別此會議記錄的唯一號碼。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ConfURI</strong></p></td>
-<td><p>Nvarchar （450）</p></td>
-<td><p>唯一</p></td>
-<td><p>會議 URI （如果這是會議），或 DialogID （如果這是點對點工作階段的話）。</p></td>
+<td><p>nvarchar(450)</p></td>
+<td><p>unique</p></td>
+<td><p>會議 URI (若為會議)，或 DialogID (若為點對點工作階段)。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>求和</strong></p></td>
+<td><p><strong>總和檢查碼</strong></p></td>
 <td><p>int</p></td>
 <td><p>index</p></td>
-<td><p>會議 URI 的校驗和。 這會在內部使用。</p></td>
+<td><p>會議 URI 的總和檢查碼。僅限內部使用。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>NextUpdateTS</strong></p></td>
 <td><p>datetime</p></td>
 <td></td>
-<td><p>僅供內部使用。</p></td>
+<td><p>僅限內部使用。</p></td>
 </tr>
 </tbody>
 </table>

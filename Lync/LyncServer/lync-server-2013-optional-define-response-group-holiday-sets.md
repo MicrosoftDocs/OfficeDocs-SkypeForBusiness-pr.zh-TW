@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：（選用）定義回應群組假日集
+title: 'Lync Server 2013: （選用） 定義回應群組假日集'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733657
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7e6751a5f5915e73d181efba40976640c65e0909
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 615b76657b8a7045c99d17f523aa73b0ee79a807
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755757"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051165"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="optional-define-response-group-holiday-sets-in-lync-server-2013"></a>可選在 Lync Server 2013 中定義回應群組假日集
+# <a name="optional-define-response-group-holiday-sets-in-lync-server-2013"></a>（選用）Lync Server 2013 中的定義回應群組假日集
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41755757"
 
 <span> </span>
 
-_**主題上次修改日期：** 2014-02-07_
+_**上次修改主題：** 2014年-02-07_
 
-[假日設定] 定義回應群組在商務中關閉的天數，並指定要在這些日期採取的動作。 假日集是套用至回應群組的假日集合。
+假日設定會定義回應群組關閉的不營業日期，並且指定在這些日子採取的動作。假日集為套用至回應群組的假日集合。
 
 <div>
 
 
 > [!NOTE]  
-> 如果工作流程定義為受管理的工作流程，則會指派任何使用者 CsResponseGroupManager 角色，即可設定及修改他們所管理之工作流程的假日。
+> 如果已將工作流程設定為受管理的工作流程，則任何已指派 CsResponseGroupManager 角色的使用者都可以設定和修改其所管理之工作流程的假日。
 
 
 
@@ -53,15 +53,15 @@ _**主題上次修改日期：** 2014-02-07_
 
 ## <a name="to-create-a-holiday-set"></a>建立假日集
 
-1.  以 RTCUniversalServerAdmins 群組成員的身分登入，或以支援回應群組的預先定義之系統管理角色的成員的身分登入。
+1.  以 RTCUniversalServerAdmins 群組成員身分或其中一個預先定義的系統管理角色支援回應群組的成員身分登入。
 
-2.  啟動 Lync Server 管理命令介面：按一下 [**開始**]，按一下 [**所有程式**]，按一下 [ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
+2.  啟動 Lync Server 管理命令介面： 按一下 [**開始]**，按一下 [**所有程式]**、 [ **Microsoft Lync Server 2013**]，然後按一下**Lync Server 管理命令介面**。
 
-3.  針對您想要定義的每一個假日，請執行：
+3.  對於您要定義的每個假日，請執行：
     
         $x = New-CsRgsHoliday [-Name <holiday name>] -StartDate <starting date of holiday> -EndDate <ending date of holiday>
     
-    若要建立包含您定義之假日的假日集，請執行：
+    若要建立包含您所定義之假日的假日集，請執行：
     
         New-CsRgsHolidaySet -Parent <service where the workflow is hosted> -Name <unique name for holiday set> -HolidayList <one or more holidays to be included in the holiday set>
     
@@ -75,15 +75,15 @@ _**主題上次修改日期：** 2014-02-07_
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
-[在 Lync Server 2013 中建立或修改查尋群組工作流程](lync-server-2013-create-or-modify-a-hunt-group-workflow.md)  
-[在 Lync Server 2013 中建立或修改互動式工作流程](lync-server-2013-create-or-modify-an-interactive-workflow.md)  
+[建立或修改群組搜尋工作流程在 Lync Server 2013](lync-server-2013-create-or-modify-a-hunt-group-workflow.md)  
+[建立或修改互動工作流程在 Lync Server 2013](lync-server-2013-create-or-modify-an-interactive-workflow.md)  
 
 
-[新-CsRgsHoliday](https://docs.microsoft.com/powershell/module/skype/New-CsRgsHoliday)  
-[New-CsRgsHolidaySet](https://docs.microsoft.com/powershell/module/skype/New-CsRgsHolidaySet)  
+[New-csrgsholiday](https://docs.microsoft.com/powershell/module/skype/New-CsRgsHoliday)  
+[New-csrgsholidayset](https://docs.microsoft.com/powershell/module/skype/New-CsRgsHolidaySet)  
   
 
 </div>

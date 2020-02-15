@@ -12,16 +12,16 @@ ms:contentKeyID: 48185056
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f2fec27e51722eea889c7256e6cbb777481b9016
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 494ef02b232891eedf9b42a15a7db03b8cdc175b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738603"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048894"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41738603"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-19_
+_**主題上次修改日期：** 2012年-10-19_
 
-通常已接受的遷移最佳做法是建立數個測試使用者，並使用它們來執行系統測試。 當您成功地移動並測試這些帳戶之後，您應該找出一組試驗式生產使用者，並在其上移動帳戶並進行驗證測試。 當您取得滿意的結果時，您可以將其餘的使用者移至新的部署。
+一般可接受的移轉最佳作法是，建立幾位測試使用者，並使用這些使用者進行系統測試。成功移動並測試這些帳戶之後，您應指定一組測試生產使用者，然後移動他們的帳戶並進行驗證測試。當您得到滿意的結果後，就可以將其餘使用者移動至新部署。
 
 </div>
 

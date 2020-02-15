@@ -12,16 +12,16 @@ ms:contentKeyID: 48184302
 ms.date: 12/10/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eba5a563612a395a7f252aecb5992a64d04b5221
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b60f2cb767dc37d06c2c55547b0bf8cfae366cc4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725163"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050565"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,45 +35,45 @@ ms.locfileid: "41725163"
 
 <span> </span>
 
-_**主題上次修改日期：** 2014-12-09_
+_**上次修改主題：** 2014年-12-09_
 
 本節中的主題說明如何規劃成功的 Lync Server 部署。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [Lync Server 2013 的組織規劃](lync-server-2013-planning-for-your-organization.md)
+  - [規劃 Lync Server 2013 的組織](lync-server-2013-planning-for-your-organization.md)
 
-  - [判斷 Lync Server 2013 的基礎結構需求](lync-server-2013-determining-your-infrastructure-requirements.md)
+  - [決定針對 Lync Server 2013 基礎結構需求](lync-server-2013-determining-your-infrastructure-requirements.md)
 
-  - [Lync Server 2013 的網路規劃](lync-server-2013-network-planning.md)
+  - [規劃 Lync Server 2013 的網路](lync-server-2013-network-planning.md)
 
   - [Lync Server 2013 的容量規劃](lync-server-2013-capacity-planning.md)
 
-  - [在 Lync Server 2013 中規劃高可用性和災害復原](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)
+  - [規劃 Lync Server 2013 中的高可用性和災害復原](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)
 
-  - [在 Lync Server 2013 中規劃易管理性與虛擬化](lync-server-2013-planning-for-manageability-and-virtualization.md)
+  - [規劃管理性與 Lync Server 2013 中的虛擬化](lync-server-2013-planning-for-manageability-and-virtualization.md)
 
-  - [在 Lync Server 2013 中規劃前端伺服器、立即訊息及顯示狀態](lync-server-2013-planning-for-front-end-servers-instant-messaging-and-presence.md)
+  - [規劃前端伺服器、 立即訊息和 Lync Server 2013 中的目前狀態](lync-server-2013-planning-for-front-end-servers-instant-messaging-and-presence.md)
 
-  - [Lync Server 2013 中的會議規劃](lync-server-2013-planning-for-conferencing.md)
+  - [規劃 Lync Server 2013 中的會議](lync-server-2013-planning-for-conferencing.md)
 
-  - [在 Lync Server 2013 中規劃外部使用者存取](lync-server-2013-planning-for-external-user-access.md)
+  - [規劃 Lync Server 2013 中的外部使用者存取](lync-server-2013-planning-for-external-user-access.md)
 
-  - [在 Lync Server 2013 中規劃企業語音](lync-server-2013-planning-for-enterprise-voice.md)
+  - [規劃 Lync Server 2013 中的 Enterprise Voice](lync-server-2013-planning-for-enterprise-voice.md)
 
-  - [Lync Server 2013 中的規劃監控](lync-server-2013-planning-for-monitoring.md)
+  - [規劃 Lync Server 2013 中監視](lync-server-2013-planning-for-monitoring.md)
 
-  - [在 Lync Server 2013 中規劃封存](lync-server-2013-planning-for-archiving.md)
+  - [規劃 Lync Server 2013 中的封存](lync-server-2013-planning-for-archiving.md)
 
-  - [在 Lync Server 2013 中規劃常設聊天室伺服器](lync-server-2013-planning-for-persistent-chat-server.md)
+  - [規劃 Lync Server 2013 中的常設聊天室伺服器](lync-server-2013-planning-for-persistent-chat-server.md)
 
-  - [規劃與 Lync Server 2013 整合 Exchange Server](lync-server-2013-planning-for-exchange-server-integration.md)
+  - [規劃 Exchange Server 與 Lync Server 2013 整合](lync-server-2013-planning-for-exchange-server-integration.md)
 
-  - [在 Lync Server 2013 中規劃用戶端和裝置](lync-server-2013-planning-for-clients-and-devices.md)
+  - [規劃用戶端和 Lync Server 2013 中的裝置](lync-server-2013-planning-for-clients-and-devices.md)
 
-  - [在 Lync Server 2013 中規劃遠端通話控制](lync-server-2013-planning-for-remote-call-control.md)
+  - [規劃 Lync Server 2013 中的遠端呼叫控制](lync-server-2013-planning-for-remote-call-control.md)
 
   - [Lync Server 2013 中的行動規劃](lync-server-2013-planning-for-mobility.md)
 

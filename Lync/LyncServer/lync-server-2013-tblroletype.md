@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：tblRoleType
+title: 'Lync Server 2013: tblRoleType'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183577
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ba6b5041453b0965fafc12ada2be62ec42316f89
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ab96d6cd090ebaaa9e33ddf1672ab704ee371f8b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731183"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046146"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41731183"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-06-25_
+_**主題上次修改日期：** 2012年-06-25_
 
-tblRoleType 是一個靜態查閱表格，其中包含角色類型及其關聯的許可權集。
+tblRoleType 表格是一種靜態查閱表格，其中含有角色類型與其相關的權限組。
 
-### <a name="columns"></a>分欄
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -49,48 +49,48 @@ tblRoleType 是一個靜態查閱表格，其中包含角色類型及其關聯�
 </colgroup>
 <thead>
 <tr class="header">
-<th>左欄</th>
-<th>類型</th>
-<th>說明</th>
+<th>欄</th>
+<th>類型	</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>rtypeID</p></td>
-<td><p>int，not null</p></td>
-<td><p>角色類型 ID。</p></td>
+<td><p>int，非 null</p></td>
+<td><p>角色類型識別碼。</p></td>
 </tr>
 <tr class="even">
 <td><p>rtypeDesc</p></td>
-<td><p>Nvarchar （256），not null</p></td>
-<td><p>角色類型描述。 共有四個可用的角色：</p>
+<td><p>nvarchar (256)，非 null</p></td>
+<td><p>角色類型描述。以下是四個可用的角色：</p>
 <ul>
-<li><p>成員：聊天室成員</p></li>
-<li><p>管理員：聊天室管理員</p></li>
-<li><p>濁音： auditorium 聊天室的簡報者</p></li>
-<li><p>建立者：可以建立聊天室</p></li>
+<li><p>Member：聊天室成員</p></li>
+<li><p>Manager：聊天室管理員</p></li>
+<li><p>Voiced：視聽中心聊天室簡報者</p></li>
+<li><p>Creator：可建立聊天室</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td><p>rtypeAllowedPermSet</p></td>
-<td><p>Bigint，not null</p></td>
-<td><p>角色的許可權集。 已使用的位數如下：</p>
+<td><p>bigint，非 null</p></td>
+<td><p>角色的權限組。使用的位元如下：</p>
 <ul>
-<li><p>2：如果角色可以管理節點，則為 True。</p></li>
-<li><p>4：如果角色可以建立子節點，則為 True。</p></li>
-<li><p>7：如果角色可以加入聊天室（或類別的子聊天室），則為 True。</p></li>
-<li><p>8：如果角色可以在聊天室（或在子類別的 [兒童聊天室] 聊天室）中聊天，則為 True。</p></li>
-<li><p>10： True，如果角色可以讀取聊天記錄，即使未加入聊天室也一樣。</p></li>
-<li><p>11：如果角色可以查看聊天室，則為 True。 （例如範圍和可見度等因素進一步改進。）</p></li>
-<li><p>12：如果角色可以在 auditorium 聊天室中聊天，則為 True。</p></li>
-<li><p>13：如果角色在查看節點時可以略過可見度規則，則為 True。</p></li>
+<li><p>2: 若角色可管理節點則為 True。</p></li>
+<li><p>4: 若角色可建立子節點則為 True。</p></li>
+<li><p>7: 若角色可加入聊天室 (或類別的子聊天室) 則為 True。</p></li>
+<li><p>8: 若角色可在聊天室 (或類別的子聊天室) 中交談則為 True。</p></li>
+<li><p>10: 若角色可讀取聊天記錄則為 True (即使未加入聊天室時亦可)。</p></li>
+<li><p>11: 若角色可看到聊天室則為 True (可進一步依據範圍和可見度等因素來調整)。</p></li>
+<li><p>12: 若角色可在視聽中心聊天室中交談則為 True。</p></li>
+<li><p>13: 若角色可在檢視節點時略過可見度規則則為 True。</p></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="key"></a>機碼
+### <a name="key"></a>索引鍵
 
 <table>
 <colgroup>
@@ -99,14 +99,14 @@ tblRoleType 是一個靜態查閱表格，其中包含角色類型及其關聯�
 </colgroup>
 <thead>
 <tr class="header">
-<th>左欄</th>
-<th>說明</th>
+<th>欄</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>rtypeID</p></td>
-<td><p>主鍵。</p></td>
+<td><p>主索引鍵。</p></td>
 </tr>
 </tbody>
 </table>

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：重設或刪除外部使用者存取原則
+title: Lync Server 2013： 重設或刪除外部使用者存取原則
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184300
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 38b4ebc83a96c2bc7da2b71a8a817f949e745d21
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 37583937a1cc1c17fac55ac5185a4cd793b7f5bb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723723"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049625"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="resetting-or-deleting-external-user-access-policies-in-lync-server-2013"></a>在 Lync Server 2013 中重設或刪除外部使用者存取原則
+# <a name="resetting-or-deleting-external-user-access-policies-in-lync-server-2013"></a>重設或刪除 Lync Server 2013 中的外部使用者存取原則
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41723723"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-09-08_
+_**主題上次修改日期：** 2012年-09-08_
 
-如果您已建立或設定您不想再使用的外部使用者存取原則，您可以執行下列動作：
+如果您已建立或設定不想再使用的外部使用者存取原則，則可以執行下列動作：
 
-  - 刪除您建立的任何網站或使用者原則。
+  - 刪除任何已建立的網站或使用者原則。
 
-  - 將全域原則重設為預設設定。 預設全域原則設定會拒絕任何外部使用者存取。 無法刪除全域原則。
+  - 將全域原則重設為預設設定。預設全域原則設定拒絕任何外部使用者存取。全域原則無法刪除。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [在 Lync Server 2013 中刪除外部使用者存取的網站或使用者原則](lync-server-2013-delete-a-site-or-user-policy-for-external-user-access.md)
+  - [刪除外部使用者存取 Lync Server 2013 中的網站或使用者原則](lync-server-2013-delete-a-site-or-user-policy-for-external-user-access.md)
 
-  - [在 Lync Server 2013 中重設外部使用者存取的全域原則](lync-server-2013-reset-the-global-policy-for-external-user-access.md)
+  - [Lync Server 2013 中的外部使用者存取的全域原則重設](lync-server-2013-reset-the-global-policy-for-external-user-access.md)
 
 </div>
 

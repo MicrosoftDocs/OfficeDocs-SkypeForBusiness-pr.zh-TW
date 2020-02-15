@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：設定未指派號碼的宣告
+title: Lync Server 2013： 設定未指派號碼的宣告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184035
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 52d7e8ad1aa4fcfe3db9aabee61e317810707194
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6442ed90050df22df77c41773619bedb5ee3ff72
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726523"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048347"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,33 +35,33 @@ ms.locfileid: "41726523"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-09-11_
+_**主題上次修改日期：** 2012年-09-11_
 
-[宣告] 應用程式是一種企業語音功能，可讓您設定呼叫未指派的延伸（對貴組織有效，但未指派給人員或電話的延伸）。 例如，您可以設定未指派號碼的呼叫來播放郵件，或將其傳送至不同的目的地，或兩者皆可。
+宣告應用程式是企業語音功能，可讓您設定未指派的副檔名 （適用於您的組織，但不會指派給某個人或電話分機） 的呼叫會發生什麼事。 例如，您可以設定撥給未指派號碼的來電，以播放訊息或轉接至不同目的地，或兩者。
 
-發佈應用程式是在您部署企業語音時，在前端伺服器或標準版伺服器上作為回應群組應用程式的功能安裝。 您必須先上傳音訊檔案或設定文字轉換語音（TTS）及設定 [未指定的數位] 資料表來設定宣告。
+當您部署企業語音時，宣告應用程式被安裝為前端伺服器或 Standard Edition server 上的回應群組應用程式的功能。 您需要設定宣告，作法為上傳音訊檔案或設定文字轉換語音 (TTS)，以及設定未指派的號碼表。
 
-本節將引導您完成 Lync Server 宣告的設定。 它假設您已閱讀與宣告相關的規劃區段，以及使用企業語音部署企業版伺服器或標準版伺服器。
+本節會引導您完成的 Lync Server 宣告設定。 它會假設您已閱讀規劃章節相關的宣告，並部署 Enterprise Edition 伺服器或 Standard Edition 伺服器與 Enterprise Voice。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [Lync Server 2013 中的宣告組態先決條件和角色](lync-server-2013-announcement-configuration-prerequisites-and-roles.md)
+  - [宣告組態先決條件和 Lync Server 2013 中的角色](lync-server-2013-announcement-configuration-prerequisites-and-roles.md)
 
-  - [Lync Server 2013 中宣告應用程式的部署程式](lync-server-2013-deployment-process-for-the-announcement-application.md)
+  - [Lync Server 2013 中的宣告應用程式的部署程序](lync-server-2013-deployment-process-for-the-announcement-application.md)
 
-  - [在 Lync Server 2013 中建立公告](lync-server-2013-create-an-announcement.md)
+  - [Lync Server 2013 中建立的宣告](lync-server-2013-create-an-announcement.md)
 
   - [在 Lync Server 2013 中設定未指派號碼表](lync-server-2013-configure-the-unassigned-number-table.md)
 
-  - [可選驗證 Lync Server 2013 中的宣告部署](lync-server-2013-optional-verify-announcement-deployment.md)
+  - [（選用）確認 Lync Server 2013 中的宣告部署](lync-server-2013-optional-verify-announcement-deployment.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
 [規劃 Lync Server 2013 中的通話管理功能](lync-server-2013-planning-for-call-management-features.md)  

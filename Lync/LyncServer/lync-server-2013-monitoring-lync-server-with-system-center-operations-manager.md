@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：使用 System Center Operations Manager 監視 Lync Server
+title: Lync Server 2013： 監視與 System Center Operations Manager 的 Lync Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969636
 ms.date: 05/06/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0b5a251853efe20cc867f78f4f932e2c43efd22c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 341901ce6d467818e6aac433f7d8ca4dca37adef
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756827"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048046"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="monitoring-lync-server-2013-with-system-center-operations-manager"></a>使用 System Center Operations Manager 監視 Lync Server 2013
+# <a name="monitoring-lync-server-2013-with-system-center-operations-manager"></a>監視與 System Center Operations Manager 的 Lync Server 2013
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41756827"
 
 <span> </span>
 
-_**主題上次修改日期：** 2015-05-06_
+_**主題上次修改日期：** 2015年-05-06_
 
-Lync Server 管理套件（MP）是監視任何 Lync Server 部署所選擇的監視解決方案。
+Lync Server 管理組件 (MP) 」 是適合監視任何 Lync Server 部署您監視解決方案。
 
-MP 會實現傳統的事件記錄和效能計數器式分析，並在 Lync Server 中啟用新近可用的檢測，例如，針對幾個主要的健康情況指標進行成對事件（失敗/成功），同時也完全實現新\*的綜合交易（Test Cs Windows PowerShell Cmdlet）。
+MP 實作傳統事件記錄檔和效能逆時針根據的檢測和啟用新可用檢測在 Lync Server 中，例如配對事件 （失敗/成功） 的數個機碼的健康狀況指示器，並也完全實作新的綜合交易 (測試 Cs\* Windows PowerShell cmdlet)。
 
-您可以在[http://go.microsoft.com/fwlink/p/?LinkId=400468](http://go.microsoft.com/fwlink/p/?linkid=400468)中找到 Lync Server 2013 管理套件及其相關的檔。 如果您正在執行 System Center Operations Manager 2012，建議您這麼做。
+您可以找到 Lync Server 2013 管理組件和其相關的文件， [http://go.microsoft.com/fwlink/p/?LinkId=400468](http://go.microsoft.com/fwlink/p/?linkid=400468)。 如果您正在執行 System Center Operations Manager 2012，則建議這項目。
 
 </div>
 

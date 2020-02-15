@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：架構參考
+title: Lync Server 2013： 結構描述參考
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184191
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3e2d5458ca3c14af74b71dd09c4f94f6936aa27c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 03d4e1c983ab06b2c1b80fb28730b91166542b83
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732564"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049385"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="schema-reference-for-lync-server-2013"></a>Lync Server 2013 的架構參考
+# <a name="schema-reference-for-lync-server-2013"></a>Lync Server 2013 的結構描述參考
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41732564"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-06-29_
+_**主題上次修改日期：** 2012年-06-29_
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [Lync Server 2013 中的詳細通話記錄 (CDR) 資料庫架構](lync-server-2013-call-detail-recording-cdr-database-schema.md)
+  - [詳細通話記錄 (CDR) 資料庫結構描述在 Lync Server 2013](lync-server-2013-call-detail-recording-cdr-database-schema.md)
 
-  - [Lync Server 2013 中的經驗品質 (QoE) 資料庫架構](lync-server-2013-quality-of-experience-qoe-database-schema.md)
+  - [Lync Server 2013 中的經驗 (QoE) 資料庫結構描述的品質](lync-server-2013-quality-of-experience-qoe-database-schema.md)
 
-  - [Lync Server 2013 中的常設聊天室資料庫結構描述](lync-server-2013-persistent-chat-database-schema.md)
+  - [在 [Lync Server 2013 常設聊天室資料庫結構描述](lync-server-2013-persistent-chat-database-schema.md)
 
-  - [Lync Server 2013 使用的 Active Directory 結構描述擴充功能、類別及屬性](lync-server-2013-active-directory-schema-extensions-classes-and-attributes-used-by-lync-server.md)
+  - [Active Directory 架構延伸模組、 類別及 Lync Server 2013 所使用的屬性](lync-server-2013-active-directory-schema-extensions-classes-and-attributes-used-by-lync-server.md)
 
 </div>
 

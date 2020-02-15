@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：修改預設的 URL 篩選
+title: Lync Server 2013： 修改預設 URL 篩選器
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184653
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 975824faa6a567992001ae10cafec61ef2ea1370
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 15511ea6b48697cddfebc40c671880a14a545557
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41766014"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051315"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="modify-the-default-url-filter-in-lync-server-2013"></a>在 Lync Server 2013 中修改預設的 URL 篩選
+# <a name="modify-the-default-url-filter-in-lync-server-2013"></a>修改 Lync Server 2013 中的預設 URL 篩選器
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "41766014"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-06-26_
+_**主題上次修改日期：** 2012年-06-26_
 
-透過使用立即訊息（IM）篩選器，Lync Server 2013 提供全域 URL 篩選，可封鎖您在所有 Lync Server 2013 部署中的 IM 交談中所包含的特定 Url。 使用 Lync Server [控制台]，您可以執行下列動作：
+藉由使用立即訊息 (IM) 篩選器，Lync Server 2013 提供全域的 URL 篩選器來封鎖特定 Url 都會包含在整個 Lync Server 2013 部署的使用者之間的 IM 交談中。 使用 Lync Server Control Panel，您可以執行下列動作：
 
-  - 在立即訊息交談中封鎖全部或 Url 子集。
+  - 封鎖立即訊息交談中的所有或部分 URL。
 
-  - 允許所有 Url。 您可以選擇在包含 URL 的每一則立即訊息開頭，建立一則通知。
+  - 允許所有 URL。您可以選擇建立會在每個包含 URL 的立即訊息的開頭處插入的聲明。
 
-  - 允許特定 Url，並在每個包含 URL 的立即訊息中加入一個警告。
+  - 允許特定 URL，並在每個包含 URL 的立即訊息中附上警告。
 
-此外，您也可以選擇封鎖包含特定檔案類型的 Url，或只封鎖網際網路 Url，只要允許伺服器「本機 intranet」區域（內部網路 Url）內的 Url 傳遞到伺服器。 如需 URL 篩選的詳細資料，請參閱[在 Lync Server 2013 中設定立即訊息（IM）的檔案傳輸與 URL 篩選](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md)。
+此外，您還可以選擇封鎖包含特定檔案類型的 URL，或是透過僅允許位於伺服器之近端內部網路區域中的 URL (內部網路 URL) 通過伺服器，而封鎖網際網路 URL。 如需 URL 篩選的詳細資訊，請參閱[設定檔案傳輸和篩選，以便立即訊息 (IM) 在 Lync Server 2013 中的 URL](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md)。
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
-[在 Lync Server 2013 中設定立即訊息（IM）的檔案傳輸與 URL 篩選](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md)  
-[針對特定網站在 Lync Server 2013 中建立新的檔案傳輸篩選器](lync-server-2013-create-a-new-file-transfer-filter-for-a-specific-site.md)  
-[在 Lync Server 2013 中建立新的 URL 篩選，以處理 IM 交談中的超連結](lync-server-2013-create-a-new-url-filter-to-handle-hyperlinks-in-im-conversations.md)  
-[在 Lync Server 2013 中修改預設的檔案傳輸篩選器](lync-server-2013-modify-the-default-file-transfer-filter.md)  
+[設定檔案傳輸和立即訊息 (IM) 在 Lync Server 2013 中的 URL 篩選](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md)  
+[Lync Server 2013 中建立新的檔案傳輸篩選器的特定站台](lync-server-2013-create-a-new-file-transfer-filter-for-a-specific-site.md)  
+[在處理 IM 交談中的超連結的 Lync Server 2013 中建立新的 URL 篩選](lync-server-2013-create-a-new-url-filter-to-handle-hyperlinks-in-im-conversations.md)  
+[修改 Lync Server 2013 中的預設檔案傳輸篩選器](lync-server-2013-modify-the-default-file-transfer-filter.md)  
   
 
 </div>

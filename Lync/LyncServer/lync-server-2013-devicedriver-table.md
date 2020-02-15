@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：DeviceDriver 表格
+title: 'Lync Server 2013:: DeviceDriver 表格'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185449
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f52354a153f155f57ce6466ea8082b63ef105e34
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b7431be7ceb964aead28b3c9fa76593c9dda891a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762361"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044855"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="devicedriver-table-in-lync-server-2013"></a>Lync Server 2013 中的 DeviceDriver 表格
+# <a name="devicedriver-table-in-lync-server-2013"></a>在 [Lync Server 2013: DeviceDriver 表格
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41762361"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-02_
+_**主題上次修改日期：** 2012年-10-02_
 
-DeviceDriver 資料表是支援資料表。 每個記錄都代表擷取裝置或轉譯裝置所使用的驅動程式。
+: DeviceDriver 表格是一種支援資料表。 每一筆記錄代表使用其中一個擷取裝置驅動程式，或轉換裝置。
 
 
 <table>
@@ -49,9 +49,9 @@ DeviceDriver 資料表是支援資料表。 每個記錄都代表擷取裝置或
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>左欄</strong></th>
+<th><strong>欄</strong></th>
 <th><strong>資料類型</strong></th>
-<th><strong>索引鍵/索引</strong></th>
+<th><strong>主索引鍵 /</strong></th>
 <th><strong>詳細資料</strong></th>
 </tr>
 </thead>
@@ -59,13 +59,13 @@ DeviceDriver 資料表是支援資料表。 每個記錄都代表擷取裝置或
 <tr class="odd">
 <td><p><strong>DeviceDriverKey</strong></p></td>
 <td><p>int</p></td>
-<td><p>首選</p></td>
-<td><p>識別此裝置驅動程式記錄的唯一號碼。</p></td>
+<td><p>主要</p></td>
+<td><p>用於識別此裝置驅動程式記錄的唯一號碼。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>DeviceDriver</strong></p></td>
-<td><p>Varchar （256）</p></td>
-<td><p>唯一</p></td>
+<td><p><strong>: DeviceDriver</strong></p></td>
+<td><p>varchar(256)</p></td>
+<td><p>unique</p></td>
 <td><p>裝置驅動程式名稱。</p></td>
 </tr>
 </tbody>

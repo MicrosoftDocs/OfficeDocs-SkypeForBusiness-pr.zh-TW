@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：（選用）確認群組呼叫裝貨部署
+title: 'Lync Server 2013: （選用） 確認群組來電接聽部署'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541493
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 91c449a0bafc4067b3315b659d981f7a57a023bb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5cdf1e75f950ebf155bfd21c68b860f48af8e978
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755667"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045535"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="optional-verify-the-group-call-pickup-deployment-in-lync-server-2013"></a>可選在 Lync Server 2013 中驗證群組呼叫裝貨部署
+# <a name="optional-verify-the-group-call-pickup-deployment-in-lync-server-2013"></a>（選用）確認 Lync Server 2013 中的群組來電接聽部署
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41755667"
 
 <span> </span>
 
-_**主題上次修改日期：** 2013-01-30_
+_**上次修改主題：** 2013年-01-30_
 
-在您為使用者啟用群組呼叫挑選之後，請確認設定會如期運作。 至少請確認下列事項：
+為使用者啟用群組來電接聽之後，確認設定，如預期般運作。 在最低限度下，確認下列項目：
 
-  - 呼叫已啟用 [群組呼叫] 的使用者，並讓另一個使用者取回通話。 其他使用者可以位於同一個群組、不同的群組中，或未啟用 [群組呼叫挑選]。
+  - 打電話給已啟用群組來電接聽，已擷取通話的另一位使用者。 其他使用者可以在相同群組中，在不同的群組中，或未啟用群組來電接聽。
 
-  - 呼叫已啟用 [群組通話] 的使用者，但不要接聽通話。
+  - 打電話給已啟用群組來電接聽與未接聽來電。
 
 </div>
 

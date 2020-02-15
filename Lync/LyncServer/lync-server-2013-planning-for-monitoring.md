@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：規劃監控
+title: Lync Server 2013： 規劃監控
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183671
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c04194f84b008b741bce887a3115c1ca31fc3ec7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 728b65493fd573d4b9cb5a182284ac969bb6436b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725333"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050005"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-monitoring-in-lync-server-2013"></a>Lync Server 2013 中的規劃監控
+# <a name="planning-for-monitoring-in-lync-server-2013"></a>規劃 Lync Server 2013 中監視
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41725333"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-09-05_
+_**主題上次修改日期：** 2012年-09-05_
 
-Microsoft Lync Server 2013 中的 [監視服務] 提供一種方式，可讓系統管理員收集組織中發生之通訊會話的使用量、趨勢及服務品質資料。 在 Lync Server 2013 中的監視不再需要個別的伺服器角色;相反地，監視服務是內嵌在每個前端伺服器中。 不過，Lync Server 2013 中的 [預設監視] 不會啟用。 這份檔將協助您判斷貴組織中是否應該啟用監視。
+Microsoft Lync Server 2013 中監視的服務，讓系統管理員進行其組織中的通訊工作階段收集使用狀況、 趨勢和品質的服務資料。 監視 Lync Server 2013 中不再需要個別的伺服器角色。相反地，監視服務是內建的每部前端伺服器。 不過，根據預設監視未啟用 Lync Server 2013 中。 本文件將協助您決定是否要在組織中啟用監視。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [Lync Server 2013 中的監控概覽](lync-server-2013-overview-of-monitoring.md)
+  - [Lync Server 2013 中監視概觀](lync-server-2013-overview-of-monitoring.md)
 
-  - [在 Lync Server 2013 中定義監控需求](lync-server-2013-defining-your-requirements-for-monitoring.md)
+  - [定義 Lync Server 2013 中監視的需求](lync-server-2013-defining-your-requirements-for-monitoring.md)
 
-  - [在 Lync Server 2013 中啟用監視](lync-server-2013-enabling-monitoring.md)
+  - [啟用 Lync Server 2013 中監視](lync-server-2013-enabling-monitoring.md)
 
-  - [在 Lync Server 2013 中存取監視資料](lync-server-2013-accessing-monitoring-data.md)
+  - [存取 Lync Server 2013 中的監視資料](lync-server-2013-accessing-monitoring-data.md)
 
-  - [Lync Server 2013 中用於監控的元件與拓撲](lync-server-2013-components-and-topologies-for-monitoring.md)
+  - [在 Lync Server 2013 中監視的元件和拓撲](lync-server-2013-components-and-topologies-for-monitoring.md)
 
-  - [Lync Server 2013 中監控的部署檢查表](lync-server-2013-deployment-checklist-for-monitoring.md)
+  - [在 Lync Server 2013 中監視的部署檢查清單](lync-server-2013-deployment-checklist-for-monitoring.md)
 
 </div>
 

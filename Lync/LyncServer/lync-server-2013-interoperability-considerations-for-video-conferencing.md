@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：視訊會議的互通性考慮
+title: Lync Server 2013： 的視訊會議的互通性考量
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183782
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b8cdfa88cf6d6f58478ff3c6b44210545e24a765
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 885768cc461b7b59c37cf83b0b422bfca6c950a2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725783"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046216"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="interoperability-considerations-for-video-conferencing-in-lync-server-2013"></a>Lync Server 2013 中的視訊會議的互通性考慮
+# <a name="interoperability-considerations-for-video-conferencing-in-lync-server-2013"></a>Lync Server 2013 中的視訊會議的互通性考量
 
 </div>
 
@@ -35,41 +35,41 @@ ms.locfileid: "41725783"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-02_
+_**主題上次修改日期：** 2012年-10-02_
 
-本節說明當舊版用戶端與 Lync server 2013 池或 Lync Server 2013 用戶端與舊版池之間的互通性時，在遷移共存階段中的使用者體驗。
+舊版用戶端和 Lync Server 2013 集區或 Lync Server 2013 用戶端與舊版集區之間的互通性時，本小節會說明在移轉共存階段期間的使用者經驗。
 
 <div>
 
-## <a name="lync-server-2013-pools"></a>Lync Server 2013 池
+## <a name="lync-server-2013-pools"></a>Lync Server 2013 集區
 
-當舊版用戶端用於 Lync Server 2013 池中時，使用者會遇到下列行為：
+Lync Server 2013 集區中使用舊版用戶端時，使用者會遇到下列行為：
 
-  - 對於雙方通話，影片解析度就與舊版池中的相同。
+  - 若為雙方通話，則視訊解析度和舊版集區中相同。
 
-  - 對於多方會議，影片解析度和視訊會議功能與舊版池中相同。 [庫視圖] 和 [高解析度] 無法使用。
+  - 若為多方會議，則視訊解析度及視訊會議功能和舊版集區中相同。不提供圖庫檢視及高解析度。
 
 </div>
 
 <div>
 
-## <a name="legacy-pools"></a>舊版池
+## <a name="legacy-pools"></a>舊版集區
 
-在舊版池中使用 Lync Server 2013 用戶端時，使用者會遇到下列行為：
+當舊版集區中使用 Lync Server 2013 用戶端時，使用者會遇到下列行為：
 
-  - 對於雙方通話，Lync Server 2013 用戶端可以使用下列新功能：
+  - 若為雙方通話，Lync Server 2013 用戶端可用的新功能，如下所示：
     
-      - 如果兩個參與者都使用 Lync Server 2013 用戶端，則可以使用 h-p。
+      - 若雙方參與者皆使用 Lync Server 2013 用戶端使用 H.264。
     
-      - Lync Server 2013 用戶端會使用 TotalReceiveVideoBitRateKb 的預設值，因為舊版伺服器不會以帶外的置備傳送此資訊。
+      - 因為舊版伺服器不會傳送此資訊與頻內佈建 Lync Server 2013 用戶端會使用 totalreceivevideobitratekb，預設值。
 
-  - 對於多方會議，影片解析度和視訊會議功能與舊版池中的舊版用戶端所體驗。
+  - 若為多方會議，則視訊解析度及視訊功能和舊版集區中舊版使用者所經歷的相同。
 
 <div>
 
 
 > [!NOTE]  
-> 當舊版伺服器承載 Lync Server 2013 用戶端時，您可以設定視訊會議頻寬，讓該文件庫上的所有使用者只收到低解析度的影片，但傳送高解析度的影片。 例如，當您在媒體設定中將 MaxVideoRateAllowed 設定為 CIF-250K，且 VideoBitRateKb 在會議原則中設定為 2000 kbps 時會發生這種情況。 此情況的實際效果是，不可能針對該池使用者提供高解析度。<BR>因為 MaxVideoRateAllowed 已不再用於 Lync Server 2013 用戶端，所以無法防止 Lync Server 2013 用戶端要求高解析度的影片。 相反地，請將所有使用者在會議原則中的 [VideoBitRateKb] 設定為與 MaxVideoRateAllowed 相同的值（即，CIF 設定為 250 kbps，或將 600 VGA 設定為 1500 kbps）。
+> 當舊版伺服器主控的 Lync Server 2013 用戶端時，就可以設定視訊會議的頻寬，以便在集區上的所有使用者接收僅低解析度的視訊] 中，但傳送高解析度的視訊。 此情況的範例即是在媒體組態中將 MaxVideoRateAllowed 設為 CIF-250K，在會議原則中將 VideoBitRateKb 設為 2000 kbps。 此情況所產生的影響就是集區中的使用者無法收到高解析度。<BR>MaxVideoRateAllowed 不再用於 Lync Server 2013 用戶端，因為它無法防止 Lync Server 2013 用戶端要求高解析度的視訊。 改成在會議原則中針對集區的所有使用者，將 VideoBitRateKb 設定為與 MaxVideoRateAllowed 相同的值 (亦即將 CIF 設為 250 kbps，或將 VGA 設為 600 kbps，或將 HD 設為 1500 kbps)。
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：部署分支網站
+title: Lync Server 2013： 部署分支站台
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183483
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: facfda5d1d7ce67ea08f71cbfb943792eeced7a1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: edacf70cf4a8b899857864c400fa92f78bb0d94b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729503"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049515"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploying-branch-sites-in-lync-server-2013"></a>在 Lync Server 2013 中部署分支網站
+# <a name="deploying-branch-sites-in-lync-server-2013"></a>部署 Lync Server 2013 中的分支網站
 
 </div>
 
@@ -35,31 +35,31 @@ ms.locfileid: "41729503"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-09-21_
+_**主題上次修改日期：** 2012年-09-21_
 
-分支網站使用者在分支網站所關聯的中央網站上，從伺服器取得最大部分的 Lync Server 2013 功能。 每個分支網站都只與一個中央網站相關聯。 若要提供與公眾交換電話網絡（PSTN）的呼叫和來源，分支網站可能會包含下列任何一項：
+分支網站使用者在分支網站相關聯的中央網站從伺服器取得它們大部分的 Lync Server 2013 功能。 每個分支網站都恰與一個中央網站關聯。 若要與公用交換電話網路 (PSTN) 傳送通話，分支網站可能包含下列任一項：
 
-  - PSTN 閘道和可能是 Meditation 伺服器
+  - PSTN 閘道，以及可能包含中繼伺服器
 
   - SIP 主幹
 
-  - 具有私人分支 exchange （PBX）的現有語音結構
+  - 現有語音基礎結構搭配專用交換機 (PBX)
 
-  - Survivable 分支裝置
+  - Survivable Branch Appliance
 
-  - Survivable 分支伺服器
+  - Survivable Branch 伺服器
 
-使用 Survivable 分支裝置或 Survivable 分支伺服器的分支網站，比不含下列其中一種解決方案的分支網站的廣域網路或中央網站故障更具彈性。 例如，在已部署 Survivable 分支裝置或 Survivable 分支伺服器的網站中，如果將分支網站連線到中央網站的網路，使用者仍然可以撥打和接聽 PSTN 通話。 若要實現分支網站復原，另一種方式是在分支網站上使用 PSTN 閘道或 SIP 幹線進行完整的 Lync 伺服器部署。
+Survivable Branch Appliance 或 Survivable Branch Server 分支站台位於更有彈性廣域網路或中央站台失敗的次數超過分支網站，而這些解決方案的其中一個。 例如，在網站使用 Survivable Branch Appliance 或 Survivable Branch 伺服器部署中，使用者可以仍撥打及接聽 PSTN 通話如果網路連線至中央網站的分支站台不通。 以達到分支網站恢復的另一種方式是使用 PSTN 閘道或 SIP 主幹與分支網站的完整規模 Lync Server 部署。
 
-如需有關哪個分支網站部署適合您組織的詳細資料（包括先決條件及其他規劃考慮），請參閱規劃檔中的 lync server [2013 規劃](lync-server-2013-planning-for-pstn-connectivity.md)，以及在[lync Server 2013 中規劃分支網站語音復原](lync-server-2013-planning-for-branch-site-voice-resiliency.md)。
+如需詳細資訊需哪種分支網站部署最適合您的組織，包括先決條件和其他規劃考量，請參閱規劃文件中的[Planning for Lync Server 2013 中的 PSTN 連線能力](lync-server-2013-planning-for-pstn-connectivity.md)」 和 「 [Lync Server 2013 中的分支網站語音恢復能力的計劃](lync-server-2013-planning-for-branch-site-voice-resiliency.md)。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [使用 Lync Server 2013 在分支網站提供 PSTN 連線](lync-server-2013-providing-pstn-connectivity-at-a-branch-site.md)
+  - [提供在分支網站 Lync Server 2013 中的 PSTN 連線](lync-server-2013-providing-pstn-connectivity-at-a-branch-site.md)
 
-  - [使用 Lync Server 2013 部署 Survivable Branch Appliance 或 Survivable Branch Server](lync-server-2013-deploying-a-survivable-branch-appliance-or-server.md)
+  - [部署 Survivable Branch Appliance 或 survivable branch Server 與 Lync Server 2013](lync-server-2013-deploying-a-survivable-branch-appliance-or-server.md)
 
 </div>
 

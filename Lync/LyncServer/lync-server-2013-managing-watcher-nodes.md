@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：管理觀察程式節點
+title: Lync Server 2013： 管理監看員節點
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733674
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 27d2afd025897df4f9b98e235d408a264d2cceb2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7fd7a9a2aa3152e64a48fb87670280259b082677
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724003"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045465"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-watcher-nodes-in-lync-server-2013"></a>在 Lync Server 2013 中管理觀察程式節點
+# <a name="managing-watcher-nodes-in-lync-server-2013"></a>管理 Lync Server 2013 中的監看員節點
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41724003"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-20_
+_**主題上次修改日期：** 2012年-10-20 個_
 
-除了修改在觀察程式節點上執行的綜合交易之外，系統管理員還可以使用**CsWatcherNodeConfiguration** Cmdlet 來執行兩個其他重要的工作：啟用和停用觀察程式節點，以及將觀察程式節點設定為在執行測試時使用內部 url 或外部 url。
+除了修改在監看員節點上執行的綜合交易之外，系統管理員也可以使用 **Set-CsWatcherNodeConfiguration** Cmdlet 來執行其他兩項重要工作：啟用與停用監看員節點，以及設定監看員節點於執行測試時使用內部 URL 或外部 URL。
 
-根據預設，觀察程式節點是設計來定期執行所有已啟用的綜合交易。 不過，有時候您可能需要暫停這些交易。 例如，如果 [觀察程式] 節點暫時與網路中斷連線，則沒有任何理由執行綜合交易。 若沒有網路連線，這些事務就會保證失敗。 如果您想要暫時停用 [觀察程式] 節點，請從 Lync Server 管理命令介面執行如下所示的命令：
+根據預設，監看員節點的設計是會定時執行所有啟用的綜合交易。 不過有時候可能需要暫停那些交易。 例如，如果監看員節點暫時與網路中斷連線，則沒有必要執行綜合交易。 沒有網路連線，那些交易一定會失敗。 如果您想要暫時停用監看員節點，請執行類似從 Lync Server 管理命令介面命令：
 
     Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -Enabled $False
 
-這個命令將停用在觀察程式節點上執行的綜合交易（atl-觀察程式-001.litwareinc.com）。 若要繼續執行綜合交易，請將 Enabled 屬性設回 True （$True）：
+此命令會停用監看員節點 atl-watcher- 001.litwareinc.com 上的綜合交易執行。若要恢復綜合交易的執行，請將 Enabled 屬性回復至 True ($True) 設定：
 
     Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -Enabled $True
 
@@ -51,17 +51,17 @@ _**主題上次修改日期：** 2012-10-20_
 
 
 > [!NOTE]  
-> 可使用 Enabled 屬性來開啟或關閉觀察程式節點。 如果您想要永久刪除 [觀察程式] 節點，請使用<STRONG>CsWatcherNodeConfiguration</STRONG> Cmdlet：<BR>移除-CsWatcherNodeConfiguration –身分識別 "atl-watcher-001.litwareinc.com"<BR>該命令會從指定的電腦中移除所有的觀察程式節點設定，這可防止電腦自動執行綜合交易。 不過，命令不會卸載 System Center 代理程式檔案或 Lync Server 2013 系統檔案。
+> Enabled 屬性可用於開啟或關閉監看員節點。 如果要永久刪除監看員節點，請使用 <STRONG>Remove-CsWatcherNodeConfiguration</STRONG> Cmdlet：<BR>Remove-CsWatcherNodeConfiguration –Identity "atl-watcher-001.litwareinc.com"<BR>此命令會移除指定電腦上所有的監看員節點組態設定，這樣就會防止電腦自動執行綜合交易。 不過，此命令不會解除安裝 System Center 代理程式檔或 Lync Server 2013 系統檔案。
 
 
 
 </div>
 
-根據預設，觀察程式節點會在進行測試時使用組織的外部 Url。 不過，您也可以將觀察程式節點設定為使用組織的內部 Url。 這可讓系統管理員驗證位於周邊網路內之使用者的 URL 存取權。 若要將觀察程式節點設定為使用內部 Url，而不是外部 Url，請將 UseInternalWebUrls 屬性設為 True （$True）：
+根據預設，監看員節點在進行測試時，會使用組織的外部 URL。不過也可以設定監看員節點使用組織的內部 URL。這讓系統管理員可以驗證位於周邊網路內之使用者的 URL 存取。若要設定監看員節點使用內部 URL 而非外部 URL，請將 UseInternalWebUrls 屬性設為 True ($True)：
 
     Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -UseInternalWebUrls $True
 
-如果您將這個屬性重設為預設值 False （$False），則觀察程式就會使用外部 Url：
+如果重設此屬性為預設值 False ($False)，監看員就會使用外部 URL：
 
     Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -UseInternalWebUrls $False
 

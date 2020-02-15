@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：媒體質量比較報告
+title: Lync Server 2013： 媒體品質比較報告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185317
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6bcec69db6154aa346fc4545dc3b50fcfe0f2d6f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c45f2d238d2ffd8df058e31bfa50a51f26c1caf5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758761"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045145"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="media-quality-comparison-report-in-lync-server-2013"></a>Lync Server 2013 中的媒體質量比較報告
+# <a name="media-quality-comparison-report-in-lync-server-2013"></a>Lync Server 2013 中的媒體品質比較報告
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41758761"
 
 <span> </span>
 
-_**主題上次修改日期：** 2014-04-22_
+_**上次修改主題：** 2014年-04-22_
 
-媒體質量比較報告可讓您比較不同類型音訊通話的通話品質值（例如，透過無線網路撥打，以及透過有線連線進行通話）。
+媒體品質比較報告可讓您比較不同類型的音訊通話 （例如，透過無線網路與有線連線之間進行的呼叫進行的通話） 的通話品質值。
 
 <div>
 
-## <a name="accessing-the-media-quality-comparison-report"></a>存取媒體質量比較報告
+## <a name="accessing-the-media-quality-comparison-report"></a>存取媒體品質比較報告
 
-您可從 [監控報告] 首頁存取媒體質量比較報告。
+從監視報告首頁存取媒體品質比較報告。
 
 </div>
 
 <div>
 
-## <a name="filters"></a>濾鏡
+## <a name="filters"></a>篩選
 
-篩選提供一種方式，可讓您傳回更精細設定目標的資料集，或以不同方式查看傳回的資料。 下表列出您可搭配媒體質量比較報告使用的篩選。
+篩選器可以讓您傳回更精確的資料集或者以不同方法檢視傳回的資料。 下表列出您可以搭配媒體品質比較報告的篩選器。
 
-### <a name="media-quality-comparison-report-filters"></a>媒體質量比較報表篩選
+### <a name="media-quality-comparison-report-filters"></a>媒體品質比較報告篩選器
 
 <table>
 <colgroup>
@@ -63,77 +63,77 @@ _**主題上次修改日期：** 2014-04-22_
 <thead>
 <tr class="header">
 <th>名稱</th>
-<th>說明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>從</strong></p></td>
-<td><p>時間範圍的開始日期/時間。 若要依時間查看資料，請輸入 [開始日期] 和 [時間]，如下所示：</p>
+<td><p><strong>From</strong></p></td>
+<td><p>時間範圍的開始日期/時間。若要按照小時檢視資料，請輸入開始日期和時間，如下所示：</p>
 <p>7/7/2012 1:00 PM</p>
-<p>如果您沒有輸入開始時間，報告會在指定日期自動于12:00 點開始。 若要依天查看資料，只需輸入日期：</p>
-<p>7/7/2012</p>
-<p>若要依周或依月查看，請在您要查看的周或月份中，輸入您要查看的日期（不需要輸入周或月的第一天）：</p>
-<p>7/3/2012</p>
-<p>周數總是從星期日到星期六執行。</p></td>
+<p>如果您未輸入開始時間，報告會自動從指定日期凌晨 12 點開始。若要按照日期檢視資料，只要輸入日期即可：</p>
+<p>2012/7/7</p>
+<p>若要按星期或月份檢視，請輸入當週或該月您想檢視的日期 (您不必輸入當週或該月的第一天)：</p>
+<p>2012/7/3</p>
+<p>星期永遠是從星期日開始星期六結束。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>自</strong></p></td>
-<td><p>時間範圍的結束日期/時間。 若要依時間查看資料，請輸入 [結束日期] 和 [時間]，如下所示：</p>
+<td><p><strong>To</strong></p></td>
+<td><p>時間範圍的結束日期/時間。若要按照小時檢視資料，請輸入開始日期和時間，如下所示：</p>
 <p>7/7/2012 1:00 PM</p>
-<p>如果您沒有輸入結束時間，報告會在指定日期自動結束于12:00。 若要依天查看資料，只需輸入日期：</p>
-<p>7/7/2012</p>
-<p>若要依周或依月查看，請在您要查看的周或月份中，輸入您要查看的日期（不需要輸入周或月的第一天）：</p>
-<p>7/3/2012</p>
-<p>周數總是從星期日到星期六執行。</p></td>
+<p>如果您未輸入結束時間，報告會自動在指定日期凌晨 12 點結束。若要按照日期檢視資料，只要輸入日期即可：</p>
+<p>2012/7/7</p>
+<p>若要按星期或月份檢視，請輸入當週或該月您想檢視的日期 (您不必輸入當週或該月的第一天)：</p>
+<p>2012/7/3</p>
+<p>星期永遠是從星期日開始星期六結束。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>撥</strong></p></td>
-<td><p>要用來做為主要比較專案的呼叫類型。 允許的值為：</p>
+<td><p><strong>通話</strong></p></td>
+<td><p>呼叫，以做為主要比較項目類型。 允許的值為：</p>
 <ul>
-<li><p>同時</p></li>
-<li><p>外來</p></li>
+<li><p>[全部]</p></li>
+<li><p>External</p></li>
 <li><p>內部</p></li>
-<li><p>點對點</p></li>
+<li><p>VPN</p></li>
 <li><p>非 VPN</p></li>
 <li><p>有線</p></li>
 <li><p>無線</p></li>
 <li><p>外部和有線</p></li>
 <li><p>外部和無線</p></li>
-<li><p>外部與 VPN</p></li>
-<li><p>外部與非 VPN</p></li>
+<li><p>外部和 VPN</p></li>
+<li><p>外部和非 VPN</p></li>
 <li><p>內部和有線</p></li>
 <li><p>內部和無線</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><strong>與通話比較</strong></p></td>
-<td><p>要用來做為次要比較專案的呼叫類型。 允許的值為：</p>
+<td><p><strong>比較通話</strong></p></td>
+<td><p>呼叫，以做為次要比較項目類型。 允許的值為：</p>
 <ul>
-<li><p>同時</p></li>
-<li><p>外來</p></li>
+<li><p>[全部]</p></li>
+<li><p>External</p></li>
 <li><p>內部</p></li>
-<li><p>點對點</p></li>
+<li><p>VPN</p></li>
 <li><p>非 VPN</p></li>
 <li><p>有線</p></li>
 <li><p>無線</p></li>
 <li><p>外部和有線</p></li>
 <li><p>外部和無線</p></li>
-<li><p>外部與 VPN</p></li>
-<li><p>外部與非 VPN</p></li>
+<li><p>外部和 VPN</p></li>
+<li><p>外部和非 VPN</p></li>
 <li><p>內部和有線</p></li>
 <li><p>內部和無線</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Interval</strong></p></td>
-<td><p>時間間隔。 選取下列其中一項：</p>
+<td><p>時間間隔。請選取下列其中一項：</p>
 <ul>
-<li><p>每小時（最多可顯示25小時）</p></li>
-<li><p>每天（最多可以顯示31天）</p></li>
-<li><p>每週（最多可以顯示12周）</p></li>
+<li><p>每小時 (最多可以顯示 25 個小時)</p></li>
+<li><p>每日 (最多可以顯示 31 天)</p></li>
+<li><p>每週 (最多可以顯示 12 週)</p></li>
 </ul>
-<p>如果 [開始] 和 [結束] 日期超過所選間隔所允許的最大值數，則會顯示值的數目上限（從開始日期開始）。 例如，如果您選取 [開始日期 7/7/2012] 和 [結束日期] 2/28/2012 的 [日間隔]，則會顯示 8/7/2012 12:00 AM 至 9/7/2012 12:00 AM （也就是31天內的資料）的資料。</p></td>
+<p>若開始與結束日期超出所選間隔允許的上限值，將只會顯示上限值 (從開始日期開始顯示)。例如，若您選取 [每日] 間隔，並將開始與結束日期分別設為 2012 年 7 月 7 日及 2012 年 2 月 28 日，將只會顯示 2012 年 8 月 7 日凌晨 12 點到 2012 年 9 月 7 日凌晨 12 點這段期間的資料 (亦即只會顯示 31 天的資料)。</p></td>
 </tr>
 </tbody>
 </table>
@@ -143,11 +143,11 @@ _**主題上次修改日期：** 2014-04-22_
 
 <div>
 
-## <a name="metrics"></a>指標
+## <a name="metrics"></a>計量
 
-下表列出媒體質量比較報告中提供的資訊。
+下表列出媒體品質比較報告中提供的資訊。
 
-### <a name="media-quality-comparison-report-metrics"></a>媒體質量比較報告度量單位
+### <a name="media-quality-comparison-report-metrics"></a>媒體品質比較報告計量
 
 <table>
 <colgroup>
@@ -157,58 +157,58 @@ _**主題上次修改日期：** 2014-04-22_
 </colgroup>
 <thead>
 <tr class="header">
-<th>名稱</th>
-<th>您可以針對此專案進行排序嗎？</th>
-<th>說明</th>
+<th>姓名</th>
+<th>可以排序這個項目嗎？</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>通話量</strong></p></td>
+<td><p><strong>[通話數</strong></p></td>
 <td><p>否</p></td>
-<td><p>通話總次數。</p></td>
+<td><p>通話總數。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>下降（MOS）</strong></p></td>
+<td><p><strong>降低 (MOS)</strong></p></td>
 <td><p>否</p></td>
-<td><p>通話期間的平均 MOS （平均意見分數）會下降。 降級值的範圍可從低0.0 到 5.0;0.5 或較低的值代表可接受的下降。 在過去，平均值觀點的計算方式是讓使用者以1到5的比例來評分通話品質。 Lync Server 會使用一組演算法來預測使用者對通話進行評分的方式。</p>
-<p>擁塞可能會造成高降級值。缺乏頻寬;無線擁塞或干擾，或超載的媒體伺服器或端點。 高品質的結果會造成失真或遺失音訊。</p></td>
+<td><p>平均量 MOS （平均意見分數） 降低在通話期間發生的詳細資訊。 降低值可介於 0.0 的低到高的 5.0;為 0.5 或更低的值代表可接受的效能下降。 在過去，平均意見分數已計算方式是讓使用者在 1 到 5 的小數位數率通話品質。 Lync Server 使用一組演算法來預測如何使用者會有分級通話。</p>
+<p>高的效能下降值會造成壅塞;缺少的頻寬;無線壅塞干擾，或已多載的媒體伺服器或端點。 高降低的情形會導致扭曲或遺失音訊。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>通話百分比太差</strong></p></td>
+<td><p><strong>通話不良百分比</strong></p></td>
 <td><p>否</p></td>
-<td><p>分類為不良的呼叫總數。 較差的通話是指至少其中一個測量的指標超過允許值（例如，遇到過度抖動的呼叫）的呼叫。</p></td>
+<td><p>歸類為不良的通話總數。 通話不良是指至少一項計算超出允許的值 （例如，通話過多的抖動） 任何來電。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>往返行程（毫秒）</strong></p></td>
+<td><p><strong>往返時間 （毫秒）</strong></p></td>
 <td><p>否</p></td>
-<td><p>即時傳輸通訊協定資料包移動到另一個端點之後，再返回的平均（以毫秒為單位）。 200毫秒或較低的往返行程時間會視為可接受的品質。</p>
-<p>國際呼叫路由可能會造成高往返值。路由無法正確配置;或超載的媒體伺服器。 較高的往返行程時間會造成使用雙向即時音訊交談的困難。</p></td>
+<td><p>平均量 （以毫秒為單位） 所需的即時傳輸通訊協定封包傳輸至另一個端點，再重新。 200 毫秒或更低的來回行程時間會被視為的可接受的品質。</p>
+<p>高的來回行程值可能被因國際電話路由;路由設定錯誤;或超載的媒體伺服器。 高的來回行程時間會導致雙向、 即時音訊交談的問題。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>資料包遺失</strong></p></td>
+<td><p><strong>封包遺失</strong></p></td>
 <td><p>否</p></td>
-<td><p>即時傳輸通訊協定（RTP）資料包遺失的平均速率。 （當 RTP 資料包（這是一種用來透過網際網路傳送音訊和影片的通訊協定）無法送達目的地時，會發生資料包遺失。高遺失率通常是由擁塞所造成;缺乏頻寬;無線擁塞或干擾;或超載的媒體伺服器。 [資料包遺失] 通常會導致聲音失真或遺失。</p></td>
+<td><p>即時傳輸通訊協定 (RTP) 封包遺失平均速率。 （封包遺失發生於 RTP 封包，用於傳輸音訊和視訊在網際網路上的通訊協定無法到達其目的地）。高遺失率是通常會因壅塞;缺少的頻寬;無線壅塞或干擾;或超載的媒體伺服器。 封包遺失通常會導致扭曲或遺失音訊。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>抖動（毫秒）</strong></p></td>
+<td><p><strong>抖動 (ms)</strong></p></td>
 <td><p>否</p></td>
-<td><p>在 RTP 資料包抵達之間檢測到的平均抖動。 （抖動是通話&quot;shakiness&quot;的量度。）高抖動值通常是由擁塞或超載的媒體伺服器所造成，而且會造成失真或遺失音訊。</p></td>
+<td><p>偵測到之間 RTP 封包抵達的平均抖動值。 (抖動是評量&quot;shakiness&quot;的呼叫。)高抖動值通常是造成壅塞或超載的媒體伺服器，並導致扭曲或遺失音訊。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Healer 隱藏比例</strong></p></td>
+<td><p><strong>修復隱藏比率</strong></p></td>
 <td><p>否</p></td>
-<td><p>隱藏的音訊樣本與總樣本數的平均比率。 （隱藏的音訊範例是一種技術，用來平滑可能由網路資料包所造成的突然轉換。）[高值] 表示由於資料包遺失或抖動所造成的大量 concealment 損失，並導致聲音失真或遺失。</p></td>
+<td><p>之隱藏樣本總數總計的音訊樣本的平均比率。 （隱藏的音訊取樣是用來平滑出通常會因首的網路封包突然轉換技術）。高的值可指出重大的層級套用的遺失隱藏聲音因封包遺失及抖動，導致扭曲或遺失音訊。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Healer 延伸比率</strong></p></td>
+<td><p><strong>修復延伸的比率</strong></p></td>
 <td><p>否</p></td>
-<td><p>延伸音訊樣本的平均比例與總樣本數的總和。 （已延伸的音訊是已展開的音訊，可協助您在偵測到網路資料包時維持通話品質。）高值代表由抖動所造成的大量樣本拉伸層級，並導致音訊聲音不在機器人或失真中。</p></td>
+<td><p>範例總數總計的延伸音訊樣本的平均比率。 （延伸的音訊是已擴充為維持已偵測到的繞邊的網路封包時通話品質的音訊）。高的值可指出重大的層級的範例拉長因抖動，而導致音訊發音機械或扭曲。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Healer 壓縮比率</strong></p></td>
+<td><p><strong>修復壓縮的比率</strong></p></td>
 <td><p>否</p></td>
-<td><p>壓縮之音訊樣本的平均比率為樣本總數。 （壓縮的音訊是已壓縮的音訊，可協助您在偵測到網路資料包時維持通話品質。）高值代表抖動所造成的大量樣本壓縮層級，而導致音訊聲音速度快或失真。</p></td>
+<td><p>範例總數的壓縮音訊樣本的平均比率。 （壓縮的音訊是已壓縮，並維持已偵測到的繞邊的網路封包時通話品質的音訊）。高的值可指出重大的層級的範例壓縮因抖動，而導致音訊發音加速或失真。</p></td>
 </tr>
 </tbody>
 </table>

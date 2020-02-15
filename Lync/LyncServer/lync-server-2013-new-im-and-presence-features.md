@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：新 IM 和顯示狀態功能
+title: Lync Server 2013： 新的 IM 和目前狀態功能
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185600
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 16144eaee77e8eebed4f3bbb7b5e37ba8ec29107
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b5a2a9183aeceacc70937cc90b30a54287361af2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758625"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048454"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="new-im-and-presence-features-in-lync-server-2013"></a>Lync Server 2013 中的新 IM 和顯示狀態功能
+# <a name="new-im-and-presence-features-in-lync-server-2013"></a>Lync Server 2013 中新的 IM 和目前狀態功能
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41758625"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-19_
+_**主題上次修改日期：** 2012年-10-19_
 
-Microsoft Lync Server 2013 新增下列新的立即訊息（IM）與目前狀態功能，以豐富使用者的 Lync 體驗。
+Microsoft Lync Server 2013 加入下列新立即訊息 (IM) 和目前狀態功能來豐富使用者的 Lync 經驗。
 
-  - 如果您的組織也執行 Exchange 2013，使用者可以利用整合的連絡人存放區。 使用者可以在 Outlook 2013、Outlook Web App 以及 Lync 2013 中管理他們的連絡人。
+  - 如果您的組織也會執行 Exchange 2013，使用者可以利用整合連絡人存放區。 使用者可以管理其在 Outlook 2013 中，Outlook Web App，以及在 Lync 2013 中的連絡人。
 
-  - 由於 Lync Server 2013 的**XMPP 整合**功能，您的使用者可以與公用 IM 提供者的使用者交換立即訊息和目前狀態資訊，這些服務是使用可擴展訊息和目前狀態通訊協定（例如 Google 交談）。 XMPP 整合內建在前端伺服器與邊緣伺服器中，您可以啟用並將它設定為允許這項功能。
+  - 您的使用者可以交換立即訊息和目前狀態資訊與使用者使用 Extensible Messaging and Presence Protocol，例如 Google Talk，因為 Lync Server 2013 **XMPP 整合**功能的公用 IM 提供者。 XMPP 整合內建於前端伺服器和 Edge Server，您可以啟用它，並將其設定為允許這項功能。
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
-[在 Lync Server 2013 中為使用者啟用整合連絡人存放區](lync-server-2013-enable-users-for-unified-contact-store.md)  
+[啟用使用者的 Lync Server 2013 中整合連絡人存放區](lync-server-2013-enable-users-for-unified-contact-store.md)  
 
 
-[在 Lync Server 2013 中規劃可擴展訊息和目前狀態通訊協定（XMPP）同盟](lync-server-2013-planning-for-extensible-messaging-and-presence-protocol-xmpp-federation.md)  
+[可延伸訊息與顯示狀態通訊協定 (XMPP) 同盟 Lync Server 2013 中規劃](lync-server-2013-planning-for-extensible-messaging-and-presence-protocol-xmpp-federation.md)  
   
 
 </div>

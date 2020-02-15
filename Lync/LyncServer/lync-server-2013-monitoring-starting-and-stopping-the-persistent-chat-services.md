@@ -1,5 +1,5 @@
 ---
-title: 監控、啟動和停止常設聊天室服務
+title: 監控、 啟動和停止常設聊天室服務
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183291
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f5d6f5a80a52c4bb506240dfbdf5a28929c6f3f1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 398821ebd955c99b6da6430815062f9907b04cf9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756777"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047623"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="monitoring-starting-and-stopping-the-persistent-chat-services-in-lync-server-2013"></a>在 Lync Server 2013 中監控、啟動和停止常設聊天室服務
+# <a name="monitoring-starting-and-stopping-the-persistent-chat-services-in-lync-server-2013"></a>監控、 啟動和停止 Lync Server 2013 中的常設聊天室服務
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41756777"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-06_
+_**主題上次修改日期：** 2012年-10-06_
 
-永久聊天服務和持續性聊天規範服務是 Lync Server 2013 拓撲的一部分，因此可以分別使用 Windows PowerShell Cmdlet、 **CsWindowsService**、 **stop CsWindowsService**和**start CsWindowsService**來監視、停止及啟動。
+常設聊天室服務和常設聊天室規範服務一部分的 Lync Server 2013 拓撲可以因此是監視、 停止，並開始使用 Windows PowerShell cmdlet、 **Get-cswindowsservice**、 **Stop-cswindowsservice**及**使用 Start-cswindowsservice**，分別。
 
 </div>
 

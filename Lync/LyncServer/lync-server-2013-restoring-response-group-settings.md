@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：還原回應群組設定
+title: Lync Server 2013： 還原回應群組設定
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541473
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 64bc766cf970e95ad03be65c490882dd3471955b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1557640fa021faf7313af834eb06f94f1c7432a2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733053"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051477"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="restoring-response-group-settings-in-lync-server-2013"></a>在 Lync Server 2013 中還原回應群組設定
+# <a name="restoring-response-group-settings-in-lync-server-2013"></a>Lync Server 2013 中還原回應群組設定
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41733053"
 
 <span> </span>
 
-_**主題上次修改日期：** 2013-02-18_
+_**上次修改主題：** 2013年-02-18_
 
-如果您已部署回應群組應用程式，而且您需要還原後端伺服器或標準版伺服器，您也需要還原回應群組設定。
+如果您部署的回應群組應用程式，且您需要還原後端伺服器或 Standard Edition server，您也需要還原回應群組組態設定。
 
 <div>
 
-## <a name="to-restore-response-group-configuration-settings"></a>還原回應群組設定設定
+## <a name="to-restore-response-group-configuration-settings"></a>還原回應群組組態設定
 
-1.  在命令列中，輸入：
+1.  在命令列中輸入：
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:<pool FQDN>" -OverwriteOwner -FileName "<path and file name of the backed up file at $Backup>"
     

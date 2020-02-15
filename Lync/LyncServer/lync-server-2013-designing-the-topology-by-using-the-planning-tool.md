@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：使用規劃工具設計拓撲
+title: Lync Server 2013： 使用規劃工具設計拓撲
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 51541454
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 590bfae33e12cca2e2305eab9d842f0e2f105838
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bca2871acdaf67e318e7e402d78f34748de4b722
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762501"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051517"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,45 +35,45 @@ ms.locfileid: "41762501"
 
 <span> </span>
 
-_**主題上次修改日期：** 2013-03-04_
+_**上次修改主題：** 2013年-03-04_
 
-Microsoft Lync Server 2013，[規劃工具] 是一個由嚮導驅動的工具，會詢問您所設計的 Lync Server 2013 拓朴問題。 規劃工具會使用所提供的資訊，結合拓撲設計和容量的最佳做法，以根據提供的答案呈現建議的拓撲。 您可以從 Microsoft 下載中心下載 [規劃] 工具（[http://go.microsoft.com/fwlink/?LinkID=282725](http://go.microsoft.com/fwlink/?linkid=282725)）。
+Microsoft Lync Server 2013、 規劃工具是的精靈驅動，詢問您所設計的 Lync Server 2013 拓撲的相關問題的採訪類似的工具。 提供資訊，請規劃工具使用搭配慣用的拓撲設計和容量，以呈現提供的答案為基礎的建議的拓撲的作法。 您可以從 Microsoft 下載中心下載規劃工具 ([http://go.microsoft.com/fwlink/?LinkID=282725](http://go.microsoft.com/fwlink/?linkid=282725))。
 
-最後，規劃工具的目標是減輕設計完整 Lync Server 2013 拓撲的潛在複雜性。 此工具也會在工具內提供規劃和部署檔的相關參照，只要網際網路連線可連線至 Microsoft TechNet 網站。
+最後，規劃工具的目標是為了簡化潛在的設計完整的 Lync Server 2013 拓撲複雜性。 此工具也會提供其規劃與部署文件的關聯式參考，只要有網際網路連線可連接至 Microsoft TechNet 網站即可。
 
-使用基礎結構的 TCP/IP 位址及完整功能變數名稱（Fqdn）自訂拓撲之後，規劃工具會提供一系列的報表，涵蓋網功能變數名稱稱系統（DNS）命名、防火牆規則、憑證等等。
+自訂之後的拓撲的基礎結構的 TCP/IP 位址與完整的網域名稱 (Fqdn)，規劃工具會提供一系列的涵蓋網域名稱系統 (DNS) 命名、 防火牆規則、 憑證、 等等的報告。
 
-規劃工具也提供將資訊匯出為兩種格式的功能：
+規劃工具也提供匯出資訊兩種格式的能力：
 
   - Microsoft Excel
 
   - Microsoft Visio
 
-下列主題將介紹及詳細說明規劃工具。
+下列主題介紹，詳細規劃工具。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [在 Lync Server 2013 中安裝規劃工具](lync-server-2013-installing-the-planning-tool.md)
+  - [Lync Server 2013 中安裝規劃工具](lync-server-2013-installing-the-planning-tool.md)
 
-  - [在 Lync Server 2013 中安裝選用軟體](lync-server-2013-installing-optional-software.md)
+  - [Lync Server 2013 中安裝選用軟體](lync-server-2013-installing-optional-software.md)
 
-  - [在 Lync Server 2013 中流覽規劃工具](lync-server-2013-navigating-the-planning-tool.md)
+  - [瀏覽 Lync Server 2013 中的規劃工具](lync-server-2013-navigating-the-planning-tool.md)
 
-  - [建立 Lync Server 2013 的初始拓撲設計](lync-server-2013-create-the-initial-topology-design.md)
+  - [建立初始拓撲設計的 Lync Server 2013](lync-server-2013-create-the-initial-topology-design.md)
 
-  - [在 Lync Server 2013 中檢閱管理員報告](lync-server-2013-reviewing-the-administrator-reports.md)
+  - [檢閱 Lync Server 2013 中的系統管理員報告](lync-server-2013-reviewing-the-administrator-reports.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
 [部署 Lync Server 2013](lync-server-2013-deploying-lync-server.md)  
-[在 Lync Server 2013 中規劃前端伺服器、立即訊息及顯示狀態](lync-server-2013-planning-for-front-end-servers-instant-messaging-and-presence.md)  
+[規劃前端伺服器、 立即訊息和 Lync Server 2013 中的目前狀態](lync-server-2013-planning-for-front-end-servers-instant-messaging-and-presence.md)  
   
 
 </div>

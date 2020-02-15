@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：ConferenceMessageCount 表格
+title: 'Lync Server 2013: ConferenceMessageCount 表格'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184570
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 426ae4abca9f91fcabaedfb5a363703523d6aa94
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e13f45936f210085361624a0d884f507a88e0d35
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740023"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049084"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41740023"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-09-28_
+_**主題上次修改日期：** 2012年-09-28_
 
-此資料表中的每筆記錄代表一個 IM 會議中的一位使用者，包括該使用者所傳送的訊息數目。 每個會議都是由這個表格中的多筆記錄所代表;每個使用者一個記錄。
+此表格中的每一筆記錄代表一個 IM 會議中的一位使用者，並包含該使用者所傳送的郵件數目。 此表格中; 中的多筆記錄代表每個會議每位使用者的一筆記錄。
 
 
 <table>
@@ -49,9 +49,9 @@ _**主題上次修改日期：** 2012-09-28_
 </colgroup>
 <thead>
 <tr class="header">
-<th>左欄</th>
+<th>欄</th>
 <th>資料類型</th>
-<th>索引鍵/索引</th>
+<th>主索引鍵 /</th>
 <th>詳細資料</th>
 </tr>
 </thead>
@@ -60,25 +60,25 @@ _**主題上次修改日期：** 2012-09-28_
 <td><p><strong>SessionIdTime</strong></p></td>
 <td><p>datetime</p></td>
 <td><p>主要、外部</p></td>
-<td><p>會議實例的時間。 與<strong>SessionIdSeq</strong>搭配使用，可唯一識別會議實例。 如需詳細資訊，請參閱<a href="lync-server-2013-conferences-table.md">Lync Server 2013 中</a>的 [會議] 表格。</p></td>
+<td><p>會議執行個體的時間。 <strong>SessionIdSeq</strong>搭配使用來唯一地識別會議執行個體。 請參閱<a href="lync-server-2013-conferences-table.md">Lync Server 2013 中的會議表格</a>如需詳細資訊。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionIdSeq</strong></p></td>
 <td><p>int</p></td>
 <td><p>主要、外部</p></td>
-<td><p>識別會議實例的識別碼編號。 與<strong>SessionIdTime</strong>搭配使用，可唯一識別會議實例。 如需詳細資訊，請參閱<a href="lync-server-2013-conferences-table.md">Lync Server 2013 中</a>的 [會議] 表格。</p></td>
+<td><p>用於辨識執行個體的 ID 號碼。 搭配<strong>SessionIdTime</strong>用來唯一地識別會議執行個體。 請參閱<a href="lync-server-2013-conferences-table.md">Lync Server 2013 中的會議表格</a>如需詳細資訊。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UserId</strong></p></td>
 <td><p>int</p></td>
-<td><p>外</p></td>
-<td><p>標識此使用者的唯一編號，從<a href="lync-server-2013-users-table.md">Lync Server 2013 的 [使用者] 資料表中</a>引用。</p></td>
+<td><p>Foreign</p></td>
+<td><p>用於識別此使用者，參考來源：<a href="lync-server-2013-users-table.md">使用者在 Lync Server 2013 中資料表</a>的唯一號碼。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>MessageCount</strong></p></td>
-<td><p>Smallint</p></td>
+<td><p>smallint</p></td>
 <td><p> </p></td>
-<td><p>此使用者在此會議期間傳送的訊息數目。</p></td>
+<td><p>此使用者在會議期間傳送的郵件數目。</p></td>
 </tr>
 </tbody>
 </table>

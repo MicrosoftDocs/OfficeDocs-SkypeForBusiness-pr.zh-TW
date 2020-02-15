@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：地區表格
+title: 'Lync Server 2013: Region table'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183518
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 005722b28b6ea93d89873d45e7a9284f44643bde
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1099be5a6cc8d3fa0b40fa20cde23ebaa02d64c7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724423"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050795"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="region-table-in-lync-server-2013"></a>Lync Server 2013 中的地區表格
+# <a name="region-table-in-lync-server-2013"></a>Lync Server 2013 中的區域資料表
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41724423"
 
 <span> </span>
 
-_**主題上次修改日期：** 2010-11-09_
+_**主題上次修改日期：** 2010年-11-09_
 
-Region 資料表是支援表格。 每筆記錄代表 [網路設定] 中定義的一個國家/地區。
+地區表格是一種支援資料表，其中的每一項記錄都代表網路組態設定中定義的一個國家/地區。
 
 
 <table>
@@ -49,9 +49,9 @@ Region 資料表是支援表格。 每筆記錄代表 [網路設定] 中定義�
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>左欄</strong></th>
+<th><strong>欄</strong></th>
 <th><strong>資料類型</strong></th>
-<th><strong>索引鍵/索引</strong></th>
+<th><strong>主索引鍵 /</strong></th>
 <th><strong>詳細資料</strong></th>
 </tr>
 </thead>
@@ -59,13 +59,13 @@ Region 資料表是支援表格。 每筆記錄代表 [網路設定] 中定義�
 <tr class="odd">
 <td><p><strong>RegionKey</strong></p></td>
 <td><p>int</p></td>
-<td><p>首選</p></td>
-<td><p>標識國家/地區的唯一號碼。</p></td>
+<td><p>主要</p></td>
+<td><p>用於識別國家/地區的唯一號碼。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RegionName</strong></p></td>
-<td><p>Nvarchar</p></td>
-<td><p>唯一</p></td>
+<td><p>nvarchar(128)</p></td>
+<td><p>Unique</p></td>
 <td><p>國家/地區的名稱。</p></td>
 </tr>
 </tbody>

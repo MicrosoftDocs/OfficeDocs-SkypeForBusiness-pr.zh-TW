@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：操作指南
+title: Lync Server 2013： 作業指南
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969658
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 21b4f3e0a9beaae9419b11bf7353319b3b3ad2b0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6d797f638121f09eacc9b1472feed0a0b84e2a74
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755787"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049525"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="operations-guide-for-lync-server-2013"></a>Operations Guide for Lync Server 2013
+# <a name="operations-guide-for-lync-server-2013"></a>Lync Server 2013 的作業指南
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41755787"
 
 <span> </span>
 
-_**主題上次修改日期：** 2014-08-18_
+_**上次修改主題：** 2014年-08-18_
 
-本檔說明維護 Microsoft Lync Server 2013 通訊軟體環境所需的操作流程、工作和工具。 說明如何根據 Microsoft 操作架構（MOF）模型管理 Lync Server 2013，它將協助您設計高效的操作管理環境，包括實施排程、程式及程式來維護有效的工作環境。
+本文件說明操作程序、 工作及工具所需的您維護的 Microsoft Lync Server 2013 通訊軟體環境。 本文說明如何根據 Microsoft Operations Framework (MOF) 模型管理 Lync Server 2013 和它可協助您有效率的操作管理環境，其中包括實作排程，處理的設計和程序來維護高效率運作的環境。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-包括下列各節：
+會包含下列各節：
 
-  - [Lync Server 2013 環境的最佳做法](lync-server-2013-best-practices-for-lync-server-environments.md)
+  - [Lync Server 2013 環境的最佳作法](lync-server-2013-best-practices-for-lync-server-environments.md)
 
   - [Lync Server 2013 中的每日工作](lync-server-2013-daily-tasks.md)
 
@@ -53,23 +53,23 @@ _**主題上次修改日期：** 2014-08-18_
 
   - [Lync Server 2013 中的每月工作](lync-server-2013-monthly-tasks.md)
 
-  - [Lync Server 2013 中的必要工作](lync-server-2013-as-needed-tasks.md)
+  - [視需要在 Lync Server 2013 中的工作](lync-server-2013-as-needed-tasks.md)
 
   - [Lync Server 2013 的作業檢查清單](lync-server-2013-operations-checklists.md)
 
-  - [使用 System Center Operations Manager 監視 Lync Server 2013](lync-server-2013-monitoring-lync-server-with-system-center-operations-manager.md)
+  - [監視與 System Center Operations Manager 的 Lync Server 2013](lync-server-2013-monitoring-lync-server-with-system-center-operations-manager.md)
 
-  - [Lync Server 2013 的操作相依性](lync-server-2013-operational-dependencies.md)
+  - [在 Lync Server 2013 的操作相依性](lync-server-2013-operational-dependencies.md)
 
-  - [Lync Server 2013 中的疑難排解與重要的健康情況指示](lync-server-2013-troubleshooting-and-key-health-indicators.md)
+  - [Lync Server 2013 中疑難排解和重要的健康狀態指標](lync-server-2013-troubleshooting-and-key-health-indicators.md)
 
-假設您的 Microsoft Lync Server 2013 部署已完成。 如果不是這種情況，請參閱 Microsoft Lync Server 2013 的規劃與部署內容，然後再繼續進行。
+我們假設您的 Microsoft Lync Server 2013 部署已完成。 如果這不是這種情況，請參閱 Microsoft Lync Server 2013 的規劃和部署內容再繼續進行。
 
 </div>
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
 [Lync Server 2013 快速入門](lync-server-2013-getting-started.md)  

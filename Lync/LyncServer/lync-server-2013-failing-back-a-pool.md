@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：容錯回復集區
+title: Lync Server 2013： 容錯回復集區
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184289
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 91e1dca7ffc210e9b44913f21846726f7a776912
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c5929ed5fc3d29c0a42c223403a78f83154c5bef
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756177"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048026"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="failing-back-a-pool-in-lync-server-2013"></a>在 Lync Server 2013 中容錯回復集區
+# <a name="failing-back-a-pool-in-lync-server-2013"></a>容錯回復的 Lync Server 2013 中的集區
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41756177"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-11-01_
+_**主題上次修改日期：** 2012年-11-01_
 
-當發生災難的池回到線上（也就是在這個範例中 Pool1）之後，請執行下列步驟，將您的部署還原為一般的工作狀態。
+在發生災難的集區重新連線後 (如此範例中的 Pool1)，請採取下列步驟將部署還原至正常運作狀態。
 
-請注意，容錯回復程式需要幾分鐘的時間才能完成。針對參考，對於20000使用者，預期會需要最多60分鐘的時間。
+請注意，容錯回復程序需要數分鐘才能完成。僅供參考：對於有 20,000 個使用者的集區，預計會花上 60 分鐘。
 
-1.  您可以輸入下列 Cmdlet，以容錯回復傳回 Pool1 且已容錯移轉至 Pool2 的使用者：
+1.  若要容錯回復原來位於 Pool1 而容錯移轉至 Pool2 的使用者，請鍵入下列 Cmdlet：
     
         Invoke-CsPoolFailback -PoolFQDN <Pool1 FQDN> -Verbose
 
-不需要其他步驟。 如果您未通過中央管理伺服器進行容錯移轉，您可以將它留在 Pool2 中。
+無需其他步驟。 如果您無法透過中央管理伺服器，您可以將它留在 Pool2。
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：規劃常設聊天室伺服器
+title: Lync Server 2013： 規劃常設聊天室伺服器
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184190
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 363008c910c53f5b1b951bf57ba8663b4d4d970d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: cf28684443b93dbd6d3d1d769ca545177f6cfa0f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41750503"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049975"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-persistent-chat-server-in-lync-server-2013"></a>在 Lync Server 2013 中規劃常設聊天室伺服器
+# <a name="planning-for-persistent-chat-server-in-lync-server-2013"></a>規劃 Lync Server 2013 中的常設聊天室伺服器
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "41750503"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-11_
+_**主題上次修改日期：** 2012年-10-11_
 
-您可以使用 Lync Server 2013、持續聊天伺服器來讓多名使用者參與交談，以便在其中張貼及存取特定主題的相關內容，包括文字、連結和檔案。 雖然使用者可以在會話中即時進行通訊，但每個會話的內容都是永久性的，這表示在會話結束之後，仍可使用它。
+您可以使用 Lync Server 2013，Persistent Chat Server 啟用多位使用者可以加入對話行列他們張貼及存取關於特定主題，包括文字、 連結及檔案的內容。 雖然使用者可以進行即時通訊工作階段期間，每個工作階段的內容為持續性，這表示它會繼續執行的工作階段結束之後才能使用。
 
-本節說明 Lync Server 2013 （持久聊天伺服器部署）中的規劃考慮，包括定義需求、識別元件和支援的拓撲，以及部署建議。
+本節說明在 Lync Server 2013，Persistent Chat Server 部署，包括定義需求、 識別元件與支援的拓撲，以及部署建議的規劃考量。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [Lync Server 2013 中的常設聊天室伺服器概觀](lync-server-2013-overview-of-persistent-chat-server.md)
+  - [在 Lync Server 2013 常設聊天室伺服器的概觀](lync-server-2013-overview-of-persistent-chat-server.md)
 
-  - [在 Lync Server 2013 中，持久聊天伺服器的運作方式](lync-server-2013-how-persistent-chat-server-works.md)
+  - [Persistent Chat Server 在 Lync Server 2013 中的運作方式](lync-server-2013-how-persistent-chat-server-works.md)
 
-  - [在 Lync Server 2013 中定義組織的常設聊天室伺服器需求](lync-server-2013-defining-your-requirements-for-persistent-chat-server.md)
+  - [定義 Lync Server 2013 中的 [for Persistent Chat Server 貴組織的需求](lync-server-2013-defining-your-requirements-for-persistent-chat-server.md)
 
-  - [Lync Server 2013 中持續聊天伺服器的元件與拓撲](lync-server-2013-components-and-topologies-for-persistent-chat-server.md)
+  - [Persistent Chat Server in Lync Server 2013 的元件和拓撲](lync-server-2013-components-and-topologies-for-persistent-chat-server.md)
 
-  - [Lync Server 2013 中持續聊天伺服器的技術需求](lync-server-2013-technical-requirements-for-persistent-chat-server.md)
+  - [Persistent Chat Server in Lync Server 2013 的技術需求](lync-server-2013-technical-requirements-for-persistent-chat-server.md)
 
-  - [在 Lync Server 2013 中設定常設聊天室伺服器的系統與基礎結構](lync-server-2013-setting-up-systems-and-infrastructure-for-persistent-chat-server.md)
+  - [Persistent Chat Server in Lync Server 2013 的設定系統與基礎結構](lync-server-2013-setting-up-systems-and-infrastructure-for-persistent-chat-server.md)
 
-  - [Lync Server 2013 中的常設聊天室伺服器的部署檢查清單](lync-server-2013-deployment-checklist-for-persistent-chat-server.md)
+  - [Persistent Chat Server in Lync Server 2013 的部署檢查表](lync-server-2013-deployment-checklist-for-persistent-chat-server.md)
 
 </div>
 

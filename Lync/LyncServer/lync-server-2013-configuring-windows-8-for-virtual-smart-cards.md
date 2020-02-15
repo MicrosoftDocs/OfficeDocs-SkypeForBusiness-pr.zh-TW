@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：針對虛擬智慧卡設定 Windows 8
+title: Lync Server 2013： 設定 Windows 8 的虛擬智慧卡
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 54973684
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b6298f7aa6a500a71c0b3732dd2f3d180e7192d3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bb8fe9fb9bcca80e7e84f19bdc484dc693b1ee68
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733643"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045745"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-windows-8-for-using-virtual-smart-cards-with-lync-server-2013"></a>針對使用 Lync Server 2013 的虛擬智慧卡設定 Windows 8
+# <a name="configuring-windows-8-for-using-virtual-smart-cards-with-lync-server-2013"></a>設定 Windows 8 搭配 Lync Server 2013 使用虛擬智慧卡
 
 </div>
 
@@ -35,42 +35,42 @@ ms.locfileid: "41733643"
 
 <span> </span>
 
-_**主題上次修改日期：** 2013-07-03_
+_**上次修改主題：** 2013年-07-03_
 
-部署雙因素驗證與智慧卡技術時，要考慮的一個因素是實施成本。 Windows 8 提供許多新的安全性功能，其中一個最有趣的新功能就是支援虛擬智慧卡。
+要考慮部署雙因素驗證和智慧卡技術時的一個因素是實作的成本。 Windows 8 提供了數個新的安全性功能，且下方其中的最重要的新功能為虛擬智慧卡的支援。
 
-對於配備符合規範版本1.2 的可信平臺模組（TPM）晶片的電腦，組織現在可以取得智慧卡登入的優點，而不需要在硬體中進行任何額外的投資。 如需詳細資訊，請參閱在[http://go.microsoft.com/fwlink/p/?LinkId=313365](http://go.microsoft.com/fwlink/p/?linkid=313365)Windows 8 中使用虛擬智慧卡。
+針對配備信任平台模組 (TPM) 晶片符合規格 1.2 版的電腦，組織現在可以取得的優點智慧卡登入但不進行任何額外的投資的硬體。 如需詳細資訊，請參閱在 Windows 8 與使用虛擬智慧卡[http://go.microsoft.com/fwlink/p/?LinkId=313365](http://go.microsoft.com/fwlink/p/?linkid=313365)。
 
 <div>
 
-## <a name="to-configure-windows-8-for-virtual-smart-cards"></a>針對虛擬智慧卡設定 Windows 8
+## <a name="to-configure-windows-8-for-virtual-smart-cards"></a>若要設定 Windows 8 的虛擬智慧卡
 
-1.  使用啟用 Lync 的使用者認證登入 Windows 8 電腦。
+1.  使用已啟用 Lync 之使用者的認證，Windows 8 電腦登入。
 
-2.  在 Windows 8 的 [開始] 畫面中，將游標移至畫面的右下角。
+2.  在 Windows 8 的 [開始] 畫面上，將游標移至螢幕的右下角。
 
-3.  選取 [**搜尋**] 選項，然後搜尋 [**命令提示**字元]。
+3.  選取 [**搜尋**] 選項，然後搜尋**命令提示字元**。
 
-4.  以滑鼠右鍵按一下**命令提示**字元，然後選取 [以**系統管理員身分執行**]。
+4.  在**命令提示字元處**上, 按一下滑鼠右鍵，然後選取 [**以管理員身分執行**。
 
-5.  執行下列命令以開啟可信平臺模組（TPM）管理主控台：
+5.  開啟受信任的平台模組 (TPM) 管理主控台執行下列命令：
     
         Tpm.msc
 
-6.  從 TPM 管理主控台，確認您的 TPM 規格版本至少為1。2
+6.  從 [TPM 管理] 主控台中，確認您 TPM 規格版本至少 1.2
     
     <div>
     
 
     > [!NOTE]  
-    > 如果您收到對話方塊，指出找不到相容的信任平臺模組（TPM），請確認電腦有相容的 TPM 模組，且已在系統 BIOS 中啟用。
+    > 如果您收到表示找不到相容信任平台模組 (TPM)] 對話方塊，請確認電腦沒有相容的 TPM 模組，而且它已啟用系統 bios。
 
     
     </div>
 
 7.  關閉 TPM 管理主控台
 
-8.  在命令提示字元中，使用下列命令建立新的虛擬智慧卡：
+8.  從命令提示字元處，建立新虛擬智慧卡使用下列命令：
     
         TpmVscMgr create /name MyVSC /pin default /adminkey random /generate
     
@@ -78,20 +78,20 @@ _**主題上次修改日期：** 2013-07-03_
     
 
     > [!NOTE]  
-    > 若要在建立虛擬智慧卡時提供自訂 PIN 值，請改為使用/pin 提示。
+    > 若要建立虛擬智慧卡時，請提供自訂的 pin 碼值，請改為使用 /pin 提示。
 
     
     </div>
 
-9.  在命令提示字元中，執行下列命令以開啟 [電腦管理] 主控台：
+9.  在命令提示字元中，開啟 [電腦管理] 主控台執行下列命令：
     
         CompMgmt.msc
 
 10. 在 [電腦管理] 主控台中，選取 [**裝置管理**]。
 
-11. 展開 [**智慧卡讀取器**]。
+11. 展開 [**智慧卡讀取者**]。
 
-12. 確認已成功建立新的虛擬智慧卡讀卡機。
+12. 請確認已成功建立新的虛擬智慧卡讀取。
 
 </div>
 

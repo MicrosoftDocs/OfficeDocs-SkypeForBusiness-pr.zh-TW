@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：使用備份服務還原會議內容
+title: Lync Server 2013： 還原會議內容使用備份服務
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733620
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 873ca354ca592eb6bc317b579a0a6f5008e6a172
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d8fb791362718b2bce5e7c13c0cc6aab779d954f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733193"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051075"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="restoring-conference-contents-using-the-backup-service-in-lync-server-2013"></a>在 Lync Server 2013 中使用備份服務還原會議內容
+# <a name="restoring-conference-contents-using-the-backup-service-in-lync-server-2013"></a>使用 Lync Server 2013 中備份服務還原會議內容
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41733193"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-11-01_
+_**主題上次修改日期：** 2012年-11-01_
 
-如果儲存在前端池檔案存放區中的會議資訊無法使用。 您必須還原此資訊，讓駐留在該池中的使用者保留其會議資料。 如果有遺失會議資料的前端池是與另一個前端池進行配對，您可以使用 [備份服務] 來還原資料。
+如果儲存在前端集區之檔案存放區中的會議資訊變成無法使用，則必須還原該資訊，讓位於集區的使用者得以保留其會議資料。如果遺失會議資料的前端集區有跟其他前端集區配對，則可以使用備份服務還原資料。
 
-如果整個池失敗，而且您必須將其使用者容錯移轉至備份池，也必須執行此工作。 當這些使用者傳回容錯移轉至原始池時，您必須使用此程式將其會議內容複寫回其原始池。
+如果整個集區失敗，而必須將使用者容錯移轉至備份集區，也必須執行此工作。當這些使用者容錯移轉回原始集區時，也必須使用此程序，將會議內容複製回原始集區。
 
-假設 Pool1 與 Pool2 成對，而 Pool1 中的會議資料遺失。 您可以使用下列 Cmdlet 來喚醒呼叫備份服務來還原內容：
+假設 Pool1 與 Pool2 配對，而 Pool1 中的會議資料遺失。 您可以使用下列 cmdlet 來叫用的內容還原備份服務：
 
     Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN> -BackupModule ConfServices.DataConf
 
-還原會議內容可能需要一些時間，視其大小而定。 您可以使用下列 Cmdlet 來檢查進程狀態：
+視會議內容的大小而定，還原會議內容可能需要一些時間。可以使用下列 Cmdlet 檢查處理狀態：
 
     Get-CsBackupServiceStatus -PoolFqdn <Pool2 FQDN> -BackupModule ConfServices.DataConf
 
-此程式會在此 Cmdlet 針對資料會議模組傳回穩定狀態的值時完成。
+當此 Cmdlet 傳回資料會議模組的「穩定狀態」值時，處理就已完成。
 
 </div>
 

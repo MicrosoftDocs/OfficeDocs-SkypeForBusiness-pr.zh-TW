@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：監視和健康情況設定
+title: Lync Server 2013： 監視和健康情況設定
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183383
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 99b554b419a1f0b672caac867a1e3d4caabdae1e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 91d8826a777e8e5f59ffda8cf1004c10c8cc6437
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765984"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051175"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="monitoring-and-health-configuration-in-lync-server-2013"></a>Lync Server 2013 中的監視和健康情況配置
+# <a name="monitoring-and-health-configuration-in-lync-server-2013"></a>Lync Server 2013 中的監視和健康情況設定
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "41765984"
 
 <span> </span>
 
-_**主題上次修改日期：** 2013-02-22_
+_**上次修改主題：** 2013年-02-22_
 
-本節中的主題提供在 Lync Server 2013 [控制台] 和 [Lync Server 2013 管理命令介面] 中執行監視和健康配置工作的逐步程式。
+本節中的主題提供逐步程序的監視，您可以執行 Lync Server 2013 控制台] 及 [Lync Server 2013 管理命令介面中的運作情況設定工作。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [在 Lync Server 2013 中呼叫詳細資料錄製（CDR）](lync-server-2013-call-detail-recording-cdr.md)
+  - [通話詳細記錄 (CDR) 在 [Lync Server 2013](lync-server-2013-call-detail-recording-cdr.md)
 
-  - [Lync Server 2013 中的體驗品質（QoE）](lync-server-2013-quality-of-experience-qoe.md)
+  - [品質的 Lync Server 2013 中的經驗 (QoE)](lync-server-2013-quality-of-experience-qoe.md)
 
-  - [在 Lync Server 2013 中監控行動能力以提高效能](lync-server-2013-monitoring-mobility-for-performance.md)
+  - [Lync Server 2013 的效能監控行動性](lync-server-2013-monitoring-mobility-for-performance.md)
 
-  - [在 Lync Server 2013 中使用監視報告](lync-server-2013-using-monitoring-reports.md)
+  - [Lync Server 2013 中使用監控報告](lync-server-2013-using-monitoring-reports.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
 [Lync Server 2013 中的作業](lync-server-2013-operations.md)  

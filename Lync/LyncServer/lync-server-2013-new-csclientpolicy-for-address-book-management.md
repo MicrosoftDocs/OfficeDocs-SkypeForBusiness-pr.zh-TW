@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：針對通訊錄管理的新 CsClientPolicy
+title: 'Lync Server 2013: New-CsClientPolicy 適用於通訊錄管理'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185771
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3f68f6cfa2fde4d1e5a2bc58a36478a60060dd5e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f84ef03f782263ed9f82b1667418c907087f5d5c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765754"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051391"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="new-csclientpolicy-for-address-book-management-in-lync-server-2013"></a>Lync Server 2013 中的通訊錄管理的新 CsClientPolicy
+# <a name="new-csclientpolicy-for-address-book-management-in-lync-server-2013"></a>適用於通訊錄管理 Lync Server 2013 中的新 CsClientPolicy
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41765754"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-11-01_
+_**主題上次修改日期：** 2012年-11-01_
 
-誰可以執行這個 Cmdlet：根據預設，下列群組的成員有權執行新的 CsClientPolicy Cmdlet： RTCUniversalServerAdmins。 若要傳回已指派這個 Cmdlet 的所有角色式存取控制（RBAC）角色的清單（包括您自行建立的任何自訂 RBAC 角色），請在 Windows PowerShell 提示中執行下列命令：
+誰可以執行這個 Cmdlet：根據預設，下列群組成員已獲得授權，可執行 New-CsClientPolicy Cmdlet：RTCUniversalServerAdmins。 若要傳回所有獲指派此 Cmdlet 的角色型存取控制 (RBAC) 角色清單 (包括您自行建立的自訂 RBAC 角色)，請在 Windows PowerShell 命令提示中執行下列命令：
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "New-CsClientPolicy"}
 
-Cmdlet New-CsClientPolicy 會定義大量設定，以便為 Lync Server 2013 中提供的功能提供客戶。 針對通訊錄服務，參數 AddressBookAvailability 是有意義的。 這個參數會直接影響用戶端可用的選項，有三種可能的選項：
+此 cmdlet New-csclientpolicy 定義大量設定如佈建 Lync Server 2013 中可用的功能的用戶端。 若為通訊錄服務，參數 AddressBookAvailability 是感興趣。 此參數，直接影響用戶端可用的選項，有三個可能的選項：
 
   - WebSearchAndFileDownload
 
@@ -49,7 +49,7 @@ Cmdlet New-CsClientPolicy 會定義大量設定，以便為 Lync Server 2013 中
 
   - FileDownloadOnly
 
-定義後，會決定用戶端存取通訊錄的方式。 如果您定義此參數，您必須定義其中一個選項。 如果您不修改此設定，預設 WebSearchAndFileDownload 會保持生效。
+定義時，它會決定用戶端存取通訊錄的方式。 如果您定義此參數，您必須定義其中一個選項。 如果您不要修改此設定，預設 WebSearchAndFileDownload 仍然有效。
 
 例如：
 
@@ -60,7 +60,7 @@ Cmdlet New-CsClientPolicy 會定義大量設定，以便為 Lync Server 2013 中
 ## <a name="see-also"></a>請參閱
 
 
-[New-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsClientPolicy)  
+[New-csclientpolicy](https://docs.microsoft.com/powershell/module/skype/New-CsClientPolicy)  
   
 
 </div>

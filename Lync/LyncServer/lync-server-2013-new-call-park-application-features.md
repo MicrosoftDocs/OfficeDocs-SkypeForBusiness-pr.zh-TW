@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：新通話駐留應用程式功能
+title: Lync Server 2013： 新的通話駐留應用程式的功能
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185277
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ed681497eee3033ea18cdac0487257f02052491c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 38053645858c2fcec52f94259485184801236240
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765804"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049985"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,18 +35,18 @@ ms.locfileid: "41765804"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-17_
+_**主題上次修改日期：** 2012年-10-17_
 
-通話駐留應用程式可讓企業語音使用者保留通話，稍後再從任何電話取回通話。 停用通話的使用者可以撥打電話寄存提供的軌道編號，以取得寄存式通話，或使用外部機制（例如立即訊息（IM）或分頁系統）來要求其他人取回通話。
+通話駐留應用程式可讓 Enterprise Voice 使用者放入保留的通話，然後從任何電話中稍後擷取。 駐留通話的使用者也可以撥打軌道號碼，提供所擷取的通話駐留駐留通話] 或 [使用外部的機制，例如立即訊息 (IM) 或分頁系統，以要求其他人，以便擷取通話。
 
-Lync Server 2013 以容錯移轉與回切處理常式的形式提供新的災害復原機制。 這些容錯移轉及回切處理常式支援通話駐留功能的復原，方法是允許駐留在主要池中的使用者在主要池中發生中斷時，利用 [備份] 池的呼叫駐留應用程式。 已啟用通話駐留應用程式災害復原的支援，作為成對的前端池配置和部署的一部分。
+Lync Server 2013 提供新的災害復原機制形式的容錯移轉及容錯回復處理程序。 這些容錯移轉和容錯回復處理程序支援復原的通話駐留功能可讓使用者隸屬於主要集區中發生中斷時，利用備份集區的通話駐留應用程式的主要集區。 設定及部署配對前端集區的一部分，會啟用支援的通話駐留應用程式的災害復原。
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
-[在 Lync Server 2013 中規劃通話駐留](lync-server-2013-planning-for-call-park.md)  
+[規劃 Lync Server 2013 中的通話駐留](lync-server-2013-planning-for-call-park.md)  
   
 
 </div>

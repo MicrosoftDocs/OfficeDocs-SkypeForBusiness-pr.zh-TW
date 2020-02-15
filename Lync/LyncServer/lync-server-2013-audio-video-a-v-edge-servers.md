@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：音訊/視頻（A/V）邊緣伺服器
+title: Lync Server 2013： 音訊/視訊 (A / V) Edge Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733785
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c99cc3522c13ece937c6e2a0ba06f995431e08d8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1262ee1a2db12569538f499731de53a9da133c98
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41722643"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044735"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="audiovideo-av-edge-servers-in-lync-server-2013"></a>Lync Server 2013 中的音訊/視頻（A/V）邊緣伺服器
+# <a name="audiovideo-av-edge-servers-in-lync-server-2013"></a>音訊/視訊 (A / V) Lync Server 2013 中的 Edge Server
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "41722643"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-11-01_
+_**主題上次修改日期：** 2012年-11-01_
 
-A/V Edge 服務為內部使用者（登入組織網路的使用者）提供一種方式，與外部使用者（沒有登入組織網路的使用者）共用音訊和影片。 除了音訊和影片，A/V 邊緣服務也會提供對此類內容的支援。
+A/V Edge 服務可讓內部使用者 (即已登入您組織網路的使用者) 將音訊和視訊共用給外部使用者 (即未登入您組織網路的使用者)。 除了音訊與視訊、 A / V Edge service 還能支援這類事項桌面共用與檔案傳輸時必須使用。
 
-A/V 邊緣服務的主要管理方式是使用 A/V 邊緣設定;這些設定可讓您管理每個埠與每個使用者所分配的頻寬上限，以及指定必須在該權杖更新之前，使用驗證權杖的時間長度。 A/V 邊緣設定可套用至網站或個別的 A/V 邊緣伺服器。 確定哪個設定的優先順序會優先時，請使用下列指南：
+A / V Edge service 主要是由使用 A / V Edge 組態;這些設定可讓您管理的每個連接埠要配置的頻寬量上限和每位使用者，以及指定可以先使用的驗證權杖的時間長度必須更新權杖。 A / V Edge 組態設定可以套用至網站或個別的 A / V Edge server。 在決定哪一個設定集合會優先時，使用下列快顯功能表：
 
-  - 在服務作用中設定的設定（也就是在個別伺服器上）會優先處理所有專案。
+  - 服務範圍 (亦即在個別伺服器) 中的設定優先使用。
 
-  - 在網站範圍設定的設定，會優先于在全域範圍內設定的設定。 不過，服務範圍設定也會取代網站範圍設定。
+  - 在網站範圍設定的設定優先於全域範圍設定的設定。 不過，服務範圍設定也會取代網站範圍設定。
 
-  - 只有在個別伺服器上沒有設定任何服務設定，而且該伺服器所在之網站沒有網站設定的情況下，全域作用中的設定才會使用。
+  - 若個別伺服器裡未進行任何服務設定，且該伺服器所處的網站無任何網站設定，才會使用全域範圍的設定。
 
-只有使用 Lync Server PowerShell 和 CsAVEdgeConfiguration Cmdlet，才能管理 A/V 邊緣服務。
+A / V Edge service 只能由使用 Lync Server PowerShell 與 CsAVEdgeConfiguration cmdlet 進行管理。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [在 Lync Server 2013 中傳回 A/V 邊緣伺服器配置資訊](lync-server-2013-return-a-v-edge-server-configuration-information.md)
+  - [傳回 A / V Edge Server 在 Lync Server 2013 中的組態資訊](lync-server-2013-return-a-v-edge-server-configuration-information.md)
 
-  - [在 Lync Server 2013 中建立或修改 A/V 邊緣伺服器設定的集合](lync-server-2013-create-or-modify-a-collection-of-a-v-edge-server-configuration-settings.md)
+  - [建立或修改一群 A / V Edge Server 組態設定 Lync Server 2013 中](lync-server-2013-create-or-modify-a-collection-of-a-v-edge-server-configuration-settings.md)
 
-  - [刪除 Lync Server 2013 中現有的 A/V 邊緣伺服器設定集合](lync-server-2013-delete-an-existing-collection-of-a-v-edge-server-configuration-settings.md)
+  - [刪除現有集合的 A / V Edge Server 組態設定 Lync Server 2013 中](lync-server-2013-delete-an-existing-collection-of-a-v-edge-server-configuration-settings.md)
 
 </div>
 

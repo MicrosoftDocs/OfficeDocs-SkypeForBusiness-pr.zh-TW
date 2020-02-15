@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：新來電顯示功能
+title: Lync Server 2013： 新的來電者識別碼功能
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733562
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7e62a74342e7501810edda4d0f46ff36aa80d76f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f168f0779da1ba1d2b3bd6549135234f2cec563e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765794"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050105"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="new-caller-id-feature-in-lync-server-2013"></a>Lync Server 2013 中的新來電顯示功能
+# <a name="new-caller-id-feature-in-lync-server-2013"></a>Lync Server 2013 中新的來電者識別碼功能
 
 </div>
 
@@ -35,18 +35,18 @@ ms.locfileid: "41765794"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-05_
+_**主題上次修改日期：** 2012年-10-05_
 
-Lync Server 2013 可讓系統管理員靈活地修改呼叫方電話號碼的格式。 此本機號碼功能可讓系統管理員將呼叫方的電話號碼修改為幹線對等的撥號格式（如有需要）。 例如，您可以撰寫翻譯規則，以從撥號字串開頭移除 + 44，然後將它取代為0144。
+Lync Server 2013 提供系統管理員的彈性來修改的呼叫方的電話號碼格式。 這個發話者 ID 簡報功能，可讓系統管理員依需要將發話方電話號碼修改成對等主幹了解的撥號格式。 例如，您可以撰寫轉譯規則，將撥號字串開頭的 +44 移除，並替換成 0144。
 
-現在，使用 Lync Server 2013，來電者的電話號碼和被叫方的電話號碼都可以視需要轉譯成不同的格式。 這種靈活性可讓 Lync Server 2013 在不同的電話系統之間充當中繼翻譯器。
+現在，與 Lync Server 2013 中，來電者的電話號碼和受話者的電話號碼可先翻譯成不同的格式，視需要。 這種彈性可讓 Lync Server 2013，以做為不同的電話語音系統之間的主幹轉譯器。
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
-[Lync Server 2013 中的新企業語音功能](lync-server-2013-new-enterprise-voice-features.md)  
+[Lync Server 2013 中的新 Enterprise Voice 功能](lync-server-2013-new-enterprise-voice-features.md)  
   
 
 </div>

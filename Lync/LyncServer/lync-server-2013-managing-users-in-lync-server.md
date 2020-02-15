@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：在 Lync Server 中管理使用者
+title: Lync Server 2013： 管理 Lync Server 中的使用者
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 49344809
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 35517b535c515bbb0fcfd28b69c99e27d0b9b175
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: cb42a8504964ebbce18cc7ebad23059781f570d4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756057"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045515"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,21 +35,21 @@ ms.locfileid: "41756057"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-17_
+_**主題上次修改日期：** 2012年-10-17_
 
-您可以使用 Lync Server 2013 的 [控制台] 和 [Lync Server 2013 管理命令介面] 來管理 Lync Server 2013 中的使用者帳戶。 本節中的程式會引導您逐步瞭解如何查看帳戶資訊並設定使用者帳戶的設定。
+您可以使用 Lync Server 2013 控制台] 及 [Lync Server 2013 管理命令介面來管理 Lync Server 2013 中的使用者帳戶。 本節中的程序將指導您如何檢視帳戶資訊以及設定使用者帳戶的設定。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [已啟用 Lync Server 2013 的使用者帳戶](lync-server-2013-user-accounts-enabled-for-lync-server.md)
+  - [啟用 Lync Server 2013 的使用者帳戶](lync-server-2013-user-accounts-enabled-for-lync-server.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
 [Lync Server 2013 中的作業](lync-server-2013-operations.md)  

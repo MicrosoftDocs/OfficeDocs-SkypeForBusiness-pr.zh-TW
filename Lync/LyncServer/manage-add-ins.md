@@ -12,16 +12,16 @@ ms:contentKeyID: 48185204
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 55a14e84404d11f4b52bc6438991ae070ca8806a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 11b30c4edba62873eddf89ce1967e9d158fee1bd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757177"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048494"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41757177"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-06_
+_**主題上次修改日期：** 2012年-10-06_
 
-若要建立新的持續聊天伺服器增益集
+若要建立新 Persistent Chat Server 增益集
 
     New-CsPersistentChatAddin -Name Contoso -PersistentChatPoolFqdn client.contoso.com -Url http://contoso.com 
 
 <div>
 
-## <a name="create-get-set-or-remove-an-add-in"></a>建立、取得、設定或移除增益集
+## <a name="create-get-set-or-remove-an-add-in"></a>建立、 取得、 設定或移除增益集
 
 若要建立新的增益集
 
@@ -53,7 +53,7 @@ _**主題上次修改日期：** 2012-10-06_
 
 
 > [!IMPORTANT]  
-> PersistentChatPoolFqdn &lt;字串&gt;只有在有多個持續聊天伺服器池時才是必要的。
+> PersistentChatPoolFqdn&lt;字串&gt;才需要沒有超過一部 Persistent Chat Server 集區。
 
 
 
@@ -75,7 +75,7 @@ _**主題上次修改日期：** 2012-10-06_
 
     Set-CsPersistentChatAddIn -Identity <String> [-Name <String>] [-Url<String>] [-Force <Switch Parameter>] [-Confirm <Switch Parameter>]
 
-移除增益集
+若要移除的增益集
 
     Remove-CsPersistentChatAddIn -Instance <AddinObject> [-Force <Switch Parameter>] [-Confirm <Switch Parameter>]
 

@@ -1,5 +1,5 @@
 ---
-title: 遷移轉送伺服器
+title: 移轉中繼伺服器
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185117
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3478bb3bb837e44ed33597f72738b181b4c67561
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 581ce96b0c0a6ad0e4edd68eddbfacb160bf13f1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762911"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045855"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="migrate-mediation-server"></a>遷移轉送伺服器
+# <a name="migrate-mediation-server"></a>移轉中繼伺服器
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41762911"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-09-28_
+_**主題上次修改日期：** 2012年-09-28_
 
-當您執行 [合併] 嚮導時，您的中繼伺服器會合並到 Lync Server 2013 試驗拓撲。 您可以設定 Lync Server 2013 轉送伺服器，因為 Office 通訊伺服器 2007 R2 池無法與 Lync Server 2013 轉送伺服器通訊，所以在所有使用者都被遷移後。 在並行遷移期間，Lync Server 2013 pool 會與 Office 通訊伺服器 2007 R2 轉送伺服器通訊。
+中繼伺服器已合併到 Lync Server 2013 試驗拓撲，當您執行合併列印精靈。 您設定 Lync Server 2013 中繼伺服器，不過之後所有的使用者完成移轉，因為 Office Communications Server 2007 R2 集區無法與 Lync Server 2013 中繼伺服器進行通訊。 並排顯示在移轉期間，與 Office Communications Server 2007 R2 中繼伺服器進行通訊的 Lync Server 2013 集區。
 
-當您設定 Lync Server 2013 轉送服務伺服器時，您也必須升級或取代您的 Office 通訊伺服器 2007 R2 閘道。 Office 通訊伺服器 2007 R2 閘道不支援 Lync Server 2013 轉送伺服器。 您需要部署認證給 Lync Server 2013 的閘道，並將它們與 Lync Server 2013 轉送伺服器進行關聯。 您必須先執行此步驟，才能完全解除與您的 Office 通訊伺服器 2007 R2 部署。
+當您設定您的 Lync Server 2013 中繼伺服器時，您也必須升級，或取代 Office Communications Server 2007 R2 閘道。 Office Communications Server 2007 R2 閘道不支援 Lync Server 2013 中繼伺服器。 您必須部署 Lync Server 2013 的認證，並與 Lync Server 2013 中繼伺服器產生關聯的閘道。 您可以完全解除委任 Office Communications Server 2007 R2 部署之前，則需要此步驟。
 
-本節中的主題描述在您完成 Lync Server 2013 轉送伺服器的遷移之後，您需要執行的設定任務。 將 collocated 中繼伺服器轉換成獨立的中繼伺服器是一個選用的工作。
+本節主題說明您需要執行完成之後，您的 Lync Server 2013 中繼伺服器移轉的組態工作。 轉換成獨立中繼伺服器組合的中繼伺服器是選用的工作。
 
   - [設定中繼伺服器](configure-mediation-server.md)
 
-  - [變更語音路由以使用新的 Lync Server 2013 轉送服務伺服器](change-voice-routes-to-use-the-new-lync-server-2013-mediation-server.md)
+  - [變更語音路由以使用新的 Lync Server 2013 中繼伺服器](change-voice-routes-to-use-the-new-lync-server-2013-mediation-server.md)
 
-  - [將 collocated 中繼伺服器轉換成獨立的中繼伺服器（選用）](transition-a-collocated-mediation-server-to-a-stand-alone-mediation-server-optional.md)
+  - [組合式的中繼伺服器轉換成獨立中繼伺服器 （選用）](transition-a-collocated-mediation-server-to-a-stand-alone-mediation-server-optional.md)
 
 </div>
 

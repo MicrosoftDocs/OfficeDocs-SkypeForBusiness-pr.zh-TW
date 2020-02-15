@@ -1,5 +1,5 @@
 ---
-title: 在觀察程式節點上安裝 Operation Manager 代理檔案
+title: 安裝 Operation Manager 代理程式檔案的監看員節點上
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183901
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2d50bbcb6397888308424e5140913680ab89995e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a4a6ab24a655a96c00f019e6a0d4239d33424d7a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725963"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046766"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="installing-the-operation-manager-agent-files-on-a-watcher-node-in-lync-server-2013"></a>在 Lync Server 2013 的 [觀察程式] 節點上安裝 Operation Manager 代理檔案
+# <a name="installing-the-operation-manager-agent-files-on-a-watcher-node-in-lync-server-2013"></a>Lync Server 2013 中安裝 Operation Manager 代理程式檔案的監看員節點上
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41725963"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-20_
+_**主題上次修改日期：** 2012年-10-20 個_
 
-與設定 Lync 伺服器以報告元件警示類似，Lync Server 2013 觀察程式節點需要安裝 System Center Operations Manager 代理檔案。 這可讓綜合交易執行，並將警報報告給 System Center Operations Manager 根管理伺服器。
+類似於設定報表元件提醒 Lync 伺服器，Lync Server 2013 監看員節點需要安裝 System Center Operations Manager 代理程式檔案。 這使得綜合交易得以執行，並且將警示報告給 System Center Operations Manager Root Management Server。
 
-若要安裝代理程式檔案，請遵循下列各節所列的程式：
+如要安裝該代理程式檔案，請遵照以下數節列出的確切程序：
 
-1.  [在 Lync Server 2013 周邊網路以外的監視者節點上安裝憑證](lync-server-2013-installing-a-certificate-on-a-watcher-node-located-outside-the-perimeter-network.md)
+1.  [位於 Lync Server 2013 的周邊網路外的監看員節點上安裝憑證](lync-server-2013-installing-a-certificate-on-a-watcher-node-located-outside-the-perimeter-network.md)
 
-2.  [在 Lync Server 2013 中安裝 Operation Manager 代理程式檔](lync-server-2013-installing-the-operation-manager-agent-files.md)
+2.  [Lync Server 2013 中安裝 Operation Manager 代理程式檔案](lync-server-2013-installing-the-operation-manager-agent-files.md)
 
-3.  [將 Lync Server 2013 電腦設定為參與 System Center 探索](lync-server-2013-configuring-the-lync-server-computer-to-participate-in-system-center-discovery.md)
+3.  [設定 Lync Server 2013 電腦以參與 System Center 搜索](lync-server-2013-configuring-the-lync-server-computer-to-participate-in-system-center-discovery.md)
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：檢查語音正常化規則
+title: Lync Server 2013： 檢查語音正規化規則
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969649
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 04e383f38d5af6f106354a766c857635bcd87eb3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 52820473a632598779aae9023967598b8ae27f89
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733863"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045695"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="check-voice-normalization-rules-in-lync-server-2013"></a>在 Lync Server 2013 中檢查語音正常化規則
+# <a name="check-voice-normalization-rules-in-lync-server-2013"></a>核取 [Lync Server 2013 中的語音正規化規則
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41733863"
 
 <span> </span>
 
-_**主題上次修改日期：** 2014-05-20_
+_**上次修改主題：** 2014年-05-20 個_
 
 
 <table>
@@ -46,16 +46,16 @@ _**主題上次修改日期：** 2014-05-20_
 <tbody>
 <tr class="odd">
 <td><p>驗證排程</p></td>
-<td><p>次</p></td>
+<td><p>每月</p></td>
 </tr>
 <tr class="even">
-<td><p>測試控管</p></td>
+<td><p>測試工具</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>需要許可權</p></td>
-<td><p>使用 Lync Server 管理命令介面在本機執行時，使用者必須是 RTCUniversalServerAdmins 安全性群組的成員。</p>
-<p>使用 Windows PowerShell 的遠端實例執行時，必須為使用者指派具有執行 CsVoiceNormalizationRule Cmdlet 許可權的 RBAC 角色。 若要查看可以使用此 Cmdlet 的所有 RBAC 角色清單，請從 Windows PowerShell 提示執行下列命令：</p>
+<td><p>必要的權限</p></td>
+<td><p>當執行在本機上使用 Lync Server 管理命令介面，使用者必須是 RTCUniversalServerAdmins 安全性群組的成員。</p>
+<p>當執行使用 Windows PowerShell 的遠端執行個體時，使用者必須被指派具有可執行此測試來 cmdlet 的權限的 RBAC 角色。 若要查看可以使用此 cmdlet 的所有 RBAC 角色的清單，請在 Windows PowerShell 命令提示執行下列命令：</p>
 <p><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsVoiceNormalizationRule&quot;}</code></p></td>
 </tr>
 </tbody>
@@ -64,11 +64,11 @@ _**主題上次修改日期：** 2014-05-20_
 
 <div>
 
-## <a name="description"></a>說明
+## <a name="description"></a>描述
 
-語音正常化規則是用來將使用者所撥的電話號碼（例如2065551219）轉換為 Lync Server （+ 12065551219）所使用的 E. 164 格式。 例如，如果使用者習慣撥電話號碼（不包括國家/地區碼或區號（例如5551219）），則您必須有可將該數位轉換為 E.i 格式的語音正常化規則： + 12065551219。 如果沒有這類規則，使用者將無法呼叫555-1219。
+語音正規化規則可用來將轉換為 E.164 格式使用 Lync Server (+ 12065551219) 的使用者 (例如，2065551219) 所撥打的電話號碼。 例如，如果使用者在撥打的電話號碼，但不包括國家/地區或區域程式碼 (例如 5551219) 習慣然後您必須可以將該數字轉換成 E.164 格式的語音正規化規則: + 12065551219。 沒有這類規則，使用者無法呼叫 555-1219。
 
-CsVoiceNormalizationRule Cmdlet 會驗證指定的語音正常化規則是否可以成功轉換指定的電話號碼。 例如，這個命令會檢查全域正常化規則 NoAreaCode 是否可以正常化並轉換撥號字串5551219。
+測試來 cmdlet 會驗證指定的語音正規化規則可以成功轉換的指定的電話號碼。 例如，此命令會檢查全域正規化規則 NoAreaCode 可以正規化的需求，並將撥號對應表字串 5551219 轉換。
 
 `Get-CsVoiceNormalizationRule -Identity "global/NoAreaCode" | Test-CsVoiceNormalizationRule -DialedNumber "5551219"`
 
@@ -78,19 +78,19 @@ CsVoiceNormalizationRule Cmdlet 會驗證指定的語音正常化規則是否可
 
 ## <a name="running-the-test"></a>執行測試
 
-若要執行 CsVoiceNormalizationRule Cmdlet，您必須先使用 CsVoiceNormalizationRule Cmdlet 來檢索所測試規則的實例，然後將該實例管路為 Test-CsVoiceNormalizationRule。 類似以下的語法將無法運作：
+若要執行測試來指令程式，您必須先使用 Get-csvoicenormalizationrule cmdlet 來擷取要測試之規則的執行個體，並再將以管線傳輸至測試來執行個體。 將無法使用類似如下的語法：
 
-Test-CsVoiceNormalizationRule-DialedNumber "12065551219" – NormalizationRule "全域/全部首碼"
+來測試 DialedNumber 」 12065551219"– NormalizationRule 「 全域/前置詞所有 」
 
-相反地，請使用如下所示的語法，其中結合了 CsVoiceNormalizationRule 和 CsVoiceNormalizationRule Cmdlet：
+相反地，使用語法如下所示，結合了 Get-csvoicenormalizationrule 及測試來 cmdlet:
 
-CsVoiceNormalizationRule-身分識別 "全域/前置全部" |Test-CsVoiceNormalizationRule-DialedNumber "12065551219"
+Get-csvoicenormalizationrule-Identity"全域/前置詞所有 「 |來測試 DialedNumber 「 12065551219 」
 
 <div>
 
 
 > [!NOTE]  
-> . 或者，您也可以使用此方法來取得規則的實例，然後根據指定的電話號碼來測試該規則：
+> . 或者，您也可以使用這種方法來擷取規則的執行個體，然後測試對指定的電話號碼的規則：
 
 
 
@@ -100,21 +100,21 @@ CsVoiceNormalizationRule-身分識別 "全域/前置全部" |Test-CsVoiceNormali
 
 `Test-CsVoiceNormalizationRule -DialedNumber "12065551219" -NormalizationRule $x`
 
-輸入 DialedNumber 參數的值，就像您預期要撥打的號碼一樣。 例如，如果指定的語音正常化規則應該自動新增國家/地區代碼（值12065551219中的初始1），那麼您應該離開國家/地區代碼：
+完全依照您預期該號碼撥打 DialedNumber 參數輸入值。 例如，如果指定的語音正規化規則應會自動新增國碼/地區碼 (值 12065551219 中的初始 1)，則應該將維持關閉國碼/地區碼：
 
 `-DialedNumber "2065551219"`
 
-如果規則設定正確，則會在將號碼轉換為 Lync Server 所使用的 E. 164 格式時，自動新增國家/地區代碼。
+如果規則設定正確，它會自動加入國碼/地區碼轉譯 Lync 伺服器所使用的 E.164 格式號碼時。
 
-如需詳細資訊，請參閱 Test CsVoiceNormalizationRule Cmdlet 的說明文件。
+如需詳細資訊，請參閱 < 測試來 cmdlet 的說明 」 文件。
 
 </div>
 
 <div>
 
-## <a name="determining-success-or-failure"></a>判斷成功或失敗
+## <a name="determining-success-or-failure"></a>決定成功或失敗
 
-如果指定的語音正常化規則可以翻譯所提供的數位，則會在螢幕上顯示已翻譯的數位：
+如果指定的語音正規化規則可以翻譯提供的號碼然後轉譯後的數字會顯示畫面上：
 
 TranslatedNumber
 
@@ -122,7 +122,7 @@ TranslatedNumber
 
 \+12065551219
 
-如果測試失敗，則會傳回一個空白翻譯的數位：
+如果測試失敗，則會傳回空白的翻譯的數目：
 
 TranslatedNumber
 
@@ -132,17 +132,17 @@ TranslatedNumber
 
 <div>
 
-## <a name="reasons-why-the-test-might-have-failed"></a>測試可能失敗的原因
+## <a name="reasons-why-the-test-might-have-failed"></a>測試可能有為何失敗的原因
 
-如果測試 CsVoiceNormalizationRule 確實傳回已翻譯的數位，表示指定的語音正常化規則無法將提供的電話號碼轉譯成 Lync Server 所使用的 e. 164 格式。 若要確認，請先確認您已正確輸入電話號碼。 例如，您會希望語音正常化規則在翻譯如下所示的數位時發生問題：
+如果測試來並傳回表示指定之的語音正規化規則無法將提供的電話號碼轉譯成 Lync 伺服器所使用的 E.164 格式轉譯的號碼。 若要確認，請先確認您正確輸入電話號碼。 例如，您所預期的轉譯類似這樣的數字的問題您語音正規化規則：
 
 `-DialedNumber "1"`
 
-假設輸入的數位正確，下一個步驟應該是確認指定的正常化規則是設計來處理該電話號碼。 例如，一個正常化規則可能是設計用來處理12065551219格式，但第二個規則可能是用來處理數位2065551219的設計。 （這是相同的電話號碼，在最開頭則不是國家/地區代碼1）。若要傳回有關語音正常化規則的詳細資訊，請執行如下所示的命令：
+假設已正確輸入號碼，接著應該若要確認指定的正規化規則設計來處理該電話號碼。 例如，一個正規化規則可能設計來處理格式 12065551219，但第二個規則可能設計來處理數 2065551219。 （這是相同的電話號碼，減一開始時國家/地區碼為 1）。若要傳回的語音正規化規則的詳細的資訊，請執行命令類似這樣：
 
 `Get-CsVoiceNormalizationRule -Identity "global/Prefix All" | Format-List`
 
-若要返回所有語音正常化規則的詳細資訊，請改為執行此命令：
+若要傳回所有語音正規化規則的詳細的資訊，請改為執行此命令：
 
 `Get-CsVoiceNormalizationRule | Format-List`
 
@@ -150,10 +150,10 @@ TranslatedNumber
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
-[Test-CsVoiceNormalizationRule](https://docs.microsoft.com/powershell/module/skype/Test-CsVoiceNormalizationRule)  
+[測試來](https://docs.microsoft.com/powershell/module/skype/Test-CsVoiceNormalizationRule)  
   
 
 </div>

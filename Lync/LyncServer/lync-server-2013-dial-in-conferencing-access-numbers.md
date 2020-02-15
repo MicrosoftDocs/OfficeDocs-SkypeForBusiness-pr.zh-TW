@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：電話撥入式會議存取號碼
+title: Lync Server 2013： 撥入會議存取號碼
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 49733590
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a1b7f10d0fb1d8c908a6cce90ece3b0ef6f0eed2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e128536bbabc4c43fd51412ea61fe0da0b86cf56
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762331"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044685"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41762331"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-09-18_
+_**主題上次修改日期：** 2012年-09-18_
 
-若要讓使用者透過撥入公用交換電話網絡（PSTN）來加入內部部署會議的音訊部分，您必須設定電話撥入式會議存取號碼。 電話撥入式會議存取號碼是使用者用來加入會議的號碼。
+若要讓使用者透過從公用交換電話網路 (PSTN) 撥入的方式加入內部部署會議的音訊部分，您必須設定電話撥入式會議存取號碼。電話撥入式會議存取號碼是指使用者撥打以加入會議的號碼。
 
-[撥入存取號碼] 會顯示在會議邀請和 [電話撥入式會議設定] 網頁上。
+撥入存取號碼會顯示於會議邀請函中，以及電話撥入式會議設定網頁上。
 
 <div>
 
 
 > [!NOTE]  
-> 在該存取號碼的 Active Directory 複製完成之前，您無法使用新的撥入存取號碼。 複製可能需要幾個小時的時間。
+> 在完成新撥入存取號碼的 Active Directory 複寫之前，您無法使用該存取號碼。複寫可能需要幾個小時才能完成。
 
 
 
@@ -53,13 +53,13 @@ _**主題上次修改日期：** 2012-09-18_
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [在 Lync Server 2013 中查看電話撥入式會議存取號碼](lync-server-2013-view-dial-in-conferencing-access-numbers.md)
+  - [Lync Server 2013 中檢視電話撥入式會議存取號碼](lync-server-2013-view-dial-in-conferencing-access-numbers.md)
 
-  - [在 Lync Server 2013 中建立或修改電話撥入式會議存取號碼](lync-server-2013-create-or-modify-a-dial-in-conferencing-access-number.md)
+  - [建立或修改 Lync Server 2013 中的撥入式會議存取號碼](lync-server-2013-create-or-modify-a-dial-in-conferencing-access-number.md)
 
-  - [刪除 Lync Server 2013 中的電話撥入式會議存取號碼](lync-server-2013-delete-a-dial-in-conferencing-access-number.md)
+  - [刪除電話撥入式會議存取號碼在 Lync Server 2013](lync-server-2013-delete-a-dial-in-conferencing-access-number.md)
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：調整式 Director 集區
+title: Lync Server 2013： 調整式的 Director 集區
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184055
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 93c3147f9397db444e816dea433fbe5478c8e87a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8a2ddb19bab0ab47d1afe0014e06aad6189259b4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764981"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049675"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="scaled-director-pool-in-lync-server-2013"></a>Lync Server 2013 中的調整式 Director 集區
+# <a name="scaled-director-pool-in-lync-server-2013"></a>Lync Server 2013 中的調整式的 Director 集區
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41764981"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-09-08_
+_**主題上次修改日期：** 2012年-09-08_
 
-控制器可以部署在單一控制器配置中，或作為主管池來部署。 本節定義了兩個池控制器拓撲結構的拓撲和配置。 如果您打算部署單一控制器，請參閱[Lync Server 2013 中的單一控制器](lync-server-2013-single-director.md)，以規劃該拓朴的考慮。
+在任一種單一 Director 組態，或為 Director 集區，則可以部署 Director。 本節定義拓撲及設定兩個集區的 Director 拓撲。 如果您打算部署單一 Director，請參閱該拓撲的規劃考量的主題[Lync Server 2013 中的單一 Director](lync-server-2013-single-director.md) 。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [Lync Server 2013 中的調整式 Director 集區 - DNS 負載平衡與硬體負載平衡器](lync-server-2013-scaled-director-pool-dns-load-balancing-and-hardware-load-balancer.md)
+  - [調整式的 Director 集區-DNS 負載平衡與硬體負載平衡器在 Lync Server 2013](lync-server-2013-scaled-director-pool-dns-load-balancing-and-hardware-load-balancer.md)
 
-  - [Lync Server 2013 中的調整式 Director 集區 - 硬體負載平衡器](lync-server-2013-scaled-director-pool-hardware-load-balancer.md)
+  - [調整式的 Director 集區-Lync Server 2013 中的硬體負載平衡器](lync-server-2013-scaled-director-pool-hardware-load-balancer.md)
 
 </div>
 

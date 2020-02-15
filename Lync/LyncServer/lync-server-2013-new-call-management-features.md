@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：新通話管理功能
+title: Lync Server 2013： 新通話管理功能
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184880
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fb4f93e0120d8295d601e482e0c6600a092fe599
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 63715d3785d8b7a4d605b2e5acc416f36f01c2c0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765814"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051457"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,22 +35,22 @@ ms.locfileid: "41765814"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-12-18_
+_**主題上次修改日期：** 2012年-12-18_
 
-下列各節說明 Lync Server 2013 中通話管理功能的變更。
+下列各節說明 Lync Server 2013 中的通話管理功能的變更。
 
   - [Lync Server 2013 中的新回應群組應用程式功能](lync-server-2013-new-response-group-application-features.md)
 
   - [Lync Server 2013 中的新通話駐留應用程式功能](lync-server-2013-new-call-park-application-features.md)
 
-  - [Lync Server 2013 中的 [新增群組呼叫挑選] 功能](lync-server-2013-new-group-call-pickup-feature.md)
+  - [Lync Server 2013 中的新群組來電接聽功能](lync-server-2013-new-group-call-pickup-feature.md)
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
-[Lync Server 2013 中的新企業語音功能](lync-server-2013-new-enterprise-voice-features.md)  
+[Lync Server 2013 中的新 Enterprise Voice 功能](lync-server-2013-new-enterprise-voice-features.md)  
   
 
 </div>

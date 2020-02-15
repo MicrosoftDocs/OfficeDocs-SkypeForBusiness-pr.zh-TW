@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：呼叫許可控制部署檢查清單
+title: Lync Server 2013： 通話許可控制部署檢查清單
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185525
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e768cdd11d92b3aab5ce849f91cc1a422f119407
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1a8dc32eb017baf832128301b9639aefe23ae4ce
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741753"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045355"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="call-admission-control-deployment-checklist-for-lync-server-2013"></a>Lync Server 2013 的呼叫許可控制部署檢查清單
+# <a name="call-admission-control-deployment-checklist-for-lync-server-2013"></a>Lync Server 2013 的通話許可控制部署檢查清單
 
 </div>
 
@@ -35,28 +35,28 @@ ms.locfileid: "41741753"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-22_
+_**主題上次修改日期：** 2012年-10-22_
 
-使用下列檢查清單來確認您已完成所有必要的設定工作，以部署呼叫許可控制（CAC）。
+若要確認您已完成所有必要的組態工作，以部署通話許可控制 (CAC) 使用下列檢查清單。
 
-  - 如果一或多個邊緣伺服器已部署，則必須將每個外部介面 IP 位址新增到 [網路設定] 中的子網清單中，位元遮罩為32。 您也應該將這個子網（IP 位址）與「A/V Edge」服務所部署之地理位置的 [網路 site ID] 建立關聯。
+  - 如果部署一或多個 Edge Server，每個外部介面 IP 位址必須新增至 [子網路] 清單中的網路組態設定，32 位元遮罩。 您應該也關聯此子網路 （IP 位址） 的地理位置的網路網站識別碼其中 A / V Edge service 部署。
     
     <div>
     
 
     > [!NOTE]  
-    > Edge 伺服器不是實現 CAC 所必需的。
+    > 若要實作 CAC 不需要 edge server。
 
     
     </div>
 
-  - 確認 CAC 已啟用，不論是透過 Lync Server [控制台]，或是執行在[Lync server 2013 的 [啟用呼叫許可控制](lync-server-2013-enable-call-admission-control.md)] 中指定的 Cmdlet。
+  - 請務必啟用 CAC，透過 Lync Server Control Panel 或執行[Lync Server 2013 中的啟用通話許可控制](lync-server-2013-enable-call-admission-control.md)中所指定的指令程式。
 
-  - 確定所有中央網站都已啟用 CAC。 這可以透過拓撲產生器完成。 如果您發佈時產生警告，*請勿*忽略。
+  - 請確定所有的中央網站中已啟用 CAC。 這可以透過 [拓撲產生器]。 如果當您發佈時，會產生警告，*不*忽略它。
 
-  - 確認在商業網路中管理的所有子網都已設定在 [網路設定] 中。 在[Lync Server 2013 中將子網與網路網站建立](lync-server-2013-associate-a-subnet-with-a-network-site.md)關聯，也必須將每個子網與網路網站相關聯。
+  - 請確定網路組態設定中的設定受管理的企業網路中的所有子網路。 它也是不可或缺的每一個子網路是與相關聯的網路網站，[建立關聯的子網路與網路網站在 Lync Server 2013 中](lync-server-2013-associate-a-subnet-with-a-network-site.md)所述。
 
-  - 確定所有前端伺服器、Survivable 分支裝置（SBAs）、音訊/視訊會議伺服器（如果在個別的池中），以及在 [網路設定] 設定中設定了轉送伺服器的子網或 IP 位址。
+  - 請確定所有前端伺服器、 Survivable Branch Appliance (Sba)、 音訊/視訊會議伺服器 （如果位於不同集區），和中繼伺服器的 IP 位址的子網路的網路組態設定中設定。
 
 </div>
 

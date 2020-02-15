@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：常設聊天室伺服器規範表的清單
+title: Lync Server 2013： 常設聊天室伺服器規範表格清單
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48706007
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3c4f6e9622e839e2f1fd719b8e2d7ba95286247e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fab78f554c94e11c808eeb28929d6b4511c3a695
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765411"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046126"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="list-of-persistent-chat-server-compliance-tables-in-lync-server-2013"></a>Lync Server 2013 中常設聊天室伺服器規範表的清單
+# <a name="list-of-persistent-chat-server-compliance-tables-in-lync-server-2013"></a>Lync Server 2013 中的常設聊天室伺服器規範表格清單
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41765411"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-06_
+_**主題上次修改日期：** 2012年-10-06_
 
-持續性聊天規範資料庫架構是由下清單格所組成。
+常設聊天室規範資料庫結構描述是由下列表格所組成。
 
 <div>
 
-## <a name="list-of-persistent-chat-server-compliance-tables"></a>持續聊天伺服器合規性資料表清單
+## <a name="list-of-persistent-chat-server-compliance-tables"></a>常設聊天室伺服器規範表的清單
 
 
 <table>
@@ -51,28 +51,28 @@ _**主題上次修改日期：** 2012-10-06_
 </colgroup>
 <thead>
 <tr class="header">
-<th>表格</th>
-<th>說明</th>
+<th>資料表</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><a href="lync-server-2013-tblcompliancedata.md">Lync Server 2013 中的 tblComplianceData</a></p></td>
-<td><p>包含已設定的配接器尚未處理的合規性事件。</p>
-<p>此表格包含持續與聊天相關的事件，例如聊天訊息和檔案下載。 （TblComplianceParticipant 資料表會追蹤參與者事件）。</p>
-<p>（在此資料表中處理事件的伺服器會列于 [tblComplianceFanout] 資料表中）。</p></td>
+<td><p>包含設定的介面卡尚未處理的規範事件。</p>
+<p>此表格包含常設聊天室相關的事件，例如聊天訊息及下載檔案。 （參與者事件追蹤 tblComplianceParticipant 表所列）。</p>
+<p>（處理事件。 此表格中的伺服器會列在 tblComplianceFanout 表格）。</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-tblcompliancefanout.md">Lync Server 2013 中的 tblComplianceFanout</a></p></td>
-<td><p>包含已處理合規性事件的伺服器。 此表格與 tblComplianceData 資料表緊密結合。</p></td>
+<td><p><a href="lync-server-2013-tblcompliancefanout.md">Lync Server 2013 中的 tblcompliancefanout 表格</a></p></td>
+<td><p>包含處理規範事件的伺服器。 此表格緊密結合 tblComplianceData 資料表中。</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-tblcomplianceparticipant.md">Lync Server 2013 中的 tblComplianceParticipant</a></p></td>
-<td><p>包含每個聊天服務和每個伺服器的目前參與者。 它會根據從持久性聊天服務接收到的聯結和元件相容性事件來維護。</p></td>
+<td><p>會包含每個聊天室服務，而每個伺服器的目前參與者。 它會維護根據加入和組件從的常設聊天室服務接收到的規範事件。</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-tblcompliancestate.md">Lync Server 2013 中的 tblComplianceState</a></p></td>
-<td><p>包含全池相容性狀態資訊。</p></td>
+<td><p>會包含整個集區的規範狀態資訊。</p></td>
 </tr>
 </tbody>
 </table>

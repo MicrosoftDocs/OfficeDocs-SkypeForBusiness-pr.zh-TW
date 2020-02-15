@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：設定通訊錄管理的 CsAddressBookConfiguration
+title: 'Lync Server 2013: Set-CsAddressBookConfiguration 適用於通訊錄管理'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183913
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a45d5fb9e8ea6eb4b37c34c5347c37c6c9bfe940
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7897d1441746430310d392456adacc6756f469d0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732363"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046556"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="set-csaddressbookconfiguration-for-address-book-management-in-lync-server-2013"></a>在 Lync Server 2013 中設定通訊錄管理 CsAddressBookConfiguration
+# <a name="set-csaddressbookconfiguration-for-address-book-management-in-lync-server-2013"></a>設定 CsAddressBookConfiguration 適用於 Lync Server 2013 中的 Address Book 管理
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41732363"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-11-01_
+_**主題上次修改日期：** 2012年-11-01_
 
-誰可以執行這個 Cmdlet：根據預設，下列群組的成員有權在本機執行 CsAddressBookConfiguration Cmdlet： RTCUniversalServerAdmins。 若要傳回已指派這個 Cmdlet 的所有角色式存取控制（RBAC）角色的清單（包括您自行建立的任何自訂 RBAC 角色），請在 Windows PowerShell 提示中執行下列命令：
+誰可以執行這個 Cmdlet：根據預設，下列群組的成員已獲得授權，可在本機執行 Set-CsAddressBookConfiguration Cmdlet：RTCUniversalServerAdmins。若要傳回指派給該 Cmdlet 的所有角色型存取控制 (RBAC) 角色清單 (包括您自己建立的任何自訂 RBAC 角色)，請在 Windows PowerShell 提示中輸入下列命令：
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsAddressBookConfiguration"}
 
-CsAddressBookConfiguration 與 CsAddressBookConfiguration Cmdlet 類似，但它是用來修改現有的配置。
+Set-CsAddressBookConfiguration 類似於 New-CsAddressBookConfiguration Cmdlet，但前者是用來修改現有設定。
 
 例如：
 
@@ -52,7 +52,7 @@ CsAddressBookConfiguration 與 CsAddressBookConfiguration Cmdlet 類似，但它
 ## <a name="see-also"></a>請參閱
 
 
-[Set-CsAddressBookConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsAddressBookConfiguration)  
+[Set-csaddressbookconfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsAddressBookConfiguration)  
   
 
 </div>

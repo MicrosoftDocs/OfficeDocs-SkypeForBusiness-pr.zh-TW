@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：新視訊功能
+title: Lync Server 2013： 新的視訊功能
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185355
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 46172b2996905b763f4b646a52c2c0ea95fc30b4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bbff93abc864acee730b0d31cc4b05a84915573f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755867"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048424"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,22 +35,22 @@ ms.locfileid: "41755867"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-08-16_
+_**主題上次修改日期：** 2012年-08-16_
 
-Lync Server 2013 引進了下列新的影片功能：
+Lync Server 2013 引進下列新視訊功能：
 
-  - **HD video**   使用者可以在雙方通話和多方會議中體驗最多 hd 1080p 的解析度。
+  - **HD 視訊**   使用者可以體驗高達 HD 1080p 在雙方通話與多方會議中。
 
-  - ****    在視訊會議中有超過兩個人的 [庫] 視圖，使用者可以在會議中看到參與者的影片。 如果會議有超過五個參與者，則只有最活躍參與者的影片會出現在頂端列中，而其他參與者則會出現相片。
+  - **圖庫檢視**   在視訊會議中，有兩個以上的人員，使用者可以看到參與者的視訊。 如果會議有五個以上的參與者，最活躍的參與者的視訊顯示第一列，並將相片顯示其他參與者。
 
-  - **中的 264 video**   現在，我們是 Lync 2013 用戶端的編碼影片的預設值。 H-p 影片支援更多範圍的解析度和畫面播放速率，並改善影片的可伸縮性。
+  - **H.264 視訊**   H.264 視訊轉碼器現在是編碼影片 Lync 2013 用戶端上的預設值。 H.264 視訊支援更大範圍的解析度和畫面播放速率，並提升了視訊延展性。
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
-[在 Lync Server 2013 中規劃及部署影片](lync-server-2013-planning-and-deploying-video.md)  
+[規劃及部署 Lync Server 2013 中的影片](lync-server-2013-planning-and-deploying-video.md)  
   
 
 </div>

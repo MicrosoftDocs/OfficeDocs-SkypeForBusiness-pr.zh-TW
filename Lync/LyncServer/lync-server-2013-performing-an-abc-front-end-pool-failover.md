@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：執行 ABC 前端池容錯移轉
+title: Lync Server 2013： 執行 ABC 前端集區容錯移轉
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541489
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 155d8224b80e614ac8609c007a16072e9d3a5c60
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9fd0be7bbde714a380473dc8b470437a9fee4cdc
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755273"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050315"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="performing-an-abc-front-end-pool-failover-in-lync-server-2013"></a>在 Lync Server 2013 中執行 ABC 前端池容錯移轉
+# <a name="performing-an-abc-front-end-pool-failover-in-lync-server-2013"></a>在 Lync Server 2013 中執行 ABC 前端集區容錯移轉
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41755273"
 
 <span> </span>
 
-_**主題上次修改日期：** 2013-02-21_
+_**上次修改主題：** 2013年-02-21_
 
-本節中的兩個主題描述在 Lync Server 2013 中執行 ABC 池容錯移轉的程式，其中有成對的 Lync Server 前端池 A 和 B，而 A; 池 A 變為無法還原。 使用此程式，您可以使用新的完整功能變數名稱（FQDN）來建立新的前端池 C。 Pool C 是由來自失敗的池 A 的資訊所構造。此程式也包括將同一個池 B 和 C 配對。
+本節中的兩個主題將說明在 Lync Server 2013 中，執行 ABC 集區容錯移轉程序有 A 和 B 的 Lync Server 前端集區配對且集區 A 變成無法復原。 您可使用此程序，以新的完整的網域名稱 (FQDN) 建立新的前端集區 C。 集區 C 的建構會從失敗的集區 a 中的資訊此程序也包含一起配對集區 B 和 c。
 
-  - [Lync Server 2013 中 ABC 池容錯移轉的備份先決條件](lync-server-2013-backup-prerequisites-for-abc-pool-failover.md)
+  - [Lync Server 2013 中的 ABC 集區容錯移轉備份先決條件](lync-server-2013-backup-prerequisites-for-abc-pool-failover.md)
 
-  - [Lync Server 2013 中的前端集區 ABC 容錯移轉程序](lync-server-2013-front-end-pool-abc-failover-procedure.md)
+  - [前端集區在 Lync Server 2013 中的 ABC 容錯移轉程序](lync-server-2013-front-end-pool-abc-failover-procedure.md)
 
 </div>
 

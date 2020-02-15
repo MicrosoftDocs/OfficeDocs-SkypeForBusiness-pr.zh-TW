@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：部署用戶端和裝置
+title: Lync Server 2013： 部署用戶端和裝置
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185915
 ms.date: 04/03/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 20a28df76c87df01ab39e3c3113c3c4beaa09347
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7e405ef520af5533f89475eeaf53d2fd35eaad87
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729443"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049355"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploying-clients-and-devices-in-lync-server-2013"></a>在 Lync Server 2013 中部署用戶端和裝置
+# <a name="deploying-clients-and-devices-in-lync-server-2013"></a>部署用戶端和 Lync Server 2013 中的裝置
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "41729443"
 
 <span> </span>
 
-_**主題上次修改日期：** 2015-04-03_
+_**主題上次修改日期：** 2015年-04-03_
 
-本節概述部署 Lync Server 2013 用戶端和裝置的程式。
+本節概述部署 Lync Server 2013 用戶端和裝置的程序。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [在 Lync Server 2013 中部署 Lync 用戶端](lync-server-2013-deploying-lync-clients.md)
+  - [部署 Lync Server 2013 中的 Lync 用戶端](lync-server-2013-deploying-lync-clients.md)
 
-  - [透過商務用 Skype 設定用戶端體驗](configure-the-skype-for-business-client-in-lync-server-2013.md)
+  - [設定商務用 Skype 用戶端體驗](configure-the-skype-for-business-client-in-lync-server-2013.md)
 
-  - [在 Lync Server 2013 中部署 Lync VDI 外掛程式](lync-server-2013-deploying-the-lync-vdi-plug-in.md)
+  - [部署 Lync VDI 外掛程式 Lync Server 2013 中](lync-server-2013-deploying-the-lync-vdi-plug-in.md)
 
-  - [在 Lync Server 2013 中部署 Lync Web App](lync-server-2013-deploying-lync-web-app.md)
+  - [部署 Lync Server 2013 中的 Lync Web App](lync-server-2013-deploying-lync-web-app.md)
 
-  - [在 Lync Server 2013 中部署裝置](lync-server-2013-deploying-devices.md)
+  - [部署 Lync Server 2013 中的裝置](lync-server-2013-deploying-devices.md)
 
-  - [在 Lync Server 2013 中部署行動用戶端](lync-server-2013-deploying-mobile-clients.md)
+  - [部署 Lync Server 2013 中的行動用戶端](lync-server-2013-deploying-mobile-clients.md)
 
-  - [在 Lync Server 2013 中部署 Lync Windows Store 應用程式](lync-server-2013-deploying-lync-windows-store-app.md)
+  - [部署 Lync Server 2013 中的 Lync Windows 市集應用程式](lync-server-2013-deploying-lync-windows-store-app.md)
 
  </div>
 

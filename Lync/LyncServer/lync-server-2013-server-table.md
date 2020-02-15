@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：Server 表格
+title: 'Lync Server 2013: Server 表格'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184890
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c1d0cdb5733e6fc6e21d1dcda1fff6214332de6b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b1a400387d88637fc45bcd3342ebbadb2bec6edf
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732413"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049115"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="server-table-in-lync-server-2013"></a>Lync Server 2013 中的 Server 表格
+# <a name="server-table-in-lync-server-2013"></a>Lync Server 2013 中的 server 表格
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41732413"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-02_
+_**主題上次修改日期：** 2012年-10-02_
 
-伺服器資料表是支援資料表。 每個記錄代表一台伺服器。
+伺服器表格是一種支援資料表。 每筆記錄代表一部伺服器。
 
 
 <table>
@@ -49,9 +49,9 @@ _**主題上次修改日期：** 2012-10-02_
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>左欄</strong></th>
+<th><strong>欄</strong></th>
 <th><strong>資料類型</strong></th>
-<th><strong>索引鍵/索引</strong></th>
+<th><strong>主索引鍵 /</strong></th>
 <th><strong>詳細資料</strong></th>
 </tr>
 </thead>
@@ -59,33 +59,33 @@ _**主題上次修改日期：** 2012-10-02_
 <tr class="odd">
 <td><p><strong>ServerKey</strong></p></td>
 <td><p>int</p></td>
-<td><p>首選</p></td>
+<td><p>主要</p></td>
 <td><p>識別伺服器的唯一號碼。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>FQDNOrIP</strong></p></td>
-<td><p>Nvarchar （256）</p></td>
+<td><p>nvarchar(256)</p></td>
 <td><p>index</p></td>
 <td><p>MAC 位址字串。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ServerType</strong></p></td>
 <td><p>int</p></td>
-<td><p>外</p></td>
-<td><p>1：中繼伺服器</p>
-<p>2： a/V 會議 Server16394： A/V 邊緣 service32769：閘道</p></td>
+<td><p>Foreign</p></td>
+<td><p>1： 中繼伺服器</p>
+<p>2: A / V Conferencing Server16394: A / V Edge service32769: Gateway</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>PoolName</strong></p></td>
-<td><p>Nvarchar （512）</p></td>
+<td><p>nvarchar(512)</p></td>
 <td></td>
-<td><p>伺服器所屬的池。 僅適用于 A/V 會議伺服器。</p></td>
+<td><p>伺服器所屬的集區。 僅適用於 A / V 會議伺服器。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>NextUpdateTS</strong></p></td>
 <td><p>datetime</p></td>
 <td></td>
-<td><p>僅供內部使用。</p></td>
+<td><p>僅限內部使用。</p></td>
 </tr>
 </tbody>
 </table>

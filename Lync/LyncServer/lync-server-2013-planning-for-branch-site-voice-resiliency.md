@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：規劃分支網站語音彈性
+title: Lync Server 2013： 規劃分支網站語音恢復能力
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184351
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 004790da7562374284e11e28c6e89836a924f654
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 310197cac1f7d75d84cc7c978f9aa7a6f6c66dc9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41754753"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050745"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-branch-site-voice-resiliency-in-lync-server-2013"></a>在 Lync Server 2013 中規劃分支網站語音彈性
+# <a name="planning-for-branch-site-voice-resiliency-in-lync-server-2013"></a>規劃 Lync Server 2013 中的分支網站語音彈性
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "41754753"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-09-21_
+_**主題上次修改日期：** 2012年-09-21_
 
-如果您想要提供分支網站復原功能（也就是高可用性企業語音服務），您有三個選項可以執行此動作：
+如果您想要提供分支網站恢復能力，也就是高可用性企業語音服務，您有三個選項這麼做：
 
-  - Survivable 分支裝置
+  - Survivable Branch Appliance
 
-  - Survivable 分支伺服器
+  - Survivable Branch Server
 
-  - 分支網站上的完整 Lync Server 部署
+  - 完整的 Lync Server 部署在分支網站
 
-本指南將協助您評估最適合貴組織的復原方案，以及根據您的復原方案（要使用哪一種 PSTN 連接解決方案）。 它也會協助您準備部署您選擇的解決方案，方法是描述先決條件及其他規劃考慮。
+此指南會協助您評估最適合您組織的恢復能力解決方案，以及根據恢復能力解決方案，評估要使用的 PSTN 連線解決方案。也會協助您說明先決條件及其他規劃考量，以準備部署選擇的解決方案。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [Lync Server 2013 中的分支網站彈性功能](lync-server-2013-branch-site-resiliency-features.md)
+  - [Lync Server 2013 中的分支網站恢復功能](lync-server-2013-branch-site-resiliency-features.md)
 
   - [Lync Server 2013 中的分支網站恢復解決方案](lync-server-2013-branch-site-resiliency-solutions.md)
 
-  - [Lync Server 2013 的分支網站復原需求](lync-server-2013-branch-site-resiliency-requirements.md)
+  - [Lync Server 2013 的分支網站恢復能力需求](lync-server-2013-branch-site-resiliency-requirements.md)
 
 </div>
 

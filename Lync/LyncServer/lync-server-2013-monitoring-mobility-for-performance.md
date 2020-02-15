@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：監視行動性以提高效能
+title: Lync Server 2013： 監控行動性效能
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184908
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 53bd9c3450617d4fd1db54b52efe0b0938c84c8b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 131a6a4dd6fffb3081ff2b1dee58318afd525eaa
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756817"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048036"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="monitoring-mobility-for-performance-in-lync-server-2013"></a>在 Lync Server 2013 中監控行動能力以提高效能
+# <a name="monitoring-mobility-for-performance-in-lync-server-2013"></a>Lync Server 2013 的效能監控行動性
 
 </div>
 
@@ -35,33 +35,33 @@ ms.locfileid: "41756817"
 
 <span> </span>
 
-_**主題上次修改日期：** 2013-02-14_
+_**上次修改主題：** 2013年-02-14_
 
-Lync Server 行動服務（Mcx）和整合通訊網頁 API （UCWA）會增加前端伺服器和前端池的負載。 即使在行動應用程式已最小化（例如 Android 2010 和執行 Lync 2013 Mobile 的 Apple 裝置，以及執行 Lync 行動裝置的 Android 和 Apple 裝置等），仍會維持伺服器連線的行動裝置，以及執行 Lync 行動裝置的 Android 和 Apple 裝置所強加的負載比當行動應用程式最小化時，中斷與伺服器的連線。 隨著行動使用量的增加，您必須監視行動效能，以判斷何時需要增加您的容量。
+Lync Server 行動性服務 (Mcx) 和 Unified Communications Web API (UCWA) 增加前端伺服器和前端集區上的負載。 維護伺服器的連線，即使當行動應用程式最小化，例如 Android 和 Nokia 裝置執行 Lync 2010 Mobile，以及執行 Lync 2013 行動、 Android 和 Apple 裝置的行動裝置加諸更大的負載，比裝置，當行動應用程式最小化時，終止其連線至伺服器。 當您行動性使用情況增加時，您必須監視行動效能，以決定當您需要增加容量。
 
-數個限制會影響行動效能：
+有多個限制會影響行動效能：
 
-  - 可用記憶體
+  - 可用的記憶體
 
   - 要求佇列限制
 
-  - 併發連接
+  - 並行連線
 
   - IIS 佇列長度
 
-可能影響行動效能之伺服器的其他限制，最多可以有十二個併發登入、驗證、會話重新啟用和終止。 對於大部分的部署而言，不需要修改這些最大的。
+其他可能會影響行動效能的伺服器上的限制是最多 12 個並行登入、 驗證、 工作階段續訂和終止。 若要修改大部分的部署不需要這些最大值。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [監視 Lync Server 2013 中的伺服器記憶體容量限制](lync-server-2013-monitoring-for-server-memory-capacity-limits.md)
+  - [監控的 Lync Server 2013 中的伺服器記憶體容量限制](lync-server-2013-monitoring-for-server-memory-capacity-limits.md)
 
-  - [在 Lync Server 2013 中監控行動服務與 UCWA 使用量](lync-server-2013-monitoring-mobility-service-and-ucwa-usage.md)
+  - [監控 Mobility Service 和 ucwa 的參考 Lync Server 2013 中的使用狀況](lync-server-2013-monitoring-mobility-service-and-ucwa-usage.md)
 
-  - [在 Lync Server 2013 中設定行動服務以取得高效能](lync-server-2013-configuring-mobility-service-for-high-performance.md)
+  - [設定 Lync Server 2013 中的高效能的 Mobility Service](lync-server-2013-configuring-mobility-service-for-high-performance.md)
 
-  - [在 Lync Server 2013 中監視 IIS 要求追蹤記錄檔](lync-server-2013-monitoring-iis-request-tracing-log-files.md)
+  - [監控 IIS 要求在 Lync Server 2013 中的追蹤記錄檔](lync-server-2013-monitoring-iis-request-tracing-log-files.md)
 
   - [Lync Server 2013 中的行動效能計數器](lync-server-2013-mobility-performance-counters.md)
 

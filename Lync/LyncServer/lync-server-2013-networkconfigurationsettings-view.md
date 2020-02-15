@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： NetworkConfigurationSettings view
+title: 'Lync Server 2013: NetworkConfigurationSettings 檢視'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733591
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2cd85ae37b317368a1d79ed46fd3752b6a475bd5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 28ca71086b888a522869e2b273299a73df5e9cc8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765864"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050535"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="networkconfigurationsettings-view-in-lync-server-2013"></a>Lync Server 2013 中的 [NetworkConfigurationSettings] 視圖
+# <a name="networkconfigurationsettings-view-in-lync-server-2013"></a>Lync Server 2013 中的 NetworkConfigurationSettings 檢視
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41765864"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-03_
+_**主題上次修改日期：** 2012年-10-03_
 
-[NetworkConfigurationSettings] 視圖儲存網路設定的相關資訊。 此視圖已在 Microsoft Lync Server 2013 中推出。
+NetworkConfigurationSettings 檢視儲存了網路組態的資訊。 Microsoft Lync Server 2013 中已採用此檢視。
 
 
 <table>
@@ -48,7 +48,7 @@ _**主題上次修改日期：** 2012-10-03_
 </colgroup>
 <thead>
 <tr class="header">
-<th>左欄</th>
+<th>欄</th>
 <th>資料類型</th>
 <th>詳細資料</th>
 </tr>
@@ -57,16 +57,16 @@ _**主題上次修改日期：** 2012-10-03_
 <tr class="odd">
 <td><p>SubnetIP</p></td>
 <td><p>int</p></td>
-<td><p>子網 IP 位址（僅支援 IPv4 位址）。</p></td>
+<td><p>子網路 IP 位址 (僅支援 IPv4 位址)。</p></td>
 </tr>
 <tr class="even">
 <td><p>UserSiteName</p></td>
-<td><p>Nvarchar</p></td>
+<td><p>nvarchar(128)</p></td>
 <td><p>使用者的網站名稱。</p></td>
 </tr>
 <tr class="odd">
 <td><p>RegionName</p></td>
-<td><p>Nvarchar</p></td>
+<td><p>nvarchar(128)</p></td>
 <td><p>使用者的國家/地區名稱。</p></td>
 </tr>
 </tbody>

@@ -12,16 +12,16 @@ ms:contentKeyID: 48185505
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 416da390f277dfc7179a45e0b1dc989b240ab394
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 32185d1f6124109bd957b0af4440ee054e872f54
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757157"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048277"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41757157"
 
 <span> </span>
 
-_**主題上次修改日期：** 2013-02-21_
+_**上次修改主題：** 2013年-02-21_
 
-若要建立新的持續聊天伺服器機房
+若要建立新的常設聊天室伺服器室
 
     New-CsPersistentChatRoom -Name Foo1 -PersistentChatPoolFqdn client.contoso.com -Category client.contoso.com\Foo [other parameters]
 
@@ -45,40 +45,40 @@ _**主題上次修改日期：** 2013-02-21_
 
 
 > [!IMPORTANT]  
-> -如果下列其中一項為 true，則不需要 PersistentChatPoolFqdn： 
+> 下列其中一項，則為 true 時，就不需要-PersistentChatPoolFqdn: 
 > <UL>
 > <LI>
-> <P>只有一個持續聊天伺服器池。</P>
+> <P>沒有只有一個 Persistent Chat Server 集區。</P>
 > <LI>
-> <P>您可以將池 FQDN 提供給類別。</P>
+> <P>您提供該類別的集區 FQDN。</P>
 > <LI>
-> <P>您提供一個 [池 FQDN] 來新增聊天室。</P></LI></UL>
+> <P>您提供一個集區 FQDN 來新增聊天室。</P></LI></UL>
 
 
 
 </div>
 
-變更現有的持續聊天伺服器機房
+若要變更現有的常設聊天室伺服器室
 
     Set-CsPersistentChatRoom -Identity testCat -Members @{Add="sip:user1@contoso.com", "CN=container,DC=contoso,DC=com"}
     Set-CsPersistentChatRoom -Identity testCat -Managers @{Add="sip:user2@contoso.com"}
     Set-CsPersistentChatRoom -Identity testCat -Presenters @{Add="sip:user1@contoso.com"}
 
-Windows PowerShell：可以同時設定成員、管理員與簡報者。 它們都應該是主機類別的 AllowedMembers 減去 DeniedMembers 子集。 類型 = normal 的聊天室不能包含簡報者。
+Windows PowerShell： 成員、 主管和簡報者可以同時設定。 它們都應該 AllowedMembers 減 DeniedMembers 主應用程式] 類別的子集。 是類型會議室 = 一般不能包括簡報者。
 
 <div>
 
-## <a name="create-get-set-clear-or-remove-a-room"></a>建立、取得、設定、清除或移除聊天室
+## <a name="create-get-set-clear-or-remove-a-room"></a>建立、 取得、 設定、 清除，或移除聊天室
 
-若要建立新的聊天室
+若要建立新聊天室
 
     New-CsPersistentChatRoom -Name <String> [-PersistentChatPoolFqdn <String>]-Category <String> [-Description <String>] [-Disabled <Switch Parameter>] [-Type <Normal | Auditorium>] [-AddIn <String>] [-Privacy <ChatRoomPrivacy> {Open | Closed | Secret}] [-Invitations <Switch Parameter>]
 
-若要設定會議室
+設定聊天室
 
     Set-CsPersistentChatRoom -Identity <String> [-Name <String>] [-Category <String>] [-Description <String>] [-Disabled <boolean>] [-Type <Normal | Auditorium>] [-AddIn <String>] [-Privacy <ChatRoomPrivacy> {Open | Closed | Secret}] [-Invitations <Enum>] [-Members <PSListModifier<String>>] [-Managers <PSListModifier<String>>] [-Presenters <PSListModifier<String>>] [-Force < Switch Parameter >] [-Confirm <Switch Parameter>][-WhatIf <Switch Parameter>]
 
-取得聊天室
+若要取得聊天室
 
     Get-CsPersistentChatRoom -Identity <String>
 
@@ -86,9 +86,9 @@ Windows PowerShell：可以同時設定成員、管理員與簡報者。 它們�
 
     Get-CsPersistentChatRoom -filter <String> [-PersistentChatPoolFqdn <String>] [-SearchDescription] [-Member <String>] [-Manager <string>] [-Category <string>] [-Addin <string>] [-Disabled <bool>] [-Privacy <ChatRoomPrivacy> {Open | Closed | Secret}] [-Type <ChatRoomType> {Normal | Auditorium}] [-Invitations <ChatRoomInvitations> {False | Inherit}] [-ChatContentExceedsMB <int>] [-ResultSize <int>]
 
-where –篩選只支援名稱和描述，並可協助您尋找名稱/描述項合關鍵字字串的聊天室。 PoolFqdn 在指定的持續聊天伺服器池中搜尋。
+其中 – 篩選器支援僅名稱和描述，幫助您尋找會議室其名稱/描述比對的關鍵字字串。 PoolFqdn 搜尋特定的 Persistent Chat Server 集區中。
 
-清除聊天室並清除聊天室中的訊息
+若要清除聊天室和清除聊天室的訊息
 
     Clear-CsPersistentChatRoom [-Identity] <string> -EndDate <DateTime> [-WhatIf] [-Confirm]  [<CommonParameters>]
 
@@ -96,7 +96,7 @@ where –篩選只支援名稱和描述，並可協助您尋找名稱/描述項�
 
     Clear-CsPersistentChatRoom [-Instance] <ChatRoomObject> -EndDate <DateTime> [-WhatIf] [-Confirm] [<CommonParameters>]
 
-移除會議室
+若要移除聊天室
 
     Remove-CsPersistentChatRoom [-Identity] <string> [-Force] [-WhatIf] [-Confirm]  [<CommonParameters>]
 

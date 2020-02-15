@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：（選用）驗證回應群組部署
+title: 'Lync Server 2013: （選用） 確認回應群組部署'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733579
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 065a48aedf1b093358193d0c8afbd12b44653025
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b5b99d5d2f1800a4d7d16b1d3fdf4d0aab213fd0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755677"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045545"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="optional-verify-response-group-deployment-in-lync-server-2013"></a>可選在 Lync Server 2013 中驗證回應群組部署
+# <a name="optional-verify-response-group-deployment-in-lync-server-2013"></a>（選用）Lync Server 2013 中驗證回應群組部署
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41755677"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-09-11_
+_**主題上次修改日期：** 2012年-09-11_
 
-在您設定回應群組之後，您必須驗證設定，以確保您的回應群組如期運作。 至少，您可以使用下列類型的使用者來驗證下列案例：
+設定回應群組之後，您必須確認組態，確定您的回應群組如預期般運作。 在最低限度下，使用下列類型的使用者驗證下列案例：
 
-**使用者**
+**Users**
 
-  - 在 Lync Server 2013 上託管的使用者
+  - 使用者隸屬於 Lync Server 2013
 
-  - 使用公用交換電話網絡（PSTN）的外部使用者
+  - 使用公用交換的電話網路 (PSTN) 外部使用者
 
-  - 在 Lync Server 2013 上託管的代理程式
+  - 在 Lync Server 2013 位於代理程式
 
-**案例**
+**Scenarios**
 
-  - Lync Server 2013 使用者會呼叫回應群組。
+  - Lync Server 2013 使用者呼叫回應群組。
 
   - 外部使用者呼叫回應群組。
 
-  - 當代理程式位於另一個通話中並移至佇列時，使用者會呼叫回應群組。
+  - 當專員在接聽另一通電話而排入佇列時，使用者呼叫回應群組。
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: CsAddressBookConfiguration 網址簿管理的 [移除]
+title: 移除 CsAddressBookConfiguration 適用於通訊錄管理
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184258
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de016366fe888a159a449f7840a0f6dca03c7075
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d87010bc17fb400edb861c8e6ea55a40ad50c7fd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724253"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048724"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="remove-csaddressbookconfiguration-for-address-book-management-in-lync-server-2013"></a>在 Lync Server 2013 中移除通訊錄管理的 CsAddressBookConfiguration
+# <a name="remove-csaddressbookconfiguration-for-address-book-management-in-lync-server-2013"></a>移除 CsAddressBookConfiguration 適用於 Lync Server 2013 中的 Address Book 管理
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41724253"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-11-01_
+_**主題上次修改日期：** 2012年-11-01_
 
-誰可以執行這個 Cmdlet：根據預設，下列群組的成員有權在本機執行移除 CsAddressBookConfiguration Cmdlet： RTCUniversalServerAdmins。 若要傳回已指派這個 Cmdlet 的所有角色式存取控制（RBAC）角色的清單（包括您自行建立的任何自訂 RBAC 角色），請在 Windows PowerShell 提示中執行下列命令：
+誰可以執行這個 Cmdlet：根據預設，會授權下列群組的成員在本機執行 Remove-CsAddressBookConfiguration Cmdlet：RTCUniversalServerAdmins。若要傳回指派給該 Cmdlet 的所有角色型存取控制 (RBAC) 角色清單 (包括您自己建立的任何自訂 RBAC 角色)，請在 Windows PowerShell 提示中輸入下列命令：
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Remove-CsAddressBookConfiguration"}
 
-如名稱所示，Remove-CsAddressBookConfiguration 會根據定義的網站身分識別來移除設定。
+Remove-CsAddressBookConfiguration 會名符其實地依據定義的 Site Identity 移除組態。
 
 例如：
 
@@ -52,7 +52,7 @@ _**主題上次修改日期：** 2012-11-01_
 ## <a name="see-also"></a>請參閱
 
 
-[移除-CsAddressBookConfiguration](https://technet.microsoft.com/en-us/library/Gg398934(v=OCS.15))  
+[Remove-csaddressbookconfiguration](https://technet.microsoft.com/library/Gg398934(v=OCS.15))  
   
 
 </div>

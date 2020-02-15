@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：tblPrincipal
+title: 'Lync Server 2013: tblPrincipal'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184571
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 25de9273fb6e153bb154bf0062edd96cb67bbac2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b9d5122b375b4906320f254179ce101652ad6db2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731533"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047996"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41731533"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-09-12_
+_**主題上次修改日期：** 2012年-09-12_
 
-tblPrincipal 包含所有的承擔者，包括使用者、資料夾和群組。
+tblPrincipal 包含所有主體，包括使用者、資料夾及群組。
 
-### <a name="columns"></a>分欄
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -49,80 +49,80 @@ tblPrincipal 包含所有的承擔者，包括使用者、資料夾和群組。
 </colgroup>
 <thead>
 <tr class="header">
-<th>左欄</th>
-<th>類型</th>
-<th>說明</th>
+<th>欄</th>
+<th>類型	</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>prinID</p></td>
-<td><p>int，not null</p></td>
-<td><p>Principal ID。</p></td>
+<td><p>int，非 null</p></td>
+<td><p>主體識別碼。</p></td>
 </tr>
 <tr class="even">
 <td><p>prinGuid</p></td>
-<td><p>GUID，不是 null</p></td>
-<td><p>主要 GUID。 這會被廣泛用做為備用主鍵，因為它的意義是要與 Active Directory 網域服務空間相交。 （快取的主體的 GUID 等於對應的 Active Directory 物件 GUID。）</p></td>
+<td><p>GUID，非 null</p></td>
+<td><p>主體 GUID。 這是廣泛用來作為替代的主索引鍵因為其意義透過跨越到 Active Directory 網域服務空間。 （如快取的主體 GUID 是等於相對應的 Active Directory 物件的 GUID）。</p></td>
 </tr>
 <tr class="odd">
 <td><p>prinUri</p></td>
-<td><p>Nvarchar （256），not null</p></td>
-<td><p>主體 URI。 SIP 配置適用于使用者，而 ma grp 則用於幾乎所有其他專案。</p></td>
+<td><p>nvarchar (256)，非 null</p></td>
+<td><p>主體 URI。SIP 配置可用於使用者，而 ma-grp 幾乎可用於其他所有項目。</p></td>
 </tr>
 <tr class="even">
 <td><p>prinName</p></td>
-<td><p>Nvarchar （256）</p></td>
-<td><p>通用名稱。 僅供使用者類型使用。</p></td>
+<td><p>nvarchar(256)</p></td>
+<td><p>一般名稱。僅可用於使用者類型。</p></td>
 </tr>
 <tr class="odd">
 <td><p>prinDisplayName</p></td>
-<td><p>NVarchar （256）</p></td>
-<td><p>顯示名稱。 僅供使用者類型使用。</p></td>
+<td><p>Nvarchar (256)</p></td>
+<td><p>顯示名稱。僅可用於使用者類型。</p></td>
 </tr>
 <tr class="even">
 <td><p>prinCompanyName</p></td>
-<td><p>Nvarchar （256）</p></td>
-<td><p>[公司名稱]。 僅供使用者類型使用。</p></td>
+<td><p>nvarchar(256)</p></td>
+<td><p>公司名稱。僅可用於使用者類型。</p></td>
 </tr>
 <tr class="odd">
 <td><p>prinEmail</p></td>
-<td><p>Nvarchar （256）</p></td>
-<td><p>電子郵件。 僅供使用者類型使用。</p></td>
+<td><p>nvarchar(256)</p></td>
+<td><p>電子郵件。僅可用於使用者類型。</p></td>
 </tr>
 <tr class="even">
 <td><p>prinADPath</p></td>
-<td><p>Nvarchar （384）</p></td>
-<td><p>Principal 是其快取版本之 Active Directory 物件的功能變數名稱。 對於非 Active Directory 物件（例如系統使用者）的類型，可以是 Null。</p></td>
+<td><p>nvarchar (384)</p></td>
+<td><p>Active Directory 物件 (主體為快取版本) 的網域名稱。非 Active Directory 物件的類型可以是 Null (例如系統使用者)。</p></td>
 </tr>
 <tr class="odd">
 <td><p>prinADUserPrincipalName</p></td>
-<td><p>Nvarchar （256）</p></td>
-<td><p>使用者的使用者主體名稱（UPN）。 只能由一般的使用者類型使用。</p></td>
+<td><p>nvarchar(256)</p></td>
+<td><p>使用者的使用者主體名稱 (UPN)。僅可用於一般使用者類型。</p></td>
 </tr>
 <tr class="even">
 <td><p>prinDisabled</p></td>
-<td><p>Smallint，not null</p></td>
+<td><p>smallint，非 null</p></td>
 <td><ul>
-<li><p>0：主體處於作用中狀態。</p></li>
+<li><p>0：主體為作用中狀態。</p></li>
 <li><p>1：主體已停用，因為使用者的 SIP 功能已停用。</p></li>
-<li><p>2：由於相關聯的 AD 物件已遭刪除，主體會被刪除。</p></li>
+<li><p>2：主體已刪除，因為相關聯的 AD 物件已刪除。</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td><p>prinTypeID</p></td>
-<td><p>Smallint，not null</p></td>
-<td><p>主體類型（從 tblPrincipalType 資料表）。</p></td>
+<td><p>smallint，非 null</p></td>
+<td><p>主體類型 (參照 tblPrincipalType 表格)。</p></td>
 </tr>
 <tr class="even">
 <td><p>prinPoolID</p></td>
-<td><p>Int</p></td>
-<td><p>主體的 Lync pool 分派。</p></td>
+<td><p>臨界值</p></td>
+<td><p>主體的 Lync 集區指派。</p></td>
 </tr>
 <tr class="odd">
 <td><p>prinPolicyID</p></td>
-<td><p>Int</p></td>
-<td><p>使用者的持續聊天伺服器原則值（如果有標籤類型原則的話）。</p></td>
+<td><p>臨界值</p></td>
+<td><p>對於使用者來說，如果出現標記類型原則的常設聊天室伺服器原則值。</p></td>
 </tr>
 <tr class="even">
 <td><p>prinAddedBy</p></td>
@@ -131,29 +131,29 @@ tblPrincipal 包含所有的承擔者，包括使用者、資料夾和群組。
 </tr>
 <tr class="odd">
 <td><p>prinAddedOn</p></td>
-<td><p>Bigint，not null</p></td>
+<td><p>bigint，非 null</p></td>
 <td><p>建立時間的時間戳記。</p></td>
 </tr>
 <tr class="even">
 <td><p>prinUpdatedBy</p></td>
 <td><p>int</p></td>
-<td><p>上次更新此原則的主要使用者識別碼。</p></td>
+<td><p>最近一次進行更新之主體的識別碼。</p></td>
 </tr>
 <tr class="odd">
 <td><p>prinUpdatedOn</p></td>
-<td><p>Bigint，not null</p></td>
-<td><p>上次更新的時間戳記。</p></td>
+<td><p>bigint，非 null</p></td>
+<td><p>最近一次更新的時間戳記。</p></td>
 </tr>
 <tr class="even">
 <td><p>prinVerifiedOn</p></td>
-<td><p>datetime、not null</p></td>
-<td><p>主體上次 Active Directory 同步處理的日期和時間。</p></td>
+<td><p>datetime，非 null</p></td>
+<td><p>最近一次主體之 Active Directory Sync 重新整理的日期與時間。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a>鍵
+### <a name="keys"></a>索引鍵
 
 <table>
 <colgroup>
@@ -162,18 +162,18 @@ tblPrincipal 包含所有的承擔者，包括使用者、資料夾和群組。
 </colgroup>
 <thead>
 <tr class="header">
-<th>左欄</th>
-<th>說明</th>
+<th>欄</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>prinID</p></td>
-<td><p>主鍵。</p></td>
+<td><p>主索引鍵。</p></td>
 </tr>
 <tr class="even">
 <td><p>prinTypeID</p></td>
-<td><p>在 tblPrincipalType ptypeID 資料表中使用 [查閱] 的外鍵。</p></td>
+<td><p>在 tblPrincipalType.ptypeID 表格中查閱外部索引鍵。</p></td>
 </tr>
 </tbody>
 </table>
