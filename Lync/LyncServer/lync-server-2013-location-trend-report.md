@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：位置趨勢報告
+title: Lync Server 2013： 位置趨勢報告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184280
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 26f825a33eeb90817685c1694a5c6579110ffcd6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e74cf4e763272f2309e358120abb12b0424aa40b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762141"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030937"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="location-trend-report-in-lync-server-2013"></a><span data-ttu-id="51dee-102">Lync Server 2013 中的位置趨勢報告</span><span class="sxs-lookup"><span data-stu-id="51dee-102">Location Trend Report in Lync Server 2013</span></span>
+# <a name="location-trend-report-in-lync-server-2013"></a><span data-ttu-id="f3520-102">Lync Server 2013 中的位置趨勢報告</span><span class="sxs-lookup"><span data-stu-id="f3520-102">Location Trend Report in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41762141"
 
 <span> </span>
 
-<span data-ttu-id="51dee-103">_**主題上次修改日期：** 2012-06-06_</span><span class="sxs-lookup"><span data-stu-id="51dee-103">_**Topic Last Modified:** 2012-06-06_</span></span>
+<span data-ttu-id="f3520-103">_**主題上次修改日期：** 2012年-06-06_</span><span class="sxs-lookup"><span data-stu-id="f3520-103">_**Topic Last Modified:** 2012-06-06_</span></span>
 
-<span data-ttu-id="51dee-104">[位置趨勢] 報告可提供網路位置的通話品質趨勢資訊。</span><span class="sxs-lookup"><span data-stu-id="51dee-104">The Location Trend Report provides call quality trend information for network locations.</span></span>
+<span data-ttu-id="f3520-104">位置趨勢報告提供網路位置的通話品質趨勢資訊。</span><span class="sxs-lookup"><span data-stu-id="f3520-104">The Location Trend Report provides call quality trend information for network locations.</span></span>
 
 <div>
 
-## <a name="filters"></a><span data-ttu-id="51dee-105">濾鏡</span><span class="sxs-lookup"><span data-stu-id="51dee-105">Filters</span></span>
+## <a name="filters"></a><span data-ttu-id="f3520-105">篩選</span><span class="sxs-lookup"><span data-stu-id="f3520-105">Filters</span></span>
 
-<span data-ttu-id="51dee-106">篩選提供一種方式，可讓您傳回更精細設定目標的資料集，或以不同方式查看傳回的資料。</span><span class="sxs-lookup"><span data-stu-id="51dee-106">Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways.</span></span> <span data-ttu-id="51dee-107">例如，[位置趨勢] 報告可讓您篩選傳回的資料，例如存取類型（也就是間隔存取與外部存取）或有線/無線網路連線等專案。</span><span class="sxs-lookup"><span data-stu-id="51dee-107">For example, the Location Trend Report enables you to filter the returned data by such things as access type (that is, interval access vs. external access) or by wired/wireless network connection.</span></span> <span data-ttu-id="51dee-108">您也可以選擇分組資料的方式。</span><span class="sxs-lookup"><span data-stu-id="51dee-108">You can also choose how data should be grouped.</span></span> <span data-ttu-id="51dee-109">在這種情況下，通話會依小時、天或周分組。</span><span class="sxs-lookup"><span data-stu-id="51dee-109">In this case, calls are grouped by hour, day, or week.</span></span>
+<span data-ttu-id="f3520-p101">篩選器可以讓您傳回更精確的資料集或者以不同方法檢視傳回的資料。例如，位置趨勢報告可以讓您依據存取類型 (也就是指內部存取和外部存取) 或者按照有線/無線網路連線來篩選傳回的資料。您也可以選擇資料的分組方式。在這種情況下，通話會按照小時、天或星期加以分組。</span><span class="sxs-lookup"><span data-stu-id="f3520-p101">Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways. For example, the Location Trend Report enables you to filter the returned data by such things as access type (that is, interval access vs. external access) or by wired/wireless network connection. You can also choose how data should be grouped. In this case, calls are grouped by hour, day, or week.</span></span>
 
-<span data-ttu-id="51dee-110">下表列出可與 [位置趨勢] 報表搭配使用的篩選。</span><span class="sxs-lookup"><span data-stu-id="51dee-110">The following table lists the filters that you can use with the Location Trend Report.</span></span>
+<span data-ttu-id="f3520-110">下表列出您可以搭配位置趨勢報告的篩選器。</span><span class="sxs-lookup"><span data-stu-id="f3520-110">The following table lists the filters that you can use with the Location Trend Report.</span></span>
 
-### <a name="location-trend-report-filters"></a><span data-ttu-id="51dee-111">位置趨勢報表篩選</span><span class="sxs-lookup"><span data-stu-id="51dee-111">Location Trend Report Filters</span></span>
+### <a name="location-trend-report-filters"></a><span data-ttu-id="f3520-111">位置趨勢報告篩選器</span><span class="sxs-lookup"><span data-stu-id="f3520-111">Location Trend Report Filters</span></span>
 
 <table>
 <colgroup>
@@ -56,66 +56,66 @@ ms.locfileid: "41762141"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="51dee-112">名稱</span><span class="sxs-lookup"><span data-stu-id="51dee-112">Name</span></span></th>
-<th><span data-ttu-id="51dee-113">說明</span><span class="sxs-lookup"><span data-stu-id="51dee-113">Description</span></span></th>
+<th><span data-ttu-id="f3520-112">名稱</span><span class="sxs-lookup"><span data-stu-id="f3520-112">Name</span></span></th>
+<th><span data-ttu-id="f3520-113">描述</span><span class="sxs-lookup"><span data-stu-id="f3520-113">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="51dee-114"><strong>從</strong></span><span class="sxs-lookup"><span data-stu-id="51dee-114"><strong>From</strong></span></span></p></td>
-<td><p><span data-ttu-id="51dee-115">時間範圍的開始日期/時間。</span><span class="sxs-lookup"><span data-stu-id="51dee-115">Start date/time for the time range.</span></span> <span data-ttu-id="51dee-116">若要依時間查看資料，請輸入 [開始日期] 和 [時間]，如下所示：</span><span class="sxs-lookup"><span data-stu-id="51dee-116">To view data by hours, enter both the start date and time as follows:</span></span></p>
-<p><span data-ttu-id="51dee-117">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="51dee-117">7/7/2012 1:00 PM</span></span></p>
-<p><span data-ttu-id="51dee-118">如果您沒有輸入開始時間，報告會在指定日期自動于12:00 點開始。</span><span class="sxs-lookup"><span data-stu-id="51dee-118">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day.</span></span> <span data-ttu-id="51dee-119">若要依天查看資料，只需輸入日期：</span><span class="sxs-lookup"><span data-stu-id="51dee-119">To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="51dee-120">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="51dee-120">7/7/2012</span></span></p>
-<p><span data-ttu-id="51dee-121">若要依周或依月查看，請在您要查看的周或月份中，輸入您要查看的日期（不需要輸入周或月的第一天）：</span><span class="sxs-lookup"><span data-stu-id="51dee-121">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="51dee-122">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="51dee-122">7/3/2012</span></span></p>
-<p><span data-ttu-id="51dee-123">周數總是從星期日到星期六執行。</span><span class="sxs-lookup"><span data-stu-id="51dee-123">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="f3520-114"><strong>From</strong></span><span class="sxs-lookup"><span data-stu-id="f3520-114"><strong>From</strong></span></span></p></td>
+<td><p><span data-ttu-id="f3520-p102">時間範圍的開始日期/時間。若要按照小時檢視資料，請輸入開始日期和時間，如下所示：</span><span class="sxs-lookup"><span data-stu-id="f3520-p102">Start date/time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
+<p><span data-ttu-id="f3520-117">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="f3520-117">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="f3520-p103">如果您未輸入開始時間，報告會自動從指定日期凌晨 12 點開始。若要按照日期檢視資料，只要輸入日期即可：</span><span class="sxs-lookup"><span data-stu-id="f3520-p103">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="f3520-120">2012/7/7</span><span class="sxs-lookup"><span data-stu-id="f3520-120">7/7/2012</span></span></p>
+<p><span data-ttu-id="f3520-121">若要按星期或月份檢視，請輸入當週或該月您想檢視的日期 (您不必輸入當週或該月的第一天)：</span><span class="sxs-lookup"><span data-stu-id="f3520-121">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="f3520-122">2012/7/3</span><span class="sxs-lookup"><span data-stu-id="f3520-122">7/3/2012</span></span></p>
+<p><span data-ttu-id="f3520-123">星期永遠是從星期日開始星期六結束。</span><span class="sxs-lookup"><span data-stu-id="f3520-123">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="51dee-124"><strong>自</strong></span><span class="sxs-lookup"><span data-stu-id="51dee-124"><strong>To</strong></span></span></p></td>
-<td><p><span data-ttu-id="51dee-125">時間範圍的結束日期/時間。</span><span class="sxs-lookup"><span data-stu-id="51dee-125">End date/time for the time range.</span></span> <span data-ttu-id="51dee-126">若要依時間查看資料，請輸入 [結束日期] 和 [時間]，如下所示：</span><span class="sxs-lookup"><span data-stu-id="51dee-126">To view data by hours, enter both the end date and time as follows:</span></span></p>
-<p><span data-ttu-id="51dee-127">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="51dee-127">7/7/2012 1:00 PM</span></span></p>
-<p><span data-ttu-id="51dee-128">如果您沒有輸入結束時間，報告會在指定日期自動結束于12:00。</span><span class="sxs-lookup"><span data-stu-id="51dee-128">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day.</span></span> <span data-ttu-id="51dee-129">若要依天查看資料，只需輸入日期：</span><span class="sxs-lookup"><span data-stu-id="51dee-129">To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="51dee-130">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="51dee-130">7/7/2012</span></span></p>
-<p><span data-ttu-id="51dee-131">若要依周或依月查看，請在您要查看的周或月份中，輸入您要查看的日期（不需要輸入周或月的第一天）：</span><span class="sxs-lookup"><span data-stu-id="51dee-131">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="51dee-132">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="51dee-132">7/3/2012</span></span></p>
-<p><span data-ttu-id="51dee-133">周數總是從星期日到星期六執行。</span><span class="sxs-lookup"><span data-stu-id="51dee-133">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="f3520-124"><strong>To</strong></span><span class="sxs-lookup"><span data-stu-id="f3520-124"><strong>To</strong></span></span></p></td>
+<td><p><span data-ttu-id="f3520-p104">時間範圍的結束日期/時間。若要按照小時檢視資料，請輸入開始日期和時間，如下所示：</span><span class="sxs-lookup"><span data-stu-id="f3520-p104">End date/time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
+<p><span data-ttu-id="f3520-127">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="f3520-127">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="f3520-p105">如果您未輸入結束時間，報告會自動在指定日期凌晨 12 點結束。若要按照日期檢視資料，只要輸入日期即可：</span><span class="sxs-lookup"><span data-stu-id="f3520-p105">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="f3520-130">2012/7/7</span><span class="sxs-lookup"><span data-stu-id="f3520-130">7/7/2012</span></span></p>
+<p><span data-ttu-id="f3520-131">若要按星期或月份檢視，請輸入當週或該月您想檢視的日期 (您不必輸入當週或該月的第一天)：</span><span class="sxs-lookup"><span data-stu-id="f3520-131">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="f3520-132">2012/7/3</span><span class="sxs-lookup"><span data-stu-id="f3520-132">7/3/2012</span></span></p>
+<p><span data-ttu-id="f3520-133">星期永遠是從星期日開始星期六結束。</span><span class="sxs-lookup"><span data-stu-id="f3520-133">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="51dee-134"><strong>Interval</strong></span><span class="sxs-lookup"><span data-stu-id="51dee-134"><strong>Interval</strong></span></span></p></td>
-<td><p><span data-ttu-id="51dee-135">時間間隔。</span><span class="sxs-lookup"><span data-stu-id="51dee-135">Time interval.</span></span> <span data-ttu-id="51dee-136">選取下列其中一項：</span><span class="sxs-lookup"><span data-stu-id="51dee-136">Select one of the following:</span></span></p>
+<td><p><span data-ttu-id="f3520-134"><strong>Interval</strong></span><span class="sxs-lookup"><span data-stu-id="f3520-134"><strong>Interval</strong></span></span></p></td>
+<td><p><span data-ttu-id="f3520-p106">時間間隔。請選取下列其中一項：</span><span class="sxs-lookup"><span data-stu-id="f3520-p106">Time interval. Select one of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="51dee-137">每小時（最多可顯示25小時）</span><span class="sxs-lookup"><span data-stu-id="51dee-137">Hourly (a maximum of 25 hours can be displayed)</span></span></p></li>
-<li><p><span data-ttu-id="51dee-138">每天（最多可以顯示31天）</span><span class="sxs-lookup"><span data-stu-id="51dee-138">Daily (a maximum of 31 days can be displayed)</span></span></p></li>
-<li><p><span data-ttu-id="51dee-139">每週（最多可以顯示12周）</span><span class="sxs-lookup"><span data-stu-id="51dee-139">Weekly (a maximum of 12 weeks can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="f3520-137">每小時 (最多可以顯示 25 個小時)</span><span class="sxs-lookup"><span data-stu-id="f3520-137">Hourly (a maximum of 25 hours can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="f3520-138">每日 (最多可以顯示 31 天)</span><span class="sxs-lookup"><span data-stu-id="f3520-138">Daily (a maximum of 31 days can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="f3520-139">每週 (最多可以顯示 12 週)</span><span class="sxs-lookup"><span data-stu-id="f3520-139">Weekly (a maximum of 12 weeks can be displayed)</span></span></p></li>
 </ul>
-<p><span data-ttu-id="51dee-140">如果 [開始] 和 [結束] 日期超過所選間隔所允許的最大值數，則會顯示值的數目上限（從開始日期開始）。</span><span class="sxs-lookup"><span data-stu-id="51dee-140">If the start and end dates exceed the maximum number of values allowed for the selected interval, only the maximum number of values (starting from the start date) is displayed.</span></span> <span data-ttu-id="51dee-141">例如，如果您選取 [開始日期 1/1/2011] 和 [結束日期] 2/28/2011 的 [日間隔]，則會顯示 8/1/2011 12:00 AM 至 9/1/2011 12:00 AM （也就是31天內的資料）的資料。</span><span class="sxs-lookup"><span data-stu-id="51dee-141">For example, if you select the Daily interval with a start date of 1/1/2011 and an end date of 2/28/2011, data is displayed for the days 8/1/2011 12:00 AM to 9/1/2011 12:00 AM (that is, a total of 31 days' worth of data).</span></span></p></td>
+<p><span data-ttu-id="f3520-p107">若開始與結束日期超出所選間隔允許的上限值，將只會顯示上限值 (從開始日期開始顯示)。例如，若您選取 [每日] 間隔，並將開始與結束日期分別設為 1/1/2011 及 2/28/2011，將只會顯示 1/1/2011 上午 12:00 至 2/1/2011 上午 12:00 這段期間的資料 (亦即只會顯示 31 天的資料)。</span><span class="sxs-lookup"><span data-stu-id="f3520-p107">If the start and end dates exceed the maximum number of values allowed for the selected interval, only the maximum number of values (starting from the start date) is displayed. For example, if you select the Daily interval with a start date of 1/1/2011 and an end date of 2/28/2011, data is displayed for the days 8/1/2011 12:00 AM to 9/1/2011 12:00 AM (that is, a total of 31 days' worth of data).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="51dee-142"><strong>Access 類型</strong></span><span class="sxs-lookup"><span data-stu-id="51dee-142"><strong>Access type</strong></span></span></p></td>
-<td><p><span data-ttu-id="51dee-143">指出撥打電話時，用戶端是否已登入內部網路或外部網路。</span><span class="sxs-lookup"><span data-stu-id="51dee-143">Indicates whether the client was logged on to the internal network or the external network when the call was placed.</span></span> <span data-ttu-id="51dee-144">選取下列其中一項：</span><span class="sxs-lookup"><span data-stu-id="51dee-144">Select one of the following:</span></span></p>
+<td><p><span data-ttu-id="f3520-142"><strong>存取類型</strong></span><span class="sxs-lookup"><span data-stu-id="f3520-142"><strong>Access type</strong></span></span></p></td>
+<td><p><span data-ttu-id="f3520-p108">指出撥打電腦時，用戶端是否登入內部網路或外部網路。請選取下列其中一項：</span><span class="sxs-lookup"><span data-stu-id="f3520-p108">Indicates whether the client was logged on to the internal network or the external network when the call was placed. Select one of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="51dee-145">同時</span><span class="sxs-lookup"><span data-stu-id="51dee-145">[All]</span></span></p></li>
-<li><p><span data-ttu-id="51dee-146">內部</span><span class="sxs-lookup"><span data-stu-id="51dee-146">Internal</span></span></p></li>
-<li><p><span data-ttu-id="51dee-147">外來</span><span class="sxs-lookup"><span data-stu-id="51dee-147">External</span></span></p></li>
+<li><p><span data-ttu-id="f3520-145">[全部]</span><span class="sxs-lookup"><span data-stu-id="f3520-145">[All]</span></span></p></li>
+<li><p><span data-ttu-id="f3520-146">內部</span><span class="sxs-lookup"><span data-stu-id="f3520-146">Internal</span></span></p></li>
+<li><p><span data-ttu-id="f3520-147">External</span><span class="sxs-lookup"><span data-stu-id="f3520-147">External</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="51dee-148"><strong>網路類型</strong></span><span class="sxs-lookup"><span data-stu-id="51dee-148"><strong>Network type</strong></span></span></p></td>
-<td><p><span data-ttu-id="51dee-149">指出撥打電話時，用戶端連線到的網路類型。</span><span class="sxs-lookup"><span data-stu-id="51dee-149">Indicates the type of network the client was connected to when the call was placed.</span></span> <span data-ttu-id="51dee-150">選取下列其中一項：</span><span class="sxs-lookup"><span data-stu-id="51dee-150">Select one of the following:</span></span></p>
+<td><p><span data-ttu-id="f3520-148"><strong>網路類型</strong></span><span class="sxs-lookup"><span data-stu-id="f3520-148"><strong>Network type</strong></span></span></p></td>
+<td><p><span data-ttu-id="f3520-p109">指出當撥打電話時，用戶端連線的網路類型。請選取下列其中一項：</span><span class="sxs-lookup"><span data-stu-id="f3520-p109">Indicates the type of network the client was connected to when the call was placed. Select one of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="51dee-151">同時</span><span class="sxs-lookup"><span data-stu-id="51dee-151">[All]</span></span></p></li>
-<li><p><span data-ttu-id="51dee-152">有線</span><span class="sxs-lookup"><span data-stu-id="51dee-152">Wired</span></span></p></li>
-<li><p><span data-ttu-id="51dee-153">無線</span><span class="sxs-lookup"><span data-stu-id="51dee-153">Wireless</span></span></p></li>
+<li><p><span data-ttu-id="f3520-151">[全部]</span><span class="sxs-lookup"><span data-stu-id="f3520-151">[All]</span></span></p></li>
+<li><p><span data-ttu-id="f3520-152">有線</span><span class="sxs-lookup"><span data-stu-id="f3520-152">Wired</span></span></p></li>
+<li><p><span data-ttu-id="f3520-153">無線</span><span class="sxs-lookup"><span data-stu-id="f3520-153">Wireless</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="51dee-154"><strong>點對點</strong></span><span class="sxs-lookup"><span data-stu-id="51dee-154"><strong>VPN</strong></span></span></p></td>
-<td><p><span data-ttu-id="51dee-155">指示在撥打電話時，外部用戶端是否正在使用虛擬私人網路（VPN）連線。</span><span class="sxs-lookup"><span data-stu-id="51dee-155">Indicates whether an external client was using a virtual private network (VPN) connection when the call was placed.</span></span> <span data-ttu-id="51dee-156">選取下列其中一項：</span><span class="sxs-lookup"><span data-stu-id="51dee-156">Select one of the following:</span></span></p>
+<td><p><span data-ttu-id="f3520-154"><strong>VPN</strong></span><span class="sxs-lookup"><span data-stu-id="f3520-154"><strong>VPN</strong></span></span></p></td>
+<td><p><span data-ttu-id="f3520-p110">指出當撥打電話時，外部用戶端是否使用虛擬私人網路 (VPN) 連線。請選取下列其中一項：</span><span class="sxs-lookup"><span data-stu-id="f3520-p110">Indicates whether an external client was using a virtual private network (VPN) connection when the call was placed. Select one of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="51dee-157">同時</span><span class="sxs-lookup"><span data-stu-id="51dee-157">[All]</span></span></p></li>
-<li><p><span data-ttu-id="51dee-158">點對點</span><span class="sxs-lookup"><span data-stu-id="51dee-158">VPN</span></span></p></li>
-<li><p><span data-ttu-id="51dee-159">非 VPN</span><span class="sxs-lookup"><span data-stu-id="51dee-159">Non-VPN</span></span></p></li>
+<li><p><span data-ttu-id="f3520-157">[全部]</span><span class="sxs-lookup"><span data-stu-id="f3520-157">[All]</span></span></p></li>
+<li><p><span data-ttu-id="f3520-158">VPN</span><span class="sxs-lookup"><span data-stu-id="f3520-158">VPN</span></span></p></li>
+<li><p><span data-ttu-id="f3520-159">非 VPN</span><span class="sxs-lookup"><span data-stu-id="f3520-159">Non-VPN</span></span></p></li>
 </ul></td>
 </tr>
 </tbody>

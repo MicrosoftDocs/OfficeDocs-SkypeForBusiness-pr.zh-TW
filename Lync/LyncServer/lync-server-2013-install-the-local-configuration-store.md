@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：安裝本機設定存放區
+title: Lync Server 2013： 安裝本機設定存放區
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185180
 ms.date: 06/28/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e4af6d4b6dfe203f69a6b104b6ade636d2658178
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 00b4ffc463412064b578938516c4ea33b0dbb663
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726183"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029534"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="install-the-local-configuration-store-in-lync-server-2013"></a><span data-ttu-id="6f846-102">在 Lync Server 2013 中安裝本機設定存放區</span><span class="sxs-lookup"><span data-stu-id="6f846-102">Install the Local Configuration store in Lync Server 2013</span></span>
+# <a name="install-the-local-configuration-store-in-lync-server-2013"></a><span data-ttu-id="3b81a-102">在 Lync Server 2013 中安裝本機設定存放區</span><span class="sxs-lookup"><span data-stu-id="3b81a-102">Install the Local Configuration store in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41726183"
 
 <span> </span>
 
-<span data-ttu-id="6f846-103">_**主題上次修改日期：** 2014-06-27_</span><span class="sxs-lookup"><span data-stu-id="6f846-103">_**Topic Last Modified:** 2014-06-27_</span></span>
+<span data-ttu-id="3b81a-103">_**上次修改主題：** 2014 年 06 月 27 日_</span><span class="sxs-lookup"><span data-stu-id="3b81a-103">_**Topic Last Modified:** 2014-06-27_</span></span>
 
-<span data-ttu-id="6f846-104">在執行下列步驟之前，請確認您已使用網域使用者帳戶登入伺服器，且這兩者都是本機管理員，且是 RTCUniversalReadOnlyAdmin 群組的成員。</span><span class="sxs-lookup"><span data-stu-id="6f846-104">Before following these steps, make sure you’re logged onto the server with a domain user account that’s both a local administrator and a member of the RTCUniversalReadOnlyAdmin group.</span></span>
+<span data-ttu-id="3b81a-104">執行下列步驟之前，請確定您登入使用網域使用者帳戶是本機系統管理員和擁有 RTCUniversalReadOnlyAdmin 群組成員的伺服器。</span><span class="sxs-lookup"><span data-stu-id="3b81a-104">Before following these steps, make sure you’re logged onto the server with a domain user account that’s both a local administrator and a member of the RTCUniversalReadOnlyAdmin group.</span></span>
 
-<span data-ttu-id="6f846-105">若要能夠使用 Lync Server 部署嚮導執行任何動作，我們必須在伺服器上存在本機配置存放區。</span><span class="sxs-lookup"><span data-stu-id="6f846-105">To be able to do anything with the Lync Server Deployment Wizard, we need the Local Configuration store to exist on a server.</span></span> <span data-ttu-id="6f846-106">本機配置存放區是集中式管理儲存體的唯讀複本，在本機安裝 SQL Server Express 之後就會建立。</span><span class="sxs-lookup"><span data-stu-id="6f846-106">The Local Configuration store is a read-only copy of the Central Management store, which gets created after the local installation of SQL Server Express.</span></span> <span data-ttu-id="6f846-107">中央管理商店本身會新增至安裝在標準版 server 或 SQL Server Express 資料庫上的現有 SQL Server 資料庫。</span><span class="sxs-lookup"><span data-stu-id="6f846-107">The Central Management store itself is added to the existing SQL Server database installed on the Standard Edition server or SQL Server Express-based database.</span></span>
+<span data-ttu-id="3b81a-105">若要能夠做任何處理 Lync Server 部署精靈，我們需要存在於伺服器上的本機設定存放區。</span><span class="sxs-lookup"><span data-stu-id="3b81a-105">To be able to do anything with the Lync Server Deployment Wizard, we need the Local Configuration store to exist on a server.</span></span> <span data-ttu-id="3b81a-106">本機設定存放區是中央管理存放區，這會取得建立 SQL Server Express 的本機安裝後的唯讀複本。</span><span class="sxs-lookup"><span data-stu-id="3b81a-106">The Local Configuration store is a read-only copy of the Central Management store, which gets created after the local installation of SQL Server Express.</span></span> <span data-ttu-id="3b81a-107">安裝 Standard Edition server 或 SQL Server Express 式資料庫上的現有 SQL Server 資料庫會加入中央管理存放區本身擷取。</span><span class="sxs-lookup"><span data-stu-id="3b81a-107">The Central Management store itself is added to the existing SQL Server database installed on the Standard Edition server or SQL Server Express-based database.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="6f846-108">如果您之前沒有在此伺服器上執行 Lync Server 2013 設定，系統會提示您輸入安裝 Lync Server 2013 的磁片磁碟機和路徑。</span><span class="sxs-lookup"><span data-stu-id="6f846-108">If you haven’t run Lync Server 2013 setup on this server before, you’ll be prompted for a drive and path to install Lync Server 2013 to.</span></span> <span data-ttu-id="6f846-109">這可讓您安裝到系統磁片磁碟機以外的磁碟機（如果您的組織需要的話），或者您是否有空間擔心。</span><span class="sxs-lookup"><span data-stu-id="6f846-109">This will let you install to a drive other than the system drive, if your organization requires it, or if you have space concerns.</span></span> <span data-ttu-id="6f846-110">您只需將 [設定] 對話方塊中的 Lync Server 檔案安裝位置路徑變更為新的可用磁片磁碟機即可。</span><span class="sxs-lookup"><span data-stu-id="6f846-110">You can just change the installation location path for the Lync Server files in the Setup dialog box to a new, available drive.</span></span> <span data-ttu-id="6f846-111">如果您將安裝檔案安裝到此路徑，包括 OCSCore，則其餘的 Lync Server 2013 檔案也會部署在該處。</span><span class="sxs-lookup"><span data-stu-id="6f846-111">If you install the Setup files to this path, including OCSCore.msi, the rest of the Lync Server 2013 files will deploy there as well.</span></span>
+> <span data-ttu-id="3b81a-108">如果您還沒有執行 Lync Server 2013 安裝程式之前這部伺服器上，系統會提示您的路徑和機安裝 Lync Server 2013。</span><span class="sxs-lookup"><span data-stu-id="3b81a-108">If you haven’t run Lync Server 2013 setup on this server before, you’ll be prompted for a drive and path to install Lync Server 2013 to.</span></span> <span data-ttu-id="3b81a-109">這可讓您安裝磁碟機以外的系統磁碟機中，如果貴組織需要它，或者如果您有空間考量。</span><span class="sxs-lookup"><span data-stu-id="3b81a-109">This will let you install to a drive other than the system drive, if your organization requires it, or if you have space concerns.</span></span> <span data-ttu-id="3b81a-110">您只可以變更設定] 對話方塊中的 Lync Server 檔案的安裝位置路徑至新的可用的磁碟機。</span><span class="sxs-lookup"><span data-stu-id="3b81a-110">You can just change the installation location path for the Lync Server files in the Setup dialog box to a new, available drive.</span></span> <span data-ttu-id="3b81a-111">如果您將安裝檔案安裝到此路徑，包括 OCSCore.msi，Lync Server 2013 檔案的其餘部分將會部署那里也。</span><span class="sxs-lookup"><span data-stu-id="3b81a-111">If you install the Setup files to this path, including OCSCore.msi, the rest of the Lync Server 2013 files will deploy there as well.</span></span>
 
 
 
@@ -53,23 +53,23 @@ ms.locfileid: "41726183"
 
 <div>
 
-## <a name="to-install-the-local-configuration-store"></a><span data-ttu-id="6f846-112">安裝本機配置存放區</span><span class="sxs-lookup"><span data-stu-id="6f846-112">To install the Local Configuration store</span></span>
+## <a name="to-install-the-local-configuration-store"></a><span data-ttu-id="3b81a-112">若要安裝本機設定存放區</span><span class="sxs-lookup"><span data-stu-id="3b81a-112">To install the Local Configuration store</span></span>
 
-1.  <span data-ttu-id="6f846-113">從您的安裝媒體，流覽\\至\\[\\設定 Amd64] Setup.exe，然後按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="6f846-113">From your installation media, browse to \\setup\\amd64\\Setup.exe, and then click **OK**.</span></span>
+1.  <span data-ttu-id="3b81a-113">從安裝媒體，瀏覽至\\安裝\\amd64\\Setup.exe，然後按一下 [**確定]**。</span><span class="sxs-lookup"><span data-stu-id="3b81a-113">From your installation media, browse to \\setup\\amd64\\Setup.exe, and then click **OK**.</span></span>
 
-2.  <span data-ttu-id="6f846-114">如果系統提示您安裝 Microsoft Visual c + + 2012 可轉散發元件，請按一下 **[是]**。</span><span class="sxs-lookup"><span data-stu-id="6f846-114">If you’re prompted to install the Microsoft Visual C++ 2012 Redistributable, click **Yes**.</span></span>
+2.  <span data-ttu-id="3b81a-114">如果系統提示您安裝 Microsoft Visual c + + 2012年可轉散發套件，按一下 [**是**]。</span><span class="sxs-lookup"><span data-stu-id="3b81a-114">If you’re prompted to install the Microsoft Visual C++ 2012 Redistributable, click **Yes**.</span></span>
 
-3.  <span data-ttu-id="6f846-115">在 [ **Lync Server 2013 安裝位置**] 頁面上，按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="6f846-115">On the **Lync Server 2013 Installation Location** page, click **OK**.</span></span>
+3.  <span data-ttu-id="3b81a-115">在**Lync Server 2013 的安裝位置**] 頁面上，按一下 [**確定]**。</span><span class="sxs-lookup"><span data-stu-id="3b81a-115">On the **Lync Server 2013 Installation Location** page, click **OK**.</span></span>
 
-4.  <span data-ttu-id="6f846-116">在 [**使用者授權合約**] 頁面上，查看 [授權條款]，您必須選取 **[我接受授權合約中的條款**]，然後按一下 **[確定]** 以繼續進行。</span><span class="sxs-lookup"><span data-stu-id="6f846-116">On the **End User License Agreement** page, review the license terms, you’ll need to select **I accept the terms in the license agreement**, and then click **OK** to be able to continue.</span></span>
+4.  <span data-ttu-id="3b81a-116">在 [**使用者授權合約**] 頁面上，檢閱授權合約，您需要以選取 [**我接受授權合約中的條款**]，然後按一下 **[確定]** 若要能夠繼續。</span><span class="sxs-lookup"><span data-stu-id="3b81a-116">On the **End User License Agreement** page, review the license terms, you’ll need to select **I accept the terms in the license agreement**, and then click **OK** to be able to continue.</span></span>
 
-5.  <span data-ttu-id="6f846-117">在 [部署嚮導] 頁面上，按一下 [**安裝或更新 Lync Server 系統**]。</span><span class="sxs-lookup"><span data-stu-id="6f846-117">On the Deployment Wizard page, click **Install or Update Lync Server System**.</span></span>
+5.  <span data-ttu-id="3b81a-117">在 [部署精靈] 頁面上，按一下 [**安裝或更新 Lync Server 系統**]。</span><span class="sxs-lookup"><span data-stu-id="3b81a-117">On the Deployment Wizard page, click **Install or Update Lync Server System**.</span></span>
 
-6.  <span data-ttu-id="6f846-118">在 [ **Lync Server 2013** ] 頁面上，按一下 [ **Step1：安裝本機配置存放區**] 旁的 [**執行**]。</span><span class="sxs-lookup"><span data-stu-id="6f846-118">On the **Lync Server 2013** page, next to **Step1: Install Local Configuration Store**, click **Run**.</span></span>
+6.  <span data-ttu-id="3b81a-118">在**Lync Server 2013** ] 頁面中下, 一步] 為**步驟 1： 安裝本機設定存放區**，按一下 [**執行**]。</span><span class="sxs-lookup"><span data-stu-id="3b81a-118">On the **Lync Server 2013** page, next to **Step1: Install Local Configuration Store**, click **Run**.</span></span>
 
-7.  <span data-ttu-id="6f846-119">在 [**安裝本機設定儲存區**] 頁面上，確認已選取 [**直接從中央管理儲存**] 選項進行檢索，然後按一下 **[下一步]**。</span><span class="sxs-lookup"><span data-stu-id="6f846-119">On the **Install Local Configuration Store** page, make sure that the **Retrieve directly from the Central Management store** option is selected, and then click **Next**.</span></span>
+7.  <span data-ttu-id="3b81a-119">在**安裝本機設定存放區**] 頁面上，請確定已選取 [**直接從中央管理存放區擷取**] 選項，然後再按 [**下一步**。</span><span class="sxs-lookup"><span data-stu-id="3b81a-119">On the **Install Local Configuration Store** page, make sure that the **Retrieve directly from the Central Management store** option is selected, and then click **Next**.</span></span>
 
-8.  <span data-ttu-id="6f846-120">本機伺服器設定安裝完成後，請按一下 **[完成]**。</span><span class="sxs-lookup"><span data-stu-id="6f846-120">When the local server configuration installation is complete, you should click **Finish**.</span></span>
+8.  <span data-ttu-id="3b81a-120">本機伺服器設定安裝完成時，您應該按一下 [**完成]**。</span><span class="sxs-lookup"><span data-stu-id="3b81a-120">When the local server configuration installation is complete, you should click **Finish**.</span></span>
 
 </div>
 

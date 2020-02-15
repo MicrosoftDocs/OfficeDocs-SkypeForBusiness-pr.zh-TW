@@ -12,20 +12,20 @@ ms:contentKeyID: 49733592
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 64f359a97f6c4bc76d5e0d6f475a037ab53afb91
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bd7b4acc877ba174be0b0d6b03368bb06200574b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735033"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033782"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="add-lync-server-2010-survivable-branch-appliance-branch-site-to-your-topology"></a><span data-ttu-id="60637-102">將 Lync Server 2010 Survivable Branch Appliance 分支網站新增至您的拓撲</span><span class="sxs-lookup"><span data-stu-id="60637-102">Add Lync Server 2010 Survivable Branch Appliance branch site to your topology</span></span>
+# <a name="add-lync-server-2010-survivable-branch-appliance-branch-site-to-your-topology"></a><span data-ttu-id="697e7-102">將 Lync Server 2010 Survivable Branch Appliance 分支網站新增至您的拓撲</span><span class="sxs-lookup"><span data-stu-id="697e7-102">Add Lync Server 2010 Survivable Branch Appliance branch site to your topology</span></span>
 
 </div>
 
@@ -35,22 +35,22 @@ ms.locfileid: "41735033"
 
 <span> </span>
 
-<span data-ttu-id="60637-103">_**主題上次修改日期：** 2012-10-07_</span><span class="sxs-lookup"><span data-stu-id="60637-103">_**Topic Last Modified:** 2012-10-07_</span></span>
+<span data-ttu-id="697e7-103">_**主題上次修改日期：** 2012年-10-07_</span><span class="sxs-lookup"><span data-stu-id="697e7-103">_**Topic Last Modified:** 2012-10-07_</span></span>
 
-<span data-ttu-id="60637-104">Microsoft Lync Server 2010 Survivable 分支裝置（SBA）可與 Microsoft Lync Server 2013 前端池（作為備份註冊機構）相關聯。</span><span class="sxs-lookup"><span data-stu-id="60637-104">Microsoft Lync Server 2010 Survivable Branch Appliances (SBA) can be associated to a Microsoft Lync Server 2013 Front End pool as a backup Registrar.</span></span> <span data-ttu-id="60637-105">請參閱 [遷移] 區段，連線[Survivable 分支裝置](connect-a-survivable-branch-appliance.md)，以取得如何將您的 Microsoft lync SERVER 2010 SBA 連線至 Microsoft lync Server 2013 前端池的詳細程式。</span><span class="sxs-lookup"><span data-stu-id="60637-105">Refer to the Migration section, [Connect a Survivable Branch Appliance](connect-a-survivable-branch-appliance.md), for detailed procedures on how to connect your Microsoft Lync Server 2010 SBA to a Microsoft Lync Server 2013 Front End pool.</span></span>
+<span data-ttu-id="697e7-104">Microsoft Lync Server 2010 Survivable Branch Appliance (SBA) 可以與 Microsoft Lync Server 2013 前端集區相關聯，作為備份登錄器。</span><span class="sxs-lookup"><span data-stu-id="697e7-104">Microsoft Lync Server 2010 Survivable Branch Appliances (SBA) can be associated to a Microsoft Lync Server 2013 Front End pool as a backup Registrar.</span></span> <span data-ttu-id="697e7-105">請參閱 [移轉] 區段中，[連接 Survivable Branch Appliance](connect-a-survivable-branch-appliance.md)，如需如何連線至 Microsoft Lync Server 2013 前端集區的 Microsoft Lync Server 2010 SBA 的詳細程序。</span><span class="sxs-lookup"><span data-stu-id="697e7-105">Refer to the Migration section, [Connect a Survivable Branch Appliance](connect-a-survivable-branch-appliance.md), for detailed procedures on how to connect your Microsoft Lync Server 2010 SBA to a Microsoft Lync Server 2013 Front End pool.</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="60637-106">請參閱</span><span class="sxs-lookup"><span data-stu-id="60637-106">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="697e7-106">另請參閱</span><span class="sxs-lookup"><span data-stu-id="697e7-106">See Also</span></span>
 
 
-[<span data-ttu-id="60637-107">在 Lync Server 2013 中定義 Survivable Branch Appliance 或 Survivable Branch Server</span><span class="sxs-lookup"><span data-stu-id="60637-107">Define a Survivable Branch Appliance or Server in Lync Server 2013</span></span>](lync-server-2013-define-a-survivable-branch-appliance-or-server.md)  
-[<span data-ttu-id="60637-108">在 Lync Server 2013 中定義分支網站的 PSTN 閘道</span><span class="sxs-lookup"><span data-stu-id="60637-108">Define a PSTN gateway for a branch site in Lync Server 2013</span></span>](lync-server-2013-define-a-pstn-gateway-for-a-branch-site.md)  
-<span data-ttu-id="60637-109">[在 Lync Server 2013 中使用 [旁路媒體] 設定主幹](lync-server-2013-configure-a-trunk-with-media-bypass.md)</span><span class="sxs-lookup"><span data-stu-id="60637-109">[Configure a trunk with media bypass in Lync Server 2013](lync-server-2013-configure-a-trunk-with-media-bypass.md)</span></span>  
-[<span data-ttu-id="60637-110">在 Lync Server 2013 中設定沒有媒體旁路的主幹</span><span class="sxs-lookup"><span data-stu-id="60637-110">Configure a trunk without media bypass in Lync Server 2013</span></span>](lync-server-2013-configure-a-trunk-without-media-bypass.md)  
+[<span data-ttu-id="697e7-107">Lync Server 2013 中定義 Survivable Branch Appliance 或 Server</span><span class="sxs-lookup"><span data-stu-id="697e7-107">Define a Survivable Branch Appliance or Server in Lync Server 2013</span></span>](lync-server-2013-define-a-survivable-branch-appliance-or-server.md)  
+[<span data-ttu-id="697e7-108">在 Lync Server 2013 中定義 PSTN 閘道的分支網站</span><span class="sxs-lookup"><span data-stu-id="697e7-108">Define a PSTN gateway for a branch site in Lync Server 2013</span></span>](lync-server-2013-define-a-pstn-gateway-for-a-branch-site.md)  
+[<span data-ttu-id="697e7-109">設定與 Lync Server 2013 中的媒體旁路的主幹</span><span class="sxs-lookup"><span data-stu-id="697e7-109">Configure a trunk with media bypass in Lync Server 2013</span></span>](lync-server-2013-configure-a-trunk-with-media-bypass.md)  
+[<span data-ttu-id="697e7-110">沒有媒體旁路 Lync Server 2013 中設定主幹</span><span class="sxs-lookup"><span data-stu-id="697e7-110">Configure a trunk without media bypass in Lync Server 2013</span></span>](lync-server-2013-configure-a-trunk-without-media-bypass.md)  
 
 
-[<span data-ttu-id="60637-111">連線 Survivable Branch Appliance</span><span class="sxs-lookup"><span data-stu-id="60637-111">Connect a Survivable Branch Appliance</span></span>](connect-a-survivable-branch-appliance.md)  
+[<span data-ttu-id="697e7-111">連接 Survivable Branch Appliance</span><span class="sxs-lookup"><span data-stu-id="697e7-111">Connect a Survivable Branch Appliance</span></span>](connect-a-survivable-branch-appliance.md)  
   
 
 </div>

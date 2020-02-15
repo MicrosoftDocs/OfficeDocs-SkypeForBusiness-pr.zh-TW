@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：部署 Lync 2013 的線上會議增益集
+title: Lync Server 2013： 部署 Online Meeting add-in for Lync 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185485
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c6c89c9d49754464c954c04ee0673f122848cdea
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: cb38b41b57898b24abe1197a516103fa47c72d6f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729633"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028894"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploy-the-online-meeting-add-in-for-lync-2013"></a><span data-ttu-id="dfa63-102">部署 Lync 2013 的線上會議增益集</span><span class="sxs-lookup"><span data-stu-id="dfa63-102">Deploy the Online Meeting Add-in for Lync 2013</span></span>
+# <a name="deploy-the-online-meeting-add-in-for-lync-2013"></a><span data-ttu-id="565e3-102">部署 Online Meeting add-in for Lync 2013</span><span class="sxs-lookup"><span data-stu-id="565e3-102">Deploy the Online Meeting Add-in for Lync 2013</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41729633"
 
 <span> </span>
 
-<span data-ttu-id="dfa63-103">_**主題上次修改日期：** 2012-09-30_</span><span class="sxs-lookup"><span data-stu-id="dfa63-103">_**Topic Last Modified:** 2012-09-30_</span></span>
+<span data-ttu-id="565e3-103">_**主題上次修改日期：** 2012年-09-30_</span><span class="sxs-lookup"><span data-stu-id="565e3-103">_**Topic Last Modified:** 2012-09-30_</span></span>
 
-<span data-ttu-id="dfa63-104">部署 Lync 2013 的線上會議增益集，讓使用者能夠排程支援電話撥入式會議的會議。</span><span class="sxs-lookup"><span data-stu-id="dfa63-104">Deploy the Online Meeting Add-in for Lync 2013 so that users can schedule conferences that support dial-in conferencing.</span></span>
+<span data-ttu-id="565e3-104">部署的線上會議增益集 Lync 2013 讓使用者可以排程支援電話撥入式會議的會議。</span><span class="sxs-lookup"><span data-stu-id="565e3-104">Deploy the Online Meeting Add-in for Lync 2013 so that users can schedule conferences that support dial-in conferencing.</span></span>
 
-<span data-ttu-id="dfa63-105">當您安裝 Lync 2013 時，系統會自動安裝 Lync 2013 的線上會議增益集。</span><span class="sxs-lookup"><span data-stu-id="dfa63-105">The Online Meeting Add-in for Lync 2013 is installed automatically when you install Lync 2013.</span></span> <span data-ttu-id="dfa63-106">如需有關自訂 lync 2013 for Lync 之線上會議增益集的詳細資訊，請參閱[在 Lync Server 2013 中設定會議邀請](lync-server-2013-configuring-the-meeting-invitation.md)。</span><span class="sxs-lookup"><span data-stu-id="dfa63-106">For details about customizing Online Meeting Add-in for Lync 2013 for Lync, see [Configuring the meeting invitation in Lync Server 2013](lync-server-2013-configuring-the-meeting-invitation.md).</span></span>
+<span data-ttu-id="565e3-105">線上會議增益集 for Lync 2013 會自動安裝當您安裝 Lync 2013。</span><span class="sxs-lookup"><span data-stu-id="565e3-105">The Online Meeting Add-in for Lync 2013 is installed automatically when you install Lync 2013.</span></span> <span data-ttu-id="565e3-106">如需 lync 自訂 Online Meeting add-in for Lync 2013 的詳細資訊，請參閱[設定 Lync Server 2013 中的會議邀請](lync-server-2013-configuring-the-meeting-invitation.md)。</span><span class="sxs-lookup"><span data-stu-id="565e3-106">For details about customizing Online Meeting Add-in for Lync 2013 for Lync, see [Configuring the meeting invitation in Lync Server 2013](lync-server-2013-configuring-the-meeting-invitation.md).</span></span>
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：管理會議
+title: Lync Server 2013： 管理會議
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184755
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 23a3b907702cda1ae3f528da8890256dd0facce1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3f9da919b539ce80303889069379aea9abc89e80
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762061"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033722"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-meetings-and-conferences-in-lync-server-2013"></a><span data-ttu-id="409dd-102">在 Lync Server 2013 中管理會議</span><span class="sxs-lookup"><span data-stu-id="409dd-102">Managing meetings and conferences in Lync Server 2013</span></span>
+# <a name="managing-meetings-and-conferences-in-lync-server-2013"></a><span data-ttu-id="89fde-102">管理 Lync Server 2013 中的會議</span><span class="sxs-lookup"><span data-stu-id="89fde-102">Managing meetings and conferences in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41762061"
 
 <span> </span>
 
-<span data-ttu-id="409dd-103">_**主題上次修改日期：** 2013-08-09_</span><span class="sxs-lookup"><span data-stu-id="409dd-103">_**Topic Last Modified:** 2013-08-09_</span></span>
+<span data-ttu-id="89fde-103">_**上次修改主題：** 2013年-08-09_</span><span class="sxs-lookup"><span data-stu-id="89fde-103">_**Topic Last Modified:** 2013-08-09_</span></span>
 
-<span data-ttu-id="409dd-104">本節中的主題提供您可以使用 [Lync Server 控制台] 中的 [**會議**] 群組中的頁面來執行之工作的逐步程式。</span><span class="sxs-lookup"><span data-stu-id="409dd-104">Topics in this section provide step-by-step procedures for tasks you can perform using the pages in the **Conferencing** group in Lync Server Control Panel.</span></span>
+<span data-ttu-id="89fde-104">本節中的主題提供逐步程序，您可以使用 Lync Server 控制台的 [**會議**] 群組中的頁面執行的工作。</span><span class="sxs-lookup"><span data-stu-id="89fde-104">Topics in this section provide step-by-step procedures for tasks you can perform using the pages in the **Conferencing** group in Lync Server Control Panel.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="409dd-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="409dd-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="89fde-105">本章節內容</span><span class="sxs-lookup"><span data-stu-id="89fde-105">In This Section</span></span>
 
-  - [<span data-ttu-id="409dd-106">Lync Server 2013 中的會議配置設定</span><span class="sxs-lookup"><span data-stu-id="409dd-106">Meeting configuration settings in Lync Server 2013</span></span>](lync-server-2013-meeting-configuration-settings.md)
+  - [<span data-ttu-id="89fde-106">Lync Server 2013 中的會議組態設定</span><span class="sxs-lookup"><span data-stu-id="89fde-106">Meeting configuration settings in Lync Server 2013</span></span>](lync-server-2013-meeting-configuration-settings.md)
 
-  - [<span data-ttu-id="409dd-107">Lync Server 2013 中的會議原則</span><span class="sxs-lookup"><span data-stu-id="409dd-107">Conferencing policies in Lync Server 2013</span></span>](lync-server-2013-conferencing-policies.md)
+  - [<span data-ttu-id="89fde-107">Lync Server 2013 中的會議原則</span><span class="sxs-lookup"><span data-stu-id="89fde-107">Conferencing policies in Lync Server 2013</span></span>](lync-server-2013-conferencing-policies.md)
 
-  - [<span data-ttu-id="409dd-108">Lync Server 2013 中的電話撥入式會議（設定/存取號碼）</span><span class="sxs-lookup"><span data-stu-id="409dd-108">Dial-in conferencing in Lync Server 2013 (configuration/access numbers)</span></span>](lync-server-2013-dial-in-conferencing-configuration-access-numbers.md)
+  - <span data-ttu-id="89fde-108">[在 [Lync Server 2013 （設定/存取號碼） 的電話撥入式會議](lync-server-2013-dial-in-conferencing-configuration-access-numbers.md)</span><span class="sxs-lookup"><span data-stu-id="89fde-108">[Dial-in conferencing in Lync Server 2013 (configuration/access numbers)](lync-server-2013-dial-in-conferencing-configuration-access-numbers.md)</span></span>
 
-  - <span data-ttu-id="409dd-109">[在啟用 Lync 的電話和 Lync Server 2013 上使用 [呼叫我]](lync-server-2013-using-call-me-at-with-a-lync-enabled-phone.md)</span><span class="sxs-lookup"><span data-stu-id="409dd-109">[Using Call Me At with a Lync-enabled phone and Lync Server 2013](lync-server-2013-using-call-me-at-with-a-lync-enabled-phone.md)</span></span>
+  - [<span data-ttu-id="89fde-109">呼叫我在使用已啟用 Lync 的電話與 Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="89fde-109">Using Call Me At with a Lync-enabled phone and Lync Server 2013</span></span>](lync-server-2013-using-call-me-at-with-a-lync-enabled-phone.md)
 
 </div>
 

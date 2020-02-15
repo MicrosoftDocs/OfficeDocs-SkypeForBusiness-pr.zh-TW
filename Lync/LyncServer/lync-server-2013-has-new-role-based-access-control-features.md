@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013 具有新角色型存取控制功能
+title: Lync Server 2013 有新的角色型存取控制功能
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183616
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3dbabc4ca6a471924c6ac76346ad7d59442690db
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0923cdeecd1109e7d900ce0e3d2b947b328ee5a9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727793"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030286"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="new-role-based-access-control-features-in-lync-server-2013"></a><span data-ttu-id="d22b2-102">Lync Server 2013 中的新角色型存取控制功能</span><span class="sxs-lookup"><span data-stu-id="d22b2-102">New role based access control features in Lync Server 2013</span></span>
+# <a name="new-role-based-access-control-features-in-lync-server-2013"></a><span data-ttu-id="8039d-102">新的角色型存取控制功能，在 [Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8039d-102">New role based access control features in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,22 +35,22 @@ ms.locfileid: "41727793"
 
 <span> </span>
 
-<span data-ttu-id="d22b2-103">_**主題上次修改日期：** 2012-09-20_</span><span class="sxs-lookup"><span data-stu-id="d22b2-103">_**Topic Last Modified:** 2012-09-20_</span></span>
+<span data-ttu-id="8039d-103">_**主題上次修改日期：** 2012年-09-20 個_</span><span class="sxs-lookup"><span data-stu-id="8039d-103">_**Topic Last Modified:** 2012-09-20_</span></span>
 
-<span data-ttu-id="d22b2-104">Lync Server 2013 以兩種主要方式來增強以角色為基礎的存取控制（RBAC）功能。</span><span class="sxs-lookup"><span data-stu-id="d22b2-104">Lync Server 2013 enhances the role-based access control (RBAC) feature in two major ways.</span></span> <span data-ttu-id="d22b2-105">您現在可以建立自訂角色，每個角色只擁有一組您指定的一組 Cmdlet 的許可權。</span><span class="sxs-lookup"><span data-stu-id="d22b2-105">You can now create custom roles, which each have privileges for only a set of cmdlets you specify.</span></span> <span data-ttu-id="d22b2-106">您也可以為這些自訂角色提供執行 Cmdlet 腳本的特權。</span><span class="sxs-lookup"><span data-stu-id="d22b2-106">These custom roles can also be given privilege to run scripts of cmdlets.</span></span>
+<span data-ttu-id="8039d-104">Lync Server 2013，以增強兩種主要的方式的角色型存取控制 (RBAC) 功能。</span><span class="sxs-lookup"><span data-stu-id="8039d-104">Lync Server 2013 enhances the role-based access control (RBAC) feature in two major ways.</span></span> <span data-ttu-id="8039d-105">您現在可以建立自訂角色，讓每個具有只有一組您指定的指令程式的權限。</span><span class="sxs-lookup"><span data-stu-id="8039d-105">You can now create custom roles, which each have privileges for only a set of cmdlets you specify.</span></span> <span data-ttu-id="8039d-106">這些自訂角色可以也提供的權限來執行指令碼指令程式。</span><span class="sxs-lookup"><span data-stu-id="8039d-106">These custom roles can also be given privilege to run scripts of cmdlets.</span></span>
 
-<span data-ttu-id="d22b2-107">此外，Lync Server 2013 包含兩個新的預先定義角色。</span><span class="sxs-lookup"><span data-stu-id="d22b2-107">Additionally, Lync Server 2013 includes two new predefined roles.</span></span>
+<span data-ttu-id="8039d-107">此外，Lync Server 2013 包含兩個新的預先定義的角色。</span><span class="sxs-lookup"><span data-stu-id="8039d-107">Additionally, Lync Server 2013 includes two new predefined roles.</span></span>
 
-  - <span data-ttu-id="d22b2-108">擁有 [*回應] 群組管理員*角色的使用者可以管理組織中的特定回應群組佇列，但不一定要有其他佇列或回應群組應用程式的管理許可權。</span><span class="sxs-lookup"><span data-stu-id="d22b2-108">Users given the *Response Group Manager* role can manage specific Response Group queues in your organization, but not necessarily have management rights for other queues or the Response Group application as a whole.</span></span>
+  - <span data-ttu-id="8039d-108">具備「回應群組管理員」\*\* 角色的使用者可以管理組織中特定的回應群組佇列，但他們卻不一定要擁有其他佇列或完整回應群組應用程式的管理權限。</span><span class="sxs-lookup"><span data-stu-id="8039d-108">Users given the *Response Group Manager* role can manage specific Response Group queues in your organization, but not necessarily have management rights for other queues or the Response Group application as a whole.</span></span>
 
-  - <span data-ttu-id="d22b2-109">擁有*持續聊天管理員*角色的使用者可以管理組織中的特定持續聊天室，但不一定要有其他聊天室的管理權利或整體的 [永久聊天] 功能。</span><span class="sxs-lookup"><span data-stu-id="d22b2-109">Users given the *Persistent Chat Manager* role can manage specific Persistent Chat rooms in your organization, but not necessarily have management rights for other rooms or the Persistent Chat feature as a whole.</span></span>
+  - <span data-ttu-id="8039d-109">指定*常設聊天室管理員*」 角色的使用者可以管理組織中的特定常設聊天室聊天室，但是不一定要擁有其他聊天室或整體 [常設聊天室] 功能的管理權限。</span><span class="sxs-lookup"><span data-stu-id="8039d-109">Users given the *Persistent Chat Manager* role can manage specific Persistent Chat rooms in your organization, but not necessarily have management rights for other rooms or the Persistent Chat feature as a whole.</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="d22b2-110">請參閱</span><span class="sxs-lookup"><span data-stu-id="d22b2-110">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8039d-110">另請參閱</span><span class="sxs-lookup"><span data-stu-id="8039d-110">See Also</span></span>
 
 
-[<span data-ttu-id="d22b2-111">在 Lync Server 2013 中規劃角色型存取控制</span><span class="sxs-lookup"><span data-stu-id="d22b2-111">Planning for role-based access control in Lync Server 2013</span></span>](lync-server-2013-planning-for-role-based-access-control.md)  
+[<span data-ttu-id="8039d-111">規劃 Lync Server 2013 中角色型存取控制</span><span class="sxs-lookup"><span data-stu-id="8039d-111">Planning for role-based access control in Lync Server 2013</span></span>](lync-server-2013-planning-for-role-based-access-control.md)  
   
 
 </div>

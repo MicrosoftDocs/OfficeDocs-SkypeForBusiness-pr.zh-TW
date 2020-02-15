@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：語音原則 Cmdlet
+title: Lync Server 2013： 語音原則 cmdlet
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184800
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 00f45a7da053dd6dc150ae99e93b780117ba01e1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6e47225ae9effb4adfb4e312769a79d5f8b59f53
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758595"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030466"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="voice-policy-cmdlets-in-lync-server-2013"></a><span data-ttu-id="fa93a-102">Lync Server 2013 中的語音原則 Cmdlet</span><span class="sxs-lookup"><span data-stu-id="fa93a-102">Voice policy cmdlets in Lync Server 2013</span></span>
+# <a name="voice-policy-cmdlets-in-lync-server-2013"></a><span data-ttu-id="4db95-102">Lync Server 2013 中的語音原則 cmdlet</span><span class="sxs-lookup"><span data-stu-id="4db95-102">Voice policy cmdlets in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,75 +35,75 @@ ms.locfileid: "41758595"
 
 <span> </span>
 
-<span data-ttu-id="fa93a-103">_**主題上次修改日期：** 2013-02-18_</span><span class="sxs-lookup"><span data-stu-id="fa93a-103">_**Topic Last Modified:** 2013-02-18_</span></span>
+<span data-ttu-id="4db95-103">_**上次修改主題：** 2013年-02-18_</span><span class="sxs-lookup"><span data-stu-id="4db95-103">_**Topic Last Modified:** 2013-02-18_</span></span>
 
-<span data-ttu-id="fa93a-104">管理企業語音包括設定語音原則和撥號方案等專案，以及將語音原則與語音路由建立關聯。</span><span class="sxs-lookup"><span data-stu-id="fa93a-104">Managing Enterprise Voice includes configuring such things as voice policies and dial plans, and associating voice policies with voice routes.</span></span> <span data-ttu-id="fa93a-105">與管理語音原則相關的 Cmdlet 可用來設定同時撥打的功能（每次有人呼叫您的 office phone 時都有第二個電話響鈴）、來電轉接及撥號需求。</span><span class="sxs-lookup"><span data-stu-id="fa93a-105">Cmdlets related to managing voice policies can be used to set features such as simultaneous ringing (the ability to have a second phone ring each time someone calls your office phone), call forwarding, and dialing requirement.</span></span>
+<span data-ttu-id="4db95-104">管理企業語音包括等項目設定為 [語音原則和撥號對應表計劃，並將語音原則與語音路由產生關聯。</span><span class="sxs-lookup"><span data-stu-id="4db95-104">Managing Enterprise Voice includes configuring such things as voice policies and dial plans, and associating voice policies with voice routes.</span></span> <span data-ttu-id="4db95-105">管理語音原則相關的指令程式可用來設定功能，例如同時響鈴 （有第二個的電話響鈴的每當有人撥打辦公室電話的能力）、 通話轉接、 及撥號要求。</span><span class="sxs-lookup"><span data-stu-id="4db95-105">Cmdlets related to managing voice policies can be used to set features such as simultaneous ringing (the ability to have a second phone ring each time someone calls your office phone), call forwarding, and dialing requirement.</span></span>
 
 <div>
 
-## <a name="voice-policy-cmdlets"></a><span data-ttu-id="fa93a-106">語音原則 Cmdlet</span><span class="sxs-lookup"><span data-stu-id="fa93a-106">Voice Policy Cmdlets</span></span>
+## <a name="voice-policy-cmdlets"></a><span data-ttu-id="4db95-106">Voice Policy Cmdlets</span><span class="sxs-lookup"><span data-stu-id="4db95-106">Voice Policy Cmdlets</span></span>
 
-<span data-ttu-id="fa93a-107">下列 Cmdlet 可用來管理企業語音的語音原則和撥號方案。</span><span class="sxs-lookup"><span data-stu-id="fa93a-107">The following cmdlets can be used to manage voice policies and dial plans for Enterprise Voice.</span></span>
+<span data-ttu-id="4db95-107">下列指令程式可用來管理語音原則和企業語音撥號對應表。</span><span class="sxs-lookup"><span data-stu-id="4db95-107">The following cmdlets can be used to manage voice policies and dial plans for Enterprise Voice.</span></span>
 
-<span data-ttu-id="fa93a-108">**語音原則**</span><span class="sxs-lookup"><span data-stu-id="fa93a-108">**Voice Policy**</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="fa93a-109">[CsDialPlan](https://technet.microsoft.com/en-us/library/Gg413043(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="fa93a-109">[Get-CsDialPlan](https://technet.microsoft.com/en-us/library/Gg413043(v=OCS.15))</span></span>
+<span data-ttu-id="4db95-108">**語音原則**</span><span class="sxs-lookup"><span data-stu-id="4db95-108">**Voice Policy**</span></span>
 
   - <span></span>  
-    <span data-ttu-id="fa93a-110">[授與 CsDialPlan](https://technet.microsoft.com/en-us/library/Gg398547(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="fa93a-110">[Grant-CsDialPlan](https://technet.microsoft.com/en-us/library/Gg398547(v=OCS.15))</span></span>
+    <span data-ttu-id="4db95-109">[Get-csdialplan](https://technet.microsoft.com/library/Gg413043(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="4db95-109">[Get-CsDialPlan](https://technet.microsoft.com/library/Gg413043(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="fa93a-111">[新-CsDialPlan](https://technet.microsoft.com/en-us/library/Gg425860(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="fa93a-111">[New-CsDialPlan](https://technet.microsoft.com/en-us/library/Gg425860(v=OCS.15))</span></span>
+    <span data-ttu-id="4db95-110">[Grant-csdialplan](https://technet.microsoft.com/library/Gg398547(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="4db95-110">[Grant-CsDialPlan](https://technet.microsoft.com/library/Gg398547(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="fa93a-112">[移除-CsDialPlan](https://technet.microsoft.com/en-us/library/Gg398791(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="fa93a-112">[Remove-CsDialPlan](https://technet.microsoft.com/en-us/library/Gg398791(v=OCS.15))</span></span>
+    <span data-ttu-id="4db95-111">[新 CsDialPlan](https://technet.microsoft.com/library/Gg425860(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="4db95-111">[New-CsDialPlan](https://technet.microsoft.com/library/Gg425860(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="fa93a-113">[Set-CsDialPlan](https://technet.microsoft.com/en-us/library/Gg398644(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="fa93a-113">[Set-CsDialPlan](https://technet.microsoft.com/en-us/library/Gg398644(v=OCS.15))</span></span>
+    <span data-ttu-id="4db95-112">[移除 CsDialPlan](https://technet.microsoft.com/library/Gg398791(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="4db95-112">[Remove-CsDialPlan](https://technet.microsoft.com/library/Gg398791(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="fa93a-114">[Test-CsDialPlan](https://technet.microsoft.com/en-us/library/Gg399024(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="fa93a-114">[Test-CsDialPlan](https://technet.microsoft.com/en-us/library/Gg399024(v=OCS.15))</span></span>
+    <span data-ttu-id="4db95-113">[Set-csdialplan](https://technet.microsoft.com/library/Gg398644(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="4db95-113">[Set-CsDialPlan](https://technet.microsoft.com/library/Gg398644(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="4db95-114">[Test-csdialplan](https://technet.microsoft.com/library/Gg399024(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="4db95-114">[Test-CsDialPlan](https://technet.microsoft.com/library/Gg399024(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="fa93a-115">[CsPstnUsage](https://technet.microsoft.com/en-us/library/Gg412734(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="fa93a-115">[Get-CsPstnUsage](https://technet.microsoft.com/en-us/library/Gg412734(v=OCS.15))</span></span>
+    <span data-ttu-id="4db95-115">[Get-cspstnusage](https://technet.microsoft.com/library/Gg412734(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="4db95-115">[Get-CsPstnUsage](https://technet.microsoft.com/library/Gg412734(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="fa93a-116">[Set-CsPstnUsage](https://technet.microsoft.com/en-us/library/Gg399069(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="fa93a-116">[Set-CsPstnUsage](https://technet.microsoft.com/en-us/library/Gg399069(v=OCS.15))</span></span>
+    <span data-ttu-id="4db95-116">[設定 CsPstnUsage](https://technet.microsoft.com/library/Gg399069(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="4db95-116">[Set-CsPstnUsage](https://technet.microsoft.com/library/Gg399069(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="fa93a-117">[CsVoicePolicy](https://technet.microsoft.com/en-us/library/Gg398101(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="fa93a-117">[Get-CsVoicePolicy](https://technet.microsoft.com/en-us/library/Gg398101(v=OCS.15))</span></span>
+    <span data-ttu-id="4db95-117">[Get-csvoicepolicy](https://technet.microsoft.com/library/Gg398101(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="4db95-117">[Get-CsVoicePolicy](https://technet.microsoft.com/library/Gg398101(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="fa93a-118">[授與 CsVoicePolicy](https://technet.microsoft.com/en-us/library/Gg398828(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="fa93a-118">[Grant-CsVoicePolicy](https://technet.microsoft.com/en-us/library/Gg398828(v=OCS.15))</span></span>
+    <span data-ttu-id="4db95-118">[Grant-csvoicepolicy](https://technet.microsoft.com/library/Gg398828(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="4db95-118">[Grant-CsVoicePolicy](https://technet.microsoft.com/library/Gg398828(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="fa93a-119">[New-CsVoicePolicy](https://technet.microsoft.com/en-us/library/Gg425856(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="fa93a-119">[New-CsVoicePolicy](https://technet.microsoft.com/en-us/library/Gg425856(v=OCS.15))</span></span>
+    <span data-ttu-id="4db95-119">[新 CsVoicePolicy](https://technet.microsoft.com/library/Gg425856(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="4db95-119">[New-CsVoicePolicy](https://technet.microsoft.com/library/Gg425856(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="fa93a-120">[移除-CsVoicePolicy](https://technet.microsoft.com/en-us/library/Gg398309(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="fa93a-120">[Remove-CsVoicePolicy](https://technet.microsoft.com/en-us/library/Gg398309(v=OCS.15))</span></span>
+    <span data-ttu-id="4db95-120">[移除 CsVoicePolicy](https://technet.microsoft.com/library/Gg398309(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="4db95-120">[Remove-CsVoicePolicy](https://technet.microsoft.com/library/Gg398309(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="fa93a-121">[Set-CsVoicePolicy](https://technet.microsoft.com/en-us/library/Gg399021(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="fa93a-121">[Set-CsVoicePolicy](https://technet.microsoft.com/en-us/library/Gg399021(v=OCS.15))</span></span>
+    <span data-ttu-id="4db95-121">[Set-csvoicepolicy](https://technet.microsoft.com/library/Gg399021(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="4db95-121">[Set-CsVoicePolicy](https://technet.microsoft.com/library/Gg399021(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="fa93a-122">[Test-CsVoicePolicy](https://technet.microsoft.com/en-us/library/Gg398310(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="fa93a-122">[Test-CsVoicePolicy](https://technet.microsoft.com/en-us/library/Gg398310(v=OCS.15))</span></span>
+    <span data-ttu-id="4db95-122">[測試 CsVoicePolicy](https://technet.microsoft.com/library/Gg398310(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="4db95-122">[Test-CsVoicePolicy](https://technet.microsoft.com/library/Gg398310(v=OCS.15))</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="fa93a-123">請參閱</span><span class="sxs-lookup"><span data-stu-id="fa93a-123">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="4db95-123">另請參閱</span><span class="sxs-lookup"><span data-stu-id="4db95-123">See Also</span></span>
 
 
-[<span data-ttu-id="fa93a-124">Lync Server 2013 中的企業語音 Cmdlet</span><span class="sxs-lookup"><span data-stu-id="fa93a-124">Enterprise Voice cmdlets in Lync Server 2013</span></span>](lync-server-2013-enterprise-voice-cmdlets.md)  
+[<span data-ttu-id="4db95-124">Lync Server 2013 中的 Enterprise Voice cmdlet</span><span class="sxs-lookup"><span data-stu-id="4db95-124">Enterprise Voice cmdlets in Lync Server 2013</span></span>](lync-server-2013-enterprise-voice-cmdlets.md)  
 
 
-[<span data-ttu-id="fa93a-125">Lync Server PowerShell 博客</span><span class="sxs-lookup"><span data-stu-id="fa93a-125">Lync Server PowerShell Blog</span></span>](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+[<span data-ttu-id="4db95-125">Lync Server PowerShell 部落格</span><span class="sxs-lookup"><span data-stu-id="4db95-125">Lync Server PowerShell Blog</span></span>](http://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

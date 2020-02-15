@@ -1,5 +1,5 @@
 ---
-title: 同步處理 Kerberos 驗證帳戶密碼至 IIS
+title: 將 Kerberos 驗證帳戶密碼與 IIS 同步處理
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183296
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 86e71f87c20064e542aa6a8db1d9b38048c5f736
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 811134697ea04f1dab3637e648ff89455fca07d3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731653"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029744"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="synchronize-a-kerberos-authentication-account-password-to-iis-in-lync-server-2013"></a><span data-ttu-id="4078f-102">在 Lync Server 2013 中同步處理 Kerberos 驗證帳戶密碼至 IIS</span><span class="sxs-lookup"><span data-stu-id="4078f-102">Synchronize a Kerberos authentication account password to IIS in Lync Server 2013</span></span>
+# <a name="synchronize-a-kerberos-authentication-account-password-to-iis-in-lync-server-2013"></a><span data-ttu-id="ae20e-102">同步處理 Lync Server 2013 中的 IIS 的 Kerberos 驗證帳戶密碼</span><span class="sxs-lookup"><span data-stu-id="ae20e-102">Synchronize a Kerberos authentication account password to IIS in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41731653"
 
 <span> </span>
 
-<span data-ttu-id="4078f-103">_**主題上次修改日期：** 2010-11-08_</span><span class="sxs-lookup"><span data-stu-id="4078f-103">_**Topic Last Modified:** 2010-11-08_</span></span>
+<span data-ttu-id="ae20e-103">_**主題上次修改日期：** 2010年-11-08_</span><span class="sxs-lookup"><span data-stu-id="ae20e-103">_**Topic Last Modified:** 2010-11-08_</span></span>
 
-<span data-ttu-id="4078f-104">若要成功完成此程式，您應該以 RTCUniversalServerAdmins 群組成員的使用者身分登入。</span><span class="sxs-lookup"><span data-stu-id="4078f-104">To successfully complete this procedure you should be logged on as a user who is a member of the RTCUniversalServerAdmins group.</span></span>
+<span data-ttu-id="ae20e-104">若要順利完成此程序，您應以 RTCUniversalServerAdmins 群組成員的使用者身分登入。</span><span class="sxs-lookup"><span data-stu-id="ae20e-104">To successfully complete this procedure you should be logged on as a user who is a member of the RTCUniversalServerAdmins group.</span></span>
 
-<span data-ttu-id="4078f-105">在網站、前端伺服器、標準版伺服器和控制器上，都可以使用 Kerberos 驗證帳戶來驗證要求至 Web 服務服務的需求。</span><span class="sxs-lookup"><span data-stu-id="4078f-105">In a site, Front End Servers, Standard Edition servers, and Directors can use a Kerberos authentication account for purposes of authenticating requests to the Web Services service.</span></span> <span data-ttu-id="4078f-106">這個程式會在已指派 Kerberos 帳戶的網站中，尋找每個執行 Web 服務的伺服器，並更新 Internet Information Services （IIS）設定，以使用 Kerberos 帳戶。</span><span class="sxs-lookup"><span data-stu-id="4078f-106">This procedure locates each server running Web Services in a site that has been assigned a Kerberos account and updates the Internet Information Services (IIS) configuration settings to use the Kerberos account.</span></span> <span data-ttu-id="4078f-107">如需詳細資訊，請參閱在[Lync server 2013 的伺服器上設定 Kerberos 驗證帳戶密碼](lync-server-2013-set-a-kerberos-authentication-account-password-on-a-server.md)。</span><span class="sxs-lookup"><span data-stu-id="4078f-107">For details, see [Set a Kerberos authentication account password on a server in Lync Server 2013](lync-server-2013-set-a-kerberos-authentication-account-password-on-a-server.md).</span></span>
+<span data-ttu-id="ae20e-105">在網站中，前端伺服器、 Standard Edition server 和 Director 可以基於驗證要求，以 Web 服務 」 服務使用 Kerberos 驗證帳戶。</span><span class="sxs-lookup"><span data-stu-id="ae20e-105">In a site, Front End Servers, Standard Edition servers, and Directors can use a Kerberos authentication account for purposes of authenticating requests to the Web Services service.</span></span> <span data-ttu-id="ae20e-106">此程序會找出已被指派 Kerberos 帳戶，並更新要使用 Kerberos 帳戶的網際網路資訊服務 (IIS) 組態設定的網站中執行 Web 服務的每部伺服器。</span><span class="sxs-lookup"><span data-stu-id="ae20e-106">This procedure locates each server running Web Services in a site that has been assigned a Kerberos account and updates the Internet Information Services (IIS) configuration settings to use the Kerberos account.</span></span> <span data-ttu-id="ae20e-107">如需詳細資訊，請參閱[設定 Lync Server 2013 中的伺服器上的 Kerberos 驗證帳戶密碼](lync-server-2013-set-a-kerberos-authentication-account-password-on-a-server.md)。</span><span class="sxs-lookup"><span data-stu-id="ae20e-107">For details, see [Set a Kerberos authentication account password on a server in Lync Server 2013](lync-server-2013-set-a-kerberos-authentication-account-password-on-a-server.md).</span></span>
 
 <div>
 
-## <a name="to-set-and-configure-a-kerberos-authentication-account-password"></a><span data-ttu-id="4078f-108">設定和設定 Kerberos 驗證帳戶密碼</span><span class="sxs-lookup"><span data-stu-id="4078f-108">To set and configure a Kerberos authentication account password</span></span>
+## <a name="to-set-and-configure-a-kerberos-authentication-account-password"></a><span data-ttu-id="ae20e-108">若要設定 Kerberos 驗證帳戶密碼</span><span class="sxs-lookup"><span data-stu-id="ae20e-108">To set and configure a Kerberos authentication account password</span></span>
 
-1.  <span data-ttu-id="4078f-109">以 RTCUniversalServerAdmins 群組成員的身分登入來源電腦（例如 fe01.contoso.com）。</span><span class="sxs-lookup"><span data-stu-id="4078f-109">Log on to a source computer (such as fe01.contoso.com) as a member of RTCUniversalServerAdmins group.</span></span>
+1.  <span data-ttu-id="ae20e-109">以 RTCUniversalServerAdmins 群組成員的身分登入來源電腦 (例如 fe01.contoso.com)。</span><span class="sxs-lookup"><span data-stu-id="ae20e-109">Log on to a source computer (such as fe01.contoso.com) as a member of RTCUniversalServerAdmins group.</span></span>
 
-2.  <span data-ttu-id="4078f-110">啟動 Lync Server 管理命令介面：按一下 [**開始**]，按一下 [**所有程式**]，按一下 [ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。</span><span class="sxs-lookup"><span data-stu-id="4078f-110">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+2.  <span data-ttu-id="ae20e-110">啟動 Lync Server 管理命令介面： 按一下 [**開始]**，按一下 [**所有程式]**、 [ **Microsoft Lync Server 2013**]，然後按一下**Lync Server 管理命令介面**。</span><span class="sxs-lookup"><span data-stu-id="ae20e-110">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-3.  <span data-ttu-id="4078f-111">從 Lync Server Management Shell 命令列，執行下列兩個命令：</span><span class="sxs-lookup"><span data-stu-id="4078f-111">From the Lync Server Management Shell command line, run the following two commands:</span></span>
+3.  <span data-ttu-id="ae20e-111">從 Lync Server 管理命令介面命令列中，執行下列兩個命令：</span><span class="sxs-lookup"><span data-stu-id="ae20e-111">From the Lync Server Management Shell command line, run the following two commands:</span></span>
     
         Set-CsKerberosAccountPassword -FromComputer SourceComputer -ToComputer DestinationComputer
     
-    <span data-ttu-id="4078f-112">例如：</span><span class="sxs-lookup"><span data-stu-id="4078f-112">For example:</span></span>
+    <span data-ttu-id="ae20e-112">例如：</span><span class="sxs-lookup"><span data-stu-id="ae20e-112">For example:</span></span>
     
         Set-CsKerberosAccountPassword -FromComputer fe01.contoso.com -ToComputer dir01.contoso.com
     
@@ -61,7 +61,7 @@ ms.locfileid: "41731653"
     
 
     > [!IMPORTANT]
-    > <span data-ttu-id="4078f-113">來源電腦和目的電腦的名稱必須是伺服器的完整功能變數名稱（FQDN）名稱。</span><span class="sxs-lookup"><span data-stu-id="4078f-113">The name of the source computer and destination computer must be a fully qualified domain (FQDN) name of the server.</span></span> <span data-ttu-id="4078f-114">除非 [池名稱] 與您用來做為來源電腦或目的電腦的電腦名稱稱相同，否則您無法使用 [池 FQDN]。</span><span class="sxs-lookup"><span data-stu-id="4078f-114">You cannot use the pool FQDN unless the pool name is the same as the name of the computer that you are using as a source computer or destination computer.</span></span>
+    > <span data-ttu-id="ae20e-p102">來源電腦和目的地電腦的名稱必須是伺服器的完整網域名稱 (FQDN)。除非 FQDN 集區名稱與您作為來源電腦或目的地電腦使用的電腦名稱相同，否則您無法使用該集區 FQDN。</span><span class="sxs-lookup"><span data-stu-id="ae20e-p102">The name of the source computer and destination computer must be a fully qualified domain (FQDN) name of the server. You cannot use the pool FQDN unless the pool name is the same as the name of the computer that you are using as a source computer or destination computer.</span></span>
 
     
     </div>
@@ -70,7 +70,7 @@ ms.locfileid: "41731653"
     
 
     > [!IMPORTANT]
-    > <span data-ttu-id="4078f-115">在對 Kerberos 驗證進行任何變更之後（例如新增帳戶或移除帳戶），您必須從 Lync Server Management Shell 命令提示字元執行<STRONG>Enable-CsTopology</STRONG> 。</span><span class="sxs-lookup"><span data-stu-id="4078f-115">After making any changes to Kerberos authentication, such as adding an account or removing an account, you must run <STRONG>Enable-CsTopology</STRONG> from the Lync Server Management Shell command prompt.</span></span>
+    > <span data-ttu-id="ae20e-115">對 Kerberos 驗證，如新增帳戶或移除帳戶進行任何變更之後您必須從 Lync Server 管理命令介面命令提示字元執行<STRONG>Enable-cstopology</STRONG> 。</span><span class="sxs-lookup"><span data-stu-id="ae20e-115">After making any changes to Kerberos authentication, such as adding an account or removing an account, you must run <STRONG>Enable-CsTopology</STRONG> from the Lync Server Management Shell command prompt.</span></span>
 
     
     </div>

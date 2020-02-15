@@ -1,5 +1,5 @@
 ---
-title: 在池失敗期間使用 Lync Server 2013 的使用者體驗
+title: 集區失敗期間的 Lync Server 2013 使用者經驗
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185166
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2e6506ac67415ca19b33ee968d698d0ed574df8d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 98429875ce56371248552eddae9cb7db5e511529
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744593"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033952"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="user-experience-during-pool-failure-in-lync-server-2013"></a><span data-ttu-id="96a1a-102">Lync Server 2013 中的池失敗期間的使用者體驗</span><span class="sxs-lookup"><span data-stu-id="96a1a-102">User experience during pool failure in Lync Server 2013</span></span>
+# <a name="user-experience-during-pool-failure-in-lync-server-2013"></a><span data-ttu-id="b8c7f-102">Lync Server 2013 中的集區失敗期間的使用者經驗</span><span class="sxs-lookup"><span data-stu-id="b8c7f-102">User experience during pool failure in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,35 +35,35 @@ ms.locfileid: "41744593"
 
 <span> </span>
 
-<span data-ttu-id="96a1a-103">_**主題上次修改日期：** 2012-10-03_</span><span class="sxs-lookup"><span data-stu-id="96a1a-103">_**Topic Last Modified:** 2012-10-03_</span></span>
+<span data-ttu-id="b8c7f-103">_**主題上次修改日期：** 2012年-10-03_</span><span class="sxs-lookup"><span data-stu-id="b8c7f-103">_**Topic Last Modified:** 2012-10-03_</span></span>
 
-<span data-ttu-id="96a1a-104">如果某個池已失敗，則受影響的池的所有使用者都會遭到強制登出，然後登入備份區。</span><span class="sxs-lookup"><span data-stu-id="96a1a-104">If a pool is failed over, all users of the affected pool are forced to sign out and then sign into the backup pool.</span></span> <span data-ttu-id="96a1a-105">您可以在短時間內登入備份池的使用者可能處於復原模式。</span><span class="sxs-lookup"><span data-stu-id="96a1a-105">For a brief period users who sign into the backup pool may be in resiliency mode.</span></span> <span data-ttu-id="96a1a-106">在復原模式中，使用者無法執行會導致 Lync 伺服器上的持久變更（例如新增連絡人）的工作。</span><span class="sxs-lookup"><span data-stu-id="96a1a-106">In Resiliency mode, users are unable to perform tasks that would cause a persistent change on Lync Server, such as adding a contact.</span></span> <span data-ttu-id="96a1a-107">當容錯移轉完成後，所有使用者都可以從備份池中取得所有服務。</span><span class="sxs-lookup"><span data-stu-id="96a1a-107">After the failover is complete, all users can get all services from the backup pool.</span></span>
+<span data-ttu-id="b8c7f-104">如果集區容錯移轉，受影響的集區上的所有使用者都要都強制登出並重新登入備份集區。</span><span class="sxs-lookup"><span data-stu-id="b8c7f-104">If a pool is failed over, all users of the affected pool are forced to sign out and then sign into the backup pool.</span></span> <span data-ttu-id="b8c7f-105">短暫期間登入備份集區的使用者可能會在恢復模式中。</span><span class="sxs-lookup"><span data-stu-id="b8c7f-105">For a brief period users who sign into the backup pool may be in resiliency mode.</span></span> <span data-ttu-id="b8c7f-106">在恢復模式中，使用者將無法執行工作所造成的持續性的變更在 Lync 伺服器上，例如新增連絡人。</span><span class="sxs-lookup"><span data-stu-id="b8c7f-106">In Resiliency mode, users are unable to perform tasks that would cause a persistent change on Lync Server, such as adding a contact.</span></span> <span data-ttu-id="b8c7f-107">容錯移轉完成後，所有使用者可以從備份集區都取得所有服務。</span><span class="sxs-lookup"><span data-stu-id="b8c7f-107">After the failover is complete, all users can get all services from the backup pool.</span></span>
 
-<span data-ttu-id="96a1a-108">使用者在池失敗時所擁有的任何會話都會中斷，而且使用者必須在容錯移轉之後重新建立這些會話，才能繼續進行。</span><span class="sxs-lookup"><span data-stu-id="96a1a-108">Any sessions a user has when the pool fails are disrupted, and the user must re-establish those sessions after failover to continue.</span></span>
+<span data-ttu-id="b8c7f-108">任何的使用者具有時之集區失敗的工作階段都會中斷，而使用者必須重新建立這些繼續的容錯移轉後的工作階段。</span><span class="sxs-lookup"><span data-stu-id="b8c7f-108">Any sessions a user has when the pool fails are disrupted, and the user must re-establish those sessions after failover to continue.</span></span>
 
-<span data-ttu-id="96a1a-109">在容錯移轉或回切期間，不會 rehomed 使用者。</span><span class="sxs-lookup"><span data-stu-id="96a1a-109">Users are not rehomed during failover or failback.</span></span> <span data-ttu-id="96a1a-110">駐留在失敗的池中的使用者，會暫時由備份池提供服務。</span><span class="sxs-lookup"><span data-stu-id="96a1a-110">Users who are homed on a pool that fails will be temporarily serviced by the backup pool.</span></span> <span data-ttu-id="96a1a-111">當主池已還原時，系統管理員可以將這些使用者以其原始的主文件庫提供服務，以進行容錯回復。</span><span class="sxs-lookup"><span data-stu-id="96a1a-111">When the home pool is restored, the administrator can fail back these users to be serviced by their original home pool.</span></span>
+<span data-ttu-id="b8c7f-109">使用者不會重新放置在容錯移轉或容錯回復期間。</span><span class="sxs-lookup"><span data-stu-id="b8c7f-109">Users are not rehomed during failover or failback.</span></span> <span data-ttu-id="b8c7f-110">位於失敗的集區的使用者將暫時受到服務，由備份集區。</span><span class="sxs-lookup"><span data-stu-id="b8c7f-110">Users who are homed on a pool that fails will be temporarily serviced by the backup pool.</span></span> <span data-ttu-id="b8c7f-111">還原主集區時，系統管理員可以容錯回復到其原始主集區由這些使用者。</span><span class="sxs-lookup"><span data-stu-id="b8c7f-111">When the home pool is restored, the administrator can fail back these users to be serviced by their original home pool.</span></span>
 
-<span data-ttu-id="96a1a-112">注意：在 Lync 2013 中，位置資訊服務器資料庫不會複製到備份池中。</span><span class="sxs-lookup"><span data-stu-id="96a1a-112">Note in Lync 2013, the Location Information Server database is not replicated to the backup pool.</span></span> <span data-ttu-id="96a1a-113">針對最佳做法，系統管理員應該定期備份 IIS 資料庫，並在容錯移轉後使用最新的備份複本來還原備份池中的 .LIS 資料庫。</span><span class="sxs-lookup"><span data-stu-id="96a1a-113">For best practice, the administrator should regularly back up the LIS database and use the latest backup copy to restore the LIS database in the backup pool after the failover.</span></span>
+<span data-ttu-id="b8c7f-112">附註在 Lync 2013 中，位置資訊伺服器資料庫不會複寫至備份集區。</span><span class="sxs-lookup"><span data-stu-id="b8c7f-112">Note in Lync 2013, the Location Information Server database is not replicated to the backup pool.</span></span> <span data-ttu-id="b8c7f-113">最佳作法是，管理員應定期備份 LIS 資料庫，並使用最新的備份複本還原 LIS 資料庫在備份集區容錯移轉後。</span><span class="sxs-lookup"><span data-stu-id="b8c7f-113">For best practice, the administrator should regularly back up the LIS database and use the latest backup copy to restore the LIS database in the backup pool after the failover.</span></span>
 
 <div>
 
-## <a name="user-experience-during-failover"></a><span data-ttu-id="96a1a-114">容錯移轉期間的使用者體驗</span><span class="sxs-lookup"><span data-stu-id="96a1a-114">User Experience During Failover</span></span>
+## <a name="user-experience-during-failover"></a><span data-ttu-id="b8c7f-114">容錯移轉期間的使用者體驗</span><span class="sxs-lookup"><span data-stu-id="b8c7f-114">User Experience During Failover</span></span>
 
-<span data-ttu-id="96a1a-115">當使用者位於失敗的池中時，使用者就會登出。使用者參與的任何點對點工作階段都會終止，就像是由該使用者組織的會議一樣。</span><span class="sxs-lookup"><span data-stu-id="96a1a-115">When a user is in a pool that fails, the user is logged out. Any peer-to-peer session the user was participating in is terminated, as are conferences organized by that user.</span></span> <span data-ttu-id="96a1a-116">使用者無法再次登入，直到註冊機復原計時器過期，或由管理員啟動容錯移轉程式（依哪一項操作）。</span><span class="sxs-lookup"><span data-stu-id="96a1a-116">The user cannot log back in until either the registrar resiliency timer expires or the administrator initiates failover procedures, whichever comes first.</span></span> <span data-ttu-id="96a1a-117">當使用者重新登入時，他們會登入備份池中。</span><span class="sxs-lookup"><span data-stu-id="96a1a-117">When the user logs back in, they will log in to the backup pool.</span></span> <span data-ttu-id="96a1a-118">如果他們在容錯移轉完成之前登入，則在容錯移轉完成之前，它們將處於復原模式。</span><span class="sxs-lookup"><span data-stu-id="96a1a-118">If they log in before the failover has completed, they will be in Resiliency mode until failover is complete.</span></span> <span data-ttu-id="96a1a-119">只有使用者可以建立新的會話，或重新建立先前的會話。</span><span class="sxs-lookup"><span data-stu-id="96a1a-119">Only then the user is able to establish new sessions or re-establish previous sessions.</span></span>
+<span data-ttu-id="b8c7f-115">失敗的集區中的使用者時，在使用者登出。使用者已參與任何端對端工作階段終止，因為該使用者召集的會議。</span><span class="sxs-lookup"><span data-stu-id="b8c7f-115">When a user is in a pool that fails, the user is logged out. Any peer-to-peer session the user was participating in is terminated, as are conferences organized by that user.</span></span> <span data-ttu-id="b8c7f-116">使用者無法登入，直到登錄器恢復計時器到期或系統管理員初始化容錯移轉程序，準。</span><span class="sxs-lookup"><span data-stu-id="b8c7f-116">The user cannot log back in until either the registrar resiliency timer expires or the administrator initiates failover procedures, whichever comes first.</span></span> <span data-ttu-id="b8c7f-117">當使用者登入時，他們將登入備份集區。</span><span class="sxs-lookup"><span data-stu-id="b8c7f-117">When the user logs back in, they will log in to the backup pool.</span></span> <span data-ttu-id="b8c7f-118">如果他們登入容錯移轉完成之前，他們會處於恢復能力模式容錯移轉完成之前。</span><span class="sxs-lookup"><span data-stu-id="b8c7f-118">If they log in before the failover has completed, they will be in Resiliency mode until failover is complete.</span></span> <span data-ttu-id="b8c7f-119">僅限使用者則可以建立新的工作階段，或重新建立先前工作階段。</span><span class="sxs-lookup"><span data-stu-id="b8c7f-119">Only then the user is able to establish new sessions or re-establish previous sessions.</span></span>
 
 </div>
 
 <div>
 
-## <a name="user-experience-during-failback"></a><span data-ttu-id="96a1a-120">在回切期間的使用者體驗</span><span class="sxs-lookup"><span data-stu-id="96a1a-120">User Experience During Failback</span></span>
+## <a name="user-experience-during-failback"></a><span data-ttu-id="b8c7f-120">容錯回復期間的使用者體驗</span><span class="sxs-lookup"><span data-stu-id="b8c7f-120">User Experience During Failback</span></span>
 
-<span data-ttu-id="96a1a-121">當受影響的使用者登入備份池中，且使用者在回切期間仍保持登入狀態且正常運作時，可能會發生池容錯回復。</span><span class="sxs-lookup"><span data-stu-id="96a1a-121">Pool failback can happen while an affected user is logged on to the backup pool, and the user remains logged on and working during the failback.</span></span> <span data-ttu-id="96a1a-122">請注意，容錯回復程式需要幾分鐘的時間才能完成。</span><span class="sxs-lookup"><span data-stu-id="96a1a-122">Note that the failback process takes several minute to complete.</span></span><span data-ttu-id="96a1a-123">針對參考，對於20000使用者，預期會需要最多60分鐘的時間。</span><span class="sxs-lookup"><span data-stu-id="96a1a-123">  For reference, it is expected to take up to 60 minutes for a pool of 20,000 users.</span></span>
+<span data-ttu-id="b8c7f-121">在受影響的使用者登入備份集區]，並登入並使用容錯回復期間的使用者仍會保留，就會發生集區容錯回復。</span><span class="sxs-lookup"><span data-stu-id="b8c7f-121">Pool failback can happen while an affected user is logged on to the backup pool, and the user remains logged on and working during the failback.</span></span> <span data-ttu-id="b8c7f-122">請注意，容錯回復程序需要數分鐘才能完成。</span><span class="sxs-lookup"><span data-stu-id="b8c7f-122">Note that the failback process takes several minute to complete.</span></span><span data-ttu-id="b8c7f-123">僅供參考：對於有 20,000 個使用者的集區，預計會花上 60 分鐘。</span><span class="sxs-lookup"><span data-stu-id="b8c7f-123">  For reference, it is expected to take up to 60 minutes for a pool of 20,000 users.</span></span>
 
-<span data-ttu-id="96a1a-124">下表顯示更多關於 Lync 2013 用戶端或 Microsoft Lync 2010 用戶端在回切期間和之後如何受到影響的詳細資料，以及其他池中的使用者如何在發生故障的池中的使用者之間查看和互動。</span><span class="sxs-lookup"><span data-stu-id="96a1a-124">The following tables show more details about how a user with a Lync 2013 client or a Microsoft Lync 2010 client is affected during and after failback, and also how users in other pools see and interact with a user in a pool who is being failed back.</span></span> <span data-ttu-id="96a1a-125">使用 Microsoft Office Communicator 2007 R2 用戶端的使用者無法登入，直到頂層池完全失敗。）</span><span class="sxs-lookup"><span data-stu-id="96a1a-125">Users with Microsoft Office Communicator 2007 R2 clients cannot sign in until the Front End pool is completely failed back.)</span></span>
+<span data-ttu-id="b8c7f-124">下表顯示使用者與 Lync 2013 用戶端或 Microsoft Lync 2010 用戶端會有何影響期間和之後容錯回復，也如何其他集區中的使用者查看並與人員回失敗的集區中的使用者互動的詳細。</span><span class="sxs-lookup"><span data-stu-id="b8c7f-124">The following tables show more details about how a user with a Lync 2013 client or a Microsoft Lync 2010 client is affected during and after failback, and also how users in other pools see and interact with a user in a pool who is being failed back.</span></span> <span data-ttu-id="b8c7f-125">使用 Microsoft Office Communicator 2007 R2 用戶端使用者無法登入前端集區完全失敗回直到。）</span><span class="sxs-lookup"><span data-stu-id="b8c7f-125">Users with Microsoft Office Communicator 2007 R2 clients cannot sign in until the Front End pool is completely failed back.)</span></span>
 
-<span data-ttu-id="96a1a-126">*受影響的使用者*會參照任何從主池中失敗且由備份池提供服務的使用者。</span><span class="sxs-lookup"><span data-stu-id="96a1a-126">The term *affected user* refers to any user who was failed over from the home pool and is being serviced by the backup pool.</span></span> <span data-ttu-id="96a1a-127">根據定義，任何原先駐留在備份池中的使用者，都不是受影響的使用者。</span><span class="sxs-lookup"><span data-stu-id="96a1a-127">By definition, any user originally homed on the backup pool is not an affected user.</span></span>
+<span data-ttu-id="b8c7f-126">*受影響使用者*的字詞指的是任何使用者都已從主集區容錯移轉和所服務的備份集區。</span><span class="sxs-lookup"><span data-stu-id="b8c7f-126">The term *affected user* refers to any user who was failed over from the home pool and is being serviced by the backup pool.</span></span> <span data-ttu-id="b8c7f-127">根據定義，任何使用者原本裝載於備份集區不是受影響的使用者。</span><span class="sxs-lookup"><span data-stu-id="b8c7f-127">By definition, any user originally homed on the backup pool is not an affected user.</span></span>
 
-### <a name="user-experience-for-an-affected-user-in-a-pool-in-failback"></a><span data-ttu-id="96a1a-128">在回切期間，池中受影響使用者的使用者體驗</span><span class="sxs-lookup"><span data-stu-id="96a1a-128">User Experience for an Affected User in a Pool in Failback</span></span>
+### <a name="user-experience-for-an-affected-user-in-a-pool-in-failback"></a><span data-ttu-id="b8c7f-128">在 [容錯回復集區中受影響使用者的使用者經驗</span><span class="sxs-lookup"><span data-stu-id="b8c7f-128">User Experience for an Affected User in a Pool in Failback</span></span>
 
 <table>
 <colgroup>
@@ -73,57 +73,57 @@ ms.locfileid: "41744593"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="96a1a-129">使用者狀態或任務</span><span class="sxs-lookup"><span data-stu-id="96a1a-129">User state or task</span></span></th>
-<th><span data-ttu-id="96a1a-130">在回切期間</span><span class="sxs-lookup"><span data-stu-id="96a1a-130">During failback</span></span></th>
-<th><span data-ttu-id="96a1a-131">在回切完成後</span><span class="sxs-lookup"><span data-stu-id="96a1a-131">After failback completion</span></span></th>
+<th><span data-ttu-id="b8c7f-129">使用者狀態或工作</span><span class="sxs-lookup"><span data-stu-id="b8c7f-129">User state or task</span></span></th>
+<th><span data-ttu-id="b8c7f-130">容錯回復期間</span><span class="sxs-lookup"><span data-stu-id="b8c7f-130">During failback</span></span></th>
+<th><span data-ttu-id="b8c7f-131">容錯回復完成之後</span><span class="sxs-lookup"><span data-stu-id="b8c7f-131">After failback completion</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="96a1a-132">使用者已登入的使用者狀態</span><span class="sxs-lookup"><span data-stu-id="96a1a-132">User state of user already logged in</span></span></p></td>
-<td><p><span data-ttu-id="96a1a-133">使用者保持登入並聯機至備份池。</span><span class="sxs-lookup"><span data-stu-id="96a1a-133">User stays signed in and connected to backup pool.</span></span> <span data-ttu-id="96a1a-134">在某個時間點，使用者將會在復原模式中登出並重新登入原始的主文件庫。</span><span class="sxs-lookup"><span data-stu-id="96a1a-134">At some point user will be signed out and sign back in to the original home pool, in Resiliency mode.</span></span></p></td>
-<td><p><span data-ttu-id="96a1a-135">使用者保持登入狀態，並進入一般模式。</span><span class="sxs-lookup"><span data-stu-id="96a1a-135">User remains signed in and goes into regular mode.</span></span></p></td>
+<td><p><span data-ttu-id="b8c7f-132">使用者已登入的使用者狀態</span><span class="sxs-lookup"><span data-stu-id="b8c7f-132">User state of user already logged in</span></span></p></td>
+<td><p><span data-ttu-id="b8c7f-133">使用者保持登入，並連線至備份集區。</span><span class="sxs-lookup"><span data-stu-id="b8c7f-133">User stays signed in and connected to backup pool.</span></span> <span data-ttu-id="b8c7f-134">有些時候使用者將會被登出並重新登入原始主集區，在恢復模式中。</span><span class="sxs-lookup"><span data-stu-id="b8c7f-134">At some point user will be signed out and sign back in to the original home pool, in Resiliency mode.</span></span></p></td>
+<td><p><span data-ttu-id="b8c7f-135">使用者維持登入狀態並進入一般模式。</span><span class="sxs-lookup"><span data-stu-id="b8c7f-135">User remains signed in and goes into regular mode.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="96a1a-136">登入的新使用者</span><span class="sxs-lookup"><span data-stu-id="96a1a-136">New user logging in</span></span></p></td>
-<td><p><span data-ttu-id="96a1a-137">使用者可以以復原模式登入主池中。</span><span class="sxs-lookup"><span data-stu-id="96a1a-137">User can sign in to the home pool in Resiliency mode.</span></span></p></td>
-<td><p><span data-ttu-id="96a1a-138">使用者可以在標準模式中登入原始的主版池。</span><span class="sxs-lookup"><span data-stu-id="96a1a-138">User can sign in to the original home pool in regular mode.</span></span></p></td>
+<td><p><span data-ttu-id="b8c7f-136">新使用者登入</span><span class="sxs-lookup"><span data-stu-id="b8c7f-136">New user logging in</span></span></p></td>
+<td><p><span data-ttu-id="b8c7f-137">使用者可以登入恢復能力模式中的主集區。</span><span class="sxs-lookup"><span data-stu-id="b8c7f-137">User can sign in to the home pool in Resiliency mode.</span></span></p></td>
+<td><p><span data-ttu-id="b8c7f-138">使用者可以登入原始主集區，以一般模式。</span><span class="sxs-lookup"><span data-stu-id="b8c7f-138">User can sign in to the original home pool in regular mode.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="96a1a-139">依受影響的使用者組織的日常會議</span><span class="sxs-lookup"><span data-stu-id="96a1a-139">Ongoing conferences organized by affected user</span></span></p></td>
-<td><p><span data-ttu-id="96a1a-140">所有的會議形式都是終止的。</span><span class="sxs-lookup"><span data-stu-id="96a1a-140">All modalities of conference are terminated.</span></span> <span data-ttu-id="96a1a-141">隨即會顯示 [重新加入] 按鈕，但使用者無法在受影響的使用者處於復原模式時重新加入。</span><span class="sxs-lookup"><span data-stu-id="96a1a-141">Rejoin button will appear, but no users can rejoin while the affected user is in Resiliency mode.</span></span></p></td>
-<td><p><span data-ttu-id="96a1a-142">所有形式現在都能正常運作。</span><span class="sxs-lookup"><span data-stu-id="96a1a-142">All modalities now work.</span></span> <span data-ttu-id="96a1a-143">每個參與者都需要按一下才能重新加入會議。</span><span class="sxs-lookup"><span data-stu-id="96a1a-143">Every participant needs to click to rejoin the conference.</span></span></p></td>
+<td><p><span data-ttu-id="b8c7f-139">受影響使用者召集的進行中會議</span><span class="sxs-lookup"><span data-stu-id="b8c7f-139">Ongoing conferences organized by affected user</span></span></p></td>
+<td><p><span data-ttu-id="b8c7f-140">會終止所有形式的會議。</span><span class="sxs-lookup"><span data-stu-id="b8c7f-140">All modalities of conference are terminated.</span></span> <span data-ttu-id="b8c7f-141">重新加入] 按鈕會出現，但受影響的使用者處於恢復能力模式時，可以重新加入任何使用者。</span><span class="sxs-lookup"><span data-stu-id="b8c7f-141">Rejoin button will appear, but no users can rejoin while the affected user is in Resiliency mode.</span></span></p></td>
+<td><p><span data-ttu-id="b8c7f-142">所有形式即能立即運作。</span><span class="sxs-lookup"><span data-stu-id="b8c7f-142">All modalities now work.</span></span> <span data-ttu-id="b8c7f-143">每位參與者需要按一下 [重新加入會議。</span><span class="sxs-lookup"><span data-stu-id="b8c7f-143">Every participant needs to click to rejoin the conference.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="96a1a-144">依未受影響的使用者組織的日常會議</span><span class="sxs-lookup"><span data-stu-id="96a1a-144">Ongoing conferences organized by unaffected user</span></span></p></td>
-<td><p><span data-ttu-id="96a1a-145">會議持續且受影響的使用者可以繼續參與會議。</span><span class="sxs-lookup"><span data-stu-id="96a1a-145">Conference continues and affected user can stay in the conference.</span></span> <span data-ttu-id="96a1a-146">受影響的使用者會受到其在復原模式中所能執行的動作限制。</span><span class="sxs-lookup"><span data-stu-id="96a1a-146">Affected user is restricted to what he/she can do in Resiliency mode.</span></span></p></td>
-<td><p><span data-ttu-id="96a1a-147">會議持續進行，而且受影響的使用者可在使用者結束復原模式之後，繼續進行會議，且所有形式都能正常運作。</span><span class="sxs-lookup"><span data-stu-id="96a1a-147">Conference continues, and affected user can stay in the conference and all modalities work after user exits Resiliency mode.</span></span></p></td>
+<td><p><span data-ttu-id="b8c7f-144">不受影響使用者召集的進行中會議</span><span class="sxs-lookup"><span data-stu-id="b8c7f-144">Ongoing conferences organized by unaffected user</span></span></p></td>
+<td><p><span data-ttu-id="b8c7f-145">會議會繼續執行，並受影響使用者能停留在會議中。</span><span class="sxs-lookup"><span data-stu-id="b8c7f-145">Conference continues and affected user can stay in the conference.</span></span> <span data-ttu-id="b8c7f-146">受影響的使用者只有他可以在恢復模式中執行的動作。</span><span class="sxs-lookup"><span data-stu-id="b8c7f-146">Affected user is restricted to what he/she can do in Resiliency mode.</span></span></p></td>
+<td><p><span data-ttu-id="b8c7f-147">會議持續進行，而受影響的使用者能停留在會議中，所有形式皆可運作後使用者退出恢復能力模式。</span><span class="sxs-lookup"><span data-stu-id="b8c7f-147">Conference continues, and affected user can stay in the conference and all modalities work after user exits Resiliency mode.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="96a1a-148">排程或修改排程的會議，建立臨時會議</span><span class="sxs-lookup"><span data-stu-id="96a1a-148">Scheduling or modifying scheduled meetings, creating ad-hoc conferences</span></span></p></td>
-<td><p><span data-ttu-id="96a1a-149">使用者處於復原模式時無法進行。</span><span class="sxs-lookup"><span data-stu-id="96a1a-149">Not possible while user is in Resiliency mode.</span></span></p></td>
-<td><p><span data-ttu-id="96a1a-150">適用于所有形式。</span><span class="sxs-lookup"><span data-stu-id="96a1a-150">Available for all modalities.</span></span></p></td>
+<td><p><span data-ttu-id="b8c7f-148">排程或修改已排程的會議，建立臨機操作會議</span><span class="sxs-lookup"><span data-stu-id="b8c7f-148">Scheduling or modifying scheduled meetings, creating ad-hoc conferences</span></span></p></td>
+<td><p><span data-ttu-id="b8c7f-149">可能無法在使用者處於恢復能力模式。</span><span class="sxs-lookup"><span data-stu-id="b8c7f-149">Not possible while user is in Resiliency mode.</span></span></p></td>
+<td><p><span data-ttu-id="b8c7f-150">適用於所有形式的。</span><span class="sxs-lookup"><span data-stu-id="b8c7f-150">Available for all modalities.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="96a1a-151">同一個池中的其他使用者所看到的目前狀態</span><span class="sxs-lookup"><span data-stu-id="96a1a-151">Presence as seen by other users in the same pool</span></span></p></td>
-<td><p><span data-ttu-id="96a1a-152">使用者在復原模式期間登入備份池時，目前狀態為未知。</span><span class="sxs-lookup"><span data-stu-id="96a1a-152">Presence unknown while user is signed into backup pool during Resiliency mode.</span></span></p></td>
-<td><p><span data-ttu-id="96a1a-153">顯示使用者設定的最後一個目前狀態狀態，目前狀態變更現在會得到反映。</span><span class="sxs-lookup"><span data-stu-id="96a1a-153">Shows the last presence state set by the user, and presence changes will now be reflected.</span></span></p></td>
+<td><p><span data-ttu-id="b8c7f-151">相同集區中其他使用者所看到的目前狀態</span><span class="sxs-lookup"><span data-stu-id="b8c7f-151">Presence as seen by other users in the same pool</span></span></p></td>
+<td><p><span data-ttu-id="b8c7f-152">目前狀態為不明同時使用者會恢復能力模式期間登入備份集區。</span><span class="sxs-lookup"><span data-stu-id="b8c7f-152">Presence unknown while user is signed into backup pool during Resiliency mode.</span></span></p></td>
+<td><p><span data-ttu-id="b8c7f-153">顯示最後一個目前狀態設定的使用者和目前狀態變更會立即反映。</span><span class="sxs-lookup"><span data-stu-id="b8c7f-153">Shows the last presence state set by the user, and presence changes will now be reflected.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="96a1a-154">連絡人清單和通訊錄服務的可用性</span><span class="sxs-lookup"><span data-stu-id="96a1a-154">Contacts list and Address Book Service availability</span></span></p></td>
-<td><p><span data-ttu-id="96a1a-155">無法使用</span><span class="sxs-lookup"><span data-stu-id="96a1a-155">Not available</span></span></p></td>
-<td><p><span data-ttu-id="96a1a-156">離線</span><span class="sxs-lookup"><span data-stu-id="96a1a-156">Available</span></span></p></td>
+<td><p><span data-ttu-id="b8c7f-154">連絡人清單與通訊錄服務可用性</span><span class="sxs-lookup"><span data-stu-id="b8c7f-154">Contacts list and Address Book Service availability</span></span></p></td>
+<td><p><span data-ttu-id="b8c7f-155">不適用</span><span class="sxs-lookup"><span data-stu-id="b8c7f-155">Not available</span></span></p></td>
+<td><p><span data-ttu-id="b8c7f-156">可以使用</span><span class="sxs-lookup"><span data-stu-id="b8c7f-156">Available</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="96a1a-157">所有點對點工作階段與形式</span><span class="sxs-lookup"><span data-stu-id="96a1a-157">All peer-to-peer sessions and modalities</span></span></p></td>
-<td><p><span data-ttu-id="96a1a-158">離線</span><span class="sxs-lookup"><span data-stu-id="96a1a-158">Available</span></span></p></td>
-<td><p><span data-ttu-id="96a1a-159">離線</span><span class="sxs-lookup"><span data-stu-id="96a1a-159">Available</span></span></p></td>
+<td><p><span data-ttu-id="b8c7f-157">所有端對端工作階段與形式</span><span class="sxs-lookup"><span data-stu-id="b8c7f-157">All peer-to-peer sessions and modalities</span></span></p></td>
+<td><p><span data-ttu-id="b8c7f-158">可以使用</span><span class="sxs-lookup"><span data-stu-id="b8c7f-158">Available</span></span></p></td>
+<td><p><span data-ttu-id="b8c7f-159">可以使用</span><span class="sxs-lookup"><span data-stu-id="b8c7f-159">Available</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="user-experience-for-a-user-homed-in-an-unaffected-pool-during-failback-of-another-pool"></a><span data-ttu-id="96a1a-160">使用者在另一個池的回切期間駐留在未受影響的池中的使用者體驗</span><span class="sxs-lookup"><span data-stu-id="96a1a-160">User Experience for a User Homed in an Unaffected Pool During Failback of Another Pool</span></span>
+### <a name="user-experience-for-a-user-homed-in-an-unaffected-pool-during-failback-of-another-pool"></a><span data-ttu-id="b8c7f-160">使用者的使用者經驗位於另一個集區容錯回復期間不會受到影響的集區</span><span class="sxs-lookup"><span data-stu-id="b8c7f-160">User Experience for a User Homed in an Unaffected Pool During Failback of Another Pool</span></span>
 
 <table>
 <colgroup>
@@ -133,31 +133,31 @@ ms.locfileid: "41744593"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="96a1a-161">使用者任務</span><span class="sxs-lookup"><span data-stu-id="96a1a-161">User task</span></span></th>
-<th><span data-ttu-id="96a1a-162">在回切期間</span><span class="sxs-lookup"><span data-stu-id="96a1a-162">During failback</span></span></th>
-<th><span data-ttu-id="96a1a-163">在回切完成後</span><span class="sxs-lookup"><span data-stu-id="96a1a-163">After failback completion</span></span></th>
+<th><span data-ttu-id="b8c7f-161">使用者工作</span><span class="sxs-lookup"><span data-stu-id="b8c7f-161">User task</span></span></th>
+<th><span data-ttu-id="b8c7f-162">容錯回復期間</span><span class="sxs-lookup"><span data-stu-id="b8c7f-162">During failback</span></span></th>
+<th><span data-ttu-id="b8c7f-163">容錯回復完成之後</span><span class="sxs-lookup"><span data-stu-id="b8c7f-163">After failback completion</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="96a1a-164">查看受影響使用者的目前狀態</span><span class="sxs-lookup"><span data-stu-id="96a1a-164">Viewing presence of affected user</span></span></p></td>
-<td><p><span data-ttu-id="96a1a-165">顯示受影響使用者所設定的最後一個目前狀態。</span><span class="sxs-lookup"><span data-stu-id="96a1a-165">Shows the last presence state set by the affected user.</span></span></p></td>
-<td><p><span data-ttu-id="96a1a-166">工作日.</span><span class="sxs-lookup"><span data-stu-id="96a1a-166">Working.</span></span> <span data-ttu-id="96a1a-167">未受影響的使用者會看到受影響使用者所做的更新。</span><span class="sxs-lookup"><span data-stu-id="96a1a-167">Unaffected users see updates made by affected users.</span></span></p></td>
+<td><p><span data-ttu-id="b8c7f-164">檢視受影響使用者的目前狀態</span><span class="sxs-lookup"><span data-stu-id="b8c7f-164">Viewing presence of affected user</span></span></p></td>
+<td><p><span data-ttu-id="b8c7f-165">顯示受影響使用者所設定的最後一個目前狀態。</span><span class="sxs-lookup"><span data-stu-id="b8c7f-165">Shows the last presence state set by the affected user.</span></span></p></td>
+<td><p><span data-ttu-id="b8c7f-166">運作。</span><span class="sxs-lookup"><span data-stu-id="b8c7f-166">Working.</span></span> <span data-ttu-id="b8c7f-167">不會受到影響的使用者會看到受影響的使用者所做的更新。</span><span class="sxs-lookup"><span data-stu-id="b8c7f-167">Unaffected users see updates made by affected users.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="96a1a-168">依受影響的使用者組織的日常會議</span><span class="sxs-lookup"><span data-stu-id="96a1a-168">Ongoing conferences organized by affected user</span></span></p></td>
-<td><p><span data-ttu-id="96a1a-169">所有的會議形式都是終止的。</span><span class="sxs-lookup"><span data-stu-id="96a1a-169">All modalities of conference are terminated.</span></span></p></td>
-<td><p><span data-ttu-id="96a1a-170">所有形式現在都能正常運作。</span><span class="sxs-lookup"><span data-stu-id="96a1a-170">All modalities now work.</span></span> <span data-ttu-id="96a1a-171">每個參與者都需要按一下才能重新加入會議。</span><span class="sxs-lookup"><span data-stu-id="96a1a-171">Every participant needs to click to rejoin the conference.</span></span></p></td>
+<td><p><span data-ttu-id="b8c7f-168">受影響使用者召集的進行中會議</span><span class="sxs-lookup"><span data-stu-id="b8c7f-168">Ongoing conferences organized by affected user</span></span></p></td>
+<td><p><span data-ttu-id="b8c7f-169">會終止所有形式的會議。</span><span class="sxs-lookup"><span data-stu-id="b8c7f-169">All modalities of conference are terminated.</span></span></p></td>
+<td><p><span data-ttu-id="b8c7f-170">所有形式即能立即運作。</span><span class="sxs-lookup"><span data-stu-id="b8c7f-170">All modalities now work.</span></span> <span data-ttu-id="b8c7f-171">每位參與者需要按一下 [重新加入會議。</span><span class="sxs-lookup"><span data-stu-id="b8c7f-171">Every participant needs to click to rejoin the conference.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="96a1a-172">依未受影響的使用者組織的日常會議</span><span class="sxs-lookup"><span data-stu-id="96a1a-172">Ongoing conferences organized by unaffected user</span></span></p></td>
-<td><p><span data-ttu-id="96a1a-173">會議持續進行，而且受影響的使用者可以繼續參與會議，且所有形式都能正常運作。</span><span class="sxs-lookup"><span data-stu-id="96a1a-173">Conference continues, and affected user can stay in the conference and all modalities work.</span></span></p></td>
-<td><p><span data-ttu-id="96a1a-174">會議持續進行，而且受影響的使用者可以繼續參與會議，且所有形式都能正常運作。</span><span class="sxs-lookup"><span data-stu-id="96a1a-174">Conference continues, and affected user can stay in the conference and all modalities work.</span></span></p></td>
+<td><p><span data-ttu-id="b8c7f-172">不受影響使用者召集的進行中會議</span><span class="sxs-lookup"><span data-stu-id="b8c7f-172">Ongoing conferences organized by unaffected user</span></span></p></td>
+<td><p><span data-ttu-id="b8c7f-173">會議持續進行，並受影響的使用者能停留在會議中，所有形式皆可運作。</span><span class="sxs-lookup"><span data-stu-id="b8c7f-173">Conference continues, and affected user can stay in the conference and all modalities work.</span></span></p></td>
+<td><p><span data-ttu-id="b8c7f-174">會議持續進行，並受影響的使用者能停留在會議中，所有形式皆可運作。</span><span class="sxs-lookup"><span data-stu-id="b8c7f-174">Conference continues, and affected user can stay in the conference and all modalities work.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="96a1a-175">所有點對點工作階段與形式</span><span class="sxs-lookup"><span data-stu-id="96a1a-175">All peer-to-peer sessions and modalities</span></span></p></td>
-<td><p><span data-ttu-id="96a1a-176">離線</span><span class="sxs-lookup"><span data-stu-id="96a1a-176">Available</span></span></p></td>
-<td><p><span data-ttu-id="96a1a-177">離線</span><span class="sxs-lookup"><span data-stu-id="96a1a-177">Available</span></span></p></td>
+<td><p><span data-ttu-id="b8c7f-175">所有端對端工作階段與形式</span><span class="sxs-lookup"><span data-stu-id="b8c7f-175">All peer-to-peer sessions and modalities</span></span></p></td>
+<td><p><span data-ttu-id="b8c7f-176">可以使用</span><span class="sxs-lookup"><span data-stu-id="b8c7f-176">Available</span></span></p></td>
+<td><p><span data-ttu-id="b8c7f-177">可以使用</span><span class="sxs-lookup"><span data-stu-id="b8c7f-177">Available</span></span></p></td>
 </tr>
 </tbody>
 </table>

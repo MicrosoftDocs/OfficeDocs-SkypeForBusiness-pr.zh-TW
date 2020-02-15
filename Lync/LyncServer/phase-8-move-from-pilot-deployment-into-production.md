@@ -1,5 +1,5 @@
 ---
-title: 階段8：從試驗部署移至生產環境
+title: 階段 8： 從試驗部署移至實際執行環境
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733539
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 72465d617e747616921825e771b3be6bff157a21
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 07ab5e017f165a3dc5d9883f14b3711501a0e0d4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727353"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034133"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="phase-8-move-from-pilot-deployment-into-production"></a><span data-ttu-id="985bf-102">階段8：從試驗部署移至生產環境</span><span class="sxs-lookup"><span data-stu-id="985bf-102">Phase 8: Move from pilot deployment into production</span></span>
+# <a name="phase-8-move-from-pilot-deployment-into-production"></a><span data-ttu-id="2e582-102">階段 8： 從試驗部署移至實際執行環境</span><span class="sxs-lookup"><span data-stu-id="2e582-102">Phase 8: Move from pilot deployment into production</span></span>
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41727353"
 
 <span> </span>
 
-<span data-ttu-id="985bf-103">_**主題上次修改日期：** 2012-10-15_</span><span class="sxs-lookup"><span data-stu-id="985bf-103">_**Topic Last Modified:** 2012-10-15_</span></span>
+<span data-ttu-id="2e582-103">_**主題上次修改日期：** 2012 年 10 月 15_</span><span class="sxs-lookup"><span data-stu-id="2e582-103">_**Topic Last Modified:** 2012-10-15_</span></span>
 
-<span data-ttu-id="985bf-104">本節中的主題描述您必須完成的工作，才能將 Lync Server 2013 部署從試驗部署移至生產層級部署。</span><span class="sxs-lookup"><span data-stu-id="985bf-104">The topics in this section describe tasks you must complete prior to moving your deployment of Lync Server 2013 from a pilot deployment to a production-level deployment.</span></span>
+<span data-ttu-id="2e582-104">本節中的主題說明您必須從試驗部署移的 Lync Server 2013 部署至實際執行層級部署前須先完成的工作。</span><span class="sxs-lookup"><span data-stu-id="2e582-104">The topics in this section describe tasks you must complete prior to moving your deployment of Lync Server 2013 from a pilot deployment to a production-level deployment.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="985bf-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="985bf-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="2e582-105">本章節內容</span><span class="sxs-lookup"><span data-stu-id="2e582-105">In This Section</span></span>
 
-  - [<span data-ttu-id="985bf-106">設定同盟路由與媒體流量</span><span class="sxs-lookup"><span data-stu-id="985bf-106">Configure federation routes and media traffic</span></span>](configure-federation-routes-and-media-traffic_1.md)
+  - [<span data-ttu-id="2e582-106">設定同盟路由及媒體流量</span><span class="sxs-lookup"><span data-stu-id="2e582-106">Configure federation routes and media traffic</span></span>](configure-federation-routes-and-media-traffic_1.md)
 
-  - [<span data-ttu-id="985bf-107">將剩餘使用者移到 Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="985bf-107">Move remaining users to Lync Server 2013</span></span>](move-remaining-users-to-lync-server-2013_1.md)
+  - [<span data-ttu-id="2e582-107">將剩餘使用者移至 Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2e582-107">Move remaining users to Lync Server 2013</span></span>](move-remaining-users-to-lync-server-2013_1.md)
 
-  - [<span data-ttu-id="985bf-108">在 Lync Server 2013 上設定 XMPP 閘道</span><span class="sxs-lookup"><span data-stu-id="985bf-108">Configure XMPP gateway on Lync Server 2013</span></span>](configure-xmpp-gateway-on-lync-server-2013_1.md)
+  - [<span data-ttu-id="2e582-108">在 Lync Server 2013 設定 XMPP 閘道</span><span class="sxs-lookup"><span data-stu-id="2e582-108">Configure XMPP gateway on Lync Server 2013</span></span>](configure-xmpp-gateway-on-lync-server-2013_1.md)
 
 </div>
 

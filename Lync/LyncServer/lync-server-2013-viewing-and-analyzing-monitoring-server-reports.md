@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：查看及分析監視伺服器報告
+title: Lync Server 2013： 檢視及分析監控伺服器報告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969599
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9e4fce6cf17601d2a68a07a3b832e6b50c10b759
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e8bf51f2836ed7e4bd81fc66aea2ea8755086298
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757357"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029134"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="viewing-and-analyzing-monitoring-server-reports-in-lync-server-2013"></a><span data-ttu-id="0dcd2-102">在 Lync Server 2013 中查看及分析監視伺服器報告</span><span class="sxs-lookup"><span data-stu-id="0dcd2-102">Viewing and analyzing monitoring server reports in Lync Server 2013</span></span>
+# <a name="viewing-and-analyzing-monitoring-server-reports-in-lync-server-2013"></a><span data-ttu-id="227d4-102">檢視及分析 Lync Server 2013 中的監控伺服器報告</span><span class="sxs-lookup"><span data-stu-id="227d4-102">Viewing and analyzing monitoring server reports in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,118 +35,118 @@ ms.locfileid: "41757357"
 
 <span> </span>
 
-<span data-ttu-id="0dcd2-103">_**主題上次修改日期：** 2014-05-19_</span><span class="sxs-lookup"><span data-stu-id="0dcd2-103">_**Topic Last Modified:** 2014-05-19_</span></span>
+<span data-ttu-id="227d4-103">_**上次修改主題：** 2014年-05-19_</span><span class="sxs-lookup"><span data-stu-id="227d4-103">_**Topic Last Modified:** 2014-05-19_</span></span>
 
-<span data-ttu-id="0dcd2-104">[監視伺服器] 報告提供數種不同的語音品質測量，以監控傳送給最終使用者的 QoE。</span><span class="sxs-lookup"><span data-stu-id="0dcd2-104">Monitoring Server reports provides several different measures of voice quality to monitor the QoE that is being delivered to end-users.</span></span> <span data-ttu-id="0dcd2-105">此外，監視伺服器還包含數個內建的報表，您的組織可以用來在組織的網路上觀看使用方式及媒體質量趨勢，並針對發生的媒體質量問題進行疑難排解。</span><span class="sxs-lookup"><span data-stu-id="0dcd2-105">Additionally, Monitoring Server includes several built-in reports that your organization can use to watch usage and media quality trends on your organization's network and troubleshoot media quality issues that arise.</span></span>
+<span data-ttu-id="227d4-104">監控伺服器報告提供監視 QoE，即會傳遞至使用者的語音品質的數個不同的量值。</span><span class="sxs-lookup"><span data-stu-id="227d4-104">Monitoring Server reports provides several different measures of voice quality to monitor the QoE that is being delivered to end-users.</span></span> <span data-ttu-id="227d4-105">此外，監控伺服器包含幾個內建的報告，您的組織可觀看您的組織網路上的使用情況和媒體品質趨勢和引發的媒體品質問題的疑難排解。</span><span class="sxs-lookup"><span data-stu-id="227d4-105">Additionally, Monitoring Server includes several built-in reports that your organization can use to watch usage and media quality trends on your organization's network and troubleshoot media quality issues that arise.</span></span>
 
-<span data-ttu-id="0dcd2-106">讓監視伺服器報告對日常及每週操作感興趣的主要部分，就是查看並分析媒體質量報告，特別是：</span><span class="sxs-lookup"><span data-stu-id="0dcd2-106">A primary part of keeping Monitoring Server Reports interesting for daily and weekly operations is viewing and analyzing Media Quality Reports, in particular:</span></span>
+<span data-ttu-id="227d4-106">保持 Monitoring Server Reports 有趣每天與每週作業的主要部分是檢視，且分析媒體品質的報告，特別是：</span><span class="sxs-lookup"><span data-stu-id="227d4-106">A primary part of keeping Monitoring Server Reports interesting for daily and weekly operations is viewing and analyzing Media Quality Reports, in particular:</span></span>
 
-  - <span data-ttu-id="0dcd2-107">QoE 摘要/趨勢報表</span><span class="sxs-lookup"><span data-stu-id="0dcd2-107">QoE Summary/Trend Reports</span></span>
+  - <span data-ttu-id="227d4-107">QoE 摘要/趨勢報告</span><span class="sxs-lookup"><span data-stu-id="227d4-107">QoE Summary/Trend Reports</span></span>
 
-  - <span data-ttu-id="0dcd2-108">QoE 效能報告</span><span class="sxs-lookup"><span data-stu-id="0dcd2-108">QoE Performance Reports</span></span>
+  - <span data-ttu-id="227d4-108">QoE 效能報告</span><span class="sxs-lookup"><span data-stu-id="227d4-108">QoE Performance Reports</span></span>
 
 <div>
 
-## <a name="view-reports-from-the-monitoring-server"></a><span data-ttu-id="0dcd2-109">從監控伺服器查看報表</span><span class="sxs-lookup"><span data-stu-id="0dcd2-109">View reports from the monitoring server</span></span>
+## <a name="view-reports-from-the-monitoring-server"></a><span data-ttu-id="227d4-109">從監控伺服器檢視報告</span><span class="sxs-lookup"><span data-stu-id="227d4-109">View reports from the monitoring server</span></span>
 
-1.  <span data-ttu-id="0dcd2-110">從網頁瀏覽器，找出託管 SQL reporting services 的伺服器。</span><span class="sxs-lookup"><span data-stu-id="0dcd2-110">From a web browser, locate your servers hosting the SQL reporting services.</span></span>
+1.  <span data-ttu-id="227d4-110">從 web 瀏覽器中，找出您主控 SQL reporting services 的伺服器。</span><span class="sxs-lookup"><span data-stu-id="227d4-110">From a web browser, locate your servers hosting the SQL reporting services.</span></span>
 
-2.  <span data-ttu-id="0dcd2-111">從瀏覽器畫面查看所需的報告。</span><span class="sxs-lookup"><span data-stu-id="0dcd2-111">View the required reports from the browser screen.</span></span>
+2.  <span data-ttu-id="227d4-111">檢視從瀏覽器] 畫面中所需的報表。</span><span class="sxs-lookup"><span data-stu-id="227d4-111">View the required reports from the browser screen.</span></span>
 
-3.  <span data-ttu-id="0dcd2-112">可選選取 [匯出] 選項和 [所需的輸出格式]，匯出報表。</span><span class="sxs-lookup"><span data-stu-id="0dcd2-112">(Optional) Export a report by selecting the export option and the required output format.</span></span>
+3.  <span data-ttu-id="227d4-112">（選用）將報表匯出藉由選取 [匯出] 選項及所需的輸出格式。</span><span class="sxs-lookup"><span data-stu-id="227d4-112">(Optional) Export a report by selecting the export option and the required output format.</span></span>
 
 </div>
 
 <div>
 
-## <a name="configure-call-detail-recording-cdr"></a><span data-ttu-id="0dcd2-113">設定通話詳細資料錄製（CDR）</span><span class="sxs-lookup"><span data-stu-id="0dcd2-113">Configure call detail recording (CDR)</span></span>
+## <a name="configure-call-detail-recording-cdr"></a><span data-ttu-id="227d4-113">設定詳細通話記錄 (CDR)</span><span class="sxs-lookup"><span data-stu-id="227d4-113">Configure call detail recording (CDR)</span></span>
 
-1.  <span data-ttu-id="0dcd2-114">從是 RTCUniversalServerAdmins 群組成員的使用者帳戶（或擁有同等許可權），或指派給 CsServerAdministrator 或 CsAdministrator 角色，登入您在其中部署 Lync Server 2013 的網路中的任何電腦。</span><span class="sxs-lookup"><span data-stu-id="0dcd2-114">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent permissions), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Lync Server 2013.</span></span>
+1.  <span data-ttu-id="227d4-114">從使用者帳戶是 RTCUniversalServerAdmins 群組成員 （或具有相等權限），或指派給 CsServerAdministrator 或 CsAdministrator 角色，登入是在您部署了 Lync Server 2013 網路中的任何電腦。</span><span class="sxs-lookup"><span data-stu-id="227d4-114">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent permissions), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Lync Server 2013.</span></span>
 
-2.  <span data-ttu-id="0dcd2-115">開啟瀏覽器視窗，然後輸入系統管理員 URL，以開啟 Lync Server [控制台]。</span><span class="sxs-lookup"><span data-stu-id="0dcd2-115">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span>
+2.  <span data-ttu-id="227d4-115">開啟瀏覽器視窗，，，然後輸入 Admin URL 以開啟 Lync Server Control Panel。</span><span class="sxs-lookup"><span data-stu-id="227d4-115">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span>
 
-3.  <span data-ttu-id="0dcd2-116">在左側導覽列中，按一下 [**監視及**封存]，然後按一下 [**呼叫詳細資料錄製**]。</span><span class="sxs-lookup"><span data-stu-id="0dcd2-116">In the left navigation bar, click **Monitoring and Archiving**, and then click **Call Detail Recording**.</span></span>
+3.  <span data-ttu-id="227d4-116">在左導覽列中，按一下 **[監控和封存]**，然後按一下 **[詳細通話記錄]**。</span><span class="sxs-lookup"><span data-stu-id="227d4-116">In the left navigation bar, click **Monitoring and Archiving**, and then click **Call Detail Recording**.</span></span>
 
-4.  <span data-ttu-id="0dcd2-117">在 [**通話詳細資料記錄**] 頁面上，按一下表格中的適當網站，按一下 [**編輯**]，然後按一下 [**顯示詳細資料**]。</span><span class="sxs-lookup"><span data-stu-id="0dcd2-117">On the **Call Detail Recording** page, click the appropriate site in the table, click **Edit**, and then click **Show Details**.</span></span>
+4.  <span data-ttu-id="227d4-117">在 [**詳細通話記錄**] 頁面上，按一下表格中的適當網站按一下 [**編輯**]，然後按一下 [**顯示詳細資料**。</span><span class="sxs-lookup"><span data-stu-id="227d4-117">On the **Call Detail Recording** page, click the appropriate site in the table, click **Edit**, and then click **Show Details**.</span></span>
 
-5.  <span data-ttu-id="0dcd2-118">若要開啟清除，請選取 [**啟用監視伺服器的清除**]。</span><span class="sxs-lookup"><span data-stu-id="0dcd2-118">To turn on purging, select **Enable Purging for Monitoring Servers**.</span></span>
+5.  <span data-ttu-id="227d4-118">若要開啟清除，請選取 [**啟用清除的監控伺服器**。</span><span class="sxs-lookup"><span data-stu-id="227d4-118">To turn on purging, select **Enable Purging for Monitoring Servers**.</span></span>
 
-6.  <span data-ttu-id="0dcd2-119">在 **[保持通話詳細資料錄製的最大持續時間（天）** ] 中：選取應保留通話詳細資料錄製的最大天數。</span><span class="sxs-lookup"><span data-stu-id="0dcd2-119">In **Keep call detail recordings for maximum duration (days):** select the maximum number of days that call detail recordings should be retained.</span></span>
+6.  <span data-ttu-id="227d4-119">在 [**保留通話詳細資料錄製最大持續期限 （天）：** 選取應該保留詳細通話最大天數。</span><span class="sxs-lookup"><span data-stu-id="227d4-119">In **Keep call detail recordings for maximum duration (days):** select the maximum number of days that call detail recordings should be retained.</span></span>
 
-7.  <span data-ttu-id="0dcd2-120">若要在**最大持續時間（天）內保留錯誤報表資料：** 請選取要保留錯誤報表的最大天數。</span><span class="sxs-lookup"><span data-stu-id="0dcd2-120">In **Keep error report data for maximum duration (days):** select the maximum number of days that error reports should be retained.</span></span>
+7.  <span data-ttu-id="227d4-120">在 [**將錯誤報告資料保留最大持續期限 （天）：** 選取錯誤報告應保留天數上限。</span><span class="sxs-lookup"><span data-stu-id="227d4-120">In **Keep error report data for maximum duration (days):** select the maximum number of days that error reports should be retained.</span></span>
 
-8.  <span data-ttu-id="0dcd2-121">按一下 [認可]\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="0dcd2-121">Click **Commit**.</span></span>
-
-</div>
-
-<div>
-
-## <a name="configure-qoe"></a><span data-ttu-id="0dcd2-122">設定 QoE</span><span class="sxs-lookup"><span data-stu-id="0dcd2-122">Configure QoE</span></span>
-
-1.  <span data-ttu-id="0dcd2-123">以 RTCUniversalServerAdmins 群組的成員或 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色的成員的身分登入電腦。</span><span class="sxs-lookup"><span data-stu-id="0dcd2-123">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the CsVoiceAdministrator, CsServerAdministrator, or CsAdministrator role.</span></span> <span data-ttu-id="0dcd2-124">如需詳細資訊，請參閱委派設定許可權。</span><span class="sxs-lookup"><span data-stu-id="0dcd2-124">For details, see Delegate Setup Permissions.</span></span>
-
-2.  <span data-ttu-id="0dcd2-125">開啟瀏覽器視窗，然後輸入系統管理員 URL，以開啟 Lync Server [控制台]。</span><span class="sxs-lookup"><span data-stu-id="0dcd2-125">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span>
-
-3.  <span data-ttu-id="0dcd2-126">在左側導覽列中，按一下 [**監視及**封存]，然後按一下 [**體驗資料品質**]。</span><span class="sxs-lookup"><span data-stu-id="0dcd2-126">In the left navigation bar, click **Monitoring and Archiving**, and then click **Quality of Experience Data**.</span></span>
-
-4.  <span data-ttu-id="0dcd2-127">在 [**體驗品質資料**] 頁面上，從表格中按一下適當的網站，按一下 [**編輯**]，然後按一下 [**顯示詳細**資料]。</span><span class="sxs-lookup"><span data-stu-id="0dcd2-127">On the **Quality of Experience Data** page, click the appropriate site from the table, click **Edit**, and then click **Show Details**.</span></span>
-
-5.  <span data-ttu-id="0dcd2-128">若要開啟清除，請選取 [**啟用監視伺服器的清除**]。</span><span class="sxs-lookup"><span data-stu-id="0dcd2-128">To turn on purging, select **Enable Purging for Monitoring Servers**.</span></span>
-
-6.  <span data-ttu-id="0dcd2-129">在 **[保持通話詳細資料記錄的最大持續時間（天）** ] 中：選取 QoE 資料應保留的最大天數。</span><span class="sxs-lookup"><span data-stu-id="0dcd2-129">In **Keep call detail recordings for maximum duration (days):** select the maximum number of days that QoE data should be retained.</span></span>
-
-7.  <span data-ttu-id="0dcd2-130">按一下 [認可]。</span><span class="sxs-lookup"><span data-stu-id="0dcd2-130">Click Commit.</span></span>
+8.  <span data-ttu-id="227d4-121">按一下 **[認可]**。</span><span class="sxs-lookup"><span data-stu-id="227d4-121">Click **Commit**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="change-the-archiving-policy"></a><span data-ttu-id="0dcd2-131">變更存檔原則</span><span class="sxs-lookup"><span data-stu-id="0dcd2-131">Change the archiving policy</span></span>
+## <a name="configure-qoe"></a><span data-ttu-id="227d4-122">需要設定 QoE</span><span class="sxs-lookup"><span data-stu-id="227d4-122">Configure QoE</span></span>
 
-1.  <span data-ttu-id="0dcd2-132">從指派給 CsArchivingAdministrator 或 CsAdministrator 角色的使用者帳戶登入內部部署中的任何電腦。</span><span class="sxs-lookup"><span data-stu-id="0dcd2-132">From a user account that is assigned to the CsArchivingAdministrator or CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="227d4-123">以 RTCUniversalServerAdmins 群組成員或 CsVoiceAdministrator、 CsServerAdministrator 或 CsAdministrator 角色的成員身分登入電腦。</span><span class="sxs-lookup"><span data-stu-id="227d4-123">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the CsVoiceAdministrator, CsServerAdministrator, or CsAdministrator role.</span></span> <span data-ttu-id="227d4-124">如需詳細資訊，請參閱＜Delegate Setup Permissions＞。</span><span class="sxs-lookup"><span data-stu-id="227d4-124">For details, see Delegate Setup Permissions.</span></span>
 
-2.  <span data-ttu-id="0dcd2-133">開啟瀏覽器視窗，然後輸入系統管理員 URL，以開啟 Lync Server [控制台]。</span><span class="sxs-lookup"><span data-stu-id="0dcd2-133">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span>
+2.  <span data-ttu-id="227d4-125">開啟瀏覽器視窗，，，然後輸入 Admin URL 以開啟 Lync Server Control Panel。</span><span class="sxs-lookup"><span data-stu-id="227d4-125">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span>
 
-3.  <span data-ttu-id="0dcd2-134">在左側導覽列中，按一下 [**監視及**封存]，然後按一下 [封存**原則**]。</span><span class="sxs-lookup"><span data-stu-id="0dcd2-134">In the left navigation bar, click **Monitoring and Archiving**, and then click **Archiving Policy**.</span></span>
+3.  <span data-ttu-id="227d4-126">在左導覽列中，按一下 **[監控和封存]**，然後按一下 **[經驗品質資料]**。</span><span class="sxs-lookup"><span data-stu-id="227d4-126">In the left navigation bar, click **Monitoring and Archiving**, and then click **Quality of Experience Data**.</span></span>
 
-4.  <span data-ttu-id="0dcd2-135">按一下原則清單中的 [全域]\*\*\*\*，按一下 [編輯]\*\*\*\*，然後按一下 [顯示詳細資料]\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="0dcd2-135">Click **Global** in the list of policies, click **Edit**, and then click **Show details**.</span></span>
+4.  <span data-ttu-id="227d4-127">在 [**經驗品質資料**] 頁面上，按一下表格中的適當網站按一下 [**編輯**]，然後按一下 [**顯示詳細資料**。</span><span class="sxs-lookup"><span data-stu-id="227d4-127">On the **Quality of Experience Data** page, click the appropriate site from the table, click **Edit**, and then click **Show Details**.</span></span>
 
-5.  <span data-ttu-id="0dcd2-136">在 [**編輯封存原則-全域**] 中，執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="0dcd2-136">In **Edit Archiving Policy - Global**, do the following:</span></span>
+5.  <span data-ttu-id="227d4-128">若要開啟清除，請選取 [**啟用清除的監控伺服器**。</span><span class="sxs-lookup"><span data-stu-id="227d4-128">To turn on purging, select **Enable Purging for Monitoring Servers**.</span></span>
 
-6.  <span data-ttu-id="0dcd2-137">若要啟用或停用部署的內部存檔，請選取或清除 [封存**內部通訊**] 核取方塊。</span><span class="sxs-lookup"><span data-stu-id="0dcd2-137">To enable or disable internal archiving for the deployment, select or clear the **Archive internal communications** check box.</span></span>
+6.  <span data-ttu-id="227d4-129">在 [**保留通話詳細資料錄製最大持續期限 （天）：** 選取應該保留 QoE 資料最大天數。</span><span class="sxs-lookup"><span data-stu-id="227d4-129">In **Keep call detail recordings for maximum duration (days):** select the maximum number of days that QoE data should be retained.</span></span>
 
-7.  <span data-ttu-id="0dcd2-138">若要啟用或停用部署的外部存檔，請選取或清除 [封存**外部通訊**] 核取方塊。</span><span class="sxs-lookup"><span data-stu-id="0dcd2-138">To enable or disable external archiving for the deployment, select or clear the **Archive external communications** check box.</span></span>
-
-8.  <span data-ttu-id="0dcd2-139">按一下 [認可]\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="0dcd2-139">Click **Commit**.</span></span>
+7.  <span data-ttu-id="227d4-130">按一下 [認可]。</span><span class="sxs-lookup"><span data-stu-id="227d4-130">Click Commit.</span></span>
 
 </div>
 
 <div>
 
-## <a name="apply-an-archiving-policy-to-a-user"></a><span data-ttu-id="0dcd2-140">將存檔原則套用至使用者</span><span class="sxs-lookup"><span data-stu-id="0dcd2-140">Apply an archiving policy to a user</span></span>
+## <a name="change-the-archiving-policy"></a><span data-ttu-id="227d4-131">若要變更封存原則</span><span class="sxs-lookup"><span data-stu-id="227d4-131">Change the archiving policy</span></span>
 
-1.  <span data-ttu-id="0dcd2-141">從指派給 CsArchivingAdministrator 或 CsAdministrator 角色的使用者帳戶登入內部部署中的任何電腦。</span><span class="sxs-lookup"><span data-stu-id="0dcd2-141">From a user account that is assigned to the CsArchivingAdministrator or CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="227d4-132">使用指派到 CsArchivingAdministrator 或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。</span><span class="sxs-lookup"><span data-stu-id="227d4-132">From a user account that is assigned to the CsArchivingAdministrator or CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="0dcd2-142">開啟瀏覽器視窗，然後輸入系統管理員 URL，以開啟 Lync Server [控制台]。</span><span class="sxs-lookup"><span data-stu-id="0dcd2-142">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span>
+2.  <span data-ttu-id="227d4-133">開啟瀏覽器視窗，，，然後輸入 Admin URL 以開啟 Lync Server Control Panel。</span><span class="sxs-lookup"><span data-stu-id="227d4-133">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span>
 
-3.  <span data-ttu-id="0dcd2-143">在左導覽列中，按一下 [使用者]\*\*\*\*，然後搜尋想要設定的使用者帳戶。</span><span class="sxs-lookup"><span data-stu-id="0dcd2-143">In the left navigation bar, click **Users**, and then search on the user account that you want to configure.</span></span>
+3.  <span data-ttu-id="227d4-134">在左側導覽列中，依序按一下 **[監控和封存]** 和 **[封存原則]**。</span><span class="sxs-lookup"><span data-stu-id="227d4-134">In the left navigation bar, click **Monitoring and Archiving**, and then click **Archiving Policy**.</span></span>
 
-4.  <span data-ttu-id="0dcd2-144">在列出搜尋結果的表格中，依序按一下使用者帳戶、[編輯]\*\*\*\* 及 [顯示詳細資料]\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="0dcd2-144">In the table that lists the search results, click the user account, click **Edit**, and then click **Show details**.</span></span>
+4.  <span data-ttu-id="227d4-135">按一下原則清單中的 **[全域]**，並按一下 **[編輯]**，然後按一下 **[顯示詳細資料]**。</span><span class="sxs-lookup"><span data-stu-id="227d4-135">Click **Global** in the list of policies, click **Edit**, and then click **Show details**.</span></span>
 
-5.  <span data-ttu-id="0dcd2-145">在 [**存檔原則**] 下的 [**編輯 Lync Server 使用者**] 中，選取您要套用的存檔使用者原則。</span><span class="sxs-lookup"><span data-stu-id="0dcd2-145">In **Edit Lync Server User** under **Archiving policy**, select the archiving user policy that you want to apply.</span></span>
+5.  <span data-ttu-id="227d4-136">在 **[編輯封存原則 - 全域]** 中，執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="227d4-136">In **Edit Archiving Policy - Global**, do the following:</span></span>
 
-6.  <span data-ttu-id="0dcd2-146">按一下 [認可]\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="0dcd2-146">Click **Commit**.</span></span>
+6.  <span data-ttu-id="227d4-137">若要啟用或停用內部封存的部署，請選取或清除 [**封存內部通訊**] 核取方塊。</span><span class="sxs-lookup"><span data-stu-id="227d4-137">To enable or disable internal archiving for the deployment, select or clear the **Archive internal communications** check box.</span></span>
+
+7.  <span data-ttu-id="227d4-138">若要啟用或停用 [部署的外部封存，請選取或清除 [**封存外部通訊**] 核取方塊。</span><span class="sxs-lookup"><span data-stu-id="227d4-138">To enable or disable external archiving for the deployment, select or clear the **Archive external communications** check box.</span></span>
+
+8.  <span data-ttu-id="227d4-139">按一下 **[認可]**。</span><span class="sxs-lookup"><span data-stu-id="227d4-139">Click **Commit**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="0dcd2-147">請參閱</span><span class="sxs-lookup"><span data-stu-id="0dcd2-147">See Also</span></span>
+## <a name="apply-an-archiving-policy-to-a-user"></a><span data-ttu-id="227d4-140">封存原則套用至使用者</span><span class="sxs-lookup"><span data-stu-id="227d4-140">Apply an archiving policy to a user</span></span>
+
+1.  <span data-ttu-id="227d4-141">使用指派到 CsArchivingAdministrator 或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。</span><span class="sxs-lookup"><span data-stu-id="227d4-141">From a user account that is assigned to the CsArchivingAdministrator or CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+
+2.  <span data-ttu-id="227d4-142">開啟瀏覽器視窗，，，然後輸入 Admin URL 以開啟 Lync Server Control Panel。</span><span class="sxs-lookup"><span data-stu-id="227d4-142">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span>
+
+3.  <span data-ttu-id="227d4-143">在左導覽列中，按一下 **[使用者]**，然後搜尋想要設定的使用者帳戶。</span><span class="sxs-lookup"><span data-stu-id="227d4-143">In the left navigation bar, click **Users**, and then search on the user account that you want to configure.</span></span>
+
+4.  <span data-ttu-id="227d4-144">在列出搜尋結果的表格中，按一下使用者帳戶，並依序按一下 **[編輯]** 及 **[顯示詳細資料]**。</span><span class="sxs-lookup"><span data-stu-id="227d4-144">In the table that lists the search results, click the user account, click **Edit**, and then click **Show details**.</span></span>
+
+5.  <span data-ttu-id="227d4-145">在 [**編輯 Lync Server 使用者**] [**封存原則**] 下，選取您想要套用的封存使用者原則。</span><span class="sxs-lookup"><span data-stu-id="227d4-145">In **Edit Lync Server User** under **Archiving policy**, select the archiving user policy that you want to apply.</span></span>
+
+6.  <span data-ttu-id="227d4-146">按一下 **[認可]**。</span><span class="sxs-lookup"><span data-stu-id="227d4-146">Click **Commit**.</span></span>
+
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="227d4-147">另請參閱</span><span class="sxs-lookup"><span data-stu-id="227d4-147">See Also</span></span>
 
 
-[<span data-ttu-id="0dcd2-148">在 Lync Server 2013 中使用監視報告</span><span class="sxs-lookup"><span data-stu-id="0dcd2-148">Using Monitoring Reports in Lync Server 2013</span></span>](lync-server-2013-using-monitoring-reports.md)  
-[<span data-ttu-id="0dcd2-149">Lync Server 2013 中的伺服器效能報告</span><span class="sxs-lookup"><span data-stu-id="0dcd2-149">Server Performance Report in Lync Server 2013</span></span>](lync-server-2013-server-performance-report.md)  
-[<span data-ttu-id="0dcd2-150">Lync Server 2013 中的媒體質量比較報告</span><span class="sxs-lookup"><span data-stu-id="0dcd2-150">Media Quality Comparison Report in Lync Server 2013</span></span>](lync-server-2013-media-quality-comparison-report.md)  
+[<span data-ttu-id="227d4-148">Lync Server 2013 中使用監控報告</span><span class="sxs-lookup"><span data-stu-id="227d4-148">Using Monitoring Reports in Lync Server 2013</span></span>](lync-server-2013-using-monitoring-reports.md)  
+[<span data-ttu-id="227d4-149">Lync Server 2013 中的伺服器效能報告</span><span class="sxs-lookup"><span data-stu-id="227d4-149">Server Performance Report in Lync Server 2013</span></span>](lync-server-2013-server-performance-report.md)  
+[<span data-ttu-id="227d4-150">Lync Server 2013 中的媒體品質比較報告</span><span class="sxs-lookup"><span data-stu-id="227d4-150">Media Quality Comparison Report in Lync Server 2013</span></span>](lync-server-2013-media-quality-comparison-report.md)  
   
 
 </div>

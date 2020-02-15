@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：tblFileToken
+title: 'Lync Server 2013: tblFileToken'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184073
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b469b79e680c202654024d1ac20a55b9929e4b10
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 839086521c6e9054d1759943134b305c8205f59f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764179"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42025714"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="tblfiletoken-in-lync-server-2013"></a><span data-ttu-id="bc10a-102">Lync Server 2013 中的 tblFileToken</span><span class="sxs-lookup"><span data-stu-id="bc10a-102">tblFileToken in Lync Server 2013</span></span>
+# <a name="tblfiletoken-in-lync-server-2013"></a><span data-ttu-id="f6aad-102">Lync Server 2013 中的 tblFileToken</span><span class="sxs-lookup"><span data-stu-id="f6aad-102">tblFileToken in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41764179"
 
 <span> </span>
 
-<span data-ttu-id="bc10a-103">_**主題上次修改日期：** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="bc10a-103">_**Topic Last Modified:** 2012-09-12_</span></span>
+<span data-ttu-id="f6aad-103">_**主題上次修改日期：** 2012年-09-12_</span><span class="sxs-lookup"><span data-stu-id="f6aad-103">_**Topic Last Modified:** 2012-09-12_</span></span>
 
-<span data-ttu-id="bc10a-104">tblFileToken 包含臨時權杖以進行檔案傳輸。</span><span class="sxs-lookup"><span data-stu-id="bc10a-104">tblFileToken contains temporary tokens for file transfer purposes.</span></span>
+<span data-ttu-id="f6aad-104">tblFileToken 包含用於檔案傳輸的臨時權杖。</span><span class="sxs-lookup"><span data-stu-id="f6aad-104">tblFileToken contains temporary tokens for file transfer purposes.</span></span>
 
-### <a name="columns"></a><span data-ttu-id="bc10a-105">分欄</span><span class="sxs-lookup"><span data-stu-id="bc10a-105">Columns</span></span>
+### <a name="columns"></a><span data-ttu-id="f6aad-105">Columns</span><span class="sxs-lookup"><span data-stu-id="f6aad-105">Columns</span></span>
 
 <table>
 <colgroup>
@@ -49,62 +49,62 @@ ms.locfileid: "41764179"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="bc10a-106">左欄</span><span class="sxs-lookup"><span data-stu-id="bc10a-106">Column</span></span></th>
-<th><span data-ttu-id="bc10a-107">類型</span><span class="sxs-lookup"><span data-stu-id="bc10a-107">Type</span></span></th>
-<th><span data-ttu-id="bc10a-108">說明</span><span class="sxs-lookup"><span data-stu-id="bc10a-108">Description</span></span></th>
+<th><span data-ttu-id="f6aad-106">欄</span><span class="sxs-lookup"><span data-stu-id="f6aad-106">Column</span></span></th>
+<th><span data-ttu-id="f6aad-107">類型	</span><span class="sxs-lookup"><span data-stu-id="f6aad-107">Type</span></span></th>
+<th><span data-ttu-id="f6aad-108">描述</span><span class="sxs-lookup"><span data-stu-id="f6aad-108">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="bc10a-109">fileToken</span><span class="sxs-lookup"><span data-stu-id="bc10a-109">fileToken</span></span></p></td>
-<td><p><span data-ttu-id="bc10a-110">Nvarchar （50），not null</span><span class="sxs-lookup"><span data-stu-id="bc10a-110">nvarchar (50), not null</span></span></p></td>
-<td><p><span data-ttu-id="bc10a-111">唯一標記（GUID）。</span><span class="sxs-lookup"><span data-stu-id="bc10a-111">Unique token (a GUID).</span></span></p></td>
+<td><p><span data-ttu-id="f6aad-109">fileToken</span><span class="sxs-lookup"><span data-stu-id="f6aad-109">fileToken</span></span></p></td>
+<td><p><span data-ttu-id="f6aad-110">nvarchar (50)，非 null</span><span class="sxs-lookup"><span data-stu-id="f6aad-110">nvarchar (50), not null</span></span></p></td>
+<td><p><span data-ttu-id="f6aad-111">唯一 Token (GUID)。</span><span class="sxs-lookup"><span data-stu-id="f6aad-111">Unique token (a GUID).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bc10a-112">fileTokenUserID</span><span class="sxs-lookup"><span data-stu-id="bc10a-112">fileTokenUserID</span></span></p></td>
-<td><p><span data-ttu-id="bc10a-113">int，not null</span><span class="sxs-lookup"><span data-stu-id="bc10a-113">int, not null</span></span></p></td>
-<td><p><span data-ttu-id="bc10a-114">要轉移檔案之主體的 ID。</span><span class="sxs-lookup"><span data-stu-id="bc10a-114">ID of the principal that is transferring the file.</span></span></p></td>
+<td><p><span data-ttu-id="f6aad-112">fileTokenUserID</span><span class="sxs-lookup"><span data-stu-id="f6aad-112">fileTokenUserID</span></span></p></td>
+<td><p><span data-ttu-id="f6aad-113">int，非 null</span><span class="sxs-lookup"><span data-stu-id="f6aad-113">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="f6aad-114">傳輸檔案之主體的識別碼。</span><span class="sxs-lookup"><span data-stu-id="f6aad-114">ID of the principal that is transferring the file.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="bc10a-115">fileTokenChannelID</span><span class="sxs-lookup"><span data-stu-id="bc10a-115">fileTokenChannelID</span></span></p></td>
-<td><p><span data-ttu-id="bc10a-116">GUID，不是 null</span><span class="sxs-lookup"><span data-stu-id="bc10a-116">GUID, not null</span></span></p></td>
-<td><p><span data-ttu-id="bc10a-117">聊天室節點的 GUID。</span><span class="sxs-lookup"><span data-stu-id="bc10a-117">GUID of the chat room node.</span></span></p></td>
+<td><p><span data-ttu-id="f6aad-115">fileTokenChannelID</span><span class="sxs-lookup"><span data-stu-id="f6aad-115">fileTokenChannelID</span></span></p></td>
+<td><p><span data-ttu-id="f6aad-116">GUID，非 null</span><span class="sxs-lookup"><span data-stu-id="f6aad-116">GUID, not null</span></span></p></td>
+<td><p><span data-ttu-id="f6aad-117">聊天室節點的 GUID。</span><span class="sxs-lookup"><span data-stu-id="f6aad-117">GUID of the chat room node.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bc10a-118">fileTokenExpireDate</span><span class="sxs-lookup"><span data-stu-id="bc10a-118">fileTokenExpireDate</span></span></p></td>
-<td><p><span data-ttu-id="bc10a-119">datetime、not null</span><span class="sxs-lookup"><span data-stu-id="bc10a-119">datetime, not null</span></span></p></td>
-<td><p><span data-ttu-id="bc10a-120">到期時間。</span><span class="sxs-lookup"><span data-stu-id="bc10a-120">Expiration time.</span></span> <span data-ttu-id="bc10a-121">（權杖會在30分鐘之後到期，除非已固定（請參閱此欄中的下列描述）。</span><span class="sxs-lookup"><span data-stu-id="bc10a-121">(Tokens expire after 30 minutes, unless pinned (see the following descriptions in this column).</span></span></p></td>
+<td><p><span data-ttu-id="f6aad-118">fileTokenExpireDate</span><span class="sxs-lookup"><span data-stu-id="f6aad-118">fileTokenExpireDate</span></span></p></td>
+<td><p><span data-ttu-id="f6aad-119">datetime，非 null</span><span class="sxs-lookup"><span data-stu-id="f6aad-119">datetime, not null</span></span></p></td>
+<td><p><span data-ttu-id="f6aad-p101">到期時間 (權杖於 30 分鐘後到期，除非已固定 (請參閱此欄中下列說明)。</span><span class="sxs-lookup"><span data-stu-id="f6aad-p101">Expiration time. (Tokens expire after 30 minutes, unless pinned (see the following descriptions in this column).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="bc10a-122">fileTokenComplianceFileUrl</span><span class="sxs-lookup"><span data-stu-id="bc10a-122">fileTokenComplianceFileUrl</span></span></p></td>
-<td><p><span data-ttu-id="bc10a-123">Nvarchar （256）</span><span class="sxs-lookup"><span data-stu-id="bc10a-123">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="bc10a-124">已傳送檔案的 URL （適用于合規性服務使用）。</span><span class="sxs-lookup"><span data-stu-id="bc10a-124">URL of the transferred file (for Compliance service use).</span></span></p></td>
+<td><p><span data-ttu-id="f6aad-122">fileTokenComplianceFileUrl</span><span class="sxs-lookup"><span data-stu-id="f6aad-122">fileTokenComplianceFileUrl</span></span></p></td>
+<td><p><span data-ttu-id="f6aad-123">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="f6aad-123">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="f6aad-124">已傳輸檔案的 URL (供 Compliance Service 使用)。</span><span class="sxs-lookup"><span data-stu-id="f6aad-124">URL of the transferred file (for Compliance service use).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bc10a-125">fileTokenComplianceThumbnailUrl</span><span class="sxs-lookup"><span data-stu-id="bc10a-125">fileTokenComplianceThumbnailUrl</span></span></p></td>
-<td><p><span data-ttu-id="bc10a-126">Nvarchar （256）</span><span class="sxs-lookup"><span data-stu-id="bc10a-126">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="bc10a-127">已傳送檔案的縮圖 URL （適用于合規性服務使用）。</span><span class="sxs-lookup"><span data-stu-id="bc10a-127">URL of the thumbnail for the transferred file (for Compliance service use).</span></span></p></td>
+<td><p><span data-ttu-id="f6aad-125">fileTokenComplianceThumbnailUrl</span><span class="sxs-lookup"><span data-stu-id="f6aad-125">fileTokenComplianceThumbnailUrl</span></span></p></td>
+<td><p><span data-ttu-id="f6aad-126">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="f6aad-126">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="f6aad-127">已傳輸檔案的縮圖 URL (供 Compliance Service 使用)。</span><span class="sxs-lookup"><span data-stu-id="f6aad-127">URL of the thumbnail for the transferred file (for Compliance service use).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="bc10a-128">fileTokenComplianceTime</span><span class="sxs-lookup"><span data-stu-id="bc10a-128">fileTokenComplianceTime</span></span></p></td>
-<td><p><span data-ttu-id="bc10a-129">datetime2</span><span class="sxs-lookup"><span data-stu-id="bc10a-129">datetime2</span></span></p></td>
-<td><p><span data-ttu-id="bc10a-130">實際檔案傳輸作業（適用于合規性服務使用）的時間戳記。</span><span class="sxs-lookup"><span data-stu-id="bc10a-130">Timestamp for the actual file transfer operation (for Compliance service use).</span></span></p></td>
+<td><p><span data-ttu-id="f6aad-128">fileTokenComplianceTime</span><span class="sxs-lookup"><span data-stu-id="f6aad-128">fileTokenComplianceTime</span></span></p></td>
+<td><p><span data-ttu-id="f6aad-129">datetime2</span><span class="sxs-lookup"><span data-stu-id="f6aad-129">datetime2</span></span></p></td>
+<td><p><span data-ttu-id="f6aad-130">實際檔案傳輸作業的時間戳記 (供 Compliance Service 使用)。</span><span class="sxs-lookup"><span data-stu-id="f6aad-130">Timestamp for the actual file transfer operation (for Compliance service use).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bc10a-131">fileTokenComplianceIsUpload</span><span class="sxs-lookup"><span data-stu-id="bc10a-131">fileTokenComplianceIsUpload</span></span></p></td>
-<td><p><span data-ttu-id="bc10a-132">稍微</span><span class="sxs-lookup"><span data-stu-id="bc10a-132">bit</span></span></p></td>
-<td><p><span data-ttu-id="bc10a-133">如果上傳則為 True;如果下載（適用于相容性服務使用），則為 False。</span><span class="sxs-lookup"><span data-stu-id="bc10a-133">True if upload; False if download (for Compliance service use).</span></span></p></td>
+<td><p><span data-ttu-id="f6aad-131">fileTokenComplianceIsUpload</span><span class="sxs-lookup"><span data-stu-id="f6aad-131">fileTokenComplianceIsUpload</span></span></p></td>
+<td><p><span data-ttu-id="f6aad-132">位元</span><span class="sxs-lookup"><span data-stu-id="f6aad-132">bit</span></span></p></td>
+<td><p><span data-ttu-id="f6aad-133">若上傳則為 True；若下載則為 False (供 Compliance Service 使用)。</span><span class="sxs-lookup"><span data-stu-id="f6aad-133">True if upload; False if download (for Compliance service use).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="bc10a-134">fileTokenCompliancePinned</span><span class="sxs-lookup"><span data-stu-id="bc10a-134">fileTokenCompliancePinned</span></span></p></td>
-<td><p><span data-ttu-id="bc10a-135">bit、not null</span><span class="sxs-lookup"><span data-stu-id="bc10a-135">bit, not null</span></span></p></td>
-<td><p><span data-ttu-id="bc10a-136">如果權杖已釘選，則為 True。</span><span class="sxs-lookup"><span data-stu-id="bc10a-136">True if token is pinned.</span></span> <span data-ttu-id="bc10a-137">它是用來在表格中保留權杖，直到合規性服務有機會從它取得相關欄位為止。</span><span class="sxs-lookup"><span data-stu-id="bc10a-137">It’s used to keep the token in the table until Compliance service has a chance to retrieve the relevant fields from it.</span></span></p></td>
+<td><p><span data-ttu-id="f6aad-134">fileTokenCompliancePinned</span><span class="sxs-lookup"><span data-stu-id="f6aad-134">fileTokenCompliancePinned</span></span></p></td>
+<td><p><span data-ttu-id="f6aad-135">位元，非 null</span><span class="sxs-lookup"><span data-stu-id="f6aad-135">bit, not null</span></span></p></td>
+<td><p><span data-ttu-id="f6aad-p102">若權杖已固定則為 True，用於將權杖保存在表格中，直到 Compliance Service 有機會從中擷取相關欄位。</span><span class="sxs-lookup"><span data-stu-id="f6aad-p102">True if token is pinned. It’s used to keep the token in the table until Compliance service has a chance to retrieve the relevant fields from it.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a><span data-ttu-id="bc10a-138">鍵</span><span class="sxs-lookup"><span data-stu-id="bc10a-138">Keys</span></span>
+### <a name="keys"></a><span data-ttu-id="f6aad-138">索引鍵</span><span class="sxs-lookup"><span data-stu-id="f6aad-138">Keys</span></span>
 
 <table>
 <colgroup>
@@ -113,18 +113,18 @@ ms.locfileid: "41764179"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="bc10a-139">左欄</span><span class="sxs-lookup"><span data-stu-id="bc10a-139">Column</span></span></th>
-<th><span data-ttu-id="bc10a-140">說明</span><span class="sxs-lookup"><span data-stu-id="bc10a-140">Description</span></span></th>
+<th><span data-ttu-id="f6aad-139">欄</span><span class="sxs-lookup"><span data-stu-id="f6aad-139">Column</span></span></th>
+<th><span data-ttu-id="f6aad-140">描述</span><span class="sxs-lookup"><span data-stu-id="f6aad-140">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="bc10a-141">fileToken</span><span class="sxs-lookup"><span data-stu-id="bc10a-141">fileToken</span></span></p></td>
-<td><p><span data-ttu-id="bc10a-142">主鍵。</span><span class="sxs-lookup"><span data-stu-id="bc10a-142">Primary key.</span></span></p></td>
+<td><p><span data-ttu-id="f6aad-141">fileToken</span><span class="sxs-lookup"><span data-stu-id="f6aad-141">fileToken</span></span></p></td>
+<td><p><span data-ttu-id="f6aad-142">主索引鍵。</span><span class="sxs-lookup"><span data-stu-id="f6aad-142">Primary key.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bc10a-143">fileTokenChannelID</span><span class="sxs-lookup"><span data-stu-id="bc10a-143">fileTokenChannelID</span></span></p></td>
-<td><p><span data-ttu-id="bc10a-144">在 tblNode nodeGuid 資料表中使用 [查閱] 的外鍵。</span><span class="sxs-lookup"><span data-stu-id="bc10a-144">Foreign key with lookup in tblNode.nodeGuid table.</span></span></p></td>
+<td><p><span data-ttu-id="f6aad-143">fileTokenChannelID</span><span class="sxs-lookup"><span data-stu-id="f6aad-143">fileTokenChannelID</span></span></p></td>
+<td><p><span data-ttu-id="f6aad-144">在 Node.nodeGuid 表格中查閱外部索引鍵。</span><span class="sxs-lookup"><span data-stu-id="f6aad-144">Foreign key with lookup in tblNode.nodeGuid table.</span></span></p></td>
 </tr>
 </tbody>
 </table>

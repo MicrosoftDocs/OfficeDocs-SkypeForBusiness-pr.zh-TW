@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：DNS 摘要 - 調整式 Director 集區 (硬體負載平衡器)
+title: 'Lync Server 2013: DNS 摘要-調整式 Director 集區、 硬體負載平衡器'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183340
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 891b69339416c81d81e72e43edf5f09bbf9da3e3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7ed4a3a810e4f1aa2fc5228e61cd68af163c91f0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741063"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42031227"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="dns-summary---scaled-director-pool-hardware-load-balancer-in-lync-server-2013"></a><span data-ttu-id="0c06f-102">Lync Server 2013 中的 DNS 摘要 - 調整式 Director 集區 (硬體負載平衡器)</span><span class="sxs-lookup"><span data-stu-id="0c06f-102">DNS summary - Scaled Director pool, hardware load balancer in Lync Server 2013</span></span>
+# <a name="dns-summary---scaled-director-pool-hardware-load-balancer-in-lync-server-2013"></a><span data-ttu-id="dafc5-102">DNS 摘要-調整式 Director 集區、 硬體負載平衡器在 Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dafc5-102">DNS summary - Scaled Director pool, hardware load balancer in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41741063"
 
 <span> </span>
 
-<span data-ttu-id="0c06f-103">_**主題上次修改日期：** 2012-10-20_</span><span class="sxs-lookup"><span data-stu-id="0c06f-103">_**Topic Last Modified:** 2012-10-20_</span></span>
+<span data-ttu-id="dafc5-103">_**主題上次修改日期：** 2012年-10-20 個_</span><span class="sxs-lookup"><span data-stu-id="dafc5-103">_**Topic Last Modified:** 2012-10-20_</span></span>
 
-<span data-ttu-id="0c06f-104">下表包含支援硬體負載平衡控制器所需的 DNS 記錄摘要。</span><span class="sxs-lookup"><span data-stu-id="0c06f-104">The following table contains a summary of the DNS records that are required to support the hardware load balanced Director.</span></span> <span data-ttu-id="0c06f-105">Director 的角色需要類似的 DNS 記錄做為前端伺服器。</span><span class="sxs-lookup"><span data-stu-id="0c06f-105">The role of the Director requires similar DNS records as the Front End Server.</span></span> <span data-ttu-id="0c06f-106">所需的記錄數會反映在主管憑證上所需的使用中的替代名稱。</span><span class="sxs-lookup"><span data-stu-id="0c06f-106">The number of records needed is reflected in the subject alternative names required on the Director certificate.</span></span> <span data-ttu-id="0c06f-107">與前端伺服器不同的是，控制器池不會主持使用者帳戶或主持行動服務。</span><span class="sxs-lookup"><span data-stu-id="0c06f-107">Different from the Front End Server, the Director pool does not host user accounts or host the Mobility Services.</span></span>
+<span data-ttu-id="dafc5-104">下表包含摘要的 DNS 記錄所需支援的硬體負載平衡 Director。</span><span class="sxs-lookup"><span data-stu-id="dafc5-104">The following table contains a summary of the DNS records that are required to support the hardware load balanced Director.</span></span> <span data-ttu-id="dafc5-105">Director 角色為前端伺服器需要類似的 DNS 記錄。</span><span class="sxs-lookup"><span data-stu-id="dafc5-105">The role of the Director requires similar DNS records as the Front End Server.</span></span> <span data-ttu-id="dafc5-106">Director 憑證上所需的主體替代名稱會反映所需的記錄筆數。</span><span class="sxs-lookup"><span data-stu-id="dafc5-106">The number of records needed is reflected in the subject alternative names required on the Director certificate.</span></span> <span data-ttu-id="dafc5-107">不同於前端伺服器，Director 集區不會主控使用者帳戶或裝載行動服務。</span><span class="sxs-lookup"><span data-stu-id="dafc5-107">Different from the Front End Server, the Director pool does not host user accounts or host the Mobility Services.</span></span>
 
-### <a name="dns-records-required-for-the-director-pool-using-a-hardware-load-balancer-and-dns-load-balancing"></a><span data-ttu-id="0c06f-108">使用硬體負載平衡器和 DNS 負載平衡的主管池所需的 DNS 記錄</span><span class="sxs-lookup"><span data-stu-id="0c06f-108">DNS Records Required for the Director pool using a Hardware Load Balancer and DNS Load Balancing</span></span>
+### <a name="dns-records-required-for-the-director-pool-using-a-hardware-load-balancer-and-dns-load-balancing"></a><span data-ttu-id="dafc5-108">使用硬體負載平衡器和 DNS 負載平衡的 Director 集區所需的 DNS 記錄</span><span class="sxs-lookup"><span data-stu-id="dafc5-108">DNS Records Required for the Director pool using a Hardware Load Balancer and DNS Load Balancing</span></span>
 
 <table>
 <colgroup>
@@ -50,48 +50,48 @@ ms.locfileid: "41741063"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="0c06f-109">位置/類型/埠</span><span class="sxs-lookup"><span data-stu-id="0c06f-109">Location/TYPE/Port</span></span></th>
-<th><span data-ttu-id="0c06f-110">FQDN/DNS 記錄</span><span class="sxs-lookup"><span data-stu-id="0c06f-110">FQDN/DNS Record</span></span></th>
-<th><span data-ttu-id="0c06f-111">IP 位址/FQDN</span><span class="sxs-lookup"><span data-stu-id="0c06f-111">IP Address/FQDN</span></span></th>
-<th><span data-ttu-id="0c06f-112">地圖/批註</span><span class="sxs-lookup"><span data-stu-id="0c06f-112">Maps to/Comments</span></span></th>
+<th><span data-ttu-id="dafc5-109">位置/類型/連接埠</span><span class="sxs-lookup"><span data-stu-id="dafc5-109">Location/TYPE/Port</span></span></th>
+<th><span data-ttu-id="dafc5-110">FQDN/DNS 記錄</span><span class="sxs-lookup"><span data-stu-id="dafc5-110">FQDN/DNS Record</span></span></th>
+<th><span data-ttu-id="dafc5-111">IP 位址/FQDN</span><span class="sxs-lookup"><span data-stu-id="dafc5-111">IP Address/FQDN</span></span></th>
+<th><span data-ttu-id="dafc5-112">對應至/註解</span><span class="sxs-lookup"><span data-stu-id="dafc5-112">Maps to/Comments</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="0c06f-113">內部 DNS/A</span><span class="sxs-lookup"><span data-stu-id="0c06f-113">Internal DNS/A</span></span></p></td>
-<td><p><span data-ttu-id="0c06f-114">dir01.contoso.net</span><span class="sxs-lookup"><span data-stu-id="0c06f-114">dir01.contoso.net</span></span></p></td>
-<td><p><span data-ttu-id="0c06f-115">Director</span><span class="sxs-lookup"><span data-stu-id="0c06f-115">Director</span></span></p></td>
-<td><p><span data-ttu-id="0c06f-116">用於複製和伺服器與伺服器通訊的控制器主機記錄</span><span class="sxs-lookup"><span data-stu-id="0c06f-116">Director host record used for replication and server to server communication</span></span></p></td>
+<td><p><span data-ttu-id="dafc5-113">內部 DNS/A</span><span class="sxs-lookup"><span data-stu-id="dafc5-113">Internal DNS/A</span></span></p></td>
+<td><p><span data-ttu-id="dafc5-114">dir01.contoso.net</span><span class="sxs-lookup"><span data-stu-id="dafc5-114">dir01.contoso.net</span></span></p></td>
+<td><p><span data-ttu-id="dafc5-115">Director</span><span class="sxs-lookup"><span data-stu-id="dafc5-115">Director</span></span></p></td>
+<td><p><span data-ttu-id="dafc5-116">用於複寫及伺服器對伺服器通訊的 director 主機記錄</span><span class="sxs-lookup"><span data-stu-id="dafc5-116">Director host record used for replication and server to server communication</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="0c06f-117">內部 DNS/A</span><span class="sxs-lookup"><span data-stu-id="0c06f-117">Internal DNS/A</span></span></p></td>
-<td><p><span data-ttu-id="0c06f-118">dirpool01.contoso.net</span><span class="sxs-lookup"><span data-stu-id="0c06f-118">dirpool01.contoso.net</span></span></p></td>
-<td><p><span data-ttu-id="0c06f-119">控制器泳池 HLB VIP</span><span class="sxs-lookup"><span data-stu-id="0c06f-119">Director pool HLB VIP</span></span></p></td>
-<td><p><span data-ttu-id="0c06f-120">DNS 負載平衡控制器池的主機記錄</span><span class="sxs-lookup"><span data-stu-id="0c06f-120">Host record for the DNS load balanced Director pool</span></span></p></td>
+<td><p><span data-ttu-id="dafc5-117">內部 DNS/A</span><span class="sxs-lookup"><span data-stu-id="dafc5-117">Internal DNS/A</span></span></p></td>
+<td><p><span data-ttu-id="dafc5-118">dirpool01.contoso.net</span><span class="sxs-lookup"><span data-stu-id="dafc5-118">dirpool01.contoso.net</span></span></p></td>
+<td><p><span data-ttu-id="dafc5-119">Director 集區 HLB VIP</span><span class="sxs-lookup"><span data-stu-id="dafc5-119">Director pool HLB VIP</span></span></p></td>
+<td><p><span data-ttu-id="dafc5-120">主機記錄，DNS 負載平衡 Director 集區</span><span class="sxs-lookup"><span data-stu-id="dafc5-120">Host record for the DNS load balanced Director pool</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="0c06f-121">內部 DNS/A</span><span class="sxs-lookup"><span data-stu-id="0c06f-121">Internal DNS/A</span></span></p></td>
-<td><p><span data-ttu-id="0c06f-122">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="0c06f-122">sip.contoso.com</span></span></p></td>
-<td><p><span data-ttu-id="0c06f-123">控制器泳池 HLB VIP</span><span class="sxs-lookup"><span data-stu-id="0c06f-123">Director pool HLB VIP</span></span></p></td>
-<td><p><span data-ttu-id="0c06f-124">來自 Edge 伺服器內部介面的入站會話初始通訊協定（SIP）</span><span class="sxs-lookup"><span data-stu-id="0c06f-124">Inbound session initiation protocol (SIP) from the internal interface of the Edge Server</span></span></p></td>
+<td><p><span data-ttu-id="dafc5-121">內部 DNS/A</span><span class="sxs-lookup"><span data-stu-id="dafc5-121">Internal DNS/A</span></span></p></td>
+<td><p><span data-ttu-id="dafc5-122">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="dafc5-122">sip.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="dafc5-123">Director 集區 HLB VIP</span><span class="sxs-lookup"><span data-stu-id="dafc5-123">Director pool HLB VIP</span></span></p></td>
+<td><p><span data-ttu-id="dafc5-124">輸入工作階段初始通訊協定 (SIP) 從 Edge Server 內部介面</span><span class="sxs-lookup"><span data-stu-id="dafc5-124">Inbound session initiation protocol (SIP) from the internal interface of the Edge Server</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="0c06f-125">內部 DNS/A</span><span class="sxs-lookup"><span data-stu-id="0c06f-125">Internal DNS/A</span></span></p></td>
-<td><p><span data-ttu-id="0c06f-126">dialin.contoso.com</span><span class="sxs-lookup"><span data-stu-id="0c06f-126">dialin.contoso.com</span></span></p></td>
-<td><p><span data-ttu-id="0c06f-127">控制器泳池 HLB VIP</span><span class="sxs-lookup"><span data-stu-id="0c06f-127">Director pool HLB VIP</span></span></p></td>
-<td><p><span data-ttu-id="0c06f-128">從反向 proxy 發佈的硬體負載平衡發佈的 web 服務</span><span class="sxs-lookup"><span data-stu-id="0c06f-128">Hardware load balanced published dialin web services from reverse proxy</span></span></p></td>
+<td><p><span data-ttu-id="dafc5-125">內部 DNS/A</span><span class="sxs-lookup"><span data-stu-id="dafc5-125">Internal DNS/A</span></span></p></td>
+<td><p><span data-ttu-id="dafc5-126">dialin.contoso.com</span><span class="sxs-lookup"><span data-stu-id="dafc5-126">dialin.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="dafc5-127">Director 集區 HLB VIP</span><span class="sxs-lookup"><span data-stu-id="dafc5-127">Director pool HLB VIP</span></span></p></td>
+<td><p><span data-ttu-id="dafc5-128">來自反向 Proxy 的硬體負載平衡發行撥入式 Web 服務</span><span class="sxs-lookup"><span data-stu-id="dafc5-128">Hardware load balanced published dialin web services from reverse proxy</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="0c06f-129">內部 DNS/A</span><span class="sxs-lookup"><span data-stu-id="0c06f-129">Internal DNS/A</span></span></p></td>
-<td><p><span data-ttu-id="0c06f-130">meet.contoso.com</span><span class="sxs-lookup"><span data-stu-id="0c06f-130">meet.contoso.com</span></span></p></td>
-<td><p><span data-ttu-id="0c06f-131">控制器泳池 HLB VIP</span><span class="sxs-lookup"><span data-stu-id="0c06f-131">Director pool HLB VIP</span></span></p></td>
-<td><p><span data-ttu-id="0c06f-132">已發佈的硬體負載平衡已公佈從反向 proxy 的 web 服務</span><span class="sxs-lookup"><span data-stu-id="0c06f-132">Hardware load balanced published meet web services from reverse proxy</span></span></p></td>
+<td><p><span data-ttu-id="dafc5-129">內部 DNS/A</span><span class="sxs-lookup"><span data-stu-id="dafc5-129">Internal DNS/A</span></span></p></td>
+<td><p><span data-ttu-id="dafc5-130">meet.contoso.com</span><span class="sxs-lookup"><span data-stu-id="dafc5-130">meet.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="dafc5-131">Director 集區 HLB VIP</span><span class="sxs-lookup"><span data-stu-id="dafc5-131">Director pool HLB VIP</span></span></p></td>
+<td><p><span data-ttu-id="dafc5-132">來自反向 Proxy 的硬體負載平衡發行會議 Web 服務</span><span class="sxs-lookup"><span data-stu-id="dafc5-132">Hardware load balanced published meet web services from reverse proxy</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="0c06f-133">內部 DNS/A</span><span class="sxs-lookup"><span data-stu-id="0c06f-133">Internal DNS/A</span></span></p></td>
-<td><p><span data-ttu-id="0c06f-134">webdirexternal.contoso.com</span><span class="sxs-lookup"><span data-stu-id="0c06f-134">webdirexternal.contoso.com</span></span></p></td>
-<td><p><span data-ttu-id="0c06f-135">控制器泳池 HLB VIP</span><span class="sxs-lookup"><span data-stu-id="0c06f-135">Director pool HLB VIP</span></span></p></td>
-<td><p><span data-ttu-id="0c06f-136">硬體負載平衡發佈，且由主管池的反向 proxy Web 入場券外部 Web 服務所定義</span><span class="sxs-lookup"><span data-stu-id="0c06f-136">Hardware load balanced published and defined by the reverse proxy Web Ticket external web services for the Director pool</span></span></p></td>
+<td><p><span data-ttu-id="dafc5-133">內部 DNS/A</span><span class="sxs-lookup"><span data-stu-id="dafc5-133">Internal DNS/A</span></span></p></td>
+<td><p><span data-ttu-id="dafc5-134">webdirexternal.contoso.com</span><span class="sxs-lookup"><span data-stu-id="dafc5-134">webdirexternal.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="dafc5-135">Director 集區 HLB VIP</span><span class="sxs-lookup"><span data-stu-id="dafc5-135">Director pool HLB VIP</span></span></p></td>
+<td><p><span data-ttu-id="dafc5-136">硬體負載平衡、 發行和定義反向 proxy Web 票證外部 web 服務的 Director 集區</span><span class="sxs-lookup"><span data-stu-id="dafc5-136">Hardware load balanced published and defined by the reverse proxy Web Ticket external web services for the Director pool</span></span></p></td>
 </tr>
 </tbody>
 </table>

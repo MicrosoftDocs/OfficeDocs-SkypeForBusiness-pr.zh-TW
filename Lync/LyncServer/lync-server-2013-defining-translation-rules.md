@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：定義轉譯規則
+title: Lync Server 2013： 定義轉譯規則
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184093
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3bd6b46dbe0362f81cdaf6a1bf52a27112604a46
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c67030878e4fe99a0deaa89e69c553b2e225fd8f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728293"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029644"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="defining-translation-rules-in-lync-server-2013"></a><span data-ttu-id="71b5d-102">在 Lync Server 2013 中定義轉譯規則</span><span class="sxs-lookup"><span data-stu-id="71b5d-102">Defining translation rules in Lync Server 2013</span></span>
+# <a name="defining-translation-rules-in-lync-server-2013"></a><span data-ttu-id="302f5-102">定義 Lync Server 2013 中的 [轉譯規則</span><span class="sxs-lookup"><span data-stu-id="302f5-102">Defining translation rules in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,28 +35,28 @@ ms.locfileid: "41728293"
 
 <span> </span>
 
-<span data-ttu-id="71b5d-103">_**主題上次修改日期：** 2013-02-22_</span><span class="sxs-lookup"><span data-stu-id="71b5d-103">_**Topic Last Modified:** 2013-02-22_</span></span>
+<span data-ttu-id="302f5-103">_**上次修改主題：** 2013年-02-22_</span><span class="sxs-lookup"><span data-stu-id="302f5-103">_**Topic Last Modified:** 2013-02-22_</span></span>
 
-<span data-ttu-id="71b5d-104">Lync Server 2013 企業語音路由呼叫依據以正常化為 E. 164 格式的電話號碼。</span><span class="sxs-lookup"><span data-stu-id="71b5d-104">Lync Server 2013 Enterprise Voice routes calls based on phone numbers normalized to E.164 format.</span></span> <span data-ttu-id="71b5d-105">這表示，所有撥號字串都必須正常化為 E.i 格式，才能執行反向數位查閱（RNL），因此可以將它們轉換成相符的 SIP URI。</span><span class="sxs-lookup"><span data-stu-id="71b5d-105">This means that all dialed strings must be normalized to E.164 format for the purpose of performing reverse number lookup (RNL) so they can be translated to their matching SIP URI.</span></span> <span data-ttu-id="71b5d-106">Lync Server 2013 提供操縱呼叫 ID 與本機號碼簡報的功能。</span><span class="sxs-lookup"><span data-stu-id="71b5d-106">Lync Server 2013 provides the ability to manipulate the called ID and the caller ID presentation.</span></span>
+<span data-ttu-id="302f5-104">Lync Server 2013 Enterprise Voice 路由傳送來電的電話號碼正規化為 E.164 格式為基礎。</span><span class="sxs-lookup"><span data-stu-id="302f5-104">Lync Server 2013 Enterprise Voice routes calls based on phone numbers normalized to E.164 format.</span></span> <span data-ttu-id="302f5-105">這表示所有撥號的字串必須被正規化為 E.164 格式目的執行反向號碼查閱 (RNL)，讓他們可以轉譯成其比對的 SIP URI。</span><span class="sxs-lookup"><span data-stu-id="302f5-105">This means that all dialed strings must be normalized to E.164 format for the purpose of performing reverse number lookup (RNL) so they can be translated to their matching SIP URI.</span></span> <span data-ttu-id="302f5-106">Lync Server 2013 提供可用來操控的受話的識別碼，來電者 ID 呈現方式。</span><span class="sxs-lookup"><span data-stu-id="302f5-106">Lync Server 2013 provides the ability to manipulate the called ID and the caller ID presentation.</span></span>
 
-<span data-ttu-id="71b5d-107">本節討論如何操作稱為 ID 和本機號碼。</span><span class="sxs-lookup"><span data-stu-id="71b5d-107">This section discusses how to manipulate the called ID and caller ID.</span></span>
+<span data-ttu-id="302f5-107">本章節將討論如何處理呼叫的識別碼和來電者識別碼。</span><span class="sxs-lookup"><span data-stu-id="302f5-107">This section discusses how to manipulate the called ID and caller ID.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="71b5d-108">本節內容</span><span class="sxs-lookup"><span data-stu-id="71b5d-108">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="302f5-108">本章節內容</span><span class="sxs-lookup"><span data-stu-id="302f5-108">In This Section</span></span>
 
-  - [<span data-ttu-id="71b5d-109">Lync Server 2013 中的本機號碼簡報</span><span class="sxs-lookup"><span data-stu-id="71b5d-109">Caller ID presentation in Lync Server 2013</span></span>](lync-server-2013-caller-id-presentation.md)
+  - [<span data-ttu-id="302f5-109">Lync Server 2013 中的來電者 ID 呈現方式</span><span class="sxs-lookup"><span data-stu-id="302f5-109">Caller ID presentation in Lync Server 2013</span></span>](lync-server-2013-caller-id-presentation.md)
 
-  - [<span data-ttu-id="71b5d-110">在 Lync Server 2013 中呼叫 ID 簡報</span><span class="sxs-lookup"><span data-stu-id="71b5d-110">Called ID presentation in Lync Server 2013</span></span>](lync-server-2013-called-id-presentation.md)
+  - [<span data-ttu-id="302f5-110">Lync Server 2013 中的受話的 ID 呈現方式</span><span class="sxs-lookup"><span data-stu-id="302f5-110">Called ID presentation in Lync Server 2013</span></span>](lync-server-2013-called-id-presentation.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="71b5d-111">請參閱</span><span class="sxs-lookup"><span data-stu-id="71b5d-111">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="302f5-111">另請參閱</span><span class="sxs-lookup"><span data-stu-id="302f5-111">See Also</span></span>
 
 
-[<span data-ttu-id="71b5d-112">在 Lync Server 2013 中定義正規化規則</span><span class="sxs-lookup"><span data-stu-id="71b5d-112">Defining normalization rules in Lync Server 2013</span></span>](lync-server-2013-defining-normalization-rules.md)  
+[<span data-ttu-id="302f5-112">Lync Server 2013 中的定義正規化規則</span><span class="sxs-lookup"><span data-stu-id="302f5-112">Defining normalization rules in Lync Server 2013</span></span>](lync-server-2013-defining-normalization-rules.md)  
   
 
 </div>
