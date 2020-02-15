@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：針對通訊錄管理取得 CsWebServiceConfiguration
+title: 'Lync Server 2013: Get-CsWebServiceConfiguration 適用於通訊錄管理'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183372
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c04cc523e27d655aa69b05f522efccf8153a37ba
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5f795f0e8f503a055388150e201e8d4f3a19bf39
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730573"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037935"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="get-cswebserviceconfiguration-for-address-book-management-in-lync-server-2013"></a><span data-ttu-id="5bb02-102">在 Lync Server 2013 中取得通訊錄管理的 CsWebServiceConfiguration</span><span class="sxs-lookup"><span data-stu-id="5bb02-102">Get-CsWebServiceConfiguration for Address Book management in Lync Server 2013</span></span>
+# <a name="get-cswebserviceconfiguration-for-address-book-management-in-lync-server-2013"></a><span data-ttu-id="44e44-102">適用於通訊錄管理 Lync Server 2013 中的 get-CsWebServiceConfiguration</span><span class="sxs-lookup"><span data-stu-id="44e44-102">Get-CsWebServiceConfiguration for Address Book management in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,24 +35,24 @@ ms.locfileid: "41730573"
 
 <span> </span>
 
-<span data-ttu-id="5bb02-103">_**主題上次修改日期：** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="5bb02-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="44e44-103">_**主題上次修改日期：** 2012年-11-01_</span><span class="sxs-lookup"><span data-stu-id="44e44-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="5bb02-104">誰可以執行這個 Cmdlet：根據預設，下列群組的成員有權在本機執行 CsWebServiceConfiguration Cmdlet： RTCUniversalUserAdmins、RTCUniversalServerAdmins。</span><span class="sxs-lookup"><span data-stu-id="5bb02-104">Who can run this cmdlet: By default, members of the following groups are authorized to run the Get-CsWebServiceConfiguration cmdlet locally: RTCUniversalUserAdmins, RTCUniversalServerAdmins.</span></span> <span data-ttu-id="5bb02-105">若要傳回已指派這個 Cmdlet 的所有角色式存取控制（RBAC）角色的清單（包括您自行建立的任何自訂 RBAC 角色），請在 Windows PowerShell 提示中執行下列命令：</span><span class="sxs-lookup"><span data-stu-id="5bb02-105">To return a list of all the role-based access control (RBAC) roles this cmdlet has been assigned to (including any custom RBAC roles you have created yourself), run the following command from the Windows PowerShell prompt:</span></span>
+<span data-ttu-id="44e44-p101">誰可以執行這個 Cmdlet：根據預設，會授權下列群組的成員在本機執行 Get-CsWebServiceConfiguration Cmdlet：RTCUniversalUserAdmins、RTCUniversalServerAdmins。若要傳回指派給該 Cmdlet 的所有角色型存取控制 (RBAC) 角色清單 (包括您自己建立的任何自訂 RBAC 角色)，請在 Windows PowerShell 提示中輸入下列命令：</span><span class="sxs-lookup"><span data-stu-id="44e44-p101">Who can run this cmdlet: By default, members of the following groups are authorized to run the Get-CsWebServiceConfiguration cmdlet locally: RTCUniversalUserAdmins, RTCUniversalServerAdmins. To return a list of all the role-based access control (RBAC) roles this cmdlet has been assigned to (including any custom RBAC roles you have created yourself), run the following command from the Windows PowerShell prompt:</span></span>
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Get-CsWebServiceConfiguration"}
 
-<span data-ttu-id="5bb02-106">CsWebServiceConfiguration 會傳回貴組織目前所使用之 Web 服務設定的資訊。</span><span class="sxs-lookup"><span data-stu-id="5bb02-106">Get-CsWebServiceConfiguration returns information of the Web Services configuration currently in use in your organization.</span></span> <span data-ttu-id="5bb02-107">通訊錄服務感興趣是通訊群組清單延伸功能的狀態。</span><span class="sxs-lookup"><span data-stu-id="5bb02-107">Of interest to the Address Book Services is the status of Distribution List Expansion function.</span></span> <span data-ttu-id="5bb02-108">如果屬性 EnableGroupExpansion 為 True，您的組織目前允許群組延伸。</span><span class="sxs-lookup"><span data-stu-id="5bb02-108">If the attribute EnableGroupExpansion is True, your organization currently allows group expansion.</span></span>
+<span data-ttu-id="44e44-p102">Get-CsWebServiceConfiguration 會傳回目前貴組織中使用的 Web 服務組態資訊。通訊群組清單延伸功能的狀態對於通訊錄服務有益。如果 EnableGroupExpansion 屬性為 True，則您的組織目前可允許群組延伸。</span><span class="sxs-lookup"><span data-stu-id="44e44-p102">Get-CsWebServiceConfiguration returns information of the Web Services configuration currently in use in your organization. Of interest to the Address Book Services is the status of Distribution List Expansion function. If the attribute EnableGroupExpansion is True, your organization currently allows group expansion.</span></span>
 
-<span data-ttu-id="5bb02-109">例如：</span><span class="sxs-lookup"><span data-stu-id="5bb02-109">For example:</span></span>
+<span data-ttu-id="44e44-109">例如：</span><span class="sxs-lookup"><span data-stu-id="44e44-109">For example:</span></span>
 
     Get-CsWebServiceConfiguration -Identity site:Redmond
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="5bb02-110">請參閱</span><span class="sxs-lookup"><span data-stu-id="5bb02-110">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="44e44-110">請參閱</span><span class="sxs-lookup"><span data-stu-id="44e44-110">See Also</span></span>
 
 
-[<span data-ttu-id="5bb02-111">CsWebServiceConfiguration</span><span class="sxs-lookup"><span data-stu-id="5bb02-111">Get-CsWebServiceConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsWebServiceConfiguration)  
+[<span data-ttu-id="44e44-111">Get-cswebserviceconfiguration</span><span class="sxs-lookup"><span data-stu-id="44e44-111">Get-CsWebServiceConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsWebServiceConfiguration)  
   
 
 </div>

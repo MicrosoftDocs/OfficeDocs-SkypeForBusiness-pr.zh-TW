@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：設定回應群組
+title: Lync Server 2013： 若要設定回應群組
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185359
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b94bc731ac00a4ff774930f506282b6aef16cbaa
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: eda955072f42989e6323ea6422d8b25736cf8c32
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739263"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041062"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-response-group-in-lync-server-2013"></a><span data-ttu-id="ebc19-102">在 Lync Server 2013 中設定回應群組</span><span class="sxs-lookup"><span data-stu-id="ebc19-102">Configuring Response Group in Lync Server 2013</span></span>
+# <a name="configuring-response-group-in-lync-server-2013"></a><span data-ttu-id="3e14c-102">在 Lync Server 2013 中設定回應群組</span><span class="sxs-lookup"><span data-stu-id="3e14c-102">Configuring Response Group in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41739263"
 
 <span> </span>
 
-<span data-ttu-id="ebc19-103">_**主題上次修改日期：** 2012-10-30_</span><span class="sxs-lookup"><span data-stu-id="ebc19-103">_**Topic Last Modified:** 2012-10-30_</span></span>
+<span data-ttu-id="3e14c-103">_**主題上次修改日期：** 2012年-10-30_</span><span class="sxs-lookup"><span data-stu-id="3e14c-103">_**Topic Last Modified:** 2012-10-30_</span></span>
 
-<span data-ttu-id="ebc19-104">[回應] 群組是一個企業語音功能，可將來電路由並列隊給一組人員（例如服務台或客戶*服務台）。*</span><span class="sxs-lookup"><span data-stu-id="ebc19-104">Response Group is an Enterprise Voice feature that routes and queues incoming calls to groups of people, called *agents*, such as a help desk or a customer service desk.</span></span>
+<span data-ttu-id="3e14c-104">回應群組是人員的路由和佇列來電給群組，稱為 「*代理程式*，例如服務台或客戶服務人員 Enterprise Voice 功能。</span><span class="sxs-lookup"><span data-stu-id="3e14c-104">Response Group is an Enterprise Voice feature that routes and queues incoming calls to groups of people, called *agents*, such as a help desk or a customer service desk.</span></span>
 
-<span data-ttu-id="ebc19-105">當您部署企業語音時，會在前端伺服器或標準版伺服器上自動安裝及啟用回應群組所需的元件。</span><span class="sxs-lookup"><span data-stu-id="ebc19-105">The components that Response Group requires are installed and enabled automatically on the Front End Server or Standard Edition server when you deploy Enterprise Voice.</span></span> <span data-ttu-id="ebc19-106">若要讓使用者使用 [回應群組]，您必須先設定 [代理群組]、[佇列]，然後再設定 [工作流程]。</span><span class="sxs-lookup"><span data-stu-id="ebc19-106">To make Response Group available to users, you must configure agent groups, then queues, and then workflows.</span></span> <span data-ttu-id="ebc19-107">此外，回應群組管理員可以將現有工作流程的設定委派給回應群組管理員，然後可以修改及重新設定工作流程及其關聯的代理群組和佇列。</span><span class="sxs-lookup"><span data-stu-id="ebc19-107">Additionally, a Response Group Administrator can delegate configuration of an existing workflow to a Response Group Manager, who can then modify and reconfigure the workflow and its associated agent groups and queues.</span></span>
+<span data-ttu-id="3e14c-105">「回應群組」所需的元件，會在您部署企業語音時自動安裝於前端伺服器或 Standard Edition Server 上並啟用。</span><span class="sxs-lookup"><span data-stu-id="3e14c-105">The components that Response Group requires are installed and enabled automatically on the Front End Server or Standard Edition server when you deploy Enterprise Voice.</span></span> <span data-ttu-id="3e14c-106">若要讓使用者能夠使用「回應群組」，您必須依序設定專員群組、佇列和工作流程。</span><span class="sxs-lookup"><span data-stu-id="3e14c-106">To make Response Group available to users, you must configure agent groups, then queues, and then workflows.</span></span> <span data-ttu-id="3e14c-107">此外，回應群組管理員可委派給現有的工作流程至回應群組管理員，可以再修改及重新設定工作流程和其相關聯的代理群組和佇列的組態。</span><span class="sxs-lookup"><span data-stu-id="3e14c-107">Additionally, a Response Group Administrator can delegate configuration of an existing workflow to a Response Group Manager, who can then modify and reconfigure the workflow and its associated agent groups and queues.</span></span>
 
-<span data-ttu-id="ebc19-108">本節將引導您完成 Lync Server 2013 回應群組的設定。</span><span class="sxs-lookup"><span data-stu-id="ebc19-108">This section guides you through the configuration of Lync Server 2013 Response Group.</span></span> <span data-ttu-id="ebc19-109">它假設您已閱讀與回應群組相關的規劃區段，並已部署企業版伺服器或使用企業語音的標準版伺服器。</span><span class="sxs-lookup"><span data-stu-id="ebc19-109">It assumes that you have already read the planning sections related to Response Group and have deployed an Enterprise Edition server or a Standard Edition server with Enterprise Voice.</span></span>
+<span data-ttu-id="3e14c-108">本節會引導您完成的 Lync Server 2013 回應群組組態。</span><span class="sxs-lookup"><span data-stu-id="3e14c-108">This section guides you through the configuration of Lync Server 2013 Response Group.</span></span> <span data-ttu-id="3e14c-109">假設您已經閱讀規劃章節與回應群組，並且已部署 Enterprise Edition 伺服器或 Standard Edition 伺服器與 Enterprise Voice。</span><span class="sxs-lookup"><span data-stu-id="3e14c-109">It assumes that you have already read the planning sections related to Response Group and have deployed an Enterprise Edition server or a Standard Edition server with Enterprise Voice.</span></span>
 
 <div>
 
 
 > [!TIP]  
-> <span data-ttu-id="ebc19-110">如需使用 Lync Server 管理命令介面（包括範例腳本）建立回應群組的詳細資料，請參閱使用 Lync Server 管理命令介面的「建立您的<A href="http://go.microsoft.com/fwlink/p/?linkid=204108">http://go.microsoft.com/fwlink/p/?linkId=204108</A>第一個回應群組」。</span><span class="sxs-lookup"><span data-stu-id="ebc19-110">For details about creating a Response Group by using Lync Server Management Shell, including a sample script, see "Creating Your First Response Group Using Lync Server Management Shell" at <A href="http://go.microsoft.com/fwlink/p/?linkid=204108">http://go.microsoft.com/fwlink/p/?linkId=204108</A>.</span></span>
+> <span data-ttu-id="3e14c-110">如需使用 Lync Server 管理命令介面，包括範例指令碼建立回應群組的詳細資訊，請參閱 「 建立您第一個回應群組使用 Lync Server 管理命令介面 」 在<A href="http://go.microsoft.com/fwlink/p/?linkid=204108">http://go.microsoft.com/fwlink/p/?linkId=204108</A>。</span><span class="sxs-lookup"><span data-stu-id="3e14c-110">For details about creating a Response Group by using Lync Server Management Shell, including a sample script, see "Creating Your First Response Group Using Lync Server Management Shell" at <A href="http://go.microsoft.com/fwlink/p/?linkid=204108">http://go.microsoft.com/fwlink/p/?linkId=204108</A>.</span></span>
 
 
 
@@ -55,34 +55,34 @@ ms.locfileid: "41739263"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="ebc19-111">本節內容</span><span class="sxs-lookup"><span data-stu-id="ebc19-111">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="3e14c-111">本章節內容</span><span class="sxs-lookup"><span data-stu-id="3e14c-111">In This Section</span></span>
 
-  - [<span data-ttu-id="ebc19-112">Lync Server 2013 中的回應群組設定權限和先決條件</span><span class="sxs-lookup"><span data-stu-id="ebc19-112">Response Group configuration permissions and prerequisites in Lync Server 2013</span></span>](lync-server-2013-response-group-configuration-permissions-and-prerequisites.md)
+  - [<span data-ttu-id="3e14c-112">回應群組設定權限和 Lync Server 2013 中的必要條件</span><span class="sxs-lookup"><span data-stu-id="3e14c-112">Response Group configuration permissions and prerequisites in Lync Server 2013</span></span>](lync-server-2013-response-group-configuration-permissions-and-prerequisites.md)
 
-  - [<span data-ttu-id="ebc19-113">Lync Server 2013 中的回應群組部署程式</span><span class="sxs-lookup"><span data-stu-id="ebc19-113">Deployment process for Response Group in Lync Server 2013</span></span>](lync-server-2013-deployment-process-for-response-group.md)
+  - [<span data-ttu-id="3e14c-113">Lync Server 2013 中的回應群組部署程序</span><span class="sxs-lookup"><span data-stu-id="3e14c-113">Deployment process for Response Group in Lync Server 2013</span></span>](lync-server-2013-deployment-process-for-response-group.md)
 
-  - [<span data-ttu-id="ebc19-114">在 Lync Server 2013 中建立工作流程的案例概觀</span><span class="sxs-lookup"><span data-stu-id="ebc19-114">Overview of workflow creation scenarios in Lync Server 2013</span></span>](lync-server-2013-overview-of-workflow-creation-scenarios.md)
+  - [<span data-ttu-id="3e14c-114">Lync Server 2013 中的工作流程建立案例概觀</span><span class="sxs-lookup"><span data-stu-id="3e14c-114">Overview of workflow creation scenarios in Lync Server 2013</span></span>](lync-server-2013-overview-of-workflow-creation-scenarios.md)
 
-  - [<span data-ttu-id="ebc19-115">在 Lync Server 2013 中建立回應群組代理群組</span><span class="sxs-lookup"><span data-stu-id="ebc19-115">Create Response Group agent groups Lync Server 2013</span></span>](lync-server-2013-create-response-group-agent-groups.md)
+  - [<span data-ttu-id="3e14c-115">建立回應群組代理群組 Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3e14c-115">Create Response Group agent groups Lync Server 2013</span></span>](lync-server-2013-create-response-group-agent-groups.md)
 
-  - [<span data-ttu-id="ebc19-116">在 Lync Server 2013 中建立回應群組佇列</span><span class="sxs-lookup"><span data-stu-id="ebc19-116">Create Response Group queues in Lync Server 2013</span></span>](lync-server-2013-create-response-group-queues.md)
+  - [<span data-ttu-id="3e14c-116">Lync Server 2013 中建立回應群組佇列</span><span class="sxs-lookup"><span data-stu-id="3e14c-116">Create Response Group queues in Lync Server 2013</span></span>](lync-server-2013-create-response-group-queues.md)
 
-  - [<span data-ttu-id="ebc19-117">可選在 Lync Server 2013 中定義回應群組的上班時間</span><span class="sxs-lookup"><span data-stu-id="ebc19-117">(Optional) Define Response Group business hours in Lync Server 2013</span></span>](lync-server-2013-optional-define-response-group-business-hours.md)
+  - [<span data-ttu-id="3e14c-117">（選用）Lync Server 2013 中的定義回應群組營業時間</span><span class="sxs-lookup"><span data-stu-id="3e14c-117">(Optional) Define Response Group business hours in Lync Server 2013</span></span>](lync-server-2013-optional-define-response-group-business-hours.md)
 
-  - [<span data-ttu-id="ebc19-118">可選在 Lync Server 2013 中定義回應群組假日集</span><span class="sxs-lookup"><span data-stu-id="ebc19-118">(Optional) Define Response Group holiday sets in Lync Server 2013</span></span>](lync-server-2013-optional-define-response-group-holiday-sets.md)
+  - [<span data-ttu-id="3e14c-118">（選用）Lync Server 2013 中的定義回應群組假日集</span><span class="sxs-lookup"><span data-stu-id="3e14c-118">(Optional) Define Response Group holiday sets in Lync Server 2013</span></span>](lync-server-2013-optional-define-response-group-holiday-sets.md)
 
-  - [<span data-ttu-id="ebc19-119">在 Lync Server 2013 中建立回應群組工作流程</span><span class="sxs-lookup"><span data-stu-id="ebc19-119">Create Response Group workflows in Lync Server 2013</span></span>](lync-server-2013-create-response-group-workflows.md)
+  - [<span data-ttu-id="3e14c-119">Lync Server 2013 中建立回應群組工作流程</span><span class="sxs-lookup"><span data-stu-id="3e14c-119">Create Response Group workflows in Lync Server 2013</span></span>](lync-server-2013-create-response-group-workflows.md)
 
-  - [<span data-ttu-id="ebc19-120">可選在 Lync Server 2013 中驗證回應群組部署</span><span class="sxs-lookup"><span data-stu-id="ebc19-120">(Optional) Verify Response Group deployment in Lync Server 2013</span></span>](lync-server-2013-optional-verify-response-group-deployment.md)
+  - [<span data-ttu-id="3e14c-120">（選用）Lync Server 2013 中驗證回應群組部署</span><span class="sxs-lookup"><span data-stu-id="3e14c-120">(Optional) Verify Response Group deployment in Lync Server 2013</span></span>](lync-server-2013-optional-verify-response-group-deployment.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="ebc19-121">請參閱</span><span class="sxs-lookup"><span data-stu-id="ebc19-121">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3e14c-121">另請參閱</span><span class="sxs-lookup"><span data-stu-id="3e14c-121">See Also</span></span>
 
 
-[<span data-ttu-id="ebc19-122">規劃 Lync Server 2013 中的通話管理功能</span><span class="sxs-lookup"><span data-stu-id="ebc19-122">Planning for call management features in Lync Server 2013</span></span>](lync-server-2013-planning-for-call-management-features.md)  
+[<span data-ttu-id="3e14c-122">規劃 Lync Server 2013 中的通話管理功能</span><span class="sxs-lookup"><span data-stu-id="3e14c-122">Planning for call management features in Lync Server 2013</span></span>](lync-server-2013-planning-for-call-management-features.md)  
   
 
 </div>

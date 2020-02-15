@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：回應群組的部署程式
+title: Lync Server 2013： 部署程序的回應群組
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185437
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2eb302f57cd335decf3523c271ff464f2954db86
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: dfc249ec8df233e6c22c9d5c1b54b81e23c5a173
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762581"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038215"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deployment-process-for-response-group-in-lync-server-2013"></a><span data-ttu-id="afd31-102">Lync Server 2013 中的回應群組部署程式</span><span class="sxs-lookup"><span data-stu-id="afd31-102">Deployment process for Response Group in Lync Server 2013</span></span>
+# <a name="deployment-process-for-response-group-in-lync-server-2013"></a><span data-ttu-id="89090-102">Lync Server 2013 中的回應群組部署程序</span><span class="sxs-lookup"><span data-stu-id="89090-102">Deployment process for Response Group in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41762581"
 
 <span> </span>
 
-<span data-ttu-id="afd31-103">_**主題上次修改日期：** 2012-09-27_</span><span class="sxs-lookup"><span data-stu-id="afd31-103">_**Topic Last Modified:** 2012-09-27_</span></span>
+<span data-ttu-id="89090-103">_**主題上次修改日期：** 2012 年 09 月 27 日_</span><span class="sxs-lookup"><span data-stu-id="89090-103">_**Topic Last Modified:** 2012-09-27_</span></span>
 
-<span data-ttu-id="afd31-104">本節概要說明部署回應群組應用程式時所涉及的階段和步驟。</span><span class="sxs-lookup"><span data-stu-id="afd31-104">This section provides an overview of the phases and steps involved in deploying the Response Group application.</span></span>
+<span data-ttu-id="89090-104">本章節提供階段和部署的回應群組應用程式的相關步驟的概觀。</span><span class="sxs-lookup"><span data-stu-id="89090-104">This section provides an overview of the phases and steps involved in deploying the Response Group application.</span></span>
 
-### <a name="response-group-deployment-process"></a><span data-ttu-id="afd31-105">回應群組部署程式</span><span class="sxs-lookup"><span data-stu-id="afd31-105">Response Group Deployment Process</span></span>
+### <a name="response-group-deployment-process"></a><span data-ttu-id="89090-105">回應群組部署程序</span><span class="sxs-lookup"><span data-stu-id="89090-105">Response Group Deployment Process</span></span>
 
 <table>
 <colgroup>
@@ -50,87 +50,87 @@ ms.locfileid: "41762581"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="afd31-106">分</span><span class="sxs-lookup"><span data-stu-id="afd31-106">Phase</span></span></th>
-<th><span data-ttu-id="afd31-107">步驟</span><span class="sxs-lookup"><span data-stu-id="afd31-107">Steps</span></span></th>
-<th><span data-ttu-id="afd31-108">許可權</span><span class="sxs-lookup"><span data-stu-id="afd31-108">Permissions</span></span></th>
-<th><span data-ttu-id="afd31-109">部署檔</span><span class="sxs-lookup"><span data-stu-id="afd31-109">Deployment documentation</span></span></th>
+<th><span data-ttu-id="89090-106">階段</span><span class="sxs-lookup"><span data-stu-id="89090-106">Phase</span></span></th>
+<th><span data-ttu-id="89090-107">步驟</span><span class="sxs-lookup"><span data-stu-id="89090-107">Steps</span></span></th>
+<th><span data-ttu-id="89090-108">權限</span><span class="sxs-lookup"><span data-stu-id="89090-108">Permissions</span></span></th>
+<th><span data-ttu-id="89090-109">部署文件</span><span class="sxs-lookup"><span data-stu-id="89090-109">Deployment documentation</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="afd31-110">安裝回應群組應用程式</span><span class="sxs-lookup"><span data-stu-id="afd31-110">Install the Response Group application</span></span></p></td>
-<td><p><span data-ttu-id="afd31-111">當您部署企業語音時，系統會預設安裝並啟用回應群組應用程式。</span><span class="sxs-lookup"><span data-stu-id="afd31-111">The Response Group application is installed and activated by default when you deploy Enterprise Voice.</span></span></p></td>
-<td><p><span data-ttu-id="afd31-112">RTCUniversalServerAdmins</span><span class="sxs-lookup"><span data-stu-id="afd31-112">RTCUniversalServerAdmins</span></span></p></td>
-<td><p><span data-ttu-id="afd31-113"><a href="lync-server-2013-deploying-enterprise-voice.md">在 Lync Server 2013 中部署企業版語音</a></span><span class="sxs-lookup"><span data-stu-id="afd31-113"><a href="lync-server-2013-deploying-enterprise-voice.md">Deploying Enterprise Voice in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="89090-110">安裝回應群組應用程式</span><span class="sxs-lookup"><span data-stu-id="89090-110">Install the Response Group application</span></span></p></td>
+<td><p><span data-ttu-id="89090-111">回應群組應用程式已安裝並啟用根據預設，當您部署企業語音。</span><span class="sxs-lookup"><span data-stu-id="89090-111">The Response Group application is installed and activated by default when you deploy Enterprise Voice.</span></span></p></td>
+<td><p><span data-ttu-id="89090-112">RTCUniversalServerAdmins</span><span class="sxs-lookup"><span data-stu-id="89090-112">RTCUniversalServerAdmins</span></span></p></td>
+<td><p><span data-ttu-id="89090-113"><a href="lync-server-2013-deploying-enterprise-voice.md">部署 Lync Server 2013 中的 Enterprise Voice</a></span><span class="sxs-lookup"><span data-stu-id="89090-113"><a href="lync-server-2013-deploying-enterprise-voice.md">Deploying Enterprise Voice in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="afd31-114">安裝回應群組元件</span><span class="sxs-lookup"><span data-stu-id="afd31-114">Install components for Response Group</span></span></p></td>
-<td><p><span data-ttu-id="afd31-115">Lync Server Cmdlet、Lync Server [控制台]、[回應群組設定] 工具、[代理程式登入與登出主控台]，以及回應群組用戶端 Web 服務已安裝為 Web 服務的一部分。</span><span class="sxs-lookup"><span data-stu-id="afd31-115">Lync Server cmdlets, the Lync Server Control Panel, Response Group Configuration Tool, agents' sign-in and sign-out console, and Response Group Client Web service are installed as part of Web Services.</span></span> <span data-ttu-id="afd31-116">當您部署企業版文件庫或標準版伺服器時，就會安裝 Web 服務。</span><span class="sxs-lookup"><span data-stu-id="afd31-116">Web Services is installed when you deploy an Enterprise Edition pool or a Standard Edition server.</span></span></p></td>
-<td><p><span data-ttu-id="afd31-117">RTCUniversalServerAdmins</span><span class="sxs-lookup"><span data-stu-id="afd31-117">RTCUniversalServerAdmins</span></span></p></td>
-<td><p><span data-ttu-id="afd31-118"><a href="lync-server-2013-deploying-lync-server.md">部署 Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="afd31-118"><a href="lync-server-2013-deploying-lync-server.md">Deploying Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="89090-114">回應群組安裝的元件</span><span class="sxs-lookup"><span data-stu-id="89090-114">Install components for Response Group</span></span></p></td>
+<td><p><span data-ttu-id="89090-115">Lync Server cmdlet、 Lync Server 控制台中，回應群組組態工具、 代理的登入與登出主控台及回應群組用戶端 Web 服務安裝 Web 服務的一部分。</span><span class="sxs-lookup"><span data-stu-id="89090-115">Lync Server cmdlets, the Lync Server Control Panel, Response Group Configuration Tool, agents' sign-in and sign-out console, and Response Group Client Web service are installed as part of Web Services.</span></span> <span data-ttu-id="89090-116">當您部署的 Enterprise Edition 集區或 Standard Edition server 已安裝 web 服務。</span><span class="sxs-lookup"><span data-stu-id="89090-116">Web Services is installed when you deploy an Enterprise Edition pool or a Standard Edition server.</span></span></p></td>
+<td><p><span data-ttu-id="89090-117">RTCUniversalServerAdmins</span><span class="sxs-lookup"><span data-stu-id="89090-117">RTCUniversalServerAdmins</span></span></p></td>
+<td><p><span data-ttu-id="89090-118"><a href="lync-server-2013-deploying-lync-server.md">部署 Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="89090-118"><a href="lync-server-2013-deploying-lync-server.md">Deploying Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="afd31-119">允許使用者使用 Lync 2013 和企業語音</span><span class="sxs-lookup"><span data-stu-id="afd31-119">Enable users for Lync 2013 and for Enterprise Voice</span></span></p></td>
-<td><p><span data-ttu-id="afd31-120">啟用將是 Lync Server 和企業語音的使用者。</span><span class="sxs-lookup"><span data-stu-id="afd31-120">Enable users who will be agents for Lync Server and Enterprise Voice.</span></span> <span data-ttu-id="afd31-121">您必須先啟用使用者，才能將其新增至代理群組。</span><span class="sxs-lookup"><span data-stu-id="afd31-121">Users must be enabled before you can add them to agent groups.</span></span> <span data-ttu-id="afd31-122">通常，在企業版或標準版伺服器部署期間，會啟用 Lync Server 的使用者。</span><span class="sxs-lookup"><span data-stu-id="afd31-122">Typically, users are enabled for Lync Server during the Enterprise Edition or Standard Edition server deployment.</span></span> <span data-ttu-id="afd31-123">在企業語音部署期間，系統會為使用者啟用企業語音。</span><span class="sxs-lookup"><span data-stu-id="afd31-123">Users are enabled for Enterprise Voice during the Enterprise Voice deployment.</span></span></p></td>
-<td><p><span data-ttu-id="afd31-124">RTCUniversalUserAdmins</span><span class="sxs-lookup"><span data-stu-id="afd31-124">RTCUniversalUserAdmins</span></span></p>
-<p><span data-ttu-id="afd31-125">CsUserAdministrator</span><span class="sxs-lookup"><span data-stu-id="afd31-125">CsUserAdministrator</span></span></p>
-<p><span data-ttu-id="afd31-126">CsAdministrator</span><span class="sxs-lookup"><span data-stu-id="afd31-126">CsAdministrator</span></span></p></td>
-<td><p><span data-ttu-id="afd31-127"><a href="lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md">停用或重新啟用 Lync Server 2013 的使用者帳戶</a></span><span class="sxs-lookup"><span data-stu-id="afd31-127"><a href="lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md">Disable or re-enable user account for Lync Server 2013</a></span></span></p>
-<p><span data-ttu-id="afd31-128"><a href="lync-server-2013-enable-users-for-enterprise-voice.md">在 Lync Server 2013 中啟用企業語音的使用者</a></span><span class="sxs-lookup"><span data-stu-id="afd31-128"><a href="lync-server-2013-enable-users-for-enterprise-voice.md">Enable users for Enterprise Voice in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="89090-119">啟用使用者的 Lync 2013 及 Enterprise voice</span><span class="sxs-lookup"><span data-stu-id="89090-119">Enable users for Lync 2013 and for Enterprise Voice</span></span></p></td>
+<td><p><span data-ttu-id="89090-120">讓使用者擔任 Lync 伺服器和 Enterprise Voice 的代理程式。</span><span class="sxs-lookup"><span data-stu-id="89090-120">Enable users who will be agents for Lync Server and Enterprise Voice.</span></span> <span data-ttu-id="89090-121">您可以將其新增至代理程式群組之前，必須啟用使用者。</span><span class="sxs-lookup"><span data-stu-id="89090-121">Users must be enabled before you can add them to agent groups.</span></span> <span data-ttu-id="89090-122">一般而言，使用者已啟用 Lync Server Enterprise Edition 或 Standard Edition server 部署期間。</span><span class="sxs-lookup"><span data-stu-id="89090-122">Typically, users are enabled for Lync Server during the Enterprise Edition or Standard Edition server deployment.</span></span> <span data-ttu-id="89090-123">使用者在 Enterprise Voice 部署期間啟用 Enterprise Voice。</span><span class="sxs-lookup"><span data-stu-id="89090-123">Users are enabled for Enterprise Voice during the Enterprise Voice deployment.</span></span></p></td>
+<td><p><span data-ttu-id="89090-124">RTCUniversalUserAdmins</span><span class="sxs-lookup"><span data-stu-id="89090-124">RTCUniversalUserAdmins</span></span></p>
+<p><span data-ttu-id="89090-125">CsUserAdministrator</span><span class="sxs-lookup"><span data-stu-id="89090-125">CsUserAdministrator</span></span></p>
+<p><span data-ttu-id="89090-126">CsAdministrator</span><span class="sxs-lookup"><span data-stu-id="89090-126">CsAdministrator</span></span></p></td>
+<td><p><span data-ttu-id="89090-127"><a href="lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md">停用或重新啟用 Lync Server 2013 的使用者帳戶</a></span><span class="sxs-lookup"><span data-stu-id="89090-127"><a href="lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md">Disable or re-enable user account for Lync Server 2013</a></span></span></p>
+<p><span data-ttu-id="89090-128"><a href="lync-server-2013-enable-users-for-enterprise-voice.md">啟用使用者的 Lync Server 2013 中的 Enterprise Voice</a></span><span class="sxs-lookup"><span data-stu-id="89090-128"><a href="lync-server-2013-enable-users-for-enterprise-voice.md">Enable users for Enterprise Voice in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="afd31-129">建立及設定回應群組，包括代理群組、佇列和工作流程</span><span class="sxs-lookup"><span data-stu-id="afd31-129">Create and configure response groups, which consist of agent groups, queues, and workflows</span></span></p></td>
+<td><p><span data-ttu-id="89090-129">建立和設定回應群組，其中包含代理人群組、 佇列及工作流程</span><span class="sxs-lookup"><span data-stu-id="89090-129">Create and configure response groups, which consist of agent groups, queues, and workflows</span></span></p></td>
 <td><ol>
-<li><p><span data-ttu-id="afd31-130">使用 Lync Server [控制台] 或 [Lync Server 管理命令介面] 執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="afd31-130">Use the Lync Server Control Panel or Lync Server Management Shell to do the following:</span></span></p>
+<li><p><span data-ttu-id="89090-130">使用 Lync Server Control Panel 或 Lync Server 管理命令介面來執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="89090-130">Use the Lync Server Control Panel or Lync Server Management Shell to do the following:</span></span></p>
 <ol>
-<li><p><span data-ttu-id="afd31-131">建立及設定代理群組。</span><span class="sxs-lookup"><span data-stu-id="afd31-131">Create and configure agent groups.</span></span></p></li>
-<li><p><span data-ttu-id="afd31-132">建立及設定佇列。</span><span class="sxs-lookup"><span data-stu-id="afd31-132">Create and configure queues.</span></span></p></li>
+<li><p><span data-ttu-id="89090-131">建立和設定代理人群組。</span><span class="sxs-lookup"><span data-stu-id="89090-131">Create and configure agent groups.</span></span></p></li>
+<li><p><span data-ttu-id="89090-132">建立和設定佇列。</span><span class="sxs-lookup"><span data-stu-id="89090-132">Create and configure queues.</span></span></p></li>
 </ol></li>
-<li><p><span data-ttu-id="afd31-133">或者，您也可以使用 Lync Server 管理命令介面來建立預先定義的回應群組商務時數和假日。</span><span class="sxs-lookup"><span data-stu-id="afd31-133">Optionally, use Lync Server Management Shell to create predefined response group business hours and holidays.</span></span></p></li>
-<li><p><span data-ttu-id="afd31-134">使用 [回應群組設定] 工具或 [Lync Server 管理命令介面] 來建立工作流程（查尋群組或互動式語音回應（IVR）通話流程），包括自訂回應群組的商務時數和假日。</span><span class="sxs-lookup"><span data-stu-id="afd31-134">Use the Response Group Configuration Tool or Lync Server Management Shell to create workflows (hunt groups or interactive voice response (IVR) call flows), including custom response group business hours and holidays.</span></span></p>
+<li><p><span data-ttu-id="89090-133">（選用） 使用 Lync Server 管理命令介面來建立預先定義的回應群組營業時間與假日。</span><span class="sxs-lookup"><span data-stu-id="89090-133">Optionally, use Lync Server Management Shell to create predefined response group business hours and holidays.</span></span></p></li>
+<li><p><span data-ttu-id="89090-134">使用的回應群組組態工具或 Lync Server 管理命令介面來建立工作流程 （群組搜尋或互動語音回應 (IVR) 通話流程），包括自訂回應群組營業時間與假日。</span><span class="sxs-lookup"><span data-stu-id="89090-134">Use the Response Group Configuration Tool or Lync Server Management Shell to create workflows (hunt groups or interactive voice response (IVR) call flows), including custom response group business hours and holidays.</span></span></p>
 <div>
 
 > [!NOTE]  
-> <span data-ttu-id="afd31-135">您可以透過 [Lync Server 控制台] 存取 [回應群組設定] 工具。</span><span class="sxs-lookup"><span data-stu-id="afd31-135">You can access the Response Group Configuration Tool through Lync Server Control Panel.</span></span>
+> <span data-ttu-id="89090-135">您可以透過 Lync Server Control Panel 存取回應群組組態工具。</span><span class="sxs-lookup"><span data-stu-id="89090-135">You can access the Response Group Configuration Tool through Lync Server Control Panel.</span></span>
 
 
 </div></li>
 </ol></td>
-<td><p><span data-ttu-id="afd31-136">RTCUniversalServerAdmins</span><span class="sxs-lookup"><span data-stu-id="afd31-136">RTCUniversalServerAdmins</span></span></p>
-<p><span data-ttu-id="afd31-137">CsResponseGroupAdministrator</span><span class="sxs-lookup"><span data-stu-id="afd31-137">CsResponseGroupAdministrator</span></span></p>
-<p><span data-ttu-id="afd31-138">CsVoiceAdministrator</span><span class="sxs-lookup"><span data-stu-id="afd31-138">CsVoiceAdministrator</span></span></p>
-<p><span data-ttu-id="afd31-139">CsServerAdministrator</span><span class="sxs-lookup"><span data-stu-id="afd31-139">CsServerAdministrator</span></span></p>
-<p><span data-ttu-id="afd31-140">CsAdministrator</span><span class="sxs-lookup"><span data-stu-id="afd31-140">CsAdministrator</span></span></p>
-<p><span data-ttu-id="afd31-141">CsResponseGroupManager</span><span class="sxs-lookup"><span data-stu-id="afd31-141">CsResponseGroupManager</span></span></p></td>
-<td><p><span data-ttu-id="afd31-142"><a href="lync-server-2013-create-response-group-agent-groups.md">在 Lync Server 2013 中建立回應群組代理群組</a></span><span class="sxs-lookup"><span data-stu-id="afd31-142"><a href="lync-server-2013-create-response-group-agent-groups.md">Create Response Group agent groups Lync Server 2013</a></span></span></p>
-<p><span data-ttu-id="afd31-143"><a href="lync-server-2013-create-response-group-queues.md">在 Lync Server 2013 中建立回應群組佇列</a></span><span class="sxs-lookup"><span data-stu-id="afd31-143"><a href="lync-server-2013-create-response-group-queues.md">Create Response Group queues in Lync Server 2013</a></span></span></p>
-<p><span data-ttu-id="afd31-144"><a href="lync-server-2013-optional-define-response-group-business-hours.md">可選在 Lync Server 2013 中定義回應群組的上班時間</a></span><span class="sxs-lookup"><span data-stu-id="afd31-144"><a href="lync-server-2013-optional-define-response-group-business-hours.md">(Optional) Define Response Group business hours in Lync Server 2013</a></span></span></p>
-<p><span data-ttu-id="afd31-145"><a href="lync-server-2013-optional-define-response-group-holiday-sets.md">可選在 Lync Server 2013 中定義回應群組假日集</a></span><span class="sxs-lookup"><span data-stu-id="afd31-145"><a href="lync-server-2013-optional-define-response-group-holiday-sets.md">(Optional) Define Response Group holiday sets in Lync Server 2013</a></span></span></p>
-<p><span data-ttu-id="afd31-146"><a href="lync-server-2013-create-or-modify-a-workflow.md">在 Lync Server 2013 中建立或修改工作流程</a></span><span class="sxs-lookup"><span data-stu-id="afd31-146"><a href="lync-server-2013-create-or-modify-a-workflow.md">Create or modify a workflow in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="89090-136">RTCUniversalServerAdmins</span><span class="sxs-lookup"><span data-stu-id="89090-136">RTCUniversalServerAdmins</span></span></p>
+<p><span data-ttu-id="89090-137">CsResponseGroupAdministrator</span><span class="sxs-lookup"><span data-stu-id="89090-137">CsResponseGroupAdministrator</span></span></p>
+<p><span data-ttu-id="89090-138">CsVoiceAdministrator</span><span class="sxs-lookup"><span data-stu-id="89090-138">CsVoiceAdministrator</span></span></p>
+<p><span data-ttu-id="89090-139">CsServerAdministrator</span><span class="sxs-lookup"><span data-stu-id="89090-139">CsServerAdministrator</span></span></p>
+<p><span data-ttu-id="89090-140">CsAdministrator</span><span class="sxs-lookup"><span data-stu-id="89090-140">CsAdministrator</span></span></p>
+<p><span data-ttu-id="89090-141">CsResponseGroupManager</span><span class="sxs-lookup"><span data-stu-id="89090-141">CsResponseGroupManager</span></span></p></td>
+<td><p><span data-ttu-id="89090-142"><a href="lync-server-2013-create-response-group-agent-groups.md">建立回應群組代理群組 Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="89090-142"><a href="lync-server-2013-create-response-group-agent-groups.md">Create Response Group agent groups Lync Server 2013</a></span></span></p>
+<p><span data-ttu-id="89090-143"><a href="lync-server-2013-create-response-group-queues.md">Lync Server 2013 中建立回應群組佇列</a></span><span class="sxs-lookup"><span data-stu-id="89090-143"><a href="lync-server-2013-create-response-group-queues.md">Create Response Group queues in Lync Server 2013</a></span></span></p>
+<p><span data-ttu-id="89090-144"><a href="lync-server-2013-optional-define-response-group-business-hours.md">（選用）Lync Server 2013 中的定義回應群組營業時間</a></span><span class="sxs-lookup"><span data-stu-id="89090-144"><a href="lync-server-2013-optional-define-response-group-business-hours.md">(Optional) Define Response Group business hours in Lync Server 2013</a></span></span></p>
+<p><span data-ttu-id="89090-145"><a href="lync-server-2013-optional-define-response-group-holiday-sets.md">（選用）Lync Server 2013 中的定義回應群組假日集</a></span><span class="sxs-lookup"><span data-stu-id="89090-145"><a href="lync-server-2013-optional-define-response-group-holiday-sets.md">(Optional) Define Response Group holiday sets in Lync Server 2013</a></span></span></p>
+<p><span data-ttu-id="89090-146"><a href="lync-server-2013-create-or-modify-a-workflow.md">建立或修改 Lync Server 2013 中的工作流程</a></span><span class="sxs-lookup"><span data-stu-id="89090-146"><a href="lync-server-2013-create-or-modify-a-workflow.md">Create or modify a workflow in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="afd31-147">可選自訂應用程式層級設定</span><span class="sxs-lookup"><span data-stu-id="afd31-147">(Optional) Customize application-level settings</span></span></p></td>
-<td><p><span data-ttu-id="afd31-148">您可以使用 Lync Server 管理命令介面來自訂預設的音樂保留式設定、預設的音樂保留音訊檔案、代理 ringback 寬限期，以及通話內容配置。</span><span class="sxs-lookup"><span data-stu-id="afd31-148">Use Lync Server Management Shell to customize the default music-on-hold configuration, the default music-on-hold audio file, the agent ringback grace period, and the call context configuration.</span></span></p></td>
-<td><p><span data-ttu-id="afd31-149">RTCUniversalServerAdmins</span><span class="sxs-lookup"><span data-stu-id="afd31-149">RTCUniversalServerAdmins</span></span></p>
-<p><span data-ttu-id="afd31-150">CsResponseGroupAdministrator</span><span class="sxs-lookup"><span data-stu-id="afd31-150">CsResponseGroupAdministrator</span></span></p>
-<p><span data-ttu-id="afd31-151">CsVoiceAdministrator</span><span class="sxs-lookup"><span data-stu-id="afd31-151">CsVoiceAdministrator</span></span></p>
-<p><span data-ttu-id="afd31-152">CsServerAdministrator</span><span class="sxs-lookup"><span data-stu-id="afd31-152">CsServerAdministrator</span></span></p>
-<p><span data-ttu-id="afd31-153">CsAdministrator</span><span class="sxs-lookup"><span data-stu-id="afd31-153">CsAdministrator</span></span></p></td>
-<td><p><span data-ttu-id="afd31-154"><a href="lync-server-2013-managing-application-level-response-group-settings.md">管理 Lync Server 2013 中的應用層級回應群組設定</a></span><span class="sxs-lookup"><span data-stu-id="afd31-154"><a href="lync-server-2013-managing-application-level-response-group-settings.md">Managing application-level Response Group settings in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="89090-147">（選用）自訂應用程式層級設定</span><span class="sxs-lookup"><span data-stu-id="89090-147">(Optional) Customize application-level settings</span></span></p></td>
+<td><p><span data-ttu-id="89090-148">使用 Lync Server 管理命令介面自訂預設的等候音樂上保留設定、 預設的等候音樂上保留音訊檔案、 代理人回電寬限期以及來電內容設定。</span><span class="sxs-lookup"><span data-stu-id="89090-148">Use Lync Server Management Shell to customize the default music-on-hold configuration, the default music-on-hold audio file, the agent ringback grace period, and the call context configuration.</span></span></p></td>
+<td><p><span data-ttu-id="89090-149">RTCUniversalServerAdmins</span><span class="sxs-lookup"><span data-stu-id="89090-149">RTCUniversalServerAdmins</span></span></p>
+<p><span data-ttu-id="89090-150">CsResponseGroupAdministrator</span><span class="sxs-lookup"><span data-stu-id="89090-150">CsResponseGroupAdministrator</span></span></p>
+<p><span data-ttu-id="89090-151">CsVoiceAdministrator</span><span class="sxs-lookup"><span data-stu-id="89090-151">CsVoiceAdministrator</span></span></p>
+<p><span data-ttu-id="89090-152">CsServerAdministrator</span><span class="sxs-lookup"><span data-stu-id="89090-152">CsServerAdministrator</span></span></p>
+<p><span data-ttu-id="89090-153">CsAdministrator</span><span class="sxs-lookup"><span data-stu-id="89090-153">CsAdministrator</span></span></p></td>
+<td><p><span data-ttu-id="89090-154"><a href="lync-server-2013-managing-application-level-response-group-settings.md">管理 Lync Server 2013 中的應用程式層級回應群組設定</a></span><span class="sxs-lookup"><span data-stu-id="89090-154"><a href="lync-server-2013-managing-application-level-response-group-settings.md">Managing application-level Response Group settings in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="afd31-155">可選委派對回應群組的管理</span><span class="sxs-lookup"><span data-stu-id="afd31-155">(Optional) Delegate management of response groups</span></span></p></td>
-<td><p><span data-ttu-id="afd31-156">指派使用者的 CsResponseGroupManager 角色來委派回應群組的設定。</span><span class="sxs-lookup"><span data-stu-id="afd31-156">Assign users the CsResponseGroupManager role to delegate configuration of response groups.</span></span> <span data-ttu-id="afd31-157">回應群組管理員可以設定指派給他們的回應群組。</span><span class="sxs-lookup"><span data-stu-id="afd31-157">Response Group Managers can then configure the response groups assigned to them.</span></span></p></td>
-<td><p><span data-ttu-id="afd31-158">RTCUniversalServerAdmins</span><span class="sxs-lookup"><span data-stu-id="afd31-158">RTCUniversalServerAdmins</span></span></p>
-<p><span data-ttu-id="afd31-159">CsResponseGroupAdministrator</span><span class="sxs-lookup"><span data-stu-id="afd31-159">CsResponseGroupAdministrator</span></span></p>
-<p><span data-ttu-id="afd31-160">CsVoiceAdministrator</span><span class="sxs-lookup"><span data-stu-id="afd31-160">CsVoiceAdministrator</span></span></p>
-<p><span data-ttu-id="afd31-161">CsServerAdministrator</span><span class="sxs-lookup"><span data-stu-id="afd31-161">CsServerAdministrator</span></span></p>
-<p><span data-ttu-id="afd31-162">CsAdministrator</span><span class="sxs-lookup"><span data-stu-id="afd31-162">CsAdministrator</span></span></p></td>
-<td><p><span data-ttu-id="afd31-163"><a href="lync-server-2013-planning-for-role-based-access-control.md">在 Lync Server 2013 中規劃角色型存取控制</a></span><span class="sxs-lookup"><span data-stu-id="afd31-163"><a href="lync-server-2013-planning-for-role-based-access-control.md">Planning for role-based access control in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="89090-155">（選用）委派管理回應群組</span><span class="sxs-lookup"><span data-stu-id="89090-155">(Optional) Delegate management of response groups</span></span></p></td>
+<td><p><span data-ttu-id="89090-156">將使用者指派 CsResponseGroupManager 角色委派的回應群組組態。</span><span class="sxs-lookup"><span data-stu-id="89090-156">Assign users the CsResponseGroupManager role to delegate configuration of response groups.</span></span> <span data-ttu-id="89090-157">回應群組管理員則可以設定指派給他們的回應群組。</span><span class="sxs-lookup"><span data-stu-id="89090-157">Response Group Managers can then configure the response groups assigned to them.</span></span></p></td>
+<td><p><span data-ttu-id="89090-158">RTCUniversalServerAdmins</span><span class="sxs-lookup"><span data-stu-id="89090-158">RTCUniversalServerAdmins</span></span></p>
+<p><span data-ttu-id="89090-159">CsResponseGroupAdministrator</span><span class="sxs-lookup"><span data-stu-id="89090-159">CsResponseGroupAdministrator</span></span></p>
+<p><span data-ttu-id="89090-160">CsVoiceAdministrator</span><span class="sxs-lookup"><span data-stu-id="89090-160">CsVoiceAdministrator</span></span></p>
+<p><span data-ttu-id="89090-161">CsServerAdministrator</span><span class="sxs-lookup"><span data-stu-id="89090-161">CsServerAdministrator</span></span></p>
+<p><span data-ttu-id="89090-162">CsAdministrator</span><span class="sxs-lookup"><span data-stu-id="89090-162">CsAdministrator</span></span></p></td>
+<td><p><span data-ttu-id="89090-163"><a href="lync-server-2013-planning-for-role-based-access-control.md">規劃 Lync Server 2013 中角色型存取控制</a></span><span class="sxs-lookup"><span data-stu-id="89090-163"><a href="lync-server-2013-planning-for-role-based-access-control.md">Planning for role-based access control in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="afd31-164">驗證您的回應群組部署</span><span class="sxs-lookup"><span data-stu-id="afd31-164">Verify your Response Group deployment</span></span></p></td>
-<td><p><span data-ttu-id="afd31-165">測試對您的查尋群組和互動式語音回應工作流程的通話回應，以確保您的設定如預期的那樣正常運作。</span><span class="sxs-lookup"><span data-stu-id="afd31-165">Test answering calls to your hunt group and interactive voice response workflows to ensure that your configuration works as expected.</span></span></p></td>
+<td><p><span data-ttu-id="89090-164">確認回應群組部署</span><span class="sxs-lookup"><span data-stu-id="89090-164">Verify your Response Group deployment</span></span></p></td>
+<td><p><span data-ttu-id="89090-165">測試群組搜尋或互動語音回應系統工作流程自動答錄服務呼叫以確保您的設定，如預期般運作。</span><span class="sxs-lookup"><span data-stu-id="89090-165">Test answering calls to your hunt group and interactive voice response workflows to ensure that your configuration works as expected.</span></span></p></td>
 <td><p>-</p></td>
 <td><p>-</p></td>
 </tr>
