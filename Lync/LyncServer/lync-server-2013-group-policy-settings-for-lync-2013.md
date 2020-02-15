@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： Lync 2013 的群組原則設定
+title: Lync 2013 的 Lync Server 2013： 群組原則設定
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184235
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3023741b1b9e71d7789857c9b55fb195453ee5b3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ba88fdce88280597e9e621c13267de2b9b76d0fb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757547"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030356"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41757547"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-03_
+_**主題上次修改日期：** 2012年-10-03_
 
-在舊版 Lync 和 Office Communicator 中，有一個獨立的 Communicator 管理範本可供您設定用戶端群組原則設定。 在 Lync 2013 中，新的系統管理範本檔案（admx 與 adml 檔案）隨附于 Office 群組原則管理範本。 Lync 2013 admx 與 adml 檔案的可用性可讓您下載範本，並集中管理所有 Office 程式及語言套件的群組原則設定。 如需詳細資訊，請參閱 Office 2013 檔中的「Office 2013 管理範本檔案（ADMX、ADML <http://go.microsoft.com/fwlink/p/?linkid=267516>）」。
+在舊版的 Lync 及 Office Communicator，獨立的 Communicator.adm 系統管理範本是適用於設定用戶端的群組原則設定。 Lync 2013 的新系統管理範本檔案 （.admx 和.adml 檔案） 會包含以及 Office 群組原則系統管理範本。 Lync 2013.admx 和.adml 檔案的可用性可讓您下載範本，並集中管理所有 Office 程式及語言套件的群組原則設定。 如需詳細資訊，請參閱 「 Office 2013 Administrative Template files （ADMX，ADML） 」 中的 Office 2013 文件<http://go.microsoft.com/fwlink/p/?linkid=267516>。
 
 <div>
 
-## <a name="client-bootstrapping-policies"></a>用戶端引導原則
+## <a name="client-bootstrapping-policies"></a>用戶端啟動原則
 
-在使用者第一次登入伺服器之前，您應該先設定幾個用戶端引導原則。 因為這些原則會在用戶端登入並開始從伺服器接收帶外配設設定前生效，所以您可以使用群組原則來進行設定。 如需詳細資訊，請參閱在部署檔中的[Lync Server 2013 中設定用戶端引導原則](lync-server-2013-configuring-client-bootstrapping-policies.md)。
+有幾個用戶端啟動原則是您必須在使用者第一次登入伺服器之前設定的。 因為在用戶端登入並開始從伺服器接收頻內佈建設定之前，這些原則就已生效，所以您可以使用 [群組原則] 來設定它們。 如需詳細資訊，請參閱部署文件中的[Lync Server 2013 中的設定用戶端啟動載入原則](lync-server-2013-configuring-client-bootstrapping-policies.md)。
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：定義 Enterprise Voice 的需求
+title: Lync Server 2013： 定義 Enterprise Voice 的需求
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183816
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8987905d2b117eb889486882b7d74ce4e52659a8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d88a70796282fe09941ce7632d8c13258defc515
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739933"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42032155"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="defining-your-requirements-for-enterprise-voice-in-lync-server-2013"></a>在 Lync Server 2013 中定義 Enterprise Voice 的需求
+# <a name="defining-your-requirements-for-enterprise-voice-in-lync-server-2013"></a>定義 Lync Server 2013 中的 Enterprise Voice 的需求
 
 </div>
 
@@ -35,32 +35,32 @@ ms.locfileid: "41739933"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-08-07_
+_**主題上次修改日期：** 2012年-08-07_
 
-本主題概述您需要的考慮，包括您在拓撲中的區域、網站和連結，以及當您部署企業語音時這些專案的重要資訊。 如需協助您做出這些決定的詳細資料，請參閱規劃檔中的[Lync Server 2013 中的 [網路設定](lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md)]。
+本主題概要說明您必須先需區域、 網站及您的拓撲中的網站和方式的重要部署 Enterprise Voice 時之間的連結的考量。 如需可協助您進行這些決策的詳細資訊，請參閱規劃文件中的[Lync Server 2013 中的進階 Enterprise Voice 功能的網路設定](lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md)。
 
 <div>
 
-## <a name="sites-and-regions"></a>網站和區域
+## <a name="sites-and-regions"></a>網站和地區
 
-首先，請在您的拓撲中找出您要部署企業語音的網站，以及這些網站所屬的網路區域。 具體來說，請考慮您將如何提供公用的交換電話網絡（PSTN）連線至每個網站。 出於易管理性和後勤原因，這些網站所屬的區域可以是決定因素。 決定要在本機部署閘道的位置，將部署 Survivable 分支裝置（SBAs），以及您可以將 SIP trunks （本機或在中央網站）設定為網際網路電話服務提供者（ITSP）。
+首先，找出您要部署 Enterprise Voice 和這些網站隸屬於網路地區的拓撲中的站台。 明確而言，請考量您要如何為各個網站提供公用交換電話網路 (PSTN) 連線。 就管理性與物流的考量而言，這些網站的所屬地區可能會是決定性因素。 決定其中閘道會部署在本機上，其中將部署 Survivable Branch Appliance (Sba)，其中您可以設定 SIP 主幹 （本機或在中央網站） 網際網路電話語音服務提供者 (ITSP)。
 
 </div>
 
 <div>
 
-## <a name="network-links-between-sites"></a>網站之間的網路連結
+## <a name="network-links-between-sites"></a>網站間的網路連結
 
-您也需要考慮您在中央網站與其分支網站之間的網路連結上預期的頻寬使用量。 如果您有或想要在網站之間部署彈性 WAN 連結，建議您在每個分支網站部署一個閘道，以針對這些網站上的使用者提供本機直向內撥打電話（已結束）。 如果您有彈性 WAN 連結，但 WAN 連結上的頻寬可能受到限制，請設定該連結的 [呼叫許可控制]。 如果您沒有可復原的 WAN 連結，請在分支網站中主持少於1000個使用者，而且沒有當地訓練有素的 Lync Server 管理員可用，我們建議您在分支網站上部署 Survivable 分支裝置。 如果您是在分支網站上的1000和5000使用者之間主持、缺乏強健的 WAN 連線，且已提供訓練有素的 Lync Server 管理員，我們建議您在分支網站上部署 Survivable 分支伺服器與小型閘道。 如果您有支援媒體旁路的閘道對等，也可以考慮在受限制的連結上啟用媒體旁路。
+您也必須考慮您預期的網路連結您的中央網站和其分支站台之間的頻寬使用量。 如果您有，或計劃部署，可恢復的 WAN 連結之間的網站，建議您部署的閘道，以提供使用者在這些網站上的本機直接向內撥號 (DID) 終止每個分支網站。 如果您有彈性的 WAN 連結，但 WAN 連結的頻寬可能受限，請為該連結設定通話許可控制。 如果您不具備可恢復的 WAN 連結，裝載少於 1000 位使用者在您的分支網站，而且不具有本機受過訓練的 Lync Server 系統管理員可以使用，我們建議您將部署 Survivable Branch Appliance 分支網站。 如果您主控 1000年到 5000 分支網站的使用者之間，缺少可恢復的 WAN 連線，並有經過訓練的 Lync Server 系統管理員可以使用，我們建議您部署 Survivable Branch Server 小型分支網站閘道。 如果您有支援媒體旁路的閘道對等，也請考慮對受限的連結啟用媒體旁路。
 
 </div>
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
-[Lync Server 2013 中的 [高級企業語音功能] 的網路設定](lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md)  
+[Lync Server 2013 中的進階 Enterprise Voice 功能的網路設定](lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md)  
   
 
 </div>

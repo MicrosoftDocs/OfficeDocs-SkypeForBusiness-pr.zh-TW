@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：指派每個使用者的原則
+title: Lync Server 2013： 指派個別使用者原則
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184971
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6b80446d9117a37b86c386132aa80439cb568a98
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2e9b5780b17ad2ed7a057979f77e504fb1fca0db
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734033"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030036"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="assigning-per-user-policies-in-lync-server-2013"></a>在 Lync Server 2013 中指派每個使用者的原則
+# <a name="assigning-per-user-policies-in-lync-server-2013"></a>指派 Lync Server 2013 中的個別使用者原則
 
 </div>
 
@@ -35,39 +35,39 @@ ms.locfileid: "41734033"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-14_
+_**主題上次修改日期：** 2012年-10-14_
 
-您可以將特定的原則指派給使用者或使用者群組，以指定與指派給其他使用者之原則（例如全域原則）中定義之設定不同的特定設定。 這些原則稱為 [每使用者原則]。
+若要指定原則指派給其他使用者，例如全域原則中定義的設定以外的特定設定，可以指派給使用者或一群使用者的特定原則。 這些原則稱為個別使用者原則。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [在 Lync Server 2013 中指派每使用者會議原則](lync-server-2013-assign-a-per-user-conferencing-policy.md)
+  - [指派 Lync Server 2013 中的個別使用者會議原則](lync-server-2013-assign-a-per-user-conferencing-policy.md)
 
-  - [在 Lync Server 2013 中指派每使用者用戶端版本原則](lync-server-2013-assign-a-per-user-client-version-policy.md)
+  - [指派每位使用者用戶端版本原則在 Lync Server 2013](lync-server-2013-assign-a-per-user-client-version-policy.md)
 
-  - [在 Lync Server 2013 中指派每位使用者的 PIN 原則](lync-server-2013-assign-a-per-user-pin-policy.md)
+  - [指派 Lync Server 2013 中的每位使用者的 pin 碼原則](lync-server-2013-assign-a-per-user-pin-policy.md)
 
-  - [在 Lync Server 2013 中將外部使用者存取原則指派給擁有 Lync 功能的使用者](lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md)
+  - [指派給 Lync Server 2013 中啟用 Lync 功能之使用者的外部使用者存取原則](lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md)
 
-  - [在 Lync Server 2013 中指派每個使用者的存檔原則](lync-server-2013-assign-a-per-user-archiving-policy.md)
+  - [指派 Lync Server 2013 中的個別使用者封存原則](lync-server-2013-assign-a-per-user-archiving-policy.md)
 
-  - [在 Lync Server 2013 中指派每位使用者的位置原則](lync-server-2013-assign-a-per-user-location-policy.md)
+  - [Lync Server 2013 中的個別使用者位置原則指派](lync-server-2013-assign-a-per-user-location-policy.md)
 
-  - [在 Lync Server 2013 中指派每個使用者的行動原則](lync-server-2013-assign-a-per-user-mobility-policy.md)
+  - [Lync Server 2013 中的每一使用者行動性原則指派](lync-server-2013-assign-a-per-user-mobility-policy.md)
 
-  - [指派 Lync Server 2013 中的每個使用者持續聊天原則](lync-server-2013-assign-a-per-user-persistent-chat-policy.md)
+  - [指派 Lync Server 2013 中的個別使用者常設聊天室原則](lync-server-2013-assign-a-per-user-persistent-chat-policy.md)
 
-  - [在 Lync Server 2013 中指派每個使用者的撥號方案原則](lync-server-2013-assign-a-per-user-dial-plan-policy.md)
+  - [指派 Lync Server 2013 中的個別使用者撥號對應表規劃原則](lync-server-2013-assign-a-per-user-dial-plan-policy.md)
 
-  - [在 Lync Server 2013 中指派每個使用者的語音原則](lync-server-2013-assign-a-per-user-voice-policy.md)
+  - [指派 Lync Server 2013 中的個別使用者語音原則](lync-server-2013-assign-a-per-user-voice-policy.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
 [在 Lync Server 2013 中管理使用者](lync-server-2013-managing-users-in-lync-server.md)  

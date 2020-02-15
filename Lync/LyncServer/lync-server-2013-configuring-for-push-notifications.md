@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：設定推播通知
+title: Lync Server 2013： 設定推入通知
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185574
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c34b49d6c968effa46005a01df286d14fcff394c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f92ae27b919df6a32f06921df97746680a68b030
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728983"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028954"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-for-push-notifications-in-lync-server-2013"></a>在 Lync Server 2013 中設定推播通知
+# <a name="configuring-for-push-notifications-in-lync-server-2013"></a>設定 Lync Server 2013 中的推入通知
 
 </div>
 
@@ -35,48 +35,48 @@ ms.locfileid: "41728983"
 
 <span> </span>
 
-_**主題上次修改日期：** 2013-02-12_
+_**上次修改主題：** 2013年-02-12_
 
-您可以傳送徽章、圖示或警示等形式的推播通知，即使行動應用程式處於非使用中時也能傳送給行動裝置。 推播通知會將事件（例如新的或未接的 IM 邀請及語音信箱）通知給使用者。 Lync Server 2013 行動裝置服務會將通知傳送到雲端式 Lync Server 推播通知服務，然後將通知傳送到 Apple 推播通知服務（APNS）（適用于執行 Lync 2010 行動用戶端的 Apple 裝置）或Microsoft 推播通知服務（MPNS）（適用于執行 Lync 2010 Mobile 或 Lync 2013 行動用戶端的 Windows Phone 裝置）。
+推入通知，形式的徽章、 圖示或提醒，可以傳送至行動裝置，只有非使用中的行動應用程式時，即使。 推入通知通知事件，例如新的或未接 IM 邀請與語音信箱的使用者。 Lync Server 2013 Mobility Service 將通知傳送至雲端式 Lync Server 推播通知服務，然後將通知傳送至 Apple 推播通知服務 (APNS) （適用於執行 Lync 2010 Mobile 用戶端 Apple 裝置） 其中或Microsoft 推播通知服務 (MPNS) （適用於執行 Lync 2010 Mobile 或 Lync 2013 行動用戶端的 Windows Phone 裝置）。
 
 <div>
 
 
 > [!IMPORTANT]  
-> 如果您使用 Windows Phone 搭配 Lync 2010 行動裝置或 Lync 2013 行動用戶端，推播通知就是一個重要的考慮。<BR>如果您在 Apple 裝置上使用 Lync 2010 Mobile，推播通知就是一個重要的考慮。<BR>如果您在 Apple 裝置上使用 Lync 2013 Mobile，就不再需要推播通知。
+> 如果您使用 Windows Phone 與 Lync 2010 Mobile 或 Lync 2013 行動用戶端，推播通知是很重要的考量。<BR>如果您在 Apple 裝置上使用 Lync 2010 Mobile，推播通知是很重要的考量。<BR>如果您在 Apple 裝置上使用 Lync 2013 行動，您不再需要推入通知。
 
 
 
 </div>
 
-您可以執行下列動作，將拓撲設定為支援推播通知：
+設定您的拓撲支援推入通知，執行下列動作：
 
-  - 如果您的環境有 Lync Server 2010 或 Lync Server 2013 Edge 伺服器，您必須新增新的主機服務提供者、Microsoft Lync Online，然後在您的組織和 Lync Online 之間設定託管提供者同盟。
+  - 如果您的環境具有 Lync Server 2010 或 Lync Server 2013 Edge Server，您需要新增新主機服務提供者，Microsoft Lync Online，然後再設定裝載提供者同盟組織與 Lync Online 之間。
 
-  - 如果您的環境有 Office 通訊伺服器 2007 R2 Edge 伺服器，您必須使用 push.lync.com 設定直接 SIP 同盟。
+  - 如果您的環境具有 Office Communications Server 2007 R2 Edge Server，您必須設定與 push.lync.com 的直接 SIP 同盟。
     
     <div>
     
 
     > [!NOTE]  
-    > Push.lync.com 是適用于推播通知服務的 Microsoft Office 365 網域。
+    > Push.lync.com 是推入通知服務的 Microsoft Office 365 網域。
 
     
     </div>
 
-  - 若要啟用推播通知，您必須執行**CsPushNotificationConfiguration** Cmdlet。 依預設，推播通知會關閉。
+  - 若要啟用推播通知，您需要執行**Set-cspushnotificationconfiguration** cmdlet。 根據預設，推入通知被關閉的。
 
-  - 測試同盟設定和推播通知。
+  - 測試同盟設定和推入通知。
 
 <div>
 
-## <a name="to-configure-for-push-notifications-with-lync-server-2013-or-lync-server-2010edge-server"></a>使用 Lync Server 2013 或 Lync Server 2010 Edge 伺服器來設定推播通知
+## <a name="to-configure-for-push-notifications-with-lync-server-2013-or-lync-server-2010edge-server"></a>若要設定與 Lync Server 2013 或 Lync Server 2010 Edge Server 的推入通知
 
-1.  登入 Lync Server 管理命令介面和 Ocscore 已安裝為 RtcUniversalServerAdmins 群組成員的電腦。
+1.  登入 Lync Server 管理命令介面和 Ocscore 的 RtcUniversalServerAdmins 群組成員身分安裝所在的電腦。
 
-2.  啟動 Lync Server 管理命令介面：按一下 [**開始**]，按一下 [**所有程式**]，按一下 [ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
+2.  啟動 Lync Server 管理命令介面： 按一下 [**開始]**，按一下 [**所有程式]**、 [ **Microsoft Lync Server 2013**]，然後按一下**Lync Server 管理命令介面**。
 
-3.  新增 Lync Server online 主機服務提供者。 在命令列中，輸入：
+3.  新增 Lync Server 線上裝載提供者。 在命令列中輸入：
     
         New-CsHostingProvider -Identity <unique identifier for Lync Online hosting provider> -Enabled $True -ProxyFqdn <FQDN for the Access Server used by the hosting provider> -VerificationLevel UseSourceVerification
     
@@ -88,12 +88,12 @@ _**主題上次修改日期：** 2013-02-12_
     
 
     > [!NOTE]  
-    > 同一個主機名稱提供者不能有一個以上的同盟關聯。 也就是說，如果您已設定與 sipfed.online.lync.com 具有同盟關聯的託管提供者，請不要針對其新增另一個主機服務提供者，即使主機提供者的身分識別是 LyncOnline 以外的內容。
+    > 您不能有一個以上的同盟關係與單一主機服務提供者。 也就是說，如果您已經設定裝載提供者已與 sipfed.online.lync.com 的同盟關係，請勿加上另一個主機服務提供者，即使裝載提供者的身分識別是 Nm-lynconline-w15-long 以外的項目。
 
     
     </div>
 
-4.  在您的組織與 Lync Online 的推播通知服務之間設定託管提供者同盟。 在命令列中，輸入：
+4.  設定裝載您的組織和推入通知服務在 Lync Online 之間的提供者同盟。 在命令列中輸入：
     
         New-CsAllowedDomain -Identity "push.lync.com"
 
@@ -101,21 +101,21 @@ _**主題上次修改日期：** 2013-02-12_
 
 <div>
 
-## <a name="to-configure-for-push-notifications-with-office-communications-server-2007-r2edge-server"></a>使用 Office 通訊伺服器 2007 R2 Edge 伺服器來設定推播通知
+## <a name="to-configure-for-push-notifications-with-office-communications-server-2007-r2edge-server"></a>若要設定與 Office Communications Server 2007 R2 Edge Server 的推入通知
 
-1.  以 RtcUniversalServerAdmins 群組成員的身分登入邊緣伺服器。
+1.  使用 RtcUniversalServerAdmins 群組成員身分登入 Edge Server。
 
-2.  按一下 [**開始**]，按一下 [**所有程式**]，按一下 [**管理工具**]，然後按一下 [**電腦管理**]。
+2.  按一下 [**開始]**[**所有程式]**、 [**系統管理工具**]，然後按一下 [**電腦管理]**。
 
-3.  在主控台樹中，展開 [**服務與應用程式**]，以滑鼠右鍵按一下 [ **Microsoft Office 通訊伺服器 2007 R2**]，然後按一下 [**屬性**]。
+3.  在主控台樹狀目錄中，展開 [**服務及應用程式**，以滑鼠右鍵按一下 [ **Microsoft Office Communications Server 2007 R2**，，然後按一下**屬性**。
 
-4.  按一下 [**允許**] 索引標籤上的 [**新增**]。
+4.  [**允許**] 索引標籤中，按一下 [**新增**]。
 
-5.  在 [**新增聯盟合作夥伴**] 對話方塊中，執行下列動作：
+5.  在 [**新增同盟協力廠商**] 對話方塊中，執行下列動作：
     
-      - 在 [**聯盟夥伴功能變數名稱**] 中，輸入**push.lync.com**。
+      - 在 [**同盟協力廠商網域名稱**] 中，輸入**push.lync.com**。
     
-      - 在 [**聯盟夥伴存取邊緣伺服器**] 中，輸入**sipfed.online.lync.com**。
+      - 在 [**同盟協力廠商 Access Edge Server**，輸入**sipfed.online.lync.com**。
     
       - 按一下 [確定]****。
 
@@ -123,17 +123,17 @@ _**主題上次修改日期：** 2013-02-12_
 
 <div>
 
-## <a name="to-enable-push-notifications"></a>啟用推播通知
+## <a name="to-enable-push-notifications"></a>若要啟用推入通知
 
-1.  登入 Lync Server 管理命令介面和 Ocscore 已安裝為 CsAdministrator 角色成員的電腦。
+1.  登入 Lync Server 管理命令介面和 Ocscore CsAdministrator 角色的成員身分安裝所在的電腦。
 
-2.  啟動 Lync Server 管理命令介面：按一下 [**開始**]，按一下 [**所有程式**]，按一下 [ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
+2.  啟動 Lync Server 管理命令介面： 按一下 [**開始]**，按一下 [**所有程式]**、 [ **Microsoft Lync Server 2013**]，然後按一下**Lync Server 管理命令介面**。
 
-3.  啟用推播通知。 在命令列中，輸入：
+3.  啟用推入通知。 在命令列中輸入：
     
         Set-CsPushNotificationConfiguration -EnableApplePushNotificationService $True -EnableMicrosoftPushNotificationService $True
 
-4.  啟用同盟。 在命令列中，輸入：
+4.  啟用同盟。 在命令列中輸入：
     
         Set-CsAccessEdgeConfiguration -AllowFederatedUsers $True
 
@@ -141,13 +141,13 @@ _**主題上次修改日期：** 2013-02-12_
 
 <div>
 
-## <a name="to-test-federation-and-push-notifications"></a>測試同盟和推播通知
+## <a name="to-test-federation-and-push-notifications"></a>測試同盟和推入通知
 
-1.  登入 Lync Server 管理命令介面和 Ocscore 已安裝為 CsAdministrator 角色成員的電腦。
+1.  登入 Lync Server 管理命令介面和 Ocscore CsAdministrator 角色的成員身分安裝所在的電腦。
 
-2.  啟動 Lync Server 管理命令介面：按一下 [**開始**]，按一下 [**所有程式**]，按一下 [ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
+2.  啟動 Lync Server 管理命令介面： 按一下 [**開始]**，按一下 [**所有程式]**、 [ **Microsoft Lync Server 2013**]，然後按一下**Lync Server 管理命令介面**。
 
-3.  測試同盟設定。 在命令列中，輸入：
+3.  測試同盟設定。 在命令列中輸入：
     
         Test-CsFederatedPartner -TargetFqdn <FQDN of Access Edge server used for federated SIP traffic> -Domain <FQDN of federated domain> -ProxyFqdn <FQDN of the Access Edge server used by the federated organization>
     
@@ -155,7 +155,7 @@ _**主題上次修改日期：** 2013-02-12_
     
         Test-CsFederatedPartner -TargetFqdn accessproxy.contoso.com -Domain push.lync.com -ProxyFqdn sipfed.online.lync.com
 
-4.  測試推播通知。 在命令列中，輸入：
+4.  測試推入通知。 在命令列中輸入：
     
         Test-CsMcxPushNotification -AccessEdgeFqdn <Access Edge service FQDN>
     
@@ -170,8 +170,8 @@ _**主題上次修改日期：** 2013-02-12_
 ## <a name="see-also"></a>請參閱
 
 
-[Test-CsFederatedPartner](https://docs.microsoft.com/powershell/module/skype/Test-CsFederatedPartner)  
-[Test-CsMcxPushNotification](https://docs.microsoft.com/powershell/module/skype/Test-CsMcxPushNotification)  
+[Test-csfederatedpartner](https://docs.microsoft.com/powershell/module/skype/Test-CsFederatedPartner)  
+[Test-csmcxpushnotification](https://docs.microsoft.com/powershell/module/skype/Test-CsMcxPushNotification)  
   
 
 </div>

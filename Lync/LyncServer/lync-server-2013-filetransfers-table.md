@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：FileTransfers 表格
+title: 'Lync Server 2013: FileTransfers 表格'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184118
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de8a3e69c670c273bcdd91ac5895c0b1f0b15d80
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9aedca2ae840947aef4ccc6ec7bff4ba825090a0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743358"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028484"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41743358"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-09-28_
+_**主題上次修改日期：** 2012年-09-28_
 
-每個記錄代表一個檔案傳輸會話。
+每筆記錄代表一個檔案傳輸工作階段。
 
 
 <table>
@@ -49,9 +49,9 @@ _**主題上次修改日期：** 2012-09-28_
 </colgroup>
 <thead>
 <tr class="header">
-<th>左欄</th>
+<th>欄</th>
 <th>資料類型</th>
-<th>索引鍵/索引</th>
+<th>主索引鍵 /</th>
 <th>詳細資料</th>
 </tr>
 </thead>
@@ -60,49 +60,49 @@ _**主題上次修改日期：** 2012-09-28_
 <td><p><strong>SessionIdTime</strong></p></td>
 <td><p>datetime</p></td>
 <td><p>主要、外部</p></td>
-<td><p>會話要求的時間。 與<strong>SessionIdSeq</strong>搭配使用，可唯一識別會話。 如需詳細資訊，請參閱<a href="lync-server-2013-dialogs-table.md">Lync Server 2013 中</a>的 [對話方塊] 資料表。</p></td>
+<td><p>工作階段要求的時間。 其會與 <strong>SessionIdSeq</strong> 搭配使用，專門用於識別工作階段。 <a href="lync-server-2013-dialogs-table.md">Dialogs 表格 Lync Server 2013 中的</a>如需詳細資訊，請參閱。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionIdSeq</strong></p></td>
 <td><p>int</p></td>
-<td><p>主要、外部</p></td>
-<td><p>識別會話的識別碼編號。 與<strong>SessionIdTime</strong>搭配使用，可唯一識別會話。 如需詳細資訊，請參閱<a href="lync-server-2013-dialogs-table.md">Lync Server 2013 中</a>的 [對話方塊] 資料表。</p></td>
+<td><p>主要，外部</p></td>
+<td><p>用來識別工作階段的識別碼。 會與 <strong>SessionIdTime</strong> 搭配使用，專門用於識別工作階段。 <a href="lync-server-2013-dialogs-table.md">Dialogs 表格 Lync Server 2013 中的</a>如需詳細資訊，請參閱。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>檔案名</strong></p></td>
-<td><p>Nvarchar （256）</p></td>
+<td><p><strong>檔案名稱</strong></p></td>
+<td><p>nvarchar(256)</p></td>
 <td></td>
 <td><p>檔案的名稱。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>FileIdentity</strong></p></td>
-<td><p>uniqueidentifier</p></td>
+<td><p>唯一</p></td>
 <td></td>
-<td><p>唯一識別碼，區分涉及相同檔案名的檔案傳輸。</p></td>
+<td><p>唯一識別碼，用於分辨包含相同檔名的檔案傳輸。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>C</strong></p></td>
-<td><p>Nvarchar</p></td>
-<td><p>首選</p></td>
-<td><p>用來識別與此郵件相關聯的每一封後續訊息。</p></td>
+<td><p><strong>Cookie</strong></p></td>
+<td><p>nvarchar(128)</p></td>
+<td><p>主要</p></td>
+<td><p>可用來識別與此訊息相關聯的每則後續訊息。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>接受</strong></p></td>
-<td><p>稍微</p></td>
+<td><p><strong>Accept</strong></p></td>
+<td><p>位元</p></td>
 <td></td>
-<td><p>可以是 TRUE 或 Null。 如果為 TRUE，則 [拒絕] 和 [取消] 將會是 Null。</p></td>
+<td><p>可為 TRUE 或 NULL。若為 TRUE，則「拒絕」和「取消」為 NULL。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>否決</strong></p></td>
-<td><p>稍微</p></td>
+<td><p><strong>Reject</strong></p></td>
+<td><p>位元</p></td>
 <td></td>
-<td><p>可以是 TRUE 或 Null。 如果為 TRUE，則 [接受] 和 [取消] 將會是 Null。</p></td>
+<td><p>可為 TRUE 或 NULL。若為 TRUE，則「接受」和「取消」為 NULL。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>取消</strong></p></td>
-<td><p>稍微</p></td>
+<td><p><strong>Cancel</strong></p></td>
+<td><p>位元</p></td>
 <td></td>
-<td><p>可以是 TRUE 或 Null。 如果為 TRUE，則 [接受] 和 [拒絕] 會是 Null。</p></td>
+<td><p>可為 TRUE 或 NULL。若為 TRUE，則「接受」和「拒絕」為 NULL。</p></td>
 </tr>
 </tbody>
 </table>

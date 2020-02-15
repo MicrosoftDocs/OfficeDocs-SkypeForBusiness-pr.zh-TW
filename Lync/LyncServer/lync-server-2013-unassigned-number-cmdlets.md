@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：未指派的數位 Cmdlet
+title: Lync Server 2013： 未指派號碼 cmdlet
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184065
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f928958c976d2849d3ea8d6afd899315fe25e8da
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e3dc86689bd79a8efd8831f3b7028fb1f8dcc34f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744843"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029154"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="unassigned-number-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的未分派數位 Cmdlet
+# <a name="unassigned-number-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的未指派號碼 cmdlet
 
 </div>
 
@@ -35,57 +35,57 @@ ms.locfileid: "41744843"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-03-21_
+_**主題上次修改日期：** 2012年-03-21_
 
-未指定的號碼是屬於組織的電話號碼，但尚未指派給使用者或電話。 在撥打電話給那些號碼時，可以設定未指派的號碼播放各種類型的宣告。
+未指派號碼是屬於組織但尚未指派給使用者或電話的電話號碼。未指派號碼可設定為當撥打這些號碼時播放各種宣告。
 
 <div>
 
-## <a name="unassigned-number-cmdlets"></a>未指定的數位 Cmdlet
+## <a name="unassigned-number-cmdlets"></a>未指派號碼 Cmdlet
 
-下列 Cmdlet 可用來管理未指派的號碼。
+下列 Cmdlet 可用來管理未指派號碼。
 
-**未指定的數位**
-
-  - <span></span>  
-    [CsUnassignedNumber](https://technet.microsoft.com/en-us/library/Gg412792(v=OCS.15))
+**未指派號碼**
 
   - <span></span>  
-    [New-CsUnassignedNumber](https://technet.microsoft.com/en-us/library/Gg398651(v=OCS.15))
+    [取得 CsUnassignedNumber](https://technet.microsoft.com/library/Gg412792(v=OCS.15))
 
   - <span></span>  
-    [移除-CsUnassignedNumber](https://technet.microsoft.com/en-us/library/Gg398209(v=OCS.15))
+    [新 CsUnassignedNumber](https://technet.microsoft.com/library/Gg398651(v=OCS.15))
 
   - <span></span>  
-    [Set-CsUnassignedNumber](https://technet.microsoft.com/en-us/library/Gg399033(v=OCS.15))
+    [移除 CsUnassignedNumber](https://technet.microsoft.com/library/Gg398209(v=OCS.15))
+
+  - <span></span>  
+    [Set-csunassignednumber](https://technet.microsoft.com/library/Gg399033(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [CsAnnouncement](https://technet.microsoft.com/en-us/library/Gg398937(v=OCS.15))
+    [取得 CsAnnouncement](https://technet.microsoft.com/library/Gg398937(v=OCS.15))
 
   - <span></span>  
-    [新-CsAnnouncement](https://technet.microsoft.com/en-us/library/Gg398522(v=OCS.15))
+    [新 CsAnnouncement](https://technet.microsoft.com/library/Gg398522(v=OCS.15))
 
   - <span></span>  
-    [移除-CsAnnouncement](https://technet.microsoft.com/en-us/library/Gg412766(v=OCS.15))
+    [移除 CsAnnouncement](https://technet.microsoft.com/library/Gg412766(v=OCS.15))
 
   - <span></span>  
-    [Set-CsAnnouncement](https://technet.microsoft.com/en-us/library/Gg425752(v=OCS.15))
+    [設定 CsAnnouncement](https://technet.microsoft.com/library/Gg425752(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [匯入-CsAnnouncementFile](https://technet.microsoft.com/en-us/library/Gg398472(v=OCS.15))
+    [Import-csannouncementfile](https://technet.microsoft.com/library/Gg398472(v=OCS.15))
 
 </div>
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
-[Lync Server PowerShell 博客](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+[Lync Server PowerShell 部落格](http://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

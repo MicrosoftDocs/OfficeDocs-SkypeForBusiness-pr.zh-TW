@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：會議原則
+title: Lync Server 2013： 會議原則
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 49733732
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 96d1d9ed6fc0ad75e316a41ef7939f36ecaba354
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 44bf77ff67167b6d3e66ff70b9db5b00dad09b96
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741483"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029194"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,23 +35,23 @@ ms.locfileid: "41741483"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-09-18_
+_**主題上次修改日期：** 2012年-09-18_
 
-會議原則定義使用者在會議（也稱為會議）期間可使用的功能和功能。 會議原則設定包含各種排程和參與選項，包括從會議是否可以將 IP 音訊與影片加入到可參與的人數上限。 系統管理員可以使用會議原則來管理會議的安全性、頻寬和法律方面。
+會議原則定義使用者可以在會議中使用的特性與功能。會議原則設定包含廣泛的排程和參與選項，從會議是否可包含 IP 音訊和視訊到可出席會議的人數上限都涵蓋在內。系統管理員可以使用會議原則來管理會議的安全、頻寬和法律層面。
 
-您可以在三個層級定義會議原則：全域範圍、網站範圍和使用者範圍。 [設定] 會將最窄範圍的特定使用者套用至最廣泛的範圍。 如果您將使用者原則指派給使用者，這些設定就會優先。 如果您沒有指派使用者原則，就會套用 [網站設定]。 如果沒有適用的使用者或網站原則，全域原則就會提供預設設定。
+您可在三個層級定義會議原則：通用範圍、站台範圍，以及使用者範圍。設定值會依據最窄的範圍到最寬的範圍，依序套用至特定使用者。如果將使用者原則指派給使用者，則這些設定具有優先權。如果未指派使用者原則，則會套用站台設定。如果未套用使用者或站台原則，則由通用原則提供預設值。
 
-全域原則預設存在，所以您無法建立新的全域原則。 您也無法刪除現有的全域原則，但您可以變更現有的全域原則，來自訂您的預設設定。
+由於通用原則預設已經存在，因此您無法建立新的通用原則。您也無法刪除現有的通用原則，但您可以變更現有通用原則，自訂您自己的預設值。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [在 Lync Server 2013 中查看會議原則資訊](lync-server-2013-view-conferencing-policy-information.md)
+  - [在 Lync Server 2013 中檢視會議原則資訊](lync-server-2013-view-conferencing-policy-information.md)
 
-  - [在 Lync Server 2013 中建立或修改會議原則](lync-server-2013-create-or-modify-a-conferencing-policy.md)
+  - [建立或修改 Lync Server 2013 中的會議原則](lync-server-2013-create-or-modify-a-conferencing-policy.md)
 
-  - [刪除 Lync Server 2013 中的現有會議原則](lync-server-2013-delete-an-existing-conferencing-policy.md)
+  - [刪除 Lync Server 2013 中現有的會議原則](lync-server-2013-delete-an-existing-conferencing-policy.md)
 
   - [Lync Server 2013 的會議原則設定參考](lync-server-2013-conferencing-policy-settings-reference.md)
 

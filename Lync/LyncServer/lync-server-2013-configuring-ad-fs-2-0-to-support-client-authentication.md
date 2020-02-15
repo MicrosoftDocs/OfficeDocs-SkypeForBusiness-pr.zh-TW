@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：設定 AD FS 2.0 以支援用戶端驗證
+title: Lync Server 2013： 設定 AD FS 2.0 以支援用戶端驗證
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 54973687
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c7fe9587e85ad300a212e4a8199fa4a8a48d1877
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f7054bae609b5d1a1c6fe176c1092614f5d30fa6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741193"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029704"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-ad-fs-20-to-support-client-authentication-in-lync-server-2013"></a>在 Lync Server 2013 中設定 AD FS 2.0 以支援用戶端驗證
+# <a name="configuring-ad-fs-20-to-support-client-authentication-in-lync-server-2013"></a>設定 AD FS 2.0 以支援 Lync Server 2013 中的用戶端驗證
 
 </div>
 
@@ -35,44 +35,44 @@ ms.locfileid: "41741193"
 
 <span> </span>
 
-_**主題上次修改日期：** 2013-07-03_
+_**上次修改主題：** 2013年-07-03_
 
-有兩種可能的驗證類型可以設定為允許 AD FS 2.0 使用智慧卡支援驗證：
+有兩種可能的驗證類型，可以設定為允許支援使用智慧卡驗證的 AD FS 2.0:
 
-  - 以表單為基礎的驗證（FBA）
+  - 表單型驗證 (FBA)
 
   - 傳輸層安全性用戶端驗證
 
-使用以表單為基礎的驗證，您可以開發網頁，讓使用者可以使用他們的使用者名稱/密碼或使用其智慧卡和 PIN 來進行驗證。 本主題重點說明如何使用 AD FS 2.0 來實現傳輸層安全性用戶端驗證。 如需有關 AD FS 2.0 驗證類型的詳細資訊，請參閱 AD FS 2.0：如何變更本機驗證類型[http://go.microsoft.com/fwlink/p/?LinkId=313384](http://go.microsoft.com/fwlink/p/?linkid=313384)。
+您可以使用表單型驗證，開發可讓使用者在驗證使用其使用者名稱與密碼，或使用他們智慧卡及 pin 碼的網頁。 本主題著重於如何實作傳輸層安全性用戶端 Authentication with AD FS 2.0。 如需 AD FS 2.0 驗證類型的詳細資訊，請參閱 AD FS 2.0： 如何變更本機驗證類型在[http://go.microsoft.com/fwlink/p/?LinkId=313384](http://go.microsoft.com/fwlink/p/?linkid=313384)。
 
 <div>
 
 
-**設定 AD FS 2.0 以支援用戶端驗證**
+**若要設定 AD FS 2.0 以支援用戶端驗證**
 
-1.  使用網域系統管理員帳戶登入 AD FS 2.0 電腦。
+1.  登入的 AD FS 2.0 使用網域系統管理員帳戶的電腦。
 
-2.  啟動 Windows 資源管理器。
+2.  啟動 Windows 檔案總管]。
 
-3.  流覽至 C：\\inetpub\\adfs\\ls
+3.  瀏覽至 c:\\inetpub\\adfs\\ls
 
-4.  製作現有 web.config 檔案的備份複本。
+4.  讓現有的 web.config 檔案的備份複本。
 
-5.  使用記事本開啟現有的 web.config 檔案。
+5.  開啟現有的 web.config 檔案，使用 [記事本]。
 
-6.  從功能表列中，選取 [**編輯**]，然後選取 [**尋找**]。
+6.  從 [功能表] 列中，選取 [**編輯**]，然後選取 [**尋找**。
 
-7.  搜尋** \<localAuthenticationTypes\>**。
+7.  搜尋**\<localAuthenticationTypes\>**。
     
-    請注意，列出四個驗證類型，每行一個。
+    請注意，有四種驗證類型所列，每行一個。
 
-8.  將包含 TLSClient 驗證類型的行移至區段中清單的頂端。
+8.  移動包含 TLSClient 驗證類型] 區段中的清單頂端的行。
 
 9.  儲存並關閉 web.config 檔案。
 
-10. 以較高的許可權啟動命令提示字元。
+10. 啟動命令提示字元中使用提高的權限。
 
-11. 執行下列命令以重新開機 IIS：
+11. 執行下列命令以重新啟動 IIS：
     
         IISReset /Restart /NoForce
 

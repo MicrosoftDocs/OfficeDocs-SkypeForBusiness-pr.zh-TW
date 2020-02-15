@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：憑證摘要-公用立即訊息連線
+title: Lync Server 2013： 憑證摘要-公用立即訊息連線
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49105657
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5c93e79eed643d608ac9ab04516222227fc7c1f6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8e2cce89560c885ad04e03c77d0542289221f1ec
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736633"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42031107"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="certificate-summary---public-instant-messaging-connectivity-in-lync-server-2013"></a>證書摘要-Lync Server 2013 中的公用立即訊息連線
+# <a name="certificate-summary---public-instant-messaging-connectivity-in-lync-server-2013"></a>憑證摘要-公用立即訊息 [Lync Server 2013 中的連線能力
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41736633"
 
 <span> </span>
 
-_**主題上次修改日期：** 2013-02-19_
+_**上次修改主題：** 2013年-02-19_
 
-若要設定公用立即訊息連線的憑證，您應該先注意到其他 SIP 同盟類型或甚至是標準邊緣伺服器憑證沒有什麼不同，只是北美 Online （AOL）需要唯一證書配置。 除了一般的伺服器增強型金鑰用法（EKU）之外，美洲線上還需要證書或憑證（在邊緣池而言），也包含用戶端 EKU。 用戶端 EKU 是憑證的補充，而且是指派給 Edge 伺服器的外部公用憑證的一部分。
+若要設定 public Instant Messaging 連線的憑證，您應該先發現有不同於其他 SIP 同盟類型或甚至是標準的 Edge Server 憑證，則是 nothing 不同之處在於 America Online (AOL) 需要唯一憑證設定。 除了一般伺服器增強金鑰使用方法 (EKU)，America Online 要求的憑證或憑證 （在 Edge 集區） 也包含用戶端 EKU。 用戶端 EKU 是憑證，除了，而且是指派給您的 Edge Server 的外部公用憑證的一部分。
 
 <div>
 
-## <a name="certificate-summary--public-instant-messaging-connectivity"></a>證書摘要–公用立即訊息連線
+## <a name="certificate-summary--public-instant-messaging-connectivity"></a>憑證摘要 - 公用立即訊息連線
 
 
 <table>
@@ -54,25 +54,25 @@ _**主題上次修改日期：** 2013-02-19_
 <thead>
 <tr class="header">
 <th>元件</th>
-<th>消費者名稱</th>
-<th>Subject 替代名稱（SAN）/Order</th>
-<th>批註</th>
+<th>主體名稱</th>
+<th>主體替代名稱 (SAN)/順序</th>
+<th>註解</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>外部/存取邊緣</p></td>
+<td><p>外部/Access Edge</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>sip.contoso.com</p>
 <p>webcon.contoso.com</p>
 <p>sip.fabrikam.com</p></td>
-<td><p>證書必須來自公用 CA，而且如果要部署與 AOL 的公用 IM 連線，則必須擁有伺服器 EKU 和用戶端 EKU。 已將證書指派給外部邊緣伺服器介面，以進行下列作業：</p>
+<td><p>憑證必須來自公用 CA，且必須伺服器 EKU 和用戶端 EKU 部署搭配 AOL 的公用 IM 連線時。 將憑證指派給的外部 Edge Server 介面：</p>
 <ul>
-<li><p>存取邊緣服務</p></li>
-<li><p>網路會議 Edge 服務</p></li>
-<li><p>A/V 邊緣服務</p></li>
+<li><p>Access Edge Service</p></li>
+<li><p>Web Conferencing Edge service</p></li>
+<li><p>A/V Edge service</p></li>
 </ul>
-<p>請注意，San 會根據您在拓撲建立器中的定義，自動新增到憑證中。 您可以視需要為其他 SIP 網域以及其他所需支援的專案新增 SAN 專案。 Subject 名稱是在 SAN 中複製，而且必須存在，才能正常運作。</p></td>
+<p>請注意，系統會根據您在拓撲產生器中的定義，將 SAN 自動新增至憑證。您可以視需要為其他 SIP 網域新增 SAN 項目，或新增其他必須支援的項目。SAN 中的主體名稱會複寫，且必須存在才能正常運作。</p></td>
 </tr>
 </tbody>
 </table>
@@ -82,10 +82,10 @@ _**主題上次修改日期：** 2013-02-19_
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
-[Lync Server 2013 中的外部使用者存取案例](lync-server-2013-scenarios-for-external-user-access.md)  
+[Lync Server 2013 中的外部使用者存取的案例](lync-server-2013-scenarios-for-external-user-access.md)  
   
 
 </div>

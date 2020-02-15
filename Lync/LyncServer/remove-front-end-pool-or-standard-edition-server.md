@@ -1,5 +1,5 @@
 ---
-title: 移除前端集區或 Standard Edition Server
+title: 移除前端集區或 Standard Edition server
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733713
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f8628f883285eec61a179c27d5dfda16b8c9b51d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4f866af74117547c279955747c5c3398369465a5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727173"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008919"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="remove-front-end-pool-or-standard-edition-server"></a>移除前端集區或 Standard Edition Server
+# <a name="remove-front-end-pool-or-standard-edition-server"></a>移除前端集區或 Standard Edition server
 
 </div>
 
@@ -35,46 +35,46 @@ ms.locfileid: "41727173"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-04_
+_**主題上次修改日期：** 2012年-10-04_
 
-本主題將引導您完成移除前端池或標準版前端伺服器的程式。 當您移除 [前端] 池時，您會將屬於該池的每個前端伺服器移除為 [池移除] 程式的一部分。 當您移除標準版前端伺服器時，必須從拓撲建立器移除 SQL Store 定義。
+本主題會引導您完成移除前端集區或 Standard Edition 前端伺服器的程序。 當您移除前端集區時，即會移除每個前端伺服器集區移除程序的一部分所屬之集區。 當您移除 Standard Edition 前端伺服器時，您必須移除的 SQL 存放區定義拓撲產生器]。
 
 <div>
 
-## <a name="to-remove-a-front-end-server-pool"></a>移除前端伺服器池
+## <a name="to-remove-a-front-end-server-pool"></a>移除前端伺服器集區
 
-1.  開啟拓撲建立器。
+1.  開啟拓撲產生器]。
 
-2.  流覽至 Lync Server 2010 節點。
+2.  瀏覽至 [Lync Server 2010] 節點。
 
-3.  展開 [**企業版前端] 池**、展開 [前端] 池、以滑鼠右鍵按一下您要移除的 [前端] 池，然後按一下 [**刪除**]。
+3.  展開 [ **Enterprise Edition 前端集區**，依序展開 [前端集區，以滑鼠右鍵按一下您要移除的前端集區，然後按一下**刪除**。
 
-4.  發佈拓撲，檢查 [複製狀態]，然後視需要執行 Lync Server 部署嚮導。
+4.  發行拓撲，檢查複寫狀態，然後視需要執行 Lync Server 部署精靈。
 
 </div>
 
 <div>
 
-## <a name="to-remove-a-standard-edition-front-end-server"></a>移除標準版前端伺服器
+## <a name="to-remove-a-standard-edition-front-end-server"></a>移除 Standard Edition 前端伺服器
 
-1.  開啟拓撲建立器。
+1.  開啟拓撲產生器]。
 
-2.  流覽至 Lync Server 2010 節點。
+2.  瀏覽至 [Lync Server 2010] 節點。
 
-3.  展開 [**標準版前端伺服器**]，以滑鼠右鍵按一下您要移除的前端伺服器，然後按一下 [**刪除**]。
+3.  依序展開 [ **Standard Edition 前端伺服器**，以滑鼠右鍵按一下您要移除以前端伺服器，然後按一下 [**刪除**。
 
-4.  展開 **[SQL] 商店**，以滑鼠右鍵按一下與標準版前端伺服器相關聯的 SQL Server 資料庫，然後按一下 [**刪除**]。
+4.  依序展開 [ **SQL 儲存**，以滑鼠右鍵按一下與 Standard Edition 前端伺服器，相關聯的 SQL Server 資料庫，然後按一下 [**刪除**。
     
     <div>
     
 
     > [!IMPORTANT]  
-    > 您必須從標準版前端伺服器移除 collocated SQL Server 資料庫的定義。
+    > 您必須移除 Standard Edition 前端伺服器組合的 SQL Server 資料庫的定義。
 
     
     </div>
 
-5.  發佈拓撲，檢查 [複製狀態]，然後視需要執行 Lync Server 部署嚮導。
+5.  發行拓撲，檢查複寫狀態，然後視需要執行 Lync Server 部署精靈。
 
 </div>
 

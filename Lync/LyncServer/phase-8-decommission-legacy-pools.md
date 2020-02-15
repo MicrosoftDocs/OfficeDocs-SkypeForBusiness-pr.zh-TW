@@ -1,5 +1,5 @@
 ---
-title: 階段 8：解除委任舊版集區
+title: 第 8 階段： 解除委任舊版的集區
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183557
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a9c21aa29f2e98aacd3ec68076a21ba2b4d2a76e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6450e129d68aadcb0e79f38def3e89176ef93373
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729073"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034143"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="phase-8-decommission-legacy-pools"></a>階段 8：解除委任舊版集區
+# <a name="phase-8-decommission-legacy-pools"></a>第 8 階段： 解除委任舊版的集區
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41729073"
 
 <span> </span>
 
-_**主題上次修改日期：** 2016-12-08_
+_**主題上次修改日期：** 2016年-12-08_
 
-下列主題提供更新 DNS 專案、移動內容管理伺服器、解除授權池以及停用和移除 Lync Server 2010 傳統部署中的伺服器和池的指導方針。 並非本節所列的所有程式都是必要的。 閱讀檔，並判斷要使用的解除授權程式。
+下列主題提供更新 DNS 項目、 移動 Content Management Server、 解除委任集區]，並停用和移除舊版部署的 Lync Server 2010 中的伺服器和集區中的指引。 本節所列的程序並非全為必要程序。 請閱讀文件並判斷應使用哪些解除委任程序。
 
-若要全面瞭解移除 Lync Server 2010 伺服器和伺服器角色，以及解除 Lync Server 2010 部署的逐步指南，請參閱「卸載 Microsoft Lync Server 2010 及移除伺服器角色」（可在[https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkid=246227)此下載）。
+移除 Lync Server 2010 伺服器和伺服器角色，以及解除委任 Lync Server 2010 部署的逐步指南的詳盡的涵蓋範圍，請參閱 「 解除安裝 Microsoft Lync Server 2010 及移除伺服器角色，「 可以下載在[https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkid=246227)。
 
 <div>
 
 
 > [!IMPORTANT]  
-> 如需遷移和升級 Microsoft 整合通訊管理 API （UCMA）應用程式的相關資訊，請參閱在解除舊版環境的授權之前，請參閱<A href="https://go.microsoft.com/fwlink/p/?linkid=269555">https://go.microsoft.com/fwlink/p/?LinkId=269555</A>
+> 如需移轉與升級 Microsoft Unified Communications Managed API (UCMA) 應用程式]，再解除委任舊版環境，請參閱<A href="https://go.microsoft.com/fwlink/p/?linkid=269555">https://go.microsoft.com/fwlink/p/?LinkId=269555</A>
 
 
 
@@ -53,7 +53,7 @@ _**主題上次修改日期：** 2016-12-08_
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
   - <span></span>  
     [更新 DNS SRV 記錄](update-dns-srv-records.md)
@@ -71,10 +71,10 @@ _**主題上次修改日期：** 2016-12-08_
     [移除監控伺服器關聯](remove-the-monitoring-server-association.md)
 
   - <span></span>  
-    [移除企業版前端伺服器或標準版前端伺服器](remove-the-enterprise-edition-front-end-server-or-standard-edition-front-end-server.md)
+    [移除 Enterprise Edition 前端伺服器或 Standard Edition 前端伺服器](remove-the-enterprise-edition-front-end-server-or-standard-edition-front-end-server.md)
 
   - <span></span>  
-    [移除後端伺服器上的 SQL Server 執行個體與資料庫](remove-sql-server-instances-and-databases-on-the-back-end-server.md)
+    [移除 SQL Server 執行個體和後端伺服器上的資料庫](remove-sql-server-instances-and-databases-on-the-back-end-server.md)
 
 </div>
 

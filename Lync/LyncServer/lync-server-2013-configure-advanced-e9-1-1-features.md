@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：設定高級 E9-1-1 功能
+title: Lync Server 2013： 設定進階 E9-1-1 功能
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184646
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9805f505896cb27b7e895c0a586ffff3c6847fdb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: af8c376620c37af533aabec318ccbf1b1b745978
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757847"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028764"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-advanced-e9-1-1-features-in-lync-server-2013"></a>在 Lync Server 2013 中設定高級 E9-1-1 功能
+# <a name="configure-advanced-e9-1-1-features-in-lync-server-2013"></a>在 Lync Server 2013 中設定進階的 E9-1-1 功能
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41757847"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-06-06_
+_**主題上次修改日期：** 2012年-06-06_
 
-Lync Server 2013 包含下列功能，您可以使用這些功能來自訂 E9-1 1 部署：
+Lync Server 2013 包含您可以使用自訂 E9-1-1 部署的下列功能：
 
-  - 將位置資訊服務器連線至 SNMP 應用程式的 web 服務介面。
+  - 用以將位置資訊伺服器連線至 SNMP 應用程式的 Web 服務介面。
 
-  - 連線到次要位置源資料庫的 web 服務介面。
+  - 用以連線至「次要位置來源」資料庫的 Web 服務介面。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
   - [在 Lync Server 2013 中設定 SNMP 應用程式](lync-server-2013-configure-an-snmp-application.md)
 

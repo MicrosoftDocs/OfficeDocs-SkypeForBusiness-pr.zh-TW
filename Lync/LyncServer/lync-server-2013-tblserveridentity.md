@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：tblServerIdentity
+title: 'Lync Server 2013: tblServerIdentity'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184125
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2379622ee5b1121367c35b4baac98d6c79d61023
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5f6ed7f0eed08dbb4ab3b0d6f41c9ec91fb719f1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731203"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029184"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="tblserveridentity-in-lync-server-2013"></a>Lync Server 2013 中的 tblServerIdentity
+# <a name="tblserveridentity-in-lync-server-2013"></a>tblServerIdentity 在 Lync Server 2013
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41731203"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-09-12_
+_**主題上次修改日期：** 2012年-09-12_
 
-tblServerIdentity 包含持續聊天伺服器池中的活動聊天伺服器。
+tblServerIdentity 包含 Persistent Chat Server 集區中的作用中的聊天伺服器。
 
-### <a name="columns"></a>分欄
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -49,32 +49,32 @@ tblServerIdentity 包含持續聊天伺服器池中的活動聊天伺服器。
 </colgroup>
 <thead>
 <tr class="header">
-<th>左欄</th>
-<th>類型</th>
-<th>說明</th>
+<th>欄</th>
+<th>類型	</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>serverID</p></td>
-<td><p>int，not null</p></td>
-<td><p>[伺服器識別碼]。 與中央管理存放區中的實例識別碼相對應。</p></td>
+<td><p>int，非 null</p></td>
+<td><p>伺服器識別碼。 從中央管理存放區，會對應至執行個體識別碼。</p></td>
 </tr>
 <tr class="even">
 <td><p>serverAddress</p></td>
-<td><p>Nvarchar （256），not null</p></td>
+<td><p>nvarchar (256)，非 null</p></td>
 <td><p>使用 Windows Communication Foundation 位址的伺服器位址。</p></td>
 </tr>
 <tr class="odd">
 <td><p>serverLastPingTime</p></td>
 <td><p>datetime</p></td>
-<td><p>頻道伺服器更新此列以提供其所執行證據的最晚時間。</p></td>
+<td><p>通道伺服器更新此列以證明其為執行中的最新時間。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="key"></a>機碼
+### <a name="key"></a>索引鍵
 
 <table>
 <colgroup>
@@ -83,14 +83,14 @@ tblServerIdentity 包含持續聊天伺服器池中的活動聊天伺服器。
 </colgroup>
 <thead>
 <tr class="header">
-<th>左欄</th>
-<th>說明</th>
+<th>欄</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>serverID</p></td>
-<td><p>主鍵。</p></td>
+<td><p>主索引鍵。</p></td>
 </tr>
 </tbody>
 </table>

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：使用者和用戶端驗證
+title: Lync Server 2013： 使用者與用戶端驗證
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 59893868
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6c9c91f1b8355c95ceb3deae5f07e5c95710d036
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 21f2fa918acf01d9d13e44e0731825dd51b3d918
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744603"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033962"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="user-and-client-authentication-for-lync-server-2013"></a>Lync Server 2013 的使用者和用戶端驗證
+# <a name="user-and-client-authentication-for-lync-server-2013"></a>Lync Server 2013 的使用者與用戶端驗證
 
 </div>
 
@@ -35,40 +35,40 @@ ms.locfileid: "41744603"
 
 <span> </span>
 
-_**主題上次修改日期：** 2013-11-11_
+_**上次修改主題：** 2013年-11-11_
 
-受信任的使用者是認證已由 Microsoft Lync Server 2013 中受信任伺服器驗證的使用者。 此伺服器通常是標準版 server、Enterprise Edition 前端伺服器或控制器。 Lync Server 2013 依賴 Active Directory 網域服務做為使用者認證的單一、受信任後端儲存庫。
+信任的使用者是其中一個其認證已經過驗證由 Microsoft Lync Server 2013 中受信任的伺服器。 在大部分的情況下，此伺服器可能是 Standard Edition Server、Enterprise Edition 前端伺服器或 Director。 Lync Server 2013 會依賴 Active Directory 網域服務為單一、 受信任後端儲存機制的使用者認證。
 
-驗證是將使用者認證提供給信任的伺服器。 Lync Server 2013 使用下列驗證通訊協定，視使用者的狀態和位置而定。
+驗證是將使用者憑證佈建到受信任伺服器的歷程。 Lync Server 2013 使用下列驗證通訊協定，根據 [狀態] 和 [使用者的位置。
 
-  - 針對具有 Active Directory 認證的內部使用者， **MIT Kerberos 版本5安全通訊協定**。 Kerberos 需要用戶端連線至 Active Directory 網域服務，這就是為什麼它無法用來驗證公司防火牆外部的用戶端。
+  - **MIT Kerberos 5 安全性通訊協定**：用於具有 Active Directory 認證的內部使用者。Kerberos 需要用戶端連線至 Active Directory 網域服務，這也是為什麼它無法用來驗證企業防火牆外部的用戶端。
 
-  - 適用于使用者的**NTLM 通訊協定**，其 Active Directory 認證是從公司防火牆以外的端點連線。 [存取邊緣服務] 會將登入要求傳到主管（如果有的話），或傳遞給前端伺服器進行驗證。 存取邊緣服務本身不會執行任何驗證。
+  - **NTLM 通訊協定**：用於具有 Active Directory 認證，並且從企業防火牆外部端點連線的使用者。Access Edge Service 會將登入要求傳遞至 Director (如果存在) 或是前端伺服器進行驗證。Access Edge Service 本身不執行驗證工作。
     
     <div>
     
 
     > [!NOTE]  
-    > NTLM 通訊協定提供的防護防護功能不夠安全，因此有些組織會將 NTLM 的使用量降至最低。 因此，您可能會將對 Lync Server 2013 的存取許可權制在內部，或是透過 VPN 或 DirectAccess 連線進行連線的用戶端。
+    > NTLM 通訊協定所提供的攻擊防護較 Kerberos 弱，因此部分組織會盡量少用 NTLM。 因此，存取 Lync Server 2013 可能會限制為內部或透過 VPN 或 DirectAccess 連線的用戶端連線。
 
     
     </div>
 
-  - 稱為匿名使用者的**摘要通訊協定**。 匿名使用者是指沒有辨識 Active Directory 認證但受邀者加入內部部署會議，且擁有有效會議金鑰的使用者。 [摘要式驗證] 不用於其他用戶端互動。
+  - **摘要式通訊協定**：用於所謂的匿名使用者。匿名使用者是沒有認可的 Active Directory 認證，但受邀參加內部會議且擁有有效會議金鑰的外部使用者。摘要式驗證並非用以與其他用戶端互動。
 
-Lync Server 2013 驗證封裝含兩個階段：
+Lync Server 2013 驗證是由兩個階段所組成：
 
-1.  在用戶端與伺服器之間建立安全關聯。
+1.  用戶端和伺服器之間會建立安全性關聯。
 
-2.  用戶端和伺服器使用現有的安全性關聯來簽署其傳送的訊息，並驗證收到的訊息。 在伺服器上啟用驗證時，不會接受來自用戶端的未驗證訊息。
+2.  用戶端和伺服器會使用現有的安全性關聯，簽署所傳送的訊息，並驗證接收的訊息。伺服器啟用驗證時，並不會接受來自用戶端的任何未驗證訊息。
 
-使用者信任已附加至源于使用者的每一封郵件，而不是使用者身分識別本身。 伺服器會檢查每一封郵件是否有有效的使用者認證。 如果使用者認證有效，則除了由第一個伺服器來接收郵件，但在受信任的伺服器雲端中，所有其他伺服器，都不會 unchallenged 該郵件。
+使用者信任是附加於每個使用者發出的訊息中，而不是附加於使用者的識別證明上。伺服器會檢查每個訊息，看看是否具有有效的使用者憑證。如果使用者憑證有效，不但接收訊息的第一個伺服器不會驗證訊息，受信任伺服器 Cloud 中的所有伺服器也都不會驗證訊息。
 
-具有聯盟夥伴所頒發之有效認證的使用者是受信任的，但其他限制式可讓您享受完整的許可權 accorded 給內部使用者。
+具有同盟夥伴所發出之有效認證的使用者會受到信任，但是可能會選擇性地受到其他限制，而無法享有與內部使用者相同的完整權限。
 
-[ICE] 和 [轉換] 通訊協定也會使用 [摘要式轉換 RFC] 中所述的摘要問題。
+ICE 和 TURN 通訊協定也會使用 IETF TURN RFC 中所述的摘要式挑戰。
 
-用戶端憑證提供使用者使用 Lync Server 2013 進行驗證的替代方法。 使用者不會提供使用者名稱和密碼，而是會有一個憑證和私密金鑰對應至解決密碼質詢所需的憑證。 （這個憑證必須有識別使用者且必須由執行 Lync Server 2013 之伺服器所信任的根 CA 所頒發，請在證書的有效期內，且未被撤銷。）若要進行驗證，使用者只需要輸入個人識別碼（PIN）。 在執行 Microsoft Lync 2013 Phone Edition 的電話和其他裝置上，很難輸入使用者名稱和/或密碼，憑證特別有用。
+用戶端憑證提供經過 Lync Server 2013 的使用者的替代方法。 使用者會具備解析密碼編譯挑戰所需之對應憑證的憑證和私密金鑰，而不是提供使用者名稱和密碼。 （此憑證必須有主體名稱或主體替代名稱，識別使用者和必須執行 Lync Server 2013 的伺服器所信任的根 CA 所發出憑證的有效期間內，已被撤銷）。若要驗證，使用者只需要輸入個人識別碼 (PIN) 中。 憑證會特別有用的電話及其他執行 Microsoft Lync 2013 Phone Edition 很難輸入使用者名稱及/或密碼的裝置。
 
 </div>
 

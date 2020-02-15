@@ -1,5 +1,5 @@
 ---
-title: 設定前端集區或 Standard Edition Server 的 DNS 記錄
+title: 設定前端集區或 Standard Edition server 的 DNS 記錄
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183244
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 89acbccd226c15d9c8359fc01d010655fc46a989
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 633282e30cae401f2bed39522864f076d0ce85ea
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755967"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028574"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-dns-records-in-lync-server-2013-for-a-front-end-pool-or-standard-edition-server"></a>在 Lync Server 2013 中設定前端集區或 Standard Edition Server 的 DNS 記錄
+# <a name="configure-dns-records-in-lync-server-2013-for-a-front-end-pool-or-standard-edition-server"></a>設定 Lync Server 2013 中的前端集區或 Standard Edition server 的 DNS 記錄
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41755967"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-01_
+_**主題上次修改日期：** 2012年-10-01_
 
-Lync Server 2013 使用網域名稱系統（DNS）來登錄並維護正確功能變數名稱的記錄，以進行 IP 位址解析。 您必須先設定您的部署所需的 DNS 記錄，然後才能操作標準版 server 或前端池。 下列連結將提供在需要建立哪些記錄才能讓 Lync Server 2013 正常運作的指導方針。
+Lync Server 2013 使用網域名稱系統 (DNS) 來註冊並維護 IP 位址解析至適當的網域名稱的記錄。 您需要設定操作 Standard Edition server 或前端集區以前部署所需的 DNS 記錄。 下列連結會提供指引記錄需要建立可用於 Lync Server 2013 的正常運作。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [在 Lync Server 2013 中設定 DNS 負載平衡](lync-server-2013-configure-dns-for-load-balancing.md)
+  - [設定 Lync Server 2013 中的負載平衡的 DNS](lync-server-2013-configure-dns-for-load-balancing.md)
 
-  - [為 Lync Server 2013 設定 DNS 主機記錄](lync-server-2013-configure-dns-host-records.md)
+  - [設定 Lync Server 2013 的 DNS 主機記錄](lync-server-2013-configure-dns-host-records.md)
 
-  - [在 Lync Server 2013 中建立並驗證 DNS SRV 記錄](lync-server-2013-create-and-verify-dns-srv-records.md)
+  - [建立並確認 Lync Server 2013 中的 DNS SRV 記錄](lync-server-2013-create-and-verify-dns-srv-records.md)
 
 </div>
 

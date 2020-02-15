@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：設定宣告
+title: Lync Server 2013： 設定公告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 49733851
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ff3a7189d0f9d5cbbea4a34e558ac67defa2aab5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ab0af46f3f2170de0a169520c9f2097e7abbb058
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757807"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028734"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,19 +35,19 @@ ms.locfileid: "41757807"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-09-12_
+_**主題上次修改日期：** 2012年-09-12_
 
-當您設定宣告時，您將會真正設定您想要如何處理未指派號碼的呼叫。 您可以播放提示，可以是音訊檔案或文字轉換語音（TTS）檔案，或者您可以直接將來電轉接到指定的目的地，而不需播放提示。
+當您設定宣告時，您真的設定，請決定要如何處理未指派號碼的來電。 您可以在播放提示字元處，可能的音訊檔案或文字轉換語音 (TTS) 檔案，或您可以只將來電轉接到指定的目的地而不播放提示。
 
-您必須先建立宣告，才能定義 [未指定的數位] 資料表。 您必須針對使用音訊提示、TTS 提示或無提示的所有宣告執行此步驟。
+您需要先建立宣告，再定義未指派號碼表。 您要使用的音訊提示、 TTS 提示字元處或沒有提示的所有宣告對執行此步驟。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [在 Lync Server 2013 中建立公告](lync-server-2013-create-an-announcement.md)
+  - [Lync Server 2013 中建立的宣告](lync-server-2013-create-an-announcement.md)
 
-  - [在 Lync Server 2013 中刪除公告](lync-server-2013-delete-an-announcement.md)
+  - [刪除 Lync Server 2013 中的宣告](lync-server-2013-delete-an-announcement.md)
 
 </div>
 

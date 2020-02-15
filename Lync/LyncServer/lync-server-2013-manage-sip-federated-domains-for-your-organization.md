@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：管理組織的 SIP 同盟網域
+title: Lync Server 2013： 管理組織的 SIP 同盟網域
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48679565
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 78683426481a50a082b38b3e7cf47b7317734210
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e257d62d673f01a6b24d44a428a25f9494c975eb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733303"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028434"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="manage-sip-federated-domains-for-your-organization-in-lync-server-2013"></a>在 Lync Server 2013 中管理組織的 SIP 同盟網域
+# <a name="manage-sip-federated-domains-for-your-organization-in-lync-server-2013"></a>管理 Lync Server 2013 中組織的 SIP 同盟網域
 
 </div>
 
@@ -35,36 +35,36 @@ ms.locfileid: "41733303"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-19_
+_**主題上次修改日期：** 2012年-10-19_
 
-這是初步檔，可能會變更。 空白主題是以預留位置形式提供。
+這是初步文件，後續有可能變更。 空白主題會以預留位置的形式。
 
-若要管理和設定可與您聯盟的 SIP 網域，您可以執行下列動作：
+若要管理及設定您可與之同盟的 SIP 網域，您可以執行下列動作：
 
-  - 建立或編輯 SIP 聯盟夥伴網域的允許網域清單。
+  - 建立或編輯 SIP 同盟協力廠商網域的允許的網域清單。
 
-  - 建立或編輯受封鎖之 SIP 聯盟網域的網域清單。
+  - 建立或編輯 SIP 同盟網域的封鎖的網域清單。
 
-若要執行這些工作，請使用本節中的程式。
+若要執行這些工作，請使用本節中的程序。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [在 Lync Server 2013 中針對允許的外部網域設定支援](lync-server-2013-configure-support-for-allowed-external-domains.md)
+  - [在 Lync Server 2013 中設定允許的外部網域的支援](lync-server-2013-configure-support-for-allowed-external-domains.md)
 
-  - [在 Lync Server 2013 中為封鎖的外部網域設定支援](lync-server-2013-configure-support-for-blocked-external-domains.md)
+  - [在 Lync Server 2013 中設定封鎖的外部網域的支援](lync-server-2013-configure-support-for-blocked-external-domains.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
-[在 Lync Server 2013 中設定控制同盟使用者存取的原則](lync-server-2013-configure-policies-to-control-federated-user-access.md)  
-[在 Lync Server 2013 中啟用或停用同盟與公用 IM 連線](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md)  
-[在 Lync Server 2013 中啟用或停用探索同盟協力廠商](lync-server-2013-enable-or-disable-discovery-of-federation-partners.md)  
+[設定原則以控制在 Lync Server 2013 中的同盟的使用者存取](lync-server-2013-configure-policies-to-control-federated-user-access.md)  
+[啟用或停用同盟和 Lync Server 2013 中的公用 IM 連線](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md)  
+[啟用或停用 Lync Server 2013 中的同盟協力廠商的探索](lync-server-2013-enable-or-disable-discovery-of-federation-partners.md)  
   
 
 </div>

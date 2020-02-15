@@ -1,5 +1,5 @@
 ---
-title: 階段7：將 Lync Server 2013 Edge 伺服器新增到 [試驗] 池
+title: 階段 7： 將 Lync Server 2013 Edge Server 新增至試驗集區
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184616
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 419da11696e5938d4c93cde565e6d0b1b6fc6e76
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9db240b042c40ffaf07d42ce4c60bb1777963fce
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743583"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034163"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="phase-7-add-lync-server-2013-edge-server-to-pilot-pool"></a>階段7：將 Lync Server 2013 Edge 伺服器新增到 [試驗] 池
+# <a name="phase-7-add-lync-server-2013-edge-server-to-pilot-pool"></a>階段 7： 將 Lync Server 2013 Edge Server 新增至試驗集區
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41743583"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-09-26_
+_**主題上次修改日期：** 2012年-09-26_
 
-本節中的主題說明如何將 Lync Server 2013 Edge 伺服器新增至試驗池部署。 這些主題提供執行 [**部署新的邊緣池**] 嚮導時的配置與驗證指導方針。
+本節中的主題說明如何將 Lync Server 2013 Edge Server 新增至試驗集區的部署。 這些主題將提供執行 [部署新的 Edge 集區]**** 精靈的設定及驗證指引。
 
 <div>
 
@@ -45,7 +45,7 @@ _**主題上次修改日期：** 2012-09-26_
 
   - [部署試驗 Edge Server](deploy-pilot-edge-server_1.md)
 
-  - [驗證配置設定的複製](validate-replication-of-configuration-settings.md)
+  - [驗證複製組態設定](validate-replication-of-configuration-settings.md)
 
 </div>
 

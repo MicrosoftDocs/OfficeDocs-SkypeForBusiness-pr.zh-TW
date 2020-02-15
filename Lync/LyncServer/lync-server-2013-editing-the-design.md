@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：編輯設計
+title: Lync Server 2013： 編輯設計
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541445
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dfce3bc4242140364005a9a981282ecb90a42d3b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7607fb2f31107e3368fa52167dc5015eb1b71f15
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739453"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034043"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="editing-the-design-in-lync-server-2013"></a>在 Lync Server 2013 中編輯設計
+# <a name="editing-the-design-in-lync-server-2013"></a>編輯 Lync Server 2013 中的設計
 
 </div>
 
@@ -35,47 +35,47 @@ ms.locfileid: "41739453"
 
 <span> </span>
 
-_**主題上次修改日期：** 2013-02-21_
+_**上次修改主題：** 2013年-02-21_
 
-完成最初的訪談問題之後，您可以編輯該網站的完整功能變數名稱（FQDN）和 IP 位址。 若要這樣做，請在 [**全域拓撲**] 頁面上，按兩下您要編輯的網站。
+完成後的初始採訪問題，您可以編輯網站的 IP 位址與完整的網域名稱 (FQDN)。 若要這麼做，請在 **[全域拓撲]** 頁面上，連按兩下您要編輯的網站。
 
-規劃工具會顯示所選網站的網站拓撲。 [網站] 頁面底部有四個索引標籤：
+規劃工具會顯示選取的站台的站台拓撲。 在網站頁面的底部有四個索引標籤：
 
-![規劃工具的站台拓撲](images/Gg558608.e6189c20-360a-42bd-ba90-11bdb5b7551b(OCS.15).jpg "規劃工具的站台拓撲")
+![規劃工具站台拓撲](images/Gg558608.e6189c20-360a-42bd-ba90-11bdb5b7551b(OCS.15).jpg "規劃工具站台拓撲")
 
-  - 網站拓撲：目前顯示的頁面，其中包含拓撲的視覺概況（如建議）。
+  - 站台拓撲 – 目前顯示頁面具有如同建議的可見拓撲概觀。
 
-  - [邊緣網狀圖] – [邊緣網狀圖] 頁面是設計工具在規劃工具中的大部分工作位置。 圖表會顯示建議的 Lync Server 2013 拓朴的網路設定，以及伺服器、池以及硬體和網域名稱系統（DNS）負載平衡器的可編輯專案。
+  - Edge 網狀圖 – [Edge 網狀圖] 頁面上是工作的設計工具其中沒有大部分的規劃工具中。 圖表顯示建議的 Lync Server 2013 拓撲的網路組態，使用可編輯的項目 ip 位址和 Fqdn 伺服器、 集區]，並同時硬體和網域名稱系統 (DNS) 負載平衡器。
 
-  - Edge 管理報表-Edge 管理員報告總共包含四個報告：
+  - Edge Admin 報表 – [Edge Admin 報表] 總共包含四份報表：
     
     ![Edge 管理員報告頁面](images/Gg558608.0019cc5e-af39-4cb9-82ce-58f6388242ff(OCS.15).jpg "Edge 管理員報告頁面")  
     
-      - 摘要報告–邊緣網路設定的一般設定報告。 如果您將 [ **Edge 網狀圖**] 頁面上的值編輯為要在實際部署中使用的 [拓撲 tcp/ip] 和 [FQDN] 值，這些位址和名稱將會顯示在這裡。 否則，會出現預設文字。
+      - 摘要報表 – Edge 網路組態設定的一般報表。 如果您編輯的值在拓樸 TCP/IP **Edge 網狀圖**] 頁面上的 FQDN 值會用於實際部署中，會在這裡表示那些位址和名稱。 否則，會顯示預設文字。
     
-      - [憑證報告] –憑證報告會列出拓朴所需之憑證的主體名稱和消費者名稱。
+      - 憑證報表 – 憑證報表會列出拓撲所需憑證的主體名稱和主體替代名稱。
     
-      - 防火牆報告-防火牆報告會列出在基礎結構中設定週邊防火牆所需的資訊。 這包括 IP 位址（預設或已編輯的值）、伺服器角色、來源 IP 和埠、目的地 IP 與埠、傳輸通訊協定、應用程式協定，以及相關的筆記。
+      - 防火牆報表 – 防火牆報表會列出在基礎結構中設定周邊防火牆所需的資訊。 這包括 IP 位址 （預設或編輯的值）、 伺服器角色、 來源 IP 和連接埠、 目的地 IP 和連接埠、 傳輸通訊協定、 應用程式的通訊協定，以及相關的附註。
     
-      - DNS 報告– DNS 報告會列出您必須建立之 DNS 專案的相關資訊。 包括適當作業所需的記錄類型、FQDN、IP 位址和批註。
+      - DNS 報告 – DNS 報告列出 DNS 項目，您必須建立的相關資訊。 包含正常運作所需的記錄類型、FQDN、IP 位址和註解。
 
-  - [網站摘要]： [網站摘要] 會顯示您在回答最初的面試問題或填入**設計網站**中的值時所做的選擇。 也會顯示容量資訊。
+  - 網站摘要 – 網站摘要呈現您藉由回答初始採訪問題，或填寫**設計站台**內的值所做的選擇的概觀。 容量的資訊也會顯示。
     
     <div>
     
 
     > [!NOTE]  
-    > [網站摘要] 頁面上的資訊會針對每個設計進行自訂，並且可能不會包含所有章節或本文中的詳細資訊。
+    > [網站摘要] 頁面上的資訊是針對各項設計所自訂的，無法包含此處詳述的所有區段或資訊。
 
     
     </div>
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
-[在 Lync Server 2013 中編輯網路設定圖表](lync-server-2013-editing-the-network-configuration-diagram.md)  
+[編輯 Lync Server 2013 中的網路組態圖](lync-server-2013-editing-the-network-configuration-diagram.md)  
   
 
 </div>

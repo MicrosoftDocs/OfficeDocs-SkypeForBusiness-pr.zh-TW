@@ -1,5 +1,5 @@
 ---
-title: 階段 7：完成移轉後的工作
+title: 階段 7： 完成移轉後工作
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184485
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b6eb1761688070e13e22057d1cbec339c87db0f4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c791bd363bce3a0bd553017bc16dd719fc7514ef
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757127"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034153"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="phase-7-complete-post-migration-tasks"></a>階段 7：完成移轉後的工作
+# <a name="phase-7-complete-post-migration-tasks"></a>階段 7： 完成移轉後工作
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41757127"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-19_
+_**主題上次修改日期：** 2012年-10-19_
 
-本節中的主題描述完成您的 Lync Server 2013 遷移之後，您需要執行的工作。
+本節中的主題說明您必須執行完成之後，您移轉至 Lync Server 2013 的工作。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
   - [移轉現有的會議與會議內容](migrate-existing-meetings-and-meeting-content.md)
 
@@ -61,7 +61,7 @@ _**主題上次修改日期：** 2012-10-19_
 
   - [部署 Lync Server 2013 用戶端](deploy-lync-server-2013-clients.md)
 
-  - [連線 Survivable Branch Appliance](connect-a-survivable-branch-appliance.md)
+  - [連接 Survivable Branch Appliance](connect-a-survivable-branch-appliance.md)
 
   - [設定 SCOM 監控](configure-scom-monitoring.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：委派
+title: Lync Server 2013： 委派
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 51803956
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8da9568ae4cd613dcba0760fb4a8b20295fbb68d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a9d9f5473f94f093d92cce1b4664f54d6f32430d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739803"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028514"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,24 +35,24 @@ ms.locfileid: "41739803"
 
 <span> </span>
 
-_**主題上次修改日期：** 2013-03-09_
+_**上次修改主題：** 2013年-03-09_
 
-Lync 中的委派功能會以下列方式受到以位置為基礎的路由影響：
+在 Lync 中的委派功能都受到位置型的路由，以下列方式：
 
-  - 當您為以位置為基礎的路由啟用代理人代表管理員進行呼叫時，代理人的語音原則會用來授權通話，而代理人的網站語音路由原則則將用於路由通話
+  - 當委派啟用位置型路由 places 代表管理員在呼叫時，代理人的語音原則用來授權通話和代理人的站台語音路由原則會用來路由傳送來電
 
-  - 針對主管的內送 PSTN 呼叫，適用于來電轉接或同時撥打的相同規則將按照來電轉接與轉移及同時撥打主題中的說明進行。
+  - 傳入 PSTN 通話的管理員，適用於相同規則來電轉接或同時響鈴會套用在來電轉接和轉寄和 Simultaneous 響鈴主題所述。
 
-  - 當代理人將 PSTN 端點設定為同時振鈴目標時，針對來電給 manager，就會使用與內向幹線相關的網站語音路由原則，將呼叫路由到代理人的 PSTN 端點。
+  - 當委派設定 PSTN 端點做為管理員] 中的內送呼叫的同時響鈴目標給傳入主幹相關聯之網站的語音路由原則將用來將呼叫路由至代理人的 PSTN 端點。
 
-  - 若是委派，建議管理員與他的相關委派通常位於同一個網路網站中。
+  - 委派，建議您，主管和其相關聯的代理人，通常位於相同的網路網站。
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
-[Lync Server 2013 中的位置基礎路由案例](lync-server-2013-scenarios-for-location-based-routing.md)  
+[依位置路由 Lync Server 2013 中的案例](lync-server-2013-scenarios-for-location-based-routing.md)  
   
 
 </div>

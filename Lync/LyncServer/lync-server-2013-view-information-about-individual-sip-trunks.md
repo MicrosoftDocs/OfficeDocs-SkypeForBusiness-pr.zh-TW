@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：查看個別 SIP trunks 的相關資訊
+title: Lync Server 2013： 檢視個別 SIP 主幹的資訊
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733780
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f18b65d119b917d5ba48ef3e6805e4f70ea482ee
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3163bb6298bef570a68f2fcfd7dec66167549b21
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765644"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029724"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="view-information-about-individual-sip-trunks-in-lync-server-2013"></a>在 Lync Server 2013 中查看個別 SIP trunks 的相關資訊
+# <a name="view-information-about-individual-sip-trunks-in-lync-server-2013"></a>檢視 Lync Server 2013 中的個別 SIP 主幹的相關資訊
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41765644"
 
 <span> </span>
 
-_**主題上次修改日期：** 2013-02-21_
+_**上次修改主題：** 2013年-02-21_
 
-SIP trunks 是用來連接 Lync Server 2013 與公用交換電話網絡的語音 over IP 電話網絡。 在早期版本的產品中，trunks 是用來將撥出電話從中繼伺服器傳送到 PSTN 閘道，而每個閘道都限制在單一干線中。 因此，PSTN 閘道與 SIP 幹線本質上完全相同。 針對管理員而言，這表示只要查看關聯 PSTN 閘道的相關資訊，就能查看個別 SIP 主幹的相關資訊。
+SIP 主幹用來連線 Lync Server 2013 Voice over IP 電話網路與公用交換電話網路。 在前一個版本的產品，主幹所用來路由傳送從中繼伺服器到 PSTN 閘道的撥出通話和每個閘道限制為單一主幹。 因此，在 PSTN 閘道與 SIP 主幹所基本上是相同。 系統管理員，這意謂著他們可以檢視個別 SIP 主幹的資訊只是檢視關聯的 PSTN 閘道的相關資訊。
 
-但在 Lync Server 2013 中，現在可以將多個 trunks 指派給單一 PSTN 閘道;這表示閘道與 trunks 已不再是相同的。 因此，這表示系統管理員必須使用新的[CsTrunk](https://docs.microsoft.com/powershell/module/skype/Get-CsTrunk) Cmdlet，才能查看個別 SIP 幹線的相關資訊。
+在 Lync Server 2013 中，不過，多個主幹可以現在是已指派給單一的 PSTN 閘道;這表示閘道和主幹不再是同一個。 接著，這表示系統管理員必須使用新的[Get-cstrunk](https://docs.microsoft.com/powershell/module/skype/Get-CsTrunk) cmdlet 以檢視個別 SIP 主幹的資訊。
 
-CsTrunk Cmdlet 可以從 Lync Server 2013 管理命令介面或 Windows PowerShell 的遠端會話執行。 如需使用遠端 Windows PowerShell 連線至 Lync Server 的詳細資料，請參閱 Lync Server Windows PowerShell 博客文章「快速入門：使用遠端 PowerShell 管理 Microsoft Lync Server 2010」 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。
+可以執行 Get-cstrunk cmdlet，從 Lync Server 2013 管理命令介面或 Windows PowerShell 的遠端工作階段。 如需使用遠端 Windows PowerShell 連線至 Lync Server 的詳細資訊，請參閱 Lync Server Windows PowerShell 部落格文章 「 快速開始:: 管理 Microsoft Lync Server 2010 使用遠端 PowerShell 」 在[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。
 
 <div>
 
-## <a name="to-view-information-for-all-your-sip-trunks"></a>若要查看所有 SIP trunks 的相關資訊
+## <a name="to-view-information-for-all-your-sip-trunks"></a>若要檢視所有 SIP 主幹的資訊
 
-  - 下列命令會傳回貴組織中使用的所有 SIP trunks 資訊：
+  - 下列命令會傳回用於組織中所有 SIP 主幹的資訊：
     
         Get-CsTrunk
 
@@ -55,9 +55,9 @@ CsTrunk Cmdlet 可以從 Lync Server 2013 管理命令介面或 Windows PowerShe
 
 <div>
 
-## <a name="to-view-information-for-a-specific-sip-trunk"></a>若要查看特定 SIP 主幹的資訊
+## <a name="to-view-information-for-a-specific-sip-trunk"></a>若要檢視特定 SIP 主幹的資訊
 
-  - 這個命令只會傳回具有身分識別 PstnGateway 的 SIP 幹線資訊：192.168.0.240：
+  - 此命令會傳回 192.168.0.240 身分識別的 SIP 主幹的資訊：
     
         Get-CsTrunk -Identity "PstnGateway:192.168.0.240"
 
@@ -65,9 +65,9 @@ CsTrunk Cmdlet 可以從 Lync Server 2013 管理命令介面或 Windows PowerShe
 
 <div>
 
-## <a name="viewing-information-for-all-the-sip-trunks-assigned-to-a-pool"></a>查看指派給某個池之所有 SIP Trunks 的相關資訊
+## <a name="viewing-information-for-all-the-sip-trunks-assigned-to-a-pool"></a>檢視指派給集區的所有 SIP 主幹的資訊
 
-  - 在這個範例中，會針對指派給 pool atl-cs-001.litwareinc.com 的所有 SIP trunks 傳回信息：
+  - 在這個範例中，傳回指派給 atl-cs-001.litwareinc.com 集區的所有 SIP 主幹資訊-atl-cs-001.litwareinc.com:
     
         Get-CsTrunk -PoolFqdn "atl-cs-001.litwareinc.com"
 

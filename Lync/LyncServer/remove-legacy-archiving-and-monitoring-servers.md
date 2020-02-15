@@ -12,16 +12,16 @@ ms:contentKeyID: 48185278
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1df5ed76a0e0518120c9772b515b36c5f23bfd89
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 144d2d1861b9e1dc75aaf740eca1a35e2d384a7b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727133"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008909"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41727133"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-19_
+_**主題上次修改日期：** 2012年-10-19_
 
-如果您的舊版部署包含封存伺服器或監視伺服器，則在遷移至 Lync Server 2013 之後，如果所有使用者都已從任何其餘的舊版池中移除，則可以從舊版環境中移除這些伺服器。 您可以以任何順序移除封存伺服器或監視伺服器。 主要需求是所有使用者都已從任何其餘的舊版池中移除。
+如果舊版部署包含封存或監控伺服器，移轉至 Lync Server 2013 之後，這些伺服器可以移除舊版環境中，前提是已從任何剩餘的舊版集區中移除所有使用者。 您可以在任何序列中移除封存伺服器或監控伺服器。 主要需求是已從任何剩餘的舊版集區移除所有使用者。
 
-您可以按照階段4所述的程式，將 Lync Server 2010 中的使用者移至 Lync Server 2013 [：將測試使用者移至試驗](phase-4-move-test-users-to-the-pilot-pool.md)區。
+您可以移動使用者從 Lync Server 2010 to Lync Server 2013 中所述的程序[階段 4： 將測試使用者移至試驗集區](phase-4-move-test-users-to-the-pilot-pool.md)。
 
-確認所有使用者都已從任何剩餘的 pool 中移除之後，請依照「卸載 Microsoft Lync Server 2010 及移除伺服器角色」中的程式操作，這些程式可以在[http://go.microsoft.com/fwlink/p/?linkId=246227](http://go.microsoft.com/fwlink/p/?linkid=246227)此下載。
+您已確認的所有使用者都已經都移除剩餘集區之後，請遵循 「 解除安裝 Microsoft Lync Server 2010 和移除伺服器角色，「 可在下載中的程序[http://go.microsoft.com/fwlink/p/?linkId=246227](http://go.microsoft.com/fwlink/p/?linkid=246227)。
 
 </div>
 

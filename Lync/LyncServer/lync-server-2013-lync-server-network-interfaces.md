@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： Lync Server network 介面
+title: 'Lync Server 2013: Lync Server 網路介面'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 49733834
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9432bf07203efa97e04552fd50224d555e868602
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9cf51bfa8b7c76edf0d8060ff86c861d355d2f95
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742163"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030196"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41742163"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-15_
+_**主題上次修改日期：** 2012 年 10 月 15_
 
-使用本節中的程式來管理 Lync Server 2013 環境的網路介面。
+使用本節中的程序來管理 Lync Server 2013 環境的網路介面。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [在 Lync Server 2013 中查看網路介面資訊](lync-server-2013-viewing-network-interface-information.md)
+  - [Lync Server 2013 中檢視網路介面資訊](lync-server-2013-viewing-network-interface-information.md)
 
 </div>
 

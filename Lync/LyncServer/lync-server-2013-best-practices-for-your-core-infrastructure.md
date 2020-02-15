@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：適用于核心基礎結構的最佳做法
+title: Lync Server 2013： 的核心基礎結構的最佳作法
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 61071242
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1c6a8663bfae2411926fe08a497a5004def051ae
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: cd53ac85ec544af58c1f94f7397a030f6b10fdb2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737573"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029204"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="best-practices-for-your-core-infrastructure-in-lync-server-2013"></a>Lync Server 2013 中核心基礎結構的最佳做法
+# <a name="best-practices-for-your-core-infrastructure-in-lync-server-2013"></a>您在 Lync Server 2013 中的核心基礎結構的最佳做法
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41737573"
 
 <span> </span>
 
-_**主題上次修改日期：** 2014-01-27_
+_**上次修改主題：** 2014年-01-27_
 
-您可能已經採取步驟，在您的系統中設計容錯能力，例如確保硬體冗余、防範電源損失、例行安裝安全更新及防病毒措施，以及監視伺服器活動。 這些做法不僅能獲益您的 Microsoft Lync Server 2013 基礎結構，還能受益于整個網路。 如果您尚未實現這些做法，建議您在部署 Lync Server 2013 之前先執行此動作。
+您可能已經採取一些步驟，包括透過確保硬體備份、避免電源中斷、例行性地安裝安全性更新與防毒措施，以及監控伺服器活動等作法，為您的系統設計容錯機制。 這些作法特地列出您的 Microsoft Lync Server 2013 基礎結構，不僅整個網路。 如果您未實作這些作法，我們建議您這麼做之前部署 Lync Server 2013。
 
-若要協助保護 Lync Server 2013 部署中的伺服器不受意外或 purposeful 損害，可能會導致宕機，請採取下列預防措施：
+若要協助防止意外或故意傷害造成停機，Lync Server 2013 部署中的伺服器，請採取下列預防措施：
 
-  - 使用安全性更新讓伺服器保持在最新狀態。 訂閱 Microsoft Security Notification 服務可協助確保您立即收到任何 Microsoft 產品的安全公告版本通知。 若要訂閱，請移至 Microsoft 技術安全性通知網站[http://go.microsoft.com/fwlink/p/?LinkId=145202](http://go.microsoft.com/fwlink/p/?linkid=145202)：。
+  - 隨時注意為伺服器安裝最新的安全性更新。 註冊「微軟資訊安全通知服務」，確保能立即收到任何 Microsoft 產品的資訊安全佈告欄通知。 若要訂閱，請移至 Microsoft 技術安全性通知網站在[http://go.microsoft.com/fwlink/p/?LinkId=145202](http://go.microsoft.com/fwlink/p/?linkid=145202)。
 
-  - 確定正確設定存取權限。
+  - 確認已正確設定所有的存取權限。
 
-  - 讓您的伺服器保持在可避免未經授權存取的實體環境中。 確保您的所有伺服器都安裝了適當的防毒軟體。 使用最新的病毒簽名檔案，讓軟體保持在最新狀態。 使用防病毒應用程式的自動更新功能，將病毒簽名保持在最新狀態。
+  - 請將您的伺服器配置於可預防未經授權擅自存取的實體環境。請確認您的伺服器均已安裝適當的防毒軟體。隨時注意安裝最新的病毒碼檔案，保持防毒軟體處於最新狀態。建議您使用防毒應用程式的自動更新功能，來維持最新的病毒碼狀態。
 
-  - 我們建議您停用安裝 Lync Server 2013 之電腦上不需要的 Windows Server 作業系統服務。
+  - 我們建議您停用不需要您安裝 Lync Server 2013 的電腦的 Windows Server 作業系統服務。
 
-  - 在儲存資料時使用完整容量加密系統來加密作業系統與磁片磁碟機，除非您能保證對伺服器的持續及完整控制、總物理隔離性，以及適當且安全地解除取代或失敗的磁片促進.
+  - 為作業系統與磁碟機 (其中資料是以完整磁碟區加密系統存放) 加密，除非您能保證對伺服器能擁有持續及完整的控制、實體隔離總數且能適當與安全地解除委任已取代或故障的磁碟機。
 
-  - 停用伺服器的所有外部直接記憶體存取（DMA）埠，除非您能保證嚴格控制伺服器的物理存取權。 DMA （可以相當輕鬆地啟動）的攻擊會公開非常敏感的資訊，例如私人加密金鑰。
+  - 停用伺服器的所有外部直接記憶體存取 (DMA) 連接埠，除非您能保證對伺服器的實體存取擁有嚴密的控制。 DMA 形式的攻擊通常非常容易啟動，這些攻擊可能會導致高度機密的資訊洩漏，例如私人加密金鑰等。
 
 </div>
 

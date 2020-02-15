@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：tblPrincipalMeta
+title: 'Lync Server 2013: tblprincipalmeta 表格'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184648
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 848f4dc19ddf64c53c2dd30ae6ca4c8036b67c79
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3a3571cd93ae5d69fa4a432035284b9a752287b1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764093"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033682"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="tblprincipalmeta-in-lync-server-2013"></a>Lync Server 2013 中的 tblPrincipalMeta
+# <a name="tblprincipalmeta-in-lync-server-2013"></a>Lync Server 2013 中的 tblprincipalmeta 表格
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41764093"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-09-12_
+_**主題上次修改日期：** 2012年-09-12_
 
-tblPrincipalMeta 包含必須從 Active Directory 網域服務更新的主體。
+tblprincipalmeta 表格包含必須從 Active Directory 網域服務重新整理的主體。
 
-### <a name="columns"></a>分欄
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -49,52 +49,52 @@ tblPrincipalMeta 包含必須從 Active Directory 網域服務更新的主體。
 </colgroup>
 <thead>
 <tr class="header">
-<th>左欄</th>
-<th>類型</th>
-<th>說明</th>
+<th>欄</th>
+<th>類型	</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>prinID</p></td>
-<td><p>int，not null</p></td>
-<td><p>Principal ID。</p></td>
+<td><p>int，非 null</p></td>
+<td><p>主體識別碼。</p></td>
 </tr>
 <tr class="even">
 <td><p>prinAffiliationsDirty</p></td>
-<td><p>bit、not null</p></td>
-<td><p>如果必須重新整理承擔者隸屬關係，則為 True。</p></td>
+<td><p>位元，非 null</p></td>
+<td><p>若主體關係必須重新整理，則為 True。</p></td>
 </tr>
 <tr class="odd">
 <td><p>prinAttributesDirty</p></td>
-<td><p>bit、not null</p></td>
-<td><p>如果必須重新整理主體屬性，則為 True。</p></td>
+<td><p>位元，非 null</p></td>
+<td><p>若主體屬性必須重新整理，則為 True。</p></td>
 </tr>
 <tr class="even">
 <td><p>prinDeleted</p></td>
-<td><p>bit、not null</p></td>
-<td><p>如果主體已遭刪除，則為 True。</p></td>
+<td><p>位元，非 null</p></td>
+<td><p>若主體已刪除，則為 True。</p></td>
 </tr>
 <tr class="odd">
 <td><p>tryCount</p></td>
 <td><p>int</p></td>
-<td><p>嘗試從目前已發生過的 AD DS 重新整理主體的次數。</p></td>
+<td><p>至今嘗試從 AD DS 重新整理主體的次數。</p></td>
 </tr>
 <tr class="even">
 <td><p>lastTry</p></td>
 <td><p>datetime</p></td>
-<td><p>從最新嘗試重新整理主體的時間戳記。 如果尚未嘗試重新整理，則可以是 null。</p></td>
+<td><p>最近一次嘗試重新整理主體的時間戳記。若尚未重新整理過，可以是 null。</p></td>
 </tr>
 <tr class="odd">
 <td><p>nextTry</p></td>
 <td><p>datetime</p></td>
-<td><p>下一次排程重新整理的時間戳記。 如果沒有排程進一步的重新整理，就可以是 null。</p></td>
+<td><p>排定下次重新整理時間戳記。若未排定之後的重新整理，可以是 null。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a>鍵
+### <a name="keys"></a>索引鍵
 
 <table>
 <colgroup>
@@ -103,18 +103,18 @@ tblPrincipalMeta 包含必須從 Active Directory 網域服務更新的主體。
 </colgroup>
 <thead>
 <tr class="header">
-<th>左欄</th>
-<th>說明</th>
+<th>欄</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>prinID</p></td>
-<td><p>主鍵。</p></td>
+<td><p>主索引鍵。</p></td>
 </tr>
 <tr class="even">
 <td><p>prinID</p></td>
-<td><p>在 tblPrincipal prinID 資料表中使用 [查閱] 的外鍵。</p></td>
+<td><p>在 tblPrincipal.prinID 表格中查閱外部索引鍵。</p></td>
 </tr>
 </tbody>
 </table>

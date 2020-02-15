@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：針對 Lync Online 客戶設定同盟支援
+title: Lync Server 2013： 設定 Lync Online 客戶同盟支援
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185669
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 76582be324977d5466d234a37e4352806dd6d92f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 81af0b98fdcc39396ca3f0afc27f4b57d42b7582
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728993"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030617"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-federation-support-for-a-lync-online-customer-in-lync-server-2013"></a>在 Lync Server 2013 中設定 Lync Online 客戶的同盟支援
+# <a name="configuring-federation-support-for-a-lync-online-customer-in-lync-server-2013"></a>在 Lync Server 2013 中設定 Lync Online 客戶同盟支援
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41728993"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-11-01_
+_**主題上次修改日期：** 2012年-11-01_
 
-您可以透過下列任何一種方式，為貴組織中的使用者提供通訊服務：
+您可以提供通訊服務的使用者在組織中任何下列的方式：
 
-  - 在您的組織中部署 Lync Server 2013 （稱為*內部部署服務*），並在您的組織中設定 lync 2013 使用者帳戶。
+  - 部署 Lync Server 2013 中您的組織 （稱為*內部部署服務*） 和設定您的組織中的 Lync 2013 的使用者帳戶。
 
-  - 使用主機服務提供者設定 Microsoft Lync Online 2010 客戶帳戶，並設定擁有主機提供者的使用者帳戶（稱為*線上服務*）。
+  - 設定具有裝載提供者的 Microsoft Lync Online 2010 客戶帳戶，並設定具有裝載提供者 （又稱為*線上服務*） 的使用者帳戶。
 
-如果您在組織中部署 Lync 2013，您可以與一或多個 Microsoft Lync Online 2010 客戶的網域進行聯盟。 若要在您的內部部署 Lync 2013 部署的使用者和 Lync Online 2010 客戶的使用者之間啟用同盟，您必須針對 Lync Online 客戶的網域和使用者設定支援。
+如果您在組織中部署 Lync 2013，您可與一或多個 Microsoft Lync Online 2010 客戶的網域之同盟。 若要啟用內部部署 Lync 2013 部署的使用者與使用者的 Lync Online 2010 customer 之間的同盟，您必須設定支援的網域和使用者的 Lync Online 客戶。
 
 <div>
 
 
 > [!NOTE]  
-> 本檔只說明設定貴組織與 Lync Online 2010 客戶支援同盟的程式。 本檔不說明將 Lync Online 2010 客戶設定為支援同盟的程式。 如需 Lync Online 服務的詳細資訊，請參閱<A href="http://go.microsoft.com/fwlink/p/?linkid=218941">http://go.microsoft.com/fwlink/p/?linkId=218941</A>lync online。
+> 這份文件說明的設定來支援與 Lync Online 2010 customer 同盟組織的程序。 這份文件不會說明設定以支援同盟 Lync Online 2010 customer 程序。 如需有關 Lync Online 服務的詳細資訊，請參閱 Lync Online 在<A href="http://go.microsoft.com/fwlink/p/?linkid=218941">http://go.microsoft.com/fwlink/p/?linkId=218941</A>。
 
 
 
@@ -57,15 +57,15 @@ _**主題上次修改日期：** 2012-11-01_
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [在 Lync Server 2013 中與 Lync Online 客戶進行聯盟的先決條件](lync-server-2013-prerequisites-for-federating-with-a-lync-online-customer.md)
+  - [與 Lync Server 2013 中的 Lync Online 客戶同盟的先決條件](lync-server-2013-prerequisites-for-federating-with-a-lync-online-customer.md)
 
-  - [在 Lync Server 2013 中設定 Lync Online 網域的同盟支援](lync-server-2013-configure-federation-support-for-a-lync-online-domain.md)
+  - [在 Lync Server 2013 中設定 Lync Online 網域同盟支援](lync-server-2013-configure-federation-support-for-a-lync-online-domain.md)
 
-  - [在 Lync Server 2013 中設定與 Lync Online 客戶的同盟的使用者存取權](lync-server-2013-configure-user-access-for-federation-with-a-lync-online-customer.md)
+  - [使用 Lync Server 2013 中的 Lync Online 客戶設定同盟使用者存取](lync-server-2013-configure-user-access-for-federation-with-a-lync-online-customer.md)
 
-  - [在 Lync Server 2013 中驗證與 Lync Online 客戶的通訊](lync-server-2013-verify-communications-with-a-lync-online-customer.md)
+  - [確認與 Lync Server 2013 中的 Lync Online 客戶的通訊](lync-server-2013-verify-communications-with-a-lync-online-customer.md)
 
 </div>
 

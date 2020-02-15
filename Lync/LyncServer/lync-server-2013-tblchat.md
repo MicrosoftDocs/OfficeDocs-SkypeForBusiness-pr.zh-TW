@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：tblChat
+title: 'Lync Server 2013: tblChat'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185203
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1f3879924b37fa535973116af599f4713c58a207
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0a3f0672fc3cf41113c0cfa206890848f8ccbde0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764219"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033692"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41764219"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-09-12_
+_**主題上次修改日期：** 2012年-09-12_
 
 tblChat 包含所有聊天訊息。
 
-### <a name="columns"></a>分欄
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -49,57 +49,57 @@ tblChat 包含所有聊天訊息。
 </colgroup>
 <thead>
 <tr class="header">
-<th>左欄</th>
-<th>類型</th>
-<th>說明</th>
+<th>欄</th>
+<th>類型	</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>channelId</p></td>
-<td><p>int，not null</p></td>
+<td><p>int，非 null</p></td>
 <td><p>節點識別碼。</p></td>
 </tr>
 <tr class="even">
 <td><p>chatId</p></td>
-<td><p>Bigint，not null</p></td>
-<td><p>定義 tblLastChatId 表格產生的聊天室順序的唯一順序編號（每個節點識別碼）。</p></td>
+<td><p>bigint，非 null</p></td>
+<td><p>唯一序號 （每個節點識別碼） 定義聊天室的順序，由 tblLastChatId 表格產生的。</p></td>
 </tr>
 <tr class="odd">
 <td><p>chatDate</p></td>
-<td><p>Bigint，not null</p></td>
+<td><p>bigint，非 null</p></td>
 <td><p>聊天訊息的時間戳記。</p></td>
 </tr>
 <tr class="even">
-<td><p>userId</p></td>
-<td><p>int，not null</p></td>
+<td><p>使用者識別碼</p></td>
+<td><p>int，非 null</p></td>
 <td><p>海報的主體識別碼。</p></td>
 </tr>
 <tr class="odd">
 <td><p>isAlert</p></td>
-<td><p>bit、not null</p></td>
-<td><p>如果訊息是提醒訊息，則為 True。 如果不是，則為 False。</p></td>
+<td><p>位元，非 null</p></td>
+<td><p>如果郵件是提醒訊息，則為 true。 如果它不是，則為 false。</p></td>
 </tr>
 <tr class="even">
 <td><p>內容</p></td>
-<td><p>Nvarchar （max），not null</p></td>
-<td><p>聊天內容（純文字版本）。 內容通常是純文字，但有下列例外狀況：</p>
+<td><p>nvarchar (max)，非 null</p></td>
+<td><p>聊天室內容 （純文字版）。 內容通常是以純文字格式有下列例外：</p>
 <ul>
-<li><p>檔案表示為 ma-filelink：連結。</p></li>
-<li><p>連結是以 HTML 元素表示（雖然無法將內容類型視為 HTML）。</p></li>
-<li><p>案例的編碼方式是「[情景] ...」格式。</p></li>
+<li><p>以 ma-filelink 表示的檔案： 連結。</p></li>
+<li><p>連結以 HTML 元素表示 （雖然內容的類型不 html)。</p></li>
+<li><p>故事編碼為"[STORY]...」 的格式類似。</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td><p>rtf</p></td>
-<td><p>Varchar （max）</p></td>
-<td><p>聊天內容（RTF 版本）。 如果用戶端無法提供，可能會是 Null。</p></td>
+<td><p>varchar(max)</p></td>
+<td><p>聊天室內容 （RTF 版本）。 如果用戶端不會提供它可能是 Null。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="key"></a>機碼
+### <a name="key"></a>索引鍵
 
 <table>
 <colgroup>
@@ -108,14 +108,14 @@ tblChat 包含所有聊天訊息。
 </colgroup>
 <thead>
 <tr class="header">
-<th>左欄</th>
-<th>說明</th>
+<th>欄</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>&lt;channelID, chatD&gt;</p></td>
-<td><p>主鍵。</p></td>
+<td><p>&lt;channelID chatD&gt;</p></td>
+<td><p>主索引鍵。</p></td>
 </tr>
 </tbody>
 </table>

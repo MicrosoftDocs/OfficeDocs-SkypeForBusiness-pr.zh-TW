@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：tblEnumValue
+title: 'Lync Server 2013: tblEnumValue'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185040
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2c09c5e911dcd63f50d8b15343075c5b3e05e631
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d182a3689ae38d4117b45d6590bb2ccd08c0a8b7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731473"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42027054"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41731473"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-06-28_
+_**主題上次修改日期：** 2012年-06-28_
 
-tblEnumValue 是一種硬編碼資料表，其中包含在節點資料表中使用之屬性的可見度及行為值。
+tblEnumValue 是一種硬式編碼表格，包含節點表格中所用的屬性的可見度和行為值。
 
-### <a name="columns"></a>分欄
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -49,32 +49,32 @@ tblEnumValue 是一種硬編碼資料表，其中包含在節點資料表中使�
 </colgroup>
 <thead>
 <tr class="header">
-<th>左欄</th>
-<th>類型</th>
-<th>說明</th>
+<th>欄</th>
+<th>類型	</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>valueID</p></td>
-<td><p>Smallint，not null</p></td>
-<td><p>值的識別碼。</p></td>
+<td><p>smallint，非 null</p></td>
+<td><p>值的 ID。</p></td>
 </tr>
 <tr class="even">
 <td><p>attributeID</p></td>
-<td><p>Smallint，not null</p></td>
-<td><p>屬性識別碼。</p></td>
+<td><p>smallint，非 null</p></td>
+<td><p>屬性的識別碼。</p></td>
 </tr>
 <tr class="odd">
 <td><p>attributeValue</p></td>
-<td><p>Nvarchar （256），not null</p></td>
+<td><p>nvarchar (256)，非 null</p></td>
 <td><p>值的名稱。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a>鍵
+### <a name="keys"></a>索引鍵
 
 <table>
 <colgroup>
@@ -83,24 +83,24 @@ tblEnumValue 是一種硬編碼資料表，其中包含在節點資料表中使�
 </colgroup>
 <thead>
 <tr class="header">
-<th>左欄</th>
-<th>說明</th>
+<th>欄</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>valueID</p></td>
-<td><p>主鍵。</p></td>
+<td><p>主索引鍵。</p></td>
 </tr>
 <tr class="even">
 <td><p>attributeID</p></td>
-<td><p>在 tblEnumAttribute attributeID 資料表中使用 [查閱] 的外鍵。</p></td>
+<td><p>在 tblEnumAttribute.attributeID 表格中查閱外部索引鍵。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="table-values"></a>資料表值
+### <a name="table-values"></a>表格值
 
 <table>
 <colgroup>
@@ -117,28 +117,28 @@ tblEnumValue 是一種硬編碼資料表，其中包含在節點資料表中使�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>2</p></td>
-<td><p>1</p></td>
-<td><p>私有</p></td>
+<td><p>2 </p></td>
+<td><p>1 </p></td>
+<td><p>私用</p></td>
 </tr>
 <tr class="even">
-<td><p>3</p></td>
-<td><p>1</p></td>
-<td><p>討論</p></td>
+<td><p>3 </p></td>
+<td><p>1 </p></td>
+<td><p>範圍</p></td>
 </tr>
 <tr class="odd">
-<td><p>4</p></td>
-<td><p>2</p></td>
-<td><p>標準</p></td>
+<td><p>4 </p></td>
+<td><p>2 </p></td>
+<td><p>一般</p></td>
 </tr>
 <tr class="even">
-<td><p>500</p></td>
-<td><p>2</p></td>
-<td><p>auditorium</p></td>
+<td><p>5 </p></td>
+<td><p>2 </p></td>
+<td><p>視聽中心</p></td>
 </tr>
 <tr class="odd">
-<td><p>6</p></td>
-<td><p>1</p></td>
+<td><p>6 </p></td>
+<td><p>1 </p></td>
 <td><p>開啟</p></td>
 </tr>
 </tbody>
@@ -147,7 +147,7 @@ tblEnumValue 是一種硬編碼資料表，其中包含在節點資料表中使�
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
 [Lync Server 2013 中的 tblNode](lync-server-2013-tblnode.md)  

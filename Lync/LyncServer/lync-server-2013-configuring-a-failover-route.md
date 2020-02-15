@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：設定容錯移轉路由
+title: Lync Server 2013： 設定容錯移轉路由
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184542
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 22ebdf359a8cdf5f20ada8740a589b0181c3cc93
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 17477c647d2e5dd5918225486c43b93a29509fb2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741283"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034223"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41741283"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-09-21_
+_**主題上次修改日期：** 2012年-09-21_
 
-下列範例顯示管理員如何定義容錯移轉路線，以便在達拉斯 GW1 關閉或無法使用的情況下使用。 下表說明所需的配置變更。
+下列範例顯示系統管理員如何定義當 Dallas-GW1 因維修或其他緣故而無法使用時所要使用的容錯移轉路由。下表說明所需的設定變更。
 
-### <a name="table-1-user-policy"></a>資料表1。 使用者原則
+### <a name="table-1-user-policy"></a>表 1. 使用者原則
 
 <table>
 <colgroup>
@@ -55,15 +55,15 @@ _**主題上次修改日期：** 2012-09-21_
 <tbody>
 <tr class="odd">
 <td><p>預設通話原則</p></td>
-<td><p>局部</p>
+<td><p>Local</p>
 <p>GlobalPSTNHopoff</p></td>
 </tr>
 <tr class="even">
-<td><p>雷德蒙當地原則</p></td>
+<td><p>Redmond 本地原則</p></td>
 <td><p>RedmondLocal</p></td>
 </tr>
 <tr class="odd">
-<td><p>達拉斯通話原則</p></td>
+<td><p>Dallas 通話原則</p></td>
 <td><p>DallasUsers</p>
 <p>GlobalPSTNHopoff</p></td>
 </tr>
@@ -71,7 +71,7 @@ _**主題上次修改日期：** 2012-09-21_
 </table>
 
 
-### <a name="table-2-routes"></a>表格2。 到達
+### <a name="table-2-routes"></a>表 2. 路由
 
 <table>
 <colgroup>
@@ -83,54 +83,54 @@ _**主題上次修改日期：** 2012-09-21_
 </colgroup>
 <thead>
 <tr class="header">
-<th>路線名稱</th>
-<th>數位模式</th>
+<th>路由名稱</th>
+<th>號碼模式</th>
 <th>電話使用方式</th>
-<th>去</th>
-<th>關</th>
+<th>主幹</th>
+<th>閘道</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>雷德蒙的本機路線</p></td>
-<td><p>^\+1（425 | 206 | 253）（\d{7}） $</p></td>
-<td><p>局部</p>
+<td><p>Redmond 本地路由</p></td>
+<td><p>^\+1(425|206|253)(\d{7})$</p></td>
+<td><p>Local</p>
 <p>RedmondLocal</p></td>
 <td><p>Trunk1</p>
 <p>Trunk2</p></td>
-<td><p>紅-GW1</p>
-<p>紅-GW2</p></td>
+<td><p>紅色 GW1</p>
+<p>紅色 GW2</p></td>
 </tr>
 <tr class="even">
-<td><p>達拉斯本機路線</p></td>
-<td><p>^\+1（972 | 214 | 469）（\d{7}） $</p></td>
-<td><p>局部</p></td>
+<td><p>Dallas 本地路由</p></td>
+<td><p>^\+1(972|214|469)(\d{7})$</p></td>
+<td><p>Local</p></td>
 <td><p>Trunk3</p></td>
-<td><p>達拉斯-GW1</p></td>
+<td><p>Dallas GW1</p></td>
 </tr>
 <tr class="odd">
-<td><p>通用路線</p></td>
-<td><p>^\+?（\d *） $</p></td>
+<td><p>全域路由</p></td>
+<td><p>^\+?(\d*)$</p></td>
 <td><p>GlobalPSTNHopoff</p></td>
 <td><p>Trunk1</p>
 <p>Trunk2</p>
 <p>Trunk3</p></td>
-<td><p>紅-GW1</p>
-<p>紅-GW2</p>
-<p>達拉斯-GW1</p></td>
+<td><p>紅色 GW1</p>
+<p>紅色 GW2</p>
+<p>Dallas GW1</p></td>
 </tr>
 <tr class="even">
-<td><p>達拉斯使用者路由</p></td>
-<td><p>^\+?（\d *） $</p></td>
+<td><p>Dallas 使用者路由</p></td>
+<td><p>^\+?(\d*)$</p></td>
 <td><p>DallasUsers</p></td>
 <td><p>Trunk3</p></td>
-<td><p>達拉斯-GW1</p></td>
+<td><p>Dallas GW1</p></td>
 </tr>
 </tbody>
 </table>
 
 
-在表格1中，在達拉斯通話原則中，在 DallasUsers 電話使用量之後，就會新增 GlobalPSTNHopoff 的電話使用方式。 這可讓使用達拉斯通話原則進行呼叫，以使用針對 GlobalPSTNHopoff 電話使用設定的路線（如果無法使用 DallasUsers 電話使用方式的路線）。
+表 1 中，在「Dallas 通話原則」的「DallasUsers」電話使用方式後，將新增 GlobalPSTNHopoff 電話使用方式。如此可讓具有「Dallas 通話原則」的電話在無法使用 DallasUsers 電話使用方式的路由時，可以使用為 GlobalPSTNHopoff 電話使用方式所設定的路由。
 
 </div>
 

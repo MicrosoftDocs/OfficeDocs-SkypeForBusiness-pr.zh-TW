@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：針對通訊錄管理進行測試 CsAddressBookWebQuery
+title: 'Lync Server 2013: Test-CsAddressBookWebQuery 適用於通訊錄管理'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184865
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c50497979e8439a60799864376d1f93d36646cec
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0a2481ff48e1156bd0cbbb478db213dbb02d2912
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746253"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42021774"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="test-csaddressbookwebquery-for-address-book-management-in-lync-server-2013"></a>在 Lync Server 2013 中 CsAddressBookWebQuery 通訊錄管理的測試
+# <a name="test-csaddressbookwebquery-for-address-book-management-in-lync-server-2013"></a>適用於通訊錄管理 Lync Server 2013 中的測試 CsAddressBookWebQuery
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41746253"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-11-01_
+_**主題上次修改日期：** 2012年-11-01_
 
-誰可以執行這個 Cmdlet：根據預設，下列群組的成員有權執行測試 CsAddressBookWebQuery Cmdlet： RTCUniversalServerAdmins。 若要傳回已指派這個 Cmdlet 的所有角色式存取控制（RBAC）角色的清單（包括您自行建立的任何自訂 RBAC 角色），請在 Windows PowerShell 提示中執行下列命令：
+誰可以執行此 cmdlet： 根據預設，下列群組的成員會獲授權可執行 Test-csaddressbookwebquery cmdlet: RTCUniversalServerAdmins。 若要傳回所有獲指派此 Cmdlet 的角色型存取控制 (RBAC) 角色清單 (包括您自行建立的自訂 RBAC 角色)，請在 Windows PowerShell 命令提示中執行下列命令：
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Test-CsAddressBookService"}
 
-與 Test CsAddressBookService 綜合交易類似，Test CsAddressBookWebQuery 會針對通訊錄網頁查詢執行查詢，以確保其正常運作。 這個 Cmdlet 會連線至 Web 票證驗證，並呈現在-UserCredential 中指定的認證。 如果經過驗證，則 Cmdlet 會呈現-TargetSipAddress 資訊。 如果該 Cmdlet 能夠取得連絡人的相關資訊，就應該報告成功。
+類似於 Test-csaddressbookservice 綜合交易，Test-csaddressbookwebquery 執行查詢，以針對通訊錄 Web 查詢以確保其運作正常。 指令程式會連線至 Web 票證驗證，並呈現 – UserCredential 中指定的認證。 如果通過驗證，指令程式接著會呈現 – TargetSipAddress 資訊。 指令程式應報告成功，如果它能夠擷取連絡人資訊。
 
 例如：
 
@@ -52,7 +52,7 @@ _**主題上次修改日期：** 2012-11-01_
 ## <a name="see-also"></a>請參閱
 
 
-[Test-CsAddressBookWebQuery](https://docs.microsoft.com/powershell/module/skype/Test-CsAddressBookWebQuery)  
+[Test-csaddressbookwebquery](https://docs.microsoft.com/powershell/module/skype/Test-CsAddressBookWebQuery)  
   
 
 </div>

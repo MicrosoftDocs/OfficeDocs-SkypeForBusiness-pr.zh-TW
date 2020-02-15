@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： Android 版 Lync 需求
+title: 'Lync Server 2013: Lync for Android 需求'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 53312965
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2c584a20df5dc2516115b4b137c0543576d5fa4d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c89439f46c98fd1f00d7cb95eb4a910b26971be0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765491"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030897"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="lync-for-android-requirements-in-lync-server-2013"></a>Lync Server 2013 中的 lync for Android 需求
+# <a name="lync-for-android-requirements-in-lync-server-2013"></a>Lync for Android 需求在 Lync Server 2013
 
 </div>
 
@@ -35,31 +35,31 @@ ms.locfileid: "41765491"
 
 <span> </span>
 
-_**主題上次修改日期：** 2014-04-24_
+_**上次修改主題：** 2014年-04-24_
 
-Microsoft Lync 2013 適用于 Android 的 Microsoft Lync 2013 針對您組織中從 Android 裝置連線的使用者，提供立即訊息（IM）、增強的目前狀態，以及 Lync 會議加入功能。 本主題說明 Android 版 Lync 2013 的注意事項，包括先決條件、技術需求和必要元件。
+Microsoft Lync 2013 Microsoft Lync 2013 Android 版提供立即訊息 (IM)、 增強顯示狀態，以及 Lync 會議的貴組織中從 Android 裝置連接的使用者加入功能。 本主題說明 Lync 2013 for Android，包括先決條件、 技術需求，以及所需的元件的考量事項。
 
 <div>
 
-## <a name="lync-for-android-prerequisite"></a>Android 版 Lync 必備元件
+## <a name="lync-for-android-prerequisite"></a>Lync for Android 先決條件
 
-若要支援 Android 版 Lync 2013，Android 裝置必須符合下列需求：
+若要支援 Lync 2013 for Android，Android 裝置必須符合下列需求：
 
-  - Android 裝置必須執行 Android 4.0 或較新的手機或平板電腦作業系統（包括平板電腦），除了 Tegra2 晶片外。
+  - Android 4.0 或更新版本電話或平板電腦導向作業系統，包括平板電腦，除了使用 Tegra2 晶片，必須執行 Android 裝置。
 
-  - 裝置必須具有 1.2 GHz 雙核或更高的 CPU。
+  - 裝置必須有 1.2 GHz 雙核心或更高的 CPU。
 
-  - 裝置攝影機（前部/背面）解析度應該是 VGA 或更新版本。
+  - 裝置照相機 （前方/後方） 解析度應為 VGA 或更高版本。
 
-  - 其他硬體需求應該與 Android 4.0 相容性定義檔對齊。
+  - 其他硬體需求應該對齊 Android 4.0 相容性定義文件。
 
 </div>
 
 <div>
 
-## <a name="other-technical-considerations"></a>其他技術考慮
+## <a name="other-technical-considerations"></a>其他技術考量
 
-在 Android 裝置平臺上，Lync 應用程式可以在背景執行。 因此，與其他行動裝置平臺不同，Android 裝置不需要推播通知。 在 Android 裝置上退出 Lync 應用程式的唯一方法，就是明確登出 Lync。 Tegra 2 晶片組的裝置不支援此版本的 Lync 應用程式。
+在 Android 裝置平台上的 Lync 應用程式可以在背景執行。 因此，不像其他行動裝置平台的推入通知不需要 Android 裝置。 在 Android 裝置上結束 Lync 應用程式的唯一方式是明確登出 Lync。 Tegra 2 晶片組的裝置不支援此版本的 Lync 應用程式。
 
 </div>
 

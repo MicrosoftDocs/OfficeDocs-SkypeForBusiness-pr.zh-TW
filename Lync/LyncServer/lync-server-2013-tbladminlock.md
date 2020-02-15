@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：tblAdminLock
+title: 'Lync Server 2013: tblAdminLock'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184560
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 89e1509a1a84e0a9dd03527eedfb0b9e6da1590e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 26a8236145f86fa86039b4030fe82327d9fc4dfa
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764229"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42031177"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41764229"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-06-25_
+_**主題上次修改日期：** 2012年-06-25_
 
-tblAdminLock 包含執行某些系統管理員命令所需的管理員鎖。
+tblAdminLock 表格包含執行某些系統管理員命令所需的系統管理員鎖定。
 
-### <a name="columns"></a>分欄
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -49,26 +49,26 @@ tblAdminLock 包含執行某些系統管理員命令所需的管理員鎖。
 </colgroup>
 <thead>
 <tr class="header">
-<th>左欄</th>
-<th>類型</th>
-<th>說明</th>
+<th>欄</th>
+<th>類型	</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>lockExpiresTime</p></td>
-<td><p>datetime、not null</p></td>
-<td><p>[鎖定到期日] 和 [時間]。 擁有者可以定期延伸此值。</p></td>
+<td><p>datetime，非 null</p></td>
+<td><p>鎖定到期的日期和時間。擁有者可定期延長這個值。</p></td>
 </tr>
 <tr class="even">
 <td><p>lockServerID</p></td>
-<td><p>int，not null</p></td>
-<td><p>擁有鎖定的伺服器 ID。</p></td>
+<td><p>int，非 null</p></td>
+<td><p>掌握鎖定之伺服器的識別碼。</p></td>
 </tr>
 <tr class="odd">
 <td><p>lockActorID</p></td>
-<td><p>int，not null</p></td>
-<td><p>擁有鎖定之主體的 ID。</p></td>
+<td><p>int，非 null</p></td>
+<td><p>掌握鎖定之主體的識別碼。</p></td>
 </tr>
 </tbody>
 </table>

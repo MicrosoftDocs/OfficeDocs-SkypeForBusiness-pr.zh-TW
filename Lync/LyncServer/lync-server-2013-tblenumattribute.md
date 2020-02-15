@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：tblEnumAttribute
+title: 'Lync Server 2013: tblEnumAttribute'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183523
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 73ac5a7cf26c97b31daf5785a90fac102c50e480
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8d7078c36763fb5c582f62c5b4ff7ddedf9cd100
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764189"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42027334"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41764189"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-09-12_
+_**主題上次修改日期：** 2012年-09-12_
 
-tblEnumAttribute 是一種硬編碼資料表，其中包含在節點資料表中使用的 Visibility 和行為屬性。
+tblEnumAttribute 表格是一種硬式編碼的表格，其中含有節點表格中所用的可見度及行為屬性。
 
-### <a name="columns"></a>分欄
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -49,27 +49,27 @@ tblEnumAttribute 是一種硬編碼資料表，其中包含在節點資料表中
 </colgroup>
 <thead>
 <tr class="header">
-<th>左欄</th>
-<th>類型</th>
-<th>說明</th>
+<th>欄</th>
+<th>類型	</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>attributeID</p></td>
-<td><p>Smallint，not null</p></td>
-<td><p>屬性識別碼。</p></td>
+<td><p>smallint，非 null</p></td>
+<td><p>屬性的識別碼。</p></td>
 </tr>
 <tr class="even">
 <td><p>attributeName</p></td>
-<td><p>Nvarchar （256），not null</p></td>
-<td><p>屬性的名稱。</p></td>
+<td><p>nvarchar (256)，非 null</p></td>
+<td><p>屬性名稱。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="key"></a>機碼
+### <a name="key"></a>索引鍵
 
 <table>
 <colgroup>
@@ -78,20 +78,20 @@ tblEnumAttribute 是一種硬編碼資料表，其中包含在節點資料表中
 </colgroup>
 <thead>
 <tr class="header">
-<th>左欄</th>
-<th>說明</th>
+<th>欄</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>attributeID</p></td>
-<td><p>主鍵。</p></td>
+<td><p>主索引鍵。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="table-values"></a>資料表值
+### <a name="table-values"></a>表格值
 
 <table>
 <colgroup>
@@ -106,12 +106,12 @@ tblEnumAttribute 是一種硬編碼資料表，其中包含在節點資料表中
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>1</p></td>
-<td><p>看見.</p></td>
+<td><p>1 </p></td>
+<td><p>可見性。</p></td>
 </tr>
 <tr class="even">
-<td><p>2</p></td>
-<td><p>行為.</p></td>
+<td><p>2 </p></td>
+<td><p>行為。</p></td>
 </tr>
 </tbody>
 </table>
@@ -119,7 +119,7 @@ tblEnumAttribute 是一種硬編碼資料表，其中包含在節點資料表中
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
 [Lync Server 2013 中的 tblNode](lync-server-2013-tblnode.md)  

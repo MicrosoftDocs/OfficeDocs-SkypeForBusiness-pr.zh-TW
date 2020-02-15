@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：管理增強型 9-1-1 與位置服務
+title: Lync Server 2013： 管理增強型 9-1-1 與位置服務
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733600
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 251d76cd7fcdc04834dbab3146ac39847630f45c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6ea5107ddbcc4e98473f58c43d10fe8f745b2e64
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729283"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029494"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-enhanced-9-1-1-and-the-location-service-in-lync-server-2013"></a>在 Lync Server 2013 中管理增強型 9-1-1 與位置服務
+# <a name="managing-enhanced-9-1-1-and-the-location-service-in-lync-server-2013"></a>管理增強型 9-1-1 和 Lync Server 2013 中的位置服務
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41729283"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-11-01_
+_**主題上次修改日期：** 2012年-11-01_
 
-Lync Server 2013 支援從 Lync 用戶端和 Lync Phone Edition 裝置呼叫增強版9-1-1 （E9-1）。 當您將 Lync Server 2013 設定為 E9-1-1 時，由 Lync 2013 或 Lync Phone Edition 發出的緊急呼叫包括來自位置資訊服務資料庫的緊急回應位置（ERL）資訊。 使用本節中的程式來管理位置原則。
+Lync Server 2013 支援增強型 9-1-1 (E9-1-1) 從 Lync 用戶端和 Lync Phone Edition 裝置呼叫。 當您設定 Lync Server 2013 的 E9-1-1、 緊急撥打從 Lync 2013 或 Lync Phone Edition 包含緊急回應位置 (ERL) 的資訊的位置資訊服務資料庫。 使用本節中的程序管理此位置原則。
 
 <div>
 
 
 > [!NOTE]  
-> 如需有關部署高級企業語音功能（例如 E9-1-1 和位置資訊服務）的詳細資料，請參閱<A href="lync-server-2013-deploying-advanced-enterprise-voice-features.md">在 Lync Server 2013 中部署高級企業語音功能</A>。
+> 如需部署進階的 Enterprise Voice 功能，例如 E9-1-1 和位置資訊服務的詳細資訊，請參閱<A href="lync-server-2013-deploying-advanced-enterprise-voice-features.md">部署進階 Enterprise Voice 功能在 Lync Server 2013</A>。
 
 
 
@@ -51,9 +51,9 @@ Lync Server 2013 支援從 Lync 用戶端和 Lync Phone Edition 裝置呼叫增�
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [在 Lync Server 2013 中管理位置原則](lync-server-2013-managing-location-policy.md)
+  - [管理 Lync Server 2013 中的位置原則](lync-server-2013-managing-location-policy.md)
 
 </div>
 

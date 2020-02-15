@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：新虛擬化功能
+title: Lync Server 2013： 新的虛擬化功能
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 49733861
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 687e1c77cec18dc9ad4372fd911db32c537c61c9
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2d5c60926db1238c586c2c516302649c5c44cd8d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755857"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033312"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41755857"
 
 <span> </span>
 
-_**主題上次修改日期：** 2013-11-07_
+_**上次修改主題：** 2013年-11-07_
 
-Lync Server 2013 支援 Windows Server 2012、Windows Server 2012 R2 和 Windows Server 2008 R2 上的虛擬化。 Windows Server 2012 和 Windows Server 2012 R2 支援包括單一根 i/o 虛擬化（SR-IOV）功能支援。 在 SR-IOV 中，物理網路介面卡的虛函數是直接指派給虛擬機器。 這會增加網路輸送量並減少網路延遲，同時減少處理網路流量所需的主機 CPU 負荷。 若要利用 SR-IOV，您必須使用具備支援 SR-IOV 之 BIOS 的主機伺服器，以及使用支援 SR-IOV 的網路介面卡。
+Lync Server 2013 支援 Windows Server 2012、 Windows Server 2012 R2 和 Windows Server 2008 R2 上的虛擬化。 支援在 Windows Server 2012 和 Windows Server 2012 R2 包含單一根 I/O 虛擬化 (SR IOV) 功能的支援。 SR IOV，與實體網路介面卡的虛擬函式會直接指派給虛擬機器。 這會增加網路輸送量，並減少網路延遲，同時也減少主機 CPU 額外負荷，才處理網路流量。 若要利用 SR IOV，您必須使用的主機伺服器具有 BIOS 支援 SR IOV，以及使用支援 SR IOV 網路介面卡。
 
 </div>
 

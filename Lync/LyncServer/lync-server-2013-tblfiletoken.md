@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：tblFileToken
+title: 'Lync Server 2013: tblFileToken'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184073
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b469b79e680c202654024d1ac20a55b9929e4b10
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 839086521c6e9054d1759943134b305c8205f59f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764179"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42025714"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41764179"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-09-12_
+_**主題上次修改日期：** 2012年-09-12_
 
-tblFileToken 包含臨時權杖以進行檔案傳輸。
+tblFileToken 包含用於檔案傳輸的臨時權杖。
 
-### <a name="columns"></a>分欄
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -49,62 +49,62 @@ tblFileToken 包含臨時權杖以進行檔案傳輸。
 </colgroup>
 <thead>
 <tr class="header">
-<th>左欄</th>
-<th>類型</th>
-<th>說明</th>
+<th>欄</th>
+<th>類型	</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>fileToken</p></td>
-<td><p>Nvarchar （50），not null</p></td>
-<td><p>唯一標記（GUID）。</p></td>
+<td><p>nvarchar (50)，非 null</p></td>
+<td><p>唯一 Token (GUID)。</p></td>
 </tr>
 <tr class="even">
 <td><p>fileTokenUserID</p></td>
-<td><p>int，not null</p></td>
-<td><p>要轉移檔案之主體的 ID。</p></td>
+<td><p>int，非 null</p></td>
+<td><p>傳輸檔案之主體的識別碼。</p></td>
 </tr>
 <tr class="odd">
 <td><p>fileTokenChannelID</p></td>
-<td><p>GUID，不是 null</p></td>
+<td><p>GUID，非 null</p></td>
 <td><p>聊天室節點的 GUID。</p></td>
 </tr>
 <tr class="even">
 <td><p>fileTokenExpireDate</p></td>
-<td><p>datetime、not null</p></td>
-<td><p>到期時間。 （權杖會在30分鐘之後到期，除非已固定（請參閱此欄中的下列描述）。</p></td>
+<td><p>datetime，非 null</p></td>
+<td><p>到期時間 (權杖於 30 分鐘後到期，除非已固定 (請參閱此欄中下列說明)。</p></td>
 </tr>
 <tr class="odd">
 <td><p>fileTokenComplianceFileUrl</p></td>
-<td><p>Nvarchar （256）</p></td>
-<td><p>已傳送檔案的 URL （適用于合規性服務使用）。</p></td>
+<td><p>nvarchar(256)</p></td>
+<td><p>已傳輸檔案的 URL (供 Compliance Service 使用)。</p></td>
 </tr>
 <tr class="even">
 <td><p>fileTokenComplianceThumbnailUrl</p></td>
-<td><p>Nvarchar （256）</p></td>
-<td><p>已傳送檔案的縮圖 URL （適用于合規性服務使用）。</p></td>
+<td><p>nvarchar(256)</p></td>
+<td><p>已傳輸檔案的縮圖 URL (供 Compliance Service 使用)。</p></td>
 </tr>
 <tr class="odd">
 <td><p>fileTokenComplianceTime</p></td>
 <td><p>datetime2</p></td>
-<td><p>實際檔案傳輸作業（適用于合規性服務使用）的時間戳記。</p></td>
+<td><p>實際檔案傳輸作業的時間戳記 (供 Compliance Service 使用)。</p></td>
 </tr>
 <tr class="even">
 <td><p>fileTokenComplianceIsUpload</p></td>
-<td><p>稍微</p></td>
-<td><p>如果上傳則為 True;如果下載（適用于相容性服務使用），則為 False。</p></td>
+<td><p>位元</p></td>
+<td><p>若上傳則為 True；若下載則為 False (供 Compliance Service 使用)。</p></td>
 </tr>
 <tr class="odd">
 <td><p>fileTokenCompliancePinned</p></td>
-<td><p>bit、not null</p></td>
-<td><p>如果權杖已釘選，則為 True。 它是用來在表格中保留權杖，直到合規性服務有機會從它取得相關欄位為止。</p></td>
+<td><p>位元，非 null</p></td>
+<td><p>若權杖已固定則為 True，用於將權杖保存在表格中，直到 Compliance Service 有機會從中擷取相關欄位。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a>鍵
+### <a name="keys"></a>索引鍵
 
 <table>
 <colgroup>
@@ -113,18 +113,18 @@ tblFileToken 包含臨時權杖以進行檔案傳輸。
 </colgroup>
 <thead>
 <tr class="header">
-<th>左欄</th>
-<th>說明</th>
+<th>欄</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>fileToken</p></td>
-<td><p>主鍵。</p></td>
+<td><p>主索引鍵。</p></td>
 </tr>
 <tr class="even">
 <td><p>fileTokenChannelID</p></td>
-<td><p>在 tblNode nodeGuid 資料表中使用 [查閱] 的外鍵。</p></td>
+<td><p>在 Node.nodeGuid 表格中查閱外部索引鍵。</p></td>
 </tr>
 </tbody>
 </table>

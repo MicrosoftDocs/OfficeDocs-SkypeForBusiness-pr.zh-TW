@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：設定現有的中央管理伺服器
+title: Lync Server 2013： 設定現有的中央管理伺服器
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185584
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5b5df4fedc49e85d7fe26a918ea36de3a64b440a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 50835858c9c78851ec5fc7359f988790bb0d1c2f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757827"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028754"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,23 +35,23 @@ ms.locfileid: "41757827"
 
 <span> </span>
 
-_**主題上次修改日期：** 2013-02-21_
+_**上次修改主題：** 2013年-02-21_
 
-如果您重複使用現有 Lync Server 2013 部署的中央管理伺服器，您必須執行以下所述的程式，以確保 Lync Server 控制台和 Windows PowerShell 正常運作。
+如果您重複使用現有的 Lync Server 2013 部署從中央管理伺服器，您必須執行來讓確定該 Lync Server 控制台] 及 [Windows PowerShell 正確運作，如下所述的程序。
 
 <div>
 
 ## <a name="to-configure-an-existing-central-management-server"></a>若要設定現有的中央管理伺服器
 
-1.  啟動 Lync Server 管理命令介面：按一下 [**開始**]，按一下 [**所有程式**]，按一下 [ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
+1.  啟動 Lync Server 管理命令介面： 按一下 [**開始]**，按一下 [**所有程式]**、 [ **Microsoft Lync Server 2013**]，然後按一下**Lync Server 管理命令介面**。
 
-2.  使用**CsAdminRole** Cmdlet 來更新儲存在中央管理伺服器的角色式存取控制（RBAC）角色。
+2.  使用**Update-csadminrole** cmdlet 來更新儲存在中央管理伺服器的角色型存取控制 (RBAC) 角色。
     
     <div>
     
 
     > [!NOTE]  
-    > 除非出現錯誤，否則不會出現任何輸出。
+    > 除非發生錯誤，被不預期任何輸出。
 
     
     </div>

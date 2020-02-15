@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：設定語音信箱轉義
+title: Lync Server 2013： 設定語音信箱逸出
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733761
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c32d3bbc39d8f18e30153193c1e722db1ec9d50e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 131b36b87a3d930662cdd863dd4ebc1d0d69163e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734433"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029946"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-voice-mail-escape-in-lync-server-2013"></a>在 Lync Server 2013 中設定語音信箱轉義
+# <a name="configuring-voice-mail-escape-in-lync-server-2013"></a>在 Lync Server 2013 中設定語音信箱逸出
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41734433"
 
 <span> </span>
 
-_**主題上次修改日期：** 2013-02-22_
+_**上次修改主題：** 2013年-02-22_
 
-當使用者設定同時撥打至行動電話時，如果行動電話關閉、不使用電池電源或超出範圍，通常會將呼叫者路由到使用者的個人語音信箱。 使用 Lync Server 2013，使用者可以選擇要將商務相關通話路由至其公司語音信箱系統。 具體來說，您可以設定計時器，並在已定義的時間範圍內，由承運人的語音信箱來應答通話，Lync Server 會中斷與載波語音信箱系統（與使用者的個人語音信箱）的連線，而使用者的剩餘公司系統中的端點持續撥打。 如此一來，來電者就會自動路由到使用者的公司語音信箱。
+當使用者設定行動電話同時響鈴時，來電者將通常會路由傳送至使用者的個人語音信箱如果行動電話已關機、 電池電力耗盡或超出範圍。 與 Lync Server 2013 中，使用者可以選擇將業務相關的通話路由傳送至其公司的語音信箱系統。 具體而言，可以設定計時器，而且如果所定義的時間範圍內的電信業者的語音信箱接聽電話，Lync Server 會從電信業者的語音郵件系統 （和使用者的個人語音信箱），中斷時剩餘的使用者端點公司系統中的繼續執行響鈴。 如此一來，來電者會自動路由傳送至使用者的企業語音信箱。
 
-此設定是在語音原則層級使用 Lync Server Management Shell Cmdlet （ **CsVoicePolicy**）執行，並使用下列參數。
+此設定是在語音原則層級，使用下列參數使用 Lync Server 管理命令介面 cmdlet **Set-csvoicepolicy**，在執行。
 
 <div>
 
-## <a name="to-configure-voice-mail-escape"></a>若要設定語音信箱轉義
+## <a name="to-configure-voice-mail-escape"></a>若要設定語音信箱逸出
 
-1.  啟動 Lync Server 管理命令介面：按一下 [**開始**]，按一下 [**所有程式**]，按一下 [ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
+1.  啟動 Lync Server 管理命令介面： 按一下 [**開始]**，按一下 [**所有程式]**、 [ **Microsoft Lync Server 2013**]，然後按一下**Lync Server 管理命令介面**。
 
-2.  指定下列參數來**設定-CsVoicePolicy**：
+2.  指定要**Set-csvoicepolicy**的下列參數：
     
-      - **EnableVoicemailEscapeTimer** -啟用或停用轉義計時器。
+      - **EnableVoicemailEscapeTimer** -啟用或停用逸出計時器。
     
-      - **PSTNVoicemailEscapeTimer** -指定超時值（以毫秒為單位）。 預設值為1500毫秒，值的範圍可以是0毫秒到8000毫秒。
+      - **PSTNVoicemailEscapeTimer** -以毫秒為單位指定的逾時值。 預設值為 1500年毫秒，且值可介於 0 毫秒到 8000 （毫秒）。
 
 </div>
 
@@ -70,7 +70,7 @@ _**主題上次修改日期：** 2013-02-22_
 ## <a name="see-also"></a>請參閱
 
 
-[在 Lync Server 2013 中設定用於授權撥號功能和權限的語音原則和 PSTN 使用方式記錄](lync-server-2013-configuring-voice-policies-and-pstn-usage-records-to-authorize-calling-features-and-privileges.md)  
+[設定語音原則和 PSTN 使用方式記錄，以授權撥號功能及 Lync Server 2013 中的權限](lync-server-2013-configuring-voice-policies-and-pstn-usage-records-to-authorize-calling-features-and-privileges.md)  
   
 
 </div>

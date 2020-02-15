@@ -1,5 +1,5 @@
 ---
-title: DNS 摘要-可擴展的訊息和目前狀態通訊協定（XMPP）同盟
+title: DNS 摘要-可延伸訊息與顯示狀態通訊協定 (XMPP) 同盟
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49105655
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 941996ea1167cf9baeee05567a00c71ea5ed4baa
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6e9aa17374de29c2b7f1f144b45322d075164ab4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737223"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029554"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="dns-summary---extensible-messaging-and-presence-protocol-xmpp-federation-in-lync-server-2013"></a>在 Lync Server 2013 中的 DNS 摘要-可擴展的訊息和目前狀態通訊協定（XMPP）同盟
+# <a name="dns-summary---extensible-messaging-and-presence-protocol-xmpp-federation-in-lync-server-2013"></a>DNS 摘要-可延伸訊息與顯示狀態通訊協定 (XMPP) 同盟 Lync Server 2013 中
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41737223"
 
 <span> </span>
 
-_**主題上次修改日期：** 2014-04-08_
+_**上次修改主題：** 2014年-04-08_
 
-若要為您的部署設定可擴展的訊息和目前狀態通訊協定（XMPP），您可以在外部 DNS 伺服器中建立兩個網域名稱系統（DNS）記錄，將記錄解析成 Edge 伺服器或 Edge 池的存取邊緣服務。
+若要設定可延伸訊息和顯示狀態通訊協定 (XMPP) 部署，您可以建立兩個網域名稱系統 (DNS) 記錄會將記錄解析至 Edge Server 或 Edge 集區的 [Access Edge service 的外部 DNS 伺服器中。
 
 <div>
 
-## <a name="dns-summary-for-extensible-messaging-and-presence-protocol"></a>可擴展訊息和目前狀態通訊協定的 DNS 摘要
+## <a name="dns-summary-for-extensible-messaging-and-presence-protocol"></a>可延伸訊息和目前狀態通訊協定的 DNS 摘要
 
 
 <table>
@@ -53,24 +53,24 @@ _**主題上次修改日期：** 2014-04-08_
 </colgroup>
 <thead>
 <tr class="header">
-<th>位置/類型/埠</th>
-<th>稱</th>
+<th>位置/類型/連接埠</th>
+<th>FQDN</th>
 <th>IP 位址/FQDN 主機記錄</th>
-<th>地圖/批註</th>
+<th>對應至/註解</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>外部 DNS/SRV/5269</p></td>
-<td><p>_xmpp-_tcp. .com</p></td>
+<td><p>_xmpp server._tcp.contoso.com</p></td>
 <td><p>xmpp.contoso.com</p></td>
-<td><p>XMPP [存取邊緣服務] 或 [Edge] 池中的 [proxy 外部介面]。在已啟用 Lync 功能的使用者中，針對所有內部 SIP 網域重複上述步驟，可透過全域原則、使用者所處的網站原則，或套用使用者原則來設定外部存取原則。啟用 Lync 的使用者。 您也必須在 XMPP 聯盟夥伴原則中設定允許的 XMPP 網域。 如需其他詳細資料，請參閱另<strong>請</strong>參閱中的主題</p></td>
+<td><p>XMPP proxy 外部介面的 Access Edge 服務或 Edge 集區。視您的 Lync 所有內部 SIP 網域重複啟用與 XMPP 連絡人的連絡人允許透過全域原則、 使用者所在的網站原則或使用者原則套用到的外部存取原則設定的位置的使用者啟用 Lync 功能的使用者。 允許的 XMPP 網域也必須設定 XMPP 同盟協力廠商原則中。 請參閱如需詳細資訊<strong>請參閱</strong>主題</p></td>
 </tr>
 <tr class="even">
 <td><p>外部 DNS/A</p></td>
-<td><p>xmpp.contoso.com （例如）</p></td>
-<td><p>Edge 伺服器或邊緣池託管 XMPP proxy 的存取邊緣服務的 IP 位址</p></td>
-<td><p>指向託管 XMPP proxy 服務的存取邊緣服務或 Edge 池。 通常，您所建立的 SRV 記錄會指向這個主機（A 或 AAAA）記錄</p></td>
+<td><p>xmpp.contoso.com (範例)</p></td>
+<td><p>IP 位址的 Access Edge service 上您的 Edge Server 或 Edge 集區裝載 XMPP proxy</p></td>
+<td><p>指向 Access Edge service 或裝載 XMPP proxy 服務的 Edge 集區。 一般而言，您建立的 SRV 記錄會指向此主機 (A 或 AAAA) 記錄</p></td>
 </tr>
 </tbody>
 </table>
@@ -80,13 +80,13 @@ _**主題上次修改日期：** 2014-04-08_
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
-[在 Lync Server 2013 中設定 XMPP 同盟](lync-server-2013-setting-up-xmpp-federation.md)  
+[設定 Lync Server 2013 中的 XMPP 同盟](lync-server-2013-setting-up-xmpp-federation.md)  
 
 
-[針對 Lync Server 2013 判定 DNS 需求](lync-server-2013-determine-dns-requirements.md)  
+[決定針對 Lync Server 2013 的 DNS 需求](lync-server-2013-determine-dns-requirements.md)  
   
 
 </div>

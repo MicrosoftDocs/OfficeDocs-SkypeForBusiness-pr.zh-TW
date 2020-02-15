@@ -12,16 +12,16 @@ ms:contentKeyID: 49733599
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0aa0b83e2e206421300d16faf220b3fa0bb81503
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 31a6036421dd84f466df0f2353b6d5264e0680c2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762921"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029104"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41762921"
 
 <span> </span>
 
-_**主題上次修改日期：** 2013-02-22_
+_**上次修改主題：** 2013年-02-22_
 
-當使用者帳戶從 Lync Server 2010 移至 Lync Server 2013 伺服器時，下列資訊會與該使用者帳戶一起移動：
+當使用者帳戶從 Lync Server 2010 移至 Lync Server 2013 的伺服器時，與該使用者帳戶移下列資訊：
 
-  - **已由使用者排程的會議**。 這包括移動會議目錄及會議資料。
+  - **使用者已排定的會議**。包含移動會議目錄及會議資料。
 
-  - **使用者的個人身分識別號碼（PIN）**。 使用者目前的 PIN 會持續起作用，直到過期為止，或使用者要求新的 PIN。
+  - **使用者的個人識別碼 (PIN)**。直到過期或使用者要求新 PIN 前，使用者目前的 PIN 都持續有效。
 
-下列使用者帳戶資訊不會移至新的伺服器。
+下列使用者帳戶資訊不會移到新的伺服器。
 
-  - **會議內容**。 若要移動在會議期間共用的內容（例如 PowerPoint、白板、附件或投票資料），請使用 **-MoveConferenceData**參數做為**move-csuser** Cmdlet 的一部分。
+  - **會議內容**。若要移動會議期間分享的內容。例如 PowerPoint、白板、附件或投票資料，請在 **Move-CsUser** Cmdlet 中使用 **-MoveConferenceData** 參數。
 
 </div>
 

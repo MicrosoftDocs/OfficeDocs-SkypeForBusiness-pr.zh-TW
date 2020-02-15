@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013 具有新角色型存取控制功能
+title: Lync Server 2013 有新的角色型存取控制功能
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183616
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3dbabc4ca6a471924c6ac76346ad7d59442690db
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0923cdeecd1109e7d900ce0e3d2b947b328ee5a9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727793"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030286"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="new-role-based-access-control-features-in-lync-server-2013"></a>Lync Server 2013 中的新角色型存取控制功能
+# <a name="new-role-based-access-control-features-in-lync-server-2013"></a>新的角色型存取控制功能，在 [Lync Server 2013
 
 </div>
 
@@ -35,22 +35,22 @@ ms.locfileid: "41727793"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-09-20_
+_**主題上次修改日期：** 2012年-09-20 個_
 
-Lync Server 2013 以兩種主要方式來增強以角色為基礎的存取控制（RBAC）功能。 您現在可以建立自訂角色，每個角色只擁有一組您指定的一組 Cmdlet 的許可權。 您也可以為這些自訂角色提供執行 Cmdlet 腳本的特權。
+Lync Server 2013，以增強兩種主要的方式的角色型存取控制 (RBAC) 功能。 您現在可以建立自訂角色，讓每個具有只有一組您指定的指令程式的權限。 這些自訂角色可以也提供的權限來執行指令碼指令程式。
 
-此外，Lync Server 2013 包含兩個新的預先定義角色。
+此外，Lync Server 2013 包含兩個新的預先定義的角色。
 
-  - 擁有 [*回應] 群組管理員*角色的使用者可以管理組織中的特定回應群組佇列，但不一定要有其他佇列或回應群組應用程式的管理許可權。
+  - 具備「回應群組管理員」** 角色的使用者可以管理組織中特定的回應群組佇列，但他們卻不一定要擁有其他佇列或完整回應群組應用程式的管理權限。
 
-  - 擁有*持續聊天管理員*角色的使用者可以管理組織中的特定持續聊天室，但不一定要有其他聊天室的管理權利或整體的 [永久聊天] 功能。
+  - 指定*常設聊天室管理員*」 角色的使用者可以管理組織中的特定常設聊天室聊天室，但是不一定要擁有其他聊天室或整體 [常設聊天室] 功能的管理權限。
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
-[在 Lync Server 2013 中規劃角色型存取控制](lync-server-2013-planning-for-role-based-access-control.md)  
+[規劃 Lync Server 2013 中角色型存取控制](lync-server-2013-planning-for-role-based-access-control.md)  
   
 
 </div>

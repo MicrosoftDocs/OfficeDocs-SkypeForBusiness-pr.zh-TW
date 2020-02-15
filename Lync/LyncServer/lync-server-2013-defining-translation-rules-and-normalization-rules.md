@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：定義翻譯規則與正常化規則
+title: Lync Server 2013： 定義轉譯規則與正規化規則
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733763
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d91415e467bfdb070d76415e47aaa59d0fab3be9
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1ff8d054096f3c5d6d8293affc4dc9c1b6490e2c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728303"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029654"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="defining-translation-rules-and-normalization-rules-in-lync-server-2013"></a>在 Lync Server 2013 中定義翻譯規則與正常化規則
+# <a name="defining-translation-rules-and-normalization-rules-in-lync-server-2013"></a>定義 [Lync Server 2013 中的 [轉譯規則與正規化規則
 
 </div>
 
@@ -35,26 +35,26 @@ ms.locfileid: "41728303"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-18_
+_**主題上次修改日期：** 2012年-10-18_
 
-使用區段中的主題，瞭解如何設定 Lync Server 2013 的 Trunks。
+若要了解如何設定主幹 Lync Server 2013 中使用 [] 區段中的主題。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [在 Lync Server 2013 中定義轉譯規則](lync-server-2013-defining-translation-rules.md)
+  - [定義 Lync Server 2013 中的 [轉譯規則](lync-server-2013-defining-translation-rules.md)
 
-  - [在 Lync Server 2013 中定義正規化規則](lync-server-2013-defining-normalization-rules.md)
+  - [Lync Server 2013 中的定義正規化規則](lync-server-2013-defining-normalization-rules.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
-[在 Lync Server 2013 中管理語音路由](lync-server-2013-managing-voice-routing.md)  
+[管理 Lync Server 2013 中的語音路由](lync-server-2013-managing-voice-routing.md)  
   
 
 </div>

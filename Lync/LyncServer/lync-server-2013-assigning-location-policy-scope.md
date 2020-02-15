@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：指派位置原則範圍
+title: Lync Server 2013： 指派位置原則範圍
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185734
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 395b8a4271338231b4c2c1927f7e40fb21a1cb14
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 69218c3f5399b62fc67fe0d538a98f1bdadd3cf4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734023"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030046"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="assigning-location-policy-scope-in-lync-server-2013"></a>在 Lync Server 2013 中指派位置原則範圍
+# <a name="assigning-location-policy-scope-in-lync-server-2013"></a>指派 Lync Server 2013 中的位置原則範圍
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41734023"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-06-06_
+_**主題上次修改日期：** 2012年-06-06_
 
-與其他 Lync 伺服器原則一樣，位置原則可以在多個範圍層級指派：全域、網站和使用者。 不過，使用者層級位置原則的運作方式比其他 Lync 伺服器原則稍有不同。 您不僅可以將每個使用者的位置原則套用到端點物件（例如使用者和常見的區域電話連絡人物件），也可以將它們套用至 Lync Server network 網站。 網路網站是與地理位置相關聯的用戶端子網群組（但不一定是整個中央網站或分支網站中的所有子網）。 連接至網路網站中子網的任何用戶端，都會自動挑選指派給該網路網站的位置原則。 在使用者層級位置原則指派給使用者和網路網站的情況下，網路網站的位置原則會覆寫任何每個使用者的原則設定。
+為以其他 Lync Server 的原則，可以位置原則指派多個範圍層級： 全域、 網站及使用者。 不過，使用者層級位置原則範圍行為與其他 Lync Server 原則元方式不同。 不僅可以個別使用者位置原則套用至端點物件 （例如使用者和一般區域電話連絡人物件），它們也可以套用至 Lync Server 的網路網站。 網路網站相關聯的地理位置的子網路會分組的用戶端 （但不是一定是在整個中央站台或分支網站中的所有子網路）。 自動連線至網路網站中的子網路的任何用戶端中挑選指派給該網路站台的位置原則。 在使用者層級位置原則指派給使用者與網路網站的情況下，網路網站為基礎的位置原則會覆寫任何個別使用者原則設定。
 
-每個網路網站都有一個指派的位置原則，而每個原則都有不同的 PSTN 用法、通知 Uri 以及指派給它的會議 Uri 值。
+各網站皆位置原則指派給它，而每個原則會有不同的 PSTN 使用方式、 通知 Uri、 以及會議 Uri 值指派給它。
 
 <div>
 
 
 > [!NOTE]  
-> 這個特殊原則範圍行為的原因是，當使用者位於某個 office 網站上的某個召集人造訪另一個網站，而且必須撥打電話時，無論該網路網站是哪個池或網站，都不需要使用 E9-1-1 呼叫路由設定ser 指派給您。
+> 此特殊原則範圍行為是，這樣當使用者某一集區在某辦公室網站瀏覽其他網站且需撥打緊急電話，E9-1-1 通話路由設定適用於該網路站台的原因會套用不論何種集區或網站 user 為指派給。
 
 
 

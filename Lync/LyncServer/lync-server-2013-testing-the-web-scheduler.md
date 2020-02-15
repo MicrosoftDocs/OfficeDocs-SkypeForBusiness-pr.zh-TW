@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：測試網頁排程程式
+title: Lync Server 2013： 測試 Web 排程器
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969603
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 65d7dc70bad90dc4e4c94e2db273f44ed20c50ce
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8bc3d93e1e4a08575119031471863dad817f3e80
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745413"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42031167"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="testing-the-web-scheduler-in-lync-server-2013"></a>在 Lync Server 2013 中測試網頁排程程式
+# <a name="testing-the-web-scheduler-in-lync-server-2013"></a>在 Lync Server 2013 中進行測試 Web 排程器
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41745413"
 
 <span> </span>
 
-_**主題上次修改日期：** 2014-11-03_
+_**上次修改主題：** 2014年-11-03_
 
 
 <table>
@@ -46,16 +46,16 @@ _**主題上次修改日期：** 2014-11-03_
 <tbody>
 <tr class="odd">
 <td><p>驗證排程</p></td>
-<td><p>日常</p></td>
+<td><p>每日</p></td>
 </tr>
 <tr class="even">
-<td><p>測試控管</p></td>
+<td><p>測試工具</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>需要許可權</p></td>
-<td><p>使用 Lync Server 管理命令介面在本機執行時，使用者必須是 RTCUniversalServerAdmins 安全性群組的成員。</p>
-<p>使用 Windows PowerShell 的遠端實例執行時，必須為使用者指派具有執行<strong>CsWebScheduler</strong> Cmdlet 許可權的 RBAC 角色。 若要查看可以使用此 Cmdlet 的所有 RBAC 角色清單，請從 Windows PowerShell 提示執行下列命令：</p>
+<td><p>必要的權限</p></td>
+<td><p>當執行在本機上使用 Lync Server 管理命令介面，使用者必須是 RTCUniversalServerAdmins 安全性群組的成員。</p>
+<p>當執行使用 Windows PowerShell 的遠端執行個體時，使用者必須被指派具有執行<strong>Test-cswebscheduler</strong> cmdlet 的權限的 RBAC 角色。 若要查看可以使用此 cmdlet 的所有 RBAC 角色的清單，請在 Windows PowerShell 命令提示執行下列命令：</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsWebScheduler&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -64,19 +64,19 @@ _**主題上次修改日期：** 2014-11-03_
 
 <div>
 
-## <a name="description"></a>說明
+## <a name="description"></a>描述
 
-**Test CsWebScheduler** Cmdlet 可讓您判斷特定使用者是否可以使用 Web 排程器來排程會議。 Web 排程器可讓未執行 Outlook 的使用者排程線上會議。 在其他專案中，這項新功能（包含在 Microsoft Lync Server 2010 資源套件隨附的網頁排程工具中找到的功能）可讓使用者：
+**Test-cswebscheduler** cmdlet 可讓您判斷特定的使用者是否可以排程會議使用 Web 排程器。 Web 排程器可讓使用者不執行 Outlook 重新排程線上會議。 除此之外，這項新功能 （，並包含 Web Scheduler 工具所隨附的 Microsoft Lync Server 2010 resource kit 中找到的功能） 可讓使用者：
 
   - 排程新的線上會議。
 
-  - 列出他或她排程的所有會議。
+  - 列出自己所排程的所有會議。
 
-  - [查看] 或 [修改現有的會議]。
+  - 檢視/修改現有的會議。
 
   - 刪除現有的會議。
 
-  - 使用預先設定的 SMTP 郵件伺服器傳送電子郵件邀請給會議參與者。
+  - 使用預先設定的 SMTP 郵件伺服器，傳送電子郵件邀請給會議參與者。
 
   - 加入現有的會議。
 
@@ -86,15 +86,15 @@ _**主題上次修改日期：** 2014-11-03_
 
 ## <a name="running-the-test"></a>執行測試
 
-下列範例會驗證 [pool atl-cs-001.litwareinc.com] 的網頁排程程式。 只有針對 [pool atl-cs-001.litwareinc.com] 定義測試使用者時，才能使用此命令。 如果有的話，命令會判斷第一個測試使用者是否可以使用 Web 排程器來排程線上會議。
+下列範例會驗證的 Web 排程器集區 atl-cs-001.litwareinc.com。 這個命令將會執行只有當測試使用者所定義的集區 atl-cs-001.litwareinc.com。 如果他們有命令將會判斷第一個測試使用者是否可以排程線上會議使用 Web 排程器。
 
-如果沒有定義測試使用者，命令將會失敗，因為它不會知道哪個使用者登入。 如果您沒有為某個池定義測試使用者，則您必須加入 UserSipAddress 參數，以及嘗試登入時該命令應該使用的使用者認證。
+如果沒有定義的測試使用者，然後將會失敗命令，因為它不會知道哪些使用者身分登入。 如果您還沒有定義的集區的測試使用者，就必須納入 UserSipAddress 參數，此命令應使用時，嘗試登入使用者的認證。
 
     Test-CsWebScheduler -TargetFqdn "atl-cs-001.litwareinc.com"
 
-下一個範例中所示的命令會測試特定使用者（litwareinc\\kenmeyer）的功能，以使用 Web 排程器來排程線上會議。 若要這樣做，範例中的第一個命令會使用 [**取得認證**Cmdlet] 來建立 Windows PowerShell 命令列介面身分憑證物件，其中包含使用者 Ken Meyer 的名稱和密碼。 （因為登入名稱 litwareinc\\kenmeyer 是以參數的形式提供，所以 [Windows PowerShell 認證要求] 對話方塊只需要系統管理員輸入 Ken Meyer 帳戶的密碼。）接著會將產生的認證物件儲存在名為 $cred 1 的變數中。
+下一個範例所示的命令會測試特定使用者的能力 (litwareinc\\kenmeyer) 排程線上會議使用 Web 排程器。 若要這麼做，在範例中的第一個命令會使用**Get-credential**指令程式來建立 Windows PowerShell 命令列介面認證物件，其中包含的名稱和密碼的使用者 Ken Meyer。 (因為登入名稱 litwareinc\\kenmeyer 是包含做為參數，[Windows PowerShell 認證要求] 對話方塊只需要系統管理員輸入 Ken Meyer 帳戶的密碼。)產生的認證物件然後儲存在名為 $cred1 變數。
 
-然後，第二個命令會檢查此使用者是否可以登入 [pool atl-cs-001.litwareinc.com]，並排程線上會議。 若要執行這項工作，請使用三個參數： TargetFqdn （註冊機構池的 FQDN）來呼叫**CsWebScheduler** Cmdlet;UserCredential （包含 Pilar 方使用者認證的 Windows PowerShell 物件）;與 UserSipAddress （與提供的使用者認證相對應的 SIP 位址）。
+此使用者是否可以登入集區 atl-cs-001.litwareinc.com 及排程線上會議，然後會檢查第二個命令。 若要執行這項工作， **Test-cswebscheduler** cmdlet 會呼叫，以及三個參數： TargetFqdn (之登錄器集區 FQDN);UserCredential （包含為 Pilar Ackerman 的使用者認證的 Windows PowerShell 物件）;和 UserSipAddress （會對應至提供的使用者認證的 SIP 位址）。
 
     $credential = Get-Credential "litwareinc\kenmyer"
     
@@ -104,70 +104,70 @@ _**主題上次修改日期：** 2014-11-03_
 
 <div>
 
-## <a name="determining-success-or-failure"></a>判斷成功或失敗
+## <a name="determining-success-or-failure"></a>決定成功或失敗
 
-如果網頁排程器設定正確，您將會收到類似以下的輸出，結果屬性標示為**成功**：
+如果 web 排程器已正確設定，您會收到類似，具有標示為 [**成功**結果屬性的輸出：
 
-目標 Fqdn： atl-cs-001.litwareinc.com
+目標 Fqdn: atl-cs-001.litwareinc.com
 
-目標 Uri： HTTPs://atl-cs-001.litwareinc.com。
+目標 Uri: https:// atl-cs-001.litwareinc.com。
 
 litwareinc.com:443/Scheduler
 
-結果：成功
+結果： 成功
 
-延遲：00:00:00
+延遲： 00:00:00
 
 錯誤訊息：
 
-自檢
+診斷：
 
-如果未正確設定 web 排程器，結果將會顯示為**失敗**，而其他資訊將會記錄在錯誤與診斷屬性中：
+如果未正確地設定 web 排程器，結果會顯示為**失敗**，及其他資訊會記錄在 [錯誤] 和 [診斷屬性：
 
-警告：無法讀取指定之完全限定的註冊機構埠號碼
+警告： 無法讀取登錄器的連接埠號碼指定完整
 
-網功能變數名稱稱（FQDN）。 使用預設的註冊器埠號碼。 引發
+網域名稱 (FQDN)。 使用預設登錄器連接埠號碼。 例外狀況：
 
-InvalidOperationException：在拓撲中找不到相符的群集。
+System.InvalidOperationException： 拓撲中找不到比對叢集。
 
-的
+在
 
-TryRetri 的 SyntheticTransactions。 SipSyntheticTransaction
+Microsoft.Rtc.Management.SyntheticTransactions.SipSyntheticTransaction.TryRetri
 
-eveRegistrarPortFromTopology （Int32& registrarPortNumber）
+eveRegistrarPortFromTopology (Int32& registrarPortNumber)
 
-目標 Fqdn： atl-cs-001.litwareinc.com
+目標 Fqdn: atl-cs-001.litwareinc.com
 
-目標 Uri：
+目標 Uri:
 
-結果：失敗
+結果： 失敗
 
-延遲：00:00:00
+延遲： 00:00:00
 
-錯誤訊息：在拓撲中找不到相符的群集。
+錯誤訊息： 在拓撲中找到不到相符叢集。
 
-自檢
-
-</div>
-
-<div>
-
-## <a name="reasons-why-the-test-might-have-failed"></a>測試可能失敗的原因
-
-以下是**測試 CsWebScheduler**可能失敗的一些常見原因：
-
-  - 提供不正確的參數值。 如果使用，必須正確設定選用的參數，否則測試將會失敗。 重新執行不含選用參數的命令，並查看是否成功。
-
-  - 如果網頁排程程式未正確設定或尚未部署，此命令就會失敗。
+診斷：
 
 </div>
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="reasons-why-the-test-might-have-failed"></a>測試可能有為何失敗的原因
+
+以下是一些常見的原因為何**Test-cswebscheduler**可能會失敗：
+
+  - 提供不正確的參數值。 如果使用，必須正確設定選用的參數或測試將會失敗。 重新執行此命令不含選擇性參數，並查看是否成功。
+
+  - 如果設定錯誤或尚未部署 Web Scheduler，此命令會失敗。
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>另請參閱
 
 
-[Set-CsWebServer](https://docs.microsoft.com/powershell/module/skype/Set-CsWebServer)  
+[Set-cswebserver](https://docs.microsoft.com/powershell/module/skype/Set-CsWebServer)  
   
 
 </div>

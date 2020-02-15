@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：部署會議
+title: Lync Server 2013： 部署會議
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733728
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a81b46d7bbc3c0652d2352577c11877c44b36608
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3b3ea06d440f8255b9bd2234966733d990fa3040
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729453"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42013466"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploying-conferencing-in-lync-server-2013"></a>在 Lync Server 2013 中部署會議
+# <a name="deploying-conferencing-in-lync-server-2013"></a>部署 Lync Server 2013 中的會議
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41729453"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-09-27_
+_**主題上次修改日期：** 2012 年 09 月 27 日_
 
-本節說明如何設定電話撥入式會議與 Office Web Apps 伺服器。
+本節說明如何設定撥入會議和 Office Web Apps Server。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [在 Lync Server 2013 中設定撥入會議](lync-server-2013-configuring-dial-in-conferencing.md)
+  - [在 Lync Server 2013 中設定電話撥入式會議](lync-server-2013-configuring-dial-in-conferencing.md)
 
-  - [設定 Office Web Apps Server 與 Lync Server 2013 的整合](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md)
+  - [設定與 Office Web Apps Server 及 Lync Server 2013 整合](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md)
 
-  - [在 Lync Server 2013 中設定會議加入頁面](lync-server-2013-configuring-the-meeting-join-page.md)
+  - [Lync Server 2013 中設定會議加入頁面](lync-server-2013-configuring-the-meeting-join-page.md)
 
 </div>
 

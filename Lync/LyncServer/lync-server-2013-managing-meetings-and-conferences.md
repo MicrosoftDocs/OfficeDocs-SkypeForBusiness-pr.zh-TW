@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：管理會議
+title: Lync Server 2013： 管理會議
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184755
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 23a3b907702cda1ae3f528da8890256dd0facce1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3f9da919b539ce80303889069379aea9abc89e80
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762061"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033722"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-meetings-and-conferences-in-lync-server-2013"></a>在 Lync Server 2013 中管理會議
+# <a name="managing-meetings-and-conferences-in-lync-server-2013"></a>管理 Lync Server 2013 中的會議
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41762061"
 
 <span> </span>
 
-_**主題上次修改日期：** 2013-08-09_
+_**上次修改主題：** 2013年-08-09_
 
-本節中的主題提供您可以使用 [Lync Server 控制台] 中的 [**會議**] 群組中的頁面來執行之工作的逐步程式。
+本節中的主題提供逐步程序，您可以使用 Lync Server 控制台的 [**會議**] 群組中的頁面執行的工作。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [Lync Server 2013 中的會議配置設定](lync-server-2013-meeting-configuration-settings.md)
+  - [Lync Server 2013 中的會議組態設定](lync-server-2013-meeting-configuration-settings.md)
 
   - [Lync Server 2013 中的會議原則](lync-server-2013-conferencing-policies.md)
 
-  - [Lync Server 2013 中的電話撥入式會議（設定/存取號碼）](lync-server-2013-dial-in-conferencing-configuration-access-numbers.md)
+  - [在 [Lync Server 2013 （設定/存取號碼） 的電話撥入式會議](lync-server-2013-dial-in-conferencing-configuration-access-numbers.md)
 
-  - [在啟用 Lync 的電話和 Lync Server 2013 上使用 [呼叫我]](lync-server-2013-using-call-me-at-with-a-lync-enabled-phone.md)
+  - [呼叫我在使用已啟用 Lync 的電話與 Lync Server 2013](lync-server-2013-using-call-me-at-with-a-lync-enabled-phone.md)
 
 </div>
 

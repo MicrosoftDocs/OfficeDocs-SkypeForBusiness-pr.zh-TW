@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：適用于會議的位置路由
+title: 電話撥入會議的 [Lync Server 2013： 位置型路由
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 56335087
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dffc6ee9beaabc4705ac47e643a3fb19e589a745
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ec3268109b522a96e5593f6e0246ee7b36651c06
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762161"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033382"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="location-based-routing-for-conferencing-in-lync-server-2013"></a>Lync Server 2013 中以位置為基礎的會議路由
+# <a name="location-based-routing-for-conferencing-in-lync-server-2013"></a>Lync Server 2013 中的會議位置型路由
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41762161"
 
 <span> </span>
 
-_**主題上次修改日期：** 2013-07-31_
+_**上次修改主題：** 2013年-07-31_
 
-以位置為基礎的路由可以根據通話中各方的位置，限制 VoIP 端點與 PSTN 端點之間的通話路由。 有了 Lync Server 2013 的累積更新2，就可以在 Lync 會議（亦即會議）上強制執行位置路由規則，以避免 PSTN 免付費旁路。 應用程式會監視作用中的會議，並根據參與的使用者位置強制執行以位置為基礎的路由限制。 以位置為基礎的路由會議應用程式可讓您將以位置為基礎的路由限制實施到涉及 PSTN 端點的顧問式轉移。
+位置型的路由可讓您可以限制的 VoIP 端點與位置的呼叫方為基礎的 PSTN 端點之間的通話路由傳送。 與累計更新 2 的 Lync Server 2013 中，您可以強制執行位置型的路由規則在 Lync 會議 （亦即會議） 來防止 PSTN 的免付費電話略過。 應用程式監視作用中的會議，並強制執行的位置型路由限制根據使用者參與的位置。 位置型路由會議應用程式此外啟用位置型路由限制諮詢轉接涉及 PSTN 端點的強制執行。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [在 Lync Server 2013 中針對會議位置路由的概覽](lync-server-2013-overview-of-location-based-routing-for-conferencing.md)
+  - [Lync Server 2013 中的會議位置型路由的概觀](lync-server-2013-overview-of-location-based-routing-for-conferencing.md)
 
-  - [Lync Server 2013 中的位置路由與諮詢式來電轉接](lync-server-2013-location-based-routing-and-consultative-call-transfers.md)
+  - [位置型路由及 Lync Server 2013 中的諮詢轉接](lync-server-2013-location-based-routing-and-consultative-call-transfers.md)
 
-  - [Lync Server 2013 中針對位置路由的會議需求](lync-server-2013-requirements-for-location-based-routing-for-conferencing.md)
+  - [Lync Server 2013 中的會議位置型路由的需求](lync-server-2013-requirements-for-location-based-routing-for-conferencing.md)
 
-  - [Lync Server 2013 中以位置為基礎的路由會議設定](lync-server-2013-configuration-of-location-based-routing-for-conferencing.md)
+  - [Lync Server 2013 中的會議位置型路由的組態](lync-server-2013-configuration-of-location-based-routing-for-conferencing.md)
 
 </div>
 

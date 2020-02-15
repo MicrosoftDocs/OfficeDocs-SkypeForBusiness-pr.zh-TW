@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：將群組呼叫挑選號碼指派給使用者
+title: Lync Server 2013： 指派群組通話收取號碼給使用者
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541508
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e65eef9fcf425ad8ea9f36dc57899bb6af924bf5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5a27746909a5a4baa5ea6c3c6d050393e66dab05
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734053"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030076"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="assign-group-call-pickup-numbers-to-users-in-lync-server-2013"></a>在 Lync Server 2013 中將群組呼叫挑選號碼指派給使用者
+# <a name="assign-group-call-pickup-numbers-to-users-in-lync-server-2013"></a>Lync Server 2013 中的使用者指派群組通話收取號碼
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41734053"
 
 <span> </span>
 
-_**主題上次修改日期：** 2013-01-30_
+_**上次修改主題：** 2013年-01-30_
 
-在您將群組呼叫挑選群組編號新增至 [通話駐留軌道] 表格之後，您就可以將群組指派給使用者。 使用次要延伸功能啟用（SEFAUtil）資源套件工具，將呼叫挑選群組指派給使用者。
+您將群組來電接聽群組號碼新增至通話駐留軌道表之後，您可以將群組指派給使用者。 若要將通話收取群組指派給使用者使用次要分機功能啟用 (SEFAUtil) 資源套件工具。
 
 <div>
 
 
 > [!NOTE]  
-> 在混合式部署中，請勿將群組呼叫挑選群組指派給駐留在線上的使用者。 以線上為宿主的使用者無法參與群組通話挑選。 也就是說，其他使用者無法接聽其來電，也無法將來電應答給其他使用者。
+> 在混合式部署中，沒有指派群組來電接聽群組位於線上的使用者。 位於線上的使用者無法參與群組來電接聽。 亦即其通話無法由其他使用者接聽，他們無法接聽來電給其他使用者。
 
 
 
@@ -51,11 +51,11 @@ _**主題上次修改日期：** 2013-01-30_
 
 <div>
 
-## <a name="to-assign-a-group-call-pickup-group-to-a-user"></a>將 [群組呼叫] 群組指派給使用者
+## <a name="to-assign-a-group-call-pickup-group-to-a-user"></a>若要將群組來電接聽群組指派給使用者
 
-1.  以系統管理員許可權登入您安裝 SEFAUtil 工具的電腦。
+1.  登入系統管理員權限安裝 SEFAUtil 工具所在的電腦。
 
-2.  在命令列上執行：
+2.  在命令列中執行：
     
         SEFAUtil.exe sip:<sip address of user> /server:<pool FQDN> /enablegrouppickup:<group number>
     
@@ -70,8 +70,8 @@ _**主題上次修改日期：** 2013-01-30_
 ## <a name="see-also"></a>請參閱
 
 
-[在 Lync Server 2013 中為使用者啟用群組呼叫挑選](lync-server-2013-enable-group-call-pickup-for-users.md)  
-[停用 Lync Server 2013 中的使用者的群組呼叫分揀](lync-server-2013-disable-group-call-pickup-for-users.md)  
+[為 Lync Server 2013 中的使用者啟用群組來電接聽](lync-server-2013-enable-group-call-pickup-for-users.md)  
+[為 Lync Server 2013 中的使用者停用群組來電接聽](lync-server-2013-disable-group-call-pickup-for-users.md)  
   
 
 </div>

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：操作和維護常設聊天室系統
+title: Lync Server 2013： 操作及維護常設聊天室系統
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184701
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a90b1416f617dd687bcfff10a925bfe809d18f7d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1ce455f32181ee604c84a6ec0c2e9a1de74aac5a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755817"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034083"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="operating-and-maintaining-the-persistent-chat-system-in-lync-server-2013"></a>在 Lync Server 2013 中操作和維護常設聊天室系統
+# <a name="operating-and-maintaining-the-persistent-chat-system-in-lync-server-2013"></a>操作及維護 Lync Server 2013 常設聊天室系統
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41755817"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-11-01_
+_**主題上次修改日期：** 2012年-11-01_
 
-下列主題說明如何維護執行持續聊天伺服器的電腦，以及如何管理持續聊天伺服器作業。
+下列主題說明如何維護執行 Persistent Chat Server 的電腦，以及如何管理 Persistent Chat Server 作業。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [在 Lync Server 2013 中備份常設聊天室資料庫及規範資料庫](lync-server-2013-backing-up-the-persistent-chat-database-and-compliance-database.md)
+  - [備份常設聊天室資料庫及 Lync Server 2013 中的規範資料庫](lync-server-2013-backing-up-the-persistent-chat-database-and-compliance-database.md)
 
-  - [在 Lync Server 2013 中自訂 XSLT 定義檔案](lync-server-2013-customizing-the-xslt-definition-file.md)
+  - [自訂 Lync Server 2013 中的 XSLT 定義檔](lync-server-2013-customizing-the-xslt-definition-file.md)
 
-  - [在 Lync Server 2013 中使用自訂的持續聊天伺服器合規性配接器來取代 XmlAdapter](lync-server-2013-replacing-the-xmladapter-with-a-customized-persistent-chat-server-compliance-adapter.md)
+  - [使用 Lync Server 2013 中的自訂常設聊天室伺服器規範介面卡規範取代 XmlAdapter](lync-server-2013-replacing-the-xmladapter-with-a-customized-persistent-chat-server-compliance-adapter.md)
 
-  - [在 Lync Server 2013 中管理系統健康情況](lync-server-2013-managing-system-health.md)
+  - [管理 Lync Server 2013 中的系統健康狀況](lync-server-2013-managing-system-health.md)
 
-  - [在 Lync Server 2013 中監控、啟動和停止常設聊天室服務](lync-server-2013-monitoring-starting-and-stopping-the-persistent-chat-services.md)
+  - [監控、 啟動和停止 Lync Server 2013 中的常設聊天室服務](lync-server-2013-monitoring-starting-and-stopping-the-persistent-chat-services.md)
 
-  - [在 Lync Server 2013 中管理高可用性和災害復原](lync-server-2013-managing-high-availability-and-disaster-recovery.md)
+  - [管理 Lync Server 2013 中的高可用性和災害復原](lync-server-2013-managing-high-availability-and-disaster-recovery.md)
 
 </div>
 

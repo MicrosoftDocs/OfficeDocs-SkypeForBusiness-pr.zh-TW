@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：測試語音路由
+title: Lync Server 2013： 測試語音路由
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185444
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b27fc4f3dfc42e9187ea0aee801b3c2115d83ff0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5b45f52a07713973d8f642389513d0e34b5236de
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746033"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42018034"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="test-voice-routing-in-lync-server-2013"></a>在 Lync Server 2013 中測試語音路由
+# <a name="test-voice-routing-in-lync-server-2013"></a>測試 Lync Server 2013 中的語音路由
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41746033"
 
 <span> </span>
 
-_**主題上次修改日期：** 2013-02-24_
+_**上次修改主題：** 2013年-02-24_
 
-您可以使用 Lync Server 的 [控制台]**測試 [語音路由**] 索引標籤來設定測試案例案例。 若要定義測試案例，您可以指定撥號計畫、語音原則、PSTN 使用及語音路由，以測試指定的電話號碼。
+您可以使用 [Lync Server Control Panel**測試語音路由**] 索引標籤來設定測試案例的案例。 若要定義測試案例，您可以指定撥號對應表、 語音原則、 PSTN 使用方式，並針對其測試指定的電話號碼的語音路由。
 
-在您實際部署您的語音路由設定之前，建議您在各種電話號碼上測試，以確保結果符合您的預期。
+在實際部署語音路由設定之前，建議您先在不同的電話號碼，以確定是您所預期的結果進行測試。
 
 <div>
 
 
 > [!TIP]  
-> 您可以使用 [<STRONG>匯出測試案例</STRONG>] 和 [匯<STRONG>入測試案例</STRONG>] 命令來儲存語音路由測試案例，並將它們匯入以供在其他電腦上使用。
+> 您可以使用 [<STRONG>匯出測試案例</STRONG>，並<STRONG>匯入測試案例</STRONG>命令，以儲存語音路由測試案例，並匯入的使用在另一部電腦上。
 
 
 
@@ -55,7 +55,7 @@ _**主題上次修改日期：** 2013-02-24_
 
 
 > [!WARNING]  
-> 如果您刪除任何部分的語音路由設定，例如撥號方案、語音原則、語音路線或電話使用方式，您應該查看並更新您的語音路由測試案例。 Lync Server [控制台] 不會提醒您由於配置已變更而不再有效的測試案例。
+> 如果您刪除任何一部分語音路由設定，例如撥號對應表、 語音原則、 語音路由] 或電話使用方式，您應該檢閱並更新您的語音路由測試案例。 Lync Server 控制台不會警示您測試已不再有效，因為變更組態的情況。
 
 
 
@@ -63,13 +63,13 @@ _**主題上次修改日期：** 2013-02-24_
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
   - [在 Lync Server 2013 中建立語音路由測試案例](lync-server-2013-create-a-voice-routing-test-case.md)
 
-  - [在 Lync Server 2013 中匯出語音路由測試案例](lync-server-2013-export-voice-routing-test-cases.md)
+  - [匯出語音路由測試案例在 Lync Server 2013](lync-server-2013-export-voice-routing-test-cases.md)
 
-  - [在 Lync Server 2013 中改善語音路由測試案例](lync-server-2013-import-voice-routing-test-cases.md)
+  - [匯入 Lync Server 2013 中的語音路由測試案例](lync-server-2013-import-voice-routing-test-cases.md)
 
   - [在 Lync Server 2013 中執行語音路由測試](lync-server-2013-running-voice-routing-tests.md)
 

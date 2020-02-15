@@ -12,16 +12,16 @@ ms:contentKeyID: 48184171
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a13fdf36dcd36dc71df8ffa06c273c2b2b0f0292
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 15ee86d78b75fe1928cb92459f8689aea2f6b1b8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762931"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029114"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,29 +35,29 @@ ms.locfileid: "41762931"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-09-26_
+_**主題上次修改日期：** 2012年-09-26_
 
-遷移撥入存取號碼需要兩個步驟：執行**CsLegacyConfiguration** Cmdlet （在 [匯[入原則和設定](import-policies-and-settings.md)] 中完成），以遷移撥號方案及其他撥入存取號碼設定，並執行**移動 CsApplicationEndpoint** Cmdlet 來遷移連絡人物件。
+移轉撥入存取號碼需要兩個步驟： 執行**Import-cslegacyconfiguration** cmdlet （完成更早版本中[匯入原則及設定](import-policies-and-settings.md)） 來移轉撥號對應表和其他的撥入存取號碼設定，以及執行**Move-csapplicationendpoint** cmdlet 來移轉連絡人物件。
 
 <div>
 
-## <a name="to-migrate-dial-in-access-numbers"></a>若要遷移撥入存取號碼
+## <a name="to-migrate-dial-in-access-numbers"></a>移轉撥入存取號碼
 
-1.  開啟 Office 通訊伺服器 2007 R2 管理工具。
+1.  開啟 [Office Communications Server 2007 R2 系統管理工具]。
 
-2.  在主控台樹中，以滑鼠右鍵按一下 [林] 節點，按一下 [**屬性**]，然後按一下 [**會議助理屬性**]。
+2.  在主控台樹狀目錄中，以滑鼠右鍵按一下樹系節點，並依序按一下 **[內容]** 和 **[會議服務員內容]**。
 
-3.  在 [**存取電話號碼**] 索引標籤上，按一下 [**依資源庫提供服務**]，依相關聯的池排序存取電話號碼，並找出您要從中遷移之池的所有存取號碼。
+3.  在 **[存取電話號碼]** 索引標籤上，按一下 **[由集區服務]**，依據其相關聯的集區排序存取電話號碼，並識別所移轉之集區的所有存取號碼。
 
-4.  若要識別每個存取號碼的 SIP URI，請按兩下存取號碼以開啟 [**編輯會議助理編號**] 對話方塊，然後查看 [ **SIP URI**]。
+4.  若要識別每個存取號碼的 SIP URI，請按兩下存取號碼來開啟 **[編輯會議服務員號碼]** 對話方塊，然後查看 **[SIP URI]** 下方的內容。
 
 5.  開啟 Lync Server 管理命令介面。
 
-6.  若要將每個撥入存取號碼移至 Lync Server 2013 上託管的池，請執行：
+6.  若要將每組撥入存取號碼移至 Lync Server 2013 上裝載的集區，請執行：
     
         Move-CsApplicationEndpoint -Identity <SIP URI of the access number to be moved> -Target <FQDN of the pool to which the access number is moving>
 
-7.  在 Office 通訊伺服器 2007 R2 管理工具的 [**存取電話號碼**] 索引標籤上，確認您要從中遷移的 Office 通訊伺服器 2007 R2 池不會保留撥入存取號碼。
+7.  在 [**存取電話號碼**] 索引標籤上的 [Office Communications Server 2007 R2 系統管理工具確認無任何撥入存取號碼從中移轉您的 Office Communications Server 2007 R2 集區。
 
 </div>
 

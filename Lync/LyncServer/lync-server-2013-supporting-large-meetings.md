@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：支援大型會議
+title: Lync Server 2013： 支援大型會議
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184136
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6d2c36d99bc5af62771aabb643df1223db3a291c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 73c9a5d2ad4688f622298378c84b61574048a3b1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764299"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029754"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="supporting-large-meetings-using-lync-server-2013"></a>使用 Lync Server 2013 支援大型會議
+# <a name="supporting-large-meetings-using-lync-server-2013"></a>支援使用 Lync Server 2013 的大型會議
 
 </div>
 
@@ -35,39 +35,39 @@ ms.locfileid: "41764299"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-03_
+_**主題上次修改日期：** 2012年-10-03_
 
-大型會議不遵循上一節所述的測試模型，因為它們具有下列特性：
+大型會議因為具有下列特性，所以不適用上一節中所述的測試模型：
 
-  - 會議格式是一對多份簡報。
+  - 會議格式是一對多簡報。
 
-  - 一或幾個使用者是簡報者，而其他人則只參與為出席者。
+  - 只有一位或少數使用者是簡報者，其他人都是以出席者的身分參加會議。
 
   - PowerPoint 簡報共用是主要的資料共同作業活動。
 
-  - 音訊是必要的，也可能會使用影片。
+  - 音訊是必要的，也可以使用視訊。
 
-  - 專屬人員，通常是會議召集人或召集人的助手會提前設定會議。
+  - 代理通常是由會囈召集人或召集人的助理擔任，要在會前做好準備工作。
 
-  - 專用員工（而不是簡報者）會執行會議，包括連線至線上會議、驗證音訊、影片及投影片共用工作、管理大廳及使用者角色、靜音及 unmuting 參與者、提出問題，以及管理錄製（例如適宜.
+  - 代理 (非簡報者) 負責會議進行，包括與線上會議連線、確認音訊、視訊和投影片共用的運作、管理大廳與使用者角色、設定或取消設定參與者的靜音功能、記錄問題以及管理錄音。
 
-支援最多1000使用者的大型會議，需要解決與共享硬體模型和無保留模型相關的問題。
+支援最多 1000 位使用者的大型會議需要同時解決共用硬體模型和非保留模型的相關問題。
 
-若要在最多1000使用者的會議中擁有充足的 CPU 和記憶體資源，託管前端伺服器不應該託管任何其他的立即訊息（IM）與目前狀態或企業語音工作負載。 不論其他會議的規模為何，它也不會主持任何其他會議。 這代表將最多1000個使用者的主機託管會議，需要設定一個專用的 Lync 伺服器池，專門用來託管大型會議，最多1000個使用者。
+有足夠的 CPU 和記憶體資源的最多 1000年會議的使用者，裝載前端伺服器不應該裝載任何其他立即訊息 (IM) 和目前狀態或 Enterprise Voice 工作負載。 它也應未裝載任何其他會議，無論其他會議的大小。 這表示，主控最多 1000 位使用者的會議需要個別的 Lync Server 集區專門用來主控最多 1000 位使用者的大型會議的設定。
 
-專用來主持大型會議的 Lync Server pool 應該同時主持一或多達1000的使用者，因此必須透過不限頻帶的排程程式來預先預留會議時間，以確保從前端 Serv 的專屬支援ers. 若要同時支援多個大型會議，建議您設定多個專用大型會議池。
+專門用來主控大型會議的 Lync 伺服器集區應該裝載一個和只有一個會議最多 1000 位使用者的同時，因此會議時間一定要事先透過排程程序，以確保來自 Front End 服務的專用的支援分隔寬線的出保留電腦。 如果要同時支援多場大型會議，建議您設定多個專屬的大型會議集區。
 
-我們建議將一個專門的人員執行並監視大型會議的線上部分。 根據組織的喜好設定，此人可能是召集人、召集人或簡報者的代理人，或是專屬大型會議支援小組的成員。
+我們建議請一位代理來進行及監控大型會議的線上部分。這位代理可能是召集人、召集人或簡報者的代理人或是專屬的大型會議支援團隊的成員，視組織的喜好而定。
 
-在下列各節中，我們將說明如何針對大型會議實施專用的 pool，包括使用 Lync Server 2013 支援大型會議案例的最佳做法。
+下列各節中，我們將說明如何實作大型會議，包括使用 Lync Server 2013 以支援大型會議案例的最佳作法的專屬集區。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [在 Lync Server 2013 中設定大型會議的支援](lync-server-2013-setting-up-support-for-large-meetings.md)
+  - [設定 Lync Server 2013 中的大型會議的支援](lync-server-2013-setting-up-support-for-large-meetings.md)
 
-  - [在 Lync Server 2013 中管理大型會議](lync-server-2013-managing-large-meetings.md)
+  - [管理 Lync Server 2013 中的大型會議](lync-server-2013-managing-large-meetings.md)
 
 </div>
 

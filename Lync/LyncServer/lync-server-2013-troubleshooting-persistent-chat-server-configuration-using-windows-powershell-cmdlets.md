@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：使用 Windows PowerShell Cmdlet 疑難排解常設聊天室伺服器設定
+title: 使用 Windows PowerShell cmdlet 的 Lync Server 2013： 疑難排解 Persistent Chat Server 組態
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183921
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ba5420fb06a0c69d94ec7cf5183cba61bb8e72b5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: dff2cf4fb11c04a59baa54db88b5cb90c738fa31
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745003"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028884"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="troubleshooting-persistent-chat-server-configuration-using-windows-powershell-cmdlets-in-lync-server-2013"></a>在 Lync Server 2013 中使用 Windows PowerShell Cmdlet 疑難排解常設聊天室伺服器設定
+# <a name="troubleshooting-persistent-chat-server-configuration-using-windows-powershell-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中使用 Windows PowerShell cmdlet 疑難排解常設聊天室伺服器組態
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41745003"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-06_
+_**主題上次修改日期：** 2012年-10-06_
 
-使用下列因應措施來解決 Windows PowerShell 命令列介面 Cmdlet 的持續聊天伺服器設定問題。
+使用下列因應措施來解決 Persistent Chat Server 組態問題，使用 Windows PowerShell 命令列介面 cmdlet。
 
-  - 如果出現「主體未預配」的錯誤訊息，就表示您嘗試新增的主體無法使用。
+  - 如果顯示「未提供主體」錯誤訊息，則想新增的主體無法使用。
     
     <div>
     
 
     > [!TIP]  
-    > 因應措施—無因應措施。 此錯誤訊息表示該主體無法使用。
+    > 因應措施 — 無因應措施。此錯誤訊息表示主體無法使用。
 
     
     </div>

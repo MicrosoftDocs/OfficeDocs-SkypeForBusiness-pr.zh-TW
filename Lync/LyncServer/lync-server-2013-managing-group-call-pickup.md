@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：管理群組呼叫挑選
+title: Lync Server 2013： 管理群組來電接聽
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541494
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 314623577888576a502baa29cc83ba11d8d1f71d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8437e31f76efb1fe188fc22b4d630562e7e391c3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762121"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029464"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-group-call-pickup-in-lync-server-2013"></a>在 Lync Server 2013 中管理群組呼叫挑選
+# <a name="managing-group-call-pickup-in-lync-server-2013"></a>管理 Lync Server 2013 中的群組來電接聽
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41762121"
 
 <span> </span>
 
-_**主題上次修改日期：** 2013-02-22_
+_**上次修改主題：** 2013年-02-22_
 
-Lync Server 2013 的累積更新：2013年2月會將群組呼叫挑選引入為新的企業語音功能。 [群組通話拾取] 可讓企業語音使用者透過撥打電話挑選群組號碼來挑選撥打給其他使用者的通話。
+Lync Server 2013 的累計更新： 2 月 2013年引進為新 Enterprise Voice 功能的群組來電接聽。 群組來電接聽可讓 Enterprise Voice 使用者来揀選響鈴另一位使用者，撥出通話收取群組號碼的來電。
 
-本節中的主題提供在您的部署中設定群組呼叫拾取時所執行之工作的逐步程式。
+本節中的主題提供逐步程序的執行設定您的部署中的群組來電接聽的工作。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [在 Lync Server 2013 中設定群組呼叫挑選號碼範圍](lync-server-2013-configure-group-call-pickup-number-ranges.md)
+  - [在 Lync Server 2013 中設定群組來電接聽的號碼範圍](lync-server-2013-configure-group-call-pickup-number-ranges.md)
 
-  - [在 Lync Server 2013 中將群組呼叫挑選號碼指派給使用者](lync-server-2013-assign-group-call-pickup-numbers-to-users.md)
+  - [Lync Server 2013 中的使用者指派群組通話收取號碼](lync-server-2013-assign-group-call-pickup-numbers-to-users.md)
 
-  - [在 Lync Server 2013 中啟用或停用使用者的群組呼叫裝貨](lync-server-2013-enable-or-disable-group-call-pickup-for-users.md)
+  - [啟用或停用 Lync Server 2013 中的使用者的群組來電接聽](lync-server-2013-enable-or-disable-group-call-pickup-for-users.md)
 
-  - [在 Lync Server 2013 的災害復原期間管理群組呼叫挑選](lync-server-2013-manage-group-call-pickup-during-disaster-recovery.md)
+  - [Lync Server 2013 中的災害復原期間管理群組來電接聽](lync-server-2013-manage-group-call-pickup-during-disaster-recovery.md)
 
 </div>
 

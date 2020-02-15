@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：定義轉譯規則
+title: Lync Server 2013： 定義轉譯規則
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184093
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3bd6b46dbe0362f81cdaf6a1bf52a27112604a46
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c67030878e4fe99a0deaa89e69c553b2e225fd8f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728293"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029644"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="defining-translation-rules-in-lync-server-2013"></a>在 Lync Server 2013 中定義轉譯規則
+# <a name="defining-translation-rules-in-lync-server-2013"></a>定義 Lync Server 2013 中的 [轉譯規則
 
 </div>
 
@@ -35,28 +35,28 @@ ms.locfileid: "41728293"
 
 <span> </span>
 
-_**主題上次修改日期：** 2013-02-22_
+_**上次修改主題：** 2013年-02-22_
 
-Lync Server 2013 企業語音路由呼叫依據以正常化為 E. 164 格式的電話號碼。 這表示，所有撥號字串都必須正常化為 E.i 格式，才能執行反向數位查閱（RNL），因此可以將它們轉換成相符的 SIP URI。 Lync Server 2013 提供操縱呼叫 ID 與本機號碼簡報的功能。
+Lync Server 2013 Enterprise Voice 路由傳送來電的電話號碼正規化為 E.164 格式為基礎。 這表示所有撥號的字串必須被正規化為 E.164 格式目的執行反向號碼查閱 (RNL)，讓他們可以轉譯成其比對的 SIP URI。 Lync Server 2013 提供可用來操控的受話的識別碼，來電者 ID 呈現方式。
 
-本節討論如何操作稱為 ID 和本機號碼。
+本章節將討論如何處理呼叫的識別碼和來電者識別碼。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [Lync Server 2013 中的本機號碼簡報](lync-server-2013-caller-id-presentation.md)
+  - [Lync Server 2013 中的來電者 ID 呈現方式](lync-server-2013-caller-id-presentation.md)
 
-  - [在 Lync Server 2013 中呼叫 ID 簡報](lync-server-2013-called-id-presentation.md)
+  - [Lync Server 2013 中的受話的 ID 呈現方式](lync-server-2013-called-id-presentation.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
-[在 Lync Server 2013 中定義正規化規則](lync-server-2013-defining-normalization-rules.md)  
+[Lync Server 2013 中的定義正規化規則](lync-server-2013-defining-normalization-rules.md)  
   
 
 </div>

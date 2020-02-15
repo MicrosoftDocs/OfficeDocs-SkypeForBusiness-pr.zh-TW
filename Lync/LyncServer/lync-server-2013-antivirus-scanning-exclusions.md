@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：防毒掃描排除項目
+title: Lync Server 2013： 防毒掃描排除項目
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 57793042
 ms.date: 11/03/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 90847830d9f2586e0d111846f2867400c52fc940
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f8faeba1d3b661110bcaf633d3c780dc2c2ad2b1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737773"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029034"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="antivirus-scanning-exclusions-for-lync-server-2013"></a>Lync Server 2013 的防毒掃描排除項目
+# <a name="antivirus-scanning-exclusions-for-lync-server-2013"></a>防毒掃描排除的 Lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41737773"
 
 <span> </span>
 
-_**主題上次修改日期：** 2015-11-02_
+_**主題上次修改日期：** 2015年-11-02_
 
-若要確保防病毒掃描程式不會干擾 Lync Server 2013 的作業，您必須針對執行防病毒掃描程式的每個 Lync Server 2013 伺服器或伺服器角色排除特定程式和目錄。 下列處理常式與目錄應被排除：
+若要確保防毒掃描程式不干擾 Lync Server 2013 的作業，您必須排除特定處理程序和每個 Lync Server 2013 伺服器或伺服器角色您用來執行防毒掃描程式的目錄。 應該排除下列程序及目錄：
 
 <div>
 
 
 > [!NOTE]  
-> 下列列出的資料夾和檔案位置為 Lync Server 2013 的預設位置。 針對您未使用預設值的任何位置，請排除您指定給組織的位置，而不是本主題中指定的預設位置。
+> 以下列出的資料夾和檔案位置是 Lync Server 2013 的預設位置。 沒有使用預設的任何位置，但不包括為您的組織，而不在本主題中所指定的預設位置是您所指定的位置。
 
 
 
@@ -53,109 +53,109 @@ _**主題上次修改日期：** 2015-11-02_
 
 
 > [!IMPORTANT]  
-> 請注意，某些防毒程式可能需要其排除清單的絕對（不是相對路徑）。
+> 請注意，某些防毒程式可能需要絕對、 而非相對路徑，其排除項目清單。
 
 
 
 </div>
 
-  - Lync Server 2013 處理常式：
+  - Lync Server 2013 的程序：
     
-      - ABServer
+      - ABServer.exe
     
-      - AcpMcuSvc
+      - AcpMcuSvc.exe
     
-      - ASMCUSvc
+      - ASMCUSvc.exe
     
-      - AVMCUSvc
+      - AVMCUSvc.exe
     
-      - ChannelService
+      - ChannelService.exe
     
-      - ClsAgent
+      - ClsAgent.exe
     
-      - ComplianceService
+      - ComplianceService.exe
     
-      - DataMCUSvc
+      - DataMCUSvc.exe
     
-      - DataProxy
+      - DataProxy.exe
     
-      - FileTransferAgent
+      - FileTransferAgent.exe
     
-      - IMMCUSvc
+      - IMMCUSvc.exe
     
-      - LysSvc
+      - LysSvc.exe
     
-      - MasterReplicatorAgent
+      - MasterReplicatorAgent.exe
     
-      - MediaRelaySvc
+      - MediaRelaySvc.exe
     
-      - MediationServerSvc
+      - MediationServerSvc.exe
     
-      - MRASSvc
+      - MRASSvc.exe
     
-      - OcsAppServerHost
+      - OcsAppServerHost.exe
     
-      - ReplicaReplicatorAgent
+      - ReplicaReplicatorAgent.exe
     
-      - ReplicationApp
+      - ReplicationApp.exe
     
-      - RtcHost
+      - RtcHost.exe
     
-      - RTCSrv
+      - RTCSrv.exe
     
-      - XmppProxy
+      - XmppProxy.exe
     
-      - XmppTGW
+      - XmppTGW.exe
 
-  - Windows Fabric 主機服務處理常式：
+  - Windows Fabric 主機服務處理程序：
     
-      - 構造 .exe
+      - Fabric.exe
     
-      - FabricDCA
+      - FabricDCA.exe
     
-      - FabricHost
+      - FabricHost.exe
 
-  - IIS 處理常式：
+  - IIS 程序：
     
-      - % systemroot%\\system32\\inetsrv\\w3wp
+      - %systemroot%\\system32\\inetsrv\\w3wp.exe
     
-      - % systemroot%\\SysWOW64\\inetsrv\\w3wp
+      - %systemroot%\\SysWOW64\\inetsrv\\w3wp.exe
 
-  - SQL Server 後端處理常式：
+  - SQL Server 後端程序：
     
-      - % ProgramFiles%\\Microsoft SQL Server\\MSSQL11。MSSQLSERVER\\MSSQL\\Binn\\SQLServr
+      - %Programfiles%\\Microsoft SQL Server\\MSSQL11。MSSQLSERVER\\MSSQL\\Binn\\SQLServr.exe
     
-      - % ProgramFiles%\\Microsoft SQL Server\\MSRS11。MSSQLSERVER\\Reporting Services\\ReportServer\\Bin\\ReportingServicesService .exe
+      - %Programfiles%\\Microsoft SQL Server\\MSRS11。MSSQLSERVER\\Reporting Services\\ReportServer\\Bin\\ReportingServicesService.exe
     
-      - % ProgramFiles%\\Microsoft SQL Server\\MSAS11。MSSQLSERVER\\OLAP\\Bin\\MSMDSrv
+      - %Programfiles%\\Microsoft SQL Server\\MSAS11。MSSQLSERVER\\OLAP\\Bin\\MSMDSrv.exe
 
-  - SQL Server 前端程式：
+  - SQL Server 前端程序：
     
-      - % ProgramFiles%\\Microsoft SQL Server\\MSSQL11。LYNCLOCAL\\MSSQL\\Binn\\SQLServr
+      - %Programfiles%\\Microsoft SQL Server\\MSSQL11。LYNCLOCAL\\MSSQL\\Binn\\SQLServr.exe
     
-      - % ProgramFiles%\\Microsoft SQL Server\\MSSQL11。RTCLOCAL\\MSSQL\\Binn\\SQLServr
+      - %Programfiles%\\Microsoft SQL Server\\MSSQL11。RTCLOCAL\\MSSQL\\Binn\\SQLServr.exe
 
   - 目錄和檔案：
     
-      - % systemroot%\\System32\\日誌
+      - %systemroot%\\System32\\記錄檔
     
-      - % systemroot%\\SysWow64\\的日誌
+      - %systemroot%\\SysWow64\\記錄檔
     
-      - % systemroot%\\Microsoft.NET\\元件\\GAC\_MSIL
+      - %systemroot%\\Microsoft.NET\\組件\\GAC\_MSIL
     
-      - % programfiles%\\Microsoft Lync Server 2013
+      - %programfiles%\\Microsoft Lync Server 2013
     
-      - % programfiles%\\常見檔案\\Microsoft Lync Server 2013\\觀察程式節點
+      - %programfiles%\\通用檔案\\Microsoft Lync Server 2013\\監看員節點
     
-      - % programfiles%\\常見檔案\\Microsoft Lync Server 2013
+      - %programfiles%\\通用檔案\\Microsoft Lync Server 2013
     
-      - % SystemDrive%\\RtcReplicaRoot
+      - %Systemdrive%並\\RtcReplicaRoot
     
-      - [檔案共用] 存放區（在 [拓撲建立器] 中指定）。 檔案存放區是在拓撲建立器中指定。
+      - 檔案共用存放區 （在拓撲產生器中指定）。 拓撲產生器] 中，會指定檔案存放區。
     
-      - SQL Server 資料和記錄檔案，包括後端資料庫、使用者儲存、封存儲存、監視儲存及應用程式存放區的檔案。 您可以在拓撲結構建立器中指定資料庫和記錄檔。 如需每個資料庫的資料和記錄檔案（包括預設名稱）的詳細資料，請參閱部署檔中[Lync Server 2013 的 SQL Server 資料和記錄檔位置](lync-server-2013-sql-server-data-and-log-file-placement.md)。
+      - SQL Server 資料和記錄檔，包括後端資料庫、 使用者存放區、 封存存放區、 監控存放區和應用程式存放區。 在拓撲產生器可以指定資料庫和記錄檔。 如需每個資料庫的資料與記錄檔的詳細資訊，包括預設名稱，請參閱[Lync Server 2013 的 SQL Server 資料和記錄檔位置](lync-server-2013-sql-server-data-and-log-file-placement.md) 部署 > 文件中。
     
-      - SQL Server 資料和記錄檔案，包括前端資料庫、Lync store 及 RtcDatabase store 的檔案。 它們通常在 [% localdrive%\\CSData] 下。
+      - SQL Server 資料和記錄檔，包括前端資料庫、 Lync 存放區中，與 RtcDatabase 存放區。 它們通常是在 %localdrive%下\\CSData。
 
 </div>
 

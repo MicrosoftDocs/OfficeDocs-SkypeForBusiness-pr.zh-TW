@@ -12,20 +12,20 @@ ms:contentKeyID: 48183679
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cd35b9444f0ede4abc9b66ab6b5513d049df57ee
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b3ded5de5500778559efe632c5272db50b0eadbd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735183"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034113"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="active-directory-support-in-lync-server-2013"></a>Lync Server 2013 中的 Active Directory 支援
+# <a name="active-directory-support-in-lync-server-2013"></a>Lync Server 2013 中的 active Directory 支援
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41735183"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-12-04_
+_**主題上次修改日期：** 2012年-12-04_
 
-Lync Server 2013 支援的 Active Directory 網域服務內部部署拓撲如下所示：
+Lync Server 2013 所支援的 Active Directory 網域服務的內部拓撲如下所示：
 
-  - 單一目錄林與單一網域
+  - 具單一網域的單一樹系
 
-  - 具有單一樹狀結構和多個網域的單一目錄林
+  - 具單一樹狀結構和多個網域的單一樹系
 
-  - 具有多個樹和不連續命名空間的單一目錄林
+  - 具多重樹狀結構和斷續命名空間的單一樹系
 
-  - 中央目錄林拓撲中的多個林
+  - 中央樹系拓撲中的多重樹系
 
-  - 資原始目錄林拓朴中的多個目錄林
+  - 資源樹系拓撲中的多重樹系
 
 <div>
 
 
 > [!NOTE]  
-> Lync Server 2013 不支援單標籤網域。 例如，支援名為<STRONG>contoso. local</STRONG>的根網域的林，但不支援名為<STRONG>local</STRONG>的單一標籤根網域。 如需詳細資訊，請參閱 Microsoft 知識庫文章300684：「使用單標籤 DNS 名稱設定 Windows 網域的相關資訊」 <A href="http://go.microsoft.com/fwlink/p/?linkid=143752">http://go.microsoft.com/fwlink/p/?linkId=143752</A>。
+> Lync Server 2013 不支援單一標籤網域。 例如，名為<STRONG>contoso.local</STRONG>根網域與樹系支援，但是不支援名為<STRONG>本機</STRONG>的單一標籤根網域。 如需詳細資訊，請參閱 Microsoft 知識庫文章 300684，「 設定資訊視窗具有單一標籤 DNS 名稱的網域 」， <A href="http://go.microsoft.com/fwlink/p/?linkid=143752">http://go.microsoft.com/fwlink/p/?linkId=143752</A>。
 
 
 
@@ -63,13 +63,13 @@ Lync Server 2013 支援的 Active Directory 網域服務內部部署拓撲如下
 
 
 > [!NOTE]  
-> Lync Server 2013 不支援重新命名網域。 如果您需要重新命名部署 Lync Server 的網域，您必須先卸載 Lync Server，然後重新命名網域，然後重新安裝 Lync Server。
+> Lync Server 2013 不支援重新命名的網域。 如果您需要重新命名其中部署 Lync Server 的網域，您需要先解除安裝 Lync Server]，然後重新命名網域，並再重新安裝 Lync Server。
 
 
 
 </div>
 
-如需支援的拓撲及內部部署部署需求的詳細資料，請參閱規劃檔中的[Lync Server 2013 中的 Active Directory 網域服務需求、支援及拓撲](lync-server-2013-active-directory-domain-services-requirements-support-and-topologies.md)。
+如需支援的拓撲與內部部署的需求的詳細資訊，請參閱規劃文件中的[Active Directory 網域服務需求、 支援和 Lync Server 2013 中的拓撲](lync-server-2013-active-directory-domain-services-requirements-support-and-topologies.md)。
 
 </div>
 
