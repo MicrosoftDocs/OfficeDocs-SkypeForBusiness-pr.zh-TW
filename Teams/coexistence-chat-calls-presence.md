@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 本檔說明在團隊與商務用 Skype （在租使用者中，根據指派的 TeamsUpgrade 模式）進行的聊天、呼叫路由與目前狀態的行為。 它包含路由優化、目前狀態行為，以及將預設 TeamsUpgrade 模式從*舊版*變更為*孤島*，以及即將停用*舊版*。
-ms.openlocfilehash: 449340affb00b1f05ba199c3376941a843da329c
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 1a4a9f4c08da3e89324eb44551c0002931cee714
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824931"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050115"
 ---
 # <a name="coexistence-with-skype-for-business"></a>與商務用 Skype 共存
 
@@ -215,6 +215,6 @@ ms.locfileid: "41824931"
 特別是，如果收件者先前已升級至團隊的持續性互通性交談執行緒，該執行緒就不會再反映精確的目前狀態，而且將無法再進行路由。 您應該開始新的執行緒。
 
 ## <a name="related-links"></a>相關連結
-[與商務用 Skype 搭配使用團隊之組織的遷移和互通性指南](https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype)
+[與商務用 Skype 搭配使用團隊之組織的遷移和互通性指南](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype)
 
 [影片：管理 SfB 與團隊之間的共存與互通性](https://www.youtube.com/watch?v=wEc9u4S3GIA&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl&index=11)

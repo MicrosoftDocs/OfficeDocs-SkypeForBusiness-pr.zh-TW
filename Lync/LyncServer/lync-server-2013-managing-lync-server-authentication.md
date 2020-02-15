@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：管理 Lync Server 驗證
+title: Lync Server 2013： 管理 Lync Server 驗證
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 49733835
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4d443631591ffcb00ac9a86dff038b9bb14ec085
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0995c141c21fd24be8da31b36c483e04c626127d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762081"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043075"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,21 +35,21 @@ ms.locfileid: "41762081"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-15_
+_**主題上次修改日期：** 2012 年 10 月 15_
 
-使用下列程式來管理 Lync Server 2013 安全性與驗證。
+使用下列程序來管理 Lync Server 2013 安全性和驗證。
 
 <div>
 
 ## <a name="in-this-section"></a>本節內容
 
-  - [管理 Lync Server 2013 中工作處理程式的憑證](lync-server-2013-managing-certificates-for-operational-processes.md)
+  - [管理 Lync Server 2013 中的作業程序的憑證](lync-server-2013-managing-certificates-for-operational-processes.md)
 
-  - [在 Lync Server 2013 中管理伺服器間驗證（OAuth）與合作夥伴應用程式](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md)
+  - [管理伺服器對伺服器驗證 (OAuth) 與 Lync Server 2013 中的協力廠商應用程式](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md)
 
-  - [在 Lync Server 2013 [控制台] 中設定驗證](lync-server-2013-configuring-authentication-in-the-lync-server-control-panel.md)
+  - [Lync Server 2013 控制台] 中設定驗證](lync-server-2013-configuring-authentication-in-the-lync-server-control-panel.md)
 
-  - [管理 Lync Server 2013 中的 PIN 設定](lync-server-2013-managing-pin-settings.md)
+  - [管理 Lync Server 2013 中的 pin 碼設定](lync-server-2013-managing-pin-settings.md)
 
 </div>
 

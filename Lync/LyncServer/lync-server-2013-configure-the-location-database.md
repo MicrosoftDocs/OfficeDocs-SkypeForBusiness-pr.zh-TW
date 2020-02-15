@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：設定位置資料庫
+title: Lync Server 2013： 設定位置資料庫
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184704
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b2b15f0c679e9380a1f1a624f00f6c19384878fd
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f79587526172c7ccade1b74574b20657d1a82300
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739973"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043205"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,23 +35,23 @@ ms.locfileid: "41739973"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-09-17_
+_**主題上次修改日期：** 2012年-09-17_
 
-若要讓用戶端能在網路中自動偵測其位置，您必須先設定位置資料庫。 如果您沒有設定位置資料庫，且位置原則中**所需的位置**設定為 **[是] 或 [** **免責聲明**]，系統會提示使用者手動輸入位置。
+若要啟用用戶端能夠自動偵測其網路內的位置，必須先設定位置資料庫。 如果您不需設定位置資料庫，且 [位置原則中的 [**位置所需**設為 [**是**] 或 [**免責聲明**，將會提示使用者手動輸入位置。
 
-若要設定位置資料庫，您可以執行下列工作：
+若要設定位置資料庫，您將會執行下列工作：
 
-1.  使用網路元素對應至位置來填入資料庫。 如果您使用緊急位置身分識別號碼（ELIN）閘道，您必須在 [ \<公司名稱\> ] 欄位中包含該 ELIN。
+1.  填入網路元素與位置的對應資料庫。 如果您使用緊急位置識別號碼 (ELIN) 閘道，您必須包含在 ELIN \<CompanyName\> ] 欄位。
 
-2.  根據 E9-1-1 服務提供者所維護的主要街道位址指南（MSAG）驗證位址。
+2.  驗證 E9-1-1 服務提供者所維護的主要街道地址指南 (MSAG) 地址。
 
-3.  發佈更新後的資料庫。
+3.  發佈更新過的資料庫。
 
 <div>
 
 
 > [!NOTE]  
-> 或者，您也可以定義可在位置資料庫中使用的次要位置源資料庫。 如需詳細資訊，請參閱<A href="lync-server-2013-configure-a-secondary-location-information-service.md">在 Lync Server 2013 中設定次要位置資訊服務</A>。
+> 或者，您可以定義可使用於放置位置資料庫的次要位置來源資料庫。 如需詳細資訊，請參閱<A href="lync-server-2013-configure-a-secondary-location-information-service.md">設定 Lync Server 2013 中的次要位置資訊服務</A>。
 
 
 
@@ -59,13 +59,13 @@ _**主題上次修改日期：** 2012-09-17_
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [在 Lync Server 2013 中填入位置資料庫](lync-server-2013-populate-the-location-database.md)
+  - [填入位置資料庫在 Lync Server 2013](lync-server-2013-populate-the-location-database.md)
 
-  - [驗證 Lync Server 2013 中的位址](lync-server-2013-validate-addresses.md)
+  - [驗證 Lync Server 2013 中的地址](lync-server-2013-validate-addresses.md)
 
-  - [從 Lync Server 2013 發佈位置資料庫](lync-server-2013-publish-the-location-database.md)
+  - [發佈位置資料庫從 Lync Server 2013](lync-server-2013-publish-the-location-database.md)
 
 </div>
 

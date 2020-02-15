@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：用戶端系統需求
+title: Lync Server 2013： 用戶端系統需求
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183900
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6ac52ae9856d49047040bb839ad650cbe591ec95
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c0415f2d7380b86facb727541e73ad57d5b5d2ca
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742833"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044415"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,23 +35,23 @@ ms.locfileid: "41742833"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-11-06_
+_**主題上次修改日期：** 2012年-11-06_
 
 本節說明 Lync 2013 用戶端的硬體和軟體需求。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
   - [Lync Server 2013 中的 Lync 用戶端硬體支援](lync-server-2013-lync-client-hardware-support.md)
 
-  - [Lync Server 2013 的 lync 用戶端視頻需求](lync-server-2013-lync-client-video-requirements.md)
+  - [Lync Server 2013 的 Lync 用戶端視訊需求](lync-server-2013-lync-client-video-requirements.md)
 
-  - [Lync Server 2013 中的 lync 用戶端軟體支援](lync-server-2013-lync-client-software-support.md)
+  - [Lync Server 2013 中的 Lync 用戶端軟體支援](lync-server-2013-lync-client-software-support.md)
 
-  - [Lync Web App 支援的 Lync Server 2013 平臺](lync-server-2013-lync-web-app-supported-platforms.md)
+  - [Lync Server 2013 的 Lync Web App 支援的平台](lync-server-2013-lync-web-app-supported-platforms.md)
 
-  - [Lync Server 2013 的 lync Windows Store 應用程式需求](lync-server-2013-lync-windows-store-app-requirements.md)
+  - [Lync Server 2013 的 Lync Windows 市集應用程式需求](lync-server-2013-lync-windows-store-app-requirements.md)
 
 </div>
 

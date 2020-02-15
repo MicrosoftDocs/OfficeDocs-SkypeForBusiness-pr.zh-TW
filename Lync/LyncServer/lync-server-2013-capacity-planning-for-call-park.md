@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：通話駐留的容量規劃
+title: Lync Server 2013： 容量規劃通話駐留
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184529
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dd4cc9d10a3a3562c035c7bc2f64f551b70cc5da
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f1192ef9b5b30c722a4f62973cf4992da3ca7300
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743423"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044175"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="capacity-planning-for-call-park-in-lync-server-2013"></a>Lync Server 2013 中通話駐留的容量規劃
+# <a name="capacity-planning-for-call-park-in-lync-server-2013"></a>容量規劃的 Lync Server 2013 中的通話駐留
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41743423"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-09-13_
+_**主題上次修改日期：** 2012年-09-13_
 
 <div id="sectionSection0" class="section">
 
-下表說明您可以用來做為容量規劃需求基礎的通話駐留使用者模型。
+下表說明您可以使用容量規劃需求為基礎的通話駐留使用者模型。
 
 <div>
 
 
 > [!IMPORTANT]  
-> 請記住，對於災難復原容量規劃，配對池的每個池都應該能夠處理兩個池中的通話駐留服務的工作負荷。
+> 請記住，災害復原容量規劃，配對集區的每個集區應該能夠處理兩個集區中的通話駐留服務的工作負載。
 
 
 
@@ -61,26 +61,26 @@ _**主題上次修改日期：** 2012-09-13_
 </colgroup>
 <thead>
 <tr class="header">
-<th>衡量</th>
-<th>每個前臺端池（含8個前端伺服器）</th>
-<th>每個標準版 server</th>
+<th>評量</th>
+<th>每個前端集區 （使用 8 前端伺服器）</th>
+<th>每個 Standard Edition 伺服器</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>公園工資率</p></td>
-<td><p>每分鐘8筆</p></td>
-<td><p>每分鐘1</p></td>
+<td><p>駐留率</p></td>
+<td><p>每分鐘 8 個</p></td>
+<td><p>每分鐘 1 個</p></td>
 </tr>
 <tr class="even">
-<td><p>檢索暫停的通話頻率</p></td>
-<td><p>每分鐘8筆</p></td>
-<td><p>每分鐘1</p></td>
+<td><p>擷取駐留通話率</p></td>
+<td><p>每分鐘 8 個</p></td>
+<td><p>每分鐘 1 個</p></td>
 </tr>
 <tr class="odd">
-<td><p>平均公園持續時間</p></td>
-<td><p>60秒</p></td>
-<td><p>60秒</p></td>
+<td><p>平均駐留持續時間</p></td>
+<td><p>60 秒</p></td>
+<td><p>60 秒</p></td>
 </tr>
 </tbody>
 </table>

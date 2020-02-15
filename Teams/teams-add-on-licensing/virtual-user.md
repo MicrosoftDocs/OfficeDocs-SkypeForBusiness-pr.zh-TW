@@ -19,12 +19,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 瞭解免費的虛擬使用者授權。
-ms.openlocfilehash: 0b580a396dedfab81ab207fa0b1d6fee5caa705b
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 5b31c9edaf42508e59000257a33b9ddeba4c6fb5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826511"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029354"
 ---
 # <a name="phone-systemvirtual-user-license"></a>電話系統-虛擬使用者授權 
 
@@ -67,7 +67,7 @@ Contoso 應該考慮重新設計自動語音應答及呼叫佇列系統。 如�
 如果您決定將資源帳戶上的授權從電話系統授權切換至電話系統，即虛擬使用者授權： 
 
 1. 取得新的電話系統-虛擬使用者授權。 
-2. 遵循 Microsoft 365 系統管理中心的連結步驟，[將使用者移至不同的訂閱](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription)。 
+2. 遵循 Microsoft 365 系統管理中心的連結步驟，[將使用者移至不同的訂閱](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription)。 
 
 > [!WARNING]
 > 在相同的授權活動中，請務必移除完整的電話系統授權，並指派電話系統（虛擬使用者授權）。 如果您移除舊的授權，請儲存帳戶變更、新增授權，然後再次儲存帳戶設定，資源帳戶可能無法如期運作。 如果發生這種情況，我們建議您為手機系統（虛擬使用者授權）建立新的資源帳戶，並移除中斷的資源帳戶。 

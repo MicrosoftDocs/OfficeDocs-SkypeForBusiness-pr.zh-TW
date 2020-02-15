@@ -1,5 +1,5 @@
 ---
-title: 針對 Lync Online 客戶設定聯盟的使用者存取權
+title: 設定與 Lync Online 客戶同盟的使用者存取
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184473
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d83ea228d7cf9a6354117d62dc92c6fcbc55ac56
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 36ae5b7a17dc29e8e920ed7d5f5b023c92c245f4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733815"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042995"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-user-access-for-federation-with-a-lync-online-customer-in-lync-server-2013"></a>在 Lync Server 2013 中設定與 Lync Online 客戶的同盟的使用者存取權
+# <a name="configure-user-access-for-federation-with-a-lync-online-customer-in-lync-server-2013"></a>使用 Lync Server 2013 中的 Lync Online 客戶設定同盟使用者存取
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41733815"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-11-01_
+_**主題上次修改日期：** 2012年-11-01_
 
-您必須設定貴組織中所有使用者的使用者帳戶，才能讓他們與聯盟夥伴進行通訊。 此設定適用于所有聯盟夥伴，包括您支援同盟的任何 Microsoft Lync Online 2010 客戶網域。 如需有關設定使用者帳戶的同盟支援的詳細資料，請參閱[設定在 Lync server 2013 中控制聯盟使用者存取的原則](lync-server-2013-configure-policies-to-control-federated-user-access.md)，並[將外部使用者存取原則指派給 lync server 2013 中的 lync 啟用使用者](lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md)（在作業檔中）。
+您必須將組織中所有使用者的使用者帳戶設定成允許與同盟協力廠商通訊。 此設定會套用適用於所有的同盟合作夥伴，包括任何 Microsoft Lync Online 2010 客戶網域，您可以與支援同盟。 如需設定同盟支援的使用者帳戶的詳細資訊，請參閱作業文件中的[設定原則以控制同盟使用者存取 Lync Server 2013 中的](lync-server-2013-configure-policies-to-control-federated-user-access.md)，並[將指派給 Lync Server 2013 中啟用 Lync 功能之使用者的外部使用者存取原則](lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md)。
 
 </div>
 

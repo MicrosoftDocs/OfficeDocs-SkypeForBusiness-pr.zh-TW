@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b5a6079924803f7dbdde0c49bb5bd5d1f1aa2c4b
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: ad0043b1599ac7ce90599a03d786d756cf16e684
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825701"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008145"
 ---
 # <a name="plan-to-move-your-staffhub-teams-to-shifts-in-microsoft-teams"></a>規劃將您的 StaffHub 團隊移至 Microsoft 團隊中的倒班
 
@@ -38,7 +38,7 @@ ms.locfileid: "41825701"
 |循序漸進 |指導方針  |資源 |
 |---------|---------|---------|
 |1    |準備及識別干係人         |         |
-|2     |查看從 StaffHub 轉至團隊和團隊加入的檔         |[StaffHub 停用](microsoft-staffhub-to-be-retired.md)<br><br>[將您的 StaffHub 團隊移至團隊中的倒班](move-staffhub-teams-to-shifts-in-teams.md)<br><br>[開始使用 Teams](../../get-started-with-teams-quick-start.md)         |
+|pplx-2     |查看從 StaffHub 轉至團隊和團隊加入的檔         |[StaffHub 停用](microsoft-staffhub-to-be-retired.md)<br><br>[將您的 StaffHub 團隊移至團隊中的倒班](move-staffhub-teams-to-shifts-in-teams.md)<br><br>[開始使用 Teams](../../get-started-with-teams-quick-start.md)         |
 |3    |為您的組織啟用 Office 365 群組        |[Office 365 群組與團隊](../../Office-365-groups.md)      |
 |4    |確認已滿足先決條件         |[檢查是否符合先決條件](move-staffhub-teams-to-shifts-in-teams.md#check-that-prerequisites-are-met)       |
 |500   |指派團隊授權給貴組織中的 StaffHub 使用者|[指派 Teams 授權](move-staffhub-teams-to-shifts-in-teams.md#assign-teams-licenses)<br><br>[管理 Teams 的使用者存取](../../user-access.md)      |
@@ -49,7 +49,7 @@ ms.locfileid: "41825701"
 |第    |與 StaffHub 使用者進行溝通，以在小組中轉移轉變         |[StaffHub 至團隊向使用者進行電子郵件通訊的範例](staffhub-to-teams-email-template.md)         |
 |11     |安裝團隊用戶端         |[取得 Teams 用戶端](../../get-clients.md) |
 |之間    |將 FirstLineWorker 應用程式設定原則指派給使用者（或建立並指派自訂應用程式設定原則），以將倒班 app 釘選到團隊用戶端  |[將 FirstlineWorker 應用程式設定原則指派給使用者](move-staffhub-teams-to-shifts-in-teams.md#assign-the-firstlineworker-app-setup-policy-to-users)         |
-|合     |訓練使用者如何使用倒班與團隊         |[在團隊中的使用者](move-staffhub-teams-to-shifts-in-teams.md#onboard-users-to-teams)<br><br>[班次協助檔](https://support.office.com/en-us/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)<br><br>[Teams 說明文件](https://support.office.com/teams)<br><br>[Teams 訓練影片](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)       |
+|合     |訓練使用者如何使用倒班與團隊         |[在團隊中的使用者](move-staffhub-teams-to-shifts-in-teams.md#onboard-users-to-teams)<br><br>[班次協助檔](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)<br><br>[Teams 說明文件](https://support.office.com/teams)<br><br>[Teams 訓練影片](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)       |
 |4     |複習您的 StaffHub 小組清單，以確保那些小組中的所有使用者都應該移至團隊。 移除不應在排程上的使用者。 |         |
 
 ## <a name="move-your-organizations-staffhub-teams-to-teams"></a>將貴組織的 StaffHub 團隊移至團隊
@@ -57,7 +57,7 @@ ms.locfileid: "41825701"
 |循序漸進 |指導方針 |資源  |
 |---------|---------|---------|
 |1  |找出試驗小組並移動一個團隊          |[移動 StaffHub 小組](move-staffhub-teams-to-shifts-in-teams.md#move-a-staffhub-team)          |
-|2    |驗證試驗小組並找出任何搬遷問題。 視需要更新訓練檔。         |         |
+|pplx-2    |驗證試驗小組並找出任何搬遷問題。 視需要更新訓練檔。         |         |
 |3     |找出其他試驗小組，並將五個小組移至十個團隊         |[移動您的 StaffHub 團隊](move-staffhub-teams-to-shifts-in-teams.md#go-beyond-your-pilot-and-move-all-staffhub-teams)         |
 |4     |找出剩餘的 StaffHub 團隊，並以分段的方式進行移動         |[移動您的 StaffHub 團隊](move-staffhub-teams-to-shifts-in-teams.md#go-beyond-your-pilot-and-move-all-staffhub-teams)         |
 |500     |繼續提供對倒班與團隊的支援         |         |

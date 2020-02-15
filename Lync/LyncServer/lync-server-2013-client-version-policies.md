@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：用戶端版本原則
+title: Lync Server 2013： 用戶端版本原則
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 50675351
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 81d930e1f3991235f34735ac0c178199e06caa9f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1af922cb1c6542835d696406e52b6d9f37fe4a52
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742813"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044385"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,19 +35,19 @@ ms.locfileid: "41742813"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-12-11_
+_**主題上次修改日期：** 2012年-12-11_
 
-用戶端版本原則是用來全域或針對特定的網站、資料庫池或使用者群組套用一組用戶端版本設定規則。 使用下列程式來設定 Lync Server 2013 的用戶端版本原則。
+用戶端版本原則用來套用一組的用戶端版本規則全域或特定站台，集區或使用者群組。 使用下列程序來設定 Lync Server 2013 的用戶端版本原則。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [在 Lync Server 2013 中查看用戶端版本原則](lync-server-2013-view-client-version-policies.md)
+  - [檢視 Lync Server 2013 中的用戶端版本原則](lync-server-2013-view-client-version-policies.md)
 
-  - [在 Lync Server 2013 中建立或修改新的用戶端版本原則](lync-server-2013-create-or-modify-a-new-client-version-policy.md)
+  - [建立或修改 Lync Server 2013 中的新用戶端版本原則](lync-server-2013-create-or-modify-a-new-client-version-policy.md)
 
-  - [刪除 Lync Server 2013 中的現有用戶端版本原則](lync-server-2013-delete-an-existing-client-version-policy.md)
+  - [刪除現有的用戶端版本原則在 Lync Server 2013](lync-server-2013-delete-an-existing-client-version-policy.md)
 
 </div>
 

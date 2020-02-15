@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: 設定並使用呼叫分析來識別和疑難排解商務用 Skype 和 Microsoft 團隊通話品質問題。
-ms.openlocfilehash: fe46ee580554969d26395b26117649ab8ada2ea0
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 347725e77806f94e44b4c8d160736ceb23265f11
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838053"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029404"
 ---
 # <a name="set-up-call-analytics"></a>設定通話分析
 
@@ -74,7 +74,7 @@ ms.locfileid: "41838053"
  ### <a name="set-up-permissions-by-assigning-admin-roles"></a>指派管理員角色來設定許可權
 <a name="BKMK_SetUpTier"> </a>
 
-若要瞭解如何在 Azure Active Directory 中指派系統管理角色，請參閱[在 Azure Active directory 中查看和指派角色](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/directory-manage-roles-portal)。
+若要瞭解如何在 Azure Active Directory 中指派系統管理角色，請參閱[在 Azure Active directory 中查看和指派角色](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-manage-roles-portal)。
 
 ## <a name="upload-a-tsv-or-csv-file-to-add-building-site-and-tenant-information"></a>上傳. tsv 或 .csv 檔案，以新增建築物、網站和租使用者資訊
 <a name="BKMK_UploadFiles"> </a>

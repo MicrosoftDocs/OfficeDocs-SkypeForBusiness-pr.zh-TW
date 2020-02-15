@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： FocusJoinsAndLeaves view
+title: 'Lync Server 2013: FocusJoinsAndLeaves 檢視'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733582
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9d7cc1da4f5923a7c42e74c9069054863f1d99a1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8c5c10cc90064e9ed3237dcd4cd4cbed1021d1b5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41722403"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044055"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="focusjoinsandleaves-view-in-lync-server-2013"></a>Lync Server 2013 中的 [FocusJoinsAndLeaves] 視圖
+# <a name="focusjoinsandleaves-view-in-lync-server-2013"></a>Lync Server 2013 中的 FocusJoinsAndLeaves 檢視
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41722403"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-01_
+_**主題上次修改日期：** 2012年-10-01_
 
-[FocusJoinsAndLeaves] 視圖儲存有關加入會議的資訊，並留下一個會議的資訊。 每個會議都會在每次使用者加入並離開會議時所撰寫的記錄在這個視圖中顯示。 此視圖已在 Microsoft Lync Server 2013 中推出。
+FocusJoinsAndLeaves 檢視可儲存會議的加入和離開相關資訊。 每次有使用者加入和離開某場會議時，此檢視中的該場會議都會有一筆撰寫記錄來表示。 Microsoft Lync Server 2013 中已採用此檢視。
 
 
 <table>
@@ -48,7 +48,7 @@ _**主題上次修改日期：** 2012-10-01_
 </colgroup>
 <thead>
 <tr class="header">
-<th>左欄</th>
+<th>欄</th>
 <th>資料類型</th>
 <th>詳細資料</th>
 </tr>
@@ -57,47 +57,47 @@ _**主題上次修改日期：** 2012-10-01_
 <tr class="odd">
 <td><p><strong>SessionIdTime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>會議實例的時間。 與 SessionIdSeq 搭配使用，可唯一識別會議實例。 如需詳細資訊，請參閱<a href="lync-server-2013-conferences-table.md">Lync Server 2013 中</a>的 [會議] 表格。</p></td>
+<td><p>會議執行個體的時間。 會與 SessionIdSeq 搭配使用，專門用於識別會議執行個體。 請參閱<a href="lync-server-2013-conferences-table.md">Lync Server 2013 中的會議表格</a>如需詳細資訊。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionIdSeq</strong></p></td>
 <td><p>int</p></td>
-<td><p>識別會議實例的識別碼編號。 與 SessionIdTime 搭配使用，可唯一識別會議實例。 如需詳細資訊，請參閱<a href="lync-server-2013-conferences-table.md">Lync Server 2013 中</a>的 [會議] 表格。</p></td>
+<td><p>用於辨識執行個體的 ID 號碼。 會與 SessionIDTime 搭配使用，專門用於識別會議執行個體。 請參閱<a href="lync-server-2013-conferences-table.md">Lync Server 2013 中的會議表格</a>如需詳細資訊。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UserUri</strong></p></td>
-<td><p>Nvarchar （450）</p></td>
-<td><p>已捕獲會議加入/離開資訊之使用者的 URI。</p></td>
+<td><p>nvarchar(450)</p></td>
+<td><p>已擷取其加入/離開會議資訊之使用者的 URI。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserUriType</strong></p></td>
-<td><p>Nvarchar （256）</p></td>
-<td><p>已捕獲會議加入/離開資訊之使用者的 URI 類型。 如需詳細資訊，請參閱<a href="lync-server-2013-uritypes-table.md">Lync Server 2013 中</a>的 [UriTypes] 資料表。</p></td>
+<td><p>nvarchar(256)</p></td>
+<td><p>已擷取其加入/離開會議資訊之使用者的 URI 類型。 請參閱<a href="lync-server-2013-uritypes-table.md">Lync Server 2013 中的 UriTypes 表格</a>如需詳細資訊。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UserTenant</strong></p></td>
-<td><p>Nvarchar （256）</p></td>
-<td><p>已捕獲會議加入/離開資訊之使用者的租使用者。 如需詳細資訊，請參閱<a href="lync-server-2013-tenants-table.md">Lync Server 2013 中</a>的 [承租人] 資料表。</p></td>
+<td><p>nvarchar(256)</p></td>
+<td><p>已擷取其加入/離開會議資訊之使用者的租用戶。 請參閱<a href="lync-server-2013-tenants-table.md">Lync Server 2013 中的租用戶表</a>如需詳細資訊。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserEndpointId</strong></p></td>
-<td><p>uniqueidentifier</p></td>
-<td><p>已捕獲會議加入/離開資訊之使用者的唯一識別碼。</p></td>
+<td><p>唯一</p></td>
+<td><p>已擷取其加入/離開會議資訊之使用者的唯一識別碼。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UserClientVersion</strong></p></td>
-<td><p>Nvarchar （256）</p></td>
-<td><p>已捕獲會議加入/離開資訊的使用者所使用的用戶端版本。</p></td>
+<td><p>nvarchar(256)</p></td>
+<td><p>已擷取其加入/離開會議資訊之使用者所用的用戶端版本。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserClientType</strong></p></td>
 <td><p>int</p></td>
-<td><p>已捕獲會議加入/離開資訊的使用者所使用的用戶端。 如需詳細資訊，請參閱<a href="lync-server-2013-useragentdef-table.md">Lync Server 2013 中</a>的 [UserAgentDef] 資料表。</p></td>
+<td><p>已擷取其加入/離開會議資訊之使用者所用的用戶端。 如需詳細資訊，請參閱<a href="lync-server-2013-useragentdef-table.md">Lync Server 2013 中的 UserAgentDef 表</a>。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UserClientCategory</strong></p></td>
-<td><p>Nvarchar （64）</p></td>
-<td><p>已捕獲會議加入/離開資訊之使用者所使用之用戶端類別的名稱。</p></td>
+<td><p>nvarchar(64)</p></td>
+<td><p>已擷取其加入/離開會議資訊之使用者所用的用戶端類別名稱。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>FocusUserInstance</strong></p></td>
@@ -106,23 +106,23 @@ _**主題上次修改日期：** 2012-10-01_
 </tr>
 <tr class="odd">
 <td><p><strong>IsuserInternal</strong></p></td>
-<td><p>稍微</p></td>
-<td><p>代表使用者是否為內部使用者的位。</p></td>
+<td><p>位元</p></td>
+<td><p>代表使用者是否為內部使用者的位元。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DialogSessionIdTime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>會話要求的時間。 與 SessionIdSeq 搭配使用，可唯一識別會話。 如需詳細資訊，請參閱<a href="lync-server-2013-dialogs-table.md">Lync Server 2013 中</a>的 [對話方塊] 資料表。</p></td>
+<td><p>工作階段要求的時間。 與 SessionIdSeq 搭配使用，以唯一識別工作階段。 <a href="lync-server-2013-dialogs-table.md">Dialogs 表格 Lync Server 2013 中的</a>如需詳細資訊，請參閱。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DialogSessionIdSeq</strong></p></td>
 <td><p>int</p></td>
-<td><p>如果使用者是同時在多部電腦或裝置上登入，則 UserInstance 會用來唯一識別使用者/裝置組合。</p></td>
+<td><p>若使用者同時登入多部電腦或裝置，會使用 UserInstance 專門識別使用者/裝置的組合。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DialogId</strong></p></td>
-<td><p>Varchar （775）</p></td>
-<td><p>會話的 SIP 對話方塊識別碼。 格式為：對話方塊; 從標籤; 到標籤。</p></td>
+<td><p>varchar(775)</p></td>
+<td><p>工作階段的 SIP 對話方塊識別碼，格式為：dialog;from-tag;to-tag。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UserJoinTime</strong></p></td>
@@ -136,8 +136,8 @@ _**主題上次修改日期：** 2012-10-01_
 </tr>
 <tr class="odd">
 <td><p><strong>UserRole</strong></p></td>
-<td><p>Nvarchar （256）</p></td>
-<td><p>使用者在會議中的角色，例如 [簡報者] 或 [出席者]。</p></td>
+<td><p>nvarchar(256)</p></td>
+<td><p>此使用者在會議中的角色，例如簡報者或是出席者。</p></td>
 </tr>
 </tbody>
 </table>

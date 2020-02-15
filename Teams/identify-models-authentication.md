@@ -17,12 +17,12 @@ ms.collection:
 description: 瞭解 Microsoft 團隊（例如雲端、同步處理及同盟）中的不同身分識別模型。 此外，您也可以瞭解多重要素驗證。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 11bf92cc2801d67d9b19d3c54f4c878e0913ffc3
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 5c09702700cf62505bbe0016d44545a02596f6b8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41835923"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42022284"
 ---
 <a name="identity-models-and-authentication-in-microsoft-teams"></a>Microsoft 團隊中的身分識別模型與驗證
 ==========================================
@@ -63,4 +63,4 @@ Office 365 方案支援多重要素驗證（MFA），可增加 Office 365 服務
 |租使用者類型  |可用的 MFA 第二個因數選項  |筆記  |
 |---------|---------|---------|
 |**僅限雲端**     |針對 Office 365 的 MFA <ul><li>通話</li><li>文字訊息</li><li>行動代理程式更新</li><li>行動應用程式驗證碼</li></ul>        |[規劃 Office 365 部署的多重要素驗證](https://support.office.com/article/Plan-for-multi-factor-authentication-for-Office-365-Deployments-043807b2-21db-4d5c-b430-c8a6dee0e6ba)         |
-|**混合式設定（已同步或聯合身分識別模型）**     |<ul><li>針對 Office 365 的 MFA</li><li>Azure MFA 模組（ADFS 整合）</li><li>物理或虛擬智慧卡（ADFS 整合）</li></ul>         |注意：您可以使用[AZURE AD 身分識別提供者相容性](https://www.microsoft.com/en-us/download/details.aspx?id=56843)檔的其他 MFA 解決方案         |
+|**混合式設定（已同步或聯合身分識別模型）**     |<ul><li>針對 Office 365 的 MFA</li><li>Azure MFA 模組（ADFS 整合）</li><li>物理或虛擬智慧卡（ADFS 整合）</li></ul>         |注意：您可以使用[AZURE AD 身分識別提供者相容性](https://www.microsoft.com/download/details.aspx?id=56843)檔的其他 MFA 解決方案         |

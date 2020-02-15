@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： PSTN 會議摘要報告
+title: 'Lync Server 2013: PSTN 會議摘要報告'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184764
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f8cd36f651a84b25f7e8163a8cfc40aff5162f90
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: aa902b9e4d53bf0ebbedf835296a371437860095
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724793"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043455"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="pstn-conference-summary-report-in-lync-server-2013"></a>Lync Server 2013 中的 PSTN 會議摘要報告
+# <a name="pstn-conference-summary-report-in-lync-server-2013"></a>Lync Server 2013 中 PSTN 會議摘要報告
 
 </div>
 
@@ -35,31 +35,31 @@ ms.locfileid: "41724793"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-22_
+_**主題上次修改日期：** 2012年-10-22_
 
-在 Microsoft Lync Server 2013 中，PSTN 會議是一個會議，其中至少有一個參與者使用 PSTN （公開交換電話網絡）電話撥入音訊部分。 （PSTN 手機是「有線電話、」手機或任何其他不使用語音 over IP 的電話）。雖然在監視報告中稱為 PSTN 會議，但這些會議可能更常見，也稱為撥入式會議。
+Microsoft Lync Server 2013 中，在 PSTN 會議是在其中至少一名參與者撥入的音訊部分使用 PSTN （公用交換的電話網路） 電話任何會議。 (PSTN 電話是 「 室內電話 」，行動電話或任何其他這不會讓使用的 Voice over IP 電話。)雖然稱為監控報告中的 PSTN 會議，但這些會議也許更常稱為電話撥入式會議。
 
-PSTN 會議摘要報告提供貴組織中所有 PSTN 會議的相關資訊（也就是至少有一個撥入使用者的所有會議）。 此報告包含有關 PSTN 會議總數、參與這些會議的人數總數，以及最重要的電話撥入使用者總數（總 PSTN 參與者統計值）的相關資訊。
+PSTN 會議摘要報告提供有關保留組織 （亦即，所有的會議有至少一個電話撥入式使用者） 中的所有 PSTN 會議資訊。 報告中包含的 PSTN 會議，參與那些會議中，和，也許，大部分的人員總數總數的相關資訊很重要，電話撥入式使用者 （總共 PSTN 參與者公制） 總數。
 
 <div>
 
 ## <a name="accessing-the-pstn-conference-summary-report"></a>存取 PSTN 會議摘要報告
 
-PSTN 會議摘要報告只能從 [監控報告] 首頁進行存取。 此報告未連結至任何其他報表。 請注意，您無法取得 PSTN 會議的詳細呼叫資訊，因為個別端點負責提交此資訊。 PSTN 手機無法追蹤或提交通話詳細資訊。
+只能從監視報告首頁存取 PSTN 會議摘要報告。 這份報告未連結至任何其他報告。 請注意，您無法擷取詳細的通話資訊 PSTN 會議，部分因為個別端點負責送出此資訊。 PSTN 電話不能夠追蹤或送出通話詳細資訊。
 
 </div>
 
 <div>
 
-## <a name="making-the-best-use-of-the-pstn-conference-summary-report"></a>充分利用 PSTN 會議摘要報告
+## <a name="making-the-best-use-of-the-pstn-conference-summary-report"></a>PSTN 會議摘要報告的最佳用法
 
-若要判斷包含撥入使用者的所有會議的百分比，請比較 PSTN 會議總量與在[Lync Server 2013 的 [會議摘要] 報告中](lync-server-2013-conference-summary-report.md)找到的總會議度量值。
+若要判斷所有包含撥入式使用者之會議的百分比，比較的值與[Lync Server 2013 中的會議摘要報告](lync-server-2013-conference-summary-report.md)上找到的會議總數公制總 PSTN 會議計量。
 
-如果您沒有看到許多您可能會看到的 PSTN 會議，請記住，組織允許撥入使用者的會議的能力取決於已指派給使用者的會議原則：您的使用者數只有幾個使用者可以保留 PSTN-ZA&PLATFORM 會議您顯然會看到很少的 PSTN 會議。 您可以透過在 Lync Server 管理命令介面中執行下列命令，快速確認您的會議原則（如果有的話）允許使用者排程 PSTN 會議：
+如果看不到多個 PSTN 會議預期您可能必須以查看，請記住，組織可讓使用者撥入式會議的功能取決於已指派給使用者的會議原則： 如果很少的使用者可以保留 PSTN 很明顯地，您會看到極少 PSTN 會議的會議。 您可以快速驗證讓使用者執行從 Lync Server 管理命令介面中的下列命令來排定 PSTN 會議的會議原則 （如果有的話）：
 
     Get-CsConferencingPolicy | Select-Object Identity, EnableDialInConferencing
 
-這樣會傳回如下所示的資料：
+該命令將傳回類似下列的資料：
 
     Identity                                EnableDialInConferencing
     --------                                ------------------------
@@ -69,17 +69,17 @@ PSTN 會議摘要報告只能從 [監控報告] 首頁進行存取。 此報告�
     Tag:RedmondDialInUsers                                      True
     Tag:DublinDialInUsers                                       True
 
-這樣會傳回如下所示的資料：
+該命令將傳回類似下列的資料：
 
 </div>
 
 <div>
 
-## <a name="filters"></a>濾鏡
+## <a name="filters"></a>篩選
 
-篩選提供一種方式，可讓您傳回更精細設定目標的資料集，或以不同方式查看傳回的資料。 例如，PSTN 會議摘要報告可讓您選擇資料的分組方式。 在這種情況下，會議會依小時、日、周或月進行分組。
+篩選器可以讓您傳回更精確的資料集或者以不同方法檢視傳回的資料。 例如，PSTN 會議摘要報告可讓您選擇分組資料的方式。 在此情況下，會議分組小時、 日、 週或月。
 
-下表列出您可搭配 PSTN 會議摘要報告使用的篩選準則。
+下表列出您可以搭配 PSTN 會議摘要報告的篩選器。
 
 ### <a name="pstn-conference-summary-report-filters"></a>PSTN 會議摘要報告篩選器
 
@@ -91,40 +91,40 @@ PSTN 會議摘要報告只能從 [監控報告] 首頁進行存取。 此報告�
 <thead>
 <tr class="header">
 <th>名稱</th>
-<th>說明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>從</strong></p></td>
-<td><p>時間範圍的開始日期/時間。 若要依時間查看資料，請輸入 [開始日期] 和 [時間]，如下所示：</p>
+<td><p><strong>From</strong></p></td>
+<td><p>時間範圍的開始日期/時間。若要按照小時檢視資料，請輸入開始日期和時間，如下所示：</p>
 <p>7/7/2012 1:00 PM</p>
-<p>如果您沒有輸入開始時間，報告會在指定日期自動于12:00 點開始。 若要依天查看資料，只需輸入日期：</p>
-<p>7/7/2012</p>
-<p>若要依周或依月查看，請在您要查看的周或月份中，輸入您要查看的日期（不需要輸入周或月的第一天）：</p>
-<p>7/3/2012</p>
-<p>周數總是從星期日到星期六執行。</p></td>
+<p>如果您未輸入開始時間，報告會自動從指定日期凌晨 12 點開始。若要按照日期檢視資料，只要輸入日期即可：</p>
+<p>2012/7/7</p>
+<p>若要按星期或月份檢視，請輸入當週或該月您想檢視的日期 (您不必輸入當週或該月的第一天)：</p>
+<p>2012/7/3</p>
+<p>星期永遠是從星期日開始星期六結束。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>自</strong></p></td>
-<td><p>時間範圍的結束日期/時間。 若要依時間查看資料，請輸入 [結束日期] 和 [時間]，如下所示：</p>
+<td><p><strong>To</strong></p></td>
+<td><p>時間範圍的結束日期/時間。若要按照小時檢視資料，請輸入開始日期和時間，如下所示：</p>
 <p>7/7/2012 1:00 PM</p>
-<p>如果您沒有輸入結束時間，報告會在指定日期自動結束于12:00。 若要依天查看資料，只需輸入日期：</p>
-<p>7/7/2012</p>
-<p>若要依周或依月查看，請在您要查看的周或月份中，輸入您要查看的日期（不需要輸入周或月的第一天）：</p>
-<p>7/3/2012</p>
-<p>周數總是從星期日到星期六執行。</p></td>
+<p>如果您未輸入結束時間，報告會自動在指定日期凌晨 12 點結束。若要按照日期檢視資料，只要輸入日期即可：</p>
+<p>2012/7/7</p>
+<p>若要按星期或月份檢視，請輸入當週或該月您想檢視的日期 (您不必輸入當週或該月的第一天)：</p>
+<p>2012/7/3</p>
+<p>星期永遠是從星期日開始星期六結束。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Interval</strong></p></td>
-<td><p>時間間隔。 選取下列其中一項：</p>
+<td><p>時間間隔。請選取下列其中一項：</p>
 <ul>
-<li><p>每小時（最多可顯示25小時）</p></li>
-<li><p>每天（最多可以顯示31天）</p></li>
-<li><p>每週（最多可以顯示12周）</p></li>
-<li><p>每月（最多可以顯示12個月）</p></li>
+<li><p>每小時 (最多可以顯示 25 個小時)</p></li>
+<li><p>每日 (最多可以顯示 31 天)</p></li>
+<li><p>每週 (最多可以顯示 12 週)</p></li>
+<li><p>每月 (最多可以顯示 12 個月)</p></li>
 </ul>
-<p>如果 [開始] 和 [結束] 日期超過所選間隔所允許的最大值數，則會顯示值的數目上限（從開始日期開始）。 例如，如果您選取 [開始日期 7/7/2012] 和 [結束日期] 2/28/2012 的 [日間隔]，則會顯示 8/7/2012 12:00 AM 至 9/7/2012 12:00 AM （也就是31天內的資料）的資料。</p></td>
+<p>若開始與結束日期超出所選間隔允許的上限值，將只會顯示上限值 (從開始日期開始顯示)。例如，若您選取 [每日] 間隔，並將開始與結束日期分別設為 2012 年 7 月 7 日及 2012 年 2 月 28 日，將只會顯示 2012 年 8 月 7 日凌晨 12 點到 2012 年 9 月 7 日凌晨 12 點這段期間的資料 (亦即只會顯示 31 天的資料)。</p></td>
 </tr>
 </tbody>
 </table>
@@ -134,11 +134,11 @@ PSTN 會議摘要報告只能從 [監控報告] 首頁進行存取。 此報告�
 
 <div>
 
-## <a name="metrics"></a>指標
+## <a name="metrics"></a>計量
 
 下表列出 PSTN 會議摘要報告中的資訊。
 
-### <a name="pstn-conference-summary-report-metrics"></a>PSTN 會議摘要報告度量單位
+### <a name="pstn-conference-summary-report-metrics"></a>PSTN 會議摘要報告計量
 
 <table>
 <colgroup>
@@ -148,54 +148,54 @@ PSTN 會議摘要報告只能從 [監控報告] 首頁進行存取。 此報告�
 </colgroup>
 <thead>
 <tr class="header">
-<th>名稱</th>
-<th>您可以針對此專案進行排序嗎？</th>
-<th>說明</th>
+<th>姓名</th>
+<th>可以排序這個項目嗎？</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>工資</strong></p>
-<p><strong>日常</strong></p>
-<p><strong>周更新</strong></p>
-<p><strong>次</strong></p></td>
+<td><p><strong>每小時</strong></p>
+<p><strong>每日</strong></p>
+<p><strong>每週</strong></p>
+<p><strong>每月</strong></p></td>
 <td><p>否</p></td>
-<td><p>指出選取的時間間隔。 在適當的地方，您可以按一下指定的時間間隔，以查看該間隔的詳細資訊。 例如，如果您使用的是每日間隔，而您按一下 [7/7/2012]，就會看到該日期的使用者註冊活動的每小時細目。</p></td>
+<td><p>指示所選的時間間隔。在適用的情況下，只要按一下指定的時間間隔，即可檢視該間隔的詳細資訊。例如，若您使用 [每日] 間隔並按一下 7/7/2012，將會顯示該日期之使用者登錄活動的每小時明細。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>PSTN 會議總數</strong></p></td>
 <td><p>否</p></td>
-<td><p>允許撥入存取的會議總數。</p></td>
+<td><p>會議總數允許撥入存取。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>參與者總數</strong></p></td>
 <td><p>否</p></td>
-<td><p>參與允許撥入存取之會議的人員總數。</p></td>
+<td><p>參與允許撥入存取的會議總數。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>A/V 會議紀要總計</strong></p></td>
+<td><p><strong>A/V 會議總分鐘數</strong></p></td>
 <td><p>否</p></td>
-<td><p>音訊/視訊會議的總時間。</p></td>
+<td><p>音訊/視訊會議時間總數。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>A/V 會議參與者紀要總計</strong></p></td>
+<td><p><strong>A/V 會議參與者總分鐘數</strong></p></td>
 <td><p>否</p></td>
-<td><p>音訊/視覺參與者的總時間。 例如，如果一個參與者在 A/V 會議中花費了五分鐘，而另一個參與者在同一筆會議中花費了三分鐘，則總的 A/V 會議參與者時間會是八分鐘。</p></td>
+<td><p>音訊/visual 參與者時間總數。 例如，如果一名參與者所花費的五分鐘在 A / V 會議，並另一位參與者所花費在同一場會議的總 A 3 分鐘 / V 會議參與者時間就是 8 分鐘的時間。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>PSTN 參與者總數</strong></p></td>
 <td><p>否</p></td>
-<td><p>撥入會議且允許撥入存取的使用者總數。</p></td>
+<td><p>使用者撥打到允許撥入存取的會議總數。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>PSTN 參與者通話總分鐘數</strong></p></td>
+<td><p><strong>PSTN 參與者分鐘總數</strong></p></td>
 <td><p>否</p></td>
-<td><p>撥入使用者所花費的會議時間總量。 例如，如果一個撥入參與者在會議中花了五分鐘的時間，而另一個參與者在同一個會議中花費了三分鐘，則 PSTN 參與者時間總會是八分鐘。</p></td>
+<td><p>總數量所花費的撥入使用者的會議時間的詳細資訊。 例如，如果一個電話撥入式參與者所花費的會議中的五分鐘及其他參與者所花費在同一場會議中的三個分鐘，PSTN 參與者時間總計會是 8 分鐘的時間。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>唯一的會議召集人</strong></p></td>
+<td><p><strong>唯一會議召集人</strong></p></td>
 <td><p>否</p></td>
-<td><p>組織至少有一部允許撥入存取的會議的使用者總數。 組織多個會議的使用者會算作一個唯一的召集人，就像只組織單一會議的使用者。</p></td>
+<td><p>組織允許撥入存取的至少一場會議的使用者總數。 召集過多次會議的使用者計為一個專屬召集人，就像只召集過一次會議的使用者一樣。</p></td>
 </tr>
 </tbody>
 </table>

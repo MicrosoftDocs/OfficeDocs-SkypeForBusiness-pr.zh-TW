@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8c700ed6fb4f95f3cc9a4ecfc6d66c7791aabb74
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 20fd9372c34fd189868aa32882115bee3f6c6f8f
+ms.sourcegitcommit: 346b58b5d5ea0d2ec68891275628dfde32c074fe
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41833233"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41977525"
 ---
 <a name="what-the-guest-experience-is-like"></a>來賓體驗像什麼
 =================================
@@ -52,10 +52,11 @@ ms.locfileid: "41833233"
 |存取商務用 OneDrive 儲存空間  <br/> |![描述核取記號的圖示 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |建立整個租使用者與團隊/頻道來賓存取原則  <br/> |![描述核取記號的圖示 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |邀請 Office 365 租使用者網域以外的使用者 <br/>  *小組擁有者控制此設定。*  <br/> <br/> |![描述核取記號的圖示 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|建立小組  <br/> |![描述核取記號的圖示 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|建立團隊  <br/> |![描述核取記號的圖示 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |探索並加入公開團隊  <br/> |![描述核取記號的圖示 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |查看組織結構  <br/> |![描述核取記號的圖示 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |使用內嵌翻譯  <br/> |![描述核取記號的圖示 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|成為團隊擁有者  <br/> |![描述核取記號的圖示 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
    
 下表顯示與其他使用者類型相比，來賓可用的通話與會議功能。
 

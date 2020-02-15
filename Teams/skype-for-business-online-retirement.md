@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c9986355905cb40e26182368dec8f53d796432fe
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: faaed56f9b150104fba93683b37b7551b828ce80
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837943"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029394"
 ---
 # <a name="skype-for-business-online-retirement"></a>終止對商務用 Skype Online 的支援
 
@@ -34,7 +34,7 @@ ms.locfileid: "41837943"
 
 ## <a name="why-are-we-making-this-announcement-now"></a>為什麼我們要立即進行本次發佈？
 
-在2017中，我們在 Microsoft 365 中啟動 Microsoft 團隊做為「小組中心」。 小組將聊天、影片、通話和檔共同作業結合在單一、整合的應用程式中，並能讓您以全新的方式運作。 在過去兩年中，我們與客戶密切合作，進一步改善小組，現在我們認為，我們隨時可以放心地建議您將它推薦給所有商務用 Skype Online 客戶。 已進行移動的客戶告訴我們，小組不僅已協助他們改善共同作業，也提供了極少的機會重新思考工作在組織中的完成方式。 使用團隊，世界各地的公司都變得更加靈活、縮短週期時間、改善主要工作流程的效率，以及削減不必要的額外負荷。 團隊不僅僅是商務用 Skype Online 的升級，它是一種強大的工具，可讓您以全新的方式來開展業務。 但不要讓我們的 word 看不到！ 若要深入瞭解貴組織小組的潛在好處，請參閱最近發佈的 Forrester 白皮書 "[Microsoft 團隊的經濟效益總成本影響](https://www.microsoft.com/en-us/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams.pdf)"。
+在2017中，我們在 Microsoft 365 中啟動 Microsoft 團隊做為「小組中心」。 小組將聊天、影片、通話和檔共同作業結合在單一、整合的應用程式中，並能讓您以全新的方式運作。 在過去兩年中，我們與客戶密切合作，進一步改善小組，現在我們認為，我們隨時可以放心地建議您將它推薦給所有商務用 Skype Online 客戶。 已進行移動的客戶告訴我們，小組不僅已協助他們改善共同作業，也提供了極少的機會重新思考工作在組織中的完成方式。 使用團隊，世界各地的公司都變得更加靈活、縮短週期時間、改善主要工作流程的效率，以及削減不必要的額外負荷。 團隊不僅僅是商務用 Skype Online 的升級，它是一種強大的工具，可讓您以全新的方式來開展業務。 但不要讓我們的 word 看不到！ 若要深入瞭解貴組織小組的潛在好處，請參閱最近發佈的 Forrester 白皮書 "[Microsoft 團隊的經濟效益總成本影響](https://www.microsoft.com/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams.pdf)"。
 
 ## <a name="what-is-microsoft-doing-to-help-customers-migrate-to-teams"></a>Microsoft 要做什麼以協助客戶遷移至團隊？
 

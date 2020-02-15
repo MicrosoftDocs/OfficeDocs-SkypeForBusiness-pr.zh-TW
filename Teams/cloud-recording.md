@@ -16,12 +16,12 @@ f1.keywords:
 description: 在 Microsoft 團隊中部署雲端語音功能的實用指導方針。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 38981774af168c978371b06d8de6eeedd4b16644
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 5041b35822a04dc98aa6c07d3731ad8c6791af98
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825601"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030717"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 雲端會議錄製
 
@@ -112,7 +112,7 @@ Microsoft Stream 是以符合資格的 Office 365 訂閱或獨立服務的形式
 
 若要找出儲存 Microsoft 資料流程資料的地區，請在 Microsoft Stream 中按一下 **？** 按一下右上角的 [**關於 Microsoft Stream**]，然後按一下**您的資料儲存在中**。  若要深入瞭解 Microsoft Stream 儲存資料的地區，請參閱[Microsoft 資料流程常見問題](https://docs.microsoft.com/stream/faq#which-regions-does-microsoft-stream-host-my-data-in)。
 
-若要深入瞭解如何在 Office 365 的各個服務中儲存資料，請參閱[您的資料位於何處？](https://products.office.com/en-us/where-is-your-data-located?rtc=1)
+若要深入瞭解如何在 Office 365 的各個服務中儲存資料，請參閱[您的資料位於何處？](https://products.office.com/where-is-your-data-located?rtc=1)
 
 ### <a name="turn-on-or-turn-off-recording-transcription"></a>開啟或關閉 [錄製會議]
 

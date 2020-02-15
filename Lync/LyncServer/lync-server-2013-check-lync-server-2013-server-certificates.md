@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：檢查 Lync Server 2013 伺服器憑證
+title: Lync Server 2013： 核取 Lync Server 2013 伺服器憑證
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 63969620
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: af0a80df18a4fc6e27200d1ac04476fcea798b9b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ebdbfdc4ed0f88d78fc78037a3522c73bd220270
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733993"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043505"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41733993"
 
 <span> </span>
 
-_**主題上次修改日期：** 2014-11-01_
+_**上次修改主題：** 2014年-11-01_
 
 
 <table>
@@ -46,16 +46,16 @@ _**主題上次修改日期：** 2014-11-01_
 <tbody>
 <tr class="odd">
 <td><p>驗證排程</p></td>
-<td><p>次</p></td>
+<td><p>每月</p></td>
 </tr>
 <tr class="even">
-<td><p>測試控管</p></td>
+<td><p>測試工具</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>需要許可權</p></td>
-<td><p>使用 Lync Server 管理命令介面在本機執行時，使用者必須是 RTCUniversalServerAdmins 安全性群組的成員。</p>
-<p>使用 Windows PowerShell 的遠端實例執行時，必須為使用者指派具有執行 CsCertificate Cmdlet 許可權的 RBAC 角色。 若要查看可以使用此 Cmdlet 的所有 RBAC 角色清單，請從 Windows PowerShell 提示執行下列命令：</p>
+<td><p>必要的權限</p></td>
+<td><p>當執行在本機上使用 Lync Server 管理命令介面，使用者必須是 RTCUniversalServerAdmins 安全性群組的成員。</p>
+<p>當執行使用 Windows PowerShell 的遠端執行個體時，使用者必須被指派具有執行 Get-cscertificate cmdlet 的權限的 RBAC 角色。 若要查看可以使用此 cmdlet 的所有 RBAC 角色的清單，請在 Windows PowerShell 命令提示執行下列命令：</p>
 <p><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Get-CsCertificate&quot;}</code></p></td>
 </tr>
 </tbody>
@@ -64,9 +64,9 @@ _**主題上次修改日期：** 2014-11-01_
 
 <div>
 
-## <a name="description"></a>說明
+## <a name="description"></a>描述
 
-CsCertificate Cmdlet 可讓您取得每個 Lync 伺服器憑證的相關資訊。 這特別重要，因為憑證擁有內建的到期日。 例如，私人頒發的憑證通常會在12個月後到期。 如果您的任何 Lync 伺服器憑證到期，您將會遺失隨附的功能，直到重新更新或取代憑證為止。
+Get-cscertificate cmdlet 可讓您擷取每個 Lync 伺服器憑證的相關資訊。 這是特別重要，因為憑證具有內建到期日期。 例如、 私下發出的憑證通常 12 個月後過期。 如果任何您 Lync Server 的憑證到期然後該憑證會更新或取代之前，您會失去隨附的功能。
 
 </div>
 
@@ -74,77 +74,77 @@ CsCertificate Cmdlet 可讓您取得每個 Lync 伺服器憑證的相關資訊�
 
 ## <a name="running-the-test"></a>執行測試
 
-若要返回每個 Lync 伺服器憑證的相關資訊，請執行下列命令：
+若要傳回每個 Lync 伺服器的相關資訊的憑證只會執行下列命令：
 
 `Get-CsCertificate`
 
-或者，您可以根據到期日來篩選退回憑證資訊。 例如，這個命令會將傳回的資料限制為到期的憑證（在2014年6月1日之後就不能使用）：
+或者，您可以篩選傳回的憑證資訊會根據 [到期日。 例如，此命令傳回的資料限制為過期的憑證 （無法使用之後） 2014 年 6 月 1 日：
 
 `Get-CsCertificate | Where-Object {$_.NotAfter -lt "6/1/2014"}`
 
-如需詳細資訊，請參閱 CsCertificate Cmdlet 的說明文件。
+如需詳細資訊，請參閱 < Get-cscertificate cmdlet 的說明文件。
 
-請注意，雖然 CsCertificateConfiguration Cmdlet 存在，但管理員並不是很實用的。 （相反，該 Cmdlet 主要由證書嚮導使用）。雖然這個 Cmdlet 能正常運作，但其傳回的資訊是最小值，如下列輸出範例所示：
+請注意，雖然 Test-cscertificateconfiguration 指令程式已存在，但它不是很有用給系統管理員。 （相反地，該 cmdlet 主要由使用 [憑證] 精靈。）雖然指令程式的運作方式，它會傳回的資訊是最小值，下列的輸出範例所示：
 
 指紋使用
 
 \---------- ---
 
-A9D51A2911C74FABFF7F2A8A994B20857D399107 預設值
+A9D51A2911C74FABFF7F2A8A994B20857D399107 預設
 
 </div>
 
 <div>
 
-## <a name="reviewing-the-output"></a>檢查輸出
+## <a name="reviewing-the-output"></a>檢閱輸出
 
-CsCertificate Cmdlet 會針對您的每個 Lync Server 憑證傳回如下所示的資訊：
+Get-cscertificate cmdlet 會傳回類似以下的每個 Lync 伺服器憑證資訊：
 
-Issuer （頒發者）： CN = FabrikamCA
+簽發者： CN = FabrikamCA
 
-NotAfter： 12/28/2015 3:35:41 PM
+NotAfter: 2015/12/28/下午 3:35:41
 
-NotBefore： 1/2/2014 12:49:37 PM
+NotBefore: 1/2/2014年下午 12:49:37
 
-SerialNumber：611BB01200000000000C
+SerialNumber: 611BB01200000000000C
 
-Subject： CN = LYNC-SE.fabrikam.com
+主旨： CN = LYNC SE.fabrikam.com
 
-AlternativeNames： {sip.fabrikam.com，LYNC-SE.fabrikam.com，
+AlternativeNames: {sip.fabrikam.com，LYNC SE.fabrikam.com，
 
-meet.fabrikam.com、admin.fabrikam.com ...}
+meet.fabrikam.com，admin.fabrikam.com...}
 
-Thumbprint： A9D51A2911C74FABFF7F2A8A994B20857D399107
+指紋： A9D51A2911C74FABFF7F2A8A994B20857D399107
 
-使用：預設值
+使用： 預設值
 
-根據規則，涉及 Lync Server 憑證的主要問題涉及日期和時間，例如當證書生效（NotBefore）或到期時（NotAfter）。 由於這些日期和時間如此重要，因此您可能會想要將傳回的資料限制在證書使用、憑證序號及證書到期日等資訊。然後，您就可以快速查看所有憑證以及到期日。 若要只返回該資訊，請使用此命令與下列選項一起顯示：
+一般而言，涉及 Lync Server 憑證熱門問題牽涉到日期和時間，例如憑證時才會生效 (NotBefore) 或到期 (NotAfter)。 因為這些日期和時間是非常重要，所以您可能想要限制資訊例如憑證使用、 憑證序號及憑證到期日，傳回的資料然後您可以快速檢閱所有憑證和時將會到期。 若要傳回只是該資訊，請使用與選項搭配命令所示：
 
 `Get-CsCertificate | Select-Object Use, SerialNumber, NotAfter | Sort-Object NotAfter`
 
-該命令會傳回如下所示的資料，並以其到期日的順序排序憑證：
+該命令會傳回類似下列命令，以其到期日期的順序排序的憑證資料：
 
 使用 SerialNumber NotAfter
 
 \--- ------------ --------
 
-預設 611BB01200000000000C 12/28/2015 3:35:41 PM
+預設 611BB01200000000000C 2015/12/28 下午 3:35:41
 
-WebServicesInteral 32980AA20BBB20000191 02/15/2016 2:16:12 PM
+WebServicesInteral 32980AA20BBB20000191 2016 02 月 15 日下午 2:16:12
 
-WebServicesExternal 0451B012003872651A0C 02/20/2016 7:11:58 AM
+WebServicesExternal 0451B012003872651A0C 2016 02 月 20 日上午 7:11:58
 
-如果您有憑證問題，您可能會想要查看為憑證設定的 AlternativeNames。 乍一看，那就是問題。 根據預設，視主控台視窗的大小而定，CsCertificate 可能無法顯示所有名稱：
+如果您有憑證問題，您可能想要檢閱憑證設定 AlternativeNames。 乍看之下，這就好像有問題。 依預設，並會根據您的主控台視窗的大小，Get-cscertificate 可能無法顯示所有名稱：
 
-AlternativeNames： {sip.fabrikam.com，LYNC.fabrikam.com，
+AlternativeNames: {sip.fabrikam.com，LYNC.fabrikam.com，
 
-meet.fabrikam.com、fabrika ...}
+meet.fabrikam.com，admin.fabrika...}
 
-若要查看指派給憑證的所有替代名稱，請使用類似以下的命令：
+若要查看所有另一個指派給憑證的名稱，請使用類似這樣的命令：
 
 `Get-CsCertificate | Where-Object {$_.SerialNumber -eq "611BB01200000000000C"} | Select-Object -ExpandProperty AlternativeNames`
 
-這應該會在您的憑證上顯示所有替代名稱：
+應會顯示您所有的替代名稱的憑證：
 
 sip.fabrikam.com
 
@@ -154,7 +154,7 @@ meet.fabrikam.com
 
 admin.fabrikam.com
 
-LYNC-SE.fabrikam.com
+LYNC SE.fabrikam.com
 
 Dialin.fabrikam.com
 
@@ -162,10 +162,10 @@ Dialin.fabrikam.com
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
-[CsCertificate](https://docs.microsoft.com/powershell/module/skype/Get-CsCertificate)  
+[Get-cscertificate](https://docs.microsoft.com/powershell/module/skype/Get-CsCertificate)  
   
 
 </div>

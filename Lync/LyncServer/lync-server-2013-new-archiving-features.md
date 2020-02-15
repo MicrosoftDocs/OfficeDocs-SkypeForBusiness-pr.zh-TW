@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：新封存功能
+title: Lync Server 2013： 新的封存功能
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185288
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1509a0857b54673ab20783f69b34b59c6d2afde8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bf8c632fa5858eaf35464e9885e65343bc699e54
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765834"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043805"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,40 +35,40 @@ ms.locfileid: "41765834"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-09_
+_**主題上次修改日期：** 2012年-10-09_
 
-Lync Server 2013 中的封存功能可以封存下列類型的內容：
+封存的 Lync Server 2013 可以封存下列類型的內容：
 
   - 對等立即訊息
 
-  - 多方立即訊息的會議（會議）
+  - 多方立即訊息的會議 （會議）
 
-  - 會議內容，包括上傳的內容（例如講義）及事件相關內容（例如加入、離開、上傳共用，以及在可見度中變更）
+  - 會議內容，包括上傳的內容 (例如，講義) 和事件相關內容 (例如，加入、離開、上傳共用，以及可見度變更)
 
-此外，Lync Server 2013 中的封存功能提供可改善部署和操作效率的新功能。 這些新功能包括：
+此外，封存 Lync Server 2013 中的提供改善部署和作業效率的新功能。 這些新功能所組成：
 
-  - **在前端伺服器上封存的 Collocation。**   Lync Server 2013 沒有個別的存檔伺服器角色。 [封存] 是在企業版部署中的所有前端伺服器以及在標準版伺服器上提供的選擇性功能，可針對文件庫或網站進行設定。
+  - **組合的封存在前端伺服器上。**   Lync Server 2013 沒有個別封存伺服器角色。 封存是選擇性功能可在所有前端伺服器在 Enterprise Edition 部署中，以及在 Standard Edition 伺服器，可實作針對集區或網站上使用。
 
-  - **Microsoft Exchange 整合。**   當您部署封存時，您可以將資料儲存在您現有的 exchange 2013 儲存空間中，針對所有託管于 Exchange 2013 的使用者進行歸檔，並將其信箱放在就地保留中，因此您不需要部署個別的 SQL Server 資料庫來封存 Lync 資料。 如果您沒有 Exchange 2013 部署，或是您不想要整合 Exchange 部署，或者如果您有任何不是託管于 Exchange 2013 的 Lync 2013 使用者，且其信箱放在就地保留中，您可以使用 SQL Server 來部署個別的存檔資料庫來 store 已歸檔來自 Lync 通訊的資料。 如果您想要針對部署中的部分但不是所有使用者使用 Microsoft Exchange 整合，您可以使用 Microsoft Exchange 整合和 Lync Server 2013 存檔資料庫。 如需就地保留的詳細資訊，請參閱 [就地保留] [http://go.microsoft.com/fwlink/p/?LinkId=267500](http://go.microsoft.com/fwlink/p/?linkid=267500)。
+  - **Microsoft Exchange 整合。**   當您部署封存，您可以在整合針對與您現有的 Exchange 2013 儲存區位於 Exchange 2013 的所有使用者的封存資料存放區，他們的信箱放在原有範圍暫止時，因此您不需要部署個別的 SQL Server 資料庫，要封存 Lync 資料。 如果您沒有 Exchange 2013 部署中，如果您不想整合，或如果您有任何 Lync 2013 的使用者不位於 Exchange 2013 與他們放入原有範圍暫止的信箱，您可以使用 SQL Server 來儲存部署個別封存資料庫e 封存資料從 Lync 通訊。 如果您想要使用 Microsoft Exchange 整合的部署中的部分，但並非所有使用者，您可以使用 Microsoft Exchange 整合和 Lync Server 2013 封存資料庫。 如需原有範圍暫止的詳細資訊，請參閱 「 就地保留 」，在[http://go.microsoft.com/fwlink/p/?LinkId=267500](http://go.microsoft.com/fwlink/p/?linkid=267500)。
 
-  - **[SQL Store 鏡像]。**   當您部署封存時，您可以針對封存資料庫啟用 SQL Server 資料庫鏡像。
+  - **SQL 存放區鏡像。**   當您部署封存時，您可以啟用為封存資料庫的 SQL Server 資料庫鏡像。
 
-  - **[白板] 和 [投票] 的存檔。**   已歸檔的會議內容現在包含在會議期間共用的白板和投票。
+  - **白板與投票的封存。**   封存會議內容現在包括白板與投票，在會議期間共用。
 
-下列內容類型沒有封存：
+不會封存下列類型的內容：
 
   - 對等檔案傳輸
 
-  - 對等立即訊息與會議的音訊/視頻
+  - 對等立即訊息和會議的音訊/視訊
 
-  - 對等立即訊息和會議的應用程式共用
+  - 應用程式共用的端對端即時訊息與會議
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
-[在 Lync Server 2013 中規劃封存](lync-server-2013-planning-for-archiving.md)  
+[規劃 Lync Server 2013 中的封存](lync-server-2013-planning-for-archiving.md)  
   
 
 </div>

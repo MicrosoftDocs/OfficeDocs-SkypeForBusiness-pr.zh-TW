@@ -1,5 +1,5 @@
 ---
-title: DNS 摘要-SIP、XMPP 同盟及公用立即訊息
+title: DNS 摘要-SIP，XMPP 同盟及 public instant messaging
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49105656
 ms.date: 03/09/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c927836377a0c7c14054073a9cf17ce638662450
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 90b7b6f9639a43a1eb16623fe0ea174b6e932ab5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757567"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042764"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="dns-summary---sip-xmpp-federation-and-public-instant-messaging-in-lync-server-2013"></a>DNS 摘要-Lync Server 2013 中的 SIP、XMPP 同盟及公用立即訊息
+# <a name="dns-summary---sip-xmpp-federation-and-public-instant-messaging-in-lync-server-2013"></a>DNS 摘要-SIP，XMPP 同盟和公用立即訊息在 Lync Server 2013
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "41757567"
 
 <span> </span>
 
-_**主題上次修改日期：** 2017-03-09_
+_**主題上次修改日期：** 2017年-03-09_
 
-使用 Office 通訊伺服器或 Lync Server 合作夥伴定義同盟時所需的網域名稱系統（DNS）記錄，是由您決定是否允許其他全景夥伴自動 DNS 探索您的網域。 如果您發佈\_sipfederationtls。\_tcp。 * \<SIP 功能變數名稱\> *SRV 記錄，任何其他 SIP 聯盟網域將能夠「探索」您的同盟。 您可以透過使用 lync Server [控制台] 中的 [允許網域和封鎖網域] 設定，或使用 Lync Server 管理命令介面以及 [**取得**]、[**設定**]、[**新增**]、[ **CsAllowedDomain** ] 及 [ **CsBlockedDomain** PowerShell] Cmdlet 來控制哪些聯盟網域可以與您通訊。 如需有關如何設定這些設定及如何使用 PowerShell Cmdlet 的其他資訊，請參閱本主題結尾的**相關主題**。
+會定義與 Office Communications Server 或 Lync Server 的協力廠商的同盟所需的網域名稱系統 (DNS) 記錄取決於您的決定，若要允許的其他觀點來看協力廠商網域的 DNS 的自動探索。 如果您將發佈\_sipfederationtls。\_tcp。 * \<SIP 網域名稱\>* SRV 記錄，任何其他 SIP 同盟的網域將能夠 「 探索 」 同盟。 您可以控制哪些同盟的網域可以與彼此您藉由使用允許的網域和封鎖的網域設定 Lync Server 控制台中，或設定使用 Lync Server 管理命令介面和**取得**、**設定**、**新增**、**移除 CsAllowedDomain**及**New-csblockeddomain** PowerShell cmdlet 的允許或封鎖的網域組態。 如需如何進行這些設定以及 PowerShell Cmdlet 的用法之詳細資訊，請參閱本主題最後的**相關主題**。
 
-[DNS 記錄] 摘要表格描述開啟或可探索的同盟聯盟所需的專案。 如果您不想要實施同盟探索，您可以決定不設定\_sipfederationtls。\_tcp。 *SIP 功能變數名稱\> \< *
+DNS 記錄摘要表格會說明針對開放或可公開同盟的必要輸入。 如果您不想要實作同盟探索，您可以決定未設定\_sipfederationtls。\_tcp。 * \<SIP 網域名稱\>* 記錄。
 
 <div>
 
 
 > [!IMPORTANT]
-> 在特定情況下，您必須有 _sipfederationtls _tcp。 <EM> &lt;SIP 功能變數名稱&gt; </EM>SRV 記錄，但您不想有可探索的同盟。 其中一個實例就是您為使用者部署行動性的位置。 行動推播通知 clearinghouse （PNCH）是一種特殊類型的同盟，在 Apple iPhone 或 iPad 上使用 Lync 2010 行動用戶端2010或 lync 2013 行動用戶端的 Microsoft Lync Mobile 用戶端使用。 _Sipfederationtls. _tcp。 <EM> &lt;SIP 功能變數名稱&gt; </EM>SRV 記錄是在行動與推播通知的情況下使用。 若要緩解此問題並控制您的可搜尋性，請清除 [<STRONG>啟用合作夥伴網域探索</STRONG>的設定]，以關閉探索。
+> 有特定案例，您必須有 _sipfederationtls._tcp。 <EM> &lt;SIP 網域名稱&gt;</EM>SRV 記錄，但您不想讓探索同盟。 其中一種情況是您為您的使用者部署行動性的位置。 行動推播通知結算所 (PNCH) 是一種特殊類型的 Apple iPhone 或 iPad 使用 Lync 2010 Mobile 用戶端或使用 Lync 2010 Mobile 或 Lync 2013 行動用戶端的 Windows Phone 上的 Microsoft Lync 行動用戶端所用同盟。 _Sipfederationtls._tcp。 <EM> &lt;SIP 網域名稱&gt;</EM>SRV 記錄會在行動性和推入通知的情況下使用。 若要降低此問題，並控制您可測知性，清除 [<STRONG>啟用協力廠商網域探索</STRONG>] 以關閉 [探索] 設定。
 
 
 
 </div>
 
-若要為您的部署設定可擴展的訊息和目前狀態通訊協定（XMPP），您可以在外部 DNS 伺服器中建立兩個網域名稱系統（DNS）記錄，將記錄解析成 Edge 伺服器或 Edge 池的存取邊緣服務。
+若要設定可延伸訊息和顯示狀態通訊協定 (XMPP) 部署，您可以建立兩個網域名稱系統 (DNS) 記錄會將記錄解析至 Edge Server 或 Edge 集區的 [Access Edge service 的外部 DNS 伺服器中。
 
-當您設定網域名稱系統（DNS）以取得公用立即訊息連線時，您會發現支援外部使用者的設定將支援公用 IM 連線。 如果您已設定 Edge 伺服器或 Edge 池，您應該擁有支援公用 IM 連線所需的 DNS 記錄。
+當您設定網域名稱系統 (DNS) 的 public instant messaging 連線時，您會發現支援外部使用者的設定將支援公用 IM 連線。 如果您已設定您的 Edge Server 或 Edge 集區，您應該有支援公用 IM 連線所需的 DNS 記錄。
 
 <div>
 
-## <a name="dns-summary---sip-federation-including-public-instant-messaging-connectivity"></a>DNS 摘要-SIP 同盟，包括公用立即訊息連線
+## <a name="dns-summary---sip-federation-including-public-instant-messaging-connectivity"></a>DNS 摘要-SIP 同盟包括 Public Instant Messaging 連線
 
 
 <table>
@@ -69,23 +69,23 @@ _**主題上次修改日期：** 2017-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>位置/類型/埠</th>
-<th>稱</th>
+<th>位置/類型/連接埠</th>
+<th>FQDN</th>
 <th>IP 位址/FQDN 主機記錄</th>
-<th>地圖/批註</th>
+<th>對應至/註解</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>外部 DNS/SRV/5061</p></td>
-<td><p>_sipfederationtls. _tcp. .com</p></td>
+<td><p>_sipfederationtls._tcp.contoso.com</p></td>
 <td><p>sip.contoso.com</p></td>
-<td><p>Access Edge 服務外部介面需要將同盟自動 DNS 探索到其他潛在的同盟夥伴，且稱為「允許的 SIP 網域」（在先前的版本中稱為「增強聯盟」）。在已啟用 Lync 功能的使用者的情況中，針對所有 SIP 網域重複上述動作</p>
+<td><p>Access Edge service 的外部介面所需的 DNS 自動探索其他潛在同盟協力廠商同盟，就所謂的 「 允許的 SIP 網域 」 （先前版本稱為增強型的同盟）。啟用 Lync 之使用者的所有 SIP 網域，依需要重複執行</p>
 
 
 
 > [!IMPORTANT]
-> 行動與推播通知結算所需要這個 SRV 記錄。 在有多個 SIP 網域的情況下，為每一個要有 Lync 行動用戶端的網域建立併發布 SRV 記錄。 如果部署支援的每個 SIP 網域沒有明確的 SRV 記錄，則推播通知服務和 Apple 推播通知服務可能無法如期運作。
+> 行動性和推播通知結算所都必須使用此 SRV 記錄。 在情況下是多個 SIP 網域，建立及發佈會有 Lync 行動用戶端的每個網域的 SRV 記錄。 推入通知服務和 Apple 推播通知服務可能無法運作如預期般是否有不部署支援的每個 SIP 網域的明確 SRV 記錄。
 
 </td>
 </tr>
@@ -97,7 +97,7 @@ _**主題上次修改日期：** 2017-03-09_
 
 <div>
 
-## <a name="dns-summary---extensible-messaging-and-presence-protocol-xmpp"></a>DNS 摘要-可擴展的訊息和目前狀態通訊協定（XMPP）
+## <a name="dns-summary---extensible-messaging-and-presence-protocol-xmpp"></a>DNS 摘要-Extensible Messaging and Presence Protocol (XMPP)
 
 
 <table>
@@ -109,24 +109,24 @@ _**主題上次修改日期：** 2017-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>位置/類型/埠</th>
-<th>稱</th>
+<th>位置/類型/連接埠</th>
+<th>FQDN</th>
 <th>IP 位址/FQDN 主機記錄</th>
-<th>地圖/批註</th>
+<th>對應至/註解</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>外部 DNS/SRV/5269</p></td>
-<td><p>_xmpp-_tcp. .com</p></td>
+<td><p>_xmpp server._tcp.contoso.com</p></td>
 <td><p>xmpp.contoso.com</p></td>
-<td><p>XMPP [存取邊緣服務] 或 [Edge] 池中的 [proxy 外部介面]。在已啟用 Lync 功能的使用者中，針對所有內部 SIP 網域重複上述步驟，可透過全域原則、使用者所處的網站原則，或套用使用者原則來設定外部存取原則。啟用 Lync 的使用者。 您也必須在 XMPP 聯盟夥伴原則中設定允許的 XMPP 網域。 如需其他詳細資料，請參閱另<strong>請</strong>參閱中的主題</p></td>
+<td><p>XMPP proxy 外部介面的 Access Edge 服務或 Edge 集區。視您的 Lync 所有內部 SIP 網域重複啟用與 XMPP 連絡人的連絡人允許透過全域原則、 使用者所在的網站原則或使用者原則套用到的外部存取原則設定的位置的使用者啟用 Lync 功能的使用者。 允許的 XMPP 網域也必須設定 XMPP 同盟協力廠商原則中。 請參閱如需詳細資訊<strong>請參閱</strong>主題</p></td>
 </tr>
 <tr class="even">
 <td><p>外部 DNS/A</p></td>
-<td><p>xmpp.contoso.com （例如）</p></td>
-<td><p>Edge 伺服器或邊緣池託管 XMPP proxy 的存取邊緣服務的 IP 位址</p></td>
-<td><p>指向託管 XMPP proxy 服務的存取邊緣服務或 Edge 池。 通常，您所建立的 SRV 記錄會指向這個主機（A 或 AAAA）記錄</p></td>
+<td><p>xmpp.contoso.com (範例)</p></td>
+<td><p>IP 位址的 Access Edge service 上您的 Edge Server 或 Edge 集區裝載 XMPP proxy</p></td>
+<td><p>指向 Access Edge service 或裝載 XMPP proxy 服務的 Edge 集區。 一般而言，您建立的 SRV 記錄會指向此主機 (A 或 AAAA) 記錄</p></td>
 </tr>
 </tbody>
 </table>
@@ -136,19 +136,19 @@ _**主題上次修改日期：** 2017-03-09_
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
-[在 Lync Server 2013 中設定 XMPP 同盟](lync-server-2013-setting-up-xmpp-federation.md)  
-[在 Lync Server 2013 中設定推播通知](lync-server-2013-configuring-for-push-notifications.md)  
-[在 Lync Server 2013 中啟用或停用探索同盟協力廠商](lync-server-2013-enable-or-disable-discovery-of-federation-partners.md)  
+[設定 Lync Server 2013 中的 XMPP 同盟](lync-server-2013-setting-up-xmpp-federation.md)  
+[設定 Lync Server 2013 中的推入通知](lync-server-2013-configuring-for-push-notifications.md)  
+[啟用或停用 Lync Server 2013 中的同盟協力廠商的探索](lync-server-2013-enable-or-disable-discovery-of-federation-partners.md)  
 
 
-[Lync Server 2013 中的外部使用者存取案例](lync-server-2013-scenarios-for-external-user-access.md)  
-[針對 Lync Server 2013 判定 DNS 需求](lync-server-2013-determine-dns-requirements.md)  
+[Lync Server 2013 中的外部使用者存取的案例](lync-server-2013-scenarios-for-external-user-access.md)  
+[決定針對 Lync Server 2013 的 DNS 需求](lync-server-2013-determine-dns-requirements.md)  
 
 
-[在 Lync Server 2013 中管理組織的 SIP 同盟網域](lync-server-2013-manage-sip-federated-domains-for-your-organization.md)  
+[管理 Lync Server 2013 中組織的 SIP 同盟網域](lync-server-2013-manage-sip-federated-domains-for-your-organization.md)  
   
 
 </div>

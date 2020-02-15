@@ -20,16 +20,16 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: '瞭解附加元件授權、功能，以及如何購買 Office 365 企業版 E1 與 E3 方案。 '
-ms.openlocfilehash: 2e547c23115f43dcc54a7f4bb99190116200f319
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 18a15c59b93fa0f426c780028b0029dd909abb2a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826541"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029364"
 ---
 # <a name="office-365-enterprise-e1-and-e3"></a>Office 365 企業版 E1 和 E3
 
-如果您已購買[Office 365 企業版 E1](https://products.office.com/en-us/business/office-365-enterprise-e1-business-software)或[E3](https://products.office.com/en-us/business/office-365-enterprise-e3-business-software)方案，以下是您需要購買才能取得更多 Microsoft 團隊功能的附加元件授權。
+如果您已購買[Office 365 企業版 E1](https://products.office.com/business/office-365-enterprise-e1-business-software)或[E3](https://products.office.com/business/office-365-enterprise-e3-business-software)方案，以下是您需要購買才能取得更多 Microsoft 團隊功能的附加元件授權。
 
 |若要新增此功能|以下是您需要執行的動作|
 |:------------------|:--------------------------|

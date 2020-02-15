@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：工作表
+title: Lync Server 2013： 工作表
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185010
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 564c310bade0e0ea30b94fbda8f992dccec90021
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 576fdc4304d87e9b9edec9cd55dc0e841b330b4f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731593"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043385"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="task-table-in-lync-server-2013"></a>Lync Server 2013 中的 [任務] 表格
+# <a name="task-table-in-lync-server-2013"></a>Lync Server 2013 中的工作表
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41731593"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-08-20_
+_**主題上次修改日期：** 2012年-08-20 個_
 
-工作資料表僅供內部使用。 此表格是在 Microsoft Lync Server 2013 中推出。
+工作表是僅供內部使用。 Microsoft Lync Server 2013 中已採用此表格。
 
 </div>
 

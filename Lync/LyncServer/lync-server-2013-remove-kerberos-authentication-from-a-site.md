@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：移除網站中的 Kerberos 驗證
+title: Lync Server 2013： 從網站移除 Kerberos 驗證
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184806
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e88f3de6f653354087d1abd0f7884ee09eda2f36
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6546ac3e13795871461dcdd425e96e801ee19e9d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746813"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042905"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="in-lync-server-2013-remove-kerberos-authentication-from-a-site"></a>在 Lync Server 2013 中從網站移除 Kerberos 驗證
+# <a name="in-lync-server-2013-remove-kerberos-authentication-from-a-site"></a>Lync Server 2013 中從網站移除 Kerberos 驗證
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41746813"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-01-16_
+_**主題上次修改日期：** 2012年-01-16_
 
-若要成功完成此程式，您應該以 RTCUniversalServerAdmins 群組成員的使用者身分登入。
+若要順利完成此程序，您應以 RTCUniversalServerAdmins 群組成員的使用者身分登入。
 
-如果您需要從網站移除 Kerberos 驗證或淘汰網站，您必須使用**CsKerberosAccountAssignment** Cmdlet，從網站移除 kerberos 驗證帳戶指派。 使用下列程式來移除 Kerberos 驗證帳戶指派，這會從網站中的所有電腦移除作業。
+如果您需要從網站移除 Kerberos 驗證，或淘汰網站，您必須使用**移除 CsKerberosAccountAssignment**指令程式從網站移除 Kerberos 驗證帳戶指派。 使用下列程序來移除從網站中的所有電腦中移除工作分派的 Kerberos 驗證帳戶指派。
 
 <div class=" ">
 
 
 > [!WARNING]  
-> 如果您要永久淘汰已啟用 Kerberos 的帳戶，您應該在移除作業之後，使用 Active Directory 使用者和電腦從 Active Directory 網域服務中刪除該帳戶。 如果您打算將來使用該物件，您可能會想要保留 Active Directory 物件。
+> 如果您永久淘汰的已啟用 Kerberos 的帳戶，您應該使用 Active Directory 使用者及電腦之後您已移除工作分派從 Active Directory 網域服務刪除它。 如果您打算在未來使用物件，您可能想要保留 Active Directory 物件。
 
 
 
@@ -53,13 +53,13 @@ _**主題上次修改日期：** 2012-01-16_
 
 <div>
 
-## <a name="to-remove-kerberos-authentication-from-a-site"></a>從網站移除 Kerberos 驗證
+## <a name="to-remove-kerberos-authentication-from-a-site"></a>若要從網站移除 Kerberos 驗證
 
-1.  如果您是 RTCUniversalServerAdmins 群組的成員，請登入執行 Lync Server 2013 的網域中的電腦，或登入安裝管理工具的電腦。
+1.  以 RTCUniversalServerAdmins 群組的成員，登入網域中執行 Lync Server 2013 或入已安裝系統管理工具的電腦的電腦。
 
-2.  啟動 Lync Server 管理命令介面：按一下 [**開始**]，按一下 [**所有程式**]，按一下 [ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
+2.  啟動 Lync Server 管理命令介面： 按一下 [**開始]**，按一下 [**所有程式]**、 [ **Microsoft Lync Server 2013**]，然後按一下**Lync Server 管理命令介面**。
 
-3.  從命令列執行下列兩個命令：
+3.  在命令提示字元中執行下列命令：
     
        ```PowerShell
         Remove-CsKerberosAccountAssignment -Identity "site:SiteName"
@@ -83,7 +83,7 @@ _**主題上次修改日期：** 2012-01-16_
     
 
     > [!IMPORTANT]  
-    > 在對 Kerberos 驗證進行任何變更之後（例如新增帳戶或移除帳戶），您必須從 Lync Server Management Shell 命令提示字元執行<STRONG>Enable-CsTopology</STRONG> 。
+    > 對 Kerberos 驗證，如新增帳戶或移除帳戶進行任何變更之後您必須從 Lync Server 管理命令介面命令提示字元執行<STRONG>Enable-cstopology</STRONG> 。
 
     
     </div>

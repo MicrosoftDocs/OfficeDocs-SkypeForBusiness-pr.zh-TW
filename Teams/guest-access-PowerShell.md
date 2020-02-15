@@ -16,12 +16,12 @@ f1.keywords:
 description: 使用 PowerShell 來允許或封鎖對 Microsoft 團隊中的小組的來賓存取權。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c91d64973c97ce358741874ba45c1d6338915264
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 73fba41958711b533f541bf382be0496276f850b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834023"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42012516"
 ---
 <a name="use-powershell-to-control-guest-access-to-a-team"></a>使用 PowerShell 控制來賓對團隊的存取
 ================================================
@@ -43,7 +43,7 @@ ms.locfileid: "41834023"
 
 ## <a name="use-powershell-to-turn-guest-access-on-or-off"></a>使用 PowerShell 開啟或關閉來賓存取
 
-1.  從下載商務用 Skype Online PowerShell 模組https://www.microsoft.com/en-us/download/details.aspx?id=39366
+1.  從下載商務用 Skype Online PowerShell 模組https://www.microsoft.com/download/details.aspx?id=39366
  
 2.  將 PowerShell 會話連線到商務用 Skype Online 端點。
 

@@ -18,12 +18,12 @@ ms.custom:
 description: 針對系統管理員如何規劃、部署及執行 Microsoft 團隊的訓練影片、PowerPoint 卡座、教學課程及其他資源。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a602aef5d817e3d7aecae95491f7de559598570b
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 9cf627c21e98f64f14a8a925fa615f02b38fae28
+ms.sourcegitcommit: 561b9bab7d6f5a621436bc85ea28ea14657e7868
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834464"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048804"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Microsoft 團隊的系統管理訓練
 
@@ -90,17 +90,18 @@ ms.locfileid: "41834464"
 
 <h2>技術訓練</h2>
 
-| 模組 | 顯示器 | PowerPoint 投影片組 |
+| 模組 | 顯示器 | PowerPoint 投影片組  |
 | ------------ | -------------------- | -------------------- |
 | [Microsoft 結構-IT YouTube 頻道的團隊基本套件](https://aka.ms/MicrosoftTeamsforIT) | [影片：團隊基本](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn)版（最小10:13）<br>[影片：部署 & 設定團隊-簡介](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2)（8:22 分鐘）  <br>[影片：安全性與合規性](https://youtu.be/91lHNKVVvQ4)（12:42 分鐘）<br>[影片：團隊控制安全性與合規性](https://www.youtube.com/watch?v=Km4T4hMM__k)（10:54 分鐘）||
 | 地基-核心元件 | [顯示器](https://aka.ms/teams-foundations) | [文稿](https://aka.ms/teams-foundations-deck) |
 | Windows 桌面用戶端 | [顯示器](https://aka.ms/teams-clients) | [文稿](https://aka.ms/teams-clients-deck) |
 | 管轄、管理與生命週期 | [顯示器](https://aka.ms/teams-governance) | [文稿](https://aka.ms/teams-governance-deck) |
 | 安全性 & 合規性 | [顯示器](https://aka.ms/teams-security-compliance) | [文稿](https://aka.ms/teams-security-compliance-deck) |
-| 網路規劃 | [顯示器](https://aka.ms/teams-networking) | [文稿](https://aka.ms/teams-networking-deck) |
 | 通話品質概覽 | [顯示器](https://aka.ms/teams-quality) | [文稿](https://aka.ms/teams-quality-deck) |
 | 會議簡介 | [顯示器](https://aka.ms/teams-meetings-intro) | [文稿](https://aka.ms/teams-meetings-intro-deck) |
-| 媒體 |[顯示器](https://aka.ms/media-in-teams)  | [文稿](https://aka.ms/media-in-teams-deck)|
+| 媒體-為什麼會議很簡單|[顯示器](https://aka.ms/media-in-teams)  | [文稿](https://aka.ms/media-in-teams-deck)|
+| 媒體-媒體流程 | [顯示器](https://aka.ms/teams-media-flows) | [文稿](https://aka.ms/teams-media-flows-deck)  |
+| 動態緊急通話 | [顯示器](https://aka.ms/teams-dec) |  [文稿](https://aka.ms/teams-dec-deck) |
 | 即時事件 | [顯示器](https://aka.ms/teams-live-events-session) | [文稿](https://aka.ms/teams-live-events-deck) |
 | 電話系統簡介 | [顯示器](https://aka.ms/teams-phone-system) | [文稿](https://aka.ms/teams-phone-system-deck) |
 | 直接路由 | [顯示器](https://aka.ms/teams-direct-routing) | [文稿](https://aka.ms/teams-direct-routing-deck) |

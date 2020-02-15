@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2c3a32b49b6b95a2feea222d880a0e943c7189d0
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 23d0aac3fd5697b8e06c727acb3138a878e38bea
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827001"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008085"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>什麼是 Microsoft 團隊即時事件？
 
@@ -48,7 +48,7 @@ Microsoft 365 live 事件會將即時影片資料流程傳送到新的階層，�
 您可以從上述圖片看到，有四個主要元件與團隊中的即時事件搭配使用。
 
 > [!NOTE]
-> 如需如何設定即時事件和出席者體驗的概覽，請查看這些[短片。](https://support.office.com/en-us/article/video-plan-and-schedule-a-live-event-f92363a0-6d98-46d2-bdd9-f2248075e502)
+> 如需如何設定即時事件和出席者體驗的概覽，請查看這些[短片。](https://support.office.com/article/video-plan-and-schedule-a-live-event-f92363a0-6d98-46d2-bdd9-f2248075e502)
 
 ### <a name="scheduling"></a>排程
 團隊能讓召集人使用適當的出席者許可權來建立事件、指派事件小組成員、選取生產方法，以及邀請出席者。 如果即時事件是從 Yammer 群組中建立，則即時活動出席者就能使用 Yammer 交談來與事件中的人員互動。 

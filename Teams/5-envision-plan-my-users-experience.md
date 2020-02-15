@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d156761d8ebc39822d6ccf2fc28ed6c380c4e117
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 77a325fbe8cacb3b2760f5b3034dee0e16695278
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825181"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42021594"
 ---
 # <a name="plan-my-users-experience"></a>規劃我的使用者體驗
 
@@ -108,7 +108,7 @@ Microsoft 團隊可以用於會議或作為電話系統。 使用這些功能時
 選取裝置之後，請將它們包含在最終驗證的試驗測試方案中。 在試驗期間利用調查來收集意見反應，以確保您的裝置策略是最佳的。
 
 > [!NOTE]
-> 目前，我們建議使用透過商務用 Skype 認證計畫認證的音訊裝置。 若要尋找此程式下認證的裝置，請參閱[Microsoft 團隊裝置](https://products.office.com/en-us/microsoft-teams/across-devices/devices)和[USB 音訊與視頻裝置](https://docs.microsoft.com/SkypeForBusiness/certification/devices-usb-devices)。
+> 目前，我們建議使用透過商務用 Skype 認證計畫認證的音訊裝置。 若要尋找此程式下認證的裝置，請參閱[Microsoft 團隊裝置](https://products.office.com/microsoft-teams/across-devices/devices)和[USB 音訊與視頻裝置](https://docs.microsoft.com/SkypeForBusiness/certification/devices-usb-devices)。
 
 
 

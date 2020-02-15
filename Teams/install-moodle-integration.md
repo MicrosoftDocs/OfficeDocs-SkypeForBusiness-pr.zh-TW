@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 128e476447898e659961a27e071b992b6b802ebf
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: efb53e9b3299f45cd1abfabe508a55ca081a0b92
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836613"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045125"
 ---
 # <a name="installing-the-moodle-integration-with-microsoft-teams"></a>安裝 Moodle 整合與 Microsoft 團隊
 
@@ -173,7 +173,7 @@ Microsoft 團隊的免費 Moodle 小幫手 Bot 可協助教師與學生在 Moodl
 
 現在您已將 Bot 部署至 Azure，並將其設定為與您的 Moodle 伺服器進行交談，那就是部署 Microsoft 團隊 app 的時候了。 若要這樣做，您將會載入您從上一個步驟的 [Office 365 Moodle 外掛程式小組設定] 頁面下載的資訊清單檔案。
 
-您必須先確認已啟用應用程式的外部 app 和側載，才能安裝應用程式。 若要這樣做，您可以依照下列[步驟](https://docs.microsoft.com/en-us/MicrosoftTeams/admin-settings)進行。 確認已啟用外部應用程式後，您可以遵循下列步驟來部署您的應用程式。
+您必須先確認已啟用應用程式的外部 app 和側載，才能安裝應用程式。 若要這樣做，您可以依照下列[步驟](https://docs.microsoft.com/MicrosoftTeams/admin-settings)進行。 確認已啟用外部應用程式後，您可以遵循下列步驟來部署您的應用程式。
 
 1. 開啟 Microsoft 團隊。
 2. 按一下導覽列左下角的 [**商店**] 圖示。

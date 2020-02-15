@@ -1,5 +1,5 @@
 ---
-title: 安裝商務用 Skype Server
+title: 安裝 Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -14,52 +14,52 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.custom: Strat_SB_Admin
 ms.assetid: 71299b34-8783-4384-9949-0d3162c8a36e
-description: 摘要：瞭解如何在安裝商務用 Skype Server 時準備您的環境。 從 Microsoft 評估中心下載免費試用版商務用 Skype Server，網址為： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。
-ms.openlocfilehash: cac618aba9f97237e585ffc57b99c71a8a5c8645
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 摘要： 了解如何準備 Business Server 安裝的 Skype 環境。 下載 Microsoft 評估管理中心，從 Business Server Skype 免費試用版： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。
+ms.openlocfilehash: e33e773abf25be92c163de259af0c3f47e0b1783
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797084"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042380"
 ---
-# <a name="install-skype-for-business-server"></a>安裝商務用 Skype Server
+# <a name="install-skype-for-business-server"></a>安裝 Skype for Business Server
  
-**摘要：** 瞭解如何在安裝商務用 Skype Server 時準備您的環境。 從 Microsoft 評估中心下載免費試用版商務用 Skype Server，網址為：[https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)。
+**摘要：** 了解如何準備 Business Server 安裝的 Skype 環境。 下載 Microsoft 評估管理中心，從 Business Server Skype 免費試用版：[https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)。
   
-本文將引導您完成商務用 Skype Server 的安裝範例。 本文不會嘗試涵蓋執行完整商務用 Skype Server 安裝所需的所有程式。 其目標是在定義的拓撲中提供範例程式，其中包含基本的 [會見與共享] 功能。
+這篇文章引導您逐步完成 Skype 範例安裝 Business server。 本文不會嘗試涵蓋所有您需要執行完整的 Skype for Business Server 安裝程序。 目標是要提供範例程序中的窄定義拓撲，包括基本開會及共用功能。
   
-## <a name="overview-of-the-install-process-for-skype-for-business-server"></a>商務用 Skype Server 的安裝程式概覽
+## <a name="overview-of-the-install-process-for-skype-for-business-server"></a>Skype 商務伺服器安裝程序的概觀
 
-安裝商務用 Skype Server 包含許多不同的程式。 在您的環境中執行商務用 Skype 伺服器所需的程式，取決於您的環境細節。 例如，如果您使用的是 DNS 的 Windows Server，您將能從新增 DNS 專案的範例程式獲益。 如果您使用其他的 DNS 系統，您必須遵循特定 DNS 系統的程式。 此區段中的許多程式都是如此。
+Skype for Business Server 安裝包含許多不同的程序。 您需要取得 Skype for Business Server 環境中執行的程序取決於您的環境的細節。 例如，如果您使用 Windows Server 的 DNS，您會受益於範例程序新增 DNS 項目。 如果您使用另一個系統 DNS，您必須遵循特定的 DNS 系統的程序。 這是許多本節中的程序，則為 true。
   
-商務用 Skype 伺服器可在標準版和企業版中使用。 主要差異是標準版不支援企業版中包含的高可用性功能。 
+在 Standard Edition 及 Enterprise Edition 中使用商務用 Skype 商務伺服器。 主要差異是，Standard Edition 不支援隨附 Enterprise Edition 的高可用性功能。 
   
-商務用 Skype Server 是一種先進的產品，而確切的安裝程式則取決於您特定的情況。 本節會逐步引導您完成安裝產品的一般步驟。 不過，根據您的環境和規劃決定，每個程式可能會有所不同。 例如，對於小型組織而言，執行商務用 Skype Server Standard Edition 可能是適當的，而大型跨國公司組織可能會在全球各地專用於產品的50伺服器。
+Skype 商務 Server 是進階的產品，並完全安裝程序取決於許多您特定的情況。 本節引導您逐步完成安裝產品的一般步驟。 不過，每項程序可能會因您的環境和規劃決策。 例如，用於小型組織的單一伺服器，執行 Skype for Business Server Standard Edition 可能適用，而大型的多語系組織可能有 50 伺服器專用於產品在世界各地的位置。
   
 > [!NOTE]
-> 若要瞭解最新的累計更新，請參閱[商務用 Skype Server 更新](https://support.microsoft.com/en-us/kb/3061064)。 安裝 CU1 修補程式後，系統管理員必須執行`Update-CsAdminRole` Cmdlet。 需要使用此 Cmdlet 來存取遠端 PowerShell 中的新 GCP Cmdlet。
+> 若要了解最新的累計更新，請參閱[Skype for Business Server 更新](https://support.microsoft.com/kb/3061064)。 在安裝 CU1 修補程式完成後系統管理員必須執行`Update-CsAdminRole`指令程式。 此指令程式，才能透過遠端 PowerShell 存取新的 GCP cmdlet。
   
 > [!IMPORTANT]
-> 此區段中的程式是使用一組定義的需求，並假設已經進行特定決策的範例。 安裝商務用 Skype Server 所需的實際程式可能會有很大的差異。 在每個環境中，請使用本節中的程式做為範例，而不是作為安裝商務用 Skype Server 的逐步指南。 
+> 本節中的程序做為使用一組窄定義的需求的範例，並假設已進行特定的決策。 您要安裝 Skype for Business 伺服器的實際程序可能會很大的差異。 使用程序在本節中做為唯一範例，而不是逐步指南的每個環境中安裝 Skype for Business Server。 
   
-第一次取得商務用 Skype 伺服器並執行的步驟包括八個主要步驟。 您應該瞭解本節中的範例程式不是安裝商務用 Skype Server 所需的唯一程式。 下列八個步驟只是協助您進一步瞭解整個程式，並讓基本工作環境正常運作的範例。 您可以依照任何循序執行步驟1到5。 不過，您必須在順序中執行步驟6、7和8，並在步驟1到5之後，如圖表中所述。 8個步驟如下：
+取得 Skype for Business Server 及第一次執行涉及八個主要步驟。 您應該了解這一節中的範例程序不會安裝 Skype for Business Server 所需的唯一程序。 下列的八個步驟是只需範例，以協助您更加了解整體程序，並取得基本使用環境和執行。 您可以執行步驟 1 到 5，以任何順序。 不過，您必須先執行步驟 6、 7 和 8 順序，並在步驟 1 到 5 之後，在圖表中所述。 八個步驟如下：
   
-![安裝程式的概覽。](../../media/b1a59b39-a7f0-4781-ac4d-2dfef7ca3700.png)
+![安裝程序的概觀。](../../media/b1a59b39-a7f0-4781-ac4d-2dfef7ca3700.png)
   
-- [安裝商務用 Skype server 的先決條件](install-prerequisites.md)：在組成商務用 skype server 拓撲的所有伺服器上安裝系統必備。 請注意，所有角色的先決條件都不相同。 例如，提供前端角色的伺服器會有一組先決條件，而提供主管角色的伺服器則具有不同的先決條件組。 如需詳細資訊，請參閱必備元件規劃檔。
+- [安裝 Skype for Business Server 的必要條件](install-prerequisites.md)： 構成 Skype for Business Server 拓撲的所有伺服器上安裝必要條件。 請注意，必要條件不是相同的所有角色。 例如，提供前端角色的伺服器有一組的必要條件，並提供 director 角色的伺服器有一組不同的必要條件。 必要的規劃文件，如需詳細資訊，請參閱。
     
-- [在商務用 Skype server 中建立檔案共用](create-a-file-share.md)：建立將在整個商務用 skype server 拓撲結構中供伺服器使用的檔案共用。
+- [建立檔案共用 skype for Business Server](create-a-file-share.md) ： 建立將用於整個 Skype 伺服器的企業伺服器拓撲的檔案共用。
     
-- [在商務用 Skype Server 中安裝系統管理工具](install-administrative-tools.md)：管理工具組括拓撲建立器和 [控制台]。 您必須在拓撲中至少有一個伺服器上安裝管理工具，或是在執行商務用 Skype Server 支援的 Windows OS 版本的64位管理工作站。
+- [安裝系統管理工具] skype for Business Server](install-administrative-tools.md) ： 系統管理工具包括拓撲產生器] 及 [控制台]。 您必須至少一部伺服器拓撲或執行支援 skype for Business Server 的 Windows 作業系統版本的 64 位元管理工作站上安裝的系統管理工具。
     
-- [為商務用 Skype Server 準備 Active directory](prepare-active-directory.md) ：商務用 skype 伺服器與 Active directory 密切搭配使用。 您必須準備 Active Directory 網域，才能搭配商務用 Skype 伺服器使用。 您可以透過 [部署嚮導] 來執行此動作，而且只會針對網域進行一次。 這是因為程式會建立群組並修改網域，而您只需要執行一次。
+- [準備 Active Directory 中的 Skype for Business Server](prepare-active-directory.md) : Skype for Business Server 密切合作，與 Active Directory。 您必須先準備 Active Directory 網域，才能使用 Skype for Business Server。 您可以透過 [部署精靈]，它只都會執行一次的網域。 這是因為和處理程序會建立群組，並修改的網域，您需要執行動作的唯一一次。
     
-- [建立商務用 Skype server 的 DNS 記錄](create-dns-records.md)：若要讓商務用 skype 伺服器正常運作，必須有許多 DNS 設定。 這是為了讓客戶知道如何存取服務，以及伺服器彼此瞭解的相關資訊。 這些設定只需要針對每個部署完成一次，因為指派 DNS 專案之後，就能在整個網域中使用它。
+- [Skype 商務伺服器建立 DNS 記錄](create-dns-records.md)： 為了 skype 商務伺服器才能正常運作的 DNS 設定的數字必須就緒。 這是，讓用戶端知道 how to： 存取服務和伺服器彼此需注意的事項。 這些設定只需要完成一次每個部署因為之後您指派的 DNS 項目時，會有整個網域。
     
-- [在商務用 Skype server 中建立及發佈新的拓朴](create-and-publish-new-topology.md)：您必須先建立拓撲併發布，才能在拓撲中的每個伺服器上安裝商務用 skype server 系統。 當您發佈拓撲時，會將拓撲資訊載入到中央管理儲存資料庫中。 如果這是企業版文件庫，當您第一次發佈新的拓撲時，就會建立中央管理儲存資料庫。 如果這是標準版，您必須先從 [部署嚮導] 執行 [準備第一個標準版伺服器] 程式，然後才能發佈拓撲。 這是為了準備標準版本，只要安裝 SQL Server Express Edition 實例並建立中央管理儲存。
+- [建立及發佈新拓撲 skype for Business Server](create-and-publish-new-topology.md) ： 您可以在各種拓撲中的伺服器上安裝 Skype for Business Server 系統之前，您必須建立拓撲，並將它發佈。 當您發佈拓撲時，您正在載入的拓撲資訊到中央管理存放區資料庫。 如果這是 Enterprise Edition 集區，您正在建立發行新拓撲中央管理存放區資料庫第一次。 如果這是標準版，您需要執行 [部署精靈準備第一個 Standard Edition Server 處理程序，才能發行拓撲。 這會準備 Standard Edition 安裝 SQL Server Express Edition 執行個體，並建立中央管理存放區。
     
-- 在[拓撲中的伺服器上安裝商務用 Skype Server](install-skype-for-business-server.md) ：一旦將拓撲載入到中央管理儲存體，且 Active Directory 知道哪些伺服器將會執行哪些角色，您必須在拓撲中的每個伺服器上安裝商務用 skype server 系統。
+- [安裝儲存企業伺服器拓撲中的伺服器上的商務用 Skype](install-skype-for-business-server.md) ： 一旦拓撲載入至中央管理存放區及 Active Directory 知道哪些伺服器將會執行哪些角色，您需要在每個拓撲中的伺服器上安裝 Skype for Business Server 系統。
     
-- [在商務用 Skype server 中驗證拓朴](verify-the-topology.md)：當您已發佈拓撲，且已在拓撲結構中的每個伺服器上安裝商務用 Skype Server system 元件之後，您就可以開始確認拓撲結構是否如預期一樣運作。 這包括驗證設定是否已傳播到所有的 Active Directory 伺服器，讓整個網域知道該網域中的商務用 Skype。
+- [確認 skype for Business 伺服器拓撲](verify-the-topology.md)： 發佈拓撲與 Skype for Business Server 系統元件每一部伺服器拓撲中安裝之後，您已準備好確認拓撲是否如預期運作。 這包括驗證的組態已傳播出的所有 Active Directory 伺服器使整個網域知道商務用 Skype 是可用的網域中。
     
 

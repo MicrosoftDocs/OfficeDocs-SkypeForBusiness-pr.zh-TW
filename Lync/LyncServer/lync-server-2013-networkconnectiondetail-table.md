@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： NetworkConnectionDetail 表格
+title: 'Lync Server 2013: NetworkConnectionDetail 表'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185170
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2035fff89437c10732c704eee47c145b45d9db96
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 784e229ee16bfee0e9e828f1df7f06a98e898eb4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765854"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043855"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="networkconnectiondetail-table-in-lync-server-2013"></a>Lync Server 2013 中的 NetworkConnectionDetail 表格
+# <a name="networkconnectiondetail-table-in-lync-server-2013"></a>Lync Server 2013 中的 NetworkConnectionDetail 表
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41765854"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-02_
+_**主題上次修改日期：** 2012年-10-02_
 
-NetworkConnectionDetail 表格會將網路連線類型對應至在體驗資料庫的 [品質] 資料庫中的其他位置所使用的網路連接識別碼。 此表格是在 Microsoft Lync Server 2013 中推出。
+NetworkConnectionDetail 表將網路連線類型對應至用在經驗品質資料庫其他地方的網路連線識別碼。 Microsoft Lync Server 2013 中已採用此表格。
 
 
 <table>
@@ -49,26 +49,26 @@ NetworkConnectionDetail 表格會將網路連線類型對應至在體驗資料�
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>左欄</strong></th>
+<th><strong>欄</strong></th>
 <th><strong>資料類型</strong></th>
-<th><strong>索引鍵/索引</strong></th>
+<th><strong>主索引鍵 /</strong></th>
 <th><strong>詳細資料</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>NetworkConnectionDetailKey</strong></p></td>
-<td><p>Tinyint</p></td>
-<td><p>首選</p></td>
+<td><p>tinyint</p></td>
+<td><p>主要</p></td>
 <td><p>網路連線類型的唯一識別碼。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>NetworkConnectionDetail</strong></p></td>
-<td><p>Varchar （256）</p></td>
-<td><p>唯一</p></td>
-<td><p>對應至 NetworkConnectionDetailKey 的網路連線類型。 允許的值為：</p>
+<td><p>varchar(256)</p></td>
+<td><p>Unique</p></td>
+<td><p>會對應至 NetworkConnectionDetailKey 的網路連線類型。 允許的值為：</p>
 <ol>
-<li><p>0--有線</p></li>
+<li><p>0-有線</p></li>
 <li><p>1--WiFi</p></li>
 <li><p>2--乙太網路</p></li>
 </ol></td>

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：針對通訊錄管理的新 CsAddressBookConfiguration
+title: 'Lync Server 2013: New-CsAddressBookConfiguration 適用於通訊錄管理'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184985
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e69c1ea9c68dfacb68ada70d4f7643b2777f062f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: aa0098d3a92649031077fed5110d501316370379
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765764"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043005"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="new-csaddressbookconfiguration-for-address-book-management-in-lync-server-2013"></a>Lync Server 2013 中的通訊錄管理的新 CsAddressBookConfiguration
+# <a name="new-csaddressbookconfiguration-for-address-book-management-in-lync-server-2013"></a>New-csaddressbookconfiguration 適用於 Lync Server 2013 中的 Address Book 管理
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41765764"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-11-01_
+_**主題上次修改日期：** 2012年-11-01_
 
-誰可以執行這個 Cmdlet：根據預設，下列群組的成員有權在本機執行新的 CsAddressBookConfiguration Cmdlet： RTCUniversalServerAdmins。 若要傳回已指派這個 Cmdlet 的所有角色式存取控制（RBAC）角色的清單（包括您自行建立的任何自訂 RBAC 角色），請在 Windows PowerShell 提示中執行下列命令：
+誰可以執行此 Cmdlet：下列群組的成員預設會獲授權可以在本機上執行 New-CsAddressBookConfiguration Cmdlet：RTCUniversalServerAdmins。 若要傳回所有獲指派此 Cmdlet 的角色型存取控制 (RBAC) 角色清單 (包括您自行建立的自訂 RBAC 角色)，請在 Windows PowerShell 命令提示中執行下列命令：
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "New-CsAddressBookConfiguration"}
 
-新的-CsAddressBookConfiguration Cmdlet 會建立新的設定，以管理通訊錄的行為。 這個 Cmdlet 的功能是定義通訊錄服務是否會建立用戶端下載檔案，以及是否使用正常化規則，在併入新的完整檔案之前，要保留增量和精簡的增量檔案、增量檔案大小，才能包含新的完整檔案建立、一天中建立完整檔案通訊錄的時間，以及內部應該如何同步處理使用者資料庫中的資訊。
+New-csaddressbookconfiguration cmdlet 會建立新的組態，才能管理通訊錄的行為。 此指令程式的特定是能夠定義如果通訊錄服務會建立用戶端下載檔案，方式和正規化規則可用，多久要保留差異和壓縮差異檔案，差異檔案大小之前加入新的完整檔案建立時，項目會建立完整檔案 Address Book 的一天的時間，且內部應有進行同步處理的使用者資料庫中的資訊。
 
 例如：
 
@@ -52,7 +52,7 @@ _**主題上次修改日期：** 2012-11-01_
 ## <a name="see-also"></a>請參閱
 
 
-[New-CsAddressBookConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsAddressBookConfiguration)  
+[New-csaddressbookconfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsAddressBookConfiguration)  
   
 
 </div>

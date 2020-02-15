@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：通話許可控制的部署檢查清單
+title: Lync Server 2013： 的通話許可控制的部署檢查表
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184621
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0bf88529734530e70c4d0536d5337395ff0742d2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d68f13c636b24729db989f25da7055333968cbbd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740743"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043275"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deployment-checklist-for-call-admission-control-in-lync-server-2013"></a>Lync Server 2013 中的通話許可控制的部署檢查清單
+# <a name="deployment-checklist-for-call-admission-control-in-lync-server-2013"></a>Lync Server 2013 中的通話許可控制的部署檢查表
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41740743"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-08_
+_**主題上次修改日期：** 2012年-10-08_
 
-若要有效地規劃通話許可控制（CAC），您需要考慮下列事項：
+若要有效規劃通話許可控制 (CAC)，您必須考量下列事項：
 
-  - 部署 CAC 所需的先決條件。
+  - 部署 CAC 的先決條件
 
-  - 您必須在部署之前進行的 CAC 與設定決策所需的資訊。
+  - 部署 CAC 所需的資訊，以及您必須做出的組態決策，以便在開始部署時就有完整的必要資訊可供使用。
 
 <div>
 
-## <a name="deployment-prerequisites-for-call-admission-control"></a>呼叫許可控制的部署先決條件
+## <a name="deployment-prerequisites-for-call-admission-control"></a>部署通話許可控制的先決條件
 
-您必須先部署 Lync Server 2013 內部伺服器（包括前端池或標準版伺服器），才能部署呼叫許可控制。
+在部署通話許可控制之前，您必須已部署 Lync Server 2013 內部伺服器，包括前端集區或 Standard Edition server。
 
 </div>
 
@@ -55,9 +55,9 @@ _**主題上次修改日期：** 2012-10-08_
 
 ## <a name="information-requirements-for-call-admission-control"></a>通話許可控制的資訊需求
 
-下表摘要列出部署通話許可控制所需的資訊。
+下表摘要說明部署通話許可控制所需的資訊。
 
-### <a name="information-requirements-for-call-admission-control-deployment"></a>呼叫許可控制部署的資訊需求
+### <a name="information-requirements-for-call-admission-control-deployment"></a>部署通話許可控制的資訊需求
 
 <table>
 <colgroup>
@@ -67,68 +67,68 @@ _**主題上次修改日期：** 2012-10-08_
 </colgroup>
 <thead>
 <tr class="header">
-<th>錯誤資訊</th>
-<th>所需資訊摘要</th>
+<th>Information</th>
+<th>必要資訊的摘要</th>
 <th>文件</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>貴組織所需的 Lync Server 功能</p></td>
+<td><p>您組織所需的 Lync Server 功能</p></td>
 <td><ul>
-<li><p>貴組織支援的功能</p></li>
-<li><p>針對個別使用者啟用的功能</p></li>
+<li><p>您組織要支援的功能</p></li>
+<li><p>要為個別使用者啟用的功能</p></li>
 </ul></td>
-<td><p><a href="lync-server-2013-defining-your-requirements-for-call-admission-control.md">在 Lync Server 2013 中定義通話許可控制需求</a></p></td>
+<td><p><a href="lync-server-2013-defining-your-requirements-for-call-admission-control.md">定義 Lync Server 2013 中的 [通話許可控制需求</a></p></td>
 </tr>
 <tr class="even">
-<td><p>要部署的拓撲與元件</p></td>
+<td><p>要部署的拓撲和元件</p></td>
 <td><ul>
-<li><p>在 Lync Server 2013 中會自動安裝 CAC 相關元件</p></li>
+<li><p>CAC 相關元件會自動安裝 Lync Server 2013 的一部分</p></li>
 </ul></td>
-<td><p><a href="lync-server-2013-defining-your-requirements-for-call-admission-control.md">在 Lync Server 2013 中定義通話許可控制需求</a></p></td>
+<td><p><a href="lync-server-2013-defining-your-requirements-for-call-admission-control.md">定義 Lync Server 2013 中的 [通話許可控制需求</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>系統需求</p></td>
 <td><ul>
 <li><p>硬體需求</p></li>
 <li><p>軟體需求</p></li>
-<li><p>Collocation 需求</p></li>
+<li><p>組合需求</p></li>
 </ul></td>
-<td><p><a href="lync-server-2013-determining-your-system-requirements.md">判定 Lync Server 2013 的系統需求</a></p></td>
+<td><p><a href="lync-server-2013-determining-your-system-requirements.md">決定您的 Lync Server 2013 的系統需求</a></p></td>
 </tr>
 <tr class="even">
 <td><p>基礎結構需求</p></td>
 <td><ul>
-<li><p>CAC 不需要任何特定的基礎結構需求</p></li>
+<li><p>CAC 不需要特定的基礎結構需求</p></li>
 </ul></td>
 <td><p><a href="lync-server-2013-infrastructure-requirements-for-call-admission-control.md">Lync Server 2013 中的通話許可控制的基礎結構需求</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>網路介面需求</p></td>
 <td><ul>
-<li><p>內部和外部介面資訊</p></li>
-<li><p>路由資訊（包括來自 Microsoft Lync Server 團隊客戶<a href="http://go.microsoft.com/fwlink/p/?linkid=203149">http://go.microsoft.com/fwlink/p/?LinkId=203149</a>回應頻道之 NextHop 博客的相關資訊）</p></li>
+<li><p>內部與外部介面資訊</p></li>
+<li><p>路由資訊 (包括 NextHop 部落格上的資訊<a href="http://go.microsoft.com/fwlink/p/?linkid=203149">http://go.microsoft.com/fwlink/p/?LinkId=203149</a>，Microsoft Lync Server 團隊的客戶回應管道)</p></li>
 </ul></td>
-<td><p><a href="lync-server-2013-deploying-external-user-access.md">在 Lync Server 2013 中部署外部使用者存取</a></p></td>
+<td><p><a href="lync-server-2013-deploying-external-user-access.md">部署 Lync Server 2013 中的外部使用者存取</a></p></td>
 </tr>
 <tr class="even">
 <td><p>部署策略</p></td>
 <td><ul>
 <li><p>部署順序</p></li>
-<li><p>工作組或網域</p></li>
+<li><p>工作群組或網域</p></li>
 <li><p>安全性</p></li>
-<li><p>監控與審計</p></li>
-<li><p>硬體考慮</p></li>
+<li><p>監控和稽核</p></li>
+<li><p>硬體考量</p></li>
 </ul></td>
-<td><p><a href="lync-server-2013-best-practices-for-call-admission-control.md">Lync Server 2013 中通話許可控制的最佳做法</a></p></td>
+<td><p><a href="lync-server-2013-best-practices-for-call-admission-control.md">Lync Server 2013 中的通話許可控制的最佳做法</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>部署程式</p></td>
+<td><p>部署程序</p></td>
 <td><ul>
-<li><p>先決條件</p></li>
+<li><p>必要條件</p></li>
 <li><p>資訊需求</p></li>
-<li><p>程式與程式</p></li>
+<li><p>處理和程序</p></li>
 </ul></td>
 <td><p><a href="lync-server-2013-configure-call-admission-control.md">在 Lync Server 2013 中設定通話許可控制</a></p></td>
 </tr>

@@ -19,12 +19,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 瞭解如何在 GCCH 和 DoD 環境中搭配直接路由使用音訊會議。
-ms.openlocfilehash: 8304d18777739b4667c0f47b9dee3e9f8f6dcc38
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: a8a9b5a46f1efd88de38fa65e857d3eebbbd6e3d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825651"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047184"
 ---
 # <a name="audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>適用於 GCC High 和 DoD 的音訊會議搭配直接路由
 
@@ -92,7 +92,7 @@ ms.locfileid: "41825651"
 
 ### <a name="step-4-assign-audio-conferencing-with-direct-routing-for-gcc-high-or-dod-licenses-to-your-users"></a>步驟4：使用針對 GCC 高或 DoD 授權的直接路由指派音訊會議給您的使用者
 
-若要為您的使用者指派可直接傳送給 GCC 高或 DoD 授權的音訊會議，請參閱[在商務用 Office 365 中指派授權給使用者](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/assign-licenses-to-users)。
+若要為您的使用者指派可直接傳送給 GCC 高或 DoD 授權的音訊會議，請參閱[在商務用 Office 365 中指派授權給使用者](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users)。
 
 ### <a name="step-5-optional-see-a-list-of-audio-conferencing-numbers-in-teams"></a>步驟5：（選用）查看團隊中的音訊會議號碼清單
 

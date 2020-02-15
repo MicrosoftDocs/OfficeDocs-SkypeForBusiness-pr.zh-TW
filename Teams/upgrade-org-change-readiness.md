@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e3f569cfc225c1933b978e9a0a7d9e9bf95be783
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 6d7d0b1cf23b94f33c66218eaacdfdeda5aaab19
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837127"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048594"
 ---
 ![升級歷程圖表，強調使用者準備就緒階段](media/upgrade-banner-user-readiness.png "升級歷程階段，重點放在使用者準備階段")
 
@@ -107,7 +107,7 @@ Microsoft 團隊擴大商務用 Skype 的功能，提供全面的溝通與共同
 | | |
 |---|---|
 | ![描繪決策點的圖示](media/audio_conferencing_image7.png) <br/>決策點|<ul><li>您將利用哪些 relatable 小組方案來協助您加快使用者採用，並協助您從商務用 Skype 升級？</li></ul> |
-| ![描繪後續步驟的圖示](media/audio_conferencing_image9.png)<br/>後續步驟|<ul><li>使用下列範例來協助您精心編制您自己的小組方案。 在[升級活頁簿](https://aka.ms/upgradesuccesskit)中記錄這些檔案。</li><li>如需其他案例和範例，請移至[生產力庫](https://www.microsoft.com/en-us/microsoft-365/success/)</li></ul>|
+| ![描繪後續步驟的圖示](media/audio_conferencing_image9.png)<br/>後續步驟|<ul><li>使用下列範例來協助您精心編制您自己的小組方案。 在[升級活頁簿](https://aka.ms/upgradesuccesskit)中記錄這些檔案。</li><li>如需其他案例和範例，請移至[生產力庫](https://www.microsoft.com/microsoft-365/success/)</li></ul>|
 
 ### <a name="examples"></a>範例
 

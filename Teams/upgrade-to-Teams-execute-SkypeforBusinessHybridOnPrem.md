@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e7fa2629127e4a779087eadbea5ac5dc6065be73
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 5c467fe63cee4681f2b758b264949cd931e3f901
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836235"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045025"
 ---
 ![升級歷程圖表，強調部署與實施](media/upgrade-banner-deployment.png "升級歷程階段，重點是部署與實施階段")
 
@@ -49,7 +49,7 @@ ms.locfileid: "41836235"
 
 將內部部署使用者升級至團隊的主要必要，就是針對您的商務用 Skype Server 內部部署設定混合式連線性。 
 
-首先，請閱讀 [規劃混合式連接](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)，然後依照[設定混合式連接](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity)中所述的工作。
+首先，請閱讀 [規劃混合式連接](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)，然後依照[設定混合式連接](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity)中所述的工作。
 
 
 ## <a name="step-2-set-transitional-coexistence-mode-optional"></a>步驟2：設定過渡型共存模式（選用）

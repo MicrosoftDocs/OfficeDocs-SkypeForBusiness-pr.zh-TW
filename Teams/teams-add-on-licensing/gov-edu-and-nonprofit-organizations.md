@@ -19,12 +19,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: '瞭解 .GOV、EDU 和非盈利性組織方案的附加元件授權和功能。 '
-ms.openlocfilehash: 9d33cbb7367a1608b0ff7c9fdd05447a98edba8b
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 8544d685fffa1a4ab4f53a83e0651bd898e3c845
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826681"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029384"
 ---
 # <a name="gov-edu-and-non-profit-organizations"></a>.GOV、EDU 和非盈利性組織
 
@@ -36,4 +36,4 @@ ms.locfileid: "41826681"
 |Office 365 Phone 系統  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
 |Office 365 通話方案  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
    
-請參閱這篇博客文章：[高級 Office 365 功能現已提供給美國政府社區雲端客戶](https://www.microsoft.com/en-us/microsoft-365/blog/2017/01/17/advanced-office-365-capabilities-now-available-to-u-s-government-community-customers/)。
+請參閱這篇博客文章：[高級 Office 365 功能現已提供給美國政府社區雲端客戶](https://www.microsoft.com/microsoft-365/blog/2017/01/17/advanced-office-365-capabilities-now-available-to-u-s-government-community-customers/)。

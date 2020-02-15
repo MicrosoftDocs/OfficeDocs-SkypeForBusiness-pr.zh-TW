@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 除了從 Office 365 取得使用者的電話號碼之外，您還可以在 [音訊會議] （適用于 [會議室]）、自動語音應答及通話佇列（亦稱為服務號碼）等服務中搜尋和取得付費或免付費電話號碼。 服務電話號碼的並行通話容量比使用者或訂閱者電話號碼要高。
-ms.openlocfilehash: 90538f21018ecde402994076243eb2ba893ccc98
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: a8cd5582cdcbddff1a6c6375230864e569111a0e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836993"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42031047"
 ---
 # <a name="getting-service-phone-numbers"></a>取得服務電話號碼
 
@@ -42,7 +42,7 @@ ms.locfileid: "41836993"
 - 從您的服務提供者或電話載體將現有號碼傳送到 Office 365。
     
     > [!NOTE]
-    > 當您轉移服務號碼時，強烈建議您與[Microsoft 支援](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)人員聯繫，以確保已考慮並正確設定較高的並行通話容量。
+    > 當您轉移服務號碼時，強烈建議您與[Microsoft 支援](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)人員聯繫，以確保已考慮並正確設定較高的並行通話容量。
   
 ## <a name="get-new-service-numbers"></a>取得新的服務號碼
 
@@ -83,7 +83,7 @@ ms.locfileid: "41836993"
 如果您想要從目前的服務提供者或承運人傳送服務號碼，您必須手動將埠訂單提交給 Microsoft。 您必須針對每一種類型的服務號碼（[收費電話]）提交不同的埠順序（免付費電話），您就會使用一份授權函式（LOA）來傳送。 在授權信件（LOA）中，您必須選取正確的服務號碼類型。 當您聯繫 Microsoft 支援時，請確定您已指定要轉移服務號碼（*而非使用者或訂閱者號碼*），或同時進行通話容量可能不足以處理通話量。 如果您想要使用電話號碼傳送電話號碼或進行其他動作，請參閱[管理貴組織的電話號碼](/microsoftteams/manage-phone-numbers-for-your-organization)。
 
 > [!NOTE]
-> 如果您需要取得更多的電話號碼，請[聯絡商務產品支援-系統管理協助](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。 
+> 如果您需要取得更多的電話號碼，請[聯絡商務產品支援-系統管理協助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。 
   
 ## <a name="related-topics"></a>相關主題
 [以下是您在 Office 365 中使用電話系統所取得的結果](/MicrosoftTeams/here-s-what-you-get-with-phone-system)

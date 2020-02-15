@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：集區失敗期間的通話駐留體驗
+title: 集區失敗期間的 Lync Server 2013： 通話駐留經驗
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185831
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 59de3b7cc7490c84536cfbc1457c6486af52c33a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a89acc193f70ba5047a2f1c6362b957d182afdb5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742963"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044315"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="call-park-experience-in-lync-server-2013-during-pool-failure"></a>集區失敗期間使用 Lync Server 2013 的通話駐留體驗
+# <a name="call-park-experience-in-lync-server-2013-during-pool-failure"></a>Lync Server 2013 的集區失敗期間的通話駐留經驗
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41742963"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-09-10_
+_**主題上次修改日期：** 2012年-09-10_
 
-當前端池由於未計畫的事件而無法使用時，已暫停但尚未檢索的通話會中斷連線。 在容錯移轉至備份池期間，使用者會被重新導向至備份池，且處於復原模式。 在復原模式中，使用者不能停止通話，但可以保留通話並加以轉移。 當容錯移轉完成後，就可以再次停用和檢索通話。 在回切期間，使用者不能停止呼叫，直到他們不在復原模式為止。
+前端集區由於意外事件無法使用時，已駐留但尚未擷取通話中斷連線。 容錯移轉期間至備份集區，使用者會重新導向至備份集區，且處於恢復能力模式。 在恢復能力模式時，使用者無法駐留通話，但他們可以撥打電話保留並將他們轉接。 完成容錯移轉時，呼叫一次可駐留及擷取像平常一樣。 容錯回復期間，使用者無法駐留通話，除非經過退出恢復能力模式。
 
-在災害復原期間，已重新導向至備份池的使用者，如果是作為容錯移轉程式的一部分，則會使用在備份池中部署的通話駐留應用程式。 因此，重新導向至備份池的使用者，請使用針對備份池中的通話駐留應用程式所設定的通話駐留設定。
+嚴重損壞復原期間已重新導向至備份集區一部分的容錯移轉程序的使用者會使用備份集區中部署通話駐留應用程式。 因此，會重新導向至備份集區的使用者會使用所設定的通話駐留設定的備份集區的通話駐留應用程式。
 
-下表摘要列出災害復原階段的通話寄存體驗。
+下表摘要說明透過災難復原階段的通話駐留經驗。
 
-### <a name="user-experience-during-disaster-recovery"></a>災害復原期間的使用者體驗
+### <a name="user-experience-during-disaster-recovery"></a>嚴重損壞復原期間的使用者經驗
 
 <table>
 <colgroup>
@@ -54,36 +54,36 @@ _**主題上次修改日期：** 2012-09-10_
 </colgroup>
 <thead>
 <tr class="header">
-<th>通話狀態</th>
-<th>當停機時間</th>
-<th>在容錯移轉期間</th>
-<th>在回切期間</th>
+<th>呼叫狀態</th>
+<th>發生中斷時</th>
+<th>容錯移轉期間</th>
+<th>容錯回復期間</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>通話尚未停用</p></td>
-<td><p>通話仍保持連線，但無法停用。</p></td>
+<td><p>尚未駐留通話</p></td>
+<td><p>通話保持連線，但無法駐留通話。</p></td>
 <td><ul>
-<li><p>在容錯移轉期間，不能在使用者處於復原模式時停用通話，但可以保留並傳送。</p></li>
-<li><p>當容錯移轉完成時，可以停用或檢索通話。</p></li>
+<li><p>容錯移轉期間，當使用者處於復原模式，但可以保留與轉接無法駐留通話。</p></li>
+<li><p>完成容錯移轉時，可以駐留與擷取通話。</p></li>
 </ul></td>
 <td><ul>
-<li><p>在回切期間，不能在使用者處於復原模式時停用通話，但可以保留並傳送。</p></li>
-<li><p>當回切完成時，可以停用或檢索通話。</p></li>
+<li><p>容錯回復期間，當使用者處於復原模式，但可以保留與轉接無法駐留通話。</p></li>
+<li><p>完成容錯回復時，可以駐留與擷取通話。</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>呼叫已暫停，但尚未檢索</p></td>
-<td><p>通話已中斷連線。</p></td>
-<td><p>此狀態中沒有通話。</p></td>
-<td><p>通話仍保持停用。</p></td>
+<td><p>通話已駐留，但尚未擷取</p></td>
+<td><p>通話已中斷。</p></td>
+<td><p>沒有通話處於此狀態。</p></td>
+<td><p>通話保持駐留。</p></td>
 </tr>
 <tr class="odd">
-<td><p>已檢索到 [寄存通話]</p></td>
-<td><p>通話仍保持連線。</p></td>
-<td><p>通話仍保持連線。</p></td>
-<td><p>通話仍保持連線。</p></td>
+<td><p>已擷取通話</p></td>
+<td><p>通話保持連線。</p></td>
+<td><p>通話保持連線。</p></td>
+<td><p>通話保持連線。</p></td>
 </tr>
 </tbody>
 </table>

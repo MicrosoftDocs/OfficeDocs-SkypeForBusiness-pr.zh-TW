@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：由授與授權所做的變更 CsSetupPermission
+title: 'Lync Server 2013: Grant-cssetuppermission 所做的變更'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185360
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9d82b896f1d6d1da1184bfa61d7352c9b4803a03
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 23547ebc7faf594ee3ea72ef7d0c094846ac94b3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742353"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043915"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="changes-made-by-grant-cssetuppermission-in-lync-server-2013"></a>在 Lync Server 2013 中由 Grant CsSetupPermission 所做的變更
+# <a name="changes-made-by-grant-cssetuppermission-in-lync-server-2013"></a>Grant-cssetuppermission Lync Server 2013 中所做的變更
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41742353"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-06-20_
+_**主題上次修改日期：** 2012年-06-20 個_
 
-若要委派設定，您可以為特定 Active Directory 組織單位（OU）授予 RTCUniversalServerAdmins 通用群組的許可權，讓該 OU 中的 RTCUniversalServerAdmins 群組成員在指定的中安裝 Lync Server 2013。網域，而不是 [網域管理員] 群組的成員。
+若要委派設定，您可以授與權限的 RTCUniversalServerAdmins 萬用群組特定 Active Directory 組織單位 (OU)，讓該 OU 中指定之安裝 Lync Server 2013 中的 RTCUniversalServerAdmins 群組成員不需要以 Domain Admins 群組成員的網域。
 
-CsSetupPermission Cmdlet 會**授**與組織單位上的 RTCUniversalServerAdmins 群組許可權，如下表所示：
+**Grant-cssetuppermission** cmdlet 授與下表中所指定 OU 上的 RTCUniversalServerAdmins 群組權限：
 
-### <a name="permissions-granted-to-objects-in-the-ou"></a>在 OU 中授與物件的許可權
+### <a name="permissions-granted-to-objects-in-the-ou"></a>OU 中的物件授與權限
 
 <table>
 <colgroup>
@@ -50,104 +50,104 @@ CsSetupPermission Cmdlet 會**授**與組織單位上的 RTCUniversalServerAdmin
 </colgroup>
 <thead>
 <tr class="header">
-<th>許可權適用于：</th>
-<th>已授與許可權：</th>
+<th>若要套用權限：</th>
+<th>授與的權限為：</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>RTCUniversalServerAdmins</p></td>
-<td><p>特殊存取：</p>
+<td><p>特殊存取權：</p>
 <ul>
-<li><p>Read servicePrincipalName</p></li>
-<li><p>撰寫 servicePrincipalName</p></li>
-<li><p>刪除樹</p></li>
-<li><p>複製目錄變更</p></li>
+<li><p>讀取 servicePrincipalName</p></li>
+<li><p>寫入 servicePrincipalName</p></li>
+<li><p>刪除樹狀目錄</p></li>
+<li><p>「 複寫目錄變更</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>後代 serviceConnectionPoint 物件</p></td>
-<td><p>特殊存取：</p>
+<td><p>子系 serviceConnectionPoint 物件</p></td>
+<td><p>特殊存取權：</p>
 <ul>
 <li><p>讀取權限</p></li>
 <li><p>寫入權限</p></li>
-<li><p>建立子系</p></li>
-<li><p>刪除子系</p></li>
-<li><p>清單內容</p></li>
-<li><p>Write 屬性</p></li>
-<li><p>Read 屬性</p></li>
-<li><p>刪除樹</p></li>
+<li><p>建立子項</p></li>
+<li><p>刪除子項</p></li>
+<li><p>列出內容</p></li>
+<li><p>寫入屬性</p></li>
+<li><p>讀取屬性</p></li>
+<li><p>刪除樹狀目錄</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>子代 msRTCSIP-伺服器物件</p></td>
-<td><p>特殊存取：</p>
+<td><p>子系 Msrtcsip-server 物件</p></td>
+<td><p>特殊存取權：</p>
 <ul>
-<li><p>Write 屬性</p></li>
-<li><p>Read 屬性</p></li>
-<li><p>刪除樹</p></li>
+<li><p>寫入屬性</p></li>
+<li><p>讀取屬性</p></li>
+<li><p>刪除樹狀目錄</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>子代 msRTCSIP-WebComponents 物件</p></td>
-<td><p>特殊存取：</p>
+<td><p>子系 Msrtcsip-webcomponents 物件</p></td>
+<td><p>特殊存取權：</p>
 <ul>
-<li><p>Write 屬性</p></li>
-<li><p>Read 屬性</p></li>
-<li><p>刪除樹</p></li>
+<li><p>寫入屬性</p></li>
+<li><p>讀取屬性</p></li>
+<li><p>刪除樹狀目錄</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>子代 msRTCSIP-MCU 物件</p></td>
-<td><p>特殊存取：</p>
+<td><p>子系 MSRTCSIP-MCU 物件</p></td>
+<td><p>特殊存取權：</p>
 <ul>
-<li><p>Write 屬性</p></li>
-<li><p>Read 屬性</p></li>
-<li><p>刪除樹</p></li>
+<li><p>寫入屬性</p></li>
+<li><p>讀取屬性</p></li>
+<li><p>刪除樹狀目錄</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>子代 msRTCSIP-MediationServer 物件</p></td>
-<td><p>特殊存取：</p>
+<td><p>子系 Msrtcsip-mediationserver 物件</p></td>
+<td><p>特殊存取權：</p>
 <ul>
-<li><p>Write 屬性</p></li>
-<li><p>Read 屬性</p></li>
-<li><p>刪除樹</p></li>
+<li><p>寫入屬性</p></li>
+<li><p>讀取屬性</p></li>
+<li><p>刪除樹狀目錄</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>子代 msRTCSIP-ApplicationServer 物件</p></td>
-<td><p>特殊存取：</p>
+<td><p>子系 Msrtcsip-applicationserver 物件</p></td>
+<td><p>特殊存取權：</p>
 <ul>
-<li><p>Write 屬性</p></li>
-<li><p>Read 屬性</p></li>
-<li><p>刪除樹</p></li>
+<li><p>寫入屬性</p></li>
+<li><p>讀取屬性</p></li>
+<li><p>刪除樹狀目錄</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>子代 msRTCSIP-ConnectionPoint 物件</p></td>
-<td><p>特殊存取：</p>
+<td><p>子系 Msrtcsip-connectionpoint 物件</p></td>
+<td><p>特殊存取權：</p>
 <ul>
-<li><p>Write 屬性</p></li>
-<li><p>Read 屬性</p></li>
-<li><p>刪除樹</p></li>
+<li><p>寫入屬性</p></li>
+<li><p>讀取屬性</p></li>
+<li><p>刪除樹狀目錄</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>後代電腦物件</p></td>
-<td><p>用於 serviceConnectionPoint 的特殊存取：</p>
+<td><p>子系 Computer 物件</p></td>
+<td><p>ServiceConnectionPoint 的特殊存取權：</p>
 <ul>
 <li><p>建立子物件</p></li>
 <li><p>刪除子物件</p></li>
-<li><p>刪除樹</p></li>
+<li><p>刪除樹狀目錄</p></li>
 </ul>
 <p>公用資訊的特殊存取權：</p>
 <ul>
-<li><p>Read 屬性</p></li>
+<li><p>讀取屬性</p></li>
 </ul>
 <p>DNS 主機名稱的特殊存取權：</p>
 <ul>
-<li><p>Read 屬性</p></li>
+<li><p>讀取屬性</p></li>
 </ul></td>
 </tr>
 </tbody>

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：連接埠摘要 - 反向 Proxy
+title: Lync Server 2013： 連接埠摘要-反向 proxy
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184251
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f2944cde932413f00b5a4dcb75cd4a37bd5b3a3a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 203acca41c3e759bb05787c2bc23fd0ac773355f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747593"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043185"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="port-summary---reverse-proxy-in-lync-server-2013"></a>Lync Server 2013 中的連接埠摘要 - 反向 Proxy
+# <a name="port-summary---reverse-proxy-in-lync-server-2013"></a>連接埠摘要-Lync Server 2013 中的反向 proxy
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41747593"
 
 <span> </span>
 
-_**主題上次修改日期：** 2013-02-15_
+_**上次修改主題：** 2013年-02-15_
 
-反向 proxy 對防火牆和埠/通訊協定的需求最低。
+反向 Proxy 對於防火牆和連接埠/通訊協定具有最低需求。
 
-  - 外部防火牆需求是 HTTPS/TCP/443 以及選用的 HTTP/TCP/80。 HTTPS 是透過反向 proxy 使用 SSL 和 TLS 安全通訊。 如果您選擇在修改憑證時允許存取自動探索服務，可能會證明困難或不是成本。
+  - 外部防火牆需求是 HTTPS/TCP/443 和選擇性 HTTP/TCP/80。 HTTPS 用於透過反向 proxy 的 SSL 和 TLS 安全通訊。 如果您選擇允許存取自動探索服務時修改憑證可能證明難以或成本的左右，則會使用 HTTP。
 
-  - 用戶端預期要與 HTTPS 上的 Office Web Apps 伺服器取得聯繫。 Office Web Apps 伺服器預期從 HTTPS/TCP/443 上的內部用戶端進行通訊。 建議的設定是允許從反向 proxy 的 HTTPS/TCP/443 到 Office Web Apps 伺服器。
+  - 用戶端預期連絡 HTTPS 上的 Office Web Apps 伺服器。 Office Web Apps Server 預期在 HTTPS/TCP/443 上內部用戶端通訊。 建議的組態設定是允許來自反向 proxy 的 HTTPS/TCP/443 至 Office Web Apps Server。
 
-  - Port 8080 是用來將流量從反向 proxy 內部介面路由到前端伺服器、前端池虛擬 IP （VIP），或是選用控制器或控制器池 VIP。 在執行 Lync 的行動裝置上，如果您需要修改外部 web 服務發佈規則憑證的情況（例如，如果您有大量 SIP 網域），則必須使用埠 TCP 8080 來尋找自動探索服務。 如果您選擇要用所需的 SAN 專案來取得新憑證，則不需要端口 TCP 8080，且是選擇性的。
+  - 反向 proxy 內部介面的流量路由傳送至前端伺服器，前端集區虛擬 IP (VIP) 或選用的 Director 或 Director 集區 VIP 使用連接埠 8080。 需要執行 Lync 來尋找自動探索服務時 （例如，如果您有大量的 SIP 網域） 不需要修改外部 web 服務發行規則憑證的情況中的行動裝置的連接埠 TCP 8080。 如果您選擇取得含有必要 SAN 項目的新憑證，則不需要使用連接埠 TCP 8080，其為選用項目。
 
-  - 埠4443用於從反向 proxy 內部介面到前端伺服器、前端池虛擬 IP （VIP）或選用控制器或控制器池 VIP 的流量
+  - 連接埠 4443 用於從反向 proxy 內部介面到前端伺服器，前端集區虛擬 IP (VIP) 或選用的 Director 或 Director 集區 VIP 的流量
     
     ![13142405-d5c9-45b7-a8b7-a8c89f09c97c](images/JJ204932.13142405-d5c9-45b7-a8b7-a8c89f09c97c(OCS.15).jpg "13142405-d5c9-45b7-a8b7-a8c89f09c97c")  
     
@@ -53,14 +53,14 @@ _**主題上次修改日期：** 2013-02-15_
     
 
     > [!WARNING]  
-    > 請不要將4443的 TCP 從反向 proxy 與來自標準版 server 的內部4443部署，或是管理中央管理儲存角色的前端池。
+    > 請勿將 4443 over TCP 來自反向 proxy over TCP 流量的連接埠 4443 從 Standard Edition server 或管理 [中央管理存放區角色的前端集區的內部部署。
 
     
     </div>
 
 <div>
 
-## <a name="port-and-protocol-details"></a>埠與通訊協定詳細資料
+## <a name="port-and-protocol-details"></a>連接埠和通訊協定詳細資料
 
 ### <a name="firewall-details-for-reverse-proxy-server-external-interface"></a>反向 Proxy 伺服器的防火牆詳細資料：外部介面
 
@@ -73,25 +73,25 @@ _**主題上次修改日期：** 2013-02-15_
 </colgroup>
 <thead>
 <tr class="header">
-<th>通訊協定/TCP 或 UDP/埠</th>
+<th>通訊協定/TCP 或 UDP/連接埠</th>
 <th>來源 IP 位址</th>
 <th>目的地 IP 位址</th>
-<th>筆記</th>
+<th>附註</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>HTTP/TCP/80</p></td>
-<td><p>每</p></td>
-<td><p>反向 proxy 偵聽程式</p></td>
-<td><p>可選如果使用者進入 HTTP://&lt;publishedSiteFQDN&gt;，則重定向至 HTTPS。</p>
-<p>如果您在組織不想要修改外部 Web 服務發佈規則憑證的情況下，使用 Office Web Apps for 會議，以及執行 Lync 之行動裝置的自動探索服務，也需要。</p></td>
+<td><p>任何</p></td>
+<td><p>反向 Proxy 接聽程式</p></td>
+<td><p>（選用）重新導向至 HTTPS 使用者輸入 http://&lt;publishedSiteFQDN&gt;。</p>
+<p>如果使用 Office Web Apps 會議] 和 [在組織不想要修改外部 web 服務發行規則憑證的情況中執行 Lync 的行動裝置的自動探索服務，也需要。</p></td>
 </tr>
 <tr class="even">
 <td><p>HTTPS/TCP/443</p></td>
-<td><p>每</p></td>
-<td><p>反向 proxy 偵聽程式</p></td>
-<td><p>通訊錄下載、通訊錄網頁查詢服務、自動探索、用戶端更新、會議內容、裝置更新、群組延伸、Office Web Apps for 會議、電話撥入式會議及會議。</p></td>
+<td><p>任何</p></td>
+<td><p>反向 Proxy 接聽程式</p></td>
+<td><p>通訊錄下載、 通訊錄 Web 查詢服務、 自動探索、 用戶端更新、 會議內容、 裝置更新、 群組擴充，Office Web Apps for 會議、 電話撥入式會議及會議。</p></td>
 </tr>
 </tbody>
 </table>
@@ -108,30 +108,30 @@ _**主題上次修改日期：** 2013-02-15_
 </colgroup>
 <thead>
 <tr class="header">
-<th>通訊協定/TCP 或 UDP/埠</th>
+<th>通訊協定/TCP 或 UDP/連接埠</th>
 <th>來源 IP 位址</th>
 <th>目的地 IP 位址</th>
-<th>筆記</th>
+<th>附註</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>HTTP/TCP/8080</p></td>
-<td><p>內部反向 proxy 介面</p></td>
-<td><p>前端伺服器、前端池、導演、控制器池</p></td>
-<td><p>如果組織不想要修改外部 web 服務發佈規則憑證的情況下，在執行 Lync 的行動裝置上使用自動探索服務，則是必要的。</p>
-<p>在反向 proxy 外部介面上傳送到埠80的流量，會從反向 proxy 內部介面重新導向到埠8080上的 pool，讓 pool Web 服務可以區別內部網路流量。</p></td>
+<td><p>內部反向 Proxy 介面</p></td>
+<td><p>前端伺服器，前端集區、 Director、 Director 集區</p></td>
+<td><p>如果在組織不想要修改外部 web 服務發行規則憑證的情況中執行 Lync 的行動裝置使用自動探索服務，需要。</p>
+<p>傳送至反向 Proxy 外部介面之連接埠 80 的流量，會從反向 Proxy 內部介面重新導向至連接埠 8080 上的集區，讓集區 Web 服務能夠將它與內部 Web 流量區分開來。</p></td>
 </tr>
 <tr class="even">
 <td><p>HTTPS/TCP/4443</p></td>
-<td><p>內部反向 proxy 介面</p></td>
-<td><p>前端伺服器、前端池、導演、控制器池</p></td>
-<td><p>在反向 proxy 外部介面上傳送到埠443的流量，會從反向 proxy 內部介面重新導向到埠4443上的 pool，讓 pool web 服務可以區別內部網路流量。</p></td>
+<td><p>內部反向 Proxy 介面</p></td>
+<td><p>前端伺服器，前端集區、 Director、 Director 集區</p></td>
+<td><p>傳送至反向 Proxy 外部介面之連接埠 443 上的流量，系統會重新導向至來自反向 Proxy 內部介面之連接埠 4443 上的集區，因此集區 Web 服務可以將它與內部 Web 流量區分開來。</p></td>
 </tr>
 <tr class="odd">
 <td><p>HTTPS/TCP/443</p></td>
-<td><p>內部反向 proxy 介面</p></td>
-<td><p>適用于會議的 Office Web Apps</p></td>
+<td><p>內部反向 Proxy 介面</p></td>
+<td><p>電話撥入會議的 office Web Apps</p></td>
 <td></td>
 </tr>
 </tbody>

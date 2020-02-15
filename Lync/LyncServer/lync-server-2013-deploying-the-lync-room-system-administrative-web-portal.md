@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：部署 Lync 會議室系統管理網頁入口網站
+title: Lync Server 2013： 部署 Lync 會議室系統管理的入口網站
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 56737621
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d7f62a5c7fde401452744abba5f4b6dfec175da2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 945532f4f0514263ed0d72e00ac5224aa6d7120b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740803"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043365"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploying-the-lync-room-system-administrative-web-portal-in-lync-server-2013"></a>在 Lync Server 2013 中部署 Lync 會議室系統管理網頁入口網站
+# <a name="deploying-the-lync-room-system-administrative-web-portal-in-lync-server-2013"></a>部署 Lync Server 2013 中的管理 Web Lync 會議室系統入口網站
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41740803"
 
 <span> </span>
 
-_**主題上次修改日期：** 2015-05-04_
+_**主題上次修改日期：** 2015年-05-04_
 
-Microsoft Lync Server 2013 Lync 室系統（LRS）的系統管理網頁入口網站是一個組織可以用來維護其 Lync 會議室系統會議室的網頁入口網站。 系統管理員可以使用 LRS 的系統管理網頁入口網站來監視 LRS 的健康情況，例如，監視連線的音訊/視頻裝置。 有了這個入口網站，管理員就可以遠端收集診斷資訊來監控會議室的健康情況。
+Microsoft Lync Server 2013 Lync 會議室系統 (LRS) 系統管理入口網站是入口網站，讓組織可用於維護其 Lync 會議室系統會議室。 管理員可以使用 LRS 管理入口網站來監控 LRS 健康情況，例如藉由監視音訊/視訊裝置的連線。 使用此入口網站，系統管理員可以從遠端收集診斷資訊給監視會議會議室健康情況。
 
-LRS 系統管理網頁入口網站已部署在每個 Lync 前端伺服器上。 本指南提供系統管理員如何安裝及設定 LRS 系統管理網頁入口網站的相關指示。 它適用于熟悉 Lync Server 管理的系統管理員，以及誰有管理員使用者許可權來修改 Lync Server 拓撲。
+LRS 管理入口網站被部署在每個 Lync 前端伺服器上。 本指南提供有關如何安裝及設定 LRS 管理入口網站管理員的指示。 它適用於系統管理員擁有知曉 Lync Server 管理，以及誰具有系統管理員使用者權限，可修改 Lync Server 拓撲。
 
-在伺服器上部署 LRS 系統管理網路入口網站之後，系統管理員可以從自己的電腦或膝上型電腦登入網站，以檢查所有 LRS 聊天室的狀態。
+LRS 管理入口網站部署在伺服器上後，系統管理員可以從他們自己的筆記型電腦或電腦登入的網站，查看所有 LRS 會議室的狀態。
 
 <div>
 
 
 > [!IMPORTANT]  
-> 當您在 Microsoft Lync Server 2013 部署中安裝 LRS 系統管理網頁入口網站時，請使用<A href="http://go.microsoft.com/fwlink/p/?linkid=544806">Microsoft Lync 會議室系統的系統管理網頁入口網站進行 Lync server 2013</A>。<BR>商務用 Skype Server 2015 有新版本的 LRS 系統管理網頁入口網站，但除非您已部署商務用 Skype Server 2015，否則您不應該安裝該版本。 下載<A href="http://go.microsoft.com/fwlink/?linkid=544807">適用于商務用 Skype Server 2015 的 Microsoft Lync 會議室系統管理網頁入口網站</A>。
+> 當您在 Microsoft Lync Server 2013 部署中安裝 LRS 管理入口網站時，您應該使用<A href="http://go.microsoft.com/fwlink/p/?linkid=544806">Microsoft Lync 會議室系統管理入口網站的 Lync Server 2013</A>。<BR>LRS 管理入口網站的新版本適用於商務用 Skype Server 2015，但是您不應該安裝該版本，除非您已部署用 Skype Server 2015。 下載<A href="http://go.microsoft.com/fwlink/?linkid=544807">Microsoft Lync 會議室系統管理 Web Skype for Business Server 2015 入口網站</A>。
 
 
 
@@ -55,22 +55,22 @@ LRS 系統管理網頁入口網站已部署在每個 Lync 前端伺服器上。 
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-[為 Lync Room System Administrative Web Portal 設定您的 Lync Server 2013 環境](lync-server-2013-configuring-your-environment-for-the-lync-room-system-administrative-web-portal.md)
+[設定 Lync Server 2013 環境的 Lync 會議室系統管理入口網站](lync-server-2013-configuring-your-environment-for-the-lync-room-system-administrative-web-portal.md)
 
-[在 Lync Server 2013 中安裝 Lync 會議室系統管理網頁入口網站](lync-server-2013-installing-the-lync-room-system-administrative-web-portal.md)
+[安裝 Lync Server 2013 中的 Lync 會議室系統管理的入口網站](lync-server-2013-installing-the-lync-room-system-administrative-web-portal.md)
 
-[在 Lync Server 2013 中使用 Lync Room System 系統管理 Web 入口網站](lync-server-2013-using-the-lync-room-system-administrative-web-portal.md)
+[使用 Lync Server 2013 中的 Lync 會議室系統管理 Web 入口網站](lync-server-2013-using-the-lync-room-system-administrative-web-portal.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
-[在 Lync Server 2013 中部署會議](lync-server-2013-deploying-conferencing.md)  
+[部署 Lync Server 2013 中的會議](lync-server-2013-deploying-conferencing.md)  
   
 
 </div>

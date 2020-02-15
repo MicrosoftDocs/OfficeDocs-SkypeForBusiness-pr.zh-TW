@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： UserStatistics 表格
+title: 'Lync Server 2013: UserStatistics 資料表'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733827
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7609747848e1943a08eff2fa77b87f0168710f81
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 98c24093f332f568daadfb0cd336f0d5fde3eb35
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744253"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044345"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="userstatistics-table-in-lync-server-2013"></a>Lync Server 2013 中的 UserStatistics 表格
+# <a name="userstatistics-table-in-lync-server-2013"></a>Lync Server 2013 中的 UserStatistics 資料表
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41744253"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-09-28_
+_**主題上次修改日期：** 2012年-09-28_
 
-UserStatistics 資料表是支援資料表。 資料表中的每一筆記錄都儲存著個別使用者使用系統的相關資訊。 此表格是在 Microsoft Lync Server 2013 中推出。
+UserStatistics 資料表是一種支援資料表。 在資料表中的每一筆記錄會儲存系統，個別使用者的使用狀況的相關資訊。 Microsoft Lync Server 2013 中已採用此表格。
 
 
 <table>
@@ -49,9 +49,9 @@ UserStatistics 資料表是支援資料表。 資料表中的每一筆記錄都�
 </colgroup>
 <thead>
 <tr class="header">
-<th>左欄</th>
+<th>欄</th>
 <th>資料類型</th>
-<th>索引鍵/索引</th>
+<th>主索引鍵 /</th>
 <th>詳細資料</th>
 </tr>
 </thead>
@@ -59,32 +59,32 @@ UserStatistics 資料表是支援資料表。 資料表中的每一筆記錄都�
 <tr class="odd">
 <td><p><strong>UserId</strong></p></td>
 <td><p>int</p></td>
-<td><p>首選</p></td>
-<td><p>標識此使用者的唯一號碼。</p></td>
+<td><p>主要</p></td>
+<td><p>用於識別此使用者的唯一號碼。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LastLogInTime</strong></p></td>
 <td><p>datetime</p></td>
 <td></td>
-<td><p>使用者最後一次登入的時間。</p></td>
+<td><p>上次使用者登入。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LastConfOrganizedTime</strong></p></td>
 <td><p>datetime</p></td>
 <td></td>
-<td><p>使用者最後一次組織會議的時間。</p></td>
+<td><p>上次使用者召集的會議。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LastCallOrganizerCallFailureTime</strong></p></td>
 <td><p>datetime</p></td>
 <td></td>
-<td><p>使用者最後一次遇到通話失敗的問題。</p></td>
+<td><p>上次使用者上次發生通話失敗。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LastConfOrganizerCallFailureTime</strong></p></td>
 <td><p>datetime</p></td>
 <td></td>
-<td><p>使用者最後一次遇到「會議召集人」通話失敗的問題。</p></td>
+<td><p>上次使用者遇到通話失敗會議召集人的身分。</p></td>
 </tr>
 </tbody>
 </table>

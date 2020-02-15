@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：UserSite 表格
+title: 'Lync Server 2013:: UserSite 表格'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183552
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7e316fe33ac77784a681a71b9cabd0613bb1cc1b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 47d416017afdc36eefaffd3269359bcd0192a0c5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744263"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044365"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="usersite-table-in-lync-server-2013"></a>Lync Server 2013 中的 UserSite 表格
+# <a name="usersite-table-in-lync-server-2013"></a>在 [Lync Server 2013: UserSite 表格
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41744263"
 
 <span> </span>
 
-_**主題上次修改日期：** 2010-11-09_
+_**主題上次修改日期：** 2010年-11-09_
 
-UserSite 資料表是支援資料表。 每個記錄代表 [網路設定] 中定義的一個使用者網站。
+UserSite 表格是一種支援資料表，其中的每一項記錄都代表網路組態設定中定義的一個使用者網站。
 
 
 <table>
@@ -49,9 +49,9 @@ UserSite 資料表是支援資料表。 每個記錄代表 [網路設定] 中定
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>左欄</strong></th>
+<th><strong>欄</strong></th>
 <th><strong>資料類型</strong></th>
-<th><strong>索引鍵/索引</strong></th>
+<th><strong>主索引鍵 /</strong></th>
 <th><strong>詳細資料</strong></th>
 </tr>
 </thead>
@@ -59,20 +59,20 @@ UserSite 資料表是支援資料表。 每個記錄代表 [網路設定] 中定
 <tr class="odd">
 <td><p><strong>UserSiteKey</strong></p></td>
 <td><p>int</p></td>
-<td><p>首選</p></td>
-<td><p>識別使用者網站的唯一號碼。</p></td>
+<td><p>主要</p></td>
+<td><p>用於識別使用者網站的唯一號碼。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserSiteName</strong></p></td>
-<td><p>Nvarchar</p></td>
-<td><p>唯一</p></td>
-<td><p>使用者網站的名稱。</p></td>
+<td><p>nvarchar(128)</p></td>
+<td><p>Unique</p></td>
+<td><p>使用者網站名稱。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RegionKey</strong></p></td>
 <td><p>int</p></td>
-<td><p>外</p></td>
-<td><p>從<a href="lync-server-2013-region-table.md">Lync Server 2013 的地區資料表中</a>參考。</p></td>
+<td><p>Foreign</p></td>
+<td><p>參考來源： <a href="lync-server-2013-region-table.md">Region table Lync Server 2013 中</a>。</p></td>
 </tr>
 </tbody>
 </table>

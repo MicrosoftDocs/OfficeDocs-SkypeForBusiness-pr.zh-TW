@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：用戶端及裝置軟體和基礎結構支援
+title: Lync Server 2013： 用戶端與裝置軟體和基礎結構支援
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184265
 ms.date: 08/27/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1a741d4696d883d9a29dc0117be28ea82f474cff
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 55095e968e898445e42ceebed73f95ee9fb128d9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729863"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043845"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="client-and-device-software-and-infrastructure-support-in-lync-server-2013"></a>Lync Server 2013 中的用戶端及裝置軟體和基礎結構支援
+# <a name="client-and-device-software-and-infrastructure-support-in-lync-server-2013"></a>Lync Server 2013 中的用戶端與裝置軟體和基礎結構支援
 
 </div>
 
@@ -35,33 +35,33 @@ ms.locfileid: "41729863"
 
 <span> </span>
 
-_**主題上次修改日期：** 2014-08-27_
+_**上次修改主題：** 2014 年 08 月 27 日_
 
-Lync Server 2013 部署的用戶端和裝置的軟體支援包括支援用戶端和裝置功能所需的作業系統、基礎結構軟體及其他其他軟體。
+用戶端和 Lync Server 2013 部署的裝置的軟體支援包括支援的作業系統、 基礎結構軟體和其他支援用戶端及裝置功能所需的其他軟體。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
   - <span></span>  
-    [Lync Server 2013 中的 lync 用戶端軟體支援](lync-server-2013-lync-client-software-support.md)
+    [Lync Server 2013 中的 Lync 用戶端軟體支援](lync-server-2013-lync-client-software-support.md)
 
   - <span></span>  
-    [支援 Lync Server 2013 中的公用立即信使連線](lync-server-2013-support-for-public-instant-messenger-connectivity.md)
+    [支援的 Lync Server 2013 中公用即時訊息連線](lync-server-2013-support-for-public-instant-messenger-connectivity.md)
 
   - <span></span>  
-    [Lync 中使用者相片的顯示方式](how-user-photos-are-displayed-in-lync.md)
+    [在 Lync 使用者相片的顯示方式](how-user-photos-are-displayed-in-lync.md)
 
 <div>
 
 
 > [!NOTE]  
-> Lync Phone Edition 與 Lync Server 2010 的運作方式與 lync server 2013 相同。 如需裝置軟體支援的詳細資訊，請參閱 Lync Server 2010 TechNet 文件庫中的下列主題： 
+> Lync Phone Edition 的運作方式相同搭配 Lync Server 2013 與 Lync Server 2010 一樣。 如需對裝置的軟體支援的詳細資訊，請參閱 < Lync Server 2010 TechNet Library 中的下列主題： 
 > <UL>
 > <LI>
-> <P>裝置所需的 Lync Server 2010 元件<A class=uri href="http://go.microsoft.com/fwlink/p/?linkid=256488">http://go.microsoft.com/fwlink/p/?linkid=256488</A></P>
+> <P>在裝置的必要的 Lync Server 2010 元件<A class=uri href="http://go.microsoft.com/fwlink/p/?linkid=256488">http://go.microsoft.com/fwlink/p/?linkid=256488</A></P>
 > <LI>
-> <P>裝置系統與基礎結構支援<A class=uri href="http://go.microsoft.com/fwlink/p/?linkid=256489">http://go.microsoft.com/fwlink/p/?linkid=256489</A></P></LI></UL>
+> <P>裝置系統和基礎結構支援部門<A class=uri href="http://go.microsoft.com/fwlink/p/?linkid=256489">http://go.microsoft.com/fwlink/p/?linkid=256489</A></P></LI></UL>
 
 
 

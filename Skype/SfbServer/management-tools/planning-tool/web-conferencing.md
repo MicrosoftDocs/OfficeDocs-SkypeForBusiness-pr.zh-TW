@@ -1,5 +1,5 @@
 ---
-title: 網路會議（規劃工具）
+title: Web 會議 （規劃工具）
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,29 +12,29 @@ f1.keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4e4425c1-4a7b-4706-a4cd-155fd903acd5
-description: 商務用 Skype Server 2015 網路會議包含檔共同作業、應用程式共用和桌面共用。
-ms.openlocfilehash: efde69f2d330baf771cdbee051634852f11717e8
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 商務用 Skype Server 2015 web 會議包含文件共同作業、 應用程式共用與桌面共用。
+ms.openlocfilehash: 0e21eb95cbe91e88cad90b536f434029f7c21ab7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816242"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043355"
 ---
-# <a name="web-conferencing-planning-tool"></a>網路會議（規劃工具）
+# <a name="web-conferencing-planning-tool"></a>Web 會議 （規劃工具）
  
-商務用 Skype Server 2015 網路會議包含檔共同作業、應用程式共用和桌面共用。
+商務用 Skype Server 2015 web 會議包含文件共同作業、 應用程式共用與桌面共用。
   
 > [!NOTE]
-> 商務用 Skype Server 2015 使用 Office Web Apps 和 Office Web Apps 伺服器來處理 PowerPoint 簡報的共用和轉譯。 網路會議功能的運作方式與 Microsoft Lync 2013 中的功能完全相同。 如需安裝及設定 Office Web Apps 伺服器的詳細資料，請參閱設定[與 Office Web Apps server 和 Lync Server 2013 的整合](https://technet.microsoft.com/en-us/library/jj204792%28v=ocs.15%29.aspx)。 
+> 商務用 Skype Server 2015 使用 Office Web Apps 與 Office Web Apps Server 來處理共用和 PowerPoint 簡報的轉譯。 一樣在 [Microsoft Lync 2013 的 web 會議功能運作完全相同。 如需安裝及設定 Office Web Apps Server 的詳細資訊，請參閱[設定整合 Office Web Apps Server 與 Lync Server 2013](https://technet.microsoft.com/library/jj204792%28v=ocs.15%29.aspx)。 
   
-如需有關在貴組織啟用 web 會議的規劃詳細資料，請參閱下列主題： 
+如需啟用您組織中的 web 會議規劃的詳細資訊，請參閱下列主題： 
   
-- [在商務用 Skype Server 2015 中規劃會議](../../plan-your-deployment/conferencing/conferencing.md)
+- [規劃商務 Server 2015 的 skype 會議](../../plan-your-deployment/conferencing/conferencing.md)
     
-- [商務用 Skype Server 2015 中的會議硬體和軟體需求](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md)
+- [商務 Server 2015 skype 會議的硬體及軟體需求](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md)
     
-- [在商務用 Skype Server 2015 中規劃電話撥入式會議](../../plan-your-deployment/conferencing/dial-in-conferencing.md)
+- [規劃撥入式會議用 skype Server 2015](../../plan-your-deployment/conferencing/dial-in-conferencing.md)
     
-- [在商務用 Skype Server 2015 中規劃大型會議](../../plan-your-deployment/conferencing/large-meetings.md)
+- [規劃大型會議中用 Skype Server 2015](../../plan-your-deployment/conferencing/large-meetings.md)
     
 

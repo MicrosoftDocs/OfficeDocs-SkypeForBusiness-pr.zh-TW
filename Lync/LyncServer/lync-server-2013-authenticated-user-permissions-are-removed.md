@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：已移除已驗證使用者權限
+title: Lync Server 2013： 移除已驗證的使用者權限
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184304
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 63b9761f96156fdc4dea124d4438cdb8685add26
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: dd54da7201889e9ca2ab8d2c40a84ad082fa1686
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41722599"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044555"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="authenticated-user-permissions-are-removed-in-lync-server-2013"></a>Lync Server 2013 中已移除已驗證使用者權限
+# <a name="authenticated-user-permissions-are-removed-in-lync-server-2013"></a>Lync Server 2013 中移除已驗證的使用者權限
 
 </div>
 
@@ -35,51 +35,51 @@ ms.locfileid: "41722599"
 
 <span> </span>
 
-_**主題上次修改日期：** 2013-02-21_
+_**上次修改主題：** 2013年-02-21_
 
-在鎖定的 Active Directory 環境中，已從預設 Active Directory 容器中移除經過驗證的使用者存取控制專案（Ace），包括使用者、配置或系統，以及使用者和電腦的組織單位（Ou）。儲存物件。 移除經過驗證的使用者 Ace 可防止讀取 Active Directory 資訊的讀取權限。 不過，移除 Ace 會針對 Lync Server 2013 產生問題，因為它依賴于這些容器的讀取權限，以允許使用者執行網域準備。
+在鎖定的 Active Directory 環境中，會從預設 Active Directory 容器 (包括「使用者」、「設定」或「系統」，以及儲存「使用者」和「電腦」物件的組織單位 (OU)) 中移除已驗證的使用者存取控制項目 (ACE)。 移除已驗證的使用者 ACE，可防止對 Active Directory 資訊進行讀取存取。 不過，移除 Ace 建立 Lync Server 2013 的問題因為若要允許使用者執行網域準備在這些容器的讀取權限而定。
 
-在這種情況下，網域系統管理員群組中的成員資格是執行網域準備、伺服器啟用和池建立，不會再授與預設容器中所儲存之 Active Directory 資訊的讀取存取權。 您必須在林根網域的各個容器上手動授與存取權，以檢查必備的目錄林準備程式是否已完成。
+在此情況下，Domain Admins 群組的成員資格 (執行網域準備、伺服器啟動及集區建立所需的成員資格) 就不會再授與預設容器中所儲存 Active Directory 資訊的讀取存取權。您必須手動授與樹系根網域中各種容器的讀取存取權限，才能檢查必要的樹系準備程序是否完成。
 
-若要讓使用者在任何非林根網域上執行網域準備、伺服器啟用或池建立，您可以使用下列選項：
+若要啟用使用者，以便在任何非樹系根網域上執行網域準備、伺服器啟動或集區建立作業，您有以下的選項：
 
-  - 使用企業系統管理員群組成員的帳戶來執行網域準備。
+  - 使用屬於 Enterprise Admins 群組，以執行網域準備作業的帳戶。
 
-  - 使用網域系統管理員群組成員的帳戶，並在林根網域的下列每個容器中，授與此帳戶的讀取存取許可權：
+  - 使用為 Domain Admins 群組成員的帳戶，並將樹系根網域中下列每個容器的讀取存取權限授與此帳戶：
     
-      - 主域
+      - 網域
     
-      - 配置或系統
+      - 設定或系統
 
-如果您不想使用企業系統管理員群組成員的帳戶來執行網域準備或其他設定工作，請明確授予您想要在林根的相關容器上使用 [讀取] 存取權的帳戶。
+如果您不想要使用屬於 Enterprise Admins 群組成員的帳戶來執行網域準備或其他設定工作，請將樹系根中相關容器的讀取存取權明確授與想要使用的帳戶。
 
 <div>
 
-## <a name="to-give-users-read-access-permissions-on-containers-in-the-forest-root-domain"></a>在林根網域中為使用者提供對容器的讀取存取許可權
+## <a name="to-give-users-read-access-permissions-on-containers-in-the-forest-root-domain"></a>將樹系根網域中容器的讀取存取權限授與使用者
 
-1.  使用屬於林根網域之網域系統管理員群組成員的帳戶登入加入林根網域的電腦。
+1.  使用屬於樹系根網域之 Domain Admins 群組成員的帳戶，登入已加入樹系根網域的電腦。
 
-2.  針對目錄林根網域執行 adsiedit。
+2.  為樹系根網域執行 adsiedit.msc。
     
-    如果從 [網域]、[設定] 或 [系統] 容器中移除經過驗證的使用者 Ace，您必須授與容器的唯讀許可權，如以下步驟所述。
+    如果已從「網域」、「設定」或「系統」容器中移除已驗證的使用者 ACE，則必須授與容器的唯讀權限 (如下列各步驟所述)。
 
-3.  以滑鼠右鍵按一下容器，然後按一下 [**屬性**]。
+3.  用滑鼠右鍵按一下容器，然後按一下 **[內容]**。
 
-4.  按一下 [**安全性**] 索引標籤。
+4.  按一下 **[安全性]** 索引標籤。
 
 5.  按一下 [進階]****。
 
-6.  按一下 [**許可權**] 索引標籤上的 [**新增**]。
+6.  在 [使用權限]**** 索引標籤上，按一下 [新增]****。
 
-7.  使用下列格式，輸入接收許可權的使用者或群組的名稱： `domain\account name`，然後按一下 **[確定]**。
+7.  輸入的使用者或群組使用下列格式來接收權限名稱： `domain\account name`，然後按一下 [**確定]**。
 
-8.  在 [**物件**] 索引標籤上的 [**適用**于] 中，按一下 [**僅此物件**]。
+8.  在 **[物件]** 索引標籤的 **[套用到]** 中，按一下 **[只有此物件]**。
 
-9.  在 [**許可權**] 中，按一下 [**允許**] 欄： [**清單內容**]、[**讀取所有屬性**] 和 [**讀取權限**]，以選取下列允許 ace。
+9.  在 **[使用權限]** 中，按一下 **[允許]** 欄以選取下列「允許 ACE」：**[清單內容]**、**[讀取全部內容]** 和 **[讀取權限]**。
 
-10. 按一下 **[確定]** 兩次。
+10. 按兩次 **[確定]**。
 
-11. 針對步驟2中所列的任何相關容器，重複這些步驟。
+11. 針對步驟 2 中列出的任何相關容器，重複執行上述步驟。
 
 </div>
 

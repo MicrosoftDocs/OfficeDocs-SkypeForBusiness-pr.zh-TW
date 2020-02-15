@@ -1,5 +1,5 @@
 ---
-title: 部署內部部署的 Exchange UM，以提供 Lync Server 2013 語音信箱
+title: 部署內部部署 Exchange UM 以提供 Lync Server 2013 語音信箱
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184859
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c836c579571645a7717ee54b697081104f90986d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3742b747a9dee55d02cbc261cbcbebce1f3c2591
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740953"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043405"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail"></a>部署內部部署的 Exchange UM，以提供 Lync Server 2013 語音信箱
+# <a name="deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail"></a>部署內部部署 Exchange UM 以提供 Lync Server 2013 語音信箱
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41740953"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-09-26_
+_**主題上次修改日期：** 2012年-09-26_
 
-如果您已部署或計畫在貴組織中部署 Microsoft Exchange Server，您可以使用 Exchange 整合訊息（UM）功能，為企業語音使用者提供語音信箱。
+如果您已部署或打算在組織中部署 Microsoft Exchange Server，您可以使用 Exchange 整合通訊 (UM) 功能，為企業語音使用者提供語音信箱。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [設定 Microsoft Exchange Server 上的 Unified Messaging 以搭配 Lync Server 2013 使用](lync-server-2013-configuring-unified-messaging-on-microsoft-exchange-server-to-work-with-lync-server.md)
+  - [設定為搭配 Lync Server 2013 的 Microsoft Exchange 伺服器上的 [整合通訊](lync-server-2013-configuring-unified-messaging-on-microsoft-exchange-server-to-work-with-lync-server.md)
 
-  - [設定 Lync Server 2013 以搭配 Microsoft Exchange Server 上的 Unified Messaging 使用](lync-server-2013-configure-lync-server-2013-to-work-with-unified-messaging-on-microsoft-exchange-server.md)
+  - [設定 Lync Server 2013 來使用 Microsoft Exchange Server 上整合通訊](lync-server-2013-configure-lync-server-2013-to-work-with-unified-messaging-on-microsoft-exchange-server.md)
 
 </div>
 

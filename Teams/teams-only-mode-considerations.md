@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d9ad590f61b63aad1208fb2ad04f4aa3b80a3ddb
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 806a96db63ca0bbb44eb92ed6e84f8451069e725
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836973"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035457"
 ---
 # <a name="teams-only-mode-considerations"></a>僅限團隊的模式考慮
 
@@ -55,7 +55,7 @@ ms.locfileid: "41836973"
  - Office 365 德國
  - 商務用 Skype 租使用者託管于韓國 **，** 組織需要將團隊資料儲存在韓國中。 目前，以韓國所儲存的商務用 Skype 資料升級至團隊的組織，會將其小組資料儲存在亞太地區，而不是在韓國資料中心區域中。
 
-**使用者專用的考慮**：有些使用者案例仍在演變，管理員可能會決定在升級組織中的其他使用者時，暫時推遲特定使用者的升級。 特別是，我們仍在針對主要裝置是使用 VDI 的使用者解決案例。 請監控[Office 365 藍圖](https://www.microsoft.com/en-us/microsoft-365/roadmap)網站以取得通知。
+**使用者專用的考慮**：有些使用者案例仍在演變，管理員可能會決定在升級組織中的其他使用者時，暫時推遲特定使用者的升級。 特別是，我們仍在針對主要裝置是使用 VDI 的使用者解決案例。 請監控[Office 365 藍圖](https://www.microsoft.com/microsoft-365/roadmap)網站以取得通知。
 
 > [!NOTE]
 > 在您移至 [僅限團隊] 模式前，您需要更換或更新不支援小組的裝置。 

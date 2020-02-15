@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：管理 Lync Server 2013 網路基礎結構
+title: Lync Server 2013： 管理 Lync Server 2013 網路基礎結構
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185638
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c8663c5837b118bc35c889dac34196a05a76dd63
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a228ccf207a0197e1eb74c1f8f733df1f7912f6e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727753"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042440"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,27 +35,27 @@ ms.locfileid: "41727753"
 
 <span> </span>
 
-_**主題上次修改日期：** 2014-02-11_
+_**上次修改主題：** 2014年-02-11_
 
-Microsoft Lync Server 2013 包含對通話許可控制（CAC）和媒體旁路的支援。 若要實現這些功能，您必須設定一個區域網路、網站、子網等等，這樣就能在需要限制音訊及視頻傳輸的情況下，管理頻寬。 您也可以使用 [服務品質（QoS）] 網路技術，協助提供最佳的音訊和視頻通訊使用者體驗。
+Microsoft Lync Server 2013 包含通話許可控制 (CAC) 的支援，以及媒體旁路。 若要實作這些功能中，您必須設定的網路地區、 網站、 子網路，而等等，可讓您管理頻寬的情況下，其中音訊及視訊的傳輸需要加以限制。 您也可以使用的服務品質 (QoS) 網路技術，以協助提供最佳使用者經驗的音訊及視訊通訊。
 
-您可以使用 Lync Server [控制台] 來設定和管理 CAC、媒體旁路及 QoS。 下列主題提供如何執行此動作的步驟。
+您可以使用 Lync Server Control Panel 設定及管理 CAC、 媒體旁路和 QoS。 下列主題提供如何進行此作業的步驟。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [管理 Lync Server 2013 中的服務品質（QoS）](lync-server-2013-managing-quality-of-service-qos.md)
+  - [管理服務的品質 (QoS 在 Lync Server 2013)](lync-server-2013-managing-quality-of-service-qos.md)
 
-  - [在 Lync Server 2013 中管理呼叫許可控制](lync-server-2013-managing-call-admission-control.md)
+  - [管理 Lync Server 2013 中的通話許可控制](lync-server-2013-managing-call-admission-control.md)
 
   - [Lync Server 2013 網路介面](lync-server-2013-lync-server-network-interfaces.md)
 
-  - [防止新連線至 Lync Server 2013 以進行伺服器維護](lync-server-2013-prevent-new-connections-to-lync-server-for-server-maintenance.md)
+  - [防止新連線至 Lync Server 2013 進行伺服器維護](lync-server-2013-prevent-new-connections-to-lync-server-for-server-maintenance.md)
 
-  - [Lync Server 2013 中的 lync 通話品質方法](lync-server-2013-poster-lync-call-quality-methodology.md)
+  - [Lync Server 2013 中的 Lync 通話品質方法](lync-server-2013-poster-lync-call-quality-methodology.md)
 
-  - [Lync Server 2013 中的主要健康情況指示](lync-server-2013-poster-key-health-indicators.md)
+  - [Lync Server 2013 中的索引鍵的健康狀態指標](lync-server-2013-poster-key-health-indicators.md)
 
 </div>
 

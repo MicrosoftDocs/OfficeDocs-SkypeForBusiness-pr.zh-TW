@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：部署整合連絡人存放區
+title: Lync Server 2013： 部署整合連絡人存放區
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184373
 ms.date: 06/06/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d224ec7a9c452c45f9f3471403301460a2a31cc8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d0e8fe5aaac47ce98cfae1376e83cdea89a4a1af
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740793"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043335"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploying-unified-contact-store-in-lync-server-2013"></a>在 Lync Server 2013 中部署整合連絡人存放區
+# <a name="deploying-unified-contact-store-in-lync-server-2013"></a>部署 Lync Server 2013 中的整合連絡人存放區
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41740793"
 
 <span> </span>
 
-_**主題上次修改日期：** 2016-06-06_
+_**主題上次修改日期：** 2016年-06-06_
 
-在 Lync Server 2013 中啟用整合連絡人存放區，不需要任何拓撲設定。 為使用者啟用整合連絡人存放區需要下列專案：
+啟用 Lync Server 2013 中的整合連絡人存放區不需要任何拓撲設定。 啟用使用者的整合連絡人存放區時，需要執行下列項目：
 
-  - 已啟用整合連絡人存放區原則（預設為啟用）。
+  - 啟用整合連絡人存放區原則 (預設為啟用)。
 
-  - 使用者至少以 Lync 2013 登入一次。
+  - 使用者登入與 Lync 2013 至少一次。
 
-在使用者的連絡人已完成遷移之後，當使用者以 Lync 2013 登入時，該使用者可以從 Lync 2013、Outlook 2013 或 Outlook Web Access 存取及管理其 Lync 連絡人。 使用者不需要登入 Lync 就能從 Outlook 或 Outlook Web Access 管理他們的連絡人。
+使用者的連絡人已經移轉，當使用者登入 Lync 2013 自動執行之後，使用者可以存取，並從 Lync 2013、 Outlook 2013 或 Outlook Web Access 管理其 Lync 連絡人。 使用者沒有從 Outlook 或 Outlook Web Access 管理其連絡人的 Lync 登入。
 
 <div>
 
 
 > [!IMPORTANT]  
-> 如果使用者在遷移之後從 Lync 2010 登入，就可以使用 [連絡人] 和 [群組]，但使用者無法管理（也就是新增、刪除、移動、標記、將或修改）這些連絡人。
+> 如果使用者從登入 Lync 2010 移轉後，連絡人和群組皆可用且最新狀態，但使用者無法管理 （亦即新增、 刪除、 移動、 標記、 取消標記或修改） 那些連絡人。
 
 
 
@@ -57,13 +57,13 @@ _**主題上次修改日期：** 2016-06-06_
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [在 Lync Server 2013 中為使用者啟用整合連絡人存放區](lync-server-2013-enable-users-for-unified-contact-store.md)
+  - [啟用使用者的 Lync Server 2013 中整合連絡人存放區](lync-server-2013-enable-users-for-unified-contact-store.md)
 
-  - [在 Lync Server 2013 中將使用者移轉到整合的連絡人存放區](lync-server-2013-migrate-users-to-unified-contact-store.md)
+  - [將使用者移轉至 Lync Server 2013 中整合連絡人存放區](lync-server-2013-migrate-users-to-unified-contact-store.md)
 
-  - [在 Lync Server 2013 中復原已移轉的使用者](lync-server-2013-roll-back-migrated-users.md)
+  - [回復移轉 Lync Server 2013 中的使用者](lync-server-2013-roll-back-migrated-users.md)
 
 </div>
 

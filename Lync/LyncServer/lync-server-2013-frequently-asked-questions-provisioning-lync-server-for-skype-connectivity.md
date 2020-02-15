@@ -1,5 +1,5 @@
 ---
-title: 常見問題集：佈建 Lync Server 以供 Skype 連線
+title: 常見問題集： 佈建 Lync Server 的 Skype 連線
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 57793362
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7204119aca18bfeb2539b0ee5eae5bb53f38efd7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 690eb5631b57a88d207816a01c887c1f94c0eeb2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41722383"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044045"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="frequently-asked-questions-provisioning-lync-server-2013-for-skype-connectivity"></a>常見問題集：佈建 Lync Server 以供 Skype 連線
+# <a name="frequently-asked-questions-provisioning-lync-server-2013-for-skype-connectivity"></a>常見問題： 佈建 Lync Server 2013 的 Skype 連線
 
 </div>
 
@@ -35,122 +35,122 @@ ms.locfileid: "41722383"
 
 <span> </span>
 
-_**主題上次修改日期：** 2019-03-22_
+_**主題上次修改日期：** 2019年-03-22_
 
-從2019年4月開始，我們會針對透過 pic.lync.com 網站提供 Skype Federation 的客戶停止收集及保留連絡人資訊。 我們正在進行這種變更，以確保 pic.lync.com 置備系統符合 Microsoft 隱私權原則。 
+從開始年 4 月 2019年中，我們將會停止集合並保留透過 pic.lync.com 網站佈建 Skype 同盟的客戶的連絡資訊。 這項變更是在進行以確保佈建系統 pic.lync.com 遵守 Microsoft 隱私權原則。 
  
-此變更生效之後，我們將無法在未決的置備變更上提供電子郵件更新。 PIC 置備變更通常會在輸入後的24-48 小時內完成。 如果您在提交提供要求之後，仍會遇到48小時的 Skype Federation 問題，請與 Microsoft 技術支援人員聯繫，以進一步調查。
+一旦這項變更即可，我們將不再能夠提供電子郵件更新擱置中佈建的變更。 PIC 佈建變更通常後所輸入的 24 到 48 小時內完成。 如果您仍會發生 Skype 同盟問題 48 小時後提交佈建的要求，請洽詢 Microsoft 技術支援，以進一步調查。
 
 > [!IMPORTANT]
-> 如此一來，在2019年4月結束後，所有先前輸入的連絡人資訊都會從我們的系統中清除。
+> 這項變更的一部分，所有先前所輸入的連絡資訊都將予以從我們的系統 2019 年 4 月日結束。
 
 
-**問： Microsoft Lync 與 Skype 之間支援哪些功能？**
+**問： 何種功能支援 Microsoft Lync 和 Skype 之間？**
 
-**A：** 透過 Skype 現已成為 Microsoft 家庭的一部分，新的可能會開啟，將整合通訊案例延伸至數百萬個使用 Skype 的使用者。 這項組合可讓 Lync 客戶與供應商、客戶和合作夥伴連線並共同作業，依賴 Lync 的豐富程度和 Skype 的範圍。
+**答：** 與 Skype 立即組件中的 Microsoft 系列，新的可能性開啟擴充到數百個數百萬的人員使用 Skype 的整合的通訊案例。 此組合會讓 Lync 客戶連線，並與供應商、 客戶和合作夥伴，信賴憑證者的 Lync 豐富性和 Skype] 的範圍上共同作業。
 
-  - 立即訊息和音訊與視頻通話-Lync 與 Skype 使用者之間的同盟音訊及視頻通話與立即訊息
+  - 立即訊息和音訊和視訊通話 — 同盟音訊和視訊通話和立即訊息之間 Lync 與 Skype 使用者
 
-  - 目前狀態共用-同盟連絡人之間的 Exchange 目前狀態資訊
+  - 平台服務共用 — Exchange 之間同盟連絡人的目前狀態資訊
 
-  - 簡單的管理-設定與控制，可根據貴組織的原則和標準來設定聯盟通訊
+  - 簡單的系統管理-設定和控制項設定根據貴組織的原則及標準的同盟的通訊
 
-**問：我要如何確認我的 Lync 部署與 Skype 連接？**
+**問： 如何限定與 Skype 連線我 Lync 部署？**
 
-**A：** 如果您有下列其中一項，就表示您可以使用 Skype 連線的授權：
+**答：** 您已授權的 Skype 連線如果您有下列一項：
 
-  - Lync Server （2010或2013）加上 Lync Server 標準版用戶端存取授權（"Cal"; 2010 或2013），適用于您組織中將會連線至 Skype 的使用者和/或裝置。 
+  - Lync Server （2010年或 2013年） 再加上 Lync Server Standard 用戶端存取授權 （「 Cal 」; 2010年或 2013年） 的使用者及/或將連線到 Skype 您組織中的裝置。 
 
-  - Lync Online （作為獨立授權或 Office 365 套件的一部分）。不過，此服務（pic.lync.com）只適用于預配 Lync Server 及混合式 Lync Server 和 Lync Online 部署。Lync Online 的 PIC 配是在 Lync Online [控制台] （LOCP）中完成。
+  - Lync Online （作為獨立授權或 Office 365 套件的一部分）。不過，這項服務 (pic.lync.com) 是僅適用於佈建 Lync Server 與混合式 Lync Server 和 Lync Online 部署。Lync Online PIC 佈建完成在 Lync Online 控制項] 面板 (LOCP)。
 
-**問： Lync 使用者必須執行哪些動作才能連線至 Skype 連絡人？**
+**問： 必須 Lync 使用者怎麼做以連線至 Skype 連絡人？**
 
-**A：** 在啟用網域且組織的 Lync 系統管理員啟用這些功能之後，Lync 使用者就能在 Lync 用戶端的連絡人清單中新增 Skype 連絡人。
+**答：** 啟動網域且由組織的 Lync 管理員已啟用功能之後，Lync 使用者可以將 Skype 連絡人新增至他們的連絡人清單中的 Lync 用戶端。
 
-**問： Skype 使用者必須執行哪些動作才能連線至 Lync 連絡人？**
+**問： 必須用 Skype 使用者怎麼做以連線至 Lync 連絡人？**
 
-**A：** 所有想要連線至 Lync 使用者的 Skype 使用者，都必須有與其 Skype Id 相關聯的 Microsoft 帳戶，然後使用 Microsoft 帳戶登入。您可以在 Skype 用戶端中啟用此功能。
+**答：** 想要連線至 Lync 使用者的所有 Skype 使用者必須都擁有相關聯 Skype 識別碼與使用 Microsoft 帳戶登入 Microsoft 帳戶。若要啟用 Skype 用戶端內。
 
-**問：是否仍提供與 Windows Live 的同盟？**
+**問： 是否同盟與 Windows Live 仍然可以使用？**
 
-**A：** 從2012年10月起，Microsoft 已開始協助 Windows Live Messenger （WLM）使用者移至 Skype、途中最終停用 WLM。只要 WLM 在市場中，Lync 就會繼續支援與 WLM 的同盟，但不允許其他的 Windows Live domain 啟動。WLM 使用者的移動是由 Mac 版 Skype 6.0 和 Windows （2012年10月25日發行）啟用，這可讓您以 Microsoft 帳戶登入（亦即與 WLM 相同的認證）。 只要登入 Skype，WLM 好友清單就會自動填入 Skype，而且使用者可以利用 Skype 的擴充通訊功能，例如呼叫市話和手機、螢幕共用、群組視頻通話，以及支援寬螢幕各種不同的裝置。此外，WLM 使用者的 [同盟 Lync 連絡人] 會依照連絡人清單中的其他人，然後立即提供這些連絡人的 skype 和 Lync 之間的 IM。 Lync 客戶不需要執行任何動作，即可啟用這項服務的連續性。
+**答：** 開始在 2012 年 10 月日，Microsoft 已啟動協助 Windows Live Messenger (WLM) 的使用者移至 Skype，途中最終淘汰 WLM。Lync 仍會繼續只要 WLM 市場，但是卻沒有其他 Windows Live 網域啟用仍支援與 WLM 同盟。WLM 使用者的移動會啟用商務用 Skype 6.0 Mac 和 Windows （發行 2012 年 10 月 25 日） 可讓登入 Microsoft 帳戶 （亦即，為 WLM 的相同認證）。 只要登入 Skype，WLM 朋友清單會自動填入到 Skype，且使用者可以利用 Skype 的展開的通訊功能，例如呼叫 landlines 和 mobiles、 螢幕共用之後，群組視訊通話，並支援整個各種不同的裝置。此外，WLM 使用者的同盟的 Lync 連絡人請依照下列轉換成 Skype 與他們的朋友清單的其餘部分，Skype 和 Lync for 這些連絡人之間的 IM 立即將提供使用。 Lync 客戶不需要執行任何動作來啟用此持續性的服務。
 
-**問：是否仍提供 Yahoo\!或 AOL 的同盟？**
+**問： 是否與 Yahoo 同盟\!或 AOL 仍然可以使用？**
 
-**A：** 不。 使用 Yahoo 的同盟\! 而且 AOL 已從 Yahoo 提供支援\! 和 AOL。兩個 Yahoo\! 而且 AOL，服務于2014年6月30日結束。 
+**答：**[否]。 Yahoo 與同盟\! AOL 視 Yahoo 的支援，且\! 和 AOL。針對這兩個 Yahoo\! 和 AOL，已於 2014 年 6 月 30 日結束的服務。 
 
-**問：您可以先試用 Skype 連線，然後再購買 Lync 嗎？**
+**問： 我可以試用版 Skype 連線之前購買 Lync 嗎？**
 
-**A：** 在試用版中不會提供 Skype 連線。 您可以隨時註冊要測試的 Lync 客戶，而不需試用版。
+**答：** Skype 連線不是提供試用版為基礎。 試用版，取代合格授權的 Lync 客戶所建議只註冊服務來測試。
 
-**問：需要哪些資訊才能進行預配？**
+**問： 何種資訊才佈建？**
 
-**A：** 若要在合格的授權下提交置備要求，您需要下列各項：
+**答：** 若要提交下合格授權的佈建要求，您需要下列項目：
 
   - Microsoft 合約號碼：
     
-      - Microsoft 大量授權支援： Microsoft 大量授權協定編號
+      - Microsoft 大量授權支援： Microsoft 大量授權合約號碼
     
-      - Microsoft 合作夥伴網路： Headquarter 合作夥伴識別碼
+      - Microsoft Partner Network: Headquarter 協力程式識別碼
     
-      - 服務提供者授權協定：初始註冊號碼
+      - 服務提供者授權合約： 初始註冊號碼
     
-      - 高容量服務：產品註冊號碼
+      - 高磁碟區服務： 產品註冊號碼
 
-  - 存取邊緣服務的完整功能變數名稱（Fqdn）。
+  - 完整的 Access Edge service 的網域名稱 (Fqdn)。
     
-      - 至少需要一個存取邊緣服務的 FQDN。
+      - 需要至少一個 Access Edge service 的 FQDN。
     
-      - 如果您的組織有多台伺服器執行存取邊緣服務，請為每個額外的存取邊緣服務指定 Fqdn。 重要：如果您先前已指定存取邊緣服務的 FQDN，且想要變更它，可能需要幾天的時間來完成變更，並可能導致服務中斷。 若要防止服務中斷，建議您維護先前指定的存取邊緣服務 FQDN。
+      - 如果您的組織有多個執行 Access Edge service 的伺服器，指定每個額外的 Access Edge service 的 Fqdn。 重要： 如果您先前指定的 Access Edge service 的 FQDN，而且想要將它變更，佈建的變更可能需要數天才能完成而可能導致服務中斷。 若要避免服務中斷，我們建議您維護的 Access Edge service 先前指定的 FQDN。
 
-  - 會話初始通訊協定（SIP）網域。 這是使用者目前用於立即訊息的 SIP URI 網域尾碼。 如果您的組織有一個以上的 SIP 網域，請為用於立即訊息的每個網域指定網域尾碼。 例如，針對 user1@contoso.com，請指定 SIP 網域的 contoso.com;若是 user1@example.fabrikam.com，請將 example.fabrikam.com 指定為 SIP 網域。
+  - 工作階段初始通訊協定 (SIP) 網域。 這是使用者目前正在使用的立即訊息的 SIP URI 的網域尾碼。 如果您的組織有多個 SIP 網域，指定用於立即訊息的每個網域的網域尾碼。 例如，對於 user1@contoso.com，指定 [SIP 網域; contoso.com針對 user1@example.fabrikam.com，指定 example.fabrikam.com 和的 SIP 網域。
     
     <div>
     
 
     > [!NOTE]
-    > 僅指定 SIP 網域的網域尾碼。 請勿為 SIP 網域指定任何 Fqdn，包括存取邊緣服務的 FQDN。
+    > 指定只的 SIP 網域的網域尾碼。 未指定任何 Fqdn] 中，包括 [Access Edge service] 個 SIP 網域的 FQDN。
 
     
     </div>
 
-  - 連絡人資訊。 針對您指定的每個 SIP 網域，指定系統管理員的電子郵件地址。
+  - 連絡人資訊。 指定之管理員的您指定的每個 SIP 網域的電子郵件地址。
 
-**問：如何在分割網域案例中啟用 Lync Skype 連線功能？**
+**問： 如何啟用分割網域案例中的 Lync Skype 連線？**
 
-**A：** 如果您有 Lync Online 2013 和 Lync Server 內部部署分割網域案例（在線上和內部部署中使用相同的 SIP 網域的使用者），請依照下列循序執行下列兩個步驟，以啟用 Lync Skype 連線能力
+**答：** 如果您有 Lync Online 2013 及 Lync Server 內部部署分割網域案例 （與使用者在線上和內部部署使用相同的 SIP 網域） 依照下列順序這兩個步驟啟用 Lync Skype 連線
 
-1.  根據 PIC 提供指南中的說明，設定內部部署 Lync-Skype 連線能力。
+1.  設定內部部署 Lync Skype 連線 PIC 佈建指南中所述。
 
-2.  等到您看到您的網域已由 Microsoft 提供確認之後，再進行確認。
+2.  請稍候，直到您看到您的網域具有已由 Microsoft 所提供的確認。
 
-3.  在您看到確認之後，請使用 Lync 系統管理中心來開啟 [外部通訊]。 如需詳細資訊，請參閱[http://office.microsoft.com/en-us/support/configure-external-communications-HA102817865.aspx?CTT=5\&origin=HA102817356](http://office.microsoft.com/en-us/support/configure-external-communications-ha102817865.aspx?ctt=5%26origin=ha102817356)
+3.  您會看到確認之後，請開啟 「 外部通訊 」 使用 Lync 系統管理中心。 如需詳細資訊，請參閱[http://office.microsoft.com/support/configure-external-communications-HA102817865.aspx?CTT=5\&origin=HA102817356](http://office.microsoft.com/support/configure-external-communications-ha102817865.aspx?ctt=5%26origin=ha102817356)
 
-這個順序非常重要。您必須先設定內部部署連線，才能在 Lync Online 中啟用通訊。 如果是相反的順序，則在內部部署中<https://pic.lync.com>輸入的資訊將不會繼續進行。 如果您已將 Lync Online 設定為與此網域進行外部通訊，您必須先將您的內部部署資訊<https://pic.lync.com>輸入，然後開啟 Lync Online 的外部通訊，然後再重新開始。
+這個順序很重要。啟用 Lync Online 中的通訊之前，您必須設定內部部署連線能力。 如果順序為相反，輸入內部部署中的資訊<https://pic.lync.com>不會通過。 如果您已經有此網域與外部通訊設定好 Lync Online，您必須將它關閉，等候 24 小時、，然後再次啟動，第一次輸入您的內部部署資訊位於<https://pic.lync.com>，然後開啟 [Lync online 的外部通訊。
 
-**問：我可以為 Skype 連線提供多個存取邊緣服務 Fqdn 嗎？**
+**問： 可以佈建多個 Access Edge 服務 Fqdn 的 Skype 連線？**
 
-**A：** 您只能為一或多個網域提供一個存取邊緣 FQDN。 如果有不同的網域，您可以為每個要求提供多個存取邊緣 Fqdn （最多10個）。
+**答：** 您可以佈建一或多個網域只能有一個的 access 的 edge FQDN。 如果他們有不同的網域，您可以佈建多個 access edge Fqdn，最多為每個要求，10。
 
-**問：我可以取得您針對組織要求提供所找到的 Microsoft 帳戶電子郵件地址清單嗎？**
+**問： 可以取得您找到組織要求佈建的 Microsoft 帳戶電子郵件地址的清單？**
 
-**A：** 不。 這些位址被視為個人辨識資訊，而且不會被共用。
+**答：**[否]。 這些地址會被視為個人識別資訊，並不會共用。
 
-**問：我要如何新增 ID 包含 Windows Live 不支援之網域的 Windows Live Messenger 連絡人？**
+**問： 如何新增 Windows Live Messenger 連絡人已包含網域以外支援的 Windows Live ID？**
 
-**A：** 如果您要新增包含非 Windows live 網域之帳戶或 ID 的 Windows live Messenger 使用者，請以下列格式\<輸入位址： [使用者名稱\>] （\<功能變數名稱\>） @msn .com]，其中\<domain name\>是使用者電子郵件地址中的功能變數名稱。 例如，如果您想要新增 ted@contoso.com，您可以使用下列格式：李小明（contoso） @msn .com。 如需 Windows Live 所管理網域的清單，請參閱在「安裝 Live 通訊伺服器 Service Pack 1 後，在公用立即訊息中發生的已知問題」的 [支援的網域http://support.microsoft.com/?kbid=897567] 區段。
+**答：** 如果您要新增帳戶或識別碼與 Windows Live Messenger 使用者與非 Windows Live 網域，輸入地址格式如下：\<使用者名\>(\<網域名稱\>) @msn.com，其中\<網域名稱\>是在使用者的電子郵件地址的網域名稱。 例如，如果您想要新增 ted@contoso.com，您可以使用下列格式： ted (contoso.com) @msn.com。 由 Windows Live 管理的網域的清單，請參閱支援的網域] 區段中的 「 已知問題公用立即訊息與該 Occur 之後安裝 Live Communications Server Service Pack 1 」，在http://support.microsoft.com/?kbid=897567。
 
-**問：置備程式需要多少時間？**
+**問： 如何佈建程序需要花費時間？**
 
-**A：** 預配可能需要長達30天的時間。
+**答：** 佈建可能需要最多 30 天。
 
-**問：我要如何在完成調配時知道什麼？**
+**問： 如何將會知道完成佈建時？**
 
-**A：** 當提供完成時，Microsoft 會傳送電子郵件通知。
+**答：** Microsoft 會傳送電子郵件通知佈建時已完成。
 
-**問：我要如何更新我提交的設定或連絡人詳細資料？**
+**問： 如何更新組態或連絡我送出的詳細資訊嗎？**
 
-**A：** 您可以在完成調配之後，在您用來要求提供的相同網站上更新您的資訊。 輸入您的協定編號，然後按一下 [更新服務]。
+**答：** 您可以更新您在相同的網站，您用來要求佈建，佈建完成後的資訊。 輸入您合約數字，然後按一下 [更新服務。
 
 </div>
 

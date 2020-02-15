@@ -1,5 +1,5 @@
 ---
-title: 管理電腦、網站和全域集中式記錄服務設定
+title: 管理電腦、 網站及全域集中式記錄服務組態
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733738
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8f714c82fdc4ade0fc70b0a977e32ef46b26914d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b405cef9efd63956b6d676d751027318897f5e98
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729333"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043115"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-computer-site-and-global-centralized-logging-service-configuration-in-lync-server-2013"></a>在 Lync Server 2013 中管理電腦、網站和全域集中式記錄服務設定
+# <a name="managing-computer-site-and-global-centralized-logging-service-configuration-in-lync-server-2013"></a>管理電腦、 網站及 Lync Server 2013 中全域的集中式記錄服務組態
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41729333"
 
 <span> </span>
 
-_**主題上次修改日期：** 2014-02-04_
+_**上次修改主題：** 2014年-02-04_
 
-集中式記錄服務可以在包含單一電腦的範圍中執行，也就是在網站範圍（也就是已定義的網站（例如在您的部署中包含電腦和池集合的網站雷蒙德），或全域範圍（也就是在您部署中的所有電腦和池）。
+在範圍內，其中包含在單一電腦集區的電腦，在網站範圍 （亦即已定義的網站包含一群電腦和集區部署中的 Redmond 網站等），或在全域範圍 （亦即，可以執行 the Centralized Logging Service所有電腦和集區部署中的)。
 
-若要使用 Lync Server 管理命令介面設定集中式記錄服務範圍，您必須是 CsAdministrator 或 CsServerAdministrator 角色式存取控制（RBAC）安全性群組的成員，或是包含下列內容的自訂 RBAC 角色：這兩個群組的其中一個。 若要傳回已指派這個 Cmdlet 的所有 RBAC 角色清單（包括您自行建立的任何自訂 RBAC 角色），請從 Lync Server 管理命令介面或 Windows PowerShell 提示字元執行下列命令：
+若要使用 Lync Server 管理命令介面設定集中式記錄服務範圍，您必須是 CsAdministrator 或 CsServerAdministrator 角色型存取控制 (RBAC) 安全性群組或包含的自訂 RBAC 角色的成員其中一個這兩個群組。 若要傳回所有獲指派此 cmdlet 的 RBAC 角色清單 （包括您自行建立的任何自訂 RBAC 角色），請從 [Lync Server 管理命令介面或 Windows PowerShell 提示字元執行下列命令：
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "<Lync Server 2013 cmdlet>"}
 
@@ -51,31 +51,31 @@ _**主題上次修改日期：** 2014-02-04_
 
 
 > [!NOTE]
-> Windows PowerShell 提供其他選項和其他無法使用 CLSController 提供的配置選項。 CLSController 提供一種快速、簡明的方法來執行命令，但僅限於可供 CLSController 使用的命令組。 Windows PowerShell 不受限於 CLSController 命令處理器提供的命令，並提供更多組的命令及更豐富的選項。 例如，CLSController 會提供-電腦和– pool 的範圍選項。 在 Windows PowerShell 中，您可以在大部分命令中指示電腦或池，當您定義新的案例時（CLSController 的案例不一定是使用者可修改的），您可以定義網站或全域範圍。 Windows PowerShell 的這項強大功能可讓您定義網站或全域範圍的案例，但限制實際記錄到電腦或池。<BR>您可以在 Windows PowerShell 或 CLSController 中執行的命令列命令之間有一些基本差異。 Windows PowerShell 提供豐富的方法來設定及定義案例，並以一種有意義的方式在疑難排解案例中重複使用這些案例。 雖然 CLSController 確實提供快速且高效的方式來發出命令並取得結果，但 CLSController 的命令會受到您在命令列中提供的有限命令的限制。 與 Windows PowerShell Cmdlet 不同，CLSController 無法定義新案例、管理網站或全域階層的範圍，以及無法動態設定之有限命令集的許多其他限制。 雖然 CLSController 提供快速執行的方法，但 Windows PowerShell 提供了一種方式，可讓集中式記錄服務功能延伸到可能的 CLSController 以外。
+> Windows PowerShell 提供更多選項] 和 [不使用 CLSController.exe 的額外的設定選項。 CLSController 提供更快速且簡潔的方法，來執行命令，但限制為一組命令提供的 CLSController。 Windows PowerShell 不限制為只供 CLSController 命令處理器命令，並提供一組更廣的命令和一組更豐富的選項。 例如，CLSController.exe 並未提供範圍] 選項 – 電腦和 – 集區。 您可以使用 Windows PowerShell，指出電腦或集區中大部分的命令，並定義 （CLSController 會有數量有限的案例不是使用者可修改） 的新案例您可以定義網站或全域範圍。 此強大的功能的 Windows PowerShell 可讓您定義案例網站或全域範圍，但限制的電腦或集區的實際記錄。<BR>有您可以在 Windows PowerShell 或 CLSController 中執行命令列工具命令的基本差異。 Windows PowerShell 提供豐富的方法，來設定和定義案例中，以及在有意義的方法，讓您疑難排解案例中重複使用這些案例。 雖然 CLSController 並提供快速和有效率方式來發出命令，並取得結果，設定 CLSController 受限於有限的命令檔] 命令，您必須能從命令列。 不同的 Windows PowerShell cmdlet CLSController 無法定義新的案例中，管理在網站或全域層級及許多其他限制的一組有限的命令，無法以動態方式設定的範圍。 CLSController 提供快速執行，Windows PowerShell 提供方法來擴充以外的功能可能會在使用 CLSController 的集中式記錄服務功能。
 
 
 
 </div>
 
-在[搜尋 CsClsLogging](https://technet.microsoft.com/en-us/library/JJ619189(v=OCS.15))（[顯示-CsClsLogging](https://technet.microsoft.com/en-us/library/JJ619173(v=OCS.15))、 [Start-CsClsLogging](https://technet.microsoft.com/en-us/library/JJ619190(v=OCS.15))、 [Stop-CsClsLogging](https://technet.microsoft.com/en-us/library/JJ619180(v=OCS.15))、 [Sync-CsClsLogging](https://technet.microsoft.com/en-us/library/JJ619169(v=OCS.15))和[Update-CsClsLogging](https://technet.microsoft.com/en-us/library/JJ619170(v=OCS.15))命令）中，可以使用-電腦參數定義單一電腦範圍。 -電腦參數會接受以逗號分隔的目的電腦完整功能變數名稱（Fqdn）清單。
+在單一電腦範圍可以定義[Search-csclslogging](https://technet.microsoft.com/library/JJ619189(v=OCS.15))、 [Show-csclslogging](https://technet.microsoft.com/library/JJ619173(v=OCS.15))、 [Start-csclslogging](https://technet.microsoft.com/library/JJ619190(v=OCS.15))、 [Stop-csclslogging](https://technet.microsoft.com/library/JJ619180(v=OCS.15))、 [Sync-csclslogging](https://technet.microsoft.com/library/JJ619169(v=OCS.15))及[Update-csclslogging](https://technet.microsoft.com/library/JJ619170(v=OCS.15))命令使用的執行期間將 – Computers 參數。 – 電腦參數可接受的在目標電腦的完整的網域名稱 (Fqdn) 以逗號分隔清單。
 
 <div>
 
 
 > [!TIP]
-> 您也可以定義您想要執行記錄命令的 [彙集] 和 [逗號分隔的池清單]。
+> 您也可以定義 – 集區以及您想要執行記錄命令的集區的逗號分隔清單。
 
 
 
 </div>
 
-[網站] 和 [全域範圍] 是在**新**的、**集合**和**移除**集中式記錄服務 Cmdlet 中定義。 下列範例示範如何設定網站和全域範圍。
+網站和全域範圍定義**New-**、 **Set-**、 和**Remove-** Centralized Logging Service cmdlet。 下列範例會示範如何設定網站及全域範圍。
 
 <div>
 
 
 > [!IMPORTANT]
-> 所顯示的命令可能包含其他章節所涵蓋的參數和概念。 這個範例命令是用來示範如何使用–身分<STRONG>識別</STRONG>參數來定義作用域，而其他參數則包括完整性並指定範圍。 如需<STRONG>設定 CsClsConfiguration</STRONG> Cmdlet 的詳細資料，請參閱作業檔中的<A href="https://technet.microsoft.com/en-us/library/JJ619182(v=OCS.15)">CsClsConfiguration</A> 。
+> 參數和其他章節中所述的概念，可能會包含所示的命令。 範例命令主要在示範如何使用<STRONG>– Identity</STRONG>參數，以定義範圍，以及其他參數都包含在內的完整性，並指定範圍。 如需<STRONG>Set-csclsconfiguration</STRONG> cmdlet 的詳細資訊，請參閱作業文件中的<A href="https://technet.microsoft.com/library/JJ619182(v=OCS.15)">Set-csclsconfiguration</A> 。
 
 
 
@@ -83,61 +83,61 @@ _**主題上次修改日期：** 2014-02-04_
 
 <div>
 
-## <a name="to-retrieve-the-current-centralized-logging-service-configuration"></a>若要取得目前的集中式記錄服務設定
+## <a name="to-retrieve-the-current-centralized-logging-service-configuration"></a>若要擷取目前的集中式記錄服務組態
 
-1.  啟動 Lync Server 管理命令介面：按一下 [**開始**]，按一下 [**所有程式**]，按一下 [ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
+1.  啟動 Lync Server 管理命令介面： 按一下 [**開始]**，按一下 [**所有程式]**、 [ **Microsoft Lync Server 2013**]，然後按一下**Lync Server 管理命令介面**。
 
-2.  在命令列提示處輸入下列內容：
+2.  在命令列提示字元處輸入下列命令：
     
         Get-CsClsConfiguration
 
-使用**新的 CsClsConfiguration**和**CsClsConfiguration** Cmdlet 來建立新的設定或更新現有的配置。
+使用**New-csclsconfiguration**和**Set-csclsconfiguration** cmdlet 來建立新的設定或更新現有的組態。
 
-當您執行**CsClsConfiguration**時，它會顯示類似下列螢幕擷取畫面的資訊，其中的部署目前具有預設的全域設定，但未定義網站配置：
+當您執行**Get-csclsconfiguration**時，它會顯示類似以下螢幕擷取畫面，其中的部署目前具備預設的全域設定，但定義任何網站設定的資訊：
 
-![Get-CsClsConfiguration 輸出範例。](images/JJ688029.23f98ddc-fc48-499a-b6c5-752611f2a0b0(OCS.15).jpg "Get-CsClsConfiguration 輸出範例。")
+![從 Get-csclsconfiguration 輸出的範例。](images/JJ688029.23f98ddc-fc48-499a-b6c5-752611f2a0b0(OCS.15).jpg "從 Get-csclsconfiguration 輸出的範例。")
 
 </div>
 
 <div>
 
-## <a name="to-retrieve-the-current-centralized-logging-service-configuration-from-the-computer-local-store"></a>從電腦當地商店中取得目前的集中式記錄服務設定
+## <a name="to-retrieve-the-current-centralized-logging-service-configuration-from-the-computer-local-store"></a>若要從電腦本機存放區擷取目前的集中式記錄服務組態
 
-1.  啟動 Lync Server 管理命令介面：按一下 [**開始**]，按一下 [**所有程式**]，按一下 [ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
+1.  啟動 Lync Server 管理命令介面： 按一下 [**開始]**，按一下 [**所有程式]**、 [ **Microsoft Lync Server 2013**]，然後按一下**Lync Server 管理命令介面**。
 
-2.  在命令列提示處輸入下列內容：
+2.  在命令列提示字元處輸入下列命令：
     
         Get-CsClsConfiguration -LocalStore
 
-當您使用**CsClsConfiguration**未指定任何參數的第一個範例時，該命令會參照資料的中央管理儲存體。 如果您指定參數-LocalStore，命令會參照電腦 LocalStore，而不是中央管理儲存體。
+當您使用的第一個範例**Get-csclsconfiguration**沒有指定任何參數，命令參照的中央管理存放區的資料。 如果您指定參數 – LocalStore，此命令會參考電腦 LocalStore 而不是中央管理存放區。
 
 </div>
 
 <div>
 
-## <a name="to-retrieve-a-listing-of-scenarios-currently-defined"></a>若要檢索目前定義的案例清單
+## <a name="to-retrieve-a-listing-of-scenarios-currently-defined"></a>若要擷取目前定義的案例清單
 
-1.  啟動 Lync Server 管理命令介面：按一下 [**開始**]，按一下 [**所有程式**]，按一下 [ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
+1.  啟動 Lync Server 管理命令介面： 按一下 [**開始]**，按一下 [**所有程式]**、 [ **Microsoft Lync Server 2013**]，然後按一下**Lync Server 管理命令介面**。
 
-2.  在命令列提示處輸入下列內容：
+2.  在命令列提示字元處輸入下列命令：
     
         Get-CsClsConfiguration -Identity <scope and name> | Select-Object -ExpandProperty Scenarios
     
-    例如，若要檢索在全域範圍內定義的案例：
+    例如，若要擷取定義於全域範圍的案例：
     
         Get-CsClsConfiguration -Identity "global" | Select-Object -ExpandProperty Scenarios
 
-Cmdlet **CsClsConfiguration**會始終顯示屬於指定範圍之設定的情況。 在大多數情況下，不會顯示所有案例，而且會被截斷。 此處使用的命令會列出所有案例，以及使用哪些提供者、設定和標誌的部分資訊。
+**Get-csclsconfiguration**指令程式永遠會顯示在指定的範圍設定的一部分的案例。 在大多數情況下，所有案例不會顯示，並無條件捨去。 在這裡使用的命令會列出所有的案例和部分資訊何種提供者]，[設定]，並使用旗標。
 
 </div>
 
 <div>
 
-## <a name="to-update-a-global-scope-for-the-centralized-logging-service-by-using-windows-powershell"></a>使用 Windows PowerShell 來更新集中式記錄服務的全域範圍
+## <a name="to-update-a-global-scope-for-the-centralized-logging-service-by-using-windows-powershell"></a>若要使用 Windows PowerShell 更新 the Centralized Logging Service 全域範圍
 
-1.  啟動 Lync Server 管理命令介面：按一下 [**開始**]，按一下 [**所有程式**]，按一下 [ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
+1.  啟動 Lync Server 管理命令介面： 按一下 [**開始]**，按一下 [**所有程式]**、 [ **Microsoft Lync Server 2013**]，然後按一下**Lync Server 管理命令介面**。
 
-2.  在命令列提示處輸入下列內容：
+2.  在命令列提示字元處輸入下列命令：
     
         Set-CsClsConfiguration -Identity <scope> -EtlFileRolloverSizeMB <size for logging file in megabytes>
     
@@ -145,17 +145,17 @@ Cmdlet **CsClsConfiguration**會始終顯示屬於指定範圍之設定的情況
     
         Set-CsClsConfiguration -Identity "global" -EtlFileRolloverSizeMB 40
 
-此命令會告知部署中每個電腦和池中的 CLSAgent，將描摹檔案的滾動更新大小設定為 40 mb。 所有網站中的電腦和池都會受到命令的影響，並將其設定的追蹤記錄滾動更新值設為 40 mb。
+此命令告知 clsagent 的通訊上每個電腦和集區中部署，以設定為 40 mb 的追蹤檔案變換值的大小。 電腦和集區中的所有網站都受到命令，並會將其設定的追蹤記錄檔變換值設定為 40 mb。
 
 </div>
 
 <div>
 
-## <a name="to-update-a-site-scope-for-the-centralized-logging-service-by-using-windows-powershell"></a>使用 Windows PowerShell 來更新集中式記錄服務的網站範圍
+## <a name="to-update-a-site-scope-for-the-centralized-logging-service-by-using-windows-powershell"></a>若要使用 Windows PowerShell 更新集中式記錄服務的站台範圍
 
-1.  啟動 Lync Server 管理命令介面：按一下 [**開始**]，按一下 [**所有程式**]，按一下 [ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
+1.  啟動 Lync Server 管理命令介面： 按一下 [**開始]**，按一下 [**所有程式]**、 [ **Microsoft Lync Server 2013**]，然後按一下**Lync Server 管理命令介面**。
 
-2.  在命令列提示處輸入下列內容：
+2.  在命令列提示字元處輸入下列命令：
     
         Set-CsClsConfiguration -Identity <scope/site name> -EtlFileRolloverSizeMB <size for logging file in megabytes> -EtlFileFolder <default location %TEMP%\Tracing>
     
@@ -167,22 +167,22 @@ Cmdlet **CsClsConfiguration**會始終顯示屬於指定範圍之設定的情況
     
 
     > [!NOTE]
-    > 如範例所述，記錄檔的預設位置是%TEMP%\Tracing。 不過，因為實際 CLSAgent 正在寫入檔案並 CSLAgent [以網路服務執行]，因此% TEMP% 變數會展開為%WINDIR%\ServiceProfiles\NetworkService\AppData\Local。
+    > 此範例所述，記錄檔的預設位置是 %temp%\tracing。 不過，因為它是實際 clsagent 的通訊寫入檔案，且 CSLAgent 執行為網路服務，%TEMP%變數就會展開成 %windir%\serviceprofiles\networkservice\appdata\local 中。
 
     
     </div>
 
-此命令會告知 [網站雷蒙德] 中每個電腦和池中的 CLSAgent，將 [追蹤檔案] 上的 [翻轉] 值的大小設定為 40 mb。 在其他網站中的電腦和池不會受到命令影響，而且會繼續使用目前已設定的追蹤記錄滾動更新值（預設為 20 mb），或在記錄會話開始時使用。
+命令會告知 clsagent 的通訊，每個電腦和集區中設定為 40 mb 的追蹤檔案變換值的大小 Redmond 網站上。 電腦和集區中的其他網站不會受到命令，並要繼續使用定義預設 (20 mb) 或啟動記錄工作階段期間的目前設定的追蹤記錄檔變換值。
 
 </div>
 
 <div>
 
-## <a name="to-create-a-new-centralized-logging-service-configuration"></a>若要建立新的集中式記錄服務設定
+## <a name="to-create-a-new-centralized-logging-service-configuration"></a>若要建立新的集中式記錄服務組態
 
-1.  啟動 Lync Server 管理命令介面：按一下 [**開始**]，按一下 [**所有程式**]，按一下 [ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
+1.  啟動 Lync Server 管理命令介面： 按一下 [**開始]**，按一下 [**所有程式]**、 [ **Microsoft Lync Server 2013**]，然後按一下**Lync Server 管理命令介面**。
 
-2.  在命令列提示處輸入下列內容：
+2.  在命令列提示字元處輸入下列命令：
     
         New-CsClsConfiguration -Identity <scope and name> [CsClsConfiguration options for this site]
     
@@ -190,30 +190,30 @@ Cmdlet **CsClsConfiguration**會始終顯示屬於指定範圍之設定的情況
     
 
     > [!NOTE]
-    > 新-CsClsConfiguration 提供大量選用設定的存取權。 如需設定選項的詳細資訊， <A href="https://technet.microsoft.com/en-us/library/JJ619179(v=OCS.15)"></A>請參閱<A href="lync-server-2013-understanding-centralized-logging-service-configuration-settings.md">在 Lync Server 2013 中 CsClsConfiguration 及瞭解集中式記錄服務設定設定</A>。
+    > New-csclsconfiguration 會提供存取權大量選用的組態設定。 如需組態選項的詳細資訊，請參閱<A href="https://technet.microsoft.com/library/JJ619179(v=OCS.15)">Get-csclsconfiguration</A>和<A href="lync-server-2013-understanding-centralized-logging-service-configuration-settings.md">Lync Server 2013 中的瞭解集中式記錄服務組態設定</A>。
 
     
     </div>
     
-    例如，若要建立新的設定，以定義快取檔案的網路資料夾、滾動更新記錄檔的時間週期，以及記錄檔的滾動盤大小，您可以輸入：
+    例如，若要建立新的設定來定義快取檔案，變換記錄檔的時間週期] 與 [記錄檔的變換大小的網路資料夾會輸入：
     
         New-CsClsConfiguration -Identity "site:Redmond" -CacheFileNetworkFolder "\\fs01.contoso.net\filestore\logfiles" -EtlFileRolloverMinutes 120 -EtlFileRolloverSizeMB 40
 
-您應該仔細規劃新配置的建立，以及如何定義集中式記錄服務的新屬性。 您應該小心地進行變更，並確認您已瞭解對您能否正確記錄問題案例的影響。 您應該對設定進行變更，以增強您記錄管理的能力，讓您能夠在出現問題時進行問題的疑難排解。
+您應仔細規劃建立新的組態，以及如何針對 the Centralized Logging Service 定義新的屬性。 您應該謹慎進行變更，並確定您了解影響上您要適當地記錄問題案例的能力。 您應該將增強您能夠管理記錄檔大小的組態和變換期間，這樣它就會發生時，解決問題，進行變更。
 
 </div>
 
 <div>
 
-## <a name="to-remove-an-existing-centralized-logging-service-configuration"></a>移除現有的集中式記錄服務設定
+## <a name="to-remove-an-existing-centralized-logging-service-configuration"></a>若要移除現有的集中式記錄服務組態
 
-1.  啟動 Lync Server 管理命令介面：按一下 [**開始**]，按一下 [**所有程式**]，按一下 [ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
+1.  啟動 Lync Server 管理命令介面： 按一下 [**開始]**，按一下 [**所有程式]**、 [ **Microsoft Lync Server 2013**]，然後按一下**Lync Server 管理命令介面**。
 
-2.  在命令列提示處輸入下列內容：
+2.  在命令列提示字元處輸入下列命令：
     
         Remove-CsClsConfiguration -Identity <scope and name>
     
-    例如，若要移除您建立的集中式記錄服務設定以增加記錄檔滾動時間，請增加滾動更新記錄檔大小，並將記錄檔案快取位置設定為網路共用，如下所示：
+    例如，若要移除您建立來提高記錄檔變換時間的集中式記錄服務組態，增加變換記錄檔的大小，並設定的記錄檔快取位置到網路共用，如下所示：
     
         Remove-CsClsConfiguration -Identity "site:Redmond"
     
@@ -221,28 +221,28 @@ Cmdlet **CsClsConfiguration**會始終顯示屬於指定範圍之設定的情況
     
 
     > [!NOTE]
-    > 這是在「建立新的集中式記錄服務設定」過程中建立的新設定。
+    > 這是在 「 建立新的集中式記錄服務組態。 」 程序中建立的新組態
 
     
     </div>
 
-如果您選擇移除網站層級的設定，網站將會使用全域設定。
+如果您選擇移除網站層級設定，網站會使用全域設定。
 
 </div>
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
-[Lync Server 2013 中的集中式記錄服務概覽](lync-server-2013-overview-of-the-centralized-logging-service.md)  
+[Lync Server 2013 中的集中式的記錄服務概觀](lync-server-2013-overview-of-the-centralized-logging-service.md)  
 
 
-[在 Lync Server 2013 中管理集中式記錄服務設定設定](lync-server-2013-managing-the-centralized-logging-service-configuration-settings.md)  
-[Set-CsClsConfiguration](https://technet.microsoft.com/en-us/library/JJ619182(v=OCS.15))  
-[CsClsConfiguration](https://technet.microsoft.com/en-us/library/JJ619179(v=OCS.15))  
-[New-CsClsConfiguration](https://technet.microsoft.com/en-us/library/JJ619177(v=OCS.15))  
-[移除-CsClsConfiguration](https://technet.microsoft.com/en-us/library/JJ619191(v=OCS.15))  
+[管理 Lync Server 2013 中的集中式記錄服務組態設定](lync-server-2013-managing-the-centralized-logging-service-configuration-settings.md)  
+[Set-csclsconfiguration](https://technet.microsoft.com/library/JJ619182(v=OCS.15))  
+[Get-csclsconfiguration](https://technet.microsoft.com/library/JJ619179(v=OCS.15))  
+[New-csclsconfiguration](https://technet.microsoft.com/library/JJ619177(v=OCS.15))  
+[Remove-csclsconfiguration](https://technet.microsoft.com/library/JJ619191(v=OCS.15))  
   
 
 </div>

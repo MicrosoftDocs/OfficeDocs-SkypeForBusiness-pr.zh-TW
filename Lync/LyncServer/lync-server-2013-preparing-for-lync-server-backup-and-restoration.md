@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：準備 Lync Server 備份和還原
+title: Lync Server 2013： 準備用於 Lync Server 備份及還原
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 51541442
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1fd0262e769cbcfb140f0cdceb21a1297bae0a58
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f28d1bbc1b0879da04755840af3aa2d15dabb5b3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747423"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042430"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,23 +35,23 @@ ms.locfileid: "41747423"
 
 <span> </span>
 
-_**主題上次修改日期：** 2013-02-17_
+_**上次修改主題：** 2013年-02-17_
 
-下列主題描述您需要備份的設定、設定及其他資料，以便能夠在發生失敗或停機時還原伺服器和資料庫。
+下列主題說明設定、 設定及其他若要備份伺服器陣列，才能還原伺服器和資料庫發生失敗或中斷時，您需要的資料。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [Lync Server 2013 中的備份和還原需求：資料](lync-server-2013-backup-and-restoration-requirements-data.md)
+  - [Lync Server 2013 中的備份和還原需求： 資料](lync-server-2013-backup-and-restoration-requirements-data.md)
 
-  - [Lync Server 2013 中的備份和還原需求：工具和許可權](lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md)
+  - [Lync Server 2013 中的備份和還原需求： 工具和權限](lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md)
 
-  - [Lync Server 2013 的備份與還原程式概述](lync-server-2013-backup-and-restoration-process-overview.md)
+  - [針對 Lync Server 2013 的備份和還原程序概觀](lync-server-2013-backup-and-restoration-process-overview.md)
 
-  - [開發 Lync Server 2013 的備份與還原策略及規劃](lync-server-2013-developing-a-backup-and-restoration-strategy-and-plan.md)
+  - [研擬備份和還原策略和 Lync Server 2013 的計劃](lync-server-2013-developing-a-backup-and-restoration-strategy-and-plan.md)
 
-  - [Lync Server 2013 備份和還原的最佳做法](lync-server-2013-best-practices-for-backup-and-restoration.md)
+  - [備份及還原 Lync Server 2013 的最佳作法](lync-server-2013-best-practices-for-backup-and-restoration.md)
 
 </div>
 

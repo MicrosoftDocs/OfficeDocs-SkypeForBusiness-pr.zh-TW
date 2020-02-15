@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：設定 Edge 憑證
+title: Lync Server 2013： 設定邊緣憑證
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185151
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 517d5203efa8c50e66e849b89623cad04770e02a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5056fd4c9c90accd7414936c68d43a6a023d3a13
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732243"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043745"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="set-up-edge-certificates-for-lync-server-2013"></a>針對 Lync Server 2013 設定 Edge 憑證
+# <a name="set-up-edge-certificates-for-lync-server-2013"></a>設定 Lync Server 2013 的邊緣憑證
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41732243"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-09-08_
+_**主題上次修改日期：** 2012年-09-08_
 
-當您安裝 Edge 伺服器時，您必須要求、安裝並指派內部和外部介面所需的憑證。
+當您安裝 Edge Server 時，您需要要求、 安裝及指派內部和外部介面所需的憑證。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
   - [Lync Server 2013 中的外部使用者存取的憑證需求](lync-server-2013-certificate-requirements-for-external-user-access.md)
 
-  - [在 Lync Server 2013 中設定內部邊緣介面的憑證](lync-server-2013-set-up-certificates-for-the-internal-edge-interface.md)
+  - [設定 Lync Server 2013 中的內部邊緣介面的憑證](lync-server-2013-set-up-certificates-for-the-internal-edge-interface.md)
 
-  - [針對 Lync Server 2013 設定外部 Edge 介面的憑證](lync-server-2013-set-up-certificates-for-the-external-edge-interface.md)
+  - [設定 Lync Server 2013 的外部 edge 介面的憑證](lync-server-2013-set-up-certificates-for-the-external-edge-interface.md)
 
-  - [在 Lync Server 2013 中設定反向 Proxy 的憑證](lync-server-2013-set-up-certificates-for-the-reverse-proxy.md)
+  - [設定 Lync Server 2013 中的反向 proxy 憑證](lync-server-2013-set-up-certificates-for-the-reverse-proxy.md)
 
 </div>
 

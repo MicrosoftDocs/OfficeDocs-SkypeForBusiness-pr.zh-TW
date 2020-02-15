@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：tblPreference
+title: 'Lync Server 2013: tblPreference'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185913
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9cd45dcbd6ade83d6c4404346e1752c1f78254e1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3976cb18336477c00a901116a125149b8c67ddeb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764159"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042330"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41764159"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-09-24_
+_**主題上次修改日期：** 2012年-09-24_
 
-tblPreference 包含使用者的用戶端喜好設定。 這通常是由 Lync 2013 舊版用戶端使用。
+tblPreference 包含使用者的用戶端喜好設定。 這通常是早 Lync 2013 的用戶端使用。
 
-### <a name="columns"></a>分欄
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -49,37 +49,37 @@ tblPreference 包含使用者的用戶端喜好設定。 這通常是由 Lync 20
 </colgroup>
 <thead>
 <tr class="header">
-<th>左欄</th>
-<th>類型</th>
-<th>說明</th>
+<th>欄</th>
+<th>類型	</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>prefLabel</p></td>
-<td><p>Nvarchar （255），not null</p></td>
-<td><p>標籤的格式如下： &lt;使用者 sip uri&gt;| username。&lt;喜好設定&gt;。</p></td>
+<td><p>nvarchar (255)，非 null</p></td>
+<td><p>標籤格式如下：&lt;使用者 sip uri&gt;| username。&lt;喜好設定&gt;。</p></td>
 </tr>
 <tr class="even">
 <td><p>prefSeqID</p></td>
-<td><p>int，not null</p></td>
-<td><p>用於進行版本設定的順序編號（每個標籤）。</p></td>
+<td><p>int，非 null</p></td>
+<td><p>序號 （每個標籤） 設定版本。</p></td>
 </tr>
 <tr class="odd">
 <td><p>prefContent</p></td>
-<td><p>Nvarchar （max）</p></td>
-<td><p>已編碼的內容。</p></td>
+<td><p>nvarchar (max)</p></td>
+<td><p>編編的內容。</p></td>
 </tr>
 <tr class="even">
 <td><p>lastModifiedBy</p></td>
-<td><p>int，not null</p></td>
-<td><p>更新喜好設定的主體 ID。</p></td>
+<td><p>int，非 null</p></td>
+<td><p>更新喜好設定之主體的識別碼。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="key"></a>機碼
+### <a name="key"></a>索引鍵
 
 <table>
 <colgroup>
@@ -88,14 +88,14 @@ tblPreference 包含使用者的用戶端喜好設定。 這通常是由 Lync 20
 </colgroup>
 <thead>
 <tr class="header">
-<th>左欄</th>
-<th>說明</th>
+<th>欄</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>&lt;prefLabel, prefSeqID&gt;</p></td>
-<td><p>主鍵。</p></td>
+<td><p>&lt;prefLabel prefSeqID&gt;</p></td>
+<td><p>主索引鍵。</p></td>
 </tr>
 </tbody>
 </table>

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：專用的會議召集人
+title: Lync Server 2013： 專用的會議召集人
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183730
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 429c68ad96d4738b835f549a5f355e6c133ead74
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4609f588eec8d68ec163abd8a15a44f5f88a7620
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728533"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044085"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="dedicated-meeting-organizers-in-lync-server-2013"></a>Lync Server 2013 中的專用會議召集人
+# <a name="dedicated-meeting-organizers-in-lync-server-2013"></a>Lync Server 2013 中的專用的會議召集人
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41728533"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-01_
+_**主題上次修改日期：** 2012年-10-01_
 
-若要將大型會議池中的即時通訊流量降至最低，我們不建議您主持定期使用 Lync 用戶端登入的使用者，並參與立即訊息（IM）、目前狀態、會議及語音會議。 相反地，建議您執行下列其中一項操作：
+為了減少大型會議集區中的及時通訊流量，並不建議您主控使用 Lync 用戶端定期登入並參與即時訊息 (IM)、目前狀態、會議及語音工作階段的使用者。建議您改為執行下列其中一項作業：
 
-  - 建立一或多個專用的使用者帳戶以排程大型會議，或
+  - 建立一或多個排程大型會議的專用使用者帳戶，或者
 
-  - [家用] 負責在大型會議泳池上排程大型會議的人員使用者帳戶。
+  - 將負責排程大型會議之人員的使用者帳戶放置在大型會議集區中。
 
-在任何一種情況下，駐留在大型會議池中的使用者帳戶不應該用於定期登入 Lync，而不是排定會議。
+不論執行哪項作業，均不應使用位於大型會議集區中的使用者帳戶來定期登入 Lync，而應使用這些帳戶排程會議。
 
 </div>
 

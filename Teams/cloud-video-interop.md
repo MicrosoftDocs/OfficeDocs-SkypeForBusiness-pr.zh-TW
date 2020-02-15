@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e3a8d3d41d974e78a708fdf91ee6aac13beb6b7b
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 2f2c5cb45c82696ec5b365dc8e887cbaa9abce13
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825061"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046496"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Microsoft 團隊的雲端視頻互通性
 
@@ -83,7 +83,7 @@ ms.locfileid: "41825061"
 
 ### <a name="provision"></a>布建  
 
-在預置階段中，您將根據合作夥伴設定指南，將授權指派給適當的使用者。 您也需要完成 Azure 同意程式，才能提供合作夥伴對您團隊環境的存取權。 您可以在以下網址找到有關 Azure 同意流程的詳細資訊：https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-permissions-and-consent 
+在預置階段中，您將根據合作夥伴設定指南，將授權指派給適當的使用者。 您也需要完成 Azure 同意程式，才能提供合作夥伴對您團隊環境的存取權。 您可以在以下網址找到有關 Azure 同意流程的詳細資訊：https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent 
 
 ### <a name="schedule"></a>表
 

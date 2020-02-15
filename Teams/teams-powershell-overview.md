@@ -15,12 +15,12 @@ f1.keywords:
 description: 瞭解如何使用 PowerShell 控制項來管理 Microsoft 團隊。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d22eb0b14d25bec57949bb804e8bb8098ee33510
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 5b211493bb5b0bfa3dea1abfc0c9b59eadcb4206
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836953"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035355"
 ---
 # <a name="teams-powershell-overview"></a>團隊 PowerShell 概覽
 
@@ -30,7 +30,7 @@ Microsoft 團隊有一套豐富的工具，可讓 IT 管理員透過 Microsoft �
 
 管理團隊的 PowerShell 控制項位於兩個不同的 PowerShell 模組中： 
 - [Microsoft 團隊 powershell 模組](https://www.powershellgallery.com/packages/MicrosoftTeams/)： [團隊 powershell] 模組包含您建立及管理團隊所需的所有 Cmdlet。  
-- [商務用 Skype powershell 模組](https://www.microsoft.com/en-us/download/details.aspx?id=39366)：商務用 skype powershell 模組包含管理原則、設定及其他團隊工具的 Cmdlet。 
+- [商務用 Skype powershell 模組](https://www.microsoft.com/download/details.aspx?id=39366)：商務用 skype powershell 模組包含管理原則、設定及其他團隊工具的 Cmdlet。 
 
 PowerShell 控制項的參考檔將會告知您要調查的 Cmdlet 所在的模組。 （最終會結合兩個模組）。
 
@@ -79,7 +79,7 @@ PowerShell 控制項的參考檔將會告知您要調查的 Cmdlet 所在的模�
 
 ## <a name="managing-policies-via-powershell"></a>透過 PowerShell 管理原則
 
-管理原則的 Cmdlet 位於[商務用 Skype Cmdlet 模組](https://www.microsoft.com/en-us/download/details.aspx?id=39366)中。
+管理原則的 Cmdlet 位於[商務用 Skype Cmdlet 模組](https://www.microsoft.com/download/details.aspx?id=39366)中。
 
 > [!NOTE]
 > 在您連線到商務用 Skype Online 之後，您的 PowerShell 會話中就會提供 Cmdlet。 如需詳細資訊，請參閱[使用 Office 365 PowerShell 管理商務用 Skype Online](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)。 
@@ -111,7 +111,7 @@ PowerShell 控制項的參考檔將會告知您要調查的 Cmdlet 所在的模�
 
 ## <a name="managing-configurations-via-powershell"></a>透過 PowerShell 管理設定
 
-管理您的設定的 Cmdlet 位於商務用[Skype Cmdlet 模組](https://www.microsoft.com/en-us/download/details.aspx?id=39366)中。
+管理您的設定的 Cmdlet 位於商務用[Skype Cmdlet 模組](https://www.microsoft.com/download/details.aspx?id=39366)中。
 
 [配置] 是服務中維護的 [設定] 桶，不能在使用者層級指定。 設定總是在整個組織內套用。 您的全域設定是貴組織中的唯一有效配置。 每個配置類型都有兩個主要的 Cmdlet：
 

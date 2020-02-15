@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：呼叫診斷報告（每個使用者）
+title: Lync Server 2013： 通話診斷報告 （每位使用者）
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184916
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7f1d9c1b504ac3b38948e04ed10cfe6d6e2b2744
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 961c6f70c5ca115824c71cf5366cb5f3610fd1fb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743113"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044515"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="call-diagnostic-reports-per-user-in-lync-server-2013"></a>在 Lync Server 2013 中呼叫診斷報告（每位使用者）
+# <a name="call-diagnostic-reports-per-user-in-lync-server-2013"></a>Lync Server 2013 中 call Diagnostic Reports (per user)
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41743113"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-21_
+_**主題上次修改日期：** 2012年-10-21_
 
-呼叫診斷報告提供有關對等與會議會話失敗的每個使用者資訊。
+通話診斷報告提供失敗對等和會議工作階段的每位使用者資訊。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [Lync Server 2013](lync-server-2013-user-activity-report.md)   中的使用者活動報告，提供與每個使用者的對等及會議活動的相關資訊。
+  - [Lync Server 2013 中的使用者活動報告](lync-server-2013-user-activity-report.md)   提供您每位使用者的對等和會議活動相關資訊。
 
 </div>
 
