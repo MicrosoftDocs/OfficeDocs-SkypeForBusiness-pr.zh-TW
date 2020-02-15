@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：對等 IM 報告
+title: Lync Server 2013： 對等 IM 報告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183533
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 359c3fad7f41d990ffdba3aa533d0d5f10456665
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b74f22e422539a8d7de1f2f7bad29a72d43646a5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755303"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41989288"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="peer-to-peer-im-report-in-lync-server-2013"></a><span data-ttu-id="2831d-102">Lync Server 2013 中的對等 IM 報表</span><span class="sxs-lookup"><span data-stu-id="2831d-102">Peer-to-Peer IM Report in Lync Server 2013</span></span>
+# <a name="peer-to-peer-im-report-in-lync-server-2013"></a><span data-ttu-id="79379-102">Lync Server 2013 中的對等 IM 報告</span><span class="sxs-lookup"><span data-stu-id="79379-102">Peer-to-Peer IM Report in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,37 +35,37 @@ ms.locfileid: "41755303"
 
 <span> </span>
 
-<span data-ttu-id="2831d-103">_**主題上次修改日期：** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="2831d-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="79379-103">_**主題上次修改日期：** 2012年-11-01_</span><span class="sxs-lookup"><span data-stu-id="79379-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="2831d-104">對等 IM 報告提供對等立即訊息（IM）會話的趨勢資訊，依池和驗證類型細分。</span><span class="sxs-lookup"><span data-stu-id="2831d-104">The Peer-to-Peer IM Report provides trend information about peer-to-peer instant messaging (IM) sessions, broken down by pool and by authentication type.</span></span> <span data-ttu-id="2831d-105">報告可以顯示在指定時段內所保留的會話總數（例如，按天或按小時計算），也可以顯示在該期間內傳送的立即訊息總數。</span><span class="sxs-lookup"><span data-stu-id="2831d-105">The report can show either the total number of sessions held during the specified time period (for example, day-by-day or hour-by-hour), or it can show the total number of instant messages sent during that time period.</span></span>
+<span data-ttu-id="79379-p101">對等 IM 報告會提供對等立即訊息 (IM) 工作階段的趨勢資訊 (依集區和驗證類型細分)。此報告可以顯示指定時段內 (例如，每天或每小時) 主控的工作階段總數，或者可以顯示該時段內傳送的立即訊息總數。</span><span class="sxs-lookup"><span data-stu-id="79379-p101">The Peer-to-Peer IM Report provides trend information about peer-to-peer instant messaging (IM) sessions, broken down by pool and by authentication type. The report can show either the total number of sessions held during the specified time period (for example, day-by-day or hour-by-hour), or it can show the total number of instant messages sent during that time period.</span></span>
 
 <div>
 
-## <a name="accessing-the-peer-to-peer-im-report"></a><span data-ttu-id="2831d-106">存取對等 IM 報告</span><span class="sxs-lookup"><span data-stu-id="2831d-106">Accessing the Peer-to-Peer IM Report</span></span>
+## <a name="accessing-the-peer-to-peer-im-report"></a><span data-ttu-id="79379-106">存取對等 IM 報告</span><span class="sxs-lookup"><span data-stu-id="79379-106">Accessing the Peer-to-Peer IM Report</span></span>
 
-<span data-ttu-id="2831d-107">您只能[在 Lync Server 2013 開啟對等 [活動摘要] 報告](lync-server-2013-peer-to-peer-activity-summary-report.md)，然後按一下下列其中一個度量，以存取對等 IM 報告：</span><span class="sxs-lookup"><span data-stu-id="2831d-107">You can access the Peer-to-Peer IM Report only by opening the [Peer-to-Peer Activity Summary Report in Lync Server 2013](lync-server-2013-peer-to-peer-activity-summary-report.md) and then clicking either of the following metrics:</span></span>
+<span data-ttu-id="79379-107">您可以存取對等 IM 報告只能透過開啟[對等活動摘要報告在 Lync Server 2013 中](lync-server-2013-peer-to-peer-activity-summary-report.md)，再按一下下列計量之一：</span><span class="sxs-lookup"><span data-stu-id="79379-107">You can access the Peer-to-Peer IM Report only by opening the [Peer-to-Peer Activity Summary Report in Lync Server 2013](lync-server-2013-peer-to-peer-activity-summary-report.md) and then clicking either of the following metrics:</span></span>
 
-  - <span data-ttu-id="2831d-108">對等 IM 會話總數</span><span class="sxs-lookup"><span data-stu-id="2831d-108">Total peer-to-peer IM sessions</span></span>
+  - <span data-ttu-id="79379-108">對等 IM 工作階段總數</span><span class="sxs-lookup"><span data-stu-id="79379-108">Total peer-to-peer IM sessions</span></span>
 
-  - <span data-ttu-id="2831d-109">對等 IM 訊息總計</span><span class="sxs-lookup"><span data-stu-id="2831d-109">Total peer-to-peer IM messages</span></span>
+  - <span data-ttu-id="79379-109">對等 IM 訊息總數</span><span class="sxs-lookup"><span data-stu-id="79379-109">Total peer-to-peer IM messages</span></span>
 
 </div>
 
 <div>
 
-## <a name="making-the-best-use-of-the-peer-to-peer-im-report"></a><span data-ttu-id="2831d-110">充分運用對等 IM 報告</span><span class="sxs-lookup"><span data-stu-id="2831d-110">Making the Best Use of the Peer-to-Peer IM Report</span></span>
+## <a name="making-the-best-use-of-the-peer-to-peer-im-report"></a><span data-ttu-id="79379-110">善加利用對等 IM 報告</span><span class="sxs-lookup"><span data-stu-id="79379-110">Making the Best Use of the Peer-to-Peer IM Report</span></span>
 
-<span data-ttu-id="2831d-111">根據預設，對等 IM 報表會顯示每小時郵件數（或一天，視您的設定而定）。</span><span class="sxs-lookup"><span data-stu-id="2831d-111">By default, the Peer-to-Peer IM Report shows you the message count per-hour (or day, depending on your settings).</span></span> <span data-ttu-id="2831d-112">不過，您也可以選擇透過每小時的會話來查看一天。</span><span class="sxs-lookup"><span data-stu-id="2831d-112">However, you can also choose to view the day by sessions per hour.</span></span> <span data-ttu-id="2831d-113">若要這樣做，請按一下 [報表] 視窗右上角的 [**隱藏/顯示參數**]，然後按一下 [**報表依據**] 清單中的 [**會話計數**]。</span><span class="sxs-lookup"><span data-stu-id="2831d-113">To do that, click **Hide/Show Parameters** in the upper-right corner of the Reports window, and then click **Session Count** from the **Report by** list.</span></span>
+<span data-ttu-id="79379-p102">依預設，對等 IM 報告會顯示每小時 (或每天，視您的設定而定) 的訊息計數。不過，您也可以選擇依每小時的工作階段來檢視那一天。若要執行這項作業，請按一下報告視窗右上角的 [隱藏/顯示參數]\*\*\*\*，然後從 [報告者]\*\*\*\* 清單按一下 [工作階段計數]\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="79379-p102">By default, the Peer-to-Peer IM Report shows you the message count per-hour (or day, depending on your settings). However, you can also choose to view the day by sessions per hour. To do that, click **Hide/Show Parameters** in the upper-right corner of the Reports window, and then click **Session Count** from the **Report by** list.</span></span>
 
 </div>
 
 <div>
 
-## <a name="filters"></a><span data-ttu-id="2831d-114">濾鏡</span><span class="sxs-lookup"><span data-stu-id="2831d-114">Filters</span></span>
+## <a name="filters"></a><span data-ttu-id="79379-114">篩選</span><span class="sxs-lookup"><span data-stu-id="79379-114">Filters</span></span>
 
-<span data-ttu-id="2831d-115">篩選提供一種方式，可讓您傳回更精細設定目標的資料集，或以不同的方式來查看傳回的資料。</span><span class="sxs-lookup"><span data-stu-id="2831d-115">Filters provide a way for you to return a more finely targeted set of data or to view the returned data in different ways.</span></span> <span data-ttu-id="2831d-116">下表列出可與對等 IM 報表搭配使用的篩選。</span><span class="sxs-lookup"><span data-stu-id="2831d-116">The following table lists the filters that you can use with the Peer-to-Peer IM Report.</span></span>
+<span data-ttu-id="79379-p103">篩選器可以讓您傳回更精確的資料集，或者以不同方法檢視傳回的資料。下表列出您可以搭配對等 IM 報告的篩選器。</span><span class="sxs-lookup"><span data-stu-id="79379-p103">Filters provide a way for you to return a more finely targeted set of data or to view the returned data in different ways. The following table lists the filters that you can use with the Peer-to-Peer IM Report.</span></span>
 
-### <a name="peer-to-peer-im-report-filters"></a><span data-ttu-id="2831d-117">對等 IM 報表篩選</span><span class="sxs-lookup"><span data-stu-id="2831d-117">Peer-to-Peer IM Report Filters</span></span>
+### <a name="peer-to-peer-im-report-filters"></a><span data-ttu-id="79379-117">對等 IM 報告篩選器</span><span class="sxs-lookup"><span data-stu-id="79379-117">Peer-to-Peer IM Report Filters</span></span>
 
 <table>
 <colgroup>
@@ -74,48 +74,48 @@ ms.locfileid: "41755303"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="2831d-118">名稱</span><span class="sxs-lookup"><span data-stu-id="2831d-118">Name</span></span></th>
-<th><span data-ttu-id="2831d-119">說明</span><span class="sxs-lookup"><span data-stu-id="2831d-119">Description</span></span></th>
+<th><span data-ttu-id="79379-118">名稱</span><span class="sxs-lookup"><span data-stu-id="79379-118">Name</span></span></th>
+<th><span data-ttu-id="79379-119">描述</span><span class="sxs-lookup"><span data-stu-id="79379-119">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="2831d-120"><strong>從</strong></span><span class="sxs-lookup"><span data-stu-id="2831d-120"><strong>From</strong></span></span></p></td>
-<td><p><span data-ttu-id="2831d-121">時間範圍的開始日期和時間。</span><span class="sxs-lookup"><span data-stu-id="2831d-121">Start date and time for the time range.</span></span> <span data-ttu-id="2831d-122">若要依時間查看資料，請輸入 [開始日期] 和 [時間]，如下所示：</span><span class="sxs-lookup"><span data-stu-id="2831d-122">To view data by hours, enter both the start date and time as follows:</span></span></p>
-<p><span data-ttu-id="2831d-123">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="2831d-123">7/7/2012 1:00 PM</span></span></p>
-<p><span data-ttu-id="2831d-124">如果您沒有輸入開始時間，報告會在指定日期自動于12:00 點開始。</span><span class="sxs-lookup"><span data-stu-id="2831d-124">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day.</span></span> <span data-ttu-id="2831d-125">若要依天查看資料，只需輸入日期：</span><span class="sxs-lookup"><span data-stu-id="2831d-125">To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="2831d-126">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="2831d-126">7/7/2012</span></span></p>
-<p><span data-ttu-id="2831d-127">若要按周或按月查看，請輸入一周或一月內任何位置的日期（您不需要輸入周或月的第一天）：</span><span class="sxs-lookup"><span data-stu-id="2831d-127">To view by week or by month, enter a date that falls anywhere within the week or month (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="2831d-128">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="2831d-128">7/3/2012</span></span></p>
-<p><span data-ttu-id="2831d-129">周數總是從星期日到星期六執行。</span><span class="sxs-lookup"><span data-stu-id="2831d-129">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="79379-120"><strong>From</strong></span><span class="sxs-lookup"><span data-stu-id="79379-120"><strong>From</strong></span></span></p></td>
+<td><p><span data-ttu-id="79379-p104">時間範圍的開始日期和時間。若要按照小時檢視資料，請輸入開始日期和時間，如下所示：</span><span class="sxs-lookup"><span data-stu-id="79379-p104">Start date and time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
+<p><span data-ttu-id="79379-123">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="79379-123">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="79379-p105">如果您未輸入開始時間，報告會自動從指定日期凌晨 12 點開始。若要按照日期檢視資料，只要輸入日期即可：</span><span class="sxs-lookup"><span data-stu-id="79379-p105">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="79379-126">2012/7/7</span><span class="sxs-lookup"><span data-stu-id="79379-126">7/7/2012</span></span></p>
+<p><span data-ttu-id="79379-127">若要按星期或月份查看，請輸入當週或該月內的日期 (您不必輸入當週或該月的第一天)：</span><span class="sxs-lookup"><span data-stu-id="79379-127">To view by week or by month, enter a date that falls anywhere within the week or month (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="79379-128">2012/7/3</span><span class="sxs-lookup"><span data-stu-id="79379-128">7/3/2012</span></span></p>
+<p><span data-ttu-id="79379-129">星期永遠是從星期日開始星期六結束。</span><span class="sxs-lookup"><span data-stu-id="79379-129">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2831d-130"><strong>自</strong></span><span class="sxs-lookup"><span data-stu-id="2831d-130"><strong>To</strong></span></span></p></td>
-<td><p><span data-ttu-id="2831d-131">時間範圍的結束日期和時間。</span><span class="sxs-lookup"><span data-stu-id="2831d-131">End date and time for the time range.</span></span> <span data-ttu-id="2831d-132">若要依時間查看資料，請輸入 [結束日期] 和 [時間]，如下所示：</span><span class="sxs-lookup"><span data-stu-id="2831d-132">To view data by hours, enter both the end date and time as follows:</span></span></p>
-<p><span data-ttu-id="2831d-133">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="2831d-133">7/7/2012 1:00 PM</span></span></p>
-<p><span data-ttu-id="2831d-134">如果您沒有輸入結束時間，報告會在指定日期自動結束于12:00。</span><span class="sxs-lookup"><span data-stu-id="2831d-134">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day.</span></span> <span data-ttu-id="2831d-135">若要依天查看資料，只需輸入日期：</span><span class="sxs-lookup"><span data-stu-id="2831d-135">To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="2831d-136">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="2831d-136">7/7/2012</span></span></p>
-<p><span data-ttu-id="2831d-137">若要依周或依月查看，請在您要查看的周或月份中，輸入您要查看的日期（不需要輸入周或月的第一天）：</span><span class="sxs-lookup"><span data-stu-id="2831d-137">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="2831d-138">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="2831d-138">7/3/2012</span></span></p>
-<p><span data-ttu-id="2831d-139">周數總是從星期日到星期六執行。</span><span class="sxs-lookup"><span data-stu-id="2831d-139">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="79379-130"><strong>To</strong></span><span class="sxs-lookup"><span data-stu-id="79379-130"><strong>To</strong></span></span></p></td>
+<td><p><span data-ttu-id="79379-p106">時間範圍的結束日期和時間。若要按照小時檢視資料，請輸入結束日期和時間，如下所示：</span><span class="sxs-lookup"><span data-stu-id="79379-p106">End date and time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
+<p><span data-ttu-id="79379-133">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="79379-133">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="79379-p107">如果您未輸入結束時間，報告會自動在指定日期凌晨 12 點結束。若要按照日期檢視資料，只要輸入日期即可：</span><span class="sxs-lookup"><span data-stu-id="79379-p107">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="79379-136">2012/7/7</span><span class="sxs-lookup"><span data-stu-id="79379-136">7/7/2012</span></span></p>
+<p><span data-ttu-id="79379-137">若要按星期或月份檢視，請輸入當週或該月您想檢視的日期 (您不必輸入當週或該月的第一天)：</span><span class="sxs-lookup"><span data-stu-id="79379-137">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="79379-138">2012/7/3</span><span class="sxs-lookup"><span data-stu-id="79379-138">7/3/2012</span></span></p>
+<p><span data-ttu-id="79379-139">星期永遠是從星期日開始星期六結束。</span><span class="sxs-lookup"><span data-stu-id="79379-139">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2831d-140"><strong>Interval</strong></span><span class="sxs-lookup"><span data-stu-id="2831d-140"><strong>Interval</strong></span></span></p></td>
-<td><p><span data-ttu-id="2831d-141">時間間隔。</span><span class="sxs-lookup"><span data-stu-id="2831d-141">Time interval.</span></span> <span data-ttu-id="2831d-142">選取下列其中一項：</span><span class="sxs-lookup"><span data-stu-id="2831d-142">Select one of the following:</span></span></p>
+<td><p><span data-ttu-id="79379-140"><strong>Interval</strong></span><span class="sxs-lookup"><span data-stu-id="79379-140"><strong>Interval</strong></span></span></p></td>
+<td><p><span data-ttu-id="79379-p108">時間間隔。請選取下列其中一項：</span><span class="sxs-lookup"><span data-stu-id="79379-p108">Time interval. Select one of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="2831d-143">每小時（最多可顯示25小時）</span><span class="sxs-lookup"><span data-stu-id="2831d-143">Hourly (a maximum of 25 hours can be displayed)</span></span></p></li>
-<li><p><span data-ttu-id="2831d-144">每天（最多可以顯示31天）</span><span class="sxs-lookup"><span data-stu-id="2831d-144">Daily (a maximum of 31 days can be displayed)</span></span></p></li>
-<li><p><span data-ttu-id="2831d-145">每週（最多可以顯示12周）</span><span class="sxs-lookup"><span data-stu-id="2831d-145">Weekly (a maximum of 12 weeks can be displayed)</span></span></p></li>
-<li><p><span data-ttu-id="2831d-146">每月（最多可以顯示12個月）</span><span class="sxs-lookup"><span data-stu-id="2831d-146">Monthly (a maximum of 12 months can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="79379-143">每小時 (最多可以顯示 25 個小時)</span><span class="sxs-lookup"><span data-stu-id="79379-143">Hourly (a maximum of 25 hours can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="79379-144">每日 (最多可以顯示 31 天)</span><span class="sxs-lookup"><span data-stu-id="79379-144">Daily (a maximum of 31 days can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="79379-145">每週 (最多可以顯示 12 週)</span><span class="sxs-lookup"><span data-stu-id="79379-145">Weekly (a maximum of 12 weeks can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="79379-146">每月 (最多可以顯示 12 個月)</span><span class="sxs-lookup"><span data-stu-id="79379-146">Monthly (a maximum of 12 months can be displayed)</span></span></p></li>
 </ul>
-<p><span data-ttu-id="2831d-147">如果 [開始] 和 [結束] 日期超過所選間隔所允許的最大值數，則會顯示值的數目上限（從開始日期開始）。</span><span class="sxs-lookup"><span data-stu-id="2831d-147">If the start and end dates exceed the maximum number of values allowed for the selected interval then only the maximum number of values (starting from the start date) are displayed.</span></span> <span data-ttu-id="2831d-148">例如，如果您選取 [開始日期 7/7/2012] 和 [結束日期] 2/28/2012 的 [日間隔]，則會顯示 8/7/2012 12:00 AM 至 9/7/2012 12:00 AM （也就是31天內的資料）的資料。</span><span class="sxs-lookup"><span data-stu-id="2831d-148">For example, if you select the Daily interval with a start date of 7/7/2012 and an end date of 2/28/2012, data is displayed for the days 8/7/2012 12:00 AM to 9/7/2012 12:00 AM (that is, a total of 31 days' worth of data).</span></span></p></td>
+<p><span data-ttu-id="79379-p109">若開始與結束日期超出所選間隔允許的上限值，將只會顯示上限值 (從開始日期開始顯示)。例如，若您選取 [每日] 間隔，並將開始與結束日期分別設為 2012 年 7 月 7 日及 2012 年 2 月 28 日，將只會顯示 2012 年 8 月 7 日凌晨 12 點到 2012 年 9 月 7 日凌晨 12 點這段期間的資料 (亦即只會顯示 31 天的資料)。</span><span class="sxs-lookup"><span data-stu-id="79379-p109">If the start and end dates exceed the maximum number of values allowed for the selected interval then only the maximum number of values (starting from the start date) are displayed. For example, if you select the Daily interval with a start date of 7/7/2012 and an end date of 2/28/2012, data is displayed for the days 8/7/2012 12:00 AM to 9/7/2012 12:00 AM (that is, a total of 31 days' worth of data).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2831d-149"><strong>報告依據</strong></span><span class="sxs-lookup"><span data-stu-id="2831d-149"><strong>Report by</strong></span></span></p></td>
-<td><p><span data-ttu-id="2831d-150">指出要在報表中使用的值。</span><span class="sxs-lookup"><span data-stu-id="2831d-150">Indicates the values to be used in the report.</span></span> <span data-ttu-id="2831d-151">選取下列其中一項：</span><span class="sxs-lookup"><span data-stu-id="2831d-151">Select one of the following:</span></span></p>
+<td><p><span data-ttu-id="79379-149"><strong>報告依據</strong></span><span class="sxs-lookup"><span data-stu-id="79379-149"><strong>Report by</strong></span></span></p></td>
+<td><p><span data-ttu-id="79379-p110">指定報告中所要使用的值。請選取下列其中一項：</span><span class="sxs-lookup"><span data-stu-id="79379-p110">Indicates the values to be used in the report. Select one of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="2831d-152">會話計數</span><span class="sxs-lookup"><span data-stu-id="2831d-152">Session count</span></span></p></li>
-<li><p><span data-ttu-id="2831d-153">郵件計數</span><span class="sxs-lookup"><span data-stu-id="2831d-153">Message count</span></span></p></li>
+<li><p><span data-ttu-id="79379-152">工作階段計數</span><span class="sxs-lookup"><span data-stu-id="79379-152">Session count</span></span></p></li>
+<li><p><span data-ttu-id="79379-153">訊息計數</span><span class="sxs-lookup"><span data-stu-id="79379-153">Message count</span></span></p></li>
 </ul></td>
 </tr>
 </tbody>
@@ -126,11 +126,11 @@ ms.locfileid: "41755303"
 
 <div>
 
-## <a name="metrics-for-peer-to-peer-im-session-by-pool"></a><span data-ttu-id="2831d-154">依池進行對等 IM 會話的度量單位</span><span class="sxs-lookup"><span data-stu-id="2831d-154">Metrics for Peer-to-Peer IM Session by Pool</span></span>
+## <a name="metrics-for-peer-to-peer-im-session-by-pool"></a><span data-ttu-id="79379-154">對等 IM 工作階段計量 (依集區)</span><span class="sxs-lookup"><span data-stu-id="79379-154">Metrics for Peer-to-Peer IM Session by Pool</span></span>
 
-<span data-ttu-id="2831d-155">下表列出對等 IM 報表中提供的資訊。</span><span class="sxs-lookup"><span data-stu-id="2831d-155">The following table lists the information provided in the Peer-to-Peer IM Report.</span></span>
+<span data-ttu-id="79379-155">下表列出對等 IM 報告提供的資訊。</span><span class="sxs-lookup"><span data-stu-id="79379-155">The following table lists the information provided in the Peer-to-Peer IM Report.</span></span>
 
-### <a name="metrics-for-peer-to-peer-im-session-by-pool"></a><span data-ttu-id="2831d-156">依池進行對等 IM 會話的度量單位</span><span class="sxs-lookup"><span data-stu-id="2831d-156">Metrics for Peer-to-Peer IM Session by Pool</span></span>
+### <a name="metrics-for-peer-to-peer-im-session-by-pool"></a><span data-ttu-id="79379-156">對等 IM 工作階段計量 (依集區)</span><span class="sxs-lookup"><span data-stu-id="79379-156">Metrics for Peer-to-Peer IM Session by Pool</span></span>
 
 <table>
 <colgroup>
@@ -140,26 +140,26 @@ ms.locfileid: "41755303"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="2831d-157">名稱</span><span class="sxs-lookup"><span data-stu-id="2831d-157">Name</span></span></th>
-<th><span data-ttu-id="2831d-158">您可以針對此專案進行排序嗎？</span><span class="sxs-lookup"><span data-stu-id="2831d-158">Can you sort on this item?</span></span></th>
-<th><span data-ttu-id="2831d-159">說明</span><span class="sxs-lookup"><span data-stu-id="2831d-159">Description</span></span></th>
+<th><span data-ttu-id="79379-157">姓名</span><span class="sxs-lookup"><span data-stu-id="79379-157">Name</span></span></th>
+<th><span data-ttu-id="79379-158">可以排序這個項目嗎？</span><span class="sxs-lookup"><span data-stu-id="79379-158">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="79379-159">描述</span><span class="sxs-lookup"><span data-stu-id="79379-159">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="2831d-160"><strong>集區</strong></span><span class="sxs-lookup"><span data-stu-id="2831d-160"><strong>Pool</strong></span></span></p></td>
-<td><p><span data-ttu-id="2831d-161">否</span><span class="sxs-lookup"><span data-stu-id="2831d-161">No</span></span></p></td>
-<td><p><span data-ttu-id="2831d-162">註冊機構池或邊緣伺服器的名稱。</span><span class="sxs-lookup"><span data-stu-id="2831d-162">Name of the Registrar pool or Edge Server.</span></span></p></td>
+<td><p><span data-ttu-id="79379-160"><strong>Pool</strong></span><span class="sxs-lookup"><span data-stu-id="79379-160"><strong>Pool</strong></span></span></p></td>
+<td><p><span data-ttu-id="79379-161">否</span><span class="sxs-lookup"><span data-stu-id="79379-161">No</span></span></p></td>
+<td><p><span data-ttu-id="79379-162">登錄器集區或 Edge Server 的名稱。</span><span class="sxs-lookup"><span data-stu-id="79379-162">Name of the Registrar pool or Edge Server.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2831d-163"><strong>日期/時間</strong></span><span class="sxs-lookup"><span data-stu-id="2831d-163"><strong>Date/Time</strong></span></span></p></td>
-<td><p><span data-ttu-id="2831d-164">否</span><span class="sxs-lookup"><span data-stu-id="2831d-164">No</span></span></p></td>
-<td><p><span data-ttu-id="2831d-165">會話發生的日期和時間。</span><span class="sxs-lookup"><span data-stu-id="2831d-165">Date and time that the sessions took place.</span></span></p></td>
+<td><p><span data-ttu-id="79379-163"><strong>日期/時間</strong></span><span class="sxs-lookup"><span data-stu-id="79379-163"><strong>Date/Time</strong></span></span></p></td>
+<td><p><span data-ttu-id="79379-164">否</span><span class="sxs-lookup"><span data-stu-id="79379-164">No</span></span></p></td>
+<td><p><span data-ttu-id="79379-165">工作階段的執行日期與時間。</span><span class="sxs-lookup"><span data-stu-id="79379-165">Date and time that the sessions took place.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2831d-166"><strong>總額</strong></span><span class="sxs-lookup"><span data-stu-id="2831d-166"><strong>Total</strong></span></span></p></td>
-<td><p><span data-ttu-id="2831d-167">否</span><span class="sxs-lookup"><span data-stu-id="2831d-167">No</span></span></p></td>
-<td><p><span data-ttu-id="2831d-168">[會話總數] 或 [總郵件數]。</span><span class="sxs-lookup"><span data-stu-id="2831d-168">Total number of sessions or total message count.</span></span></p></td>
+<td><p><span data-ttu-id="79379-166"><strong>Total</strong></span><span class="sxs-lookup"><span data-stu-id="79379-166"><strong>Total</strong></span></span></p></td>
+<td><p><span data-ttu-id="79379-167">否</span><span class="sxs-lookup"><span data-stu-id="79379-167">No</span></span></p></td>
+<td><p><span data-ttu-id="79379-168">工作階段總數或訊息總數。</span><span class="sxs-lookup"><span data-stu-id="79379-168">Total number of sessions or total message count.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -169,11 +169,11 @@ ms.locfileid: "41755303"
 
 <div>
 
-## <a name="metrics-for-peer-to-peer-im-session-by-authentication-type"></a><span data-ttu-id="2831d-169">依驗證類型的對等 IM 會話的度量單位</span><span class="sxs-lookup"><span data-stu-id="2831d-169">Metrics for Peer-to-Peer IM Session by Authentication Type</span></span>
+## <a name="metrics-for-peer-to-peer-im-session-by-authentication-type"></a><span data-ttu-id="79379-169">對等 IM 工作階段計量 (依驗證類型)</span><span class="sxs-lookup"><span data-stu-id="79379-169">Metrics for Peer-to-Peer IM Session by Authentication Type</span></span>
 
-<span data-ttu-id="2831d-170">下表列出點對點工作階段中參與者所使用的每一種驗證類型的對等 IM 報告所提供的資訊。</span><span class="sxs-lookup"><span data-stu-id="2831d-170">The following table lists the information provided in the Peer-to-Peer IM Report for each type of authentication used by the participants in a peer-to-peer session.</span></span>
+<span data-ttu-id="79379-170">下表列出對等 IM 報告針對參與者在對等工作階段中使用之每項驗證類型所提供的資訊。</span><span class="sxs-lookup"><span data-stu-id="79379-170">The following table lists the information provided in the Peer-to-Peer IM Report for each type of authentication used by the participants in a peer-to-peer session.</span></span>
 
-### <a name="metrics-for-peer-to-peer-im-session-by-authentication-type"></a><span data-ttu-id="2831d-171">依驗證類型的對等 IM 會話的度量單位</span><span class="sxs-lookup"><span data-stu-id="2831d-171">Metrics for Peer-to-Peer IM Session by Authentication Type</span></span>
+### <a name="metrics-for-peer-to-peer-im-session-by-authentication-type"></a><span data-ttu-id="79379-171">對等 IM 工作階段計量 (依驗證類型)</span><span class="sxs-lookup"><span data-stu-id="79379-171">Metrics for Peer-to-Peer IM Session by Authentication Type</span></span>
 
 <table>
 <colgroup>
@@ -183,31 +183,31 @@ ms.locfileid: "41755303"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="2831d-172">名稱</span><span class="sxs-lookup"><span data-stu-id="2831d-172">Name</span></span></th>
-<th><span data-ttu-id="2831d-173">您可以針對此專案進行排序嗎？</span><span class="sxs-lookup"><span data-stu-id="2831d-173">Can you sort on this item?</span></span></th>
-<th><span data-ttu-id="2831d-174">說明</span><span class="sxs-lookup"><span data-stu-id="2831d-174">Description</span></span></th>
+<th><span data-ttu-id="79379-172">姓名</span><span class="sxs-lookup"><span data-stu-id="79379-172">Name</span></span></th>
+<th><span data-ttu-id="79379-173">可以排序這個項目嗎？</span><span class="sxs-lookup"><span data-stu-id="79379-173">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="79379-174">描述</span><span class="sxs-lookup"><span data-stu-id="79379-174">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="2831d-175"><strong>驗證類型</strong></span><span class="sxs-lookup"><span data-stu-id="2831d-175"><strong>Authentication type</strong></span></span></p></td>
-<td><p><span data-ttu-id="2831d-176">否</span><span class="sxs-lookup"><span data-stu-id="2831d-176">No</span></span></p></td>
-<td><p><span data-ttu-id="2831d-177">會話參與者所使用的驗證類型。</span><span class="sxs-lookup"><span data-stu-id="2831d-177">Type of authentication used by the session participants.</span></span> <span data-ttu-id="2831d-178">值通常是下列其中一項：</span><span class="sxs-lookup"><span data-stu-id="2831d-178">Values are typically one of the following:</span></span></p>
+<td><p><span data-ttu-id="79379-175"><strong>驗證類型</strong></span><span class="sxs-lookup"><span data-stu-id="79379-175"><strong>Authentication type</strong></span></span></p></td>
+<td><p><span data-ttu-id="79379-176">否</span><span class="sxs-lookup"><span data-stu-id="79379-176">No</span></span></p></td>
+<td><p><span data-ttu-id="79379-p111">工作階段參與者所使用的驗證類型。一般來說，值都是下列其中之一：</span><span class="sxs-lookup"><span data-stu-id="79379-p111">Type of authentication used by the session participants. Values are typically one of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="2831d-179">級</span><span class="sxs-lookup"><span data-stu-id="2831d-179">Enterprise</span></span></p></li>
-<li><p><span data-ttu-id="2831d-180">建立</span><span class="sxs-lookup"><span data-stu-id="2831d-180">Federated</span></span></p></li>
-<li><p><span data-ttu-id="2831d-181">PIC</span><span class="sxs-lookup"><span data-stu-id="2831d-181">PIC</span></span></p></li>
+<li><p><span data-ttu-id="79379-179">企業</span><span class="sxs-lookup"><span data-stu-id="79379-179">Enterprise</span></span></p></li>
+<li><p><span data-ttu-id="79379-180">同盟</span><span class="sxs-lookup"><span data-stu-id="79379-180">Federated</span></span></p></li>
+<li><p><span data-ttu-id="79379-181">PIC</span><span class="sxs-lookup"><span data-stu-id="79379-181">PIC</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2831d-182"><strong>日期/時間</strong></span><span class="sxs-lookup"><span data-stu-id="2831d-182"><strong>Date/Time</strong></span></span></p></td>
-<td><p><span data-ttu-id="2831d-183">否</span><span class="sxs-lookup"><span data-stu-id="2831d-183">No</span></span></p></td>
-<td><p><span data-ttu-id="2831d-184">會話發生的日期和時間。</span><span class="sxs-lookup"><span data-stu-id="2831d-184">Date and time that the sessions took place.</span></span></p></td>
+<td><p><span data-ttu-id="79379-182"><strong>日期/時間</strong></span><span class="sxs-lookup"><span data-stu-id="79379-182"><strong>Date/Time</strong></span></span></p></td>
+<td><p><span data-ttu-id="79379-183">否</span><span class="sxs-lookup"><span data-stu-id="79379-183">No</span></span></p></td>
+<td><p><span data-ttu-id="79379-184">工作階段的執行日期與時間。</span><span class="sxs-lookup"><span data-stu-id="79379-184">Date and time that the sessions took place.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2831d-185"><strong>總額</strong></span><span class="sxs-lookup"><span data-stu-id="2831d-185"><strong>Total</strong></span></span></p></td>
-<td><p><span data-ttu-id="2831d-186">否</span><span class="sxs-lookup"><span data-stu-id="2831d-186">No</span></span></p></td>
-<td><p><span data-ttu-id="2831d-187">[會話總數] 或 [總郵件數]。</span><span class="sxs-lookup"><span data-stu-id="2831d-187">Total number of sessions or total message count.</span></span></p></td>
+<td><p><span data-ttu-id="79379-185"><strong>Total</strong></span><span class="sxs-lookup"><span data-stu-id="79379-185"><strong>Total</strong></span></span></p></td>
+<td><p><span data-ttu-id="79379-186">否</span><span class="sxs-lookup"><span data-stu-id="79379-186">No</span></span></p></td>
+<td><p><span data-ttu-id="79379-187">工作階段總數或訊息總數。</span><span class="sxs-lookup"><span data-stu-id="79379-187">Total number of sessions or total message count.</span></span></p></td>
 </tr>
 </tbody>
 </table>

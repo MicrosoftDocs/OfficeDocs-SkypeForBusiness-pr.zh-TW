@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：管理回應群組工作流程
+title: Lync Server 2013： 管理回應群組工作流程
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183974
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 489ad3b47b1502c210fc3f66fea3ed751b4f58a2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4a01005e9c6d78f521c3987bb36813e2d7eadb11
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765584"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41991978"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-response-group-workflows-in-lync-server-2013"></a><span data-ttu-id="5399b-102">在 Lync Server 2013 中管理回應群組工作流程</span><span class="sxs-lookup"><span data-stu-id="5399b-102">Managing Response Group workflows in Lync Server 2013</span></span>
+# <a name="managing-response-group-workflows-in-lync-server-2013"></a><span data-ttu-id="08a24-102">Lync Server 2013 中管理回應群組工作流程</span><span class="sxs-lookup"><span data-stu-id="08a24-102">Managing Response Group workflows in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41765584"
 
 <span> </span>
 
-<span data-ttu-id="5399b-103">_**主題上次修改日期：** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="5399b-103">_**Topic Last Modified:** 2012-10-01_</span></span>
+<span data-ttu-id="08a24-103">_**主題上次修改日期：** 2012年-10-01_</span><span class="sxs-lookup"><span data-stu-id="08a24-103">_**Topic Last Modified:** 2012-10-01_</span></span>
 
-<span data-ttu-id="5399b-104">回應群組工作流程會定義電話在撥打電話到工程師接聽通話時間的時間的行為。</span><span class="sxs-lookup"><span data-stu-id="5399b-104">A Response Group workflow defines the behavior of a call from the time that the phone rings to the time that an agent answers the call.</span></span> <span data-ttu-id="5399b-105">工作流程包含佇列和路由資訊，並包含 [查尋] 群組或 [互動式語音回應（IVR）] 的資訊。</span><span class="sxs-lookup"><span data-stu-id="5399b-105">The workflow includes queue and routing information, and includes either hunt group or interactive voice response (IVR) information.</span></span>
+<span data-ttu-id="08a24-104">回應群組工作流程定義代理接聽電話的時間從電話響鈴時間通話的行為。</span><span class="sxs-lookup"><span data-stu-id="08a24-104">A Response Group workflow defines the behavior of a call from the time that the phone rings to the time that an agent answers the call.</span></span> <span data-ttu-id="08a24-105">工作流程包括佇列和路由資訊，也包括群組搜尋或互動語音回應 (IVR) 資訊。</span><span class="sxs-lookup"><span data-stu-id="08a24-105">The workflow includes queue and routing information, and includes either hunt group or interactive voice response (IVR) information.</span></span>
 
-<span data-ttu-id="5399b-106">本節中的主題可識別設計 IVR 工作流程的最佳做法，並說明如何建立或修改工作流程，以及如何刪除工作組。</span><span class="sxs-lookup"><span data-stu-id="5399b-106">Topics in this section identify best practices for designing IVR workflows, and explain how to create customized business hours and holiday sets, how to create or modify workflows, and how to delete workgroups.</span></span>
+<span data-ttu-id="08a24-106">本節主題，識別 IVR 工作流程設計的最佳作法，並解說如何建立、自訂營業時間與假日集、如何建立或修改工作流程，以及如何刪除工作群組。</span><span class="sxs-lookup"><span data-stu-id="08a24-106">Topics in this section identify best practices for designing IVR workflows, and explain how to create customized business hours and holiday sets, how to create or modify workflows, and how to delete workgroups.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="5399b-107">本節內容</span><span class="sxs-lookup"><span data-stu-id="5399b-107">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="08a24-107">本章節內容</span><span class="sxs-lookup"><span data-stu-id="08a24-107">In This Section</span></span>
 
-  - [<span data-ttu-id="5399b-108">在 Lync Server 2013 中設計互動語音回應系統通話流程</span><span class="sxs-lookup"><span data-stu-id="5399b-108">Design interactive voice response call flows in Lync Server 2013</span></span>](lync-server-2013-design-interactive-voice-response-call-flows.md)
+  - [<span data-ttu-id="08a24-108">Lync Server 2013 中設計互動式語音回應通話流程</span><span class="sxs-lookup"><span data-stu-id="08a24-108">Design interactive voice response call flows in Lync Server 2013</span></span>](lync-server-2013-design-interactive-voice-response-call-flows.md)
 
-  - [<span data-ttu-id="5399b-109">可選在 Lync Server 2013 中定義回應群組的上班時間</span><span class="sxs-lookup"><span data-stu-id="5399b-109">(Optional) Define Response Group business hours in Lync Server 2013</span></span>](lync-server-2013-optional-define-response-group-business-hours.md)
+  - [<span data-ttu-id="08a24-109">（選用）Lync Server 2013 中的定義回應群組營業時間</span><span class="sxs-lookup"><span data-stu-id="08a24-109">(Optional) Define Response Group business hours in Lync Server 2013</span></span>](lync-server-2013-optional-define-response-group-business-hours.md)
 
-  - [<span data-ttu-id="5399b-110">可選在 Lync Server 2013 中定義回應群組假日集</span><span class="sxs-lookup"><span data-stu-id="5399b-110">(Optional) Define Response Group holiday sets in Lync Server 2013</span></span>](lync-server-2013-optional-define-response-group-holiday-sets.md)
+  - [<span data-ttu-id="08a24-110">（選用）Lync Server 2013 中的定義回應群組假日集</span><span class="sxs-lookup"><span data-stu-id="08a24-110">(Optional) Define Response Group holiday sets in Lync Server 2013</span></span>](lync-server-2013-optional-define-response-group-holiday-sets.md)
 
-  - [<span data-ttu-id="5399b-111">在 Lync Server 2013 中建立或修改工作流程</span><span class="sxs-lookup"><span data-stu-id="5399b-111">Create or modify a workflow in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-workflow.md)
+  - [<span data-ttu-id="08a24-111">建立或修改 Lync Server 2013 中的工作流程</span><span class="sxs-lookup"><span data-stu-id="08a24-111">Create or modify a workflow in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-workflow.md)
 
-  - [<span data-ttu-id="5399b-112">刪除 Lync Server 2013 中的工作流程</span><span class="sxs-lookup"><span data-stu-id="5399b-112">Delete a workflow in Lync Server 2013</span></span>](lync-server-2013-delete-a-workflow.md)
+  - [<span data-ttu-id="08a24-112">刪除 Lync Server 2013 中的工作流程</span><span class="sxs-lookup"><span data-stu-id="08a24-112">Delete a workflow in Lync Server 2013</span></span>](lync-server-2013-delete-a-workflow.md)
 
 </div>
 
