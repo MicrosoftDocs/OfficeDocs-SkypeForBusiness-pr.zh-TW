@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：定義 SIP/CSTA 閘道 IP 位址
+title: Lync Server 2013： 定義 SIP/CSTA 閘道 IP 位址
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185073
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c50958f2c7c44045e25ff4ac9619f3ad73a5f302
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 60541799a66365275207ea998fa2d4dd218a7bc3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728513"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043645"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="define-a-sipcsta-gateway-ip-address-in-lync-server-2013"></a><span data-ttu-id="fab0c-102">在 Lync Server 2013 中定義 SIP/CSTA 閘道 IP 位址</span><span class="sxs-lookup"><span data-stu-id="fab0c-102">Define a SIP/CSTA gateway IP address in Lync Server 2013</span></span>
+# <a name="define-a-sipcsta-gateway-ip-address-in-lync-server-2013"></a><span data-ttu-id="681e9-102">Lync Server 2013 中定義 SIP/CSTA 閘道 IP 位址</span><span class="sxs-lookup"><span data-stu-id="681e9-102">Define a SIP/CSTA gateway IP address in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,41 +35,41 @@ ms.locfileid: "41728513"
 
 <span> </span>
 
-<span data-ttu-id="fab0c-103">_**主題上次修改日期：** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="fab0c-103">_**Topic Last Modified:** 2012-09-21_</span></span>
+<span data-ttu-id="681e9-103">_**主題上次修改日期：** 2012年-09-21_</span><span class="sxs-lookup"><span data-stu-id="681e9-103">_**Topic Last Modified:** 2012-09-21_</span></span>
 
-<span data-ttu-id="fab0c-104">如果 Lync Server 會使用傳輸控制通訊協定（TCP）連線，連線到您為遠端通話控制所部署的 SIP/CSTA 閘道，則您必須在拓撲建立器中定義閘道的 IP 位址。</span><span class="sxs-lookup"><span data-stu-id="fab0c-104">If Lync Server will connect to the SIP/CSTA gateway that you deployed for remote call control by using a Transmission Control Protocol (TCP) connection, then you must define the IP address of the gateway in Topology Builder.</span></span> <span data-ttu-id="fab0c-105">對於支援傳輸層安全性（TLS）連線的閘道，不需要執行此步驟。</span><span class="sxs-lookup"><span data-stu-id="fab0c-105">This step is not necessary for gateways that support Transport Layer Security (TLS) connections.</span></span> <span data-ttu-id="fab0c-106">針對支援 TLS 連線的任何閘道，您可以跳過這個程式，然後按照在[Lync Server 2013 中啟用遠端通話控制的 lync 使用者](lync-server-2013-enable-lync-users-for-remote-call-control.md)中的步驟，繼續部署遠端通話控制。</span><span class="sxs-lookup"><span data-stu-id="fab0c-106">For any gateway that supports TLS connections, you can skip this procedure and continue deployment of remote call control by following the steps in [Enable Lync users for remote call control in Lync Server 2013](lync-server-2013-enable-lync-users-for-remote-call-control.md).</span></span>
+<span data-ttu-id="681e9-104">如果您使用的傳輸控制通訊協定 (TCP) 連線部署遠端呼叫控制的 SIP/CSTA 閘道將連接 Lync 伺服器，您必須在拓撲產生器中定義閘道的 IP 位址。</span><span class="sxs-lookup"><span data-stu-id="681e9-104">If Lync Server will connect to the SIP/CSTA gateway that you deployed for remote call control by using a Transmission Control Protocol (TCP) connection, then you must define the IP address of the gateway in Topology Builder.</span></span> <span data-ttu-id="681e9-105">這是不必要步驟支援傳輸層安全性 (TLS) 連線的閘道。</span><span class="sxs-lookup"><span data-stu-id="681e9-105">This step is not necessary for gateways that support Transport Layer Security (TLS) connections.</span></span> <span data-ttu-id="681e9-106">任何支援 TLS 連線的閘道，您可以略過此程序，然後繼續遠端呼叫控制的部署中[啟用 Lync 之使用者的 Lync Server 2013 中的遠端呼叫控制](lync-server-2013-enable-lync-users-for-remote-call-control.md)的步驟執行。</span><span class="sxs-lookup"><span data-stu-id="681e9-106">For any gateway that supports TLS connections, you can skip this procedure and continue deployment of remote call control by following the steps in [Enable Lync users for remote call control in Lync Server 2013](lync-server-2013-enable-lync-users-for-remote-call-control.md).</span></span>
 
 <div>
 
-## <a name="to-define-the-sipcsta-gateway-ip-address-by-using-topology-builder"></a><span data-ttu-id="fab0c-107">使用拓撲產生器定義 SIP/CSTA 閘道 IP 位址</span><span class="sxs-lookup"><span data-stu-id="fab0c-107">To define the SIP/CSTA gateway IP address by using Topology Builder</span></span>
+## <a name="to-define-the-sipcsta-gateway-ip-address-by-using-topology-builder"></a><span data-ttu-id="681e9-107">若要使用拓撲產生器定義 SIP/CSTA 閘道 IP 位址</span><span class="sxs-lookup"><span data-stu-id="681e9-107">To define the SIP/CSTA gateway IP address by using Topology Builder</span></span>
 
-1.  <span data-ttu-id="fab0c-108">登入以 [網域管理員] 群組和 [RTCUniversalServerAdmins] 群組成員身分安裝拓撲建立器的電腦。</span><span class="sxs-lookup"><span data-stu-id="fab0c-108">Log on to the computer where Topology Builder is installed as a member of the Domain Admins group and the RTCUniversalServerAdmins group.</span></span>
+1.  <span data-ttu-id="681e9-108">以 Domain Admins 群組與 RTCUniversalServerAdmins 群組成員的身分，登入安裝了拓撲產生器的電腦。</span><span class="sxs-lookup"><span data-stu-id="681e9-108">Log on to the computer where Topology Builder is installed as a member of the Domain Admins group and the RTCUniversalServerAdmins group.</span></span>
 
-2.  <span data-ttu-id="fab0c-109">啟動拓撲產生器：按一下 [**開始**]，按一下 [**所有程式**]，按一下 [ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 拓撲**建立器]。</span><span class="sxs-lookup"><span data-stu-id="fab0c-109">Start Topology Builder: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Topology Builder**.</span></span>
+2.  <span data-ttu-id="681e9-109">啟動拓撲產生器： 按一下 [**開始]**、 [**所有程式]**、 [ **Microsoft Lync Server 2013**]，然後按一下**Lync Server 拓撲產生器]**。</span><span class="sxs-lookup"><span data-stu-id="681e9-109">Start Topology Builder: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Topology Builder**.</span></span>
 
-3.  <span data-ttu-id="fab0c-110">選擇下載現有拓撲的選項。</span><span class="sxs-lookup"><span data-stu-id="fab0c-110">Choose the option to download an existing topology.</span></span>
+3.  <span data-ttu-id="681e9-110">選擇下載現有拓撲的選項。</span><span class="sxs-lookup"><span data-stu-id="681e9-110">Choose the option to download an existing topology.</span></span>
 
-4.  <span data-ttu-id="fab0c-111">展開 [**受信任的應用程式伺服器**] 節點。</span><span class="sxs-lookup"><span data-stu-id="fab0c-111">Expand the **Trusted application servers** node.</span></span>
+4.  <span data-ttu-id="681e9-111">展開 **[信任的應用程式伺服器]** 節點。</span><span class="sxs-lookup"><span data-stu-id="681e9-111">Expand the **Trusted application servers** node.</span></span>
 
-5.  <span data-ttu-id="fab0c-112">以滑鼠右鍵按一下您所建立的受信任的應用程式池，如在[Lync Server 2013 的 [設定遠端通話控制的信任的應用程式專案] 中](lync-server-2013-configure-a-trusted-application-entry-for-remote-call-control.md)所述，然後按一下 [**編輯屬性**]。</span><span class="sxs-lookup"><span data-stu-id="fab0c-112">Right-click the trusted application pool that you created, as described in [Configure a trusted application entry for remote call control in Lync Server 2013](lync-server-2013-configure-a-trusted-application-entry-for-remote-call-control.md), and then click **Edit Properties**.</span></span>
+5.  <span data-ttu-id="681e9-112">以滑鼠右鍵按一下您建立的信任的應用程式集區[設定 Lync Server 2013 中的遠端呼叫控制的信任的應用程式項目](lync-server-2013-configure-a-trusted-application-entry-for-remote-call-control.md)，所述，然後按一下 [**編輯內容]**。</span><span class="sxs-lookup"><span data-stu-id="681e9-112">Right-click the trusted application pool that you created, as described in [Configure a trusted application entry for remote call control in Lync Server 2013](lync-server-2013-configure-a-trusted-application-entry-for-remote-call-control.md), and then click **Edit Properties**.</span></span>
 
-6.  <span data-ttu-id="fab0c-113">清除 [**啟用將配置資料複製到這個資源**區] 核取方塊。</span><span class="sxs-lookup"><span data-stu-id="fab0c-113">Clear the **Enable replication of configuration data to this pool** check box.</span></span>
+6.  <span data-ttu-id="681e9-113">清除 [**啟用組態資料複寫到此集區**] 核取方塊。</span><span class="sxs-lookup"><span data-stu-id="681e9-113">Clear the **Enable replication of configuration data to this pool** check box.</span></span>
 
-7.  <span data-ttu-id="fab0c-114">按一下 [**將服務使用限制為選取的 IP 位址**]。</span><span class="sxs-lookup"><span data-stu-id="fab0c-114">Click **Limit service usage to selected IP addresses**.</span></span> <span data-ttu-id="fab0c-115">預設設定是**使用所有已設定的 IP 位址**。</span><span class="sxs-lookup"><span data-stu-id="fab0c-115">The default setting is **Use all configured IP addresses**.</span></span>
+7.  <span data-ttu-id="681e9-114">按一下 [**選取 IP 位址限制服務使用情況**]。</span><span class="sxs-lookup"><span data-stu-id="681e9-114">Click **Limit service usage to selected IP addresses**.</span></span> <span data-ttu-id="681e9-115">預設值為**使用所有設定的 IP 位址**。</span><span class="sxs-lookup"><span data-stu-id="681e9-115">The default setting is **Use all configured IP addresses**.</span></span>
 
-8.  <span data-ttu-id="fab0c-116">在 [**主要 IP 位址**] 文字方塊中，輸入 SIP/CSTA 閘道的 IP 位址。</span><span class="sxs-lookup"><span data-stu-id="fab0c-116">In the **Primary IP address** text box, enter the IP address of the SIP/CSTA gateway.</span></span>
+8.  <span data-ttu-id="681e9-116">在 [**主要 IP 位址**] 文字方塊中，輸入 SIP/CSTA 閘道的 IP 位址。</span><span class="sxs-lookup"><span data-stu-id="681e9-116">In the **Primary IP address** text box, enter the IP address of the SIP/CSTA gateway.</span></span>
 
-9.  <span data-ttu-id="fab0c-117">若要更新中央管理存放區中的拓撲，請按一下主控台樹中的 [ **Lync Server**]，然後從 [**動作**] 窗格中按一下 [**發佈**]。</span><span class="sxs-lookup"><span data-stu-id="fab0c-117">To update the topology in the Central Management store, in the console tree, click **Lync Server**, and then, from the **Actions** pane, click **Publish**.</span></span>
+9.  <span data-ttu-id="681e9-117">若要更新的拓撲中的中央管理存放區，在主控台樹狀目錄中，[ **Lync Server**]，並再從 [**動作**] 窗格中，按一下 [**發佈**。</span><span class="sxs-lookup"><span data-stu-id="681e9-117">To update the topology in the Central Management store, in the console tree, click **Lync Server**, and then, from the **Actions** pane, click **Publish**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="fab0c-118">請參閱</span><span class="sxs-lookup"><span data-stu-id="fab0c-118">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="681e9-118">另請參閱</span><span class="sxs-lookup"><span data-stu-id="681e9-118">See Also</span></span>
 
 
-[<span data-ttu-id="fab0c-119">在 Lync Server 2013 中設定遠端呼叫控制的靜態路由</span><span class="sxs-lookup"><span data-stu-id="fab0c-119">Configure a static route for remote call control in Lync Server 2013</span></span>](lync-server-2013-configure-a-static-route-for-remote-call-control.md)  
-[<span data-ttu-id="fab0c-120">在 Lync Server 2013 中為遠端呼叫控制設定信任的應用程式項目</span><span class="sxs-lookup"><span data-stu-id="fab0c-120">Configure a trusted application entry for remote call control in Lync Server 2013</span></span>](lync-server-2013-configure-a-trusted-application-entry-for-remote-call-control.md)  
+[<span data-ttu-id="681e9-119">在 Lync Server 2013 中設定為遠端呼叫控制的靜態路由</span><span class="sxs-lookup"><span data-stu-id="681e9-119">Configure a static route for remote call control in Lync Server 2013</span></span>](lync-server-2013-configure-a-static-route-for-remote-call-control.md)  
+[<span data-ttu-id="681e9-120">設定 Lync Server 2013 中的遠端呼叫控制的信任的應用程式項目</span><span class="sxs-lookup"><span data-stu-id="681e9-120">Configure a trusted application entry for remote call control in Lync Server 2013</span></span>](lync-server-2013-configure-a-trusted-application-entry-for-remote-call-control.md)  
   
 
 </div>

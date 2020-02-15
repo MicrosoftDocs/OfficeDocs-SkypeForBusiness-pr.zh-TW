@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：保護 IIS
+title: Lync Server 2013： 保護 IIS
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 62625492
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 03d0f3e736284970bf22fe813093e0e54accd29e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 612945a8ad69cffa8401cb64367d8b860d556a19
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724783"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043795"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="protecting-iis-in-lync-server-2013"></a><span data-ttu-id="40546-102">在 Lync Server 2013 中保護 IIS</span><span class="sxs-lookup"><span data-stu-id="40546-102">Protecting IIS in Lync Server 2013</span></span>
+# <a name="protecting-iis-in-lync-server-2013"></a><span data-ttu-id="7b8b0-102">保護 Lync Server 2013 中的 IIS</span><span class="sxs-lookup"><span data-stu-id="7b8b0-102">Protecting IIS in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41724783"
 
 <span> </span>
 
-<span data-ttu-id="40546-103">_**主題上次修改日期：** 2013-12-05_</span><span class="sxs-lookup"><span data-stu-id="40546-103">_**Topic Last Modified:** 2013-12-05_</span></span>
+<span data-ttu-id="7b8b0-103">_**上次修改主題：** 2013年-12-05_</span><span class="sxs-lookup"><span data-stu-id="7b8b0-103">_**Topic Last Modified:** 2013-12-05_</span></span>
 
-<span data-ttu-id="40546-104">在 Microsoft Office 通訊伺服器2007和 Microsoft Office 通訊伺服器 2007 R2 中，網際網路資訊服務（IIS）是在標準使用者帳戶下執行。</span><span class="sxs-lookup"><span data-stu-id="40546-104">In Microsoft Office Communications Server 2007 and Microsoft Office Communications Server 2007 R2, Internet Information Services (IIS) ran under a standard user account.</span></span> <span data-ttu-id="40546-105">這可能會造成問題：如果您的密碼已過期，可能會遺失您的 Web 服務，通常是難以診斷的問題。</span><span class="sxs-lookup"><span data-stu-id="40546-105">This had the potential to cause issues: if that password expired you could lose your Web Services, an issue that was often difficult to diagnose.</span></span> <span data-ttu-id="40546-106">為了協助避免密碼過期的問題，Microsoft Lync Server 2013 可讓您建立電腦帳戶（適用于不存在的電腦），可充當執行 IIS 之網站中所有電腦的驗證原則。</span><span class="sxs-lookup"><span data-stu-id="40546-106">To help avoid the issue of expiring passwords, Microsoft Lync Server 2013 enables you to create a computer account (for a computer that doesn’t actually exist) that can serve as the authentication principal for all the computers in a site that are running IIS.</span></span> <span data-ttu-id="40546-107">因為這些帳戶使用 Kerberos 驗證通訊協定，所以帳戶稱為 Kerberos 帳戶，而新的驗證處理序則稱為 Kerberos Web 驗證。</span><span class="sxs-lookup"><span data-stu-id="40546-107">Because these accounts use the Kerberos authentication protocol, the accounts are referred to as Kerberos accounts, and the new authentication process is known as Kerberos web authentication.</span></span> <span data-ttu-id="40546-108">如此一來，您就能使用單一帳戶來管理所有 IIS 伺服器。</span><span class="sxs-lookup"><span data-stu-id="40546-108">This enables you to manage all your IIS servers by using a single account.</span></span>
+<span data-ttu-id="7b8b0-104">在 Microsoft Office Communications Server 2007 及 Microsoft Office Communications Server 2007 R2，網際網路資訊服務 (IIS) 執行標準的使用者帳戶。</span><span class="sxs-lookup"><span data-stu-id="7b8b0-104">In Microsoft Office Communications Server 2007 and Microsoft Office Communications Server 2007 R2, Internet Information Services (IIS) ran under a standard user account.</span></span> <span data-ttu-id="7b8b0-105">這可能會導致問題：如果該密碼過期，您會失去 Web 服務，通常這是很難診斷的問題。</span><span class="sxs-lookup"><span data-stu-id="7b8b0-105">This had the potential to cause issues: if that password expired you could lose your Web Services, an issue that was often difficult to diagnose.</span></span> <span data-ttu-id="7b8b0-106">若要協助避免發生過期密碼的問題，Microsoft Lync Server 2013 可讓您建立的電腦帳戶 （適用於實際上不存在的電腦），可以做為所有網站中執行的電腦 IIS 驗證主體。</span><span class="sxs-lookup"><span data-stu-id="7b8b0-106">To help avoid the issue of expiring passwords, Microsoft Lync Server 2013 enables you to create a computer account (for a computer that doesn’t actually exist) that can serve as the authentication principal for all the computers in a site that are running IIS.</span></span> <span data-ttu-id="7b8b0-107">因為這些帳戶使用 Kerberos 驗證通訊協定，所以帳戶稱為 Kerberos 帳戶，新驗證處理序別名 Kerberos Web 驗證。</span><span class="sxs-lookup"><span data-stu-id="7b8b0-107">Because these accounts use the Kerberos authentication protocol, the accounts are referred to as Kerberos accounts, and the new authentication process is known as Kerberos web authentication.</span></span> <span data-ttu-id="7b8b0-108">這樣可讓您使用單一帳戶來管理所有 IIS 伺服器。</span><span class="sxs-lookup"><span data-stu-id="7b8b0-108">This enables you to manage all your IIS servers by using a single account.</span></span>
 
-<span data-ttu-id="40546-109">若要在這個驗證原則下執行伺服器，您必須先使用 CsKerberosAccount Cmdlet 建立電腦帳戶;這個帳戶就會指派給一或多個網站。</span><span class="sxs-lookup"><span data-stu-id="40546-109">To run your servers under this authentication principal, you must first create a computer account by using the New-CsKerberosAccount cmdlet; this account is then assigned to one or more sites.</span></span> <span data-ttu-id="40546-110">完成作業之後，您可以執行 CsTopology Cmdlet 來啟用帳戶和 Lync Server 2013 網站之間的關聯。</span><span class="sxs-lookup"><span data-stu-id="40546-110">After the assignment has been made, the association between the account and the Lync Server 2013 site is enabled by running the Enable-CsTopology cmdlet.</span></span> <span data-ttu-id="40546-111">在其他專案中，這會在 Active Directory 網域服務（AD DS）中建立必要的服務主體名稱（SPN）。</span><span class="sxs-lookup"><span data-stu-id="40546-111">Among other things, this creates the required service principal name (SPN) in Active Directory Domain Services (AD DS).</span></span> <span data-ttu-id="40546-112">SPN 讓用戶端應用程式能夠找到特定的服務。</span><span class="sxs-lookup"><span data-stu-id="40546-112">SPNs provide a way for client applications to locate a particular service.</span></span> <span data-ttu-id="40546-113">如需詳細資訊，請參閱作業檔中的[新 CsKerberosAccount](https://docs.microsoft.com/powershell/module/skype/New-CsKerberosAccount) 。</span><span class="sxs-lookup"><span data-stu-id="40546-113">For details, see [New-CsKerberosAccount](https://docs.microsoft.com/powershell/module/skype/New-CsKerberosAccount) in the Operations documentation.</span></span>
+<span data-ttu-id="7b8b0-109">若要在此驗證主體下執行伺服器，您必須先使用 New-CsKerberosAccount Cmdlet 建立一個電腦帳戶；然後此帳戶會指派給一或多個站台。</span><span class="sxs-lookup"><span data-stu-id="7b8b0-109">To run your servers under this authentication principal, you must first create a computer account by using the New-CsKerberosAccount cmdlet; this account is then assigned to one or more sites.</span></span> <span data-ttu-id="7b8b0-110">工作分派之後，依執行 Enable-cstopology cmdlet 會啟用帳戶與 Lync Server 2013 網站之間的關聯。</span><span class="sxs-lookup"><span data-stu-id="7b8b0-110">After the assignment has been made, the association between the account and the Lync Server 2013 site is enabled by running the Enable-CsTopology cmdlet.</span></span> <span data-ttu-id="7b8b0-111">除此之外，這也會在 Active Directory 網域服務 (AD DS) 中建立必要的服務主體名稱 (SPN)。</span><span class="sxs-lookup"><span data-stu-id="7b8b0-111">Among other things, this creates the required service principal name (SPN) in Active Directory Domain Services (AD DS).</span></span> <span data-ttu-id="7b8b0-112">SPN 提供讓用戶端應用程式能夠找到特定服務的方式。</span><span class="sxs-lookup"><span data-stu-id="7b8b0-112">SPNs provide a way for client applications to locate a particular service.</span></span> <span data-ttu-id="7b8b0-113">如需詳細資訊，請參閱作業文件中的＜[New-CsKerberosAccount](https://docs.microsoft.com/powershell/module/skype/New-CsKerberosAccount)＞。</span><span class="sxs-lookup"><span data-stu-id="7b8b0-113">For details, see [New-CsKerberosAccount](https://docs.microsoft.com/powershell/module/skype/New-CsKerberosAccount) in the Operations documentation.</span></span>
 
 <div>
 
-## <a name="best-practices"></a><span data-ttu-id="40546-114">最佳做法</span><span class="sxs-lookup"><span data-stu-id="40546-114">Best Practices</span></span>
+## <a name="best-practices"></a><span data-ttu-id="7b8b0-114">最佳作法</span><span class="sxs-lookup"><span data-stu-id="7b8b0-114">Best Practices</span></span>
 
-<span data-ttu-id="40546-115">為了協助提高 IIS 的安全性，建議您為 IIS 實施 Kerberos 帳戶。</span><span class="sxs-lookup"><span data-stu-id="40546-115">To help increase security of IIS, we recommend that you implement a Kerberos account for IIS.</span></span> <span data-ttu-id="40546-116">如果您沒有實現 Kerberos 帳戶，IIS 會在標準使用者帳戶下執行。</span><span class="sxs-lookup"><span data-stu-id="40546-116">If you do not implement a Kerberos account, IIS runs under a standard user account.</span></span>
+<span data-ttu-id="7b8b0-p103">為幫助增加 IIS 的安全性，建議您為 IIS 實作 Kerberos 帳戶。如果您不實作 Kerberos 帳戶，IIS 會在標準使用者帳戶之下執行。</span><span class="sxs-lookup"><span data-stu-id="7b8b0-p103">To help increase security of IIS, we recommend that you implement a Kerberos account for IIS. If you do not implement a Kerberos account, IIS runs under a standard user account.</span></span>
 
 </div>
 

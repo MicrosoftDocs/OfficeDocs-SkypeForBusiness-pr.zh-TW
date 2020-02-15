@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： PSTN 會議摘要報告
+title: 'Lync Server 2013: PSTN 會議摘要報告'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184764
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f8cd36f651a84b25f7e8163a8cfc40aff5162f90
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: aa902b9e4d53bf0ebbedf835296a371437860095
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724793"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043455"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="pstn-conference-summary-report-in-lync-server-2013"></a><span data-ttu-id="cb6d7-102">Lync Server 2013 中的 PSTN 會議摘要報告</span><span class="sxs-lookup"><span data-stu-id="cb6d7-102">PSTN Conference Summary Report in Lync Server 2013</span></span>
+# <a name="pstn-conference-summary-report-in-lync-server-2013"></a><span data-ttu-id="7d9ab-102">Lync Server 2013 中 PSTN 會議摘要報告</span><span class="sxs-lookup"><span data-stu-id="7d9ab-102">PSTN Conference Summary Report in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,31 +35,31 @@ ms.locfileid: "41724793"
 
 <span> </span>
 
-<span data-ttu-id="cb6d7-103">_**主題上次修改日期：** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="cb6d7-103">_**Topic Last Modified:** 2012-10-22_</span></span>
+<span data-ttu-id="7d9ab-103">_**主題上次修改日期：** 2012年-10-22_</span><span class="sxs-lookup"><span data-stu-id="7d9ab-103">_**Topic Last Modified:** 2012-10-22_</span></span>
 
-<span data-ttu-id="cb6d7-104">在 Microsoft Lync Server 2013 中，PSTN 會議是一個會議，其中至少有一個參與者使用 PSTN （公開交換電話網絡）電話撥入音訊部分。</span><span class="sxs-lookup"><span data-stu-id="cb6d7-104">In Microsoft Lync Server 2013, a PSTN conference is any conference in which at least one participant dials in to the audio portion by a using a PSTN (public switched telephone network) phone.</span></span> <span data-ttu-id="cb6d7-105">（PSTN 手機是「有線電話、」手機或任何其他不使用語音 over IP 的電話）。雖然在監視報告中稱為 PSTN 會議，但這些會議可能更常見，也稱為撥入式會議。</span><span class="sxs-lookup"><span data-stu-id="cb6d7-105">(A PSTN phone is a "landline," a cell phone, or any other phone which does not make use of Voice over IP.) Although referred to as PSTN conferences in the Monitoring Reports, these conferences are perhaps more-commonly known as dial-in conferences.</span></span>
+<span data-ttu-id="7d9ab-104">Microsoft Lync Server 2013 中，在 PSTN 會議是在其中至少一名參與者撥入的音訊部分使用 PSTN （公用交換的電話網路） 電話任何會議。</span><span class="sxs-lookup"><span data-stu-id="7d9ab-104">In Microsoft Lync Server 2013, a PSTN conference is any conference in which at least one participant dials in to the audio portion by a using a PSTN (public switched telephone network) phone.</span></span> <span data-ttu-id="7d9ab-105">(PSTN 電話是 「 室內電話 」，行動電話或任何其他這不會讓使用的 Voice over IP 電話。)雖然稱為監控報告中的 PSTN 會議，但這些會議也許更常稱為電話撥入式會議。</span><span class="sxs-lookup"><span data-stu-id="7d9ab-105">(A PSTN phone is a "landline," a cell phone, or any other phone which does not make use of Voice over IP.) Although referred to as PSTN conferences in the Monitoring Reports, these conferences are perhaps more-commonly known as dial-in conferences.</span></span>
 
-<span data-ttu-id="cb6d7-106">PSTN 會議摘要報告提供貴組織中所有 PSTN 會議的相關資訊（也就是至少有一個撥入使用者的所有會議）。</span><span class="sxs-lookup"><span data-stu-id="cb6d7-106">The PSTN Conference Summary Report provides information about all the PSTN conferences held in your organization (that is, all the conferences that had at least one dial-in user).</span></span> <span data-ttu-id="cb6d7-107">此報告包含有關 PSTN 會議總數、參與這些會議的人數總數，以及最重要的電話撥入使用者總數（總 PSTN 參與者統計值）的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="cb6d7-107">The report includes information about the total number of PSTN conferences, the total number of people who participated in those conferences, and, perhaps, most important, the total number of dial-in users (the Total PSTN participants metric).</span></span>
+<span data-ttu-id="7d9ab-106">PSTN 會議摘要報告提供有關保留組織 （亦即，所有的會議有至少一個電話撥入式使用者） 中的所有 PSTN 會議資訊。</span><span class="sxs-lookup"><span data-stu-id="7d9ab-106">The PSTN Conference Summary Report provides information about all the PSTN conferences held in your organization (that is, all the conferences that had at least one dial-in user).</span></span> <span data-ttu-id="7d9ab-107">報告中包含的 PSTN 會議，參與那些會議中，和，也許，大部分的人員總數總數的相關資訊很重要，電話撥入式使用者 （總共 PSTN 參與者公制） 總數。</span><span class="sxs-lookup"><span data-stu-id="7d9ab-107">The report includes information about the total number of PSTN conferences, the total number of people who participated in those conferences, and, perhaps, most important, the total number of dial-in users (the Total PSTN participants metric).</span></span>
 
 <div>
 
-## <a name="accessing-the-pstn-conference-summary-report"></a><span data-ttu-id="cb6d7-108">存取 PSTN 會議摘要報告</span><span class="sxs-lookup"><span data-stu-id="cb6d7-108">Accessing the PSTN Conference Summary Report</span></span>
+## <a name="accessing-the-pstn-conference-summary-report"></a><span data-ttu-id="7d9ab-108">存取 PSTN 會議摘要報告</span><span class="sxs-lookup"><span data-stu-id="7d9ab-108">Accessing the PSTN Conference Summary Report</span></span>
 
-<span data-ttu-id="cb6d7-109">PSTN 會議摘要報告只能從 [監控報告] 首頁進行存取。</span><span class="sxs-lookup"><span data-stu-id="cb6d7-109">The PSTN Conference Summary Report can only be accessed from the Monitoring Reports home page.</span></span> <span data-ttu-id="cb6d7-110">此報告未連結至任何其他報表。</span><span class="sxs-lookup"><span data-stu-id="cb6d7-110">This report is not linked to any other reports.</span></span> <span data-ttu-id="cb6d7-111">請注意，您無法取得 PSTN 會議的詳細呼叫資訊，因為個別端點負責提交此資訊。</span><span class="sxs-lookup"><span data-stu-id="cb6d7-111">Note that you cannot retrieve detailed call information for a PSTN conference, in part because individual endpoints are responsible for submitting this information.</span></span> <span data-ttu-id="cb6d7-112">PSTN 手機無法追蹤或提交通話詳細資訊。</span><span class="sxs-lookup"><span data-stu-id="cb6d7-112">PSTN phones are not capable of tracking or submitting call detail information.</span></span>
+<span data-ttu-id="7d9ab-109">只能從監視報告首頁存取 PSTN 會議摘要報告。</span><span class="sxs-lookup"><span data-stu-id="7d9ab-109">The PSTN Conference Summary Report can only be accessed from the Monitoring Reports home page.</span></span> <span data-ttu-id="7d9ab-110">這份報告未連結至任何其他報告。</span><span class="sxs-lookup"><span data-stu-id="7d9ab-110">This report is not linked to any other reports.</span></span> <span data-ttu-id="7d9ab-111">請注意，您無法擷取詳細的通話資訊 PSTN 會議，部分因為個別端點負責送出此資訊。</span><span class="sxs-lookup"><span data-stu-id="7d9ab-111">Note that you cannot retrieve detailed call information for a PSTN conference, in part because individual endpoints are responsible for submitting this information.</span></span> <span data-ttu-id="7d9ab-112">PSTN 電話不能夠追蹤或送出通話詳細資訊。</span><span class="sxs-lookup"><span data-stu-id="7d9ab-112">PSTN phones are not capable of tracking or submitting call detail information.</span></span>
 
 </div>
 
 <div>
 
-## <a name="making-the-best-use-of-the-pstn-conference-summary-report"></a><span data-ttu-id="cb6d7-113">充分利用 PSTN 會議摘要報告</span><span class="sxs-lookup"><span data-stu-id="cb6d7-113">Making the Best Use of the PSTN Conference Summary Report</span></span>
+## <a name="making-the-best-use-of-the-pstn-conference-summary-report"></a><span data-ttu-id="7d9ab-113">PSTN 會議摘要報告的最佳用法</span><span class="sxs-lookup"><span data-stu-id="7d9ab-113">Making the Best Use of the PSTN Conference Summary Report</span></span>
 
-<span data-ttu-id="cb6d7-114">若要判斷包含撥入使用者的所有會議的百分比，請比較 PSTN 會議總量與在[Lync Server 2013 的 [會議摘要] 報告中](lync-server-2013-conference-summary-report.md)找到的總會議度量值。</span><span class="sxs-lookup"><span data-stu-id="cb6d7-114">To determine the percentage of all your conferences that include dial-in users, compare the value of the Total PSTN conferences metric with the Total conferences metric found on the [Conference Summary Report in Lync Server 2013](lync-server-2013-conference-summary-report.md).</span></span>
+<span data-ttu-id="7d9ab-114">若要判斷所有包含撥入式使用者之會議的百分比，比較的值與[Lync Server 2013 中的會議摘要報告](lync-server-2013-conference-summary-report.md)上找到的會議總數公制總 PSTN 會議計量。</span><span class="sxs-lookup"><span data-stu-id="7d9ab-114">To determine the percentage of all your conferences that include dial-in users, compare the value of the Total PSTN conferences metric with the Total conferences metric found on the [Conference Summary Report in Lync Server 2013](lync-server-2013-conference-summary-report.md).</span></span>
 
-<span data-ttu-id="cb6d7-115">如果您沒有看到許多您可能會看到的 PSTN 會議，請記住，組織允許撥入使用者的會議的能力取決於已指派給使用者的會議原則：您的使用者數只有幾個使用者可以保留 PSTN-ZA&PLATFORM 會議您顯然會看到很少的 PSTN 會議。</span><span class="sxs-lookup"><span data-stu-id="cb6d7-115">If you don't see as many PSTN conferences as you might have expected to see, keep in mind that the ability to organize a conference that allows dial-in users depends on the conferencing policy that has been assigned to a user: if very few of your users are allowed to hold PSTN conferences you would obviously see very few PSTN conferences.</span></span> <span data-ttu-id="cb6d7-116">您可以透過在 Lync Server 管理命令介面中執行下列命令，快速確認您的會議原則（如果有的話）允許使用者排程 PSTN 會議：</span><span class="sxs-lookup"><span data-stu-id="cb6d7-116">You can quickly verify which of your conferencing policies (if any) allow users to schedule PSTN conferences by running the following command from within the Lync Server Management Shell:</span></span>
+<span data-ttu-id="7d9ab-115">如果看不到多個 PSTN 會議預期您可能必須以查看，請記住，組織可讓使用者撥入式會議的功能取決於已指派給使用者的會議原則： 如果很少的使用者可以保留 PSTN 很明顯地，您會看到極少 PSTN 會議的會議。</span><span class="sxs-lookup"><span data-stu-id="7d9ab-115">If you don't see as many PSTN conferences as you might have expected to see, keep in mind that the ability to organize a conference that allows dial-in users depends on the conferencing policy that has been assigned to a user: if very few of your users are allowed to hold PSTN conferences you would obviously see very few PSTN conferences.</span></span> <span data-ttu-id="7d9ab-116">您可以快速驗證讓使用者執行從 Lync Server 管理命令介面中的下列命令來排定 PSTN 會議的會議原則 （如果有的話）：</span><span class="sxs-lookup"><span data-stu-id="7d9ab-116">You can quickly verify which of your conferencing policies (if any) allow users to schedule PSTN conferences by running the following command from within the Lync Server Management Shell:</span></span>
 
     Get-CsConferencingPolicy | Select-Object Identity, EnableDialInConferencing
 
-<span data-ttu-id="cb6d7-117">這樣會傳回如下所示的資料：</span><span class="sxs-lookup"><span data-stu-id="cb6d7-117">That will return data similar to this:</span></span>
+<span data-ttu-id="7d9ab-117">該命令將傳回類似下列的資料：</span><span class="sxs-lookup"><span data-stu-id="7d9ab-117">That will return data similar to this:</span></span>
 
     Identity                                EnableDialInConferencing
     --------                                ------------------------
@@ -69,19 +69,19 @@ ms.locfileid: "41724793"
     Tag:RedmondDialInUsers                                      True
     Tag:DublinDialInUsers                                       True
 
-<span data-ttu-id="cb6d7-118">這樣會傳回如下所示的資料：</span><span class="sxs-lookup"><span data-stu-id="cb6d7-118">That will return data similar to this:</span></span>
+<span data-ttu-id="7d9ab-118">該命令將傳回類似下列的資料：</span><span class="sxs-lookup"><span data-stu-id="7d9ab-118">That will return data similar to this:</span></span>
 
 </div>
 
 <div>
 
-## <a name="filters"></a><span data-ttu-id="cb6d7-119">濾鏡</span><span class="sxs-lookup"><span data-stu-id="cb6d7-119">Filters</span></span>
+## <a name="filters"></a><span data-ttu-id="7d9ab-119">篩選</span><span class="sxs-lookup"><span data-stu-id="7d9ab-119">Filters</span></span>
 
-<span data-ttu-id="cb6d7-120">篩選提供一種方式，可讓您傳回更精細設定目標的資料集，或以不同方式查看傳回的資料。</span><span class="sxs-lookup"><span data-stu-id="cb6d7-120">Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways.</span></span> <span data-ttu-id="cb6d7-121">例如，PSTN 會議摘要報告可讓您選擇資料的分組方式。</span><span class="sxs-lookup"><span data-stu-id="cb6d7-121">For example, the PSTN Conference Summary Report enables you to choose how data should be grouped.</span></span> <span data-ttu-id="cb6d7-122">在這種情況下，會議會依小時、日、周或月進行分組。</span><span class="sxs-lookup"><span data-stu-id="cb6d7-122">In this case, conferences are grouped by hour, day, week, or month.</span></span>
+<span data-ttu-id="7d9ab-120">篩選器可以讓您傳回更精確的資料集或者以不同方法檢視傳回的資料。</span><span class="sxs-lookup"><span data-stu-id="7d9ab-120">Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways.</span></span> <span data-ttu-id="7d9ab-121">例如，PSTN 會議摘要報告可讓您選擇分組資料的方式。</span><span class="sxs-lookup"><span data-stu-id="7d9ab-121">For example, the PSTN Conference Summary Report enables you to choose how data should be grouped.</span></span> <span data-ttu-id="7d9ab-122">在此情況下，會議分組小時、 日、 週或月。</span><span class="sxs-lookup"><span data-stu-id="7d9ab-122">In this case, conferences are grouped by hour, day, week, or month.</span></span>
 
-<span data-ttu-id="cb6d7-123">下表列出您可搭配 PSTN 會議摘要報告使用的篩選準則。</span><span class="sxs-lookup"><span data-stu-id="cb6d7-123">The following table lists the filters that you can use with the PSTN Conference Summary Report.</span></span>
+<span data-ttu-id="7d9ab-123">下表列出您可以搭配 PSTN 會議摘要報告的篩選器。</span><span class="sxs-lookup"><span data-stu-id="7d9ab-123">The following table lists the filters that you can use with the PSTN Conference Summary Report.</span></span>
 
-### <a name="pstn-conference-summary-report-filters"></a><span data-ttu-id="cb6d7-124">PSTN 會議摘要報告篩選器</span><span class="sxs-lookup"><span data-stu-id="cb6d7-124">PSTN Conference Summary Report Filters</span></span>
+### <a name="pstn-conference-summary-report-filters"></a><span data-ttu-id="7d9ab-124">PSTN 會議摘要報告篩選器</span><span class="sxs-lookup"><span data-stu-id="7d9ab-124">PSTN Conference Summary Report Filters</span></span>
 
 <table>
 <colgroup>
@@ -90,41 +90,41 @@ ms.locfileid: "41724793"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="cb6d7-125">名稱</span><span class="sxs-lookup"><span data-stu-id="cb6d7-125">Name</span></span></th>
-<th><span data-ttu-id="cb6d7-126">說明</span><span class="sxs-lookup"><span data-stu-id="cb6d7-126">Description</span></span></th>
+<th><span data-ttu-id="7d9ab-125">名稱</span><span class="sxs-lookup"><span data-stu-id="7d9ab-125">Name</span></span></th>
+<th><span data-ttu-id="7d9ab-126">描述</span><span class="sxs-lookup"><span data-stu-id="7d9ab-126">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="cb6d7-127"><strong>從</strong></span><span class="sxs-lookup"><span data-stu-id="cb6d7-127"><strong>From</strong></span></span></p></td>
-<td><p><span data-ttu-id="cb6d7-128">時間範圍的開始日期/時間。</span><span class="sxs-lookup"><span data-stu-id="cb6d7-128">Start date/time for the time range.</span></span> <span data-ttu-id="cb6d7-129">若要依時間查看資料，請輸入 [開始日期] 和 [時間]，如下所示：</span><span class="sxs-lookup"><span data-stu-id="cb6d7-129">To view data by hours, enter both the start date and time as follows:</span></span></p>
-<p><span data-ttu-id="cb6d7-130">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="cb6d7-130">7/7/2012 1:00 PM</span></span></p>
-<p><span data-ttu-id="cb6d7-131">如果您沒有輸入開始時間，報告會在指定日期自動于12:00 點開始。</span><span class="sxs-lookup"><span data-stu-id="cb6d7-131">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day.</span></span> <span data-ttu-id="cb6d7-132">若要依天查看資料，只需輸入日期：</span><span class="sxs-lookup"><span data-stu-id="cb6d7-132">To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="cb6d7-133">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="cb6d7-133">7/7/2012</span></span></p>
-<p><span data-ttu-id="cb6d7-134">若要依周或依月查看，請在您要查看的周或月份中，輸入您要查看的日期（不需要輸入周或月的第一天）：</span><span class="sxs-lookup"><span data-stu-id="cb6d7-134">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="cb6d7-135">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="cb6d7-135">7/3/2012</span></span></p>
-<p><span data-ttu-id="cb6d7-136">周數總是從星期日到星期六執行。</span><span class="sxs-lookup"><span data-stu-id="cb6d7-136">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="7d9ab-127"><strong>From</strong></span><span class="sxs-lookup"><span data-stu-id="7d9ab-127"><strong>From</strong></span></span></p></td>
+<td><p><span data-ttu-id="7d9ab-p106">時間範圍的開始日期/時間。若要按照小時檢視資料，請輸入開始日期和時間，如下所示：</span><span class="sxs-lookup"><span data-stu-id="7d9ab-p106">Start date/time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
+<p><span data-ttu-id="7d9ab-130">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="7d9ab-130">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="7d9ab-p107">如果您未輸入開始時間，報告會自動從指定日期凌晨 12 點開始。若要按照日期檢視資料，只要輸入日期即可：</span><span class="sxs-lookup"><span data-stu-id="7d9ab-p107">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="7d9ab-133">2012/7/7</span><span class="sxs-lookup"><span data-stu-id="7d9ab-133">7/7/2012</span></span></p>
+<p><span data-ttu-id="7d9ab-134">若要按星期或月份檢視，請輸入當週或該月您想檢視的日期 (您不必輸入當週或該月的第一天)：</span><span class="sxs-lookup"><span data-stu-id="7d9ab-134">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="7d9ab-135">2012/7/3</span><span class="sxs-lookup"><span data-stu-id="7d9ab-135">7/3/2012</span></span></p>
+<p><span data-ttu-id="7d9ab-136">星期永遠是從星期日開始星期六結束。</span><span class="sxs-lookup"><span data-stu-id="7d9ab-136">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="cb6d7-137"><strong>自</strong></span><span class="sxs-lookup"><span data-stu-id="cb6d7-137"><strong>To</strong></span></span></p></td>
-<td><p><span data-ttu-id="cb6d7-138">時間範圍的結束日期/時間。</span><span class="sxs-lookup"><span data-stu-id="cb6d7-138">End date/time for the time range.</span></span> <span data-ttu-id="cb6d7-139">若要依時間查看資料，請輸入 [結束日期] 和 [時間]，如下所示：</span><span class="sxs-lookup"><span data-stu-id="cb6d7-139">To view data by hours, enter both the end date and time as follows:</span></span></p>
-<p><span data-ttu-id="cb6d7-140">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="cb6d7-140">7/7/2012 1:00 PM</span></span></p>
-<p><span data-ttu-id="cb6d7-141">如果您沒有輸入結束時間，報告會在指定日期自動結束于12:00。</span><span class="sxs-lookup"><span data-stu-id="cb6d7-141">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day.</span></span> <span data-ttu-id="cb6d7-142">若要依天查看資料，只需輸入日期：</span><span class="sxs-lookup"><span data-stu-id="cb6d7-142">To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="cb6d7-143">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="cb6d7-143">7/7/2012</span></span></p>
-<p><span data-ttu-id="cb6d7-144">若要依周或依月查看，請在您要查看的周或月份中，輸入您要查看的日期（不需要輸入周或月的第一天）：</span><span class="sxs-lookup"><span data-stu-id="cb6d7-144">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="cb6d7-145">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="cb6d7-145">7/3/2012</span></span></p>
-<p><span data-ttu-id="cb6d7-146">周數總是從星期日到星期六執行。</span><span class="sxs-lookup"><span data-stu-id="cb6d7-146">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="7d9ab-137"><strong>To</strong></span><span class="sxs-lookup"><span data-stu-id="7d9ab-137"><strong>To</strong></span></span></p></td>
+<td><p><span data-ttu-id="7d9ab-p108">時間範圍的結束日期/時間。若要按照小時檢視資料，請輸入開始日期和時間，如下所示：</span><span class="sxs-lookup"><span data-stu-id="7d9ab-p108">End date/time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
+<p><span data-ttu-id="7d9ab-140">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="7d9ab-140">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="7d9ab-p109">如果您未輸入結束時間，報告會自動在指定日期凌晨 12 點結束。若要按照日期檢視資料，只要輸入日期即可：</span><span class="sxs-lookup"><span data-stu-id="7d9ab-p109">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="7d9ab-143">2012/7/7</span><span class="sxs-lookup"><span data-stu-id="7d9ab-143">7/7/2012</span></span></p>
+<p><span data-ttu-id="7d9ab-144">若要按星期或月份檢視，請輸入當週或該月您想檢視的日期 (您不必輸入當週或該月的第一天)：</span><span class="sxs-lookup"><span data-stu-id="7d9ab-144">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="7d9ab-145">2012/7/3</span><span class="sxs-lookup"><span data-stu-id="7d9ab-145">7/3/2012</span></span></p>
+<p><span data-ttu-id="7d9ab-146">星期永遠是從星期日開始星期六結束。</span><span class="sxs-lookup"><span data-stu-id="7d9ab-146">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="cb6d7-147"><strong>Interval</strong></span><span class="sxs-lookup"><span data-stu-id="cb6d7-147"><strong>Interval</strong></span></span></p></td>
-<td><p><span data-ttu-id="cb6d7-148">時間間隔。</span><span class="sxs-lookup"><span data-stu-id="cb6d7-148">Time interval.</span></span> <span data-ttu-id="cb6d7-149">選取下列其中一項：</span><span class="sxs-lookup"><span data-stu-id="cb6d7-149">Select one of the following:</span></span></p>
+<td><p><span data-ttu-id="7d9ab-147"><strong>Interval</strong></span><span class="sxs-lookup"><span data-stu-id="7d9ab-147"><strong>Interval</strong></span></span></p></td>
+<td><p><span data-ttu-id="7d9ab-p110">時間間隔。請選取下列其中一項：</span><span class="sxs-lookup"><span data-stu-id="7d9ab-p110">Time interval. Select one of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="cb6d7-150">每小時（最多可顯示25小時）</span><span class="sxs-lookup"><span data-stu-id="cb6d7-150">Hourly (a maximum of 25 hours can be displayed)</span></span></p></li>
-<li><p><span data-ttu-id="cb6d7-151">每天（最多可以顯示31天）</span><span class="sxs-lookup"><span data-stu-id="cb6d7-151">Daily (a maximum of 31 days can be displayed)</span></span></p></li>
-<li><p><span data-ttu-id="cb6d7-152">每週（最多可以顯示12周）</span><span class="sxs-lookup"><span data-stu-id="cb6d7-152">Weekly (a maximum of 12 weeks can be displayed)</span></span></p></li>
-<li><p><span data-ttu-id="cb6d7-153">每月（最多可以顯示12個月）</span><span class="sxs-lookup"><span data-stu-id="cb6d7-153">Monthly (a maximum of 12 months can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="7d9ab-150">每小時 (最多可以顯示 25 個小時)</span><span class="sxs-lookup"><span data-stu-id="7d9ab-150">Hourly (a maximum of 25 hours can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="7d9ab-151">每日 (最多可以顯示 31 天)</span><span class="sxs-lookup"><span data-stu-id="7d9ab-151">Daily (a maximum of 31 days can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="7d9ab-152">每週 (最多可以顯示 12 週)</span><span class="sxs-lookup"><span data-stu-id="7d9ab-152">Weekly (a maximum of 12 weeks can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="7d9ab-153">每月 (最多可以顯示 12 個月)</span><span class="sxs-lookup"><span data-stu-id="7d9ab-153">Monthly (a maximum of 12 months can be displayed)</span></span></p></li>
 </ul>
-<p><span data-ttu-id="cb6d7-154">如果 [開始] 和 [結束] 日期超過所選間隔所允許的最大值數，則會顯示值的數目上限（從開始日期開始）。</span><span class="sxs-lookup"><span data-stu-id="cb6d7-154">If the start and end dates exceed the maximum number of values allowed for the selected interval, only the maximum number of values (starting from the start date) is displayed.</span></span> <span data-ttu-id="cb6d7-155">例如，如果您選取 [開始日期 7/7/2012] 和 [結束日期] 2/28/2012 的 [日間隔]，則會顯示 8/7/2012 12:00 AM 至 9/7/2012 12:00 AM （也就是31天內的資料）的資料。</span><span class="sxs-lookup"><span data-stu-id="cb6d7-155">For example, if you select the Daily interval with a start date of 7/7/2012 and an end date of 2/28/2012, data is displayed for the days 8/7/2012 12:00 AM to 9/7/2012 12:00 AM (that is, a total of 31 days' worth of data).</span></span></p></td>
+<p><span data-ttu-id="7d9ab-p111">若開始與結束日期超出所選間隔允許的上限值，將只會顯示上限值 (從開始日期開始顯示)。例如，若您選取 [每日] 間隔，並將開始與結束日期分別設為 2012 年 7 月 7 日及 2012 年 2 月 28 日，將只會顯示 2012 年 8 月 7 日凌晨 12 點到 2012 年 9 月 7 日凌晨 12 點這段期間的資料 (亦即只會顯示 31 天的資料)。</span><span class="sxs-lookup"><span data-stu-id="7d9ab-p111">If the start and end dates exceed the maximum number of values allowed for the selected interval, only the maximum number of values (starting from the start date) is displayed. For example, if you select the Daily interval with a start date of 7/7/2012 and an end date of 2/28/2012, data is displayed for the days 8/7/2012 12:00 AM to 9/7/2012 12:00 AM (that is, a total of 31 days' worth of data).</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -134,11 +134,11 @@ ms.locfileid: "41724793"
 
 <div>
 
-## <a name="metrics"></a><span data-ttu-id="cb6d7-156">指標</span><span class="sxs-lookup"><span data-stu-id="cb6d7-156">Metrics</span></span>
+## <a name="metrics"></a><span data-ttu-id="7d9ab-156">計量</span><span class="sxs-lookup"><span data-stu-id="7d9ab-156">Metrics</span></span>
 
-<span data-ttu-id="cb6d7-157">下表列出 PSTN 會議摘要報告中的資訊。</span><span class="sxs-lookup"><span data-stu-id="cb6d7-157">The following table lists the information in the PSTN Conference Summary Report.</span></span>
+<span data-ttu-id="7d9ab-157">下表列出 PSTN 會議摘要報告中的資訊。</span><span class="sxs-lookup"><span data-stu-id="7d9ab-157">The following table lists the information in the PSTN Conference Summary Report.</span></span>
 
-### <a name="pstn-conference-summary-report-metrics"></a><span data-ttu-id="cb6d7-158">PSTN 會議摘要報告度量單位</span><span class="sxs-lookup"><span data-stu-id="cb6d7-158">PSTN Conference Summary Report Metrics</span></span>
+### <a name="pstn-conference-summary-report-metrics"></a><span data-ttu-id="7d9ab-158">PSTN 會議摘要報告計量</span><span class="sxs-lookup"><span data-stu-id="7d9ab-158">PSTN Conference Summary Report Metrics</span></span>
 
 <table>
 <colgroup>
@@ -148,54 +148,54 @@ ms.locfileid: "41724793"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="cb6d7-159">名稱</span><span class="sxs-lookup"><span data-stu-id="cb6d7-159">Name</span></span></th>
-<th><span data-ttu-id="cb6d7-160">您可以針對此專案進行排序嗎？</span><span class="sxs-lookup"><span data-stu-id="cb6d7-160">Can you sort on this item?</span></span></th>
-<th><span data-ttu-id="cb6d7-161">說明</span><span class="sxs-lookup"><span data-stu-id="cb6d7-161">Description</span></span></th>
+<th><span data-ttu-id="7d9ab-159">姓名</span><span class="sxs-lookup"><span data-stu-id="7d9ab-159">Name</span></span></th>
+<th><span data-ttu-id="7d9ab-160">可以排序這個項目嗎？</span><span class="sxs-lookup"><span data-stu-id="7d9ab-160">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="7d9ab-161">描述</span><span class="sxs-lookup"><span data-stu-id="7d9ab-161">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="cb6d7-162"><strong>工資</strong></span><span class="sxs-lookup"><span data-stu-id="cb6d7-162"><strong>Hourly</strong></span></span></p>
-<p><span data-ttu-id="cb6d7-163"><strong>日常</strong></span><span class="sxs-lookup"><span data-stu-id="cb6d7-163"><strong>Daily</strong></span></span></p>
-<p><span data-ttu-id="cb6d7-164"><strong>周更新</strong></span><span class="sxs-lookup"><span data-stu-id="cb6d7-164"><strong>Weekly</strong></span></span></p>
-<p><span data-ttu-id="cb6d7-165"><strong>次</strong></span><span class="sxs-lookup"><span data-stu-id="cb6d7-165"><strong>Monthly</strong></span></span></p></td>
-<td><p><span data-ttu-id="cb6d7-166">否</span><span class="sxs-lookup"><span data-stu-id="cb6d7-166">No</span></span></p></td>
-<td><p><span data-ttu-id="cb6d7-167">指出選取的時間間隔。</span><span class="sxs-lookup"><span data-stu-id="cb6d7-167">Indicates the selected time interval.</span></span> <span data-ttu-id="cb6d7-168">在適當的地方，您可以按一下指定的時間間隔，以查看該間隔的詳細資訊。</span><span class="sxs-lookup"><span data-stu-id="cb6d7-168">Where applicable, you can click a given time interval to view detailed information for that interval.</span></span> <span data-ttu-id="cb6d7-169">例如，如果您使用的是每日間隔，而您按一下 [7/7/2012]，就會看到該日期的使用者註冊活動的每小時細目。</span><span class="sxs-lookup"><span data-stu-id="cb6d7-169">For example, if you are using the Daily interval and you click 7/7/2012, you see an hourly breakdown of user registration activity for that date.</span></span></p></td>
+<td><p><span data-ttu-id="7d9ab-162"><strong>每小時</strong></span><span class="sxs-lookup"><span data-stu-id="7d9ab-162"><strong>Hourly</strong></span></span></p>
+<p><span data-ttu-id="7d9ab-163"><strong>每日</strong></span><span class="sxs-lookup"><span data-stu-id="7d9ab-163"><strong>Daily</strong></span></span></p>
+<p><span data-ttu-id="7d9ab-164"><strong>每週</strong></span><span class="sxs-lookup"><span data-stu-id="7d9ab-164"><strong>Weekly</strong></span></span></p>
+<p><span data-ttu-id="7d9ab-165"><strong>每月</strong></span><span class="sxs-lookup"><span data-stu-id="7d9ab-165"><strong>Monthly</strong></span></span></p></td>
+<td><p><span data-ttu-id="7d9ab-166">否</span><span class="sxs-lookup"><span data-stu-id="7d9ab-166">No</span></span></p></td>
+<td><p><span data-ttu-id="7d9ab-p112">指示所選的時間間隔。在適用的情況下，只要按一下指定的時間間隔，即可檢視該間隔的詳細資訊。例如，若您使用 [每日] 間隔並按一下 7/7/2012，將會顯示該日期之使用者登錄活動的每小時明細。</span><span class="sxs-lookup"><span data-stu-id="7d9ab-p112">Indicates the selected time interval. Where applicable, you can click a given time interval to view detailed information for that interval. For example, if you are using the Daily interval and you click 7/7/2012, you see an hourly breakdown of user registration activity for that date.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="cb6d7-170"><strong>PSTN 會議總數</strong></span><span class="sxs-lookup"><span data-stu-id="cb6d7-170"><strong>Total PSTN conferences</strong></span></span></p></td>
-<td><p><span data-ttu-id="cb6d7-171">否</span><span class="sxs-lookup"><span data-stu-id="cb6d7-171">No</span></span></p></td>
-<td><p><span data-ttu-id="cb6d7-172">允許撥入存取的會議總數。</span><span class="sxs-lookup"><span data-stu-id="cb6d7-172">Total number conferences that allowed dial-in access.</span></span></p></td>
+<td><p><span data-ttu-id="7d9ab-170"><strong>PSTN 會議總數</strong></span><span class="sxs-lookup"><span data-stu-id="7d9ab-170"><strong>Total PSTN conferences</strong></span></span></p></td>
+<td><p><span data-ttu-id="7d9ab-171">否</span><span class="sxs-lookup"><span data-stu-id="7d9ab-171">No</span></span></p></td>
+<td><p><span data-ttu-id="7d9ab-172">會議總數允許撥入存取。</span><span class="sxs-lookup"><span data-stu-id="7d9ab-172">Total number conferences that allowed dial-in access.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="cb6d7-173"><strong>參與者總數</strong></span><span class="sxs-lookup"><span data-stu-id="cb6d7-173"><strong>Total participants</strong></span></span></p></td>
-<td><p><span data-ttu-id="cb6d7-174">否</span><span class="sxs-lookup"><span data-stu-id="cb6d7-174">No</span></span></p></td>
-<td><p><span data-ttu-id="cb6d7-175">參與允許撥入存取之會議的人員總數。</span><span class="sxs-lookup"><span data-stu-id="cb6d7-175">Total number of people who participated in conferences that allowed dial-in access.</span></span></p></td>
+<td><p><span data-ttu-id="7d9ab-173"><strong>參與者總數</strong></span><span class="sxs-lookup"><span data-stu-id="7d9ab-173"><strong>Total participants</strong></span></span></p></td>
+<td><p><span data-ttu-id="7d9ab-174">否</span><span class="sxs-lookup"><span data-stu-id="7d9ab-174">No</span></span></p></td>
+<td><p><span data-ttu-id="7d9ab-175">參與允許撥入存取的會議總數。</span><span class="sxs-lookup"><span data-stu-id="7d9ab-175">Total number of people who participated in conferences that allowed dial-in access.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="cb6d7-176"><strong>A/V 會議紀要總計</strong></span><span class="sxs-lookup"><span data-stu-id="cb6d7-176"><strong>Total A/V conference minutes</strong></span></span></p></td>
-<td><p><span data-ttu-id="cb6d7-177">否</span><span class="sxs-lookup"><span data-stu-id="cb6d7-177">No</span></span></p></td>
-<td><p><span data-ttu-id="cb6d7-178">音訊/視訊會議的總時間。</span><span class="sxs-lookup"><span data-stu-id="cb6d7-178">Total amount of audio/visual conference time.</span></span></p></td>
+<td><p><span data-ttu-id="7d9ab-176"><strong>A/V 會議總分鐘數</strong></span><span class="sxs-lookup"><span data-stu-id="7d9ab-176"><strong>Total A/V conference minutes</strong></span></span></p></td>
+<td><p><span data-ttu-id="7d9ab-177">否</span><span class="sxs-lookup"><span data-stu-id="7d9ab-177">No</span></span></p></td>
+<td><p><span data-ttu-id="7d9ab-178">音訊/視訊會議時間總數。</span><span class="sxs-lookup"><span data-stu-id="7d9ab-178">Total amount of audio/visual conference time.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="cb6d7-179"><strong>A/V 會議參與者紀要總計</strong></span><span class="sxs-lookup"><span data-stu-id="cb6d7-179"><strong>Total A/V conference participant minutes</strong></span></span></p></td>
-<td><p><span data-ttu-id="cb6d7-180">否</span><span class="sxs-lookup"><span data-stu-id="cb6d7-180">No</span></span></p></td>
-<td><p><span data-ttu-id="cb6d7-181">音訊/視覺參與者的總時間。</span><span class="sxs-lookup"><span data-stu-id="cb6d7-181">Total amount of audio/visual participant time.</span></span> <span data-ttu-id="cb6d7-182">例如，如果一個參與者在 A/V 會議中花費了五分鐘，而另一個參與者在同一筆會議中花費了三分鐘，則總的 A/V 會議參與者時間會是八分鐘。</span><span class="sxs-lookup"><span data-stu-id="cb6d7-182">For example, if one participant spent five minutes in an A/V conference and another participant spent three minutes in the same conference, the total A/V conference participant time would be eight minutes.</span></span></p></td>
+<td><p><span data-ttu-id="7d9ab-179"><strong>A/V 會議參與者總分鐘數</strong></span><span class="sxs-lookup"><span data-stu-id="7d9ab-179"><strong>Total A/V conference participant minutes</strong></span></span></p></td>
+<td><p><span data-ttu-id="7d9ab-180">否</span><span class="sxs-lookup"><span data-stu-id="7d9ab-180">No</span></span></p></td>
+<td><p><span data-ttu-id="7d9ab-181">音訊/visual 參與者時間總數。</span><span class="sxs-lookup"><span data-stu-id="7d9ab-181">Total amount of audio/visual participant time.</span></span> <span data-ttu-id="7d9ab-182">例如，如果一名參與者所花費的五分鐘在 A / V 會議，並另一位參與者所花費在同一場會議的總 A 3 分鐘 / V 會議參與者時間就是 8 分鐘的時間。</span><span class="sxs-lookup"><span data-stu-id="7d9ab-182">For example, if one participant spent five minutes in an A/V conference and another participant spent three minutes in the same conference, the total A/V conference participant time would be eight minutes.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="cb6d7-183"><strong>PSTN 參與者總數</strong></span><span class="sxs-lookup"><span data-stu-id="cb6d7-183"><strong>Total PSTN participants</strong></span></span></p></td>
-<td><p><span data-ttu-id="cb6d7-184">否</span><span class="sxs-lookup"><span data-stu-id="cb6d7-184">No</span></span></p></td>
-<td><p><span data-ttu-id="cb6d7-185">撥入會議且允許撥入存取的使用者總數。</span><span class="sxs-lookup"><span data-stu-id="cb6d7-185">Total number of users who dialed in to conferences that allowed dial-in access.</span></span></p></td>
+<td><p><span data-ttu-id="7d9ab-183"><strong>PSTN 參與者總數</strong></span><span class="sxs-lookup"><span data-stu-id="7d9ab-183"><strong>Total PSTN participants</strong></span></span></p></td>
+<td><p><span data-ttu-id="7d9ab-184">否</span><span class="sxs-lookup"><span data-stu-id="7d9ab-184">No</span></span></p></td>
+<td><p><span data-ttu-id="7d9ab-185">使用者撥打到允許撥入存取的會議總數。</span><span class="sxs-lookup"><span data-stu-id="7d9ab-185">Total number of users who dialed in to conferences that allowed dial-in access.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="cb6d7-186"><strong>PSTN 參與者通話總分鐘數</strong></span><span class="sxs-lookup"><span data-stu-id="cb6d7-186"><strong>Total PSTN participant minutes</strong></span></span></p></td>
-<td><p><span data-ttu-id="cb6d7-187">否</span><span class="sxs-lookup"><span data-stu-id="cb6d7-187">No</span></span></p></td>
-<td><p><span data-ttu-id="cb6d7-188">撥入使用者所花費的會議時間總量。</span><span class="sxs-lookup"><span data-stu-id="cb6d7-188">Total amount of conference time spent by dial-in users.</span></span> <span data-ttu-id="cb6d7-189">例如，如果一個撥入參與者在會議中花了五分鐘的時間，而另一個參與者在同一個會議中花費了三分鐘，則 PSTN 參與者時間總會是八分鐘。</span><span class="sxs-lookup"><span data-stu-id="cb6d7-189">For example, if one dial-in participant spent five minutes in a conference and another participant spent three minutes in the same conference, the total PSTN participant time would be eight minutes.</span></span></p></td>
+<td><p><span data-ttu-id="7d9ab-186"><strong>PSTN 參與者分鐘總數</strong></span><span class="sxs-lookup"><span data-stu-id="7d9ab-186"><strong>Total PSTN participant minutes</strong></span></span></p></td>
+<td><p><span data-ttu-id="7d9ab-187">否</span><span class="sxs-lookup"><span data-stu-id="7d9ab-187">No</span></span></p></td>
+<td><p><span data-ttu-id="7d9ab-188">總數量所花費的撥入使用者的會議時間的詳細資訊。</span><span class="sxs-lookup"><span data-stu-id="7d9ab-188">Total amount of conference time spent by dial-in users.</span></span> <span data-ttu-id="7d9ab-189">例如，如果一個電話撥入式參與者所花費的會議中的五分鐘及其他參與者所花費在同一場會議中的三個分鐘，PSTN 參與者時間總計會是 8 分鐘的時間。</span><span class="sxs-lookup"><span data-stu-id="7d9ab-189">For example, if one dial-in participant spent five minutes in a conference and another participant spent three minutes in the same conference, the total PSTN participant time would be eight minutes.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="cb6d7-190"><strong>唯一的會議召集人</strong></span><span class="sxs-lookup"><span data-stu-id="cb6d7-190"><strong>Unique conference organizers</strong></span></span></p></td>
-<td><p><span data-ttu-id="cb6d7-191">否</span><span class="sxs-lookup"><span data-stu-id="cb6d7-191">No</span></span></p></td>
-<td><p><span data-ttu-id="cb6d7-192">組織至少有一部允許撥入存取的會議的使用者總數。</span><span class="sxs-lookup"><span data-stu-id="cb6d7-192">Total number of users who organized at least one conference that allowed dial-in access.</span></span> <span data-ttu-id="cb6d7-193">組織多個會議的使用者會算作一個唯一的召集人，就像只組織單一會議的使用者。</span><span class="sxs-lookup"><span data-stu-id="cb6d7-193">Users who organized more than one conference are counted as one unique organizer, just like users who only organized a single conference.</span></span></p></td>
+<td><p><span data-ttu-id="7d9ab-190"><strong>唯一會議召集人</strong></span><span class="sxs-lookup"><span data-stu-id="7d9ab-190"><strong>Unique conference organizers</strong></span></span></p></td>
+<td><p><span data-ttu-id="7d9ab-191">否</span><span class="sxs-lookup"><span data-stu-id="7d9ab-191">No</span></span></p></td>
+<td><p><span data-ttu-id="7d9ab-192">組織允許撥入存取的至少一場會議的使用者總數。</span><span class="sxs-lookup"><span data-stu-id="7d9ab-192">Total number of users who organized at least one conference that allowed dial-in access.</span></span> <span data-ttu-id="7d9ab-193">召集過多次會議的使用者計為一個專屬召集人，就像只召集過一次會議的使用者一樣。</span><span class="sxs-lookup"><span data-stu-id="7d9ab-193">Users who organized more than one conference are counted as one unique organizer, just like users who only organized a single conference.</span></span></p></td>
 </tr>
 </tbody>
 </table>

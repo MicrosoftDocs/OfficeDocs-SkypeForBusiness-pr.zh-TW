@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：容錯移轉常設聊天室伺服器
+title: Lync Server 2013： 容錯移轉常設聊天室伺服器
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183726
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dd62d4037ae1795a553d207cb698f88f9b3b8ab8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a0d5ac758c1e4c87fd5559da1c2a9cf388dc8834
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765201"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043815"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="failing-over-persistent-chat-server-in-lync-server-2013"></a><span data-ttu-id="cc097-102">在 Lync Server 2013 中容錯移轉常設聊天室伺服器</span><span class="sxs-lookup"><span data-stu-id="cc097-102">Failing over Persistent Chat Server in Lync Server 2013</span></span>
+# <a name="failing-over-persistent-chat-server-in-lync-server-2013"></a><span data-ttu-id="9633a-102">容錯移轉 Lync Server 2013 中的常設聊天室伺服器</span><span class="sxs-lookup"><span data-stu-id="9633a-102">Failing over Persistent Chat Server in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,72 +35,72 @@ ms.locfileid: "41765201"
 
 <span> </span>
 
-<span data-ttu-id="cc097-103">_**主題上次修改日期：** 2014-02-05_</span><span class="sxs-lookup"><span data-stu-id="cc097-103">_**Topic Last Modified:** 2014-02-05_</span></span>
+<span data-ttu-id="9633a-103">_**上次修改主題：** 2014年-02-05_</span><span class="sxs-lookup"><span data-stu-id="9633a-103">_**Topic Last Modified:** 2014-02-05_</span></span>
 
-<span data-ttu-id="cc097-104">持續性聊天伺服器的容錯移轉主要是手動程式設計。</span><span class="sxs-lookup"><span data-stu-id="cc097-104">Failover for Persistent Chat Server is designed to be mainly a manual process.</span></span>
+<span data-ttu-id="9633a-104">Persistent Chat Server 的容錯移轉設計為主要是手動程序。</span><span class="sxs-lookup"><span data-stu-id="9633a-104">Failover for Persistent Chat Server is designed to be mainly a manual process.</span></span>
 
-<span data-ttu-id="cc097-105">容錯移轉程式的假設是次要資料中心已啟動且正在執行，但主要持久聊天資料庫所在的持久聊天伺服器服務完全無法使用，包括下列各項：</span><span class="sxs-lookup"><span data-stu-id="cc097-105">The failover procedure is based on the assumption that the secondary data center is up and running, but the Persistent Chat Server services where the primary Persistent Chat database is located are completely unavailable, including the following:</span></span>
+<span data-ttu-id="9633a-105">容錯移轉程序是根據其假設次要資料中心，且是且正在執行，但主要的常設聊天室資料庫所在的 Persistent Chat Server 服務已完全無法使用，包括下列：</span><span class="sxs-lookup"><span data-stu-id="9633a-105">The failover procedure is based on the assumption that the secondary data center is up and running, but the Persistent Chat Server services where the primary Persistent Chat database is located are completely unavailable, including the following:</span></span>
 
-  - <span data-ttu-id="cc097-106">持續聊天伺服器主資料庫和持續聊天伺服器鏡像資料庫已關閉。</span><span class="sxs-lookup"><span data-stu-id="cc097-106">Persistent Chat Server primary database and Persistent Chat Server mirror database are down.</span></span>
+  - <span data-ttu-id="9633a-106">常設聊天室伺服器主要資料庫與 Persistent Chat Server 鏡像資料庫已關閉。</span><span class="sxs-lookup"><span data-stu-id="9633a-106">Persistent Chat Server primary database and Persistent Chat Server mirror database are down.</span></span>
 
-  - <span data-ttu-id="cc097-107">Lync Server 前端伺服器已關閉。</span><span class="sxs-lookup"><span data-stu-id="cc097-107">Lync Server Front End Server is down.</span></span>
+  - <span data-ttu-id="9633a-107">Lync Server 前端伺服器已離線。</span><span class="sxs-lookup"><span data-stu-id="9633a-107">Lync Server Front End Server is down.</span></span>
 
-<span data-ttu-id="cc097-108">此程式是以兩個基本步驟為基礎：</span><span class="sxs-lookup"><span data-stu-id="cc097-108">The procedure is based on two basic steps:</span></span>
+<span data-ttu-id="9633a-108">此程序主要有兩個基本步驟：</span><span class="sxs-lookup"><span data-stu-id="9633a-108">The procedure is based on two basic steps:</span></span>
 
-  - <span data-ttu-id="cc097-109">復原主要持久聊天資料庫（mgc）。</span><span class="sxs-lookup"><span data-stu-id="cc097-109">Recover the primary Persistent Chat database (mgc).</span></span>
+  - <span data-ttu-id="9633a-109">復原主要常設聊天室資料庫 (mgc)。</span><span class="sxs-lookup"><span data-stu-id="9633a-109">Recover the primary Persistent Chat database (mgc).</span></span>
 
-  - <span data-ttu-id="cc097-110">為新的主資料庫建立鏡像。</span><span class="sxs-lookup"><span data-stu-id="cc097-110">Establish mirroring for the new primary database.</span></span>
+  - <span data-ttu-id="9633a-110">建立新主要資料庫的鏡像。</span><span class="sxs-lookup"><span data-stu-id="9633a-110">Establish mirroring for the new primary database.</span></span>
 
-<span data-ttu-id="cc097-111">永久聊天規範資料庫（mgccomp）未進行容錯移轉。</span><span class="sxs-lookup"><span data-stu-id="cc097-111">The Persistent Chat compliance database (mgccomp) is not failed over.</span></span> <span data-ttu-id="cc097-112">此資料庫的內容是暫時性的，而且會在合規性配接器處理資料時清除。</span><span class="sxs-lookup"><span data-stu-id="cc097-112">The contents of this database are transient and are purged as the compliance adapter processes the data.</span></span> <span data-ttu-id="cc097-113">您的責任是永久聊天管理員，正確管理配接器輸出以避免資料遺失。</span><span class="sxs-lookup"><span data-stu-id="cc097-113">It is your responsibility, as Persistent Chat Administrator, to correctly manage the adapter output to avoid data loss.</span></span>
+<span data-ttu-id="9633a-111">常設聊天室規範資料庫 (mgccomp) 不容錯移轉。</span><span class="sxs-lookup"><span data-stu-id="9633a-111">The Persistent Chat compliance database (mgccomp) is not failed over.</span></span> <span data-ttu-id="9633a-112">此資料庫的內容僅為暫時性，且會在規範介面卡處理資料時被清除。</span><span class="sxs-lookup"><span data-stu-id="9633a-112">The contents of this database are transient and are purged as the compliance adapter processes the data.</span></span> <span data-ttu-id="9633a-113">是您的責任，常設聊天室系統管理員身分，正確地管理介面卡輸出，以避免資料遺失。</span><span class="sxs-lookup"><span data-stu-id="9633a-113">It is your responsibility, as Persistent Chat Administrator, to correctly manage the adapter output to avoid data loss.</span></span>
 
 <div>
 
-## <a name="to-fail-over-persistent-chat-server"></a><span data-ttu-id="cc097-114">若要容錯移轉持久聊天伺服器</span><span class="sxs-lookup"><span data-stu-id="cc097-114">To fail over Persistent Chat Server</span></span>
+## <a name="to-fail-over-persistent-chat-server"></a><span data-ttu-id="9633a-114">容錯移轉常設聊天室伺服器</span><span class="sxs-lookup"><span data-stu-id="9633a-114">To fail over Persistent Chat Server</span></span>
 
-1.  <span data-ttu-id="cc097-115">從持續聊天伺服器備份記錄傳送資料庫中移除記錄傳送。</span><span class="sxs-lookup"><span data-stu-id="cc097-115">Remove log shipping from the Persistent Chat Server Backup Log Shipping database.</span></span>
+1.  <span data-ttu-id="9633a-115">移除記錄傳送從常設聊天室伺服器備份記錄傳送資料庫。</span><span class="sxs-lookup"><span data-stu-id="9633a-115">Remove log shipping from the Persistent Chat Server Backup Log Shipping database.</span></span>
     
-    1.  <span data-ttu-id="cc097-116">使用 SQL Server Management Studio，連線到持久聊天伺服器備份 mgc 資料庫所在的資料庫實例。</span><span class="sxs-lookup"><span data-stu-id="cc097-116">Using SQL Server Management Studio, connect to the database instance where the Persistent Chat Server backup mgc database is located.</span></span>
+    1.  <span data-ttu-id="9633a-116">使用 SQL Server Management Studio，連線至 Persistent Chat Server 備份 mgc 資料庫所在的資料庫執行個體。</span><span class="sxs-lookup"><span data-stu-id="9633a-116">Using SQL Server Management Studio, connect to the database instance where the Persistent Chat Server backup mgc database is located.</span></span>
     
-    2.  <span data-ttu-id="cc097-117">開啟 [查詢] 視窗至 [主資料庫]。</span><span class="sxs-lookup"><span data-stu-id="cc097-117">Open a query window to the master database.</span></span>
+    2.  <span data-ttu-id="9633a-117">開啟 Master 資料庫的查詢視窗。</span><span class="sxs-lookup"><span data-stu-id="9633a-117">Open a query window to the master database.</span></span>
     
-    3.  <span data-ttu-id="cc097-118">使用下列命令來刪除記錄傳送：</span><span class="sxs-lookup"><span data-stu-id="cc097-118">Use the following command to drop log shipping:</span></span>
+    3.  <span data-ttu-id="9633a-118">使用下列命令移除記錄傳送：</span><span class="sxs-lookup"><span data-stu-id="9633a-118">Use the following command to drop log shipping:</span></span>
         
             exec sp_delete_log_shipping_secondary_database mgc
 
-2.  <span data-ttu-id="cc097-119">將備份共用中的任何 uncopied 備份檔案複製到備份伺服器的 [複製目的地] 資料夾。</span><span class="sxs-lookup"><span data-stu-id="cc097-119">Copy any uncopied backup files from the backup share to the copy destination folder of the backup server.</span></span>
+2.  <span data-ttu-id="9633a-119">從備份共用複製所有未複製的備份檔案至備份伺服器的複製目的地資料夾。</span><span class="sxs-lookup"><span data-stu-id="9633a-119">Copy any uncopied backup files from the backup share to the copy destination folder of the backup server.</span></span>
 
-3.  <span data-ttu-id="cc097-120">將任何未套用的事務記錄備份以順序套用到次要資料庫。</span><span class="sxs-lookup"><span data-stu-id="cc097-120">Apply any unapplied transaction log backups in sequence to the secondary database.</span></span> <span data-ttu-id="cc097-121">如需詳細資訊，請參閱「如何：套用事務記錄備份（Transact-sql）」 http://go.microsoft.com/fwlink/p/?linkid=247428。</span><span class="sxs-lookup"><span data-stu-id="cc097-121">For details, see "How to: Apply a Transaction Log Backup (Transact-SQL)" at http://go.microsoft.com/fwlink/p/?linkid=247428.</span></span>
+3.  <span data-ttu-id="9633a-120">依序將所有未套用的交易記錄備份套用至次要資料庫。</span><span class="sxs-lookup"><span data-stu-id="9633a-120">Apply any unapplied transaction log backups in sequence to the secondary database.</span></span> <span data-ttu-id="9633a-121">如需詳細資訊，請參閱 「 How to： 套用一個交易記錄備份 (TRANSACT-SQL) 」 在http://go.microsoft.com/fwlink/p/?linkid=247428。</span><span class="sxs-lookup"><span data-stu-id="9633a-121">For details, see "How to: Apply a Transaction Log Backup (Transact-SQL)" at http://go.microsoft.com/fwlink/p/?linkid=247428.</span></span>
 
-4.  <span data-ttu-id="cc097-122">讓備份 mgc 資料庫在線上。</span><span class="sxs-lookup"><span data-stu-id="cc097-122">Bring the backup mgc database online.</span></span> <span data-ttu-id="cc097-123">使用在步驟1b 中開啟的 [查詢] 視窗，執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="cc097-123">Using the query window that opens in step 1b, do the following:</span></span>
+4.  <span data-ttu-id="9633a-p103">若要使備份 mgc 資料庫上線。請使用步驟 1b 中開啟的查詢視窗，執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="9633a-p103">Bring the backup mgc database online. Using the query window that opens in step 1b, do the following:</span></span>
     
-    1.  <span data-ttu-id="cc097-124">結束所有 mgc 資料庫連線（如果有的話）：</span><span class="sxs-lookup"><span data-stu-id="cc097-124">End all connections to the mgc database, if there are any:</span></span>
+    1.  <span data-ttu-id="9633a-124">結束所有 mgc 資料庫的連線 (若有連線)：</span><span class="sxs-lookup"><span data-stu-id="9633a-124">End all connections to the mgc database, if there are any:</span></span>
         
-        1.  <span data-ttu-id="cc097-125">**exec sp\_who2**可識別 mgc 資料庫的連線。</span><span class="sxs-lookup"><span data-stu-id="cc097-125">**exec sp\_who2** to identify connections to the mgc database.</span></span>
+        1.  <span data-ttu-id="9633a-125">**exec sp\_who2**來識別 mgc 資料庫的連線。</span><span class="sxs-lookup"><span data-stu-id="9633a-125">**exec sp\_who2** to identify connections to the mgc database.</span></span>
         
-        2.  <span data-ttu-id="cc097-126">\*\*kill \<spid\> \*\*以結束這些連線。</span><span class="sxs-lookup"><span data-stu-id="cc097-126">**kill \<spid\>** to end these connections.</span></span>
+        2.  <span data-ttu-id="9633a-126">**kill \<spid\>** 結束這些連線。</span><span class="sxs-lookup"><span data-stu-id="9633a-126">**kill \<spid\>** to end these connections.</span></span>
     
-    2.  <span data-ttu-id="cc097-127">讓資料庫處於線上狀態：</span><span class="sxs-lookup"><span data-stu-id="cc097-127">Bring the database online:</span></span>
+    2.  <span data-ttu-id="9633a-127">使資料庫上線：</span><span class="sxs-lookup"><span data-stu-id="9633a-127">Bring the database online:</span></span>
         
-        1.  <span data-ttu-id="cc097-128">**使用恢復來還原資料庫 mgc**。</span><span class="sxs-lookup"><span data-stu-id="cc097-128">**restore database mgc with recovery**.</span></span>
+        1.  <span data-ttu-id="9633a-128">**還原使用復原資料庫 mgc**。</span><span class="sxs-lookup"><span data-stu-id="9633a-128">**restore database mgc with recovery**.</span></span>
 
-5.  <span data-ttu-id="cc097-129">在 Lync Server 管理命令介面中，使用命令**CsPersistentChatState 身分識別 "服務： atl-cs-001.litwareinc.com" – PoolState FailedOver**容錯移轉至 mgc 備份資料庫。</span><span class="sxs-lookup"><span data-stu-id="cc097-129">In Lync Server Management Shell, use the command **Set-CsPersistentChatState -Identity "service:atl-cs-001.litwareinc.com" –PoolState FailedOver** to fail over to the mgc backup database.</span></span> <span data-ttu-id="cc097-130">請務必以 atl-cs-001.litwareinc.com 的持久聊天池來取代完整的功能變數名稱。</span><span class="sxs-lookup"><span data-stu-id="cc097-130">Be sure to substitute the fully qualified domain name of your Persistent Chat pool for atl-cs-001.litwareinc.com.</span></span>
+5.  <span data-ttu-id="9633a-129">Lync Server 管理命令介面中使用命令**Set-cspersistentchatstate-身分識別 」 服務： atl-cs-atl-cs-001.litwareinc.com"– PoolState FailedOver**容錯移轉至 mgc 備份資料庫。</span><span class="sxs-lookup"><span data-stu-id="9633a-129">In Lync Server Management Shell, use the command **Set-CsPersistentChatState -Identity "service:atl-cs-001.litwareinc.com" –PoolState FailedOver** to fail over to the mgc backup database.</span></span> <span data-ttu-id="9633a-130">務必確定替代 atl-cs-001.litwareinc.com 的常設聊天室集區的完整的網域名稱。</span><span class="sxs-lookup"><span data-stu-id="9633a-130">Be sure to substitute the fully qualified domain name of your Persistent Chat pool for atl-cs-001.litwareinc.com.</span></span>
     
-    <span data-ttu-id="cc097-131">Mgc 備份資料庫現在是作為主要資料庫。</span><span class="sxs-lookup"><span data-stu-id="cc097-131">The mgc backup database now serves as the primary database.</span></span>
+    <span data-ttu-id="9633a-131">現在 mgc 備份資料庫已是主要資料庫。</span><span class="sxs-lookup"><span data-stu-id="9633a-131">The mgc backup database now serves as the primary database.</span></span>
 
-6.  <span data-ttu-id="cc097-132">在 Lync Server 管理命令介面中，請使用**CsMirrorDatabase** Cmdlet 來為現在作為主要資料庫的備份資料庫建立高可用性鏡像。</span><span class="sxs-lookup"><span data-stu-id="cc097-132">In Lync Server Management Shell, use the **Install-CsMirrorDatabase** cmdlet to establish a high availability mirror for the backup database that now serves as the primary database.</span></span> <span data-ttu-id="cc097-133">使用備份資料庫實例作為主要資料庫，將備份鏡像資料庫實例做為鏡像實例。</span><span class="sxs-lookup"><span data-stu-id="cc097-133">Use the backup database instance as the primary database and the backup mirror database instance as the mirror instance.</span></span> <span data-ttu-id="cc097-134">這與在安裝期間最初為主要資料庫設定的同一個鏡像。</span><span class="sxs-lookup"><span data-stu-id="cc097-134">This is not the same mirror as the one that was initially configured for the primary database during setup.</span></span> <span data-ttu-id="cc097-135">如需詳細資訊，請參閱在 Lync Server 2013 中的 [使用 Lync Server Management Shell Cmdlet][部署 SQL 鏡像以取得後端伺服器高可用性](lync-server-2013-deploying-sql-mirroring-for-back-end-server-high-availability.md)的章節。</span><span class="sxs-lookup"><span data-stu-id="cc097-135">For details, see the section "Using Lync Server Management Shell Cmdlets" in [Deploying SQL mirroring for Back End Server high availability in Lync Server 2013](lync-server-2013-deploying-sql-mirroring-for-back-end-server-high-availability.md).</span></span>
+6.  <span data-ttu-id="9633a-132">在 Lync Server 管理命令介面，使用**Install-csmirrordatabase** cmdlet 來建立備份資料庫中現在做為主要資料庫的高可用性鏡像。</span><span class="sxs-lookup"><span data-stu-id="9633a-132">In Lync Server Management Shell, use the **Install-CsMirrorDatabase** cmdlet to establish a high availability mirror for the backup database that now serves as the primary database.</span></span> <span data-ttu-id="9633a-133">使用備份資料庫執行個體作為主要資料庫，而使用備份鏡像資料庫執行個體作為鏡像執行個體。</span><span class="sxs-lookup"><span data-stu-id="9633a-133">Use the backup database instance as the primary database and the backup mirror database instance as the mirror instance.</span></span> <span data-ttu-id="9633a-134">此鏡像並不是安裝程式期間，最初為主要資料庫設定的鏡像。</span><span class="sxs-lookup"><span data-stu-id="9633a-134">This is not the same mirror as the one that was initially configured for the primary database during setup.</span></span> <span data-ttu-id="9633a-135">如需詳細資訊，請參閱 「 使用 Lync Server 管理命令介面 Cmdlet 」 中[的 Lync Server 2013 中的後端伺服器高可用性部署 SQL 鏡像](lync-server-2013-deploying-sql-mirroring-for-back-end-server-high-availability.md)。</span><span class="sxs-lookup"><span data-stu-id="9633a-135">For details, see the section "Using Lync Server Management Shell Cmdlets" in [Deploying SQL mirroring for Back End Server high availability in Lync Server 2013](lync-server-2013-deploying-sql-mirroring-for-back-end-server-high-availability.md).</span></span>
 
-7.  <span data-ttu-id="cc097-136">設定持續聊天伺服器的使用中伺服器。</span><span class="sxs-lookup"><span data-stu-id="cc097-136">Set the Persistent Chat Server active servers.</span></span> <span data-ttu-id="cc097-137">從 Lync Server 命令 Shell，使用**CsPersistentChatActiveServer** Cmdlet 來設定作用中伺服器的清單。</span><span class="sxs-lookup"><span data-stu-id="cc097-137">From the Lync Server Command Shell, use the **Set-CsPersistentChatActiveServer** cmdlet to set the list of active servers.</span></span>
+7.  <span data-ttu-id="9633a-136">設定作用中 Persistent Chat Server 的伺服器。</span><span class="sxs-lookup"><span data-stu-id="9633a-136">Set the Persistent Chat Server active servers.</span></span> <span data-ttu-id="9633a-137">從 Lync Server 命令介面中，使用**Set-cspersistentchatactiveserver** cmdlet 可設定的作用中的伺服器清單。</span><span class="sxs-lookup"><span data-stu-id="9633a-137">From the Lync Server Command Shell, use the **Set-CsPersistentChatActiveServer** cmdlet to set the list of active servers.</span></span>
     
     <div>
     
 
     > [!IMPORTANT]  
-    > <span data-ttu-id="cc097-138">所有的作用中伺服器都必須位於與新的主資料庫相同的資料中心內，或是在具有低延遲/高頻寬連接的資料中心中。</span><span class="sxs-lookup"><span data-stu-id="cc097-138">All the active servers must be located within the same data center as the new primary database, or in a data center that has a low latency/high bandwidth connection to the database.</span></span>
+    > <span data-ttu-id="9633a-138">所有作用中的伺服器必須位於與新主要資料庫相同的資料中心，或位於具有低延遲/高頻寬資料庫連線的資料中心內。</span><span class="sxs-lookup"><span data-stu-id="9633a-138">All the active servers must be located within the same data center as the new primary database, or in a data center that has a low latency/high bandwidth connection to the database.</span></span>
 
     
     </div>
     
-    <span data-ttu-id="cc097-139">此時，來自持久聊天伺服器主要資料庫的容錯移轉至持續聊天伺服器備份資料庫成功完成。</span><span class="sxs-lookup"><span data-stu-id="cc097-139">At this point, the failover from the Persistent Chat Server primary database to the Persistent Chat Server backup database completes successfully.</span></span>
+    <span data-ttu-id="9633a-139">此時，從常設聊天室伺服器主要資料庫 Persistent Chat Server 的備份資料庫的容錯移轉即可成功完成。</span><span class="sxs-lookup"><span data-stu-id="9633a-139">At this point, the failover from the Persistent Chat Server primary database to the Persistent Chat Server backup database completes successfully.</span></span>
 
 </div>
 

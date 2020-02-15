@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：檢查實體環境
+title: Lync Server 2013： 檢查實體環境
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969582
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8838e5d3dfd1e3590f7988102f187c49114fc233
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6d8838336fbea4f901b763b7ca034f42e957de33
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734003"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043495"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="performing-physical-environmental-checks"></a><span data-ttu-id="37fc9-102">執行實體環境檢查</span><span class="sxs-lookup"><span data-stu-id="37fc9-102">Performing physical environmental checks</span></span>
+# <a name="performing-physical-environmental-checks"></a><span data-ttu-id="540bd-102">執行實體環境檢查</span><span class="sxs-lookup"><span data-stu-id="540bd-102">Performing physical environmental checks</span></span>
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41734003"
 
 <span> </span>
 
-<span data-ttu-id="37fc9-103">_**主題上次修改日期：** 2014-04-30_</span><span class="sxs-lookup"><span data-stu-id="37fc9-103">_**Topic Last Modified:** 2014-04-30_</span></span>
+<span data-ttu-id="540bd-103">_**上次修改主題：** 2014年-04-30_</span><span class="sxs-lookup"><span data-stu-id="540bd-103">_**Topic Last Modified:** 2014-04-30_</span></span>
 
-<span data-ttu-id="37fc9-104">在檢查 Lync Server 2013 部署的效能、可用性及功能前，您應該先檢查實際環境。</span><span class="sxs-lookup"><span data-stu-id="37fc9-104">Before checking the performance, availability, and functionality of the Lync Server 2013 deployment, you should check the physical environment.</span></span> <span data-ttu-id="37fc9-105">例如，伺服器機房溫度可能必須降低，否則可能必須更換網線。</span><span class="sxs-lookup"><span data-stu-id="37fc9-105">For example, the server room temperature might have to be lowered, or a network cable might have to be replaced.</span></span> <span data-ttu-id="37fc9-106">為了獲得最佳結果，請執行下列實際環境檢查：</span><span class="sxs-lookup"><span data-stu-id="37fc9-106">For best results, perform the following physical environmental inspections:</span></span>
+<span data-ttu-id="540bd-104">之前檢查效能、 可用性及 Lync Server 2013 部署的功能，您應該檢查實體環境。</span><span class="sxs-lookup"><span data-stu-id="540bd-104">Before checking the performance, availability, and functionality of the Lync Server 2013 deployment, you should check the physical environment.</span></span> <span data-ttu-id="540bd-105">例如，伺服器可能會有溫度，或網路線可能已被取代。</span><span class="sxs-lookup"><span data-stu-id="540bd-105">For example, the server room temperature might have to be lowered, or a network cable might have to be replaced.</span></span> <span data-ttu-id="540bd-106">為了獲得最佳結果，請執行下列實體環境檢查：</span><span class="sxs-lookup"><span data-stu-id="540bd-106">For best results, perform the following physical environmental inspections:</span></span>
 
-  - <span data-ttu-id="37fc9-107">**物理安全性會測量**   物理安全性保護（例如鎖、門和限制存取的聊天室）必須受到保護。</span><span class="sxs-lookup"><span data-stu-id="37fc9-107">**Physical security measures**   Physical security protection such as locks, doors, and restricted-access rooms must be secured.</span></span> <span data-ttu-id="37fc9-108">檢查是否有任何未經授權且強行強制的專案和裝置損壞跡象。</span><span class="sxs-lookup"><span data-stu-id="37fc9-108">Check for any unauthorized and forced entries and signs of equipment damage.</span></span>
+  - <span data-ttu-id="540bd-107">**實體安全性措施**   實體安全性防護，如鎖定、 門及限制存取聊天室必須受到保護。</span><span class="sxs-lookup"><span data-stu-id="540bd-107">**Physical security measures**   Physical security protection such as locks, doors, and restricted-access rooms must be secured.</span></span> <span data-ttu-id="540bd-108">檢查有任何未經授權和強制項目和設備損毀的徵兆。</span><span class="sxs-lookup"><span data-stu-id="540bd-108">Check for any unauthorized and forced entries and signs of equipment damage.</span></span>
 
-  - <span data-ttu-id="37fc9-109">**溫度與濕度**   高溫、氣流差弱及濕度都可能導致硬體元件過熱。</span><span class="sxs-lookup"><span data-stu-id="37fc9-109">**Temperature and humidity**   High temperature, poor air flow, and humidity can cause hardware components to overheat.</span></span> <span data-ttu-id="37fc9-110">檢查溫度與濕度，以協助確保環境系統（例如加熱與空調）可以在硬體製造商規格中維持可接受的條件和功能。</span><span class="sxs-lookup"><span data-stu-id="37fc9-110">Check temperature and humidity to help to make sure that the environmental systems such as heating and air conditioning can maintain acceptable conditions and function within the hardware manufacturer's specifications.</span></span> <span data-ttu-id="37fc9-111">最近安裝新的裝置時，也請檢查伺服器的空中流程是否不受歡迎且符合製造商的規格。</span><span class="sxs-lookup"><span data-stu-id="37fc9-111">When new equipment has recently been installed, also check that air flow both to and from the servers is unimpeded and meets manufacturer spec.</span></span>
+  - <span data-ttu-id="540bd-109">**溫度和濕度**   高溫、 不佳的空調流程和濕度可能會導致硬體元件，以發出過熱。</span><span class="sxs-lookup"><span data-stu-id="540bd-109">**Temperature and humidity**   High temperature, poor air flow, and humidity can cause hardware components to overheat.</span></span> <span data-ttu-id="540bd-110">請檢查溫度和濕度，有助於確保環境系統如加熱和空調可以維護可接受的條件和硬體製造商規格中的運作。</span><span class="sxs-lookup"><span data-stu-id="540bd-110">Check temperature and humidity to help to make sure that the environmental systems such as heating and air conditioning can maintain acceptable conditions and function within the hardware manufacturer's specifications.</span></span> <span data-ttu-id="540bd-111">當最近已安裝新的設備時，也請檢查空調流程，以及從伺服器是暢行無阻，且符合製造商規格。</span><span class="sxs-lookup"><span data-stu-id="540bd-111">When new equipment has recently been installed, also check that air flow both to and from the servers is unimpeded and meets manufacturer spec.</span></span>
 
-  - <span data-ttu-id="37fc9-112">\*\*\*\*    Lync Server 2013 組織所依賴的裝置和元件是由正常運作的物理網路和相關硬體所組成。</span><span class="sxs-lookup"><span data-stu-id="37fc9-112">**Devices and components**   The Lync Server 2013 organization relies on a functioning physical network and related hardware.</span></span> <span data-ttu-id="37fc9-113">確認路由器、交換器、中樞、物理電纜及連接器都能正常運作。</span><span class="sxs-lookup"><span data-stu-id="37fc9-113">Make sure that routers, switches, hubs, physical cables, and connectors are operational.</span></span>
+  - <span data-ttu-id="540bd-112">**裝置和元件**   Lync Server 2013 組織依賴可正常運作的實體網路和相關的硬體。</span><span class="sxs-lookup"><span data-stu-id="540bd-112">**Devices and components**   The Lync Server 2013 organization relies on a functioning physical network and related hardware.</span></span> <span data-ttu-id="540bd-113">請確定路由器、 交換器、 集線器、 實體纜線和連接器運作正常。</span><span class="sxs-lookup"><span data-stu-id="540bd-113">Make sure that routers, switches, hubs, physical cables, and connectors are operational.</span></span>
 
-<span data-ttu-id="37fc9-114">如何執行這些檢查的詳細資訊，會大大影響您的安裝網站與所選的伺服器硬體。</span><span class="sxs-lookup"><span data-stu-id="37fc9-114">The specifics on how to perform these checks will depend greatly on your installation site and the server hardware that was chosen.</span></span> <span data-ttu-id="37fc9-115">第一次執行此檢查時，請參閱硬體檔，並記下所需的參數以供日後參考。</span><span class="sxs-lookup"><span data-stu-id="37fc9-115">The first time that you perform this check, refer to the hardware documentation and note the desired parameters for future reference.</span></span>
+<span data-ttu-id="540bd-114">如何執行這類檢查特定內容取決於您安裝的網站和所選的伺服器硬體的很大的差異。</span><span class="sxs-lookup"><span data-stu-id="540bd-114">The specifics on how to perform these checks will depend greatly on your installation site and the server hardware that was chosen.</span></span> <span data-ttu-id="540bd-115">第一次您執行這項檢查，請參閱硬體文件，然後記下所需的參數為供日後參考。</span><span class="sxs-lookup"><span data-stu-id="540bd-115">The first time that you perform this check, refer to the hardware documentation and note the desired parameters for future reference.</span></span>
 
-### <a name="desired-server-space-environment"></a><span data-ttu-id="37fc9-116">所需的伺服器空間環境</span><span class="sxs-lookup"><span data-stu-id="37fc9-116">Desired server space environment</span></span>
+### <a name="desired-server-space-environment"></a><span data-ttu-id="540bd-116">想要的伺服器空間環境</span><span class="sxs-lookup"><span data-stu-id="540bd-116">Desired server space environment</span></span>
 
 <table>
 <colgroup>
@@ -56,25 +56,25 @@ ms.locfileid: "41734003"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="37fc9-117">參數</span><span class="sxs-lookup"><span data-stu-id="37fc9-117">Parameter</span></span></th>
-<th><span data-ttu-id="37fc9-118">所需的值或範圍</span><span class="sxs-lookup"><span data-stu-id="37fc9-118">Desired value or range</span></span></th>
+<th><span data-ttu-id="540bd-117">參數</span><span class="sxs-lookup"><span data-stu-id="540bd-117">Parameter</span></span></th>
+<th><span data-ttu-id="540bd-118">所需的值或範圍</span><span class="sxs-lookup"><span data-stu-id="540bd-118">Desired value or range</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="37fc9-119">溫度</span><span class="sxs-lookup"><span data-stu-id="37fc9-119">Temperature</span></span></p></td>
+<td><p><span data-ttu-id="540bd-119">溫度</span><span class="sxs-lookup"><span data-stu-id="540bd-119">Temperature</span></span></p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="37fc9-120">比</span><span class="sxs-lookup"><span data-stu-id="37fc9-120">Humidity</span></span></p></td>
+<td><p><span data-ttu-id="540bd-120">溼度</span><span class="sxs-lookup"><span data-stu-id="540bd-120">Humidity</span></span></p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="37fc9-121">伺服器正面</span><span class="sxs-lookup"><span data-stu-id="37fc9-121">Front of server faces</span></span></p></td>
-<td><p><span data-ttu-id="37fc9-122">[熱通道]/[cold] 通道</span><span class="sxs-lookup"><span data-stu-id="37fc9-122">Hot aisle / cold aisle</span></span></p></td>
+<td><p><span data-ttu-id="540bd-121">前端伺服器所面臨的</span><span class="sxs-lookup"><span data-stu-id="540bd-121">Front of server faces</span></span></p></td>
+<td><p><span data-ttu-id="540bd-122">熱通道 / 冷通道</span><span class="sxs-lookup"><span data-stu-id="540bd-122">Hot aisle / cold aisle</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="37fc9-123">不應對的排出淨空</span><span class="sxs-lookup"><span data-stu-id="37fc9-123">Unimpeded exhaust clearance</span></span></p></td>
+<td><p><span data-ttu-id="540bd-123">暢行無阻的排氣距離</span><span class="sxs-lookup"><span data-stu-id="540bd-123">Unimpeded exhaust clearance</span></span></p></td>
 <td></td>
 </tr>
 </tbody>

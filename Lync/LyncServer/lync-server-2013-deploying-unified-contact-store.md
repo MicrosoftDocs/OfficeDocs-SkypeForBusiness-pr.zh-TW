@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：部署整合連絡人存放區
+title: Lync Server 2013： 部署整合連絡人存放區
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184373
 ms.date: 06/06/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d224ec7a9c452c45f9f3471403301460a2a31cc8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d0e8fe5aaac47ce98cfae1376e83cdea89a4a1af
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740793"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043335"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploying-unified-contact-store-in-lync-server-2013"></a><span data-ttu-id="a374b-102">在 Lync Server 2013 中部署整合連絡人存放區</span><span class="sxs-lookup"><span data-stu-id="a374b-102">Deploying unified contact store in Lync Server 2013</span></span>
+# <a name="deploying-unified-contact-store-in-lync-server-2013"></a><span data-ttu-id="0d1e0-102">部署 Lync Server 2013 中的整合連絡人存放區</span><span class="sxs-lookup"><span data-stu-id="0d1e0-102">Deploying unified contact store in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41740793"
 
 <span> </span>
 
-<span data-ttu-id="a374b-103">_**主題上次修改日期：** 2016-06-06_</span><span class="sxs-lookup"><span data-stu-id="a374b-103">_**Topic Last Modified:** 2016-06-06_</span></span>
+<span data-ttu-id="0d1e0-103">_**主題上次修改日期：** 2016年-06-06_</span><span class="sxs-lookup"><span data-stu-id="0d1e0-103">_**Topic Last Modified:** 2016-06-06_</span></span>
 
-<span data-ttu-id="a374b-104">在 Lync Server 2013 中啟用整合連絡人存放區，不需要任何拓撲設定。</span><span class="sxs-lookup"><span data-stu-id="a374b-104">Enabling unified contact store in Lync Server 2013 does not require any topology settings.</span></span> <span data-ttu-id="a374b-105">為使用者啟用整合連絡人存放區需要下列專案：</span><span class="sxs-lookup"><span data-stu-id="a374b-105">Enabling unified contact store for users requires the following:</span></span>
+<span data-ttu-id="0d1e0-104">啟用 Lync Server 2013 中的整合連絡人存放區不需要任何拓撲設定。</span><span class="sxs-lookup"><span data-stu-id="0d1e0-104">Enabling unified contact store in Lync Server 2013 does not require any topology settings.</span></span> <span data-ttu-id="0d1e0-105">啟用使用者的整合連絡人存放區時，需要執行下列項目：</span><span class="sxs-lookup"><span data-stu-id="0d1e0-105">Enabling unified contact store for users requires the following:</span></span>
 
-  - <span data-ttu-id="a374b-106">已啟用整合連絡人存放區原則（預設為啟用）。</span><span class="sxs-lookup"><span data-stu-id="a374b-106">Unified contact store policy is enabled (default is enabled).</span></span>
+  - <span data-ttu-id="0d1e0-106">啟用整合連絡人存放區原則 (預設為啟用)。</span><span class="sxs-lookup"><span data-stu-id="0d1e0-106">Unified contact store policy is enabled (default is enabled).</span></span>
 
-  - <span data-ttu-id="a374b-107">使用者至少以 Lync 2013 登入一次。</span><span class="sxs-lookup"><span data-stu-id="a374b-107">Users log in with Lync 2013 at least once.</span></span>
+  - <span data-ttu-id="0d1e0-107">使用者登入與 Lync 2013 至少一次。</span><span class="sxs-lookup"><span data-stu-id="0d1e0-107">Users log in with Lync 2013 at least once.</span></span>
 
-<span data-ttu-id="a374b-108">在使用者的連絡人已完成遷移之後，當使用者以 Lync 2013 登入時，該使用者可以從 Lync 2013、Outlook 2013 或 Outlook Web Access 存取及管理其 Lync 連絡人。</span><span class="sxs-lookup"><span data-stu-id="a374b-108">After a user’s contacts have been migrated, which happens automatically when a user logs in with Lync 2013, the user can access and manage their Lync contacts from Lync 2013, Outlook 2013, or Outlook Web Access.</span></span> <span data-ttu-id="a374b-109">使用者不需要登入 Lync 就能從 Outlook 或 Outlook Web Access 管理他們的連絡人。</span><span class="sxs-lookup"><span data-stu-id="a374b-109">The user does not have to be logged in to Lync to manage their contacts from Outlook or Outlook Web Access.</span></span>
+<span data-ttu-id="0d1e0-108">使用者的連絡人已經移轉，當使用者登入 Lync 2013 自動執行之後，使用者可以存取，並從 Lync 2013、 Outlook 2013 或 Outlook Web Access 管理其 Lync 連絡人。</span><span class="sxs-lookup"><span data-stu-id="0d1e0-108">After a user’s contacts have been migrated, which happens automatically when a user logs in with Lync 2013, the user can access and manage their Lync contacts from Lync 2013, Outlook 2013, or Outlook Web Access.</span></span> <span data-ttu-id="0d1e0-109">使用者沒有從 Outlook 或 Outlook Web Access 管理其連絡人的 Lync 登入。</span><span class="sxs-lookup"><span data-stu-id="0d1e0-109">The user does not have to be logged in to Lync to manage their contacts from Outlook or Outlook Web Access.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="a374b-110">如果使用者在遷移之後從 Lync 2010 登入，就可以使用 [連絡人] 和 [群組]，但使用者無法管理（也就是新增、刪除、移動、標記、將或修改）這些連絡人。</span><span class="sxs-lookup"><span data-stu-id="a374b-110">If a user logs in from Lync 2010 after migration, contacts and groups are available and up-to-date, but the user cannot manage (that is, add, delete, move, tag, untag, or modify) those contacts.</span></span>
+> <span data-ttu-id="0d1e0-110">如果使用者從登入 Lync 2010 移轉後，連絡人和群組皆可用且最新狀態，但使用者無法管理 （亦即新增、 刪除、 移動、 標記、 取消標記或修改） 那些連絡人。</span><span class="sxs-lookup"><span data-stu-id="0d1e0-110">If a user logs in from Lync 2010 after migration, contacts and groups are available and up-to-date, but the user cannot manage (that is, add, delete, move, tag, untag, or modify) those contacts.</span></span>
 
 
 
@@ -57,13 +57,13 @@ ms.locfileid: "41740793"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="a374b-111">本節內容</span><span class="sxs-lookup"><span data-stu-id="a374b-111">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="0d1e0-111">本章節內容</span><span class="sxs-lookup"><span data-stu-id="0d1e0-111">In This Section</span></span>
 
-  - [<span data-ttu-id="a374b-112">在 Lync Server 2013 中為使用者啟用整合連絡人存放區</span><span class="sxs-lookup"><span data-stu-id="a374b-112">Enable users for unified contact store in Lync Server 2013</span></span>](lync-server-2013-enable-users-for-unified-contact-store.md)
+  - [<span data-ttu-id="0d1e0-112">啟用使用者的 Lync Server 2013 中整合連絡人存放區</span><span class="sxs-lookup"><span data-stu-id="0d1e0-112">Enable users for unified contact store in Lync Server 2013</span></span>](lync-server-2013-enable-users-for-unified-contact-store.md)
 
-  - [<span data-ttu-id="a374b-113">在 Lync Server 2013 中將使用者移轉到整合的連絡人存放區</span><span class="sxs-lookup"><span data-stu-id="a374b-113">Migrate users to unified contact store in Lync Server 2013</span></span>](lync-server-2013-migrate-users-to-unified-contact-store.md)
+  - [<span data-ttu-id="0d1e0-113">將使用者移轉至 Lync Server 2013 中整合連絡人存放區</span><span class="sxs-lookup"><span data-stu-id="0d1e0-113">Migrate users to unified contact store in Lync Server 2013</span></span>](lync-server-2013-migrate-users-to-unified-contact-store.md)
 
-  - [<span data-ttu-id="a374b-114">在 Lync Server 2013 中復原已移轉的使用者</span><span class="sxs-lookup"><span data-stu-id="a374b-114">Roll back migrated users in Lync Server 2013</span></span>](lync-server-2013-roll-back-migrated-users.md)
+  - [<span data-ttu-id="0d1e0-114">回復移轉 Lync Server 2013 中的使用者</span><span class="sxs-lookup"><span data-stu-id="0d1e0-114">Roll back migrated users in Lync Server 2013</span></span>](lync-server-2013-roll-back-migrated-users.md)
 
 </div>
 

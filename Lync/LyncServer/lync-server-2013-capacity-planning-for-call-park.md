@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：通話駐留的容量規劃
+title: Lync Server 2013： 容量規劃通話駐留
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184529
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dd4cc9d10a3a3562c035c7bc2f64f551b70cc5da
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f1192ef9b5b30c722a4f62973cf4992da3ca7300
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743423"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044175"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="capacity-planning-for-call-park-in-lync-server-2013"></a><span data-ttu-id="b85d9-102">Lync Server 2013 中通話駐留的容量規劃</span><span class="sxs-lookup"><span data-stu-id="b85d9-102">Capacity planning for Call Park in Lync Server 2013</span></span>
+# <a name="capacity-planning-for-call-park-in-lync-server-2013"></a><span data-ttu-id="ce4a6-102">容量規劃的 Lync Server 2013 中的通話駐留</span><span class="sxs-lookup"><span data-stu-id="ce4a6-102">Capacity planning for Call Park in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41743423"
 
 <span> </span>
 
-<span data-ttu-id="b85d9-103">_**主題上次修改日期：** 2012-09-13_</span><span class="sxs-lookup"><span data-stu-id="b85d9-103">_**Topic Last Modified:** 2012-09-13_</span></span>
+<span data-ttu-id="ce4a6-103">_**主題上次修改日期：** 2012年-09-13_</span><span class="sxs-lookup"><span data-stu-id="ce4a6-103">_**Topic Last Modified:** 2012-09-13_</span></span>
 
 <div id="sectionSection0" class="section">
 
-<span data-ttu-id="b85d9-104">下表說明您可以用來做為容量規劃需求基礎的通話駐留使用者模型。</span><span class="sxs-lookup"><span data-stu-id="b85d9-104">The following table describes the Call Park user model that you can use as the basis for capacity planning requirements.</span></span>
+<span data-ttu-id="ce4a6-104">下表說明您可以使用容量規劃需求為基礎的通話駐留使用者模型。</span><span class="sxs-lookup"><span data-stu-id="ce4a6-104">The following table describes the Call Park user model that you can use as the basis for capacity planning requirements.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="b85d9-105">請記住，對於災難復原容量規劃，配對池的每個池都應該能夠處理兩個池中的通話駐留服務的工作負荷。</span><span class="sxs-lookup"><span data-stu-id="b85d9-105">Keep in mind that, for disaster recovery capacity planning, each pool of a paired pool should be able to handle the workloads for Call Park services in both pools.</span></span>
+> <span data-ttu-id="ce4a6-105">請記住，災害復原容量規劃，配對集區的每個集區應該能夠處理兩個集區中的通話駐留服務的工作負載。</span><span class="sxs-lookup"><span data-stu-id="ce4a6-105">Keep in mind that, for disaster recovery capacity planning, each pool of a paired pool should be able to handle the workloads for Call Park services in both pools.</span></span>
 
 
 
 </div>
 
-### <a name="call-park-user-model"></a><span data-ttu-id="b85d9-106">通話駐留使用者模型</span><span class="sxs-lookup"><span data-stu-id="b85d9-106">Call Park User Model</span></span>
+### <a name="call-park-user-model"></a><span data-ttu-id="ce4a6-106">通話駐留使用者模型</span><span class="sxs-lookup"><span data-stu-id="ce4a6-106">Call Park User Model</span></span>
 
 <table>
 <colgroup>
@@ -61,26 +61,26 @@ ms.locfileid: "41743423"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="b85d9-107">衡量</span><span class="sxs-lookup"><span data-stu-id="b85d9-107">Metric</span></span></th>
-<th><span data-ttu-id="b85d9-108">每個前臺端池（含8個前端伺服器）</span><span class="sxs-lookup"><span data-stu-id="b85d9-108">Per Front End pool (with 8 Front End Servers)</span></span></th>
-<th><span data-ttu-id="b85d9-109">每個標準版 server</span><span class="sxs-lookup"><span data-stu-id="b85d9-109">Per Standard Edition server</span></span></th>
+<th><span data-ttu-id="ce4a6-107">評量</span><span class="sxs-lookup"><span data-stu-id="ce4a6-107">Metric</span></span></th>
+<th><span data-ttu-id="ce4a6-108">每個前端集區 （使用 8 前端伺服器）</span><span class="sxs-lookup"><span data-stu-id="ce4a6-108">Per Front End pool (with 8 Front End Servers)</span></span></th>
+<th><span data-ttu-id="ce4a6-109">每個 Standard Edition 伺服器</span><span class="sxs-lookup"><span data-stu-id="ce4a6-109">Per Standard Edition server</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="b85d9-110">公園工資率</span><span class="sxs-lookup"><span data-stu-id="b85d9-110">Park rate</span></span></p></td>
-<td><p><span data-ttu-id="b85d9-111">每分鐘8筆</span><span class="sxs-lookup"><span data-stu-id="b85d9-111">8 per minute</span></span></p></td>
-<td><p><span data-ttu-id="b85d9-112">每分鐘1</span><span class="sxs-lookup"><span data-stu-id="b85d9-112">1 per minute</span></span></p></td>
+<td><p><span data-ttu-id="ce4a6-110">駐留率</span><span class="sxs-lookup"><span data-stu-id="ce4a6-110">Park rate</span></span></p></td>
+<td><p><span data-ttu-id="ce4a6-111">每分鐘 8 個</span><span class="sxs-lookup"><span data-stu-id="ce4a6-111">8 per minute</span></span></p></td>
+<td><p><span data-ttu-id="ce4a6-112">每分鐘 1 個</span><span class="sxs-lookup"><span data-stu-id="ce4a6-112">1 per minute</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b85d9-113">檢索暫停的通話頻率</span><span class="sxs-lookup"><span data-stu-id="b85d9-113">Retrieve parked call rate</span></span></p></td>
-<td><p><span data-ttu-id="b85d9-114">每分鐘8筆</span><span class="sxs-lookup"><span data-stu-id="b85d9-114">8 per minute</span></span></p></td>
-<td><p><span data-ttu-id="b85d9-115">每分鐘1</span><span class="sxs-lookup"><span data-stu-id="b85d9-115">1 per minute</span></span></p></td>
+<td><p><span data-ttu-id="ce4a6-113">擷取駐留通話率</span><span class="sxs-lookup"><span data-stu-id="ce4a6-113">Retrieve parked call rate</span></span></p></td>
+<td><p><span data-ttu-id="ce4a6-114">每分鐘 8 個</span><span class="sxs-lookup"><span data-stu-id="ce4a6-114">8 per minute</span></span></p></td>
+<td><p><span data-ttu-id="ce4a6-115">每分鐘 1 個</span><span class="sxs-lookup"><span data-stu-id="ce4a6-115">1 per minute</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="b85d9-116">平均公園持續時間</span><span class="sxs-lookup"><span data-stu-id="b85d9-116">Average park duration</span></span></p></td>
-<td><p><span data-ttu-id="b85d9-117">60秒</span><span class="sxs-lookup"><span data-stu-id="b85d9-117">60 seconds</span></span></p></td>
-<td><p><span data-ttu-id="b85d9-118">60秒</span><span class="sxs-lookup"><span data-stu-id="b85d9-118">60 seconds</span></span></p></td>
+<td><p><span data-ttu-id="ce4a6-116">平均駐留持續時間</span><span class="sxs-lookup"><span data-stu-id="ce4a6-116">Average park duration</span></span></p></td>
+<td><p><span data-ttu-id="ce4a6-117">60 秒</span><span class="sxs-lookup"><span data-stu-id="ce4a6-117">60 seconds</span></span></p></td>
+<td><p><span data-ttu-id="ce4a6-118">60 秒</span><span class="sxs-lookup"><span data-stu-id="ce4a6-118">60 seconds</span></span></p></td>
 </tr>
 </tbody>
 </table>

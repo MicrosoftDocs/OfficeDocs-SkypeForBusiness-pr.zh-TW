@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：移除網站中的 Kerberos 驗證
+title: Lync Server 2013： 從網站移除 Kerberos 驗證
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184806
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e88f3de6f653354087d1abd0f7884ee09eda2f36
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6546ac3e13795871461dcdd425e96e801ee19e9d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746813"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042905"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="in-lync-server-2013-remove-kerberos-authentication-from-a-site"></a><span data-ttu-id="f26e7-102">在 Lync Server 2013 中從網站移除 Kerberos 驗證</span><span class="sxs-lookup"><span data-stu-id="f26e7-102">In Lync Server 2013 remove Kerberos authentication from a site</span></span>
+# <a name="in-lync-server-2013-remove-kerberos-authentication-from-a-site"></a><span data-ttu-id="7026b-102">Lync Server 2013 中從網站移除 Kerberos 驗證</span><span class="sxs-lookup"><span data-stu-id="7026b-102">In Lync Server 2013 remove Kerberos authentication from a site</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41746813"
 
 <span> </span>
 
-<span data-ttu-id="f26e7-103">_**主題上次修改日期：** 2012-01-16_</span><span class="sxs-lookup"><span data-stu-id="f26e7-103">_**Topic Last Modified:** 2012-01-16_</span></span>
+<span data-ttu-id="7026b-103">_**主題上次修改日期：** 2012年-01-16_</span><span class="sxs-lookup"><span data-stu-id="7026b-103">_**Topic Last Modified:** 2012-01-16_</span></span>
 
-<span data-ttu-id="f26e7-104">若要成功完成此程式，您應該以 RTCUniversalServerAdmins 群組成員的使用者身分登入。</span><span class="sxs-lookup"><span data-stu-id="f26e7-104">To successfully complete this procedure you should be logged on as a user who is a member of the RTCUniversalServerAdmins group.</span></span>
+<span data-ttu-id="7026b-104">若要順利完成此程序，您應以 RTCUniversalServerAdmins 群組成員的使用者身分登入。</span><span class="sxs-lookup"><span data-stu-id="7026b-104">To successfully complete this procedure you should be logged on as a user who is a member of the RTCUniversalServerAdmins group.</span></span>
 
-<span data-ttu-id="f26e7-105">如果您需要從網站移除 Kerberos 驗證或淘汰網站，您必須使用**CsKerberosAccountAssignment** Cmdlet，從網站移除 kerberos 驗證帳戶指派。</span><span class="sxs-lookup"><span data-stu-id="f26e7-105">If you need to remove Kerberos authentication from a site or retire a site, you must remove the Kerberos authentication account assignment from the site by using the **Remove-CsKerberosAccountAssignment** cmdlet.</span></span> <span data-ttu-id="f26e7-106">使用下列程式來移除 Kerberos 驗證帳戶指派，這會從網站中的所有電腦移除作業。</span><span class="sxs-lookup"><span data-stu-id="f26e7-106">Use the following procedure to remove the Kerberos authentication account assignment, which removes the assignment from all computers in the site.</span></span>
+<span data-ttu-id="7026b-105">如果您需要從網站移除 Kerberos 驗證，或淘汰網站，您必須使用**移除 CsKerberosAccountAssignment**指令程式從網站移除 Kerberos 驗證帳戶指派。</span><span class="sxs-lookup"><span data-stu-id="7026b-105">If you need to remove Kerberos authentication from a site or retire a site, you must remove the Kerberos authentication account assignment from the site by using the **Remove-CsKerberosAccountAssignment** cmdlet.</span></span> <span data-ttu-id="7026b-106">使用下列程序來移除從網站中的所有電腦中移除工作分派的 Kerberos 驗證帳戶指派。</span><span class="sxs-lookup"><span data-stu-id="7026b-106">Use the following procedure to remove the Kerberos authentication account assignment, which removes the assignment from all computers in the site.</span></span>
 
 <div class=" ">
 
 
 > [!WARNING]  
-> <span data-ttu-id="f26e7-107">如果您要永久淘汰已啟用 Kerberos 的帳戶，您應該在移除作業之後，使用 Active Directory 使用者和電腦從 Active Directory 網域服務中刪除該帳戶。</span><span class="sxs-lookup"><span data-stu-id="f26e7-107">If you are permanently retiring the Kerberos-enabled account, you should use Active Directory Users and Computers to delete it from Active Directory Domain Services after you have removed the assignment.</span></span> <span data-ttu-id="f26e7-108">如果您打算將來使用該物件，您可能會想要保留 Active Directory 物件。</span><span class="sxs-lookup"><span data-stu-id="f26e7-108">If you plan to use the object in the future, you might want to keep the Active Directory object.</span></span>
+> <span data-ttu-id="7026b-107">如果您永久淘汰的已啟用 Kerberos 的帳戶，您應該使用 Active Directory 使用者及電腦之後您已移除工作分派從 Active Directory 網域服務刪除它。</span><span class="sxs-lookup"><span data-stu-id="7026b-107">If you are permanently retiring the Kerberos-enabled account, you should use Active Directory Users and Computers to delete it from Active Directory Domain Services after you have removed the assignment.</span></span> <span data-ttu-id="7026b-108">如果您打算在未來使用物件，您可能想要保留 Active Directory 物件。</span><span class="sxs-lookup"><span data-stu-id="7026b-108">If you plan to use the object in the future, you might want to keep the Active Directory object.</span></span>
 
 
 
@@ -53,13 +53,13 @@ ms.locfileid: "41746813"
 
 <div>
 
-## <a name="to-remove-kerberos-authentication-from-a-site"></a><span data-ttu-id="f26e7-109">從網站移除 Kerberos 驗證</span><span class="sxs-lookup"><span data-stu-id="f26e7-109">To remove Kerberos authentication from a site</span></span>
+## <a name="to-remove-kerberos-authentication-from-a-site"></a><span data-ttu-id="7026b-109">若要從網站移除 Kerberos 驗證</span><span class="sxs-lookup"><span data-stu-id="7026b-109">To remove Kerberos authentication from a site</span></span>
 
-1.  <span data-ttu-id="f26e7-110">如果您是 RTCUniversalServerAdmins 群組的成員，請登入執行 Lync Server 2013 的網域中的電腦，或登入安裝管理工具的電腦。</span><span class="sxs-lookup"><span data-stu-id="f26e7-110">As a member of the RTCUniversalServerAdmins group, log on to a computer in the domain running Lync Server 2013 or on to a computer where the administrative tools are installed.</span></span>
+1.  <span data-ttu-id="7026b-110">以 RTCUniversalServerAdmins 群組的成員，登入網域中執行 Lync Server 2013 或入已安裝系統管理工具的電腦的電腦。</span><span class="sxs-lookup"><span data-stu-id="7026b-110">As a member of the RTCUniversalServerAdmins group, log on to a computer in the domain running Lync Server 2013 or on to a computer where the administrative tools are installed.</span></span>
 
-2.  <span data-ttu-id="f26e7-111">啟動 Lync Server 管理命令介面：按一下 [**開始**]，按一下 [**所有程式**]，按一下 [ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。</span><span class="sxs-lookup"><span data-stu-id="f26e7-111">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+2.  <span data-ttu-id="7026b-111">啟動 Lync Server 管理命令介面： 按一下 [**開始]**，按一下 [**所有程式]**、 [ **Microsoft Lync Server 2013**]，然後按一下**Lync Server 管理命令介面**。</span><span class="sxs-lookup"><span data-stu-id="7026b-111">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-3.  <span data-ttu-id="f26e7-112">從命令列執行下列兩個命令：</span><span class="sxs-lookup"><span data-stu-id="f26e7-112">From the command line, run the following two commands:</span></span>
+3.  <span data-ttu-id="7026b-112">在命令提示字元中執行下列命令：</span><span class="sxs-lookup"><span data-stu-id="7026b-112">From the command line, run the following two commands:</span></span>
     
        ```PowerShell
         Remove-CsKerberosAccountAssignment -Identity "site:SiteName"
@@ -69,7 +69,7 @@ ms.locfileid: "41746813"
         Enable-CsTopology
        ```
     
-    <span data-ttu-id="f26e7-113">例如：</span><span class="sxs-lookup"><span data-stu-id="f26e7-113">For example:</span></span>
+    <span data-ttu-id="7026b-113">例如：</span><span class="sxs-lookup"><span data-stu-id="7026b-113">For example:</span></span>
     
        ```PowerShell
         Remove-CsKerberosAccountAssignment -Identity "site:Redmond"
@@ -83,7 +83,7 @@ ms.locfileid: "41746813"
     
 
     > [!IMPORTANT]  
-    > <span data-ttu-id="f26e7-114">在對 Kerberos 驗證進行任何變更之後（例如新增帳戶或移除帳戶），您必須從 Lync Server Management Shell 命令提示字元執行<STRONG>Enable-CsTopology</STRONG> 。</span><span class="sxs-lookup"><span data-stu-id="f26e7-114">After making any changes to Kerberos authentication, such as adding an account or removing an account, you must run <STRONG>Enable-CsTopology</STRONG> from the Lync Server Management Shell command prompt.</span></span>
+    > <span data-ttu-id="7026b-114">對 Kerberos 驗證，如新增帳戶或移除帳戶進行任何變更之後您必須從 Lync Server 管理命令介面命令提示字元執行<STRONG>Enable-cstopology</STRONG> 。</span><span class="sxs-lookup"><span data-stu-id="7026b-114">After making any changes to Kerberos authentication, such as adding an account or removing an account, you must run <STRONG>Enable-CsTopology</STRONG> from the Lync Server Management Shell command prompt.</span></span>
 
     
     </div>

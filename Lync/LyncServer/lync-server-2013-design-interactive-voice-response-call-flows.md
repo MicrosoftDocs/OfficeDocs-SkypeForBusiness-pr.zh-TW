@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：設計互動語音回應通話流程
+title: Lync Server 2013： 設計互動式語音回應通話流程
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185826
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dd53ac8d06ec336940abe53d7da1353faf4f9414
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ff6587c2dc70a638d1db670205fb5bfde452e499
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762521"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042150"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="design-interactive-voice-response-call-flows-in-lync-server-2013"></a><span data-ttu-id="fdabd-102">在 Lync Server 2013 中設計互動語音回應系統通話流程</span><span class="sxs-lookup"><span data-stu-id="fdabd-102">Design interactive voice response call flows in Lync Server 2013</span></span>
+# <a name="design-interactive-voice-response-call-flows-in-lync-server-2013"></a><span data-ttu-id="3bdad-102">Lync Server 2013 中設計互動式語音回應通話流程</span><span class="sxs-lookup"><span data-stu-id="3bdad-102">Design interactive voice response call flows in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,107 +35,107 @@ ms.locfileid: "41762521"
 
 <span> </span>
 
-<span data-ttu-id="fdabd-103">_**主題上次修改日期：** 2013-02-25_</span><span class="sxs-lookup"><span data-stu-id="fdabd-103">_**Topic Last Modified:** 2013-02-25_</span></span>
+<span data-ttu-id="3bdad-103">_**上次修改主題：** 2013年-02-25_</span><span class="sxs-lookup"><span data-stu-id="3bdad-103">_**Topic Last Modified:** 2013-02-25_</span></span>
 
-<span data-ttu-id="fdabd-104">您可以使用互動式語音回應（IVR），從來電者取得資訊，並將呼叫定向至適當的佇列。</span><span class="sxs-lookup"><span data-stu-id="fdabd-104">You can use interactive voice response (IVR) to obtain information from callers and direct the call to the appropriate queue.</span></span> <span data-ttu-id="fdabd-105">問題與答案配對決定要使用哪個佇列。</span><span class="sxs-lookup"><span data-stu-id="fdabd-105">Question-and-answer pairs determine which queue to use.</span></span> <span data-ttu-id="fdabd-106">視來電者的回應而定，來電者可能會聽到後續問題，或是路由至適當的佇列。</span><span class="sxs-lookup"><span data-stu-id="fdabd-106">Depending on the caller’s response, the caller either hears a follow-up question, or is routed to the appropriate queue.</span></span> <span data-ttu-id="fdabd-107">IVR 問題與來電者的回應會提供給接受通話的回應代理程式，提供有價值的資訊給代理程式。</span><span class="sxs-lookup"><span data-stu-id="fdabd-107">The IVR questions and the caller’s responses are provided to the responding agent who accepts the call, providing valuable information to the agent.</span></span>
+<span data-ttu-id="3bdad-104">您可以使用互動語音回應 (IVR) 以取得資訊從來電者與適當的佇列將來電導向。</span><span class="sxs-lookup"><span data-stu-id="3bdad-104">You can use interactive voice response (IVR) to obtain information from callers and direct the call to the appropriate queue.</span></span> <span data-ttu-id="3bdad-105">問題和答案配對決定要使用哪一個佇列。</span><span class="sxs-lookup"><span data-stu-id="3bdad-105">Question-and-answer pairs determine which queue to use.</span></span> <span data-ttu-id="3bdad-106">發話者的回應，根據來電者聽到的後續的問題，或路由傳送至適當的佇列。</span><span class="sxs-lookup"><span data-stu-id="3bdad-106">Depending on the caller’s response, the caller either hears a follow-up question, or is routed to the appropriate queue.</span></span> <span data-ttu-id="3bdad-107">時，IVR 問題和來電者的回應會提供給回應的代理程式人員接受來電提供給代理程式的重要資訊。</span><span class="sxs-lookup"><span data-stu-id="3bdad-107">The IVR questions and the caller’s responses are provided to the responding agent who accepts the call, providing valuable information to the agent.</span></span>
 
 <div>
 
-## <a name="overview-of-ivr-features"></a><span data-ttu-id="fdabd-108">IVR 功能概覽</span><span class="sxs-lookup"><span data-stu-id="fdabd-108">Overview of IVR Features</span></span>
+## <a name="overview-of-ivr-features"></a><span data-ttu-id="3bdad-108">IVR 功能概觀</span><span class="sxs-lookup"><span data-stu-id="3bdad-108">Overview of IVR Features</span></span>
 
-<span data-ttu-id="fdabd-109">回應群組應用程式提供的語音辨識和文字轉換語音功能都有26種語言。</span><span class="sxs-lookup"><span data-stu-id="fdabd-109">The Response Group application offers speech recognition and text-to-speech capabilities in 26 languages.</span></span> <span data-ttu-id="fdabd-110">您可以使用文字轉換語音或波形（.wav）或 Windows Media 音訊（.wma）檔案輸入 IVR 問題。</span><span class="sxs-lookup"><span data-stu-id="fdabd-110">You can enter IVR questions using text-to-speech or a wave (.wav) or Windows Media audio (.wma) file.</span></span> <span data-ttu-id="fdabd-111">呼叫者可以使用語音或雙音調 multifrequency （DTMF）回應來回應。</span><span class="sxs-lookup"><span data-stu-id="fdabd-111">Callers can respond by using voice or dual-tone multifrequency (DTMF) responses.</span></span>
+<span data-ttu-id="3bdad-109">回應群組應用程式提供語音辨識及文字轉換語音功能 26 語言。</span><span class="sxs-lookup"><span data-stu-id="3bdad-109">The Response Group application offers speech recognition and text-to-speech capabilities in 26 languages.</span></span> <span data-ttu-id="3bdad-110">您可以輸入使用文字轉語音] 或 wave (.wav) 或 Windows Media 音訊 (.wma) 檔案時，IVR 問題。</span><span class="sxs-lookup"><span data-stu-id="3bdad-110">You can enter IVR questions using text-to-speech or a wave (.wav) or Windows Media audio (.wma) file.</span></span> <span data-ttu-id="3bdad-111">來電者可以使用語音或複頻式訊號 (DTMF) 回應回應。</span><span class="sxs-lookup"><span data-stu-id="3bdad-111">Callers can respond by using voice or dual-tone multifrequency (DTMF) responses.</span></span>
 
-<span data-ttu-id="fdabd-112">互動式工作流程最多可支援兩個層級的問題，每個問題都有四個可能的答案。</span><span class="sxs-lookup"><span data-stu-id="fdabd-112">Interactive workflows support up to two levels of questions, with each question having up to four possible answers.</span></span> <span data-ttu-id="fdabd-113">IVR 會向呼叫者提出問題，視來電者的回應而定，將呼叫者路由至佇列或提出第二個問題。</span><span class="sxs-lookup"><span data-stu-id="fdabd-113">The IVR asks the caller a question, and depending on the caller’s response, routes the caller to a queue or asks a second question.</span></span> <span data-ttu-id="fdabd-114">第二個問題也可能有四個可能的答案。</span><span class="sxs-lookup"><span data-stu-id="fdabd-114">The second question can also have four possible answers.</span></span> <span data-ttu-id="fdabd-115">根據第二層問題的答案而定，來電者會路由至適當的佇列。</span><span class="sxs-lookup"><span data-stu-id="fdabd-115">Depending on the answer to the second-level question, the caller is routed to the appropriate queue.</span></span>
+<span data-ttu-id="3bdad-112">互動工作流程最多支援兩層的問題，而每個問題最多會有四個可能的答案。</span><span class="sxs-lookup"><span data-stu-id="3bdad-112">Interactive workflows support up to two levels of questions, with each question having up to four possible answers.</span></span> <span data-ttu-id="3bdad-113">IVR 詢問來電者的問題，且來電者的回應，根據路由來電者傳送到佇列或詢問的第二個問題。</span><span class="sxs-lookup"><span data-stu-id="3bdad-113">The IVR asks the caller a question, and depending on the caller’s response, routes the caller to a queue or asks a second question.</span></span> <span data-ttu-id="3bdad-114">第二個問題最多也有四個可能的答案。</span><span class="sxs-lookup"><span data-stu-id="3bdad-114">The second question can also have four possible answers.</span></span> <span data-ttu-id="3bdad-115">根據來電者對第二層問題的答案，可將來電者路由傳送到適當的佇列。</span><span class="sxs-lookup"><span data-stu-id="3bdad-115">Depending on the answer to the second-level question, the caller is routed to the appropriate queue.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="fdabd-116">當您使用 Lync Server 管理命令介面設計通話流程時，您可以定義任何數位階層的 IVR 問題及任何數目的答案。</span><span class="sxs-lookup"><span data-stu-id="fdabd-116">When you design call flows by using Lync Server Management Shell, you can define any number levels of IVR questions and any number of answers.</span></span> <span data-ttu-id="fdabd-117">不過，對於呼叫者的可用性，我們建議您不要使用超過三層的問題，每一個都不超過五個答案。</span><span class="sxs-lookup"><span data-stu-id="fdabd-117">However, for caller usability, we recommend that you not use more than three levels of questions, with not more than five answers each.</span></span> <span data-ttu-id="fdabd-118">此外，如果您設計的通話流程中有兩個以上的問題，每個層次都有四個以上的答案，您就無法使用 Lync Server 2013 [控制台] 來編輯通話流程。</span><span class="sxs-lookup"><span data-stu-id="fdabd-118">In addition, if you design a call flow that has more than two levels of questions with more than four answers each, you cannot edit the call flow by using Lync Server 2013 Control Panel.</span></span>
+> <span data-ttu-id="3bdad-116">當您設計通話流程使用 Lync Server 管理命令介面時，您可以定義任何數字的層級的時，IVR 問題和答案的任何數字。</span><span class="sxs-lookup"><span data-stu-id="3bdad-116">When you design call flows by using Lync Server Management Shell, you can define any number levels of IVR questions and any number of answers.</span></span> <span data-ttu-id="3bdad-117">不過，針對來電者可用性，我們建議您使用不超過三個層級的問題，不超過五個解答。</span><span class="sxs-lookup"><span data-stu-id="3bdad-117">However, for caller usability, we recommend that you not use more than three levels of questions, with not more than five answers each.</span></span> <span data-ttu-id="3bdad-118">此外，如果您在設計通話流程具有兩個以上的層級的四個以上解答的問題，您無法使用 Lync Server 2013 Control Panel 編輯通話流程。</span><span class="sxs-lookup"><span data-stu-id="3bdad-118">In addition, if you design a call flow that has more than two levels of questions with more than four answers each, you cannot edit the call flow by using Lync Server 2013 Control Panel.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="fdabd-119">IVR 問題及來電者的回應會提供給接受通話的回應代理程式。</span><span class="sxs-lookup"><span data-stu-id="fdabd-119">The IVR questions and the caller’s responses are provided to the responding agent who accepts the call.</span></span>
-
-</div>
-
-<div>
-
-## <a name="working-with-speech-technologies"></a><span data-ttu-id="fdabd-120">使用語音技術</span><span class="sxs-lookup"><span data-stu-id="fdabd-120">Working with Speech Technologies</span></span>
-
-<span data-ttu-id="fdabd-121">語音技術（例如語音辨識和文字轉換語音）可加強客戶體驗，讓使用者更容易地存取訊號。</span><span class="sxs-lookup"><span data-stu-id="fdabd-121">Speech technologies, such as speech recognition and text-to-speech, can enhance customer experience and let people access information more naturally and effectively.</span></span> <span data-ttu-id="fdabd-122">不過，您可能會有語音引擎無法正確辨識指定文字或使用者語音回應的情況。</span><span class="sxs-lookup"><span data-stu-id="fdabd-122">However, there can be cases where the specified text or the user voice response is not recognized correctly by the speech engine.</span></span> <span data-ttu-id="fdabd-123">例如，"\#" 符號是由文字到語音引擎所轉譯為「數位」一詞。</span><span class="sxs-lookup"><span data-stu-id="fdabd-123">For example, the "\#" symbol is translated by the text-to-speech engine as the word "number."</span></span> <span data-ttu-id="fdabd-124">您可以透過下列方式緩解此問題：</span><span class="sxs-lookup"><span data-stu-id="fdabd-124">This issue can be mitigated by the following:</span></span>
-
-  - <span data-ttu-id="fdabd-125">語音引擎提供給呼叫者五次，回答問題。</span><span class="sxs-lookup"><span data-stu-id="fdabd-125">The speech engine gives the caller five attempts to answer the question.</span></span> <span data-ttu-id="fdabd-126">如果來電者回答的問題不正確（也就是說，答案不是指定的回應），或是根本無法提供答案，則呼叫者會收到另一個回答問題的機會。</span><span class="sxs-lookup"><span data-stu-id="fdabd-126">If the caller answers the question incorrectly (that is, the answer is not one of the specified responses) or does not provide an answer at all, the caller gets another chance to answer the question.</span></span> <span data-ttu-id="fdabd-127">呼叫者有五個嘗試在中斷連線之前回答問題。</span><span class="sxs-lookup"><span data-stu-id="fdabd-127">The caller has five attempts to answer the question before being disconnected.</span></span> <span data-ttu-id="fdabd-128">您可以將 IVR 設定為在每個本機號碼之後，播放自訂的訊息。</span><span class="sxs-lookup"><span data-stu-id="fdabd-128">You can configure the IVR to play a customized message after each caller error.</span></span> <span data-ttu-id="fdabd-129">每次都會重複出現這個問題。</span><span class="sxs-lookup"><span data-stu-id="fdabd-129">The question is repeated each time.</span></span>
-
-  - <span data-ttu-id="fdabd-130">若要將由語音引擎轉譯為回應的環境干擾可能性降至最低，請使用較長的回應。</span><span class="sxs-lookup"><span data-stu-id="fdabd-130">To minimize the potential for ambient noise to be interpreted by the speech engine as a response, use longer responses.</span></span> <span data-ttu-id="fdabd-131">例如，回應應該有一個以上的音節，而且應該會有很大的差異。</span><span class="sxs-lookup"><span data-stu-id="fdabd-131">For example, responses should have more than one syllable and should sound significantly different from each other.</span></span>
-
-  - <span data-ttu-id="fdabd-132">如果您的問題同時具有語音和 DTMF 回應，請使用代表概念的文字（而不是 DTMF 回應）來設定語音回應。</span><span class="sxs-lookup"><span data-stu-id="fdabd-132">If your questions have both speech and DTMF responses, configure the speech responses with words that represent the concept rather than the DTMF response.</span></span> <span data-ttu-id="fdabd-133">例如，請不要使用「按下或說一次」，而是按1或說帳單。」</span><span class="sxs-lookup"><span data-stu-id="fdabd-133">For example, instead of using "Press or say one" use "Press 1 or say billing."</span></span>
-
-  - <span data-ttu-id="fdabd-134">在您設計 IVR 之後，請呼叫工作流程、聆聽提示、使用語音回應每個提示，並確認 IVR 的音效和行為如期運作。</span><span class="sxs-lookup"><span data-stu-id="fdabd-134">After you design your IVR, call the workflow, listen to the prompts, respond to each of the prompts using voice, and verify that the IVR sounds and behaves as expected.</span></span> <span data-ttu-id="fdabd-135">然後，您可以修改 IVR 以修正任何轉譯問題。</span><span class="sxs-lookup"><span data-stu-id="fdabd-135">You can then modify the IVR to fix any interpretation issues.</span></span> <span data-ttu-id="fdabd-136">在前面的範例中，如果您需要參照該\#索引鍵，可以重新寫入 IVR 提示，以使用索引鍵名稱，而不是\#符號。</span><span class="sxs-lookup"><span data-stu-id="fdabd-136">Following the previous example, if you need to refer to the \# key, you can rewrite your IVR prompt to use the key name, rather than the \# symbol.</span></span> <span data-ttu-id="fdabd-137">例如，若要與銷售額交談，請按井號鍵。</span><span class="sxs-lookup"><span data-stu-id="fdabd-137">For example, "To talk to sales, press the pound key."</span></span>
+<span data-ttu-id="3bdad-119">時，IVR 問題和來電者的回應會提供給回應的代理程式接受來電者。</span><span class="sxs-lookup"><span data-stu-id="3bdad-119">The IVR questions and the caller’s responses are provided to the responding agent who accepts the call.</span></span>
 
 </div>
 
 <div>
 
-## <a name="ivr-design-examples"></a><span data-ttu-id="fdabd-138">IVR 設計範例</span><span class="sxs-lookup"><span data-stu-id="fdabd-138">IVR Design Examples</span></span>
+## <a name="working-with-speech-technologies"></a><span data-ttu-id="3bdad-120">使用語音技術</span><span class="sxs-lookup"><span data-stu-id="3bdad-120">Working with Speech Technologies</span></span>
 
-<span data-ttu-id="fdabd-139">下列各節包含不同 IVR 案例與問題與答案組的範例。</span><span class="sxs-lookup"><span data-stu-id="fdabd-139">The following sections contain examples of different IVR scenarios and question-and-answer pairs.</span></span>
+<span data-ttu-id="3bdad-121">語音技術，例如語音辨識及文字轉語音]，可提升客戶體驗和更自然地且有效率地讓人員存取資訊。</span><span class="sxs-lookup"><span data-stu-id="3bdad-121">Speech technologies, such as speech recognition and text-to-speech, can enhance customer experience and let people access information more naturally and effectively.</span></span> <span data-ttu-id="3bdad-122">不過，有時可能的發生其中指定的文字或使用者的語音回應無法識別正確的語音引擎。</span><span class="sxs-lookup"><span data-stu-id="3bdad-122">However, there can be cases where the specified text or the user voice response is not recognized correctly by the speech engine.</span></span> <span data-ttu-id="3bdad-123">例如，"\#」 符號由文字轉換語音引擎轉譯為 word 」 號碼。 」</span><span class="sxs-lookup"><span data-stu-id="3bdad-123">For example, the "\#" symbol is translated by the text-to-speech engine as the word "number."</span></span> <span data-ttu-id="3bdad-124">這個問題，可以藉由下列減輕：</span><span class="sxs-lookup"><span data-stu-id="3bdad-124">This issue can be mitigated by the following:</span></span>
 
-<div>
+  - <span data-ttu-id="3bdad-125">語音引擎可讓來電者五個嘗試回答的問題。</span><span class="sxs-lookup"><span data-stu-id="3bdad-125">The speech engine gives the caller five attempts to answer the question.</span></span> <span data-ttu-id="3bdad-126">如果來電者不正確地回答的問題 （亦即答案不是其中一個指定的回應） 或未提供所有，來電者取得解答若要回答這個問題的機會。</span><span class="sxs-lookup"><span data-stu-id="3bdad-126">If the caller answers the question incorrectly (that is, the answer is not one of the specified responses) or does not provide an answer at all, the caller gets another chance to answer the question.</span></span> <span data-ttu-id="3bdad-127">來電者有五個嘗試回答之前中斷的問題。</span><span class="sxs-lookup"><span data-stu-id="3bdad-127">The caller has five attempts to answer the question before being disconnected.</span></span> <span data-ttu-id="3bdad-128">您可以設定每個來電者錯誤之後播放自訂的訊息 IVR。</span><span class="sxs-lookup"><span data-stu-id="3bdad-128">You can configure the IVR to play a customized message after each caller error.</span></span> <span data-ttu-id="3bdad-129">問題重複每次。</span><span class="sxs-lookup"><span data-stu-id="3bdad-129">The question is repeated each time.</span></span>
 
-## <a name="ivr-with-one-level-of-questions"></a><span data-ttu-id="fdabd-140">包含一層問題的 IVR</span><span class="sxs-lookup"><span data-stu-id="fdabd-140">IVR with One Level of Questions</span></span>
+  - <span data-ttu-id="3bdad-130">若要最小化環境雜訊解譯以回應語音引擎所可能使用較長的回應。</span><span class="sxs-lookup"><span data-stu-id="3bdad-130">To minimize the potential for ambient noise to be interpreted by the speech engine as a response, use longer responses.</span></span> <span data-ttu-id="3bdad-131">例如，回應應有多個音節，而且應該聲音明顯不同於其他每。</span><span class="sxs-lookup"><span data-stu-id="3bdad-131">For example, responses should have more than one syllable and should sound significantly different from each other.</span></span>
 
-<span data-ttu-id="fdabd-141">下列範例顯示使用一層問題的 IVR。</span><span class="sxs-lookup"><span data-stu-id="fdabd-141">The following example shows an IVR that uses one level of questions.</span></span> <span data-ttu-id="fdabd-142">它會使用語音辨識來偵測來電者的回應。</span><span class="sxs-lookup"><span data-stu-id="fdabd-142">It uses speech recognition to detect the caller’s response.</span></span>
+  - <span data-ttu-id="3bdad-132">如果您的問題有語音和 DTMF 回應，設定語音回應含有代表概念的文字，而不是 DTMF 回應。</span><span class="sxs-lookup"><span data-stu-id="3bdad-132">If your questions have both speech and DTMF responses, configure the speech responses with words that represent the concept rather than the DTMF response.</span></span> <span data-ttu-id="3bdad-133">例如，而不是使用 「 按下或說一個 」 使用 「 按 1 或說出帳單。 」</span><span class="sxs-lookup"><span data-stu-id="3bdad-133">For example, instead of using "Press or say one" use "Press 1 or say billing."</span></span>
 
-<span data-ttu-id="fdabd-143">**問題：**「感謝您打電話給人力資源。</span><span class="sxs-lookup"><span data-stu-id="fdabd-143">**Question:** "Thank you for calling Human Resources.</span></span> <span data-ttu-id="fdabd-144">如果您想要與工資單通話，請說出工資。</span><span class="sxs-lookup"><span data-stu-id="fdabd-144">If you would like to speak to payroll, say payroll.</span></span> <span data-ttu-id="fdabd-145">否則請說人力資源。」</span><span class="sxs-lookup"><span data-stu-id="fdabd-145">Otherwise, say HR."</span></span>
-
-  - <span data-ttu-id="fdabd-146">**已選取選項1：** 來電者會傳送給工資小組。</span><span class="sxs-lookup"><span data-stu-id="fdabd-146">**Option 1 is selected:** The caller is routed to the payroll team.</span></span>
-
-  - <span data-ttu-id="fdabd-147">**已選取選項2：** 來電者會傳送給人力資源小組。</span><span class="sxs-lookup"><span data-stu-id="fdabd-147">**Option 2 is selected:** The caller is routed to the human resources team.</span></span>
-
-<span data-ttu-id="fdabd-148">下圖顯示通話流程。</span><span class="sxs-lookup"><span data-stu-id="fdabd-148">The following figure shows the call flow.</span></span>
-
-<span data-ttu-id="fdabd-149">**一對一互動式呼叫流程**</span><span class="sxs-lookup"><span data-stu-id="fdabd-149">**One-level interactive call flow**</span></span>
-
-<span data-ttu-id="fdabd-150">![使用互動語音回應設計通話流程](images/Gg413020.4820a9f7-b5b0-4831-b972-baae0c015ec1(OCS.15).jpg "使用互動語音回應設計通話流程")</span><span class="sxs-lookup"><span data-stu-id="fdabd-150">![Design Call Flows by Using Interactive Voice Respo](images/Gg413020.4820a9f7-b5b0-4831-b972-baae0c015ec1(OCS.15).jpg "Design Call Flows by Using Interactive Voice Respo")</span></span>
+  - <span data-ttu-id="3bdad-134">在設計 ivr 時之後，呼叫工作流程、 聆聽提示、 回應給每個使用語音提示，並確認 IVR 聲音]，並如預期的行為。</span><span class="sxs-lookup"><span data-stu-id="3bdad-134">After you design your IVR, call the workflow, listen to the prompts, respond to each of the prompts using voice, and verify that the IVR sounds and behaves as expected.</span></span> <span data-ttu-id="3bdad-135">然後，您可以修改過 ivr 後修正任何解譯問題。</span><span class="sxs-lookup"><span data-stu-id="3bdad-135">You can then modify the IVR to fix any interpretation issues.</span></span> <span data-ttu-id="3bdad-136">遵循上述範例中，如果您需要參照到\#金鑰]，您可以修正您 IVR 提示字元中使用的索引鍵的名稱，而不是\#符號。</span><span class="sxs-lookup"><span data-stu-id="3bdad-136">Following the previous example, if you need to refer to the \# key, you can rewrite your IVR prompt to use the key name, rather than the \# symbol.</span></span> <span data-ttu-id="3bdad-137">例如，「 按下以講話銷售，請按井字鍵。 」</span><span class="sxs-lookup"><span data-stu-id="3bdad-137">For example, "To talk to sales, press the pound key."</span></span>
 
 </div>
 
 <div>
 
-## <a name="ivr-with-two-levels-of-questions"></a><span data-ttu-id="fdabd-151">IVR 有兩個等級的問題</span><span class="sxs-lookup"><span data-stu-id="fdabd-151">IVR with Two Levels of Questions</span></span>
+## <a name="ivr-design-examples"></a><span data-ttu-id="3bdad-138">IVR 設計範例</span><span class="sxs-lookup"><span data-stu-id="3bdad-138">IVR Design Examples</span></span>
 
-<span data-ttu-id="fdabd-152">下列範例顯示的是使用兩層問題的 IVR。</span><span class="sxs-lookup"><span data-stu-id="fdabd-152">The following example shows an IVR that uses two levels of questions.</span></span> <span data-ttu-id="fdabd-153">它可讓呼叫者使用語音或 DTMF 小鍵盤輸入來回應。</span><span class="sxs-lookup"><span data-stu-id="fdabd-153">It allows callers to respond using either speech or DTMF keypad input.</span></span>
+<span data-ttu-id="3bdad-139">下列各節包含不同 IVR 案例和問題和答案成對的範例。</span><span class="sxs-lookup"><span data-stu-id="3bdad-139">The following sections contain examples of different IVR scenarios and question-and-answer pairs.</span></span>
 
-<span data-ttu-id="fdabd-154">**問題：**「感謝您致電 IT 技術支援人員。</span><span class="sxs-lookup"><span data-stu-id="fdabd-154">**Question:** "Thank you for calling the IT Help Desk.</span></span> <span data-ttu-id="fdabd-155">如果有網路存取問題，請按1或說 [網路]。</span><span class="sxs-lookup"><span data-stu-id="fdabd-155">If you have a network access problem, press 1 or say network.</span></span> <span data-ttu-id="fdabd-156">如果您有軟體問題，請按2或說軟體。</span><span class="sxs-lookup"><span data-stu-id="fdabd-156">If you have a software problem, press 2 or say software.</span></span> <span data-ttu-id="fdabd-157">如果有硬體問題，請按3或說硬體。」</span><span class="sxs-lookup"><span data-stu-id="fdabd-157">If you have a hardware problem, press 3 or say hardware."</span></span>
+<div>
 
-  - <span data-ttu-id="fdabd-158">**已選取選項1：** 來電者會路由至網路支援小組。</span><span class="sxs-lookup"><span data-stu-id="fdabd-158">**Option 1 is selected:** The caller is routed to the network support team.</span></span>
+## <a name="ivr-with-one-level-of-questions"></a><span data-ttu-id="3bdad-140">具有單層問題的 IVR</span><span class="sxs-lookup"><span data-stu-id="3bdad-140">IVR with One Level of Questions</span></span>
 
-  - <span data-ttu-id="fdabd-159">**已選取選項2：** 來電者會問到待處理問題：</span><span class="sxs-lookup"><span data-stu-id="fdabd-159">**Option 2 is selected:** The caller is asked a follow-up question:</span></span>
+<span data-ttu-id="3bdad-141">下列範例會顯示使用單層問題的 IVR。</span><span class="sxs-lookup"><span data-stu-id="3bdad-141">The following example shows an IVR that uses one level of questions.</span></span> <span data-ttu-id="3bdad-142">它會使用語音辨識來偵測發話者的回應。</span><span class="sxs-lookup"><span data-stu-id="3bdad-142">It uses speech recognition to detect the caller’s response.</span></span>
+
+<span data-ttu-id="3bdad-143">**Question:**「 謝謝您呼叫人力資源。</span><span class="sxs-lookup"><span data-stu-id="3bdad-143">**Question:** "Thank you for calling Human Resources.</span></span> <span data-ttu-id="3bdad-144">如果您想要轉接至薪資，說薪資。</span><span class="sxs-lookup"><span data-stu-id="3bdad-144">If you would like to speak to payroll, say payroll.</span></span> <span data-ttu-id="3bdad-145">否則請說出 HR。 」</span><span class="sxs-lookup"><span data-stu-id="3bdad-145">Otherwise, say HR."</span></span>
+
+  - <span data-ttu-id="3bdad-146">**選取選項 1:** 來電者會路由傳送到薪資小組。</span><span class="sxs-lookup"><span data-stu-id="3bdad-146">**Option 1 is selected:** The caller is routed to the payroll team.</span></span>
+
+  - <span data-ttu-id="3bdad-147">**選取選項 2:** 來電者會路由傳送到人力資源小組。</span><span class="sxs-lookup"><span data-stu-id="3bdad-147">**Option 2 is selected:** The caller is routed to the human resources team.</span></span>
+
+<span data-ttu-id="3bdad-148">下圖顯示通話流程。</span><span class="sxs-lookup"><span data-stu-id="3bdad-148">The following figure shows the call flow.</span></span>
+
+<span data-ttu-id="3bdad-149">**單層互動通話流程**</span><span class="sxs-lookup"><span data-stu-id="3bdad-149">**One-level interactive call flow**</span></span>
+
+<span data-ttu-id="3bdad-150">![使用互動語音回應設計通話流程](images/Gg413020.4820a9f7-b5b0-4831-b972-baae0c015ec1(OCS.15).jpg "使用互動語音回應設計通話流程")</span><span class="sxs-lookup"><span data-stu-id="3bdad-150">![Design Call Flows by Using Interactive Voice Respo](images/Gg413020.4820a9f7-b5b0-4831-b972-baae0c015ec1(OCS.15).jpg "Design Call Flows by Using Interactive Voice Respo")</span></span>
+
+</div>
+
+<div>
+
+## <a name="ivr-with-two-levels-of-questions"></a><span data-ttu-id="3bdad-151">具有雙層問題的 IVR</span><span class="sxs-lookup"><span data-stu-id="3bdad-151">IVR with Two Levels of Questions</span></span>
+
+<span data-ttu-id="3bdad-152">下列範例會使用雙層問題的 IVR。</span><span class="sxs-lookup"><span data-stu-id="3bdad-152">The following example shows an IVR that uses two levels of questions.</span></span> <span data-ttu-id="3bdad-153">它可讓來電者使用語音或 DTMF 數字鍵台輸入來回應。</span><span class="sxs-lookup"><span data-stu-id="3bdad-153">It allows callers to respond using either speech or DTMF keypad input.</span></span>
+
+<span data-ttu-id="3bdad-154">**Question:**「 謝謝您致電 IT Help Desk。</span><span class="sxs-lookup"><span data-stu-id="3bdad-154">**Question:** "Thank you for calling the IT Help Desk.</span></span> <span data-ttu-id="3bdad-155">如果您有一個網路存取的問題，請按 1 或說出網路。</span><span class="sxs-lookup"><span data-stu-id="3bdad-155">If you have a network access problem, press 1 or say network.</span></span> <span data-ttu-id="3bdad-156">如果您有軟體發生問題，請按 2 或說出軟體。</span><span class="sxs-lookup"><span data-stu-id="3bdad-156">If you have a software problem, press 2 or say software.</span></span> <span data-ttu-id="3bdad-157">如果您有硬體問題，請按 3 或說出硬體。 」</span><span class="sxs-lookup"><span data-stu-id="3bdad-157">If you have a hardware problem, press 3 or say hardware."</span></span>
+
+  - <span data-ttu-id="3bdad-158">**選取選項 1:** 來電者會路由傳送到網路支援小組。</span><span class="sxs-lookup"><span data-stu-id="3bdad-158">**Option 1 is selected:** The caller is routed to the network support team.</span></span>
+
+  - <span data-ttu-id="3bdad-159">**選取選項 2:** 被詢問來電者後續問題：</span><span class="sxs-lookup"><span data-stu-id="3bdad-159">**Option 2 is selected:** The caller is asked a follow-up question:</span></span>
     
-    <span data-ttu-id="fdabd-160">**問題：**「如果這是作業系統問題，請按1或說作業系統。</span><span class="sxs-lookup"><span data-stu-id="fdabd-160">**Question:** "If this is an operating system problem, press 1 or say operating system.</span></span> <span data-ttu-id="fdabd-161">如果這是內部應用程式的問題，請按2或說出內部應用程式。</span><span class="sxs-lookup"><span data-stu-id="fdabd-161">If this is a problem with an internal application, press 2 or say internal application.</span></span> <span data-ttu-id="fdabd-162">否則，請按3或說 [其他]。</span><span class="sxs-lookup"><span data-stu-id="fdabd-162">Otherwise, press 3 or say other."</span></span>
+    <span data-ttu-id="3bdad-160">**Question:**「 若這是作業系統問題，請按 1 或說作業系統的系統。</span><span class="sxs-lookup"><span data-stu-id="3bdad-160">**Question:** "If this is an operating system problem, press 1 or say operating system.</span></span> <span data-ttu-id="3bdad-161">如果這是內部應用程式有問題，請按 2 或說內部應用程式。</span><span class="sxs-lookup"><span data-stu-id="3bdad-161">If this is a problem with an internal application, press 2 or say internal application.</span></span> <span data-ttu-id="3bdad-162">否則，請按 3 或說出其他。 」</span><span class="sxs-lookup"><span data-stu-id="3bdad-162">Otherwise, press 3 or say other."</span></span>
     
-      - <span data-ttu-id="fdabd-163">**已選取選項1：** 來電者會路由至作業系統支援小組。</span><span class="sxs-lookup"><span data-stu-id="fdabd-163">**Option 1 is selected:** The caller is routed to the operating systems support team.</span></span>
+      - <span data-ttu-id="3bdad-163">**選取選項 1:** 來電者會路由傳送到作業系統支援小組。</span><span class="sxs-lookup"><span data-stu-id="3bdad-163">**Option 1 is selected:** The caller is routed to the operating systems support team.</span></span>
     
-      - <span data-ttu-id="fdabd-164">**已選取選項2：** 來電者會路由到內部應用程式支援小組。</span><span class="sxs-lookup"><span data-stu-id="fdabd-164">**Option 2 is selected:** The caller is routed to the internal applications support team.</span></span>
+      - <span data-ttu-id="3bdad-164">**選取選項 2:** 來電者會路由傳送到內部應用程式支援小組。</span><span class="sxs-lookup"><span data-stu-id="3bdad-164">**Option 2 is selected:** The caller is routed to the internal applications support team.</span></span>
     
-      - <span data-ttu-id="fdabd-165">**已選取選項3：** 來電者會傳送給軟體支援小組。</span><span class="sxs-lookup"><span data-stu-id="fdabd-165">**Option 3 is selected:** The caller is routed to the software support team.</span></span>
+      - <span data-ttu-id="3bdad-165">**選取選項 3:** 來電者會路由傳送到軟體支援小組。</span><span class="sxs-lookup"><span data-stu-id="3bdad-165">**Option 3 is selected:** The caller is routed to the software support team.</span></span>
 
-  - <span data-ttu-id="fdabd-166">**已選取選項3：** 來電者會問到待處理問題：</span><span class="sxs-lookup"><span data-stu-id="fdabd-166">**Option 3 is selected:** The caller is asked a follow-up question:</span></span>
+  - <span data-ttu-id="3bdad-166">**選取選項 3:** 被詢問來電者後續問題：</span><span class="sxs-lookup"><span data-stu-id="3bdad-166">**Option 3 is selected:** The caller is asked a follow-up question:</span></span>
     
-    <span data-ttu-id="fdabd-167">**問題：**「如果這是印表機問題，請按1。</span><span class="sxs-lookup"><span data-stu-id="fdabd-167">**Question:** "If this is a printer problem press 1.</span></span> <span data-ttu-id="fdabd-168">否則，請按2。</span><span class="sxs-lookup"><span data-stu-id="fdabd-168">Otherwise, press 2."</span></span>
+    <span data-ttu-id="3bdad-167">**Question:**「 若這是印表機問題按 1。</span><span class="sxs-lookup"><span data-stu-id="3bdad-167">**Question:** "If this is a printer problem press 1.</span></span> <span data-ttu-id="3bdad-168">否則，請按 2。 」</span><span class="sxs-lookup"><span data-stu-id="3bdad-168">Otherwise, press 2."</span></span>
     
-      - <span data-ttu-id="fdabd-169">**已選取選項1：** 來電者會傳送給印表機支援小組。</span><span class="sxs-lookup"><span data-stu-id="fdabd-169">**Option 1 is selected:** The caller is routed to the printer support team.</span></span>
+      - <span data-ttu-id="3bdad-169">**選取選項 1:** 來電者會路由傳送到印表機支援小組。</span><span class="sxs-lookup"><span data-stu-id="3bdad-169">**Option 1 is selected:** The caller is routed to the printer support team.</span></span>
     
-      - <span data-ttu-id="fdabd-170">**已選取選項2：** 來電者會路由到硬體支援小組。</span><span class="sxs-lookup"><span data-stu-id="fdabd-170">**Option 2 is selected:** The caller is routed to the hardware support team.</span></span>
+      - <span data-ttu-id="3bdad-170">**選取選項 2:** 來電者會路由傳送到硬體支援小組。</span><span class="sxs-lookup"><span data-stu-id="3bdad-170">**Option 2 is selected:** The caller is routed to the hardware support team.</span></span>
 
-<span data-ttu-id="fdabd-171">下圖顯示通話流程。</span><span class="sxs-lookup"><span data-stu-id="fdabd-171">The following figure shows the call flow.</span></span>
+<span data-ttu-id="3bdad-171">下圖顯示通話流程。</span><span class="sxs-lookup"><span data-stu-id="3bdad-171">The following figure shows the call flow.</span></span>
 
-<span data-ttu-id="fdabd-172">**兩層互動式通話流程**</span><span class="sxs-lookup"><span data-stu-id="fdabd-172">**Two-level interactive call flow**</span></span>
+<span data-ttu-id="3bdad-172">**雙層互動通話流程**</span><span class="sxs-lookup"><span data-stu-id="3bdad-172">**Two-level interactive call flow**</span></span>
 
-<span data-ttu-id="fdabd-173">![使用互動語音回應設計通話流程](images/Gg413020.a5b62083-312d-4419-898b-d1a225a5379f(OCS.15).jpg "使用互動語音回應設計通話流程")</span><span class="sxs-lookup"><span data-stu-id="fdabd-173">![Design Call Flows by Using Interactive Voice Respo](images/Gg413020.a5b62083-312d-4419-898b-d1a225a5379f(OCS.15).jpg "Design Call Flows by Using Interactive Voice Respo")</span></span>
+<span data-ttu-id="3bdad-173">![使用互動語音回應設計通話流程](images/Gg413020.a5b62083-312d-4419-898b-d1a225a5379f(OCS.15).jpg "使用互動語音回應設計通話流程")</span><span class="sxs-lookup"><span data-stu-id="3bdad-173">![Design Call Flows by Using Interactive Voice Respo](images/Gg413020.a5b62083-312d-4419-898b-d1a225a5379f(OCS.15).jpg "Design Call Flows by Using Interactive Voice Respo")</span></span>
 
 </div>
 
@@ -143,21 +143,21 @@ ms.locfileid: "41762521"
 
 <div>
 
-## <a name="best-practices"></a><span data-ttu-id="fdabd-174">最佳做法</span><span class="sxs-lookup"><span data-stu-id="fdabd-174">Best Practices</span></span>
+## <a name="best-practices"></a><span data-ttu-id="3bdad-174">最佳做法</span><span class="sxs-lookup"><span data-stu-id="3bdad-174">Best Practices</span></span>
 
-<span data-ttu-id="fdabd-175">下列清單說明設計 IVR 的一些最佳做法：</span><span class="sxs-lookup"><span data-stu-id="fdabd-175">The following list describes some best practices for designing your IVR:</span></span>
+<span data-ttu-id="3bdad-175">下列清單描述設計 ivr 時的一些最佳作法：</span><span class="sxs-lookup"><span data-stu-id="3bdad-175">The following list describes some best practices for designing your IVR:</span></span>
 
-  - <span data-ttu-id="fdabd-176">讓呼叫者快速取得工作。</span><span class="sxs-lookup"><span data-stu-id="fdabd-176">Let the caller get to the task quickly.</span></span> <span data-ttu-id="fdabd-177">避免在您的 IVR 中提供太多的資訊或冗長的行銷訊息。</span><span class="sxs-lookup"><span data-stu-id="fdabd-177">Avoid providing too much information or lengthy marketing messages in your IVR.</span></span>
+  - <span data-ttu-id="3bdad-176">可讓來電者快速進行工作。</span><span class="sxs-lookup"><span data-stu-id="3bdad-176">Let the caller get to the task quickly.</span></span> <span data-ttu-id="3bdad-177">避免提供太多資訊] 或 [在您 IVR 冗長的行銷郵件。</span><span class="sxs-lookup"><span data-stu-id="3bdad-177">Avoid providing too much information or lengthy marketing messages in your IVR.</span></span>
 
-  - <span data-ttu-id="fdabd-178">如果您想要包含較長的訊息，請考慮將它附加到第一個問題，而不是加入 [歡迎使用] 訊息。</span><span class="sxs-lookup"><span data-stu-id="fdabd-178">If you want to include a lengthy message, consider appending it to the first question instead of to the welcome message.</span></span> <span data-ttu-id="fdabd-179">如果您回答的問題是第一個問題的一部分，來電者可以略過這封郵件，但他們無法略過歡迎訊息。</span><span class="sxs-lookup"><span data-stu-id="fdabd-179">Callers can bypass the message if it is part of the first question by answering the question, but they cannot bypass the welcome message.</span></span>
+  - <span data-ttu-id="3bdad-178">如果您想要包含冗長的郵件，請考慮將它附加至第一個問題而不是歡迎訊息。</span><span class="sxs-lookup"><span data-stu-id="3bdad-178">If you want to include a lengthy message, consider appending it to the first question instead of to the welcome message.</span></span> <span data-ttu-id="3bdad-179">如果它屬於第一個問題回答問題，但他們無法略過的歡迎訊息，來電者可以略過郵件。</span><span class="sxs-lookup"><span data-stu-id="3bdad-179">Callers can bypass the message if it is part of the first question by answering the question, but they cannot bypass the welcome message.</span></span>
 
-  - <span data-ttu-id="fdabd-180">在來電者語言中說話。</span><span class="sxs-lookup"><span data-stu-id="fdabd-180">Speak in the caller’s language.</span></span> <span data-ttu-id="fdabd-181">避免 stilted 語言。</span><span class="sxs-lookup"><span data-stu-id="fdabd-181">Avoid stilted language.</span></span> <span data-ttu-id="fdabd-182">自然說話。</span><span class="sxs-lookup"><span data-stu-id="fdabd-182">Speak naturally.</span></span>
+  - <span data-ttu-id="3bdad-180">說話發話者的語言。</span><span class="sxs-lookup"><span data-stu-id="3bdad-180">Speak in the caller’s language.</span></span> <span data-ttu-id="3bdad-181">避免 stilted 的語言。</span><span class="sxs-lookup"><span data-stu-id="3bdad-181">Avoid stilted language.</span></span> <span data-ttu-id="3bdad-182">自然地使用。</span><span class="sxs-lookup"><span data-stu-id="3bdad-182">Speak naturally.</span></span>
 
-  - <span data-ttu-id="fdabd-183">撰寫高效且有效的提示。</span><span class="sxs-lookup"><span data-stu-id="fdabd-183">Write efficient and effective prompts.</span></span> <span data-ttu-id="fdabd-184">移除任何不必要的選項。</span><span class="sxs-lookup"><span data-stu-id="fdabd-184">Remove any unnecessary options.</span></span> <span data-ttu-id="fdabd-185">構造資訊，讓來電者預期的回應在句子的結尾。</span><span class="sxs-lookup"><span data-stu-id="fdabd-185">Structure the information so that the caller’s expected response is at the end of the sentence.</span></span> <span data-ttu-id="fdabd-186">例如，「若要與銷售團隊通話，請按1。」</span><span class="sxs-lookup"><span data-stu-id="fdabd-186">For example, “To speak to the sales team, press 1."</span></span>
+  - <span data-ttu-id="3bdad-183">寫入最快速且有效的提示。</span><span class="sxs-lookup"><span data-stu-id="3bdad-183">Write efficient and effective prompts.</span></span> <span data-ttu-id="3bdad-184">移除不必要的任何選項。</span><span class="sxs-lookup"><span data-stu-id="3bdad-184">Remove any unnecessary options.</span></span> <span data-ttu-id="3bdad-185">結構資訊，讓來電者的預期回應是句子的結尾。</span><span class="sxs-lookup"><span data-stu-id="3bdad-185">Structure the information so that the caller’s expected response is at the end of the sentence.</span></span> <span data-ttu-id="3bdad-186">例如，「 轉接至業務小組，請按 1 」。</span><span class="sxs-lookup"><span data-stu-id="3bdad-186">For example, “To speak to the sales team, press 1."</span></span>
 
-  - <span data-ttu-id="fdabd-187">讓語音回復使用者更容易。</span><span class="sxs-lookup"><span data-stu-id="fdabd-187">Make voice responses user friendly.</span></span> <span data-ttu-id="fdabd-188">例如，如果您指定 DTMF 和語音回應，請使用如下所示的內容：「若要與銷售團隊進行通話，請按1或說出銷售。」</span><span class="sxs-lookup"><span data-stu-id="fdabd-188">For example, if you specify both DTMF and voice responses, use something like: "To speak to the sales team, press 1 or say sales."</span></span>
+  - <span data-ttu-id="3bdad-187">使語音回應使用者易記。</span><span class="sxs-lookup"><span data-stu-id="3bdad-187">Make voice responses user friendly.</span></span> <span data-ttu-id="3bdad-188">例如，如果您指定 DTMF 和語音回應，使用類似下面的內容: 「 以轉接至業務小組，請按 1 或說出銷售 」。</span><span class="sxs-lookup"><span data-stu-id="3bdad-188">For example, if you specify both DTMF and voice responses, use something like: "To speak to the sales team, press 1 or say sales."</span></span>
 
-  - <span data-ttu-id="fdabd-189">在您的組織中部署使用者群組之前，請先測試一組使用者的 IVR。</span><span class="sxs-lookup"><span data-stu-id="fdabd-189">Test the IVR on a group of users before you deploy it across your organization.</span></span>
+  - <span data-ttu-id="3bdad-189">整個組織部署之前，請測試過 ivr 後的使用者群組。</span><span class="sxs-lookup"><span data-stu-id="3bdad-189">Test the IVR on a group of users before you deploy it across your organization.</span></span>
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：使用監視報告
+title: Lync Server 2013： 使用監控報告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184480
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5662ba6df2f270355a3c7f7532c3283cc033d73d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c37cd0f96ea0dd8e3fa63a851c3c93caf5988c7d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744063"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044275"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="using-monitoring-reports-in-lync-server-2013"></a><span data-ttu-id="2dddd-102">在 Lync Server 2013 中使用監視報告</span><span class="sxs-lookup"><span data-stu-id="2dddd-102">Using Monitoring Reports in Lync Server 2013</span></span>
+# <a name="using-monitoring-reports-in-lync-server-2013"></a><span data-ttu-id="bf932-102">Lync Server 2013 中使用監控報告</span><span class="sxs-lookup"><span data-stu-id="bf932-102">Using Monitoring Reports in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,77 +35,77 @@ ms.locfileid: "41744063"
 
 <span> </span>
 
-<span data-ttu-id="2dddd-103">_**主題上次修改日期：** 2012-10-21_</span><span class="sxs-lookup"><span data-stu-id="2dddd-103">_**Topic Last Modified:** 2012-10-21_</span></span>
+<span data-ttu-id="bf932-103">_**主題上次修改日期：** 2012年-10-21_</span><span class="sxs-lookup"><span data-stu-id="bf932-103">_**Topic Last Modified:** 2012-10-21_</span></span>
 
-<span data-ttu-id="2dddd-104">Lync Server 2013 包含一組 Microsoft SQL Server Reporting Services 發佈的標準報告。</span><span class="sxs-lookup"><span data-stu-id="2dddd-104">Lync Server 2013 includes a set of standard reports that are published by Microsoft SQL Server Reporting Service.</span></span> <span data-ttu-id="2dddd-105">這些報表可透過網頁瀏覽器存取，提供使用方式、呼叫診斷資訊和媒體質量資訊，所有這些都是以呼叫詳細資料錄製（CDR）以及儲存在 CDR 和 QoE 資料庫的體驗品質（QoE）記錄為基礎。</span><span class="sxs-lookup"><span data-stu-id="2dddd-105">These reports, which are accessible by using a web browser, provide usage, call diagnostic information, and media quality information, all based on call detail recording (CDR) and Quality of Experience (QoE) records stored in the CDR and QoE databases.</span></span>
+<span data-ttu-id="bf932-104">Lync Server 2013 包含一組標準發佈的 Microsoft SQL Server Reporting Service 的報告。</span><span class="sxs-lookup"><span data-stu-id="bf932-104">Lync Server 2013 includes a set of standard reports that are published by Microsoft SQL Server Reporting Service.</span></span> <span data-ttu-id="bf932-105">這些可透過網頁瀏覽器存取的報告，會根據詳細通話記錄 (CDR) 和經驗品質 (QoE) 資料庫中儲存的 CDR 和 QoE 記錄，提供使用情況、通話診斷資訊況及媒體品質資訊。</span><span class="sxs-lookup"><span data-stu-id="bf932-105">These reports, which are accessible by using a web browser, provide usage, call diagnostic information, and media quality information, all based on call detail recording (CDR) and Quality of Experience (QoE) records stored in the CDR and QoE databases.</span></span>
 
-<span data-ttu-id="2dddd-106">若要使用這些報告，您必須在執行 SQL Server 實例的電腦上安裝 [監視報告]。</span><span class="sxs-lookup"><span data-stu-id="2dddd-106">In order to use these reports, you must install Monitoring Reports on a computer that is running an instance of the SQL Server.</span></span>
+<span data-ttu-id="bf932-106">才能使用這些報告，您必須執行 SQL Server 執行個體的電腦上安裝監控報告。</span><span class="sxs-lookup"><span data-stu-id="bf932-106">In order to use these reports, you must install Monitoring Reports on a computer that is running an instance of the SQL Server.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="2dddd-107">本節內容</span><span class="sxs-lookup"><span data-stu-id="2dddd-107">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="bf932-107">本章節內容</span><span class="sxs-lookup"><span data-stu-id="bf932-107">In This Section</span></span>
 
-  - <span data-ttu-id="2dddd-108">[使用 Lync Server 2013](lync-server-2013-using-the-monitoring-dashboard.md)   中的 [監視儀表板]，可讓系統管理員快速瞭解其系統健康情況與系統使用量。</span><span class="sxs-lookup"><span data-stu-id="2dddd-108">[Using the Monitoring Dashboard in Lync Server 2013](lync-server-2013-using-the-monitoring-dashboard.md)   Provides administrators with a quick overview of their system health and system usage.</span></span>
+  - <span data-ttu-id="bf932-108">[在 Lync Server 2013 中使用監控儀表板](lync-server-2013-using-the-monitoring-dashboard.md)   提供系統管理員其系統運作情況與系統使用狀況的快速概觀。</span><span class="sxs-lookup"><span data-stu-id="bf932-108">[Using the Monitoring Dashboard in Lync Server 2013](lync-server-2013-using-the-monitoring-dashboard.md)   Provides administrators with a quick overview of their system health and system usage.</span></span>
 
-  - <span data-ttu-id="2dddd-109">[Lync server 2013](lync-server-2013-system-usage-reports.md)   中的系統使用量報告可根據 Lync Server 所收集的 CDR 資料，提供系統使用量資訊。</span><span class="sxs-lookup"><span data-stu-id="2dddd-109">[System usage reports in Lync Server 2013](lync-server-2013-system-usage-reports.md)   Provides system usage information based on CDR data collected by Lync Server.</span></span>
+  - <span data-ttu-id="bf932-109">[Lync Server 2013 中的系統使用量報告](lync-server-2013-system-usage-reports.md)   提供 Lync Server 所收集的 CDR 資料為基礎的系統使用狀況資訊。</span><span class="sxs-lookup"><span data-stu-id="bf932-109">[System usage reports in Lync Server 2013](lync-server-2013-system-usage-reports.md)   Provides system usage information based on CDR data collected by Lync Server.</span></span>
 
-  - <span data-ttu-id="2dddd-110">[在 Lync Server 2013](lync-server-2013-call-diagnostic-reports-per-user.md)   中呼叫診斷報告（每位使用者）可提供對點對點與會議會話失敗的每使用者資訊。</span><span class="sxs-lookup"><span data-stu-id="2dddd-110">[Call Diagnostic Reports (per user) in Lync Server 2013](lync-server-2013-call-diagnostic-reports-per-user.md)   Provides per-user information about failed peer-to-peer and conferencing sessions.</span></span>
+  - <span data-ttu-id="bf932-110">[Lync Server 2013 中 call Diagnostic Reports (per user)](lync-server-2013-call-diagnostic-reports-per-user.md)   提供每位使用者失敗的對等和會議工作階段的資訊。</span><span class="sxs-lookup"><span data-stu-id="bf932-110">[Call Diagnostic Reports (per user) in Lync Server 2013](lync-server-2013-call-diagnostic-reports-per-user.md)   Provides per-user information about failed peer-to-peer and conferencing sessions.</span></span>
 
-  - <span data-ttu-id="2dddd-111">[在 Lync Server 2013](lync-server-2013-call-diagnostic-reports.md)   中呼叫診斷報告，可提供失敗對等與會議會話的摘要資訊與診斷資料。</span><span class="sxs-lookup"><span data-stu-id="2dddd-111">[Call Diagnostic Reports in Lync Server 2013](lync-server-2013-call-diagnostic-reports.md)   Provides summary information and diagnostic data for failed peer-to-peer and conferencing sessions.</span></span>
+  - <span data-ttu-id="bf932-111">[Lync Server 2013 中通話診斷報告](lync-server-2013-call-diagnostic-reports.md)   失敗的對等和會議工作階段提供摘要資訊與診斷資料。</span><span class="sxs-lookup"><span data-stu-id="bf932-111">[Call Diagnostic Reports in Lync Server 2013](lync-server-2013-call-diagnostic-reports.md)   Provides summary information and diagnostic data for failed peer-to-peer and conferencing sessions.</span></span>
 
-  - <span data-ttu-id="2dddd-112">[Lync Server 2013](lync-server-2013-media-quality-diagnostic-reports.md)   中的媒體質量診斷報告提供通話品質的相關資訊，以及失敗通話的診斷與疑難排解資訊。</span><span class="sxs-lookup"><span data-stu-id="2dddd-112">[Media Quality Diagnostic Reports in Lync Server 2013](lync-server-2013-media-quality-diagnostic-reports.md)   Provides information about call quality as well as diagnostic and troubleshooting information for failed calls.</span></span>
+  - <span data-ttu-id="bf932-112">[Lync Server 2013 中的媒體品質診斷報告](lync-server-2013-media-quality-diagnostic-reports.md)   提供通話品質的相關資訊以及失敗通話的診斷與疑難排解資訊。</span><span class="sxs-lookup"><span data-stu-id="bf932-112">[Media Quality Diagnostic Reports in Lync Server 2013](lync-server-2013-media-quality-diagnostic-reports.md)   Provides information about call quality as well as diagnostic and troubleshooting information for failed calls.</span></span>
 
 </div>
 
 <div>
 
-## <a name="locating-records"></a><span data-ttu-id="2dddd-113">尋找記錄</span><span class="sxs-lookup"><span data-stu-id="2dddd-113">Locating Records</span></span>
+## <a name="locating-records"></a><span data-ttu-id="bf932-113">找出記錄</span><span class="sxs-lookup"><span data-stu-id="bf932-113">Locating Records</span></span>
 
-<span data-ttu-id="2dddd-114">監視報告只會在任何時間顯示畫面上有限數量的記錄。</span><span class="sxs-lookup"><span data-stu-id="2dddd-114">Monitoring Reports only show a limited number of records on the screen at any one time.</span></span> <span data-ttu-id="2dddd-115">顯示在螢幕上的實際記錄數會依報表而有所不同。</span><span class="sxs-lookup"><span data-stu-id="2dddd-115">The actual number of records displayed on a screen varies depending on the report.</span></span> <span data-ttu-id="2dddd-116">若要查看目前未顯示在螢幕上的記錄，您可以使用 [標準前向] 和 [向後] 控制（可在每個報表的工具列上找到），讓您可以分頁流覽資料。</span><span class="sxs-lookup"><span data-stu-id="2dddd-116">To view the records that are not currently shown on the screen you can use the standard forward and backward control (found on each report’s toolbar) that enable you to page through the data.</span></span> <span data-ttu-id="2dddd-117">您也可以快速跳至資料集的第一頁或最後一頁。</span><span class="sxs-lookup"><span data-stu-id="2dddd-117">You can also quickly jump to the first page or the last page of the dataset.</span></span>
+<span data-ttu-id="bf932-p102">監控報告每次只會在螢幕上顯示一小部分的記錄。螢幕上實際顯示的記錄數量會依報告而異。若要檢視螢幕上未顯示的記錄，可使用標準的上一頁和下一頁控制項 (在每份報告的工具列上) 來翻閱資料。您也可以快速跳至資料集的第一頁或最後一頁。</span><span class="sxs-lookup"><span data-stu-id="bf932-p102">Monitoring Reports only show a limited number of records on the screen at any one time. The actual number of records displayed on a screen varies depending on the report. To view the records that are not currently shown on the screen you can use the standard forward and backward control (found on each report’s toolbar) that enable you to page through the data. You can also quickly jump to the first page or the last page of the dataset.</span></span>
 
-<span data-ttu-id="2dddd-118">除了使用向前和向後控制項之外，您也可以直接在 [**目前頁面**] 方塊中輸入頁碼，然後按 enter 鍵，跳至資料集中的任何頁面。</span><span class="sxs-lookup"><span data-stu-id="2dddd-118">In addition to using the forward and backward controls, you can also jump to any page in the dataset simply by typing the page number in the **Current Page** box, and then press ENTER.</span></span>
+<span data-ttu-id="bf932-118">除了使用上一頁和下一頁控制項外，只要在 **[目前頁面]** 方塊中鍵入頁碼再按 ENTER 鍵，就可跳至資料集的任何一頁。</span><span class="sxs-lookup"><span data-stu-id="bf932-118">In addition to using the forward and backward controls, you can also jump to any page in the dataset simply by typing the page number in the **Current Page** box, and then press ENTER.</span></span>
 
-<span data-ttu-id="2dddd-119">除了提供頁面流覽資料的功能之外，每個報告也包含尋找記錄的有限能力。</span><span class="sxs-lookup"><span data-stu-id="2dddd-119">In addition to providing the ability to page through the data, each report also includes the limited ability to find records.</span></span> <span data-ttu-id="2dddd-120">若要尋找以特定值為基礎的記錄，請在 [**尋找**] 方塊中輸入該值，然後按一下 [**尋找**]。</span><span class="sxs-lookup"><span data-stu-id="2dddd-120">To find records based on a given value, type that value into the **Find** box, and then click **Find**.</span></span> <span data-ttu-id="2dddd-121">報告會開始搜尋資料，並停止在您在 [**尋找**] 方塊中輸入之值的第一個實例。</span><span class="sxs-lookup"><span data-stu-id="2dddd-121">The report begins searching through the data and stops on the first instance of the value that you entered in the **Find** box.</span></span> <span data-ttu-id="2dddd-122">若要尋找符合搜尋準則的下一筆記錄，請按 **[下一步]**。</span><span class="sxs-lookup"><span data-stu-id="2dddd-122">To find the next record that meets the search criteria, click **Next**.</span></span>
+<span data-ttu-id="bf932-p103">除了翻閱資料的功能外，每份報告也提供有限的記錄尋找功能。若要依指定的值來尋找記錄，請在 **[尋找]** 方塊中鍵入指定值，然後按一下 **[尋找]**。接著報告即會開始搜尋資料，並會停在符合 **[尋找]** 方塊輸入值的第一筆記錄上，若要尋找下一筆符合搜尋條件的記錄，請按 **[下一筆]**。</span><span class="sxs-lookup"><span data-stu-id="bf932-p103">In addition to providing the ability to page through the data, each report also includes the limited ability to find records. To find records based on a given value, type that value into the **Find** box, and then click **Find**. The report begins searching through the data and stops on the first instance of the value that you entered in the **Find** box. To find the next record that meets the search criteria, click **Next**.</span></span>
 
-<span data-ttu-id="2dddd-123">如所述，監視報告只提供最基本的搜尋功能。</span><span class="sxs-lookup"><span data-stu-id="2dddd-123">As noted, the Monitoring Reports provide only the most basic search functions.</span></span> <span data-ttu-id="2dddd-124">例如，您無法指定應該在哪個欄位中找到值。</span><span class="sxs-lookup"><span data-stu-id="2dddd-124">For example, you cannot specify which field the value should be found in.</span></span> <span data-ttu-id="2dddd-125">[搜尋] 機制會自動在每一筆記錄的每個欄位中搜尋相符的值。</span><span class="sxs-lookup"><span data-stu-id="2dddd-125">The search mechanism automatically searches for matching values in every field in every record.</span></span> <span data-ttu-id="2dddd-126">您無法在搜尋中使用萬用字元，且所有搜尋都會尋找部分值。</span><span class="sxs-lookup"><span data-stu-id="2dddd-126">You cannot use wildcards in your searches, and all searches look for partial values.</span></span> <span data-ttu-id="2dddd-127">如此一來，如果您搜尋111，搜尋會傳回值111，以及在該欄位內任何位置都包含 value 3112 的值11100、811、111、611A5B 及任何其他欄位。</span><span class="sxs-lookup"><span data-stu-id="2dddd-127">That means that if you search for 111 the search returns the value 111 along with the values 11100, 811, 3112, 611A5B, and any other fields that include the value 111 anywhere within that field.</span></span>
+<span data-ttu-id="bf932-p104">如前所述，監控報告只提供最基本的搜尋功能。例如，您無法指定要在哪一個欄位內搜尋值。此搜尋機制會自動在所有記錄的所有欄位中搜尋符合的值。搜尋中不能使用萬用字元，且每筆搜尋都會找出部分符合的結果。也就是說，如果您搜尋 111，將不只會找到數值 111，也會找到 11100、811、3112、611A5B 以及任何其他含有數值 111 的欄位 (無論出現在欄位的任何地方)。</span><span class="sxs-lookup"><span data-stu-id="bf932-p104">As noted, the Monitoring Reports provide only the most basic search functions. For example, you cannot specify which field the value should be found in. The search mechanism automatically searches for matching values in every field in every record. You cannot use wildcards in your searches, and all searches look for partial values. That means that if you search for 111 the search returns the value 111 along with the values 11100, 811, 3112, 611A5B, and any other fields that include the value 111 anywhere within that field.</span></span>
 
-<span data-ttu-id="2dddd-128">每個報告都設定為顯示一組預設的記錄。</span><span class="sxs-lookup"><span data-stu-id="2dddd-128">Each report is configured to show a default set of records.</span></span> <span data-ttu-id="2dddd-129">例如，根據預設，[使用者註冊] 報告會顯示上周的使用者註冊活動。</span><span class="sxs-lookup"><span data-stu-id="2dddd-129">For example, by default the User Registration Report shows user registration activities for the past week.</span></span> <span data-ttu-id="2dddd-130">在某些情況下，這可能會導致不會傳回任何記錄的報表。</span><span class="sxs-lookup"><span data-stu-id="2dddd-130">In some cases, this might result in a report that returns no records.</span></span> <span data-ttu-id="2dddd-131">在這種情況下，這表示上周不會發生任何使用者註冊。</span><span class="sxs-lookup"><span data-stu-id="2dddd-131">In this case, it means that no user registrations have taken place in the past week.</span></span> <span data-ttu-id="2dddd-132">如果您看到「沒有結果符合報表篩選」的訊息，請嘗試變更篩選值（例如，將時段變更為 [上個月]，而非上周），然後重新執行查詢。</span><span class="sxs-lookup"><span data-stu-id="2dddd-132">If you see the message “No results match the report filters,” try changing the filter values (for example, change the time period to the past month rather than the past week) and rerun the query.</span></span> <span data-ttu-id="2dddd-133">如需詳細資訊，請參閱本主題稍後的「篩選資料」一節。</span><span class="sxs-lookup"><span data-stu-id="2dddd-133">For details, see the "Filtering Data" section later in this topic.</span></span>
-
-</div>
-
-<div>
-
-## <a name="filtering-data"></a><span data-ttu-id="2dddd-134">篩選資料</span><span class="sxs-lookup"><span data-stu-id="2dddd-134">Filtering Data</span></span>
-
-<span data-ttu-id="2dddd-135">有時候，您可能會想要只查看記錄的子集。</span><span class="sxs-lookup"><span data-stu-id="2dddd-135">There will likely be times when you want to look at only a subset of records.</span></span> <span data-ttu-id="2dddd-136">例如，只有點對點工作階段，而不是點對點工作階段與會議會話。</span><span class="sxs-lookup"><span data-stu-id="2dddd-136">For example, only peer-to-peer sessions as opposed to both peer-to-peer sessions and conference sessions.</span></span> <span data-ttu-id="2dddd-137">同樣地，您也需要減少傳回的記錄數。</span><span class="sxs-lookup"><span data-stu-id="2dddd-137">Likewise, there will be times when you need to reduce the number of records that are returned.</span></span> <span data-ttu-id="2dddd-138">根據預設，報告只能顯示資料集中的前1000筆記錄。</span><span class="sxs-lookup"><span data-stu-id="2dddd-138">By default, a report can only display the first 1,000 records in a data set.</span></span> <span data-ttu-id="2dddd-139">為了解決這些問題，大多數報表都包含許多篩選選項。</span><span class="sxs-lookup"><span data-stu-id="2dddd-139">To address these issues, most reports include a number of filtering options.</span></span> <span data-ttu-id="2dddd-140">例如，如果您只想要查看2011年1月1日到2011日的記錄，您可以在 [收件者] 方塊中輸入 [年1月 2011 1 日]，在 **[收\*\*\*\*件**者] 方塊中輸入1月 2011 15 日。</span><span class="sxs-lookup"><span data-stu-id="2dddd-140">For example, if you want to view only records for the time period January 1, 2011 through January 15, 2011, you can enter January 1, 2011 in the **From** box and January 15, 2011 in the **To** box.</span></span> <span data-ttu-id="2dddd-141">如果您接著按一下 [**查看報表**]，則傳回的資料會限制在2011年1月1日到2011年1月15日之間發生的活動。</span><span class="sxs-lookup"><span data-stu-id="2dddd-141">If you then click **View Report**, the returned data will be limited to activities that took place between January 1, 2011 and January 15, 2011.</span></span>
-
-<span data-ttu-id="2dddd-142">您可使用的篩選依據您所查看的報表而有所不同。</span><span class="sxs-lookup"><span data-stu-id="2dddd-142">The filters available to you vary depending on the report that you are viewing.</span></span> <span data-ttu-id="2dddd-143">如需特定報告的詳細資訊，請參閱該報告的 [說明] 主題。</span><span class="sxs-lookup"><span data-stu-id="2dddd-143">For details about a specific report, see the help topic for that report.</span></span>
+<span data-ttu-id="bf932-p105">每份報告會顯示的記錄都是預先設定好的。例如，使用者註冊報告預設會顯示過去一星期使用者的註冊活動。某些情況下，這可能會導致報告沒有傳回任何結果。以這個案例來說，就代表過去一星期內沒有任何使用者註冊活動發生。若您看見「沒有結果符合報告篩選」訊息，請嘗試變更篩選值 (例如，將時間範圍從過去一星期改成過去一個月) 再重新查詢。如需詳細資訊，請參閱本主題稍後的＜篩選資料＞一節。</span><span class="sxs-lookup"><span data-stu-id="bf932-p105">Each report is configured to show a default set of records. For example, by default the User Registration Report shows user registration activities for the past week. In some cases, this might result in a report that returns no records. In this case, it means that no user registrations have taken place in the past week. If you see the message “No results match the report filters,” try changing the filter values (for example, change the time period to the past month rather than the past week) and rerun the query. For details, see the "Filtering Data" section later in this topic.</span></span>
 
 </div>
 
 <div>
 
-## <a name="exporting-data"></a><span data-ttu-id="2dddd-144">匯出資料</span><span class="sxs-lookup"><span data-stu-id="2dddd-144">Exporting Data</span></span>
+## <a name="filtering-data"></a><span data-ttu-id="bf932-134">篩選資料</span><span class="sxs-lookup"><span data-stu-id="bf932-134">Filtering Data</span></span>
 
-<span data-ttu-id="2dddd-145">[監視報告] 提供至少兩種不同的方式來匯出報表中包含的資料。</span><span class="sxs-lookup"><span data-stu-id="2dddd-145">The Monitoring Reports provide at least two different ways to export the data included in a report.</span></span> <span data-ttu-id="2dddd-146">您可以在每個報告頂端出現的工具列中，使用 [**匯出**] 選項。</span><span class="sxs-lookup"><span data-stu-id="2dddd-146">You can use the **Export** option in the toolbar that appears at the top of each report.</span></span> <span data-ttu-id="2dddd-147">若要使用此選項，請從 [**選取格式**] 下拉式清單中選取所要的匯出格式。</span><span class="sxs-lookup"><span data-stu-id="2dddd-147">To use this option, select the desired export format from the **Select a format** drop-down list.</span></span> <span data-ttu-id="2dddd-148">您可以使用下列格式：</span><span class="sxs-lookup"><span data-stu-id="2dddd-148">The following formats are available to you:</span></span>
+<span data-ttu-id="bf932-p106">有些時候您可能只想查看某一組子集的資料。例如，只看對等工作階段，而排除對等工作階段和會議工作階段兩者的資料。同樣地，也有些時候您需要減少傳回記錄的筆數。依預設，每份報告只能顯示資料集中的首 1,000 筆記錄。為因應這些情況，多半的報告都含有一些篩選的選項。例如，如果您只想檢視 2011 年 1 月 1 日到 2011 年 1 月 15 日之間的記錄，您可在 **[從]** 方塊中輸入 2011 年 1 月 1 日，然後在 **[到]** 方塊中輸入 2011 年 1 月 15 日。接著只要按一下 **[檢視報告]**，便只會傳回 2011 年 1 月 1 日到 2011 年 1 月 15 日之間所發生的活動。</span><span class="sxs-lookup"><span data-stu-id="bf932-p106">There will likely be times when you want to look at only a subset of records. For example, only peer-to-peer sessions as opposed to both peer-to-peer sessions and conference sessions. Likewise, there will be times when you need to reduce the number of records that are returned. By default, a report can only display the first 1,000 records in a data set. To address these issues, most reports include a number of filtering options. For example, if you want to view only records for the time period January 1, 2011 through January 15, 2011, you can enter January 1, 2011 in the **From** box and January 15, 2011 in the **To** box. If you then click **View Report**, the returned data will be limited to activities that took place between January 1, 2011 and January 15, 2011.</span></span>
 
-  - <span data-ttu-id="2dddd-149">含報表資料的 XML 檔案</span><span class="sxs-lookup"><span data-stu-id="2dddd-149">XML file with report data</span></span>
+<span data-ttu-id="bf932-p107">可用的篩選器依您檢視的報告而有所不同。如需特定報告的詳細資訊，請參閱該報告的說明主題。</span><span class="sxs-lookup"><span data-stu-id="bf932-p107">The filters available to you vary depending on the report that you are viewing. For details about a specific report, see the help topic for that report.</span></span>
 
-  - <span data-ttu-id="2dddd-150">CSV （逗號分隔）</span><span class="sxs-lookup"><span data-stu-id="2dddd-150">CSV (comma delimited)</span></span>
+</div>
 
-  - <span data-ttu-id="2dddd-151">Acrobat （PDF）檔案</span><span class="sxs-lookup"><span data-stu-id="2dddd-151">Acrobat (PDF) file</span></span>
+<div>
 
-  - <span data-ttu-id="2dddd-152">MHTML （網頁檔案）</span><span class="sxs-lookup"><span data-stu-id="2dddd-152">MHTML (web archive)</span></span>
+## <a name="exporting-data"></a><span data-ttu-id="bf932-144">匯出資料</span><span class="sxs-lookup"><span data-stu-id="bf932-144">Exporting Data</span></span>
 
-  - <span data-ttu-id="2dddd-153">Excel</span><span class="sxs-lookup"><span data-stu-id="2dddd-153">Excel</span></span>
+<span data-ttu-id="bf932-p108">監控報告提供了至少兩種匯出報告內資料的方式。您可使用工具列 (在報告的最上方) 中的 **[匯出]** 選項。若要使用這個選項，請在 **[選取格式]** 下拉式清單中選取想要的匯入格式。共有下列幾種格式可選：</span><span class="sxs-lookup"><span data-stu-id="bf932-p108">The Monitoring Reports provide at least two different ways to export the data included in a report. You can use the **Export** option in the toolbar that appears at the top of each report. To use this option, select the desired export format from the **Select a format** drop-down list. The following formats are available to you:</span></span>
 
-  - <span data-ttu-id="2dddd-154">TIFF 檔案</span><span class="sxs-lookup"><span data-stu-id="2dddd-154">TIFF file</span></span>
+  - <span data-ttu-id="bf932-149">XML 檔附加報告資料</span><span class="sxs-lookup"><span data-stu-id="bf932-149">XML file with report data</span></span>
 
-  - <span data-ttu-id="2dddd-155">Word</span><span class="sxs-lookup"><span data-stu-id="2dddd-155">Word</span></span>
+  - <span data-ttu-id="bf932-150">CSV (逗點分隔)</span><span class="sxs-lookup"><span data-stu-id="bf932-150">CSV (comma delimited)</span></span>
 
-<span data-ttu-id="2dddd-156">選取格式之後，按一下 [**匯出**]。</span><span class="sxs-lookup"><span data-stu-id="2dddd-156">After selecting a format, click **Export**.</span></span> <span data-ttu-id="2dddd-157">當 [檔案**下載**] 對話方塊出現時，按一下 [**儲存**]。</span><span class="sxs-lookup"><span data-stu-id="2dddd-157">When the **File Download** dialog box appears, click **Save**.</span></span> <span data-ttu-id="2dddd-158">在 [**另存**新檔] 對話方塊中，選取目的地資料夾，輸入檔案名，然後按一下 [**儲存**]。</span><span class="sxs-lookup"><span data-stu-id="2dddd-158">In the **Save As** dialog box, select a destination folder, enter a file name, and then click **Save**.</span></span>
+  - <span data-ttu-id="bf932-151">Acrobat (PDF) 檔</span><span class="sxs-lookup"><span data-stu-id="bf932-151">Acrobat (PDF) file</span></span>
 
-<span data-ttu-id="2dddd-159">如果您已安裝 Microsoft OneNote，您也可以將報表資料複製到 OneNote。</span><span class="sxs-lookup"><span data-stu-id="2dddd-159">If you have Microsoft OneNote installed, you can also copy the report data to OneNote.</span></span> <span data-ttu-id="2dddd-160">若要這樣做，請以滑鼠右鍵按一下工具列上的 [**查看報表**] 按鈕。</span><span class="sxs-lookup"><span data-stu-id="2dddd-160">To do this, right-click the **View Report** button on the toolbar.</span></span> <span data-ttu-id="2dddd-161">在 [在**onenote 中選取位置**] 對話方塊中，選取 OneNote 中您要複製資料的區段，然後按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="2dddd-161">In the **Select Location in OneNote** dialog box select the section in OneNote where you want to copy the data, and then click **OK**.</span></span>
+  - <span data-ttu-id="bf932-152">MHTML (網頁封存)</span><span class="sxs-lookup"><span data-stu-id="bf932-152">MHTML (web archive)</span></span>
+
+  - <span data-ttu-id="bf932-153">Excel</span><span class="sxs-lookup"><span data-stu-id="bf932-153">Excel</span></span>
+
+  - <span data-ttu-id="bf932-154">TIFF 檔</span><span class="sxs-lookup"><span data-stu-id="bf932-154">TIFF file</span></span>
+
+  - <span data-ttu-id="bf932-155">Word</span><span class="sxs-lookup"><span data-stu-id="bf932-155">Word</span></span>
+
+<span data-ttu-id="bf932-p109">格式選好後，按一下 [匯出]\*\*\*\*。[檔案下載]\*\*\*\* 對話方塊出現時，按一下 [儲存]\*\*\*\*。在 [另存新檔]\*\*\*\* 對話方塊中，選取一個目的資料夾，輸入檔案名稱，然後按一下 [儲存]\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="bf932-p109">After selecting a format, click **Export**. When the **File Download** dialog box appears, click **Save**. In the **Save As** dialog box, select a destination folder, enter a file name, and then click **Save**.</span></span>
+
+<span data-ttu-id="bf932-p110">若有安裝 Microsoft OneNote，您也可複製報告資料到 OneNote。方法是以滑鼠右鍵按一下工具列上的 [檢視報告]\*\*\*\* 按鈕。接著在 [在 OneNote 中選擇位置]\*\*\*\* 對話方塊中選擇您要複製哪些位置的資料到 OneNote，最後按一下 [確定]\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="bf932-p110">If you have Microsoft OneNote installed, you can also copy the report data to OneNote. To do this, right-click the **View Report** button on the toolbar. In the **Select Location in OneNote** dialog box select the section in OneNote where you want to copy the data, and then click **OK**.</span></span>
 
 </div>
 

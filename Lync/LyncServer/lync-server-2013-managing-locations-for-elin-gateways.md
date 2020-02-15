@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：管理 ELIN 閘道的位置
+title: Lync Server 2013： 管理 ELIN 閘道位置
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185496
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ba5a7e9067e4cd59ca42e60c620dbb4e8ee5b901
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 35c470b704e7467f573cd5e1fec03d63cf1f4b4e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762101"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043085"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-locations-for-elin-gateways-in-lync-server-2013"></a><span data-ttu-id="5320c-102">在 Lync Server 2013 中管理 ELIN 閘道的位置</span><span class="sxs-lookup"><span data-stu-id="5320c-102">Managing locations for ELIN gateways in Lync Server 2013</span></span>
+# <a name="managing-locations-for-elin-gateways-in-lync-server-2013"></a><span data-ttu-id="f6800-102">管理 ELIN 閘道 Lync Server 2013 中的位置</span><span class="sxs-lookup"><span data-stu-id="f6800-102">Managing locations for ELIN gateways in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,57 +35,57 @@ ms.locfileid: "41762101"
 
 <span> </span>
 
-<span data-ttu-id="5320c-103">_**主題上次修改日期：** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="5320c-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+<span data-ttu-id="f6800-103">_**主題上次修改日期：** 2012年-10-02_</span><span class="sxs-lookup"><span data-stu-id="f6800-103">_**Topic Last Modified:** 2012-10-02_</span></span>
 
-<span data-ttu-id="5320c-104">若要讓 Lync Server 在網路中自動提供用戶端位置，您必須執行下列工作：</span><span class="sxs-lookup"><span data-stu-id="5320c-104">To have Lync Server automatically provide locations for clients within a network, you need to perform the following tasks:</span></span>
+<span data-ttu-id="f6800-104">若要讓 Lync Server 自動提供網路內的用戶端的位置，您需要執行下列工作：</span><span class="sxs-lookup"><span data-stu-id="f6800-104">To have Lync Server automatically provide locations for clients within a network, you need to perform the following tasks:</span></span>
 
-  - <span data-ttu-id="5320c-105">使用網路 wiremap 填入位置資訊服務資料庫，並在 [公司名稱] 欄位中包含緊急位置識別號碼（ELINs）。</span><span class="sxs-lookup"><span data-stu-id="5320c-105">Populate the Location Information service database with a network wiremap, and include the Emergency Location Identification Numbers (ELINs) in the CompanyName field.</span></span>
+  - <span data-ttu-id="f6800-105">填入網路接線圖，位置資訊服務資料庫，並在 CompanyName 欄位中包含緊急事故位置識別碼 (Elin)。</span><span class="sxs-lookup"><span data-stu-id="f6800-105">Populate the Location Information service database with a network wiremap, and include the Emergency Location Identification Numbers (ELINs) in the CompanyName field.</span></span>
 
-  - <span data-ttu-id="5320c-106">發佈位置，讓您的網路上的客戶可以使用它們。</span><span class="sxs-lookup"><span data-stu-id="5320c-106">Publish the locations so that they are available for clients in your network.</span></span>
+  - <span data-ttu-id="f6800-106">發佈位置，使其可供您網路中的用戶端。</span><span class="sxs-lookup"><span data-stu-id="f6800-106">Publish the locations so that they are available for clients in your network.</span></span>
 
-  - <span data-ttu-id="5320c-107">將 ELINs 上傳到您的公用交換電話網絡（PSTN）電信公司的自動位置識別（阿裡）資料庫。</span><span class="sxs-lookup"><span data-stu-id="5320c-107">Upload the ELINs to your public switched telephone network (PSTN) carrier's Automatic Location Identification (ALI) database.</span></span>
+  - <span data-ttu-id="f6800-107">將 Elin 上傳至您的公用交換的電話網路 (PSTN) 電信業者的自動位置識別 (ALI) 資料庫。</span><span class="sxs-lookup"><span data-stu-id="f6800-107">Upload the ELINs to your public switched telephone network (PSTN) carrier's Automatic Location Identification (ALI) database.</span></span>
 
-<span data-ttu-id="5320c-108">如需如何執行這些工作的詳細資訊，請參閱在部署檔中的[Lync Server 2013 中設定位置資料庫](lync-server-2013-configure-the-location-database.md)。</span><span class="sxs-lookup"><span data-stu-id="5320c-108">For details about how to perform these tasks, see [Configure the location database in Lync Server 2013](lync-server-2013-configure-the-location-database.md) in the Deployment documentation.</span></span>
+<span data-ttu-id="f6800-108">如需如何執行這些工作的詳細資訊，請參閱部署文件中的[設定 Lync Server 2013 中的位置資料庫](lync-server-2013-configure-the-location-database.md)。</span><span class="sxs-lookup"><span data-stu-id="f6800-108">For details about how to perform these tasks, see [Configure the location database in Lync Server 2013](lync-server-2013-configure-the-location-database.md) in the Deployment documentation.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="5320c-109">您必須先使用 Lync Server 管理命令介面命令發佈的位置，並複製到該池的本機存儲區，才能讓該用戶端無法使用新增到中央位置資料庫的位置。</span><span class="sxs-lookup"><span data-stu-id="5320c-109">Locations added to the central location database are not available to the client until they have been published by using a Lync Server Management Shell command and are replicated to the pool's local stores.</span></span> <span data-ttu-id="5320c-110">如需詳細資訊，請參閱在部署檔中<A href="lync-server-2013-publish-the-location-database.md">從 Lync Server 2013 發佈位置資料庫</A>。</span><span class="sxs-lookup"><span data-stu-id="5320c-110">For details, see <A href="lync-server-2013-publish-the-location-database.md">Publish the location database from Lync Server 2013</A> in the Deployment documentation.</span></span>
+> <span data-ttu-id="f6800-109">除非他們已發佈使用 Lync Server 管理命令介面命令，並且會複寫到集區的本機存放區，並不適用於用戶端新增至中央位置資料庫的位置。</span><span class="sxs-lookup"><span data-stu-id="f6800-109">Locations added to the central location database are not available to the client until they have been published by using a Lync Server Management Shell command and are replicated to the pool's local stores.</span></span> <span data-ttu-id="f6800-110">如需詳細資訊，請參閱部署文件中的<A href="lync-server-2013-publish-the-location-database.md">發佈位置資料庫從 Lync Server 2013</A> 。</span><span class="sxs-lookup"><span data-stu-id="f6800-110">For details, see <A href="lync-server-2013-publish-the-location-database.md">Publish the location database from Lync Server 2013</A> in the Deployment documentation.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="5320c-111">本節說明您規劃更新及維護位置資料庫時應考慮的事項。</span><span class="sxs-lookup"><span data-stu-id="5320c-111">This section describes things to consider as you plan to update and maintain the location database.</span></span>
+<span data-ttu-id="f6800-111">本節說明當您規劃更新和維護位置資料庫的考量事項。</span><span class="sxs-lookup"><span data-stu-id="f6800-111">This section describes things to consider as you plan to update and maintain the location database.</span></span>
 
 <div>
 
-## <a name="planning-emergency-locations"></a><span data-ttu-id="5320c-112">規劃緊急位置</span><span class="sxs-lookup"><span data-stu-id="5320c-112">Planning Emergency Locations</span></span>
+## <a name="planning-emergency-locations"></a><span data-ttu-id="f6800-112">規劃緊急事故處理位置</span><span class="sxs-lookup"><span data-stu-id="f6800-112">Planning Emergency Locations</span></span>
 
-<span data-ttu-id="5320c-113">當您使用 ELIN 閘道時，您會使用市政位址、組建中的特定位置，以及為每個位置至少一個 ELIN 來填入位置資訊服務資料庫。</span><span class="sxs-lookup"><span data-stu-id="5320c-113">When you use ELIN gateways, you populate the Location Information service database with the civic address, a specific location within a building, and at least one ELIN for each location .</span></span> <span data-ttu-id="5320c-114">在規劃階段，最好決定您要如何命名位置，以及您想要如何指派 ELINs。</span><span class="sxs-lookup"><span data-stu-id="5320c-114">During the planning phase, it is a good idea to decide how you want to name the locations and how you want to assign ELINs.</span></span>
+<span data-ttu-id="f6800-113">當您使用 ELIN 閘道時，您會填入市街地址、 建置內的特定位置與至少一個 ELIN 為每個位置的位置資訊服務資料庫。</span><span class="sxs-lookup"><span data-stu-id="f6800-113">When you use ELIN gateways, you populate the Location Information service database with the civic address, a specific location within a building, and at least one ELIN for each location .</span></span> <span data-ttu-id="f6800-114">計劃階段中，它是不錯的選項，以決定要如何命名位置，以及您想要指派 Elin 的方式。</span><span class="sxs-lookup"><span data-stu-id="f6800-114">During the planning phase, it is a good idea to decide how you want to name the locations and how you want to assign ELINs.</span></span>
 
 <div>
 
-## <a name="planning-location-names"></a><span data-ttu-id="5320c-115">規劃位置名稱</span><span class="sxs-lookup"><span data-stu-id="5320c-115">Planning Location Names</span></span>
+## <a name="planning-location-names"></a><span data-ttu-id="f6800-115">規劃位置名稱</span><span class="sxs-lookup"><span data-stu-id="f6800-115">Planning Location Names</span></span>
 
-<span data-ttu-id="5320c-116">[位置資訊服務**位置**] 欄位會存放建築物內的特定位置，最大長度為20個字元（包括空格）。</span><span class="sxs-lookup"><span data-stu-id="5320c-116">The Location Information service **Location** field, which holds the specific location within a building, has a maximum length of 20 characters (including spaces).</span></span> <span data-ttu-id="5320c-117">在該長度有限的範圍內，嘗試包含下列專案：</span><span class="sxs-lookup"><span data-stu-id="5320c-117">Within that limited length, try to include the following:</span></span>
+<span data-ttu-id="f6800-116">[位置資訊服務**位置**] 欄位中含有建置內的特定位置，具有長度上限為 20 個字元 （包括空格）。</span><span class="sxs-lookup"><span data-stu-id="f6800-116">The Location Information service **Location** field, which holds the specific location within a building, has a maximum length of 20 characters (including spaces).</span></span> <span data-ttu-id="f6800-117">在該限制的長度，嘗試包括下列各項：</span><span class="sxs-lookup"><span data-stu-id="f6800-117">Within that limited length, try to include the following:</span></span>
 
-  - <span data-ttu-id="5320c-118">識別911呼叫者位置的易於理解的名稱，可協助確保緊急回應程式在到達市政位址時能快速找到特定位置。</span><span class="sxs-lookup"><span data-stu-id="5320c-118">An easy-to-understand name that identifies the location of the 911 caller to help ensure that emergency responders find the specific location promptly when they arrive at the civic address.</span></span> <span data-ttu-id="5320c-119">這個位置名稱可以包含建築物編號、樓層編號、翼標示符、房間號碼等。</span><span class="sxs-lookup"><span data-stu-id="5320c-119">This location name may include a building number, floor number, wing designator, room number, and so on.</span></span> <span data-ttu-id="5320c-120">避免只提供給員工的昵稱，這可能會導致緊急回應程式移至錯誤的位置。</span><span class="sxs-lookup"><span data-stu-id="5320c-120">Avoid nicknames that are known only to employees, which might cause emergency responders to go to the wrong location.</span></span>
+  - <span data-ttu-id="f6800-118">容易理解名稱，可識別 911 來電者可協助您確保的緊急回應者的特定位置迅速時找到它們都會送達市街地址的位置。</span><span class="sxs-lookup"><span data-stu-id="f6800-118">An easy-to-understand name that identifies the location of the 911 caller to help ensure that emergency responders find the specific location promptly when they arrive at the civic address.</span></span> <span data-ttu-id="f6800-119">此位置名稱可能包含建築物編號、 底板數字、 蝶形指示項，會議室號碼等等。</span><span class="sxs-lookup"><span data-stu-id="f6800-119">This location name may include a building number, floor number, wing designator, room number, and so on.</span></span> <span data-ttu-id="f6800-120">避免只已知可能會導致移至錯誤的位置的緊急回應者的員工的暱稱。</span><span class="sxs-lookup"><span data-stu-id="f6800-120">Avoid nicknames that are known only to employees, which might cause emergency responders to go to the wrong location.</span></span>
 
-  - <span data-ttu-id="5320c-121">可協助使用者輕鬆查看其 Lync 用戶端是否已挑選正確位置的位置識別碼。</span><span class="sxs-lookup"><span data-stu-id="5320c-121">A location identifier that helps users to easily see that their Lync client picked up the correct location.</span></span> <span data-ttu-id="5320c-122">Lync 用戶端會自動連接，並在其頁首中顯示 [已探索的**位置**] 和 [**城市**] 欄位。</span><span class="sxs-lookup"><span data-stu-id="5320c-122">The Lync client automatically concatenates and displays the discovered **Location** and **City** fields in its header.</span></span> <span data-ttu-id="5320c-123">最好的做法是將建築物的街道位址新增至每個位置識別碼（例如，「第一層\<街道編號\>」）。</span><span class="sxs-lookup"><span data-stu-id="5320c-123">A good practice is to add the street address of the building to each location identifier (for example, "1st Floor \<street number\>").</span></span> <span data-ttu-id="5320c-124">如果沒有街道位址，一般位置識別碼（例如「第一層」）會套用至城市中的任何建築物。</span><span class="sxs-lookup"><span data-stu-id="5320c-124">Without the street address, a generic location identifier such as "1st Floor" could apply to any building in the city.</span></span>
+  - <span data-ttu-id="f6800-121">協助使用者輕鬆地查看，挑選的正確位置其 Lync 用戶端位置識別碼。</span><span class="sxs-lookup"><span data-stu-id="f6800-121">A location identifier that helps users to easily see that their Lync client picked up the correct location.</span></span> <span data-ttu-id="f6800-122">Lync 用戶端會自動將串連，並顯示探索到的**位置**] 和 [**縣/市**欄位標頭中。</span><span class="sxs-lookup"><span data-stu-id="f6800-122">The Lync client automatically concatenates and displays the discovered **Location** and **City** fields in its header.</span></span> <span data-ttu-id="f6800-123">很好的作法是將建置的街道地址新增至每個位置識別碼 (例如，"1st Floor\<街道號碼\>」)。</span><span class="sxs-lookup"><span data-stu-id="f6800-123">A good practice is to add the street address of the building to each location identifier (for example, "1st Floor \<street number\>").</span></span> <span data-ttu-id="f6800-124">街道地址，而 「 1st 樓 」 等的一般位置識別碼無法套用至任何建置在 [縣/市。</span><span class="sxs-lookup"><span data-stu-id="f6800-124">Without the street address, a generic location identifier such as "1st Floor" could apply to any building in the city.</span></span>
 
-  - <span data-ttu-id="5320c-125">如果該位置是由無線存取點所決定，您可能會想要在附近新增一個字（例如，「接近第一層1234」）。</span><span class="sxs-lookup"><span data-stu-id="5320c-125">If the location is approximate because it’s determined by a wireless access point, you may want to add the word Near (for example, "Near 1st Floor 1234").</span></span>
+  - <span data-ttu-id="f6800-125">如果因為它由無線存取點決定的概略位置，您可能想要加入 near 的字詞 （例如 「 靠近 1st 樓 1234年）。</span><span class="sxs-lookup"><span data-stu-id="f6800-125">If the location is approximate because it’s determined by a wireless access point, you may want to add the word Near (for example, "Near 1st Floor 1234").</span></span>
 
 </div>
 
 <div>
 
-## <a name="planning-elins"></a><span data-ttu-id="5320c-126">規劃 ELINs</span><span class="sxs-lookup"><span data-stu-id="5320c-126">Planning ELINs</span></span>
+## <a name="planning-elins"></a><span data-ttu-id="f6800-126">規劃 Elin</span><span class="sxs-lookup"><span data-stu-id="f6800-126">Planning ELINs</span></span>
 
-<span data-ttu-id="5320c-127">在您決定要如何將建築物空間劃分至多個位置之後，您必須決定要將多少 ELINs 指派給每個位置。</span><span class="sxs-lookup"><span data-stu-id="5320c-127">After you decide how you want to divide your building space into locations, you need to decide how many ELINs to assign to each location.</span></span> <span data-ttu-id="5320c-128">例如，在 multifloor 或多租戶組建中，組建中的不同區域可以指定不同的緊急區域。</span><span class="sxs-lookup"><span data-stu-id="5320c-128">For example, in a multifloor or multitenant building, different areas in the building can be assigned different emergency zones.</span></span> <span data-ttu-id="5320c-129">一般來說，建築物中的每個樓層都指定為一個位置。</span><span class="sxs-lookup"><span data-stu-id="5320c-129">Typically, each floor in a building is designated as a location.</span></span> <span data-ttu-id="5320c-130">接著，系統會為每個位置指派一個或多個 ELINs，在緊急通話期間，就會用來做為電話號碼。</span><span class="sxs-lookup"><span data-stu-id="5320c-130">Each location is then assigned one or more ELINs, which are used as the calling number(s) during an emergency call.</span></span> <span data-ttu-id="5320c-131">請與您的 PSTN 運營商聯繫，以取得您可以用來 ELINs 的電話號碼。</span><span class="sxs-lookup"><span data-stu-id="5320c-131">Contact your PSTN carrier for phone numbers that you can use for ELINs.</span></span> <span data-ttu-id="5320c-132">下表提供特定街道位址的位置範例。</span><span class="sxs-lookup"><span data-stu-id="5320c-132">The following table provides an example of locations for a specific street address.</span></span>
+<span data-ttu-id="f6800-127">決定您要建置空間分成數個位置的方式之後，您需要決定多少 Elin 指派給每個位置。</span><span class="sxs-lookup"><span data-stu-id="f6800-127">After you decide how you want to divide your building space into locations, you need to decide how many ELINs to assign to each location.</span></span> <span data-ttu-id="f6800-128">例如，multifloor 或在多租用戶的建置、 中建置不同的區域可以指派不同的緊急區域。</span><span class="sxs-lookup"><span data-stu-id="f6800-128">For example, in a multifloor or multitenant building, different areas in the building can be assigned different emergency zones.</span></span> <span data-ttu-id="f6800-129">一般而言，每個樓層建置已指定位置。</span><span class="sxs-lookup"><span data-stu-id="f6800-129">Typically, each floor in a building is designated as a location.</span></span> <span data-ttu-id="f6800-130">每個位置就被指派一或多個 Elin 時，緊急通話當成通話轉接。</span><span class="sxs-lookup"><span data-stu-id="f6800-130">Each location is then assigned one or more ELINs, which are used as the calling number(s) during an emergency call.</span></span> <span data-ttu-id="f6800-131">您可以使用 Elin 的電話號碼，請連絡您 PSTN 電信業者。</span><span class="sxs-lookup"><span data-stu-id="f6800-131">Contact your PSTN carrier for phone numbers that you can use for ELINs.</span></span> <span data-ttu-id="f6800-132">下表提供特定的街道地址的位置的範例。</span><span class="sxs-lookup"><span data-stu-id="f6800-132">The following table provides an example of locations for a specific street address.</span></span>
 
-### <a name="sample-location-and-elin-assignments"></a><span data-ttu-id="5320c-133">範例位置與 ELIN 作業</span><span class="sxs-lookup"><span data-stu-id="5320c-133">Sample Location and ELIN Assignments</span></span>
+### <a name="sample-location-and-elin-assignments"></a><span data-ttu-id="f6800-133">範例位置和 ELIN 指派作業</span><span class="sxs-lookup"><span data-stu-id="f6800-133">Sample Location and ELIN Assignments</span></span>
 
 <table>
 <colgroup>
@@ -95,36 +95,36 @@ ms.locfileid: "41762101"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="5320c-134">建築物區域</span><span class="sxs-lookup"><span data-stu-id="5320c-134">Building Area</span></span></th>
-<th><span data-ttu-id="5320c-135">位置</span><span class="sxs-lookup"><span data-stu-id="5320c-135">Location</span></span></th>
-<th><span data-ttu-id="5320c-136">ELIN</span><span class="sxs-lookup"><span data-stu-id="5320c-136">ELIN</span></span></th>
+<th><span data-ttu-id="f6800-134">建築物區域</span><span class="sxs-lookup"><span data-stu-id="f6800-134">Building Area</span></span></th>
+<th><span data-ttu-id="f6800-135">位置</span><span class="sxs-lookup"><span data-stu-id="f6800-135">Location</span></span></th>
+<th><span data-ttu-id="f6800-136">ELIN</span><span class="sxs-lookup"><span data-stu-id="f6800-136">ELIN</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="5320c-137">第一層</span><span class="sxs-lookup"><span data-stu-id="5320c-137">First floor</span></span></p></td>
-<td><p><span data-ttu-id="5320c-138">1</span><span class="sxs-lookup"><span data-stu-id="5320c-138">1</span></span></p></td>
-<td><p><span data-ttu-id="5320c-139">425-555-0100</span><span class="sxs-lookup"><span data-stu-id="5320c-139">425-555-0100</span></span></p></td>
+<td><p><span data-ttu-id="f6800-137">一樓</span><span class="sxs-lookup"><span data-stu-id="f6800-137">First floor</span></span></p></td>
+<td><p><span data-ttu-id="f6800-138">1 </span><span class="sxs-lookup"><span data-stu-id="f6800-138">1</span></span></p></td>
+<td><p><span data-ttu-id="f6800-139">425-555-0100</span><span class="sxs-lookup"><span data-stu-id="f6800-139">425-555-0100</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5320c-140">第二層</span><span class="sxs-lookup"><span data-stu-id="5320c-140">Second floor</span></span></p></td>
-<td><p><span data-ttu-id="5320c-141">2</span><span class="sxs-lookup"><span data-stu-id="5320c-141">2</span></span></p></td>
-<td><p><span data-ttu-id="5320c-142">425-555-0111</span><span class="sxs-lookup"><span data-stu-id="5320c-142">425-555-0111</span></span></p></td>
+<td><p><span data-ttu-id="f6800-140">二樓</span><span class="sxs-lookup"><span data-stu-id="f6800-140">Second floor</span></span></p></td>
+<td><p><span data-ttu-id="f6800-141">2 </span><span class="sxs-lookup"><span data-stu-id="f6800-141">2</span></span></p></td>
+<td><p><span data-ttu-id="f6800-142">425-555-0111</span><span class="sxs-lookup"><span data-stu-id="f6800-142">425-555-0111</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="5320c-143">第三層</span><span class="sxs-lookup"><span data-stu-id="5320c-143">Third floor</span></span></p></td>
-<td><p><span data-ttu-id="5320c-144">3</span><span class="sxs-lookup"><span data-stu-id="5320c-144">3</span></span></p></td>
-<td><p><span data-ttu-id="5320c-145">425-555-0123</span><span class="sxs-lookup"><span data-stu-id="5320c-145">425-555-0123</span></span></p></td>
+<td><p><span data-ttu-id="f6800-143">三樓</span><span class="sxs-lookup"><span data-stu-id="f6800-143">Third floor</span></span></p></td>
+<td><p><span data-ttu-id="f6800-144">3 </span><span class="sxs-lookup"><span data-stu-id="f6800-144">3</span></span></p></td>
+<td><p><span data-ttu-id="f6800-145">425-555-0123</span><span class="sxs-lookup"><span data-stu-id="f6800-145">425-555-0123</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="5320c-146">您定義的位置應該符合下列需求：</span><span class="sxs-lookup"><span data-stu-id="5320c-146">The locations you define should meet the following requirements:</span></span>
+<span data-ttu-id="f6800-146">您定義的位置應符合下列需求：</span><span class="sxs-lookup"><span data-stu-id="f6800-146">The locations you define should meet the following requirements:</span></span>
 
-  - <span data-ttu-id="5320c-147">在每個位置的最大區域及每個街道位址的位置數方面，遵守當地和國家/地區管理法規。</span><span class="sxs-lookup"><span data-stu-id="5320c-147">Comply with local and national/regional regulations in terms of maximum area per location and number of locations per street address.</span></span>
+  - <span data-ttu-id="f6800-147">遵守本機和國家/區域法令每個位置及每個街道地址的位置數目的最大區域。</span><span class="sxs-lookup"><span data-stu-id="f6800-147">Comply with local and national/regional regulations in terms of maximum area per location and number of locations per street address.</span></span>
 
-  - <span data-ttu-id="5320c-148">都有足夠的針對性，便於您找到緊急來電者。</span><span class="sxs-lookup"><span data-stu-id="5320c-148">Are specific enough to make it easy to locate the emergency caller.</span></span>
+  - <span data-ttu-id="f6800-148">特有足以讓您輕鬆找到緊急來電者。</span><span class="sxs-lookup"><span data-stu-id="f6800-148">Are specific enough to make it easy to locate the emergency caller.</span></span>
 
 </div>
 
@@ -132,37 +132,37 @@ ms.locfileid: "41762101"
 
 <div>
 
-## <a name="populating-the-location-database"></a><span data-ttu-id="5320c-149">填充位置資料庫</span><span class="sxs-lookup"><span data-stu-id="5320c-149">Populating the Location Database</span></span>
+## <a name="populating-the-location-database"></a><span data-ttu-id="f6800-149">填入位置資料庫</span><span class="sxs-lookup"><span data-stu-id="f6800-149">Populating the Location Database</span></span>
 
-<span data-ttu-id="5320c-150">下列問題將協助您決定將如何填入位置資料庫。</span><span class="sxs-lookup"><span data-stu-id="5320c-150">The following questions will help you determine how to will populate the location database.</span></span>
+<span data-ttu-id="f6800-150">下列問題可協助您決定如何填入位置資料庫。</span><span class="sxs-lookup"><span data-stu-id="f6800-150">The following questions will help you determine how to will populate the location database.</span></span>
 
-  - <span data-ttu-id="5320c-151">**您將使用哪個程式來填入位置資料庫？**</span><span class="sxs-lookup"><span data-stu-id="5320c-151">**What process will you use to populate the location database?**</span></span>  
-    <span data-ttu-id="5320c-152">資料在哪裡存在，您需要採取哪些步驟才能將資料轉換成位置資料庫所需的格式？</span><span class="sxs-lookup"><span data-stu-id="5320c-152">Where does the data exist, and what steps do you need to take to convert the data into the format required by the location database?</span></span> <span data-ttu-id="5320c-153">您會使用 CSV 檔案個別地新增位置，還是大量新增位置？</span><span class="sxs-lookup"><span data-stu-id="5320c-153">Will you add locations individually, or in bulk, by using a CSV file?</span></span>
+  - <span data-ttu-id="f6800-151">**您將使用何種程序填入位置資料庫？**</span><span class="sxs-lookup"><span data-stu-id="f6800-151">**What process will you use to populate the location database?**</span></span>  
+    <span data-ttu-id="f6800-152">其中是否存在的資料，以及您需要將資料轉換成位置資料庫所需的格式採取哪些步驟？</span><span class="sxs-lookup"><span data-stu-id="f6800-152">Where does the data exist, and what steps do you need to take to convert the data into the format required by the location database?</span></span> <span data-ttu-id="f6800-153">將您新增位置會個別或大量使用 CSV 檔案？</span><span class="sxs-lookup"><span data-stu-id="f6800-153">Will you add locations individually, or in bulk, by using a CSV file?</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="5320c-154">**您是否有已包含位置對應的協力廠商資料庫？**</span><span class="sxs-lookup"><span data-stu-id="5320c-154">**Do you have a third party database that already contains a mapping of locations?**</span></span>  
-    <span data-ttu-id="5320c-155">透過使用 Lync Server 的 [次要位置資訊服務] 選項來連線至協力廠商資料庫，您可以使用離線平臺來分組及管理位置。</span><span class="sxs-lookup"><span data-stu-id="5320c-155">By using Lync Server's Secondary Location Information service option to connect to a third-party database, you can group and manage locations by using an offline platform.</span></span> <span data-ttu-id="5320c-156">這種方法的優點是，除了將位置與網路識別碼相關聯之外，您還可以將位置與使用者建立關聯。</span><span class="sxs-lookup"><span data-stu-id="5320c-156">A benefit to this approach is that in addition to associating locations to network identifiers, you can associate locations to a user.</span></span> <span data-ttu-id="5320c-157">這表示位置資訊服務可以傳回多個位址（源自次要位置資訊服務）至 Lync Server 用戶端。</span><span class="sxs-lookup"><span data-stu-id="5320c-157">This means that the Location Information service can return multiple addresses, originating from the Secondary Location Information service, to a Lync Server client.</span></span> <span data-ttu-id="5320c-158">然後，使用者可以選擇最適合的位置。</span><span class="sxs-lookup"><span data-stu-id="5320c-158">The user can then choose the most appropriate location.</span></span>
+  - <span data-ttu-id="f6800-154">**您必須已經包含位置對應的協力廠商資料庫？**</span><span class="sxs-lookup"><span data-stu-id="f6800-154">**Do you have a third party database that already contains a mapping of locations?**</span></span>  
+    <span data-ttu-id="f6800-155">使用 Lync Server 的次要位置資訊服務] 選項，以連線至協力廠商資料庫，您可以群組，並使用離線平台管理位置。</span><span class="sxs-lookup"><span data-stu-id="f6800-155">By using Lync Server's Secondary Location Information service option to connect to a third-party database, you can group and manage locations by using an offline platform.</span></span> <span data-ttu-id="f6800-156">這種方法的好處是，除了建立關聯至網路識別碼的位置，您可以建立關聯的使用者的位置。</span><span class="sxs-lookup"><span data-stu-id="f6800-156">A benefit to this approach is that in addition to associating locations to network identifiers, you can associate locations to a user.</span></span> <span data-ttu-id="f6800-157">這表示位置資訊服務可以傳回多個地址，源自次要位置資訊服務，Lync Server 用戶端。</span><span class="sxs-lookup"><span data-stu-id="f6800-157">This means that the Location Information service can return multiple addresses, originating from the Secondary Location Information service, to a Lync Server client.</span></span> <span data-ttu-id="f6800-158">然後，使用者可以選擇最適合的位置。</span><span class="sxs-lookup"><span data-stu-id="f6800-158">The user can then choose the most appropriate location.</span></span>
     
-    <span data-ttu-id="5320c-159">若要整合位置資訊服務，協力廠商資料庫必須遵循 Lync Server 位置要求/回應架構。</span><span class="sxs-lookup"><span data-stu-id="5320c-159">To integrate with the Location Information service, the third-party database must follow the Lync Server Location Request/Response schema.</span></span> <span data-ttu-id="5320c-160">如需詳細資訊<http://go.microsoft.com/fwlink/p/?linkid=213819>，請參閱。</span><span class="sxs-lookup"><span data-stu-id="5320c-160">For details, see <http://go.microsoft.com/fwlink/p/?linkid=213819>.</span></span> <span data-ttu-id="5320c-161">如需有關部署次要位置資訊服務的詳細資訊，請參閱在部署檔中的[Lync Server 2013 中設定次要位置資訊服務](lync-server-2013-configure-a-secondary-location-information-service.md)。</span><span class="sxs-lookup"><span data-stu-id="5320c-161">For details about deploying a Secondary Location Information service, see [Configure a secondary Location Information service in Lync Server 2013](lync-server-2013-configure-a-secondary-location-information-service.md) in the Deployment documentation.</span></span>
+    <span data-ttu-id="f6800-159">若要整合與位置資訊服務，協力廠商資料庫必須遵循 Lync 伺服器位置要求讀回應結構描述。</span><span class="sxs-lookup"><span data-stu-id="f6800-159">To integrate with the Location Information service, the third-party database must follow the Lync Server Location Request/Response schema.</span></span> <span data-ttu-id="f6800-160">如需詳細資訊，請參閱<http://go.microsoft.com/fwlink/p/?linkid=213819>。</span><span class="sxs-lookup"><span data-stu-id="f6800-160">For details, see <http://go.microsoft.com/fwlink/p/?linkid=213819>.</span></span> <span data-ttu-id="f6800-161">如需部署次要位置資訊服務的詳細資訊，請參閱部署文件中的[設定 Lync Server 2013 中的次要位置資訊服務](lync-server-2013-configure-a-secondary-location-information-service.md)。</span><span class="sxs-lookup"><span data-stu-id="f6800-161">For details about deploying a Secondary Location Information service, see [Configure a secondary Location Information service in Lync Server 2013](lync-server-2013-configure-a-secondary-location-information-service.md) in the Deployment documentation.</span></span>
 
-<span data-ttu-id="5320c-162">如需有關填充位置資料庫的詳細資訊，請參閱在部署檔中的[Lync Server 2013 中設定位置資料庫](lync-server-2013-configure-the-location-database.md)。</span><span class="sxs-lookup"><span data-stu-id="5320c-162">For details about populating the location database, see [Configure the location database in Lync Server 2013](lync-server-2013-configure-the-location-database.md) in the Deployment documentation.</span></span>
+<span data-ttu-id="f6800-162">如需填入位置資料庫的詳細資訊，請參閱部署文件中的[設定 Lync Server 2013 中的位置資料庫](lync-server-2013-configure-the-location-database.md)。</span><span class="sxs-lookup"><span data-stu-id="f6800-162">For details about populating the location database, see [Configure the location database in Lync Server 2013](lync-server-2013-configure-the-location-database.md) in the Deployment documentation.</span></span>
 
 </div>
 
 <div>
 
-## <a name="maintaining-the-location-database"></a><span data-ttu-id="5320c-163">維護位置資料庫</span><span class="sxs-lookup"><span data-stu-id="5320c-163">Maintaining the Location Database</span></span>
+## <a name="maintaining-the-location-database"></a><span data-ttu-id="f6800-163">維護位置資料庫</span><span class="sxs-lookup"><span data-stu-id="f6800-163">Maintaining the Location Database</span></span>
 
-<span data-ttu-id="5320c-164">在您填入 location 資料庫之後，您需要開發一個策略，在網路設定變更時更新資料庫。</span><span class="sxs-lookup"><span data-stu-id="5320c-164">After you populate the location database, you need to develop a strategy for updating the database as the network configuration changes.</span></span> <span data-ttu-id="5320c-165">下列問題將協助您決定如何維護位置資料庫。</span><span class="sxs-lookup"><span data-stu-id="5320c-165">The following questions will help you determine how to maintain the location database.</span></span>
+<span data-ttu-id="f6800-164">填入位置資料庫之後，您需要開發更新資料庫作為網路組態變更的策略。</span><span class="sxs-lookup"><span data-stu-id="f6800-164">After you populate the location database, you need to develop a strategy for updating the database as the network configuration changes.</span></span> <span data-ttu-id="f6800-165">下列問題可協助您決定如何維護位置資料庫。</span><span class="sxs-lookup"><span data-stu-id="f6800-165">The following questions will help you determine how to maintain the location database.</span></span>
 
-  - <span data-ttu-id="5320c-166">**如何更新位置資料庫？**</span><span class="sxs-lookup"><span data-stu-id="5320c-166">**How will you update the location database?**</span></span>  
-    <span data-ttu-id="5320c-167">有幾種情況需要更新位置資料庫，包括新增無線存取點（WAPs）、office recabling （產生不同的切換作業），以及子網延伸。</span><span class="sxs-lookup"><span data-stu-id="5320c-167">There are several scenarios that require an update to the location database, including adding wireless access points (WAPs), office recabling (resulting in different switch assignments), and subnet expansion.</span></span> <span data-ttu-id="5320c-168">您是否會直接更新每個個別位置，或是使用 CSV 檔案執行所有位置的大量更新？</span><span class="sxs-lookup"><span data-stu-id="5320c-168">Will you directly update each individual location, or will you perform a bulk update of all the locations by using a CSV file?</span></span>
+  - <span data-ttu-id="f6800-166">**您要如何更新位置資料庫？**</span><span class="sxs-lookup"><span data-stu-id="f6800-166">**How will you update the location database?**</span></span>  
+    <span data-ttu-id="f6800-167">有幾種情況，需要更新至位置資料庫，包括新增無線存取點 (Wap)、 office recabling （產生不同的參數指派），和子網路擴充。</span><span class="sxs-lookup"><span data-stu-id="f6800-167">There are several scenarios that require an update to the location database, including adding wireless access points (WAPs), office recabling (resulting in different switch assignments), and subnet expansion.</span></span> <span data-ttu-id="f6800-168">將您直接更新每個個別的位置，或將使用 CSV 檔案來執行的所有位置大量更新？</span><span class="sxs-lookup"><span data-stu-id="f6800-168">Will you directly update each individual location, or will you perform a bulk update of all the locations by using a CSV file?</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="5320c-169">**您會使用 SNMP 應用程式，將 Lync 用戶端 MAC 位址與埠和交換器識別碼搭配使用嗎？**</span><span class="sxs-lookup"><span data-stu-id="5320c-169">**Will you use an SNMP application to match Lync client MAC addresses to port and switch identifiers?**</span></span>  
-    <span data-ttu-id="5320c-170">如果您使用的是 SNMP 應用程式，您必須開發手動程式，以保持 SNMP 應用程式和位置資料庫之間的切換底盤和埠資訊一致。</span><span class="sxs-lookup"><span data-stu-id="5320c-170">If you use an SNMP application, you need to develop a manual process for keeping the switch chassis and port information consistent between the SNMP application and the location database.</span></span> <span data-ttu-id="5320c-171">如果 SNMP 應用程式傳回的是不包含在資料庫中的主機殼 IP 位址或埠 ID，位置資訊服務將無法傳回用戶端的位置。</span><span class="sxs-lookup"><span data-stu-id="5320c-171">If the SNMP application returns a chassis IP address or port ID that is not included in the database, the Location Information service will not be able to return a location to the client.</span></span>
+  - <span data-ttu-id="f6800-169">**您將使用 SNMP 應用程式符合 Lync 用戶端 MAC 位址來連接埠和交換器識別碼？**</span><span class="sxs-lookup"><span data-stu-id="f6800-169">**Will you use an SNMP application to match Lync client MAC addresses to port and switch identifiers?**</span></span>  
+    <span data-ttu-id="f6800-170">如果您使用 SNMP 應用程式，您需要開發將交換器底座和連接埠資訊保持一致 SNMP 應用程式和資料庫位置之間的手動程序。</span><span class="sxs-lookup"><span data-stu-id="f6800-170">If you use an SNMP application, you need to develop a manual process for keeping the switch chassis and port information consistent between the SNMP application and the location database.</span></span> <span data-ttu-id="f6800-171">如果 SNMP 應用程式傳回底座 IP 位址或連接埠編號不包含在資料庫中，將位置資訊服務將無法傳回給用戶端的位置。</span><span class="sxs-lookup"><span data-stu-id="f6800-171">If the SNMP application returns a chassis IP address or port ID that is not included in the database, the Location Information service will not be able to return a location to the client.</span></span>
 
 </div>
 
