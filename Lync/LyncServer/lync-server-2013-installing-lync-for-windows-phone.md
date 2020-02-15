@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：安裝 Lync for Windows Phone
+title: Lync Server 2013： 安裝 Lync for Windows Phone
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541513
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 75e42f9fd2b954e943050fc9877706ae53a1143c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 349a4b2609f3b810d0aa64c9e71786f309f21918
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726133"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045285"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="installing-lync-for-windows-phone-in-lync-server-2013"></a><span data-ttu-id="81625-102">在 Lync Server 2013 中安裝 Lync for Windows Phone</span><span class="sxs-lookup"><span data-stu-id="81625-102">Installing Lync for Windows Phone in Lync Server 2013</span></span>
+# <a name="installing-lync-for-windows-phone-in-lync-server-2013"></a><span data-ttu-id="da21b-102">安裝 Lync for Lync Server 2013 中的 Windows Phone</span><span class="sxs-lookup"><span data-stu-id="da21b-102">Installing Lync for Windows Phone in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,88 +35,88 @@ ms.locfileid: "41726133"
 
 <span> </span>
 
-<span data-ttu-id="81625-103">_**主題上次修改日期：** 2014-02-03_</span><span class="sxs-lookup"><span data-stu-id="81625-103">_**Topic Last Modified:** 2014-02-03_</span></span>
+<span data-ttu-id="da21b-103">_**上次修改主題：** 2014年-02-03_</span><span class="sxs-lookup"><span data-stu-id="da21b-103">_**Topic Last Modified:** 2014-02-03_</span></span>
 
-<span data-ttu-id="81625-104">Windows Phone 適用的 Lync 2013 是 Windows Phone Marketplace 提供的使用者可安裝應用程式。</span><span class="sxs-lookup"><span data-stu-id="81625-104">Lync 2013 for Windows Phone is a user-installable application that is available in the Windows Phone Marketplace.</span></span>
+<span data-ttu-id="da21b-104">Lync 2013 for Windows Phone 是 Windows Phone 市集處於可用的使用者安裝應用程式。</span><span class="sxs-lookup"><span data-stu-id="da21b-104">Lync 2013 for Windows Phone is a user-installable application that is available in the Windows Phone Marketplace.</span></span>
 
 <div>
 
-## <a name="installing-lync-for-windows-mobile"></a><span data-ttu-id="81625-105">安裝 Lync for Windows Mobile</span><span class="sxs-lookup"><span data-stu-id="81625-105">Installing Lync for Windows Mobile</span></span>
+## <a name="installing-lync-for-windows-mobile"></a><span data-ttu-id="da21b-105">安裝 Lync for Windows Mobile</span><span class="sxs-lookup"><span data-stu-id="da21b-105">Installing Lync for Windows Mobile</span></span>
 
-<span data-ttu-id="81625-106">您可以透過將 Lync 2013 的裝置導向至 Windows Phone Marketplace，來指示您的使用者在他們的裝置上<http://go.microsoft.com/fwlink/p/?linkid=231901>安裝 Lync For windows phone。</span><span class="sxs-lookup"><span data-stu-id="81625-106">You can instruct your users to install Lync 2013 for Windows Phone on their devices by directing them to the Windows Phone Marketplace at <http://go.microsoft.com/fwlink/p/?linkid=231901>.</span></span>
+<span data-ttu-id="da21b-106">您可以指示使用者導向至 Windows Phone 市集其裝置上安裝 Lync 2013 for Windows Phone <http://go.microsoft.com/fwlink/p/?linkid=231901>。</span><span class="sxs-lookup"><span data-stu-id="da21b-106">You can instruct your users to install Lync 2013 for Windows Phone on their devices by directing them to the Windows Phone Marketplace at <http://go.microsoft.com/fwlink/p/?linkid=231901>.</span></span>
 
 </div>
 
 <div>
 
-## <a name="if-you-use-a-dns-srv-record-to-publish-exchange-web-services"></a><span data-ttu-id="81625-107">如果您使用 DNS SRV 記錄發佈 Exchange Web 服務</span><span class="sxs-lookup"><span data-stu-id="81625-107">If You Use a DNS SRV Record to Publish Exchange Web Services</span></span>
+## <a name="if-you-use-a-dns-srv-record-to-publish-exchange-web-services"></a><span data-ttu-id="da21b-107">如果您使用 DNS SRV 記錄來發佈 Exchange Web 服務</span><span class="sxs-lookup"><span data-stu-id="da21b-107">If You Use a DNS SRV Record to Publish Exchange Web Services</span></span>
 
-<span data-ttu-id="81625-108">若要啟用 Lync 用戶端的 Exchange 整合，有些組織會使用 DNS SRV 記錄來發佈 Exchange Web 服務 URL。</span><span class="sxs-lookup"><span data-stu-id="81625-108">To enable Exchange integration for Lync clients, some organizations publish the Exchange Web Services URL by using a DNS SRV record.</span></span> <span data-ttu-id="81625-109">Microsoft 下載中心提供的檔「瞭解及疑難排解 Exchange 整合」 [http://go.microsoft.com/fwlink/?LinkID=391095](http://go.microsoft.com/fwlink/?linkid=391095)，說明可能需要進行的案例。</span><span class="sxs-lookup"><span data-stu-id="81625-109">The document "Understanding and Troubleshooting Exchange Integration," available in the Microsoft Download Center at [http://go.microsoft.com/fwlink/?LinkID=391095](http://go.microsoft.com/fwlink/?linkid=391095), describes scenarios in which this might be necessary.</span></span> <span data-ttu-id="81625-110">不過，Windows phone 版 Exchange 整合使用者無法在這種情況下運作，因為 Windows Phone 平臺不支援 SRV 查閱。</span><span class="sxs-lookup"><span data-stu-id="81625-110">However, Exchange integration for Windows Phone users will not work in this scenario, because the Windows Phone platform does not support SRV lookups.</span></span> <span data-ttu-id="81625-111">您將需要指示 Windows Phone 使用者指定 Exchange Web 服務 URL，而不是允許手機自動偵測伺服器。</span><span class="sxs-lookup"><span data-stu-id="81625-111">You will need to instruct Windows Phone users to specify the Exchange Web Services URL instead of allowing the phone to automatically detect the server.</span></span>
+<span data-ttu-id="da21b-108">若要啟用 Exchange 整合的 Lync 用戶端，有些組織會使用 DNS SRV 記錄來發佈 Exchange Web 服務 URL。</span><span class="sxs-lookup"><span data-stu-id="da21b-108">To enable Exchange integration for Lync clients, some organizations publish the Exchange Web Services URL by using a DNS SRV record.</span></span> <span data-ttu-id="da21b-109">文件 」 了解和疑難排解 Exchange 整合，「 Microsoft 下載中心提供[http://go.microsoft.com/fwlink/?LinkID=391095](http://go.microsoft.com/fwlink/?linkid=391095)，描述在其中這可能需要的案例。</span><span class="sxs-lookup"><span data-stu-id="da21b-109">The document "Understanding and Troubleshooting Exchange Integration," available in the Microsoft Download Center at [http://go.microsoft.com/fwlink/?LinkID=391095](http://go.microsoft.com/fwlink/?linkid=391095), describes scenarios in which this might be necessary.</span></span> <span data-ttu-id="da21b-110">不過，Exchange 整合的 Windows Phone 使用者將無法運作在此案例中，因為在 Windows Phone 平台不支援 SRV 查閱。</span><span class="sxs-lookup"><span data-stu-id="da21b-110">However, Exchange integration for Windows Phone users will not work in this scenario, because the Windows Phone platform does not support SRV lookups.</span></span> <span data-ttu-id="da21b-111">您將需要指示 Windows Phone 使用者指定的 Exchange Web 服務 URL 而不讓電話會自動偵測到伺服器。</span><span class="sxs-lookup"><span data-stu-id="da21b-111">You will need to instruct Windows Phone users to specify the Exchange Web Services URL instead of allowing the phone to automatically detect the server.</span></span>
 
-<span data-ttu-id="81625-112">指示您的使用者在其 Windows 手機上設定 Lync 設定，如下所示：</span><span class="sxs-lookup"><span data-stu-id="81625-112">Instruct your users to configure the Lync settings on their Windows Phones as follows:</span></span>
+<span data-ttu-id="da21b-112">指示使用者在其 Windows Phone 上設定 Lync 設定如下：</span><span class="sxs-lookup"><span data-stu-id="da21b-112">Instruct your users to configure the Lync settings on their Windows Phones as follows:</span></span>
 
-1.  <span data-ttu-id="81625-113">在 Windows Phone 的 Lync 設定中，選取 [ **Exchange** ] 畫面。</span><span class="sxs-lookup"><span data-stu-id="81625-113">In Windows Phone, in the Lync settings, select the **Exchange** screen.</span></span>
+1.  <span data-ttu-id="da21b-113">在 Windows Phone Lync 設定中，選取 [ **Exchange** ] 畫面。</span><span class="sxs-lookup"><span data-stu-id="da21b-113">In Windows Phone, in the Lync settings, select the **Exchange** screen.</span></span>
 
-2.  <span data-ttu-id="81625-114">將 [**自動偵測伺服器**] 移至 [**關閉**]。</span><span class="sxs-lookup"><span data-stu-id="81625-114">Move **Auto-Detect Server** to **Off**.</span></span>
+2.  <span data-ttu-id="da21b-114">將**自動偵測伺服器**移至**關閉**。</span><span class="sxs-lookup"><span data-stu-id="da21b-114">Move **Auto-Detect Server** to **Off**.</span></span>
 
-3.  <span data-ttu-id="81625-115">敲擊空白欄位，然後輸入 Exchange Web 服務的完整功能變數名稱（FQDN）或 URL。</span><span class="sxs-lookup"><span data-stu-id="81625-115">Tap the empty field and enter the fully qualified domain name (FQDN) or URL for Exchange Web Services.</span></span>
+3.  <span data-ttu-id="da21b-115">點選 [空白欄位，然後輸入完整的網域名稱 (FQDN) 或 Exchange Web 服務的 URL。</span><span class="sxs-lookup"><span data-stu-id="da21b-115">Tap the empty field and enter the fully qualified domain name (FQDN) or URL for Exchange Web Services.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="81625-116">您可以指定 Exchange Web 服務伺服器的完整功能變數名稱（FQDN）或完整 URL。</span><span class="sxs-lookup"><span data-stu-id="81625-116">You can specify either the fully qualified domain name (FQDN) or the full URL of your Exchange Web Services server.</span></span> <span data-ttu-id="81625-117">如果您指定 FQDN，就會自動新增通訊協定（HTTPs://）和 Exchange Web 服務路徑（/ews/exchange.asmx）。</span><span class="sxs-lookup"><span data-stu-id="81625-117">If you specify the FQDN, the protocol (https://) and the Exchange Web Services path (/ews/exchange.asmx) are added automatically.</span></span> <span data-ttu-id="81625-118">如果 Exchange Web 服務路徑不一樣，您可以指定完整的 URL。</span><span class="sxs-lookup"><span data-stu-id="81625-118">If your Exchange Web Services path is different, you can specify the full URL.</span></span>
+    > <span data-ttu-id="da21b-116">您可以指定完整的網域名稱 (FQDN) 或 Exchange Web 服務伺服器的完整 URL。</span><span class="sxs-lookup"><span data-stu-id="da21b-116">You can specify either the fully qualified domain name (FQDN) or the full URL of your Exchange Web Services server.</span></span> <span data-ttu-id="da21b-117">如果您指定的 FQDN、 通訊協定 (https://) 和 Exchange Web 服務路徑 (/ ews/exchange.asmx) 會自動加入。</span><span class="sxs-lookup"><span data-stu-id="da21b-117">If you specify the FQDN, the protocol (https://) and the Exchange Web Services path (/ews/exchange.asmx) are added automatically.</span></span> <span data-ttu-id="da21b-118">如果您的 Exchange Web 服務路徑不同，您可以指定完整的 URL。</span><span class="sxs-lookup"><span data-stu-id="da21b-118">If your Exchange Web Services path is different, you can specify the full URL.</span></span>
 
     
     </div>
 
-4.  <span data-ttu-id="81625-119">關閉螢幕。</span><span class="sxs-lookup"><span data-stu-id="81625-119">Close the screen.</span></span>
+4.  <span data-ttu-id="da21b-119">關閉 [] 畫面。</span><span class="sxs-lookup"><span data-stu-id="da21b-119">Close the screen.</span></span>
 
 </div>
 
 <div>
 
-## <a name="verifying-mobile-client-installation"></a><span data-ttu-id="81625-120">驗證行動用戶端安裝</span><span class="sxs-lookup"><span data-stu-id="81625-120">Verifying Mobile Client Installation</span></span>
+## <a name="verifying-mobile-client-installation"></a><span data-ttu-id="da21b-120">確認行動用戶端安裝</span><span class="sxs-lookup"><span data-stu-id="da21b-120">Verifying Mobile Client Installation</span></span>
 
-<span data-ttu-id="81625-121">在您設定用戶端並成功登入之後，請使用下列測試確認您的 Lync 2013 安裝在您的行動裝置上正常運作。</span><span class="sxs-lookup"><span data-stu-id="81625-121">After you configure the client and sign in successfully, use the following tests to verify that your installation of Lync 2013 is working correctly on your mobile device.</span></span>
+<span data-ttu-id="da21b-121">設定用戶端並登入成功之後，使用下列測試來確認 Lync 2013 的安裝行動裝置上正確運作。</span><span class="sxs-lookup"><span data-stu-id="da21b-121">After you configure the client and sign in successfully, use the following tests to verify that your installation of Lync 2013 is working correctly on your mobile device.</span></span>
 
-<span data-ttu-id="81625-122">**在公司目錄中搜尋連絡人**</span><span class="sxs-lookup"><span data-stu-id="81625-122">**Search for a contact in the corporate directory**</span></span>
+<span data-ttu-id="da21b-122">**搜尋在公司目錄中的連絡人**</span><span class="sxs-lookup"><span data-stu-id="da21b-122">**Search for a contact in the corporate directory**</span></span>
 
-1.  <span data-ttu-id="81625-123">在 [連絡人] 清單中，按一下底部的 [**搜尋**]。</span><span class="sxs-lookup"><span data-stu-id="81625-123">In the Contacts list, tap **Search** at the bottom.</span></span>
+1.  <span data-ttu-id="da21b-123">在 [連絡人] 清單中，點選 [底部的 [**搜尋**]。</span><span class="sxs-lookup"><span data-stu-id="da21b-123">In the Contacts list, tap **Search** at the bottom.</span></span>
 
-2.  <span data-ttu-id="81625-124">搜尋僅存在於全域通訊清單中的連絡人。</span><span class="sxs-lookup"><span data-stu-id="81625-124">Search for a contact that exists only in the global address list.</span></span>
+2.  <span data-ttu-id="da21b-124">搜尋只存在於全域通訊清單的連絡人。</span><span class="sxs-lookup"><span data-stu-id="da21b-124">Search for a contact that exists only in the global address list.</span></span>
 
-3.  <span data-ttu-id="81625-125">確認連絡人名稱出現在搜尋結果中。</span><span class="sxs-lookup"><span data-stu-id="81625-125">Verify that the contact name appears in the search results.</span></span>
+3.  <span data-ttu-id="da21b-125">確認連絡人名稱出現在搜尋結果中。</span><span class="sxs-lookup"><span data-stu-id="da21b-125">Verify that the contact name appears in the search results.</span></span>
 
-<span data-ttu-id="81625-126">**測試立即訊息和目前狀態**</span><span class="sxs-lookup"><span data-stu-id="81625-126">**Test instant messaging and presence**</span></span>
+<span data-ttu-id="da21b-126">**測試 im 和目前狀態**</span><span class="sxs-lookup"><span data-stu-id="da21b-126">**Test instant messaging and presence**</span></span>
 
-1.  <span data-ttu-id="81625-127">在連絡人清單中，輕觸連絡人。</span><span class="sxs-lookup"><span data-stu-id="81625-127">In the Contacts list, tap a contact.</span></span>
+1.  <span data-ttu-id="da21b-127">在 [連絡人] 清單中，點選 [連絡人]。</span><span class="sxs-lookup"><span data-stu-id="da21b-127">In the Contacts list, tap a contact.</span></span>
 
-2.  <span data-ttu-id="81625-128">在連絡人卡片中，按一下 [ **IM** ] 圖示。</span><span class="sxs-lookup"><span data-stu-id="81625-128">In the contact card, tap the **IM** icon.</span></span>
+2.  <span data-ttu-id="da21b-128">連絡人卡片中點選**IM**圖示。</span><span class="sxs-lookup"><span data-stu-id="da21b-128">In the contact card, tap the **IM** icon.</span></span>
 
-3.  <span data-ttu-id="81625-129">確認立即訊息（IM）視窗出現，而且您可以輸入並傳送即時消息。</span><span class="sxs-lookup"><span data-stu-id="81625-129">Verify that an instant messaging (IM) window appears and that you can type and send an IM.</span></span>
+3.  <span data-ttu-id="da21b-129">請確認立即訊息 (IM) 視窗隨即出現，而且您可以輸入及傳送 IM。</span><span class="sxs-lookup"><span data-stu-id="da21b-129">Verify that an instant messaging (IM) window appears and that you can type and send an IM.</span></span>
 
-<span data-ttu-id="81625-130">**測試撥出式會議**</span><span class="sxs-lookup"><span data-stu-id="81625-130">**Test dial-out conferencing**</span></span>
+<span data-ttu-id="da21b-130">**測試電話撥出式會議**</span><span class="sxs-lookup"><span data-stu-id="da21b-130">**Test dial-out conferencing**</span></span>
 
-1.  <span data-ttu-id="81625-131">在 Outlook 中，排程 Lync 會議。</span><span class="sxs-lookup"><span data-stu-id="81625-131">In Outlook, schedule a Lync meeting.</span></span>
+1.  <span data-ttu-id="da21b-131">在 Outlook 中，排程 Lync 會議。</span><span class="sxs-lookup"><span data-stu-id="da21b-131">In Outlook, schedule a Lync meeting.</span></span>
 
-2.  <span data-ttu-id="81625-132">在行動裝置上，開啟會議邀請。</span><span class="sxs-lookup"><span data-stu-id="81625-132">On the mobile device, open the meeting invitation.</span></span>
+2.  <span data-ttu-id="da21b-132">在行動裝置上，開啟會議邀請。</span><span class="sxs-lookup"><span data-stu-id="da21b-132">On the mobile device, open the meeting invitation.</span></span>
 
-3.  <span data-ttu-id="81625-133">按一下會議中要加入的連結。</span><span class="sxs-lookup"><span data-stu-id="81625-133">Click the link in the meeting to join.</span></span>
+3.  <span data-ttu-id="da21b-133">按一下會議中的連結以加入。</span><span class="sxs-lookup"><span data-stu-id="da21b-133">Click the link in the meeting to join.</span></span>
 
-4.  <span data-ttu-id="81625-134">從會議服務接聽通話，並確認您已連線到會議音訊。</span><span class="sxs-lookup"><span data-stu-id="81625-134">Answer the call from the conference service and verify that you are connected to meeting audio.</span></span>
+4.  <span data-ttu-id="da21b-134">從會議服務接聽來電，並確認您已連線至會議音訊。</span><span class="sxs-lookup"><span data-stu-id="da21b-134">Answer the call from the conference service and verify that you are connected to meeting audio.</span></span>
 
-<span data-ttu-id="81625-135">**測試推播通知**</span><span class="sxs-lookup"><span data-stu-id="81625-135">**Test push notifications**</span></span>
+<span data-ttu-id="da21b-135">**測試推入通知**</span><span class="sxs-lookup"><span data-stu-id="da21b-135">**Test push notifications**</span></span>
 
-1.  <span data-ttu-id="81625-136">在使用者 A 的行動裝置上，使用使用者 A 的帳戶登入 Lync。</span><span class="sxs-lookup"><span data-stu-id="81625-136">On user A’s mobile device, sign in to Lync with user A’s account.</span></span>
+1.  <span data-ttu-id="da21b-136">在使用者 A 的行動裝置上登入 Lync 使用者 A 的帳戶。</span><span class="sxs-lookup"><span data-stu-id="da21b-136">On user A’s mobile device, sign in to Lync with user A’s account.</span></span>
 
-2.  <span data-ttu-id="81625-137">在行動裝置上開啟另一個應用程式。</span><span class="sxs-lookup"><span data-stu-id="81625-137">Open another application on the mobile device.</span></span>
+2.  <span data-ttu-id="da21b-137">開啟 [行動裝置上的另一個應用程式]。</span><span class="sxs-lookup"><span data-stu-id="da21b-137">Open another application on the mobile device.</span></span>
 
-3.  <span data-ttu-id="81625-138">在其他用戶端上，使用使用者 B 的帳戶登入 Lync。</span><span class="sxs-lookup"><span data-stu-id="81625-138">On a different client, sign in to Lync with user B’s account.</span></span>
+3.  <span data-ttu-id="da21b-138">在不同的用戶端上登入 Lync 使用者 B 的帳戶。</span><span class="sxs-lookup"><span data-stu-id="da21b-138">On a different client, sign in to Lync with user B’s account.</span></span>
 
-4.  <span data-ttu-id="81625-139">從使用者 B 傳送 IM 給使用者 A。</span><span class="sxs-lookup"><span data-stu-id="81625-139">Send an IM from user B to user A.</span></span>
+4.  <span data-ttu-id="da21b-139">從使用者 B 傳送 IM 給使用者 a。</span><span class="sxs-lookup"><span data-stu-id="da21b-139">Send an IM from user B to user A.</span></span>
 
-5.  <span data-ttu-id="81625-140">確認 IM 通知出現在使用者 A 的行動裝置上。</span><span class="sxs-lookup"><span data-stu-id="81625-140">Verify that the IM notification appears on user A’s mobile device.</span></span>
+5.  <span data-ttu-id="da21b-140">確認 IM 通知出現在使用者 A 的行動裝置上。</span><span class="sxs-lookup"><span data-stu-id="da21b-140">Verify that the IM notification appears on user A’s mobile device.</span></span>
 
 </div>
 

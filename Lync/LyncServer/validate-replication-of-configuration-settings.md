@@ -1,5 +1,5 @@
 ---
-title: 驗證配置設定的複製
+title: 驗證複製組態設定
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184663
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 698686dd217bf16457e4c3f4ebe6867566dcf49d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 65620e07227581f35e5760e8665e615c6976bde2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738573"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048267"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="validate-replication-of-configuration-settings"></a><span data-ttu-id="fd046-102">驗證配置設定的複製</span><span class="sxs-lookup"><span data-stu-id="fd046-102">Validate replication of configuration settings</span></span>
+# <a name="validate-replication-of-configuration-settings"></a><span data-ttu-id="8ea94-102">驗證複製組態設定</span><span class="sxs-lookup"><span data-stu-id="8ea94-102">Validate replication of configuration settings</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41738573"
 
 <span> </span>
 
-<span data-ttu-id="fd046-103">_**主題上次修改日期：** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="fd046-103">_**Topic Last Modified:** 2012-10-19_</span></span>
+<span data-ttu-id="8ea94-103">_**主題上次修改日期：** 2012年-10-19_</span><span class="sxs-lookup"><span data-stu-id="8ea94-103">_**Topic Last Modified:** 2012-10-19_</span></span>
 
-<span data-ttu-id="fd046-104">您可以在中央管理儲存所在的內部電腦上執行 Lync Server 2013 **CsManagementStoreReplicationStatus** Cmdlet，或在已安裝 lync Server 2013 核心元件的任何加入網域的電腦上執行 lync server，以驗證將配置資訊複製到 Edge 伺服器。</span><span class="sxs-lookup"><span data-stu-id="fd046-104">You can validate the replication of configuration information to the Edge Server by running the Lync Server 2013 **Get-CsManagementStoreReplicationStatus** cmdlet on the internal computer on which the Central Management store is located or any domain joined computer on which Lync Server 2013 Core Components is installed.</span></span>
+<span data-ttu-id="8ea94-104">您可以藉由在中央管理存放區所在的內部電腦或任何加入的網域電腦安裝 Lync Server 2013 核心元件上執行 Lync Server 2013 **Get-csmanagementstorereplicationstatus** cmdlet 驗證複寫至 Edge Server 的組態資訊。</span><span class="sxs-lookup"><span data-stu-id="8ea94-104">You can validate the replication of configuration information to the Edge Server by running the Lync Server 2013 **Get-CsManagementStoreReplicationStatus** cmdlet on the internal computer on which the Central Management store is located or any domain joined computer on which Lync Server 2013 Core Components is installed.</span></span>
 
-<span data-ttu-id="fd046-105">初始結果可能會指出狀態為「False」，而不是「True」以進行複製。</span><span class="sxs-lookup"><span data-stu-id="fd046-105">Initial results may indicate the status as "False" instead of "True" for replication.</span></span> <span data-ttu-id="fd046-106">如果是，請執行**CsManagementStoreReplication** Cmdlet，並允許複製完成時間，然後再次執行**CsManagementStoreReplicationStatus** Cmdlet。</span><span class="sxs-lookup"><span data-stu-id="fd046-106">If so, run the **Invoke-CsManagementStoreReplication** cmdlet and allow time for the replication to complete before running the **Get-CsManagementStoreReplicationStatus** cmdlet again.</span></span>
+<span data-ttu-id="8ea94-105">初始結果可能會指出複寫的狀態為 "False"，而非 "True"。</span><span class="sxs-lookup"><span data-stu-id="8ea94-105">Initial results may indicate the status as "False" instead of "True" for replication.</span></span> <span data-ttu-id="8ea94-106">若是如此，請執行 **Invoke-CsManagementStoreReplication** Cmdlet，並等候複寫完成，然後再次執行 **Get-CsManagementStoreReplicationStatus** Cmdlet。</span><span class="sxs-lookup"><span data-stu-id="8ea94-106">If so, run the **Invoke-CsManagementStoreReplication** cmdlet and allow time for the replication to complete before running the **Get-CsManagementStoreReplicationStatus** cmdlet again.</span></span>
 
 </div>
 
