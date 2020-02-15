@@ -18,12 +18,12 @@ f1.keywords:
 description: Microsoft Teams 用戶端應用程式和系統管理員體驗目前的已知問題清單。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b90c2ab7b204964082c05cbc657c4945f5730fde
-ms.sourcegitcommit: f859843003b34feab18a3d2df34fdbb9858e7148
+ms.openlocfilehash: d0aafe4bcceca731825726d084e41fab37bb9931
+ms.sourcegitcommit: 93a8bd330c9a8ced81cd3eafb7b7236e9ed2066f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41889446"
+ms.lasthandoff: 02/13/2020
+ms.locfileid: "41962092"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams 的已知問題
 
@@ -78,7 +78,7 @@ ms.locfileid: "41889446"
 
 |**問題標題**|**行為/徵狀**|**已知的因應措施**|**發現日期**|
 |:-----|:-----|:-----|:-----|
-|Teams 需要存取 Google Gstatic <br/> |Teams 目前需要讓所有使用者存取 (TCP 通訊埠 443) 連線到 Google ssl.gstatic.com 服務 (https://ssl.gstatic.com)。即使您沒有使用 Gstatic 亦同。 Teams 很快會移除此要求 (2020 年初)。 <br/> | 無因應措施。 <br/> |2020/2/10  <br/> |
+|Teams 需要存取 Google Gstatic <br/> |Teams 目前要求所有使用者取得Google ssl.gstatic.com 服務的存取權 (TCP 通訊埠 443)，即使您未使用 Gstatic 也是一樣。 Teams 很快會移除此要求 (2020 年初)。 <br/> | 無因應措施。 <br/> |2020/1/30  <br/> |
 
 |**問題標題**|**行為/徵狀**|**已知的因應措施**|**發現日期**|
 |:-----|:-----|:-----|:-----|

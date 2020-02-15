@@ -17,12 +17,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ea50a504aa43c9df333a077c7f866a487f544a04
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 0fd871f36c2261dd5ec243dbd8dbdd52a3a8e694
+ms.sourcegitcommit: 93a8bd330c9a8ced81cd3eafb7b7236e9ed2066f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41833453"
+ms.lasthandoff: 02/13/2020
+ms.locfileid: "41962082"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和規格
 
@@ -42,6 +42,7 @@ ms.locfileid: "41833453"
 |一個 Office 365 租用戶可以擁有的團隊數目    | 500,000&sup2;     |
 |每個團隊的頻道數目    | 200 (包含已刪除的頻道)&sup3;         |
 |每個團隊的私人頻道數量    |30|
+|頻道交談貼文大小 | 每篇貼文約 28 KB<sup>4</sup> |
 
 &sup1; Azure Active Directory 中的任何目錄物件都會計入此限制。 全域系統管理員不受此限制，使用[應用程式權限](https://docs.microsoft.com/graph/permissions-reference)呼叫 Microsoft Graph 的應用程式也不受此限制。
 
@@ -49,7 +50,9 @@ ms.locfileid: "41833453"
 
 &sup3; 已刪除的頻道可以在 30 天內還原。 在這 30 天內，已刪除的頻道會持續計入每個團隊 200 個頻道的限制。 30 天後，已刪除的頻道及其內容會永久刪除，該頻道不再計入每個團隊 200 個頻道的限制。
 
-## <a name="messaging"></a>傳訊
+<sup>4</sup> 28 KB 是大約限制，因為它包含訊息本身 (文字、影像連結等等)、@ 提及、連接器數目和回應。
+
+## <a name="messaging"></a>訊息傳送
 
 ### <a name="chat"></a>聊天
 
@@ -61,10 +64,13 @@ Teams 的聊天是在 Microsoft Exchange 後端執行，因此 Exchange 的傳�
 |---------|---------|
 |一個私人聊天中的人員數目<sup>1</sup>  | 100    |
 |檔案附件的數目<sup>2</sup>  |10     |
+|聊天大小 | 每篇貼文約 28 KB<sup>3</sup> |
 
 <sup>1</sup> 如果一個聊天超過 20 個人，以下的聊天功能會關閉：Outlook 自動回覆和 Teams 狀態訊息、輸入指示器、視訊和音訊通話、共用、讀取回條。
 
 <sup>2</sup> 如果附件數目超過此限制，您會看見錯誤訊息。
+
+<sup>3</sup> 28 KB 是大約限制，因為它包含訊息本身 (文字、影像連結等等)、@ 提及和回應。
 
 ### <a name="emailing-a-channel"></a>傳送電子郵件到頻道
 
