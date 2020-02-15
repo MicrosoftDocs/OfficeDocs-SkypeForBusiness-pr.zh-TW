@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：驗證 Edge 部署
+title: Lync Server 2013： 驗證 edge 部署
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183290
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1e6e3bf4e2fb1004c1e0312b4ef43f3f6f6ba690
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ac4c4ad1b6bddcdc44383f0be8e2c05e00de7b52
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742023"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007282"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="verifying-your-edge-deployment-in-lync-server-2013"></a>在 Lync Server 2013 中驗證 Edge 部署
+# <a name="verifying-your-edge-deployment-in-lync-server-2013"></a>驗證 edge 部署 Lync Server 2013 中
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41742023"
 
 <span> </span>
 
-_**主題上次修改日期：** 2010-11-07_
+_**主題上次修改日期：** 2010年-11-07_
 
-完成安裝及設定邊緣元件之後，您必須確認伺服器的設定和連線，並驗證您所支援的每一種外部使用者類型的連線能力。
+在您完成 Edge 元件的安裝與設定之後，您必須驗證伺服器的設定和連線能力，以及驗證您所支援的每種外部使用者類型的連線能力。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [在 Lync Server 2013 中驗證內部伺服器和 Edge Server 之間的連線](lync-server-2013-verify-connectivity-between-internal-servers-and-edge-servers.md)
+  - [確認內部伺服器和 Lync Server 2013 中的 Edge Server 之間的連線](lync-server-2013-verify-connectivity-between-internal-servers-and-edge-servers.md)
 
-  - [在 Lync Server 2013 中驗證外部使用者的連線能力](lync-server-2013-verify-connectivity-for-external-users.md)
+  - [確認 Lync Server 2013 中的外部使用者的連線](lync-server-2013-verify-connectivity-for-external-users.md)
 
 </div>
 

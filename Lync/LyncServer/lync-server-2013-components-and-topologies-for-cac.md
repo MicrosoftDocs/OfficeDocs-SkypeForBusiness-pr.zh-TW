@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：CAC 的元件與拓撲
+title: Lync Server 2013： 的元件和拓撲 CAC
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184685
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5f9d705acb282c68372a2f3087ff010bab8f9a01
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 08b5ad344df748c56173ce36dd9335a3c0719066
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742683"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008779"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="components-and-topologies-for-cac-in-lync-server-2013"></a>Lync Server 2013 中 CAC 的元件與拓撲
+# <a name="components-and-topologies-for-cac-in-lync-server-2013"></a>Lync Server 2013 中的 CAC 的元件和拓撲
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41742683"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-20_
+_**主題上次修改日期：** 2012年-10-20 個_
 
-本節中的主題提供使用各種類型的網路拓撲來部署通話許可控制（CAC）的特殊考慮事項的相關資訊。
+本節中的主題提供部署通話許可控制 (CAC) 並搭配各種網路拓撲之特殊考量的相關資訊。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [使用 Lync Server 2013 在 MPLS 網路上呼叫許可控制](lync-server-2013-call-admission-control-on-an-mpls-network.md)
+  - [MPLS 網路與 Lync Server 2013 上的通話許可控制](lync-server-2013-call-admission-control-on-an-mpls-network.md)
 
-  - [Lync Server 2013 中的 SIP 主幹上的通話許可控制](lync-server-2013-call-admission-control-on-a-sip-trunk.md)
+  - [Lync Server 2013 中的通話許可控制 SIP 主幹上](lync-server-2013-call-admission-control-on-a-sip-trunk.md)
 
-  - [Lync Server 2013 中的協力廠商 PSTN 閘道或 PBX 的通話許可控制](lync-server-2013-call-admission-control-with-a-third-party-pstn-gateway-or-pbx.md)
+  - [Lync Server 2013 中的通話許可控制與協力廠商 PSTN 閘道或 PBX](lync-server-2013-call-admission-control-with-a-third-party-pstn-gateway-or-pbx.md)
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：災害復原測試
+title: Lync Server 2013： 嚴重損壞修復測試
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969571
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f7c6c3b7c3b5d78324fe9c674650dd94338baea4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4fc04381e315375fe0d5858c9a12ad577f6c8baf
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739193"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007822"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="disaster-recovery-test-in-lync-server-2013"></a>Lync Server 2013 中的災害復原測試
+# <a name="disaster-recovery-test-in-lync-server-2013"></a>Lync Server 2013 中的嚴重損壞修復測試
 
 </div>
 
@@ -35,74 +35,74 @@ ms.locfileid: "41739193"
 
 <span> </span>
 
-_**主題上次修改日期：** 2015-01-26_
+_**主題上次修改日期：** 2015年-01-26_
 
-針對 Lync Server 2013 pool server 執行系統復原，以測試您已記錄的災害復原程式。 本測試將會模擬一台伺服器的完整硬體故障狀況，並將協助保證各項資源、計畫和資料都可復原。 請嘗試每月變換測試重點，以便您組織每次都能測試不同伺服器的故障狀況或設備的其他部件。
+執行系統修復 Lync Server 2013 集區伺服器來測試您所記錄的災害復原程序。 這項測試將模擬一部伺服器，完整的硬體失敗，並可協助確保資源、 計劃及資料都可用於復原。 請試著旋轉測試每個月的焦點，以便您的組織測試不同伺服器或其他設備每次失敗。
 
-請注意，組織執行災害復原測試的排程各不相同，切勿忽略或疏於進行災害復原測試。
+請注意，依據組織執行嚴重損壞修復測試排程而有所不同。 它是非常重要的嚴重損壞修復測試不會略過或是忽略。
 
 <div>
 
 
-將您的 Lync Server 2013 拓撲、原則和配置設定匯出至檔案。 除此之外，在升級、發生硬體故障或某些其他問題而造成資料遺失之後，此檔案還可在用於將此資訊還原至中央管理存放區。
+將 Lync Server 2013 拓撲、 原則和設定匯出至檔案。 除此之外，這個檔案然後可以用來還原中央管理存放區的這項資訊之後升級、 硬體故障、 或某些其他問題，會導致資料遺失。
 
-將您的 Lync Server 2013 拓撲、原則和設定設定匯入中央管理儲存體或本機電腦，如下列命令所示：
+匯入您的 Lync Server 2013 拓撲、 原則和設定中央管理存放區，或本機電腦的下列命令所示：
 
 `Import-CsConfiguration -ByteInput <Byte[]> [-Force <SwitchParameter>] [-LocalStore <SwitchParameter>]`
 
 `Import-CsConfiguration -FileName <String> [-Force <SwitchParameter>] [-LocalStore <SwitchParameter>]`
 
-若要備份 Lync Server 2013 的資料：
+若要備份實際執行 Lync Server 2013 資料：
 
-  - 使用標準的 SQL Server 備份程式將資料庫轉儲至檔案或磁帶轉儲裝置，以備份 RTC 及 LCSLog 資料庫。
+  - 備份 RTC 和 LCSLog 資料庫使用標準的 SQL Server 備份程序，以將資料庫檔案或磁帶時付出的傾印裝置傾印。
 
-  - 使用協力廠商備份應用程式，將資料備份至檔案或磁帶。
+  - 使用協力廠商備份應用程式備份資料，檔案或到磁帶。
 
-  - 使用 Export-CsUserData cmdlet 來建立整個 RTC 資料庫的 XML 匯出。
+  - 使用 Export-csuserdata cmdlet 來建立 XML 匯出的整個 RTC 資料庫。
 
-  - 使用檔案系統備份或協力廠商來備份會議內容和規範記錄。
+  - 使用檔案系統備份或協力廠商備份會議內容及規範的記錄檔。
 
-  - 使用 Export CsConfiguration 命令列工具來備份 Lync Server 2013 設定。
+  - 使用 Export-csconfiguration 命令列工具來備份 Lync Server 2013 設定。
 
-容錯移轉程序的第一步驟包含將使用者從生產集區強制移至災害復原集區。
+容錯移轉程序的第一個步驟包含實際執行集區的災害復原集區的使用者以強制的移動。
 
-此一步驟將為強制移動，因為生產集區將無法接受使用者遷移。
+這將會以強制的移動，因為實際執行集區無法使用接受使用者重新配置。
 
-除了 RTC SQL 資料庫上的記錄更新之外，Lync Server 2013 移動使用者程式也會對使用者帳戶物件上的屬性有實際的變更。
+使用 Lync Server 2013 移動使用者程序實際上就是使用者帳戶物件上的 RTC SQL 資料庫的記錄更新除了屬性的變更。
 
-這項資料可透過下列兩項程序還原：
+此資料可透過下列兩個程序還原：
 
-  - 您可以使用標準的 SQL Server 還原程式，或使用協力廠商的備份/還原公用程式，從生產 SQL Server 上的原始備份轉儲裝置還原 RTC 資料庫。
+  - 可以還原 RTC 資料庫從原始備份傾印裝置從實際執行環境使用標準的 SQL Server 還原程序，或使用協力廠商的 SQL Server 備份/還原公用程式。
 
-  - 使用從生產 SQL Server 匯出建立的 XML 檔案便可透過 DBIMPEXP.exe 公用程式還原使用者聯絡資料。
+  - 使用當初用來建立實際執行 SQL Server 匯出的 XML 檔案 DBIMPEXP.exe 公用程式可以還原使用者連絡人資料。
 
-還原此資料之後，使用者就能有效地連線至災害復原 Lync Server 2013 池，並照常運作。
+此資料還原之後，使用者可以有效地連線至災害復原 Lync Server 2013 集區，及操作像平常一樣。
 
-若要讓使用者能夠連線到災害復原 Lync Server 2013 池，必須變更 DNS 記錄。
+若要讓使用者能夠連線至災害復原 Lync Server 2013 集區，DNS 記錄變更將會是必要。
 
-用戶端將會使用自動設定和 DNS SRV 記錄來參照生產 Lync Server 2013 池：
+實際執行 Lync Server 2013 集區將用戶端使用自動設定資料庫和 DNS SRV 記錄的參照：
 
-  - SRV： \_sip。\_tls。\<網域\> /CNAME： SIP。\<網域\>
+  - SRV: \_sip。\_tls。\<網域\>/CNAME: SIP。\<網域\>
 
-  - CNAME： SIP。\<網域\> /cvc-pool-1。\<網域\>
+  - CNAME: SIP。\<網域\>/cvc-pool-1。\<網域\>
 
-若要輔助容錯移轉，必須更新這項 CNAME 記錄才能參考 DROCSPool FQDN：
+若要加速容錯移轉，您必須更新此 CNAME 記錄，以參照 DROCSPool FQDN:
 
-  - CNAME： SIP。\<網域\> /DROCSPool。\<網域\>
+  - CNAME: SIP。\<網域\>/DROCSPool。\<網域\>
 
-  - 呼吸.\<網域\>
+  - Sip。\<網域\>
 
   - AV.\<網域\>
 
-  - webconf.\<網域\>
+  - fea-webconf-service。\<網域\>
 
-  - OCSServices.\<網域\>
+  - OCSServices。\<網域\>
 
 <div>
 
 
 > [!IMPORTANT]  
-> 如需詳細的管理與管理程式，請參閱<A href="lync-server-2013-backing-up-and-restoring-lync-server.md">備份和還原 Lync Server 2013</A>。
+> 如需詳細的系統管理與管理程序，請參閱<A href="lync-server-2013-backing-up-and-restoring-lync-server.md">備份和還原 Lync Server 2013</A>。
 
 
 
@@ -112,16 +112,16 @@ _**主題上次修改日期：** 2015-01-26_
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
-[在 Lync Server 2013 中規劃高可用性和災害復原](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)  
-[Lync Server 2013 中的備份和高可用性 Cmdlet](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps)  
+[規劃 Lync Server 2013 中的高可用性和災害復原](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)  
+[備份與 Lync Server 2013 中的高可用性 cmdlet](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps)  
 
 
-[匯入-CsConfiguration](https://docs.microsoft.com/powershell/module/skype/Import-CsConfiguration)  
-[備份和還原 Lync Server 2013](lync-server-2013-backing-up-and-restoring-lync-server.md)  
-[管理 Lync Server 2013 災害復原、高可用性及備份服務](lync-server-2013-managing-lync-server-disaster-recovery-high-availability-and-backup-service.md)  
+[Import-csconfiguration](https://docs.microsoft.com/powershell/module/skype/Import-CsConfiguration)  
+[備份及還原 Lync Server 2013](lync-server-2013-backing-up-and-restoring-lync-server.md)  
+[管理 Lync Server 2013 災害復原、 高可用性及備份服務](lync-server-2013-managing-lync-server-disaster-recovery-high-availability-and-backup-service.md)  
   
 
 </div>

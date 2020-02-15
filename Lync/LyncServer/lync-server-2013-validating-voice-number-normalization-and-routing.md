@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：驗證語音號碼標準化與路由
+title: Lync Server 2013： 驗證語音號碼正規化] 和 [路由
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969633
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 16739595878b0c67b37f988295a4b02877a3a6fd
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: cbc15dc47a7eeee0b7fb4bd49ba5ea2584e94fe7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757927"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007382"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="validating-voice-number-normalization-and-routing-in-lync-server-2013"></a>驗證 Lync Server 2013 中的語音號碼標準化與路由
+# <a name="validating-voice-number-normalization-and-routing-in-lync-server-2013"></a>驗證語音號碼正規化和 Lync Server 2013 中的路由
 
 </div>
 
@@ -35,34 +35,34 @@ ms.locfileid: "41757927"
 
 <span> </span>
 
-_**主題上次修改日期：** 2014-05-19_
+_**上次修改主題：** 2014年-05-19_
 
-正確的數位正常化與路由對於企業語音環境而言非常重要。 特別是在從專用分支 exchange （PBX）遷移到獨立的 Lync Server 環境時，成功遷移的其中一個金鑰就是顯示並記錄所有現有的撥號規則，並建立適當的正常化規則、語音原則[電話使用方式] 和 [路線]。
+正確的數字正規化] 和 [路由是非常重要功能的 Enterprise Voice 環境。 期間從專用交換機 (PBX) 至獨立 Lync Server 環境的移轉，尤其是一項成功移轉的機碼是顯示文件所有現有的撥號規則，並建立適當的正規化規則，語音原則，電話使用方式和路由。
 
-驗證編號正常化與路由不僅在遷移期間很重要，而且在系統的正常執行中也很重要。
+驗證號碼正規化及路由重要不是只有在移轉期間，但也期間 normal，穩定的系統的作業。
 
-我們建議您每天使用 Lync Server [控制台] 進行這項驗證，從針對 Lync Server 全域設定中發佈的目前正常化規則開發一組強健的測試案例開始。 這些測試案例應該每日執行，以醒目提示已作出並提交給撥號方案的任何不想要的變更。
+我們建議使用 Lync Server Control Panel，啟動與開發功能強大的測試案例，對目前的 Lync Server 通用設定] 中已發佈的正規化規則集集每天執行此驗證。 這些測試案例應該執行每日] 可反白顯示任何不想要的變更進行並認可到撥號對應表。
 
-Lync Server [控制台] 也可協助您視覺化、測試、變更、封存及共用有關語音路由與變更企業語音數位正常化規則、撥號方案、語音原則及路線的設定資訊。 它還有其他功能可讓您執行下列作業：
+Lync Server Control Panel 也可協助您視覺化、 測試、 變更、 封存和共用的組態資訊語音路由和變更 Enterprise Voice 號碼正規化規則、 撥號對應表、 語音原則和路由。 它具有額外的功能，為執行下列動作：
 
-  - 在系統之間匯出及匯入或備份語音路由資料。
+  - 匯出及匯入或備份系統之間的語音路由的資料。
 
-  - 在將配置變更上傳至實際系統之前先進行測試。
+  - 測試組態變更，再將它們上傳至 live 系統。
 
-  - 建立並執行配置測試案例，以協助確保在進行變更之後，路由資料的可用性，但在向已部署的系統提交變更之前。
+  - 建立及部署的系統執行設定測試案例，以協助確保路由資料的可用性，變更之後，但它們認可之前所做的變更。
 
-  - 建立及變更數位正常化規則、位置設定檔、語音原則及路由資料，而不需要撰寫必要的一般運算式。
+  - 建立及變更數字正規化規則、 位置設定檔、 語音原則和路由資料，而不需要撰寫所需的規則運算式。
 
-  - 分析位置設定檔與 Lync Server Phone Edition 的相容性。
+  - 分析與 Lync Server Phone Edition 的相容性的位置設定檔。
 
-  - 您可以在[Lync Server 2013 的測試語音路由中](lync-server-2013-test-voice-routing.md)找到更多關於語音路由測試的資訊
+  - 可以在[測試語音路由 Lync Server 2013 中](lync-server-2013-test-voice-routing.md)找到的語音路由測試的詳細資訊
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
-[在 Lync Server 2013 中測試語音路由](lync-server-2013-test-voice-routing.md)  
+[測試 Lync Server 2013 中的語音路由](lync-server-2013-test-voice-routing.md)  
   
 
 </div>

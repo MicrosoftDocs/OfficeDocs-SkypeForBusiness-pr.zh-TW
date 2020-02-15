@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：中繼伺服器元件
+title: Lync Server 2013： 中繼伺服器元件
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184239
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 363b277003d7ca1581475ec7c1197bb0f60ccfaa
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 82d540d37dee0de37d3986c02ac2243a95fe4404
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41766074"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008255"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,43 +35,43 @@ ms.locfileid: "41766074"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-09-21_
+_**主題上次修改日期：** 2012年-09-21_
 
-如果您部署企業語音工作負載，您必須部署 Lync Server 2013 （中繼伺服器）。 本節說明基本功能、相依性、基本拓撲及規劃指導方針。
+如果您部署企業語音工作負載，您必須部署 Lync Server 2013 中繼伺服器。 本節說明基本功能、相依性、基本拓撲以及規劃指南。
 
-中繼伺服器會轉譯信號，並在部分設定中，在您內部 Lync Server 2013、企業語音結構和公用交換電話網絡（PSTN）閘道或會話初始通訊協定（SIP）幹線之間的媒體進行轉換。 在 Lync Server 2013 端，中繼伺服器會偵聽單一相互 TLS （MTLS）傳輸位址。 在閘道端，中繼伺服器會偵聽與拓撲檔中定義之 trunks 相關聯的所有關聯偵聽埠。 所有合格的閘道都必須支援 TLS，但是也可以啟用 TCP。 對於不支援 TLS 的閘道，支援 TCP。
+中繼伺服器及內容翻譯信號，在某些組態中，您內部 Lync Server 2013 Enterprise Voice 基礎結構與公用交換的電話網路 (PSTN) 閘道或工作階段初始通訊協定 (SIP) 主幹間的媒體。 在 Lync Server 2013 端中繼伺服器同時接聽單一的相互 TLS (MTLS) 傳輸地址。 在閘道端，中繼伺服器會在所有與＜拓撲＞文件中所定義之主幹相關聯的相關聆聽連接埠上聆聽。 所有合格的閘道都必須支援 TLS，不過也可以一併啟用 TCP。 不支援 TLS 的閘道，仍舊可以支援 TCP。
 
-如果您的環境中也有現有的公用分支 Exchange （PBX），轉送伺服器會處理企業語音使用者與 PBX 之間的通話。 如果您的 PBX 是 IP PBX，您可以在 PBX 與中繼伺服器之間建立直接 SIP 連線。 如果您的 PBX 是時段分複用（TDM） PBX，您也必須在中繼伺服器與 PBX 之間部署 PSTN 閘道。
+如果您也會在您的環境中有現有的公用 Branch Exchange (PBX)，中繼伺服器會處理企業語音使用者與 PBX 之間的通話。 如果您的 PBX 是 IP PBX，您可以建立中繼伺服器與 PBX 之間的直接 SIP 連線。 如果您 PBX 時間部門多工 (TDM) PBX，則也必須部署中繼伺服器和 PBX 間的 PSTN 閘道。
 
-中繼伺服器會根據預設，與前端伺服器 collocated。 您也可以將中繼伺服器部署在獨立的池中，以提高效能，或部署 SIP 中繼（在這種情況下，強烈建議使用獨立的池）。
+根據預設，中繼伺服器已組合與前端伺服器。 中繼伺服器也可以部署在獨立的集區，基於效能考量，或如果您部署 SIP 主幹，這種情況的獨立集區強烈建議。
 
-如果您在支援媒體旁路和 DNS 負載平衡的合格 PSTN 閘道部署直接 SIP 連線，則不需要獨立的中繼伺服器池。 不需要獨立的吸入式伺服器池，因為合格的閘道能夠將 DNS 負載平衡傳送到中繼伺服器的池中，而且可以從池中的任何中繼伺服器接收流量。
+如果您對支援媒體旁路和 DNS 負載平衡的合格 PSTN 閘道部署了直接 SIP 連線，就不需要獨立的中繼伺服器集區。 因為合格閘道能夠將 DNS 負載平均分攤到中繼伺服器集區中，讓後者接收集區裡任何中繼伺服器的流量。
 
-我們也建議您在已部署 IP Pbx 或連線至網際網路電話語音器提供者的會話邊界控制器（SBC）時，在前端池中 collocate 轉送伺服器，只要符合下列任何一個條件：
+我們也建議您，只要出現下列情形，如果您已經部署了 IP-PBX 或連線至網際網路電話服務提供者工作階段邊界控制器 (SBC) 時，請在前端集區上組合中繼伺服器：
 
-  - IP PBX 或 SBC 已設定為從池中的任何中繼伺服器接收流量，並可將流量統一傳送給池中的所有中繼伺服器。
+  - IP-PBX 或 SBC 設定為接收集區中任何中繼伺服器的流量，並一律將流量傳送至集區中的所有中繼服務器。
 
-  - Ip-pbx 不支援媒體旁路，但是託管轉送伺服器的前端池可以處理語音轉換，以取得不需要媒體旁路的呼叫。
+  - IP-PBX 不支援媒體旁路，但是主控中繼伺服器的前端集區可以處理語音轉碼要不適用媒體旁路的通話。
 
-您可以使用 Microsoft Lync Server 2013、規劃工具來評估您要 collocate 中繼伺服器的前端池是否可以處理負載。 如果您的環境無法符合這些需求，則您必須部署獨立的中繼伺服器池。
+您可以使用 Microsoft Lync Server 2013 規劃工具來評估是否想要組合的中繼伺服器的前端集區可以處理負載。 如果環境無法符合這些需求，則您必須部署獨立的中繼伺服器集區。
 
 中繼伺服器的主要功能如下所示：
 
-  - 在 Lync Server 端對 SRTP 進行加密和解密
+  - 加密與解密 SRTP Lync 伺服器端
 
-  - 將 SIP （適用于不支援 TLS 的閘道）轉換為經由相互 TLS 的 SIP
+  - 將透過 TCP 的 SIP (對於不支援 TLS 的閘道) 轉譯為透過相互 TLS 的 SIP
 
-  - 在 Lync Server 與中繼伺服器的閘道對等之間轉換媒體資料流程
+  - 轉譯 Lync 伺服器和中繼伺服器閘道對等之間的媒體資料流
 
-  - 將網路以外的用戶端連線到內部的 ICE 元件，讓介質能在 NAT 和防火牆間進行遍歷
+  - 將網路外部的用戶端連線到內部 ICE 元件，這些元件可以讓媒體周遊 NAT 與防火牆
 
-  - 充當閘道不支援的通話流程媒介，例如來自企業語音用戶端的遠端工作者呼叫
+  - 做為閘道不支援，例如從 Enterprise Voice 用戶端上的遠端工作者的通話的通話流程媒介
 
-  - 在包含 SIP 中繼的部署中，使用 SIP 中繼服務提供者來提供 PSTN 支援，從而消除 PSTN 閘道的需求
+  - 在包含 SIP 主幹的部署中，搭配使用 SIP 主幹服務提供者可提供 PSTN 支援，如此便不需要 PSTN 閘道
 
-下圖顯示與基本 PSTN 閘道和企業語音基礎結構通訊時，中繼伺服器所使用的傳送信號和媒體通訊協定。
+下圖顯示中繼伺服器與基本 PSTN 閘道及 Enterprise Voice 基礎結構進行通訊時所使用的訊號和媒體通訊協定。
 
-**中繼伺服器所使用的信號和媒體通訊協定**
+**中繼伺服器使用的訊號和媒體通訊協定**
 
 ![中繼伺服器通訊協定圖表](images/Gg398399.c3d39ba0-e323-4a58-8f07-4e80d3278af2(OCS.15).jpg "中繼伺服器通訊協定圖表")
 
@@ -79,7 +79,7 @@ _**主題上次修改日期：** 2012-09-21_
 
 
 > [!NOTE]  
-> 如果您使用的是 TCP 或 RTP/RTCP （而不是 SRTP 或 SRTCP），請在 PSTN 閘道與中繼伺服器之間的網路上進行測量，以協助確保網路的安全性與隱私權。
+> 如果您在 PSTN 閘道與中繼伺服器之間的網路上使用 TCP 或 RTP/RTCP （而非 SRTP 或 SRTCP），我們建議您採取措施以協助確保安全性和隱私權的網路。
 
 
 
@@ -87,19 +87,19 @@ _**主題上次修改日期：** 2012-09-21_
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
   - [Lync Server 2013 中的 M:N 主幹](lync-server-2013-m-n-trunk.md)
 
-  - [Lync Server 2013 中的通話許可控制和中繼伺服器](lync-server-2013-call-admission-control-and-mediation-server.md)
+  - [通話許可控制和 Lync Server 2013 中的中繼伺服器](lync-server-2013-call-admission-control-and-mediation-server.md)
 
-  - [Lync Server 2013 中的增強型 9-1-1 (E9-1-1) 和中繼伺服器](lync-server-2013-enhanced-9-1-1-e9-1-1-and-mediation-server.md)
+  - [增強型的 9-1-1 (E9-1-1) 和 Lync Server 2013 中的中繼伺服器](lync-server-2013-enhanced-9-1-1-e9-1-1-and-mediation-server.md)
 
-  - [Lync Server 2013 中的媒體旁路和中繼伺服器](lync-server-2013-media-bypass-and-mediation-server.md)
+  - [媒體旁路和 Lync Server 2013 中的中繼伺服器](lync-server-2013-media-bypass-and-mediation-server.md)
 
-  - [Lync Server 2013 中之中繼伺服器的元件和拓撲](lync-server-2013-components-and-topologies-for-mediation-server.md)
+  - [Lync Server 2013 中的中繼伺服器的元件和拓撲](lync-server-2013-components-and-topologies-for-mediation-server.md)
 
-  - [Lync Server 2013 中的中繼伺服器部署指導方針](lync-server-2013-deployment-guidelines-for-mediation-server.md)
+  - [Lync Server 2013 中的中繼伺服器的部署指導方針](lync-server-2013-deployment-guidelines-for-mediation-server.md)
 
 </div>
 

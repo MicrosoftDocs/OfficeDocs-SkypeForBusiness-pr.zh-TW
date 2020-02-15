@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：在災害復原期間管理通話駐留
+title: Lync Server 2013： 災害復原期間管理通話駐留
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733645
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f324064e2936bda7b5e015aa502aaca10407e591
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 727751762fc63d9e4f888b20dabd62fef0278ea6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733413"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007802"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="manage-call-park-during-disaster-recovery-in-lync-server-2013"></a>在 Lync Server 2013 中於災害復原期間管理通話駐留
+# <a name="manage-call-park-during-disaster-recovery-in-lync-server-2013"></a>Lync Server 2013 中的災害復原期間管理通話駐留
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41733413"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-09-10_
+_**主題上次修改日期：** 2012年-09-10_
 
-Lync Server 2013 支援在災害復原期間，在備份池中的通話駐留。 本節說明如果您想要在中斷期間支援電話寄存，以及在中斷期間停用通話的情況，請考慮下列事項。
+Lync Server 2013 支援備份集區中的通話駐留災害復原期間。 本小節會說明若您想要支援系統中斷期間的通話駐留和會發生什麼情況駐留的通話中斷的階段期間的考量事項。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [在 Lync Server 2013 中規劃通話駐留災害復原](lync-server-2013-planning-for-call-park-disaster-recovery.md)
+  - [規劃 Lync Server 2013 中的通話駐留災害復原](lync-server-2013-planning-for-call-park-disaster-recovery.md)
 
-  - [集區失敗期間使用 Lync Server 2013 的通話駐留體驗](lync-server-2013-call-park-experience-during-pool-failure.md)
+  - [Lync Server 2013 的集區失敗期間的通話駐留經驗](lync-server-2013-call-park-experience-during-pool-failure.md)
 
 </div>
 

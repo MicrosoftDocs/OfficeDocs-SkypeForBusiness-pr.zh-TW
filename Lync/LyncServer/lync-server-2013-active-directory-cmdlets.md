@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： Active Directory Cmdlet
+title: 'Lync Server 2013: Active Directory 指令程式'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183769
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f77009f20cfbd3e76f5cfc3786bcd9fa9ba2be9b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 981d45cbfbb184f802c0d75973da56845338d06a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730503"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008585"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="active-directory-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的 Active Directory Cmdlet
+# <a name="active-directory-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的 active Directory 指令程式
 
 </div>
 
@@ -35,54 +35,54 @@ ms.locfileid: "41730503"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-06-20_
+_**主題上次修改日期：** 2012年-06-20 個_
 
-Active Directory Cmdlet 通常是由安裝程式所使用，而且很少會由系統管理員直接呼叫。 不過，管理員可以使用這些 Cmdlet 來準備（或 unprepare） Microsoft Lync Server 2013 的網域或林，以及安裝所需的 Active Directory 架構檔案。
+Active Directory Cmdlet 通常由安裝程式所使用，系統管理員很少會直接加以呼叫。 不過，系統管理員可以使用這些 cmdlet，來準備 （或取消準備） 網域或樹系的 Microsoft Lync Server 2013，以及安裝所需的 Active Directory 結構描述檔案。
 
 <div>
 
 ## <a name="active-directory-cmdlets"></a>Active Directory Cmdlet
 
-以下是直接與管理 Lync Server 2013 Active Directory 設定相關的 Cmdlet 清單：
+以下是 cmdlet 的與管理 Lync Server 2013 Active Directory 設定直接相關清單：
 
 **Active Directory**
 
   - <span></span>  
-    [Disable-CsAdDomain](https://technet.microsoft.com/en-us/library/Gg398785(v=OCS.15))
+    [Disable-csaddomain](https://technet.microsoft.com/library/Gg398785(v=OCS.15))
 
   - <span></span>  
-    [Enable-CsAdDomain](https://technet.microsoft.com/en-us/library/Gg412764(v=OCS.15))
+    [Enable-csaddomain](https://technet.microsoft.com/library/Gg412764(v=OCS.15))
 
   - <span></span>  
-    [CsAdDomain](https://technet.microsoft.com/en-us/library/Gg398453(v=OCS.15))
+    [Get-csaddomain](https://technet.microsoft.com/library/Gg398453(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Disable-CsAdForest](https://technet.microsoft.com/en-us/library/Gg398122(v=OCS.15))
+    [Disable-csadforest](https://technet.microsoft.com/library/Gg398122(v=OCS.15))
 
   - <span></span>  
-    [Enable-CsAdForest](https://technet.microsoft.com/en-us/library/Gg425713(v=OCS.15))
+    [Enable-csadforest](https://technet.microsoft.com/library/Gg425713(v=OCS.15))
 
   - <span></span>  
-    [CsAdForest](https://technet.microsoft.com/en-us/library/Gg412995(v=OCS.15))
+    [Get-csadforest](https://technet.microsoft.com/library/Gg412995(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [CsAdServerSchema](https://technet.microsoft.com/en-us/library/Gg413070(v=OCS.15))
+    [Get-csadserverschema](https://technet.microsoft.com/library/Gg413070(v=OCS.15))
 
   - <span></span>  
-    [Install-CsAdServerSchema](https://technet.microsoft.com/en-us/library/Gg398681(v=OCS.15))
+    [Install-csadserverschema](https://technet.microsoft.com/library/Gg398681(v=OCS.15))
 
 </div>
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
-[Lync Server PowerShell 博客](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+[Lync Server PowerShell 部落格](http://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

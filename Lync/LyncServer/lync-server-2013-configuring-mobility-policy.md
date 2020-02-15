@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：設定行動原則
+title: Lync Server 2013： 設定行動性原則
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184204
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 39a7f0791def99e0b42a57b1f13aae88abbfafa4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6410e50a5e7d84de152b9a4e4bd1f962c5a3c9bd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763397"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008405"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-mobility-policy-in-lync-server-2013"></a>在 Lync Server 2013 中設定行動原則
+# <a name="configuring-mobility-policy-in-lync-server-2013"></a>在 Lync Server 2013 中設定行動性原則
 
 </div>
 
@@ -35,49 +35,49 @@ ms.locfileid: "41763397"
 
 <span> </span>
 
-_**主題上次修改日期：** 2013-02-13_
+_**上次修改主題：** 2013年-02-13_
 
     Some information in this topic pertains to Cumulative Updates for Lync Server 2013: February 2013.
 
-Lync Server 2013 提供行動原則，可決定誰可以使用行動功能、透過公司通話、透過 IP （VoIP）或影片呼叫，以及 VoIP 或視頻是否需要 WiFi。 [透過工作通話] 功能可讓行動使用者使用公司電話號碼（而不是行動電話號碼）撥打及接聽行動電話上的通話。 此功能可防止呼叫的參與方查看來電者的行動電話號碼，並讓使用者避免撥出電話費。 設定 VoIP 和影片可讓使用者接收併發出 VoIP 通話和影片。 WiFi 使用的設定定義使用者的裝置是否需要透過行動資料網路使用 WiFi 網路。
+Lync Server 2013 提供行動性原則，以決定誰可以使用行動功能，透過工時，voice over IP (VoIP) 或視訊通話和是否 WiFi 將會需要 VoIP 或視訊。 從公司撥號功能可讓行動使用者撥打及接聽通話行動電話上的使用公司電話號碼，而不是行動電話號碼。 這項功能防止受話的方看到發話者的行動電話號碼，並可讓使用者以避免輸出通話的費用。 設定 VoIP 和影片，可讓使用者接收，並使 VoIP 通話和影片。 如果使用者的裝置都必須透過行動數據網路使用 WiFi 網路設定 WiFi 的使用狀況定義。
 
-根據預設，行動性、透過公司通話，以及 VoIP 與視頻功能都已啟用。 已停用 [VoIp] 和 [影片] 需要 WiFi 的設定。 系統管理員可以執行 Cmdlet 來判斷誰有權存取這些功能。 您可以關閉 [全域]、[按網站] 或 [由使用者] 以外的選項。
+根據預設，會啟用行動性、 工作，透過呼叫和 VoIP 和視訊功能。 需要 VoIp 和視訊 WiFi 設定已停用。 系統管理員可以執行 Cmdlet 來決定哪些人可以存取這些功能。 您可以依網站或使用者來全域關閉選項。
 
-若要能夠使用行動功能及透過公司通話，使用者必須符合下列先決條件：
+若要能夠使用行動功能和「從公司撥號」功能，使用者必須符合下列先決條件：
 
-  - 必須針對 Lync Server 2013 啟用使用者。
+  - 使用者必須能夠針對 Lync Server 2013。
 
-  - 必須為使用者啟用企業語音。
+  - 使用者必須能夠使用 Enterprise Voice。
 
-  - 必須將 [ **EnableMobility** ] 選項設定為 True 的行動原則指派給使用者。
+  - 使用者必須被指派 [EnableMobility]**** 選項設為 True 的行動原則。
 
-若要讓使用者能夠透過工作使用通話，他們必須滿足下列兩個額外的先決條件：
+若要讓使用者能夠使用「從公司撥號」，使用者必須符合下列兩項先決條件：
 
-  - 必須為使用者指派已選取 [**啟用同時撥打電話**] 選項的語音原則。
+  - 使用者必須被指派已選取 [使電話同時響鈴]**** 選項的語音原則。
 
-  - 必須將 [ **EnableOutsideVoice** ] 選項設定為 True 的行動原則指派給使用者。
+  - 必須為使用者指派 **[EnableOutsideVoice]** 選項設為 True 的行動原則。
 
 <div>
 
 
 > [!NOTE]  
-> 未啟用企業語音的使用者可以使用他們的行動裝置，讓 Lync 透過 IP （VoIP）通話，或使用其行動裝置上的 [按一下以加入] 連結來加入會議（如果您為這些使用者指派了適當的語音原則選項）。 如需詳細資訊，請參閱<A href="lync-server-2013-defining-your-mobility-requirements.md">定義 Lync Server 2013 的行動需求</A>。
+> 未啟用 Enterprise voice 的使用者可以使用其行動裝置進行 Lync 至 Lync Voice over IP (VoIP) 通話，或其行動裝置上使用 [按一下以加入連結，如果您指派這些使用者語音原則的適當選項可以加入會議。 如需詳細資訊，請參閱<A href="lync-server-2013-defining-your-mobility-requirements.md">定義 Lync Server 2013 的行動性需求</A>。
 
 
 
 </div>
 
-如需有關啟用 Lync Server 2013 使用者的詳細資料，請參閱[停用或重新啟用 Lync server 2013 的使用者帳戶](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md)。 如需有關啟用企業語音使用者的詳細資料，請參閱[在 Lync Server 2013 中啟用企業語音的使用者](lync-server-2013-enable-users-for-enterprise-voice.md)。 如需設定語音原則選項的詳細資料，請參閱[修改語音原則和設定 Lync Server 2013 中的 PSTN 使用記錄](lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md)。
+如需啟用使用者的 Lync Server 2013 的詳細資訊，請參閱[停用或重新啟用 Lync Server 2013 的使用者帳戶](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md)。 如需為使用者啟用 Enterprise Voice 的詳細資訊，請參閱[啟用使用者的 Lync Server 2013 中的企業語音](lync-server-2013-enable-users-for-enterprise-voice.md)。 如需設定語音原則選項的詳細資訊，請參閱[修改語音原則和設定 Lync Server 2013 中的 PSTN 使用方式記錄](lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md)。
 
 <div>
 
 ## <a name="to-modify-global-mobility-policy"></a>修改全域行動原則
 
-1.  登入 Lync Server 管理命令介面與 Ocscore 安裝為 CsAdministrator 角色成員的任何電腦。
+1.  登入 Lync Server 管理命令介面和 Ocscore CsAdministrator 角色的成員身分安裝所在的任何電腦。
 
-2.  啟動 Lync Server 管理命令介面：按一下 [**開始**]，按一下 [**所有程式**]，按一下 [ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
+2.  啟動 Lync Server 管理命令介面： 按一下 [**開始]**，按一下 [**所有程式]**、 [ **Microsoft Lync Server 2013**]，然後按一下**Lync Server 管理命令介面**。
 
-3.  在全球範圍內關閉行動與通話的存取權。 在命令列中，輸入：
+3.  全域關閉對行動性和「從公司撥號」功能的存取權。在命令列中輸入：
     
         Set-CsMobilityPolicy -EnableMobility $False -EnableOutsideVoice $False
     
@@ -85,7 +85,7 @@ Lync Server 2013 提供行動原則，可決定誰可以使用行動功能、透
     
 
     > [!NOTE]  
-    > 您可以透過工作關閉通話，而不需關閉行動存取權。 不過，您也無法關閉行動，也不需要關閉 [透過工作通話]。
+    > 您不需要關閉對行動性的存取權，即可關閉「從公司撥號」。不過，如果您要關閉行動性，也必須關閉「從公司撥號」。
 
     
     </div>
@@ -96,11 +96,11 @@ Lync Server 2013 提供行動原則，可決定誰可以使用行動功能、透
 
 ## <a name="to-modify-mobility-policy-by-site"></a>依網站修改行動原則
 
-1.  登入 Lync Server 管理命令介面與 Ocscore 安裝為 CsAdministrator 角色成員的任何電腦。
+1.  登入 Lync Server 管理命令介面和 Ocscore CsAdministrator 角色的成員身分安裝所在的任何電腦。
 
-2.  啟動 Lync Server 管理命令介面：按一下 [**開始**]，按一下 [**所有程式**]，按一下 [ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
+2.  啟動 Lync Server 管理命令介面： 按一下 [**開始]**，按一下 [**所有程式]**、 [ **Microsoft Lync Server 2013**]，然後按一下**Lync Server 管理命令介面**。
 
-3.  建立網站層級原則，然後關閉 [VoIP] 和 [影片]，並啟用 [IP 音訊] 和 [依網站的 IP 視頻]。 在命令列中，輸入：
+3.  建立網站層級原則，並關閉 VoIP 和視訊，並啟用需要 WiFi IP 音訊和視訊 IP 」 網站。 在命令列中輸入：
     
         New-CsMobilityPolicy -Identity site:<site identifier> -EnableIPAudioVideo $False -RequireWiFiForIPAudio $True -RequireWiFiForIPVideo $True
 
@@ -110,16 +110,16 @@ Lync Server 2013 提供行動原則，可決定誰可以使用行動功能、透
 
 ## <a name="to-modify-mobility-policy-by-user"></a>依使用者修改行動原則
 
-1.  登入 Lync Server 管理命令介面與 Ocscore 安裝為 CsAdministrator 角色成員的任何電腦。
+1.  登入 Lync Server 管理命令介面和 Ocscore CsAdministrator 角色的成員身分安裝所在的任何電腦。
 
-2.  啟動 Lync Server 管理命令介面：按一下 [**開始**]，按一下 [**所有程式**]，按一下 [ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
+2.  啟動 Lync Server 管理命令介面： 按一下 [**開始]**，按一下 [**所有程式]**、 [ **Microsoft Lync Server 2013**]，然後按一下**Lync Server 管理命令介面**。
 
-3.  建立使用者層級行動原則，並透過使用者的工作關閉行動與通話。 在命令列中，輸入：
+3.  建立使用者層級行動原則，並依使用者關閉行動性和「從公司撥號」。在命令列中輸入：
     
         New-CsMobilityPolicy -Identity <policy name> -EnableMobility $False -EnableOutsideVoice $False
         Grant-CsMobilityPolicy -Identity <user identifier> -PolicyName <policy name>
     
-    您可以透過工作關閉通話，而不需關閉行動存取權。 不過，您也無法關閉行動，也不需要關閉 [透過工作通話]。
+    您不需要關閉對行動性的存取權，即可關閉「從公司撥號」。不過，如果您要關閉行動性，也必須關閉「從公司撥號」。
     
     例如：
     
@@ -134,18 +134,18 @@ Lync Server 2013 提供行動原則，可決定誰可以使用行動功能、透
 
 
 [停用或重新啟用 Lync Server 2013 的使用者帳戶](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md)  
-[在 Lync Server 2013 中啟用企業語音的使用者](lync-server-2013-enable-users-for-enterprise-voice.md)  
-[在 Lync Server 2013 中修改語音原則和設定 PSTN 使用狀況記錄](lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md)  
+[啟用使用者的 Lync Server 2013 中的 Enterprise Voice](lync-server-2013-enable-users-for-enterprise-voice.md)  
+[修改語音原則和設定 Lync Server 2013 中的 PSTN 使用方式記錄](lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md)  
 
 
-[定義 Lync Server 2013 的行動需求](lync-server-2013-defining-your-mobility-requirements.md)  
+[定義 Lync Server 2013 的行動性需求](lync-server-2013-defining-your-mobility-requirements.md)  
 
 
-[New-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsMobilityPolicy)  
-[Set-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsMobilityPolicy)  
-[Get-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsMobilityPolicy)  
-[授與 CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsMobilityPolicy)  
-[Remove-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsMobilityPolicy)  
+[新 CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsMobilityPolicy)  
+[Set-csmobilitypolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsMobilityPolicy)  
+[Get-csmobilitypolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsMobilityPolicy)  
+[Grant-csmobilitypolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsMobilityPolicy)  
+[Remove-csmobilitypolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsMobilityPolicy)  
   
 
 </div>

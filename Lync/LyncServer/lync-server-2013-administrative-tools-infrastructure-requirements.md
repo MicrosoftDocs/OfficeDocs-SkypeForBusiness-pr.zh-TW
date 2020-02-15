@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：管理工具基礎結構需求
+title: Lync Server 2013： 系統管理工具基礎結構需求
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185102
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8bdef9998cf620f2718b8fa42a1f8337af93a9a5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 13c1ae59995a89f121b2073fdd0be374269268df
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737943"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41998678"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="administrative-tools-infrastructure-requirements-in-lync-server-2013"></a>Lync Server 2013 中的管理工具基礎結構需求
+# <a name="administrative-tools-infrastructure-requirements-in-lync-server-2013"></a>Lync Server 2013 中的系統管理工具基礎結構需求
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41737943"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-09-27_
+_**主題上次修改日期：** 2012 年 09 月 27 日_
 
-您不需要安裝 Microsoft Lync Server 2013 系統管理工具或使用這些工具執行大部分管理工作的其他基礎結構需求。 如需特定案例的基礎結構需求，請參閱本節中的主題。
+有任何其他基礎結構的需求，以安裝 Microsoft Lync Server 2013 系統管理工具或執行大部分的管理工作，使用這些工具。 如需針對特定案例的基礎結構需求，請參閱本節中的主題。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [在 Lync Server 2013 中發行拓撲的需求](lync-server-2013-requirements-to-publish-a-topology.md)
+  - [若要在 Lync Server 2013 中發佈拓撲的需求](lync-server-2013-requirements-to-publish-a-topology.md)
 
-  - [在 Lync Server 2013 中規劃簡單 URL](lync-server-2013-planning-for-simple-urls.md)
+  - [規劃 Lync Server 2013 中的簡單 Url](lync-server-2013-planning-for-simple-urls.md)
 
-  - [Lync Server 2013 中簡單 URL 的 DNS 需求](lync-server-2013-dns-requirements-for-simple-urls.md)
+  - [Lync Server 2013 中的簡單 Url 的 DNS 需求](lync-server-2013-dns-requirements-for-simple-urls.md)
 
-  - [在 Lync Server 2013 中編輯或設定簡單 URL](lync-server-2013-edit-or-configure-simple-urls.md)
+  - [編輯或 Lync Server 2013 中設定簡單 Url](lync-server-2013-edit-or-configure-simple-urls.md)
 
 </div>
 
@@ -63,7 +63,7 @@ _**主題上次修改日期：** 2012-09-27_
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
 [安裝 Lync Server 2013 系統管理工具](lync-server-2013-install-lync-server-administrative-tools.md)  
@@ -72,7 +72,7 @@ _**主題上次修改日期：** 2012-09-27_
 [Lync Server 2013 中的系統管理工具軟體需求](lync-server-2013-administrative-tools-software-requirements.md)  
 
 
-[設定和管理 Lync Server 2013 所需的系統管理員權限](lync-server-2013-administrator-rights-and-permissions-required-for-setup-and-administration.md)  
+[系統管理員權限與權限所需的安裝和管理的 Lync Server 2013](lync-server-2013-administrator-rights-and-permissions-required-for-setup-and-administration.md)  
   
 
 </div>

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：匯出和匯入語音路由組態
+title: Lync Server 2013： 匯出和匯入語音路由設定
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185398
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 23ca3642204e4097f5345f879c704dcfcb4d8c9a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b3a65c0ab32f40c78c6c679f7be7b86a4ccca1e7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756197"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008385"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="exporting-and-importing-voice-routing-configuration-in-lync-server-2013"></a>在 Lync Server 2013 中匯出和匯入語音路由組態
+# <a name="exporting-and-importing-voice-routing-configuration-in-lync-server-2013"></a>匯出及匯入 Lync Server 2013 中的語音路由設定
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41756197"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-11-01_
+_**主題上次修改日期：** 2012年-11-01_
 
-如果您想要儲存語音路由設定，但不發佈它，請依照下列步驟使用 Lync Server [控制台] 的 [匯出及匯入] 命令來儲存及取得語音路由設定的快照。 當您匯入語音路由設定檔（vcfg），但同時又在伺服器上對語音路由設定進行變更時，Lync Server [控制台] 中的 [**語音路由**] 群組中的頁面將會顯示 [語音路由] 中有未提交的變更。 那些未提交的變更是兩個需要調解的設定之間的差異。
+如果您想要儲存語音路由組態，而不發佈，請遵循下列步驟以使用 Lync Server Control Panel 組態匯出及匯入儲存和擷取的語音路由設定快照集的命令。 當您匯入語音路由組態檔 (.vcfg)，但語音路由組態的伺服器上同時進行變更時，Lync Server 控制台的 [**語音路由**] 群組中的頁面會指出有未認可的變更語音路由。 這些未認可的變更會使兩個設定出現差異且需要重新調整。
 
 <div>
 
 
 > [!IMPORTANT]  
-> 如果您已對 [<STRONG>語音路由</STRONG>] 群組內任何頁面上的設定進行任何未提交的變更，這些變更會儲存在匯出的語音設定檔案（vcfg）中。 這可讓您在發佈變更前，在多個 Lync Server 控制台會話期間進行語音路由設定變更。
+> 如果您已在任何頁面上，[<STRONG>語音路由</STRONG>] 群組中的設定進行任何未認可的變更，會在匯出的語音組態檔 (.vcfg) 中儲存的變更。 這可讓您進行語音路由組態變更期間多個 Lync Server Control Panel 工作階段之前發佈的變更。
 
 
 
@@ -51,11 +51,11 @@ _**主題上次修改日期：** 2012-11-01_
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [在 Lync Server 2013 中匯出語音路由設定檔](lync-server-2013-export-a-voice-route-configuration-file.md)
+  - [匯出在 Lync Server 2013 中的語音路由組態檔](lync-server-2013-export-a-voice-route-configuration-file.md)
 
-  - [在 Lync Server 2013 中匯入語音路由組態檔](lync-server-2013-import-a-voice-route-configuration-file.md)
+  - [匯入 Lync Server 2013 中的語音路由組態檔](lync-server-2013-import-a-voice-route-configuration-file.md)
 
 </div>
 

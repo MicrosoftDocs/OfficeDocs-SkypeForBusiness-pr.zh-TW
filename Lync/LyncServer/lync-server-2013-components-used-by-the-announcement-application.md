@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：宣告應用程式所使用的元件
+title: 宣告應用程式所使用的 Lync Server 2013： 元件
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184595
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 52ef0b1da665f8797f29582e9ce9e1d311287d61
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a888ca21e26a21103d1c45e74518c3d224d18a7b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757047"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007903"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,27 +35,27 @@ ms.locfileid: "41757047"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-09-13_
+_**主題上次修改日期：** 2012年-09-13_
 
-在 Lync Server 2013 中，宣告應用程式是回應群組應用程式的元件。 當您部署企業語音時，宣告應用程式會自動安裝並與回應群組應用程式一起啟用。 本節說明支援宣告應用程式的元件。
+在 Lync Server 2013 中，宣告應用程式是回應群組應用程式的元件。 當您部署企業語音時，宣告應用程式會自動安裝及啟動以及回應群組應用程式。 本節說明支援宣告應用程式的元件。
 
 <div>
 
 ## <a name="announcement-application-components"></a>宣告應用程式元件
 
-下列 Lync 伺服器元件支援宣告應用程式：
+宣告應用程式支援下列的 Lync Server 元件：
 
-  - **應用程式服務**   應用程式服務提供部署、託管及管理整合通訊應用程式的平臺。 應用程式服務會自動安裝在前端池的每個前端伺服器上，以及每個標準版伺服器上。
+  - **應用程式服務**   應用程式服務提供的平台的部署，裝載，及管理整合通訊應用程式。 在每個前端伺服器上的前端集區中，每個 Standard Edition server 上，會自動安裝應用程式服務。
 
-  - **回應群組應用**   程式：回應群組應用程式是由應用程式服務託管的其中一個整合通訊應用程式。 當未指派的電話號碼範圍設定為傳送給宣告時，必須使用回應群組申請，才能傳送電話號碼所撥的通話。 （如果所有範圍都設定為路由到 Exchange 整合通訊（UM），則不需要回應群組應用程式。
+  - **回應群組應用程式**   回應群組應用程式是下列其中一個裝載的應用程式服務的整合的通訊應用程式。 當設定未指派的電話號碼範圍來路由傳送的通知，回應群組應用程式，才能路由傳送至電話號碼所進行的呼叫。 (如果已設定所有的範圍，不需要回應群組應用程式來路由傳送至 Exchange 整合通訊 (UM)。)
 
-  - **音訊**檔案是用來進行宣告的。   
+  - **音訊檔案**   音訊檔案用於宣告。
 
-  - **檔案存放**   ：宣告應用程式會使用檔案存放區來儲存其音訊檔案。
+  - **檔案存放區**   宣告應用程式使用檔案存放區儲存其音訊檔。
 
-  - **Lync server [控制台**   ] 您可以使用 lync server [控制台] 來設定 [未指定的數位] 資料表。
+  - **Lync Server Control Panel**   您可以使用 Lync Server 控制台來設定未指派號碼表。
 
-  - **Lync server 管理命令**   介面：您可以使用 lync server 管理命令介面 Cmdlet 來設定宣告設定和未指定的數位資料表。
+  - **Lync Server 管理命令介面**   您可以使用 Lync Server 管理命令介面 cmdlet 來設定宣告設定和未指派號碼表。
 
 </div>
 

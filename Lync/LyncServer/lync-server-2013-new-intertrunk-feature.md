@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：新主幹間功能
+title: Lync Server 2013： 新主幹間功能
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 49733820
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 833cfd1e11b885fc4291f2bbbfecb7d6118074e9
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c88447434594f940ef28b74212e4db2357d6ce38
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758615"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007772"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41758615"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-08_
+_**主題上次修改日期：** 2012年-10-08_
 
-Lync Server 2013 提供基本的會話管理，並支援 intertrunk 路由。 這項新功能可讓 Lync Server 提供對下游電話系統的呼叫控制功能。 有了 intertrunk 路由，Lync Server 可以將 IP PBX 與公用交換式電話網絡（PSTN）閘道連接，讓來自私人分支 exchange （PBX）電話的呼叫可以路由到 PSTN，而打入的 PSTN 呼叫可以路由到 PBX 電話。 同樣地，Lync Server 可以相互連接兩個或多個 IP PBX 系統，以便在不同 IP PBX 系統的 PBX 手機之間進行呼叫和接收。
+Lync Server 2013 提供透過支援的主幹相互路由功能的基本工作階段管理。 這項新功能可讓 Lync 伺服器，以提供呼叫控制功能下游電話語音系統。 使用相互路由功能，以便從專用交換機 (pbx) 電話的通話路由至 PSTN，以及傳入 PSTN 通話可以路由傳送至 PBX 電話 Lync Server 時，可以 interconnect 至公用交換的電話網路 (PSTN) 閘道 IP PBX。 同樣地，Lync Server 可以 interconnect 兩個或多個 IP-PBX 系統，以便可以放置和 PBX 電話從不同的 IP PBX 系統之間接收來電。
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
-[Lync Server 2013 中的中繼間路由](lync-server-2013-inter-trunk-routing.md)  
-[Lync Server 2013 中的新企業語音功能](lync-server-2013-new-enterprise-voice-features.md)  
+[Lync Server 2013 中的主幹間路由](lync-server-2013-inter-trunk-routing.md)  
+[Lync Server 2013 中的新 Enterprise Voice 功能](lync-server-2013-new-enterprise-voice-features.md)  
   
 
 </div>

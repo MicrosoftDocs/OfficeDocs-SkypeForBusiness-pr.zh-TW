@@ -12,16 +12,16 @@ ms:contentKeyID: 48185375
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bcea8daa265c7e4b59bae7bc7464bacc61fe7cfc
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 13ddf7fd99172ee5c0372d848b9139bf02f655c3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723003"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006479"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41723003"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-09-08_
+_**主題上次修改日期：** 2012年-09-08_
 
-如需詳細資訊，請參閱部署檔中的[Lync Server 2013 中的 [部署用戶端和裝置](lync-server-2013-deploying-clients-and-devices.md)]。
+如需詳細資訊，請參閱部署文件中的[部署用戶端和 Lync Server 2013 中的裝置](lync-server-2013-deploying-clients-and-devices.md)。
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：Enterprise Voice 的軟體先決條件
+title: 'Lync Server 2013: Enterprise Voice 的軟體先決條件'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183960
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cb85a8da9fe0d009f46ef23b919aeb9fd006fab4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: dc6c5e5f3f9fc92f56ee1f044419f67f5ded32ce
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731893"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41987018"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="software-prerequisites-for-enterprise-voice-in-lync-server-2013"></a>Lync Server 2013 中 Enterprise Voice 的軟體先決條件
+# <a name="software-prerequisites-for-enterprise-voice-in-lync-server-2013"></a>Lync Server 2013 中的 Enterprise Voice 的軟體先決條件
 
 </div>
 
@@ -35,33 +35,33 @@ ms.locfileid: "41731893"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-03_
+_**主題上次修改日期：** 2012年-10-03_
 
-確認您要部署企業語音的基礎結構符合下列軟體先決條件：
+確認您想要部署 Enterprise Voice 的基礎結構符合下列軟體先決條件：
 
-  - Lync Server 2013 標準版或 Enterprise Edition 已安裝並在您的網路上運作。
+  - Lync Server 2013 Standard Edition 或 Enterprise Edition 已安裝且正在運作您網路上。
 
-  - 所有邊緣伺服器都是在您的周邊網路中部署和執行，包括執行存取邊緣服務的邊緣伺服器、A/V 邊緣服務、網頁會議 Edge 服務，以及反向 proxy。
+  - 所有 Edge Server 都都已部署、 作業在周邊網路，包括 Edge 伺服器執行 Access Edge service 為 A / V Edge service、 Web Conferencing Edge service 和反向 proxy。
 
-  - 您可以使用 Microsoft Exchange Server 2007 Service Pack 3 （SP3）、Microsoft Exchange Server 2010 或 Microsoft Exchange Server 2013，以與 Lync Server 整合 Exchange 整合訊息，並提供豐富的通知及通話記錄資訊給Lync 端點。
+  - Microsoft Exchange Server 2007 Service Pack 3 (SP3)、 Microsoft Exchange Server 2010 或 Microsoft Exchange Server 2013 才整合 Exchange 整合通訊與 Lync Server，以及用於提供豐富的通知及通話記錄資訊Lync 端點。
 
-  - 已為 Lync Server 建立並啟用一或多位使用者。
+  - 已建立並啟用 Lync Server 的一或多個使用者。
 
-  - 已成功部署 Lync 用戶端和裝置。
+  - Lync 用戶端和裝置已成功部署。
 
-  - 拓撲建立程式已安裝在您網路上的伺服器上。
+  - 在您網路上的伺服器上安裝拓撲產生器]。
 
 <div>
 
-## <a name="next-steps-verify-security-and-configuration-prerequisites"></a>後續步驟：驗證安全性與設定先決條件
+## <a name="next-steps-verify-security-and-configuration-prerequisites"></a>後續步驟：確認安全性和設定先決條件
 
-驗證企業語音的軟體先決條件之後，您可以使用檔來繼續準備部署企業語音：
+確認 Enterprise Voice 的軟體先決條件後，您可以參考文件說明，繼續準備部署 Enterprise Voice：
 
-1.  驗證安全性、使用者設定和硬體 perquisites，如在[Lync Server 2013 的安全性和設定先決條件](lync-server-2013-security-and-configuration-prerequisites-for-enterprise-voice.md)中所述。
+1.  確認安全性、 使用者設定和硬體 environmental [Lync Server 2013 中的 Enterprise voice 的安全性和組態必要條件](lync-server-2013-security-and-configuration-prerequisites-for-enterprise-voice.md)中所述。
 
-2.  安裝中繼伺服器，如在[Lync server 2013 中安裝用於進行轉送服務伺服器](lync-server-2013-install-the-files-for-mediation-server.md)的檔案中所述，但*僅限*您想要部署獨立的中繼伺服器或池，因為在 collocated 時，會將轉送伺服器安裝為前端池或標準版伺服器部署程式的一部分。
+2.  安裝中繼伺服器中所述[安裝中繼伺服器在 Lync Server 2013 中的檔案](lync-server-2013-install-the-files-for-mediation-server.md)，但*僅限*如果您想要部署獨立中繼伺服器或集區，因為中繼伺服器安裝為前端集區或 Standard Edition server 部署程序時組合的一部分。
 
-3.  設定幹線連線為使用者提供 PSTN 連線，如在[Lync Server 2013 中設定 trunks 中](lync-server-2013-configuring-trunks.md)所述。
+3.  設定主幹連線以提供 PSTN 連線的使用者，[在 Lync Server 2013 中的 Configuring trunks](lync-server-2013-configuring-trunks.md)中所述。
 
 </div>
 

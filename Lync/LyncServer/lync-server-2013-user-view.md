@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：使用者視圖
+title: Lync Server 2013： 使用者檢視
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733699
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c8e88d7a9fa66f309bbd64ab064ec95adafc40b8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3ddc05e2ee7e96ec10c6d3dbf691f7b094a10983
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744383"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007632"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="user-view-in-lync-server-2013"></a>Lync Server 2013 中的使用者視圖
+# <a name="user-view-in-lync-server-2013"></a>Lync Server 2013 中的使用者檢視
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41744383"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-01_
+_**主題上次修改日期：** 2012年-10-01_
 
-[使用者] 視圖儲存已參與通話的使用者相關資訊，或在資料庫中有記錄的會話。 此視圖已在 Microsoft Lync Server 2013 中推出。
+使用者檢視會儲存在資料庫中有記錄之通話或工作階段中所涉及的使用者相關資訊。 Microsoft Lync Server 2013 中已採用此檢視。
 
 
 <table>
@@ -48,7 +48,7 @@ _**主題上次修改日期：** 2012-10-01_
 </colgroup>
 <thead>
 <tr class="header">
-<th>左欄</th>
+<th>欄</th>
 <th>資料類型</th>
 <th>詳細資料</th>
 </tr>
@@ -57,22 +57,22 @@ _**主題上次修改日期：** 2012-10-01_
 <tr class="odd">
 <td><p>UserId</p></td>
 <td><p>int</p></td>
-<td><p>標識此使用者的唯一號碼。</p></td>
+<td><p>用於識別此使用者的唯一號碼。</p></td>
 </tr>
 <tr class="even">
 <td><p>UserUri</p></td>
-<td><p>Nvarchar （450）</p></td>
-<td><p>使用者的 Uri。</p></td>
+<td><p>nvarchar(450)</p></td>
+<td><p>使用者的 URI。</p></td>
 </tr>
 <tr class="odd">
 <td><p>TenantKey</p></td>
-<td><p>uniqueidentifier</p></td>
-<td><p>使用者租使用者。 如需詳細資訊，請參閱<a href="lync-server-2013-tenants-table.md">Lync Server 2013 中</a>的 [承租人] 資料表。</p></td>
+<td><p>唯一</p></td>
+<td><p>使用者的租用戶。 請參閱<a href="lync-server-2013-tenants-table.md">Lync Server 2013 中的租用戶表</a>如需詳細資訊。</p></td>
 </tr>
 <tr class="even">
 <td><p>UriType</p></td>
-<td><p>Nvarchar （256）</p></td>
-<td><p>使用者 URI 的類型。 如需詳細資訊，請參閱<a href="lync-server-2013-uritypes-table.md">Lync Server 2013 中</a>的 [UriTypes] 資料表。</p></td>
+<td><p>nvarchar(256)</p></td>
+<td><p>使用者 URI 的類型。 請參閱<a href="lync-server-2013-uritypes-table.md">Lync Server 2013 中的 UriTypes 表格</a>如需詳細資訊。</p></td>
 </tr>
 </tbody>
 </table>

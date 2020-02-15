@@ -1,5 +1,5 @@
 ---
-title: 將 Lync Server 2013 設定為路由至 SIP/CSTA 閘道
+title: Lync Server 2013： 設定 Lync Server 路由傳送到 SIP/CSTA 閘道
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185605
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 626ce85fec80508f4411e92c2a2ce469da5a0b2a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1d816ae391154a5d1024e65fb09e82f37d41b053
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762791"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008465"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-lync-server-2013-to-route-to-a-sipcsta-gateway"></a>將 Lync Server 2013 設定為路由至 SIP/CSTA 閘道
+# <a name="configuring-lync-server-2013-to-route-to-a-sipcsta-gateway"></a>設定 Lync Server 2013，才能路由傳送到 SIP/CSTA 閘道
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41762791"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-05_
+_**主題上次修改日期：** 2012年-10-05_
 
-SIP/CSTA 閘道是 SIP 與電腦支援的電訊應用程式（CSTA）之間的閘道。 SIP/CSTA 閘道提供現有的專用分支交換（PBX）與 Lync Server 之間的介面，以將遠端呼叫控制要求路由至 PBX。 安裝 SIP/CSTA 閘道之後，您必須在要設定遠端通話控制的每個 Lync 伺服器池中執行下列程式：
+SIP/CSTA 閘道是 SIP 和電腦支援電信應用程式 (CSTA) 之間的閘道。 SIP/CSTA 閘道提供路由的遠端呼叫控制要求現有專用交換機 (PBX) 和 Lync Server 之間的介面到 PBX。 安裝 SIP/CSTA 閘道之後，您必須在您要設定的遠端呼叫控制每個 Lync 伺服器集區上執行下列程序：
 
-  - [在 Lync Server 2013 中設定遠端呼叫控制的靜態路由](lync-server-2013-configure-a-static-route-for-remote-call-control.md)
+  - [在 Lync Server 2013 中設定為遠端呼叫控制的靜態路由](lync-server-2013-configure-a-static-route-for-remote-call-control.md)
 
-  - [在 Lync Server 2013 中為遠端呼叫控制設定信任的應用程式項目](lync-server-2013-configure-a-trusted-application-entry-for-remote-call-control.md)
+  - [設定 Lync Server 2013 中的遠端呼叫控制的信任的應用程式項目](lync-server-2013-configure-a-trusted-application-entry-for-remote-call-control.md)
 
 </div>
 

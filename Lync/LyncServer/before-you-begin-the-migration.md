@@ -13,16 +13,16 @@ ms:contentKeyID: 48183259
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 83fd5b0ddbb4a1e1266a99963dc443f516c86b9a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d484ddfc9487c89300a2d0a795da83bfb33d82f9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724063"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42003618"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -36,21 +36,21 @@ ms.locfileid: "41724063"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-09-23_
+_**主題上次修改日期：** 2012年-09-23_
 
-在開始之前，我們建議您閱讀本檔和下列指南，讓您熟悉如何部署對應的 Lync Server 2013 角色：
+在您開始之前，建議您先閱讀本文件及下列指南，以熟悉部署對應的 Lync Server 2013 角色：
 
   - [部署 Lync Server 2013](lync-server-2013-deploying-lync-server.md)
 
-  - [將 Lync Server 2013 Standard Edition 部署到現有 Lync Server 2013 Enterprise 中](lync-server-2013-deploying-lync-server-2013-standard-edition-into-an-existing-lync-server-2013-enterprise.md)
+  - [將 Lync Server 2013 Standard Edition 部署到現有的 Lync Server 2013 Enterprise](lync-server-2013-deploying-lync-server-2013-standard-edition-into-an-existing-lync-server-2013-enterprise.md)
 
-  - [在 Lync Server 2013 中部署外部使用者存取](lync-server-2013-deploying-external-user-access.md)
+  - [部署 Lync Server 2013 中的外部使用者存取](lync-server-2013-deploying-external-user-access.md)
 
-  - [在 Lync Server 2013 中部署用戶端和裝置](lync-server-2013-deploying-clients-and-devices.md)
+  - [部署用戶端和 Lync Server 2013 中的裝置](lync-server-2013-deploying-clients-and-devices.md)
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
   - [移轉程序](migration-process.md)
 

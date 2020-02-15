@@ -1,5 +1,5 @@
 ---
-title: 在移轉後管理伺服器
+title: 移轉後管理伺服器
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -13,20 +13,20 @@ ms:contentKeyID: 48184582
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 067dadbb1578aa89f2d7199c0c356ddf86884eac
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: af2a420b12b10f0b96609fbcfbd31907294a1a08
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724193"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42005918"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="administering-servers-after-migration"></a>在移轉後管理伺服器
+# <a name="administering-servers-after-migration"></a>移轉後管理伺服器
 
 </div>
 
@@ -36,15 +36,15 @@ ms.locfileid: "41724193"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-09-29_
+_**主題上次修改日期：** 2012年-09-29_
 
-一般來說，您必須使用對應到您想要管理之伺服器版本的系統管理工具。 您無法在同一部電腦上安裝 Lync Server 2010 和 Lync Server 2013 系統管理工具。 此外，不會在每個伺服器上自動安裝 Lync Server 2013 的 [控制台]。 若要安裝 Lync Server 2013 [控制台]，請依照部署檔中的 [[安裝 Lync server 2013 管理工具](lync-server-2013-install-lync-server-administrative-tools.md)] 主題中的步驟操作。
+一般來說，您必須根據所要管理的伺服器版本，使用對應的系統管理工具。 您無法在同一部電腦上安裝 Lync Server 2010 和 Lync Server 2013 系統管理工具]。 此外，Lync Server 2013 控制台未在每一部伺服器上自動安裝。 若要安裝 Lync Server 2013 控制台，請遵循內部部署文件中的主題[安裝 Lync Server 2013 系統管理工具](lync-server-2013-install-lync-server-administrative-tools.md)的程序。
 
 <div>
 
 
 > [!IMPORTANT]  
-> 部署 Lync Server 2013 試驗池之後，您就無法使用 Lync Server 2010 拓撲建立器或 Lync Server 2010 [控制台] 來管理任何 Lync Server 2013 資源。 您必須使用 Lync Server 2013 工具來管理 Lync Server 2013 和 Lync Server 2010 資源。
+> 部署 Lync Server 2013 試驗集區之後，您無法使用 Lync Server 2010 拓撲產生器或 Lync Server 2010 控制台來管理 Lync Server 2013 中的任何資源。 您必須使用 Lync Server 2013 工具來管理 Lync Server 2013 和 Lync Server 2010 的資源。
 
 
 

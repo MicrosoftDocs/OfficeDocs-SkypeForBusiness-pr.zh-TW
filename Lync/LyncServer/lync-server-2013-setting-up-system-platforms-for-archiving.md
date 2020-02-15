@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：設定用於存檔的系統平臺
+title: Lync Server 2013： 在封存設定系統平台
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183716
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 13682b7507e133dd49c102bf6c25293ff5da2c08
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 88e1a8aea999fdf134b0152a9d37b2d36fc81ee8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732073"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008665"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-system-platforms-for-archiving-in-lync-server-2013"></a>在 Lync Server 2013 中設定存檔的系統平臺
+# <a name="setting-up-system-platforms-for-archiving-in-lync-server-2013"></a>針對 Lync Server 2013 中的封存設定系統平台
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41732073"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-09_
+_**主題上次修改日期：** 2012年-10-09_
 
-開始部署封存前，您必須在符合系統需求的硬體上安裝所需的作業系統及任何其他必備軟體：
+開始部署封裝之前，必須先在符合系統需求的硬體上安裝所需作業系統，以及所有先決條件軟體。
 
-  - **Lync server 2013 platform**   lync server 2013 部署沒有存檔伺服器。 相反地，整合的資料收集代理程式會在前端伺服器和標準版伺服器上執行，以捕獲資料以進行封存，因此不需要個別的系統平臺即可託管封存。
+  - **Lync Server 2013 平台**   Lync Server 2013 部署不需要封存伺服器。 但在前端伺服器及 Standard Edition Server 上執行的整合資料收集代理程式會擷取封裝的資料，因此不需要使用另一個系統平台主控封裝。
 
-  - **資料儲存平臺**   在 Lync Server 2013 中，您可以使用下列其中一種方法來儲存資料：
+  - **資料儲存平台**   在 Lync Server 2013 中，您可以使用下列其中之一儲存資料：
     
-      - **Microsoft Exchange 整合**   如果您想要使用 Exchange 2013 部署來儲存 Lync Server 2013 存檔資料，而不是或除了針對儲存在歸檔資料的另一個資料庫之外，您的 exchange 部署必須執行 exchange 2013。 如需設定 Exchange 2013 的系統平臺的詳細資料，請參閱 Exchange 產品檔。
+      - **Microsoft Exchange 整合**   您的 Exchange 部署如果您想要儲存 Lync Server 2013 封存資料，使用 Exchange 2013 部署，而不是或除了設定不同的資料庫來儲存封存資料，必須執行 Exchange 2013。 如需設定系統平台 Exchange 2013 的詳細資訊，請參閱 < Exchange 產品文件。
     
-      - **SQL server**   如果您想要使用個別的 sql server 資料庫儲存歸檔資料，而不是使用 Microsoft Exchange 整合，您必須先設定資料庫的系統平臺，然後再部署歸檔。 特定的系統平臺需求取決於您是否使用 Microsoft SQL Server 2008 R2 或 Microsoft SQL Server 2012 進行歸檔資料庫。 如需針對這些資料庫設定系統平臺的詳細資料，請參閱 Microsoft SQL Server 2008 R2 和 Microsoft SQL Server 2012 產品檔。
+      - **SQL Server**   如果您想要使用不同的 SQL Server 資料庫來儲存封存資料，而不是或除了使用 Microsoft Exchange 整合，您必須設定系統平台] 之前部署封存資料庫。 特定系統的平台需求取決於是否封存資料庫使用 Microsoft SQL Server 2008 R2 或 Microsoft SQL Server 2012。 如需設定系統平台，這些資料庫的詳細資訊，請參閱 Microsoft SQL Server 2008 R2 和 Microsoft SQL Server 2012 產品文件。
 
-  - **檔案伺服器平臺**   Lync server 2013 會將 Lync server 存檔檔案儲存在您設定前端伺服器或標準版伺服器時，您針對檔案儲存區所指定的相同位置。 您不能指定單獨的位置來儲存檔案儲存空間，因此不需要個別的系統平臺就能儲存檔案。 如果您使用 Microsoft Exchange 整合，Exchange 2013 將檔案儲存在 exchange 2013 伺服器上，以供駐留在這些 Exchange 伺服器上的使用者使用。
+  - **檔案伺服器平台**   Lync Server 2013 儲存 Lync Server 封存檔案存放在相同的位置您指定的檔案，當您設定您的前端伺服器或 Standard Edition 伺服器。 您無法指定另一個封裝檔案儲存的位置，所以也不需要另一個封裝檔案儲存的系統平台。 如果您使用 Microsoft Exchange 整合，封存的 Lync 通訊的檔案儲存在使用者的 Exchange 2013 伺服器的 Exchange 2013 及位於 Exchange 伺服器。
 
 </div>
 

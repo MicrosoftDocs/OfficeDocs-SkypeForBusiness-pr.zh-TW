@@ -1,5 +1,5 @@
 ---
-title: 將存檔資料庫新增至現有的 Lync Server 2013 部署
+title: 將封存資料庫新增至現有的 Lync Server 2013 部署
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184482
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 028148822e7208efd383806693f9799b82d3186a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b2d859f38e6ed7322689f8b89f4865d2ea68733e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738183"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008799"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="adding-archiving-databases-to-an-existing-lync-server-2013-deployment"></a>將存檔資料庫新增至現有的 Lync Server 2013 部署
+# <a name="adding-archiving-databases-to-an-existing-lync-server-2013-deployment"></a>將封存資料庫新增至現有的 Lync Server 2013 部署
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41738183"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-06-23_
+_**主題上次修改日期：** 2012年-06-23_
 
-在您設定要封存的系統平臺與基礎結構之後，您必須使用拓撲建立器，將封存新增到您的拓撲，然後發佈拓撲。
+您針對封存設定系統平台及基礎結構之後，您必須以新增封存至拓撲，使用拓撲產生器]，然後發行拓撲。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [將存檔資料庫新增到 Lync Server 2013 拓撲](lync-server-2013-adding-archiving-databases-to-the-lync-server-2013-topology.md)
+  - [將封存資料庫新增至 Lync Server 2013 拓撲](lync-server-2013-adding-archiving-databases-to-the-lync-server-2013-topology.md)
 
-  - [發佈已更新的拓撲，以便在 Lync Server 2013 中新增封存資料庫](lync-server-2013-publishing-the-updated-topology-to-add-archiving-databases.md)
+  - [發佈更新過的拓撲，以在 Lync Server 2013 中新增封存資料庫](lync-server-2013-publishing-the-updated-topology-to-add-archiving-databases.md)
 
 </div>
 

@@ -13,16 +13,16 @@ ms:contentKeyID: 48183260
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4c6622eb6820857b117c16bfa9ea2065678d3b88
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 03ec9602912d8969c57d86aa862c7bd833585d21
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728136"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006629"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -36,13 +36,13 @@ ms.locfileid: "41728136"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-12-14_
+_**主題上次修改日期：** 2012年-12-14_
 
-當使用者按一下會議邀請中的會議連結時，會議加入頁面會偵測到 Lync 2013 用戶端是否已安裝在使用者的電腦上。 如果已安裝用戶端，該用戶端會開啟並加入會議。 如果未安裝用戶端，則預設會開啟2013版的 Lync Web App。
+當使用者按一下會議中的連結會議邀請，會議加入頁面會偵測到使用者的電腦上是否已安裝 Lync 2013 用戶端。 若已安裝用戶端，將會開啟該用戶端，然後加入會議。 如果未安裝在用戶端，預設的 Lync Web App 2013 版本會開啟。
 
-如果您想要允許使用者使用 Office Communicator 2007 R2 或 Lync 2010 應答加入會議，您可以修改會議加入頁面的行為。 這些設定選項已從 Lync Server 2013 [控制台] 中移除，但您可以使用 CsWebServiceConfiguration Cmdlet 進行設定。
+您可以修改行為的會議加入頁面如果您想要允許使用者加入會議與 Office Communicator 2007 R2 或 Lync 2010 Attendant。 已從 Lync Server 2013 控制台]，移除這些組態選項，但您使用 CsWebServiceConfiguration 指令程式來設定。
 
-### <a name="meeting-join-page-cswebserviceconfiguration-parameters"></a>會議加入頁面 CsWebServiceConfiguration 參數
+### <a name="meeting-join-page-cswebserviceconfiguration-parameters"></a>會議加入頁面的 CsWebServiceConfiguration 參數
 
 <table>
 <colgroup>
@@ -52,17 +52,17 @@ _**主題上次修改日期：** 2012-12-14_
 <thead>
 <tr class="header">
 <th>CsWebServiceConfiguration 參數</th>
-<th>說明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>ShowJoinUsingLegacyClientLink</p></td>
-<td><p>如果設為 True，則使用 Lync 以外的用戶端應用程式加入會議的使用者將有機會使用 Office Communicator 2007 R2 加入會議。 預設值為 False。</p></td>
+<td><p>如果設為 True，使用以外的 Lync 用戶端應用程式加入會議的使用者將能夠使用 Office Communicator 2007 R2 來加入會議的機會。 預設值為 False。</p></td>
 </tr>
 <tr class="even">
 <td><p>ShowAlternateJoinOptionsExpanded</p></td>
-<td><p>當設定為 True 時，加入線上會議的替代選項（例如 Office Communicator 2007 R2）將會自動展開並向使用者顯示。 當設定為 False （預設值）時，這些選項將可供使用，但使用者將必須針對自己顯示選項清單。</p></td>
+<td><p>此參數設為 True 時，就會自動擴充參加線上會議的其他選項 (例如 Office Communicator 2007 R2)，並且對使用者顯示。設為 False (預設值) 時，可使用這些選項，但使用者必須自行顯示選項清單。</p></td>
 </tr>
 </tbody>
 </table>
@@ -70,17 +70,17 @@ _**主題上次修改日期：** 2012-12-14_
 
 <div>
 
-## <a name="to-configure-the-meeting-join-page-by-using-lync-server-2013-management-shell"></a>使用 Lync Server 2013 管理命令介面設定會議加入頁面
+## <a name="to-configure-the-meeting-join-page-by-using-lync-server-2013-management-shell"></a>若要設定會議加入頁面使用 Lync Server 2013 管理命令介面
 
-1.  啟動 Lync Server 2013 管理命令介面：按一下 [**開始**]，按一下 [**所有程式**]，按一下 [ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server Management Shell**]。
+1.  啟動 Lync Server 2013 管理命令介面： 按一下 [**開始]**，按一下 [**所有程式]**、 [ **Microsoft Lync Server 2013**]，然後按一下**Lync Server 管理命令介面**。
 
 2.  執行下列 Cmdlet：
     
         Get-CsWebServiceConfiguration
     
-    這個 Cmdlet 會傳回 web 服務配置設定。
+    此 Cmdlet 會傳回 Web 服務設定。
 
-3.  根據您的喜好設定（如需此 Cmdlet 之參數的詳細資料，請參閱 Lync Server 2013 管理命令介面檔），執行下列命令，並將參數設定為 True 或 False。
+3.  執行下列命令，參數設為 True 或 False，取決於偏好 （如需此 cmdlet 之參數的詳細資訊，請參閱 Lync Server 2013 管理命令介面文件）：
     
         Set-CsWebServiceConfiguration -Identity global -ShowJoinUsingLegacyClientLink $True
 

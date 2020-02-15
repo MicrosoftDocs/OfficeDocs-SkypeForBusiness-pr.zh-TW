@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：查看 CDR 配置資訊
+title: Lync Server 2013： 檢視 CDR 組態資訊
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733695
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f13bbc63d65786823ae49895358216a903878192
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0eff8985832d9bb6e8aa4e06b777944417c7b8bc
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757487"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007202"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="view-cdr-configuration-information-in-lync-server-2013"></a>在 Lync Server 2013 中查看 CDR 配置資訊
+# <a name="view-cdr-configuration-information-in-lync-server-2013"></a>Lync Server 2013 中檢視 CDR 組態資訊
 
 </div>
 
@@ -35,37 +35,37 @@ ms.locfileid: "41757487"
 
 <span> </span>
 
-_**主題上次修改日期：** 2013-02-23_
+_**上次修改主題：** 2013年-02-23_
 
-通話詳細資料錄製（CDR）可讓您追蹤諸如對等立即訊息會話、透過網際網路通訊協定（VoIP）電話撥打電話及會議呼叫等專案的使用方式。 此使用量資料包括呼叫者、呼叫者及交談時間的相關資訊。
+詳細通話記錄 (CDR) 讓您能夠追蹤點對點即時訊息工作階段、Voice over Internet Protocol (VoIP) 電話通話，以及會議通話之類的使用狀況。這個使用狀況資料包含有關通話者雙方身分、通話時間以及通話時間長度的資訊。
 
-當您安裝 Microsoft Lync Server 2013 時，系統會為您建立單一、全域的 CDR 配置設定。 系統管理員也可以選擇建立可套用至個別網站的自訂設定集合。 您可以使用 Lync Server [控制台] 或[CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsCdrConfiguration) Cmdlet 來查看貴組織中使用的 CDR 配置設定。
+當您安裝 Microsoft Lync Server 2013 中，單一，為您建立的 CDR 組態設定全域集合。 系統管理員也可以選擇建立自訂的設定集合，以套用於個別網站。 您可以檢視 CDR 組態設定中使用您組織中使用 Lync Server Control Panel 或[Get-cscdrconfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsCdrConfiguration) cmdlet。
 
 <div>
 
-## <a name="to-view-cdr-configuration-information-by-using-lync-server-control-panel"></a>使用 Lync Server [控制台] 來查看 CDR 配置資訊
+## <a name="to-view-cdr-configuration-information-by-using-lync-server-control-panel"></a>若要使用 Lync Server 控制台檢視 CDR 組態資訊
 
-1.  在 Lync Server [控制台] 中，按一下 [**監視及**封存]。
+1.  Lync Server 控制台] 中按一下 [**監控和封存**]。
 
-2.  [**通話詳細資料記錄**] 索引標籤中會顯示所有 CDR 設定設定的清單;針對每個設定集合，您會看到集合**名稱**;是否已啟用 CDR （ **cdr**屬性）;以及是否已啟用清除（ **CDR 清除**屬性）。 若要查看集合的詳細資訊，請按兩下該集合，或選取適當的集合，按一下 [**編輯**]，然後按一下 [**顯示詳細資料**]。 請注意，您一次只能針對單一的 CDR 配置設定集合查看詳細資訊。
+2.  您所有 CDR 組態設定的清單將在 **[詳細通話記錄]** 索引標籤中顯示；在每一個設定集合中，您將會看到 **[名稱]** 集合；無論是否啟用 CDR (**CDR** 屬性)；無論是否啟用清除 (**CDR purging** 屬性)。若要檢視有關集合的詳細資訊，請在該集合按兩下滑鼠，或選取合適的集合，按一下 **[編輯]**，然後按一下 **[顯示詳細資訊]**。請記住，您一次只能檢視單一 CDR 組態設定集合的詳細資訊。
 
 </div>
 
 <div>
 
-## <a name="viewing-cdr-configuration-information-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 來查看 CDR 配置資訊
+## <a name="viewing-cdr-configuration-information-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 檢視 CDR 組態資訊
 
-您可以使用 Windows PowerShell 和 CsCdrConfiguration Cmdlet 來查看 CDR 配置設定。 您可以從 Lync Server 2013 管理命令介面或從 Windows PowerShell 遠端會話中執行此 Cmdlet。 如需使用遠端 Windows PowerShell 連線至 Lync Server 的詳細資料，請參閱 Lync Server Windows PowerShell 博客文章「快速入門：使用遠端 PowerShell 管理 Microsoft Lync Server 2010」 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。
+您可以使用 Windows PowerShell 和 Get-cscdrconfiguration cmdlet 檢視 CDR 組態設定。 從 Lync Server 2013 管理命令介面或 Windows PowerShell 的遠端工作階段，您可以執行此 cmdlet。 如需使用遠端 Windows PowerShell 連線至 Lync Server 的詳細資訊，請參閱 Lync Server Windows PowerShell 部落格文章 「 快速開始:: 管理 Microsoft Lync Server 2010 使用遠端 PowerShell 」 在[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。
 
 <div>
 
-## <a name="to-view-cdr-configuration-information"></a>若要查看 CDR 配置資訊
+## <a name="to-view-cdr-configuration-information"></a>檢視 CDR 組態資訊
 
-  - 若要查看所有 CDR 配置設定的相關資訊，請在 Lync Server 管理命令介面中輸入下列命令，然後按 ENTER 鍵：
+  - 若要檢視所有 CDR 組態設定的相關資訊，請在 Lync Server 管理命令介面中輸入下列命令並按 ENTER:
     
         Get-CsCdrConfiguration
     
-    這會傳回如下所示的資訊：
+    如此將傳回類似如下的資訊：
     
         Identity               : Global
         EnableCDR              : True
@@ -76,7 +76,7 @@ _**主題上次修改日期：** 2013-02-23_
 
 </div>
 
-如需詳細資訊，請參閱[CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsCdrConfiguration) Cmdlet 的說明主題。
+如需詳細資訊，請參閱[Get-cscdrconfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsCdrConfiguration) cmdlet 的說明主題。
 
 </div>
 

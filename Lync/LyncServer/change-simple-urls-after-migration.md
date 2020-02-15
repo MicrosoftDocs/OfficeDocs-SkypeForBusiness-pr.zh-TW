@@ -1,5 +1,5 @@
 ---
-title: 在移轉後變更簡單 URL
+title: 移轉後變更簡單 Url
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -13,20 +13,20 @@ ms:contentKeyID: 49733777
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a24eda274734e0c5a27fab30640a363de6653514
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: df0d6666f4ea824d59a97eb1f63b66016c75d547
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726723"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42003418"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="change-simple-urls-after-migration"></a>在移轉後變更簡單 URL
+# <a name="change-simple-urls-after-migration"></a>移轉後變更簡單 Url
 
 </div>
 
@@ -36,41 +36,41 @@ ms.locfileid: "41726723"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-09-22_
+_**主題上次修改日期：** 2012年-09-22_
 
-Lync Server 支援三個簡單的 Url：
+Lync Server 支援三個簡單 Url:
 
-  - [**開會**] 是用來做為網站或組織中所有會議的基底 URL。 使用 [符合簡單的 URL]，加入會議的連結就很容易理解，且易於溝通及發佈。
+  - **符合**用於做為基底 URL 的網站或組織中的所有會議。 Meet 簡單 URL，來加入會議的連結有可更容易理解，且更容易溝通與分送。
 
-  - [**撥**入] 可讓您存取 [電話撥入式會議] 設定網頁。 [撥入] 簡單 URL 包含在所有會議邀請中，讓想要撥入會議的使用者可以存取必要的電話號碼和 PIN 資訊。
+  - **撥號對應表中**啟用 [存取電話撥入式會議設定網頁。 撥入簡單 URL 包含所有會議邀請中，讓要撥入會議的使用者可以存取的必要的電話號碼及 pin 碼資訊。
 
-  - [系統**管理**] 可讓您快速存取 Lync Server [控制台]。 系統管理員簡易 URL 是貴組織的內部。
+  - **系統管理員**可讓您快速存取 Lync Server Control Panel。 Admin 簡單 URL 是您組織內部。
 
-遷移至 Lync Server 2013 之後，您必須知道變更對您的 DNS 記錄及證書有何影響，以取得簡單的 Url。 如果舊版 Lync Server 2010 控制器在拓撲中保持使用，則不需要變更您的簡單 Url。 如果 Lync Server 2010 控制器是在遷移之後從拓撲中移除，則必須更新簡單的 URL DNS 記錄，以指向其中一個 Lync Server 2013 池。 不過，每當您變更簡單的 URL 名稱時，您必須在每個控制器和前端伺服器上執行 Enable-CsComputer，以登錄變更。
+移轉至 Lync Server 2013 之後，您必須知道如何變更會影響您的 DNS 記錄和憑證簡單 url。 如果舊版的 Lync Server 2010 Director 中保持使用中拓樸，不允許變更簡單 Url 所需。 如果從拓撲移除 Lync Server 2010 Director 移轉之後，必須更新簡單 URL 的 DNS 記錄，以指向下列其中一個 [Lync Server 2013 集區。 每當您變更了簡單 URL 名稱，但是，您必須執行 Enable-cscomputer 上每個 Director 與前端伺服器，以登錄變更。
 
 <div>
 
-## <a name="changing-simple-urls-after-migration"></a>遷移後變更簡單的 Url
+## <a name="changing-simple-urls-after-migration"></a>移轉後變更簡單 Url
 
-**若要更新 [符合簡單 URL]**
+**更新 Meet 簡單 URL**
 
-1.  在拓撲建立器中，以滑鼠右鍵按一下頂層節點**Lync Server**，然後按一下 [**編輯屬性**]。
+1.  在拓撲產生器，以滑鼠右鍵按一下頂端節點 [ **Lync Server**，，，然後按一下 [**編輯內容**。
 
-2.  選取左窗格中的 [**簡單 url** ]，然後選取 [**會議 url]：** 選取 [認識 url]，然後按一下 [**編輯 URL**]。
+2.  選取 [**簡單 Url**在左窗格中，然後下方**會議 Url:** 選取 Meet URL，然後按一下 [**編輯 URL**。
 
-3.  更新 URL 至您想要的值，然後按一下 **[確定]** 以儲存編輯的 URL。
+3.  將 URL 更新為想要的值，然後按一下 **[確定]** 儲存編輯的 URL。
 
-**更新管理員簡易 URL**
+**更新 Admin 簡單 URL**
 
-1.  在拓撲建立器中，以滑鼠右鍵按一下頂層節點**Lync Server**，然後按一下 [**編輯屬性**]。
+1.  在拓撲產生器，以滑鼠右鍵按一下頂端節點 [ **Lync Server**，，，然後按一下 [**編輯內容**。
 
-2.  選取左窗格中的 [**簡單 url** ]，然後在 [**管理存取 URL** ] 方塊中，輸入您要用來管理 Lync Server 2013 [控制台] 的簡單 URL，然後按一下 **[確定]**。
+2.  在左窗格中，然後下方**系統管理存取 URL** ] 方塊中選取 [**簡單 Url** ，輸入您想要管理存取權，Lync Server 2013 控制台，簡單 URL，然後按一下 [**確定]**。
     
     <div>
     
 
     > [!TIP]  
-    > 我們建議您使用最簡單的管理 URL URL。 最簡單的選項就是<STRONG> https://admin。</STRONG>&lt;網域&gt;。
+    > 建議您盡可能使用最簡單的 URL 作為 Admin URL。 最簡單的選項是<STRONG>https://admin。</STRONG>&lt;網域&gt;。
 
     
     </div>
@@ -79,10 +79,10 @@ Lync Server 支援三個簡單的 Url：
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
-[在 Lync Server 2013 中規劃簡單 URL](lync-server-2013-planning-for-simple-urls.md)  
+[規劃 Lync Server 2013 中的簡單 Url](lync-server-2013-planning-for-simple-urls.md)  
   
 
 </div>

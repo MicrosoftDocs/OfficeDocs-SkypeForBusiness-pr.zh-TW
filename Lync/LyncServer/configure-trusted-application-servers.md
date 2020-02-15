@@ -13,16 +13,16 @@ ms:contentKeyID: 48183592
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fee8a8894285a321a4a0bc51a7cdf0462be7af85
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 204c183ad63da3278d10b802d3f2140fa9a86a70
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729083"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006599"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -36,27 +36,27 @@ ms.locfileid: "41729083"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-11_
+_**主題上次修改日期：** 2012年-10-11_
 
-在混合式環境中，如果您建立新的受信任的應用程式伺服器，您必須將下一個躍點池設定為 Lync Server 2013 池。 在混合式環境中，舊版 Lync Server 2010 池和 Lync Server 2013 池都會出現在下拉式清單中。 不支援選取舊版池。
+在混合環境中，如果您建立新的受信任的應用程式伺服器，您必須設定為 Lync Server 2013 集區的下一個躍點集區。 在混合環境中，舊版的 Lync Server 2010 集區和 Lync Server 2013 集區出現在下拉式清單中。 但不支援選取舊版集區。
 
-**在建立信任的應用程式伺服器時，選取 Lync Server 2013 做為下一個躍點**
+**建立信任的應用程式伺服器時，為下一個躍點選取 Lync Server 2013**
 
-1.  開啟拓撲建立器。
+1.  開啟拓撲產生器]。
 
-2.  在左窗格中，以滑鼠右鍵按一下 [**受信任的應用程式伺服器**]，然後按一下 [**新增信任的應用程式**
+2.  在左側窗格中，用滑鼠右鍵按一下 **[信任的應用程式伺服器]**，然後按一下 **[新增信任的應用程式集區]**。
 
-3.  輸入受信任的應用程式池的 [**池 FQDN** ]，然後選取它將是單一伺服器或多重伺服器。
+3.  輸入信任的應用程式集區的**集區 FQDN** ]，然後選取是否成為單一伺服器或多部伺服器。
 
-4.  按一下 **[下一步]**。
+4.  按 [下一步]****。
 
-5.  在 [**選取下一個躍點]** 頁面上的清單中，選取 [Lync Server 2013 前端] 池。
+5.  在 [**選取下一個躍點**] 頁面上，從清單中，選取 Lync Server 2013 前端集區。
 
-6.  按一下 **[完成]**。
+6.  按一下 [完成]****。
 
-7.  選取頂端節點**Lync Server** ，然後從 [**動作**] 功能表選取 [**發佈**]。
+7.  選取頂端節點 [ **Lync Server** ，然後從 [**動作**] 功能表中，選取 [**發行]**。
     
-    確認**信任的應用程式池**已順利建立，且與正確的前端池相關聯。
+    確認**信任的應用程式集區**已經成功建立並關聯到正確的前端集區。
 
 </div>
 

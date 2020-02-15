@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：驗證用於負載平衡的網域名稱系統設定
+title: Lync Server 2013： 驗證網域名稱系統設定負載平衡
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 63969625
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0178d179a9684cf07450cdee839af1c8c1ebc22d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3cc1766ad11a5a6b7933d95b2c3e1182ff8ffc6a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727523"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007432"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,25 +35,25 @@ ms.locfileid: "41727523"
 
 <span> </span>
 
-_**主題上次修改日期：** 2014-05-02_
+_**上次修改主題：** 2014年-05-02_
 
-若要支援 DNS 負載平衡所使用的 FQDN，您必須提供 DNS，以將池 FQDN （例如 pool01.contoso.com）解析為池中所有伺服器的 IP 位址（例如，192.168.1.1、192.168.1.2 等等）。 您應該只包含目前已部署之伺服器的 IP 位址。
+若要支援 DNS 負載平衡所使用的 FQDN，您必須佈建 DNS，以將集區 FQDN (如 pool01.contoso.com) 解析為集區中所有伺服器的 IP 位址 (例如，192.168.1.1、192.168.1.2 等)。您應該只包含目前部署之伺服器的 IP 位址。
 
-此外，如果您使用的是適用于 Edge 池的 DNS 負載平衡，則需要下列 DNS 專案：
+此外使用 DNS 負載平衡 Edge 集區的下列 DNS 項目需要：
 
-  - 對於 Lync Server Access Edge 服務，池中的每個伺服器都必須有一個專案。 每個專案都必須將 Lync Server 存取邊緣服務（例如，sip.contoso.com）的 FQDN 解析成池中某個邊緣伺服器上的 Lync Server Access Edge 服務的 IP 位址。
+  - 為 Lync Server Access Edge 服務] 中，您必須為每個伺服器的一個項目集區中。 每個項目必須解決的 FQDN，Lync Server Access Edge 服務 (例如 sip.contoso.com) 上下列其中一個 Edge Server 集區中的 Lync Server Access Edge 服務的 IP 位址。
 
-  - 針對 Lync Server Web 會議 Edge 服務，您必須為池中的每個伺服器都有一個專案。 每個專案都必須將 Lync Server Web 會議 Edge 服務（例如 webconf.contoso.com）的 FQDN 解析成池中某個邊緣伺服器上的 Lync Server Web 會議 Edge 服務的 IP 位址。
+  - Lync Server Web Conferencing Edge service，您必須為每個伺服器的一個項目集區中。 每個項目必須解決的 FQDN，Lync Server Web Conferencing Edge service (例如，webconf.contoso.com) 上下列其中一個 Edge Server 集區中的 Lync Server Web 會議 Edge 服務的 IP 位址。
 
-  - 針對 Lync Server 音訊/視頻邊緣服務，您必須為池中的每個伺服器都有一個專案。 每個專案都必須將 Lync Server 音訊/視頻邊緣服務（例如，av.contoso.com）的 FQDN 解析成池中某個邊緣伺服器上的 Lync Server 音訊/視頻邊緣服務的 IP 位址。
+  - Lync Server Audio/Video Edge service，您必須為每個伺服器的一個項目集區中。 每個項目必須為下列其中一個 Edge Server 集區中的 Lync Server Audio/Video Edge 服務 IP 位址解析 Lync Server Audio/Video Edge service (例如，av.contoso.com) 的 FQDN。
 
-  - 如果您想要在 Edge 池的內部介面上使用 DNS 負載平衡，您必須加入一個 DNS 記錄，該記錄會將 Edge 池的內部 FQDN 解析成池中每個伺服器的 IP 位址。
+  - 如果您想要使用 DNS 負載平衡 Edge 集區的內部介面上，您必須新增一個內部 Edge 集區 FQDN 解析為集區中每部伺服器的 IP 位址的 DNS 記錄。
 
-若要驗證 DNS 是否傳回 DNS 負載平衡的正確值，您應該使用 nslookup 工具。 若要以 nslookup 傳回 DNS 記錄的所有值，您應該執行命令：
+若要確認 DNS 會傳回正確的值為 DNS 負載平衡您應該使用 nslookup 工具。 若要傳回所有具有 nslookup 的 DNS 記錄的值，您應該執行命令：
 
 `nslookup <FQDN >`
 
-您可以針對 DNS 負載平衡設定中使用的每個 FQDN 執行這個命令，以驗證 DNS 負載平衡的每個記錄集傳回了所有正確的專案。
+您可以執行此命令來確認每一筆記錄設定 DNS 負載平衡傳回所有的正確的項目使用 DNS 負載平衡組態中每個 fqdn。
 
 </div>
 

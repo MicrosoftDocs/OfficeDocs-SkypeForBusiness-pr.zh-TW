@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： Lync Server Management 命令介面
+title: 'Lync Server 2013: Lync Server 管理命令介面'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184386
 ms.date: 09/20/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d519b647eae4937af10a38673803484a253baef7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8d8ba2330e59d4f352407d94c6e73f96a5fff816
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742183"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006159"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,23 +35,23 @@ ms.locfileid: "41742183"
 
 <span> </span>
 
-_**主題上次修改日期：** 2017-09-20_
+_**主題上次修改日期：** 2017年-09-20 個_
 
 <div>
 
 
 > [!NOTE]  
-> 商務用 Skype Cmdlet 參考已移至 docs.microsoft.com。 按一下下方的連結，會將您帶到 [新增 docs.microsoft.com] 頁面。 內容現在已開啟來源，且可供 GitHub 的群組發佈。 想要進行共同作業嗎？ 查看存放庫中的讀我檔案：<A href="https://github.com/microsoftdocs/office-docs-powershell">https://github.com/MicrosoftDocs/office-docs-powershell</A>
+> Skype for Business cmdlet 參照已移至 docs.microsoft.com。 按一下下列連結將帶您前往 [新增 docs.microsoft.com] 頁面。 內容現在是透過 GitHub 開啟來源，並可供社群參與。 參與有興趣嗎？ 請參閱 「 讀我檔案中的儲存機制：<A href="https://github.com/microsoftdocs/office-docs-powershell">https://github.com/MicrosoftDocs/office-docs-powershell</A>
 
 
 
 </div>
 
-Microsoft Lync Server 2010 引進了一組較大的新功能和改良功能，與 Microsoft Office 通訊伺服器 2007 R2 中提供的功能比較。 其中一個改善是您管理實施的方式。 例如，有一個新的使用者介面（稱為 Lync Server [控制台]），代表在 Microsoft 管理主控台中使用大部分人員的大量班次。 易管理性的另一個主要改進，就是加入了 Windows PowerShell。
+Microsoft Lync Server 2010 引進了一大組的相較於什麼是 Microsoft Office Communications Server 2007 R2 中可用的新增和改善功能。 其中一項改良功能是管理實作的方式。 例如，沒有新的使用者介面，稱為 「 Lync Server Control Panel，查看大部分的人員使用 Microsoft Management Console，是用來代表 big shift 鍵。 其他主要的改善管理性是 Windows PowerShell 的相對路徑。
 
-Windows PowerShell 可讓您從命令列管理 Microsoft 應用程式。 它包含命令列環境、產品特定命令及完整的腳本撰寫語言。 Windows PowerShell 最初是在2006中提供給 Windows 作業系統的可下載版本，並已融入為 Microsoft Exchange Server 2007 可管理性的命令列介面。 從那一開始，我們已將它整合到大部分的 Microsoft 伺服器產品中，最新的是 Microsoft Lync Server 2013。 Lync Server 2010 引進了550個產品專用的 Cmdlet，您可以用來管理您的部署的各個方面。
+Windows PowerShell 可讓您從命令列管理 Microsoft 應用程式。 它包括命令列環境、產品特定命令，以及完整指令碼語言。 Windows PowerShell 第一次中已導入與 Windows 作業系統可下載發行最遲 2006，並已合併為命令列介面的 Microsoft Exchange Server 2007 的管理性。 從該點它可以繼續成長，以及它具有已納入大部分的 Microsoft 伺服器產品，最新版的這些正在 Microsoft Lync Server 2013。 Lync Server 2010 引進了接近 550 特定產品 cmdlet 可以用來管理您的部署的每個層面。
 
-下列各節包含 Cmdlet 及其描述的清單。 此資訊也可以直接從命令列取得。 只要在 Lync Server 管理命令介面命令提示字元輸入以下內容：
+下列各節包含 Cmdlet 及其描述的清單。 此資訊也可以直接從命令列取得。 只在 Lync Server 管理命令介面命令提示字元處輸入下列命令：
 
     Get-Help <cmdlet name> -Full
 
@@ -59,22 +59,22 @@ Windows PowerShell 可讓您從命令列管理 Microsoft 應用程式。 它包�
 
     Get-Help New-CsVoicePolicy -Full
 
-有關 Lync Server 2013 中的 Windows PowerShell 須知：
+若要了解 Windows PowerShell 在 Lync Server 2013 中的項目：
 
-  - 若要執行 Lync Server Cmdlet，請開啟 Lync Server 管理命令介面。
+  - 若要執行 Lync Server 指令程式，開啟 [Lync Server 管理命令介面]。
     
     <div>
     
 
     > [!WARNING]  
-    > 如果您開啟的是 Windows PowerShell 視窗，而不是 Lync Server 管理命令介面，預設將無法執行 Lync Server Cmdlet。 若要從 Windows PowerShell 中執行 Lync Server Cmdlet，請先在 Windows PowerShell 命令提示字元中輸入下列內容：<BR>匯入模組 Lync
+    > 如果您開啟 Windows PowerShell 視窗，而不是在 Lync Server 管理命令介面]，依預設您將無法執行 Lync Server cmdlet。 若要執行從 Windows PowerShell 中的 Lync Server 指令程式，請先在 Windows PowerShell 命令提示字元處輸入下列命令：<BR>Import-Module Lync
 
     
     </div>
 
-  - Lync Server 管理命令介面會自動安裝在每個 Lync Server 企業版前端伺服器或標準版伺服器上。
+  - Lync Server 管理命令介面會自動安裝每個 Lync Server Enterprise Edition 前端伺服器或 Standard Edition server 上。
 
-  - 新功能和更新的資訊、範例腳本，以及有關 Windows PowerShell 和 Microsoft Lync Server 2013 Cmdlet 的說明，可在 Lync Server Windows PowerShell 博客[https://go.microsoft.com/fwlink/p/?linkId=203150](https://go.microsoft.com/fwlink/p/?linkid=203150)中取得。
+  - 最新及更新的資訊、 範例指令碼，以及開始使用並深入了解 Windows PowerShell 和 Microsoft Lync Server 2013 cmdlet 的說明位於 Lync Server Windows PowerShell 部落格[https://go.microsoft.com/fwlink/p/?linkId=203150](https://go.microsoft.com/fwlink/p/?linkid=203150)。
 
 </div>
 

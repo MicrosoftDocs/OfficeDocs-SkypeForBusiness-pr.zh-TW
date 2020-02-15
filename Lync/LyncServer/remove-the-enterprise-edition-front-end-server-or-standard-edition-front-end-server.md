@@ -1,5 +1,5 @@
 ---
-title: 移除企業版前端伺服器或標準版前端伺服器
+title: 移除 Enterprise Edition 前端伺服器或 Standard Edition 前端伺服器
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733721
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e175b4771b9e9777f0fa162cb2a59f7a3b17cc7e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 74689dcc730874ecaea0aef31ab18cfc2e9c2c1d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727153"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008869"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="remove-the-enterprise-edition-front-end-server-or-standard-edition-front-end-server"></a>移除企業版前端伺服器或標準版前端伺服器
+# <a name="remove-the-enterprise-edition-front-end-server-or-standard-edition-front-end-server"></a>移除 Enterprise Edition 前端伺服器或 Standard Edition 前端伺服器
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41727153"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-10_
+_**主題上次修改日期：** 2012年-10-10_
 
-本主題中所述的程式旨在引導您完成移除 Microsoft Lync Server 2010 Enterprise Edition 前端池或標準版前端伺服器的程式。 遷移至 Lync Server 2013 之後，以下是解除舊版 Lync Server 2010 環境的第一個步驟。
+本主題中所述的程序被設計來引導您完成移除 Microsoft Lync Server 2010 Enterprise Edition 前端集區或 Standard Edition 前端伺服器的程序。 移轉至 Lync Server 2013 之後，這會是下列其中一個解除委任舊版 Lync Server 2010 環境的第一個步驟。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
   - [重設通話許可控制](reset-call-admission-control.md)
 
@@ -49,9 +49,9 @@ _**主題上次修改日期：** 2012-10-10_
 
   - [停止 Lync Server 2010 服務](stop-lync-server-2010-services.md)
 
-  - [從集區中移除前端伺服器](remove-a-front-end-server-from-a-pool.md)
+  - [從集區移除前端伺服器](remove-a-front-end-server-from-a-pool.md)
 
-  - [移除前端集區或 Standard Edition Server](remove-front-end-pool-or-standard-edition-server.md)
+  - [移除前端集區或 Standard Edition server](remove-front-end-pool-or-standard-edition-server.md)
 
 </div>
 

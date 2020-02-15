@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：新增常設聊天室管理員
+title: Lync Server 2013： 新增常設聊天室管理員
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185300
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9a23ced0c93aae8f55868f44f179c659aead26f1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 90fa941f575a49b3cb5de23f6aa38944d885eb85
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738193"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008809"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="adding-a-persistent-chat-administrator-in-lync-server-2013"></a>在 Lync Server 2013 中新增常設聊天室管理員
+# <a name="adding-a-persistent-chat-administrator-in-lync-server-2013"></a>在 Lync Server 2013 中新增的常設聊天室管理員
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41738193"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-06_
+_**主題上次修改日期：** 2012年-10-06_
 
-在 Lync Server 2013 中，執行特定工作的使用者必須指派為一或多個特定群組的成員。 您也可以使用角色式存取控制（RBAC），將使用者指派給預先定義的 Lync Server 2013 系統管理角色，以授與許可權。
+在 Lync Server 2013 中，執行特定工作的使用者必須具有一或多個特定群組的成員。 角色型存取控制 (RBAC) 也可用來將使用者指派給預先定義的 Lync Server 2013 系統管理角色授與的權限。
 
-在設定及管理持續性聊天伺服器之前，請確定適當的使用者權利和許可權已就緒，且任何要分類為永久聊天系統管理員的使用者都會加入 CsPersistentChatAdministrator 安全性群組.
+之前設定和管理 Persistent Chat Server，請確定適當的使用者權利和權限已備妥，且任何分類為常設聊天室系統管理員的使用者會新增至 CsPersistentChatAdministrator 安全性群組群組。
 
 </div>
 

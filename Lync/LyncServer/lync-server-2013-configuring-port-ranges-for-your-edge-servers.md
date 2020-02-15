@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：為邊緣伺服器設定埠範圍
+title: Lync Server 2013： 設定您的 Edge Server 的連接埠範圍
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184469
 ms.date: 07/24/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b6eddf59f6fe4b2575e0e7d70adddb2e94c90e05
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b526611e2e29f1b8d11e731381898a7db5e71aa8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742343"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008395"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-port-ranges-for-your-edge-servers-in-lync-server-2013"></a>在 Lync Server 2013 中設定邊緣伺服器的埠範圍
+# <a name="configuring-port-ranges-for-your-edge-servers-in-lync-server-2013"></a>設定 Lync Server 2013 Edge Server 的連接埠範圍
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41742343"
 
 <span> </span>
 
-_**主題上次修改日期：** 2015-07-24_
+_**主題上次修改日期：** 2015年-07-24_
 
-有了 Edge 伺服器，您就不需要為音訊、影片和應用程式共用設定個別的埠範圍;同樣地，邊緣伺服器所用的埠範圍不一定要與您的會議、應用程式及中繼伺服器所使用的埠範圍相符。 在繼續進行我們的範例之前，請務必先將這個選項提供給您，但我們建議您不要變更埠範圍，因為如果您移出50000埠範圍，就可能會對某些案例造成負面影響。
+有了 Edge 伺服器，您不需要針對音訊、視訊與應用程式共用設定個別連接埠範圍；同樣地，用於 Edge 伺服器的連接埠範圍也無須符合與您會議伺服器、應用程式伺服器以及中繼伺服器搭配使用的連接埠範圍。 我們繼續使用我們的範例之前，請務必壓力，雖然這個選項存在，我們建議您不要變更的連接埠範圍，因為如果您移動超過 50000 的連接埠範圍，這可能會造成負面影響某些情況。
 
-例如，假設您已將會議、應用程式和中繼伺服器設定為使用這些埠範圍：
+例如，假設您已設定會議、應用程式以及中繼伺服器以使用這些連接埠範圍：
 
 
 <table>
@@ -50,9 +50,9 @@ _**主題上次修改日期：** 2015-07-24_
 </colgroup>
 <thead>
 <tr class="header">
-<th>資料包類型</th>
-<th>起始埠</th>
-<th>保留的埠數</th>
+<th>封包類型</th>
+<th>起始連接埠</th>
+<th>已保留連接埠數目</th>
 </tr>
 </thead>
 <tbody>
@@ -67,12 +67,12 @@ _**主題上次修改日期：** 2015-07-24_
 <td><p>8348</p></td>
 </tr>
 <tr class="odd">
-<td><p>顯示器</p></td>
+<td><p>影片</p></td>
 <td><p>57500</p></td>
 <td><p>8034</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>本壘</strong></p></td>
+<td><p><strong>總計</strong></p></td>
 <td><p>--</p></td>
 <td><p>24730</p></td>
 </tr>
@@ -80,19 +80,19 @@ _**主題上次修改日期：** 2015-07-24_
 </table>
 
 
-如您所見，音訊、影片和應用程式共用的埠範圍是從埠40803開始，並包含總共24732個埠。 如果您想要的話，您可以將指定的邊緣伺服器設定成在 Lync Server 管理命令介面中執行如下的命令，以使用這些整體埠值：
+如您所見，您的連接埠範圍的音訊、 視訊及應用程式共用連接埠 40803 開始，並包含 24732 連接埠總數。 您可依喜好設定某個 Edge Server，透過執行類似下列 Lync Server Management Shell 命令以使用這些全部的連接埠值：
 
     Set-CsEdgeServer -Identity EdgeServer:atl-edge-001.litwareinc.com -MediaCommunicationPortStart 40803 -MediaCommunicationPortCount 24730
 
-或者，使用下列命令同時設定貴組織中的所有邊緣伺服器：
+或者，使用下列命令以在組織中同時設定所有 Edge 伺服器：
 
     Get-CsService -EdgeServer | ForEach-Object {Set-CsEdgeServer -Identity $_.Identity -MediaCommunicationPortStart 40803 -MediaCommunicationPortCount 24730}
 
-您可以使用此 Lync Server Management Shell 命令來驗證 Edge 伺服器的目前埠設定：
+您可以使用此 Lync Server 管理命令介面命令，以確認 Edge 伺服器目前的連接埠設定：
 
     Get-CsService -EdgeServer | Select-Object Identity, MediaCommunicationPortStart, MediaCommunicationPortCount
 
-同樣地，雖然我們確實提供這些選項，但我們強烈建議您將它們留給埠配置。
+同樣地，我們提供這些選項，雖然我們強烈建議您將保留事項，因為它們是連接埠設定。
 
 </div>
 

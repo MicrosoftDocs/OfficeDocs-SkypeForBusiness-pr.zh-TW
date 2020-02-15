@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：編輯網路設定圖表
+title: Lync Server 2013： 編輯網路組態圖
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541469
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dc199098d27364c3bc5f512a48d2e512c7c9d984
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 29e65fc660285501cf8d2326505ad46ea227e123
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729383"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006239"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="editing-the-network-configuration-diagram-in-lync-server-2013"></a>在 Lync Server 2013 中編輯網路設定圖表
+# <a name="editing-the-network-configuration-diagram-in-lync-server-2013"></a>編輯 Lync Server 2013 中的網路組態圖
 
 </div>
 
@@ -35,42 +35,42 @@ ms.locfileid: "41729383"
 
 <span> </span>
 
-_**主題上次修改日期：** 2013-02-21_
+_**上次修改主題：** 2013年-02-21_
 
-在 Lync Server 2013 中，設計工具的大部分工作都是由定義 IP 位址的專案，以及網狀圖表專案的完整功能變數名稱（Fqdn）。 在此頁面上輸入的資訊會納入至 [規劃工具] 中所含的報告及其他資訊。
+大部分的工作設計工具會在 Lync Server 2013 中，、 規劃工具包含定義的 IP 位址的項目，以及完整的網域名稱 (Fqdn) 的網狀圖上的項目。 在此頁面輸入的資訊會攜帶入報告和規劃工具中包含的其他資訊。
 
-![規劃工具網狀圖](images/Gg558643.eeabee2d-698c-4b79-baa5-caa4cfb7edb3(OCS.15).jpg "規劃工具的網路圖表")
+![規劃工具的網路圖表](images/Gg558643.eeabee2d-698c-4b79-baa5-caa4cfb7edb3(OCS.15).jpg "規劃工具的網路圖表")
 
-規劃工具會建立含 IP 位址和 Fqdn 預設文字的網狀圖表。
+規劃工具建立網狀圖與 IP 位址和 Fqdn 的預設文字。
 
-若要編輯 network 圖表及輸入值：
+若要編輯網路圖和輸入值：
 
-1.  選擇要開始使用的網路區段。 例如，按兩下文字 [ **access1.contoso.com**]。 在開啟的對話方塊中，輸入 [伺服器 access1.contoso.com] 的實際 FQDN，以及實際的 IP 位址（取代131.107.155.3）。
+1.  選擇要開始處理的網路區段。 例如，連按兩下文字]，[ **access1.contoso.com**。 在開啟 [對話方塊] 方塊中，輸入的實際 FQDN 伺服器 access1.contoso.com 和實際的 IP 位址，取代 131.107.155.3。
 
-2.  按一下 **[確定]** 儲存專案。
+2.  按一下 **[確定]** 儲存項目。
 
-3.  繼續編輯 IP 位址和 Fqdn，提供硬體負載平衡器的虛擬 IP 位址或網域名稱系統（DNS）的伺服器專案在池中的伺服器負載平衡。
+3.  繼續編輯 IP 位址和 FQDN，提供各硬體負載平衡器的虛擬 IP 位址，或集區中各伺服器的網域名稱系統 (DNS) 負載平衡的伺服器項目。
 
-規劃工具有一個實用的功能，就是它可以逐漸指派 IP 位址和伺服器主機名稱的範圍，而不需要設計者在池中編輯每個獨立的伺服器。 例如：
+規劃工具的一項實用功能在於可以漸進地指派 IP 位址範圍和伺服器主機名稱，而不需要設計師分別編輯集區中的每部伺服器。例如：
 
-1.  按兩下共端的前端伺服器。 對話方塊開啟時，請選取 [**您想要將 IPs 和 FQDN 作為此群集中所有等價伺服器的起始點嗎？**]。
+1.  按兩下集區化的前端伺服器。 當對話方塊開啟時，選取 **[您要使用 IP 和 FQDN 作為此叢集中所有同等級伺服器的起點嗎?]**。
 
-2.  例如，第一個伺服器的起始值是 fe0101.contoso.com，IP 位址是192.168.21.122。
+2.  例如，第一部伺服器的起始值為 fe0101.contoso.com 和 192.168.21.122 IP 位址。
 
-3.  在 [**前端伺服器 FQDN**] 中輸入**Fe0.contoso.com** ，在**前端伺服器 IP 位址**中輸入**192.168.21.131** ，然後按一下 **[確定]**。
+3.  輸入**fe0.contoso.com**中**前端伺服器 FQDN**、 在**前端伺服器 IP 位址**] 中輸入**192.168.21.131** ，然後按一下 **[確定]**。
 
-4.  [自動遞增值] 功能會將池中的所有伺服器更新為 fe01 到 fe06，並將所有 IP 位址從192.168.21.131 移至136。
+4.  自動增量功能從 192.168.21.131 136 來更新為 fe01 至 fe06，並將所有的 IP 位址集區中的所有伺服器。
 
-完成所有編輯之後，請完成下列步驟以儲存拓朴：
+您已完成所有的編輯之後，儲存拓撲，請完成下列步驟：
 
-若要儲存規劃工具設計，請**按一下 [** 檔案]，然後按一下 [**儲存拓撲**] 或 [**另存拓撲為**]。 如果出現 [**儲存規劃工具**] 對話方塊，請在 [**檔案名**] 中輸入檔案名，然後按一下 [**儲存**]。
+要儲存的規劃工具設計，按一下 [**檔案**]，然後按一下 [**儲存拓樸**] 或 [**另存拓撲**。 如果出現 **[另存規劃工具]** 對話方塊，請在 **[檔案名稱]** 中輸入檔案的名稱，然後按一下 **[儲存]**。
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
-[在 Lync Server 2013 中編輯設計](lync-server-2013-editing-the-design.md)  
+[編輯 Lync Server 2013 中的設計](lync-server-2013-editing-the-design.md)  
   
 
 </div>

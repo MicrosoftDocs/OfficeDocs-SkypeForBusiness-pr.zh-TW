@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：會議摘要報告
+title: Lync Server 2013： 會議摘要報告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184299
 ms.date: 09/03/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 68858d56c47953a99928a59e5f83485ba9d305cb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f3ad7208095473529204fd69db631718d8bd774e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756997"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007852"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="conference-summary-report-in-lync-server-2013"></a>Lync Server 2013 中的 [會議摘要] 報告
+# <a name="conference-summary-report-in-lync-server-2013"></a>Lync Server 2013 中的會議摘要報告
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41756997"
 
 <span> </span>
 
-_**主題上次修改日期：** 2014-09-03_
+_**上次修改主題：** 2014年-09-03_
 
-[會議摘要] 報告提供您的線上會議會話的整體視圖。 會議通常會涉及超過2個使用者，且需要使用 Microsoft Lync Server 2013 會議服務。 相比之下，點對點工作階段通常只涉及2個使用者，不需要使用 Lync Server 的會議服務。 對等活動會報告在[Lync Server 2013 的對等活動摘要報告](lync-server-2013-peer-to-peer-activity-summary-report.md)上。
+會議摘要報告提供線上會議工作階段的整體檢視。 會議通常涉及 2 個以上的使用者，並需要在使用 Microsoft Lync Server 2013 會議服務。 相較之下，對等工作階段通常只涉及兩位使用者，而且不需要使用 Lync Server 的會議服務。 對等活動報告上的[Lync Server 2013 中的對等活動摘要報告](lync-server-2013-peer-to-peer-activity-summary-report.md)。
 
-[會議摘要報告] 不僅告訴您在指定時間內所舉行的會議數量（每小時、每天、每週、每月），也會告知您參與這些會議的人員總數，以及唯一會議的總人數組織.
+會議摘要報告不但會告訴您在指定的時間期間內 （每小時、 每天、 每週、 每月） 已保留多少場會議，但也會告訴您參與那些會議的人員總數以及唯一會議總數召集人。
 
-「唯一」召集人是指至少安排一個會議的人。 例如，如果 Pilar 方排程一個會議，她將其計算為一個唯一的召集人。 如果 Ken Myer 排程148會議給他，太多是一個唯一的召集人。 例如，下表顯示已排程8個會議，但只有三個唯一的召集人（Ken Myer、Pilar 方和 David Ahs）。
+「專屬」召集人是任何至少排程一場會議的人。例如，如果 Pilar Ackerman 排程一場會議，她就算是一位專屬召集人。如果 Ken Myer 排程 148 場會議，他也算是一位專屬召集人。 例如，下表顯示排程 8 場會議，但只有 3 位專屬召集人 (Ken Myer、Pilar Ackerman 及 David Ahs)。
 
 
 <table>
@@ -69,7 +69,7 @@ _**主題上次修改日期：** 2014-09-03_
 <td><p>7/7/2012 11:00 AM</p></td>
 </tr>
 <tr class="even">
-<td><p>Pilar 方</p></td>
+<td><p>Pilar Ackerman</p></td>
 <td><p>7/7/2012 11:00 AM</p></td>
 </tr>
 <tr class="odd">
@@ -77,7 +77,7 @@ _**主題上次修改日期：** 2014-09-03_
 <td><p>7/7/2012 1:00 PM</p></td>
 </tr>
 <tr class="even">
-<td><p>Pilar 方</p></td>
+<td><p>Pilar Ackerman</p></td>
 <td><p>7/7/2012 2:00 PM</p></td>
 </tr>
 <tr class="odd">
@@ -85,20 +85,20 @@ _**主題上次修改日期：** 2014-09-03_
 <td><p>7/2/2012 10:00 AM</p></td>
 </tr>
 <tr class="even">
-<td><p>Pilar 方</p></td>
+<td><p>Pilar Ackerman</p></td>
 <td><p>7/2/2012 10:00 AM</p></td>
 </tr>
 </tbody>
 </table>
 
 
-[會議摘要] 報告也會指出包括音訊和/或影片在內的會議數。
+會議摘要報告還會指出多少場會議包含音訊和/或視訊。
 
 <div>
 
 ## <a name="accessing-the-conference-summary-report"></a>存取會議摘要報告
 
-[會議摘要] 報告是從 [監控報告] 首頁存取。 您可以按一下下列其中一個度量來向下切入會議活動報告：
+從 [監控報告] 首頁可存取會議摘要報告。按下列計量，即可向下切入至會議活動報告：
 
   - 會議總數
 
@@ -108,9 +108,9 @@ _**主題上次修改日期：** 2014-09-03_
 
 <div>
 
-## <a name="making-the-best-use-of-the-conference-summary-report"></a>充分利用會議摘要報告
+## <a name="making-the-best-use-of-the-conference-summary-report"></a>發揮會議摘要報告的最大效用
 
-[會議摘要] 報告中所使用之大部分標準的總值，可以在報表底部找到;向下滾動以查看值，例如在指定的時段內所保留的會議總數，以及參與這些會議的人員總數。 在報表底部沒有匯總的一個度量單位是唯一的會議召集人總數。 為什麼不呢？ 以下是其中一個原因。 假設您要查看一個月的資料。 在第1天，您有34唯一的會議召集人;在第2天，您有27個唯一的會議召集人。 這是否表示您有61唯一的會議召集人來執行這兩天？ 不一定。 畢竟，在第2天組織會議的所有27人，都可能是在第1天共同進行會議的34人員。 例如，在這份簡單的報表中，請注意，在7/7/2012 和7/2/2012 上，Ken Myer 與 Pilar 方排程的會議：
+會議摘要報告上大多數所用計量的總數值可見於報告下方；向下捲動即可見到這些值，例如指定期間內舉行的會議總數，以及參與這些會議的總人數。報告下方未總計的一個計量是專屬會議召集人總數。理由何在？原因之一是，假設您在檢視一個月的資料，第一天有 34 位專屬會議召集人，第二天有 27 位專屬會議召集人。這表示兩天總共有 61 位專屬會議召集人嗎？這可不一定。畢竟在第二天召集會議的所有 27 位人員有有可能就在第一天召集會議的 34 位人員之中。例如，在下列簡單報告中，注意到 Ken Myer 與 Pilar Ackerman 在 7/7/2012 和 7/2/2012 兩天都有排程會議：
 
 
 <table>
@@ -138,7 +138,7 @@ _**主題上次修改日期：** 2014-09-03_
 <td><p>7/7/2012 11:00 AM</p></td>
 </tr>
 <tr class="even">
-<td><p>Pilar 方</p></td>
+<td><p>Pilar Ackerman</p></td>
 <td><p>7/7/2012 11:00 AM</p></td>
 </tr>
 <tr class="odd">
@@ -146,7 +146,7 @@ _**主題上次修改日期：** 2014-09-03_
 <td><p>7/7/2012 1:00 PM</p></td>
 </tr>
 <tr class="even">
-<td><p>Pilar 方</p></td>
+<td><p>Pilar Ackerman</p></td>
 <td><p>7/7/2012 2:00 PM</p></td>
 </tr>
 <tr class="odd">
@@ -154,26 +154,26 @@ _**主題上次修改日期：** 2014-09-03_
 <td><p>7/2/2012 10:00 AM</p></td>
 </tr>
 <tr class="even">
-<td><p>Pilar 方</p></td>
+<td><p>Pilar Ackerman</p></td>
 <td><p>7/2/2012 10:00 AM</p></td>
 </tr>
 </tbody>
 </table>
 
 
-若要進一步瞭解組織會議的唯一使用者總數，請變更您的時間間隔;例如，依月份查看資料，而不是依日期查看。
+若要更清楚了解召集會議之專屬使用者的總數，請變更時間間隔；例如，按月而不是按日來檢視資料。
 
 </div>
 
 <div>
 
-## <a name="filters"></a>濾鏡
+## <a name="filters"></a>篩選
 
-篩選提供一種方式，可讓您傳回更精細設定目標的資料集，或以不同方式查看傳回的資料。 例如，[會議摘要] 報告可讓您選擇資料的分組方式。 在這種情況下，會議會依小時、日、周或月進行分組。
+篩選器可以讓您傳回更精確的資料集或者以不同方法檢視傳回的資料。例如，會議摘要報告可讓您選擇如何將資料分組。在這種情況下，會議會按照小時、日、星期或月加以分組。
 
-下表列出可與會議摘要報告搭配使用的篩選。
+下表列出您可以用於會議摘要報告的篩選器。
 
-### <a name="conference-summary-report-filters"></a>會議摘要報表篩選
+### <a name="conference-summary-report-filters"></a>會議摘要報告篩選器
 
 <table>
 <colgroup>
@@ -183,40 +183,40 @@ _**主題上次修改日期：** 2014-09-03_
 <thead>
 <tr class="header">
 <th>名稱</th>
-<th>說明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>從</strong></p></td>
-<td><p>時間範圍的開始日期/時間。 若要依時間查看資料，請輸入 [開始日期] 和 [時間]，如下所示：</p>
+<td><p><strong>From</strong></p></td>
+<td><p>時間範圍的開始日期/時間。若要按照小時檢視資料，請輸入開始日期和時間，如下所示：</p>
 <p>7/7/2012 1:00 PM</p>
-<p>如果您沒有輸入開始時間，報告會在指定日期自動于12:00 點開始。 若要依天查看資料，只需輸入日期：</p>
-<p>7/7/2012</p>
-<p>若要依周或依月查看，請在您要查看的周或月份中，輸入您要查看的日期（不需要輸入周或月的第一天）：</p>
-<p>7/3/2012</p>
-<p>周數總是從星期日到星期六執行。</p></td>
+<p>如果您未輸入開始時間，報告會自動從指定日期凌晨 12 點開始。若要按照日期檢視資料，只要輸入日期即可：</p>
+<p>2012/7/7</p>
+<p>若要按星期或月份檢視，請輸入當週或該月您想檢視的日期 (您不必輸入當週或該月的第一天)：</p>
+<p>2012/7/3</p>
+<p>星期永遠是從星期日開始星期六結束。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>自</strong></p></td>
-<td><p>時間範圍的結束日期/時間。 若要依時間查看資料，請輸入 [結束日期] 和 [時間]，如下所示：</p>
-<p>7/7/2012 1:00 PM</p>
-<p>如果您沒有輸入結束時間，報告會在指定日期自動結束于12:00。 若要依天查看資料，只需輸入日期：</p>
-<p>7/7/2012</p>
-<p>若要依周或依月查看，請在您要查看的周或月份中，輸入您要查看的日期（不需要輸入周或月的第一天）：</p>
-<p>7/3/2012</p>
-<p>周數總是從星期日到星期六執行。</p></td>
+<td><p><strong>To</strong></p></td>
+<td><p>時間範圍的結束日期/時間。若要按照小時檢視資料，請輸入開始日期和時間，如下所示：</p>
+<p>7/7/2012 下午 1:00</p>
+<p>如果您未輸入結束時間，報告會自動在指定日期凌晨 12 點結束。若要按照日期檢視資料，只要輸入日期即可：</p>
+<p>2012/7/7</p>
+<p>若要按星期或月份檢視，請輸入當週或該月您想檢視的日期 (您不必輸入當週或該月的第一天)：</p>
+<p>2012/7/3</p>
+<p>星期永遠是從星期日開始星期六結束。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Interval</strong></p></td>
-<td><p>時間間隔。 選取下列其中一項：</p>
+<td><p>時間間隔。請選取下列其中一項：</p>
 <ul>
-<li><p>每小時（最多可顯示25小時）</p></li>
-<li><p>每天（最多可以顯示31天）</p></li>
-<li><p>每週（最多可以顯示12周）</p></li>
-<li><p>每月（最多可以顯示12個月）</p></li>
+<li><p>每小時 (最多可以顯示 25 個小時)</p></li>
+<li><p>每日 (最多可以顯示 31 天)</p></li>
+<li><p>每週 (最多可以顯示 12 週)</p></li>
+<li><p>每月 (最多可以顯示 12 個月)</p></li>
 </ul>
-<p>如果 [開始] 和 [結束] 日期超過所選間隔所允許的最大值數目，則只會顯示最大值數（從開始日期開始）。 例如，如果您選取 [開始日期 7/7/2012] 和 [結束日期] 2/28/2012 的 [日間隔]，則會顯示 8/7/2012 12:00 AM 至 9/7/2012 12:00 AM （也就是31天內的資料）的資料。</p></td>
+<p>若開始與結束日期超出所選間隔允許的上限值，將只會顯示上限值 (從開始日期開始顯示)。例如，若您選取 [每日] 間隔，並將開始與結束日期分別設為 8/7/2012 及 2/28/2012，將只會顯示 8/7/2012 上午 12:00 至 9/7/2012 上午 12:00 這段期間的資料 (亦即只會顯示 31 天的資料)。</p></td>
 </tr>
 </tbody>
 </table>
@@ -226,11 +226,11 @@ _**主題上次修改日期：** 2014-09-03_
 
 <div>
 
-## <a name="metrics"></a>指標
+## <a name="metrics"></a>計量
 
-下表是會議摘要報告所提供的資訊。
+下表列出會議摘要報告提供的資訊。
 
-### <a name="conference-summary-report-metrics"></a>會議摘要報表度量單位
+### <a name="conference-summary-report-metrics"></a>會議摘要報告計量
 
 <table>
 <colgroup>
@@ -240,65 +240,65 @@ _**主題上次修改日期：** 2014-09-03_
 </colgroup>
 <thead>
 <tr class="header">
-<th>名稱</th>
-<th>您可以針對此專案進行排序嗎？</th>
-<th>說明</th>
+<th>姓名</th>
+<th>可以排序這個項目嗎？</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>工資</strong></p>
-<p><strong>日常</strong></p>
-<p><strong>周更新</strong></p>
-<p><strong>次</strong></p></td>
+<td><p><strong>每小時</strong></p>
+<p><strong>每日</strong></p>
+<p><strong>每週</strong></p>
+<p><strong>每月</strong></p></td>
 <td><p>否</p></td>
-<td><p>指出您在 [篩選] 工具列上選取的時間間隔。 在適當的地方，您可以按一下指定的時間間隔，以查看該間隔的詳細資訊。 例如，如果您使用的是每日間隔，而您按一下 [7/7/2012]，就會看到該日期的使用者註冊活動的每小時細目。</p></td>
+<td><p>指出在篩選工具列上所選取的時間間隔。在適用的情況下，只要按一下指定的時間間隔，即可檢視該間隔的詳細資訊。例如，若是使用 [每日] 間隔，而按一下 7/7/2012，將可檢視當天按小時顯示的使用者註冊活動。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>會議總數</strong></p></td>
 <td><p>否</p></td>
-<td><p>已保留的會議總數（無論會議類型為何）。 當您按一下此專案時，報告會顯示所選時段的會議活動報告。</p></td>
+<td><p>已舉辦的會議總數 (無論會議類型為何)。當您按一下此項目，報告即顯示所選定時段的會議活動報告。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>參與者總數</strong></p></td>
 <td><p>否</p></td>
-<td><p>參與會議的人員總數。 當您按一下此專案時，報告會顯示所選時段的會議活動報告。</p></td>
+<td><p>參加會議的總人數。當您按一下此項目，報告即顯示所選定時段的會議活動報告。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>每個會議的平均參與者</strong></p></td>
+<td><p><strong>每次會議的平均參加人數</strong></p></td>
 <td><p>否</p></td>
-<td><p>參與特定會議的平均人數。 由由總參與者數除會議數來決定。</p></td>
+<td><p>參加給定會議的平均人數。將會議總數除以參與者總數得之。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>A/V 會議總數</strong></p></td>
 <td><p>否</p></td>
-<td><p>包含音訊或影片的會議總數。</p></td>
+<td><p>包含音訊或視訊的會議總數。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>A/V 會議紀要總計</strong></p></td>
+<td><p><strong>A/V 會議總分鐘數</strong></p></td>
 <td><p>否</p></td>
-<td><p>專用於音訊/視訊會議的總分鐘數。</p>
-<p>總計 A/V 會議分鐘數的度量會總結所有音訊/視覺會議類型，包括： A/V 會議;IM 會議;app 共用會議;資料會議;和 PSTN 會議。</p></td>
+<td><p>用於音訊/視訊會議的總分鐘數。</p>
+<p>總 A / V 會議分鐘公制摘要列出所有音訊/視訊會議類型，包括： A / V 會議;IM 會議;應用程式共用會議;資料會議;與 PSTN 會議。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>A/V 會議參與者紀要總計</strong></p></td>
+<td><p><strong>A/V 會議參與者總分鐘數</strong></p></td>
 <td><p>否</p></td>
-<td><p>專用於音訊/視訊會議的參與者總分鐘數。 例如，假設一個使用者在音訊/視訊會議中花費5分鐘，而另一個使用者在該會議中花3分鐘的時間。 這會產生總共8個參與者的分鐘數：5分鐘再加上3分鐘。</p></td>
+<td><p>用於音訊/視訊會議的參與者總分鐘數。例如，假設一位使用者花 5 分鐘參加音訊/視訊會議，而另一位使用者花 3 分鐘參加相同的會議。所以參與者總分鐘數為 8 分鐘：5 分鐘加 3 分鐘。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>平均/V 會議分鐘數</strong></p></td>
+<td><p><strong>A/V 會議平均分鐘數</strong></p></td>
 <td><p>否</p></td>
-<td><p>每個音訊/視訊會議的平均分鐘數。</p></td>
+<td><p>每次音訊/視訊會議的平均分鐘數。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>會議唯一召集人總數</strong></p></td>
+<td><p><strong>會議專屬召集人總數</strong></p></td>
 <td><p>否</p></td>
-<td><p>至少組織一次會議的使用者總數。 組織多個會議的使用者會算作一個唯一的召集人，就像只組織單一會議的使用者。</p></td>
+<td><p>至少召集過一次會議的使用者總數。召集過多次會議的使用者計為一個專屬召集人，就像只召集過一次會議的使用者一樣。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>會議訊息總計</strong></p></td>
+<td><p><strong>會議訊息總數</strong></p></td>
 <td><p>否</p></td>
-<td><p>在會議期間傳送的立即訊息總數。</p></td>
+<td><p>會議期間傳送的立即訊息總數。</p></td>
 </tr>
 </tbody>
 </table>

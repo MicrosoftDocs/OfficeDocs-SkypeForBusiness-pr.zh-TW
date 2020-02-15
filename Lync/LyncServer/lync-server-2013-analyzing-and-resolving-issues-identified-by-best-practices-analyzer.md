@@ -1,5 +1,5 @@
 ---
-title: 分析及解決最佳做法分析工具所識別的問題
+title: 分析和解決由最佳做法分析程式所識別的問題
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185751
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 180cbbc79cba7f0379a832688ba7f9073b7b9798
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7926308c69c89c977705d5e4d51d73e78b46d1b4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737813"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41998278"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="analyzing-and-resolving-issues-identified-by-best-practices-analyzer-in-lync-server-2013"></a>在 Lync Server 2013 中分析及解決最佳做法分析程式所識別的問題
+# <a name="analyzing-and-resolving-issues-identified-by-best-practices-analyzer-in-lync-server-2013"></a>分析和解決由 Lync Server 2013 中的最佳做法分析程式所識別的問題
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41737813"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-06-25_
+_**主題上次修改日期：** 2012年-06-25_
 
-最佳做法 Analyzer 不會對您的環境進行變更，以解決問題。 它只會偵測可能的問題，並顯示如何解決問題的相關資訊。 如果您發現需要解決的問題，您必須判斷適當的解決方案。 本節中的主題可協助您找出並解決一些最重要的潛在問題。
+最佳做法分析程式不會不變更您的環境以解決問題。 它只會偵測潛在的問題，並顯示資訊如何加以解決。 如果您找出您必須先解決的問題，您必須決定適當的解決方案。 本節中的主題可協助您識別和解決一些最大顯著性潛在的問題。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [Lync Server 2013 中的環境測試問題](lync-server-2013-issues-with-the-environment-test.md)
+  - [環境測試 Lync Server 2013 中的問題](lync-server-2013-issues-with-the-environment-test.md)
 
-  - [Lync Server 2013 中的拓撲測試問題](lync-server-2013-issues-with-the-topology-test.md)
+  - [在 [Lync Server 2013 拓撲測試的問題](lync-server-2013-issues-with-the-topology-test.md)
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 伺服器和池退役
+title: 解除委任伺服器和集區
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184694
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b0dc7c9006170b2df6f3b54aea7ef80509e15438
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 454151e9f1f58bb55212356941feb8e6702a6bf7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723053"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006489"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="decommissioning-servers-and-pools"></a>伺服器和池退役
+# <a name="decommissioning-servers-and-pools"></a>解除委任伺服器和集區
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41723053"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-09-26_
+_**主題上次修改日期：** 2012年-09-26_
 
-下列網頁包含有關解除授權 Office 通訊伺服器 2007 R2 標準版或 Enterprise Edition 伺服器和池的詳細資料。
+下列網頁包含解除委任 Office Communications Server 2007 R2 Standard Edition 或 Enterprise Edition 伺服器和集區詳細資訊。
 
-  - 已解除授權標準版版本[http://go.microsoft.com/fwlink/p/?linkId=205889](http://go.microsoft.com/fwlink/p/?linkid=205889)
+  - 解除委任 Standard Edition，[http://go.microsoft.com/fwlink/p/?linkId=205889](http://go.microsoft.com/fwlink/p/?linkid=205889)
 
-  - 移除伺服器和伺服器角色[http://go.microsoft.com/fwlink/p/?linkId=205887](http://go.microsoft.com/fwlink/p/?linkid=205887)
+  - 移除伺服器及伺服器角色，請[http://go.microsoft.com/fwlink/p/?linkId=205887](http://go.microsoft.com/fwlink/p/?linkid=205887)
 
-  - 移除企業版池[http://go.microsoft.com/fwlink/p/?linkId=205888](http://go.microsoft.com/fwlink/p/?linkid=205888)
+  - 移除 Enterprise 集區。[http://go.microsoft.com/fwlink/p/?linkId=205888](http://go.microsoft.com/fwlink/p/?linkid=205888)
 
 </div>
 

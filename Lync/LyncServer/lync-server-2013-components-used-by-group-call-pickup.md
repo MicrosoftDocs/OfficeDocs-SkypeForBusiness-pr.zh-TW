@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：由群組呼叫挑選使用的元件
+title: 群組來電接聽所使用的 Lync Server 2013： 元件
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541470
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7b9c810d5835d113a26bd3a15295f75a71552590
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a05bf0b6a55eb3d8d3d322061947ac43f6295c63
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757067"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007923"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="components-used-by-group-call-pickup-in-lync-server-2013"></a>在 Lync Server 2013 中由群組呼叫挑選使用的元件
+# <a name="components-used-by-group-call-pickup-in-lync-server-2013"></a>群組來電接聽 Lync Server 2013 中所使用的元件
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41757067"
 
 <span> </span>
 
-_**主題上次修改日期：** 2013-01-30_
+_**上次修改主題：** 2013年-01-30_
 
-當您部署企業語音及通話駐留應用程式時，系統會自動部署群組通話拾取。 您可以透過設定 [通話駐留軌道投影片] 表格，並將指定為 [呼叫挑選] 群組數位的數位範圍分開，然後將使用者指派給他們呼叫挑選群組，並讓使用者進行群組通話挑選，來啟用群組通話。 下列 Lync Server 元件支援群組呼叫拾取：
+當您部署企業語音和通話駐留應用程式時，會自動部署群組來電接聽。 您啟用群組來電接聽通話駐留軌道表使用設定為通話收取群組數字，及指定的數字的個別範圍然後所指派到呼叫收取群組的使用者，然後為使用者啟用群組來電接聽。 群組來電接聽支援下列的 Lync Server 元件：
 
-  - **應用程式服務**   應用程式服務提供部署、託管及管理整合通訊應用程式（例如通話駐留應用程式）的平臺。 應用程式服務會自動安裝在前端池的每個前端伺服器上，以及每個標準版伺服器上。
+  - **應用程式服務**   應用程式服務提供的平台的部署，裝載，及管理整合通訊應用程式，例如通話駐留應用程式。 在每個前端伺服器上的前端集區中，每個 Standard Edition server 上，會自動安裝應用程式服務。
 
-  - **通話駐留應用**   程式通話駐留應用程式是由應用程式服務託管的其中一個整合通訊應用程式。 [群組呼叫挑選] 是以 [通話駐留] 應用程式為基礎。
+  - **通話駐留應用程式**   通話駐留應用程式是下列其中一個裝載的應用程式服務的整合的通訊應用程式。 群組來電接聽為基礎的通話駐留應用程式。
 
-  - **Lync server 管理命令**   介面使用 lync server 管理命令介面管理群組呼叫挑選群組。
+  - **Lync Server 管理命令介面**   您使用 Lync Server 管理命令介面來管理群組來電接聽群組。
 
-  - **SEFAUtil 資源套件工具**   您可以使用次要延伸功能啟用實用程式（SEFAUtil），將使用者指派給呼叫挑選群組，以及啟用或停用使用者的通話分揀。
+  - **SEFAUtil resource kit 工具**   呼叫收取群組指派給使用者和要啟用或停用使用者的來電接聽使用次要分機功能啟用公用程式 (SEFAUtil)。
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：驗證外部使用者的連線能力
+title: Lync Server 2013： 確認外部使用者的連線
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184249
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1c1f8a9bbda54c596a9ccae8451b15ce7300bffd
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 14d3dbc74119ff4f5669776dafce8a7cc2dee21a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763517"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007342"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="verify-connectivity-for-external-users-in-lync-server-2013"></a>在 Lync Server 2013 中驗證外部使用者的連線能力
+# <a name="verify-connectivity-for-external-users-in-lync-server-2013"></a>確認 Lync Server 2013 中的外部使用者的連線
 
 </div>
 
@@ -35,37 +35,37 @@ ms.locfileid: "41763517"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-19_
+_**主題上次修改日期：** 2012年-10-19_
 
-驗證外部使用者的連線性需要確保使用者能連線到伺服器和埠，以存取邊緣服務。
+要驗證外部使用者連線能力，必須先確保從使用者至伺服器，以及 Access Edge Service 連接埠的連線能力。
 
-一種重要資源，可確認您的設定，以及能夠連線、傳送及接收外部使用者存取所需之案例的正確訊息，就是遠端連線分析<http://www.testocsconnectivity.com>程式網站（）。 網站由 Microsoft 支援服務管理和維護。 若要到達遠端連線分析程式，請在瀏覽器中開啟網站，然後依照指示來選取案例。
+重要資源的外部使用者存取的案例中確認您的設定，以及連線、 傳送及接收正確的郵件需要是 Remote Connectivity Analyzer 網站 (<http://www.testocsconnectivity.com>)。 網站是由管理和維護 Microsoft 支援服務。 如要瀏覽遠端連線分析程式，請在瀏覽器中開啟該網站，然後遵循指示來選取案例。
 
 <div>
 
-## <a name="test-connectivity-of-external-users-and-external-access"></a>測試外部使用者與外部存取的連通性
+## <a name="test-connectivity-of-external-users-and-external-access"></a>測試外部使用者與外部存取連線能力
 
-外部使用者存取的測試應該包括貴組織支援的每一種外部使用者類型，包括下列任何一項或所有專案：
+測試外部使用者存取時，必須包括組織支援的每一種外部使用者類型，包含下列任一或全部項目：
 
-  - 至少一個聯盟網域中的使用者，並測試 IM、目前狀態、A/V 與桌面共用。
+  - 來自至少一個同盟網路、測試 IM、目前狀態、A/V 與桌面共用的使用者。
 
-  - 貴組織支援的每個公用 IM 服務提供者（以及已完成哪些預配）的使用者。
+  - 組織所支援的每個公用 IM 服務提供者 (以及已經完成佈建作業) 的使用者。
 
   - 匿名使用者。
 
-  - 貴組織內已登入 Lync 但無法使用 VPN 的使用者。
+  - 從遠端登入 Lync (但不是透過 VPN) 的組織內使用者。
 
-這些測試會判斷您的邊緣伺服器是否為：
+這些測試決定了您的 Edge Server 是否：
 
-  - 從您的網路外部使用 telnet 用戶端來偵聽必要的埠。
+  - 使用網路外部的 telnet 用戶端聆聽必要的連接埠。
     
-      - 範例： telnet sip.contoso.com 443
+      - 範例：telnet sip.contoso.com 443
     
-      - 根據您的部署，在 Edge 伺服器或 Edge 伺服器池中所使用的埠上執行上述測試。
+      - 依據您的部署，透過 Edge Server 或 Edge Server 集區對您使用的連接埠執行先前測試。
 
-  - 執行正確的外部 DNS 解析。
+  - 執行準確的外部 DNS 解析。
     
-      - 從您的網路外部 ping 您的邊緣或邊緣池的每個外部 FQDN。 即使 ping 失敗，您也會看到 IP 位址，您可以將它們與您指派的 IP 位址進行比較。
+      - 從網路外部偵測 (ping) Edge 或 Edge 集區的個別外部 FQDN。即使偵測 (ping) 作業失敗，您還是會看到 IP 位址，方便您與指派的 IP 位址進行比較。
 
 </div>
 

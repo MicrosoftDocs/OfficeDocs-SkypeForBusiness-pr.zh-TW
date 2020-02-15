@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：管理混合式部署中的使用者
+title: Lync Server 2013： 管理混合部署中的使用者
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184381
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e416901fd5a98ffa3974c29e469eef2b6f4cb783
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a82cb5ae505db5db3bbd8dd216ad61256368814e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737963"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41998738"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="administering-users-in-a-hybrid-lync-server-2013-deployment"></a>在混合式 Lync Server 2013 部署中管理使用者
+# <a name="administering-users-in-a-hybrid-lync-server-2013-deployment"></a>管理混合 Lync Server 2013 部署中的使用者
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41737963"
 
 <span> </span>
 
-_**主題上次修改日期：** 2014-05-29_
+_**上次修改主題：** 2014年-05-29_
 
-您可以使用 Microsoft Office 365 Online 入口網站中提供的使用者管理功能，來管理遷移至 Lync Online 之使用者的使用者設定和原則。 您必須使用您的租使用者系統管理員帳戶登入，才能執行系統管理工作。
+您可以管理使用者設定和原則的使用者移轉至 Lync Online 使用 Microsoft Office 365 線上入口網站中可用的使用者管理功能。 使用您的租用戶系統管理員帳戶來執行管理工作，您必須登入。
 
 <div>
 
@@ -47,13 +47,13 @@ _**主題上次修改日期：** 2014-05-29_
 
 
 > [!IMPORTANT]  
-> 本節僅適用于為 Lync 內部部署所建立和啟用的使用者，然後從內部部署部署移至 Lync Online。 如果您想要移動在 Lync Online 中建立的使用者（在內部部署部署中不會啟用 Lync），請參閱在<A href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">Lync Server 2013 中將使用者從 Lync Online 移至 lync 內部部署</A>。
+> 本節僅適用於已建立並啟用 Lync 內部部署，然後移至 Lync Online 的 [從內部部署的使用者。 如果您想要移動的使用者，已建立在 Lync Online （並不屬於啟用 lync 內部部署中），請參閱<A href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">移動使用者從 Lync Online lync 內部部署 Lync Server 2013 中</A>。
 
 
 
 </div>
 
-  - 執行下列 Cmdlet，將使用者從 Lync Online 移回 Lync 內部部署：
+  - 執行下列 cmdlet，將使用者移從 Lync Online 回至 Lync 內部部署：
     
        ```PowerShell
         $cred=Get-Credential
@@ -63,27 +63,27 @@ _**主題上次修改日期：** 2014-05-29_
         Move-CsUser -Identity username@contoso.com -Target localpool.contoso.com -Credential $cred -HostedMigrationOverrideUrl <URL>
        ```
 
-針對**HostedMigrationOverrideUrl**參數指定的 url 格式，必須是正在執行託管遷移服務之池的 url，格式如下：
+**HostedMigrationOverrideUrl**參數所指定的 URL 的格式必須是主控遷移服務執行，以下列格式的集區的 URL:
 
-Https://\<池 FQDN\>/HostedMigration/hostedmigrationService.svc。 您可以透過查看 Office 365 租使用者帳戶的 Lync Online 控制台 URL 來判斷託管遷移服務的 URL。
+Https://\<集區 FQDN\>/HostedMigration/hostedmigrationService.svc。 您可以透過檢視 URL 的 Office 365 租用戶帳戶的 Lync Online 控制台判斷主控移轉服務的 URL。
 
-**若要為您的 Office 365 租使用者判斷託管的遷移服務 URL**
+**若要判斷您 Office 365 租用戶主控移轉服務 URL**
 
-1.  以系統管理員身分登入您的 Office 365 租使用者。
+1.  Office 365 租用戶系統管理員身分登入。
 
-2.  開啟**Lync 系統管理中心**。
+2.  開啟**Lync 系統管理中心**]。
 
-3.  在**Lync 系統管理中心**顯示的狀態下，選取並將網址列中的 URL 複製到**lync.com**。 範例 URL 看起來類似以下所示：
+3.  顯示在**Lync 系統管理中心**，選取與複製最**lync.com**[網址] 列中的 URL。 範例 URL 看起來如下：
     
     `https://webdir0a.online.lync.com/lscp/?language=en-US&tenantID=`
 
-4.  將 URL 中的**webdir 為 admin**取代為系統**管理員**，並產生下列結果：
+4.  **Webdir** URL 中取代為**系統管理員**，結果如下：
     
     `https://admin0a.online.lync.com`
 
-5.  將下列字串附加到 URL： **/HostedMigration/hostedmigrationservice.svc**。
+5.  將下列字串附加至的 URL: **/HostedMigration/hostedmigrationservice.svc**。
     
-    產生的 URL （即**HostedMigrationOverrideUrl**的值）應如下所示：
+    產生的 URL，也就是**HostedMigrationOverrideUrl**的值，應該如下所示：
     
     `https://admin0a.online.lync.com/HostedMigration/hostedmigrationservice.svc`
 

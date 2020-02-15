@@ -1,5 +1,5 @@
 ---
-title: 連線 Survivable Branch Appliance
+title: 連接 Survivable Branch Appliance
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733886
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5ef6294deba25998c5ad16254e464b6f682fa660
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 77382343fa7736c90ac208f8d13f81bc74969efa
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723163"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006519"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="connect-a-survivable-branch-appliance"></a>連線 Survivable Branch Appliance
+# <a name="connect-a-survivable-branch-appliance"></a>連接 Survivable Branch Appliance
 
 </div>
 
@@ -35,64 +35,64 @@ ms.locfileid: "41723163"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-19_
+_**主題上次修改日期：** 2012年-10-19_
 
-每個 Survivable 分支裝置（SBA）都與一個前端池相關聯，可充當 SBA 的備份註冊機構。 當您將前端池遷移至 Lync Server 2013 時，在升級池時，必須從 Lync Server 2010 前端池解除 SBA，而將池遷移至 Lync Server 2013 之後，SBA 就可以與升級的前端池重新關聯。 這涉及從拓撲產生器中的舊版 Lync Server 2010 拓朴刪除 SBA，然後將 SBA 新增至 Lync Server 2013 拓撲。 必須先將駐留在舊版 Lync Server 2010 SBA 的使用者移到另一個前端池，才能從拓撲結構中移除 SBA。 將 SBA 新增至 Lync Server 2013 拓撲之後，這些使用者就可以移回 SBA。 下列步驟摘要如下所示：
+每個 Survivable Branch Appliance (SBA) 是做為備份登錄器 SBA 的前端集區相關聯。 當升級之集區時，一旦集區已移轉至 Lync Server 2013 時，必須分離前端集區移轉至 Lync Server 2013，SBA 從 Lync Server 2010 前端集區時，SBA 可以重新相關聯的已升級的前端集區。 這包括刪除 SBA 從拓撲產生器的舊版 Lync Server 2010 拓撲並再將 SBA 新增至 Lync Server 2013 拓撲。 隸屬於舊版 Lync Server 2010 SBA 必須先將移至另一個前端集區從拓撲移除 SBA 之前的使用者。 一旦 SBA 新增至 Lync Server 2013 拓撲後，這些使用者可以再移回 sba。 這些步驟的摘要如下：
 
-1.  將駐留在舊版 SBA Lync Server 2010 的分支使用者移至另一個前端池。
+1.  將分支使用者隸屬於舊版 SBA Lync Server 2010 至另一個前端集區。
 
-2.  從舊版 Lync Server 2010 拓撲中移除 SBA，以將現有的前端池與備份註冊機構斷開連線。
+2.  若要中斷作為備份登錄器的現有前端集區的舊版 Lync Server 2010 拓撲移除 SBA。
 
-3.  在 Lync Server 2013 拓撲中新增 SBA，並將這個新的 [前端] 池設定為備份註冊機構。
+3.  將 SBA 新增至 Lync Server 2013 拓撲，並將此新前端集區設定為備份登錄器。
 
 4.  將分支使用者移至新的 Lync Server 2013 SBA。
 
 **將 Lync Server 2010 SBA 分支網站新增至您的拓撲**
 
-1.  開啟**拓撲**建立器。
+1.  開啟**拓撲產生器]**。
 
-2.  在左窗格中，以滑鼠右鍵按一下 [**分支網站**]，然後按一下 [**新增分支網站**]。
+2.  在左窗格中以滑鼠右鍵按一下 [**分支站台**，，，然後按一下 [**新的分支網站**。
 
-3.  在 [**定義新分支網站**] 對話方塊中，按一下 [**名稱**]，然後輸入分支網站的名稱。
+3.  在 [**定義新的分支網站**] 對話方塊中，按一下 [**名稱**] 中，，然後輸入分支網站的名稱。
 
-4.  可選按一下 [**描述**]，然後為分支網站輸入有意義的描述。
+4.  （選用）按一下 [**描述**] 中，，，然後輸入分支網站的有意義描述。
 
-5.  按一下 **[下一步]**。
+5.  按 [下一步]****。
 
-6.  可選在 [下一步**定義分支網站**] 對話方塊中，執行下列任何一項操作：
+6.  （選用）在下的 [**定義新的分支網站**] 對話方塊中，執行下列其中一項：
     
-    1.  按一下 [**城市**]，然後輸入分支網站所在城市的名稱。
+    1.  按一下 [**縣/市**、，然後輸入分支網站所在位置的城市名稱。
     
-    2.  按一下 [**狀態/地區**]，然後輸入分支網站所在的狀態或地區名稱。
+    2.  按一下 [省/地區****，然後輸入位置的省或地區的分支網站所在的名稱。
     
-    3.  按一下 [**國家/地區碼**]，然後輸入分支網站所在國家/地區的兩位數電話號碼。
+    3.  按一下 [**國碼/地區碼**，，，然後輸入分支網站所在國家/地區的兩位數呼叫程式碼。
 
-7.  按一下 **[下一步]**，然後執行下列其中一項操作：
+7.  按一下 [**下一步**，，然後執行下列其中一項：
     
-    1.  如果您是在此網站使用 Lync 2010 Survivable 分支裝置或伺服器，請務必取消選取 [**當此嚮導關閉時，開啟新的 Survivable 嚮導]** 選項。 按一下 **[完成]**。
+    1.  如果您在此網站使用的 Lync 2010 Survivable Branch Appliance 或 Server，請務必取消選取 [**開啟新的 survivable branch Appliance 精靈，當這個精靈關閉時**的選項。 按一下 [完成]****。
 
-8.  若要將舊版 Lync Server 2010 SBA 與 Lync Server 2013 前端池建立關聯：
+8.  若要建立舊版 Lync Server 2010 SBA 與 Lync Server 2013 前端集區的關聯：
     
     1.  展開已建立的分支網站。
     
-    2.  以滑鼠右鍵按一下 [ **Lync Server 2010** ]，然後按一下 [**新增**]。
+    2.  以滑鼠右鍵按一下 [ **Lync Server 2010** ]，然後按一下 [**新增]**。
     
-    3.  按一下 [ **Survivable 分支裝置]。**
+    3.  按一下 [ **Survivable Branch Appliance...**
 
-9.  依照嚮導中開啟的指示進行。 如需有關嚮導專案的資訊，請參閱[在 Lync Server 2013 中定義 Survivable 分支裝置或伺服器](lync-server-2013-define-a-survivable-branch-appliance-or-server.md)。
+9.  依照精靈隨即開啟。 精靈項目的相關資訊，請參閱[定義 Survivable Branch Appliance 或 Lync Server 2013 中的伺服器](lync-server-2013-define-a-survivable-branch-appliance-or-server.md)。
     
     <div>
     
 
     > [!NOTE]  
-    > Lync Server 2010 Survivable 分支裝置只能與 Lync Server 2010 監視存放區建立關聯。
+    > Lync Server 2010 Survivable Branch Appliance 僅可與 Lync Server 2010 監控儲存區相關聯。
 
     
     </div>
 
-10. 如果您不是在此網站使用 Survivable 分支裝置或伺服器，請清除 [在**關閉此嚮導時開啟新的 Survivable 嚮導]** 核取方塊，然後按一下 **[完成**]。
+10. 如果您未在此網站使用 Survivable Branch Appliance 或 Server，清除**開啟新的 survivable branch Appliance 精靈，當這個精靈關閉時**] 核取方塊，然後再按一下 [**完成]**。
 
-11. 針對您要新增到拓撲結構中的每個分支網站，重複上述步驟。
+11. 針對您想要新增至拓撲每一個分支網站重複上述步驟。
 
 </div>
 

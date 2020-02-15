@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：設定前端伺服器和前端集區
+title: Lync Server 2013： 設定前端伺服器和前端集區
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185381
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8b912eca536960bccc09c5e7a14c9adc245fe69e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3c615d383d2eedf1c24e2da2ddb2561476f4c8db
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732193"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007732"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-front-end-servers-and-front-end-pools-for-lync-server-2013"></a>針對 Lync Server 2013 設定前端伺服器和前端集區
+# <a name="setting-up-front-end-servers-and-front-end-pools-for-lync-server-2013"></a>設定 Lync Server 2013 的前端伺服器和前端集區
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41732193"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-01_
+_**主題上次修改日期：** 2012年-10-01_
 
-本節將引導您完成安裝 Lync Server 2013，並為標準版 server 和前端池設定伺服器角色，包括前端伺服器以及與前端伺服器 collocated 的任何伺服器角色。 若要安裝和設定伺服器角色，您可以在安裝伺服器角色的每一台電腦上執行 Lync Server 部署嚮導。 您可以使用 [部署] 嚮導完成所有四個部署步驟，包括安裝本機配置存儲、安裝前端伺服器、設定證書，以及啟動服務。
+本節會引導您完成安裝 Lync Server 2013 和設定 Standard Edition 伺服器與前端集區，包括前端伺服器和與前端伺服器組合的任何伺服器角色的伺服器角色。 若要安裝並設定伺服器角色，您可以執行 Lync Server 部署精靈的每部電腦上安裝伺服器角色。 您可以使用 [部署精靈完成所有的四個部署步驟，包括安裝本機設定存放區、 安裝前端伺服器、 設定憑證及啟動服務。
 
 <div>
 
 
 > [!NOTE]  
-> 在您可以設定伺服器角色之前，您必須成功發佈拓撲。 如需發佈拓撲的詳細資料，請參閱<A href="lync-server-2013-finalizing-and-implementing-the-topology-design.md">在 Lync Server 2013 中完成和實施拓撲設計</A>。
+> 您可以設定伺服器角色之前，您必須已成功發佈拓撲。 如需發行拓撲的詳細資訊，請參閱<A href="lync-server-2013-finalizing-and-implementing-the-topology-design.md">Finalizing 和實作拓撲設計 Lync Server 2013 中</A>。
 
 
 
@@ -51,7 +51,7 @@ _**主題上次修改日期：** 2012-10-01_
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
   - [在 Lync Server 2013 中安裝本機設定存放區](lync-server-2013-install-the-local-configuration-store.md)
 
@@ -59,11 +59,11 @@ _**主題上次修改日期：** 2012-10-01_
 
   - [在 Lync Server 2013 中設定伺服器憑證](lync-server-2013-configure-certificates-for-servers.md)
 
-  - [針對 Lync Server 2013 在伺服器上啟動服務](lync-server-2013-start-services-on-servers.md)
+  - [Lync Server 2013 的伺服器上啟動服務](lync-server-2013-start-services-on-servers.md)
 
   - [在 Lync Server 2013 中測試集區部署](lync-server-2013-test-the-pool-deployment.md)
 
-  - [在 Lync Server 2013 中測試 Standard Edition Server](lync-server-2013-test-the-standard-edition-server.md)
+  - [在 Lync Server 2013 中測試 Standard Edition server](lync-server-2013-test-the-standard-edition-server.md)
 
 </div>
 

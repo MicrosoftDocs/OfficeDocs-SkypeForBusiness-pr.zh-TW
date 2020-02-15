@@ -13,16 +13,16 @@ ms:contentKeyID: 48184202
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f890507ed4f6dd81b90557edd3ce5545fb401cc2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d9dbbb1cd160d66717fe716ee31a8b0712b348ba
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724033"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42003588"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -36,19 +36,19 @@ ms.locfileid: "41724033"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-08-29_
+_**主題上次修改日期：** 2012年-08-29_
 
-在開始之前，我們建議您閱讀本檔和下列指南，讓您熟悉如何部署對應的 Lync Server 2013 角色：
+在您開始之前，建議您先閱讀本文件及下列指南，以熟悉部署對應的 Lync Server 2013 角色：
 
   - [部署 Lync Server 2013](lync-server-2013-deploying-lync-server.md)
 
-  - [在 Lync Server 2013 中部署外部使用者存取](lync-server-2013-deploying-external-user-access.md)
+  - [部署 Lync Server 2013 中的外部使用者存取](lync-server-2013-deploying-external-user-access.md)
 
-  - [在 Lync Server 2013 中部署用戶端和裝置](lync-server-2013-deploying-clients-and-devices.md)
+  - [部署用戶端和 Lync Server 2013 中的裝置](lync-server-2013-deploying-clients-and-devices.md)
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
   - [移轉程序](migration-process_1.md)
 

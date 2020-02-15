@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013 支援的 [池配對] 選項和最佳做法
+title: Lync Server 2013 支援的集區配對選項及最佳作法
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183478
 ms.date: 03/09/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9090fefba4b80f14382b9b43b5e9ced7cb36b2e0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 963f1532ca7a1aa5402a54936909a22727ab9716
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764329"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006841"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="supported-pool-pairing-options-and-best-practices-for-lync-server-2013"></a>支援 Lync Server 2013 的池配對選項和最佳做法
+# <a name="supported-pool-pairing-options-and-best-practices-for-lync-server-2013"></a>支援的集區配對選項和 Lync Server 2013 的最佳做法
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41764329"
 
 <span> </span>
 
-_**主題上次修改日期：** 2017-03-09_
+_**主題上次修改日期：** 2017年-03-09_
 
-在兩個資料中心之間的距離沒有限制，包括彼此配對的前端池。 我們建議您在同一個世界區域使用兩個資料中心，並在它們之間進行高速連結。 最好的做法是將兩個資料中心分割得足夠，以避免單一災難同時發生。
+將要包含與彼此配對之前端集區的兩個資料中心之間，並沒有距離的限制。建議您在相同的地區設定中使用兩個資料中心，彼此以高速連結。兩個資料中心最好分隔得夠遠，以避免單一災害同時衝擊到兩個資料中心。
 
-您可以跨世界區域進行兩個資料中心，但由於資料複製中的延遲，可能會造成較高的資料遺失。
+擁有跨地理區域的兩個資料中心是可行的，但是可能會因為資料複寫延遲，而導致資料遺失的風險較高。
 
-規劃要配對的池時，您必須記住，只有下列配對是受支援的：
+當您規劃哪些集區配對時，您必須記住，只有下列配對受支援：
 
-  - 企業版池只能與其他企業版池搭配使用。 同樣地，標準版池只能與其他標準版池成對使用。
+  - Enterprise Edition 集區只能與其他 Enterprise Edition 集區配對。同樣地，Standard Edition 集區只能與其他 Standard Edition 集區配對。
 
-  - 物理池只能與其他物理池進行配對。 同樣地，虛擬池只能與其他虛擬池成對。
+  - 實體集區只能與其他實體集區配對。同樣地，虛擬集區只能與其他虛擬集區配對。
 
-  - 成對組成的池必須執行相同的作業系統。
+  - 一起配對的集區必須執行相同的作業系統。
 
-拓撲產生器和拓撲驗證都不會以不遵循這些建議的方式來禁止配對兩個池。 例如，拓撲建立器可讓您將企業版池與標準版池配對。 不過，不支援這些類型的配對。
+拓撲產生器或拓撲驗證都不會禁止以非建議的方式來將兩個集區配對。 例如，拓撲產生器可讓您將 Enterprise Edition 集區與 Standard Edition 集區配對。 不過，不支援這些類型的配對。
 
-成對中的每個池，都應該有能力，以便在發生災難事件時，從兩個池的所有使用者都能提供服務。
+配對中的每個集區都有在發生災害時，從這兩個集區服務所有使用者的能力。
 
-如果您要將企業版池配對，您也可以在後端伺服器上執行高可用性，但適用于標準版池，只提供災害復原測量。
+如果您將 Enterprise Edition 集區配對，也可以在後端伺服器上實作高可用性，但若是 Standard Edition 集區配對，就只有災害復原措施可用。
 
 </div>
 
