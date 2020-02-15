@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：停用聊天室的上傳和下載檔案功能
+title: Lync Server 2013： 停用聊天室中的傳和下載檔案
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48706010
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 324845a2be7fd7a0479842d082e1f5e0f38c5e99
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5e7fd1b65e11d6aa933fcd0ae24b6eb5c7f2698c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757727"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034824"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="disabling-uploading-and-downloading-files-in-chat-rooms-in-lync-server-2013"></a><span data-ttu-id="c193f-102">在 Lync Server 2013 中停用聊天室的上傳和下載檔案功能</span><span class="sxs-lookup"><span data-stu-id="c193f-102">Disabling uploading and downloading files in chat rooms in Lync Server 2013</span></span>
+# <a name="disabling-uploading-and-downloading-files-in-chat-rooms-in-lync-server-2013"></a><span data-ttu-id="ccb78-102">停用 [上傳及下載檔案在 Lync Server 2013 中的聊天室數</span><span class="sxs-lookup"><span data-stu-id="ccb78-102">Disabling uploading and downloading files in chat rooms in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41757727"
 
 <span> </span>
 
-<span data-ttu-id="c193f-103">_**主題上次修改日期：** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="c193f-103">_**Topic Last Modified:** 2012-09-12_</span></span>
+<span data-ttu-id="ccb78-103">_**主題上次修改日期：** 2012年-09-12_</span><span class="sxs-lookup"><span data-stu-id="ccb78-103">_**Topic Last Modified:** 2012-09-12_</span></span>
 
-<span data-ttu-id="c193f-104">根據預設，使用者可以在張貼的訊息中上傳和下載檔案。</span><span class="sxs-lookup"><span data-stu-id="c193f-104">By default, users can upload and download files in the messages that they post.</span></span> <span data-ttu-id="c193f-105">您可以停用這項功能，並防止使用者上傳和下載檔案的方式有兩種：</span><span class="sxs-lookup"><span data-stu-id="c193f-105">You can disable this functionality and prevent users from uploading and downloading files in two ways:</span></span>
+<span data-ttu-id="ccb78-104">根據預設，使用者可以上傳和下載它們張貼在郵件中的檔案。</span><span class="sxs-lookup"><span data-stu-id="ccb78-104">By default, users can upload and download files in the messages that they post.</span></span> <span data-ttu-id="ccb78-105">您可以停用此功能，並防止使用者上傳及下載檔案以兩種方式：</span><span class="sxs-lookup"><span data-stu-id="ccb78-105">You can disable this functionality and prevent users from uploading and downloading files in two ways:</span></span>
 
-  - <span data-ttu-id="c193f-106">防止所有使用者在特定的持續聊天室或聊天室類別中上傳和下載檔案。</span><span class="sxs-lookup"><span data-stu-id="c193f-106">Prevent all users from uploading and downloading files in a certain Persistent Chat room or chat room category.</span></span>
+  - <span data-ttu-id="ccb78-106">避免讓所有使用者上傳和下載特定常設聊天室或聊天室類別中的檔案。</span><span class="sxs-lookup"><span data-stu-id="ccb78-106">Prevent all users from uploading and downloading files in a certain Persistent Chat room or chat room category.</span></span>
 
-  - <span data-ttu-id="c193f-107">防止特定使用者上傳或下載任何聊天室中的檔案。</span><span class="sxs-lookup"><span data-stu-id="c193f-107">Prevent a certain user from uploading and downloading files in any chat room.</span></span> <span data-ttu-id="c193f-108">使用者無法在任何聊天室中上傳和下載檔案，包括允許檔案上傳和下載的聊天室。</span><span class="sxs-lookup"><span data-stu-id="c193f-108">The user cannot upload and download files in any chat room, including chat rooms that allow file uploading and downloading.</span></span>
+  - <span data-ttu-id="ccb78-107">避免讓特定使用者上傳及下載檔案在任何聊天室中。</span><span class="sxs-lookup"><span data-stu-id="ccb78-107">Prevent a certain user from uploading and downloading files in any chat room.</span></span> <span data-ttu-id="ccb78-108">使用者無法上傳與下載任何聊天室，包括允許檔案上傳和下載的聊天室中的檔案。</span><span class="sxs-lookup"><span data-stu-id="ccb78-108">The user cannot upload and download files in any chat room, including chat rooms that allow file uploading and downloading.</span></span>
 
-<span data-ttu-id="c193f-109">如需啟用和停用檔案上傳及下載的詳細資料，請參閱在[Lync Server 2013 中設定類別](lync-server-2013-configure-categories.md)，以及在部署檔中[管理類別](manage-categories.md)。</span><span class="sxs-lookup"><span data-stu-id="c193f-109">For details about enabling and disabling file uploading and downloading, see [Configure categories in Lync Server 2013](lync-server-2013-configure-categories.md) and [Manage categories](manage-categories.md) in the Deployment documentation.</span></span>
+<span data-ttu-id="ccb78-109">如需關於啟用和停用檔案上傳和下載的詳細資訊，請參閱部署文件中的[Lync Server 2013 中的 Configure categories](lync-server-2013-configure-categories.md)和[Manage categories](manage-categories.md) 。</span><span class="sxs-lookup"><span data-stu-id="ccb78-109">For details about enabling and disabling file uploading and downloading, see [Configure categories in Lync Server 2013](lync-server-2013-configure-categories.md) and [Manage categories](manage-categories.md) in the Deployment documentation.</span></span>
 
 </div>
 

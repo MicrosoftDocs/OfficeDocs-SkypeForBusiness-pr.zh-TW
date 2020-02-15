@@ -1,5 +1,5 @@
 ---
-title: 階段1：從 Office 通訊伺服器 2007 R2 規劃遷移
+title: 階段 1： 規劃從 Office Communications Server 2007 R2 移轉
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184023
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 593dfc97f73398dee5f627da1f534d324242845b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 58853e62b7958d564f01b4616d5439d18217b07f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757717"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034433"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="phase-1-plan-your-migration-from-office-communications-server-2007-r2"></a><span data-ttu-id="05e39-102">階段1：從 Office 通訊伺服器 2007 R2 規劃遷移</span><span class="sxs-lookup"><span data-stu-id="05e39-102">Phase 1: Plan your migration from Office Communications Server 2007 R2</span></span>
+# <a name="phase-1-plan-your-migration-from-office-communications-server-2007-r2"></a><span data-ttu-id="c018a-102">階段 1： 規劃從 Office Communications Server 2007 R2 移轉</span><span class="sxs-lookup"><span data-stu-id="c018a-102">Phase 1: Plan your migration from Office Communications Server 2007 R2</span></span>
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41757717"
 
 <span> </span>
 
-<span data-ttu-id="05e39-103">_**主題上次修改日期：** 2012-09-29_</span><span class="sxs-lookup"><span data-stu-id="05e39-103">_**Topic Last Modified:** 2012-09-29_</span></span>
+<span data-ttu-id="c018a-103">_**主題上次修改日期：** 2012年-09-29_</span><span class="sxs-lookup"><span data-stu-id="c018a-103">_**Topic Last Modified:** 2012-09-29_</span></span>
 
-<span data-ttu-id="05e39-104">本節涵蓋從 Office 通訊伺服器 2007 R2 遷移到 Lync Server 2013 的規劃主題。</span><span class="sxs-lookup"><span data-stu-id="05e39-104">This section covers planning topics for migrating from Office Communications Server 2007 R2 to Lync Server 2013.</span></span>
+<span data-ttu-id="c018a-104">本節涵蓋從 Office Communications Server 2007 R2 移轉至 Lync Server 2013 的規劃主題。</span><span class="sxs-lookup"><span data-stu-id="c018a-104">This section covers planning topics for migrating from Office Communications Server 2007 R2 to Lync Server 2013.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="05e39-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="05e39-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="c018a-105">本章節內容</span><span class="sxs-lookup"><span data-stu-id="c018a-105">In This Section</span></span>
 
-  - [<span data-ttu-id="05e39-106">使用者移轉</span><span class="sxs-lookup"><span data-stu-id="05e39-106">User migration</span></span>](user-migration_1.md)
+  - [<span data-ttu-id="c018a-106">使用者移轉</span><span class="sxs-lookup"><span data-stu-id="c018a-106">User migration</span></span>](user-migration_1.md)
 
-  - [<span data-ttu-id="05e39-107">移轉封存和監控伺服器</span><span class="sxs-lookup"><span data-stu-id="05e39-107">Migrating Archiving and Monitoring servers</span></span>](migrating-archiving-and-monitoring-servers_1.md)
+  - [<span data-ttu-id="c018a-107">移轉封存和監控伺服器</span><span class="sxs-lookup"><span data-stu-id="c018a-107">Migrating Archiving and Monitoring servers</span></span>](migrating-archiving-and-monitoring-servers_1.md)
 
-  - [<span data-ttu-id="05e39-108">在移轉後管理伺服器</span><span class="sxs-lookup"><span data-stu-id="05e39-108">Administering servers after migration</span></span>](administering-servers-after-migration_1.md)
+  - [<span data-ttu-id="c018a-108">移轉後管理伺服器</span><span class="sxs-lookup"><span data-stu-id="c018a-108">Administering servers after migration</span></span>](administering-servers-after-migration_1.md)
 
-  - [<span data-ttu-id="05e39-109">移轉多個網站與集區</span><span class="sxs-lookup"><span data-stu-id="05e39-109">Migrating multiple sites and pools</span></span>](migrating-multiple-sites-and-pools_1.md)
+  - [<span data-ttu-id="c018a-109">移轉多個網站與集區</span><span class="sxs-lookup"><span data-stu-id="c018a-109">Migrating multiple sites and pools</span></span>](migrating-multiple-sites-and-pools_1.md)
 
-  - [<span data-ttu-id="05e39-110">移轉 XMPP 同盟</span><span class="sxs-lookup"><span data-stu-id="05e39-110">Migrating XMPP federation</span></span>](migrating-xmpp-federation_1.md)
+  - [<span data-ttu-id="c018a-110">移轉 XMPP 同盟</span><span class="sxs-lookup"><span data-stu-id="c018a-110">Migrating XMPP federation</span></span>](migrating-xmpp-federation_1.md)
 
 </div>
 
