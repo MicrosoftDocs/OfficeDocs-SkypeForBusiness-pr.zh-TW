@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：通話寄存的部署程式
+title: Lync Server 2013： 部署程序的通話駐留
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183586
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9a00c354aa29a3c9a431b18a686105ab16d94c54
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 29e896aa89fe6fadecab3d17689d92671ffe6966
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762641"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038165"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deployment-process-for-call-park-in-lync-server-2013"></a>Lync Server 2013 中通話駐留的部署程式
+# <a name="deployment-process-for-call-park-in-lync-server-2013"></a>Lync Server 2013 中的通話駐留的部署程序
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41762641"
 
 <span> </span>
 
-_**主題上次修改日期：** 2013-02-25_
+_**上次修改主題：** 2013年-02-25_
 
-本節概要說明部署通話駐留應用程式所涉及的步驟。 您必須先使用企業語音部署企業版或標準版，才能設定通話駐留。 當您部署企業語音時，系統會安裝並啟用通話駐留所需的元件。
+本節提供部署通話駐留應用程式的相關步驟的概觀。 設定通話駐留之前，您必須部署 Enterprise Edition 或 Standard Edition 與 Enterprise Voice。 通話駐留所需的元件會安裝並啟用當您部署企業語音。
 
-### <a name="call-park-deployment-process"></a>通話駐留部署程式
+### <a name="call-park-deployment-process"></a>通話駐留部署程序
 
 <table>
 <colgroup>
@@ -50,20 +50,20 @@ _**主題上次修改日期：** 2013-02-25_
 </colgroup>
 <thead>
 <tr class="header">
-<th>分</th>
+<th>階段</th>
 <th>步驟</th>
-<th>必要的群組和角色</th>
-<th>部署檔</th>
+<th>所需群組和角色</th>
+<th>部署文件</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>設定 [軌道] 表格中的 [通話駐留軌道] 範圍</p></td>
-<td><p>使用 Lync Server [控制台] 或<strong>新的 CSCallParkOrbit</strong> Cmdlet，在 [通話駐留軌道] 表格中建立軌道範圍，並將它們與託管通話駐留應用程式的應用程式服務建立關聯。</p>
+<td><p>設定軌道表中的通話駐留軌道範圍</p></td>
+<td><p>使用 Lync Server Control Panel 或<strong>New-cscallparkorbit</strong> cmdlet 以通話駐留軌道表建立的軌道範圍，以及其關聯的應用程式服務主控的通話駐留應用程式。</p>
 <div>
 
 > [!NOTE]  
-> 若要與現有的撥號方案進行無縫整合，軌道範圍通常是設定為虛擬延伸的區塊。 在 [通話駐留軌道] 表格中，將直向內撥（所做的）號碼指派為軌道編號，不受支援。
+> 與現有的撥號對應表計劃的緊密整合，針對軌道範圍通常設定為虛擬分機區塊。 不支援將直接向內撥號 (DID) 號碼指派為通話駐留軌道表中的軌道數字。
 
 
 </div></td>
@@ -71,15 +71,15 @@ _**主題上次修改日期：** 2013-02-25_
 <p>CsVoiceAdministrator</p>
 <p>CsServerAdministrator</p>
 <p>CsAdministrator</p></td>
-<td><p><a href="lync-server-2013-create-or-modify-a-call-park-orbit-range.md">在 Lync Server 2013 中建立或修改通話駐留軌道的範圍</a></p></td>
+<td><p><a href="lync-server-2013-create-or-modify-a-call-park-orbit-range.md">建立或修改通話駐留軌道範圍在 Lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
 <td><p>設定通話駐留設定</p></td>
-<td><p>使用<strong>CsCpsConfiguration</strong> Cmdlet 來設定 [通話駐留] 設定。 我們建議您至少設定<strong>OnTimeoutURI</strong>選項，以設定在寄存通話超時時要使用的備用目的地。您也可以設定下列設定：</p>
+<td><p>使用<strong>Set-cscpsconfiguration</strong> cmdlet 進行通話駐留設定。 在最低限度下，我們建議您設定來設定使用駐留的通話逾時的後援目的地<strong>OnTimeoutURI</strong>選項。您也可以設定下列設定：</p>
 <ul>
-<li><p>可選<strong>EnableMusicOnHold</strong>以啟用或停用音樂保留。</p></li>
-<li><p>可選<strong>MaxCallPickupAttempts</strong> ，決定在將來電轉接到回退統一資源識別項（URI）之前，寄存通話響鈴回到接聽電話的次數。</p></li>
-<li><p>可選<strong>CallPickupTimeoutThreshold</strong> ，決定通話在撥出到接聽通話的電話之前所經過的時間長度。</p></li>
+<li><p>（選用）<strong>EnableMusicOnHold</strong>可啟用或停用等候音樂。</p></li>
+<li><p>（選用）若要判斷次數駐留的通話週期回來接聽電話之前轉接至後援統一資源識別項 (URI) <strong>MaxCallPickupAttempts</strong> 。</p></li>
+<li><p>（選用）<strong>CallPickupTimeoutThreshold</strong>決定駐留通話回接聽來電的電話之前經過的時間量。</p></li>
 </ul></td>
 <td><p>RTCUniversalServerAdmins</p>
 <p>CsVoiceAdministrator</p>
@@ -88,28 +88,28 @@ _**主題上次修改日期：** 2013-02-25_
 <td><p><a href="lync-server-2013-configure-call-park-settings.md">在 Lync Server 2013 中設定通話駐留設定</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>或者，您也可以自訂 [等候音樂]</p></td>
-<td><p>如果您不想使用預設的音樂保留，請使用<strong>CsCallParkServiceMusicOnHoldFile</strong> Cmdlet 來自訂及上傳音訊檔案。</p></td>
+<td><p>（選用） 自訂等候音樂</p></td>
+<td><p>若要自訂及上傳音訊檔案，如果您不想要使用預設的等候音樂上保留使用<strong>Set-cscallparkservicemusiconholdfile</strong> cmdlet。</p></td>
 <td><p>RTCUniversalServerAdmins</p>
 <p>CsVoiceAdministrator</p>
 <p>CsServerAdministrator</p>
 <p>CsAdministrator</p></td>
-<td><p><a href="lync-server-2013-customize-call-park-music-on-hold.md">在 Lync Server 2013 中自訂通話寄存音樂暫停</a></p></td>
+<td><p><a href="lync-server-2013-customize-call-park-music-on-hold.md">自訂通話駐留等候音樂 Lync Server 2013 中</a></p></td>
 </tr>
 <tr class="even">
 <td><p>設定語音原則，為使用者啟用通話駐留</p></td>
-<td><p>使用 Lync Server [控制台] 或<strong>CSVoicePolicy</strong> Cmdlet 與<strong>EnableCallPark</strong>選項，在語音原則中為使用者啟用通話駐留。</p>
+<td><p>使用 Lync Server Control Panel 或<strong>Set-csvoicepolicy</strong> cmdlet 搭配<strong>EnableCallPark</strong>選項來啟用通話駐留的語音原則中的使用者。</p>
 <div>
 
 > [!NOTE]  
-> 根據預設，會停用所有使用者的 [通話駐留]。
+> 根據預設，通話駐留已停用所有使用者。
 
 
 </div>
 <div>
 
 > [!NOTE]  
-> 如果您有多個語音原則，請務必針對每個語音原則設定 EnableCallPark 屬性，而不只是針對預設原則。
+> 如果您有多個語音原則，請確定每個語音原則，而不只是預設的原則設定 EnableCallPark 屬性。
 
 
 </div></td>
@@ -117,22 +117,22 @@ _**主題上次修改日期：** 2013-02-25_
 <p>CsVoiceAdministrator</p>
 <p>CsUserAdministrator</p>
 <p>CsAdministrator</p></td>
-<td><p><a href="lync-server-2013-enable-call-park-for-users.md">在 Lync Server 2013 中為使用者啟用通話駐留</a></p></td>
+<td><p><a href="lync-server-2013-enable-call-park-for-users.md">啟用 Lync Server 2013 中的使用者的通話駐留</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>驗證通話駐留的正規化規則</p></td>
-<td><p>通話駐留軌道式一定不能正常化。 確認您的正常化規則不包含任何您的軌道範圍。 如有需要，請建立其他正常化規則，以避免讓軌道式成為正常化的。</p></td>
+<td><p>確認通話駐留的正規化規則</p></td>
+<td><p>通話駐留軌道必須不會被正規化。 確認的正規化規則不包含任何的軌道範圍。 如有必要，建立額外的正規化規則，以避免軌道要正規化。</p></td>
 <td><p>RTCUniversalServerAdmins</p>
 <p>CsVoiceAdministrator</p>
 <p>CsServerAdministrator</p>
 <p>CsAdministrator</p></td>
-<td><p><a href="lync-server-2013-verify-normalization-rules-for-call-park.md">在 Lync Server 2013 中驗證通話寄存的正常化規則</a></p></td>
+<td><p><a href="lync-server-2013-verify-normalization-rules-for-call-park.md">確認 Lync Server 2013 中的通話駐留的正規化規則</a></p></td>
 </tr>
 <tr class="even">
-<td><p>確認您的電話寄存部署</p></td>
-<td><p>測試停用和檢索通話，以確保您的設定如預期的那樣正常運作。</p></td>
+<td><p>確認通話駐留部署</p></td>
+<td><p>測試駐留並擷取通話，請確定您的設定如預期般運作。</p></td>
 <td><p>-</p></td>
-<td><p><a href="lync-server-2013-optional-verify-call-park-deployment.md">可選在 Lync Server 2013 中確認通話駐留部署</a></p></td>
+<td><p><a href="lync-server-2013-optional-verify-call-park-deployment.md">（選用）確認 Lync Server 2013 中的通話駐留部署</a></p></td>
 </tr>
 </tbody>
 </table>

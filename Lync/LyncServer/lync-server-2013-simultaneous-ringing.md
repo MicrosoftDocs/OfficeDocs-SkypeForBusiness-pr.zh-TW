@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：同時響鈴
+title: Lync Server 2013： 同時響鈴
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803990
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1bcdb0d30bccfe628fd02861d257d79268046b77
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4e3104da5e7d351bda26698087e97106cafbdff4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764509"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037503"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="simultaneous-ringing-in-lync-server-2013"></a>Lync Server 2013 中的同時響鈴
+# <a name="simultaneous-ringing-in-lync-server-2013"></a>同時響鈴的 Lync Server 2013
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41764509"
 
 <span> </span>
 
-_**主題上次修改日期：** 2013-03-09_
+_**上次修改主題：** 2013年-03-09_
 
-當呼叫方啟用同時撥打時，以位置為基礎的路由會分析呼叫方的位置，以及呼叫方的端點，判斷是否應該路由通話。
+當受話的方具有已啟用同時響鈴時，位置型路由會分析的呼叫方的位置和受話方設定決定是否應路由傳送通話的端點。
 
-下表說明設定同時撥打的使用者，以及同時撥打的目標，是相同網路網站、不同網路網站或未知網路網站中的使用者。
+下表說明設定與同時響鈴的使用者，同時響鈴的目標是相同的網路站台、 不同的網路網站，或無法辨識的網路網站的使用者。
 
 
 <table>
@@ -51,24 +51,24 @@ _**主題上次修改日期：** 2013-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>打入的 PSTN 通話</th>
-<th>與被呼叫方位於相同的網路網站中</th>
-<th>位於不同于被人的網路網站</th>
-<th>位於未知的網路網站中，或未啟用以位置為基礎的路由</th>
+<th>傳入 PSTN 通話</th>
+<th>位於與受話者位於相同網路站台</th>
+<th>位於比受話者的不同的網路網站</th>
+<th>位於不明的網路站台或未啟用位置型的路由</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Lync 使用者</p></td>
-<td><p>允許同時撥打</p></td>
-<td><p>不允許同時撥打</p></td>
-<td><p>不允許同時撥打</p></td>
+<td><p>允許的同時響鈴</p></td>
+<td><p>不允許的同時響鈴</p></td>
+<td><p>不允許的同時響鈴</p></td>
 </tr>
 </tbody>
 </table>
 
   
-下表說明 Lync 使用者（亦即 Lync 呼叫者）在同一個網路網站、不同網路網站或來自未知網路網站的呼叫。 被呼叫方有一個 PSTN 端點（亦即手機）設定為同時振鈴目標。 在這個案例中，以位置為基礎的路由會判斷是否應該將呼叫路由到被呼叫者的同時環目標（亦即手機）。
+下表說明從 Lync 使用者 （亦即 Lync 呼叫者） 的呼叫中相同的網路網站，在不同的網路網站中，或從不明的網路網站。 受話者已設定為同時響鈴目標 PSTN 端點 （亦即行動電話）。 在此案例中，位置型路由會決定是否在呼叫應被路由傳送至受話者的同時響鈴目標 (亦即 cellphone) 或不。
 
 
 <table>
@@ -80,18 +80,18 @@ _**主題上次修改日期：** 2013-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>同時撥打目標</th>
-<th>與被呼叫方位於相同的網路網站中</th>
-<th>位於不同于被人的網路網站</th>
-<th>位於未知的網路網站中，或未啟用以位置為基礎的路由</th>
+<th>同時響鈴目標</th>
+<th>位於與受話者位於相同網路站台</th>
+<th>位於比受話者的不同的網路網站</th>
+<th>位於不明的網路站台或未啟用位置型的路由</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>PSTN 端點</p></td>
-<td><p>透過來電者的網站語音路由策略允許同時撥打</p></td>
-<td><p>透過來電者的網站語音路由策略允許同時撥打</p></td>
-<td><p>透過呼叫者的語音原則允許同時撥打，以進行位置式路由的 trunks</p></td>
+<td><p>透過發話者網站的語音路由原則所允許的同時響鈴</p></td>
+<td><p>透過發話者網站的語音路由原則所允許的同時響鈴</p></td>
+<td><p>發話者的語音原則未啟用位置型路由的主幹，透過允許的同時響鈴</p></td>
 </tr>
 </tbody>
 </table>
@@ -99,10 +99,10 @@ _**主題上次修改日期：** 2013-03-09_
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
-[Lync Server 2013 中的位置基礎路由案例](lync-server-2013-scenarios-for-location-based-routing.md)  
+[依位置路由 Lync Server 2013 中的案例](lync-server-2013-scenarios-for-location-based-routing.md)  
   
 
 </div>

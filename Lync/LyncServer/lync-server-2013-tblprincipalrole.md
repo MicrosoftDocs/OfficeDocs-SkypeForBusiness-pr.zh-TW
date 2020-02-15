@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：tblPrincipalRole
+title: 'Lync Server 2013: tblPrincipalRole'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185597
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de125c0f314bd0ba72b9bbd463201b12d3e19eea
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ddab28b269cf2b720d6935fa6d50f4bf9ea3084a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731173"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038585"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41731173"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-09-12_
+_**主題上次修改日期：** 2012年-09-12_
 
 tblPrincipalRole 包含指派給節點的明確角色。
 
-### <a name="columns"></a>分欄
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -49,37 +49,37 @@ tblPrincipalRole 包含指派給節點的明確角色。
 </colgroup>
 <thead>
 <tr class="header">
-<th>左欄</th>
-<th>類型</th>
-<th>說明</th>
+<th>欄</th>
+<th>類型	</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>prinRoleNodeID</p></td>
-<td><p>int，not null</p></td>
-<td><p>角色所套用的節點識別碼。</p></td>
+<td><p>int，非 null</p></td>
+<td><p>套用角色的節點識別碼。</p></td>
 </tr>
 <tr class="even">
 <td><p>prinRolePrinID</p></td>
-<td><p>int，not null</p></td>
-<td><p>Principal ID。</p></td>
+<td><p>int，非 null</p></td>
+<td><p>主體識別碼。</p></td>
 </tr>
 <tr class="odd">
 <td><p>prinRoleTypeID</p></td>
-<td><p>int，not null</p></td>
-<td><p>角色類型識別碼（從 tblRoleType）。</p></td>
+<td><p>int，非 null</p></td>
+<td><p>角色類型識別碼 （來自於 tblRoleType)。</p></td>
 </tr>
 <tr class="even">
 <td><p>prinRoleUpdatedBy</p></td>
-<td><p>int，not null</p></td>
-<td><p>上次更新此專案的主體 ID。</p></td>
+<td><p>int，非 null</p></td>
+<td><p>上次更新此項目之主體的識別碼。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a>鍵
+### <a name="keys"></a>索引鍵
 
 <table>
 <colgroup>
@@ -88,26 +88,26 @@ tblPrincipalRole 包含指派給節點的明確角色。
 </colgroup>
 <thead>
 <tr class="header">
-<th>左欄</th>
-<th>說明</th>
+<th>欄</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>&lt;prinRoleNodeID, prinRolePrinID, prinRoleTypeID&gt;</p></td>
-<td><p>主鍵。</p></td>
+<td><p>&lt;prinRoleNodeID，prinRolePrinID prinRoleTypeID&gt;</p></td>
+<td><p>主索引鍵。</p></td>
 </tr>
 <tr class="even">
 <td><p>prinRoleNodeID</p></td>
-<td><p>在 tblNode 資料表中使用 [查閱] 的外鍵。</p></td>
+<td><p>在 tblNode.nodeID 表格中查閱外部索引鍵。</p></td>
 </tr>
 <tr class="odd">
 <td><p>prinRolePrinID</p></td>
-<td><p>在 tblPrincipal prinID 資料表中使用 [查閱] 的外鍵。</p></td>
+<td><p>在 tblPrincipal.prinID 表格中查閱外部索引鍵。</p></td>
 </tr>
 <tr class="even">
 <td><p>prinRoleTypeID</p></td>
-<td><p>在 tblRoleType rtypeID 資料表中使用 [查閱] 的外鍵。</p></td>
+<td><p>在 tblRoleType.rtypeID 表格中查閱外部索引鍵。</p></td>
 </tr>
 </tbody>
 </table>

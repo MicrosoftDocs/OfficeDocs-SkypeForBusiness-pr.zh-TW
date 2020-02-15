@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：規劃用戶端
+title: Lync Server 2013： 規劃用戶端
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183365
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e10b8e85f6db445acb21beb6e272e2147e89b474
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 73c8c13c4333ea8458d5e8365de03dcace2bcd64
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41754343"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037005"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41754343"
 
 <span> </span>
 
-_**主題上次修改日期：** 2014-02-10_
+_**上次修改主題：** 2014年-02-10_
 
-本節中的主題討論部署 Microsoft Lync Server 2013 用戶端的規劃考慮。 無論您是要部署新的 Lync Server 2013 安裝，還是從先前的部署進行遷移，這些主題都會提供重要的用戶端規劃資訊。
+本節中的主題將討論部署 Microsoft Lync Server 2013 用戶端的規劃考量。 不論您是部署新的 Lync Server 2013 安裝，或從舊版部署移轉，這些主題會提供重要的用戶端規劃資訊。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
   - [Lync Server 2013 的用戶端](lync-server-2013-clients.md)
 
@@ -49,13 +49,13 @@ _**主題上次修改日期：** 2014-02-10_
 
   - [Lync Server 2013 的用戶端系統需求](lync-server-2013-client-system-requirements.md)
 
-  - [Lync Server 2013 中的用戶端原則和設定](lync-server-2013-client-policies-and-settings.md)
+  - [用戶端原則和 Lync Server 2013 中設定](lync-server-2013-client-policies-and-settings.md)
 
   - [Lync 2013 相容性](lync-server-2013-lync-2013-compatibility.md)
 
   - [Lync 2013 中的用戶端互通性](lync-server-2013-client-interoperability-in-lync-2013.md)
 
-  - [Lync Server 2013 中的會議遷移考慮](lync-server-2013-migration-considerations-for-meetings.md)
+  - [Lync Server 2013 中的會議的移轉考量](lync-server-2013-migration-considerations-for-meetings.md)
 
 </div>
 

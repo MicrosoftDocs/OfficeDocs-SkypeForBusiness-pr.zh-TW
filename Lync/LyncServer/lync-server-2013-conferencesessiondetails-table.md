@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：ConferenceSessionDetails 表格
+title: 'Lync Server 2013: ConferenceSessionDetails 表格'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184925
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 61da586f3ecaf215b3bb636a80141ba8aaa19f18
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6c88cb167f334bc27148b16deafb0e7759105955
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741593"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42040902"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41741593"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-09-28_
+_**主題上次修改日期：** 2012年-09-28_
 
-每個記錄代表一個會議會話，可能是與焦點進行的會話，或是與特定會議服務器的會話。
+每筆記錄都代表一個會議工作階段，它可以是有「焦點」的工作階段，或是特定會議伺服器的工作階段。
 
 
 <table>
@@ -49,9 +49,9 @@ _**主題上次修改日期：** 2012-09-28_
 </colgroup>
 <thead>
 <tr class="header">
-<th>左欄</th>
+<th>欄</th>
 <th>資料類型</th>
-<th>索引鍵/索引</th>
+<th>主索引鍵 /</th>
 <th>詳細資料</th>
 </tr>
 </thead>
@@ -60,195 +60,195 @@ _**主題上次修改日期：** 2012-09-28_
 <td><p><strong>SessionIdTime</strong></p></td>
 <td><p>Datetime</p></td>
 <td><p>主要、外部</p></td>
-<td><p>會話要求的時間;與<strong>SessionIdSeq</strong>搭配使用，可唯一識別會議會話。 如需詳細資訊，請參閱<a href="lync-server-2013-dialogs-table.md">Lync Server 2013 中</a>的 [對話方塊] 資料表。</p></td>
+<td><p>工作階段要求;<strong>SessionIdSeq</strong>搭配使用來唯一地識別會議工作階段。 <a href="lync-server-2013-dialogs-table.md">Dialogs 表格 Lync Server 2013 中的</a>如需詳細資訊，請參閱。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionIdSeq</strong></p></td>
 <td><p>int</p></td>
-<td><p>主要、外部</p></td>
-<td><p>識別會話的識別碼編號。 與<strong>SessionIdTime</strong>搭配使用，可唯一識別會議會話。 如需詳細資訊，請參閱<a href="lync-server-2013-dialogs-table.md">Lync Server 2013 中</a>的 [對話方塊] 資料表。 *</p></td>
+<td><p>主要，外部</p></td>
+<td><p>用來識別工作階段的識別碼。 搭配<strong>SessionIdTime</strong>用來唯一地識別會議工作階段。 <a href="lync-server-2013-dialogs-table.md">Dialogs 表格 Lync Server 2013 中的</a>如需詳細資訊，請參閱。 *</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ConferenceUriId</strong></p></td>
 <td><p>int</p></td>
-<td><p>外</p></td>
-<td><p>與此會話相關的焦點會議 URI。 如需詳細資訊，請參閱<a href="lync-server-2013-conferenceuris-table.md">Lync Server 2013 中</a>的 [ConferenceUris] 資料表。 此 URI 是以焦點為基礎的會議 URI。</p></td>
+<td><p>Foreign</p></td>
+<td><p>此工作階段相關焦點會議 URI。 請參閱<a href="lync-server-2013-conferenceuris-table.md">Lync Server 2013 中的 ConferenceUris 表格</a>如需詳細資訊。 此 URI 是基於 Focus 的會議 URI。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ConfInstance</strong></p></td>
-<td><p>uniqueIdentifier</p></td>
+<td><p>唯一</p></td>
 <td></td>
-<td><p>區分週期性會議實例的識別碼。 每個週期性會議實例都有相同的 ConferenceURI，但有不同的 ConfInstance 值。</p>
-<p>此欄位是在 Microsoft Lync Server 2013 中推出。</p></td>
+<td><p>可區分週期性會議的執行個體的識別碼。 每個週期性會議執行個體都會有相同的 ConferenceURI 且不同的 ConfInstance 值。</p>
+<p>Microsoft Lync Server 2013 中已採用此欄位。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>McuConferenceUriId</strong></p></td>
 <td><p>int</p></td>
-<td><p>外</p></td>
-<td><p>與此會話相關的會議服務器會議 URI。 如需詳細資訊，請參閱<a href="lync-server-2013-conferenceuris-table.md">Lync Server 2013 中</a>的 [ConferenceUris] 資料表。 此 URI 是會議服務器的會議 URI。 針對焦點會議會話，此欄會是 null。</p></td>
+<td><p>Foreign</p></td>
+<td><p>會議伺服器會議 URI 相關此工作階段。 請參閱<a href="lync-server-2013-conferenceuris-table.md">Lync Server 2013 中的 ConferenceUris 表格</a>如需詳細資訊。 此 URI 是會議伺服器型會議 URI。 焦點會議工作階段，此欄都是 null。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserId</strong></p></td>
 <td><p>int</p></td>
-<td><p>外</p></td>
-<td><p>在會議會話中，有一個使用者的識別碼。 如需詳細資訊，請參閱<a href="lync-server-2013-users-table.md">Lync Server 2013 中</a>的 [使用者] 資料表。</p></td>
+<td><p>Foreign</p></td>
+<td><p>在會議工作階段中的一位使用者的識別碼。 請參閱如需詳細資訊，<a href="lync-server-2013-users-table.md">使用者在 Lync Server 2013 中的表格</a>。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UserEndpointId</strong></p></td>
-<td><p>uniqueidentifier</p></td>
+<td><p>唯一</p></td>
 <td></td>
-<td><p>識別端點實例的 GUID。 例如，如果某個使用者使用相同的帳戶登入不同的電腦，則每個電腦將會有不同的端點 ID。</p></td>
+<td><p>GUID，以識別端點的執行個體。 例如，如果不同的電腦，以相同的帳戶登入一位使用者，然後每一部機器會有不同的端點識別碼。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>OnBehalfOfId</strong></p></td>
 <td><p>int</p></td>
-<td><p>外</p></td>
-<td><p>表示呼叫者代表者的使用者識別碼。 如需詳細資訊，請參閱<a href="lync-server-2013-users-table.md">Lync Server 2013 中</a>的 [使用者] 資料表。</p></td>
+<td><p>Foreign</p></td>
+<td><p>指出來電者所代表之使用者的識別碼。 請參閱如需詳細資訊，<a href="lync-server-2013-users-table.md">使用者在 Lync Server 2013 中的表格</a>。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ReferredById</strong></p></td>
 <td><p>int</p></td>
-<td><p>外</p></td>
-<td><p>呼叫者的使用者識別碼。 如需詳細資訊，請參閱<a href="lync-server-2013-users-table.md">Lync Server 2013 中</a>的 [使用者] 資料表。</p></td>
+<td><p>Foreign</p></td>
+<td><p>轉接此通話之使用者的識別碼。 請參閱如需詳細資訊，<a href="lync-server-2013-users-table.md">使用者在 Lync Server 2013 中的表格</a>。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserClientVersionId</strong></p></td>
 <td><p>int</p></td>
-<td><p>外</p></td>
-<td><p>會議使用者使用的用戶端版本。 如需詳細資訊，請參閱<a href="lync-server-2013-clientversions-table.md">Lync Server 2013 中</a>的 [ClientVersions] 資料表。</p></td>
+<td><p>Foreign</p></td>
+<td><p>會議使用者所使用的用戶端版本。 請參閱<a href="lync-server-2013-clientversions-table.md">Lync Server 2013 中的 ClientVersions 表格</a>如需詳細資訊。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ConfClientVersionId</strong></p></td>
 <td><p>int</p></td>
-<td><p>外</p></td>
-<td><p>會議服務器所使用的用戶端版本。 如需詳細資訊，請參閱<a href="lync-server-2013-clientversions-table.md">Lync Server 2013 中</a>的 [ClientVersions] 資料表。</p></td>
+<td><p>Foreign</p></td>
+<td><p>會議伺服器所使用的用戶端版本。 請參閱<a href="lync-server-2013-clientversions-table.md">Lync Server 2013 中的 ClientVersions 表格</a>如需詳細資訊。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ReplaceDialogIdTime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>外</p></td>
-<td><p>[識別碼] 編號，找出目前會話所取代的對話方塊。 如需詳細資訊，請參閱<a href="lync-server-2013-dialogs-table.md">Lync Server 2013 中</a>的 [對話方塊] 資料表。</p></td>
+<td><p>Foreign</p></td>
+<td><p>用來識別目前工作階段所取代之對話的識別碼。 <a href="lync-server-2013-dialogs-table.md">Dialogs 表格 Lync Server 2013 中的</a>如需詳細資訊，請參閱。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ReplaceDialogIdSeq</strong></p></td>
 <td><p>int</p></td>
-<td><p>外</p></td>
-<td><p>識別會話的識別碼編號。 與<strong>ReplacesDialogIdTime</strong>搭配使用，可唯一識別此會話所取代的會話。 如需詳細資訊，請參閱<a href="lync-server-2013-dialogs-table.md">Lync Server 2013 中</a>的 [對話方塊] 資料表。</p></td>
+<td><p>Foreign</p></td>
+<td><p>用來識別工作階段的識別碼。 其會與 <strong>ReplacesDialogIdTime</strong> 搭配使用，專門用於識別此工作階段所取代的工作階段。 <a href="lync-server-2013-dialogs-table.md">Dialogs 表格 Lync Server 2013 中的</a>如需詳細資訊，請參閱。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>IsStartedByConfServer</strong></p></td>
-<td><p>稍微</p></td>
+<td><p>位元</p></td>
 <td></td>
-<td><p>指示會議服務器是否已啟動會話。</p></td>
+<td><p>會指出由會議伺服器是否啟動工作階段。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>IsEndedByConfServer</strong></p></td>
-<td><p>稍微</p></td>
+<td><p>位元</p></td>
 <td></td>
-<td><p>表示會議服務器是否已結束會話。</p></td>
+<td><p>會指出是否工作階段結束透過會議伺服器。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>IsUserInternal</strong></p></td>
-<td><p>稍微</p></td>
+<td><p>位元</p></td>
 <td></td>
-<td><p>使用者是否已從內部登入。</p></td>
+<td><p>是否使用者登入從內部或不。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ResponseCode</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>會話初始通訊協定（SIP）回應程式碼加入會話邀請。 這個欄位通常是由會話中初始邀請郵件所產生的資料所填入。 如果沒有邀請郵件，則會使用第一個相關 SIP 訊息（再見、CANCEL、MESSAGE 或 INFO）的日期和時間來填入欄位。</p></td>
+<td><p>工作階段初始通訊協定 (SIP) 工作階段邀請的回應碼。 此欄位通常會使用從工作階段之初始 INVITE 訊息中產生的資料來填入。 如果沒有 INVITE 訊息，則會使用第一個相關的 SIP 訊息 (BYE、CANCEL、MESSAGE 或 INFO) 的日期與時間來填入。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DiagnosticId</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>從 SIP 標頭捕獲的診斷 ID。</p></td>
+<td><p>從 SIP 標頭擷取而來的診斷識別碼。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ServerId</strong></p></td>
 <td><p>int</p></td>
-<td><p>外</p></td>
-<td><p>此會話所用的前端伺服器 ID。 如需詳細資訊，請參閱<a href="lync-server-2013-servers-table.md">Lync Server 2013 中</a>的 [伺服器] 資料表。</p></td>
+<td><p>Foreign</p></td>
+<td><p>用於此工作階段之前端伺服器的識別碼。 請參閱<a href="lync-server-2013-servers-table.md">Lync Server 2013 中的伺服器表格</a>如需詳細資訊。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>PoolId</strong></p></td>
 <td><p>int</p></td>
-<td><p>外</p></td>
-<td><p>捕獲會話的池 ID。 如需詳細資訊，請參閱<a href="lync-server-2013-pools-table.md">Lync Server 2013 中</a>的 [pool] 資料表。</p></td>
+<td><p>Foreign</p></td>
+<td><p>擷取工作階段所在集區的識別碼。 請參閱如需詳細資訊，<a href="lync-server-2013-pools-table.md">在 Lync Server 2013 中的集區資料表</a>。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>MediationServerId</strong></p></td>
 <td><p>int</p></td>
-<td><p>外</p></td>
-<td><p>通話使用的中繼伺服器。 如需詳細資訊，請參閱<a href="lync-server-2013-mediationservers-table.md">Lync Server 2013 中</a>的 [MediationServers] 資料表。</p></td>
+<td><p>Foreign</p></td>
+<td><p>中繼伺服器通話使用。 請參閱<a href="lync-server-2013-mediationservers-table.md">Lync Server 2013 中的 MediationServers 表格</a>如需詳細資訊。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>GatewayId</strong></p></td>
 <td><p>int</p></td>
-<td><p>外</p></td>
-<td><p>通話使用的閘道。 如需詳細資訊，請參閱<a href="lync-server-2013-gateways-table.md">Lync Server 2013 中的 [閘道] 資料表</a>。</p></td>
+<td><p>Foreign</p></td>
+<td><p>使用通話的閘道。 請參閱<a href="lync-server-2013-gateways-table.md">Lync Server 2013 中的 Gateways 表格</a>如需詳細資訊。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>EdgeServerId</strong></p></td>
 <td><p>int</p></td>
-<td><p>外</p></td>
-<td><p>通話使用的邊緣伺服器。 如需詳細資訊，請參閱<a href="lync-server-2013-edgeservers-table.md">Lync Server 2013 中</a>的 [EdgeServers] 資料表。</p></td>
+<td><p>Foreign</p></td>
+<td><p>使用 Edge Server 通話。 請參閱<a href="lync-server-2013-edgeservers-table.md">Lync Server 2013 中的 EdgeServers 表格</a>如需詳細資訊。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ContentTypeId</strong></p></td>
 <td><p>int</p></td>
-<td><p>外</p></td>
-<td><p>會話中使用的內容類型。 如需詳細資訊，請參閱<a href="lync-server-2013-contenttypes-table.md">Lync Server 2013 中</a>的 [主控] 資料表。</p></td>
+<td><p>Foreign</p></td>
+<td><p>工作階段中所使用的內容類型。 請參閱<a href="lync-server-2013-contenttypes-table.md">Lync Server 2013 中的 ContentTypes 表格</a>如需詳細資訊。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>InviteTime</strong></p></td>
 <td><p>datetime</p></td>
 <td></td>
-<td><p>第一次邀請要求的時間。 這個欄位通常是由會話中初始邀請郵件所產生的資料所填入。 如果沒有邀請郵件，則會使用第一個相關 SIP 訊息（再見、CANCEL、MESSAGE 或 INFO）的日期和時間來填入欄位。</p></td>
+<td><p>第一個 INVITE 要求的時間。 此欄位通常會使用從工作階段之初始 INVITE 訊息中產生的資料來填入。 如果沒有 INVITE 訊息，則會使用第一個相關 SIP 訊息 (BYE、CANCEL、MESSAGE 或 INFO) 的日期與時間來填入。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ResponseTime</strong></p></td>
 <td><p>datetime</p></td>
 <td></td>
-<td><p>第一次 SIP 回應的時間。 這個欄位通常是由會話中初始邀請郵件所產生的資料所填入。 如果沒有邀請郵件，則會使用第一個相關 SIP 訊息（再見、CANCEL、MESSAGE 或 INFO）的日期和時間來填入欄位。</p></td>
+<td><p>第一個 SIP 回應的時間。 此欄位通常會使用從工作階段之初始 INVITE 訊息中產生的資料來填入。 如果沒有 INVITE 訊息，則會使用第一個相關的 SIP 訊息 (BYE、CANCEL、MESSAGE 或 INFO) 的日期與時間來填入。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>SessionEndTime</strong></p></td>
 <td><p>datetime</p></td>
 <td></td>
-<td><p>會話結束的時間。</p></td>
+<td><p>工作階段結束時的時間。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UriTypeId</strong></p></td>
-<td><p>Tinyint</p></td>
-<td><p>外</p></td>
-<td><p><a href="lync-server-2013-uritypes-table.md">在 Lync Server 2013 的 UriTypes 資料表中</a>包含 MCU URI 類型值。 此欄位可用來改善查詢效能。</p>
-<p>此欄位是在 Microsoft Lync Server 2013 中推出。</p></td>
+<td><p>tinyint</p></td>
+<td><p>Foreign</p></td>
+<td><p>包含<a href="lync-server-2013-uritypes-table.md">Lync Server 2013 中的 UriTypes 表格</a>MCU 的 URI 類型值。 提升查詢效能會使用此欄位。</p>
+<p>Microsoft Lync Server 2013 中已採用此欄位。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UserFlag</strong></p></td>
-<td><p>Smallint</p></td>
+<td><p>smallint</p></td>
 <td></td>
-<td><p>指示使用者屬性的位組。 下列屬性定義如下所示：</p>
+<td><p>這表示使用者屬性的位元。 下列是屬性的定義：</p>
 <ul>
-<li><p>與桌面手機整合-1</p></li>
+<li><p>整合與桌上電話-1</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p><strong>CallFlag</strong></p></td>
-<td><p>Smallint</p></td>
+<td><p>smallint</p></td>
 <td></td>
-<td><p>指明通話屬性的位組。 下列屬性定義如下所示：</p>
+<td><p>指出通話屬性的位元設定。下列是屬性的定義：</p>
 <ul>
-<li><p>重試會話-1</p></li>
+<li><p>重試工作階段-1</p></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
 
-\*在大部分的會話中，SessionIdSeq 將會有1的值。 如果多個會話的開始時間完全相同，則 SessionIdSeq 會是1，另一個會是2，依此類推。
+\*對於大多數的工作階段，SessionIdSeq 會有 1 的值。 如有多個工作階段的啟動時間完全相同，將只有一個工作階段的 SessionIdSeq 值會是 1，其餘工作階段皆是 2，依此類推。
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 使用最佳做法分析程式來找出您部署中的潛在問題
+title: 使用最佳做法分析程式來識別您的部署可能發生的問題
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183344
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e60945f9a7ee8f8b6fe52857fd73a399725de5be
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 12cf3fcc76c1fba3b8162a4928f672558818e735
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744213"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041770"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="using-best-practices-analyzer-to-identify-potential-issues-in-your-lync-server-2013-deployment"></a>使用最佳做法分析程式來找出您的 Lync Server 2013 部署中的潛在問題
+# <a name="using-best-practices-analyzer-to-identify-potential-issues-in-your-lync-server-2013-deployment"></a>使用以識別潛在的問題，Lync Server 2013 部署中的最佳做法分析程式
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41744213"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-09-21_
+_**主題上次修改日期：** 2012年-09-21_
 
-若要使用最佳做法分析程式來掃描您的 Lync Server 2013 環境，您的系統必須符合特定的先決條件，才能開始掃描。 確定您的系統符合先決條件之後，您就可以使用最佳做法分析程式來完成掃描程式。
+若要使用最佳做法分析程式來掃描您的 Lync Server 2013 環境，在您開始掃描之前您的系統時，必須符合特定必要條件。 在確定系統符合先決條件之後，即可使用 Best Practices Analyzer 來完成掃描程序。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [在 Lync Server 2013 中執行最佳做法分析程式的先決條件](lync-server-2013-prerequisites-for-running-best-practices-analyzer.md)
+  - [在 Lync Server 2013 中執行 Best Practices Analyzer 的必要條件](lync-server-2013-prerequisites-for-running-best-practices-analyzer.md)
 
-  - [在 Lync Server 2013 中檢查最佳做法分析程式的更新](lync-server-2013-checking-for-updates-to-best-practices-analyzer.md)
+  - [更新 Lync Server 2013 中的最佳做法分析程式檢查](lync-server-2013-checking-for-updates-to-best-practices-analyzer.md)
 
-  - [使用最佳做法分析程式來掃描您的 Lync Server 2013 部署，以尋找可能的問題](lync-server-2013-using-best-practices-analyzer-to-scan-your-deployment-for-potential-issues.md)
+  - [使用最佳做法分析程式來掃描您的 Lync Server 2013 部署潛在的問題](lync-server-2013-using-best-practices-analyzer-to-scan-your-deployment-for-potential-issues.md)
 
 </div>
 

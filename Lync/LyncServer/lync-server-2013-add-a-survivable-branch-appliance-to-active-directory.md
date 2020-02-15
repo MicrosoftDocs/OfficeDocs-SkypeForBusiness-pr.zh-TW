@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：將 Survivable Branch Appliance 新增到 Active Directory
+title: Lync Server 2013： 新增至 Active Directory Survivable Branch Appliance
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183938
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8712dcb5b68522a8b770aac63c5a37a1a70a669a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: da38ead0e1d27ef1024d8aac2ea030d2815e6cad
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735063"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037845"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="add-a-survivable-branch-appliance-to-active-directory-in-lync-server-2013"></a>在 Lync Server 2013 中將 Survivable Branch Appliance 新增到 Active Directory
+# <a name="add-a-survivable-branch-appliance-to-active-directory-in-lync-server-2013"></a>將 Survivable Branch Appliance 新增至 Lync Server 2013 中的 Active Directory
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41735063"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-09-23_
+_**主題上次修改日期：** 2012年-09-23_
 
-如果您打算部署 Survivable 分支裝置，您必須將 Survivable 分支裝置新增至 Active Directory 網域服務。 在中央網站執行此程式。
+如果您計劃要部署 Survivable Branch Appliance，您必須將 Survivable Branch Appliance 新增至 Active Directory 網域服務。 請在中央網站執行這項程序。
 
 <div>
 
 
 > [!IMPORTANT]  
-> 只有在部署 Survivable 分支裝置時，才會執行此程式。 如果您要部署 Survivable 分支伺服器，請勿執行此動作。
+> 只有當您要部署 Survivable Branch Appliance，請執行此程序。 請勿執行它如果您要部署 Survivable Branch 伺服器。
 
 
 
@@ -51,50 +51,50 @@ _**主題上次修改日期：** 2012-09-23_
 
 <div>
 
-## <a name="to-add-an-survivable-branch-appliance-to-active-directory-domain-services"></a>將 Survivable 分支裝置新增至 Active Directory 網域服務
+## <a name="to-add-an-survivable-branch-appliance-to-active-directory-domain-services"></a>若要將 Survivable Branch Appliance 新增至 Active Directory 網域服務
 
-1.  以企業系統管理員群組的成員身分登入成員伺服器。
+1.  以 Enterprise Admins 群組成員的身分，登入成員伺服器。
 
-2.  按一下 [**開始**]，按一下 [**管理工具**]，然後按一下 [ **Active Directory 使用者和電腦**]。
+2.  依序按一下 **[開始]**、**[系統管理工具]** 和 **[Active Directory 使用者和電腦]**。
 
-3.  在 [**動作**] 功能表上，按一下 [**新增**]，然後按一下 [**電腦**]。
+3.  在 **[執行]** 功能表上，依序按一下 **[新增]** 和 **[電腦]**。
 
-4.  在 [**新物件-電腦**] 對話方塊中，輸入 Survivable 分支裝置電腦物件的名稱（例如，BranchOffice1），然後按一下 [**變更**]。
+4.  在 [**新增物件-電腦**] 對話方塊中，輸入 Survivable Branch Appliance 的電腦物件 (例如 BranchOffice1) 的名稱，然後按一下 [**變更]**。
 
-5.  在 [**選取使用者或群組**] 對話方塊中，新增 [RTCUniversalSBATechnicians] 群組，然後按一下 **[確定]**。
+5.  在 **[選取使用者或群組]** 對話方塊中，新增 RTCUniversalSBATechnicians 群組，然後按一下 **[確定]**。
     
     <div>
     
 
     > [!NOTE]  
-    > 分支網站上的 [RTCUniversalSBATechnicians] 群組成員稍後會將此裝置新增至網域。
+    > 稍後會由分支網站的 RTCUniversalSBATechnicians 群組成員將此裝置新增至網域。
 
     
     </div>
 
-6.  按一下 **[確定]** 以儲存 Survivable 分支裝置電腦物件。
+6.  按一下 **[確定]** 儲存 Survivable Branch Appliance 的電腦物件。
 
-7.  按一下 [**開始**]，按一下 [**管理工具**]，然後按一下 [ **ADSI 編輯**]。
+7.  依序按一下 **[開始]**、**[系統管理工具]** 和 **[ADSI 編輯器]**。
 
-8.  在 [ **ADSI 編輯**] 中，以滑鼠右鍵按一下您在先前步驟中建立的電腦物件，然後按一下 [**屬性**]。
+8.  在 **[ADSI 編輯器]** 中，用滑鼠右鍵按一下您於先前步驟建立的電腦物件，然後按一下 **[內容]**。
 
-9.  在屬性清單中，按一下 [ **servicePrincipalName**]，然後按一下 [**編輯**]。
+9.  在屬性清單中，依序按一下 **[servicePrincipalName]** 和 **[編輯]**。
 
-10. 在 [**要新增的值**] 欄位中，\<輸入 HOST\> / \<SBA Fqdn\> ，其中 SBA FQDN 是您 Survivable 分支裝置的完整功能變數名稱（FQDN）。 例如，輸入**HOST/BranchOffice1**。
+10. **若要新增的值**] 欄位中輸入主機 /\<SBA FQDN\>其中\<SBA FQDN\>是您 Survivable Branch Appliance 的完整的網域名稱 (FQDN)。 例如，輸入 **HOST/BranchOffice1.contoso.com**。
 
-11. 按一下 **[確定]** 儲存**servicePrincipalName**屬性設定，然後按一下 **[確定]** 儲存電腦物件的屬性。
+11. 按一下 **[確定]** 儲存 **servicePrincipalName** 屬性設定，然後按一下 **[確定]** 儲存電腦物件內容。
 
-12. 在**Active Directory 使用者和電腦**中，以滑鼠右鍵按一下 [**使用者**]，按一下 [**新增**]，然後按一下 [**使用者**]。
+12. 在 **[Active Directory 使用者和電腦]** 中，用滑鼠右鍵按一下 **[使用者]**、按一下 **[新增]**，然後按一下 **[使用者]**。
 
-13. 在嚮導中輸入資訊，為 Survivable 分支裝置技術人員建立網域使用者帳戶。
+13. 若要為 Survivable Branch Appliance 技術人員建立網域使用者帳戶精靈中輸入資訊。
 
-14. 在**Active Directory 使用者和電腦**中，按一下 [**使用者**]，以滑鼠右鍵按一下使用者物件，然後按一下 [**新增至群組**]。
+14. 在 **[Active Directory 使用者和電腦]** 中，按一下 **[使用者]**、用滑鼠右鍵按一下使用者物件，然後按一下 **[加入群組中]**。
 
-15. 在 **[輸入要選取的物件名稱**] 中，輸入**RTCUniversalSBATechnicians**，然後按一下 **[確定]**。
+15. 在 **[輸入物件名稱來選取]** 中，輸入 **RTCUniversalSBATechnicians**，然後按一下 **[確定]**。
 
-16. 針對每個分支網站技術人員，重複執行步驟12-15。
+16. 針對每個分支網站技術人員，重複步驟 12-15。
 
-**後續步驟**：[在 Lync Server 2013 中新增分支網站至您的拓撲](lync-server-2013-add-branch-sites-to-your-topology.md)
+**下一步**：[將分支網站新增至您在 Lync Server 2013 中的拓撲](lync-server-2013-add-branch-sites-to-your-topology.md)
 
 </div>
 

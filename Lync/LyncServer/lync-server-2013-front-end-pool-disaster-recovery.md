@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：前端集區災害復原
+title: Lync Server 2013： 前端集區嚴重損壞修復
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733593
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 751234b4f3a9a903612d8354abe26f6a2d960ead
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: baa2326a827959d7d21286152950e1025ad2f457
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739763"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038085"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="front-end-pool-disaster-recovery-in-lync-server-2013"></a>Lync Server 2013 中的前端集區災害復原
+# <a name="front-end-pool-disaster-recovery-in-lync-server-2013"></a>Lync Server 2013 中的結束集區嚴重損壞修復的前端
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41739763"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-09-17_
+_**主題上次修改日期：** 2012年-09-17_
 
-本節中的主題將說明 Lync Server 2013 中的高可用性與災難復原能力前端池。
+本節中的主題說明高可用性和災害復原能力 Lync Server 2013 中的前端集區。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [在 Lync Server 2013 中規劃前端集區配對](lync-server-2013-planning-for-front-end-pool-pairing.md)
+  - [前端集區配對 Lync Server 2013 中規劃](lync-server-2013-planning-for-front-end-pool-pairing.md)
 
-  - [Lync Server 2013 中的池失敗期間的使用者體驗](lync-server-2013-user-experience-during-pool-failure.md)
+  - [Lync Server 2013 中的集區失敗期間的使用者經驗](lync-server-2013-user-experience-during-pool-failure.md)
 
-  - [Lync Server 2013 的後端伺服器高可用性](lync-server-2013-back-end-server-high-availability.md)
+  - [Lync Server 2013 中後端伺服器高可用性](lync-server-2013-back-end-server-high-availability.md)
 
-  - [Lync Server 2013 中的檔案共用高可用性](lync-server-2013-file-sharing-high-availability.md)
+  - [檔案共用 Lync Server 2013 中的高可用性](lync-server-2013-file-sharing-high-availability.md)
 
 </div>
 

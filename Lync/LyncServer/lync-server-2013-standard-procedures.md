@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：標準程式
+title: Lync Server 2013： 標準程序
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969581
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5160e67d13b7ff3ea1502c093a0ed010d176568f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e59c3c4a1b76b7f3549f53721e29aa1e34085334
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731863"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038815"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="standard-procedures-in-lync-server-2013"></a>Lync Server 2013 中的標準程式
+# <a name="standard-procedures-in-lync-server-2013"></a>Lync Server 2013 中的標準程序
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41731863"
 
 <span> </span>
 
-_**主題上次修改日期：** 2014-08-18_
+_**上次修改主題：** 2014年-08-18_
 
-有數個資源可協助您定義組織中需要哪些標準程式，以及如何執行這些程式。 因為每個組織都是唯一的，所以您可能必須另行自訂並調整這些資源，以符合日常需求。標準的操作程式變更，而且偶爾必須修改檔。 隨著所做的變更，變更管理程式（如 Microsoft 操作架構的服務管理函式所定義），應該會識別出每個變更可能會如何影響執行管理工作的方式和時機。 使用變更管理函式來更新及控制程式化檔。我們建議您將工作工作劃分成可管理的工作負載，其中的工作是在每日、每週、每月，以及根據需要執行任務。 每日工作都將重點放在對系統運作非常重要的方面，且每月任務都將側重于確保系統長期健康情況。 必須執行的工作可以分成下列類別：
+多個資源可協助您定義哪些標準程序所需在組織中，以及如何執行它們。 因為每個組織是唯一的您可能必須另外自訂並改造這些資源，以符合日常的需求。標準作業程序變更，且文件有時會進行修改。 變更管理程序，所定義，Microsoft 操作架構，服務管理功能進行變更時，應該識別每次變更的方式可能會影響如何及何時執行管理工作。 使用變更管理功能，更新並控制程序性的文件。我們建議操作工作，分成易於管理的工作負載，其中每日、 每週、 每月及做為所需的基礎執行工作。 每日工作會專注於系統的運作非常重要的層面的努力，並每月工作而更著重於確保長期系統的狀況。 必須執行的工作可分為下列類別：
 
   - [Lync Server 2013 中的每日工作](lync-server-2013-daily-tasks.md)
 
@@ -45,20 +45,20 @@ _**主題上次修改日期：** 2014-08-18_
 
   - [Lync Server 2013 中的每月工作](lync-server-2013-monthly-tasks.md)
 
-  - [Lync Server 2013 中的必要工作](lync-server-2013-as-needed-tasks.md)
+  - [視需要在 Lync Server 2013 中的工作](lync-server-2013-as-needed-tasks.md)
 
-準備作業管理的檔時，請使用檢查清單來協助確保所需的工作在適當的時間執行。 如需如何準備作業檢查清單的詳細資訊，請參閱位於作業檢查清單中的範例檢查清單。
+準備作業管理文件時, 使用檢查清單可協助您確保，在適當時間執行必要的工作。 如需如何準備作業檢查清單的詳細資訊，請參閱位於 Operations Checklists 範例檢查清單。
 
-通常，變更管理會接管系統管理完成的位置。 如果工作是由標準程式所涵蓋，則是系統管理功能的一部分。 如果沒有任務的標準程式，則應該使用變更管理函式處理該工作。
+通常，變更管理會接管系統管理完成的地方。 如果標準程序涵蓋一項工作，它會是系統管理功能的一部分。 如果沒有工作沒有標準程序，應該加以處理使用變更管理功能。
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
 [每日工作檢查清單](lync-server-2013-operations-checklists.md)  
-[每週任務檢查清單](lync-server-2013-operations-checklists.md)  
-[每月任務檢查清單](lync-server-2013-operations-checklists.md)  
+[每週工作檢查清單](lync-server-2013-operations-checklists.md)  
+[每月工作檢查清單](lync-server-2013-operations-checklists.md)  
   
 
 </div>

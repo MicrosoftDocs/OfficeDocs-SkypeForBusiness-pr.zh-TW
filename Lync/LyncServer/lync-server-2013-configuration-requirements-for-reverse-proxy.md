@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：反向 proxy 的配置需求
+title: Lync Server 2013： 設定反向 proxy 需求
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541518
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 37a2a535ddaa90efa2f4140236b52788fa58e41a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: efa0124bb66974755a7cae0ab799dc66cc48fd1e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741373"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42040531"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuration-requirements-for-reverse-proxy-in-lync-server-2013"></a>Lync Server 2013 中的反向 proxy 設定需求
+# <a name="configuration-requirements-for-reverse-proxy-in-lync-server-2013"></a>Lync Server 2013 中的反向 proxy 的設定需求
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41741373"
 
 <span> </span>
 
-_**主題上次修改日期：** 2013-03-05_
+_**上次修改主題：** 2013年-03-05_
 
-Lync Server 2013 對來自外部用戶端的通訊有一些需求，就是傳送到主管、主管池、前端伺服器或頂層端池所託管的外部 Web 服務。 如果您是向使用者提供會議，則反向 proxy 也負責發佈 Office Web Apps 伺服器。
+Lync Server 2013 施加在從外部用戶端的通訊，然後傳遞至 Director 集區、 前端伺服器或前端集區裝載在 Director 上的外部 Web 服務上的一些需求。 如果您為使用者提供了會議，也是負責發佈 Office Web Apps Server，反向 proxy。
 
 <div>
 
 
 > [!NOTE]  
-> Lync Server 2013 不會指定您必須使用的特定反向 proxy。 Lync Server 2013 只定義反向 proxy 必須能夠執行的操作需求。 通常，您已在您的基礎結構中部署的反向 proxy 可能能夠滿足需求。
+> Lync Server 2013 不指定特定的反向 proxy，您必須使用。 Lync Server 2013 只定義反向 proxy 必須能夠執行的作業需求。 一般而言，您已部署在您的基礎結構中的反向 proxy 可能無法符合需求。
 
 
 
@@ -53,29 +53,29 @@ Lync Server 2013 對來自外部用戶端的通訊有一些需求，就是傳送
 
 ## <a name="reverse-proxy-requirements"></a>反向 Proxy 需求
 
-Lync Server 2013 預期要執行反向 proxy 的功能作業如下：
+Lync Server 2013 預期的反向 proxy，以執行的功能作業包括：
 
-  - 使用安全通訊端層（SSL）和傳輸層安全性（TLS），方法是使用從公用憑證授權單位取得的憑證連線至主管、主管池、前端伺服器或頂層端池的已發佈外部 Web 服務。 控制器和前端伺服器可以在負載平衡的池中使用硬體負載平衡器。
+  - 使用安全通訊端層 (SSL) 和傳輸層安全性 (TLS) 連線至已發行外部 Web 服務 Director 的 Director 集區、 前端伺服器或前端集區使用公用憑證授權單位取得憑證來實作。 Director 與前端伺服器可以使用硬體負載平衡器是負載平衡集區中。
 
-  - 如果需要，您可以使用憑證來發佈內部網站，或以未加密的方式發佈它們。
+  - 能夠發佈內部網路網站使用的憑證進行加密，或將它們發行透過未加密的方法，如有需要。
 
-  - 您可以使用完整的功能變數名稱（FQDN），在外部發佈內部託管的網站。
+  - 用以發佈內部代管的網站外部使用的完整的網域名稱 (FQDN)。
 
-  - 能夠發佈託管網站的所有內容。 根據預設，您可以使用** / **此指令，大多數的 web 伺服器都會辨識此指示，表示「在 web 伺服器上發佈所有內容」。 您也可以修改指令（例如 **/Uwca/\***），這表示「在虛擬目錄 Ucwa 中發佈所有內容」。
+  - 用以發佈主控網站的所有內容。 根據預設，您可以使用**/** 指示詞，大部分的網頁伺服器辨識表示 「 發佈網頁伺服器上的所有內容 」。 您也可以修改指示詞 — 例如， **/Uwca/\***，這表示 「 發佈虛擬目錄 Ucwa 下的所有內容。 」
 
-  - 必須可設定為需要安全通訊端層（SSL）與/或傳輸層安全性（TLS）連線至從已發佈網站要求內容的用戶端。
+  - 必須是可設定為需要與用戶端要求內容從發佈網站的 Secure Sockets Layer (SSL) 和/或傳輸層安全性 (TLS) 連線。
 
-  - 必須接受使用 [消費者備用名稱（SAN）] 專案的憑證。
+  - 必須接受憑證主體替代名稱 (SAN) 項目。
 
-  - 必須能夠將憑證系結到偵聽程式或介面，才能透過外部 web 服務 FQDN 解析。 偵聽程式設定優於介面。 許多監聽器可以在單一介面上設定。
+  - 必須能夠允許的接聽程式或外部 web 服務 FQDN 會解析透過的介面的憑證繫結。 接聽程式的設定會優先於介面。 許多接聽程式可以在單一介面上設定。
 
-  - 必須允許主機標頭處理的設定。 通常，由要求用戶端傳送的原始主機標頭必須透明地傳遞，而不是由反向 proxy 進行修改。
+  - 必須允許主機標頭處理的設定。 通常，必須無障礙，傳遞要求的用戶端所傳送的原始主機標頭而非要修改的反向 proxy。
 
-  - 將 SSL 和 TLS 流量從一個外部定義的埠（例如，TCP 443）橋接到另一個已定義的埠（例如，TCP 4443）。 反向 proxy 可能會在接收時解密資料包，然後在傳送時 reencrypt 該資料包。
+  - 從一個的 SSL 和 TLS 流量的外部橋接至另一個定義的連接埠 (例如，TCP 4443) 定義連接埠 (例如，TCP 443)。 反向 proxy 可能解密在收到封包，然後重新加密上傳送的封包。
 
-  - 從一個埠（例如 tcp 80）到另一個埠（例如，TCP 8080）橋接未加密的 TCP 流量。
+  - 從一個連接埠 (例如，TCP 80) 未加密的 TCP 流量，（例如，TCP 8080） 之間的橋接。
 
-  - 允許設定或接受 NTLM 驗證，無驗證與傳遞驗證。
+  - 允許組態，或接受，NTLM 驗證不驗證並通過驗證。
 
 </div>
 

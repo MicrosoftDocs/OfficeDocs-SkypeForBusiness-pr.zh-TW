@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：由網域準備所做的變更
+title: Lync Server 2013： 網域準備所進行的變更
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184845
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cbdd1fa1fbb5bd7a396e17f478326a9e4dd700f8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fb693f79470e7d68a1aaf662c9ab82b8bafa5c39
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730103"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037253"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="changes-made-by-domain-preparation-in-lync-server-2013"></a>在 Lync Server 2013 中由網域準備所做的變更
+# <a name="changes-made-by-domain-preparation-in-lync-server-2013"></a>Lync Server 2013 中的網域準備所進行的變更
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41730103"
 
 <span> </span>
 
-_**主題上次修改日期：** 2010-10-18_
+_**主題上次修改日期：** 2010年-10-18_
 
-下表列出網域準備在網域根目錄上建立的存取控制專案（Ace）。 除非另有說明，否則所有 Ace 都是繼承的。
+下表列出網域準備作業會建立在網域根目錄存取控制項目 (Ace)。 除非另有說明，是繼承而來的所有 Ace。
 
 <div id="sectionSection0" class="section">
 
-### <a name="aces-added-to-domain-root"></a>加入到網域根目錄的 Ace
+### <a name="aces-added-to-domain-root"></a>新增到網域根目錄的 Ace
 
 <table style="width:100%;">
 <colgroup>
@@ -54,89 +54,73 @@ _**主題上次修改日期：** 2010-10-18_
 </colgroup>
 <thead>
 <tr class="header">
-<th>A</th>
-<th>RTCUniversal-UserReadOnly-群組</th>
-<th>RTCUniversal-ServerReadOnly-群組</th>
-<th>RTCUniversal-UserAdmins</th>
-<th>RTCHSUniversal-服務</th>
-<th>已驗證-使用者</th>
+<th>ACE</th>
+<th>RTCUniversal UserReadOnly 群組</th>
+<th>RTCUniversal ServerReadOnly 群組</th>
+<th>RTCUniversal UserAdmins</th>
+<th>RTCHSUniversal 服務</th>
+<th>驗證使用者</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>讀取容器（不是繼承的）</p></td>
-<td><p><strong>是的</strong></p></td>
-<td><p><strong>是的</strong></p></td>
+<td><p>讀取容器 （非繼承的）</p></td>
+<td><p><strong>是</strong></p></td>
+<td><p><strong>是</strong></p></td>
 <td><p>否</p></td>
 <td><p>否</p></td>
 <td><p>否</p></td>
 </tr>
 <tr class="even">
-<td><p>讀取使用者 PropertySet 使用者帳戶-限制</p></td>
-<td><p><strong>是的</strong></p></td>
+<td><p>讀取使用者 User-account-restrictions 帳戶限制</p></td>
+<td><p><strong>是</strong></p></td>
 <td><p>否</p></td>
 <td><p>否</p></td>
 <td><p>否</p></td>
 <td><p>否</p></td>
 </tr>
 <tr class="odd">
-<td><p>閱讀使用者 PropertySet 個人資訊</p></td>
-<td><p><strong>是的</strong></p></td>
+<td><p>讀取使用者 Personal-information</p></td>
+<td><p><strong>是</strong></p></td>
 <td><p>否</p></td>
 <td><p>否</p></td>
 <td><p>否</p></td>
 <td><p>否</p></td>
 </tr>
 <tr class="even">
-<td><p>閱讀使用者 PropertySet 一般資訊</p></td>
-<td><p><strong>是的</strong></p></td>
+<td><p>讀取使用者 General-information</p></td>
+<td><p><strong>是</strong></p></td>
 <td><p>否</p></td>
 <td><p>否</p></td>
 <td><p>否</p></td>
 <td><p>否</p></td>
 </tr>
 <tr class="odd">
-<td><p>讀取使用者 PropertySet 公用資訊</p></td>
-<td><p><strong>是的</strong></p></td>
+<td><p>讀取使用者 Public-information</p></td>
+<td><p><strong>是</strong></p></td>
 <td><p>否</p></td>
 <td><p>否</p></td>
 <td><p>否</p></td>
 <td><p>否</p></td>
 </tr>
 <tr class="even">
-<td><p>讀取使用者 PropertySet RTCUserSearchProperty-設定</p></td>
-<td><p><strong>是的</strong></p></td>
+<td><p>讀取使用者屬性集 Rtcusersearchproperty-set</p></td>
+<td><p><strong>是</strong></p></td>
 <td><p>否</p></td>
 <td><p>否</p></td>
 <td><p>否</p></td>
 <td><p><strong>是</strong></p></td>
 </tr>
 <tr class="odd">
-<td><p>讀取使用者 PropertySet RTCPropertySet</p></td>
-<td><p><strong>是的</strong></p></td>
+<td><p>讀取使用者屬性集 RTCPropertySet</p></td>
+<td><p><strong>是</strong></p></td>
 <td><p>否</p></td>
 <td><p>否</p></td>
 <td><p>否</p></td>
 <td><p>否</p></td>
 </tr>
 <tr class="even">
-<td><p>撰寫使用者屬性 Proxy-位址</p></td>
-<td><p>否</p></td>
-<td><p>否</p></td>
-<td><p><strong>是</strong></p></td>
-<td><p>否</p></td>
-<td><p>否</p></td>
-</tr>
-<tr class="odd">
-<td><p>撰寫使用者 PropertySet RTCUserSearchProperty-設定</p></td>
-<td><p>否</p></td>
-<td><p>否</p></td>
-<td><p><strong>是</strong></p></td>
-<td><p>否</p></td>
-<td><p>否</p></td>
-</tr>
-<tr class="even">
-<td><p>撰寫使用者 PropertySet RTCPropertySet</p></td>
+<td><p>寫入使用者屬性 Proxy-addresses</p></td>
 <td><p>否</p></td>
 <td><p>否</p></td>
 <td><p><strong>是</strong></p></td>
@@ -144,20 +128,36 @@ _**主題上次修改日期：** 2010-10-18_
 <td><p>否</p></td>
 </tr>
 <tr class="odd">
-<td><p>讀取 PropertySet DS-複製-變更所有 Active Directory 物件</p></td>
-<td><p>否</p></td>
+<td><p>寫入使用者屬性集 Rtcusersearchproperty-set</p></td>
 <td><p>否</p></td>
 <td><p>否</p></td>
 <td><p><strong>是</strong></p></td>
 <td><p>否</p></td>
+<td><p>否</p></td>
+</tr>
+<tr class="even">
+<td><p>寫入使用者屬性集 RTCPropertySet</p></td>
+<td><p>否</p></td>
+<td><p>否</p></td>
+<td><p><strong>是</strong></p></td>
+<td><p>否</p></td>
+<td><p>否</p></td>
+</tr>
+<tr class="odd">
+<td><p>讀取屬性 DS-複寫的 Get-變更的所有 Active Directory 物件</p></td>
+<td><p>否</p></td>
+<td><p>否</p></td>
+<td><p>否</p></td>
+<td><p><strong>是</strong></p></td>
+<td><p>無</p></td>
 </tr>
 </tbody>
 </table>
 
 
-下表列出了網域準備在三個內建容器中建立的 Ace：使用者、電腦及網網域控制站。 除非另有說明，否則所有 Ace 都是繼承的。
+下表列出網域準備會在三個內建容器中建立之 Ace： 使用者、 電腦和網域控制站。 除非另有說明，是繼承而來的所有 Ace。
 
-### <a name="aces-added-to-built-in-containers"></a>加入到內建容器中的 Ace
+### <a name="aces-added-to-built-in-containers"></a>新增到內建容器的 Ace
 
 <table>
 <colgroup>
@@ -167,16 +167,16 @@ _**主題上次修改日期：** 2010-10-18_
 </colgroup>
 <thead>
 <tr class="header">
-<th>A</th>
-<th>RTCUniversal-UserReadOnly-群組</th>
-<th>RTCUniversal-ServerReadOnly-群組</th>
+<th>ACE</th>
+<th>RTCUniversal UserReadOnly 群組</th>
+<th>RTCUniversal ServerReadOnly 群組</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>讀取容器（不是繼承的）</p></td>
-<td><p><strong>是的</strong></p></td>
-<td><p><strong>是的</strong></p></td>
+<td><p>讀取容器 （非繼承的）</p></td>
+<td><p><strong>是</strong></p></td>
+<td><p><strong>是</strong></p></td>
 </tr>
 </tbody>
 </table>

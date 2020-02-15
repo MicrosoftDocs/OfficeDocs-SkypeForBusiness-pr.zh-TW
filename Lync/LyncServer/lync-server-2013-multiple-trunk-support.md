@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：支援多個主幹
+title: Lync Server 2013： 多個主幹支援
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184948
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9d13ca1a28fd28a6d280ddf3a18e57e09376e668
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4a2f8e9bea40532486d75e76887e35b496df8631
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765954"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42039126"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="multiple-trunk-support-in-lync-server-2013"></a>Lync Server 2013 中有多個中繼支援
+# <a name="multiple-trunk-support-in-lync-server-2013"></a>Lync Server 2013 中的多個主幹支援
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41765954"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-11-01_
+_**主題上次修改日期：** 2012年-11-01_
 
-Lync Server 2013 功能支援閘道與中繼伺服器之間的多個關聯性。 這些關聯是透過定義幹線來建立的，這是中繼伺服器池與公用交換式電話網絡（PSTN）閘道、會話邊界控制器（SBC）或 IP PBX 之間的邏輯關聯。 使用 [拓撲建立器]，將閘道與中繼伺服器（也就是 trunks）建立關聯。
+Lync Server 2013 功能可支援多個閘道與中繼伺服器之間的關聯。 這些關聯中所定義的主幹，也就是邏輯關聯的中繼伺服器集區與公用交換的電話網路 (PSTN) 閘道、 工作階段邊界控制器 (SBC) 或 IP PBX 之間進行。 使用拓撲產生器來使閘道與中繼伺服器 （也就是主幹） 產生關聯。
 
-  - 若要在 Lync Server 2013 中指派或移除主幹，您必須先在拓撲建立器中定義主幹。 主幹包含下列關聯：中繼伺服器的完整功能變數名稱（FQDN）、中繼伺服器偵聽埠、閘道 FQDN，以及閘道偵聽埠。
+  - 若要指派或移除 Lync Server 2013 中的主幹，您必須先在拓撲產生器中定義主幹。 主幹所組成的下列關聯： 中繼伺服器的完整網域名稱 (FQDN)，中繼伺服器的聆聽連接埠、 閘道的 FQDN、 閘道聆聽連接埠。
 
-  - 若要設定多個 trunks，您可以在同一個閘道與中繼伺服器之間建立多個關聯性。 這可為企業語音結構提供額外的復原能力，這在私人分支 exchange （PBX） interoperational 案例中特別有用。
+  - 若要設定多個主幹，您可以建立多個相同的閘道與中繼伺服器之間的關聯。 這可提供其他企業語音基礎結構，也就是在專用交換機 (pbx) interoperational 案例特別有用。
 
-定義主幹時，必須與路由建立關聯。 若要將主幹與路線建立關聯，您可以在 [拓撲建立器] 中定義主幹的簡單名稱。 這個簡單的名稱是在 Lync Server [控制台] 中用來做為幹線名稱，其中 trunks 可以與路由建立關聯。 簡單的主幹名稱是從 Lync Server 管理命令介面的閘道名稱使用。
+定義主幹時，它必須與路由相關聯。 若要建立關聯的主幹路由，請您可以定義主幹的簡單名稱在拓撲產生器。 Lync Server Control Panel，其中主幹可以與路由相關聯的主幹名稱使用這個簡單的名稱。 簡單的主幹名稱會當做 Lync Server 管理命令介面的閘道名稱。
 
     New-CsVoiceRoute -Identity <RouteId> -NumberPattern <String> -PstnUsages @{add="<UsageString>"} -PstnGatewayList @{add="<TrunkSimpleName>"}
 
-系統管理員必須選取與中繼伺服器相關聯的預設主幹。 從拓撲建立器，以滑鼠右鍵按一下關聯的中繼伺服器，然後按一下 [**屬性**]。 指定中繼伺服器的預設閘道。
+系統管理員必須先選取預設主幹相關聯的中繼伺服器。 從 [拓撲產生器相關聯的中繼伺服器，以滑鼠右鍵按一下，然後按一下 [**內容**。 指定中繼伺服器的預設閘道。
 
-下圖說明針對每個中繼伺服器和閘道定義的多個 trunks。
+下圖說明針對每個中繼伺服器和閘道定義的多個主幹。
 
-**M-N 幹線路由**
+**M-N 主幹路由**
 
-![多重主幹指派。](images/JJ205127.c61cd9a7-d8d9-4e02-83b9-ab62519a48c4(OCS.15).jpg "多重主幹指派。")
+![多個主幹工作分派。](images/JJ205127.c61cd9a7-d8d9-4e02-83b9-ab62519a48c4(OCS.15).jpg "多個主幹工作分派。")
 
 </div>
 

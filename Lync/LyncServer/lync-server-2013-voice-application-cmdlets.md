@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：語音應用程式 Cmdlet
+title: Lync Server 2013： 語音應用程式 cmdlet
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183404
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 895a61ef12eec2ceef8f994b1d0b9ba1e529c840
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 88c8f14e75a29a6eb17d735bdb9f82819f94f4db
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757197"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041801"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="voice-application-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的語音應用程式 Cmdlet
+# <a name="voice-application-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的語音應用程式 cmdlet
 
 </div>
 
@@ -35,265 +35,265 @@ ms.locfileid: "41757197"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-09_
+_**主題上次修改日期：** 2012年-10-09_
 
-語音應用程式在前端伺服器上的應用程式服務上執行。 這些應用程式可讓您撥打來電、處理未指派的號碼、與 Exchange 整合訊息（UM），以及執行回應群組應用程式，協助您管理來電和撥出電話。
+語音應用程式會執行於前端伺服器上的應用程式服務。 這些應用程式可協助您管理傳入和傳出的通話可讓您駐留通話、 處理未指派的數字，座標與 Exchange 整合通訊 (UM)，並執行回應群組應用程式。
 
 <div>
 
 ## <a name="voice-application-cmdlets"></a>語音應用程式 Cmdlet
 
-以下是用來處理語音應用程式的 Cmdlet 清單：
+下列是處理語音應用程式的 Cmdlet 清單：
 
-**[在 Lync Server 2013 中通話駐留應用程式 Cmdlet](lync-server-2013-call-park-application-cmdlets.md)**
-
-  - <span></span>  
-    [CsCallParkOrbit](https://technet.microsoft.com/en-us/library/Gg398554(v=OCS.15))
+**[Lync Server 2013 中的通話駐留應用程式 cmdlet](lync-server-2013-call-park-application-cmdlets.md)**
 
   - <span></span>  
-    [新-CsCallParkOrbit](https://technet.microsoft.com/en-us/library/Gg398936(v=OCS.15))
+    [Get-cscallparkorbit](https://technet.microsoft.com/library/Gg398554(v=OCS.15))
 
   - <span></span>  
-    [移除-CsCallParkOrbit](https://technet.microsoft.com/en-us/library/Gg412901(v=OCS.15))
+    [新 CsCallParkOrbit](https://technet.microsoft.com/library/Gg398936(v=OCS.15))
 
   - <span></span>  
-    [Set-CsCallParkOrbit](https://technet.microsoft.com/en-us/library/Gg398796(v=OCS.15))
+    [Remove-cscallparkorbit](https://technet.microsoft.com/library/Gg412901(v=OCS.15))
+
+  - <span></span>  
+    [設定 CsCallParkOrbit](https://technet.microsoft.com/library/Gg398796(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Set-CsCallParkServiceMusicOnHoldFile](https://technet.microsoft.com/en-us/library/Gg412836(v=OCS.15))
+    [Set-cscallparkservicemusiconholdfile](https://technet.microsoft.com/library/Gg412836(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [CsCpsConfiguration](https://technet.microsoft.com/en-us/library/Gg398948(v=OCS.15))
+    [取得 CsCpsConfiguration](https://technet.microsoft.com/library/Gg398948(v=OCS.15))
 
   - <span></span>  
-    [新-CsCpsConfiguration](https://technet.microsoft.com/en-us/library/Gg412919(v=OCS.15))
+    [新 CsCpsConfiguration](https://technet.microsoft.com/library/Gg412919(v=OCS.15))
 
   - <span></span>  
-    [移除-CsCpsConfiguration](https://technet.microsoft.com/en-us/library/Gg398358(v=OCS.15))
+    [移除 CsCpsConfiguration](https://technet.microsoft.com/library/Gg398358(v=OCS.15))
 
   - <span></span>  
-    [Set-CsCpsConfiguration](https://technet.microsoft.com/en-us/library/Gg412721(v=OCS.15))
+    [Set-cscpsconfiguration](https://technet.microsoft.com/library/Gg412721(v=OCS.15))
 
-**[Lync Server 2013 中的 Exchange UM Cmdlet](lync-server-2013-exchange-um-cmdlets.md)**
-
-  - <span></span>  
-    [CsExUmContact](https://technet.microsoft.com/en-us/library/Gg412725(v=OCS.15))
+**[Exchange UM Lync Server 2013 中的 cmdlet](lync-server-2013-exchange-um-cmdlets.md)**
 
   - <span></span>  
-    [移動流覽 CsExUmContact](https://technet.microsoft.com/en-us/library/Gg425842(v=OCS.15))
+    [Get-csexumcontact](https://technet.microsoft.com/library/Gg412725(v=OCS.15))
 
   - <span></span>  
-    [新-CsExUmContact](https://technet.microsoft.com/en-us/library/Gg398139(v=OCS.15))
+    [Move-csexumcontact](https://technet.microsoft.com/library/Gg425842(v=OCS.15))
 
   - <span></span>  
-    [移除-CsExUmContact](rehttps://technet.microsoft.com/en-us/library/Gg425842(v=OCS.15))
+    [New-csexumcontact](https://technet.microsoft.com/library/Gg398139(v=OCS.15))
 
   - <span></span>  
-    [Set-CsExUmContact](https://technet.microsoft.com/en-us/library/Gg412944(v=OCS.15))
+    [移除 Get-csexumcontact](rehttps://technet.microsoft.com/library/Gg425842(v=OCS.15))
+
+  - <span></span>  
+    [Set-csexumcontact](https://technet.microsoft.com/library/Gg412944(v=OCS.15))
 
 <!-- end list -->
 
-  - [Test-CsExStorageConnectivity](https://technet.microsoft.com/en-us/library/JJ204740(v=OCS.15))
+  - [Test-csexstorageconnectivity](https://technet.microsoft.com/library/JJ204740(v=OCS.15))
 
 <!-- end list -->
 
-  - [Test-CsExStorageNotification](https://technet.microsoft.com/en-us/library/JJ205331(v=OCS.15))
+  - [Test-csexstoragenotification](https://technet.microsoft.com/library/JJ205331(v=OCS.15))
 
 <!-- end list -->
 
-  - [Test-CsExUMConnectivity](https://technet.microsoft.com/en-us/library/JJ204784(v=OCS.15))
+  - [Test-csexumconnectivity](https://technet.microsoft.com/library/JJ204784(v=OCS.15))
 
 <!-- end list -->
 
-  - [Test-CsExUMVoiceMail](https://technet.microsoft.com/en-us/library/JJ205058(v=OCS.15))
-
-<!-- end list -->
-
-  - <span></span>  
-    [CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/Gg398348(v=OCS.15))
-
-  - <span></span>  
-    [授與 CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/Gg412829(v=OCS.15))
-
-  - <span></span>  
-    [新-CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/Gg398653(v=OCS.15))
-
-  - <span></span>  
-    [移除-CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/Gg398211(v=OCS.15))
-
-  - <span></span>  
-    [Set-CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/Gg412722(v=OCS.15))
-
-**[Lync Server 2013 中的回應群組應用程式 Cmdlet](lync-server-2013-response-group-application-cmdlets.md)**
-
-  - <span></span>  
-    [CsRgsAgentGroup](https://technet.microsoft.com/en-us/library/Gg425793(v=OCS.15))
-
-  - <span></span>  
-    [新-CsRgsAgentGroup](https://technet.microsoft.com/en-us/library/Gg413065(v=OCS.15))
-
-  - <span></span>  
-    [移除-CsRgsAgentGroup](https://technet.microsoft.com/en-us/library/Gg398969(v=OCS.15))
-
-  - <span></span>  
-    [Set-CsRgsAgentGroup](https://technet.microsoft.com/en-us/library/Gg425955(v=OCS.15))
+  - [Test-csexumvoicemail](https://technet.microsoft.com/library/JJ205058(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [新-CsRgsAnswer](https://technet.microsoft.com/en-us/library/Gg412812(v=OCS.15))
+    [Get-cshostedvoicemailpolicy](https://technet.microsoft.com/library/Gg398348(v=OCS.15))
+
+  - <span></span>  
+    [授與 CsHostedVoicemailPolicy](https://technet.microsoft.com/library/Gg412829(v=OCS.15))
+
+  - <span></span>  
+    [新 CsHostedVoicemailPolicy](https://technet.microsoft.com/library/Gg398653(v=OCS.15))
+
+  - <span></span>  
+    [移除 CsHostedVoicemailPolicy](https://technet.microsoft.com/library/Gg398211(v=OCS.15))
+
+  - <span></span>  
+    [Set-cshostedvoicemailpolicy](https://technet.microsoft.com/library/Gg412722(v=OCS.15))
+
+**[Lync Server 2013 中的回應群組應用程式 cmdlet](lync-server-2013-response-group-application-cmdlets.md)**
+
+  - <span></span>  
+    [Get-csrgsagentgroup](https://technet.microsoft.com/library/Gg425793(v=OCS.15))
+
+  - <span></span>  
+    [New-csrgsagentgroup](https://technet.microsoft.com/library/Gg413065(v=OCS.15))
+
+  - <span></span>  
+    [Remove-csrgsagentgroup](https://technet.microsoft.com/library/Gg398969(v=OCS.15))
+
+  - <span></span>  
+    [設定 CsRgsAgentGroup](https://technet.microsoft.com/library/Gg425955(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [匯入-CsRgsAudioFile](https://technet.microsoft.com/en-us/library/Gg412830(v=OCS.15))
+    [新 CsRgsAnswer](https://technet.microsoft.com/library/Gg412812(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [新-CsRgsCallAction](https://technet.microsoft.com/en-us/library/Gg398136(v=OCS.15))
+    [Import-csrgsaudiofile](https://technet.microsoft.com/library/Gg412830(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Export-CsRgsConfiguration](https://technet.microsoft.com/en-us/library/JJ205011(v=OCS.15))
-
-  - <span></span>  
-    [CsRgsConfiguration](https://technet.microsoft.com/en-us/library/Gg412762(v=OCS.15))
-
-  - <span></span>  
-    [匯入-CsRgsConfiguration](https://technet.microsoft.com/en-us/library/JJ205245(v=OCS.15))
-
-  - <span></span>  
-    [Move-CsRgsConfiguration](https://technet.microsoft.com/en-us/library/Gg398782(v=OCS.15))
-
-  - <span></span>  
-    [Set-CsRgsConfiguration](https://technet.microsoft.com/en-us/library/Gg425728(v=OCS.15))
+    [新 CsRgsCallAction](https://technet.microsoft.com/library/Gg398136(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [新-CsRgsHoliday](https://technet.microsoft.com/en-us/library/Gg398075(v=OCS.15))
+    [Export-csrgsconfiguration](https://technet.microsoft.com/library/JJ205011(v=OCS.15))
+
+  - <span></span>  
+    [Get-csrgsconfiguration](https://technet.microsoft.com/library/Gg412762(v=OCS.15))
+
+  - <span></span>  
+    [Import-csrgsconfiguration](https://technet.microsoft.com/library/JJ205245(v=OCS.15))
+
+  - <span></span>  
+    [Move-csrgsconfiguration](https://technet.microsoft.com/library/Gg398782(v=OCS.15))
+
+  - <span></span>  
+    [Set-csrgsconfiguration](https://technet.microsoft.com/library/Gg425728(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsRgsHolidaySet](https://technet.microsoft.com/en-us/library/Gg412983(v=OCS.15))
-
-  - <span></span>  
-    [New-CsRgsHolidaySet](https://technet.microsoft.com/en-us/library/Gg398403(v=OCS.15))
-
-  - <span></span>  
-    [Remove-CsRgsHolidaySet](https://technet.microsoft.com/en-us/library/Gg398521(v=OCS.15))
-
-  - <span></span>  
-    [Set-CsRgsHolidaySet](https://technet.microsoft.com/en-us/library/Gg398736(v=OCS.15))
+    [New-csrgsholiday](https://technet.microsoft.com/library/Gg398075(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [CsRgsHoursOfBusiness](https://technet.microsoft.com/en-us/library/Gg398284(v=OCS.15))
+    [Get-csrgsholidayset](https://technet.microsoft.com/library/Gg412983(v=OCS.15))
 
   - <span></span>  
-    [新-CsRgsHoursOfBusiness](https://technet.microsoft.com/en-us/library/Gg398291(v=OCS.15))
+    [New-csrgsholidayset](https://technet.microsoft.com/library/Gg398403(v=OCS.15))
 
   - <span></span>  
-    [移除-CsRgsHoursOfBusiness](https://technet.microsoft.com/en-us/library/Gg398568(v=OCS.15))
+    [Remove-csrgsholidayset](https://technet.microsoft.com/library/Gg398521(v=OCS.15))
 
   - <span></span>  
-    [Set-CsRgsHoursOfBusiness](https://technet.microsoft.com/en-us/library/Gg412929(v=OCS.15))
+    [設定 CsRgsHolidaySet](https://technet.microsoft.com/library/Gg398736(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [新-CsRgsPrompt](https://technet.microsoft.com/en-us/library/Gg398486(v=OCS.15))
+    [Get-csrgshoursofbusiness](https://technet.microsoft.com/library/Gg398284(v=OCS.15))
+
+  - <span></span>  
+    [新 CsRgsHoursOfBusiness](https://technet.microsoft.com/library/Gg398291(v=OCS.15))
+
+  - <span></span>  
+    [移除 CsRgsHoursOfBusiness](https://technet.microsoft.com/library/Gg398568(v=OCS.15))
+
+  - <span></span>  
+    [設定 CsRgsHoursOfBusiness](https://technet.microsoft.com/library/Gg412929(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [新-CsRgsQuestion](https://technet.microsoft.com/en-us/library/Gg398186(v=OCS.15))
+    [New-csrgsprompt](https://technet.microsoft.com/library/Gg398486(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [CsRgsQueue](https://technet.microsoft.com/en-us/library/Gg412759(v=OCS.15))
-
-  - <span></span>  
-    [新-CsRgsQueue](https://technet.microsoft.com/en-us/library/Gg398989(v=OCS.15))
-
-  - <span></span>  
-    [移除-CsRgsQueue](https://technet.microsoft.com/en-us/library/Gg398576(v=OCS.15))
-
-  - <span></span>  
-    [Set-CsRgsQueue](https://technet.microsoft.com/en-us/library/Gg412947(v=OCS.15))
+    [New-csrgsquestion](https://technet.microsoft.com/library/Gg398186(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [新-CsRgsTimeRange](https://technet.microsoft.com/en-us/library/Gg399040(v=OCS.15))
+    [Get-csrgsqueue](https://technet.microsoft.com/library/Gg412759(v=OCS.15))
+
+  - <span></span>  
+    [New-csrgsqueue](https://technet.microsoft.com/library/Gg398989(v=OCS.15))
+
+  - <span></span>  
+    [Remove-csrgsqueue](https://technet.microsoft.com/library/Gg398576(v=OCS.15))
+
+  - <span></span>  
+    [Set-csrgsqueue](https://technet.microsoft.com/library/Gg412947(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [CsRgsWorkflow](https://technet.microsoft.com/en-us/library/Gg425766(v=OCS.15))
-
-  - <span></span>  
-    [新-CsRgsWorkflow](https://technet.microsoft.com/en-us/library/Gg398246(v=OCS.15))
-
-  - <span></span>  
-    [移除-CsRgsWorkflow](https://technet.microsoft.com/en-us/library/Gg398765(v=OCS.15))
-
-  - <span></span>  
-    [Set-CsRgsWorkflow](https://technet.microsoft.com/en-us/library/Gg425845(v=OCS.15))
-
-**[Lync Server 2013 中的未分派數位 Cmdlet](lync-server-2013-unassigned-number-cmdlets.md)**
-
-  - <span></span>  
-    [CsUnassignedNumber](https://technet.microsoft.com/en-us/library/Gg412792(v=OCS.15))
-
-  - <span></span>  
-    [New-CsUnassignedNumber](https://technet.microsoft.com/en-us/library/Gg398651(v=OCS.15))
-
-  - <span></span>  
-    [移除-CsUnassignedNumber](https://technet.microsoft.com/en-us/library/Gg398209(v=OCS.15))
-
-  - <span></span>  
-    [Set-CsUnassignedNumber](https://technet.microsoft.com/en-us/library/Gg399033(v=OCS.15))
+    [New-csrgstimerange](https://technet.microsoft.com/library/Gg399040(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [CsAnnouncement](https://technet.microsoft.com/en-us/library/Gg398937(v=OCS.15))
+    [Get-csrgsworkflow](https://technet.microsoft.com/library/Gg425766(v=OCS.15))
 
   - <span></span>  
-    [新-CsAnnouncement](https://technet.microsoft.com/en-us/library/Gg398522(v=OCS.15))
+    [New-csrgsworkflow](https://technet.microsoft.com/library/Gg398246(v=OCS.15))
 
   - <span></span>  
-    [移除-CsAnnouncement](https://technet.microsoft.com/en-us/library/Gg412766(v=OCS.15))
+    [Remove-csrgsworkflow](https://technet.microsoft.com/library/Gg398765(v=OCS.15))
 
   - <span></span>  
-    [Set-CsAnnouncement](https://technet.microsoft.com/en-us/library/Gg425752(v=OCS.15))
+    [Set-csrgsworkflow](https://technet.microsoft.com/library/Gg425845(v=OCS.15))
+
+**[Lync Server 2013 中的未指派號碼 cmdlet](lync-server-2013-unassigned-number-cmdlets.md)**
+
+  - <span></span>  
+    [取得 CsUnassignedNumber](https://technet.microsoft.com/library/Gg412792(v=OCS.15))
+
+  - <span></span>  
+    [新 CsUnassignedNumber](https://technet.microsoft.com/library/Gg398651(v=OCS.15))
+
+  - <span></span>  
+    [移除 CsUnassignedNumber](https://technet.microsoft.com/library/Gg398209(v=OCS.15))
+
+  - <span></span>  
+    [Set-csunassignednumber](https://technet.microsoft.com/library/Gg399033(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [匯入-CsAnnouncementFile](https://technet.microsoft.com/en-us/library/Gg398472(v=OCS.15))
+    [取得 CsAnnouncement](https://technet.microsoft.com/library/Gg398937(v=OCS.15))
+
+  - <span></span>  
+    [新 CsAnnouncement](https://technet.microsoft.com/library/Gg398522(v=OCS.15))
+
+  - <span></span>  
+    [移除 CsAnnouncement](https://technet.microsoft.com/library/Gg412766(v=OCS.15))
+
+  - <span></span>  
+    [設定 CsAnnouncement](https://technet.microsoft.com/library/Gg425752(v=OCS.15))
+
+<!-- end list -->
+
+  - <span></span>  
+    [Import-csannouncementfile](https://technet.microsoft.com/library/Gg398472(v=OCS.15))
 
 </div>
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
-[Lync Server 2013 中的企業語音 Cmdlet](lync-server-2013-enterprise-voice-cmdlets.md)  
+[Lync Server 2013 中的 Enterprise Voice cmdlet](lync-server-2013-enterprise-voice-cmdlets.md)  
 
 
-[Lync Server PowerShell 博客](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+[Lync Server PowerShell 部落格](http://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

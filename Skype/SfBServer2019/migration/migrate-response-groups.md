@@ -10,54 +10,54 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 當您的使用者移至商務用 Skype Server 2019 池之後，您就可以遷移您的回應群組。 遷移回應群組包括複製代理群組、佇列、工作流程、音訊檔案，以及將回應群組連絡人物件從舊版部署移至商務用 Skype Server 2019 池。 在您遷移舊版回應群組之後，回應群組的呼叫會由商務用 Skype Server 2019 池中的回應群組應用程式來處理。 舊版池已不再處理回應群組的呼叫。
-ms.openlocfilehash: 9e7605daf92646e5bb53626eeed2371888bf9cb1
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 您的使用者移到 Skype for Business Server 2019 集區之後，您可以移轉回應群組。 移轉回應群組包含複製代理人群組、 佇列、 工作流程、 音訊檔案，並將回應群組連絡人物件從舊版部署移至 Skype for Business Server 2019 集區。 在移轉舊版回應群組之後，呼叫回應群組是由 Skype for Business Server 2019 集區的回應群組應用程式處理。 舊版集區不會再處理對回應群組的通話。
+ms.openlocfilehash: 2d439462fa103cc16fd7ae70b79364be7d79803a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41813461"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42016104"
 ---
 # <a name="migrate-response-groups"></a>移轉回應群組
 
-當您的使用者移至商務用 Skype Server 2019 池之後，您就可以遷移您的回應群組。 遷移回應群組包括複製代理群組、佇列、工作流程、音訊檔案，以及將回應群組連絡人物件從舊版部署移至商務用 Skype Server 2019 池。 在您遷移舊版回應群組之後，回應群組的呼叫會由商務用 Skype Server 2019 池中的回應群組應用程式來處理。 舊版池已不再處理回應群組的呼叫。
+您的使用者移到 Skype for Business Server 2019 集區之後，您可以移轉回應群組。 移轉回應群組包含複製代理人群組、 佇列、 工作流程、 音訊檔案，並將回應群組連絡人物件從舊版部署移至 Skype for Business Server 2019 集區。 在移轉舊版回應群組之後，呼叫回應群組是由 Skype for Business Server 2019 集區的回應群組應用程式處理。 舊版集區不會再處理對回應群組的通話。
   
 > [!NOTE]
-> 雖然您可以在將所有使用者移至商務用 Skype Server 2019 池之前先遷移回應群組，但我們建議您先移動所有使用者。 特別是，回應群組代理的使用者在移至商務用 Skype Server 2019 池之前，將不會有新功能的完整功能。 
+> 雖然您可以移轉回應群組，您將所有使用者都移至 Skype for Business Server 2019 集區之前，建議您先都移動所有使用者。 特別是，回應群組代理程式的使用者將不會有新功能的完整功能，直到他們移 skype for Business Server 2019 集區。 
   
-在您遷移回應群組之前，您必須已部署包含回應群組應用程式的商務用 Skype Server 2019 池。 當您部署企業語音時，系統會預設安裝並啟用回應群組應用程式。 您可以執行**CsService-ApplicationServer** Cmdlet，以確保已安裝回應群組應用程式。 
+移轉回應群組之前，您必須部署 Skype for Business Server 2019 集區，其中包含的回應群組應用程式。 回應群組應用程式已安裝並啟用根據預設，當您部署企業語音。 您可以確定回應群組應用程式安裝的是執行**Get-csservice ApplicationServer**指令程式。 
   
 > [!NOTE]
-> 在您遷移舊版回應群組之前，您可以在商務用 Skype Server 2019 池中建立新的商務用 Skype Server 2019 回應群組。 
+> 移轉舊版回應群組之前，您可以在 Skype for Business Server 2019 集區中建立新 Skype for Business Server 2019 的回應群組。 
   
-若要將回應群組從舊版池遷移到商務用 Skype Server 2019，您可以執行**CsRgsConfiguration** Cmdlet。 
+若要移轉回應群組從舊版集區用 skype for Business Server 2019，您可以執行**Move-csrgsconfiguration** cmdlet。 
   
 > [!IMPORTANT]
-> 回應群組遷移 Cmdlet 會移動整個池的回應群組設定。 您無法選取要遷移的特定群組、佇列或工作流程。 
+> 回應群組移轉 cmdlet 移動整個集區的回應群組組態。 您無法選取要移轉的特定群組、佇列或工作流程。 
   
-在您遷移回應群組之後，您必須使用商務用 Skype Server 的 [控制台] 或 [商務用 Skype 伺服器管理命令介面 Cmdlet]，確認所有代理群組、佇列和工作流程已順利移動。 
+在移轉回應群組之後，您需要使用 Skype 商務 Server Control Panel 或 Skype Business Server 管理命令介面指令程式來驗證所有代理人群組、 佇列及工作流程成功都移動。 
   
-當您遷移回應群組時，不會移除舊版回應群組。 如果您是使用商務用 Skype Server 控制台或商務用 Skype Server 管理命令介面，在遷移之後管理回應群組，您可以看到舊版回應群組和商務用 Skype Server 2019 回應群組。 您只能將更新套用到商務用 Skype Server 2019 回應群組。 舊版回應群組只會保留供回滾之用。 
+當您移轉回應群組時，不會移除舊版回應群組。 當您管理回應群組，您可以在移轉之後使用任一 Skype 商務 Server Control Panel 或 Skype for Business Server 管理命令介面時，您可以看到舊版回應群組與 Skype for Business Server 2019 的回應群組。 您應該更新僅適用於 Skype for Business Server 2019 的回應群組。 僅針對復原用途，會保留舊版回應群組。 
   
 > [!CAUTION]
-> 完成遷移並建立新的回應群組之後，商務用 Skype Server 的 [控制台] 和 [商務用 skype 伺服器] 管理命令介面會顯示舊版及商務用 Skype server 的2019版本。群組. 請勿使用商務用 Skype Server 的 [控制台] 或 [商務用 Skype 伺服器管理命令介面] 來移除舊版回應群組。 如果您移除其中一個專案，則在遷移期間建立的對應回應群組就會停止運作。 當您解除授權舊版池時，會移除舊版回應群組。 
+> Skype for Business Server Control Panel 與 Skype for Business Server 管理命令介面完成移轉，並已建立新的回應群組之後，會顯示傳統與 Skype for Business Server 2019 版本的每個回應群組。 請勿 Skype for Business Server Control Panel 或 Skype for Business Server 管理命令介面來移除舊版回應群組。 如果您不要移除其中，移轉期間所建立的對應回應群組會停止運作。 當您解除委任舊版集區時，將會移除舊版回應群組。 
   
 > [!IMPORTANT]
-> 我們建議您不要從先前的部署移除任何資料，除非您解除該池。 此外，我們強烈建議您在遷移後立即匯出回應群組。 如果傳統回應群組應該被移除，您可以從備份還原回應群組，以取得商務用 Skype Server 2019 回應群組再次執行。 
+> 建議集區解除委任之後，再移除先前部署的各項資料。 此外，強烈建議移轉後立即匯出回應群組。 如果應取得移除舊版回應群組，您就可以從 Skype 取得 Business Server 2019 的回應群組，再執行一次備份，然後還原您的回應群組。 
   
-商務用 Skype Server 2019 引入了稱為「**工作流程類型**」的新回應群組功能。 **工作流程類型**可以是**託管**或**非託管**。 [所有回應群組] 都將 [**工作流程類型**] 設定為 [**非託管**]，並使用空的管理員清單進行遷移 
+Skype 商務 Server 2019 引進新的回應群組功能，稱為**工作流程類型**。 **[工作流程類型]** 可以是 **[已管理]** 或 **[未管理]**。 移轉後的所有回應群組 **[工作流程類型] **都會設為 **[未管理]**，並附有一份空白的管理員清單。 
   
-當您執行**CsRgsConfiguration** Cmdlet 時，系統會在舊版池中保留代理群組、佇列、工作流程和音訊檔案，以供回滾之用。 不過，如果您需要回滾到舊版池，您必須執行**CsApplicationEndpoint** Cmdlet，以將連絡人物件移回舊版資源區。 
+執行 **Move-CsRgsConfiguration** Cmdlet 時，代理人群組、佇列、工作流程及音訊檔案都會保留在舊版集區供復原作業使用。 如果確實有必要復原舊版集區，必須執行 **Move-CsApplicationEndpoint** Cmdlet 才能將連絡人物件移動到舊版集區。 
   
-下列程式適用于遷移回應群組設定，假設您的舊版池與商務用 Skype Server 2019 池之間有一對一關聯性。 如果您打算在您的遷移和部署期間合併或分割池，您需要規劃哪些舊版池會對應到哪個商務用 Skype Server 2019 池。
+移轉回應群組組態的下列程序假設您在舊版的集區與 Skype for Business Server 2019 集區之間有一對一的關係。 如果您計劃合併或分割備份集區移轉和部署期間，您需要哪些舊版集區會對應至哪一個 Skype for Business Server 2019 集區的計劃。
   
-## <a name="to-migrate-response-group-configurations"></a>若要遷移回應群組設定
+## <a name="to-migrate-response-group-configurations"></a>移轉回應群組設定
 
-1. 以 RTCUniversalServerAdmins 群組成員的帳戶登入電腦，或擁有同等的系統管理員許可權和許可權。
+1. 使用 RTCUniversalServerAdmins 群組的成員帳戶，或具有等同於系統管理員權限的帳戶登入電腦。
     
-2. 啟動商務用 Skype Server 管理命令介面：按一下 [**開始**]，按一下 [**所有程式**]，按一下 [ **Microsoft 商務用 skype server 2019**]，然後按一下 [**商務用 skype server 管理命令**介面]。
+2. 啟動 Skype for Business Server 管理命令介面： 按一下 [**開始]**、 [**所有程式]**、 按一下**Microsoft Skype for Business Server 2019**，，然後按一下**Skype for Business Server 管理命令介面**。
     
-3. 用盡
+3. 執行：
     
    ```PowerShell
    Move-CsRgsConfiguration -Source <source pool FQDN> -Destination <destination pool FQDN>
@@ -69,56 +69,56 @@ ms.locfileid: "41813461"
    Move-CsRgsConfiguration -Source skype-old.contoso.net -Destination skype-new.contoso.net
    ```
 
-4. 在您將回應群組和代理程式遷移到商務用 Skype Server 2019 文件庫之後，代理程式用來登入和登出的 URL 就是商務用 Skype Server 2019 URL，且可從 [**工具**] 功能表取得。 提醒代理程式將任何參照（例如書簽）更新為新的 URL。 
+4. 在移轉 Skype for Business Server 2019 集區的回應群組和代理程式之後，代理程式用來登入和登出的 URL 是 Skype for Business Server 2019 URL，可從 [**工具**] 功能表。 請提醒代理人將書籤等任何參照更新到新的 URL。 
     
-## <a name="to-verify-response-group-migration-by-using-skype-for-business-server-control-panel"></a>使用商務用 Skype Server [控制台] 驗證回應群組遷移
+## <a name="to-verify-response-group-migration-by-using-skype-for-business-server-control-panel"></a>若要使用 Skype for Business Server 控制台驗證回應群組移轉
 
-1. 使用屬於 RTCUniversalReadOnlyAdmins 群組成員的帳戶登入電腦，或最少是 CsViewOnlyAdministrator 角色的成員。
+1. 使用 RTCUniversalReadOnlyAdmins 群組的成員帳戶，或至少必須是 CsViewOnlyAdministrator 角色之成員的帳戶登入電腦。
     
-2. 開啟瀏覽器視窗，然後輸入系統管理員 URL，開啟商務用 Skype Server 的 [控制台]。 如需可用於啟動商務用 Skype Server 控制台的不同方法的詳細資訊，請參閱[開啟商務用 Skype server 2019 系統管理工具](https://technet.microsoft.com/en-us/library/gg195741(v=ocs.15).aspx)。 
+2. 開啟瀏覽器視窗，，，然後輸入 Admin URL 以開啟 Skype for Business Server Control Panel。 如需您可以用來啟動 Skype for Business Server Control Panel 不同方法的詳細資訊，請參閱[開啟 Skype for Business Server 2019 系統管理工具](https://technet.microsoft.com/library/gg195741(v=ocs.15).aspx)。 
     <!-- The above link points to un-rebranded 2013 content we will need to discuss rebrand or bring forward -->
-3. 在左側功能窗格中，按一下 [**回應群組**]。
+3. 在左導覽列中，按一下 **[回應群組]**。
     
-4. 在 [**工作流程**] 索引標籤上，確認您的舊版環境中的所有工作流程都包含在清單中。 
+4. 在 [**工作流程**] 索引標籤，確認清單中包含舊版環境中的所有工作流程。 
     
-5. 按一下 [**佇列**] 索引標籤，並確認您的舊版環境中的所有佇列都包含在清單中。 
+5. 按一下 [**佇列**] 索引標籤，確認清單中包含舊版環境中的所有佇列。 
     
-6. 按一下 [**群組**] 索引標籤，並確認您的舊版環境中的所有代理群組都包含在清單中。 
+6. 按一下 [**群組**] 索引標籤，確認清單中包含舊版環境中的所有代理程式群組。 
     
-## <a name="to-verify-response-group-migration-by-using-skype-for-business-server-management-shell"></a>使用商務用 Skype Server Management Shell 驗證回應群組遷移
+## <a name="to-verify-response-group-migration-by-using-skype-for-business-server-management-shell"></a>若要使用 Skype for Business Server 管理命令介面驗證回應群組移轉
 
-1. 使用屬於 RTCUniversalReadOnlyAdmins 群組成員的帳戶登入電腦，或最少是 CsViewOnlyAdministrator 角色的成員。
+1. 使用 RTCUniversalReadOnlyAdmins 群組的成員帳戶，或至少必須是 CsViewOnlyAdministrator 角色之成員的帳戶登入電腦。
     
-2. 啟動商務用 Skype Server 管理命令介面：按一下 [**開始**]，按一下 [**所有程式**]，按一下 [ **Microsoft 商務用 skype server 2019**]，然後按一下 [**商務用 skype server 管理命令**介面]。
+2. 啟動 Skype for Business Server 管理命令介面： 按一下 [**開始]**、 [**所有程式]**、 按一下**Microsoft Skype for Business Server 2019**，，然後按一下**Skype for Business Server 管理命令介面**。
     
-    如需有關下列 Cmdlet 的詳細資訊，請執行：
+    如需下列 Cmdlet 的詳細資料，請執行：
     
    ```PowerShell
    Get-Help <cmdlet name> -Detailed
    ```
 
-3. 用盡
+3. 執行：
     
    ```PowerShell
    Get-CsRgsAgentGroup
    ```
 
-4. 確認您舊版環境中的所有代理群組都包含在清單中。
+4. 確認清單中包含舊版環境中的所有代理程式群組。
     
-5. 用盡
+5. 執行：
     
    ```PowerShell
    Get-CsRgsQueue
    ```
 
-6. 確認您的舊版環境中的所有佇列都包含在清單中。
+6. 確認清單中包含舊版環境中的所有佇列。
     
-7. 用盡
+7. 執行：
     
    ```PowerShell
    Get-CsRgsWorkflow
    ```
 
-8. 確認您的舊版環境中的所有工作流程都包含在清單中。
+8. 確認清單中包含舊版環境中的所有工作流程。
     
 

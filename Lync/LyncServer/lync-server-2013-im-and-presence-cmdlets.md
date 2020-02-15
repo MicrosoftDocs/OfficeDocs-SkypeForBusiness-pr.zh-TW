@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： IM 和目前狀態 Cmdlet
+title: 'Lync Server 2013: IM 和目前狀態 cmdlet'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184589
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0d96b8971bb25898e9e8b02403b0f8cd5447681c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7886300b49cfea014b04cca01c859852dcd74d9c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764033"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038785"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="im-and-presence-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的 IM 和目前狀態 Cmdlet
+# <a name="im-and-presence-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的 IM 和目前狀態 cmdlet
 
 </div>
 
@@ -35,138 +35,138 @@ ms.locfileid: "41764033"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-06-26_
+_**主題上次修改日期：** 2012年-06-26_
 
-立即訊息（IM）與目前狀態 Cmdlet 可讓您透過 Windows PowerShell 管理這些用戶端功能。 您可以針對全域、網站或每個使用者範圍，設定適用于使用者的目前狀態原則。 您也可以設定各種隱私權與 IM 功能。
+立即訊息 (IM) 和目前狀態的指令程式可讓您管理這些用戶端的功能，透過 Windows PowerShell。 您可以在全域、站台或個別使用者範圍設定使用者所適用的顯示狀態原則。 您也可以設定各種隱私權和 IM 功能。
 
 <div>
 
-## <a name="im-and-presence-cmdlets"></a>IM 和目前狀態 Cmdlet
+## <a name="im-and-presence-cmdlets"></a>IM 和顯示狀態 Cmdlet
 
-[設定 IM 和目前狀態] 使用下列 Cmdlet：
-
-  - <span></span>  
-    [Get-CsPresencePolicy](https://technet.microsoft.com/en-us/library/Gg398463(v=OCS.15))
+若要設定 IM 和顯示狀態，請使用下列 Cmdlet：
 
   - <span></span>  
-    [授與 CsPresencePolicy](https://technet.microsoft.com/en-us/library/Gg398571(v=OCS.15))
+    [Get-cspresencepolicy](https://technet.microsoft.com/library/Gg398463(v=OCS.15))
 
   - <span></span>  
-    [New-CsPresencePolicy](https://technet.microsoft.com/en-us/library/Gg412747(v=OCS.15))
+    [Grant-cspresencepolicy](https://technet.microsoft.com/library/Gg398571(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsPresencePolicy](https://technet.microsoft.com/en-us/library/Gg399070(v=OCS.15))
+    [New-cspresencepolicy](https://technet.microsoft.com/library/Gg412747(v=OCS.15))
 
   - <span></span>  
-    [Set-CsPresencePolicy](https://technet.microsoft.com/en-us/library/Gg425782(v=OCS.15))
+    [移除 CsPresencePolicy](https://technet.microsoft.com/library/Gg399070(v=OCS.15))
+
+  - <span></span>  
+    [Set-csmonitoringserver](https://technet.microsoft.com/library/Gg425782(v=OCS.15))
 
 <!-- end list -->
 
-  - [CsPresenceProvider](https://technet.microsoft.com/en-us/library/JJ204705(v=OCS.15))
+  - [Get-cspresenceprovider](https://technet.microsoft.com/library/JJ204705(v=OCS.15))
 
-  - [新-CsPresenceProvider](https://technet.microsoft.com/en-us/library/JJ204895(v=OCS.15))
+  - [New-cspresenceprovider](https://technet.microsoft.com/library/JJ204895(v=OCS.15))
 
-  - [移除-CsPresenceProvider](https://technet.microsoft.com/en-us/library/JJ205036(v=OCS.15))
+  - [Remove-cspresenceprovider](https://technet.microsoft.com/library/JJ205036(v=OCS.15))
 
-  - [Set-CsPresenceProvider](https://technet.microsoft.com/en-us/library/JJ204833(v=OCS.15))
-
-<!-- end list -->
-
-  - <span></span>  
-    [CsPrivacyConfiguration](https://technet.microsoft.com/en-us/library/Gg413002(v=OCS.15))
-
-  - <span></span>  
-    [新-CsPrivacyConfiguration](https://technet.microsoft.com/en-us/library/Gg398807(v=OCS.15))
-
-  - <span></span>  
-    [移除-CsPrivacyConfiguration](https://technet.microsoft.com/en-us/library/Gg425821(v=OCS.15))
-
-  - <span></span>  
-    [Set-CsPrivacyConfiguration](https://technet.microsoft.com/en-us/library/Gg398484(v=OCS.15))
+  - [Set-cspresenceprovider](https://technet.microsoft.com/library/JJ204833(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Set-CsUserServer](https://technet.microsoft.com/en-us/library/Gg413026(v=OCS.15))
+    [Get-csprivacyconfiguration](https://technet.microsoft.com/library/Gg413002(v=OCS.15))
+
+  - <span></span>  
+    [New-csprivacyconfiguration](https://technet.microsoft.com/library/Gg398807(v=OCS.15))
+
+  - <span></span>  
+    [移除 CsPrivacyConfiguration](https://technet.microsoft.com/library/Gg425821(v=OCS.15))
+
+  - <span></span>  
+    [Set-csprivacyconfiguration](https://technet.microsoft.com/library/Gg398484(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [CsUserServicesConfiguration](https://technet.microsoft.com/en-us/library/Gg398133(v=OCS.15))
-
-  - <span></span>  
-    [新-CsUserServicesConfiguration](https://technet.microsoft.com/en-us/library/Gg412926(v=OCS.15))
-
-  - <span></span>  
-    [移除-CsUserServicesConfiguration](https://technet.microsoft.com/en-us/library/Gg398722(v=OCS.15))
-
-  - <span></span>  
-    [Set-CsUserServicesConfiguration](https://technet.microsoft.com/en-us/library/Gg398340(v=OCS.15))
+    [設定 CsUserServer](https://technet.microsoft.com/library/Gg413026(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [CsFileTransferFilterConfiguration](https://technet.microsoft.com/en-us/library/Gg398527(v=OCS.15))
+    [Get-csuserservicesconfiguration](https://technet.microsoft.com/library/Gg398133(v=OCS.15))
 
   - <span></span>  
-    [新-CsFileTransferFilterConfiguration](https://technet.microsoft.com/en-us/library/Gg425897(v=OCS.15))
+    [New-csuserservicesconfiguration](https://technet.microsoft.com/library/Gg412926(v=OCS.15))
 
   - <span></span>  
-    [移除-CsFileTransferFilterConfiguration](https://technet.microsoft.com/en-us/library/Gg413064(v=OCS.15))
+    [移除 CsUserServicesConfiguration](https://technet.microsoft.com/library/Gg398722(v=OCS.15))
 
   - <span></span>  
-    [Set-CsFileTransferFilterConfiguration](https://technet.microsoft.com/en-us/library/Gg425736(v=OCS.15))
+    [Set-csuserservicesconfiguration](https://technet.microsoft.com/library/Gg398340(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [CsImFilterConfiguration](https://technet.microsoft.com/en-us/library/Gg398980(v=OCS.15))
+    [Get-csfiletransferfilterconfiguration](https://technet.microsoft.com/library/Gg398527(v=OCS.15))
 
   - <span></span>  
-    [新-CsImFilterConfiguration](https://technet.microsoft.com/en-us/library/Gg398244(v=OCS.15))
+    [New-csfiletransferfilterconfiguration](https://technet.microsoft.com/library/Gg425897(v=OCS.15))
 
   - <span></span>  
-    [移除-CsImFilterConfiguration](https://technet.microsoft.com/en-us/library/Gg398171(v=OCS.15))
+    [Remove-csfiletransferfilterconfiguration](https://technet.microsoft.com/library/Gg413064(v=OCS.15))
 
   - <span></span>  
-    [Set-CsImFilterConfiguration](https://technet.microsoft.com/en-us/library/Gg412960(v=OCS.15))
+    [Set-csfiletransferfilterconfiguration](https://technet.microsoft.com/library/Gg425736(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Test-CsGroupExpansion](https://technet.microsoft.com/en-us/library/Gg399009(v=OCS.15))
+    [Get-csimfilterconfiguration](https://technet.microsoft.com/library/Gg398980(v=OCS.15))
+
+  - <span></span>  
+    [新 CsImFilterConfiguration](https://technet.microsoft.com/library/Gg398244(v=OCS.15))
+
+  - <span></span>  
+    [移除 CsImFilterConfiguration](https://technet.microsoft.com/library/Gg398171(v=OCS.15))
+
+  - <span></span>  
+    [設定 CsImFilterConfiguration](https://technet.microsoft.com/library/Gg412960(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Test-CsGroupIM](https://technet.microsoft.com/en-us/library/Gg398273(v=OCS.15))
+    [Test-csgroupexpansion](https://technet.microsoft.com/library/Gg399009(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Test-CsIM](https://technet.microsoft.com/en-us/library/Gg425802(v=OCS.15))
+    [Test-csgroupim](https://technet.microsoft.com/library/Gg398273(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Test-CsP2PAV](https://technet.microsoft.com/en-us/library/Gg412821(v=OCS.15))
+    [Test-csim](https://technet.microsoft.com/library/Gg425802(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Test-CsPresence](https://technet.microsoft.com/en-us/library/Gg398148(v=OCS.15))
+    [Test-csp2pav](https://technet.microsoft.com/library/Gg412821(v=OCS.15))
+
+<!-- end list -->
+
+  - <span></span>  
+    [Test-cspresence](https://technet.microsoft.com/library/Gg398148(v=OCS.15))
 
 </div>
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
-[Lync Server 2013 中的用戶端管理 Cmdlet](lync-server-2013-client-management-cmdlets.md)  
+[Lync Server 2013 中的用戶端管理 cmdlet](lync-server-2013-client-management-cmdlets.md)  
 
 
-[Lync Server PowerShell 博客](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+[Lync Server PowerShell 部落格](http://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

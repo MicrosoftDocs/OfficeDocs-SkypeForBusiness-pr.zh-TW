@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：將使用者及使用者群組的網域新增至聊天室類別
+title: Lync Server 2013： 將網域的使用者與使用者群組新增至聊天室類別
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48706013
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4f9fbbc7ad4fd5279cea1116607193817078a04e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 505702a656fd838fa9ba23b65487ff57963abb30
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738143"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038545"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="adding-domains-of-users-and-user-groups-to-the-room-category-in-lync-server-2013"></a>在 Lync Server 2013 中將使用者及使用者群組的網域新增至聊天室類別
+# <a name="adding-domains-of-users-and-user-groups-to-the-room-category-in-lync-server-2013"></a>將網域的使用者與使用者群組新增至 Lync Server 2013 中的 [會議室] 類別
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41738143"
 
 <span> </span>
 
-_**主題上次修改日期：** 2014-02-07_
+_**上次修改主題：** 2014年-02-07_
 
-若要將較大的使用者群組新增至聊天室，請參閱[在 Lync Server 2013 中設定類別](lync-server-2013-configure-categories.md)，以及在部署檔中[管理類別](manage-categories.md)。 例如，這個命令會將 active Directory 中的 NorthAmericaUsers OU 中的所有使用者新增至 [北美] 聊天室：
+若要將大型使用者群組新增至聊天室，請參閱部署文件中的[Lync Server 2013 中的 Configure categories](lync-server-2013-configure-categories.md)和[Manage categories](manage-categories.md) 。 例如，此命令會將所有使用者從 active Directory 中的 NorthAmericaUsers OU 加入 NorthAmerica 聊天室時亦可：
 
     Set-CsPersistentChatRoom -PersistentChatPoolFqdn "atl-cs-001.litwareinc.com\NorthAmerica" -Members @{Add="OU=NorthAmericaUsers,DC=litwareinc,DC=com"}
 
-其命令會將財務通訊群組中的所有成員新增至相同的聊天室：
+他的命令會將所有成員從 Finance 通訊群組都新增至相同的聊天室：
 
     Set-CsPersistentChatRoom -PersistentChatPoolFqdn "atl-cs-001.litwareinc.com\NorthAmerica" -Members @{Add="CN=Finance,OU=ExternalUsers,DC=litwareinc,DC=com"}
 

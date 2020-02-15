@@ -1,5 +1,5 @@
 ---
-title: 連線 Survivable Branch Appliance
+title: 連接 Survivable Branch Appliance
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -10,65 +10,65 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 每個 Survivable 分支裝置（SBA）都與一個前端池相關聯，可充當 SBA 的備份註冊機構。 當您將前端池移至商務用 Skype Server 2019 時，當池已升級至商務用 Skype Server 2019 之後，就必須從 SBA 中解除連線，SBA 才能與升級的前 E 重新關聯nd pool。 這涉及從拓撲產生器中的舊版拓撲刪除 SBA，然後將 SBA 新增至商務用 Skype Server 2019 拓撲。 必須先將駐留在舊版 SBA 的使用者移到另一個前端池，然後才能從拓撲結構中移除 SBA。 將 SBA 新增至商務用 Skype Server 2019 拓撲之後，這些使用者就可以移回 SBA。 下列步驟摘要如下所示：
-ms.openlocfilehash: daeb061936ece02767e3299d2358d8e16ba09218
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 每個 Survivable Branch Appliance (SBA) 是做為備份登錄器 SBA 的前端集區相關聯。 SBA 時必須與前端集區解除關聯前端集區移轉至 Skype for Business Server 2019，SBA，升級之集區時，一旦 Business Server 2019 的集區移轉至 Skype 時，可以與升級前端 E 重新產生關聯nd 集區。 這包括刪除 SBA 從拓撲產生器的傳統拓撲並再將 SBA 新增至 Skype for Business Server 2019 拓樸。 隸屬於舊版 SBA 必須先將移至另一個前端集區從拓撲移除 SBA 之前的使用者。 一旦 SBA 新增至 Skype for Business Server 2019 拓撲後，這些使用者可以再移回 sba。 這些步驟的摘要如下：
+ms.openlocfilehash: 7f51b9c29d6008ea3606184eb22741a489d056df
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41813731"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42027784"
 ---
-# <a name="connect-a-survivable-branch-appliance"></a>連線 Survivable Branch Appliance
+# <a name="connect-a-survivable-branch-appliance"></a>連接 Survivable Branch Appliance
 
-每個 Survivable 分支裝置（SBA）都與一個作為 SBA 備份註冊機構的前端池相關聯。 當頂層池遷移到商務用 Skype Server 2019 時，必須在池升級時解除與前端池中的 SBA。 在將池遷移到商務用 Skype Server 2019 之後，SBA 可以與已升級的前端池重新關聯。 這涉及從拓撲產生器中的舊版拓撲刪除 SBA，然後將 SBA 新增至商務用 Skype Server 2019 拓撲。 必須先將駐留在舊版 SBA 的使用者移到另一個前端池，然後才能從拓撲結構中移除 SBA。 將 SBA 新增至商務用 Skype Server 2019 拓撲之後，這些使用者就可以移回 SBA。 下列步驟摘要如下所示：
+每個 Survivable Branch Appliance (SBA) 是做為備份登錄器 SBA 的前端集區相關聯。 前端集區的移轉時 skype for Business Server 2019，SBA 必須分離從前端集區，而升級之集區。 商務 Server 2019 的集區移轉至 Skype 之後，SBA 可以重新相關聯的已升級的前端集區。 這包括刪除 SBA 從拓撲產生器的傳統拓撲並再將 SBA 新增至 Skype for Business Server 2019 拓樸。 隸屬於舊版 SBA 必須先將移至另一個前端集區從拓撲移除 SBA 之前的使用者。 SBA 新增到 Skype for Business Server 2019 拓撲後，這些使用者可以移回 sba。 這些步驟的摘要如下：
   
-1. 將駐留在舊版 SBA 的分支使用者移至另一個前端池。
+1. 將分支使用者隸屬於舊版 SBA 與另一個前端集區。
     
-2. 從舊版拓撲中移除 SBA，將現有的前端池與備份註冊機構中斷連線。
+2. 從舊版的拓撲，以中斷作為備份登錄器的現有前端集區中移除 SBA。
     
-3. 在商務用 Skype Server 2019 拓撲中新增 SBA，並將這個新的 [前端] 池設定為備份註冊機構。 
+3. 將 SBA 新增至 Skype for Business Server 2019 拓撲，並將此新前端集區設定為備份登錄器。 
     
-4. 將分支使用者移至新的商務用 Skype Server 2019 SBA。
+4. 將分支使用者移至新的 Skype for Business Server 2019 SBA。
     
 ### <a name="add-legacy-sba-branch-site-to-your-topology"></a>將舊版 SBA 分支網站新增至您的拓撲
 
-1. 開啟**拓撲**建立器。
+1. 開啟**拓撲產生器]**。
     
-2. 在左窗格中，以滑鼠右鍵按一下 [**分支網站**]，然後按一下 [**新增分支網站**]。
+2. 在左窗格中，以滑鼠右鍵按一下 [**分支站台**，，，然後按一下 [**新的分支網站**。
     
-3. 在 [**定義新分支網站**] 對話方塊中，按一下 [**名稱**]，然後輸入分支網站的名稱。
+3. 在 [**定義新的分支網站**] 對話方塊中，按一下 [**名稱**] 中，，然後輸入分支網站的名稱。
     
-4. 可選按一下 [**描述**]，然後為分支網站輸入有意義的描述。
+4. （選用）按一下 [**描述**] 中，，，然後輸入分支網站的有意義描述。
     
-5. 按一下 **[下一步]**。
+5. 按 [下一步]****。
     
-6. 可選在 [下一步**定義分支網站**] 對話方塊中，執行下列任何一項操作： 
+6. （選用）在下的 [**定義新的分支網站**] 對話方塊中，執行下列其中一項： 
     
-    1. 按一下 [**城市**]，然後輸入分支網站所在城市的名稱。
+    1. 按一下 [**縣/市**、，然後輸入分支網站所在位置的城市名稱。
     
-    2. 按一下 [**狀態/地區**]，然後輸入分支網站所在的狀態或地區名稱。
+    2. 按一下 [省/地區****，然後輸入位置的省或地區的分支網站所在的名稱。
     
-    3. 按一下 [**國家/地區碼**]，然後輸入分支網站所在國家/地區的兩位數電話號碼。
+    3. 按一下 [**國碼/地區碼**，，，然後輸入分支網站所在國家/地區的兩位數呼叫程式碼。
     
-7. 按一下 **[下一步]**，然後，如果您是在此網站使用 Survivable 分支裝置或伺服器，請務必清除 [**當此嚮導關閉時，開啟新的 Survivable 嚮導]** 核取方塊。 按一下 **[完成]**。
+7. 按一下 [**下一步**，，然後，如果您在此網站使用 Survivable Branch Appliance 或 Server，請務必清除**開啟新的 survivable branch Appliance 精靈，當這個精靈關閉時**] 核取方塊。 按一下 [完成]****。
     
-8. 若要將舊版 SBA 與商務用 Skype Server 2019 （前端端池）關聯：
+8. 若要建立舊版 SBA 與 Skype for Business Server 2019 前端集區的關聯：
     
     1. 展開已建立的分支網站。 
     
-    2. 以滑鼠右鍵按一下舊版版本，然後按一下 [**新增**]。
+    2. 在舊版中，以滑鼠右鍵按一下，然後按一下 [**新增]**。
     
-    3. 按一下 [ **Survivable 分支裝置**]。
+    3. 按一下 [ **Survivable Branch Appliance**。
     
-9. 依照嚮導中開啟的指示進行。 如需有關嚮導專案的資訊，請參閱    
-   <!-- [Define a Survivable Branch Appliance or Server in Lync 2013](https://technet.microsoft.com/en-us/library/gg398280(v=ocs.15).aspx). -->
+9. 依照精靈隨即開啟。 精靈項目的相關資訊，請參閱    
+   <!-- [Define a Survivable Branch Appliance or Server in Lync 2013](https://technet.microsoft.com/library/gg398280(v=ocs.15).aspx). -->
    <!-- The above link points to un-rebranded 2013 content we will need to discuss rebrand or bring forward -->
     
     > [!NOTE]
-    > Survivable 分支裝置只能與監視存放區建立關聯。 
+    > Survivable Branch Appliance 僅能與監控存放區相關聯。 
   
-10. 如果您不是在此網站使用 Survivable 分支裝置或伺服器，請清除 [在**關閉此嚮導時開啟新的 Survivable 嚮導]** 核取方塊，然後按一下 **[完成**]。
+10. 如果您未在此網站使用 Survivable Branch Appliance 或 Server，清除**開啟新的 survivable branch Appliance 精靈，當這個精靈關閉時**] 核取方塊，然後再按一下 [**完成]**。
     
-11. 針對您要新增到拓撲結構中的每個分支網站，重複上述步驟。
+11. 針對您想要新增至拓撲每一個分支網站重複上述步驟。
     
 

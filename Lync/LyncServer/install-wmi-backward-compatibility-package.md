@@ -1,5 +1,5 @@
 ---
-title: 安裝 WMI 向後相容性套件
+title: 安裝 WMI 回溯相容性套件
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183893
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0c3b8d474ff451a488124ebfbae0ff0872a6cca1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2497fb60c4eeb0ef9bba499bd131ef6bba10f3ff
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730553"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037353"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="install-wmi-backward-compatibility-package"></a>安裝 WMI 向後相容性套件
+# <a name="install-wmi-backward-compatibility-package"></a>安裝 WMI 回溯相容性套件
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "41730553"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-02_
+_**主題上次修改日期：** 2012年-10-02_
 
-如果您嘗試執行拓撲建立器合併嚮導而不安裝 WMI 向後相容性套件，您會看到下列錯誤：
+若您未安裝 WMI 回溯相容性套件，而嘗試啟動 [拓撲產生器合併精靈]，您會看到下列錯誤：
 
 ![WMI 錯誤訊息](images/JJ204816.a007d2f2-fc85-430c-91eb-382b032469af(OCS.15).jpg "WMI 錯誤訊息")
 
-如果您嘗試執行**Merge CsLegacytopology** Cmdlet 而不安裝 WMI 向後相容性套件，您會看到下列錯誤：
+若您未安裝 WMI 回溯相容性套件，而嘗試啟動 **Merge-CsLegacytopology** Cmdlet，您會看到下列錯誤：
 
 ![Windows PowerShell WMI 提供者錯誤](images/JJ204816.c510824e-1807-4c7e-bb28-c6cfea2eac1d(OCS.15).jpg "Windows PowerShell WMI 提供者錯誤")
 
-若要安裝 WMI 向後相容性套件
+安裝 WMI 回溯相容性套件
 
-1.  從您的安裝媒體，流覽\\至\\setup\\AMD64\\設定 OCSWMIBC。.MSI.
+1.  從安裝媒體上，瀏覽至\\安裝\\AMD64\\安裝\\OCSWMIBC。MSI。
 
-2.  安裝 OCSWMIBC。.MSI.
+2.  安裝 OCSWMIBC.MSI。
     
     <div>
     
 
     > [!IMPORTANT]  
-    > OCSWMIBC 必須安裝在執行拓撲建立器合併嚮導的電腦上。 不過，我們建議您在拓撲中的所有前端伺服器上安裝 OCSWMIBC。
+    > OCSWMIBC.msi 必須安裝在執行 [拓撲產生器合併精靈] 的電腦上。然而，建議將 OCSWMIBC.msi 安裝在拓撲中的所有前端伺服器上。
 
     
     </div>
@@ -64,7 +64,7 @@ _**主題上次修改日期：** 2012-10-02_
     
 
     > [!IMPORTANT]  
-    > 在已安裝 Lync Server 2013 核心元件和 Lync Server 2013 管理命令介面的網域中，OCSWMIBC 可以安裝在任何電腦上，且能夠存取 Office 通訊伺服器 2007 R2 拓撲（WMI 提供者至 Active Directory 網域[服務（AD DS）] 和 [SQL Server]。
+    > 可以在 Lync Server 2013 核心元件及 Lync Server 2013 管理命令介面安裝，且有權存取 Office Communications Server 2007 R2 拓撲 （WMI 提供者至 Active Directory 網域的網域中的任何電腦上安裝 OCSWMIBC.msi服務 (AD DS) 和 SQL Server)。
 
     
     </div>

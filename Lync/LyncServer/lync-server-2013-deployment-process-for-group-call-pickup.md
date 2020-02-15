@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：群組呼叫挑選的部署程式
+title: Lync Server 2013： 部署程序的群組來電接聽
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541444
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 015aa2817b7d829d1714288182775b42ba2bb1f4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 20f583b330812eab8ea32ecd3c545445b0640fae
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762631"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038145"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deployment-process-for-group-call-pickup-in-lync-server-2013"></a>Lync Server 2013 中群組呼叫挑選的部署程式
+# <a name="deployment-process-for-group-call-pickup-in-lync-server-2013"></a>部署程序的 Lync Server 2013 中的 [群組來電接聽
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41762631"
 
 <span> </span>
 
-_**主題上次修改日期：** 2013-02-25_
+_**上次修改主題：** 2013年-02-25_
 
-本節概要說明部署群組呼叫挑選時所涉及的步驟。 您必須先使用企業語音部署企業版或標準版，才能設定群組呼叫挑選。 當您部署企業語音時，會安裝並啟用群組通話挑選所需的元件。
+本節提供部署群組來電接聽的相關步驟的概觀。 設定群組來電接聽之前，您必須部署 Enterprise Edition 或 Standard Edition 與 Enterprise Voice。 群組來電接聽所需的元件會安裝並啟用當您部署企業語音。
 
-### <a name="group-call-pickup-deployment-process"></a>群組呼叫進行挑選部署程式
+### <a name="group-call-pickup-deployment-process"></a>群組通話收取部署程序
 
 <table>
 <colgroup>
@@ -50,39 +50,39 @@ _**主題上次修改日期：** 2013-02-25_
 </colgroup>
 <thead>
 <tr class="header">
-<th>分</th>
+<th>階段</th>
 <th>步驟</th>
-<th>必要的群組和角色</th>
-<th>部署檔</th>
+<th>所需群組和角色</th>
+<th>部署文件</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>在拓撲中啟用 SEFAUtil 資源套件工具</p></td>
+<td><p>啟用拓撲的 SEFAUtil resource kit 工具</p></td>
 <td><ol>
-<li><p>使用<strong>新的 CsTrustedApplicationPool</strong> Cmdlet 來建立新的受信任的應用程式池。</p></li>
-<li><p>使用<strong>新的 CsTrustedApplication</strong> Cmdlet，將 SEFAUtil 工具指定為受信任的應用程式。</p></li>
-<li><p>執行<strong>enable-CsTopology</strong> Cmdlet 來啟用拓撲。</p></li>
-<li><p>在步驟1中建立的受信任的應用程式池中，在前端伺服器上安裝資源套件工具。</p></li>
-<li><p>執行此程式以驗證 SEFAUtil 是否正常運作，只要執行它，即可在部署中顯示使用者的來電轉接設定。</p></li>
+<li><p>使用<strong>New-cstrustedapplicationpool</strong> cmdlet 來建立新的受信任的應用程式集區。</p></li>
+<li><p>若要指定 SEFAUtil 工具為信任的應用程式使用<strong>New-cstrustedapplication</strong> cmdlet。</p></li>
+<li><p>執行<strong>Enable-cstopology</strong> cmdlet 來啟用拓撲。</p></li>
+<li><p>在步驟 1 中建立信任的應用程式集區中以前端伺服器上安裝 resource kit 工具。</p></li>
+<li><p>確認 SEFAUtil 正常執行藉由執行以顯示來電轉接的部署中的使用者設定。</p></li>
 </ol></td>
 <td><p>RTCUniversalServerAdmins</p></td>
-<td><p><a href="lync-server-2013-deploy-the-sefautil-tool.md">在 Lync Server 2013 中部署 SEFAUtil 工具</a></p></td>
+<td><p><a href="lync-server-2013-deploy-the-sefautil-tool.md">部署 Lync Server 2013 的 SEFAUtil 工具</a></p></td>
 </tr>
 <tr class="even">
-<td><p>在 [呼叫公園軌道軌道] 表格中設定呼叫挑選編號範圍</p></td>
-<td><p>使用<strong>CSCallParkOrbit</strong> Cmdlet，在 [通話駐留軌道] 表格中建立呼叫挑選編號範圍，並將 [呼叫拾取] 範圍指派給 type GroupPickup。</p>
+<td><p>設定通話駐留軌道表中的呼叫收取的號碼範圍</p></td>
+<td><p>使用<strong>New-cscallparkorbit</strong> cmdlet 來建立通話駐留軌道表中的通話收取] 目錄的數字範圍和指派通話收取範圍類型 GroupPickup。</p>
 <div>
 
 > [!NOTE]  
-> 您必須使用 Lync Server 管理命令介面來建立、修改、移除及查看 [通話寄存軌道] 表格中的 [群組呼叫挑選號碼] 範圍。 在 Lync Server [控制台] 中無法使用 [群組呼叫挑選號碼] 範圍。
+> 您必須使用 Lync Server 管理命令介面來建立、 修改、 移除和檢視通話駐留軌道表中的群組來電接聽的號碼範圍。 群組呼叫收取號碼範圍不在 Lync Server Control Panel 中使用。
 
 
 </div>
 <div>
 
 > [!NOTE]  
-> 若要與現有的撥號方案進行無縫整合，數位範圍通常會設定為虛擬延伸區塊。 不支援在 [通話駐留軌道] 表格中，將直向內撥（已有）數位指派為範圍數位。
+> 與現有的撥號對應表計劃的緊密整合，針對號碼範圍通常設定為虛擬分機區塊。 不支援將直接向內撥號 (DID) 號碼指派為通話駐留軌道表中的 range 數字。
 
 
 </div></td>
@@ -90,25 +90,25 @@ _**主題上次修改日期：** 2013-02-25_
 <p>CsVoiceAdministrator</p>
 <p>CsServerAdministrator</p>
 <p>CsAdministrator</p></td>
-<td><p><a href="lync-server-2013-configure-call-pickup-group-numbers.md">在 Lync Server 2013 中設定呼叫挑選群組號碼</a></p></td>
+<td><p><a href="lync-server-2013-configure-call-pickup-group-numbers.md">Lync Server 2013 中設定呼叫收取群組號碼</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>指派呼叫挑選號碼給使用者，並為使用者啟用群組呼叫分揀</p></td>
-<td><p>在 SEFAUtil 資源套件工具中使用/enablegrouppickup 參數，以啟用群組通話分揀，並為使用者指派呼叫挑選號碼。</p></td>
+<td><p>呼叫收取號碼指派給使用者，並為使用者啟用群組來電接聽</p></td>
+<td><p>若要啟用群組來電接聽，並指派使用者的通話收取數字，SEFAUtil resource kit 工具中使用 /enablegrouppickup 參數。</p></td>
 <td><p>-</p></td>
-<td><p><a href="lync-server-2013-enable-group-call-pickup-for-users-and-assign-a-group-number.md">在 Lync Server 2013 中為使用者啟用群組呼叫挑選，並指派群組號碼</a></p></td>
+<td><p><a href="lync-server-2013-enable-group-call-pickup-for-users-and-assign-a-group-number.md">啟用群組來電接聽 Lync Server 2013 中的使用者並指派群組編號</a></p></td>
 </tr>
 <tr class="even">
-<td><p>通知使用者已指派的電話提貨號碼和任何其他感興趣的號碼</p></td>
-<td><p>因為任何使用者都可以撥打對群組呼叫使用者所做的通話，所以使用者可能想要監視一個以上的群組。</p></td>
+<td><p>通知使用者其指派的通話收取] 目錄的數字和其他任何數字的利息</p></td>
+<td><p>因為任何使用者可以擷取對群組來電接聽使用者的呼叫，使用者可能會想要監視多個群組。</p></td>
 <td><p>-</p></td>
-<td><p><a href="lync-server-2013-communicate-group-call-pickup-assignment-to-users.md">在 Lync Server 2013 中將群組呼叫挑選指派給使用者</a></p></td>
+<td><p><a href="lync-server-2013-communicate-group-call-pickup-assignment-to-users.md">通訊群組來電接聽指派給 Lync Server 2013 中的使用者</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>驗證您的群組呼叫裝貨部署</p></td>
-<td><p>測試放及檢索通話，以確保您的設定如預期的那樣正常運作。</p></td>
+<td><p>確認群組來電接聽部署</p></td>
+<td><p>測試放置，並擷取通話，請確定您的設定如預期般運作。</p></td>
 <td><p>-</p></td>
-<td><p><a href="lync-server-2013-optional-verify-the-group-call-pickup-deployment.md">可選在 Lync Server 2013 中驗證群組呼叫裝貨部署</a></p></td>
+<td><p><a href="lync-server-2013-optional-verify-the-group-call-pickup-deployment.md">（選用）確認 Lync Server 2013 中的群組來電接聽部署</a></p></td>
 </tr>
 </tbody>
 </table>

@@ -1,5 +1,5 @@
 ---
-title: Lync 2013：用戶端和伺服器的更新
+title: Lync 2013： 更新用戶端和伺服器
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63369406
 ms.date: 11/12/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 937af764342def5e4d3923cfb82e771e31fe9aa8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1352b228a6c4292beba4b4ebb19b787111d1379b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730543"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037343"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="updates-for-lync-2013-client-and-lync-server-2013"></a>Lync 2013 用戶端和 Lync Server 2013 的更新
+# <a name="updates-for-lync-2013-client-and-lync-server-2013"></a>Lync 2013 用戶端和 Lync Server 2013 更新
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41730543"
 
 <span> </span>
 
-_**主題上次修改日期：** 2014-11-12_
+_**上次修改主題：** 2014年-11-12_
 
-若要確保您擁有最新版本的 Lync 用戶端，請參閱此經常更新的 Microsoft Lync 2013 所有用戶端發行版本本清單。
+若要確保您擁有最新版的 Lync 用戶端，查看此經常更新的 Microsoft Lync 2013 的所有用戶端發行版本清單。
 
 <div>
 
 ## <a name="determining-your-lync-desktop-client-version"></a>決定您的 Lync 桌面用戶端版本
 
-若要找出您使用的 Lync 桌面用戶端版本，請按一下 [選項] 圖示以開啟 [**關於 lync** ] 對話方塊。 在 [**選項**] 功能表上 **，選取 [說明]，然後**選取 [**關於 Microsoft Lync**]。 用戶端版本號碼通常會顯示在 [**關於 Lync** ] 對話方塊的第一行。
+若要找出您要使用哪個版本的 Lync 桌面用戶端，請開啟**有關 Lync** ] 對話方塊依序按一下 [選項] 圖示。 在 [**選項**] 功能表中，選取 [**說明**]，然後選取**有關 Microsoft Lync**。 用戶端版本號碼通常會顯示在 [**關於 Lync** ] 對話方塊上的第一行。
 
 </div>
 
@@ -51,9 +51,9 @@ _**主題上次修改日期：** 2014-11-12_
 
 ## <a name="lync-client-updates"></a>Lync 用戶端更新
 
-疑難排解 Lync 用戶端問題時，最常見的一項檢查就是判斷您是否正在執行最新版本的 Lync 用戶端，以及是否已安裝所有的修補程式。 透過升級到產品的最新版本或更新，就能解決大部分已報告的 Lync 用戶端問題。 因此，我們強烈建議您在聯繫 Microsoft 產品支援人員之前，先安裝最新版本的 Lync 用戶端及最新的更新。 [本文](https://docs.microsoft.com/SkypeForBusiness/sfb-client-updates#lync-2013-client-updates)將協助您識別正確的發行版本本號碼。
+最常見其中一項檢查，Lync 用戶端問題的疑難排解，會決定是否正在執行最新版的 Lync 用戶端時，並安裝所有的修補程式。 要取得報告的 Lync 用戶端問題多數就是升級至最新版本或更新的產品來解決。 因此，我們強烈建議您安裝最新版的 Lync 用戶端，以及最新的更新，再連絡 Microsoft 產品支援服務。 本[文章](https://docs.microsoft.com/SkypeForBusiness/sfb-client-updates#lync-2013-client-updates)將協助您識別正確版本的版本號碼。
 
-Lync 用戶端的每個更新都有自己的版本號碼。 您可以查看相關的知識庫文章（連結至下表），以判斷與更新相關聯的版本號碼。
+Lync 用戶端每次更新有它自己的版本號碼。 您可以決定可以查看相關 KB 文章與更新相關聯的版本號碼連結到下表中。
 
 </div>
 
@@ -61,7 +61,7 @@ Lync 用戶端的每個更新都有自己的版本號碼。 您可以查看相�
 
 ## <a name="lync-server-updates"></a>Lync Server 更新
 
-如需 Lync Server 2013 更新的相關資訊，請參閱 Microsoft 支援網站上的[Lync Server 2013 更新](https://support.microsoft.com/help/2809243/updates-for-lync-server-2013)。
+更新 Lync Server 2013 的相關資訊，請參閱[適用於 Lync Server 2013 更新](https://support.microsoft.com/help/2809243/updates-for-lync-server-2013)在 Microsoft 支援網站。
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：每日工作
+title: Lync Server 2013： 每日工作
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 63969666
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9d63aff308b23e52284988a184e5e9d72beaca26
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fc14c72f614e6e062afc089236182def0d86e634
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728673"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041052"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,27 +35,27 @@ ms.locfileid: "41728673"
 
 <span> </span>
 
-_**主題上次修改日期：** 2015-01-26_
+_**主題上次修改日期：** 2015年-01-26_
 
-若要協助確保 Lync Server 2013 部署的可用性與可靠性，您應該是每日例行監視器和測試元素的一部分，這些專案對於系統的運作（包括物理平臺、作業系統及所有重要的 Lync Server 2013 服務。 預防性維護與前瞻性監視可協助您找出可能會對 Lync Server 2013 部署造成負面影響的可能錯誤與問題。
+為了協助確保 Lync Server 2013 部署的可靠性與可用性，您應每日例行監視器] 及 [系統，包括實體平台、 作業系統的運作非常重要的測試元素的一部分，所有重要的 Lync Server 2013 服務。 預防性維護和主動式監控可協助您找出可能的錯誤和可能有不利的影響 Lync Server 2013 部署的問題。
 
-監視 Lync Server 2013 部署涉及檢查連線、服務、伺服器資源和系統資源的問題。 Windows Server 作業系統與 System Center Operations Manager 及 Lync Server 提供了許多監視工具與服務，協助確保 Lync 伺服器組織順利執行。 將這些技術一起實作之後，系統管理員就會在發生問題當下或之前收到警示。
+監控的 Lync Server 2013 部署牽涉到檢查連線、 服務、 伺服器資源，以及系統資源的問題。 Windows Server 作業系統，以及 System Center Operations Manager 和 Lync Server 提供許多監控工具和服務，以協助確保組織可以順利執行 Lync Server。 這些技術會實作時在一起，系統管理員將能夠接收提醒時，或之前發生問題。
 
 每日監控的主要優點如下：
 
-  - 滿足已定義 SLA 的效能和可用性需求。
+  - 會議定義 Sla 效能及可用性需求。
 
-  - 順利完成特定系統管理工作，例如每日備份作業和檢查伺服器狀況。
+  - 成功完成特定的系統管理工作，例如每日備份作業，以及檢查伺服器健康狀況。
 
-  - 偵測和解決問題，例如伺服器效能中的瓶頸，或在這些瓶頸影響產能之前需要額外資源。
+  - 偵測和解決問題，例如中伺服器的效能或其他資源需求的瓶頸，避免其影響生產力。
 
-每日維護工作可協助系統管理團隊在組織內部定義或建立正常系統作業的準則或基準，並協助偵測任何異常活動。 必須執行這些日常維護工作，才能讓系統管理小組捕獲並維護 Lync Server 2013 基礎結構的相關資料，例如使用等級、可能的效能瓶頸，以及系統管理變更。
+每日維護工作協助管理小組，以定義或建立準則或一般系統作業在組織內，並偵測任何異常活動的比較基準。 請務必實作這些每日維護工作，以便管理小組可以擷取及維護的 Lync Server 2013 基礎結構，例如使用量等級、 可能的效能瓶頸和系統管理變更的相關資料。
 
-若要協助整理每日工作的效能，請使用[每日工作檢查清單](lync-server-2013-operations-checklists.md)。
+若要協助組織每日工作的效能，請使用[每日工作檢查清單](lync-server-2013-operations-checklists.md)。
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
 [每日工作檢查清單](lync-server-2013-operations-checklists.md)  

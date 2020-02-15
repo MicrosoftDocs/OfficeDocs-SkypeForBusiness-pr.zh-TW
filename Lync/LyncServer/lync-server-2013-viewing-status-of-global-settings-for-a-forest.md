@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：查看林中全域設定的狀態
+title: Lync Server 2013： 檢視狀態的樹系的通用設定
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969590
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ec1dea4ad3d5052bc2ba23cccd9e19ab138414ac
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2a5381445a866da924a8ff0f511ee48353ab5c91
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757227"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041970"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="view-status-of-global-settings-for-a-forest-in-lync-server-2013"></a>在 Lync Server 2013 中查看林中全域設定的狀態
+# <a name="view-status-of-global-settings-for-a-forest-in-lync-server-2013"></a>檢視狀態的 Lync Server 2013 中的樹系的全域設定
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41757227"
 
 <span> </span>
 
-_**主題上次修改日期：** 2014-05-20_
+_**上次修改主題：** 2014年-05-20 個_
 
-系統管理員應該每月查看 Lync Server 2013 部署的全域設定。 這個目標就是針對一組已知的設定來查看已實施的設定，這是一種比較基準設定，可協助保證設定有效，並判斷是否應該更新基準檔。 全域設定的變更應該透過變更控制程式來實現，此程式應該包括記錄新設定。
+系統管理員應該檢閱每月的 Lync Server 2013 部署的全域設定。 目標是將檢閱實作的設定對一組已知的設定 — 基準組態，以協助確保設定均有效，並判斷是否應更新文件的基準。 變更全域設定應該實作透過應該包含記載的新設定的變更控制程序。
 
-在下列各節中將說明應審查的全域設定：
+下列各節將說明應檢閱的全域設定：
 
 <div>
 
 ## <a name="check-general-settings"></a>檢查一般設定
 
-檢查 [一般設定]，包括 Lync Server 2013 支援的會話初始通訊協定（SIP）網域。
+檢查一般設定，包括針對 Lync Server 2013 支援的工作階段初始通訊協定 (SIP) 網域。
 
-SIP 網域資訊可以使用 Windows PowerShell 和**CsSipDomain** Cmdlet 傳回。 若要返回此資訊，請`Get-CsSipDomain`執行 Windows PowerShell 命令。
+使用 Windows PowerShell 和**Get-cssipdomain**指令程式，可以傳回 SIP 網域資訊。 若要傳回這項資訊，請執行`Get-CsSipDomain`Windows PowerShell 命令。
 
-CsSipDomain 將會針對所有授權 SIP 網域傳回類似以下所示的資訊：
+Get-cssipdomain 會傳回類似的所有授權的 SIP 網域的資訊：
 
-身分識別名稱 IsDefault
+Identity 名稱 IsDefault
 
 \-------- ---- ---------
 
@@ -59,109 +59,109 @@ fabrikam.com fabrikam.com True
 
 na.fabrikam.com na.fabrikam.com False
 
-如果 IsDefault 屬性設定為 True，對應的網域就是您的預設 SIP 網域。 您可以使用 CsSipDomain Cmdlet 來變更貴組織的預設 SIP 網域。 不過，您無法只刪除預設的 SIP 網域，因為這樣會讓您不需要預設網域。 如果您想要刪除 fabrikam.com 網域（如上一個範例所示），您必須先將 na.fabrikam.com 設定為預設網域。
+如果的 IsDefault 屬性設為 True，對應的網域就會是預設 SIP 網域。 您可以使用 Set CsSipDomain 指令程式來變更預設 SIP 網域，為您的組織。 不過，您只是無法刪除預設 SIP 網域，因為這樣會讓您沒有預設網域。 如果您想要刪除 fabrikam.com 網域 （如上述範例所示），您必須先設定 na.fabrikam.com 設為預設網域。
 
 </div>
 
 <div>
 
-## <a name="check-meeting-settings"></a>檢查會議設定
+## <a name="check-meeting-settings"></a>請檢查會議設定
 
-會議設定包括會議原則定義，以及在會議中參與匿名使用者的支援。
+會議的設定包括會議原則定義，並參與會議的匿名使用者支援。
 
-您可以使用 Windows PowerShell 和**CsMeetingConfiguration** Cmdlet 來檢索會議設定設定。 例如，以下命令會傳回有關全域會議設定設定的資訊：
+使用 Windows PowerShell 和**Get-csmeetingconfiguration** cmdlet 可以擷取會議組態設定。 例如，此命令會傳回的資訊將全域會議組態設定：
 
-CsMeetingConfiguration –身分識別 "全域" 會議設定設定也可以在網站範圍設定。 因此，您可能會想要使用下列命令，以傳回所有會議設定設定的相關資訊：
+Get-csmeetingconfiguration – Identity"Global"會議組態設定也可以在網站範圍設定。 因此，您可能想要使用下列命令，它會傳回所有會議的相關資訊的組態設定：
 
 `Get-CsMeetingConfiguration`
 
-**CsMeetingConfiguration** Cmdlet 會傳回如下所示的資訊：
+**Get-csmeetingconfiguration** cmdlet 會傳回類似下列資訊：
 
-身分識別：全域
+身分識別： 全域
 
-PstnCallersBypassLobby： True
+PstnCallersBypassLobby: True
 
-EnableAssignedConferenceType： True
+EnableAssignedConferenceType: True
 
-DesignateAsPresenter：公司
+DesignateAsPresenter： 公司
 
-AssignedConferenceTypeByDefault： True
+AssignedConferenceTypeByDefault: True
 
-AdmitAnonymousUsersByDefault： True
+AdmitAnonymousUsersByDefault: True
 
-同樣地，清單中的最後一個專案**AdmitAnonymousUsersByDefault**，可以啟用或停用匿名使用者參與會議的功能。
+同樣地，最後一個項目在清單中， **AdmitAnonymousUsersByDefault**，啟用或停用匿名使用者能夠參與會議。
 
-檢查會議設定時，您可能會發現比較目前的設定與預設對等專案很有用。 您可以執行下列命令來查看預設會議設定設定：
+當檢查會議組態設定，您可能會覺得比較目前的設定，針對預設的等同項目。 您可以檢視預設的會議組態設定執行下列命令：
 
 `New-CsMeetingConfiguration -Identity "Global" -InMemory`
 
-[上一個] 命令會建立全域會議設定設定的純記憶體實例，該實例會使用每個屬性的預設值。 當您執行命令時，不會建立實際的會議設定。 不過，所有預設屬性值都會顯示在畫面上。
+上述命令會建立在記憶體-僅限執行個體全域會議組態設定，每個屬性會使用預設值的執行個體。 不實際會議的組態設定執行命令時建立。 不過，將螢幕上顯示的預設屬性值。
 
 </div>
 
 <div>
 
-## <a name="check-edge-servers-and-their-settings"></a>檢查邊緣伺服器及其設定
+## <a name="check-edge-servers-and-their-settings"></a>檢查 Edge Server 以及其設定
 
-您可以使用 Windows PowerShell 來檢索 Edge 伺服器資訊。 這個命令會傳回您在組織中設定為使用的所有邊緣伺服器的相關資訊：
+可以使用 Windows PowerShell 擷取 edge 伺服器資訊。 此命令會傳回設定供組織使用的所有 Edge Server 的相關資訊：
 
 `Get-CsService -EdgeServer`
 
-傳回的資訊包含每個 Edge 伺服器的所有 FQDN 和埠設定：
+傳回的資訊包括所有的 FQDN 和連接埠設定為每部 Edge Server:
 
-身分識別： EdgeServer： dc.fabrikam.com
+身分識別： EdgeServer: dc.fabrikam.com
 
-註冊機構：註冊機構： LYNC-SE.fabrikam.com
+登錄器： Registrar: LYNC SE.fabrikam.com
 
-AccessEdgeInternalSipPort：5061
+AccessEdgeInternalSipPort: 5061
 
-AccessEdgeExternalSipPort：5061
+AccessEdgeExternalSipPort: 5061
 
-AccessEdgeClientPort：443
+AccessEdgeClientPort: 443
 
-DataPsomServerPort：8057
+DataPsomServerPort: 8057
 
-DataPsomClientPort：444
+DataPsomClientPort: 444
 
-MediaRelayAuthEdgePort：5062
+MediaRelayAuthEdgePort: 5062
 
-MediaRelayAuthInternalTurnTcpPort：443
+MediaRelayAuthInternalTurnTcpPort: 443
 
-MediaRelayAuthExternalTurnTcpPort：445
+MediaRelayAuthExternalTurnTcpPort: 445
 
-MediaRelayAuthInternalTurnUdpPort：3478
+MediaRelayAuthInternalTurnUdpPort: 3478
 
-MediaRelayAuthExternalTurnUdpPort：3478
+MediaRelayAuthExternalTurnUdpPort: 3478
 
-MediaCommunicationPortStart：50000
+MediaCommunicationPortStart: 50000
 
-MediaComunicationPortCount：10000
+MediaComunicationPortCount: 10000
 
-AccessEdgeExternalFqdn： dc.fabrikam.com
+AccessEdgeExternalFqdn: dc.fabrikam.com
 
-DataEdgeExternalFqdn： dc.fabrikam.com
+DataEdgeExternalFqdn: dc.fabrikam.com
 
-AVEdgeExternalFqdn :
+AVEdgeExternalFqdn:
 
-InternalInterfaceFqdn :
+InternalInterfaceFqdn:
 
-ExternalMrasFqdn： dc.fabrikam.com
+ExternalMrasFqdn: dc.fabrikam.com
 
-DependentServiceList： {註冊機構： LYNC-SE.fabrikam.com，
+DependentServiceList: {Registrar: LYNC-SE.fabrikam.com，
 
-ConferencingServer： LYNC SE. fabrikam
+ConferencingServer:LYNC-SE.fabrikam
 
-com、MediationServer： LYNC-SE。
+com、 MediationServer:LYNC-SE。
 
 fabrikam.com}
 
-ServiceId： fabrikam.com-EdgeServer-2
+ServiceId: fabrikam.com-EdgeServer-2
 
-SiteId： site:fabrikam
+SiteId: site:fabrikam.com
 
-PoolFqdn： dc.fabrikam.com
+PoolFqdn: dc.fabrikam.com
 
-版本：5
+版： 5
 
 角色： EdgeServer
 
@@ -169,65 +169,65 @@ PoolFqdn： dc.fabrikam.com
 
 ## <a name="check-federation-settings"></a>檢查同盟設定
 
-檢查同盟設定（例如是否已設定），如果答案是 "是，"，FQDN 和埠。 同盟是透過使用存取邊緣設定的全域集合來啟用和停用。 在其他專案中，這些代表將同盟設定為全或全是完全相同：針對整個組織啟用同盟，或針對整個組織停用同盟
+檢查同盟設定，例如是否設定，若答案為"yes，"，FQDN 和連接埠。 啟用並使用 Access Edge 組態設定的全域集合來停用同盟。 除此之外，這些表示同盟已根據全： 同盟啟用整個組織或整個組織的已停用同盟
 
-您可以使用 Windows PowerShell 傳回您的存取邊緣設定。 若要執行此動作，請執行下列 Windows PowerShell 命令：
+使用 Windows PowerShell，可以傳回 Access Edge 組態設定。 若要這麼做，請執行下列 Windows PowerShell 命令：
 
 `Get-CsAccessEdgeConfiguration`
 
-接著，該命令會傳回如下所示的資料：
+接著，該命令會傳回資料類似這樣：
 
-身分識別：全域
+身分識別： 全域
 
-AllowAnonymousUsers： False
+AllowAnonymousUsers: False
 
-AllowFederatedUsers： False
+AllowFederatedUsers: False
 
-AllowOutsideUsers： False
+AllowOutsideUsers: False
 
-BeClearingHouse： False
+BeClearingHouse: False
 
-EnablePartnerDiscovery： False
+將 EnablePartnerDiscovery: False
 
-EnableArchivingDisclaimer： False
+EnableArchivingDisclaimer: False
 
-KeepCrlsUpToDateForPeers： True
+KeepCrlsUpToDateForPeers: True
 
-MarkSourceVerifiableOnOutgoingMessages： True
+MarkSourceVerifiableOnOutgoingMessages: True
 
-OutgoingTlsCountForFederatedPartners：4
+OutgoingTlsCountForFederatedPartners: 4
 
-RoutingMethod : UseDnsSrvRouting
+RoutingMethod: UseDnsSrvRouting
 
-如果**AllowFederatedUsers**屬性設為 True，則表示您的組織已啟用同盟。 （將**AllowFederatedUsers**設定為 True 也表示，在分割網域案例中，您的內部部署使用者將能夠與雲端使用者順暢地溝通。）
+如果**AllowFederatedUsers**屬性設為 True，這表示，為您的組織啟用同盟。 （設定為 True 也會表示，在分割網域案例中，您的內部部署使用者將能夠與您在雲端使用者順暢地溝通**AllowFederatedUsers** ）。
 
-若要取得邊緣伺服器的 FQDN 和埠設定，請參閱上一個工作（邊緣伺服器及其設定）。
+若要擷取的 FQDN 和連接埠設定為您的 Edge Server，請參閱 < 在之前的工作 （Edge Server 和其設定）。
 
-在全域範圍中啟用同盟，只表示使用者可能會與聯盟使用者通訊。 若要判斷是否有任何個別的使用者都能實際與同盟使用者通訊，需要您檢查指派給該使用者的外部使用者存取原則。
+啟用全域範圍的聯盟只表示使用者可能可以與同盟使用者進行通訊。 若要判斷任何個別的使用者是否可以與同盟使用者實際通訊需要您檢查指派給該使用者的外部使用者存取原則。
 
-外部使用者存取訊號可以使用 Windows PowerShell 傳回。 例如，這個命令會傳回全域外部使用者存取原則的資訊：
+使用 Windows PowerShell，可以傳回外部使用者存取資訊。 例如，此命令會傳回通用的外部使用者存取原則的資訊：
 
 `Get-CsExternalAccessPolicy -Identity "Global"`
 
-這個命令會傳回所有外部使用者存取原則的資訊：
+而此命令會傳回所有外部使用者存取原則的資訊：
 
 `Get-CsExternalAccessPolicy`
 
-傳回的資訊將如下所示：
+傳回的資訊會類似這樣：
 
 身分識別： False
 
-說明
+描述：
 
-EnableFederationAccess： False
+EnableFederationAccess: False
 
-EnablePublicCloudAccess： False
+EnablePublicCloudAccess: False
 
-EnablePublicCloudAccessAudioVideoAccess： False
+EnablePublicCloudAccessAudioVideoAccess: False
 
-EnableOutsideAccess： False
+EnableOutsideAccess: False
 
-如果**EnableFederationAccess**設定為 True，則由指定原則管理的使用者可以與聯盟使用者通訊。
+**EnableFederationAccess**設定為 True，如果指定的原則所管理的使用者能夠與同盟使用者。
 
 </div>
 
@@ -235,139 +235,139 @@ EnableOutsideAccess： False
 
 <div>
 
-## <a name="check-archiving-settings"></a>檢查存檔設定
+## <a name="check-archiving-settings"></a>檢查封存設定
 
-檢查內部和聯盟通訊的封存設定。在驗證內部和外部封存的設定前，您應該確認已啟用封存。
+檢查內部和同盟通訊的封存設定值。前驗證設定內部和外部封存，您應該確認已啟用封存。
 
-您可以使用 Windows PowerShell 和 CsArchivingConfiguration Cmdlet 來驗證封存配置設定：
+使用 Windows PowerShell 和 Get-csarchivingconfiguration cmdlet 可驗證封存組態設定：
 
 `Get-CsArchivingConfiguration -Identity "Global"`
 
-請注意，您也可以在網站範圍中設定存檔設定。 若要傳回所有存檔設定的相關資訊，請使用此命令：
+請注意，封存設定也可以設定在網站範圍。 若要傳回所有封存設定的相關資訊，請使用此命令：
 
 `Get-CsArchivingConfiguration`
 
-CsArchivingConfiguration Cmdlet 會傳回類似以下所示的資料：
+Get-csarchivingconfiguration cmdlet 會傳回類似下列的資料：
 
-身分識別：全域
+身分識別： 全域
 
-EnableArchiving： False
+EnableArchiving: False
 
-EnablePurging： False
+EnablePurging: False
 
-PurgeExportedArchivesOnly： False
+PurgeExportedArchivesOnly: False
 
-BlockOnArchiveFailure： False
+BlockOnArchiveFailure: False
 
-KeepArchivingDataForDays：14
+KeepArchivingDataForDays: 14
 
-PurgeHourOfDay：2
+PurgeHourOfDay: 2
 
-ArchiveDuplicateMessages： True
+ArchiveDuplicateMessages: True
 
-CachePurgingInterval：24
+CachePurgingInterval: 24
 
-如果 EnableArchiving 屬性設為 False，即表示不會封存任何通訊會話。 如果您只想封存立即訊息會話，請使用如下所示的命令來啟用 IM 會話的存檔：
-
-`Set-CsArchivingConfiguration -Identity "Global" -EnableArchiving "IMOnly"`
-
-若要封存會議會話與立即訊息會話，請使用此命令：
+如果 EnableArchiving 屬性設為 False，表示沒有通訊工作階段將會封存。 如果您想要封存立即訊息工作階段僅，使用如下所示的命令來啟用 IM 工作階段的封存：
 
 `Set-CsArchivingConfiguration -Identity "Global" -EnableArchiving "IMOnly"`
 
-如果您想要將目前的存檔設定與預設設定進行比較，請執行下列 Windows PowerShell 命令：
+若要封存會議工作階段和立即訊息工作階段，請使用此命令：
+
+`Set-CsArchivingConfiguration -Identity "Global" -EnableArchiving "IMOnly"`
+
+如果您想要比較目前的封存設定具有預設設定，請執行下列 Windows PowerShell 命令：
 
 `New-CsArchivingConfiguration -Identity "Global" -InMemory`
 
-該命令會建立全域存檔設定的內部記憶體式實例。 這不是 Lync Server 所使用的真正設定集合。 不過，它會顯示所有存檔設定屬性的預設值。
+該命令會建立全域封存組態設定中的記憶體-僅限執行個體。 這不是實際的設定集合使用的 Lync Server。 不過，它並未顯示所有的封存設定屬性的預設值。
 
-您也可以使用這個命令來傳回封存伺服器的 FQDN：
+您也可以使用此命令來傳回一部封存伺服器的 FQDN:
 
 `Get-CsService -ArchivingServer`
 
-確認已啟用封存之後，您就可以查看您的封存原則，判斷內部和外部通訊會話是否已歸檔。
+確認啟用封存之後，然後，您就可以檢視您封存原則，以判斷是否內部及封存外部通訊工作階段。
 
-您可以使用 CsArchivingPolicy Cmdlet 來檢索存檔原則資訊。 例如，這個命令會傳回全域存檔原則的相關資訊：
+使用 Get-csarchivingpolicy 指令程式可以擷取封存原則資訊。 例如，此命令會傳回通用的封存原則的相關資訊：
 
 `Get-CsArchivingPolicy -Identity "Global"`
 
-因為歸檔原則也可以在網站和每個使用者的範圍內設定，所以您可能也會想要使用此命令，以傳回所有歸檔原則的相關資訊：
+因為封存原則也可以在網站和個別使用者範圍設定，您可能還想要使用此命令，它會傳回所有的封存原則的相關資訊：
 
 `Get-CsArchivingPolicy`
 
-從 CsArchivingPolicy 收到的資訊將如下所示：
+您收到來自 Get-csarchivingpolicy 的資訊會類似這樣：
 
-身分識別：全域
+身分識別： 全域
 
-說明
+描述：
 
-ArchiveInternal： False
+將 ArchiveInternal: False
 
-ArchiveExternal： False
+ArchiveExternal: False
 
-請注意，在預設情況下，內部和外部封存都會在歸檔原則中停用。
+請注意，根據預設，內部和外部封存中會停用封存原則。
 
 </div>
 
 <div>
 
-## <a name="check-cdr-settings"></a>檢查 CDR 設定
+## <a name="check-cdr-settings"></a>請檢查 CDR 設定
 
-檢查對等、會議和語音通話詳細資料錄製的通話詳細資料記錄（CDR）設定。 您的 CDR 設定的詳細資訊可以使用**CsCdrConfiguration** Cmdlet 傳回。 例如，這個命令會傳回有關 CDR 配置設定的全域集合的資訊：
+檢查端對端、 會議及語音詳細通話記錄的詳細通話記錄 (CDR) 設定。 使用**Get-cscdrconfiguration** cmdlet，可以傳回關於 CDR 設定的詳細的資訊。 例如，此命令會傳回關於 CDR 全域集合的組態設定：
 
 `Get-CsCdrConfiguration -Identity "Global"`
 
-因為 CDR 也可以在網站範圍進行設定，所以您可能也想要執行此命令，以傳回所有 CDR 設定設定的相關資訊：
+CDR 也可以在網站範圍設定，因為您可能還想要執行此命令，傳回所有 CDR 組態設定的相關資訊：
 
 `Get-CsCdrConfiguration`
 
-CsCdrConfiguration Cmdlet 會針對每個 CDR 設定設定的集合傳回如下所示的資訊：
+Get-cscdrconfiguration cmdlet 會傳回每個集合的 CDR 組態設定這類似下列的資訊：
 
-身分識別：全域
+身分識別： 全域
 
-EnableCDR： True
+EnableCDR: True
 
-EnablePurging： True
+EnablePurging: True
 
-KeepCallDetailForDays：60
+KeepCallDetailForDays: 60
 
-KeepErrorReportForDays：60
+KeepErrorReportForDays: 60
 
-PurgeHourOfDay：2
+PurgeHourOfDay: 2
 
-您可以使用 CsQoEConfiguration Cmdlet 傳回 QoE 監視的類似資訊。 例如，這個命令會傳回 QoE 設定的全域集合資訊：
+類似的資訊可以被傳回 qoe 監控使用 Get-csqoeconfiguration 指令程式。 例如，此命令會傳回全域的 QoE 組態設定集合的相關資訊：
 
 `Get-QoEConfiguration -Identity "Global"`
 
-該資訊將如下所示：
+該資訊將會看起來像：
 
-身分識別：全域
+身分識別： 全域
 
-ExternalConsumerIssuedCertId :
+ExternalConsumerIssuedCertId:
 
-EnablePurging： True
+EnablePurging: True
 
-KeepQoEDataForDays：60
+KeepQoEDataForDays: 60
 
-PurgeHourOfDay：1
+PurgeHourOfDay: 1
 
-EnableExternalConsumer： False
+EnableExternalConsumer: False
 
-ExternalConsumerName :
+ExternalConsumerName:
 
-ExternalConsumerURL :
+ExternalConsumerURL:
 
-EnableQoE： True
+EnableQoE: True
 
-如果您想要將目前的 CDR 設定與預設的 CDR 設定進行比較，您可以執行以下命令來查看預設值：
+如果您想要比較目前的 CDR 設定與預設 CDR 設定，可以執行這個命令檢閱預設值：
 
 `New-CsCdrConfiguration -Identity "Global" -InMemory`
 
-同樣地，您可以使用此命令來檢索 QoE 監視的預設值：
+同樣地，可以使用此命令擷取 QoE 監控的預設值：
 
 `New-CsQoEConfiguration -Identity "Global" -InMemory`
 
-您也可以執行此命令，以傳回監視伺服器的 FQDN：
+您也可以藉由執行此命令傳回的監控伺服器的 FQDN:
 
 `Get-CsService -MonitoringServer`
 
@@ -375,85 +375,85 @@ EnableQoE： True
 
 <div>
 
-## <a name="check-voice-settings"></a>檢查語音設定
+## <a name="check-voice-settings"></a>請檢查語音設定
 
-在語音原則和語音路由中，語音原則通常都包含管理員的重要資訊：語音原則包含決定個別使用者所公開之功能的設定（例如轉寄或轉接來電的能力），同時語音路由決定如何在 PSTN 上路由（以及 if）通話。
+系統管理員通常是重要的語音設定都包含在語音原則和語音路由： 語音原則包含判斷對個別使用者 （例如能夠順向或轉接電話），同時公開功能的設定語音路由決定如何 （以及如果） PSTN 之間路由傳送通話。
 
-您可以使用 Windows PowerShell 來檢索語音原則資訊。 例如，這個命令會傳回有關全域語音原則的資訊：
+可以使用 Windows PowerShell 擷取語音原則資訊。 例如，此命令會傳回全域語音原則的相關資訊：
 
 `Get-CsVoicePolicy -Identity "Global"`
 
-這個命令會傳回已設定為在組織中使用之所有語音原則的相關資訊：
+而此命令會傳回設定供組織使用的所有語音原則的相關資訊：
 
 `Get-CsVoicePolicy`
 
-CsVoicePolicy Cmdlet 傳回的資訊如下所示：
+Get-csvoicepolicy cmdlet 所傳回的資訊類似如下：
 
-身分識別：全域
+身分識別： 全域
 
-PstnUsages :{}
+PstnUsages:{}
 
-說明
+描述：
 
-AllowSimulRing： True
+AllowSimulRing: True
 
-AllowCallForwarding： True
+AllowCallForwarding: True
 
-AllowPSTNReRouting： True
+AllowPSTNReRouting: True
 
 名稱： DefaultPolicy
 
-EnableDelegation： True
+EnableDelegation: True
 
-EnableTeamCall： True
+EnableTeamCall: True
 
-EnableCallTransfer： True
+EnableCallTransfer: True
 
-EnableCallPark： False
+EnableCallPark: False
 
-EnableMaliciousCallTracing： False
+EnableMaliciousCallTracing: False
 
-EnableBWPolicyOverride： False
+EnableBWPolicyOverride: False
 
-PreventPSTNTollBypass： False
+PreventPSTNTollBypass: False
 
-您也可以建立傳回您語音原則子集的查詢。 例如，這個命令會傳回所有允許來電轉接的語音原則：
+您也可以建立傳回您的語音原則的子集的查詢。 例如，此命令會傳回所有允許來電轉接的語音原則：
 
 `Get-CsVoicePolicy | Where-Object {$_.AllowCallForwarding -eq $True}`
 
-這個命令會傳回所有不允許來電轉接的語音原則：
+而此命令會傳回所有不允許來電轉接的語音原則：
 
 `Get-CsVoicePolicy | Where-Object {$_.AllowCallForwarding -eq $False}`
 
-在 Windows PowerShell 中，請使用 CsVoiceRouting Cmdlet 傳回有關語音路由的資訊：
+在 Windows PowerShell 中使用 Get-CsVoiceRouting cmdlet 傳回語音路由的資訊：
 
 `Get-CsVoiceRoute`
 
-該命令會傳回所有語音路由等相關資訊：
+該命令會傳回這項目的所有語音路由的資訊：
 
 身分識別： LocalRoute
 
-優先順序：0
+優先順序： 0
 
-說明
+描述：
 
-NumberPattern： ^ （\\+ 1\[0-9\]{10}） $
+NumberPattern: ^ (\\+ 1\[0-9\]{10}) $
 
-PstnUsages :{}
+PstnUsages:{}
 
-PstnGatewayList :{}
+PstnGatewayList:{}
 
 名稱： LocalRoute
 
-SuppressCallerId :
+SuppressCallerId:
 
-AlternateCallerId :
+AlternateCallerId:
 
-Lync Server 可讓您建立沒有 PSTN 使用狀況且沒有指定 PSTN 閘道的語音路由。 不過，您無法實際路由呼叫的語音路線沒有設定這兩個屬性值。 因此，您可能會發現定期執行此命令會很有用，這會傳回沒有 PSTN 用法之任何語音路由的身分識別：
+Lync Server 可讓您建立語音路由，不需要 PSTN 使用方式，而且未指定 PSTN 閘道。 不過，您不能透過語音路由，不需要設定下列兩個屬性值實際上路由通話。 因此，您可能會覺得定期執行此命令，它會傳回任何不需要 PSTN 使用方式的語音路由的身分識別：
 
 `Get-CsVoiceRoute | Where-Object {$_.PstnUsages -eq $Null} | Select-Object Identity`
 
-同樣地，這個命令會傳回尚未設定為有 PSTN 閘道之任何語音路由的身分識別：
+同樣地，此命令會傳回任何尚未設定為有 PSTN 閘道的語音路由的身分識別：
 
 `Get-CsVoiceRoute | Where-Object {$_.PstnGatewayList -eq $Null}} | Select-Object Identity`
 
@@ -461,27 +461,27 @@ Lync Server 可讓您建立沒有 PSTN 使用狀況且沒有指定 PSTN 閘道�
 
 <div>
 
-## <a name="check-conferencing-attendant-settings"></a>檢查會議助理設定
+## <a name="check-conferencing-attendant-settings"></a>請檢查會議服務員設定
 
-查看 PSTN 電話撥入式會議的會議助理設定。 只能使用**CsDialInConferencingConfiguration** Cmdlet 來檢索會議助理設定。 [Lync Server 控制台] 無法使用這些設定。 若要查看您的會議助理設定，請使用類似下列的 Windows PowerShell 命令，這會傳回會議助理設定的全域集合：
+檢查 PSTN 電話撥入式會議的會議服務員設定。 僅能使用**Get-csdialinconferencingconfiguration**指令程式擷取會議服務員設定。 這些設定不在 Lync Server Control Panel 中使用。 若要檢視您的會議服務員設定，請使用類似下列項目，它會傳回會議服務員設定全域集合的 Windows PowerShell 命令：
 
 `Get-CsDialInConferencingConfiguration -Identity "Global"`
 
-請注意，會議助理設定也可以在網站範圍中設定。 若要傳回所有會議助理設定的相關資訊，請改為使用此命令：
+請注意也可以在網站範圍設定會議服務員設定。 若要傳回所有會議服務員設定的相關資訊，請改為使用此命令：
 
 `Get-CsDialInConferencingConfiguration`
 
-CsDialInConferencingConfiguration Cmdlet 會傳回類似以下所示的資料：
+Get-csdialinconferencingconfiguration cmdlet 會傳回類似下列的資料：
 
-身分識別：全域
+身分識別： 全域
 
-EntryExitAnnouncementsType : UseNames
+EntryExitAnnouncementsType: UseNames
 
-EnableNameRecording： True
+EnableNameRecording: True
 
-EntryExitAnnouncementsEnabledByDefault： False
+EntryExitAnnouncementsEnabledByDefault: False
 
-如果 EntryExitAnnouncementsEnabledByDefault 設定為 False，即表示會議宣告已停用。 若要啟用進入及結束宣告，請執行如下所示的 Windows PowerShell 命令：
+如果 EntryExitAnnouncementsEnabledByDefault 設為 False，表示會議宣告已停用。 若要啟用進入與離開宣告，執行 Windows PowerShell 命令類似這樣：
 
 `Set-CsDialInConferencingConfiguration -Identity "Global" -EntryExitAnnouncementsEnabledByDefault $True`
 
@@ -489,20 +489,20 @@ EntryExitAnnouncementsEnabledByDefault： False
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
-[CsSipDomain](https://docs.microsoft.com/powershell/module/skype/Get-CsSipDomain)  
-[CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsMeetingConfiguration)  
-[Get-CsService](https://docs.microsoft.com/powershell/module/skype/Get-CsService)  
-[CsAccessEdgeConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsAccessEdgeConfiguration)  
-[Get-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsExternalAccessPolicy)  
-[CsArchivingConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsArchivingConfiguration)  
-[CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsCdrConfiguration)  
-[CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsQoEConfiguration)  
-[CsVoicePolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsVoicePolicy)  
-[CsVoiceRoute](https://docs.microsoft.com/powershell/module/skype/Get-CsVoiceRoute)  
-[CsDialInConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsDialInConferencingConfiguration)  
+[Get-cssipdomain](https://docs.microsoft.com/powershell/module/skype/Get-CsSipDomain)  
+[Get-csmeetingconfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsMeetingConfiguration)  
+[Get-csservice](https://docs.microsoft.com/powershell/module/skype/Get-CsService)  
+[Get-csaccessedgeconfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsAccessEdgeConfiguration)  
+[Get-csexternalaccesspolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsExternalAccessPolicy)  
+[Get-csarchivingconfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsArchivingConfiguration)  
+[Get-cscdrconfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsCdrConfiguration)  
+[Get-csqoeconfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsQoEConfiguration)  
+[Get-csvoicepolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsVoicePolicy)  
+[Get-csvoiceroute](https://docs.microsoft.com/powershell/module/skype/Get-CsVoiceRoute)  
+[Get-csdialinconferencingconfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsDialInConferencingConfiguration)  
   
 
 </div>

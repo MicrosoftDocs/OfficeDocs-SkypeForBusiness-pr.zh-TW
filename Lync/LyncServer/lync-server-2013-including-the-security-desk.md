@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：包括安全服務台
+title: Lync Server 2013： 包括安全性桌面
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184084
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d792626a973a790313b2cdc1bd9df9092175f28a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 99f35087d03b046fade741140dc3f5522e6c6d05
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763807"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038665"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="including-the-security-desk-in-lync-server-2013"></a>包括 Lync Server 2013 中的安全服務台
+# <a name="including-the-security-desk-in-lync-server-2013"></a>Lync Server 2013 中包括安全性桌面
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41763807"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-02_
+_**主題上次修改日期：** 2012年-10-02_
 
-您的公司可能需要安全服務台才能參與緊急通話。 若要協助您決定如何將安全服務台整合至 E9-1 1 1，您應該回答下列問題。
+您的公司可能需要警衛室介入處理緊急通話。為了協助決定如何將警衛室整合至 E9-1-1 部署，您應該回答下列問題。
 
-  - **您希望安全服務台在有緊急通話時收到通知嗎？**  
-    您可以設定位置原則，讓 Lync Server 將立即訊息（IM）通知傳送給一或多個安全性人員的 Lync SIP 位址。 這些警示包含撥入緊急通話之人員的名稱、電話號碼和地點，以及協助安全人員協助緊急情況。
+  - **您是否希望在有人撥打緊急通話時通知警衛室？**  
+    您可以設定的位置原則，讓該 Lync Server 傳送立即訊息 (IM) 提醒一或多個安全性人員的 Lync SIP 位址。 這些通知包含撥打緊急電話的人員名稱、號碼及位置，以加速安全人員協助處理緊急狀況。
 
 <!-- end list -->
 
-  - **您是否想要在每次緊急通話中舉行安全服務台？**  
-    如果緊急服務服務提供者支援，您可以設定位置原則，在每次緊急通話中加入回撥號碼。 然後，提供者會使用這個數位，將貴組織的安全性人員加入緊急通話中。 此會議可在位置原則中設定為單向（僅供聆聽）或雙向（雙向）。
+  - **您想要針對每一通緊急通話都邀請警衛室參加會議嗎？**  
+    只要緊急服務服務提供者有支援，您可以設定位置原則，以隨每通緊急通話附上回撥號碼。然後提供者就會針對緊急電話，使用此號碼來召集您組織的安全人員開會。此會議可在位置原則中設定為單向 (只能聆聽) 或雙向。
 
 <div>
 
 
 > [!NOTE]  
-> 如有需要，您可以針對每個位置原則設定不同的緊急人員。 這可讓您自訂公司內部不同區域的回應，或針對來源於網路以外的緊急呼叫建立不同的行為。 您可以使用通訊群組來指定您想要通知的人員。
+> 必要時，您可以為每個位置原則設定不同的緊急人員。這樣可讓您針對公司內的不同區域自訂回應，或針對來自網路內部和外部的緊急電話分別建立不同的行為。您可以使用通訊群組來指定想要通知的人員。
 
 
 

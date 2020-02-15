@@ -1,5 +1,5 @@
 ---
-title: 憑證摘要 - 調整式 Director 集區 (硬體負載平衡器)
+title: 憑證摘要-調整式 Director 集區、 硬體負載平衡器
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183992
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: efcecbd1ec0c486e888a8c7303e450f75abf05bc
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 79f0ed7eea237c459ec3d42526f25a2b02429906
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736583"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038385"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="certificate-summary---scaled-director-pool-hardware-load-balancer-in-lync-server-2013"></a>Lync Server 2013 中的憑證摘要 - 調整式 Director 集區 (硬體負載平衡器)
+# <a name="certificate-summary---scaled-director-pool-hardware-load-balancer-in-lync-server-2013"></a>憑證摘要-調整式 Director 集區、 Lync Server 2013 中的硬體負載平衡器
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41736583"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-20_
+_**主題上次修改日期：** 2012年-10-20 個_
 
-具有硬體負載平衡器之主管的憑證需求將會使用預設認證，該預設憑證具有 [受領人名稱] 和 [消費者名稱] 的預設憑證，且可供控制器擁有者接收。 針對池中的每個主管要求憑證。 此外，在每個伺服器上安裝的伺服器到伺服器驗證目的都有 OAuth 權杖憑證。
+硬體負載平衡器與 Director 的憑證需求會使用預設的憑證具有主旨名稱和主體替代名稱，可接收的 Director 集區的服務。 憑證要求的每個 Director 集區中。 此外，每部伺服器上還會安裝針對伺服器對伺服器驗證使用的 OAuth Token 憑證。
 
-### <a name="certificates-for-a-scaled-director-using-a-hardware-load-balancer"></a>使用硬體負載平衡器的縮放控制器憑證
+### <a name="certificates-for-a-scaled-director-using-a-hardware-load-balancer"></a>使用硬體負載平衡器的調整式 Director 的憑證
 
 <table>
 <colgroup>
@@ -51,14 +51,14 @@ _**主題上次修改日期：** 2012-10-20_
 <thead>
 <tr class="header">
 <th>元件</th>
-<th>消費者名稱（SN）</th>
-<th>消費者備用名稱（SAN）</th>
-<th>批註</th>
+<th>主體名稱 (SN)</th>
+<th>主體替代名稱 (SAN)</th>
+<th>註解</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>設置</p></td>
+<td><p>預設</p></td>
 <td><p>dirpool01.contoso.net</p></td>
 <td><p>dirpool01.contoso.net</p>
 <p>dir01.contoso.net</p>
@@ -66,23 +66,23 @@ _**主題上次修改日期：** 2012-10-20_
 <p>meet.contoso.com</p>
 <p>lyncdiscoverinternal.contoso.com</p>
 <p>lyncdiscover.contoso.com</p>
-<p>（選擇性） *. contoso.com</p></td>
-<td><p>您可以從內部管理的憑證授權單位（CA）或公用 CA 來要求控制器證書。</p>
-<p>控制器會回應來自週邊或從邊緣伺服器的反向 proxy 要求。</p>
-<p>或者，簡單 Url 的萬用字元專案</p></td>
+<p>(選用) *.contoso.com</p></td>
+<td><p>可向內部管理的憑證授權單位 (CA) 或公用 ca 要求 director 的憑證。</p>
+<p>Director 回應要求從周邊網路中的反向 proxy 或 Edge Server。</p>
+<p>或是簡單 URL 的萬用字元項目</p></td>
 </tr>
 <tr class="even">
 <td><p>OAuthTokenIssuer</p></td>
 <td><p>dir01.contoso.net</p></td>
-<td><p>無專案</p></td>
+<td><p>無項目</p></td>
 <td>
 
 
 > [!IMPORTANT]
-> 請注意，最小金鑰長度是1024，但是您可能會收到「建議」金鑰長度最小的警告（2048位）。
+> 請注意，雖然最小金鑰長度是 1024，但是您可能會收到警告表示建議最小金鑰長度為 2048 位元。
 
 
-<p>OAuthTokenIssuer 憑證是單一用途的憑證，目的在於驗證大型環境中的伺服器，而且可以從內部 CA 或公用 CA 進行申請。 需要證書。</p></td>
+<p>OAuthTokenIssuer 憑證是單一目的憑證，用於驗證大規模環境中的伺服器，且可向內部 CA 或公用 CA 要求。此憑證為必要。</p></td>
 </tr>
 </tbody>
 </table>

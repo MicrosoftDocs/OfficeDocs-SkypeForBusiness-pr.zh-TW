@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：tblScopePrincipal
+title: 'Lync Server 2013: tblScopePrincipal'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184009
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 72c6f15b2f0a219871436fe4451984abfddc947a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ab3faccea0ba914ca17c9aefcd0ea112e5b58a96
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764073"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037473"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41764073"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-09-12_
+_**主題上次修改日期：** 2012年-09-12_
 
-tblScopePrincipal 包含指派給節點的作用中。
+tblScopePrincipal 包含指派給節點的範圍。
 
-### <a name="columns"></a>分欄
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -49,37 +49,37 @@ tblScopePrincipal 包含指派給節點的作用中。
 </colgroup>
 <thead>
 <tr class="header">
-<th>左欄</th>
-<th>類型</th>
-<th>說明</th>
+<th>欄</th>
+<th>類型	</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>scopeNodeID</p></td>
-<td><p>int，not null</p></td>
-<td><p>作用中所適用的節點識別碼。</p></td>
+<td><p>int，非 null</p></td>
+<td><p>若要套用該範圍的節點識別碼。</p></td>
 </tr>
 <tr class="even">
 <td><p>scopePrinID</p></td>
-<td><p>int，not null</p></td>
-<td><p>Principal ID。</p></td>
+<td><p>int，非 null</p></td>
+<td><p>主體識別碼。</p></td>
 </tr>
 <tr class="odd">
 <td><p>scopeIsDenied</p></td>
-<td><p>bit、not null</p></td>
-<td><p>如果範圍類型為 Deny，則為 True;如果允許，則為 False。</p></td>
+<td><p>位元，非 null</p></td>
+<td><p>True 是表示如果範圍類型是 Deny;False 表示允許。</p></td>
 </tr>
 <tr class="even">
 <td><p>scopeUpdatedBy</p></td>
-<td><p>int，not null</p></td>
-<td><p>上次更新此專案的主體 ID。</p></td>
+<td><p>int，非 null</p></td>
+<td><p>上次更新此項目之主體的識別碼。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a>鍵
+### <a name="keys"></a>索引鍵
 
 <table>
 <colgroup>
@@ -88,22 +88,22 @@ tblScopePrincipal 包含指派給節點的作用中。
 </colgroup>
 <thead>
 <tr class="header">
-<th>左欄</th>
-<th>說明</th>
+<th>欄</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>&lt;scopeNodeID, scopePrinID&gt;</p></td>
-<td><p>主鍵。</p></td>
+<td><p>&lt;scopeNodeID scopePrinID&gt;</p></td>
+<td><p>主索引鍵。</p></td>
 </tr>
 <tr class="even">
 <td><p>scopeNodeID</p></td>
-<td><p>在 tblNode 資料表中使用 [查閱] 的外鍵。</p></td>
+<td><p>在 tblNode.nodeID 表格中查閱外部索引鍵。</p></td>
 </tr>
 <tr class="odd">
 <td><p>scopePrinID</p></td>
-<td><p>在 tblPrincipal prinID 資料表中使用 [查閱] 的外鍵。</p></td>
+<td><p>在 tblPrincipal.prinID 表格中查閱外部索引鍵。</p></td>
 </tr>
 </tbody>
 </table>

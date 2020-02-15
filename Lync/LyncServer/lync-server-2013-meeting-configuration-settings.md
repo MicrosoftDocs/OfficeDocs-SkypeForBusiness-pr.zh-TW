@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：會議配置設定
+title: Lync Server 2013： 會議組態設定
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733637
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aa234a4420c1bec54cd673eb59d254e07deab8f8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9b5a3176067d7ec9927165bd13b6b1a34dfb00d9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41766054"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42039456"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="meeting-configuration-settings-in-lync-server-2013"></a>Lync Server 2013 中的會議配置設定
+# <a name="meeting-configuration-settings-in-lync-server-2013"></a>Lync Server 2013 中的會議組態設定
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "41766054"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-11-01_
+_**主題上次修改日期：** 2012年-11-01_
 
-在 Lync Server 2013 中，會議原則會定義使用者排程和參與經驗，以及 [會議設定] 頁面上的 [會議加入設定] 定義下列各項：
+在 Lync Server 2013 中，會議原則定義使用者的排程和參與體驗，而會議加入設定位於會議設定] 頁面上定義下列：
 
-  - 從公用交換電話網絡（PSTN）撥入的使用者是否會移至大廳
+  - 是否將以公用交換電話網路 (PSTN) 撥入的使用者帶到大廳
 
-  - 誰可以是簡報者
+  - 誰可以成為簡報者
 
-  - 預設是否指派會議類型
+  - 是否依預設值指派會議類型
 
-  - 預設是否承認匿名（未經授權）使用者
+  - 預設是否允許匿名 (未授權) 使用者加入
 
-本節中的主題描述如何設定會議加入設定。
+本節中的主題將說明如何進行會議加入設定。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [在 Lync Server 2013 中查看會議配置設定](lync-server-2013-view-meeting-configuration-settings.md)
+  - [檢視會議組態設定 Lync Server 2013 中](lync-server-2013-view-meeting-configuration-settings.md)
 
-  - [在 Lync Server 2013 中建立或修改會議配置設定的集合](lync-server-2013-create-or-modify-a-collection-of-meeting-configuration-settings.md)
+  - [建立或修改會議 Lync Server 2013 中的組態設定集合](lync-server-2013-create-or-modify-a-collection-of-meeting-configuration-settings.md)
 
-  - [刪除 Lync Server 2013 中現有的會議配置設定集合](lync-server-2013-delete-an-existing-collection-of-meeting-configuration-settings.md)
+  - [刪除現有的會議 Lync Server 2013 中的組態設定集合](lync-server-2013-delete-an-existing-collection-of-meeting-configuration-settings.md)
 
 </div>
 

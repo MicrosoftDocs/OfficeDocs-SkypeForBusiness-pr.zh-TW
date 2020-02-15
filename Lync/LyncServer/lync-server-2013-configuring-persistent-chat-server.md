@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：設定常設聊天室伺服器
+title: 'Lync Server 2013: Configuring Persistent Chat Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185635
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f5afdd0a77cdba7c770a15adc549758db2a07af8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f2908cd36d7b40cf2fc041b77305ca83bc197b17
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756307"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041092"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-persistent-chat-server-in-lync-server-2013"></a>在 Lync Server 2013 中設定常設聊天室伺服器
+# <a name="configuring-persistent-chat-server-in-lync-server-2013"></a>Lync Server 2013 中設定常設聊天室伺服器
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41756307"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-04-12_
+_**主題上次修改日期：** 2012年-04-12_
 
-在為 Lync Server 2013 部署支援後，請在拓撲建立器中使用 [Lync Server 2013] 控制台來設定持久聊天伺服器在您的部署中的執行方式。
+部署 Lync Server 2013，Persistent Chat Server 拓撲產生器] 中的支援之後您可以使用 Lync Server 2013 控制台來設定您在部署中實作 Persistent Chat Server 的方式。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [在 Lync Server 2013 中啟用常設聊天室伺服器原則](lync-server-2013-enable-persistent-chat-server-policy.md)
+  - [啟用 Lync Server 2013 中的常設聊天室伺服器原則](lync-server-2013-enable-persistent-chat-server-policy.md)
 
-  - [在 Lync Server 2013 中以全域方式設定或針對常設聊天室伺服器集區設定常設聊天室伺服器選項](lync-server-2013-configure-persistent-chat-server-options-globally-or-for-persistent-chat-server-pool.md)
+  - [在 Lync Server 2013 中全域或針對常設聊天室伺服器集區設定常設聊天室伺服器選項](lync-server-2013-configure-persistent-chat-server-options-globally-or-for-persistent-chat-server-pool.md)
 
-  - [在 Lync Server 2013 中設定類別](lync-server-2013-configure-categories.md)
+  - [設定 Lync Server 2013 中的類別](lync-server-2013-configure-categories.md)
 
-  - [在 Lync Server 2013 中設定聊天室](lync-server-2013-configure-rooms.md)
+  - [Lync Server 2013 中設定聊天室](lync-server-2013-configure-rooms.md)
 
-  - [在 Lync Server 2013 中為聊天室設定增益集](lync-server-2013-configure-add-ins-for-rooms.md)
+  - [在 Lync Server 2013 中設定聊天室的增益集](lync-server-2013-configure-add-ins-for-rooms.md)
 
 </div>
 

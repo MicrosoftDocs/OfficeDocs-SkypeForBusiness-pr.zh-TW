@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：埠摘要-公用立即訊息連線
+title: Lync Server 2013： 連接埠摘要-公用立即訊息連線
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49105663
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 16430849221631d9b540f5ee51b0a07758a38b05
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 87a51e2030c17e7ed228a75b474b168a74924cb2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725053"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038375"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="port-summary---public-instant-messaging-connectivity-in-lync-server-2013"></a>埠摘要-Lync Server 2013 中的公用立即訊息連線能力
+# <a name="port-summary---public-instant-messaging-connectivity-in-lync-server-2013"></a>連接埠摘要-公用立即訊息 [Lync Server 2013 中的連線能力
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41725053"
 
 <span> </span>
 
-_**主題上次修改日期：** 2013-02-16_
+_**上次修改主題：** 2013年-02-16_
 
-若要針對支援公用立即訊息連線的埠和通訊協定設定您的防火牆，請先注意，SIP/MTLS/TCP 5061 是雙向的，以將公用 IM 提供者的連絡人連線到 Lync 用戶端，或是 Lync 與公用 IM 連絡人聯繫。
+若要設定防火牆連接埠和通訊協定支援公用立即訊息連線必要，請先注意 SIP/MTLS/TCP 5061 是雙向帳戶中的公用 IM 提供者的連絡人能夠連絡 Lync 用戶端，或連絡公用 IM 連絡人的 Lync。
 
-Windows Live Messenger 可以使用 Lync 用戶端參與音訊/視頻通訊。 這個帳戶是您在防火牆上通常會有的類似防火牆埠和通訊協定設定，以支援 Lync 用戶端作為外部使用者。
+Windows Live Messenger 可以參與音訊/視訊通訊與 Lync 用戶端。 此帳戶，您通常會有支援外部使用者的 Lync 用戶端防火牆上非常類似防火牆連接埠和通訊協定設定。
 
 <div>
 
 
 > [!IMPORTANT]  
-> Lync 是一種功能強大的工具，可跨組織與世界各地的人員連線。 與 Windows Live Messenger 的同盟不需要在 Lync 標準用戶端存取授權（CAL）之外的其他使用者/裝置授權。 您可以在這個清單中新增 Skype 同盟，讓 Lync 使用者能夠使用 IM 和語音來與成百上千的人取得聯繫。<BR>與 Messenger 用戶端連絡人的同盟將于2013年3月15日正式結束，除了中國大陸以外。 Skype 將成為先前使用 Messenger 之聯盟使用者的同盟用戶端。
+> 多個曾經 Lync 是功能強大的工具，可將跨組織及與個人世界各地的連線。 與 Windows Live Messenger 同盟需要任何其他的使用者/裝置的授權超過 Lync 標準用戶端存取授權 (CAL)。 Skype 同盟會新增至這份清單，讓 Lync 使用者可達到數百個數百萬的人員 IM 與語音。<BR>同盟與 Messenger 用戶端連絡人最終會將正式在 2013 年 3 月 15 日，但不包括在中國大陸。 Skype 會變成先前用信差同盟用戶端的同盟使用者。
 
 
 
@@ -53,7 +53,7 @@ Windows Live Messenger 可以使用 Lync 用戶端參與音訊/視頻通訊。 �
 
 <div>
 
-## <a name="firewall-summary--public-instant-messaging-connectivity"></a>防火牆摘要–公用立即訊息連線能力
+## <a name="firewall-summary--public-instant-messaging-connectivity"></a>防火牆摘要 - 公用立即訊息連線
 
 
 <table>
@@ -65,48 +65,48 @@ Windows Live Messenger 可以使用 Lync 用戶端參與音訊/視頻通訊。 �
 </colgroup>
 <thead>
 <tr class="header">
-<th>角色/通訊協定/TCP 或 UDP/埠</th>
+<th>角色/通訊協定/TCP 或 UDP/連接埠</th>
 <th>來源 IP 位址</th>
 <th>目的地 IP 位址</th>
-<th>筆記</th>
+<th>附註</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Access/SIP （MTLS）/TCP/5061</p></td>
-<td><p>公用 IM 連線性合作夥伴</p></td>
-<td><p>Edge 伺服器存取介面</p></td>
-<td><p>針對使用 SIP 的同盟與公用 IM 連線。</p></td>
+<td><p>Access/SIP (MTLS) / TCP/5061</p></td>
+<td><p>公用 IM 連線協力廠商</p></td>
+<td><p>Edge Server 存取介面</p></td>
+<td><p>使用 SIP 的同盟和公用 IM 連線。</p></td>
 </tr>
 <tr class="even">
-<td><p>Access/SIP （MTLS）/TCP/5061</p></td>
-<td><p>Edge 伺服器存取介面</p></td>
-<td><p>公用 IM 連線性合作夥伴</p></td>
-<td><p>針對使用 SIP 的同盟與公用 IM 連線。</p></td>
+<td><p>Access/SIP (MTLS) / TCP/5061</p></td>
+<td><p>Edge Server 存取介面</p></td>
+<td><p>公用 IM 連線協力廠商</p></td>
+<td><p>使用 SIP 的同盟和公用 IM 連線。</p></td>
 </tr>
 <tr class="odd">
-<td><p>Access/SIP （TLS）/TCP/443</p></td>
-<td><p>台</p></td>
-<td><p>Edge 伺服器存取介面</p></td>
-<td><p>供外部使用者存取的用戶端到伺服器 SIP 流量。</p></td>
+<td><p>Access/SIP (TLS) / TCP/443</p></td>
+<td><p>用戶端</p></td>
+<td><p>Edge Server 存取介面</p></td>
+<td><p>外部使用者存取的用戶端對伺服器 SIP 流量。</p></td>
 </tr>
 <tr class="even">
 <td><p>A/V/RTP/TCP/50000-59999</p></td>
-<td><p>Edge 伺服器存取介面</p></td>
-<td><p>即時 Messenger 用戶端</p></td>
-<td><p>在已設定公用 IM 連線的情況中，使用 Windows Live Messenger 進行 A/V 會話。</p></td>
+<td><p>Edge Server 存取介面</p></td>
+<td><p>Live Messenger 用戶端</p></td>
+<td><p>如果有設定 IM 連線，可與 Windows Live Messenger 用於 A/V 工作階段</p></td>
 </tr>
 <tr class="odd">
-<td><p>A/V/STUN、MSTURN/UDP/3478</p></td>
-<td><p>Edge 伺服器存取介面</p></td>
-<td><p>即時 Messenger 用戶端</p></td>
-<td><p>對於使用 Windows Live Messenger 的公用 IM 連線是必要的。</p></td>
+<td><p>A/V/STUN，MSTURN/UDP/3478</p></td>
+<td><p>Edge Server 存取介面</p></td>
+<td><p>Live Messenger 用戶端</p></td>
+<td><p>所需的 Windows Live Messenger 與公用 IM 進行連線。</p></td>
 </tr>
 <tr class="even">
-<td><p>A/V/STUN、MSTURN/UDP/3478</p></td>
-<td><p>即時 Messenger 用戶端</p></td>
-<td><p>Edge 伺服器存取介面</p></td>
-<td><p>對於使用 Windows Live Messenger 的公用 IM 連線是必要的。</p></td>
+<td><p>A/V/STUN，MSTURN/UDP/3478</p></td>
+<td><p>Live Messenger 用戶端</p></td>
+<td><p>Edge Server 存取介面</p></td>
+<td><p>所需的 Windows Live Messenger 與公用 IM 進行連線。</p></td>
 </tr>
 </tbody>
 </table>
@@ -116,11 +116,11 @@ Windows Live Messenger 可以使用 Lync 用戶端參與音訊/視頻通訊。 �
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
-[Lync Server 2013 中的外部使用者存取案例](lync-server-2013-scenarios-for-external-user-access.md)  
-[決定 Lync Server 2013 的外部 A/V 防火牆和連接埠需求](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md)  
+[Lync Server 2013 中的外部使用者存取的案例](lync-server-2013-scenarios-for-external-user-access.md)  
+[決定外部 A / V 防火牆和連接埠需求 Lync Server 2013](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md)  
   
 
 </div>

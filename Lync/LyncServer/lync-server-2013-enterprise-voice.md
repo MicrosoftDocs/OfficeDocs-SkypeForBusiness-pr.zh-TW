@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013 企業語音
+title: Lync Server 2013 Enterprise Voice
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185404
 ms.date: 04/08/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e62224a7187c54222364045d0ac7b1aa70bccb9c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d8f0aef4d3f2323bcfcd99f42b265ea02b6126b2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735413"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042120"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="enterprise-voice-in-lync-server-2013"></a>Lync Server 2013 中的企業語音
+# <a name="enterprise-voice-in-lync-server-2013"></a>Lync Server 2013 中的 Enterprise Voice
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41735413"
 
 <span> </span>
 
-_**主題上次修改日期：** 2015-04-08_
+_**主題上次修改日期：** 2015年-04-08_
 
-透過企業語音，Lync Server 會提供獨立的網際網路通訊協定（VoIP）產品，以增強或取代傳統的專用分支 exchange （PBX）系統。 企業語音使用者可以呼叫貴組織的 VoIP 網路或 PBX 上的同事，而且可以呼叫貴組織外部的傳統電話號碼。 企業語音方案包含常見的呼叫功能，例如 [應答]、[轉寄]、[轉接]、[保留]、[轉移]、[發行及寄存]，以及 [增強9-1-1 （E9-1）] 呼叫（僅適用于美國的 E9-1-1）。企業語音也支援各種目前及較舊的 IP 和 USB 裝置。
+與 Enterprise Voice、 Lync Server 會傳遞至增強或取代傳統的專用交換機 (pbx) 系統提供獨立 Voice over Internet Protocol (VoIP)。 Enterprise Voice 使用者可以在您的組織在 VoIP 網路或 PBX 上呼叫同事，他們可以撥組織外部的傳統的電話號碼。 企業語音解決方案包含常見的通話功能，例如 answer、 轉寄、 轉接、 保留、 轉向、 發行及駐留，和增強型 9-1-1 (E9-1-1) 通話 （E9-1-1 是只適用於美國）。Enterprise Voice 也支援廣泛的目前和較舊的 IP 和 USB 裝置。
 
 <div>
 
-## <a name="placing-and-receiving-calls"></a>撥打電話和接聽通話
+## <a name="placing-and-receiving-calls"></a>撥打和接聽電話
 
-使用者可以使用 Lync 在鍵盤上輸入名稱或電話號碼，或使用螢幕上顯示的撥號鍵台來撥打通話。 使用者也可以直接從連絡人清單中啟動通話。 您也可以部署 Lync Phone Edition 裝置，這些裝置是由 Microsoft 合作夥伴提供的獨立 IP 電話裝置。
+使用 Lync，使用者可以撥打電話，在其鍵盤上，輸入名稱或電話號碼，或使用其螢幕上顯示的撥號鍵台。 使用者也可以啟動直接從其連絡人清單的通話。 您也可以部署 Lync Phone Edition 裝置，也就是由 Microsoft 協力廠商所提供的獨立 IP 電話裝置。
 
-使用者可以有多個註冊到 Lync Server 的電話裝置，而且可以輕鬆地在這些裝置之間切換。
+使用者可以有多個登錄與 Lync Server 的電話裝置，且可以輕鬆地切換這些。
 
-使用者會在其所有裝置上同時收到來電通知，且在 IP 電話裝置上有可自訂的鈴聲，以及電腦上的立即訊息等類似通知。
+使用者會發出警示，其所有裝置上的傳入呼叫同時，IP 電話裝置上可自訂的鈴聲與類似於其電腦上的立即訊息通知。
 
-使用者也可以設定連線到其手機、電腦和手機的單一電話號碼，讓他們無論身在何處都能到達。
+使用者也可以設定連接至其電話機、 電腦和行動電話，讓他們可以達到不論它們的位置的單一電話號碼。
 
 </div>
 
@@ -57,7 +57,7 @@ _**主題上次修改日期：** 2015-04-08_
 
 ## <a name="basic-call-features"></a>基本通話功能
 
-在通話時，使用者可以接聽其他來電或發起撥出電話，而現有的使用中通話則會自動停留在保留狀態。 您可以直接或在第一位使用者使用第二個使用者進行私下演講之後，將通話從一個使用者轉接到另一個使用者。 使用者也可以將來電轉接到另一個裝置;例如，他們可以將使用中的來電轉接到他們的行動電話，因為他們會離開其辦公室的大門。
+在呼叫，使用者可以接聽其他來電或其中初始化的撥出電話，以及現有的作用中呼叫自動置於時保留。 到另一個，可以呼叫轉接從一位使用者，直接或之後的第一個使用者私下說出與第二個使用者。 使用者可以也將來電轉接給另一個裝置;例如，他們無法 active 來電轉接到行動電話為他們引導出其 office 門。
 
 </div>
 
@@ -65,47 +65,47 @@ _**主題上次修改日期：** 2015-04-08_
 
 ## <a name="richer-communications"></a>更豐富的通訊
 
-當您使用 Lync 與其他使用者交談時，使用者可以輕鬆地在通話中新增文字、影片或桌面共用。 [請勿打擾] 功能已與 Lync 中的目前狀態設定整合。
+當與另一位使用者使用 Lync 交談，使用者可以輕鬆地新增文字、 視訊或桌面共用的通話。 Do Not 打擾功能是與整合 Lync 中的目前狀態設定。
 
-使用 Exchange 整合通訊（UM），Lync 和 Lync Server 整合至 Microsoft Exchange Server 2013 與 Microsoft Outlook 2013。 使用者可以查看他們在 Lync 視窗和電子郵件中是否有新的語音信箱。 在電子郵件中，他們可以按一下以在電子郵件訊息中播放語音信箱音訊，或查看語音信箱訊息的記錄。
+Exchange 整合通訊 (UM)、 Lync 與 Lync Server 整合與 Microsoft Exchange Server 2013 和 Microsoft Outlook 2013。 使用者可以查看是否有新語音郵件在其 Lync 視窗和電子郵件中。 在 [電子郵件，他們可以按一下來播放語音信箱音訊中電子郵件訊息，或檢視語音信箱訊息的文稿 while。
 
 </div>
 
 <div>
 
-## <a name="advanced-calling-features"></a>高級通話功能
+## <a name="advanced-calling-features"></a>進階通話功能
 
-企業語音還包含數種高級通話功能，例如 Lync 通話委派、小組通話、群組通話挑選，以及回應群組。
+Enterprise Voice 包含數項進階通話功能，例如 Lync 通話委派、 小組通話、 群組來電接聽和回應群組。
 
-Lync 通話委派可讓使用者將呼叫處理委派給一或多個助手，方法是移至 [**工具** \> **] 選項** \>的 [**來電轉接設定**]。 代理人可以代表使用者執行多個通話工作，包括遮罩通話、撥打電話及開始會議。
+Lync 通話委派可讓使用者委派通話處理到一或多個助理員移至 [**工具** \> **選項** \> **呼叫轉寄設定**。 代理人可以多個呼叫代表執行工作的使用者，包括檢測通話、 進行呼叫，並啟動會議。
 
 <div>
 
 
 > [!IMPORTANT]  
-> 您可能會尋找另一個名稱相似的功能，即 Lync 行事曆委派。 它不需要企業語音功能，且允許使用者從 Outlook 排程線上 Lync 會議。 如果您在這裡找到該資訊，我們建議您檢查<A href="https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy">CsClientPolicy</A> ，瞭解啟用 Exchange 委派同步處理的相關資訊。
+> 您可能會尋找另一個類似命名功能，Lync 行事曆委派。 它不需要的企業語音功能，可讓使用者從 Outlook 的線上 Lync 會議排程。 如果您已在這裡尋找的資訊，建議您取出<A href="https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy">Set-csclientpolicy</A>上啟用 Exchange 委派同步處理的資訊。
 
 
 
 </div>
 
-團隊通話可讓使用者同時撥打小組電話，讓小組中的任何人都能接聽通話。
+小組通話可讓使用者使來電同時在組員的小組成員的電話，讓小組成員的任何人都可以接聽來電。
 
-[群組通話]： Lync Server 2013 的累積更新中的新功能：2013年2月，讓使用者從自己的手機向其同事接聽來電。 [群組呼叫挑選] 與小組通話的不同之處，主要是在預期收件者的手機上，僅限來電響鈴，但任何其他使用者都可以撥打電話挑選群組號碼，選擇接聽電話。
+群組呼叫收取，Cumulative Updates for Lync Server 2013 中的新功能： 2 月 2013年可讓使用者接聽來電從他們自己的電話其同事。 群組來電接聽與小組通話中，主要的傳入呼叫只會在預定收件者的電話鈴響但任何其他使用者可以選擇接聽撥出通話收取群組號碼。
 
-您可以設定回應群組，將呼叫路由及智慧地路由到指定的 agent。 常見用途包括 IT 提供人員、人力資源 hotlines，以及其他內部連絡人中心。
+回應群組可以設定對指定的代理程式的佇列和聰明地路由呼叫。 一般用途包括 IT 人員、 人力資源 hotlines 及其他內部的連絡人中心。
 
 </div>
 
 <div>
 
-## <a name="enterprise-voice-administration"></a>企業語音管理
+## <a name="enterprise-voice-administration"></a>Enterprise Voice 管理
 
-Lync Server 使用標準與已發佈介面，與現有的基礎結構互動。 它支援閘道和 SIP 選項（例如 SIP 中繼），以便與 IP PBX 系統和 PSTN 網路進行互連，因此您可以在一段時間內將使用者遷移至企業語音，同時將中斷降至最低。 Lync Server 支援傳統的編解碼器，例如711、722和723.1，以實現與傳統 VoIP 解決方案的互通性。
+Lync Server 使用標準和發行的介面與現有基礎結構交互操作。 它支援閘道和 IP PBX 系統與 PSTN 網路，互相連線 （例如 SIP 主幹） SIP 選項，讓您可以將使用者移轉到 Enterprise Voice 一段時間，干擾降到最低。 Lync Server 與 VoIP 的傳統解決方案的互通性支援傳統 G.711、 G.722 等 G.723.1 轉碼器。
 
-系統管理員可以使用 [呼叫許可控制] （CAC）來設定受限制網路連結上的 Lync Server 語音及影片流量限制，並指定新呼叫超過限制時所採取的動作。 這些動作可能包括依備用路徑進行路由，或拒絕通話。
+通話許可控制 (CAC)，與系統管理員可以設定 Lync Server 語音和視訊流量限制的網路連結上執行的數量的限制，並指定要將新的來電會超出限制要採取的動作。 動作無法包含路由替代路徑，或拒絕來電。
 
-Lync Server 與協力廠商 Survivable 分支裝置搭配使用，以提供本機呼叫服務，以及分支辦公室的 PSTN 連線（在中央網站發生 WAN 故障時）。
+Lync Server 的運作方式與協力廠商 Survivable Branch Appliance pstn 分公司，在中央網站的 WAN 故障時提供本地撥號服務和連線。
 
 </div>
 

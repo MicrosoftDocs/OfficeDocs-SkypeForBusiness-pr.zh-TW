@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：規劃通話管理功能
+title: Lync Server 2013： 規劃通話管理功能
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184298
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 206974500bd27c0cbecd902f9e87daf9a435c6dd
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3bc3e644955a59515334a30fdf974db6c90d3f33
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41754623"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037121"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,40 +35,40 @@ ms.locfileid: "41754623"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-12-17_
+_**主題上次修改日期：** 2012年-12 月 17 日_
 
-企業語音通話管理功能可控制如何傳送和接聽來電。 Lync Server 2013 提供下列通話管理功能：
+Enterprise Voice 通話管理功能可控制來電的路由傳送與應答方式。 Lync Server 2013 提供下列通話管理功能：
 
-  - **通話寄存**：讓語音使用者暫時停止通話，然後從相同或另一個手機挑選通話。
+  - **通話駐留**：讓語音使用者可暫時駐留通話，然後從相同或另一部電話接聽。
 
-  - **群組拾取**：可讓語音使用者挑選撥打電話給指派給呼叫挑選群組之其他語音使用者的通話。
+  - **群組收取**： 可讓語音使用者来揀選響鈴的呼叫收取群組指派其他語音使用者的通話。
     
     <div>
     
 
     > [!NOTE]  
-    > [群組挑選] 是 Lync Server 2013 的累加更新的新功能：2013年2月。
+    > 群組收取] 目錄是新的 Lync Server 2013 的累計更新： 2 月 2013年。
 
     
     </div>
 
-  - **回應群組**：使用查尋群組或互動式語音回應（IVR）問題與解答，將來電路由至代理群組。
+  - **回應群組**： 來電路由傳送給群組的代理程式使用群組搜尋或互動語音回應 (IVR) 問題與解答。
 
-  - [**公告]：**    針對未指派號碼的通話播放訊息，或在別處傳送通話，或同時將呼叫路由。
+  - **宣告：**    播放一段訊息對撥打給未指派的號碼，或將通話路由傳送到其他地方，或兩者。
 
-如果您打算部署企業語音，您可以選擇實現這些通話管理功能的任何或全部。
+如果您打算部署 Enterprise Voice，可以選擇實作以上任一或所有通話管理功能。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [在 Lync Server 2013 中規劃通話駐留](lync-server-2013-planning-for-call-park.md)
+  - [規劃 Lync Server 2013 中的通話駐留](lync-server-2013-planning-for-call-park.md)
 
-  - [規劃 Lync Server 2013 中的群組呼叫挑選](lync-server-2013-planning-for-group-call-pickup.md)
+  - [規劃 Lync Server 2013 中的群組來電接聽](lync-server-2013-planning-for-group-call-pickup.md)
 
-  - [在 Lync Server 2013 中規劃回應群組](lync-server-2013-planning-for-response-groups.md)
+  - [規劃 Lync Server 2013 中的回應群組](lync-server-2013-planning-for-response-groups.md)
 
-  - [在 Lync Server 2013 中規劃宣告](lync-server-2013-planning-for-announcements.md)
+  - [規劃 Lync Server 2013 中的宣告](lync-server-2013-planning-for-announcements.md)
 
 </div>
 

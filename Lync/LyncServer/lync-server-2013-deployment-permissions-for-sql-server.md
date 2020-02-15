@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：SQL Server 的部署權限
+title: 'Lync Server 2013: SQL Server 的部署權限'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184197
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 393e293dfc7e20fa1e990d9f87c17c6e72776be3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b38466bb3be6e03b8b434f4382b3b1d65cc05901
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762651"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038195"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deployment-permissions-for-sql-server-in-lync-server-2013"></a>Lync Server 2013 中 SQL Server 的部署權限
+# <a name="deployment-permissions-for-sql-server-in-lync-server-2013"></a>Lync Server 2013 中的 SQL Server 的部署權限
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41762651"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-01_
+_**主題上次修改日期：** 2012年-10-01_
 
-Microsoft SQL Server 2012 在安裝和部署 Lync Server 2013 時有特定的需求。 因為 Windows 與 SQL Server 定義其安全性的方式不同，所以以 Active Directory 網域中的管理員身分登入，並不會針對 SQL Server 隱式授與許可權。 您也必須是您正在設定的 SQL Server 基礎伺服器上 sysadmin 實體的成員。
+Microsoft SQL Server 2012 具有安裝及部署 Lync Server 2013 時的特定需求。 Windows 和 SQL Server 以不同方式定義其安全性，因為在 Active Directory 系統管理員身分登入網域不會以隱含方式授與 SQL Server 的權限。 您同時必須是所要設定之 SQL Server 伺服器上的 sysadmin 實體成員。
 
 <div>
 
-## <a name="permissions-required-for-database-and-lync-server-installation"></a>資料庫和 Lync Server 安裝所需的許可權
+## <a name="permissions-required-for-database-and-lync-server-installation"></a>資料庫與 Lync Server 安裝所需的權限
 
-下列選項詳細說明安裝 Lync Server 2013 檔案與 SQL Server 資料庫所需的三種許可權和群組成員資格關聯。 選擇最符合貴組織需求的案例。
+三個權限和群組成員資格關聯安裝 Lync Server 2013 檔案和 SQL Server 資料庫的詳細說明下列選項。 請針對組織需求選擇最適合的案例。
 
-### <a name="permissions-and-group-membership-associations"></a>許可權與群組成員資格關聯
+### <a name="permissions-and-group-membership-associations"></a>權限與群組成員資格關聯
 
 <table>
 <colgroup>
@@ -56,30 +56,30 @@ Microsoft SQL Server 2012 在安裝和部署 Lync Server 2013 時有特定的需
 </colgroup>
 <thead>
 <tr class="header">
-<th>SQL Server 或 Lync Server 2013 角色</th>
-<th>角色-一般 SQL Server 許可權與群組成員資格</th>
-<th>角色-一般的 Lync Server 2013 許可權與群組成員資格</th>
-<th>許可權結果</th>
+<th>SQL Server 或 Lync Server 2013 的角色</th>
+<th>角色典型的 SQL Server 權限與群組成員資格</th>
+<th>角色典型的 Lync Server 2013 權限和群組成員資格</th>
+<th>權限結果</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Lync Server 2013 系統管理員</p></td>
-<td><p>必須授與 sysadmin SQL Server 安全性群組的成員資格，以及 SQL Server 本機管理員群組的成員</p></td>
-<td><p>必須是 RTCUniversalServerAdmins 群組的成員</p></td>
-<td><p>Lync Server 2013 系統管理員擁有安裝 Lync Server 2013 與 SQL Server 資料庫的適當許可權。</p></td>
+<td><p>必須賦予 sysadmins SQL Server 安全性群組與 SQL Server 本機 Administrators 群組成員資格</p></td>
+<td><p>必須是 RTCUniversalServerAdmins 群組成員</p></td>
+<td><p>Lync Server 2013 系統管理員具有安裝 Lync Server 2013 和 SQL Server 資料庫的適當權限。</p></td>
 </tr>
 <tr class="even">
 <td><p>SQL Server 系統管理員</p></td>
-<td><p>SQL Server sysadmin 群組成員（或對等）與 SQL Server 本機管理員群組的成員</p></td>
-<td><p>必須是 RTCUniversalServerReadOnly 群組的成員</p></td>
-<td><p>SQL Server 系統管理員擁有安裝 Lync Server 2013 與 SQL Server 資料庫的適當許可權。</p></td>
+<td><p>SQL Server sysadmin 群組成員 (或相等地位的成員) 及 SQL Server 本機 Administrators 群組成員</p></td>
+<td><p>必須是 RTCUniversalServerReadOnly 群組成員</p></td>
+<td><p>SQL Server 系統管理員具有安裝 Lync Server 2013 和 SQL Server 資料庫的適當權限。</p></td>
 </tr>
 <tr class="odd">
-<td><p>兩個管理員都在共用安裝職責</p></td>
-<td><p>SQL Server 系統管理員是 sysadmin 群組的成員（或同等），以及 SQL Server 本機管理員群組的成員</p></td>
-<td><p>Lync Server 2013 系統管理員是 RTCUniversalServerAdmins 的成員</p></td>
-<td><p>Lync Server 2013 系統管理員可以安裝 Lync Server 2013，但無法安裝資料庫。 SQL Server 系統管理員使用由 Lync Server 2013 系統管理員提供的 Lync Server 管理命令介面和 Windows PowerShell Cmdlet 來安裝資料庫。 SQL Server 系統管理員使用的 Lync Server 2013 管理命令介面已安裝在前端伺服器上。 這樣就不需要在 SQL Server 的伺服器上安裝 Lync Server 2013 系統管理工具。</p></td>
+<td><p>這兩位系統管理員共同分攤安裝責任</p></td>
+<td><p>SQL Server 系統管理員是 sysadmins 群組成員 (或相等地位的成員) 及 SQL Server 本機 Administrators 群組的成員</p></td>
+<td><p>Lync Server 2013 系統管理員是 RTCUniversalServerAdmins 成員</p></td>
+<td><p>Lync Server 2013 系統管理員可以安裝 Lync Server 2013 中，但不能安裝資料庫。 SQL Server 系統管理員使用 Lync Server 2013 管理員所提供的 Lync Server 管理命令介面和 Windows PowerShell cmdlet 來安裝資料庫。 在前端伺服器上安裝 Lync Server 2013 管理命令介面使用 SQL Server 系統管理員。 這就不需要 SQL Server 型伺服器上安裝 Lync Server 2013 系統管理工具。</p></td>
 </tr>
 </tbody>
 </table>

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：更新-通訊錄管理的 CsAddressBook
+title: 'Lync Server 2013: Update-CsAddressBook 適用於通訊錄管理'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183428
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f03fe225b2eae508870220e278d7bfc3373dad22
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ffc956465d4ebc1da95289897a7eb81b0f8f8e68
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744783"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041940"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="update-csaddressbook-for-address-book-management-in-lync-server-2013"></a>CsAddressBook 在 Lync Server 2013 中的通訊錄管理的更新
+# <a name="update-csaddressbook-for-address-book-management-in-lync-server-2013"></a>適用於 Lync Server 2013 中的通訊錄管理的 Update-csaddressbook
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41744783"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-11-01_
+_**主題上次修改日期：** 2012年-11-01_
 
-誰可以執行這個 Cmdlet：根據預設，下列群組的成員有權在本機執行更新-CsAddressBook Cmdlet： RTCUniversalUserAdmins、RTCUniversalServerAdmins。 若要傳回已指派這個 Cmdlet 的所有角色式存取控制（RBAC）角色的清單（包括您自行建立的任何自訂 RBAC 角色），請在 Windows PowerShell 提示中執行下列命令：
+誰可以執行這個 Cmdlet：根據預設，下列群組成員已獲得授權，可在本機執行 Update-CsAddressBook Cmdlet：RTCUniversalUserAdmins、RTCUniversalServerAdmins。若要傳回指派給該 Cmdlet 的所有角色型存取控制 (RBAC) 角色清單 (包括您自己建立的任何自訂 RBAC 角色)，請在 Windows PowerShell 提示中輸入下列命令：
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Update-CsAddressBook"}
 
-CsAddressBook Cmdlet 會從 Office 通訊伺服器取代**abserver-syncNow**命令。 這個 Cmdlet 的目的是立即啟動同步處理，而不是等待排程的時間。 第一個範例命令會更新組織中的所有通訊錄。 第二個只會更新與已定義的伺服器相關聯的通訊錄。
+Update-CsAddressBook Cmdlet 會取代 Office Communications Server 中的 **abserver.exe –syncNow** 命令。此 Cmdlet 的目的在於立即啟動同步處理，而非等待排程的時間。第一個範例命令會更新組織中的所有通訊錄。第二個範例命令只會更新與所定義伺服器關聯的通訊錄。
 
 <div>
 
 
 > [!NOTE]  
-> 在 Lync Server 2013 中，Lync Server 使用者複製程式會從 Active Directory 中挑選變更，並根據設定的間隔更新 Lync Server 使用者資料庫。 Lync Server 使用者複製程式也會快速傳播 RTCab 資料庫的變更，而不需管理員必須執行更新-CSAddressBook。 如果已啟用通訊錄檔案下載，系統管理員將只需要執行更新 CSAddressBook。
+> 在 Lync Server 2013 中，Lync Server 使用者複寫器會挑選來自 Active Directory 所做的變更，並更新 Lync Server 使用者資料庫，根據設定的間隔。 Lync Server 使用者複寫器會也將變更傳播到 RTCab 資料庫快速而不必執行 Update-csaddressbook 系統管理員。 系統管理員只將必須重新執行 Update-csaddressbook，如果已啟用 Address Book 檔案下載。
 
 
 
@@ -68,7 +68,7 @@ CsAddressBook Cmdlet 會從 Office 通訊伺服器取代**abserver-syncNow**命�
 ## <a name="see-also"></a>請參閱
 
 
-[更新-CsAddressBook](https://docs.microsoft.com/powershell/module/skype/Update-CsAddressBook)  
+[Update-csaddressbook](https://docs.microsoft.com/powershell/module/skype/Update-CsAddressBook)  
   
 
 </div>

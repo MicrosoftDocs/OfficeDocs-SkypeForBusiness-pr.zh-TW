@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：報告 Kerberos 帳戶指派
+title: Lync Server 2013： 報告 Kerberos 帳戶指派項目
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184151
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f4c5a6c118596acd406c3741c4dd2ee780fd381b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c742e6e7e5cedc773e0275700a738afd26a6777d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746693"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042010"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="report-kerberos-account-assignments-in-lync-server-2013"></a>在 Lync Server 2013 中報告 Kerberos 帳戶指派
+# <a name="report-kerberos-account-assignments-in-lync-server-2013"></a>Lync Server 2013 中的報告 Kerberos 帳戶指派
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "41746693"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-01-16_
+_**主題上次修改日期：** 2012年-01-16_
 
-若要成功完成此程式，您應該以 RTCUniversalServerAdmins 群組成員的使用者身分登入。
+若要順利完成此程序，您應以 RTCUniversalServerAdmins 群組成員的使用者身分登入。
 
-您可以使用**CsKerberosAccountAssignment** Cmdlet 來查詢有關 Kerberos 驗證帳戶指派的資訊，並報告部署中目前作業的相關資訊。
+您可以使用 **Get-CsKerberosAccountAssignment** Cmdlet 查詢 Kerberos 驗證帳戶指派項目相關資訊，並回報部署中目前指派項目相關資訊。
 
 <div>
 
-## <a name="to-query-kerberos-authentication-account-assignments-for-a-site"></a>查詢網站的 Kerberos 驗證帳戶指派
+## <a name="to-query-kerberos-authentication-account-assignments-for-a-site"></a>若要查詢網站的 Kerberos 驗證帳戶指派項目
 
-1.  如果您是 RTCUniversalServerAdmins 群組的成員，請登入執行 Lync Server 2013 的網域中的電腦，或登入安裝管理工具的電腦。
+1.  以 RTCUniversalServerAdmins 群組的成員，登入網域中執行 Lync Server 2013 或入已安裝系統管理工具的電腦的電腦。
 
-2.  啟動 Lync Server 管理命令介面：按一下 [**開始**]，按一下 [**所有程式**]，按一下 [ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
+2.  啟動 Lync Server 管理命令介面： 按一下 [**開始]**，按一下 [**所有程式]**、 [ **Microsoft Lync Server 2013**]，然後按一下**Lync Server 管理命令介面**。
 
-3.  從命令列執行下列其中一個命令：
+3.  從命令列中執行下列其中一個命令：
     
-      - 若要查詢貴組織中的所有 Kerberos 驗證帳戶指派，並傳回每個使用者的指派資訊，請執行不含任何參數的 Cmdlet：
+      - 若要查詢組織裡所有 Kerberos 驗證帳戶指派項目，並傳回這些項目的個別指派資訊，請執行不含任何參數的 Cmdlet：
         
             Get-CsKerberosAccountAssignment
     
-      - 若要查詢您部署中的所有 Kerberos 驗證帳戶指派並傳回每個 Kerberos 驗證帳戶的指派資訊，請使用身分識別參數執行 Cmdlet：
+      - 若要查詢部署中所有 Kerberos 驗證帳戶指派項目，並傳回這些項目的個別網站指派資訊，請執行含 Identity 參數的 Cmdlet：
         
             Get-CsKerberosAccountAssignment -Identity "site:SiteName"
         
@@ -63,7 +63,7 @@ _**主題上次修改日期：** 2012-01-16_
         
             Get-CsKerberosAccountAssignment -Identity "site:Redmond"
     
-      - 若要在單一網站中查詢所有 Kerberos 驗證帳戶指派，並傳回每個使用者的作業資訊，請使用 Filter 參數執行 Cmdlet：
+      - 若要查詢單一網站中所有 Kerberos 驗證帳戶指派項目，並傳回這些項目的指派資訊，請執行含 Filter 參數的 Cmdlet：
         
             Get-CsKerberosAccountAssignment -Filter "SiteName"
         
@@ -75,7 +75,7 @@ _**主題上次修改日期：** 2012-01-16_
         
 
         > [!NOTE]  
-        > 針對篩選參數指定 * SiteName，會傳回包含指定網站名稱之所有網站的相關資訊（例如，在網站識別碼中包含字串雷蒙德的所有網站）。
+        > 指定 Filter 參數的 *SiteName 會傳回在網站識別元的任意位置包含指定網站名稱之所有網站 (例如，在網站識別元中包含 Redmond 字串的所有網站) 的相關資訊。
 
         
         </div>

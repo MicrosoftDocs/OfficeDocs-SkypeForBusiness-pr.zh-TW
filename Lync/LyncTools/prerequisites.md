@@ -1,5 +1,5 @@
 ---
-title: 先決條件
+title: 必要條件
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541417
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 394f73c83f1981e4c4ee1528c1623f6424d2a85a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a856a44a82af84f4881e487c5f853deeede72e07
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743563"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038305"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="prerequisites"></a>先決條件
+# <a name="prerequisites"></a>必要條件
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41743563"
 
 <span> </span>
 
-_**主題上次修改日期：** 2013-02-19_
+_**上次修改主題：** 2013年-02-19_
 
-您必須執行 Lync Server 2013 應力和效能工具，才能執行各種硬體、軟體及系統設定需求。
+有各種硬體、 軟體和系統組態需求，您必須先執行 Lync Server 2013 壓力及效能工具。
 
 <div>
 
-## <a name="client-hardware-requirements"></a>用戶端硬體需求
+## <a name="client-hardware-requirements"></a>用戶端的硬體需求
 
-若要在 Lync Server 2013 部署上執行 Lync Server 2013 應力和效能工具，請針對您想要模擬其負載的每個4500使用者，至少需要一個符合下列最低硬體需求的專用電腦：
+若要執行 Lync Server 2013 部署，為每個 4500 使用者想要模擬，其負載上的 [Lync Server 2013 壓力及效能工具，您必須至少一個專用的電腦符合下列基本硬體需求：
 
-  - 1個十億位元網路介面卡
+  - 1gb 網路介面卡
 
-  - 8 GB 的 ram
+  - 8 GB ram
 
-  - 2個雙核中央處理單元（Cpu）
+  - 2 顆雙核心管理中心處理單位 (Cpu)
 
 </div>
 
@@ -57,27 +57,27 @@ _**主題上次修改日期：** 2013-02-19_
 
 ## <a name="client-software-requirements"></a>用戶端軟體需求
 
-若要在 Lync Server 2013 部署上執行 Lync Server 2013 壓力與效能工具，支援的作業系統如下：
+若要在 Lync Server 2013 部署上執行 [Lync Server 2013 壓力及效能工具，是支援的作業系統：
 
   - Windows Server 2012 作業系統
 
-  - Windows Server 2008 作業系統（64位版本）
+  - Windows Server 2008 作業系統 （64 位元版本）
 
-您的用戶端電腦必須符合下列軟體需求：
+在用戶端電腦必須符合下列軟體需求：
 
-  - 您必須已安裝[Microsoft .Net Framework 4.5](http://go.microsoft.com/fwlink/?linkid=143212)執行時間。
+  - 您必須安裝[Microsoft.NET Framework 4.5](http://go.microsoft.com/fwlink/?linkid=143212)執行階段。
 
-  - 在 Windows Server 2008/Windows Server 2012 上，必須啟用 [桌面體驗] 功能。
+  - 在 Windows Server 2008/Windows Server 2012 上必須啟用桌面體驗功能。
 
-  - 您必須已安裝[Microsoft Visual c + + 2012 可再發行套件](http://go.microsoft.com/fwlink/?linkid=143216)（x64）。
+  - 您必須擁有[Microsoft Visual c + + 2012年可轉散發套件](http://go.microsoft.com/fwlink/?linkid=143216)(x64) 安裝。
 
-  - 完全設定的 Lync Server 2013 部署。
+  - 完整設定的 Lync Server 2013 部署。
 
 <div>
 
 
 > [!IMPORTANT]  
-> Microsoft 整合通訊管理 API （UCMA）4.0 文件庫包含在安裝套件中，因此不需要 UCMA，也不應該在用戶端電腦上安裝。
+> Microsoft Unified Communications Managed API (UCMA) 4.0 文件庫中隨附的安裝套件，讓 UCMA 則不需要，因此不應安裝用戶端電腦上。
 
 
 
@@ -87,17 +87,17 @@ _**主題上次修改日期：** 2013-02-19_
 
 <div>
 
-## <a name="configuration-requirements"></a>配置需求
+## <a name="configuration-requirements"></a>設定需求
 
-將執行 Lync Server 2013 壓力與效能工具的電腦，必須依照下列需求進行設定：
+會執行 Lync Server 2013 壓力及效能工具的電腦必須被設定是根據下列需求：
 
-1.  您必須以網域或本機系統管理員群組的成員的身分登入。
+1.  您必須網域或本機系統管理員群組的成員身分登入。
 
-2.  Lync Server 2013 應力和效能工具（LyncPerfTool）無法在同時執行 Lync Server 2013 元件的電腦上執行。
+2.  無法執行 Lync Server 2013 壓力及效能工具 (LyncPerfTool.exe)，也執行 Lync Server 2013 元件的電腦上。
 
-3.  您必須在前端伺服器或使用者帳戶將駐留的標準版伺服器上執行 Lync Server 2013 使用者建立工具（UserProvisioningTool）。 當工具多次執行時，每個啟用 Microsoft 整合通訊的使用者都必須有唯一的電話號碼。
+3.  您必須執行 Lync Server 2013 使用者建立工具 (UserProvisioningTool.exe)，Standard Edition server 或前端伺服器上的使用者帳戶所在的位置。 當多次時，會執行此工具時，Microsoft 整合通訊啟用每個使用者必須有唯一的電話號碼。
 
-4.  頁面檔案大小應由系統管理，或至少1.5 倍于系統的 RAM 數量。
+4.  分頁檔案大小應系統管理，或應該至少 1.5 倍 RAM 的數量系統上。
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：ConferenceUris 表格
+title: 'Lync Server 2013: ConferenceUris 表格'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185160
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3cacbaf4e8c7c826ae2e00e9c86b44cc8387f315
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 143e2b44c5b5ddd9cbf630ac17267e0747029aed
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741573"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42040852"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41741573"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-05-25_
+_**主題上次修改日期：** 2012年-05-25_
 
-ConfereneUris 資料表是一個支援資料表，可儲存已參與在資料庫中的會議會話的各種會議 Uri 清單。 資料表中的每一筆記錄代表一個會議 URI。
+ConfereneUris 表格是一種支援資料表儲存各種會議記錄資料庫中的會議工作階段的 Uri 的清單。 在資料表中的每一筆記錄代表一個會議 URI。
 
 
 <table>
@@ -49,9 +49,9 @@ ConfereneUris 資料表是一個支援資料表，可儲存已參與在資料庫
 </colgroup>
 <thead>
 <tr class="header">
-<th>左欄</th>
+<th>欄</th>
 <th>資料類型</th>
-<th>索引鍵/索引</th>
+<th>主索引鍵 /</th>
 <th>詳細資料</th>
 </tr>
 </thead>
@@ -59,32 +59,32 @@ ConfereneUris 資料表是一個支援資料表，可儲存已參與在資料庫
 <tr class="odd">
 <td><p><strong>NextUpdateTS</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>首選</p></td>
-<td><p>時間戳記，內部使用。</p></td>
+<td><p>主要</p></td>
+<td><p>時間戳記，供內部使用。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ConferenceUriId</strong></p></td>
 <td><p>int</p></td>
-<td><p>首選</p></td>
-<td><p>標識此會議 URI 的唯一號碼。</p></td>
+<td><p>主要</p></td>
+<td><p>用於識別此會議 URI 的唯一號碼。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ConferenceUri</strong></p></td>
-<td><p>Nvarchar （450）</p></td>
+<td><p>nvarchar(450)</p></td>
 <td></td>
 <td><p>會議 URI。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>求和</strong></p></td>
+<td><p><strong>總和檢查碼</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>ConferenceUri 的校驗和。 用來提高資料庫搜尋的速度。</p></td>
+<td><p>ConferenceUri 總和檢查碼。 用來增加資料庫搜尋的速度。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UriTypeId</strong></p></td>
 <td><p>int</p></td>
-<td><p>外</p></td>
-<td><p>URI 類型，例如會議： IM 會議的聊天或會議：音訊/視訊會議的音訊-視頻。 如需詳細資訊，請參閱<a href="lync-server-2013-uritypes-table.md">Lync Server 2013 資料表中</a>的 [UriTypes] 資料表。</p></td>
+<td><p>Foreign</p></td>
+<td><p>URI 類型，例如 IM 會議，或 conf:audio conf:chat-視訊的音訊/視訊會議。 請參閱<a href="lync-server-2013-uritypes-table.md">Lync Server 2013 中的 UriTypes 表格</a>表如需詳細資訊。</p></td>
 </tr>
 </tbody>
 </table>
