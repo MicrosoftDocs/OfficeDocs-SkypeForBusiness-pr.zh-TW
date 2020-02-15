@@ -1,5 +1,5 @@
 ---
-title: 變更語音路由以使用新的 Lync Server 2013 轉送服務伺服器
+title: 變更語音路由以使用新的 Lync Server 2013 中繼伺服器
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -13,20 +13,20 @@ ms:contentKeyID: 48185069
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 40f9bed4262adcabdb23e5b5b85e7de43292d18b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c8edaf6c8d912e9784a0a3df6dfe27a45aa873e7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727553"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42003208"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="change-voice-routes-to-use-the-new-lync-server-2013-mediation-server"></a>變更語音路由以使用新的 Lync Server 2013 轉送服務伺服器
+# <a name="change-voice-routes-to-use-the-new-lync-server-2013-mediation-server"></a>變更語音路由以使用新的 Lync Server 2013 中繼伺服器
 
 </div>
 
@@ -36,37 +36,37 @@ ms.locfileid: "41727553"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-09-28_
+_**主題上次修改日期：** 2012年-09-28_
 
-這個程式會將語音路由變更為使用 Lync Server 2013 轉送伺服器，而不是舊版 Office 通訊伺服器 2007 R2 轉送伺服器。
+此程序會變更語音路由以使用 Lync Server 2013 中繼伺服器，而不是舊版 Office Communications Server 2007 R2 中繼伺服器。
 
 <div>
 
-## <a name="to-change-the-voice-routes-to-use-the-new-mediation-server"></a>若要變更語音路由以使用新的中繼伺服器
+## <a name="to-change-the-voice-routes-to-use-the-new-mediation-server"></a>變更語音路由以使用新的中繼伺服器
 
-1.  Lync Server 2013 [控制台]
+1.  Lync Server 2013 控制台
 
-2.  在左窗格中，選取 [**語音路由**]，然後選取 [**傳送**]。
+2.  在左窗格中，選取 [**語音路由]** ，然後**路由**]。
 
-3.  按一下 [**新增**]，建立新的語音路線。
+3.  按一下 [新增]****，以建立新的語音路由。
 
-4.  填寫下欄欄位：
+4.  填寫下列欄位：
     
-      - **Name （名稱**）：輸入語音路線的描述性名稱。 我們將在這份檔中使用**W15PSTNRoute**。
+      - **名稱**：輸入語音路由的描述性名稱。 這份文件中，我們將使用**W15PSTNRoute**。
     
-      - **描述**：輸入語音路線的簡短描述。
+      - **描述**：輸入語音路由的簡短描述。
 
-5.  略過其餘所有章節，直到您到達**關聯的閘道**為止。 按一下 [**新增**]。 選取新的預設閘道，然後按一下 **[確定]**。
+5.  略過後續的所有區段，直到 [關聯的閘道]**** 出現為止。 按一下 **[新增]**。 選取新的預設閘道，然後按一下 [**確定]**。
 
-6.  在 [**關聯的 PSTN 使用**] 底下，按一下 [**選取**]。
+6.  在 [關聯的 PSTN 使用方式]**** 底下，按一下 [選取]****。
 
-7.  從 [**選取 PSTN 使用量記錄**] 頁面，選取記錄名稱，然後按一下 **[確定]**。
+7.  從 [**選取 PSTN 使用方式記錄**] 頁面上，選取記錄名稱，然後按一下 [**確定]**。
 
-8.  從 [**新增語音路由**] 頁面，按一下 **[確定]** 來建立**語音路線**。
+8.  在 [新增語音路由]**** 頁面中，按一下 [確定]****，以建立**語音路由**。
 
-9.  從 [**語音路由**] 頁面，選取 [**傳送**]。
+9.  在 [語音路由]**** 頁面中，選取 [路由]****。
 
-10. 將新建立的路由移到清單頂端，然後選取 [Commit] （**提交**）。
+10. 將新建的路由移至清單頂端，然後選取 [**認可]**。
 
 </div>
 

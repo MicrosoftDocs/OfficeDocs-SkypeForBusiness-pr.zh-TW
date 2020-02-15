@@ -12,16 +12,16 @@ ms:contentKeyID: 49352446
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d6e2abe708554a24fabfe5c408d969dc0789c683
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3ca40d198a03ccae9924292fdf85eb2c10cc5841
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737003"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008525"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,23 +35,23 @@ ms.locfileid: "41737003"
 
 <span> </span>
 
-_**主題上次修改日期：** 2013-07-31_
+_**上次修改主題：** 2013年-07-31_
 
-本節中的主題可協助您瞭解如何規劃和部署 Lync Server 2013，讓您可以充分規劃貴組織中的使用者數，並規劃其活動產生的伺服器負載。
+本節中的主題可協助您了解如何規劃及部署 Lync Server 2013，以便您可以適當地規劃您的組織和使用者活動所產生的伺服器負載的計劃中的使用者人數。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [使用使用者模型的 Lync Server 2013 容量規劃](lync-server-2013-capacity-planning-using-the-user-models.md)
+  - [使用使用者模型的 Lync Server 2013 的容量規劃](lync-server-2013-capacity-planning-using-the-user-models.md)
 
-  - [針對 Lync Server 2013 評估語音使用方式和流量](lync-server-2013-estimating-voice-usage-and-traffic.md)
+  - [評估語音使用方式和 Lync Server 2013 的流量](lync-server-2013-estimating-voice-usage-and-traffic.md)
 
-  - [Lync Server 2013 中的中繼伺服器部署指導方針](lync-server-2013-deployment-guidelines-for-mediation-server.md)
+  - [Lync Server 2013 中的中繼伺服器的部署指導方針](lync-server-2013-deployment-guidelines-for-mediation-server.md)
 
   - [Lync Server 2013 中的使用者模型](lync-server-2013-user-models.md)
 
-  - [使用 Lync Server 2013 的容量規劃計算機](lync-server-2013-capacity-planning-calculator.md)
+  - [使用 Lync Server 2013 的容量規劃 [小算盤]](lync-server-2013-capacity-planning-calculator.md)
 
 </div>
 

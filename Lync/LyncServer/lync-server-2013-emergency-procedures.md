@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：緊急程式
+title: Lync Server 2013： 緊急程序
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969640
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 28f6ab6f10d071fc86646deed030ab87d931ad95
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 65f50a5b78c92b82ec4a17711add8744bb2313d6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729373"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006229"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="emergency-procedures-in-lync-server-2013"></a>Lync Server 2013 中的急診程式
+# <a name="emergency-procedures-in-lync-server-2013"></a>Lync Server 2013 中的緊急程序
 
 </div>
 
@@ -35,24 +35,24 @@ ms.locfileid: "41729373"
 
 <span> </span>
 
-_**主題上次修改日期：** 2014-08-18_
+_**上次修改主題：** 2014年-08-18_
 
-緊急程式是不在先前所討論之標準程式，且應該由變更管理函式（請參閱「變更管理」函式[](http://go.microsoft.com/fwlink/p/?linkid=40939)說明）處理的需求程式。 這些程式通常與下列其中一項相關：
+緊急程序是先前所討論的標準程序以外的隨選程序，而應該使用變更管理功能由處理 （請參閱 「 變更 」 管理模型 」 函式上描述[MOF](http://go.microsoft.com/fwlink/p/?linkid=40939) ）。 這些程序通常與下列其中一項：
 
-  - 在疑難排解工作中實施變更，以解決已識別的系統問題。
+  - 實作變更疑難排解投入比一部分--若要解決已識別的系統問題。
 
-  - 解決已識別的安全性威脅，例如軟體更新。
+  - 解決已識別的安全性威脅 — 例如軟體更新。
 
-您應該評估對企業的影響，以判斷是否應該透過變更象限指引所定義的正式變更管理程式來實施暫時的變更。
+對業務的影響應該加以評估，以判斷是否應實作或輸送至變更象限指引所定義的正式的變更管理程序的暫時變更。
 
-我們建議您實施緊急變更程式。 例如，檔如何處理這些類型的程式，以及如何在出現緊急變更時減少混亂的狀態。
+我們建議您實作緊急變更程序。 例如，文件如何處理這些類型的程序，並協助減少混淆的狀態時的頻寬呈現緊急變更。
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
-[Microsoft Operations Framework 4。0](http://go.microsoft.com/fwlink/p/?linkid=40939)  
+[Microsoft Operations Framework 4.0](http://go.microsoft.com/fwlink/p/?linkid=40939)  
   
 
 </div>

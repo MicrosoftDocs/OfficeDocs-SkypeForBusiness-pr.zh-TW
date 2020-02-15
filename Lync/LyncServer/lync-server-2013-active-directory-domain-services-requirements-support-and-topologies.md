@@ -1,5 +1,5 @@
 ---
-title: Active Directory 網域服務需求、支援和拓撲
+title: Active Directory 網域服務需求、 支援和拓撲
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184902
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 95251144f6876adb7bd31cf5ae2926e53560976f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f13e337f509fe776b63b7a212670d5a5492e9929
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730465"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008565"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="active-directory-domain-services-requirements-support-and-topologies-in-lync-server-2013"></a>Lync Server 2013 中 Active Directory 網域服務需求、支援和拓撲
+# <a name="active-directory-domain-services-requirements-support-and-topologies-in-lync-server-2013"></a>Active Directory 網域服務需求、 支援和 Lync Server 2013 中的拓撲
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41730465"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-05_
+_**主題上次修改日期：** 2012年-10-05_
 
-在 Lync Server 2010 之前，Lync Server 依賴 Active Directory 網域服務來儲存部署和管理 Lync Server 所需的所有全域設定和群組。 現在，這些資訊中的許多都儲存在集中式管理儲存區，而不是 AD DS 中。 不過，使用者物件架構延伸，包括 Lync Server 2013、Lync Server 2010 及 Office 通訊伺服器 2007 R2 架構擴充，仍會儲存在 AD DS 中。
+Lync Server 2010]，再 Lync Server 依賴 Active Directory 網域服務來儲存所有的全域設定和部署和管理 Lync Server 所需的群組。 現在有多少這項資訊會儲存在中央管理存放區，而不是 AD DS。 不過，使用者物件架構延伸模組，包括 Lync Server 2013、 Lync Server 2010 及 Office Communications Server 2007 R2 架構延伸模組，仍會儲存在 AD DS。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [Lync Server 2013 中的 Active Directory 網域服務支援](lync-server-2013-active-directory-domain-services-support.md)
+  - [Lync Server 2013 中的 active Directory 網域服務支援](lync-server-2013-active-directory-domain-services-support.md)
 
   - [Lync Server 2013 中支援的 Active Directory 拓撲](lync-server-2013-supported-active-directory-topologies.md)
 
-  - [Lync Server 2013 的 Active Directory 基礎結構需求](lync-server-2013-active-directory-infrastructure-requirements.md)
+  - [Lync Server 2013 的 active Directory 基礎結構需求](lync-server-2013-active-directory-infrastructure-requirements.md)
 
 </div>
 

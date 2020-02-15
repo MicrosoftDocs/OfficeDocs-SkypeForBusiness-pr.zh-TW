@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：對等 IM 報告
+title: Lync Server 2013： 對等 IM 報告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183533
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 359c3fad7f41d990ffdba3aa533d0d5f10456665
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b74f22e422539a8d7de1f2f7bad29a72d43646a5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755303"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41989288"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="peer-to-peer-im-report-in-lync-server-2013"></a>Lync Server 2013 中的對等 IM 報表
+# <a name="peer-to-peer-im-report-in-lync-server-2013"></a>Lync Server 2013 中的對等 IM 報告
 
 </div>
 
@@ -35,37 +35,37 @@ ms.locfileid: "41755303"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-11-01_
+_**主題上次修改日期：** 2012年-11-01_
 
-對等 IM 報告提供對等立即訊息（IM）會話的趨勢資訊，依池和驗證類型細分。 報告可以顯示在指定時段內所保留的會話總數（例如，按天或按小時計算），也可以顯示在該期間內傳送的立即訊息總數。
+對等 IM 報告會提供對等立即訊息 (IM) 工作階段的趨勢資訊 (依集區和驗證類型細分)。此報告可以顯示指定時段內 (例如，每天或每小時) 主控的工作階段總數，或者可以顯示該時段內傳送的立即訊息總數。
 
 <div>
 
 ## <a name="accessing-the-peer-to-peer-im-report"></a>存取對等 IM 報告
 
-您只能[在 Lync Server 2013 開啟對等 [活動摘要] 報告](lync-server-2013-peer-to-peer-activity-summary-report.md)，然後按一下下列其中一個度量，以存取對等 IM 報告：
+您可以存取對等 IM 報告只能透過開啟[對等活動摘要報告在 Lync Server 2013 中](lync-server-2013-peer-to-peer-activity-summary-report.md)，再按一下下列計量之一：
 
-  - 對等 IM 會話總數
+  - 對等 IM 工作階段總數
 
-  - 對等 IM 訊息總計
-
-</div>
-
-<div>
-
-## <a name="making-the-best-use-of-the-peer-to-peer-im-report"></a>充分運用對等 IM 報告
-
-根據預設，對等 IM 報表會顯示每小時郵件數（或一天，視您的設定而定）。 不過，您也可以選擇透過每小時的會話來查看一天。 若要這樣做，請按一下 [報表] 視窗右上角的 [**隱藏/顯示參數**]，然後按一下 [**報表依據**] 清單中的 [**會話計數**]。
+  - 對等 IM 訊息總數
 
 </div>
 
 <div>
 
-## <a name="filters"></a>濾鏡
+## <a name="making-the-best-use-of-the-peer-to-peer-im-report"></a>善加利用對等 IM 報告
 
-篩選提供一種方式，可讓您傳回更精細設定目標的資料集，或以不同的方式來查看傳回的資料。 下表列出可與對等 IM 報表搭配使用的篩選。
+依預設，對等 IM 報告會顯示每小時 (或每天，視您的設定而定) 的訊息計數。不過，您也可以選擇依每小時的工作階段來檢視那一天。若要執行這項作業，請按一下報告視窗右上角的 [隱藏/顯示參數]****，然後從 [報告者]**** 清單按一下 [工作階段計數]****。
 
-### <a name="peer-to-peer-im-report-filters"></a>對等 IM 報表篩選
+</div>
+
+<div>
+
+## <a name="filters"></a>篩選
+
+篩選器可以讓您傳回更精確的資料集，或者以不同方法檢視傳回的資料。下表列出您可以搭配對等 IM 報告的篩選器。
+
+### <a name="peer-to-peer-im-report-filters"></a>對等 IM 報告篩選器
 
 <table>
 <colgroup>
@@ -75,47 +75,47 @@ _**主題上次修改日期：** 2012-11-01_
 <thead>
 <tr class="header">
 <th>名稱</th>
-<th>說明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>從</strong></p></td>
-<td><p>時間範圍的開始日期和時間。 若要依時間查看資料，請輸入 [開始日期] 和 [時間]，如下所示：</p>
+<td><p><strong>From</strong></p></td>
+<td><p>時間範圍的開始日期和時間。若要按照小時檢視資料，請輸入開始日期和時間，如下所示：</p>
 <p>7/7/2012 1:00 PM</p>
-<p>如果您沒有輸入開始時間，報告會在指定日期自動于12:00 點開始。 若要依天查看資料，只需輸入日期：</p>
-<p>7/7/2012</p>
-<p>若要按周或按月查看，請輸入一周或一月內任何位置的日期（您不需要輸入周或月的第一天）：</p>
-<p>7/3/2012</p>
-<p>周數總是從星期日到星期六執行。</p></td>
+<p>如果您未輸入開始時間，報告會自動從指定日期凌晨 12 點開始。若要按照日期檢視資料，只要輸入日期即可：</p>
+<p>2012/7/7</p>
+<p>若要按星期或月份查看，請輸入當週或該月內的日期 (您不必輸入當週或該月的第一天)：</p>
+<p>2012/7/3</p>
+<p>星期永遠是從星期日開始星期六結束。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>自</strong></p></td>
-<td><p>時間範圍的結束日期和時間。 若要依時間查看資料，請輸入 [結束日期] 和 [時間]，如下所示：</p>
+<td><p><strong>To</strong></p></td>
+<td><p>時間範圍的結束日期和時間。若要按照小時檢視資料，請輸入結束日期和時間，如下所示：</p>
 <p>7/7/2012 1:00 PM</p>
-<p>如果您沒有輸入結束時間，報告會在指定日期自動結束于12:00。 若要依天查看資料，只需輸入日期：</p>
-<p>7/7/2012</p>
-<p>若要依周或依月查看，請在您要查看的周或月份中，輸入您要查看的日期（不需要輸入周或月的第一天）：</p>
-<p>7/3/2012</p>
-<p>周數總是從星期日到星期六執行。</p></td>
+<p>如果您未輸入結束時間，報告會自動在指定日期凌晨 12 點結束。若要按照日期檢視資料，只要輸入日期即可：</p>
+<p>2012/7/7</p>
+<p>若要按星期或月份檢視，請輸入當週或該月您想檢視的日期 (您不必輸入當週或該月的第一天)：</p>
+<p>2012/7/3</p>
+<p>星期永遠是從星期日開始星期六結束。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Interval</strong></p></td>
-<td><p>時間間隔。 選取下列其中一項：</p>
+<td><p>時間間隔。請選取下列其中一項：</p>
 <ul>
-<li><p>每小時（最多可顯示25小時）</p></li>
-<li><p>每天（最多可以顯示31天）</p></li>
-<li><p>每週（最多可以顯示12周）</p></li>
-<li><p>每月（最多可以顯示12個月）</p></li>
+<li><p>每小時 (最多可以顯示 25 個小時)</p></li>
+<li><p>每日 (最多可以顯示 31 天)</p></li>
+<li><p>每週 (最多可以顯示 12 週)</p></li>
+<li><p>每月 (最多可以顯示 12 個月)</p></li>
 </ul>
-<p>如果 [開始] 和 [結束] 日期超過所選間隔所允許的最大值數，則會顯示值的數目上限（從開始日期開始）。 例如，如果您選取 [開始日期 7/7/2012] 和 [結束日期] 2/28/2012 的 [日間隔]，則會顯示 8/7/2012 12:00 AM 至 9/7/2012 12:00 AM （也就是31天內的資料）的資料。</p></td>
+<p>若開始與結束日期超出所選間隔允許的上限值，將只會顯示上限值 (從開始日期開始顯示)。例如，若您選取 [每日] 間隔，並將開始與結束日期分別設為 2012 年 7 月 7 日及 2012 年 2 月 28 日，將只會顯示 2012 年 8 月 7 日凌晨 12 點到 2012 年 9 月 7 日凌晨 12 點這段期間的資料 (亦即只會顯示 31 天的資料)。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>報告依據</strong></p></td>
-<td><p>指出要在報表中使用的值。 選取下列其中一項：</p>
+<td><p>指定報告中所要使用的值。請選取下列其中一項：</p>
 <ul>
-<li><p>會話計數</p></li>
-<li><p>郵件計數</p></li>
+<li><p>工作階段計數</p></li>
+<li><p>訊息計數</p></li>
 </ul></td>
 </tr>
 </tbody>
@@ -126,11 +126,11 @@ _**主題上次修改日期：** 2012-11-01_
 
 <div>
 
-## <a name="metrics-for-peer-to-peer-im-session-by-pool"></a>依池進行對等 IM 會話的度量單位
+## <a name="metrics-for-peer-to-peer-im-session-by-pool"></a>對等 IM 工作階段計量 (依集區)
 
-下表列出對等 IM 報表中提供的資訊。
+下表列出對等 IM 報告提供的資訊。
 
-### <a name="metrics-for-peer-to-peer-im-session-by-pool"></a>依池進行對等 IM 會話的度量單位
+### <a name="metrics-for-peer-to-peer-im-session-by-pool"></a>對等 IM 工作階段計量 (依集區)
 
 <table>
 <colgroup>
@@ -140,26 +140,26 @@ _**主題上次修改日期：** 2012-11-01_
 </colgroup>
 <thead>
 <tr class="header">
-<th>名稱</th>
-<th>您可以針對此專案進行排序嗎？</th>
-<th>說明</th>
+<th>姓名</th>
+<th>可以排序這個項目嗎？</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>集區</strong></p></td>
+<td><p><strong>Pool</strong></p></td>
 <td><p>否</p></td>
-<td><p>註冊機構池或邊緣伺服器的名稱。</p></td>
+<td><p>登錄器集區或 Edge Server 的名稱。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>日期/時間</strong></p></td>
 <td><p>否</p></td>
-<td><p>會話發生的日期和時間。</p></td>
+<td><p>工作階段的執行日期與時間。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>總額</strong></p></td>
+<td><p><strong>Total</strong></p></td>
 <td><p>否</p></td>
-<td><p>[會話總數] 或 [總郵件數]。</p></td>
+<td><p>工作階段總數或訊息總數。</p></td>
 </tr>
 </tbody>
 </table>
@@ -169,11 +169,11 @@ _**主題上次修改日期：** 2012-11-01_
 
 <div>
 
-## <a name="metrics-for-peer-to-peer-im-session-by-authentication-type"></a>依驗證類型的對等 IM 會話的度量單位
+## <a name="metrics-for-peer-to-peer-im-session-by-authentication-type"></a>對等 IM 工作階段計量 (依驗證類型)
 
-下表列出點對點工作階段中參與者所使用的每一種驗證類型的對等 IM 報告所提供的資訊。
+下表列出對等 IM 報告針對參與者在對等工作階段中使用之每項驗證類型所提供的資訊。
 
-### <a name="metrics-for-peer-to-peer-im-session-by-authentication-type"></a>依驗證類型的對等 IM 會話的度量單位
+### <a name="metrics-for-peer-to-peer-im-session-by-authentication-type"></a>對等 IM 工作階段計量 (依驗證類型)
 
 <table>
 <colgroup>
@@ -183,31 +183,31 @@ _**主題上次修改日期：** 2012-11-01_
 </colgroup>
 <thead>
 <tr class="header">
-<th>名稱</th>
-<th>您可以針對此專案進行排序嗎？</th>
-<th>說明</th>
+<th>姓名</th>
+<th>可以排序這個項目嗎？</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>驗證類型</strong></p></td>
 <td><p>否</p></td>
-<td><p>會話參與者所使用的驗證類型。 值通常是下列其中一項：</p>
+<td><p>工作階段參與者所使用的驗證類型。一般來說，值都是下列其中之一：</p>
 <ul>
-<li><p>級</p></li>
-<li><p>建立</p></li>
+<li><p>企業</p></li>
+<li><p>同盟</p></li>
 <li><p>PIC</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p><strong>日期/時間</strong></p></td>
 <td><p>否</p></td>
-<td><p>會話發生的日期和時間。</p></td>
+<td><p>工作階段的執行日期與時間。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>總額</strong></p></td>
+<td><p><strong>Total</strong></p></td>
 <td><p>否</p></td>
-<td><p>[會話總數] 或 [總郵件數]。</p></td>
+<td><p>工作階段總數或訊息總數。</p></td>
 </tr>
 </tbody>
 </table>

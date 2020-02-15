@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：常設聊天室資料庫結構描述
+title: Lync Server 2013： 常設聊天室資料庫結構描述
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184228
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 73f3b21fe8ea7f9fc71aa5432a601e9fa3ad2425
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 51ee4506a22d866a5ba0f771db47546a8fa15e6e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755233"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006911"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="persistent-chat-database-schema-in-lync-server-2013"></a>Lync Server 2013 中的常設聊天室資料庫結構描述
+# <a name="persistent-chat-database-schema-in-lync-server-2013"></a>在 [Lync Server 2013 常設聊天室資料庫結構描述
 
 </div>
 
@@ -35,43 +35,43 @@ ms.locfileid: "41755233"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-09-18_
+_**主題上次修改日期：** 2012年-09-18_
 
-這會在 Lync Server 2013 通訊軟體中記錄持續聊天資料庫的架構。
+本主題記載 Lync Server 2013 通訊軟體常設聊天室資料庫結構的描述。
 
-Persistent 聊天資料庫指的是與 Lync Server 2013 後端伺服器角色**PersistentChatStore** （對應至 mgc 資料庫）和**PersistentChatComplianceStore** （與 mgccomp 資料庫對應）對應的資料庫。 發佈此架構的目的是讓您建立查詢，並深入瞭解如何在聊天使用、作用中的聊天室、主要海報等上建立有用的報告。
+**PersistentChatStore** （對應至 [mgc] 資料庫） 和**PersistentChatComplianceStore** （對應至 mgccomp 資料庫），常設聊天室資料庫會參照到對應至 Lync Server 2013 後端伺服器角色的資料庫。 發行此結構描述的目標是讓您能夠建立查詢，並深入了解建立關於交談使用方式、作用中聊天室、前幾名的張貼者等實用報告的資訊。
 
 <div>
 
 
 > [!IMPORTANT]  
-> 我們保留要演化此架構的權利。 Microsoft 不會保證維持與此發佈架構完全後相容性的任何保證。
+> 我們保留發展此結構描述的權利。Microsoft 不保證會維持此發行的結構描述之完整回溯相容性。
 
 
 
 </div>
 
-請遵循下列最佳做法：
+請遵循以下最佳做法：
 
-  - 因為欄\*清單可能會增加，所以不支援 SELECT//。
+  - 沒有選取\*/ / 因為欄清單可以擴充支援。
 
-  - 不支援使用者產生的架構修改。
+  - 不支援使用者產生的結構描述修改。
 
   - 不支援寫入作業。
 
-  - 測試您在 representatively 大小的資料庫上建立的任何查詢，以確定查詢可以在某一層級執行，以符合您的需求。
+  - 測試您在典型大小之資料庫上建立的任何查詢，以確定查詢可以在符合您需求的層級上執行。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [Lync Server 2013 中的常設聊天室伺服器清單表格](lync-server-2013-list-of-persistent-chat-server-tables.md)
+  - [在 Lync Server 2013 常設聊天室伺服器資料表的清單](lync-server-2013-list-of-persistent-chat-server-tables.md)
 
-  - [Lync Server 2013 中常設聊天室伺服器規範表的清單](lync-server-2013-list-of-persistent-chat-server-compliance-tables.md)
+  - [Lync Server 2013 中的常設聊天室伺服器規範表格清單](lync-server-2013-list-of-persistent-chat-server-compliance-tables.md)
 
-  - [Lync Server 2013 中的常設聊天室伺服器表格詳細資料](lync-server-2013-persistent-chat-server-table-details.md)
+  - [在 Lync Server 2013 常設聊天室伺服器資料表詳細資料](lync-server-2013-persistent-chat-server-table-details.md)
 
-  - [Lync Server 2013 的常設聊天室資料庫查詢範例](lync-server-2013-sample-persistent-chat-database-queries.md)
+  - [常設聊天室資料庫查詢範例針對 Lync Server 2013](lync-server-2013-sample-persistent-chat-database-queries.md)
 
 </div>
 

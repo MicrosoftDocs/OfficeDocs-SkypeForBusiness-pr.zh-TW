@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： UserAgent view
+title: 'Lync Server 2013: UserAgent 檢視'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733795
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 828e81d028fb476362a91c4fa0ab83c5e2c34c20
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7b82d8a03f159aa1c99d53dd06a0811847f77b12
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744413"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007612"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="useragent-view-in-lync-server-2013"></a>Lync Server 2013 中的 [UserAgent] 視圖
+# <a name="useragent-view-in-lync-server-2013"></a>Lync Server 2013 中的 UserAgent 檢視
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41744413"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-03_
+_**主題上次修改日期：** 2012年-10-03_
 
-[UserAgent] 視圖儲存在資料庫中有記錄的會話中所涉及之使用者代理程式的相關資訊。 此視圖已在 Microsoft Lync Server 2013 中推出。
+UserAgent 檢視儲存具有已在資料庫中擁有記錄的工作階段相關的使用者代理程式的相關資訊。 Microsoft Lync Server 2013 中已採用此檢視。
 
 
 <table>
@@ -48,7 +48,7 @@ _**主題上次修改日期：** 2012-10-03_
 </colgroup>
 <thead>
 <tr class="header">
-<th>左欄</th>
+<th>欄</th>
 <th>資料類型</th>
 <th>詳細資料</th>
 </tr>
@@ -57,22 +57,22 @@ _**主題上次修改日期：** 2012-10-03_
 <tr class="odd">
 <td><p>UserAgentKey</p></td>
 <td><p>int</p></td>
-<td><p>標識此使用者代理程式的唯一號碼。</p></td>
+<td><p>用於識別此使用者代理程式的唯一號碼。</p></td>
 </tr>
 <tr class="even">
 <td><p>UserAgent</p></td>
-<td><p>Nvarchar （256）</p></td>
-<td><p>使用者代理程式字串。</p></td>
+<td><p>nvarchar(256)</p></td>
+<td><p>使用者代理字串。</p></td>
 </tr>
 <tr class="odd">
 <td><p>UAType</p></td>
-<td><p>Smallint</p></td>
-<td><p>使用者代理程式類型。 如需詳細資訊，請參閱<a href="lync-server-2013-useragent-table.md">Lync Server 2013 中</a>的 [UserAgent] 資料表。</p></td>
+<td><p>smallint</p></td>
+<td><p>使用者代理程式的類型。 請參閱<a href="lync-server-2013-useragent-table.md">Lync Server 2013 中的 UserAgent 表格</a>如需詳細資訊。</p></td>
 </tr>
 <tr class="even">
 <td><p>UACategory</p></td>
-<td><p>Nvarchar （64）</p></td>
-<td><p>使用者代理所屬的類別。 例如，Conferencing_Attendant_1 .0 的使用者代理程式屬於 UACategory CAA。</p></td>
+<td><p>nvarchar(64)</p></td>
+<td><p>使用者代理程式所屬的類別。 例如，使用者代理程式 Conferencing_Attendant_1.0 屬於 UACategory CAA。</p></td>
 </tr>
 </tbody>
 </table>

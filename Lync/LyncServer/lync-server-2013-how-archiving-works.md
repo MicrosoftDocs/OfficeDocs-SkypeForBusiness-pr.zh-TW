@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：存檔的運作方式
+title: Lync Server 2013： 封存的運作方式
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184174
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ca026dcfb9b994353de139b6e10ecd419c9dd165
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 24181e9e72228afb380d8e6e50d70f5e3c95e41e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738933"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006189"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="how-archiving-works-in-lync-server-2013"></a>存檔在 Lync Server 2013 中的運作方式
+# <a name="how-archiving-works-in-lync-server-2013"></a>封存 Lync Server 2013 中的運作方式
 
 </div>
 
@@ -35,95 +35,95 @@ ms.locfileid: "41738933"
 
 <span> </span>
 
-_**主題上次修改日期：** 2014-02-04_
+_**上次修改主題：** 2014年-02-04_
 
-Lync Server 2013 封存提供可協助您符合合規性需求的選項。 若要以最有效地符合貴組織需求的方式來實施及維護，您應該瞭解：
+Lync Server 2013 Archiving 提供可協助您符合法務遵循需求的選項。 若要實作及維護以最有效率地符合您的組織需求的方式，您應該先了解：
 
-  - 您可以封存哪些資訊。
+  - 可以封存哪些資訊。
 
-  - 如何在您的部署中啟用和停用封存。
+  - 如何在部署中啟用和停用封存。
 
-  - 您可以設定的封存選項，以控制實施封存的方式。
+  - 您可以設定來控制如何實作封存的封存選項。
 
 <div>
 
-## <a name="what-information-can-be-archived"></a>哪些資訊可以封存？
+## <a name="what-information-can-be-archived"></a>可以封存哪些資訊？
 
-您可以封存下列內容類型：
+可以封存下列類型的內容：
 
   - 對等立即訊息
 
-  - 會議（會議），這是多方立即訊息
+  - 會議，其為多方立即訊息
 
-  - 會議內容，包括上傳的內容（例如講義）及事件相關內容（例如加入、離開、上傳共用，以及在可見度中變更）
+  - 會議內容，包括上傳的內容 (例如，講義) 和事件相關內容 (例如，加入、離開、上傳共用，以及可見度變更)
 
-  - 在會議期間共用白板和投票
+  - 在會議期間共用白板與投票
 
-下列內容類型沒有封存：
+不會封存下列類型的內容：
 
   - 對等檔案傳輸
 
-  - 對等立即訊息與會議的音訊/視頻
+  - 對等立即訊息和會議的音訊/視訊
 
   - 對等立即訊息和會議的桌面與應用程式共用
 
-Lync Server 也不封存持久的聊天交談。 若要封存持續聊天交談，您必須啟用並設定合規性服務，這是可使用 Microsoft Lync Server 2013、持久聊天伺服器部署的元件。 如需詳細資訊，請參閱規劃檔中的[Lync server 2013 中的持續聊天伺服器規劃](lync-server-2013-planning-for-persistent-chat-server.md)。
+Lync Server 也不會封存常設聊天室的交談。 若要封存常設聊天室的交談，您必須啟用並設定規範服務，也就是可以使用 Microsoft Lync Server 2013，Persistent Chat Server 部署的元件。 如需詳細資訊，請參閱規劃文件中的[Planning for Persistent Chat Server in Lync Server 2013](lync-server-2013-planning-for-persistent-chat-server.md) 。
 
 </div>
 
 <div>
 
-## <a name="how-do-i-start-using-archiving"></a>我要如何開始使用存檔？
+## <a name="how-do-i-start-using-archiving"></a>如何開始使用封存？
 
-當您部署伺服器時，會在每個前端伺服器上自動安裝封存，但除非您設定存檔，否則不會啟用封存。 您設定的方式取決於您部署存檔的方式：
+當您部署伺服器時，封存會自動安裝於每部前端伺服器上，但在您設定封存之前不會加以啟用。您設定封存的方式是根據您部署封存的方式來決定：
 
-  - **使用 Microsoft Exchange 整合進行封存。** 如果您擁有託管于 Exchange 2013 的使用者，且其信箱已放在就地保留中，您可以選取將 Lync Server 2013 儲存空間與 Exchange 儲存體整合的選項。 如果您選擇 [Microsoft Exchange 整合] 選項，您可以使用 Exchange 2013 原則和設定來控制這些使用者的 Lync Server 2013 資料的存檔。
+  - **封存使用 Microsoft Exchange 整合。** 如果您有位於 Exchange 2013 的使用者，且其信箱已處於就地保留，您可以選取 Exchange 儲存區與整合 Lync Server 2013 儲存體選項。 如果您選擇 [Microsoft Exchange 整合選項，您使用 Exchange 2013 原則和設定來控制這些使用者的 Lync Server 2013 資料的封存。
 
-  - **使用 Lync Server 封存資料庫進行封存。** 如果您有非託管于 Exchange 2013 的使用者，或未將其信箱放在就地保留中的使用者，或者您不想針對部署中的任何或所有使用者使用 Microsoft Exchange 整合，就可以使用 SQL Server 部署 Lync Server 封存資料庫 儲存這些使用者的存檔資料。 在這種情況下，Lync Server 2013 封存原則和設定會判斷是否已啟用並執行封存。 若要使用 Lync Server 2013，您必須在拓撲中新增適當的 SQL Server 資料庫，然後發佈拓撲。
+  - **使用 Lync Server 封存資料庫的封存。** 如果您有誰不位於 Exchange 2013 或誰不有所放入原有範圍暫止，其信箱的使用者，或如果您不想要用於您的部署中的任一或所有使用者的 Microsoft Exchange 整合，您可以部署 Lync Server 封存資料庫使用 SQL Server 若要儲存這些使用者的封存資料。 在此情況下，Lync Server 2013 封存原則和設定決定是否要啟用封存，並實作方式。 若要使用 Lync Server 2013，您必須將適當的 SQL Server 資料庫新增至您的拓撲，並發行拓撲。
 
 <div>
 
-## <a name="archiving-setup-when-using-microsoft-exchange-integration"></a>使用 Microsoft Exchange 整合時的存檔設定
+## <a name="archiving-setup-when-using-microsoft-exchange-integration"></a>使用 Microsoft Exchange 整合時進行封存設定
 
-如果您的使用者是駐留在 Exchange 2013 上，且其信箱已放在就地保留中，您可以選擇 [ **Microsoft Exchange 整合**] 選項（如本節稍後所述），以封存這些使用者的 Lync server 2013，然後使用 [Exchange 就地保留原則] 和 [設定]，以及 [Lync 伺服器設定] 控制這些使用者的歸檔，以控制下列各項：
+如果您的使用者位於 Exchange 2013 和他們的信箱已處於就地保留，您可以封存 Lync Server 2013 的使用者，選擇 [ **Microsoft Exchange 整合**] 選項 （如本節稍後所述），然後您可以控制這些使用者的封存藉由指定 Exchange 就地保留原則和設定，以及 Lync Server 設定以控制下列：
 
   - 是否要封存 IM、會議或兩者。
 
-  - 是否要為 Lync Server 部署實現重要模式。
+  - 是否要實作 Lync Server 部署的關鍵模式。
 
-  - 選取 [Microsoft Exchange 整合] 選項，即可使用 Exchange 2013 儲存已歸檔的資料。
+  - Microsoft Exchange 整合選項，以使用 Exchange 2013 來儲存封存資料的選取範圍。
 
-此區段稍後會說明這些 Lync Server 2013 封存配置選項。 如需如何設定 Exchange 就地保留原則和設定以支援封存的相關資訊，請參閱 Exchange 2013 產品檔。
+本節中稍後說明這些 Lync Server 2013 封存組態選項。 如需如何設定 Exchange 就地保留原則和設定來支援封存的詳細資訊，請參閱 < Exchange 2013 產品的說明文件。
 
 </div>
 
 <div>
 
-## <a name="archiving-setup-when-using-lync-server-archiving-database-storage"></a>使用 Lync Server 封存資料庫儲存空間時的存檔設定
+## <a name="archiving-setup-when-using-lync-server-archiving-database-storage"></a>使用 Lync Server 封存資料庫儲存時進行封存設定
 
-如果您想要使用 Lync Server 封存資料庫（使用 SQL Server 資料庫）來為您部署中的任何使用者封存資料，您可以設定 Lync Server 封存原則來控制是否已針對這些使用者啟用封存功能。 在每個存檔原則中，您可以啟用或停用下列其中一項或兩項作業：
+如果您想要使用 Lync Server 封存資料庫 （使用 SQL Server 資料庫） 封存的部署中的任何使用者資料，您可以設定 Lync Server 封存原則以控制是否為這些使用者啟用封存。 在每個封存原則中，您可以針對下列其中一項或兩項來啟用或停用封存：
 
   - 內部通訊
 
   - 外部通訊
 
-根據預設，在任何 Lync Server 存檔原則中，都不會針對內部通訊或外部通訊啟用封存。 您可以使用 Lync Server 2013 [控制台] 或在 Lync Server 2013 管理命令介面中使用 Cmdlet 來啟用和停用通訊。
+根據預設，封存未啟用內部通訊或任何 Lync Server 封存原則中的外部通訊。 您啟用及停用通訊使用 Lync Server 2013 控制台或 Lync Server 2013 管理命令介面中使用指令程式。
 
-Lync Server 2013 的歸檔原則包括下列各項：
+Lync Server 2013 封存原則包含下列：
 
-  - **全域存檔原則**。 這是預設的存檔原則，且適用于整個部署。 它是在您部署 Lync Server 2013 時建立的，而且預設會停用內部與外部通訊的存檔。 您無法刪除此原則。 如果您選擇 [刪除] 選項，全域原則將重設為預設設定。
+  - **全域封存原則**。 此為預設的封存原則，可以套用至您的整個部署。 它會建立部署 Lync Server 2013 時，並依預設，會停用封存的內部與外部通訊。 您無法刪除此原則。 如果您選擇刪除選項，即會將全域原則重設為預設設定。
 
-  - **網站歸檔原則**。 或者，您可以建立及設定網站的網站層級歸檔原則，以啟用或停用一或多個特定網站的封存。 當您建立網站層級歸檔原則時，預設不會啟用封存。 您可以刪除任何您建立的網站層級歸檔原則。 網站層級的歸檔原則會覆寫全域原則，但只適用于原則中指定的網站。 例如，如果您在全域原則中啟用內部和外部通訊的封存，並建立您在其中停用外部通訊封存的網站原則，則只有內部通訊會針對該網站進行歸檔。
+  - **網站封存原則**。您可以選擇性地為一或多個指定網站啟用或停用封存，作法是針對該網站建立和設定網站層級的封存原則。當您建立網站層級的封存原則時，預設不會啟用封存。您可以刪除任何您建立之網站層級的封存原則。網站層級的封存原則優先於全域原則，但僅適用於原則中指定的網站。例如，如果您在全域原則中針對內部與外部通訊啟用封存，然後建立一個網站原則以針對外部通訊停用封存，則只會針對該網站封存內部通訊。
 
-  - **使用者歸檔原則**。 或者，您也可以為特定的使用者和使用者群組建立、設定及套用使用者層級歸檔原則，以啟用或停用一或多個特定使用者和使用者群組的封存。 當您建立使用者層級歸檔原則時，系統預設不會啟用封存。 您可以刪除您建立的任何使用者層級歸檔原則，而且您可以變更封存原則適用的使用者和使用者組。 使用者層級的歸檔原則會覆寫全域原則和任何網站原則，但只適用于已套用原則的使用者和使用者群組。 例如，如果您在全域原則中停用內部和外部通訊的封存，請建立網站層級原則，您可以在其中啟用內部和外部通訊的封存，然後建立您停用的使用者層級原則。針對外部通訊進行封存，除了針對您套用使用者層級原則的使用者之外，您還會針對所有網站使用者的外部與內部通訊歸檔通訊，只會封存內部通訊。
+  - **使用者封存原則**。您可以選擇性地為一或多個特定使用者或使用者群組啟用或停用封存，作法是為指定的使用者和使用者群組建立、設定及套用使用者層級的封存原則。當您建立使用者層級的封存原則時，預設不會啟用封存。您可以刪除任何您建立之使用者層級的封存原則，而且可以變更要套用封存原則的使用者與使用者群組。使用者層級的封存原則優先於全域原則及所有網站原則，但僅適用於套用原則的使用者和使用者群組。例如，如果您在全域原則中針對內部與外部通訊停用封存、建立一個網站層級的原則以針對內部與外部通訊啟用封存，然後建立一個使用者層級的原則以針對外部通訊停用封存，則系統將針對所有網站使用者的外部與內部通訊封存通訊，但您套用使用者層級原則的使用者例外，只會為他們封存內部通訊。
 
-如需有關如何在部署存檔時設定初始封存原則的詳細資訊，請參閱在部署檔中設定[和指派 Lync Server 2013 中的存檔原則](lync-server-2013-configuring-and-assigning-archiving-policies.md)。 如需使用封存原則在部署後啟用和停用通訊的詳細資料，請參閱在作業檔中[管理 Lync Server 2013 內的內部和外部通訊](lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md)。
+如需如何設定初始封存原則，當您部署封存的詳細資訊，請參閱部署文件中的[設定和指派 Lync Server 2013 中的封存原則](lync-server-2013-configuring-and-assigning-archiving-policies.md)。 如需使用封存原則來啟用及停用通訊部署後的詳細資訊，請參閱作業文件中的[管理 Lync Server 2013 中的內部和外部通訊的封存](lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md)。
 
 <div>
 
 
 > [!NOTE]  
-> 如果您同時執行兩個 Lync Server 2013 封存資料庫並啟用 Microsoft Exchange 整合，Exchange 2013 原則會覆寫 Lync Server 封存原則，但只適用于駐留在 Exchange 2013 且已將其信箱放在就地保留中的使用者. Lync 存檔只依賴 Microsoft Exchange 就地保留原則。
+> 如果您實作這兩個 Lync Server 2013 封存資料庫，並啟用 Microsoft Exchange 整合，Exchange 2013 原則會覆寫 Lync Server 封存原則，但僅針對使用者位於 Exchange 2013，並有鎖其信箱置於就地保留. Lync Archiving 取決於僅 Microsoft Exchange 就地保留原則。
 
 
 
@@ -133,86 +133,86 @@ Lync Server 2013 的歸檔原則包括下列各項：
 
 <div>
 
-## <a name="what-options-do-i-have-for-configuring-archiving"></a>我有哪些選項可設定存檔？
+## <a name="what-options-do-i-have-for-configuring-archiving"></a>我可以使用哪些選項來設定封存？
 
-除了使用原則以及啟用及停用封存之外，您還可以針對整個部署以及特定網站和池（您也可以）設定其他的存檔選項。 您可以使用一或多個存檔設定（可在 Lync Server 2013 的 [控制台] 中找到）來控制大部分的存檔選項，但也有另一個選項，只適用于使用 Lync Server 2013 管理命令介面的配置。
+除了使用原則及啟用與停用封存，您還有其他封存選項可用來為整個部署進行設定，而且可以選擇性地針對特定的網站與集區進行設定。 您可以使用一或多個封存組態，其中可使用 Lync Server 2013 控制台，但也有另一個選項，只適用於使用 Lync Server 2013 管理命令介面設定，以控制大部分的封存選項。
 
 <div>
 
-## <a name="archiving-configuration-options-available-in-lync-server-2013-control-panel"></a>在 Lync Server 2013 的 [控制台] 中提供的 [封存配置選項]
+## <a name="archiving-configuration-options-available-in-lync-server-2013-control-panel"></a>Lync Server 2013 控制台中的封存設定選項
 
-每個封存配置都提供下列選項：
+每個封存設定都會提供下列選項：
 
-全域層級設定是在您部署封存時自動建立，而且可以設定，但不能刪除。 如果您選取刪除全域設定的選項，設定就會重設為預設值。 您可以建立多個網站和池設定，搭配全域配置來控制存檔設定。 針對全域設定以及每個網站和池配置，您可以使用下列選項：
+部署封存時會自動建立全域層級的設定，全域層級的設定可加以設定，但不能刪除。如果您選取選項來刪除全域設定，即會將設定重設為預設值。您可以建立多個網站與集區設定，與全域設定一起使用來控制封存設定。針對全域設定及每個台站與集區設定，您會有下列選項：
 
-  - 停用 [封存]、[只針對立即訊息（IM）啟用封存]，或啟用 IM 與會議的存檔。
+  - 停用封存、僅針對立即訊息 (IM) 啟用封存，或者針對 IM 和會議啟用封存
 
-  - 設定在 Lync 伺服器失敗時封鎖 IM 和會議會話的 [關鍵模式]。 失敗包括下列各項：
+  - 在 Lync 伺服器故障時設定嚴重模式以封鎖 IM 與會議工作階段。 失敗包含下列項目：
     
-      - **即時消息**。 Lync Server storage service 發生問題。 在此情況下，具有封存能力的使用者皆無法使用 IM。
+      - **IM**。 Lync Server 儲存體服務發生問題。 在此情況下，會針對已啟用封存的使用者封鎖 IM。
     
-      - **會議**。 失敗原因可能是無法使用檔案共用，或存放服務發生問題。 在此情況下，所有於失敗時間在集區中進行的會議，都會切換為限制模式，而且無法啟動新的會議。
+      - **會議**。失敗可能是無法使用的檔案共用，或是儲存服務發生問題。在此情況下，所有失敗時於集區中舉行的作用中會議都會切換為限制模式，並且無法啟動新會議。
     
     IM 和會議會在更正失敗之後自動復原。
 
-  - 指定使用 Microsoft Exchange Server 2013 整合，以使用 Exchange 2013 儲存已歸檔的資料，而不是設定個別的 SQL Server 資料庫來儲存 Lync Server 2013 封存資料。
+  - 指定要用於儲存封存資料，而非設定個別的 SQL Server 資料庫來儲存封存資料的 Lync Server 2013 中的 Exchange 2013 的 Microsoft Exchange Server 2013 整合的使用。
 
-  - 針對存檔資料設定清除選項。 這包括指定何時清除封存的資料，這可能是下列其中一項：
+  - 設定封存資料的清除選項。這包含指定何時清除封存的資料，可以是下列其中一項：
     
-      - 在您指定的天數之後
+      - 在您指定的特定天數之後
     
-      - 匯出資料之後（包括已上傳至 Exchange 的資料），如果您啟用 Microsoft Exchange 整合，就會出現這種情況。
+      - 封存資料匯出之後 （其中包含資料已上傳至 Exchange，如果您啟用 Microsoft Exchange 整合）。
     
     <div>
     
 
     > [!NOTE]  
-    > 如果您啟用 Microsoft Exchange 整合，請清除駐留在 Exchange 2013 的使用者，並將其信箱放在就地保留中，由 Exchange 控制。 唯一的認證是儲存在 Lync Server 檔案共用的會議檔案。 這類檔案會在匯出 (上傳至 Exchange) 之後 (選取匯出封存資料之後才清除資料的選項時)，或是達到指定天數上限之後 (指定保留天數上限時) 才從檔案共用中清除。
+    > 如果您啟用 Microsoft Exchange 整合，清除使用者位於 Exchange 2013，以及與他們放入原有範圍暫止的信箱由控制 Exchange。 唯一限定性條件適用於儲存在 Lync Server 檔案共用的會議檔案。 這類檔案會在匯出 (上傳至 Exchange) 之後 (選取匯出封存資料之後才清除資料的選項時)，或是達到指定天數上限之後 (指定保留天數上限時) 才從檔案共用中清除。
 
     
     </div>
 
-根據預設，不會啟用任何存檔選項。 您可以使用 Lync Server 2013 [控制台] 管理封存配置。
+預設不會啟用任何封存選項。 您可以管理使用 Lync Server 2013 控制台的封存組態。
 
-您可以指定下列存檔設定：
+您可以指定下列封存設定：
 
-  - **全域存檔**設定。 這是預設的存檔設定，且適用于整個部署。 它是在您部署 Lync Server 2013 時建立，而且預設不會啟用 [封存] 功能。 您可以修改全域設定，但無法將其刪除。 如果您選擇設定的 [刪除] 選項，全域設定就會重設為預設設定。
+  - **全域封存設定**。 此為預設的封存設定，可套用至您的整個部署。 它會建立當您部署 Lync Server 2013，根據預設，不會啟用封存功能。 您可以修改全域設定，但無法刪除它。 如果您針對設定選擇刪除選項，即會將全域設定重設為預設設定。
 
-  - **網站封存配置**。 或者，您也可以透過建立及設定個別網站的網站層級封存設定，來設定一或多個特定網站的存檔。 網站層級的歸檔設定只有在您建立時才存在。 您可以修改或刪除任何網站層級的存檔設定。 網站層級的存檔設定會覆寫全域設定，但僅適用于網站層級設定中指定的網站。 例如，如果您只針對全域設定中的 IM 啟用 [封存]，並建立可讓 IM 與會議同時啟用存檔的網站設定，會議將只會封存給該網站，而不是貴組織的其餘部分。
+  - **網站封存設定**。您可以選擇性地為一或多個指定的網站設定封存，作法是針對個別網站建立和設定網站層級的封存設定。網站層級的封存設定只有在您建立它時才會存在。您可以修改或刪除任何網站層級的封存設定。網站層級的封存設定優先於全域設定，但僅適用於網站層級設定中指定的網站。例如，如果您在全域設定中僅針對 IM 啟用封存，並建立一個網站設定以針對 IM 和會議啟用封存，則只會針對該網站封存會議，而不會為貴組織的其餘部分封存會議。
 
-  - **池存檔**設定。 或者，您也可以為個別的 [池] 建立和設定池層級設定，以指定一或多個特定資源池的存檔設定。 池層級的歸檔設定只有在您建立時才存在。 您可以修改並刪除任何池層級的存檔設定。 池層級的存檔設定會覆寫全域設定和您可能已建立的任何網站封存設定。 例如，如果您只針對全域設定中的 IM 啟用 [封存]，請建立網站層級設定，讓您為網站的 IM 和會議啟用封存，然後建立一層級設定，讓您只在其中啟用存檔IM，對於網站的所有使用者，除了駐留在池層級設定中指定的池中的使用者之外，還會針對該網站的所有使用者封存 IM 和會議的通訊。 針對貴組織中的所有其他使用者，只會針對 IM 啟用封存功能。
+  - **集區封存設定**。您可以選擇性地為一或多個指定的集區指定封存設定，作法是為個別集區建立和設定集區層級的設定。集區層級的封存設定只有在您建立它時才會存在。您可以修改和刪除任何集區層級的封存設定。集區層級的封存設定優先於全域設定，以及您可能已建立的任何網站封存設定。例如，如果您在全域設定中僅針對 IM 啟用封存，並建立一個網站層級的設定以針對該網站的 IM 和會議啟用封存，接著建立一個集區層級的設定以便僅針對 IM 啟用封存，則會針對網站的所有使用者封存 IM 與會議的通訊，但位於集區層級設定中指定之集區中的使用者例外。針對組織中所有的其他使用者，就只會針對 IM 啟用封存。
 
-如需如何在部署存檔時設定初始封存配置的詳細資料，請參閱在部署檔中的[Lync Server 2013](lync-server-2013-configuring-archiving-options.md)中的 [設定封存選項]。 如需在部署後使用封存原則啟用和停用通訊的詳細資料，請參閱在作業檔中[針對貴組織、網站和池管理 Lync Server 2013 中的 [存檔](lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md)設定] 選項。
-
-</div>
-
-<div>
-
-## <a name="archiving-options-available-only-in-windows-powershell"></a>只能在 Windows PowerShell 中使用封存選項
-
-使用 Lync Server 2013 管理命令介面，您可以使用 Cmdlet 來實現 Lync Server 2013 [控制台] 中不提供的選項。 這些選項包括下列各項：
-
-  - 封存**重複的郵件**。 如需詳細資訊，請參閱作業檔中的[新 CsArchivingConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsArchivingConfiguration)和[CsArchivingConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsArchivingConfiguration) 。
-
-  - **匯出**封存的資料。 如需詳細資訊，請參閱[Export-CsArchivingData](https://docs.microsoft.com/powershell/module/skype/Export-CsArchivingData)
-
-</div>
-
-</div>
+如需如何設定初始封存組態，當您部署封存的詳細資訊，請參閱部署文件中的[Lync Server 2013 中的設定封存選項](lync-server-2013-configuring-archiving-options.md)。 如需使用封存原則來啟用及停用通訊部署後的詳細資訊，請參閱作業文件中的[組織、 網站及集區的 Lync Server 2013 中管理封存組態選項](lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md)。
 
 </div>
 
 <div>
 
-## <a name="how-do-i-access-archived-data"></a>如何存取已歸檔的資料？
+## <a name="archiving-options-available-only-in-windows-powershell"></a>僅能在 Windows PowerShell 中使用的封存選項
 
-歸檔資料的存取權視資料的儲存位置而定：
+使用 Lync Server 2013 管理命令介面，您可以使用 cmdlet 來實作 Lync Server 2013 控制台] 中所沒有的選項。 這些選項包括下列各項：
 
-  - **Microsoft Exchange 儲存空間**。 如果您選擇 [Exchange 整合] 選項，Lync Server 會在 Exchange 2013 存放區中針對所有託管于 Exchange 2013 的使用者，以及將其信箱放在就地保留中的使用者，將其存檔。 已歸檔的資料會儲存在使用者信箱可復原的專案資料夾中，對於使用者通常是不可見的，而且只有擁有 Exchange**探索管理**角色的使用者才能進行搜尋。 Exchange 可在已部署的情況下，與 SharePoint 一起啟用同盟搜尋與探索。 如需有關儲存在 Exchange 中之資料的儲存、保留和探索的詳細資訊，請參閱 Exchange 2013 和 SharePoint 檔。
+  - **封存重複的訊息**。 如需詳細資訊，請參閱作業文件中的 [New-CsArchivingConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsArchivingConfiguration) 和 [Set-CsArchivingConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsArchivingConfiguration)。
 
-  - **Lync Server 儲存空間**。 如果您設定 Lync Server 2013 封存資料庫以儲存 Lync Server 資料，Lync Server 會將存檔內容放在 Lync Server 封存資料庫（SQL Server 資料庫）中，以供未駐留在 Exchange 2013 的任何使用者使用，而且未將其信箱放在就地保留。 此資料是無法搜尋的，但可將其匯出為可使用其他工具搜尋的格式。 如需有關匯出儲存在歸檔資料庫中之資料的詳細資訊，請參閱在作業檔中[匯出 Lync Server 2013 的存檔資料](lync-server-2013-exporting-archived-data.md)。
+  - **匯出封存的資料**。 如需詳細資訊，請參閱 [Export-CsArchivingData](https://docs.microsoft.com/powershell/module/skype/Export-CsArchivingData)
 
-如需有關 Lync Server 2013 與 Exchange 2013 共同運作方式的詳細資訊，請參閱可支援性檔中的[Lync server 2013 中的 Exchange Server 和 SharePoint 整合支援](lync-server-2013-exchange-and-sharepoint-integration-support.md)。
+</div>
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="how-do-i-access-archived-data"></a>如何存取封存的資料？
+
+存取封存的資料會根據儲存資料的地方而定：
+
+  - **Microsoft Exchange 儲存區**。 如果您選擇 [Exchange 整合選項，則 Lync Server deposits 誰位於 Exchange 2013 中，以及誰已有將信箱置於 「 就地保留 」 狀態的所有使用者的 Exchange 2013 儲存區中封存的內容。 封存的資料會儲存使用者信箱 [可復原的項目] 資料夾中，也就是一般使用者看不到，僅可搜尋的使用者與 Exchange**探索管理**角色。 Exchange 可讓同盟的搜尋及探索，以及 SharePoint，如果部署。 如需詳細資訊儲存、 保留和探索 Exchange 中儲存的資料，請參閱 Exchange 2013 和 SharePoint 文件。
+
+  - **Lync Server 儲存**。 如果您設定 Lync Server 2013 封存資料庫來儲存 Lync Server 資料時，不封存內容中的 Lync Server 封存資料庫 （SQL Server 資料庫） 的任何使用者的 Lync Server 存款位於 Exchange 2013 中，以及誰具有不有放入其信箱原有範圍暫止。 此資料是無法搜尋的，但可匯出為可使用其他工具搜尋的格式。 如需匯出資料儲存在封存資料庫的詳細資訊，請參閱作業文件中的[匯出封存的資料從 Lync Server 2013](lync-server-2013-exporting-archived-data.md) 。
+
+如需有關 Lync Server 2013 和 Exchange 2013 如何共同運作的詳細資訊，請參閱支援文件中的[Exchange Server 與 Lync Server 2013 中支援的 SharePoint 整合](lync-server-2013-exchange-and-sharepoint-integration-support.md)。
 
 </div>
 

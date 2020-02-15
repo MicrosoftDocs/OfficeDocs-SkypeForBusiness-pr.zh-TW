@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：集中式記錄 Cmdlet
+title: Lync Server 2013： 集中式的記錄 cmdlet
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184743
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 05bdedc57fca4c51351bcee351c7774c471cc821
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 70e9993134c10b2b90193538239022919db80c4a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736802"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008475"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="centralized-logging-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的集中式記錄 Cmdlet
+# <a name="centralized-logging-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的集中式的記錄 cmdlet
 
 </div>
 
@@ -35,79 +35,79 @@ ms.locfileid: "41736802"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-08_
+_**主題上次修改日期：** 2012年-10-08_
 
-集中式記錄指令提供一種管理員管理和設定 Microsoft Lync Server 2013 中所引進之集中式記錄功能的方式。 集中式記錄功能可讓系統管理員同時在多部電腦上啟用或停用事件追蹤功能。
+集中式的記錄 cmdlet 提供方法，讓系統管理員管理和設定 Microsoft Lync Server 2013 中引進的集中式的記錄功能。 集中式記錄功能可讓系統管理員可以同時啟用或停用事件追蹤多部電腦上。
 
 <div>
 
 ## <a name="centralized-logging-cmdlets"></a>集中式記錄 Cmdlet
 
-集中式記錄 Cmdlet 可讓您管理 Lync Server 2013 中引入的集中式記錄服務：
+集中式的記錄 cmdlet 讓您管理 Lync Server 2013 中引進的集中式的記錄服務：
 
 **集中式記錄 Cmdlet**
 
-  - [CsClsConfiguration](https://technet.microsoft.com/en-us/library/JJ619179(v=OCS.15))
+  - [Get-csclsconfiguration](https://technet.microsoft.com/library/JJ619179(v=OCS.15))
 
-  - [New-CsClsConfiguration](https://technet.microsoft.com/en-us/library/JJ619177(v=OCS.15))
+  - [New-csclsconfiguration](https://technet.microsoft.com/library/JJ619177(v=OCS.15))
 
-  - [移除-CsClsConfiguration](https://technet.microsoft.com/en-us/library/JJ619191(v=OCS.15))
+  - [Remove-csclsconfiguration](https://technet.microsoft.com/library/JJ619191(v=OCS.15))
 
-  - [Set-CsClsConfiguration](https://technet.microsoft.com/en-us/library/JJ619182(v=OCS.15))
-
-<!-- end list -->
-
-  - [Search-CsClsLogging](https://technet.microsoft.com/en-us/library/JJ619189(v=OCS.15))
-
-  - [顯示-CsClsLogging](https://technet.microsoft.com/en-us/library/JJ619173(v=OCS.15))
-
-  - [開始-CsClsLogging](https://technet.microsoft.com/en-us/library/JJ619190(v=OCS.15))
-
-  - [停止 CsClsLogging](https://technet.microsoft.com/en-us/library/JJ619180(v=OCS.15))
-
-  - [Sync-CsClsLogging](https://technet.microsoft.com/en-us/library/JJ619169(v=OCS.15))
-
-  - [更新-CsClsLogging](https://technet.microsoft.com/en-us/library/JJ619170(v=OCS.15))
+  - [Set-csclsconfiguration](https://technet.microsoft.com/library/JJ619182(v=OCS.15))
 
 <!-- end list -->
 
-  - [新-CsClsProvider](https://technet.microsoft.com/en-us/library/JJ619187(v=OCS.15))
+  - [Search-csclslogging](https://technet.microsoft.com/library/JJ619189(v=OCS.15))
+
+  - [Show-csclslogging](https://technet.microsoft.com/library/JJ619173(v=OCS.15))
+
+  - [Start-csclslogging](https://technet.microsoft.com/library/JJ619190(v=OCS.15))
+
+  - [Stop-csclslogging](https://technet.microsoft.com/library/JJ619180(v=OCS.15))
+
+  - [Sync-csclslogging](https://technet.microsoft.com/library/JJ619169(v=OCS.15))
+
+  - [Update-csclslogging](https://technet.microsoft.com/library/JJ619170(v=OCS.15))
 
 <!-- end list -->
 
-  - [CsClsRegion](https://technet.microsoft.com/en-us/library/JJ204879(v=OCS.15))
-
-  - [新-CsClsRegion](https://technet.microsoft.com/en-us/library/JJ204658(v=OCS.15))
-
-  - [移除-CsClsRegion](https://technet.microsoft.com/en-us/library/JJ204971(v=OCS.15))
-
-  - [Set-CsClsRegion](https://technet.microsoft.com/en-us/library/JJ204746(v=OCS.15))
+  - [New-csclsprovider](https://technet.microsoft.com/library/JJ619187(v=OCS.15))
 
 <!-- end list -->
 
-  - [CsClsScenario](https://technet.microsoft.com/en-us/library/JJ205091(v=OCS.15))
+  - [Get-csclsregion](https://technet.microsoft.com/library/JJ204879(v=OCS.15))
 
-  - [新-CsClsScenario](https://technet.microsoft.com/en-us/library/JJ205022(v=OCS.15))
+  - [New-csclsregion](https://technet.microsoft.com/library/JJ204658(v=OCS.15))
 
-  - [移除-CsClsScenario](https://technet.microsoft.com/en-us/library/JJ205010(v=OCS.15))
+  - [Remove-csclsregion](https://technet.microsoft.com/library/JJ204971(v=OCS.15))
 
-  - [Set-CsClsScenario](https://technet.microsoft.com/en-us/library/JJ204622(v=OCS.15))
-
-<!-- end list -->
-
-  - [CsClsSearchTerm](https://technet.microsoft.com/en-us/library/JJ205061(v=OCS.15))
-
-  - [Set-CsClsSearchTerm](https://technet.microsoft.com/en-us/library/JJ204911(v=OCS.15))
+  - [Set-csclsregion](https://technet.microsoft.com/library/JJ204746(v=OCS.15))
 
 <!-- end list -->
 
-  - [CsClsSecurityGroup](https://technet.microsoft.com/en-us/library/JJ205285(v=OCS.15))
+  - [Get-csclsscenario](https://technet.microsoft.com/library/JJ205091(v=OCS.15))
 
-  - [新-CsClsSecurityGroup](https://technet.microsoft.com/en-us/library/JJ205359(v=OCS.15))
+  - [New-csclsscenario](https://technet.microsoft.com/library/JJ205022(v=OCS.15))
 
-  - [移除-CsClsSecurityGroup](https://technet.microsoft.com/en-us/library/JJ204958(v=OCS.15))
+  - [Remove-csclsscenario](https://technet.microsoft.com/library/JJ205010(v=OCS.15))
 
-  - [Set-CsClsSecurityGroup](https://technet.microsoft.com/en-us/library/JJ204700(v=OCS.15))
+  - [Set-csclsscenario](https://technet.microsoft.com/library/JJ204622(v=OCS.15))
+
+<!-- end list -->
+
+  - [Get-csclssearchterm](https://technet.microsoft.com/library/JJ205061(v=OCS.15))
+
+  - [Set-csclssearchterm](https://technet.microsoft.com/library/JJ204911(v=OCS.15))
+
+<!-- end list -->
+
+  - [Get-csclssecuritygroup](https://technet.microsoft.com/library/JJ205285(v=OCS.15))
+
+  - [New-csclssecuritygroup](https://technet.microsoft.com/library/JJ205359(v=OCS.15))
+
+  - [Remove-csclssecuritygroup](https://technet.microsoft.com/library/JJ204958(v=OCS.15))
+
+  - [Set-csclssecuritygroup](https://technet.microsoft.com/library/JJ204700(v=OCS.15))
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：執行語音路由測試
+title: Lync Server 2013： 執行語音路由測試
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184185
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 869966f5d315fdfaa92409a7586b9eec8fd01ec4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a04188d671c514557107a7e54eab9ea00d00f2a0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765031"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41987328"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41765031"
 
 <span> </span>
 
-_**主題上次修改日期：** 2013-02-21_
+_**上次修改主題：** 2013年-02-21_
 
-Lync Server 2013 提供兩種不同的方式來測試語音路由：您可以針對任何電話號碼和任何語音路線進行非正式、特殊的測試。或者，您也可以使用語音路線測試案例進行更正式的測試。 在正式測試中，您會定義例如要撥打的號碼，以及要使用的撥號規劃和語音原則，然後 Lync Server 就能成功地將所提供的號碼傳送到 PSTN 網路。 這兩種方法都在本檔的後續章節中加以說明。
+Lync Server 2013 提供兩個不同的方法，來測試語音路由： 您可以執行非正式、 臨機操作測試對任何電話號碼和任何語音路由;或者，您可以進行更正式測試使用語音路由測試案例。 正式測試時，您將下列項目定義為要撥打的號碼與撥號對應表以及要採用的語音原則和 Lync Server 就可以確認，在這些條件，提供的號碼可以成功路由傳送至 PSTN 網路。 這兩種方法都是以這份文件的後續各節所述。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
   - [在 Lync Server 2013 中執行非正式語音路由測試](lync-server-2013-run-informal-voice-routing-tests.md)
 

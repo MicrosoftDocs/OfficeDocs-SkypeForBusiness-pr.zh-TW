@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：網功能變數名稱稱系統（DNS）需求
+title: Lync Server 2013： 網域名稱系統 (DNS) 需求
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184194
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2eddf86c881875ebbe08fddd6ffa85403dda6b60
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2536e5079009d508765055d31e80efb1b998aa0b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739793"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006289"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="domain-name-system-dns-requirements-for-lync-server-2013"></a>Lync Server 2013 的網域名稱系統（DNS）需求
+# <a name="domain-name-system-dns-requirements-for-lync-server-2013"></a>Lync Server 2013 的網域名稱系統 (DNS) 需求
 
 </div>
 
@@ -35,41 +35,41 @@ ms.locfileid: "41739793"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-06-18_
+_**主題上次修改日期：** 2012年-06-18_
 
-若要部署 Lync Server，您必須建立可讓用戶端與伺服器探索的網域名稱系統（DNS）記錄，而且（如果您的組織想要支援，也可以選擇）支援自動用戶端登入。
+若要部署 Lync Server，您必須建立網域名稱系統 (DNS) 記錄，可讓您的用戶端和伺服器探索，以及 （選用） 如果您的組織想要支援的話支援的用戶端自動登入。
 
-Lync Server 使用 DNS 的方式如下：
+Lync Server 以下列方式使用 DNS:
 
-  - 探索內部伺服器或池以進行伺服器間的通訊。
+  - 探索內部伺服器或集區以進行伺服器對伺服器的通訊。
 
-  - 允許用戶端探索用於各種 SIP 事務的前端池或標準版伺服器。
+  - 若要允許用戶端探索用於各種 SIP 交易的 Standard Edition server 的前端集區。
 
-  - 若要允許未登入的整合通訊（UC）裝置探索執行裝置更新 Web 服務的前端池或標準版伺服器，請取得更新並傳送記錄。
+  - 若要允許未登入可探索的前端集區或 Standard Edition 伺服器執行裝置更新 Web 服務的整合的通訊 (UC) 裝置，取得更新以及傳送記錄檔。
 
-  - 允許外部伺服器和用戶端連線至 Edge 伺服器或 HTTP 反向 proxy，以取得立即訊息（IM）或會議。
+  - 允許外部伺服器與用戶端連線至 Edge Server 或 HTTP 反向 proxy 進行立即訊息 (IM) 或會議。
 
-  - 若要允許外部 UC 裝置透過邊緣伺服器或 HTTP 反向 proxy 連線到裝置更新 Web 服務，並取得更新。
+  - 若要允許外部 UC 裝置能夠連線至裝置更新 Web 服務，透過 Edge Server 或 HTTP 反向 proxy，並取得更新。
 
-  - 若要允許行動用戶端自動探索 Web 服務資源，而不需要使用者在 [裝置設定] 中手動輸入 Url。
+  - 讓行動用戶端能夠自動探索 Web 服務資源，而不需使用者手動在裝置設定中輸入 URL。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [針對 Lync Server 2013 判定 DNS 需求](lync-server-2013-determine-dns-requirements.md)
+  - [決定針對 Lync Server 2013 的 DNS 需求](lync-server-2013-determine-dns-requirements.md)
 
-  - [Lync Server 2013 中前端池的 DNS 需求](lync-server-2013-dns-requirements-for-front-end-pools.md)
+  - [Lync Server 2013 中的前端集區的 DNS 需求](lync-server-2013-dns-requirements-for-front-end-pools.md)
 
-  - [Lync Server 2013 中標準版伺服器的 DNS 需求](lync-server-2013-dns-requirements-for-standard-edition-servers.md)
+  - [在 [Lync Server 2013 Standard Edition server 的 DNS 需求](lync-server-2013-dns-requirements-for-standard-edition-servers.md)
 
-  - [Lync Server 2013 中簡單 URL 的 DNS 需求](lync-server-2013-dns-requirements-for-simple-urls.md)
+  - [Lync Server 2013 中的簡單 Url 的 DNS 需求](lync-server-2013-dns-requirements-for-simple-urls.md)
 
-  - [在 Lync Server 2013 中自動用戶端登入的 DNS 需求](lync-server-2013-dns-requirements-for-automatic-client-sign-in.md)
+  - [DNS 需求的用戶端自動登入 Lync Server 2013 中](lync-server-2013-dns-requirements-for-automatic-client-sign-in.md)
 
-  - [使用 Lync Server 2013 行動的 DNS 需求](lync-server-2013-dns-requirements-for-mobility.md)
+  - [搭配 Lync Server 2013 的行動的 DNS 需求](lync-server-2013-dns-requirements-for-mobility.md)
 
-  - [Lync Server 2013 中的 DNS 負載平衡](lync-server-2013-dns-load-balancing.md)
+  - [DNS 負載平衡 Lync Server 2013 中](lync-server-2013-dns-load-balancing.md)
 
 </div>
 

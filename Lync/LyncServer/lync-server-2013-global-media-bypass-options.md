@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：全域媒體旁路選項
+title: Lync Server 2013： 通用媒體旁路選項
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183551
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 653c47cd993bac8ada899f62fa3be6700cd34c33
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5b6a5f0d7a6a89b30b0ef08f8631b06fb9047616
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742413"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007812"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="global-media-bypass-options-in-lync-server-2013"></a>Lync Server 2013 中的全域媒體旁路選項
+# <a name="global-media-bypass-options-in-lync-server-2013"></a>通用媒體旁路 Lync Server 2013 中的選項
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "41742413"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-04_
+_**主題上次修改日期：** 2012年-10-04_
 
 <div>
 
 
 > [!NOTE]  
-> 本主題假設您已針對特定網站或服務，將任何 trunks 的媒體旁路設定為對等（在網際網路電話服務提供者的公用交換電話網絡（PSTN）閘道、IP PBX 或會話邊界控制器（SBC）您希望媒體略過中繼伺服器。
+> 本主題會假設您已設定好主幹對等端 （公用交換的電話網路 (PSTN) 閘道、 IP PBX 或在網際網路電話語音服務提供者的工作階段邊界控制器 (SBC)） 的媒體旁路的特定網站或服務您想要媒體略過此中繼伺服器。
 
 
 
 </div>
 
-除了為與對等相關聯的個別幹線連線啟用媒體旁路之外，您還必須啟用全域旁路媒體。 全域媒體旁路設定可以指定媒體略過嘗試撥打電話給 PSTN，或者使用子網至網路網站和網路區域的對應，就像是由通話許可控制所做的一樣，另一個[高級語音] 功能。 當 [媒體旁路] 和 [呼叫許可控制] 都已啟用時，系統會在判斷是否要使用媒體旁路時，自動使用為 [呼叫許可控制] 所指定的網路區域、網路網站及子網資訊。 這表示您無法指定在已啟用呼叫許可控制的情況下，不會針對 PSTN 呼叫總是嘗試使用媒體旁路。
+除了啟用對等端相關之個別主幹連線的媒體旁路，您也必須通用啟用媒體旁路。 通用媒體旁路設定可以指定媒體旁路永遠嘗試 pstn 通話或媒體旁路所使用的子網路以網路網站與網路地區對應採用 — 類似所執行之動作的通話許可控制，另一個進階的語音功能。 媒體旁路和通話許可控制會同時啟用，然後網路地區、 網路網站，並針對指定的子網路資訊時決定是否要使用媒體旁路時，都會自動會使用通話許可控制。 啟用通話許可控制時，這表示，您不能指定媒體旁路會永遠會嘗試至 PSTN 通話。
 
-本主題說明如何搭配使用 Lync Server [控制台] 和 Lync Server 管理命令介面來設定全域媒體旁路設定。
+本主題說明如何使用 Lync Server 控制台] 及 [Lync Server 管理命令介面在一起進行通用媒體旁路設定。
 
 <div>
 
 
 > [!NOTE]  
-> 當您使用這些步驟來設定媒體旁路時，假設您在用戶端與中繼伺服器對等（例如 PSTN 閘道、IP PBX 或 SIP 中繼提供者的 SBC）之間有良好的連線能力。 如果連結有任何頻寬限制，則無法將媒體略過套用至通話。 媒體旁路將無法與每個 PSTN 閘道、IP PBX 和 SBC 進行交互操作。 Microsoft 已經測試了一組 PSTN 閘道，並有已認證的合作夥伴，且已使用 Cisco IP-Pbx 進行了一些測試。 只有在整合通訊開啟互通性計畫（Lync Server at <A href="http://go.microsoft.com/fwlink/p/?linkid=214406">http://go.microsoft.com/fwlink/p/?linkId=214406</A>）中所列的產品和版本，才能支援媒體略過。
+> 使用下列步驟設定媒體旁路時，假設前提是用戶端和中繼伺服器對等端 (例如 PSTN 閘道、IP-PBX 或 SIP 主幹提供者上的 SBC) 之間的連線良好。 如果連結上有頻寬限制，就無法將媒體旁路套用至通話。 媒體旁路不會與每個 PSTN 閘道、IP-PBX 以及 SBC 相互溝通。 Microsoft 已測試一組的 PSTN 閘道與 Sbc 與認證合作夥伴，並已執行一些測試與 Cisco Ip-pbx。 媒體旁路只支援的產品和版本列在 Unified Communications Open Interoperability Program – 在 Lync Server <A href="http://go.microsoft.com/fwlink/p/?linkid=214406">http://go.microsoft.com/fwlink/p/?linkId=214406</A>。
 
 
 
@@ -63,27 +63,27 @@ _**主題上次修改日期：** 2012-10-04_
 
 <div>
 
-## <a name="next-steps-choose-global-media-bypass-settings"></a>後續步驟：選擇全域媒體旁路設定
+## <a name="next-steps-choose-global-media-bypass-settings"></a>後續步驟：選擇通用媒體旁路設定
 
-在針對特定網站或服務在對等的任何干線連線上啟用媒體旁路之後，請使用下列內容之一：
+在針對特定網站或服務對等端的主幹連線啟用媒體旁路後，使用下列內容可執行下列其中一項：
 
-  - [在[Lync server 2013 中設定媒體旁路](lync-server-2013-configure-media-bypass-to-always-bypass-the-mediation-server.md)] 中所述的 [自動啟用媒體旁路]，以永遠略過中繼伺服器。
+  - [設定媒體旁路以始終略過中繼伺服器的 Lync Server 2013 中](lync-server-2013-configure-media-bypass-to-always-bypass-the-mediation-server.md)所述，一律，啟用媒體旁路。
 
-  - 或者，將 [媒體旁路] 設定為使用網站和區域資訊，如在[Lync Server 2013 中設定媒體旁路全域設定以使用網站和區域資訊](lync-server-2013-configure-media-bypass-global-settings-to-use-site-and-region-information.md)所述。
+  - 或者，設定媒體旁路使用網站與地區資訊，[設定媒體旁路使用網站與地區資訊的 Lync Server 2013 中的全域設定](lync-server-2013-configure-media-bypass-global-settings-to-use-site-and-region-information.md)中所述。
 
 </div>
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
-[在 Lync Server 2013 中使用 [旁路媒體] 設定主幹](lync-server-2013-configure-a-trunk-with-media-bypass.md)  
-[在 Lync Server 2013 中建立子網路與網路站台的關聯](lync-server-2013-associate-a-subnet-with-a-network-site.md)  
+[設定與 Lync Server 2013 中的媒體旁路的主幹](lync-server-2013-configure-a-trunk-with-media-bypass.md)  
+[關聯子網路與 Lync Server 2013 中的網路網站](lync-server-2013-associate-a-subnet-with-a-network-site.md)  
 
 
 [在 Lync Server 2013 中設定媒體旁路](lync-server-2013-configure-media-bypass.md)  
-[Lync Server 2013 中的媒體旁路和中繼伺服器](lync-server-2013-media-bypass-and-mediation-server.md)  
+[媒體旁路和 Lync Server 2013 中的中繼伺服器](lync-server-2013-media-bypass-and-mediation-server.md)  
   
 
 </div>

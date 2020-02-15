@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：停用或啟用聊天室
+title: Lync Server 2013： 停用或啟用聊天室
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48706011
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a3ed23319631dd8ab51131fe9a8d7a9099e35d18
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 55d9c706c0ea5afcff4f249a9c00a2355667f221
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757597"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007832"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="disabling-or-enabling-a-chat-room-in-lync-server-2013"></a>在 Lync Server 2013 中停用或啟用聊天室
+# <a name="disabling-or-enabling-a-chat-room-in-lync-server-2013"></a>停用或啟用 Lync Server 2013 中的聊天室
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41757597"
 
 <span> </span>
 
-_**主題上次修改日期：** 2014-02-05_
+_**上次修改主題：** 2014年-02-05_
 
-如果永久聊天室的主題已不再相關，您可以停用聊天室，讓使用者無法使用該聊天室。 停用聊天室時，所有成員都會立即中斷與聊天室的連線。 停用聊天室之後，使用者就無法在聊天室搜尋中重新加入或尋找。
+如果不再相關主題的常設聊天室，您可以讓聊天室使用者無法使用藉由停用它。 停用聊天室時，所有成員會立即都中斷連線會議室。 停用聊天室之後，使用者無法將其重新加入或聊天室搜尋中尋找。
 
-停用聊天室可在稍後由持續聊天管理員啟用。 如果聊天室停用，則會保留其成員資格清單及其他設定。 如果您再次啟用聊天室，就不需要手動重新建立設定。
+常設聊天室管理員可以稍後再啟用已停用的聊天室。 停用聊天室時，其中的成員資格清單與其他設定仍會保留。 如果您重新啟用會議室，您不需要以手動方式重新建立設定。
 
-如果聊天室的歷程記錄持續存在（聊天室記錄暫留是在類別中套用至所有聊天室的選擇性設定，預設值是它會保留，但若要將類別的 [**啟用聊天記錄**] 設定為 false，則會在停用聊天室時保留該內容。 不過，在聊天室保持在停用狀態時，搜尋中不會顯示該內容。 如果您稍後啟用聊天室，使用者就可以搜尋在停用聊天室之前所張貼的訊息。
+如果仍然存在該聊天室的歷程記錄 （聊天室歷程記錄保存性是選擇性的設定套用至該類別內的所有聊天室類別上; 預設值是它保存，但可以藉由將類別的**啟用聊天歷程記錄**設定為 false 關閉），此內容會保留時已停用聊天室。 不過，該內容不會出現在搜尋期間聊天室仍會保留在停用狀態的時間。 如果您稍後啟用該聊天室，使用者可以搜尋聊天室被停用之前已張貼的訊息。
 
-如需使用 Windows PowerShell 命令列介面來停用或啟用聊天室的詳細資料，請參閱[使用 Windows powershell Cmdlet 來設定持久聊天伺服器](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md)中的「會議室管理」。 若要停用聊天室，請使用類似以下的命令：
+如需停用，並使用 Windows PowerShell 命令列介面來啟用聊天室的詳細資訊，請參閱[使用 Windows PowerShell cmdlet 的 Configuring Persistent Chat Server](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md)中的 「 聊天室管理 」。 若要停用聊天室，請使用類似如下的命令：
 
     Set-CsPersistentChatRoom -Identity "atl-cs-001.litwareinc.com\ITChatRoom" -Disabled $True
 
-若要啟用聊天室，請將 Disabled 屬性設定為 False：
+若要啟用聊天室，請停用屬性設為 False:
 
     Set-CsPersistentChatRoom -Identity "atl-cs-001.litwareinc.com\ITChatRoom" -Disabled $False
 
-請注意，您無法使用 Lync Server [控制台] 來啟用或停用聊天室。
+請注意，無法啟用或停用使用 Lync Server Control Panel 聊天室。
 
-如需有關設定聊天室的詳細資訊，請參閱在部署檔中的[Lync Server 2013 中設定會議室](lync-server-2013-configure-rooms.md)。
+如需設定聊天室的詳細資訊，請參閱部署文件中的[Lync Server 2013 中的 Configure rooms](lync-server-2013-configure-rooms.md) 。
 
 </div>
 

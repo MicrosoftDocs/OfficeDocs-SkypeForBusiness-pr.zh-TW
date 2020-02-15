@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：針對綜合交易使用豐富的記錄
+title: Lync Server 2013： 使用綜合交易的豐富記錄
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183812
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 48efc99a49fd41678d07eef8685bc7f045397aa3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 421b691bd282b858eca64c9756e92dd24aac8b7b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744043"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007572"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="using-rich-logging-for-synthetic-transactions-in-lync-server-2013"></a>在 Lync Server 2013 中使用 [綜合交易] 的豐富記錄
+# <a name="using-rich-logging-for-synthetic-transactions-in-lync-server-2013"></a>使用 Lync Server 2013 中的綜合交易的豐富記錄
 
 </div>
 
@@ -35,42 +35,42 @@ ms.locfileid: "41744043"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-22_
+_**主題上次修改日期：** 2012年-10-22_
 
-綜合交易（在 Microsoft Lync Server 2010 中引進）提供一種方式，讓系統管理員確認使用者能夠成功完成一般工作，例如登入系統、交換立即訊息，或撥打電話給在公用交換電話網絡（PSTN）上。 這些測試（封裝為一組 Lync Server Windows PowerShell Cmdlet）可以由系統管理員手動執行，或由 System Center Operations Manager 等應用程式自動執行。
+綜合交易 （Microsoft Lync Server 2010 中引進） 提供讓系統管理員來確認使用者能夠成功完成 [登入系統、 交換立即訊息，或撥打電話到位於電話等一般工作公用交換電話網路 (PSTN)。 可以手動進行這些測試 （這會封裝成一組 Lync Server Windows PowerShell cmdlet），由系統管理員，或他們可自動執行的應用程式，例如 System Center Operations Manager。
 
-在 Lync Server 2010 中，綜合交易已證實在協助管理員找出系統問題時非常有用。 例如， **CsRegistration** Cmdlet 會提醒管理員，這是因為有些使用者難以在 Lync Server 註冊。 不過，綜合交易在協助管理員決定這些使用者為何無法使用 Lync Server 進行註冊，這種方式不太有用。 這是因為綜合交易不提供詳細的記錄資訊，可協助系統管理員針對 Lync Server 的問題進行疑難排解。 從綜合交易的詳細資料輸出中，提供的逐步資訊可能會讓系統管理員在可能的情況下，讓您有權猜到發生問題的位置。
+Lync Server 2010 中的綜合交易，證明中協助識別系統問題的系統管理員非常有用。 例如， **Test-csregistration** cmdlet 無法發出警示系統管理員一些使用者已有困難註冊搭配 Lync Server 的事實。 然而，如果綜合交易是比較沒有幫助判斷為什麼這些使用者已困難註冊搭配 Lync Server 系統管理員。 這已經因為綜合交易未提供可協助您遇到了 Lync Server 系統管理員的詳細的記錄資訊。 綜合交易的詳細資訊輸出充其量只能提供逐步資訊，讓系統管理員能夠根據經驗來猜測可能發生問題的地方。
 
-在 Microsoft Lync Server 2013 中，已重新設計綜合交易來提供豐富的記錄。 "豐富記錄" 代表，對於綜合交易 undertakes 的每個活動，都會錄製如下的資訊：
+在 [Microsoft Lync Server 2013，綜合交易都已重新架構提供豐富的記錄。 「豐富的記錄」表示將針對綜合交易所進行的每個活動記錄如下的資訊：
 
-  - 活動開始的時間
+  - 活動開始時間
 
-  - 活動的完成時間
+  - 活動完成時間
 
-  - 所執行的動作（例如，建立、加入或離開會議; 登入 Lync Server; 傳送即時消息; 等等）
+  - 已執行的動作 （例如，建立、 加入或離開會議; 登入 Lync Server; 傳送立即訊息; 等等）
 
-  - 當活動執行時產生的資訊、詳細、警告或錯誤訊息
+  - 活動執行時所產生的資訊、詳細資料、警告或錯誤訊息
 
-  - SIP 註冊訊息
+  - SIP 登錄訊息
 
-  - 在活動執行時產生的例外記錄或診斷程式代碼
+  - 活動執行時所產生的例外狀況記錄或診斷碼
 
   - 執行活動的最終結果
 
-這項資訊會在每次執行綜合交易時自動產生。 不過，資訊不會自動顯示或儲存至記錄檔。 相反地，手動執行綜合交易的系統管理員可以使用 OutLoggerVariable 參數來指定要儲存資訊的 Windows PowerShell 變數。 然後，管理員就可以使用一組方法，讓他們以 XML 或 HTML 格式儲存及/或查看豐富記錄。
+這項資訊會自動產生每次執行綜合交易。 不過，資訊不會自動顯示，或儲存記錄檔。 相反地，手動執行的綜合交易的系統管理員可以使用之後包含 OutLoggerVariable 參數來指定的資訊會儲存在 Windows PowerShell 變數。 從那裡，系統管理員可以使用一組的方法，可讓他們儲存及/或 rtf 登入 [XML] 或 [HTML 格式的檢視。
 
-例如，Lync Server 2010 系統管理員可以使用類似下列的命令來執行**CsRegistration** Cmdlet：
+例如，Lync Server 2010 管理員可能會使用類似下列的命令執行**Test-csregistration** cmdlet:
 
     Test-CsRegistration -TargetFqdn atl-cs-001.litwareinc.com
 
-系統管理員可以選擇包含 OutLoggerVariable 參數，後面接著其選擇的變數名稱：
+系統管理員可以選擇在他們選擇的變數名稱之後包含 OutLoggerVariable 參數：
 
     Test-CsRegistration -TargetFqdn atl-cs-001.litwareinc.com -OutLoggerVariable RegistrationTest
 
 > [!NOTE]  
-> 請勿在變數名稱前面加上 $ 字元。 使用變數名稱（例如 RegistrationTest，而非 $RegistrationTest）。
+> 請不要在變數名稱的開頭加上 $ 字元。請使用像是 RegistrationTest 的變數名稱，而不要使用 $RegistrationTest。
 
-上述命令會輸出如下所示的內容：
+上述命令輸出內容如下：
 
     Target Fqdn   : atl-cs-001.litwareinc.com
     Result        : Failure
@@ -78,20 +78,20 @@ _**主題上次修改日期：** 2012-10-22_
     Error Message : This machine does not have any assigned certificates.
     Diagnosis     :
 
-不過，這項失敗的詳細資訊比上述所示的錯誤訊息更多。 若要以 HTML 格式存取該資訊，請使用類似以下的命令，將儲存在可變 RegistrationTest 中的資訊儲存為 HTML 檔案：
+不過，系統會顯示更多關於此次失敗的詳細資訊，而不只是上述顯示的錯誤訊息。若要使用 HTML 格式存取該資訊，請使用類似下列的命令，以便將儲存於變數 RegistrationTest 中的資訊儲存至 HTML 檔案：
 
     $RegistrationTest.ToHTML() | Out-File C:\Logs\Registration.html
 
-或者，您也可以使用 ToXML （）方法將資料儲存至 XML 檔案：
+或者，您可以使用 ToXML() 方法，將資料儲存至 XML 檔案：
 
     $RegistrationTest.ToXML() | Out-File C:\Logs\Registration.xml
 
-然後，您就可以使用 Internet Explorer、Visual Studio 或任何能夠開啟 HTML/XML 檔案的任何其他應用程式來查看這些檔案。
+這些檔案然後可以使用 Internet Explorer、 Visual Studio 中或任何其他應用程式能夠開啟 HTML/XML 檔案來檢視。
 
-從系統中心作業管理員內部執行的綜合交易，會自動產生這些記錄檔案，以尋找失敗。 不過，如果在 Windows PowerShell 能夠載入並執行綜合交易之前執行失敗，就不會產生這些記錄。
+綜合交易，從執行 System Center Operations Manager 中的內容會自動產生失敗這些記錄檔。 不過，如果執行作業失敗之前 Windows PowerShell 無法載入及執行綜合交易，就不產生這些記錄檔。
 
 > [!IMPORTANT]  
-> 根據預設，Lync Server 2013 會將記錄檔案儲存到未共用的資料夾中。 若要讓這些記錄易於存取，您應該共用此資料夾（例如\\ \\atl-觀察程式-001. litwareinc. com\WatcherNode。
+> 根據預設，Lync Server 2013 會將記錄檔儲存至未共用資料夾。 若要讓這些記錄檔隨時都能存取，您應該共用此資料夾 (例如， \\ \\atl-watcher-001.litwareinc.com\WatcherNode。
 
 
 </div>

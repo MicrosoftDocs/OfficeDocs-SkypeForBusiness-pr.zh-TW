@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：指定可用於登入 Lync Server 2013 的用戶端應用程式
+title: Lync Server 2013： 指定可以用來登入 Lync Server 2013 的用戶端應用程式
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185450
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 788a0638dee6b9d52a5d954eafb7b4e33bdfd294
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ea0083a28253f5b79e6124dc7733a3ea096f4509
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731873"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006118"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="specifying-the-client-applications-that-can-be-used-to-log-on-to-lync-server-2013"></a>指定可用於登入 Lync Server 2013 的用戶端應用程式
+# <a name="specifying-the-client-applications-that-can-be-used-to-log-on-to-lync-server-2013"></a>指定可以用來登入 Lync Server 2013 的用戶端應用程式
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41731873"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-12-11_
+_**主題上次修改日期：** 2012年-12-11_
 
-Lync Server 2013 可讓您指定您環境中支援的用戶端版本。 使用用戶端版本原則可協助減少支援多個用戶端版本所帶來的成本。 它也可以改善整體的使用者體驗，因為當用戶端與較舊版本的用戶端互動時，可用的功能可能會受到舊版用戶端的限制。
+Lync Server 2013 可讓您指定的環境中支援的用戶端版本。 使用用戶端版本原則，可以協助減少支援多個用戶端版本的相關成本。 它也可以改善整體的使用者經驗，因為較早版本的用戶端時舊版和更新版本的用戶端互動，受限於可用的功能。
 
-用戶端版本控制有三個元件：
+有三個元件的用戶端版本控制：
 
-  - 用戶端版本配置設定是用來開啟或關閉用戶端版本控制（全域或針對特定網站）。
+  - 用戶端版本組態設定用來開啟用戶端版本控制，開啟或關閉，全域或針對特定網站。
 
-  - 用戶端版本原則是用來全域指派一組規則，或是指派給特定的網站、文件庫或使用者群組。
+  - 用戶端版本原則用來指派一組規則全域，或特定站台，集區或使用者群組。
 
-  - 用戶端版本原則規則組成用戶端版本原則，並用於定義使用者嘗試使用特定用戶端和用戶端版本登入時應採取的動作。
+  - 用戶端版本原則規則構成用戶端版本原則]，並可用來定義使用者嘗試登入特定的用戶端與用戶端版本時應採取的動作。
 
 <div>
 
@@ -59,9 +59,9 @@ Lync Server 2013 可讓您指定您環境中支援的用戶端版本。 使用�
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [Lync Server 2013 中的用戶端版本配置設定](lync-server-2013-client-version-configuration-settings.md)
+  - [Lync Server 2013 中的用戶端版本組態設定](lync-server-2013-client-version-configuration-settings.md)
 
   - [Lync Server 2013 中的用戶端版本原則](lync-server-2013-client-version-policies.md)
 
@@ -71,10 +71,10 @@ Lync Server 2013 可讓您指定您環境中支援的用戶端版本。 使用�
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
-[在 Lync Server 2013 中管理裝置、電話及用戶端應用程式](lync-server-2013-managing-devices-phones-and-client-applications.md)  
+[管理裝置、 電話和 Lync Server 2013 中的用戶端應用程式](lync-server-2013-managing-devices-phones-and-client-applications.md)  
   
 
 </div>
