@@ -1,5 +1,5 @@
 ---
-title: 遷移群組聊天伺服器
+title: 移轉群組聊天伺服器
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733609
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5741b3344c6cff3ae3acd641478c9203f5e9a6a1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5446cdb144b59865f22b6bd18a73fb2782802f44
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763305"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036101"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="migrating-group-chat-servers"></a><span data-ttu-id="80d56-102">遷移群組聊天伺服器</span><span class="sxs-lookup"><span data-stu-id="80d56-102">Migrating Group Chat servers</span></span>
+# <a name="migrating-group-chat-servers"></a><span data-ttu-id="f6099-102">移轉群組聊天伺服器</span><span class="sxs-lookup"><span data-stu-id="f6099-102">Migrating Group Chat servers</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41763305"
 
 <span> </span>
 
-<span data-ttu-id="80d56-103">_**主題上次修改日期：** 2012-09-29_</span><span class="sxs-lookup"><span data-stu-id="80d56-103">_**Topic Last Modified:** 2012-09-29_</span></span>
+<span data-ttu-id="f6099-103">_**主題上次修改日期：** 2012年-09-29_</span><span class="sxs-lookup"><span data-stu-id="f6099-103">_**Topic Last Modified:** 2012-09-29_</span></span>
 
-<span data-ttu-id="80d56-104">如果您在舊版 Lync Server 2010 環境中部署了 [群組聊天伺服器]，您必須部署 Lync Server 2013 持久聊天伺服器。</span><span class="sxs-lookup"><span data-stu-id="80d56-104">If you deployed Group Chat Server in your legacy Lync Server 2010 environment, you must deploy Lync Server 2013 Persistent Chat Server.</span></span> <span data-ttu-id="80d56-105">群組聊天伺服器與持久聊天伺服器可以共存，但內容（例如，聊天室等）不會在這些伺服器之間共用。</span><span class="sxs-lookup"><span data-stu-id="80d56-105">Group Chat Server and Persistent Chat Server can coexist, but content (for example, chat rooms, etc.) is not shared across these servers.</span></span> <span data-ttu-id="80d56-106">若要從持久性聊天伺服器存取舊版群組聊天伺服器內容，您必須將群組聊天伺服器遷移至永久性聊天伺服器。</span><span class="sxs-lookup"><span data-stu-id="80d56-106">To access the legacy Group Chat Server content from Persistent Chat Server, you must migrate the Group Chat Server to Persistent Chat Server.</span></span> <span data-ttu-id="80d56-107">如需遷移至永久性聊天伺服器的詳細資料，請參閱[從 Lync server 2010 遷移、群組聊天或 Office 通訊伺服器 2007 R2 群組聊天至 Lync server 2013、持續聊天伺服器（](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md)在遷移檔中）。</span><span class="sxs-lookup"><span data-stu-id="80d56-107">For details on migrating to Persistent Chat Server, see [Migration from Lync Server 2010, Group Chat or Office Communications Server 2007 R2 Group Chat to Lync Server 2013, Persistent Chat Server](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md) in the Migration documentation.</span></span>
+<span data-ttu-id="f6099-104">如果您在舊版 Lync Server 2010 環境中部署群組聊天伺服器，您必須部署 Lync Server 2013 常設聊天室伺服器。</span><span class="sxs-lookup"><span data-stu-id="f6099-104">If you deployed Group Chat Server in your legacy Lync Server 2010 environment, you must deploy Lync Server 2013 Persistent Chat Server.</span></span> <span data-ttu-id="f6099-105">Group Chat 伺服器和 Persistent Chat Server 可以共存，但這些伺服器不會共用內容 （例如，聊天室等）。</span><span class="sxs-lookup"><span data-stu-id="f6099-105">Group Chat Server and Persistent Chat Server can coexist, but content (for example, chat rooms, etc.) is not shared across these servers.</span></span> <span data-ttu-id="f6099-106">若要從 Persistent Chat Server 存取舊版 Group Chat 伺服器內容，您必須將 Group Chat 伺服器移轉至 Persistent Chat Server。</span><span class="sxs-lookup"><span data-stu-id="f6099-106">To access the legacy Group Chat Server content from Persistent Chat Server, you must migrate the Group Chat Server to Persistent Chat Server.</span></span> <span data-ttu-id="f6099-107">如需移轉至 Persistent Chat Server 的詳細資訊，請參閱移轉文件中的[Migration from Lync Server 2010，Group Chat 或 Office Communications Server 2007 R2 Group Chat to Lync Server 2013，Persistent Chat Server](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md) 。</span><span class="sxs-lookup"><span data-stu-id="f6099-107">For details on migrating to Persistent Chat Server, see [Migration from Lync Server 2010, Group Chat or Office Communications Server 2007 R2 Group Chat to Lync Server 2013, Persistent Chat Server](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md) in the Migration documentation.</span></span>
 
 </div>
 

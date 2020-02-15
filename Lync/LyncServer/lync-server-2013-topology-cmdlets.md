@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：拓撲 Cmdlet
+title: Lync Server 2013： 拓撲 cmdlet
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183942
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b7524098f256587820beaabe31a8162591ba595d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1c584670828524b0d72a03adcbbee7a7bca773b1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745103"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036513"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="topology-cmdlets-jn-lync-server-2013"></a><span data-ttu-id="c153a-102">拓撲 Cmdlet jn Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c153a-102">Topology cmdlets jn Lync Server 2013</span></span>
+# <a name="topology-cmdlets-jn-lync-server-2013"></a><span data-ttu-id="a3f13-102">拓撲 cmdlet jn Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a3f13-102">Topology cmdlets jn Lync Server 2013</span></span>
 
 </div>
 
@@ -35,83 +35,83 @@ ms.locfileid: "41745103"
 
 <span> </span>
 
-<span data-ttu-id="c153a-103">_**主題上次修改日期：** 2012-06-20_</span><span class="sxs-lookup"><span data-stu-id="c153a-103">_**Topic Last Modified:** 2012-06-20_</span></span>
+<span data-ttu-id="a3f13-103">_**主題上次修改日期：** 2012年-06-20 個_</span><span class="sxs-lookup"><span data-stu-id="a3f13-103">_**Topic Last Modified:** 2012-06-20_</span></span>
 
-<span data-ttu-id="c153a-104">Microsoft Lync Server 2013 中包含的許多拓撲 Cmdlet 都是專為搭配安裝與拓撲結構建立器而設計;因此，系統管理員很少會直接呼叫一些拓撲 Cmdlet。</span><span class="sxs-lookup"><span data-stu-id="c153a-104">Many of the topology cmdlets included in Microsoft Lync Server 2013 are designed for use with Setup and Topology Builder; because of that, there are a number of topology cmdlets that administrators will rarely call directly.</span></span> <span data-ttu-id="c153a-105">不過，在某些情況下，系統會要求系統管理員使用這些 Cmdlet;例如，在建立新的 Kerberos 帳戶之後，您必須執行[Enable CsTopology](https://technet.microsoft.com/en-us/library/Gg398398(v=OCS.15)) Cmdlet，才能使變更生效。</span><span class="sxs-lookup"><span data-stu-id="c153a-105">However, there will be times when administrators will be required to use these cmdlets; for example, after creating new Kerberos accounts you must run the [Enable-CsTopology](https://technet.microsoft.com/en-us/library/Gg398398(v=OCS.15)) cmdlet to cause the changes to take effect.</span></span> <span data-ttu-id="c153a-106">此外，系統管理員可能會執行 Cmdlet （例如[Test CsTopology](https://technet.microsoft.com/en-us/library/Gg398127(v=OCS.15))和[test CsComputer](https://technet.microsoft.com/en-us/library/Gg398162(v=OCS.15)) ），以協助確保 Lync Server 2013 已正確安裝且正常運作。</span><span class="sxs-lookup"><span data-stu-id="c153a-106">In addition, administrators will likely run cmdlets such as [Test-CsTopology](https://technet.microsoft.com/en-us/library/Gg398127(v=OCS.15)) and [Test-CsComputer](https://technet.microsoft.com/en-us/library/Gg398162(v=OCS.15)) to help ensure that Lync Server 2013 has been correctly installed and is working as expected.</span></span>
+<span data-ttu-id="a3f13-104">許多 Microsoft Lync Server 2013 中所含的拓樸指令程式的設計是用於設定及拓撲產生器;因此，有系統管理員會很少直接呼叫的拓樸指令程式數目。</span><span class="sxs-lookup"><span data-stu-id="a3f13-104">Many of the topology cmdlets included in Microsoft Lync Server 2013 are designed for use with Setup and Topology Builder; because of that, there are a number of topology cmdlets that administrators will rarely call directly.</span></span> <span data-ttu-id="a3f13-105">不過，會有的時間時所需的系統管理員使用這些 cmdlet;例如，在建立新的 Kerberos 帳戶之後，您必須執行[Enable-cstopology](https://technet.microsoft.com/library/Gg398398(v=OCS.15)) cmdlet 使變更生效。</span><span class="sxs-lookup"><span data-stu-id="a3f13-105">However, there will be times when administrators will be required to use these cmdlets; for example, after creating new Kerberos accounts you must run the [Enable-CsTopology](https://technet.microsoft.com/library/Gg398398(v=OCS.15)) cmdlet to cause the changes to take effect.</span></span> <span data-ttu-id="a3f13-106">此外，系統管理員可能會執行指令程式，例如[Test-cstopology](https://technet.microsoft.com/library/Gg398127(v=OCS.15))和[Test-cscomputer](https://technet.microsoft.com/library/Gg398162(v=OCS.15))為了協助確保 Lync Server 2013 已正確安裝，以及如預期運作。</span><span class="sxs-lookup"><span data-stu-id="a3f13-106">In addition, administrators will likely run cmdlets such as [Test-CsTopology](https://technet.microsoft.com/library/Gg398127(v=OCS.15)) and [Test-CsComputer](https://technet.microsoft.com/library/Gg398162(v=OCS.15)) to help ensure that Lync Server 2013 has been correctly installed and is working as expected.</span></span>
 
 <div>
 
-## <a name="topology-cmdlets"></a><span data-ttu-id="c153a-107">拓撲 Cmdlet</span><span class="sxs-lookup"><span data-stu-id="c153a-107">Topology Cmdlets</span></span>
+## <a name="topology-cmdlets"></a><span data-ttu-id="a3f13-107">拓撲 Cmdlet</span><span class="sxs-lookup"><span data-stu-id="a3f13-107">Topology Cmdlets</span></span>
 
-<span data-ttu-id="c153a-108">以下是與直接管理 Lync Server 拓撲相關的 Cmdlet 清單：</span><span class="sxs-lookup"><span data-stu-id="c153a-108">The following is a list of cmdlets that relate directly managing your Lync Server topology:</span></span>
+<span data-ttu-id="a3f13-108">以下是 cmdlet 的與相關直接管理 Lync Server 拓撲清單：</span><span class="sxs-lookup"><span data-stu-id="a3f13-108">The following is a list of cmdlets that relate directly managing your Lync Server topology:</span></span>
 
-<span data-ttu-id="c153a-109">**拓撲**</span><span class="sxs-lookup"><span data-stu-id="c153a-109">**Topology**</span></span>
+<span data-ttu-id="a3f13-109">**拓撲**</span><span class="sxs-lookup"><span data-stu-id="a3f13-109">**Topology**</span></span>
 
   - <span></span>  
-    <span data-ttu-id="c153a-110">[CsPool](https://technet.microsoft.com/en-us/library/Gg398992(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="c153a-110">[Get-CsPool](https://technet.microsoft.com/en-us/library/Gg398992(v=OCS.15))</span></span>
+    <span data-ttu-id="a3f13-110">[Get-cspool](https://technet.microsoft.com/library/Gg398992(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a3f13-110">[Get-CsPool](https://technet.microsoft.com/library/Gg398992(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="c153a-111">[CsSite](https://technet.microsoft.com/en-us/library/Gg398185(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="c153a-111">[Get-CsSite](https://technet.microsoft.com/en-us/library/Gg398185(v=OCS.15))</span></span>
+    <span data-ttu-id="a3f13-111">[Get-cssite](https://technet.microsoft.com/library/Gg398185(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a3f13-111">[Get-CsSite](https://technet.microsoft.com/library/Gg398185(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="c153a-112">[Set-CsSite](https://technet.microsoft.com/en-us/library/Gg413023(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="c153a-112">[Set-CsSite](https://technet.microsoft.com/en-us/library/Gg413023(v=OCS.15))</span></span>
+    <span data-ttu-id="a3f13-112">[設定 CsSite](https://technet.microsoft.com/library/Gg413023(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a3f13-112">[Set-CsSite](https://technet.microsoft.com/library/Gg413023(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="c153a-113">[Enable-CsTopology](https://technet.microsoft.com/en-us/library/Gg398398(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="c153a-113">[Enable-CsTopology](https://technet.microsoft.com/en-us/library/Gg398398(v=OCS.15))</span></span>
+    <span data-ttu-id="a3f13-113">[Enable-cstopology](https://technet.microsoft.com/library/Gg398398(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a3f13-113">[Enable-CsTopology](https://technet.microsoft.com/library/Gg398398(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="c153a-114">[CsTopology](https://technet.microsoft.com/en-us/library/Gg412824(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="c153a-114">[Get-CsTopology](https://technet.microsoft.com/en-us/library/Gg412824(v=OCS.15))</span></span>
+    <span data-ttu-id="a3f13-114">[Get-cstopology](https://technet.microsoft.com/library/Gg412824(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a3f13-114">[Get-CsTopology](https://technet.microsoft.com/library/Gg412824(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="c153a-115">[發佈-CsTopology](https://technet.microsoft.com/en-us/library/Gg398953(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="c153a-115">[Publish-CsTopology](https://technet.microsoft.com/en-us/library/Gg398953(v=OCS.15))</span></span>
+    <span data-ttu-id="a3f13-115">[Publish-cstopology](https://technet.microsoft.com/library/Gg398953(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a3f13-115">[Publish-CsTopology](https://technet.microsoft.com/library/Gg398953(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="c153a-116">[Test-CsTopology](https://technet.microsoft.com/en-us/library/Gg398127(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="c153a-116">[Test-CsTopology](https://technet.microsoft.com/en-us/library/Gg398127(v=OCS.15))</span></span>
+    <span data-ttu-id="a3f13-116">[Test-cstopology](https://technet.microsoft.com/library/Gg398127(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a3f13-116">[Test-CsTopology](https://technet.microsoft.com/library/Gg398127(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="c153a-117">[Export-CsConfiguration](https://technet.microsoft.com/en-us/library/Gg398627(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="c153a-117">[Export-CsConfiguration](https://technet.microsoft.com/en-us/library/Gg398627(v=OCS.15))</span></span>
+    <span data-ttu-id="a3f13-117">[Export-csconfiguration](https://technet.microsoft.com/library/Gg398627(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a3f13-117">[Export-CsConfiguration](https://technet.microsoft.com/library/Gg398627(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="c153a-118">[匯入-CsConfiguration](https://technet.microsoft.com/en-us/library/Gg398800(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="c153a-118">[Import-CsConfiguration](https://technet.microsoft.com/en-us/library/Gg398800(v=OCS.15))</span></span>
+    <span data-ttu-id="a3f13-118">[Import-csconfiguration](https://technet.microsoft.com/library/Gg398800(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a3f13-118">[Import-CsConfiguration](https://technet.microsoft.com/library/Gg398800(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="c153a-119">[CsServerVersion](https://technet.microsoft.com/en-us/library/Gg398470(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="c153a-119">[Get-CsServerVersion](https://technet.microsoft.com/en-us/library/Gg398470(v=OCS.15))</span></span>
+    <span data-ttu-id="a3f13-119">[Get-csserverversion](https://technet.microsoft.com/library/Gg398470(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a3f13-119">[Get-CsServerVersion](https://technet.microsoft.com/library/Gg398470(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="c153a-120">[Disable-CsComputer](https://technet.microsoft.com/en-us/library/Gg399023(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="c153a-120">[Disable-CsComputer](https://technet.microsoft.com/en-us/library/Gg399023(v=OCS.15))</span></span>
+    <span data-ttu-id="a3f13-120">[Disable-cscomputer](https://technet.microsoft.com/library/Gg399023(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a3f13-120">[Disable-CsComputer](https://technet.microsoft.com/library/Gg399023(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="c153a-121">[Enable-CsComputer](https://technet.microsoft.com/en-us/library/Gg412815(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="c153a-121">[Enable-CsComputer](https://technet.microsoft.com/en-us/library/Gg412815(v=OCS.15))</span></span>
+    <span data-ttu-id="a3f13-121">[Enable-cscomputer](https://technet.microsoft.com/library/Gg412815(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a3f13-121">[Enable-CsComputer](https://technet.microsoft.com/library/Gg412815(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="c153a-122">[CsComputer](https://technet.microsoft.com/en-us/library/Gg425959(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="c153a-122">[Get-CsComputer](https://technet.microsoft.com/en-us/library/Gg425959(v=OCS.15))</span></span>
+    <span data-ttu-id="a3f13-122">[Get-cscomputer](https://technet.microsoft.com/library/Gg425959(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a3f13-122">[Get-CsComputer](https://technet.microsoft.com/library/Gg425959(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="c153a-123">[Test-CsComputer](https://technet.microsoft.com/en-us/library/Gg398162(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="c153a-123">[Test-CsComputer](https://technet.microsoft.com/en-us/library/Gg398162(v=OCS.15))</span></span>
+    <span data-ttu-id="a3f13-123">[Test-cscomputer](https://technet.microsoft.com/library/Gg398162(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a3f13-123">[Test-CsComputer](https://technet.microsoft.com/library/Gg398162(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="c153a-124">[CsNetworkInterface](https://technet.microsoft.com/en-us/library/Gg398121(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="c153a-124">[Get-CsNetworkInterface](https://technet.microsoft.com/en-us/library/Gg398121(v=OCS.15))</span></span>
+    <span data-ttu-id="a3f13-124">[Get-csnetworkinterface](https://technet.microsoft.com/library/Gg398121(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a3f13-124">[Get-CsNetworkInterface](https://technet.microsoft.com/library/Gg398121(v=OCS.15))</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="c153a-125">請參閱</span><span class="sxs-lookup"><span data-stu-id="c153a-125">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a3f13-125">另請參閱</span><span class="sxs-lookup"><span data-stu-id="a3f13-125">See Also</span></span>
 
 
-[<span data-ttu-id="c153a-126">Lync Server PowerShell 博客</span><span class="sxs-lookup"><span data-stu-id="c153a-126">Lync Server PowerShell Blog</span></span>](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+[<span data-ttu-id="a3f13-126">Lync Server PowerShell 部落格</span><span class="sxs-lookup"><span data-stu-id="a3f13-126">Lync Server PowerShell Blog</span></span>](http://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：疑難排解及主要健康情況指示符
+title: Lync Server 2013： 疑難排解和重要的健康狀態指標
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969585
 ms.date: 05/18/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5a20e47f21b918976291371bd56e529196bae8a7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d6f052aceb6678d87c99fc287b69752d0ed761a5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745043"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036453"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="troubleshooting-and-key-health-indicators-in-lync-server-2013"></a><span data-ttu-id="8e4df-102">Lync Server 2013 中的疑難排解與重要的健康情況指示</span><span class="sxs-lookup"><span data-stu-id="8e4df-102">Troubleshooting and Key Health Indicators in Lync Server 2013</span></span>
+# <a name="troubleshooting-and-key-health-indicators-in-lync-server-2013"></a><span data-ttu-id="400cb-102">Lync Server 2013 中疑難排解和重要的健康狀態指標</span><span class="sxs-lookup"><span data-stu-id="400cb-102">Troubleshooting and Key Health Indicators in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "41745043"
 
 <span> </span>
 
-<span data-ttu-id="8e4df-103">_**主題上次修改日期：** 2015-05-18_</span><span class="sxs-lookup"><span data-stu-id="8e4df-103">_**Topic Last Modified:** 2015-05-18_</span></span>
+<span data-ttu-id="400cb-103">_**主題上次修改日期：** 2015年-05-18_</span><span class="sxs-lookup"><span data-stu-id="400cb-103">_**Topic Last Modified:** 2015-05-18_</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="8e4df-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="8e4df-104">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="400cb-104">本章節內容</span><span class="sxs-lookup"><span data-stu-id="400cb-104">In This Section</span></span>
 
-<span data-ttu-id="8e4df-105">若要符合參考體系結構 Sla，並確保順利轉而轉移至我們的支援小組，一般的疑難排解方法必須與 Lync Server[網路指南](http://go.microsoft.com/fwlink/p/?linkid=390677)中定義的一組必要疑難排解工具和方法一起定義。</span><span class="sxs-lookup"><span data-stu-id="8e4df-105">To meet the Reference Architecture SLAs and to ensure a smooth transition to our support teams, a common troubleshooting approach must be defined together with a required set of troubleshooting tools and approaches as defined in the Lync Server [Networking guide](http://go.microsoft.com/fwlink/p/?linkid=390677) .</span></span>
+<span data-ttu-id="400cb-105">若要符合參考架構 Sla 和，以確保順利轉移到我們支援小組，必須定義常用的疑難排解方法搭配組必要的疑難排解工具和 Lync Server[網路指南](http://go.microsoft.com/fwlink/p/?linkid=390677)中所定義的方式。</span><span class="sxs-lookup"><span data-stu-id="400cb-105">To meet the Reference Architecture SLAs and to ensure a smooth transition to our support teams, a common troubleshooting approach must be defined together with a required set of troubleshooting tools and approaches as defined in the Lync Server [Networking guide](http://go.microsoft.com/fwlink/p/?linkid=390677) .</span></span>
 
-<span data-ttu-id="8e4df-106">我們強烈建議使用 System Center Operations Manager 來監視 Lync Server 2013 系統的健康情況。</span><span class="sxs-lookup"><span data-stu-id="8e4df-106">We strongly recommend that System Center Operations Manager be used to monitor the health of the Lync Server 2013 system.</span></span> <span data-ttu-id="8e4df-107">此外，請參閱 Lync Server 2013[網路指南](http://go.microsoft.com/fwlink/p/?linkid=390677)中的 KHIs 討論，以及使用 lync 2013 的 Excel 試算表。</span><span class="sxs-lookup"><span data-stu-id="8e4df-107">Also, refer to the discussion of KHIs in the Lync Server 2013 [Networking guide](http://go.microsoft.com/fwlink/p/?linkid=390677) and the Excel spreadsheet for use with Lync 2013.</span></span>
+<span data-ttu-id="400cb-106">我們強烈建議 System Center Operations Manager 用來監視 Lync Server 2013 系統的狀況。</span><span class="sxs-lookup"><span data-stu-id="400cb-106">We strongly recommend that System Center Operations Manager be used to monitor the health of the Lync Server 2013 system.</span></span> <span data-ttu-id="400cb-107">此外，請參閱 KHIs[網路指南](http://go.microsoft.com/fwlink/p/?linkid=390677)Lync Server 2013 和使用 Excel 試算表中與 Lync 2013 的討論。</span><span class="sxs-lookup"><span data-stu-id="400cb-107">Also, refer to the discussion of KHIs in the Lync Server 2013 [Networking guide](http://go.microsoft.com/fwlink/p/?linkid=390677) and the Excel spreadsheet for use with Lync 2013.</span></span>
 
 </div>
 
 <div>
 
-## <a name="reference"></a><span data-ttu-id="8e4df-108">參考</span><span class="sxs-lookup"><span data-stu-id="8e4df-108">Reference</span></span>
+## <a name="reference"></a><span data-ttu-id="400cb-108">參考</span><span class="sxs-lookup"><span data-stu-id="400cb-108">Reference</span></span>
 
 </div>
 
 <div>
 
-## <a name="related-sections"></a><span data-ttu-id="8e4df-109">相關各節</span><span class="sxs-lookup"><span data-stu-id="8e4df-109">Related Sections</span></span>
+## <a name="related-sections"></a><span data-ttu-id="400cb-109">相關各節</span><span class="sxs-lookup"><span data-stu-id="400cb-109">Related Sections</span></span>
 
 </div>
 

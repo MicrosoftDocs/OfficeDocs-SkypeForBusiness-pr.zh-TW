@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：設定 IP 位址類型
+title: Lync Server 2013： 設定 IP 位址類型
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183515
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7e1b03e7c64c15d147e09883b9d7580bacbca7be
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4cb04adb830e4b7207391675aeabd5f3be315724
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729763"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036221"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-ip-address-types-in-lync-server-2013"></a><span data-ttu-id="6f35a-102">在 Lync Server 2013 中設定 IP 位址類型</span><span class="sxs-lookup"><span data-stu-id="6f35a-102">Configure IP address types in Lync Server 2013</span></span>
+# <a name="configure-ip-address-types-in-lync-server-2013"></a><span data-ttu-id="18975-102">在 Lync Server 2013 中設定 IP 位址類型</span><span class="sxs-lookup"><span data-stu-id="18975-102">Configure IP address types in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41729763"
 
 <span> </span>
 
-<span data-ttu-id="6f35a-103">_**主題上次修改日期：** 2012-06-13_</span><span class="sxs-lookup"><span data-stu-id="6f35a-103">_**Topic Last Modified:** 2012-06-13_</span></span>
+<span data-ttu-id="18975-103">_**主題上次修改日期：** 2012年-06-13_</span><span class="sxs-lookup"><span data-stu-id="18975-103">_**Topic Last Modified:** 2012-06-13_</span></span>
 
-<span data-ttu-id="6f35a-104">您可以使用您在拓撲建立器中設定的拓撲設定來部署 IP 位址類型。</span><span class="sxs-lookup"><span data-stu-id="6f35a-104">You deploy IP address types by using topology settings that you configure in Topology Builder.</span></span> <span data-ttu-id="6f35a-105">本節說明如何在前端伺服器、中繼伺服器和 Edge 伺服器上部署 IP 位址類型。</span><span class="sxs-lookup"><span data-stu-id="6f35a-105">This section describes how to deploy IP address types on Front End Servers, Mediation Servers, and Edge Servers.</span></span>
+<span data-ttu-id="18975-104">您可以使用您在拓撲產生器中設定的拓撲設定部署 IP 位址類型。</span><span class="sxs-lookup"><span data-stu-id="18975-104">You deploy IP address types by using topology settings that you configure in Topology Builder.</span></span> <span data-ttu-id="18975-105">本節說明如何部署前端伺服器、 中繼伺服器和 Edge Server 上的 IP 位址類型。</span><span class="sxs-lookup"><span data-stu-id="18975-105">This section describes how to deploy IP address types on Front End Servers, Mediation Servers, and Edge Servers.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="6f35a-106">本節內容</span><span class="sxs-lookup"><span data-stu-id="6f35a-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="18975-106">本章節內容</span><span class="sxs-lookup"><span data-stu-id="18975-106">In This Section</span></span>
 
-  - [<span data-ttu-id="6f35a-107">針對 Lync Server 2013 在前端伺服器上部署 IP 位址類型</span><span class="sxs-lookup"><span data-stu-id="6f35a-107">Deploy IP address types on a Front End Server for Lync Server 2013</span></span>](lync-server-2013-deploy-ip-address-types-on-a-front-end-server.md)
+  - [<span data-ttu-id="18975-107">部署 Lync Server 2013 的前端伺服器上 IP 位址類型</span><span class="sxs-lookup"><span data-stu-id="18975-107">Deploy IP address types on a Front End Server for Lync Server 2013</span></span>](lync-server-2013-deploy-ip-address-types-on-a-front-end-server.md)
 
-  - [<span data-ttu-id="6f35a-108">針對 Lync Server 2013 在中繼伺服器上部署 IP 位址類型</span><span class="sxs-lookup"><span data-stu-id="6f35a-108">Deploy IP address types on a Mediation Server for Lync Server 2013</span></span>](lync-server-2013-deploy-ip-address-types-on-a-mediation-server.md)
+  - [<span data-ttu-id="18975-108">部署 Lync Server 2013 的中繼伺服器上 IP 位址類型</span><span class="sxs-lookup"><span data-stu-id="18975-108">Deploy IP address types on a Mediation Server for Lync Server 2013</span></span>](lync-server-2013-deploy-ip-address-types-on-a-mediation-server.md)
 
-  - [<span data-ttu-id="6f35a-109">針對 Lync Server 2013 在 Edge Server 上部署 IP 位址類型</span><span class="sxs-lookup"><span data-stu-id="6f35a-109">Deploy IP address types on an Edge Server for Lync Server 2013</span></span>](lync-server-2013-deploy-ip-address-types-on-an-edge-server.md)
+  - [<span data-ttu-id="18975-109">部署 Lync Server 2013 Edge Server 上的 IP 位址類型</span><span class="sxs-lookup"><span data-stu-id="18975-109">Deploy IP address types on an Edge Server for Lync Server 2013</span></span>](lync-server-2013-deploy-ip-address-types-on-an-edge-server.md)
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 49733722
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ee3abd26386ad26e3b6628d5b9db873bd17373be
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 100ec85b345a744232e9bfab37a2ee11c7f84430
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743773"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036111"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="migrating-archiving-and-monitoring-servers"></a><span data-ttu-id="645ad-102">移轉封存和監控伺服器</span><span class="sxs-lookup"><span data-stu-id="645ad-102">Migrating Archiving and Monitoring servers</span></span>
+# <a name="migrating-archiving-and-monitoring-servers"></a><span data-ttu-id="f0f5f-102">移轉封存和監控伺服器</span><span class="sxs-lookup"><span data-stu-id="f0f5f-102">Migrating Archiving and Monitoring servers</span></span>
 
 </div>
 
@@ -35,28 +35,28 @@ ms.locfileid: "41743773"
 
 <span> </span>
 
-<span data-ttu-id="645ad-103">_**主題上次修改日期：** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="645ad-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+<span data-ttu-id="f0f5f-103">_**主題上次修改日期：** 2012年-10-02_</span><span class="sxs-lookup"><span data-stu-id="f0f5f-103">_**Topic Last Modified:** 2012-10-02_</span></span>
 
-<span data-ttu-id="645ad-104">如果您在 Office 通訊伺服器 2007 R2 中部署了 [封存伺服器] 和 [監視伺服器]，就可以在您遷移完前端池之後，將這些伺服器部署在 Lync Server 2013 環境中。</span><span class="sxs-lookup"><span data-stu-id="645ad-104">If you deployed Archiving Server and Monitoring Server in your Office Communications Server 2007 R2, you can deploy these servers in your Lync Server 2013 environment after you migrate your Front End pools.</span></span> <span data-ttu-id="645ad-105">不過，如果封存和監控功能對您的組織而言是至關重要的，您應該先在您的試驗池新增封存和監控，才能在遷移期間使用這些功能。</span><span class="sxs-lookup"><span data-stu-id="645ad-105">If archiving and monitoring functionality are critical to your organization, however, you should add archiving and monitoring to your pilot pool before you migrate so that the functionality is available during the migration process.</span></span>
+<span data-ttu-id="f0f5f-104">如果您在 Office Communications Server 2007 R2 中部署封存伺服器及監控伺服器，您可以在移轉您的前端集區後部署 [Lync Server 2013 環境上的這些伺服器。</span><span class="sxs-lookup"><span data-stu-id="f0f5f-104">If you deployed Archiving Server and Monitoring Server in your Office Communications Server 2007 R2, you can deploy these servers in your Lync Server 2013 environment after you migrate your Front End pools.</span></span> <span data-ttu-id="f0f5f-105">如果貴組織的關鍵封存和監控功能，不過，您應該新增封存和監控至試驗集區，以便在遷移過程中功能可供使用移轉之前。</span><span class="sxs-lookup"><span data-stu-id="f0f5f-105">If archiving and monitoring functionality are critical to your organization, however, you should add archiving and monitoring to your pilot pool before you migrate so that the functionality is available during the migration process.</span></span>
 
-<span data-ttu-id="645ad-106">如果您想要在遷移和共存階段期間進行封存與監控功能，請記住下列考慮事項：</span><span class="sxs-lookup"><span data-stu-id="645ad-106">If you want archiving and monitoring functionality during the migration and coexistence phase, keep the following considerations in mind:</span></span>
+<span data-ttu-id="f0f5f-106">若希望在移轉共存階段期間繼續提供封存及監控功能，請牢記下列注意事項：</span><span class="sxs-lookup"><span data-stu-id="f0f5f-106">If you want archiving and monitoring functionality during the migration and coexistence phase, keep the following considerations in mind:</span></span>
 
-  - <span data-ttu-id="645ad-107">存檔資料和監視資料不會移至 Lync Server 2013 部署。</span><span class="sxs-lookup"><span data-stu-id="645ad-107">Archiving data and monitoring data are not moved to the Lync Server 2013 deployment.</span></span> <span data-ttu-id="645ad-108">您在解除舊版環境之前備份的資料將是 Office 通訊伺服器 2007 R2 中的活動歷程記錄。</span><span class="sxs-lookup"><span data-stu-id="645ad-108">The data you back up prior to decommissioning the legacy environment will be your history of activity in the Office Communications Server 2007 R2.</span></span>
+  - <span data-ttu-id="f0f5f-107">封存資料和監控資料不會移至 Lync Server 2013 部署中。</span><span class="sxs-lookup"><span data-stu-id="f0f5f-107">Archiving data and monitoring data are not moved to the Lync Server 2013 deployment.</span></span> <span data-ttu-id="f0f5f-108">您在解除委任舊版環境之前備份資料都將您的 Office Communications Server 2007 R2 中的活動的記錄。</span><span class="sxs-lookup"><span data-stu-id="f0f5f-108">The data you back up prior to decommissioning the legacy environment will be your history of activity in the Office Communications Server 2007 R2.</span></span>
 
-  - <span data-ttu-id="645ad-109">Office 通訊伺服器 2007 R2 版本的封存伺服器與監視伺服器只能與 Office 通訊伺服器 2007 R2 前端池相關聯。</span><span class="sxs-lookup"><span data-stu-id="645ad-109">The Office Communications Server 2007 R2 version of Archiving Server and Monitoring Server can be associated only with a Office Communications Server 2007 R2 Front End pool.</span></span> <span data-ttu-id="645ad-110">在 Lync Server 2013 中，[封存及監視] 不再是伺服器角色，但已整合至 Lync Server 2013 前端池的服務。</span><span class="sxs-lookup"><span data-stu-id="645ad-110">In Lync Server 2013, Archiving and Monitoring are no longer server roles, but services integrated into the Lync Server 2013 Front End pool.</span></span>
+  - <span data-ttu-id="f0f5f-109">封存伺服器及監控伺服器的 Office Communications Server 2007 R2 版本可以只與 Office Communications Server 2007 R2 前端集區相關聯。</span><span class="sxs-lookup"><span data-stu-id="f0f5f-109">The Office Communications Server 2007 R2 version of Archiving Server and Monitoring Server can be associated only with a Office Communications Server 2007 R2 Front End pool.</span></span> <span data-ttu-id="f0f5f-110">在 Lync Server 2013 中，封存和監控不再伺服器角色，但服務整合到 Lync Server 2013 前端集區。</span><span class="sxs-lookup"><span data-stu-id="f0f5f-110">In Lync Server 2013, Archiving and Monitoring are no longer server roles, but services integrated into the Lync Server 2013 Front End pool.</span></span>
 
-  - <span data-ttu-id="645ad-111">在舊版和 Lync Server 2013 部署共存期間，您的 Office 通訊伺服器 2007 R2 版本的封存伺服器與監視伺服器會針對駐留在 Office 通訊伺服器 2007 R2 pool 的使用者收集資料。</span><span class="sxs-lookup"><span data-stu-id="645ad-111">During the time that your legacy and Lync Server 2013 deployments coexist, the Office Communications Server 2007 R2 version of Archiving Server and Monitoring Server gather data for users homed on Office Communications Server 2007 R2 pools.</span></span> <span data-ttu-id="645ad-112">Lync Server 2013 版本的 [封存伺服器] 和 [監視伺服器] 可收集駐留在 Lync Server 2013 池的使用者資料。</span><span class="sxs-lookup"><span data-stu-id="645ad-112">The Lync Server 2013 version of Archiving Server and Monitoring Server gather data for users homed on Lync Server 2013 pools.</span></span>
+  - <span data-ttu-id="f0f5f-111">在您的舊版和 Lync Server 2013 部署共存期間，封存伺服器及監控伺服器的 Office Communications Server 2007 R2 版本會收集使用者的資料位於 Office Communications Server 2007 R2 集區。</span><span class="sxs-lookup"><span data-stu-id="f0f5f-111">During the time that your legacy and Lync Server 2013 deployments coexist, the Office Communications Server 2007 R2 version of Archiving Server and Monitoring Server gather data for users homed on Office Communications Server 2007 R2 pools.</span></span> <span data-ttu-id="f0f5f-112">封存伺服器及監控伺服器的 Lync Server 2013 版本收集使用者的資料位於 Lync Server 2013 集區。</span><span class="sxs-lookup"><span data-stu-id="f0f5f-112">The Lync Server 2013 version of Archiving Server and Monitoring Server gather data for users homed on Lync Server 2013 pools.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="645ad-113">在遷移階段，當您仍將舊版 Edge 伺服器與新的 Lync Server 2013 試驗池結合使用時，Office 通訊伺服器 2007 R2 版本的封存伺服器會繼續針對駐留在 Office 通訊伺服器的使用者收集資料。2007R2 pool 和 Lync Server 2013 版本的封存伺服器會針對駐留在 Lync Server 2013 池的使用者搜集資料。</span><span class="sxs-lookup"><span data-stu-id="645ad-113">During the phase of migration when you are still using your legacy Edge server with the new Lync Server 2013 pilot pool, the Office Communications Server 2007 R2 version of Archiving Server continues to gather data for users homed on Office Communications Server 2007 R2 pools and the Lync Server 2013 version of Archiving Server gathers data for users homed on Lync Server 2013 pools.</span></span>
+    > <span data-ttu-id="f0f5f-113">移轉階段時您仍在使用舊版 Edge server 與新的 Lync Server 2013 試驗集區、 封存伺服器的 Office Communications Server 2007 R2 版本將持續收集使用者的資料位於 Office Communications Server 2007R2 集區與 Lync Server 2013 版本的封存伺服器蒐集使用者的資料位於 Lync Server 2013 集區。</span><span class="sxs-lookup"><span data-stu-id="f0f5f-113">During the phase of migration when you are still using your legacy Edge server with the new Lync Server 2013 pilot pool, the Office Communications Server 2007 R2 version of Archiving Server continues to gather data for users homed on Office Communications Server 2007 R2 pools and the Lync Server 2013 version of Archiving Server gathers data for users homed on Lync Server 2013 pools.</span></span>
 
     
     </div>
 
-  - <span data-ttu-id="645ad-114">如果您將協力廠商的歸檔與監控解決方案與封存伺服器與監視伺服器搭配使用，請與您的廠商聯繫，以瞭解何時以及如何將協力廠商解決方案整合至 Lync Server 2013。</span><span class="sxs-lookup"><span data-stu-id="645ad-114">If you use a third-party archiving and monitoring solution in conjunction with Archiving Server and Monitoring Server, talk to your vendor about when and how you need to integrate the third-party solution with Lync Server 2013.</span></span>
+  - <span data-ttu-id="f0f5f-114">如果您使用第三方封存與監控解決方案封存伺服器及監控伺服器搭配使用，談到您的廠商何時和如何需要與 Lync Server 2013 整合的協力廠商解決方案。</span><span class="sxs-lookup"><span data-stu-id="f0f5f-114">If you use a third-party archiving and monitoring solution in conjunction with Archiving Server and Monitoring Server, talk to your vendor about when and how you need to integrate the third-party solution with Lync Server 2013.</span></span>
 
 </div>
 
