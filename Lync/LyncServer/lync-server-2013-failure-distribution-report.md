@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：失敗的發佈報告
+title: Lync Server 2013： 失敗散佈報告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183849
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5250b03aef3fb77de2cbeefa4688a150c9b4a302
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 291097d645884d4c5146b48a69e5355db71e2193
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765171"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046606"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="failure-distribution-report-in-lync-server-2013"></a><span data-ttu-id="690a2-102">Lync Server 2013 中的發佈報告失敗</span><span class="sxs-lookup"><span data-stu-id="690a2-102">Failure Distribution Report in Lync Server 2013</span></span>
+# <a name="failure-distribution-report-in-lync-server-2013"></a><span data-ttu-id="ce9c0-102">Lync Server 2013 中的失敗散佈報告</span><span class="sxs-lookup"><span data-stu-id="ce9c0-102">Failure Distribution Report in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,83 +35,83 @@ ms.locfileid: "41765171"
 
 <span> </span>
 
-<span data-ttu-id="690a2-103">_**主題上次修改日期：** 2012-10-21_</span><span class="sxs-lookup"><span data-stu-id="690a2-103">_**Topic Last Modified:** 2012-10-21_</span></span>
+<span data-ttu-id="ce9c0-103">_**主題上次修改日期：** 2012年-10-21_</span><span class="sxs-lookup"><span data-stu-id="ce9c0-103">_**Topic Last Modified:** 2012-10-21_</span></span>
 
-<span data-ttu-id="690a2-104">失敗的發佈報告在下列類別中排名失敗的會話：</span><span class="sxs-lookup"><span data-stu-id="690a2-104">The Failure Distribution Report ranks failed sessions in the following categories:</span></span>
+<span data-ttu-id="ce9c0-104">失敗散佈報告會在下列類別中為失敗的工作階段進行排名：</span><span class="sxs-lookup"><span data-stu-id="ce9c0-104">The Failure Distribution Report ranks failed sessions in the following categories:</span></span>
 
-  - <span data-ttu-id="690a2-105">常見的診斷原因</span><span class="sxs-lookup"><span data-stu-id="690a2-105">Top diagnostic reasons</span></span>
+  - <span data-ttu-id="ce9c0-105">最常見診斷原因</span><span class="sxs-lookup"><span data-stu-id="ce9c0-105">Top diagnostic reasons</span></span>
 
-  - <span data-ttu-id="690a2-106">上方形式</span><span class="sxs-lookup"><span data-stu-id="690a2-106">Top modalities</span></span>
+  - <span data-ttu-id="ce9c0-106">最常見形式</span><span class="sxs-lookup"><span data-stu-id="ce9c0-106">Top modalities</span></span>
 
-  - <span data-ttu-id="690a2-107">頂層池</span><span class="sxs-lookup"><span data-stu-id="690a2-107">Top pools</span></span>
+  - <span data-ttu-id="ce9c0-107">最常見集區</span><span class="sxs-lookup"><span data-stu-id="ce9c0-107">Top pools</span></span>
 
-  - <span data-ttu-id="690a2-108">熱門來源</span><span class="sxs-lookup"><span data-stu-id="690a2-108">Top sources</span></span>
+  - <span data-ttu-id="ce9c0-108">最常見來源</span><span class="sxs-lookup"><span data-stu-id="ce9c0-108">Top sources</span></span>
 
-  - <span data-ttu-id="690a2-109">上方元件</span><span class="sxs-lookup"><span data-stu-id="690a2-109">Top components</span></span>
+  - <span data-ttu-id="ce9c0-109">最常見元件</span><span class="sxs-lookup"><span data-stu-id="ce9c0-109">Top components</span></span>
 
-  - <span data-ttu-id="690a2-110">使用者頂端</span><span class="sxs-lookup"><span data-stu-id="690a2-110">Top from users</span></span>
+  - <span data-ttu-id="ce9c0-110">最常見來源使用者</span><span class="sxs-lookup"><span data-stu-id="ce9c0-110">Top from users</span></span>
 
-  - <span data-ttu-id="690a2-111">使用者頂端</span><span class="sxs-lookup"><span data-stu-id="690a2-111">Top to users</span></span>
+  - <span data-ttu-id="ce9c0-111">最常見目標使用者</span><span class="sxs-lookup"><span data-stu-id="ce9c0-111">Top to users</span></span>
 
-  - <span data-ttu-id="690a2-112">從使用者代理程式頂端</span><span class="sxs-lookup"><span data-stu-id="690a2-112">Top from user agents</span></span>
+  - <span data-ttu-id="ce9c0-112">最常見來源使用者代理程式</span><span class="sxs-lookup"><span data-stu-id="ce9c0-112">Top from user agents</span></span>
 
-<span data-ttu-id="690a2-113">您可以使用這些類別來判斷問題發生的確切位置，在某些情況下，也會發生問題的原因。</span><span class="sxs-lookup"><span data-stu-id="690a2-113">You can use these categories to determine exactly where a problem is occurring and, in some cases, why the problem is occurring.</span></span> <span data-ttu-id="690a2-114">例如，假設您在指定的一天期間記錄了242失敗的音訊/視頻會話。</span><span class="sxs-lookup"><span data-stu-id="690a2-114">For example, suppose you recorded 242 failed audio/video sessions during a given day.</span></span> <span data-ttu-id="690a2-115">如果您看到失敗的發佈報告，可能會顯示您的都柏林池中發生了這些失敗會話的237。</span><span class="sxs-lookup"><span data-stu-id="690a2-115">If you look at the Failure Distribution Report, it might show that 237 of those failed sessions took place in your Dublin pool.</span></span> <span data-ttu-id="690a2-116">這可讓您在追蹤及診斷這些失敗背後的原因時提供良好的開始位置。</span><span class="sxs-lookup"><span data-stu-id="690a2-116">That gives you a good place to start when it comes to tracking down and diagnosing the causes behind those failures.</span></span> <span data-ttu-id="690a2-117">如果您在 [**頂層池**] 類別底下按一下 [都柏林]，就會看到該群組的 [分發報告] 只出現失敗。</span><span class="sxs-lookup"><span data-stu-id="690a2-117">If you click on the Dublin pool under the **Top pools** category, you will see a Failure Distribution Report just for that pool.</span></span> <span data-ttu-id="690a2-118">然後，您就可以開始分析都柏林池為什麼會遇到這麼多問題。</span><span class="sxs-lookup"><span data-stu-id="690a2-118">You can then begin analyzing why the Dublin pool was experiencing so many difficulties.</span></span>
+<span data-ttu-id="ce9c0-p101">您可以使用這些類別來判斷確實發生問題的地方，並在某些情況下判斷發生問題的原因。例如，假設您在某一天記錄了 242 個失敗的音訊/視訊工作階段。如果您查看失敗散佈報告，其中可能會顯示有 237 個失敗的工作階段是發生在您的 Dublin 集區中。這讓您在追蹤和診斷這些失敗背後的原因時可以有一個良好的開端。如果您按一下 **[最常見集區]** 類別下方的 Dublin 集區，就只會看見該集區的失敗散佈報告。接著，您可以開始分析為什麼 Dublin 集區會遇到這麼多問題。</span><span class="sxs-lookup"><span data-stu-id="ce9c0-p101">You can use these categories to determine exactly where a problem is occurring and, in some cases, why the problem is occurring. For example, suppose you recorded 242 failed audio/video sessions during a given day. If you look at the Failure Distribution Report, it might show that 237 of those failed sessions took place in your Dublin pool. That gives you a good place to start when it comes to tracking down and diagnosing the causes behind those failures. If you click on the Dublin pool under the **Top pools** category, you will see a Failure Distribution Report just for that pool. You can then begin analyzing why the Dublin pool was experiencing so many difficulties.</span></span>
 
 <div>
 
-## <a name="viewing-the-failure-distribution-report"></a><span data-ttu-id="690a2-119">查看失敗發佈報告</span><span class="sxs-lookup"><span data-stu-id="690a2-119">Viewing the Failure Distribution Report</span></span>
+## <a name="viewing-the-failure-distribution-report"></a><span data-ttu-id="ce9c0-119">檢視失敗散佈報告</span><span class="sxs-lookup"><span data-stu-id="ce9c0-119">Viewing the Failure Distribution Report</span></span>
 
-<span data-ttu-id="690a2-120">您可以按一下**預期的失敗量**或**意外的失敗體積**指標，從下列任何報告存取失敗的發佈報告：</span><span class="sxs-lookup"><span data-stu-id="690a2-120">You can access the Failure Distribution Report from any of the following reports by clicking either the **Expected failure volume** or the **Unexpected failure volume** metric:</span></span>
+<span data-ttu-id="ce9c0-120">您可以按一下 **[預期失敗次數]** 或 **[未預期失敗次數]** 計量，從下列任一個報告存取失敗散佈報告：</span><span class="sxs-lookup"><span data-stu-id="ce9c0-120">You can access the Failure Distribution Report from any of the following reports by clicking either the **Expected failure volume** or the **Unexpected failure volume** metric:</span></span>
 
-  - <span data-ttu-id="690a2-121">[Lync Server 2013 中的 [熱門失敗] 報告](lync-server-2013-top-failures-report.md)</span><span class="sxs-lookup"><span data-stu-id="690a2-121">[Top Failures Report in Lync Server 2013](lync-server-2013-top-failures-report.md)</span></span>
+  - [<span data-ttu-id="ce9c0-121">Lync Server 2013 中的最大失敗報告</span><span class="sxs-lookup"><span data-stu-id="ce9c0-121">Top Failures Report in Lync Server 2013</span></span>](lync-server-2013-top-failures-report.md)
 
-  - [<span data-ttu-id="690a2-122">Lync Server 2013 中的會議診斷報告</span><span class="sxs-lookup"><span data-stu-id="690a2-122">Conference Diagnostic Report in Lync Server 2013</span></span>](lync-server-2013-conference-diagnostic-report.md)
+  - [<span data-ttu-id="ce9c0-122">Lync Server 2013 中的會議診斷報告</span><span class="sxs-lookup"><span data-stu-id="ce9c0-122">Conference Diagnostic Report in Lync Server 2013</span></span>](lync-server-2013-conference-diagnostic-report.md)
 
-  - [<span data-ttu-id="690a2-123">Lync Server 2013 中的對等活動診斷報告</span><span class="sxs-lookup"><span data-stu-id="690a2-123">Peer-to-Peer Activity Diagnostic Report in Lync Server 2013</span></span>](lync-server-2013-peer-to-peer-activity-diagnostic-report.md)
+  - [<span data-ttu-id="ce9c0-123">Lync Server 2013 中的對等活動診斷報告</span><span class="sxs-lookup"><span data-stu-id="ce9c0-123">Peer-to-Peer Activity Diagnostic Report in Lync Server 2013</span></span>](lync-server-2013-peer-to-peer-activity-diagnostic-report.md)
 
-<span data-ttu-id="690a2-124">從失敗的發佈報告中，您可以按一下下列任何一項測量，以[在 Lync Server 2013 中查看失敗清單報告](lync-server-2013-failure-list-report.md)：</span><span class="sxs-lookup"><span data-stu-id="690a2-124">From the Failure Distribution Report, you can click any of the following metrics to view the [Failure List Report in Lync Server 2013](lync-server-2013-failure-list-report.md):</span></span>
+<span data-ttu-id="ce9c0-124">從失敗散佈報告中，您可以按一下下列計量，以檢視[Failure List Report Lync Server 2013 中](lync-server-2013-failure-list-report.md)的任何：</span><span class="sxs-lookup"><span data-stu-id="ce9c0-124">From the Failure Distribution Report, you can click any of the following metrics to view the [Failure List Report in Lync Server 2013](lync-server-2013-failure-list-report.md):</span></span>
 
-  - <span data-ttu-id="690a2-125">常見的診斷原因（會話）</span><span class="sxs-lookup"><span data-stu-id="690a2-125">Top diagnostic reasons (sessions)</span></span>
+  - <span data-ttu-id="ce9c0-125">前幾名診斷原因 (工作階段)</span><span class="sxs-lookup"><span data-stu-id="ce9c0-125">Top diagnostic reasons (sessions)</span></span>
 
-  - <span data-ttu-id="690a2-126">熱門形式（會話）</span><span class="sxs-lookup"><span data-stu-id="690a2-126">Top modalities (sessions)</span></span>
+  - <span data-ttu-id="ce9c0-126">最常見形式 (工作階段)</span><span class="sxs-lookup"><span data-stu-id="ce9c0-126">Top modalities (sessions)</span></span>
 
-  - <span data-ttu-id="690a2-127">頂層池（會話）</span><span class="sxs-lookup"><span data-stu-id="690a2-127">Top pools (sessions)</span></span>
+  - <span data-ttu-id="ce9c0-127">最常見集區 (工作階段)</span><span class="sxs-lookup"><span data-stu-id="ce9c0-127">Top pools (sessions)</span></span>
 
-  - <span data-ttu-id="690a2-128">熱門來源（會話）</span><span class="sxs-lookup"><span data-stu-id="690a2-128">Top sources (sessions)</span></span>
+  - <span data-ttu-id="ce9c0-128">最常見來源 (工作階段)</span><span class="sxs-lookup"><span data-stu-id="ce9c0-128">Top sources (sessions)</span></span>
 
-  - <span data-ttu-id="690a2-129">Top 元件（會話）</span><span class="sxs-lookup"><span data-stu-id="690a2-129">Top components (sessions)</span></span>
+  - <span data-ttu-id="ce9c0-129">最常見元件 (工作階段)</span><span class="sxs-lookup"><span data-stu-id="ce9c0-129">Top components (sessions)</span></span>
 
-  - <span data-ttu-id="690a2-130">使用者的最上層（會話）</span><span class="sxs-lookup"><span data-stu-id="690a2-130">Top from users (sessions)</span></span>
+  - <span data-ttu-id="ce9c0-130">最常見來源使用者 (工作階段)</span><span class="sxs-lookup"><span data-stu-id="ce9c0-130">Top from users (sessions)</span></span>
 
-  - <span data-ttu-id="690a2-131">使用者的最上層（會話）</span><span class="sxs-lookup"><span data-stu-id="690a2-131">Top to users (sessions)</span></span>
+  - <span data-ttu-id="ce9c0-131">最常見目標使用者 (工作階段)</span><span class="sxs-lookup"><span data-stu-id="ce9c0-131">Top to users (sessions)</span></span>
 
-  - <span data-ttu-id="690a2-132">使用者代理程式（會話）的頂端</span><span class="sxs-lookup"><span data-stu-id="690a2-132">Top from user agents (sessions)</span></span>
+  - <span data-ttu-id="ce9c0-132">最常見來源使用者代理程式 (工作階段)</span><span class="sxs-lookup"><span data-stu-id="ce9c0-132">Top from user agents (sessions)</span></span>
 
 </div>
 
 <div>
 
-## <a name="using-the-failure-distribution-report"></a><span data-ttu-id="690a2-133">使用失敗發佈報告</span><span class="sxs-lookup"><span data-stu-id="690a2-133">Using the Failure Distribution Report</span></span>
+## <a name="using-the-failure-distribution-report"></a><span data-ttu-id="ce9c0-133">使用失敗散佈報告</span><span class="sxs-lookup"><span data-stu-id="ce9c0-133">Using the Failure Distribution Report</span></span>
 
-<span data-ttu-id="690a2-134">視您的監視器大小和螢幕解析度而定，當您在螢幕上查看失敗的發佈報告時，可能會有一些顯示的資料會被截斷。</span><span class="sxs-lookup"><span data-stu-id="690a2-134">Depending on your monitor size and screen resolution, it's possible that some of the data shown in the Failure Distribution Report might be truncated when you view it onscreen.</span></span> <span data-ttu-id="690a2-135">特別是對於使用者代理程式（例如使用者代理程式）而言，可能會有非常長的標籤。</span><span class="sxs-lookup"><span data-stu-id="690a2-135">This is especially true for metrics such as user agents, which can have very long labels.</span></span> <span data-ttu-id="690a2-136">例如，名為「UCCAPI/4.0.7400.0 OC/4.0.7400.0 （Microsoft Lync 2013）」的使用者代理程式可能只會部分出現在螢幕上：</span><span class="sxs-lookup"><span data-stu-id="690a2-136">For example, a user agent with a name like "UCCAPI/4.0.7400.0 OC/4.0.7400.0 (Microsoft Lync 2013)" might only partially appear onscreen:</span></span>
+<span data-ttu-id="ce9c0-p102">根據您的監視器大小和螢幕解析度而定，當您在螢幕上檢視失敗散佈報告時，該報告中顯示的部分資料可能被截斷。這種情況特別會出現在像是使用者代理程式的計量中，因為這類計量含有非常長的標籤。例如，名稱像是 "UCCAPI/4.0.7400.0 OC/4.0.7400.0 (Microsoft Lync 2013)" 的使用者代理程式可能只會在螢幕上顯示部分名稱：</span><span class="sxs-lookup"><span data-stu-id="ce9c0-p102">Depending on your monitor size and screen resolution, it's possible that some of the data shown in the Failure Distribution Report might be truncated when you view it onscreen. This is especially true for metrics such as user agents, which can have very long labels. For example, a user agent with a name like "UCCAPI/4.0.7400.0 OC/4.0.7400.0 (Microsoft Lync 2013)" might only partially appear onscreen:</span></span>
 
-<span data-ttu-id="690a2-137">UCCAPI/4.0.7400.0 OC/4.0.7400.0 （Microsoft Ly .。。</span><span class="sxs-lookup"><span data-stu-id="690a2-137">UCCAPI/4.0.7400.0 OC/4.0.7400.0 (Microsoft Ly...</span></span>
+<span data-ttu-id="ce9c0-137">UCCAPI/4.0.7400.0 OC/4.0.7400.0 (Microsoft Ly...</span><span class="sxs-lookup"><span data-stu-id="ce9c0-137">UCCAPI/4.0.7400.0 OC/4.0.7400.0 (Microsoft Ly...</span></span>
 
-<span data-ttu-id="690a2-138">幸運的是，您只需將滑鼠放在截斷的值上，就能看到整張標籤。</span><span class="sxs-lookup"><span data-stu-id="690a2-138">Fortunately, you can see the entire label simply by holding your mouse over the truncated value.</span></span>
+<span data-ttu-id="ce9c0-138">幸運地是，您只需在截斷的值上按住滑鼠，就可以看見完整的標籤。</span><span class="sxs-lookup"><span data-stu-id="ce9c0-138">Fortunately, you can see the entire label simply by holding your mouse over the truncated value.</span></span>
 
-<span data-ttu-id="690a2-139">您可以使用「失敗發佈」報告篩選的一個有趣的度量單位是 [診斷 ID]。</span><span class="sxs-lookup"><span data-stu-id="690a2-139">One interesting metric that you can filter on by using the Failure Distribution Report is Diagnostic ID.</span></span> <span data-ttu-id="690a2-140">如果您在其他報告中看到相同的診斷識別碼，您可以在失敗的發佈報告中篩選該識別碼，並在失敗的會話期間，獲得非常詳細的資訊，以及該識別碼已報告的頻率。</span><span class="sxs-lookup"><span data-stu-id="690a2-140">If you see the same Diagnostic ID cropping up in other reports you can filter on that ID in the Failure Distribution Report and get a very detailed look at exactly where, and how often, that ID has been reported during a failed session.</span></span>
+<span data-ttu-id="ce9c0-p103">有一個您可以使用失敗散佈報告來篩選的特別計量是診斷識別碼。如果您在其他報告中看見經過剪裁的相同診斷識別碼，就可以在失敗散佈報告中使用該識別碼來篩選，並取得在失敗工作階段執行期間該識別碼確實出現在何處以及出現的頻率等非常詳盡的內容。</span><span class="sxs-lookup"><span data-stu-id="ce9c0-p103">One interesting metric that you can filter on by using the Failure Distribution Report is Diagnostic ID. If you see the same Diagnostic ID cropping up in other reports you can filter on that ID in the Failure Distribution Report and get a very detailed look at exactly where, and how often, that ID has been reported during a failed session.</span></span>
 
 </div>
 
 <div>
 
-## <a name="filters"></a><span data-ttu-id="690a2-141">濾鏡</span><span class="sxs-lookup"><span data-stu-id="690a2-141">Filters</span></span>
+## <a name="filters"></a><span data-ttu-id="ce9c0-141">篩選</span><span class="sxs-lookup"><span data-stu-id="ce9c0-141">Filters</span></span>
 
-<span data-ttu-id="690a2-142">篩選提供一種方式，可讓您傳回更精細設定目標的資料集，或以不同方式查看傳回的資料。</span><span class="sxs-lookup"><span data-stu-id="690a2-142">Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways.</span></span> <span data-ttu-id="690a2-143">例如，失敗的發佈報告可讓您篩選諸如活動類型（點對點工作階段或會議會話）或隨附每個失敗會話的診斷 ID 等專案。</span><span class="sxs-lookup"><span data-stu-id="690a2-143">For example, the Failed Distribution Report enables you to filter on such things as the activity type (peer-to-peer session or conferencing session) or by the diagnostic ID that accompanied each failed session.</span></span>
+<span data-ttu-id="ce9c0-p104">篩選可以讓您傳回更精確的資料集或者以不同方法檢視傳回的資料。例如，失敗散佈報告可讓您依活動類型 (對等工作階段或會議工作階段) 之類的項目，或是依每個失敗工作階段隨附的診斷識別碼篩選。</span><span class="sxs-lookup"><span data-stu-id="ce9c0-p104">Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways. For example, the Failed Distribution Report enables you to filter on such things as the activity type (peer-to-peer session or conferencing session) or by the diagnostic ID that accompanied each failed session.</span></span>
 
-<span data-ttu-id="690a2-144">下表列出您可與失敗發佈報告搭配使用的篩選。</span><span class="sxs-lookup"><span data-stu-id="690a2-144">The following table lists the filters that you can use with the Failure Distribution Report.</span></span>
+<span data-ttu-id="ce9c0-144">下表列出您可以用於失敗散佈報告的篩選。</span><span class="sxs-lookup"><span data-stu-id="ce9c0-144">The following table lists the filters that you can use with the Failure Distribution Report.</span></span>
 
-### <a name="failure-distribution-report-filters"></a><span data-ttu-id="690a2-145">失敗的發佈報表篩選</span><span class="sxs-lookup"><span data-stu-id="690a2-145">Failure Distribution Report Filters</span></span>
+### <a name="failure-distribution-report-filters"></a><span data-ttu-id="ce9c0-145">失敗散佈報告篩選</span><span class="sxs-lookup"><span data-stu-id="ce9c0-145">Failure Distribution Report Filters</span></span>
 
 <table>
 <colgroup>
@@ -120,58 +120,58 @@ ms.locfileid: "41765171"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="690a2-146">名稱</span><span class="sxs-lookup"><span data-stu-id="690a2-146">Name</span></span></th>
-<th><span data-ttu-id="690a2-147">說明</span><span class="sxs-lookup"><span data-stu-id="690a2-147">Description</span></span></th>
+<th><span data-ttu-id="ce9c0-146">名稱</span><span class="sxs-lookup"><span data-stu-id="ce9c0-146">Name</span></span></th>
+<th><span data-ttu-id="ce9c0-147">描述</span><span class="sxs-lookup"><span data-stu-id="ce9c0-147">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="690a2-148"><strong>從</strong></span><span class="sxs-lookup"><span data-stu-id="690a2-148"><strong>From</strong></span></span></p></td>
-<td><p><span data-ttu-id="690a2-149">時間範圍的開始日期/時間。</span><span class="sxs-lookup"><span data-stu-id="690a2-149">Start date/time for the time range.</span></span> <span data-ttu-id="690a2-150">若要依時間查看資料，請輸入 [開始日期] 和 [時間]，如下所示：</span><span class="sxs-lookup"><span data-stu-id="690a2-150">To view data by hours, enter both the start date and time as follows:</span></span></p>
-<p><span data-ttu-id="690a2-151">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="690a2-151">7/7/2012 1:00 PM</span></span></p>
-<p><span data-ttu-id="690a2-152">如果您沒有輸入開始時間，報告會在指定日期自動于12:00 點開始。</span><span class="sxs-lookup"><span data-stu-id="690a2-152">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day.</span></span> <span data-ttu-id="690a2-153">若要依天查看資料，只需輸入日期：</span><span class="sxs-lookup"><span data-stu-id="690a2-153">To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="690a2-154">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="690a2-154">7/7/2012</span></span></p>
-<p><span data-ttu-id="690a2-155">若要依周或依月查看，請在您要查看的周或月份中，輸入您要查看的日期（不需要輸入周或月的第一天）：</span><span class="sxs-lookup"><span data-stu-id="690a2-155">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="690a2-156">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="690a2-156">7/3/2012</span></span></p>
-<p><span data-ttu-id="690a2-157">周數總是從星期日到星期六執行。</span><span class="sxs-lookup"><span data-stu-id="690a2-157">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-148"><strong>From</strong></span><span class="sxs-lookup"><span data-stu-id="ce9c0-148"><strong>From</strong></span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-p105">時間範圍的開始日期/時間。若要按照小時檢視資料，請輸入開始日期和時間，如下所示：</span><span class="sxs-lookup"><span data-stu-id="ce9c0-p105">Start date/time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
+<p><span data-ttu-id="ce9c0-151">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="ce9c0-151">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="ce9c0-p106">如果您未輸入開始時間，報告會自動從指定日期凌晨 12 點開始。若要按照日期檢視資料，只要輸入日期即可：</span><span class="sxs-lookup"><span data-stu-id="ce9c0-p106">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="ce9c0-154">2012/7/7</span><span class="sxs-lookup"><span data-stu-id="ce9c0-154">7/7/2012</span></span></p>
+<p><span data-ttu-id="ce9c0-155">若要按星期或月份檢視，請輸入當週或該月您想檢視的日期 (您不必輸入當週或該月的第一天)：</span><span class="sxs-lookup"><span data-stu-id="ce9c0-155">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="ce9c0-156">2012/7/3</span><span class="sxs-lookup"><span data-stu-id="ce9c0-156">7/3/2012</span></span></p>
+<p><span data-ttu-id="ce9c0-157">星期永遠是從星期日開始星期六結束。</span><span class="sxs-lookup"><span data-stu-id="ce9c0-157">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="690a2-158"><strong>自</strong></span><span class="sxs-lookup"><span data-stu-id="690a2-158"><strong>To</strong></span></span></p></td>
-<td><p><span data-ttu-id="690a2-159">時間範圍的結束日期/時間。</span><span class="sxs-lookup"><span data-stu-id="690a2-159">End date/time for the time range.</span></span> <span data-ttu-id="690a2-160">若要依時間查看資料，請輸入 [結束日期] 和 [時間]，如下所示：</span><span class="sxs-lookup"><span data-stu-id="690a2-160">To view data by hours, enter both the end date and time as follows:</span></span></p>
-<p><span data-ttu-id="690a2-161">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="690a2-161">7/7/2012 1:00 PM</span></span></p>
-<p><span data-ttu-id="690a2-162">如果您沒有輸入結束時間，報告會在指定日期自動結束于12:00。</span><span class="sxs-lookup"><span data-stu-id="690a2-162">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day.</span></span> <span data-ttu-id="690a2-163">若要依天查看資料，只需輸入日期：</span><span class="sxs-lookup"><span data-stu-id="690a2-163">To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="690a2-164">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="690a2-164">7/7/2012</span></span></p>
-<p><span data-ttu-id="690a2-165">若要依周或依月查看，請在您要查看的周或月份中，輸入您要查看的日期（不需要輸入周或月的第一天）：</span><span class="sxs-lookup"><span data-stu-id="690a2-165">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="690a2-166">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="690a2-166">7/3/2012</span></span></p>
-<p><span data-ttu-id="690a2-167">周數總是從星期日到星期六執行。</span><span class="sxs-lookup"><span data-stu-id="690a2-167">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-158"><strong>To</strong></span><span class="sxs-lookup"><span data-stu-id="ce9c0-158"><strong>To</strong></span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-p107">時間範圍的結束日期/時間。若要按照小時檢視資料，請輸入開始日期和時間，如下所示：</span><span class="sxs-lookup"><span data-stu-id="ce9c0-p107">End date/time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
+<p><span data-ttu-id="ce9c0-161">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="ce9c0-161">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="ce9c0-p108">如果您未輸入結束時間，報告會自動在指定日期凌晨 12 點結束。若要按照日期檢視資料，只要輸入日期即可：</span><span class="sxs-lookup"><span data-stu-id="ce9c0-p108">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="ce9c0-164">2012/7/7</span><span class="sxs-lookup"><span data-stu-id="ce9c0-164">7/7/2012</span></span></p>
+<p><span data-ttu-id="ce9c0-165">若要按星期或月份檢視，請輸入當週或該月您想檢視的日期 (您不必輸入當週或該月的第一天)：</span><span class="sxs-lookup"><span data-stu-id="ce9c0-165">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="ce9c0-166">2012/7/3</span><span class="sxs-lookup"><span data-stu-id="ce9c0-166">7/3/2012</span></span></p>
+<p><span data-ttu-id="ce9c0-167">星期永遠是從星期日開始星期六結束。</span><span class="sxs-lookup"><span data-stu-id="ce9c0-167">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="690a2-168"><strong>集區</strong></span><span class="sxs-lookup"><span data-stu-id="690a2-168"><strong>Pool</strong></span></span></p></td>
-<td><p><span data-ttu-id="690a2-169">註冊機構池或邊緣伺服器的完整功能變數名稱（FQDN）。</span><span class="sxs-lookup"><span data-stu-id="690a2-169">Fully qualified domain name (FQDN) of the Registrar pool or Edge Server.</span></span> <span data-ttu-id="690a2-170">您可以選取個別的池中，或按一下<strong>[全部]</strong>來查看所有資源庫的資料。</span><span class="sxs-lookup"><span data-stu-id="690a2-170">You can either select an individual pool or click <strong>[All]</strong> to view data for all the pools.</span></span> <span data-ttu-id="690a2-171">這個下拉式清單會根據資料庫中的記錄，自動填入給您。</span><span class="sxs-lookup"><span data-stu-id="690a2-171">This drop-down list is automatically populated for you based on the records in the database.</span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-168"><strong>Pool</strong></span><span class="sxs-lookup"><span data-stu-id="ce9c0-168"><strong>Pool</strong></span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-p109">登錄器集區或 Edge Server 的完整網域名稱 (FQDN)。您可以選取個別的集區，或是按一下 [全部]<strong></strong> 檢視所有集區的資料。此下拉式清單會自動將資料庫內的資料填入。</span><span class="sxs-lookup"><span data-stu-id="ce9c0-p109">Fully qualified domain name (FQDN) of the Registrar pool or Edge Server. You can either select an individual pool or click <strong>[All]</strong> to view data for all the pools. This drop-down list is automatically populated for you based on the records in the database.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="690a2-172"><strong>活動類型</strong></span><span class="sxs-lookup"><span data-stu-id="690a2-172"><strong>Activity type</strong></span></span></p></td>
-<td><p><span data-ttu-id="690a2-173">要篩選的活動類型。</span><span class="sxs-lookup"><span data-stu-id="690a2-173">Type of activity to filter on.</span></span> <span data-ttu-id="690a2-174">選取下列其中一項：</span><span class="sxs-lookup"><span data-stu-id="690a2-174">Select one of the following:</span></span></p>
+<td><p><span data-ttu-id="ce9c0-172"><strong>活動類型</strong></span><span class="sxs-lookup"><span data-stu-id="ce9c0-172"><strong>Activity type</strong></span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-p110">篩選的活動類型。請選取下列其中一項：</span><span class="sxs-lookup"><span data-stu-id="ce9c0-p110">Type of activity to filter on. Select one of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="690a2-175">同時</span><span class="sxs-lookup"><span data-stu-id="690a2-175">[All]</span></span></p></li>
-<li><p><span data-ttu-id="690a2-176">對等</span><span class="sxs-lookup"><span data-stu-id="690a2-176">Peer-to-peer</span></span></p></li>
-<li><p><span data-ttu-id="690a2-177">會議</span><span class="sxs-lookup"><span data-stu-id="690a2-177">Conference</span></span></p></li>
+<li><p><span data-ttu-id="ce9c0-175">[全部]</span><span class="sxs-lookup"><span data-stu-id="ce9c0-175">[All]</span></span></p></li>
+<li><p><span data-ttu-id="ce9c0-176">端對端</span><span class="sxs-lookup"><span data-stu-id="ce9c0-176">Peer-to-peer</span></span></p></li>
+<li><p><span data-ttu-id="ce9c0-177">會議</span><span class="sxs-lookup"><span data-stu-id="ce9c0-177">Conference</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="690a2-178"><strong>會話類別</strong></span><span class="sxs-lookup"><span data-stu-id="690a2-178"><strong>Session category</strong></span></span></p></td>
-<td><p><span data-ttu-id="690a2-179">指出問題中的活動是否已成功或失敗。</span><span class="sxs-lookup"><span data-stu-id="690a2-179">Indicates whether the activity in question succeeded or failed.</span></span> <span data-ttu-id="690a2-180">選取下列其中一項：</span><span class="sxs-lookup"><span data-stu-id="690a2-180">Select one of the following:</span></span></p>
+<td><p><span data-ttu-id="ce9c0-178"><strong>工作階段類別</strong></span><span class="sxs-lookup"><span data-stu-id="ce9c0-178"><strong>Session category</strong></span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-p111">指出有疑問的活動為成功或失敗。請選取下列其中一項：</span><span class="sxs-lookup"><span data-stu-id="ce9c0-p111">Indicates whether the activity in question succeeded or failed. Select one of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="690a2-181">同時</span><span class="sxs-lookup"><span data-stu-id="690a2-181">[All]</span></span></p></li>
-<li><p><span data-ttu-id="690a2-182">成功案例</span><span class="sxs-lookup"><span data-stu-id="690a2-182">Success</span></span></p></li>
-<li><p><span data-ttu-id="690a2-183">預期失敗</span><span class="sxs-lookup"><span data-stu-id="690a2-183">Expected failure</span></span></p></li>
-<li><p><span data-ttu-id="690a2-184">意外失敗</span><span class="sxs-lookup"><span data-stu-id="690a2-184">Unexpected failure</span></span></p></li>
+<li><p><span data-ttu-id="ce9c0-181">[全部]</span><span class="sxs-lookup"><span data-stu-id="ce9c0-181">[All]</span></span></p></li>
+<li><p><span data-ttu-id="ce9c0-182">成功</span><span class="sxs-lookup"><span data-stu-id="ce9c0-182">Success</span></span></p></li>
+<li><p><span data-ttu-id="ce9c0-183">預期的失敗</span><span class="sxs-lookup"><span data-stu-id="ce9c0-183">Expected failure</span></span></p></li>
+<li><p><span data-ttu-id="ce9c0-184">未預期的失敗</span><span class="sxs-lookup"><span data-stu-id="ce9c0-184">Unexpected failure</span></span></p></li>
 </ul>
-<p><span data-ttu-id="690a2-185">&quot;預期的失敗&quot;是預期發生的失敗。</span><span class="sxs-lookup"><span data-stu-id="690a2-185">An &quot;expected failure&quot; is a failure that is expected to happen.</span></span> <span data-ttu-id="690a2-186">例如，如果使用者將自己的狀態設為 [請勿打擾]，您預期該使用者的任何呼叫都會失敗。</span><span class="sxs-lookup"><span data-stu-id="690a2-186">For example, if a user has set his or her status to Do Not Disturb you would expect any call to that user to fail.</span></span> <span data-ttu-id="690a2-187">發生&quot;意外的&quot;失敗，就是看起來像是其他健康的系統。</span><span class="sxs-lookup"><span data-stu-id="690a2-187">An &quot;unexpected failure&quot; is a failure that occurs in what would appear to be an otherwise healthy system.</span></span> <span data-ttu-id="690a2-188">例如，如果來電者停留在 [保留] 上，就不應該終止通話。</span><span class="sxs-lookup"><span data-stu-id="690a2-188">For example, a call should not be terminated if the caller is placed on hold.</span></span> <span data-ttu-id="690a2-189">如果發生這種情況，就會將它標記為未預期的失敗。</span><span class="sxs-lookup"><span data-stu-id="690a2-189">If that occurs, that would be flagged as an unexpected failure.</span></span></p></td>
+<p><span data-ttu-id="ce9c0-185">&quot;預期失敗&quot;是預期會發生的失敗。</span><span class="sxs-lookup"><span data-stu-id="ce9c0-185">An &quot;expected failure&quot; is a failure that is expected to happen.</span></span> <span data-ttu-id="ce9c0-186">例如，當使用者將其狀態設為「勿打擾」時，即應預期所有撥話給該使用者的通話皆會失敗。</span><span class="sxs-lookup"><span data-stu-id="ce9c0-186">For example, if a user has set his or her status to Do Not Disturb you would expect any call to that user to fail.</span></span> <span data-ttu-id="ce9c0-187">&quot;未預期的失敗&quot;是在項目會顯示為否則狀況良好的系統，就會發生的失敗。</span><span class="sxs-lookup"><span data-stu-id="ce9c0-187">An &quot;unexpected failure&quot; is a failure that occurs in what would appear to be an otherwise healthy system.</span></span> <span data-ttu-id="ce9c0-188">例如，當發話者處於保留狀態時，不應掛斷通話。</span><span class="sxs-lookup"><span data-stu-id="ce9c0-188">For example, a call should not be terminated if the caller is placed on hold.</span></span> <span data-ttu-id="ce9c0-189">當發生此狀況時，會將其標幟為未預期的失敗。</span><span class="sxs-lookup"><span data-stu-id="ce9c0-189">If that occurs, that would be flagged as an unexpected failure.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="690a2-190"><strong>診斷識別碼</strong></span><span class="sxs-lookup"><span data-stu-id="690a2-190"><strong>Diagnostic ID</strong></span></span></p></td>
-<td><p><span data-ttu-id="690a2-191">附加至 SIP 訊息的唯一識別碼（ms diagnostics 標頭形式），通常可在疑難排解錯誤中提供有用的資訊。</span><span class="sxs-lookup"><span data-stu-id="690a2-191">Unique identifier (in the form of an ms-diagnostics header) attached to a SIP message that often provides information useful in troubleshooting errors.</span></span> <span data-ttu-id="690a2-192">診斷標頭是可選項（有可能是不包含這些標頭的 SIP 會話），而且只會針對遇到某種問題的會話報告診斷 Id。</span><span class="sxs-lookup"><span data-stu-id="690a2-192">Diagnostics headers are optional (it is possible to have SIP sessions that do not include these headers), and diagnostic IDs are reported only for sessions that experienced problems of some kind.</span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-190"><strong>診斷識別碼</strong></span><span class="sxs-lookup"><span data-stu-id="ce9c0-190"><strong>Diagnostic ID</strong></span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-p113">附加在 SIP 訊息中的唯一識別碼 (採用 ms-diagnostics 標頭的格式)，常可以在疑難排解錯誤時提供實用的資訊。診斷標頭為選用 (也可能有 SIP 工作階段不包含這些標頭)。只有發生特定問題的工作階段才會回報診斷識別碼。</span><span class="sxs-lookup"><span data-stu-id="ce9c0-p113">Unique identifier (in the form of an ms-diagnostics header) attached to a SIP message that often provides information useful in troubleshooting errors. Diagnostics headers are optional (it is possible to have SIP sessions that do not include these headers), and diagnostic IDs are reported only for sessions that experienced problems of some kind.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -181,11 +181,11 @@ ms.locfileid: "41765171"
 
 <div>
 
-## <a name="metrics-for-top-diagnostic-reasons"></a><span data-ttu-id="690a2-193">常見診斷原因的度量單位</span><span class="sxs-lookup"><span data-stu-id="690a2-193">Metrics for Top Diagnostic Reasons</span></span>
+## <a name="metrics-for-top-diagnostic-reasons"></a><span data-ttu-id="ce9c0-193">前幾名診斷原因的計量</span><span class="sxs-lookup"><span data-stu-id="ce9c0-193">Metrics for Top Diagnostic Reasons</span></span>
 
-<span data-ttu-id="690a2-194">下表列出以最常報告的診斷 ID 為基礎的失敗發佈報告所提供的資訊。</span><span class="sxs-lookup"><span data-stu-id="690a2-194">The following table lists the information provided in the Failure Distribution Report based on the most frequently reported diagnostic ID.</span></span>
+<span data-ttu-id="ce9c0-194">下表依據最常報告的診斷識別碼，列出失敗散佈報告中提供的資訊。</span><span class="sxs-lookup"><span data-stu-id="ce9c0-194">The following table lists the information provided in the Failure Distribution Report based on the most frequently reported diagnostic ID.</span></span>
 
-### <a name="metrics-for-top-diagnostic-reasons"></a><span data-ttu-id="690a2-195">常見診斷原因的度量單位</span><span class="sxs-lookup"><span data-stu-id="690a2-195">Metrics for Top Diagnostic Reasons</span></span>
+### <a name="metrics-for-top-diagnostic-reasons"></a><span data-ttu-id="ce9c0-195">前幾名診斷原因的計量</span><span class="sxs-lookup"><span data-stu-id="ce9c0-195">Metrics for Top Diagnostic Reasons</span></span>
 
 <table>
 <colgroup>
@@ -195,26 +195,26 @@ ms.locfileid: "41765171"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="690a2-196">名稱</span><span class="sxs-lookup"><span data-stu-id="690a2-196">Name</span></span></th>
-<th><span data-ttu-id="690a2-197">您可以針對此專案進行排序嗎？</span><span class="sxs-lookup"><span data-stu-id="690a2-197">Can you sort on this item?</span></span></th>
-<th><span data-ttu-id="690a2-198">說明</span><span class="sxs-lookup"><span data-stu-id="690a2-198">Description</span></span></th>
+<th><span data-ttu-id="ce9c0-196">姓名</span><span class="sxs-lookup"><span data-stu-id="ce9c0-196">Name</span></span></th>
+<th><span data-ttu-id="ce9c0-197">可以排序這個項目嗎？</span><span class="sxs-lookup"><span data-stu-id="ce9c0-197">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="ce9c0-198">描述</span><span class="sxs-lookup"><span data-stu-id="ce9c0-198">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="690a2-199"><strong>排名</strong></span><span class="sxs-lookup"><span data-stu-id="690a2-199"><strong>Rank</strong></span></span></p></td>
-<td><p><span data-ttu-id="690a2-200">否</span><span class="sxs-lookup"><span data-stu-id="690a2-200">No</span></span></p></td>
-<td><p><span data-ttu-id="690a2-201">根據診斷識別碼，失敗會話的相對排名。</span><span class="sxs-lookup"><span data-stu-id="690a2-201">Relative ranking of failed sessions based on diagnostic IDs.</span></span> <span data-ttu-id="690a2-202">診斷識別碼是附加至 SIP 訊息的唯一識別碼（以 ms 診斷標頭形式），它通常會在疑難排解錯誤中提供有用的資訊。</span><span class="sxs-lookup"><span data-stu-id="690a2-202">The diagnostic ID is a unique identifier (in the form of an ms-diagnostics header) attached to a SIP message that often provides information useful in troubleshooting errors.</span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-199"><strong>Rank</strong></span><span class="sxs-lookup"><span data-stu-id="ce9c0-199"><strong>Rank</strong></span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-200">否</span><span class="sxs-lookup"><span data-stu-id="ce9c0-200">No</span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-p114">依據診斷識別碼的失敗工作階段相對排名。診斷識別碼是附加在 SIP 訊息中的唯一識別碼 (採用 ms-diagnostics 標頭的格式)，常可以在疑難排解錯誤時提供實用的資訊。</span><span class="sxs-lookup"><span data-stu-id="ce9c0-p114">Relative ranking of failed sessions based on diagnostic IDs. The diagnostic ID is a unique identifier (in the form of an ms-diagnostics header) attached to a SIP message that often provides information useful in troubleshooting errors.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="690a2-203"><strong>常見的診斷原因</strong></span><span class="sxs-lookup"><span data-stu-id="690a2-203"><strong>Top diagnostic reasons</strong></span></span></p></td>
-<td><p><span data-ttu-id="690a2-204">否</span><span class="sxs-lookup"><span data-stu-id="690a2-204">No</span></span></p></td>
-<td><p><span data-ttu-id="690a2-205">在會話中產生的診斷 ID。</span><span class="sxs-lookup"><span data-stu-id="690a2-205">Diagnostic ID generated in a session.</span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-203"><strong>前幾名診斷原因</strong></span><span class="sxs-lookup"><span data-stu-id="ce9c0-203"><strong>Top diagnostic reasons</strong></span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-204">否</span><span class="sxs-lookup"><span data-stu-id="ce9c0-204">No</span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-205">在工作階段產生的診斷識別碼。</span><span class="sxs-lookup"><span data-stu-id="ce9c0-205">Diagnostic ID generated in a session.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="690a2-206"><strong>時段</strong></span><span class="sxs-lookup"><span data-stu-id="690a2-206"><strong>Sessions</strong></span></span></p></td>
-<td><p><span data-ttu-id="690a2-207">否</span><span class="sxs-lookup"><span data-stu-id="690a2-207">No</span></span></p></td>
-<td><p><span data-ttu-id="690a2-208">產生指定診斷 ID 的失敗會話總數。</span><span class="sxs-lookup"><span data-stu-id="690a2-208">Total number of failed sessions where the specified diagnostic ID was generated.</span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-206"><strong>工作階段</strong></span><span class="sxs-lookup"><span data-stu-id="ce9c0-206"><strong>Sessions</strong></span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-207">否</span><span class="sxs-lookup"><span data-stu-id="ce9c0-207">No</span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-208">產生所指定之診斷識別碼的失敗工作階段總數。</span><span class="sxs-lookup"><span data-stu-id="ce9c0-208">Total number of failed sessions where the specified diagnostic ID was generated.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -224,11 +224,11 @@ ms.locfileid: "41765171"
 
 <div>
 
-## <a name="metrics-for-top-modalities"></a><span data-ttu-id="690a2-209">Top 形式的度量單位</span><span class="sxs-lookup"><span data-stu-id="690a2-209">Metrics for Top Modalities</span></span>
+## <a name="metrics-for-top-modalities"></a><span data-ttu-id="ce9c0-209">前幾名形式的計量</span><span class="sxs-lookup"><span data-stu-id="ce9c0-209">Metrics for Top Modalities</span></span>
 
-<span data-ttu-id="690a2-210">下表列出根據遇到最多失敗的會話形式，在失敗發佈報告中提供的資訊。</span><span class="sxs-lookup"><span data-stu-id="690a2-210">The following table lists the information provided in the Failure Distribution Report based on the session modalities that experienced the most failures.</span></span>
+<span data-ttu-id="ce9c0-210">下表依據最常發生失敗的工作階段形式，列出失敗散佈報告中提供的資訊。</span><span class="sxs-lookup"><span data-stu-id="ce9c0-210">The following table lists the information provided in the Failure Distribution Report based on the session modalities that experienced the most failures.</span></span>
 
-### <a name="metrics-for-top-modalities"></a><span data-ttu-id="690a2-211">Top 形式的度量單位</span><span class="sxs-lookup"><span data-stu-id="690a2-211">Metrics for Top Modalities</span></span>
+### <a name="metrics-for-top-modalities"></a><span data-ttu-id="ce9c0-211">前幾名形式的計量</span><span class="sxs-lookup"><span data-stu-id="ce9c0-211">Metrics for Top Modalities</span></span>
 
 <table>
 <colgroup>
@@ -238,26 +238,26 @@ ms.locfileid: "41765171"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="690a2-212">名稱</span><span class="sxs-lookup"><span data-stu-id="690a2-212">Name</span></span></th>
-<th><span data-ttu-id="690a2-213">您可以針對此專案進行排序嗎？</span><span class="sxs-lookup"><span data-stu-id="690a2-213">Can you sort on this item?</span></span></th>
-<th><span data-ttu-id="690a2-214">說明</span><span class="sxs-lookup"><span data-stu-id="690a2-214">Description</span></span></th>
+<th><span data-ttu-id="ce9c0-212">姓名</span><span class="sxs-lookup"><span data-stu-id="ce9c0-212">Name</span></span></th>
+<th><span data-ttu-id="ce9c0-213">可以排序這個項目嗎？</span><span class="sxs-lookup"><span data-stu-id="ce9c0-213">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="ce9c0-214">描述</span><span class="sxs-lookup"><span data-stu-id="ce9c0-214">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="690a2-215"><strong>排名</strong></span><span class="sxs-lookup"><span data-stu-id="690a2-215"><strong>Rank</strong></span></span></p></td>
-<td><p><span data-ttu-id="690a2-216">否</span><span class="sxs-lookup"><span data-stu-id="690a2-216">No</span></span></p></td>
-<td><p><span data-ttu-id="690a2-217">根據會話類型（例如音訊/視訊會議或對等檔案傳輸會話），以失敗的會話為基礎的相對排名。</span><span class="sxs-lookup"><span data-stu-id="690a2-217">Relative ranking based of failed session based on session type (for example, an audio/video conference or a peer-to-peer file transfer session).</span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-215"><strong>Rank</strong></span><span class="sxs-lookup"><span data-stu-id="ce9c0-215"><strong>Rank</strong></span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-216">否</span><span class="sxs-lookup"><span data-stu-id="ce9c0-216">No</span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-217">依據工作階段類型 (例如，音訊/視訊會議或對等檔案傳輸工作階段) 的失敗工作階段相對排名。</span><span class="sxs-lookup"><span data-stu-id="ce9c0-217">Relative ranking based of failed session based on session type (for example, an audio/video conference or a peer-to-peer file transfer session).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="690a2-218"><strong>上方形式</strong></span><span class="sxs-lookup"><span data-stu-id="690a2-218"><strong>Top modalities</strong></span></span></p></td>
-<td><p><span data-ttu-id="690a2-219">否</span><span class="sxs-lookup"><span data-stu-id="690a2-219">No</span></span></p></td>
-<td><p><span data-ttu-id="690a2-220">會話類型。</span><span class="sxs-lookup"><span data-stu-id="690a2-220">Session type.</span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-218"><strong>前幾名形式</strong></span><span class="sxs-lookup"><span data-stu-id="ce9c0-218"><strong>Top modalities</strong></span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-219">否</span><span class="sxs-lookup"><span data-stu-id="ce9c0-219">No</span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-220">工作階段類型。</span><span class="sxs-lookup"><span data-stu-id="ce9c0-220">Session type.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="690a2-221"><strong>時段</strong></span><span class="sxs-lookup"><span data-stu-id="690a2-221"><strong>Sessions</strong></span></span></p></td>
-<td><p><span data-ttu-id="690a2-222">否</span><span class="sxs-lookup"><span data-stu-id="690a2-222">No</span></span></p></td>
-<td><p><span data-ttu-id="690a2-223">涉及指定模態的失敗會話總數。</span><span class="sxs-lookup"><span data-stu-id="690a2-223">Total number of failed sessions involving the specified modality.</span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-221"><strong>工作階段</strong></span><span class="sxs-lookup"><span data-stu-id="ce9c0-221"><strong>Sessions</strong></span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-222">否</span><span class="sxs-lookup"><span data-stu-id="ce9c0-222">No</span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-223">與指定形式有關的失敗工作階段總數。</span><span class="sxs-lookup"><span data-stu-id="ce9c0-223">Total number of failed sessions involving the specified modality.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -267,11 +267,11 @@ ms.locfileid: "41765171"
 
 <div>
 
-## <a name="metrics-for-top-pools"></a><span data-ttu-id="690a2-224">頂層池的度量單位</span><span class="sxs-lookup"><span data-stu-id="690a2-224">Metrics for Top Pools</span></span>
+## <a name="metrics-for-top-pools"></a><span data-ttu-id="ce9c0-224">前幾名集區的計量</span><span class="sxs-lookup"><span data-stu-id="ce9c0-224">Metrics for Top Pools</span></span>
 
-<span data-ttu-id="690a2-225">下表列出根據遇到最多失敗的池，在失敗發佈報告中提供的資訊。</span><span class="sxs-lookup"><span data-stu-id="690a2-225">The following table lists the information provided in the Failure Distribution Report based on the pools that experienced the most failures.</span></span>
+<span data-ttu-id="ce9c0-225">下表依據最常發生失敗的集區，列出失敗散佈報告中提供的資訊。</span><span class="sxs-lookup"><span data-stu-id="ce9c0-225">The following table lists the information provided in the Failure Distribution Report based on the pools that experienced the most failures.</span></span>
 
-### <a name="metrics-for-top-pools"></a><span data-ttu-id="690a2-226">頂層池的度量單位</span><span class="sxs-lookup"><span data-stu-id="690a2-226">Metrics for Top Pools</span></span>
+### <a name="metrics-for-top-pools"></a><span data-ttu-id="ce9c0-226">前幾名集區的計量</span><span class="sxs-lookup"><span data-stu-id="ce9c0-226">Metrics for Top Pools</span></span>
 
 <table>
 <colgroup>
@@ -281,26 +281,26 @@ ms.locfileid: "41765171"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="690a2-227">名稱</span><span class="sxs-lookup"><span data-stu-id="690a2-227">Name</span></span></th>
-<th><span data-ttu-id="690a2-228">您可以針對此專案進行排序嗎？</span><span class="sxs-lookup"><span data-stu-id="690a2-228">Can you sort on this item?</span></span></th>
-<th><span data-ttu-id="690a2-229">說明</span><span class="sxs-lookup"><span data-stu-id="690a2-229">Description</span></span></th>
+<th><span data-ttu-id="ce9c0-227">姓名</span><span class="sxs-lookup"><span data-stu-id="ce9c0-227">Name</span></span></th>
+<th><span data-ttu-id="ce9c0-228">可以排序這個項目嗎？</span><span class="sxs-lookup"><span data-stu-id="ce9c0-228">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="ce9c0-229">描述</span><span class="sxs-lookup"><span data-stu-id="ce9c0-229">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="690a2-230"><strong>排名</strong></span><span class="sxs-lookup"><span data-stu-id="690a2-230"><strong>Rank</strong></span></span></p></td>
-<td><p><span data-ttu-id="690a2-231">否</span><span class="sxs-lookup"><span data-stu-id="690a2-231">No</span></span></p></td>
-<td><p><span data-ttu-id="690a2-232">根據執行會話的註冊機構池或邊緣伺服器來找出失敗會話的相對等級。</span><span class="sxs-lookup"><span data-stu-id="690a2-232">Relative ranking of failed sessions based on the Registrar pool or Edge Server where the session was conducted.</span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-230"><strong>Rank</strong></span><span class="sxs-lookup"><span data-stu-id="ce9c0-230"><strong>Rank</strong></span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-231">否</span><span class="sxs-lookup"><span data-stu-id="ce9c0-231">No</span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-232">登錄器集區或 Edge Server 已在單獨執行的工作階段為基礎的失敗工作階段相對排名。</span><span class="sxs-lookup"><span data-stu-id="ce9c0-232">Relative ranking of failed sessions based on the Registrar pool or Edge Server where the session was conducted.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="690a2-233"><strong>頂層池</strong></span><span class="sxs-lookup"><span data-stu-id="690a2-233"><strong>Top pools</strong></span></span></p></td>
-<td><p><span data-ttu-id="690a2-234">否</span><span class="sxs-lookup"><span data-stu-id="690a2-234">No</span></span></p></td>
-<td><p><span data-ttu-id="690a2-235">註冊機構池或邊緣伺服器的名稱。</span><span class="sxs-lookup"><span data-stu-id="690a2-235">Name of the Registrar pool or Edge Server.</span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-233"><strong>前幾名集區</strong></span><span class="sxs-lookup"><span data-stu-id="ce9c0-233"><strong>Top pools</strong></span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-234">否</span><span class="sxs-lookup"><span data-stu-id="ce9c0-234">No</span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-235">登錄器集區或 Edge Server 的名稱。</span><span class="sxs-lookup"><span data-stu-id="ce9c0-235">Name of the Registrar pool or Edge Server.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="690a2-236"><strong>時段</strong></span><span class="sxs-lookup"><span data-stu-id="690a2-236"><strong>Sessions</strong></span></span></p></td>
-<td><p><span data-ttu-id="690a2-237">否</span><span class="sxs-lookup"><span data-stu-id="690a2-237">No</span></span></p></td>
-<td><p><span data-ttu-id="690a2-238">每個註冊機構池或邊緣伺服器的失敗會話總數。</span><span class="sxs-lookup"><span data-stu-id="690a2-238">Total number of failed sessions per Registrar pool or Edge Server.</span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-236"><strong>工作階段</strong></span><span class="sxs-lookup"><span data-stu-id="ce9c0-236"><strong>Sessions</strong></span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-237">否</span><span class="sxs-lookup"><span data-stu-id="ce9c0-237">No</span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-238">每個登錄器集區或 Edge Server 的失敗工作階段總數。</span><span class="sxs-lookup"><span data-stu-id="ce9c0-238">Total number of failed sessions per Registrar pool or Edge Server.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -310,11 +310,11 @@ ms.locfileid: "41765171"
 
 <div>
 
-## <a name="metrics-for-top-sources"></a><span data-ttu-id="690a2-239">熱門來源的度量單位</span><span class="sxs-lookup"><span data-stu-id="690a2-239">Metrics for Top Sources</span></span>
+## <a name="metrics-for-top-sources"></a><span data-ttu-id="ce9c0-239">前幾名來源的計量</span><span class="sxs-lookup"><span data-stu-id="ce9c0-239">Metrics for Top Sources</span></span>
 
-<span data-ttu-id="690a2-240">下表列出根據遇到最多失敗的電腦，在失敗發佈報告中提供的資訊。</span><span class="sxs-lookup"><span data-stu-id="690a2-240">The following table lists the information provided in the Failure Distribution Report based on the computers that experienced the most failures.</span></span>
+<span data-ttu-id="ce9c0-240">下表依據最常發生失敗的電腦，列出失敗散佈報告中提供的資訊。</span><span class="sxs-lookup"><span data-stu-id="ce9c0-240">The following table lists the information provided in the Failure Distribution Report based on the computers that experienced the most failures.</span></span>
 
-### <a name="metrics-for-top-sources"></a><span data-ttu-id="690a2-241">熱門來源的度量單位</span><span class="sxs-lookup"><span data-stu-id="690a2-241">Metrics for Top Sources</span></span>
+### <a name="metrics-for-top-sources"></a><span data-ttu-id="ce9c0-241">前幾名來源的計量</span><span class="sxs-lookup"><span data-stu-id="ce9c0-241">Metrics for Top Sources</span></span>
 
 <table>
 <colgroup>
@@ -324,26 +324,26 @@ ms.locfileid: "41765171"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="690a2-242">名稱</span><span class="sxs-lookup"><span data-stu-id="690a2-242">Name</span></span></th>
-<th><span data-ttu-id="690a2-243">您可以針對此專案進行排序嗎？</span><span class="sxs-lookup"><span data-stu-id="690a2-243">Can you sort on this item?</span></span></th>
-<th><span data-ttu-id="690a2-244">說明</span><span class="sxs-lookup"><span data-stu-id="690a2-244">Description</span></span></th>
+<th><span data-ttu-id="ce9c0-242">姓名</span><span class="sxs-lookup"><span data-stu-id="ce9c0-242">Name</span></span></th>
+<th><span data-ttu-id="ce9c0-243">可以排序這個項目嗎？</span><span class="sxs-lookup"><span data-stu-id="ce9c0-243">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="ce9c0-244">描述</span><span class="sxs-lookup"><span data-stu-id="ce9c0-244">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="690a2-245"><strong>排名</strong></span><span class="sxs-lookup"><span data-stu-id="690a2-245"><strong>Rank</strong></span></span></p></td>
-<td><p><span data-ttu-id="690a2-246">否</span><span class="sxs-lookup"><span data-stu-id="690a2-246">No</span></span></p></td>
-<td><p><span data-ttu-id="690a2-247">每個電腦的相對排名失敗的會話。</span><span class="sxs-lookup"><span data-stu-id="690a2-247">Relative ranking failed sessions per computer.</span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-245"><strong>Rank</strong></span><span class="sxs-lookup"><span data-stu-id="ce9c0-245"><strong>Rank</strong></span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-246">否</span><span class="sxs-lookup"><span data-stu-id="ce9c0-246">No</span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-247">每部電腦的失敗工作階段相對排名。</span><span class="sxs-lookup"><span data-stu-id="ce9c0-247">Relative ranking failed sessions per computer.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="690a2-248"><strong>熱門來源</strong></span><span class="sxs-lookup"><span data-stu-id="690a2-248"><strong>Top sources</strong></span></span></p></td>
-<td><p><span data-ttu-id="690a2-249">否</span><span class="sxs-lookup"><span data-stu-id="690a2-249">No</span></span></p></td>
-<td><p><span data-ttu-id="690a2-250">失敗會話中所涉及的電腦名稱稱。</span><span class="sxs-lookup"><span data-stu-id="690a2-250">Name of the computer involved in the failed session.</span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-248"><strong>前幾名來源</strong></span><span class="sxs-lookup"><span data-stu-id="ce9c0-248"><strong>Top sources</strong></span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-249">否</span><span class="sxs-lookup"><span data-stu-id="ce9c0-249">No</span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-250">與失敗工作階段相關的電腦名稱。</span><span class="sxs-lookup"><span data-stu-id="ce9c0-250">Name of the computer involved in the failed session.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="690a2-251"><strong>時段</strong></span><span class="sxs-lookup"><span data-stu-id="690a2-251"><strong>Sessions</strong></span></span></p></td>
-<td><p><span data-ttu-id="690a2-252">否</span><span class="sxs-lookup"><span data-stu-id="690a2-252">No</span></span></p></td>
-<td><p><span data-ttu-id="690a2-253">每個電腦的失敗會話總數。</span><span class="sxs-lookup"><span data-stu-id="690a2-253">Total number of failed sessions per computer.</span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-251"><strong>工作階段</strong></span><span class="sxs-lookup"><span data-stu-id="ce9c0-251"><strong>Sessions</strong></span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-252">否</span><span class="sxs-lookup"><span data-stu-id="ce9c0-252">No</span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-253">每部電腦的失敗工作階段總數。</span><span class="sxs-lookup"><span data-stu-id="ce9c0-253">Total number of failed sessions per computer.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -353,11 +353,11 @@ ms.locfileid: "41765171"
 
 <div>
 
-## <a name="metrics-for-top-components"></a><span data-ttu-id="690a2-254">Top 元件的度量單位</span><span class="sxs-lookup"><span data-stu-id="690a2-254">Metrics for Top Components</span></span>
+## <a name="metrics-for-top-components"></a><span data-ttu-id="ce9c0-254">前幾名元件的計量</span><span class="sxs-lookup"><span data-stu-id="ce9c0-254">Metrics for Top Components</span></span>
 
-<span data-ttu-id="690a2-255">下表列出根據遇到最多失敗的 Microsoft Lync Server 2010 元件，在失敗發佈報告中提供的資訊。</span><span class="sxs-lookup"><span data-stu-id="690a2-255">The following table lists the information provided in the Failure Distribution Report based on the Microsoft Lync Server 2010 components that experienced the most failures.</span></span>
+<span data-ttu-id="ce9c0-255">下表列出根據最常發生失敗的 Microsoft Lync Server 2010 元件失敗散佈報告中提供的資訊。</span><span class="sxs-lookup"><span data-stu-id="ce9c0-255">The following table lists the information provided in the Failure Distribution Report based on the Microsoft Lync Server 2010 components that experienced the most failures.</span></span>
 
-### <a name="metrics-for-top-components"></a><span data-ttu-id="690a2-256">Top 元件的度量單位</span><span class="sxs-lookup"><span data-stu-id="690a2-256">Metrics for Top Components</span></span>
+### <a name="metrics-for-top-components"></a><span data-ttu-id="ce9c0-256">前幾名元件的計量</span><span class="sxs-lookup"><span data-stu-id="ce9c0-256">Metrics for Top Components</span></span>
 
 <table>
 <colgroup>
@@ -367,26 +367,26 @@ ms.locfileid: "41765171"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="690a2-257">名稱</span><span class="sxs-lookup"><span data-stu-id="690a2-257">Name</span></span></th>
-<th><span data-ttu-id="690a2-258">您可以針對此專案進行排序嗎？</span><span class="sxs-lookup"><span data-stu-id="690a2-258">Can you sort on this item?</span></span></th>
-<th><span data-ttu-id="690a2-259">說明</span><span class="sxs-lookup"><span data-stu-id="690a2-259">Description</span></span></th>
+<th><span data-ttu-id="ce9c0-257">姓名</span><span class="sxs-lookup"><span data-stu-id="ce9c0-257">Name</span></span></th>
+<th><span data-ttu-id="ce9c0-258">可以排序這個項目嗎？</span><span class="sxs-lookup"><span data-stu-id="ce9c0-258">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="ce9c0-259">描述</span><span class="sxs-lookup"><span data-stu-id="ce9c0-259">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="690a2-260"><strong>排名</strong></span><span class="sxs-lookup"><span data-stu-id="690a2-260"><strong>Rank</strong></span></span></p></td>
-<td><p><span data-ttu-id="690a2-261">否</span><span class="sxs-lookup"><span data-stu-id="690a2-261">No</span></span></p></td>
-<td><p><span data-ttu-id="690a2-262">根據 Lync Server 2010 元件（例如 ExumRouting、GroupChat 或 MediationServer）而失敗的會話相對排名。</span><span class="sxs-lookup"><span data-stu-id="690a2-262">Relative ranking of failed sessions based on Lync Server 2010 component (for example, ExumRouting, GroupChat, or MediationServer).</span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-260"><strong>Rank</strong></span><span class="sxs-lookup"><span data-stu-id="ce9c0-260"><strong>Rank</strong></span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-261">否</span><span class="sxs-lookup"><span data-stu-id="ce9c0-261">No</span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-262">Lync Server 2010 元件 （例如 ExumRouting、 GroupChat 或 MediationServer） 為基礎的失敗工作階段相對排名。</span><span class="sxs-lookup"><span data-stu-id="ce9c0-262">Relative ranking of failed sessions based on Lync Server 2010 component (for example, ExumRouting, GroupChat, or MediationServer).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="690a2-263"><strong>上方元件</strong></span><span class="sxs-lookup"><span data-stu-id="690a2-263"><strong>Top components</strong></span></span></p></td>
-<td><p><span data-ttu-id="690a2-264">否</span><span class="sxs-lookup"><span data-stu-id="690a2-264">No</span></span></p></td>
-<td><p><span data-ttu-id="690a2-265">失敗會話中所涉及元件的名稱。</span><span class="sxs-lookup"><span data-stu-id="690a2-265">Name of the component involved in the failed session.</span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-263"><strong>前幾名元件</strong></span><span class="sxs-lookup"><span data-stu-id="ce9c0-263"><strong>Top components</strong></span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-264">否</span><span class="sxs-lookup"><span data-stu-id="ce9c0-264">No</span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-265">與失敗工作階段相關的元件名稱。</span><span class="sxs-lookup"><span data-stu-id="ce9c0-265">Name of the component involved in the failed session.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="690a2-266"><strong>時段</strong></span><span class="sxs-lookup"><span data-stu-id="690a2-266"><strong>Sessions</strong></span></span></p></td>
-<td><p><span data-ttu-id="690a2-267">否</span><span class="sxs-lookup"><span data-stu-id="690a2-267">No</span></span></p></td>
-<td><p><span data-ttu-id="690a2-268">每個元件的失敗會話總數。</span><span class="sxs-lookup"><span data-stu-id="690a2-268">Total number of failed sessions per component.</span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-266"><strong>工作階段</strong></span><span class="sxs-lookup"><span data-stu-id="ce9c0-266"><strong>Sessions</strong></span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-267">否</span><span class="sxs-lookup"><span data-stu-id="ce9c0-267">No</span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-268">每個元件的失敗工作階段總數。</span><span class="sxs-lookup"><span data-stu-id="ce9c0-268">Total number of failed sessions per component.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -396,11 +396,11 @@ ms.locfileid: "41765171"
 
 <div>
 
-## <a name="metrics-for-top-from-users"></a><span data-ttu-id="690a2-269">使用者的最高指標</span><span class="sxs-lookup"><span data-stu-id="690a2-269">Metrics for Top From Users</span></span>
+## <a name="metrics-for-top-from-users"></a><span data-ttu-id="ce9c0-269">前幾名發話使用者的計量</span><span class="sxs-lookup"><span data-stu-id="ce9c0-269">Metrics for Top From Users</span></span>
 
-<span data-ttu-id="690a2-270">下表列出失敗發佈報告中提供的資訊，這些資訊是根據在嘗試呼叫其他人（稱為「寄件者」使用者）時遇到最多失敗的使用者。</span><span class="sxs-lookup"><span data-stu-id="690a2-270">The following table lists the information provided in the Failure Distribution Report based on users who experienced the most failures when they tried to call someone else (known as "From" users).</span></span>
+<span data-ttu-id="ce9c0-270">下表依據最常在嘗試呼叫他人時發生失敗的使用者 (即所謂的「發話」使用者)，列出失敗散佈報告中提供的資訊。</span><span class="sxs-lookup"><span data-stu-id="ce9c0-270">The following table lists the information provided in the Failure Distribution Report based on users who experienced the most failures when they tried to call someone else (known as "From" users).</span></span>
 
-### <a name="metrics-for-top-from-users"></a><span data-ttu-id="690a2-271">使用者的最高指標</span><span class="sxs-lookup"><span data-stu-id="690a2-271">Metrics for Top From Users</span></span>
+### <a name="metrics-for-top-from-users"></a><span data-ttu-id="ce9c0-271">前幾名發話使用者的計量</span><span class="sxs-lookup"><span data-stu-id="ce9c0-271">Metrics for Top From Users</span></span>
 
 <table>
 <colgroup>
@@ -410,26 +410,26 @@ ms.locfileid: "41765171"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="690a2-272">名稱</span><span class="sxs-lookup"><span data-stu-id="690a2-272">Name</span></span></th>
-<th><span data-ttu-id="690a2-273">您可以針對此專案進行排序嗎？</span><span class="sxs-lookup"><span data-stu-id="690a2-273">Can you sort on this item?</span></span></th>
-<th><span data-ttu-id="690a2-274">說明</span><span class="sxs-lookup"><span data-stu-id="690a2-274">Description</span></span></th>
+<th><span data-ttu-id="ce9c0-272">姓名</span><span class="sxs-lookup"><span data-stu-id="ce9c0-272">Name</span></span></th>
+<th><span data-ttu-id="ce9c0-273">可以排序這個項目嗎？</span><span class="sxs-lookup"><span data-stu-id="ce9c0-273">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="ce9c0-274">描述</span><span class="sxs-lookup"><span data-stu-id="ce9c0-274">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="690a2-275"><strong>排名</strong></span><span class="sxs-lookup"><span data-stu-id="690a2-275"><strong>Rank</strong></span></span></p></td>
-<td><p><span data-ttu-id="690a2-276">否</span><span class="sxs-lookup"><span data-stu-id="690a2-276">No</span></span></p></td>
-<td><p><span data-ttu-id="690a2-277">根據受邀加入會話的使用者，對失敗的會話進行相對等級。</span><span class="sxs-lookup"><span data-stu-id="690a2-277">Relative ranking of failed sessions based on the user who was invited to join the session.</span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-275"><strong>Rank</strong></span><span class="sxs-lookup"><span data-stu-id="ce9c0-275"><strong>Rank</strong></span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-276">否</span><span class="sxs-lookup"><span data-stu-id="ce9c0-276">No</span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-277">依據受邀參加工作階段之使用者的失敗工作階段相對排名。</span><span class="sxs-lookup"><span data-stu-id="ce9c0-277">Relative ranking of failed sessions based on the user who was invited to join the session.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="690a2-278"><strong>使用者頂端</strong></span><span class="sxs-lookup"><span data-stu-id="690a2-278"><strong>Top from users</strong></span></span></p></td>
-<td><p><span data-ttu-id="690a2-279">否</span><span class="sxs-lookup"><span data-stu-id="690a2-279">No</span></span></p></td>
-<td><p><span data-ttu-id="690a2-280">受邀加入會話的使用者 SIP 位址。</span><span class="sxs-lookup"><span data-stu-id="690a2-280">SIP address of the user invited to join the session.</span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-278"><strong>前幾名發話使用者</strong></span><span class="sxs-lookup"><span data-stu-id="ce9c0-278"><strong>Top from users</strong></span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-279">否</span><span class="sxs-lookup"><span data-stu-id="ce9c0-279">No</span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-280">受邀參加工作階段之使用者的 SIP 位址。</span><span class="sxs-lookup"><span data-stu-id="ce9c0-280">SIP address of the user invited to join the session.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="690a2-281"><strong>時段</strong></span><span class="sxs-lookup"><span data-stu-id="690a2-281"><strong>Sessions</strong></span></span></p></td>
-<td><p><span data-ttu-id="690a2-282">否</span><span class="sxs-lookup"><span data-stu-id="690a2-282">No</span></span></p></td>
-<td><p><span data-ttu-id="690a2-283">每個使用者的失敗會話總數。</span><span class="sxs-lookup"><span data-stu-id="690a2-283">Total number of failed sessions per user.</span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-281"><strong>工作階段</strong></span><span class="sxs-lookup"><span data-stu-id="ce9c0-281"><strong>Sessions</strong></span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-282">否</span><span class="sxs-lookup"><span data-stu-id="ce9c0-282">No</span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-283">每位使用者的失敗工作階段總數。</span><span class="sxs-lookup"><span data-stu-id="ce9c0-283">Total number of failed sessions per user.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -439,9 +439,9 @@ ms.locfileid: "41765171"
 
 <div>
 
-## <a name="metrics-for-top-to-users"></a><span data-ttu-id="690a2-284">最上層使用者的度量單位</span><span class="sxs-lookup"><span data-stu-id="690a2-284">Metrics for Top To Users</span></span>
+## <a name="metrics-for-top-to-users"></a><span data-ttu-id="ce9c0-284">前幾名受話使用者的計量</span><span class="sxs-lookup"><span data-stu-id="ce9c0-284">Metrics for Top To Users</span></span>
 
-<span data-ttu-id="690a2-285">下表列出失敗發佈報告所提供的資訊，這些資訊是根據在其他使用者嘗試呼叫它們（稱為「收件者」使用者）時遇到最多失敗的使用者所提供。</span><span class="sxs-lookup"><span data-stu-id="690a2-285">The following table lists the information provided in the Failure Distribution Report based on the users who experienced the most failures when another user tried to call them (known as "To" users).</span></span>
+<span data-ttu-id="ce9c0-285">下表依據最常在其他使用者呼叫他們時發生失敗的使用者 (即所謂的「受話」使用者)，列出失敗散佈報告中提供的資訊。</span><span class="sxs-lookup"><span data-stu-id="ce9c0-285">The following table lists the information provided in the Failure Distribution Report based on the users who experienced the most failures when another user tried to call them (known as "To" users).</span></span>
 
 
 <table>
@@ -452,26 +452,26 @@ ms.locfileid: "41765171"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="690a2-286">名稱</span><span class="sxs-lookup"><span data-stu-id="690a2-286">Name</span></span></th>
-<th><span data-ttu-id="690a2-287">您可以針對此專案進行排序嗎？</span><span class="sxs-lookup"><span data-stu-id="690a2-287">Can you sort on this item?</span></span></th>
-<th><span data-ttu-id="690a2-288">說明</span><span class="sxs-lookup"><span data-stu-id="690a2-288">Description</span></span></th>
+<th><span data-ttu-id="ce9c0-286">姓名</span><span class="sxs-lookup"><span data-stu-id="ce9c0-286">Name</span></span></th>
+<th><span data-ttu-id="ce9c0-287">可以排序這個項目嗎？</span><span class="sxs-lookup"><span data-stu-id="ce9c0-287">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="ce9c0-288">描述</span><span class="sxs-lookup"><span data-stu-id="ce9c0-288">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="690a2-289"><strong>排名</strong></span><span class="sxs-lookup"><span data-stu-id="690a2-289"><strong>Rank</strong></span></span></p></td>
-<td><p><span data-ttu-id="690a2-290">否</span><span class="sxs-lookup"><span data-stu-id="690a2-290">No</span></span></p></td>
-<td><p><span data-ttu-id="690a2-291">根據啟動會話的使用者，失敗會話的相對等級。</span><span class="sxs-lookup"><span data-stu-id="690a2-291">Relative ranking of failed sessions based on the user who initiated the session.</span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-289"><strong>Rank</strong></span><span class="sxs-lookup"><span data-stu-id="ce9c0-289"><strong>Rank</strong></span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-290">否</span><span class="sxs-lookup"><span data-stu-id="ce9c0-290">No</span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-291">依據啟動工作階段之使用者的失敗工作階段相對排名。</span><span class="sxs-lookup"><span data-stu-id="ce9c0-291">Relative ranking of failed sessions based on the user who initiated the session.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="690a2-292"><strong>使用者頂端</strong></span><span class="sxs-lookup"><span data-stu-id="690a2-292"><strong>Top to users</strong></span></span></p></td>
-<td><p><span data-ttu-id="690a2-293">否</span><span class="sxs-lookup"><span data-stu-id="690a2-293">No</span></span></p></td>
-<td><p><span data-ttu-id="690a2-294">啟動會話之使用者的 SIP 位址。</span><span class="sxs-lookup"><span data-stu-id="690a2-294">SIP address of the user who initiated the session.</span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-292"><strong>前幾名受話使用者</strong></span><span class="sxs-lookup"><span data-stu-id="ce9c0-292"><strong>Top to users</strong></span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-293">否</span><span class="sxs-lookup"><span data-stu-id="ce9c0-293">No</span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-294">啟動工作階段之使用者的 SIP 位址。</span><span class="sxs-lookup"><span data-stu-id="ce9c0-294">SIP address of the user who initiated the session.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="690a2-295"><strong>時段</strong></span><span class="sxs-lookup"><span data-stu-id="690a2-295"><strong>Sessions</strong></span></span></p></td>
-<td><p><span data-ttu-id="690a2-296">否</span><span class="sxs-lookup"><span data-stu-id="690a2-296">No</span></span></p></td>
-<td><p><span data-ttu-id="690a2-297">每個使用者的失敗會話總數。</span><span class="sxs-lookup"><span data-stu-id="690a2-297">Total number of failed sessions per user.</span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-295"><strong>工作階段</strong></span><span class="sxs-lookup"><span data-stu-id="ce9c0-295"><strong>Sessions</strong></span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-296">否</span><span class="sxs-lookup"><span data-stu-id="ce9c0-296">No</span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-297">每位使用者的失敗工作階段總數。</span><span class="sxs-lookup"><span data-stu-id="ce9c0-297">Total number of failed sessions per user.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -481,11 +481,11 @@ ms.locfileid: "41765171"
 
 <div>
 
-## <a name="metrics-for-top-user-agents"></a><span data-ttu-id="690a2-298">主要使用者代理程式的度量單位</span><span class="sxs-lookup"><span data-stu-id="690a2-298">Metrics for Top User Agents</span></span>
+## <a name="metrics-for-top-user-agents"></a><span data-ttu-id="ce9c0-298">前幾名使用者代理程式的計量</span><span class="sxs-lookup"><span data-stu-id="ce9c0-298">Metrics for Top User Agents</span></span>
 
-<span data-ttu-id="690a2-299">下表列出根據遇到最多失敗的端點軟體，在失敗發佈報告中提供的資訊。</span><span class="sxs-lookup"><span data-stu-id="690a2-299">The following table lists the information provided in the Failure Distribution Report based on the endpoint software that experienced the most failures.</span></span>
+<span data-ttu-id="ce9c0-299">下表依據最常發生失敗的端點軟體，列出失敗通訊報告中提供的資訊。</span><span class="sxs-lookup"><span data-stu-id="ce9c0-299">The following table lists the information provided in the Failure Distribution Report based on the endpoint software that experienced the most failures.</span></span>
 
-### <a name="metrics-for-top-user-agents"></a><span data-ttu-id="690a2-300">主要使用者代理程式的度量單位</span><span class="sxs-lookup"><span data-stu-id="690a2-300">Metrics for Top User Agents</span></span>
+### <a name="metrics-for-top-user-agents"></a><span data-ttu-id="ce9c0-300">前幾名使用者代理程式的計量</span><span class="sxs-lookup"><span data-stu-id="ce9c0-300">Metrics for Top User Agents</span></span>
 
 <table>
 <colgroup>
@@ -495,26 +495,26 @@ ms.locfileid: "41765171"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="690a2-301">名稱</span><span class="sxs-lookup"><span data-stu-id="690a2-301">Name</span></span></th>
-<th><span data-ttu-id="690a2-302">您可以針對此專案進行排序嗎？</span><span class="sxs-lookup"><span data-stu-id="690a2-302">Can you sort on this item?</span></span></th>
-<th><span data-ttu-id="690a2-303">說明</span><span class="sxs-lookup"><span data-stu-id="690a2-303">Description</span></span></th>
+<th><span data-ttu-id="ce9c0-301">姓名</span><span class="sxs-lookup"><span data-stu-id="ce9c0-301">Name</span></span></th>
+<th><span data-ttu-id="ce9c0-302">可以排序這個項目嗎？</span><span class="sxs-lookup"><span data-stu-id="ce9c0-302">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="ce9c0-303">描述</span><span class="sxs-lookup"><span data-stu-id="ce9c0-303">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="690a2-304"><strong>排名</strong></span><span class="sxs-lookup"><span data-stu-id="690a2-304"><strong>Rank</strong></span></span></p></td>
-<td><p><span data-ttu-id="690a2-305">否</span><span class="sxs-lookup"><span data-stu-id="690a2-305">No</span></span></p></td>
-<td><p><span data-ttu-id="690a2-306">根據會話中所涉及的使用者代理程式（軟體），在失敗的會話中相對排名的依據。</span><span class="sxs-lookup"><span data-stu-id="690a2-306">Relative ranking of failed sessions based on the user agent (software) involved in the session.</span></span> <span data-ttu-id="690a2-307">例如： RTCC/4.0.0.0 入站路由/4.0.0.0。</span><span class="sxs-lookup"><span data-stu-id="690a2-307">For example: RTCC/4.0.0.0 Inbound Routing/4.0.0.0.</span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-304"><strong>Rank</strong></span><span class="sxs-lookup"><span data-stu-id="ce9c0-304"><strong>Rank</strong></span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-305">否</span><span class="sxs-lookup"><span data-stu-id="ce9c0-305">No</span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-p115">依據與工作階段相關之使用者代理程式 (軟體) 的失敗工作階段相對排名。例如：RTCC/4.0.0.0 輸入路由/4.0.0.0。</span><span class="sxs-lookup"><span data-stu-id="ce9c0-p115">Relative ranking of failed sessions based on the user agent (software) involved in the session. For example: RTCC/4.0.0.0 Inbound Routing/4.0.0.0.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="690a2-308"><strong>最上層的使用者代理程式</strong></span><span class="sxs-lookup"><span data-stu-id="690a2-308"><strong>Top user agents</strong></span></span></p></td>
-<td><p><span data-ttu-id="690a2-309">否</span><span class="sxs-lookup"><span data-stu-id="690a2-309">No</span></span></p></td>
-<td><p><span data-ttu-id="690a2-310">失敗會話中所涉及之使用者代理程式的名稱。</span><span class="sxs-lookup"><span data-stu-id="690a2-310">Name of the user agent involved in the failed session.</span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-308"><strong>前幾名使用者代理程式</strong></span><span class="sxs-lookup"><span data-stu-id="ce9c0-308"><strong>Top user agents</strong></span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-309">否</span><span class="sxs-lookup"><span data-stu-id="ce9c0-309">No</span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-310">與失敗工作階段相關的使用者代理程式名稱。</span><span class="sxs-lookup"><span data-stu-id="ce9c0-310">Name of the user agent involved in the failed session.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="690a2-311"><strong>時段</strong></span><span class="sxs-lookup"><span data-stu-id="690a2-311"><strong>Sessions</strong></span></span></p></td>
-<td><p><span data-ttu-id="690a2-312">否</span><span class="sxs-lookup"><span data-stu-id="690a2-312">No</span></span></p></td>
-<td><p><span data-ttu-id="690a2-313">每個使用者代理程式失敗的會話總數。</span><span class="sxs-lookup"><span data-stu-id="690a2-313">Total number of failed sessions per user agent.</span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-311"><strong>工作階段</strong></span><span class="sxs-lookup"><span data-stu-id="ce9c0-311"><strong>Sessions</strong></span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-312">否</span><span class="sxs-lookup"><span data-stu-id="ce9c0-312">No</span></span></p></td>
+<td><p><span data-ttu-id="ce9c0-313">每個使用者代理程式的失敗工作階段總數。</span><span class="sxs-lookup"><span data-stu-id="ce9c0-313">Total number of failed sessions per user agent.</span></span></p></td>
 </tr>
 </tbody>
 </table>

@@ -1,5 +1,5 @@
 ---
-title: CsAddressBookConfiguration 網址簿管理的 [移除]
+title: 移除 CsAddressBookConfiguration 適用於通訊錄管理
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184258
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de016366fe888a159a449f7840a0f6dca03c7075
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d87010bc17fb400edb861c8e6ea55a40ad50c7fd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724253"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048724"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="remove-csaddressbookconfiguration-for-address-book-management-in-lync-server-2013"></a><span data-ttu-id="a846c-102">在 Lync Server 2013 中移除通訊錄管理的 CsAddressBookConfiguration</span><span class="sxs-lookup"><span data-stu-id="a846c-102">Remove-CsAddressBookConfiguration for Address Book management in Lync Server 2013</span></span>
+# <a name="remove-csaddressbookconfiguration-for-address-book-management-in-lync-server-2013"></a><span data-ttu-id="e02c4-102">移除 CsAddressBookConfiguration 適用於 Lync Server 2013 中的 Address Book 管理</span><span class="sxs-lookup"><span data-stu-id="e02c4-102">Remove-CsAddressBookConfiguration for Address Book management in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,24 +35,24 @@ ms.locfileid: "41724253"
 
 <span> </span>
 
-<span data-ttu-id="a846c-103">_**主題上次修改日期：** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="a846c-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="e02c4-103">_**主題上次修改日期：** 2012年-11-01_</span><span class="sxs-lookup"><span data-stu-id="e02c4-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="a846c-104">誰可以執行這個 Cmdlet：根據預設，下列群組的成員有權在本機執行移除 CsAddressBookConfiguration Cmdlet： RTCUniversalServerAdmins。</span><span class="sxs-lookup"><span data-stu-id="a846c-104">Who can run this cmdlet: By default, members of the following groups are authorized to run the Remove-CsAddressBookConfiguration cmdlet locally: RTCUniversalServerAdmins.</span></span> <span data-ttu-id="a846c-105">若要傳回已指派這個 Cmdlet 的所有角色式存取控制（RBAC）角色的清單（包括您自行建立的任何自訂 RBAC 角色），請在 Windows PowerShell 提示中執行下列命令：</span><span class="sxs-lookup"><span data-stu-id="a846c-105">To return a list of all the role-based access control (RBAC) roles this cmdlet has been assigned to (including any custom RBAC roles you have created yourself), run the following command from the Windows PowerShell prompt:</span></span>
+<span data-ttu-id="e02c4-p101">誰可以執行這個 Cmdlet：根據預設，會授權下列群組的成員在本機執行 Remove-CsAddressBookConfiguration Cmdlet：RTCUniversalServerAdmins。若要傳回指派給該 Cmdlet 的所有角色型存取控制 (RBAC) 角色清單 (包括您自己建立的任何自訂 RBAC 角色)，請在 Windows PowerShell 提示中輸入下列命令：</span><span class="sxs-lookup"><span data-stu-id="e02c4-p101">Who can run this cmdlet: By default, members of the following groups are authorized to run the Remove-CsAddressBookConfiguration cmdlet locally: RTCUniversalServerAdmins. To return a list of all the role-based access control (RBAC) roles this cmdlet has been assigned to (including any custom RBAC roles you have created yourself), run the following command from the Windows PowerShell prompt:</span></span>
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Remove-CsAddressBookConfiguration"}
 
-<span data-ttu-id="a846c-106">如名稱所示，Remove-CsAddressBookConfiguration 會根據定義的網站身分識別來移除設定。</span><span class="sxs-lookup"><span data-stu-id="a846c-106">As the name implies, Remove-CsAddressBookConfiguration will remove the configuration based on the defined Site Identity.</span></span>
+<span data-ttu-id="e02c4-106">Remove-CsAddressBookConfiguration 會名符其實地依據定義的 Site Identity 移除組態。</span><span class="sxs-lookup"><span data-stu-id="e02c4-106">As the name implies, Remove-CsAddressBookConfiguration will remove the configuration based on the defined Site Identity.</span></span>
 
-<span data-ttu-id="a846c-107">例如：</span><span class="sxs-lookup"><span data-stu-id="a846c-107">For example:</span></span>
+<span data-ttu-id="e02c4-107">例如：</span><span class="sxs-lookup"><span data-stu-id="e02c4-107">For example:</span></span>
 
     Remove-CsAddressBookConfiguration -Identity site:Redmond
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="a846c-108">請參閱</span><span class="sxs-lookup"><span data-stu-id="a846c-108">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e02c4-108">請參閱</span><span class="sxs-lookup"><span data-stu-id="e02c4-108">See Also</span></span>
 
 
-<span data-ttu-id="a846c-109">[移除-CsAddressBookConfiguration](https://technet.microsoft.com/en-us/library/Gg398934(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a846c-109">[Remove-CsAddressBookConfiguration](https://technet.microsoft.com/en-us/library/Gg398934(v=OCS.15))</span></span>  
+<span data-ttu-id="e02c4-109">[Remove-csaddressbookconfiguration](https://technet.microsoft.com/library/Gg398934(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e02c4-109">[Remove-CsAddressBookConfiguration](https://technet.microsoft.com/library/Gg398934(v=OCS.15))</span></span>  
   
 
 </div>

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：連接埠摘要 - DNS 與 HLB 負載平衡
+title: Lync Server 2013： 連接埠摘要-DNS 與 HLB 負載平衡
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185149
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eb594057977fbe39f6be6a9a9c678806d7e2d8dc
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a4c691bfeb6017777441002b3248621f5408665f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747603"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050555"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="port-summary---dns-and-hlb-load-balanced-in-lync-server-2013"></a><span data-ttu-id="76819-102">Lync Server 2013 中的連接埠摘要 - DNS 與 HLB 負載平衡</span><span class="sxs-lookup"><span data-stu-id="76819-102">Port summary - DNS and HLB load balanced in Lync Server 2013</span></span>
+# <a name="port-summary---dns-and-hlb-load-balanced-in-lync-server-2013"></a><span data-ttu-id="5b8e7-102">Lync Server 2013 中的連接埠摘要-DNS 與 HLB 負載平衡</span><span class="sxs-lookup"><span data-stu-id="5b8e7-102">Port summary - DNS and HLB load balanced in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41747603"
 
 <span> </span>
 
-<span data-ttu-id="76819-103">_**主題上次修改日期：** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="76819-103">_**Topic Last Modified:** 2012-10-22_</span></span>
+<span data-ttu-id="5b8e7-103">_**主題上次修改日期：** 2012年-10-22_</span><span class="sxs-lookup"><span data-stu-id="5b8e7-103">_**Topic Last Modified:** 2012-10-22_</span></span>
 
-<span data-ttu-id="76819-104">單一控制器的防火牆埠需求是由用來從內部介面或反向 proxy 的內部介面網路與主管建立通訊的埠。</span><span class="sxs-lookup"><span data-stu-id="76819-104">Firewall port requirements for a single Director consist of the ports that are used to establish communication with the Director from the internal interface or internal-facing network of the reverse proxy.</span></span> <span data-ttu-id="76819-105">Microsoft Lync Server 2013 預設會要求將埠 HTTP/TCP 8080 和 HTTPS/TCP 4443 從反向 proxy 開啟至控制器，以及前端池和前端伺服器。</span><span class="sxs-lookup"><span data-stu-id="76819-105">Microsoft Lync Server 2013 by default expects ports HTTP/TCP 8080 and HTTPS/TCP 4443 to be open from the reverse proxy to the Director, as well as the Front End pool and Front End Server.</span></span> <span data-ttu-id="76819-106">此外，您必須從 Edge 伺服器內部介面將會話初始通訊協定（SIP）與主管及前端池和前端伺服器進行通訊。</span><span class="sxs-lookup"><span data-stu-id="76819-106">Additionally, there must be session initiation protocol (SIP) communication from the Edge Server internal interface to the Director and to the Front End pool and Front End Server.</span></span> <span data-ttu-id="76819-107">SIP 通訊協定會將 SIP/MTLS/TCP 5061 從 Edge 伺服器使用到前端池和前端伺服器。</span><span class="sxs-lookup"><span data-stu-id="76819-107">The SIP protocol uses SIP/MTLS/TCP 5061 from the Edge Server to the Front End pool and Front End Server.</span></span> <span data-ttu-id="76819-108">您也必須建立一個規則，讓來自 Director、前端池和前端伺服器的 SIP/MTLS/TCP 5061 通訊也必須建立。</span><span class="sxs-lookup"><span data-stu-id="76819-108">A rule that allows SIP/MTLS/TCP 5061 communication from the Director, Front End pool and Front End Server to the Edge Server internal interface must be created as well.</span></span>
+<span data-ttu-id="5b8e7-104">單一 Director 的防火牆連接埠需求是由用來建立從內部介面或反向 proxy 內部面向網路 Director 與通訊的連接埠所組成。</span><span class="sxs-lookup"><span data-stu-id="5b8e7-104">Firewall port requirements for a single Director consist of the ports that are used to establish communication with the Director from the internal interface or internal-facing network of the reverse proxy.</span></span> <span data-ttu-id="5b8e7-105">預設的 Microsoft Lync Server 2013 所預期的 HTTP/TCP 8080 和 HTTPS/TCP 4443 指向 Director，開啟從反向 proxy 的連接埠以及前端集區與前端伺服器。</span><span class="sxs-lookup"><span data-stu-id="5b8e7-105">Microsoft Lync Server 2013 by default expects ports HTTP/TCP 8080 and HTTPS/TCP 4443 to be open from the reverse proxy to the Director, as well as the Front End pool and Front End Server.</span></span> <span data-ttu-id="5b8e7-106">此外，必須是工作階段初始通訊協定 (SIP) 通訊的 Edge Server 內部介面從指向 Director 與前端集區和前端伺服器。</span><span class="sxs-lookup"><span data-stu-id="5b8e7-106">Additionally, there must be session initiation protocol (SIP) communication from the Edge Server internal interface to the Director and to the Front End pool and Front End Server.</span></span> <span data-ttu-id="5b8e7-107">SIP 通訊協定使用 SIP/MTLS/TCP 5061 從 Edge Server 至前端集區與前端伺服器。</span><span class="sxs-lookup"><span data-stu-id="5b8e7-107">The SIP protocol uses SIP/MTLS/TCP 5061 from the Edge Server to the Front End pool and Front End Server.</span></span> <span data-ttu-id="5b8e7-108">也必須建立允許 SIP/MTLS/TCP 5061 通訊來自 Director、 前端集區與前端伺服器到 Edge Server 內部介面的規則。</span><span class="sxs-lookup"><span data-stu-id="5b8e7-108">A rule that allows SIP/MTLS/TCP 5061 communication from the Director, Front End pool and Front End Server to the Edge Server internal interface must be created as well.</span></span>
 
-### <a name="single-director-ports-and-protocols-for-firewall-definitions"></a><span data-ttu-id="76819-109">針對防火牆定義的單一控制器埠和通訊協定</span><span class="sxs-lookup"><span data-stu-id="76819-109">Single Director Ports and Protocols for Firewall Definitions</span></span>
+### <a name="single-director-ports-and-protocols-for-firewall-definitions"></a><span data-ttu-id="5b8e7-109">單一 Director 連接埠和防火牆定義的通訊協定</span><span class="sxs-lookup"><span data-stu-id="5b8e7-109">Single Director Ports and Protocols for Firewall Definitions</span></span>
 
 <table>
 <colgroup>
@@ -50,66 +50,66 @@ ms.locfileid: "41747603"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="76819-110">角色/通訊協定/TCP 或 UDP/埠</span><span class="sxs-lookup"><span data-stu-id="76819-110">Role/Protocol/TCP or UDP/Port</span></span></th>
-<th><span data-ttu-id="76819-111">來源 IP 位址</span><span class="sxs-lookup"><span data-stu-id="76819-111">Source IP address</span></span></th>
-<th><span data-ttu-id="76819-112">目的地 IP 位址</span><span class="sxs-lookup"><span data-stu-id="76819-112">Destination IP address</span></span></th>
-<th><span data-ttu-id="76819-113">筆記</span><span class="sxs-lookup"><span data-stu-id="76819-113">Notes</span></span></th>
+<th><span data-ttu-id="5b8e7-110">角色/通訊協定/TCP 或 UDP/連接埠</span><span class="sxs-lookup"><span data-stu-id="5b8e7-110">Role/Protocol/TCP or UDP/Port</span></span></th>
+<th><span data-ttu-id="5b8e7-111">來源 IP 位址</span><span class="sxs-lookup"><span data-stu-id="5b8e7-111">Source IP address</span></span></th>
+<th><span data-ttu-id="5b8e7-112">目的地 IP 位址</span><span class="sxs-lookup"><span data-stu-id="5b8e7-112">Destination IP address</span></span></th>
+<th><span data-ttu-id="5b8e7-113">附註</span><span class="sxs-lookup"><span data-stu-id="5b8e7-113">Notes</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="76819-114">HTTP/TCP 8080</span><span class="sxs-lookup"><span data-stu-id="76819-114">HTTP/TCP 8080</span></span></p></td>
-<td><p><span data-ttu-id="76819-115">反向 proxy 內部介面</span><span class="sxs-lookup"><span data-stu-id="76819-115">Reverse proxy internal interface</span></span></p></td>
-<td><p><span data-ttu-id="76819-116">控制器硬體負載平衡器 VIP</span><span class="sxs-lookup"><span data-stu-id="76819-116">Director Hardware Load Balancer VIP</span></span></p></td>
-<td><p><span data-ttu-id="76819-117">從反向 proxy 的外部端開始，通訊會傳送到控制器 HLB VIP 和前端伺服器 web 服務。</span><span class="sxs-lookup"><span data-stu-id="76819-117">Initially received by the external side of the reverse proxy, the communication is sent on to the Director HLB VIP and Front End Server web services.</span></span></p></td>
+<td><p><span data-ttu-id="5b8e7-114">HTTP/TCP 8080</span><span class="sxs-lookup"><span data-stu-id="5b8e7-114">HTTP/TCP 8080</span></span></p></td>
+<td><p><span data-ttu-id="5b8e7-115">反向 Proxy 內部介面</span><span class="sxs-lookup"><span data-stu-id="5b8e7-115">Reverse proxy internal interface</span></span></p></td>
+<td><p><span data-ttu-id="5b8e7-116">Director 的硬體負載平衡器 VIP</span><span class="sxs-lookup"><span data-stu-id="5b8e7-116">Director Hardware Load Balancer VIP</span></span></p></td>
+<td><p><span data-ttu-id="5b8e7-117">先由反向 proxy 的外部端接收，通訊會傳送至 Director HLB VIP 與前端伺服器 web 服務。</span><span class="sxs-lookup"><span data-stu-id="5b8e7-117">Initially received by the external side of the reverse proxy, the communication is sent on to the Director HLB VIP and Front End Server web services.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="76819-118">HTTPS/TCP 4443</span><span class="sxs-lookup"><span data-stu-id="76819-118">HTTPS/TCP 4443</span></span></p></td>
-<td><p><span data-ttu-id="76819-119">反向 proxy 內部介面</span><span class="sxs-lookup"><span data-stu-id="76819-119">Reverse proxy internal interface</span></span></p></td>
-<td><p><span data-ttu-id="76819-120">控制器硬體負載平衡器 VIP</span><span class="sxs-lookup"><span data-stu-id="76819-120">Director Hardware Load Balancer VIP</span></span></p></td>
-<td><p><span data-ttu-id="76819-121">從反向 proxy 的外部端開始，通訊會傳送到控制器 HLB VIP 和前端伺服器 web 服務。</span><span class="sxs-lookup"><span data-stu-id="76819-121">Initially received by the external side of the reverse proxy, the communication is sent on to the Director HLB VIP and Front End Server web services.</span></span></p></td>
+<td><p><span data-ttu-id="5b8e7-118">HTTPS/TCP 4443</span><span class="sxs-lookup"><span data-stu-id="5b8e7-118">HTTPS/TCP 4443</span></span></p></td>
+<td><p><span data-ttu-id="5b8e7-119">反向 Proxy 內部介面</span><span class="sxs-lookup"><span data-stu-id="5b8e7-119">Reverse proxy internal interface</span></span></p></td>
+<td><p><span data-ttu-id="5b8e7-120">Director 的硬體負載平衡器 VIP</span><span class="sxs-lookup"><span data-stu-id="5b8e7-120">Director Hardware Load Balancer VIP</span></span></p></td>
+<td><p><span data-ttu-id="5b8e7-121">先由反向 proxy 的外部端接收，通訊會傳送至 Director HLB VIP 與前端伺服器 web 服務。</span><span class="sxs-lookup"><span data-stu-id="5b8e7-121">Initially received by the external side of the reverse proxy, the communication is sent on to the Director HLB VIP and Front End Server web services.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="76819-122">HTTPS/TCP 444</span><span class="sxs-lookup"><span data-stu-id="76819-122">HTTPS/TCP 444</span></span></p></td>
-<td><p><span data-ttu-id="76819-123">Director</span><span class="sxs-lookup"><span data-stu-id="76819-123">Director</span></span></p></td>
-<td><p><span data-ttu-id="76819-124">前端池或前端伺服器</span><span class="sxs-lookup"><span data-stu-id="76819-124">Front End pool or Front End Server</span></span></p></td>
-<td><p><span data-ttu-id="76819-125">控制器 HLB VIP 與前端伺服器或前端伺服器之間的伺服器間通訊。</span><span class="sxs-lookup"><span data-stu-id="76819-125">Inter-server communication between the Director HLB VIP and the Front End Server or Front End Servers.</span></span></p></td>
+<td><p><span data-ttu-id="5b8e7-122">HTTPS/TCP 444</span><span class="sxs-lookup"><span data-stu-id="5b8e7-122">HTTPS/TCP 444</span></span></p></td>
+<td><p><span data-ttu-id="5b8e7-123">Director</span><span class="sxs-lookup"><span data-stu-id="5b8e7-123">Director</span></span></p></td>
+<td><p><span data-ttu-id="5b8e7-124">前端集區或前端伺服器</span><span class="sxs-lookup"><span data-stu-id="5b8e7-124">Front End pool or Front End Server</span></span></p></td>
+<td><p><span data-ttu-id="5b8e7-125">Director HLB VIP 與前端伺服器或前端伺服器之間的伺服器間通訊。</span><span class="sxs-lookup"><span data-stu-id="5b8e7-125">Inter-server communication between the Director HLB VIP and the Front End Server or Front End Servers.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="76819-126">HTTP/TCP 80</span><span class="sxs-lookup"><span data-stu-id="76819-126">HTTP/TCP 80</span></span></p></td>
-<td><p><span data-ttu-id="76819-127">內部用戶端</span><span class="sxs-lookup"><span data-stu-id="76819-127">Internal Clients</span></span></p></td>
-<td><p><span data-ttu-id="76819-128">控制器硬體負載平衡器 VIP</span><span class="sxs-lookup"><span data-stu-id="76819-128">Director Hardware Load Balancer VIP</span></span></p></td>
-<td><p><span data-ttu-id="76819-129">控制器為內部和外部用戶端提供 web 服務。</span><span class="sxs-lookup"><span data-stu-id="76819-129">The Director provides web services to internal as well as external clients.</span></span></p></td>
+<td><p><span data-ttu-id="5b8e7-126">HTTP/TCP 80</span><span class="sxs-lookup"><span data-stu-id="5b8e7-126">HTTP/TCP 80</span></span></p></td>
+<td><p><span data-ttu-id="5b8e7-127">內部用戶端</span><span class="sxs-lookup"><span data-stu-id="5b8e7-127">Internal Clients</span></span></p></td>
+<td><p><span data-ttu-id="5b8e7-128">Director 的硬體負載平衡器 VIP</span><span class="sxs-lookup"><span data-stu-id="5b8e7-128">Director Hardware Load Balancer VIP</span></span></p></td>
+<td><p><span data-ttu-id="5b8e7-129">Director 內部以及外部用戶端提供 web 服務。</span><span class="sxs-lookup"><span data-stu-id="5b8e7-129">The Director provides web services to internal as well as external clients.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="76819-130">HTTPS/TCP 443</span><span class="sxs-lookup"><span data-stu-id="76819-130">HTTPS/TCP 443</span></span></p></td>
-<td><p><span data-ttu-id="76819-131">內部用戶端</span><span class="sxs-lookup"><span data-stu-id="76819-131">Internal Clients</span></span></p></td>
-<td><p><span data-ttu-id="76819-132">控制器硬體負載平衡器 VIP</span><span class="sxs-lookup"><span data-stu-id="76819-132">Director Hardware Load Balancer VIP</span></span></p></td>
-<td><p><span data-ttu-id="76819-133">控制器為內部和外部用戶端提供 web 服務。</span><span class="sxs-lookup"><span data-stu-id="76819-133">The Director provides web services to internal as well as external clients.</span></span></p></td>
+<td><p><span data-ttu-id="5b8e7-130">HTTPS/TCP 443</span><span class="sxs-lookup"><span data-stu-id="5b8e7-130">HTTPS/TCP 443</span></span></p></td>
+<td><p><span data-ttu-id="5b8e7-131">內部用戶端</span><span class="sxs-lookup"><span data-stu-id="5b8e7-131">Internal Clients</span></span></p></td>
+<td><p><span data-ttu-id="5b8e7-132">Director 的硬體負載平衡器 VIP</span><span class="sxs-lookup"><span data-stu-id="5b8e7-132">Director Hardware Load Balancer VIP</span></span></p></td>
+<td><p><span data-ttu-id="5b8e7-133">Director 內部以及外部用戶端提供 web 服務。</span><span class="sxs-lookup"><span data-stu-id="5b8e7-133">The Director provides web services to internal as well as external clients.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="76819-134">SIP/MTLS/TCP 5061</span><span class="sxs-lookup"><span data-stu-id="76819-134">SIP/MTLS/TCP 5061</span></span></p></td>
-<td><p><span data-ttu-id="76819-135">Edge 伺服器內部介面</span><span class="sxs-lookup"><span data-stu-id="76819-135">Edge Server internal interface</span></span></p></td>
-<td><p><span data-ttu-id="76819-136">Director</span><span class="sxs-lookup"><span data-stu-id="76819-136">Director</span></span></p></td>
-<td><p><span data-ttu-id="76819-137">從邊緣伺服器到控制器的 SIP 通訊，以及前端伺服器。</span><span class="sxs-lookup"><span data-stu-id="76819-137">SIP communication from the Edge Server to the Director, as well as the Front End Servers.</span></span></p></td>
+<td><p><span data-ttu-id="5b8e7-134">SIP/MTLS/TCP 5061</span><span class="sxs-lookup"><span data-stu-id="5b8e7-134">SIP/MTLS/TCP 5061</span></span></p></td>
+<td><p><span data-ttu-id="5b8e7-135">Edge Server 內部介面</span><span class="sxs-lookup"><span data-stu-id="5b8e7-135">Edge Server internal interface</span></span></p></td>
+<td><p><span data-ttu-id="5b8e7-136">Director</span><span class="sxs-lookup"><span data-stu-id="5b8e7-136">Director</span></span></p></td>
+<td><p><span data-ttu-id="5b8e7-137">從 SIP 通訊 Edge Server Director，以及前端伺服器。</span><span class="sxs-lookup"><span data-stu-id="5b8e7-137">SIP communication from the Edge Server to the Director, as well as the Front End Servers.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="76819-138">MTLS/TCP/50001</span><span class="sxs-lookup"><span data-stu-id="76819-138">MTLS/TCP/50001</span></span></p></td>
-<td><p><span data-ttu-id="76819-139">每</span><span class="sxs-lookup"><span data-stu-id="76819-139">Any</span></span></p></td>
-<td><p><span data-ttu-id="76819-140">Director</span><span class="sxs-lookup"><span data-stu-id="76819-140">Director</span></span></p></td>
-<td><p><span data-ttu-id="76819-141">集中式記錄服務控制器（ClsController）或 agent （ClsAgent）命令及記錄集合</span><span class="sxs-lookup"><span data-stu-id="76819-141">Centralized Logging Service controller (ClsController.exe) or agent (ClsAgent.exe)commands and log collection</span></span></p></td>
+<td><p><span data-ttu-id="5b8e7-138">MTLS/TCP/50001</span><span class="sxs-lookup"><span data-stu-id="5b8e7-138">MTLS/TCP/50001</span></span></p></td>
+<td><p><span data-ttu-id="5b8e7-139">任何</span><span class="sxs-lookup"><span data-stu-id="5b8e7-139">Any</span></span></p></td>
+<td><p><span data-ttu-id="5b8e7-140">Director</span><span class="sxs-lookup"><span data-stu-id="5b8e7-140">Director</span></span></p></td>
+<td><p><span data-ttu-id="5b8e7-141">Centralized Logging Service 控制器 (ClsController.exe) 或代理程式 （ClsAgent.exe)commands 和記錄檔收集</span><span class="sxs-lookup"><span data-stu-id="5b8e7-141">Centralized Logging Service controller (ClsController.exe) or agent (ClsAgent.exe)commands and log collection</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="76819-142">MTLS/TCP/50002</span><span class="sxs-lookup"><span data-stu-id="76819-142">MTLS/TCP/50002</span></span></p></td>
-<td><p><span data-ttu-id="76819-143">每</span><span class="sxs-lookup"><span data-stu-id="76819-143">Any</span></span></p></td>
-<td><p><span data-ttu-id="76819-144">Director</span><span class="sxs-lookup"><span data-stu-id="76819-144">Director</span></span></p></td>
-<td><p><span data-ttu-id="76819-145">集中式記錄服務控制器（ClsController）或 agent （ClsAgent）命令及記錄集合</span><span class="sxs-lookup"><span data-stu-id="76819-145">Centralized Logging Service controller (ClsController.exe) or agent (ClsAgent.exe)commands and log collection</span></span></p></td>
+<td><p><span data-ttu-id="5b8e7-142">MTLS/TCP/50002</span><span class="sxs-lookup"><span data-stu-id="5b8e7-142">MTLS/TCP/50002</span></span></p></td>
+<td><p><span data-ttu-id="5b8e7-143">任何</span><span class="sxs-lookup"><span data-stu-id="5b8e7-143">Any</span></span></p></td>
+<td><p><span data-ttu-id="5b8e7-144">Director</span><span class="sxs-lookup"><span data-stu-id="5b8e7-144">Director</span></span></p></td>
+<td><p><span data-ttu-id="5b8e7-145">Centralized Logging Service 控制器 (ClsController.exe) 或代理程式 （ClsAgent.exe)commands 和記錄檔收集</span><span class="sxs-lookup"><span data-stu-id="5b8e7-145">Centralized Logging Service controller (ClsController.exe) or agent (ClsAgent.exe)commands and log collection</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="76819-146">MTLS/TCP/50003</span><span class="sxs-lookup"><span data-stu-id="76819-146">MTLS/TCP/50003</span></span></p></td>
-<td><p><span data-ttu-id="76819-147">每</span><span class="sxs-lookup"><span data-stu-id="76819-147">Any</span></span></p></td>
-<td><p><span data-ttu-id="76819-148">Director</span><span class="sxs-lookup"><span data-stu-id="76819-148">Director</span></span></p></td>
-<td><p><span data-ttu-id="76819-149">集中式記錄服務控制器（ClsController）或 agent （ClsAgent）命令及記錄集合</span><span class="sxs-lookup"><span data-stu-id="76819-149">Centralized Logging Service controller (ClsController.exe) or agent (ClsAgent.exe)commands and log collection</span></span></p></td>
+<td><p><span data-ttu-id="5b8e7-146">MTLS/TCP/50003</span><span class="sxs-lookup"><span data-stu-id="5b8e7-146">MTLS/TCP/50003</span></span></p></td>
+<td><p><span data-ttu-id="5b8e7-147">任何</span><span class="sxs-lookup"><span data-stu-id="5b8e7-147">Any</span></span></p></td>
+<td><p><span data-ttu-id="5b8e7-148">Director</span><span class="sxs-lookup"><span data-stu-id="5b8e7-148">Director</span></span></p></td>
+<td><p><span data-ttu-id="5b8e7-149">Centralized Logging Service 控制器 (ClsController.exe) 或代理程式 （ClsAgent.exe)commands 和記錄檔收集</span><span class="sxs-lookup"><span data-stu-id="5b8e7-149">Centralized Logging Service controller (ClsController.exe) or agent (ClsAgent.exe)commands and log collection</span></span></p></td>
 </tr>
 </tbody>
 </table>

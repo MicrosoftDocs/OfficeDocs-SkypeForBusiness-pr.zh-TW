@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：適用于會議的位置路由概覽
+title: 電話撥入會議的位置型路由的 Lync Server 2013： 概觀
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 56335084
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: adb103d1f2314e033d9ef0958dd05a7648012bde
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 28ca4ea233f783271c91490aa0550bc2344bdaad
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755517"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051025"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-location-based-routing-for-conferencing-in-lync-server-2013"></a><span data-ttu-id="73c15-102">在 Lync Server 2013 中針對會議位置路由的概覽</span><span class="sxs-lookup"><span data-stu-id="73c15-102">Overview of Location-Based Routing for conferencing in Lync Server 2013</span></span>
+# <a name="overview-of-location-based-routing-for-conferencing-in-lync-server-2013"></a><span data-ttu-id="1b2c5-102">Lync Server 2013 中的會議位置型路由的概觀</span><span class="sxs-lookup"><span data-stu-id="1b2c5-102">Overview of Location-Based Routing for conferencing in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "41755517"
 
 <span> </span>
 
-<span data-ttu-id="73c15-103">_**主題上次修改日期：** 2013-07-19_</span><span class="sxs-lookup"><span data-stu-id="73c15-103">_**Topic Last Modified:** 2013-07-19_</span></span>
+<span data-ttu-id="1b2c5-103">_**上次修改主題：** 2013年-07-19_</span><span class="sxs-lookup"><span data-stu-id="1b2c5-103">_**Topic Last Modified:** 2013-07-19_</span></span>
 
-<span data-ttu-id="73c15-104">以位置為基礎的路由會議應用程式為 Lync 會議提供防範 PSTN 免付費旁路的機制。</span><span class="sxs-lookup"><span data-stu-id="73c15-104">The Location-Based Routing Conferencing application provides to Lync Conferences a mechanism for the prevention of PSTN toll bypass.</span></span> <span data-ttu-id="73c15-105">應用程式會監視作用中的會議，並根據參與的 Lync 使用者的位置強制執行以位置為基礎的路由限制。</span><span class="sxs-lookup"><span data-stu-id="73c15-105">The application monitors active conferences and enforces Location-Based Routing restrictions based on the location of the Lync users participating.</span></span>
+<span data-ttu-id="1b2c5-104">位置型路由會議應用程式提供 Lync 會議的 PSTN 通話費防護機制略過。</span><span class="sxs-lookup"><span data-stu-id="1b2c5-104">The Location-Based Routing Conferencing application provides to Lync Conferences a mechanism for the prevention of PSTN toll bypass.</span></span> <span data-ttu-id="1b2c5-105">應用程式監視作用中的會議，並強制執行的位置型路由限制根據參與 Lync 使用者的位置。</span><span class="sxs-lookup"><span data-stu-id="1b2c5-105">The application monitors active conferences and enforces Location-Based Routing restrictions based on the location of the Lync users participating.</span></span>
 
-<span data-ttu-id="73c15-106">如果符合下列條件，則以位置為基礎的路由會議應用程式會決定是否要在 Lync 會議上強制執行基於位置的路由：</span><span class="sxs-lookup"><span data-stu-id="73c15-106">The Location-Based Routing Conferencing application determines whether Location-Based Routing is to be enforced on a Lync meeting if the following criteria are met:</span></span>
+<span data-ttu-id="1b2c5-106">位置型路由會議應用程式會決定是否是如果符合下列準則，則會強制執行 Lync 會議位置型的路由：</span><span class="sxs-lookup"><span data-stu-id="1b2c5-106">The Location-Based Routing Conferencing application determines whether Location-Based Routing is to be enforced on a Lync meeting if the following criteria are met:</span></span>
 
-  - <span data-ttu-id="73c15-107">會議召集人已啟用位置路由。</span><span class="sxs-lookup"><span data-stu-id="73c15-107">The meeting organizer is enabled for Location-Based Routing.</span></span> <span data-ttu-id="73c15-108">以位置為基礎的路由限制將只會套用至啟用位置式路由的使用者所組織的會議。</span><span class="sxs-lookup"><span data-stu-id="73c15-108">Location-Based Routing restrictions will be applied only to conferences that are organized by users who are enabled for Location-Based Routing.</span></span>
+  - <span data-ttu-id="1b2c5-107">會議召集人會啟用位置型的路由。</span><span class="sxs-lookup"><span data-stu-id="1b2c5-107">The meeting organizer is enabled for Location-Based Routing.</span></span> <span data-ttu-id="1b2c5-108">位置型路由限制將會是只套用至由位置型路由已啟用的使用者安排的會議。</span><span class="sxs-lookup"><span data-stu-id="1b2c5-108">Location-Based Routing restrictions will be applied only to conferences that are organized by users who are enabled for Location-Based Routing.</span></span>
 
-  - <span data-ttu-id="73c15-109">至少有一個會議參與者是 PSTN 端點。</span><span class="sxs-lookup"><span data-stu-id="73c15-109">At least one meeting participant is a PSTN endpoint.</span></span> <span data-ttu-id="73c15-110">以位置為基礎的路由限制只適用于包含 PSTN 端點的會議。</span><span class="sxs-lookup"><span data-stu-id="73c15-110">Location-Based Routing restrictions are applicable only for conferences that include PSTN endpoints.</span></span>
+  - <span data-ttu-id="1b2c5-109">至少一位會議參與者是 PSTN 端點。</span><span class="sxs-lookup"><span data-stu-id="1b2c5-109">At least one meeting participant is a PSTN endpoint.</span></span> <span data-ttu-id="1b2c5-110">位置型路由限制將僅適用於包含 PSTN 端點的會議。</span><span class="sxs-lookup"><span data-stu-id="1b2c5-110">Location-Based Routing restrictions are applicable only for conferences that include PSTN endpoints.</span></span>
 
-  - <span data-ttu-id="73c15-111">PSTN 閘道用來將會議橋接至 PSTN 的網路網站，以及召集人與參與者的連線位置所在的網路網站。</span><span class="sxs-lookup"><span data-stu-id="73c15-111">The network site where the PSTN gateway used to bridge the conference to the PSTN is located as well as the network sites where the organizers and participants are connecting from.</span></span>
+  - <span data-ttu-id="1b2c5-111">用來橋接至 PSTN 會議的 PSTN 閘道的所在位置以及從何處網際網路連接參與者與召集人的網路站台的網路網站。</span><span class="sxs-lookup"><span data-stu-id="1b2c5-111">The network site where the PSTN gateway used to bridge the conference to the PSTN is located as well as the network sites where the organizers and participants are connecting from.</span></span>
 
-<span data-ttu-id="73c15-112">[以位置為基礎的路由會議] 應用程式可防止 Lync 使用者和 PSTN 端點從不同的網路網站加入相同的會議。</span><span class="sxs-lookup"><span data-stu-id="73c15-112">The Location-Based Routing Conferencing application prevents the participation of Lync users and PSTN endpoints from different network sites to the same conference.</span></span> <span data-ttu-id="73c15-113">如果啟用會議召集人進行位置式路由，會議應用程式會強制執行下列限制：</span><span class="sxs-lookup"><span data-stu-id="73c15-113">If the organizer of a meeting is enabled for Location-Based Routing, the Conferencing application enforces the following restrictions:</span></span>
+<span data-ttu-id="1b2c5-112">位置型路由會議應用程式可防止 Lync 使用者和來自不同網路網站的 PSTN 端點，才能在同一場會議參與。</span><span class="sxs-lookup"><span data-stu-id="1b2c5-112">The Location-Based Routing Conferencing application prevents the participation of Lync users and PSTN endpoints from different network sites to the same conference.</span></span> <span data-ttu-id="1b2c5-113">如果會議的召集人啟用位置型的路由，會議應用程式強制執行下列限制：</span><span class="sxs-lookup"><span data-stu-id="1b2c5-113">If the organizer of a meeting is enabled for Location-Based Routing, the Conferencing application enforces the following restrictions:</span></span>
 
-  - <span data-ttu-id="73c15-114">可以加入 Lync 會議的端點，取決於已加入會議的端點，而且這個限制會依加入的端點而調整，而新的端點則會加入會議。</span><span class="sxs-lookup"><span data-stu-id="73c15-114">The endpoints that can join a Lync meeting depend on the endpoints that already joined the conference, and this restriction adjusts as joined endpoints leave and new endpoints join the conference.</span></span> <span data-ttu-id="73c15-115">如果召集人和參與者是從相同的網路網站加入 Lync 會議，則 PSTN 端點（來自相同網路網站的另一個參與者），另一個參與者從不同的網路網站或來自未知網路網站的參與者，都可以起來.</span><span class="sxs-lookup"><span data-stu-id="73c15-115">If organizers and participants are joining a Lync meeting from the same network site, then a PSTN endpoint, another participant from the same network site, another participant from a different network site or a participant from an unknown network site are allowed to join.</span></span>
+  - <span data-ttu-id="1b2c5-114">可加入 Lync 會議的端點取決於已加入會議的端點這項限制會調整以加入的端點離開和新端點加入會議。</span><span class="sxs-lookup"><span data-stu-id="1b2c5-114">The endpoints that can join a Lync meeting depend on the endpoints that already joined the conference, and this restriction adjusts as joined endpoints leave and new endpoints join the conference.</span></span> <span data-ttu-id="1b2c5-115">如果召集人與參與者加入相同的網路網站，然後將 PSTN 端點的 Lync 會議，允許從相同網路站台、 從不同的網路網站的其他參與者或從不明的網路網站參與者的另一位參與者加入。</span><span class="sxs-lookup"><span data-stu-id="1b2c5-115">If organizers and participants are joining a Lync meeting from the same network site, then a PSTN endpoint, another participant from the same network site, another participant from a different network site or a participant from an unknown network site are allowed to join.</span></span>
 
-  - <span data-ttu-id="73c15-116">如果召集人和參與者是從不同或未知的網路網站加入會議，但如果 PSTN 呼叫 ingresses 來自 SIP 主幹系，且已啟用位置路由，則不允許 PSTN 端點加入會議。</span><span class="sxs-lookup"><span data-stu-id="73c15-116">If organizers and participants are joining the meeting from different or unknown network sites, a PSTN endpoint is not allowed to join the meeting if the PSTN call ingresses from a SIP trunk enabled for Location-Based Routing.</span></span>
+  - <span data-ttu-id="1b2c5-116">如果召集人與參與者加入會議從不同] 或 [未知的網路網站，不允許加入會議，如果 PSTN 通話 ingresses 從啟用位置型路由的 SIP 主幹的 PSTN 端點。</span><span class="sxs-lookup"><span data-stu-id="1b2c5-116">If organizers and participants are joining the meeting from different or unknown network sites, a PSTN endpoint is not allowed to join the meeting if the PSTN call ingresses from a SIP trunk enabled for Location-Based Routing.</span></span>
 
-  - <span data-ttu-id="73c15-117">如果召集人與參與者全都從同一個網路網站加入會議，且有參與者從 PSTN 加入相同的會議，則不允許來自不同網路網站的 Lync 端點加入會議。</span><span class="sxs-lookup"><span data-stu-id="73c15-117">If organizers and participants are all joining the meeting from the same network site and there are participants joining the same meeting from the PSTN, a Lync endpoint from a different network site is not allowed to join the meeting.</span></span>
+  - <span data-ttu-id="1b2c5-117">如果召集人與參與者所有加入會議從相同網路網站，且沒有加入相同從 PSTN 會議的參與者，不允許從不同的網路網站的 Lync 端點加入會議。</span><span class="sxs-lookup"><span data-stu-id="1b2c5-117">If organizers and participants are all joining the meeting from the same network site and there are participants joining the same meeting from the PSTN, a Lync endpoint from a different network site is not allowed to join the meeting.</span></span>
 
-<span data-ttu-id="73c15-118">下表摘要列出了這些會議位置的路由限制。</span><span class="sxs-lookup"><span data-stu-id="73c15-118">These conferencing Location-Based Routing restrictions are summarized in the following table.</span></span>
+<span data-ttu-id="1b2c5-118">下表摘要說明這些會議位置型路由限制。</span><span class="sxs-lookup"><span data-stu-id="1b2c5-118">These conferencing Location-Based Routing restrictions are summarized in the following table.</span></span>
 
 
 <table>
@@ -66,51 +66,51 @@ ms.locfileid: "41755517"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="73c15-119">在任何指定點的會議中的使用者</span><span class="sxs-lookup"><span data-stu-id="73c15-119">User(s) in a conference at any given point</span></span></p></td>
-<td><p><span data-ttu-id="73c15-120">允許使用者加入會議</span><span class="sxs-lookup"><span data-stu-id="73c15-120">User(s) allowed to join the conference</span></span></p></td>
-<td><p><span data-ttu-id="73c15-121">不允許使用者加入會議</span><span class="sxs-lookup"><span data-stu-id="73c15-121">User(s) not allowed to join the conference</span></span></p></td>
+<td><p><span data-ttu-id="1b2c5-119">在任何特定時間點會議中的使用者</span><span class="sxs-lookup"><span data-stu-id="1b2c5-119">User(s) in a conference at any given point</span></span></p></td>
+<td><p><span data-ttu-id="1b2c5-120">允許加入會議的使用者</span><span class="sxs-lookup"><span data-stu-id="1b2c5-120">User(s) allowed to join the conference</span></span></p></td>
+<td><p><span data-ttu-id="1b2c5-121">不允許加入會議的使用者</span><span class="sxs-lookup"><span data-stu-id="1b2c5-121">User(s) not allowed to join the conference</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="73c15-122">從單一網路網站 Lync VoIP 用戶端使用者</span><span class="sxs-lookup"><span data-stu-id="73c15-122">Lync VoIP client user(s) from a single network site</span></span></p></td>
-<td><p><span data-ttu-id="73c15-123">從同一個網路網站 Lync VoIP 用戶端使用者</span><span class="sxs-lookup"><span data-stu-id="73c15-123">Lync VoIP client user from the same network site</span></span></p>
-<p><span data-ttu-id="73c15-124">來自不同網路網站的 Lync VoIP 用戶端使用者</span><span class="sxs-lookup"><span data-stu-id="73c15-124">Lync VoIP client user from a different network site</span></span></p>
-<p><span data-ttu-id="73c15-125">來自未知網路網站的 Lync VoIP 用戶端使用者</span><span class="sxs-lookup"><span data-stu-id="73c15-125">Lync VoIP client user from an unknown network site</span></span></p>
-<p><span data-ttu-id="73c15-126">聯盟 Lync VoIP 用戶端使用者</span><span class="sxs-lookup"><span data-stu-id="73c15-126">Federated Lync VoIP client user</span></span></p>
-<p><span data-ttu-id="73c15-127">從 PSTN 端點加入的使用者</span><span class="sxs-lookup"><span data-stu-id="73c15-127">User joining from a PSTN endpoint</span></span></p></td>
-<td><p><span data-ttu-id="73c15-128">無</span><span class="sxs-lookup"><span data-stu-id="73c15-128">None</span></span></p></td>
+<td><p><span data-ttu-id="1b2c5-122">從單一網路網站的 Lync VoIP 用戶端使用者</span><span class="sxs-lookup"><span data-stu-id="1b2c5-122">Lync VoIP client user(s) from a single network site</span></span></p></td>
+<td><p><span data-ttu-id="1b2c5-123">Lync VoIP 用戶端使用者從相同網路網站</span><span class="sxs-lookup"><span data-stu-id="1b2c5-123">Lync VoIP client user from the same network site</span></span></p>
+<p><span data-ttu-id="1b2c5-124">Lync VoIP 用戶端使用者從不同的網路網站</span><span class="sxs-lookup"><span data-stu-id="1b2c5-124">Lync VoIP client user from a different network site</span></span></p>
+<p><span data-ttu-id="1b2c5-125">Lync VoIP 用戶端使用者的未知的網路站台</span><span class="sxs-lookup"><span data-stu-id="1b2c5-125">Lync VoIP client user from an unknown network site</span></span></p>
+<p><span data-ttu-id="1b2c5-126">同盟的 Lync VoIP 用戶端使用者</span><span class="sxs-lookup"><span data-stu-id="1b2c5-126">Federated Lync VoIP client user</span></span></p>
+<p><span data-ttu-id="1b2c5-127">使用者加入從 PSTN 端點</span><span class="sxs-lookup"><span data-stu-id="1b2c5-127">User joining from a PSTN endpoint</span></span></p></td>
+<td><p><span data-ttu-id="1b2c5-128">無</span><span class="sxs-lookup"><span data-stu-id="1b2c5-128">None</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="73c15-129">來自未知網路網站的 Lync VoIP 用戶端使用者</span><span class="sxs-lookup"><span data-stu-id="73c15-129">Lync VoIP client user(s) from an unknown network site</span></span></p></td>
-<td><p><span data-ttu-id="73c15-130">來自任何網站的 Lync VoIP 用戶端使用者</span><span class="sxs-lookup"><span data-stu-id="73c15-130">Lync VoIP client user from any site</span></span></p>
-<p><span data-ttu-id="73c15-131">來自未知網站的 Lync VoIP 用戶端使用者</span><span class="sxs-lookup"><span data-stu-id="73c15-131">Lync VoIP client user from an unknown site</span></span></p>
-<p><span data-ttu-id="73c15-132">聯盟 Lync VoIP 用戶端使用者</span><span class="sxs-lookup"><span data-stu-id="73c15-132">Federated Lync VoIP client user</span></span></p></td>
-<td><p><span data-ttu-id="73c15-133">透過 PSTN 端點加入的使用者</span><span class="sxs-lookup"><span data-stu-id="73c15-133">User joining via a PSTN endpoint</span></span></p></td>
+<td><p><span data-ttu-id="1b2c5-129">Lync VoIP 用戶端使用者的未知的網路站台</span><span class="sxs-lookup"><span data-stu-id="1b2c5-129">Lync VoIP client user(s) from an unknown network site</span></span></p></td>
+<td><p><span data-ttu-id="1b2c5-130">Lync VoIP 用戶端使用者從任何網站</span><span class="sxs-lookup"><span data-stu-id="1b2c5-130">Lync VoIP client user from any site</span></span></p>
+<p><span data-ttu-id="1b2c5-131">Lync VoIP 用戶端使用者的未知的站台</span><span class="sxs-lookup"><span data-stu-id="1b2c5-131">Lync VoIP client user from an unknown site</span></span></p>
+<p><span data-ttu-id="1b2c5-132">同盟的 Lync VoIP 用戶端使用者</span><span class="sxs-lookup"><span data-stu-id="1b2c5-132">Federated Lync VoIP client user</span></span></p></td>
+<td><p><span data-ttu-id="1b2c5-133">使用者加入透過 PSTN 端點</span><span class="sxs-lookup"><span data-stu-id="1b2c5-133">User joining via a PSTN endpoint</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="73c15-134">來自不同網路網站的 Lync VoIP 用戶端使用者</span><span class="sxs-lookup"><span data-stu-id="73c15-134">Lync VoIP client users from different network sites</span></span></p></td>
-<td><p><span data-ttu-id="73c15-135">來自任何網路網站的 Lync VoIP 用戶端使用者</span><span class="sxs-lookup"><span data-stu-id="73c15-135">Lync VoIP client user from any network site</span></span></p>
-<p><span data-ttu-id="73c15-136">來自未知網路網站的 Lync VoIP 用戶端使用者</span><span class="sxs-lookup"><span data-stu-id="73c15-136">Lync VoIP client user from an unknown network site</span></span></p>
-<p><span data-ttu-id="73c15-137">聯盟 Lync VoIP 用戶端使用者</span><span class="sxs-lookup"><span data-stu-id="73c15-137">Federated Lync VoIP client user</span></span></p></td>
-<td><p><span data-ttu-id="73c15-138">透過 PSTN 端點加入的使用者</span><span class="sxs-lookup"><span data-stu-id="73c15-138">User joining via a PSTN endpoint</span></span></p></td>
+<td><p><span data-ttu-id="1b2c5-134">Lync VoIP 用戶端使用者從不同的網路網站</span><span class="sxs-lookup"><span data-stu-id="1b2c5-134">Lync VoIP client users from different network sites</span></span></p></td>
+<td><p><span data-ttu-id="1b2c5-135">Lync VoIP 用戶端使用者從任何網路網站</span><span class="sxs-lookup"><span data-stu-id="1b2c5-135">Lync VoIP client user from any network site</span></span></p>
+<p><span data-ttu-id="1b2c5-136">Lync VoIP 用戶端使用者的未知的網路站台</span><span class="sxs-lookup"><span data-stu-id="1b2c5-136">Lync VoIP client user from an unknown network site</span></span></p>
+<p><span data-ttu-id="1b2c5-137">同盟的 Lync VoIP 用戶端使用者</span><span class="sxs-lookup"><span data-stu-id="1b2c5-137">Federated Lync VoIP client user</span></span></p></td>
+<td><p><span data-ttu-id="1b2c5-138">使用者加入透過 PSTN 端點</span><span class="sxs-lookup"><span data-stu-id="1b2c5-138">User joining via a PSTN endpoint</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="73c15-139">從單一網路網站與從 PSTN 端點加入的使用者進行 Lync VoIP 用戶端使用者</span><span class="sxs-lookup"><span data-stu-id="73c15-139">Lync VoIP client user(s) from a single network site and users joining from a PSTN endpoint</span></span></p></td>
-<td><p><span data-ttu-id="73c15-140">從同一個網路網站 Lync VoIP 用戶端使用者</span><span class="sxs-lookup"><span data-stu-id="73c15-140">Lync VoIP client user from the same network site</span></span></p></td>
-<td><p><span data-ttu-id="73c15-141">來自不同網路網站的 Lync VoIP 用戶端使用者</span><span class="sxs-lookup"><span data-stu-id="73c15-141">Lync VoIP client user from a different network site</span></span></p>
-<p><span data-ttu-id="73c15-142">來自未知網路網站的 Lync VoIP 用戶端使用者</span><span class="sxs-lookup"><span data-stu-id="73c15-142">Lync VoIP client user from an unknown network site</span></span></p>
-<p><span data-ttu-id="73c15-143">聯盟 Lync VoIP 用戶端使用者</span><span class="sxs-lookup"><span data-stu-id="73c15-143">Federated Lync VoIP client user</span></span></p></td>
+<td><p><span data-ttu-id="1b2c5-139">從單一的網站和來自 PSTN 端點加入使用者的 Lync VoIP 用戶端使用者</span><span class="sxs-lookup"><span data-stu-id="1b2c5-139">Lync VoIP client user(s) from a single network site and users joining from a PSTN endpoint</span></span></p></td>
+<td><p><span data-ttu-id="1b2c5-140">Lync VoIP 用戶端使用者從相同網路網站</span><span class="sxs-lookup"><span data-stu-id="1b2c5-140">Lync VoIP client user from the same network site</span></span></p></td>
+<td><p><span data-ttu-id="1b2c5-141">Lync VoIP 用戶端使用者從不同的網路網站</span><span class="sxs-lookup"><span data-stu-id="1b2c5-141">Lync VoIP client user from a different network site</span></span></p>
+<p><span data-ttu-id="1b2c5-142">Lync VoIP 用戶端使用者的未知的網路站台</span><span class="sxs-lookup"><span data-stu-id="1b2c5-142">Lync VoIP client user from an unknown network site</span></span></p>
+<p><span data-ttu-id="1b2c5-143">同盟的 Lync VoIP 用戶端使用者</span><span class="sxs-lookup"><span data-stu-id="1b2c5-143">Federated Lync VoIP client user</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="73c15-144">下列是 [以位置為基礎的路由會議] 應用程式的其他特性：</span><span class="sxs-lookup"><span data-stu-id="73c15-144">The following are additional characteristics of the Location-Based Routing Conferencing application:</span></span>
+<span data-ttu-id="1b2c5-144">以下是依位置路由會議應用程式的其他特性：</span><span class="sxs-lookup"><span data-stu-id="1b2c5-144">The following are additional characteristics of the Location-Based Routing Conferencing application:</span></span>
 
-  - <span data-ttu-id="73c15-145">如果使用者不允許加入會議指定的位置路由限制，則使用者呼叫會議將會遭到拒絕，而他的 Lync 用戶端會報告通話未完成或已結束。</span><span class="sxs-lookup"><span data-stu-id="73c15-145">When a user is not allowed to join a conference given Location-Based Routing restrictions, the users call to the conference will be rejected and his Lync Client will report that the call was not completed or has ended.</span></span>
+  - <span data-ttu-id="1b2c5-145">時不允許使用者加入會議，指定位置型路由限制時，會拒絕會議的使用者呼叫而其 Lync 用戶端將報告，在呼叫未完成，或已經結束。</span><span class="sxs-lookup"><span data-stu-id="1b2c5-145">When a user is not allowed to join a conference given Location-Based Routing restrictions, the users call to the conference will be rejected and his Lync Client will report that the call was not completed or has ended.</span></span>
 
-  - <span data-ttu-id="73c15-146">使用以位置為基礎的路由 enforcements 加入會議的 PSTN 端點不會限制加入會議，無論端點是透過不是以位置式路由的幹線來連接。</span><span class="sxs-lookup"><span data-stu-id="73c15-146">A PSTN endpoint joining a conference with Location-Based Routing enforcements will not be restricted to join the conference regardless of its state if the endpoint joins via a trunk that is not enabled for Location-Based Routing.</span></span>
+  - <span data-ttu-id="1b2c5-146">以位置為主的路由 enforcements 會議將不會限制為不論其狀態加入會議，如果將端點加入未啟用位置型路由主幹透過 PSTN 端點加入。</span><span class="sxs-lookup"><span data-stu-id="1b2c5-146">A PSTN endpoint joining a conference with Location-Based Routing enforcements will not be restricted to join the conference regardless of its state if the endpoint joins via a trunk that is not enabled for Location-Based Routing.</span></span>
 
-  - <span data-ttu-id="73c15-147">透過不是出局呼叫的 SIP 幹線連線至 Mediations 伺服器的 PBX 系統，將會擁有與在已定義 SIP 幹線之相同網路網站中的 Lync 使用者相同的 enforcements。</span><span class="sxs-lookup"><span data-stu-id="73c15-147">A PBX system connected to a Mediations Server over a SIP trunk that does not egress calls to the PSTN will have the same enforcements as Lync users located in the same network site where the SIP trunk is defined.</span></span> <span data-ttu-id="73c15-148">例如，PSTN 端點將能夠加入與 PBX 使用者和 Lync 使用者位於相同網路網站中的會議;否則，如果 PBX 使用者與 Lync 使用者不在不同的網路網站，則不允許 PSTN 端點加入會議。</span><span class="sxs-lookup"><span data-stu-id="73c15-148">For example, a PSTN endpoint will be able to join a conference with a PBX user and a Lync user if they are located in the same network site; otherwise, the PSTN endpoint will not be allowed to join the conference if the PBX user is in a different network site than the Lync user.</span></span>
+  - <span data-ttu-id="1b2c5-147">連接至 Mediations 伺服器透過 SIP 主幹，不會不輸出至 PSTN 通話的 PBX 系統會有相同的 enforcements 為 Lync 使用者位於相同網路站台定義 SIP 主幹的位置。</span><span class="sxs-lookup"><span data-stu-id="1b2c5-147">A PBX system connected to a Mediations Server over a SIP trunk that does not egress calls to the PSTN will have the same enforcements as Lync users located in the same network site where the SIP trunk is defined.</span></span> <span data-ttu-id="1b2c5-148">例如，PSTN 端點將能夠加入 PBX 使用者與 Lync 使用者的會議，如果他們都位於相同的網路網站;否則，將不允許 PSTN 端點，如果 PBX 使用者位於不同的網路站台比 Lync 使用者加入會議。</span><span class="sxs-lookup"><span data-stu-id="1b2c5-148">For example, a PSTN endpoint will be able to join a conference with a PBX user and a Lync user if they are located in the same network site; otherwise, the PSTN endpoint will not be allowed to join the conference if the PBX user is in a different network site than the Lync user.</span></span>
 
 </div>
 

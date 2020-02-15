@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：通話詳細資料錄製（CDR）
+title: Lync Server 2013： 詳細通話記錄 (CDR)
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733675
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2e7490e974b970c7c0a68e16b03ed19306d89183
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bf5eb1c82b6cabff3657890c83f4e8240a30e23f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743143"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045375"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="call-detail-recording-cdr-in-lync-server-2013"></a><span data-ttu-id="480af-102">在 Lync Server 2013 中呼叫詳細資料錄製（CDR）</span><span class="sxs-lookup"><span data-stu-id="480af-102">Call detail recording (CDR) in Lync Server 2013</span></span>
+# <a name="call-detail-recording-cdr-in-lync-server-2013"></a><span data-ttu-id="60c2b-102">通話詳細記錄 (CDR) 在 [Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="60c2b-102">Call detail recording (CDR) in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,32 +35,32 @@ ms.locfileid: "41743143"
 
 <span> </span>
 
-<span data-ttu-id="480af-103">_**主題上次修改日期：** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="480af-103">_**Topic Last Modified:** 2012-10-22_</span></span>
+<span data-ttu-id="60c2b-103">_**主題上次修改日期：** 2012年-10-22_</span><span class="sxs-lookup"><span data-stu-id="60c2b-103">_**Topic Last Modified:** 2012-10-22_</span></span>
 
-<span data-ttu-id="480af-104">通話詳細資料錄製（CDR）記錄使用狀況與對等活動的相關診斷資訊，包括實例訊息、透過網際網路通訊協定（VoIP）通話、應用程式共用、檔案傳輸及會議。</span><span class="sxs-lookup"><span data-stu-id="480af-104">Call detail recording (CDR) records usage and diagnostic information about peer-to-peer activities, including instance messaging, Voice over Internet Protocol (VoIP) calls, application sharing, file transfer, and meetings.</span></span> <span data-ttu-id="480af-105">使用資料可用來計算投資回報率（ROI），而診斷資料可用來針對對等活動和會議進行疑難排解。</span><span class="sxs-lookup"><span data-stu-id="480af-105">The usage data can be used to calculate return on investment (ROI) and the diagnostic data can be used to troubleshoot peer-to-peer activities and meetings.</span></span> <span data-ttu-id="480af-106">當您安裝 Lync Server 2013 時，您也會安裝預先定義的 CDR 全域配置設定集合。</span><span class="sxs-lookup"><span data-stu-id="480af-106">When you install Lync Server 2013, you will also install a predefined collection of global configuration settings for CDR.</span></span> <span data-ttu-id="480af-107">使用本節中的主題來設定 CDR。</span><span class="sxs-lookup"><span data-stu-id="480af-107">Use the topics in this section to configure CDR.</span></span>
+<span data-ttu-id="60c2b-104">詳細通話記錄 (CDR) 會記錄對等活動的使用和診斷資訊，包括立即訊息、Voice over Internet Protocol (VoIP) 通話、應用程式共用、檔案傳輸和會議。</span><span class="sxs-lookup"><span data-stu-id="60c2b-104">Call detail recording (CDR) records usage and diagnostic information about peer-to-peer activities, including instance messaging, Voice over Internet Protocol (VoIP) calls, application sharing, file transfer, and meetings.</span></span> <span data-ttu-id="60c2b-105">使用資料可用來計算投資報酬率 (ROI)，而診斷資料可用來疑難排解對等活動和會議。</span><span class="sxs-lookup"><span data-stu-id="60c2b-105">The usage data can be used to calculate return on investment (ROI) and the diagnostic data can be used to troubleshoot peer-to-peer activities and meetings.</span></span> <span data-ttu-id="60c2b-106">當您安裝 Lync Server 2013 時，您也會安裝預先定義的 CDR 的通用組態設定集合。</span><span class="sxs-lookup"><span data-stu-id="60c2b-106">When you install Lync Server 2013, you will also install a predefined collection of global configuration settings for CDR.</span></span> <span data-ttu-id="60c2b-107">請使用本節中的主題來設定 CDR。</span><span class="sxs-lookup"><span data-stu-id="60c2b-107">Use the topics in this section to configure CDR.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="480af-108">本節內容</span><span class="sxs-lookup"><span data-stu-id="480af-108">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="60c2b-108">本章節內容</span><span class="sxs-lookup"><span data-stu-id="60c2b-108">In This Section</span></span>
 
-  - [<span data-ttu-id="480af-109">在 Lync Server 2013 中查看 CDR 配置資訊</span><span class="sxs-lookup"><span data-stu-id="480af-109">View CDR configuration information in Lync Server 2013</span></span>](lync-server-2013-view-cdr-configuration-information.md)
+  - [<span data-ttu-id="60c2b-109">Lync Server 2013 中檢視 CDR 組態資訊</span><span class="sxs-lookup"><span data-stu-id="60c2b-109">View CDR configuration information in Lync Server 2013</span></span>](lync-server-2013-view-cdr-configuration-information.md)
 
-  - [<span data-ttu-id="480af-110">啟用 Lync Server 2013 的通話詳細資料錄製</span><span class="sxs-lookup"><span data-stu-id="480af-110">Enable call detail recording in Lync Server 2013</span></span>](lync-server-2013-enable-call-detail-recording.md)
+  - [<span data-ttu-id="60c2b-110">啟用 Lync Server 2013 中的通話詳細記錄</span><span class="sxs-lookup"><span data-stu-id="60c2b-110">Enable call detail recording in Lync Server 2013</span></span>](lync-server-2013-enable-call-detail-recording.md)
 
-  - [<span data-ttu-id="480af-111">在 Lync Server 2013 中建立或修改 CDR 配置設定的集合</span><span class="sxs-lookup"><span data-stu-id="480af-111">Create or modify a collection of CDR configuration settings in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-collection-of-cdr-configuration-settings.md)
+  - [<span data-ttu-id="60c2b-111">建立或修改的 Lync Server 2013 中的 CDR 組態設定集合</span><span class="sxs-lookup"><span data-stu-id="60c2b-111">Create or modify a collection of CDR configuration settings in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-collection-of-cdr-configuration-settings.md)
 
-  - [<span data-ttu-id="480af-112">在 Lync Server 2013 中刪除現有的 CDR 配置設定集合</span><span class="sxs-lookup"><span data-stu-id="480af-112">Delete an existing collection of CDR configuration settings in Lync Server 2013</span></span>](lync-server-2013-delete-an-existing-collection-of-cdr-configuration-settings.md)
+  - [<span data-ttu-id="60c2b-112">刪除現有的 Lync Server 2013 中的 CDR 組態設定集合</span><span class="sxs-lookup"><span data-stu-id="60c2b-112">Delete an existing collection of CDR configuration settings in Lync Server 2013</span></span>](lync-server-2013-delete-an-existing-collection-of-cdr-configuration-settings.md)
 
-  - [<span data-ttu-id="480af-113">在 Lync Server 2013 中手動清除通話詳細資料錄製和體驗的品質資料庫</span><span class="sxs-lookup"><span data-stu-id="480af-113">Manually purging the call detail recording and Quality of Experience databases in Lync Server 2013</span></span>](lync-server-2013-manually-purging-the-call-detail-recording-and-quality-of-experience-databases.md)
+  - [<span data-ttu-id="60c2b-113">手動清除詳細通話記錄及 Lync Server 2013 中的經驗品質資料庫</span><span class="sxs-lookup"><span data-stu-id="60c2b-113">Manually purging the call detail recording and Quality of Experience databases in Lync Server 2013</span></span>](lync-server-2013-manually-purging-the-call-detail-recording-and-quality-of-experience-databases.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="480af-114">請參閱</span><span class="sxs-lookup"><span data-stu-id="480af-114">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="60c2b-114">另請參閱</span><span class="sxs-lookup"><span data-stu-id="60c2b-114">See Also</span></span>
 
 
-[<span data-ttu-id="480af-115">在 Lync Server 2013 中設定通話詳細資料錄製和體驗品質設定</span><span class="sxs-lookup"><span data-stu-id="480af-115">Configuring call detail recording and Quality of Experience settings in Lync Server 2013</span></span>](lync-server-2013-configuring-call-detail-recording-and-quality-of-experience-settings.md)  
+[<span data-ttu-id="60c2b-115">在 Lync Server 2013 中設定詳細通話記錄與經驗品質設定</span><span class="sxs-lookup"><span data-stu-id="60c2b-115">Configuring call detail recording and Quality of Experience settings in Lync Server 2013</span></span>](lync-server-2013-configuring-call-detail-recording-and-quality-of-experience-settings.md)  
   
 
 </div>

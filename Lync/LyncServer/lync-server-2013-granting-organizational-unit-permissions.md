@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：授與組織單位權限
+title: Lync Server 2013： 授與組織單位權限
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184849
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 084fb8cdebeda06d4441879f08f830021b65d2e3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 945fdfcb6b1f8e8a977bec079b920e13e932e942
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763907"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048394"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="granting-organizational-unit-permissions-in-lync-server-2013"></a><span data-ttu-id="e7350-102">在 Lync Server 2013 中授與組織單位權限</span><span class="sxs-lookup"><span data-stu-id="e7350-102">Granting organizational unit permissions in Lync Server 2013</span></span>
+# <a name="granting-organizational-unit-permissions-in-lync-server-2013"></a><span data-ttu-id="460c3-102">授與 Lync Server 2013 中的組織單位權限</span><span class="sxs-lookup"><span data-stu-id="460c3-102">Granting organizational unit permissions in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,59 +35,59 @@ ms.locfileid: "41763907"
 
 <span> </span>
 
-<span data-ttu-id="e7350-103">_**主題上次修改日期：** 2012-05-14_</span><span class="sxs-lookup"><span data-stu-id="e7350-103">_**Topic Last Modified:** 2012-05-14_</span></span>
+<span data-ttu-id="460c3-103">_**主題上次修改日期：** 2012年-05-14_</span><span class="sxs-lookup"><span data-stu-id="460c3-103">_**Topic Last Modified:** 2012-05-14_</span></span>
 
-<span data-ttu-id="e7350-104">您可以使用**Grant CsOuPermission** Cmdlet，在指定組織單位（ou）中授與物件的許可權，讓「林準備」所建立的 RTC 通用群組成員不會成為網域管理員群組的成員即可存取。</span><span class="sxs-lookup"><span data-stu-id="e7350-104">You can use the **Grant-CsOuPermission** cmdlet to grant permissions to objects in specified organizational units (OUs) so that members of the RTC universal groups created by forest preparation can access them without being members of the Domain Admins group.</span></span> <span data-ttu-id="e7350-105">新增至指定 OU 的許可權與在網域準備期間， **Enable-CsAdDomain** Cmdlet 會新增到電腦和使用者容器的許可權相同。</span><span class="sxs-lookup"><span data-stu-id="e7350-105">The permissions added to the specified OU are the same permissions that the **Enable-CsAdDomain** cmdlet adds to the computers and users containers during domain preparation.</span></span>
+<span data-ttu-id="460c3-104">您可以使用**Grant-csoupermission** cmdlet 授與權限指定組織單位 (Ou) 中的物件，使樹系準備所建立的 RTC 萬用群組的成員可以存取其不需要以 Domain Admins 群組的成員。</span><span class="sxs-lookup"><span data-stu-id="460c3-104">You can use the **Grant-CsOuPermission** cmdlet to grant permissions to objects in specified organizational units (OUs) so that members of the RTC universal groups created by forest preparation can access them without being members of the Domain Admins group.</span></span> <span data-ttu-id="460c3-105">新增至所指定 OU 的權限是相同的權限**Enable-csaddomain** cmdlet 新增至電腦和使用者在網域準備期間的容器。</span><span class="sxs-lookup"><span data-stu-id="460c3-105">The permissions added to the specified OU are the same permissions that the **Enable-CsAdDomain** cmdlet adds to the computers and users containers during domain preparation.</span></span>
 
-<span data-ttu-id="e7350-106">使用**CsOuPermission** Cmdlet 來驗證您使用**Grant CsOuPermission** Cmdlet 設定的許可權。</span><span class="sxs-lookup"><span data-stu-id="e7350-106">Use the **Test-CsOuPermission** cmdlet to verify the permissions you set up by using the **Grant-CsOuPermission** cmdlet.</span></span>
+<span data-ttu-id="460c3-106">使用**Test-csoupermission** cmdlet 來確認您使用**Grant-csoupermission** cmdlet 設定的權限。</span><span class="sxs-lookup"><span data-stu-id="460c3-106">Use the **Test-CsOuPermission** cmdlet to verify the permissions you set up by using the **Grant-CsOuPermission** cmdlet.</span></span>
 
-<span data-ttu-id="e7350-107">您可以使用**Revoke CsOuPermission** Cmdlet 來移除您使用**Grant CsOuPermission** Cmdlet 所授予的許可權。</span><span class="sxs-lookup"><span data-stu-id="e7350-107">You can use the **Revoke-CsOuPermission** cmdlet to remove permissions that you granted by using the **Grant-CsOuPermission** cmdlet.</span></span>
+<span data-ttu-id="460c3-107">您可以使用**Revoke-csoupermission** cmdlet 來移除您所使用**Grant-csoupermission** cmdlet 授與的權限。</span><span class="sxs-lookup"><span data-stu-id="460c3-107">You can use the **Revoke-CsOuPermission** cmdlet to remove permissions that you granted by using the **Grant-CsOuPermission** cmdlet.</span></span>
 
 <div>
 
-## <a name="to-grant-ou-permissions"></a><span data-ttu-id="e7350-108">授與 OU 許可權</span><span class="sxs-lookup"><span data-stu-id="e7350-108">To grant OU permissions</span></span>
+## <a name="to-grant-ou-permissions"></a><span data-ttu-id="460c3-108">若要授與 OU 權限</span><span class="sxs-lookup"><span data-stu-id="460c3-108">To grant OU permissions</span></span>
 
-1.  <span data-ttu-id="e7350-109">在您想要授與 OU 許可權的網域中，登入執行 Lync Server 2013 的電腦。</span><span class="sxs-lookup"><span data-stu-id="e7350-109">Log on to a computer running Lync Server 2013 in the domain where you want to grant OU permissions.</span></span> <span data-ttu-id="e7350-110">如果組織單位位於不同的子域中，請使用屬於網域管理員群組或企業系統管理員群組成員的帳戶。</span><span class="sxs-lookup"><span data-stu-id="e7350-110">Use an account that is a member of the Domain Admins group or the Enterprise Admins group if the OU is in a different child domain.</span></span>
+1.  <span data-ttu-id="460c3-109">登入您要授與 OU 權限的網域中執行 Lync Server 2013 的電腦。</span><span class="sxs-lookup"><span data-stu-id="460c3-109">Log on to a computer running Lync Server 2013 in the domain where you want to grant OU permissions.</span></span> <span data-ttu-id="460c3-110">如果 OU 位於不同的子網域，請使用 Domain Admins 群組或 Enterprise Admins 群組成員身分的帳戶。</span><span class="sxs-lookup"><span data-stu-id="460c3-110">Use an account that is a member of the Domain Admins group or the Enterprise Admins group if the OU is in a different child domain.</span></span>
 
-2.  <span data-ttu-id="e7350-111">啟動 Lync Server 管理命令介面：按一下 [**開始**]，按一下 [**所有程式**]，按一下 [ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。</span><span class="sxs-lookup"><span data-stu-id="e7350-111">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+2.  <span data-ttu-id="460c3-111">啟動 Lync Server 管理命令介面： 按一下 [**開始]**，按一下 [**所有程式]**、 [ **Microsoft Lync Server 2013**]，然後按一下**Lync Server 管理命令介面**。</span><span class="sxs-lookup"><span data-stu-id="460c3-111">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-3.  <span data-ttu-id="e7350-112">用盡</span><span class="sxs-lookup"><span data-stu-id="e7350-112">Run:</span></span>
+3.  <span data-ttu-id="460c3-112">執行：</span><span class="sxs-lookup"><span data-stu-id="460c3-112">Run:</span></span>
     
         Grant-CsOuPermission -ObjectType <User | Computer | InetOrgPerson | Contact | AppContact | Device> -OU <DN of the OU> [-Domain <Domain FQDN>]
     
-    <span data-ttu-id="e7350-113">如果您沒有指定 Domain 參數，則預設值為本地域。</span><span class="sxs-lookup"><span data-stu-id="e7350-113">If you do not specify the Domain parameter, the default value is the local domain.</span></span>
+    <span data-ttu-id="460c3-113">如果不指定 Domain 參數，預設值為本機網域。</span><span class="sxs-lookup"><span data-stu-id="460c3-113">If you do not specify the Domain parameter, the default value is the local domain.</span></span>
 
 </div>
 
 <div>
 
-## <a name="to-verify-ou-permissions"></a><span data-ttu-id="e7350-114">驗證 OU 許可權</span><span class="sxs-lookup"><span data-stu-id="e7350-114">To verify OU permissions</span></span>
+## <a name="to-verify-ou-permissions"></a><span data-ttu-id="460c3-114">若要驗證 OU 權限</span><span class="sxs-lookup"><span data-stu-id="460c3-114">To verify OU permissions</span></span>
 
-1.  <span data-ttu-id="e7350-115">在您想要驗證您使用**Grant CsOuPermission** Cmdlet 所授予的 OU 許可權之網域中，登入運行 Lync Server 2013 的電腦。</span><span class="sxs-lookup"><span data-stu-id="e7350-115">Log on to a computer running Lync Server 2013 in the domain where you want to verify OU permissions that you granted by using the **Grant-CsOuPermission** cmdlet.</span></span> <span data-ttu-id="e7350-116">如果組織單位位於不同的子域中，請使用屬於網域管理員群組或企業系統管理員群組成員的帳戶。</span><span class="sxs-lookup"><span data-stu-id="e7350-116">Use an account that is a member of the Domain Admins group or the Enterprise Admins group if the OU is in a different child domain.</span></span>
+1.  <span data-ttu-id="460c3-115">登入您要驗證您使用**Grant-csoupermission** cmdlet 授與 OU 權限的網域中執行 Lync Server 2013 的電腦。</span><span class="sxs-lookup"><span data-stu-id="460c3-115">Log on to a computer running Lync Server 2013 in the domain where you want to verify OU permissions that you granted by using the **Grant-CsOuPermission** cmdlet.</span></span> <span data-ttu-id="460c3-116">如果 OU 位於不同的子網域，請使用 Domain Admins 群組或 Enterprise Admins 群組成員身分的帳戶。</span><span class="sxs-lookup"><span data-stu-id="460c3-116">Use an account that is a member of the Domain Admins group or the Enterprise Admins group if the OU is in a different child domain.</span></span>
 
-2.  <span data-ttu-id="e7350-117">啟動 Lync Server 管理命令介面：按一下 [**開始**]，按一下 [**所有程式**]，按一下 [ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。</span><span class="sxs-lookup"><span data-stu-id="e7350-117">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+2.  <span data-ttu-id="460c3-117">啟動 Lync Server 管理命令介面： 按一下 [**開始]**，按一下 [**所有程式]**、 [ **Microsoft Lync Server 2013**]，然後按一下**Lync Server 管理命令介面**。</span><span class="sxs-lookup"><span data-stu-id="460c3-117">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-3.  <span data-ttu-id="e7350-118">用盡</span><span class="sxs-lookup"><span data-stu-id="e7350-118">Run:</span></span>
+3.  <span data-ttu-id="460c3-118">執行：</span><span class="sxs-lookup"><span data-stu-id="460c3-118">Run:</span></span>
     
         Test-CsOuPermission -ObjectType <User | Computer | InetOrgPerson | Contact | AppContact | Device> -OU <DN of the OU> [-Domain <Domain FQDN>]
     
-    <span data-ttu-id="e7350-119">如果您沒有指定 Domain 參數，則預設值為本地域。</span><span class="sxs-lookup"><span data-stu-id="e7350-119">If you do not specify the Domain parameter, the default value is the local domain.</span></span>
+    <span data-ttu-id="460c3-119">如果不指定 Domain 參數，預設值為本機網域。</span><span class="sxs-lookup"><span data-stu-id="460c3-119">If you do not specify the Domain parameter, the default value is the local domain.</span></span>
 
 </div>
 
 <div>
 
-## <a name="to-revoke-ou-permissions"></a><span data-ttu-id="e7350-120">撤銷 OU 許可權</span><span class="sxs-lookup"><span data-stu-id="e7350-120">To revoke OU permissions</span></span>
+## <a name="to-revoke-ou-permissions"></a><span data-ttu-id="460c3-120">若要撤銷 OU 權限</span><span class="sxs-lookup"><span data-stu-id="460c3-120">To revoke OU permissions</span></span>
 
-1.  <span data-ttu-id="e7350-121">在您想要吊銷**Grant CsOuPermission** Cmdlet 所授之 OU 許可權的網域中，登入執行 Lync Server 2013 的電腦。</span><span class="sxs-lookup"><span data-stu-id="e7350-121">Log on to a computer running Lync Server 2013 in the domain where you want to revoke OU permissions that were granted by the **Grant-CsOuPermission** cmdlet.</span></span> <span data-ttu-id="e7350-122">如果組織單位位於不同的子域中，請使用屬於網域管理員群組或企業系統管理員群組成員的帳戶。</span><span class="sxs-lookup"><span data-stu-id="e7350-122">Use an account that is a member of the Domain Admins group or the Enterprise Admins group if the OU is in a different child domain.</span></span>
+1.  <span data-ttu-id="460c3-121">登入您要撤銷 OU 權限已由**Grant-csoupermission** cmdlet 授與網域中執行 Lync Server 2013 的電腦。</span><span class="sxs-lookup"><span data-stu-id="460c3-121">Log on to a computer running Lync Server 2013 in the domain where you want to revoke OU permissions that were granted by the **Grant-CsOuPermission** cmdlet.</span></span> <span data-ttu-id="460c3-122">如果 OU 位於不同的子網域，請使用 Domain Admins 群組或 Enterprise Admins 群組成員身分的帳戶。</span><span class="sxs-lookup"><span data-stu-id="460c3-122">Use an account that is a member of the Domain Admins group or the Enterprise Admins group if the OU is in a different child domain.</span></span>
 
-2.  <span data-ttu-id="e7350-123">啟動 Lync Server 管理命令介面：按一下 [**開始**]，按一下 [**所有程式**]，按一下 [ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。</span><span class="sxs-lookup"><span data-stu-id="e7350-123">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+2.  <span data-ttu-id="460c3-123">啟動 Lync Server 管理命令介面： 按一下 [**開始]**，按一下 [**所有程式]**、 [ **Microsoft Lync Server 2013**]，然後按一下**Lync Server 管理命令介面**。</span><span class="sxs-lookup"><span data-stu-id="460c3-123">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-3.  <span data-ttu-id="e7350-124">用盡</span><span class="sxs-lookup"><span data-stu-id="e7350-124">Run:</span></span>
+3.  <span data-ttu-id="460c3-124">執行：</span><span class="sxs-lookup"><span data-stu-id="460c3-124">Run:</span></span>
     
         Revoke-CsOuPermission -ObjectType <User | Computer | InetOrgPerson | Contact | AppContact | Device> -OU <DN of the OU> [-Domain <Domain FQDN>]
     
-    <span data-ttu-id="e7350-125">如果您沒有指定 Domain 參數，則預設值為本地域。</span><span class="sxs-lookup"><span data-stu-id="e7350-125">If you do not specify the Domain parameter, the default value is the local domain.</span></span>
+    <span data-ttu-id="460c3-125">如果不指定 Domain 參數，預設值為本機網域。</span><span class="sxs-lookup"><span data-stu-id="460c3-125">If you do not specify the Domain parameter, the default value is the local domain.</span></span>
 
 </div>
 

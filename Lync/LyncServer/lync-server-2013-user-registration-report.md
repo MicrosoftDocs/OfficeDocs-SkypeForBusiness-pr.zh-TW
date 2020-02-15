@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：使用者註冊報告
+title: Lync Server 2013： 使用者註冊報告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183486
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 079e6cb96a9401d909be4f459d7bbe7c3f6d4ed6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 716d8324fba8346fa1326da2ed253dfa07bc3915
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744513"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046076"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="user-registration-report-in-lync-server-2013"></a><span data-ttu-id="5558c-102">Lync Server 2013 中的使用者註冊報告</span><span class="sxs-lookup"><span data-stu-id="5558c-102">User Registration Report in Lync Server 2013</span></span>
+# <a name="user-registration-report-in-lync-server-2013"></a><span data-ttu-id="72e3b-102">Lync Server 2013 中的使用者註冊報告</span><span class="sxs-lookup"><span data-stu-id="72e3b-102">User Registration Report in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,31 +35,31 @@ ms.locfileid: "41744513"
 
 <span> </span>
 
-<span data-ttu-id="5558c-103">_**主題上次修改日期：** 2012-10-21_</span><span class="sxs-lookup"><span data-stu-id="5558c-103">_**Topic Last Modified:** 2012-10-21_</span></span>
+<span data-ttu-id="72e3b-103">_**主題上次修改日期：** 2012年-10-21_</span><span class="sxs-lookup"><span data-stu-id="72e3b-103">_**Topic Last Modified:** 2012-10-21_</span></span>
 
-<span data-ttu-id="5558c-104">[使用者註冊] 報告提供使用者登入活動的概覽，最重要的是在指定的時間期間（每小時、每天、每週、每月）登入 Microsoft Lync Server 2013 的使用者數目。</span><span class="sxs-lookup"><span data-stu-id="5558c-104">The User Registration Report provides an overview of user logon activity, most notably information about the number of users who logged on to Microsoft Lync Server 2013 during a specified time period (hourly, daily, weekly, monthly).</span></span> <span data-ttu-id="5558c-105">請記住，報告只會告訴您有多少人登入。</span><span class="sxs-lookup"><span data-stu-id="5558c-105">Keep in mind that the report only tells you how many people logged on.</span></span> <span data-ttu-id="5558c-106">它不會告知您已登入*的*使用者。</span><span class="sxs-lookup"><span data-stu-id="5558c-106">It does not tell you *which* people logged on.</span></span> <span data-ttu-id="5558c-107">[監視報告] 不會提供哪些特定使用者使用的是 Lync Server 2013 （以及哪些不是）的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="5558c-107">Monitoring Reports do not provide information about which specific users are using Lync Server 2013 (and which ones are not).</span></span> <span data-ttu-id="5558c-108">不過，您可以使用使用者活動報告來取得使用者資訊的粗略估計。</span><span class="sxs-lookup"><span data-stu-id="5558c-108">However, you can get a rough estimate of user information by using the User Activity Report.</span></span>
+<span data-ttu-id="72e3b-104">使用者註冊報告提供的使用者登入活動的概觀，最特別是在指定的時間期間內 （每小時、 每天、 每週、 每月） 登入 Microsoft Lync Server 2013 的使用者數目的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="72e3b-104">The User Registration Report provides an overview of user logon activity, most notably information about the number of users who logged on to Microsoft Lync Server 2013 during a specified time period (hourly, daily, weekly, monthly).</span></span> <span data-ttu-id="72e3b-105">請記住，報告只會告訴您登入的人數。</span><span class="sxs-lookup"><span data-stu-id="72e3b-105">Keep in mind that the report only tells you how many people logged on.</span></span> <span data-ttu-id="72e3b-106">它不會告訴您*哪些*人的身分登入。</span><span class="sxs-lookup"><span data-stu-id="72e3b-106">It does not tell you *which* people logged on.</span></span> <span data-ttu-id="72e3b-107">使用 Lync Server 2013 相關的特定使用者 （且哪些項目不） 監控報告不會提供資訊。</span><span class="sxs-lookup"><span data-stu-id="72e3b-107">Monitoring Reports do not provide information about which specific users are using Lync Server 2013 (and which ones are not).</span></span> <span data-ttu-id="72e3b-108">不過，您可以使用使用者活動報告來取得使用者資訊大約估計。</span><span class="sxs-lookup"><span data-stu-id="72e3b-108">However, you can get a rough estimate of user information by using the User Activity Report.</span></span>
 
-<span data-ttu-id="5558c-109">提供使用者登錄的相關資訊時，[使用者註冊] 報告會繪製兩個重要的差異。</span><span class="sxs-lookup"><span data-stu-id="5558c-109">When providing information about user logons, the User Registration Report draws two important distinctions.</span></span> <span data-ttu-id="5558c-110">首先，它會將登錄中斷為兩個主要類別：內部登錄和外部登錄。</span><span class="sxs-lookup"><span data-stu-id="5558c-110">First, it breaks logons down into two primary categories: internal logons and external logons.</span></span> <span data-ttu-id="5558c-111">內部登入代表從貴組織的防火牆內部（也就是連線到公司網路時）的使用者。</span><span class="sxs-lookup"><span data-stu-id="5558c-111">Internal logons represent users who logged on from inside your organization's firewall (that is, while connected to the corporate network).</span></span> <span data-ttu-id="5558c-112">[外部登入] 代表從防火牆以外的邊緣伺服器登入的使用者（例如，從網路登入的使用者，不會算作外部登入）。</span><span class="sxs-lookup"><span data-stu-id="5558c-112">External logons represent users who logged on from outside the firewall through an Edge Server (for example, a user who logged on from an Internet café counts as an external logon).</span></span> <span data-ttu-id="5558c-113">如果您需要知道有多少使用者是從防火牆外登入，使用者註冊報告就能提供此資訊。</span><span class="sxs-lookup"><span data-stu-id="5558c-113">If you need to know how many of your users are logging on from outside the firewall, the User Registration Report can provide you with this information.</span></span>
+<span data-ttu-id="72e3b-109">使用者註冊報告在提供使用者登入的相關資訊時，會提出兩項重要差異。</span><span class="sxs-lookup"><span data-stu-id="72e3b-109">When providing information about user logons, the User Registration Report draws two important distinctions.</span></span> <span data-ttu-id="72e3b-110">首先，其會將登入分為兩種主要類別：內部登入及外部登入。</span><span class="sxs-lookup"><span data-stu-id="72e3b-110">First, it breaks logons down into two primary categories: internal logons and external logons.</span></span> <span data-ttu-id="72e3b-111">內部登入代表從組織防火牆內部登入的使用者 (也就是連線到公司網路時)。</span><span class="sxs-lookup"><span data-stu-id="72e3b-111">Internal logons represent users who logged on from inside your organization's firewall (that is, while connected to the corporate network).</span></span> <span data-ttu-id="72e3b-112">外部登入代表從登入透過 Edge Server （例如，從咖算作外部登入網際網路登入的使用者） 防火牆外的使用者。</span><span class="sxs-lookup"><span data-stu-id="72e3b-112">External logons represent users who logged on from outside the firewall through an Edge Server (for example, a user who logged on from an Internet café counts as an external logon).</span></span> <span data-ttu-id="72e3b-113">如果您需要知道您有多少使用者從防火牆外部登入，使用者註冊報告可以提供您此資訊。</span><span class="sxs-lookup"><span data-stu-id="72e3b-113">If you need to know how many of your users are logging on from outside the firewall, the User Registration Report can provide you with this information.</span></span>
 
-<span data-ttu-id="5558c-114">此外，使用者註冊報告會記錄在指定時段內有多少*活動*使用者。</span><span class="sxs-lookup"><span data-stu-id="5558c-114">In addition, the User Registration Report notes how many *active* users were present during a given time period.</span></span> <span data-ttu-id="5558c-115">[作用中的使用者] 是在立即訊息（IM）會話中參與的使用者，在這段時間內參與 Lync 會議、撥打或接聽電話，或其他使用 Lync Server。</span><span class="sxs-lookup"><span data-stu-id="5558c-115">An active user is a user who took part in an instant messaging (IM) session, participated in a Lync Meeting, made or received a phone call, or otherwise used Lync Server during that period of time.</span></span> <span data-ttu-id="5558c-116">這與已登入，但實際上並未使用系統的使用者不同。</span><span class="sxs-lookup"><span data-stu-id="5558c-116">This is different from a user who logged on, but never actually used the system.</span></span>
+<span data-ttu-id="72e3b-114">此外，使用者註冊報告會記錄在指定的時段內，有多少「作用中」\*\* 使用者存在。</span><span class="sxs-lookup"><span data-stu-id="72e3b-114">In addition, the User Registration Report notes how many *active* users were present during a given time period.</span></span> <span data-ttu-id="72e3b-115">作用中的使用者是時間的參與立即訊息 (IM) 工作階段的使用者參與 Lync 會議、 進行或收到的電話，或否則在該期間內使用 Lync Server。</span><span class="sxs-lookup"><span data-stu-id="72e3b-115">An active user is a user who took part in an instant messaging (IM) session, participated in a Lync Meeting, made or received a phone call, or otherwise used Lync Server during that period of time.</span></span> <span data-ttu-id="72e3b-116">這不同於登入但實際上從未使用系統的使用者。</span><span class="sxs-lookup"><span data-stu-id="72e3b-116">This is different from a user who logged on, but never actually used the system.</span></span>
 
 <div>
 
-## <a name="accessing-the-user-registration-report"></a><span data-ttu-id="5558c-117">存取使用者註冊報告</span><span class="sxs-lookup"><span data-stu-id="5558c-117">Accessing the User Registration Report</span></span>
+## <a name="accessing-the-user-registration-report"></a><span data-ttu-id="72e3b-117">存取使用者註冊報告</span><span class="sxs-lookup"><span data-stu-id="72e3b-117">Accessing the User Registration Report</span></span>
 
-<span data-ttu-id="5558c-118">您只能從 [監控報告] 首頁存取使用者註冊報告。</span><span class="sxs-lookup"><span data-stu-id="5558c-118">You access the User Registration Report only from the Monitoring Reports home page.</span></span> <span data-ttu-id="5558c-119">[使用者註冊報告] 不會連結至任何其他報告。</span><span class="sxs-lookup"><span data-stu-id="5558c-119">The User Registration Report does not link to any other reports.</span></span>
+<span data-ttu-id="72e3b-p104">您只能從監視報告首頁存取使用者註冊報告。使用者註冊報告沒有連結至任何其他報告。</span><span class="sxs-lookup"><span data-stu-id="72e3b-p104">You access the User Registration Report only from the Monitoring Reports home page. The User Registration Report does not link to any other reports.</span></span>
 
 </div>
 
 <div>
 
-## <a name="making-the-best-use-of-the-user-registration-report"></a><span data-ttu-id="5558c-120">充分運用使用者註冊報告</span><span class="sxs-lookup"><span data-stu-id="5558c-120">Making the Best Use of the User Registration Report</span></span>
+## <a name="making-the-best-use-of-the-user-registration-report"></a><span data-ttu-id="72e3b-120">善加利用使用者註冊報告</span><span class="sxs-lookup"><span data-stu-id="72e3b-120">Making the Best Use of the User Registration Report</span></span>
 
-<span data-ttu-id="5558c-121">在您部署 Lync Server 之後，我們通常會問到這個問題：如何知道我的使用者是否真的使用這個新技術？</span><span class="sxs-lookup"><span data-stu-id="5558c-121">After you've deployed Lync Server one commonly-asked question is this: How do I know if my users are actually using this new technology?</span></span> <span data-ttu-id="5558c-122">雖然在這個方面有一些限制，但使用者註冊報告可以協助您回答這個問題。</span><span class="sxs-lookup"><span data-stu-id="5558c-122">Although it has a few limitations in this regard, the User Registration Report can help you answer this question.</span></span> <span data-ttu-id="5558c-123">若要判斷使用者是否正在使用 Lync Server，您必須執行兩項操作。</span><span class="sxs-lookup"><span data-stu-id="5558c-123">To determine whether or not users are using Lync Server, you need to do two things.</span></span> <span data-ttu-id="5558c-124">首先，從使用者註冊報告取得唯一的登入使用者統計值。</span><span class="sxs-lookup"><span data-stu-id="5558c-124">First, get the value of the Unique logon users metric from the User Registration Report.</span></span> <span data-ttu-id="5558c-125">這個值告訴您登入 Lync Server 的不同人有多少。</span><span class="sxs-lookup"><span data-stu-id="5558c-125">This value tells you how many distinct individuals logged on to Lync Server.</span></span>
+<span data-ttu-id="72e3b-121">部署 Lync Server 其中經常要求後的問題是： 如何知道我的使用者是否實際上使用這項新技術？</span><span class="sxs-lookup"><span data-stu-id="72e3b-121">After you've deployed Lync Server one commonly-asked question is this: How do I know if my users are actually using this new technology?</span></span> <span data-ttu-id="72e3b-122">雖然在這方面有些許限制，但是使用者註冊報告可以協助您回答這個問題。</span><span class="sxs-lookup"><span data-stu-id="72e3b-122">Although it has a few limitations in this regard, the User Registration Report can help you answer this question.</span></span> <span data-ttu-id="72e3b-123">若要決定使用者要使用 Lync Server，您需要執行下列兩件事。</span><span class="sxs-lookup"><span data-stu-id="72e3b-123">To determine whether or not users are using Lync Server, you need to do two things.</span></span> <span data-ttu-id="72e3b-124">首先，從使用者註冊報告取得唯一登入使用者計量值。</span><span class="sxs-lookup"><span data-stu-id="72e3b-124">First, get the value of the Unique logon users metric from the User Registration Report.</span></span> <span data-ttu-id="72e3b-125">此值會告訴您如何許多不同的個人登入 Lync Server。</span><span class="sxs-lookup"><span data-stu-id="72e3b-125">This value tells you how many distinct individuals logged on to Lync Server.</span></span>
 
-<span data-ttu-id="5558c-126">根據比較，[總登入] 度量單位會顯示有多少人登入 Lync Server 的總時間。</span><span class="sxs-lookup"><span data-stu-id="5558c-126">By comparison, the Total logons metric shows how many total times anyone logged on to Lync Server.</span></span> <span data-ttu-id="5558c-127">例如，假設 Ken Myer 登入 Lync Server 五個不同時間的一天。</span><span class="sxs-lookup"><span data-stu-id="5558c-127">For example, suppose Ken Myer logged on to Lync Server five different times in a single day.</span></span> <span data-ttu-id="5558c-128">在這種情況下，Ken Myer 會針對總共登入統計數計算出五個獨立的登入會話，但只有一個使用者登入使用者的度量。</span><span class="sxs-lookup"><span data-stu-id="5558c-128">In that case, Ken Myer would count as five separate logon sessions for the Total logons metric, but just one logon user for the Unique logon users metric.</span></span> <span data-ttu-id="5558c-129">同樣地，使用者從多個裝置或多個位置登入，並不常見。</span><span class="sxs-lookup"><span data-stu-id="5558c-129">Likewise, it's not uncommon for a user to log on from multiple devices or multiple locations.</span></span> <span data-ttu-id="5558c-130">例如，使用者可以使用她的桌上型電腦（她的膝上型電腦）登入，而她可以有可自動登入 Lync Server 的 IP 電話。</span><span class="sxs-lookup"><span data-stu-id="5558c-130">For example, a user can log on using her desktop computer, her laptop computer, and she can have an IP phone that automatically logs on to Lync Server.</span></span> <span data-ttu-id="5558c-131">在這個範例中，有一個具有三次登錄的唯一使用者。</span><span class="sxs-lookup"><span data-stu-id="5558c-131">In this example, there is one unique user with three logons.</span></span>
+<span data-ttu-id="72e3b-126">相較之下，登入總數公制顯示多少人登入 Lync Server 的總時間。</span><span class="sxs-lookup"><span data-stu-id="72e3b-126">By comparison, the Total logons metric shows how many total times anyone logged on to Lync Server.</span></span> <span data-ttu-id="72e3b-127">例如，假設為 Ken myer 的使用者登入 Lync Server 五個不同的時間，在一天。</span><span class="sxs-lookup"><span data-stu-id="72e3b-127">For example, suppose Ken Myer logged on to Lync Server five different times in a single day.</span></span> <span data-ttu-id="72e3b-128">在此情況下，就總登入計量而言，Ken Myer 會計為五個不同的登入工作階段，但是就唯一登入使用者計量而言，只有一位登入使用者。</span><span class="sxs-lookup"><span data-stu-id="72e3b-128">In that case, Ken Myer would count as five separate logon sessions for the Total logons metric, but just one logon user for the Unique logon users metric.</span></span> <span data-ttu-id="72e3b-129">同樣地，一位使用者從多個裝置或多個位置登入並無不同。</span><span class="sxs-lookup"><span data-stu-id="72e3b-129">Likewise, it's not uncommon for a user to log on from multiple devices or multiple locations.</span></span> <span data-ttu-id="72e3b-130">例如，使用者可以使用登入其桌面的電腦，其膝上型電腦，而她可以有自動登入 Lync Server IP 電話。</span><span class="sxs-lookup"><span data-stu-id="72e3b-130">For example, a user can log on using her desktop computer, her laptop computer, and she can have an IP phone that automatically logs on to Lync Server.</span></span> <span data-ttu-id="72e3b-131">在此範例中，共有一位唯一使用者登入三次。</span><span class="sxs-lookup"><span data-stu-id="72e3b-131">In this example, there is one unique user with three logons.</span></span>
 
-<span data-ttu-id="5558c-132">若要進一步說明總登錄與唯一的登錄之間的差異，請考慮在下表中的特定時段內登錄。</span><span class="sxs-lookup"><span data-stu-id="5558c-132">To further explain the difference between total logons and unique logons, consider the logons for a given time period in the following table.</span></span>
+<span data-ttu-id="72e3b-132">為進一步說明總登入及唯一登入之間的差異，請想想下表中特定時段內的登入。</span><span class="sxs-lookup"><span data-stu-id="72e3b-132">To further explain the difference between total logons and unique logons, consider the logons for a given time period in the following table.</span></span>
 
 
 <table>
@@ -69,68 +69,68 @@ ms.locfileid: "41744513"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="5558c-133">使用者</span><span class="sxs-lookup"><span data-stu-id="5558c-133">User</span></span></th>
-<th><span data-ttu-id="5558c-134">登入時間</span><span class="sxs-lookup"><span data-stu-id="5558c-134">Logon time</span></span></th>
+<th><span data-ttu-id="72e3b-133">使用者</span><span class="sxs-lookup"><span data-stu-id="72e3b-133">User</span></span></th>
+<th><span data-ttu-id="72e3b-134">登入時間</span><span class="sxs-lookup"><span data-stu-id="72e3b-134">Logon time</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="5558c-135">Ken Myer</span><span class="sxs-lookup"><span data-stu-id="5558c-135">Ken Myer</span></span></p></td>
-<td><p><span data-ttu-id="5558c-136">7/7/2012 8:45 AM</span><span class="sxs-lookup"><span data-stu-id="5558c-136">7/7/2012 8:45 AM</span></span></p></td>
+<td><p><span data-ttu-id="72e3b-135">Ken Myer</span><span class="sxs-lookup"><span data-stu-id="72e3b-135">Ken Myer</span></span></p></td>
+<td><p><span data-ttu-id="72e3b-136">7/7/2012 8:45 AM</span><span class="sxs-lookup"><span data-stu-id="72e3b-136">7/7/2012 8:45 AM</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5558c-137">Ken Myer</span><span class="sxs-lookup"><span data-stu-id="5558c-137">Ken Myer</span></span></p></td>
-<td><p><span data-ttu-id="5558c-138">7/7/2012 8:46 AM</span><span class="sxs-lookup"><span data-stu-id="5558c-138">7/7/2012 8:46 AM</span></span></p></td>
+<td><p><span data-ttu-id="72e3b-137">Ken Myer</span><span class="sxs-lookup"><span data-stu-id="72e3b-137">Ken Myer</span></span></p></td>
+<td><p><span data-ttu-id="72e3b-138">7/7/2012 8:46 AM</span><span class="sxs-lookup"><span data-stu-id="72e3b-138">7/7/2012 8:46 AM</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="5558c-139">Pilar 方</span><span class="sxs-lookup"><span data-stu-id="5558c-139">Pilar Ackerman</span></span></p></td>
-<td><p><span data-ttu-id="5558c-140">7/7/2012 9:17 AM</span><span class="sxs-lookup"><span data-stu-id="5558c-140">7/7/2012 9:17 AM</span></span></p></td>
+<td><p><span data-ttu-id="72e3b-139">Pilar Ackerman</span><span class="sxs-lookup"><span data-stu-id="72e3b-139">Pilar Ackerman</span></span></p></td>
+<td><p><span data-ttu-id="72e3b-140">7/7/2012 9:17 AM</span><span class="sxs-lookup"><span data-stu-id="72e3b-140">7/7/2012 9:17 AM</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5558c-141">Ken Myer</span><span class="sxs-lookup"><span data-stu-id="5558c-141">Ken Myer</span></span></p></td>
-<td><p><span data-ttu-id="5558c-142">7/7/2012 9:22 AM</span><span class="sxs-lookup"><span data-stu-id="5558c-142">7/7/2012 9:22 AM</span></span></p></td>
+<td><p><span data-ttu-id="72e3b-141">Ken Myer</span><span class="sxs-lookup"><span data-stu-id="72e3b-141">Ken Myer</span></span></p></td>
+<td><p><span data-ttu-id="72e3b-142">7/7/2012 9:22 AM</span><span class="sxs-lookup"><span data-stu-id="72e3b-142">7/7/2012 9:22 AM</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="5558c-143">Pilar 方</span><span class="sxs-lookup"><span data-stu-id="5558c-143">Pilar Ackerman</span></span></p></td>
-<td><p><span data-ttu-id="5558c-144">7/7/2012 9:31 AM</span><span class="sxs-lookup"><span data-stu-id="5558c-144">7/7/2012 9:31 AM</span></span></p></td>
+<td><p><span data-ttu-id="72e3b-143">Pilar Ackerman</span><span class="sxs-lookup"><span data-stu-id="72e3b-143">Pilar Ackerman</span></span></p></td>
+<td><p><span data-ttu-id="72e3b-144">7/7/2012 9:31 AM</span><span class="sxs-lookup"><span data-stu-id="72e3b-144">7/7/2012 9:31 AM</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="5558c-145">請注意，總共有五次登錄;不過，只有兩個唯一的登錄使用者： Ken Myer （登入三次的人員）和 Pilar 方（登入兩次）。</span><span class="sxs-lookup"><span data-stu-id="5558c-145">Notice that there is a total of five logons; however, there are only two unique logon users: Ken Myer (who logged on three times) and Pilar Ackerman (who logged on twice).</span></span> <span data-ttu-id="5558c-146">這就是登入與唯一登入使用者之間的差異。</span><span class="sxs-lookup"><span data-stu-id="5558c-146">That's the difference between logons and unique logon users.</span></span>
+<span data-ttu-id="72e3b-p107">請注意，總共有五次登入；不過，只有兩位唯一登入使用者：Ken Myer (登入三次) 及 Pilar Ackerman (登入兩次)。這就是登入與唯一登入使用者之間的差異。</span><span class="sxs-lookup"><span data-stu-id="72e3b-p107">Notice that there is a total of five logons; however, there are only two unique logon users: Ken Myer (who logged on three times) and Pilar Ackerman (who logged on twice). That's the difference between logons and unique logon users.</span></span>
 
-<span data-ttu-id="5558c-147">除了瞭解唯一輸入的數目之外，您還需要知道已啟用 Lync Server 的使用者總數。</span><span class="sxs-lookup"><span data-stu-id="5558c-147">In addition to knowing the number of unique logons, you need to know the total number of users who have been enabled for Lync Server.</span></span> <span data-ttu-id="5558c-148">您可以開啟 Lync Server 2013 管理命令介面並執行下列 Windows PowerShell 命令來檢索這個值：</span><span class="sxs-lookup"><span data-stu-id="5558c-148">That value can be retrieved by opening the Lync Server 2013 Management Shell and running the following Windows PowerShell command:</span></span>
+<span data-ttu-id="72e3b-147">除了瞭解有多少的唯一登入，您需要知道的已啟用 Lync Server 的使用者總數。</span><span class="sxs-lookup"><span data-stu-id="72e3b-147">In addition to knowing the number of unique logons, you need to know the total number of users who have been enabled for Lync Server.</span></span> <span data-ttu-id="72e3b-148">值可以被擷取的開啟 Lync Server 2013 管理命令介面，並執行下列 Windows PowerShell 命令：</span><span class="sxs-lookup"><span data-stu-id="72e3b-148">That value can be retrieved by opening the Lync Server 2013 Management Shell and running the following Windows PowerShell command:</span></span>
 
     (Get-CsUser).Count
 
-<span data-ttu-id="5558c-149">如果上述命令傳回1236和唯一的登入使用者度量值，則會傳回667的平均值，這表示使用者每天都能讓 Lync 實際登入系統（也就是667除以1236）。，大約是54%。</span><span class="sxs-lookup"><span data-stu-id="5558c-149">If the preceding command returns a value of 1,236 and Unique logon users metric returns an average value of 667, that suggests that a little over half of your users enable for Lync are actually logging on to the system each day (that is, 667 divided by 1,236, which is approximately 54%).</span></span>
+<span data-ttu-id="72e3b-149">如果上述命令會傳回的值為 1236，而唯一登入使用者計量傳回的平均值為 667，建議，有點超過一半的使用者啟用 Lync 實際登入系統 (也就是 667 除以 1236 每日也就是大約為 54%)。</span><span class="sxs-lookup"><span data-stu-id="72e3b-149">If the preceding command returns a value of 1,236 and Unique logon users metric returns an average value of 667, that suggests that a little over half of your users enable for Lync are actually logging on to the system each day (that is, 667 divided by 1,236, which is approximately 54%).</span></span>
 
 <div>
 
 
 > [!WARNING]  
-> <span data-ttu-id="5558c-150">請記住，登入度量單位會記錄在指定時段內實際登入的使用者。</span><span class="sxs-lookup"><span data-stu-id="5558c-150">Keep in mind that the logon metrics record users who actually logged on during the specified time period.</span></span> <span data-ttu-id="5558c-151">它們不會追蹤已登入系統的使用者。</span><span class="sxs-lookup"><span data-stu-id="5558c-151">They don't keep track of users who were already logged on to the system.</span></span> <span data-ttu-id="5558c-152">例如，如果您唯一的登入使用者度量會顯示667登入，而您有1236個使用者，這表示您的使用者會登入系統的一半。</span><span class="sxs-lookup"><span data-stu-id="5558c-152">For example, if your Unique logon users metric shows 667 logons and you have 1,236 users, that suggests that about half your users are logging on to the system.</span></span> <span data-ttu-id="5558c-153">不過，假設您在開始檢查登入資料時，已登入系統中的300使用者。</span><span class="sxs-lookup"><span data-stu-id="5558c-153">However, suppose 300 users were already logged on to the system at the time you began checking the logon data.</span></span> <span data-ttu-id="5558c-154">這表示您實際已有近1000的使用者登入 Lync Server，這會代表使用者已登入80% 的使用者。</span><span class="sxs-lookup"><span data-stu-id="5558c-154">That would mean that you actually had nearly 1,000 users logged on to Lync Server, which would mean that closer to 80% of your users were logged on.</span></span>
+> <span data-ttu-id="72e3b-150">請記住，登入度量資訊記錄在指定的時間期間實際登入的使用者。</span><span class="sxs-lookup"><span data-stu-id="72e3b-150">Keep in mind that the logon metrics record users who actually logged on during the specified time period.</span></span> <span data-ttu-id="72e3b-151">它們不追蹤的已登入系統的使用者。</span><span class="sxs-lookup"><span data-stu-id="72e3b-151">They don't keep track of users who were already logged on to the system.</span></span> <span data-ttu-id="72e3b-152">例如，如果您唯一登入使用者計量顯示 667 登入，且您有 1,236 的使用者的建議，您大約一半的使用者登入系統。</span><span class="sxs-lookup"><span data-stu-id="72e3b-152">For example, if your Unique logon users metric shows 667 logons and you have 1,236 users, that suggests that about half your users are logging on to the system.</span></span> <span data-ttu-id="72e3b-153">不過，假設 300 位使用者已登入系統次您開始檢查登入資料。</span><span class="sxs-lookup"><span data-stu-id="72e3b-153">However, suppose 300 users were already logged on to the system at the time you began checking the logon data.</span></span> <span data-ttu-id="72e3b-154">這表示您真的開幾乎 1000 位使用者登入 Lync Server，這就是，近 80%的使用者已登入。</span><span class="sxs-lookup"><span data-stu-id="72e3b-154">That would mean that you actually had nearly 1,000 users logged on to Lync Server, which would mean that closer to 80% of your users were logged on.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="5558c-155">您也應該將唯一的登入使用者值與唯一的作用中使用者度量值進行比較。</span><span class="sxs-lookup"><span data-stu-id="5558c-155">You should also compare the Unique logon users value with the value of the Unique active users metric.</span></span> <span data-ttu-id="5558c-156">[唯一作用中的使用者] 指標會告訴您實際使用 Lync Server 的使用者數目有多少（他們已撥打電話）、加入 Lync 會議，或參與 IM 會話。</span><span class="sxs-lookup"><span data-stu-id="5558c-156">The Unique active users metric tells you how many unique users actually used Lync Server: they made a phone call, they joined a Lync Meeting, or they participated in an IM session.</span></span> <span data-ttu-id="5558c-157">這是有用的資訊，因為 Microsoft Lync 2013 可以設定為在使用者每次啟動 Windows 時自動啟動。</span><span class="sxs-lookup"><span data-stu-id="5558c-157">This is useful information, because Microsoft Lync 2013 can be configured to automatically start each time a user starts Windows.</span></span> <span data-ttu-id="5558c-158">因此，您可能會有大量的使用者會在每天登入 Windows 時自動登入 Lync，但在該期間不會實際使用 Lync Server。</span><span class="sxs-lookup"><span data-stu-id="5558c-158">Because of that, you might have a large number of users who automatically log on to Lync when they log on to Windows each day, but then never actually use Lync Server during that time period.</span></span>
+<span data-ttu-id="72e3b-155">您也應該要比較唯一登入使用者值與唯一作用中使用者計量值。</span><span class="sxs-lookup"><span data-stu-id="72e3b-155">You should also compare the Unique logon users value with the value of the Unique active users metric.</span></span> <span data-ttu-id="72e3b-156">唯一作用中使用者] 計量會告訴您單獨使用者人數實際上使用 Lync Server： 他們進行的通話、 他們加入 Lync 會議中，或他們參與的 IM 工作階段。</span><span class="sxs-lookup"><span data-stu-id="72e3b-156">The Unique active users metric tells you how many unique users actually used Lync Server: they made a phone call, they joined a Lync Meeting, or they participated in an IM session.</span></span> <span data-ttu-id="72e3b-157">這是很有用的資訊，因為 Microsoft Lync 2013 可以設定設為自動啟動 [每次使用者啟動視窗。</span><span class="sxs-lookup"><span data-stu-id="72e3b-157">This is useful information, because Microsoft Lync 2013 can be configured to automatically start each time a user starts Windows.</span></span> <span data-ttu-id="72e3b-158">因此，您可能有大量的自動登入 Lync 當他們登入 Windows 每一天，但然後從未實際在該時間期間內使用 Lync Server 的使用者。</span><span class="sxs-lookup"><span data-stu-id="72e3b-158">Because of that, you might have a large number of users who automatically log on to Lync when they log on to Windows each day, but then never actually use Lync Server during that time period.</span></span>
 
-<span data-ttu-id="5558c-159">唯一的作用中使用者規格也會在組織中提供更有意義的資料，而使用者通常不會在一天結束時登入 Windows。</span><span class="sxs-lookup"><span data-stu-id="5558c-159">The Unique active users metric also provides more meaningful data in an organization where users typically do not log off Windows at the end of the day.</span></span> <span data-ttu-id="5558c-160">相反地，它們只是鎖定其電腦，並離開 Windows 和 Lync 執行。</span><span class="sxs-lookup"><span data-stu-id="5558c-160">Instead, they simply lock their computers and leave Windows and Lync running.</span></span> <span data-ttu-id="5558c-161">在這種情況下，您可能會因為您的使用者在數天前登入，且從未登核，所以每天登錄時間都會稍少。</span><span class="sxs-lookup"><span data-stu-id="5558c-161">In a situation like that, you might end up with very few logons per day because your users logged on several days ago and never logged off.</span></span> <span data-ttu-id="5558c-162">不過，唯一作用中的使用者會告訴您使用者是否正在使用 Lync 或其他 Lync Server 用戶端。</span><span class="sxs-lookup"><span data-stu-id="5558c-162">However, Unique active users tells you whether users are actively using Lync or another Lync Server client.</span></span>
+<span data-ttu-id="72e3b-159">唯一作用中使用者] 計量也會提供更有意義的資料，其中使用者通常不需登關閉 Windows 一天結尾處的組織中。</span><span class="sxs-lookup"><span data-stu-id="72e3b-159">The Unique active users metric also provides more meaningful data in an organization where users typically do not log off Windows at the end of the day.</span></span> <span data-ttu-id="72e3b-160">相反地，他們只要鎖定他們的電腦，並保留 Windows 和執行 Lync。</span><span class="sxs-lookup"><span data-stu-id="72e3b-160">Instead, they simply lock their computers and leave Windows and Lync running.</span></span> <span data-ttu-id="72e3b-161">在這類情況下，您可能結尾很少的登入每日因為您的使用者登入數天之內及永遠不會關閉登入。</span><span class="sxs-lookup"><span data-stu-id="72e3b-161">In a situation like that, you might end up with very few logons per day because your users logged on several days ago and never logged off.</span></span> <span data-ttu-id="72e3b-162">不過，唯一作用中使用者會告訴您是否使用者目前正在使用 Lync 或其他的 Lync Server 用戶端。</span><span class="sxs-lookup"><span data-stu-id="72e3b-162">However, Unique active users tells you whether users are actively using Lync or another Lync Server client.</span></span>
 
 </div>
 
 <div>
 
-## <a name="filters"></a><span data-ttu-id="5558c-163">濾鏡</span><span class="sxs-lookup"><span data-stu-id="5558c-163">Filters</span></span>
+## <a name="filters"></a><span data-ttu-id="72e3b-163">篩選</span><span class="sxs-lookup"><span data-stu-id="72e3b-163">Filters</span></span>
 
-<span data-ttu-id="5558c-164">篩選提供一種方式，可讓您傳回更精細設定目標的資料集，或以不同的方式來查看傳回的資料。</span><span class="sxs-lookup"><span data-stu-id="5558c-164">Filters provide a way for you to return a more finely targeted set of data or to view the returned data in different ways.</span></span> <span data-ttu-id="5558c-165">例如，[使用者註冊] 報告可讓您查看所有註冊機構池及邊緣伺服器的資料，或查看個別池的資料。</span><span class="sxs-lookup"><span data-stu-id="5558c-165">For example, the User Registration Report enables you to view data for all your Registrar pool and Edge Servers or to view data for an individual pool.</span></span> <span data-ttu-id="5558c-166">您也可以選擇分組資料的方式。</span><span class="sxs-lookup"><span data-stu-id="5558c-166">You can also choose how data should be grouped.</span></span> <span data-ttu-id="5558c-167">在這種情況下，登記會依小時、日、周或月分組。</span><span class="sxs-lookup"><span data-stu-id="5558c-167">In this case, registrations grouped by hour, day, week, or month.</span></span>
+<span data-ttu-id="72e3b-164">篩選器可以讓您傳回更精確的資料集，或者以不同方法檢視傳回的資料。</span><span class="sxs-lookup"><span data-stu-id="72e3b-164">Filters provide a way for you to return a more finely targeted set of data or to view the returned data in different ways.</span></span> <span data-ttu-id="72e3b-165">例如，使用者註冊報告可讓您檢視所有登錄器集區與 Edge Server 的資料，或檢視個別的集區的資料。</span><span class="sxs-lookup"><span data-stu-id="72e3b-165">For example, the User Registration Report enables you to view data for all your Registrar pool and Edge Servers or to view data for an individual pool.</span></span> <span data-ttu-id="72e3b-166">您也可以選擇資料的分組方式。</span><span class="sxs-lookup"><span data-stu-id="72e3b-166">You can also choose how data should be grouped.</span></span> <span data-ttu-id="72e3b-167">在這種情況下，註冊會按照小時、日、星期或月來分組。</span><span class="sxs-lookup"><span data-stu-id="72e3b-167">In this case, registrations grouped by hour, day, week, or month.</span></span>
 
-<span data-ttu-id="5558c-168">下表列出可與使用者註冊報告搭配使用的篩選。</span><span class="sxs-lookup"><span data-stu-id="5558c-168">The following table lists the filters that you can use with the User Registration Report.</span></span>
+<span data-ttu-id="72e3b-168">下表列出您可以搭配使用者註冊報告的篩選。</span><span class="sxs-lookup"><span data-stu-id="72e3b-168">The following table lists the filters that you can use with the User Registration Report.</span></span>
 
-### <a name="user-registration-report-filters"></a><span data-ttu-id="5558c-169">使用者註冊報告篩選</span><span class="sxs-lookup"><span data-stu-id="5558c-169">User Registration Report Filters</span></span>
+### <a name="user-registration-report-filters"></a><span data-ttu-id="72e3b-169">使用者註冊報告篩選</span><span class="sxs-lookup"><span data-stu-id="72e3b-169">User Registration Report Filters</span></span>
 
 <table>
 <colgroup>
@@ -139,45 +139,45 @@ ms.locfileid: "41744513"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="5558c-170">名稱</span><span class="sxs-lookup"><span data-stu-id="5558c-170">Name</span></span></th>
-<th><span data-ttu-id="5558c-171">說明</span><span class="sxs-lookup"><span data-stu-id="5558c-171">Description</span></span></th>
+<th><span data-ttu-id="72e3b-170">名稱</span><span class="sxs-lookup"><span data-stu-id="72e3b-170">Name</span></span></th>
+<th><span data-ttu-id="72e3b-171">描述</span><span class="sxs-lookup"><span data-stu-id="72e3b-171">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="5558c-172"><strong>從</strong></span><span class="sxs-lookup"><span data-stu-id="5558c-172"><strong>From</strong></span></span></p></td>
-<td><p><span data-ttu-id="5558c-173">時間範圍的開始日期和時間。</span><span class="sxs-lookup"><span data-stu-id="5558c-173">Start date and time for the time range.</span></span> <span data-ttu-id="5558c-174">若要依時間查看資料，請輸入 [開始日期] 和 [時間]，如下所示：</span><span class="sxs-lookup"><span data-stu-id="5558c-174">To view data by hours, enter both the start date and time as follows:</span></span></p>
-<p><span data-ttu-id="5558c-175">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="5558c-175">7/7/2012 1:00 PM</span></span></p>
-<p><span data-ttu-id="5558c-176">如果您沒有輸入開始時間，報告會在指定日期自動于12:00 點開始。</span><span class="sxs-lookup"><span data-stu-id="5558c-176">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day.</span></span> <span data-ttu-id="5558c-177">若要依天查看資料，只需輸入日期：</span><span class="sxs-lookup"><span data-stu-id="5558c-177">To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="5558c-178">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="5558c-178">7/7/2012</span></span></p>
-<p><span data-ttu-id="5558c-179">若要依周或依月查看，請在您要查看的周或月份中，輸入您要查看的日期（不需要輸入周或月的第一天）：</span><span class="sxs-lookup"><span data-stu-id="5558c-179">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="5558c-180">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="5558c-180">7/3/2012</span></span></p>
-<p><span data-ttu-id="5558c-181">周數總是從星期日到星期六執行。</span><span class="sxs-lookup"><span data-stu-id="5558c-181">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="72e3b-172"><strong>From</strong></span><span class="sxs-lookup"><span data-stu-id="72e3b-172"><strong>From</strong></span></span></p></td>
+<td><p><span data-ttu-id="72e3b-p113">時間範圍的開始日期和時間。若要按照小時檢視資料，請輸入開始日期和時間，如下所示：</span><span class="sxs-lookup"><span data-stu-id="72e3b-p113">Start date and time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
+<p><span data-ttu-id="72e3b-175">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="72e3b-175">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="72e3b-p114">如果您未輸入開始時間，報告會自動從指定日期凌晨 12 點開始。若要按照日期檢視資料，只要輸入日期即可：</span><span class="sxs-lookup"><span data-stu-id="72e3b-p114">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="72e3b-178">2012/7/7</span><span class="sxs-lookup"><span data-stu-id="72e3b-178">7/7/2012</span></span></p>
+<p><span data-ttu-id="72e3b-179">若要按星期或月份檢視，請輸入當週或該月您想檢視的日期 (您不必輸入當週或該月的第一天)：</span><span class="sxs-lookup"><span data-stu-id="72e3b-179">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="72e3b-180">2012/7/3</span><span class="sxs-lookup"><span data-stu-id="72e3b-180">7/3/2012</span></span></p>
+<p><span data-ttu-id="72e3b-181">星期永遠是從星期日開始星期六結束。</span><span class="sxs-lookup"><span data-stu-id="72e3b-181">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5558c-182"><strong>自</strong></span><span class="sxs-lookup"><span data-stu-id="5558c-182"><strong>To</strong></span></span></p></td>
-<td><p><span data-ttu-id="5558c-183">時間範圍的結束日期和時間。</span><span class="sxs-lookup"><span data-stu-id="5558c-183">End date and time for the time range.</span></span> <span data-ttu-id="5558c-184">若要依時間查看資料，請輸入 [結束日期] 和 [時間]，如下所示：</span><span class="sxs-lookup"><span data-stu-id="5558c-184">To view data by hours, enter both the end date and time as follows:</span></span></p>
-<p><span data-ttu-id="5558c-185">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="5558c-185">7/7/2012 1:00 PM</span></span></p>
-<p><span data-ttu-id="5558c-186">如果您沒有輸入結束時間，報告會在指定日期自動結束于12:00。</span><span class="sxs-lookup"><span data-stu-id="5558c-186">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day.</span></span> <span data-ttu-id="5558c-187">若要依天查看資料，只需輸入日期：</span><span class="sxs-lookup"><span data-stu-id="5558c-187">To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="5558c-188">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="5558c-188">7/7/2012</span></span></p>
-<p><span data-ttu-id="5558c-189">若要依周或依月查看，請在您要查看的周或月份中，輸入您要查看的日期（不需要輸入周或月的第一天）：</span><span class="sxs-lookup"><span data-stu-id="5558c-189">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="5558c-190">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="5558c-190">7/3/2012</span></span></p>
-<p><span data-ttu-id="5558c-191">周數總是從星期日到星期六執行。</span><span class="sxs-lookup"><span data-stu-id="5558c-191">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="72e3b-182"><strong>To</strong></span><span class="sxs-lookup"><span data-stu-id="72e3b-182"><strong>To</strong></span></span></p></td>
+<td><p><span data-ttu-id="72e3b-p115">時間範圍的結束日期和時間。若要按照小時檢視資料，請輸入結束日期和時間，如下所示：</span><span class="sxs-lookup"><span data-stu-id="72e3b-p115">End date and time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
+<p><span data-ttu-id="72e3b-185">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="72e3b-185">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="72e3b-p116">如果您未輸入結束時間，報告會自動在指定日期凌晨 12 點結束。若要按照日期檢視資料，只要輸入日期即可：</span><span class="sxs-lookup"><span data-stu-id="72e3b-p116">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="72e3b-188">2012/7/7</span><span class="sxs-lookup"><span data-stu-id="72e3b-188">7/7/2012</span></span></p>
+<p><span data-ttu-id="72e3b-189">若要按星期或月份檢視，請輸入當週或該月您想檢視的日期 (您不必輸入當週或該月的第一天)：</span><span class="sxs-lookup"><span data-stu-id="72e3b-189">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="72e3b-190">2012/7/3</span><span class="sxs-lookup"><span data-stu-id="72e3b-190">7/3/2012</span></span></p>
+<p><span data-ttu-id="72e3b-191">星期永遠是從星期日開始星期六結束。</span><span class="sxs-lookup"><span data-stu-id="72e3b-191">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="5558c-192"><strong>Interval</strong></span><span class="sxs-lookup"><span data-stu-id="5558c-192"><strong>Interval</strong></span></span></p></td>
-<td><p><span data-ttu-id="5558c-193">時間間隔。</span><span class="sxs-lookup"><span data-stu-id="5558c-193">Time interval.</span></span> <span data-ttu-id="5558c-194">選取下列其中一項：</span><span class="sxs-lookup"><span data-stu-id="5558c-194">Select one of the following:</span></span></p>
+<td><p><span data-ttu-id="72e3b-192"><strong>Interval</strong></span><span class="sxs-lookup"><span data-stu-id="72e3b-192"><strong>Interval</strong></span></span></p></td>
+<td><p><span data-ttu-id="72e3b-p117">時間間隔。請選取下列其中一項：</span><span class="sxs-lookup"><span data-stu-id="72e3b-p117">Time interval. Select one of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="5558c-195">每小時（最多可顯示25小時）</span><span class="sxs-lookup"><span data-stu-id="5558c-195">Hourly (a maximum of 25 hours can be displayed)</span></span></p></li>
-<li><p><span data-ttu-id="5558c-196">每天（最多可以顯示31天）</span><span class="sxs-lookup"><span data-stu-id="5558c-196">Daily (a maximum of 31 days can be displayed)</span></span></p></li>
-<li><p><span data-ttu-id="5558c-197">每週（最多可以顯示12周）</span><span class="sxs-lookup"><span data-stu-id="5558c-197">Weekly (a maximum of 12 weeks can be displayed)</span></span></p></li>
-<li><p><span data-ttu-id="5558c-198">每月（最多可以顯示12個月）</span><span class="sxs-lookup"><span data-stu-id="5558c-198">Monthly (a maximum of 12 months can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="72e3b-195">每小時 (最多可以顯示 25 個小時)</span><span class="sxs-lookup"><span data-stu-id="72e3b-195">Hourly (a maximum of 25 hours can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="72e3b-196">每日 (最多可以顯示 31 天)</span><span class="sxs-lookup"><span data-stu-id="72e3b-196">Daily (a maximum of 31 days can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="72e3b-197">每週 (最多可以顯示 12 週)</span><span class="sxs-lookup"><span data-stu-id="72e3b-197">Weekly (a maximum of 12 weeks can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="72e3b-198">每月 (最多可以顯示 12 個月)</span><span class="sxs-lookup"><span data-stu-id="72e3b-198">Monthly (a maximum of 12 months can be displayed)</span></span></p></li>
 </ul>
-<p><span data-ttu-id="5558c-199">如果 [開始] 和 [結束] 日期超過所選間隔所允許的最大值數目，則只會顯示最大值數（從開始日期開始）。</span><span class="sxs-lookup"><span data-stu-id="5558c-199">If the start and end dates exceed the maximum number of values allowed for the selected interval, only the maximum number of values (starting from the start date) are displayed.</span></span> <span data-ttu-id="5558c-200">例如，如果您選取 [開始日期 7/7/2012] 和 [結束日期] 2/28/2012 的 [日間隔]，則會顯示 8/7/2012 12:00 AM 至 9/7/2012 12:00 AM （也就是31天內的資料）的資料。</span><span class="sxs-lookup"><span data-stu-id="5558c-200">For example, if you select the Daily interval with a start date of 7/7/2012 and an end date of 2/28/2012, data is displayed for the days 8/7/2012 12:00 AM to 9/7/2012 12:00 AM (that is, a total of 31 days' worth of data).</span></span></p></td>
+<p><span data-ttu-id="72e3b-p118">若開始與結束日期超出所選間隔允許的上限值，將只會顯示上限值 (從開始日期開始顯示)。例如，若您選取 [每日] 間隔，並將開始與結束日期分別設為 2012 年 7 月 7 日及 2012 年 2 月 28 日，將只會顯示 2012 年 8 月 7 日凌晨 12 點到 2012 年 9 月 7 日凌晨 12 點這段期間的資料 (亦即只會顯示 31 天的資料)。</span><span class="sxs-lookup"><span data-stu-id="72e3b-p118">If the start and end dates exceed the maximum number of values allowed for the selected interval, only the maximum number of values (starting from the start date) are displayed. For example, if you select the Daily interval with a start date of 7/7/2012 and an end date of 2/28/2012, data is displayed for the days 8/7/2012 12:00 AM to 9/7/2012 12:00 AM (that is, a total of 31 days' worth of data).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5558c-201"><strong>集區</strong></span><span class="sxs-lookup"><span data-stu-id="5558c-201"><strong>Pool</strong></span></span></p></td>
-<td><p><span data-ttu-id="5558c-202">註冊機構池或邊緣伺服器的完整功能變數名稱（FQDN）。</span><span class="sxs-lookup"><span data-stu-id="5558c-202">Fully qualified domain name (FQDN) of the Registrar pool or Edge Server.</span></span> <span data-ttu-id="5558c-203">您可以選取個別的池子，或選擇<strong>[all] （[全部]）</strong>來查看所有資源庫的資料。</span><span class="sxs-lookup"><span data-stu-id="5558c-203">You can either select an individual pool or choose <strong>[All]</strong> to view data for all the pools.</span></span> <span data-ttu-id="5558c-204">這個下拉式清單會根據資料庫中的記錄，自動填入給您。</span><span class="sxs-lookup"><span data-stu-id="5558c-204">This drop-down list is automatically populated for you based on the records in the database.</span></span></p></td>
+<td><p><span data-ttu-id="72e3b-201"><strong>Pool</strong></span><span class="sxs-lookup"><span data-stu-id="72e3b-201"><strong>Pool</strong></span></span></p></td>
+<td><p><span data-ttu-id="72e3b-202">登錄器集區或 Edge Server 的完整網域名稱 (FQDN)。</span><span class="sxs-lookup"><span data-stu-id="72e3b-202">Fully qualified domain name (FQDN) of the Registrar pool or Edge Server.</span></span> <span data-ttu-id="72e3b-203">您可以選取個別的集區，或是選擇 [全部]<strong></strong>，以檢視所有集區的資料。</span><span class="sxs-lookup"><span data-stu-id="72e3b-203">You can either select an individual pool or choose <strong>[All]</strong> to view data for all the pools.</span></span> <span data-ttu-id="72e3b-204">此下拉式清單會自動將資料庫內的資料填入。</span><span class="sxs-lookup"><span data-stu-id="72e3b-204">This drop-down list is automatically populated for you based on the records in the database.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -187,11 +187,11 @@ ms.locfileid: "41744513"
 
 <div>
 
-## <a name="metrics"></a><span data-ttu-id="5558c-205">指標</span><span class="sxs-lookup"><span data-stu-id="5558c-205">Metrics</span></span>
+## <a name="metrics"></a><span data-ttu-id="72e3b-205">計量</span><span class="sxs-lookup"><span data-stu-id="72e3b-205">Metrics</span></span>
 
-<span data-ttu-id="5558c-206">下表列出 [使用者註冊] 報告中提供的資訊。</span><span class="sxs-lookup"><span data-stu-id="5558c-206">The following table lists the information provided in the User Registration Report.</span></span>
+<span data-ttu-id="72e3b-206">下表列出使用者註冊報告提供的資訊。</span><span class="sxs-lookup"><span data-stu-id="72e3b-206">The following table lists the information provided in the User Registration Report.</span></span>
 
-### <a name="user-registration-report-metrics"></a><span data-ttu-id="5558c-207">使用者註冊報告度量單位</span><span class="sxs-lookup"><span data-stu-id="5558c-207">User Registration Report Metrics</span></span>
+### <a name="user-registration-report-metrics"></a><span data-ttu-id="72e3b-207">使用者註冊報告計量</span><span class="sxs-lookup"><span data-stu-id="72e3b-207">User Registration Report Metrics</span></span>
 
 <table>
 <colgroup>
@@ -201,44 +201,44 @@ ms.locfileid: "41744513"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="5558c-208">名稱</span><span class="sxs-lookup"><span data-stu-id="5558c-208">Name</span></span></th>
-<th><span data-ttu-id="5558c-209">您可以針對此專案進行排序嗎？</span><span class="sxs-lookup"><span data-stu-id="5558c-209">Can you sort on this item?</span></span></th>
-<th><span data-ttu-id="5558c-210">說明</span><span class="sxs-lookup"><span data-stu-id="5558c-210">Description</span></span></th>
+<th><span data-ttu-id="72e3b-208">姓名</span><span class="sxs-lookup"><span data-stu-id="72e3b-208">Name</span></span></th>
+<th><span data-ttu-id="72e3b-209">可以排序這個項目嗎？</span><span class="sxs-lookup"><span data-stu-id="72e3b-209">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="72e3b-210">描述</span><span class="sxs-lookup"><span data-stu-id="72e3b-210">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="5558c-211"><strong>工資</strong></span><span class="sxs-lookup"><span data-stu-id="5558c-211"><strong>Hourly</strong></span></span></p>
-<p><span data-ttu-id="5558c-212"><strong>日常</strong></span><span class="sxs-lookup"><span data-stu-id="5558c-212"><strong>Daily</strong></span></span></p>
-<p><span data-ttu-id="5558c-213"><strong>周更新</strong></span><span class="sxs-lookup"><span data-stu-id="5558c-213"><strong>Weekly</strong></span></span></p>
-<p><span data-ttu-id="5558c-214"><strong>次</strong></span><span class="sxs-lookup"><span data-stu-id="5558c-214"><strong>Monthly</strong></span></span></p></td>
-<td><p><span data-ttu-id="5558c-215">否</span><span class="sxs-lookup"><span data-stu-id="5558c-215">No</span></span></p></td>
-<td><p><span data-ttu-id="5558c-216">指出您在 [篩選] 工具列上選取的時間間隔。</span><span class="sxs-lookup"><span data-stu-id="5558c-216">Indicates the time interval that you selected on the filter toolbar.</span></span> <span data-ttu-id="5558c-217">在適當的地方，您可以按一下指定的時間間隔，以查看該間隔的詳細資訊。</span><span class="sxs-lookup"><span data-stu-id="5558c-217">Where applicable, you can click a given time interval to view detailed information for that interval.</span></span> <span data-ttu-id="5558c-218">例如，如果您使用的是每日間隔，而您按一下 [7/7/2012]，就會看到該日期的使用者註冊活動的每小時細目。</span><span class="sxs-lookup"><span data-stu-id="5558c-218">For example, if you are using the Daily interval and you click 7/7/2012, you see an hourly breakdown of user registration activity for that date.</span></span></p></td>
+<td><p><span data-ttu-id="72e3b-211"><strong>每小時</strong></span><span class="sxs-lookup"><span data-stu-id="72e3b-211"><strong>Hourly</strong></span></span></p>
+<p><span data-ttu-id="72e3b-212"><strong>每日</strong></span><span class="sxs-lookup"><span data-stu-id="72e3b-212"><strong>Daily</strong></span></span></p>
+<p><span data-ttu-id="72e3b-213"><strong>每週</strong></span><span class="sxs-lookup"><span data-stu-id="72e3b-213"><strong>Weekly</strong></span></span></p>
+<p><span data-ttu-id="72e3b-214"><strong>每月</strong></span><span class="sxs-lookup"><span data-stu-id="72e3b-214"><strong>Monthly</strong></span></span></p></td>
+<td><p><span data-ttu-id="72e3b-215">否</span><span class="sxs-lookup"><span data-stu-id="72e3b-215">No</span></span></p></td>
+<td><p><span data-ttu-id="72e3b-p120">在篩選工具列上顯示您所選取的時間間隔。在適用的情況下，只要按一下所指定的時間間隔，即可檢視該間隔的詳細資訊。例如，您若是使用 [每日] 間隔，然後按一下 7/7/2012，將會顯示該日之使用者註冊活動的每小時明細。</span><span class="sxs-lookup"><span data-stu-id="72e3b-p120">Indicates the time interval that you selected on the filter toolbar. Where applicable, you can click a given time interval to view detailed information for that interval. For example, if you are using the Daily interval and you click 7/7/2012, you see an hourly breakdown of user registration activity for that date.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5558c-219"><strong>登錄總計</strong></span><span class="sxs-lookup"><span data-stu-id="5558c-219"><strong>Total logons</strong></span></span></p></td>
-<td><p><span data-ttu-id="5558c-220">否</span><span class="sxs-lookup"><span data-stu-id="5558c-220">No</span></span></p></td>
-<td><p><span data-ttu-id="5558c-221">成功登入會話的總數。</span><span class="sxs-lookup"><span data-stu-id="5558c-221">Total number of successful logon sessions.</span></span></p></td>
+<td><p><span data-ttu-id="72e3b-219"><strong>登入總數</strong></span><span class="sxs-lookup"><span data-stu-id="72e3b-219"><strong>Total logons</strong></span></span></p></td>
+<td><p><span data-ttu-id="72e3b-220">否</span><span class="sxs-lookup"><span data-stu-id="72e3b-220">No</span></span></p></td>
+<td><p><span data-ttu-id="72e3b-221">登入工作階段總數。</span><span class="sxs-lookup"><span data-stu-id="72e3b-221">Total number of successful logon sessions.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="5558c-222"><strong>內部登錄</strong></span><span class="sxs-lookup"><span data-stu-id="5558c-222"><strong>Internal logons</strong></span></span></p></td>
-<td><p><span data-ttu-id="5558c-223">否</span><span class="sxs-lookup"><span data-stu-id="5558c-223">No</span></span></p></td>
-<td><p><span data-ttu-id="5558c-224">內部網路中的登錄總數量。</span><span class="sxs-lookup"><span data-stu-id="5558c-224">Total number of logons within the internal network.</span></span></p></td>
+<td><p><span data-ttu-id="72e3b-222"><strong>內部登入</strong></span><span class="sxs-lookup"><span data-stu-id="72e3b-222"><strong>Internal logons</strong></span></span></p></td>
+<td><p><span data-ttu-id="72e3b-223">否</span><span class="sxs-lookup"><span data-stu-id="72e3b-223">No</span></span></p></td>
+<td><p><span data-ttu-id="72e3b-224">內部網路內的登入總數。</span><span class="sxs-lookup"><span data-stu-id="72e3b-224">Total number of logons within the internal network.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5558c-225"><strong>外部登錄</strong></span><span class="sxs-lookup"><span data-stu-id="5558c-225"><strong>External logons</strong></span></span></p></td>
-<td><p><span data-ttu-id="5558c-226">否</span><span class="sxs-lookup"><span data-stu-id="5558c-226">No</span></span></p></td>
-<td><p><span data-ttu-id="5558c-227">使用 Edge 伺服器從內部網路外部進行的登錄總次數。</span><span class="sxs-lookup"><span data-stu-id="5558c-227">Total number of logons from outside the internal network, using the Edge Server.</span></span></p></td>
+<td><p><span data-ttu-id="72e3b-225"><strong>外部登入</strong></span><span class="sxs-lookup"><span data-stu-id="72e3b-225"><strong>External logons</strong></span></span></p></td>
+<td><p><span data-ttu-id="72e3b-226">否</span><span class="sxs-lookup"><span data-stu-id="72e3b-226">No</span></span></p></td>
+<td><p><span data-ttu-id="72e3b-227">使用 Edge Server，來自內部網路以外的登入總數。</span><span class="sxs-lookup"><span data-stu-id="72e3b-227">Total number of logons from outside the internal network, using the Edge Server.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="5558c-228"><strong>唯一的登入使用者</strong></span><span class="sxs-lookup"><span data-stu-id="5558c-228"><strong>Unique logon users</strong></span></span></p></td>
-<td><p><span data-ttu-id="5558c-229">否</span><span class="sxs-lookup"><span data-stu-id="5558c-229">No</span></span></p></td>
-<td><p><span data-ttu-id="5558c-230">至少有一個登入會話的使用者總數。</span><span class="sxs-lookup"><span data-stu-id="5558c-230">Total number of users who had at least one logon session.</span></span> <span data-ttu-id="5558c-231">有多個登入會話的使用者會算作一個使用者，與只有單一登入會話的人一樣。</span><span class="sxs-lookup"><span data-stu-id="5558c-231">A user who had multiple logon sessions counts as one user, the same as a person who had just a single logon session.</span></span></p></td>
+<td><p><span data-ttu-id="72e3b-228"><strong>唯一登入使用者</strong></span><span class="sxs-lookup"><span data-stu-id="72e3b-228"><strong>Unique logon users</strong></span></span></p></td>
+<td><p><span data-ttu-id="72e3b-229">否</span><span class="sxs-lookup"><span data-stu-id="72e3b-229">No</span></span></p></td>
+<td><p><span data-ttu-id="72e3b-p121">至少有一次登入工作階段的使用者總數。若使用者擁有多個登入工作階段，仍會計為一個使用者；和僅有單一登入工作階段的人員相同。</span><span class="sxs-lookup"><span data-stu-id="72e3b-p121">Total number of users who had at least one logon session. A user who had multiple logon sessions counts as one user, the same as a person who had just a single logon session.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5558c-232"><strong>唯一的作用中使用者</strong></span><span class="sxs-lookup"><span data-stu-id="5558c-232"><strong>Unique active users</strong></span></span></p></td>
-<td><p><span data-ttu-id="5558c-233">否</span><span class="sxs-lookup"><span data-stu-id="5558c-233">No</span></span></p></td>
-<td><p><span data-ttu-id="5558c-234">參與對等或會議會話的使用者總數。</span><span class="sxs-lookup"><span data-stu-id="5558c-234">Total number of users who were involved in a peer-to-peer or conferencing session.</span></span> <span data-ttu-id="5558c-235">擁有多個會議的使用者，與只有單一會話的人員相同。</span><span class="sxs-lookup"><span data-stu-id="5558c-235">A user who had multiple sessions counts as one user, the same as a person who had just a single session.</span></span></p></td>
+<td><p><span data-ttu-id="72e3b-232"><strong>唯一作用中使用者</strong></span><span class="sxs-lookup"><span data-stu-id="72e3b-232"><strong>Unique active users</strong></span></span></p></td>
+<td><p><span data-ttu-id="72e3b-233">否</span><span class="sxs-lookup"><span data-stu-id="72e3b-233">No</span></span></p></td>
+<td><p><span data-ttu-id="72e3b-p122">參與對等或會議工作階段的使用者總數。若使用者擁有多個登入工作階段，仍會計為一個使用者；和僅有單一登入工作階段的人員相同。</span><span class="sxs-lookup"><span data-stu-id="72e3b-p122">Total number of users who were involved in a peer-to-peer or conferencing session. A user who had multiple sessions counts as one user, the same as a person who had just a single session.</span></span></p></td>
 </tr>
 </tbody>
 </table>

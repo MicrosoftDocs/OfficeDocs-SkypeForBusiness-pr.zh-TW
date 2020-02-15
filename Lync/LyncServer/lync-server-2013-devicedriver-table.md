@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：DeviceDriver 表格
+title: 'Lync Server 2013:: DeviceDriver 表格'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185449
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f52354a153f155f57ce6466ea8082b63ef105e34
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b7431be7ceb964aead28b3c9fa76593c9dda891a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762361"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044855"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="devicedriver-table-in-lync-server-2013"></a><span data-ttu-id="13afe-102">Lync Server 2013 中的 DeviceDriver 表格</span><span class="sxs-lookup"><span data-stu-id="13afe-102">DeviceDriver table in Lync Server 2013</span></span>
+# <a name="devicedriver-table-in-lync-server-2013"></a><span data-ttu-id="0dfc8-102">在 [Lync Server 2013: DeviceDriver 表格</span><span class="sxs-lookup"><span data-stu-id="0dfc8-102">DeviceDriver table in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41762361"
 
 <span> </span>
 
-<span data-ttu-id="13afe-103">_**主題上次修改日期：** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="13afe-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+<span data-ttu-id="0dfc8-103">_**主題上次修改日期：** 2012年-10-02_</span><span class="sxs-lookup"><span data-stu-id="0dfc8-103">_**Topic Last Modified:** 2012-10-02_</span></span>
 
-<span data-ttu-id="13afe-104">DeviceDriver 資料表是支援資料表。</span><span class="sxs-lookup"><span data-stu-id="13afe-104">The DeviceDriver table is a supporting table.</span></span> <span data-ttu-id="13afe-105">每個記錄都代表擷取裝置或轉譯裝置所使用的驅動程式。</span><span class="sxs-lookup"><span data-stu-id="13afe-105">Each record represents a driver used by either a capture device or render device.</span></span>
+<span data-ttu-id="0dfc8-104">: DeviceDriver 表格是一種支援資料表。</span><span class="sxs-lookup"><span data-stu-id="0dfc8-104">The DeviceDriver table is a supporting table.</span></span> <span data-ttu-id="0dfc8-105">每一筆記錄代表使用其中一個擷取裝置驅動程式，或轉換裝置。</span><span class="sxs-lookup"><span data-stu-id="0dfc8-105">Each record represents a driver used by either a capture device or render device.</span></span>
 
 
 <table>
@@ -49,24 +49,24 @@ ms.locfileid: "41762361"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="13afe-106"><strong>左欄</strong></span><span class="sxs-lookup"><span data-stu-id="13afe-106"><strong>Column</strong></span></span></th>
-<th><span data-ttu-id="13afe-107"><strong>資料類型</strong></span><span class="sxs-lookup"><span data-stu-id="13afe-107"><strong>Data Type</strong></span></span></th>
-<th><span data-ttu-id="13afe-108"><strong>索引鍵/索引</strong></span><span class="sxs-lookup"><span data-stu-id="13afe-108"><strong>Key/Index</strong></span></span></th>
-<th><span data-ttu-id="13afe-109"><strong>詳細資料</strong></span><span class="sxs-lookup"><span data-stu-id="13afe-109"><strong>Details</strong></span></span></th>
+<th><span data-ttu-id="0dfc8-106"><strong>欄</strong></span><span class="sxs-lookup"><span data-stu-id="0dfc8-106"><strong>Column</strong></span></span></th>
+<th><span data-ttu-id="0dfc8-107"><strong>資料類型</strong></span><span class="sxs-lookup"><span data-stu-id="0dfc8-107"><strong>Data Type</strong></span></span></th>
+<th><span data-ttu-id="0dfc8-108"><strong>主索引鍵 /</strong></span><span class="sxs-lookup"><span data-stu-id="0dfc8-108"><strong>Key/Index</strong></span></span></th>
+<th><span data-ttu-id="0dfc8-109"><strong>詳細資料</strong></span><span class="sxs-lookup"><span data-stu-id="0dfc8-109"><strong>Details</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="13afe-110"><strong>DeviceDriverKey</strong></span><span class="sxs-lookup"><span data-stu-id="13afe-110"><strong>DeviceDriverKey</strong></span></span></p></td>
-<td><p><span data-ttu-id="13afe-111">int</span><span class="sxs-lookup"><span data-stu-id="13afe-111">int</span></span></p></td>
-<td><p><span data-ttu-id="13afe-112">首選</span><span class="sxs-lookup"><span data-stu-id="13afe-112">Primary</span></span></p></td>
-<td><p><span data-ttu-id="13afe-113">識別此裝置驅動程式記錄的唯一號碼。</span><span class="sxs-lookup"><span data-stu-id="13afe-113">Unique number identifying this device driver record.</span></span></p></td>
+<td><p><span data-ttu-id="0dfc8-110"><strong>DeviceDriverKey</strong></span><span class="sxs-lookup"><span data-stu-id="0dfc8-110"><strong>DeviceDriverKey</strong></span></span></p></td>
+<td><p><span data-ttu-id="0dfc8-111">int</span><span class="sxs-lookup"><span data-stu-id="0dfc8-111">int</span></span></p></td>
+<td><p><span data-ttu-id="0dfc8-112">主要</span><span class="sxs-lookup"><span data-stu-id="0dfc8-112">Primary</span></span></p></td>
+<td><p><span data-ttu-id="0dfc8-113">用於識別此裝置驅動程式記錄的唯一號碼。</span><span class="sxs-lookup"><span data-stu-id="0dfc8-113">Unique number identifying this device driver record.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="13afe-114"><strong>DeviceDriver</strong></span><span class="sxs-lookup"><span data-stu-id="13afe-114"><strong>DeviceDriver</strong></span></span></p></td>
-<td><p><span data-ttu-id="13afe-115">Varchar （256）</span><span class="sxs-lookup"><span data-stu-id="13afe-115">varchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="13afe-116">唯一</span><span class="sxs-lookup"><span data-stu-id="13afe-116">unique</span></span></p></td>
-<td><p><span data-ttu-id="13afe-117">裝置驅動程式名稱。</span><span class="sxs-lookup"><span data-stu-id="13afe-117">Device driver name.</span></span></p></td>
+<td><p><span data-ttu-id="0dfc8-114"><strong>: DeviceDriver</strong></span><span class="sxs-lookup"><span data-stu-id="0dfc8-114"><strong>DeviceDriver</strong></span></span></p></td>
+<td><p><span data-ttu-id="0dfc8-115">varchar(256)</span><span class="sxs-lookup"><span data-stu-id="0dfc8-115">varchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="0dfc8-116">unique</span><span class="sxs-lookup"><span data-stu-id="0dfc8-116">unique</span></span></p></td>
+<td><p><span data-ttu-id="0dfc8-117">裝置驅動程式名稱。</span><span class="sxs-lookup"><span data-stu-id="0dfc8-117">Device driver name.</span></span></p></td>
 </tr>
 </tbody>
 </table>

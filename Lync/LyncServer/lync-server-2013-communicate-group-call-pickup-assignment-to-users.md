@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：傳達群組呼叫給使用者的裝貨指派
+title: Lync Server 2013： 通訊群組來電接聽指派給使用者
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541533
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 389416ddbab40aa4aa49d9225c7908ff4a4c82ca
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ef0eebdfdb840d1d603fd6852a4d8cd1817a44af
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742763"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045635"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="communicate-group-call-pickup-assignments-to-users-in-lync-server-2013"></a><span data-ttu-id="a47fc-102">在 Lync Server 2013 中將群組呼叫挑選指派給使用者</span><span class="sxs-lookup"><span data-stu-id="a47fc-102">Communicate Group Call Pickup assignments to users in Lync Server 2013</span></span>
+# <a name="communicate-group-call-pickup-assignments-to-users-in-lync-server-2013"></a><span data-ttu-id="ad8fb-102">通訊群組來電接聽指派給 Lync Server 2013 中的使用者</span><span class="sxs-lookup"><span data-stu-id="ad8fb-102">Communicate Group Call Pickup assignments to users in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41742763"
 
 <span> </span>
 
-<span data-ttu-id="a47fc-103">_**主題上次修改日期：** 2013-01-30_</span><span class="sxs-lookup"><span data-stu-id="a47fc-103">_**Topic Last Modified:** 2013-01-30_</span></span>
+<span data-ttu-id="ad8fb-103">_**上次修改主題：** 2013年-01-30_</span><span class="sxs-lookup"><span data-stu-id="ad8fb-103">_**Topic Last Modified:** 2013-01-30_</span></span>
 
-<span data-ttu-id="a47fc-104">在您為使用者啟用群組呼叫挑選之後，請使用電子郵件或其他機制來通知使用者他們的通話挑選群組號碼。</span><span class="sxs-lookup"><span data-stu-id="a47fc-104">After you enable Group Call Pickup for users, use email or some other mechanism to notify users of their call pickup group number.</span></span> <span data-ttu-id="a47fc-105">針對任何您可能想要監視的群組，將 [呼叫挑選] 群組號碼通知給使用者。</span><span class="sxs-lookup"><span data-stu-id="a47fc-105">Notify users of the call pickup group number for any group that they might want to monitor.</span></span> <span data-ttu-id="a47fc-106">因為使用者可以為其他使用者檢索來電，即使他們不在同一個群組中，使用者可能需要多個群組的呼叫挑選群組號碼。</span><span class="sxs-lookup"><span data-stu-id="a47fc-106">Because users can retrieve calls for other users even if they are not in the same group, users might need the call pickup group number for multiple groups.</span></span>
+<span data-ttu-id="ad8fb-104">為使用者啟用群組來電接聽之後，使用電子郵件或其他某種機制來通知使用者他們的通話收取群組號碼。</span><span class="sxs-lookup"><span data-stu-id="ad8fb-104">After you enable Group Call Pickup for users, use email or some other mechanism to notify users of their call pickup group number.</span></span> <span data-ttu-id="ad8fb-105">通知使用者他們可能會想要監視的任何群組的通話收取群組編號。</span><span class="sxs-lookup"><span data-stu-id="ad8fb-105">Notify users of the call pickup group number for any group that they might want to monitor.</span></span> <span data-ttu-id="ad8fb-106">使用者可以擷取其他使用者的呼叫，即使它們不在相同的群組，因為使用者可能需要呼叫收取的群組數目的多個群組。</span><span class="sxs-lookup"><span data-stu-id="ad8fb-106">Because users can retrieve calls for other users even if they are not in the same group, users might need the call pickup group number for multiple groups.</span></span>
 
 </div>
 

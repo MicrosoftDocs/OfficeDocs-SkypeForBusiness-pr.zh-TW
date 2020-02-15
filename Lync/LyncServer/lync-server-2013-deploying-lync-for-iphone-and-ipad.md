@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：部署 Lync for iPhone 和 iPad
+title: Lync Server 2013： 部署 Lync for iPhone 和 iPad
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541511
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d3cf86aa601d17301b261ae8144c0b911672a0bd
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 888fdd0a34973d5b7c7b6063056c98d4426a2f1a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758027"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050465"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploying-lync-for-iphone-and-ipad-in-lync-server-2013"></a><span data-ttu-id="936f6-102">在 Lync Server 2013 中部署 iPhone 和 iPad 版 Lync</span><span class="sxs-lookup"><span data-stu-id="936f6-102">Deploying Lync for iPhone and iPad in Lync Server 2013</span></span>
+# <a name="deploying-lync-for-iphone-and-ipad-in-lync-server-2013"></a><span data-ttu-id="5dd7e-102">部署 Lync for iPhone 和 Lync Server 2013 中的 iPad</span><span class="sxs-lookup"><span data-stu-id="5dd7e-102">Deploying Lync for iPhone and iPad in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41758027"
 
 <span> </span>
 
-<span data-ttu-id="936f6-103">_**主題上次修改日期：** 2013-02-19_</span><span class="sxs-lookup"><span data-stu-id="936f6-103">_**Topic Last Modified:** 2013-02-19_</span></span>
+<span data-ttu-id="5dd7e-103">_**上次修改主題：** 2013年-02-19_</span><span class="sxs-lookup"><span data-stu-id="5dd7e-103">_**Topic Last Modified:** 2013-02-19_</span></span>
 
-<span data-ttu-id="936f6-104">本節說明如何針對您的行動使用者，為 iPhone 和 iPad 版 Lync 2013 部署 Lync 2013。</span><span class="sxs-lookup"><span data-stu-id="936f6-104">This section describes how to deploy Lync 2013 for iPhone and Lync 2013 for iPad for your mobile users.</span></span>
+<span data-ttu-id="5dd7e-104">本節說明如何部署 Lync 2013 for iPhone 和 iPad 為行動使用者的 Lync 2013。</span><span class="sxs-lookup"><span data-stu-id="5dd7e-104">This section describes how to deploy Lync 2013 for iPhone and Lync 2013 for iPad for your mobile users.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="936f6-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="936f6-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="5dd7e-105">本章節內容</span><span class="sxs-lookup"><span data-stu-id="5dd7e-105">In This Section</span></span>
 
-  - [<span data-ttu-id="936f6-106">在 Lync Server 2013 中安裝 Lync for iPhone 和 iPad</span><span class="sxs-lookup"><span data-stu-id="936f6-106">Installing Lync for iPhone and iPad in Lync Server 2013</span></span>](lync-server-2013-installing-lync-for-iphone-and-ipad.md)
+  - [<span data-ttu-id="5dd7e-106">安裝 Lync for iPhone 和 Lync Server 2013 中的 iPad</span><span class="sxs-lookup"><span data-stu-id="5dd7e-106">Installing Lync for iPhone and iPad in Lync Server 2013</span></span>](lync-server-2013-installing-lync-for-iphone-and-ipad.md)
 
-  - [<span data-ttu-id="936f6-107">在 Lync Server 2013 中移除 iPhone 和 iPad 版 Lync</span><span class="sxs-lookup"><span data-stu-id="936f6-107">Removing Lync for iPhone and iPad in Lync Server 2013</span></span>](lync-server-2013-removing-lync-for-iphone-and-ipad.md)
+  - [<span data-ttu-id="5dd7e-107">移除 Lync for iPhone 和 Lync Server 2013 中的 iPad</span><span class="sxs-lookup"><span data-stu-id="5dd7e-107">Removing Lync for iPhone and iPad in Lync Server 2013</span></span>](lync-server-2013-removing-lync-for-iphone-and-ipad.md)
 
 </div>
 

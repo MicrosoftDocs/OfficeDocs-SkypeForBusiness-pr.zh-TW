@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：啟用常設聊天室伺服器原則
+title: Lync Server 2013： 啟用常設聊天室伺服器原則
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184718
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 27d87277c813c24ae36de14430bc711d991d7181
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f1f98275ee911d1abecbc60907653ad8de0a4222
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735983"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046696"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="enable-persistent-chat-server-policy-in-lync-server-2013"></a><span data-ttu-id="cb54d-102">在 Lync Server 2013 中啟用常設聊天室伺服器原則</span><span class="sxs-lookup"><span data-stu-id="cb54d-102">Enable Persistent Chat Server policy in Lync Server 2013</span></span>
+# <a name="enable-persistent-chat-server-policy-in-lync-server-2013"></a><span data-ttu-id="4e1ac-102">啟用 Lync Server 2013 中的常設聊天室伺服器原則</span><span class="sxs-lookup"><span data-stu-id="4e1ac-102">Enable Persistent Chat Server policy in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "41735983"
 
 <span> </span>
 
-<span data-ttu-id="cb54d-103">_**主題上次修改日期：** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="cb54d-103">_**Topic Last Modified:** 2012-10-06_</span></span>
+<span data-ttu-id="4e1ac-103">_**主題上次修改日期：** 2012年-10-06_</span><span class="sxs-lookup"><span data-stu-id="4e1ac-103">_**Topic Last Modified:** 2012-10-06_</span></span>
 
-<span data-ttu-id="cb54d-104">在 Lync Server 2013 的 [控制台] 中，您可以使用 [**永久**聊天] 群組的 [**持續聊天原則**] 頁面，管理全域、池、網站或使用者層級的原則，包括設定預設全域原則，並為您的部署建立一或多個額外的使用者和網站原則。</span><span class="sxs-lookup"><span data-stu-id="cb54d-104">In the Lync Server 2013 Control Panel, you can use the **Persistent Chat Policy** page of the **Persistent Chat** group to manage policies at a global, pool, site, or user level, including configuring the default global policy and creating one or more additional user and site policies for your deployment.</span></span> <span data-ttu-id="cb54d-105">如果使用者依原則啟用持久聊天伺服器，則會在其 Lync 2013 用戶端中顯示持續聊天伺服器的環境。</span><span class="sxs-lookup"><span data-stu-id="cb54d-105">If a user is enabled for Persistent Chat Server by policy, then the Persistent Chat Server environment appears in their Lync 2013 client.</span></span>
-
-<div>
-
-
-> [!NOTE]  
-> <span data-ttu-id="cb54d-106">在拓撲中，持續式聊天伺服器網站原則會全域、每個使用者的池子或每個使用者的網站，或每個使用者。</span><span class="sxs-lookup"><span data-stu-id="cb54d-106">In the topology, Persistent Chat Server site policies apply globally, per user’s pool, or per user’s site, or per user.</span></span>
-
-
-
-</div>
-
-<span data-ttu-id="cb54d-107">全域原則是在您部署持久聊天伺服器時自動建立，而且可以設定，但不能刪除。</span><span class="sxs-lookup"><span data-stu-id="cb54d-107">The global policy is created automatically when you deploy Persistent Chat Server, and it can be configured, but not deleted.</span></span> <span data-ttu-id="cb54d-108">由於全域原則會套用至所有使用者，所以不需要為每個使用者個別設定。</span><span class="sxs-lookup"><span data-stu-id="cb54d-108">Because the global policy applies to all users, it doesn’t have to be set per user.</span></span>
-
-<span data-ttu-id="cb54d-109">您可以建立及設定多個網站和使用者原則，搭配全域原則，可讓使用者使用持久聊天伺服器。</span><span class="sxs-lookup"><span data-stu-id="cb54d-109">You can create and configure multiple site and user policies which, together with the global policy, enable users for Persistent Chat Server.</span></span> <span data-ttu-id="cb54d-110">文件庫和網站持續聊天伺服器原則會覆寫全域持久聊天伺服器原則，但只適用于該網站的使用者。</span><span class="sxs-lookup"><span data-stu-id="cb54d-110">Pool and site Persistent Chat Server policies override the global Persistent Chat Server policy, but only for users of that site.</span></span> <span data-ttu-id="cb54d-111">針對受指派使用原則的使用者，使用者原則會優先於全域、集區和網站原則。</span><span class="sxs-lookup"><span data-stu-id="cb54d-111">User policies override both global, pool, and site policies for the users to whom the user policy is assigned.</span></span>
+<span data-ttu-id="4e1ac-104">在 Lync Server 2013 控制台中，您可以使用 [**常設聊天室原則**] 頁面上的 [**常設聊天室**] 群組來管理在全域、 集區、 網站或使用者層級，包括設定預設的全域原則，並建立一或多個額外的使用者與您的部署的網站原則的原則。</span><span class="sxs-lookup"><span data-stu-id="4e1ac-104">In the Lync Server 2013 Control Panel, you can use the **Persistent Chat Policy** page of the **Persistent Chat** group to manage policies at a global, pool, site, or user level, including configuring the default global policy and creating one or more additional user and site policies for your deployment.</span></span> <span data-ttu-id="4e1ac-105">Persistent Chat Server 啟用使用者的原則，然後 Persistent Chat Server 的環境會出現在其 Lync 2013 用戶端。</span><span class="sxs-lookup"><span data-stu-id="4e1ac-105">If a user is enabled for Persistent Chat Server by policy, then the Persistent Chat Server environment appears in their Lync 2013 client.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="cb54d-112">若要設定及使用持續聊天伺服器，您必須先使用拓撲建立器，才能將持續聊天伺服器支援新增到拓撲結構，然後發佈拓撲。</span><span class="sxs-lookup"><span data-stu-id="cb54d-112">To configure and use Persistent Chat Server, you must first use Topology Builder to add Persistent Chat Server support to the topology, and then publish the topology.</span></span> <span data-ttu-id="cb54d-113">如需詳細資訊，請參閱在部署檔中，<A href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">將永久性聊天伺服器新增到 Lync Server 2013</A>中的部署。</span><span class="sxs-lookup"><span data-stu-id="cb54d-113">For details, see <A href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">Adding Persistent Chat Server to your deployment in Lync Server 2013</A> in the Deployment documentation.</span></span>
+> <span data-ttu-id="4e1ac-106">在拓撲中，具有全面性的 Persistent Chat Server 網站原則套用每個使用者的集區，或每個使用者的網站，或每位使用者。</span><span class="sxs-lookup"><span data-stu-id="4e1ac-106">In the topology, Persistent Chat Server site policies apply globally, per user’s pool, or per user’s site, or per user.</span></span>
+
+
+
+</div>
+
+<span data-ttu-id="4e1ac-107">當您部署 Persistent Chat Server，並設定，但不是會刪除時，會自動建立的全域原則。</span><span class="sxs-lookup"><span data-stu-id="4e1ac-107">The global policy is created automatically when you deploy Persistent Chat Server, and it can be configured, but not deleted.</span></span> <span data-ttu-id="4e1ac-108">由於全域原則會套用至所有使用者，所以不需要為每個使用者個別設定。</span><span class="sxs-lookup"><span data-stu-id="4e1ac-108">Because the global policy applies to all users, it doesn’t have to be set per user.</span></span>
+
+<span data-ttu-id="4e1ac-109">您可以建立及設定多個網站與使用者原則，以及全域原則，讓使用者 for Persistent Chat Server。</span><span class="sxs-lookup"><span data-stu-id="4e1ac-109">You can create and configure multiple site and user policies which, together with the global policy, enable users for Persistent Chat Server.</span></span> <span data-ttu-id="4e1ac-110">集區與站台 Persistent Chat Server 原則會覆寫全域常設聊天室伺服器原則，但僅會針對該網站的使用者。</span><span class="sxs-lookup"><span data-stu-id="4e1ac-110">Pool and site Persistent Chat Server policies override the global Persistent Chat Server policy, but only for users of that site.</span></span> <span data-ttu-id="4e1ac-111">對於獲指派指使用原則的使用者，使用者原則會優先於其全域、集區和網站原則。</span><span class="sxs-lookup"><span data-stu-id="4e1ac-111">User policies override both global, pool, and site policies for the users to whom the user policy is assigned.</span></span>
+
+<div>
+
+
+> [!NOTE]  
+> <span data-ttu-id="4e1ac-112">若要設定及使用 Persistent Chat Server，您必須先使用拓撲產生器將 Persistent Chat Server 支援新增至拓撲，並再發行拓撲。</span><span class="sxs-lookup"><span data-stu-id="4e1ac-112">To configure and use Persistent Chat Server, you must first use Topology Builder to add Persistent Chat Server support to the topology, and then publish the topology.</span></span> <span data-ttu-id="4e1ac-113">如需詳細資訊，請參閱部署文件中的<A href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">新增 Persistent Chat Server 至 Lync Server 2013 中部署</A>。</span><span class="sxs-lookup"><span data-stu-id="4e1ac-113">For details, see <A href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">Adding Persistent Chat Server to your deployment in Lync Server 2013</A> in the Deployment documentation.</span></span>
 
 
 
@@ -65,15 +65,15 @@ ms.locfileid: "41735983"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="cb54d-114">本節內容</span><span class="sxs-lookup"><span data-stu-id="cb54d-114">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="4e1ac-114">本章節內容</span><span class="sxs-lookup"><span data-stu-id="4e1ac-114">In This Section</span></span>
 
-  - [<span data-ttu-id="cb54d-115">在 Lync Server 2013 中設定常設聊天室的全域原則</span><span class="sxs-lookup"><span data-stu-id="cb54d-115">Configure the global policy for Persistent Chat in Lync Server 2013</span></span>](lync-server-2013-configure-the-global-policy-for-persistent-chat.md)
+  - [<span data-ttu-id="4e1ac-115">針對常設聊天室 Lync Server 2013 中設定的全域原則</span><span class="sxs-lookup"><span data-stu-id="4e1ac-115">Configure the global policy for Persistent Chat in Lync Server 2013</span></span>](lync-server-2013-configure-the-global-policy-for-persistent-chat.md)
 
-  - [<span data-ttu-id="cb54d-116">在 Lync Server 2013 中建立常設聊天室的網站原則</span><span class="sxs-lookup"><span data-stu-id="cb54d-116">Create a site policy for Persistent Chat in Lync Server 2013</span></span>](lync-server-2013-create-a-site-policy-for-persistent-chat.md)
+  - [<span data-ttu-id="4e1ac-116">常設聊天室 Lync Server 2013 中建立的網站原則</span><span class="sxs-lookup"><span data-stu-id="4e1ac-116">Create a site policy for Persistent Chat in Lync Server 2013</span></span>](lync-server-2013-create-a-site-policy-for-persistent-chat.md)
 
-  - [<span data-ttu-id="cb54d-117">在 Lync Server 2013 中建立常設聊天室的使用者原則</span><span class="sxs-lookup"><span data-stu-id="cb54d-117">Create a user policy for Persistent Chat in Lync Server 2013</span></span>](lync-server-2013-create-a-user-policy-for-persistent-chat.md)
+  - [<span data-ttu-id="4e1ac-117">針對常設聊天室 Lync Server 2013 中建立使用者原則</span><span class="sxs-lookup"><span data-stu-id="4e1ac-117">Create a user policy for Persistent Chat in Lync Server 2013</span></span>](lync-server-2013-create-a-user-policy-for-persistent-chat.md)
 
-  - [<span data-ttu-id="cb54d-118">在 Lync Server 2013 中將常設聊天室原則套用至使用者或使用者群組</span><span class="sxs-lookup"><span data-stu-id="cb54d-118">Apply a Persistent Chat policy to a user or user group in Lync Server 2013</span></span>](lync-server-2013-apply-a-persistent-chat-policy-to-a-user-or-user-group.md)
+  - [<span data-ttu-id="4e1ac-118">常設聊天室原則套用至使用者或 Lync Server 2013 中的使用者群組</span><span class="sxs-lookup"><span data-stu-id="4e1ac-118">Apply a Persistent Chat policy to a user or user group in Lync Server 2013</span></span>](lync-server-2013-apply-a-persistent-chat-policy-to-a-user-or-user-group.md)
 
 </div>
 

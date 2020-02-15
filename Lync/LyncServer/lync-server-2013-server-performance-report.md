@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：伺服器效能報告
+title: Lync Server 2013： 伺服器效能報告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184879
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: acb7e01086ac423380a913b75391ec3086ee3736
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e60757721a9244a55e7ce341be6834934108858a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764861"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050695"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="server-performance-report-in-lync-server-2013"></a><span data-ttu-id="f81c2-102">Lync Server 2013 中的伺服器效能報告</span><span class="sxs-lookup"><span data-stu-id="f81c2-102">Server Performance Report in Lync Server 2013</span></span>
+# <a name="server-performance-report-in-lync-server-2013"></a><span data-ttu-id="e1b66-102">Lync Server 2013 中的伺服器效能報告</span><span class="sxs-lookup"><span data-stu-id="e1b66-102">Server Performance Report in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,59 +35,59 @@ ms.locfileid: "41764861"
 
 <span> </span>
 
-<span data-ttu-id="f81c2-103">_**主題上次修改日期：** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="f81c2-103">_**Topic Last Modified:** 2012-10-01_</span></span>
+<span data-ttu-id="e1b66-103">_**主題上次修改日期：** 2012年-10-01_</span><span class="sxs-lookup"><span data-stu-id="e1b66-103">_**Topic Last Modified:** 2012-10-01_</span></span>
 
-<span data-ttu-id="f81c2-104">伺服器效能報告會提供 Microsoft Lync Server 2013 伺服器的清單，這些伺服器已經歷最高百分比的不佳通話。</span><span class="sxs-lookup"><span data-stu-id="f81c2-104">The Server Performance Report provides a list of Microsoft Lync Server 2013 servers that have experienced the highest-percentage of poor calls.</span></span> <span data-ttu-id="f81c2-105">報告會依據伺服器類型來細分伺服器，並報告個別的統計資料，以進行下列類型：</span><span class="sxs-lookup"><span data-stu-id="f81c2-105">The report breaks down servers by server type, reporting separate statistics for the following types:</span></span>
+<span data-ttu-id="e1b66-104">伺服器效能報告提供經歷最高-收訊不良通話百分比的 Microsoft Lync Server 2013 伺服器的清單。</span><span class="sxs-lookup"><span data-stu-id="e1b66-104">The Server Performance Report provides a list of Microsoft Lync Server 2013 servers that have experienced the highest-percentage of poor calls.</span></span> <span data-ttu-id="e1b66-105">報表會分解伺服器的伺服器類型，報告下列類型的不同統計資料：</span><span class="sxs-lookup"><span data-stu-id="e1b66-105">The report breaks down servers by server type, reporting separate statistics for the following types:</span></span>
 
-  - <span data-ttu-id="f81c2-106">中繼伺服器</span><span class="sxs-lookup"><span data-stu-id="f81c2-106">Mediation Server</span></span>
+  - <span data-ttu-id="e1b66-106">中繼伺服器</span><span class="sxs-lookup"><span data-stu-id="e1b66-106">Mediation Server</span></span>
 
-  - <span data-ttu-id="f81c2-107">A/V 會議伺服器</span><span class="sxs-lookup"><span data-stu-id="f81c2-107">A/V Conferencing Server</span></span>
+  - <span data-ttu-id="e1b66-107">A/V Conferencing Server</span><span class="sxs-lookup"><span data-stu-id="e1b66-107">A/V Conferencing Server</span></span>
 
-  - <span data-ttu-id="f81c2-108">A/V 邊緣伺服器</span><span class="sxs-lookup"><span data-stu-id="f81c2-108">A/V Edge Server</span></span>
+  - <span data-ttu-id="e1b66-108">A/V Edge Server</span><span class="sxs-lookup"><span data-stu-id="e1b66-108">A/V Edge Server</span></span>
 
-  - <span data-ttu-id="f81c2-109">閘道（中繼伺服器）</span><span class="sxs-lookup"><span data-stu-id="f81c2-109">Gateway (Mediation Server)</span></span>
+  - <span data-ttu-id="e1b66-109">閘道 （中繼伺服器）</span><span class="sxs-lookup"><span data-stu-id="e1b66-109">Gateway (Mediation Server)</span></span>
 
-  - <span data-ttu-id="f81c2-110">閘道（中繼伺服器旁路）</span><span class="sxs-lookup"><span data-stu-id="f81c2-110">Gateway (Mediation Server bypass)</span></span>
+  - <span data-ttu-id="e1b66-110">閘道 （中繼伺服器旁路）</span><span class="sxs-lookup"><span data-stu-id="e1b66-110">Gateway (Mediation Server bypass)</span></span>
 
-  - <span data-ttu-id="f81c2-111">影片（包括 A/V 會議伺服器與 A/V 邊緣伺服器的視頻指標）</span><span class="sxs-lookup"><span data-stu-id="f81c2-111">Video (including video metrics for A/V Conferencing servers and A/V Edge servers)</span></span>
+  - <span data-ttu-id="e1b66-111">視訊 (包括視訊計量 a / V 會議伺服器和 A / V Edge server)</span><span class="sxs-lookup"><span data-stu-id="e1b66-111">Video (including video metrics for A/V Conferencing servers and A/V Edge servers)</span></span>
 
-  - <span data-ttu-id="f81c2-112">應用程式共用（包括 A/V 會議伺服器與 A/V 邊緣伺服器的應用程式共用指標）</span><span class="sxs-lookup"><span data-stu-id="f81c2-112">Application Sharing (including application sharing metrics for A/V Conferencing servers and A/V Edge servers)</span></span>
+  - <span data-ttu-id="e1b66-112">應用程式共用 (包括應用程式共用計量 a / V 會議伺服器和 A / V Edge server)</span><span class="sxs-lookup"><span data-stu-id="e1b66-112">Application Sharing (including application sharing metrics for A/V Conferencing servers and A/V Edge servers)</span></span>
 
-<span data-ttu-id="f81c2-113">請務必注意，此報告中顯示的排名是相對排名。</span><span class="sxs-lookup"><span data-stu-id="f81c2-113">It’s important to note that the ranking shown in this report as relative rankings.</span></span> <span data-ttu-id="f81c2-114">例如，假設您最糟糕的伺服器在其1000的撥入呼叫中有一個不佳的呼叫。</span><span class="sxs-lookup"><span data-stu-id="f81c2-114">For example, suppose your worst-performing server had one poor call among its 1,000 placed calls.</span></span> <span data-ttu-id="f81c2-115">這是一個大於-可接受的百分比。1%。</span><span class="sxs-lookup"><span data-stu-id="f81c2-115">That's a more-than-acceptable percentage of .1%.</span></span> <span data-ttu-id="f81c2-116">不過，如果這是您所擁有的最差執行伺服器（也就是如果所有其他伺服器的通話百分比都不是0.1%），則該伺服器仍會出現在 [伺服器效能] 報告中。</span><span class="sxs-lookup"><span data-stu-id="f81c2-116">However, if that's the worst-performing server you have (that is, if all your other servers have a poor call percentage even lower than .1%), then that server will still appear on the Server Performance Report.</span></span>
+<span data-ttu-id="e1b66-113">請務必注意，在此報告中顯示成相對排名排名。</span><span class="sxs-lookup"><span data-stu-id="e1b66-113">It’s important to note that the ranking shown in this report as relative rankings.</span></span> <span data-ttu-id="e1b66-114">例如，假設您最壞打算執行的伺服器有其 1000 撥電話之間的一個收訊不良通話。</span><span class="sxs-lookup"><span data-stu-id="e1b66-114">For example, suppose your worst-performing server had one poor call among its 1,000 placed calls.</span></span> <span data-ttu-id="e1b66-115">這是更多比接受百分比。 1%。</span><span class="sxs-lookup"><span data-stu-id="e1b66-115">That's a more-than-acceptable percentage of .1%.</span></span> <span data-ttu-id="e1b66-116">不過，如果這是最壞打算執行伺服器必須 (亦即，如果所有其他伺服器有即使低於收訊不良通話百分比。 1%)，然後該伺服器仍會出現在 [伺服器效能報告。</span><span class="sxs-lookup"><span data-stu-id="e1b66-116">However, if that's the worst-performing server you have (that is, if all your other servers have a poor call percentage even lower than .1%), then that server will still appear on the Server Performance Report.</span></span>
 
 <div>
 
-## <a name="accessing-the-server-performance-report"></a><span data-ttu-id="f81c2-117">存取伺服器效能報告</span><span class="sxs-lookup"><span data-stu-id="f81c2-117">Accessing the Server Performance Report</span></span>
+## <a name="accessing-the-server-performance-report"></a><span data-ttu-id="e1b66-117">存取伺服器效能報告</span><span class="sxs-lookup"><span data-stu-id="e1b66-117">Accessing the Server Performance Report</span></span>
 
-<span data-ttu-id="f81c2-118">伺服器效能報告是從 [監控報告] 首頁存取。</span><span class="sxs-lookup"><span data-stu-id="f81c2-118">The Server Performance Report is accessed from the Monitoring Reports home page.</span></span> <span data-ttu-id="f81c2-119">您可以按一下下列其中一個度量，[在 Lync Server 2013 中](lync-server-2013-call-list-report.md)向下切入至 [通話清單] 報告：</span><span class="sxs-lookup"><span data-stu-id="f81c2-119">You can drill down to the [Call List Report in Lync Server 2013](lync-server-2013-call-list-report.md) by clicking either of the following metrics:</span></span>
+<span data-ttu-id="e1b66-118">伺服器效能報告是從監視報告首頁存取。</span><span class="sxs-lookup"><span data-stu-id="e1b66-118">The Server Performance Report is accessed from the Monitoring Reports home page.</span></span> <span data-ttu-id="e1b66-119">您可以按一下向下切入[Call List Report Lync Server 2013 中](lync-server-2013-call-list-report.md)的下列計量之一：</span><span class="sxs-lookup"><span data-stu-id="e1b66-119">You can drill down to the [Call List Report in Lync Server 2013](lync-server-2013-call-list-report.md) by clicking either of the following metrics:</span></span>
 
-  - <span data-ttu-id="f81c2-120">通話量</span><span class="sxs-lookup"><span data-stu-id="f81c2-120">Call volume</span></span>
+  - <span data-ttu-id="e1b66-120">[通話數</span><span class="sxs-lookup"><span data-stu-id="e1b66-120">Call volume</span></span>
 
-  - <span data-ttu-id="f81c2-121">通話百分比太差</span><span class="sxs-lookup"><span data-stu-id="f81c2-121">Poor call percentage</span></span>
+  - <span data-ttu-id="e1b66-121">通話不良百分比</span><span class="sxs-lookup"><span data-stu-id="e1b66-121">Poor call percentage</span></span>
 
-<span data-ttu-id="f81c2-122">此外，您可以按一下以下度量，向下切入 [伺服器媒體質量趨勢] 報告：</span><span class="sxs-lookup"><span data-stu-id="f81c2-122">In addition, you can drill down to the Server Media Quality Trend Report by clicking the following metric:</span></span>
+<span data-ttu-id="e1b66-122">此外，您可以按一下向下切入伺服器媒體品質趨勢報告下列計量：</span><span class="sxs-lookup"><span data-stu-id="e1b66-122">In addition, you can drill down to the Server Media Quality Trend Report by clicking the following metric:</span></span>
 
-  - <span data-ttu-id="f81c2-123">傾向</span><span class="sxs-lookup"><span data-stu-id="f81c2-123">Trend</span></span>
+  - <span data-ttu-id="e1b66-123">Trend</span><span class="sxs-lookup"><span data-stu-id="e1b66-123">Trend</span></span>
 
 </div>
 
 <div>
 
-## <a name="making-the-best-use-of-the-server-performance-report"></a><span data-ttu-id="f81c2-124">充分利用伺服器效能報告</span><span class="sxs-lookup"><span data-stu-id="f81c2-124">Making the Best Use of the Server Performance Report</span></span>
+## <a name="making-the-best-use-of-the-server-performance-report"></a><span data-ttu-id="e1b66-124">伺服器效能報告的最佳用法</span><span class="sxs-lookup"><span data-stu-id="e1b66-124">Making the Best Use of the Server Performance Report</span></span>
 
-<span data-ttu-id="f81c2-125">伺服器效能報告提供了多種篩選資料的方式;例如，您可以篩選網路類型（從有線連線所撥打的通話，以及從無線連線撥打的通話），以及存取類型（從防火牆外的呼叫撥打到防火牆以外的通話）。</span><span class="sxs-lookup"><span data-stu-id="f81c2-125">The Server Performance Report provides a number of ways to filter data; for example, you can filter on network type (calls made from a wired connection vs. calls made from a wireless connection) and access type (calls made from inside the firewall vs. calls made from outside the firewall).</span></span> <span data-ttu-id="f81c2-126">當您查看伺服器效能報告以使用這些篩選器時，這是個不錯的做法。</span><span class="sxs-lookup"><span data-stu-id="f81c2-126">It's a good idea when viewing the server performance report to make use of these filters.</span></span> <span data-ttu-id="f81c2-127">例如，假設您的中繼伺服器的通話百分比較差3.24%。</span><span class="sxs-lookup"><span data-stu-id="f81c2-127">For example, suppose you have a Mediation Server that has a poor call percentage of 3.24%.</span></span> <span data-ttu-id="f81c2-128">如果您只查看無線通話，那台伺服器可能會有接近20% 的通話百分比。</span><span class="sxs-lookup"><span data-stu-id="f81c2-128">If you look solely at wireless calls, that same server might have a poor call percentage approaching 20%.</span></span> <span data-ttu-id="f81c2-129">這表示伺服器難以進行無線通話，因為伺服器沒有有線通話的問題，所以這個問題遭到了一部分遮住。</span><span class="sxs-lookup"><span data-stu-id="f81c2-129">That means that the server was having difficulty with wireless calls, a problem that is partially obscured because the server was not having problems with wired calls.</span></span>
+<span data-ttu-id="e1b66-125">伺服器效能報告提供了數種方式來篩選資料;例如，您可以篩選網路類型 （從有線連線與從無線連線的呼叫進行的通話） 和存取類型 （內部防火牆與撥打從防火牆外部進行的通話）。</span><span class="sxs-lookup"><span data-stu-id="e1b66-125">The Server Performance Report provides a number of ways to filter data; for example, you can filter on network type (calls made from a wired connection vs. calls made from a wireless connection) and access type (calls made from inside the firewall vs. calls made from outside the firewall).</span></span> <span data-ttu-id="e1b66-126">它是不錯的選項檢視伺服器效能報告進行時使用這些篩選器。</span><span class="sxs-lookup"><span data-stu-id="e1b66-126">It's a good idea when viewing the server performance report to make use of these filters.</span></span> <span data-ttu-id="e1b66-127">例如，假設您有中繼伺服器已 3.24%收訊不良通話百分比。</span><span class="sxs-lookup"><span data-stu-id="e1b66-127">For example, suppose you have a Mediation Server that has a poor call percentage of 3.24%.</span></span> <span data-ttu-id="e1b66-128">如果您查看察覺無線通話，該相同的伺服器可能達到 20%收訊不良通話百分比。</span><span class="sxs-lookup"><span data-stu-id="e1b66-128">If you look solely at wireless calls, that same server might have a poor call percentage approaching 20%.</span></span> <span data-ttu-id="e1b66-129">這表示，在伺服器已困難無線通話，因為伺服器已不會察覺有線來電的問題部分遮蔽問題。</span><span class="sxs-lookup"><span data-stu-id="e1b66-129">That means that the server was having difficulty with wireless calls, a problem that is partially obscured because the server was not having problems with wired calls.</span></span>
 
 </div>
 
 <div>
 
-## <a name="filters"></a><span data-ttu-id="f81c2-130">濾鏡</span><span class="sxs-lookup"><span data-stu-id="f81c2-130">Filters</span></span>
+## <a name="filters"></a><span data-ttu-id="e1b66-130">篩選</span><span class="sxs-lookup"><span data-stu-id="e1b66-130">Filters</span></span>
 
-<span data-ttu-id="f81c2-131">篩選提供一種方式，可讓您傳回更精細設定目標的資料集，或以不同方式查看傳回的資料。</span><span class="sxs-lookup"><span data-stu-id="f81c2-131">Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways.</span></span> <span data-ttu-id="f81c2-132">例如，伺服器效能報告可讓您執行下列動作：依伺服器類型或網路類型（也就是有線或無線）篩選傳回的資料。</span><span class="sxs-lookup"><span data-stu-id="f81c2-132">For example, the Server Performance Report enables you to do such things as filter the returned data by server type or by network type (that is, wired or wireless).</span></span> <span data-ttu-id="f81c2-133">您也可以選擇分組資料的方式。</span><span class="sxs-lookup"><span data-stu-id="f81c2-133">You can also choose how data should be grouped.</span></span> <span data-ttu-id="f81c2-134">在這種情況下，資料會依小時、日、周或月進行分組。</span><span class="sxs-lookup"><span data-stu-id="f81c2-134">In this case, data is grouped by hour, day, week, or month.</span></span>
+<span data-ttu-id="e1b66-131">篩選器可以讓您傳回更精確的資料集或者以不同方法檢視傳回的資料。</span><span class="sxs-lookup"><span data-stu-id="e1b66-131">Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways.</span></span> <span data-ttu-id="e1b66-132">例如，伺服器效能報告可讓您進行當作篩選傳回的資料的伺服器類型或網路型別 （也就是有線或無線） 等項目。</span><span class="sxs-lookup"><span data-stu-id="e1b66-132">For example, the Server Performance Report enables you to do such things as filter the returned data by server type or by network type (that is, wired or wireless).</span></span> <span data-ttu-id="e1b66-133">您也可以選擇資料的分組方式。</span><span class="sxs-lookup"><span data-stu-id="e1b66-133">You can also choose how data should be grouped.</span></span> <span data-ttu-id="e1b66-134">在此情況下，是由小時、 日、 週或月群組資料。</span><span class="sxs-lookup"><span data-stu-id="e1b66-134">In this case, data is grouped by hour, day, week, or month.</span></span>
 
-<span data-ttu-id="f81c2-135">下表列出您可與 [伺服器效能] 報告搭配使用的篩選。</span><span class="sxs-lookup"><span data-stu-id="f81c2-135">The following table lists the filters that you can use with the Server Performance Report.</span></span>
+<span data-ttu-id="e1b66-135">下表列出您可以搭配伺服器效能報告的篩選器。</span><span class="sxs-lookup"><span data-stu-id="e1b66-135">The following table lists the filters that you can use with the Server Performance Report.</span></span>
 
-### <a name="server-performance-report-filters"></a><span data-ttu-id="f81c2-136">伺服器效能報告篩選器</span><span class="sxs-lookup"><span data-stu-id="f81c2-136">Server Performance Report Filters</span></span>
+### <a name="server-performance-report-filters"></a><span data-ttu-id="e1b66-136">伺服器效能報告篩選器</span><span class="sxs-lookup"><span data-stu-id="e1b66-136">Server Performance Report Filters</span></span>
 
 <table>
 <colgroup>
@@ -96,75 +96,75 @@ ms.locfileid: "41764861"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="f81c2-137">名稱</span><span class="sxs-lookup"><span data-stu-id="f81c2-137">Name</span></span></th>
-<th><span data-ttu-id="f81c2-138">說明</span><span class="sxs-lookup"><span data-stu-id="f81c2-138">Description</span></span></th>
+<th><span data-ttu-id="e1b66-137">名稱</span><span class="sxs-lookup"><span data-stu-id="e1b66-137">Name</span></span></th>
+<th><span data-ttu-id="e1b66-138">描述</span><span class="sxs-lookup"><span data-stu-id="e1b66-138">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="f81c2-139"><strong>從</strong></span><span class="sxs-lookup"><span data-stu-id="f81c2-139"><strong>From</strong></span></span></p></td>
-<td><p><span data-ttu-id="f81c2-140">時間範圍的開始日期/時間。</span><span class="sxs-lookup"><span data-stu-id="f81c2-140">Start date/time for the time range.</span></span> <span data-ttu-id="f81c2-141">若要依時間查看資料，請輸入 [開始日期] 和 [時間]，如下所示：</span><span class="sxs-lookup"><span data-stu-id="f81c2-141">To view data by hours, enter both the start date and time as follows:</span></span></p>
-<p><span data-ttu-id="f81c2-142">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="f81c2-142">7/7/2012 1:00 PM</span></span></p>
-<p><span data-ttu-id="f81c2-143">如果您沒有輸入開始時間，報告會在指定日期自動于12:00 點開始。</span><span class="sxs-lookup"><span data-stu-id="f81c2-143">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day.</span></span> <span data-ttu-id="f81c2-144">若要依天查看資料，只需輸入日期：</span><span class="sxs-lookup"><span data-stu-id="f81c2-144">To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="f81c2-145">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="f81c2-145">7/7/2012</span></span></p>
-<p><span data-ttu-id="f81c2-146">若要依周或依月查看，請在您要查看的周或月份中，輸入您要查看的日期（不需要輸入周或月的第一天）：</span><span class="sxs-lookup"><span data-stu-id="f81c2-146">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="f81c2-147">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="f81c2-147">7/3/2012</span></span></p>
-<p><span data-ttu-id="f81c2-148">周數總是從星期日到星期六執行。</span><span class="sxs-lookup"><span data-stu-id="f81c2-148">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="e1b66-139"><strong>From</strong></span><span class="sxs-lookup"><span data-stu-id="e1b66-139"><strong>From</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1b66-p106">時間範圍的開始日期/時間。若要按照小時檢視資料，請輸入開始日期和時間，如下所示：</span><span class="sxs-lookup"><span data-stu-id="e1b66-p106">Start date/time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
+<p><span data-ttu-id="e1b66-142">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="e1b66-142">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="e1b66-p107">如果您未輸入開始時間，報告會自動從指定日期凌晨 12 點開始。若要按照日期檢視資料，只要輸入日期即可：</span><span class="sxs-lookup"><span data-stu-id="e1b66-p107">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="e1b66-145">2012/7/7</span><span class="sxs-lookup"><span data-stu-id="e1b66-145">7/7/2012</span></span></p>
+<p><span data-ttu-id="e1b66-146">若要按星期或月份檢視，請輸入當週或該月您想檢視的日期 (您不必輸入當週或該月的第一天)：</span><span class="sxs-lookup"><span data-stu-id="e1b66-146">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="e1b66-147">2012/7/3</span><span class="sxs-lookup"><span data-stu-id="e1b66-147">7/3/2012</span></span></p>
+<p><span data-ttu-id="e1b66-148">星期永遠是從星期日開始星期六結束。</span><span class="sxs-lookup"><span data-stu-id="e1b66-148">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f81c2-149"><strong>自</strong></span><span class="sxs-lookup"><span data-stu-id="f81c2-149"><strong>To</strong></span></span></p></td>
-<td><p><span data-ttu-id="f81c2-150">時間範圍的結束日期/時間。</span><span class="sxs-lookup"><span data-stu-id="f81c2-150">End date/time for the time range.</span></span> <span data-ttu-id="f81c2-151">若要依時間查看資料，請輸入 [結束日期] 和 [時間]，如下所示：</span><span class="sxs-lookup"><span data-stu-id="f81c2-151">To view data by hours, enter both the end date and time as follows:</span></span></p>
-<p><span data-ttu-id="f81c2-152">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="f81c2-152">7/7/2012 1:00 PM</span></span></p>
-<p><span data-ttu-id="f81c2-153">如果您沒有輸入結束時間，報告會在指定日期自動結束于12:00。</span><span class="sxs-lookup"><span data-stu-id="f81c2-153">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day.</span></span> <span data-ttu-id="f81c2-154">若要依天查看資料，只需輸入日期：</span><span class="sxs-lookup"><span data-stu-id="f81c2-154">To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="f81c2-155">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="f81c2-155">7/7/2012</span></span></p>
-<p><span data-ttu-id="f81c2-156">若要依周或依月查看，請在您要查看的周或月份中，輸入您要查看的日期（不需要輸入周或月的第一天）：</span><span class="sxs-lookup"><span data-stu-id="f81c2-156">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="f81c2-157">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="f81c2-157">7/3/2012</span></span></p>
-<p><span data-ttu-id="f81c2-158">周數總是從星期日到星期六執行。</span><span class="sxs-lookup"><span data-stu-id="f81c2-158">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="e1b66-149"><strong>To</strong></span><span class="sxs-lookup"><span data-stu-id="e1b66-149"><strong>To</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1b66-p108">時間範圍的結束日期/時間。若要按照小時檢視資料，請輸入開始日期和時間，如下所示：</span><span class="sxs-lookup"><span data-stu-id="e1b66-p108">End date/time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
+<p><span data-ttu-id="e1b66-152">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="e1b66-152">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="e1b66-p109">如果您未輸入結束時間，報告會自動在指定日期凌晨 12 點結束。若要按照日期檢視資料，只要輸入日期即可：</span><span class="sxs-lookup"><span data-stu-id="e1b66-p109">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="e1b66-155">2012/7/7</span><span class="sxs-lookup"><span data-stu-id="e1b66-155">7/7/2012</span></span></p>
+<p><span data-ttu-id="e1b66-156">若要按星期或月份檢視，請輸入當週或該月您想檢視的日期 (您不必輸入當週或該月的第一天)：</span><span class="sxs-lookup"><span data-stu-id="e1b66-156">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="e1b66-157">2012/7/3</span><span class="sxs-lookup"><span data-stu-id="e1b66-157">7/3/2012</span></span></p>
+<p><span data-ttu-id="e1b66-158">星期永遠是從星期日開始星期六結束。</span><span class="sxs-lookup"><span data-stu-id="e1b66-158">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f81c2-159"><strong>伺服器類型</strong></span><span class="sxs-lookup"><span data-stu-id="f81c2-159"><strong>Server type</strong></span></span></p></td>
-<td><p><span data-ttu-id="f81c2-160">指示應報告其效能的伺服器類型。</span><span class="sxs-lookup"><span data-stu-id="f81c2-160">Indicates the type of server whose performance should be reported.</span></span> <span data-ttu-id="f81c2-161">選取下列其中一項：</span><span class="sxs-lookup"><span data-stu-id="f81c2-161">Select one of the following:</span></span></p>
+<td><p><span data-ttu-id="e1b66-159"><strong>伺服器類型</strong></span><span class="sxs-lookup"><span data-stu-id="e1b66-159"><strong>Server type</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1b66-160">會指出應該報告其效能的伺服器類型。</span><span class="sxs-lookup"><span data-stu-id="e1b66-160">Indicates the type of server whose performance should be reported.</span></span> <span data-ttu-id="e1b66-161">請選取下列其中一項：</span><span class="sxs-lookup"><span data-stu-id="e1b66-161">Select one of the following:</span></span></p>
 <ol>
-<li><p><span data-ttu-id="f81c2-162">同時</span><span class="sxs-lookup"><span data-stu-id="f81c2-162">[All]</span></span></p></li>
-<li><p><span data-ttu-id="f81c2-163">中繼伺服器</span><span class="sxs-lookup"><span data-stu-id="f81c2-163">Mediation Server</span></span></p></li>
-<li><p><span data-ttu-id="f81c2-164">A/V 會議伺服器</span><span class="sxs-lookup"><span data-stu-id="f81c2-164">A/V Conferencing Server</span></span></p></li>
-<li><p><span data-ttu-id="f81c2-165">A/V 邊緣伺服器</span><span class="sxs-lookup"><span data-stu-id="f81c2-165">A/V Edge Server</span></span></p></li>
-</ol></td>
-</tr>
-<tr class="even">
-<td><p><span data-ttu-id="f81c2-166"><strong>前 N 個</strong></span><span class="sxs-lookup"><span data-stu-id="f81c2-166"><strong>Top N</strong></span></span></p></td>
-<td><p><span data-ttu-id="f81c2-167">指出每個類別中要顯示的伺服器數量（根據其不佳的通話百分比）。</span><span class="sxs-lookup"><span data-stu-id="f81c2-167">Indicates the number of servers (based on their poor call percentage) to be displayed in each category.</span></span> <span data-ttu-id="f81c2-168">例如，如果您選取 [ <strong>5</strong> ]，則會顯示五個 poorest 執行中的伺服器。</span><span class="sxs-lookup"><span data-stu-id="f81c2-168">For example, if you select <strong>5</strong> then the five poorest-performing servers are displayed.</span></span> <span data-ttu-id="f81c2-169">選取下列其中一項：</span><span class="sxs-lookup"><span data-stu-id="f81c2-169">Select one of the following:</span></span></p>
-<ol>
-<li><p><span data-ttu-id="f81c2-170">同時</span><span class="sxs-lookup"><span data-stu-id="f81c2-170">[All]</span></span></p></li>
-<li><p><span data-ttu-id="f81c2-171">500</span><span class="sxs-lookup"><span data-stu-id="f81c2-171">5</span></span></p></li>
-<li><p><span data-ttu-id="f81c2-172">第</span><span class="sxs-lookup"><span data-stu-id="f81c2-172">10</span></span></p></li>
-</ol></td>
-</tr>
-<tr class="odd">
-<td><p><span data-ttu-id="f81c2-173"><strong>Access 類型</strong></span><span class="sxs-lookup"><span data-stu-id="f81c2-173"><strong>Access type</strong></span></span></p></td>
-<td><p><span data-ttu-id="f81c2-174">指出撥打電話時，用戶端是否已登入內部網路或外部網路。</span><span class="sxs-lookup"><span data-stu-id="f81c2-174">Indicates whether the client was logged on to the internal network or the external network when the call was placed.</span></span> <span data-ttu-id="f81c2-175">選取下列其中一項：</span><span class="sxs-lookup"><span data-stu-id="f81c2-175">Select one of the following:</span></span></p>
-<ol>
-<li><p><span data-ttu-id="f81c2-176">同時</span><span class="sxs-lookup"><span data-stu-id="f81c2-176">[All]</span></span></p></li>
-<li><p><span data-ttu-id="f81c2-177">內部</span><span class="sxs-lookup"><span data-stu-id="f81c2-177">Internal</span></span></p></li>
-<li><p><span data-ttu-id="f81c2-178">外來</span><span class="sxs-lookup"><span data-stu-id="f81c2-178">External</span></span></p></li>
+<li><p><span data-ttu-id="e1b66-162">[全部]</span><span class="sxs-lookup"><span data-stu-id="e1b66-162">[All]</span></span></p></li>
+<li><p><span data-ttu-id="e1b66-163">中繼伺服器</span><span class="sxs-lookup"><span data-stu-id="e1b66-163">Mediation Server</span></span></p></li>
+<li><p><span data-ttu-id="e1b66-164">A/V Conferencing Server</span><span class="sxs-lookup"><span data-stu-id="e1b66-164">A/V Conferencing Server</span></span></p></li>
+<li><p><span data-ttu-id="e1b66-165">A/V Edge Server</span><span class="sxs-lookup"><span data-stu-id="e1b66-165">A/V Edge Server</span></span></p></li>
 </ol></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f81c2-179"><strong>網路類型</strong></span><span class="sxs-lookup"><span data-stu-id="f81c2-179"><strong>Network type</strong></span></span></p></td>
-<td><p><span data-ttu-id="f81c2-180">指出撥打電話時，用戶端連線到的網路類型。</span><span class="sxs-lookup"><span data-stu-id="f81c2-180">Indicates the type of network the client was connected to when the call was placed.</span></span> <span data-ttu-id="f81c2-181">選取下列其中一項：</span><span class="sxs-lookup"><span data-stu-id="f81c2-181">Select one of the following:</span></span></p>
+<td><p><span data-ttu-id="e1b66-166"><strong>榜尾數量</strong></span><span class="sxs-lookup"><span data-stu-id="e1b66-166"><strong>Top N</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1b66-167">若要顯示在每個類別會指出伺服器 （根據其通話不良百分比） 的數目。</span><span class="sxs-lookup"><span data-stu-id="e1b66-167">Indicates the number of servers (based on their poor call percentage) to be displayed in each category.</span></span> <span data-ttu-id="e1b66-168">例如，如果您選取<strong>5</strong>然後五個執行效能最差的伺服器會顯示。</span><span class="sxs-lookup"><span data-stu-id="e1b66-168">For example, if you select <strong>5</strong> then the five poorest-performing servers are displayed.</span></span> <span data-ttu-id="e1b66-169">請選取下列其中一項：</span><span class="sxs-lookup"><span data-stu-id="e1b66-169">Select one of the following:</span></span></p>
 <ol>
-<li><p><span data-ttu-id="f81c2-182">同時</span><span class="sxs-lookup"><span data-stu-id="f81c2-182">[All]</span></span></p></li>
-<li><p><span data-ttu-id="f81c2-183">有線</span><span class="sxs-lookup"><span data-stu-id="f81c2-183">Wired</span></span></p></li>
-<li><p><span data-ttu-id="f81c2-184">無線</span><span class="sxs-lookup"><span data-stu-id="f81c2-184">Wireless</span></span></p></li>
+<li><p><span data-ttu-id="e1b66-170">[全部]</span><span class="sxs-lookup"><span data-stu-id="e1b66-170">[All]</span></span></p></li>
+<li><p><span data-ttu-id="e1b66-171">5 </span><span class="sxs-lookup"><span data-stu-id="e1b66-171">5</span></span></p></li>
+<li><p><span data-ttu-id="e1b66-172">10 </span><span class="sxs-lookup"><span data-stu-id="e1b66-172">10</span></span></p></li>
 </ol></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f81c2-185"><strong>點對點</strong></span><span class="sxs-lookup"><span data-stu-id="f81c2-185"><strong>VPN</strong></span></span></p></td>
-<td><p><span data-ttu-id="f81c2-186">指示在撥打電話時，外部用戶端是否正在使用虛擬私人網路（VPN）連線。</span><span class="sxs-lookup"><span data-stu-id="f81c2-186">Indicates whether an external client was using a virtual private network (VPN) connection when the call was placed.</span></span> <span data-ttu-id="f81c2-187">選取下列其中一項：</span><span class="sxs-lookup"><span data-stu-id="f81c2-187">Select one of the following:</span></span></p>
+<td><p><span data-ttu-id="e1b66-173"><strong>存取類型</strong></span><span class="sxs-lookup"><span data-stu-id="e1b66-173"><strong>Access type</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1b66-p112">指出撥打電腦時，用戶端是否登入內部網路或外部網路。請選取下列其中一項：</span><span class="sxs-lookup"><span data-stu-id="e1b66-p112">Indicates whether the client was logged on to the internal network or the external network when the call was placed. Select one of the following:</span></span></p>
 <ol>
-<li><p><span data-ttu-id="f81c2-188">同時</span><span class="sxs-lookup"><span data-stu-id="f81c2-188">[All]</span></span></p></li>
-<li><p><span data-ttu-id="f81c2-189">點對點</span><span class="sxs-lookup"><span data-stu-id="f81c2-189">VPN</span></span></p></li>
-<li><p><span data-ttu-id="f81c2-190">非 VPN</span><span class="sxs-lookup"><span data-stu-id="f81c2-190">Non-VPN</span></span></p></li>
+<li><p><span data-ttu-id="e1b66-176">[全部]</span><span class="sxs-lookup"><span data-stu-id="e1b66-176">[All]</span></span></p></li>
+<li><p><span data-ttu-id="e1b66-177">內部</span><span class="sxs-lookup"><span data-stu-id="e1b66-177">Internal</span></span></p></li>
+<li><p><span data-ttu-id="e1b66-178">External</span><span class="sxs-lookup"><span data-stu-id="e1b66-178">External</span></span></p></li>
+</ol></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="e1b66-179"><strong>網路類型</strong></span><span class="sxs-lookup"><span data-stu-id="e1b66-179"><strong>Network type</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1b66-p113">指出當撥打電話時，用戶端連線的網路類型。請選取下列其中一項：</span><span class="sxs-lookup"><span data-stu-id="e1b66-p113">Indicates the type of network the client was connected to when the call was placed. Select one of the following:</span></span></p>
+<ol>
+<li><p><span data-ttu-id="e1b66-182">[全部]</span><span class="sxs-lookup"><span data-stu-id="e1b66-182">[All]</span></span></p></li>
+<li><p><span data-ttu-id="e1b66-183">有線</span><span class="sxs-lookup"><span data-stu-id="e1b66-183">Wired</span></span></p></li>
+<li><p><span data-ttu-id="e1b66-184">無線</span><span class="sxs-lookup"><span data-stu-id="e1b66-184">Wireless</span></span></p></li>
+</ol></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="e1b66-185"><strong>VPN</strong></span><span class="sxs-lookup"><span data-stu-id="e1b66-185"><strong>VPN</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1b66-p114">指出當撥打電話時，外部用戶端是否使用虛擬私人網路 (VPN) 連線。請選取下列其中一項：</span><span class="sxs-lookup"><span data-stu-id="e1b66-p114">Indicates whether an external client was using a virtual private network (VPN) connection when the call was placed. Select one of the following:</span></span></p>
+<ol>
+<li><p><span data-ttu-id="e1b66-188">[全部]</span><span class="sxs-lookup"><span data-stu-id="e1b66-188">[All]</span></span></p></li>
+<li><p><span data-ttu-id="e1b66-189">VPN</span><span class="sxs-lookup"><span data-stu-id="e1b66-189">VPN</span></span></p></li>
+<li><p><span data-ttu-id="e1b66-190">非 VPN</span><span class="sxs-lookup"><span data-stu-id="e1b66-190">Non-VPN</span></span></p></li>
 </ol></td>
 </tr>
 </tbody>
@@ -175,11 +175,11 @@ ms.locfileid: "41764861"
 
 <div>
 
-## <a name="metrics"></a><span data-ttu-id="f81c2-191">指標</span><span class="sxs-lookup"><span data-stu-id="f81c2-191">Metrics</span></span>
+## <a name="metrics"></a><span data-ttu-id="e1b66-191">計量</span><span class="sxs-lookup"><span data-stu-id="e1b66-191">Metrics</span></span>
 
-<span data-ttu-id="f81c2-192">下表列出 [伺服器效能] 報告中提供的資訊。</span><span class="sxs-lookup"><span data-stu-id="f81c2-192">The following table lists the information provided in the Server Performance Report.</span></span>
+<span data-ttu-id="e1b66-192">下表列出伺服器效能報告中提供的資訊。</span><span class="sxs-lookup"><span data-stu-id="e1b66-192">The following table lists the information provided in the Server Performance Report.</span></span>
 
-### <a name="server-performance-report-metrics-audio-call-summary"></a><span data-ttu-id="f81c2-193">伺服器效能報告度量值：語音通話摘要</span><span class="sxs-lookup"><span data-stu-id="f81c2-193">Server Performance Report Metrics: Audio Call Summary</span></span>
+### <a name="server-performance-report-metrics-audio-call-summary"></a><span data-ttu-id="e1b66-193">伺服器效能報告計量： 音訊通話摘要</span><span class="sxs-lookup"><span data-stu-id="e1b66-193">Server Performance Report Metrics: Audio Call Summary</span></span>
 
 <table>
 <colgroup>
@@ -189,69 +189,69 @@ ms.locfileid: "41764861"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="f81c2-194">名稱</span><span class="sxs-lookup"><span data-stu-id="f81c2-194">Name</span></span></th>
-<th><span data-ttu-id="f81c2-195">可以排序</span><span class="sxs-lookup"><span data-stu-id="f81c2-195">Can Sort On</span></span></th>
-<th><span data-ttu-id="f81c2-196">說明</span><span class="sxs-lookup"><span data-stu-id="f81c2-196">Description</span></span></th>
+<th><span data-ttu-id="e1b66-194">姓名</span><span class="sxs-lookup"><span data-stu-id="e1b66-194">Name</span></span></th>
+<th><span data-ttu-id="e1b66-195">可以排序</span><span class="sxs-lookup"><span data-stu-id="e1b66-195">Can Sort On</span></span></th>
+<th><span data-ttu-id="e1b66-196">描述</span><span class="sxs-lookup"><span data-stu-id="e1b66-196">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="f81c2-197"><strong>伺服器</strong></span><span class="sxs-lookup"><span data-stu-id="f81c2-197"><strong>Server</strong></span></span></p></td>
-<td><p><span data-ttu-id="f81c2-198">否</span><span class="sxs-lookup"><span data-stu-id="f81c2-198">No</span></span></p></td>
-<td><p><span data-ttu-id="f81c2-199">伺服器的名稱/IP 位址。</span><span class="sxs-lookup"><span data-stu-id="f81c2-199">Name/IP address of the server.</span></span></p></td>
+<td><p><span data-ttu-id="e1b66-197"><strong>伺服器</strong></span><span class="sxs-lookup"><span data-stu-id="e1b66-197"><strong>Server</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1b66-198">否</span><span class="sxs-lookup"><span data-stu-id="e1b66-198">No</span></span></p></td>
+<td><p><span data-ttu-id="e1b66-199">伺服器名稱] / [IP 位址。</span><span class="sxs-lookup"><span data-stu-id="e1b66-199">Name/IP address of the server.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f81c2-200"><strong>通話量</strong></span><span class="sxs-lookup"><span data-stu-id="f81c2-200"><strong>Call volume</strong></span></span></p></td>
-<td><p><span data-ttu-id="f81c2-201">否</span><span class="sxs-lookup"><span data-stu-id="f81c2-201">No</span></span></p></td>
-<td><p><span data-ttu-id="f81c2-202">撥打的通話總數。</span><span class="sxs-lookup"><span data-stu-id="f81c2-202">Total number of calls made.</span></span></p></td>
+<td><p><span data-ttu-id="e1b66-200"><strong>[通話數</strong></span><span class="sxs-lookup"><span data-stu-id="e1b66-200"><strong>Call volume</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1b66-201">否</span><span class="sxs-lookup"><span data-stu-id="e1b66-201">No</span></span></p></td>
+<td><p><span data-ttu-id="e1b66-202">撥打的通話總數。</span><span class="sxs-lookup"><span data-stu-id="e1b66-202">Total number of calls made.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f81c2-203"><strong>通話百分比太差</strong></span><span class="sxs-lookup"><span data-stu-id="f81c2-203"><strong>Poor call percentage</strong></span></span></p></td>
-<td><p><span data-ttu-id="f81c2-204">否</span><span class="sxs-lookup"><span data-stu-id="f81c2-204">No</span></span></p></td>
-<td><p><span data-ttu-id="f81c2-205">分類為不良的通話總數。</span><span class="sxs-lookup"><span data-stu-id="f81c2-205">Total number of calls classified as poor.</span></span> <span data-ttu-id="f81c2-206">較差的通話是指至少其中一個測量的指標超過允許值（例如，遇到過度抖動的呼叫）的呼叫。</span><span class="sxs-lookup"><span data-stu-id="f81c2-206">A poor call is any call which at least one of the measured metrics exceeded the allowed value (for example, a call that experienced excessive jitter).</span></span></p></td>
+<td><p><span data-ttu-id="e1b66-203"><strong>通話不良百分比</strong></span><span class="sxs-lookup"><span data-stu-id="e1b66-203"><strong>Poor call percentage</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1b66-204">否</span><span class="sxs-lookup"><span data-stu-id="e1b66-204">No</span></span></p></td>
+<td><p><span data-ttu-id="e1b66-205">歸類為不良的通話總數。</span><span class="sxs-lookup"><span data-stu-id="e1b66-205">Total number of calls classified as poor.</span></span> <span data-ttu-id="e1b66-206">通話不良是指至少一項計算超出允許的值 （例如，通話過多的抖動） 任何來電。</span><span class="sxs-lookup"><span data-stu-id="e1b66-206">A poor call is any call which at least one of the measured metrics exceeded the allowed value (for example, a call that experienced excessive jitter).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f81c2-207"><strong>往返行程（毫秒）</strong></span><span class="sxs-lookup"><span data-stu-id="f81c2-207"><strong>Round trip (ms)</strong></span></span></p></td>
-<td><p><span data-ttu-id="f81c2-208">是</span><span class="sxs-lookup"><span data-stu-id="f81c2-208">Yes</span></span></p></td>
-<td><p><span data-ttu-id="f81c2-209">即時傳輸通訊協定（RTP）資料包移至另一個端點後再移回所需的平均（以毫秒為單位）。</span><span class="sxs-lookup"><span data-stu-id="f81c2-209">Average amount of (in milliseconds) required for a real-time transport protocol (RTP) packet to travel to another endpoint and then back.</span></span> <span data-ttu-id="f81c2-210">100毫秒或較低的往返行程時間會視為可接受的品質。</span><span class="sxs-lookup"><span data-stu-id="f81c2-210">Round-trip times of 100 milliseconds or less are considered of acceptable quality.</span></span></p>
-<p><span data-ttu-id="f81c2-211">國際呼叫路由可能會造成高往返值。路由無法正確配置;或超載的媒體伺服器。</span><span class="sxs-lookup"><span data-stu-id="f81c2-211">High round-trip values can be caused by international call routing; a routing misconfiguration; or an overloaded media server.</span></span> <span data-ttu-id="f81c2-212">較高的往返行程時間會造成使用雙向即時音訊交談的困難。</span><span class="sxs-lookup"><span data-stu-id="f81c2-212">High round-trip times result in difficulties with two-way, real-time audio conversations.</span></span></p></td>
+<td><p><span data-ttu-id="e1b66-207"><strong>往返時間 （毫秒）</strong></span><span class="sxs-lookup"><span data-stu-id="e1b66-207"><strong>Round trip (ms)</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1b66-208">是</span><span class="sxs-lookup"><span data-stu-id="e1b66-208">Yes</span></span></p></td>
+<td><p><span data-ttu-id="e1b66-209">平均量 （以毫秒為單位） 所需的即時傳輸通訊協定 (RTP) 封包傳輸至另一個端點，再重新。</span><span class="sxs-lookup"><span data-stu-id="e1b66-209">Average amount of (in milliseconds) required for a real-time transport protocol (RTP) packet to travel to another endpoint and then back.</span></span> <span data-ttu-id="e1b66-210">100 毫秒或更低的來回行程時間會被視為的可接受的品質。</span><span class="sxs-lookup"><span data-stu-id="e1b66-210">Round-trip times of 100 milliseconds or less are considered of acceptable quality.</span></span></p>
+<p><span data-ttu-id="e1b66-211">高的來回行程值可能被因國際電話路由;路由設定錯誤;或超載的媒體伺服器。</span><span class="sxs-lookup"><span data-stu-id="e1b66-211">High round-trip values can be caused by international call routing; a routing misconfiguration; or an overloaded media server.</span></span> <span data-ttu-id="e1b66-212">高的來回行程時間會導致雙向、 即時音訊交談的問題。</span><span class="sxs-lookup"><span data-stu-id="e1b66-212">High round-trip times result in difficulties with two-way, real-time audio conversations.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f81c2-213"><strong>下降（MOS）</strong></span><span class="sxs-lookup"><span data-stu-id="f81c2-213"><strong>Degradation (MOS)</strong></span></span></p></td>
-<td><p><span data-ttu-id="f81c2-214">是</span><span class="sxs-lookup"><span data-stu-id="f81c2-214">Yes</span></span></p></td>
-<td><p><span data-ttu-id="f81c2-215">通話期間平均觀念得分（MOS）的平均數量下降。</span><span class="sxs-lookup"><span data-stu-id="f81c2-215">Average amount of mean opinion score (MOS) degradation experienced during a call.</span></span> <span data-ttu-id="f81c2-216">降級值的範圍可從低0.0 到5.0。</span><span class="sxs-lookup"><span data-stu-id="f81c2-216">Degradation values can range from a low of 0.0 to a high of 5.0.</span></span> <span data-ttu-id="f81c2-217">0.5 或較低的值代表可接受的下降。</span><span class="sxs-lookup"><span data-stu-id="f81c2-217">A value of 0.5 or less represents acceptable degradation.</span></span> <span data-ttu-id="f81c2-218">過去，平均選項分數是由使用者以1到5的比例來評定通話品質的結果。</span><span class="sxs-lookup"><span data-stu-id="f81c2-218">Historically, mean options scores were calculated by having users rate the quality of a call on a scale of 1-to-5.</span></span> <span data-ttu-id="f81c2-219">在 Lync Server 中，監視伺服器會使用一組演算法來預測使用者對通話進行評分的方式。</span><span class="sxs-lookup"><span data-stu-id="f81c2-219">In Lync Server, the Monitoring Server uses a set of algorithms to predict how users would have rated a call.</span></span></p>
-<p><span data-ttu-id="f81c2-220">高降級值可能是由於擁塞、缺乏頻寬、無線擁塞或干擾或超載的媒體伺服器或端點所造成。</span><span class="sxs-lookup"><span data-stu-id="f81c2-220">High degradation values can be caused by congestion, lack of bandwidth, wireless congestion or interference, or an overloaded media server or endpoint.</span></span> <span data-ttu-id="f81c2-221">高品質的結果會造成失真或遺失音訊。</span><span class="sxs-lookup"><span data-stu-id="f81c2-221">High degradation results in distorted or lost audio.</span></span></p></td>
+<td><p><span data-ttu-id="e1b66-213"><strong>降低 (MOS)</strong></span><span class="sxs-lookup"><span data-stu-id="e1b66-213"><strong>Degradation (MOS)</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1b66-214">是</span><span class="sxs-lookup"><span data-stu-id="e1b66-214">Yes</span></span></p></td>
+<td><p><span data-ttu-id="e1b66-215">平均量平均意見分數 (MOS) 降低在通話期間發生。</span><span class="sxs-lookup"><span data-stu-id="e1b66-215">Average amount of mean opinion score (MOS) degradation experienced during a call.</span></span> <span data-ttu-id="e1b66-216">為 [高] 的 5.0，降低值可介於 0.0 的低。</span><span class="sxs-lookup"><span data-stu-id="e1b66-216">Degradation values can range from a low of 0.0 to a high of 5.0.</span></span> <span data-ttu-id="e1b66-217">為 0.5 或更低的值代表可接受的效能下降。</span><span class="sxs-lookup"><span data-stu-id="e1b66-217">A value of 0.5 or less represents acceptable degradation.</span></span> <span data-ttu-id="e1b66-218">在過去，mean 選項分數已計算方式是讓使用者在 1 到 5 的小數位數率通話品質。</span><span class="sxs-lookup"><span data-stu-id="e1b66-218">Historically, mean options scores were calculated by having users rate the quality of a call on a scale of 1-to-5.</span></span> <span data-ttu-id="e1b66-219">在 Lync Server 中，監控伺服器會使用一組演算法來預測如何使用者會有分級通話。</span><span class="sxs-lookup"><span data-stu-id="e1b66-219">In Lync Server, the Monitoring Server uses a set of algorithms to predict how users would have rated a call.</span></span></p>
+<p><span data-ttu-id="e1b66-220">高的效能下降值會造成壅塞，缺少的頻寬、 無線壅塞或干擾，或已多載的媒體伺服器或端點。</span><span class="sxs-lookup"><span data-stu-id="e1b66-220">High degradation values can be caused by congestion, lack of bandwidth, wireless congestion or interference, or an overloaded media server or endpoint.</span></span> <span data-ttu-id="e1b66-221">高降低的情形會導致扭曲或遺失音訊。</span><span class="sxs-lookup"><span data-stu-id="e1b66-221">High degradation results in distorted or lost audio.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f81c2-222"><strong>資料包遺失</strong></span><span class="sxs-lookup"><span data-stu-id="f81c2-222"><strong>Packet loss</strong></span></span></p></td>
-<td><p><span data-ttu-id="f81c2-223">是</span><span class="sxs-lookup"><span data-stu-id="f81c2-223">Yes</span></span></p></td>
-<td><p><span data-ttu-id="f81c2-224">即時傳輸通訊協定（RTP）資料包遺失的平均速率。</span><span class="sxs-lookup"><span data-stu-id="f81c2-224">Average rate of real-time transport protocol (RTP) packet loss.</span></span> <span data-ttu-id="f81c2-225">（當 RTP 資料包（這是一種用來透過網際網路傳送音訊和影片的通訊協定）無法送達目的地時，會發生資料包遺失。高遺失率通常是由於擁塞、缺乏頻寬、無線擁塞或干擾或超載媒體伺服器而造成。</span><span class="sxs-lookup"><span data-stu-id="f81c2-225">(Packet loss occurs when RTP packets, a protocol used for transmitting audio and video across the Internet, failed to reach their destination.) High loss rates are generally caused by congestion, lack of bandwidth, wireless congestion or interference, or an overloaded media server.</span></span> <span data-ttu-id="f81c2-226">[資料包遺失] 通常會導致聲音失真或遺失。</span><span class="sxs-lookup"><span data-stu-id="f81c2-226">Packet loss typically results in distorted or lost audio.</span></span></p></td>
+<td><p><span data-ttu-id="e1b66-222"><strong>封包遺失</strong></span><span class="sxs-lookup"><span data-stu-id="e1b66-222"><strong>Packet loss</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1b66-223">是</span><span class="sxs-lookup"><span data-stu-id="e1b66-223">Yes</span></span></p></td>
+<td><p><span data-ttu-id="e1b66-224">即時傳輸通訊協定 (RTP) 封包遺失平均速率。</span><span class="sxs-lookup"><span data-stu-id="e1b66-224">Average rate of real-time transport protocol (RTP) packet loss.</span></span> <span data-ttu-id="e1b66-225">（封包遺失發生於 RTP 封包，用於傳輸音訊和視訊在網際網路上的通訊協定無法到達其目的地）。高遺失率通常會因擁塞、 缺乏頻寬、 無線壅塞或干擾，或已多載的媒體伺服器。</span><span class="sxs-lookup"><span data-stu-id="e1b66-225">(Packet loss occurs when RTP packets, a protocol used for transmitting audio and video across the Internet, failed to reach their destination.) High loss rates are generally caused by congestion, lack of bandwidth, wireless congestion or interference, or an overloaded media server.</span></span> <span data-ttu-id="e1b66-226">封包遺失通常會導致扭曲或遺失音訊。</span><span class="sxs-lookup"><span data-stu-id="e1b66-226">Packet loss typically results in distorted or lost audio.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f81c2-227"><strong>抖動（毫秒）</strong></span><span class="sxs-lookup"><span data-stu-id="f81c2-227"><strong>Jitter (ms)</strong></span></span></p></td>
-<td><p><span data-ttu-id="f81c2-228">是</span><span class="sxs-lookup"><span data-stu-id="f81c2-228">Yes</span></span></p></td>
-<td><p><span data-ttu-id="f81c2-229">在 RTP 資料包抵達之間檢測到的平均抖動。</span><span class="sxs-lookup"><span data-stu-id="f81c2-229">Average jitter detected between RTP packet arrivals.</span></span> <span data-ttu-id="f81c2-230">（抖動是通話&quot;shakiness&quot;的量度。）高抖動值通常是由擁塞或超載的媒體伺服器所造成，而且會造成失真或遺失音訊。</span><span class="sxs-lookup"><span data-stu-id="f81c2-230">(Jitter is a measure of the &quot;shakiness&quot; of a call.) High jitter values are typically caused by congestion or an overloaded media server, and result in distorted or lost audio.</span></span></p></td>
+<td><p><span data-ttu-id="e1b66-227"><strong>抖動 (ms)</strong></span><span class="sxs-lookup"><span data-stu-id="e1b66-227"><strong>Jitter (ms)</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1b66-228">是</span><span class="sxs-lookup"><span data-stu-id="e1b66-228">Yes</span></span></p></td>
+<td><p><span data-ttu-id="e1b66-229">偵測到之間 RTP 封包抵達的平均抖動值。</span><span class="sxs-lookup"><span data-stu-id="e1b66-229">Average jitter detected between RTP packet arrivals.</span></span> <span data-ttu-id="e1b66-230">(抖動是評量&quot;shakiness&quot;的呼叫。)高抖動值通常是造成壅塞或超載的媒體伺服器，並導致扭曲或遺失音訊。</span><span class="sxs-lookup"><span data-stu-id="e1b66-230">(Jitter is a measure of the &quot;shakiness&quot; of a call.) High jitter values are typically caused by congestion or an overloaded media server, and result in distorted or lost audio.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f81c2-231"><strong>Healer 隱藏比例</strong></span><span class="sxs-lookup"><span data-stu-id="f81c2-231"><strong>Healer concealed ratio</strong></span></span></p></td>
-<td><p><span data-ttu-id="f81c2-232">是</span><span class="sxs-lookup"><span data-stu-id="f81c2-232">Yes</span></span></p></td>
-<td><p><span data-ttu-id="f81c2-233">隱藏的音訊樣本與總樣本數的平均比率。</span><span class="sxs-lookup"><span data-stu-id="f81c2-233">Average ratio of concealed audio samples to the total to the total number of samples.</span></span> <span data-ttu-id="f81c2-234">（隱藏的音訊範例是一種技術，用來平滑可能由網路資料包所造成的突然轉換。）[高值] 表示由於資料包遺失或抖動所造成的大量 concealment 損失，並導致聲音失真或遺失。</span><span class="sxs-lookup"><span data-stu-id="f81c2-234">(A concealed audio sample is a technique used to smooth out the abrupt transition that would usually be caused by dropped network packets.) High values indicate significant levels of loss concealment applied caused by packet loss or jitter, and results in distorted or lost audio.</span></span></p></td>
+<td><p><span data-ttu-id="e1b66-231"><strong>修復隱藏比率</strong></span><span class="sxs-lookup"><span data-stu-id="e1b66-231"><strong>Healer concealed ratio</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1b66-232">是</span><span class="sxs-lookup"><span data-stu-id="e1b66-232">Yes</span></span></p></td>
+<td><p><span data-ttu-id="e1b66-233">之隱藏樣本總數總計的音訊樣本的平均比率。</span><span class="sxs-lookup"><span data-stu-id="e1b66-233">Average ratio of concealed audio samples to the total to the total number of samples.</span></span> <span data-ttu-id="e1b66-234">（隱藏的音訊取樣是用來平滑出通常會因首的網路封包突然轉換技術）。高的值可指出重大的層級套用的遺失隱藏聲音因封包遺失及抖動，導致扭曲或遺失音訊。</span><span class="sxs-lookup"><span data-stu-id="e1b66-234">(A concealed audio sample is a technique used to smooth out the abrupt transition that would usually be caused by dropped network packets.) High values indicate significant levels of loss concealment applied caused by packet loss or jitter, and results in distorted or lost audio.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f81c2-235"><strong>Healer 延伸比率</strong></span><span class="sxs-lookup"><span data-stu-id="f81c2-235"><strong>Healer stretched ratio</strong></span></span></p></td>
-<td><p><span data-ttu-id="f81c2-236">是</span><span class="sxs-lookup"><span data-stu-id="f81c2-236">Yes</span></span></p></td>
-<td><p><span data-ttu-id="f81c2-237">延伸音訊樣本的平均比例與總樣本數的總和。</span><span class="sxs-lookup"><span data-stu-id="f81c2-237">Average ratio of stretched audio samples to the total to the total number of samples.</span></span> <span data-ttu-id="f81c2-238">（已延伸的音訊是已展開的音訊，可協助您在偵測到網路資料包時維持通話品質。）高值代表由抖動所造成的大量樣本拉伸層級，並導致音訊聲音不在機器人或失真中。</span><span class="sxs-lookup"><span data-stu-id="f81c2-238">(Stretched audio is audio that has been expanded to help maintain call quality when a dropped network packet has been detected.) High values indicate significant levels of sample stretching caused by jitter, and result in audio sounding robotic or distorted.</span></span></p></td>
+<td><p><span data-ttu-id="e1b66-235"><strong>修復延伸的比率</strong></span><span class="sxs-lookup"><span data-stu-id="e1b66-235"><strong>Healer stretched ratio</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1b66-236">是</span><span class="sxs-lookup"><span data-stu-id="e1b66-236">Yes</span></span></p></td>
+<td><p><span data-ttu-id="e1b66-237">範例總數總計的延伸音訊樣本的平均比率。</span><span class="sxs-lookup"><span data-stu-id="e1b66-237">Average ratio of stretched audio samples to the total to the total number of samples.</span></span> <span data-ttu-id="e1b66-238">（延伸的音訊是已擴充為維持已偵測到的繞邊的網路封包時通話品質的音訊）。高的值可指出重大的層級的範例拉長因抖動，而導致音訊發音機械或扭曲。</span><span class="sxs-lookup"><span data-stu-id="e1b66-238">(Stretched audio is audio that has been expanded to help maintain call quality when a dropped network packet has been detected.) High values indicate significant levels of sample stretching caused by jitter, and result in audio sounding robotic or distorted.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f81c2-239"><strong>Healer 壓縮比率</strong></span><span class="sxs-lookup"><span data-stu-id="f81c2-239"><strong>Healer compressed ratio</strong></span></span></p></td>
-<td><p><span data-ttu-id="f81c2-240">是</span><span class="sxs-lookup"><span data-stu-id="f81c2-240">Yes</span></span></p></td>
-<td><p><span data-ttu-id="f81c2-241">壓縮之音訊樣本的平均比率為樣本總數。</span><span class="sxs-lookup"><span data-stu-id="f81c2-241">Average ratio of compressed audio samples to the total number of samples.</span></span> <span data-ttu-id="f81c2-242">（壓縮的音訊是已壓縮的音訊，可協助您在偵測到網路資料包時維持通話品質。）高值代表抖動所造成的大量樣本壓縮層級，而導致音訊聲音速度快或失真。</span><span class="sxs-lookup"><span data-stu-id="f81c2-242">(Compressed audio is audio that has been compressed to help maintain call quality when a dropped network packet has been detected.) High values indicate significant levels of sample compression caused by jitter, and result in audio sounding accelerated or distorted.</span></span></p></td>
+<td><p><span data-ttu-id="e1b66-239"><strong>修復壓縮的比率</strong></span><span class="sxs-lookup"><span data-stu-id="e1b66-239"><strong>Healer compressed ratio</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1b66-240">是</span><span class="sxs-lookup"><span data-stu-id="e1b66-240">Yes</span></span></p></td>
+<td><p><span data-ttu-id="e1b66-241">範例總數的壓縮音訊樣本的平均比率。</span><span class="sxs-lookup"><span data-stu-id="e1b66-241">Average ratio of compressed audio samples to the total number of samples.</span></span> <span data-ttu-id="e1b66-242">（壓縮的音訊是已壓縮，並維持已偵測到的繞邊的網路封包時通話品質的音訊）。高的值可指出重大的層級的範例壓縮因抖動，而導致音訊發音加速或失真。</span><span class="sxs-lookup"><span data-stu-id="e1b66-242">(Compressed audio is audio that has been compressed to help maintain call quality when a dropped network packet has been detected.) High values indicate significant levels of sample compression caused by jitter, and result in audio sounding accelerated or distorted.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="server-performance-report-metrics-video-call-summary"></a><span data-ttu-id="f81c2-243">伺服器效能報告度量值：影片通話摘要</span><span class="sxs-lookup"><span data-stu-id="f81c2-243">Server Performance Report Metrics: Video Call Summary</span></span>
+### <a name="server-performance-report-metrics-video-call-summary"></a><span data-ttu-id="e1b66-243">伺服器效能報告計量： 視訊通話摘要</span><span class="sxs-lookup"><span data-stu-id="e1b66-243">Server Performance Report Metrics: Video Call Summary</span></span>
 
 <table>
 <colgroup>
@@ -261,96 +261,96 @@ ms.locfileid: "41764861"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="f81c2-244">名稱</span><span class="sxs-lookup"><span data-stu-id="f81c2-244">Name</span></span></th>
-<th><span data-ttu-id="f81c2-245">您可以針對此專案進行排序嗎？</span><span class="sxs-lookup"><span data-stu-id="f81c2-245">Can you sort on this item?</span></span></th>
-<th><span data-ttu-id="f81c2-246">說明</span><span class="sxs-lookup"><span data-stu-id="f81c2-246">Description</span></span></th>
+<th><span data-ttu-id="e1b66-244">姓名</span><span class="sxs-lookup"><span data-stu-id="e1b66-244">Name</span></span></th>
+<th><span data-ttu-id="e1b66-245">可以排序這個項目嗎？</span><span class="sxs-lookup"><span data-stu-id="e1b66-245">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="e1b66-246">描述</span><span class="sxs-lookup"><span data-stu-id="e1b66-246">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="f81c2-247"><strong>呼叫類型/端點類型</strong></span><span class="sxs-lookup"><span data-stu-id="f81c2-247"><strong>Call type/Endpoint type</strong></span></span></p></td>
-<td><p><span data-ttu-id="f81c2-248">否</span><span class="sxs-lookup"><span data-stu-id="f81c2-248">No</span></span></p></td>
-<td><p><span data-ttu-id="f81c2-249">當您按一下此專案時，報告會根據該類型顯示通話的詳細資訊。</span><span class="sxs-lookup"><span data-stu-id="f81c2-249">When you click this item, the report shows detailed information about calls based on that type.</span></span> <span data-ttu-id="f81c2-250">通話類型包括：</span><span class="sxs-lookup"><span data-stu-id="f81c2-250">Call types include:</span></span></p>
+<td><p><span data-ttu-id="e1b66-247"><strong>通話類型/端點類型</strong></span><span class="sxs-lookup"><span data-stu-id="e1b66-247"><strong>Call type/Endpoint type</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1b66-248">否</span><span class="sxs-lookup"><span data-stu-id="e1b66-248">No</span></span></p></td>
+<td><p><span data-ttu-id="e1b66-249">當您按一下此項目時，報告就會顯示該類型為基礎的通話的詳細的資訊。</span><span class="sxs-lookup"><span data-stu-id="e1b66-249">When you click this item, the report shows detailed information about calls based on that type.</span></span> <span data-ttu-id="e1b66-250">通話類型包括：</span><span class="sxs-lookup"><span data-stu-id="e1b66-250">Call types include:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="f81c2-251">UC 對等通話</span><span class="sxs-lookup"><span data-stu-id="f81c2-251">UC Peer-to-Peer Calls</span></span></p></li>
-<li><p><span data-ttu-id="f81c2-252">UC 會議會話</span><span class="sxs-lookup"><span data-stu-id="f81c2-252">UC Conference Sessions</span></span></p></li>
-<li><p><span data-ttu-id="f81c2-253">PSTN 會議會話</span><span class="sxs-lookup"><span data-stu-id="f81c2-253">PSTN Conference Sessions</span></span></p></li>
-<li><p><span data-ttu-id="f81c2-254">PSTN 電話：媒體旁路</span><span class="sxs-lookup"><span data-stu-id="f81c2-254">PSTN Calls: Media Bypass</span></span></p></li>
-<li><p><span data-ttu-id="f81c2-255">PSTN 通話（非旁路）： UC 腿</span><span class="sxs-lookup"><span data-stu-id="f81c2-255">PSTN Calls (Non-Bypass): UC Leg</span></span></p></li>
-<li><p><span data-ttu-id="f81c2-256">PSTN 通話（非旁路）：閘道腿</span><span class="sxs-lookup"><span data-stu-id="f81c2-256">PSTN Calls (Non-Bypass): Gateway Leg</span></span></p></li>
-<li><p><span data-ttu-id="f81c2-257">其他通話類型</span><span class="sxs-lookup"><span data-stu-id="f81c2-257">Other Call Types</span></span></p></li>
+<li><p><span data-ttu-id="e1b66-251">UC 對等通話</span><span class="sxs-lookup"><span data-stu-id="e1b66-251">UC Peer-to-Peer Calls</span></span></p></li>
+<li><p><span data-ttu-id="e1b66-252">UC 會議工作階段</span><span class="sxs-lookup"><span data-stu-id="e1b66-252">UC Conference Sessions</span></span></p></li>
+<li><p><span data-ttu-id="e1b66-253">PSTN 會議工作階段</span><span class="sxs-lookup"><span data-stu-id="e1b66-253">PSTN Conference Sessions</span></span></p></li>
+<li><p><span data-ttu-id="e1b66-254">PSTN 通話： 媒體旁路</span><span class="sxs-lookup"><span data-stu-id="e1b66-254">PSTN Calls: Media Bypass</span></span></p></li>
+<li><p><span data-ttu-id="e1b66-255">PSTN 通話 （非旁路）： UC Leg</span><span class="sxs-lookup"><span data-stu-id="e1b66-255">PSTN Calls (Non-Bypass): UC Leg</span></span></p></li>
+<li><p><span data-ttu-id="e1b66-256">PSTN 通話 （非旁路）： 閘道 Leg</span><span class="sxs-lookup"><span data-stu-id="e1b66-256">PSTN Calls (Non-Bypass): Gateway Leg</span></span></p></li>
+<li><p><span data-ttu-id="e1b66-257">其他通話類型</span><span class="sxs-lookup"><span data-stu-id="e1b66-257">Other Call Types</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f81c2-258"><strong>通話量</strong></span><span class="sxs-lookup"><span data-stu-id="f81c2-258"><strong>Call volume</strong></span></span></p></td>
-<td><p><span data-ttu-id="f81c2-259">否</span><span class="sxs-lookup"><span data-stu-id="f81c2-259">No</span></span></p></td>
-<td><p><span data-ttu-id="f81c2-260">每個通話類型的通話總數。</span><span class="sxs-lookup"><span data-stu-id="f81c2-260">Total number of calls per call type.</span></span></p></td>
+<td><p><span data-ttu-id="e1b66-258"><strong>[通話數</strong></span><span class="sxs-lookup"><span data-stu-id="e1b66-258"><strong>Call volume</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1b66-259">否</span><span class="sxs-lookup"><span data-stu-id="e1b66-259">No</span></span></p></td>
+<td><p><span data-ttu-id="e1b66-260">每一種通話類型通話總數。</span><span class="sxs-lookup"><span data-stu-id="e1b66-260">Total number of calls per call type.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f81c2-261"><strong>通話百分比太差</strong></span><span class="sxs-lookup"><span data-stu-id="f81c2-261"><strong>Poor call percentage</strong></span></span></p></td>
-<td><p><span data-ttu-id="f81c2-262">否</span><span class="sxs-lookup"><span data-stu-id="f81c2-262">No</span></span></p></td>
-<td><p><span data-ttu-id="f81c2-263">分類為不良的通話總數。</span><span class="sxs-lookup"><span data-stu-id="f81c2-263">Total number of calls classified as poor.</span></span> <span data-ttu-id="f81c2-264">較差的通話是指至少其中一個測量的指標超過允許值（例如，遇到過度抖動的呼叫）的呼叫。</span><span class="sxs-lookup"><span data-stu-id="f81c2-264">A poor call is any call which at least one of the measured metrics exceeded the allowed value (for example, a call that experienced excessive jitter).</span></span></p></td>
+<td><p><span data-ttu-id="e1b66-261"><strong>通話不良百分比</strong></span><span class="sxs-lookup"><span data-stu-id="e1b66-261"><strong>Poor call percentage</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1b66-262">否</span><span class="sxs-lookup"><span data-stu-id="e1b66-262">No</span></span></p></td>
+<td><p><span data-ttu-id="e1b66-263">歸類為不良的通話總數。</span><span class="sxs-lookup"><span data-stu-id="e1b66-263">Total number of calls classified as poor.</span></span> <span data-ttu-id="e1b66-264">通話不良是指至少一項計算超出允許的值 （例如，通話過多的抖動） 任何來電。</span><span class="sxs-lookup"><span data-stu-id="e1b66-264">A poor call is any call which at least one of the measured metrics exceeded the allowed value (for example, a call that experienced excessive jitter).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f81c2-265"><strong>通話音量（無線通話）</strong></span><span class="sxs-lookup"><span data-stu-id="f81c2-265"><strong>Call volume (wireless call)</strong></span></span></p></td>
-<td><p><span data-ttu-id="f81c2-266">否</span><span class="sxs-lookup"><span data-stu-id="f81c2-266">No</span></span></p></td>
-<td><p><span data-ttu-id="f81c2-267">已使用無線連線的通話總數。</span><span class="sxs-lookup"><span data-stu-id="f81c2-267">Total number of calls that used a wireless connection.</span></span></p></td>
+<td><p><span data-ttu-id="e1b66-265"><strong>通話數 （無線通話）</strong></span><span class="sxs-lookup"><span data-stu-id="e1b66-265"><strong>Call volume (wireless call)</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1b66-266">否</span><span class="sxs-lookup"><span data-stu-id="e1b66-266">No</span></span></p></td>
+<td><p><span data-ttu-id="e1b66-267">使用無線連線的通話總數。</span><span class="sxs-lookup"><span data-stu-id="e1b66-267">Total number of calls that used a wireless connection.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f81c2-268"><strong>通話量（VPN 通話）</strong></span><span class="sxs-lookup"><span data-stu-id="f81c2-268"><strong>Call volume (VPN call)</strong></span></span></p></td>
-<td><p><span data-ttu-id="f81c2-269">否</span><span class="sxs-lookup"><span data-stu-id="f81c2-269">No</span></span></p></td>
-<td><p><span data-ttu-id="f81c2-270">已使用 VPN 連線的通話總數。</span><span class="sxs-lookup"><span data-stu-id="f81c2-270">Total number of calls that used a VPN connection.</span></span></p></td>
+<td><p><span data-ttu-id="e1b66-268"><strong>通話數 （VPN 通話）</strong></span><span class="sxs-lookup"><span data-stu-id="e1b66-268"><strong>Call volume (VPN call)</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1b66-269">否</span><span class="sxs-lookup"><span data-stu-id="e1b66-269">No</span></span></p></td>
+<td><p><span data-ttu-id="e1b66-270">使用 VPN 連線的通話總數。</span><span class="sxs-lookup"><span data-stu-id="e1b66-270">Total number of calls that used a VPN connection.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f81c2-271"><strong>通話音量（外部通話）</strong></span><span class="sxs-lookup"><span data-stu-id="f81c2-271"><strong>Call volume (external call)</strong></span></span></p></td>
-<td><p><span data-ttu-id="f81c2-272">否</span><span class="sxs-lookup"><span data-stu-id="f81c2-272">No</span></span></p></td>
-<td><p><span data-ttu-id="f81c2-273">使用外部連線的呼叫數量（也就是內部網路以外的連線）。</span><span class="sxs-lookup"><span data-stu-id="f81c2-273">Number of calls that used an external connection (that is, a connection outside the internal network).</span></span></p></td>
+<td><p><span data-ttu-id="e1b66-271"><strong>通話數 （外部通話）</strong></span><span class="sxs-lookup"><span data-stu-id="e1b66-271"><strong>Call volume (external call)</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1b66-272">否</span><span class="sxs-lookup"><span data-stu-id="e1b66-272">No</span></span></p></td>
+<td><p><span data-ttu-id="e1b66-273">使用外部連線 （亦即內部網路外部連接） 的通話數。</span><span class="sxs-lookup"><span data-stu-id="e1b66-273">Number of calls that used an external connection (that is, a connection outside the internal network).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f81c2-274"><strong>平均比對率（Kbits/s）</strong></span><span class="sxs-lookup"><span data-stu-id="f81c2-274"><strong>Avg bit-rate (Kbits/s)</strong></span></span></p></td>
-<td><p><span data-ttu-id="f81c2-275">否</span><span class="sxs-lookup"><span data-stu-id="f81c2-275">No</span></span></p></td>
-<td><p><span data-ttu-id="f81c2-276">平均視頻位元速率（以千位數/秒為單位）。</span><span class="sxs-lookup"><span data-stu-id="f81c2-276">Average video bit rate (in kilobits per second).</span></span></p></td>
+<td><p><span data-ttu-id="e1b66-274"><strong>平均位元速率 （Kb/秒）</strong></span><span class="sxs-lookup"><span data-stu-id="e1b66-274"><strong>Avg bit-rate (Kbits/s)</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1b66-275">否</span><span class="sxs-lookup"><span data-stu-id="e1b66-275">No</span></span></p></td>
+<td><p><span data-ttu-id="e1b66-276">平均視訊位元速率 （每秒的 kb）。</span><span class="sxs-lookup"><span data-stu-id="e1b66-276">Average video bit rate (in kilobits per second).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f81c2-277"><strong>低位比率%</strong></span><span class="sxs-lookup"><span data-stu-id="f81c2-277"><strong>Low bit-rate %</strong></span></span></p></td>
-<td><p><span data-ttu-id="f81c2-278">否</span><span class="sxs-lookup"><span data-stu-id="f81c2-278">No</span></span></p></td>
-<td><p><span data-ttu-id="f81c2-279">位元速率低的通話百分比。</span><span class="sxs-lookup"><span data-stu-id="f81c2-279">Percentage of the call where the bit rate was low.</span></span></p></td>
+<td><p><span data-ttu-id="e1b66-277"><strong>低位元速率 %]</strong></span><span class="sxs-lookup"><span data-stu-id="e1b66-277"><strong>Low bit-rate %</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1b66-278">否</span><span class="sxs-lookup"><span data-stu-id="e1b66-278">No</span></span></p></td>
+<td><p><span data-ttu-id="e1b66-279">其中的位元速率較低的通話百分比。</span><span class="sxs-lookup"><span data-stu-id="e1b66-279">Percentage of the call where the bit rate was low.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f81c2-280"><strong>輸出資料包遺失</strong></span><span class="sxs-lookup"><span data-stu-id="f81c2-280"><strong>Outbound packet loss</strong></span></span></p></td>
-<td><p><span data-ttu-id="f81c2-281">否</span><span class="sxs-lookup"><span data-stu-id="f81c2-281">No</span></span></p></td>
-<td><p><span data-ttu-id="f81c2-282">輸出資料包的即時傳輸通訊協定（RTP）資料包遺失。</span><span class="sxs-lookup"><span data-stu-id="f81c2-282">Real-Time Transport Protocol (RTP) packet loss for outbound packets.</span></span> <span data-ttu-id="f81c2-283">（當 RTP 資料包（這是一種用來透過網際網路傳送音訊和影片的通訊協定）無法送達目的地時，會發生資料包遺失。高遺失率通常是由擁塞所造成;缺乏頻寬;無線擁塞或干擾;或超載的媒體伺服器。</span><span class="sxs-lookup"><span data-stu-id="f81c2-283">(Packet loss occurs when RTP packets, a protocol used for transmitting audio and video across the Internet, failed to reach their destination.) High loss rates are generally caused by congestion; lack of bandwidth; wireless congestion or interference; or an overloaded media server.</span></span> <span data-ttu-id="f81c2-284">[資料包遺失] 通常會導致聲音失真或遺失。</span><span class="sxs-lookup"><span data-stu-id="f81c2-284">Packet loss typically results in distorted or lost audio.</span></span></p></td>
+<td><p><span data-ttu-id="e1b66-280"><strong>輸出封包遺漏</strong></span><span class="sxs-lookup"><span data-stu-id="e1b66-280"><strong>Outbound packet loss</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1b66-281">否</span><span class="sxs-lookup"><span data-stu-id="e1b66-281">No</span></span></p></td>
+<td><p><span data-ttu-id="e1b66-282">輸出封包的即時傳輸通訊協定 (RTP) 封包遺失。</span><span class="sxs-lookup"><span data-stu-id="e1b66-282">Real-Time Transport Protocol (RTP) packet loss for outbound packets.</span></span> <span data-ttu-id="e1b66-283">（封包遺失發生於 RTP 封包，用於傳輸音訊和視訊在網際網路上的通訊協定無法到達其目的地）。高遺失率是通常會因壅塞;缺少的頻寬;無線壅塞或干擾;或超載的媒體伺服器。</span><span class="sxs-lookup"><span data-stu-id="e1b66-283">(Packet loss occurs when RTP packets, a protocol used for transmitting audio and video across the Internet, failed to reach their destination.) High loss rates are generally caused by congestion; lack of bandwidth; wireless congestion or interference; or an overloaded media server.</span></span> <span data-ttu-id="e1b66-284">封包遺失通常會導致扭曲或遺失音訊。</span><span class="sxs-lookup"><span data-stu-id="e1b66-284">Packet loss typically results in distorted or lost audio.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f81c2-285"><strong>凍結的畫面%</strong></span><span class="sxs-lookup"><span data-stu-id="f81c2-285"><strong>Frozen frame %</strong></span></span></p></td>
-<td><p><span data-ttu-id="f81c2-286">否</span><span class="sxs-lookup"><span data-stu-id="f81c2-286">No</span></span></p></td>
-<td><p><span data-ttu-id="f81c2-287">「凍結」畫面的百分比。</span><span class="sxs-lookup"><span data-stu-id="f81c2-287">Percentage of “frozen” frames.</span></span> <span data-ttu-id="f81c2-288">在凍結的畫面中，當通話的音訊部分繼續時，影片會停止向前進行。</span><span class="sxs-lookup"><span data-stu-id="f81c2-288">In a frozen frame, the video stops advancing while the audio portion of the call continues.</span></span></p></td>
+<td><p><span data-ttu-id="e1b66-285"><strong>[凍結的畫面 %]</strong></span><span class="sxs-lookup"><span data-stu-id="e1b66-285"><strong>Frozen frame %</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1b66-286">否</span><span class="sxs-lookup"><span data-stu-id="e1b66-286">No</span></span></p></td>
+<td><p><span data-ttu-id="e1b66-287">「 凍結 」 畫面的百分比。</span><span class="sxs-lookup"><span data-stu-id="e1b66-287">Percentage of “frozen” frames.</span></span> <span data-ttu-id="e1b66-288">在 [凍結的畫面，影片會停止前進時通話的音訊部分會繼續執行。</span><span class="sxs-lookup"><span data-stu-id="e1b66-288">In a frozen frame, the video stops advancing while the audio portion of the call continues.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f81c2-289"><strong>輸出平均畫面播放速率</strong></span><span class="sxs-lookup"><span data-stu-id="f81c2-289"><strong>Outbound avg frame rate</strong></span></span></p></td>
-<td><p><span data-ttu-id="f81c2-290">否</span><span class="sxs-lookup"><span data-stu-id="f81c2-290">No</span></span></p></td>
-<td><p><span data-ttu-id="f81c2-291">通話期間輸出傳輸的平均畫面播放速率。</span><span class="sxs-lookup"><span data-stu-id="f81c2-291">Average frame rate for outbound transmissions during the call.</span></span></p></td>
+<td><p><span data-ttu-id="e1b66-289"><strong>輸出平均播放速率]</strong></span><span class="sxs-lookup"><span data-stu-id="e1b66-289"><strong>Outbound avg frame rate</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1b66-290">否</span><span class="sxs-lookup"><span data-stu-id="e1b66-290">No</span></span></p></td>
+<td><p><span data-ttu-id="e1b66-291">通話期間輸出傳輸的平均播放速率。</span><span class="sxs-lookup"><span data-stu-id="e1b66-291">Average frame rate for outbound transmissions during the call.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f81c2-292"><strong>輸入平均畫面播放速率</strong></span><span class="sxs-lookup"><span data-stu-id="f81c2-292"><strong>Inbound avg frame rate</strong></span></span></p></td>
-<td><p><span data-ttu-id="f81c2-293">否</span><span class="sxs-lookup"><span data-stu-id="f81c2-293">No</span></span></p></td>
-<td><p><span data-ttu-id="f81c2-294">通話期間內送傳輸的平均畫面播放速率。</span><span class="sxs-lookup"><span data-stu-id="f81c2-294">Average frame rate for incoming transmissions during the call.</span></span></p></td>
+<td><p><span data-ttu-id="e1b66-292"><strong>輸入的平均播放速率]</strong></span><span class="sxs-lookup"><span data-stu-id="e1b66-292"><strong>Inbound avg frame rate</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1b66-293">否</span><span class="sxs-lookup"><span data-stu-id="e1b66-293">No</span></span></p></td>
+<td><p><span data-ttu-id="e1b66-294">通話期間輸入傳輸的平均播放速率。</span><span class="sxs-lookup"><span data-stu-id="e1b66-294">Average frame rate for incoming transmissions during the call.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f81c2-295"><strong>輸入低畫面播放速率%</strong></span><span class="sxs-lookup"><span data-stu-id="f81c2-295"><strong>Inbound low frame rate %</strong></span></span></p></td>
-<td><p><span data-ttu-id="f81c2-296">否</span><span class="sxs-lookup"><span data-stu-id="f81c2-296">No</span></span></p></td>
-<td><p><span data-ttu-id="f81c2-297">傳入影片的位元速率低的通話百分比。</span><span class="sxs-lookup"><span data-stu-id="f81c2-297">Percentage of the call where the bit rate for incoming video was low.</span></span></p></td>
+<td><p><span data-ttu-id="e1b66-295"><strong>輸入低播放速率 %]</strong></span><span class="sxs-lookup"><span data-stu-id="e1b66-295"><strong>Inbound low frame rate %</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1b66-296">否</span><span class="sxs-lookup"><span data-stu-id="e1b66-296">No</span></span></p></td>
+<td><p><span data-ttu-id="e1b66-297">其中傳入的視訊的位元速率較低的通話百分比。</span><span class="sxs-lookup"><span data-stu-id="e1b66-297">Percentage of the call where the bit rate for incoming video was low.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f81c2-298"><strong>用戶端健康情況%</strong></span><span class="sxs-lookup"><span data-stu-id="f81c2-298"><strong>Client health %</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1b66-298"><strong>用戶端健康情況 %]</strong></span><span class="sxs-lookup"><span data-stu-id="e1b66-298"><strong>Client health %</strong></span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="f81c2-299">表示通話期間用戶端裝置的相對健康情況。</span><span class="sxs-lookup"><span data-stu-id="f81c2-299">Indicates the relative health of the client device during the call.</span></span></p></td>
+<td><p><span data-ttu-id="e1b66-299">通話期間會指出用戶端裝置的相關健康情況。</span><span class="sxs-lookup"><span data-stu-id="e1b66-299">Indicates the relative health of the client device during the call.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="server-performance-report-metrics-application-sharing-call-summary"></a><span data-ttu-id="f81c2-300">伺服器效能報告規格：應用程式共用通話摘要</span><span class="sxs-lookup"><span data-stu-id="f81c2-300">Server Performance Report Metrics: Application Sharing Call Summary</span></span>
+### <a name="server-performance-report-metrics-application-sharing-call-summary"></a><span data-ttu-id="e1b66-300">伺服器效能報告計量： 應用程式共用通話摘要</span><span class="sxs-lookup"><span data-stu-id="e1b66-300">Server Performance Report Metrics: Application Sharing Call Summary</span></span>
 
 <table>
 <colgroup>
@@ -360,70 +360,70 @@ ms.locfileid: "41764861"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="f81c2-301">名稱</span><span class="sxs-lookup"><span data-stu-id="f81c2-301">Name</span></span></th>
-<th><span data-ttu-id="f81c2-302">您可以針對此專案進行排序嗎？</span><span class="sxs-lookup"><span data-stu-id="f81c2-302">Can you sort on this item?</span></span></th>
-<th><span data-ttu-id="f81c2-303">說明</span><span class="sxs-lookup"><span data-stu-id="f81c2-303">Description</span></span></th>
+<th><span data-ttu-id="e1b66-301">姓名</span><span class="sxs-lookup"><span data-stu-id="e1b66-301">Name</span></span></th>
+<th><span data-ttu-id="e1b66-302">可以排序這個項目嗎？</span><span class="sxs-lookup"><span data-stu-id="e1b66-302">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="e1b66-303">描述</span><span class="sxs-lookup"><span data-stu-id="e1b66-303">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="f81c2-304"><strong>呼叫類型/端點類型</strong></span><span class="sxs-lookup"><span data-stu-id="f81c2-304"><strong>Call type/Endpoint type</strong></span></span></p></td>
-<td><p><span data-ttu-id="f81c2-305">否</span><span class="sxs-lookup"><span data-stu-id="f81c2-305">No</span></span></p></td>
-<td><p><span data-ttu-id="f81c2-306">當您按一下此專案時，報告會根據該類型顯示通話的詳細資訊。</span><span class="sxs-lookup"><span data-stu-id="f81c2-306">When you click this item, the report shows detailed information about calls based on that type.</span></span> <span data-ttu-id="f81c2-307">通話類型包括：</span><span class="sxs-lookup"><span data-stu-id="f81c2-307">Call types include:</span></span></p>
+<td><p><span data-ttu-id="e1b66-304"><strong>通話類型/端點類型</strong></span><span class="sxs-lookup"><span data-stu-id="e1b66-304"><strong>Call type/Endpoint type</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1b66-305">否</span><span class="sxs-lookup"><span data-stu-id="e1b66-305">No</span></span></p></td>
+<td><p><span data-ttu-id="e1b66-306">當您按一下此項目時，報告就會顯示該類型為基礎的通話的詳細的資訊。</span><span class="sxs-lookup"><span data-stu-id="e1b66-306">When you click this item, the report shows detailed information about calls based on that type.</span></span> <span data-ttu-id="e1b66-307">通話類型包括：</span><span class="sxs-lookup"><span data-stu-id="e1b66-307">Call types include:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="f81c2-308">UC 對等通話</span><span class="sxs-lookup"><span data-stu-id="f81c2-308">UC Peer-to-Peer Calls</span></span></p></li>
-<li><p><span data-ttu-id="f81c2-309">UC 會議會話</span><span class="sxs-lookup"><span data-stu-id="f81c2-309">UC Conference Sessions</span></span></p></li>
-<li><p><span data-ttu-id="f81c2-310">PSTN 會議會話</span><span class="sxs-lookup"><span data-stu-id="f81c2-310">PSTN Conference Sessions</span></span></p></li>
-<li><p><span data-ttu-id="f81c2-311">PSTN 電話：媒體旁路</span><span class="sxs-lookup"><span data-stu-id="f81c2-311">PSTN Calls: Media Bypass</span></span></p></li>
-<li><p><span data-ttu-id="f81c2-312">PSTN 通話（非旁路）： UC 腿</span><span class="sxs-lookup"><span data-stu-id="f81c2-312">PSTN Calls (Non-Bypass): UC Leg</span></span></p></li>
-<li><p><span data-ttu-id="f81c2-313">PSTN 通話（非旁路）：閘道腿</span><span class="sxs-lookup"><span data-stu-id="f81c2-313">PSTN Calls (Non-Bypass): Gateway Leg</span></span></p></li>
-<li><p><span data-ttu-id="f81c2-314">其他通話類型</span><span class="sxs-lookup"><span data-stu-id="f81c2-314">Other Call Types</span></span></p></li>
+<li><p><span data-ttu-id="e1b66-308">UC 對等通話</span><span class="sxs-lookup"><span data-stu-id="e1b66-308">UC Peer-to-Peer Calls</span></span></p></li>
+<li><p><span data-ttu-id="e1b66-309">UC 會議工作階段</span><span class="sxs-lookup"><span data-stu-id="e1b66-309">UC Conference Sessions</span></span></p></li>
+<li><p><span data-ttu-id="e1b66-310">PSTN 會議工作階段</span><span class="sxs-lookup"><span data-stu-id="e1b66-310">PSTN Conference Sessions</span></span></p></li>
+<li><p><span data-ttu-id="e1b66-311">PSTN 通話： 媒體旁路</span><span class="sxs-lookup"><span data-stu-id="e1b66-311">PSTN Calls: Media Bypass</span></span></p></li>
+<li><p><span data-ttu-id="e1b66-312">PSTN 通話 （非旁路）： UC Leg</span><span class="sxs-lookup"><span data-stu-id="e1b66-312">PSTN Calls (Non-Bypass): UC Leg</span></span></p></li>
+<li><p><span data-ttu-id="e1b66-313">PSTN 通話 （非旁路）： 閘道 Leg</span><span class="sxs-lookup"><span data-stu-id="e1b66-313">PSTN Calls (Non-Bypass): Gateway Leg</span></span></p></li>
+<li><p><span data-ttu-id="e1b66-314">其他通話類型</span><span class="sxs-lookup"><span data-stu-id="e1b66-314">Other Call Types</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f81c2-315"><strong>通話量</strong></span><span class="sxs-lookup"><span data-stu-id="f81c2-315"><strong>Call volume</strong></span></span></p></td>
-<td><p><span data-ttu-id="f81c2-316">否</span><span class="sxs-lookup"><span data-stu-id="f81c2-316">No</span></span></p></td>
-<td><p><span data-ttu-id="f81c2-317">每個通話類型的通話總數。</span><span class="sxs-lookup"><span data-stu-id="f81c2-317">Total number of calls per call type.</span></span></p></td>
+<td><p><span data-ttu-id="e1b66-315"><strong>[通話數</strong></span><span class="sxs-lookup"><span data-stu-id="e1b66-315"><strong>Call volume</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1b66-316">否</span><span class="sxs-lookup"><span data-stu-id="e1b66-316">No</span></span></p></td>
+<td><p><span data-ttu-id="e1b66-317">每一種通話類型通話總數。</span><span class="sxs-lookup"><span data-stu-id="e1b66-317">Total number of calls per call type.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f81c2-318"><strong>通話百分比太差</strong></span><span class="sxs-lookup"><span data-stu-id="f81c2-318"><strong>Poor call percentage</strong></span></span></p></td>
-<td><p><span data-ttu-id="f81c2-319">否</span><span class="sxs-lookup"><span data-stu-id="f81c2-319">No</span></span></p></td>
-<td><p><span data-ttu-id="f81c2-320">分類為不良的通話總數。</span><span class="sxs-lookup"><span data-stu-id="f81c2-320">Total number of calls classified as poor.</span></span> <span data-ttu-id="f81c2-321">較差的通話是指至少其中一個測量的指標超過允許值（例如，遇到過度抖動的呼叫）的呼叫。</span><span class="sxs-lookup"><span data-stu-id="f81c2-321">A poor call is any call which at least one of the measured metrics exceeded the allowed value (for example, a call that experienced excessive jitter).</span></span></p></td>
+<td><p><span data-ttu-id="e1b66-318"><strong>通話不良百分比</strong></span><span class="sxs-lookup"><span data-stu-id="e1b66-318"><strong>Poor call percentage</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1b66-319">否</span><span class="sxs-lookup"><span data-stu-id="e1b66-319">No</span></span></p></td>
+<td><p><span data-ttu-id="e1b66-320">歸類為不良的通話總數。</span><span class="sxs-lookup"><span data-stu-id="e1b66-320">Total number of calls classified as poor.</span></span> <span data-ttu-id="e1b66-321">通話不良是指至少一項計算超出允許的值 （例如，通話過多的抖動） 任何來電。</span><span class="sxs-lookup"><span data-stu-id="e1b66-321">A poor call is any call which at least one of the measured metrics exceeded the allowed value (for example, a call that experienced excessive jitter).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f81c2-322"><strong>通話音量（無線通話）</strong></span><span class="sxs-lookup"><span data-stu-id="f81c2-322"><strong>Call volume (wireless call)</strong></span></span></p></td>
-<td><p><span data-ttu-id="f81c2-323">否</span><span class="sxs-lookup"><span data-stu-id="f81c2-323">No</span></span></p></td>
-<td><p><span data-ttu-id="f81c2-324">已使用無線連線的通話總數。</span><span class="sxs-lookup"><span data-stu-id="f81c2-324">Total number of calls that used a wireless connection.</span></span></p></td>
+<td><p><span data-ttu-id="e1b66-322"><strong>通話數 （無線通話）</strong></span><span class="sxs-lookup"><span data-stu-id="e1b66-322"><strong>Call volume (wireless call)</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1b66-323">否</span><span class="sxs-lookup"><span data-stu-id="e1b66-323">No</span></span></p></td>
+<td><p><span data-ttu-id="e1b66-324">使用無線連線的通話總數。</span><span class="sxs-lookup"><span data-stu-id="e1b66-324">Total number of calls that used a wireless connection.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f81c2-325"><strong>通話量（VPN 通話）</strong></span><span class="sxs-lookup"><span data-stu-id="f81c2-325"><strong>Call volume (VPN call)</strong></span></span></p></td>
-<td><p><span data-ttu-id="f81c2-326">否</span><span class="sxs-lookup"><span data-stu-id="f81c2-326">No</span></span></p></td>
-<td><p><span data-ttu-id="f81c2-327">已使用 VPN 連線的通話總數。</span><span class="sxs-lookup"><span data-stu-id="f81c2-327">Total number of calls that used a VPN connection.</span></span></p></td>
+<td><p><span data-ttu-id="e1b66-325"><strong>通話數 （VPN 通話）</strong></span><span class="sxs-lookup"><span data-stu-id="e1b66-325"><strong>Call volume (VPN call)</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1b66-326">否</span><span class="sxs-lookup"><span data-stu-id="e1b66-326">No</span></span></p></td>
+<td><p><span data-ttu-id="e1b66-327">使用 VPN 連線的通話總數。</span><span class="sxs-lookup"><span data-stu-id="e1b66-327">Total number of calls that used a VPN connection.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f81c2-328"><strong>通話音量（外部通話）</strong></span><span class="sxs-lookup"><span data-stu-id="f81c2-328"><strong>Call volume (external call)</strong></span></span></p></td>
-<td><p><span data-ttu-id="f81c2-329">否</span><span class="sxs-lookup"><span data-stu-id="f81c2-329">No</span></span></p></td>
-<td><p><span data-ttu-id="f81c2-330">使用外部連線的呼叫數量（也就是內部網路以外的連線）。</span><span class="sxs-lookup"><span data-stu-id="f81c2-330">Number of calls that used an external connection (that is, a connection outside the internal network).</span></span></p></td>
+<td><p><span data-ttu-id="e1b66-328"><strong>通話數 （外部通話）</strong></span><span class="sxs-lookup"><span data-stu-id="e1b66-328"><strong>Call volume (external call)</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1b66-329">否</span><span class="sxs-lookup"><span data-stu-id="e1b66-329">No</span></span></p></td>
+<td><p><span data-ttu-id="e1b66-330">使用外部連線 （亦即內部網路外部連接） 的通話數。</span><span class="sxs-lookup"><span data-stu-id="e1b66-330">Number of calls that used an external connection (that is, a connection outside the internal network).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f81c2-331"><strong>抖動（毫秒）</strong></span><span class="sxs-lookup"><span data-stu-id="f81c2-331"><strong>Jitter (ms)</strong></span></span></p></td>
-<td><p><span data-ttu-id="f81c2-332">否</span><span class="sxs-lookup"><span data-stu-id="f81c2-332">No</span></span></p></td>
-<td><p><span data-ttu-id="f81c2-333">在 RTP 資料包抵達之間檢測到的平均抖動。</span><span class="sxs-lookup"><span data-stu-id="f81c2-333">Average jitter detected between RTP packet arrivals.</span></span> <span data-ttu-id="f81c2-334">（抖動是通話&quot;shakiness&quot;的量度。）高抖動值通常是由擁塞或超載的媒體伺服器所造成，而且會造成失真或遺失音訊。</span><span class="sxs-lookup"><span data-stu-id="f81c2-334">(Jitter is a measure of the &quot;shakiness&quot; of a call.) High jitter values are typically caused by congestion or an overloaded media server, and result in distorted or lost audio.</span></span></p></td>
+<td><p><span data-ttu-id="e1b66-331"><strong>抖動 (ms)</strong></span><span class="sxs-lookup"><span data-stu-id="e1b66-331"><strong>Jitter (ms)</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1b66-332">否</span><span class="sxs-lookup"><span data-stu-id="e1b66-332">No</span></span></p></td>
+<td><p><span data-ttu-id="e1b66-333">偵測到之間 RTP 封包抵達的平均抖動值。</span><span class="sxs-lookup"><span data-stu-id="e1b66-333">Average jitter detected between RTP packet arrivals.</span></span> <span data-ttu-id="e1b66-334">(抖動是評量&quot;shakiness&quot;的呼叫。)高抖動值通常是造成壅塞或超載的媒體伺服器，並導致扭曲或遺失音訊。</span><span class="sxs-lookup"><span data-stu-id="e1b66-334">(Jitter is a measure of the &quot;shakiness&quot; of a call.) High jitter values are typically caused by congestion or an overloaded media server, and result in distorted or lost audio.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f81c2-335"><strong>平均相對單向</strong></span><span class="sxs-lookup"><span data-stu-id="f81c2-335"><strong>Avg. relative one way</strong></span></span></p></td>
-<td><p><span data-ttu-id="f81c2-336">否</span><span class="sxs-lookup"><span data-stu-id="f81c2-336">No</span></span></p></td>
-<td><p><span data-ttu-id="f81c2-337">兩個媒體端點之間的平均相對單向延遲。</span><span class="sxs-lookup"><span data-stu-id="f81c2-337">Average relative one-way delay between two media endpoints.</span></span> <span data-ttu-id="f81c2-338">這是一個單跳躍延遲測量。</span><span class="sxs-lookup"><span data-stu-id="f81c2-338">This is a single-hop latency measure.</span></span></p></td>
+<td><p><span data-ttu-id="e1b66-335"><strong>平均相對的其中一種方式</strong></span><span class="sxs-lookup"><span data-stu-id="e1b66-335"><strong>Avg. relative one way</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1b66-336">否</span><span class="sxs-lookup"><span data-stu-id="e1b66-336">No</span></span></p></td>
+<td><p><span data-ttu-id="e1b66-337">平均相對單向之間的延遲兩個媒體端點。</span><span class="sxs-lookup"><span data-stu-id="e1b66-337">Average relative one-way delay between two media endpoints.</span></span> <span data-ttu-id="e1b66-338">此為單一躍點延遲措施。</span><span class="sxs-lookup"><span data-stu-id="e1b66-338">This is a single-hop latency measure.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f81c2-339"><strong>平均 .RDP 磚處理延遲時間</strong></span><span class="sxs-lookup"><span data-stu-id="f81c2-339"><strong>Avg. RDP tile processing latency</strong></span></span></p></td>
-<td><p><span data-ttu-id="f81c2-340">否</span><span class="sxs-lookup"><span data-stu-id="f81c2-340">No</span></span></p></td>
-<td><p><span data-ttu-id="f81c2-341">在查看會話期間，AS 會議服務器中的 [作為會議中的平均 RDP 磚處理延遲]。</span><span class="sxs-lookup"><span data-stu-id="f81c2-341">The average RDP tile processing latency in the AS Conferencing Server over the duration of the viewing session.</span></span> <span data-ttu-id="f81c2-342">此統計不會涵蓋網路延遲。</span><span class="sxs-lookup"><span data-stu-id="f81c2-342">This metric does not cover network latency.</span></span> <span data-ttu-id="f81c2-343">高平均值會在觀賞體驗中反映較長的延遲。</span><span class="sxs-lookup"><span data-stu-id="f81c2-343">A high average reflects a longer delay in the viewing experience.</span></span> <span data-ttu-id="f81c2-344">超負荷的會議服務器可能會遇到較高的平均延遲。</span><span class="sxs-lookup"><span data-stu-id="f81c2-344">An overloaded conferencing server may experience higher average delays.</span></span></p></td>
+<td><p><span data-ttu-id="e1b66-339"><strong>平均 RDP 並排顯示處理延遲</strong></span><span class="sxs-lookup"><span data-stu-id="e1b66-339"><strong>Avg. RDP tile processing latency</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1b66-340">否</span><span class="sxs-lookup"><span data-stu-id="e1b66-340">No</span></span></p></td>
+<td><p><span data-ttu-id="e1b66-341">平均 RDP 並排檢視工作階段的持續時間內 AS 會議伺服器的處理延遲。</span><span class="sxs-lookup"><span data-stu-id="e1b66-341">The average RDP tile processing latency in the AS Conferencing Server over the duration of the viewing session.</span></span> <span data-ttu-id="e1b66-342">此計量並未涵蓋網路延遲。</span><span class="sxs-lookup"><span data-stu-id="e1b66-342">This metric does not cover network latency.</span></span> <span data-ttu-id="e1b66-343">高平均會反映檢視經驗中較長的延遲。</span><span class="sxs-lookup"><span data-stu-id="e1b66-343">A high average reflects a longer delay in the viewing experience.</span></span> <span data-ttu-id="e1b66-344">負載過重的會議伺服器可能會發生較高的平均延遲。</span><span class="sxs-lookup"><span data-stu-id="e1b66-344">An overloaded conferencing server may experience higher average delays.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f81c2-345"><strong>總 spoiled 磚%</strong></span><span class="sxs-lookup"><span data-stu-id="f81c2-345"><strong>Total spoiled tile %</strong></span></span></p></td>
-<td><p><span data-ttu-id="f81c2-346">否</span><span class="sxs-lookup"><span data-stu-id="f81c2-346">No</span></span></p></td>
-<td><p><span data-ttu-id="f81c2-347">Spoiled RDP 磚的總百分比。</span><span class="sxs-lookup"><span data-stu-id="f81c2-347">Total percentage of spoiled RDP tiles.</span></span></p></td>
+<td><p><span data-ttu-id="e1b66-345"><strong>總毀損之並排顯示 %</strong></span><span class="sxs-lookup"><span data-stu-id="e1b66-345"><strong>Total spoiled tile %</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1b66-346">否</span><span class="sxs-lookup"><span data-stu-id="e1b66-346">No</span></span></p></td>
+<td><p><span data-ttu-id="e1b66-347">毀損之 RDP 並排顯示的總百分比。</span><span class="sxs-lookup"><span data-stu-id="e1b66-347">Total percentage of spoiled RDP tiles.</span></span></p></td>
 </tr>
 </tbody>
 </table>

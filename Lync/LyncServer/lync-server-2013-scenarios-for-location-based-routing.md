@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：位置基礎路由案例
+title: Lync Server 2013： 案例依位置路由
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803975
 ms.date: 08/11/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bf44e24df2333a8af114b3508ea8a224028b6b6d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5b8be3355828b0d0b572b8fdd596ef3e5a2ae637
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732622"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049535"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="scenarios-for-location-based-routing-in-lync-server-2013"></a><span data-ttu-id="65674-102">Lync Server 2013 中的位置基礎路由案例</span><span class="sxs-lookup"><span data-stu-id="65674-102">Scenarios for Location-Based Routing in Lync Server 2013</span></span>
+# <a name="scenarios-for-location-based-routing-in-lync-server-2013"></a><span data-ttu-id="3edaa-102">依位置路由 Lync Server 2013 中的案例</span><span class="sxs-lookup"><span data-stu-id="3edaa-102">Scenarios for Location-Based Routing in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,34 +35,34 @@ ms.locfileid: "41732622"
 
 <span> </span>
 
-<span data-ttu-id="65674-103">_**主題上次修改日期：** 2014-08-11_</span><span class="sxs-lookup"><span data-stu-id="65674-103">_**Topic Last Modified:** 2014-08-11_</span></span>
+<span data-ttu-id="3edaa-103">_**上次修改主題：** 2014年-08-11_</span><span class="sxs-lookup"><span data-stu-id="3edaa-103">_**Topic Last Modified:** 2014-08-11_</span></span>
 
-<span data-ttu-id="65674-104">以位置為基礎的路由在下列情況下進行路由通話時，會套用下列一般規則。</span><span class="sxs-lookup"><span data-stu-id="65674-104">Location-Based Routing applies the following general rules when routing calls in the following scenarios.</span></span>
+<span data-ttu-id="3edaa-104">在下列案例中路由傳送來電時，位置型路由適用於下列一般規則。</span><span class="sxs-lookup"><span data-stu-id="3edaa-104">Location-Based Routing applies the following general rules when routing calls in the following scenarios.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="65674-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="65674-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="3edaa-105">本章節內容</span><span class="sxs-lookup"><span data-stu-id="3edaa-105">In This Section</span></span>
 
-  - [<span data-ttu-id="65674-106">在 Lync Server 2013 中撥出電話</span><span class="sxs-lookup"><span data-stu-id="65674-106">Outgoing calls in Lync Server 2013</span></span>](lync-server-2013-outgoing-calls.md)
+  - [<span data-ttu-id="3edaa-106">Lync Server 2013 中的撥出電話</span><span class="sxs-lookup"><span data-stu-id="3edaa-106">Outgoing calls in Lync Server 2013</span></span>](lync-server-2013-outgoing-calls.md)
 
-  - [<span data-ttu-id="65674-107">Lync Server 2013 中的來電</span><span class="sxs-lookup"><span data-stu-id="65674-107">Incoming calls in Lync Server 2013</span></span>](lync-server-2013-incoming-calls.md)
+  - [<span data-ttu-id="3edaa-107">Lync Server 2013 中的來電</span><span class="sxs-lookup"><span data-stu-id="3edaa-107">Incoming calls in Lync Server 2013</span></span>](lync-server-2013-incoming-calls.md)
 
-  - [<span data-ttu-id="65674-108">Lync Server 2013 中的通話轉接和來電轉接</span><span class="sxs-lookup"><span data-stu-id="65674-108">Call transfers and call forwarding in Lync Server 2013</span></span>](lync-server-2013-call-transfers-and-call-forwarding.md)
+  - [<span data-ttu-id="3edaa-108">來電轉接和 Lync Server 2013 中來電轉接</span><span class="sxs-lookup"><span data-stu-id="3edaa-108">Call transfers and call forwarding in Lync Server 2013</span></span>](lync-server-2013-call-transfers-and-call-forwarding.md)
 
-  - [<span data-ttu-id="65674-109">Lync Server 2013 中的同時響鈴</span><span class="sxs-lookup"><span data-stu-id="65674-109">Simultaneous ringing in Lync Server 2013</span></span>](lync-server-2013-simultaneous-ringing.md)
+  - [<span data-ttu-id="3edaa-109">同時響鈴的 Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3edaa-109">Simultaneous ringing in Lync Server 2013</span></span>](lync-server-2013-simultaneous-ringing.md)
 
-  - [<span data-ttu-id="65674-110">Lync Server 2013 中的委派</span><span class="sxs-lookup"><span data-stu-id="65674-110">Delegation in Lync Server 2013</span></span>](lync-server-2013-delegation.md)
+  - [<span data-ttu-id="3edaa-110">Lync Server 2013 中的委派</span><span class="sxs-lookup"><span data-stu-id="3edaa-110">Delegation in Lync Server 2013</span></span>](lync-server-2013-delegation.md)
 
-  - [<span data-ttu-id="65674-111">在 Lync Server 2013 中使用以位置為基礎的路由支援小組通話</span><span class="sxs-lookup"><span data-stu-id="65674-111">Team calling with Location-Based Routing in Lync Server 2013</span></span>](lync-server-2013-team-calling-with-location-based-routing.md)
+  - [<span data-ttu-id="3edaa-111">使用 Lync Server 2013 中的位置 Routing 而直接呼叫的小組</span><span class="sxs-lookup"><span data-stu-id="3edaa-111">Team calling with Location-Based Routing in Lync Server 2013</span></span>](lync-server-2013-team-calling-with-location-based-routing.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="65674-112">請參閱</span><span class="sxs-lookup"><span data-stu-id="65674-112">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3edaa-112">另請參閱</span><span class="sxs-lookup"><span data-stu-id="3edaa-112">See Also</span></span>
 
 
-[<span data-ttu-id="65674-113">在 Lync Server 2013 中規劃位置基礎路由</span><span class="sxs-lookup"><span data-stu-id="65674-113">Planning for Location-Based Routing in Lync Server 2013</span></span>](lync-server-2013-planning-for-location-based-routing.md)  
+[<span data-ttu-id="3edaa-113">規劃 Lync Server 2013 中依位置路由</span><span class="sxs-lookup"><span data-stu-id="3edaa-113">Planning for Location-Based Routing in Lync Server 2013</span></span>](lync-server-2013-planning-for-location-based-routing.md)  
   
 
 </div>

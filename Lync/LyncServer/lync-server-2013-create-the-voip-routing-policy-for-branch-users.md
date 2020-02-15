@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：為分支使用者建立 VoIP 路由原則
+title: Lync Server 2013： 建立 VoIP 路由原則為分支使用者
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183435
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d1cc8f0a6c4d960b4dacf6f62f283d806a6dd6f9
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 308c4ad3a7371c9a27f668b79623a512227623b4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733673"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046716"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="create-the-voip-routing-policy-for-branch-users-in-lync-server-2013"></a><span data-ttu-id="86cc2-102">在 Lync Server 2013 中為分支使用者建立 VoIP 路由原則</span><span class="sxs-lookup"><span data-stu-id="86cc2-102">Create the VoIP routing policy for branch users in Lync Server 2013</span></span>
+# <a name="create-the-voip-routing-policy-for-branch-users-in-lync-server-2013"></a><span data-ttu-id="d5796-102">在 Lync Server 2013 中建立分支使用者 VoIP 路由原則</span><span class="sxs-lookup"><span data-stu-id="d5796-102">Create the VoIP routing policy for branch users in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,32 +35,32 @@ ms.locfileid: "41733673"
 
 <span> </span>
 
-<span data-ttu-id="86cc2-103">_**主題上次修改日期：** 2012-09-23_</span><span class="sxs-lookup"><span data-stu-id="86cc2-103">_**Topic Last Modified:** 2012-09-23_</span></span>
+<span data-ttu-id="d5796-103">_**主題上次修改日期：** 2012年-09-23_</span><span class="sxs-lookup"><span data-stu-id="d5796-103">_**Topic Last Modified:** 2012-09-23_</span></span>
 
-<span data-ttu-id="86cc2-104">我們建議針對分支網站上的使用者建立個別的 [語音 over IP] （VoIP）原則。</span><span class="sxs-lookup"><span data-stu-id="86cc2-104">We recommend creating a separate voice over IP (VoIP) policy for users at branch sites.</span></span> <span data-ttu-id="86cc2-105">此原則應該包含來自 Survivable 分支裝置閘道的出口，或 Survivable 分支伺服器外部閘道，以及從中央網站上的閘道傳出的備份路由。</span><span class="sxs-lookup"><span data-stu-id="86cc2-105">This policy should contain routes to egress from the Survivable Branch Appliance gateway or the Survivable Branch Server external gateway and backup routes to egress from a gateway at the central site.</span></span> <span data-ttu-id="86cc2-106">不論使用者的登錄位置為何，無論是在 Survivable 分支裝置或 Survivable 分支伺服器上的註冊機構或中央網站的備份註冊機構群集上，使用者的 VoIP 原則都將會生效。</span><span class="sxs-lookup"><span data-stu-id="86cc2-106">Regardless of where the user is registered, either on the Registrar on the Survivable Branch Appliance or Survivable Branch Server or on the backup Registrar cluster at the central site, the user’s VoIP policy is always in effect.</span></span>
+<span data-ttu-id="d5796-104">我們建議您為分支網站的使用者建立個別的 VoIP 原則。</span><span class="sxs-lookup"><span data-stu-id="d5796-104">We recommend creating a separate voice over IP (VoIP) policy for users at branch sites.</span></span> <span data-ttu-id="d5796-105">此原則應該包含從 Survivable Branch Appliance 閘道或 Survivable Branch 伺服器外部閘道的輸出路由和備份來自閘道在中央網站的輸出路由。</span><span class="sxs-lookup"><span data-stu-id="d5796-105">This policy should contain routes to egress from the Survivable Branch Appliance gateway or the Survivable Branch Server external gateway and backup routes to egress from a gateway at the central site.</span></span> <span data-ttu-id="d5796-106">不論其中使用者註冊，不論是在備份登錄器叢集在中央網站，或 Survivable Branch Appliance 或 Survivable Branch 伺服器上之登錄器上使用者的 VoIP 原則一律是作用中。</span><span class="sxs-lookup"><span data-stu-id="d5796-106">Regardless of where the user is registered, either on the Registrar on the Survivable Branch Appliance or Survivable Branch Server or on the backup Registrar cluster at the central site, the user’s VoIP policy is always in effect.</span></span>
 
 <div>
 
-## <a name="to-configure-the-voip-routing-policy-for-branch-users"></a><span data-ttu-id="86cc2-107">為分支使用者設定 VoIP 路由策略</span><span class="sxs-lookup"><span data-stu-id="86cc2-107">To configure the VoIP routing policy for branch users</span></span>
+## <a name="to-configure-the-voip-routing-policy-for-branch-users"></a><span data-ttu-id="d5796-107">若要為分支使用者設定 VoIP 路由原則</span><span class="sxs-lookup"><span data-stu-id="d5796-107">To configure the VoIP routing policy for branch users</span></span>
 
-1.  <span data-ttu-id="86cc2-108">建立使用者層級撥號方案並將其指派給分支使用者。</span><span class="sxs-lookup"><span data-stu-id="86cc2-108">Create a user-level dial plan and assign it to branch users.</span></span> <span data-ttu-id="86cc2-109">（請參閱在 [操作] 檔的[Lync Server 2013 中建立撥號方案](lync-server-2013-create-a-dial-plan.md)）。</span><span class="sxs-lookup"><span data-stu-id="86cc2-109">(See [Create a dial plan in Lync Server 2013](lync-server-2013-create-a-dial-plan.md) in the Operations documentation.)</span></span>
+1.  <span data-ttu-id="d5796-108">建立使用者層級撥號對應表，並將其指派給分公司使用者。</span><span class="sxs-lookup"><span data-stu-id="d5796-108">Create a user-level dial plan and assign it to branch users.</span></span> <span data-ttu-id="d5796-109">（請參閱[建立撥號對應表 Lync Server 2013 中](lync-server-2013-create-a-dial-plan.md)的作業文件中。）</span><span class="sxs-lookup"><span data-stu-id="d5796-109">(See [Create a dial plan in Lync Server 2013](lync-server-2013-create-a-dial-plan.md) in the Operations documentation.)</span></span>
 
-2.  <span data-ttu-id="86cc2-110">指派與使用者在該網站上的撥號習慣相對應的正常化規則。</span><span class="sxs-lookup"><span data-stu-id="86cc2-110">Assign normalization rules corresponding to the dialing habits of users at that site.</span></span> <span data-ttu-id="86cc2-111">如果 Survivable 分支裝置或 Survivable 分支伺服器使用者無法容錯移轉到中央網站上的 [備份註冊機] 池，則相同的撥號方案將會生效。</span><span class="sxs-lookup"><span data-stu-id="86cc2-111">If the Survivable Branch Appliance or Survivable Branch Server user fails over to the backup Registrar pool at the central site, the same dial plan will be in effect.</span></span> <span data-ttu-id="86cc2-112">（請參閱在 [操作] 檔的[Lync Server 2013 中建立撥號方案](lync-server-2013-create-a-dial-plan.md)）。</span><span class="sxs-lookup"><span data-stu-id="86cc2-112">(See [Create a dial plan in Lync Server 2013](lync-server-2013-create-a-dial-plan.md) in the Operations documentation.)</span></span>
+2.  <span data-ttu-id="d5796-110">指派與該網站上使用者撥號習慣對應的正規化規則。</span><span class="sxs-lookup"><span data-stu-id="d5796-110">Assign normalization rules corresponding to the dialing habits of users at that site.</span></span> <span data-ttu-id="d5796-111">如果 Survivable Branch Appliance 或 Survivable Branch 伺服器的使用者容錯移轉至中央網站的備份登錄器集區，相同的撥號對應表中會生效。</span><span class="sxs-lookup"><span data-stu-id="d5796-111">If the Survivable Branch Appliance or Survivable Branch Server user fails over to the backup Registrar pool at the central site, the same dial plan will be in effect.</span></span> <span data-ttu-id="d5796-112">（請參閱[建立撥號對應表 Lync Server 2013 中](lync-server-2013-create-a-dial-plan.md)的作業文件中。）</span><span class="sxs-lookup"><span data-stu-id="d5796-112">(See [Create a dial plan in Lync Server 2013](lync-server-2013-create-a-dial-plan.md) in the Operations documentation.)</span></span>
 
-3.  <span data-ttu-id="86cc2-113">設定從 Survivable 分支裝置閘道或 Survivable 分支伺服器外部閘道 egresses 的語音路由。</span><span class="sxs-lookup"><span data-stu-id="86cc2-113">Configure a voice route that egresses from the Survivable Branch Appliance gateway or the Survivable Branch Server external gateway.</span></span> <span data-ttu-id="86cc2-114">（請參閱在 Operations 檔中在[Lync Server 2013 中建立語音信箱](lync-server-2013-create-a-voice-route.md)。）</span><span class="sxs-lookup"><span data-stu-id="86cc2-114">(See [Create a voice route in Lync Server 2013](lync-server-2013-create-a-voice-route.md) in the Operations documentation.)</span></span>
+3.  <span data-ttu-id="d5796-113">設定從 Survivable Branch Appliance 閘道或 Survivable Branch 伺服器的外部閘道 egresses 語音路由。</span><span class="sxs-lookup"><span data-stu-id="d5796-113">Configure a voice route that egresses from the Survivable Branch Appliance gateway or the Survivable Branch Server external gateway.</span></span> <span data-ttu-id="d5796-114">（請參閱[建立 Lync Server 2013 中的語音路由](lync-server-2013-create-a-voice-route.md)作業 > 文件中）。</span><span class="sxs-lookup"><span data-stu-id="d5796-114">(See [Create a voice route in Lync Server 2013](lync-server-2013-create-a-voice-route.md) in the Operations documentation.)</span></span>
 
-4.  <span data-ttu-id="86cc2-115">在 Survivable 分支裝置上設定備份呼叫路由，或 Survivable 分支伺服器閘道，以指向中央網站上的 [備份註冊器] 池（collocated 與中繼伺服器）。</span><span class="sxs-lookup"><span data-stu-id="86cc2-115">Set a backup call route on the Survivable Branch Appliance or Survivable Branch Server gateway to point to the backup Registrar pool (collocated with Mediation Server) at the central site.</span></span> <span data-ttu-id="86cc2-116">（請參閱您的 Survivable 分支裝置或 Survivable 分支伺服器廠商檔。）</span><span class="sxs-lookup"><span data-stu-id="86cc2-116">(See your Survivable Branch Appliance or Survivable Branch Server vendor documentation.)</span></span>
+4.  <span data-ttu-id="d5796-115">Survivable Branch Appliance 或 Survivable Branch 伺服器閘道指向備份登錄器集區 （與中繼伺服器組合） 在中央網站上設定的備份呼叫路由。</span><span class="sxs-lookup"><span data-stu-id="d5796-115">Set a backup call route on the Survivable Branch Appliance or Survivable Branch Server gateway to point to the backup Registrar pool (collocated with Mediation Server) at the central site.</span></span> <span data-ttu-id="d5796-116">（請參閱 Survivable Branch Appliance 或 Survivable Branch 伺服器廠商文件）。</span><span class="sxs-lookup"><span data-stu-id="d5796-116">(See your Survivable Branch Appliance or Survivable Branch Server vendor documentation.)</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="86cc2-117">此備份呼叫路線設定可協助確保當 Survivable 分支機搆或 Survivable 分支伺服器無法使用時，分支使用者的撥入呼叫可以正常運作（例如，如果是為了進行維護）。</span><span class="sxs-lookup"><span data-stu-id="86cc2-117">This backup call route setup helps ensure that inbound calls to the branch user will work when the Survivable Branch Appliance or Survivable Branch Server is not available (for example, if it is down for maintenance).</span></span> <span data-ttu-id="86cc2-118">如果 Survivable 分支裝置或 Survivable 分支伺服器上的註冊機構和轉送器伺服器無法使用，而且使用者已在中央網站上的 [備份註冊機構] 池中註冊，則輸入通話仍會傳送給使用者。</span><span class="sxs-lookup"><span data-stu-id="86cc2-118">If the Registrar and Mediation Server on the Survivable Branch Appliance or Survivable Branch Server are not available, and the user is registered with the backup Registrar pool at the central site, inbound calls can still be routed to the user.</span></span>
+    > <span data-ttu-id="d5796-117">此備份通話路由設定有助於確保與分支網站使用者的輸入的呼叫正常的 Survivable Branch Appliance 或 Survivable Branch 伺服器無法使用時 （例如，如果它是向下維護）。</span><span class="sxs-lookup"><span data-stu-id="d5796-117">This backup call route setup helps ensure that inbound calls to the branch user will work when the Survivable Branch Appliance or Survivable Branch Server is not available (for example, if it is down for maintenance).</span></span> <span data-ttu-id="d5796-118">如果登錄器和中繼伺服器上的 Survivable Branch Appliance 或 Survivable Branch 伺服器都無法使用，而且使用者註冊在中央網站的備份登錄器集區，撥入的通話可以仍然會路由傳送給使用者。</span><span class="sxs-lookup"><span data-stu-id="d5796-118">If the Registrar and Mediation Server on the Survivable Branch Appliance or Survivable Branch Server are not available, and the user is registered with the backup Registrar pool at the central site, inbound calls can still be routed to the user.</span></span>
 
     
     </div>
 
-<span data-ttu-id="86cc2-119">**後續步驟**：[在 Lync Server 2013 中設定語音信箱重新路由設定](lync-server-2013-configure-voice-mail-rerouting-settings.md)</span><span class="sxs-lookup"><span data-stu-id="86cc2-119">**Next step**: [Configure voice mail rerouting settings in Lync Server 2013](lync-server-2013-configure-voice-mail-rerouting-settings.md)</span></span>
+<span data-ttu-id="d5796-119">**下一步**：[設定語音信箱重新路由設定 Lync Server 2013 中](lync-server-2013-configure-voice-mail-rerouting-settings.md)</span><span class="sxs-lookup"><span data-stu-id="d5796-119">**Next step**: [Configure voice mail rerouting settings in Lync Server 2013](lync-server-2013-configure-voice-mail-rerouting-settings.md)</span></span>
 
 </div>
 

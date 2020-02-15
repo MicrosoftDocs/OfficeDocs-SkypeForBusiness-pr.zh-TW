@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：新通話功能
+title: Lync Server 2013： 新的通話功能
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733854
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dad938bf47292b74b451cefb32b0c5345d03e284
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 47482eade227c55091fd5d3ca0f7b5d58123fa91
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765824"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049995"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="new-call-features-in-lync-server-2013"></a><span data-ttu-id="921cb-102">Lync Server 2013 中的新通話功能</span><span class="sxs-lookup"><span data-stu-id="921cb-102">New call features in Lync Server 2013</span></span>
+# <a name="new-call-features-in-lync-server-2013"></a><span data-ttu-id="27db7-102">Lync Server 2013 中的新通話功能</span><span class="sxs-lookup"><span data-stu-id="27db7-102">New call features in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,18 +35,18 @@ ms.locfileid: "41765824"
 
 <span> </span>
 
-<span data-ttu-id="921cb-103">_**主題上次修改日期：** 2012-10-10_</span><span class="sxs-lookup"><span data-stu-id="921cb-103">_**Topic Last Modified:** 2012-10-10_</span></span>
+<span data-ttu-id="27db7-103">_**主題上次修改日期：** 2012年-10-10_</span><span class="sxs-lookup"><span data-stu-id="27db7-103">_**Topic Last Modified:** 2012-10-10_</span></span>
 
-<span data-ttu-id="921cb-104">Lync Server 2013 為來電轉接和同時撥打的配置選項提供了相當廣泛的設定選項。</span><span class="sxs-lookup"><span data-stu-id="921cb-104">Lync Server 2013 provides a significantly wider range of configuration options for call forwarding and simultaneous ringing.</span></span> <span data-ttu-id="921cb-105">例如，如果組織不想要將來電轉移到外部的交換式電話網絡（PSTN），系統管理員可以套用特殊的語音原則來部署此限制。</span><span class="sxs-lookup"><span data-stu-id="921cb-105">For example, if an organization does not want incoming calls to be forwarded externally to the public switched telephone network (PSTN), an administrator can apply a special voice policy to deploy this restriction.</span></span>
+<span data-ttu-id="27db7-104">Lync Server 2013 提供大幅廣泛的來電轉接和同時響鈴的組態選項。</span><span class="sxs-lookup"><span data-stu-id="27db7-104">Lync Server 2013 provides a significantly wider range of configuration options for call forwarding and simultaneous ringing.</span></span> <span data-ttu-id="27db7-105">比方說，如果組織不想從外部轉送到公用交換的電話網路 (PSTN) 的傳入呼叫，系統管理員可以將套用的特殊的語音原則，以部署此限制。</span><span class="sxs-lookup"><span data-stu-id="27db7-105">For example, if an organization does not want incoming calls to be forwarded externally to the public switched telephone network (PSTN), an administrator can apply a special voice policy to deploy this restriction.</span></span>
 
-<span data-ttu-id="921cb-106">此外，代理人現在可以將來電同時撥打給其主管的行動裝置。</span><span class="sxs-lookup"><span data-stu-id="921cb-106">Additionally, delegates can now set up simultaneous ringing to their mobile devices for incoming calls to their managers.</span></span> <span data-ttu-id="921cb-107">這可為代理人提供更大的彈性，讓他們可以代表其主管接聽電話，而不受限於手機。</span><span class="sxs-lookup"><span data-stu-id="921cb-107">This provides delegates with more flexibility, enabling them to answer calls on behalf of their manager without being tied to a desk phone.</span></span>
+<span data-ttu-id="27db7-106">此外，代理人可以立即設定同時響鈴來電給其主管其行動裝置。</span><span class="sxs-lookup"><span data-stu-id="27db7-106">Additionally, delegates can now set up simultaneous ringing to their mobile devices for incoming calls to their managers.</span></span> <span data-ttu-id="27db7-107">這提供更多的彈性，讓他們能而不必受限於電話機接聽來電代表其管理員的代理人。</span><span class="sxs-lookup"><span data-stu-id="27db7-107">This provides delegates with more flexibility, enabling them to answer calls on behalf of their manager without being tied to a desk phone.</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="921cb-108">請參閱</span><span class="sxs-lookup"><span data-stu-id="921cb-108">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="27db7-108">另請參閱</span><span class="sxs-lookup"><span data-stu-id="27db7-108">See Also</span></span>
 
 
-[<span data-ttu-id="921cb-109">Lync Server 2013 中的新企業語音功能</span><span class="sxs-lookup"><span data-stu-id="921cb-109">New Enterprise Voice features in Lync Server 2013</span></span>](lync-server-2013-new-enterprise-voice-features.md)  
+[<span data-ttu-id="27db7-109">Lync Server 2013 中的新 Enterprise Voice 功能</span><span class="sxs-lookup"><span data-stu-id="27db7-109">New Enterprise Voice features in Lync Server 2013</span></span>](lync-server-2013-new-enterprise-voice-features.md)  
   
 
 </div>

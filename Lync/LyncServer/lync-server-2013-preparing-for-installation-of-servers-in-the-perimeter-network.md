@@ -1,5 +1,5 @@
 ---
-title: 準備在周邊網路中安裝伺服器
+title: 準備安裝在周邊網路中的伺服器
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184292
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a28fc1e77a98e2a6123537ec5c062dca5d0c6ffb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c7168c1e32bd4ceb1466678d08a3d7ca9e6dc69e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724933"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045495"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="preparing-for-installation-of-servers-in-the-perimeter-network-for-lync-server-2013"></a><span data-ttu-id="13547-102">在周邊網路中準備安裝 Lync Server 2013 的伺服器</span><span class="sxs-lookup"><span data-stu-id="13547-102">Preparing for installation of servers in the perimeter network for Lync Server 2013</span></span>
+# <a name="preparing-for-installation-of-servers-in-the-perimeter-network-for-lync-server-2013"></a><span data-ttu-id="fee38-102">準備安裝 Lync Server 2013 的周邊網路中的伺服器</span><span class="sxs-lookup"><span data-stu-id="fee38-102">Preparing for installation of servers in the perimeter network for Lync Server 2013</span></span>
 
 </div>
 
@@ -35,35 +35,35 @@ ms.locfileid: "41724933"
 
 <span> </span>
 
-<span data-ttu-id="13547-103">_**主題上次修改日期：** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="13547-103">_**Topic Last Modified:** 2012-09-08_</span></span>
+<span data-ttu-id="fee38-103">_**主題上次修改日期：** 2012年-09-08_</span><span class="sxs-lookup"><span data-stu-id="fee38-103">_**Topic Last Modified:** 2012-09-08_</span></span>
 
-<span data-ttu-id="13547-104">在您設定邊緣伺服器元件之前，必須先確定您設定的電腦符合系統需求，並完成部署 Edge 伺服器元件所需的其他必要步驟。</span><span class="sxs-lookup"><span data-stu-id="13547-104">Before you set up Edge Server components, you need to ensure that computers that you are setting up meet system requirements and complete other prerequisite steps required for deployment of Edge Server components.</span></span>
+<span data-ttu-id="fee38-104">在您安裝 Edge Server 元件之前，請先確定要安裝的電腦符合系統需求，並完成其他 Edge Server 元件部署的先決步驟。</span><span class="sxs-lookup"><span data-stu-id="fee38-104">Before you set up Edge Server components, you need to ensure that computers that you are setting up meet system requirements and complete other prerequisite steps required for deployment of Edge Server components.</span></span>
 
-<span data-ttu-id="13547-105">開始之前，請先查看下列主題中的詳細資料，瞭解您要部署之參考體系結構的規劃檔：</span><span class="sxs-lookup"><span data-stu-id="13547-105">Before you begin, review the details in the following topics in the Planning documentation for the reference architecture that you want to deploy:</span></span>
+<span data-ttu-id="fee38-105">在您開始之前，請詳閱規劃文件中的下列主題，並查看想要部署的參考架構：</span><span class="sxs-lookup"><span data-stu-id="fee38-105">Before you begin, review the details in the following topics in the Planning documentation for the reference architecture that you want to deploy:</span></span>
 
-  - [<span data-ttu-id="13547-106">Lync Server 2013 中的單一合併 Edge (利用私人 IP 位址及 NAT)</span><span class="sxs-lookup"><span data-stu-id="13547-106">Single consolidated edge with private IP addresses and NAT in Lync Server 2013</span></span>](lync-server-2013-single-consolidated-edge-with-private-ip-addresses-and-nat.md)
+  - [<span data-ttu-id="fee38-106">私人 IP 位址及 NAT Lync Server 2013 中的單一合併的 edge</span><span class="sxs-lookup"><span data-stu-id="fee38-106">Single consolidated edge with private IP addresses and NAT in Lync Server 2013</span></span>](lync-server-2013-single-consolidated-edge-with-private-ip-addresses-and-nat.md)
 
-  - [<span data-ttu-id="13547-107">Lync Server 2013 中的單一合併 Edge (利用公用 IP 位址)</span><span class="sxs-lookup"><span data-stu-id="13547-107">Single consolidated edge with public IP addresses in Lync Server 2013</span></span>](lync-server-2013-single-consolidated-edge-with-public-ip-addresses.md)
+  - [<span data-ttu-id="fee38-107">與 Lync Server 2013 中的公用 IP 位址的單一合併的 edge</span><span class="sxs-lookup"><span data-stu-id="fee38-107">Single consolidated edge with public IP addresses in Lync Server 2013</span></span>](lync-server-2013-single-consolidated-edge-with-public-ip-addresses.md)
 
-  - [<span data-ttu-id="13547-108">Lync Server 2013 中的調整式合併 Edge (使用 NAT 透過私人 IP 位址進行 DNS 負載平衡)</span><span class="sxs-lookup"><span data-stu-id="13547-108">Scaled consolidated edge, DNS load balancing with private IP addresses using NAT in Lync Server 2013</span></span>](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)
+  - [<span data-ttu-id="fee38-108">調整式合併的 edge、 DNS 負載平衡與 Lync Server 2013 中使用 NAT 的私人 IP 位址</span><span class="sxs-lookup"><span data-stu-id="fee38-108">Scaled consolidated edge, DNS load balancing with private IP addresses using NAT in Lync Server 2013</span></span>](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)
 
-  - [<span data-ttu-id="13547-109">Lync Server 2013 中的調整式合併 Edge (透過公用 IP 位址進行 DNS 負載平衡)</span><span class="sxs-lookup"><span data-stu-id="13547-109">Scaled consolidated edge, DNS load balancing with public IP addresses in Lync Server 2013</span></span>](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)
+  - [<span data-ttu-id="fee38-109">調整式合併的 edge、 DNS 負載平衡與 Lync Server 2013 中的公用 IP 位址</span><span class="sxs-lookup"><span data-stu-id="fee38-109">Scaled consolidated edge, DNS load balancing with public IP addresses in Lync Server 2013</span></span>](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)
 
-  - [<span data-ttu-id="13547-110">Lync Server 2013 中含硬體負載平衡器的調整式合併 Edge</span><span class="sxs-lookup"><span data-stu-id="13547-110">Scaled consolidated edge with hardware load balancers in Lync Server 2013</span></span>](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md)
+  - [<span data-ttu-id="fee38-110">Lync Server 2013 中調整式合併的邊緣搭配硬體負載平衡器</span><span class="sxs-lookup"><span data-stu-id="fee38-110">Scaled consolidated edge with hardware load balancers in Lync Server 2013</span></span>](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md)
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="13547-111">本節內容</span><span class="sxs-lookup"><span data-stu-id="13547-111">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="fee38-111">本章節內容</span><span class="sxs-lookup"><span data-stu-id="fee38-111">In This Section</span></span>
 
-  - [<span data-ttu-id="13547-112">在 Lync Server 2013 中設定 Edge 支援的 DNS</span><span class="sxs-lookup"><span data-stu-id="13547-112">Configure DNS for edge support in Lync Server 2013</span></span>](lync-server-2013-configure-dns-for-edge-support.md)
+  - [<span data-ttu-id="fee38-112">設定 Lync Server 2013 中的 edge 支援的 DNS</span><span class="sxs-lookup"><span data-stu-id="fee38-112">Configure DNS for edge support in Lync Server 2013</span></span>](lync-server-2013-configure-dns-for-edge-support.md)
 
-  - [<span data-ttu-id="13547-113">在 Lync Server 2013 中設定調整式 Edge 拓撲的硬體負載平衡器</span><span class="sxs-lookup"><span data-stu-id="13547-113">Set up hardware load balancers for scaled edge topologies in Lync Server 2013</span></span>](lync-server-2013-set-up-hardware-load-balancers-for-scaled-edge-topologies.md)
+  - [<span data-ttu-id="fee38-113">設定 Lync Server 2013 中的調整式的 edge 拓撲的硬體負載平衡器</span><span class="sxs-lookup"><span data-stu-id="fee38-113">Set up hardware load balancers for scaled edge topologies in Lync Server 2013</span></span>](lync-server-2013-set-up-hardware-load-balancers-for-scaled-edge-topologies.md)
 
-  - [<span data-ttu-id="13547-114">在 Lync Server 2013 設定外部使用者存取的防火牆和連接埠</span><span class="sxs-lookup"><span data-stu-id="13547-114">Configure firewalls and ports for external user access in Lync Server 2013</span></span>](lync-server-2013-configure-firewalls-and-ports-for-external-user-access.md)
+  - [<span data-ttu-id="fee38-114">在 Lync Server 2013 中設定防火牆和連接埠的外部使用者存取</span><span class="sxs-lookup"><span data-stu-id="fee38-114">Configure firewalls and ports for external user access in Lync Server 2013</span></span>](lync-server-2013-configure-firewalls-and-ports-for-external-user-access.md)
 
-  - [<span data-ttu-id="13547-115">決定 Lync Server 2013 的外部 A/V 防火牆和連接埠需求</span><span class="sxs-lookup"><span data-stu-id="13547-115">Determine external A/V firewall and port requirements for Lync Server 2013</span></span>](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md)
+  - [<span data-ttu-id="fee38-115">決定外部 A / V 防火牆和連接埠需求 Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fee38-115">Determine external A/V firewall and port requirements for Lync Server 2013</span></span>](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md)
 
-  - [<span data-ttu-id="13547-116">在 Lync Server 2013 中要求 Edge 元件的憑證</span><span class="sxs-lookup"><span data-stu-id="13547-116">Request certificates for edge components in Lync Server 2013</span></span>](lync-server-2013-request-certificates-for-edge-components.md)
+  - [<span data-ttu-id="fee38-116">適用於 Lync Server 2013 中的 edge 元件的要求憑證</span><span class="sxs-lookup"><span data-stu-id="fee38-116">Request certificates for edge components in Lync Server 2013</span></span>](lync-server-2013-request-certificates-for-edge-components.md)
 
 </div>
 

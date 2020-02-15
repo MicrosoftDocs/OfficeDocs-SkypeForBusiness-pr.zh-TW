@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：備份與高可用性 Cmdlet
+title: Lync Server 2013： 備份與高可用性 cmdlet
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184236
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b730d265d32341b329bf5ba3a1055b37bd240a55
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: cb94d296c934e19a9a790ca6e229549866e3f6c8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740593"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044945"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="backup-and-high-availability-cmdlets-in-lync-server-2013"></a><span data-ttu-id="42128-102">Lync Server 2013 中的備份和高可用性 Cmdlet</span><span class="sxs-lookup"><span data-stu-id="42128-102">Backup and high availability cmdlets in Lync Server 2013</span></span>
+# <a name="backup-and-high-availability-cmdlets-in-lync-server-2013"></a><span data-ttu-id="317fc-102">備份與 Lync Server 2013 中的高可用性 cmdlet</span><span class="sxs-lookup"><span data-stu-id="317fc-102">Backup and high availability cmdlets in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,71 +35,71 @@ ms.locfileid: "41740593"
 
 <span> </span>
 
-<span data-ttu-id="42128-103">_**主題上次修改日期：** 2012-10-09_</span><span class="sxs-lookup"><span data-stu-id="42128-103">_**Topic Last Modified:** 2012-10-09_</span></span>
+<span data-ttu-id="317fc-103">_**主題上次修改日期：** 2012年-10-09_</span><span class="sxs-lookup"><span data-stu-id="317fc-103">_**Topic Last Modified:** 2012-10-09_</span></span>
 
-<span data-ttu-id="42128-104">[備份] 和 [高可用性] Cmdlet 可讓系統管理員管理 Microsoft Lync Server 2013 中所引進的 [池備份]、[還原] 和 [高可用性] 功能。</span><span class="sxs-lookup"><span data-stu-id="42128-104">The backup and high availability cmdlets enable administrators to manage the pool backup, restore, and high availability capabilities introduced in Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="317fc-104">備份與高可用性 cmdlet 讓系統管理員管理集區備份、 還原和 Microsoft Lync Server 2013 中引進的高可用性功能。</span><span class="sxs-lookup"><span data-stu-id="317fc-104">The backup and high availability cmdlets enable administrators to manage the pool backup, restore, and high availability capabilities introduced in Microsoft Lync Server 2013.</span></span>
 
 <div>
 
-## <a name="backup-and-high-availability-cmdlets"></a><span data-ttu-id="42128-105">備份和高可用性 Cmdlet</span><span class="sxs-lookup"><span data-stu-id="42128-105">Backup and High Availability Cmdlets</span></span>
+## <a name="backup-and-high-availability-cmdlets"></a><span data-ttu-id="317fc-105">備份與高可用性 Cmdlet</span><span class="sxs-lookup"><span data-stu-id="317fc-105">Backup and High Availability Cmdlets</span></span>
 
-<span data-ttu-id="42128-106">以下是直接相關的 Cmdlet 清單，可與備份及設定 Lync Server 拓撲的可用性進行關聯：</span><span class="sxs-lookup"><span data-stu-id="42128-106">The following is a list of cmdlets that relate directly to backing up and configuring the availability of your Lync Server topology:</span></span>
+<span data-ttu-id="317fc-106">以下是 cmdlet 的直接與備份和設定 Lync Server 拓撲的可用性相關清單：</span><span class="sxs-lookup"><span data-stu-id="317fc-106">The following is a list of cmdlets that relate directly to backing up and configuring the availability of your Lync Server topology:</span></span>
 
-<span data-ttu-id="42128-107">**備份和高可用性 Cmdlet**</span><span class="sxs-lookup"><span data-stu-id="42128-107">**Backup and High Availability Cmdlets**</span></span>
+<span data-ttu-id="317fc-107">**備份與高可用性 Cmdlet**</span><span class="sxs-lookup"><span data-stu-id="317fc-107">**Backup and High Availability Cmdlets**</span></span>
 
-  - <span data-ttu-id="42128-108">[CsBackupServiceConfiguration](https://technet.microsoft.com/en-us/library/JJ205087(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="42128-108">[Get-CsBackupServiceConfiguration](https://technet.microsoft.com/en-us/library/JJ205087(v=OCS.15))</span></span>
+  - <span data-ttu-id="317fc-108">[Get-csbackupserviceconfiguration](https://technet.microsoft.com/library/JJ205087(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="317fc-108">[Get-CsBackupServiceConfiguration](https://technet.microsoft.com/library/JJ205087(v=OCS.15))</span></span>
 
-  - <span data-ttu-id="42128-109">[移除-CsBackupServiceConfiguration](https://technet.microsoft.com/en-us/library/JJ204903(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="42128-109">[Remove-CsBackupServiceConfiguration](https://technet.microsoft.com/en-us/library/JJ204903(v=OCS.15))</span></span>
+  - <span data-ttu-id="317fc-109">[Remove-csbackupserviceconfiguration](https://technet.microsoft.com/library/JJ204903(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="317fc-109">[Remove-CsBackupServiceConfiguration](https://technet.microsoft.com/library/JJ204903(v=OCS.15))</span></span>
 
-  - <span data-ttu-id="42128-110">[Set-CsBackupServiceConfiguration](https://technet.microsoft.com/en-us/library/JJ205006(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="42128-110">[Set-CsBackupServiceConfiguration](https://technet.microsoft.com/en-us/library/JJ205006(v=OCS.15))</span></span>
-
-<!-- end list -->
-
-  - <span data-ttu-id="42128-111">[CsBackupServiceStatus](https://technet.microsoft.com/en-us/library/JJ205032(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="42128-111">[Get-CsBackupServiceStatus](https://technet.microsoft.com/en-us/library/JJ205032(v=OCS.15))</span></span>
+  - <span data-ttu-id="317fc-110">[Set-csbackupserviceconfiguration](https://technet.microsoft.com/library/JJ205006(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="317fc-110">[Set-CsBackupServiceConfiguration](https://technet.microsoft.com/library/JJ205006(v=OCS.15))</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="42128-112">[Invoke-CsBackupServiceSync](https://technet.microsoft.com/en-us/library/JJ205374(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="42128-112">[Invoke-CsBackupServiceSync](https://technet.microsoft.com/en-us/library/JJ205374(v=OCS.15))</span></span>
+  - <span data-ttu-id="317fc-111">[Get-csbackupservicestatus](https://technet.microsoft.com/library/JJ205032(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="317fc-111">[Get-CsBackupServiceStatus](https://technet.microsoft.com/library/JJ205032(v=OCS.15))</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="42128-113">[Debug-CsIntraPoolReplication](https://technet.microsoft.com/en-us/library/JJ205103(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="42128-113">[Debug-CsIntraPoolReplication](https://technet.microsoft.com/en-us/library/JJ205103(v=OCS.15))</span></span>
+  - <span data-ttu-id="317fc-112">[叫用 CsBackupServiceSync](https://technet.microsoft.com/library/JJ205374(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="317fc-112">[Invoke-CsBackupServiceSync](https://technet.microsoft.com/library/JJ205374(v=OCS.15))</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="42128-114">[備份-CsPool](https://technet.microsoft.com/en-us/library/JJ204955(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="42128-114">[Backup-CsPool](https://technet.microsoft.com/en-us/library/JJ204955(v=OCS.15))</span></span>
+  - <span data-ttu-id="317fc-113">[Debug-csintrapoolreplication](https://technet.microsoft.com/library/JJ205103(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="317fc-113">[Debug-CsIntraPoolReplication](https://technet.microsoft.com/library/JJ205103(v=OCS.15))</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="42128-115">[CsPoolBackupRelationship](https://technet.microsoft.com/en-us/library/JJ204745(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="42128-115">[Get-CsPoolBackupRelationship](https://technet.microsoft.com/en-us/library/JJ204745(v=OCS.15))</span></span>
+  - <span data-ttu-id="317fc-114">[Backup-cspool](https://technet.microsoft.com/library/JJ204955(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="317fc-114">[Backup-CsPool](https://technet.microsoft.com/library/JJ204955(v=OCS.15))</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="42128-116">[Get-CsPoolFabricState](https://technet.microsoft.com/en-us/library/JJ619188(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="42128-116">[Get-CsPoolFabricState](https://technet.microsoft.com/en-us/library/JJ619188(v=OCS.15))</span></span>
+  - <span data-ttu-id="317fc-115">[Get-cspoolbackuprelationship](https://technet.microsoft.com/library/JJ204745(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="317fc-115">[Get-CsPoolBackupRelationship](https://technet.microsoft.com/library/JJ204745(v=OCS.15))</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="42128-117">[Invoke-CsPoolFailBack](https://technet.microsoft.com/en-us/library/JJ204873(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="42128-117">[Invoke-CsPoolFailBack](https://technet.microsoft.com/en-us/library/JJ204873(v=OCS.15))</span></span>
+  - <span data-ttu-id="317fc-116">[Get-cspoolfabricstate](https://technet.microsoft.com/library/JJ619188(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="317fc-116">[Get-CsPoolFabricState](https://technet.microsoft.com/library/JJ619188(v=OCS.15))</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="42128-118">[Invoke-CsPoolFailOver](https://technet.microsoft.com/en-us/library/JJ205189(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="42128-118">[Invoke-CsPoolFailOver](https://technet.microsoft.com/en-us/library/JJ205189(v=OCS.15))</span></span>
+  - <span data-ttu-id="317fc-117">[叫用 CsPoolFailBack](https://technet.microsoft.com/library/JJ204873(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="317fc-117">[Invoke-CsPoolFailBack](https://technet.microsoft.com/library/JJ204873(v=OCS.15))</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="42128-119">[Get-CsPoolUpgradeReadinessState](https://technet.microsoft.com/en-us/library/JJ204689(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="42128-119">[Get-CsPoolUpgradeReadinessState](https://technet.microsoft.com/en-us/library/JJ204689(v=OCS.15))</span></span>
+  - <span data-ttu-id="317fc-118">[叫用 CsPoolFailOver](https://technet.microsoft.com/library/JJ205189(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="317fc-118">[Invoke-CsPoolFailOver](https://technet.microsoft.com/library/JJ205189(v=OCS.15))</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="42128-120">[Invoke-CsStorageServiceFlush](https://technet.microsoft.com/en-us/library/JJ619175(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="42128-120">[Invoke-CsStorageServiceFlush](https://technet.microsoft.com/en-us/library/JJ619175(v=OCS.15))</span></span>
+  - <span data-ttu-id="317fc-119">[Get-cspoolupgradereadinessstate](https://technet.microsoft.com/library/JJ204689(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="317fc-119">[Get-CsPoolUpgradeReadinessState](https://technet.microsoft.com/library/JJ204689(v=OCS.15))</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="42128-121">[同步處理-CsUserData](https://technet.microsoft.com/en-us/library/JJ205242(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="42128-121">[Sync-CsUserData](https://technet.microsoft.com/en-us/library/JJ205242(v=OCS.15))</span></span>
+  - <span data-ttu-id="317fc-120">[叫用 CsStorageServiceFlush](https://technet.microsoft.com/library/JJ619175(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="317fc-120">[Invoke-CsStorageServiceFlush](https://technet.microsoft.com/library/JJ619175(v=OCS.15))</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="42128-122">[移除-CsUserStoreBackupData](https://technet.microsoft.com/en-us/library/JJ205003(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="42128-122">[Remove-CsUserStoreBackupData](https://technet.microsoft.com/en-us/library/JJ205003(v=OCS.15))</span></span>
+  - <span data-ttu-id="317fc-121">[Sync-csuserdata](https://technet.microsoft.com/library/JJ205242(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="317fc-121">[Sync-CsUserData](https://technet.microsoft.com/library/JJ205242(v=OCS.15))</span></span>
+
+<!-- end list -->
+
+  - <span data-ttu-id="317fc-122">[Remove-csuserstorebackupdata](https://technet.microsoft.com/library/JJ205003(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="317fc-122">[Remove-CsUserStoreBackupData](https://technet.microsoft.com/library/JJ205003(v=OCS.15))</span></span>
 
 </div>
 
