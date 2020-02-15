@@ -1,5 +1,5 @@
 ---
-title: 測試和報告 Kerberos 驗證的狀態和指派
+title: 測試和報告 [狀態] 和 [工作分派的 Kerberos 驗證
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184716
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e4aeeff884decf5d94ba15eecd5f49c87baece99
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a23252190b9ce93ed397e1e44ea400efa9db856c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745863"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036663"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="testing-and-reporting-the-status-and-assignment-of-kerberos-authentication-in-lync-server-2013"></a>在 Lync Server 2013 中測試和報告 Kerberos 驗證的狀態和指派
+# <a name="testing-and-reporting-the-status-and-assignment-of-kerberos-authentication-in-lync-server-2013"></a>測試和報告 [狀態] 和 [工作分派的 Lync Server 2013 中的 Kerberos 驗證
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41745863"
 
 <span> </span>
 
-_**主題上次修改日期：** 2010-11-03_
+_**主題上次修改日期：** 2010年-11-03_
 
-如果您需要測試 Kerberos 指派，或是要判斷 Kerberos 驗證的狀態，您可以使用 Windows PowerShell Cmdlet。
+如果您需要測試 Kerberos 指派或判斷 Kerberos 驗證的狀態，您可以使用 Windows PowerShell cmdlet。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [在 Lync Server 2013 中測試和報告 Kerberos 驗證的功能整備狀態](lync-server-2013-test-and-report-functional-readiness-for-kerberos-authentication.md)
+  - [Lync Server 2013 中的 Kerberos 驗證的測試和報告功能就緒](lync-server-2013-test-and-report-functional-readiness-for-kerberos-authentication.md)
 
-  - [在 Lync Server 2013 中報告 Kerberos 帳戶指派](lync-server-2013-report-kerberos-account-assignments.md)
+  - [Lync Server 2013 中的報告 Kerberos 帳戶指派](lync-server-2013-report-kerberos-account-assignments.md)
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 執行最佳做法分析程式
+title: 執行 Best Practices Analyzer
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733603
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 05ff091d45e1dd6ebb605c160c91a96c56c0c12e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0b180ffec9081cfe6ba8c0defc79616edc427277
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756667"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035689"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="run-best-practices-analyzer"></a>執行最佳做法分析程式
+# <a name="run-best-practices-analyzer"></a>執行 Best Practices Analyzer
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41756667"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-11_
+_**主題上次修改日期：** 2012年-10-11_
 
-Office 通訊伺服器 2007 R2 最佳做法分析程式工具會從 Office 通訊伺服器 2007 R2 部署收集配置資訊，並判斷是否已根據 Microsoft 最佳做法設定配置。 您可以在執行 Microsoft .NET Framework 2.0 的用戶端電腦上，或直接在執行 Office 通訊伺服器 2007 R2 的伺服器上安裝該工具。 我們建議您在用戶端電腦上安裝並執行此工具。 您也應該在用戶端電腦上本機安裝 Office 通訊伺服器 2007 R2 管理工具，讓最佳做法分析程式能夠收集完整的資料集。
+Office Communications Server 2007 R2 Best Practices Analyzer 工具會收集組態資訊從 Office Communications Server 2007 R2 的部署，並決定是否要根據 Microsoft 最佳作法設定組態。 用戶端的電腦上執行 Microsoft.NET Framework 2.0，或直接在執行 Office Communications Server 2007 R2 的伺服器上，您可以安裝此工具。 您可以在執行 Microsoft .NET Framework 3.5 Service Pack 1 的用戶端電腦或直接在執行 nm-ocs-14-2nd 的伺服器上安裝工具。 Office Communications Server 2007 R2 系統管理工具] 應該也被安裝在本機用戶端電腦上，以便讓 Best Practices Analyzer 可以收集一組完整的資料。
 
-您可以從 Microsoft 下載中心下載 Office 通訊伺服器 2007 R2 最佳做法分析程式[http://go.microsoft.com/fwlink/p/?LinkId=268702](http://go.microsoft.com/fwlink/p/?linkid=268702)。
+您可以從 Microsoft 下載中心下載 Office Communications Server 2007 R2 Best Practices Analyzer [http://go.microsoft.com/fwlink/p/?LinkId=268702](http://go.microsoft.com/fwlink/p/?linkid=268702)。
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 標準移轉案例 - 高層級
+title: 標準移轉案例-高層級
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185709
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 68ff7110cc7e14ccc76ab7d0c0125e723477934a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 34084de0af0971018043f230c260adb514f1d460
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741953"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035669"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="standard-migration-scenario---high-level"></a>標準移轉案例 - 高層級
+# <a name="standard-migration-scenario---high-level"></a>標準移轉案例-高層級
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41741953"
 
 <span> </span>
 
-_**主題上次修改日期：** 2013-01-30_
+_**上次修改主題：** 2013年-01-30_
 
-當您將 Lync Server 2010、群組聊天或 Office 通訊伺服器 2007 R2 群組聊天遷移至 Lync Server 2013、持續聊天伺服器時，請使用下列專案作為起點。 標準的 Lync Server 2013 遷移路徑如下所示：
+將 Lync Server 2010，Group Chat 或： Office Communications Server 2007 R2 群組聊天移轉至 Lync Server 2013，Persistent Chat Server 時，請使用下列項目做為起點。 標準的 Lync Server 2013 移轉方式如下：
 
-  - 貴組織先前已部署 Lync Server 2010、群組聊天或 Office 通訊伺服器 2007 R2 群組聊天，而且您想要部署 Lync Server 2013、持久聊天伺服器。
+  - 您的組織已部署 Lync Server 2010，Group Chat 或 Office Communications Server 2007 R2 群組聊天，以及您想要部署 Lync Server 2013，Persistent Chat Server。
 
-  - 部署 Lync Server 2013，然後部署持續聊天伺服器池（s）。
+  - 部署 Lync Server 2013，然後將部署 Persistent Chat Server 集區。
 
-  - 準備並規劃持久聊天室的遷移，並判斷適當的時間來關閉系統以進行遷移。
+  - 準備並規劃移轉您的常設聊天室，並決定適當時機來關閉系統以進行移轉。
 
-  - 執行適用于遷移的 Windows PowerShell Cmdlet （**Export-CsPersistentChatData**和**Import-CsPersistentChatData**），將內容移至持久聊天伺服器。
+  - 執行移轉 （**Export-cspersistentchatdata**與**Import-cspersistentchatdata**） 將內容移至 Persistent Chat Server 的 Windows PowerShell cmdlet。
 
-  - 確認遷移已成功完成。
+  - 確認移轉已成功。
 
-  - 停止舊版部署。
+  - 解除委任舊版部署。
 
-  - [設定持久聊天伺服器]，讓舊版用戶端可以連線到 Lync Server 2013、持續聊天伺服器。 這是必要的，因為部署新的用戶端需要一些時間，而且您想要讓擁有舊版用戶端的現有使用者能儘快存取其聊天室。
+  - 設定常設聊天室伺服器，以便舊版用戶端可以連線至 Lync Server 2013，Persistent Chat Server。 這是必要的因為所花的時間來部署新的用戶端，而且想要啟用現有的使用者使用舊版用戶端儘速可以存取他們的聊天室。
 
-  - 部署新的用戶端，同時繼續協助確保擁有舊版群組聊天（用戶端）的工人可以存取其聊天室。
+  - 部署新的用戶端，同時繼續以協助確保與舊版群組聊天 （用戶端） 的工作者可以前往他們的聊天室。
 
 </div>
 

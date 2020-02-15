@@ -12,20 +12,20 @@ ms:contentKeyID: 48184029
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d7872852810eac15049dc8cec5a7cac3f36b60e6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a8c136543a5f28ceacc6bf4939983157c183975a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758665"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035949"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="mobility-support-in-lync-server-2013"></a>Lync Server 2013 中的行動性支援
+# <a name="mobility-support-in-lync-server-2013"></a>Lync Server 2013 中的行動支援
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41758665"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-06-29_
+_**主題上次修改日期：** 2012年-06-29_
 
-有了 Lync Server 2013 行動裝置，使用者就能在其行動裝置上存取 Lync 2013 功能。 支援的行動裝置包括下列各項：
+使用 Lync Server 2013 行動使用者擁有其行動裝置存取 Lync 2013 功能。 支援的行動裝置包括：
 
   - 支援的 Apple iOS 裝置
 
@@ -45,9 +45,9 @@ _**主題上次修改日期：** 2012-06-29_
 
   - Android
 
-  - Networks
+  - Nokia
 
-如需行動功能與需求的詳細資訊，請參閱規劃檔中的[Lync Server 2013 中的行動規劃](lync-server-2013-planning-for-mobility.md)。
+如需有關行動功能和需求的詳細資訊，請參閱規劃文件中的[Planning for Lync Server 2013 中的行動性](lync-server-2013-planning-for-mobility.md)。
 
 </div>
 

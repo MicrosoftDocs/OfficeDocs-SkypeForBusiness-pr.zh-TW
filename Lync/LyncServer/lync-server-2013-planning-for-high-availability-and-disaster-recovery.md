@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：規劃高可用性和災害復原
+title: Lync Server 2013： 規劃高可用性和災害復原
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183497
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 79abf8b98252f3b05b899a9840e7a9c9a2e8096c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 38a41585da7cb247dc955b3f4e18ee4812ef5a2a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41752183"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036693"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-high-availability-and-disaster-recovery-in-lync-server-2013"></a>在 Lync Server 2013 中規劃高可用性和災害復原
+# <a name="planning-for-high-availability-and-disaster-recovery-in-lync-server-2013"></a>規劃 Lync Server 2013 中的高可用性和災害復原
 
 </div>
 
@@ -35,31 +35,31 @@ ms.locfileid: "41752183"
 
 <span> </span>
 
-_**主題上次修改日期：** 2013-10-31_
+_**上次修改主題：** 2013年-10-31_
 
-就像在 Lync Server 2010 中，Lync Server 2013 中大多數伺服器角色的主要高可用性配置都是透過「池」以伺服器冗余為基礎。 如果執行特定伺服器角色的伺服器失敗，則池中執行相同角色的其他伺服器會載入該伺服器。 這適用于前端伺服器、邊緣伺服器、轉送伺服器和控制器。
+Lync Server 2010，如同在 Lync Server 2013 中的多數伺服器角色的主要高可用性配置根據經由共用伺服器備援。 如果執行特定伺服器角色的伺服器失敗，集區中執行相同角色的其他伺服器就會接手該伺服器的負載。 這適用於前端伺服器、Edge Server、中繼伺服器和 Director。
 
-Lync Server 2013 會將您的伺服器地理位置 dispersement 引入兩個資料中心，以提供服務的新災害復原方法，以在整個池或網站向下移動。
+Lync Server 2013 會將新的前端集區的災害復原措施新增到兩個資料中心提供的服務接續萬一有一整個集區或網站移往下引入一部伺服器的地理位置不同。
 
-Lync Server 2013 也會針對後端資料庫支援同步 SQL 鏡像，改善後端伺服器的高可用性。
+Lync Server 2013 也增強後端伺服器高可用性，可支援後端資料庫的同步 SQL 鏡像。
 
-本節說明這些主要的高可用性和災難復原功能，同時也說明您可以針對其他伺服器角色採取的高可用性和災難復原步驟。
+本節說明這些主要高可用性和災害復原功能，另外也會說明您可以針對其他伺服器角色的高可用性和災害復原採取哪些步驟。
 
 <div>
 
 ## <a name="in-this-section"></a>本節內容
 
-  - [Lync Server 2013 中的前端集區災害復原](lync-server-2013-front-end-pool-disaster-recovery.md)
+  - [Lync Server 2013 中的結束集區嚴重損壞修復的前端](lync-server-2013-front-end-pool-disaster-recovery.md)
 
-  - [Lync Server 2013 中的 Edge Server 災害復原](lync-server-2013-edge-server-disaster-recovery.md)
+  - [Lync Server 2013 中的 edge Server 災害復原](lync-server-2013-edge-server-disaster-recovery.md)
 
-  - [在 Lync Server 2013 中規劃企業語音復原](lync-server-2013-planning-for-enterprise-voice-resiliency.md)
+  - [規劃 Lync Server 2013 中的企業語音恢復能力](lync-server-2013-planning-for-enterprise-voice-resiliency.md)
 
-  - [Lync Server 2013 中的災害復原通話管理功能](lync-server-2013-call-management-features-for-disaster-recovery.md)
+  - [Lync Server 2013 的災害復原的通話管理功能](lync-server-2013-call-management-features-for-disaster-recovery.md)
 
-  - [在 Lync Server 2013 中針對高可用性和災害復原設定常設聊天室伺服器](lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md)
+  - [針對 Lync Server 2013 中的高可用性和災害復原設定常設聊天室伺服器](lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md)
 
-  - [Lync Server 2010 都會區網站復原](lync-server-2013-compatibility-with-lync-server-2010-metropolitan-site-resiliency.md)
+  - [Lync Server 2010 都會網站恢復](lync-server-2013-compatibility-with-lync-server-2010-metropolitan-site-resiliency.md)
 
 </div>
 

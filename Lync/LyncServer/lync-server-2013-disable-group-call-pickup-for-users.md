@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：停用使用者的群組呼叫分揀
+title: Lync Server 2013： 停用使用者的群組來電接聽
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541492
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f7e47b5c3b12997bd05f3721555a5dfdfe692bbc
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c03242cf0b3521dada944ccaba30946306c1ff24
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762201"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036593"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="disable-group-call-pickup-for-users-in-lync-server-2013"></a>停用 Lync Server 2013 中的使用者的群組呼叫分揀
+# <a name="disable-group-call-pickup-for-users-in-lync-server-2013"></a>為 Lync Server 2013 中的使用者停用群組來電接聽
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41762201"
 
 <span> </span>
 
-_**主題上次修改日期：** 2013-01-30_
+_**上次修改主題：** 2013年-01-30_
 
-使用下列程式來停用使用者的 [群組呼叫挑選]。
+使用下列程序來停用使用者的群組來電接聽。
 
 <div>
 
 
 > [!NOTE]  
-> 當您停用使用者的 [群組呼叫挑選] 時，指派給使用者的呼叫挑選群組號碼就不會保留。 如果您隨後想要重新啟用該使用者的群組呼叫分揀，您必須使用/enablegrouppickup 參數再次指派呼叫挑選群組號碼。
+> 當您停用使用者的群組來電接聽時，不會保留已指派給使用者的通話收取群組編號。 如果您之後想要重新啟用使用者群組來電接聽，您必須呼叫收取群組號碼指派一次使用 /enablegrouppickup 參數。
 
 
 
@@ -51,11 +51,11 @@ _**主題上次修改日期：** 2013-01-30_
 
 <div>
 
-## <a name="to-disable-group-call-pickup-for-a-user"></a>若要停用使用者的群組通話分揀
+## <a name="to-disable-group-call-pickup-for-a-user"></a>若要停用使用者的群組來電接聽
 
-1.  以系統管理員許可權登入您安裝 SEFAUtil 工具的電腦。
+1.  登入系統管理員權限安裝 SEFAUtil 工具所在的電腦。
 
-2.  在命令列上執行：
+2.  在命令列中執行：
     
         SEFAUtil.exe sip:<sip address of user> /server:<pool FQDN> /disablegrouppickup
     
@@ -70,8 +70,8 @@ _**主題上次修改日期：** 2013-01-30_
 ## <a name="see-also"></a>請參閱
 
 
-[在 Lync Server 2013 中將群組呼叫挑選號碼指派給使用者](lync-server-2013-assign-group-call-pickup-numbers-to-users.md)  
-[在 Lync Server 2013 中為使用者啟用群組呼叫挑選](lync-server-2013-enable-group-call-pickup-for-users.md)  
+[Lync Server 2013 中的使用者指派群組通話收取號碼](lync-server-2013-assign-group-call-pickup-numbers-to-users.md)  
+[為 Lync Server 2013 中的使用者啟用群組來電接聽](lync-server-2013-enable-group-call-pickup-for-users.md)  
   
 
 </div>

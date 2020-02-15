@@ -1,5 +1,5 @@
 ---
-title: 從集區中移除前端伺服器
+title: 從集區移除前端伺服器
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733694
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e0637754c6e7b1a03c233025703297c182dc3099
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e3f8e2b2e395058d58d201177d2da08672a8d03f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727313"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035829"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="remove-a-front-end-server-from-a-pool"></a>從集區中移除前端伺服器
+# <a name="remove-a-front-end-server-from-a-pool"></a>從集區移除前端伺服器
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41727313"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-04_
+_**主題上次修改日期：** 2012年-10-04_
 
-Microsoft Lync Server 2010 Enterprise Edition 前端伺服器不能以獨立電腦的形式存在。 它必須定義為前端池，即使池中只有一個電腦。
+Microsoft Lync Server 2010 Enterprise Edition 前端伺服器不能存在於做為獨立的電腦。 它必須定義為前端集區，即使有只有單一電腦集區中。
 
-本主題將引導您完成從現有的前端池移除個別前端伺服器的程式。 如果前端伺服器是池中的最後一個伺服器，或如果您要徹底移除該資源池，請參閱[移除前端池或標準版伺服器](remove-front-end-pool-or-standard-edition-server.md)。 移除前端池前，不需要移除個別的前端伺服器。 移除該池後，就會移除每個前端伺服器。
+本主題會引導您完成程序移除現有前端集區中的個別前端伺服器。 如果前端伺服器集區中的最後一部伺服器，或如果您要完全移除集區，請參閱[移除前端集區或 Standard Edition server](remove-front-end-pool-or-standard-edition-server.md)。 沒有需要移除個別前端伺服器，然後再移除前端集區。 當您移除集區時，即會移除每個前端伺服器。
 
 <div>
 
-## <a name="to-remove-a-front-end-server-from-a-pool"></a>從池中移除前端伺服器
+## <a name="to-remove-a-front-end-server-from-a-pool"></a>從集區移除前端伺服器
 
-1.  開啟 Lync Server 2013 前端伺服器，然後開啟 [拓撲建立器]。
+1.  開啟 Lync Server 2013 前端伺服器]，再開啟拓撲產生器]。
 
-2.  流覽至 Lync Server 2010 節點。
+2.  瀏覽至 [Lync Server 2010] 節點。
 
-3.  展開 [**企業版前端池**]，展開要移除之前端伺服器的 [前端] 池，以滑鼠右鍵按一下您要移除的前端伺服器，然後按一下 [**刪除**]。
+3.  依序展開 [ **Enterprise Edition 前端集區]**，依序展開 [前端集區與前端伺服器，您想要移除，以滑鼠右鍵按一下您要移除以前端伺服器，然後按一下 [**刪除**。
 
 </div>
 

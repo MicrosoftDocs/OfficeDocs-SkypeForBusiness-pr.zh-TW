@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：為 Lync Server 2013 設定 SQL Server
+title: Lync Server 2013： 設定 Lync Server 的 SQL Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183869
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: efdd9d8fa7b010b420c7c532d422c9b52b6d69ba
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1e52534744849e41fa08895bd114833892f4b8a2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756967"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035185"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-sql-server-for-lync-server-2013"></a>為 Lync Server 2013 設定 SQL Server
+# <a name="configure-sql-server-for-lync-server-2013"></a>針對 Lync Server 2013 設定 SQL Server
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "41756967"
 
 <span> </span>
 
-_**主題上次修改日期：** 2013-08-12_
+_**上次修改主題：** 2013年-08-12_
 
-本節中的主題將討論如何部署和設定 SQL Server，以便在 Lync Server 的企業部署中使用。 標準版伺服器使用 collocated SQL Server Express 版本的 SQL Server Express 版本，適合標準版伺服器的工作負載。
+本節中的主題將討論如何部署及設定 SQL Server 在 Lync Server 的企業部署中使用。 Standard Edition 伺服器使用是正確的 Standard Edition server 的工作負載的長條調整大小的 SQL Server 組合的 SQL Server Express 的版本。
 
-Lync Server 2013 中央管理存放區保留一個池中所有企業版伺服器的使用者資料，且專門設計為位於 SQL Server 的後端伺服器上。 在集中式儲存庫中，中央管理儲存區無法與任何其他 Lync Server 2013 角色安裝在同一部電腦上。 中央管理儲存庫無法存放在池中的企業版伺服器上。 當您第一次發佈拓撲時，系統會自動建立中央管理儲存區，然後選取以建立資料庫。 您指定為後端伺服器的電腦必須已執行 SQL Server 資料庫軟體，才能成功安裝。
+Lync Server 2013 中央管理存放區中集區]，會保留所有 Enterprise Edition server 的使用者資料，而且設計來位於 SQL Server-型後端伺服器。 為集中存放庫，無法與任何其他的 Lync Server 2013 角色相同的電腦上安裝中央管理存放區。 中央管理存放區不能位於 Enterprise Edition server 集區中。 當您第一次發行拓撲，並選取 [建立資料庫時，會自動建立的中央管理存放區。 您將指定為後端伺服器的電腦必須已執行 SQL Server 資料庫軟體，才能成功安裝順序。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
   - [Lync Server 2013 的 SQL Server 資料和記錄檔位置](lync-server-2013-sql-server-data-and-log-file-placement.md)
 
   - [在 Lync Server 2013 中設定 SQL Server](lync-server-2013-configure-sql-server.md)
 
-  - [Lync Server 2013 中 SQL Server 的部署權限](lync-server-2013-deployment-permissions-for-sql-server.md)
+  - [Lync Server 2013 中的 SQL Server 的部署權限](lync-server-2013-deployment-permissions-for-sql-server.md)
 
-  - [在 Lync Server 2013 中使用 Lync Server 管理命令介面安裝資料庫](lync-server-2013-database-installation-using-lync-server-management-shell.md)
+  - [資料庫安裝 Lync Server 2013 中使用 Lync Server 管理命令介面](lync-server-2013-database-installation-using-lync-server-management-shell.md)
 
-  - [瞭解與 Lync Server 2013 搭配使用時之 SQL Server 的防火牆需求](lync-server-2013-understanding-firewall-requirements-for-sql-server.md)
+  - [了解搭配 Lync Server 2013 的 SQL Server 的防火牆需求](lync-server-2013-understanding-firewall-requirements-for-sql-server.md)
 
-  - [設定 Lync Server 2013 的 SQL Server 群集](lync-server-2013-configure-sql-server-clustering.md)
+  - [設定 Lync Server 2013 的 SQL Server 叢集](lync-server-2013-configure-sql-server-clustering.md)
 
 </div>
 

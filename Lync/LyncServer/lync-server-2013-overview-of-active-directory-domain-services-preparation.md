@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：Active Directory 網域服務準備工作概觀
+title: Active Directory 網域服務準備的 Lync Server 2013： 概觀
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185662
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d51d0fec8f36749f52acf3272bf83dee3170da8f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3085caf0b118b20bf52a4ff82a14b399d1ee6594
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755627"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036341"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-active-directory-domain-services-preparation-in-lync-server-2013"></a>Lync Server 2013 中的 Active Directory 網域服務準備工作概觀
+# <a name="overview-of-active-directory-domain-services-preparation-in-lync-server-2013"></a>Lync Server 2013 中的 Active Directory 網域服務準備的概觀
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41755627"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-29_
+_**主題上次修改日期：** 2012年-10-29_
 
-若要為您的 Lync Server 2013 部署準備 Active Directory 網域服務，您必須以特定循序執行三個步驟。
+若要準備您的 Lync Server 2013 部署的 Active Directory 網域服務，您必須以特定順序執行三個步驟。
 
-下表說明準備 Lync Server 的 AD DS 所需執行的步驟。
+下表說明準備 AD DS 的 Lync Server 時所需的步驟。
 
 ### <a name="active-directory-preparation-steps"></a>Active Directory 準備步驟
 
@@ -53,53 +53,53 @@ _**主題上次修改日期：** 2012-10-29_
 <thead>
 <tr class="header">
 <th></th>
-<th>循序漸進</th>
-<th>說明</th>
-<th>在何處執行</th>
+<th>步驟</th>
+<th>描述</th>
+<th>執行位置</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>1.</p></td>
-<td><p><a href="lync-server-2013-preparing-the-active-directory-schema.md">在 Lync Server 2013 中準備 Active Directory 結構描述</a></p></td>
-<td><p>新增 Lync Server 所用的新類別和屬性來延伸 Active Directory 架構。</p>
-<p>針對您要部署 Lync Server 的部署中的每個林執行一次。</p></td>
-<td><p>針對將在其中部署 Lync Server 的每個林的根網域中的架構主機。</p>
+<td><p><a href="lync-server-2013-preparing-the-active-directory-schema.md">準備 Lync Server 2013 中的 Active Directory 結構描述</a></p></td>
+<td><p>將 Active Directory 架構延伸藉由新增新的類別和屬性所使用的 Lync Server。</p>
+<p>執行一次每個樹系中部署 Lync Server 部署的位置。</p></td>
+<td><p>針對要部署 Lync Server 每個樹系根網域中的結構描述主圖形。</p>
 <div>
 
 > [!NOTE]  
-> 如果您在架構主機上擁有許可權，您就不需要在根網域中執行這個步驟，但您必須是根網域中架構系統管理員群組的成員，以及架構主機上的 [企業系統管理員] 群組的成員。 在資源林拓朴中，請只在資原始目錄林中執行這個步驟，而不是在任何使用者的樹林中執行。 在中央林拓朴中，請只在中央林中執行這個步驟，而不是在任何使用者的樹林中執行。
+> 您不需要執行此步驟的根網域中，如果您的架構主機上有權限，但是您必須是 Schema Admins 群組中的根網域的成員，以及架構主機上的 Enterprise Admins 群組成員。 在資源樹系拓撲中，執行此步驟中，只能在資源樹系中，在任何使用者樹系中。 在中央樹系拓撲中，執行此步驟中，只能在中央樹系中，在任何使用者樹系中。
 
 
 </div></td>
 </tr>
 <tr class="even">
 <td><p>2.</p></td>
-<td><p><a href="lync-server-2013-preparing-the-forest.md">為 Lync Server 2013 準備樹系</a></p></td>
-<td><p>建立 Lync Server 所使用的全域設定和通用群組。</p>
-<p>針對您要部署 Lync Server 的部署中的每個林執行一次。</p></td>
-<td><p>在每個要部署 Lync Server 的林根網域中。 若要執行此步驟，您必須是企業系統管理員群組的成員。</p>
+<td><p><a href="lync-server-2013-preparing-the-forest.md">準備樹系的 Lync Server 2013</a></p></td>
+<td><p>會建立全域設定和萬用群組所使用的 Lync Server。</p>
+<p>執行一次每個樹系中部署 Lync Server 部署的位置。</p></td>
+<td><p>在 [Lync Server 將會部署每個樹系根網域。 若要執行此步驟，您必須是 Enterprise Admins 群組的成員。</p>
 <div>
 
 > [!NOTE]  
-> 在資源林拓朴中，請只在資原始目錄林中執行這個步驟，而不是在任何使用者的樹林中執行。 在中央林拓朴中，請只在中央林中執行這個步驟，而不是在任何使用者的樹林中執行。
+> 在資源樹系拓撲中，執行此步驟中，只能在資源樹系中，在任何使用者樹系中。 在中央樹系拓撲中，執行此步驟中，只能在中央樹系中，在任何使用者樹系中。
 
 
 </div></td>
 </tr>
 <tr class="odd">
 <td><p>3.</p></td>
-<td><p><a href="lync-server-2013-preparing-domains.md">針對 Lync Server 2013 準備網域</a></p></td>
-<td><p>在要供通用群組成員使用的物件上新增許可權。</p>
-<p>針對每個使用者網域或伺服器網域執行一次。</p>
+<td><p><a href="lync-server-2013-preparing-domains.md">Lync Server 2013 的準備網域</a></p></td>
+<td><p>新增權限萬用群組成員所使用的物件。</p>
+<p>每個使用者網域或伺服器網域執行一次。</p>
 <div>
 
 > [!NOTE]  
-> 如果您是從 Lync Server 2010 遷移到 Lync Server 2013，則 [部署嚮導] 可能會指出已完成 [網域準備]。 您不需要再次執行網域準備。 許可權未從 Lync Server 2010 變更為 Lync Server 2013。
+> 如果您從 Lync Server 2010 移轉至 Lync Server 2013，[部署精靈可能表示網域準備已完成。 您不需要執行網域準備一次。 從 Lync Server 2010 to Lync Server 2013 未變更權限。
 
 
 </div></td>
-<td><p>在將部署 Lync Server 的每個網域中的成員伺服器上。 若要執行此步驟，您必須是 Domain 系統管理員群組的成員。</p></td>
+<td><p>在 [Lync Server 部署的位置的每個網域中的成員伺服器。 若要執行此步驟，您必須是 Domain Admins 群組的成員。</p></td>
 </tr>
 </tbody>
 </table>
@@ -107,43 +107,43 @@ _**主題上次修改日期：** 2012-10-29_
 
 <div id="sectionSection0" class="section">
 
-Lync Server 2013 （例如 Lync Server 2010）會將許多配置資訊儲存在中央管理儲存體中，而不是在 Office 通訊伺服器 2007 R2 中，而不是在 AD DS 中。 不過，下列資訊會儲存在 AD DS 中：
+Lync Server 2013 中，例如 [Lync Server 2010]，儲存量的組態資訊的中央管理存放區中而不是 AD DS 中為已在 Office Communications Server 2007 R2 的案例。 不過，下列資訊會儲存在 AD DS 中：
 
-  - **架構擴充**：
+  - **架構延伸模組**：
     
       - 使用者物件延伸
     
-      - Office 通訊伺服器 2007 R2 類別的延伸，以維持向後相容性
+      - Office Communications Server 2007 R2 類別，以維持回溯相容性的副檔名
 
 <!-- end list -->
 
-  - **資料**（儲存在 Lync Server 擴展架構和現有的架構類別中）：
+  - **資料**（儲存在 Lync Server 延伸架構和現有的架構類別中）：
     
-      - 使用者 SIP 統一資源識別項（URI）及其他使用者設定
+      - 使用者的 SIP 統一資源識別元 (URI) 及其他使用者設定
     
-      - 回應群組和會議助理等應用程式的連絡人物件
+      - 回應群組與會議服務員等應用程式的連絡人物件
     
-      - 指向中央管理存放區的指標
+      - 中央管理存放區的指標
     
-      - Kerberos 驗證帳戶（選擇性電腦物件）
+      - Kerberos 驗證帳戶 （選擇性的電腦物件）
 
-在 Lync Server 2013 中，您可以將設定許可權授權給 RTCUniversalServerAdmins 通用群組，讓該群組的成員在本機伺服器上安裝並啟用 Lync Server 2013 （在伺服器新增至拓撲、已發佈及已啟用）。 委派的使用者必須是安裝及啟用 Lync Server 2013 之電腦上的本機系統管理員，但不需要成為 Domain Admins 群組的成員。 您也可以在指定的組織單位（Ou）中授與物件的許可權，讓在林準備期間建立的通用群組成員無需成為網域管理員群組的成員，就能存取這些物件。
+在 Lync Server 2013 中，您委派的安裝和管理 RTCUniversalServerAdmins 萬用群組設定權限授與使該群組的成員可以安裝並在本機伺服器上啟動 Lync Server 2013 (伺服器已新增至之後拓撲中，發佈，而且可啟用）。 委派的使用者必須是本機系統管理員，他們會安裝並啟動 Lync Server 2013，但它們不需要成為 Domain Admins 群組的成員的電腦上。 您也可以授與指定組織單位 (Ou) 中的物件的權限，讓樹系準備時建立萬用群組的成員可以存取這些物件不是 Domain Admins 群組的成員。
 
-針對 Lync Server 2013 的新部署，全域設定必須儲存在配置容器中。 如果您的組織是從較舊的版本升級，而且您在系統容器中仍有全域設定，系統容器仍受支援。
+針對新的 Lync Server 2013 的部署，全域設定必須儲存在 [Configuration] 容器。 如果您的組織從較早版本升級，仍必須在將系統容器中的全域設定，仍支援系統容器。
 
 </div>
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
-[在 Lync Server 2013 中準備 Active Directory 結構描述](lync-server-2013-preparing-the-active-directory-schema.md)  
-[Lync Server 2013 使用的 Active Directory 結構描述擴充功能、類別及屬性](lync-server-2013-active-directory-schema-extensions-classes-and-attributes-used-by-lync-server.md)  
+[準備 Lync Server 2013 中的 Active Directory 結構描述](lync-server-2013-preparing-the-active-directory-schema.md)  
+[Active Directory 架構延伸模組、 類別及 Lync Server 2013 所使用的屬性](lync-server-2013-active-directory-schema-extensions-classes-and-attributes-used-by-lync-server.md)  
 
 
-[為 Lync Server 2013 準備樹系](lync-server-2013-preparing-the-forest.md)  
-[針對 Lync Server 2013 準備網域](lync-server-2013-preparing-domains.md)  
+[準備樹系的 Lync Server 2013](lync-server-2013-preparing-the-forest.md)  
+[Lync Server 2013 的準備網域](lync-server-2013-preparing-domains.md)  
   
 
 </div>

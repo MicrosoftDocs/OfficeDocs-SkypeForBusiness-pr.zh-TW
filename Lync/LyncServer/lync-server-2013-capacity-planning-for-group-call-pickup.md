@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：群組呼叫裝貨的容量規劃
+title: Lync Server 2013： 容量規劃群組來電接聽
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51476680
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8d694b20d026d83b4cef37c713e38ab8066e22f3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 403a00887cb64b33075f173499e855eb8783bb20
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730293"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036533"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="capacity-planning-for-group-call-pickup-in-lync-server-2013"></a>Lync Server 2013 中的群組通話裝貨產能規劃
+# <a name="capacity-planning-for-group-call-pickup-in-lync-server-2013"></a>容量規劃的 Lync Server 2013 中的 [群組來電接聽
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41730293"
 
 <span> </span>
 
-_**主題上次修改日期：** 2013-02-12_
+_**上次修改主題：** 2013年-02-12_
 
 <div id="sectionSection0" class="section">
 
-下表說明您可以用來做為容量規劃需求基礎的 [群組呼叫挑選使用者模型]。
+下表說明您可以使用容量規劃需求為基礎的群組來電接聽使用者模型。
 
 <div>
 
 
 > [!IMPORTANT]  
-> [群組呼叫挑選] 是以 [通話駐留] 應用程式為基礎。 請記住，對於災難復原容量規劃，配對池的每個池都應該能夠處理通話駐留服務的工作負荷，包括兩個池中的群組呼叫。
+> 群組來電接聽為基礎的通話駐留應用程式。 請記住，災害復原容量規劃，配對集區的每個集區應該能夠處理通話駐留服務，包括群組來電接聽，在兩個集區中的工作負載。
 
 
 
 </div>
 
-### <a name="group-call-pickup-user-model"></a>群組呼叫使用者模型
+### <a name="group-call-pickup-user-model"></a>群組通話收取] 目錄的使用者模型
 
 <table>
 <colgroup>
@@ -61,36 +61,36 @@ _**主題上次修改日期：** 2013-02-12_
 </colgroup>
 <thead>
 <tr class="header">
-<th>衡量</th>
-<th>每個前臺端池（含8個前端伺服器）</th>
-<th>每個標準版 server</th>
+<th>評量</th>
+<th>每個前端集區 （使用 8 前端伺服器）</th>
+<th>每個 Standard Edition 伺服器</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>建議的每個群組使用者數</p></td>
+<td><p>建議的每個群組的使用者數目</p></td>
 <td><p>50</p></td>
 <td><p>50</p></td>
 </tr>
 <tr class="even">
-<td><p>建議的群組數</p></td>
+<td><p>建議的群組數目</p></td>
 <td><p>500</p></td>
 <td><p>60</p></td>
 </tr>
 <tr class="odd">
-<td><p>針對群組呼叫挑選啟用的每個池的使用者數目上限</p></td>
-<td><p>25000</p></td>
-<td><p>3,000</p></td>
+<td><p>每個啟用群組來電接聽的集區的使用者數目上限</p></td>
+<td><p>25,000</p></td>
+<td><p>3000</p></td>
 </tr>
 <tr class="even">
-<td><p>每分鐘針對每個群組呼叫啟用群組通話的最大來電率</p></td>
+<td><p>來電至群組來電接聽啟用每個每分鐘的集區的使用者總數的最大速率</p></td>
 <td><p>500</p></td>
 <td><p>60</p></td>
 </tr>
 <tr class="odd">
-<td><p>每分鐘由每個群組呼叫每個群組的使用者所檢索來電的最大比率</p></td>
+<td><p>擷取的每個每分鐘的集區的使用者與群組來電接聽通話的最大速率</p></td>
 <td><p>200</p></td>
-<td><p>位</p></td>
+<td><p>25</p></td>
 </tr>
 </tbody>
 </table>
@@ -102,9 +102,9 @@ _**主題上次修改日期：** 2013-02-12_
 > [!NOTE]  
 > <UL>
 > <LI>
-> <P>對於不超過八個前端伺服器的前端池，請線性地計算度量單位。 例如，如果您的前端池有一個前端伺服器，請將最大負載計算為表格中顯示的值1/8。</P>
+> <P>針對擁有少於八個前端伺服器的前端集區，請以線性方式計算度量。 例如，如果您的前端集區有一部前端伺服器，計算的最高負載為 1/8 表格中所顯示的值。</P>
 > <LI>
-> <P>只要您不超過每個池中的使用者數目上限，您就可以增加或減少每個群組的使用者數和群組數。 例如，您的標準版伺服器可以有120個群組，每個群組含25個使用者，因為為群組通話挑選啟用的使用者數目仍在使用者模型最大值（也就是，120群組乘以25個3000使用者為群組通話挑選的使用者）。</P></LI></UL>
+> <P>您可以增加或減少建議的每個群組的使用者數目和群組的數目，只要您不能超過的每個集區的使用者數目上限。 例如，Standard Edition server 可以有 120 群組有 25 位使用者每個群組，因為仍在使用者模型最大值 （亦即 120 群組次數 25 位使用者為已啟用群組來電接聽 3000 使用者） 是已啟用群組來電接聽的使用者數目。</P></LI></UL>
 
 
 

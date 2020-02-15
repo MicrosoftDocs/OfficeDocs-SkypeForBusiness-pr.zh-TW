@@ -12,16 +12,16 @@ ms:contentKeyID: 49733615
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 71ff9164dcd824d6b836577b04783954cb81b067
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 97bd53e884d4b66b8197ef2672d6ffdca39d4cea
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731053"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036009"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,21 +35,21 @@ ms.locfileid: "41731053"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-08-26_
+_**主題上次修改日期：** 2012年-08-26_
 
-Lync Server 2013 支援多網站和多池部署。 從 Office 通訊伺服器 2007 R2 將多個池遷移到 Lync Server 2013 的程式需要下列考慮：
+Lync Server 2013 支援多站台和多重集區的部署。 移轉多個集區從 Office Communications Server 2007 R2 至 Lync Server 2013 的程序需要下列考量：
 
-1.  部署 Lync Server 2013 試驗池之後，您必須定義將會移至 Lync Server 2013 池的試驗使用者子集，以及驗證使用者功能的方法。
+1.  部署 Lync Server 2013 試驗集區之後, 您要定義將驗證功能的使用者移至 Lync Server 2013 集區] 和方法的試驗使用者子集。
 
-2.  在試驗池中部署邊緣伺服器之後，您必須驗證外部使用者可以與 Lync Server 2013 池進行通訊。
+2.  部署試驗集區中 Edge Server 之後，您需要驗證外部使用者能夠與 Lync Server 2013 集區通訊。
 
-3.  將 Office 通訊伺服器 2007 R2 Edge 伺服器的聯盟路由轉換為試驗 Lync Server 2013 Edge 伺服器之後，您必須驗證聯盟使用者是否可以與 Lync Server 2013 池通訊。
+3.  從 Office Communications Server 2007 R2 Edge Server 同盟的路由至試驗的 Lync Server 2013 Edge Server 轉換之後，您需要驗證同盟的使用者能夠與 Lync Server 2013 集區通訊。
 
-4.  移動所有使用者和非使用者連絡人物件之後，您必須確認 Office 通訊伺服器 2007 R2 池是空的。
+4.  移動所有使用者與非使用者的連絡人物件之後，您需要驗證 Office Communications Server 2007 R2 集區是空的。
 
-5.  確認 Office 通訊伺服器 2007 R2 池為空白之後，您就可以將該池停用。
+5.  確認 Office Communications Server 2007 R2 集區空的之後, 您可以停用之集區。
     
-    如需如何停用舊版 Office 通訊伺服器 2007 R2 池和伺服器的詳細資料，請參閱[階段10：解除舊版網站](phase-10-decommission-legacy-site.md)。
+    如需如何停用舊版 Office Communications Server 2007 R2 集區及伺服器的詳細資訊，請參閱[階段 10： 解除委任舊版站台](phase-10-decommission-legacy-site.md)。
 
 </div>
 

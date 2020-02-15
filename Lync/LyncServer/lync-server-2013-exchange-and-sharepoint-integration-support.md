@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： Exchange 與 SharePoint 整合支援
+title: 'Lync Server 2013: Exchange 與 SharePoint 整合支援'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184504
 ms.date: 01/20/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 198df79f63415affa4fb9b41d55265b58ae00a8a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 566af847bb177173f91634b9b46cceae1d9c88ea
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756257"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035115"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="exchange-and-sharepoint-integration-support-in-lync-server-2013"></a>Lync Server 2013 中的 Exchange 與 SharePoint 整合支援
+# <a name="exchange-and-sharepoint-integration-support-in-lync-server-2013"></a>Lync Server 2013 中的 Exchange 和 SharePoint 整合支援
 
 </div>
 
@@ -35,45 +35,45 @@ ms.locfileid: "41756257"
 
 <span> </span>
 
-_**主題上次修改日期：** 2017-01-18_
+_**主題上次修改日期：** 2017年-01-18_
 
-如果您整合這些產品，lync Server 2013 和 Lync 2013 可以與其他應用程式和伺服器產品順暢地通訊，包括 Office 2013、Exchange Server 2013、Exchange Server 2016 和 SharePoint。 整合 Lync Server 2013 與 Office 可為使用者提供對立即訊息（IM）、增強的目前狀態、電話和會議功能（Lync）的內容。 Office 使用者可以從 Outlook 2013 訊息與共同作業用戶端及其他 Office 程式，或從 SharePoint 頁面存取 Lync 功能。 使用者也可以在 Outlook [交談記錄] 資料夾中，查看 Lync 交談的記錄。 與 Exchange 2013、Exchange 2016 或 Exchange Online 整合時，Lync Server 2013 也支援下列功能：
+Lync Server 2013 和 Lync 2013 可以安全地傳達順暢地與其他應用程式和伺服器產品，包括 Office 2013、 Exchange Server 2013、 Exchange Server 2016 和 SharePoint 中，如果您在整合這些產品。 整合 Lync Server 2013 和 Office 提供的內容存取的使用者的立即訊息 (IM)、 增強顯示狀態、 電話語音] 和 Lync 會議功能。 Office 使用者可以存取 Lync 功能從 Outlook 2013 通訊和共同作業用戶端和其他 Office 程式中，或是從 SharePoint] 頁面。 使用者也可以檢視 Lync 交談記錄中的 Outlook 交談歷程記錄資料夾。 當與 Exchange 2013、 Exchange 2016 或 Exchange Online 整合，Lync Server 2013 也支援下列項目：
 
-  - [整合連絡人存放區]，可讓使用者儲存 Exchange 或 Exchange Online 中的所有連絡人資訊，以便在 Lync 2013、Exchange、Outlook 和 Outlook Web App 中全域提供該資訊。
+  - 整合連絡人存放區，讓使用者可以將所有聯絡人資訊儲存在 Exchange 或 Exchange Online，以便資訊皆可全域 Lync 2013、 Exchange、 Outlook 和 Outlook Web App。
 
-  - [交談記錄] 和 [網路會議] 歷程記錄，儲存在 Exchange 使用者資料夾中。
+  - 交談歷程記錄和 Web 會議歷程記錄，也就是在 Exchange 中儲存使用者資料夾。
 
-  - Lync 的封存內容，例如 IM 和會議內容，可以儲存在 Exchange 儲存空間中。
-
-<div>
-
-
-> [!NOTE]  
-> Lync Server 2013 支援與舊版的 Microsoft Exchange Server 和 SharePoint Server 整合，但並非所有的功能都受這些舊版版本支援，例如與 Microsoft Exchange 整合儲存。<BR>如果您要將使用者遷移至 Exchange 2013 或 Exchange 2016，您可以在完成遷移時，定期使用 Exchange 儲存空間和 Lync Server 儲存體。 不支援永久使用 Exchange 和 Lync Server storage。
-
-
-
-</div>
-
-將 Lync Server 2013 與 Exchange Server 和 SharePoint Server 整合，必須在執行 Lync Server 2013、Exchange Server 和 SharePoint Server 的伺服器之間進行伺服器對伺服器驗證。 Lync Server 2013 支援針對伺服器到伺服器驗證和授權的 OAuth （開放授權）通訊協定。 對於兩個 Microsoft 伺服器之間的內部部署伺服器與伺服器驗證，不需要使用協力廠商的權杖伺服器。 Lync Server 2013、Exchange Server 和 SharePoint Server 都有內建的權杖伺服器，可用於彼此進行驗證。 例如，Lync Server 2013 可以自行發出並簽署安全權杖，並在與 Exchange 通訊時使用該權杖。 在這種情況下，不需要使用協力廠商的權杖伺服器。
-
-Lync Server 2013 支援兩種伺服器對伺服器驗證案例。 這些內容包括下列各項之間的伺服器對伺服器驗證配置：
-
-  - Lync Server 2013 的內部部署安裝，以及 Exchange Server 2013、Exchange Server 2016 和/或 SharePoint Server 的內部部署安裝。
-
-  - 一對 Office 元件（例如，在 Microsoft Exchange 365 與 Microsoft Lync Server 365 之間，或 Microsoft Lync Server 365 與 Microsoft SharePoint 365 之間）。
+  - 從 Lync IM 和會議內容，例如封存的內容可以儲存在 Exchange 儲存區。
 
 <div>
 
 
 > [!NOTE]  
-> 在此 Lync Server 2013 發行中不支援內部部署伺服器與 Office 365 元件之間的伺服器對伺服器驗證。 在其他專案中，這表示您無法在 Lync Server 2013 與 Microsoft Exchange 365 的內部部署安裝之間設定伺服器對伺服器驗證。
+> Lync Server 2013 支援與舊版 Microsoft Exchange Server 與 SharePoint Server 的整合，但這些先前的版本，例如封存存放區與 Microsoft Exchange 整合支援並非所有的功能。<BR>如果您將您的使用者移轉至 Exchange 2013 或 Exchange 2016，您可以使用 Exchange 儲存區與 Lync Server 儲存區基礎過渡，當您完成移轉。 不支援永久使用 Exchange 與 Lync Server 儲存區。
 
 
 
 </div>
 
-如需伺服器對伺服器驗證的詳細資料，請參閱在部署檔或操作檔中[管理 Lync server 2013 中的伺服器到伺服器驗證（OAuth）和合作夥伴應用程式](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md)。
+整合的 Lync Server 2013 與 Exchange Server 和 SharePoint Server 需要執行 Lync Server 2013、 Exchange Server 和 SharePoint Server 的伺服器之間的伺服器對伺服器驗證。 Lync Server 2013 支援伺服器對伺服器驗證及授權的 OAuth (Open Authorization) 通訊協定。 針對 Microsoft 伺服器之間的內部部署伺服器對伺服器驗證，並不需要使用協力廠商 Token 伺服器。 Lync Server 2013、 Exchange Server 和 SharePoint Server 具有內建的權杖伺服器可以用於驗證目的彼此。 例如，Lync Server 2013 可以發出簽署安全性權杖由本身，並與 Exchange 進行通訊時使用該權杖。 在此情況下，則不需要使用協力廠商 Token 伺服器。
+
+Lync Server 2013 支援兩個伺服器對伺服器驗證案例。 這些功能包括下列之間的伺服器對伺服器驗證的設定：
+
+  - Lync Server 2013 和 Exchange Server 2013、 Exchange Server 2016、 和/或 SharePoint Server 的內部部署安裝的內部部署安裝。
+
+  - 一組 Office 元件 （例如，Microsoft Exchange 365 和 Microsoft Lync Server 365，之間或 Microsoft Lync Server 365 及 Microsoft SharePoint 365 之間）。
+
+<div>
+
+
+> [!NOTE]  
+> 此 Lync Server 2013 版本不支援在內部伺服器與 Office 365 元件之間的伺服器對伺服器驗證。 除此之外，這表示您無法設定內部部署安裝 Lync Server 2013 和 Microsoft Exchange 365 之間的伺服器對伺服器驗證。
+
+
+
+</div>
+
+如需有關伺服器對伺服器驗證的詳細資訊，請參閱部署文件或作業文件中的[管理伺服器對伺服器驗證 (OAuth) 與 Lync Server 2013 中的協力廠商應用程式](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md)。
 
 </div>
 

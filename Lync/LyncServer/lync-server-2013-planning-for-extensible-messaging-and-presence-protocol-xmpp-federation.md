@@ -1,5 +1,5 @@
 ---
-title: 針對可擴展訊息和目前狀態通訊協定（XMPP）同盟進行規劃
+title: 規劃可延伸訊息與顯示狀態通訊協定 (XMPP) 同盟
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184892
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5ee0543d36cb43a05042ca4341a837ae10b52051
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5f95a8e53de2c11473d8424eb2bc794e41aa7d1f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725367"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036823"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-extensible-messaging-and-presence-protocol-xmpp-federation-in-lync-server-2013"></a>在 Lync Server 2013 中規劃可擴展訊息和目前狀態通訊協定（XMPP）同盟
+# <a name="planning-for-extensible-messaging-and-presence-protocol-xmpp-federation-in-lync-server-2013"></a>可延伸訊息與顯示狀態通訊協定 (XMPP) 同盟 Lync Server 2013 中規劃
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41725367"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-22_
+_**主題上次修改日期：** 2012年-10-22_
 
-舊版的 Lync Server 和 Office 通訊伺服器提供可擴展的訊息和目前狀態通訊協定（XMPP）閘道，可將其部署為個別的伺服器角色，以允許與 XMPP 部署進行聯盟。 在 Microsoft Lync Server 2013 中，您可以將 XMPP 功能部署為功能。 XMPP 功能是由兩個部分所安裝：在 Edge 伺服器上執行的 XMPP proxy，以及在前端伺服器上執行的 XMPP 閘道。
+舊版的 Lync Server 和 Office Communications Server 提供可延伸訊息和目前狀態通訊協定 (XMPP) 閘道，可以部署為不同的伺服器角色，以允許與 XMPP 部署同盟。 在 [Microsoft Lync Server 2013 XMPP 功能可以部署為功能。 XMPP 功能安裝在兩個部分： Edge Server 及 XMPP 閘道在前端伺服器上執行的伺服器執行 XMPP proxy。
 
-XMPP 的部署與設定在[Lync Server 2013 中的 [部署外部使用者存取權](lync-server-2013-deploying-external-user-access.md)] 中，您打算在防火牆上定義埠和通訊協定規則、設定憑證的設定，以及新增 DNS 記錄，以規劃支援組織中的 XMPP。 本節中的下列主題摘要說明為您的部署順利規劃 XMPP 同盟時所需的資訊。
+部署及設定 XMPP 涵蓋在[部署外部使用者存取 Lync Server 2013 中](lync-server-2013-deploying-external-user-access.md)規劃支援 XMPP 貴組織中所定義連接埠和通訊協定規則上您的防火牆、 設定憑證，以及新增 DNS 記錄。 本節中的下列主題將摘要說明您必須成功計劃部署的 XMPP 同盟的資訊。
 
 <div>
 
 
 > [!IMPORTANT]
-> Lync Server 2013 的 XMPP 功能是由 Microsoft 針對使用 Google 交談的立即訊息同盟進行測試和支援。 針對任何其他 XMPP 系統，請與協力廠商廠商聯繫，確認他們支援 Lync Server 2013 的同盟，以及任何部署或疑難排解建議。
+> 測試及版與 Google Talk 的立即訊息同盟支援 Microsoft Lync Server 2013 XMPP 功能。 為任何其他 XMPP 系統連絡協力廠商連絡，以確認它們支援同盟與 Lync Server 2013，以及任何部署或疑難排解建議。
 
 
 
@@ -53,29 +53,29 @@ XMPP 的部署與設定在[Lync Server 2013 中的 [部署外部使用者存取�
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [認證摘要-Lync Server 2013 中的可擴展訊息和目前狀態通訊協定（XMPP）同盟](lync-server-2013-certificate-summary-extensible-messaging-and-presence-protocol-xmpp-federation.md)
+  - [憑證摘要-可延伸訊息與顯示狀態通訊協定 (XMPP) 同盟 Lync Server 2013 中](lync-server-2013-certificate-summary-extensible-messaging-and-presence-protocol-xmpp-federation.md)
 
-  - [在 Lync Server 2013 中的埠摘要-可擴展的訊息和目前狀態通訊協定（XMPP）同盟](lync-server-2013-port-summary-extensible-messaging-and-presence-protocol-xmpp-federation.md)
+  - [連接埠摘要-可延伸訊息與顯示狀態通訊協定 (XMPP) 同盟 Lync Server 2013 中](lync-server-2013-port-summary-extensible-messaging-and-presence-protocol-xmpp-federation.md)
 
-  - [在 Lync Server 2013 中的 DNS 摘要-可擴展的訊息和目前狀態通訊協定（XMPP）同盟](lync-server-2013-dns-summary-extensible-messaging-and-presence-protocol-xmpp-federation.md)
+  - [DNS 摘要-可延伸訊息與顯示狀態通訊協定 (XMPP) 同盟 Lync Server 2013 中](lync-server-2013-dns-summary-extensible-messaging-and-presence-protocol-xmpp-federation.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
-[在 Lync Server 2013 中設定 XMPP 同盟](lync-server-2013-setting-up-xmpp-federation.md)  
+[設定 Lync Server 2013 中的 XMPP 同盟](lync-server-2013-setting-up-xmpp-federation.md)  
 [在 Lync Server 2013 中設定原則以控制 XMPP 同盟使用者存取](lync-server-2013-configure-policies-to-control-xmpp-federated-user-access.md)  
 
 
-[在 Lync Server 2013 中管理 XMPP 同盟夥伴](lync-server-2013-manage-xmpp-federated-partners-for-your-organization.md)  
-[Get-CsExternalAccessPolicy](https://technet.microsoft.com/en-us/library/Gg425805(v=OCS.15))  
-[CsXmppAllowedPartner](https://technet.microsoft.com/en-us/library/JJ204981(v=OCS.15))  
-[CsXmppGatewayConfiguration](https://technet.microsoft.com/en-us/library/JJ204869(v=OCS.15))  
+[管理 Lync Server 2013 中的 XMPP 同盟協力廠商](lync-server-2013-manage-xmpp-federated-partners-for-your-organization.md)  
+[Get-csexternalaccesspolicy](https://technet.microsoft.com/library/Gg425805(v=OCS.15))  
+[Get-csxmppallowedpartner](https://technet.microsoft.com/library/JJ204981(v=OCS.15))  
+[Get-csxmppgatewayconfiguration](https://technet.microsoft.com/library/JJ204869(v=OCS.15))  
   
 
 </div>

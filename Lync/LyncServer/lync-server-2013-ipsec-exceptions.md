@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013 IPsec 例外狀況
+title: Lync Server 2013 IPsec 例外
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183627
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 37d5becaab996d6fe4889086d3a68a45ffc1f6d7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: db7291674485dec30211d88e2739b0da89fb334f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733453"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035055"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="ipsec-exceptions-in-lync-server-2013"></a>Lync Server 2013 中的 IPsec 例外狀況
+# <a name="ipsec-exceptions-in-lync-server-2013"></a>Lync Server 2013 中的 IPsec 例外
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41733453"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-06-27_
+_**主題上次修改日期：** 2012 年 06 月 27 日_
 
-針對網際網路通訊協定安全性（IPsec）（請參閱已部署的 IETF RFC 4301-4309）商業網路，必須停用用於傳送音訊、影片和全景影片的埠範圍。 建議因需要避免由於 IPsec 協商而分配媒體埠的任何延遲。
+對於已經部署 Internet Protocol Security (IPsec，請參閱 IETF RFC 4301-4309) 的企業網路而言，用於傳送音訊、視訊與全景視訊的連接埠範圍，必須停用 IPSec。為了避免在媒體連接埠分配期間，因為 IPSec 交涉而導致出現延遲現象，建議您這麼做。
 
-下表說明建議的 IPsec 例外狀況設定。
+下表說明建議採用的 IPSec 例外設定。
 
-### <a name="recommended-ipsec-exceptions"></a>建議的 IPsec 例外狀況
+### <a name="recommended-ipsec-exceptions"></a>建議的 IPsec 例外
 
 <table style="width:100%;">
 <colgroup>
@@ -58,148 +58,148 @@ _**主題上次修改日期：** 2012-06-27_
 <th>規則名稱</th>
 <th>來源 IP</th>
 <th>目的地 IP</th>
-<th>通訊協定</th>
-<th>來源埠</th>
-<th>目的地埠</th>
+<th>Protocol (通訊協定)</th>
+<th>來源連接埠</th>
+<th>目的地連接埠</th>
 <th>驗證需求</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>A/V 邊緣伺服器內部入站</p></td>
-<td><p>每</p></td>
-<td><p>A/V 邊緣伺服器內部</p></td>
-<td><p>UDP 與 TCP</p></td>
-<td><p>每</p></td>
-<td><p>每</p></td>
+<td><p>A/V Edge Server (輸入的內部流量)</p></td>
+<td><p>任何</p></td>
+<td><p>A/V Edge Server (內部流量)</p></td>
+<td><p>UDP 和 TCP</p></td>
+<td><p>任何</p></td>
+<td><p>任何</p></td>
 <td><p>不要驗證</p></td>
 </tr>
 <tr class="even">
-<td><p>A/V 邊緣伺服器外部輸入</p></td>
-<td><p>每</p></td>
-<td><p>A/V 邊緣伺服器外部</p></td>
-<td><p>UDP 與 TCP</p></td>
-<td><p>每</p></td>
-<td><p>每</p></td>
+<td><p>A/V Edge Server (輸入的外部流量)</p></td>
+<td><p>任何</p></td>
+<td><p>A/V Edge Server (外部流量)</p></td>
+<td><p>UDP 和 TCP</p></td>
+<td><p>任何</p></td>
+<td><p>任何</p></td>
 <td><p>不要驗證</p></td>
 </tr>
 <tr class="odd">
-<td><p>A/V 邊緣伺服器內部出站</p></td>
-<td><p>A/V 邊緣伺服器內部</p></td>
-<td><p>每</p></td>
+<td><p>A/V Edge Server (輸出的內部流量)</p></td>
+<td><p>A/V Edge Server (內部流量)</p></td>
+<td><p>任何</p></td>
 <td><p>UDP &amp; TCP</p></td>
-<td><p>每</p></td>
-<td><p>每</p></td>
+<td><p>任何</p></td>
+<td><p>任何</p></td>
 <td><p>不要驗證</p></td>
 </tr>
 <tr class="even">
-<td><p>A/V 邊緣伺服器外部輸出</p></td>
-<td><p>A/V 邊緣伺服器外部</p></td>
-<td><p>每</p></td>
-<td><p>UDP 與 TCP</p></td>
-<td><p>每</p></td>
-<td><p>每</p></td>
+<td><p>A/V Edge Server (輸出的外部流量)</p></td>
+<td><p>A/V Edge Server (外部流量)</p></td>
+<td><p>任何</p></td>
+<td><p>UDP 和 TCP</p></td>
+<td><p>任何</p></td>
+<td><p>任何</p></td>
 <td><p>不要驗證</p></td>
 </tr>
 <tr class="odd">
-<td><p>中繼伺服器入站</p></td>
-<td><p>每</p></td>
-<td><p>仲介</p>
-<p>伺服器（s）</p></td>
-<td><p>UDP 與 TCP</p></td>
-<td><p>每</p></td>
-<td><p>每</p></td>
+<td><p>中繼伺服器 (輸入流量)</p></td>
+<td><p>任何</p></td>
+<td><p>中繼</p>
+<p>伺服器</p></td>
+<td><p>UDP 和 TCP</p></td>
+<td><p>任何</p></td>
+<td><p>任何</p></td>
 <td><p>不要驗證</p></td>
 </tr>
 <tr class="even">
-<td><p>轉送伺服器出站</p></td>
-<td><p>仲介</p>
-<p>伺服器（s）</p></td>
-<td><p>每</p></td>
-<td><p>UDP 與 TCP</p></td>
-<td><p>每</p></td>
-<td><p>每</p></td>
+<td><p>中繼伺服器 (輸出流量)</p></td>
+<td><p>中繼</p>
+<p>伺服器</p></td>
+<td><p>任何</p></td>
+<td><p>UDP 和 TCP</p></td>
+<td><p>任何</p></td>
+<td><p>任何</p></td>
 <td><p>不要驗證</p></td>
 </tr>
 <tr class="odd">
-<td><p>會議助理入站</p></td>
-<td><p>每</p></td>
-<td><p>運行會議助理的前端伺服器</p></td>
-<td><p>UDP 與 TCP</p></td>
-<td><p>每</p></td>
-<td><p>每</p></td>
+<td><p>會議服務員 (輸入流量)</p></td>
+<td><p>任何</p></td>
+<td><p>執行會議服務員的前端伺服器</p></td>
+<td><p>UDP 和 TCP</p></td>
+<td><p>任何</p></td>
+<td><p>任何</p></td>
 <td><p>不要驗證</p></td>
 </tr>
 <tr class="even">
-<td><p>會議助理出站</p></td>
-<td><p>運行會議助理的前端伺服器</p></td>
-<td><p>每</p></td>
-<td><p>UDP 與 TCP</p></td>
-<td><p>每</p></td>
-<td><p>每</p></td>
+<td><p>會議服務員 (輸出流量)</p></td>
+<td><p>執行會議服務員的前端伺服器</p></td>
+<td><p>任何</p></td>
+<td><p>UDP 和 TCP</p></td>
+<td><p>任何</p></td>
+<td><p>任何</p></td>
 <td><p>不要驗證</p></td>
 </tr>
 <tr class="odd">
-<td><p>A/V 會議入站</p></td>
-<td><p>每</p></td>
+<td><p>A/V 會議 (輸入流量)</p></td>
+<td><p>任何</p></td>
 <td><p>前端伺服器</p></td>
-<td><p>UDP 與 TCP</p></td>
-<td><p>每</p></td>
-<td><p>每</p></td>
+<td><p>UDP 和 TCP</p></td>
+<td><p>任何</p></td>
+<td><p>任何</p></td>
 <td><p>不要驗證</p></td>
 </tr>
 <tr class="even">
-<td><p>A/V 會議輸出</p></td>
+<td><p>A/V 會議 (輸出流量)</p></td>
 <td><p>前端伺服器</p></td>
-<td><p>每</p></td>
-<td><p>UDP 與 TCP</p></td>
-<td><p>每</p></td>
-<td><p>每</p></td>
+<td><p>任何</p></td>
+<td><p>UDP 和 TCP</p></td>
+<td><p>任何</p></td>
+<td><p>任何</p></td>
 <td><p>不要驗證</p></td>
 </tr>
 <tr class="odd">
-<td><p>Exchange 入站</p></td>
-<td><p>每</p></td>
-<td><p>Exchange 整合通訊</p></td>
-<td><p>UDP 與 TCP</p></td>
-<td><p>每</p></td>
-<td><p>每</p></td>
+<td><p>Exchange (輸入流量)</p></td>
+<td><p>任何</p></td>
+<td><p>Exchange Unified Messaging</p></td>
+<td><p>UDP 和 TCP</p></td>
+<td><p>任何</p></td>
+<td><p>任何</p></td>
 <td><p>不要驗證</p></td>
 </tr>
 <tr class="even">
-<td><p>應用程式共用伺服器入站</p></td>
-<td><p>每</p></td>
+<td><p>應用程式共用伺服器輸入</p></td>
+<td><p>任何</p></td>
 <td><p>應用程式共用伺服器</p></td>
-<td><p>TCP-OUT</p></td>
-<td><p>每</p></td>
-<td><p>每</p></td>
+<td><p>TCP</p></td>
+<td><p>任何</p></td>
+<td><p>任何</p></td>
 <td><p>不要驗證</p></td>
 </tr>
 <tr class="odd">
-<td><p>應用程式共用伺服器出站</p></td>
+<td><p>應用程式共用伺服器輸出</p></td>
 <td><p>應用程式共用伺服器</p></td>
-<td><p>每</p></td>
-<td><p>TCP-OUT</p></td>
-<td><p>每</p></td>
-<td><p>每</p></td>
+<td><p>任何</p></td>
+<td><p>TCP</p></td>
+<td><p>任何</p></td>
+<td><p>任何</p></td>
 <td><p>不要驗證</p></td>
 </tr>
 <tr class="even">
-<td><p>Exchange 輸出</p></td>
-<td><p>Exchange 整合通訊</p></td>
-<td><p>每</p></td>
-<td><p>UDP 與 TCP</p></td>
-<td><p>每</p></td>
-<td><p>每</p></td>
+<td><p>Exchange (輸出流量)</p></td>
+<td><p>Exchange Unified Messaging</p></td>
+<td><p>任何</p></td>
+<td><p>UDP 和 TCP</p></td>
+<td><p>任何</p></td>
+<td><p>任何</p></td>
 <td><p>不要驗證</p></td>
 </tr>
 <tr class="odd">
-<td><p>台</p></td>
-<td><p>每</p></td>
-<td><p>每</p></td>
-<td><p>UDP-IN</p></td>
-<td><p>指定的媒體埠範圍</p></td>
-<td><p>每</p></td>
+<td><p>用戶端</p></td>
+<td><p>任何</p></td>
+<td><p>任何</p></td>
+<td><p>UDP</p></td>
+<td><p>指定的媒體連接埠範圍</p></td>
+<td><p>任何</p></td>
 <td><p>不要驗證</p></td>
 </tr>
 </tbody>

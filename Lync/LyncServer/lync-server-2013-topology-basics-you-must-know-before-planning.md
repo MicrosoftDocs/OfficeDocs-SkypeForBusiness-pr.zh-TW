@@ -12,20 +12,20 @@ ms:contentKeyID: 48184510
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9034ce0802cce542c8e7b893feaafd618bb56b97
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: af22effc5c16f824952806dffe1d6c646b4b7654
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745193"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036583"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="topology-basics-you-must-know-before-planning-for-lync-server-2013"></a>規劃 Lync Server 2013 前必須知道的拓撲基本知識
+# <a name="topology-basics-you-must-know-before-planning-for-lync-server-2013"></a>針對 Lync Server 2013 規劃前必須知道的拓撲基本知識
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41745193"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-09-25_
+_**主題上次修改日期：** 2012年-09-25_
 
-您不需要成為 Lync 伺服器上的專家，就能執行規劃工具。 事實上，多次執行規劃工具、以不同方式回答問題，以及比較輸出是瞭解 Lync Server 的好方法。
+您不必是專家以執行規劃工具的 Lync 伺服器上。 事實上，執行規劃工具多次，以不同的回答問題，再比較輸出是一個好方法若要了解 Lync Server。
 
-在深入瞭解各種元件之前，您應該瞭解 Lync Server 2013 拓朴的下列基本內容。
+您了解更深入的各項元件之前，您應先了解 Lync Server 2013 拓撲的以下基本層面。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
   - [Lync Server 2013 的 Lync Server 網站](lync-server-2013-sites.md)
 
   - [Lync Server 2013 中的伺服器角色](lync-server-2013-server-roles.md)
 
-  - [Lync Server 2013 中的高可用性和災害復原支援](lync-server-2013-high-availability-and-disaster-recovery-support.md)
+  - [Lync Server 2013 中支援的高可用性和災害復原](lync-server-2013-high-availability-and-disaster-recovery-support.md)
 
 </div>
 

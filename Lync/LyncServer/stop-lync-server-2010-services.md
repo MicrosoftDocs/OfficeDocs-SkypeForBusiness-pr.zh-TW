@@ -12,16 +12,16 @@ ms:contentKeyID: 49733796
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 630472c67c560438f37fa65607dc817782535963
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fe22268f7376b1744e5997a3f9916395109c9e39
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756027"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035659"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,23 +35,23 @@ ms.locfileid: "41756027"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-04_
+_**主題上次修改日期：** 2012年-10-04_
 
-您可以使用 Lync Server [控制台] 來啟動或停止在特定電腦上執行的所有 Lync Server 2010 服務，或是啟動或停止特定的 Lync Server 2010 服務。
+您可以使用 Lync Server Control Panel 啟動或停止在特定電腦上執行的所有 Lync Server 2010 服務或是啟動或都停止特定的 Lync Server 2010 服務。
 
 <div>
 
-## <a name="to-start-or-stop-all-lync-server-services-on-a-computer"></a>在電腦上啟動或停止所有 Lync Server 服務
+## <a name="to-start-or-stop-all-lync-server-services-on-a-computer"></a>啟動或停止電腦上的所有 Lync Server 服務
 
-1.  開啟 [Lync Server 控制台]。
+1.  開啟 Lync Server 控制台。
 
-2.  在左側導覽列中，按一下 [**拓撲**]，然後按一下 [**狀態**]。
+2.  在左導覽列中，按一下 **[拓樸]**，再按一下 **[狀態]**。
 
-3.  在 [**狀態**] 頁面上，視需要排序或搜尋清單，以尋找執行您要開始或停止之服務的電腦，然後按一下它。
+3.  在 **[狀態]** 頁面上，視需要排序或搜尋清單，找到正在執行您要啟動或停止之服務的電腦，然後按一下該電腦。
 
-4.  按一下 [**動作**]。
+4.  按一下 **[動作]**。
 
-5.  按一下 [**啟動所有服務**] 或 [**停止所有服務**]。
+5.  按一下 **[啟動所有服務]** 或 **[停止所有服務]**。
 
 </div>
 
@@ -59,21 +59,21 @@ _**主題上次修改日期：** 2012-10-04_
 
 ## <a name="to-start-or-stop-a-specific-service"></a>啟動或停止特定服務
 
-1.  開啟 [Lync Server 控制台]。
+1.  開啟 Lync Server 控制台。
 
-2.  在左側導覽列中，按一下 [**拓撲**]，然後按一下 [**狀態**]。
+2.  在左導覽列中，按一下 **[拓樸]**，再按一下 **[狀態]**。
 
-3.  在 [**狀態**] 頁面上，視需要排序或搜尋清單，以尋找執行您要開始或停止之服務的電腦，然後按一下它。
+3.  在 **[狀態]** 頁面上，視需要排序或搜尋整個清單，以尋找目前正在執行您想要啟動或停止服務的電腦，然後按一下該電腦。
 
-4.  按一下 [**屬性**]。
+4.  按一下 **[內容]**。
 
-5.  如有需要，請排序服務清單，然後按一下您要開始或停止的服務。
+5.  視需要排序服務清單，然後按一下您要啟動或停止的服務。
 
-6.  按一下 [**動作**]。
+6.  按一下 **[動作]**。
 
-7.  按一下 [**開始服務**] 或 [**停止服務**]。
+7.  按一下 **[啟動服務]** 或 **[停止服務]**。
 
-8.  按一下 [**關閉**]。
+8.  按一下 **[關閉]**。
 
 </div>
 

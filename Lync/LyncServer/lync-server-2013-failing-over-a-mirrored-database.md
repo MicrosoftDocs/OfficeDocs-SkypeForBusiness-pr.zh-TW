@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：容錯移轉鏡像資料庫
+title: Lync Server 2013： 容錯移轉鏡像資料庫
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184450
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 822a7a2fa13ce444bbaf590ee0d8ba2144debcc7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a5be1bfa3a2c9cfac24529de65d91d7b58f13842
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756147"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035005"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="failing-over-a-mirrored-database-in-lync-server-2013"></a>在 Lync Server 2013 中容錯移轉鏡像資料庫
+# <a name="failing-over-a-mirrored-database-in-lync-server-2013"></a>容錯移轉鏡像資料庫在 Lync Server 2013
 
 </div>
 
@@ -35,39 +35,39 @@ ms.locfileid: "41756147"
 
 <span> </span>
 
-_**主題上次修改日期：** 2014-03-14_
+_**上次修改主題：** 2014年-03-14_
 
-如果您已將後端資料庫設定為使用與見證的同步處理鏡像，則會自動進行容錯移轉。 如果您已設定不含見證的同步處理鏡像，您可以使用下列程式來容錯移轉及回切您的資料庫。 您也可以使用這些程式，即使您已設定見證，也能手動容錯移轉及回切至您的資料庫。
+若您已設定後端資料庫以使用具有見證的同步鏡像，將自動進行容錯移轉。若您已經設定不具見證的同步鏡像，則可以使用以下程序，針對資料庫進行容錯移轉與容錯回復。即使您已經設定見證，也可以使用這些程序對資料庫進行手動容錯移轉與容錯回復。
 
 <div>
 
-## <a name="to-fail-over-your-back-end-database"></a>容錯移轉後端資料庫
+## <a name="to-fail-over-your-back-end-database"></a>針對您的後端資料庫進行容錯移轉
 
-1.  在進行容錯移轉之前，請輸入以下 Cmdlet 來判斷哪個後端資料庫是主體，哪個是鏡像：
+1.  進行容錯移轉前，請鍵入下列 Cmdlet，以決定後端資料庫何者為主體以及何者為鏡像：
     
         Get-CsDatabaseMirrorState -PoolFqdn <poolFQDN> -DatabaseType User
 
-2.  如果中央管理儲存區託管于此池中，請輸入下列 Cmdlet 來判斷哪個是 principal，哪個是中央管理存儲的鏡像：
+2.  如果中央管理存放區裝載在此集區中，輸入下列 cmdlet 以判斷其為主體以及何者為中央管理存放區的鏡像：
     
         Get-CsDatabaseMirrorState -PoolFqdn <poolFQDN> -DatabaseType CentralMgmt
 
-3.  執行使用者資料庫的容錯移轉：
+3.  執行使用者資料庫容錯移轉：
     
-      - 如果主要使用者失敗且您已容錯移轉到鏡像，請輸入：
+      - 如果主要作業失敗，而您正在進行鏡像容錯移轉，請鍵入：
         
             Invoke-CsDatabaseFailover -PoolFqdn <poolFQDN> -DatabaseType User -NewPrincipal mirror -Verbose
     
-      - 如果鏡像失敗且您要容錯移轉到主要使用者，請輸入：
+      - 如果鏡像失敗而您正在進行主要作業的容錯移轉，請鍵入：
         
             Invoke-CsDatabaseFailover -PoolFqdn <poolFQDN> -DatabaseType User -NewPrincipal primary -Verbose
 
-4.  如果該池託管中央管理伺服器，請執行中央管理存儲的容錯移轉。
+4.  如果該集區裝載中央管理伺服器，執行中央管理存放區容錯的移轉。
     
-      - 如果主要使用者失敗且您已容錯移轉到鏡像，請輸入：
+      - 如果主要作業失敗，而您正在進行鏡像容錯移轉，請鍵入：
         
             Invoke-CsDatabaseFailover -PoolFqdn <poolFQDN> -DatabaseType CentralMgmt -NewPrincipal mirror -Verbose
     
-      - 如果鏡像失敗且您要容錯移轉到主要使用者，請輸入：
+      - 如果鏡像失敗而您正在進行主要作業的容錯移轉，請鍵入：
         
             Invoke-CsDatabaseFailover -PoolFqdn <poolFQDN> -DatabaseType CentralMgmt -NewPrincipal primary -Verbose
 

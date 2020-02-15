@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：環境測試的問題
+title: 環境測試的 Lync Server 2013： 問題
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185970
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 65803ff396a9615787291de2d728fe63f3350d0b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b7d077b22c147dd677a5db68636b2c68bfafcf23
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765341"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035045"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="issues-with-the-environment-test-in-lync-server-2013"></a>Lync Server 2013 中的環境測試問題
+# <a name="issues-with-the-environment-test-in-lync-server-2013"></a>環境測試 Lync Server 2013 中的問題
 
 </div>
 
@@ -35,33 +35,33 @@ ms.locfileid: "41765341"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-09-21_
+_**主題上次修改日期：** 2012年-09-21_
 
-最佳做法分析程式提供一種驗證 Lync Server 2013 環境是否支援設定的方式。 在 Active Directory 網域服務檢查中，最佳做法分析程式會執行下列動作：
+最佳做法分析程式可讓您確認您的 Lync Server 2013 環境是支援的組態。 [Active Directory 網域服務檢查的一部分，最佳做法分析程式會執行下列作業：
 
-  - 驗證 Active Directory 網域服務林及架構準備。
+  - 驗證的 Active Directory 網域服務樹系和結構描述準備工作。
 
-  - 識別部署中 Active Directory 網域服務網站和網域的數目。
+  - 識別 Active Directory 網域服務網站及網域中部署的數目。
 
-  - 檢查目錄林及網域層級。
+  - 檢查樹系與網域層級。
 
-  - 檢查網網域控制站版本。
+  - 檢查網域控制器版本。
 
-  - 識別網域、配置和架構命名內容。
+  - 識別網域、 設定及 schema 命名內容。
 
-  - 標識已啟用的使用者數目。
+  - 會識別已啟用的使用者數目。
 
-  - 檢查全域 Active Directory 網域服務設定的儲存位置。
+  - 檢查儲存全域 Active Directory 網域服務設定。
 
-  - 檢查 Lync Server 的服務連接點（SCPs）。
+  - Lync Server 的服務連線點 (Scp) 檢查。
 
   - 識別資料庫版本。
 
 <div>
 
-## <a name="resolving-issues-with-the-environment"></a>解決環境問題
+## <a name="resolving-issues-with-the-environment"></a>解決環境問題。
 
-如果環境測試發現您的環境有問題，這些問題可能是由您的 Active Directory 設定或特定伺服器上執行的軟體層級問題所造成。 例如，如果最佳做法分析程式發現您環境中執行 Windows Server 2000 的任何網網域控制站，都會發出警告，而且您必須將這些網網域控制站升級為受支援版本的 Windows Server。
+如果環境測試找到您的環境的問題，這些問題都可能會因您的 Active Directory 設定] 或 [特定伺服器上執行的軟體的層級的問題。 例如，如果最佳做法分析程式識別正在執行 Windows Server 2000 任何網域控制站您環境中的，它會發出警告和您想要將這些網域控制站升級至支援的 Windows Server 版本。
 
 </div>
 

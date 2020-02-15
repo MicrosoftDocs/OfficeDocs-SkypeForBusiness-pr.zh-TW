@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：疑難排解及主要健康情況指示符
+title: Lync Server 2013： 疑難排解和重要的健康狀態指標
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969585
 ms.date: 05/18/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5a20e47f21b918976291371bd56e529196bae8a7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d6f052aceb6678d87c99fc287b69752d0ed761a5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745043"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036453"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="troubleshooting-and-key-health-indicators-in-lync-server-2013"></a>Lync Server 2013 中的疑難排解與重要的健康情況指示
+# <a name="troubleshooting-and-key-health-indicators-in-lync-server-2013"></a>Lync Server 2013 中疑難排解和重要的健康狀態指標
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41745043"
 
 <span> </span>
 
-_**主題上次修改日期：** 2015-05-18_
+_**主題上次修改日期：** 2015年-05-18_
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-若要符合參考體系結構 Sla，並確保順利轉而轉移至我們的支援小組，一般的疑難排解方法必須與 Lync Server[網路指南](http://go.microsoft.com/fwlink/p/?linkid=390677)中定義的一組必要疑難排解工具和方法一起定義。
+若要符合參考架構 Sla 和，以確保順利轉移到我們支援小組，必須定義常用的疑難排解方法搭配組必要的疑難排解工具和 Lync Server[網路指南](http://go.microsoft.com/fwlink/p/?linkid=390677)中所定義的方式。
 
-我們強烈建議使用 System Center Operations Manager 來監視 Lync Server 2013 系統的健康情況。 此外，請參閱 Lync Server 2013[網路指南](http://go.microsoft.com/fwlink/p/?linkid=390677)中的 KHIs 討論，以及使用 lync 2013 的 Excel 試算表。
+我們強烈建議 System Center Operations Manager 用來監視 Lync Server 2013 系統的狀況。 此外，請參閱 KHIs[網路指南](http://go.microsoft.com/fwlink/p/?linkid=390677)Lync Server 2013 和使用 Excel 試算表中與 Lync 2013 的討論。
 
 </div>
 

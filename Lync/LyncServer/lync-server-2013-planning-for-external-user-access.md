@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：規劃外部使用者存取
+title: Lync Server 2013： 規劃外部使用者存取
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185903
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 17d38abe775a915fc3357610ad2b741eb0e77628
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e418ee1db146afa1f766aa0fc56842222f7b510c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41752333"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036813"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-external-user-access-in-lync-server-2013"></a>在 Lync Server 2013 中規劃外部使用者存取
+# <a name="planning-for-external-user-access-in-lync-server-2013"></a>規劃 Lync Server 2013 中的外部使用者存取
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41752333"
 
 <span> </span>
 
-_**主題上次修改日期：** 2013-01-19_
+_**上次修改主題：** 2013年-01-19_
 
-大多陣列織中的通訊涉及不在內部網路內部的服務和使用者。 這些服務和使用者包括暫時或永久不在現場的員工、客戶或合作夥伴組織的員工、使用公用立即訊息（IM）服務的人員，以及您邀請的潛在客戶、合作夥伴及匿名使用者會議與簡報。 在本檔中，這些人統稱為*外部使用者*。
+在大多數的組織的通訊是關於服務和不在您的內部網路內的使用者。 這些服務和使用者包含暫時或永久異地，員工的客戶或合作夥伴組織，使用公用立即訊息 (IM) 服務和潛在客戶、 合作夥伴和您邀請匿名使用者的人員對會議的簡報。 在此文件，這些人員統稱為*外部使用者*。
 
-透過 Microsoft Lync Server 2013，貴組織中的使用者可以使用 IM 和目前狀態與外部使用者進行通訊，而且他們可以使用您的非現場員工和其他類型的外部使用者參與音訊/視頻（A/V）會議和網路會議。 您也可以從行動裝置和企業語音支援外部存取。 非貴組織成員的外部使用者可以參與 Lync Server 2013 會議，允許匿名出席者。
+使用 Microsoft Lync Server 2013 中，您組織中的使用者可以使用 IM 和目前狀態與外部使用者通訊和他們可以參與音訊/視訊 (A / V) 會議和 web 會議與離站員工和其他類型的外部使用者。 您也可以支援從行動裝置，並透過 Enterprise Voice 的外部存取。 不屬於您組織的外部使用者可以參與 Lync Server 2013 會議，允許匿名出席者。
 
-若要支援整個組織防火牆的通訊，您可以在周邊網路（也稱為 DMZ、隔離區域和遮罩子網）中部署 Lync Server 2013 Edge 伺服器。 Edge 伺服器可控制防火牆以外的使用者如何連線到您內部的 Lync Server 2013 部署。 它也會控制與源自防火牆之外部使用者的通訊。
+若要支援跨組織的防火牆的通訊，您可以部署 Lync Server 2013 Edge Server 在周邊網路 （也稱為 DMZ、 非軍事區和遮蔽式子網路）。 Edge Server 控制如何在防火牆外的使用者可以連線到您的內部 Lync Server 2013 部署。 它也會控制源自內防火牆的外部使用者通訊。
 
-視您的需求而定，您可以在一或多個位置部署一或多個 Edge 伺服器。 本節將說明 Lync Server 2013 中的外部使用者存取案例，並說明如何規劃您的邊緣和反向 proxy 拓撲。
+根據您的需求，您可以部署一個或多個位置中的一或多個 Edge Server。 本節說明在 Lync Server 2013 中的外部使用者存取的案例，其中說明如何規劃您的 edge 和反向 proxy 拓撲。
 
 <div>
 
 
 > [!NOTE]  
-> 雖然您需要 Edge 伺服器支援企業語音及外部使用者存取，但本節重點是支援 IM、目前狀態、A/V 會議、同盟、web 會議以及 Lync Mobile。 如需企業語音支援的詳細資料，請參閱規劃檔中的<A href="lync-server-2013-planning-for-enterprise-voice.md">Lync Server 2013 規劃企業語音</A>。
+> 雖然您需要的 Edge Server，以支援企業語音與外部使用者存取，本節著重於支援 IM、 目前狀態、 A / V 會議、 同盟、 web 會議和 Lync Mobile。 如需支援的企業語音的詳細資訊，請參閱規劃文件中的<A href="lync-server-2013-planning-for-enterprise-voice.md">Planning for Lync Server 2013 中的企業語音</A>。
 
 
 
@@ -57,27 +57,27 @@ _**主題上次修改日期：** 2013-01-19_
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [在 Lync Server 2013 中會影響 Edge Server 規劃的變更](lync-server-2013-changes-in-lync-server-that-affect-edge-server-planning.md)
+  - [Lync Server 2013 中的變更會影響到 Edge Server 規劃](lync-server-2013-changes-in-lync-server-that-affect-edge-server-planning.md)
 
-  - [外部使用者為 Lync Server 2013 存取元件的系統需求](lync-server-2013-system-requirements-for-external-user-access-components.md)
+  - [Lync Server 2013 的外部使用者存取元件的系統需求](lync-server-2013-system-requirements-for-external-user-access-components.md)
 
-  - [Lync Server 2013 中的外部使用者存取概觀](lync-server-2013-overview-of-external-user-access.md)
+  - [Lync Server 2013 中的外部使用者存取的概觀](lync-server-2013-overview-of-external-user-access.md)
 
-  - [瞭解 Lync Server 2013 中的自動探索](lync-server-2013-understanding-autodiscover.md)
+  - [了解在 Lync Server 2013 中的自動探索](lync-server-2013-understanding-autodiscover.md)
 
-  - [在 Lync Server 2013 中選擇拓撲](lync-server-2013-choosing-a-topology.md)
+  - [Lync Server 2013 中選擇的拓撲](lync-server-2013-choosing-a-topology.md)
 
   - [Lync Server 2013 中的資料收集](lync-server-2013-data-collection.md)
 
-  - [針對 Lync Server 2013 判定 DNS 需求](lync-server-2013-determine-dns-requirements.md)
+  - [決定針對 Lync Server 2013 的 DNS 需求](lync-server-2013-determine-dns-requirements.md)
 
-  - [決定 Lync Server 2013 的外部 A/V 防火牆和連接埠需求](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md)
+  - [決定外部 A / V 防火牆和連接埠需求 Lync Server 2013](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md)
 
-  - [在 Lync Server 2013 中規劃 Edge Server 憑證](lync-server-2013-plan-for-edge-server-certificates.md)
+  - [Lync Server 2013 中的 Edge Server 憑證計劃](lync-server-2013-plan-for-edge-server-certificates.md)
 
-  - [Lync Server 2013 中的外部使用者存取案例](lync-server-2013-scenarios-for-external-user-access.md)
+  - [Lync Server 2013 中的外部使用者存取的案例](lync-server-2013-scenarios-for-external-user-access.md)
 
 </div>
 

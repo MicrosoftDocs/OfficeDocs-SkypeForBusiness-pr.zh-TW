@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： IP 電話清點報告
+title: 'Lync Server 2013: IP 電話清查報告'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185044
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5fb9bb9a3ae48c8bf2fc9a5122e1b8004e0f6019
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0c99945626105282324202d1fd754cd5d966bc81
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765371"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035095"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="ip-phone-inventory-report-in-lync-server-2013"></a>Lync Server 2013 中的 IP 電話清點報告
+# <a name="ip-phone-inventory-report-in-lync-server-2013"></a>Lync Server 2013 中的 IP 電話清查報告
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41765371"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-11-12_
+_**主題上次修改日期：** 2012年-11-12_
 
-IP 電話清點報告會報告貴組織目前正在使用之 IP 電話的相關資訊。 IP 清點報告提供在指定報告期間內實際使用之 IP 手機的詳細清單。 在其他專案中，此報告可讓系統管理員知道是否有任何舊版、過時的手機仍在使用中，而這些電話應該會被取代;此外，它也可以提醒系統管理員在組織中有大量的電話很少使用的情況。 在購買新手機或重新發佈現有手機時，這類資訊可能很有用。 （例如，很少使用其昂貴手機的使用者，可能會要求您以更頻繁的方式，將手機更換為使用他或她的手機的使用者。）
+IP 電話清查報告報告目前正在使用您組織中的 IP 電話的相關資訊。 IP 清查報告提供實際期間指定的報表期間內使用的 IP 電話的詳細的清單。 除此之外，這份報告可讓系統管理員知道仍在使用，應被取代; 是否有任何舊的、 過時的電話它也可以有貴組織中的電話，很少使用的事實警示系統管理員。 提到的時間來購買新電話或轉散佈現有的電話時，該類型的資訊十分有用。 （例如，很少使用他/她昂貴的電話的使用者可能會要求來進行更常使用他/她電話的使用者交換電話。）
 
-請注意，此報告在作為真正的庫存報告時，會有一些限制。 在其中一種情況下，IP 電話報告只會列出在指定的時段內登入 Lync Server 的所有電話，並依其上次登入時間排序。 如果手機在指定的時段內沒有登入，則不會列于庫存報告中。 這包括在時間週期開始之前登入，且在指定的時間間隔期間仍登入的電話。 例如，假設您想要查看2012年7月的所有電話清點。 假設您也是在2012年6月30日登入 Lync Server 的數個電話，而且在7月1日仍登入。 這些手機不會顯示在7月1日的庫存報告上。
+請注意，這份報告有一些限制對正在作為檔案，則為 true 的清查報告過濾。 第一，IP 電話報告只會列出所有登入 Lync Server 在指定的時間期間，其最後登入時間來排序的電話。 如果電話沒有登入指定的時間期間然後它將不會列在清查報告。 包含之前的時間期間啟動，且已在指定的時間間隔期間仍登入的身分登入的電話。 例如，假設您想要查看所有電話清查 2012 年 7 月。 假設以及數個電話登入 Lync Server 在 2012 年 6 月 30 日，且已截至年 7 月 1st 仍登入。 這些電話不會顯示在清查報告的年 7 月 1st。
 
-另外，請務必注意，庫存報告可能包含貴組織已不再使用的電話。 例如，假設您已在2012年7月1日登入系統的 Fabrikam 電話數。您的組織稍後會有5天的時間來移除所有這些 Fabrikam 手機，並以較新的 Contoso 模型取代。 Fabrikam 手機仍會出現在 [清查] 報表上，因為它們會在7月期間登入系統。
+務必也請注意，清查報告可能包含您的組織無法再使用的電話。 例如，假設在 2012 年 7 月 1 日; 登入系統的 Fabrikam 電話的數目5 天後您的組織 got 排除所有這些 Fabrikam 電話，並取代較新的 Contoso 模型。 Fabrikam 電話上仍會顯示 「 存貨 」 報告只是因為他們登入系統的年 7 月份期間。
 
-此外，IP 電話清點報告不會報告不同電話類型的摘要總數。 例如，假設您有 105 Polycom CX600 電話。 報告不會告知您有105以上的手機;相反地，您只會看到 105 Polycom Cx600 的個別專案。 若要知道 Polycom Cx600 有105專案，只需手動計算每個專案。
+此外，IP 電話清查報告不會報告不同類型的電話摘要合計。 例如，假設您有 105 Polycom CX600 電話。 報表不會告訴您，您有 105 的這些電話;相反地，您只會看到 Polycom Cx600 105 的個別項目。 若要知道有 Polycom Cx600 105 項目的唯一方法是手動計算每個這些項目。
 
 <div>
 
 
 > [!WARNING]  
-> 或者，匯出資料並使用 Microsoft Excel 或 Windows PowerShell 來為您計算。
+> 或者，匯出資料，並使用 Microsoft Excel 或 Windows PowerShell 來執行計算。
 
 
 
@@ -57,22 +57,22 @@ IP 電話清點報告會報告貴組織目前正在使用之 IP 電話的相關�
 
 <div>
 
-## <a name="accessing-the-ip-phone-inventory-report"></a>存取 IP 電話清點報告
+## <a name="accessing-the-ip-phone-inventory-report"></a>存取 IP 電話清查報告
 
-[IP 電話清點] 報告是從 [監控報告] 首頁存取。 如果您按一下 [使用者 URI 規格]，您可以存取該使用者的使用者活動報告。 按一下對等呼叫的最後一個活動躍點數會將您帶到點對點工作階段詳細資料包告;按一下會議的同一個公制會將您帶到會議詳細資料包告。
+從監視報告首頁存取 IP 電話清查報告。 如果您按一下 [使用者 URI] 計量可以存取該使用者的使用者活動報告。 按一下 [上次活動計量的端對端電話將帶您前往端對端工作階段詳細資料報表;按一下該相同的會議計量，將帶您前往會議詳細資料報告。
 
 </div>
 
 <div>
 
-## <a name="making-the-best-use-of-the-ip-phone-inventory-report"></a>充分利用 IP 電話清點報告
+## <a name="making-the-best-use-of-the-ip-phone-inventory-report"></a>IP 電話清查報告的最佳用法
 
-如果您只對某種特定類型手機的使用資訊感興趣（例如，「使用 Polycom CX600 電話的使用者頻率如何？」），您可以透過篩選特定類型的電話，直接從 IP 電話清點報告取得該資訊。 不過，如果您想要的是所有電話的摘要資訊（有多少人使用 Polycom CX600，還有多少是使用 LG-Nortel IP8540 等等），那麼您將需要匯出資料並使用另一個應用程式（例如 Windows PowerShell）來執行該類型的分析. 例如，假設您將資料匯出為逗點分隔值檔案（\\C：資料\\IP\_電話\_清點\_報表 .csv）。 在這種情況下，您可以使用這兩個命令，為您的所有手機提供摘要資料：
+如果您有興趣只有一種特定電話使用方式資訊 （例如，「 頻率使用者使用 Polycom CX600 電話？ 」） 您可以透過電話該特定類型的篩選直接從 IP 電話清查報告取得該資訊。 不過，如果您想要所有的電話摘要資訊 （多少人正在使用多少使用 LG Nortel IP8540 等 Polycom CX600） 則必須以匯出資料，並執行該類型的使用另一個應用程式 （例如 Windows PowerShell)分析。 例如，假設您將資料匯出成逗點分隔值檔案 (c:\\資料\\IP\_電話\_庫存\_Report.csv)。 在此情況下，您可以使用這兩個命令提供所有的電話摘要資料：
 
     $phones = Import-Csv "C:\Data\IP_Phone_Inventory_Report.csv"
     $phones |Group-Object Manufacturer, "Hardware version" | Select-Object Count, Name | Sort-Object Count -Descending
 
-這樣會傳回如下所示的資料：
+該命令將傳回類似下列的資料：
 
     Count    Name
     -----    ----
@@ -88,12 +88,12 @@ IP 電話清點報告會報告貴組織目前正在使用之 IP 電話的相關�
         9    POLYCOM, CX500
         7    Aastra, 6721ip
 
-同樣地，這兩個命令會告知您登入系統的電話，但永遠不會實際用來撥打電話（最後一個活動指標的值為空白，表示沒有任何最後一個活動）：
+同樣地，這兩個命令會告訴您哪些電話登入系統，但從未實際用於撥打電話 （上次活動計量值為空白，表示沒有任何上次活動）：
 
     $phones = Import-Csv "C:\Data\IP_Phone_Inventory_Report.csv"
     $phones | Where-Object {$_."Last activity" -eq ""}
 
-針對每個尚未使用的電話，傳回如下所示的資料：
+會傳回資料尚未使用每個電話如下：
 
     Manufacturer     : POLYCOM
     Hardware version : CX600
@@ -104,19 +104,19 @@ IP 電話清點報告會報告貴組織目前正在使用之 IP 電話的相關�
     Last logoff time : 8/30/2010 5:59:07 PM
     Last activity    :
 
-使用 IP 電話清點報告的另一種有趣方式是：如果您有 IP 電話的 MAC 位址，您可以在 [MAC 位址] 文字方塊中輸入該位址，即可找出最後一次使用該手機的使用者。 接著，IP 電話清點報告會傳回與該手機通訊的使用者 SIP 位址（在其他專案中）。 或者，您也可以輸入使用者 SIP 位址（在 [使用者 URI 首碼] 方塊中），找出該使用者所使用的所有電話。
+有趣的另一種方式使用 IP 電話清查報告這是： 如果您有您可以找出使用者上次使用該電話只在 MAC 位址] 文字方塊中輸入該地址 IP 電話的 MAC 位址。 IP 電話清查報告會再報告回 （除此之外） 上次登入與該電話之使用者的 SIP 位址。 或者，您可以輸入使用者 （在 [使用者 URI 字首] 方塊中） 的 SIP 位址，以找出所有使用過該使用者的電話。
 
 </div>
 
 <div>
 
-## <a name="filters"></a>濾鏡
+## <a name="filters"></a>篩選
 
-篩選提供一種方式，可讓您傳回更精細設定目標的資料集，或以不同方式查看傳回的資料。 例如，IP 電話清點可讓您只查看特定公司生產的電話，甚至是那些手機的特定版本。 您也可以選擇分組資料的方式。 在這種情況下，登記會依小時、日、周或月進行分組。
+篩選器可以讓您傳回更精確的資料集或者以不同方法檢視傳回的資料。 例如，IP 電話清查可讓您檢視僅限生產特定的公司或甚至是這些電話的特定版本的電話。 您也可以選擇資料的分組方式。 在此情況下，註冊分組小時、 日、 週或月。
 
-下表列出您可搭配 IP 電話清點報告使用的篩選準則。
+下表列出您可以使用 IP 電話清查報告的篩選器。
 
-### <a name="ip-phone-inventory-report-filters"></a>IP 電話清點報表篩選
+### <a name="ip-phone-inventory-report-filters"></a>IP 電話清查報告篩選器
 
 <table>
 <colgroup>
@@ -126,72 +126,72 @@ IP 電話清點報告會報告貴組織目前正在使用之 IP 電話的相關�
 <thead>
 <tr class="header">
 <th>名稱</th>
-<th>說明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>從</strong></p></td>
-<td><p>時間範圍的開始日期/時間。 若要依時間查看資料，請輸入 [開始日期] 和 [時間]，如下所示：</p>
+<td><p><strong>From</strong></p></td>
+<td><p>時間範圍的開始日期/時間。若要按照小時檢視資料，請輸入開始日期和時間，如下所示：</p>
 <p>7/7/2012 1:00 PM</p>
-<p>如果您沒有輸入開始時間，報告會在指定日期自動于12:00 點開始。 若要依天查看資料，只需輸入日期：</p>
-<p>7/7/2012</p>
-<p>若要依周或依月查看，請在您要查看的周或月份中，輸入您要查看的日期（不需要輸入周或月的第一天）：</p>
-<p>7/3/2012</p>
-<p>周數總是從星期日到星期六執行。</p></td>
+<p>如果您未輸入開始時間，報告會自動從指定日期凌晨 12 點開始。若要按照日期檢視資料，只要輸入日期即可：</p>
+<p>2012/7/7</p>
+<p>若要按星期或月份檢視，請輸入當週或該月您想檢視的日期 (您不必輸入當週或該月的第一天)：</p>
+<p>2012/7/3</p>
+<p>星期永遠是從星期日開始星期六結束。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>自</strong></p></td>
-<td><p>時間範圍的結束日期/時間。 若要依時間查看資料，請輸入 [結束日期] 和 [時間]，如下所示：</p>
+<td><p><strong>To</strong></p></td>
+<td><p>時間範圍的結束日期/時間。若要按照小時檢視資料，請輸入開始日期和時間，如下所示：</p>
 <p>7/7/2012 1:00 PM</p>
-<p>如果您沒有輸入結束時間，報告會在指定日期自動結束于12:00。 若要依天查看資料，只需輸入日期：</p>
-<p>7/7/2012</p>
-<p>若要依周或依月查看，請在您要查看的周或月份中，輸入您要查看的日期（不需要輸入周或月的第一天）：</p>
-<p>7/3/2012</p>
-<p>周數總是從星期日到星期六執行。</p></td>
+<p>如果您未輸入結束時間，報告會自動在指定日期凌晨 12 點結束。若要按照日期檢視資料，只要輸入日期即可：</p>
+<p>2012/7/7</p>
+<p>若要按星期或月份檢視，請輸入當週或該月您想檢視的日期 (您不必輸入當週或該月的第一天)：</p>
+<p>2012/7/3</p>
+<p>星期永遠是從星期日開始星期六結束。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>製造商</strong></p></td>
-<td><p>製造 IP 電話的公司名稱。 此篩選的值會根據目前在資料庫中的 IP 電話自動填入。</p></td>
+<td><p>生產該 IP 電話的公司名稱。 此篩選的值會自動填入您根據 IP 電話，而且目前在資料庫中。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>硬體版本</strong></p></td>
-<td><p>IP 電話的版本號碼;使用製造商和硬體版本篩選，您可以唯一識別特定類型的手機。 此篩選的值會根據目前在資料庫中的 IP 電話自動填入。</p></td>
+<td><p>IP 電話; 的版本號碼製造商和硬體版本篩選器您可以使用唯一識別特定類型的電話。 此篩選的值會自動填入您根據 IP 電話，而且目前在資料庫中。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>使用者代理程式</strong></p></td>
-<td><p>IP 電話使用的軟體識別碼。 此篩選的值會根據目前資料庫中的 IP 電話自動填入。</p></td>
+<td><p>IP 電話所使用的軟體識別碼。 此篩選的值會自動填入您根據目前資料庫中的 IP 電話。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>MAC 位址</strong></p></td>
-<td><p>IP 電話上網路介面的唯一識別碼。 媒體存取控制（MAC）位址通常是在撥打電話並固定在裝置硬體中時指派。</p>
-<p>若要搜尋與特定 MAC 位址相關的記錄，只要輸入該位址即可。 例如：</p>
+<td><p>IP 電話上的網路介面的唯一識別碼。 在電話生產，並且為硬體有線方式於裝置硬體的時間通常指派的媒體存取控制 (MAC) 位址。</p>
+<p>若要搜尋記錄屬於特定的 MAC 位址只輸入該地址。 例如：</p>
 <p>00-08-5D-16-16-48</p>
-<p>您必須輸入完整的位址。 部分位址（例如 00-08-5D）不會傳回任何資料。</p></td>
+<p>您必須輸入完整的地址。 部分的地址 (例如 00-08-5 D) 不會傳回任何資料。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>天數前的最後一個活動</strong></p></td>
-<td><p>選取下列其中一個值：</p>
+<td><p><strong>天前的最後活動</strong></p></td>
+<td><p>選取下列其中一個下列值：</p>
 <ul>
-<li><p>同時</p></li>
-<li><p>第</p></li>
+<li><p>[全部]</p></li>
+<li><p>10 </p></li>
 <li><p>20</p></li>
-<li><p>為期</p></li>
+<li><p>30</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><strong>上次登出時間（天之前）</strong></p></td>
-<td><p>選取下列其中一個值：</p>
+<td><p><strong>天數前的最後登出時間</strong></p></td>
+<td><p>選取下列其中一個下列值：</p>
 <ul>
-<li><p>同時</p></li>
-<li><p>第</p></li>
+<li><p>[全部]</p></li>
+<li><p>10 </p></li>
 <li><p>20</p></li>
-<li><p>為期</p></li>
+<li><p>30</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p><strong>使用者 URI 首碼</strong></p></td>
-<td><p>使用 IP 電話的使用者的 SIP 位址。</p></td>
+<td><p><strong>使用者 URI 字首</strong></p></td>
+<td><p>使用 IP 電話之使用者的 SIP 位址。</p></td>
 </tr>
 </tbody>
 </table>
@@ -201,11 +201,11 @@ IP 電話清點報告會報告貴組織目前正在使用之 IP 電話的相關�
 
 <div>
 
-## <a name="metrics"></a>指標
+## <a name="metrics"></a>計量
 
-下表列出 IP 電話清點報告中提供的資訊。
+下表列出 IP 電話清查報告中提供的資訊。
 
-### <a name="ip-phone-inventory-report-metrics"></a>IP 電話清點報告度量單位
+### <a name="ip-phone-inventory-report-metrics"></a>IP 電話清查報告計量
 
 <table>
 <colgroup>
@@ -215,16 +215,16 @@ IP 電話清點報告會報告貴組織目前正在使用之 IP 電話的相關�
 </colgroup>
 <thead>
 <tr class="header">
-<th>名稱</th>
-<th>您可以針對此專案進行排序嗎？</th>
-<th>說明</th>
+<th>姓名</th>
+<th>可以排序這個項目嗎？</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>製造商</strong></p></td>
 <td><p>是</p></td>
-<td><p>製造 IP 電話的公司名稱。</p></td>
+<td><p>生產該 IP 電話的公司名稱。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>硬體版本</strong></p></td>
@@ -234,32 +234,32 @@ IP 電話清點報告會報告貴組織目前正在使用之 IP 電話的相關�
 <tr class="odd">
 <td><p><strong>MAC 位址</strong></p></td>
 <td><p>是</p></td>
-<td><p>IP 電話上網路介面的唯一識別碼。 MAC 位址通常是在撥打電話並將它硬連接至裝置硬體時指派。</p></td>
+<td><p>IP 電話上的網路介面的唯一識別碼。 在電話生產，並且為硬體有線方式於裝置硬體的時間通常指派的 MAC 位址。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>使用者 URI</strong></p></td>
 <td><p>是</p></td>
-<td><p>使用 IP 電話的使用者的 SIP 位址。</p></td>
+<td><p>使用 IP 電話之使用者的 SIP 位址。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>使用者代理程式</strong></p></td>
 <td><p>是</p></td>
-<td><p>IP 電話使用的軟體識別碼。</p></td>
+<td><p>IP 電話所使用的軟體識別碼。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>上次登入時間</strong></p></td>
 <td><p>是</p></td>
-<td><p>IP 電話上次登入 Lync Server 的日期和時間。</p></td>
+<td><p>日期和時間 IP 電話上次登入 Lync Server。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>上次登出時間</strong></p></td>
 <td><p>是</p></td>
-<td><p>IP 電話上次從 Lync Server 登出的日期和時間。</p></td>
+<td><p>日期和時間 IP 電話上次登出從 Lync Server。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>上次活動</strong></p></td>
 <td><p>是</p></td>
-<td><p>上次使用 IP 電話的日期和時間。</p></td>
+<td><p>日期和時間上次使用 IP 電話。</p></td>
 </tr>
 </tbody>
 </table>

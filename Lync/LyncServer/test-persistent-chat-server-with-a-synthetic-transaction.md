@@ -12,16 +12,16 @@ ms:contentKeyID: 48183968
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 46fc445032be5a512883fb63437e295188bc0e0f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 56effad6ead0737a27be599ef610f322da0ca02f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763617"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035609"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41763617"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-09-21_
+_**主題上次修改日期：** 2012年-09-21_
 
-在兩個使用者之間測試持久聊天伺服器以傳送和接收聊天室中的訊息
+若要測試 Persistent Chat Server 來傳送及接收郵件的兩個使用者之間的聊天室
 
     Test-CsPersistentChatMessage [-Authentication <TrustedServer | Negotiate | ClientCertificate | 
         LiveID>] [-ReceiverSipAddress <String>] [-RegistrarPort <Int32>] [-SenderSipAddress <String>] -TargetFqdn <String> [-Force <SwitchParameter>] [-OutLoggerVariable <String>] 

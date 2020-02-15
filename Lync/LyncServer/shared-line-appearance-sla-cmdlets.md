@@ -1,5 +1,5 @@
 ---
-title: 共用線外觀（SLA） Cmdlet
+title: 共用的線外觀 (SLA) cmdlet
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 72808515
 ms.date: 04/12/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cd799d8f6dc04a060fa658ccca53096b8432e806
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 638fe68c0cd1f1521e689dd0e769f501833c39ed
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730223"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035679"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="shared-line-appearance-sla-cmdlets"></a>共用線外觀（SLA） Cmdlet
+# <a name="shared-line-appearance-sla-cmdlets"></a>共用的線外觀 (SLA) cmdlet
 
 </div>
 
@@ -35,34 +35,34 @@ ms.locfileid: "41730223"
 
 <span> </span>
 
-_**主題上次修改日期：** 2016-04-12_
+_**主題上次修改日期：** 2016年-04-12_
 
-與單行外觀相關的 Cmdlet （SLA）可讓您使用多個可以挑選該線路的代理人來設定共用的電話號碼。
+相關至單一線條外觀 (SLA) 的 Cmdlet 可讓您使用多個委派可以挑選該行設定共用的電話號碼。
 
 <div>
 
-## <a name="sla-cmdlets"></a>SLA Cmdlet
+## <a name="sla-cmdlets"></a>SLA 指令程式
 
-使用下列 Cmdlet 進行 SLA。
+使用下列 cmdlet 的 SLA。
 
-**配置 SLA**
-
-  - <span></span>  
-    [CsSlaConfiguration](https://technet.microsoft.com/en-us/library/Mt703200(v=OCS.15))
+**設定 SLA**
 
   - <span></span>  
-    [Set-CsSlaConfiguration](https://technet.microsoft.com/en-us/library/Mt703202(v=OCS.15))
+    [取得 CsSlaConfiguration](https://technet.microsoft.com/library/Mt703200(v=OCS.15))
 
   - <span></span>  
-    [移除-CsSlaConfiguration](https://technet.microsoft.com/en-us/library/Mt703201(v=OCS.15))
+    [設定 CsSlaConfiguration](https://technet.microsoft.com/library/Mt703202(v=OCS.15))
+
+  - <span></span>  
+    [移除 CsSlaConfiguration](https://technet.microsoft.com/library/Mt703201(v=OCS.15))
 
 **設定 SLA 代理人**
 
   - <span></span>  
-    [附加 CsSlaDelegates](https://technet.microsoft.com/en-us/library/Mt703199(v=OCS.15))
+    [新增 CsSlaDelegates](https://technet.microsoft.com/library/Mt703199(v=OCS.15))
 
   - <span></span>  
-    [移除-CsSlaDelegates](https://technet.microsoft.com/en-us/library/Mt703203(v=OCS.15))
+    [移除 CsSlaDelegates](https://technet.microsoft.com/library/Mt703203(v=OCS.15))
 
 </div>
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 49733692
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 953b422527e095a6fef1e34cbf8b8fde2d494f42
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b40be7be7382b12165d4cca5a8f651156e2bb7c6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731063"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035989"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,25 +35,25 @@ ms.locfileid: "41731063"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-16_
+_**主題上次修改日期：** 2012 年 10-16_
 
-舊版 Office 通訊伺服器提供可擴展的訊息和目前狀態通訊協定（XMPP）閘道，可將其部署為個別的伺服器角色，以允許與 XMPP 部署進行聯盟。 在 Lync Server 2013 中，您可以將 XMPP 功能部署為功能。 XMPP 功能已安裝于兩個部分：作為在 Lync Server 2013 Edge 伺服器上執行的 XMPP proxy，以及在 Lync Server 2013 前端伺服器上執行的 XMPP 閘道。
+舊版 Office Communications Server 提供可延伸訊息與顯示狀態通訊協定 (XMPP) 閘道，可以部署為不同的伺服器角色，以允許與 XMPP 部署同盟。 Lync Server 2013 中的 XMPP 功能可以部署為功能。 XMPP 功能安裝在兩個部分： 為 Lync Server 2013 Edge Server 執行 XMPP proxy 及 XMPP 閘道在 Lync Server 2013 前端伺服器上執行。
 
-從遷移的角度來看，您可以將 Office 通訊伺服器 2007 R2 使用者帳戶移到 Lync Server 2013 池中，並繼續使用 Office 通訊伺服器 2007 R2 XMPP 閘道。 只有在 Lync Server 2013 沒有設定 XMPP 聯盟夥伴時，才能這麼做。
+移轉的觀點而言，Office Communications Server 2007 R2 使用者帳戶可以移至 Lync Server 2013 集區，並繼續使用 Office Communications Server 2007 R2 XMPP 閘道。 只有當 Lync Server 2013 中沒有設定 XMPP 同盟協力廠商時，這是可能。
 
-總之，如果 Office 通訊伺服器已部署在 office 通訊伺服器 2007 R2 XMPP 閘道，且 XMPP 同盟已啟用舊版 Office 通訊伺服器 2007 R2 使用者，請將 XMPP 同盟遷移至 Lync Server 2013：
+在 [摘要] 中，如果已部署 Office Communications Server 與 Office Communications Server 2007 R2 XMPP 閘道與舊版 Office Communications Server 2007 R2 使用者，將 XMPP 同盟移轉至 Lync Server 2013 已啟用 XMPP 同盟：
 
-1.  部署 Lync Server 2013 文件庫。
+1.  部署 Lync Server 2013 集區。
 
-2.  部署 Lync Server 2013 Edge 伺服器。
+2.  部署 Lync Server 2013 Edge server。
 
-3.  將所有使用者移至 Lync Server 2013 池。
+3.  將所有使用者都移至 Lync Server 2013 集區。
 
-4.  建立邊緣伺服器的 XMPP 存取原則和憑證。
+4.  建立適用於 Edge Server 的 XMPP 存取原則及憑證。
 
-5.  在 Lync Server 2013 中啟用 XMPP 同盟。 
+5.  啟用 Lync Server 2013 中的 XMPP 同盟。 
 
-6.  更新 DNS 專案以指向 Lync Server 2013 XMPP 閘道。
+6.  更新以指到 Lync Server 2013 XMPP 閘道的 DNS 項目。
 
 </div>
 

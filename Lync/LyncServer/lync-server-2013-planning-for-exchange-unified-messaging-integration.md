@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：規劃 Exchange Unified Messaging 整合
+title: Lync Server 2013： 規劃 Exchange Unified Messaging 整合
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185880
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9325cdce67113c46ec02879417748a2e3dd0397d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fa5eb18418ad860452a51667fdf1550e948a1155
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41752253"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036845"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-exchange-unified-messaging-integration-in-lync-server-2013"></a>在 Lync Server 2013 中規劃 Exchange Unified Messaging 整合
+# <a name="planning-for-exchange-unified-messaging-integration-in-lync-server-2013"></a>規劃 Lync Server 2013 中的 Exchange Unified Messaging 整合
 
 </div>
 
@@ -35,33 +35,33 @@ ms.locfileid: "41752253"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-13_
+_**主題上次修改日期：** 2012 年 10 月 13 日_
 
-Lync Server 2013 支援與 Exchange 整合通訊（UM）整合，以將語音訊息和電子郵件訊息結合到單一訊息基礎結構。 在 Microsoft Exchange Server 2007 Service Pack 1 （SP1）和 Microsoft Exchange Server 2010 中，Exchange 整合通訊（UM）是您可以安裝及設定的數個 Exchange 伺服器角色之一。
+Lync Server 2013 支援整合與 Exchange 整合通訊 (UM) 來合併語音訊息與電子郵件訊息到單一郵件基礎結構。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 和 Microsoft Exchange Server 2010 中，Exchange 整合通訊 (UM) 是下列其中一個，您可以安裝並設定數個 Exchange 伺服器角色。
 
-在 Microsoft Exchange Server 2013 中，Exchange UM 是在 Exchange 信箱伺服器上以服務的方式執行。 在 Lync Server 2013 企業版語音部署中，整合的訊息結合了語音訊息和電子郵件訊息，可從電話（Outlook 語音存取）或電腦存取的單一商店中取得。 整合式訊息和 Lync Server 2013 共同合作，為企業語音的使用者提供呼叫應答、Outlook 語音存取及自動助理服務。
+在 Microsoft Exchange Server 2013 中，Exchange UM 以服務方式執行 Exchange 信箱伺服器上。 Lync Server 2013 Enterprise Voice 部署整合通訊結合語音訊息與電子郵件訊息到可以從電話 （Outlook 語音存取） 或電腦的單一儲存區。 整合通訊與 Lync Server 2013 一起運作的企業語音使用者提供來電接聽、 Outlook 語音存取和自動語音應答服務。
 
-如需 Microsoft Exchange Server 2013 中架構變更的詳細資訊，請參閱 Microsoft Exchange Server 2013 檔中的「語音架構變更」 [http://go.microsoft.com/fwlink/p/?LinkId=266730](http://go.microsoft.com/fwlink/p/?linkid=266730)。
+Microsoft Exchange Server 2013 中之架構變更的詳細資訊，請參閱 「 語音基礎架構改變 >，在 Microsoft Exchange Server 2013 文件中[http://go.microsoft.com/fwlink/p/?LinkId=266730](http://go.microsoft.com/fwlink/p/?linkid=266730)。
 
-若要在內部部署 Exchange UM 部署中支援這些功能，您必須執行下列其中一項操作：
+若要在內部部署 Exchange UM 部署中支援這些功能，您必須執行下列其中一項：
 
-  - Microsoft Exchange Server 2007 Service Pack 1 （SP1）或最新 Service pack
+  - Microsoft Exchange Server 2007 Service Pack 1 (SP1) 或最新的 service pack
 
-  - Microsoft Exchange Server 2010 或最新 service pack
+  - Microsoft Exchange Server 2010 或最新的 service pack
 
   - Microsoft Exchange Server 2013
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
   - [整合式 Unified Messaging 和 Lync Server 2013 的功能](lync-server-2013-features-of-integrated-unified-messaging.md)
 
-  - [Lync Server 2013 中內部部署 Unified Messaging 的元件和拓撲](lync-server-2013-components-and-topologies-for-on-premises-unified-messaging.md)
+  - [Lync Server 2013 中整合通訊的內部部署的元件和拓撲](lync-server-2013-components-and-topologies-for-on-premises-unified-messaging.md)
 
-  - [整合內部部署 Unified Messaging 和 Lync Server 2013 的指導方針](lync-server-2013-guidelines-for-integrating-on-premises-unified-messaging.md)
+  - [指導方針整合內部 Unified Messaging 和 Lync Server 2013](lync-server-2013-guidelines-for-integrating-on-premises-unified-messaging.md)
 
-  - [整合內部部署 Unified Messaging 和 Lync Server 2013 的部署程序](lync-server-2013-deployment-process-for-integrating-on-premises-unified-messaging.md)
+  - [部署程序的整合內部 Unified Messaging 和 Lync Server 2013](lync-server-2013-deployment-process-for-integrating-on-premises-unified-messaging.md)
 
 </div>
 

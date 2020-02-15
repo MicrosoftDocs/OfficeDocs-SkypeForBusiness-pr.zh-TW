@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：查看受信任的應用程式資訊
+title: Lync Server 2013： 檢視受信任的應用程式資訊
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733702
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bf8a95fa58ea1398c281fc5cba2f8b08a5ec902e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bca1ec48696cab7a0dffa1881dba34a589954874
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757387"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036361"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="view-trusted-application-information-in-lync-server-2013"></a>在 Lync Server 2013 中查看受信任的應用程式資訊
+# <a name="view-trusted-application-information-in-lync-server-2013"></a>在 Lync Server 2013 中檢視受信任的應用程式資訊
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41757387"
 
 <span> </span>
 
-_**主題上次修改日期：** 2013-02-23_
+_**上次修改主題：** 2013年-02-23_
 
-您可以使用 Windows PowerShell 和**CsTrustedApplication** Cmdlet 來查看您信任之應用程式的相關資訊。 這個 Cmdlet 可以從 Lync Server 2013 管理命令介面或從 Windows PowerShell 的遠端會話中執行。 如需使用遠端 Windows PowerShell 連線至 Lync Server 的詳細資料，請參閱 Lync Server Windows PowerShell 博客文章「快速入門：使用遠端 PowerShell 管理 Microsoft Lync Server 2010」 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。
+您可以使用 Windows PowerShell 和**Get-cstrustedapplication**指令程式來檢視您信任的應用程式相關的資訊。 從 Lync Server 2013 管理命令介面或 Windows PowerShell 的遠端工作階段，可以執行此 cmdlet。 如需使用遠端 Windows PowerShell 連線至 Lync Server 的詳細資訊，請參閱 Lync Server Windows PowerShell 部落格文章 「 快速開始:: 管理 Microsoft Lync Server 2010 使用遠端 PowerShell 」 在[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。
 
 <div>
 
-## <a name="to-view-trusted-applications"></a>若要查看受信任的應用程式
+## <a name="to-view-trusted-applications"></a>檢視信任的應用程式
 
-  - 若要查看所有受信任的應用程式，請在 Lync Server 管理命令介面中輸入下列命令，然後按 ENTER 鍵：
+  - 若要檢視所有信任的應用程式，在 Lync Server 管理命令介面中輸入下列命令並按 ENTER:
     
         Get-CsConferenceDisclaimer
     
-    這個命令會針對每個受信任的應用程式傳回類似下列的資訊：
+    對於各個信任的應用程式，這個命令將傳回類似下列的資訊：
     
         Identity               : CN={5dedf4b0-a590-49b3-80cf-f16f914bbef9},CN=Application Contacts,CN=RTC
                                  Service,CN=Services,CN=Configuration,DC=litware,DC=com
@@ -65,7 +65,7 @@ _**主題上次修改日期：** 2013-02-23_
         ExUmEnabled            : False
         Enabled                : True
     
-    如需詳細資訊，請參閱[CsTrustedApplication](https://docs.microsoft.com/powershell/module/skype/Get-CsTrustedApplication)。
+    如需詳細資訊，請參閱＜[Get-CsTrustedApplication](https://docs.microsoft.com/powershell/module/skype/Get-CsTrustedApplication)＞。
 
 </div>
 

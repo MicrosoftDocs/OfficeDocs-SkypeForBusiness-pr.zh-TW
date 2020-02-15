@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：與 Microsoft Exchange Server 2013 整合
+title: 'Microsoft Exchange Server 2013 與整合 Lync Server 2013:'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 49733697
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f1467f6a570f83908eb5809f9493303bdc91c169
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: dccf60dba1b729b1ffa808694fffcacc14e460ba
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725853"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035285"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,43 +35,43 @@ ms.locfileid: "41725853"
 
 <span> </span>
 
-_**主題上次修改日期：** 2014-07-09_
+_**上次修改主題：** 2014年-07-09_
 
-Exchange 和 Lync Server 的整合與相容性較長。 這個整合在各自的用戶端應用程式中最明顯。 例如，您可以在 Microsoft Outlook 中報告 Lync 目前狀態資訊。同樣地，Lync 可以使用 Outlook 行事歷來自動更新該目前狀態資訊。 （例如，Lync 可隨時將您的狀態變更為 [忙碌]，行事曆會顯示您已排程會議。）雖然您不需要執行 Exchange，就能執行 Lync Server （或反之），不過您不一定要使用這兩個產品一起 epitomizes [更好地配合] 的定義。
+Exchange 和 Lync Server 具有整合和相容性的長歷程記錄。 這項整合是最明顯其各自的用戶端應用程式內。 例如，在 Microsoft Outlook 中報告 Lync 目前狀態資訊同樣地，Lync 可用於 Outlook 行事曆的目前狀態資訊會自動更新。 （例如，Lync 可以變更您的狀態為忙碌任何時間行事曆中顯示您已排定的會議。）雖然您不需要執行 Exchange，以執行 Lync Server （反之亦然） 沒有小有疑問，同時使用這兩項產品 epitomizes 非常術語的定義更妥善地 」 放在一起。 」
 
-在 Microsoft Lync Server 2013 和 Microsoft Exchange Server 2013 的發行中，尤其如此。 除了 Microsoft Exchange Server 2010 和 Microsoft Lync Server 2010 中的 [整合郵件] 和 [IM 與目前狀態] 等功能之外，伺服器產品的2013版本都包含許多新功能。 這些功能包括下列各項：
+特別是與 Microsoft Lync Server 2013 和 Microsoft Exchange Server 2013 的版本。 除了功能，例如整合通訊和 IM 和目前狀態，Microsoft Exchange Server 2010 和 Microsoft Lync Server 2010 中找到的伺服器產品的 2013年版本會包含新功能的數的字。 這些功能包含下列項目：
 
-  - **Lync 存檔整合**。 在 Lync Server 2013 中，系統管理員仍能選擇將即時消息和網路會議記錄存檔至 SQL Server （與在 Lync Server 2010 中歸檔這些記錄的方式相同）。 或者，管理員可以選擇將記錄歸檔至 Exchange 2013，將這些記錄儲存在個別的使用者信箱中，就像 Exchange 存檔通訊一樣。 這代表所有電子通訊的單一儲備庫（來自 Exchange 和 Lync Server），可讓您更輕鬆地搜尋及取回那些已歸檔的通訊（如果需要）。
+  - **Lync 封存整合**。 Lync Server 2013 中的系統管理員仍然可以選擇讓立即訊息和 Web 會議記錄封存至 SQL Server （這些記錄已封存 Lync Server 2010 中的相同方式）。 或者，不過，系統管理員可以選擇讓記錄封存至 Exchange 2013 中，將這些記錄之個別使用者信箱中儲存在 Exchange 中封存的通訊的方式相同。 這表示在單一存放庫的所有電子通訊 （從 Exchange 和 Lync 伺服器），讓更容易搜尋並擷取這些封存的通訊應該需要發生。
 
-  - **整合連絡人存放區**。 在 Lync Server 2010 中，使用者必須在 Outlook 和 Lync 中維護獨立的連絡人清單;事實上，若要確保您在兩種產品中都能使用相同的連絡人，您必須維護重複的連絡人清單，一個適用于 Outlook，另一個適用于 Lync。 不過，您可以使用 Lync Server 2013，將使用者連絡人儲存在 Exchange 2013 和整合連絡人存放區中。 使用單一連絡人存放區可以讓使用者只保留一組連絡人，並在 Lync 2013、Outlook 2013 和 Outlook Web Access 2013 中提供相同的連絡人集合。
+  - **整合的連絡人存放區**。 在 Lync Server 2010 中，使用者必須維護在 Outlook 和 Lync; 中的個別連絡人清單事實上，以確保您具有相同您必須維護重複這兩個產品中可用的連絡人連絡清單，一個適用於 Outlook，一個 lync。 搭配 Lync Server 2013，不過，使用者的連絡人可以儲存在 Exchange 2013 和整合連絡人存放區。 使用單一的連絡人存放區可讓使用者維護與連絡人不會出現在 Lync 2013、 Outlook 2013 和 Outlook Web Access 2013 中的同一組只是一組連絡人。
 
-  - **從 OWA 進行 Lync 會議排程**。 透過 Lync Server 2013 與 Exchange 2013 整合，使用者可以從 Outlook Web Access 2013 排程 Lync 會議。
+  - **從 OWA 排程 Lync 會議**。 與 Lync Server 2013 和 Exchange 2013 整合，使用者可以排程 Lync 會議，從 Outlook Web Access 2013。
 
-  - **高解析度相片**。 Lync 2010 只能顯示較小的連絡人相片，這是因為這些相片是儲存在 Active Directory 中，而 Active Directory 在儲存的相片上以48圖元大小限制的方式來強加48圖元。 不過，有了 Lync Server 2013，相片可以儲存在 Microsoft Exchange 中;這可讓高解析度相片的大小為648圖元乘648圖元。 您可能會想到，Lync 2013 已升級為允許顯示這些高解析度相片。
+  - **高解析度相片**。 Lync 2010 可能只會顯示小型的連絡人; 相片這是因為這些相片被儲存在 Active Directory，以及 Active Directory 施加 48 個像素的預存的相片 48 個像素大小限制。 搭配 Lync Server 2013，不過，相片可以儲存在 Microsoft Exchange;可讓高解析度相片高達 648 像素 x 648 像素為單位。 如您所預期，Lync 2013 已升級為允許這些高解析度相片的顯示。
 
-請記住，這些新功能需要同時使用 Lync Server 2013 和 Exchange 2013。 此外，想要充分利用這些新功能的使用者，都必須在 Lync Server 2013 和 Exchange 2013 上擁有帳戶，且必須使用最新版本的用戶端軟體（例如 Lync 2013）。 例如，已在 Lync Server 2010 上託管的使用者無法使用「整合連絡人存放區」;同樣地，在 Lync 2010 中無法顯示高解析度相片。
+請記住，這些新功能需要使用 Lync Server 2013 和 Exchange 2013。 所，希望能夠充分利用這些新功能的使用者必須能夠在 Lync Server 2013 和 Exchange 2013 的帳戶，且必須使用最新版的用戶端軟體 (例如，Lync 2013)。 例如，且無法供具有已位於 Lync Server 2010; 使用者整合連絡人存放區同樣地，高解析度相片無法顯示在 Lync 2010。
 
-本檔提供集成 Lync Server 2013 與 Exchange 2013 的相關資訊。 包括啟用新功能（例如，歸檔整合與整合連絡人存放區）的逐步資訊。 本檔中的內容不會討論這兩個產品的初始設定和配置。 如需有關部署 Lync Server 2013 的詳細資訊，請參閱 Lync Server [http://go.microsoft.com/fwlink/p/?LinkId=246127](http://go.microsoft.com/fwlink/p/?linkid=246127)2013 技術中心（位於）。 如需有關部署 Exchange 2013 的詳細資訊，請參閱 Exchange [http://go.microsoft.com/fwlink/p/?LinkId=268528](http://go.microsoft.com/fwlink/p/?linkid=268528)2013 技術中心。
+這份文件提供整合 Lync Server 2013 和 Exchange 2013 的相關資訊。 包括上啟用新功能，例如封存整合和整合連絡人存放區的逐步說明資訊。 這份文件不會不做什麼是討論的初始安裝與設定下列兩項產品。 如需 Lync Server 2013 部署的詳細資訊，請參閱 Lync Server 2013 技術中心，在[http://go.microsoft.com/fwlink/p/?LinkId=246127](http://go.microsoft.com/fwlink/p/?linkid=246127)。 如需 Exchange 2013 部署的詳細資訊，請參閱在 Exchange 2013 Tech Center [http://go.microsoft.com/fwlink/p/?LinkId=268528](http://go.microsoft.com/fwlink/p/?linkid=268528)。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-[整合 Microsoft Lync Server 2013 與 Microsoft Exchange Server 2013 的先決條件](lync-server-2013-prerequisites-for-integrating-with-exchange-server-2013.md)
+[整合 Microsoft Lync Server 2013 和 Microsoft Exchange Server 2013 的必要條件](lync-server-2013-prerequisites-for-integrating-with-exchange-server-2013.md)
 
-[在 Microsoft Lync Server 2013 和 Microsoft Exchange Server 2013 中設定合作夥伴應用程式](lync-server-2013-configuring-partner-applications-in-lync-server-2013-and-exchange-server-2013.md)
+[Microsoft Lync Server 2013 和 Microsoft Exchange Server 2013 中設定夥伴應用程式](lync-server-2013-configuring-partner-applications-in-lync-server-2013-and-exchange-server-2013.md)
 
-[將 Microsoft Lync Server 2013 設定為使用 Microsoft Exchange Server 2013 歸檔](configuring-lync-server-2013-to-use-microsoft-exchange-server-2013-archiving.md)
+[設定 Microsoft Lync Server 2013 使用 Microsoft Exchange Server 2013 封存](configuring-lync-server-2013-to-use-microsoft-exchange-server-2013-archiving.md)
 
-[設定 Microsoft SharePoint Server 2013 以搜尋已歸檔的 Microsoft Lync Server 2013 資料](lync-server-2013-configuring-microsoft-sharepoint-server-2013-to-search-for-archived-lync-server-2013-data.md)
+[設定 Microsoft SharePoint Server 2013 搜尋已封存的 Microsoft Lync Server 2013 資料](lync-server-2013-configuring-microsoft-sharepoint-server-2013-to-search-for-archived-lync-server-2013-data.md)
 
-[將 Microsoft Lync Server 2013 設定為使用整合連絡人存放區](lync-server-2013-configuring-lync-server-to-use-the-unified-contact-store.md)
+[設定 Microsoft Lync Server 2013 使用整合連絡人存放區](lync-server-2013-configuring-lync-server-to-use-the-unified-contact-store.md)
 
-[在 Microsoft Lync Server 2013 中設定高解析度相片的使用](lync-server-2013-configuring-the-use-of-high-resolution-photos.md)
+[在 [Microsoft Lync Server 2013 中設定使用高解析度相片](lync-server-2013-configuring-the-use-of-high-resolution-photos.md)
 
-[針對 Microsoft Lync Server 2013 語音信箱設定 Microsoft Exchange Server 2013 整合通訊](lync-server-2013-configuring-microsoft-exchange-server-2013-unified-messaging-for-lync-server-2013-voice-mail.md)
+[設定 Microsoft Exchange Server 2013 整合通訊的 Microsoft Lync Server 2013 語音信箱](lync-server-2013-configuring-microsoft-exchange-server-2013-unified-messaging-for-lync-server-2013-voice-mail.md)
 
-[整合 Microsoft Lync Server 2013 與 Microsoft Outlook Web App 2013](lync-server-2013-integrating-lync-server-and-outlook-web-app-2013.md)
+[整合 Microsoft Lync Server 2013 和 Microsoft Outlook Web App 2013](lync-server-2013-integrating-lync-server-and-outlook-web-app-2013.md)
 
 </div>
 

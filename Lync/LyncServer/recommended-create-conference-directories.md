@@ -1,5 +1,5 @@
 ---
-title: (建議) 建立會議目錄
+title: （建議使用）建立會議目錄
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 63146389
 ms.date: 10/03/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5d525951dcb77ee365c9c83461f678c26ae53af6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 37f4a0dbd2caf7e9a04354e0b0670dcbb47adb1b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727333"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035839"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="recommended-create-conference-directories"></a>(建議) 建立會議目錄
+# <a name="recommended-create-conference-directories"></a>（建議使用）建立會議目錄
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41727333"
 
 <span> </span>
 
-_**主題上次修改日期：** 2014-10-03_
+_**上次修改主題：** 2014年-10-03_
 
-在使用 Lync 2013 時，會議目錄會維持參與者用來加入會議的字母數位會議 ID 之間的對應，以及電話撥入式會議參與者用來加入會議的僅限數位會議 ID。 會議 ID 的格式如下所示：
+會議目錄維護參與者使用時使用 Lync 2013 加入會議的英數字元的會議 ID 與電話撥入式會議參與者加入會議所使用的僅限數字鍵台的會議 ID 之間的對應。 會議 ID 的格式如下：
 
     <housekeeping digit (1 digit)><conference directory (usually 1-2 digits)><conference number (variable number of digits><check digit (1 digit)>
 
-建立多個會議目錄可確保會議 Id 保持不變，直到建立大量的會議為止。 在每位使用者有典型會議數的組織中，我們建議您為池中的每個999使用者建立一個會議目錄。 使用這種準則，會議 Id 通常可以保持很小的狀態。 不過，一旦會議目錄數量（跨多個池）超過9個，會議 ID 長度就會增長以支援其他會議。
+建立多個會議目錄，可確保在建立大量的會議之前會議 Id 會保持簡短。 在一般每位使用者的會議數目與組織中，我們建議您在集區中建立一個的每個 999 使用者的會議目錄。 使用此指導方針會議識別碼可以通常是保持小型。 不過，一旦 （整個集區） 的會議目錄的數目超過 9，會議 ID 長度會成長到支援其他會議。
 
 <div>
 
 ## <a name="creating-a-conference-directory"></a>建立會議目錄
 
-1.  在 Lync Server 管理命令介面中，輸入下列 Cmdlet：
+1.  在 [Lync Server 管理命令介面，輸入下列 cmdlet:
     
         New-CsConferenceDirectory -Identity <XdsGlobalRelativeIdentity> -HomePool <String> [-Confirm [<SwitchParameter>]] [-Force <SwitchParameter>] [-WhatIf [<SwitchParameter>]]
     
-    例如，下列程式會建立一個在 pool atl-cs-001.litwareinc.com 上託管的身分識別42的會議目錄：
+    例如，下列範例會建立裝載在 atl-cs-001.litwareinc.com 集區身分識別 42，會議目錄-atl-cs-001.litwareinc.com:
     
         New-CsConferenceDirectory -Identity 42 -HomePool "atl-cs-001.litwareinc.com"
 
@@ -59,13 +59,13 @@ _**主題上次修改日期：** 2014-10-03_
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
 [Lync Server 2013 中的電話撥入式會議需求](lync-server-2013-dial-in-conferencing-requirements.md)  
 
 
-[New-CsConferenceDirectory](https://docs.microsoft.com/powershell/module/skype/New-CsConferenceDirectory)  
+[新 CsConferenceDirectory](https://docs.microsoft.com/powershell/module/skype/New-CsConferenceDirectory)  
   
 
 </div>

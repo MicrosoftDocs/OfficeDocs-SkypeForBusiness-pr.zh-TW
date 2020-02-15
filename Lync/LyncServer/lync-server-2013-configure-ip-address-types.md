@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：設定 IP 位址類型
+title: Lync Server 2013： 設定 IP 位址類型
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183515
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7e1b03e7c64c15d147e09883b9d7580bacbca7be
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4cb04adb830e4b7207391675aeabd5f3be315724
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729763"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036221"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,19 +35,19 @@ ms.locfileid: "41729763"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-06-13_
+_**主題上次修改日期：** 2012年-06-13_
 
-您可以使用您在拓撲建立器中設定的拓撲設定來部署 IP 位址類型。 本節說明如何在前端伺服器、中繼伺服器和 Edge 伺服器上部署 IP 位址類型。
+您可以使用您在拓撲產生器中設定的拓撲設定部署 IP 位址類型。 本節說明如何部署前端伺服器、 中繼伺服器和 Edge Server 上的 IP 位址類型。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [針對 Lync Server 2013 在前端伺服器上部署 IP 位址類型](lync-server-2013-deploy-ip-address-types-on-a-front-end-server.md)
+  - [部署 Lync Server 2013 的前端伺服器上 IP 位址類型](lync-server-2013-deploy-ip-address-types-on-a-front-end-server.md)
 
-  - [針對 Lync Server 2013 在中繼伺服器上部署 IP 位址類型](lync-server-2013-deploy-ip-address-types-on-a-mediation-server.md)
+  - [部署 Lync Server 2013 的中繼伺服器上 IP 位址類型](lync-server-2013-deploy-ip-address-types-on-a-mediation-server.md)
 
-  - [針對 Lync Server 2013 在 Edge Server 上部署 IP 位址類型](lync-server-2013-deploy-ip-address-types-on-an-edge-server.md)
+  - [部署 Lync Server 2013 Edge Server 上的 IP 位址類型](lync-server-2013-deploy-ip-address-types-on-an-edge-server.md)
 
 </div>
 
