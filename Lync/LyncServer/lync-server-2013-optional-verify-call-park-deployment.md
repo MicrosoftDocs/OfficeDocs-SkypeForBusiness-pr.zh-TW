@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：（選用）驗證通話駐留部署
+title: 'Lync Server 2013: （選用） 驗證通話保留部署'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185952
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5cfc0d62bcfabe1a5bcddfb069d95b18aa0d30d4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 05b18de4af492fb45ef37e64cca45cc2d3d2b965
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755717"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044625"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="optional-verify-call-park-deployment-in-lync-server-2013"></a>可選在 Lync Server 2013 中確認通話駐留部署
+# <a name="optional-verify-call-park-deployment-in-lync-server-2013"></a>（選用）確認 Lync Server 2013 中的通話駐留部署
 
 </div>
 
@@ -35,24 +35,24 @@ ms.locfileid: "41755717"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-09-11_
+_**主題上次修改日期：** 2012年-09-11_
 
-安裝並設定 [通話駐留] 之後，您必須驗證設定，以確保停車場和檢索通話如期運作。 至少請確認下列事項：
+安裝並設定通話駐留之後，您需要確認若要確定駐留並擷取通話運作符合預期組態。 請至少確認下列項目：
 
-  - 呼叫已啟用通話駐留且使用者寄存通話的使用者。
+  - 呼叫具有已啟用的通話駐留的使用者，並讓使用者駐留通話。
     
     <div>
     
 
     > [!NOTE]  
-    > 如果您在執行此測試前，在語音原則中啟用通話駐留，停用通話的使用者需要登出 Lync Server，然後重新登入，才能在轉移通話清單中看到通話寄存選項。
+    > 如果您啟用語音原則中的通話駐留之前執行這項測試，則駐留通話的使用者必須登出 Lync Server]，然後再重新登入，無法看到 [通話駐留] 選項在傳送呼叫清單。
 
     
     </div>
 
-  - 撥打軌道數位以取得通話。
+  - 撥打軌道號碼以擷取通話。
 
-  - 停用另一個通話，讓撥出通話超時，而且不要挑選 ringback。 確認超時通話正確地路由至指定給**OnTimeoutURI**的回退目的地。
+  - 其他通話駐留，讓駐留的通話逾時，並不會收取回電。 確認逾時通話正確地路由傳送至指定的**OnTimeoutURI**後援目的地。
 
 </div>
 

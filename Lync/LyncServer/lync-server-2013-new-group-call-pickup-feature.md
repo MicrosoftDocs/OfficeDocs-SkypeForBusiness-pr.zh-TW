@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：新的群組呼叫挑選功能
+title: Lync Server 2013： 新的群組來電接聽功能
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541478
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0e42884d3880fa1a31c96d9a25676b5ceecd8313
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 566ef914236cfde9cb00c28c667189ebb6d1556f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758635"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048464"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="new-group-call-pickup-feature-in-lync-server-2013"></a>Lync Server 2013 中的 [新增群組呼叫挑選] 功能
+# <a name="new-group-call-pickup-feature-in-lync-server-2013"></a>Lync Server 2013 中的新群組來電接聽功能
 
 </div>
 
@@ -35,18 +35,18 @@ ms.locfileid: "41758635"
 
 <span> </span>
 
-_**主題上次修改日期：** 2013-02-12_
+_**上次修改主題：** 2013年-02-12_
 
-Lync Server 2013 的累計更新：2月2013將群組呼叫挑選引入為新的企業語音功能。 透過 [群組呼叫]，您可以將使用者指派給群組，讓其他使用者可以將來電應答給群組中的使用者。
+Lync Server 2013 的累計更新： 2 月 2013年引進為新 Enterprise Voice 功能的群組來電接聽。 使用群組來電接聽，可以將使用者指派給群組，讓其他使用者可以接聽來電給他們自己的電話從群組中的使用者。
 
-[群組呼叫挑選] 是以 [通話駐留] 應用程式為基礎。 對於群組通話挑選（與電話寄存一樣），您可以設定要用來做為群組編號的虛擬號碼範圍。 使用者撥打電話給群組號碼，接聽正在撥打給群組中其他使用者的通話。
+群組來電接聽為基礎的通話駐留應用程式。 群組來電接聽，如為使用通話駐留您設定虛擬號碼範圍以做為群組數字。 使用者撥打要揀選響鈴群組中的另一個使用者的呼叫的群組數字。
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
-[規劃 Lync Server 2013 中的群組呼叫挑選](lync-server-2013-planning-for-group-call-pickup.md)  
+[規劃 Lync Server 2013 中的群組來電接聽](lync-server-2013-planning-for-group-call-pickup.md)  
   
 
 </div>

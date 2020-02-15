@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：(選用) 驗證 PIN 原則設定
+title: 'Lync Server 2013: （選用） 驗證 pin 碼原則設定'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185415
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d0932eb97ee276368ee7b4479d17100b00af29d6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: cccae79c64205ece3256851a19e54dce8582f9fe
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755687"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051065"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="optional-verify-pin-policy-settings-in-lync-server-2013"></a>(選用) 在 Lync Server 2013 中驗證 PIN 原則設定
+# <a name="optional-verify-pin-policy-settings-in-lync-server-2013"></a>（選用）確認 Lync Server 2013 中的 pin 碼原則設定
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41755687"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-06-20_
+_**主題上次修改日期：** 2012年-06-20 個_
 
-擁有 Active Directory 網域服務認證的 Lync Server 2013 使用者可以輸入個人識別碼（PIN），以將電話撥入式會議加入為經過驗證的使用者。 PIN 原則定義電話撥入式會議 Pin 如何運作的規則。
+具有 Active Directory 網域服務認證的 Lync Server 2013 使用者可以輸入個人識別碼 (PIN) 加入電話撥入式會議，以驗證使用者。 Pin 碼原則會定義規則如何撥入式會議 pin 碼有用。
 
-當您部署電話撥入式會議時，您應該確認預設的全域 PIN 原則符合您的需求。 如果您需要進行變更，您可以修改預設的全域原則，或者您可以建立新的 PIN 原則。 您可以建立適用于特定網站、特定使用者或特定使用者群組的 PIN 原則。
+當您部署電話撥入式會議時，您應該確認預設全域 PIN 原則符合您的需求。 如果您需要進行變更，您可以修改預設的全域原則，或您可以建立新的 pin 碼原則。 您可以建立套用至特定站台、 特定的使用者或特定的一群使用者的 pin 碼原則。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [在 Lync Server 2013 中修改預設電話撥入式會議 PIN 設定](lync-server-2013-modify-the-default-dial-in-conferencing-pin-settings.md)
+  - [修改預設電話撥入式會議 PIN 設定 Lync Server 2013 中](lync-server-2013-modify-the-default-dial-in-conferencing-pin-settings.md)
 
-  - [在 Lync Server 2013 中建立或修改使用者站台或群組的電話撥入式會議 PIN 設定](lync-server-2013-create-or-modify-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users.md)
+  - [建立或修改電話撥入式會議 PIN 設定 Lync Server 2013 中的網站或使用者群組](lync-server-2013-create-or-modify-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users.md)
 
 </div>
 

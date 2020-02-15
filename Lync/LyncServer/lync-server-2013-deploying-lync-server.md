@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：部署 Lync Server
+title: Lync Server 2013： 部署 Lync Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185197
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e7654b88d209e6a19571632ed773e891c50679e2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5eb5cc86eeaf6be3f32993cf4374148bab7e5f5f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733583"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050015"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,31 +35,31 @@ ms.locfileid: "41733583"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-18_
+_**主題上次修改日期：** 2012年-10-18_
 
-Lync Server 2013 的部署程式是由您決定要安裝的 Lync Server 拓撲和元件所決定，包括您要部署的是前端池還是標準版伺服器。 本節中的主題可協助您決定要部署的環境，並引導您完成部署程式。
+Lync Server 2013 的部署程序取決於您決定要安裝的元件與 Lync Server 拓撲包括是否要為前端集區或 Standard Edition server 部署。 本節中的主題可協助您決定的環境您想要部署及引導您完成部署處理程序。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
   - [Lync Server 2013 的部署概觀](lync-server-2013-deployment-overview.md)
 
   - [Lync Server 2013 的系統需求](lync-server-2013-system-requirements.md)
 
-  - [準備 Lync Server 2013 的基礎結構和系統](lync-server-2013-preparing-the-infrastructure-and-systems.md)
+  - [準備 Lync Server 2013 系統與基礎結構](lync-server-2013-preparing-the-infrastructure-and-systems.md)
 
-  - [在 Lync Server 2013 中定義和設定拓撲](lync-server-2013-defining-and-configuring-the-topology.md)
+  - [定義和設定 Lync Server 2013 中的拓撲](lync-server-2013-defining-and-configuring-the-topology.md)
 
-  - [在 Lync Server 2013 中完成和實作拓撲設計](lync-server-2013-finalizing-and-implementing-the-topology-design.md)
+  - [完成和 Lync Server 2013 中實作拓撲設計](lync-server-2013-finalizing-and-implementing-the-topology-design.md)
 
-  - [針對 Lync Server 2013 設定前端伺服器和前端集區](lync-server-2013-setting-up-front-end-servers-and-front-end-pools.md)
+  - [設定 Lync Server 2013 的前端伺服器和前端集區](lync-server-2013-setting-up-front-end-servers-and-front-end-pools.md)
 
-  - [將 Lync Server 2013 Standard Edition 部署到現有 Lync Server 2013 Enterprise 中](lync-server-2013-deploying-lync-server-2013-standard-edition-into-an-existing-lync-server-2013-enterprise.md)
+  - [將 Lync Server 2013 Standard Edition 部署到現有的 Lync Server 2013 Enterprise](lync-server-2013-deploying-lync-server-2013-standard-edition-into-an-existing-lync-server-2013-enterprise.md)
 
   - [在 Lync Server 2013 中新增伺服器角色](lync-server-2013-adding-server-roles.md)
 
-  - [在 Lync Server 2013 中設定 Kerberos 驗證](lync-server-2013-setting-up-kerberos-authentication.md)
+  - [設定 Lync Server 2013 中的 Kerberos 驗證](lync-server-2013-setting-up-kerberos-authentication.md)
 
 </div>
 

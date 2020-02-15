@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：規劃及部署雙因素驗證
+title: Lync Server 2013： 規劃及部署雙因素驗證
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 54973686
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4a7aa10719a357100ce38da6616ef6c79d6a4a10
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 50238b10bf5667b51d4b3998ee995283ebdb4fc3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755143"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045455"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,19 +35,19 @@ ms.locfileid: "41755143"
 
 <span> </span>
 
-_**主題上次修改日期：** 2013-07-11_
+_**上次修改主題：** 2013年-07-11_
 
-雙因素驗證：要求使用者符合兩個驗證準則，提供改良的安全性：使用者名稱/密碼組合與權杖或憑證。 這也稱為「您有任何問題，您知道」。 使用智慧卡的一個典型的雙因素驗證範例。 智慧卡包含與使用者帳戶相關聯的憑證，而且可以對照儲存在伺服器上的使用者與憑證資訊驗證。 您可以將使用者資訊（使用者名稱和密碼）與提供的憑證進行比較，伺服器會驗證認證並驗證使用者。
+雙因素驗證要求以符合兩個驗證準則的使用者提供改良的安全性： 使用者名稱/密碼組合和權杖或憑證。 這是也稱為 「 您必須知道的某個項目。 」 雙因素驗證與憑證的典型範例是使用智慧卡。 智慧卡包含使用者帳戶，相關聯的憑證，且可以驗證針對使用者和儲存在伺服器上的憑證資訊。 藉由比較使用者資訊 （使用者名稱和密碼） 所提供的憑證，伺服器會驗證認證，並驗證使用者。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
 [規劃 Lync Server 2013 中的雙因素驗證](lync-server-2013-planning-for-two-factor-authentication.md)
 
 [在 Lync Server 2013 中設定雙因素驗證](lync-server-2013-configuring-two-factor-authentication.md)
 
-[在 Lync 用戶端和 Lync Server 2013 上使用雙因素驗證](lync-server-2013-using-two-factor-authentication-with-lync-client.md)
+[使用 Lync 用戶端和 Lync Server 2013 的雙因素驗證](lync-server-2013-using-two-factor-authentication-with-lync-client.md)
 
 </div>
 

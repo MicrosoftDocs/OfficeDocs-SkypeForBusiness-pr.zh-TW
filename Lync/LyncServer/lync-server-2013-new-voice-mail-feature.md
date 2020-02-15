@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：新語音信箱功能
+title: Lync Server 2013： 新的語音信箱功能
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733715
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 27dbea942488181eb69695f78713c9e126c32aab
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2b7951b0dd9a6841d66c1782322f6c44a4e16d99
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755847"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048414"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="new-voice-mail-feature-in-lync-server-2013"></a>Lync Server 2013 中的新語音信箱功能
+# <a name="new-voice-mail-feature-in-lync-server-2013"></a>Lync Server 2013 中新的語音信箱功能
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41755847"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-05_
+_**主題上次修改日期：** 2012年-10-05_
 
-Lync Server 2013 引入了語音信箱轉義，這是一種管理語音信箱的增強功能。 這項新功能可以偵測通話何時傳送至語音信箱，並防止通話立即路由到使用者的行動電話語音信箱，而不給予使用者接聽通話的機會。 當使用者同時撥打到行動電話，且其行動電話已關閉、不在電池或超出範圍時，就會發生這種情況。 語音信箱轉義會偵測到通話是由使用者的行動電話語音信箱立即應答，然後中斷通話與行動電話語音信箱的連線。 通話會持續在使用者的其他端點撥打，讓使用者有機會接聽通話。 如果使用者沒有接聽電話，通話會路由至公司語音信箱。
+Lync Server 2013 引進了語音信箱逸出，管理語音信箱的增強功能。 這項新功能可以偵測時呼叫已路由傳送至語音信箱，並防止通話立即路由傳送至使用者的行動電話語音信箱而不讓使用者有機會接聽來電。 使用者可讓行動電話，以同時響鈴和行動電話已關機、 沒電或超出範圍時，就會發生這種情況。 語音信箱逸出偵測到通話立即接聽由使用者的行動電話的語音信箱]，並中斷連線的行動電話語音信箱的呼叫。 通話持續響鈴對使用者的其他端點，讓使用者有機會接聽來電。 如果使用者未接聽來電時，公司的語音信箱路由傳送來電。
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
-[在 Lync Server 2013 中設定語音信箱轉義](lync-server-2013-configuring-voice-mail-escape.md)  
+[在 Lync Server 2013 中設定語音信箱逸出](lync-server-2013-configuring-voice-mail-escape.md)  
 
 
-[Lync Server 2013 中的新企業語音功能](lync-server-2013-new-enterprise-voice-features.md)  
+[Lync Server 2013 中的新 Enterprise Voice 功能](lync-server-2013-new-enterprise-voice-features.md)  
   
 
 </div>

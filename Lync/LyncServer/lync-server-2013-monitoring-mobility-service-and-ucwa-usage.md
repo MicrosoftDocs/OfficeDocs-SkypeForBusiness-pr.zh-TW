@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：監控行動服務與 UCWA 使用量
+title: 'Lync Server 2013: Monitoring Mobility Service 和 ucwa 的參考的使用狀況'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184683
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d4968c1a3b3dc30bdab2a3c19fd8e930da6122cb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6e8fbdd2e411f3613519278f807caed334955810
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756807"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048006"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="monitoring-mobility-service-and-ucwa-usage-in-lync-server-2013"></a>在 Lync Server 2013 中監控行動服務與 UCWA 使用量
+# <a name="monitoring-mobility-service-and-ucwa-usage-in-lync-server-2013"></a>監控 Mobility Service 和 ucwa 的參考 Lync Server 2013 中的使用狀況
 
 </div>
 
@@ -35,53 +35,53 @@ ms.locfileid: "41756807"
 
 <span> </span>
 
-_**主題上次修改日期：** 2013-02-14_
+_**上次修改主題：** 2013年-02-14_
 
-您應該在例行監視 Lync Server 行動服務（Mcx）和整合通訊網頁 API （UCWA）所使用的 CPU 和記憶體。 若要監視用法，您可以使用下列方法：
+持續，您應監視的 CPU 和記憶體所使用的 Lync Server 行動性服務 (Mcx) 和 Unified Communications Web API (UCWA)。 若要監視流量，您可以使用下列程式碼：
 
-**針對整合通訊網頁 API （UCWA）：**
+**Unified 的 Communications web API (UCWA):**
 
-  - [網際網路資訊服務（IIS）管理員] 中的**LyncUcwa**工作進程。 在 [**工作進程**] 窗格中，查看 [ **CPU%** ] 和 [**專用位元組（KB）** ] （記憶體）資料行。
+  - 在 [網際網路資訊服務 (IIS) 管理員**LyncUcwa**工作者處理序。 在 [工作者處理序]**** 窗格中，查看 [CPU %]**** 和 [私用位元組 (KB)]**** (記憶體) 欄。
 
-  - **CPU**與**處理器**效能計數器。
+  - [CPU]**** 和 [Processor]**** 效能計數器。
 
-在大部分的部署中，UCWA 的 CPU 使用量平均應低於15%。 記憶體使用量應該在在[Lync server 2013 的伺服器記憶體容量限制監控](lync-server-2013-monitoring-for-server-memory-capacity-limits.md)中所述的限制範圍內。
+對於大多數的部署，UCWA CPU 使用量應低於 15%平均。 記憶體使用量應該改在[監視伺服器的記憶體容量限制 Lync Server 2013 中](lync-server-2013-monitoring-for-server-memory-capacity-limits.md)所述的限制內。
 
-除了 CPU 和記憶體使用量計數器之外，您還可以使用下列效能計數器，協助判斷伺服器何時以要求超載：
+除了 CPU 和記憶體使用量計數器，您可以使用下列效能計數器來協助判斷伺服器何時超載要求：
 
-  - **LS：網路–節流和驗證\\網路–處理中的總要求**，指出伺服器上的未決 WEB 要求數目。 當這個計數器達到10000時，後續的要求將會失敗，並出現錯誤訊息「503-服務無法使用」。
+  - **LS:WEB – 節流及驗證\\WEB – 在處理中的總要求數**，這表示暫止的伺服器上的 web 要求的數目。 當此計數器達到 10000 時，後續要求將會失敗，則錯誤訊息: 「 503-服務無法使用 」。
 
-  - **ASP.NET\\要求已排入佇列**（應該總是為零）。
-
-<div>
-
-
-> [!NOTE]  
-> 如果您達到或超過這些值，您應該重新進行容量規劃，以針對託管 Web 服務的電腦正確地調整 CPU 大小、核心和記憶體的數量。
-
-
-
-</div>
-
-**針對行動服務（Mcx）：**
-
-  - [網際網路資訊服務（IIS）管理員] 中的**CSIntMcxAppPool**和**CSExtMcxAppPool**工作進程。 在 [**工作進程**] 窗格中，查看 [ **CPU%** ] 和 [**專用位元組（KB）** ] （記憶體）資料行。
-
-  - **CPU**與**處理器**效能計數器。
-
-在大部分的部署中，行動服務 CPU 使用量的平均應低於15%。 記憶體使用量應該在在[Lync server 2013 的伺服器記憶體容量限制監控](lync-server-2013-monitoring-for-server-memory-capacity-limits.md)中所述的限制範圍內。
-
-除了 CPU 和記憶體使用量計數器之外，您還可以使用下列 ASP.NET 效能計數器，協助判斷伺服器何時使用要求進行超載：
-
-  - **ASP.NET v 2.0.50727\\要求是 Current**，這表示伺服器上掛起的 web 要求數目。 當這個計數器達到5000時，後續的要求將會失敗，並出現錯誤訊息「503-服務無法使用」。
-
-  - **ASP.NET\\要求已排入佇列**（應該總是為零）。
+  - **ASP.NET\\要求排入佇列**（應該永遠為零）。
 
 <div>
 
 
 > [!NOTE]  
-> 如果您達到或超過這些值，您應該重新進行容量規劃，以針對託管 Web 服務的電腦正確地調整 CPU、核心數和記憶體大小。
+> 如果您達到或超過這些值，您應該回顧和重新計算您的容量規劃的 CPU 核心和記憶體主控 Web 服務的電腦數目正確調整大小。
+
+
+
+</div>
+
+**行動性服務 (Mcx):**
+
+  - **CSIntMcxAppPool**和**CSExtMcxAppPool**工作者處理序在網際網路資訊服務 (IIS) 管理員] 中。 在 [工作者處理序]**** 窗格中，查看 [CPU %]**** 和 [私用位元組 (KB)]**** (記憶體) 欄。
+
+  - [CPU]**** 和 [Processor]**** 效能計數器。
+
+對於大多數的部署，Mobility Service CPU 使用量應低於 15%，平均。 記憶體使用量應該改在[監視伺服器的記憶體容量限制 Lync Server 2013 中](lync-server-2013-monitoring-for-server-memory-capacity-limits.md)所述的限制內。
+
+除了 CPU 和記憶體使用量計數器，您也可以使用下列 ASP.NET 效能計數器來協助判斷伺服器何時超載要求：
+
+  - **ASP.NET v2.0.50727]\\要求目前**，這表示暫止的伺服器上的 web 要求的數目。 當此計數器達到 5000 時，後續要求將會失敗則錯誤訊息: 「 503-服務無法使用 」。
+
+  - **ASP.NET\\要求排入佇列**（應該永遠為零）。
+
+<div>
+
+
+> [!NOTE]  
+> 如果您達到或超過這些值，您應該回顧並重新整理您的容量規劃的 CPU 核心和記憶體主控 Web 服務的電腦數目正確調整大小。
 
 
 
@@ -89,10 +89,10 @@ _**主題上次修改日期：** 2013-02-14_
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
-[監視 Lync Server 2013 中的伺服器記憶體容量限制](lync-server-2013-monitoring-for-server-memory-capacity-limits.md)  
+[監控的 Lync Server 2013 中的伺服器記憶體容量限制](lync-server-2013-monitoring-for-server-memory-capacity-limits.md)  
   
 
 </div>

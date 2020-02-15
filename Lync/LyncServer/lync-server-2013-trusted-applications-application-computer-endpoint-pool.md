@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：受信任的應用程式（應用程式/電腦/端點/池）
+title: Lync Server 2013： 信任的應用程式 （應用程式/電腦/端點/集區）
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733667
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 04a80b13cc7fd1bd88ce8b361b08938719f5929b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f3fb02e36927c10f5a4f66f0e4908a26e440b555
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744913"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045906"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="trusted-applications-applicationcomputerendpointpool-in-lync-server-2013"></a>Lync Server 2013 中受信任的應用程式（應用程式/電腦/端點/池）
+# <a name="trusted-applications-applicationcomputerendpointpool-in-lync-server-2013"></a>Lync Server 2013 中有信任的應用程式 （應用程式/電腦/端點/集區）
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41744913"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-11-01_
+_**主題上次修改日期：** 2012年-11-01_
 
-使用本節中的程式來管理 Lync Server 2013 的受信任應用程式。
+使用本節中的程序，來管理 Lync Server 2013 的信任的應用程式。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [在 Lync Server 2013 中管理受信任的應用程式](lync-server-2013-managing-trusted-applications.md)
+  - [Lync Server 2013 中管理信任的應用程式](lync-server-2013-managing-trusted-applications.md)
 
 </div>
 
@@ -51,16 +51,16 @@ _**主題上次修改日期：** 2012-11-01_
 
 ## <a name="related-sections"></a>相關各節
 
-[Lync Server 2013 中受信任的應用程式 Cmdlet](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps)
+[Lync Server 2013 的信任的應用程式 cmdlet](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
-[在 Lync Server 2013 中管理受信任的應用程式](lync-server-2013-managing-trusted-applications.md)  
+[Lync Server 2013 中管理信任的應用程式](lync-server-2013-managing-trusted-applications.md)  
   
 
 </div>

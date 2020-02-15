@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：主控 Exchange UM 整合架構
+title: Lync Server 2013： 裝載的 Exchange UM 整合架構
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183222
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 49fbb815514d9a338412b638bdf373a285ebf6f4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2dc910c7d0285359e374722686ad309186917fe0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739023"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050895"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="hosted-exchange-um-integration-architecture-in-lync-server-2013"></a>Lync Server 2013 中的主控 Exchange UM 整合架構
+# <a name="hosted-exchange-um-integration-architecture-in-lync-server-2013"></a>主控的 Exchange UM 整合架構在 Lync Server 2013
 
 </div>
 
@@ -35,74 +35,74 @@ ms.locfileid: "41739023"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-09-25_
+_**主題上次修改日期：** 2012年-09-25_
 
-Lync Server 2013 ExUM 路由應用程式支援與內部部署 Exchange 整合通訊（UM）部署、由服務提供者託管 Exchange UM，或是結合兩個。 下圖顯示所有這三種可能性。
+Lync Server 2013 ExUM Routing 應用程式支援整合內部部署 Exchange 整合通訊 (UM) 部署與 Exchange UM 裝載提供者服務，或使用兩者的組合。 下圖顯示所有三個可能性。
 
-**與內部部署 Exchange UM 部署和兩個託管的 Exchange 提供者整合**
+**與內部部署 Exchange UM 和兩個託管式 Exchange 提供者整合**
 
 ![內部部署 Lync Server Exchange UM 部署](images/Gg398821.d6498eb9-87ee-40f3-8ecd-852f91546590(OCS.15).jpg "內部部署 Lync Server Exchange UM 部署")
 
 支援下列模式：
 
-  - **內部部署：** Lync Server 2013 和 Exchange UM 都部署在企業中的本機伺服器上。
+  - **內部部署：** Lync Server 2013 和 Exchange UM 都部署於您企業內的本機伺服器上。
 
-  - **跨內部部署：** Lync Server 2013 是部署在企業內部的本機伺服器上，而 Exchange UM 是在線上服務提供者的功能（例如 Microsoft Exchange Online 資料中心）中託管。
+  - **跨單位部署：** Lync Server 2013 部署在您企業內的本機伺服器上，而 Exchange UM 裝載於線上服務提供者的設備，例如 Microsoft Exchange 線上資料中心。
 
-  - **混合式部署：** 您的 Lync Server 2013 部署會有一些使用者信箱駐留在企業內部的本機 Exchange 伺服器上，而某些信箱則駐留在託管 Exchange 服務資料中心。
+  - **混合部署：** Lync Server 2013 部署有一些使用者信箱隸屬於本機 Exchange 伺服器在您的企業和部分信箱位於託管式 Exchange 服務資料中心。
     
     <div>
     
 
     > [!NOTE]  
-    > 如果您在轉移其他使用者的 Exchange UM 服務之後，您選擇將混合式部署作為過渡式解決方案，在使用者的評估與分階段遷移期間，就可以使用。
+    > 混合部署可以作為過渡解決方案 (例如進行評估以及將使用者分階段移轉至託管式 Exchange UM 的期間) 或永久解決方案 (如果您在進行部分移轉後，決定將其餘使用者的 Exchange UM 服務繼續留在內部部署)。
 
     
     </div>
 
 <div>
 
-## <a name="shared-sip-address-space"></a>共用的 SIP 位址空間
+## <a name="shared-sip-address-space"></a>共用 SIP 位址空間
 
-若要將 Lync Server 2013 與內部部署 Exchange UM 部署整合，您必須授與 Lync Server 2013 許可權，才能讀取 Exchange UM Active Directory 網域服務物件。 不過，這個方法不適用於與託管 Exchange UM 整合，因為 Lync Server 2013 和 Exchange UM 已安裝在不同的林中，且不受信任。
+若要與內部部署 Exchange UM 整合 Lync Server 2013，您授與 Lync Server 2013 權限以讀取 Exchange UM Active Directory 網域服務物件。 此方法不適用於整合主控 Exchange UM，不過，因為在不同樹系與它們之間不信任已安裝 Lync Server 2013 和 Exchange UM。
 
-若要整合 Lync Server 2013 與託管 Exchange UM，您必須設定*共用的 SIP 位址空間*。 在此設定中，Lync Server 2013 和託管 Exchange UM 服務提供者都能使用相同的 SIP 網域位址空間。
+若要與裝載 Exchange UM 整合 Lync Server 2013，您必須設定*共用的 SIP 位址空間*。 在此組態中，相同的 SIP 網域位址空間僅適用於 Lync Server 2013 及 hosted 的 Exchange UM 服務提供者。
 
 <div>
 
 
 > [!NOTE]  
-> 使用共用的 SIP 位址空間與跨平臺 Lync Server 2013 環境中使用的方法類似，在這種情況下，有些使用者是駐留在內部部署的部署中，而有些則是駐留在託管部署（例如 Lync Online）中。 SIP 網域是在它們之間分割。 當您將 Lync Server 2013 與託管 Exchange UM 整合時，請確定您在共用的 SIP 位址空間中包含 Exchange UM 服務提供者。
+> 使用共用的 SIP 位址空間會類似的跨單位部署 Lync Server 2013 環境中，在其中某些使用者皆位於內部部署和部分皆位於 （例如 [Lync Online) 裝載部署中使用的方法。 SIP 網域被這兩者分割。 當您在與裝載 Exchange UM 整合 Lync Server 2013 時，請確定您在共用 SIP 位址空間中包含 Exchange UM 服務提供者。
 
 
 
 </div>
 
-若要設定共用的 SIP 位址空間以與 Exchange UM 服務提供者整合，您需要設定 Edge 伺服器，如下所示：
+若要設定共用 SIP 位址空間以便與 Exchange UM 服務提供者整合，您必須如下設定 Edge Server：
 
-1.  您可以執行**CsAccessEdgeConfiguration** Cmdlet 來設定下列參數，為同盟設定 Edge 伺服器：
+1.  設定 Edge Server 進行同盟，作法為執行 **Set-CsAccessEdgeConfiguration** Cmdlet 以設定下列參數：
     
-      - **UseDnsSrvRouting ** 指定 Edge Server 傳送和接收同盟要求時將依賴 DNS SRV 記錄。
+      - **UseDnsSrvRouting** 指定 Edge Server 傳送和接收同盟要求時將依賴 DNS SRV 記錄。
     
-      - **AllowFederatedUsers ** 指定是否允許內部使用者與同盟網域的使用者進行通訊。此屬性也會判斷內部使用者是否可與分割網域案例中的使用者進行通訊。
+      - **AllowFederatedUsers** 指定是否允許內部使用者與同盟網域的使用者進行通訊。此屬性也會判斷內部使用者是否可與分割網域案例中的使用者進行通訊。
     
-      - **EnablePartnerDiscovery**指定 Lync Server 2013 是否會使用 DNS 記錄來嘗試探索未列在 Active Directory 允許網域清單中的夥伴網域。 如果是 False，Lync Server 2013 將只會與在 [允許的網域] 清單中找到的網域進行聯盟。 如果使用 DNS 服務路由，則需要此參數。 在大多數部署中，此值設定為 False，以免對所有合作夥伴開放同盟。
+      - **將 EnablePartnerDiscovery**指定 Lync Server 2013 是否會使用以嘗試探索未列在允許網域清單的 Active Directory 中的協力廠商網域的 DNS 記錄。 若為 False，將只與允許的網域清單找到的網域聯盟 Lync Server 2013。 如果使用 DNS 服務路由，則需要此參數。 在大多數部署中，此值設定為 False，以免對所有合作夥伴開放同盟。
 
-2.  將中央管理存儲複製到 Edge 伺服器並驗證複製。 如需詳細資訊，請參閱[匯出 Lync Server 2013 拓撲，並將其複製到外部媒體](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md)，以在部署檔中進行 edge 安裝。
+2.  將中央管理存放區複寫到 Edge Server 並確認複寫。 如需詳細資訊，請參閱部署文件中的[匯出您的 Lync Server 2013 拓撲，並複製到邊緣安裝的外部媒體](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md)。
 
-3.  若要在 Edge 伺服器上設定*主機服務提供者*，請執行**新的 CsHostingProvider** Cmdlet 來設定下列參數：
+3.  在 Edge Server 上設定 *「裝載提供者」*，作法是執行 **New-CsHostingProvider** Cmdlet 以設定下列參數：
     
-      - 身分**識別**會為您建立的主機服務提供者（例如，**託管 Exchange UM**）指定唯一的字串值識別碼。
+      - **Identity** 為所建立的裝載提供者指定唯一的字串值識別碼，例如 **Hosted Exchange UM**。
     
-      - **Enabled ** 指出網域與裝載提供者之間的網路連線是否已啟用。 必須設定為**True**。
+      - **Enabled** 指出網域與裝載提供者之間的網路連線是否已啟用。必須設定為 **True**。
     
-      - **EnabledSharedAddressSpace**表示主機服務提供者是否將用於共用的 SIP 位址空間案例中。 必須設定為**True**。
+      - **EnabledSharedAddressSpace** 指出是否將以共用 SIP 位址空間案例使用裝載提供者。必須設定為 **True**。
     
-      - **HostsOCSUsers**指出主機服務提供者是否是用來託管 Lync Server 2013 帳戶。 必須設為**False**。
+      - **HostsOCSUsers**指出裝載提供者是否是用來裝載 Lync Server 2013 帳戶。 必須設定為 **False**。
     
-      - **ProxyFQDN**會指定主機服務提供者所使用之 proxy 伺服器的完整功能變數名稱（FQDN），例如**proxyserver.fabrikam.com**。 請與您的主機提供者聯繫以取得此資訊。 您無法修改此值。 如果主機服務提供者變更其 proxy 伺服器，您將需要刪除該提供者的專案，然後重新建立。
+      - **ProxyFQDN** 指定裝載提供者所使用之 Proxy 伺服器的完整網域名稱 (FQDN)，例如 **proxyserver.fabrikam.com**。 如需此資訊，請與您的裝載提供者連絡。 您無法修改此值。 如果裝載提供者變更其 Proxy 伺服器，您必須刪除再重新建立該提供者的項目。
     
-      - **IsLocal**會指出主機服務提供者所使用的 proxy 伺服器是否包含在您的 Lync server 2013 拓撲中。 必須設為**False**。
+      - **IsLocal**指出裝載提供者所使用的 proxy 伺服器是否包含在您的 Lync Server 2013 拓撲內。 必須設定為 **False**。
 
 </div>
 

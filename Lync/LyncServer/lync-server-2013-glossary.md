@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：詞彙表
+title: Lync Server 2013： 詞彙
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183930
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 65d43f0641d61b60d05c11176fe38866a137e7fc
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6a559cd21bbd7f17c8e9a7c41a3965f5c71cf836
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763917"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048404"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="glossary-for-lync-server-2013"></a>Lync Server 2013 的詞彙表
+# <a name="glossary-for-lync-server-2013"></a>Lync Server 2013 的詞彙
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41763917"
 
 <span> </span>
 
-_**主題上次修改日期：** 2014-02-14_
+_**上次修改主題：** 2014年-02-14_
 
-本主題包含適用于 Microsoft Lync Server 2013 與 Microsoft Lync 2013 的字詞和定義。
+本主題包含有關 Microsoft Lync Server 2013 和 Microsoft Lync 2013 的詞彙與定義。
 
 <div id="sectionSection0" class="section">
 
@@ -49,70 +49,70 @@ _**主題上次修改日期：** 2014-02-14_
 </colgroup>
 <thead>
 <tr class="header">
-<th>字詞</th>
-<th>巨集定義</th>
+<th>術語</th>
+<th>定義</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>A/V 邊緣伺服器</p></td>
-<td><p>讓內部使用者與外部使用者共用音訊及視頻資料（也就是未登入內部網路的使用者）。</p></td>
+<td><p>A / V Edge server</p></td>
+<td><p>可讓內部使用者共用音訊與視訊資料與外部使用者 （也就是使用者未登您的內部網路）。</p></td>
 </tr>
 <tr class="even">
 <td><p>ACP</p></td>
-<td><p>可在公用交換電話網絡（PSTN）中提供音訊會議服務的協力廠商組織。</p></td>
+<td><p>透過公用交換的電話網路 (PSTN) 提供音訊會議服務的協力廠商組織。</p></td>
 </tr>
 <tr class="odd">
 <td><p>主動監視</p></td>
-<td><p>讓 Lync 系統管理員能夠透過公用網際網路跨資料中心監視池、伺服器和網路。</p></td>
+<td><p>讓 Lync 系統管理員能夠監視跨資料中心透過公用網際網路的集區、 伺服器和網路。</p></td>
 </tr>
 <tr class="even">
 <td><p>音訊會議提供者</p></td>
-<td><p>可在公用交換電話網絡（PSTN）中提供音訊會議服務的協力廠商組織。</p></td>
+<td><p>透過公用交換的電話網路 (PSTN) 提供音訊會議服務的協力廠商組織。</p></td>
 </tr>
 <tr class="odd">
 <td><p>音訊測試服務</p></td>
-<td><p>內建的工具，可讓您在實際呼叫前進行測試通話。 這可確保沒有任何嚴重的網路或其他可能會影響通話品質的問題。</p></td>
+<td><p>測試通話： 您可以進行實際呼叫之前的內建工具是。 這可確保沒有任何嚴重的網路或其他可能會影響通話品質的問題。</p></td>
 </tr>
 <tr class="even">
-<td><p>直播</p></td>
-<td><p>傳送給一或多個收件者。 在通訊和網路上，廣播訊息是一個散佈到所有工作站。</p></td>
+<td><p>廣播</p></td>
+<td><p>傳送給一個以上的收件者。 通訊中，在網路上的廣播的訊息是一分散給所有站台。</p></td>
 </tr>
 <tr class="odd">
-<td><p>旁路通話</p></td>
-<td><p>繞過中繼伺服器的呼叫。</p></td>
+<td><p>略過通話</p></td>
+<td><p>略過中繼伺服器通話。</p></td>
 </tr>
 <tr class="even">
 <td><p>通話駐留軌道</p></td>
-<td><p>通話駐留應用程式指派給寄存通話的號碼。</p></td>
+<td><p>指派給駐留通話的通話駐留應用程式數目。</p></td>
 </tr>
 <tr class="odd">
-<td><p>透過公司通話</p></td>
-<td><p>此選項可讓您使用公司電話進行撥出通話。 接收通話的人會在其本機號碼中看到來電者的公司電話號碼。</p></td>
+<td><p>呼叫從公司撥號</p></td>
+<td><p>回呼選項，藉以建立傳出呼叫使用的工作數目。 已接收通話的人會看到來電者，在其來電者識別碼的工作數目</p></td>
 </tr>
 <tr class="even">
-<td><p>方</p></td>
-<td><p>呼叫者撥打電話的人或地點。</p></td>
+<td><p>受話者</p></td>
+<td><p>來電者所撥打的對象或地方。</p></td>
 </tr>
 <tr class="odd">
-<td><p>呼叫</p></td>
-<td><p>撥打電話給其他人或地點的人。</p></td>
+<td><p>來電者</p></td>
+<td><p>撥打給其他人或地方的人。</p></td>
 </tr>
 <tr class="even">
-<td><p>鏡頭</p></td>
-<td><p>一種數位視訊裝置，用於錄製以數位格式移動影像和音訊。</p></td>
+<td><p>相機</p></td>
+<td><p>用於為數位格式中的 [錄製移動影像和音訊數位視訊裝置。</p></td>
 </tr>
 <tr class="odd">
 <td><p>中央管理伺服器</p></td>
-<td><p>部署中的一個前端池上的伺服器角色（每個組織一個），可用於管理並部署到執行 Lync Server 的所有伺服器的基本配置資料。 也提供 Lync Server 管理命令介面和檔案傳輸功能。</p></td>
+<td><p>伺服器角色 （一個組織各一個） 上一個前端集區中部署的管理，以及部署至執行 Lync Server 的所有伺服器的基本組態資料。 也會提供 Lync Server 管理命令介面和檔案傳輸功能。</p></td>
 </tr>
 <tr class="even">
-<td><p>用戶端版本篩選</p></td>
-<td><p>限制 Lync Server 環境中使用的用戶端版本。</p></td>
+<td><p>用戶端版本篩選器</p></td>
+<td><p>限制 Lync Server 環境中所使用的用戶端版本。</p></td>
 </tr>
 <tr class="odd">
 <td><p>用戶端版本原則</p></td>
-<td><p>一組用戶端版本規則，定義使用者嘗試使用特定用戶端和用戶端版本登入時所採取的動作。</p></td>
+<td><p>一組用戶端版本規則的定義當使用者嘗試登入特定的用戶端與用戶端版本時應採取的動作。</p></td>
 </tr>
 <tr class="even">
 <td><p>電話會議</p></td>
@@ -120,227 +120,227 @@ _**主題上次修改日期：** 2014-02-14_
 </tr>
 <tr class="odd">
 <td><p>會議服務</p></td>
-<td><p>內部或外部託管服務供使用者主持其電腦中的多方會議。</p></td>
+<td><p>由內部或外部主控的服務，可讓使用者從其電腦舉行多方會議。</p></td>
 </tr>
 <tr class="even">
 <td><p>連絡人清單</p></td>
-<td><p>您要與其通訊的人員、群組或組織清單。</p></td>
+<td><p>與您通訊之人員、群組或組織的清單。</p></td>
 </tr>
 <tr class="odd">
 <td><p>交談記錄</p></td>
-<td><p>Outlook 中儲存立即訊息和電話交談的資料夾。</p></td>
+<td><p>Outlook 中的資料夾，用以儲存立即訊息和電話交談。</p></td>
 </tr>
 <tr class="even">
 <td><p>資料會議</p></td>
-<td><p>一種即時通訊方式，其中的參與者在數個數據和檔案類型之間共用及共同作業。 此會話可以在內部伺服器、網際網路服務或兩者中託管。</p></td>
+<td><p>即時通訊參與者共用與共同作業數種資料及文件類型的其中一種方法。 工作階段可裝載在內部伺服器、 網際網路為基礎的服務，或兩者。</p></td>
 </tr>
 <tr class="odd">
 <td><p>撥出式會議</p></td>
-<td><p>此功能可使 A/V 會議伺服器呼叫使用者，且使用者會接聽電話加入會議。</p></td>
+<td><p>功能： A / V 會議伺服器撥話給使用者，因此使用者接聽電話加入會議。</p></td>
 </tr>
 <tr class="even">
-<td><p>雙音調多重頻率</p></td>
-<td><p>在含有按鍵 keypads 的電話中使用的信號系統，其中每個數位都與兩個特定頻率相關聯。</p></td>
+<td><p>複頻式訊號</p></td>
+<td><p>按鍵式鍵盤電話所使用的訊號系統，其每一位數字皆會與兩個特定頻率相關聯。</p></td>
 </tr>
 <tr class="odd">
 <td><p>動態記憶體</p></td>
-<td><p>Hyper-v 功能，其中會根據虛擬機器所需的記憶體量變化，調整可用於執行的虛擬機器的記憶體。</p></td>
+<td><p>HYPER-V 功能，在其中執行的虛擬機器的可用記憶體會調整以回應變更所需的虛擬機器的記憶體數量。</p></td>
 </tr>
 <tr class="even">
-<td><p>Edge 池</p></td>
-<td><p>在預設情況下，單一電腦池或多個電腦池可支援您組織中的遠端使用者使用虛擬私人網路（VPN）從防火牆以外登入 Lync Server。</p></td>
+<td><p>Edge pool</p></td>
+<td><p>在單一電腦集區或多部電腦集區]，依預設，支援遠端使用者登入 Lync Server 從防火牆外使用虛擬私人網路 (VPN) 貴組織中。</p></td>
 </tr>
 <tr class="odd">
-<td><p>增強型9-1-1</p></td>
-<td><p>提供呼叫9-1-1 之來電者位置資訊的服務。</p></td>
+<td><p>增強型 9-1-1</p></td>
+<td><p>提供撥打 9-1-1 之來電者位置相關資訊的服務。</p></td>
 </tr>
 <tr class="even">
 <td><p>增強的簡報者控制項</p></td>
-<td><p>Lync 會議主持者和簡報者控制項的集合，可為參與者提供的會議類型、物件大小、內容及/或影片來源進行優化。</p></td>
+<td><p>最佳化的會議，大小的對象、 內容及/或提供給參與者的視訊來源類型的 Lync 會議主應用程式和簡報者控制項集合。</p></td>
 </tr>
 <tr class="odd">
 <td><p>前端集區</p></td>
-<td><p>一組前端伺服器（配置相同）共同作業，共同為使用者群組提供服務。</p></td>
+<td><p>前端伺服器，設定都相同，會共同運作來為常見的使用者群組提供服務的一組。</p></td>
 </tr>
 <tr class="even">
 <td><p>IM 會議服務</p></td>
-<td><p>在 Lync Server 或 Office 通訊伺服器前端伺服器上執行的服務，可在多方立即訊息（IM）會話中混合和管理來自多個用戶端的輸入。</p></td>
+<td><p>在 Lync Server 或 Office Communications Server 前端伺服器上執行的服務，可以混合及管理多方立即訊息 (IM) 工作階段中的多個用戶端輸入。</p></td>
 </tr>
 <tr class="odd">
-<td><p>加入啟動器</p></td>
-<td><p>在現有的 Lync Web App IIS 網頁元件中。 讓使用者可以選擇使用行動裝置加入會議。</p></td>
+<td><p>Join Launcher</p></td>
+<td><p>現有的 Lync Web App IIS web 元件的一部分。 讓使用者可以選擇性地加入會議所使用的行動裝置。</p></td>
 </tr>
 <tr class="even">
-<td><p>位置資訊服務器</p></td>
-<td><p>最初在國內緊急數位關聯 i2 網路架構中定義的網路節點，可解決針對 VoIP 電話使用者提供加強9-1-1 （E9-1）服務的中間方案。</p></td>
+<td><p>位置資訊伺服器</p></td>
+<td><p>原本的數字 3110 緊急 i2 網路架構中所定義的網路節點的地址繼續提供增強型 9-1-1 (E9-1-1) 服務的 VoIP 電話語音使用者的中間解決方案。</p></td>
 </tr>
 <tr class="odd">
-<td><p>位置資訊服務</p></td>
-<td><p>管理由增強型9-1-1 （E9-1-1）用戶端使用的網路元素和位置資料表的 web 服務。</p></td>
+<td><p>Location Information Service</p></td>
+<td><p>管理網路元素及位置的表格，以供增強型 9-1-1 (E9-1-1) 用戶端使用的網路服務。</p></td>
 </tr>
 <tr class="even">
 <td><p>長訊息</p></td>
-<td><p>持續聊天室中超過字元數限制的訊息。 如果超過字元限制，郵件將會顯示為&quot;長訊息。&quot;</p></td>
+<td><p>超過字元的限制的常設聊天室訊息。 如果超過字元限制，郵件將會顯示為&quot;長時間的郵件。&quot;</p></td>
 </tr>
 <tr class="odd">
 <td><p>Lync 2013 VDI 外掛程式</p></td>
-<td><p>提供在不發生延遲、抖動及資料包遺失問題的情況下，提供以 softphone 為基礎的音訊、影片及會議（對等與多方）的功能。</p></td>
+<td><p>提供可以有 softphone 式音訊、 視訊及會議 （端對端和多方） 沒有延遲、 抖動和封包遺失的問題。</p></td>
 </tr>
 <tr class="even">
-<td><p>Lync 會議</p></td>
-<td><p>表示可以排程或臨時使用 Lync 的體驗。 Lync 會議提供透過影片、音訊、立即訊息和內容共用與他人互動的功能。</p></td>
+<td><p>Lync Meeting</p></td>
+<td><p>代表可排程的 Lync 或臨機操作的體驗。 Lync 會議提供互動透過視訊、 音訊、 立即訊息、 人員和內容共用的能力。</p></td>
 </tr>
 <tr class="odd">
 <td><p>Lync 會議視窗</p></td>
-<td><p>代表處理升級（對等會議）與可伸縮視圖（在 Lync 會議中同時顯示人員和內容）的 [交談] 視窗。</p></td>
+<td><p>代表會處理擴大 （對等端對端加入會議） 的 [交談] 視窗和可擴充的檢視，顯示人員和內容一起內 Lync 會議。</p></td>
 </tr>
 <tr class="even">
 <td><p>Lync Server 管理命令介面</p></td>
-<td><p>在 Windows PowerShell 技術上建立的管理命令列介面，包含一組可協助控制管理和自動化的 Cmdlet。</p></td>
+<td><p>以 Windows PowerShell 技術建立的管理命令列介面，其包含一組 Cmdlet，可協助控制管理及自動化作業。</p></td>
 </tr>
 <tr class="odd">
-<td><p>Lync Web 排程器</p></td>
-<td><p>針對沒有 Microsoft Outlook 存取權的使用者，或位於不是以 Windows 為基礎的作業系統上，提供以網路為基礎的會議排程與管理工具。 使用 Lync Web 排程器，您可以建立新的會議、變更現有的會議，以及使用您最愛的電子郵件程式傳送邀請。</p></td>
+<td><p>Lync Web Scheduler</p></td>
+<td><p>Web 式會議排程功能和管理工具的使用者沒有存取 Microsoft Outlook 中，或在作業系統上不採用 Windows。 使用 Lync Web Scheduler，您可以建立新的會議，變更您現有的會議，並傳送邀請使用您最愛的電子郵件程式。</p></td>
 </tr>
 <tr class="even">
-<td><p>Lync 對電話</p></td>
-<td><p>Lync Online 的選擇性功能，可讓使用者使用 Lync 從傳統網路撥打電話及接聽來電。 此功能僅適用于語音規劃客戶，且系統管理員必須使用 Lync 對電話提供者登入，才能取得該功能。</p></td>
+<td><p>Lync 至電話</p></td>
+<td><p>Lync online，可讓使用者進行通話，並接聽從傳統網路使用 Lync 選用功能。 語音規劃客戶只可以使用此功能就與系統管理員必須使用 Lync 的電話提供者登入以取得此功能。</p></td>
 </tr>
 <tr class="odd">
-<td><p>in</p></td>
-<td><p>將聲波轉換成類比電氣信號的裝置。 其他硬體可將麥克風的輸出轉換成電腦可以處理的數位資料;例如，若要錄製多媒體檔案或分析聲音信號。</p></td>
+<td><p>麥克風</p></td>
+<td><p>聲音經轉換成類比電子信號轉換裝置。 額外的硬體可以將麥克風的輸出轉換成數位資料電腦能處理;例如，若要記錄多媒體文件或分析的音效的訊號。</p></td>
 </tr>
 <tr class="even">
-<td><p>Microsoft Lync Server 行動服務</p></td>
-<td><p>此服務支援 Lync 功能，例如立即訊息（IM）、目前狀態，以及下列行動裝置上的連絡人： iPhone、iPad、Android、Windows Phone 和 Nokia。</p></td>
+<td><p>Microsoft Lync Server Mobility Service</p></td>
+<td><p>此服務支援下列行動裝置上的 Lync 功能，例如立即訊息 (IM)、 目前狀態和連絡人： iPhone、 iPad、 Android、 Windows Phone 和 Nokia。</p></td>
 </tr>
 <tr class="odd">
-<td><p>Microsoft 推播通知服務</p></td>
-<td><p>將新事件（例如立即訊息邀請或未接來電）傳送到 Windows Phone 行動裝置的通知服務。</p></td>
+<td><p>Microsoft 推入通知服務</p></td>
+<td><p>傳送新的事件，例如立即訊息邀請或 Windows Phone 行動裝置的未接的來電通知服務。</p></td>
 </tr>
 <tr class="even">
-<td><p>多個目前狀態點</p></td>
-<td><p>單一使用者以多個用戶端登入 Lync Server 或 Office 通訊伺服器伺服器的能力。</p></td>
+<td><p>多點登入</p></td>
+<td><p>單一使用者從多個用戶端登入 Lync Server 或 Office Communications Server 伺服器的能力。</p></td>
 </tr>
 <tr class="odd">
 <td><p>網路網站間原則</p></td>
-<td><p>定義直接連結到 [通話許可控制] （CAC）配置中的網站之間的頻寬限制。</p></td>
+<td><p>定義直接連結在通話許可控制 (CAC) 設定中的站台之間的頻寬限制。</p></td>
 </tr>
 <tr class="even">
-<td><p>網路區域</p></td>
-<td><p>在通話許可控制、E9-1 及媒體旁路設定中使用的網路中心或 backbones。 它們會跨多個地理區域相互連接網路元件，而且每個網路區域都必須與一個中央網站建立關聯。</p></td>
+<td><p>網路地區</p></td>
+<td><p>網路集線器或骨幹的組態中所用的通話許可控制、 E9-1-1 和媒體旁路。 他們 interconnect 網路的部分跨越多個地理區域，且每個網路地區必須與中央網站相關聯。</p></td>
 </tr>
 <tr class="odd">
 <td><p>網路網站</p></td>
-<td><p>具有類似頻寬的子網集合，例如分支辦公室位置、一組建築物或校園。</p></td>
+<td><p>具有類似的頻寬，例如分公司位置、 建築物，一組或校園的子網路的集合。</p></td>
 </tr>
 <tr class="even">
-<td><p>Office Web Apps 伺服器</p></td>
-<td><p>在 Lync Server 中與 Office Web 應用程式搭配使用的伺服器角色，用來處理 PowerPoint 簡報的共用和轉譯。</p></td>
+<td><p>Office Web Apps Server</p></td>
+<td><p>搭配 Lync Server 以處理的共用與轉譯的 PowerPoint 簡報中的 Office Web 應用程式伺服器角色。</p></td>
 </tr>
 <tr class="odd">
 <td><p>OneNote 共用</p></td>
-<td><p>此功能可讓使用者在 Lync 會議中建立和共用 OneNote 會議筆記。 在 Lync 會議中，筆記會顯示為固定，在會議記事中可以更新參與者清單來查看。</p></td>
+<td><p>[] 功能，可讓使用者建立及共用 OneNote 會議 Lync 會議中的備忘稿。 附註會顯示為固定在 Lync 會議中，可以更新會議的參與者看到備忘稿中的參與者清單。</p></td>
 </tr>
 <tr class="even">
-<td><p>輸出轉換規則</p></td>
-<td><p>將電話號碼轉換成本機撥號格式的規則，以與私人分支 exchange （PBX）系統互動。</p></td>
+<td><p>外撥轉譯規則</p></td>
+<td><p>將電話號碼轉換為專用交換機 (pbx) 系統互動的本機撥號格式規則。</p></td>
 </tr>
 <tr class="odd">
-<td><p>持續聊天</p></td>
-<td><p>一種聊天類型，可讓您將訊息張貼到聊天室，讓多個參與者即時查看並回應。 使用者可以在 Lync 的群組中，依名稱、成員/擁有者、關鍵字及內容來搜尋其他聊天室。</p></td>
+<td><p>常設聊天室</p></td>
+<td><p>一種郵件張貼至聊天室其中他們可以檢視及回應即時由多個參與者的聊天室。 使用者可以搜尋群組從 Lync 為其他聊天室依照名稱、 成員/擁有者、 關鍵字、 和內容。</p></td>
 </tr>
 <tr class="even">
-<td><p>個人預覽版</p></td>
-<td><p>Lync 使用者的影片預覽，提供可在通知內從影片應答的選項。</p></td>
+<td><p>個人預覽</p></td>
+<td><p>提供從內通知的影片的選項，以接聽 Lync 使用者的視訊預覽。</p></td>
 </tr>
 <tr class="odd">
 <td><p>目前狀態</p></td>
-<td><p>其中一個屬性會構成目前狀態，也就是指示人員的可用性和溝通意願。</p></td>
+<td><p>組成目前狀態的屬性之一，可指出人員是否有空及通訊意願。</p></td>
 </tr>
 <tr class="even">
-<td><p>在場</p></td>
-<td><p>代表簡報 PowerPoint 簡報的共用活動。 只會顯示 PowerPoint 檔，且只有簡報者可以編輯所呈現的內容。</p></td>
+<td><p>存在</p></td>
+<td><p>指出提供 PowerPoint 簡報的共用活動。只會顯示 PowerPoint 文件，而且只有簡報者可以編輯所提供的內容。</p></td>
 </tr>
 <tr class="odd">
 <td><p>PSTN 使用方式記錄</p></td>
-<td><p>公用交換電話網絡（PSTN）使用記錄指定呼叫類別（例如內部、當地或長途），可供不同的使用者或組織中的使用者群組所組成。</p></td>
+<td><p>公用交換的電話網路 (PSTN) 使用方式記錄在組織裡指定類別 （例如內部、 區域或長途電話） 可以各種使用者所做的通話或使用者群組。</p></td>
 </tr>
 <tr class="even">
 <td><p>公用雲端</p></td>
-<td><p>雲端基礎結構通常由銷售雲端服務的組織所擁有和管理。 資源由一般公用或一組客戶共用，以優化利用率。</p></td>
+<td><p>雲端基礎結構通常擁有和管理組織的 sells 雲端服務。 一般大眾或一群客戶的共用資源以最佳化使用率率。</p></td>
 </tr>
 <tr class="odd">
-<td><p>公用 IM 連線聯絡人</p></td>
-<td><p>從 AOL、Yahoo！、MSN 或 Windows Live Internet 服務網路使用立即 messenger 用戶端的連絡人。</p></td>
+<td><p>公用 IM 連線連絡人</p></td>
+<td><p>從網際網路服務的 AOL、Yahoo、MSN 或 Windows Live 網路使用立即訊息用戶端的連絡人。</p></td>
 </tr>
 <tr class="even">
 <td><p>快速 Lync</p></td>
-<td><p>出現在 Lync 連絡人清單中的連絡人圖片區域旁邊的功能表列，顯示可用的通訊模式： IM、通話、影片和觀賞卡片。</p></td>
+<td><p>在 Lync 連絡人清單中顯示可用的通訊模式的連絡人圖片區域旁邊會出現的功能表列： IM、 電話、 視訊和檢視卡片。</p></td>
 </tr>
 <tr class="odd">
-<td><p>ringback</p></td>
-<td><p>在指定的時間之後將來電轉移回其暫停之人的功能，讓來電者不會無限期保留。</p></td>
+<td><p>回電</p></td>
+<td><p>特定時間後，將來電轉接至駐留通話者的功能，讓來電者不需無限期保留通話。</p></td>
 </tr>
 <tr class="even">
-<td><p>可伸縮的影片編碼</p></td>
-<td><p>編碼高品質視頻 bitstreams 的視訊壓縮標準。 支援功能可讓會議服務器根據接收端點的功能和頻寬，判斷 bitstreams 在接收用戶端之間的流動方式。</p></td>
+<td><p>可擴充的視訊編碼</p></td>
+<td><p>視訊壓縮比標準將高品質的視訊位元編碼。 支援的功能，可讓會議伺服器來決定如何位元應該流程之間接收用戶端，根據功能和頻寬接收方端點。</p></td>
 </tr>
 <tr class="odd">
 <td><p>秘密聊天室</p></td>
-<td><p>在 Lync 持續聊天功能中，已設定最受限制保密等級的聊天室。 只有秘密聊天室的成員可以找到、查看誰參與、追蹤，或是在其中進行閱讀及張貼。</p></td>
+<td><p>在 Lync 常設聊天室功能中，具有最嚴格的隱私權層級設定的空間。 只有秘密聊天室的成員可以找到它，請參閱誰參與它，依照指示作業，或讀取 and 張貼在其中。</p></td>
 </tr>
 <tr class="even">
-<td><p>Survivable 分支伺服器</p></td>
-<td><p>執行 Windows Server 且符合指定硬體需求且已在其上安裝 Lync Server 註冊機構和中繼伺服器軟體的伺服器。 就像 Survivable 分支裝置一樣，此裝置可在 WAN 中斷期間為分支使用者提供語音信箱留存能力。</p></td>
+<td><p>Survivable Branch Server</p></td>
+<td><p>執行 Windows Server 符合伺服器指定硬體需求，並已在其上安裝 Lync Server 登錄器和中繼伺服器軟體。 像 Survivable Branch Appliance，此裝置可以分支使用者提供語音信箱生存能力在 WAN 中斷期間。</p></td>
 </tr>
 <tr class="odd">
 <td><p>主題摘要</p></td>
-<td><p>根據您正在追蹤的持續聊天室提供資訊和通知的摘要。</p></td>
+<td><p>提供資訊及通知根據常設聊天室，您的摘要如下所述。</p></td>
 </tr>
 <tr class="even">
-<td><p>拓撲建立器</p></td>
-<td><p>Lync Server 的安裝元件，用來顯示、調整及驗證規劃的拓撲。</p></td>
+<td><p>拓撲產生器</p></td>
+<td><p>Lync Server 安裝元件用來顯示、 調整以及驗證計劃的拓撲。</p></td>
 </tr>
 <tr class="odd">
 <td><p>使用者服務</p></td>
-<td><p>用來協助維護目前狀態資訊與管理會議的配置設定。</p></td>
+<td><p>可用於幫助維持目前狀態資訊及管理會議的組態設定。</p></td>
 </tr>
 <tr class="even">
-<td><p>使用者服務池</p></td>
-<td><p>提供目前狀態資訊並協助管理喜好設定。</p></td>
+<td><p>使用者服務集區</p></td>
+<td><p>提供目前狀態資訊，並協助管理喜好設定。</p></td>
 </tr>
 <tr class="odd">
-<td><p>使用者服務服務</p></td>
-<td><p>Lync Server 服務可用來協助維護使用者的目前狀態資訊，以及管理會議與會議。</p></td>
+<td><p>使用者服務 」 服務</p></td>
+<td><p>Lync Server 服務，用來協助維護使用者的目前狀態資訊及管理會議與會議。</p></td>
 </tr>
 <tr class="even">
-<td><p>影片通話</p></td>
-<td><p>以對等功能連接 Lync 使用者的通話。 使用者可以指向 [連絡人] 視圖中的連絡人，然後按一下 [視頻通話] 圖示，即可開始進行視頻通話。</p></td>
+<td><p>視訊通話</p></td>
+<td><p>通話的端對端功能會將 Lync 使用者。 使用者可以啟動視訊通話指向 [連絡人] 檢視中的連絡人，然後按一下 [視訊通話圖示。</p></td>
 </tr>
 <tr class="odd">
-<td><p>支援視頻</p></td>
-<td><p>Lync 連絡人卡片上指出已啟用相機的狀態。</p></td>
+<td><p>具備的影片</p></td>
+<td><p>啟用指出攝影機 Lync 連絡人卡片上的狀態。</p></td>
 </tr>
 <tr class="even">
-<td><p>影片品質通知</p></td>
-<td><p>Lync 使用者有關網路品質、電腦、相機和照明條件的警示。</p></td>
+<td><p>視訊品質通知</p></td>
+<td><p>Lync 使用者的網路、 電腦、 網路攝影機及光源條件品質的相關警示。</p></td>
 </tr>
 <tr class="odd">
-<td><p>影片焦點</p></td>
-<td><p>可讓簡報者選取一個人員的影片摘要的模式，讓會議中的每位參與者都只會看到該參與者。</p></td>
+<td><p>視訊焦點</p></td>
+<td><p>一種模式，可讓簡報者選取某個人的視訊播放，以便在會議中的每位參與者僅看到該參與者。</p></td>
 </tr>
 <tr class="even">
 <td><p>語音原則</p></td>
-<td><p>針對指派原則的每個使用者、網站或組織定義下列專案：一組通話功能，可讓您啟用或停用，以判斷使用者可以使用的企業語音功能。 此外，也就是一組 PSTN 使用記錄，定義授權的呼叫類型。</p></td>
+<td><p>定義每個使用者、 網站或指派原則的組織下列項目： 一群呼叫功能，可啟用或停用，以決定提供給使用者的 Enterprise Voice 功能。 此外，一組定義何種類型的呼叫會獲授權的 PSTN 使用方式記錄。</p></td>
 </tr>
 <tr class="odd">
-<td><p>語音路線</p></td>
-<td><p>此路線包含指示 Lync Server 如何將來自企業語音使用者的呼叫路由至公用交換電話網絡（PSTN）或私人分支交換（PBX）電話號碼的指示。</p></td>
+<td><p>語音路由</p></td>
+<td><p>路由包含一些指示，告知 Lync Server 如何從 Enterprise Voice 使用者的來電轉接至公用交換的電話網路 (PSTN) 或專用交換機 (PBX) 上的電話號碼。</p></td>
 </tr>
 <tr class="even">
-<td><p>網路會議</p></td>
-<td><p>使用白板和桌面共用，透過網路會議服務（例如資料共用）及上傳檔和 PowerPoint 簡報所提供的功能。</p></td>
+<td><p>web 會議</p></td>
+<td><p>資料共用，以及使用白板和桌面共用上傳文件與 PowerPoint 簡報，例如 Web 會議服務所提供的功能。</p></td>
 </tr>
 </tbody>
 </table>

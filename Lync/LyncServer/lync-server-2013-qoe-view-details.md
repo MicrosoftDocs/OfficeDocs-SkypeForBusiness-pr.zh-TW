@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： QoE 查看詳細資料
+title: 'Lync Server 2013: QoE 檢視詳細資料'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733677
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d47fb90b7ffb9eb0cb7fcd1631a0f00ca249276a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c5195067fcd02db0be6dd1838af44f5ed51ddb6a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724603"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045765"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="qoe-view-details-in-lync-server-2013"></a>QoE Lync Server 2013 中的 [查看詳細資料]
+# <a name="qoe-view-details-in-lync-server-2013"></a>Lync Server 2013 中的 QoE 檢視詳細資料
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41724603"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-03_
+_**主題上次修改日期：** 2012年-10-03_
 
-[視圖] 涵蓋從 QoE SQL 資料庫傳回資料最常見的案例。 它是用來建立自訂報表的建議視圖，而不是直接存取資料庫資料表;這是因為視圖更可能會維持與未來版本的向後相容性。
+檢視涵蓋從 QoE SQL 資料庫傳回資料時最常見的案例。 此為建議的檢視，可用來建立自訂報告，而非直接存取資料庫資料表；那是因為檢視較可能維持與日後版本的回溯相容性。
 
 
 <table>
@@ -47,34 +47,34 @@ _**主題上次修改日期：** 2012-10-03_
 </colgroup>
 <thead>
 <tr class="header">
-<th>[視圖名稱]</th>
-<th>說明</th>
+<th>檢視名稱</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="lync-server-2013-audiostreamdetail-view.md">Lync Server 2013 中的 [AudioStreamDetail] 視圖</a></p></td>
-<td><p>儲存資料庫中每個音訊資料流程的相關資訊。</p></td>
+<td><p><a href="lync-server-2013-audiostreamdetail-view.md">Lync Server 2013 中的 AudioStreamDetail 檢視</a></p></td>
+<td><p>儲存資料庫中每個音訊資料流的資訊。</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-medialine-view.md">Lync Server 2013 中的 [MediaLine] 視圖</a></p></td>
-<td><p>儲存資料庫中每個媒體線的相關資訊。 一個音訊會話通常包含一個音訊媒體線。 一個音訊與影片（A/V）會話通常包含一個音訊媒體線和一個影片媒體線;不過，如果使用會議裝置或使用圖庫視圖，該會話可能會包含兩個視頻媒體線。</p></td>
+<td><p><a href="lync-server-2013-medialine-view.md">Lync Server 2013 中的 MediaLine 檢視</a></p></td>
+<td><p>儲存資料庫中每個媒體行的資訊。 一個音訊工作階段通常包含一個音訊媒體行。 一個音訊和視訊 (A/V) 工作階段通常包含一個音訊媒體行和一個視訊媒體行；不過，如果使用會議裝置或使用圖庫檢視，則工作階段可能包含兩個媒體行。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-networkconfigurationsettings-view.md">Lync Server 2013 中的 [NetworkConfigurationSettings] 視圖</a></p></td>
-<td><p>儲存網路設定的相關資訊。</p></td>
+<td><p><a href="lync-server-2013-networkconfigurationsettings-view.md">Lync Server 2013 中的 NetworkConfigurationSettings 檢視</a></p></td>
+<td><p>儲存網路設定的資訊。</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-session-view.md">Lync Server 2013 中的 [會話] 視圖</a></p></td>
-<td><p>儲存在資料庫中有記錄的會話的相關資訊。</p></td>
+<td><p><a href="lync-server-2013-session-view.md">Lync Server 2013 中的工作階段檢視</a></p></td>
+<td><p>儲存在資料庫中擁有記錄之工作階段的資訊。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-useragent-view.md">Lync Server 2013 中的 [UserAgent] 視圖</a></p></td>
-<td><p>儲存在資料庫中有記錄的會話中所涉及之使用者代理程式的相關資訊。</p></td>
+<td><p><a href="lync-server-2013-useragent-view.md">Lync Server 2013 中的 UserAgent 檢視</a></p></td>
+<td><p>儲存使用者代理程式的資訊，這些使用者代理程式與在資料庫中擁有記錄的工作階段相關。</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-videostreamdetail-view.md">Lync Server 2013 中的 [VideoStreamDetail] 視圖</a></p></td>
-<td><p>儲存資料庫中每個影片資料流程的相關資訊。</p></td>
+<td><p><a href="lync-server-2013-videostreamdetail-view.md">Lync Server 2013 中的 VideoStreamDetail 檢視</a></p></td>
+<td><p>儲存在資料庫中每個視訊資料流的資訊。</p></td>
 </tr>
 </tbody>
 </table>

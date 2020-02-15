@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：適用于會議的位置路由需求
+title: 電話撥入會議的位置型路由的 Lync Server 2013： 需求
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 56335085
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ac57a32476d80ab1aca5d2ad0928e2862a4c8558
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9a5e97ed5e762b35489eac0b69fbfcad45a8e822
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723813"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050435"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="requirements-for-location-based-routing-for-conferencing-in-lync-server-2013"></a>Lync Server 2013 中針對位置路由的會議需求
+# <a name="requirements-for-location-based-routing-for-conferencing-in-lync-server-2013"></a>Lync Server 2013 中的會議位置型路由的需求
 
 </div>
 
@@ -35,33 +35,33 @@ ms.locfileid: "41723813"
 
 <span> </span>
 
-_**主題上次修改日期：** 2013-07-19_
+_**上次修改主題：** 2013年-07-19_
 
-以下是安裝與設定以位置為基礎的路由會議應用程式所需的需求：
+所需的安裝與設定位置型路由會議應用程式的需求如下：
 
-  - Lync Server 2013 累計更新2必須部署在您拓撲中的所有伺服器或池上。
+  - 必須在所有伺服器或集區拓撲中的部署 Lync Server 2013 累計更新 2年。
 
 <div>
 
 
 > [!NOTE]  
-> 如果您拓撲中的 Lync server 或 pool 沒有安裝 Lync Server 2013 累積更新2或更新版本，則無法保證 Lync 會議的位置路由。
+> 如果在 Lync server 或集區拓撲中的不需要 Lync Server 2013 累計更新 2年或更新版本，不能保證的 Lync 會議的位置型路由的強制執行。
 
 
 
 </div>
 
-  - Lync Server 2013 以位置為基礎的路由是位置路由會議應用程式的先決條件。 如需有關設定 Lync Server 2013 位置路由的進一步資訊，請參閱設定以[位置為基礎的路由](lync-server-2013-configuring-location-based-routing.md)。
+  - Lync Server 2013 位置型路由是依位置路由會議應用程式的必要條件。 如需設定 Lync Server 2013 Location-Based 路由的進一步資訊，請參閱[Configuring Location-Based 路由](lync-server-2013-configuring-location-based-routing.md)。
 
-  - 以位置為基礎的路由會議應用程式的需求與 Lync Server 2013 位置路由的需求相同。 如需詳細資訊，請參閱[規劃以位置為基礎的路由](lync-server-2013-planning-for-location-based-routing.md)。
+  - 位置型路由會議應用程式的需求都是 Lync Server 2013 Location-Based 路由的需求相同。 如需詳細資訊，請參閱[Planning for 位置型的路由](lync-server-2013-planning-for-location-based-routing.md)。
 
 <div>
 
 ## <a name="supported-servers"></a>支援的伺服器
 
-以位置為基礎的路由會議應用程式要求 Lync Server 2013 累計更新2部署在您拓撲中的所有前端池和標準版伺服器上。 如果您在拓撲中的部分 Lync 伺服器上沒有安裝 Lync Server 2013 累積更新2，則無法在 Lync 會議和諮詢式來電轉接上完全強制執行以位置為基礎的路由限制。
+位置型路由會議應用程式需要上所有的前端集區和 Standard Edition 伺服器，在您的拓撲中已部署了 Lync Server 2013 累計更新 2年。 如果您的拓樸某些 Lync 伺服器上未安裝 Lync Server 2013 累計更新 2年，位置型路由限制無法完全強制在 Lync 會議和諮詢呼叫傳輸。
 
-下表列出支援位置路由的伺服器角色與版本組合。
+下表列出伺服器角色和支援位置型路由的版本的組合。
 
 
 <table>
@@ -72,43 +72,43 @@ _**主題上次修改日期：** 2013-07-19_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>前端池版本</p></td>
+<td><p>前端集區版本</p></td>
 <td><p>中繼伺服器版本</p></td>
-<td><p>受</p></td>
+<td><p>支援</p></td>
 </tr>
 <tr class="even">
-<td><p>Lync Server 2013 累計更新2</p></td>
-<td><p>Lync Server 2013 累計更新2</p></td>
+<td><p>Lync Server 2013 累計更新 2</p></td>
+<td><p>Lync Server 2013 累計更新 2</p></td>
 <td><p>是</p></td>
 </tr>
 <tr class="odd">
-<td><p>Lync Server 2013 累計更新2</p></td>
-<td><p>Lync Server 2013 累計更新1</p></td>
+<td><p>Lync Server 2013 累計更新 2</p></td>
+<td><p>Lync Server 2013 累計更新 1</p></td>
 <td><p>否</p></td>
 </tr>
 <tr class="even">
-<td><p>Lync Server 2013 累計更新2</p></td>
+<td><p>Lync Server 2013 累計更新 2</p></td>
 <td><p>Lync Server 2010</p></td>
 <td><p>否</p></td>
 </tr>
 <tr class="odd">
-<td><p>Lync Server 2013 累計更新2</p></td>
-<td><p>Office 通訊伺服器 2007 R2</p></td>
+<td><p>Lync Server 2013 累計更新 2</p></td>
+<td><p>Office Communications Server 2007 R2</p></td>
 <td><p>否</p></td>
 </tr>
 <tr class="even">
-<td><p>Lync Server 2013 累計更新1</p></td>
-<td><p>每</p></td>
+<td><p>Lync Server 2013 累計更新 1</p></td>
+<td><p>任何</p></td>
 <td><p>否</p></td>
 </tr>
 <tr class="odd">
 <td><p>Lync Server 2010</p></td>
-<td><p>每</p></td>
+<td><p>任何</p></td>
 <td><p>否</p></td>
 </tr>
 <tr class="even">
-<td><p>Office 通訊伺服器 2007 R2</p></td>
-<td><p>每</p></td>
+<td><p>Office Communications Server 2007 R2</p></td>
+<td><p>任何</p></td>
 <td><p>否</p></td>
 </tr>
 </tbody>
@@ -121,47 +121,47 @@ _**主題上次修改日期：** 2013-07-19_
 
 ## <a name="supported-clients"></a>支援的用戶端
 
-支援 lync 會議以位置為基礎路由的 Lync 用戶端，是支援 Lync Server 2013 位置路由的相同用戶端。 如需詳細資訊，請參閱[用戶端與伺服器支援的位置路由](lync-server-2013-client-and-server-support-for-location-based-routing.md)。
+支援的 Lync 會議的位置 Routing Lync 用戶端將相同的用戶端支援 Lync Server 2013 Location-Based 路由。 如需詳細資訊，請參閱[用戶端與伺服器支援位置型的路由](lync-server-2013-client-and-server-support-for-location-based-routing.md)。
 
 </div>
 
 <div>
 
-## <a name="mediation-server-requirements-for-consultative-call-transfers"></a>針對諮詢式來電轉接的中繼伺服器需求
+## <a name="mediation-server-requirements-for-consultative-call-transfers"></a>諮詢轉接的中繼伺服器需求
 
-以位置為基礎的路由會議應用程式需要部署獨立的中繼伺服器，才能在諮詢式來電轉接上強制執行以位置為基礎的路由限制。
+位置型路由會議應用程式需要以強制執行諮詢轉接的位置型路由限制部署獨立中繼伺服器。
 
-若要強制進行依位置路由的諮詢式來電轉接，中繼伺服器必須與網路區域中的一個中繼伺服器對等（亦即 PBX、SIP 閘道等）建立關聯，且需要以位置為基礎的路由。 如果有其他的轉送伺服器對等部署在相同的網路區域中，則必須將中繼伺服器對等專案與不同的中繼伺服器產生關聯。 此需求如下所述：
+強制執行的諮詢轉接位置型路由，中繼伺服器必須與只有一個中繼伺服器對等網路建立關聯 (亦即 PBX、 SIP 閘道等等) 其中位置型路由是必要的網路地區。 如果其他媒體伺服器對等會部署在相同的網路地區中，將中繼伺服器對等網路必須與不同的中繼伺服器相關聯。 這項需求詳細說明，如下所示：
 
-  - 在每個多個中繼伺服器對等的情況下，如果將諮詢式來電轉接傳送給中繼伺服器對多個對等（例如 Pbx 和閘道）所設定的轉送伺服器，請諮詢如果允許透過某些 SIP trunks 進行諮詢式來電轉接，但不允許透過其他 SIP trunks，通話轉移遭到封鎖，以避免 PSTN 長途電話旁路。
+  - 每個多個中繼伺服器的單一中繼伺服器對等時諮詢的來電轉接會路由傳送到已設定至多個對等 （亦即 Pbx 與閘道） 的多個 SIP 主幹與諮詢中繼伺服器到中繼伺服器對等網路若要防止諮詢的來電轉接為允許通過某些 SIP 主幹，但不允許透過其他 SIP 主幹的 PSTN 通話費略過會阻止來電轉接。
     
-    例如，如果單一中繼伺服器提供服務于 PSTN 閘道伺服器對等與 PBX 轉送伺服器對等，則會觀察到下列行為：
+    例如，若是單一中繼伺服器 PSTN 閘道中繼伺服器對等和 PBX 中繼伺服器對等服務，將會遵守下列行為：
     
-      - 當來自特定網站的 Lync 使用者（亦即網站1）嘗試透過諮詢式轉接從不同的網站（亦即 site 2），從另一個網站（亦稱為 site 2）的 PSTN 端點轉接來電時，該呼叫將不能避免 PSTN 免付費旁路。
+      - 當從指定的網站 （亦即網站 1） Lync 使用者嘗試將來電轉接與 PSTN 端點給 Lync 使用者從不同的網站 (亦即 site 2) 透過諮詢轉接時，通話會不允許若要防止 PSTN 通話費略過。
     
-      - 當來自特定網站的 Lync 使用者（亦即網站1）嘗試從另一個網站（網站1）的 PBX 端點將來電轉接至 Lync 使用者（亦即 site 2）從顧問式轉接傳送時，即使該通話不會出現在潛在的 PSTN tol 中，也不允許呼叫。l 略過。
+      - 即使它不會造成潛在 PSTN 工具中，當從指定的網站 （亦即網站 1） Lync 使用者嘗試將來電轉接與中相同的網站 （網站 1） 的 PBX 端點給 Lync 使用者從不同的網站 (亦即 site 2) 透過諮詢轉接時，將不允許通話l 略過。
 
-  - 針對每個中繼伺服器對等不同的中繼伺服器
+  - 不同每中繼伺服器對等的中繼伺服器
     
-    當導向式轉接以中繼伺服器對等為目標時，會針對中繼伺服器所服務的單一中繼伺服器對等來評估諮詢式轉移。 如果網站中的所有其他 Mediations 伺服器對都是由個別的中繼伺服器提供服務，則會禁止或允許呼叫（根據其在 PSTN 免付費旁路中的可能性）。
+    當諮詢轉接財經中繼伺服器對等網路時，針對單一中繼伺服器所服務的中繼伺服器對等會評估諮詢轉接。 將不允許或允許通話總部在其可能會引起不論網站中所有其他 Mediations 伺服器對等的 PSTN 通話費略過，因為它們由不同的中繼伺服器服務。
     
-    例如，在個別的中繼伺服器為 PSTN 閘道轉送伺服器對等，以及 PBX 轉送伺服器對等時，系統會觀察到下列行為：
+    例如，在不同的中繼伺服器 PSTN 閘道中繼伺服器對等和 PBX 中繼伺服器對等服務，將會遵守下列行為：
     
-      - 當來自特定網站的 Lync 使用者（亦即網站1）嘗試透過諮詢式轉接從不同的網站（亦即 site 2），從另一個網站（亦稱為 site 2）的 PSTN 端點轉接來電時，該呼叫將不能避免 PSTN 免付費旁路。
+      - 當從指定的網站 （亦即網站 1） Lync 使用者嘗試將來電轉接與 PSTN 端點給 Lync 使用者從不同的網站 (亦即 site 2) 透過諮詢轉接時，通話會不允許若要防止 PSTN 通話費略過。
     
-      - 當來自特定網站的 Lync 使用者（亦即網站1）嘗試從另一個網站（網站1）的 PBX 端點將來電轉接至 Lync 使用者（亦即網站2）透過顧問式轉接傳送時，會允許通話，因為在潛在的 PSTN 免付費旁路中不會發生這種情況。運算.
+      - 當從指定的網站 （亦即網站 1） Lync 使用者嘗試將來電轉接與中相同的網站 （網站 1） 的 PBX 端點給 Lync 使用者從不同的網站 (亦即 site 2) 透過諮詢轉接時，通話會允許因為它不會造成潛在的 PSTN 通話費略過在ing。
 
 </div>
 
 <div>
 
-## <a name="capabilities-not-supported-by-the-location-based-routing-conferencing-application"></a>以位置為基礎的路由會議應用程式不支援的功能
+## <a name="capabilities-not-supported-by-the-location-based-routing-conferencing-application"></a>不受支援的位置型路由的會議應用程式的功能
 
-以位置為基礎的路由會議應用程式不支援下列功能：
+位置型路由會議應用程式不支援下列功能：
 
-  - 電話撥入式會議。 在電話撥入式會議中不能強制執行以位置為基礎的路由。 即使會議召集人是啟用位置路由的 Lync 使用者，任何對指定會議的撥入要求不會受到依位置路由的限制。
+  - 電話撥入式會議。 無法針對撥入式會議強制位置型的路由。 即使會議召集人 Lync 使用者啟用位置型的路由，指定會議的任何撥入要求不限制依位置型的路由。
 
-  - 建議您不要在需要強制執行位置式路由限制的區域中，設定會議存取號碼。
+  - 建議您不佈建位置型路由限制要強制執行的區域中的會議存取號碼。
 
 </div>
 

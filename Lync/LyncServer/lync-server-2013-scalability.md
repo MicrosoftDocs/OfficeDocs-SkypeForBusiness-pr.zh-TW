@@ -12,20 +12,20 @@ ms:contentKeyID: 48183995
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e6ff4828bdfddbfca7734836fdfdbe24f0b90c4a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 130b1958b418aa2b09e572f137598487dc2c3401
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765011"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049865"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="scalability-with-lync-server-2013"></a>使用 Lync Server 2013 的延展性
+# <a name="scalability-with-lync-server-2013"></a>搭配 Lync Server 2013 的延展性
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41765011"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-06-25_
+_**主題上次修改日期：** 2012年-06-25_
 
-Lync Server 提供兩種版本，即企業版和標準版。 不同的版本主要用於不同的組織大小。 如下表所示，這兩種版本都支援所有工作負載中的所有功能，除了高可用性和災害復原。
+Lync Server 被提供兩種版本，Enterprise Edition 與 Standard Edition。 不同版本主要適用於不同規模的組織。 如下表所示，兩種版本都支援除高可用性和災害復原外的所有工作負載中的所有功能。
 
 
 <table>
@@ -49,13 +49,13 @@ Lync Server 提供兩種版本，即企業版和標準版。 不同的版本主�
 <thead>
 <tr class="header">
 <th>功能</th>
-<th>在企業版中受到支援嗎？</th>
-<th>在標準版中受到支援嗎？</th>
+<th>Enterprise Edition 是否支援？</th>
+<th>Standard Edition 是否支援？</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>立即訊息（IM）與目前狀態</p></td>
+<td><p>立即訊息 (IM) 和目前狀態</p></td>
 <td><p>是</p></td>
 <td><p>是</p></td>
 </tr>
@@ -75,12 +75,12 @@ Lync Server 提供兩種版本，即企業版和標準版。 不同的版本主�
 <td><p>是</p></td>
 </tr>
 <tr class="odd">
-<td><p>企業語音</p></td>
+<td><p>Enterprise Voice</p></td>
 <td><p>是</p></td>
 <td><p>是</p></td>
 </tr>
 <tr class="even">
-<td><p>虛擬</p></td>
+<td><p>虛擬化</p></td>
 <td><p>是</p></td>
 <td><p>是</p></td>
 </tr>

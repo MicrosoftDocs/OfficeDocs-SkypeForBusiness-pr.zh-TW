@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：新回應群組應用程式功能
+title: Lync Server 2013： 新的回應群組應用程式的功能
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184196
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bddf1f670ef2a0a246100564962b2f69db741186
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f98261aaf40413c52598465338c9c198aca435f9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755897"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048307"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,27 +35,27 @@ ms.locfileid: "41755897"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-29_
+_**主題上次修改日期：** 2012年-10-29_
 
-透過回應群組應用程式，您可以將來電傳送給指定的人員，以進行特殊用途（例如客戶服務、內部技術支援人員或部門的一般電話支援）。
+「回應群組」應用程式可讓您基於特殊目的將來電轉接和保留給指定人員，例如客戶服務、內部服務台或部門的一般電話支援。
 
-下列回應群組應用程式功能是 Lync Server 2013 中的新功能：
+下列回應群組應用程式的功能是 Lync Server 2013 的新增功能：
 
   - **管理員角色**
     
-    Lync Server 2013 引入了新的 [回應群組管理員] 角色。 現在，回應群組有兩個管理角色： [回應群組管理員] 和 [回應群組管理員]。 雖然回應群組管理員仍可為任何回應群組設定任何元素，但管理員只能針對其擁有的回應群組設定特定元素。
+    Lync Server 2013 引進新的回應群組管理員角色。 現在有兩種管理角色的回應群組： 回應群組管理員及回應群組管理員。 雖然回應群組管理員仍然可以設定任何回應群組的任何項目，管理員可以設定僅限特定項目，僅適用於其所擁有的回應群組。
     
-    管理模型的這項改進帶來了回應群組的伸縮性，特別是大型部署案例。
+    系統管理模型中的這項改進功能有利於回應群組的延展性，特別適用於大型部署案例。
 
   - **高可用性**
     
-    回應群組應用程式的高可用性支援（以 SQL Server 鏡像的形式），是在 Lync Server 2013 的整體設定和部署的整體配置和部署中啟用。 如果您設定高可用性，且失去主要後端伺服器的連線，回應群組功能不會受到利用鏡像後端伺服器的影響。
+    整體設定與 Lync Server 2013 的高可用性的部署的一部分，會啟用回應群組應用程式，在 SQL Server 鏡像，表單中的高可用性支援。 如果您設定高可性且遺失與主要後端伺服器的連線，回應群組功能便不會因為使用鏡像的後端伺服器而受到影響。
     
-    在整個 Lync Server 2013 高可用性設定之外，無法個別啟用或設定回應群組應用程式的 SQL Server 鏡像支援。
+    支援 SQL Server 鏡像的回應群組應用程式不能個別啟用或設定的整體的 Lync Server 2013 的高可用性設定以外。
 
   - **災害復原**
     
-    已啟用回應群組應用程式的災害復原支援，這是整個 Lync Server 2013 災害復原設定中的設定與部署的一部分。 此外，回應群組的匯入及匯出 Cmdlet 支援將容錯移轉程式加入到主要池或新的池中。 如果主要池中出現停機，回應群組可以容錯移轉至備份池，然後在中斷結束時回到主要池或新的池中。
+    災害復原支援回應群組應用程式已啟用的設定資料庫和部署配對前端集區，屬於整體的 Lync Server 2013 災害復原設定的一部分。 此外，回應群組匯入與匯出 Cmdlet 支援對備份集區的容錯移轉程序和對主要集區或新集區的容錯回復程序。 如果主要集區中發生中斷，回應群組即會容錯移轉至備份集區，然後在中斷回復之後容錯回復至主要集區或新集區。
 
 <div id="sectionSection0" class="section">
 
@@ -63,10 +63,10 @@ _**主題上次修改日期：** 2012-10-29_
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
-[在 Lync Server 2013 中規劃回應群組](lync-server-2013-planning-for-response-groups.md)  
+[規劃 Lync Server 2013 中的回應群組](lync-server-2013-planning-for-response-groups.md)  
   
 
 </div>

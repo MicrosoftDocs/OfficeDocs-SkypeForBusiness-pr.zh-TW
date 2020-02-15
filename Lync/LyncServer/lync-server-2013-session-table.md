@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：Session 表格
+title: Lync Server 2013： 工作階段表格
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184626
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 81b97d6a7521add62817147ae87995508b841f2d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c252ef5cd96511875fa299f44ca2a707f766f59a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732393"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048944"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="session-table-in-lync-server-2013"></a>Lync Server 2013 中的 Session 表格
+# <a name="session-table-in-lync-server-2013"></a>Lync Server 2013 中的工作階段表格
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41732393"
 
 <span> </span>
 
-_**主題上次修改日期：** 2013-09-09_
+_**上次修改主題：** 2013年-09-09_
 
-每個記錄代表一個涉及音訊或音訊與影片的會話。 它包含有關會話的整體資訊。 會話是在兩個端點之間定義為音訊或視頻會話初始通訊協定（SIP）對話方塊。
+每筆記錄代表一個包括音訊或音訊和視訊工作階段。 它包含整體工作階段的相關資訊。 工作階段被指兩個端點之間的音訊或視訊工作階段初始通訊協定 (SIP) 對話方塊。
 
 
 <table>
@@ -49,9 +49,9 @@ _**主題上次修改日期：** 2013-09-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>左欄</strong></th>
+<th><strong>欄</strong></th>
 <th><strong>資料類型</strong></th>
-<th><strong>索引鍵/索引</strong></th>
+<th><strong>主索引鍵 /</strong></th>
 <th><strong>詳細資料</strong></th>
 </tr>
 </thead>
@@ -59,51 +59,51 @@ _**主題上次修改日期：** 2013-09-09_
 <tr class="odd">
 <td><p><strong>ConferenceDateTime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>首選</p></td>
-<td><p>從<a href="lync-server-2013-dialog-table.md">Lync Server 2013 的對話方塊表格中</a>參考。</p></td>
+<td><p>主要</p></td>
+<td><p>參考來源： <a href="lync-server-2013-dialog-table.md">Lync Server 2013 中的 Dialog 表格</a>。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionSeq</strong></p></td>
 <td><p>int</p></td>
-<td><p>首選</p></td>
-<td><p>從<a href="lync-server-2013-dialog-table.md">Lync Server 2013 的對話方塊表格中</a>參考。</p></td>
+<td><p>主要</p></td>
+<td><p>參考來源： <a href="lync-server-2013-dialog-table.md">Lync Server 2013 中的 Dialog 表格</a>。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ConferenceKey</strong></p></td>
 <td><p>int</p></td>
-<td><p>外</p></td>
-<td><p>[會議金鑰]。 <a href="lync-server-2013-conference-table.md">在 Lync Server 2013 的 [會議] 表格中</a>參考。</p></td>
+<td><p>Foreign</p></td>
+<td><p>會議索引鍵。 參考來源： <a href="lync-server-2013-conference-table.md">Lync Server 2013 中的會議表格</a>。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CorrelationKey</strong></p></td>
 <td><p>int</p></td>
-<td><p>外</p></td>
-<td><p>[關聯金鑰]。 從<a href="lync-server-2013-sessioncorrelation-table.md">Lync Server 2013 的 SessionCorrelation 資料表中</a>參考。</p></td>
+<td><p>Foreign</p></td>
+<td><p>相互關聯索引鍵。 參考來源： <a href="lync-server-2013-sessioncorrelation-table.md">Lync Server 2013 中的 SessionCorrelation 表格</a>。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DialogCategory</strong></p></td>
-<td><p>稍微</p></td>
+<td><p>位元</p></td>
 <td><p> </p></td>
-<td><p>對話方塊類別;0是 Lync Server 以進行轉送伺服器腿;1是將伺服器轉送到 PSTN 閘道腿。</p></td>
+<td><p>對話類別;0 是 Lync Server 中繼伺服器 leg;1 是中繼伺服器到 PSTN 閘道計量。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>MediationServerBypassFlag</strong></p></td>
-<td><p>稍微</p></td>
+<td><p>位元</p></td>
 <td></td>
-<td><p>該旗標指出通話是否被略過。</p></td>
+<td><p>指出通話略過如果旗標。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>MediaBypassWarningFlag</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>此欄位（如果有的話）會指出即使繞過的旁路 Id，也不會避開通話。 對於 Lync Server，只會定義一個值。</p>
-<p>0x0001 –預設網路介面卡的旁路旁路 ID。</p></td>
+<td><p>此欄位 (若有) 指出即使旁路識別碼相符，通話為何未經旁路處理。 Lync Server 的定義只能有一個值。</p>
+<p>0x0001 – 預設網路介面卡未知的旁路 ID。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>開始</strong></p></td>
+<td><p><strong>StartTime</strong></p></td>
 <td><p>datetime</p></td>
 <td><p> </p></td>
-<td><p>呼叫開始時間。</p></td>
+<td><p>通話開始時間。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>EndTime</strong></p></td>
@@ -114,74 +114,74 @@ _**主題上次修改日期：** 2013-09-09_
 <tr class="even">
 <td><p><strong>CallerPool</strong></p></td>
 <td><p>int</p></td>
-<td><p>外</p></td>
-<td><p>來電者的池子。 從<a href="lync-server-2013-pool-table.md">Lync Server 2013 的 [Pool] 資料表中</a>參考。</p></td>
+<td><p>Foreign</p></td>
+<td><p>發話者的集區。 參考來源： <a href="lync-server-2013-pool-table.md">Lync Server 2013 中的集區資料表</a>。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CalleePool</strong></p></td>
 <td><p>int</p></td>
-<td><p>外</p></td>
-<td><p>呼叫接收器的池子。 從<a href="lync-server-2013-pool-table.md">Lync Server 2013 的 [Pool] 資料表中</a>參考。</p></td>
+<td><p>Foreign</p></td>
+<td><p>受話者集區。 參考來源： <a href="lync-server-2013-pool-table.md">Lync Server 2013 中的集區資料表</a>。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CalleePAI</strong></p></td>
 <td><p>int</p></td>
-<td><p>外</p></td>
-<td><p>接收端點的 SIP p 斷言身分識別（PAI）中的 SIP URI。 從<a href="lync-server-2013-user-table.md">Lync Server 2013 的 [使用者] 資料表中</a>引用。</p></td>
+<td><p>Foreign</p></td>
+<td><p>在 [SIP p 聲稱的身分識別 (PAI) 接收方端點的 SIP URI。 參考來源：<a href="lync-server-2013-user-table.md">使用者在 Lync Server 2013 中的表格</a>。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CallerURI</strong></p></td>
 <td><p>int</p></td>
-<td><p>外</p></td>
-<td><p>來電者的 URI。 從<a href="lync-server-2013-user-table.md">Lync Server 2013 的 [使用者] 資料表中</a>引用。</p></td>
+<td><p>Foreign</p></td>
+<td><p>發話者的 URI。 參考來源：<a href="lync-server-2013-user-table.md">使用者在 Lync Server 2013 中的表格</a>。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CallerEndpoint</strong></p></td>
 <td><p>int</p></td>
-<td><p>外</p></td>
-<td><p>來電者的端點。 從<a href="lync-server-2013-endpoint-table.md">Lync Server 2013 的端點資料表中</a>引用。</p></td>
+<td><p>Foreign</p></td>
+<td><p>發話者端點。 參考來源： <a href="lync-server-2013-endpoint-table.md">Lync Server 2013 中的端點資料表</a>。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CallerUserAgent</strong></p></td>
-<td><p>稍微</p></td>
-<td><p>外</p></td>
-<td><p>來電者的使用者代理程式。 從<a href="lync-server-2013-useragent-table.md">Lync Server 2013 的 UserAgent 資料表中</a>參考。</p></td>
+<td><p>位元</p></td>
+<td><p>Foreign</p></td>
+<td><p>發話者的使用者代理程式。 參考來源： <a href="lync-server-2013-useragent-table.md">Lync Server 2013 中的 UserAgent 表格</a>。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CallPriority</strong></p></td>
-<td><p>Smallint</p></td>
+<td><p>smallint</p></td>
 <td></td>
 <td><p>此通話的優先順序。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ClassifiedPoorCall</strong></p></td>
-<td><p>稍微</p></td>
+<td><p>位元</p></td>
 <td></td>
-<td><p>此欄已棄用，且未在 Microsoft Lync Server 2013 中使用。 相反地，此資訊是在每個媒體的行基底報告。 如需詳細資訊，請參閱<a href="lync-server-2013-medialine-table.md">Lync Server 2013 中</a>的 [MediaLine] 資料表。</p></td>
+<td><p>此資料行已經被取代，並不適用於 Microsoft Lync Server 2013。 相反地，這項資訊會報告上的每個媒體行基底。 請參閱<a href="lync-server-2013-medialine-table.md">Lync Server 2013 中的來源： MediaLine table</a> ，如需詳細資訊。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CallerPAI</strong></p></td>
 <td><p>int</p></td>
-<td><p>外</p></td>
-<td><p>P-已斷言-撥打電話之使用者的身分識別。 P 斷言身分識別（PAI）是用來傳達撥打電話之使用者的真實身分識別。</p></td>
+<td><p>Foreign</p></td>
+<td><p>P-聲稱的身分識別打電話的使用者。 P 聲稱的識別 (PAI) 用來傳達使用者打電話，則為 true 身分識別。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CalleeEndpoint</strong></p></td>
 <td><p>int</p></td>
-<td><p>外</p></td>
-<td><p>接收通話的端點。</p></td>
+<td><p>Foreign</p></td>
+<td><p>接到電話的端點。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CalleeUserAgent</strong></p></td>
 <td><p>int</p></td>
-<td><p>外</p></td>
-<td><p>由接收通話的使用者所使用的使用者代理程式。 使用者代理代表用戶端端點裝置。</p></td>
+<td><p>Foreign</p></td>
+<td><p>使用者代理程式採用使用者已收到通話。 使用者代理程式代表的用戶端端點裝置。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CalleeUri</strong></p></td>
 <td><p>int</p></td>
-<td><p>外</p></td>
-<td><p>接收通話之使用者的 SIP URI。</p></td>
+<td><p>Foreign</p></td>
+<td><p>接到電話之使用者的 SIP URI。</p></td>
 </tr>
 </tbody>
 </table>

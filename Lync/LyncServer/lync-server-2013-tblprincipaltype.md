@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：tblPrincipalType
+title: 'Lync Server 2013: tblPrincipalType'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183787
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6731d0bcda6e4e66b1b498a5f1bf91023627b1f0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4da3af65a20d13ce4d4f1078e5ef76cbc67f402c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764083"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046166"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="tblprincipaltype-in-lync-server-2013"></a>Lync Server 2013 中的 tblPrincipalType
+# <a name="tblprincipaltype-in-lync-server-2013"></a>Lync Server 2013 中的參照 tblPrincipalType
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41764083"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-09-12_
+_**主題上次修改日期：** 2012年-09-12_
 
-tblPrincipalType 包含主要類型來分類 tblPrincipal 資料表中的內容。
+tblPrincipalType 含有主要類型以分類 tblPrincipal 表格中的項目。
 
-### <a name="columns"></a>分欄
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -49,37 +49,37 @@ tblPrincipalType 包含主要類型來分類 tblPrincipal 資料表中的內容�
 </colgroup>
 <thead>
 <tr class="header">
-<th>左欄</th>
-<th>類型</th>
-<th>說明</th>
+<th>欄</th>
+<th>類型	</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>ptypeID</p></td>
-<td><p>Smallint，not null</p></td>
-<td><p>主體類型 ID。</p></td>
+<td><p>smallint，非 null</p></td>
+<td><p>主體類型識別碼。</p></td>
 </tr>
 <tr class="even">
 <td><p>ptypeDesc</p></td>
-<td><p>Nvarchar （256），not null</p></td>
+<td><p>nvarchar (256)，非 null</p></td>
 <td><p>類型的描述。</p></td>
 </tr>
 <tr class="odd">
 <td><p>ptypeIsSystemUser</p></td>
-<td><p>bit、not null</p></td>
-<td><p>如果該類型對應到用於內部用途的主體，則為 True。</p></td>
+<td><p>位元，非 null</p></td>
+<td><p>如果類型對應至作為內部用途的主體，則為 True。</p></td>
 </tr>
 <tr class="even">
 <td><p>ptypeIsUser</p></td>
-<td><p>bit、not null</p></td>
-<td><p>如果該類型是使用者類型，則為 True。</p></td>
+<td><p>bit，非 null</p></td>
+<td><p>如果類型為使用者類型，則為 True。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="key"></a>機碼
+### <a name="key"></a>索引鍵
 
 <table>
 <colgroup>
@@ -88,20 +88,20 @@ tblPrincipalType 包含主要類型來分類 tblPrincipal 資料表中的內容�
 </colgroup>
 <thead>
 <tr class="header">
-<th>左欄</th>
-<th>說明</th>
+<th>欄</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>ptypeID</p></td>
-<td><p>主鍵。</p></td>
+<td><p>主索引鍵。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="principal-values"></a>主要值
+### <a name="principal-values"></a>主體值
 
 <table>
 <colgroup>
@@ -112,57 +112,57 @@ tblPrincipalType 包含主要類型來分類 tblPrincipal 資料表中的內容�
 </colgroup>
 <thead>
 <tr class="header">
-<th>標識號</th>
+<th>ID</th>
 <th>角色</th>
-<th>說明</th>
+<th>描述</th>
 <th>使用者</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>1</p></td>
-<td><p>每</p></td>
-<td><p>沒有已知類型的一般原則。 在 tblPrincipal 表格中未使用。</p></td>
+<td><p>1 </p></td>
+<td><p>任何</p></td>
+<td><p>不含已知類型的一般主體。不使用在 tblPrincipal 表格中。</p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p>2</p></td>
+<td><p>2 </p></td>
 <td><p>AnyUser</p></td>
-<td><p>使用者類型的一般主體。 在 tblPrincipal 表格中未使用。</p></td>
+<td><p>使用者類型的一般主體。不使用在 tblPrincipal 表格中。</p></td>
 <td><p>是</p></td>
 </tr>
 <tr class="odd">
-<td><p>3</p></td>
+<td><p>3 </p></td>
 <td><p>AnyGroup</p></td>
-<td><p>含有群組語義的一般主體。 在 tblPrincipal 表格中未使用。</p></td>
+<td><p>含群組語意的一般主體。不使用在 tblPrincipal 表格中。</p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p>4</p></td>
+<td><p>4 </p></td>
 <td><p>SystemUser</p></td>
-<td><p>永久聊天伺服器在內部使用的主要原則。</p></td>
+<td><p>Persistent Chat Server 在內部使用的主體。</p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>500</p></td>
+<td><p>5 </p></td>
 <td><p>使用者</p></td>
 <td><p>一般使用者。</p></td>
 <td><p>是</p></td>
 </tr>
 <tr class="even">
-<td><p>型</p></td>
+<td><p>8 </p></td>
 <td><p>DC</p></td>
-<td><p>Active Directory 網域服務網網域控制站。</p></td>
+<td><p>Active Directory 網域服務的網域控制站。</p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>9</p></td>
-<td><p>群組</p></td>
+<td><p>9 </p></td>
+<td><p>Group</p></td>
 <td><p>Active Directory 安全性群組。</p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p>第</p></td>
+<td><p>10 </p></td>
 <td><p>資料夾</p></td>
 <td><p>Active Directory 容器或組織單位。</p></td>
 <td></td>
@@ -173,7 +173,7 @@ tblPrincipalType 包含主要類型來分類 tblPrincipal 資料表中的內容�
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
 [Lync Server 2013 中的 tblPrincipal](lync-server-2013-tblprincipal.md)  
