@@ -12,16 +12,16 @@ ms:contentKeyID: 62387565
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e9bd597665f389c814fbdc8fe1745587fd3d1b3e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6712e22ffcdc2eaea9ae39be961bb50316beed5b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41766114"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034563"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,48 +35,48 @@ ms.locfileid: "41766114"
 
 <span> </span>
 
-_**主題上次修改日期：** 2014-05-28_
+_**上次修改主題：** 2014年-05-28_
 
-在解除池的授權前，您必須針對 Lync Server 2010 池中的每個會議目錄執行下列程式。
+解除委任集區之前您必須針對每個會議目錄執行下列程序 Lync Server 2010 集區中。
 
 <div>
 
-## <a name="to-move-a-conference-directory-to-lync-server-2013"></a>將會議目錄移至 Lync Server 2013
+## <a name="to-move-a-conference-directory-to-lync-server-2013"></a>若要將會議目錄移至 Lync Server 2013
 
 1.  開啟 Lync Server 管理命令介面。
 
-2.  若要取得貴組織中會議目錄的身分識別，請執行下列命令：
+2.  若要取得您的組織中會議目錄的身分識別，請執行下列命令：
     
         Get-CsConferenceDirectory
     
-    上述命令會傳回貴組織中的所有會議目錄。 因此，您可能會想要將結果限制在已解除授權的池中。 例如，如果您是使用完整的功能變數名稱（FQDN） pool01.contoso.net 來解除池，請使用此命令，將傳回的資料限制在該池中的會議目錄：
+    上述命令會傳回您組織中的所有會議目錄。 因此，您可能想要限制結果，以解除委任集區。 比方說，如果您打算解除委任集區與完整的網域名稱 (FQDN) pool01.contoso.net，使用此命令來限制傳回的資料會議目錄從該集區：
     
         Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"}
     
-    該命令只會傳回 ServiceID 屬性包含 FQDN pool01.contoso.net 的會議目錄。
+    該命令會傳回會議目錄 ServiceID 屬性包含 FQDN pool01.contoso.net 的位置。
 
-3.  若要移動會議目錄，請針對池中的每個會議目錄執行下列命令：
+3.  若要移動會議目錄，請執行下列命令以取得每個會議目錄集區中：
     
         Move-CsConferenceDirectory -Identity <Numeric identity of conference directory> -TargetPool <FQDN of pool where ownership is to be transitioned>
     
-    例如，若要移動會議目錄3，請使用此命令，並將 Lync Server 2013 池指定為 TargetPool：
+    例如，若要移動會議目錄 3，請使用此命令中，指定為 TargetPool 的 Lync Server 2013 集區：
     
         Move-CsConferenceDirectory -Identity 3 -TargetPool "pool02.contoso.net"
     
-    如果您想要移動一個資源池中的所有會議目錄，請使用類似下列的命令：
+    如果您想要移動的集區上的所有會議目錄，然後使用類似下列的命令：
     
         Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"} | Move-CsConferenceDirectory -TargetPool "pool02.contoso.net"
 
-如需有關解除授權 Lync 2010 池的完整、逐步指示，請參閱檔「卸載 Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=246227](http://go.microsoft.com/fwlink/p/?linkid=246227)Server 2010 並移除伺服器角色」（可供下載）。
+請參閱 「 解除安裝 Microsoft Lync Server 2010 及移除伺服器角色 」 的文件 (這可以從下載[http://go.microsoft.com/fwlink/p/?linkId=246227](http://go.microsoft.com/fwlink/p/?linkid=246227)) 如需在解除委任 Lync 2010 集區的完整、 逐步指示。
 
-移動會議目錄時，您可能會遇到下列錯誤：
+移動會議目錄時您可能會發生下列錯誤：
 
     WARNING: Move operation failed for conference directory with ID "5". Cannot perform a rollback because data migration might have already started. Retry the operation.
     WARNING: Before using the -Force parameter, ensure that you have exported the conference directory data using DBImpExp.exe and imported the data on the target pool. Refer to the DBImpExp-Readme.htm file for more information.
     Move-CsConferenceDirectory : Unable to cast COM object of type 'System._ComObject' to interface type 'Microsoft.Rtc.Interop.User.IRtcConfDirManagement'. 
     This operation failed because the QueryInterface call on the COM component for the interface with SID '{4262B886-503F-4BEA-868C-04E8DF562CEB}' failed due to the following error: The specified module could not be found.
 
-當 Lync Server 管理命令介面需要更新的 Active Directory 許可權集才能完成工作時，通常會發生此錯誤。 若要解決此問題，請關閉目前的管理命令介面實例，然後開啟一個新的 Shell 實例，然後重新執行命令，以移動會議目錄。
+Lync Server 管理命令介面需要更新的組 Active Directory 權限，才能完成工作時，通常就會發生此錯誤。 若要解決此問題，請關閉目前的執行個體的管理命令介面中，然後開啟命令介面的新執行個體並重新執行命令以將會議目錄移。
 
 </div>
 

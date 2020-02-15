@@ -1,5 +1,5 @@
 ---
-title: 移動 Exchange 整合訊息連絡人物件
+title: 移動 Exchange 整合通訊連絡人物件
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733612
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d79354522675daaf221052579b0863899d1176ee
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6c02e391fa66084a27e3790ccaf42753bcaeaa16
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756037"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034413"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="move-exchange-unified-messaging-contact-objects"></a>移動 Exchange 整合訊息連絡人物件
+# <a name="move-exchange-unified-messaging-contact-objects"></a>移動 Exchange 整合通訊連絡人物件
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41756037"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-19_
+_**主題上次修改日期：** 2012年-10-19_
 
-若要將自動語音應答（AA）及訂閱者存取（SA）連絡人物件遷移至新的 Lync Server 2013 部署，您必須先使用**CsExUmContact**和**CsExUmContact** Cmdlet，將舊版 Office 通訊伺服器 2007 R2 部署中的物件移至新的 lync server 2013 部署。 在 Exchange 伺服器上，您可以執行**ExchUCUtil** Windows PowerShell 腳本來針對新部署的 Lync pool 執行下列動作：
+將自動語音應答 (AA) 及訂戶存取 (SA) 連絡人物件移轉至新的 Lync Server 2013 部署中，您第一次物件從舊版 Office Communications Server 2007 R2 部署移至新的 Lync Server 2013 部署使用**Get-csexumcontact**和**Move-csexumcontact** cmdlet。 在 Exchange 伺服器上，然後執行**ExchUCUtil** Windows PowerShell 指令碼，以執行新部署的 Lync 集區下列動作：
 
-  - 將它新增到 [統一訊息 IP 閘道]。
+  - 將其新增至整合通訊 IP 閘道。
 
-  - 將它新增到 [整合訊息查尋] 群組。
+  - 將其新增至整合通訊群組搜尋。
 
 <div>
 
 
 > [!NOTE]  
-> 若要使用<STRONG>CsExUmContact</STRONG>和<STRONG>CsExUmContact</STRONG> Cmdlet，您必須是 [RTCUniversalUserAdmins] 群組的成員，並對儲存連絡人物件的 OU 擁有組織單位（OU）許可權。 您可以使用<STRONG>Grant OUPermission</STRONG> Cmdlet 來授與 OU 許可權。
+> 若要使用 <STRONG>Get-CsExUmContact</STRONG> 和 <STRONG>Move-CsExUmContact</STRONG> Cmdlet，您必須是 RTCUniversalUserAdmins 群組的成員，且具備連絡人物件存放所在的組織單位 (OU) 權限。使用 <STRONG>Grant-OUPermission</STRONG> Cmdlet，即可授與此 OU 權限。
 
 
 
@@ -59,41 +59,41 @@ _**主題上次修改日期：** 2012-10-19_
 
 1.  開啟 Lync Server 管理命令介面。
 
-2.  針對使用 Exchange UM 註冊的每個池（其中 pool1.contoso.net 是 Office 通訊伺服器 2007 R2 部署，pool2.contoso.net 是來自 Lync Server 2013 部署的 pool），請輸入以下命令：
+2.  每個集區與 Exchange UM （其中 pool1.contoso.net 是從 Office Communications Server 2007 R2 部署的集區，而 pool2.contoso.net 是從 Lync Server 2013 部署的集區） 註冊在命令列中，輸入下列命令：
     
         Get-CsExUmContact -Filter {RegistrarPool -eq "pool01.contoso.net"} | Move-CsExUmContact -Target pool02.contoso.net
     
-    若要驗證連絡人物件是否已移動，請執行**CsExumContact** Cmdlet，並確認**RegistrarPool**現在是指向新的池中。
+    若要確認連絡人物件是否移動，請執行 **Get-CsExumContact** Cmdlet 並確認 **[RegistrarPool]** 現在已指向新集區。
 
 </div>
 
 <div>
 
-## <a name="to-run-the-exchucutil-windows-powershell-script"></a>若要執行 ExchUCUtil Windows PowerShell 腳本
+## <a name="to-run-the-exchucutil-windows-powershell-script"></a>執行 ExchUCUtil Windows PowerShell 指令碼
 
-1.  以 Exchange 組織管理員許可權的使用者身分登入 Exchange UM 伺服器。
+1.  以具備 Exchange 組織系統管理員權限的使用者登入 Exchange UM Server。
 
-2.  流覽至 ExchUCUtil Windows PowerShell 腳本。
+2.  瀏覽至 ExchUCUtil Windows PowerShell 指令碼。
     
-    在 Exchange 2007 中，ExchUCUtil 是位於： **%\\Program Files%\\Microsoft Exchange Server\\腳本\\ExchUCUtil. ps1**
+    在 Exchange 2007 中，ExchUCUtil.ps1 位於： **%Program Files %\\Microsoft\\Exchange 伺服器\\指令碼\\ExchUCUtil.ps1**
     
-    在 Exchange 2010 中，ExchUCUtil 是位於： **%\\Program Files% Microsoft\\Exchange Server\\V14\\腳本\\ExchUCUtil. ps1**
+    在 Exchange 2010 中，ExchUCUtil.ps1 位於： **%Program Files %\\Microsoft\\Exchange 伺服器\\V14\\指令碼\\ExchUCUtil.ps1**
 
-3.  如果 Exchange 是在單一目錄林中部署，請輸入：
+3.  如果 Exchange 部署在單一樹系中，請輸入：
     
         exchucutil.ps1
     
-    或者，如果 Exchange 是部署在多個目錄林中，請輸入：
+    或者，如果 Exchange 部署在多個樹系中，請輸入：
     
         exchucutil.ps1 -Forest:" <forest FQDN>"
     
-    其中，目錄林 FQDN 會指定部署 Lync Server 2013 的林。
+    其中樹系 FQDN 指定部署 Lync Server 2013 時的樹系。
     
     <div>
     
 
     > [!IMPORTANT]  
-    > 執行 exchucutil<EM>後</EM>，請務必重新開機<STRONG>Lync Server 前端</STRONG>服務（rtcsrv）。 否則，Lync Server 2013 在拓撲中不會偵測到統一訊息。
+    > 請務必在執行 exchucutil.ps1 之後<EM></EM>，重新啟動 <STRONG>[Lync Server 前端]</STRONG> 服務 (rtcsrv.exe)。 否則，Lync Server 2013 將不會偵測整合通訊拓撲中。
 
     
     </div>

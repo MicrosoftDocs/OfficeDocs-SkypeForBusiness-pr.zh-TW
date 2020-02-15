@@ -1,5 +1,5 @@
 ---
-title: 階段10：解除授權舊版網站
+title: 階段 10： 解除委任舊版站台
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185540
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8110d41e5f6436bfdbecc64fe07d514b5d0538ac
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6e46c2977289ae8fec1db26e4eb33dfd6736f838
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757707"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034373"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="phase-10-decommission-legacy-site"></a>階段10：解除授權舊版網站
+# <a name="phase-10-decommission-legacy-site"></a>階段 10： 解除委任舊版站台
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41757707"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-16_
+_**主題上次修改日期：** 2012 年 10-16_
 
-下列主題提供解除授權的方式，以及從 Office 通訊伺服器 2007 R2 的舊版部署中停用及移除伺服器和池的指導方針。 並非本節所列的所有程式都是必要的。 閱讀其中每個主題中的資訊，以判斷要使用的解除授權程式。
+下列主題提供在解除委任集區]，並停用與舊版 Office Communications Server 2007 R2 部署中移除伺服器和集區中的指引。 本節所列的程序並非全為必要程序。 閱讀中每個這些主題，以決定要使用哪一個解除委任程序的資訊。
 
 <div>
 
 
 > [!WARNING]  
-> 如果您已將電話撥入式會議的會議目錄匯入到 Lync Server 2013，請務必先將會議目錄擁有權轉移至 Lync Server 2013，然後才能開始解除池的授權。 如果您在未事先轉移會議目錄擁有權的情況下停用池，所有已遷移會議的撥入功能將不再運作。 您必須針對舊版池中的每個會議目錄，執行一次轉移擁有權的步驟。
+> 如果您匯入 Lync Server 2013 的電話撥入式會議的會議目錄，務必切換到 Lync Server 2013 會議目錄擁有權解除委任集區之前。 如果您解除委任集區，而第一個轉換的會議目錄擁有權，所有的移轉會議的撥號對應表中功能將不再有作用。 您必須執行轉換擁有權的步驟一次每個會議目錄舊版集區中。
 
 
 
@@ -53,7 +53,7 @@ _**主題上次修改日期：** 2012-10-16_
 
 
 > [!IMPORTANT]  
-> 如需遷移和升級 Microsoft 整合通訊管理 API （UCMA）應用程式的相關資訊，請參閱在解除舊版環境的授權之前，請參閱<A href="http://go.microsoft.com/fwlink/p/?linkid=269555">http://go.microsoft.com/fwlink/p/?LinkId=269555</A>
+> 如需移轉與升級 Microsoft Unified Communications Managed API (UCMA) 應用程式]，再解除委任舊版環境，請參閱<A href="http://go.microsoft.com/fwlink/p/?linkid=269555">http://go.microsoft.com/fwlink/p/?LinkId=269555</A>
 
 
 
@@ -61,13 +61,13 @@ _**主題上次修改日期：** 2012-10-16_
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
   - [移動會議目錄](move-conference-directories.md)
 
   - [更新 DNS SRV 記錄](update-dns-srv-records_1.md)
 
-  - [伺服器和池退役](decommissioning-servers-and-pools.md)
+  - [解除委任伺服器和集區](decommissioning-servers-and-pools.md)
 
   - [移除 BackCompatSite](remove-backcompatsite.md)
 

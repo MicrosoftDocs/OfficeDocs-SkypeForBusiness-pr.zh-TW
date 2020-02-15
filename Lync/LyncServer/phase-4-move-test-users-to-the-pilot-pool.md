@@ -1,5 +1,5 @@
 ---
-title: 階段4：將測試使用者移至 [試驗] 池
+title: 階段 4： 將測試使用者移至試驗集區
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184208
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1c6f69a46b7f2f0b4cdcc1d6e20b0bdc68bfd82b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 34f047338c2699febb21f9c3b0992035fba9e841
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765724"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034263"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="phase-4-move-test-users-to-the-pilot-pool"></a>階段4：將測試使用者移至 [試驗] 池
+# <a name="phase-4-move-test-users-to-the-pilot-pool"></a>階段 4： 將測試使用者移至試驗集區
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41765724"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-09-26_
+_**主題上次修改日期：** 2012年-09-26_
 
-您可以使用下列兩種方法，將一或多個使用者移至新的 Microsoft Lync Server 2013 部署： Lync Server [控制台] 和 [Lync Server 管理命令介面]。 本節中的主題描述您必須在試驗部署期間完成的工作，以及在將 Lync Server 2013 的部署從試驗部署移至生產層級部署之前所完成的任務。
+您可以將單一使用者或群組的使用者移至新的 Microsoft Lync Server 2013 部署使用下列兩種方法： Lync Server 控制台] 及 [Lync Server 管理命令介面。 本節中的主題說明試驗部署期間，以及將 Lync Server 2013 的部署從試驗部署移至實際執行層級部署前必須完成的工作。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [檢視 Lync Server 2010 集區的目前使用者](view-current-users-in-lync-server-2010-pool.md)
+  - [Lync Server 2010 集區中的檢視目前使用者](view-current-users-in-lync-server-2010-pool.md)
 
-  - [確認已完成使用者複製](verify-user-replication-has-completed.md)
+  - [確認使用者複寫已完成](verify-user-replication-has-completed.md)
 
-  - [將單一使用者移至 [試驗] 池](move-a-single-user-to-the-pilot-pool.md)
+  - [將單一使用者移至試驗集區](move-a-single-user-to-the-pilot-pool.md)
 
-  - [將多個使用者移至 [試驗] 池](move-multiple-users-to-the-pilot-pool.md)
+  - [移動多位使用者至試驗集區](move-multiple-users-to-the-pilot-pool.md)
 
 </div>
 

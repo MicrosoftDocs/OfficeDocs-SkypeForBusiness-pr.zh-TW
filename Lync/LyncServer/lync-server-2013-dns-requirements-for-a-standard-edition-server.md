@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：Standard Edition Server 的 DNS 需求
+title: 'Lync Server 2013: Standard Edition server 的 DNS 需求'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184259
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3ab4280ca3ed329d0dc926756f6bfd933595ca08
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fe05133865c0aecdb522e203c1ec2d39ff7b824d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739173"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034795"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="dns-requirements-for-a-standard-edition-server-in-lync-server-2013"></a>Lync Server 2013 中 Standard Edition Server 的 DNS 需求
+# <a name="dns-requirements-for-a-standard-edition-server-in-lync-server-2013"></a>在 [Lync Server 2013 Standard Edition server 的 DNS 需求
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41739173"
 
 <span> </span>
 
-_**主題上次修改日期：** 2013-02-22_
+_**上次修改主題：** 2013年-02-22_
 
-本節說明部署標準版伺服器所需的網域名稱系統（DNS）記錄。
+本節說明 Standard Edition Server 部署所需的網域名稱系統 (DNS) 記錄。
 
 <div>
 
-## <a name="dns-records-for-standard-edition-servers"></a>標準版伺服器的 DNS 記錄
+## <a name="dns-records-for-standard-edition-servers"></a>Standard Edition Server 的 DNS 記錄
 
-下表指定 Lync Server 2013 標準版伺服器部署的 DNS 需求。
+下表指定 Lync Server 2013 Standard Edition server 部署的 DNS 需求。
 
 
 <table>
@@ -59,20 +59,20 @@ _**主題上次修改日期：** 2013-02-22_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>標準版伺服器</p></td>
-<td><p>將伺服器的完整功能變數名稱（FQDN）解析成其 IP 位址的內部 A 記錄。</p></td>
+<td><p>Standard Edition Server</p></td>
+<td><p>一筆內部 A 記錄，用來將伺服器的完整網域名稱 (FQDN) 解析為 IP 位址。</p></td>
 </tr>
 <tr class="even">
 <td><p>自動用戶端登入</p></td>
-<td><p>針對每個支援的 SIP 網域，_sipinternaltls _tcp 的 SRV 記錄。&lt;經由&gt;埠5061的網域，會對應到標準版 server 的 FQDN，該伺服器會將登入的用戶端要求驗證並重新導向。 如需詳細資訊，請參閱<a href="lync-server-2013-dns-requirements-for-automatic-client-sign-in.md">Lync Server 2013 中的自動用戶端登入 DNS 需求</a>。</p></td>
+<td><p>每個支援的 SIP 網域，_sipinternaltls._tcp 的 SRV 記錄。&lt;網域&gt;透過對應的 FQDN，Standard Edition server 的驗證，並將登入的用戶端要求重新導向至連接埠 5061。 如需詳細資訊，請參閱<a href="lync-server-2013-dns-requirements-for-automatic-client-sign-in.md">DNS 需求的用戶端自動登入 Lync Server 2013 中</a>。</p></td>
 </tr>
 <tr class="odd">
-<td><p>透過整合通訊（UC）裝置進行的裝置更新 Web 服務探索</p></td>
-<td><p>含 name ucupdates-r2 的內部 A 記錄。&lt;可解析&gt;為標準版伺服器託管裝置更新 Web 服務之 IP 位址的 SIP 網域。 在已開啟 UC 裝置，但使用者從未登入裝置的情況下，A 記錄可讓裝置探索託管裝置更新 Web 服務的伺服器，並取得更新。 否則，在使用者第一次登入時，裝置會透過頻帶內的設定來取得伺服器資訊。 如需詳細資訊，請參閱 Operations 檔中的<a href="lync-server-2013-device-update-web-service.md">Lync Server 2013 中的裝置更新 Web 服務</a>。</p></td>
+<td><p>整合通訊 (UC) 裝置的裝置更新 Web 服務探索</p></td>
+<td><p>一筆內部 A 記錄名稱 ucupdates-r2。&lt;SIP 網域&gt;，解析為 Standard Edition server 主控的裝置更新 Web 服務的 IP 位址。 在 UC 裝置已開啟，但尚未有使用者登入裝置的情況下，此 A 記錄會允許裝置去探索裝載著裝置更新 Web 服務的伺服器並取得更新。 否則，裝置會透過使用者首次登入時的頻內佈建取得伺服器資訊。 如需詳細資訊，請參閱作業文件中的<a href="lync-server-2013-device-update-web-service.md">Lync Server 2013 中的裝置更新 Web 服務</a>。</p></td>
 </tr>
 <tr class="even">
-<td><p>支援 HTTP 流量的反向 proxy</p></td>
-<td><p>外部 A 記錄，可將外部 web farm FQDN 解析成反向 proxy 的外部 IP 位址。 用戶端和 UC 裝置使用此記錄連線到反向 proxy。 如需詳細資訊，請參閱在規劃檔中<a href="lync-server-2013-determine-dns-requirements.md">判斷 Lync Server 2013 的 DNS 需求</a>。</p></td>
+<td><p>支援 HTTP 流量的反向 Proxy</p></td>
+<td><p>一筆外部 A 記錄，將外部 Web 伺服陣列 FQDN 解析為反向 Proxy 的外部 IP 位址。 用戶端和 UC 裝置會使用這個記錄來連線至反向 Proxy。 如需詳細資訊，請參閱規劃文件中的<a href="lync-server-2013-determine-dns-requirements.md">Lync Server 2013 的判斷 DNS 需求</a>。</p></td>
 </tr>
 </tbody>
 </table>
@@ -82,11 +82,11 @@ _**主題上次修改日期：** 2013-02-22_
 
 <div>
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 
-[在 Lync Server 2013 中自動用戶端登入的 DNS 需求](lync-server-2013-dns-requirements-for-automatic-client-sign-in.md)  
-[針對 Lync Server 2013 判定 DNS 需求](lync-server-2013-determine-dns-requirements.md)  
+[DNS 需求的用戶端自動登入 Lync Server 2013 中](lync-server-2013-dns-requirements-for-automatic-client-sign-in.md)  
+[決定針對 Lync Server 2013 的 DNS 需求](lync-server-2013-determine-dns-requirements.md)  
 
 
 [Lync Server 2013 中的裝置更新 Web 服務](lync-server-2013-device-update-web-service.md)  

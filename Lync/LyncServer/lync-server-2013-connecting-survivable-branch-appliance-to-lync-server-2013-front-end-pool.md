@@ -12,16 +12,16 @@ ms:contentKeyID: 49733616
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d73806f481cfe7c44a5eb9507d043565765a08f9
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d23b501738010a8e5e5ed1c5c2e9a8608b0709e4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740573"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034955"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,27 +35,27 @@ ms.locfileid: "41740573"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012-10-05_
+_**主題上次修改日期：** 2012年-10-05_
 
-每個 Survivable 分支裝置（SBA）都與一個前端池相關聯，可充當 SBA 的備份註冊機構。 當前端池升級至 Lync Server 2013 時，必須在升級前端池時，解除與前端池的 SBA。 在前端池升級之後，可以使用 [前端] 池 reassociated SBA。 這涉及從拓撲建立器中的拓撲刪除 SBA，然後再將 SBA 新增到拓撲建立器。 在從拓撲中移除 SBA 之前，駐留在 SBA 上的使用者必須先移至另一個前端池。 將 SBA 新增回拓撲之後，這些使用者就可以移回 SBA。
+每個 Survivable Branch Appliance (SBA) 相關聯的前端集區，其作為備份登錄器 SBA。 當 to Lync Server 2013 升級的前端集區時，SBA 必須分離從前端集區，而升級前端集區。 前端集區將會在升級之後，SBA 可以再重新關聯與前端集區。 這牽涉到在拓撲產生器中從拓撲刪除 SBA，然後再新增 SBA 到拓撲產生器。 使用者位於 SBA 必須移至另一個前端集區從拓撲移除 SBA 之前。 將 SBA 新增回拓撲之後，可以再將使用者移回 SBA。
 
-下列步驟摘要如下所示：
+這些步驟的摘要如下：
 
-1.  將駐留在 SBA 的分支使用者移至另一個前端池。
+1.  移至另一個前端集區隸屬於 SBA 的分支使用者。
 
-2.  從拓撲中移除 SBA，以解除現有的前端池與備份註冊機構的關聯。
+2.  移除 SBA 從拓撲，以作為備份登錄器，切斷現有前端集區的關聯。
 
-3.  將 [前端] 池升級至 [Microsoft Lync Server 2013]。
+3.  升級至 Microsoft Lync Server 2013 的前端集區。
 
-4.  將 SBA 新增到您的拓撲結構中。
+4.  將 SBA 新增回拓撲。
 
-5.  將新的前端池與 SBA 做為備份註冊機構。
+5.  將 SBA 的新前端集區產生關聯作為備份登錄器。
 
 6.  將分支使用者移回 SBA。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
   - [將 Lync Server 2013 Survivable Branch Appliance 分支網站新增至您的拓撲](lync-server-2013-add-lync-server-2013-survivable-branch-appliance-branch-site-to-your-topology.md)
 

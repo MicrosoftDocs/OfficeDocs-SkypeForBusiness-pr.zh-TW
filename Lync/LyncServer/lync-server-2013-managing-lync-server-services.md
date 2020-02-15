@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：管理 Lync Server 服務
+title: Lync Server 2013： 管理 Lync Server 服務
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 49733577
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c79731117c7ba1e04f55bad3a308cca9225621d3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: db05bdc9f2c22bb46b34249a86979cb80b55cc7f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756127"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034383"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41756127"
 
 <span> </span>
 
-_**主題上次修改日期：** 2013-02-21_
+_**上次修改主題：** 2013年-02-21_
 
-使用本節中的程式，從 [**拓撲**] 頁面管理 Lync Server 2013 服務。
+使用本節中的程序，從 [**拓撲**] 頁面管理 Lync Server 2013 服務。
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-  - [在 Lync Server 2013 中查看電腦上執行的服務狀態](lync-server-2013-view-the-status-of-services-running-on-a-computer.md)
+  - [檢視執行 Lync Server 2013 中的電腦上的服務狀態](lync-server-2013-view-the-status-of-services-running-on-a-computer.md)
 
 </div>
 
