@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '瞭解如何試用或購買 Office 365 的音訊會議（PSTN 會議）授權，以設定人員可以撥入的電話會議。 '
-ms.openlocfilehash: 5a2c797b1e31dd98d09ee8773396f599f070c3c2
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: d2ae202cbed7c59876ea04c9d3a5760d6495898d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41680330"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010956"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-skype-for-business-online"></a>在商務用 Skype Online 的 Office 365 中試用或購買音訊會議
 
@@ -38,7 +38,7 @@ ms.locfileid: "41680330"
 
 您只需要為規劃排程或領導會議的人員設定音訊會議。 在會議中呼叫會議的出席者不需要獲指派任何授權，也不需要其他設定。
 
-如需定價資訊，請參閱[音訊會議的價格](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements)。
+如需定價資訊，請參閱[音訊會議的價格](https://products.office.com/skype-for-business/audio-conferencing#Requirements)。
 
 ## <a name="step-1-buy-and-assign-audio-conferencing-licenses"></a>步驟1：購買並指派音訊會議授權
 

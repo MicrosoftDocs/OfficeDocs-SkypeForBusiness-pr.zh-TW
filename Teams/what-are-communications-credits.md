@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Licensing
 description: '瞭解什麼是通訊點數（PSTN 消費）帳單、如何尋找比率，以及您所取得的服務。 '
-ms.openlocfilehash: b8462c7ad3c4f2820f1276be47fa4140ad79755a
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
+ms.openlocfilehash: c071ebf297714e81cdb8a508ebf313d0054fe633
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41852120"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051567"
 ---
 # <a name="what-are-communications-credits"></a>什麼是通訊點數？
 
@@ -52,7 +52,7 @@ ms.locfileid: "41852120"
   
 ## <a name="what-are-the-communications-credits-rates"></a>通訊富餘利率為何？
 
-如果您想知道通話方案的通話成本為何，請參閱通話方案的通訊點數[比率](https://products.office.com/en-us/microsoft-teams/online-meeting-solutions#Rates)（向下滾動至 [查看您要撥打的位置）]）。
+如果您想知道通話方案的通話成本為何，請參閱通話方案的通訊點數[比率](https://products.office.com/microsoft-teams/online-meeting-solutions#Rates)（向下滾動至 [查看您要撥打的位置）]）。
   
 ## <a name="what-is-it"></a>這是什麼？
 

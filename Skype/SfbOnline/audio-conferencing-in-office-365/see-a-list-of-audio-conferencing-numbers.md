@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '瞭解如何在商務用 Skype Online 中查看電話撥入式會議號碼。 '
-ms.openlocfilehash: 6cfbc79ff4e282c1b7f8f3f6b19483aa9347f646
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 6c9c9633f99edf42c3016b90f3b52c6c4c54b0d6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41680510"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42011016"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-skype-for-business-online"></a>在商務用 Skype Online 中查看音訊會議號碼清單
 
@@ -35,7 +35,7 @@ ms.locfileid: "41680510"
 
 當您設定商務用 Skype 使用者的音訊會議時，您可以查看可供音訊會議使用的電話號碼。 此清單將會包含您組織所提供的所有音訊會議電話號碼。
   
- **想要尋找價格嗎？** 請參閱[音訊會議的價格](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements)。
+ **想要尋找價格嗎？** 請參閱[音訊會議的價格](https://products.office.com/skype-for-business/audio-conferencing#Requirements)。
   
 > [!IMPORTANT]
 > **沒有一個資源包含所有撥入號碼的音訊會議清單。** 如果您想要查看您所在地區或國家/地區是否有撥入電話號碼，請移至**商務用 Skype 系統管理中心** > **語音** > **電話號碼**，按一下 [新增]，**然後按一下 [** 新的**服務號碼**]。 使用 [**國家/地區**]、[**州/地區**] 和 [**城市**] 的清單來篩選您的搜尋。 此外，如果您正在尋找免付費服務號碼，請從 [**省/市/地區**] 清單中選取 [**免付費電話**]。

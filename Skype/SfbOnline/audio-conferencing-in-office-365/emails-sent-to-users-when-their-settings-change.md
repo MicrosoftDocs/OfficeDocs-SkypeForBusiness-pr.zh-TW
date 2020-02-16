@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '瞭解在商務用 Skype Online 的電話撥入式會議設定變更時，電子郵件會自動傳送哪些資訊給使用者。 '
-ms.openlocfilehash: 167b083c1cc212a6d301b0cfb2012ef9d639727d
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 12904c6485a422c7df314767b58ac485c38816ea
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707228"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41986548"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-skype-for-business-online"></a>在商務用 Skype Online 的設定變更時傳送給使用者的電子郵件
 
@@ -76,7 +76,7 @@ ms.locfileid: "41707228"
     
     當您在使用者中移除**音訊會議**授權，或是將使用者的音訊會議提供者從 Microsoft 改為協力廠商音訊會議提供者或將提供者設定為 [**無**] 時，就會發生這種情況。 此電子郵件包含使用者使用商務用 Skype Online 會議更新工具來移除語音會議特定資訊（例如預設會議電話號碼或會議 ID）的指示與資訊。
     
-    請參閱[指派或移除商務用 Office 365 的授權](https://support.office.com/en-us/article/997596b5-4173-4627-b915-36abac6786dc)。
+    請參閱[指派或移除商務用 Office 365 的授權](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)。
     
     以下是這封電子郵件的範例：
     

@@ -21,16 +21,16 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: '瞭解附加元件授權、功能，以及如何購買 Office 365 企業版、E1、E3 和 E4 方案。 '
-ms.openlocfilehash: fa51f8ff6e785009be5392aef8b137a6ff57430b
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 79a803061acfd4550c75871c08f40b16ee2f8e2b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692468"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010586"
 ---
 # <a name="office-365-enterprise-e1-e3-and-e4"></a>Office 365 企業版 E1、E3 及 E4
 
-如果您已購買[Office 365 企業版 E1](https://products.office.com/en-us/business/office-365-enterprise-e1-business-software)、 [E3](https://products.office.com/en-us/business/office-365-enterprise-e3-business-software)或 E4 方案，以下是您需要購買才能取得更多商務用 Skype 功能的附加元件授權。
+如果您已購買[Office 365 企業版 E1](https://products.office.com/business/office-365-enterprise-e1-business-software)、 [E3](https://products.office.com/business/office-365-enterprise-e3-business-software)或 E4 方案，以下是您需要購買才能取得更多商務用 Skype 功能的附加元件授權。
 
 |||
 |:-----|:-----|

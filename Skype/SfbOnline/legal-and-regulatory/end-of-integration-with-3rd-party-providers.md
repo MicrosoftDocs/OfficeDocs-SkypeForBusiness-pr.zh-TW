@@ -20,12 +20,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: 在2021年7月31日，生命計畫結束時，將會結束與協力廠商音訊會議提供者（協力廠商 ACP）的商務用 Skype 的整合。
-ms.openlocfilehash: b9bd1640d615babab29a073aeeee2b1beb92fc02
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 7ea6068d8715bd0df9e80041d70b8baf37abaf1b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706688"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41985028"
 ---
 # <a name="end-of-life-program-for-the-integration-of-skype-for-business-with-third-party-audio-conferencing-providers"></a>在商務用 Skype 中與協力廠商音訊會議提供者整合的生命計畫結束 
 
@@ -47,7 +47,7 @@ Microsoft 已宣佈結束生命計畫的開始，以便與協力廠商音訊會�
 
 為了準備此變更，我們鼓勵受影響的組織在2021年7月31日之前，通知已啟用的使用者此已規劃的更新。 
 
-在2021年7月31日之後，使用者可以繼續使用商務用 Skype，不會中斷他們的線上會議;不過，如果您的客戶需要使用商務用 Skype 或 Microsoft 團隊進行撥入式音訊會議，則組織必須讓 Microsoft 提供的音訊會議。 若要深入瞭解 Microsoft 音訊會議，請參閱[音訊會議](https://products.office.com/en-us/skype-for-business/audio-conferencing)。 
+在2021年7月31日之後，使用者可以繼續使用商務用 Skype，不會中斷他們的線上會議;不過，如果您的客戶需要使用商務用 Skype 或 Microsoft 團隊進行撥入式音訊會議，則組織必須讓 Microsoft 提供的音訊會議。 若要深入瞭解 Microsoft 音訊會議，請參閱[音訊會議](https://products.office.com/skype-for-business/audio-conferencing)。 
 
 根據組織的預期結束狀態，可以遵循下列三個路徑：
 

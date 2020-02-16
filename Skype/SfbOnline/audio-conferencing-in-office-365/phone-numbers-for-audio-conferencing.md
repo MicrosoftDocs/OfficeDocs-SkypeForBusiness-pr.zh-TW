@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 瞭解哪些國家和地區有電話撥入式會議號碼，以及它們的自動指派方式。
-ms.openlocfilehash: 32eeebf54fbb9e6ab75ca0e43734f64b1d811c10
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 19f2cb6f0c03ecdbc6890c7c1c24daceb508377a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707158"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41986508"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-skype-for-business-online"></a>商務用 Skype Online 中的音訊會議電話號碼
 
@@ -41,7 +41,7 @@ ms.locfileid: "41707158"
   
 ## <a name="audio-conferencing-coverage-and-pricing"></a>音訊會議覆蓋範圍與定價
 
-如需所有可提供音訊會議的國家/地區和城市完整清單，請參閱[音訊會議與通話方案的國家和地區可用性](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)。 如需定價資訊，請參閱[音訊會議的價格](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements)。
+如需所有可提供音訊會議的國家/地區和城市完整清單，請參閱[音訊會議與通話方案的國家和地區可用性](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)。 如需定價資訊，請參閱[音訊會議的價格](https://products.office.com/skype-for-business/audio-conferencing#Requirements)。
   
 ## <a name="dial-in-phone-numbers-in-a-meeting-invite"></a>會議邀請中的撥入電話號碼
 

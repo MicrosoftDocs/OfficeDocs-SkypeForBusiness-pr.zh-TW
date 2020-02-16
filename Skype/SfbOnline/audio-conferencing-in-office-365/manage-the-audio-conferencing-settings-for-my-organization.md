@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '若要將電話撥入式會議授權及會議 ID 指派給使用者和許多其他電話撥入式會議設定，請參閱商務用 Skype Online 步驟。 '
-ms.openlocfilehash: 4feb442c4bdf0578b09a089325ad248bb2d0d7bc
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 46f55ba256759d86e93e9436e949ee49ff337f7c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707168"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41986518"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-skype-for-business-online"></a>在商務用 Skype Online 中管理我組織的音訊會議設定
 
@@ -119,7 +119,7 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
 4. 在 [**重設會議 ID？** ] 視窗中，按一下 **[是]**。 如果已啟用傳送電子郵件給您的使用者，系統會自動建立會議 ID，並以新的會議 ID 傳送電子郵件給使用者。 預設為啟用。
 
     > [!IMPORTANT]
-    >  在建立新的會議 ID 之後，不能讓呼叫者使用舊的會議 id。 您應該通知使用者重新安排現有的會議邀請，以確保新的會議 ID 已新增到邀請中。 使用者可以使用商務用 Skype 會議遷移工具來更新現有的會議。 若要瞭解如何下載、安裝及執行商務用 Skype 會議更新工具，請參閱：[適用于商務用 skype 和 Lync 的會議更新工具](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4)、[商務用 Skype Online、會議遷移工具（64位）](https://go.microsoft.com/fwlink/?LinkID=626047)，以及[商務用 Skype online、會議遷移工具（32位）](https://www.microsoft.com/en-us/download/details.aspx?id=54079)。
+    >  在建立新的會議 ID 之後，不能讓呼叫者使用舊的會議 id。 您應該通知使用者重新安排現有的會議邀請，以確保新的會議 ID 已新增到邀請中。 使用者可以使用商務用 Skype 會議遷移工具來更新現有的會議。 若要瞭解如何下載、安裝及執行商務用 Skype 會議更新工具，請參閱：[適用于商務用 skype 和 Lync 的會議更新工具](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4)、[商務用 Skype Online、會議遷移工具（64位）](https://go.microsoft.com/fwlink/?LinkID=626047)，以及[商務用 Skype online、會議遷移工具（32位）](https://www.microsoft.com/download/details.aspx?id=54079)。
 
 請參閱[重設使用者的會議 ID](reset-a-conference-id-for-a-user.md)。
 

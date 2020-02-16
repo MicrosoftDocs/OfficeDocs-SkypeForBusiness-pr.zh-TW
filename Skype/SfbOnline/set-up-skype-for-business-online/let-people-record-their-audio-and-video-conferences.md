@@ -20,12 +20,12 @@ ms.custom:
 - Setup
 - O365P_RecordingDesc
 description: '如何開啟音訊與視訊會議的錄製，並瞭解錄製中的內容和不包含的內容。 '
-ms.openlocfilehash: 7e06d2bddc95b8ab57a2a4a5c47fb4b86837d161
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: 956d1eb4e3ad57e2d801a8f08842d646be742a97
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769606"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010816"
 ---
 # <a name="let-people-record-their-audio-and-video-conferences"></a>讓人員錄製音訊和視訊會議
 
@@ -45,7 +45,7 @@ ms.locfileid: "41769606"
 |:-----|:-----|
 |音訊及 HD 影片  <br/> PowerPoint 與白板簡報  <br/> 桌面或程式共用會話  <br/> |共用的 OneNote 頁面  <br/> PowerPoint 注釋  <br/> 共用檔案（附件）  <br/> |
    
-如需詳細資訊，請參閱[Lync 錄製儲存與發佈](https://support.office.com/en-US/Article/83cf1507-0f05-40f5-a520-5a6c133bc33e)及[Lync 錄製管理員](https://support.office.com/en-US/Article/fa915c55-ff55-45c0-b372-1ef5596da10b)。 
+如需詳細資訊，請參閱[Lync 錄製儲存與發佈](https://support.office.com/article/83cf1507-0f05-40f5-a520-5a6c133bc33e)及[Lync 錄製管理員](https://support.office.com/article/fa915c55-ff55-45c0-b372-1ef5596da10b)。 
   
 ## <a name="related-topics"></a>相關主題
 [設定商務用 Skype Online](set-up-skype-for-business-online.md)

@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '瞭解在商務用 Skype Online 中重設使用者的會議 ID，以及取得會議更新與遷移工具的連結的步驟。 '
-ms.openlocfilehash: c87db0972fb8144d7a8a807de81905f5be23191c
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 9a1c2766da021d30feb14954d6e69b6978b64bc9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707148"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41986488"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-skype-for-business-online"></a>在商務用 Skype Online 中重設使用者的會議 ID
 
@@ -66,7 +66,7 @@ ms.locfileid: "41707148"
     
   - [商務用 Skype Online，會議遷移工具（64位）](https://go.microsoft.com/fwlink/?LinkID=626047)
     
-  - [商務用 Skype Online，會議遷移工具（32位）](https://www.microsoft.com/en-us/download/details.aspx?id=54079)
+  - [商務用 Skype Online，會議遷移工具（32位）](https://www.microsoft.com/download/details.aspx?id=54079)
     
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>想知道如何使用 Windows PowerShell 進行管理嗎？
 

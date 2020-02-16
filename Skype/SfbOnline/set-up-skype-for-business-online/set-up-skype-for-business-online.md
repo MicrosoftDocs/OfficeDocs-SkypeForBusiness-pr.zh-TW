@@ -24,12 +24,12 @@ ms.custom:
 - O365M_SkypeforBusinessON
 - O365P_SkypeforBusinessON
 description: '瞭解如何為您的組織設定您的網域、使用者、IM 和目前狀態，以安裝商務用 Skype。 另請參閱如何設定音訊會議、電話系統和通話方案，以及 Skype 會議廣播。 '
-ms.openlocfilehash: dda75716014c81b2c1fcf333bfd7e9e05ea606e0
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: 7ac027549f45c55f62c6fc83d7ebc03d0afef5d2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769596"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010786"
 ---
 # <a name="set-up-skype-for-business-online"></a>設定商務用 Skype Online
 
@@ -41,7 +41,7 @@ ms.locfileid: "41769596"
 
 ## <a name="1-plan-for-skype-for-business"></a>1. 規劃商務用 Skype
 
-如果您有**[Office 365 商務版 Premium](https://products.office.com/en-us/business/office-365-business-premium)** 或**商業基本**版，您可以使用商務用 Skype，在您的訂閱中的其他人對您的公司進行線上通話。 例如，如果您的公司有10人，您就可以[開始使用商務用 skype 進行 IM 和線上會議](https://support.office.com/article/cc05afa6-1894-4a82-9dd9-6222061f50fd)，以及在執行下列步驟2-6 後使用商務用 skype 進行商務用 Skype 的[會議](https://support.office.com/article/2eed8424-581a-4497-b505-c08c152e5851)。 您也可以[在 Outlook 中設定商務用 Skype 會議，在](https://support.office.com/article/b8305620-d16e-4667-989d-4a977aad6556#bkmk_OWA)線上開會！
+如果您有**[Office 365 商務版 Premium](https://products.office.com/business/office-365-business-premium)** 或**商業基本**版，您可以使用商務用 Skype，在您的訂閱中的其他人對您的公司進行線上通話。 例如，如果您的公司有10人，您就可以[開始使用商務用 skype 進行 IM 和線上會議](https://support.office.com/article/cc05afa6-1894-4a82-9dd9-6222061f50fd)，以及在執行下列步驟2-6 後使用商務用 skype 進行商務用 Skype 的[會議](https://support.office.com/article/2eed8424-581a-4497-b505-c08c152e5851)。 您也可以[在 Outlook 中設定商務用 Skype 會議，在](https://support.office.com/article/b8305620-d16e-4667-989d-4a977aad6556#bkmk_OWA)線上開會！
 
 如果您想要使用商務用 Skype 撥打與接聽公司*外部*人員的**通話**：
 

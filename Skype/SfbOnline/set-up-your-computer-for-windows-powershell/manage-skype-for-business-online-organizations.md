@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - PowerShell
 description: 使用 Windows PowerShell 以及 CsTenant 和 CsTenantLicensingConfiguration Cmdlet 來取得商務用 Skype Online 租使用者的相關資訊。
-ms.openlocfilehash: 3c4a8f72caca634b208de5cf4aa555b88518f4da
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: e4765fbbe8c705300bb93c09651034e080a8132e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706248"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010616"
 ---
 # <a name="manage-skype-for-business-online-organizations"></a>管理商務用 Skype Online 組織
 
@@ -44,7 +44,7 @@ Get-CsTenant
 Get-CsTenant | Select-Object Name, TenantID
 ```
 
-在執行[CsTenantPublicProvider](https://go.microsoft.com/fwlink/p/?linkid=849602)和[set CsTenantFederationConfiguration](https://technet.microsoft.com/en-us/library/jj994080.aspx)等 Cmdlet 時，需要_TenantID_參數的值。
+在執行[CsTenantPublicProvider](https://go.microsoft.com/fwlink/p/?linkid=849602)和[set CsTenantFederationConfiguration](https://technet.microsoft.com/library/jj994080.aspx)等 Cmdlet 時，需要_TenantID_參數的值。
   
 若要在商務用 Skype Online 系統管理中心尋找指定租使用者的授權資訊的相關資訊，請使用[CsTenantLicensingConfiguration](https://go.microsoft.com/fwlink/p/?linkid=849606) Cmdlet。
   

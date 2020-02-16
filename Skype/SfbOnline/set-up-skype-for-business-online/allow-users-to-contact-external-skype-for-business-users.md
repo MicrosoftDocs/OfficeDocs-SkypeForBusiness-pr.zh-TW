@@ -28,12 +28,12 @@ ms.custom:
 - O365P_ShareLync
 - LIL_Placement
 description: '瞭解如何設定商務用 Skype，讓使用者與其他組織中的使用者交談，或讓連絡人以外的人員。 '
-ms.openlocfilehash: bc0a59487d3cfd3e5721d60213d367c750349604
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 394613e3137c65e814cc08dd898ec797d560d1c6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692938"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010936"
 ---
 # <a name="allow-users-to-contact-external-skype-for-business-users"></a>允許使用者連絡外部商務用 Skype 使用者
 
@@ -51,7 +51,7 @@ ms.locfileid: "41692938"
 ## <a name="enable-business-to-business-communications-for-your-users"></a>為使用者啟用企業對企業通訊
 <a name="bk_preview"> </a>
 
-您必須在兩個組織的 Office 365 中擁有系統[管理員許可權](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)，才能執行此動作。
+您必須在兩個組織的 Office 365 中擁有系統[管理員許可權](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)，才能執行此動作。
 
 ![](../images/teams-logo-30x30.png) **使用 [團隊管理中心**] 顯示 Microsoft 小組標誌的圖示
   
@@ -112,9 +112,9 @@ ms.locfileid: "41692938"
 ## <a name="tips-on-setting-up-communications-with-federated-businesses"></a>設定與同盟企業通訊的秘訣
 <a name="bk_preview"> </a>
 
-- 若要在商務用 Skype 2015 與商務用 Skype Online 之間設定同盟，請參閱這篇文章：[使用商務用 Skype Online 設定同盟](https://technet.microsoft.com/en-us/library/jj205126.aspx)。
+- 若要在商務用 Skype 2015 與商務用 Skype Online 之間設定同盟，請參閱這篇文章：[使用商務用 Skype Online 設定同盟](https://technet.microsoft.com/library/jj205126.aspx)。
     
-- 若要在 Lync 與商務用 Skype Online 之間設定同盟，請參閱這篇文章：為[Lync Online 客戶設定同盟支援](https://technet.microsoft.com/en-us/library/hh202193.aspx)。
+- 若要在 Lync 與商務用 Skype Online 之間設定同盟，請參閱這篇文章：為[Lync Online 客戶設定同盟支援](https://technet.microsoft.com/library/hh202193.aspx)。
     
 - 當 Office 365 中的兩個商務用 Skype 使用者互相通訊在不同的網域上時，他們只能使用在兩個組織中開啟的商務用 Skype 功能（例如，影片交談或桌面共用）。
     

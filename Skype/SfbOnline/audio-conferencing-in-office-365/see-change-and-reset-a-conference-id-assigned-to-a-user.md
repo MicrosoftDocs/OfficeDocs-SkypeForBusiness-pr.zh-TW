@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '瞭解如何在商務用 Skype Online 中將會議 ID 指派給使用者，以及會議 Id 參數的用途。 '
-ms.openlocfilehash: 10acf425db0230dd90f8c125b0d871e07dd69728
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 8bec76e25df092beb18725467c3041de3c1d7745
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888062"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010986"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-skype-for-business-online"></a>在商務用 Skype Online 中查看及重設指派給使用者的會議 ID
 
@@ -97,7 +97,7 @@ ms.locfileid: "41888062"
 ## <a name="what-else-should-you-know"></a>您還應該知道什麼？
 
    > [!IMPORTANT]
-   >  在建立新的會議 ID 或重新設定之後，舊的會議 ID 無法由呼叫者使用。 您應該通知使用者重新安排現有的會議邀請，以確保新的會議 ID 已新增到邀請中。 使用者可以使用商務用 Skype 會議遷移工具來更新現有的會議。 若要瞭解如何下載、安裝及執行此工具，請參閱：[適用于商務用 skype 和 Lync 的會議更新工具](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4)、[商務用 Skype Online、會議遷移工具（64位）](https://go.microsoft.com/fwlink/?LinkID=626047)，以及[商務用 Skype online、會議遷移工具（32位）](https://www.microsoft.com/en-us/download/details.aspx?id=54079)。
+   >  在建立新的會議 ID 或重新設定之後，舊的會議 ID 無法由呼叫者使用。 您應該通知使用者重新安排現有的會議邀請，以確保新的會議 ID 已新增到邀請中。 使用者可以使用商務用 Skype 會議遷移工具來更新現有的會議。 若要瞭解如何下載、安裝及執行此工具，請參閱：[適用于商務用 skype 和 Lync 的會議更新工具](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4)、[商務用 Skype Online、會議遷移工具（64位）](https://go.microsoft.com/fwlink/?LinkID=626047)，以及[商務用 Skype online、會議遷移工具（32位）](https://www.microsoft.com/download/details.aspx?id=54079)。
 
 - 若要深入瞭解 Cmdlet，請參閱[設定 get-csonlinedialinconferencinguser](https://go.microsoft.com/fwlink/?LinkId=617688 ) 。
 

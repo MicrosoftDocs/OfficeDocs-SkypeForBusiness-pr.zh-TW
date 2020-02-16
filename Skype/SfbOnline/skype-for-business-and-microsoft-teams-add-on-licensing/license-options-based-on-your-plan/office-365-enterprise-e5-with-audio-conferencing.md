@@ -21,16 +21,16 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: '瞭解附加元件授權、功能，以及如何購買 Office 365 企業版方案。 '
-ms.openlocfilehash: 1913d16b4a6595db27b4d32a10023866a5f76bb0
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 5181136bc95d2f74840af36ed6b4a29484485ed4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706098"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010576"
 ---
 # <a name="office-365-enterprise-e5"></a>Office 365 企業版 E5
 
-[Office 365 企業版 E5](https://products.office.com/en-us/business/office-365-enterprise-e5-business-software)方案包含大部分的商務用 Skype 功能。 只有幾個額外的選項。
+[Office 365 企業版 E5](https://products.office.com/business/office-365-enterprise-e5-business-software)方案包含大部分的商務用 Skype 功能。 只有幾個額外的選項。
   
 |||
 |:-----|:-----|

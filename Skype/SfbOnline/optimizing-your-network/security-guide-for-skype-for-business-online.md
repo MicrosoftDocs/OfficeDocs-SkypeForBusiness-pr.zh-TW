@@ -21,19 +21,19 @@ f1.keywords:
 ms.custom:
 - Security
 description: 商務用 Skype Online 的安全性指南<add description>
-ms.openlocfilehash: 268a9859439ca91b5ad7cd8d5e32edf707860cde
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: e1cb2c51e688c460f86b1ee4956155bbaa2ea293
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706808"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006008"
 ---
 # <a name="security-and-skype-for-business-online"></a>安全性與商務用 Skype Online
 
 商務用 Skype Online （SfBO）是 Office 365 服務的一部分，遵循所有安全性最佳做法及程式，例如，透過縱深防禦、客戶控制服務、安全性強化與操作最佳的方式來提供服務層級安全性作法. 如需完整詳細資料，請參閱 Microsoft 信任中心https://microsoft.com/trustcenter)（。
 
 ## <a name="trustworthy-by-design"></a>根據設計信任
-商務用 Skype Online 的設計與開發符合 Microsoft 高可信計算安全性開發週期（SDL）的規範，如所述https://www.microsoft.com/en-us/sdl/default.aspx。 建立更安全的整合通訊系統的第一個步驟是設計威脅模型，並測試每個功能的設計。 編碼程式與做法內建了多個安全性相關的改良功能。 在將程式碼簽入最終產品之前，組建時間工具會偵測緩衝區溢位及其他潛在安全性威脅。 當然，可能無法針對所有未知的安全性威脅進行設計。 任何系統都不能保證完整的安全性。 不過，由於產品開發採用了從開始的安全設計原則，因此商務用 Skype Online 將業界標準安全技術納入其架構的基本部分。 
+商務用 Skype Online 的設計與開發符合 Microsoft 高可信計算安全性開發週期（SDL）的規範，如所述https://www.microsoft.com/sdl/default.aspx。 建立更安全的整合通訊系統的第一個步驟是設計威脅模型，並測試每個功能的設計。 編碼程式與做法內建了多個安全性相關的改良功能。 在將程式碼簽入最終產品之前，組建時間工具會偵測緩衝區溢位及其他潛在安全性威脅。 當然，可能無法針對所有未知的安全性威脅進行設計。 任何系統都不能保證完整的安全性。 不過，由於產品開發採用了從開始的安全設計原則，因此商務用 Skype Online 將業界標準安全技術納入其架構的基本部分。 
 
 ## <a name="trustworthy-by-default"></a>預設為可信
 預設會加密商務用 Skype Online 中的網路通訊。 透過要求所有伺服器使用憑證和使用 OAUTH、TLS、安全的即時傳輸通訊協定（SRTP），以及其他業界標準的加密技術，包括256位進階加密標準（AES）加密、所有商務用 Skype線上資料在網路上受到保護。
@@ -210,7 +210,7 @@ SfBO 驗證封裝含兩個階段：
 在 SfBO 中，IT 管理員可透過 O365 管理入口網站或使用租使用者遠端 PowerShell （TRPS）來管理其服務。 租使用者管理員使用新式驗證來驗證 TRPS。
 
 ### <a name="configuring-access-to-sfbo-at-your-internet-boundary"></a>設定網際網路邊界對 SfBO 的存取權
-若要讓 SfBO 正常運作（使用者能夠加入會議等），客戶必須設定網際網路存取，讓輸出 UDP 與 TCP 流量能在 SfBO 雲端進行服務。 如需詳細資訊，請參閱這裡：https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_lyo 
+若要讓 SfBO 正常運作（使用者能夠加入會議等），客戶必須設定網際網路存取，讓輸出 UDP 與 TCP 流量能在 SfBO 雲端進行服務。 如需詳細資訊，請參閱這裡：https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_lyo 
 
 ### <a name="udp-3478-3481-and-tcp-443"></a>UDP 3478-3481 和 TCP 443
 

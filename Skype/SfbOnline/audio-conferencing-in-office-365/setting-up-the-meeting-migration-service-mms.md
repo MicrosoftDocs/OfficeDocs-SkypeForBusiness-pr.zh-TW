@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '[會議遷移服務（MMS）] 是在背景執行的服務，會自動更新使用者的商務用 Skype 和 Microsoft 團隊會議。 MMS 的設計目的是要讓使用者不需要執行會議遷移工具來更新其商務用 Skype 和 Microsoft 團隊會議。'
-ms.openlocfilehash: 805bc7703024d4c6143ee909e715fa36deaa8e3c
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 5ce6f2ab5954ba0c076e9a4db432da3e93a75db1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41680350"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010976"
 ---
 # <a name="using-the-meeting-migration-service-mms"></a>使用會議遷移服務（MMS）
 
@@ -47,7 +47,7 @@ ms.locfileid: "41680350"
 - 使用者的信箱託管于 Exchange 內部部署中。
 - 使用者正從雲端遷移到商務用 Skype Server 內部部署。
 
-在這些情況下，最終使用者可以使用[會議遷移工具](https://www.microsoft.com/en-us/download/details.aspx?id=51659)來遷移自己的會議。
+在這些情況下，最終使用者可以使用[會議遷移工具](https://www.microsoft.com/download/details.aspx?id=51659)來遷移自己的會議。
 
 ## <a name="how-mms-works"></a>彩信的運作方式
 

@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.UsersGeneralOptions
 - ms.lync.lac.UsersLyncToPhoneMoreInfo
 description: '瞭解如何變更個別使用者的商務用 Skype 設定，例如音訊與視訊會議、通話和會議的錄製。 '
-ms.openlocfilehash: d6054db4bfdd8b161dca427237a10d70ba558fcb
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: 756de9829194139f39c7618e0c8bbd74f3418264
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769686"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010886"
 ---
 # <a name="admins-configure-skype-for-business-settings-for-individual-users"></a>系統管理員：針對個別使用者設定商務用 Skype 設定
 
@@ -43,7 +43,7 @@ ms.locfileid: "41769686"
 ## <a name="configure-general-settings-for-one-user"></a>設定一位使用者的一般設定
 <a name="__toc325019204"> </a>
 
-您必須具備系統[管理員許可權](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)才能執行這些步驟。
+您必須具備系統[管理員許可權](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)才能執行這些步驟。
 
 ![](../images/sfb-logo-30x30.png) **使用商務用 skype 系統管理中心**顯示商務用 skype 標誌的圖示
   
@@ -67,7 +67,7 @@ ms.locfileid: "41769686"
 |:-----|:-----|
 |音訊及 HD 影片  <br/> |允許此人錄製音訊會議、音訊及視訊會議，或不允許他們排程任何會議（無）。  <br/> |
 |記錄交談和會議  <br/> |選擇 [允許此人錄製的內容]。  <br/> [商務用 Skype 基本版] 無法使用此選項。  <br/> |
-|針對合規性，請關閉未存檔的功能  <br/> | 如果您在法律上需要保留電子儲存資訊，請選擇此選項。 <br/>  選取此選項會關閉您在 Exchange 系統管理中心設定[就地保留](https://technet.microsoft.com/en-us/library/ff637980%28v=exchg.150%29.aspx)時不會捕獲的功能。 它會關閉下列功能： <br/>  使用立即訊息傳輸檔案 <br/>  共用的 OneNote 頁面 <br/>  PowerPoint 注釋 <br/> |
+|針對合規性，請關閉未存檔的功能  <br/> | 如果您在法律上需要保留電子儲存資訊，請選擇此選項。 <br/>  選取此選項會關閉您在 Exchange 系統管理中心設定[就地保留](https://technet.microsoft.com/library/ff637980%28v=exchg.150%29.aspx)時不會捕獲的功能。 它會關閉下列功能： <br/>  使用立即訊息傳輸檔案 <br/>  共用的 OneNote 頁面 <br/>  PowerPoint 注釋 <br/> |
    
 若要大量設定這些設定，請使用 PowerShell。 請參閱[設定您的 Windows PowerShell 電腦](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)。
   
@@ -95,7 +95,7 @@ ms.locfileid: "41769686"
     
 2. 選擇 [**音訊會議**]，選取您的音訊會議提供者，輸入或變更要求的資訊，然後按一下 [**儲存**]。
     
-|**音訊會議設定**|**說明**|
+|**音訊會議設定**|**描述**|
 |:-----|:-----|
 |**提供者名稱** <br/> |從清單中選擇您的提供者。  <br/> |
 |**付費電話號碼**（必要） <br/> |針對協力廠商 ACP，這些電話號碼是您從音訊會議提供者接收到的電話號碼。 如果使用者使用 Microsoft 做為音訊會議提供者，則會是在音訊會議橋接器上設定的號碼。 將數位格式化為想要在商務用 Skype 和 Microsoft 團隊會議邀請中顯示的數位。  <br/> |

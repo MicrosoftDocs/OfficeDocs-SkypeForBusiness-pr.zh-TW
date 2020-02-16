@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - SMB
 description: 在貴組織中的人員可以使用 Skype 會議廣播之前，您必須先啟用它。 若要這樣做，您必須知道如何使用 Windows PowerShell。 如果您不知道 Windows PowerShell，請考慮聘用 Microsoft 合作夥伴來為您執行此步驟。
-ms.openlocfilehash: 6ad681972bb62fa1790290a90d4281fe4ccd8571
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 1b06f327fa59ec8e90c9b014db8a252ca7b40579
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692628"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010606"
 ---
 # <a name="enable-skype-meeting-broadcast"></a>啟用 Skype 會議廣播
 
@@ -86,7 +86,7 @@ ms.locfileid: "41692628"
     > [!TIP]
     > 進行變更之後，可能需要長達一小時的時間，才能在 Skype 會議廣播入口網站中生效。 
   
-10. 您的使用者現在可以在您的企業中與其他使用者一起舉行廣播會議。 若要開始使用，請將其指向[什麼是 Skype 會議廣播？](https://support.office.com/en-us/article/c472c76b-21f1-4e4b-ab58-329a6c33757d)
+10. 您的使用者現在可以在您的企業中與其他使用者一起舉行廣播會議。 若要開始使用，請將其指向[什麼是 Skype 會議廣播？](https://support.office.com/article/c472c76b-21f1-4e4b-ab58-329a6c33757d)
     
 ## <a name="configure-your-network-to-broadcast-meetings-with-external-attendees"></a>將您的網路設定為與外部出席者進行廣播會議
 

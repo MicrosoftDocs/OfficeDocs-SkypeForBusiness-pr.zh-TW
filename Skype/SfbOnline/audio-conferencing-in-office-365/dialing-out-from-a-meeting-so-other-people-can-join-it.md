@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 瞭解您需要的專案，以及會議召集人可以使用商務用 Skype 撥出給其他人的方式。
-ms.openlocfilehash: 392c868763c071e534daf8488baf751269792773
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: e69fa266b9e10091f0936baee45c140ba198661f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695688"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41982818"
 ---
 # <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>從商務用 Skype 會議撥出，讓其他人可以加入
 
@@ -64,4 +64,4 @@ ms.locfileid: "41695688"
     
 ## <a name="related-topics"></a>相關主題
 
-[安裝商務用 Skype](https://support.office.com/en-us/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb)
+[安裝商務用 Skype](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb)

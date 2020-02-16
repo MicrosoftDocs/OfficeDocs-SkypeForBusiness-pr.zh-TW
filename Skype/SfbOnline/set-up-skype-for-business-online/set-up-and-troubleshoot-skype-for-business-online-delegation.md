@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 本文說明如何設定和疑難排解商務用 Skype Online 委派。 本文提供設定建議、最佳做法及疑難排解步驟的指導方針。
-ms.openlocfilehash: fac2b68deec94825d57fd06b436d00feaa924a5c
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 6774fe36760e6a9c53808f33f7a842d5460e0f4c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706478"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010796"
 ---
 # <a name="set-up-and-troubleshoot-skype-for-business-online-delegation"></a>商務用 Skype Online 委派的設定和疑難排解
 
@@ -140,7 +140,7 @@ ms.locfileid: "41706478"
   
 - 不支援建立安全性群組及新增該安全性群組的委派許可權。
     
-- MAPI 無法使用。 請參閱[商務用 Skype 2016 用戶端的「MAPI 無法使用」錯誤](https://support.microsoft.com/en-us/help/3147130)。
+- MAPI 無法使用。 請參閱[商務用 Skype 2016 用戶端的「MAPI 無法使用」錯誤](https://support.microsoft.com/help/3147130)。
     
 - 無法透過商務用 Skype 用戶端存取 Exchange Online 信箱。 如果發生這種情況，請執行[Outlook 連線測試](https://testconnectivity.microsoft.com/)，以確定它已通過。
     

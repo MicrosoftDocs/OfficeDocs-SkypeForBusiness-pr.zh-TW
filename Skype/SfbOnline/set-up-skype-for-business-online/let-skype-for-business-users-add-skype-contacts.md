@@ -20,18 +20,18 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: '瞭解如何讓使用商務用 Skype 的使用者從貴組織外的商務用 skype 連絡人，然後將他們新增至他們的連絡人清單。 '
-ms.openlocfilehash: d6251e8e86527172e6818d11b1e07da892b4b0ef
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: ffefa664845f5dbe06b064e0a197a28d8df2c3da
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692878"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010806"
 ---
 # <a name="let-skype-for-business-users-add-skype-contacts"></a>讓商務用 Skype 使用者新增 Skype 連絡人
 
 在商務用 Skype 中，您的使用者可以在使用 Skype （免費應用程式）的所有人搜尋和傳送即時消息！ 本文說明您需要採取的動作，才能新增 Skype 連絡人。 
   
-您必須具備 Office 365 的系統[管理員許可權](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d?ui=en-US&rs=en-US&ad=US)，才能執行此動作。
+您必須具備 Office 365 的系統[管理員許可權](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d?ui=en-US&rs=en-US&ad=US)，才能執行此動作。
 
 ![](../images/sfb-logo-30x30.png) **使用商務用 skype 系統管理中心**顯示商務用 skype 標誌的圖示
   
@@ -55,11 +55,11 @@ ms.locfileid: "41692878"
     
 6.  如果您使用的是 Windows 防火牆，商務用 Skype 會自動開啟所需的埠。
     
-    如果您的組織使用另一個解決方案來限制您網路上的電腦連線至網際網路，請確定用戶端電腦能夠存取所有的[IP 位址和 url](https://support.office.com/en-us/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2) ，瞭解 skype 連線與 Skype 目錄搜尋。 這可能需要將它們新增到防火牆或 proxy 基礎結構設定的輸出允許清單中。
+    如果您的組織使用另一個解決方案來限制您網路上的電腦連線至網際網路，請確定用戶端電腦能夠存取所有的[IP 位址和 url](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2) ，瞭解 skype 連線與 Skype 目錄搜尋。 這可能需要將它們新增到防火牆或 proxy 基礎結構設定的輸出允許清單中。
     
 7. 請**等候長達24小時進行測試**。 每當您變更 [外部通訊] 設定時，最多可能需要24小時才能在所有資料中心上填入變更。
     
-8. 向您的使用者顯示如何尋找 Skype 連絡人並將其新增至其商務用 Skype 連絡人清單中。 指出他們[在商務用 Skype 中搜尋人員](https://support.office.com/en-us/article/b12500ef-e37f-4d22-aade-c11277e53f19)。
+8. 向您的使用者顯示如何尋找 Skype 連絡人並將其新增至其商務用 Skype 連絡人清單中。 指出他們[在商務用 Skype 中搜尋人員](https://support.office.com/article/b12500ef-e37f-4d22-aade-c11277e53f19)。
     
 ## <a name="test-and-troubleshoot"></a>測試和疑難排解
 
@@ -73,7 +73,7 @@ ms.locfileid: "41692878"
   
 3. 在商務用 Skype 中，搜尋您在 Skype 中的聯絡人，然後將要求傳送到聊天。 
     
-    如果您收到由於公司原則而無法傳送的訊息，您必須仔細檢查您的[防火牆設定](https://support.office.com/en-us/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)。 
+    如果您收到由於公司原則而無法傳送的訊息，您必須仔細檢查您的[防火牆設定](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)。 
     
 4. 測試問題是否是您的防火牆的另一種方法，就是移至不在防火牆背後的 wifi 位置（例如咖啡廳），並使用商務用 Skype 將要求傳送給您的 Skype 連絡人進行聊天。 
     

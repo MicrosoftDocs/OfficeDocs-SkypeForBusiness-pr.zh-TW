@@ -23,12 +23,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: '瞭解附加元件授權、您可以取得的功能、如何為您的產品購買，以及如何將您現有的運營商與他們搭配使用。 您可以取得 Office 365、通訊點數和通話方案的定價與方案詳細資料。 '
-ms.openlocfilehash: c48136176673676df83833833b4424d8d0a593f3
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 94a5adc1e9f9abf5529aaf5b149d9cfc906efbe8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706078"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010566"
 ---
 # <a name="skype-for-business-add-on-licensing"></a>商務用 Skype 附加元件授權
 
@@ -44,11 +44,11 @@ ms.locfileid: "41706078"
 
 如需更多成本資訊，請參閱[如何查看價格及購買附加元件授權](skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_how)或下列其中一項：
 
-- [音訊會議的定價](https://products.office.com/en-us/skype-for-business/audio-conferencing)
+- [音訊會議的定價](https://products.office.com/skype-for-business/audio-conferencing)
 
-- [電話系統價格](https://products.office.com/en-us/skype-for-business/phone-system)
+- [電話系統價格](https://products.office.com/skype-for-business/phone-system)
 
-- [通話方案的價格](https://products.office.com/en-us/skype-for-business/calling-plans)
+- [通話方案的價格](https://products.office.com/skype-for-business/calling-plans)
 
 ## <a name="what-features-can-i-get-with-add-on-licenses"></a>我可以使用附加元件授權取得哪些功能？
 
@@ -56,11 +56,11 @@ ms.locfileid: "41706078"
 
 |||
 |:-----|:-----|
-|**功能** <br/> |**說明** <br/> |
-|**音訊會議** <br/> |有時候貴組織中的人員必須使用電話撥入商務用 Skype 會議，而不是使用其電腦。 在這種情況下，請使用 [音訊會議] 功能。  <br/> 若要瞭解您的國家或地區是否有可用的音訊會議，請參閱[音訊會議與通話方案的國家/地區可用性](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)。 <br/> 如果您要尋找多少成本，請參閱[音訊會議的需求](https://products.office.com/en-us/skype-for-business/audio-conferencing#requirements)。  <br/> |
+|**功能** <br/> |**描述** <br/> |
+|**音訊會議** <br/> |有時候貴組織中的人員必須使用電話撥入商務用 Skype 會議，而不是使用其電腦。 在這種情況下，請使用 [音訊會議] 功能。  <br/> 若要瞭解您的國家或地區是否有可用的音訊會議，請參閱[音訊會議與通話方案的國家/地區可用性](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)。 <br/> 如果您要尋找多少成本，請參閱[音訊會議的需求](https://products.office.com/skype-for-business/audio-conferencing#requirements)。  <br/> |
 |**您的會議撥入存取的免費電話號碼，以及從會議撥出的電話號碼，透過撥打世界各地的任何電話號碼來新增人員** <br/> |如果您要新增音訊會議，建議您[設定通訊點數](/microsoftteams/set-up-communications-credits-for-your-organization)。 <br/> |
-|**電話系統** <br/> |PBX 是企業中的電話系統。 Office 365 中的 [電話系統] 是託管電話語音。 它提供傳統與創新的 PBX 功能，但沒有複雜且昂貴的裝置。 [以下是您在 Office 365 中使用電話系統所取得的內容](/MicrosoftTeams/here-s-what-you-get-with-phone-system)。  <br/> 如果您要尋找多少成本，請參閱[電話系統的需求](https://products.office.com/en-us/skype-for-business/cloud-pbx#requirements)。  <br/> |
-|**通話方案** <br/> |呼叫其他商務用 Skype 使用者是免費的，但如果您想讓您的使用者能夠撥打電話給公司以外的任何電話號碼，請取得通話[方案](/MicrosoftTeams/calling-plans-for-office-365)。 Office 365 中有國內通話方案和國內和國際通話方案。  <br/> 如果您要尋找多少成本，請參閱[通話方案的需求](https://products.office.com/en-us/skype-for-business/pstn-calling-plans#requirements)。  <br/> |
+|**電話系統** <br/> |PBX 是企業中的電話系統。 Office 365 中的 [電話系統] 是託管電話語音。 它提供傳統與創新的 PBX 功能，但沒有複雜且昂貴的裝置。 [以下是您在 Office 365 中使用電話系統所取得的內容](/MicrosoftTeams/here-s-what-you-get-with-phone-system)。  <br/> 如果您要尋找多少成本，請參閱[電話系統的需求](https://products.office.com/skype-for-business/cloud-pbx#requirements)。  <br/> |
+|**通話方案** <br/> |呼叫其他商務用 Skype 使用者是免費的，但如果您想讓您的使用者能夠撥打電話給公司以外的任何電話號碼，請取得通話[方案](/MicrosoftTeams/calling-plans-for-office-365)。 Office 365 中有國內通話方案和國內和國際通話方案。  <br/> 如果您要尋找多少成本，請參閱[通話方案的需求](https://products.office.com/skype-for-business/pstn-calling-plans#requirements)。  <br/> |
 |**Microsoft Teams 會議室** <br/> |這不是附加元件，而是將影片、音訊和內容共用放在會議室的功能。 請參閱[Microsoft 團隊聊天室](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)。  <br/> |
 
 需要與某個人討論所有附加元件選項嗎？ [客戶支援部門-系統管理協助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
@@ -91,11 +91,11 @@ ms.locfileid: "41706078"
 ## <a name="how-do-i-use-my-existing-calling-plans-with-skype-for-business"></a>如何在商務用 Skype 中使用現有的通話方案？
 <a name="bkmk_existing"></a>
 
-如果您想要使用您現有的通話方案，請購買**手機系統**附加元件，並將它與**[免費的雲端連接器](https://technet.microsoft.com/en-us/library/mt605227.aspx)** 搭配使用。
+如果您想要使用您現有的通話方案，請購買**手機系統**附加元件，並將它與**[免費的雲端連接器](https://technet.microsoft.com/library/mt605227.aspx)** 搭配使用。
 
 如果您是針對混合式使用者使用內部部署 PSTN 連線，您*只*需將**電話系統**授權指派給您的使用者。 **不要**同時指派通話方案。
 
-如需規劃部署的大量檔（包括含內部部署 PSTN 連線的電話系統），請參閱[在 Office 365 （雲端 PBX）方案中規劃您的電話系統](https://technet.microsoft.com/en-us/library/mt612869.aspx)。
+如需規劃部署的大量檔（包括含內部部署 PSTN 連線的電話系統），請參閱[在 Office 365 （雲端 PBX）方案中規劃您的電話系統](https://technet.microsoft.com/library/mt612869.aspx)。
 
 
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
@@ -110,4 +110,4 @@ ms.locfileid: "41706078"
     
 - [加值和管理通訊點數](/microsoftteams/add-funds-and-manage-communications-credits)
     
-- [設定雲端連接器](https://technet.microsoft.com/en-us/library/mt605228.aspx)並[下載雲端連接器](https://aka.ms/CloudConnectorInstaller)
+- [設定雲端連接器](https://technet.microsoft.com/library/mt605228.aspx)並[下載雲端連接器](https://aka.ms/CloudConnectorInstaller)

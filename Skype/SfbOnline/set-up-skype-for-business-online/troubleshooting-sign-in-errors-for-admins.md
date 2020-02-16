@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: '了解商務用 Skype Online 登入錯誤的常見原因，並對這些問題進行疑難排解。 '
-ms.openlocfilehash: 3315dec928ec019dc8f970171d2eb44693cdf909
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 6014c8af8a3fd39ad3a79d80f7abfbddeaa4340b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692768"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010756"
 ---
 # <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>系統管理員適用的商務用 Skype 登入錯誤問題疑難排解
 
@@ -195,7 +195,7 @@ ms.locfileid: "41692768"
 
 1. 將所有受影響使用者的 **msRTCSIP-UserEnabled** 屬性更新為 **TRUE**。
 
-2. 重新執行 Microsoft Online Services 目錄同步作業工具 (DirSync)。 如需詳細資訊，請參閱[整合您的內部部署目錄與 Azure Active Directory](https://technet.microsoft.com/zh-TW/library/hh967642.aspx)。
+2. 重新執行 Microsoft Online Services 目錄同步作業工具 (DirSync)。 如需詳細資訊，請參閱[整合您的內部部署目錄與 Azure Active Directory](https://technet.microsoft.com/library/hh967642.aspx)。
 
 若要針對商務用 Skype Online 登入錯誤進行疑難排解，請從消除登入困難的最常見原因開始。 如有需要，您可以根據錯誤類型執行特定的解決步驟。 如果使用者仍無法登入，請收集其他資訊，然後尋求其他協助。
 ## <a name="use-the-microsoft-support-troubleshooting-guide"></a>使用 Microsoft 支援服務疑難排解指南

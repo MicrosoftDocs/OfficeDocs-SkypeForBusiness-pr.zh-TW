@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - PowerShell
 description: 疑難排解建立用來連線到商務用 Skype Online 的遠端 PowerShell 會話，包括匯入模組、併發 shell、Live ID 和許可權錯誤。
-ms.openlocfilehash: 5e35925b77ebc4d68f293568fe758b934c4a33e1
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: e86ec24e47bf6e8ea8d3e6b4ea66ab9da89457fd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692688"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010626"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>診斷商務用 Skype Online 連接器的連線問題
 
@@ -77,7 +77,7 @@ PowerShell 執行原則可協助判斷哪些設定檔可以載入到 PowerShell 
   
   - **錯誤**：匯*入-模組：載入的 PowerShell 版本是 "2.0"。Module to\\： Program files\\常見檔案\\Microsoft Lync Server 2013\\模組\\LyncOnlineConnector\\LyncOnlineConnector，psd1 ' 需要最小3.0 的 PowerShell 版本才能執行。請確認已安裝 PowerShell，然後再試一次。*
 
-- **解決**方式：修正這個問題的唯一方法是安裝 Windows PowerShell 3.0，此版本可從 Microsoft 下載中心取得[https://www.microsoft.com/en-us/download/details.aspx?id=34595](https://www.microsoft.com/en-us/download/details.aspx?id=34595)。
+- **解決**方式：修正這個問題的唯一方法是安裝 Windows PowerShell 3.0，此版本可從 Microsoft 下載中心取得[https://www.microsoft.com/download/details.aspx?id=34595](https://www.microsoft.com/download/details.aspx?id=34595)。
   
 ## <a name="modern-authentication-fails-when-winrm-basic-authentication-has-been-disabled"></a>已停用 WinRM 基本驗證時，新式驗證失敗
 <a name="BKMKWinRMBasicAuth"> </a>
@@ -113,7 +113,7 @@ PowerShell 執行原則可協助判斷哪些設定檔可以載入到 PowerShell 
 
 - **錯誤**： *CsWebTicket：無法載入 [即時 Id] 模組。請確定已安裝 [正確版本的 Live Id 登入*小幫手]。
 
-- **解析度**：適用于[IT 專業人員的 microsoft Online services 登入](https://www.microsoft.com/en-us/download/details.aspx?id=28177)小幫手，Microsoft 下載中心提供 microsoft online services 登入小幫手 RTW
+- **解析度**：適用于[IT 專業人員的 microsoft Online services 登入](https://www.microsoft.com/download/details.aspx?id=28177)小幫手，Microsoft 下載中心提供 microsoft online services 登入小幫手 RTW
 
 ## <a name="logon-failed-for-the-user"></a>使用者登入失敗
 <a name="BKMKLogonFailed"> </a>

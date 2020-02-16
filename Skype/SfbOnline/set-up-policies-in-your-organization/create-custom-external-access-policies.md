@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 商務用 Skype Online 可讓您建立其他外部存取原則。 與用戶端或會議原則不同（您可以使用多個組合），有三個預先定義的外部存取原則可涵蓋大部分案例。
-ms.openlocfilehash: 19b022bac8a43c595b07085db921da6a404d9ac7
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 76fa8fd1ae18f4108d9c4f52bca73d86ea07aafd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41887912"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41983968"
 ---
 # <a name="create-custom-external-access-policies"></a>建立自訂外部存取原則
 
@@ -57,7 +57,7 @@ ms.locfileid: "41887912"
     
 2. 在**Windows PowerShell**視窗中輸入 [_取得主機_]，以檢查版本。
     
-3. 如果您沒有版本3.0 或更高版本，您需要下載並安裝 Windows PowerShell 更新。 請參閱[Windows Management Framework 4.0](https://www.microsoft.com/en-us/download/details.aspx?id=40855) ，以下載並更新 Windows PowerShell 至版本4.0。 出現提示時，請重新開機電腦。
+3. 如果您沒有版本3.0 或更高版本，您需要下載並安裝 Windows PowerShell 更新。 請參閱[Windows Management Framework 4.0](https://www.microsoft.com/download/details.aspx?id=40855) ，以下載並更新 Windows PowerShell 至版本4.0。 出現提示時，請重新開機電腦。
     
 4. 您也需要安裝適用于商務用 Skype Online 的 Windows PowerShell 模組，這可讓您建立連線到商務用 Skype Online 的遠端 Windows PowerShell 會話。 此模組只受64位電腦支援，可從[適用于商務用 Skype Online 的 Windows PowerShell 模組](https://go.microsoft.com/fwlink/?LinkId=294688)上的 Microsoft 下載中心下載。 如果出現提示，請重新開機電腦。
     

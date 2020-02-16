@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: '瞭解如何為您的使用者設定商務用 Skype Online 外部通訊，以便與外部 Skype 連絡人進行通訊。 '
-ms.openlocfilehash: 65def1712c916ff670457a99dd114dcc405683be
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: ec10b29c87d4dcab00bb2e680c0ed594aa9de2d9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706278"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010736"
 ---
 # <a name="video-skype-for-business-online-external-communications"></a>視訊：商務用 Skype Online 外部通訊
 
@@ -38,7 +38,7 @@ ms.locfileid: "41706278"
 ***
   
 ## <a name="related-topics"></a>相關主題
-[設定商務用 Skype Online 外部通訊](https://support.microsoft.com/en-us/help/10041/set-up-lync-online-external-communications)（逐步引導的逐步解說）
+[設定商務用 Skype Online 外部通訊](https://support.microsoft.com/help/10041/set-up-lync-online-external-communications)（逐步引導的逐步解說）
 
 [允許使用者連絡外部商務用 Skype 使用者](allow-users-to-contact-external-skype-for-business-users.md)
 
