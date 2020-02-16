@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Licensing
 description: 商務用 Skype Online 方案1已停用。 不過，如果您目前已訂閱商務用 Skype Online 方案1，此變更就不會立即影響您。 當您準備好移至新的方案時（無論是現在或在續約期間），您都有三個選項。
-ms.openlocfilehash: d0d553946ddbde84ede48b715332e66aea75dac4
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 1b6642ccea185136c21e6064a8af9f271491c1f4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692658"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029084"
 ---
 # <a name="skype-for-business-online-plan-1-retirement"></a>終止對商務用 Skype Online 方案 1 的支援 
 
@@ -38,7 +38,7 @@ ms.locfileid: "41692658"
 
 ## <a name="switching-to-office-365-f1"></a>切換到 Office 365 F1
 
-如果您想要利用 Office 365 F1 提供的其他功能，此選項是最佳選擇。 若要深入瞭解並取得定價資訊，請參閱[Office 365 F1](https://products.office.com/en-us/business/office-365-f1)。
+如果您想要利用 Office 365 F1 提供的其他功能，此選項是最佳選擇。 若要深入瞭解並取得定價資訊，請參閱[Office 365 F1](https://products.office.com/business/office-365-f1)。
 
 
 ### <a name="how-to-switch"></a>如何切換 

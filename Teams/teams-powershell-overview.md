@@ -15,12 +15,12 @@ f1.keywords:
 description: 瞭解如何使用 PowerShell 控制項來管理 Microsoft 團隊。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5b211493bb5b0bfa3dea1abfc0c9b59eadcb4206
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c5eaf04a0244e35e7d9f7deb7d8afb135b3acb2c
+ms.sourcegitcommit: c8d16d5e61d66d7b5e7391a800978b920612ea4d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035355"
+ms.locfileid: "42052520"
 ---
 # <a name="teams-powershell-overview"></a>團隊 PowerShell 概覽
 
@@ -79,7 +79,7 @@ PowerShell 控制項的參考檔將會告知您要調查的 Cmdlet 所在的模�
 
 ## <a name="managing-policies-via-powershell"></a>透過 PowerShell 管理原則
 
-管理原則的 Cmdlet 位於[商務用 Skype Cmdlet 模組](https://www.microsoft.com/download/details.aspx?id=39366)中。
+在[商務用 Skype Cmdlet 模組](https://www.microsoft.com/download/details.aspx?id=39366)中使用 Cmdlet 來管理個別使用者的原則。
 
 > [!NOTE]
 > 在您連線到商務用 Skype Online 之後，您的 PowerShell 會話中就會提供 Cmdlet。 如需詳細資訊，請參閱[使用 Office 365 PowerShell 管理商務用 Skype Online](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)。 

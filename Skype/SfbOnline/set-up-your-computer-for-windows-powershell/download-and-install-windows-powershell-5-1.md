@@ -20,12 +20,12 @@ ms.custom:
 - PowerShell
 - LIL_Placement
 description: 下載、安裝並使用 Windows PowerShell 5.1 來建立連線至商務用 Skype Online 的遠端 PowerShell 會話。
-ms.openlocfilehash: 227023d5c86b99a66ecdbdabd3b2973d0383a534
-ms.sourcegitcommit: ac922addbc1422b5c41273a2e03196efb2ed7770
+ms.openlocfilehash: 64d1ed1b3e3031f5186a09289ab6e1d9088840cf
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41831147"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029094"
 ---
 # <a name="download-and-install-windows-powershell-51"></a>下載並安裝 Windows PowerShell 5.1
 
@@ -49,7 +49,7 @@ ms.locfileid: "41831147"
     4.0
     </pre>
 
-    如果傳回的版本號碼是5.1，則您執行的是 Windows PowerShell 5.1。 如果傳回的版本號碼不是5.1，則您必須安裝 Windows PowerShell 5.1。 您可以從[Microsoft 下載中心](https://www.microsoft.com/en-us/download/details.aspx?id=54616)下載 Windows Management Framework 5.1 （包括 windows PowerShell 5.1）。
+    如果傳回的版本號碼是5.1，則您執行的是 Windows PowerShell 5.1。 如果傳回的版本號碼不是5.1，則您必須安裝 Windows PowerShell 5.1。 您可以從[Microsoft 下載中心](https://www.microsoft.com/download/details.aspx?id=54616)下載 Windows Management Framework 5.1 （包括 windows PowerShell 5.1）。
   
 確認已安裝 Windows PowerShell 5.1 之後，您必須確認已針對執行遠端腳本將其設定為執行。 若要這樣做，請以系統管理員的身分啟動 PowerShell。 在 Windows 7、Windows Server 2008 R2、Windows Server 2012 或 Windows Server 2012 R2 上，請執行下列動作：
   

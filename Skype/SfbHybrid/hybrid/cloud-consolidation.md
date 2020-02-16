@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 本文說明如何達到該合併為組織內部 deployment(s) 的 Skype for Business （或 Lync） 正在尋找將移至移動給小組其 UC 工作負載和/或商務用 Skype。
-ms.openlocfilehash: 7f3ad27404ec80e0592baa7174b01363f1aa0ed1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f09359f126a051f72397b10724c6ab51d6ca0c1a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726953"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033662"
 ---
 # <a name="cloud-consolidation-for-teams-and-skype-for-business"></a>Teams 和商務用 Skype 的雲端整合
 
@@ -42,7 +42,7 @@ ms.locfileid: "41726953"
 只要符合下列關鍵需求，任何擁有多個商務用 Skype 部署的組織，都能將內部部署的所有使用者合併到雲端的單一 Office 365 租用戶中：
 
 - 最多只能有一個 Office 365 租用戶。 不支援多個 Office 365 租用戶案例的合併。
-- 任何時候，只有一個內部部署商務用 Skype 樹系可以處於混合模式 (共用 SIP 位址空間)。 其他所有內部部署商務用 Skype 樹系都必須仍是內部部署 (而且可能會互相形成同盟)。 請注意，這些其他內部部署組織*可以*同步處理至 AAD 如果想要與[新功能，以停用線上的 SIP 網域](https://docs.microsoft.com/en-us/powershell/module/skype/disable-csonlinesipdomain?view=skype-ps)可用截至 2018 年 12 月。
+- 任何時候，只有一個內部部署商務用 Skype 樹系可以處於混合模式 (共用 SIP 位址空間)。 其他所有內部部署商務用 Skype 樹系都必須仍是內部部署 (而且可能會互相形成同盟)。 請注意，這些其他內部部署組織*可以*同步處理至 AAD 如果想要與[新功能，以停用線上的 SIP 網域](https://docs.microsoft.com/powershell/module/skype/disable-csonlinesipdomain?view=skype-ps)可用截至 2018 年 12 月。
 
 在多個樹系中有多個商務用 Skype 部署的客戶，必須使用共用 SIP 位址空間功能，個別將單一混合式商務用 Skype 樹系的所有使用者，完全移轉到 Office 365 租用戶中，然後停用該內部部署的混合式部署，再繼續移轉下一個內部部署商務用 Skype 部署。 在移轉到雲端之前，內部部署使用者與任何不在相同使用者內部部署目錄中的使用者還是會保持同盟狀態。  
 
@@ -63,9 +63,9 @@ ms.locfileid: "41726953"
 2.  請確定所有相關跨兩個內部部署的 SIP 網域已驗證的 Office 365 網域。
 3.  選擇一個商務用 Skype 會與 Office 365 的混合式的企業部署。 在這個範例中，我們將使用 OriginalCompany。<span>com。
 4.  [啟用 AAD 連線的樹系](configure-azure-ad-connect.md)中第一次將成為混合式 (OriginalCompany。<span>com)。 
-5.  如果您將介紹 Teams 進入您的組織，為[TeamsUpgradePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/grant-csteamsupgradepolicy) SfBWithTeamsCollab 或下列其中一個其他 SfB 模式 （SfBOnly 或 SfBWithTeamsCollabAndMeetings） 的全租用戶原則。 這是很重要的通話路由傳送，而且聊天室的使用者移至 [僅小組會保留在內部部署的使用者。
+5.  如果您將介紹 Teams 進入您的組織，為[TeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy) SfBWithTeamsCollab 或下列其中一個其他 SfB 模式 （SfBOnly 或 SfBWithTeamsCollabAndMeetings） 的全租用戶原則。 這是很重要的通話路由傳送，而且聊天室的使用者移至 [僅小組會保留在內部部署的使用者。
 6.  它是建議使用這個時候 （但尚未必要步驟 11 之前） 若要[啟用 AAD Connect 為其他樹系](cloud-consolidation-aad-connect.md)(AcquiredCompany。<span>com)。 假設 AAD 連線兩個樹系中已啟用，組織看起來像**[圖](#figure-a)**，這可能是常見的起點的部分組織的 emc。 
-7.  針對任何其他內部部署所主控的 SIP 網域 (在此情況下，AcquiredCompany。<span>com)，[停用這些中的 SIP 網域 Skype for Business Online](https://docs.microsoft.com/en-us/powershell/module/skype/disable-csonlinesipdomain)使用`Disable-CsOnlineSipDomain`PowerShell 中。 （這是截至 2018 年 12 月的新功能）。
+7.  針對任何其他內部部署所主控的 SIP 網域 (在此情況下，AcquiredCompany。<span>com)，[停用這些中的 SIP 網域 Skype for Business Online](https://docs.microsoft.com/powershell/module/skype/disable-csonlinesipdomain)使用`Disable-CsOnlineSipDomain`PowerShell 中。 （這是截至 2018 年 12 月的新功能）。
 8.  [設定混合式商務用](configure-federation-with-skype-for-business-online.md)為 OriginalCompany 的。<span>com （一個部署，仍有啟用線上的 SIP 網域）。
 9.  混合式部署中 (OriginalCompany。<span>com)，開始[移動使用者從內部部署到雲端的商務用 Skype](move-users-between-on-premises-and-cloud.md) (是否小組僅限與否) 以便帳戶位於 skype for Business Online。 現在組織看起來像**[圖 B](#figure-b)**。圖的重要變更是：
     - 這兩個內部部署目錄中的使用者現在則位於 AAD。
@@ -76,11 +76,11 @@ ms.locfileid: "41726953"
     - 停用與 Office 365 中 OriginalCompany 通訊的功能。<span>com 內部。
     - OriginalCompany 更新 DNS 記錄。<span>以指向 Office 365 的 com。
 11. 如果不這麼做，[啟用 AAD 連線的下一個樹系](cloud-consolidation-aad-connect.md)，將會移混合式 (AcquiredCompany。<span>com)。 此時，組織看起來像**[圖 C](#figure-c)**。這可能是另一個常見的起始點的某些組織。 
-12. 在 PowerShell 中[啟用的下一個內部部署的 SIP 網域](https://docs.microsoft.com/en-us/powershell/module/skype/enable-csonlinesipdomain?view=skype-ps)，將會移混合式，AcquiredCompany。<span>com。 這是使用`Enable-CsOnlineSipDomain`，也就是截至 2018 年 12 月的可用的新功能。
+12. 在 PowerShell 中[啟用的下一個內部部署的 SIP 網域](https://docs.microsoft.com/powershell/module/skype/enable-csonlinesipdomain?view=skype-ps)，將會移混合式，AcquiredCompany。<span>com。 這是使用`Enable-CsOnlineSipDomain`，也就是截至 2018 年 12 月的可用的新功能。
 13. 如果您使用關閉的同盟，您必須新增任何 SIP 網域 (不含 *。 microsoftonline.com) 的純虛擬 online 中的租用戶允許的網域為**同一個**Office 365。 請注意，它可能需要一些時間前變更才會生效，而且沒有無礙早期，這項作業，我們建議這麼做也遲移至步驟 14。
 14. 更新以接受從 online 租用戶，任何 SIP 網域，這樣它們符合的內部部署環境。
     - [更新所有 edge 憑證中的 SAN](cloud-consolidation-edge-certificates.md)為相同的值為之前加上的任何現有的線上 SIP 網域值 (除非 *。 microsoftonline.com)、 在此情況下，Sip.OriginalCompany。<span>com。
-    - 請確定 OriginalCompany。<span>com 是[允許的網域](https://docs.microsoft.com/en-us/powershell/module/skype/new-csalloweddomain)在內部部署中，AcquiredCompany。 加入允許的網域。
+    - 請確定 OriginalCompany。<span>com 是[允許的網域](https://docs.microsoft.com/powershell/module/skype/new-csalloweddomain)在內部部署中，AcquiredCompany。 加入允許的網域。
 15. [啟用 Skype for Business 混合式](configure-federation-with-skype-for-business-online.md)內部部署 AcquiredCompany 之間。<span>com 和雲端。
 16. 做為所需，[將使用者從內部部署到雲端移轉](move-users-between-on-premises-and-cloud.md)。 您可以將使用者移轉可以直接以[TeamsOnly](/microsoftteams/teams-and-skypeforbusiness-coexistence-and-interoperability)模式或您可以移轉第一次到 Skype for Business Online。 在此狀態下，期間組織看起來像**[圖 D](#figure-d)**。
 17. 一旦移轉所有使用者，讓*組織純雲端*的 [[停用在內部部署環境的混合式](cloud-consolidation-disabling-hybrid.md)！
@@ -97,7 +97,7 @@ ms.locfileid: "41726953"
 
 ##### <a name="figure-b"></a>圖 b:
 
-- AcquiredCompany。<span>com 是[停用](https://docs.microsoft.com/en-us/powershell/module/skype/disable-csonlinesipdomain)線上的 SIP 網域。 所有使用者都是內部部署。 如果他們使用 Teams 他們沒有同盟或互通性。 在這個階段中，Microsoft 建議只使用 Teams 的通道。
+- AcquiredCompany。<span>com 是[停用](https://docs.microsoft.com/powershell/module/skype/disable-csonlinesipdomain)線上的 SIP 網域。 所有使用者都是內部部署。 如果他們使用 Teams 他們沒有同盟或互通性。 在這個階段中，Microsoft 建議只使用 Teams 的通道。
 - 其中一個內部部署組織已啟用混合式商務用 Skype。
 - 混合式組織中的某些使用者已移至雲端 （使用者的紫色網底所指示）。 這些使用者可以是商務用 Skype 商務 Online 使用者，或是只小組使用完整的互通性和同盟支援的使用者。<br><br>
     ![圖 B 圖表](../media/cloudconsolidationfigb.png)
@@ -179,7 +179,7 @@ ms.locfileid: "41726953"
     - 附註： 您必須執行這項操作的全租用戶層級因為原則無法指派給個別使用者在線上目錄中，不需要 SIP 位址。 雖然您已停用內部純粹 deployment(s) 線上的 SIP 網域，這些網域中的使用者不會根據設計就線上目錄中有 SIP 位址。 因此，若要將原則套用至那些內部使用者的唯一方法是藉由指定租用戶層級。 相反地，在混合式架構部署使用者將 SIP 位址的目錄中有 online 讓他們可以明確指派原則如果它需要有不同的租用戶的全域原則的值。
 - Microsoft Teams 用戶端 UX 不會尚未接受 TeamsUpgradePolicy SfB 模式。 例如，在這些模式中，當來電與交談初始 teams 是目前可行的雖然在未來，不會發生此情況。 這可能會造成使用者之間的混淆，因為回覆有時可能小組和有時商務用 Skype 中登陸狀況而定。 建議您分別停用通話並透過 TeamsMessagingPolicy 和 TeamsCallingPolicy 聊天室還是內部部署使用者。
 
-## <a name="see-also"></a>另請參閱
+## <a name="see-also"></a>請參閱
 
 [更新邊緣憑證](cloud-consolidation-edge-certificates.md)
 

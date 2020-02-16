@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 瞭解如何使用健康情況儀表板監視會話邊界控制器與直接路由之間的連接。
-ms.openlocfilehash: a1644eb94cc18bf149a5e866aae0faf4b41d1d67
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: a89377c798295267b1e75f3ffa6efc19b8c4c37d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836073"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051799"
 ---
 # <a name="health-dashboard-for-direct-routing"></a>直接路由的健康情況儀表板
 
@@ -102,7 +102,7 @@ ms.locfileid: "41836073"
 
 - **同時通話**-顯示已處理 SBC 的併發呼叫數。 此資訊對預測您所需的併發通道數量很有用，而且會看到趨勢。 您可以依天數和通話方向（入站/輸出/所有資料流程）來滑動資料。
 
-- **網路參數**-所有的網路參數都是從直接路由介面到會話邊界控制器的測量。 如需建議值的相關資訊，請參閱為[Microsoft 團隊準備貴組織的網路](https://docs.microsoft.com/en-us/microsoftteams/prepare-network)，並查看客戶邊緣至 microsoft Edge 的建議值。
+- **網路參數**-所有的網路參數都是從直接路由介面到會話邊界控制器的測量。 如需建議值的相關資訊，請參閱為[Microsoft 團隊準備貴組織的網路](https://docs.microsoft.com/microsoftteams/prepare-network)，並查看客戶邊緣至 microsoft Edge 的建議值。
 
    - 抖動：是在使用 RTCP （RTP 控制通訊協定）的兩個端點之間計算之網路傳播延遲時間變化的毫秒測量。
 
