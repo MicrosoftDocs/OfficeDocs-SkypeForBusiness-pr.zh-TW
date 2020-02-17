@@ -123,7 +123,7 @@ Call Detail Report 內您可以從存取[裝置報告在 Lync Server 2013](lync-
 </colgroup>
 <thead>
 <tr class="header">
-<th>姓名</th>
+<th>名稱</th>
 <th>可以排序這個項目嗎？</th>
 <th>描述</th>
 </tr>

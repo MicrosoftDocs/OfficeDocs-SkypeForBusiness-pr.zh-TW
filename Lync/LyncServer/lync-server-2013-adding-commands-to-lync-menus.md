@@ -90,7 +90,7 @@ _**主題上次修改日期：** 2016年-04-11_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>姓名</p></td>
+<td><p>名稱</p></td>
 <td><p>REG_SZ</p></td>
 <td><p>顯示在功能表上的應用程式名稱。</p></td>
 </tr>

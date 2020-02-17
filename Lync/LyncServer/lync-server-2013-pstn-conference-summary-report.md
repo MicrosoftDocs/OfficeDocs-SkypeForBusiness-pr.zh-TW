@@ -148,7 +148,7 @@ PSTN 會議摘要報告提供有關保留組織 （亦即，所有的會議有�
 </colgroup>
 <thead>
 <tr class="header">
-<th>姓名</th>
+<th>名稱</th>
 <th>可以排序這個項目嗎？</th>
 <th>描述</th>
 </tr>

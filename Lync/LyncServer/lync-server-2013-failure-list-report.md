@@ -129,7 +129,7 @@ _**主題上次修改日期：** 2012年-07-02_
 </colgroup>
 <thead>
 <tr class="header">
-<th>姓名</th>
+<th>名稱</th>
 <th>可以排序這個項目嗎？</th>
 <th>描述</th>
 </tr>

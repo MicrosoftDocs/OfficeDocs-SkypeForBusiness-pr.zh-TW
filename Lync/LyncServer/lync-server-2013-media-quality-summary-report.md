@@ -178,7 +178,7 @@ Media Quality Summary Report 也可讓您套用篩選器，可讓您比較有線
 </colgroup>
 <thead>
 <tr class="header">
-<th>姓名</th>
+<th>名稱</th>
 <th>可以排序這個項目嗎？</th>
 <th>描述</th>
 </tr>
@@ -274,7 +274,7 @@ Media Quality Summary Report 也可讓您套用篩選器，可讓您比較有線
 </colgroup>
 <thead>
 <tr class="header">
-<th>姓名</th>
+<th>名稱</th>
 <th>可以排序這個項目嗎？</th>
 <th>描述</th>
 </tr>
@@ -373,7 +373,7 @@ Media Quality Summary Report 也可讓您套用篩選器，可讓您比較有線
 </colgroup>
 <thead>
 <tr class="header">
-<th>姓名</th>
+<th>名稱</th>
 <th>可以排序這個項目嗎？</th>
 <th>描述</th>
 </tr>

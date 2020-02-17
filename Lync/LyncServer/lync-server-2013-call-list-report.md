@@ -111,7 +111,7 @@ Call List Report 中您可以從存取[Lync Server 2013 中的通話詳細資料
 </colgroup>
 <thead>
 <tr class="header">
-<th>姓名</th>
+<th>名稱</th>
 <th>可以排序這個項目嗎？</th>
 <th>描述</th>
 </tr>

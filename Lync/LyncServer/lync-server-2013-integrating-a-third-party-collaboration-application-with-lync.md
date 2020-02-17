@@ -76,7 +76,7 @@ _**上次修改主題：** 2013年-02-20 個_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>姓名</p></td>
+<td><p>名稱</p></td>
 <td><p>REG_SZ</p></td>
 <td><p>Lync 2013 功能表應用程式名稱。</p></td>
 </tr>
@@ -205,7 +205,7 @@ _**上次修改主題：** 2013年-02-20 個_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>姓名</p></td>
+<td><p>名稱</p></td>
 <td><p>REG_SZ</p></td>
 <td><p>顯示在功能表上的應用程式名稱。</p></td>
 </tr>
