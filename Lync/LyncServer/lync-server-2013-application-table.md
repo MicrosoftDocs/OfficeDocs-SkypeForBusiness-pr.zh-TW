@@ -63,7 +63,7 @@ _**主題上次修改日期：** 2012年-09-28_
 <td><p>用於識別此應用程式的唯一號碼。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>名稱</strong></p></td>
+<td><p><strong>Name</strong></p></td>
 <td><p>nvarchar(256)</p></td>
 <td><p> </p></td>
 <td><p>伺服器元件的名稱。</p></td>

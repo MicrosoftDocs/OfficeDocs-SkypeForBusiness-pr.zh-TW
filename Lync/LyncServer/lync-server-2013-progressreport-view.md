@@ -90,7 +90,7 @@ ProgressReport 檢視儲存已完成的工作階段的資訊。 進度報告將�
 <td><p>錯誤源自 （如果報告從伺服器元件傳送） 的伺服器名稱。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Application</strong></p></td>
+<td><p><strong>應用程式</strong></p></td>
 <td><p>nvarchar(256)</p></td>
 <td><p>錯誤源自 （如果報告從伺服器元件傳送） 的應用程式的名稱。</p></td>
 </tr>
