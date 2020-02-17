@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5eb6fa4a4b8aabcc84f70d6ce33c89fe0d84df98
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 87c78839c0c6998464ed362dc8a3c2e4798a2321
+ms.sourcegitcommit: 561b9bab7d6f5a621436bc85ea28ea14657e7868
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834953"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035235"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>管理組織的 Microsoft Teams 設定
 
@@ -60,6 +60,10 @@ Microsoft Teams 中的**來賓存取**可將團隊和頻道的存取權授與給
 #### <a name="notifications-and-feeds"></a>通知和摘要
 
 您可以在這裡控制是否要在 Teams 中的使用者活動摘要中顯示建議的摘要。 若要深入了解活動摘要，請參閱[探索 Teams 中的活動摘要](https://support.office.com/article/explore-the-activity-feed-in-teams-91c635a1-644a-4c60-9c98-233db3e13a56)。
+
+#### <a name="tagging"></a>標記
+
+標記可讓使用者與小組中的部分人員進行通訊。 您可以將標記新增至一或多個小組成員。 新增標記之後，可讓小組的任何人在頻道文章中以 @提及來使用該標記，以便只與指派該標記的人員進行通訊。 使用這些設定來控制可以新增標記的人員，以及如何在組織中使用標記。 若要深入了解，請參閱[如何在 Teams 中管理標記](manage-tags.md)。
 
 #### <a name="email-integration"></a>電子郵件整合
 
@@ -109,7 +113,7 @@ Microsoft Teams 範圍目錄搜尋使用 Exchange 通訊錄原則 (APB) 來允�
 
 #### <a name="app-preferences"></a>應用程式喜好設定
 
-您可以在這裡選擇使用者將用來加入商務用 Skype 會議的應用程式 (商務用 Skype 或 [Skype 會議 App](https://support.office.com/zh-TW/article/What-is-Skype-Meetings-App-Skype-for-Business-Web-App-1FF3D412-718A-4982-8FF2-A4992608CDB5))。 此設定不依賴共存模式設定。
+您可以在這裡選擇使用者將用來加入商務用 Skype 會議的應用程式 (商務用 Skype 或 [Skype 會議 App](https://support.office.com/article/What-is-Skype-Meetings-App-Skype-for-Business-Web-App-1FF3D412-718A-4982-8FF2-A4992608CDB5))。 此設定不依賴共存模式設定。
 
 
 #### <a name="network-planner"></a>網路規劃中心
@@ -121,7 +125,7 @@ Microsoft Teams 範圍目錄搜尋使用 Exchange 通訊錄原則 (APB) 來允�
 
 ## <a name="how-can-i-tell-which-features-are-available"></a>如何判斷哪些功能可供使用？
 
-如需 Teams 新功能的相關資訊，請參閱 [Microsoft 365 藍圖](https://www.microsoft.com/en-us/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams)。 如需新功能與即將推出的功能的詳細資訊，請參閱 Teams [新增功能](https://support.office.com/en-us/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de?ui=en-US&rs=en-US&ad=US)頁面，以及 Teams 的 [Microsoft Teams 技術社群部落格](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/What-s-new-in-Teams-Microsoft-Ignite-Edition/ba-p/252531)。 
+如需 Teams 新功能的相關資訊，請參閱 [Microsoft 365 藍圖](https://www.microsoft.com/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams)。 如需新功能與即將推出的功能的詳細資訊，請參閱 Teams [新增功能](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de?ui=en-US&rs=en-US&ad=US)頁面，以及 Teams 的 [Microsoft Teams 技術社群部落格](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/What-s-new-in-Teams-Microsoft-Ignite-Edition/ba-p/252531)。 
 
 ## <a name="more-information"></a>詳細資訊
 
