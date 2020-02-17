@@ -17,18 +17,20 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: ''
-ms.openlocfilehash: 53c17cdd3a1b6726e0219147e4dadd1cba7b25ff
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 0f846029002529d221b079140cf7de8ae618f26c
+ms.sourcegitcommit: f3d4f4aabe31c5516507dfacbbd61cf0ae362d46
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827931"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42089736"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>將電話號碼轉移至 Microsoft 團隊
 
+[!INCLUDE [preview-feature](../includes/preview-feature.md)]
+
 使用 Microsoft 團隊系統管理中心中的移植嚮導，將您的電話號碼從目前的服務提供者轉移至團隊。 在您將電話號碼移植至團隊後，Microsoft 就會成為您的服務提供者，並將您的電話號碼帳單。
 
-在您開始之前，我們建議您查看 [[埠順序](port-order-overview.md)] 中的資訊。 如果您有電話撥入式會議橋接、自動語音應答或其他服務號碼、免付費電話號碼，或是要傳送給小組的999使用者（訂閱者）電話號碼，請參閱[管理貴組織的電話號碼](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)以下載正確的表單，並傳送給我們。
+在開始之前，我們建議您查看[埠順序](port-order-overview.md)中的資訊。 如果您有電話撥入式會議橋接、自動語音應答或其他服務號碼、免付費電話號碼，或是要傳送給小組的999使用者（訂閱者）電話號碼，請參閱[管理貴組織的電話號碼](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)以下載正確的表單，並傳送給我們。
 
   > [!NOTE]
   > 我們處理的埠訂單只會在美國營業日傳送電話號碼，而不是在公用假日或週末進行。
@@ -36,7 +38,7 @@ ms.locfileid: "41827931"
 ## <a name="create-a-port-order-and-transfer-your-phone-numbers-to-teams"></a>建立埠順序並將您的電話號碼轉接至團隊
 
 > [!NOTE]
-> 如果您的國家或地區未列在 Microsoft 團隊系統管理中心的 [移植嚮導] 中，您可以[手動提交埠順序](manually-submit-port-order.md)。
+> **目前，您可以使用此嚮導來取得英國和加拿大的電話號碼**。 若要取得其他國家和地區的電話號碼，您可以[手動提交埠順序](manually-submit-port-order.md)。 若要取得手動提交埠順序所需的表單，請在 [[管理您的組織的電話號碼](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)] 下拉式清單中，選取您的國家或地區。
 
 1. 在 Microsoft [團隊管理中心] 的左導覽中，移至 [**語音** > **電話號碼**]。 按一下 [**數位**]，然後按一下 [**埠**] 以啟動移植嚮導。
 2. 查看 [**入門**] 頁面上的資訊，然後在您準備好時，按一下 **[下一步]**。
@@ -87,7 +89,7 @@ ms.locfileid: "41827931"
 
 當我們收到您的埠順序時，您會收到一封確認您要求的電子郵件。 每日都會檢查並更新您的要求，您會在電子郵件中收到其進度和狀態的通知。 如果您的要求遭到拒絕，系統會要求您開啟支援票證。
 
-若要查看您的埠順序狀態，請在 Microsoft 團隊系統管理中心的左導覽中，移至 > 的**語音** > **埠訂單**，然後按一下 [**訂單歷程記錄**]。 每個埠訂單狀態都列在 [**狀態**] 欄中。 若要深入瞭解，請參閱您的 [[埠順序] 狀態是什麼？](port-order-status.md)。
+若要查看您的埠順序狀態，請在 Microsoft 團隊系統管理中心的左導覽中，移至 > 的**語音** > **埠訂單**，然後按一下 [**訂單歷程記錄**]。 每個埠訂單狀態都列在 [**狀態**] 欄中。 若要深入瞭解，請參閱[您的埠訂單狀態為何？](port-order-status.md)
 
 ## <a name="related-topics"></a>相關主題
 

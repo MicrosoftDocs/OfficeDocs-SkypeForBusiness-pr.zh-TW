@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: '瞭解如何為大廳、接待區域及會議室設定通用區域電話 '
-ms.openlocfilehash: dff06d43e196b999d06c9fa78e7d66ad7a162998
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 5997137420a9cac0517f67a81c7dedc7b779b715
+ms.sourcegitcommit: f3d4f4aabe31c5516507dfacbbd61cf0ae362d46
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838033"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42089726"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>設定 Microsoft 團隊的通用區域電話授權
 > [!NOTE]
@@ -50,7 +50,10 @@ ms.locfileid: "41838033"
 4. 展開 [**附加元件訂閱**]，然後按一下以購買通話方案。 選擇 [**國內通話方案**] 或 [**國內與國際通話方案**]。
 
 > [!NOTE]
-> 您不需要電話系統授權。 它包含在通用區域電話授權中。
+> 如果您使用的是 Microsoft Phone 系統 Direct 路由，則不需要通話方案授權。
+
+> [!NOTE]
+> 您不需要新增電話系統授權。 它包含在通用區域電話授權中。
 
 如需授權的詳細資訊，請參閱[Microsoft 團隊附加元件授權](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
 
@@ -89,6 +92,9 @@ ms.locfileid: "41838033"
 6. 指派授權給使用者。 在同一個頁面上，按一下以展開 [**產品授權**]。 開啟 [通用區域手機]，然後挑選**國內通話方案**或**國內和國際通話方案**。 
 
     ![顯示授權指派的螢幕擷取畫面](media/set-up-common-area-phone-image2.png)
+
+> [!NOTE]
+> 如果您使用的是 Microsoft Phone 系統 Direct 路由，就不需要指派通話方案授權。
 
 如需詳細資訊，請參閱[新增使用者](https://docs.microsoft.com/office365/admin/add-users/add-users?redirectSourcePath=%252farticle%252f1970f7d6-03b5-442f-b385-5880b9c256ec&view=o365-worldwide)。
 
