@@ -25,7 +25,7 @@ ms.locfileid: "42038655"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="peer-to-peer-voice-and-video-report-in-lync-server-2013"></a><span data-ttu-id="813a2-102">對等語音和視訊報告在 Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="813a2-102">Peer-to-Peer Voice and Video Report in Lync Server 2013</span></span>
+# <a name="peer-to-peer-voice-and-video-report-in-lync-server-2013"></a><span data-ttu-id="43404-102">對等語音和視訊報告在 Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="43404-102">Peer-to-Peer Voice and Video Report in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,49 +35,49 @@ ms.locfileid: "42038655"
 
 <span> </span>
 
-<span data-ttu-id="813a2-103">_**主題上次修改日期：** 2012年-10-21_</span><span class="sxs-lookup"><span data-stu-id="813a2-103">_**Topic Last Modified:** 2012-10-21_</span></span>
+<span data-ttu-id="43404-103">_**主題上次修改日期：** 2012年-10-21_</span><span class="sxs-lookup"><span data-stu-id="43404-103">_**Topic Last Modified:** 2012-10-21_</span></span>
 
-<span data-ttu-id="813a2-104">對等語音和視訊報告提供詳細的外觀在一段指定的時間 （例如，每小時的通話） 或每日的電話語音和視訊通話的通訊。</span><span class="sxs-lookup"><span data-stu-id="813a2-104">The Peer-to-Peer Voice and Video Report provides a detailed look at the distribution of voice and video calls over a specified period of time (for example, calls per hour or calls per day).</span></span> <span data-ttu-id="813a2-105">報告也會提供您檢視所有語音和視訊通話進行，或都檢視僅成功或失敗通話的選項。</span><span class="sxs-lookup"><span data-stu-id="813a2-105">The report also gives you the option of viewing all the voice and video calls that were made, or of viewing only the successful or failed calls.</span></span> <span data-ttu-id="813a2-106">報告顯示通話的資訊分為下列群組：</span><span class="sxs-lookup"><span data-stu-id="813a2-106">The reports shows call information broken down into the following groupings:</span></span>
+<span data-ttu-id="43404-104">對等語音和視訊報告提供詳細的外觀在一段指定的時間 （例如，每小時的通話） 或每日的電話語音和視訊通話的通訊。</span><span class="sxs-lookup"><span data-stu-id="43404-104">The Peer-to-Peer Voice and Video Report provides a detailed look at the distribution of voice and video calls over a specified period of time (for example, calls per hour or calls per day).</span></span> <span data-ttu-id="43404-105">報告也會提供您檢視所有語音和視訊通話進行，或都檢視僅成功或失敗通話的選項。</span><span class="sxs-lookup"><span data-stu-id="43404-105">The report also gives you the option of viewing all the voice and video calls that were made, or of viewing only the successful or failed calls.</span></span> <span data-ttu-id="43404-106">報告顯示通話的資訊分為下列群組：</span><span class="sxs-lookup"><span data-stu-id="43404-106">The reports shows call information broken down into the following groupings:</span></span>
 
-  - <span data-ttu-id="813a2-107">每個集區的通話</span><span class="sxs-lookup"><span data-stu-id="813a2-107">Calls per pool</span></span>
+  - <span data-ttu-id="43404-107">每個集區的通話</span><span class="sxs-lookup"><span data-stu-id="43404-107">Calls per pool</span></span>
 
-  - <span data-ttu-id="813a2-108">每一種通話類型 (例如，要撥打至 PSTN 網路內的人員的 Lync 電話與 Lync 通話 Lync) 的通話</span><span class="sxs-lookup"><span data-stu-id="813a2-108">Calls per call type (for example, a Lync to Lync call vs. a Lync call to a person on the PSTN network)</span></span>
+  - <span data-ttu-id="43404-108">每一種通話類型 (例如，要撥打至 PSTN 網路內的人員的 Lync 電話與 Lync 通話 Lync) 的通話</span><span class="sxs-lookup"><span data-stu-id="43404-108">Calls per call type (for example, a Lync to Lync call vs. a Lync call to a person on the PSTN network)</span></span>
 
-  - <span data-ttu-id="813a2-109">每個存取類型 （內部網路與外部網路登入的使用者登入的使用者） 的通話</span><span class="sxs-lookup"><span data-stu-id="813a2-109">Calls per access type (users logged on to the internal network vs. users logged on to the external network)</span></span>
+  - <span data-ttu-id="43404-109">每個存取類型 （內部網路與外部網路登入的使用者登入的使用者） 的通話</span><span class="sxs-lookup"><span data-stu-id="43404-109">Calls per access type (users logged on to the internal network vs. users logged on to the external network)</span></span>
 
-  - <span data-ttu-id="813a2-110">每個中繼伺服器的呼叫</span><span class="sxs-lookup"><span data-stu-id="813a2-110">Calls per Mediation Server</span></span>
+  - <span data-ttu-id="43404-110">每個中繼伺服器的呼叫</span><span class="sxs-lookup"><span data-stu-id="43404-110">Calls per Mediation Server</span></span>
 
 <div>
 
-## <a name="to-access-the-peer-to-peer-voice-and-video-report"></a><span data-ttu-id="813a2-111">若要存取對等語音和視訊報告</span><span class="sxs-lookup"><span data-stu-id="813a2-111">To access the peer-to-peer voice and video report</span></span>
+## <a name="to-access-the-peer-to-peer-voice-and-video-report"></a><span data-ttu-id="43404-111">若要存取對等語音和視訊報告</span><span class="sxs-lookup"><span data-stu-id="43404-111">To access the peer-to-peer voice and video report</span></span>
 
-<span data-ttu-id="813a2-112">您可以存取對等語音和視訊報告只能透過開啟對等活動摘要報告，然後按一下下列計量之一：</span><span class="sxs-lookup"><span data-stu-id="813a2-112">You can access the Peer-to-Peer Voice and Video Report only by opening the Peer-to-Peer Activity Summary Report and then clicking any of the following metrics:</span></span>
+<span data-ttu-id="43404-112">您可以存取對等語音和視訊報告只能透過開啟對等活動摘要報告，然後按一下下列計量之一：</span><span class="sxs-lookup"><span data-stu-id="43404-112">You can access the Peer-to-Peer Voice and Video Report only by opening the Peer-to-Peer Activity Summary Report and then clicking any of the following metrics:</span></span>
 
-  - <span data-ttu-id="813a2-113">對等音訊工作階段總數</span><span class="sxs-lookup"><span data-stu-id="813a2-113">Total peer-to-peer audio sessions</span></span>
+  - <span data-ttu-id="43404-113">對等音訊工作階段總數</span><span class="sxs-lookup"><span data-stu-id="43404-113">Total peer-to-peer audio sessions</span></span>
 
-  - <span data-ttu-id="813a2-114">對等音訊分鐘總數</span><span class="sxs-lookup"><span data-stu-id="813a2-114">Total peer-to-peer audio minutes</span></span>
+  - <span data-ttu-id="43404-114">對等音訊分鐘總數</span><span class="sxs-lookup"><span data-stu-id="43404-114">Total peer-to-peer audio minutes</span></span>
 
-  - <span data-ttu-id="813a2-115">對等視訊工作階段總數</span><span class="sxs-lookup"><span data-stu-id="813a2-115">Total peer-to-peer video sessions</span></span>
+  - <span data-ttu-id="43404-115">對等視訊工作階段總數</span><span class="sxs-lookup"><span data-stu-id="43404-115">Total peer-to-peer video sessions</span></span>
 
-  - <span data-ttu-id="813a2-116">端對端視訊分鐘總數</span><span class="sxs-lookup"><span data-stu-id="813a2-116">Total peer-to-peer video minutes</span></span>
+  - <span data-ttu-id="43404-116">端對端視訊分鐘總數</span><span class="sxs-lookup"><span data-stu-id="43404-116">Total peer-to-peer video minutes</span></span>
 
 </div>
 
 <div>
 
-## <a name="to-make-the-best-use-of-the-peer-to-peer-voice-and-video-report"></a><span data-ttu-id="813a2-117">若要充分運用對等語音和視訊報告</span><span class="sxs-lookup"><span data-stu-id="813a2-117">To make the best use of the peer-to-peer voice and video report</span></span>
+## <a name="to-make-the-best-use-of-the-peer-to-peer-voice-and-video-report"></a><span data-ttu-id="43404-117">若要充分運用對等語音和視訊報告</span><span class="sxs-lookup"><span data-stu-id="43404-117">To make the best use of the peer-to-peer voice and video report</span></span>
 
-<span data-ttu-id="813a2-118">有多種方式對等語音和視訊報告，您可以篩選。</span><span class="sxs-lookup"><span data-stu-id="813a2-118">There are a number of ways you can filter the Peer-to-Peer Voice and Video Report.</span></span> <span data-ttu-id="813a2-119">不過，這些篩選選項預設為隱藏從檢視。</span><span class="sxs-lookup"><span data-stu-id="813a2-119">However, those filtering options are hidden from view by default.</span></span> <span data-ttu-id="813a2-120">若要檢視您可以使用的篩選選項，請按一下 [報表] 視窗右上角的 [**顯示/隱藏參數**] 按鈕。</span><span class="sxs-lookup"><span data-stu-id="813a2-120">To view the filtering options available to you, click **Show/Hide Parameters** button in the upper-right corner of the Report window.</span></span>
+<span data-ttu-id="43404-118">有多種方式對等語音和視訊報告，您可以篩選。</span><span class="sxs-lookup"><span data-stu-id="43404-118">There are a number of ways you can filter the Peer-to-Peer Voice and Video Report.</span></span> <span data-ttu-id="43404-119">不過，這些篩選選項預設為隱藏從檢視。</span><span class="sxs-lookup"><span data-stu-id="43404-119">However, those filtering options are hidden from view by default.</span></span> <span data-ttu-id="43404-120">若要檢視您可以使用的篩選選項，請按一下 [報表] 視窗右上角的 [**顯示/隱藏參數**] 按鈕。</span><span class="sxs-lookup"><span data-stu-id="43404-120">To view the filtering options available to you, click **Show/Hide Parameters** button in the upper-right corner of the Report window.</span></span>
 
 </div>
 
 <div>
 
-## <a name="filters"></a><span data-ttu-id="813a2-121">篩選</span><span class="sxs-lookup"><span data-stu-id="813a2-121">Filters</span></span>
+## <a name="filters"></a><span data-ttu-id="43404-121">篩選</span><span class="sxs-lookup"><span data-stu-id="43404-121">Filters</span></span>
 
-<span data-ttu-id="813a2-122">篩選提供方法，讓您傳回更準確地目標的資料集，或以不同方式檢視資料。</span><span class="sxs-lookup"><span data-stu-id="813a2-122">Filters provide a way for you to return a more finely targeted set of data or to view the data in different ways.</span></span> <span data-ttu-id="813a2-123">下表列出您可以使用 「 對等語音和視訊報告的篩選器。</span><span class="sxs-lookup"><span data-stu-id="813a2-123">The following table lists the filters that you can use with the Peer-to-Peer Voice and Video Report.</span></span>
+<span data-ttu-id="43404-122">篩選提供方法，讓您傳回更準確地目標的資料集，或以不同方式檢視資料。</span><span class="sxs-lookup"><span data-stu-id="43404-122">Filters provide a way for you to return a more finely targeted set of data or to view the data in different ways.</span></span> <span data-ttu-id="43404-123">下表列出您可以使用 「 對等語音和視訊報告的篩選器。</span><span class="sxs-lookup"><span data-stu-id="43404-123">The following table lists the filters that you can use with the Peer-to-Peer Voice and Video Report.</span></span>
 
-### <a name="peer-to-peer-voice-and-video-report-filters"></a><span data-ttu-id="813a2-124">對等語音和視訊報告篩選器</span><span class="sxs-lookup"><span data-stu-id="813a2-124">Peer-to-peer voice and video report filters</span></span>
+### <a name="peer-to-peer-voice-and-video-report-filters"></a><span data-ttu-id="43404-124">對等語音和視訊報告篩選器</span><span class="sxs-lookup"><span data-stu-id="43404-124">Peer-to-peer voice and video report filters</span></span>
 
 <table>
 <colgroup>
@@ -86,66 +86,66 @@ ms.locfileid: "42038655"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="813a2-125">名稱</span><span class="sxs-lookup"><span data-stu-id="813a2-125">Name</span></span></th>
-<th><span data-ttu-id="813a2-126">描述</span><span class="sxs-lookup"><span data-stu-id="813a2-126">Description</span></span></th>
+<th><span data-ttu-id="43404-125">名稱</span><span class="sxs-lookup"><span data-stu-id="43404-125">Name</span></span></th>
+<th><span data-ttu-id="43404-126">描述</span><span class="sxs-lookup"><span data-stu-id="43404-126">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="813a2-127"><strong>From</strong></span><span class="sxs-lookup"><span data-stu-id="813a2-127"><strong>From</strong></span></span></p></td>
-<td><p><span data-ttu-id="813a2-p104">時間範圍的開始日期和時間。若要按照小時檢視資料，請輸入開始日期和時間，如下所示：</span><span class="sxs-lookup"><span data-stu-id="813a2-p104">Start date and time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
-<p><span data-ttu-id="813a2-130">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="813a2-130">7/7/2012 1:00 PM</span></span></p>
-<p><span data-ttu-id="813a2-p105">如果您未輸入開始時間，報告會自動從指定日期凌晨 12 點開始。若要按照日期檢視資料，只要輸入日期即可：</span><span class="sxs-lookup"><span data-stu-id="813a2-p105">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="813a2-133">2012/7/7</span><span class="sxs-lookup"><span data-stu-id="813a2-133">7/7/2012</span></span></p>
-<p><span data-ttu-id="813a2-134">若要按星期或月份檢視，請輸入當週或該月您想檢視的日期 (您不必輸入當週或該月的第一天)：</span><span class="sxs-lookup"><span data-stu-id="813a2-134">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="813a2-135">2012/7/3</span><span class="sxs-lookup"><span data-stu-id="813a2-135">7/3/2012</span></span></p>
-<p><span data-ttu-id="813a2-136">星期永遠是從星期日開始星期六結束。</span><span class="sxs-lookup"><span data-stu-id="813a2-136">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="43404-127"><strong>From</strong></span><span class="sxs-lookup"><span data-stu-id="43404-127"><strong>From</strong></span></span></p></td>
+<td><p><span data-ttu-id="43404-p104">時間範圍的開始日期和時間。若要按照小時檢視資料，請輸入開始日期和時間，如下所示：</span><span class="sxs-lookup"><span data-stu-id="43404-p104">Start date and time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
+<p><span data-ttu-id="43404-130">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="43404-130">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="43404-p105">如果您未輸入開始時間，報告會自動從指定日期凌晨 12 點開始。若要按照日期檢視資料，只要輸入日期即可：</span><span class="sxs-lookup"><span data-stu-id="43404-p105">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="43404-133">2012/7/7</span><span class="sxs-lookup"><span data-stu-id="43404-133">7/7/2012</span></span></p>
+<p><span data-ttu-id="43404-134">若要按星期或月份檢視，請輸入當週或該月您想檢視的日期 (您不必輸入當週或該月的第一天)：</span><span class="sxs-lookup"><span data-stu-id="43404-134">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="43404-135">2012/7/3</span><span class="sxs-lookup"><span data-stu-id="43404-135">7/3/2012</span></span></p>
+<p><span data-ttu-id="43404-136">星期永遠是從星期日開始星期六結束。</span><span class="sxs-lookup"><span data-stu-id="43404-136">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="813a2-137"><strong>To</strong></span><span class="sxs-lookup"><span data-stu-id="813a2-137"><strong>To</strong></span></span></p></td>
-<td><p><span data-ttu-id="813a2-p106">時間範圍的結束日期/時間。若要按照小時檢視資料，請輸入開始日期和時間，如下所示：</span><span class="sxs-lookup"><span data-stu-id="813a2-p106">End date/time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
-<p><span data-ttu-id="813a2-140">7/7/2012 下午 1:00</span><span class="sxs-lookup"><span data-stu-id="813a2-140">7/7/2012 1:00 PM</span></span></p>
-<p><span data-ttu-id="813a2-p107">如果您未輸入結束時間，報告會自動在指定日期凌晨 12 點結束。若要按照日期檢視資料，只要輸入日期即可：</span><span class="sxs-lookup"><span data-stu-id="813a2-p107">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="813a2-143">2012/7/7</span><span class="sxs-lookup"><span data-stu-id="813a2-143">7/7/2012</span></span></p>
-<p><span data-ttu-id="813a2-144">若要按星期或月份檢視，請輸入當週或該月您想檢視的日期 (您不必輸入當週或該月的第一天)：</span><span class="sxs-lookup"><span data-stu-id="813a2-144">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="813a2-145">2012/7/3</span><span class="sxs-lookup"><span data-stu-id="813a2-145">7/3/2012</span></span></p>
-<p><span data-ttu-id="813a2-146">星期永遠是從星期日開始星期六結束。</span><span class="sxs-lookup"><span data-stu-id="813a2-146">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="43404-137"><strong>To</strong></span><span class="sxs-lookup"><span data-stu-id="43404-137"><strong>To</strong></span></span></p></td>
+<td><p><span data-ttu-id="43404-p106">時間範圍的結束日期/時間。若要按照小時檢視資料，請輸入開始日期和時間，如下所示：</span><span class="sxs-lookup"><span data-stu-id="43404-p106">End date/time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
+<p><span data-ttu-id="43404-140">7/7/2012 下午 1:00</span><span class="sxs-lookup"><span data-stu-id="43404-140">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="43404-p107">如果您未輸入結束時間，報告會自動在指定日期凌晨 12 點結束。若要按照日期檢視資料，只要輸入日期即可：</span><span class="sxs-lookup"><span data-stu-id="43404-p107">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="43404-143">2012/7/7</span><span class="sxs-lookup"><span data-stu-id="43404-143">7/7/2012</span></span></p>
+<p><span data-ttu-id="43404-144">若要按星期或月份檢視，請輸入當週或該月您想檢視的日期 (您不必輸入當週或該月的第一天)：</span><span class="sxs-lookup"><span data-stu-id="43404-144">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="43404-145">2012/7/3</span><span class="sxs-lookup"><span data-stu-id="43404-145">7/3/2012</span></span></p>
+<p><span data-ttu-id="43404-146">星期永遠是從星期日開始星期六結束。</span><span class="sxs-lookup"><span data-stu-id="43404-146">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="813a2-147"><strong>Interval</strong></span><span class="sxs-lookup"><span data-stu-id="813a2-147"><strong>Interval</strong></span></span></p></td>
-<td><p><span data-ttu-id="813a2-p108">時間間隔。請選取下列其中一項：</span><span class="sxs-lookup"><span data-stu-id="813a2-p108">Time interval. Select one of the following:</span></span></p>
+<td><p><span data-ttu-id="43404-147"><strong>Interval</strong></span><span class="sxs-lookup"><span data-stu-id="43404-147"><strong>Interval</strong></span></span></p></td>
+<td><p><span data-ttu-id="43404-p108">時間間隔。請選取下列其中一項：</span><span class="sxs-lookup"><span data-stu-id="43404-p108">Time interval. Select one of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="813a2-150">每小時 (最多可以顯示 25 個小時)</span><span class="sxs-lookup"><span data-stu-id="813a2-150">Hourly (a maximum of 25 hours can be displayed)</span></span></p></li>
-<li><p><span data-ttu-id="813a2-151">每日 (最多可以顯示 31 天)</span><span class="sxs-lookup"><span data-stu-id="813a2-151">Daily (a maximum of 31 days can be displayed)</span></span></p></li>
-<li><p><span data-ttu-id="813a2-152">每週 (最多可以顯示 12 週)</span><span class="sxs-lookup"><span data-stu-id="813a2-152">Weekly (a maximum of 12 weeks can be displayed)</span></span></p></li>
-<li><p><span data-ttu-id="813a2-153">每月 (最多可以顯示 12 個月)</span><span class="sxs-lookup"><span data-stu-id="813a2-153">Monthly (a maximum of 12 months can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="43404-150">每小時 (最多可以顯示 25 個小時)</span><span class="sxs-lookup"><span data-stu-id="43404-150">Hourly (a maximum of 25 hours can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="43404-151">每日 (最多可以顯示 31 天)</span><span class="sxs-lookup"><span data-stu-id="43404-151">Daily (a maximum of 31 days can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="43404-152">每週 (最多可以顯示 12 週)</span><span class="sxs-lookup"><span data-stu-id="43404-152">Weekly (a maximum of 12 weeks can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="43404-153">每月 (最多可以顯示 12 個月)</span><span class="sxs-lookup"><span data-stu-id="43404-153">Monthly (a maximum of 12 months can be displayed)</span></span></p></li>
 </ul>
-<p><span data-ttu-id="813a2-p109">若開始與結束日期超出所選間隔允許的上限值，將只會顯示上限值 (從開始日期開始顯示)。例如，若您選取 [每日] 間隔，並將開始與結束日期分別設為 2012 年 7 月 7 日及 2012 年 2 月 28 日，將只會顯示 2012 年 8 月 7 日凌晨 12 點到 2012 年 9 月 7 日凌晨 12 點這段期間的資料 (亦即只會顯示 31 天的資料)。</span><span class="sxs-lookup"><span data-stu-id="813a2-p109">If the start and end dates exceed the maximum number of values allowed for the selected interval, only the maximum number of values (starting from the start date) is displayed. For example, if you select the Daily interval with a start date of 7/7/2012 and an end date of 2/28/2012, data is displayed for the days 8/7/2012 12:00 AM to 9/7/2012 12:00 AM (that is, a total of 31 days' worth of data).</span></span></p></td>
+<p><span data-ttu-id="43404-p109">若開始與結束日期超出所選間隔允許的上限值，將只會顯示上限值 (從開始日期開始顯示)。例如，若您選取 [每日] 間隔，並將開始與結束日期分別設為 2012 年 7 月 7 日及 2012 年 2 月 28 日，將只會顯示 2012 年 8 月 7 日凌晨 12 點到 2012 年 9 月 7 日凌晨 12 點這段期間的資料 (亦即只會顯示 31 天的資料)。</span><span class="sxs-lookup"><span data-stu-id="43404-p109">If the start and end dates exceed the maximum number of values allowed for the selected interval, only the maximum number of values (starting from the start date) is displayed. For example, if you select the Daily interval with a start date of 7/7/2012 and an end date of 2/28/2012, data is displayed for the days 8/7/2012 12:00 AM to 9/7/2012 12:00 AM (that is, a total of 31 days' worth of data).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="813a2-156"><strong>媒體類型</strong></span><span class="sxs-lookup"><span data-stu-id="813a2-156"><strong>Media type</strong></span></span></p></td>
-<td><p><span data-ttu-id="813a2-157">會指出媒體工作階段中所使用的類型。</span><span class="sxs-lookup"><span data-stu-id="813a2-157">Indicates the type of media used in the session.</span></span> <span data-ttu-id="813a2-158">選取下列其中一項：</span><span class="sxs-lookup"><span data-stu-id="813a2-158">Select one of the following:</span></span></p>
+<td><p><span data-ttu-id="43404-156"><strong>媒體類型</strong></span><span class="sxs-lookup"><span data-stu-id="43404-156"><strong>Media type</strong></span></span></p></td>
+<td><p><span data-ttu-id="43404-157">會指出媒體工作階段中所使用的類型。</span><span class="sxs-lookup"><span data-stu-id="43404-157">Indicates the type of media used in the session.</span></span> <span data-ttu-id="43404-158">選取下列其中一項：</span><span class="sxs-lookup"><span data-stu-id="43404-158">Select one of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="813a2-159">兩者都要</span><span class="sxs-lookup"><span data-stu-id="813a2-159">Both</span></span></p></li>
-<li><p><span data-ttu-id="813a2-160">音訊</span><span class="sxs-lookup"><span data-stu-id="813a2-160">Audio</span></span></p></li>
-<li><p><span data-ttu-id="813a2-161">影片</span><span class="sxs-lookup"><span data-stu-id="813a2-161">Video</span></span></p></li>
+<li><p><span data-ttu-id="43404-159">兩者都要</span><span class="sxs-lookup"><span data-stu-id="43404-159">Both</span></span></p></li>
+<li><p><span data-ttu-id="43404-160">音訊</span><span class="sxs-lookup"><span data-stu-id="43404-160">Audio</span></span></p></li>
+<li><p><span data-ttu-id="43404-161">影片</span><span class="sxs-lookup"><span data-stu-id="43404-161">Video</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="813a2-162"><strong>通話處理</strong></span><span class="sxs-lookup"><span data-stu-id="813a2-162"><strong>Call disposition</strong></span></span></p></td>
-<td><p><span data-ttu-id="813a2-163">會指出成功或失敗的工作階段。</span><span class="sxs-lookup"><span data-stu-id="813a2-163">Indicates the success or failure of the session.</span></span> <span data-ttu-id="813a2-164">請選取下列其中一項：</span><span class="sxs-lookup"><span data-stu-id="813a2-164">Select one of the following:</span></span></p>
+<td><p><span data-ttu-id="43404-162"><strong>通話處理</strong></span><span class="sxs-lookup"><span data-stu-id="43404-162"><strong>Call disposition</strong></span></span></p></td>
+<td><p><span data-ttu-id="43404-163">會指出成功或失敗的工作階段。</span><span class="sxs-lookup"><span data-stu-id="43404-163">Indicates the success or failure of the session.</span></span> <span data-ttu-id="43404-164">請選取下列其中一項：</span><span class="sxs-lookup"><span data-stu-id="43404-164">Select one of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="813a2-165">[全部]</span><span class="sxs-lookup"><span data-stu-id="813a2-165">[All]</span></span></p></li>
-<li><p><span data-ttu-id="813a2-166">通話成功</span><span class="sxs-lookup"><span data-stu-id="813a2-166">Success Calls</span></span></p></li>
-<li><p><span data-ttu-id="813a2-167">失敗的通話</span><span class="sxs-lookup"><span data-stu-id="813a2-167">Failed Calls</span></span></p></li>
+<li><p><span data-ttu-id="43404-165">[全部]</span><span class="sxs-lookup"><span data-stu-id="43404-165">[All]</span></span></p></li>
+<li><p><span data-ttu-id="43404-166">通話成功</span><span class="sxs-lookup"><span data-stu-id="43404-166">Success Calls</span></span></p></li>
+<li><p><span data-ttu-id="43404-167">失敗的通話</span><span class="sxs-lookup"><span data-stu-id="43404-167">Failed Calls</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="813a2-168"><strong>報告依據</strong></span><span class="sxs-lookup"><span data-stu-id="813a2-168"><strong>Report by</strong></span></span></p></td>
-<td><p><span data-ttu-id="813a2-p112">指定報告中所要使用的值。請選取下列其中一項：</span><span class="sxs-lookup"><span data-stu-id="813a2-p112">Indicates the values to be used in the report. Select one of the following:</span></span></p>
+<td><p><span data-ttu-id="43404-168"><strong>報告依據</strong></span><span class="sxs-lookup"><span data-stu-id="43404-168"><strong>Report by</strong></span></span></p></td>
+<td><p><span data-ttu-id="43404-p112">指定報告中所要使用的值。請選取下列其中一項：</span><span class="sxs-lookup"><span data-stu-id="43404-p112">Indicates the values to be used in the report. Select one of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="813a2-171">工作階段計數</span><span class="sxs-lookup"><span data-stu-id="813a2-171">Session count</span></span></p></li>
-<li><p><span data-ttu-id="813a2-172">通話分鐘數</span><span class="sxs-lookup"><span data-stu-id="813a2-172">Call minutes</span></span></p></li>
+<li><p><span data-ttu-id="43404-171">工作階段計數</span><span class="sxs-lookup"><span data-stu-id="43404-171">Session count</span></span></p></li>
+<li><p><span data-ttu-id="43404-172">通話分鐘數</span><span class="sxs-lookup"><span data-stu-id="43404-172">Call minutes</span></span></p></li>
 </ul></td>
 </tr>
 </tbody>
@@ -156,11 +156,11 @@ ms.locfileid: "42038655"
 
 <div>
 
-## <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-pool"></a><span data-ttu-id="813a2-173">對等語音及視訊活動的集區的計量</span><span class="sxs-lookup"><span data-stu-id="813a2-173">Metrics for peer-to-peer voice and video activity by Pool</span></span>
+## <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-pool"></a><span data-ttu-id="43404-173">對等語音及視訊活動的集區的計量</span><span class="sxs-lookup"><span data-stu-id="43404-173">Metrics for peer-to-peer voice and video activity by Pool</span></span>
 
-<span data-ttu-id="813a2-174">下表列出對等語音和視訊報告 」 中每個集區所提供的資訊。</span><span class="sxs-lookup"><span data-stu-id="813a2-174">The following table lists the information provided in the Peer-to-Peer Voice and Video Report for each pool.</span></span>
+<span data-ttu-id="43404-174">下表列出對等語音和視訊報告 」 中每個集區所提供的資訊。</span><span class="sxs-lookup"><span data-stu-id="43404-174">The following table lists the information provided in the Peer-to-Peer Voice and Video Report for each pool.</span></span>
 
-### <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-pool"></a><span data-ttu-id="813a2-175">對等語音及視訊活動的集區的計量</span><span class="sxs-lookup"><span data-stu-id="813a2-175">Metrics for peer-to-peer voice and video activity by pool</span></span>
+### <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-pool"></a><span data-ttu-id="43404-175">對等語音及視訊活動的集區的計量</span><span class="sxs-lookup"><span data-stu-id="43404-175">Metrics for peer-to-peer voice and video activity by pool</span></span>
 
 <table>
 <colgroup>
@@ -170,26 +170,26 @@ ms.locfileid: "42038655"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="813a2-176">姓名</span><span class="sxs-lookup"><span data-stu-id="813a2-176">Name</span></span></th>
-<th><span data-ttu-id="813a2-177">可以排序這個項目嗎？</span><span class="sxs-lookup"><span data-stu-id="813a2-177">Can you sort on this item?</span></span></th>
-<th><span data-ttu-id="813a2-178">描述</span><span class="sxs-lookup"><span data-stu-id="813a2-178">Description</span></span></th>
+<th><span data-ttu-id="43404-176">名稱</span><span class="sxs-lookup"><span data-stu-id="43404-176">Name</span></span></th>
+<th><span data-ttu-id="43404-177">可以排序這個項目嗎？</span><span class="sxs-lookup"><span data-stu-id="43404-177">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="43404-178">描述</span><span class="sxs-lookup"><span data-stu-id="43404-178">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="813a2-179"><strong>Pool</strong></span><span class="sxs-lookup"><span data-stu-id="813a2-179"><strong>Pool</strong></span></span></p></td>
-<td><p><span data-ttu-id="813a2-180">否</span><span class="sxs-lookup"><span data-stu-id="813a2-180">No</span></span></p></td>
-<td><p><span data-ttu-id="813a2-181">登錄器集區或 Edge Server 用於通話的名稱。</span><span class="sxs-lookup"><span data-stu-id="813a2-181">Name of the Registrar pool or Edge Server used for the call.</span></span></p></td>
+<td><p><span data-ttu-id="43404-179"><strong>Pool</strong></span><span class="sxs-lookup"><span data-stu-id="43404-179"><strong>Pool</strong></span></span></p></td>
+<td><p><span data-ttu-id="43404-180">否</span><span class="sxs-lookup"><span data-stu-id="43404-180">No</span></span></p></td>
+<td><p><span data-ttu-id="43404-181">登錄器集區或 Edge Server 用於通話的名稱。</span><span class="sxs-lookup"><span data-stu-id="43404-181">Name of the Registrar pool or Edge Server used for the call.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="813a2-182"><strong>日期/時間</strong></span><span class="sxs-lookup"><span data-stu-id="813a2-182"><strong>Date/Time</strong></span></span></p></td>
-<td><p><span data-ttu-id="813a2-183">否</span><span class="sxs-lookup"><span data-stu-id="813a2-183">No</span></span></p></td>
-<td><p><span data-ttu-id="813a2-184">在呼叫發生日期和時間期間。</span><span class="sxs-lookup"><span data-stu-id="813a2-184">Date and time period in which the call took place.</span></span></p></td>
+<td><p><span data-ttu-id="43404-182"><strong>日期/時間</strong></span><span class="sxs-lookup"><span data-stu-id="43404-182"><strong>Date/Time</strong></span></span></p></td>
+<td><p><span data-ttu-id="43404-183">否</span><span class="sxs-lookup"><span data-stu-id="43404-183">No</span></span></p></td>
+<td><p><span data-ttu-id="43404-184">在呼叫發生日期和時間期間。</span><span class="sxs-lookup"><span data-stu-id="43404-184">Date and time period in which the call took place.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="813a2-185"><strong>Total</strong></span><span class="sxs-lookup"><span data-stu-id="813a2-185"><strong>Total</strong></span></span></p></td>
-<td><p><span data-ttu-id="813a2-186">否</span><span class="sxs-lookup"><span data-stu-id="813a2-186">No</span></span></p></td>
-<td><p><span data-ttu-id="813a2-187">工作階段總數或訊息總數。</span><span class="sxs-lookup"><span data-stu-id="813a2-187">Total number of sessions or total message count.</span></span></p></td>
+<td><p><span data-ttu-id="43404-185"><strong>Total</strong></span><span class="sxs-lookup"><span data-stu-id="43404-185"><strong>Total</strong></span></span></p></td>
+<td><p><span data-ttu-id="43404-186">否</span><span class="sxs-lookup"><span data-stu-id="43404-186">No</span></span></p></td>
+<td><p><span data-ttu-id="43404-187">工作階段總數或訊息總數。</span><span class="sxs-lookup"><span data-stu-id="43404-187">Total number of sessions or total message count.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -199,11 +199,11 @@ ms.locfileid: "42038655"
 
 <div>
 
-## <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-call-type"></a><span data-ttu-id="813a2-188">對等語音及視訊活動依通話類型的計量</span><span class="sxs-lookup"><span data-stu-id="813a2-188">Metrics for peer-to-peer voice and video activity by call type</span></span>
+## <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-call-type"></a><span data-ttu-id="43404-188">對等語音及視訊活動依通話類型的計量</span><span class="sxs-lookup"><span data-stu-id="43404-188">Metrics for peer-to-peer voice and video activity by call type</span></span>
 
-<span data-ttu-id="813a2-189">下表列出對等語音和視訊報告 」 中每一種所進行之通話所提供的資訊。</span><span class="sxs-lookup"><span data-stu-id="813a2-189">The following table lists the information provided in the Peer-to-Peer Voice and Video Report for each type of call that was made.</span></span>
+<span data-ttu-id="43404-189">下表列出對等語音和視訊報告 」 中每一種所進行之通話所提供的資訊。</span><span class="sxs-lookup"><span data-stu-id="43404-189">The following table lists the information provided in the Peer-to-Peer Voice and Video Report for each type of call that was made.</span></span>
 
-### <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-call-type"></a><span data-ttu-id="813a2-190">對等語音及視訊活動依通話類型的計量</span><span class="sxs-lookup"><span data-stu-id="813a2-190">Metrics for peer-to-peer voice and video activity by call type</span></span>
+### <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-call-type"></a><span data-ttu-id="43404-190">對等語音及視訊活動依通話類型的計量</span><span class="sxs-lookup"><span data-stu-id="43404-190">Metrics for peer-to-peer voice and video activity by call type</span></span>
 
 <table>
 <colgroup>
@@ -213,32 +213,32 @@ ms.locfileid: "42038655"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="813a2-191">姓名</span><span class="sxs-lookup"><span data-stu-id="813a2-191">Name</span></span></th>
-<th><span data-ttu-id="813a2-192">可以排序這個項目嗎？</span><span class="sxs-lookup"><span data-stu-id="813a2-192">Can you sort on this item?</span></span></th>
-<th><span data-ttu-id="813a2-193">描述</span><span class="sxs-lookup"><span data-stu-id="813a2-193">Description</span></span></th>
+<th><span data-ttu-id="43404-191">名稱</span><span class="sxs-lookup"><span data-stu-id="43404-191">Name</span></span></th>
+<th><span data-ttu-id="43404-192">可以排序這個項目嗎？</span><span class="sxs-lookup"><span data-stu-id="43404-192">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="43404-193">描述</span><span class="sxs-lookup"><span data-stu-id="43404-193">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="813a2-194"><strong>通話類型</strong></span><span class="sxs-lookup"><span data-stu-id="813a2-194"><strong>Call type</strong></span></span></p></td>
-<td><p><span data-ttu-id="813a2-195">否</span><span class="sxs-lookup"><span data-stu-id="813a2-195">No</span></span></p></td>
-<td><p><span data-ttu-id="813a2-196">會指出所進行之通話的類型。</span><span class="sxs-lookup"><span data-stu-id="813a2-196">Indicates the type of call that was made.</span></span> <span data-ttu-id="813a2-197">值可以是下列其中一項：</span><span class="sxs-lookup"><span data-stu-id="813a2-197">Values are one of the following:</span></span></p>
+<td><p><span data-ttu-id="43404-194"><strong>通話類型</strong></span><span class="sxs-lookup"><span data-stu-id="43404-194"><strong>Call type</strong></span></span></p></td>
+<td><p><span data-ttu-id="43404-195">否</span><span class="sxs-lookup"><span data-stu-id="43404-195">No</span></span></p></td>
+<td><p><span data-ttu-id="43404-196">會指出所進行之通話的類型。</span><span class="sxs-lookup"><span data-stu-id="43404-196">Indicates the type of call that was made.</span></span> <span data-ttu-id="43404-197">值可以是下列其中一項：</span><span class="sxs-lookup"><span data-stu-id="43404-197">Values are one of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="813a2-198">UC 對 UC</span><span class="sxs-lookup"><span data-stu-id="813a2-198">UC-to-UC</span></span></p></li>
-<li><p><span data-ttu-id="813a2-199">UC 對 PSTN</span><span class="sxs-lookup"><span data-stu-id="813a2-199">UC-to-PSTN</span></span></p></li>
-<li><p><span data-ttu-id="813a2-200">PSTN-UC</span><span class="sxs-lookup"><span data-stu-id="813a2-200">PSTN-to-UC</span></span></p></li>
-<li><p><span data-ttu-id="813a2-201">PSTN 對 PSTN</span><span class="sxs-lookup"><span data-stu-id="813a2-201">PSTN-to-PSTN</span></span></p></li>
+<li><p><span data-ttu-id="43404-198">UC 對 UC</span><span class="sxs-lookup"><span data-stu-id="43404-198">UC-to-UC</span></span></p></li>
+<li><p><span data-ttu-id="43404-199">UC 對 PSTN</span><span class="sxs-lookup"><span data-stu-id="43404-199">UC-to-PSTN</span></span></p></li>
+<li><p><span data-ttu-id="43404-200">PSTN-UC</span><span class="sxs-lookup"><span data-stu-id="43404-200">PSTN-to-UC</span></span></p></li>
+<li><p><span data-ttu-id="43404-201">PSTN 對 PSTN</span><span class="sxs-lookup"><span data-stu-id="43404-201">PSTN-to-PSTN</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="813a2-202"><strong>日期/時間</strong></span><span class="sxs-lookup"><span data-stu-id="813a2-202"><strong>Date/Time</strong></span></span></p></td>
-<td><p><span data-ttu-id="813a2-203">否</span><span class="sxs-lookup"><span data-stu-id="813a2-203">No</span></span></p></td>
-<td><p><span data-ttu-id="813a2-204">在呼叫發生日期和時間期間。</span><span class="sxs-lookup"><span data-stu-id="813a2-204">Date and time period in which the call took place.</span></span></p></td>
+<td><p><span data-ttu-id="43404-202"><strong>日期/時間</strong></span><span class="sxs-lookup"><span data-stu-id="43404-202"><strong>Date/Time</strong></span></span></p></td>
+<td><p><span data-ttu-id="43404-203">否</span><span class="sxs-lookup"><span data-stu-id="43404-203">No</span></span></p></td>
+<td><p><span data-ttu-id="43404-204">在呼叫發生日期和時間期間。</span><span class="sxs-lookup"><span data-stu-id="43404-204">Date and time period in which the call took place.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="813a2-205"><strong>Total</strong></span><span class="sxs-lookup"><span data-stu-id="813a2-205"><strong>Total</strong></span></span></p></td>
-<td><p><span data-ttu-id="813a2-206">否</span><span class="sxs-lookup"><span data-stu-id="813a2-206">No</span></span></p></td>
-<td><p><span data-ttu-id="813a2-207">工作階段總數或訊息總數。</span><span class="sxs-lookup"><span data-stu-id="813a2-207">Total number of sessions or total message count.</span></span></p></td>
+<td><p><span data-ttu-id="43404-205"><strong>Total</strong></span><span class="sxs-lookup"><span data-stu-id="43404-205"><strong>Total</strong></span></span></p></td>
+<td><p><span data-ttu-id="43404-206">否</span><span class="sxs-lookup"><span data-stu-id="43404-206">No</span></span></p></td>
+<td><p><span data-ttu-id="43404-207">工作階段總數或訊息總數。</span><span class="sxs-lookup"><span data-stu-id="43404-207">Total number of sessions or total message count.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -248,11 +248,11 @@ ms.locfileid: "42038655"
 
 <div>
 
-## <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-access-type"></a><span data-ttu-id="813a2-208">對等語音及視訊活動依存取類型的計量</span><span class="sxs-lookup"><span data-stu-id="813a2-208">Metrics for peer-to-peer voice and video activity by access type</span></span>
+## <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-access-type"></a><span data-ttu-id="43404-208">對等語音及視訊活動依存取類型的計量</span><span class="sxs-lookup"><span data-stu-id="43404-208">Metrics for peer-to-peer voice and video activity by access type</span></span>
 
-<span data-ttu-id="813a2-209">下表列出每個網路存取類型對等語音和視訊報告 」 中所提供的資訊。</span><span class="sxs-lookup"><span data-stu-id="813a2-209">The following table lists the information provided in the Peer-to-Peer Voice and Video Report for each network access type.</span></span>
+<span data-ttu-id="43404-209">下表列出每個網路存取類型對等語音和視訊報告 」 中所提供的資訊。</span><span class="sxs-lookup"><span data-stu-id="43404-209">The following table lists the information provided in the Peer-to-Peer Voice and Video Report for each network access type.</span></span>
 
-### <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-access-type"></a><span data-ttu-id="813a2-210">對等語音及視訊活動依存取類型的計量</span><span class="sxs-lookup"><span data-stu-id="813a2-210">Metrics for peer-to-peer voice and video activity by access type</span></span>
+### <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-access-type"></a><span data-ttu-id="43404-210">對等語音及視訊活動依存取類型的計量</span><span class="sxs-lookup"><span data-stu-id="43404-210">Metrics for peer-to-peer voice and video activity by access type</span></span>
 
 <table>
 <colgroup>
@@ -262,31 +262,31 @@ ms.locfileid: "42038655"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="813a2-211">姓名</span><span class="sxs-lookup"><span data-stu-id="813a2-211">Name</span></span></th>
-<th><span data-ttu-id="813a2-212">可以排序這個項目嗎？</span><span class="sxs-lookup"><span data-stu-id="813a2-212">Can you sort on this item?</span></span></th>
-<th><span data-ttu-id="813a2-213">描述</span><span class="sxs-lookup"><span data-stu-id="813a2-213">Description</span></span></th>
+<th><span data-ttu-id="43404-211">名稱</span><span class="sxs-lookup"><span data-stu-id="43404-211">Name</span></span></th>
+<th><span data-ttu-id="43404-212">可以排序這個項目嗎？</span><span class="sxs-lookup"><span data-stu-id="43404-212">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="43404-213">描述</span><span class="sxs-lookup"><span data-stu-id="43404-213">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="813a2-214"><strong>活動類型</strong></span><span class="sxs-lookup"><span data-stu-id="813a2-214"><strong>Activity type</strong></span></span></p></td>
-<td><p><span data-ttu-id="813a2-215">否</span><span class="sxs-lookup"><span data-stu-id="813a2-215">No</span></span></p></td>
-<td><p><span data-ttu-id="813a2-216">會指出是否在用戶端已登入內部網路或外部網路時撥打電話。</span><span class="sxs-lookup"><span data-stu-id="813a2-216">Indicates whether the clients were logged on to the internal network or the external network when the call was placed.</span></span> <span data-ttu-id="813a2-217">一般來說，值都是下列其中之一：</span><span class="sxs-lookup"><span data-stu-id="813a2-217">Values are typically one of the following:</span></span></p>
+<td><p><span data-ttu-id="43404-214"><strong>活動類型</strong></span><span class="sxs-lookup"><span data-stu-id="43404-214"><strong>Activity type</strong></span></span></p></td>
+<td><p><span data-ttu-id="43404-215">否</span><span class="sxs-lookup"><span data-stu-id="43404-215">No</span></span></p></td>
+<td><p><span data-ttu-id="43404-216">會指出是否在用戶端已登入內部網路或外部網路時撥打電話。</span><span class="sxs-lookup"><span data-stu-id="43404-216">Indicates whether the clients were logged on to the internal network or the external network when the call was placed.</span></span> <span data-ttu-id="43404-217">一般來說，值都是下列其中之一：</span><span class="sxs-lookup"><span data-stu-id="43404-217">Values are typically one of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="813a2-218">內部</span><span class="sxs-lookup"><span data-stu-id="813a2-218">Internal</span></span></p></li>
-<li><p><span data-ttu-id="813a2-219">External</span><span class="sxs-lookup"><span data-stu-id="813a2-219">External</span></span></p></li>
-<li><p><span data-ttu-id="813a2-220">混合</span><span class="sxs-lookup"><span data-stu-id="813a2-220">Mixed</span></span></p></li>
+<li><p><span data-ttu-id="43404-218">內部</span><span class="sxs-lookup"><span data-stu-id="43404-218">Internal</span></span></p></li>
+<li><p><span data-ttu-id="43404-219">External</span><span class="sxs-lookup"><span data-stu-id="43404-219">External</span></span></p></li>
+<li><p><span data-ttu-id="43404-220">混合</span><span class="sxs-lookup"><span data-stu-id="43404-220">Mixed</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="813a2-221"><strong>日期/時間</strong></span><span class="sxs-lookup"><span data-stu-id="813a2-221"><strong>Date/Time</strong></span></span></p></td>
-<td><p><span data-ttu-id="813a2-222">否</span><span class="sxs-lookup"><span data-stu-id="813a2-222">No</span></span></p></td>
-<td><p><span data-ttu-id="813a2-223">在呼叫發生日期和時間期間。</span><span class="sxs-lookup"><span data-stu-id="813a2-223">Date and time period in which the call took place.</span></span></p></td>
+<td><p><span data-ttu-id="43404-221"><strong>日期/時間</strong></span><span class="sxs-lookup"><span data-stu-id="43404-221"><strong>Date/Time</strong></span></span></p></td>
+<td><p><span data-ttu-id="43404-222">否</span><span class="sxs-lookup"><span data-stu-id="43404-222">No</span></span></p></td>
+<td><p><span data-ttu-id="43404-223">在呼叫發生日期和時間期間。</span><span class="sxs-lookup"><span data-stu-id="43404-223">Date and time period in which the call took place.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="813a2-224"><strong>Total</strong></span><span class="sxs-lookup"><span data-stu-id="813a2-224"><strong>Total</strong></span></span></p></td>
-<td><p><span data-ttu-id="813a2-225">否</span><span class="sxs-lookup"><span data-stu-id="813a2-225">No</span></span></p></td>
-<td><p><span data-ttu-id="813a2-226">工作階段總數或訊息總數。</span><span class="sxs-lookup"><span data-stu-id="813a2-226">Total number of sessions or total message count.</span></span></p></td>
+<td><p><span data-ttu-id="43404-224"><strong>Total</strong></span><span class="sxs-lookup"><span data-stu-id="43404-224"><strong>Total</strong></span></span></p></td>
+<td><p><span data-ttu-id="43404-225">否</span><span class="sxs-lookup"><span data-stu-id="43404-225">No</span></span></p></td>
+<td><p><span data-ttu-id="43404-226">工作階段總數或訊息總數。</span><span class="sxs-lookup"><span data-stu-id="43404-226">Total number of sessions or total message count.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -296,11 +296,11 @@ ms.locfileid: "42038655"
 
 <div>
 
-## <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-mediation-server"></a><span data-ttu-id="813a2-227">對等語音及視訊活動由中繼伺服器的計量</span><span class="sxs-lookup"><span data-stu-id="813a2-227">Metrics for peer-to-peer voice and video activity by mediation server</span></span>
+## <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-mediation-server"></a><span data-ttu-id="43404-227">對等語音及視訊活動由中繼伺服器的計量</span><span class="sxs-lookup"><span data-stu-id="43404-227">Metrics for peer-to-peer voice and video activity by mediation server</span></span>
 
-<span data-ttu-id="813a2-228">下表列出對等語音和視訊報告 」 中每一部中繼伺服器所提供的資訊。</span><span class="sxs-lookup"><span data-stu-id="813a2-228">The following table lists the information provided in the Peer-to-Peer Voice and Video Report for each Mediation Server.</span></span>
+<span data-ttu-id="43404-228">下表列出對等語音和視訊報告 」 中每一部中繼伺服器所提供的資訊。</span><span class="sxs-lookup"><span data-stu-id="43404-228">The following table lists the information provided in the Peer-to-Peer Voice and Video Report for each Mediation Server.</span></span>
 
-### <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-mediation-server"></a><span data-ttu-id="813a2-229">對等語音及視訊活動由中繼伺服器的計量</span><span class="sxs-lookup"><span data-stu-id="813a2-229">Metrics for peer-to-peer voice and video activity by mediation server</span></span>
+### <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-mediation-server"></a><span data-ttu-id="43404-229">對等語音及視訊活動由中繼伺服器的計量</span><span class="sxs-lookup"><span data-stu-id="43404-229">Metrics for peer-to-peer voice and video activity by mediation server</span></span>
 
 <table>
 <colgroup>
@@ -310,26 +310,26 @@ ms.locfileid: "42038655"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="813a2-230">姓名</span><span class="sxs-lookup"><span data-stu-id="813a2-230">Name</span></span></th>
-<th><span data-ttu-id="813a2-231">可以排序這個項目嗎？</span><span class="sxs-lookup"><span data-stu-id="813a2-231">Can you sort on this item?</span></span></th>
-<th><span data-ttu-id="813a2-232">描述</span><span class="sxs-lookup"><span data-stu-id="813a2-232">Description</span></span></th>
+<th><span data-ttu-id="43404-230">名稱</span><span class="sxs-lookup"><span data-stu-id="43404-230">Name</span></span></th>
+<th><span data-ttu-id="43404-231">可以排序這個項目嗎？</span><span class="sxs-lookup"><span data-stu-id="43404-231">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="43404-232">描述</span><span class="sxs-lookup"><span data-stu-id="43404-232">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="813a2-233"><strong>中繼伺服器</strong></span><span class="sxs-lookup"><span data-stu-id="813a2-233"><strong>Mediation Server</strong></span></span></p></td>
-<td><p><span data-ttu-id="813a2-234">否</span><span class="sxs-lookup"><span data-stu-id="813a2-234">No</span></span></p></td>
-<td><p><span data-ttu-id="813a2-235">中繼伺服器的名稱。</span><span class="sxs-lookup"><span data-stu-id="813a2-235">Name of the Mediation Server.</span></span></p></td>
+<td><p><span data-ttu-id="43404-233"><strong>中繼伺服器</strong></span><span class="sxs-lookup"><span data-stu-id="43404-233"><strong>Mediation Server</strong></span></span></p></td>
+<td><p><span data-ttu-id="43404-234">否</span><span class="sxs-lookup"><span data-stu-id="43404-234">No</span></span></p></td>
+<td><p><span data-ttu-id="43404-235">中繼伺服器的名稱。</span><span class="sxs-lookup"><span data-stu-id="43404-235">Name of the Mediation Server.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="813a2-236"><strong>日期/時間</strong></span><span class="sxs-lookup"><span data-stu-id="813a2-236"><strong>Date/Time</strong></span></span></p></td>
-<td><p><span data-ttu-id="813a2-237">否</span><span class="sxs-lookup"><span data-stu-id="813a2-237">No</span></span></p></td>
-<td><p><span data-ttu-id="813a2-238">在呼叫發生日期和時間期間。</span><span class="sxs-lookup"><span data-stu-id="813a2-238">Date and time period in which the call took place.</span></span></p></td>
+<td><p><span data-ttu-id="43404-236"><strong>日期/時間</strong></span><span class="sxs-lookup"><span data-stu-id="43404-236"><strong>Date/Time</strong></span></span></p></td>
+<td><p><span data-ttu-id="43404-237">否</span><span class="sxs-lookup"><span data-stu-id="43404-237">No</span></span></p></td>
+<td><p><span data-ttu-id="43404-238">在呼叫發生日期和時間期間。</span><span class="sxs-lookup"><span data-stu-id="43404-238">Date and time period in which the call took place.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="813a2-239"><strong>Total</strong></span><span class="sxs-lookup"><span data-stu-id="813a2-239"><strong>Total</strong></span></span></p></td>
-<td><p><span data-ttu-id="813a2-240">否</span><span class="sxs-lookup"><span data-stu-id="813a2-240">No</span></span></p></td>
-<td><p><span data-ttu-id="813a2-241">工作階段總數或訊息總數。</span><span class="sxs-lookup"><span data-stu-id="813a2-241">Total number of sessions or total message count.</span></span></p></td>
+<td><p><span data-ttu-id="43404-239"><strong>Total</strong></span><span class="sxs-lookup"><span data-stu-id="43404-239"><strong>Total</strong></span></span></p></td>
+<td><p><span data-ttu-id="43404-240">否</span><span class="sxs-lookup"><span data-stu-id="43404-240">No</span></span></p></td>
+<td><p><span data-ttu-id="43404-241">工作階段總數或訊息總數。</span><span class="sxs-lookup"><span data-stu-id="43404-241">Total number of sessions or total message count.</span></span></p></td>
 </tr>
 </tbody>
 </table>

@@ -25,7 +25,7 @@ ms.locfileid: "42046776"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="location-report-in-lync-server-2013"></a><span data-ttu-id="c9f92-102">Lync Server 2013 中的位置報告</span><span class="sxs-lookup"><span data-stu-id="c9f92-102">Location Report in Lync Server 2013</span></span>
+# <a name="location-report-in-lync-server-2013"></a><span data-ttu-id="b292f-102">Lync Server 2013 中的位置報告</span><span class="sxs-lookup"><span data-stu-id="b292f-102">Location Report in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,31 +35,31 @@ ms.locfileid: "42046776"
 
 <span> </span>
 
-<span data-ttu-id="c9f92-103">_**主題上次修改日期：** 2012年-10-01_</span><span class="sxs-lookup"><span data-stu-id="c9f92-103">_**Topic Last Modified:** 2012-10-01_</span></span>
+<span data-ttu-id="b292f-103">_**主題上次修改日期：** 2012年-10-01_</span><span class="sxs-lookup"><span data-stu-id="b292f-103">_**Topic Last Modified:** 2012-10-01_</span></span>
 
-<span data-ttu-id="c9f92-104">位置報告提供有關通話品質計量依據網路位置資訊 (也就是由網路子網路)。</span><span class="sxs-lookup"><span data-stu-id="c9f92-104">The Location Report provides information about call quality metrics grouped by network location (that is, by network subnet).</span></span> <span data-ttu-id="c9f92-105">如果您的使用者遇到其通話的問題，這份報告可以協助您判斷如果這些問題時遇到的普遍，或者主要限於特定的網路區段。</span><span class="sxs-lookup"><span data-stu-id="c9f92-105">If your users are experiencing problems with their calls, this report can help you determine if those problems are widespread or if they are largely confined to a given network segment.</span></span>
+<span data-ttu-id="b292f-104">位置報告提供有關通話品質計量依據網路位置資訊 (也就是由網路子網路)。</span><span class="sxs-lookup"><span data-stu-id="b292f-104">The Location Report provides information about call quality metrics grouped by network location (that is, by network subnet).</span></span> <span data-ttu-id="b292f-105">如果您的使用者遇到其通話的問題，這份報告可以協助您判斷如果這些問題時遇到的普遍，或者主要限於特定的網路區段。</span><span class="sxs-lookup"><span data-stu-id="b292f-105">If your users are experiencing problems with their calls, this report can help you determine if those problems are widespread or if they are largely confined to a given network segment.</span></span>
 
 <div>
 
-## <a name="accessing-the-location-report"></a><span data-ttu-id="c9f92-106">存取位置報告</span><span class="sxs-lookup"><span data-stu-id="c9f92-106">Accessing the Location Report</span></span>
+## <a name="accessing-the-location-report"></a><span data-ttu-id="b292f-106">存取位置報告</span><span class="sxs-lookup"><span data-stu-id="b292f-106">Accessing the Location Report</span></span>
 
-<span data-ttu-id="c9f92-107">從監視報告首頁存取位置報告。</span><span class="sxs-lookup"><span data-stu-id="c9f92-107">The Location Report is accessed from the Monitoring Reports home page.</span></span> <span data-ttu-id="c9f92-108">您可以按一下向下切入 Call List Report 下列計量之一：</span><span class="sxs-lookup"><span data-stu-id="c9f92-108">You can drill down to the Call List Report by clicking either of the following metrics:</span></span>
+<span data-ttu-id="b292f-107">從監視報告首頁存取位置報告。</span><span class="sxs-lookup"><span data-stu-id="b292f-107">The Location Report is accessed from the Monitoring Reports home page.</span></span> <span data-ttu-id="b292f-108">您可以按一下向下切入 Call List Report 下列計量之一：</span><span class="sxs-lookup"><span data-stu-id="b292f-108">You can drill down to the Call List Report by clicking either of the following metrics:</span></span>
 
-  - <span data-ttu-id="c9f92-109">[通話數</span><span class="sxs-lookup"><span data-stu-id="c9f92-109">Call volume</span></span>
+  - <span data-ttu-id="b292f-109">[通話數</span><span class="sxs-lookup"><span data-stu-id="b292f-109">Call volume</span></span>
 
-  - <span data-ttu-id="c9f92-110">通話不良百分比</span><span class="sxs-lookup"><span data-stu-id="c9f92-110">Poor call percentage</span></span>
+  - <span data-ttu-id="b292f-110">通話不良百分比</span><span class="sxs-lookup"><span data-stu-id="b292f-110">Poor call percentage</span></span>
 
 </div>
 
 <div>
 
-## <a name="filters"></a><span data-ttu-id="c9f92-111">篩選</span><span class="sxs-lookup"><span data-stu-id="c9f92-111">Filters</span></span>
+## <a name="filters"></a><span data-ttu-id="b292f-111">篩選</span><span class="sxs-lookup"><span data-stu-id="b292f-111">Filters</span></span>
 
-<span data-ttu-id="c9f92-112">篩選器可以讓您傳回更精確的資料集或者以不同方法檢視傳回的資料。</span><span class="sxs-lookup"><span data-stu-id="c9f92-112">Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways.</span></span> <span data-ttu-id="c9f92-113">例如，位置報告可讓您篩選上為呼叫起源的所在位置，或是否通話中發生了在無線或有線的連線等項目。</span><span class="sxs-lookup"><span data-stu-id="c9f92-113">For example, the Location Report enables you to filter on such things as the location where a call was originated or whether the call took place on a wireless or a wired connection.</span></span> <span data-ttu-id="c9f92-114">您也可以選擇資料的分組方式。</span><span class="sxs-lookup"><span data-stu-id="c9f92-114">You can also choose how data should be grouped.</span></span> <span data-ttu-id="c9f92-115">在這種情況下，通話會按照小時、日、星期或月而加以分組。</span><span class="sxs-lookup"><span data-stu-id="c9f92-115">In this case, calls are grouped by hour, day, week, or month.</span></span>
+<span data-ttu-id="b292f-112">篩選器可以讓您傳回更精確的資料集或者以不同方法檢視傳回的資料。</span><span class="sxs-lookup"><span data-stu-id="b292f-112">Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways.</span></span> <span data-ttu-id="b292f-113">例如，位置報告可讓您篩選上為呼叫起源的所在位置，或是否通話中發生了在無線或有線的連線等項目。</span><span class="sxs-lookup"><span data-stu-id="b292f-113">For example, the Location Report enables you to filter on such things as the location where a call was originated or whether the call took place on a wireless or a wired connection.</span></span> <span data-ttu-id="b292f-114">您也可以選擇資料的分組方式。</span><span class="sxs-lookup"><span data-stu-id="b292f-114">You can also choose how data should be grouped.</span></span> <span data-ttu-id="b292f-115">在這種情況下，通話會按照小時、日、星期或月而加以分組。</span><span class="sxs-lookup"><span data-stu-id="b292f-115">In this case, calls are grouped by hour, day, week, or month.</span></span>
 
-<span data-ttu-id="c9f92-116">下表列出您可以搭配位置報告的篩選器。</span><span class="sxs-lookup"><span data-stu-id="c9f92-116">The following table lists the filters that you can use with the Location Report.</span></span>
+<span data-ttu-id="b292f-116">下表列出您可以搭配位置報告的篩選器。</span><span class="sxs-lookup"><span data-stu-id="b292f-116">The following table lists the filters that you can use with the Location Report.</span></span>
 
-### <a name="location-report-filters"></a><span data-ttu-id="c9f92-117">位置報告篩選器</span><span class="sxs-lookup"><span data-stu-id="c9f92-117">Location Report Filters</span></span>
+### <a name="location-report-filters"></a><span data-ttu-id="b292f-117">位置報告篩選器</span><span class="sxs-lookup"><span data-stu-id="b292f-117">Location Report Filters</span></span>
 
 <table>
 <colgroup>
@@ -68,55 +68,55 @@ ms.locfileid: "42046776"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="c9f92-118">名稱</span><span class="sxs-lookup"><span data-stu-id="c9f92-118">Name</span></span></th>
-<th><span data-ttu-id="c9f92-119">描述</span><span class="sxs-lookup"><span data-stu-id="c9f92-119">Description</span></span></th>
+<th><span data-ttu-id="b292f-118">名稱</span><span class="sxs-lookup"><span data-stu-id="b292f-118">Name</span></span></th>
+<th><span data-ttu-id="b292f-119">描述</span><span class="sxs-lookup"><span data-stu-id="b292f-119">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="c9f92-120"><strong>From</strong></span><span class="sxs-lookup"><span data-stu-id="c9f92-120"><strong>From</strong></span></span></p></td>
-<td><p><span data-ttu-id="c9f92-p104">時間範圍的開始日期/時間。若要按照小時檢視資料，請輸入開始日期和時間，如下所示：</span><span class="sxs-lookup"><span data-stu-id="c9f92-p104">Start date/time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
-<p><span data-ttu-id="c9f92-123">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="c9f92-123">7/7/2012 1:00 PM</span></span></p>
-<p><span data-ttu-id="c9f92-p105">如果您未輸入開始時間，報告會自動從指定日期凌晨 12 點開始。若要按照日期檢視資料，只要輸入日期即可：</span><span class="sxs-lookup"><span data-stu-id="c9f92-p105">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="c9f92-126">2012/7/7</span><span class="sxs-lookup"><span data-stu-id="c9f92-126">7/7/2012</span></span></p>
-<p><span data-ttu-id="c9f92-127">若要按星期或月份檢視，請輸入當週或該月您想檢視的日期 (您不必輸入當週或該月的第一天)：</span><span class="sxs-lookup"><span data-stu-id="c9f92-127">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="c9f92-128">2012/7/3</span><span class="sxs-lookup"><span data-stu-id="c9f92-128">7/3/2012</span></span></p>
-<p><span data-ttu-id="c9f92-129">星期永遠是從星期日開始星期六結束。</span><span class="sxs-lookup"><span data-stu-id="c9f92-129">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="b292f-120"><strong>From</strong></span><span class="sxs-lookup"><span data-stu-id="b292f-120"><strong>From</strong></span></span></p></td>
+<td><p><span data-ttu-id="b292f-p104">時間範圍的開始日期/時間。若要按照小時檢視資料，請輸入開始日期和時間，如下所示：</span><span class="sxs-lookup"><span data-stu-id="b292f-p104">Start date/time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
+<p><span data-ttu-id="b292f-123">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="b292f-123">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="b292f-p105">如果您未輸入開始時間，報告會自動從指定日期凌晨 12 點開始。若要按照日期檢視資料，只要輸入日期即可：</span><span class="sxs-lookup"><span data-stu-id="b292f-p105">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="b292f-126">2012/7/7</span><span class="sxs-lookup"><span data-stu-id="b292f-126">7/7/2012</span></span></p>
+<p><span data-ttu-id="b292f-127">若要按星期或月份檢視，請輸入當週或該月您想檢視的日期 (您不必輸入當週或該月的第一天)：</span><span class="sxs-lookup"><span data-stu-id="b292f-127">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="b292f-128">2012/7/3</span><span class="sxs-lookup"><span data-stu-id="b292f-128">7/3/2012</span></span></p>
+<p><span data-ttu-id="b292f-129">星期永遠是從星期日開始星期六結束。</span><span class="sxs-lookup"><span data-stu-id="b292f-129">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="c9f92-130"><strong>To</strong></span><span class="sxs-lookup"><span data-stu-id="c9f92-130"><strong>To</strong></span></span></p></td>
-<td><p><span data-ttu-id="c9f92-p106">時間範圍的結束日期/時間。若要按照小時檢視資料，請輸入開始日期和時間，如下所示：</span><span class="sxs-lookup"><span data-stu-id="c9f92-p106">End date/time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
-<p><span data-ttu-id="c9f92-133">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="c9f92-133">7/7/2012 1:00 PM</span></span></p>
-<p><span data-ttu-id="c9f92-p107">如果您未輸入結束時間，報告會自動在指定日期凌晨 12 點結束。若要按照日期檢視資料，只要輸入日期即可：</span><span class="sxs-lookup"><span data-stu-id="c9f92-p107">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="c9f92-136">2012/7/7</span><span class="sxs-lookup"><span data-stu-id="c9f92-136">7/7/2012</span></span></p>
-<p><span data-ttu-id="c9f92-137">若要按星期或月份檢視，請輸入當週或該月您想檢視的日期 (您不必輸入當週或該月的第一天)：</span><span class="sxs-lookup"><span data-stu-id="c9f92-137">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="c9f92-138">2012/7/3</span><span class="sxs-lookup"><span data-stu-id="c9f92-138">7/3/2012</span></span></p>
-<p><span data-ttu-id="c9f92-139">星期永遠是從星期日開始星期六結束。</span><span class="sxs-lookup"><span data-stu-id="c9f92-139">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="b292f-130"><strong>To</strong></span><span class="sxs-lookup"><span data-stu-id="b292f-130"><strong>To</strong></span></span></p></td>
+<td><p><span data-ttu-id="b292f-p106">時間範圍的結束日期/時間。若要按照小時檢視資料，請輸入開始日期和時間，如下所示：</span><span class="sxs-lookup"><span data-stu-id="b292f-p106">End date/time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
+<p><span data-ttu-id="b292f-133">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="b292f-133">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="b292f-p107">如果您未輸入結束時間，報告會自動在指定日期凌晨 12 點結束。若要按照日期檢視資料，只要輸入日期即可：</span><span class="sxs-lookup"><span data-stu-id="b292f-p107">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="b292f-136">2012/7/7</span><span class="sxs-lookup"><span data-stu-id="b292f-136">7/7/2012</span></span></p>
+<p><span data-ttu-id="b292f-137">若要按星期或月份檢視，請輸入當週或該月您想檢視的日期 (您不必輸入當週或該月的第一天)：</span><span class="sxs-lookup"><span data-stu-id="b292f-137">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="b292f-138">2012/7/3</span><span class="sxs-lookup"><span data-stu-id="b292f-138">7/3/2012</span></span></p>
+<p><span data-ttu-id="b292f-139">星期永遠是從星期日開始星期六結束。</span><span class="sxs-lookup"><span data-stu-id="b292f-139">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="c9f92-140"><strong>來電者位置</strong></span><span class="sxs-lookup"><span data-stu-id="c9f92-140"><strong>Caller location</strong></span></span></p></td>
-<td><p><span data-ttu-id="c9f92-141">撥打通話之使用者的 IP 子網路。</span><span class="sxs-lookup"><span data-stu-id="c9f92-141">IP subnet of the user who placed the call.</span></span> <span data-ttu-id="c9f92-142">您只能選取<strong>[全部]</strong>表示所有子網路。</span><span class="sxs-lookup"><span data-stu-id="c9f92-142">You can only select <strong>[All]</strong> to indicate all subnets.</span></span></p></td>
+<td><p><span data-ttu-id="b292f-140"><strong>來電者位置</strong></span><span class="sxs-lookup"><span data-stu-id="b292f-140"><strong>Caller location</strong></span></span></p></td>
+<td><p><span data-ttu-id="b292f-141">撥打通話之使用者的 IP 子網路。</span><span class="sxs-lookup"><span data-stu-id="b292f-141">IP subnet of the user who placed the call.</span></span> <span data-ttu-id="b292f-142">您只能選取<strong>[全部]</strong>表示所有子網路。</span><span class="sxs-lookup"><span data-stu-id="b292f-142">You can only select <strong>[All]</strong> to indicate all subnets.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="c9f92-143"><strong>被呼叫者位置</strong></span><span class="sxs-lookup"><span data-stu-id="c9f92-143"><strong>Callee location</strong></span></span></p></td>
-<td><p><span data-ttu-id="c9f92-144">接到電話之使用者的 IP 子網路。</span><span class="sxs-lookup"><span data-stu-id="c9f92-144">IP subnet of the user who received the call.</span></span> <span data-ttu-id="c9f92-145">您只能選取<strong>[全部]</strong>表示所有子網路。</span><span class="sxs-lookup"><span data-stu-id="c9f92-145">You can only select <strong>[All]</strong> to indicate all subnets.</span></span></p></td>
+<td><p><span data-ttu-id="b292f-143"><strong>被呼叫者位置</strong></span><span class="sxs-lookup"><span data-stu-id="b292f-143"><strong>Callee location</strong></span></span></p></td>
+<td><p><span data-ttu-id="b292f-144">接到電話之使用者的 IP 子網路。</span><span class="sxs-lookup"><span data-stu-id="b292f-144">IP subnet of the user who received the call.</span></span> <span data-ttu-id="b292f-145">您只能選取<strong>[全部]</strong>表示所有子網路。</span><span class="sxs-lookup"><span data-stu-id="b292f-145">You can only select <strong>[All]</strong> to indicate all subnets.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="c9f92-146"><strong>網路類型</strong></span><span class="sxs-lookup"><span data-stu-id="c9f92-146"><strong>Network type</strong></span></span></p></td>
-<td><p><span data-ttu-id="c9f92-p110">指出當撥打電話時，用戶端連線的網路類型。請選取下列其中一項：</span><span class="sxs-lookup"><span data-stu-id="c9f92-p110">Indicates the type of network the client was connected to when the call was placed. Select one of the following:</span></span></p>
+<td><p><span data-ttu-id="b292f-146"><strong>網路類型</strong></span><span class="sxs-lookup"><span data-stu-id="b292f-146"><strong>Network type</strong></span></span></p></td>
+<td><p><span data-ttu-id="b292f-p110">指出當撥打電話時，用戶端連線的網路類型。請選取下列其中一項：</span><span class="sxs-lookup"><span data-stu-id="b292f-p110">Indicates the type of network the client was connected to when the call was placed. Select one of the following:</span></span></p>
 <ol>
-<li><p><span data-ttu-id="c9f92-149">[全部]</span><span class="sxs-lookup"><span data-stu-id="c9f92-149">[All]</span></span></p></li>
-<li><p><span data-ttu-id="c9f92-150">有線</span><span class="sxs-lookup"><span data-stu-id="c9f92-150">Wired</span></span></p></li>
-<li><p><span data-ttu-id="c9f92-151">無線</span><span class="sxs-lookup"><span data-stu-id="c9f92-151">Wireless</span></span></p></li>
+<li><p><span data-ttu-id="b292f-149">[全部]</span><span class="sxs-lookup"><span data-stu-id="b292f-149">[All]</span></span></p></li>
+<li><p><span data-ttu-id="b292f-150">有線</span><span class="sxs-lookup"><span data-stu-id="b292f-150">Wired</span></span></p></li>
+<li><p><span data-ttu-id="b292f-151">無線</span><span class="sxs-lookup"><span data-stu-id="b292f-151">Wireless</span></span></p></li>
 </ol></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="c9f92-152"><strong>VPN</strong></span><span class="sxs-lookup"><span data-stu-id="c9f92-152"><strong>VPN</strong></span></span></p></td>
-<td><p><span data-ttu-id="c9f92-p111">指出當撥打電話時，外部用戶端是否使用虛擬私人網路 (VPN) 連線。請選取下列其中一項：</span><span class="sxs-lookup"><span data-stu-id="c9f92-p111">Indicates whether an external client was using a virtual private network (VPN) connection when the call was placed. Select one of the following:</span></span></p>
+<td><p><span data-ttu-id="b292f-152"><strong>VPN</strong></span><span class="sxs-lookup"><span data-stu-id="b292f-152"><strong>VPN</strong></span></span></p></td>
+<td><p><span data-ttu-id="b292f-p111">指出當撥打電話時，外部用戶端是否使用虛擬私人網路 (VPN) 連線。請選取下列其中一項：</span><span class="sxs-lookup"><span data-stu-id="b292f-p111">Indicates whether an external client was using a virtual private network (VPN) connection when the call was placed. Select one of the following:</span></span></p>
 <ol>
-<li><p><span data-ttu-id="c9f92-155">[全部]</span><span class="sxs-lookup"><span data-stu-id="c9f92-155">[All]</span></span></p></li>
-<li><p><span data-ttu-id="c9f92-156">VPN</span><span class="sxs-lookup"><span data-stu-id="c9f92-156">VPN</span></span></p></li>
-<li><p><span data-ttu-id="c9f92-157">非 VPN</span><span class="sxs-lookup"><span data-stu-id="c9f92-157">Non-VPN</span></span></p></li>
+<li><p><span data-ttu-id="b292f-155">[全部]</span><span class="sxs-lookup"><span data-stu-id="b292f-155">[All]</span></span></p></li>
+<li><p><span data-ttu-id="b292f-156">VPN</span><span class="sxs-lookup"><span data-stu-id="b292f-156">VPN</span></span></p></li>
+<li><p><span data-ttu-id="b292f-157">非 VPN</span><span class="sxs-lookup"><span data-stu-id="b292f-157">Non-VPN</span></span></p></li>
 </ol></td>
 </tr>
 </tbody>
@@ -127,11 +127,11 @@ ms.locfileid: "42046776"
 
 <div>
 
-## <a name="metrics"></a><span data-ttu-id="c9f92-158">計量</span><span class="sxs-lookup"><span data-stu-id="c9f92-158">Metrics</span></span>
+## <a name="metrics"></a><span data-ttu-id="b292f-158">計量</span><span class="sxs-lookup"><span data-stu-id="b292f-158">Metrics</span></span>
 
-<span data-ttu-id="c9f92-159">下表列出位置報告中提供的資訊。</span><span class="sxs-lookup"><span data-stu-id="c9f92-159">The following table lists the information provided in the Location Report.</span></span>
+<span data-ttu-id="b292f-159">下表列出位置報告中提供的資訊。</span><span class="sxs-lookup"><span data-stu-id="b292f-159">The following table lists the information provided in the Location Report.</span></span>
 
-### <a name="location-report-metrics"></a><span data-ttu-id="c9f92-160">位置報告計量</span><span class="sxs-lookup"><span data-stu-id="c9f92-160">Location Report Metrics</span></span>
+### <a name="location-report-metrics"></a><span data-ttu-id="b292f-160">位置報告計量</span><span class="sxs-lookup"><span data-stu-id="b292f-160">Location Report Metrics</span></span>
 
 <table>
 <colgroup>
@@ -141,68 +141,68 @@ ms.locfileid: "42046776"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="c9f92-161">姓名</span><span class="sxs-lookup"><span data-stu-id="c9f92-161">Name</span></span></th>
-<th><span data-ttu-id="c9f92-162">可以排序這個項目嗎？</span><span class="sxs-lookup"><span data-stu-id="c9f92-162">Can you sort on this item?</span></span></th>
-<th><span data-ttu-id="c9f92-163">描述</span><span class="sxs-lookup"><span data-stu-id="c9f92-163">Description</span></span></th>
+<th><span data-ttu-id="b292f-161">名稱</span><span class="sxs-lookup"><span data-stu-id="b292f-161">Name</span></span></th>
+<th><span data-ttu-id="b292f-162">可以排序這個項目嗎？</span><span class="sxs-lookup"><span data-stu-id="b292f-162">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="b292f-163">描述</span><span class="sxs-lookup"><span data-stu-id="b292f-163">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="c9f92-164"><strong>呼叫者子網路</strong></span><span class="sxs-lookup"><span data-stu-id="c9f92-164"><strong>Caller subnet</strong></span></span></p></td>
-<td><p><span data-ttu-id="c9f92-165">否</span><span class="sxs-lookup"><span data-stu-id="c9f92-165">No</span></span></p></td>
-<td><p><span data-ttu-id="c9f92-166">撥打通話之使用者的 IP 子網路。</span><span class="sxs-lookup"><span data-stu-id="c9f92-166">IP subnet of the user who placed the call.</span></span></p></td>
+<td><p><span data-ttu-id="b292f-164"><strong>呼叫者子網路</strong></span><span class="sxs-lookup"><span data-stu-id="b292f-164"><strong>Caller subnet</strong></span></span></p></td>
+<td><p><span data-ttu-id="b292f-165">否</span><span class="sxs-lookup"><span data-stu-id="b292f-165">No</span></span></p></td>
+<td><p><span data-ttu-id="b292f-166">撥打通話之使用者的 IP 子網路。</span><span class="sxs-lookup"><span data-stu-id="b292f-166">IP subnet of the user who placed the call.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="c9f92-167"><strong>被呼叫者子網路</strong></span><span class="sxs-lookup"><span data-stu-id="c9f92-167"><strong>Callee subnet</strong></span></span></p></td>
-<td><p><span data-ttu-id="c9f92-168">否</span><span class="sxs-lookup"><span data-stu-id="c9f92-168">No</span></span></p></td>
-<td><p><span data-ttu-id="c9f92-169">接到電話之使用者的 IP 子網路。</span><span class="sxs-lookup"><span data-stu-id="c9f92-169">IP subnet of the user who received the call.</span></span></p></td>
+<td><p><span data-ttu-id="b292f-167"><strong>被呼叫者子網路</strong></span><span class="sxs-lookup"><span data-stu-id="b292f-167"><strong>Callee subnet</strong></span></span></p></td>
+<td><p><span data-ttu-id="b292f-168">否</span><span class="sxs-lookup"><span data-stu-id="b292f-168">No</span></span></p></td>
+<td><p><span data-ttu-id="b292f-169">接到電話之使用者的 IP 子網路。</span><span class="sxs-lookup"><span data-stu-id="b292f-169">IP subnet of the user who received the call.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="c9f92-170"><strong>[通話數</strong></span><span class="sxs-lookup"><span data-stu-id="c9f92-170"><strong>Call volume</strong></span></span></p></td>
-<td><p><span data-ttu-id="c9f92-171">是</span><span class="sxs-lookup"><span data-stu-id="c9f92-171">Yes</span></span></p></td>
-<td><p><span data-ttu-id="c9f92-172">撥打的通話總數。</span><span class="sxs-lookup"><span data-stu-id="c9f92-172">Total number of calls placed.</span></span></p></td>
+<td><p><span data-ttu-id="b292f-170"><strong>[通話數</strong></span><span class="sxs-lookup"><span data-stu-id="b292f-170"><strong>Call volume</strong></span></span></p></td>
+<td><p><span data-ttu-id="b292f-171">是</span><span class="sxs-lookup"><span data-stu-id="b292f-171">Yes</span></span></p></td>
+<td><p><span data-ttu-id="b292f-172">撥打的通話總數。</span><span class="sxs-lookup"><span data-stu-id="b292f-172">Total number of calls placed.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="c9f92-173"><strong>通話不良百分比</strong></span><span class="sxs-lookup"><span data-stu-id="c9f92-173"><strong>Poor call percentage</strong></span></span></p></td>
-<td><p><span data-ttu-id="c9f92-174">是</span><span class="sxs-lookup"><span data-stu-id="c9f92-174">Yes</span></span></p></td>
-<td><p><span data-ttu-id="c9f92-175">通話歸類為不良通話百分比。</span><span class="sxs-lookup"><span data-stu-id="c9f92-175">Percentage of calls classified as poor calls.</span></span> <span data-ttu-id="c9f92-176">通話不良是指至少一項計算超出允許的值 （例如，通話過多的抖動） 任何來電。</span><span class="sxs-lookup"><span data-stu-id="c9f92-176">A poor call is any call which at least one of the measured metrics exceeded the allowed value (for example, a call that experienced excessive jitter).</span></span></p></td>
+<td><p><span data-ttu-id="b292f-173"><strong>通話不良百分比</strong></span><span class="sxs-lookup"><span data-stu-id="b292f-173"><strong>Poor call percentage</strong></span></span></p></td>
+<td><p><span data-ttu-id="b292f-174">是</span><span class="sxs-lookup"><span data-stu-id="b292f-174">Yes</span></span></p></td>
+<td><p><span data-ttu-id="b292f-175">通話歸類為不良通話百分比。</span><span class="sxs-lookup"><span data-stu-id="b292f-175">Percentage of calls classified as poor calls.</span></span> <span data-ttu-id="b292f-176">通話不良是指至少一項計算超出允許的值 （例如，通話過多的抖動） 任何來電。</span><span class="sxs-lookup"><span data-stu-id="b292f-176">A poor call is any call which at least one of the measured metrics exceeded the allowed value (for example, a call that experienced excessive jitter).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="c9f92-177"><strong>往返時間 （毫秒）</strong></span><span class="sxs-lookup"><span data-stu-id="c9f92-177"><strong>Round trip (ms)</strong></span></span></p></td>
-<td><p><span data-ttu-id="c9f92-178">是</span><span class="sxs-lookup"><span data-stu-id="c9f92-178">Yes</span></span></p></td>
-<td><p><span data-ttu-id="c9f92-179">平均量 （以毫秒為單位） 所需的即時傳輸通訊協定 (RTP) 封包傳輸至另一個端點，再重新。</span><span class="sxs-lookup"><span data-stu-id="c9f92-179">Average amount of (in milliseconds) required for a real-time transport protocol (RTP) packet to travel to another endpoint and then back.</span></span> <span data-ttu-id="c9f92-180">100 毫秒或更低的來回行程時間會被視為的可接受的品質。</span><span class="sxs-lookup"><span data-stu-id="c9f92-180">Round-trip times of 100 milliseconds or less are considered of acceptable quality.</span></span></p>
-<p><span data-ttu-id="c9f92-181">高的來回行程值可以是國際電話路由，路由設定錯誤或已多載的媒體伺服器所造成。</span><span class="sxs-lookup"><span data-stu-id="c9f92-181">High round-trip values can be caused by international call routing, a routing misconfiguration, or an overloaded media server.</span></span> <span data-ttu-id="c9f92-182">高的來回行程時間會導致雙向、 即時音訊交談的問題。</span><span class="sxs-lookup"><span data-stu-id="c9f92-182">High round-trip times result in difficulties with two-way, real-time audio conversations.</span></span></p></td>
+<td><p><span data-ttu-id="b292f-177"><strong>往返時間 （毫秒）</strong></span><span class="sxs-lookup"><span data-stu-id="b292f-177"><strong>Round trip (ms)</strong></span></span></p></td>
+<td><p><span data-ttu-id="b292f-178">是</span><span class="sxs-lookup"><span data-stu-id="b292f-178">Yes</span></span></p></td>
+<td><p><span data-ttu-id="b292f-179">平均量 （以毫秒為單位） 所需的即時傳輸通訊協定 (RTP) 封包傳輸至另一個端點，再重新。</span><span class="sxs-lookup"><span data-stu-id="b292f-179">Average amount of (in milliseconds) required for a real-time transport protocol (RTP) packet to travel to another endpoint and then back.</span></span> <span data-ttu-id="b292f-180">100 毫秒或更低的來回行程時間會被視為的可接受的品質。</span><span class="sxs-lookup"><span data-stu-id="b292f-180">Round-trip times of 100 milliseconds or less are considered of acceptable quality.</span></span></p>
+<p><span data-ttu-id="b292f-181">高的來回行程值可以是國際電話路由，路由設定錯誤或已多載的媒體伺服器所造成。</span><span class="sxs-lookup"><span data-stu-id="b292f-181">High round-trip values can be caused by international call routing, a routing misconfiguration, or an overloaded media server.</span></span> <span data-ttu-id="b292f-182">高的來回行程時間會導致雙向、 即時音訊交談的問題。</span><span class="sxs-lookup"><span data-stu-id="b292f-182">High round-trip times result in difficulties with two-way, real-time audio conversations.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="c9f92-183"><strong>降低 (MOS)</strong></span><span class="sxs-lookup"><span data-stu-id="c9f92-183"><strong>Degradation (MOS)</strong></span></span></p></td>
-<td><p><span data-ttu-id="c9f92-184">是</span><span class="sxs-lookup"><span data-stu-id="c9f92-184">Yes</span></span></p></td>
-<td><p><span data-ttu-id="c9f92-185">平均量平均意見分數 (MOS) 降低在通話期間發生。</span><span class="sxs-lookup"><span data-stu-id="c9f92-185">Average amount of mean opinion score (MOS) degradation experienced during a call.</span></span> <span data-ttu-id="c9f92-186">為 [高] 的 5.0，降低值可介於 0.0 的低。</span><span class="sxs-lookup"><span data-stu-id="c9f92-186">Degradation values can range from a low of 0.0 to a high of 5.0.</span></span> <span data-ttu-id="c9f92-187">為 0.5 或更低的值代表可接受的效能下降。</span><span class="sxs-lookup"><span data-stu-id="c9f92-187">A value of 0.5 or less represents acceptable degradation.</span></span> <span data-ttu-id="c9f92-188">在過去，mean 選項分數已計算方式是讓使用者在 1 到 5 的小數位數率通話品質。</span><span class="sxs-lookup"><span data-stu-id="c9f92-188">Historically, mean options scores were calculated by having users rate the quality of a call on a scale of 1-to-5.</span></span> <span data-ttu-id="c9f92-189">在 Lync Server 中，Lync Server 會使用一組演算法來預測如何使用者會有分級通話。</span><span class="sxs-lookup"><span data-stu-id="c9f92-189">In Lync Server, Lync Server uses a set of algorithms to predict how users would have rated a call.</span></span></p>
-<p><span data-ttu-id="c9f92-190">高的效能下降值會造成壅塞，缺少的頻寬、 無線壅塞或干擾，或已多載的媒體伺服器或端點。</span><span class="sxs-lookup"><span data-stu-id="c9f92-190">High degradation values can be caused by congestion, lack of bandwidth, wireless congestion or interference, or an overloaded media server or endpoint.</span></span> <span data-ttu-id="c9f92-191">高降低的情形會導致扭曲或遺失音訊。</span><span class="sxs-lookup"><span data-stu-id="c9f92-191">High degradation results in distorted or lost audio.</span></span></p></td>
+<td><p><span data-ttu-id="b292f-183"><strong>降低 (MOS)</strong></span><span class="sxs-lookup"><span data-stu-id="b292f-183"><strong>Degradation (MOS)</strong></span></span></p></td>
+<td><p><span data-ttu-id="b292f-184">是</span><span class="sxs-lookup"><span data-stu-id="b292f-184">Yes</span></span></p></td>
+<td><p><span data-ttu-id="b292f-185">平均量平均意見分數 (MOS) 降低在通話期間發生。</span><span class="sxs-lookup"><span data-stu-id="b292f-185">Average amount of mean opinion score (MOS) degradation experienced during a call.</span></span> <span data-ttu-id="b292f-186">為 [高] 的 5.0，降低值可介於 0.0 的低。</span><span class="sxs-lookup"><span data-stu-id="b292f-186">Degradation values can range from a low of 0.0 to a high of 5.0.</span></span> <span data-ttu-id="b292f-187">為 0.5 或更低的值代表可接受的效能下降。</span><span class="sxs-lookup"><span data-stu-id="b292f-187">A value of 0.5 or less represents acceptable degradation.</span></span> <span data-ttu-id="b292f-188">在過去，mean 選項分數已計算方式是讓使用者在 1 到 5 的小數位數率通話品質。</span><span class="sxs-lookup"><span data-stu-id="b292f-188">Historically, mean options scores were calculated by having users rate the quality of a call on a scale of 1-to-5.</span></span> <span data-ttu-id="b292f-189">在 Lync Server 中，Lync Server 會使用一組演算法來預測如何使用者會有分級通話。</span><span class="sxs-lookup"><span data-stu-id="b292f-189">In Lync Server, Lync Server uses a set of algorithms to predict how users would have rated a call.</span></span></p>
+<p><span data-ttu-id="b292f-190">高的效能下降值會造成壅塞，缺少的頻寬、 無線壅塞或干擾，或已多載的媒體伺服器或端點。</span><span class="sxs-lookup"><span data-stu-id="b292f-190">High degradation values can be caused by congestion, lack of bandwidth, wireless congestion or interference, or an overloaded media server or endpoint.</span></span> <span data-ttu-id="b292f-191">高降低的情形會導致扭曲或遺失音訊。</span><span class="sxs-lookup"><span data-stu-id="b292f-191">High degradation results in distorted or lost audio.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="c9f92-192"><strong>封包遺失</strong></span><span class="sxs-lookup"><span data-stu-id="c9f92-192"><strong>Packet loss</strong></span></span></p></td>
-<td><p><span data-ttu-id="c9f92-193">是</span><span class="sxs-lookup"><span data-stu-id="c9f92-193">Yes</span></span></p></td>
-<td><p><span data-ttu-id="c9f92-194">RTP 封包遺失平均速率。</span><span class="sxs-lookup"><span data-stu-id="c9f92-194">Average rate of RTP packet loss.</span></span> <span data-ttu-id="c9f92-195">（封包遺失發生於 RTP 封包，用於傳輸音訊和視訊在網際網路上的通訊協定無法到達其目的地）。高遺失率通常會因擁塞、 缺乏頻寬、 無線壅塞或干擾，或已多載的媒體伺服器。</span><span class="sxs-lookup"><span data-stu-id="c9f92-195">(Packet loss occurs when RTP packets, a protocol used for transmitting audio and video across the Internet, failed to reach their destination.) High loss rates are generally caused by congestion, lack of bandwidth, wireless congestion or interference, or an overloaded media server.</span></span> <span data-ttu-id="c9f92-196">封包遺失通常會導致扭曲或遺失音訊。</span><span class="sxs-lookup"><span data-stu-id="c9f92-196">Packet loss typically results in distorted or lost audio.</span></span></p></td>
+<td><p><span data-ttu-id="b292f-192"><strong>封包遺失</strong></span><span class="sxs-lookup"><span data-stu-id="b292f-192"><strong>Packet loss</strong></span></span></p></td>
+<td><p><span data-ttu-id="b292f-193">是</span><span class="sxs-lookup"><span data-stu-id="b292f-193">Yes</span></span></p></td>
+<td><p><span data-ttu-id="b292f-194">RTP 封包遺失平均速率。</span><span class="sxs-lookup"><span data-stu-id="b292f-194">Average rate of RTP packet loss.</span></span> <span data-ttu-id="b292f-195">（封包遺失發生於 RTP 封包，用於傳輸音訊和視訊在網際網路上的通訊協定無法到達其目的地）。高遺失率通常會因擁塞、 缺乏頻寬、 無線壅塞或干擾，或已多載的媒體伺服器。</span><span class="sxs-lookup"><span data-stu-id="b292f-195">(Packet loss occurs when RTP packets, a protocol used for transmitting audio and video across the Internet, failed to reach their destination.) High loss rates are generally caused by congestion, lack of bandwidth, wireless congestion or interference, or an overloaded media server.</span></span> <span data-ttu-id="b292f-196">封包遺失通常會導致扭曲或遺失音訊。</span><span class="sxs-lookup"><span data-stu-id="b292f-196">Packet loss typically results in distorted or lost audio.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="c9f92-197"><strong>抖動</strong></span><span class="sxs-lookup"><span data-stu-id="c9f92-197"><strong>Jitter</strong></span></span></p></td>
-<td><p><span data-ttu-id="c9f92-198">是</span><span class="sxs-lookup"><span data-stu-id="c9f92-198">Yes</span></span></p></td>
-<td><p><span data-ttu-id="c9f92-199">偵測到之間 RTP 封包抵達的平均抖動值。</span><span class="sxs-lookup"><span data-stu-id="c9f92-199">Average jitter detected between RTP packet arrivals.</span></span> <span data-ttu-id="c9f92-200">(抖動是評量&quot;shakiness&quot;的呼叫。)高抖動值通常是造成壅塞或超載的媒體伺服器，並導致扭曲或遺失音訊。</span><span class="sxs-lookup"><span data-stu-id="c9f92-200">(Jitter is a measure of the &quot;shakiness&quot; of a call.) High jitter values are typically caused by congestion or an overloaded media server, and result in distorted or lost audio.</span></span></p></td>
+<td><p><span data-ttu-id="b292f-197"><strong>抖動</strong></span><span class="sxs-lookup"><span data-stu-id="b292f-197"><strong>Jitter</strong></span></span></p></td>
+<td><p><span data-ttu-id="b292f-198">是</span><span class="sxs-lookup"><span data-stu-id="b292f-198">Yes</span></span></p></td>
+<td><p><span data-ttu-id="b292f-199">偵測到之間 RTP 封包抵達的平均抖動值。</span><span class="sxs-lookup"><span data-stu-id="b292f-199">Average jitter detected between RTP packet arrivals.</span></span> <span data-ttu-id="b292f-200">(抖動是評量&quot;shakiness&quot;的呼叫。)高抖動值通常是造成壅塞或超載的媒體伺服器，並導致扭曲或遺失音訊。</span><span class="sxs-lookup"><span data-stu-id="b292f-200">(Jitter is a measure of the &quot;shakiness&quot; of a call.) High jitter values are typically caused by congestion or an overloaded media server, and result in distorted or lost audio.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="c9f92-201"><strong>修復隱藏比率</strong></span><span class="sxs-lookup"><span data-stu-id="c9f92-201"><strong>Healer concealed ratio</strong></span></span></p></td>
-<td><p><span data-ttu-id="c9f92-202">是</span><span class="sxs-lookup"><span data-stu-id="c9f92-202">Yes</span></span></p></td>
-<td><p><span data-ttu-id="c9f92-203">之隱藏樣本總數總計的音訊樣本的平均比率。</span><span class="sxs-lookup"><span data-stu-id="c9f92-203">Average ratio of concealed audio samples to the total to the total number of samples.</span></span> <span data-ttu-id="c9f92-204">（隱藏的音訊取樣是用來平滑出通常會因首的網路封包突然轉換技術）。高的值可指出重大的層級套用的遺失隱藏聲音因封包遺失及抖動，導致扭曲或遺失音訊。</span><span class="sxs-lookup"><span data-stu-id="c9f92-204">(A concealed audio sample is a technique used to smooth out the abrupt transition that would usually be caused by dropped network packets.) High values indicate significant levels of loss concealment applied caused by packet loss or jitter, and results in distorted or lost audio.</span></span></p></td>
+<td><p><span data-ttu-id="b292f-201"><strong>修復隱藏比率</strong></span><span class="sxs-lookup"><span data-stu-id="b292f-201"><strong>Healer concealed ratio</strong></span></span></p></td>
+<td><p><span data-ttu-id="b292f-202">是</span><span class="sxs-lookup"><span data-stu-id="b292f-202">Yes</span></span></p></td>
+<td><p><span data-ttu-id="b292f-203">之隱藏樣本總數總計的音訊樣本的平均比率。</span><span class="sxs-lookup"><span data-stu-id="b292f-203">Average ratio of concealed audio samples to the total to the total number of samples.</span></span> <span data-ttu-id="b292f-204">（隱藏的音訊取樣是用來平滑出通常會因首的網路封包突然轉換技術）。高的值可指出重大的層級套用的遺失隱藏聲音因封包遺失及抖動，導致扭曲或遺失音訊。</span><span class="sxs-lookup"><span data-stu-id="b292f-204">(A concealed audio sample is a technique used to smooth out the abrupt transition that would usually be caused by dropped network packets.) High values indicate significant levels of loss concealment applied caused by packet loss or jitter, and results in distorted or lost audio.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="c9f92-205"><strong>修復延伸的比率</strong></span><span class="sxs-lookup"><span data-stu-id="c9f92-205"><strong>Healer stretched ratio</strong></span></span></p></td>
-<td><p><span data-ttu-id="c9f92-206">是</span><span class="sxs-lookup"><span data-stu-id="c9f92-206">Yes</span></span></p></td>
-<td><p><span data-ttu-id="c9f92-207">範例總數總計的延伸音訊樣本的平均比率。</span><span class="sxs-lookup"><span data-stu-id="c9f92-207">Average ratio of stretched audio samples to the total to the total number of samples.</span></span> <span data-ttu-id="c9f92-208">（延伸的音訊是已擴充為維持已偵測到的繞邊的網路封包時通話品質的音訊）。高的值可指出重大的層級的範例拉長因抖動，而導致音訊發音機械或扭曲。</span><span class="sxs-lookup"><span data-stu-id="c9f92-208">(Stretched audio is audio that has been expanded to help maintain call quality when a dropped network packet has been detected.) High values indicate significant levels of sample stretching caused by jitter, and result in audio sounding robotic or distorted.</span></span></p></td>
+<td><p><span data-ttu-id="b292f-205"><strong>修復延伸的比率</strong></span><span class="sxs-lookup"><span data-stu-id="b292f-205"><strong>Healer stretched ratio</strong></span></span></p></td>
+<td><p><span data-ttu-id="b292f-206">是</span><span class="sxs-lookup"><span data-stu-id="b292f-206">Yes</span></span></p></td>
+<td><p><span data-ttu-id="b292f-207">範例總數總計的延伸音訊樣本的平均比率。</span><span class="sxs-lookup"><span data-stu-id="b292f-207">Average ratio of stretched audio samples to the total to the total number of samples.</span></span> <span data-ttu-id="b292f-208">（延伸的音訊是已擴充為維持已偵測到的繞邊的網路封包時通話品質的音訊）。高的值可指出重大的層級的範例拉長因抖動，而導致音訊發音機械或扭曲。</span><span class="sxs-lookup"><span data-stu-id="b292f-208">(Stretched audio is audio that has been expanded to help maintain call quality when a dropped network packet has been detected.) High values indicate significant levels of sample stretching caused by jitter, and result in audio sounding robotic or distorted.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="c9f92-209"><strong>修復壓縮的比率</strong></span><span class="sxs-lookup"><span data-stu-id="c9f92-209"><strong>Healer compressed ratio</strong></span></span></p></td>
-<td><p><span data-ttu-id="c9f92-210">是</span><span class="sxs-lookup"><span data-stu-id="c9f92-210">Yes</span></span></p></td>
-<td><p><span data-ttu-id="c9f92-211">範例總數的壓縮音訊樣本的平均比率。</span><span class="sxs-lookup"><span data-stu-id="c9f92-211">Average ratio of compressed audio samples to the total number of samples.</span></span> <span data-ttu-id="c9f92-212">（壓縮的音訊是已壓縮，並維持已偵測到的繞邊的網路封包時通話品質的音訊）。高的值可指出重大的層級的範例壓縮因抖動，而導致音訊發音加速或失真。</span><span class="sxs-lookup"><span data-stu-id="c9f92-212">(Compressed audio is audio that has been compressed to help maintain call quality when a dropped network packet has been detected.) High values indicate significant levels of sample compression caused by jitter, and result in audio sounding accelerated or distorted.</span></span></p></td>
+<td><p><span data-ttu-id="b292f-209"><strong>修復壓縮的比率</strong></span><span class="sxs-lookup"><span data-stu-id="b292f-209"><strong>Healer compressed ratio</strong></span></span></p></td>
+<td><p><span data-ttu-id="b292f-210">是</span><span class="sxs-lookup"><span data-stu-id="b292f-210">Yes</span></span></p></td>
+<td><p><span data-ttu-id="b292f-211">範例總數的壓縮音訊樣本的平均比率。</span><span class="sxs-lookup"><span data-stu-id="b292f-211">Average ratio of compressed audio samples to the total number of samples.</span></span> <span data-ttu-id="b292f-212">（壓縮的音訊是已壓縮，並維持已偵測到的繞邊的網路封包時通話品質的音訊）。高的值可指出重大的層級的範例壓縮因抖動，而導致音訊發音加速或失真。</span><span class="sxs-lookup"><span data-stu-id="b292f-212">(Compressed audio is audio that has been compressed to help maintain call quality when a dropped network packet has been detected.) High values indicate significant levels of sample compression caused by jitter, and result in audio sounding accelerated or distorted.</span></span></p></td>
 </tr>
 </tbody>
 </table>
