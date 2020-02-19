@@ -12,18 +12,18 @@ ms:contentKeyID: 63969640
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 65f50a5b78c92b82ec4a17711add8744bb2313d6
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: cdb34ef5e000456f787c2a62bc61a4667a1459e3
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006229"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42136300"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="emergency-procedures-in-lync-server-2013"></a>Lync Server 2013 中的緊急程序
 
@@ -37,7 +37,7 @@ ms.locfileid: "42006229"
 
 _**上次修改主題：** 2014年-08-18_
 
-緊急程序是先前所討論的標準程序以外的隨選程序，而應該使用變更管理功能由處理 （請參閱 「 變更 」 管理模型 」 函式上描述[MOF](http://go.microsoft.com/fwlink/p/?linkid=40939) ）。 這些程序通常與下列其中一項：
+緊急程序是先前所討論的標準程序以外的隨選程序，而應該使用變更管理功能由處理 （請參閱 「 變更 」 管理模型 」 函式上描述[MOF](https://go.microsoft.com/fwlink/p/?linkid=40939) ）。 這些程序通常與下列其中一項：
 
   - 實作變更疑難排解投入比一部分--若要解決已識別的系統問題。
 
@@ -52,7 +52,7 @@ _**上次修改主題：** 2014年-08-18_
 ## <a name="see-also"></a>另請參閱
 
 
-[Microsoft Operations Framework 4.0](http://go.microsoft.com/fwlink/p/?linkid=40939)  
+[Microsoft Operations Framework 4.0](https://go.microsoft.com/fwlink/p/?linkid=40939)  
   
 
 </div>

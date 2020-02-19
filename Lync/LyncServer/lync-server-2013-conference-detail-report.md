@@ -12,18 +12,18 @@ ms:contentKeyID: 48183565
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dce868d90d2811b36a4f11c159b4e7d9d29b5ffa
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: e51dc2a6834241e355f4a681e4b4d55ef95438fb
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42007882"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42136440"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="conference-detail-report-in-lync-server-2013"></a>Lync Server 2013 中的會議詳細資料報告
 
@@ -79,7 +79,7 @@ _**主題上次修改日期：** 2012年-10-22_
 </colgroup>
 <thead>
 <tr class="header">
-<th>姓名</th>
+<th>名稱</th>
 <th>可以排序這個項目嗎？</th>
 <th>描述</th>
 </tr>
@@ -127,7 +127,7 @@ _**主題上次修改日期：** 2012年-10-22_
 </colgroup>
 <thead>
 <tr class="header">
-<th>姓名</th>
+<th>名稱</th>
 <th>可以排序這個項目嗎？</th>
 <th>描述</th>
 </tr>
@@ -139,7 +139,7 @@ _**主題上次修改日期：** 2012年-10-22_
 <td><p>參與會議之使用者的 SIP 位址。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Role</strong></p></td>
+<td><p><strong>角色</strong></p></td>
 <td></td>
 <td><p>會議參與者所扮演的角色 (例如，簡報者)。</p></td>
 </tr>
@@ -184,7 +184,7 @@ _**主題上次修改日期：** 2012年-10-22_
 </colgroup>
 <thead>
 <tr class="header">
-<th>姓名</th>
+<th>名稱</th>
 <th>可以排序這個項目嗎？</th>
 <th>描述</th>
 </tr>

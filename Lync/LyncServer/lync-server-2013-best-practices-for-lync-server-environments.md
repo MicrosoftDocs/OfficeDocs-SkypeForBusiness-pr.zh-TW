@@ -12,18 +12,18 @@ ms:contentKeyID: 63969642
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d02d9ed669cf9404b1bf8d07db32c9d331769ec9
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 8c31d39ae7537fc53fc4e72c8b1c57863b2ba189
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42041112"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42140606"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="best-practices-for-lync-server-2013-environments"></a>Lync Server 2013 環境的最佳作法
 
@@ -39,7 +39,7 @@ _**上次修改主題：** 2014年-08-04_
 
 下列的一般原則應套用至系統的進行中作業：
 
-  - **了解，並利用 MOF**   MOF 是一群最佳作法、 原則和模型，提供組織有關管理 IT 資產，例如每日的 Lync Server 2013 操作的技術指導。 遵循 MOF 指導方針，可協助您達成重要生產系統的可靠性、 可用性、 支援性和 Microsoft 產品的管理性。 如需詳細資訊，請參閱[Microsoft Operations Framework 4.0](http://go.microsoft.com/fwlink/p/?linkid=40939)。
+  - **了解，並利用 MOF**   MOF 是一群最佳作法、 原則和模型，提供組織有關管理 IT 資產，例如每日的 Lync Server 2013 操作的技術指導。 遵循 MOF 指導方針，可協助您達成重要生產系統的可靠性、 可用性、 支援性和 Microsoft 產品的管理性。 如需詳細資訊，請參閱[Microsoft Operations Framework 4.0](https://go.microsoft.com/fwlink/p/?linkid=40939)。
 
   - **了解 Lync Server 2013 的最佳做法**   我們建議您實作實用及證實程序來管理 Lync Server 2013。 藉由使用企圖，可能會比自行開發方法更有效率的管理作業的測試，並記錄方法。
 
@@ -104,7 +104,7 @@ Lync 系統管理員的一般工作包括：
 ## <a name="see-also"></a>另請參閱
 
 
-[Microsoft Operations Framework 4.0](http://go.microsoft.com/fwlink/p/?linkid=40939)  
+[Microsoft Operations Framework 4.0](https://go.microsoft.com/fwlink/p/?linkid=40939)  
   
 
 </div>

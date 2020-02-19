@@ -12,18 +12,18 @@ ms:contentKeyID: 51541522
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f57dd0158f4a9b6c798d1b968353e5f84b55d46e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 033f3a12ccbe0817f586aa7eb868679fa44541fd
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42046106"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42140956"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="understanding-autodiscover-in-lync-server-2013"></a>了解在 Lync Server 2013 中的自動探索
 
@@ -59,7 +59,7 @@ Lync Server 2013 自動探索服務是一種功能，原本 Microsoft Lync Serve
 
 
 > [!NOTE]  
-> <STRONG>開放規格</STRONG>] 區段中的<STRONG>Microsoft Developer Network</STRONG> (MSDN) 程式庫中的<STRONG>Microsoft Office 通訊協定</STRONG>中定義 Lync 自動探索 Web 服務。 如需詳細資訊，請參閱完整規格文件中，「 Lync 自動探索 Web 服務通訊協定，「: <A href="http://go.microsoft.com/fwlink/?linkid=273839">http://go.microsoft.com/fwlink/?LinkId=273839</A>。 如需驗證的詳細資訊，請參閱 「 OC 驗證 Web 服務通訊協定" <A href="http://go.microsoft.com/fwlink/?linkid=279015">http://go.microsoft.com/fwlink/?LinkId=279015</A>。
+> <STRONG>開放規格</STRONG>] 區段中的<STRONG>Microsoft Developer Network</STRONG> (MSDN) 程式庫中的<STRONG>Microsoft Office 通訊協定</STRONG>中定義 Lync 自動探索 Web 服務。 如需詳細資訊，請參閱完整規格文件中，「 Lync 自動探索 Web 服務通訊協定，「: <A href="https://go.microsoft.com/fwlink/?linkid=273839">https://go.microsoft.com/fwlink/?LinkId=273839</A>。 如需驗證的詳細資訊，請參閱 「 OC 驗證 Web 服務通訊協定" <A href="https://go.microsoft.com/fwlink/?linkid=279015">https://go.microsoft.com/fwlink/?LinkId=279015</A>。
 
 
 

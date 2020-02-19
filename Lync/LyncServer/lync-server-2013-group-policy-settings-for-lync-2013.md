@@ -12,18 +12,18 @@ ms:contentKeyID: 48184235
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ba88fdce88280597e9e621c13267de2b9b76d0fb
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 8cae5fdb813f7f58889dd1305b117f0e07ff294e
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030356"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42140276"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="group-policy-settings-for-lync-2013"></a>Lync 2013 的群組原則設定
 
@@ -37,7 +37,7 @@ ms.locfileid: "42030356"
 
 _**主題上次修改日期：** 2012年-10-03_
 
-在舊版的 Lync 及 Office Communicator，獨立的 Communicator.adm 系統管理範本是適用於設定用戶端的群組原則設定。 Lync 2013 的新系統管理範本檔案 （.admx 和.adml 檔案） 會包含以及 Office 群組原則系統管理範本。 Lync 2013.admx 和.adml 檔案的可用性可讓您下載範本，並集中管理所有 Office 程式及語言套件的群組原則設定。 如需詳細資訊，請參閱 「 Office 2013 Administrative Template files （ADMX，ADML） 」 中的 Office 2013 文件<http://go.microsoft.com/fwlink/p/?linkid=267516>。
+在舊版的 Lync 及 Office Communicator，獨立的 Communicator.adm 系統管理範本是適用於設定用戶端的群組原則設定。 Lync 2013 的新系統管理範本檔案 （.admx 和.adml 檔案） 會包含以及 Office 群組原則系統管理範本。 Lync 2013.admx 和.adml 檔案的可用性可讓您下載範本，並集中管理所有 Office 程式及語言套件的群組原則設定。 如需詳細資訊，請參閱 「 Office 2013 Administrative Template files （ADMX，ADML） 」 中的 Office 2013 文件<https://go.microsoft.com/fwlink/p/?linkid=267516>。
 
 <div>
 

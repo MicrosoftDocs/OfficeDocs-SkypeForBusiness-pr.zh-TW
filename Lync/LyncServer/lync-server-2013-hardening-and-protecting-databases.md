@@ -12,18 +12,18 @@ ms:contentKeyID: 62625490
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6e1ef045253f6733ea3356baa6254a6c90926762
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f222e92da686792a48ccceeaf1686d96f0406e50
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006209"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42140256"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="hardening-and-protecting-the-databases-of-lync-server-2013"></a>增強及保護 Lync Server 2013 的資料庫
 
@@ -80,7 +80,7 @@ Microsoft Lync Server 2013 也取決於用來儲存使用者資訊、 會議狀�
 
 </div>
 
-如需自訂設定及強化 SQL Server 資料庫的詳細資訊，請參閱 NextHop 部落格文章，「 使用 Lync Server 2010 搭配自訂 SQL Server 網路組態，「 在[http://go.microsoft.com/fwlink/p/?LinkId=214008](http://go.microsoft.com/fwlink/p/?linkid=214008)。
+如需自訂設定及強化 SQL Server 資料庫的詳細資訊，請參閱 NextHop 部落格文章，「 使用 Lync Server 2010 搭配自訂 SQL Server 網路組態，「 在[https://go.microsoft.com/fwlink/p/?LinkId=214008](https://go.microsoft.com/fwlink/p/?linkid=214008)。
 
 <div>
 

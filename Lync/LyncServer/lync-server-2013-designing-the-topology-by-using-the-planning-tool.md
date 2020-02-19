@@ -12,18 +12,18 @@ ms:contentKeyID: 51541454
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bca2871acdaf67e318e7e402d78f34748de4b722
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 848ff87194d6a8a6c6cf23b42fcab4d05e41942d
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42051517"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42137051"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="designing-the-topology-for-lync-server-2013-by-using-the-planning-tool"></a>使用規劃工具設計 Lync Server 2013 的拓撲
 
@@ -37,7 +37,7 @@ ms.locfileid: "42051517"
 
 _**上次修改主題：** 2013年-03-04_
 
-Microsoft Lync Server 2013、 規劃工具是的精靈驅動，詢問您所設計的 Lync Server 2013 拓撲的相關問題的採訪類似的工具。 提供資訊，請規劃工具使用搭配慣用的拓撲設計和容量，以呈現提供的答案為基礎的建議的拓撲的作法。 您可以從 Microsoft 下載中心下載規劃工具 ([http://go.microsoft.com/fwlink/?LinkID=282725](http://go.microsoft.com/fwlink/?linkid=282725))。
+Microsoft Lync Server 2013、 規劃工具是的精靈驅動，詢問您所設計的 Lync Server 2013 拓撲的相關問題的採訪類似的工具。 提供資訊，請規劃工具使用搭配慣用的拓撲設計和容量，以呈現提供的答案為基礎的建議的拓撲的作法。 您可以從 Microsoft 下載中心下載規劃工具 ([https://go.microsoft.com/fwlink/?LinkID=282725](https://go.microsoft.com/fwlink/?linkid=282725))。
 
 最後，規劃工具的目標是為了簡化潛在的設計完整的 Lync Server 2013 拓撲複雜性。 此工具也會提供其規劃與部署文件的關聯式參考，只要有網際網路連線可連接至 Microsoft TechNet 網站即可。
 

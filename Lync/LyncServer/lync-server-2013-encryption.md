@@ -12,18 +12,18 @@ ms:contentKeyID: 59893874
 ms.date: 09/14/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5cc25c66ce807e796cf7e510d89a5a623f98eb49
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: ac24736d55b59396e9c04041b4356c0983154c71
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42042240"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42137482"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="encryption-for-lync-server-2013"></a>Lync Server 2013 的加密
 
@@ -141,7 +141,7 @@ Microsoft Lync Server 2013 使用 TLS 和 MTLS 加密立即訊息。 伺服器�
 
 ## <a name="fips"></a>FIPS
 
-Lync Server 2013 和 Microsoft Exchange Server 2013 操作與支援的聯邦資訊處理標準 (FIPS) 140-2 演算法如果 Windows Server 作業系統設定為使用 FIPS 140-2 演算法系統密碼編譯。 若要實作 FIPS 支援，您必須設定執行 Lync Server 2013 到支援它的每部伺服器。 如需使用 FIPS 相容演算法以及如何實作 FIPS 支援的詳細資訊，請參閱 Microsoft 知識庫文章 811833，啟用效果 」 系統密碼編譯： 使用 FIPS 相容演算法進行加密，雜湊，以及簽章 」 安全性設定和更新版本的 Windows，Windows XP 中[http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=811833](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=811833)。 如需 FIPS 140-2 支援和限制在 Exchange 2010 中，請參閱 Exchange 2010 SP1 和支援的 FIPS 相容演算法在[https://go.microsoft.com/fwlink/p/?LinkId=205335](https://go.microsoft.com/fwlink/p/?linkid=205335)。
+Lync Server 2013 和 Microsoft Exchange Server 2013 操作與支援的聯邦資訊處理標準 (FIPS) 140-2 演算法如果 Windows Server 作業系統設定為使用 FIPS 140-2 演算法系統密碼編譯。 若要實作 FIPS 支援，您必須設定執行 Lync Server 2013 到支援它的每部伺服器。 如需使用 FIPS 相容演算法以及如何實作 FIPS 支援的詳細資訊，請參閱 Microsoft 知識庫文章 811833，啟用效果 」 系統密碼編譯： 使用 FIPS 相容演算法進行加密，雜湊，以及簽章 」 安全性設定和更新版本的 Windows，Windows XP 中[https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=811833](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=811833)。 如需 FIPS 140-2 支援和限制在 Exchange 2010 中，請參閱 Exchange 2010 SP1 和支援的 FIPS 相容演算法在[https://go.microsoft.com/fwlink/p/?LinkId=205335](https://go.microsoft.com/fwlink/p/?linkid=205335)。
 
 </div>
 

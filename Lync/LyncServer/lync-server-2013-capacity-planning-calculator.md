@@ -12,18 +12,18 @@ ms:contentKeyID: 56280894
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ce5ece90e8db4240eaef00f39a827e6779663dcc
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 0caac7e07d83658fd1b39192a6d9792ae6b17c0e
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006359"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42137222"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="using-the-capacity-planning-calculator-for-lync-server-2013"></a>使用 Lync Server 2013 的容量規劃 [小算盤]
 
@@ -37,13 +37,13 @@ ms.locfileid: "42006359"
 
 _**上次修改主題：** 2013年-11-21_
 
-Microsoft® Lync™ Server 2013 容量規劃小算盤] 位於可供下載在<http://www.microsoft.com/download/details.aspx?id=36828>。 它被設計來協助您判斷伺服器的需求，根據使用者和組織已啟用的溝通形式的數字。 您輸入您的組織設定檔]，和 [小算盤] 提供的建議，協助您規劃您的拓撲。
+Microsoft® Lync™ Server 2013 容量規劃小算盤] 位於可供下載在<https://www.microsoft.com/download/details.aspx?id=36828>。 它被設計來協助您判斷伺服器的需求，根據使用者和組織已啟用的溝通形式的數字。 您輸入您的組織設定檔]，和 [小算盤] 提供的建議，協助您規劃您的拓撲。
 
-進行規劃時只是由 [小算盤] 所建立的建議。 實際的負載模擬，才能確保已適當地佈建 Lync Server 2013。 若要執行壓力測試模擬的負載下，使用[Lync Server 2013 壓力及效能工具](http://go.microsoft.com/fwlink/?linkid=282724)。
+進行規劃時只是由 [小算盤] 所建立的建議。 實際的負載模擬，才能確保已適當地佈建 Lync Server 2013。 若要執行壓力測試模擬的負載下，使用[Lync Server 2013 壓力及效能工具](https://go.microsoft.com/fwlink/?linkid=282724)。
 
 您已決定您的使用者設定檔，並且想要啟用您的使用者形式之後，就可以使用 [小算盤] 可規劃伺服器、 記憶體及您所需要的頻寬的數目。 此版本的計算機不提供指引磁碟 I/O 的需求。
 
-此計算機補充[Microsoft Lync Server](http://go.microsoft.com/fwlink/?linkid=282725)和[Microsoft Lync Server](lync-server-2013-planning.md)。 您已檢閱快顯功能表，並使用規劃工具所建立的建議的拓撲之後，請使用 [小算盤]。
+此計算機補充[Microsoft Lync Server](https://go.microsoft.com/fwlink/?linkid=282725)和[Microsoft Lync Server](lync-server-2013-planning.md)。 您已檢閱快顯功能表，並使用規劃工具所建立的建議的拓撲之後，請使用 [小算盤]。
 
 您可以享有最 [小算盤] 如果您有關於您的特定使用者設定檔的精確、 詳細資訊。 例如，已啟用語音的使用者，每位使用者每小時、 通話持續期間，並在會議中並行使用者的百分比的平均通話的百分比可以讓伺服器需求極大差異。 [小算盤] 所建立的建議的準確性取決於您所提供的資訊的正確性。
 

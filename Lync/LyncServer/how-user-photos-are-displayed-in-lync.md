@@ -12,18 +12,18 @@ ms:contentKeyID: 62835297
 ms.date: 08/27/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 91f0b3396bed8944f8ac0bd3f7f06178153e28db
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 097262cc3a4ba4b56cd023bc5174d881426deff2
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006379"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42137914"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="how-user-photos-are-displayed-in-lync"></a>在 Lync 使用者相片的顯示方式
 
@@ -93,11 +93,11 @@ Lync 2010 推出的功能包括與您要顯示給其他 Lync 使用者的 Lync �
 
 使用者無法變更其 Active Directory 網域服務的設定檔直接透過 Lync 2010 用戶端中使用的影像。 他們可以使用下列選項之一若要這麼做，如果有：
 
-  - **SharePoint Server**   使用者可以上傳相片與 ' 「 我的網站 」 上 SharePoint 伺服器，並接著[設定設定檔同步處理 sharepoint](http://go.microsoft.com/fwlink/p/?linkid=507466)同步處理 Active Directory 網域服務中的**thumbnailPhoto**屬性的相片。
+  - **SharePoint Server**   使用者可以上傳相片與 ' 「 我的網站 」 上 SharePoint 伺服器，並接著[設定設定檔同步處理 sharepoint](https://go.microsoft.com/fwlink/p/?linkid=507466)同步處理 Active Directory 網域服務中的**thumbnailPhoto**屬性的相片。
 
   - **可公開存取的 URL 上儲存的相片**   使用者可以設定指定的影像他們想要使用可公開存取 URL 其使用者相片。 影像必須是不需要密碼可公開存取。 儲存在指定的網址的影像會被轉接至其他使用者透過 [連絡人卡片] 類別中的目前狀態資訊。 當 Lync 用戶端需要顯示使用者相片時，它會從指定的網頁地址擷取映像。
 
-  - **Windows powershell 的 Exchange 2010 cmdlet**   系統管理員可以管理的**thumbnailPhoto**屬性中的 Exchange 2010 管理命令介面中執行[Import-recipientdataproperty](http://go.microsoft.com/fwlink/p/?linkid=507468)指令程式。 當影像匯入與 Exchange 2010 cmdlet 的檔案大小是限制為 10 KB。
+  - **Windows powershell 的 Exchange 2010 cmdlet**   系統管理員可以管理的**thumbnailPhoto**屬性中的 Exchange 2010 管理命令介面中執行[Import-recipientdataproperty](https://go.microsoft.com/fwlink/p/?linkid=507468)指令程式。 當影像匯入與 Exchange 2010 cmdlet 的檔案大小是限制為 10 KB。
 
   - **協力廠商工具**   使用者可以上傳僅限自己相片與**thumbnailPhoto**屬性。
 
@@ -113,7 +113,7 @@ Lync 2010 推出的功能包括與您要顯示給其他 Lync 使用者的 Lync �
 
 下面是使用影像網頁的地址的注意事項：
 
-  - 檔案大小限制會取決於**MaxPhotoSizeKB**屬性在用戶端原則中，使用[New-csclientpolicy](http://go.microsoft.com/fwlink/p/?linkid=507463)指令程式來定義。 預設的大小限制為 30 KB。 最大值為 100 KB。 在此映像的解析度沒有限制，但如果您嘗試使用映像檔超過大小限制，它將不會下載到 Lync 用戶端。 您可以設定此值為 0，即可停用 Lync 中使用的所有使用者相片。
+  - 檔案大小限制會取決於**MaxPhotoSizeKB**屬性在用戶端原則中，使用[New-csclientpolicy](https://go.microsoft.com/fwlink/p/?linkid=507463)指令程式來定義。 預設的大小限制為 30 KB。 最大值為 100 KB。 在此映像的解析度沒有限制，但如果您嘗試使用映像檔超過大小限制，它將不會下載到 Lync 用戶端。 您可以設定此值為 0，即可停用 Lync 中使用的所有使用者相片。
 
   - 外部同盟連絡人可以看到從網址的使用者相片。
 
@@ -123,7 +123,7 @@ Lync 2010 推出的功能包括與您要顯示給其他 Lync 使用者的 Lync �
 
 ## <a name="managing-users-photo-with-client-policy-cmdlets"></a>管理使用者的相片與用戶端原則指令程式
 
-在 Lync Server 2010 中，用戶端原則設定來設定 CsClientPolicy 指令程式。 設定的原則設定會傳送至用戶端透過頻內佈建。 決定使用者相片體驗 CsClientPolicy cmdlet 的兩個參數，而**DisplayPhoto** **MaxPhotoSizeKB**。 **DisplayPhoto**和**MaxPhotoSizeKB**對應的頻內佈建參數是名為**PhotoUsage**。 **PhotoUsage**參數的值是透過**endpointConfiguration** **provisionGroup**的用戶端傳送。 如需詳細資訊，請參閱[概觀的用戶端原則和設定](http://go.microsoft.com/fwlink/?linkid=507470)。
+在 Lync Server 2010 中，用戶端原則設定來設定 CsClientPolicy 指令程式。 設定的原則設定會傳送至用戶端透過頻內佈建。 決定使用者相片體驗 CsClientPolicy cmdlet 的兩個參數，而**DisplayPhoto** **MaxPhotoSizeKB**。 **DisplayPhoto**和**MaxPhotoSizeKB**對應的頻內佈建參數是名為**PhotoUsage**。 **PhotoUsage**參數的值是透過**endpointConfiguration** **provisionGroup**的用戶端傳送。 如需詳細資訊，請參閱[概觀的用戶端原則和設定](https://go.microsoft.com/fwlink/?linkid=507470)。
 
 **DisplayPhoto**參數值會決定使用者的相片影像的來源。 下列資料表中所含之支援的值。
 
@@ -175,7 +175,7 @@ Lync 2010 推出的功能包括與您要顯示給其他 Lync 使用者的 Lync �
 
 
 > [!NOTE]  
-> 因為相片不會儲存在 GalContacts.db 資料庫中，下載使用者相片不是取決於用戶端原則 (<A href="http://go.microsoft.com/fwlink/p/?linkid=507508">Set-csclientpolicy</A>) 中 [ <STRONG>AddressBookAvailability</STRONG>設定。
+> 因為相片不會儲存在 GalContacts.db 資料庫中，下載使用者相片不是取決於用戶端原則 (<A href="https://go.microsoft.com/fwlink/p/?linkid=507508">Set-csclientpolicy</A>) 中 [ <STRONG>AddressBookAvailability</STRONG>設定。
 
 
 
@@ -248,7 +248,7 @@ Lync 2013 引進了使用者相片高解析度影像的支援。 Lync 2013 還�
 
 ## <a name="show-a-picture-from-a-website"></a>顯示網站中的圖片
 
-**顯示從網站的圖片**] 選項可在 Lync 2013 後的用戶端原則設為啟用它。 用戶端版本必須比 15.0.4535.1002，則會以安裝更新[Lync 累計更新： 11 月 2013年](http://go.microsoft.com/fwlink/p/?linkid=509908)。 使用者可能需要登出，然後再重新中若要查看在用戶端的變更。
+**顯示從網站的圖片**] 選項可在 Lync 2013 後的用戶端原則設為啟用它。 用戶端版本必須比 15.0.4535.1002，則會以安裝更新[Lync 累計更新： 11 月 2013年](https://go.microsoft.com/fwlink/p/?linkid=509908)。 使用者可能需要登出，然後再重新中若要查看在用戶端的變更。
 
 您可以設定用戶端原則，以便**顯示從網站的圖片**設定 Lync Server 管理命令介面中執行的[Set-csclientpolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy)原則。 下列範例指令程式會示範如何部署中的所有使用者的全域設定的原則：
 

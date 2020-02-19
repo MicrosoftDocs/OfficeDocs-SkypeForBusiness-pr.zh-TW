@@ -12,18 +12,18 @@ ms:contentKeyID: 48185888
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bc92cc4c27f7af395a8e41bec26679a27010562d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 8efd91c3222e5918640c4a8b078d9fdd5ebcdaae
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42037865"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42136180"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="iis-requirements-for-front-end-pools-and-standard-edition-servers-in-lync-server-2013"></a>前端集區和 Standard Edition server 在 Lync Server 2013 中的 IIS 需求
 
@@ -70,7 +70,7 @@ Lync 伺服器上需要安裝下列 IIS 模組：
 
 
 > [!IMPORTANT]
-> 如果貴組織需要在非系統磁碟機的磁碟機上尋找 IIS 和所有 Web 服務，您可以變更設定] 對話方塊中的 Lync Server 檔案的安裝位置路徑。 如果您將安裝檔案安裝到此路徑，包括 OCSCore.msi，Lync Server 檔案的其餘部分將會部署至這個磁碟機。 如需如何重新放置部署 Windows Server 管理員安裝 IIS 時 INETPUB 的詳細資訊，請參閱<A href="http://go.microsoft.com/fwlink/p/?linkid=216888">http://go.microsoft.com/fwlink/p/?linkId=216888</A>。
+> 如果貴組織需要在非系統磁碟機的磁碟機上尋找 IIS 和所有 Web 服務，您可以變更設定] 對話方塊中的 Lync Server 檔案的安裝位置路徑。 如果您將安裝檔案安裝到此路徑，包括 OCSCore.msi，Lync Server 檔案的其餘部分將會部署至這個磁碟機。 如需如何重新放置部署 Windows Server 管理員安裝 IIS 時 INETPUB 的詳細資訊，請參閱<A href="https://go.microsoft.com/fwlink/p/?linkid=216888">https://go.microsoft.com/fwlink/p/?linkId=216888</A>。
 
 
   - 靜態內容

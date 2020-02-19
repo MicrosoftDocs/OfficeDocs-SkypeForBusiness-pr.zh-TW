@@ -12,18 +12,18 @@ ms:contentKeyID: 48185880
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fa5eb18418ad860452a51667fdf1550e948a1155
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 1e5e9c4e4e4a1e77f3ca7badc0a4549cb04cee94
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42036845"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42139846"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="planning-for-exchange-unified-messaging-integration-in-lync-server-2013"></a>規劃 Lync Server 2013 中的 Exchange Unified Messaging 整合
 
@@ -41,7 +41,7 @@ Lync Server 2013 支援整合與 Exchange 整合通訊 (UM) 來合併語音訊�
 
 在 Microsoft Exchange Server 2013 中，Exchange UM 以服務方式執行 Exchange 信箱伺服器上。 Lync Server 2013 Enterprise Voice 部署整合通訊結合語音訊息與電子郵件訊息到可以從電話 （Outlook 語音存取） 或電腦的單一儲存區。 整合通訊與 Lync Server 2013 一起運作的企業語音使用者提供來電接聽、 Outlook 語音存取和自動語音應答服務。
 
-Microsoft Exchange Server 2013 中之架構變更的詳細資訊，請參閱 「 語音基礎架構改變 >，在 Microsoft Exchange Server 2013 文件中[http://go.microsoft.com/fwlink/p/?LinkId=266730](http://go.microsoft.com/fwlink/p/?linkid=266730)。
+Microsoft Exchange Server 2013 中之架構變更的詳細資訊，請參閱 「 語音基礎架構改變 >，在 Microsoft Exchange Server 2013 文件中[https://go.microsoft.com/fwlink/p/?LinkId=266730](https://go.microsoft.com/fwlink/p/?linkid=266730)。
 
 若要在內部部署 Exchange UM 部署中支援這些功能，您必須執行下列其中一項：
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 54973683
 ms.date: 04/06/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ba76bbc896c1da2929a584611af0607a51d5afcc
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: b973a1eeb704788eb07e02afc502ac4bbe41544c
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050245"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42139274"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="planning-for-two-factor-authentication-in-lync-server-2013"></a>規劃 Lync Server 2013 中的雙因素驗證
 
@@ -192,7 +192,7 @@ HKEY\_目前\_使用者\\軟體\\Microsoft\\Office\\15.0\\Lync
 
 AD FS 2.0 提供稱為權杖重新執行偵測，依據多個語彙基元的要求使用相同語彙基元可以偵測，然後捨棄的功能。 啟用此功能時，權杖重新執行偵測會用來保護 WS-同盟被動式設定檔和 SAML WebSSO 設定檔中的驗證要求的完整性並確定相同語彙基元永遠不會使用一次以上。
 
-應啟用此功能，在其中安全性是非常高的考量如下的情況下使用 kiosk 時。 權杖重新執行偵測的詳細資訊，請參閱最佳做法，Secure 規劃及部署的 AD FS 2.0 在[http://go.microsoft.com/fwlink/p/?LinkId=309215](http://go.microsoft.com/fwlink/p/?linkid=309215)。
+應啟用此功能，在其中安全性是非常高的考量如下的情況下使用 kiosk 時。 權杖重新執行偵測的詳細資訊，請參閱最佳做法，Secure 規劃及部署的 AD FS 2.0 在[https://go.microsoft.com/fwlink/p/?LinkId=309215](https://go.microsoft.com/fwlink/p/?linkid=309215)。
 
 </div>
 

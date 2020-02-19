@@ -12,18 +12,18 @@ ms:contentKeyID: 49733780
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3163bb6298bef570a68f2fcfd7dec66167549b21
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: bda72dbe9745ca49d90e28824ea11371fbc2c680
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029724"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42136721"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="view-information-about-individual-sip-trunks-in-lync-server-2013"></a>檢視 Lync Server 2013 中的個別 SIP 主幹的相關資訊
 
@@ -41,7 +41,7 @@ SIP 主幹用來連線 Lync Server 2013 Voice over IP 電話網路與公用交�
 
 在 Lync Server 2013 中，不過，多個主幹可以現在是已指派給單一的 PSTN 閘道;這表示閘道和主幹不再是同一個。 接著，這表示系統管理員必須使用新的[Get-cstrunk](https://docs.microsoft.com/powershell/module/skype/Get-CsTrunk) cmdlet 以檢視個別 SIP 主幹的資訊。
 
-可以執行 Get-cstrunk cmdlet，從 Lync Server 2013 管理命令介面或 Windows PowerShell 的遠端工作階段。 如需使用遠端 Windows PowerShell 連線至 Lync Server 的詳細資訊，請參閱 Lync Server Windows PowerShell 部落格文章 「 快速開始:: 管理 Microsoft Lync Server 2010 使用遠端 PowerShell 」 在[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。
+可以執行 Get-cstrunk cmdlet，從 Lync Server 2013 管理命令介面或 Windows PowerShell 的遠端工作階段。 如需使用遠端 Windows PowerShell 連線至 Lync Server 的詳細資訊，請參閱 Lync Server Windows PowerShell 部落格文章 「 快速開始:: 管理 Microsoft Lync Server 2010 使用遠端 PowerShell 」 在[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)。
 
 <div>
 

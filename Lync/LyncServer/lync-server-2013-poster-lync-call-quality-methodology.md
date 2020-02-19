@@ -12,18 +12,18 @@ ms:contentKeyID: 61084874
 ms.date: 06/24/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 849e74fb4857dd7b3ab98b8a8efd9c3ce3781e35
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: e35627633839f294cebced6df47a90919e7fc5ef
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42043035"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42139154"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="lync-call-quality-methodology-in-lync-server-2013"></a>Lync Server 2013 中的 Lync 通話品質方法
 
@@ -37,7 +37,7 @@ ms.locfileid: "42043035"
 
 _**主題上次修改日期：** 2016年-06-24_
 
-本文是隨附的[Lync 通話品質方法](http://go.microsoft.com/fwlink/?linkid=391841)海報，您可以從下載中心下載。
+本文是隨附的[Lync 通話品質方法](https://go.microsoft.com/fwlink/?linkid=391841)海報，您可以從下載中心下載。
 
 ![海報中描述的 CQM 程序](images/Dn594589.d239e04a-1c3b-4f0e-93af-88b85198615a(OCS.15).jpg "海報中描述的 CQM 程序")
 
@@ -71,7 +71,7 @@ _**主題上次修改日期：** 2016年-06-24_
 
 ## <a name="what-is-lync-cqm"></a>Lync CQM 是什麼？
 
-通話品質方法就是新的疑難排解更妥善地可以專注於改善 Lync 中的企業語音服務的服務管理架構。 當您使用 CQM 時，需要更輕鬆的方式就能保證通話品質及提升使用者滿意度，適用於企業語音服務。 [通話品質方法](http://go.microsoft.com/fwlink/p/?linkid=615208)會詳細說明 CQM。 這篇文章和海報是該內容的摘要。
+通話品質方法就是新的疑難排解更妥善地可以專注於改善 Lync 中的企業語音服務的服務管理架構。 當您使用 CQM 時，需要更輕鬆的方式就能保證通話品質及提升使用者滿意度，適用於企業語音服務。 [通話品質方法](https://go.microsoft.com/fwlink/p/?linkid=615208)會詳細說明 CQM。 這篇文章和海報是該內容的摘要。
 
 CQM 細分系統疑難排解到三個路徑或 「 通道 」。 這些是： 伺服器廠隨身攜帶，它看來伺服器和、 結束點隨身攜帶，查看使用者裝置和媒體用來執行通話，以及上次哩隨身攜帶，地址整合的傳統交換的電話網路之間的連結。
 
@@ -204,9 +204,9 @@ Lync Server 部署和網路基礎結構通常可分成 managed 和 unmanaged 空
 ## <a name="see-also"></a>另請參閱
 
 
-[Lync Server 網路指南](http://go.microsoft.com/fwlink/p/?linkid=390677)  
-[維護狀況良好的 Lync 伺服器 Foundation 主要的健康狀態指標：](http://go.microsoft.com/fwlink/?linkid=391838)  
-[Lync 通話品質方法](http://go.microsoft.com/fwlink/?linkid=391841)  
+[Lync Server 網路指南](https://go.microsoft.com/fwlink/p/?linkid=390677)  
+[維護狀況良好的 Lync 伺服器 Foundation 主要的健康狀態指標：](https://go.microsoft.com/fwlink/?linkid=391838)  
+[Lync 通話品質方法](https://go.microsoft.com/fwlink/?linkid=391841)  
   
 
 </div>

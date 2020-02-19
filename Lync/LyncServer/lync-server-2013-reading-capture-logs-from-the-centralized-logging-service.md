@@ -12,18 +12,18 @@ ms:contentKeyID: 49733813
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d5abf7b2f6962dbf38f90f52ff82c54b035d9aa0
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: ebb1ec3ebde4f1277d6304190aceafa2e0fe2884
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050175"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42138874"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="reading-capture-logs-from-the-centralized-logging-service-in-lync-server-2013"></a>讀取 the Centralized Logging Service Lync Server 2013 中擷取記錄
 
@@ -43,7 +43,7 @@ _**主題上次修改日期：** 2016年-12 月 28 日_
 
 
 > [!IMPORTANT]  
-> 本主題的目的並不是詳細資料，並討論疑難排解技巧。 疑難排解和其周圍的處理程序是複雜的主旨。 如需疑難排解基礎和疑難排解特定工作負載的詳細資訊，請參閱 Microsoft Lync Server 2010 Resource Kit 活頁簿在<A href="http://go.microsoft.com/fwlink/p/?linkid=211003">https://go.microsoft.com/fwlink/p/?linkId=211003</A>。 與程序仍然適用於 Lync Server 2013。
+> 本主題的目的並不是詳細資料，並討論疑難排解技巧。 疑難排解和其周圍的處理程序是複雜的主旨。 如需疑難排解基礎和疑難排解特定工作負載的詳細資訊，請參閱 Microsoft Lync Server 2010 Resource Kit 活頁簿在<A href="https://go.microsoft.com/fwlink/p/?linkid=211003">https://go.microsoft.com/fwlink/p/?linkId=211003</A>。 與程序仍然適用於 Lync Server 2013。
 
 
 

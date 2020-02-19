@@ -12,18 +12,18 @@ ms:contentKeyID: 48185650
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 39ce5e70214f48aa9384a73b5138a789c29bc5c9
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: b70d1cf91978fd087e13a4244bc73a2101360315
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42042160"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42137442"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="enhanced-9-1-1-cmdlets-in-lync-server-2013"></a>增強型 9-1-1 Lync Server 2013 中的 cmdlet
 
@@ -191,7 +191,7 @@ Microsoft Lync Server 2013 隨附 cmdlet 可讓您實作和管理企業語音解
 ## <a name="see-also"></a>另請參閱
 
 
-[Lync Server PowerShell 部落格](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+[Lync Server PowerShell 部落格](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

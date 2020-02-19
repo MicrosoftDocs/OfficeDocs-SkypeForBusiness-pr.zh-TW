@@ -12,18 +12,18 @@ ms:contentKeyID: 48184145
 ms.date: 07/28/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 87ad05798dab0f324a44a4c41807e8acb6105927
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 07e670dc0871490e513023d3276ad80126be173b
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42038075"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141046"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="troubleshooting-lync-server-2013-control-panel"></a>疑難排解 Lync Server 2013 控制台
 
@@ -55,7 +55,7 @@ Lync Server 控制台需要已安裝 Microsoft Silverlight 瀏覽器外掛程式
 
 </div>
 
-如果您網際網路瀏覽器封鎖安裝 Silverlight 因安全性考量而新增統一資源定位器 (URL)，會開啟 Lync Server Control Panel 的信任網站清單。 在 Internet Explorer 安全性設定中，確定 [執行 ActiveX 控制項及外掛程式]**** 設為 [已啟用]****。 如需詳細資訊，請參閱[http://go.microsoft.com/fwlink/p/?linkId=214060](http://go.microsoft.com/fwlink/p/?linkid=214060)。 此外，請確定瀏覽器設定為使用 SSL 3.0。
+如果您網際網路瀏覽器封鎖安裝 Silverlight 因安全性考量而新增統一資源定位器 (URL)，會開啟 Lync Server Control Panel 的信任網站清單。 在 Internet Explorer 安全性設定中，確定 [執行 ActiveX 控制項及外掛程式]**** 設為 [已啟用]****。 如需詳細資訊，請參閱[https://go.microsoft.com/fwlink/p/?linkId=214060](https://go.microsoft.com/fwlink/p/?linkid=214060)。 此外，請確定瀏覽器設定為使用 SSL 3.0。
 
 如果網際網路瀏覽器設定為使用 Proxy 伺服器，請確認瀏覽器針對自動偵測為內部站台的站台，設定為略過 Proxy 伺服器。或者，在 Proxy 伺服器組態設定中，將位址新增至瀏覽器的例外清單。
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 63969585
 ms.date: 05/18/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d6f052aceb6678d87c99fc287b69752d0ed761a5
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: d4923ed94cba19136558c2f7336bfdc527fda000
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42036453"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141066"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="troubleshooting-and-key-health-indicators-in-lync-server-2013"></a>Lync Server 2013 中疑難排解和重要的健康狀態指標
 
@@ -41,9 +41,9 @@ _**主題上次修改日期：** 2015年-05-18_
 
 ## <a name="in-this-section"></a>本章節內容
 
-若要符合參考架構 Sla 和，以確保順利轉移到我們支援小組，必須定義常用的疑難排解方法搭配組必要的疑難排解工具和 Lync Server[網路指南](http://go.microsoft.com/fwlink/p/?linkid=390677)中所定義的方式。
+若要符合參考架構 Sla 和，以確保順利轉移到我們支援小組，必須定義常用的疑難排解方法搭配組必要的疑難排解工具和 Lync Server[網路指南](https://go.microsoft.com/fwlink/p/?linkid=390677)中所定義的方式。
 
-我們強烈建議 System Center Operations Manager 用來監視 Lync Server 2013 系統的狀況。 此外，請參閱 KHIs[網路指南](http://go.microsoft.com/fwlink/p/?linkid=390677)Lync Server 2013 和使用 Excel 試算表中與 Lync 2013 的討論。
+我們強烈建議 System Center Operations Manager 用來監視 Lync Server 2013 系統的狀況。 此外，請參閱 KHIs[網路指南](https://go.microsoft.com/fwlink/p/?linkid=390677)Lync Server 2013 和使用 Excel 試算表中與 Lync 2013 的討論。
 
 </div>
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 48184220
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 337e85520cb2a285f4e4743837aafa4136c89f27
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 59b6d6854c628a7f1077c0954d84ea9d82c4f715
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035315"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42137142"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="deployment-process-for-mobility-in-lync-server-2013"></a>Lync Server 2013 中的行動性部署程序
 
@@ -87,7 +87,7 @@ _**上次修改主題：** 2013年-02-19_
 <li><p>重新網頁發行規則設定為外部自動探索服務 URL。</p></li>
 <li><p>請務必 web 發行規則存在外部 Lync Server 2013 Web 服務 URL 的前端集區上。</p></li>
 </ul>
-<p>或</p>
+<p>或者</p>
 <ul>
 <li><p>如果您選擇使用 HTTP 來進行初始自動探索要求，並不會進行更新憑證上的主體替代名稱清單，設定新的 web 發行規則，或重新設定現有的發佈規則，在連接埠 80 HTTP。</p></li>
 </ul></td>

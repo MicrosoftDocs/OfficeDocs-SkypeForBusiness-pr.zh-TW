@@ -12,18 +12,18 @@ ms:contentKeyID: 49733821
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a1fe360726c94062391a4559f73a375d68b5f384
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: a1430ab1cc00b29ed834ff078cbe70a1265a2162
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42042070"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42137342"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="errorreport-view-in-lync-server-2013"></a>Lync Server 2013 中的 ErrorReport 檢視
 
@@ -148,7 +148,7 @@ ErrorReport 檢視儲存錯誤報告的資訊。 每一筆記錄就是一個錯�
 <td><p>錯誤源自 （如果報告從伺服器元件傳送） 的伺服器名稱。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Application</strong></p></td>
+<td><p><strong>應用程式</strong></p></td>
 <td><p>nvarchar(256)</p></td>
 <td><p>錯誤源自 （如果報告從伺服器元件傳送） 的應用程式的名稱。</p></td>
 </tr>
