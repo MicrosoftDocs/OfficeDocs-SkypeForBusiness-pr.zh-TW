@@ -12,20 +12,20 @@ ms:contentKeyID: 48184789
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 112a21dbb131e0bd34729584b8fb58399b192f70
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 0ebd3da761fe9923f05c2ddd5dfced852b4b27e6
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42044485"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42134239"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="call-diagnostic-summary-report-in-lync-server-2013"></a><span data-ttu-id="92438-102">Lync Server 2013 中通話診斷摘要報告</span><span class="sxs-lookup"><span data-stu-id="92438-102">Call Diagnostic Summary Report in Lync Server 2013</span></span>
+# <a name="call-diagnostic-summary-report-in-lync-server-2013"></a><span data-ttu-id="d70a3-102">Lync Server 2013 中通話診斷摘要報告</span><span class="sxs-lookup"><span data-stu-id="d70a3-102">Call Diagnostic Summary Report in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,51 +35,51 @@ ms.locfileid: "42044485"
 
 <span> </span>
 
-<span data-ttu-id="92438-103">_**主題上次修改日期：** 2012年-06-06_</span><span class="sxs-lookup"><span data-stu-id="92438-103">_**Topic Last Modified:** 2012-06-06_</span></span>
+<span data-ttu-id="d70a3-103">_**主題上次修改日期：** 2012年-06-06_</span><span class="sxs-lookup"><span data-stu-id="d70a3-103">_**Topic Last Modified:** 2012-06-06_</span></span>
 
-<span data-ttu-id="92438-104">通話診斷摘要報告提供失敗對等和會議工作階段的整體外觀。</span><span class="sxs-lookup"><span data-stu-id="92438-104">The Call Diagnostic Summary Report provides an overall look at failed peer-to-peer and conferencing sessions.</span></span> <span data-ttu-id="92438-105">報表顯示這兩種類型的工作階段，整體失敗率，並進一步依工作階段形式類型細分的失敗資訊：</span><span class="sxs-lookup"><span data-stu-id="92438-105">The report shows the overall failure rate for both types of sessions, and further breaks the failure information down by session modality type:</span></span>
+<span data-ttu-id="d70a3-104">通話診斷摘要報告提供失敗對等和會議工作階段的整體外觀。</span><span class="sxs-lookup"><span data-stu-id="d70a3-104">The Call Diagnostic Summary Report provides an overall look at failed peer-to-peer and conferencing sessions.</span></span> <span data-ttu-id="d70a3-105">報表顯示這兩種類型的工作階段，整體失敗率，並進一步依工作階段形式類型細分的失敗資訊：</span><span class="sxs-lookup"><span data-stu-id="d70a3-105">The report shows the overall failure rate for both types of sessions, and further breaks the failure information down by session modality type:</span></span>
 
-  - <span data-ttu-id="92438-106">立即訊息</span><span class="sxs-lookup"><span data-stu-id="92438-106">Instant messaging</span></span>
+  - <span data-ttu-id="d70a3-106">立即訊息</span><span class="sxs-lookup"><span data-stu-id="d70a3-106">Instant messaging</span></span>
 
-  - <span data-ttu-id="92438-107">應用程式共用</span><span class="sxs-lookup"><span data-stu-id="92438-107">Application sharing</span></span>
+  - <span data-ttu-id="d70a3-107">應用程式共用</span><span class="sxs-lookup"><span data-stu-id="d70a3-107">Application sharing</span></span>
 
-  - <span data-ttu-id="92438-108">檔案傳輸</span><span class="sxs-lookup"><span data-stu-id="92438-108">File transfer</span></span>
+  - <span data-ttu-id="d70a3-108">檔案傳輸</span><span class="sxs-lookup"><span data-stu-id="d70a3-108">File transfer</span></span>
 
-  - <span data-ttu-id="92438-109">音訊</span><span class="sxs-lookup"><span data-stu-id="92438-109">Audio</span></span>
+  - <span data-ttu-id="d70a3-109">音訊</span><span class="sxs-lookup"><span data-stu-id="d70a3-109">Audio</span></span>
 
-  - <span data-ttu-id="92438-110">影片</span><span class="sxs-lookup"><span data-stu-id="92438-110">Video</span></span>
+  - <span data-ttu-id="d70a3-110">影片</span><span class="sxs-lookup"><span data-stu-id="d70a3-110">Video</span></span>
 
 <div>
 
-## <a name="accessing-the-call-diagnostic-summary-report"></a><span data-ttu-id="92438-111">存取通話診斷摘要報告</span><span class="sxs-lookup"><span data-stu-id="92438-111">Accessing the Call Diagnostic Summary Report</span></span>
+## <a name="accessing-the-call-diagnostic-summary-report"></a><span data-ttu-id="d70a3-111">存取通話診斷摘要報告</span><span class="sxs-lookup"><span data-stu-id="d70a3-111">Accessing the Call Diagnostic Summary Report</span></span>
 
-<span data-ttu-id="92438-112">從監視報告首頁存取通話診斷摘要報告。</span><span class="sxs-lookup"><span data-stu-id="92438-112">The Call Diagnostic Summary Report is accessed from the Monitoring Reports Home page.</span></span> <span data-ttu-id="92438-113">您可以從 「 通話診斷摘要報告按一下失敗率計量報告的端對端工作階段摘要] 區段下存取[Lync Server 2013 中的對等活動診斷報告](lync-server-2013-peer-to-peer-activity-diagnostic-report.md)。</span><span class="sxs-lookup"><span data-stu-id="92438-113">From the Call Diagnostic Summary Report you can access the [Peer-to-Peer Activity Diagnostic Report in Lync Server 2013](lync-server-2013-peer-to-peer-activity-diagnostic-report.md) by clicking the Failure rate metric under the Peer-to-Peer Session Summary section of the report.</span></span> <span data-ttu-id="92438-114">您也可以藉由按一下任何下列的會議計量存取[Lync Server 2013 中的會議診斷報告](lync-server-2013-conference-diagnostic-report.md)：</span><span class="sxs-lookup"><span data-stu-id="92438-114">You can also access the [Conference Diagnostic Report in Lync Server 2013](lync-server-2013-conference-diagnostic-report.md) by clicking any of the following conference metrics:</span></span>
+<span data-ttu-id="d70a3-112">從監視報告首頁存取通話診斷摘要報告。</span><span class="sxs-lookup"><span data-stu-id="d70a3-112">The Call Diagnostic Summary Report is accessed from the Monitoring Reports Home page.</span></span> <span data-ttu-id="d70a3-113">您可以從 「 通話診斷摘要報告按一下失敗率計量報告的端對端工作階段摘要] 區段下存取[Lync Server 2013 中的對等活動診斷報告](lync-server-2013-peer-to-peer-activity-diagnostic-report.md)。</span><span class="sxs-lookup"><span data-stu-id="d70a3-113">From the Call Diagnostic Summary Report you can access the [Peer-to-Peer Activity Diagnostic Report in Lync Server 2013](lync-server-2013-peer-to-peer-activity-diagnostic-report.md) by clicking the Failure rate metric under the Peer-to-Peer Session Summary section of the report.</span></span> <span data-ttu-id="d70a3-114">您也可以藉由按一下任何下列的會議計量存取[Lync Server 2013 中的會議診斷報告](lync-server-2013-conference-diagnostic-report.md)：</span><span class="sxs-lookup"><span data-stu-id="d70a3-114">You can also access the [Conference Diagnostic Report in Lync Server 2013](lync-server-2013-conference-diagnostic-report.md) by clicking any of the following conference metrics:</span></span>
 
-  - <span data-ttu-id="92438-115">整體工作階段失敗率</span><span class="sxs-lookup"><span data-stu-id="92438-115">Overall session failure rate</span></span>
+  - <span data-ttu-id="d70a3-115">整體工作階段失敗率</span><span class="sxs-lookup"><span data-stu-id="d70a3-115">Overall session failure rate</span></span>
 
-  - <span data-ttu-id="92438-116">焦點失敗率</span><span class="sxs-lookup"><span data-stu-id="92438-116">Focus failure rate</span></span>
+  - <span data-ttu-id="d70a3-116">焦點失敗率</span><span class="sxs-lookup"><span data-stu-id="d70a3-116">Focus failure rate</span></span>
 
-  - <span data-ttu-id="92438-117">MCU 失敗率</span><span class="sxs-lookup"><span data-stu-id="92438-117">MCU failure rate</span></span>
+  - <span data-ttu-id="d70a3-117">MCU 失敗率</span><span class="sxs-lookup"><span data-stu-id="d70a3-117">MCU failure rate</span></span>
 
 </div>
 
 <div>
 
-## <a name="making-the-best-use-of-the-call-diagnostic-summary-report"></a><span data-ttu-id="92438-118">通話診斷摘要報告的最佳用法</span><span class="sxs-lookup"><span data-stu-id="92438-118">Making the Best Use of the Call Diagnostic Summary Report</span></span>
+## <a name="making-the-best-use-of-the-call-diagnostic-summary-report"></a><span data-ttu-id="d70a3-118">通話診斷摘要報告的最佳用法</span><span class="sxs-lookup"><span data-stu-id="d70a3-118">Making the Best Use of the Call Diagnostic Summary Report</span></span>
 
-<span data-ttu-id="92438-119">通話診斷摘要報告包含比較 Microsoft Lync Server 2013 中使用各種形式的失敗率的圖形。</span><span class="sxs-lookup"><span data-stu-id="92438-119">The Call Diagnostic Summary Report includes graphs that compare failure rates for the various modalities used in Microsoft Lync Server 2013.</span></span> <span data-ttu-id="92438-120">這些圖形中的資料行是實際不良率;例如，如果您按一下 [立即訊息] 欄中的端對端工作階段，您將向下切入[Lync Server 2013 中的對等活動診斷報告](lync-server-2013-peer-to-peer-activity-diagnostic-report.md)提供有關所有立即訊息工作階段通話診斷摘要報告中包含的其他詳細資料報告的執行個體。</span><span class="sxs-lookup"><span data-stu-id="92438-120">The columns in these graphs are actually hotlinks; for example, if you click the Instant messaging column for peer-to-peer sessions, you'll drill down to an instance of the [Peer-to-Peer Activity Diagnostic Report in Lync Server 2013](lync-server-2013-peer-to-peer-activity-diagnostic-report.md), a report that provides additional details about all the instant messaging sessions included in the Call Diagnostic Summary Report.</span></span>
+<span data-ttu-id="d70a3-119">通話診斷摘要報告包含比較 Microsoft Lync Server 2013 中使用各種形式的失敗率的圖形。</span><span class="sxs-lookup"><span data-stu-id="d70a3-119">The Call Diagnostic Summary Report includes graphs that compare failure rates for the various modalities used in Microsoft Lync Server 2013.</span></span> <span data-ttu-id="d70a3-120">這些圖形中的資料行是實際不良率;例如，如果您按一下 [立即訊息] 欄中的端對端工作階段，您將向下切入[Lync Server 2013 中的對等活動診斷報告](lync-server-2013-peer-to-peer-activity-diagnostic-report.md)提供有關所有立即訊息工作階段通話診斷摘要報告中包含的其他詳細資料報告的執行個體。</span><span class="sxs-lookup"><span data-stu-id="d70a3-120">The columns in these graphs are actually hotlinks; for example, if you click the Instant messaging column for peer-to-peer sessions, you'll drill down to an instance of the [Peer-to-Peer Activity Diagnostic Report in Lync Server 2013](lync-server-2013-peer-to-peer-activity-diagnostic-report.md), a report that provides additional details about all the instant messaging sessions included in the Call Diagnostic Summary Report.</span></span>
 
 </div>
 
 <div>
 
-## <a name="filters"></a><span data-ttu-id="92438-121">篩選</span><span class="sxs-lookup"><span data-stu-id="92438-121">Filters</span></span>
+## <a name="filters"></a><span data-ttu-id="d70a3-121">篩選</span><span class="sxs-lookup"><span data-stu-id="d70a3-121">Filters</span></span>
 
-<span data-ttu-id="92438-122">篩選器可以讓您傳回更精確的資料集或者以不同方法檢視傳回的資料。</span><span class="sxs-lookup"><span data-stu-id="92438-122">Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways.</span></span> <span data-ttu-id="92438-123">例如，通話診斷摘要報告可讓您篩選上為 [登錄器集區等項目或工作階段中使用的 Edge 伺服器。</span><span class="sxs-lookup"><span data-stu-id="92438-123">For example, the Call Diagnostic Summary Report enables you to filter on such things as the Registrar pool or Edge Server used in the session.</span></span> <span data-ttu-id="92438-124">您也可以選擇資料的分組方式。</span><span class="sxs-lookup"><span data-stu-id="92438-124">You can also choose how data should be grouped.</span></span> <span data-ttu-id="92438-125">在這種情況下，通話會按照小時、日、星期或月而加以分組。</span><span class="sxs-lookup"><span data-stu-id="92438-125">In this case, calls are grouped by hour, day, week, or month.</span></span>
+<span data-ttu-id="d70a3-122">篩選器可以讓您傳回更精確的資料集或者以不同方法檢視傳回的資料。</span><span class="sxs-lookup"><span data-stu-id="d70a3-122">Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways.</span></span> <span data-ttu-id="d70a3-123">例如，通話診斷摘要報告可讓您篩選上為 [登錄器集區等項目或工作階段中使用的 Edge 伺服器。</span><span class="sxs-lookup"><span data-stu-id="d70a3-123">For example, the Call Diagnostic Summary Report enables you to filter on such things as the Registrar pool or Edge Server used in the session.</span></span> <span data-ttu-id="d70a3-124">您也可以選擇資料的分組方式。</span><span class="sxs-lookup"><span data-stu-id="d70a3-124">You can also choose how data should be grouped.</span></span> <span data-ttu-id="d70a3-125">在這種情況下，通話會按照小時、日、星期或月而加以分組。</span><span class="sxs-lookup"><span data-stu-id="d70a3-125">In this case, calls are grouped by hour, day, week, or month.</span></span>
 
-<span data-ttu-id="92438-126">下表列出您可以搭配通話診斷摘要報告的篩選器。</span><span class="sxs-lookup"><span data-stu-id="92438-126">The following table lists the filters that you can use with the Call Diagnostic Summary Report.</span></span>
+<span data-ttu-id="d70a3-126">下表列出您可以搭配通話診斷摘要報告的篩選器。</span><span class="sxs-lookup"><span data-stu-id="d70a3-126">The following table lists the filters that you can use with the Call Diagnostic Summary Report.</span></span>
 
-### <a name="call-diagnostic-summary-report-filters"></a><span data-ttu-id="92438-127">通話診斷摘要報告篩選器</span><span class="sxs-lookup"><span data-stu-id="92438-127">Call Diagnostic Summary Report Filters</span></span>
+### <a name="call-diagnostic-summary-report-filters"></a><span data-ttu-id="d70a3-127">通話診斷摘要報告篩選器</span><span class="sxs-lookup"><span data-stu-id="d70a3-127">Call Diagnostic Summary Report Filters</span></span>
 
 <table>
 <colgroup>
@@ -88,45 +88,45 @@ ms.locfileid: "42044485"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="92438-128">名稱</span><span class="sxs-lookup"><span data-stu-id="92438-128">Name</span></span></th>
-<th><span data-ttu-id="92438-129">描述</span><span class="sxs-lookup"><span data-stu-id="92438-129">Description</span></span></th>
+<th><span data-ttu-id="d70a3-128">名稱</span><span class="sxs-lookup"><span data-stu-id="d70a3-128">Name</span></span></th>
+<th><span data-ttu-id="d70a3-129">描述</span><span class="sxs-lookup"><span data-stu-id="d70a3-129">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="92438-130"><strong>From</strong></span><span class="sxs-lookup"><span data-stu-id="92438-130"><strong>From</strong></span></span></p></td>
-<td><p><span data-ttu-id="92438-p105">時間範圍的開始日期/時間。若要按照小時檢視資料，請輸入開始日期和時間，如下所示：</span><span class="sxs-lookup"><span data-stu-id="92438-p105">Start date/time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
-<p><span data-ttu-id="92438-133">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="92438-133">7/7/2012 1:00 PM</span></span></p>
-<p><span data-ttu-id="92438-p106">如果您未輸入開始時間，報告會自動從指定日期凌晨 12 點開始。若要按照日期檢視資料，只要輸入日期即可：</span><span class="sxs-lookup"><span data-stu-id="92438-p106">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="92438-136">2012/7/7</span><span class="sxs-lookup"><span data-stu-id="92438-136">7/7/2012</span></span></p>
-<p><span data-ttu-id="92438-137">若要按星期或月份檢視，請輸入當週或該月您想檢視的日期 (您不必輸入當週或該月的第一天)：</span><span class="sxs-lookup"><span data-stu-id="92438-137">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="92438-138">2012/7/3</span><span class="sxs-lookup"><span data-stu-id="92438-138">7/3/2012</span></span></p>
-<p><span data-ttu-id="92438-139">星期永遠是從星期日開始星期六結束。</span><span class="sxs-lookup"><span data-stu-id="92438-139">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="d70a3-130"><strong>From</strong></span><span class="sxs-lookup"><span data-stu-id="d70a3-130"><strong>From</strong></span></span></p></td>
+<td><p><span data-ttu-id="d70a3-p105">時間範圍的開始日期/時間。若要按照小時檢視資料，請輸入開始日期和時間，如下所示：</span><span class="sxs-lookup"><span data-stu-id="d70a3-p105">Start date/time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
+<p><span data-ttu-id="d70a3-133">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="d70a3-133">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="d70a3-p106">如果您未輸入開始時間，報告會自動從指定日期凌晨 12 點開始。若要按照日期檢視資料，只要輸入日期即可：</span><span class="sxs-lookup"><span data-stu-id="d70a3-p106">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="d70a3-136">2012/7/7</span><span class="sxs-lookup"><span data-stu-id="d70a3-136">7/7/2012</span></span></p>
+<p><span data-ttu-id="d70a3-137">若要按星期或月份檢視，請輸入當週或該月您想檢視的日期 (您不必輸入當週或該月的第一天)：</span><span class="sxs-lookup"><span data-stu-id="d70a3-137">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="d70a3-138">2012/7/3</span><span class="sxs-lookup"><span data-stu-id="d70a3-138">7/3/2012</span></span></p>
+<p><span data-ttu-id="d70a3-139">星期永遠是從星期日開始星期六結束。</span><span class="sxs-lookup"><span data-stu-id="d70a3-139">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="92438-140"><strong>To</strong></span><span class="sxs-lookup"><span data-stu-id="92438-140"><strong>To</strong></span></span></p></td>
-<td><p><span data-ttu-id="92438-p107">時間範圍的結束日期/時間。若要按照小時檢視資料，請輸入開始日期和時間，如下所示：</span><span class="sxs-lookup"><span data-stu-id="92438-p107">End date/time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
-<p><span data-ttu-id="92438-143">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="92438-143">7/7/2012 1:00 PM</span></span></p>
-<p><span data-ttu-id="92438-p108">如果您未輸入結束時間，報告會自動在指定日期凌晨 12 點結束。若要按照日期檢視資料，只要輸入日期即可：</span><span class="sxs-lookup"><span data-stu-id="92438-p108">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="92438-146">2012/7/7</span><span class="sxs-lookup"><span data-stu-id="92438-146">7/7/2012</span></span></p>
-<p><span data-ttu-id="92438-147">若要按星期或月份檢視，請輸入當週或該月您想檢視的日期 (您不必輸入當週或該月的第一天)：</span><span class="sxs-lookup"><span data-stu-id="92438-147">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="92438-148">2012/7/3</span><span class="sxs-lookup"><span data-stu-id="92438-148">7/3/2012</span></span></p>
-<p><span data-ttu-id="92438-149">星期永遠是從星期日開始星期六結束。</span><span class="sxs-lookup"><span data-stu-id="92438-149">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="d70a3-140"><strong>To</strong></span><span class="sxs-lookup"><span data-stu-id="d70a3-140"><strong>To</strong></span></span></p></td>
+<td><p><span data-ttu-id="d70a3-p107">時間範圍的結束日期/時間。若要按照小時檢視資料，請輸入開始日期和時間，如下所示：</span><span class="sxs-lookup"><span data-stu-id="d70a3-p107">End date/time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
+<p><span data-ttu-id="d70a3-143">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="d70a3-143">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="d70a3-p108">如果您未輸入結束時間，報告會自動在指定日期凌晨 12 點結束。若要按照日期檢視資料，只要輸入日期即可：</span><span class="sxs-lookup"><span data-stu-id="d70a3-p108">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="d70a3-146">2012/7/7</span><span class="sxs-lookup"><span data-stu-id="d70a3-146">7/7/2012</span></span></p>
+<p><span data-ttu-id="d70a3-147">若要按星期或月份檢視，請輸入當週或該月您想檢視的日期 (您不必輸入當週或該月的第一天)：</span><span class="sxs-lookup"><span data-stu-id="d70a3-147">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="d70a3-148">2012/7/3</span><span class="sxs-lookup"><span data-stu-id="d70a3-148">7/3/2012</span></span></p>
+<p><span data-ttu-id="d70a3-149">星期永遠是從星期日開始星期六結束。</span><span class="sxs-lookup"><span data-stu-id="d70a3-149">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="92438-150"><strong>Interval</strong></span><span class="sxs-lookup"><span data-stu-id="92438-150"><strong>Interval</strong></span></span></p></td>
-<td><p><span data-ttu-id="92438-p109">時間間隔。請選取下列其中一項：</span><span class="sxs-lookup"><span data-stu-id="92438-p109">Time interval. Select one of the following:</span></span></p>
+<td><p><span data-ttu-id="d70a3-150"><strong>Interval</strong></span><span class="sxs-lookup"><span data-stu-id="d70a3-150"><strong>Interval</strong></span></span></p></td>
+<td><p><span data-ttu-id="d70a3-p109">時間間隔。請選取下列其中一項：</span><span class="sxs-lookup"><span data-stu-id="d70a3-p109">Time interval. Select one of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="92438-153">每小時 (最多可以顯示 25 個小時)</span><span class="sxs-lookup"><span data-stu-id="92438-153">Hourly (a maximum of 25 hours can be displayed)</span></span></p></li>
-<li><p><span data-ttu-id="92438-154">每日 (最多可以顯示 31 天)</span><span class="sxs-lookup"><span data-stu-id="92438-154">Daily (a maximum of 31 days can be displayed)</span></span></p></li>
-<li><p><span data-ttu-id="92438-155">每週 (最多可以顯示 12 週)</span><span class="sxs-lookup"><span data-stu-id="92438-155">Weekly (a maximum of 12 weeks can be displayed)</span></span></p></li>
-<li><p><span data-ttu-id="92438-156">每月 (最多可以顯示 12 個月)</span><span class="sxs-lookup"><span data-stu-id="92438-156">Monthly (a maximum of 12 months can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="d70a3-153">每小時 (最多可以顯示 25 個小時)</span><span class="sxs-lookup"><span data-stu-id="d70a3-153">Hourly (a maximum of 25 hours can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="d70a3-154">每日 (最多可以顯示 31 天)</span><span class="sxs-lookup"><span data-stu-id="d70a3-154">Daily (a maximum of 31 days can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="d70a3-155">每週 (最多可以顯示 12 週)</span><span class="sxs-lookup"><span data-stu-id="d70a3-155">Weekly (a maximum of 12 weeks can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="d70a3-156">每月 (最多可以顯示 12 個月)</span><span class="sxs-lookup"><span data-stu-id="d70a3-156">Monthly (a maximum of 12 months can be displayed)</span></span></p></li>
 </ul>
-<p><span data-ttu-id="92438-p110">若開始與結束日期超出所選間隔允許的上限值，將只會顯示上限值 (從開始日期開始顯示)。例如，若您選取 [每日] 間隔，並將開始與結束日期分別設為 2012 年 7 月 7 日及 2012 年 2 月 28 日，將只會顯示 2012 年 8 月 7 日凌晨 12 點到 2012 年 9 月 7 日凌晨 12 點這段期間的資料 (亦即只會顯示 31 天的資料)。</span><span class="sxs-lookup"><span data-stu-id="92438-p110">If the start and end dates exceed the maximum number of values allowed for the selected interval, only the maximum number of values (starting from the start date) is displayed. For example, if you select the Daily interval with a start date of 7/7/2012 and an end date of 2/28/2012, data is displayed for the days 8/7/2012 12:00 AM to 9/7/2012 12:00 AM (that is, a total of 31 days' worth of data).</span></span></p></td>
+<p><span data-ttu-id="d70a3-p110">若開始與結束日期超出所選間隔允許的上限值，將只會顯示上限值 (從開始日期開始顯示)。例如，若您選取 [每日] 間隔，並將開始與結束日期分別設為 2012 年 7 月 7 日及 2012 年 2 月 28 日，將只會顯示 2012 年 8 月 7 日凌晨 12 點到 2012 年 9 月 7 日凌晨 12 點這段期間的資料 (亦即只會顯示 31 天的資料)。</span><span class="sxs-lookup"><span data-stu-id="d70a3-p110">If the start and end dates exceed the maximum number of values allowed for the selected interval, only the maximum number of values (starting from the start date) is displayed. For example, if you select the Daily interval with a start date of 7/7/2012 and an end date of 2/28/2012, data is displayed for the days 8/7/2012 12:00 AM to 9/7/2012 12:00 AM (that is, a total of 31 days' worth of data).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="92438-159"><strong>Pool</strong></span><span class="sxs-lookup"><span data-stu-id="92438-159"><strong>Pool</strong></span></span></p></td>
-<td><p><span data-ttu-id="92438-p111">登錄器集區或 Edge Server 的完整網域名稱 (FQDN)。您可以選取個別的集區，或是按一下 [全部]<strong></strong> 檢視所有集區的資料。此下拉式清單會自動將資料庫內的資料填入。</span><span class="sxs-lookup"><span data-stu-id="92438-p111">Fully qualified domain name (FQDN) of the Registrar pool or Edge Server. You can either select an individual pool or click <strong>[All]</strong> to view data for all the pools. This drop-down list is automatically populated for you based on the records in the database.</span></span></p></td>
+<td><p><span data-ttu-id="d70a3-159"><strong>Pool</strong></span><span class="sxs-lookup"><span data-stu-id="d70a3-159"><strong>Pool</strong></span></span></p></td>
+<td><p><span data-ttu-id="d70a3-p111">登錄器集區或 Edge Server 的完整網域名稱 (FQDN)。您可以選取個別的集區，或是按一下 [全部]<strong></strong> 檢視所有集區的資料。此下拉式清單會自動將資料庫內的資料填入。</span><span class="sxs-lookup"><span data-stu-id="d70a3-p111">Fully qualified domain name (FQDN) of the Registrar pool or Edge Server. You can either select an individual pool or click <strong>[All]</strong> to view data for all the pools. This drop-down list is automatically populated for you based on the records in the database.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -136,11 +136,11 @@ ms.locfileid: "42044485"
 
 <div>
 
-## <a name="metrics-for-peer-to-peer-sessions"></a><span data-ttu-id="92438-163">端對端工作階段的計量</span><span class="sxs-lookup"><span data-stu-id="92438-163">Metrics for Peer-to-Peer Sessions</span></span>
+## <a name="metrics-for-peer-to-peer-sessions"></a><span data-ttu-id="d70a3-163">端對端工作階段的計量</span><span class="sxs-lookup"><span data-stu-id="d70a3-163">Metrics for Peer-to-Peer Sessions</span></span>
 
-<span data-ttu-id="92438-164">下表列出對等端對端工作階段 （也就是工作階段只有兩個參與者） 通話診斷摘要報告所提供的資訊。</span><span class="sxs-lookup"><span data-stu-id="92438-164">The following table lists the information provided in the Call Diagnostic Summary Report for peer-to-peer sessions (that is, sessions involving just two participants).</span></span>
+<span data-ttu-id="d70a3-164">下表列出對等端對端工作階段 （也就是工作階段只有兩個參與者） 通話診斷摘要報告所提供的資訊。</span><span class="sxs-lookup"><span data-stu-id="d70a3-164">The following table lists the information provided in the Call Diagnostic Summary Report for peer-to-peer sessions (that is, sessions involving just two participants).</span></span>
 
-### <a name="metrics-for-peer-to-peer-sessions"></a><span data-ttu-id="92438-165">端對端工作階段的計量</span><span class="sxs-lookup"><span data-stu-id="92438-165">Metrics for Peer-to-Peer Sessions</span></span>
+### <a name="metrics-for-peer-to-peer-sessions"></a><span data-ttu-id="d70a3-165">端對端工作階段的計量</span><span class="sxs-lookup"><span data-stu-id="d70a3-165">Metrics for Peer-to-Peer Sessions</span></span>
 
 <table>
 <colgroup>
@@ -150,21 +150,21 @@ ms.locfileid: "42044485"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="92438-166">名稱</span><span class="sxs-lookup"><span data-stu-id="92438-166">Name</span></span></th>
-<th><span data-ttu-id="92438-167">可以排序這個項目嗎？</span><span class="sxs-lookup"><span data-stu-id="92438-167">Can you sort on this item?</span></span></th>
-<th><span data-ttu-id="92438-168">描述</span><span class="sxs-lookup"><span data-stu-id="92438-168">Description</span></span></th>
+<th><span data-ttu-id="d70a3-166">名稱</span><span class="sxs-lookup"><span data-stu-id="d70a3-166">Name</span></span></th>
+<th><span data-ttu-id="d70a3-167">可以排序這個項目嗎？</span><span class="sxs-lookup"><span data-stu-id="d70a3-167">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="d70a3-168">描述</span><span class="sxs-lookup"><span data-stu-id="d70a3-168">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="92438-169"><strong>工作階段總數</strong></span><span class="sxs-lookup"><span data-stu-id="92438-169"><strong>Total sessions</strong></span></span></p></td>
-<td><p><span data-ttu-id="92438-170">否</span><span class="sxs-lookup"><span data-stu-id="92438-170">No</span></span></p></td>
-<td><p><span data-ttu-id="92438-171">端對端工作階段總數。</span><span class="sxs-lookup"><span data-stu-id="92438-171">Total number of peer-to-peer sessions conducted.</span></span></p></td>
+<td><p><span data-ttu-id="d70a3-169"><strong>工作階段總數</strong></span><span class="sxs-lookup"><span data-stu-id="d70a3-169"><strong>Total sessions</strong></span></span></p></td>
+<td><p><span data-ttu-id="d70a3-170">否</span><span class="sxs-lookup"><span data-stu-id="d70a3-170">No</span></span></p></td>
+<td><p><span data-ttu-id="d70a3-171">端對端工作階段總數。</span><span class="sxs-lookup"><span data-stu-id="d70a3-171">Total number of peer-to-peer sessions conducted.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="92438-172"><strong>失敗率</strong></span><span class="sxs-lookup"><span data-stu-id="92438-172"><strong>Failure rate</strong></span></span></p></td>
-<td><p><span data-ttu-id="92438-173">否</span><span class="sxs-lookup"><span data-stu-id="92438-173">No</span></span></p></td>
-<td><p><span data-ttu-id="92438-174">端對端工作階段失敗百分比。</span><span class="sxs-lookup"><span data-stu-id="92438-174">Percentage of peer-to-peer sessions that failed.</span></span> <span data-ttu-id="92438-175">當您按一下此項目時，報告顯示對等活動診斷報告，會顯示失敗的對等工作階段的詳細的資訊。</span><span class="sxs-lookup"><span data-stu-id="92438-175">When you click this item, the report shows the Peer-to-Peer Activity Diagnostic report, which displays more detailed information about the failed peer-to-peer sessions.</span></span></p></td>
+<td><p><span data-ttu-id="d70a3-172"><strong>失敗率</strong></span><span class="sxs-lookup"><span data-stu-id="d70a3-172"><strong>Failure rate</strong></span></span></p></td>
+<td><p><span data-ttu-id="d70a3-173">否</span><span class="sxs-lookup"><span data-stu-id="d70a3-173">No</span></span></p></td>
+<td><p><span data-ttu-id="d70a3-174">端對端工作階段失敗百分比。</span><span class="sxs-lookup"><span data-stu-id="d70a3-174">Percentage of peer-to-peer sessions that failed.</span></span> <span data-ttu-id="d70a3-175">當您按一下此項目時，報告顯示對等活動診斷報告，會顯示失敗的對等工作階段的詳細的資訊。</span><span class="sxs-lookup"><span data-stu-id="d70a3-175">When you click this item, the report shows the Peer-to-Peer Activity Diagnostic report, which displays more detailed information about the failed peer-to-peer sessions.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -174,11 +174,11 @@ ms.locfileid: "42044485"
 
 <div>
 
-## <a name="metrics-for-conferencing-sessions"></a><span data-ttu-id="92438-176">會議工作階段的計量</span><span class="sxs-lookup"><span data-stu-id="92438-176">Metrics for Conferencing Sessions</span></span>
+## <a name="metrics-for-conferencing-sessions"></a><span data-ttu-id="d70a3-176">會議工作階段的計量</span><span class="sxs-lookup"><span data-stu-id="d70a3-176">Metrics for Conferencing Sessions</span></span>
 
-<span data-ttu-id="92438-177">下表列出會議工作階段 （也就是參與者的工作階段三個或多個） 之通話診斷報告所提供的資訊。</span><span class="sxs-lookup"><span data-stu-id="92438-177">The following table lists the information provided in the Call Diagnostic Report for conferencing sessions (that is, sessions involving three or more participants).</span></span>
+<span data-ttu-id="d70a3-177">下表列出會議工作階段 （也就是參與者的工作階段三個或多個） 之通話診斷報告所提供的資訊。</span><span class="sxs-lookup"><span data-stu-id="d70a3-177">The following table lists the information provided in the Call Diagnostic Report for conferencing sessions (that is, sessions involving three or more participants).</span></span>
 
-### <a name="metrics-for-conferencing-sessions"></a><span data-ttu-id="92438-178">會議工作階段的計量</span><span class="sxs-lookup"><span data-stu-id="92438-178">Metrics for Conferencing Sessions</span></span>
+### <a name="metrics-for-conferencing-sessions"></a><span data-ttu-id="d70a3-178">會議工作階段的計量</span><span class="sxs-lookup"><span data-stu-id="d70a3-178">Metrics for Conferencing Sessions</span></span>
 
 <table>
 <colgroup>
@@ -188,46 +188,46 @@ ms.locfileid: "42044485"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="92438-179">名稱</span><span class="sxs-lookup"><span data-stu-id="92438-179">Name</span></span></th>
-<th><span data-ttu-id="92438-180">可以排序這個項目嗎？</span><span class="sxs-lookup"><span data-stu-id="92438-180">Can you sort on this item?</span></span></th>
-<th><span data-ttu-id="92438-181">描述</span><span class="sxs-lookup"><span data-stu-id="92438-181">Description</span></span></th>
+<th><span data-ttu-id="d70a3-179">名稱</span><span class="sxs-lookup"><span data-stu-id="d70a3-179">Name</span></span></th>
+<th><span data-ttu-id="d70a3-180">可以排序這個項目嗎？</span><span class="sxs-lookup"><span data-stu-id="d70a3-180">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="d70a3-181">描述</span><span class="sxs-lookup"><span data-stu-id="d70a3-181">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="92438-182"><strong>會議總數</strong></span><span class="sxs-lookup"><span data-stu-id="92438-182"><strong>Total conferences</strong></span></span></p></td>
-<td><p><span data-ttu-id="92438-183">否</span><span class="sxs-lookup"><span data-stu-id="92438-183">No</span></span></p></td>
-<td><p><span data-ttu-id="92438-184">會議總數。</span><span class="sxs-lookup"><span data-stu-id="92438-184">Total number of conferences conducted.</span></span></p></td>
+<td><p><span data-ttu-id="d70a3-182"><strong>會議總數</strong></span><span class="sxs-lookup"><span data-stu-id="d70a3-182"><strong>Total conferences</strong></span></span></p></td>
+<td><p><span data-ttu-id="d70a3-183">否</span><span class="sxs-lookup"><span data-stu-id="d70a3-183">No</span></span></p></td>
+<td><p><span data-ttu-id="d70a3-184">會議總數。</span><span class="sxs-lookup"><span data-stu-id="d70a3-184">Total number of conferences conducted.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="92438-185"><strong>會議工作階段總數</strong></span><span class="sxs-lookup"><span data-stu-id="92438-185"><strong>Total conference sessions</strong></span></span></p></td>
-<td><p><span data-ttu-id="92438-186">否</span><span class="sxs-lookup"><span data-stu-id="92438-186">No</span></span></p></td>
-<td><p><span data-ttu-id="92438-187">會議工作階段總數。</span><span class="sxs-lookup"><span data-stu-id="92438-187">Total number of conferencing sessions conducted.</span></span></p></td>
+<td><p><span data-ttu-id="d70a3-185"><strong>會議工作階段總數</strong></span><span class="sxs-lookup"><span data-stu-id="d70a3-185"><strong>Total conference sessions</strong></span></span></p></td>
+<td><p><span data-ttu-id="d70a3-186">否</span><span class="sxs-lookup"><span data-stu-id="d70a3-186">No</span></span></p></td>
+<td><p><span data-ttu-id="d70a3-187">會議工作階段總數。</span><span class="sxs-lookup"><span data-stu-id="d70a3-187">Total number of conferencing sessions conducted.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="92438-188"><strong>整體工作階段失敗率</strong></span><span class="sxs-lookup"><span data-stu-id="92438-188"><strong>Overall session failure rate</strong></span></span></p></td>
-<td><p><span data-ttu-id="92438-189">否</span><span class="sxs-lookup"><span data-stu-id="92438-189">No</span></span></p></td>
-<td><p><span data-ttu-id="92438-190">總會議工作階段失敗百分比。</span><span class="sxs-lookup"><span data-stu-id="92438-190">Percentage of the total conferencing sessions that failed.</span></span></p></td>
+<td><p><span data-ttu-id="d70a3-188"><strong>整體工作階段失敗率</strong></span><span class="sxs-lookup"><span data-stu-id="d70a3-188"><strong>Overall session failure rate</strong></span></span></p></td>
+<td><p><span data-ttu-id="d70a3-189">否</span><span class="sxs-lookup"><span data-stu-id="d70a3-189">No</span></span></p></td>
+<td><p><span data-ttu-id="d70a3-190">總會議工作階段失敗百分比。</span><span class="sxs-lookup"><span data-stu-id="d70a3-190">Percentage of the total conferencing sessions that failed.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="92438-191"><strong>焦點工作階段</strong></span><span class="sxs-lookup"><span data-stu-id="92438-191"><strong>Focus sessions</strong></span></span></p></td>
-<td><p><span data-ttu-id="92438-192">否</span><span class="sxs-lookup"><span data-stu-id="92438-192">No</span></span></p></td>
-<td><p><span data-ttu-id="92438-193">基於 Focus 的會議工作階段失敗總數。</span><span class="sxs-lookup"><span data-stu-id="92438-193">Total number of Focus-based conferencing sessions that failed.</span></span></p></td>
+<td><p><span data-ttu-id="d70a3-191"><strong>焦點工作階段</strong></span><span class="sxs-lookup"><span data-stu-id="d70a3-191"><strong>Focus sessions</strong></span></span></p></td>
+<td><p><span data-ttu-id="d70a3-192">否</span><span class="sxs-lookup"><span data-stu-id="d70a3-192">No</span></span></p></td>
+<td><p><span data-ttu-id="d70a3-193">基於 Focus 的會議工作階段失敗總數。</span><span class="sxs-lookup"><span data-stu-id="d70a3-193">Total number of Focus-based conferencing sessions that failed.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="92438-194"><strong>焦點失敗率</strong></span><span class="sxs-lookup"><span data-stu-id="92438-194"><strong>Focus failure rate</strong></span></span></p></td>
-<td><p><span data-ttu-id="92438-195">否</span><span class="sxs-lookup"><span data-stu-id="92438-195">No</span></span></p></td>
-<td><p><span data-ttu-id="92438-196">基於 Focus 的會議工作階段失敗百分比。</span><span class="sxs-lookup"><span data-stu-id="92438-196">Percentage of the Focus-based conferencing sessions that failed.</span></span></p></td>
+<td><p><span data-ttu-id="d70a3-194"><strong>焦點失敗率</strong></span><span class="sxs-lookup"><span data-stu-id="d70a3-194"><strong>Focus failure rate</strong></span></span></p></td>
+<td><p><span data-ttu-id="d70a3-195">否</span><span class="sxs-lookup"><span data-stu-id="d70a3-195">No</span></span></p></td>
+<td><p><span data-ttu-id="d70a3-196">基於 Focus 的會議工作階段失敗百分比。</span><span class="sxs-lookup"><span data-stu-id="d70a3-196">Percentage of the Focus-based conferencing sessions that failed.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="92438-197"><strong>MCU 工作階段</strong></span><span class="sxs-lookup"><span data-stu-id="92438-197"><strong>MCU sessions</strong></span></span></p></td>
-<td><p><span data-ttu-id="92438-198">否</span><span class="sxs-lookup"><span data-stu-id="92438-198">No</span></span></p></td>
-<td><p><span data-ttu-id="92438-199">總數基於會議伺服器 （以前稱為 Multipoint Control Unit 或 MCU） 的失敗會議。</span><span class="sxs-lookup"><span data-stu-id="92438-199">Total number of conferencing server-based (formerly known as Multipoint Control Unit or MCU) conferences that failed.</span></span></p></td>
+<td><p><span data-ttu-id="d70a3-197"><strong>MCU 工作階段</strong></span><span class="sxs-lookup"><span data-stu-id="d70a3-197"><strong>MCU sessions</strong></span></span></p></td>
+<td><p><span data-ttu-id="d70a3-198">否</span><span class="sxs-lookup"><span data-stu-id="d70a3-198">No</span></span></p></td>
+<td><p><span data-ttu-id="d70a3-199">總數基於會議伺服器 （以前稱為 Multipoint Control Unit 或 MCU） 的失敗會議。</span><span class="sxs-lookup"><span data-stu-id="d70a3-199">Total number of conferencing server-based (formerly known as Multipoint Control Unit or MCU) conferences that failed.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="92438-200"><strong>MCU 失敗率</strong></span><span class="sxs-lookup"><span data-stu-id="92438-200"><strong>MCU failure rate</strong></span></span></p></td>
-<td><p><span data-ttu-id="92438-201">否</span><span class="sxs-lookup"><span data-stu-id="92438-201">No</span></span></p></td>
-<td><p><span data-ttu-id="92438-202">基於會議伺服器的百分比 （以前稱為 Multipoint Control Unit 或 MCU） 的失敗會議。</span><span class="sxs-lookup"><span data-stu-id="92438-202">Percentage of the conferencing server-based (formerly known as Multipoint Control Unit or MCU) conferences that failed.</span></span></p></td>
+<td><p><span data-ttu-id="d70a3-200"><strong>MCU 失敗率</strong></span><span class="sxs-lookup"><span data-stu-id="d70a3-200"><strong>MCU failure rate</strong></span></span></p></td>
+<td><p><span data-ttu-id="d70a3-201">否</span><span class="sxs-lookup"><span data-stu-id="d70a3-201">No</span></span></p></td>
+<td><p><span data-ttu-id="d70a3-202">基於會議伺服器的百分比 （以前稱為 Multipoint Control Unit 或 MCU） 的失敗會議。</span><span class="sxs-lookup"><span data-stu-id="d70a3-202">Percentage of the conferencing server-based (formerly known as Multipoint Control Unit or MCU) conferences that failed.</span></span></p></td>
 </tr>
 </tbody>
 </table>

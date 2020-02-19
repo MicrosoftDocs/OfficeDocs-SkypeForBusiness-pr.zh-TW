@@ -12,20 +12,20 @@ ms:contentKeyID: 49733607
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d47607d2dedcf8d5466193f169e4cfb008c45bef
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 2a7ab2756770182237a4d3d93b4622a8e781c70a
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006951"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42134939"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-certificates-for-operational-processes-in-lync-server-2013"></a><span data-ttu-id="0ea06-102">管理 Lync Server 2013 中的作業程序的憑證</span><span class="sxs-lookup"><span data-stu-id="0ea06-102">Managing certificates for operational processes in Lync Server 2013</span></span>
+# <a name="managing-certificates-for-operational-processes-in-lync-server-2013"></a><span data-ttu-id="b1980-102">管理 Lync Server 2013 中的作業程序的憑證</span><span class="sxs-lookup"><span data-stu-id="b1980-102">Managing certificates for operational processes in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "42006951"
 
 <span> </span>
 
-<span data-ttu-id="0ea06-103">_**主題上次修改日期：** 2012年-11-01_</span><span class="sxs-lookup"><span data-stu-id="0ea06-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="b1980-103">_**主題上次修改日期：** 2012年-11-01_</span><span class="sxs-lookup"><span data-stu-id="b1980-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="0ea06-104">使用下列程序來使用 Lync Server 管理命令介面 cmdlet 管理憑證。</span><span class="sxs-lookup"><span data-stu-id="0ea06-104">Use the following procedures to manage certificates by using the Lync Server Management Shell cmdlets.</span></span>
+<span data-ttu-id="b1980-104">使用下列程序來使用 Lync Server 管理命令介面 cmdlet 管理憑證。</span><span class="sxs-lookup"><span data-stu-id="b1980-104">Use the following procedures to manage certificates by using the Lync Server Management Shell cmdlets.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="0ea06-105">本章節內容</span><span class="sxs-lookup"><span data-stu-id="0ea06-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="b1980-105">本章節內容</span><span class="sxs-lookup"><span data-stu-id="b1980-105">In This Section</span></span>
 
-  - [<span data-ttu-id="0ea06-106">Lync Server 2013 中的預備 AV 與 OAuth 憑證使用-Roll 在 Set-cscertificate 中</span><span class="sxs-lookup"><span data-stu-id="0ea06-106">Staging AV and OAuth certificates in Lync Server 2013 using -Roll in Set-CsCertificate</span></span>](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/powershell/module/skype/Set-CsCertificate)
+  - [<span data-ttu-id="b1980-106">Lync Server 2013 中的預備 AV 與 OAuth 憑證使用-Roll 在 Set-cscertificate 中</span><span class="sxs-lookup"><span data-stu-id="b1980-106">Staging AV and OAuth certificates in Lync Server 2013 using -Roll in Set-CsCertificate</span></span>](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/powershell/module/skype/Set-CsCertificate)
 
 </div>
 

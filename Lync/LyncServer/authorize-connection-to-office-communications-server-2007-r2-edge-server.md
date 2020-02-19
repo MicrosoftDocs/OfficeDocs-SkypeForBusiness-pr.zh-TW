@@ -13,20 +13,20 @@ ms:contentKeyID: 48183493
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 64786c29027c99de2f3b5e01846a5283ec57a084
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 7db737eae5ec02a015fac3a894b5f19079743c4c
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42003978"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42134919"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="authorize-connection-to-office-communications-server-2007-r2-edge-server"></a><span data-ttu-id="a0723-102">授權連線至 Office Communications Server 2007 R2 Edge Server</span><span class="sxs-lookup"><span data-stu-id="a0723-102">Authorize connection to Office Communications Server 2007 R2 Edge Server</span></span>
+# <a name="authorize-connection-to-office-communications-server-2007-r2-edge-server"></a><span data-ttu-id="8ca5e-102">授權連線至 Office Communications Server 2007 R2 Edge Server</span><span class="sxs-lookup"><span data-stu-id="8ca5e-102">Authorize connection to Office Communications Server 2007 R2 Edge Server</span></span>
 
 </div>
 
@@ -36,31 +36,31 @@ ms.locfileid: "42003978"
 
 <span> </span>
 
-<span data-ttu-id="a0723-103">_**主題上次修改日期：** 2012年-09-28_</span><span class="sxs-lookup"><span data-stu-id="a0723-103">_**Topic Last Modified:** 2012-09-28_</span></span>
+<span data-ttu-id="8ca5e-103">_**主題上次修改日期：** 2012年-09-28_</span><span class="sxs-lookup"><span data-stu-id="8ca5e-103">_**Topic Last Modified:** 2012-09-28_</span></span>
 
-<span data-ttu-id="a0723-104">在試驗集區中每個 Lync Server 2013 前端伺服器或 Standard Edition server，您必須更新已授權連線至 Office Communications Server 2007 R2 Edge Server 的內部伺服器的清單。</span><span class="sxs-lookup"><span data-stu-id="a0723-104">For each Lync Server 2013 Front End Server or Standard Edition server in your pilot pool, you must update the list of internal servers that are authorized to connect to the Office Communications Server 2007 R2 Edge Server.</span></span> <span data-ttu-id="a0723-105">若沒有這些更新，使用舊版 Edge Server 來參與外部音訊/視訊 (A/V) 會議的使用者就不會成功。</span><span class="sxs-lookup"><span data-stu-id="a0723-105">Without these updates, external audio/visual (A/V) conferencing for users joining by using the legacy Edge Server will not work.</span></span>
+<span data-ttu-id="8ca5e-104">在試驗集區中每個 Lync Server 2013 前端伺服器或 Standard Edition server，您必須更新已授權連線至 Office Communications Server 2007 R2 Edge Server 的內部伺服器的清單。</span><span class="sxs-lookup"><span data-stu-id="8ca5e-104">For each Lync Server 2013 Front End Server or Standard Edition server in your pilot pool, you must update the list of internal servers that are authorized to connect to the Office Communications Server 2007 R2 Edge Server.</span></span> <span data-ttu-id="8ca5e-105">若沒有這些更新，使用舊版 Edge Server 來參與外部音訊/視訊 (A/V) 會議的使用者就不會成功。</span><span class="sxs-lookup"><span data-stu-id="8ca5e-105">Without these updates, external audio/visual (A/V) conferencing for users joining by using the legacy Edge Server will not work.</span></span>
 
 <div>
 
-## <a name="to-authorize-connection-to-office-communications-server-2007-r2-edge-server"></a><span data-ttu-id="a0723-106">授權連線至 Office Communications Server 2007 R2 Edge Server</span><span class="sxs-lookup"><span data-stu-id="a0723-106">To Authorize Connection to Office Communications Server 2007 R2 Edge Server</span></span>
+## <a name="to-authorize-connection-to-office-communications-server-2007-r2-edge-server"></a><span data-ttu-id="8ca5e-106">授權連線至 Office Communications Server 2007 R2 Edge Server</span><span class="sxs-lookup"><span data-stu-id="8ca5e-106">To Authorize Connection to Office Communications Server 2007 R2 Edge Server</span></span>
 
-1.  <span data-ttu-id="a0723-107">從 Office Communications Server 2007 R2 Edge Server，從 [**系統管理工具**] 群組中，開啟 [**電腦管理**] 嵌入式管理單元。</span><span class="sxs-lookup"><span data-stu-id="a0723-107">From the Office Communications Server 2007 R2 Edge Server, from the **Administrative Tools** group, open the **Computer Management** snap-in.</span></span>
+1.  <span data-ttu-id="8ca5e-107">從 Office Communications Server 2007 R2 Edge Server，從 [**系統管理工具**] 群組中，開啟 [**電腦管理**] 嵌入式管理單元。</span><span class="sxs-lookup"><span data-stu-id="8ca5e-107">From the Office Communications Server 2007 R2 Edge Server, from the **Administrative Tools** group, open the **Computer Management** snap-in.</span></span>
 
-2.  <span data-ttu-id="a0723-108">在主控台樹狀目錄中，展開 [服務和應用程式]\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="a0723-108">In the console tree, expand **Services and Applications**.</span></span>
+2.  <span data-ttu-id="8ca5e-108">在主控台樹狀目錄中，展開 [服務和應用程式]\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="8ca5e-108">In the console tree, expand **Services and Applications**.</span></span>
 
-3.  <span data-ttu-id="a0723-109">以滑鼠右鍵按一下 [Office Communications Server 2007 R2]\*\*\*\*，然後按一下 [內容]\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="a0723-109">Right-click **Office Communications Server 2007 R2**, and then click **Properties**.</span></span>
+3.  <span data-ttu-id="8ca5e-109">以滑鼠右鍵按一下 [Office Communications Server 2007 R2]\*\*\*\*，然後按一下 [內容]\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="8ca5e-109">Right-click **Office Communications Server 2007 R2**, and then click **Properties**.</span></span>
 
-4.  <span data-ttu-id="a0723-110">按一下 [內部]\*\*\*\* 索引標籤。</span><span class="sxs-lookup"><span data-stu-id="a0723-110">Click the **Internal** tab.</span></span>
+4.  <span data-ttu-id="8ca5e-110">按一下 [內部]\*\*\*\* 索引標籤。</span><span class="sxs-lookup"><span data-stu-id="8ca5e-110">Click the **Internal** tab.</span></span>
 
-5.  <span data-ttu-id="a0723-111">在 [新增伺服器]\*\*\*\* 底下，按一下 [新增]\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="a0723-111">Under **Add Server**, click **Add**.</span></span>
+5.  <span data-ttu-id="8ca5e-111">在 [新增伺服器]\*\*\*\* 底下，按一下 [新增]\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="8ca5e-111">Under **Add Server**, click **Add**.</span></span>
 
-6.  <span data-ttu-id="a0723-112">在 [新增 Office Communications Server]\*\*\*\* 對話方塊中，輸入適當的資訊：</span><span class="sxs-lookup"><span data-stu-id="a0723-112">In the **Add Office Communications Server** dialog box, enter the appropriate information:</span></span>
+6.  <span data-ttu-id="8ca5e-112">在 [新增 Office Communications Server]\*\*\*\* 對話方塊中，輸入適當的資訊：</span><span class="sxs-lookup"><span data-stu-id="8ca5e-112">In the **Add Office Communications Server** dialog box, enter the appropriate information:</span></span>
     
-      - <span data-ttu-id="a0723-113">指定每個 Lync Server 2013 前端伺服器或 Standard Edition server 和 Lync Server 2013 集區的完整的網域名稱 (FQDN)。</span><span class="sxs-lookup"><span data-stu-id="a0723-113">Specify the fully qualified domain name (FQDN) of each Lync Server 2013 Front End Server or Standard Edition server, and Lync Server 2013 pool.</span></span>
+      - <span data-ttu-id="8ca5e-113">指定每個 Lync Server 2013 前端伺服器或 Standard Edition server 和 Lync Server 2013 集區的完整的網域名稱 (FQDN)。</span><span class="sxs-lookup"><span data-stu-id="8ca5e-113">Specify the fully qualified domain name (FQDN) of each Lync Server 2013 Front End Server or Standard Edition server, and Lync Server 2013 pool.</span></span>
     
-      - <span data-ttu-id="a0723-114">如果您指定依其 FQDN 的下一個躍點電腦的集區上設定靜態路由，請指定 Lync Server 2013 Director 的 FQDN。</span><span class="sxs-lookup"><span data-stu-id="a0723-114">Specify the FQDN of the Lync Server 2013 Director if you configured a static route on the pool that specifies the next hop computer by its FQDN.</span></span>
+      - <span data-ttu-id="8ca5e-114">如果您指定依其 FQDN 的下一個躍點電腦的集區上設定靜態路由，請指定 Lync Server 2013 Director 的 FQDN。</span><span class="sxs-lookup"><span data-stu-id="8ca5e-114">Specify the FQDN of the Lync Server 2013 Director if you configured a static route on the pool that specifies the next hop computer by its FQDN.</span></span>
 
-7.  <span data-ttu-id="a0723-115">新增的每個 Lync Server 2013、 前端伺服器、 Standard Edition server、 集區] 和 Director 的項目之後，按一下 [**套用]** ，然後按一下 [**確定**] 關閉 [內容] 頁面。</span><span class="sxs-lookup"><span data-stu-id="a0723-115">After you have added an entry for each Lync Server 2013, Front End Server, Standard Edition server, pool, and Director, click **Apply** and then click **OK** to close the Properties page.</span></span>
+7.  <span data-ttu-id="8ca5e-115">新增的每個 Lync Server 2013、 前端伺服器、 Standard Edition server、 集區] 和 Director 的項目之後，按一下 [**套用]** ，然後按一下 [**確定**] 關閉 [內容] 頁面。</span><span class="sxs-lookup"><span data-stu-id="8ca5e-115">After you have added an entry for each Lync Server 2013, Front End Server, Standard Edition server, pool, and Director, click **Apply** and then click **OK** to close the Properties page.</span></span>
 
 </div>
 

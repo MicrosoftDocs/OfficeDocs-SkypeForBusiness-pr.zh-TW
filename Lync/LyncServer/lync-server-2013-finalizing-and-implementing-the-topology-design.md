@@ -12,20 +12,20 @@ ms:contentKeyID: 48183403
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 88ffdc547bf0caed9b10f6555e2c56f03b50f467
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: dd8dd6944c5458d1c966ec8203da70f801345984
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42028464"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42134559"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="finalizing-and-implementing-the-topology-design-in-lync-server-2013"></a><span data-ttu-id="7e1bc-102">完成和 Lync Server 2013 中實作拓撲設計</span><span class="sxs-lookup"><span data-stu-id="7e1bc-102">Finalizing and implementing the topology design in Lync Server 2013</span></span>
+# <a name="finalizing-and-implementing-the-topology-design-in-lync-server-2013"></a><span data-ttu-id="898d9-102">完成和 Lync Server 2013 中實作拓撲設計</span><span class="sxs-lookup"><span data-stu-id="898d9-102">Finalizing and implementing the topology design in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "42028464"
 
 <span> </span>
 
-<span data-ttu-id="7e1bc-103">_**主題上次修改日期：** 2012年-06-19_</span><span class="sxs-lookup"><span data-stu-id="7e1bc-103">_**Topic Last Modified:** 2012-06-19_</span></span>
+<span data-ttu-id="898d9-103">_**主題上次修改日期：** 2012年-06-19_</span><span class="sxs-lookup"><span data-stu-id="898d9-103">_**Topic Last Modified:** 2012-06-19_</span></span>
 
-<span data-ttu-id="7e1bc-104">在您完成環境準備工作之後，您應該準備就緒以完成及實作您的拓撲設計。</span><span class="sxs-lookup"><span data-stu-id="7e1bc-104">After you complete the preparation of your environment, you should be ready to finalize and implement your topology design.</span></span> <span data-ttu-id="7e1bc-105">這包括使用拓撲產生器來發行拓撲，這必要才能安裝 Lync Server 2013 伺服器角色。</span><span class="sxs-lookup"><span data-stu-id="7e1bc-105">This includes using Topology Builder to publish your topology, which is required in order to install Lync Server 2013 server roles.</span></span>
+<span data-ttu-id="898d9-104">在您完成環境準備工作之後，您應該準備就緒以完成及實作您的拓撲設計。</span><span class="sxs-lookup"><span data-stu-id="898d9-104">After you complete the preparation of your environment, you should be ready to finalize and implement your topology design.</span></span> <span data-ttu-id="898d9-105">這包括使用拓撲產生器來發行拓撲，這必要才能安裝 Lync Server 2013 伺服器角色。</span><span class="sxs-lookup"><span data-stu-id="898d9-105">This includes using Topology Builder to publish your topology, which is required in order to install Lync Server 2013 server roles.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="7e1bc-106">本章節內容</span><span class="sxs-lookup"><span data-stu-id="7e1bc-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="898d9-106">本章節內容</span><span class="sxs-lookup"><span data-stu-id="898d9-106">In This Section</span></span>
 
-  - [<span data-ttu-id="7e1bc-107">安裝 Lync Server 2013 Standard Edition server 資料庫</span><span class="sxs-lookup"><span data-stu-id="7e1bc-107">Install Standard Edition server database for Lync Server 2013</span></span>](lync-server-2013-install-standard-edition-server-database.md)
+  - [<span data-ttu-id="898d9-107">安裝 Lync Server 2013 Standard Edition server 資料庫</span><span class="sxs-lookup"><span data-stu-id="898d9-107">Install Standard Edition server database for Lync Server 2013</span></span>](lync-server-2013-install-standard-edition-server-database.md)
 
-  - [<span data-ttu-id="7e1bc-108">確認 Lync Server 2013 中的拓撲設計</span><span class="sxs-lookup"><span data-stu-id="7e1bc-108">Verify the topology design in Lync Server 2013</span></span>](lync-server-2013-verify-the-topology-design.md)
+  - [<span data-ttu-id="898d9-108">確認 Lync Server 2013 中的拓撲設計</span><span class="sxs-lookup"><span data-stu-id="898d9-108">Verify the topology design in Lync Server 2013</span></span>](lync-server-2013-verify-the-topology-design.md)
 
-  - [<span data-ttu-id="7e1bc-109">在 Lync Server 2013 中發佈拓撲</span><span class="sxs-lookup"><span data-stu-id="7e1bc-109">Publish the topology in Lync Server 2013</span></span>](lync-server-2013-publish-the-topology.md)
+  - [<span data-ttu-id="898d9-109">在 Lync Server 2013 中發佈拓撲</span><span class="sxs-lookup"><span data-stu-id="898d9-109">Publish the topology in Lync Server 2013</span></span>](lync-server-2013-publish-the-topology.md)
 
 </div>
 

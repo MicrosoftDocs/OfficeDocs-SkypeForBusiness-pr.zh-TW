@@ -12,20 +12,20 @@ ms:contentKeyID: 48183920
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2064181a7c4d60015905d5974ac01378b7d025e2
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f7007c06835f0b942411d5200a20ef24c393e600
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029594"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42131806"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-requirements-for-standard-edition-servers-in-lync-server-2013"></a><span data-ttu-id="55c54-102">在 [Lync Server 2013 Standard Edition server 的 DNS 需求</span><span class="sxs-lookup"><span data-stu-id="55c54-102">DNS requirements for Standard Edition servers in Lync Server 2013</span></span>
+# <a name="dns-requirements-for-standard-edition-servers-in-lync-server-2013"></a><span data-ttu-id="78e4f-102">在 [Lync Server 2013 Standard Edition server 的 DNS 需求</span><span class="sxs-lookup"><span data-stu-id="78e4f-102">DNS requirements for Standard Edition servers in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "42029594"
 
 <span> </span>
 
-<span data-ttu-id="55c54-103">_**主題上次修改日期：** 2012年-06-19_</span><span class="sxs-lookup"><span data-stu-id="55c54-103">_**Topic Last Modified:** 2012-06-19_</span></span>
+<span data-ttu-id="78e4f-103">_**主題上次修改日期：** 2012年-06-19_</span><span class="sxs-lookup"><span data-stu-id="78e4f-103">_**Topic Last Modified:** 2012-06-19_</span></span>
 
-<span data-ttu-id="55c54-104">本節說明 Standard Edition Server 部署所需的網域名稱系統 (DNS) 記錄。</span><span class="sxs-lookup"><span data-stu-id="55c54-104">This section describes the Domain Name System (DNS) records that are required for deployment of Standard Edition servers.</span></span>
+<span data-ttu-id="78e4f-104">本節說明 Standard Edition Server 部署所需的網域名稱系統 (DNS) 記錄。</span><span class="sxs-lookup"><span data-stu-id="78e4f-104">This section describes the Domain Name System (DNS) records that are required for deployment of Standard Edition servers.</span></span>
 
 <div>
 
-## <a name="dns-records-for-standard-edition-servers"></a><span data-ttu-id="55c54-105">Standard Edition Server 的 DNS 記錄</span><span class="sxs-lookup"><span data-stu-id="55c54-105">DNS Records for Standard Edition Servers</span></span>
+## <a name="dns-records-for-standard-edition-servers"></a><span data-ttu-id="78e4f-105">Standard Edition Server 的 DNS 記錄</span><span class="sxs-lookup"><span data-stu-id="78e4f-105">DNS Records for Standard Edition Servers</span></span>
 
-<span data-ttu-id="55c54-106">下表指定 Lync Server 2013 Standard Edition server 部署的 DNS 需求。</span><span class="sxs-lookup"><span data-stu-id="55c54-106">The following table specifies DNS requirements for Lync Server 2013 Standard Edition server deployment.</span></span>
+<span data-ttu-id="78e4f-106">下表指定 Lync Server 2013 Standard Edition server 部署的 DNS 需求。</span><span class="sxs-lookup"><span data-stu-id="78e4f-106">The following table specifies DNS requirements for Lync Server 2013 Standard Edition server deployment.</span></span>
 
-### <a name="dns-requirements-for-a-standard-edition-server"></a><span data-ttu-id="55c54-107">Standard Edition Server 的 DNS 需求</span><span class="sxs-lookup"><span data-stu-id="55c54-107">DNS Requirements for a Standard Edition Server</span></span>
+### <a name="dns-requirements-for-a-standard-edition-server"></a><span data-ttu-id="78e4f-107">Standard Edition Server 的 DNS 需求</span><span class="sxs-lookup"><span data-stu-id="78e4f-107">DNS Requirements for a Standard Edition Server</span></span>
 
 <table>
 <colgroup>
@@ -54,26 +54,26 @@ ms.locfileid: "42029594"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="55c54-108">部署案例</span><span class="sxs-lookup"><span data-stu-id="55c54-108">Deployment scenario</span></span></th>
-<th><span data-ttu-id="55c54-109">DNS 需求</span><span class="sxs-lookup"><span data-stu-id="55c54-109">DNS requirement</span></span></th>
+<th><span data-ttu-id="78e4f-108">部署案例</span><span class="sxs-lookup"><span data-stu-id="78e4f-108">Deployment scenario</span></span></th>
+<th><span data-ttu-id="78e4f-109">DNS 需求</span><span class="sxs-lookup"><span data-stu-id="78e4f-109">DNS requirement</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="55c54-110">Standard Edition Server</span><span class="sxs-lookup"><span data-stu-id="55c54-110">Standard Edition server</span></span></p></td>
-<td><p><span data-ttu-id="55c54-111">一筆內部 A 記錄，用來將伺服器的完整網域名稱 (FQDN) 解析為 IP 位址。</span><span class="sxs-lookup"><span data-stu-id="55c54-111">An internal A record that resolves the fully qualified domain name (FQDN) of the server to its IP address.</span></span></p></td>
+<td><p><span data-ttu-id="78e4f-110">Standard Edition Server</span><span class="sxs-lookup"><span data-stu-id="78e4f-110">Standard Edition server</span></span></p></td>
+<td><p><span data-ttu-id="78e4f-111">一筆內部 A 記錄，用來將伺服器的完整網域名稱 (FQDN) 解析為 IP 位址。</span><span class="sxs-lookup"><span data-stu-id="78e4f-111">An internal A record that resolves the fully qualified domain name (FQDN) of the server to its IP address.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="55c54-112">自動用戶端登入</span><span class="sxs-lookup"><span data-stu-id="55c54-112">Automatic client sign-in</span></span></p></td>
-<td><p><span data-ttu-id="55c54-113">每個支援的 SIP 網域，_sipinternaltls._tcp 的 SRV 記錄。&lt;網域&gt;透過對應的 FQDN，Standard Edition server 的驗證，並將登入的用戶端要求重新導向至連接埠 5061。</span><span class="sxs-lookup"><span data-stu-id="55c54-113">For each supported SIP domain, an SRV record for _sipinternaltls._tcp.&lt;domain&gt; over port 5061 that maps to the FQDN of the Standard Edition server that authenticates and redirects client requests for sign-in.</span></span> <span data-ttu-id="55c54-114">如需詳細資訊，請參閱<a href="lync-server-2013-dns-requirements-for-automatic-client-sign-in.md">DNS 需求的用戶端自動登入 Lync Server 2013 中</a>。</span><span class="sxs-lookup"><span data-stu-id="55c54-114">For details, see <a href="lync-server-2013-dns-requirements-for-automatic-client-sign-in.md">DNS requirements for automatic client sign-in in Lync Server 2013</a>.</span></span></p></td>
+<td><p><span data-ttu-id="78e4f-112">自動用戶端登入</span><span class="sxs-lookup"><span data-stu-id="78e4f-112">Automatic client sign-in</span></span></p></td>
+<td><p><span data-ttu-id="78e4f-113">每個支援的 SIP 網域，_sipinternaltls._tcp 的 SRV 記錄。&lt;網域&gt;透過對應的 FQDN，Standard Edition server 的驗證，並將登入的用戶端要求重新導向至連接埠 5061。</span><span class="sxs-lookup"><span data-stu-id="78e4f-113">For each supported SIP domain, an SRV record for _sipinternaltls._tcp.&lt;domain&gt; over port 5061 that maps to the FQDN of the Standard Edition server that authenticates and redirects client requests for sign-in.</span></span> <span data-ttu-id="78e4f-114">如需詳細資訊，請參閱<a href="lync-server-2013-dns-requirements-for-automatic-client-sign-in.md">DNS 需求的用戶端自動登入 Lync Server 2013 中</a>。</span><span class="sxs-lookup"><span data-stu-id="78e4f-114">For details, see <a href="lync-server-2013-dns-requirements-for-automatic-client-sign-in.md">DNS requirements for automatic client sign-in in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="55c54-115">整合通訊 (UC) 裝置的裝置更新 Web 服務探索</span><span class="sxs-lookup"><span data-stu-id="55c54-115">Device Update Web service discovery by unified communications (UC) devices</span></span></p></td>
-<td><p><span data-ttu-id="55c54-116">一筆內部 A 記錄名稱 ucupdates-r2。&lt;SIP 網域&gt;，解析為 Standard Edition server 主控的裝置更新 Web 服務的 IP 位址。</span><span class="sxs-lookup"><span data-stu-id="55c54-116">An internal A record with the name ucupdates-r2.&lt;SIP domain&gt; that resolves to the IP address of the Standard Edition server hosting Device Update Web service.</span></span> <span data-ttu-id="55c54-117">在 UC 裝置已開啟，但尚未有使用者登入裝置的情況下，此 A 記錄會允許裝置去探索裝載著裝置更新 Web 服務的伺服器並取得更新。</span><span class="sxs-lookup"><span data-stu-id="55c54-117">In the situation where a UC device is turned on, but a user has never logged into the device, the A record allows the device to discover the server hosting Device Update Web service and obtain updates.</span></span> <span data-ttu-id="55c54-118">否則，裝置會透過使用者首次登入時的頻內佈建取得伺服器資訊。</span><span class="sxs-lookup"><span data-stu-id="55c54-118">Otherwise, devices obtain the server information though in-band provisioning the first time a user logs in.</span></span></p></td>
+<td><p><span data-ttu-id="78e4f-115">整合通訊 (UC) 裝置的裝置更新 Web 服務探索</span><span class="sxs-lookup"><span data-stu-id="78e4f-115">Device Update Web service discovery by unified communications (UC) devices</span></span></p></td>
+<td><p><span data-ttu-id="78e4f-116">一筆內部 A 記錄名稱 ucupdates-r2。&lt;SIP 網域&gt;，解析為 Standard Edition server 主控的裝置更新 Web 服務的 IP 位址。</span><span class="sxs-lookup"><span data-stu-id="78e4f-116">An internal A record with the name ucupdates-r2.&lt;SIP domain&gt; that resolves to the IP address of the Standard Edition server hosting Device Update Web service.</span></span> <span data-ttu-id="78e4f-117">在 UC 裝置已開啟，但尚未有使用者登入裝置的情況下，此 A 記錄會允許裝置去探索裝載著裝置更新 Web 服務的伺服器並取得更新。</span><span class="sxs-lookup"><span data-stu-id="78e4f-117">In the situation where a UC device is turned on, but a user has never logged into the device, the A record allows the device to discover the server hosting Device Update Web service and obtain updates.</span></span> <span data-ttu-id="78e4f-118">否則，裝置會透過使用者首次登入時的頻內佈建取得伺服器資訊。</span><span class="sxs-lookup"><span data-stu-id="78e4f-118">Otherwise, devices obtain the server information though in-band provisioning the first time a user logs in.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="55c54-119">支援 HTTP 流量的反向 Proxy</span><span class="sxs-lookup"><span data-stu-id="55c54-119">A reverse proxy to support HTTP traffic</span></span></p></td>
-<td><p><span data-ttu-id="55c54-120">一筆外部 A 記錄，將外部 Web 伺服陣列 FQDN 解析為反向 Proxy 的外部 IP 位址。</span><span class="sxs-lookup"><span data-stu-id="55c54-120">An external A record that resolves the external web farm FQDN to the external IP address of the reverse proxy.</span></span> <span data-ttu-id="55c54-121">用戶端和 UC 裝置會使用這個記錄來連線至反向 Proxy。</span><span class="sxs-lookup"><span data-stu-id="55c54-121">Clients and UC devices use this record to connect to the reverse proxy.</span></span> <span data-ttu-id="55c54-122">如需詳細資訊，請參閱規劃文件中的<a href="lync-server-2013-determine-dns-requirements.md">Lync Server 2013 的判斷 DNS 需求</a>。</span><span class="sxs-lookup"><span data-stu-id="55c54-122">For details, see <a href="lync-server-2013-determine-dns-requirements.md">Determine DNS requirements for Lync Server 2013</a> in the Planning documentation.</span></span></p></td>
+<td><p><span data-ttu-id="78e4f-119">支援 HTTP 流量的反向 Proxy</span><span class="sxs-lookup"><span data-stu-id="78e4f-119">A reverse proxy to support HTTP traffic</span></span></p></td>
+<td><p><span data-ttu-id="78e4f-120">一筆外部 A 記錄，將外部 Web 伺服陣列 FQDN 解析為反向 Proxy 的外部 IP 位址。</span><span class="sxs-lookup"><span data-stu-id="78e4f-120">An external A record that resolves the external web farm FQDN to the external IP address of the reverse proxy.</span></span> <span data-ttu-id="78e4f-121">用戶端和 UC 裝置會使用這個記錄來連線至反向 Proxy。</span><span class="sxs-lookup"><span data-stu-id="78e4f-121">Clients and UC devices use this record to connect to the reverse proxy.</span></span> <span data-ttu-id="78e4f-122">如需詳細資訊，請參閱規劃文件中的<a href="lync-server-2013-determine-dns-requirements.md">Lync Server 2013 的判斷 DNS 需求</a>。</span><span class="sxs-lookup"><span data-stu-id="78e4f-122">For details, see <a href="lync-server-2013-determine-dns-requirements.md">Determine DNS requirements for Lync Server 2013</a> in the Planning documentation.</span></span></p></td>
 </tr>
 </tbody>
 </table>

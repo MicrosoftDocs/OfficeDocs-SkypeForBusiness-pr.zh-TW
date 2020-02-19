@@ -12,20 +12,20 @@ ms:contentKeyID: 48183878
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 190e0160532ca0ac26ce4f818f260848ea68f0a1
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: e5ede9d6af8c9f912a207c602c225c19c3dd1f38
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42034805"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135109"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-infrastructure-support-in-lync-server-2013"></a><span data-ttu-id="049c3-102">Lync Server 2013 中的 DNS 基礎結構支援</span><span class="sxs-lookup"><span data-stu-id="049c3-102">DNS infrastructure support in Lync Server 2013</span></span>
+# <a name="dns-infrastructure-support-in-lync-server-2013"></a><span data-ttu-id="993fb-102">Lync Server 2013 中的 DNS 基礎結構支援</span><span class="sxs-lookup"><span data-stu-id="993fb-102">DNS infrastructure support in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "42034805"
 
 <span> </span>
 
-<span data-ttu-id="049c3-103">_**上次修改主題：** 2013年-03-08_</span><span class="sxs-lookup"><span data-stu-id="049c3-103">_**Topic Last Modified:** 2013-03-08_</span></span>
+<span data-ttu-id="993fb-103">_**上次修改主題：** 2013年-03-08_</span><span class="sxs-lookup"><span data-stu-id="993fb-103">_**Topic Last Modified:** 2013-03-08_</span></span>
 
-<span data-ttu-id="049c3-104">Lync Server 2013 需要網域名稱系統 (DNS) 和使用方式如下：</span><span class="sxs-lookup"><span data-stu-id="049c3-104">Lync Server 2013 requires Domain Name System (DNS) and uses it in the following ways:</span></span>
+<span data-ttu-id="993fb-104">Lync Server 2013 需要網域名稱系統 (DNS) 和使用方式如下：</span><span class="sxs-lookup"><span data-stu-id="993fb-104">Lync Server 2013 requires Domain Name System (DNS) and uses it in the following ways:</span></span>
 
-  - <span data-ttu-id="049c3-105">探索內部伺服器或集區以進行伺服器對伺服器的通訊。</span><span class="sxs-lookup"><span data-stu-id="049c3-105">To discover internal servers or pools for server-to-server communications.</span></span>
+  - <span data-ttu-id="993fb-105">探索內部伺服器或集區以進行伺服器對伺服器的通訊。</span><span class="sxs-lookup"><span data-stu-id="993fb-105">To discover internal servers or pools for server-to-server communications.</span></span>
 
-  - <span data-ttu-id="049c3-106">讓用戶端可探索用於各種 SIP 交易的前端集區或 Standard Edition Server。</span><span class="sxs-lookup"><span data-stu-id="049c3-106">To enable clients to discover the Front End pool or Standard Edition server used for various SIP transactions.</span></span>
+  - <span data-ttu-id="993fb-106">讓用戶端可探索用於各種 SIP 交易的前端集區或 Standard Edition Server。</span><span class="sxs-lookup"><span data-stu-id="993fb-106">To enable clients to discover the Front End pool or Standard Edition server used for various SIP transactions.</span></span>
 
-  - <span data-ttu-id="049c3-107">將會議的簡單 URL 與裝載這些會議的伺服器產生關聯。</span><span class="sxs-lookup"><span data-stu-id="049c3-107">To associate the simple URLs for conferences with the servers hosting those conferences.</span></span>
+  - <span data-ttu-id="993fb-107">將會議的簡單 URL 與裝載這些會議的伺服器產生關聯。</span><span class="sxs-lookup"><span data-stu-id="993fb-107">To associate the simple URLs for conferences with the servers hosting those conferences.</span></span>
 
-  - <span data-ttu-id="049c3-108">讓外部伺服器與用戶端可連線至 Edge Server 或 HTTP 反向 Proxy 以進行立即訊息 (IM) 或會議。</span><span class="sxs-lookup"><span data-stu-id="049c3-108">To enable external servers and clients to connect to Edge Servers or the HTTP reverse proxy for instant messaging (IM) or conferencing.</span></span>
+  - <span data-ttu-id="993fb-108">讓外部伺服器與用戶端可連線至 Edge Server 或 HTTP 反向 Proxy 以進行立即訊息 (IM) 或會議。</span><span class="sxs-lookup"><span data-stu-id="993fb-108">To enable external servers and clients to connect to Edge Servers or the HTTP reverse proxy for instant messaging (IM) or conferencing.</span></span>
 
-  - <span data-ttu-id="049c3-109">讓未登入的整合通訊 (UC) 裝置可探索執行裝置更新 Web 服務的前端集區或 Standard Edition Server 以取得更新以及傳送記錄檔。</span><span class="sxs-lookup"><span data-stu-id="049c3-109">To enable unified communications (UC) devices that are not logged in to discover the Front End pool or Standard Edition server running Device Update Web service, obtain updates, and send logs.</span></span>
+  - <span data-ttu-id="993fb-109">讓未登入的整合通訊 (UC) 裝置可探索執行裝置更新 Web 服務的前端集區或 Standard Edition Server 以取得更新以及傳送記錄檔。</span><span class="sxs-lookup"><span data-stu-id="993fb-109">To enable unified communications (UC) devices that are not logged in to discover the Front End pool or Standard Edition server running Device Update Web service, obtain updates, and send logs.</span></span>
 
-  - <span data-ttu-id="049c3-110">讓行動用戶端能自動探索 Web 服務資源，而不需使用者手動在裝置設定中輸入 URL。</span><span class="sxs-lookup"><span data-stu-id="049c3-110">To enable mobile clients to automatically discover Web Services resources without requiring users to manually enter URLs in device settings.</span></span>
+  - <span data-ttu-id="993fb-110">讓行動用戶端能自動探索 Web 服務資源，而不需使用者手動在裝置設定中輸入 URL。</span><span class="sxs-lookup"><span data-stu-id="993fb-110">To enable mobile clients to automatically discover Web Services resources without requiring users to manually enter URLs in device settings.</span></span>
 
-  - <span data-ttu-id="049c3-111">進行 DNS 負載平衡。</span><span class="sxs-lookup"><span data-stu-id="049c3-111">For DNS load balancing.</span></span>
+  - <span data-ttu-id="993fb-111">進行 DNS 負載平衡。</span><span class="sxs-lookup"><span data-stu-id="993fb-111">For DNS load balancing.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="049c3-112">Lync Server 2013 不支援國際化的網域名稱 (Idn)。</span><span class="sxs-lookup"><span data-stu-id="049c3-112">Lync Server 2013 does not support internationalized domain names (IDNs).</span></span>
+> <span data-ttu-id="993fb-112">Lync Server 2013 不支援國際化的網域名稱 (Idn)。</span><span class="sxs-lookup"><span data-stu-id="993fb-112">Lync Server 2013 does not support internationalized domain names (IDNs).</span></span>
 
 
 
@@ -67,7 +67,7 @@ ms.locfileid: "42034805"
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="049c3-113">您指定的名稱必須與伺服器上設定的電腦名稱一模一樣。</span><span class="sxs-lookup"><span data-stu-id="049c3-113">The name you specify must be identical to the computer name configured on the server.</span></span> <span data-ttu-id="049c3-114">根據預設，未加入網域的電腦，其電腦名稱是簡短名稱，而不是完整網域名稱 (FQDN)。</span><span class="sxs-lookup"><span data-stu-id="049c3-114">By default, the computer name of a computer that is not joined to a domain is a short name, not a fully qualified domain name (FQDN).</span></span> <span data-ttu-id="049c3-115">拓撲產生器會使用 Fqdn，不短檔名。</span><span class="sxs-lookup"><span data-stu-id="049c3-115">Topology Builder uses FQDNs, not short names.</span></span> <span data-ttu-id="049c3-116">因此，在未加入網域但要部署為 Edge Server 電腦的電腦名稱中，您必須設定 DNS 尾碼。</span><span class="sxs-lookup"><span data-stu-id="049c3-116">So, you must configure a DNS suffix on the name of the computer to be deployed as an Edge Server that is not joined to a domain.</span></span> <span data-ttu-id="049c3-117">當您為 Lync Server、Edge Server 以及集區指派 FQDN 時，只能使用標準字元<STRONG></STRONG> (包括 A–Z、a–z、0–9 與連字號)。</span><span class="sxs-lookup"><span data-stu-id="049c3-117"><STRONG>Use only standard characters</STRONG> (including A–Z, a–z, 0–9, and hyphens) when assigning FQDNs of your Lync Servers, Edge Servers, and pools.</span></span> <span data-ttu-id="049c3-118">請勿使用 Unicode 字元或底線。</span><span class="sxs-lookup"><span data-stu-id="049c3-118">Do not use Unicode characters or underscores.</span></span> <span data-ttu-id="049c3-119">也就是當 FQDN 必須指派給憑證的 SN 時，外部 DNS 與公用 CA 通常不支援在 FQDN 中使用非標準字元。</span><span class="sxs-lookup"><span data-stu-id="049c3-119">Nonstandard characters in an FQDN are often not supported by external DNS and public CAs (that is, when the FQDN must be assigned to the SN in the certificate).</span></span>
+> <span data-ttu-id="993fb-113">您指定的名稱必須與伺服器上設定的電腦名稱一模一樣。</span><span class="sxs-lookup"><span data-stu-id="993fb-113">The name you specify must be identical to the computer name configured on the server.</span></span> <span data-ttu-id="993fb-114">根據預設，未加入網域的電腦，其電腦名稱是簡短名稱，而不是完整網域名稱 (FQDN)。</span><span class="sxs-lookup"><span data-stu-id="993fb-114">By default, the computer name of a computer that is not joined to a domain is a short name, not a fully qualified domain name (FQDN).</span></span> <span data-ttu-id="993fb-115">拓撲產生器會使用 Fqdn，不短檔名。</span><span class="sxs-lookup"><span data-stu-id="993fb-115">Topology Builder uses FQDNs, not short names.</span></span> <span data-ttu-id="993fb-116">因此，在未加入網域但要部署為 Edge Server 電腦的電腦名稱中，您必須設定 DNS 尾碼。</span><span class="sxs-lookup"><span data-stu-id="993fb-116">So, you must configure a DNS suffix on the name of the computer to be deployed as an Edge Server that is not joined to a domain.</span></span> <span data-ttu-id="993fb-117">當您為 Lync Server、Edge Server 以及集區指派 FQDN 時，只能使用標準字元<STRONG></STRONG> (包括 A–Z、a–z、0–9 與連字號)。</span><span class="sxs-lookup"><span data-stu-id="993fb-117"><STRONG>Use only standard characters</STRONG> (including A–Z, a–z, 0–9, and hyphens) when assigning FQDNs of your Lync Servers, Edge Servers, and pools.</span></span> <span data-ttu-id="993fb-118">請勿使用 Unicode 字元或底線。</span><span class="sxs-lookup"><span data-stu-id="993fb-118">Do not use Unicode characters or underscores.</span></span> <span data-ttu-id="993fb-119">也就是當 FQDN 必須指派給憑證的 SN 時，外部 DNS 與公用 CA 通常不支援在 FQDN 中使用非標準字元。</span><span class="sxs-lookup"><span data-stu-id="993fb-119">Nonstandard characters in an FQDN are often not supported by external DNS and public CAs (that is, when the FQDN must be assigned to the SN in the certificate).</span></span>
 
 
 
