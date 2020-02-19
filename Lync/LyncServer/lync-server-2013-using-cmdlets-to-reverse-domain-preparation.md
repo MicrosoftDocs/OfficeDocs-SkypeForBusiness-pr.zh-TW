@@ -12,20 +12,20 @@ ms:contentKeyID: 48183227
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1c280cdcaa9d06b9ce7eee02cb043ecba0a9deb8
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c1d1f2bd6d285e57c1db9bdac756685d3c24bd1b
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42041252"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42138734"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-cmdlets-to-reverse-domain-preparation-for-lync-server-2013"></a><span data-ttu-id="fd0a2-102">使用 cmdlet 來反轉網域準備 Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fd0a2-102">Using cmdlets to reverse domain preparation for Lync Server 2013</span></span>
+# <a name="using-cmdlets-to-reverse-domain-preparation-for-lync-server-2013"></a><span data-ttu-id="92028-102">使用 cmdlet 來反轉網域準備 Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="92028-102">Using cmdlets to reverse domain preparation for Lync Server 2013</span></span>
 
 </div>
 
@@ -35,34 +35,34 @@ ms.locfileid: "42041252"
 
 <span> </span>
 
-<span data-ttu-id="fd0a2-103">_**主題上次修改日期：** 2012年-10-29_</span><span class="sxs-lookup"><span data-stu-id="fd0a2-103">_**Topic Last Modified:** 2012-10-29_</span></span>
+<span data-ttu-id="92028-103">_**主題上次修改日期：** 2012年-10-29_</span><span class="sxs-lookup"><span data-stu-id="92028-103">_**Topic Last Modified:** 2012-10-29_</span></span>
 
-<span data-ttu-id="fd0a2-104">使用 **Disable-CsAdDomain** Cmdlet 來反轉網域準備步驟。</span><span class="sxs-lookup"><span data-stu-id="fd0a2-104">Use the **Disable-CsAdDomain** cmdlet to reverse the domain preparation step.</span></span>
+<span data-ttu-id="92028-104">使用 **Disable-CsAdDomain** Cmdlet 來反轉網域準備步驟。</span><span class="sxs-lookup"><span data-stu-id="92028-104">Use the **Disable-CsAdDomain** cmdlet to reverse the domain preparation step.</span></span>
 
 <div>
 
-## <a name="to-use-cmdlets-to-reverse-domain-preparation"></a><span data-ttu-id="fd0a2-105">若要使用 Cmdlet 來反轉網域準備</span><span class="sxs-lookup"><span data-stu-id="fd0a2-105">To use cmdlets to reverse domain preparation</span></span>
+## <a name="to-use-cmdlets-to-reverse-domain-preparation"></a><span data-ttu-id="92028-105">若要使用 Cmdlet 來反轉網域準備</span><span class="sxs-lookup"><span data-stu-id="92028-105">To use cmdlets to reverse domain preparation</span></span>
 
-1.  <span data-ttu-id="fd0a2-106">以 Domain Admins 群組成員的身分登入網域中的任何伺服器。</span><span class="sxs-lookup"><span data-stu-id="fd0a2-106">Log on to any server in the domain as a member of the Domain Admins group.</span></span>
+1.  <span data-ttu-id="92028-106">以 Domain Admins 群組成員的身分登入網域中的任何伺服器。</span><span class="sxs-lookup"><span data-stu-id="92028-106">Log on to any server in the domain as a member of the Domain Admins group.</span></span>
 
-2.  <span data-ttu-id="fd0a2-107">啟動 Lync Server 管理命令介面： 按一下 [**開始]**，按一下 [**所有程式]**、 [ **Microsoft Lync Server 2013**]，然後按一下**Lync Server 管理命令介面**。</span><span class="sxs-lookup"><span data-stu-id="fd0a2-107">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+2.  <span data-ttu-id="92028-107">啟動 Lync Server 管理命令介面： 按一下 [**開始]**，按一下 [**所有程式]**、 [ **Microsoft Lync Server 2013**]，然後按一下**Lync Server 管理命令介面**。</span><span class="sxs-lookup"><span data-stu-id="92028-107">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-3.  <span data-ttu-id="fd0a2-108">執行：</span><span class="sxs-lookup"><span data-stu-id="fd0a2-108">Run:</span></span>
+3.  <span data-ttu-id="92028-108">執行：</span><span class="sxs-lookup"><span data-stu-id="92028-108">Run:</span></span>
     
         Disable-CsAdDomain [-Domain <Fqdn>] [-DomainController <Fqdn>] [-Force <SwitchParameter>] 
         [-GlobalCatalog <Fqdn>] [-GlobalSettingsDomainController <Fqdn>] 
     
-    <span data-ttu-id="fd0a2-109">例如：</span><span class="sxs-lookup"><span data-stu-id="fd0a2-109">For example:</span></span>
+    <span data-ttu-id="92028-109">例如：</span><span class="sxs-lookup"><span data-stu-id="92028-109">For example:</span></span>
     
         Disable-CsAdDomain -Domain domain1.contoso.net -GlobalSettingsDomainController dc01.domain1.contoso.net -Force
     
-    <span data-ttu-id="fd0a2-110">Force 參數已存在，如果復原網域準備工作後，即使一或多個前端伺服器或 A / V 會議伺服器中的網域就會啟動。</span><span class="sxs-lookup"><span data-stu-id="fd0a2-110">If the Force parameter is present, domain preparation is rolled back, even if one or more Front End Servers or A/V Conferencing Servers in the domain are activated.</span></span> <span data-ttu-id="fd0a2-111">如果有的話，如果 Force 參數不存在，會終止網域準備復原前端伺服器或 A / V 會議伺服器中的網域就會啟動。</span><span class="sxs-lookup"><span data-stu-id="fd0a2-111">If the Force parameter is not present, domain preparation rollback is terminated if any Front End Servers or A/V Conferencing Servers in the domain are activated.</span></span>
+    <span data-ttu-id="92028-110">Force 參數已存在，如果復原網域準備工作後，即使一或多個前端伺服器或 A / V 會議伺服器中的網域就會啟動。</span><span class="sxs-lookup"><span data-stu-id="92028-110">If the Force parameter is present, domain preparation is rolled back, even if one or more Front End Servers or A/V Conferencing Servers in the domain are activated.</span></span> <span data-ttu-id="92028-111">如果有的話，如果 Force 參數不存在，會終止網域準備復原前端伺服器或 A / V 會議伺服器中的網域就會啟動。</span><span class="sxs-lookup"><span data-stu-id="92028-111">If the Force parameter is not present, domain preparation rollback is terminated if any Front End Servers or A/V Conferencing Servers in the domain are activated.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="fd0a2-112">GlobalSettingsDomainController 參數可讓您指出通用設定的存放位置。</span><span class="sxs-lookup"><span data-stu-id="fd0a2-112">The parameter GlobalSettingsDomainController allows you to indicate where global settings are stored.</span></span> <span data-ttu-id="fd0a2-113">如果您的設定存放在 System 容器 (在升級部署作業期間，當通用設定尚未移轉到 Configuration 容器時的常見現象)，請將網域控制站定義到 Active Directory 樹系根目錄中。</span><span class="sxs-lookup"><span data-stu-id="fd0a2-113">If your settings are stored in the System container (which is typical with upgrade deployments that have not had the global setting migrated to the Configuration container), you define a domain controller in the root of your Active Directory forest.</span></span> <span data-ttu-id="fd0a2-114">如果全域設定位於 Configuration 容器中 (在全新部署或升級部署作業期間，當設定已經移轉至 Configuration 容器時的常見現象)，您可以在樹系中定義任何網域控制站。</span><span class="sxs-lookup"><span data-stu-id="fd0a2-114">If the global settings are in the Configuration container (which is typical with new deployments or upgrade deployments where the settings have been migrated to the Configuration container), you define any domain controller in the forest.</span></span> <span data-ttu-id="fd0a2-115">如果您未指定此參數，指令程式會假設此設定會儲存在 [Configuration] 容器，且所參照的任何網域控制站 AD&nbsp;DS。</span><span class="sxs-lookup"><span data-stu-id="fd0a2-115">If you do not specify this parameter, the cmdlet assumes that the settings are stored in the Configuration container and refers to any domain controller in AD&nbsp;DS.</span></span>
+    > <span data-ttu-id="92028-112">GlobalSettingsDomainController 參數可讓您指出通用設定的存放位置。</span><span class="sxs-lookup"><span data-stu-id="92028-112">The parameter GlobalSettingsDomainController allows you to indicate where global settings are stored.</span></span> <span data-ttu-id="92028-113">如果您的設定存放在 System 容器 (在升級部署作業期間，當通用設定尚未移轉到 Configuration 容器時的常見現象)，請將網域控制站定義到 Active Directory 樹系根目錄中。</span><span class="sxs-lookup"><span data-stu-id="92028-113">If your settings are stored in the System container (which is typical with upgrade deployments that have not had the global setting migrated to the Configuration container), you define a domain controller in the root of your Active Directory forest.</span></span> <span data-ttu-id="92028-114">如果全域設定位於 Configuration 容器中 (在全新部署或升級部署作業期間，當設定已經移轉至 Configuration 容器時的常見現象)，您可以在樹系中定義任何網域控制站。</span><span class="sxs-lookup"><span data-stu-id="92028-114">If the global settings are in the Configuration container (which is typical with new deployments or upgrade deployments where the settings have been migrated to the Configuration container), you define any domain controller in the forest.</span></span> <span data-ttu-id="92028-115">如果您未指定此參數，指令程式會假設此設定會儲存在 [Configuration] 容器，且所參照的任何網域控制站 AD&nbsp;DS。</span><span class="sxs-lookup"><span data-stu-id="92028-115">If you do not specify this parameter, the cmdlet assumes that the settings are stored in the Configuration container and refers to any domain controller in AD&nbsp;DS.</span></span>
 
     
     </div>
@@ -71,13 +71,13 @@ ms.locfileid: "42041252"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="fd0a2-116">另請參閱</span><span class="sxs-lookup"><span data-stu-id="fd0a2-116">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="92028-116">另請參閱</span><span class="sxs-lookup"><span data-stu-id="92028-116">See Also</span></span>
 
 
-[<span data-ttu-id="fd0a2-117">執行網域準備 Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fd0a2-117">Running domain preparation for Lync Server 2013</span></span>](lync-server-2013-running-domain-preparation.md)  
+[<span data-ttu-id="92028-117">執行網域準備 Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="92028-117">Running domain preparation for Lync Server 2013</span></span>](lync-server-2013-running-domain-preparation.md)  
 
 
-[<span data-ttu-id="fd0a2-118">Lync Server 2013 的準備網域</span><span class="sxs-lookup"><span data-stu-id="fd0a2-118">Preparing domains for Lync Server 2013</span></span>](lync-server-2013-preparing-domains.md)  
+[<span data-ttu-id="92028-118">Lync Server 2013 的準備網域</span><span class="sxs-lookup"><span data-stu-id="92028-118">Preparing domains for Lync Server 2013</span></span>](lync-server-2013-preparing-domains.md)  
   
 
 </div>

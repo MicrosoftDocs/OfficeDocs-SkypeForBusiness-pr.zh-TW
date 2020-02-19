@@ -12,20 +12,20 @@ ms:contentKeyID: 50873761
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 181451e5ee4ecba114361aab5408d329f1a2a7d3
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: abf4356478b5b1518de2a616e4eaf49f71443294
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42044355"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42138584"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="client-version-rules-in-lync-server-2013"></a><span data-ttu-id="9d487-102">Lync Server 2013 中的用戶端版本規則</span><span class="sxs-lookup"><span data-stu-id="9d487-102">Client version rules in Lync Server 2013</span></span>
+# <a name="client-version-rules-in-lync-server-2013"></a><span data-ttu-id="46f3f-102">Lync Server 2013 中的用戶端版本規則</span><span class="sxs-lookup"><span data-stu-id="46f3f-102">Client version rules in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "42044355"
 
 <span> </span>
 
-<span data-ttu-id="9d487-103">_**主題上次修改日期：** 2012年-12-11_</span><span class="sxs-lookup"><span data-stu-id="9d487-103">_**Topic Last Modified:** 2012-12-11_</span></span>
+<span data-ttu-id="46f3f-103">_**主題上次修改日期：** 2012年-12-11_</span><span class="sxs-lookup"><span data-stu-id="46f3f-103">_**Topic Last Modified:** 2012-12-11_</span></span>
 
-<span data-ttu-id="9d487-104">用戶端版本原則組成一組用戶端版本原則規則。</span><span class="sxs-lookup"><span data-stu-id="9d487-104">A client version policy is made up of a set of client version policy rules.</span></span> <span data-ttu-id="9d487-105">當使用者嘗試以特定用戶端及用戶端版本登入時，這些規則會定義所要採取的動作。</span><span class="sxs-lookup"><span data-stu-id="9d487-105">These rules define the actions that should be taken when users attempt to log on with specific clients and client versions.</span></span> <span data-ttu-id="9d487-106">使用下列程序來設定 Lync Server 2013 的用戶端版本原則規則</span><span class="sxs-lookup"><span data-stu-id="9d487-106">Use the following procedures to configure client version policy rules for Lync Server 2013</span></span>
+<span data-ttu-id="46f3f-104">用戶端版本原則組成一組用戶端版本原則規則。</span><span class="sxs-lookup"><span data-stu-id="46f3f-104">A client version policy is made up of a set of client version policy rules.</span></span> <span data-ttu-id="46f3f-105">當使用者嘗試以特定用戶端及用戶端版本登入時，這些規則會定義所要採取的動作。</span><span class="sxs-lookup"><span data-stu-id="46f3f-105">These rules define the actions that should be taken when users attempt to log on with specific clients and client versions.</span></span> <span data-ttu-id="46f3f-106">使用下列程序來設定 Lync Server 2013 的用戶端版本原則規則</span><span class="sxs-lookup"><span data-stu-id="46f3f-106">Use the following procedures to configure client version policy rules for Lync Server 2013</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="9d487-107">本章節內容</span><span class="sxs-lookup"><span data-stu-id="9d487-107">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="46f3f-107">本章節內容</span><span class="sxs-lookup"><span data-stu-id="46f3f-107">In This Section</span></span>
 
-  - [<span data-ttu-id="9d487-108">檢視 Lync Server 2013 中的用戶端版本原則規則</span><span class="sxs-lookup"><span data-stu-id="9d487-108">View client version policy rules in Lync Server 2013</span></span>](lync-server-2013-view-client-version-policy-rules.md)
+  - [<span data-ttu-id="46f3f-108">檢視 Lync Server 2013 中的用戶端版本原則規則</span><span class="sxs-lookup"><span data-stu-id="46f3f-108">View client version policy rules in Lync Server 2013</span></span>](lync-server-2013-view-client-version-policy-rules.md)
 
-  - [<span data-ttu-id="9d487-109">建立或修改 Lync Server 2013 中新的用戶端版本原則規則</span><span class="sxs-lookup"><span data-stu-id="9d487-109">Create or modify a new client version policy rule in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-new-client-version-policy-rule.md)
+  - [<span data-ttu-id="46f3f-109">建立或修改 Lync Server 2013 中新的用戶端版本原則規則</span><span class="sxs-lookup"><span data-stu-id="46f3f-109">Create or modify a new client version policy rule in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-new-client-version-policy-rule.md)
 
-  - [<span data-ttu-id="9d487-110">刪除現有 Lync Server 2013 中的用戶端版本原則規則</span><span class="sxs-lookup"><span data-stu-id="9d487-110">Delete an existing client version policy rule in Lync Server 2013</span></span>](lync-server-2013-delete-an-existing-client-version-policy-rule.md)
+  - [<span data-ttu-id="46f3f-110">刪除現有 Lync Server 2013 中的用戶端版本原則規則</span><span class="sxs-lookup"><span data-stu-id="46f3f-110">Delete an existing client version policy rule in Lync Server 2013</span></span>](lync-server-2013-delete-an-existing-client-version-policy-rule.md)
 
 </div>
 

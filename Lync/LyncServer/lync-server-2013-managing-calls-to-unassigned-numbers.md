@@ -12,20 +12,20 @@ ms:contentKeyID: 49733772
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 154f32e22ccce5ae23a4e3dceb175072618cc289
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 14229f4550773c8b75460cca544da2298129f518
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42037513"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42140186"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-calls-to-unassigned-numbers-in-lync-server-2013"></a><span data-ttu-id="0c900-102">管理 Lync Server 2013 中的未指派號碼的通話</span><span class="sxs-lookup"><span data-stu-id="0c900-102">Managing calls to unassigned numbers in Lync Server 2013</span></span>
+# <a name="managing-calls-to-unassigned-numbers-in-lync-server-2013"></a><span data-ttu-id="b2ab3-102">管理 Lync Server 2013 中的未指派號碼的通話</span><span class="sxs-lookup"><span data-stu-id="b2ab3-102">Managing calls to unassigned numbers in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "42037513"
 
 <span> </span>
 
-<span data-ttu-id="0c900-103">_**主題上次修改日期：** 2012年-11-01_</span><span class="sxs-lookup"><span data-stu-id="0c900-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="b2ab3-103">_**主題上次修改日期：** 2012年-11-01_</span><span class="sxs-lookup"><span data-stu-id="b2ab3-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="0c900-104">Lync Server 可讓您設定的電話上的來電處理時撥打的號碼適用於您的組織，但不指派給使用者或電話。</span><span class="sxs-lookup"><span data-stu-id="0c900-104">Lync Server lets you configure the handling of incoming phone calls when the dialed number is valid for your organization, but is not assigned to a user or phone.</span></span> <span data-ttu-id="0c900-105">您可以使用宣告應用程式，這些將來電轉接給預定的目的地 （電話號碼、 SIP URI 或語音信箱），或播放音訊宣告，或兩者。</span><span class="sxs-lookup"><span data-stu-id="0c900-105">You can use the Announcement application to transfer these calls to a predetermined destination (phone number, SIP URI, or voice mail), or play an audio announcement, or both.</span></span> <span data-ttu-id="0c900-106">您可以也這些將來電轉接給 Exchange UM 的自動語音應答電話號碼。</span><span class="sxs-lookup"><span data-stu-id="0c900-106">You can also transfer these calls to an Exchange UM Auto Attendant phone number.</span></span> <span data-ttu-id="0c900-107">處理通話未指派的號碼，在其中一種方式可協助您避免來電者時，然後聽到忙線中的色調，在情況或 SIP 用戶端會收到錯誤訊息。</span><span class="sxs-lookup"><span data-stu-id="0c900-107">Handling calls to unassigned numbers in one of these ways helps you avoid the situations in which a caller misdials and then hears a busy tone, or the SIP client receives an error message.</span></span>
+<span data-ttu-id="b2ab3-104">Lync Server 可讓您設定的電話上的來電處理時撥打的號碼適用於您的組織，但不指派給使用者或電話。</span><span class="sxs-lookup"><span data-stu-id="b2ab3-104">Lync Server lets you configure the handling of incoming phone calls when the dialed number is valid for your organization, but is not assigned to a user or phone.</span></span> <span data-ttu-id="b2ab3-105">您可以使用宣告應用程式，這些將來電轉接給預定的目的地 （電話號碼、 SIP URI 或語音信箱），或播放音訊宣告，或兩者。</span><span class="sxs-lookup"><span data-stu-id="b2ab3-105">You can use the Announcement application to transfer these calls to a predetermined destination (phone number, SIP URI, or voice mail), or play an audio announcement, or both.</span></span> <span data-ttu-id="b2ab3-106">您可以也這些將來電轉接給 Exchange UM 的自動語音應答電話號碼。</span><span class="sxs-lookup"><span data-stu-id="b2ab3-106">You can also transfer these calls to an Exchange UM Auto Attendant phone number.</span></span> <span data-ttu-id="b2ab3-107">處理通話未指派的號碼，在其中一種方式可協助您避免來電者時，然後聽到忙線中的色調，在情況或 SIP 用戶端會收到錯誤訊息。</span><span class="sxs-lookup"><span data-stu-id="b2ab3-107">Handling calls to unassigned numbers in one of these ways helps you avoid the situations in which a caller misdials and then hears a busy tone, or the SIP client receives an error message.</span></span>
 
-<span data-ttu-id="0c900-108">本節說明如何管理未指派號碼範圍，來處理未指派的電話號碼的來電。</span><span class="sxs-lookup"><span data-stu-id="0c900-108">This section describes how to manage unassigned number ranges to handle calls to unassigned phone numbers.</span></span> <span data-ttu-id="0c900-109">[] 區段中也說明如何災害復原期間管理公告，如果您中斷期間需要此功能。</span><span class="sxs-lookup"><span data-stu-id="0c900-109">The section also describes how to manage Announcements during disaster recovery if you want this functionality during an outage.</span></span>
+<span data-ttu-id="b2ab3-108">本節說明如何管理未指派號碼範圍，來處理未指派的電話號碼的來電。</span><span class="sxs-lookup"><span data-stu-id="b2ab3-108">This section describes how to manage unassigned number ranges to handle calls to unassigned phone numbers.</span></span> <span data-ttu-id="b2ab3-109">[] 區段中也說明如何災害復原期間管理公告，如果您中斷期間需要此功能。</span><span class="sxs-lookup"><span data-stu-id="b2ab3-109">The section also describes how to manage Announcements during disaster recovery if you want this functionality during an outage.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="0c900-110">使用未指派的號碼處理中斷期間是選擇性的。</span><span class="sxs-lookup"><span data-stu-id="0c900-110">Using unassigned number handling during an outage is optional.</span></span>
+> <span data-ttu-id="b2ab3-110">使用未指派的號碼處理中斷期間是選擇性的。</span><span class="sxs-lookup"><span data-stu-id="b2ab3-110">Using unassigned number handling during an outage is optional.</span></span>
 
 
 
@@ -53,13 +53,13 @@ ms.locfileid: "42037513"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="0c900-111">本章節內容</span><span class="sxs-lookup"><span data-stu-id="0c900-111">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="b2ab3-111">本章節內容</span><span class="sxs-lookup"><span data-stu-id="b2ab3-111">In This Section</span></span>
 
-  - [<span data-ttu-id="0c900-112">Lync Server 2013 中建立的宣告</span><span class="sxs-lookup"><span data-stu-id="0c900-112">Create an announcement in Lync Server 2013</span></span>](lync-server-2013-create-an-announcement.md)
+  - [<span data-ttu-id="b2ab3-112">Lync Server 2013 中建立的宣告</span><span class="sxs-lookup"><span data-stu-id="b2ab3-112">Create an announcement in Lync Server 2013</span></span>](lync-server-2013-create-an-announcement.md)
 
-  - [<span data-ttu-id="0c900-113">在 Lync Server 2013 中設定未指派的電話號碼</span><span class="sxs-lookup"><span data-stu-id="0c900-113">Configure unassigned phone numbers in Lync Server 2013</span></span>](lync-server-2013-configure-unassigned-phone-numbers.md)
+  - [<span data-ttu-id="b2ab3-113">在 Lync Server 2013 中設定未指派的電話號碼</span><span class="sxs-lookup"><span data-stu-id="b2ab3-113">Configure unassigned phone numbers in Lync Server 2013</span></span>](lync-server-2013-configure-unassigned-phone-numbers.md)
 
-  - [<span data-ttu-id="0c900-114">Lync Server 2013 中的災害復原期間管理公告</span><span class="sxs-lookup"><span data-stu-id="0c900-114">Manage announcements during disaster recovery in Lync Server 2013</span></span>](lync-server-2013-manage-announcements-during-disaster-recovery.md)
+  - [<span data-ttu-id="b2ab3-114">Lync Server 2013 中的災害復原期間管理公告</span><span class="sxs-lookup"><span data-stu-id="b2ab3-114">Manage announcements during disaster recovery in Lync Server 2013</span></span>](lync-server-2013-manage-announcements-during-disaster-recovery.md)
 
 </div>
 

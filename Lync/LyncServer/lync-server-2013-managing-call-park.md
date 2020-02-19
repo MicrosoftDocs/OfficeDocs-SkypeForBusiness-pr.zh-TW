@@ -12,20 +12,20 @@ ms:contentKeyID: 49733740
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f5d0a9b1141688ad5c524090999d6277eb8a733b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 7ac33ce5cc35080ff62d7f35e4a4a75551df0b6a
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42037523"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42140196"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-call-park-in-lync-server-2013"></a><span data-ttu-id="0b705-102">管理 Lync Server 2013 中的通話駐留</span><span class="sxs-lookup"><span data-stu-id="0b705-102">Managing Call Park in Lync Server 2013</span></span>
+# <a name="managing-call-park-in-lync-server-2013"></a><span data-ttu-id="8b367-102">管理 Lync Server 2013 中的通話駐留</span><span class="sxs-lookup"><span data-stu-id="8b367-102">Managing Call Park in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "42037523"
 
 <span> </span>
 
-<span data-ttu-id="0b705-103">_**主題上次修改日期：** 2012年-09-10_</span><span class="sxs-lookup"><span data-stu-id="0b705-103">_**Topic Last Modified:** 2012-09-10_</span></span>
+<span data-ttu-id="8b367-103">_**主題上次修改日期：** 2012年-09-10_</span><span class="sxs-lookup"><span data-stu-id="8b367-103">_**Topic Last Modified:** 2012-09-10_</span></span>
 
-<span data-ttu-id="0b705-104">通話駐留應用程式可讓 Enterprise Voice 使用者通話保留從一個電話，並稍後透過任何電話擷取通話。</span><span class="sxs-lookup"><span data-stu-id="0b705-104">The Call Park application enables an Enterprise Voice user to put a call on hold from one telephone and then retrieve the call later from any telephone.</span></span> <span data-ttu-id="0b705-105">當使用者公園通話，Lync Server 將通話轉接至暫時的數字，稱為*軌道*，通話保留某人擷取或逾時之前。</span><span class="sxs-lookup"><span data-stu-id="0b705-105">When the user parks a call, Lync Server transfers the call to a temporary number, called an *orbit*, where the call is held until someone retrieves it or it times out.</span></span>
+<span data-ttu-id="8b367-104">通話駐留應用程式可讓 Enterprise Voice 使用者通話保留從一個電話，並稍後透過任何電話擷取通話。</span><span class="sxs-lookup"><span data-stu-id="8b367-104">The Call Park application enables an Enterprise Voice user to put a call on hold from one telephone and then retrieve the call later from any telephone.</span></span> <span data-ttu-id="8b367-105">當使用者公園通話，Lync Server 將通話轉接至暫時的數字，稱為*軌道*，通話保留某人擷取或逾時之前。</span><span class="sxs-lookup"><span data-stu-id="8b367-105">When the user parks a call, Lync Server transfers the call to a temporary number, called an *orbit*, where the call is held until someone retrieves it or it times out.</span></span>
 
-<span data-ttu-id="0b705-106">本節中的主題提供逐步程序，您可以執行來自訂和維護您的部署中的通話駐留應用程式的工作。</span><span class="sxs-lookup"><span data-stu-id="0b705-106">Topics in this section provide step-by-step procedures for tasks that you can perform to customize and maintain the Call Park application in your deployment.</span></span>
+<span data-ttu-id="8b367-106">本節中的主題提供逐步程序，您可以執行來自訂和維護您的部署中的通話駐留應用程式的工作。</span><span class="sxs-lookup"><span data-stu-id="8b367-106">Topics in this section provide step-by-step procedures for tasks that you can perform to customize and maintain the Call Park application in your deployment.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="0b705-107">本章節內容</span><span class="sxs-lookup"><span data-stu-id="0b705-107">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="8b367-107">本章節內容</span><span class="sxs-lookup"><span data-stu-id="8b367-107">In This Section</span></span>
 
-  - [<span data-ttu-id="0b705-108">設定電話分機號碼的 Lync Server 2013 中駐留通話</span><span class="sxs-lookup"><span data-stu-id="0b705-108">Configure phone number extensions for parking calls in Lync Server 2013</span></span>](lync-server-2013-configure-phone-number-extensions-for-parking-calls.md)
+  - [<span data-ttu-id="8b367-108">設定電話分機號碼的 Lync Server 2013 中駐留通話</span><span class="sxs-lookup"><span data-stu-id="8b367-108">Configure phone number extensions for parking calls in Lync Server 2013</span></span>](lync-server-2013-configure-phone-number-extensions-for-parking-calls.md)
 
-  - [<span data-ttu-id="0b705-109">在 Lync Server 2013 中設定通話駐留設定</span><span class="sxs-lookup"><span data-stu-id="0b705-109">Configure Call Park settings in Lync Server 2013</span></span>](lync-server-2013-configure-call-park-settings.md)
+  - [<span data-ttu-id="8b367-109">在 Lync Server 2013 中設定通話駐留設定</span><span class="sxs-lookup"><span data-stu-id="8b367-109">Configure Call Park settings in Lync Server 2013</span></span>](lync-server-2013-configure-call-park-settings.md)
 
-  - [<span data-ttu-id="0b705-110">自訂通話駐留等候音樂 Lync Server 2013 中</span><span class="sxs-lookup"><span data-stu-id="0b705-110">Customize Call Park music on hold in Lync Server 2013</span></span>](lync-server-2013-customize-call-park-music-on-hold.md)
+  - [<span data-ttu-id="8b367-110">自訂通話駐留等候音樂 Lync Server 2013 中</span><span class="sxs-lookup"><span data-stu-id="8b367-110">Customize Call Park music on hold in Lync Server 2013</span></span>](lync-server-2013-customize-call-park-music-on-hold.md)
 
-  - [<span data-ttu-id="0b705-111">Lync Server 2013 中的災害復原期間管理通話駐留</span><span class="sxs-lookup"><span data-stu-id="0b705-111">Manage Call Park during disaster recovery in Lync Server 2013</span></span>](lync-server-2013-manage-call-park-during-disaster-recovery.md)
+  - [<span data-ttu-id="8b367-111">Lync Server 2013 中的災害復原期間管理通話駐留</span><span class="sxs-lookup"><span data-stu-id="8b367-111">Manage Call Park during disaster recovery in Lync Server 2013</span></span>](lync-server-2013-manage-call-park-during-disaster-recovery.md)
 
 </div>
 

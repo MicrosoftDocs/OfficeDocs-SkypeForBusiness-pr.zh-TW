@@ -12,20 +12,20 @@ ms:contentKeyID: 48184302
 ms.date: 12/10/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b60f2cb767dc37d06c2c55547b0bf8cfae366cc4
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: af8c6894b25c93eb3c1ab7be9a658eb1a39e7ffa
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050565"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42139254"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-lync-server-2013"></a><span data-ttu-id="3bda5-102">規劃 Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3bda5-102">Planning for Lync Server 2013</span></span>
+# <a name="planning-for-lync-server-2013"></a><span data-ttu-id="9ca32-102">規劃 Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9ca32-102">Planning for Lync Server 2013</span></span>
 
 </div>
 
@@ -35,49 +35,49 @@ ms.locfileid: "42050565"
 
 <span> </span>
 
-<span data-ttu-id="3bda5-103">_**上次修改主題：** 2014年-12-09_</span><span class="sxs-lookup"><span data-stu-id="3bda5-103">_**Topic Last Modified:** 2014-12-09_</span></span>
+<span data-ttu-id="9ca32-103">_**上次修改主題：** 2014年-12-09_</span><span class="sxs-lookup"><span data-stu-id="9ca32-103">_**Topic Last Modified:** 2014-12-09_</span></span>
 
-<span data-ttu-id="3bda5-104">本節中的主題說明如何規劃成功的 Lync Server 部署。</span><span class="sxs-lookup"><span data-stu-id="3bda5-104">The topics in this section describe how to plan for a successful Lync Server deployment.</span></span>
+<span data-ttu-id="9ca32-104">本節中的主題說明如何規劃成功的 Lync Server 部署。</span><span class="sxs-lookup"><span data-stu-id="9ca32-104">The topics in this section describe how to plan for a successful Lync Server deployment.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="3bda5-105">本章節內容</span><span class="sxs-lookup"><span data-stu-id="3bda5-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="9ca32-105">本章節內容</span><span class="sxs-lookup"><span data-stu-id="9ca32-105">In This Section</span></span>
 
-  - [<span data-ttu-id="3bda5-106">規劃 Lync Server 2013 的組織</span><span class="sxs-lookup"><span data-stu-id="3bda5-106">Organization planning for Lync Server 2013</span></span>](lync-server-2013-planning-for-your-organization.md)
+  - [<span data-ttu-id="9ca32-106">規劃 Lync Server 2013 的組織</span><span class="sxs-lookup"><span data-stu-id="9ca32-106">Organization planning for Lync Server 2013</span></span>](lync-server-2013-planning-for-your-organization.md)
 
-  - [<span data-ttu-id="3bda5-107">決定針對 Lync Server 2013 基礎結構需求</span><span class="sxs-lookup"><span data-stu-id="3bda5-107">Determining your infrastructure requirements for Lync Server 2013</span></span>](lync-server-2013-determining-your-infrastructure-requirements.md)
+  - [<span data-ttu-id="9ca32-107">決定針對 Lync Server 2013 基礎結構需求</span><span class="sxs-lookup"><span data-stu-id="9ca32-107">Determining your infrastructure requirements for Lync Server 2013</span></span>](lync-server-2013-determining-your-infrastructure-requirements.md)
 
-  - [<span data-ttu-id="3bda5-108">規劃 Lync Server 2013 的網路</span><span class="sxs-lookup"><span data-stu-id="3bda5-108">Network planning for Lync Server 2013</span></span>](lync-server-2013-network-planning.md)
+  - [<span data-ttu-id="9ca32-108">規劃 Lync Server 2013 的網路</span><span class="sxs-lookup"><span data-stu-id="9ca32-108">Network planning for Lync Server 2013</span></span>](lync-server-2013-network-planning.md)
 
-  - [<span data-ttu-id="3bda5-109">Lync Server 2013 的容量規劃</span><span class="sxs-lookup"><span data-stu-id="3bda5-109">Capacity planning for Lync Server 2013</span></span>](lync-server-2013-capacity-planning.md)
+  - [<span data-ttu-id="9ca32-109">Lync Server 2013 的容量規劃</span><span class="sxs-lookup"><span data-stu-id="9ca32-109">Capacity planning for Lync Server 2013</span></span>](lync-server-2013-capacity-planning.md)
 
-  - [<span data-ttu-id="3bda5-110">規劃 Lync Server 2013 中的高可用性和災害復原</span><span class="sxs-lookup"><span data-stu-id="3bda5-110">Planning for high availability and disaster recovery in Lync Server 2013</span></span>](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)
+  - [<span data-ttu-id="9ca32-110">規劃 Lync Server 2013 中的高可用性和災害復原</span><span class="sxs-lookup"><span data-stu-id="9ca32-110">Planning for high availability and disaster recovery in Lync Server 2013</span></span>](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)
 
-  - [<span data-ttu-id="3bda5-111">規劃管理性與 Lync Server 2013 中的虛擬化</span><span class="sxs-lookup"><span data-stu-id="3bda5-111">Planning for manageability and virtualization in Lync Server 2013</span></span>](lync-server-2013-planning-for-manageability-and-virtualization.md)
+  - [<span data-ttu-id="9ca32-111">規劃管理性與 Lync Server 2013 中的虛擬化</span><span class="sxs-lookup"><span data-stu-id="9ca32-111">Planning for manageability and virtualization in Lync Server 2013</span></span>](lync-server-2013-planning-for-manageability-and-virtualization.md)
 
-  - [<span data-ttu-id="3bda5-112">規劃前端伺服器、 立即訊息和 Lync Server 2013 中的目前狀態</span><span class="sxs-lookup"><span data-stu-id="3bda5-112">Planning for Front End Servers, instant messaging, and presence in Lync Server 2013</span></span>](lync-server-2013-planning-for-front-end-servers-instant-messaging-and-presence.md)
+  - [<span data-ttu-id="9ca32-112">規劃前端伺服器、 立即訊息和 Lync Server 2013 中的目前狀態</span><span class="sxs-lookup"><span data-stu-id="9ca32-112">Planning for Front End Servers, instant messaging, and presence in Lync Server 2013</span></span>](lync-server-2013-planning-for-front-end-servers-instant-messaging-and-presence.md)
 
-  - [<span data-ttu-id="3bda5-113">規劃 Lync Server 2013 中的會議</span><span class="sxs-lookup"><span data-stu-id="3bda5-113">Planning for conferencing in Lync Server 2013</span></span>](lync-server-2013-planning-for-conferencing.md)
+  - [<span data-ttu-id="9ca32-113">規劃 Lync Server 2013 中的會議</span><span class="sxs-lookup"><span data-stu-id="9ca32-113">Planning for conferencing in Lync Server 2013</span></span>](lync-server-2013-planning-for-conferencing.md)
 
-  - [<span data-ttu-id="3bda5-114">規劃 Lync Server 2013 中的外部使用者存取</span><span class="sxs-lookup"><span data-stu-id="3bda5-114">Planning for external user access in Lync Server 2013</span></span>](lync-server-2013-planning-for-external-user-access.md)
+  - [<span data-ttu-id="9ca32-114">規劃 Lync Server 2013 中的外部使用者存取</span><span class="sxs-lookup"><span data-stu-id="9ca32-114">Planning for external user access in Lync Server 2013</span></span>](lync-server-2013-planning-for-external-user-access.md)
 
-  - [<span data-ttu-id="3bda5-115">規劃 Lync Server 2013 中的 Enterprise Voice</span><span class="sxs-lookup"><span data-stu-id="3bda5-115">Planning for Enterprise Voice in Lync Server 2013</span></span>](lync-server-2013-planning-for-enterprise-voice.md)
+  - [<span data-ttu-id="9ca32-115">規劃 Lync Server 2013 中的 Enterprise Voice</span><span class="sxs-lookup"><span data-stu-id="9ca32-115">Planning for Enterprise Voice in Lync Server 2013</span></span>](lync-server-2013-planning-for-enterprise-voice.md)
 
-  - [<span data-ttu-id="3bda5-116">規劃 Lync Server 2013 中監視</span><span class="sxs-lookup"><span data-stu-id="3bda5-116">Planning for monitoring in Lync Server 2013</span></span>](lync-server-2013-planning-for-monitoring.md)
+  - [<span data-ttu-id="9ca32-116">規劃 Lync Server 2013 中監視</span><span class="sxs-lookup"><span data-stu-id="9ca32-116">Planning for monitoring in Lync Server 2013</span></span>](lync-server-2013-planning-for-monitoring.md)
 
-  - [<span data-ttu-id="3bda5-117">規劃 Lync Server 2013 中的封存</span><span class="sxs-lookup"><span data-stu-id="3bda5-117">Planning for Archiving in Lync Server 2013</span></span>](lync-server-2013-planning-for-archiving.md)
+  - [<span data-ttu-id="9ca32-117">規劃 Lync Server 2013 中的封存</span><span class="sxs-lookup"><span data-stu-id="9ca32-117">Planning for Archiving in Lync Server 2013</span></span>](lync-server-2013-planning-for-archiving.md)
 
-  - [<span data-ttu-id="3bda5-118">規劃 Lync Server 2013 中的常設聊天室伺服器</span><span class="sxs-lookup"><span data-stu-id="3bda5-118">Planning for Persistent Chat Server in Lync Server 2013</span></span>](lync-server-2013-planning-for-persistent-chat-server.md)
+  - [<span data-ttu-id="9ca32-118">規劃 Lync Server 2013 中的常設聊天室伺服器</span><span class="sxs-lookup"><span data-stu-id="9ca32-118">Planning for Persistent Chat Server in Lync Server 2013</span></span>](lync-server-2013-planning-for-persistent-chat-server.md)
 
-  - [<span data-ttu-id="3bda5-119">規劃 Exchange Server 與 Lync Server 2013 整合</span><span class="sxs-lookup"><span data-stu-id="3bda5-119">Planning for Exchange Server integration with Lync Server 2013</span></span>](lync-server-2013-planning-for-exchange-server-integration.md)
+  - [<span data-ttu-id="9ca32-119">規劃 Exchange Server 與 Lync Server 2013 整合</span><span class="sxs-lookup"><span data-stu-id="9ca32-119">Planning for Exchange Server integration with Lync Server 2013</span></span>](lync-server-2013-planning-for-exchange-server-integration.md)
 
-  - [<span data-ttu-id="3bda5-120">規劃用戶端和 Lync Server 2013 中的裝置</span><span class="sxs-lookup"><span data-stu-id="3bda5-120">Planning for clients and devices in Lync Server 2013</span></span>](lync-server-2013-planning-for-clients-and-devices.md)
+  - [<span data-ttu-id="9ca32-120">規劃用戶端和 Lync Server 2013 中的裝置</span><span class="sxs-lookup"><span data-stu-id="9ca32-120">Planning for clients and devices in Lync Server 2013</span></span>](lync-server-2013-planning-for-clients-and-devices.md)
 
-  - [<span data-ttu-id="3bda5-121">規劃 Lync Server 2013 中的遠端呼叫控制</span><span class="sxs-lookup"><span data-stu-id="3bda5-121">Planning for remote call control in Lync Server 2013</span></span>](lync-server-2013-planning-for-remote-call-control.md)
+  - [<span data-ttu-id="9ca32-121">規劃 Lync Server 2013 中的遠端呼叫控制</span><span class="sxs-lookup"><span data-stu-id="9ca32-121">Planning for remote call control in Lync Server 2013</span></span>](lync-server-2013-planning-for-remote-call-control.md)
 
-  - [<span data-ttu-id="3bda5-122">Lync Server 2013 中的行動規劃</span><span class="sxs-lookup"><span data-stu-id="3bda5-122">Planning for mobility in Lync Server 2013</span></span>](lync-server-2013-planning-for-mobility.md)
+  - [<span data-ttu-id="9ca32-122">Lync Server 2013 中的行動規劃</span><span class="sxs-lookup"><span data-stu-id="9ca32-122">Planning for mobility in Lync Server 2013</span></span>](lync-server-2013-planning-for-mobility.md)
 
-  - [<span data-ttu-id="3bda5-123">Lync Server 2013 中的安全性規劃</span><span class="sxs-lookup"><span data-stu-id="3bda5-123">Planning for security in Lync Server 2013</span></span>](lync-server-2013-planning-for-security.md)
+  - [<span data-ttu-id="9ca32-123">Lync Server 2013 中的安全性規劃</span><span class="sxs-lookup"><span data-stu-id="9ca32-123">Planning for security in Lync Server 2013</span></span>](lync-server-2013-planning-for-security.md)
 
 </div>
 

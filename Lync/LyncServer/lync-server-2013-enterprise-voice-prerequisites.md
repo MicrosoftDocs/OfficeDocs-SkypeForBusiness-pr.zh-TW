@@ -12,20 +12,20 @@ ms:contentKeyID: 48185746
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4289d79be09b1bfbcb9d11e53d97ef2ee9a37dca
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 8a78a665a5472e630b274e3c470e711fe7708374
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41993518"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42137402"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enterprise-voice-prerequisites-for-lync-server-2013"></a><span data-ttu-id="4fe1d-102">Lync Server 2013 Enterprise Voice 先決條件</span><span class="sxs-lookup"><span data-stu-id="4fe1d-102">Enterprise Voice prerequisites for Lync Server 2013</span></span>
+# <a name="enterprise-voice-prerequisites-for-lync-server-2013"></a><span data-ttu-id="6ce12-102">Lync Server 2013 Enterprise Voice 先決條件</span><span class="sxs-lookup"><span data-stu-id="6ce12-102">Enterprise Voice prerequisites for Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41993518"
 
 <span> </span>
 
-<span data-ttu-id="4fe1d-103">_**主題上次修改日期：** 2012年-08-06_</span><span class="sxs-lookup"><span data-stu-id="4fe1d-103">_**Topic Last Modified:** 2012-08-06_</span></span>
+<span data-ttu-id="6ce12-103">_**主題上次修改日期：** 2012年-08-06_</span><span class="sxs-lookup"><span data-stu-id="6ce12-103">_**Topic Last Modified:** 2012-08-06_</span></span>
 
-<span data-ttu-id="4fe1d-104">為部署 Enterprise Voice 時的最佳經驗，請務必您的 IT 基礎結構、 網路和系統都符合本節主題所述的必要條件。</span><span class="sxs-lookup"><span data-stu-id="4fe1d-104">For the best experience when deploying Enterprise Voice, be sure that your IT infrastructure, network, and systems meet the prerequisites described in the topics in this section.</span></span>
+<span data-ttu-id="6ce12-104">為部署 Enterprise Voice 時的最佳經驗，請務必您的 IT 基礎結構、 網路和系統都符合本節主題所述的必要條件。</span><span class="sxs-lookup"><span data-stu-id="6ce12-104">For the best experience when deploying Enterprise Voice, be sure that your IT infrastructure, network, and systems meet the prerequisites described in the topics in this section.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="4fe1d-105">本章節內容</span><span class="sxs-lookup"><span data-stu-id="4fe1d-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="6ce12-105">本章節內容</span><span class="sxs-lookup"><span data-stu-id="6ce12-105">In This Section</span></span>
 
-  - [<span data-ttu-id="4fe1d-106">Lync Server 2013 中的 Enterprise Voice 的軟體先決條件</span><span class="sxs-lookup"><span data-stu-id="4fe1d-106">Software prerequisites for Enterprise Voice in Lync Server 2013</span></span>](lync-server-2013-software-prerequisites-for-enterprise-voice.md)
+  - [<span data-ttu-id="6ce12-106">Lync Server 2013 中的 Enterprise Voice 的軟體先決條件</span><span class="sxs-lookup"><span data-stu-id="6ce12-106">Software prerequisites for Enterprise Voice in Lync Server 2013</span></span>](lync-server-2013-software-prerequisites-for-enterprise-voice.md)
 
-  - [<span data-ttu-id="4fe1d-107">Lync Server 2013 中的 Enterprise voice 的安全性和組態必要條件</span><span class="sxs-lookup"><span data-stu-id="4fe1d-107">Security and configuration prerequisites for Enterprise Voice in Lync Server 2013</span></span>](lync-server-2013-security-and-configuration-prerequisites-for-enterprise-voice.md)
+  - [<span data-ttu-id="6ce12-107">Lync Server 2013 中的 Enterprise voice 的安全性和組態必要條件</span><span class="sxs-lookup"><span data-stu-id="6ce12-107">Security and configuration prerequisites for Enterprise Voice in Lync Server 2013</span></span>](lync-server-2013-security-and-configuration-prerequisites-for-enterprise-voice.md)
 
 </div>
 
