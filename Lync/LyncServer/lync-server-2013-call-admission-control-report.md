@@ -12,18 +12,18 @@ ms:contentKeyID: 48185933
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ba5b643adf6a8208285aeba66304ddd1657afdfa
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 60a51a27a4aa5c6d0df5970da669bc1c67f068c2
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045405"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42134989"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="call-admission-control-report-in-lync-server-2013"></a>Lync Server 2013 中通話許可控制報告
 
@@ -277,7 +277,7 @@ _**主題上次修改日期：** 2012年-06-29_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Role</strong></p></td>
+<td><p><strong>角色</strong></p></td>
 <td><p>否</p></td>
 <td><p>會議參與者所扮演的角色 (例如，簡報者)。</p></td>
 </tr>

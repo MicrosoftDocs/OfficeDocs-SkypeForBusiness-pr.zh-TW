@@ -12,18 +12,18 @@ ms:contentKeyID: 48184265
 ms.date: 08/27/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 55095e968e898445e42ceebed73f95ee9fb128d9
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 4ee280cabe9df1ad720f1007f1dc787db9f32aab
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42043845"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42134089"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="client-and-device-software-and-infrastructure-support-in-lync-server-2013"></a>Lync Server 2013 中的用戶端與裝置軟體和基礎結構支援
 
@@ -59,9 +59,9 @@ _**上次修改主題：** 2014 年 08 月 27 日_
 > Lync Phone Edition 的運作方式相同搭配 Lync Server 2013 與 Lync Server 2010 一樣。 如需對裝置的軟體支援的詳細資訊，請參閱 < Lync Server 2010 TechNet Library 中的下列主題： 
 > <UL>
 > <LI>
-> <P>在裝置的必要的 Lync Server 2010 元件<A class=uri href="http://go.microsoft.com/fwlink/p/?linkid=256488">http://go.microsoft.com/fwlink/p/?linkid=256488</A></P>
+> <P>在裝置的必要的 Lync Server 2010 元件<A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=256488">https://go.microsoft.com/fwlink/p/?linkid=256488</A></P>
 > <LI>
-> <P>裝置系統和基礎結構支援部門<A class=uri href="http://go.microsoft.com/fwlink/p/?linkid=256489">http://go.microsoft.com/fwlink/p/?linkid=256489</A></P></LI></UL>
+> <P>裝置系統和基礎結構支援部門<A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=256489">https://go.microsoft.com/fwlink/p/?linkid=256489</A></P></LI></UL>
 
 
 

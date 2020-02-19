@@ -12,18 +12,18 @@ ms:contentKeyID: 49733566
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8debab39073bf31f509ec504f944c8e4c7a9dfc3
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 04e9599e0790c3d3468273ba27ea26f28ed3d766
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008415"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42134759"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-microsoft-sharepoint-server-2013-to-search-for-archived-microsoft-lync-server-2013-data"></a>設定 Microsoft SharePoint Server 2013 搜尋已封存的 Microsoft Lync Server 2013 資料
 
@@ -39,7 +39,7 @@ _**上次修改主題：** 2014年-02-04_
 
 若要將立即訊息和 Web 會議記錄儲存在 Microsoft Exchange Server 2013，而不是 Microsoft Lync Server 2013 的主要優點之一是將資料儲存在相同的位置可讓系統管理員可以使用單一工具來搜尋封存的 Exchange 資料及/或封存的 Lync Server 資料的事實。 因為所有的資料儲存在同一個放置 (Exchange) 封存 Exchange 資料可以搜尋任何工具也可以搜尋封存的 Lync Server 資料。
 
-一種工具，可讓您輕鬆地搜尋封存的資料為 Microsoft SharePoint Server 2013。 如果您想要使用 SharePoint 搜尋 Lync Server 的資料，您必須先完成所有參與設定 Exchange 封存 Lync Server 中的步驟。 Exchange 2013 和 Lync Server 2013 有已成功地整合之後您必須在您的 SharePoint Server;，然後安裝 Exchange Web Services Managed API 2.0 版您可以從 Microsoft 下載中心下載該 API 的安裝程式 ([http://go.microsoft.com/fwlink/p/?LinkId=258305](http://go.microsoft.com/fwlink/p/?linkid=258305))。 下載的檔案 (EWSManagedAPI.msi) 可以儲存至 SharePoint Server 上的任何資料夾。
+一種工具，可讓您輕鬆地搜尋封存的資料為 Microsoft SharePoint Server 2013。 如果您想要使用 SharePoint 搜尋 Lync Server 的資料，您必須先完成所有參與設定 Exchange 封存 Lync Server 中的步驟。 Exchange 2013 和 Lync Server 2013 有已成功地整合之後您必須在您的 SharePoint Server;，然後安裝 Exchange Web Services Managed API 2.0 版您可以從 Microsoft 下載中心下載該 API 的安裝程式 ([https://go.microsoft.com/fwlink/p/?LinkId=258305](https://go.microsoft.com/fwlink/p/?linkid=258305))。 下載的檔案 (EWSManagedAPI.msi) 可以儲存至 SharePoint Server 上的任何資料夾。
 
 下載檔案之後，在 SharePoint Server 上完成下列程序：
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 63969643
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 67a0355d32e5e704d6609335c82f8cfe1fe7aa86
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 03a819fad54bbd19be842f7ae28f655186135b50
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029284"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42134479"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="as-needed-tasks-in-lync-server-2013"></a>視需要在 Lync Server 2013 中的工作
 
@@ -103,7 +103,7 @@ _**上次修改主題：** 2014年-08-18_
     
       - 刪除 Lync Server 使用者
 
-  - **分析 Lync Server 2013 記錄檔**   一種非常有用的工具，通常用於疑難排解的方式，是[使用 Lync Server 2013 記錄工具](http://technet.microsoft.com/library/gg558599.aspx)的詳細說明 Lync Server 2013 記錄工具。
+  - **分析 Lync Server 2013 記錄檔**   一種非常有用的工具，通常用於疑難排解的方式，是[使用 Lync Server 2013 記錄工具](https://technet.microsoft.com/library/gg558599.aspx)的詳細說明 Lync Server 2013 記錄工具。
 
 因為記錄工具會產生記錄檔 （根據每個伺服器），可以檢視這些記錄檔，且分析使用 Snooper 工具，如果電腦上安裝 Microsoft Office Server 12 Resource Kit 工具。 否則，記錄檔也可以使用文字編輯器，也就是遠低於透明、 更複雜比使用 Snooper 公用程式進行分析。
 

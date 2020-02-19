@@ -12,18 +12,18 @@ ms:contentKeyID: 48183764
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1fb129114962a6f530ad1d52f6b0314d439d9c5d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: d616a10282deaa7b62c5dfc0783e58c919128b8d
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42044455"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42134869"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="call-park-application-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的通話駐留應用程式 cmdlet
 
@@ -85,7 +85,7 @@ _**主題上次修改日期：** 2012年-03-21_
 ## <a name="see-also"></a>另請參閱
 
 
-[Lync Server PowerShell 部落格](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+[Lync Server PowerShell 部落格](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

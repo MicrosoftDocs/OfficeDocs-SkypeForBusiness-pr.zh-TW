@@ -12,18 +12,18 @@ ms:contentKeyID: 56335088
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a959addbcd98e04d336ba380676399dbff2f586b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 237799a84d0230bf55737779921dd66b23c27130
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42040782"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42133988"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuration-of-location-based-routing-for-conferencing-in-lync-server-2013"></a>Lync Server 2013 中的會議位置型路由的組態
 
@@ -63,11 +63,11 @@ Get-csserverapplication-Identity Service: Registrar:\<集區 FQDN\>
 
 您尋找正確的優先順序值的位置型路由會議應用程式後，請輸入每個前端集區或 Standard Edition Server 主控的使用者啟用位置型路由的下列 cmdlet:
 
-New-csserverapplication-Identity Service: Registrar:\<集區 FQDN\>/LBRouting-優先順序\<應用程式的優先順序\>-啟用 $true-重要 $true Urihttp://www.microsoft.com/LCS/LBRouting
+New-csserverapplication-Identity Service: Registrar:\<集區 FQDN\>/LBRouting-優先順序\<應用程式的優先順序\>-啟用 $true-重要 $true Urihttps://www.microsoft.com/LCS/LBRouting
 
 例如：
 
-New-csserverapplication-Identity Service:Registrar:LS2013CU2LBRPool.contoso.com/LBRouting-優先順序 3-啟用的 $true-重要 $true Urihttp://www.microsoft.com/LCS/LBRouting
+New-csserverapplication-Identity Service:Registrar:LS2013CU2LBRPool.contoso.com/LBRouting-優先順序 3-啟用的 $true-重要 $true Urihttps://www.microsoft.com/LCS/LBRouting
 
 使用此 cmdlet 之後, 重新啟動集區或 Standard Edition 伺服器已啟用位置型路由會議應用程式中的所有前端伺服器。
 
