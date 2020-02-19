@@ -12,18 +12,18 @@ ms:contentKeyID: 48184580
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f20d297e1d127d167aa8acc059f5b6f89cc96d13
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: d0cd27f961d3b4857cf13d5786897bd29a657851
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42036503"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135560"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="capacity-planning-for-persistent-chat-server-in-lync-server-2013"></a>Persistent Chat Server in Lync Server 2013 的容量規劃
 
@@ -41,7 +41,7 @@ Persistent Chat Server 可以執行多個使用者可以保存的即時聊天室
 
 容量規劃是準備部署 Persistent Chat Server 的重要部分。 本主題提供有關支援的常設聊天室伺服器拓撲和容量規劃表格可用來判斷您的部署的最佳組態的詳細資訊。 它也說明如何以最佳管理 Persistent Chat Server 部署在尖峰時間需要更多的容量。
 
-若要下載 Persistent Chat Server，請參閱 「 Microsoft Lync Server 13 Persistent Chat Server" [http://go.microsoft.com/fwlink/p/?linkId=209539](http://go.microsoft.com/fwlink/p/?linkid=209539)。
+若要下載 Persistent Chat Server，請參閱 「 Microsoft Lync Server 13 Persistent Chat Server" [https://go.microsoft.com/fwlink/p/?linkId=209539](https://go.microsoft.com/fwlink/p/?linkid=209539)。
 
 如需安裝 Persistent Chat Server 的詳細資訊，請參閱部署文件中的[安裝 Persistent Chat Server in Lync Server 2013](lync-server-2013-installing-persistent-chat-server.md)和[Configuring Persistent Chat Server in Lync Server 2013](lync-server-2013-configuring-persistent-chat-server.md) 。
 
@@ -212,21 +212,21 @@ Persistent Chat Server 可以執行多個使用者可以保存的即時聊天室
 <td><p>開啟的聊天室 （沒有明確的成員資格）</p></td>
 <td><p>960</p></td>
 <td><p>32</p></td>
-<td><p>5 </p></td>
+<td><p>5</p></td>
 <td><p>997</p></td>
 </tr>
 <tr class="even">
 <td><p>非開啟聊天室 （使用明確的成員資格的一般聊天室）</p></td>
 <td><p>31,040</p></td>
 <td><p>1.035</p></td>
-<td><p>5 </p></td>
+<td><p>5</p></td>
 <td><p>32,080</p></td>
 </tr>
 <tr class="odd">
 <td><p>視聽中心聊天室 （其他簡報者項目）</p></td>
 <td><p>0</p></td>
 <td><p>32</p></td>
-<td><p>5 </p></td>
+<td><p>5</p></td>
 <td></td>
 </tr>
 <tr class="even">
@@ -259,8 +259,8 @@ Persistent Chat Server 可以執行多個使用者可以保存的即時聊天室
 </tr>
 <tr class="even">
 <td><p>非開啟會議室的每個聊天室的成員資格清單中的使用者群組</p></td>
-<td><p>3 </p></td>
-<td><p>5 </p></td>
+<td><p>3</p></td>
+<td><p>5</p></td>
 <td><p>10 </p></td>
 <td></td>
 </tr>
@@ -515,7 +515,7 @@ Persistent Chat Server 可以執行多個使用者可以保存的即時聊天室
 <tr class="odd">
 <td><p>每位使用者每天的聊天速率</p></td>
 <td><p>15 </p></td>
-<td><p>5 </p></td>
+<td><p>5</p></td>
 <td><p>0.1</p></td>
 <td><p>20</p></td>
 </tr>
@@ -559,7 +559,7 @@ Persistent Chat Server 可以執行多個使用者可以保存的即時聊天室
 </tr>
 <tr class="even">
 <td><p>Persistent Chat Server 服務執行個體數</p></td>
-<td><p>4 </p></td>
+<td><p>4</p></td>
 </tr>
 <tr class="odd">
 <td><p>小型聊天室大小</p></td>
@@ -599,11 +599,11 @@ Persistent Chat Server 可以執行多個使用者可以保存的即時聊天室
 </tr>
 <tr class="even">
 <td><p>每位使用者的中型聊天室數</p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 </tr>
 <tr class="odd">
 <td><p>每位使用者的大型聊天室數</p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 </tr>
 <tr class="even">
 <td><p>每個使用者加入的聊天室數</p></td>

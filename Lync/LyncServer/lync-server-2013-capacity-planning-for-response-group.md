@@ -12,18 +12,18 @@ ms:contentKeyID: 48184951
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4e5724978347b50db2790e4d5798aace8489acbb
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: bc7c17146c3cd5913ae82c84b8d7ae292db990f7
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42046256"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135550"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="capacity-planning-for-response-group-in-lync-server-2013"></a>容量規劃的 Lync Server 2013 中的回應群組
 
@@ -80,7 +80,7 @@ _**主題上次修改日期：** 2012年-10-29_
 <tr class="odd">
 <td><p>每秒來電</p></td>
 <td><p>16 </p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 </tr>
 <tr class="even">
 <td><p>連線至 IVR 或 MoH 的並行通話</p></td>

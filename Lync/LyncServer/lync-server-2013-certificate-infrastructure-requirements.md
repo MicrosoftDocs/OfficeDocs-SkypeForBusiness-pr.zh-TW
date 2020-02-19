@@ -12,18 +12,18 @@ ms:contentKeyID: 48183219
 ms.date: 06/23/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8b64f06d9ca879236c0842554c1779fb7bbc1cbe
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 3dd1aa5bdde1c94e3d0558be14c67cf62ec8142a
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42038455"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135289"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="certificate-infrastructure-requirements-for-lync-server-2013"></a>Lync Server 2013 的憑證基礎結構需求
 
@@ -59,7 +59,7 @@ Lync server，適用下列一般需求：
 
   - 所有的伺服器憑證必須包含一個 CRL 發佈點 (CDP)。
 
-  - 必須使用支援的作業系統簽署演算法簽署所有憑證。 Lync Server 2013 支援 sha-1 和摘要 sha-2 套件調整大小 （224 256、 384，512 位元），並使用符合或超過作業系統需求。 如需作業系統支援，請參閱[http://go.microsoft.com/fwlink/?LinkId=287002](http://go.microsoft.com/fwlink/?linkid=287002)。
+  - 必須使用支援的作業系統簽署演算法簽署所有憑證。 Lync Server 2013 支援 sha-1 和摘要 sha-2 套件調整大小 （224 256、 384，512 位元），並使用符合或超過作業系統需求。 如需作業系統支援，請參閱[https://go.microsoft.com/fwlink/?LinkId=287002](https://go.microsoft.com/fwlink/?linkid=287002)。
     
     <div>
     

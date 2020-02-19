@@ -12,18 +12,18 @@ ms:contentKeyID: 48184031
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3827bf913c4108c1105376a6f178598a2fb45a06
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 457702a4b237493beb8ca5dfe1e2d7ce9b3d2654
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41996648"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135530"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-client-bootstrapping-policies-in-lync-server-2013"></a>設定用戶端啟動載入 Lync Server 2013 中的原則
 
@@ -37,7 +37,7 @@ ms.locfileid: "41996648"
 
 _**上次修改主題：** 2013年-02-21_
 
-群組原則管理主控台 (GPMC) 和群組原則物件編輯器是您用來管理群組原則工具。 隨附於 Office 群組原則系統管理範本是 Lync 2013.admx (ADMX) 以及.adml (ADML) 系統管理範本，其中包含您的網域中的群組原則物件的登錄型原則設定。 ADML 檔案都是特定語言的互補 ADMX 檔案。 每個 ADMX 和 ADML 檔案包含單一 Office 應用程式的原則設定。 如需詳細資訊，請參閱 「 Office 2013 Administrative Template files （ADMX，ADML） 」 中的 Office 2013 文件<http://go.microsoft.com/fwlink/p/?linkid=267516>。
+群組原則管理主控台 (GPMC) 和群組原則物件編輯器是您用來管理群組原則工具。 隨附於 Office 群組原則系統管理範本是 Lync 2013.admx (ADMX) 以及.adml (ADML) 系統管理範本，其中包含您的網域中的群組原則物件的登錄型原則設定。 ADML 檔案都是特定語言的互補 ADMX 檔案。 每個 ADMX 和 ADML 檔案包含單一 Office 應用程式的原則設定。 如需詳細資訊，請參閱 「 Office 2013 Administrative Template files （ADMX，ADML） 」 中的 Office 2013 文件<https://go.microsoft.com/fwlink/p/?linkid=267516>。
 
 Lync 2013 的有幾個用戶端啟動載入原則，您應該考慮設定之前使用者登入伺服器第一次。 如範例、 預設伺服器和用戶端應該使用直到登入的安全性模式已完成。 您可以使用群組原則來建立使用者的電腦登錄中的這些設定之前他們登入，並開始接收來自伺服器的頻內佈建設定。 下表列出可供 Lync 2013 的群組原則設定。
 
@@ -155,19 +155,19 @@ Lync 2013 的有幾個用戶端啟動載入原則，您應該考慮設定之前�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Lync Server 2013 頻內佈建</p></td>
 </tr>
 <tr class="even">
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\15.0\Lync</p></td>
 </tr>
 <tr class="odd">
-<td><p>3 </p></td>
+<td><p>3</p></td>
 <td><p>HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\Lync</p></td>
 </tr>
 <tr class="even">
-<td><p>4 </p></td>
+<td><p>4</p></td>
 <td><p>[Lync-Lync 2013 中的 [選項] 對話方塊</p></td>
 </tr>
 </tbody>

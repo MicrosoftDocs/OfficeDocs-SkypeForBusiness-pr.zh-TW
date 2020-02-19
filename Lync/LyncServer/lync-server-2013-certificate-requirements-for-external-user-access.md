@@ -12,18 +12,18 @@ ms:contentKeyID: 48185503
 ms.date: 03/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7000456629a91742350b9866dc9e1441c18eee57
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 0561c2d6b36090a9499abf360373cf0468cdbda8
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030867"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135269"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="certificate-requirements-for-external-user-access-in-lync-server-2013"></a>Lync Server 2013 中的外部使用者存取的憑證需求
 
@@ -41,7 +41,7 @@ Microsoft Lync Server 2013 通訊軟體支援單一公用憑證使用的存取�
 
 以下是用來存取與 web 會議 Edge 外部介面以及 A 的公用憑證的需求 / V 驗證服務：
 
-  - 憑證必須支援主體替代名稱核准公用 CA 所發出。 如需詳細資訊，請參閱 Microsoft 知識庫文件 929395，「 整合通訊憑證合作夥伴的 Exchange Server 和 Communications Server，" [http://go.microsoft.com/fwlink/p/?linkId=202834](http://go.microsoft.com/fwlink/p/?linkid=202834)。
+  - 憑證必須支援主體替代名稱核准公用 CA 所發出。 如需詳細資訊，請參閱 Microsoft 知識庫文件 929395，「 整合通訊憑證合作夥伴的 Exchange Server 和 Communications Server，" [https://go.microsoft.com/fwlink/p/?linkId=202834](https://go.microsoft.com/fwlink/p/?linkid=202834)。
 
   - 如果憑證將用於 Edge 集區上，則必須加以建立為可匯出私密金鑰，與 Edge 集區中每部 Edge Server 上使用的同一個憑證。 可匯出私密金鑰的重要需求是基於的 A / V 驗證服務，必須跨所有 Edge Server 集區中使用相同的私密金鑰。
 
