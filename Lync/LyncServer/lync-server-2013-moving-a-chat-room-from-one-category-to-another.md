@@ -12,20 +12,20 @@ ms:contentKeyID: 48706004
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 40077d8092f8b0b78b6e9ce78cd16c6f1e0812f0
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 5bde33220c13b5a484f66131ce6090d57d3b9bae
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008235"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153605"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="moving-a-chat-room-from-one-category-to-another-in-lync-server-2013"></a><span data-ttu-id="bb5c7-102">將聊天室從某個類別移至 Lync Server 2013 中的另一個</span><span class="sxs-lookup"><span data-stu-id="bb5c7-102">Moving a chat room from one category to another in Lync Server 2013</span></span>
+# <a name="moving-a-chat-room-from-one-category-to-another-in-lync-server-2013"></a><span data-ttu-id="b6c70-102">將聊天室從某個類別移至 Lync Server 2013 中的另一個</span><span class="sxs-lookup"><span data-stu-id="b6c70-102">Moving a chat room from one category to another in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "42008235"
 
 <span> </span>
 
-<span data-ttu-id="bb5c7-103">_**主題上次修改日期：** 2012年-11-01_</span><span class="sxs-lookup"><span data-stu-id="bb5c7-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="b6c70-103">_**主題上次修改日期：** 2012年-11-01_</span><span class="sxs-lookup"><span data-stu-id="b6c70-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="bb5c7-104">我們建議您不要變更的常設聊天室類別之後建立的聊天室。</span><span class="sxs-lookup"><span data-stu-id="bb5c7-104">We recommend that you do not change the category of a Persistent Chat room after the chat room is created.</span></span> <span data-ttu-id="bb5c7-105">不過，如果聊天室管理員擁有其他類別的「建立者」\*\*\*\* 權限，即可將一個類別中的聊天室移到另一個類別。</span><span class="sxs-lookup"><span data-stu-id="bb5c7-105">However, if the chat room manager has **Creator** privileges in another category, he or she can move the room from one category to another.</span></span> <span data-ttu-id="bb5c7-106">未刪除或重新建立聊天室。</span><span class="sxs-lookup"><span data-stu-id="bb5c7-106">The room is not deleted and recreated.</span></span> <span data-ttu-id="bb5c7-107">這是與資料庫的關聯出現變更。</span><span class="sxs-lookup"><span data-stu-id="bb5c7-107">It is a change of association within the database.</span></span>
+<span data-ttu-id="b6c70-104">我們建議您不要變更的常設聊天室類別之後建立的聊天室。</span><span class="sxs-lookup"><span data-stu-id="b6c70-104">We recommend that you do not change the category of a Persistent Chat room after the chat room is created.</span></span> <span data-ttu-id="b6c70-105">不過，如果聊天室管理員擁有其他類別的「建立者」\*\*\*\* 權限，即可將一個類別中的聊天室移到另一個類別。</span><span class="sxs-lookup"><span data-stu-id="b6c70-105">However, if the chat room manager has **Creator** privileges in another category, he or she can move the room from one category to another.</span></span> <span data-ttu-id="b6c70-106">未刪除或重新建立聊天室。</span><span class="sxs-lookup"><span data-stu-id="b6c70-106">The room is not deleted and recreated.</span></span> <span data-ttu-id="b6c70-107">這是與資料庫的關聯出現變更。</span><span class="sxs-lookup"><span data-stu-id="b6c70-107">It is a change of association within the database.</span></span>
 
-<span data-ttu-id="bb5c7-p102">變更聊天室類別的機會應該很少。類別會決定允許的聊天室成員資格，因此，將聊天室移到另一個類別時，將清除新類別不再支援的所有系統存取控制清單 (SACL)。例如，如果使用者原先是聊天室的成員，但不再是新類別中的 **AllowedMember**，將修改聊天室成員資格，並且從聊天室移除該使用者。</span><span class="sxs-lookup"><span data-stu-id="bb5c7-p102">Changing a chat room category should be done rarely. A category determines the allowed membership for the chat room, so when a chat room is moved to another category, all the system access control lists (SACLs) that are no longer supported by the new category are purged. For example, if a user was a member of the room and is no longer an **AllowedMember** in the new category, the room membership will be modified and the user will be removed from the room.</span></span>
+<span data-ttu-id="b6c70-p102">變更聊天室類別的機會應該很少。類別會決定允許的聊天室成員資格，因此，將聊天室移到另一個類別時，將清除新類別不再支援的所有系統存取控制清單 (SACL)。例如，如果使用者原先是聊天室的成員，但不再是新類別中的 **AllowedMember**，將修改聊天室成員資格，並且從聊天室移除該使用者。</span><span class="sxs-lookup"><span data-stu-id="b6c70-p102">Changing a chat room category should be done rarely. A category determines the allowed membership for the chat room, so when a chat room is moved to another category, all the system access control lists (SACLs) that are no longer supported by the new category are purged. For example, if a user was a member of the room and is no longer an **AllowedMember** in the new category, the room membership will be modified and the user will be removed from the room.</span></span>
 
-<span data-ttu-id="bb5c7-111">如需使用 Windows PowerShell 命令列介面移動聊天室的詳細資訊，請參閱[使用 Windows PowerShell cmdlet 的 Configuring Persistent Chat Server](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md)中的 「 聊天室管理 」。</span><span class="sxs-lookup"><span data-stu-id="bb5c7-111">For details about moving a chat room by using the Windows PowerShell command-line interface, see "Room Management" in [Configuring Persistent Chat Server by using Windows PowerShell cmdlets](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md).</span></span>
+<span data-ttu-id="b6c70-111">如需使用 Windows PowerShell 命令列介面移動聊天室的詳細資訊，請參閱[使用 Windows PowerShell cmdlet 的 Configuring Persistent Chat Server](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md)中的 「 聊天室管理 」。</span><span class="sxs-lookup"><span data-stu-id="b6c70-111">For details about moving a chat room by using the Windows PowerShell command-line interface, see "Room Management" in [Configuring Persistent Chat Server by using Windows PowerShell cmdlets](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md).</span></span>
 
-<span data-ttu-id="bb5c7-112">如需設定聊天室的詳細資訊，請參閱部署文件中的[Lync Server 2013 中的 Configure rooms](lync-server-2013-configure-rooms.md) 。</span><span class="sxs-lookup"><span data-stu-id="bb5c7-112">For details about configuring chat rooms, see [Configure rooms in Lync Server 2013](lync-server-2013-configure-rooms.md) in the Deployment documentation.</span></span>
+<span data-ttu-id="b6c70-112">如需設定聊天室的詳細資訊，請參閱部署文件中的[Lync Server 2013 中的 Configure rooms](lync-server-2013-configure-rooms.md) 。</span><span class="sxs-lookup"><span data-stu-id="b6c70-112">For details about configuring chat rooms, see [Configure rooms in Lync Server 2013](lync-server-2013-configure-rooms.md) in the Deployment documentation.</span></span>
 
 </div>
 

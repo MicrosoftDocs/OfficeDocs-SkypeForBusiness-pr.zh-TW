@@ -12,20 +12,20 @@ ms:contentKeyID: 48185854
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4cd27963546b45425d6ddd134ce716b475f3dd1b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 44d9e631b967a4b47fd17157f422ec471cb4624d
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050605"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42154025"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-mobile-clients-in-lync-server-2013"></a><span data-ttu-id="173d9-102">部署 Lync Server 2013 中的行動用戶端</span><span class="sxs-lookup"><span data-stu-id="173d9-102">Deploying mobile clients in Lync Server 2013</span></span>
+# <a name="deploying-mobile-clients-in-lync-server-2013"></a><span data-ttu-id="a5f93-102">部署 Lync Server 2013 中的行動用戶端</span><span class="sxs-lookup"><span data-stu-id="a5f93-102">Deploying mobile clients in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,20 +35,20 @@ ms.locfileid: "42050605"
 
 <span> </span>
 
-<span data-ttu-id="173d9-103">_**上次修改主題：** 2013年-02-19_</span><span class="sxs-lookup"><span data-stu-id="173d9-103">_**Topic Last Modified:** 2013-02-19_</span></span>
+<span data-ttu-id="a5f93-103">_**上次修改主題：** 2013年-02-19_</span><span class="sxs-lookup"><span data-stu-id="a5f93-103">_**Topic Last Modified:** 2013-02-19_</span></span>
 
-<span data-ttu-id="173d9-104">Lync 2013 行動用戶端應用程式會提供立即訊息 (IM)、 增強型目前狀態和電話語音的組織中從智慧型手機或執行 Windows Mobile 的專業版的電話所連接的使用者。</span><span class="sxs-lookup"><span data-stu-id="173d9-104">Lync 2013 apps for mobile clients provide instant messaging (IM), enhanced presence, and telephony for users in your organization who are connecting from a smartphone or a phone running a Professional edition of Windows Mobile.</span></span> <span data-ttu-id="173d9-105">您可以指示使用者導向至行動電話應用程式市集安裝 Lync 2013。</span><span class="sxs-lookup"><span data-stu-id="173d9-105">You can instruct your users to install Lync 2013 by directing them to the app marketplace for their mobile phone.</span></span>
+<span data-ttu-id="a5f93-104">Lync 2013 行動用戶端應用程式會提供立即訊息 (IM)、 增強型目前狀態和電話語音的組織中從智慧型手機或執行 Windows Mobile 的專業版的電話所連接的使用者。</span><span class="sxs-lookup"><span data-stu-id="a5f93-104">Lync 2013 apps for mobile clients provide instant messaging (IM), enhanced presence, and telephony for users in your organization who are connecting from a smartphone or a phone running a Professional edition of Windows Mobile.</span></span> <span data-ttu-id="a5f93-105">您可以指示使用者導向至行動電話應用程式市集安裝 Lync 2013。</span><span class="sxs-lookup"><span data-stu-id="a5f93-105">You can instruct your users to install Lync 2013 by directing them to the app marketplace for their mobile phone.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="173d9-106">Lync Server 2013 行動用戶端也支援 Lync 2010。</span><span class="sxs-lookup"><span data-stu-id="173d9-106">Lync Server 2013 also supports Lync 2010 for mobile clients.</span></span> <span data-ttu-id="173d9-107">如需詳細資訊，請參閱 < Lync Server 2010 TechNet library 中的下列文章：</span><span class="sxs-lookup"><span data-stu-id="173d9-107">For details, refer to the following articles in the Lync Server 2010 TechNet library:</span></span> 
+> <span data-ttu-id="a5f93-106">Lync Server 2013 行動用戶端也支援 Lync 2010。</span><span class="sxs-lookup"><span data-stu-id="a5f93-106">Lync Server 2013 also supports Lync 2010 for mobile clients.</span></span> <span data-ttu-id="a5f93-107">如需詳細資訊，請參閱 < Lync Server 2010 TechNet library 中的下列文章：</span><span class="sxs-lookup"><span data-stu-id="a5f93-107">For details, refer to the following articles in the Lync Server 2010 TechNet library:</span></span> 
 > <UL>
 > <LI>
-> <P><span data-ttu-id="173d9-108">「 規劃行動用戶端 」 在<A href="http://go.microsoft.com/fwlink/p/?linkid=235955">http://go.microsoft.com/fwlink/p/?LinkID=235955</A>。</span><span class="sxs-lookup"><span data-stu-id="173d9-108">“Planning for Mobile Clients” at <A href="http://go.microsoft.com/fwlink/p/?linkid=235955">http://go.microsoft.com/fwlink/p/?LinkID=235955</A>.</span></span></P>
+> <P><span data-ttu-id="a5f93-108">「 規劃行動用戶端 」 在<A href="https://go.microsoft.com/fwlink/p/?linkid=235955">https://go.microsoft.com/fwlink/p/?LinkID=235955</A>。</span><span class="sxs-lookup"><span data-stu-id="a5f93-108">“Planning for Mobile Clients” at <A href="https://go.microsoft.com/fwlink/p/?linkid=235955">https://go.microsoft.com/fwlink/p/?LinkID=235955</A>.</span></span></P>
 > <LI>
-> <P><span data-ttu-id="173d9-109">在 「 部署行動用戶端" <A href="http://go.microsoft.com/fwlink/p/?linkid=236068">http://go.microsoft.com/fwlink/p/?LinkID=236068</A>。</span><span class="sxs-lookup"><span data-stu-id="173d9-109">“Deploying Mobile Clients” at <A href="http://go.microsoft.com/fwlink/p/?linkid=236068">http://go.microsoft.com/fwlink/p/?LinkID=236068</A>.</span></span></P></LI></UL>
+> <P><span data-ttu-id="a5f93-109">在 「 部署行動用戶端" <A href="https://go.microsoft.com/fwlink/p/?linkid=236068">https://go.microsoft.com/fwlink/p/?LinkID=236068</A>。</span><span class="sxs-lookup"><span data-stu-id="a5f93-109">“Deploying Mobile Clients” at <A href="https://go.microsoft.com/fwlink/p/?linkid=236068">https://go.microsoft.com/fwlink/p/?LinkID=236068</A>.</span></span></P></LI></UL>
 
 
 
@@ -56,11 +56,11 @@ ms.locfileid: "42050605"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="173d9-110">本章節內容</span><span class="sxs-lookup"><span data-stu-id="173d9-110">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="a5f93-110">本章節內容</span><span class="sxs-lookup"><span data-stu-id="a5f93-110">In This Section</span></span>
 
-  - [<span data-ttu-id="173d9-111">部署 Lync for Lync Server 2013 中的 Windows Phone</span><span class="sxs-lookup"><span data-stu-id="173d9-111">Deploying Lync for Windows Phone in Lync Server 2013</span></span>](lync-server-2013-deploying-lync-for-windows-phone.md)
+  - [<span data-ttu-id="a5f93-111">部署 Lync for Lync Server 2013 中的 Windows Phone</span><span class="sxs-lookup"><span data-stu-id="a5f93-111">Deploying Lync for Windows Phone in Lync Server 2013</span></span>](lync-server-2013-deploying-lync-for-windows-phone.md)
 
-  - [<span data-ttu-id="173d9-112">部署 Lync for iPhone 和 Lync Server 2013 中的 iPad</span><span class="sxs-lookup"><span data-stu-id="173d9-112">Deploying Lync for iPhone and iPad in Lync Server 2013</span></span>](lync-server-2013-deploying-lync-for-iphone-and-ipad.md)
+  - [<span data-ttu-id="a5f93-112">部署 Lync for iPhone 和 Lync Server 2013 中的 iPad</span><span class="sxs-lookup"><span data-stu-id="a5f93-112">Deploying Lync for iPhone and iPad in Lync Server 2013</span></span>](lync-server-2013-deploying-lync-for-iphone-and-ipad.md)
 
 </div>
 

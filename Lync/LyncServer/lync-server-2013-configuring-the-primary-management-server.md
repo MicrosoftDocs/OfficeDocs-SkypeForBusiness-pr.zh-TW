@@ -12,20 +12,20 @@ ms:contentKeyID: 48183986
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6640e13209700d50aac04c43728175a4fcb4e6b4
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 68fc10ba0457b0ad29f6f3850c1d7056d27fd24d
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029996"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42154215"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-the-primary-management-server-in-lync-server-2013"></a><span data-ttu-id="55fa5-102">在 Lync Server 2013 中設定的主要管理伺服器</span><span class="sxs-lookup"><span data-stu-id="55fa5-102">Configuring the primary management server in Lync Server 2013</span></span>
+# <a name="configuring-the-primary-management-server-in-lync-server-2013"></a><span data-ttu-id="47bef-102">在 Lync Server 2013 中設定的主要管理伺服器</span><span class="sxs-lookup"><span data-stu-id="47bef-102">Configuring the primary management server in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,37 +35,37 @@ ms.locfileid: "42029996"
 
 <span> </span>
 
-<span data-ttu-id="55fa5-103">_**上次修改主題：** 2014年-03-19_</span><span class="sxs-lookup"><span data-stu-id="55fa5-103">_**Topic Last Modified:** 2014-03-19_</span></span>
+<span data-ttu-id="47bef-103">_**上次修改主題：** 2014年-03-19_</span><span class="sxs-lookup"><span data-stu-id="47bef-103">_**Topic Last Modified:** 2014-03-19_</span></span>
 
-<span data-ttu-id="55fa5-104">若要完全利用新的狀況監控功能包含在 Microsoft Lync Server 2013 系統管理員必須先指定電腦，以做為主要管理伺服器;在該電腦上必須再安裝 System Center Operations Manager 2007 R2 或 System Center Operations Manager 2012。</span><span class="sxs-lookup"><span data-stu-id="55fa5-104">In order to take full advantage of the new health monitoring capabilities included in Microsoft Lync Server 2013 administrators must first designate a computer to act as your primary management server; on that computer you must then install System Center Operations Manager 2007 R2 or System Center Operations Manager 2012.</span></span> <span data-ttu-id="55fa5-105">此外，您必須安裝支援的運作與您 Operations Manager 的後端資料庫的 SQL Server 版本。</span><span class="sxs-lookup"><span data-stu-id="55fa5-105">In addition, you must install a supported version of SQL Server to function as your Operations Manager back-end database.</span></span> <span data-ttu-id="55fa5-106">如果您使用 System Center Operations Manager 2012 您可以使用任何下列版本的 SQL Server 後端資料庫：</span><span class="sxs-lookup"><span data-stu-id="55fa5-106">If you are using System Center Operations Manager 2012 you can use any of the following versions of SQL Server as your back-end database:</span></span>
+<span data-ttu-id="47bef-104">若要完全利用新的狀況監控功能包含在 Microsoft Lync Server 2013 系統管理員必須先指定電腦，以做為主要管理伺服器;在該電腦上必須再安裝 System Center Operations Manager 2007 R2 或 System Center Operations Manager 2012。</span><span class="sxs-lookup"><span data-stu-id="47bef-104">In order to take full advantage of the new health monitoring capabilities included in Microsoft Lync Server 2013 administrators must first designate a computer to act as your primary management server; on that computer you must then install System Center Operations Manager 2007 R2 or System Center Operations Manager 2012.</span></span> <span data-ttu-id="47bef-105">此外，您必須安裝支援的運作與您 Operations Manager 的後端資料庫的 SQL Server 版本。</span><span class="sxs-lookup"><span data-stu-id="47bef-105">In addition, you must install a supported version of SQL Server to function as your Operations Manager back-end database.</span></span> <span data-ttu-id="47bef-106">如果您使用 System Center Operations Manager 2012 您可以使用任何下列版本的 SQL Server 後端資料庫：</span><span class="sxs-lookup"><span data-stu-id="47bef-106">If you are using System Center Operations Manager 2012 you can use any of the following versions of SQL Server as your back-end database:</span></span>
 
-  - <span data-ttu-id="55fa5-107">SQL Server 2008 R2 Service Pack 1</span><span class="sxs-lookup"><span data-stu-id="55fa5-107">SQL Server 2008 R2 Service Pack 1</span></span>
+  - <span data-ttu-id="47bef-107">SQL Server 2008 R2 Service Pack 1</span><span class="sxs-lookup"><span data-stu-id="47bef-107">SQL Server 2008 R2 Service Pack 1</span></span>
 
-  - <span data-ttu-id="55fa5-108">SQL Server 2008 R2 Service Pack 2</span><span class="sxs-lookup"><span data-stu-id="55fa5-108">SQL Server 2008 R2 Service Pack 2</span></span>
+  - <span data-ttu-id="47bef-108">SQL Server 2008 R2 Service Pack 2</span><span class="sxs-lookup"><span data-stu-id="47bef-108">SQL Server 2008 R2 Service Pack 2</span></span>
 
-<span data-ttu-id="55fa5-109">如果您使用 System Center Operations Manager 2007 R2 建議您安裝 SQL Server 2005 Service Pack 4 或 SQL Server 2008 Service Pack 3。</span><span class="sxs-lookup"><span data-stu-id="55fa5-109">If you are using System Center Operations Manager 2007 R2 it is recommended that you install either SQL Server 2005 Service Pack 4 or SQL Server 2008 Service Pack 3.</span></span> <span data-ttu-id="55fa5-110">您也可以使用為後端資料庫的 SQL Server 2008 R2 的 System Center Operations Manager 2007 R2。</span><span class="sxs-lookup"><span data-stu-id="55fa5-110">You can also use SQL Server 2008 R2 as the backend database for System Center Operations Manager 2007 R2.</span></span> <span data-ttu-id="55fa5-111">設定為搭配 System Center Operations Manager 2007 R2 的 SQL Server 2008 R2，請參閱 < 附錄 1 的此文件的詳細資訊。</span><span class="sxs-lookup"><span data-stu-id="55fa5-111">See Appendix 1 of this documentation for more information on configuring SQL Server 2008 R2 to work with System Center Operations Manager 2007 R2.</span></span>
+<span data-ttu-id="47bef-109">如果您使用 System Center Operations Manager 2007 R2 建議您安裝 SQL Server 2005 Service Pack 4 或 SQL Server 2008 Service Pack 3。</span><span class="sxs-lookup"><span data-stu-id="47bef-109">If you are using System Center Operations Manager 2007 R2 it is recommended that you install either SQL Server 2005 Service Pack 4 or SQL Server 2008 Service Pack 3.</span></span> <span data-ttu-id="47bef-110">您也可以使用為後端資料庫的 SQL Server 2008 R2 的 System Center Operations Manager 2007 R2。</span><span class="sxs-lookup"><span data-stu-id="47bef-110">You can also use SQL Server 2008 R2 as the backend database for System Center Operations Manager 2007 R2.</span></span> <span data-ttu-id="47bef-111">設定為搭配 System Center Operations Manager 2007 R2 的 SQL Server 2008 R2，請參閱 < 附錄 1 的此文件的詳細資訊。</span><span class="sxs-lookup"><span data-stu-id="47bef-111">See Appendix 1 of this documentation for more information on configuring SQL Server 2008 R2 to work with System Center Operations Manager 2007 R2.</span></span>
 
-<span data-ttu-id="55fa5-112">當您安裝 System Center Operations Manager 2012 或 System Center Operations Manager 2007 R2 您必須安裝該產品的所有元件時，包括：</span><span class="sxs-lookup"><span data-stu-id="55fa5-112">When you install System Center Operations Manager 2012 or System Center Operations Manager 2007 R2 you need to install all the components of that product, including:</span></span>
+<span data-ttu-id="47bef-112">當您安裝 System Center Operations Manager 2012 或 System Center Operations Manager 2007 R2 您必須安裝該產品的所有元件時，包括：</span><span class="sxs-lookup"><span data-stu-id="47bef-112">When you install System Center Operations Manager 2012 or System Center Operations Manager 2007 R2 you need to install all the components of that product, including:</span></span>
 
-  - <span data-ttu-id="55fa5-113">操作資料庫</span><span class="sxs-lookup"><span data-stu-id="55fa5-113">Operational database</span></span>
+  - <span data-ttu-id="47bef-113">操作資料庫</span><span class="sxs-lookup"><span data-stu-id="47bef-113">Operational database</span></span>
 
-  - <span data-ttu-id="55fa5-114">伺服器</span><span class="sxs-lookup"><span data-stu-id="55fa5-114">Server</span></span>
+  - <span data-ttu-id="47bef-114">伺服器</span><span class="sxs-lookup"><span data-stu-id="47bef-114">Server</span></span>
 
-  - <span data-ttu-id="55fa5-115">主控台</span><span class="sxs-lookup"><span data-stu-id="55fa5-115">Console</span></span>
+  - <span data-ttu-id="47bef-115">主控台</span><span class="sxs-lookup"><span data-stu-id="47bef-115">Console</span></span>
 
-  - <span data-ttu-id="55fa5-116">Windows PowerShell Cmdlet</span><span class="sxs-lookup"><span data-stu-id="55fa5-116">Windows PowerShell cmdlets</span></span>
+  - <span data-ttu-id="47bef-116">Windows PowerShell Cmdlet</span><span class="sxs-lookup"><span data-stu-id="47bef-116">Windows PowerShell cmdlets</span></span>
 
-  - <span data-ttu-id="55fa5-117">Web 主控台</span><span class="sxs-lookup"><span data-stu-id="55fa5-117">Web console</span></span>
+  - <span data-ttu-id="47bef-117">Web 主控台</span><span class="sxs-lookup"><span data-stu-id="47bef-117">Web console</span></span>
 
-  - <span data-ttu-id="55fa5-118">Reporting</span><span class="sxs-lookup"><span data-stu-id="55fa5-118">Reporting</span></span>
+  - <span data-ttu-id="47bef-118">Reporting</span><span class="sxs-lookup"><span data-stu-id="47bef-118">Reporting</span></span>
 
-  - <span data-ttu-id="55fa5-119">資料倉儲</span><span class="sxs-lookup"><span data-stu-id="55fa5-119">Data warehouse</span></span>
+  - <span data-ttu-id="47bef-119">資料倉儲</span><span class="sxs-lookup"><span data-stu-id="47bef-119">Data warehouse</span></span>
 
-<span data-ttu-id="55fa5-120">本文件中不會詳細說明這些元件和其安裝。</span><span class="sxs-lookup"><span data-stu-id="55fa5-120">These components and their installation will not be discussed in detail in this document.</span></span> <span data-ttu-id="55fa5-121">如需 System Center Operations Manager 2007 R2 的詳細資訊，請參閱 Operations Manager 2007 R2 文件<http://go.microsoft.com/fwlink/p/?linkid=257526>和 System Center Operations Manager 2012 文件<http://go.microsoft.com/fwlink/p/?linkid=257527>。</span><span class="sxs-lookup"><span data-stu-id="55fa5-121">For details about System Center Operations Manager 2007 R2, see the Operations Manager 2007 R2 documentation at <http://go.microsoft.com/fwlink/p/?linkid=257526> and the System Center Operations Manager 2012 documentation at <http://go.microsoft.com/fwlink/p/?linkid=257527>.</span></span> <span data-ttu-id="55fa5-122">如果您要為您的後端資料庫使用 SQL Server 2005 或 SQL Server 2008 Service Pack 1，您應該遵循這些指示。</span><span class="sxs-lookup"><span data-stu-id="55fa5-122">You should follow those instructions if you are going to use SQL Server 2005 or SQL Server 2008 Service Pack 1 as your back-end database.</span></span>
+<span data-ttu-id="47bef-120">本文件中不會詳細說明這些元件和其安裝。</span><span class="sxs-lookup"><span data-stu-id="47bef-120">These components and their installation will not be discussed in detail in this document.</span></span> <span data-ttu-id="47bef-121">如需 System Center Operations Manager 2007 R2 的詳細資訊，請參閱 Operations Manager 2007 R2 文件<https://go.microsoft.com/fwlink/p/?linkid=257526>和 System Center Operations Manager 2012 文件<https://go.microsoft.com/fwlink/p/?linkid=257527>。</span><span class="sxs-lookup"><span data-stu-id="47bef-121">For details about System Center Operations Manager 2007 R2, see the Operations Manager 2007 R2 documentation at <https://go.microsoft.com/fwlink/p/?linkid=257526> and the System Center Operations Manager 2012 documentation at <https://go.microsoft.com/fwlink/p/?linkid=257527>.</span></span> <span data-ttu-id="47bef-122">如果您要為您的後端資料庫使用 SQL Server 2005 或 SQL Server 2008 Service Pack 1，您應該遵循這些指示。</span><span class="sxs-lookup"><span data-stu-id="47bef-122">You should follow those instructions if you are going to use SQL Server 2005 or SQL Server 2008 Service Pack 1 as your back-end database.</span></span>
 
-<span data-ttu-id="55fa5-123">如果您使用 System Center Operations Manager 2012 然後您就可以使用 SQL Server 2012 與您的後端資料庫。</span><span class="sxs-lookup"><span data-stu-id="55fa5-123">If you are using System Center Operations Manager 2012 then you can use SQL Server 2012 as your back-end database.</span></span> <span data-ttu-id="55fa5-124">如需 SQL Server 2012 的詳細資訊，請參閱線上叢書的在 SQL Server 2012 [http://go.microsoft.com/fwlink/p/?LinkId=257528](http://go.microsoft.com/fwlink/p/?linkid=257528)。</span><span class="sxs-lookup"><span data-stu-id="55fa5-124">For details about SQL Server 2012, see Books Online for SQL Server 2012 at [http://go.microsoft.com/fwlink/p/?LinkId=257528](http://go.microsoft.com/fwlink/p/?linkid=257528).</span></span>
+<span data-ttu-id="47bef-123">如果您使用 System Center Operations Manager 2012 然後您就可以使用 SQL Server 2012 與您的後端資料庫。</span><span class="sxs-lookup"><span data-stu-id="47bef-123">If you are using System Center Operations Manager 2012 then you can use SQL Server 2012 as your back-end database.</span></span> <span data-ttu-id="47bef-124">如需 SQL Server 2012 的詳細資訊，請參閱線上叢書的在 SQL Server 2012 [https://go.microsoft.com/fwlink/p/?LinkId=257528](https://go.microsoft.com/fwlink/p/?linkid=257528)。</span><span class="sxs-lookup"><span data-stu-id="47bef-124">For details about SQL Server 2012, see Books Online for SQL Server 2012 at [https://go.microsoft.com/fwlink/p/?LinkId=257528](https://go.microsoft.com/fwlink/p/?linkid=257528).</span></span>
 
-<span data-ttu-id="55fa5-125">請記住，您可能只會有每個 Lync Server 部署在單一主要管理伺服器。</span><span class="sxs-lookup"><span data-stu-id="55fa5-125">Keep in mind that you can only have a single Primary Management Server per Lync Server deployment.</span></span> <span data-ttu-id="55fa5-126">此外，雖然您可以使用 System Center Operations Manager 2012 或 System Center Operations Manager 2007 R2，您無法在執行兩個應用程式同時，您必須選擇其中一個。</span><span class="sxs-lookup"><span data-stu-id="55fa5-126">Also, while you can use either System Center Operations Manager 2012 or System Center Operations Manager 2007 R2, you cannot run the two applications simultaneously—you must choose one or the other.</span></span> <span data-ttu-id="55fa5-127">例如，如果您執行 System Center Operations Manager 2012 然後所有 System Center 代理程式也必須都執行 System Center Operations Manager 2012。</span><span class="sxs-lookup"><span data-stu-id="55fa5-127">For example, if you are running System Center Operations Manager 2012 then all your System Center agents must also be running System Center Operations Manager 2012.</span></span> <span data-ttu-id="55fa5-128">您不能有執行 System Center Operations Manager 2012 某些代理程式及其他執行 System Center Operations Manager 2007 R2 的代理程式。</span><span class="sxs-lookup"><span data-stu-id="55fa5-128">You cannot have some agents running System Center Operations Manager 2012 and other agents running System Center Operations Manager 2007 R2.</span></span>
+<span data-ttu-id="47bef-125">請記住，您可能只會有每個 Lync Server 部署在單一主要管理伺服器。</span><span class="sxs-lookup"><span data-stu-id="47bef-125">Keep in mind that you can only have a single Primary Management Server per Lync Server deployment.</span></span> <span data-ttu-id="47bef-126">此外，雖然您可以使用 System Center Operations Manager 2012 或 System Center Operations Manager 2007 R2，您無法在執行兩個應用程式同時，您必須選擇其中一個。</span><span class="sxs-lookup"><span data-stu-id="47bef-126">Also, while you can use either System Center Operations Manager 2012 or System Center Operations Manager 2007 R2, you cannot run the two applications simultaneously—you must choose one or the other.</span></span> <span data-ttu-id="47bef-127">例如，如果您執行 System Center Operations Manager 2012 然後所有 System Center 代理程式也必須都執行 System Center Operations Manager 2012。</span><span class="sxs-lookup"><span data-stu-id="47bef-127">For example, if you are running System Center Operations Manager 2012 then all your System Center agents must also be running System Center Operations Manager 2012.</span></span> <span data-ttu-id="47bef-128">您不能有執行 System Center Operations Manager 2012 某些代理程式及其他執行 System Center Operations Manager 2007 R2 的代理程式。</span><span class="sxs-lookup"><span data-stu-id="47bef-128">You cannot have some agents running System Center Operations Manager 2012 and other agents running System Center Operations Manager 2007 R2.</span></span>
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 48184701
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1ce455f32181ee604c84a6ec0c2e9a1de74aac5a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 92394f16d024f57fbcb8fad6ffa40502b7d4be52
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42034083"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153483"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="operating-and-maintaining-the-persistent-chat-system-in-lync-server-2013"></a><span data-ttu-id="bcf6a-102">操作及維護 Lync Server 2013 常設聊天室系統</span><span class="sxs-lookup"><span data-stu-id="bcf6a-102">Operating and maintaining the Persistent Chat system in Lync Server 2013</span></span>
+# <a name="operating-and-maintaining-the-persistent-chat-system-in-lync-server-2013"></a><span data-ttu-id="9602a-102">操作及維護 Lync Server 2013 常設聊天室系統</span><span class="sxs-lookup"><span data-stu-id="9602a-102">Operating and maintaining the Persistent Chat system in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "42034083"
 
 <span> </span>
 
-<span data-ttu-id="bcf6a-103">_**主題上次修改日期：** 2012年-11-01_</span><span class="sxs-lookup"><span data-stu-id="bcf6a-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="9602a-103">_**主題上次修改日期：** 2012年-11-01_</span><span class="sxs-lookup"><span data-stu-id="9602a-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="bcf6a-104">下列主題說明如何維護執行 Persistent Chat Server 的電腦，以及如何管理 Persistent Chat Server 作業。</span><span class="sxs-lookup"><span data-stu-id="bcf6a-104">The following topics describe how to maintain the computer that is running Persistent Chat Server and how to manage Persistent Chat Server operations.</span></span>
+<span data-ttu-id="9602a-104">下列主題說明如何維護執行 Persistent Chat Server 的電腦，以及如何管理 Persistent Chat Server 作業。</span><span class="sxs-lookup"><span data-stu-id="9602a-104">The following topics describe how to maintain the computer that is running Persistent Chat Server and how to manage Persistent Chat Server operations.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="bcf6a-105">本章節內容</span><span class="sxs-lookup"><span data-stu-id="bcf6a-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="9602a-105">本章節內容</span><span class="sxs-lookup"><span data-stu-id="9602a-105">In This Section</span></span>
 
-  - [<span data-ttu-id="bcf6a-106">備份常設聊天室資料庫及 Lync Server 2013 中的規範資料庫</span><span class="sxs-lookup"><span data-stu-id="bcf6a-106">Backing up the Persistent Chat database and Compliance database in Lync Server 2013</span></span>](lync-server-2013-backing-up-the-persistent-chat-database-and-compliance-database.md)
+  - [<span data-ttu-id="9602a-106">備份常設聊天室資料庫及 Lync Server 2013 中的規範資料庫</span><span class="sxs-lookup"><span data-stu-id="9602a-106">Backing up the Persistent Chat database and Compliance database in Lync Server 2013</span></span>](lync-server-2013-backing-up-the-persistent-chat-database-and-compliance-database.md)
 
-  - [<span data-ttu-id="bcf6a-107">自訂 Lync Server 2013 中的 XSLT 定義檔</span><span class="sxs-lookup"><span data-stu-id="bcf6a-107">Customizing the XSLT definition file in Lync Server 2013</span></span>](lync-server-2013-customizing-the-xslt-definition-file.md)
+  - [<span data-ttu-id="9602a-107">自訂 Lync Server 2013 中的 XSLT 定義檔</span><span class="sxs-lookup"><span data-stu-id="9602a-107">Customizing the XSLT definition file in Lync Server 2013</span></span>](lync-server-2013-customizing-the-xslt-definition-file.md)
 
-  - [<span data-ttu-id="bcf6a-108">使用 Lync Server 2013 中的自訂常設聊天室伺服器規範介面卡規範取代 XmlAdapter</span><span class="sxs-lookup"><span data-stu-id="bcf6a-108">Replacing the XmlAdapter with a customized Persistent Chat Server Compliance adapter in Lync Server 2013</span></span>](lync-server-2013-replacing-the-xmladapter-with-a-customized-persistent-chat-server-compliance-adapter.md)
+  - [<span data-ttu-id="9602a-108">使用 Lync Server 2013 中的自訂常設聊天室伺服器規範介面卡規範取代 XmlAdapter</span><span class="sxs-lookup"><span data-stu-id="9602a-108">Replacing the XmlAdapter with a customized Persistent Chat Server Compliance adapter in Lync Server 2013</span></span>](lync-server-2013-replacing-the-xmladapter-with-a-customized-persistent-chat-server-compliance-adapter.md)
 
-  - [<span data-ttu-id="bcf6a-109">管理 Lync Server 2013 中的系統健康狀況</span><span class="sxs-lookup"><span data-stu-id="bcf6a-109">Managing system health in Lync Server 2013</span></span>](lync-server-2013-managing-system-health.md)
+  - [<span data-ttu-id="9602a-109">管理 Lync Server 2013 中的系統健康狀況</span><span class="sxs-lookup"><span data-stu-id="9602a-109">Managing system health in Lync Server 2013</span></span>](lync-server-2013-managing-system-health.md)
 
-  - [<span data-ttu-id="bcf6a-110">監控、 啟動和停止 Lync Server 2013 中的常設聊天室服務</span><span class="sxs-lookup"><span data-stu-id="bcf6a-110">Monitoring, starting, and stopping the Persistent Chat services in Lync Server 2013</span></span>](lync-server-2013-monitoring-starting-and-stopping-the-persistent-chat-services.md)
+  - [<span data-ttu-id="9602a-110">監控、 啟動和停止 Lync Server 2013 中的常設聊天室服務</span><span class="sxs-lookup"><span data-stu-id="9602a-110">Monitoring, starting, and stopping the Persistent Chat services in Lync Server 2013</span></span>](lync-server-2013-monitoring-starting-and-stopping-the-persistent-chat-services.md)
 
-  - [<span data-ttu-id="bcf6a-111">管理 Lync Server 2013 中的高可用性和災害復原</span><span class="sxs-lookup"><span data-stu-id="bcf6a-111">Managing high availability and disaster recovery in Lync Server 2013</span></span>](lync-server-2013-managing-high-availability-and-disaster-recovery.md)
+  - [<span data-ttu-id="9602a-111">管理 Lync Server 2013 中的高可用性和災害復原</span><span class="sxs-lookup"><span data-stu-id="9602a-111">Managing high availability and disaster recovery in Lync Server 2013</span></span>](lync-server-2013-managing-high-availability-and-disaster-recovery.md)
 
 </div>
 

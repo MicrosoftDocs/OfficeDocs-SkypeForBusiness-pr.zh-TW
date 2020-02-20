@@ -12,20 +12,20 @@ ms:contentKeyID: 48185845
 ms.date: 05/25/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4c87e727db8538f92d77d3c125e21c96053317ae
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: b3fec43c4487cc2127ed041024207c0fc8fefe60
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42044635"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153213"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-lync-server-2013-hybrid-deployments"></a><span data-ttu-id="48e7a-102">Lync Server 2013 混合式部署的概觀</span><span class="sxs-lookup"><span data-stu-id="48e7a-102">Overview of Lync Server 2013 hybrid deployments</span></span>
+# <a name="overview-of-lync-server-2013-hybrid-deployments"></a><span data-ttu-id="0bbfe-102">Lync Server 2013 混合式部署的概觀</span><span class="sxs-lookup"><span data-stu-id="0bbfe-102">Overview of Lync Server 2013 hybrid deployments</span></span>
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "42044635"
 
 <span> </span>
 
-<span data-ttu-id="48e7a-103">_**主題上次修改日期：** 2016年-05-25_</span><span class="sxs-lookup"><span data-stu-id="48e7a-103">_**Topic Last Modified:** 2016-05-25_</span></span>
+<span data-ttu-id="0bbfe-103">_**主題上次修改日期：** 2016年-05-25_</span><span class="sxs-lookup"><span data-stu-id="0bbfe-103">_**Topic Last Modified:** 2016-05-25_</span></span>
 
-<span data-ttu-id="48e7a-104">Lync Server 混合式部署都是部署所在的網域，例如 contoso.com，使用者會分割使用 Lync Server 內部部署與 Microsoft Lync Online 之間。</span><span class="sxs-lookup"><span data-stu-id="48e7a-104">A Lync Server hybrid deployment is a deployment where users of a domain, such as contoso.com, are split between using Lync Server on-premises and Microsoft Lync Online.</span></span> <span data-ttu-id="48e7a-105">網域使用者的一些位於內部部署 Lync Server，和某些使用者位於 Skype for Business Online。</span><span class="sxs-lookup"><span data-stu-id="48e7a-105">Some of the domain users are homed on the on-premises Lync Server, and some users are homed in Skype for Business Online.</span></span>
+<span data-ttu-id="0bbfe-104">Lync Server 混合式部署都是部署所在的網域，例如 contoso.com，使用者會分割使用 Lync Server 內部部署與 Microsoft Lync Online 之間。</span><span class="sxs-lookup"><span data-stu-id="0bbfe-104">A Lync Server hybrid deployment is a deployment where users of a domain, such as contoso.com, are split between using Lync Server on-premises and Microsoft Lync Online.</span></span> <span data-ttu-id="0bbfe-105">網域使用者的一些位於內部部署 Lync Server，和某些使用者位於 Skype for Business Online。</span><span class="sxs-lookup"><span data-stu-id="0bbfe-105">Some of the domain users are homed on the on-premises Lync Server, and some users are homed in Skype for Business Online.</span></span>
 
-<span data-ttu-id="48e7a-106">您可以設定混合式內部部署 Lync 部署與 Skype 商務 Online，並保留您的內部部署和線上同步處理的使用者使用 Active Directory 同步處理。</span><span class="sxs-lookup"><span data-stu-id="48e7a-106">You can configure your on-premises Lync deployment for hybrid with Skype for Business Online and use Active Directory Synchronization to keep your on-premises and online users synchronized.</span></span> <span data-ttu-id="48e7a-107">您也可以設定混合式部署與整合內部部署 Exchange 和 SharePoint，或使用 Microsoft Office 365 應用程式，包括 Exchange Online 和 SharePoint Online。</span><span class="sxs-lookup"><span data-stu-id="48e7a-107">You can also configure hybrid deployments for integration with on-premises Exchange and SharePoint, or with Microsoft Office 365 applications, including Exchange Online and SharePoint Online.</span></span>
+<span data-ttu-id="0bbfe-106">您可以設定混合式內部部署 Lync 部署與 Skype 商務 Online，並保留您的內部部署和線上同步處理的使用者使用 Active Directory 同步處理。</span><span class="sxs-lookup"><span data-stu-id="0bbfe-106">You can configure your on-premises Lync deployment for hybrid with Skype for Business Online and use Active Directory Synchronization to keep your on-premises and online users synchronized.</span></span> <span data-ttu-id="0bbfe-107">您也可以設定混合式部署與整合內部部署 Exchange 和 SharePoint，或使用 Microsoft Office 365 應用程式，包括 Exchange Online 和 SharePoint Online。</span><span class="sxs-lookup"><span data-stu-id="0bbfe-107">You can also configure hybrid deployments for integration with on-premises Exchange and SharePoint, or with Microsoft Office 365 applications, including Exchange Online and SharePoint Online.</span></span>
 
-<span data-ttu-id="48e7a-108">本節會引導您完成部署所需的 Lync Server 混合部署中，應用程式，然後設定來管理商務 Online 使用者之間 Skype 和 Lync Server 內部部署。</span><span class="sxs-lookup"><span data-stu-id="48e7a-108">This section guides you through deploying the applications required for a Lync Server hybrid deployment, and then configuring your deployment to manage users between Lync Server on-premises and Skype for Business Online.</span></span>
+<span data-ttu-id="0bbfe-108">本節會引導您完成部署所需的 Lync Server 混合部署中，應用程式，然後設定來管理商務 Online 使用者之間 Skype 和 Lync Server 內部部署。</span><span class="sxs-lookup"><span data-stu-id="0bbfe-108">This section guides you through deploying the applications required for a Lync Server hybrid deployment, and then configuring your deployment to manage users between Lync Server on-premises and Skype for Business Online.</span></span>
 
-<span data-ttu-id="48e7a-109">如需設定您內部部署 Lync Server 部署混合式與 Skype for Business Online，請參閱下列主題：</span><span class="sxs-lookup"><span data-stu-id="48e7a-109">For information about configuring your on-premises Lync Server deployment for hybrid with Skype for Business Online see the following topics:</span></span>
+<span data-ttu-id="0bbfe-109">如需設定您內部部署 Lync Server 部署混合式與 Skype for Business Online，請參閱下列主題：</span><span class="sxs-lookup"><span data-stu-id="0bbfe-109">For information about configuring your on-premises Lync Server deployment for hybrid with Skype for Business Online see the following topics:</span></span>
 
-  - [<span data-ttu-id="48e7a-110">規劃 Lync Server 2013 混合式部署</span><span class="sxs-lookup"><span data-stu-id="48e7a-110">Planning for Lync Server 2013 hybrid deployments</span></span>](lync-server-2013-planning-for-hybrid-deployments.md)
+  - [<span data-ttu-id="0bbfe-110">規劃 Lync Server 2013 混合式部署</span><span class="sxs-lookup"><span data-stu-id="0bbfe-110">Planning for Lync Server 2013 hybrid deployments</span></span>](lync-server-2013-planning-for-hybrid-deployments.md)
 
-  - [<span data-ttu-id="48e7a-111">設定 Lync Server 2013 混合式部署</span><span class="sxs-lookup"><span data-stu-id="48e7a-111">Configuring Lync Server 2013 hybrid deployments</span></span>](lync-server-2013-configuring-hybrid-deployments.md)
+  - [<span data-ttu-id="0bbfe-111">設定 Lync Server 2013 混合式部署</span><span class="sxs-lookup"><span data-stu-id="0bbfe-111">Configuring Lync Server 2013 hybrid deployments</span></span>](lync-server-2013-configuring-hybrid-deployments.md)
 
-<span data-ttu-id="48e7a-112">如需 Skype for Business Online，請參閱[Lync Online](http://go.microsoft.com/fwlink/p/?linkid=282396)。</span><span class="sxs-lookup"><span data-stu-id="48e7a-112">For more information about Skype for Business Online, see [Lync Online](http://go.microsoft.com/fwlink/p/?linkid=282396).</span></span>
+<span data-ttu-id="0bbfe-112">如需 Skype for Business Online，請參閱[Lync Online](https://go.microsoft.com/fwlink/p/?linkid=282396)。</span><span class="sxs-lookup"><span data-stu-id="0bbfe-112">For more information about Skype for Business Online, see [Lync Online](https://go.microsoft.com/fwlink/p/?linkid=282396).</span></span>
 
 </div>
 
