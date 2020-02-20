@@ -12,18 +12,18 @@ ms:contentKeyID: 48184149
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6c97657b42ec4ea26f5300b1d28215d0360b63cf
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 303df28b307a2d23bdc468d1c53977030d0cf8df
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42042420"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42152581"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="preparing-for-and-installing-best-practices-analyzer-in-lync-server-2013"></a>準備和 Lync Server 2013 中安裝最佳做法分析程式
 
@@ -93,7 +93,7 @@ _**上次修改主題：** 2013年-11-07_
 
 ## <a name="installing-best-practices-analyzer"></a>安裝最佳做法分析程式
 
-您可以下載在 Lync Server 2013 的最佳做法分析程式[http://go.microsoft.com/fwlink/p/?linkId=266539](http://go.microsoft.com/fwlink/p/?linkid=266539)。
+您可以下載在 Lync Server 2013 的最佳做法分析程式[https://go.microsoft.com/fwlink/p/?linkId=266539](https://go.microsoft.com/fwlink/p/?linkid=266539)。
 
 若要安裝最佳做法分析程式，請在您要安裝此工具的電腦上啟動 Microsoft 安裝程式檔案 RtcBPA.msi，然後依照螢幕上的指示執行。 安裝程式檔案的預設位置是\<系統磁碟機\>\\Program Files\\Lync Server 2013\\BPA。
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 54973682
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ba3a74f59bc996defcd9baee9162d034ab2178eb
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c82c1ad2072f5f8611660efc44a502249f26d21b
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029714"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42150872"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-active-directory-federation-services-ad-fs-20-for-lync-server-2013"></a>設定 Lync Server 2013 的 Active Directory Federation Services (AD FS 2.0)
 
@@ -37,13 +37,13 @@ ms.locfileid: "42029714"
 
 _**上次修改主題：** 2013年-07-03_
 
-下節說明如何設定來支援多重要素驗證的 Active Directory Federation Services (AD FS 2.0)。 如需如何安裝 AD FS 2.0 的詳細資訊，請參閱 AD FS 2.0 逐步及如何到輔助線， [http://go.microsoft.com/fwlink/p/?LinkId=313374](http://go.microsoft.com/fwlink/p/?linkid=313374)。
+下節說明如何設定來支援多重要素驗證的 Active Directory Federation Services (AD FS 2.0)。 如需如何安裝 AD FS 2.0 的詳細資訊，請參閱 AD FS 2.0 逐步及如何到輔助線， [https://go.microsoft.com/fwlink/p/?LinkId=313374](https://go.microsoft.com/fwlink/p/?linkid=313374)。
 
 <div class="">
 
 
 > [!NOTE]  
-> 當安裝 AD FS 2.0，請勿 Windows 伺服器管理員] 新增 Active Directory Federation Services 角色。 相反地，下載並安裝在 Active Directory Federation Services 2.0 RTW 套件<A href="http://go.microsoft.com/fwlink/p/?linkid=313375">http://go.microsoft.com/fwlink/p/?LinkId=313375</A>。
+> 當安裝 AD FS 2.0，請勿 Windows 伺服器管理員] 新增 Active Directory Federation Services 角色。 相反地，下載並安裝在 Active Directory Federation Services 2.0 RTW 套件<A href="https://go.microsoft.com/fwlink/p/?linkid=313375">https://go.microsoft.com/fwlink/p/?LinkId=313375</A>。
 
 
 

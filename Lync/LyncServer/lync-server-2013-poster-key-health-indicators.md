@@ -12,18 +12,18 @@ ms:contentKeyID: 61084873
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b6b67c4843cc0c1039bee48aa6b7c4620b77ce08
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 2710e85eced76241f4946ef2746e544d07be941f
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006991"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42152591"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="key-health-indicators-in-lync-server-2013"></a>Lync Server 2013 中的索引鍵的健康狀態指標
 
@@ -37,7 +37,7 @@ ms.locfileid: "42006991"
 
 _**上次修改主題：** 2014年-02-10_
 
-本文是隨附[機碼健康狀態指標： 維護狀況良好的 Lync 伺服器 Foundation](http://go.microsoft.com/fwlink/?linkid=391838)海報，您可以從下載中心下載。
+本文是隨附[機碼健康狀態指標： 維護狀況良好的 Lync 伺服器 Foundation](https://go.microsoft.com/fwlink/?linkid=391838)海報，您可以從下載中心下載。
 
 ![海報中描述疑難排解使用 KHI 資料](images/Dn594589.b6fe82bd-d70f-4c1f-a812-b615ac5fa7d7(OCS.15).jpg "海報中描述疑難排解使用 KHI 資料")
 
@@ -75,7 +75,7 @@ KHIs 可用除了標準的 Lync 監控解決方案 （例如 System Center Opera
 
 收集 KHI 效能計數器，並填入 KHI 試算表隨附網路的快顯功能表會產生可協助您決定 Lync 部署的伺服器健康狀況的計分卡。 一旦填入，它會帶領您修復環境，並提供見解給其他專案關係人。 在每月付款評估 KHIs，並將它們納入任何部署進行中作業程序。
 
-下載[Lync Server 網路指南](http://go.microsoft.com/fwlink/p/?linkid=390677)若要查看 KHIs 的完整清單，以取得相關的試算表。
+下載[Lync Server 網路指南](https://go.microsoft.com/fwlink/p/?linkid=390677)若要查看 KHIs 的完整清單，以取得相關的試算表。
 
 </div>
 
@@ -333,9 +333,9 @@ LySS = Lync 儲存體服務
 ## <a name="see-also"></a>另請參閱
 
 
-[Lync Server 網路指南](http://go.microsoft.com/fwlink/p/?linkid=390677)  
-[維護狀況良好的 Lync 伺服器 Foundation 主要的健康狀態指標：](http://go.microsoft.com/fwlink/?linkid=391838)  
-[Lync 通話品質方法](http://go.microsoft.com/fwlink/?linkid=391841)  
+[Lync Server 網路指南](https://go.microsoft.com/fwlink/p/?linkid=390677)  
+[維護狀況良好的 Lync 伺服器 Foundation 主要的健康狀態指標：](https://go.microsoft.com/fwlink/?linkid=391838)  
+[Lync 通話品質方法](https://go.microsoft.com/fwlink/?linkid=391841)  
   
 
 </div>

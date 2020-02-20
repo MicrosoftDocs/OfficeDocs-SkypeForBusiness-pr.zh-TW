@@ -12,18 +12,18 @@ ms:contentKeyID: 48183917
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 223f954c4cbd6725259a8188c3213fce5f241872
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 01a5eb512f52212d36d058b582b3badcfc80a5f7
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42028984"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147166"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="application-management-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的應用程式管理 cmdlet
 
@@ -132,7 +132,7 @@ Microsoft Lync Server 2013 提供 cmdlet 可讓您管理 Lync Server 應用程�
 ## <a name="see-also"></a>另請參閱
 
 
-[Lync Server PowerShell 部落格](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+[Lync Server PowerShell 部落格](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

@@ -12,18 +12,18 @@ ms:contentKeyID: 48184069
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 096272a2347c400a81e6d4684873c5f5828136a5
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 02c13f2b1fa312394edfaba01ecd05179f86a0c9
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030587"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151423"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-gallery-view-in-lync-server-2013"></a>在 Lync Server 2013 中設定圖庫檢視
 
@@ -39,7 +39,7 @@ _**主題上次修改日期：** 2012年-10-30_
 
 在 Lync Server 2013 中，您可以設定圖庫檢視 」 視訊會議的會議原則。 「圖庫檢視」預設為開啟狀態。 如果您不想允許「圖庫檢視」，或只想針對部分使用者允許「圖庫檢視」，必須在會議原則中關閉此功能。
 
-會議參與者的視訊無法使用時，如果您將部署高解析度相片，Lync Server 2013 中的新功能，可以被增強使用者的圖庫檢視經驗。 高解析度相片提供較小，有限的解析度連絡人相片儲存在 Active Directory 網域服務中的替代方案。 高解析度相片儲存在使用者的 Exchange 2013 信箱，且，因此，需要您整合 Lync Server 2013 和 Exchange 2013。 如需詳細資訊，請參閱 NextHop 部落格文章，「 整合 Exchange 2013 和 Lync Server 2013 中，「 [http://go.microsoft.com/fwlink/p/?LinkId=260987](http://go.microsoft.com/fwlink/p/?linkid=260987)。
+會議參與者的視訊無法使用時，如果您將部署高解析度相片，Lync Server 2013 中的新功能，可以被增強使用者的圖庫檢視經驗。 高解析度相片提供較小，有限的解析度連絡人相片儲存在 Active Directory 網域服務中的替代方案。 高解析度相片儲存在使用者的 Exchange 2013 信箱，且，因此，需要您整合 Lync Server 2013 和 Exchange 2013。 如需詳細資訊，請參閱 NextHop 部落格文章，「 整合 Exchange 2013 和 Lync Server 2013 中，「 [https://go.microsoft.com/fwlink/p/?LinkId=260987](https://go.microsoft.com/fwlink/p/?linkid=260987)。
 
 <div>
 

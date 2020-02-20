@@ -12,18 +12,18 @@ ms:contentKeyID: 48183653
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 03c3fdf4b1ef103e38a0d1b2afb02d3dfb743ad3
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f210098f7543f82624a188469f9805752949cfe8
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42031097"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151113"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="certificate-summary---single-consolidated-edge-with-public-ip-addresses-in-lync-server-2013"></a>憑證摘要-單一合併邊緣搭配 Lync Server 2013 中的公用 IP 位址
 
@@ -39,7 +39,7 @@ _**主題上次修改日期：** 2012年-09-08_
 
 Microsoft Lync Server 2013 使用相互驗證其他伺服器，以及加密資料從伺服器對伺服器的憑證和用戶端的伺服器。 憑證必須進行伺服器關聯網域名稱系統 (DNS) 記錄與憑證上的主體名稱 (SN) 和主體替代名稱 (SAN) 的名稱比對。 若要成功對應伺服器、DNS 記錄和憑證項目，您必須依據 DNS 中的註冊以及憑證上的 SN 和 SAN 項目，仔細規劃所要的伺服器完整名稱。
 
-指派給 Edge Server 外部介面的憑證要求從公用憑證授權單位 (CA)。 有示範中提供的憑證，如下列文章中所列的整合通訊的目的，成功的公用 Ca:[http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=929395](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=929395)時要求憑證，您可以使用 Lync Server 部署精靈] 所產生的憑證要求，或以手動方式或公用 CA 所提供的程序來建立要求。 指派憑證時，會將憑證指派到 Access Edge 服務介面、 Web Conferencing Edge service 介面和音訊/視訊驗證服務。 音訊/視訊驗證服務不應混淆與 A / V Edge service 這不會使用憑證來加密音訊和視訊資料流。 （您組織內部） ca 的憑證或公用 ca 的憑證，可以使用內部 Edge Server 介面。 內部介面憑證僅可使用 SN，且不需要也不會使用 SAN 項目。
+指派給 Edge Server 外部介面的憑證要求從公用憑證授權單位 (CA)。 有示範中提供的憑證，如下列文章中所列的整合通訊的目的，成功的公用 Ca:[https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=929395](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=929395)時要求憑證，您可以使用 Lync Server 部署精靈] 所產生的憑證要求，或以手動方式或公用 CA 所提供的程序來建立要求。 指派憑證時，會將憑證指派到 Access Edge 服務介面、 Web Conferencing Edge service 介面和音訊/視訊驗證服務。 音訊/視訊驗證服務不應混淆與 A / V Edge service 這不會使用憑證來加密音訊和視訊資料流。 （您組織內部） ca 的憑證或公用 ca 的憑證，可以使用內部 Edge Server 介面。 內部介面憑證僅可使用 SN，且不需要也不會使用 SAN 項目。
 
 <div>
 

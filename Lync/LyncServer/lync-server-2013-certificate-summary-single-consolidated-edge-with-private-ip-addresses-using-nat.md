@@ -12,18 +12,18 @@ ms:contentKeyID: 48184433
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2f6a169d02842df75c06a6f32b4bb9509a7e6b74
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 70d232c24e0dbcf0370cc3cf3dbc2829bc5d4949
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030827"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151123"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="certificate-summary---single-consolidated-edge-with-private-ip-addresses-using-nat-in-lync-server-2013"></a>憑證摘要-單一合併式 edge 與 Lync Server 2013 中使用 NAT 的私人 IP 位址
 
@@ -39,7 +39,7 @@ _**主題上次修改日期：** 2012年-10-22_
 
 Microsoft Lync Server 2013 使用相互驗證其他伺服器，以及加密資料從伺服器對伺服器的憑證和用戶端的伺服器。 憑證必須進行伺服器關聯網域名稱系統 (DNS) 記錄與憑證上的主體名稱 (SN) 和主體替代名稱 (SAN) 的名稱比對。 若要成功對應伺服器、DNS 記錄和憑證項目，您必須依據 DNS 中的註冊以及憑證上的 SN 和 SAN 項目，仔細規劃所要的伺服器完整名稱。
 
-指派給 Edge Server 外部介面的憑證要求從公用憑證授權單位 (CA)。 有示範中提供的憑證，如下列文章中所列的整合通訊的目的，成功的公用 Ca: [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=929395](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=929395)。 當要求憑證，您可以使用 Lync Server 部署精靈] 所產生的憑證要求，或建立使用 Lync Server 管理命令介面指令程式來手動要求或公用 CA 所提供的程序。 如需憑證管理的 Lync Server 管理命令介面 cmdlet 的詳細資訊，請參閱[Lync Server 2013 中的憑證和驗證 cmdlet](https://docs.microsoft.com/powershell/module/skype/)指派的憑證、 憑證時會指派給 Access Edge 服務介面、 Web Conferencing Edge service 介面和音訊/視訊驗證服務。 音訊/視訊驗證服務不應混淆與 A / V Edge service 這不會使用憑證來加密音訊和視訊資料流。 （您組織內部） ca 的憑證或公用 ca 的憑證，可以使用內部 Edge Server 介面。 內部介面憑證僅可使用 SN，且不需要也不會使用 SAN 項目。
+指派給 Edge Server 外部介面的憑證要求從公用憑證授權單位 (CA)。 有示範中提供的憑證，如下列文章中所列的整合通訊的目的，成功的公用 Ca: [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=929395](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=929395)。 當要求憑證，您可以使用 Lync Server 部署精靈] 所產生的憑證要求，或建立使用 Lync Server 管理命令介面指令程式來手動要求或公用 CA 所提供的程序。 如需憑證管理的 Lync Server 管理命令介面 cmdlet 的詳細資訊，請參閱[Lync Server 2013 中的憑證和驗證 cmdlet](https://docs.microsoft.com/powershell/module/skype/)指派的憑證、 憑證時會指派給 Access Edge 服務介面、 Web Conferencing Edge service 介面和音訊/視訊驗證服務。 音訊/視訊驗證服務不應混淆與 A / V Edge service 這不會使用憑證來加密音訊和視訊資料流。 （您組織內部） ca 的憑證或公用 ca 的憑證，可以使用內部 Edge Server 介面。 內部介面憑證僅可使用 SN，且不需要也不會使用 SAN 項目。
 
 <div>
 

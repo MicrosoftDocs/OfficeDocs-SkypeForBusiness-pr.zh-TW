@@ -12,18 +12,18 @@ ms:contentKeyID: 48184592
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 442d94cbaf9ad7c3352cbd17ad88f3d84e716b61
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 7b70b6d6475c7b8ee4f5588ffe4975648588cae5
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050405"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42148972"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="microsoft-lync-server-2013"></a>Microsoft Lync Server 2013
 
@@ -39,7 +39,7 @@ _**上次修改主題：** 2014年-03-14_
 
 Microsoft Lync Server 2013 通訊軟體提供立即訊息 (IM)、 目前狀態、 會議及電話語音解決方案，可支援企業層級的共同作業需求。
 
-要下載一份 Lync Server 2013 文件？ 您可以下載**LyncServer2013\_ITPro**編譯說明 (.chm) 檔案，從 Microsoft 下載中心[http://go.microsoft.com/fwlink/p/?LinkID=331103](http://go.microsoft.com/fwlink/p/?linkid=331103)。
+要下載一份 Lync Server 2013 文件？ 您可以下載**LyncServer2013\_ITPro**編譯說明 (.chm) 檔案，從 Microsoft 下載中心[https://go.microsoft.com/fwlink/p/?LinkID=331103](https://go.microsoft.com/fwlink/p/?linkid=331103)。
 
 下表列出在 Lync Server 2013 文件庫中的主題。
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 62387565
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6712e22ffcdc2eaea9ae39be961bb50316beed5b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 28d356af649dbee7dd367eb356ec564a06fa83aa
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42034563"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42148642"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="move-conference-directories"></a>移動會議目錄
 
@@ -67,7 +67,7 @@ _**上次修改主題：** 2014年-05-28_
     
         Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"} | Move-CsConferenceDirectory -TargetPool "pool02.contoso.net"
 
-請參閱 「 解除安裝 Microsoft Lync Server 2010 及移除伺服器角色 」 的文件 (這可以從下載[http://go.microsoft.com/fwlink/p/?linkId=246227](http://go.microsoft.com/fwlink/p/?linkid=246227)) 如需在解除委任 Lync 2010 集區的完整、 逐步指示。
+請參閱 「 解除安裝 Microsoft Lync Server 2010 及移除伺服器角色 」 的文件 (這可以從下載[https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkid=246227)) 如需在解除委任 Lync 2010 集區的完整、 逐步指示。
 
 移動會議目錄時您可能會發生下列錯誤：
 

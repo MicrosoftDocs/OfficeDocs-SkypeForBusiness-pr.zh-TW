@@ -12,18 +12,18 @@ ms:contentKeyID: 63969648
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cb82eedd9d9578aeb4120136c1896267cde35392
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: a42589db677132170e9456c998d96fd2eb1de5d2
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42051135"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42149332"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="monitoring-group-chat-in-lync-server-2013"></a>Lync Server 2013 中的監視群組聊天
 
@@ -37,7 +37,7 @@ ms.locfileid: "42051135"
 
 _**上次修改主題：** 2014年-08-04_
 
-我們強烈建議的效能改進 Microsoft 下載中心上執行提供最新[累計伺服器更新安裝程式](http://support.microsoft.com/kb/968802)。
+我們強烈建議的效能改進 Microsoft 下載中心上執行提供最新[累計伺服器更新安裝程式](https://support.microsoft.com/kb/968802)。
 
 假設您正在執行最新累計更新，使用下列計量壓力測試表了解是否您群組聊天伺服器正在執行在最佳的狀況。
 

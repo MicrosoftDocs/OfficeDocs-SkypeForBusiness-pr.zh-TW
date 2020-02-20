@@ -12,18 +12,18 @@ ms:contentKeyID: 62258120
 ms.date: 11/13/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 15dae97f0c6c507c8e6645ea96e538dba42c29c2
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 07a333eeb794a27ca78b1f6d8c9bf71c386c8a92
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42033332"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42149663"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="migrating-lync-online-users-to-lync-on-premises-in-lync-server-2013"></a>Lync Online 移轉至 Lync 內部使用者在 Lync Server 2013
 
@@ -53,9 +53,9 @@ _**主題上次修改日期：** 2015 年 11 月 13 日_
 
 1.  首先，請確定您的組織已針對混合式。
     
-      - 安裝 Azure Active Directory 同步作業工具。 如需詳細資訊，請參閱 <http://social.technet.microsoft.com/wiki/contents/articles/19098.howto-install-the-windows-azure-active-directory-sync-tool.aspx>。
+      - 安裝 Azure Active Directory 同步作業工具。 如需詳細資訊，請參閱 <https://social.technet.microsoft.com/wiki/contents/articles/19098.howto-install-the-windows-azure-active-directory-sync-tool.aspx>。
     
-      - 若要啟用您的使用者可使用單一登入 Lync Online，請安裝 Active Directory Federation Services <http://social.technet.microsoft.com/wiki/contents/articles/1011.active-directory-federation-services-ad-fs-overview.aspx>。
+      - 若要啟用您的使用者可使用單一登入 Lync Online，請安裝 Active Directory Federation Services <https://social.technet.microsoft.com/wiki/contents/articles/1011.active-directory-federation-services-ad-fs-overview.aspx>。
     
       - 在內部部署 Lync Server 管理命令介面中輸入下列 cmdlet 來建立對 Lync Online 的裝載提供者：
         
@@ -173,7 +173,7 @@ _**主題上次修改日期：** 2015 年 11 月 13 日_
     
 
     > [!NOTE]  
-    > 預設的 rtcxds 資料庫的交易記錄檔的大小上限為 16 GB。 這可能無法夠大如果您要移動大量的使用者，同時，尤其是如果您有鏡像啟用。 若要解決這個您可以增加檔案大小，或定期備份記錄檔。 如需詳細資訊，請參閱<A class=uri href="http://support.microsoft.com/kb/2756725">http://support.microsoft.com/kb/2756725</A>。
+    > 預設的 rtcxds 資料庫的交易記錄檔的大小上限為 16 GB。 這可能無法夠大如果您要移動大量的使用者，同時，尤其是如果您有鏡像啟用。 若要解決這個您可以增加檔案大小，或定期備份記錄檔。 如需詳細資訊，請參閱<A class=uri href="https://support.microsoft.com/kb/2756725">https://support.microsoft.com/kb/2756725</A>。
 
     
     </div>

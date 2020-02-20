@@ -12,18 +12,18 @@ ms:contentKeyID: 48185215
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1eb64fe83eb6f80c6470ba4173bcc968d44fb54a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: b1377eabd4ffc199fe7a9014d28f153aba10afa4
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42048086"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42149322"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="monitoring-iis-request-tracing-log-files-in-lync-server-2013"></a>監控 IIS 要求在 Lync Server 2013 中的追蹤記錄檔
 
@@ -47,7 +47,7 @@ _**上次修改主題：** 2013年-02-14_
 
     %SystemDrive%\Windows\System32\inetsrv\appcmd set config /section:httpLogging /dontLog:True
 
-如需**httpLogging**命令的詳細資訊，請參閱[http://go.microsoft.com/fwlink/p/?linkId=234927](http://go.microsoft.com/fwlink/p/?linkid=234927)。
+如需**httpLogging**命令的詳細資訊，請參閱[https://go.microsoft.com/fwlink/p/?linkId=234927](https://go.microsoft.com/fwlink/p/?linkid=234927)。
 
 </div>
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 54973687
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f7054bae609b5d1a1c6fe176c1092614f5d30fa6
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 8729ca803f3e3897aa9383f28a486229bf5ce33f
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029704"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42150862"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-ad-fs-20-to-support-client-authentication-in-lync-server-2013"></a>設定 AD FS 2.0 以支援 Lync Server 2013 中的用戶端驗證
 
@@ -43,7 +43,7 @@ _**上次修改主題：** 2013年-07-03_
 
   - 傳輸層安全性用戶端驗證
 
-您可以使用表單型驗證，開發可讓使用者在驗證使用其使用者名稱與密碼，或使用他們智慧卡及 pin 碼的網頁。 本主題著重於如何實作傳輸層安全性用戶端 Authentication with AD FS 2.0。 如需 AD FS 2.0 驗證類型的詳細資訊，請參閱 AD FS 2.0： 如何變更本機驗證類型在[http://go.microsoft.com/fwlink/p/?LinkId=313384](http://go.microsoft.com/fwlink/p/?linkid=313384)。
+您可以使用表單型驗證，開發可讓使用者在驗證使用其使用者名稱與密碼，或使用他們智慧卡及 pin 碼的網頁。 本主題著重於如何實作傳輸層安全性用戶端 Authentication with AD FS 2.0。 如需 AD FS 2.0 驗證類型的詳細資訊，請參閱 AD FS 2.0： 如何變更本機驗證類型在[https://go.microsoft.com/fwlink/p/?LinkId=313384](https://go.microsoft.com/fwlink/p/?linkid=313384)。
 
 <div>
 

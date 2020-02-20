@@ -12,18 +12,18 @@ ms:contentKeyID: 48185540
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6e46c2977289ae8fec1db26e4eb33dfd6736f838
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c306f79bf1e9f2d136472419b1c57465a2d71bf2
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42034373"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42148552"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="phase-10-decommission-legacy-site"></a>階段 10： 解除委任舊版站台
 
@@ -53,7 +53,7 @@ _**主題上次修改日期：** 2012 年 10-16_
 
 
 > [!IMPORTANT]  
-> 如需移轉與升級 Microsoft Unified Communications Managed API (UCMA) 應用程式]，再解除委任舊版環境，請參閱<A href="http://go.microsoft.com/fwlink/p/?linkid=269555">http://go.microsoft.com/fwlink/p/?LinkId=269555</A>
+> 如需移轉與升級 Microsoft Unified Communications Managed API (UCMA) 應用程式]，再解除委任舊版環境，請參閱<A href="https://go.microsoft.com/fwlink/p/?linkid=269555">https://go.microsoft.com/fwlink/p/?LinkId=269555</A>
 
 
 

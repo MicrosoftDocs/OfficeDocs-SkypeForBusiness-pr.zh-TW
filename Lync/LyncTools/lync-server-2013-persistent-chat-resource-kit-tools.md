@@ -12,18 +12,18 @@ ms:contentKeyID: 51541423
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7895a1ebb2c0ce45cebf3514839b7ab3405e1c9f
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 726e6bb537a16ece5c2955f005e91872f11f6a79
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41983028"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147726"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="lync-server-2013-persistent-chat-resource-kit-tools"></a>Lync Server 2013 常設聊天室 Resource Kit 工具
 
@@ -49,7 +49,7 @@ Lync Server 2013 常設聊天室 Resource Kit 工具可協助簡化例行工作 
 
 
 > [!IMPORTANT]  
-> 安裝 Lync Server 2013 Resource Kit 工具之後，您必須安裝<STRONG>PsExec.exe</STRONG>並將<STRONG>PsExec.exe</STRONG>複製到下列路徑： \\<STRONG>程式 Files\ Microsoft Lync Server 2013\Persistent 聊天伺服器資源 Kit\ChatStressTool</STRONG>。 如果您不要複製<STRONG>PsExec.exe</STRONG>，常設聊天室壓力工具會擲回錯誤的例外狀況，並不會正確地執行。 請確定您符合此必要條件的需求，再執行此工具。 如需安裝<STRONG>PsExec.exe</STRONG>的詳細資訊，請參閱<A href="http://go.microsoft.com/fwlink/p/?linkid=282246">http://go.microsoft.com/fwlink/p/?LinkId=282246</A>。
+> 安裝 Lync Server 2013 Resource Kit 工具之後，您必須安裝<STRONG>PsExec.exe</STRONG>並將<STRONG>PsExec.exe</STRONG>複製到下列路徑： \\<STRONG>程式 Files\ Microsoft Lync Server 2013\Persistent 聊天伺服器資源 Kit\ChatStressTool</STRONG>。 如果您不要複製<STRONG>PsExec.exe</STRONG>，常設聊天室壓力工具會擲回錯誤的例外狀況，並不會正確地執行。 請確定您符合此必要條件的需求，再執行此工具。 如需安裝<STRONG>PsExec.exe</STRONG>的詳細資訊，請參閱<A href="https://go.microsoft.com/fwlink/p/?linkid=282246">https://go.microsoft.com/fwlink/p/?LinkId=282246</A>。
 
 
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 48185496
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 35c470b704e7467f573cd5e1fec03d63cf1f4b4e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 17fa27b82260a05ded5ca025d56005c864247844
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42043085"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42150314"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="managing-locations-for-elin-gateways-in-lync-server-2013"></a>管理 ELIN 閘道 Lync Server 2013 中的位置
 
@@ -103,17 +103,17 @@ _**主題上次修改日期：** 2012年-10-02_
 <tbody>
 <tr class="odd">
 <td><p>一樓</p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>425-555-0100</p></td>
 </tr>
 <tr class="even">
 <td><p>二樓</p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>425-555-0111</p></td>
 </tr>
 <tr class="odd">
 <td><p>三樓</p></td>
-<td><p>3 </p></td>
+<td><p>3</p></td>
 <td><p>425-555-0123</p></td>
 </tr>
 </tbody>
@@ -144,7 +144,7 @@ _**主題上次修改日期：** 2012年-10-02_
   - **您必須已經包含位置對應的協力廠商資料庫？**  
     使用 Lync Server 的次要位置資訊服務] 選項，以連線至協力廠商資料庫，您可以群組，並使用離線平台管理位置。 這種方法的好處是，除了建立關聯至網路識別碼的位置，您可以建立關聯的使用者的位置。 這表示位置資訊服務可以傳回多個地址，源自次要位置資訊服務，Lync Server 用戶端。 然後，使用者可以選擇最適合的位置。
     
-    若要整合與位置資訊服務，協力廠商資料庫必須遵循 Lync 伺服器位置要求讀回應結構描述。 如需詳細資訊，請參閱<http://go.microsoft.com/fwlink/p/?linkid=213819>。 如需部署次要位置資訊服務的詳細資訊，請參閱部署文件中的[設定 Lync Server 2013 中的次要位置資訊服務](lync-server-2013-configure-a-secondary-location-information-service.md)。
+    若要整合與位置資訊服務，協力廠商資料庫必須遵循 Lync 伺服器位置要求讀回應結構描述。 如需詳細資訊，請參閱<https://go.microsoft.com/fwlink/p/?linkid=213819>。 如需部署次要位置資訊服務的詳細資訊，請參閱部署文件中的[設定 Lync Server 2013 中的次要位置資訊服務](lync-server-2013-configure-a-secondary-location-information-service.md)。
 
 如需填入位置資料庫的詳細資訊，請參閱部署文件中的[設定 Lync Server 2013 中的位置資料庫](lync-server-2013-configure-the-location-database.md)。
 

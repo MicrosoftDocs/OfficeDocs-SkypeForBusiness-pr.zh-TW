@@ -12,18 +12,18 @@ ms:contentKeyID: 49733865
 ms.date: 10/07/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5157f78606a4577cf638857a4bc6719f2e1a42d9
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 26759c982723fd656ac3456aad630bc695a7343e
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42038065"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147486"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="front-end-pool-pairing-data-security-in-lync-server-2013"></a>前端配對 Lync Server 2013 中的資料安全性集區
 
@@ -55,7 +55,7 @@ _**上次修改主題：** 2014年-10-07_
 
 ## <a name="mitigating-security-risks"></a>減輕安全性風險
 
-有許多方法來加強安全性保護備份服務的流量，範圍從限制存取權來保護 WAN 的資料中心兩個資料中心之間傳輸。 在大多數情況下，部署 Lync Server 2013 的企業可能中已有必要的安全性基礎結構的地方。 尋找下列項目的指引企業版，Microsoft 會提供如何建立安全的 IT 基礎結構的範例方案。 不過，這並不表示它是唯一的解決方案，也不表示它是 Lync Server 的較佳的解決方案。 建議企業客戶選擇解決方案符合其特定需求，根據其 IT 安全性基礎結構與需求。範例 Microsoft solution 採用 IPSec 」 和 「 群組原則的伺服器和為了隔離網域。 如需詳細資訊，請參閱[http://go.microsoft.com/fwlink/p/?LinkId=268544](http://go.microsoft.com/fwlink/p/?linkid=268544)。 問題和註解，請連絡 secwish@microsoft.com。
+有許多方法來加強安全性保護備份服務的流量，範圍從限制存取權來保護 WAN 的資料中心兩個資料中心之間傳輸。 在大多數情況下，部署 Lync Server 2013 的企業可能中已有必要的安全性基礎結構的地方。 尋找下列項目的指引企業版，Microsoft 會提供如何建立安全的 IT 基礎結構的範例方案。 不過，這並不表示它是唯一的解決方案，也不表示它是 Lync Server 的較佳的解決方案。 建議企業客戶選擇解決方案符合其特定需求，根據其 IT 安全性基礎結構與需求。範例 Microsoft solution 採用 IPSec 」 和 「 群組原則的伺服器和為了隔離網域。 如需詳細資訊，請參閱[https://go.microsoft.com/fwlink/p/?LinkId=268544](https://go.microsoft.com/fwlink/p/?linkid=268544)。 問題和註解，請連絡 secwish@microsoft.com。
 
 其他可能的解決方案是使用 IPSec 目的只是為了協助確保備份服務傳送本身的資料安全。 如果您選擇此方法時，您應該設定為下列的伺服器，其中的集區和集區 B 是兩個配對的前端集區的 SMB 通訊協定的 IPSec 規則。
 
