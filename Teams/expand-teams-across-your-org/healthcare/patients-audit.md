@@ -1,7 +1,7 @@
 ---
 title: '針對小組 IT 與合規性管理員審核患者應用程式 '
-author: jambirk
-ms.author: jambirk
+author: dstrome
+ms.author: dstrome
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_Healthcare
 ms.reviewer: anach
 description: 適用于團隊管理員的患者應用程式
-ms.openlocfilehash: fd2aa97e9eb8fefdcaa4e9a4ccc432f42dbee5ce
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 03aa421a72ab1402e0574a65117fa1eb182f1a47
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827611"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147706"
 ---
 # <a name="audit-logs-for-patients-app"></a>病患應用程式的稽核記錄
 
@@ -54,7 +54,7 @@ ms.locfileid: "41827611"
 
 患者 app 有自己的記錄活動，列在下表中：
 
-|好記的名稱 |一道|說明|
+|好記的名稱 |一道|描述|
 |:---|:---|:---|
 | 已查看患者清單 | PatientListView | 使用者已查看患者清單。|
 | 已刪除的患者清單 | PatientListDelete | 使用者已刪除患者清單。|

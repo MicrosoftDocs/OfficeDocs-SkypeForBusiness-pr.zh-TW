@@ -1,7 +1,7 @@
 ---
 title: 患者 App 與 EHR 整合 STU3 介面
-author: jambirk
-ms.author: jambirk
+author: dstrome
+ms.author: dstrome
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -17,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: Microsoft 團隊患者 app EHR 整合
-ms.openlocfilehash: 6c7638436f35a1e460c176964dfc63624985b12e
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: d718f3d3772a08ecfa57e418a4f4fc2e22fe7172
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827631"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147696"
 ---
 # <a name="stu3-interface-specification"></a>STU3 介面規格
 
@@ -52,7 +52,7 @@ ms.locfileid: "41827631"
    1. 下
    2. 互動
    3. 資源：類型
-   4. 安全性： [OAuth uri 的副檔名](http://hl7.org/fhir/extension-oauth-uris.html)
+   4. 安全性： [OAuth uri 的副檔名](https://hl7.org/fhir/extension-oauth-uris.html)
 2. FhirVersion （我們的程式碼需要這麼做，才能瞭解我們應該向哪個版本進行資料透視）。
 
 如[https://www.hl7.org/fhir/stu3/capabilitystatement.html](https://www.hl7.org/fhir/stu3/capabilitystatement.html)需此欄位集的其他詳細資料，請參閱。
@@ -96,18 +96,18 @@ ms.locfileid: "41827631"
 
     要求：文章 <fhir-伺服器>/Patient/_search 要求正文：指定 = ruth&家族 = 黑色
     
-    回應： {"resourceType"： "套裝"，"id"： "<束-識別碼>"，"中繼資料"： {"lastUpdated"： "2019-01-14T23：44： 45.052 + 00：" "，" type "：" searchset "，" 總計 "：1，" link "： [{" 關聯 "：" self "，" url "： <fhir-server>/Patient/_search"}]，"專案"： [{"fullUrl"： <fhir-伺服器>/Patient/<患者 id> "，" 資源 "： {" resourceType "：" 患者 "，" id "：" <患者 id> "，" meta "： {" versionId "：" 1 "，" lastUpdated "：" 2017-10-18T18：32： 37.000 + 00： 00 "}，" 文字 "： {" status "：" generated "，" div "："<div>？        <p>黑色 Ruth</p>？      </div>"}，" 識別碼 "： [{" 使用 "：" 一般 "，" 輸入 "： {" code "： [{" 系統 "："http://hl7.org/fhir/v2/0203""，"code"： "MR"，"顯示"： "醫學記錄號碼"，"userSelected"： false}]，"文字"： "醫學記錄號碼"}，"system"：http://hospital.smarthealthit.org""，"值"： "1234567"}]，"active"： true，"name"： [{"use" "" 官方 "，" family "： [" Ruth "，" C]。
+    回應： {"resourceType"： "套裝"，"id"： "<束-識別碼>"，"中繼資料"： {"lastUpdated"： "2019-01-14T23：44： 45.052 + 00：" "，" type "：" searchset "，" 總計 "：1，" link "： [{" 關聯 "：" self "，" url "： <fhir-server>/Patient/_search"}]，"專案"： [{"fullUrl"： <fhir-伺服器>/Patient/<患者 id> "，" 資源 "： {" resourceType "：" 患者 "，" id "：" <患者 id> "，" meta "： {" versionId "：" 1 "，" lastUpdated "：" 2017-10-18T18：32： 37.000 + 00： 00 "}，" 文字 "： {" status "：" generated "，" div "："<div>？        <p>黑色 Ruth</p>？      </div>"}，" 識別碼 "： [{" 使用 "：" 一般 "，" 輸入 "： {" code "： [{" 系統 "："https://hl7.org/fhir/v2/0203""，"code"： "MR"，"顯示"： "醫學記錄號碼"，"userSelected"： false}]，"文字"： "醫學記錄號碼"}，"system"：http://hospital.smarthealthit.org""，"值"： "1234567"}]，"active"： true，"name"： [{"use" "" 官方 "，" family "： [" Ruth "，" C]。
     [}]，"電信"： [{[系統]： "phone"，"值"： "800-599-2739"，"使用"： "home"}，{"系統"： "phone"，"值"： "800-808-7785"，"使用"： "mobile"}，{"system"： "？"，"value"： "ruth.black@example.com"}]，"性別"： "女"，"生日"： "1951-08-23"，"位址"： [{"使用"： "home"，"line"： ["26 南部 RdApt 22"]，"城市"： "Sapulpa"，"state"： "確定"，"郵遞區號"： "74066"，"國家/地區"： "USA"}]}，"search"： {"mode"： "match"}}]}
 
 * * *
 
     要求：取得 <fhir-server>/Patient/<患者 id>
     
-    回應： {"resourceType"： "患者"，"id"： "<患者-識別碼>"，"識別碼"： [{"use"： "一般"，"類型"： {"編碼"： [{"系統"： "http://hl7.org/fhir/v2/0203"，"code"： "MR"，} "，" 文字 "：" 醫療記錄號碼 "}，" name "：" 1234567 "}"，"name"： [{"use"： "官方"，"family"： "凱倫"，"name"： ["楊"，"X"。 [}]，"性別"： "男"，"出生日期"： "1925-12-23"，}
+    回應： {"resourceType"： "患者"，"id"： "<患者-識別碼>"，"識別碼"： [{"use"： "一般"，"類型"： {"編碼"： [{"系統"： "https://hl7.org/fhir/v2/0203"，"code"： "MR"，} "，" 文字 "：" 醫療記錄號碼 "}，" name "：" 1234567 "}"，"name"： [{"use"： "官方"，"family"： "凱倫"，"name"： ["楊"，"X"。 [}]，"性別"： "男"，"出生日期"： "1925-12-23"，}
 
 * * *
 
-如[http://hl7.org/fhir/stu3/patient.html](http://hl7.org/fhir/stu3/patient.html)需此欄位集的其他詳細資料，請參閱。
+如[https://hl7.org/fhir/stu3/patient.html](https://hl7.org/fhir/stu3/patient.html)需此欄位集的其他詳細資料，請參閱。
 
 ## <a name="observation"></a>便
 
@@ -134,7 +134,7 @@ ms.locfileid: "41827631"
 
     要求：取得 <fhir-伺服器>/Observation？患者 =<患者 id>&類別 = 重要標誌
     
-    回應： {"resourceType"： "套裝"，"id"： "<束-識別碼>"，"類型"： "searchset"，"總計"：20，"專案"： [{"資源"： {"resourceType"： "觀測"，"識別碼"： "<資源 id>"，"類別"： [{"http://hl7.org/fhir/observation-category"，"" 類別 "：" "" "，" code "：" 重要-符號 "}]，}" "程式碼"： {"編碼"： [{"系統"： "http://loinc.org" "，" code "：" 8867-4 "，" 顯示 "：" heart_rate "}]}，" effectiveDateTime "：" 2009-04-08T00：00： 00-06： 00 "，" valueQuantity "： {" 值 "：72.0，" unit "：" {節拍}/min "，" system "："http://unitsofmeasure.org"，}}}，。
+    回應： {"resourceType"： "套裝"，"id"： "<束-識別碼>"，"類型"： "searchset"，"總計"：20，"專案"： [{"資源"： {"resourceType"： "觀測"，"識別碼"： "<資源 id>"，"類別"： [{"https://hl7.org/fhir/observation-category"，"" 類別 "：" "" "，" code "：" 重要-符號 "}]，}" "程式碼"： {"編碼"： [{"系統"： "http://loinc.org" "，" code "：" 8867-4 "，" 顯示 "：" heart_rate "}]}，" effectiveDateTime "：" 2009-04-08T00：00： 00-06： 00 "，" valueQuantity "： {" 值 "：72.0，" unit "：" {節拍}/min "，" system "："http://unitsofmeasure.org"，}}}，。
         .
         .
       ] }
@@ -171,11 +171,11 @@ ms.locfileid: "41827631"
       ] }
 
 * * *
-如[http://hl7.org/fhir/stu3/condition.html](http://hl7.org/fhir/stu3/condition.html)需此欄位集的其他詳細資料，請參閱。
+如[https://hl7.org/fhir/stu3/condition.html](https://hl7.org/fhir/stu3/condition.html)需此欄位集的其他詳細資料，請參閱。
 
 ## <a name="encounter"></a>還有
 
-這些是最小必要欄位，這些欄位是「[美國核心](http://hl7.org/fhir/us/core/2018Jan/StructureDefinition-us-core-encounter.html)」的子集 [必須具有] 欄位）。
+這些是最小必要欄位，這些欄位是「[美國核心](https://hl7.org/fhir/us/core/2018Jan/StructureDefinition-us-core-encounter.html)」的子集 [必須具有] 欄位）。
 
 1. 狀態值
 2. 輸入 [0]。編碼 [0]。顯示幕
@@ -193,7 +193,7 @@ ms.locfileid: "41827631"
 
 目標就是能夠檢索患者的最近已知位置。 每個遇到的都是參照位置資源。 參照也必須包含位置的顯示欄位。
 
-如[http://hl7.org/fhir/stu3/encounter.html](http://hl7.org/fhir/stu3/encounter.html)需此欄位集的其他詳細資料，請參閱。
+如[https://hl7.org/fhir/stu3/encounter.html](https://hl7.org/fhir/stu3/encounter.html)需此欄位集的其他詳細資料，請參閱。
 
 ## <a name="allergyintolerance"></a>AllergyIntolerance
 
@@ -225,7 +225,7 @@ ms.locfileid: "41827631"
 
 * * *
 
-如[http://hl7.org/fhir/stu3/allergyintolerance.html](http://hl7.org/fhir/stu3/allergyintolerance.html)需此欄位集的其他詳細資料，請參閱。
+如[https://hl7.org/fhir/stu3/allergyintolerance.html](https://hl7.org/fhir/stu3/allergyintolerance.html)需此欄位集的其他詳細資料，請參閱。
 
 ## <a name="medication-request"></a>藥物要求
 
@@ -262,4 +262,4 @@ ms.locfileid: "41827631"
 
 1. 患者 = \<患者 id>
 
-如[http://hl7.org/fhir/stu3/coverage.html](https://www.hl7.org/fhir/medicationrequest.html)需此欄位集的其他詳細資料，請參閱。
+如[https://hl7.org/fhir/stu3/coverage.html](https://www.hl7.org/fhir/medicationrequest.html)需此欄位集的其他詳細資料，請參閱。

@@ -1,8 +1,8 @@
 ---
-title: 部署商務用 Skype Server 2019
+title: 部署 Skype for Business Server 2019
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: LanaChin
 manager: serdars
 ms.date: 7/9/2018
 audience: ITPro
@@ -16,46 +16,46 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ''
-description: 摘要：探索這些連結以瞭解如何安裝和設定商務用 Skype Server 2019。
-ms.openlocfilehash: 419155b0cce38c9e212af3ebc47bc5dd9a5ba0e0
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 摘要： 瀏覽下列連結，以了解如何安裝及設定 Skype for Business Server 2019。
+ms.openlocfilehash: 34eae26fca354a0afb6d1724cfb7cd425035c8c1
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814051"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42125246"
 ---
-# <a name="deploy-skype-for-business-server-2019"></a>部署商務用 Skype Server 2019
+# <a name="deploy-skype-for-business-server-2019"></a>部署 Skype for Business Server 2019
  
-**摘要：** 探索這些連結，瞭解如何安裝和設定商務用 Skype Server 2019 及從舊版遷移。
+**摘要：** 探索下列連結，以了解如何安裝及設定 Skype for Business Server 2019 」 及 「 移轉先前版本。
   
-商務用 Skype 伺服器提供立即訊息（IM）、目前狀態、會議、影片和電話解決方案，可支援企業級的共同作業需求。 本主題提供有關如何部署及設定商務用 Skype Server 的資訊連結。 
+Skype 商務 Server 提供立即訊息 (IM)、 目前狀態、 會議、 視訊和電話語音解決方案，可支援企業層級的共同作業需求。 本主題提供如何部署及設定 Skype for Business Server 相關資訊連結。 
   
-隨著新資訊的推出及使用者提供意見反應，作者會在繼續基礎上更新文章。 此頁面將會經常更新，因此請經常查看。
+隨著新資訊出現和使用者提供意見反應，作者也會持續更新文章。 此頁面會經常更新，因此請檢查回通常。
    
-##  <a name="articles-about-skype-for-business-server-installation-and-configuration"></a>商務用 Skype Server 安裝與設定的相關文章
+##  <a name="articles-about-skype-for-business-server-installation-and-configuration"></a>有關 Skype for Business Server 安裝與設定的文章
 
-下列文章說明如何安裝及設定商務用 Skype Server，以供線上觀看。 
+下列有關如何安裝及設定 Skype for Business Server 的文章提供線上檢視。 
   
-||內容|說明|
+||內容|描述|
 |:-----|:-----|:-----|
-|![檔的圖示](https://docs.microsoft.com/office/media/icons/paragraph-writing-blue.svg)|[商務用 Skype Server 2019 的系統需求](../plan/system-requirements.md)  <br/> |瞭解商務用 Skype Server 的伺服器和環境需求。  <br/> |
-|![檔的圖示](https://docs.microsoft.com/office/media/icons/paragraph-writing-blue.svg)|[商務用 Skype Server 的拓撲基礎](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md) <br/> |瞭解商務用 Skype Server 的拓撲選項和伺服器 collocation 案例。  <br/> |
-|![[數位方式] 圖示](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)|[安裝商務用 Skype Server](../../SfbServer/deploy/install/install.md)<br/> |瞭解如何在物理和虛擬環境中，以各種不同的拓撲來安裝商務用 Skype 伺服器。  <br/> |
-|![[數位方式] 圖示](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)| [遷移至商務用 Skype Server 2019](../migration/migration-to-skype-for-business-server-2019.md) <br/> |瞭解如何從舊版本的商務用 Skype 或 Lync Server 進行遷移。  <br/> |
-|![[數位方式] 圖示](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)|[透過商務用 Skype 設定用戶端體驗](../../SfbServer/deploy/deploy-clients/configure-the-client-experience.md) <br/> |瞭解如何設定用戶端體驗。  <br/> |
-|![[數位方式] 圖示](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)| [設定商務用 Skype Server 與商務用 Skype Online 之間的混合式連接](../../SfbHybrid/hybrid/configure-hybrid-connectivity.md) <br/> |瞭解如何設定混合式部署的先決條件，然後設定您的部署以管理商務用 Skype Server 內部部署與商務用 Skype Online 之間的使用者。  <br/> |
-|![[數位方式] 圖示](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)| [在商務用 Skype Server 中部署邊緣伺服器](../../SfbServer/deploy/deploy-edge-server/deploy-edge-servers.md) <br/> |如果貴組織中的使用者與未登入內部網路的外部使用者通訊，您會想要部署 Edge 伺服器。  <br/> |
-|![[數位方式] 圖示](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)| [在商務用 Skype Server 中部署企業版語音](../../SfbServer/deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) <br/> |瞭解如何部署完整的語音 over IP （VoIP）企業語音方案，提供豐富的 Outlook 和 Exchange 功能整合，以及回應群組、通話寄存、團隊通話、群組通話挑選，以及改良緊急 E9-1-1説明.  <br/> |
-| ![[數位方式] 圖示](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)| [在商務用 Skype Server 中部署視頻交互操作伺服器](../../SfbServer/deploy/deploy-video-interop-server/deploy-video-interop-server.md) <br/> |如果您想要支援影片互通性，請參閱如何部署視頻互通性伺服器（VIS）。  <br/> |
+|![文件圖示](https://docs.microsoft.com/office/media/icons/paragraph-writing-blue.svg)|[Skype for Business Server 2019 的系統需求](../plan/system-requirements.md)  <br/> |了解伺服器與 Skype for Business Server 環境需求。  <br/> |
+|![文件圖示](https://docs.microsoft.com/office/media/icons/paragraph-writing-blue.svg)|[Skype 商務伺服器的拓撲基本知識](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md) <br/> |了解拓撲選項與伺服器共同配置案例 skype for Business Server。  <br/> |
+|![數值如何圖示](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)|[安裝 Skype for Business Server](../../SfbServer/deploy/install/install.md)<br/> |了解如何在實體和虛擬環境中的各種拓撲中的企業伺服器安裝用 Skype。  <br/> |
+|![數值如何圖示](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)| [移轉至 Skype for Business Server 2019](../migration/migration-to-skype-for-business-server-2019.md) <br/> |了解如何從舊版的 Skype 移轉基於商業或 Lync Server。  <br/> |
+|![數值如何圖示](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)|[設定商務用 Skype 用戶端體驗](../../SfbServer/deploy/deploy-clients/configure-the-client-experience.md) <br/> |了解如何設定用戶端體驗。  <br/> |
+|![數值如何圖示](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)| [設定商務用 Skype 商務伺服器與 Skype for Business Online 之間的混合式連線](../../SfbHybrid/hybrid/configure-hybrid-connectivity.md) <br/> |了解如何設定混合部署中，必要條件，然後設定您的部署管理 Skype for Business Server 內部部署與 Skype for Business Online 之間的使用者。  <br/> |
+|![數值如何圖示](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)| [部署 Edge Servers in Skype for Business Server](../../SfbServer/deploy/deploy-edge-server/deploy-edge-servers.md) <br/> |如果您組織中的使用者與未登入您的內部網路的外部使用者通訊，您會想要部署 Edge Server。  <br/> |
+|![數值如何圖示](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)| [部署 Enterprise Voice skype 商務伺服器](../../SfbServer/deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) <br/> |了解如何部署完整的 Voice over IP (VoIP) 企業語音解決方案，提供豐富的整合 Outlook 和 Exchange，與許多功能強大的功能，例如回應群組，通話駐留、 小組通話群組來電接聽，並增強型緊急 E9-1-1支援。  <br/> |
+| ![數值如何圖示](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)| [視訊 Interop 在中部署伺服器 Skype for Business Server](../../SfbServer/deploy/deploy-video-interop-server/deploy-video-interop-server.md) <br/> |如果您想要支援視訊的互通性，了解如何部署視訊 Interop 伺服器 (VIS)。  <br/> |
    
-## <a name="additional-resources-about-planning-for-skype-for-business-server"></a>有關規劃商務用 Skype Server 的其他資源
+## <a name="additional-resources-about-planning-for-skype-for-business-server"></a>規劃 skype 商務伺服器相關的其他資源
 
-有關如何規劃商務用 Skype Server 的下列資源，請參閱其他主題專家。 
+下列有關如何規劃 skype 商務伺服器的資源是由其他主題專家提供。 
   
-||**內容**|**說明**|
+||**內容**|**描述**|
 |:-----|:-----|:-----|
-|![文檔的圖示](https://docs.microsoft.com/office/media/icons/paragraph-writing-blue.svg)|[適用于 IT 專業人員的商務用 Skype 伺服器](https://go.microsoft.com/fwlink/p/?LinkId=527960) <br/> |造訪資源中心以存取影片、社區網站、檔、下載及其他內容。|
-|![開發人員內容的圖示](https://docs.microsoft.com/office/media/icons/developer-blue.svg)|[Skype 開發人員平臺](https://go.microsoft.com/fwlink/?LinkId=619775) <br/> |尋找商務用 Skype Server 的開發人員資源，包括程式碼範例、訓練與 Sdk。  <br/> |
-|![新聞、博客等的圖示](https://docs.microsoft.com/office/media/icons/blog-site-blue.svg)|[變更管理與採納](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Office 博客](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> [Skype 小組博客](https://go.microsoft.com/fwlink/p/?LinkId=532818) <br/> |從建立及記錄商務用 Skype Server 的小組中，隨時掌握最新消息。  <br/> |
+|![文件圖示](https://docs.microsoft.com/office/media/icons/paragraph-writing-blue.svg)|[適用於 IT 專業人員的 Business Server 商務用 Skype](https://go.microsoft.com/fwlink/p/?LinkId=527960) <br/> |造訪資源中心以存取影片、 社群網站、 文件、 下載及更多。|
+|![開發人員內容的圖示](https://docs.microsoft.com/office/media/icons/developer-blue.svg)|[版 Skype 開發人員平台](https://go.microsoft.com/fwlink/?LinkId=619775) <br/> |尋找開發人員資源 skype 商務伺服器，包括程式碼範例、 訓練與 Sdk。  <br/> |
+|![新聞、 部落格等等的圖示](https://docs.microsoft.com/office/media/icons/blog-site-blue.svg)|[變更管理和採用率](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Office 部落格](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> [Skype 小組部落格](https://go.microsoft.com/fwlink/p/?LinkId=532818) <br/> |隨時接收來自文件 Skype 與小組的最新資訊商務伺服器。  <br/> |
    
 

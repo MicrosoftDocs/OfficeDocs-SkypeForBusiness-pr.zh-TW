@@ -1,7 +1,7 @@
 ---
 title: 病患應用程式概觀
-author: jambirk
-ms.author: jambirk
+author: dstrome
+ms.author: dstrome
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -17,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: Microsoft 團隊患者 app EHR 整合
-ms.openlocfilehash: 8d5723f90fe56c2af342f1cfd76e3ab9bde04c60
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 27149ad8466eec9bd3c1f73293f82a877dc1a722
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827651"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147716"
 ---
 # <a name="integrating-electronic-healthcare-records-into-microsoft-teams"></a>將電子醫療保健記錄整合至 Microsoft Teams
 
@@ -79,7 +79,7 @@ ms.locfileid: "41827651"
     {"resourceType"： "CapabilityStatement"，。
         .
         .
-        "rest"： [{] mode "：" server "，" security "： {" extension "： [{" extension "： [{" url "：] 權杖"，"valueUri"： "https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/token" "}，{" url "：" 授權 "，" valueUri "：https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/authorize" ""} "，" url "http://fhir-registry.smarthealthit.org/StructureDefinition/oauth-uris：" "" ""，"服務"： [{"："http://hl7.org/fhir/ValueSet/restful-security-service"" "code"： "OAuth"} "" ""}，）。
+        "rest"： [{] mode "：" server "，" security "： {" extension "： [{" extension "： [{" url "：] 權杖"，"valueUri"： "https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/token" "}，{" url "：" 授權 "，" valueUri "：https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/authorize" ""} "，" url "http://fhir-registry.smarthealthit.org/StructureDefinition/oauth-uris：" "" ""，"服務"： [{"："https://hl7.org/fhir/ValueSet/restful-security-service"" "code"： "OAuth"} "" ""}，）。
                 .
                 .
             } ] }

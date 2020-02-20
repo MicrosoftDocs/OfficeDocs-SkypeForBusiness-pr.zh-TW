@@ -1,7 +1,7 @@
 ---
 title: 適用於教育界管理員的 Microsoft Teams 原則套件
-author: jambirk
-ms.author: jambirk
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.reviewer: prkuch
 ms.topic: article
@@ -19,12 +19,12 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何在 Microsoft 團隊中使用及管理原則套件。
-ms.openlocfilehash: a06e32d72f4bd82b1db6b74e32312c113a1d7086
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: d4a11952ea65a5380abb3ba284e13bab6d5d4e90
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837343"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42155045"
 ---
 # <a name="microsoft-teams-policy-packages-for-edu-admins"></a>適用於教育界管理員的 Microsoft Teams 原則套件
 
@@ -37,7 +37,7 @@ Microsoft 團隊中的原則套件會收集預先定義的原則與原則設定�
 [原則套件] 可讓您控制 Microsoft 團隊功能，以允許或限制 Microsoft 團隊針對貴組織中的特定人員組使用。 每個原則套件都是圍繞使用者角色來設計，其中包含支援該角色典型活動的預先定義原則與原則設定。
 
 原則套件的預先定義原則：
-- 傳訊
+- 訊息傳送
 - 會議
 - App 設定
 - 通話
@@ -45,7 +45,7 @@ Microsoft 團隊中的原則套件會收集預先定義的原則與原則設定�
 
 Microsoft 團隊目前包含下列原則套件：
 
-|[Microsoft 團隊系統管理中心] 中列出的套件名稱 |最適合用於  |說明 |
+|[Microsoft 團隊系統管理中心] 中列出的套件名稱 |最適合用於  |描述 |
 |:--- |:--- |:--- |
 |Education_Teacher| 教育版與員工| 使用這組原則與原則設定，可讓您組織內的教師與員工在 Microsoft 團隊中授與聊天、通話和會議的完整存取權。 |
 |Education_PrimaryStudent | 主要的學校老學生  | 較年輕、貴機構內主要的學校較舊學生可能需要 Microsoft 團隊中的更多限制。 使用這組原則與原則設定來限制會議建立與管理、聊天管理和私人通話等功能。 |

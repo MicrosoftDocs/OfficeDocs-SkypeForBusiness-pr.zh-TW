@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 瞭解如何取得正確的固件、根據需要進行更新、指派授權，以及設定商務用 Skype online 手機的設定等部署步驟
-ms.openlocfilehash: efcea04a454d846c0140e9d1dba561da228df1de
-ms.sourcegitcommit: a61d33fe15982bd8a34f1759b6b89be5aa699fe3
+ms.openlocfilehash: f4f1a36e5a2e98c4566a81b41bc6e6c281ac9a3b
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "41784750"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42113146"
 ---
 # <a name="deploying-skype-for-business-online-phones"></a>部署用商務用 Skype Online 電話
 
@@ -208,7 +208,7 @@ BToE 可以設定為以兩種模式運作： [*自動*（預設）] 和 [*手動
   
 2. 從以下連結，從製造商網站下載並安裝最新的 BToE 軟體。 若要取得更佳的使用者體驗，您可以使用系統管理員發佈方案（例如 Microsoft 端點設定管理員）分發及安裝 BToE 軟體。 如需使用 Configuration Manager 的說明，請參閱[Configuration manager 中的套件與程式](https://docs.microsoft.com/configmgr/apps/deploy-use/packages-and-programs)。
     
-   - [Polycom BToE 軟體下載網站](http://www.polycom.com/voice-conferencing-solutions/microsoft-phones.html)
+   - [Polycom BToE 軟體下載網站](https://www.polycom.com/voice-conferencing-solutions/microsoft-phones.html)
     
    - [Yealink BToE 軟體下載](http://www.yealink.com/products_list_10.html)
     

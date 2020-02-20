@@ -1,7 +1,7 @@
 ---
 title: 患者 App 與 EHR 整合 DSTU2 介面
-author: jambirk
-ms.author: jambirk
+author: dstrome
+ms.author: dstrome
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -17,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: Microsoft 團隊患者 app EHR 整合
-ms.openlocfilehash: d7acea1002d80a397469d242cfbbb1adfba07a24
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 10a6b21e583b5fdd3e70857c4cfc5e7e21a7e988
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827801"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153815"
 ---
 # <a name="dstu2-interface-specification"></a>DSTU2 介面規格
 
@@ -54,7 +54,7 @@ ms.locfileid: "41827801"
    1. 下
    2. 互動
    3. 資源：類型
-   4. 安全性： [OAuth uri 的副檔名](http://hl7.org/fhir/extension-oauth-uris.html)
+   4. 安全性： [OAuth uri 的副檔名](https://hl7.org/fhir/extension-oauth-uris.html)
 2. FhirVersion （我們的程式碼需要這麼做，才能瞭解我們支援多個版本時應該要旋轉的版本）。
 
 如[https://www.hl7.org/fhir/dstu2/conformance.html](https://www.hl7.org/fhir/dstu2/conformance.html)需此欄位集的其他詳細資料，請參閱。
@@ -82,7 +82,7 @@ ms.locfileid: "41827801"
     回應： {"resourceType"： "患者"，"id"： "<患者 id>"，）。
       .
       .
-      "name"： [{"use"： "官方"，"prefix"： ["Mr"]，"" 稱謂 "： [" Chau "]，" family "： [" Hugh "]}]，" 識別碼 "： [{" 使用 "：" 官方 "，" 類型 "： {" code "： [{" （"MRhttp://hl7.org/fhir/v2/0203"} ""，"的值"： "1234567"}]，"性別"： "男"，"生日"： "1957-06-05"，"careProvider"： [{"顯示"： "Jane Doe"}]，}
+      "name"： [{"use"： "官方"，"prefix"： ["Mr"]，"" 稱謂 "： [" Chau "]，" family "： [" Hugh "]}]，" 識別碼 "： [{" 使用 "：" 官方 "，" 類型 "： {" code "： [{" （"MRhttps://hl7.org/fhir/v2/0203"} ""，"的值"： "1234567"}]，"性別"： "男"，"生日"： "1957-06-05"，"careProvider"： [{"顯示"： "Jane Doe"}]，}
 
 * * *
 
