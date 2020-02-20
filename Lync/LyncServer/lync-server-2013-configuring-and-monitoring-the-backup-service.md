@@ -12,20 +12,20 @@ ms:contentKeyID: 48185365
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5f0fc9d65f1879c453c01813e09ad2ca0e8a99c2
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 65fbbf4db9e15eac2d29fcde6bd126355c794a95
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029664"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42150822"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-and-monitoring-the-backup-service-in-lync-server-2013"></a><span data-ttu-id="e142d-102">設定和監控 Lync Server 2013 中備份服務</span><span class="sxs-lookup"><span data-stu-id="e142d-102">Configuring and monitoring the Backup Service in Lync Server 2013</span></span>
+# <a name="configuring-and-monitoring-the-backup-service-in-lync-server-2013"></a><span data-ttu-id="790cb-102">設定和監控 Lync Server 2013 中備份服務</span><span class="sxs-lookup"><span data-stu-id="790cb-102">Configuring and monitoring the Backup Service in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "42029664"
 
 <span> </span>
 
-<span data-ttu-id="e142d-103">_**主題上次修改日期：** 2012年-11-01_</span><span class="sxs-lookup"><span data-stu-id="e142d-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="790cb-103">_**主題上次修改日期：** 2012年-11-01_</span><span class="sxs-lookup"><span data-stu-id="790cb-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="e142d-104">您可以使用下列的 Lync Server 管理命令介面命令來設定和監控備份服務。</span><span class="sxs-lookup"><span data-stu-id="e142d-104">You can use the following Lync Server Management Shell commands to configure and monitor the Backup Service.</span></span>
+<span data-ttu-id="790cb-104">您可以使用下列的 Lync Server 管理命令介面命令來設定和監控備份服務。</span><span class="sxs-lookup"><span data-stu-id="790cb-104">You can use the following Lync Server Management Shell commands to configure and monitor the Backup Service.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="e142d-105">以 RTCUniversalServerAdmins 群組是具有執行<STRONG>Get-csbackupservicestatus</STRONG>預設權限的唯一群組。</span><span class="sxs-lookup"><span data-stu-id="e142d-105">The RTCUniversalServerAdmins group is the only group that has permissions to run <STRONG>Get-CsBackupServiceStatus</STRONG> by default.</span></span> <span data-ttu-id="e142d-106">若要使用此指令程式，此群組的成員身分登入。</span><span class="sxs-lookup"><span data-stu-id="e142d-106">To use this cmdlet, log on as a member of this group.</span></span> <span data-ttu-id="e142d-107">或者，您可以存取權授與此命令 (例如，CSAdministrator) 的其他群組使用<STRONG>Set-csbackupserviceconfiguration</STRONG> cmdlet。</span><span class="sxs-lookup"><span data-stu-id="e142d-107">Or, you can grant access to this command to other groups (for example, CSAdministrator) by using the <STRONG>Set-CsBackupServiceConfiguration</STRONG> cmdlet.</span></span>
+> <span data-ttu-id="790cb-105">以 RTCUniversalServerAdmins 群組是具有執行<STRONG>Get-csbackupservicestatus</STRONG>預設權限的唯一群組。</span><span class="sxs-lookup"><span data-stu-id="790cb-105">The RTCUniversalServerAdmins group is the only group that has permissions to run <STRONG>Get-CsBackupServiceStatus</STRONG> by default.</span></span> <span data-ttu-id="790cb-106">若要使用此指令程式，此群組的成員身分登入。</span><span class="sxs-lookup"><span data-stu-id="790cb-106">To use this cmdlet, log on as a member of this group.</span></span> <span data-ttu-id="790cb-107">或者，您可以存取權授與此命令 (例如，CSAdministrator) 的其他群組使用<STRONG>Set-csbackupserviceconfiguration</STRONG> cmdlet。</span><span class="sxs-lookup"><span data-stu-id="790cb-107">Or, you can grant access to this command to other groups (for example, CSAdministrator) by using the <STRONG>Set-CsBackupServiceConfiguration</STRONG> cmdlet.</span></span>
 
 
 
@@ -51,25 +51,25 @@ ms.locfileid: "42029664"
 
 <div>
 
-## <a name="to-see-the-backup-service-configuration"></a><span data-ttu-id="e142d-108">若要查看備份服務組態</span><span class="sxs-lookup"><span data-stu-id="e142d-108">To see the Backup Service configuration</span></span>
+## <a name="to-see-the-backup-service-configuration"></a><span data-ttu-id="790cb-108">若要查看備份服務組態</span><span class="sxs-lookup"><span data-stu-id="790cb-108">To see the Backup Service configuration</span></span>
 
-<span data-ttu-id="e142d-109">執行下列 Cmdlet：</span><span class="sxs-lookup"><span data-stu-id="e142d-109">Run the following cmdlet:</span></span>
+<span data-ttu-id="790cb-109">執行下列 Cmdlet：</span><span class="sxs-lookup"><span data-stu-id="790cb-109">Run the following cmdlet:</span></span>
 
     Get-CsBackupServiceConfiguration
 
-<span data-ttu-id="e142d-110">SyncInterval 的預設值為 2 分鐘。</span><span class="sxs-lookup"><span data-stu-id="e142d-110">The default for SyncInterval is two minutes.</span></span>
+<span data-ttu-id="790cb-110">SyncInterval 的預設值為 2 分鐘。</span><span class="sxs-lookup"><span data-stu-id="790cb-110">The default for SyncInterval is two minutes.</span></span>
 
 </div>
 
 <div>
 
-## <a name="to-set-the-backup-service-sync-interval"></a><span data-ttu-id="e142d-111">若要設定的備份服務同步處理間隔</span><span class="sxs-lookup"><span data-stu-id="e142d-111">To set the Backup Service sync interval</span></span>
+## <a name="to-set-the-backup-service-sync-interval"></a><span data-ttu-id="790cb-111">若要設定的備份服務同步處理間隔</span><span class="sxs-lookup"><span data-stu-id="790cb-111">To set the Backup Service sync interval</span></span>
 
-<span data-ttu-id="e142d-112">執行下列 Cmdlet：</span><span class="sxs-lookup"><span data-stu-id="e142d-112">Run the following cmdlet:</span></span>
+<span data-ttu-id="790cb-112">執行下列 Cmdlet：</span><span class="sxs-lookup"><span data-stu-id="790cb-112">Run the following cmdlet:</span></span>
 
     Set-CsBackupServiceConfiguration -SyncInterval interval
 
-<span data-ttu-id="e142d-113">例如，下列設定的間隔為 3 分鐘。</span><span class="sxs-lookup"><span data-stu-id="e142d-113">For example, the following sets the interval to three minutes.</span></span>
+<span data-ttu-id="790cb-113">例如，下列設定的間隔為 3 分鐘。</span><span class="sxs-lookup"><span data-stu-id="790cb-113">For example, the following sets the interval to three minutes.</span></span>
 
     Set-CsBackupServiceConfiguration -SyncInterval 00:03:00
 
@@ -77,7 +77,7 @@ ms.locfileid: "42029664"
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="e142d-114">雖然您可以使用此 cmdlet 變更備份服務的預設同步間隔，您不應執行因此若非絕對必要，因為同步間隔具有極大影響備份服務的效能和復原點目標 (RPO)。</span><span class="sxs-lookup"><span data-stu-id="e142d-114">Although you can use this cmdlet to change the default sync interval for the Backup Service, you should not do so unless it is absolutely necessary, as the sync interval has a great impact on the Backup Service performance and the recovery point objective (RPO).</span></span>
+> <span data-ttu-id="790cb-114">雖然您可以使用此 cmdlet 變更備份服務的預設同步間隔，您不應執行因此若非絕對必要，因為同步間隔具有極大影響備份服務的效能和復原點目標 (RPO)。</span><span class="sxs-lookup"><span data-stu-id="790cb-114">Although you can use this cmdlet to change the default sync interval for the Backup Service, you should not do so unless it is absolutely necessary, as the sync interval has a great impact on the Backup Service performance and the recovery point objective (RPO).</span></span>
 
 
 
@@ -87,9 +87,9 @@ ms.locfileid: "42029664"
 
 <div>
 
-## <a name="to-get-the-backup-service-status-for-a-particular-pool"></a><span data-ttu-id="e142d-115">若要取得特定集區的備份服務狀態</span><span class="sxs-lookup"><span data-stu-id="e142d-115">To get the Backup Service status for a particular pool</span></span>
+## <a name="to-get-the-backup-service-status-for-a-particular-pool"></a><span data-ttu-id="790cb-115">若要取得特定集區的備份服務狀態</span><span class="sxs-lookup"><span data-stu-id="790cb-115">To get the Backup Service status for a particular pool</span></span>
 
-<span data-ttu-id="e142d-116">執行下列 Cmdlet：</span><span class="sxs-lookup"><span data-stu-id="e142d-116">Run the following cmdlet:</span></span>
+<span data-ttu-id="790cb-116">執行下列 Cmdlet：</span><span class="sxs-lookup"><span data-stu-id="790cb-116">Run the following cmdlet:</span></span>
 
     Get-CsBackupServiceStatus -PoolFqdn <pool-FQDN>
 
@@ -97,7 +97,7 @@ ms.locfileid: "42029664"
 
 
 > [!NOTE]  
-> <span data-ttu-id="e142d-117">備份服務同步處理的狀態定義 unidirectionally 從集區 (P1) 至其備份集區 (P2)。</span><span class="sxs-lookup"><span data-stu-id="e142d-117">The Backup Service sync status is defined unidirectionally from a pool (P1) to its backup pool (P2).</span></span> <span data-ttu-id="e142d-118">可以不同於另一條從 P2 到 P1 P2 從 P1 同步處理狀態。</span><span class="sxs-lookup"><span data-stu-id="e142d-118">The sync status from P1 to P2 can be different than the one from P2 to P1.</span></span> <span data-ttu-id="e142d-119">P1 至 P2，備份服務處於 「 穩定 」 狀態如果所有 P1 所做的變更會完全透過都複寫至 P2 內的同步處理間隔。</span><span class="sxs-lookup"><span data-stu-id="e142d-119">For P1 to P2, Backup Service is in a “steady” state if all the changes made in P1 are completely replicated over to P2 within the sync interval.</span></span> <span data-ttu-id="e142d-120">它是在 「 最終 」 狀態有必須從 P1 同步處理至 P2 沒有更多的變更。</span><span class="sxs-lookup"><span data-stu-id="e142d-120">It is in the “final” state if there are no more changes to be synchronized from P1 to P2.</span></span> <span data-ttu-id="e142d-121">這兩種狀態指出備份服務的快照集在執行指令程式時的時間。</span><span class="sxs-lookup"><span data-stu-id="e142d-121">Both states indicate a snapshot of the Backup Service at the time the cmdlet is executed.</span></span> <span data-ttu-id="e142d-122">並不表示傳回的狀態會保持為先。</span><span class="sxs-lookup"><span data-stu-id="e142d-122">It does not imply that the state returned will stay as is afterwards.</span></span> <span data-ttu-id="e142d-123">特別是，「 最終 」 狀態會繼續保留如果 P1 不會產生任何變更之後執行指令程式。</span><span class="sxs-lookup"><span data-stu-id="e142d-123">In particular, the “final” state will continue to hold only if P1 does not generate any changes after the cmdlet is executed.</span></span> <span data-ttu-id="e142d-124">這是在容錯 P1 移轉，至 P2 P1 一部分<STRONG>Invoke-cspoolfailover</STRONG>執行邏輯放入唯讀模式之後的情況下，則為 true。</span><span class="sxs-lookup"><span data-stu-id="e142d-124">This is true in the case of failing P1 over to P2 after P1 is placed into the read-only mode as part of the <STRONG>Invoke-CsPoolfailover</STRONG> execution logic.</span></span>
+> <span data-ttu-id="790cb-117">備份服務同步處理的狀態定義 unidirectionally 從集區 (P1) 至其備份集區 (P2)。</span><span class="sxs-lookup"><span data-stu-id="790cb-117">The Backup Service sync status is defined unidirectionally from a pool (P1) to its backup pool (P2).</span></span> <span data-ttu-id="790cb-118">可以不同於另一條從 P2 到 P1 P2 從 P1 同步處理狀態。</span><span class="sxs-lookup"><span data-stu-id="790cb-118">The sync status from P1 to P2 can be different than the one from P2 to P1.</span></span> <span data-ttu-id="790cb-119">P1 至 P2，備份服務處於 「 穩定 」 狀態如果所有 P1 所做的變更會完全透過都複寫至 P2 內的同步處理間隔。</span><span class="sxs-lookup"><span data-stu-id="790cb-119">For P1 to P2, Backup Service is in a “steady” state if all the changes made in P1 are completely replicated over to P2 within the sync interval.</span></span> <span data-ttu-id="790cb-120">它是在 「 最終 」 狀態有必須從 P1 同步處理至 P2 沒有更多的變更。</span><span class="sxs-lookup"><span data-stu-id="790cb-120">It is in the “final” state if there are no more changes to be synchronized from P1 to P2.</span></span> <span data-ttu-id="790cb-121">這兩種狀態指出備份服務的快照集在執行指令程式時的時間。</span><span class="sxs-lookup"><span data-stu-id="790cb-121">Both states indicate a snapshot of the Backup Service at the time the cmdlet is executed.</span></span> <span data-ttu-id="790cb-122">並不表示傳回的狀態會保持為先。</span><span class="sxs-lookup"><span data-stu-id="790cb-122">It does not imply that the state returned will stay as is afterwards.</span></span> <span data-ttu-id="790cb-123">特別是，「 最終 」 狀態會繼續保留如果 P1 不會產生任何變更之後執行指令程式。</span><span class="sxs-lookup"><span data-stu-id="790cb-123">In particular, the “final” state will continue to hold only if P1 does not generate any changes after the cmdlet is executed.</span></span> <span data-ttu-id="790cb-124">這是在容錯 P1 移轉，至 P2 P1 一部分<STRONG>Invoke-cspoolfailover</STRONG>執行邏輯放入唯讀模式之後的情況下，則為 true。</span><span class="sxs-lookup"><span data-stu-id="790cb-124">This is true in the case of failing P1 over to P2 after P1 is placed into the read-only mode as part of the <STRONG>Invoke-CsPoolfailover</STRONG> execution logic.</span></span>
 
 
 
@@ -107,9 +107,9 @@ ms.locfileid: "42029664"
 
 <div>
 
-## <a name="to-get-information-about-the-backup-relationship-for-a-particular-pool"></a><span data-ttu-id="e142d-125">若要取得特定集區的備份關係的相關資訊</span><span class="sxs-lookup"><span data-stu-id="e142d-125">To get information about the backup relationship for a particular pool</span></span>
+## <a name="to-get-information-about-the-backup-relationship-for-a-particular-pool"></a><span data-ttu-id="790cb-125">若要取得特定集區的備份關係的相關資訊</span><span class="sxs-lookup"><span data-stu-id="790cb-125">To get information about the backup relationship for a particular pool</span></span>
 
-<span data-ttu-id="e142d-126">執行下列 Cmdlet：</span><span class="sxs-lookup"><span data-stu-id="e142d-126">Run the following cmdlet:</span></span>
+<span data-ttu-id="790cb-126">執行下列 Cmdlet：</span><span class="sxs-lookup"><span data-stu-id="790cb-126">Run the following cmdlet:</span></span>
 
     Get-CsPoolBackupRelationship -PoolFQDN <poolFQDN>
 
@@ -117,9 +117,9 @@ ms.locfileid: "42029664"
 
 <div>
 
-## <a name="to-force-a-backup-service-sync"></a><span data-ttu-id="e142d-127">若要強制備份服務同步處理</span><span class="sxs-lookup"><span data-stu-id="e142d-127">To force a Backup Service sync</span></span>
+## <a name="to-force-a-backup-service-sync"></a><span data-ttu-id="790cb-127">若要強制備份服務同步處理</span><span class="sxs-lookup"><span data-stu-id="790cb-127">To force a Backup Service sync</span></span>
 
-<span data-ttu-id="e142d-128">執行下列 Cmdlet：</span><span class="sxs-lookup"><span data-stu-id="e142d-128">Run the following cmdlet:</span></span>
+<span data-ttu-id="790cb-128">執行下列 Cmdlet：</span><span class="sxs-lookup"><span data-stu-id="790cb-128">Run the following cmdlet:</span></span>
 
     Invoke-CsBackupServiceSync -PoolFqdn <poolFqdn> [-BackupModule  {All|PresenceFocus|DataConf|CMSMaster}]
 

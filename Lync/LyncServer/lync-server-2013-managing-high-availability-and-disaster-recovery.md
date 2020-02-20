@@ -12,20 +12,20 @@ ms:contentKeyID: 48184313
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 519829c0a59bab7d726056c805dfc79f50272f84
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: bb3e75287bae6887b1bfdc134993bbdfa5d224f8
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006941"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42150354"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-high-availability-and-disaster-recovery-in-lync-server-2013"></a><span data-ttu-id="b9d08-102">管理 Lync Server 2013 中的高可用性和災害復原</span><span class="sxs-lookup"><span data-stu-id="b9d08-102">Managing high availability and disaster recovery in Lync Server 2013</span></span>
+# <a name="managing-high-availability-and-disaster-recovery-in-lync-server-2013"></a><span data-ttu-id="79d41-102">管理 Lync Server 2013 中的高可用性和災害復原</span><span class="sxs-lookup"><span data-stu-id="79d41-102">Managing high availability and disaster recovery in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "42006941"
 
 <span> </span>
 
-<span data-ttu-id="b9d08-103">_**主題上次修改日期：** 2012年-08-03_</span><span class="sxs-lookup"><span data-stu-id="b9d08-103">_**Topic Last Modified:** 2012-08-03_</span></span>
+<span data-ttu-id="79d41-103">_**主題上次修改日期：** 2012年-08-03_</span><span class="sxs-lookup"><span data-stu-id="79d41-103">_**Topic Last Modified:** 2012-08-03_</span></span>
 
-<span data-ttu-id="b9d08-104">下列主題說明如何設定高可用性、 嚴重損壞修復，容錯移轉及容錯回復常設聊天室伺服器。</span><span class="sxs-lookup"><span data-stu-id="b9d08-104">The following topics describe how to configure high availability, disaster recovery, failing over, and failing back for Persistent Chat Server.</span></span>
+<span data-ttu-id="79d41-104">下列主題說明如何設定高可用性、 嚴重損壞修復，容錯移轉及容錯回復常設聊天室伺服器。</span><span class="sxs-lookup"><span data-stu-id="79d41-104">The following topics describe how to configure high availability, disaster recovery, failing over, and failing back for Persistent Chat Server.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="b9d08-105">本章節內容</span><span class="sxs-lookup"><span data-stu-id="b9d08-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="79d41-105">本章節內容</span><span class="sxs-lookup"><span data-stu-id="79d41-105">In This Section</span></span>
 
-  - [<span data-ttu-id="b9d08-106">針對常設聊天室高可用性和嚴重損壞修復 Lync Server 2013 中設定</span><span class="sxs-lookup"><span data-stu-id="b9d08-106">Configuring for Persistent Chat high availability and disaster recovery in Lync Server 2013</span></span>](lync-server-2013-configuring-for-persistent-chat-high-availability-and-disaster-recovery.md)
+  - [<span data-ttu-id="79d41-106">針對常設聊天室高可用性和嚴重損壞修復 Lync Server 2013 中設定</span><span class="sxs-lookup"><span data-stu-id="79d41-106">Configuring for Persistent Chat high availability and disaster recovery in Lync Server 2013</span></span>](lync-server-2013-configuring-for-persistent-chat-high-availability-and-disaster-recovery.md)
 
-  - [<span data-ttu-id="b9d08-107">容錯移轉和失敗的備份 Persistent Chat Server in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b9d08-107">Failing over and failing back Persistent Chat Server in Lync Server 2013</span></span>](lync-server-2013-failing-over-and-failing-back-persistent-chat-server.md)
+  - [<span data-ttu-id="79d41-107">容錯移轉和失敗的備份 Persistent Chat Server in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="79d41-107">Failing over and failing back Persistent Chat Server in Lync Server 2013</span></span>](lync-server-2013-failing-over-and-failing-back-persistent-chat-server.md)
 
 </div>
 

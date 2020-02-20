@@ -12,20 +12,20 @@ ms:contentKeyID: 48183600
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6d170fa183e045203398725a7b7ec4bdd4c38203
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 09897effe252f49eda73fea567d9b54bdc8ad52a
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42039320"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42149673"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migrate-users-to-unified-contact-store-in-lync-server-2013"></a><span data-ttu-id="cc704-102">將使用者移轉至 Lync Server 2013 中整合連絡人存放區</span><span class="sxs-lookup"><span data-stu-id="cc704-102">Migrate users to unified contact store in Lync Server 2013</span></span>
+# <a name="migrate-users-to-unified-contact-store-in-lync-server-2013"></a><span data-ttu-id="16dc5-102">將使用者移轉至 Lync Server 2013 中整合連絡人存放區</span><span class="sxs-lookup"><span data-stu-id="16dc5-102">Migrate users to unified contact store in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,31 +35,31 @@ ms.locfileid: "42039320"
 
 <span> </span>
 
-<span data-ttu-id="cc704-103">_**主題上次修改日期：** 2012 年 10 月 15_</span><span class="sxs-lookup"><span data-stu-id="cc704-103">_**Topic Last Modified:** 2012-10-15_</span></span>
+<span data-ttu-id="16dc5-103">_**主題上次修改日期：** 2012 年 10 月 15_</span><span class="sxs-lookup"><span data-stu-id="16dc5-103">_**Topic Last Modified:** 2012-10-15_</span></span>
 
-<span data-ttu-id="cc704-104">使用者的連絡人就會自動移轉至 Exchange 2013 伺服器時使用者：</span><span class="sxs-lookup"><span data-stu-id="cc704-104">A user's contacts are automatically migrated to the Exchange 2013 server when the user:</span></span>
+<span data-ttu-id="16dc5-104">使用者的連絡人就會自動移轉至 Exchange 2013 伺服器時使用者：</span><span class="sxs-lookup"><span data-stu-id="16dc5-104">A user's contacts are automatically migrated to the Exchange 2013 server when the user:</span></span>
 
-  - <span data-ttu-id="cc704-105">已指派了 UcsAllowed 設為 True 的使用者服務原則。</span><span class="sxs-lookup"><span data-stu-id="cc704-105">Has been assigned a user services policy that has UcsAllowed set to True.</span></span>
+  - <span data-ttu-id="16dc5-105">已指派了 UcsAllowed 設為 True 的使用者服務原則。</span><span class="sxs-lookup"><span data-stu-id="16dc5-105">Has been assigned a user services policy that has UcsAllowed set to True.</span></span>
 
-  - <span data-ttu-id="cc704-106">已佈建與 Exchange 2013 信箱，並已至少一次登入信箱。</span><span class="sxs-lookup"><span data-stu-id="cc704-106">Has been provisioned with an Exchange 2013 mailbox and has signed into the mailbox at least once.</span></span>
+  - <span data-ttu-id="16dc5-106">已佈建與 Exchange 2013 信箱，並已至少一次登入信箱。</span><span class="sxs-lookup"><span data-stu-id="16dc5-106">Has been provisioned with an Exchange 2013 mailbox and has signed into the mailbox at least once.</span></span>
 
-  - <span data-ttu-id="cc704-107">使用 Lync 2013 豐富型用戶端中記錄。</span><span class="sxs-lookup"><span data-stu-id="cc704-107">Logs in by using a Lync 2013 rich client.</span></span>
+  - <span data-ttu-id="16dc5-107">使用 Lync 2013 豐富型用戶端中記錄。</span><span class="sxs-lookup"><span data-stu-id="16dc5-107">Logs in by using a Lync 2013 rich client.</span></span>
 
-<span data-ttu-id="cc704-108">如果使用者登入 Lync 2010 或更早的用戶端，或者如果使用者未連線至 Exchange 2013 伺服器，則會忽略使用者服務原則及使用者的連絡人會保留在 Lync Server。</span><span class="sxs-lookup"><span data-stu-id="cc704-108">If the user logs in with a Lync 2010 or earlier client, or if the user is not connected to an Exchange 2013 server, the user services policy is ignored and the user's contacts remain in Lync Server.</span></span>
+<span data-ttu-id="16dc5-108">如果使用者登入 Lync 2010 或更早的用戶端，或者如果使用者未連線至 Exchange 2013 伺服器，則會忽略使用者服務原則及使用者的連絡人會保留在 Lync Server。</span><span class="sxs-lookup"><span data-stu-id="16dc5-108">If the user logs in with a Lync 2010 or earlier client, or if the user is not connected to an Exchange 2013 server, the user services policy is ignored and the user's contacts remain in Lync Server.</span></span>
 
-<span data-ttu-id="cc704-109">您可使用下列方法之一，來判斷使用者的連絡人是否已移轉：</span><span class="sxs-lookup"><span data-stu-id="cc704-109">You can determine whether a user's contacts have been migrated by using either of the following methods:</span></span>
+<span data-ttu-id="16dc5-109">您可使用下列方法之一，來判斷使用者的連絡人是否已移轉：</span><span class="sxs-lookup"><span data-stu-id="16dc5-109">You can determine whether a user's contacts have been migrated by using either of the following methods:</span></span>
 
-  - <span data-ttu-id="cc704-110">檢查用戶端電腦上的下列登錄機碼：</span><span class="sxs-lookup"><span data-stu-id="cc704-110">Check the following registry key on the client computer:</span></span>
+  - <span data-ttu-id="16dc5-110">檢查用戶端電腦上的下列登錄機碼：</span><span class="sxs-lookup"><span data-stu-id="16dc5-110">Check the following registry key on the client computer:</span></span>
     
-    <span data-ttu-id="cc704-111">HKEY\_目前\_使用者\\軟體\\Microsoft\\Office\\15.0\\Lync\\\<SIP URL\>\\UCS</span><span class="sxs-lookup"><span data-stu-id="cc704-111">HKEY\_CURRENT\_USER\\Software\\Microsoft\\Office\\15.0\\Lync\\\<SIP URL\>\\UCS</span></span>
+    <span data-ttu-id="16dc5-111">HKEY\_目前\_使用者\\軟體\\Microsoft\\Office\\15.0\\Lync\\\<SIP URL\>\\UCS</span><span class="sxs-lookup"><span data-stu-id="16dc5-111">HKEY\_CURRENT\_USER\\Software\\Microsoft\\Office\\15.0\\Lync\\\<SIP URL\>\\UCS</span></span>
     
-    <span data-ttu-id="cc704-112">如果使用者的連絡人會儲存在 Exchange 2013 中，此機碼會包含 InUCSMode 值為 2165年的值。</span><span class="sxs-lookup"><span data-stu-id="cc704-112">If the user's contacts are stored in Exchange 2013, this key contains a value of InUCSMode with a value of 2165.</span></span>
+    <span data-ttu-id="16dc5-112">如果使用者的連絡人會儲存在 Exchange 2013 中，此機碼會包含 InUCSMode 值為 2165年的值。</span><span class="sxs-lookup"><span data-stu-id="16dc5-112">If the user's contacts are stored in Exchange 2013, this key contains a value of InUCSMode with a value of 2165.</span></span>
 
-  - <span data-ttu-id="cc704-113">執行 **Test-CsUnifiedContactStore** Cmdlet。</span><span class="sxs-lookup"><span data-stu-id="cc704-113">Run the **Test-CsUnifiedContactStore** cmdlet.</span></span> <span data-ttu-id="cc704-114">在 Lync Server 管理命令介面命令列中，輸入：</span><span class="sxs-lookup"><span data-stu-id="cc704-114">At the Lync Server Management Shell command line, type:</span></span>
+  - <span data-ttu-id="16dc5-113">執行 **Test-CsUnifiedContactStore** Cmdlet。</span><span class="sxs-lookup"><span data-stu-id="16dc5-113">Run the **Test-CsUnifiedContactStore** cmdlet.</span></span> <span data-ttu-id="16dc5-114">在 Lync Server 管理命令介面命令列中，輸入：</span><span class="sxs-lookup"><span data-stu-id="16dc5-114">At the Lync Server Management Shell command line, type:</span></span>
     
         Test-CsUnifiedContactStore -UserSipAddress "sip:kenmyer@litwareinc.com" -TargetFqdn "atl-cs-001.litwareinc.com"
     
-    <span data-ttu-id="cc704-115">若 **Test-CsUnifiedContactStore** 成功，使用者的連絡人就已移轉至整合連絡人存放區。</span><span class="sxs-lookup"><span data-stu-id="cc704-115">If **Test-CsUnifiedContactStore** succeeds, the user's contacts were migrated to unified contact store.</span></span>
+    <span data-ttu-id="16dc5-115">若 **Test-CsUnifiedContactStore** 成功，使用者的連絡人就已移轉至整合連絡人存放區。</span><span class="sxs-lookup"><span data-stu-id="16dc5-115">If **Test-CsUnifiedContactStore** succeeds, the user's contacts were migrated to unified contact store.</span></span>
 
 </div>
 

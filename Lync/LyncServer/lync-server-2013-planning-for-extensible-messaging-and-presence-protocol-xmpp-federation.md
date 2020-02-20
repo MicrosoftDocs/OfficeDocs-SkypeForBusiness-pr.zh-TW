@@ -12,20 +12,20 @@ ms:contentKeyID: 48184892
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5f95a8e53de2c11473d8424eb2bc794e41aa7d1f
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c8421c8fc7568aae9c7e7cedc0cad9ea0c503140
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42036823"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42152811"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-extensible-messaging-and-presence-protocol-xmpp-federation-in-lync-server-2013"></a><span data-ttu-id="84a99-102">可延伸訊息與顯示狀態通訊協定 (XMPP) 同盟 Lync Server 2013 中規劃</span><span class="sxs-lookup"><span data-stu-id="84a99-102">Planning for extensible messaging and presence protocol (XMPP) federation in Lync Server 2013</span></span>
+# <a name="planning-for-extensible-messaging-and-presence-protocol-xmpp-federation-in-lync-server-2013"></a><span data-ttu-id="e6a77-102">可延伸訊息與顯示狀態通訊協定 (XMPP) 同盟 Lync Server 2013 中規劃</span><span class="sxs-lookup"><span data-stu-id="e6a77-102">Planning for extensible messaging and presence protocol (XMPP) federation in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "42036823"
 
 <span> </span>
 
-<span data-ttu-id="84a99-103">_**主題上次修改日期：** 2012年-10-22_</span><span class="sxs-lookup"><span data-stu-id="84a99-103">_**Topic Last Modified:** 2012-10-22_</span></span>
+<span data-ttu-id="e6a77-103">_**主題上次修改日期：** 2012年-10-22_</span><span class="sxs-lookup"><span data-stu-id="e6a77-103">_**Topic Last Modified:** 2012-10-22_</span></span>
 
-<span data-ttu-id="84a99-104">舊版的 Lync Server 和 Office Communications Server 提供可延伸訊息和目前狀態通訊協定 (XMPP) 閘道，可以部署為不同的伺服器角色，以允許與 XMPP 部署同盟。</span><span class="sxs-lookup"><span data-stu-id="84a99-104">Previous versions of Lync Server and Office Communications Server provided an extensible messaging and presence protocol (XMPP) gateway that could be deployed as a separate server role to allow federating with XMPP deployments.</span></span> <span data-ttu-id="84a99-105">在 [Microsoft Lync Server 2013 XMPP 功能可以部署為功能。</span><span class="sxs-lookup"><span data-stu-id="84a99-105">In Microsoft Lync Server 2013, the XMPP functionality can be deployed as a feature.</span></span> <span data-ttu-id="84a99-106">XMPP 功能安裝在兩個部分： Edge Server 及 XMPP 閘道在前端伺服器上執行的伺服器執行 XMPP proxy。</span><span class="sxs-lookup"><span data-stu-id="84a99-106">XMPP functionality is installed in two parts: an XMPP proxy that runs on the Edge Server and the XMPP gateway that runs on the Front End Servers.</span></span>
+<span data-ttu-id="e6a77-104">舊版的 Lync Server 和 Office Communications Server 提供可延伸訊息和目前狀態通訊協定 (XMPP) 閘道，可以部署為不同的伺服器角色，以允許與 XMPP 部署同盟。</span><span class="sxs-lookup"><span data-stu-id="e6a77-104">Previous versions of Lync Server and Office Communications Server provided an extensible messaging and presence protocol (XMPP) gateway that could be deployed as a separate server role to allow federating with XMPP deployments.</span></span> <span data-ttu-id="e6a77-105">在 [Microsoft Lync Server 2013 XMPP 功能可以部署為功能。</span><span class="sxs-lookup"><span data-stu-id="e6a77-105">In Microsoft Lync Server 2013, the XMPP functionality can be deployed as a feature.</span></span> <span data-ttu-id="e6a77-106">XMPP 功能安裝在兩個部分： Edge Server 及 XMPP 閘道在前端伺服器上執行的伺服器執行 XMPP proxy。</span><span class="sxs-lookup"><span data-stu-id="e6a77-106">XMPP functionality is installed in two parts: an XMPP proxy that runs on the Edge Server and the XMPP gateway that runs on the Front End Servers.</span></span>
 
-<span data-ttu-id="84a99-107">部署及設定 XMPP 涵蓋在[部署外部使用者存取 Lync Server 2013 中](lync-server-2013-deploying-external-user-access.md)規劃支援 XMPP 貴組織中所定義連接埠和通訊協定規則上您的防火牆、 設定憑證，以及新增 DNS 記錄。</span><span class="sxs-lookup"><span data-stu-id="84a99-107">Deployment and configuration of XMPP is covered in [Deploying external user access in Lync Server 2013](lync-server-2013-deploying-external-user-access.md) You plan for supporting XMPP in your organization by defining port and protocol rules on your firewall, configuration of certificates, and adding DNS records.</span></span> <span data-ttu-id="84a99-108">本節中的下列主題將摘要說明您必須成功計劃部署的 XMPP 同盟的資訊。</span><span class="sxs-lookup"><span data-stu-id="84a99-108">The following topics in this section summarize the information that you will need to successfully plan XMPP federation for your deployment.</span></span>
+<span data-ttu-id="e6a77-107">部署及設定 XMPP 涵蓋在[部署外部使用者存取 Lync Server 2013 中](lync-server-2013-deploying-external-user-access.md)規劃支援 XMPP 貴組織中所定義連接埠和通訊協定規則上您的防火牆、 設定憑證，以及新增 DNS 記錄。</span><span class="sxs-lookup"><span data-stu-id="e6a77-107">Deployment and configuration of XMPP is covered in [Deploying external user access in Lync Server 2013](lync-server-2013-deploying-external-user-access.md) You plan for supporting XMPP in your organization by defining port and protocol rules on your firewall, configuration of certificates, and adding DNS records.</span></span> <span data-ttu-id="e6a77-108">本節中的下列主題將摘要說明您必須成功計劃部署的 XMPP 同盟的資訊。</span><span class="sxs-lookup"><span data-stu-id="e6a77-108">The following topics in this section summarize the information that you will need to successfully plan XMPP federation for your deployment.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]
-> <span data-ttu-id="84a99-109">測試及版與 Google Talk 的立即訊息同盟支援 Microsoft Lync Server 2013 XMPP 功能。</span><span class="sxs-lookup"><span data-stu-id="84a99-109">The XMPP capability of Lync Server 2013 is tested and supported by Microsoft for instant messaging federation with Google Talk.</span></span> <span data-ttu-id="84a99-110">為任何其他 XMPP 系統連絡協力廠商連絡，以確認它們支援同盟與 Lync Server 2013，以及任何部署或疑難排解建議。</span><span class="sxs-lookup"><span data-stu-id="84a99-110">For any other XMPP systems contact the third-party vendor to verify that they support federation with Lync Server 2013, and for any deployment or troubleshooting recommendations.</span></span>
+> <span data-ttu-id="e6a77-109">測試及版與 Google Talk 的立即訊息同盟支援 Microsoft Lync Server 2013 XMPP 功能。</span><span class="sxs-lookup"><span data-stu-id="e6a77-109">The XMPP capability of Lync Server 2013 is tested and supported by Microsoft for instant messaging federation with Google Talk.</span></span> <span data-ttu-id="e6a77-110">為任何其他 XMPP 系統連絡協力廠商連絡，以確認它們支援同盟與 Lync Server 2013，以及任何部署或疑難排解建議。</span><span class="sxs-lookup"><span data-stu-id="e6a77-110">For any other XMPP systems contact the third-party vendor to verify that they support federation with Lync Server 2013, and for any deployment or troubleshooting recommendations.</span></span>
 
 
 
@@ -53,29 +53,29 @@ ms.locfileid: "42036823"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="84a99-111">本章節內容</span><span class="sxs-lookup"><span data-stu-id="84a99-111">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="e6a77-111">本章節內容</span><span class="sxs-lookup"><span data-stu-id="e6a77-111">In This Section</span></span>
 
-  - [<span data-ttu-id="84a99-112">憑證摘要-可延伸訊息與顯示狀態通訊協定 (XMPP) 同盟 Lync Server 2013 中</span><span class="sxs-lookup"><span data-stu-id="84a99-112">Certificate summary - Extensible messaging and presence protocol (XMPP) federation in Lync Server 2013</span></span>](lync-server-2013-certificate-summary-extensible-messaging-and-presence-protocol-xmpp-federation.md)
+  - [<span data-ttu-id="e6a77-112">憑證摘要-可延伸訊息與顯示狀態通訊協定 (XMPP) 同盟 Lync Server 2013 中</span><span class="sxs-lookup"><span data-stu-id="e6a77-112">Certificate summary - Extensible messaging and presence protocol (XMPP) federation in Lync Server 2013</span></span>](lync-server-2013-certificate-summary-extensible-messaging-and-presence-protocol-xmpp-federation.md)
 
-  - [<span data-ttu-id="84a99-113">連接埠摘要-可延伸訊息與顯示狀態通訊協定 (XMPP) 同盟 Lync Server 2013 中</span><span class="sxs-lookup"><span data-stu-id="84a99-113">Port summary - Extensible messaging and presence protocol (XMPP) federation in Lync Server 2013</span></span>](lync-server-2013-port-summary-extensible-messaging-and-presence-protocol-xmpp-federation.md)
+  - [<span data-ttu-id="e6a77-113">連接埠摘要-可延伸訊息與顯示狀態通訊協定 (XMPP) 同盟 Lync Server 2013 中</span><span class="sxs-lookup"><span data-stu-id="e6a77-113">Port summary - Extensible messaging and presence protocol (XMPP) federation in Lync Server 2013</span></span>](lync-server-2013-port-summary-extensible-messaging-and-presence-protocol-xmpp-federation.md)
 
-  - [<span data-ttu-id="84a99-114">DNS 摘要-可延伸訊息與顯示狀態通訊協定 (XMPP) 同盟 Lync Server 2013 中</span><span class="sxs-lookup"><span data-stu-id="84a99-114">DNS summary - Extensible messaging and presence protocol (XMPP) federation in Lync Server 2013</span></span>](lync-server-2013-dns-summary-extensible-messaging-and-presence-protocol-xmpp-federation.md)
+  - [<span data-ttu-id="e6a77-114">DNS 摘要-可延伸訊息與顯示狀態通訊協定 (XMPP) 同盟 Lync Server 2013 中</span><span class="sxs-lookup"><span data-stu-id="e6a77-114">DNS summary - Extensible messaging and presence protocol (XMPP) federation in Lync Server 2013</span></span>](lync-server-2013-dns-summary-extensible-messaging-and-presence-protocol-xmpp-federation.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="84a99-115">另請參閱</span><span class="sxs-lookup"><span data-stu-id="84a99-115">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e6a77-115">另請參閱</span><span class="sxs-lookup"><span data-stu-id="e6a77-115">See Also</span></span>
 
 
-[<span data-ttu-id="84a99-116">設定 Lync Server 2013 中的 XMPP 同盟</span><span class="sxs-lookup"><span data-stu-id="84a99-116">Setting up XMPP federation in Lync Server 2013</span></span>](lync-server-2013-setting-up-xmpp-federation.md)  
-[<span data-ttu-id="84a99-117">在 Lync Server 2013 中設定原則以控制 XMPP 同盟使用者存取</span><span class="sxs-lookup"><span data-stu-id="84a99-117">Configure policies to control XMPP federated user access in Lync Server 2013</span></span>](lync-server-2013-configure-policies-to-control-xmpp-federated-user-access.md)  
+[<span data-ttu-id="e6a77-116">設定 Lync Server 2013 中的 XMPP 同盟</span><span class="sxs-lookup"><span data-stu-id="e6a77-116">Setting up XMPP federation in Lync Server 2013</span></span>](lync-server-2013-setting-up-xmpp-federation.md)  
+[<span data-ttu-id="e6a77-117">在 Lync Server 2013 中設定原則以控制 XMPP 同盟使用者存取</span><span class="sxs-lookup"><span data-stu-id="e6a77-117">Configure policies to control XMPP federated user access in Lync Server 2013</span></span>](lync-server-2013-configure-policies-to-control-xmpp-federated-user-access.md)  
 
 
-[<span data-ttu-id="84a99-118">管理 Lync Server 2013 中的 XMPP 同盟協力廠商</span><span class="sxs-lookup"><span data-stu-id="84a99-118">Manage XMPP federated partners in Lync Server 2013</span></span>](lync-server-2013-manage-xmpp-federated-partners-for-your-organization.md)  
-<span data-ttu-id="84a99-119">[Get-csexternalaccesspolicy](https://technet.microsoft.com/library/Gg425805(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="84a99-119">[Get-CsExternalAccessPolicy](https://technet.microsoft.com/library/Gg425805(v=OCS.15))</span></span>  
-<span data-ttu-id="84a99-120">[Get-csxmppallowedpartner](https://technet.microsoft.com/library/JJ204981(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="84a99-120">[Get-CsXmppAllowedPartner](https://technet.microsoft.com/library/JJ204981(v=OCS.15))</span></span>  
-<span data-ttu-id="84a99-121">[Get-csxmppgatewayconfiguration](https://technet.microsoft.com/library/JJ204869(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="84a99-121">[Get-CsXmppGatewayConfiguration](https://technet.microsoft.com/library/JJ204869(v=OCS.15))</span></span>  
+[<span data-ttu-id="e6a77-118">管理 Lync Server 2013 中的 XMPP 同盟協力廠商</span><span class="sxs-lookup"><span data-stu-id="e6a77-118">Manage XMPP federated partners in Lync Server 2013</span></span>](lync-server-2013-manage-xmpp-federated-partners-for-your-organization.md)  
+<span data-ttu-id="e6a77-119">[Get-csexternalaccesspolicy](https://technet.microsoft.com/library/Gg425805(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e6a77-119">[Get-CsExternalAccessPolicy](https://technet.microsoft.com/library/Gg425805(v=OCS.15))</span></span>  
+<span data-ttu-id="e6a77-120">[Get-csxmppallowedpartner](https://technet.microsoft.com/library/JJ204981(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e6a77-120">[Get-CsXmppAllowedPartner](https://technet.microsoft.com/library/JJ204981(v=OCS.15))</span></span>  
+<span data-ttu-id="e6a77-121">[Get-csxmppgatewayconfiguration](https://technet.microsoft.com/library/JJ204869(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e6a77-121">[Get-CsXmppGatewayConfiguration](https://technet.microsoft.com/library/JJ204869(v=OCS.15))</span></span>  
   
 
 </div>

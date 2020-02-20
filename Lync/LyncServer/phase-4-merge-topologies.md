@@ -12,20 +12,20 @@ ms:contentKeyID: 48184668
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d55f9e1f9233b838c1fe6ee56c4642edee1cc67e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 4c36d88626288d96cb38242943df3bc055f6cbef
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42034283"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42148502"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="phase-4-merge-topologies"></a><span data-ttu-id="4da5f-102">階段 4： 合併拓撲</span><span class="sxs-lookup"><span data-stu-id="4da5f-102">Phase 4: Merge topologies</span></span>
+# <a name="phase-4-merge-topologies"></a><span data-ttu-id="16f79-102">階段 4： 合併拓撲</span><span class="sxs-lookup"><span data-stu-id="16f79-102">Phase 4: Merge topologies</span></span>
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "42034283"
 
 <span> </span>
 
-<span data-ttu-id="4da5f-103">_**主題上次修改日期：** 2012年-03-29_</span><span class="sxs-lookup"><span data-stu-id="4da5f-103">_**Topic Last Modified:** 2012-03-29_</span></span>
+<span data-ttu-id="16f79-103">_**主題上次修改日期：** 2012年-03-29_</span><span class="sxs-lookup"><span data-stu-id="16f79-103">_**Topic Last Modified:** 2012-03-29_</span></span>
 
-<span data-ttu-id="4da5f-104">下列主題會概述合併您的 Microsoft Office Communications Server 2007 R2 集區至 Microsoft Lync Server 2013 的集區所需的步驟。</span><span class="sxs-lookup"><span data-stu-id="4da5f-104">The following topics outline the steps needed to merge your Microsoft Office Communications Server 2007 R2 pools to Microsoft Lync Server 2013 pools.</span></span> <span data-ttu-id="4da5f-105">首先，您要使用「[拓撲產生器合併精靈」來合併拓撲資訊。</span><span class="sxs-lookup"><span data-stu-id="4da5f-105">First, you use the Topology Builder Merge wizard to merge topology information.</span></span> <span data-ttu-id="4da5f-106">此工具會收集 Office Communications Server 2007 R2 環境，包括 Edge Server 資訊的相關資訊，並將該資訊發佈至共用與 Lync Server 2013 的資料庫。</span><span class="sxs-lookup"><span data-stu-id="4da5f-106">This tool collects information about your Office Communications Server 2007 R2 environment, including Edge Server information, and publishes that information to a database shared with Lync Server 2013.</span></span> <span data-ttu-id="4da5f-107">您將發佈合併後的拓撲之後，拓撲產生器用來檢視相關的新部署的 Lync Server 2013 拓撲資訊與 Office Communications Server 2007 R2 拓撲資訊。</span><span class="sxs-lookup"><span data-stu-id="4da5f-107">After you publish the merged topology, Topology Builder is used to view the Office Communications Server 2007 R2 topology information and information about the newly deployed Lync Server 2013 topology.</span></span> <span data-ttu-id="4da5f-108">最後，您可使用 Lync Server 管理命令介面 Cmdlet，匯入原則與組態設定。</span><span class="sxs-lookup"><span data-stu-id="4da5f-108">Finally, you use Lync Server Management Shell cmdlets to import policies and configuration settings.</span></span>
+<span data-ttu-id="16f79-104">下列主題會概述合併您的 Microsoft Office Communications Server 2007 R2 集區至 Microsoft Lync Server 2013 的集區所需的步驟。</span><span class="sxs-lookup"><span data-stu-id="16f79-104">The following topics outline the steps needed to merge your Microsoft Office Communications Server 2007 R2 pools to Microsoft Lync Server 2013 pools.</span></span> <span data-ttu-id="16f79-105">首先，您要使用「[拓撲產生器合併精靈」來合併拓撲資訊。</span><span class="sxs-lookup"><span data-stu-id="16f79-105">First, you use the Topology Builder Merge wizard to merge topology information.</span></span> <span data-ttu-id="16f79-106">此工具會收集 Office Communications Server 2007 R2 環境，包括 Edge Server 資訊的相關資訊，並將該資訊發佈至共用與 Lync Server 2013 的資料庫。</span><span class="sxs-lookup"><span data-stu-id="16f79-106">This tool collects information about your Office Communications Server 2007 R2 environment, including Edge Server information, and publishes that information to a database shared with Lync Server 2013.</span></span> <span data-ttu-id="16f79-107">您將發佈合併後的拓撲之後，拓撲產生器用來檢視相關的新部署的 Lync Server 2013 拓撲資訊與 Office Communications Server 2007 R2 拓撲資訊。</span><span class="sxs-lookup"><span data-stu-id="16f79-107">After you publish the merged topology, Topology Builder is used to view the Office Communications Server 2007 R2 topology information and information about the newly deployed Lync Server 2013 topology.</span></span> <span data-ttu-id="16f79-108">最後，您可使用 Lync Server 管理命令介面 Cmdlet，匯入原則與組態設定。</span><span class="sxs-lookup"><span data-stu-id="16f79-108">Finally, you use Lync Server Management Shell cmdlets to import policies and configuration settings.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="4da5f-109">本節內容</span><span class="sxs-lookup"><span data-stu-id="4da5f-109">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="16f79-109">本節內容</span><span class="sxs-lookup"><span data-stu-id="16f79-109">In This Section</span></span>
 
-  - [<span data-ttu-id="4da5f-110">安裝 WMI 回溯相容性套件</span><span class="sxs-lookup"><span data-stu-id="4da5f-110">Install WMI Backward Compatibility package</span></span>](install-wmi-backward-compatibility-package.md)
+  - [<span data-ttu-id="16f79-110">安裝 WMI 回溯相容性套件</span><span class="sxs-lookup"><span data-stu-id="16f79-110">Install WMI Backward Compatibility package</span></span>](install-wmi-backward-compatibility-package.md)
 
-  - [<span data-ttu-id="4da5f-111">使用拓撲產生器合併精靈合併</span><span class="sxs-lookup"><span data-stu-id="4da5f-111">Merge using Topology Builder Merge wizard</span></span>](merge-using-topology-builder-merge-wizard.md)
+  - [<span data-ttu-id="16f79-111">使用拓撲產生器合併精靈合併</span><span class="sxs-lookup"><span data-stu-id="16f79-111">Merge using Topology Builder Merge wizard</span></span>](merge-using-topology-builder-merge-wizard.md)
 
-  - [<span data-ttu-id="4da5f-112">匯入原則與設定</span><span class="sxs-lookup"><span data-stu-id="4da5f-112">Import policies and settings</span></span>](import-policies-and-settings.md)
+  - [<span data-ttu-id="16f79-112">匯入原則與設定</span><span class="sxs-lookup"><span data-stu-id="16f79-112">Import policies and settings</span></span>](import-policies-and-settings.md)
 
-  - [<span data-ttu-id="4da5f-113">確認拓撲資訊</span><span class="sxs-lookup"><span data-stu-id="4da5f-113">Verify topology information</span></span>](verify-topology-information.md)
+  - [<span data-ttu-id="16f79-113">確認拓撲資訊</span><span class="sxs-lookup"><span data-stu-id="16f79-113">Verify topology information</span></span>](verify-topology-information.md)
 
 </div>
 

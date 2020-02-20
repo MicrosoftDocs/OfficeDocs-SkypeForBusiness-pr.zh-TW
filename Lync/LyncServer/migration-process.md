@@ -12,20 +12,20 @@ ms:contentKeyID: 48183474
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5a955133dcadfc1966225b643467e5640c81d128
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: cd9339784e33920910471c25163875881d391ef9
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030667"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42148732"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migration-process"></a><span data-ttu-id="d576d-102">移轉程序</span><span class="sxs-lookup"><span data-stu-id="d576d-102">Migration process</span></span>
+# <a name="migration-process"></a><span data-ttu-id="cb8e7-102">移轉程序</span><span class="sxs-lookup"><span data-stu-id="cb8e7-102">Migration process</span></span>
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "42030667"
 
 <span> </span>
 
-<span data-ttu-id="d576d-103">_**主題上次修改日期：** 2012年-09-17_</span><span class="sxs-lookup"><span data-stu-id="d576d-103">_**Topic Last Modified:** 2012-09-17_</span></span>
+<span data-ttu-id="cb8e7-103">_**主題上次修改日期：** 2012年-09-17_</span><span class="sxs-lookup"><span data-stu-id="cb8e7-103">_**Topic Last Modified:** 2012-09-17_</span></span>
 
-<span data-ttu-id="d576d-104">Lync Server 2013 的建議和支援的移轉程序是以並排移轉。</span><span class="sxs-lookup"><span data-stu-id="d576d-104">The recommended and supported migration procedure for Lync Server 2013 is side-by-side migration.</span></span> <span data-ttu-id="d576d-105">本主題說明應使用並存移轉的原因，並包含共存測試的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="d576d-105">This topic describes why you should use side-by-side migration and also includes information about coexistence testing.</span></span>
+<span data-ttu-id="cb8e7-104">Lync Server 2013 的建議和支援的移轉程序是以並排移轉。</span><span class="sxs-lookup"><span data-stu-id="cb8e7-104">The recommended and supported migration procedure for Lync Server 2013 is side-by-side migration.</span></span> <span data-ttu-id="cb8e7-105">本主題說明應使用並存移轉的原因，並包含共存測試的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="cb8e7-105">This topic describes why you should use side-by-side migration and also includes information about coexistence testing.</span></span>
 
 <div>
 
-## <a name="side-by-side-migration"></a><span data-ttu-id="d576d-106">並存移轉</span><span class="sxs-lookup"><span data-stu-id="d576d-106">Side-By-Side Migration</span></span>
+## <a name="side-by-side-migration"></a><span data-ttu-id="cb8e7-106">並存移轉</span><span class="sxs-lookup"><span data-stu-id="cb8e7-106">Side-By-Side Migration</span></span>
 
-<span data-ttu-id="d576d-107">幾乎在每種移轉時，您都應該使用並存移轉路徑。</span><span class="sxs-lookup"><span data-stu-id="d576d-107">In nearly every migration, you should use the side-by-side migration path.</span></span> <span data-ttu-id="d576d-108">在並排顯示遷移中，您部署搭配 Lync Server 2013 旁相對應的伺服器是執行 Lync Server 2010，新的伺服器，並再將作業轉移到新的伺服器。</span><span class="sxs-lookup"><span data-stu-id="d576d-108">In a side-by-side migration, you deploy a new server with Lync Server 2013 alongside a corresponding server that is running Lync Server 2010, and then transfer operations to the new server.</span></span> <span data-ttu-id="d576d-109">將回復到 Lync Server 2010 必要時，您必須僅回原始的伺服器移動作業。</span><span class="sxs-lookup"><span data-stu-id="d576d-109">If it becomes necessary to roll back to Lync Server 2010, you have only to shift operations back to the original servers.</span></span> <span data-ttu-id="d576d-110">請注意在這樣的情況下，任何與升級用戶端排定的新會議皆無法運作，導致用戶端也必須降級。</span><span class="sxs-lookup"><span data-stu-id="d576d-110">Be aware that in this situation any new meetings scheduled with upgraded clients will not work, and the clients would also need to be downgraded.</span></span>
+<span data-ttu-id="cb8e7-107">幾乎在每種移轉時，您都應該使用並存移轉路徑。</span><span class="sxs-lookup"><span data-stu-id="cb8e7-107">In nearly every migration, you should use the side-by-side migration path.</span></span> <span data-ttu-id="cb8e7-108">在並排顯示遷移中，您部署搭配 Lync Server 2013 旁相對應的伺服器是執行 Lync Server 2010，新的伺服器，並再將作業轉移到新的伺服器。</span><span class="sxs-lookup"><span data-stu-id="cb8e7-108">In a side-by-side migration, you deploy a new server with Lync Server 2013 alongside a corresponding server that is running Lync Server 2010, and then transfer operations to the new server.</span></span> <span data-ttu-id="cb8e7-109">將回復到 Lync Server 2010 必要時，您必須僅回原始的伺服器移動作業。</span><span class="sxs-lookup"><span data-stu-id="cb8e7-109">If it becomes necessary to roll back to Lync Server 2010, you have only to shift operations back to the original servers.</span></span> <span data-ttu-id="cb8e7-110">請注意在這樣的情況下，任何與升級用戶端排定的新會議皆無法運作，導致用戶端也必須降級。</span><span class="sxs-lookup"><span data-stu-id="cb8e7-110">Be aware that in this situation any new meetings scheduled with upgraded clients will not work, and the clients would also need to be downgraded.</span></span>
 
 </div>
 
 <div>
 
-## <a name="coexistence-testing"></a><span data-ttu-id="d576d-111">共存測試</span><span class="sxs-lookup"><span data-stu-id="d576d-111">Coexistence Testing</span></span>
+## <a name="coexistence-testing"></a><span data-ttu-id="cb8e7-111">共存測試</span><span class="sxs-lookup"><span data-stu-id="cb8e7-111">Coexistence Testing</span></span>
 
-<span data-ttu-id="d576d-112">您已部署 Lync Server 2013 中同時使用 Lync Server 2010 之後，部署代表共存測試 Lync Server 2013 和 Lync Server 2010 的狀態。</span><span class="sxs-lookup"><span data-stu-id="d576d-112">After you have deployed Lync Server 2013 in parallel with Lync Server 2010, the deployment represents a coexistence testing state of Lync Server 2013 and Lync Server 2010.</span></span> <span data-ttu-id="d576d-113">在此狀態中，請務必測試並確定服務已啟動、每個網台都可以受系統管理，且用戶端可與目前及舊版使用者通訊。</span><span class="sxs-lookup"><span data-stu-id="d576d-113">While in this state, it is important to test and ensure that services are started, each site can be administered, and clients can communicate with current and legacy users.</span></span> <span data-ttu-id="d576d-114">移轉所有使用者之前，請先了解每個部署的狀態並確定兩者皆正常運作，這點是非常重要的。</span><span class="sxs-lookup"><span data-stu-id="d576d-114">Prior to the migration of all users, it is very important that you understand the state of each deployment and ensure that each deployment is functional and working properly.</span></span> <span data-ttu-id="d576d-115">一般而言，測試階段共存存在整個 Lync Server 2013 試驗測試。</span><span class="sxs-lookup"><span data-stu-id="d576d-115">Typically, the coexistence testing phase exists throughout the pilot testing of Lync Server 2013.</span></span> <span data-ttu-id="d576d-116">舊版使用者移至 Lync Server 2013 的一段時間以確保該應用程式相容性和功能正常運作。</span><span class="sxs-lookup"><span data-stu-id="d576d-116">Legacy users are moved to Lync Server 2013 for a period of time to ensure that application compatibility and features and functions are working properly.</span></span> <span data-ttu-id="d576d-117">試驗測試之後，使用者和應用程式會移至 Lync Server 2013 的實際執行版本和舊版集區與 Lync Server 2010 的應用程式會停用。</span><span class="sxs-lookup"><span data-stu-id="d576d-117">After pilot testing, users and applications are moved to the production version of Lync Server 2013, and the legacy pools and applications of Lync Server 2010 are retired.</span></span>
+<span data-ttu-id="cb8e7-112">您已部署 Lync Server 2013 中同時使用 Lync Server 2010 之後，部署代表共存測試 Lync Server 2013 和 Lync Server 2010 的狀態。</span><span class="sxs-lookup"><span data-stu-id="cb8e7-112">After you have deployed Lync Server 2013 in parallel with Lync Server 2010, the deployment represents a coexistence testing state of Lync Server 2013 and Lync Server 2010.</span></span> <span data-ttu-id="cb8e7-113">在此狀態中，請務必測試並確定服務已啟動、每個網台都可以受系統管理，且用戶端可與目前及舊版使用者通訊。</span><span class="sxs-lookup"><span data-stu-id="cb8e7-113">While in this state, it is important to test and ensure that services are started, each site can be administered, and clients can communicate with current and legacy users.</span></span> <span data-ttu-id="cb8e7-114">移轉所有使用者之前，請先了解每個部署的狀態並確定兩者皆正常運作，這點是非常重要的。</span><span class="sxs-lookup"><span data-stu-id="cb8e7-114">Prior to the migration of all users, it is very important that you understand the state of each deployment and ensure that each deployment is functional and working properly.</span></span> <span data-ttu-id="cb8e7-115">一般而言，測試階段共存存在整個 Lync Server 2013 試驗測試。</span><span class="sxs-lookup"><span data-stu-id="cb8e7-115">Typically, the coexistence testing phase exists throughout the pilot testing of Lync Server 2013.</span></span> <span data-ttu-id="cb8e7-116">舊版使用者移至 Lync Server 2013 的一段時間以確保該應用程式相容性和功能正常運作。</span><span class="sxs-lookup"><span data-stu-id="cb8e7-116">Legacy users are moved to Lync Server 2013 for a period of time to ensure that application compatibility and features and functions are working properly.</span></span> <span data-ttu-id="cb8e7-117">試驗測試之後，使用者和應用程式會移至 Lync Server 2013 的實際執行版本和舊版集區與 Lync Server 2010 的應用程式會停用。</span><span class="sxs-lookup"><span data-stu-id="cb8e7-117">After pilot testing, users and applications are moved to the production version of Lync Server 2013, and the legacy pools and applications of Lync Server 2010 are retired.</span></span>
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 48184729
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8efe04d7cb59cc8e8c1d719c9db4ba0e30e75f50
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 922853c7fe3ce41d969d6a0af5428a4c1a13f8c3
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42038395"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151143"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="certificate-summary---scaled-consolidated-edge-with-hardware-load-balancers-in-lync-server-2013"></a><span data-ttu-id="9817d-102">憑證摘要-調整式合併邊緣搭配硬體負載平衡器在 Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9817d-102">Certificate summary - Scaled consolidated edge with hardware load balancers in Lync Server 2013</span></span>
+# <a name="certificate-summary---scaled-consolidated-edge-with-hardware-load-balancers-in-lync-server-2013"></a><span data-ttu-id="207cb-102">憑證摘要-調整式合併邊緣搭配硬體負載平衡器在 Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="207cb-102">Certificate summary - Scaled consolidated edge with hardware load balancers in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "42038395"
 
 <span> </span>
 
-<span data-ttu-id="9817d-103">_**主題上次修改日期：** 2012年-10-22_</span><span class="sxs-lookup"><span data-stu-id="9817d-103">_**Topic Last Modified:** 2012-10-22_</span></span>
+<span data-ttu-id="207cb-103">_**主題上次修改日期：** 2012年-10-22_</span><span class="sxs-lookup"><span data-stu-id="207cb-103">_**Topic Last Modified:** 2012-10-22_</span></span>
 
-<span data-ttu-id="9817d-104">Microsoft Lync Server 2013 使用相互驗證其他伺服器，以及加密資料從伺服器對伺服器的憑證和用戶端的伺服器。</span><span class="sxs-lookup"><span data-stu-id="9817d-104">Microsoft Lync Server 2013 uses certificates to mutually authenticate other servers and to encrypt data from server to server and server to client.</span></span> <span data-ttu-id="9817d-105">憑證必須進行伺服器關聯網域名稱系統 (DNS) 記錄與憑證上的主體名稱 (SN) 和主體替代名稱 (SAN) 的名稱比對。</span><span class="sxs-lookup"><span data-stu-id="9817d-105">Certificates require name matching of the domain name system (DNS) records associated with the servers and the subject name (SN) and subject alternative name (SAN) on the certificate.</span></span> <span data-ttu-id="9817d-106">若要成功對應伺服器、DNS 記錄和憑證項目，您必須依據 DNS 中的註冊以及憑證上的 SN 和 SAN 項目，仔細規劃所要的伺服器完整名稱。</span><span class="sxs-lookup"><span data-stu-id="9817d-106">To successfully map servers, DNS records and certificate entries, you must carefully plan your intended server fully qualified domain names as registered in DNS and the SN and SAN entries on the certificate.</span></span>
+<span data-ttu-id="207cb-104">Microsoft Lync Server 2013 使用相互驗證其他伺服器，以及加密資料從伺服器對伺服器的憑證和用戶端的伺服器。</span><span class="sxs-lookup"><span data-stu-id="207cb-104">Microsoft Lync Server 2013 uses certificates to mutually authenticate other servers and to encrypt data from server to server and server to client.</span></span> <span data-ttu-id="207cb-105">憑證必須進行伺服器關聯網域名稱系統 (DNS) 記錄與憑證上的主體名稱 (SN) 和主體替代名稱 (SAN) 的名稱比對。</span><span class="sxs-lookup"><span data-stu-id="207cb-105">Certificates require name matching of the domain name system (DNS) records associated with the servers and the subject name (SN) and subject alternative name (SAN) on the certificate.</span></span> <span data-ttu-id="207cb-106">若要成功對應伺服器、DNS 記錄和憑證項目，您必須依據 DNS 中的註冊以及憑證上的 SN 和 SAN 項目，仔細規劃所要的伺服器完整名稱。</span><span class="sxs-lookup"><span data-stu-id="207cb-106">To successfully map servers, DNS records and certificate entries, you must carefully plan your intended server fully qualified domain names as registered in DNS and the SN and SAN entries on the certificate.</span></span>
 
-<span data-ttu-id="9817d-107">指派給 Edge Server 外部介面的憑證要求從公用憑證授權單位 (CA)。</span><span class="sxs-lookup"><span data-stu-id="9817d-107">The certificate assigned to the external interfaces of the Edge Server is requested from a public certification authority (CA).</span></span> <span data-ttu-id="9817d-108">有示範中提供的憑證，如下列文章中所列的整合通訊的目的，成功的公用 Ca: [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=929395](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=929395)。</span><span class="sxs-lookup"><span data-stu-id="9817d-108">Public CAs that have demonstrated success in supplying certificates for the purposes of Unified Communications are listed in the following article: [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=929395](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=929395).</span></span> <span data-ttu-id="9817d-109">當要求憑證，您可以使用 Lync Server 部署精靈] 所產生的憑證要求，或以手動方式或公用 CA 所提供的程序來建立要求。</span><span class="sxs-lookup"><span data-stu-id="9817d-109">When requesting the certificate, you can use the certificate request generated by the Lync Server Deployment Wizard or create the request manually or by a process provided by the public CA.</span></span> <span data-ttu-id="9817d-110">指派憑證時，會將憑證指派到 Access Edge 服務介面、 Web Conferencing Edge service 介面和音訊/視訊驗證服務。</span><span class="sxs-lookup"><span data-stu-id="9817d-110">When assigning the certificate, the certificate is assigned to the Access Edge service interface, the Web Conferencing Edge service interface, and the Audio/Video Authentication service.</span></span> <span data-ttu-id="9817d-111">音訊/視訊驗證服務不應混淆與 A / V Edge service，不會使用憑證來加密音訊和視訊資料流。</span><span class="sxs-lookup"><span data-stu-id="9817d-111">The Audio/Video Authentication service should not be confused with the A/V Edge service, which does not use a certificate to encrypt the audio and video streams.</span></span> <span data-ttu-id="9817d-112">（您組織內部） ca 的憑證或公用 ca 的憑證，可以使用內部 Edge Server 介面。</span><span class="sxs-lookup"><span data-stu-id="9817d-112">The internal Edge Server interface can use a certificate from an internal (to your organization) CA or a certificate from a public CA.</span></span> <span data-ttu-id="9817d-113">內部介面憑證僅可使用 SN，且不需要也不會使用 SAN 項目。</span><span class="sxs-lookup"><span data-stu-id="9817d-113">The internal interface certificate uses only the SN and does not need or use SAN entries.</span></span>
+<span data-ttu-id="207cb-107">指派給 Edge Server 外部介面的憑證要求從公用憑證授權單位 (CA)。</span><span class="sxs-lookup"><span data-stu-id="207cb-107">The certificate assigned to the external interfaces of the Edge Server is requested from a public certification authority (CA).</span></span> <span data-ttu-id="207cb-108">有示範中提供的憑證，如下列文章中所列的整合通訊的目的，成功的公用 Ca: [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=929395](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=929395)。</span><span class="sxs-lookup"><span data-stu-id="207cb-108">Public CAs that have demonstrated success in supplying certificates for the purposes of Unified Communications are listed in the following article: [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=929395](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=929395).</span></span> <span data-ttu-id="207cb-109">當要求憑證，您可以使用 Lync Server 部署精靈] 所產生的憑證要求，或以手動方式或公用 CA 所提供的程序來建立要求。</span><span class="sxs-lookup"><span data-stu-id="207cb-109">When requesting the certificate, you can use the certificate request generated by the Lync Server Deployment Wizard or create the request manually or by a process provided by the public CA.</span></span> <span data-ttu-id="207cb-110">指派憑證時，會將憑證指派到 Access Edge 服務介面、 Web Conferencing Edge service 介面和音訊/視訊驗證服務。</span><span class="sxs-lookup"><span data-stu-id="207cb-110">When assigning the certificate, the certificate is assigned to the Access Edge service interface, the Web Conferencing Edge service interface, and the Audio/Video Authentication service.</span></span> <span data-ttu-id="207cb-111">音訊/視訊驗證服務不應混淆與 A / V Edge service，不會使用憑證來加密音訊和視訊資料流。</span><span class="sxs-lookup"><span data-stu-id="207cb-111">The Audio/Video Authentication service should not be confused with the A/V Edge service, which does not use a certificate to encrypt the audio and video streams.</span></span> <span data-ttu-id="207cb-112">（您組織內部） ca 的憑證或公用 ca 的憑證，可以使用內部 Edge Server 介面。</span><span class="sxs-lookup"><span data-stu-id="207cb-112">The internal Edge Server interface can use a certificate from an internal (to your organization) CA or a certificate from a public CA.</span></span> <span data-ttu-id="207cb-113">內部介面憑證僅可使用 SN，且不需要也不會使用 SAN 項目。</span><span class="sxs-lookup"><span data-stu-id="207cb-113">The internal interface certificate uses only the SN and does not need or use SAN entries.</span></span>
 
 <div>
 
 
 > [!NOTE]
-> <span data-ttu-id="9817d-p103">下表在主體替代名稱清單中顯示第二個 SIP 項目 (sip.fabrikam.com) 供您參考。針對組織中的每個 SIP 網域，您需要憑證主體替代名稱清單中列出的對應 FQDN。</span><span class="sxs-lookup"><span data-stu-id="9817d-p103">The following table shows a second SIP entry (sip.fabrikam.com) in the subject alternative name list for reference. For each SIP domain in your organization, you need to add a corresponding FQDN listed in the certificate subject alternative name list.</span></span>
+> <span data-ttu-id="207cb-p103">下表在主體替代名稱清單中顯示第二個 SIP 項目 (sip.fabrikam.com) 供您參考。針對組織中的每個 SIP 網域，您需要憑證主體替代名稱清單中列出的對應 FQDN。</span><span class="sxs-lookup"><span data-stu-id="207cb-p103">The following table shows a second SIP entry (sip.fabrikam.com) in the subject alternative name list for reference. For each SIP domain in your organization, you need to add a corresponding FQDN listed in the certificate subject alternative name list.</span></span>
 
 
 
@@ -53,7 +53,7 @@ ms.locfileid: "42038395"
 
 <div>
 
-## <a name="certificates-required-for-scaled-consolidated-edge-with-hardware-load-balancers"></a><span data-ttu-id="9817d-116">使用硬體負載平衡器調整式合併 Edge 所需的憑證</span><span class="sxs-lookup"><span data-stu-id="9817d-116">Certificates Required for Scaled Consolidated Edge with Hardware Load Balancers</span></span>
+## <a name="certificates-required-for-scaled-consolidated-edge-with-hardware-load-balancers"></a><span data-ttu-id="207cb-116">使用硬體負載平衡器調整式合併 Edge 所需的憑證</span><span class="sxs-lookup"><span data-stu-id="207cb-116">Certificates Required for Scaled Consolidated Edge with Hardware Load Balancers</span></span>
 
 
 <table>
@@ -65,32 +65,32 @@ ms.locfileid: "42038395"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="9817d-117">元件</span><span class="sxs-lookup"><span data-stu-id="9817d-117">Component</span></span></th>
-<th><span data-ttu-id="9817d-118">主體名稱</span><span class="sxs-lookup"><span data-stu-id="9817d-118">Subject name</span></span></th>
-<th><span data-ttu-id="9817d-119">主體替代名稱 (SAN)/順序</span><span class="sxs-lookup"><span data-stu-id="9817d-119">Subject alternative names (SAN)/Order</span></span></th>
-<th><span data-ttu-id="9817d-120">註解</span><span class="sxs-lookup"><span data-stu-id="9817d-120">Comments</span></span></th>
+<th><span data-ttu-id="207cb-117">元件</span><span class="sxs-lookup"><span data-stu-id="207cb-117">Component</span></span></th>
+<th><span data-ttu-id="207cb-118">主體名稱</span><span class="sxs-lookup"><span data-stu-id="207cb-118">Subject name</span></span></th>
+<th><span data-ttu-id="207cb-119">主體替代名稱 (SAN)/順序</span><span class="sxs-lookup"><span data-stu-id="207cb-119">Subject alternative names (SAN)/Order</span></span></th>
+<th><span data-ttu-id="207cb-120">註解</span><span class="sxs-lookup"><span data-stu-id="207cb-120">Comments</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="9817d-121">單一合併式 Edge Server (外部 Edge)</span><span class="sxs-lookup"><span data-stu-id="9817d-121">Single consolidated Edge Server (External Edge)</span></span></p></td>
-<td><p><span data-ttu-id="9817d-122">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="9817d-122">sip.contoso.com</span></span></p></td>
-<td><p><span data-ttu-id="9817d-123">webcon.contoso.com</span><span class="sxs-lookup"><span data-stu-id="9817d-123">webcon.contoso.com</span></span></p>
-<p><span data-ttu-id="9817d-124">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="9817d-124">sip.contoso.com</span></span></p>
-<p><span data-ttu-id="9817d-125">sip.fabrikam.com</span><span class="sxs-lookup"><span data-stu-id="9817d-125">sip.fabrikam.com</span></span></p></td>
-<td><p><span data-ttu-id="9817d-126">若要部署與 AOL 的公用 IM 連線，憑證必須來自公用 CA，且必須具有伺服器 EKU 和用戶端 EKU。</span><span class="sxs-lookup"><span data-stu-id="9817d-126">Certificate must be from a Public CA, and must have the server EKU and client EKU if public IM connectivity with AOL is to be deployed.</span></span> <span data-ttu-id="9817d-127">此外，調整式 Edge server，憑證的私密金鑰必須可匯出並複製到每個 Edge server 憑證的私密金鑰與憑證指派給的外部 Edge 介面：</span><span class="sxs-lookup"><span data-stu-id="9817d-127">Additionally, for scaled Edge Servers, the certificate private key must be exportable and the certificate and private key copied to each Edge Server.The certificate is assigned to the external Edge interfaces for:</span></span></p>
+<td><p><span data-ttu-id="207cb-121">單一合併式 Edge Server (外部 Edge)</span><span class="sxs-lookup"><span data-stu-id="207cb-121">Single consolidated Edge Server (External Edge)</span></span></p></td>
+<td><p><span data-ttu-id="207cb-122">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="207cb-122">sip.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="207cb-123">webcon.contoso.com</span><span class="sxs-lookup"><span data-stu-id="207cb-123">webcon.contoso.com</span></span></p>
+<p><span data-ttu-id="207cb-124">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="207cb-124">sip.contoso.com</span></span></p>
+<p><span data-ttu-id="207cb-125">sip.fabrikam.com</span><span class="sxs-lookup"><span data-stu-id="207cb-125">sip.fabrikam.com</span></span></p></td>
+<td><p><span data-ttu-id="207cb-126">若要部署與 AOL 的公用 IM 連線，憑證必須來自公用 CA，且必須具有伺服器 EKU 和用戶端 EKU。</span><span class="sxs-lookup"><span data-stu-id="207cb-126">Certificate must be from a Public CA, and must have the server EKU and client EKU if public IM connectivity with AOL is to be deployed.</span></span> <span data-ttu-id="207cb-127">此外，調整式 Edge server，憑證的私密金鑰必須可匯出並複製到每個 Edge server 憑證的私密金鑰與憑證指派給的外部 Edge 介面：</span><span class="sxs-lookup"><span data-stu-id="207cb-127">Additionally, for scaled Edge Servers, the certificate private key must be exportable and the certificate and private key copied to each Edge Server.The certificate is assigned to the external Edge interfaces for:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="9817d-128">Access Edge Service</span><span class="sxs-lookup"><span data-stu-id="9817d-128">Access Edge service</span></span></p></li>
-<li><p><span data-ttu-id="9817d-129">Web Conferencing Edge service</span><span class="sxs-lookup"><span data-stu-id="9817d-129">Web Conferencing Edge service</span></span></p></li>
-<li><p><span data-ttu-id="9817d-130">A/V Edge service</span><span class="sxs-lookup"><span data-stu-id="9817d-130">A/V Edge service</span></span></p></li>
+<li><p><span data-ttu-id="207cb-128">Access Edge Service</span><span class="sxs-lookup"><span data-stu-id="207cb-128">Access Edge service</span></span></p></li>
+<li><p><span data-ttu-id="207cb-129">Web Conferencing Edge service</span><span class="sxs-lookup"><span data-stu-id="207cb-129">Web Conferencing Edge service</span></span></p></li>
+<li><p><span data-ttu-id="207cb-130">A/V Edge service</span><span class="sxs-lookup"><span data-stu-id="207cb-130">A/V Edge service</span></span></p></li>
 </ul>
-<p><span data-ttu-id="9817d-p105">請注意，系統會根據您在拓撲產生器中的定義，將 SAN 自動新增至憑證。您可以視需要為其他 SIP 網域新增 SAN 項目，或新增其他必須支援的項目。SAN 中的主體名稱會複寫，且必須存在才能正常運作。</span><span class="sxs-lookup"><span data-stu-id="9817d-p105">Note that SANs are automatically added to the certificate based on your definitions in Topology Builder. You add SAN entries as needed for additional SIP domains and other entries that you need to support. The subject name is replicated in the SAN and must be present for correct operation.</span></span></p></td>
+<p><span data-ttu-id="207cb-p105">請注意，系統會根據您在拓撲產生器中的定義，將 SAN 自動新增至憑證。您可以視需要為其他 SIP 網域新增 SAN 項目，或新增其他必須支援的項目。SAN 中的主體名稱會複寫，且必須存在才能正常運作。</span><span class="sxs-lookup"><span data-stu-id="207cb-p105">Note that SANs are automatically added to the certificate based on your definitions in Topology Builder. You add SAN entries as needed for additional SIP domains and other entries that you need to support. The subject name is replicated in the SAN and must be present for correct operation.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9817d-134">單一合併式 Edge Server (內部 Edge)</span><span class="sxs-lookup"><span data-stu-id="9817d-134">Single consolidated Edge Server (Internal Edge)</span></span></p></td>
-<td><p><span data-ttu-id="9817d-135">lsedge.contoso.net</span><span class="sxs-lookup"><span data-stu-id="9817d-135">lsedge.contoso.net</span></span></p></td>
-<td><p><span data-ttu-id="9817d-136">不需要 SAN</span><span class="sxs-lookup"><span data-stu-id="9817d-136">No SAN required</span></span></p></td>
-<td><p><span data-ttu-id="9817d-137">憑證可由公用或私人 CA 來核發，且必須包含伺服器 EKU。</span><span class="sxs-lookup"><span data-stu-id="9817d-137">Certificate can be issued by a public or private CA, and must contain the server EKU.</span></span> <span data-ttu-id="9817d-138">將憑證指派至 Edge Server 的內部介面。</span><span class="sxs-lookup"><span data-stu-id="9817d-138">The certificate is assigned to the internal Edge Server interface.</span></span></p></td>
+<td><p><span data-ttu-id="207cb-134">單一合併式 Edge Server (內部 Edge)</span><span class="sxs-lookup"><span data-stu-id="207cb-134">Single consolidated Edge Server (Internal Edge)</span></span></p></td>
+<td><p><span data-ttu-id="207cb-135">lsedge.contoso.net</span><span class="sxs-lookup"><span data-stu-id="207cb-135">lsedge.contoso.net</span></span></p></td>
+<td><p><span data-ttu-id="207cb-136">不需要 SAN</span><span class="sxs-lookup"><span data-stu-id="207cb-136">No SAN required</span></span></p></td>
+<td><p><span data-ttu-id="207cb-137">憑證可由公用或私人 CA 來核發，且必須包含伺服器 EKU。</span><span class="sxs-lookup"><span data-stu-id="207cb-137">Certificate can be issued by a public or private CA, and must contain the server EKU.</span></span> <span data-ttu-id="207cb-138">將憑證指派至 Edge Server 的內部介面。</span><span class="sxs-lookup"><span data-stu-id="207cb-138">The certificate is assigned to the internal Edge Server interface.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -100,7 +100,7 @@ ms.locfileid: "42038395"
 
 <div>
 
-## <a name="certificate-summary--public-instant-messaging-connectivity"></a><span data-ttu-id="9817d-139">憑證摘要 - 公用立即訊息連線</span><span class="sxs-lookup"><span data-stu-id="9817d-139">Certificate Summary – Public Instant Messaging Connectivity</span></span>
+## <a name="certificate-summary--public-instant-messaging-connectivity"></a><span data-ttu-id="207cb-139">憑證摘要 - 公用立即訊息連線</span><span class="sxs-lookup"><span data-stu-id="207cb-139">Certificate Summary – Public Instant Messaging Connectivity</span></span>
 
 
 <table>
@@ -112,26 +112,26 @@ ms.locfileid: "42038395"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="9817d-140">元件</span><span class="sxs-lookup"><span data-stu-id="9817d-140">Component</span></span></th>
-<th><span data-ttu-id="9817d-141">主體名稱</span><span class="sxs-lookup"><span data-stu-id="9817d-141">Subject name</span></span></th>
-<th><span data-ttu-id="9817d-142">主體替代名稱 (SAN)/順序</span><span class="sxs-lookup"><span data-stu-id="9817d-142">Subject alternative names (SAN)/Order</span></span></th>
-<th><span data-ttu-id="9817d-143">註解</span><span class="sxs-lookup"><span data-stu-id="9817d-143">Comments</span></span></th>
+<th><span data-ttu-id="207cb-140">元件</span><span class="sxs-lookup"><span data-stu-id="207cb-140">Component</span></span></th>
+<th><span data-ttu-id="207cb-141">主體名稱</span><span class="sxs-lookup"><span data-stu-id="207cb-141">Subject name</span></span></th>
+<th><span data-ttu-id="207cb-142">主體替代名稱 (SAN)/順序</span><span class="sxs-lookup"><span data-stu-id="207cb-142">Subject alternative names (SAN)/Order</span></span></th>
+<th><span data-ttu-id="207cb-143">註解</span><span class="sxs-lookup"><span data-stu-id="207cb-143">Comments</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="9817d-144">外部 /access Edge service</span><span class="sxs-lookup"><span data-stu-id="9817d-144">External/Access Edge service</span></span></p></td>
-<td><p><span data-ttu-id="9817d-145">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="9817d-145">sip.contoso.com</span></span></p></td>
-<td><p><span data-ttu-id="9817d-146">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="9817d-146">sip.contoso.com</span></span></p>
-<p><span data-ttu-id="9817d-147">webcon.contoso.com</span><span class="sxs-lookup"><span data-stu-id="9817d-147">webcon.contoso.com</span></span></p>
-<p><span data-ttu-id="9817d-148">sip.fabrikam.com</span><span class="sxs-lookup"><span data-stu-id="9817d-148">sip.fabrikam.com</span></span></p></td>
-<td><p><span data-ttu-id="9817d-p107">若要部署與 AOL 的公用 IM 連線，憑證必須來自公用 CA，且必須具有伺服器 EKU 和用戶端 EKU。系統會針對下列項目將憑證指派給外部 Edge 介面：</span><span class="sxs-lookup"><span data-stu-id="9817d-p107">Certificate must be from a Public CA, and must have the server EKU and client EKU if public IM connectivity with AOL is to be deployed. The certificate is assigned to the external Edge interfaces for:</span></span></p>
+<td><p><span data-ttu-id="207cb-144">外部 /access Edge service</span><span class="sxs-lookup"><span data-stu-id="207cb-144">External/Access Edge service</span></span></p></td>
+<td><p><span data-ttu-id="207cb-145">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="207cb-145">sip.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="207cb-146">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="207cb-146">sip.contoso.com</span></span></p>
+<p><span data-ttu-id="207cb-147">webcon.contoso.com</span><span class="sxs-lookup"><span data-stu-id="207cb-147">webcon.contoso.com</span></span></p>
+<p><span data-ttu-id="207cb-148">sip.fabrikam.com</span><span class="sxs-lookup"><span data-stu-id="207cb-148">sip.fabrikam.com</span></span></p></td>
+<td><p><span data-ttu-id="207cb-p107">若要部署與 AOL 的公用 IM 連線，憑證必須來自公用 CA，且必須具有伺服器 EKU 和用戶端 EKU。系統會針對下列項目將憑證指派給外部 Edge 介面：</span><span class="sxs-lookup"><span data-stu-id="207cb-p107">Certificate must be from a Public CA, and must have the server EKU and client EKU if public IM connectivity with AOL is to be deployed. The certificate is assigned to the external Edge interfaces for:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="9817d-151">Access Edge Service</span><span class="sxs-lookup"><span data-stu-id="9817d-151">Access Edge service</span></span></p></li>
-<li><p><span data-ttu-id="9817d-152">Web Conferencing Edge service</span><span class="sxs-lookup"><span data-stu-id="9817d-152">Web Conferencing Edge service</span></span></p></li>
-<li><p><span data-ttu-id="9817d-153">A/V Edge service</span><span class="sxs-lookup"><span data-stu-id="9817d-153">A/V Edge service</span></span></p></li>
+<li><p><span data-ttu-id="207cb-151">Access Edge Service</span><span class="sxs-lookup"><span data-stu-id="207cb-151">Access Edge service</span></span></p></li>
+<li><p><span data-ttu-id="207cb-152">Web Conferencing Edge service</span><span class="sxs-lookup"><span data-stu-id="207cb-152">Web Conferencing Edge service</span></span></p></li>
+<li><p><span data-ttu-id="207cb-153">A/V Edge service</span><span class="sxs-lookup"><span data-stu-id="207cb-153">A/V Edge service</span></span></p></li>
 </ul>
-<p><span data-ttu-id="9817d-p108">請注意，系統會根據您在拓撲產生器中的定義，將 SAN 自動新增至憑證。您可以視需要為其他 SIP 網域新增 SAN 項目，或新增其他必須支援的項目。SAN 中的主體名稱會複寫，且必須存在才能正常運作。</span><span class="sxs-lookup"><span data-stu-id="9817d-p108">Note that SANs are automatically added to the certificate based on your definitions in Topology Builder. You add SAN entries as needed for additional SIP domains and other entries that you need to support. The subject name is replicated in the SAN and must be present for correct operation.</span></span></p></td>
+<p><span data-ttu-id="207cb-p108">請注意，系統會根據您在拓撲產生器中的定義，將 SAN 自動新增至憑證。您可以視需要為其他 SIP 網域新增 SAN 項目，或新增其他必須支援的項目。SAN 中的主體名稱會複寫，且必須存在才能正常運作。</span><span class="sxs-lookup"><span data-stu-id="207cb-p108">Note that SANs are automatically added to the certificate based on your definitions in Topology Builder. You add SAN entries as needed for additional SIP domains and other entries that you need to support. The subject name is replicated in the SAN and must be present for correct operation.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -141,7 +141,7 @@ ms.locfileid: "42038395"
 
 <div>
 
-## <a name="certificate-summary-for-extensible-messaging-and-presence-protocol"></a><span data-ttu-id="9817d-157">可延伸訊息和顯示狀態通訊協定的憑證摘要</span><span class="sxs-lookup"><span data-stu-id="9817d-157">Certificate Summary for Extensible Messaging and Presence Protocol</span></span>
+## <a name="certificate-summary-for-extensible-messaging-and-presence-protocol"></a><span data-ttu-id="207cb-157">可延伸訊息和顯示狀態通訊協定的憑證摘要</span><span class="sxs-lookup"><span data-stu-id="207cb-157">Certificate Summary for Extensible Messaging and Presence Protocol</span></span>
 
 
 <table>
@@ -153,22 +153,22 @@ ms.locfileid: "42038395"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="9817d-158">元件</span><span class="sxs-lookup"><span data-stu-id="9817d-158">Component</span></span></th>
-<th><span data-ttu-id="9817d-159">主體名稱</span><span class="sxs-lookup"><span data-stu-id="9817d-159">Subject name</span></span></th>
-<th><span data-ttu-id="9817d-160">主體替代名稱 (SAN)/順序</span><span class="sxs-lookup"><span data-stu-id="9817d-160">Subject alternative names (SAN)/Order</span></span></th>
-<th><span data-ttu-id="9817d-161">註解</span><span class="sxs-lookup"><span data-stu-id="9817d-161">Comments</span></span></th>
+<th><span data-ttu-id="207cb-158">元件</span><span class="sxs-lookup"><span data-stu-id="207cb-158">Component</span></span></th>
+<th><span data-ttu-id="207cb-159">主體名稱</span><span class="sxs-lookup"><span data-stu-id="207cb-159">Subject name</span></span></th>
+<th><span data-ttu-id="207cb-160">主體替代名稱 (SAN)/順序</span><span class="sxs-lookup"><span data-stu-id="207cb-160">Subject alternative names (SAN)/Order</span></span></th>
+<th><span data-ttu-id="207cb-161">註解</span><span class="sxs-lookup"><span data-stu-id="207cb-161">Comments</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="9817d-162">指派給 Access Edge service 之 Edge Server 或 Edge 集區</span><span class="sxs-lookup"><span data-stu-id="9817d-162">Assign to Access Edge service of Edge Server or Edge pool</span></span></p></td>
-<td><p><span data-ttu-id="9817d-163">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="9817d-163">sip.contoso.com</span></span></p></td>
-<td><p><span data-ttu-id="9817d-164">webcon.contoso.com</span><span class="sxs-lookup"><span data-stu-id="9817d-164">webcon.contoso.com</span></span></p>
-<p><span data-ttu-id="9817d-165">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="9817d-165">sip.contoso.com</span></span></p>
-<p><span data-ttu-id="9817d-166">sip.fabrikam.com</span><span class="sxs-lookup"><span data-stu-id="9817d-166">sip.fabrikam.com</span></span></p>
-<p><span data-ttu-id="9817d-167">xmpp.contoso.com</span><span class="sxs-lookup"><span data-stu-id="9817d-167">xmpp.contoso.com</span></span></p>
-<p><span data-ttu-id="9817d-168"><strong>\*。 contoso.com</strong></span><span class="sxs-lookup"><span data-stu-id="9817d-168"><strong>\*.contoso.com</strong></span></span></p></td>
-<td><p><span data-ttu-id="9817d-169">前三個 SAN 項目是完整的 Edge server 的一般 SAN 項目。</span><span class="sxs-lookup"><span data-stu-id="9817d-169">The first three SAN entries are the normal SAN entries for a full Edge Server.</span></span> <span data-ttu-id="9817d-170">contoso.com 是在根網域層級與 XMPP 協力廠商同盟的必要項目。</span><span class="sxs-lookup"><span data-stu-id="9817d-170">The contoso.com is the entry required for federation with the XMPP partner at the root domain level.</span></span> <span data-ttu-id="9817d-171">此項目可允許所有包含尾碼 \*.contoso.com 之網域使用 XMPP。</span><span class="sxs-lookup"><span data-stu-id="9817d-171">This entry will allow XMPP for all domains with the suffix \*.contoso.com.</span></span></p></td>
+<td><p><span data-ttu-id="207cb-162">指派給 Access Edge service 之 Edge Server 或 Edge 集區</span><span class="sxs-lookup"><span data-stu-id="207cb-162">Assign to Access Edge service of Edge Server or Edge pool</span></span></p></td>
+<td><p><span data-ttu-id="207cb-163">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="207cb-163">sip.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="207cb-164">webcon.contoso.com</span><span class="sxs-lookup"><span data-stu-id="207cb-164">webcon.contoso.com</span></span></p>
+<p><span data-ttu-id="207cb-165">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="207cb-165">sip.contoso.com</span></span></p>
+<p><span data-ttu-id="207cb-166">sip.fabrikam.com</span><span class="sxs-lookup"><span data-stu-id="207cb-166">sip.fabrikam.com</span></span></p>
+<p><span data-ttu-id="207cb-167">xmpp.contoso.com</span><span class="sxs-lookup"><span data-stu-id="207cb-167">xmpp.contoso.com</span></span></p>
+<p><span data-ttu-id="207cb-168"><strong>\*。 contoso.com</strong></span><span class="sxs-lookup"><span data-stu-id="207cb-168"><strong>\*.contoso.com</strong></span></span></p></td>
+<td><p><span data-ttu-id="207cb-169">前三個 SAN 項目是完整的 Edge server 的一般 SAN 項目。</span><span class="sxs-lookup"><span data-stu-id="207cb-169">The first three SAN entries are the normal SAN entries for a full Edge Server.</span></span> <span data-ttu-id="207cb-170">contoso.com 是在根網域層級與 XMPP 協力廠商同盟的必要項目。</span><span class="sxs-lookup"><span data-stu-id="207cb-170">The contoso.com is the entry required for federation with the XMPP partner at the root domain level.</span></span> <span data-ttu-id="207cb-171">此項目可允許所有包含尾碼 \*.contoso.com 之網域使用 XMPP。</span><span class="sxs-lookup"><span data-stu-id="207cb-171">This entry will allow XMPP for all domains with the suffix \*.contoso.com.</span></span></p></td>
 </tr>
 </tbody>
 </table>

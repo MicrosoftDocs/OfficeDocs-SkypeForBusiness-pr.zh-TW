@@ -12,20 +12,20 @@ ms:contentKeyID: 49733577
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: db05bdc9f2c22bb46b34249a86979cb80b55cc7f
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 462e11f905a20fd170de192b1c3bd03ed231d414
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42034383"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42150264"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-lync-server-2013-services"></a><span data-ttu-id="ac1f3-102">管理 Lync Server 2013 服務</span><span class="sxs-lookup"><span data-stu-id="ac1f3-102">Managing Lync Server 2013 services</span></span>
+# <a name="managing-lync-server-2013-services"></a><span data-ttu-id="e7c66-102">管理 Lync Server 2013 服務</span><span class="sxs-lookup"><span data-stu-id="e7c66-102">Managing Lync Server 2013 services</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "42034383"
 
 <span> </span>
 
-<span data-ttu-id="ac1f3-103">_**上次修改主題：** 2013年-02-21_</span><span class="sxs-lookup"><span data-stu-id="ac1f3-103">_**Topic Last Modified:** 2013-02-21_</span></span>
+<span data-ttu-id="e7c66-103">_**上次修改主題：** 2013年-02-21_</span><span class="sxs-lookup"><span data-stu-id="e7c66-103">_**Topic Last Modified:** 2013-02-21_</span></span>
 
-<span data-ttu-id="ac1f3-104">使用本節中的程序，從 [**拓撲**] 頁面管理 Lync Server 2013 服務。</span><span class="sxs-lookup"><span data-stu-id="ac1f3-104">Use the procedures in this section to manage Lync Server 2013 services from the **Topology** page.</span></span>
+<span data-ttu-id="e7c66-104">使用本節中的程序，從 [**拓撲**] 頁面管理 Lync Server 2013 服務。</span><span class="sxs-lookup"><span data-stu-id="e7c66-104">Use the procedures in this section to manage Lync Server 2013 services from the **Topology** page.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="ac1f3-105">本章節內容</span><span class="sxs-lookup"><span data-stu-id="ac1f3-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="e7c66-105">本章節內容</span><span class="sxs-lookup"><span data-stu-id="e7c66-105">In This Section</span></span>
 
-  - [<span data-ttu-id="ac1f3-106">檢視執行 Lync Server 2013 中的電腦上的服務狀態</span><span class="sxs-lookup"><span data-stu-id="ac1f3-106">View the status of services running on a computer in Lync Server 2013</span></span>](lync-server-2013-view-the-status-of-services-running-on-a-computer.md)
+  - [<span data-ttu-id="e7c66-106">檢視執行 Lync Server 2013 中的電腦上的服務狀態</span><span class="sxs-lookup"><span data-stu-id="e7c66-106">View the status of services running on a computer in Lync Server 2013</span></span>](lync-server-2013-view-the-status-of-services-running-on-a-computer.md)
 
 </div>
 
