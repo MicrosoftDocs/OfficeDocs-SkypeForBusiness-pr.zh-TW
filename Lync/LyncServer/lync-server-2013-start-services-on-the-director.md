@@ -12,20 +12,20 @@ ms:contentKeyID: 48183351
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 94d4ab3755739742f96cb2b0f4377d4059d63bfd
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: dc8536008f2b9bf4b66b1d4a1f9e9577835adb03
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42038765"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42142529"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="start-services-on-the-director-in-lync-server-2013"></a><span data-ttu-id="baa8c-102">Lync Server 2013 中在 Director 上啟動服務</span><span class="sxs-lookup"><span data-stu-id="baa8c-102">Start services on the Director in Lync Server 2013</span></span>
+# <a name="start-services-on-the-director-in-lync-server-2013"></a><span data-ttu-id="396c7-102">Lync Server 2013 中在 Director 上啟動服務</span><span class="sxs-lookup"><span data-stu-id="396c7-102">Start services on the Director in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "42038765"
 
 <span> </span>
 
-<span data-ttu-id="baa8c-103">_**主題上次修改日期：** 2012年-09-08_</span><span class="sxs-lookup"><span data-stu-id="baa8c-103">_**Topic Last Modified:** 2012-09-08_</span></span>
+<span data-ttu-id="396c7-103">_**主題上次修改日期：** 2012年-09-08_</span><span class="sxs-lookup"><span data-stu-id="396c7-103">_**Topic Last Modified:** 2012-09-08_</span></span>
 
-<span data-ttu-id="baa8c-104">安裝本機設定存放區、 安裝 Lync Server 元件]，並在 Director 上設定憑證之後，您必須在伺服器上啟動 Lync Server 服務。</span><span class="sxs-lookup"><span data-stu-id="baa8c-104">After you install the Local Configuration Store, install the Lync Server Components, and configure certificates on a Director, you must start the Lync Server services on the server.</span></span> <span data-ttu-id="baa8c-105">您可以使用下列程序，在您部署中的每個 Director 上啟動服務。</span><span class="sxs-lookup"><span data-stu-id="baa8c-105">You can use the following procedure to start services on each Director in your deployment.</span></span>
+<span data-ttu-id="396c7-104">安裝本機設定存放區、 安裝 Lync Server 元件]，並在 Director 上設定憑證之後，您必須在伺服器上啟動 Lync Server 服務。</span><span class="sxs-lookup"><span data-stu-id="396c7-104">After you install the Local Configuration Store, install the Lync Server Components, and configure certificates on a Director, you must start the Lync Server services on the server.</span></span> <span data-ttu-id="396c7-105">您可以使用下列程序，在您部署中的每個 Director 上啟動服務。</span><span class="sxs-lookup"><span data-stu-id="396c7-105">You can use the following procedure to start services on each Director in your deployment.</span></span>
 
 <div>
 
-## <a name="to-start-services-on-a-director"></a><span data-ttu-id="baa8c-106">若要在 Director 上啟動服務</span><span class="sxs-lookup"><span data-stu-id="baa8c-106">To start services on a Director</span></span>
+## <a name="to-start-services-on-a-director"></a><span data-ttu-id="396c7-106">若要在 Director 上啟動服務</span><span class="sxs-lookup"><span data-stu-id="396c7-106">To start services on a Director</span></span>
 
-1.  <span data-ttu-id="baa8c-107">在 [Lync Server 部署精靈] [ **Lync Server 2013** ] 頁面上，按一下 [**執行**] 按鈕旁**步驟 4： 啟動服務**。</span><span class="sxs-lookup"><span data-stu-id="baa8c-107">In the Lync Server Deployment Wizard, on the **Lync Server 2013** page, click the **Run** button next to **Step 4: Start Services**.</span></span>
+1.  <span data-ttu-id="396c7-107">在 [Lync Server 部署精靈] [ **Lync Server 2013** ] 頁面上，按一下 [**執行**] 按鈕旁**步驟 4： 啟動服務**。</span><span class="sxs-lookup"><span data-stu-id="396c7-107">In the Lync Server Deployment Wizard, on the **Lync Server 2013** page, click the **Run** button next to **Step 4: Start Services**.</span></span>
 
-2.  <span data-ttu-id="baa8c-108">在 [**啟動服務**] 頁面上，按 [**下一步**若要在伺服器上啟動 Lync Server 服務。</span><span class="sxs-lookup"><span data-stu-id="baa8c-108">On the **Start Services** page, click **Next** to start the Lync Server services on the server.</span></span>
+2.  <span data-ttu-id="396c7-108">在 [**啟動服務**] 頁面上，按 [**下一步**若要在伺服器上啟動 Lync Server 服務。</span><span class="sxs-lookup"><span data-stu-id="396c7-108">On the **Start Services** page, click **Next** to start the Lync Server services on the server.</span></span>
 
-3.  <span data-ttu-id="baa8c-109">在「執行命令」\*\*\*\* 頁面上順利啟動所有服務之後，按一下 **[完成]**。</span><span class="sxs-lookup"><span data-stu-id="baa8c-109">On the **Executing Commands** page, after all services have started successfully, click **Finish**.</span></span>
+3.  <span data-ttu-id="396c7-109">在「執行命令」\*\*\*\* 頁面上順利啟動所有服務之後，按一下 **[完成]**。</span><span class="sxs-lookup"><span data-stu-id="396c7-109">On the **Executing Commands** page, after all services have started successfully, click **Finish**.</span></span>
 
-4.  <span data-ttu-id="baa8c-110">在 **[步驟 4：啟動服務]** 下，按一下 **[服務狀態 (選擇性)]**。</span><span class="sxs-lookup"><span data-stu-id="baa8c-110">Below **Step 4: Start Services**, click **Services Status (Optional)**.</span></span>
+4.  <span data-ttu-id="396c7-110">在 **[步驟 4：啟動服務]** 下，按一下 **[服務狀態 (選擇性)]**。</span><span class="sxs-lookup"><span data-stu-id="396c7-110">Below **Step 4: Start Services**, click **Services Status (Optional)**.</span></span>
 
-5.  <span data-ttu-id="baa8c-111">在 [**服務**Microsoft Management Console (MMC) 的伺服器上，確認所有 Lync Server 2013 服務都在執行。</span><span class="sxs-lookup"><span data-stu-id="baa8c-111">In the **Services** Microsoft Management Console (MMC) on the server, verify that all of the Lync Server 2013 services are running.</span></span>
+5.  <span data-ttu-id="396c7-111">在 [**服務**Microsoft Management Console (MMC) 的伺服器上，確認所有 Lync Server 2013 服務都在執行。</span><span class="sxs-lookup"><span data-stu-id="396c7-111">In the **Services** Microsoft Management Console (MMC) on the server, verify that all of the Lync Server 2013 services are running.</span></span>
 
 </div>
 

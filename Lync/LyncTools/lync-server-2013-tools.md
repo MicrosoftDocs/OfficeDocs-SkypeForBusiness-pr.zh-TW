@@ -12,20 +12,20 @@ ms:contentKeyID: 52253957
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 35d58ddd116a91c66a23c3ab81c0d4c879bfa356
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 3b4fbea950a9a69076d7f3dba17d6c366d1facf5
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42038325"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146306"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-server-2013-tools"></a><span data-ttu-id="a7cbe-102">Lync Server 2013 工具</span><span class="sxs-lookup"><span data-stu-id="a7cbe-102">Lync Server 2013 Tools</span></span>
+# <a name="lync-server-2013-tools"></a><span data-ttu-id="6684a-102">Lync Server 2013 工具</span><span class="sxs-lookup"><span data-stu-id="6684a-102">Lync Server 2013 Tools</span></span>
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "42038325"
 
 <span> </span>
 
-<span data-ttu-id="a7cbe-103">_**上次修改主題：** 2013年-03-14_</span><span class="sxs-lookup"><span data-stu-id="a7cbe-103">_**Topic Last Modified:** 2013-03-14_</span></span>
+<span data-ttu-id="6684a-103">_**上次修改主題：** 2013年-03-14_</span><span class="sxs-lookup"><span data-stu-id="6684a-103">_**Topic Last Modified:** 2013-03-14_</span></span>
 
-<span data-ttu-id="a7cbe-104">下列工具可用於 Lync Server 2013:</span><span class="sxs-lookup"><span data-stu-id="a7cbe-104">The following tools are available for Lync Server 2013:</span></span>
+<span data-ttu-id="6684a-104">下列工具可用於 Lync Server 2013:</span><span class="sxs-lookup"><span data-stu-id="6684a-104">The following tools are available for Lync Server 2013:</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="a7cbe-105">本章節內容</span><span class="sxs-lookup"><span data-stu-id="a7cbe-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="6684a-105">本章節內容</span><span class="sxs-lookup"><span data-stu-id="6684a-105">In This Section</span></span>
 
-[<span data-ttu-id="a7cbe-106">Lync Server 2013 壓力及效能工具</span><span class="sxs-lookup"><span data-stu-id="a7cbe-106">Lync Server 2013 Stress and Performance Tool</span></span>](lync-server-2013-stress-and-performance-tool.md)
+[<span data-ttu-id="6684a-106">Lync Server 2013 壓力及效能工具</span><span class="sxs-lookup"><span data-stu-id="6684a-106">Lync Server 2013 Stress and Performance Tool</span></span>](lync-server-2013-stress-and-performance-tool.md)
 
-[<span data-ttu-id="a7cbe-107">Lync Server 2013 Resource Kit 工具文件</span><span class="sxs-lookup"><span data-stu-id="a7cbe-107">Lync Server 2013 Resource Kit Tools Documentation</span></span>](lync-server-2013-resource-kit-tools-documentation.md)
+[<span data-ttu-id="6684a-107">Lync Server 2013 Resource Kit 工具文件</span><span class="sxs-lookup"><span data-stu-id="6684a-107">Lync Server 2013 Resource Kit Tools Documentation</span></span>](lync-server-2013-resource-kit-tools-documentation.md)
 
-[<span data-ttu-id="a7cbe-108">Lync Server 2013 常設聊天室 Resource Kit 工具</span><span class="sxs-lookup"><span data-stu-id="a7cbe-108">Lync Server 2013 Persistent Chat Resource Kit Tools</span></span>](lync-server-2013-persistent-chat-resource-kit-tools.md)
+[<span data-ttu-id="6684a-108">Lync Server 2013 常設聊天室 Resource Kit 工具</span><span class="sxs-lookup"><span data-stu-id="6684a-108">Lync Server 2013 Persistent Chat Resource Kit Tools</span></span>](lync-server-2013-persistent-chat-resource-kit-tools.md)
 
 </div>
 

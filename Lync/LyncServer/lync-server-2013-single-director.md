@@ -12,20 +12,20 @@ ms:contentKeyID: 48183705
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2732545b807e29f6bda7d7dc931648dc7f759d67
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 33082706f2699a391e8840578cade31a0031f575
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42037463"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42142709"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="single-director-in-lync-server-2013"></a><span data-ttu-id="09ca3-102">Lync Server 2013 中的單一 Director</span><span class="sxs-lookup"><span data-stu-id="09ca3-102">Single Director in Lync Server 2013</span></span>
+# <a name="single-director-in-lync-server-2013"></a><span data-ttu-id="631d9-102">Lync Server 2013 中的單一 Director</span><span class="sxs-lookup"><span data-stu-id="631d9-102">Single Director in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "42037463"
 
 <span> </span>
 
-<span data-ttu-id="09ca3-103">_**主題上次修改日期：** 2012年-10-22_</span><span class="sxs-lookup"><span data-stu-id="09ca3-103">_**Topic Last Modified:** 2012-10-22_</span></span>
+<span data-ttu-id="631d9-103">_**主題上次修改日期：** 2012年-10-22_</span><span class="sxs-lookup"><span data-stu-id="631d9-103">_**Topic Last Modified:** 2012-10-22_</span></span>
 
-<span data-ttu-id="09ca3-104">可以部署 Director，在單一 Director 設定，或為 Director 集區。</span><span class="sxs-lookup"><span data-stu-id="09ca3-104">The Director can be deployed in either a single Director configuration or as a Director pool.</span></span> <span data-ttu-id="09ca3-105">本節定義的拓撲和設定單一 Director。</span><span class="sxs-lookup"><span data-stu-id="09ca3-105">This section defines a topology and configuration for a single Director.</span></span> <span data-ttu-id="09ca3-106">如果您打算部署 Director 集區，目的為，處理較高的容量和高可用性，請參閱主題[Lync Server 2013 中的調整式 Director 集區](lync-server-2013-scaled-director-pool.md)的拓撲的規劃考量。</span><span class="sxs-lookup"><span data-stu-id="09ca3-106">If you are planning on deploying a pool of Directors for the purposes of handling higher capacity and for high availability, see the topic [Scaled Director pool in Lync Server 2013](lync-server-2013-scaled-director-pool.md) for planning considerations for that topology.</span></span>
+<span data-ttu-id="631d9-104">可以部署 Director，在單一 Director 設定，或為 Director 集區。</span><span class="sxs-lookup"><span data-stu-id="631d9-104">The Director can be deployed in either a single Director configuration or as a Director pool.</span></span> <span data-ttu-id="631d9-105">本節定義的拓撲和設定單一 Director。</span><span class="sxs-lookup"><span data-stu-id="631d9-105">This section defines a topology and configuration for a single Director.</span></span> <span data-ttu-id="631d9-106">如果您打算部署 Director 集區，目的為，處理較高的容量和高可用性，請參閱主題[Lync Server 2013 中的調整式 Director 集區](lync-server-2013-scaled-director-pool.md)的拓撲的規劃考量。</span><span class="sxs-lookup"><span data-stu-id="631d9-106">If you are planning on deploying a pool of Directors for the purposes of handling higher capacity and for high availability, see the topic [Scaled Director pool in Lync Server 2013](lync-server-2013-scaled-director-pool.md) for planning considerations for that topology.</span></span>
 
-<span data-ttu-id="09ca3-107">![092967f2-3ad8-419b-9a7f-9714f4ebf8a3](images/JJ204763.092967f2-3ad8-419b-9a7f-9714f4ebf8a3(OCS.15).jpg "092967f2-3ad8-419b-9a7f-9714f4ebf8a3")</span><span class="sxs-lookup"><span data-stu-id="09ca3-107">![092967f2-3ad8-419b-9a7f-9714f4ebf8a3](images/JJ204763.092967f2-3ad8-419b-9a7f-9714f4ebf8a3(OCS.15).jpg "092967f2-3ad8-419b-9a7f-9714f4ebf8a3")</span></span>
+<span data-ttu-id="631d9-107">![092967f2-3ad8-419b-9a7f-9714f4ebf8a3](images/JJ204763.092967f2-3ad8-419b-9a7f-9714f4ebf8a3(OCS.15).jpg "092967f2-3ad8-419b-9a7f-9714f4ebf8a3")</span><span class="sxs-lookup"><span data-stu-id="631d9-107">![092967f2-3ad8-419b-9a7f-9714f4ebf8a3](images/JJ204763.092967f2-3ad8-419b-9a7f-9714f4ebf8a3(OCS.15).jpg "092967f2-3ad8-419b-9a7f-9714f4ebf8a3")</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="09ca3-108">本章節內容</span><span class="sxs-lookup"><span data-stu-id="09ca3-108">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="631d9-108">本章節內容</span><span class="sxs-lookup"><span data-stu-id="631d9-108">In This Section</span></span>
 
-  - [<span data-ttu-id="09ca3-109">憑證摘要-Lync Server 2013 中的單一 Director</span><span class="sxs-lookup"><span data-stu-id="09ca3-109">Certificate summary - Single Director in Lync Server 2013</span></span>](lync-server-2013-certificate-summary-single-director.md)
+  - [<span data-ttu-id="631d9-109">憑證摘要-Lync Server 2013 中的單一 Director</span><span class="sxs-lookup"><span data-stu-id="631d9-109">Certificate summary - Single Director in Lync Server 2013</span></span>](lync-server-2013-certificate-summary-single-director.md)
 
-  - [<span data-ttu-id="09ca3-110">連接埠摘要-Lync Server 2013 中的單一 Director</span><span class="sxs-lookup"><span data-stu-id="09ca3-110">Port summary - Single Director in Lync Server 2013</span></span>](lync-server-2013-port-summary-single-director.md)
+  - [<span data-ttu-id="631d9-110">連接埠摘要-Lync Server 2013 中的單一 Director</span><span class="sxs-lookup"><span data-stu-id="631d9-110">Port summary - Single Director in Lync Server 2013</span></span>](lync-server-2013-port-summary-single-director.md)
 
-  - [<span data-ttu-id="09ca3-111">DNS 摘要-Lync Server 2013 中的單一 Director</span><span class="sxs-lookup"><span data-stu-id="09ca3-111">DNS summary - Single Director in Lync Server 2013</span></span>](lync-server-2013-dns-summary-single-director.md)
+  - [<span data-ttu-id="631d9-111">DNS 摘要-Lync Server 2013 中的單一 Director</span><span class="sxs-lookup"><span data-stu-id="631d9-111">DNS summary - Single Director in Lync Server 2013</span></span>](lync-server-2013-dns-summary-single-director.md)
 
 </div>
 

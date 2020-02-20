@@ -12,20 +12,20 @@ ms:contentKeyID: 48185206
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 91df3f20d93ce6ee948f385bb46e8b2a0830ca31
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: e8bfb2768ef5b4755bba2fce7b448476b7728151
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41985058"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141699"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="test-csaddressbookservice-for-address-book-management-in-lync-server-2013"></a><span data-ttu-id="b62b9-102">適用於通訊錄管理 Lync Server 2013 中的測試 CsAddressBookService</span><span class="sxs-lookup"><span data-stu-id="b62b9-102">Test-CsAddressBookService for Address Book management in Lync Server 2013</span></span>
+# <a name="test-csaddressbookservice-for-address-book-management-in-lync-server-2013"></a><span data-ttu-id="97d6f-102">適用於通訊錄管理 Lync Server 2013 中的測試 CsAddressBookService</span><span class="sxs-lookup"><span data-stu-id="97d6f-102">Test-CsAddressBookService for Address Book management in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,24 +35,24 @@ ms.locfileid: "41985058"
 
 <span> </span>
 
-<span data-ttu-id="b62b9-103">_**主題上次修改日期：** 2012年-11-01_</span><span class="sxs-lookup"><span data-stu-id="b62b9-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="97d6f-103">_**主題上次修改日期：** 2012年-11-01_</span><span class="sxs-lookup"><span data-stu-id="97d6f-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="b62b9-104">誰可以執行此 Cmdlet：下列群組的成員預設會獲授權可以在本機上執行 Test-CsAddressBookService Cmdlet：RTCUniversalServerAdmins。</span><span class="sxs-lookup"><span data-stu-id="b62b9-104">Who can run this cmdlet: By default, members of the following groups are authorized to run the Test-CsAddressBookService cmdlet: RTCUniversalServerAdmins.</span></span> <span data-ttu-id="b62b9-105">若要傳回所有獲指派此 Cmdlet 的角色型存取控制 (RBAC) 角色清單 (包括您自行建立的自訂 RBAC 角色)，請在 Windows PowerShell 命令提示中執行下列命令：</span><span class="sxs-lookup"><span data-stu-id="b62b9-105">To return a list of all the role-based access control (RBAC) roles this cmdlet has been assigned to (including any custom RBAC roles you have created yourself), run the following command from the Windows PowerShell prompt:</span></span>
+<span data-ttu-id="97d6f-104">誰可以執行此 Cmdlet：下列群組的成員預設會獲授權可以在本機上執行 Test-CsAddressBookService Cmdlet：RTCUniversalServerAdmins。</span><span class="sxs-lookup"><span data-stu-id="97d6f-104">Who can run this cmdlet: By default, members of the following groups are authorized to run the Test-CsAddressBookService cmdlet: RTCUniversalServerAdmins.</span></span> <span data-ttu-id="97d6f-105">若要傳回所有獲指派此 Cmdlet 的角色型存取控制 (RBAC) 角色清單 (包括您自行建立的自訂 RBAC 角色)，請在 Windows PowerShell 命令提示中執行下列命令：</span><span class="sxs-lookup"><span data-stu-id="97d6f-105">To return a list of all the role-based access control (RBAC) roles this cmdlet has been assigned to (including any custom RBAC roles you have created yourself), run the following command from the Windows PowerShell prompt:</span></span>
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Test-CsAddressBookService"}
 
-<span data-ttu-id="b62b9-106">Lync Server 2013 包含許多 cmdlet 可啟動綜合命令，以確認特定功能正常運作。</span><span class="sxs-lookup"><span data-stu-id="b62b9-106">Lync Server 2013 contains a number of cmdlets that initiate synthetic commands to confirm that a specific function or feature is working properly.</span></span> <span data-ttu-id="b62b9-107">Test-csaddressbookservice 會確認已定義的使用者可以連線並從 Address Book Web 服務要求的本機檔案。</span><span class="sxs-lookup"><span data-stu-id="b62b9-107">Test-CsAddressBookService confirms that a defined user can connect and request the local files from the Address Book Web service.</span></span>
+<span data-ttu-id="97d6f-106">Lync Server 2013 包含許多 cmdlet 可啟動綜合命令，以確認特定功能正常運作。</span><span class="sxs-lookup"><span data-stu-id="97d6f-106">Lync Server 2013 contains a number of cmdlets that initiate synthetic commands to confirm that a specific function or feature is working properly.</span></span> <span data-ttu-id="97d6f-107">Test-csaddressbookservice 會確認已定義的使用者可以連線並從 Address Book Web 服務要求的本機檔案。</span><span class="sxs-lookup"><span data-stu-id="97d6f-107">Test-CsAddressBookService confirms that a defined user can connect and request the local files from the Address Book Web service.</span></span>
 
-<span data-ttu-id="b62b9-108">例如：</span><span class="sxs-lookup"><span data-stu-id="b62b9-108">For example:</span></span>
+<span data-ttu-id="97d6f-108">例如：</span><span class="sxs-lookup"><span data-stu-id="97d6f-108">For example:</span></span>
 
     Test-CsAddressBookService -TargetFqdn atl-cs-001.contoso.com -UserCredential contoso\bob -UserSipAddress "sip:bob@contoso.com"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="b62b9-109">請參閱</span><span class="sxs-lookup"><span data-stu-id="b62b9-109">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="97d6f-109">請參閱</span><span class="sxs-lookup"><span data-stu-id="97d6f-109">See Also</span></span>
 
 
-[<span data-ttu-id="b62b9-110">Test-csaddressbookservice</span><span class="sxs-lookup"><span data-stu-id="b62b9-110">Test-CsAddressBookService</span></span>](https://docs.microsoft.com/powershell/module/skype/Test-CsAddressBookService)  
+[<span data-ttu-id="97d6f-110">Test-csaddressbookservice</span><span class="sxs-lookup"><span data-stu-id="97d6f-110">Test-CsAddressBookService</span></span>](https://docs.microsoft.com/powershell/module/skype/Test-CsAddressBookService)  
   
 
 </div>

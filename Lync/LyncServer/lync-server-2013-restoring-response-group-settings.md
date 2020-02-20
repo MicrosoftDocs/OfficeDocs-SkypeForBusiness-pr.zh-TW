@@ -12,20 +12,20 @@ ms:contentKeyID: 51541473
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1557640fa021faf7313af834eb06f94f1c7432a2
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: a3c663441496d7a08a656095da4371376912fadc
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42051477"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42144649"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="restoring-response-group-settings-in-lync-server-2013"></a><span data-ttu-id="40a72-102">Lync Server 2013 中還原回應群組設定</span><span class="sxs-lookup"><span data-stu-id="40a72-102">Restoring Response Group settings in Lync Server 2013</span></span>
+# <a name="restoring-response-group-settings-in-lync-server-2013"></a><span data-ttu-id="ed460-102">Lync Server 2013 中還原回應群組設定</span><span class="sxs-lookup"><span data-stu-id="ed460-102">Restoring Response Group settings in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "42051477"
 
 <span> </span>
 
-<span data-ttu-id="40a72-103">_**上次修改主題：** 2013年-02-18_</span><span class="sxs-lookup"><span data-stu-id="40a72-103">_**Topic Last Modified:** 2013-02-18_</span></span>
+<span data-ttu-id="ed460-103">_**上次修改主題：** 2013年-02-18_</span><span class="sxs-lookup"><span data-stu-id="ed460-103">_**Topic Last Modified:** 2013-02-18_</span></span>
 
-<span data-ttu-id="40a72-104">如果您部署的回應群組應用程式，且您需要還原後端伺服器或 Standard Edition server，您也需要還原回應群組組態設定。</span><span class="sxs-lookup"><span data-stu-id="40a72-104">If you deployed the Response Group application and you need to restore a Back End Server or a Standard Edition server, you also need to restore the Response Group configuration settings.</span></span>
+<span data-ttu-id="ed460-104">如果您部署的回應群組應用程式，且您需要還原後端伺服器或 Standard Edition server，您也需要還原回應群組組態設定。</span><span class="sxs-lookup"><span data-stu-id="ed460-104">If you deployed the Response Group application and you need to restore a Back End Server or a Standard Edition server, you also need to restore the Response Group configuration settings.</span></span>
 
 <div>
 
-## <a name="to-restore-response-group-configuration-settings"></a><span data-ttu-id="40a72-105">還原回應群組組態設定</span><span class="sxs-lookup"><span data-stu-id="40a72-105">To restore Response Group configuration settings</span></span>
+## <a name="to-restore-response-group-configuration-settings"></a><span data-ttu-id="ed460-105">還原回應群組組態設定</span><span class="sxs-lookup"><span data-stu-id="ed460-105">To restore Response Group configuration settings</span></span>
 
-1.  <span data-ttu-id="40a72-106">在命令列中輸入：</span><span class="sxs-lookup"><span data-stu-id="40a72-106">At the command line, type:</span></span>
+1.  <span data-ttu-id="ed460-106">在命令列中輸入：</span><span class="sxs-lookup"><span data-stu-id="ed460-106">At the command line, type:</span></span>
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:<pool FQDN>" -OverwriteOwner -FileName "<path and file name of the backed up file at $Backup>"
     
-    <span data-ttu-id="40a72-107">例如：</span><span class="sxs-lookup"><span data-stu-id="40a72-107">For example:</span></span>
+    <span data-ttu-id="ed460-107">例如：</span><span class="sxs-lookup"><span data-stu-id="ed460-107">For example:</span></span>
     
         Import-CsRgsConfiguration -Destination "service: ApplicationServer:pool01.contoso.com" -OverwriteOwner -FileName "C:\RgsConfiguration.zip"
 

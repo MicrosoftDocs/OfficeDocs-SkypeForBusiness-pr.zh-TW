@@ -12,20 +12,20 @@ ms:contentKeyID: 48185023
 ms.date: 03/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: af050cbef7c75bb7b403dc4ef74c4750a9e8b3c3
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: e36cb2036a15dd18263e8714a10122b76aaebace
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42049735"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42144349"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="scaled-director-pool---dns-load-balancing-and-hardware-load-balancer-in-lync-server-2013"></a><span data-ttu-id="0819c-102">調整式的 Director 集區-DNS 負載平衡與硬體負載平衡器在 Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0819c-102">Scaled Director pool - DNS load balancing and hardware load balancer in Lync Server 2013</span></span>
+# <a name="scaled-director-pool---dns-load-balancing-and-hardware-load-balancer-in-lync-server-2013"></a><span data-ttu-id="1468b-102">調整式的 Director 集區-DNS 負載平衡與硬體負載平衡器在 Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1468b-102">Scaled Director pool - DNS load balancing and hardware load balancer in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "42049735"
 
 <span> </span>
 
-<span data-ttu-id="0819c-103">_**主題上次修改日期：** 2012年-10-22_</span><span class="sxs-lookup"><span data-stu-id="0819c-103">_**Topic Last Modified:** 2012-10-22_</span></span>
+<span data-ttu-id="1468b-103">_**主題上次修改日期：** 2012年-10-22_</span><span class="sxs-lookup"><span data-stu-id="1468b-103">_**Topic Last Modified:** 2012-10-22_</span></span>
 
-<span data-ttu-id="0819c-104">調整式的 Director 集區，其中有一個以上的 Director 部署處理更大的容量，並提供高可用性，需要負載平衡來發佈至的集區的所有成員的用戶端和伺服器通訊。</span><span class="sxs-lookup"><span data-stu-id="0819c-104">A scaled Director pool, where there are more than one Director deployed to handle additional capacity and to provide high availability, requires load balancing to distribute client and server communication to all members of the pool.</span></span> <span data-ttu-id="0819c-105">Director 主機 web 服務非常類似的前端集區。</span><span class="sxs-lookup"><span data-stu-id="0819c-105">A Director hosts web services much like a Front End pool.</span></span> <span data-ttu-id="0819c-106">若要提供負載平衡，您可以使用任一硬體負載平衡或網域名稱系統 (DNS) 負載平衡與硬體負載平衡。</span><span class="sxs-lookup"><span data-stu-id="0819c-106">To provide the load balancing, you can use either hardware load balancing or domain name system (DNS) load balancing and hardware load balancing.</span></span> <span data-ttu-id="0819c-107">硬體負載平衡需要的 web 服務，且 DNS 負載平衡單獨不提供的 web 服務所需的功能。</span><span class="sxs-lookup"><span data-stu-id="0819c-107">Hardware load balancing is required for the web services, and DNS load balancing alone does not provide the capabilities required for the web services.</span></span>
+<span data-ttu-id="1468b-104">調整式的 Director 集區，其中有一個以上的 Director 部署處理更大的容量，並提供高可用性，需要負載平衡來發佈至的集區的所有成員的用戶端和伺服器通訊。</span><span class="sxs-lookup"><span data-stu-id="1468b-104">A scaled Director pool, where there are more than one Director deployed to handle additional capacity and to provide high availability, requires load balancing to distribute client and server communication to all members of the pool.</span></span> <span data-ttu-id="1468b-105">Director 主機 web 服務非常類似的前端集區。</span><span class="sxs-lookup"><span data-stu-id="1468b-105">A Director hosts web services much like a Front End pool.</span></span> <span data-ttu-id="1468b-106">若要提供負載平衡，您可以使用任一硬體負載平衡或網域名稱系統 (DNS) 負載平衡與硬體負載平衡。</span><span class="sxs-lookup"><span data-stu-id="1468b-106">To provide the load balancing, you can use either hardware load balancing or domain name system (DNS) load balancing and hardware load balancing.</span></span> <span data-ttu-id="1468b-107">硬體負載平衡需要的 web 服務，且 DNS 負載平衡單獨不提供的 web 服務所需的功能。</span><span class="sxs-lookup"><span data-stu-id="1468b-107">Hardware load balancing is required for the web services, and DNS load balancing alone does not provide the capabilities required for the web services.</span></span>
 
-<span data-ttu-id="0819c-108">下列主題說明部署 Director 集區使用 DNS 負載平衡搭配硬體負載平衡的規劃考量。</span><span class="sxs-lookup"><span data-stu-id="0819c-108">The following topics describe the planning considerations for deploying a Director pool using DNS load balancing in conjunction with hardware load balancing.</span></span> <span data-ttu-id="0819c-109">如果您想要使用硬體負載平衡，但不是 DNS 負載平衡 Director 集區，請參閱[調整式 Director 集區-硬體負載平衡器 Lync Server 2013 中](lync-server-2013-scaled-director-pool-hardware-load-balancer.md)的主題會說明該拓撲的規劃需求。</span><span class="sxs-lookup"><span data-stu-id="0819c-109">If you intend to use hardware load balancing, but not DNS load balancing for the Director pool, see the topic [Scaled Director pool - hardware load balancer in Lync Server 2013](lync-server-2013-scaled-director-pool-hardware-load-balancer.md) that describes the planning requirements for that topology.</span></span>
+<span data-ttu-id="1468b-108">下列主題說明部署 Director 集區使用 DNS 負載平衡搭配硬體負載平衡的規劃考量。</span><span class="sxs-lookup"><span data-stu-id="1468b-108">The following topics describe the planning considerations for deploying a Director pool using DNS load balancing in conjunction with hardware load balancing.</span></span> <span data-ttu-id="1468b-109">如果您想要使用硬體負載平衡，但不是 DNS 負載平衡 Director 集區，請參閱[調整式 Director 集區-硬體負載平衡器 Lync Server 2013 中](lync-server-2013-scaled-director-pool-hardware-load-balancer.md)的主題會說明該拓撲的規劃需求。</span><span class="sxs-lookup"><span data-stu-id="1468b-109">If you intend to use hardware load balancing, but not DNS load balancing for the Director pool, see the topic [Scaled Director pool - hardware load balancer in Lync Server 2013](lync-server-2013-scaled-director-pool-hardware-load-balancer.md) that describes the planning requirements for that topology.</span></span>
 
-<span data-ttu-id="0819c-110">![調整式 Director 集區](images/JJ205142.35a78a7a-b781-4c8f-951e-168451ba6a65(OCS.15).jpg "調整式 Director 集區")</span><span class="sxs-lookup"><span data-stu-id="0819c-110">![Scaled Director Pool](images/JJ205142.35a78a7a-b781-4c8f-951e-168451ba6a65(OCS.15).jpg "Scaled Director Pool")</span></span>
+<span data-ttu-id="1468b-110">![調整式 Director 集區](images/JJ205142.35a78a7a-b781-4c8f-951e-168451ba6a65(OCS.15).jpg "調整式 Director 集區")</span><span class="sxs-lookup"><span data-stu-id="1468b-110">![Scaled Director Pool](images/JJ205142.35a78a7a-b781-4c8f-951e-168451ba6a65(OCS.15).jpg "Scaled Director Pool")</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="0819c-111">本章節內容</span><span class="sxs-lookup"><span data-stu-id="0819c-111">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="1468b-111">本章節內容</span><span class="sxs-lookup"><span data-stu-id="1468b-111">In This Section</span></span>
 
-  - [<span data-ttu-id="0819c-112">憑證摘要-DNS 與 HLB 負載平衡 Lync Server 2013 中</span><span class="sxs-lookup"><span data-stu-id="0819c-112">Certificate summary - DNS and HLB load balanced in Lync Server 2013</span></span>](lync-server-2013-certificate-summary-dns-and-hlb-load-balanced.md)
+  - [<span data-ttu-id="1468b-112">憑證摘要-DNS 與 HLB 負載平衡 Lync Server 2013 中</span><span class="sxs-lookup"><span data-stu-id="1468b-112">Certificate summary - DNS and HLB load balanced in Lync Server 2013</span></span>](lync-server-2013-certificate-summary-dns-and-hlb-load-balanced.md)
 
-  - [<span data-ttu-id="0819c-113">Lync Server 2013 中的連接埠摘要-DNS 與 HLB 負載平衡</span><span class="sxs-lookup"><span data-stu-id="0819c-113">Port summary - DNS and HLB load balanced in Lync Server 2013</span></span>](lync-server-2013-port-summary-dns-and-hlb-load-balanced.md)
+  - [<span data-ttu-id="1468b-113">Lync Server 2013 中的連接埠摘要-DNS 與 HLB 負載平衡</span><span class="sxs-lookup"><span data-stu-id="1468b-113">Port summary - DNS and HLB load balanced in Lync Server 2013</span></span>](lync-server-2013-port-summary-dns-and-hlb-load-balanced.md)
 
-  - [<span data-ttu-id="0819c-114">Lync Server 2013 中的 DNS 摘要-DNS 與 HLB 負載平衡</span><span class="sxs-lookup"><span data-stu-id="0819c-114">DNS summary - DNS and HLB load balanced in Lync Server 2013</span></span>](lync-server-2013-dns-summary-dns-and-hlb-load-balanced.md)
+  - [<span data-ttu-id="1468b-114">Lync Server 2013 中的 DNS 摘要-DNS 與 HLB 負載平衡</span><span class="sxs-lookup"><span data-stu-id="1468b-114">DNS summary - DNS and HLB load balanced in Lync Server 2013</span></span>](lync-server-2013-dns-summary-dns-and-hlb-load-balanced.md)
 
 </div>
 

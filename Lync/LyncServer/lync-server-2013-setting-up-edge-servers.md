@@ -12,20 +12,20 @@ ms:contentKeyID: 48183354
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a3702038781010ce56887ba39c89d09c23bffdbd
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 1e721131ef7a7d649a270080cb18f01017e950ef
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42037603"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42143205"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-edge-servers-in-lync-server-2013"></a><span data-ttu-id="b423d-102">設定 Lync Server 2013 中的 Edge Server</span><span class="sxs-lookup"><span data-stu-id="b423d-102">Setting up Edge Servers in Lync Server 2013</span></span>
+# <a name="setting-up-edge-servers-in-lync-server-2013"></a><span data-ttu-id="e6d24-102">設定 Lync Server 2013 中的 Edge Server</span><span class="sxs-lookup"><span data-stu-id="e6d24-102">Setting up Edge Servers in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "42037603"
 
 <span> </span>
 
-<span data-ttu-id="b423d-103">_**主題上次修改日期：** 2012年-09-08_</span><span class="sxs-lookup"><span data-stu-id="b423d-103">_**Topic Last Modified:** 2012-09-08_</span></span>
+<span data-ttu-id="e6d24-103">_**主題上次修改日期：** 2012年-09-08_</span><span class="sxs-lookup"><span data-stu-id="e6d24-103">_**Topic Last Modified:** 2012-09-08_</span></span>
 
-<span data-ttu-id="b423d-104">除了硬體負載平衡的 Edge Server 集區需要部署負載平衡器以及在多部 Edge Server 上複寫設定時需要額外的步驟以外，設定 Edge Server 所需的主要工作與安裝單一 Edge Server 或負載平衡的 Edge Server 集區所需的工作相同。</span><span class="sxs-lookup"><span data-stu-id="b423d-104">The primary tasks required to set up Edge Servers are the same for installing a single Edge Server or a load-balanced pool of Edge Servers, except that a pool of hardware load balanced Edge Servers requires deployment of the load balancers and additional steps for replicating the set up on multiple Edge Servers.</span></span>
+<span data-ttu-id="e6d24-104">除了硬體負載平衡的 Edge Server 集區需要部署負載平衡器以及在多部 Edge Server 上複寫設定時需要額外的步驟以外，設定 Edge Server 所需的主要工作與安裝單一 Edge Server 或負載平衡的 Edge Server 集區所需的工作相同。</span><span class="sxs-lookup"><span data-stu-id="e6d24-104">The primary tasks required to set up Edge Servers are the same for installing a single Edge Server or a load-balanced pool of Edge Servers, except that a pool of hardware load balanced Edge Servers requires deployment of the load balancers and additional steps for replicating the set up on multiple Edge Servers.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="b423d-105">本章節內容</span><span class="sxs-lookup"><span data-stu-id="b423d-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="e6d24-105">本章節內容</span><span class="sxs-lookup"><span data-stu-id="e6d24-105">In This Section</span></span>
 
-  - [<span data-ttu-id="b423d-106">設定 Lync Server 2013 中的 Edge server 的網路介面</span><span class="sxs-lookup"><span data-stu-id="b423d-106">Set up network interfaces for Edge Servers in Lync Server 2013</span></span>](lync-server-2013-set-up-network-interfaces-for-edge-servers.md)
+  - [<span data-ttu-id="e6d24-106">設定 Lync Server 2013 中的 Edge server 的網路介面</span><span class="sxs-lookup"><span data-stu-id="e6d24-106">Set up network interfaces for Edge Servers in Lync Server 2013</span></span>](lync-server-2013-set-up-network-interfaces-for-edge-servers.md)
 
-  - [<span data-ttu-id="b423d-107">針對 Lync Server 2013 Edge Server 上安裝必要軟體</span><span class="sxs-lookup"><span data-stu-id="b423d-107">Install prerequisite software on Edge Servers for Lync Server 2013</span></span>](lync-server-2013-install-prerequisite-software-on-edge-servers.md)
+  - [<span data-ttu-id="e6d24-107">針對 Lync Server 2013 Edge Server 上安裝必要軟體</span><span class="sxs-lookup"><span data-stu-id="e6d24-107">Install prerequisite software on Edge Servers for Lync Server 2013</span></span>](lync-server-2013-install-prerequisite-software-on-edge-servers.md)
 
-  - [<span data-ttu-id="b423d-108">匯出您的 Lync Server 2013 拓撲，並將它複製到邊緣安裝的外部媒體</span><span class="sxs-lookup"><span data-stu-id="b423d-108">Export your Lync Server 2013 topology and copy it to external media for edge installation</span></span>](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md)
+  - [<span data-ttu-id="e6d24-108">匯出您的 Lync Server 2013 拓撲，並將它複製到邊緣安裝的外部媒體</span><span class="sxs-lookup"><span data-stu-id="e6d24-108">Export your Lync Server 2013 topology and copy it to external media for edge installation</span></span>](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md)
 
-  - [<span data-ttu-id="b423d-109">安裝 Lync Server 2013 Edge Server</span><span class="sxs-lookup"><span data-stu-id="b423d-109">Install Edge Servers for Lync Server 2013</span></span>](lync-server-2013-install-edge-servers.md)
+  - [<span data-ttu-id="e6d24-109">安裝 Lync Server 2013 Edge Server</span><span class="sxs-lookup"><span data-stu-id="e6d24-109">Install Edge Servers for Lync Server 2013</span></span>](lync-server-2013-install-edge-servers.md)
 
-  - [<span data-ttu-id="b423d-110">設定 Lync Server 2013 的邊緣憑證</span><span class="sxs-lookup"><span data-stu-id="b423d-110">Set up Edge certificates for Lync Server 2013</span></span>](lync-server-2013-set-up-edge-certificates.md)
+  - [<span data-ttu-id="e6d24-110">設定 Lync Server 2013 的邊緣憑證</span><span class="sxs-lookup"><span data-stu-id="e6d24-110">Set up Edge certificates for Lync Server 2013</span></span>](lync-server-2013-set-up-edge-certificates.md)
 
-  - [<span data-ttu-id="b423d-111">在 Lync Server 2013 中啟動 Edge Server</span><span class="sxs-lookup"><span data-stu-id="b423d-111">Start Edge Servers in Lync Server 2013</span></span>](lync-server-2013-start-edge-servers.md)
+  - [<span data-ttu-id="e6d24-111">在 Lync Server 2013 中啟動 Edge Server</span><span class="sxs-lookup"><span data-stu-id="e6d24-111">Start Edge Servers in Lync Server 2013</span></span>](lync-server-2013-start-edge-servers.md)
 
-  - [<span data-ttu-id="b423d-112">設定 Lync Server 2013 的反向 proxy 伺服器</span><span class="sxs-lookup"><span data-stu-id="b423d-112">Setting up reverse proxy servers for Lync Server 2013</span></span>](lync-server-2013-setting-up-reverse-proxy-servers.md)
+  - [<span data-ttu-id="e6d24-112">設定 Lync Server 2013 的反向 proxy 伺服器</span><span class="sxs-lookup"><span data-stu-id="e6d24-112">Setting up reverse proxy servers for Lync Server 2013</span></span>](lync-server-2013-setting-up-reverse-proxy-servers.md)
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 49733851
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ab0af46f3f2170de0a169520c9f2097e7abbb058
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 6ce9d458a22823d1b2a395b7b46f96d880a3888e
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42028734"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146536"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-announcements-in-lync-server-2013"></a><span data-ttu-id="1ce20-102">在 Lync Server 2013 中設定宣告</span><span class="sxs-lookup"><span data-stu-id="1ce20-102">Configure announcements in Lync Server 2013</span></span>
+# <a name="configure-announcements-in-lync-server-2013"></a><span data-ttu-id="4cc79-102">在 Lync Server 2013 中設定宣告</span><span class="sxs-lookup"><span data-stu-id="4cc79-102">Configure announcements in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "42028734"
 
 <span> </span>
 
-<span data-ttu-id="1ce20-103">_**主題上次修改日期：** 2012年-09-12_</span><span class="sxs-lookup"><span data-stu-id="1ce20-103">_**Topic Last Modified:** 2012-09-12_</span></span>
+<span data-ttu-id="4cc79-103">_**主題上次修改日期：** 2012年-09-12_</span><span class="sxs-lookup"><span data-stu-id="4cc79-103">_**Topic Last Modified:** 2012-09-12_</span></span>
 
-<span data-ttu-id="1ce20-104">當您設定宣告時，您真的設定，請決定要如何處理未指派號碼的來電。</span><span class="sxs-lookup"><span data-stu-id="1ce20-104">When you configure announcements, you are really configuring how you want calls to unassigned numbers to be handled.</span></span> <span data-ttu-id="1ce20-105">您可以在播放提示字元處，可能的音訊檔案或文字轉換語音 (TTS) 檔案，或您可以只將來電轉接到指定的目的地而不播放提示。</span><span class="sxs-lookup"><span data-stu-id="1ce20-105">You can play a prompt, which can be an audio file or a text-to-speech (TTS) file, or you can just transfer the call to a specified destination without playing a prompt.</span></span>
+<span data-ttu-id="4cc79-104">當您設定宣告時，您真的設定，請決定要如何處理未指派號碼的來電。</span><span class="sxs-lookup"><span data-stu-id="4cc79-104">When you configure announcements, you are really configuring how you want calls to unassigned numbers to be handled.</span></span> <span data-ttu-id="4cc79-105">您可以在播放提示字元處，可能的音訊檔案或文字轉換語音 (TTS) 檔案，或您可以只將來電轉接到指定的目的地而不播放提示。</span><span class="sxs-lookup"><span data-stu-id="4cc79-105">You can play a prompt, which can be an audio file or a text-to-speech (TTS) file, or you can just transfer the call to a specified destination without playing a prompt.</span></span>
 
-<span data-ttu-id="1ce20-106">您需要先建立宣告，再定義未指派號碼表。</span><span class="sxs-lookup"><span data-stu-id="1ce20-106">You need to create announcements before you define the unassigned number table.</span></span> <span data-ttu-id="1ce20-107">您要使用的音訊提示、 TTS 提示字元處或沒有提示的所有宣告對執行此步驟。</span><span class="sxs-lookup"><span data-stu-id="1ce20-107">You need to perform this step for all announcements that use an audio prompt, a TTS prompt, or no prompt.</span></span>
+<span data-ttu-id="4cc79-106">您需要先建立宣告，再定義未指派號碼表。</span><span class="sxs-lookup"><span data-stu-id="4cc79-106">You need to create announcements before you define the unassigned number table.</span></span> <span data-ttu-id="4cc79-107">您要使用的音訊提示、 TTS 提示字元處或沒有提示的所有宣告對執行此步驟。</span><span class="sxs-lookup"><span data-stu-id="4cc79-107">You need to perform this step for all announcements that use an audio prompt, a TTS prompt, or no prompt.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="1ce20-108">本章節內容</span><span class="sxs-lookup"><span data-stu-id="1ce20-108">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="4cc79-108">本章節內容</span><span class="sxs-lookup"><span data-stu-id="4cc79-108">In This Section</span></span>
 
-  - [<span data-ttu-id="1ce20-109">Lync Server 2013 中建立的宣告</span><span class="sxs-lookup"><span data-stu-id="1ce20-109">Create an announcement in Lync Server 2013</span></span>](lync-server-2013-create-an-announcement.md)
+  - [<span data-ttu-id="4cc79-109">Lync Server 2013 中建立的宣告</span><span class="sxs-lookup"><span data-stu-id="4cc79-109">Create an announcement in Lync Server 2013</span></span>](lync-server-2013-create-an-announcement.md)
 
-  - [<span data-ttu-id="1ce20-110">刪除 Lync Server 2013 中的宣告</span><span class="sxs-lookup"><span data-stu-id="1ce20-110">Delete an announcement in Lync Server 2013</span></span>](lync-server-2013-delete-an-announcement.md)
+  - [<span data-ttu-id="4cc79-110">刪除 Lync Server 2013 中的宣告</span><span class="sxs-lookup"><span data-stu-id="4cc79-110">Delete an announcement in Lync Server 2013</span></span>](lync-server-2013-delete-an-announcement.md)
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 48184185
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a04188d671c514557107a7e54eab9ea00d00f2a0
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 7368885daa0a31ecb64d72b3807591748f847d88
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41987328"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42144429"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="running-voice-routing-tests-in-lync-server-2013"></a><span data-ttu-id="5f4de-102">在 Lync Server 2013 中執行語音路由測試</span><span class="sxs-lookup"><span data-stu-id="5f4de-102">Running voice routing tests in Lync Server 2013</span></span>
+# <a name="running-voice-routing-tests-in-lync-server-2013"></a><span data-ttu-id="e9259-102">在 Lync Server 2013 中執行語音路由測試</span><span class="sxs-lookup"><span data-stu-id="e9259-102">Running voice routing tests in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41987328"
 
 <span> </span>
 
-<span data-ttu-id="5f4de-103">_**上次修改主題：** 2013年-02-21_</span><span class="sxs-lookup"><span data-stu-id="5f4de-103">_**Topic Last Modified:** 2013-02-21_</span></span>
+<span data-ttu-id="e9259-103">_**上次修改主題：** 2013年-02-21_</span><span class="sxs-lookup"><span data-stu-id="e9259-103">_**Topic Last Modified:** 2013-02-21_</span></span>
 
-<span data-ttu-id="5f4de-104">Lync Server 2013 提供兩個不同的方法，來測試語音路由： 您可以執行非正式、 臨機操作測試對任何電話號碼和任何語音路由;或者，您可以進行更正式測試使用語音路由測試案例。</span><span class="sxs-lookup"><span data-stu-id="5f4de-104">Lync Server 2013 provides two different methods for testing voice routes: you can do informal, ad hoc testing against any phone number and any voice route; or you can do more formal testing using voice route test cases.</span></span> <span data-ttu-id="5f4de-105">正式測試時，您將下列項目定義為要撥打的號碼與撥號對應表以及要採用的語音原則和 Lync Server 就可以確認，在這些條件，提供的號碼可以成功路由傳送至 PSTN 網路。</span><span class="sxs-lookup"><span data-stu-id="5f4de-105">With formal testing, you define such things as the number to be dialed and the dial plan and voice policy to be employed, and Lync Server can then verify that, given those conditions, the supplied number can successfully be routed to the PSTN network.</span></span> <span data-ttu-id="5f4de-106">這兩種方法都是以這份文件的後續各節所述。</span><span class="sxs-lookup"><span data-stu-id="5f4de-106">Both of these methods are described in subsequent sections of this documentation.</span></span>
+<span data-ttu-id="e9259-104">Lync Server 2013 提供兩個不同的方法，來測試語音路由： 您可以執行非正式、 臨機操作測試對任何電話號碼和任何語音路由;或者，您可以進行更正式測試使用語音路由測試案例。</span><span class="sxs-lookup"><span data-stu-id="e9259-104">Lync Server 2013 provides two different methods for testing voice routes: you can do informal, ad hoc testing against any phone number and any voice route; or you can do more formal testing using voice route test cases.</span></span> <span data-ttu-id="e9259-105">正式測試時，您將下列項目定義為要撥打的號碼與撥號對應表以及要採用的語音原則和 Lync Server 就可以確認，在這些條件，提供的號碼可以成功路由傳送至 PSTN 網路。</span><span class="sxs-lookup"><span data-stu-id="e9259-105">With formal testing, you define such things as the number to be dialed and the dial plan and voice policy to be employed, and Lync Server can then verify that, given those conditions, the supplied number can successfully be routed to the PSTN network.</span></span> <span data-ttu-id="e9259-106">這兩種方法都是以這份文件的後續各節所述。</span><span class="sxs-lookup"><span data-stu-id="e9259-106">Both of these methods are described in subsequent sections of this documentation.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="5f4de-107">本章節內容</span><span class="sxs-lookup"><span data-stu-id="5f4de-107">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="e9259-107">本章節內容</span><span class="sxs-lookup"><span data-stu-id="e9259-107">In This Section</span></span>
 
-  - [<span data-ttu-id="5f4de-108">在 Lync Server 2013 中執行非正式語音路由測試</span><span class="sxs-lookup"><span data-stu-id="5f4de-108">Run informal voice routing tests in Lync Server 2013</span></span>](lync-server-2013-run-informal-voice-routing-tests.md)
+  - [<span data-ttu-id="e9259-108">在 Lync Server 2013 中執行非正式語音路由測試</span><span class="sxs-lookup"><span data-stu-id="e9259-108">Run informal voice routing tests in Lync Server 2013</span></span>](lync-server-2013-run-informal-voice-routing-tests.md)
 
-  - [<span data-ttu-id="5f4de-109">在 Lync Server 2013 中執行語音路由測試案例</span><span class="sxs-lookup"><span data-stu-id="5f4de-109">Run voice routing test cases in Lync Server 2013</span></span>](lync-server-2013-run-voice-routing-test-cases.md)
+  - [<span data-ttu-id="e9259-109">在 Lync Server 2013 中執行語音路由測試案例</span><span class="sxs-lookup"><span data-stu-id="e9259-109">Run voice routing test cases in Lync Server 2013</span></span>](lync-server-2013-run-voice-routing-test-cases.md)
 
 </div>
 
