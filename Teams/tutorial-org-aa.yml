@@ -6,7 +6,7 @@ metadata:
   audience: IT Pro
   level: Intermediate
   displayType: one-column
-  ms.author: jambirk
+  ms.author: dstrome
   manager: serdars
   ms.date: 05/16/2019
   ms.reviewer: lolaj
@@ -21,12 +21,12 @@ metadata:
   - M365-voice
   ms.custom:
   - NewAdminCenter_Update
-  ms.openlocfilehash: e6d5cd07d0a8b29ef74aa06912b80e60f55ed537
-  ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+  ms.openlocfilehash: fe1ea2304ae740df16d909fc721ffcd5339b2a9c
+  ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
   ms.translationtype: MT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 02/14/2020
-  ms.locfileid: "41982958"
+  ms.lasthandoff: 02/19/2020
+  ms.locfileid: "42155075"
 items:
 - durationInMinutes: 2
   content: "\n[Microsoft 團隊](/MicrosoftTeams/Teams-overview)和[商務用 Skype Online](https://support.office.com/article/Video-What-is-Skype-for-Business-3a21eca4-434d-41f1-ab06-3d4a268573b7)都是 Office 365 的一部分，可將聊天、電話交談、語音信箱、會議、檔案和應用程式集中在一個位置。 他們都需要[**手機系統**](/MicrosoftTeams/what-is-phone-system-in-office-365)授權，才能在 Office 365 雲端啟用呼叫控制和 PBX 功能。 授權以附加元件形式提供，或作為企業版 E5 授權的一部分提供。 授權詳情請參閱[商務用 Skype 附加元件授權](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)。 \n\n電話系統授權可讓您使用一[組功能](/MicrosoftTeams/here-s-what-you-get-with-phone-system)（包括語音信箱、通話佇列和[自動](/microsoftteams/what-are-phone-system-auto-attendants)語音應答）來取代現有的 PBX 系統，讓呼叫您的公司的人員流覽功能表系統，以取得正確的部門、人員或接線員。 自動語音應答可與團隊或商務用 Skype 搭配使用。 您可以使用 Microsoft 團隊系統管理中心為貴組織建立自動語音應答系統。\n\n如果系統詢問您是否要設定自動語音應答，本文將提供在假想小型企業版中自動語音應答的規劃、設計及實現流程圖說明。 這不是一個大小合適的解決方案，而是在數個自動語音應答的功能結構背後的思考程式。 \n\n## <a name=\"before-you-begin\"></a>開始之前\n\n本教學課程假設您已經完成下列工作： \n- [在組織中設定電話系統](/MicrosoftTeams/setting-up-your-phone-system)，為您的使用者提供電話號碼。\n- [設定雲端語音信箱](/MicrosoftTeams/set-up-phone-system-voicemail) \n- [已檢查什麼是雲端自動](/MicrosoftTeams/what-are-phone-system-auto-attendants)語音應答？讓您更清楚地瞭解可與自動語音應答互動的電話系統功能。\n\n此外，您也可以使用白色的 [白板] 或 [索引卡]，來找出大部分的規劃與設計部分：在技術上沒有苛刻的方案。\n"

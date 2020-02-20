@@ -1,7 +1,7 @@
 ---
 title: 患者 App 與 EHR 整合 DSTU2 介面
-author: jambirk
-ms.author: jambirk
+author: dstrome
+ms.author: dstrome
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -17,287 +17,287 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: Microsoft 團隊患者 app EHR 整合
-ms.openlocfilehash: d7acea1002d80a397469d242cfbbb1adfba07a24
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 10a6b21e583b5fdd3e70857c4cfc5e7e21a7e988
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827801"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153815"
 ---
-# <a name="dstu2-interface-specification"></a><span data-ttu-id="f3fab-103">DSTU2 介面規格</span><span class="sxs-lookup"><span data-stu-id="f3fab-103">DSTU2 interface specification</span></span>
+# <a name="dstu2-interface-specification"></a><span data-ttu-id="c6a11-103">DSTU2 介面規格</span><span class="sxs-lookup"><span data-stu-id="c6a11-103">DSTU2 interface specification</span></span>
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
-<span data-ttu-id="f3fab-104">設定或重新配置 FHIR 伺服器以搭配 Microsoft 團隊患者應用程式，需要瞭解 app 需要存取哪些資料。</span><span class="sxs-lookup"><span data-stu-id="f3fab-104">Setting up or reconfiguring an FHIR server to work with the Microsoft Teams Patients app requires understanding what data the app needs to access.</span></span> <span data-ttu-id="f3fab-105">FHIR 伺服器必須支援使用捆綁作業的下列資源的 POST 要求：</span><span class="sxs-lookup"><span data-stu-id="f3fab-105">The FHIR server must support POST requests using bundles for the following resources:</span></span>
+<span data-ttu-id="c6a11-104">設定或重新配置 FHIR 伺服器以搭配 Microsoft 團隊患者應用程式，需要瞭解 app 需要存取哪些資料。</span><span class="sxs-lookup"><span data-stu-id="c6a11-104">Setting up or reconfiguring an FHIR server to work with the Microsoft Teams Patients app requires understanding what data the app needs to access.</span></span> <span data-ttu-id="c6a11-105">FHIR 伺服器必須支援使用捆綁作業的下列資源的 POST 要求：</span><span class="sxs-lookup"><span data-stu-id="c6a11-105">The FHIR server must support POST requests using bundles for the following resources:</span></span>
 
-- [<span data-ttu-id="f3fab-106">患者</span><span class="sxs-lookup"><span data-stu-id="f3fab-106">Patient</span></span>](#patient)
-- [<span data-ttu-id="f3fab-107">便</span><span class="sxs-lookup"><span data-stu-id="f3fab-107">Observation</span></span>](#observation)
-- [<span data-ttu-id="f3fab-108">條件</span><span class="sxs-lookup"><span data-stu-id="f3fab-108">Condition</span></span>](#condition)
-- [<span data-ttu-id="f3fab-109">還有</span><span class="sxs-lookup"><span data-stu-id="f3fab-109">Encounter</span></span>](#encounter)
-- [<span data-ttu-id="f3fab-110">過敏症 intolerance</span><span class="sxs-lookup"><span data-stu-id="f3fab-110">Allergy intolerance</span></span>](#allergyintolerance)
-- [<span data-ttu-id="f3fab-111">百分比</span><span class="sxs-lookup"><span data-stu-id="f3fab-111">Coverage</span></span>](#coverage)
-- [<span data-ttu-id="f3fab-112">藥物訂單</span><span class="sxs-lookup"><span data-stu-id="f3fab-112">Medication Order</span></span>](#medication-order)
-- [<span data-ttu-id="f3fab-113">位置</span><span class="sxs-lookup"><span data-stu-id="f3fab-113">Location</span></span>](#location)
+- [<span data-ttu-id="c6a11-106">患者</span><span class="sxs-lookup"><span data-stu-id="c6a11-106">Patient</span></span>](#patient)
+- [<span data-ttu-id="c6a11-107">便</span><span class="sxs-lookup"><span data-stu-id="c6a11-107">Observation</span></span>](#observation)
+- [<span data-ttu-id="c6a11-108">條件</span><span class="sxs-lookup"><span data-stu-id="c6a11-108">Condition</span></span>](#condition)
+- [<span data-ttu-id="c6a11-109">還有</span><span class="sxs-lookup"><span data-stu-id="c6a11-109">Encounter</span></span>](#encounter)
+- [<span data-ttu-id="c6a11-110">過敏症 intolerance</span><span class="sxs-lookup"><span data-stu-id="c6a11-110">Allergy intolerance</span></span>](#allergyintolerance)
+- [<span data-ttu-id="c6a11-111">百分比</span><span class="sxs-lookup"><span data-stu-id="c6a11-111">Coverage</span></span>](#coverage)
+- [<span data-ttu-id="c6a11-112">藥物訂單</span><span class="sxs-lookup"><span data-stu-id="c6a11-112">Medication Order</span></span>](#medication-order)
+- [<span data-ttu-id="c6a11-113">位置</span><span class="sxs-lookup"><span data-stu-id="c6a11-113">Location</span></span>](#location)
 
 > [!NOTE]
-> <span data-ttu-id="f3fab-114">患者資源是唯一的強制性資源（沒有應用程式完全不會載入）。</span><span class="sxs-lookup"><span data-stu-id="f3fab-114">The Patient resource is the only mandatory resource (without which the app will not load at all.</span></span> <span data-ttu-id="f3fab-115">不過，建議合作夥伴針對上述所述的所有上述資源提供支援，以取得 Microsoft 團隊患者 App 的最佳使用者體驗。</span><span class="sxs-lookup"><span data-stu-id="f3fab-115">However, it is recommended that the Partner implement support for all the above mentioned resources per specifications provided below for the best end-user experience with the Microsoft Teams Patients App.</span></span>
+> <span data-ttu-id="c6a11-114">患者資源是唯一的強制性資源（沒有應用程式完全不會載入）。</span><span class="sxs-lookup"><span data-stu-id="c6a11-114">The Patient resource is the only mandatory resource (without which the app will not load at all.</span></span> <span data-ttu-id="c6a11-115">不過，建議合作夥伴針對上述所述的所有上述資源提供支援，以取得 Microsoft 團隊患者 App 的最佳使用者體驗。</span><span class="sxs-lookup"><span data-stu-id="c6a11-115">However, it is recommended that the Partner implement support for all the above mentioned resources per specifications provided below for the best end-user experience with the Microsoft Teams Patients App.</span></span>
 
-<span data-ttu-id="f3fab-116">來自 Microsoft 團隊患者 app 的來自多個資源的查詢會將要求的組合（批次）張貼到 FHIR 伺服器的 URL。</span><span class="sxs-lookup"><span data-stu-id="f3fab-116">Queries from the Microsoft Teams Patients app for more than one resource post a bundle (BATCH) of requests to the FHIR server's URL.</span></span> <span data-ttu-id="f3fab-117">伺服器處理每個要求，並傳回每個要求所相符的資源套件。</span><span class="sxs-lookup"><span data-stu-id="f3fab-117">The server processes each request and returns a bundle of the resources matched by each request.</span></span> <span data-ttu-id="f3fab-118">如需詳細資訊和範例， [https://www.hl7.org/fhir/DSTU2/http.html#transaction](https://www.hl7.org/fhir/DSTU2/http.html#transaction)請參閱。</span><span class="sxs-lookup"><span data-stu-id="f3fab-118">For more information and examples, see [https://www.hl7.org/fhir/DSTU2/http.html#transaction](https://www.hl7.org/fhir/DSTU2/http.html#transaction).</span></span>
+<span data-ttu-id="c6a11-116">來自 Microsoft 團隊患者 app 的來自多個資源的查詢會將要求的組合（批次）張貼到 FHIR 伺服器的 URL。</span><span class="sxs-lookup"><span data-stu-id="c6a11-116">Queries from the Microsoft Teams Patients app for more than one resource post a bundle (BATCH) of requests to the FHIR server's URL.</span></span> <span data-ttu-id="c6a11-117">伺服器處理每個要求，並傳回每個要求所相符的資源套件。</span><span class="sxs-lookup"><span data-stu-id="c6a11-117">The server processes each request and returns a bundle of the resources matched by each request.</span></span> <span data-ttu-id="c6a11-118">如需詳細資訊和範例， [https://www.hl7.org/fhir/DSTU2/http.html#transaction](https://www.hl7.org/fhir/DSTU2/http.html#transaction)請參閱。</span><span class="sxs-lookup"><span data-stu-id="c6a11-118">For more information and examples, see [https://www.hl7.org/fhir/DSTU2/http.html#transaction](https://www.hl7.org/fhir/DSTU2/http.html#transaction).</span></span>
 
-<span data-ttu-id="f3fab-119">下列所有 FHIR 資源應該可透過直接資源參考存取。</span><span class="sxs-lookup"><span data-stu-id="f3fab-119">All the following FHIR resources should be accessible by direct resource reference.</span></span>
+<span data-ttu-id="c6a11-119">下列所有 FHIR 資源應該可透過直接資源參考存取。</span><span class="sxs-lookup"><span data-stu-id="c6a11-119">All the following FHIR resources should be accessible by direct resource reference.</span></span>
 
-## <a name="conformance-minimum-required-field-set"></a><span data-ttu-id="f3fab-120">必要的一致性欄位集</span><span class="sxs-lookup"><span data-stu-id="f3fab-120">Conformance minimum required field set</span></span>
+## <a name="conformance-minimum-required-field-set"></a><span data-ttu-id="c6a11-120">必要的一致性欄位集</span><span class="sxs-lookup"><span data-stu-id="c6a11-120">Conformance minimum required field set</span></span>
 
- <span data-ttu-id="f3fab-121">FHIR 伺服器必須實現一致性聲明，我們才能擁有其功能的實際摘要。</span><span class="sxs-lookup"><span data-stu-id="f3fab-121">The FHIR Server must implement the conformance statement for us to have a factual summary of its capabilities.</span></span> <span data-ttu-id="f3fab-122">我們期待 DSTU2 FHIR 伺服器中的下列參數：</span><span class="sxs-lookup"><span data-stu-id="f3fab-122">We expect the below parameters in a DSTU2 FHIR Server:</span></span>
+ <span data-ttu-id="c6a11-121">FHIR 伺服器必須實現一致性聲明，我們才能擁有其功能的實際摘要。</span><span class="sxs-lookup"><span data-stu-id="c6a11-121">The FHIR Server must implement the conformance statement for us to have a factual summary of its capabilities.</span></span> <span data-ttu-id="c6a11-122">我們期待 DSTU2 FHIR 伺服器中的下列參數：</span><span class="sxs-lookup"><span data-stu-id="c6a11-122">We expect the below parameters in a DSTU2 FHIR Server:</span></span>
 
-1. <span data-ttu-id="f3fab-123">地方</span><span class="sxs-lookup"><span data-stu-id="f3fab-123">REST</span></span>
-   1. <span data-ttu-id="f3fab-124">下</span><span class="sxs-lookup"><span data-stu-id="f3fab-124">Mode</span></span>
-   2. <span data-ttu-id="f3fab-125">互動</span><span class="sxs-lookup"><span data-stu-id="f3fab-125">Interaction</span></span>
-   3. <span data-ttu-id="f3fab-126">資源：類型</span><span class="sxs-lookup"><span data-stu-id="f3fab-126">Resource: Type</span></span>
-   4. <span data-ttu-id="f3fab-127">安全性： [OAuth uri 的副檔名](http://hl7.org/fhir/extension-oauth-uris.html)</span><span class="sxs-lookup"><span data-stu-id="f3fab-127">Security: [Extension for OAuth URIs](http://hl7.org/fhir/extension-oauth-uris.html)</span></span>
-2. <span data-ttu-id="f3fab-128">FhirVersion （我們的程式碼需要這麼做，才能瞭解我們支援多個版本時應該要旋轉的版本）。</span><span class="sxs-lookup"><span data-stu-id="f3fab-128">FhirVersion (Our code requires this to understand which version we should pivot to as we support multiple versions.)</span></span>
+1. <span data-ttu-id="c6a11-123">地方</span><span class="sxs-lookup"><span data-stu-id="c6a11-123">REST</span></span>
+   1. <span data-ttu-id="c6a11-124">下</span><span class="sxs-lookup"><span data-stu-id="c6a11-124">Mode</span></span>
+   2. <span data-ttu-id="c6a11-125">互動</span><span class="sxs-lookup"><span data-stu-id="c6a11-125">Interaction</span></span>
+   3. <span data-ttu-id="c6a11-126">資源：類型</span><span class="sxs-lookup"><span data-stu-id="c6a11-126">Resource: Type</span></span>
+   4. <span data-ttu-id="c6a11-127">安全性： [OAuth uri 的副檔名](https://hl7.org/fhir/extension-oauth-uris.html)</span><span class="sxs-lookup"><span data-stu-id="c6a11-127">Security: [Extension for OAuth URIs](https://hl7.org/fhir/extension-oauth-uris.html)</span></span>
+2. <span data-ttu-id="c6a11-128">FhirVersion （我們的程式碼需要這麼做，才能瞭解我們支援多個版本時應該要旋轉的版本）。</span><span class="sxs-lookup"><span data-stu-id="c6a11-128">FhirVersion (Our code requires this to understand which version we should pivot to as we support multiple versions.)</span></span>
 
-<span data-ttu-id="f3fab-129">如[https://www.hl7.org/fhir/dstu2/conformance.html](https://www.hl7.org/fhir/dstu2/conformance.html)需此欄位集的其他詳細資料，請參閱。</span><span class="sxs-lookup"><span data-stu-id="f3fab-129">See [https://www.hl7.org/fhir/dstu2/conformance.html](https://www.hl7.org/fhir/dstu2/conformance.html) for other details on this field set.</span></span>
+<span data-ttu-id="c6a11-129">如[https://www.hl7.org/fhir/dstu2/conformance.html](https://www.hl7.org/fhir/dstu2/conformance.html)需此欄位集的其他詳細資料，請參閱。</span><span class="sxs-lookup"><span data-stu-id="c6a11-129">See [https://www.hl7.org/fhir/dstu2/conformance.html](https://www.hl7.org/fhir/dstu2/conformance.html) for other details on this field set.</span></span>
 
-## <a name="patient"></a><span data-ttu-id="f3fab-130">患者</span><span class="sxs-lookup"><span data-stu-id="f3fab-130">Patient</span></span>
+## <a name="patient"></a><span data-ttu-id="c6a11-130">患者</span><span class="sxs-lookup"><span data-stu-id="c6a11-130">Patient</span></span>
 
-<span data-ttu-id="f3fab-131">以下是[Argonaut 患者設定檔](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-patient.html)欄位的子集所需的最小欄位：</span><span class="sxs-lookup"><span data-stu-id="f3fab-131">These are the minimum required fields, which are a subset of the [Argonaut patient profile](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-patient.html) fields:</span></span>
+<span data-ttu-id="c6a11-131">以下是[Argonaut 患者設定檔](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-patient.html)欄位的子集所需的最小欄位：</span><span class="sxs-lookup"><span data-stu-id="c6a11-131">These are the minimum required fields, which are a subset of the [Argonaut patient profile](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-patient.html) fields:</span></span>
 
-1. <span data-ttu-id="f3fab-132">Name. 家人</span><span class="sxs-lookup"><span data-stu-id="f3fab-132">Name.Family</span></span>
-2. <span data-ttu-id="f3fab-133">Name。指定</span><span class="sxs-lookup"><span data-stu-id="f3fab-133">Name.Given</span></span>
-3. <span data-ttu-id="f3fab-134">性別</span><span class="sxs-lookup"><span data-stu-id="f3fab-134">Gender</span></span>
-4. <span data-ttu-id="f3fab-135">生日</span><span class="sxs-lookup"><span data-stu-id="f3fab-135">BirthDate</span></span>
-5. <span data-ttu-id="f3fab-136">MRN （識別碼）</span><span class="sxs-lookup"><span data-stu-id="f3fab-136">MRN (Identifier)</span></span>
+1. <span data-ttu-id="c6a11-132">Name. 家人</span><span class="sxs-lookup"><span data-stu-id="c6a11-132">Name.Family</span></span>
+2. <span data-ttu-id="c6a11-133">Name。指定</span><span class="sxs-lookup"><span data-stu-id="c6a11-133">Name.Given</span></span>
+3. <span data-ttu-id="c6a11-134">性別</span><span class="sxs-lookup"><span data-stu-id="c6a11-134">Gender</span></span>
+4. <span data-ttu-id="c6a11-135">生日</span><span class="sxs-lookup"><span data-stu-id="c6a11-135">BirthDate</span></span>
+5. <span data-ttu-id="c6a11-136">MRN （識別碼）</span><span class="sxs-lookup"><span data-stu-id="c6a11-136">MRN (Identifier)</span></span>
 
-<span data-ttu-id="f3fab-137">除了 Argonaut 欄位以外，您還可以取得良好的使用者體驗，因為患者 app 也會讀取下欄欄位：</span><span class="sxs-lookup"><span data-stu-id="f3fab-137">In addition to the Argonaut fields, for a great user experience the Patients app also reads the following fields:</span></span>
+<span data-ttu-id="c6a11-137">除了 Argonaut 欄位以外，您還可以取得良好的使用者體驗，因為患者 app 也會讀取下欄欄位：</span><span class="sxs-lookup"><span data-stu-id="c6a11-137">In addition to the Argonaut fields, for a great user experience the Patients app also reads the following fields:</span></span>
 
-1. <span data-ttu-id="f3fab-138">名稱。使用</span><span class="sxs-lookup"><span data-stu-id="f3fab-138">Name.Use</span></span>
-2. <span data-ttu-id="f3fab-139">名稱。前置詞</span><span class="sxs-lookup"><span data-stu-id="f3fab-139">Name.Prefix</span></span>
-3. <span data-ttu-id="f3fab-140">CareProvider （患者資源上的這個參照應包含下列範例所示的顯示欄位）。</span><span class="sxs-lookup"><span data-stu-id="f3fab-140">CareProvider (This reference on the Patient resource should include the display fields shown in the following example.)</span></span>
+1. <span data-ttu-id="c6a11-138">名稱。使用</span><span class="sxs-lookup"><span data-stu-id="c6a11-138">Name.Use</span></span>
+2. <span data-ttu-id="c6a11-139">名稱。前置詞</span><span class="sxs-lookup"><span data-stu-id="c6a11-139">Name.Prefix</span></span>
+3. <span data-ttu-id="c6a11-140">CareProvider （患者資源上的這個參照應包含下列範例所示的顯示欄位）。</span><span class="sxs-lookup"><span data-stu-id="c6a11-140">CareProvider (This reference on the Patient resource should include the display fields shown in the following example.)</span></span>
 
 * * *
 
-    <span data-ttu-id="f3fab-141">要求：取得 <fhir-server>/Patient/<患者 id></span><span class="sxs-lookup"><span data-stu-id="f3fab-141">Request: GET <fhir-server>/Patient/<patient-id></span></span>
+    <span data-ttu-id="c6a11-141">要求：取得 <fhir-server>/Patient/<患者 id></span><span class="sxs-lookup"><span data-stu-id="c6a11-141">Request: GET <fhir-server>/Patient/<patient-id></span></span>
     
-    <span data-ttu-id="f3fab-142">回應： {"resourceType"： "患者"，"id"： "<患者 id>"，）。</span><span class="sxs-lookup"><span data-stu-id="f3fab-142">Response: { "resourceType": "Patient", "id": "<patient-id>", .</span></span>
-      <span data-ttu-id="f3fab-143">.</span><span class="sxs-lookup"><span data-stu-id="f3fab-143">.</span></span>
-      <span data-ttu-id="f3fab-144">.</span><span class="sxs-lookup"><span data-stu-id="f3fab-144">.</span></span>
-      <span data-ttu-id="f3fab-145">"name"： [{"use"： "官方"，"prefix"： ["Mr"]，"" 稱謂 "： [" Chau "]，" family "： [" Hugh "]}]，" 識別碼 "： [{" 使用 "：" 官方 "，" 類型 "： {" code "： [{" （"MRhttp://hl7.org/fhir/v2/0203"} ""，"的值"： "1234567"}]，"性別"： "男"，"生日"： "1957-06-05"，"careProvider"： [{"顯示"： "Jane Doe"}]，}</span><span class="sxs-lookup"><span data-stu-id="f3fab-145">"name": [ { "use": "official", "prefix": [ "Mr" ], "family": [ "Chau" ], "given": [ "Hugh" ] } ], "identifier": [ { "use": "official", "type": { "coding": [ { "system": "http://hl7.org/fhir/v2/0203", "code": "MR" } ] }, "value": "1234567" } ], "gender": "male", "birthDate": "1957-06-05", "careProvider": [{ "display": "Jane Doe" }], }</span></span>
+    <span data-ttu-id="c6a11-142">回應： {"resourceType"： "患者"，"id"： "<患者 id>"，）。</span><span class="sxs-lookup"><span data-stu-id="c6a11-142">Response: { "resourceType": "Patient", "id": "<patient-id>", .</span></span>
+      <span data-ttu-id="c6a11-143">.</span><span class="sxs-lookup"><span data-stu-id="c6a11-143">.</span></span>
+      <span data-ttu-id="c6a11-144">.</span><span class="sxs-lookup"><span data-stu-id="c6a11-144">.</span></span>
+      <span data-ttu-id="c6a11-145">"name"： [{"use"： "官方"，"prefix"： ["Mr"]，"" 稱謂 "： [" Chau "]，" family "： [" Hugh "]}]，" 識別碼 "： [{" 使用 "：" 官方 "，" 類型 "： {" code "： [{" （"MRhttps://hl7.org/fhir/v2/0203"} ""，"的值"： "1234567"}]，"性別"： "男"，"生日"： "1957-06-05"，"careProvider"： [{"顯示"： "Jane Doe"}]，}</span><span class="sxs-lookup"><span data-stu-id="c6a11-145">"name": [ { "use": "official", "prefix": [ "Mr" ], "family": [ "Chau" ], "given": [ "Hugh" ] } ], "identifier": [ { "use": "official", "type": { "coding": [ { "system": "https://hl7.org/fhir/v2/0203", "code": "MR" } ] }, "value": "1234567" } ], "gender": "male", "birthDate": "1957-06-05", "careProvider": [{ "display": "Jane Doe" }], }</span></span>
 
 * * *
 
-<span data-ttu-id="f3fab-146">資源搜尋使用/Patient/_search 的 POST 方法，以及下列參數：</span><span class="sxs-lookup"><span data-stu-id="f3fab-146">A resource search uses the POST method at /Patient/_search and the following parameters:</span></span>
+<span data-ttu-id="c6a11-146">資源搜尋使用/Patient/_search 的 POST 方法，以及下列參數：</span><span class="sxs-lookup"><span data-stu-id="c6a11-146">A resource search uses the POST method at /Patient/_search and the following parameters:</span></span>
 
-1. <span data-ttu-id="f3fab-147">標識號</span><span class="sxs-lookup"><span data-stu-id="f3fab-147">id</span></span>
-2. <span data-ttu-id="f3fab-148">[家人]：包含 = （搜尋姓氏中包含值的所有患者。）</span><span class="sxs-lookup"><span data-stu-id="f3fab-148">family:contains=(searches for all patients whose family name contains the value.)</span></span>
-3. <span data-ttu-id="f3fab-149">給定 =\<substring></span><span class="sxs-lookup"><span data-stu-id="f3fab-149">given=\<substring></span></span>
-4. <span data-ttu-id="f3fab-150">name =\<substring></span><span class="sxs-lookup"><span data-stu-id="f3fab-150">name=\<substring></span></span>
-5. <span data-ttu-id="f3fab-151">生日 = （完全符合）</span><span class="sxs-lookup"><span data-stu-id="f3fab-151">birthdate=(exact match)</span></span>
-6. <span data-ttu-id="f3fab-152">\_count （應傳回的結果數目上限）</span><span class="sxs-lookup"><span data-stu-id="f3fab-152">\_count (maximum number of results that should be returned)</span></span> <br> <span data-ttu-id="f3fab-153">回應應包含搜尋結果傳回的記錄總數，而\_PatientsApp 會使用 count 來限制傳回的記錄數。</span><span class="sxs-lookup"><span data-stu-id="f3fab-153">The response should contain the total count of records returned as a result of the search, and \_count will be used by the PatientsApp to limit the number of records returned.</span></span>
-7. <span data-ttu-id="f3fab-154">識別碼 =\<mrn></span><span class="sxs-lookup"><span data-stu-id="f3fab-154">identifier=\<mrn></span></span>
+1. <span data-ttu-id="c6a11-147">標識號</span><span class="sxs-lookup"><span data-stu-id="c6a11-147">id</span></span>
+2. <span data-ttu-id="c6a11-148">[家人]：包含 = （搜尋姓氏中包含值的所有患者。）</span><span class="sxs-lookup"><span data-stu-id="c6a11-148">family:contains=(searches for all patients whose family name contains the value.)</span></span>
+3. <span data-ttu-id="c6a11-149">給定 =\<substring></span><span class="sxs-lookup"><span data-stu-id="c6a11-149">given=\<substring></span></span>
+4. <span data-ttu-id="c6a11-150">name =\<substring></span><span class="sxs-lookup"><span data-stu-id="c6a11-150">name=\<substring></span></span>
+5. <span data-ttu-id="c6a11-151">生日 = （完全符合）</span><span class="sxs-lookup"><span data-stu-id="c6a11-151">birthdate=(exact match)</span></span>
+6. <span data-ttu-id="c6a11-152">\_count （應傳回的結果數目上限）</span><span class="sxs-lookup"><span data-stu-id="c6a11-152">\_count (maximum number of results that should be returned)</span></span> <br> <span data-ttu-id="c6a11-153">回應應包含搜尋結果傳回的記錄總數，而\_PatientsApp 會使用 count 來限制傳回的記錄數。</span><span class="sxs-lookup"><span data-stu-id="c6a11-153">The response should contain the total count of records returned as a result of the search, and \_count will be used by the PatientsApp to limit the number of records returned.</span></span>
+7. <span data-ttu-id="c6a11-154">識別碼 =\<mrn></span><span class="sxs-lookup"><span data-stu-id="c6a11-154">identifier=\<mrn></span></span>
 
-<span data-ttu-id="f3fab-155">您的目標就是能夠搜尋及篩選患者，如下所示：</span><span class="sxs-lookup"><span data-stu-id="f3fab-155">The goal is to be able to search and filter for a patient by the following:</span></span>
+<span data-ttu-id="c6a11-155">您的目標就是能夠搜尋及篩選患者，如下所示：</span><span class="sxs-lookup"><span data-stu-id="c6a11-155">The goal is to be able to search and filter for a patient by the following:</span></span>
 
-- <span data-ttu-id="f3fab-156">[識別碼]：這是 FHIR 中的每個資源所擁有的資源識別碼。</span><span class="sxs-lookup"><span data-stu-id="f3fab-156">ID: This is the resource ID that every resource in FHIR has.</span></span>
-- <span data-ttu-id="f3fab-157">MRN：這是臨床員工要認識的患者實際識別碼。</span><span class="sxs-lookup"><span data-stu-id="f3fab-157">MRN: This is the actual identifier for the patient that clinical staff would know.</span></span> <span data-ttu-id="f3fab-158">我們瞭解此 MRN 是以 FHIR 中識別碼資源內的識別碼類型為基礎。</span><span class="sxs-lookup"><span data-stu-id="f3fab-158">We understand this MRN is based on the type of identifier inside the identifier resource in FHIR</span></span>
-- <span data-ttu-id="f3fab-159">名稱</span><span class="sxs-lookup"><span data-stu-id="f3fab-159">Name</span></span>
-- <span data-ttu-id="f3fab-160">生日</span><span class="sxs-lookup"><span data-stu-id="f3fab-160">Birthdate</span></span>
+- <span data-ttu-id="c6a11-156">[識別碼]：這是 FHIR 中的每個資源所擁有的資源識別碼。</span><span class="sxs-lookup"><span data-stu-id="c6a11-156">ID: This is the resource ID that every resource in FHIR has.</span></span>
+- <span data-ttu-id="c6a11-157">MRN：這是臨床員工要認識的患者實際識別碼。</span><span class="sxs-lookup"><span data-stu-id="c6a11-157">MRN: This is the actual identifier for the patient that clinical staff would know.</span></span> <span data-ttu-id="c6a11-158">我們瞭解此 MRN 是以 FHIR 中識別碼資源內的識別碼類型為基礎。</span><span class="sxs-lookup"><span data-stu-id="c6a11-158">We understand this MRN is based on the type of identifier inside the identifier resource in FHIR</span></span>
+- <span data-ttu-id="c6a11-159">名稱</span><span class="sxs-lookup"><span data-stu-id="c6a11-159">Name</span></span>
+- <span data-ttu-id="c6a11-160">生日</span><span class="sxs-lookup"><span data-stu-id="c6a11-160">Birthdate</span></span>
 
-<span data-ttu-id="f3fab-161">請參閱下列通話範例。</span><span class="sxs-lookup"><span data-stu-id="f3fab-161">See the following example  of this call.</span></span>
+<span data-ttu-id="c6a11-161">請參閱下列通話範例。</span><span class="sxs-lookup"><span data-stu-id="c6a11-161">See the following example  of this call.</span></span>
 
 * * *
 
-    <span data-ttu-id="f3fab-162">要求：文章 <fhir-伺服器>/Patient/_search 要求主體：給定 = hugh&家族 = chau</span><span class="sxs-lookup"><span data-stu-id="f3fab-162">Request: POST <fhir-server>/Patient/_search Request Body: given=hugh&family=chau</span></span>
+    <span data-ttu-id="c6a11-162">要求：文章 <fhir-伺服器>/Patient/_search 要求主體：給定 = hugh&家族 = chau</span><span class="sxs-lookup"><span data-stu-id="c6a11-162">Request: POST <fhir-server>/Patient/_search Request Body: given=hugh&family=chau</span></span>
     
-    <span data-ttu-id="f3fab-163">回應： {"resourceType"： "套裝"，"id"： "<束-識別碼>"，。</span><span class="sxs-lookup"><span data-stu-id="f3fab-163">Response: { "resourceType": "Bundle", "id": "<bundle-id>", .</span></span>
-      <span data-ttu-id="f3fab-164">.</span><span class="sxs-lookup"><span data-stu-id="f3fab-164">.</span></span>
-      <span data-ttu-id="f3fab-165">.</span><span class="sxs-lookup"><span data-stu-id="f3fab-165">.</span></span>
-      <span data-ttu-id="f3fab-166">"專案"： [{"資源"： {"resourceType"： "患者"，"id"： "<患者-識別碼>"，"name"： [{"text"： "Hugh Chau"，"Chau"： [""]，"性別"： [Hugh "]}]，" 性別 "：" 1957-06-05 "}，" search "：" "}，"</span><span class="sxs-lookup"><span data-stu-id="f3fab-166">"entry": [ { "resource": { "resourceType": "Patient", "id": "<patient-id>", "name": [ { "text": "Hugh Chau", "family": [ "Chau" ], "given": [ "Hugh" ] } ], "gender": "male", "birthDate": "1957-06-05" }, "search": { "mode": "match" } } ] }</span></span>
+    <span data-ttu-id="c6a11-163">回應： {"resourceType"： "套裝"，"id"： "<束-識別碼>"，。</span><span class="sxs-lookup"><span data-stu-id="c6a11-163">Response: { "resourceType": "Bundle", "id": "<bundle-id>", .</span></span>
+      <span data-ttu-id="c6a11-164">.</span><span class="sxs-lookup"><span data-stu-id="c6a11-164">.</span></span>
+      <span data-ttu-id="c6a11-165">.</span><span class="sxs-lookup"><span data-stu-id="c6a11-165">.</span></span>
+      <span data-ttu-id="c6a11-166">"專案"： [{"資源"： {"resourceType"： "患者"，"id"： "<患者-識別碼>"，"name"： [{"text"： "Hugh Chau"，"Chau"： [""]，"性別"： [Hugh "]}]，" 性別 "：" 1957-06-05 "}，" search "：" "}，"</span><span class="sxs-lookup"><span data-stu-id="c6a11-166">"entry": [ { "resource": { "resourceType": "Patient", "id": "<patient-id>", "name": [ { "text": "Hugh Chau", "family": [ "Chau" ], "given": [ "Hugh" ] } ], "gender": "male", "birthDate": "1957-06-05" }, "search": { "mode": "match" } } ] }</span></span>
 
 * * *
 
-<span data-ttu-id="f3fab-167">如[https://www.hl7.org/fhir/DSTU2/Patient.html](https://www.hl7.org/fhir/DSTU2/Patient.html)需此欄位集的其他詳細資料，請參閱。</span><span class="sxs-lookup"><span data-stu-id="f3fab-167">See [https://www.hl7.org/fhir/DSTU2/Patient.html](https://www.hl7.org/fhir/DSTU2/Patient.html) for other details on this field set.</span></span>
+<span data-ttu-id="c6a11-167">如[https://www.hl7.org/fhir/DSTU2/Patient.html](https://www.hl7.org/fhir/DSTU2/Patient.html)需此欄位集的其他詳細資料，請參閱。</span><span class="sxs-lookup"><span data-stu-id="c6a11-167">See [https://www.hl7.org/fhir/DSTU2/Patient.html](https://www.hl7.org/fhir/DSTU2/Patient.html) for other details on this field set.</span></span>
 
-## <a name="observation"></a><span data-ttu-id="f3fab-168">便</span><span class="sxs-lookup"><span data-stu-id="f3fab-168">Observation</span></span>
+## <a name="observation"></a><span data-ttu-id="c6a11-168">便</span><span class="sxs-lookup"><span data-stu-id="c6a11-168">Observation</span></span>
 
-<span data-ttu-id="f3fab-169">這些是最小必要欄位，這些欄位是 Argonaut 重要符號設定檔的子集：</span><span class="sxs-lookup"><span data-stu-id="f3fab-169">These are the minimum required fields, which are a subset of the Argonaut vital signs profile:</span></span>
+<span data-ttu-id="c6a11-169">這些是最小必要欄位，這些欄位是 Argonaut 重要符號設定檔的子集：</span><span class="sxs-lookup"><span data-stu-id="c6a11-169">These are the minimum required fields, which are a subset of the Argonaut vital signs profile:</span></span>
 
- 1. <span data-ttu-id="f3fab-170">生效（日期時間或期間）</span><span class="sxs-lookup"><span data-stu-id="f3fab-170">Effective (date time or period)</span></span>
- 2. <span data-ttu-id="f3fab-171">程式碼代碼。程式碼</span><span class="sxs-lookup"><span data-stu-id="f3fab-171">Code.Coding.Code</span></span>
- 3. <span data-ttu-id="f3fab-172">ValueQuantity 值</span><span class="sxs-lookup"><span data-stu-id="f3fab-172">ValueQuantity.Value</span></span>
+ 1. <span data-ttu-id="c6a11-170">生效（日期時間或期間）</span><span class="sxs-lookup"><span data-stu-id="c6a11-170">Effective (date time or period)</span></span>
+ 2. <span data-ttu-id="c6a11-171">程式碼代碼。程式碼</span><span class="sxs-lookup"><span data-stu-id="c6a11-171">Code.Coding.Code</span></span>
+ 3. <span data-ttu-id="c6a11-172">ValueQuantity 值</span><span class="sxs-lookup"><span data-stu-id="c6a11-172">ValueQuantity.Value</span></span>
 
-<span data-ttu-id="f3fab-173">除了 Argonaut 欄位以外，您還可以取得良好的使用者體驗，因為患者 app 也會讀取下欄欄位：</span><span class="sxs-lookup"><span data-stu-id="f3fab-173">In addition to the Argonaut fields, for a great user experience the Patients app also reads the following fields:</span></span>
+<span data-ttu-id="c6a11-173">除了 Argonaut 欄位以外，您還可以取得良好的使用者體驗，因為患者 app 也會讀取下欄欄位：</span><span class="sxs-lookup"><span data-stu-id="c6a11-173">In addition to the Argonaut fields, for a great user experience the Patients app also reads the following fields:</span></span>
 
- 1. <span data-ttu-id="f3fab-174">程式碼。顯示</span><span class="sxs-lookup"><span data-stu-id="f3fab-174">Code.Coding.Display</span></span>
- 2. <span data-ttu-id="f3fab-175">ValueQuantity 單位</span><span class="sxs-lookup"><span data-stu-id="f3fab-175">ValueQuantity.Unit</span></span>
+ 1. <span data-ttu-id="c6a11-174">程式碼。顯示</span><span class="sxs-lookup"><span data-stu-id="c6a11-174">Code.Coding.Display</span></span>
+ 2. <span data-ttu-id="c6a11-175">ValueQuantity 單位</span><span class="sxs-lookup"><span data-stu-id="c6a11-175">ValueQuantity.Unit</span></span>
 
-<span data-ttu-id="f3fab-176">如果使用元件觀測值，則會針對每個元件觀察來套用相同的邏輯。</span><span class="sxs-lookup"><span data-stu-id="f3fab-176">If using component observations, the same logic applies for each component observation.</span></span>
+<span data-ttu-id="c6a11-176">如果使用元件觀測值，則會針對每個元件觀察來套用相同的邏輯。</span><span class="sxs-lookup"><span data-stu-id="c6a11-176">If using component observations, the same logic applies for each component observation.</span></span>
 
-<span data-ttu-id="f3fab-177">資源搜尋使用 [取得] 方法及下列參數：</span><span class="sxs-lookup"><span data-stu-id="f3fab-177">A resource search uses the GET method and the following parameters:</span></span>
+<span data-ttu-id="c6a11-177">資源搜尋使用 [取得] 方法及下列參數：</span><span class="sxs-lookup"><span data-stu-id="c6a11-177">A resource search uses the GET method and the following parameters:</span></span>
 
-1. <span data-ttu-id="f3fab-178">患者 =\<患者 id\></span><span class="sxs-lookup"><span data-stu-id="f3fab-178">patient=\<patient id\></span></span>
-2. <span data-ttu-id="f3fab-179">排序： desc =\<欄位 ex</span><span class="sxs-lookup"><span data-stu-id="f3fab-179">sort:desc=\<field ex.</span></span> <span data-ttu-id="f3fab-180">為止\></span><span class="sxs-lookup"><span data-stu-id="f3fab-180">date\></span></span>
+1. <span data-ttu-id="c6a11-178">患者 =\<患者 id\></span><span class="sxs-lookup"><span data-stu-id="c6a11-178">patient=\<patient id\></span></span>
+2. <span data-ttu-id="c6a11-179">排序： desc =\<欄位 ex</span><span class="sxs-lookup"><span data-stu-id="c6a11-179">sort:desc=\<field ex.</span></span> <span data-ttu-id="c6a11-180">為止\></span><span class="sxs-lookup"><span data-stu-id="c6a11-180">date\></span></span>
 
-<span data-ttu-id="f3fab-181">您的目標就是要能夠檢索患者的最新重要標誌： [DSTU saz] （[VitalSigns]）。</span><span class="sxs-lookup"><span data-stu-id="f3fab-181">The goal is to be able to retrieve the latest vital signs for a patient, [VitalSigns.DSTU.saz]  (observation?).</span></span>
+<span data-ttu-id="c6a11-181">您的目標就是要能夠檢索患者的最新重要標誌： [DSTU saz] （[VitalSigns]）。</span><span class="sxs-lookup"><span data-stu-id="c6a11-181">The goal is to be able to retrieve the latest vital signs for a patient, [VitalSigns.DSTU.saz]  (observation?).</span></span>
 
 * * *
 
-    <span data-ttu-id="f3fab-182">要求：取得 <fhir-伺服器>/Observation？患者 =<患者 id>&_sort:d esc = 日期&類別 = 重要標誌</span><span class="sxs-lookup"><span data-stu-id="f3fab-182">Request: GET <fhir-server>/Observation?patient=<patient-id>&_sort:desc=date&category=vital-signs</span></span>
+    <span data-ttu-id="c6a11-182">要求：取得 <fhir-伺服器>/Observation？患者 =<患者 id>&_sort:d esc = 日期&類別 = 重要標誌</span><span class="sxs-lookup"><span data-stu-id="c6a11-182">Request: GET <fhir-server>/Observation?patient=<patient-id>&_sort:desc=date&category=vital-signs</span></span>
     
-    <span data-ttu-id="f3fab-183">回應： {"resourceType"： "套裝"，"id"： "<束-識別碼>"，"輸入"： "searchset"，"總計"：20，"專案"： [{"資源"： {"resourceType"： "觀測"，"id"： "<資源 id>"，"" 類別 "： {" 編碼 "： [{code"： "重要-符號"}]，}，"code"： {"編碼"： [{"系統"： "http://loinc.org" "，" code "：" 39156-5 "，" 顯示 "：" bmi "}]，}，" effectiveDateTime "：" 2009-12-01 "，" valueQuantity "： {" 值 "：34.4，" 單位 "：" kg/m2 "，" 系統 "：http://unitsofmeasure.org" ""，"code"： "千克/m2"}}，}，。</span><span class="sxs-lookup"><span data-stu-id="f3fab-183">Response: { "resourceType": "Bundle", "id": "<bundle-id>", "type": "searchset", "total": 20, "entry": [ { "resource": { "resourceType": "Observation", "id": "<resource-id>", "category": { "coding": [ { code": "vital-signs" } ], }, "code": { "coding": [ { "system": "http://loinc.org", "code": "39156-5", "display": "bmi" } ], }, "effectiveDateTime": "2009-12-01", "valueQuantity": { "value": 34.4, "unit": "kg/m2", "system": "http://unitsofmeasure.org", "code": "kg/m2" } }, }, .</span></span>
-        <span data-ttu-id="f3fab-184">.</span><span class="sxs-lookup"><span data-stu-id="f3fab-184">.</span></span>
-        <span data-ttu-id="f3fab-185">.</span><span class="sxs-lookup"><span data-stu-id="f3fab-185">.</span></span>
-      <span data-ttu-id="f3fab-186">] }</span><span class="sxs-lookup"><span data-stu-id="f3fab-186">] }</span></span>
+    <span data-ttu-id="c6a11-183">回應： {"resourceType"： "套裝"，"id"： "<束-識別碼>"，"輸入"： "searchset"，"總計"：20，"專案"： [{"資源"： {"resourceType"： "觀測"，"id"： "<資源 id>"，"" 類別 "： {" 編碼 "： [{code"： "重要-符號"}]，}，"code"： {"編碼"： [{"系統"： "http://loinc.org" "，" code "：" 39156-5 "，" 顯示 "：" bmi "}]，}，" effectiveDateTime "：" 2009-12-01 "，" valueQuantity "： {" 值 "：34.4，" 單位 "：" kg/m2 "，" 系統 "：http://unitsofmeasure.org" ""，"code"： "千克/m2"}}，}，。</span><span class="sxs-lookup"><span data-stu-id="c6a11-183">Response: { "resourceType": "Bundle", "id": "<bundle-id>", "type": "searchset", "total": 20, "entry": [ { "resource": { "resourceType": "Observation", "id": "<resource-id>", "category": { "coding": [ { code": "vital-signs" } ], }, "code": { "coding": [ { "system": "http://loinc.org", "code": "39156-5", "display": "bmi" } ], }, "effectiveDateTime": "2009-12-01", "valueQuantity": { "value": 34.4, "unit": "kg/m2", "system": "http://unitsofmeasure.org", "code": "kg/m2" } }, }, .</span></span>
+        <span data-ttu-id="c6a11-184">.</span><span class="sxs-lookup"><span data-stu-id="c6a11-184">.</span></span>
+        <span data-ttu-id="c6a11-185">.</span><span class="sxs-lookup"><span data-stu-id="c6a11-185">.</span></span>
+      <span data-ttu-id="c6a11-186">] }</span><span class="sxs-lookup"><span data-stu-id="c6a11-186">] }</span></span>
 
 * * *
 
-<span data-ttu-id="f3fab-187">如[https://www.hl7.org/fhir/DSTU2/Observation.html](https://www.hl7.org/fhir/DSTU2/Observation.html)需此欄位集的其他詳細資料，請參閱。</span><span class="sxs-lookup"><span data-stu-id="f3fab-187">See [https://www.hl7.org/fhir/DSTU2/Observation.html](https://www.hl7.org/fhir/DSTU2/Observation.html) for other details on this field set.</span></span>
+<span data-ttu-id="c6a11-187">如[https://www.hl7.org/fhir/DSTU2/Observation.html](https://www.hl7.org/fhir/DSTU2/Observation.html)需此欄位集的其他詳細資料，請參閱。</span><span class="sxs-lookup"><span data-stu-id="c6a11-187">See [https://www.hl7.org/fhir/DSTU2/Observation.html](https://www.hl7.org/fhir/DSTU2/Observation.html) for other details on this field set.</span></span>
 
-## <a name="condition"></a><span data-ttu-id="f3fab-188">條件</span><span class="sxs-lookup"><span data-stu-id="f3fab-188">Condition</span></span>
+## <a name="condition"></a><span data-ttu-id="c6a11-188">條件</span><span class="sxs-lookup"><span data-stu-id="c6a11-188">Condition</span></span>
 
-<span data-ttu-id="f3fab-189">以下是[Argonaut 條件設定檔](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-condition.html)的子集所需的最小欄位數：</span><span class="sxs-lookup"><span data-stu-id="f3fab-189">These are the minimum required fields, which are a subset of the [Argonaut condition profile](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-condition.html):</span></span>
+<span data-ttu-id="c6a11-189">以下是[Argonaut 條件設定檔](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-condition.html)的子集所需的最小欄位數：</span><span class="sxs-lookup"><span data-stu-id="c6a11-189">These are the minimum required fields, which are a subset of the [Argonaut condition profile](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-condition.html):</span></span>
 
-1. <span data-ttu-id="f3fab-190">程式碼。編碼 [0]。顯示幕</span><span class="sxs-lookup"><span data-stu-id="f3fab-190">Code.Coding[0].Display</span></span>
+1. <span data-ttu-id="c6a11-190">程式碼。編碼 [0]。顯示幕</span><span class="sxs-lookup"><span data-stu-id="c6a11-190">Code.Coding[0].Display</span></span>
 
-<span data-ttu-id="f3fab-191">除了 Argonaut 欄位之外，您還可以取得良好的使用者體驗，因為患者 app 也可以讀取下欄欄位：</span><span class="sxs-lookup"><span data-stu-id="f3fab-191">In addition to the Argonaut fields, for a great user experience the Patients app can also read the following fields:</span></span>
+<span data-ttu-id="c6a11-191">除了 Argonaut 欄位之外，您還可以取得良好的使用者體驗，因為患者 app 也可以讀取下欄欄位：</span><span class="sxs-lookup"><span data-stu-id="c6a11-191">In addition to the Argonaut fields, for a great user experience the Patients app can also read the following fields:</span></span>
 
-1. <span data-ttu-id="f3fab-192">錄製日期</span><span class="sxs-lookup"><span data-stu-id="f3fab-192">Date Recorded</span></span>
-2. <span data-ttu-id="f3fab-193">程度</span><span class="sxs-lookup"><span data-stu-id="f3fab-193">Severity</span></span>
+1. <span data-ttu-id="c6a11-192">錄製日期</span><span class="sxs-lookup"><span data-stu-id="c6a11-192">Date Recorded</span></span>
+2. <span data-ttu-id="c6a11-193">程度</span><span class="sxs-lookup"><span data-stu-id="c6a11-193">Severity</span></span>
 
-<span data-ttu-id="f3fab-194">資源搜尋使用 [取得] 方法及下列參數：</span><span class="sxs-lookup"><span data-stu-id="f3fab-194">A resource search uses the GET method and the following parameters:</span></span>
+<span data-ttu-id="c6a11-194">資源搜尋使用 [取得] 方法及下列參數：</span><span class="sxs-lookup"><span data-stu-id="c6a11-194">A resource search uses the GET method and the following parameters:</span></span>
 
-1. <span data-ttu-id="f3fab-195">患者 =\<患者 id></span><span class="sxs-lookup"><span data-stu-id="f3fab-195">patient=\<patient id></span></span>
-2. <span data-ttu-id="f3fab-196">_count =\<最大結果></span><span class="sxs-lookup"><span data-stu-id="f3fab-196">_count=\<max results></span></span>
+1. <span data-ttu-id="c6a11-195">患者 =\<患者 id></span><span class="sxs-lookup"><span data-stu-id="c6a11-195">patient=\<patient id></span></span>
+2. <span data-ttu-id="c6a11-196">_count =\<最大結果></span><span class="sxs-lookup"><span data-stu-id="c6a11-196">_count=\<max results></span></span>
 
-<span data-ttu-id="f3fab-197">請參閱下列通話範例：</span><span class="sxs-lookup"><span data-stu-id="f3fab-197">See the following example of this call:</span></span>
+<span data-ttu-id="c6a11-197">請參閱下列通話範例：</span><span class="sxs-lookup"><span data-stu-id="c6a11-197">See the following example of this call:</span></span>
 
 * * *
 
-    <span data-ttu-id="f3fab-198">要求：取得 <fhir-server>/Condition？患者 =<患者 id>&_count = 10</span><span class="sxs-lookup"><span data-stu-id="f3fab-198">Request: GET <fhir-server>/Condition?patient=<patient-id>&_count=10</span></span>
+    <span data-ttu-id="c6a11-198">要求：取得 <fhir-server>/Condition？患者 =<患者 id>&_count = 10</span><span class="sxs-lookup"><span data-stu-id="c6a11-198">Request: GET <fhir-server>/Condition?patient=<patient-id>&_count=10</span></span>
     
-    <span data-ttu-id="f3fab-199">回應： {"resourceType"： "套裝"，"id"： "<套件-識別碼>"，"類型"： "searchset"，"total"：1，"條目"： [{"resource"： {"resourceType"： "Condition"，"識別碼"： "<資源 id>"，"code"： {"code"： [{"系統"： "http://snomed.info/sct"，"code"： "386033004"，"顯示"： "Neuropathy （nerve 損失）"}]}，"dateRecorded"： "2018-09-17"，"嚴重性"： {"code"： [{"system "："http://snomed.info/sct"，" code "：" 24484000 "，" 顯示 "：" 嚴重 "}"}}，}]}</span><span class="sxs-lookup"><span data-stu-id="f3fab-199">Response: {   "resourceType": "Bundle",   "id": "<bundle-id>",   "type": "searchset",   "total": 1,   "entry": [     {       "resource": {         "resourceType": "Condition",         "id": "<resource-id>",         "code": {           "coding": [             {               "system": "http://snomed.info/sct",               "code": "386033004",               "display": "Neuropathy (nerve damage)"             }           ]         },         "dateRecorded": "2018-09-17",         "severity": {           "coding": [             {               "system": "http://snomed.info/sct",               "code": "24484000",               "display": "Severe"             }           ]         }       },     }   ] }</span></span>
+    <span data-ttu-id="c6a11-199">回應： {"resourceType"： "套裝"，"id"： "<套件-識別碼>"，"類型"： "searchset"，"total"：1，"條目"： [{"resource"： {"resourceType"： "Condition"，"識別碼"： "<資源 id>"，"code"： {"code"： [{"系統"： "http://snomed.info/sct"，"code"： "386033004"，"顯示"： "Neuropathy （nerve 損失）"}]}，"dateRecorded"： "2018-09-17"，"嚴重性"： {"code"： [{"system "："http://snomed.info/sct"，" code "：" 24484000 "，" 顯示 "：" 嚴重 "}"}}，}]}</span><span class="sxs-lookup"><span data-stu-id="c6a11-199">Response: {   "resourceType": "Bundle",   "id": "<bundle-id>",   "type": "searchset",   "total": 1,   "entry": [     {       "resource": {         "resourceType": "Condition",         "id": "<resource-id>",         "code": {           "coding": [             {               "system": "http://snomed.info/sct",               "code": "386033004",               "display": "Neuropathy (nerve damage)"             }           ]         },         "dateRecorded": "2018-09-17",         "severity": {           "coding": [             {               "system": "http://snomed.info/sct",               "code": "24484000",               "display": "Severe"             }           ]         }       },     }   ] }</span></span>
 
 * * *
 
-<span data-ttu-id="f3fab-200">如[https://www.hl7.org/fhir/DSTU2/Condition.html](https://www.hl7.org/fhir/DSTU2/Condition.html)需此欄位集的其他詳細資料，請參閱。</span><span class="sxs-lookup"><span data-stu-id="f3fab-200">See [https://www.hl7.org/fhir/DSTU2/Condition.html](https://www.hl7.org/fhir/DSTU2/Condition.html) for other details on this field set.</span></span>
+<span data-ttu-id="c6a11-200">如[https://www.hl7.org/fhir/DSTU2/Condition.html](https://www.hl7.org/fhir/DSTU2/Condition.html)需此欄位集的其他詳細資料，請參閱。</span><span class="sxs-lookup"><span data-stu-id="c6a11-200">See [https://www.hl7.org/fhir/DSTU2/Condition.html](https://www.hl7.org/fhir/DSTU2/Condition.html) for other details on this field set.</span></span>
 
-## <a name="encounter"></a><span data-ttu-id="f3fab-201">還有</span><span class="sxs-lookup"><span data-stu-id="f3fab-201">Encounter</span></span>
+## <a name="encounter"></a><span data-ttu-id="c6a11-201">還有</span><span class="sxs-lookup"><span data-stu-id="c6a11-201">Encounter</span></span>
 
-<span data-ttu-id="f3fab-202">這些是最小必要欄位，這是「美國核心」的子集 [必須具有] 欄位的一部分：</span><span class="sxs-lookup"><span data-stu-id="f3fab-202">These are the minimum required fields, which are a subset of the US Core Encounter profile “must have” fields:</span></span>
+<span data-ttu-id="c6a11-202">這些是最小必要欄位，這是「美國核心」的子集 [必須具有] 欄位的一部分：</span><span class="sxs-lookup"><span data-stu-id="c6a11-202">These are the minimum required fields, which are a subset of the US Core Encounter profile “must have” fields:</span></span>
 
-1. <span data-ttu-id="f3fab-203">狀態值</span><span class="sxs-lookup"><span data-stu-id="f3fab-203">Status</span></span>
-2. <span data-ttu-id="f3fab-204">輸入 [0]。編碼 [0]。顯示幕</span><span class="sxs-lookup"><span data-stu-id="f3fab-204">Type[0].Coding[0].Display</span></span>
+1. <span data-ttu-id="c6a11-203">狀態值</span><span class="sxs-lookup"><span data-stu-id="c6a11-203">Status</span></span>
+2. <span data-ttu-id="c6a11-204">輸入 [0]。編碼 [0]。顯示幕</span><span class="sxs-lookup"><span data-stu-id="c6a11-204">Type[0].Coding[0].Display</span></span>
 
-<span data-ttu-id="f3fab-205">此外，美國核心的下欄欄位會遇到設定檔的「必須支援」欄位</span><span class="sxs-lookup"><span data-stu-id="f3fab-205">In addition, the following fields from US Core Encounter profile’s “must support” fields</span></span>
+<span data-ttu-id="c6a11-205">此外，美國核心的下欄欄位會遇到設定檔的「必須支援」欄位</span><span class="sxs-lookup"><span data-stu-id="c6a11-205">In addition, the following fields from US Core Encounter profile’s “must support” fields</span></span>
 
-1. <span data-ttu-id="f3fab-206">[期間]。開始</span><span class="sxs-lookup"><span data-stu-id="f3fab-206">Period.Start</span></span>
-2. <span data-ttu-id="f3fab-207">位置 [0]。位置。顯示</span><span class="sxs-lookup"><span data-stu-id="f3fab-207">Location[0].Location.Display</span></span>
+1. <span data-ttu-id="c6a11-206">[期間]。開始</span><span class="sxs-lookup"><span data-stu-id="c6a11-206">Period.Start</span></span>
+2. <span data-ttu-id="c6a11-207">位置 [0]。位置。顯示</span><span class="sxs-lookup"><span data-stu-id="c6a11-207">Location[0].Location.Display</span></span>
 
-<span data-ttu-id="f3fab-208">資源搜尋使用 [取得] 方法及下列參數：</span><span class="sxs-lookup"><span data-stu-id="f3fab-208">A resource search uses the GET method and the following parameters:</span></span>
+<span data-ttu-id="c6a11-208">資源搜尋使用 [取得] 方法及下列參數：</span><span class="sxs-lookup"><span data-stu-id="c6a11-208">A resource search uses the GET method and the following parameters:</span></span>
 
-1. <span data-ttu-id="f3fab-209">患者 =\<患者 id></span><span class="sxs-lookup"><span data-stu-id="f3fab-209">patient=\<patient id></span></span>
-2. <span data-ttu-id="f3fab-210">_sort： desc =\<欄位 ex</span><span class="sxs-lookup"><span data-stu-id="f3fab-210">_sort:desc=\<field ex.</span></span> <span data-ttu-id="f3fab-211">日期></span><span class="sxs-lookup"><span data-stu-id="f3fab-211">date></span></span>
-3. <span data-ttu-id="f3fab-212">_count =\<最大結果></span><span class="sxs-lookup"><span data-stu-id="f3fab-212">_count=\<max results></span></span>
+1. <span data-ttu-id="c6a11-209">患者 =\<患者 id></span><span class="sxs-lookup"><span data-stu-id="c6a11-209">patient=\<patient id></span></span>
+2. <span data-ttu-id="c6a11-210">_sort： desc =\<欄位 ex</span><span class="sxs-lookup"><span data-stu-id="c6a11-210">_sort:desc=\<field ex.</span></span> <span data-ttu-id="c6a11-211">日期></span><span class="sxs-lookup"><span data-stu-id="c6a11-211">date></span></span>
+3. <span data-ttu-id="c6a11-212">_count =\<最大結果></span><span class="sxs-lookup"><span data-stu-id="c6a11-212">_count=\<max results></span></span>
 
-<span data-ttu-id="f3fab-213">目標就是能夠檢索患者的最近已知位置。</span><span class="sxs-lookup"><span data-stu-id="f3fab-213">The goal is to be able to retrieve the patient’s last known location.</span></span> <span data-ttu-id="f3fab-214">每個遇到的都是參照位置資源。</span><span class="sxs-lookup"><span data-stu-id="f3fab-214">Each encounter references a location resource.</span></span> <span data-ttu-id="f3fab-215">參照也必須包含位置的顯示欄位。</span><span class="sxs-lookup"><span data-stu-id="f3fab-215">The reference shall also include the location’s display field.</span></span> <span data-ttu-id="f3fab-216">請參閱下列通話範例。</span><span class="sxs-lookup"><span data-stu-id="f3fab-216">See the following example of this call.</span></span>
+<span data-ttu-id="c6a11-213">目標就是能夠檢索患者的最近已知位置。</span><span class="sxs-lookup"><span data-stu-id="c6a11-213">The goal is to be able to retrieve the patient’s last known location.</span></span> <span data-ttu-id="c6a11-214">每個遇到的都是參照位置資源。</span><span class="sxs-lookup"><span data-stu-id="c6a11-214">Each encounter references a location resource.</span></span> <span data-ttu-id="c6a11-215">參照也必須包含位置的顯示欄位。</span><span class="sxs-lookup"><span data-stu-id="c6a11-215">The reference shall also include the location’s display field.</span></span> <span data-ttu-id="c6a11-216">請參閱下列通話範例。</span><span class="sxs-lookup"><span data-stu-id="c6a11-216">See the following example of this call.</span></span>
 * * *
 
-    <span data-ttu-id="f3fab-217">要求：取得 <fhir-伺服器>/Encounter？患者 =<患者 id>&_sort:d esc = 日期&_count = 1</span><span class="sxs-lookup"><span data-stu-id="f3fab-217">Request: GET <fhir-server>/Encounter?patient=<patient-id>&_sort:desc=date&_count=1</span></span>
+    <span data-ttu-id="c6a11-217">要求：取得 <fhir-伺服器>/Encounter？患者 =<患者 id>&_sort:d esc = 日期&_count = 1</span><span class="sxs-lookup"><span data-stu-id="c6a11-217">Request: GET <fhir-server>/Encounter?patient=<patient-id>&_sort:desc=date&_count=1</span></span>
     
-    <span data-ttu-id="f3fab-218">回應： {"resourcetype"： "捆綁式"，"類型"： "searchset"，"總計"：1，"entry"： [{"資源"：]，"：" <資源識別碼> "，" 識別碼 "： [{" 使用 "：" 官方 "，" 值 "："<id>"}]，" 狀態 "： [[]，" 類型 "： [{" 編碼 "： [{" 顯示 "：" 約會 "}]，}]，" 患者 "： {" 參考 "：" 患者/<患者-識別碼> "}，" period "： {" start "：" 09/17/2018 1:00:00 PM "}，" location "： [{             "位置"： {"顯示"： "診所-ENT"}，} "}}]}</span><span class="sxs-lookup"><span data-stu-id="f3fab-218">Response: {   "resourceType": "Bundle",   "type": "searchset",   "total": 1,   "entry": [     {       "resource": {         "resourceType": "Encounter",         "id": "<resource-id>",         "identifier": [{ "use": "official", "value": "<id>" }],         "status": "arrived",         "type": [           {             "coding": [{ "display": "Appointment" }],           }         ],         "patient": { "reference": "Patient/<patient-id>" },         "period": { "start": "09/17/2018 1:00:00 PM" },         "location": [           {             "location": { "display": "Clinic - ENT" },           }         ]       }     }   ] }</span></span>
+    <span data-ttu-id="c6a11-218">回應： {"resourcetype"： "捆綁式"，"類型"： "searchset"，"總計"：1，"entry"： [{"資源"：]，"：" <資源識別碼> "，" 識別碼 "： [{" 使用 "：" 官方 "，" 值 "："<id>"}]，" 狀態 "： [[]，" 類型 "： [{" 編碼 "： [{" 顯示 "：" 約會 "}]，}]，" 患者 "： {" 參考 "：" 患者/<患者-識別碼> "}，" period "： {" start "：" 09/17/2018 1:00:00 PM "}，" location "： [{             "位置"： {"顯示"： "診所-ENT"}，} "}}]}</span><span class="sxs-lookup"><span data-stu-id="c6a11-218">Response: {   "resourceType": "Bundle",   "type": "searchset",   "total": 1,   "entry": [     {       "resource": {         "resourceType": "Encounter",         "id": "<resource-id>",         "identifier": [{ "use": "official", "value": "<id>" }],         "status": "arrived",         "type": [           {             "coding": [{ "display": "Appointment" }],           }         ],         "patient": { "reference": "Patient/<patient-id>" },         "period": { "start": "09/17/2018 1:00:00 PM" },         "location": [           {             "location": { "display": "Clinic - ENT" },           }         ]       }     }   ] }</span></span>
 
 * * *
 
-<span data-ttu-id="f3fab-219">如[https://www.hl7.org/fhir/DSTU2/Encounter.htm](https://www.hl7.org/fhir/DSTU2/Encounter.htm)需此欄位集的其他詳細資料，請參閱。</span><span class="sxs-lookup"><span data-stu-id="f3fab-219">See [https://www.hl7.org/fhir/DSTU2/Encounter.htm](https://www.hl7.org/fhir/DSTU2/Encounter.htm) for other details on this field set.</span></span>
+<span data-ttu-id="c6a11-219">如[https://www.hl7.org/fhir/DSTU2/Encounter.htm](https://www.hl7.org/fhir/DSTU2/Encounter.htm)需此欄位集的其他詳細資料，請參閱。</span><span class="sxs-lookup"><span data-stu-id="c6a11-219">See [https://www.hl7.org/fhir/DSTU2/Encounter.htm](https://www.hl7.org/fhir/DSTU2/Encounter.htm) for other details on this field set.</span></span>
 
-## <a name="allergyintolerance"></a><span data-ttu-id="f3fab-220">AllergyIntolerance</span><span class="sxs-lookup"><span data-stu-id="f3fab-220">AllergyIntolerance</span></span>
+## <a name="allergyintolerance"></a><span data-ttu-id="c6a11-220">AllergyIntolerance</span><span class="sxs-lookup"><span data-stu-id="c6a11-220">AllergyIntolerance</span></span>
 
-<span data-ttu-id="f3fab-221">以下是 [Argonaut AllergyIntolerance] 設定檔的子集所需的最小欄位數：</span><span class="sxs-lookup"><span data-stu-id="f3fab-221">These are the minimum required fields, which are a subset of the Argonaut AllergyIntolerance profile:</span></span>
+<span data-ttu-id="c6a11-221">以下是 [Argonaut AllergyIntolerance] 設定檔的子集所需的最小欄位數：</span><span class="sxs-lookup"><span data-stu-id="c6a11-221">These are the minimum required fields, which are a subset of the Argonaut AllergyIntolerance profile:</span></span>
 
-1. <span data-ttu-id="f3fab-222">程式碼。文字</span><span class="sxs-lookup"><span data-stu-id="f3fab-222">Code.Text</span></span>
-2. <span data-ttu-id="f3fab-223">程式碼。編碼 [0]。顯示幕</span><span class="sxs-lookup"><span data-stu-id="f3fab-223">Code.Coding[0].Display</span></span>
-3. <span data-ttu-id="f3fab-224">狀態值</span><span class="sxs-lookup"><span data-stu-id="f3fab-224">Status</span></span>
+1. <span data-ttu-id="c6a11-222">程式碼。文字</span><span class="sxs-lookup"><span data-stu-id="c6a11-222">Code.Text</span></span>
+2. <span data-ttu-id="c6a11-223">程式碼。編碼 [0]。顯示幕</span><span class="sxs-lookup"><span data-stu-id="c6a11-223">Code.Coding[0].Display</span></span>
+3. <span data-ttu-id="c6a11-224">狀態值</span><span class="sxs-lookup"><span data-stu-id="c6a11-224">Status</span></span>
 
-<span data-ttu-id="f3fab-225">除了 Argonaut 欄位以外，您還可以取得良好的使用者體驗，因為患者 app 也會讀取下欄欄位：</span><span class="sxs-lookup"><span data-stu-id="f3fab-225">In addition to the Argonaut fields, for a great user experience the Patients app also reads the following fields:</span></span>
+<span data-ttu-id="c6a11-225">除了 Argonaut 欄位以外，您還可以取得良好的使用者體驗，因為患者 app 也會讀取下欄欄位：</span><span class="sxs-lookup"><span data-stu-id="c6a11-225">In addition to the Argonaut fields, for a great user experience the Patients app also reads the following fields:</span></span>
 
-1. <span data-ttu-id="f3fab-226">RecordedDate</span><span class="sxs-lookup"><span data-stu-id="f3fab-226">RecordedDate</span></span>
-2. <span data-ttu-id="f3fab-227">記事。文字</span><span class="sxs-lookup"><span data-stu-id="f3fab-227">Note.Text</span></span>
-3. <span data-ttu-id="f3fab-228">反應 [...]。物質。文字</span><span class="sxs-lookup"><span data-stu-id="f3fab-228">Reaction[..].Substance.Text</span></span>
-4. <span data-ttu-id="f3fab-229">反應 [...]。表現形式 [...]。字體</span><span class="sxs-lookup"><span data-stu-id="f3fab-229">Reaction[..].Manifestation[..].Text</span></span>
-5. <span data-ttu-id="f3fab-230">Text. Div</span><span class="sxs-lookup"><span data-stu-id="f3fab-230">Text.Div</span></span>
+1. <span data-ttu-id="c6a11-226">RecordedDate</span><span class="sxs-lookup"><span data-stu-id="c6a11-226">RecordedDate</span></span>
+2. <span data-ttu-id="c6a11-227">記事。文字</span><span class="sxs-lookup"><span data-stu-id="c6a11-227">Note.Text</span></span>
+3. <span data-ttu-id="c6a11-228">反應 [...]。物質。文字</span><span class="sxs-lookup"><span data-stu-id="c6a11-228">Reaction[..].Substance.Text</span></span>
+4. <span data-ttu-id="c6a11-229">反應 [...]。表現形式 [...]。字體</span><span class="sxs-lookup"><span data-stu-id="c6a11-229">Reaction[..].Manifestation[..].Text</span></span>
+5. <span data-ttu-id="c6a11-230">Text. Div</span><span class="sxs-lookup"><span data-stu-id="c6a11-230">Text.Div</span></span>
 
-<span data-ttu-id="f3fab-231">資源搜尋使用 [取得] 方法及下列參數：</span><span class="sxs-lookup"><span data-stu-id="f3fab-231">A resource search uses the GET method and the following parameters:</span></span>
+<span data-ttu-id="c6a11-231">資源搜尋使用 [取得] 方法及下列參數：</span><span class="sxs-lookup"><span data-stu-id="c6a11-231">A resource search uses the GET method and the following parameters:</span></span>
 
-1. <span data-ttu-id="f3fab-232">患者 = \<患者 id></span><span class="sxs-lookup"><span data-stu-id="f3fab-232">Patient =  \<patient id></span></span>
+1. <span data-ttu-id="c6a11-232">患者 = \<患者 id></span><span class="sxs-lookup"><span data-stu-id="c6a11-232">Patient =  \<patient id></span></span>
 
-<span data-ttu-id="f3fab-233">請參閱下列通話範例：</span><span class="sxs-lookup"><span data-stu-id="f3fab-233">See the following example of this call:</span></span>
+<span data-ttu-id="c6a11-233">請參閱下列通話範例：</span><span class="sxs-lookup"><span data-stu-id="c6a11-233">See the following example of this call:</span></span>
 
 * * *
 
-    <span data-ttu-id="f3fab-234">要求：取得 <fhir-server>/AllergyIntolerance？患者 =<患者 id></span><span class="sxs-lookup"><span data-stu-id="f3fab-234">Request: GET <fhir-server>/AllergyIntolerance?patient=<patient-id></span></span>
+    <span data-ttu-id="c6a11-234">要求：取得 <fhir-server>/AllergyIntolerance？患者 =<患者 id></span><span class="sxs-lookup"><span data-stu-id="c6a11-234">Request: GET <fhir-server>/AllergyIntolerance?patient=<patient-id></span></span>
     
-    <span data-ttu-id="f3fab-235">回應： {"resourceType"： "套裝"，"id"： "> <searchset"，"" 類型 "：" "，" 總計 "：1，" 條目 "： [{" 資源 "： {" resourceType "：" AllergyIntolerance "，" id "：" <資源識別碼> "，" recordedDate "：" 2018-09-17T07：00： 00.000 Z "，" 物質 "： {" 文字 "：" Cashew 螺母 "}，" 狀態 "：" 已確認 "，" 反應 "： [{" 物質 "： {" 文字 "：" Cashew 螺母 allergenic 解壓 Injectable 產品 "}，" manifestati在 "： [{" 文字 "：" Anaphylactic 反應 "}]}]}]}</span><span class="sxs-lookup"><span data-stu-id="f3fab-235">Response: {   "resourceType": "Bundle",   "id": "<bundle-id>",   "type": "searchset",   "total": 1,   "entry": [     {       "resource": {         "resourceType": "AllergyIntolerance",         "id": "<resource-id>",         "recordedDate": "2018-09-17T07:00:00.000Z",         "substance": {           "text": "Cashew nuts"         },         "status": "confirmed",         "reaction": [           {             "substance": {               "text": "cashew nut allergenic extract Injectable Product"             },             "manifestation": [               {                 "text": "Anaphylactic reaction"               }             ]           }         ]       }     }   ] }</span></span>
+    <span data-ttu-id="c6a11-235">回應： {"resourceType"： "套裝"，"id"： "> <searchset"，"" 類型 "：" "，" 總計 "：1，" 條目 "： [{" 資源 "： {" resourceType "：" AllergyIntolerance "，" id "：" <資源識別碼> "，" recordedDate "：" 2018-09-17T07：00： 00.000 Z "，" 物質 "： {" 文字 "：" Cashew 螺母 "}，" 狀態 "：" 已確認 "，" 反應 "： [{" 物質 "： {" 文字 "：" Cashew 螺母 allergenic 解壓 Injectable 產品 "}，" manifestati在 "： [{" 文字 "：" Anaphylactic 反應 "}]}]}]}</span><span class="sxs-lookup"><span data-stu-id="c6a11-235">Response: {   "resourceType": "Bundle",   "id": "<bundle-id>",   "type": "searchset",   "total": 1,   "entry": [     {       "resource": {         "resourceType": "AllergyIntolerance",         "id": "<resource-id>",         "recordedDate": "2018-09-17T07:00:00.000Z",         "substance": {           "text": "Cashew nuts"         },         "status": "confirmed",         "reaction": [           {             "substance": {               "text": "cashew nut allergenic extract Injectable Product"             },             "manifestation": [               {                 "text": "Anaphylactic reaction"               }             ]           }         ]       }     }   ] }</span></span>
 
 * * *
 
-<span data-ttu-id="f3fab-236">如[https://www.hl7.org/fhir/DSTU2/AllergyIntolerance.html](https://www.hl7.org/fhir/DSTU2/AllergyIntolerance.html)需此欄位集的其他詳細資料，請參閱。</span><span class="sxs-lookup"><span data-stu-id="f3fab-236">See [https://www.hl7.org/fhir/DSTU2/AllergyIntolerance.html](https://www.hl7.org/fhir/DSTU2/AllergyIntolerance.html) for other details on this field set.</span></span>
+<span data-ttu-id="c6a11-236">如[https://www.hl7.org/fhir/DSTU2/AllergyIntolerance.html](https://www.hl7.org/fhir/DSTU2/AllergyIntolerance.html)需此欄位集的其他詳細資料，請參閱。</span><span class="sxs-lookup"><span data-stu-id="c6a11-236">See [https://www.hl7.org/fhir/DSTU2/AllergyIntolerance.html](https://www.hl7.org/fhir/DSTU2/AllergyIntolerance.html) for other details on this field set.</span></span>
 
-## <a name="medication-order"></a><span data-ttu-id="f3fab-237">藥物訂單</span><span class="sxs-lookup"><span data-stu-id="f3fab-237">Medication Order</span></span>
+## <a name="medication-order"></a><span data-ttu-id="c6a11-237">藥物訂單</span><span class="sxs-lookup"><span data-stu-id="c6a11-237">Medication Order</span></span>
 
-<span data-ttu-id="f3fab-238">以下是 [Argonaut MedicationOrder] 設定檔的子集所需的最小欄位數：</span><span class="sxs-lookup"><span data-stu-id="f3fab-238">These are the minimum required fields, which are a subset of the Argonaut MedicationOrder profile:</span></span>
+<span data-ttu-id="c6a11-238">以下是 [Argonaut MedicationOrder] 設定檔的子集所需的最小欄位數：</span><span class="sxs-lookup"><span data-stu-id="c6a11-238">These are the minimum required fields, which are a subset of the Argonaut MedicationOrder profile:</span></span>
 
-1. <span data-ttu-id="f3fab-239">DateWritten</span><span class="sxs-lookup"><span data-stu-id="f3fab-239">DateWritten</span></span>
-2. <span data-ttu-id="f3fab-240">Prescriber。顯示</span><span class="sxs-lookup"><span data-stu-id="f3fab-240">Prescriber.Display</span></span>
-3. <span data-ttu-id="f3fab-241">藥物（如果參照）</span><span class="sxs-lookup"><span data-stu-id="f3fab-241">Medication.Display (if reference)</span></span>
-4. <span data-ttu-id="f3fab-242">藥物（如果是概念）</span><span class="sxs-lookup"><span data-stu-id="f3fab-242">Medication.Text (if concept)</span></span>
+1. <span data-ttu-id="c6a11-239">DateWritten</span><span class="sxs-lookup"><span data-stu-id="c6a11-239">DateWritten</span></span>
+2. <span data-ttu-id="c6a11-240">Prescriber。顯示</span><span class="sxs-lookup"><span data-stu-id="c6a11-240">Prescriber.Display</span></span>
+3. <span data-ttu-id="c6a11-241">藥物（如果參照）</span><span class="sxs-lookup"><span data-stu-id="c6a11-241">Medication.Display (if reference)</span></span>
+4. <span data-ttu-id="c6a11-242">藥物（如果是概念）</span><span class="sxs-lookup"><span data-stu-id="c6a11-242">Medication.Text (if concept)</span></span>
 
-<span data-ttu-id="f3fab-243">除了 Argonaut 欄位之外，您還可以取得良好的使用者體驗，因為患者 app 也可以讀取下欄欄位：</span><span class="sxs-lookup"><span data-stu-id="f3fab-243">In addition to the Argonaut fields, for a great user experience the Patients app can also read the following fields:</span></span>
+<span data-ttu-id="c6a11-243">除了 Argonaut 欄位之外，您還可以取得良好的使用者體驗，因為患者 app 也可以讀取下欄欄位：</span><span class="sxs-lookup"><span data-stu-id="c6a11-243">In addition to the Argonaut fields, for a great user experience the Patients app can also read the following fields:</span></span>
 
-1. <span data-ttu-id="f3fab-244">DateEnded</span><span class="sxs-lookup"><span data-stu-id="f3fab-244">DateEnded</span></span>
-2. <span data-ttu-id="f3fab-245">DosageInstruction 文字</span><span class="sxs-lookup"><span data-stu-id="f3fab-245">DosageInstruction.Text</span></span>
-3. <span data-ttu-id="f3fab-246">Text. Div</span><span class="sxs-lookup"><span data-stu-id="f3fab-246">Text.Div</span></span>
+1. <span data-ttu-id="c6a11-244">DateEnded</span><span class="sxs-lookup"><span data-stu-id="c6a11-244">DateEnded</span></span>
+2. <span data-ttu-id="c6a11-245">DosageInstruction 文字</span><span class="sxs-lookup"><span data-stu-id="c6a11-245">DosageInstruction.Text</span></span>
+3. <span data-ttu-id="c6a11-246">Text. Div</span><span class="sxs-lookup"><span data-stu-id="c6a11-246">Text.Div</span></span>
 
-<span data-ttu-id="f3fab-247">資源搜尋使用 [取得] 方法及下列參數：</span><span class="sxs-lookup"><span data-stu-id="f3fab-247">A resource search uses the GET method and the following parameters:</span></span>
+<span data-ttu-id="c6a11-247">資源搜尋使用 [取得] 方法及下列參數：</span><span class="sxs-lookup"><span data-stu-id="c6a11-247">A resource search uses the GET method and the following parameters:</span></span>
 
-1. <span data-ttu-id="f3fab-248">患者 =\<患者 id></span><span class="sxs-lookup"><span data-stu-id="f3fab-248">patient=\<patient id></span></span>
-2. <span data-ttu-id="f3fab-249">_count =\<最大結果></span><span class="sxs-lookup"><span data-stu-id="f3fab-249">_count=\<max results></span></span>
+1. <span data-ttu-id="c6a11-248">患者 =\<患者 id></span><span class="sxs-lookup"><span data-stu-id="c6a11-248">patient=\<patient id></span></span>
+2. <span data-ttu-id="c6a11-249">_count =\<最大結果></span><span class="sxs-lookup"><span data-stu-id="c6a11-249">_count=\<max results></span></span>
 
-<span data-ttu-id="f3fab-250">請參閱下列通話範例：</span><span class="sxs-lookup"><span data-stu-id="f3fab-250">See the following example of this call:</span></span>
+<span data-ttu-id="c6a11-250">請參閱下列通話範例：</span><span class="sxs-lookup"><span data-stu-id="c6a11-250">See the following example of this call:</span></span>
 
 * * *
 
-    <span data-ttu-id="f3fab-251">要求：取得 <fhir-server>/MedicationOrder？患者 =<患者 id>&_count = 10</span><span class="sxs-lookup"><span data-stu-id="f3fab-251">Request: GET <fhir-server>/MedicationOrder?patient=<patient-id>&_count=10</span></span>
+    <span data-ttu-id="c6a11-251">要求：取得 <fhir-server>/MedicationOrder？患者 =<患者 id>&_count = 10</span><span class="sxs-lookup"><span data-stu-id="c6a11-251">Request: GET <fhir-server>/MedicationOrder?patient=<patient-id>&_count=10</span></span>
     
-    <span data-ttu-id="f3fab-252">回應： {"resourceType"： "套裝"，"id"： "<套件-識別碼>"，"類型"： "searchset"，"total"：1，"條目"： [{"resource"： {"resourceType"： "MedicationOrder"，"識別碼"： "<資源 id>"，"dateWritten"： "2018-09-17"，"medicationCodeableConcept"： {"文字"： "Lisinopril 20 MG，[]：" prescriber "： {" 顯示 "：" Jane Doe "}，" dosageInstruction "： [{" 文字 "：" 1 天 "}"}}]}</span><span class="sxs-lookup"><span data-stu-id="f3fab-252">Response: {   "resourceType": "Bundle",   "id": "<bundle-id>",   "type": "searchset",   "total": 1,   "entry": [     {       "resource": {         "resourceType": "MedicationOrder",         "id": "<resource-id>",         "dateWritten": "2018-09-17",         "medicationCodeableConcept": {           "text": "Lisinopril 20 MG Oral Tablet"         },         "prescriber": {           "display": "Jane Doe"         },         "dosageInstruction": [           {             "text": "1 daily"           }         ]       }     }   ] }</span></span>
+    <span data-ttu-id="c6a11-252">回應： {"resourceType"： "套裝"，"id"： "<套件-識別碼>"，"類型"： "searchset"，"total"：1，"條目"： [{"resource"： {"resourceType"： "MedicationOrder"，"識別碼"： "<資源 id>"，"dateWritten"： "2018-09-17"，"medicationCodeableConcept"： {"文字"： "Lisinopril 20 MG，[]：" prescriber "： {" 顯示 "：" Jane Doe "}，" dosageInstruction "： [{" 文字 "：" 1 天 "}"}}]}</span><span class="sxs-lookup"><span data-stu-id="c6a11-252">Response: {   "resourceType": "Bundle",   "id": "<bundle-id>",   "type": "searchset",   "total": 1,   "entry": [     {       "resource": {         "resourceType": "MedicationOrder",         "id": "<resource-id>",         "dateWritten": "2018-09-17",         "medicationCodeableConcept": {           "text": "Lisinopril 20 MG Oral Tablet"         },         "prescriber": {           "display": "Jane Doe"         },         "dosageInstruction": [           {             "text": "1 daily"           }         ]       }     }   ] }</span></span>
 
 * * *  
 
-<span data-ttu-id="f3fab-253">如[https://www.hl7.org/fhir/DSTU2/MedicationOrder.html](https://www.hl7.org/fhir/DSTU2/MedicationOrder.html)需此欄位集的其他詳細資料，請參閱。</span><span class="sxs-lookup"><span data-stu-id="f3fab-253">See [https://www.hl7.org/fhir/DSTU2/MedicationOrder.html](https://www.hl7.org/fhir/DSTU2/MedicationOrder.html) for other details on this field set.</span></span>
+<span data-ttu-id="c6a11-253">如[https://www.hl7.org/fhir/DSTU2/MedicationOrder.html](https://www.hl7.org/fhir/DSTU2/MedicationOrder.html)需此欄位集的其他詳細資料，請參閱。</span><span class="sxs-lookup"><span data-stu-id="c6a11-253">See [https://www.hl7.org/fhir/DSTU2/MedicationOrder.html](https://www.hl7.org/fhir/DSTU2/MedicationOrder.html) for other details on this field set.</span></span>
 
-## <a name="coverage"></a><span data-ttu-id="f3fab-254">百分比</span><span class="sxs-lookup"><span data-stu-id="f3fab-254">Coverage</span></span>
+## <a name="coverage"></a><span data-ttu-id="c6a11-254">百分比</span><span class="sxs-lookup"><span data-stu-id="c6a11-254">Coverage</span></span>
 
-<span data-ttu-id="f3fab-255">以下是最小必要欄位，不是由美國核心或 Argonaut 設定檔所涵蓋：</span><span class="sxs-lookup"><span data-stu-id="f3fab-255">These are the minimum required fields, not covered by either US Core or Argonaut profiles:</span></span>
+<span data-ttu-id="c6a11-255">以下是最小必要欄位，不是由美國核心或 Argonaut 設定檔所涵蓋：</span><span class="sxs-lookup"><span data-stu-id="c6a11-255">These are the minimum required fields, not covered by either US Core or Argonaut profiles:</span></span>
 
-1. <span data-ttu-id="f3fab-256">Payor</span><span class="sxs-lookup"><span data-stu-id="f3fab-256">Payor</span></span>
+1. <span data-ttu-id="c6a11-256">Payor</span><span class="sxs-lookup"><span data-stu-id="c6a11-256">Payor</span></span>
 
-<span data-ttu-id="f3fab-257">資源搜尋使用 [取得] 方法及下列參數：</span><span class="sxs-lookup"><span data-stu-id="f3fab-257">A resource search uses the GET method and the following parameters:</span></span>
+<span data-ttu-id="c6a11-257">資源搜尋使用 [取得] 方法及下列參數：</span><span class="sxs-lookup"><span data-stu-id="c6a11-257">A resource search uses the GET method and the following parameters:</span></span>
 
-1. <span data-ttu-id="f3fab-258">患者 =\<患者 id></span><span class="sxs-lookup"><span data-stu-id="f3fab-258">patient=\<patient id></span></span>
+1. <span data-ttu-id="c6a11-258">患者 =\<患者 id></span><span class="sxs-lookup"><span data-stu-id="c6a11-258">patient=\<patient id></span></span>
 
-<span data-ttu-id="f3fab-259">請參閱下列通話範例：</span><span class="sxs-lookup"><span data-stu-id="f3fab-259">See the following example of this call:</span></span>
+<span data-ttu-id="c6a11-259">請參閱下列通話範例：</span><span class="sxs-lookup"><span data-stu-id="c6a11-259">See the following example of this call:</span></span>
 
 * * *
 
-    <span data-ttu-id="f3fab-260">要求：取得 <fhir-server>/Coverage？患者 =<患者 id></span><span class="sxs-lookup"><span data-stu-id="f3fab-260">Request: GET <fhir-server>/Coverage?patient=<patient-id></span></span>
+    <span data-ttu-id="c6a11-260">要求：取得 <fhir-server>/Coverage？患者 =<患者 id></span><span class="sxs-lookup"><span data-stu-id="c6a11-260">Request: GET <fhir-server>/Coverage?patient=<patient-id></span></span>
     
-    <span data-ttu-id="f3fab-261">回應： {"resourceType"： "套裝"，"輸入"： "searchset"，"總計"：1，"條目"： [{"資源"： {"resourceType"： "覆蓋範圍"，"id"： "<資源識別碼>"，"資料記錄"： "沒有主要保險業"，"訂閱者"： {"參考資料"： "患者/<患者 id>"}}}]}</span><span class="sxs-lookup"><span data-stu-id="f3fab-261">Response: {   "resourceType": "Bundle",   "type": "searchset",   "total": 1,   "entry": [     {       "resource": {         "resourceType": "Coverage",         "id": "<resource-id>",         "plan": "No Primary Insurance",         "subscriber": { "reference": "Patient/<patient-id>" }       }     }   ] }</span></span>
+    <span data-ttu-id="c6a11-261">回應： {"resourceType"： "套裝"，"輸入"： "searchset"，"總計"：1，"條目"： [{"資源"： {"resourceType"： "覆蓋範圍"，"id"： "<資源識別碼>"，"資料記錄"： "沒有主要保險業"，"訂閱者"： {"參考資料"： "患者/<患者 id>"}}}]}</span><span class="sxs-lookup"><span data-stu-id="c6a11-261">Response: {   "resourceType": "Bundle",   "type": "searchset",   "total": 1,   "entry": [     {       "resource": {         "resourceType": "Coverage",         "id": "<resource-id>",         "plan": "No Primary Insurance",         "subscriber": { "reference": "Patient/<patient-id>" }       }     }   ] }</span></span>
 
 * * *
 
-<span data-ttu-id="f3fab-262">如[https://www.hl7.org/fhir/DSTU2/Coverage.html](https://www.hl7.org/fhir/DSTU2/Coverage.html)需此欄位集的其他詳細資料，請參閱。</span><span class="sxs-lookup"><span data-stu-id="f3fab-262">See [https://www.hl7.org/fhir/DSTU2/Coverage.html](https://www.hl7.org/fhir/DSTU2/Coverage.html) for other details on this field set.</span></span>
+<span data-ttu-id="c6a11-262">如[https://www.hl7.org/fhir/DSTU2/Coverage.html](https://www.hl7.org/fhir/DSTU2/Coverage.html)需此欄位集的其他詳細資料，請參閱。</span><span class="sxs-lookup"><span data-stu-id="c6a11-262">See [https://www.hl7.org/fhir/DSTU2/Coverage.html](https://www.hl7.org/fhir/DSTU2/Coverage.html) for other details on this field set.</span></span>
 
-## <a name="location"></a><span data-ttu-id="f3fab-263">位置</span><span class="sxs-lookup"><span data-stu-id="f3fab-263">Location</span></span>
+## <a name="location"></a><span data-ttu-id="c6a11-263">位置</span><span class="sxs-lookup"><span data-stu-id="c6a11-263">Location</span></span>
 
-<span data-ttu-id="f3fab-264">此資源只是用來做為「[遇到](#encounter)資源」的參考。</span><span class="sxs-lookup"><span data-stu-id="f3fab-264">This resource is only being used as a reference on the [Encounter](#encounter) resource.</span></span>
+<span data-ttu-id="c6a11-264">此資源只是用來做為「[遇到](#encounter)資源」的參考。</span><span class="sxs-lookup"><span data-stu-id="c6a11-264">This resource is only being used as a reference on the [Encounter](#encounter) resource.</span></span>
 
-<span data-ttu-id="f3fab-265">如[https://www.hl7.org/fhir/DSTU2/Location.html](https://www.hl7.org/fhir/DSTU2/Location.html)需此欄位集的其他詳細資料，請參閱。</span><span class="sxs-lookup"><span data-stu-id="f3fab-265">See [https://www.hl7.org/fhir/DSTU2/Location.html](https://www.hl7.org/fhir/DSTU2/Location.html) for other details on this field set.</span></span>
+<span data-ttu-id="c6a11-265">如[https://www.hl7.org/fhir/DSTU2/Location.html](https://www.hl7.org/fhir/DSTU2/Location.html)需此欄位集的其他詳細資料，請參閱。</span><span class="sxs-lookup"><span data-stu-id="c6a11-265">See [https://www.hl7.org/fhir/DSTU2/Location.html](https://www.hl7.org/fhir/DSTU2/Location.html) for other details on this field set.</span></span>
