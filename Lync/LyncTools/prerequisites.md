@@ -12,18 +12,18 @@ ms:contentKeyID: 51541417
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a856a44a82af84f4881e487c5f853deeede72e07
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 3c5ffc74e80547df1dd451cd86d681e85befe334
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42038305"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146296"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="prerequisites"></a>必要條件
 
@@ -65,11 +65,11 @@ _**上次修改主題：** 2013年-02-19_
 
 在用戶端電腦必須符合下列軟體需求：
 
-  - 您必須安裝[Microsoft.NET Framework 4.5](http://go.microsoft.com/fwlink/?linkid=143212)執行階段。
+  - 您必須安裝[Microsoft.NET Framework 4.5](https://go.microsoft.com/fwlink/?linkid=143212)執行階段。
 
   - 在 Windows Server 2008/Windows Server 2012 上必須啟用桌面體驗功能。
 
-  - 您必須擁有[Microsoft Visual c + + 2012年可轉散發套件](http://go.microsoft.com/fwlink/?linkid=143216)(x64) 安裝。
+  - 您必須擁有[Microsoft Visual c + + 2012年可轉散發套件](https://go.microsoft.com/fwlink/?linkid=143216)(x64) 安裝。
 
   - 完整設定的 Lync Server 2013 部署。
 

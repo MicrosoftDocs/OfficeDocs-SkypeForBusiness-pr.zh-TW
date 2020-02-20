@@ -12,18 +12,18 @@ ms:contentKeyID: 49733697
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dccf60dba1b729b1ffa808694fffcacc14e460ba
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c1c60768311f4fbf832f3dbe2ac4a0c2e8e55298
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035285"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42145392"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="integrating-microsoft-lync-server-2013-and-microsoft-exchange-server-2013"></a>整合 Microsoft Lync Server 2013 與 Microsoft Exchange Server 2013
 
@@ -51,7 +51,7 @@ Exchange 和 Lync Server 具有整合和相容性的長歷程記錄。 這項整
 
 請記住，這些新功能需要使用 Lync Server 2013 和 Exchange 2013。 所，希望能夠充分利用這些新功能的使用者必須能夠在 Lync Server 2013 和 Exchange 2013 的帳戶，且必須使用最新版的用戶端軟體 (例如，Lync 2013)。 例如，且無法供具有已位於 Lync Server 2010; 使用者整合連絡人存放區同樣地，高解析度相片無法顯示在 Lync 2010。
 
-這份文件提供整合 Lync Server 2013 和 Exchange 2013 的相關資訊。 包括上啟用新功能，例如封存整合和整合連絡人存放區的逐步說明資訊。 這份文件不會不做什麼是討論的初始安裝與設定下列兩項產品。 如需 Lync Server 2013 部署的詳細資訊，請參閱 Lync Server 2013 技術中心，在[http://go.microsoft.com/fwlink/p/?LinkId=246127](http://go.microsoft.com/fwlink/p/?linkid=246127)。 如需 Exchange 2013 部署的詳細資訊，請參閱在 Exchange 2013 Tech Center [http://go.microsoft.com/fwlink/p/?LinkId=268528](http://go.microsoft.com/fwlink/p/?linkid=268528)。
+這份文件提供整合 Lync Server 2013 和 Exchange 2013 的相關資訊。 包括上啟用新功能，例如封存整合和整合連絡人存放區的逐步說明資訊。 這份文件不會不做什麼是討論的初始安裝與設定下列兩項產品。 如需 Lync Server 2013 部署的詳細資訊，請參閱 Lync Server 2013 技術中心，在[https://go.microsoft.com/fwlink/p/?LinkId=246127](https://go.microsoft.com/fwlink/p/?linkid=246127)。 如需 Exchange 2013 部署的詳細資訊，請參閱在 Exchange 2013 Tech Center [https://go.microsoft.com/fwlink/p/?LinkId=268528](https://go.microsoft.com/fwlink/p/?linkid=268528)。
 
 <div>
 

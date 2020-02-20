@@ -12,18 +12,18 @@ ms:contentKeyID: 63969577
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 61285a73ba7fd3689842f15967286c4393b8e927
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 5e910da744bf88b485fc693c02544ad8a7093ead
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030787"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42142279"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="system-administration-in-lync-server-2013"></a>Lync Server 2013 中的系統管理
 
@@ -75,7 +75,7 @@ _**上次修改主題：** 2014年-08-18_
 
 Service desk 工具可讓人員來記錄、 分類，並排定優先順序新的問題。 接著工具會提供工作流程處理程序來管理此問題： 服務要求透過調查與診斷，通常由一個以上的支援小組。 工具，將會經常提供有關的解決時間與歷史趨勢報告，也可能包含知識庫資料庫中，可以用來搜尋整個過去的問題。
 
-Microsoft 知識庫是很有用記錄遭遇到 microsoft 的支援問題。 如需詳細資訊，請參閱 Microsoft 支援網站 (<http://go.microsoft.com/fwlink/?linkid=14898>)。
+Microsoft 知識庫是很有用記錄遭遇到 microsoft 的支援問題。 如需詳細資訊，請參閱 Microsoft 支援網站 (<https://go.microsoft.com/fwlink/?linkid=14898>)。
 
 協力廠商軟體通常需要自訂以符合組織的需求，例如 teams，報表需求，以及所需的 SLA 的量值的組織。
 

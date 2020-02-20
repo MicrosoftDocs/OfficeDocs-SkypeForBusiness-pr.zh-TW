@@ -12,18 +12,18 @@ ms:contentKeyID: 48183923
 ms.date: 06/26/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bc548446120ae4088d90acb45c258f3f736063d0
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f3b397e242a6188f9054810a2ce08521a9940717
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006729"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141849"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="technical-requirements-for-conferencing-in-lync-server-2013"></a>Lync Server 2013 中的會議的技術需求
 
@@ -194,9 +194,9 @@ Web 會議，Lync Server 2013 也需要 Office Web Apps 和 Office Web Apps Serv
 
 ## <a name="audio-file-requirements-for-dial-in-conferencing"></a>電話撥入式會議的音訊檔需求
 
-Lync Server 2013 不支援電話撥入式會議自訂語音提示和等候音樂。 不過，如果您有需要您變更預設音訊檔案的強式的業務需求，請參閱 Microsoft 知識庫文章 961177，[如何自訂語音提示或撥入音訊會議中 Microsoft Office Communications Server 2007 R2 的等候音樂檔案](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=961177)。
+Lync Server 2013 不支援電話撥入式會議自訂語音提示和等候音樂。 不過，如果您有需要您變更預設音訊檔案的強式的業務需求，請參閱 Microsoft 知識庫文章 961177，[如何自訂語音提示或撥入音訊會議中 Microsoft Office Communications Server 2007 R2 的等候音樂檔案](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=961177)。
 
-您也可以使用[Microsoft Lync Server 會議服務員自訂語音提示](http://go.microsoft.com/fwlink/p/?linkid=396880)管理公用程式，並取代電話來電者加入 Lync 會議，自訂提示，提供不同的會議項目時所使用的預設語音提示的可讓系統管理員體驗。 自訂語音提示可以安裝在執行 Lync Server 2010 伺服器或 Lync Server 2013，企業或 Standard Edition。
+您也可以使用[Microsoft Lync Server 會議服務員自訂語音提示](https://go.microsoft.com/fwlink/p/?linkid=396880)管理公用程式，並取代電話來電者加入 Lync 會議，自訂提示，提供不同的會議項目時所使用的預設語音提示的可讓系統管理員體驗。 自訂語音提示可以安裝在執行 Lync Server 2010 伺服器或 Lync Server 2013，企業或 Standard Edition。
 
 會議服務員應用程式和會議宣告應用程式有音樂、 錄音的名稱和音訊提示檔的需求如下：
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 56737622
 ms.date: 04/09/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6af0f52b940e9bcfb78048ef3a2c60f09d265073
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 24757a87279f64dd903ed4fdfb26169b606f899c
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045235"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146756"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="installing-the-lync-room-system-administrative-web-portal-in-lync-server-2013"></a>安裝 Lync Server 2013 中的 Lync 會議室系統管理的入口網站
 
@@ -37,7 +37,7 @@ ms.locfileid: "42045235"
 
 _**主題上次修改日期：** 2015年-04-09_
 
-您可以從 Microsoft 下載中心下載 Microsoft Lync 會議室系統管理入口網站[http://go.microsoft.com/fwlink/p/?LinkId=324044](http://go.microsoft.com/fwlink/p/?linkid=324044)。
+您可以從 Microsoft 下載中心下載 Microsoft Lync 會議室系統管理入口網站[https://go.microsoft.com/fwlink/p/?LinkId=324044](https://go.microsoft.com/fwlink/p/?linkid=324044)。
 
 若要安裝 Lync 會議室系統管理入口網站，請使用下列步驟。
 
@@ -82,7 +82,7 @@ _**主題上次修改日期：** 2015年-04-09_
     
     https://\<fe-server\>/lrs
     
-    若要存取 [] 頁面上，您必須新增 DNS 記錄所述的 「 需要 DNS 記錄的自動用戶端登入 」 在[http://go.microsoft.com/fwlink/p/?LinkId=318056](http://go.microsoft.com/fwlink/p/?linkid=318056)。
+    若要存取 [] 頁面上，您必須新增 DNS 記錄所述的 「 需要 DNS 記錄的自動用戶端登入 」 在[https://go.microsoft.com/fwlink/p/?LinkId=318056](https://go.microsoft.com/fwlink/p/?linkid=318056)。
 
 </div>
 

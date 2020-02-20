@@ -12,18 +12,18 @@ ms:contentKeyID: 48185893
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d3c241f685e9acc24b82acab1c7f50e1e15754b1
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 09e7c31bcd32c392d56c9143b075a771bf3dc42d
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050815"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42144559"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="roles-table-in-lync-server-2013"></a>Lync Server 2013 中的 [角色] 資料表
 
@@ -63,7 +63,7 @@ Roles 表格是靜態表格儲存可能之會議角色 （例如出席者和簡�
 <td></td>
 </tr>
 <tr class="even">
-<td><p><strong>Role</strong></p></td>
+<td><p><strong>角色</strong></p></td>
 <td><p>nvarchar(256)</p></td>
 <td></td>
 <td><p>允許的值：</p>

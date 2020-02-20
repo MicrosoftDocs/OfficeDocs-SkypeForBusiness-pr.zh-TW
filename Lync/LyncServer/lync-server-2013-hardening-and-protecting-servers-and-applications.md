@@ -12,18 +12,18 @@ ms:contentKeyID: 62625491
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6b0a6179e77e4688693fe277748a8933a9dbe911
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 50bd8d3fb538a7450d2129691ec523dbcb6dd208
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006199"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146786"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="hardening-and-protecting-servers-and-applications-for-lync-server-2013"></a>增強及保護伺服器和 Lync Server 2013 的應用程式
 
@@ -61,7 +61,7 @@ _**上次修改主題：** 2013年-12-05_
 
 ## <a name="securing-virtual-servers"></a>保障虛擬伺服器的安全
 
-虛擬伺服器快照中包含了伺服器資料磁碟的複本，以及記憶體內部資料的傾印檔；兩者皆可能含有機密的密碼編譯資料，容易遭受攻擊。 若是以虛擬化實作的生產伺服器，則應停用所有伺服器快照，或嚴密地管理。 如需保護 HYPER-V 虛擬伺服器的詳細資訊，請參閱在 HYPER-V 安全性指南： [http://go.microsoft.com/fwlink/p/?LinkId=214176](http://go.microsoft.com/fwlink/p/?linkid=214176)。
+虛擬伺服器快照中包含了伺服器資料磁碟的複本，以及記憶體內部資料的傾印檔；兩者皆可能含有機密的密碼編譯資料，容易遭受攻擊。 若是以虛擬化實作的生產伺服器，則應停用所有伺服器快照，或嚴密地管理。 如需保護 HYPER-V 虛擬伺服器的詳細資訊，請參閱在 HYPER-V 安全性指南： [https://go.microsoft.com/fwlink/p/?LinkId=214176](https://go.microsoft.com/fwlink/p/?linkid=214176)。
 
 </div>
 
@@ -95,7 +95,7 @@ _**上次修改主題：** 2013年-12-05_
 
 ## <a name="group-policy-security-settings"></a>群組原則安全性設定
 
-群組原則中包含了從 GPedit.dll 存取 GPO 時 (位於電腦設定/Windows 設定/安全性設定底下) 的安全性設定。 您可以匯入安全性範本來設定 GPO 的安全性設定。 Windows Server 2008 安全性指南 》，[http://go.microsoft.com/fwlink/p/?LinkId=145186](http://go.microsoft.com/fwlink/p/?linkid=145186)和 Windows Server 2008 R2 Security Compliance Management Toolkit 在[http://go.microsoft.com/fwlink/p/?LinkId=211882](http://go.microsoft.com/fwlink/p/?linkid=211882)包含您可以修改以符合您需求的範例範本數目。
+群組原則中包含了從 GPedit.dll 存取 GPO 時 (位於電腦設定/Windows 設定/安全性設定底下) 的安全性設定。 您可以匯入安全性範本來設定 GPO 的安全性設定。 Windows Server 2008 安全性指南 》，[https://go.microsoft.com/fwlink/p/?LinkId=145186](https://go.microsoft.com/fwlink/p/?linkid=145186)和 Windows Server 2008 R2 Security Compliance Management Toolkit 在[https://go.microsoft.com/fwlink/p/?LinkId=211882](https://go.microsoft.com/fwlink/p/?linkid=211882)包含您可以修改以符合您需求的範例範本數目。
 
 </div>
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 48184085
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 830d9d48e68142cf32f14d428fb48e3ab20afaca
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 9c380cb67e1e156bef616f81ce0c42f699b472d8
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42047278"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42144940"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="request-and-configure-a-certificate-for-your-reverse-http-proxy-in-lync-server-2013"></a>要求以及設定反向 HTTP proxy Lync Server 2013 中的憑證
 
@@ -156,7 +156,7 @@ _**上次修改主題：** 2014年-02-14_
 
 **建立的憑證簽署要求**
 
-1.  開啟 Microsoft Management Console (MMC)，並新增憑證嵌入式管理單元中，選取 [**電腦**]，然後依序展開 [**個人**。 如需如何建立憑證] 主控台中的 [Microsoft Management Console (MMC) 的詳細資訊，請參閱[http://go.microsoft.com/fwlink/?LinkId=282616](http://go.microsoft.com/fwlink/?linkid=282616)。
+1.  開啟 Microsoft Management Console (MMC)，並新增憑證嵌入式管理單元中，選取 [**電腦**]，然後依序展開 [**個人**。 如需如何建立憑證] 主控台中的 [Microsoft Management Console (MMC) 的詳細資訊，請參閱[https://go.microsoft.com/fwlink/?LinkId=282616](https://go.microsoft.com/fwlink/?linkid=282616)。
 
 2.  **憑證**上按一下滑鼠右鍵，按一下 [**所有工作**，按一下都 [**進階作業**，按一下都 [**建立自訂要求**。
 
@@ -217,7 +217,7 @@ _**上次修改主題：** 2014年-02-14_
     
 
     > [!IMPORTANT]
-    > Microsoft 已識別公用 Ca 符合整合通訊用途的需求。 清單會維護下列知識庫文章中。 <A href="http://go.microsoft.com/fwlink/?linkid=282625">http://go.microsoft.com/fwlink/?LinkId=282625</A>
+    > Microsoft 已識別公用 Ca 符合整合通訊用途的需求。 清單會維護下列知識庫文章中。 <A href="https://go.microsoft.com/fwlink/?linkid=282625">https://go.microsoft.com/fwlink/?LinkId=282625</A>
 
     
     </div>

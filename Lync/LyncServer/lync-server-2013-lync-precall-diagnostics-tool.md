@@ -12,18 +12,18 @@ ms:contentKeyID: 56708404
 ms.date: 11/04/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a63743c634c9e87c743928d7641609ce12c464cb
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 79009ce890e37e7238e3fef18f719fb3da411889
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030366"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146696"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="lync-precall-diagnostics-tool-in-lync-server-2013"></a>Lync Server 2013 中的 Lync PreCall 診斷工具
 
@@ -75,7 +75,7 @@ PCD 是最適合用在網路的最後一個躍點可能是最弱 （例如，具
 
 本主題說明工具，可供免費下載的下列的版本：
 
-  - Windows 桌面應用程式 ([http://go.microsoft.com/fwlink/?LinkId=327914](http://go.microsoft.com/fwlink/p/?linkid=327914))
+  - Windows 桌面應用程式 ([https://go.microsoft.com/fwlink/?LinkId=327914](https://go.microsoft.com/fwlink/p/?linkid=327914))
 
 </div>
 
@@ -101,7 +101,7 @@ PCD 是最適合用在網路的最後一個躍點可能是最弱 （例如，具
 
   - 任何版本的 Windows 7 或 Windows 8 作業系統
 
-  - Microsoft.NET Framework 4.5 可在[http://go.microsoft.com/fwlink/?LinkId=327790](http://go.microsoft.com/fwlink/p/?linkid=327790)
+  - Microsoft.NET Framework 4.5 可在[https://go.microsoft.com/fwlink/?LinkId=327790](https://go.microsoft.com/fwlink/p/?linkid=327790)
 
 </div>
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 48183786
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c21d013c35d8f1379d049e0f252ac6c0d3356eb1
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 24004bbd01d3209f184e7368ea6d693651f55c36
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035105"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146806"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="exchange-um-cmdlets-in-lync-server-2013"></a>Exchange UM Lync Server 2013 中的 cmdlet
 
@@ -116,7 +116,7 @@ Microsoft Lync Server 2013 的運作方式與 Exchange 整合通訊 (UM) 來實�
 ## <a name="see-also"></a>另請參閱
 
 
-[Lync Server PowerShell 部落格](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+[Lync Server PowerShell 部落格](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

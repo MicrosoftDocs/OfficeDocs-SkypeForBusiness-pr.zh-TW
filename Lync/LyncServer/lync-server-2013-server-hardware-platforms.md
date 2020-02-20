@@ -12,18 +12,18 @@ ms:contentKeyID: 48185395
 ms.date: 07/28/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7e352153e4cc2386a159ac11f27f8ba4f5beb09f
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: a1a1dddb7fe87ebc877ed16048a42a17760c2053
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42048664"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42144001"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="server-hardware-platforms-for-lync-server-2013"></a>Lync Server 2013 的伺服器硬體平台
 
@@ -51,7 +51,7 @@ Lync Server 2013 伺服器角色和執行 Lync Server 系統管理工具的電�
 
 
 > [!NOTE]  
-> NIC 小組，以提高為支援，而且應該不會察覺到 Lync Server。 如需詳細資訊，請參閱<A href="http://go.microsoft.com/fwlink/p/?linkid=389910">Communications Server 或 Lync Server 和網路介面卡協力作業</A>。
+> NIC 小組，以提高為支援，而且應該不會察覺到 Lync Server。 如需詳細資訊，請參閱<A href="https://go.microsoft.com/fwlink/p/?linkid=389910">Communications Server 或 Lync Server 和網路介面卡協力作業</A>。
 
 
 

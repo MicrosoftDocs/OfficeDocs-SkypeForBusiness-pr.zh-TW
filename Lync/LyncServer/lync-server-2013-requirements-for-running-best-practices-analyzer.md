@@ -12,18 +12,18 @@ ms:contentKeyID: 48183880
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1c265e73f94ddfe08b7f72a1d0b4e94958208ff8
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 4ac8c0f9a38ca80961f9a15a40a88214ad3cf2d7
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045485"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42144890"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="requirements-for-running-best-practices-analyzer-in-lync-server-2013"></a>執行 Lync Server 2013 中的最佳做法分析程式的需求
 
@@ -37,7 +37,7 @@ ms.locfileid: "42045485"
 
 _**主題上次修改日期：** 2012年-09-19_
 
-您可以使用 Lync Server 2013，來掃描您的 Lync Server 2013 環境的最佳做法分析程式。 無法使用它來掃描舊版的環境，而必須使用舊版工具來掃描那些環境。 如需下載和使用 Lync Server 2010 和 Office Communications Server 2007 R2 版本的最佳做法分析程式的詳細資訊，請參閱 「 Lync Server 2010，最佳做法分析程式 」 在[http://go.microsoft.com/fwlink/p/?linkId=210536](http://go.microsoft.com/fwlink/p/?linkid=256358)和 」 最佳作法 Analyzer 的 Office Communications Server 2007 和 Office Communications Server 2007 R2 」 在[http://go.microsoft.com/fwlink/p/?linkId=256358](http://go.microsoft.com/fwlink/p/?linkid=210651)。
+您可以使用 Lync Server 2013，來掃描您的 Lync Server 2013 環境的最佳做法分析程式。 無法使用它來掃描舊版的環境，而必須使用舊版工具來掃描那些環境。 如需下載和使用 Lync Server 2010 和 Office Communications Server 2007 R2 版本的最佳做法分析程式的詳細資訊，請參閱 「 Lync Server 2010，最佳做法分析程式 」 在[https://go.microsoft.com/fwlink/p/?linkId=210536](https://go.microsoft.com/fwlink/p/?linkid=256358)和 」 最佳作法 Analyzer 的 Office Communications Server 2007 和 Office Communications Server 2007 R2 」 在[https://go.microsoft.com/fwlink/p/?linkId=256358](https://go.microsoft.com/fwlink/p/?linkid=210651)。
 
 之前開始掃描，您應該確定您的 Lync Server 2013 環境中的所有元件都都在執行並在線上。
 

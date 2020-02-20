@@ -12,18 +12,18 @@ ms:contentKeyID: 48183430
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 65908f1b142c72f584c48493023803e5dfd56208
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 043015fb30ca21a697a9758a5fbb4d916b006046
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030997"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146446"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configure-lync-server-2013-to-work-with-unified-messaging-on-microsoft-exchange-server"></a>設定 Lync Server 2013 來使用 Microsoft Exchange Server 上整合通訊
 
@@ -57,8 +57,8 @@ Exchange UM 整合公用程式必須從具有下列特性的使用者帳戶執�
 > 之前執行 Exchange UM 整合公用程式，請確定您已執行下列：
 > <ul>
 > <li><p>建立一或多個 Exchange UM 撥號對應表計劃，Exchange 產品文件中所述。</p>
-> <p>Microsoft Exchange Server 2010，請參閱&quot;Create a UM Dial Plan&quot;在<a href="http://go.microsoft.com/fwlink/p/?linkid=186177">http://go.microsoft.com/fwlink/p/?linkId=186177</a>。</p>
-> <p>Microsoft Exchange Server 2007 Service Pack 1 (SP1)，請參閱&quot;如何建立整合通訊 SIP URI 撥號對應表規劃&quot;在<a href="http://go.microsoft.com/fwlink/p/?linkid=185771">http://go.microsoft.com/fwlink/p/?linkId=185771</a>。</p></li>
+> <p>Microsoft Exchange Server 2010，請參閱&quot;Create a UM Dial Plan&quot;在<a href="https://go.microsoft.com/fwlink/p/?linkid=186177">https://go.microsoft.com/fwlink/p/?linkId=186177</a>。</p>
+> <p>Microsoft Exchange Server 2007 Service Pack 1 (SP1)，請參閱&quot;如何建立整合通訊 SIP URI 撥號對應表規劃&quot;在<a href="https://go.microsoft.com/fwlink/p/?linkid=185771">https://go.microsoft.com/fwlink/p/?linkId=185771</a>。</p></li>
 > <li><p>建立一或多個對應 Lync Server 撥號對應表，在<a href="lync-server-2013-create-a-dial-plan.md">建立撥號對應表 Lync Server 2013 中的</a>所述。</p></li>
 > <ul><li>如果您使用的是舊，超出了 Microsoft Exchange Server 2010 SP1 的 Exchange 版本，您必須在 [Lync Server 2013 撥號對應表規劃<STRONG>簡單名稱</STRONG>] 欄位中輸入對應的 Exchange 整合通訊 (UM) SIP 撥號對應表的完整的網域名稱 (FQDN)。 如果您使用 Microsoft Exchange Server 2010 SP1 或最新 service pack，並不需要此撥號對應表計劃名稱比對。</li></ul>
 > <li>請建立一個自動語音應答，並且確定訂戶存取號碼和自動語音應答號碼的格式都是 E.164。</li></ul>

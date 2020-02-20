@@ -12,18 +12,18 @@ ms:contentKeyID: 48185534
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 75e2e47af4951e98f21ea6b26572d39b5eebcb8d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 304bd14e62f6ee9c629dfcf43e37cb8ee7880cb6
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42046476"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146956"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-custom-presence-states-in-lync-server-2013"></a>在 Lync Server 2013 中設定自訂目前狀態
 
@@ -70,7 +70,7 @@ _**上次修改主題：** 2013年-01-10_
 
 </div>
 
-XML 設定檔，以指定一或多個地區設定識別碼 (LCID) 結構描述當地語系化您自訂目前狀態。 稍後在這個範例主題會顯示成英文-當地語系化 United States (1033)、 挪威文-巴克摩 (1044)、 法文-法國 (1036) 及土耳其文 (1055)。 Lcid 的清單，請參閱在 microsoft 指派的地區識別碼<http://go.microsoft.com/fwlink/p/?linkid=157331>。
+XML 設定檔，以指定一或多個地區設定識別碼 (LCID) 結構描述當地語系化您自訂目前狀態。 稍後在這個範例主題會顯示成英文-當地語系化 United States (1033)、 挪威文-巴克摩 (1044)、 法文-法國 (1036) 及土耳其文 (1055)。 Lcid 的清單，請參閱在 microsoft 指派的地區識別碼<https://go.microsoft.com/fwlink/p/?linkid=157331>。
 
 <div>
 

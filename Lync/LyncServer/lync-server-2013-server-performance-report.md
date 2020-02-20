@@ -12,18 +12,18 @@ ms:contentKeyID: 48184879
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e60757721a9244a55e7ce341be6834934108858a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 05c1e366c797eb0c626d00744ef6f0088d28e465
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050695"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42143981"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="server-performance-report-in-lync-server-2013"></a>Lync Server 2013 中的伺服器效能報告
 
@@ -136,7 +136,7 @@ _**主題上次修改日期：** 2012年-10-01_
 <td><p>若要顯示在每個類別會指出伺服器 （根據其通話不良百分比） 的數目。 例如，如果您選取<strong>5</strong>然後五個執行效能最差的伺服器會顯示。 請選取下列其中一項：</p>
 <ol>
 <li><p>[全部]</p></li>
-<li><p>5 </p></li>
+<li><p>5</p></li>
 <li><p>10 </p></li>
 </ol></td>
 </tr>

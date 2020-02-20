@@ -12,18 +12,18 @@ ms:contentKeyID: 48183307
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f7916fa550831cb86a5b8c77273b87f55365a1a1
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 7850615a454541ee65dba310266b19b721ab185a
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42046026"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42145952"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="checking-for-updates-to-best-practices-analyzer-in-lync-server-2013"></a>更新 Lync Server 2013 中的最佳做法分析程式檢查
 
@@ -43,7 +43,7 @@ _**主題上次修改日期：** 2012年-10-02_
 
 
 > [!NOTE]  
-> 如果需要 Proxy 驗證以存取網際網路，Best Practices Analyzer 將無法存取新的更新以供您下載。 不過，您可以手動下載最新版的 RtcBPA.msi 從 Microsoft 下載中心<A href="http://go.microsoft.com/fwlink/p/?linkid=266539">http://go.microsoft.com/fwlink/p/?linkId=266539</A>。 下載此檔案之後，您可以將其複製到要更新 Best Practices Analyzer 的電腦上，然後使用 .msi 檔案在該電腦上安裝工具的新版本。
+> 如果需要 Proxy 驗證以存取網際網路，Best Practices Analyzer 將無法存取新的更新以供您下載。 不過，您可以手動下載最新版的 RtcBPA.msi 從 Microsoft 下載中心<A href="https://go.microsoft.com/fwlink/p/?linkid=266539">https://go.microsoft.com/fwlink/p/?linkId=266539</A>。 下載此檔案之後，您可以將其複製到要更新 Best Practices Analyzer 的電腦上，然後使用 .msi 檔案在該電腦上安裝工具的新版本。
 
 
 

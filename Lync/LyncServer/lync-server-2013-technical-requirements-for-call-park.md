@@ -12,18 +12,18 @@ ms:contentKeyID: 48183897
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ff91e6b458d4c86f2246cff19e72e5221728e774
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: e63d75bda22228ae14077a51f78150b3884e875f
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006775"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141859"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="technical-requirements-for-call-park-in-lync-server-2013"></a>Lync Server 2013 中的通話駐留的技術需求
 
@@ -89,7 +89,7 @@ _**上次修改主題：** 2013年-11-07_
 
 ## <a name="audio-file-requirements"></a>音訊檔案需求
 
-通話駐留應用程式只支援 Windows Media Audio (.wma) 檔案的等候音樂保留。 您可以使用 Microsoft Expression Encoder 4 自訂等候音樂的檔案。 若要下載運算式編碼器 4，請參閱 「 運算式編碼器 4" [http://go.microsoft.com/fwlink/p/?linkId=202843](http://go.microsoft.com/fwlink/p/?linkid=202843)。 使用此工具可將檔案轉換成 .wma 格式。 通話駐留等候音樂檔案的建議格式為 Media Audio 9、44 kHz、16 位元、Mono、CBR、32 kbps。
+通話駐留應用程式只支援 Windows Media Audio (.wma) 檔案的等候音樂保留。 您可以使用 Microsoft Expression Encoder 4 自訂等候音樂的檔案。 若要下載運算式編碼器 4，請參閱 「 運算式編碼器 4" [https://go.microsoft.com/fwlink/p/?linkId=202843](https://go.microsoft.com/fwlink/p/?linkid=202843)。 使用此工具可將檔案轉換成 .wma 格式。 通話駐留等候音樂檔案的建議格式為 Media Audio 9、44 kHz、16 位元、Mono、CBR、32 kbps。
 
 <div>
 
