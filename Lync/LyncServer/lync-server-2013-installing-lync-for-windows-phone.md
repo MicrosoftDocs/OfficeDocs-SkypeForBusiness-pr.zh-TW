@@ -12,18 +12,18 @@ ms:contentKeyID: 51541513
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 349a4b2609f3b810d0aa64c9e71786f309f21918
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: e2dcb2b1fdc41d1d4dd9a047eceaba8bcbc2c3ea
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045285"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42154735"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="installing-lync-for-windows-phone-in-lync-server-2013"></a>安裝 Lync for Lync Server 2013 中的 Windows Phone
 
@@ -43,7 +43,7 @@ Lync 2013 for Windows Phone 是 Windows Phone 市集處於可用的使用者安�
 
 ## <a name="installing-lync-for-windows-mobile"></a>安裝 Lync for Windows Mobile
 
-您可以指示使用者導向至 Windows Phone 市集其裝置上安裝 Lync 2013 for Windows Phone <http://go.microsoft.com/fwlink/p/?linkid=231901>。
+您可以指示使用者導向至 Windows Phone 市集其裝置上安裝 Lync 2013 for Windows Phone <https://go.microsoft.com/fwlink/p/?linkid=231901>。
 
 </div>
 
@@ -51,7 +51,7 @@ Lync 2013 for Windows Phone 是 Windows Phone 市集處於可用的使用者安�
 
 ## <a name="if-you-use-a-dns-srv-record-to-publish-exchange-web-services"></a>如果您使用 DNS SRV 記錄來發佈 Exchange Web 服務
 
-若要啟用 Exchange 整合的 Lync 用戶端，有些組織會使用 DNS SRV 記錄來發佈 Exchange Web 服務 URL。 文件 」 了解和疑難排解 Exchange 整合，「 Microsoft 下載中心提供[http://go.microsoft.com/fwlink/?LinkID=391095](http://go.microsoft.com/fwlink/?linkid=391095)，描述在其中這可能需要的案例。 不過，Exchange 整合的 Windows Phone 使用者將無法運作在此案例中，因為在 Windows Phone 平台不支援 SRV 查閱。 您將需要指示 Windows Phone 使用者指定的 Exchange Web 服務 URL 而不讓電話會自動偵測到伺服器。
+若要啟用 Exchange 整合的 Lync 用戶端，有些組織會使用 DNS SRV 記錄來發佈 Exchange Web 服務 URL。 文件 」 了解和疑難排解 Exchange 整合，「 Microsoft 下載中心提供[https://go.microsoft.com/fwlink/?LinkID=391095](https://go.microsoft.com/fwlink/?linkid=391095)，描述在其中這可能需要的案例。 不過，Exchange 整合的 Windows Phone 使用者將無法運作在此案例中，因為在 Windows Phone 平台不支援 SRV 查閱。 您將需要指示 Windows Phone 使用者指定的 Exchange Web 服務 URL 而不讓電話會自動偵測到伺服器。
 
 指示使用者在其 Windows Phone 上設定 Lync 設定如下：
 

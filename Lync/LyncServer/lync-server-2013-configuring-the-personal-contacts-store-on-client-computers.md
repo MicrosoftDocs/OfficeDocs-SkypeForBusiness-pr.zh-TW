@@ -12,18 +12,18 @@ ms:contentKeyID: 49733857
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5672619302e169db5e89281323eec4b5d8312c06
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: e035c360d339b48157969c75a1702beff03da634
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030006"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42154225"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-the-personal-contacts-store-on-client-computers-for-lync-server-2013"></a>Lync Server 2013 的用戶端電腦上設定的個人連絡人存放區
 
@@ -55,7 +55,7 @@ _**上次修改主題：** 2014年-02-05_
 
 6.  確認 value of PersonalContactStoreOverride 值已設為 0，然後關閉 [登錄編輯程式。
 
-如果您需要在多部電腦上進行相同變更您可以藉由建立自訂的群組原則物件來執行此動作。 如需詳細資訊，請參閱群組原則文件[http://go.microsoft.com/fwlink/p/?LinkId=268543](http://go.microsoft.com/fwlink/p/?linkid=268543)。
+如果您需要在多部電腦上進行相同變更您可以藉由建立自訂的群組原則物件來執行此動作。 如需詳細資訊，請參閱群組原則文件[https://go.microsoft.com/fwlink/p/?LinkId=268543](https://go.microsoft.com/fwlink/p/?linkid=268543)。
 
 </div>
 

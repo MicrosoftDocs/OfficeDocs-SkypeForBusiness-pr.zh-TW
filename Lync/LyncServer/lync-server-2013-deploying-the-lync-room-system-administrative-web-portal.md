@@ -12,18 +12,18 @@ ms:contentKeyID: 56737621
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 945532f4f0514263ed0d72e00ac5224aa6d7120b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: b0c352e9e890611d95a7d562a88ae8f6cebc7243
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42043365"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153955"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="deploying-the-lync-room-system-administrative-web-portal-in-lync-server-2013"></a>部署 Lync Server 2013 中的管理 Web Lync 會議室系統入口網站
 
@@ -47,7 +47,7 @@ LRS 管理入口網站部署在伺服器上後，系統管理員可以從他們�
 
 
 > [!IMPORTANT]  
-> 當您在 Microsoft Lync Server 2013 部署中安裝 LRS 管理入口網站時，您應該使用<A href="http://go.microsoft.com/fwlink/p/?linkid=544806">Microsoft Lync 會議室系統管理入口網站的 Lync Server 2013</A>。<BR>LRS 管理入口網站的新版本適用於商務用 Skype Server 2015，但是您不應該安裝該版本，除非您已部署用 Skype Server 2015。 下載<A href="http://go.microsoft.com/fwlink/?linkid=544807">Microsoft Lync 會議室系統管理 Web Skype for Business Server 2015 入口網站</A>。
+> 當您在 Microsoft Lync Server 2013 部署中安裝 LRS 管理入口網站時，您應該使用<A href="https://go.microsoft.com/fwlink/p/?linkid=544806">Microsoft Lync 會議室系統管理入口網站的 Lync Server 2013</A>。<BR>LRS 管理入口網站的新版本適用於商務用 Skype Server 2015，但是您不應該安裝該版本，除非您已部署用 Skype Server 2015。 下載<A href="https://go.microsoft.com/fwlink/?linkid=544807">Microsoft Lync 會議室系統管理 Web Skype for Business Server 2015 入口網站</A>。
 
 
 

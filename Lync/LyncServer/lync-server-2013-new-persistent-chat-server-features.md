@@ -12,18 +12,18 @@ ms:contentKeyID: 48185341
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5257490dc63e1626c0cdb6dcf7e6ce1f17e75cd1
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 6c5ad73d11ae629ec0848539b2f4bac2bc81a43e
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42048317"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153575"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="new-persistent-chat-server-features-in-lync-server-2013"></a>Lync Server 2013 中的新 Persistent Chat Server 功能
 
@@ -53,7 +53,7 @@ Lync Server 2013，Persistent Chat Server 可讓您參與多方、 主題型保�
 
 無法在 Microsoft Office 365 中使用 Lync Server 2013，Persistent Chat Server。 在這個階段中，它是只適用於內部部署 Lync 2013 客戶。
 
-在 Lync 2013 常設聊天室功能整合到 Lync 2013 用戶端。 因此，使用者可以存取所有的 Lync 2013 用戶端 Instant Messaging/目前狀態、 音訊/視訊、 會議及常設聊天室。 如需有關 Lync 2013 用戶端的詳細資訊，請參閱<http://go.microsoft.com/fwlink/p/?linkid=270877>。
+在 Lync 2013 常設聊天室功能整合到 Lync 2013 用戶端。 因此，使用者可以存取所有的 Lync 2013 用戶端 Instant Messaging/目前狀態、 音訊/視訊、 會議及常設聊天室。 如需有關 Lync 2013 用戶端的詳細資訊，請參閱<https://go.microsoft.com/fwlink/p/?linkid=270877>。
 
 本主題說明 Lync Server 2013，Persistent Chat Server 與先前的版本 （Microsoft Lync Server 2010，Group Chat） 的新版本之間的功能變更包括：
 
@@ -67,7 +67,7 @@ Lync Server 2013，Persistent Chat Server 可讓您參與多方、 主題型保�
 
 如其他需 Persistent Chat Server 的最新版本的詳細資訊，請參閱下列各項：
 
-  - 常設聊天室協助在<http://go.microsoft.com/fwlink/p/?linkid=270945>功能，它們的運作方式，以及如何使用它們時執行 Persistent Chat Server 提供常設聊天室的詳細的清單。
+  - 常設聊天室協助在<https://go.microsoft.com/fwlink/p/?linkid=270945>功能，它們的運作方式，以及如何使用它們時執行 Persistent Chat Server 提供常設聊天室的詳細的清單。
 
   - [Planning for Persistent Chat Server in Lync Server 2013](lync-server-2013-planning-for-persistent-chat-server.md)中規劃文件、 部署文件中的[Deploying Persistent Chat Server 在 Lync Server 2013 中](lync-server-2013-deploying-persistent-chat-server.md)，[從 Lync Server 2010，Group Chat 或 Office Communications Server 2007 R2 Group Chat to Lync Server 2013，Persistent Chat Server 移轉](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md)中移轉文件中，並[管理 Lync Server 2013，Persistent Chat Server](managing-lync-server-2013-persistent-chat-server.md)的作業文件中所有的指示設定常設聊天室伺服器。
 

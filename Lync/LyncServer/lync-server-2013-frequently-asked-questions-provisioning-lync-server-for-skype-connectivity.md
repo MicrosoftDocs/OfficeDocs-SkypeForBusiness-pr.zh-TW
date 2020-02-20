@@ -12,18 +12,18 @@ ms:contentKeyID: 57793362
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 690eb5631b57a88d207816a01c887c1f94c0eeb2
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 718dda9966b79ca75f64df115dc9a6ba30d15619
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42044045"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42136991"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="frequently-asked-questions-provisioning-lync-server-2013-for-skype-connectivity"></a>常見問題： 佈建 Lync Server 2013 的 Skype 連線
 
@@ -138,7 +138,7 @@ _**主題上次修改日期：** 2019年-03-22_
 
 **問： 如何新增 Windows Live Messenger 連絡人已包含網域以外支援的 Windows Live ID？**
 
-**答：** 如果您要新增帳戶或識別碼與 Windows Live Messenger 使用者與非 Windows Live 網域，輸入地址格式如下：\<使用者名\>(\<網域名稱\>) @msn.com，其中\<網域名稱\>是在使用者的電子郵件地址的網域名稱。 例如，如果您想要新增 ted@contoso.com，您可以使用下列格式： ted (contoso.com) @msn.com。 由 Windows Live 管理的網域的清單，請參閱支援的網域] 區段中的 「 已知問題公用立即訊息與該 Occur 之後安裝 Live Communications Server Service Pack 1 」，在http://support.microsoft.com/?kbid=897567。
+**答：** 如果您要新增帳戶或識別碼與 Windows Live Messenger 使用者與非 Windows Live 網域，輸入地址格式如下：\<使用者名\>(\<網域名稱\>) @msn.com，其中\<網域名稱\>是在使用者的電子郵件地址的網域名稱。 例如，如果您想要新增 ted@contoso.com，您可以使用下列格式： ted (contoso.com) @msn.com。 由 Windows Live 管理的網域的清單，請參閱支援的網域] 區段中的 「 已知問題公用立即訊息與該 Occur 之後安裝 Live Communications Server Service Pack 1 」，在https://support.microsoft.com/?kbid=897567。
 
 **問： 如何佈建程序需要花費時間？**
 

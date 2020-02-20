@@ -12,18 +12,18 @@ ms:contentKeyID: 54973684
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bb8fe9fb9bcca80e7e84f19bdc484dc693b1ee68
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 29fa0be32f5a2c2a0af0b63dadddda3038675adf
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045745"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42154075"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-windows-8-for-using-virtual-smart-cards-with-lync-server-2013"></a>設定 Windows 8 搭配 Lync Server 2013 使用虛擬智慧卡
 
@@ -39,7 +39,7 @@ _**上次修改主題：** 2013年-07-03_
 
 要考慮部署雙因素驗證和智慧卡技術時的一個因素是實作的成本。 Windows 8 提供了數個新的安全性功能，且下方其中的最重要的新功能為虛擬智慧卡的支援。
 
-針對配備信任平台模組 (TPM) 晶片符合規格 1.2 版的電腦，組織現在可以取得的優點智慧卡登入但不進行任何額外的投資的硬體。 如需詳細資訊，請參閱在 Windows 8 與使用虛擬智慧卡[http://go.microsoft.com/fwlink/p/?LinkId=313365](http://go.microsoft.com/fwlink/p/?linkid=313365)。
+針對配備信任平台模組 (TPM) 晶片符合規格 1.2 版的電腦，組織現在可以取得的優點智慧卡登入但不進行任何額外的投資的硬體。 如需詳細資訊，請參閱在 Windows 8 與使用虛擬智慧卡[https://go.microsoft.com/fwlink/p/?LinkId=313365](https://go.microsoft.com/fwlink/p/?linkid=313365)。
 
 <div>
 

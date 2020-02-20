@@ -12,18 +12,18 @@ ms:contentKeyID: 48185845
 ms.date: 05/25/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4c87e727db8538f92d77d3c125e21c96053317ae
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: b3fec43c4487cc2127ed041024207c0fc8fefe60
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42044635"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153213"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="overview-of-lync-server-2013-hybrid-deployments"></a>Lync Server 2013 混合式部署的概觀
 
@@ -49,7 +49,7 @@ Lync Server 混合式部署都是部署所在的網域，例如 contoso.com，�
 
   - [設定 Lync Server 2013 混合式部署](lync-server-2013-configuring-hybrid-deployments.md)
 
-如需 Skype for Business Online，請參閱[Lync Online](http://go.microsoft.com/fwlink/p/?linkid=282396)。
+如需 Skype for Business Online，請參閱[Lync Online](https://go.microsoft.com/fwlink/p/?linkid=282396)。
 
 </div>
 
