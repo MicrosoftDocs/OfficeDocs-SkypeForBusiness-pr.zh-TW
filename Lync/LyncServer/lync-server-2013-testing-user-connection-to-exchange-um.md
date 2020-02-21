@@ -12,16 +12,16 @@ ms:contentKeyID: 63969573
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b72552f56041103e381291bf13ab13283a3c47ee
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 9cf7189df06549a3008fd86b9395617c6aea3e98
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42141209"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42193726"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -64,7 +64,7 @@ _**上次修改主題：** 2014年-11-01_
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>說明
 
 **Test-csexumconnectivity** cmdlet 會驗證指定的使用者可以連線至 Microsoft Exchange Server 2013 整合通訊服務。 請注意，此 cmdlet 只會驗證，可以連線至服務。 它不會測試服務本身。 若要測試整合通訊服務 （藉由執行實際使用者的信箱中留下語音郵件訊息綜合交易 cmdlet） 使用 Test-csexumvoicemail cmdlet。
 

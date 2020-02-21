@@ -12,16 +12,16 @@ ms:contentKeyID: 63969603
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f6cd00192a7e2a9695a078768a6cf6ad9fac5873
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 83f9eb59a14fc0ede5cc5d61f0c9f8dff0e1e445
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42141259"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42193766"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -64,7 +64,7 @@ _**上次修改主題：** 2014年-11-03_
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>說明
 
 **Test-cswebscheduler** cmdlet 可讓您判斷特定的使用者是否可以排程會議使用 Web 排程器。 Web 排程器可讓使用者不執行 Outlook 重新排程線上會議。 除此之外，這項新功能 （，並包含 Web Scheduler 工具所隨附的 Microsoft Lync Server 2010 resource kit 中找到的功能） 可讓使用者：
 

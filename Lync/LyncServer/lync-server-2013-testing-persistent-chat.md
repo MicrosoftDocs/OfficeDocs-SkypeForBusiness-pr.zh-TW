@@ -12,16 +12,16 @@ ms:contentKeyID: 63969651
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 941f8830689c95fb782ac56594cd1d62785c1e1f
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 2177e4fce4d32bb2dc6c82e1f3fecae367eb2543
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42141349"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42193956"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -64,7 +64,7 @@ _**上次修改主題：** 2014年-11-03_
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>說明
 
 **Test-cspersistentchatmessage** cmdlet 會驗證測試使用者的一組可以交換郵件使用的常設聊天室服務。 若要這麼做，指令程式登入 Lync Server 2013 的兩個使用者、 使用者連到常設聊天室、 交換郵件的一組，然後結束聊天室並登出兩位使用者。 如果您沒有建立任何聊天室，或是如果兩個測試使用者帳戶未被指派的常設聊天室原則，可讓其存取常設聊天室服務，請注意，此 cmdlet 會呼叫將會失敗。
 

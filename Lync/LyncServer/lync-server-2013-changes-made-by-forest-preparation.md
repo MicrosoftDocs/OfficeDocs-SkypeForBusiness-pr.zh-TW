@@ -12,16 +12,16 @@ ms:contentKeyID: 48183734
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 709263aeffe1a8681275d943da702242944868b6
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 6954e8a4cd76e103516fd1f2323ef04d820dc056
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42151032"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42191556"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -75,7 +75,7 @@ _**主題上次修改日期：** 2012年-10-30_
 <thead>
 <tr class="header">
 <th>系統管理群組</th>
-<th>描述</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>
@@ -107,7 +107,7 @@ _**主題上次修改日期：** 2012年-10-30_
 <thead>
 <tr class="header">
 <th>基礎結構群組</th>
-<th>描述</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>
@@ -147,7 +147,7 @@ _**主題上次修改日期：** 2012年-10-30_
 <thead>
 <tr class="header">
 <th>服務群組</th>
-<th>描述</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>

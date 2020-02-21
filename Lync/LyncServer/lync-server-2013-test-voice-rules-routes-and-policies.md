@@ -12,16 +12,16 @@ ms:contentKeyID: 63969661
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8da7334e00c0361a5c8ad840dbf57ee7d5024763
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: bbf04728db30bada37e43f14b33420ede1ce9258
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42141549"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42194356"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -64,7 +64,7 @@ _**上次修改主題：** 2014年-05-20 個_
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>說明
 
 當使用者進行的通話時，呼叫會採用到達其目的地的路由會依的原則和撥號對應表指派給該使用者而定。 指定使用者的 SIP 地址和電話號碼，測試 CsVoiceUser cmdlet，驗證是否有問題的使用者可以完成該號碼。 如果測試成功，測試 CsVoiceUser 傳回下列結果：
 

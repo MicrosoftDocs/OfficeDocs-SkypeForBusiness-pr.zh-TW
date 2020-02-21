@@ -12,16 +12,16 @@ ms:contentKeyID: 63969576
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8d7012a318a6da720f07af5ba39248090f448a08
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 34e55661d2d28052f7672798059d458563ab5c8d
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42141249"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42193756"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -64,7 +64,7 @@ _**上次修改主題：** 2014年-11-01_
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>說明
 
 音訊會議提供者是組織可利用會議服務的協力廠商公司。 除此之外，音訊會議提供者可讓使用者位於關閉網站，而未連線至公司網路或網際網路，參與會議或會議的音訊部分。 音訊會議提供者通常會提供高階服務，例如即時翻譯，轉譯，和 live 每個會議的操作員協助。
 

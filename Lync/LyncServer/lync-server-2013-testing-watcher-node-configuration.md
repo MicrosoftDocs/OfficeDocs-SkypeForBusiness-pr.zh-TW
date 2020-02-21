@@ -12,16 +12,16 @@ ms:contentKeyID: 63969667
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 53780a34ea3dec6d0ae742333d5f3ce911ac71bb
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 6d5b73b0c56aa2f1ce4a0db2925354dd658ec2f0
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42141189"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42193686"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -64,7 +64,7 @@ _**上次修改主題：** 2014年-11-03_
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>說明
 
 如果您使用 Microsoft System Center Operations Manager 監視 Lync Server 2013，則您可以設定 「 監看員節點 」 的選擇： 定期，並自動執行綜合交易，若要驗證為正常到 Lync Server 的電腦預期的。 監看員節點指派給集區]，並使用**CsWatcherNodeConfiguration** cmdlet 所管理。 請注意，您不需要安裝監看員節點，如果您使用 System Center Operations Manager。 您仍然可以監視您的系統，而不需使用監看員節點。 唯一的差別在於，任何您想要執行的綜合交易必須叫用手動方式而不是自動叫用 Operations Manager。
 

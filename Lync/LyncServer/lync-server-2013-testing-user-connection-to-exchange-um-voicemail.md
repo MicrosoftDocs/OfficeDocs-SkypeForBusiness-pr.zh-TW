@@ -12,16 +12,16 @@ ms:contentKeyID: 63969604
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4fa3ad3f51d1342ac99d3c58be66931ba0770bf6
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: fd30591d651e6af587322a5d86cef9d5079f4ce6
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42141219"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42193736"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -64,7 +64,7 @@ _**上次修改主題：** 2014年-11-01_
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>說明
 
 **Test-csexumvoicemail** cmdlet 可讓系統管理員確認使用者可以存取及使用 Microsoft Exchange Server 2013 整合通訊服務。 若要這麼做，指令程式連接至整合通訊服務，並留下語音信箱在指定的信箱。 這可以是系統提供語音信箱，或自訂。您所錄製您自己的 WAV 檔案。
 

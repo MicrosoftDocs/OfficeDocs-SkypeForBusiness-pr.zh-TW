@@ -12,16 +12,16 @@ ms:contentKeyID: 63969606
 ms.date: 07/07/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 81c1698d576188a8bd87f94e5c61060267bf0fab
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 69dea9e2b75125740729f658e1c370838bb5d8bc
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42141449"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42194156"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -64,7 +64,7 @@ _**主題上次修改日期：** 2016年-07-07_
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>說明
 
 **Test-csdatabase** cmdlet 驗證連線至一或多個 Lync Server 2013 資料庫。 當執行時， **Test-csdatabase** cmdlet 會讀取 Lync Server 拓撲、 嘗試連線至相關的資料庫，並再回復報告成功或失敗的每個嘗試。 若連線成功，此 Cmdlet 亦會回報資料庫名稱、SQL Server 版本資訊與所安裝之鏡像資料庫的位置等資訊。
 

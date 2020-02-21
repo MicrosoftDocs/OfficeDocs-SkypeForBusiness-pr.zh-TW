@@ -12,16 +12,16 @@ ms:contentKeyID: 63969610
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8855abbb92accbae66048905869f20958e128019
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: af4bd6dd911b43714dffa48c3b21d3329b2aaa01
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42141239"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42193746"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -64,7 +64,7 @@ _**上次修改主題：** 2014年-11-03_
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>說明
 
 **Test-csucwaconference**會確認一組的測試使用者可以排程、 加入，然後進行線上會議使用 Unified Communications Web API (UCWA)。 若要這麼做，指令程式將使用 Lync Server 的 web 票證服務來驗證兩位測試使用者，以及它們登錄與 Lync Server。 接著，Cmdlet 會使用召集人認證來召開會議，然後邀請參與者加入會議。 加入會議之後， **test-csucwaconference**會確認使用者可以執行下列項目為交換立即訊息和管理辦法集區]，然後中斷會議及取消註冊的兩個測試使用者。 測試完成時，也會一併刪除排定的會議。
 

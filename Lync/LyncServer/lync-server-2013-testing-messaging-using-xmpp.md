@@ -12,16 +12,16 @@ ms:contentKeyID: 63969641
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b3ee4dc939ae0fbc1e62c30bb7dd431d3d940f6c
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 61eb53c5c2f3cfe74087599535541cfb8286ab55
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42141369"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42193986"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -64,7 +64,7 @@ _**上次修改主題：** 2014年-11-03_
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>說明
 
 Extensible Messaging and Presence Protocol (XMPP) 是標準的通訊協定 (XML 格式)，可用於在網際網路上傳送訊息。 XMPP 原本命名為 Jabber，並且受到數個網際網路通訊及通訊應用程式，例如 Google Talk 和 Facebook 聊天室。 **Test-csxmppim** cmdlet 會確認使用者可以與 XMPP 網路上的使用者交換立即訊息。 請注意，這項測試順利完成，您必須具備有效的 SIP 位址的 XMPP 使用者，和的 SIP 位址必須與已設定為允許的 XMPP 協力廠商的網路上。
 

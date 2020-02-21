@@ -12,16 +12,16 @@ ms:contentKeyID: 63969631
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4dc2b921d4e0d487c26532ad1e6102ab32d0162e
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 5476d47d0aac550d048e35e617d6d342084ccd75
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42141729"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42194536"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -64,7 +64,7 @@ _**上次修改主題：** 2014年-05-20 個_
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>說明
 
 語音路由配合語音原則，以協助將 Enterprise Voice 通話路由傳送至 PSTN 網路。 每個語音路由包含規則運算式 （數字模式），識別會路由傳送到特定的語音路由的電話號碼： 路由能夠處理任何符合此規則運算式的電話號碼。 例如，語音路由可能需要規則運算式，可讓它來處理任何 10 位數的數字。 這表示路由就能夠處理的電話號碼，例如此：
 

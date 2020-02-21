@@ -12,16 +12,16 @@ ms:contentKeyID: 63969620
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2b874c83adb2a1ddb511d8c6980cb12f01e0ef68
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 11c5e545bc00de48fa5590dc8c4b119a46ffe9e0
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42151083"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42190366"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -64,7 +64,7 @@ _**上次修改主題：** 2014年-11-01_
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>說明
 
 Get-cscertificate cmdlet 可讓您擷取每個 Lync 伺服器憑證的相關資訊。 這是特別重要，因為憑證具有內建到期日期。 例如、 私下發出的憑證通常 12 個月後過期。 如果任何您 Lync Server 的憑證到期然後該憑證會更新或取代之前，您會失去隨附的功能。
 
