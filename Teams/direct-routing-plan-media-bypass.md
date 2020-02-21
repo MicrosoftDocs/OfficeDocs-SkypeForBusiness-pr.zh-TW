@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 請閱讀本主題，以瞭解如何使用手機系統直接路由規劃媒體旁路。
-ms.openlocfilehash: 98f09d00960615c09dca8dcd78275a418d650f3e
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 7c7d82d1ac13ec1612403ba5fd20471e72173122
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41835973"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42214482"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>媒體旁路搭配直接路由方案
 
@@ -317,28 +317,28 @@ UDP/SRTP | 傳輸中繼 | SBC | 50 000-59 999    | 在 SBC 上定義 |
 UDP/SRTP | 媒體處理器 | SBC | 49 152 – 53 247    | 在 SBC 上定義 |
 | UDP/SRTP | SBC | 媒體處理器 | 在 SBC 上定義 | 49 152 – 53 247     |
 
-## <a name="considerations-if-you-have-skype-for-business-phones-in-your-network"></a>如果您在網路上有商務用 Skype 電話，請考慮  
+## <a name="configure-separate-trunks-for-media-bypass-and-non-media-bypass"></a>針對媒體旁路和非媒體旁路設定個別 trunks  
 
-如果您的網路中有任何使用 [直接傳送] 的商務用 Skype 端點（例如，小組使用者可以擁有以商務用 Skype 用戶端為基礎的3PIP 電話），則必須關閉為這些使用者提供服務的主幹上的媒體旁路。
-
-您可以為這些使用者建立單獨的幹線，並將其指派為線上語音路由策略。
+如果您是從非媒體旁路移植到媒體旁路，且想要在將所有使用方式遷移到媒體旁路之前確認功能，您可以建立個別的主幹及個別的線上語音路由原則，以路由到媒體旁路幹線並指派給特定使用者. 
 
 高層次的設定步驟：
 
-- 依類型分割使用者-視使用者是否有3PIP 電話而定。
+- 識別要測試媒體旁路的使用者。
 
 - 使用不同的 Fqdn 建立兩個不同的 trunks：一個為媒體略過啟用;另一種是。 
 
   兩個 trunks 都指向同一個 SBC。 TLS SIP 信號的埠必須不同。 媒體埠必須相同。
 
-- 根據線上語音路由策略中的使用者類型，指派正確的主幹。
+- 建立新的線上語音路由策略，並將媒體旁路主幹指派給與此原則之 PSTN 使用相關聯的對應路由。
+
+- 將新的線上語音路由策略指派給已識別用來測試媒體旁路的使用者。
 
 下列範例說明這個邏輯。
 
 | 使用者組 | 使用者數量 | 在 OVRP 中指派中繼 FQDN | 已啟用媒體旁路 |
 | :------------ |:----------------- |:--------------|:--------------|
-擁有團隊用戶端與3PIP 手機的使用者 | 20 | sbc1.contoso.com:5061 | 虛假 | 
-只有團隊結束點的使用者（包括為小組認證的新電話） | 980 | sbc2.contoso.com:5060 | 滿足
+非媒體旁路主幹的使用者 | 980 | sbc1.contoso.com:5060 | 滿足
+具有媒體旁路主幹的使用者 | 20 | sbc2.contoso.com:5061 | 虛假 | 
 
 兩個 trunks 都可以指向相同的同一個 SBC，且具有相同的公用 IP 位址。 SBC 上的 TLS 信號埠必須不同，如下圖所示。 注意：您必須確認您的憑證同時支援這兩個 trunks。 在 SAN 中，您必須有兩個名稱（**sbc1.contoso.com**和**sbc2.contoso.com**），或是擁有萬用字元證書。
 
@@ -354,9 +354,9 @@ UDP/SRTP | 媒體處理器 | SBC | 49 152 – 53 247    | 在 SBC 上定義 |
 
 ## <a name="client-endpoints-supported-with-media-bypass"></a>媒體略過支援的用戶端端點
 
-所有團隊端點都支援媒體旁路。
+所有團隊桌面用戶端和團隊手機裝置都支援媒體旁路。 
 
-注意：對於 web 用戶端（Microsoft Edge、Google Chrome 或 Mozilla Firefox）中的網頁用戶端（團隊 Web app），我們會將呼叫轉換成非旁路，即使它是繞過的呼叫。 這會自動發生，不需要系統管理員執行任何動作。 
+對於不支援媒體旁路的所有其他端點，我們會將呼叫轉換成非旁路，即使它是繞過的呼叫。 這會自動發生，不需要系統管理員執行任何動作。 這包括商務用 Skype 3PIP 手機以及支援直接路由呼叫的小組網頁用戶端（根據 Chromium、Google Chrome、Mozilla Firefox 的新 Microsoft Edge）。 
  
 ## <a name="see-also"></a>另請參閱
 

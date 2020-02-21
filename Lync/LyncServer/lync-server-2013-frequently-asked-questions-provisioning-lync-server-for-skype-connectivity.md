@@ -12,16 +12,16 @@ ms:contentKeyID: 57793362
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 718dda9966b79ca75f64df115dc9a6ba30d15619
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 3679999bc12f606fe338652e8bef22e455cec9ef
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42136991"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42214668"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -124,7 +124,7 @@ _**主題上次修改日期：** 2019年-03-22_
 
 2.  請稍候，直到您看到您的網域具有已由 Microsoft 所提供的確認。
 
-3.  您會看到確認之後，請開啟 「 外部通訊 」 使用 Lync 系統管理中心。 如需詳細資訊，請參閱[http://office.microsoft.com/support/configure-external-communications-HA102817865.aspx?CTT=5\&origin=HA102817356](http://office.microsoft.com/support/configure-external-communications-ha102817865.aspx?ctt=5%26origin=ha102817356)
+3.  您會看到確認之後，請開啟 「 外部通訊 」 使用 Lync 系統管理中心。 如需詳細資訊，請參閱[https://office.microsoft.com/support/configure-external-communications-HA102817865.aspx?CTT=5\&origin=HA102817356](https://office.microsoft.com/support/configure-external-communications-ha102817865.aspx?ctt=5%26origin=ha102817356)
 
 這個順序很重要。啟用 Lync Online 中的通訊之前，您必須設定內部部署連線能力。 如果順序為相反，輸入內部部署中的資訊<https://pic.lync.com>不會通過。 如果您已經有此網域與外部通訊設定好 Lync Online，您必須將它關閉，等候 24 小時、，然後再次啟動，第一次輸入您的內部部署資訊位於<https://pic.lync.com>，然後開啟 [Lync online 的外部通訊。
 
