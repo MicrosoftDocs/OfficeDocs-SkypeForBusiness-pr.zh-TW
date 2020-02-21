@@ -12,20 +12,20 @@ ms:contentKeyID: 49733590
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 91599149640a21c25cfccc229e7758ac644becc3
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: fcd8b7e4c3efa24c4279c6d5d2b7420b5ac2f6af
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42147076"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42213479"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dial-in-conferencing-access-numbers-in-lync-server-2013"></a><span data-ttu-id="1383d-102">Lync Server 2013 中的電話撥入式會議存取號碼</span><span class="sxs-lookup"><span data-stu-id="1383d-102">Dial-in conferencing access numbers in Lync Server 2013</span></span>
+# <a name="dial-in-conferencing-access-numbers-in-lync-server-2013"></a><span data-ttu-id="33374-102">Lync Server 2013 中的電話撥入式會議存取號碼</span><span class="sxs-lookup"><span data-stu-id="33374-102">Dial-in conferencing access numbers in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "42147076"
 
 <span> </span>
 
-<span data-ttu-id="1383d-103">_**主題上次修改日期：** 2012年-09-18_</span><span class="sxs-lookup"><span data-stu-id="1383d-103">_**Topic Last Modified:** 2012-09-18_</span></span>
+<span data-ttu-id="33374-103">_**主題上次修改日期：** 2012年-09-18_</span><span class="sxs-lookup"><span data-stu-id="33374-103">_**Topic Last Modified:** 2012-09-18_</span></span>
 
-<span data-ttu-id="1383d-p101">若要讓使用者透過從公用交換電話網路 (PSTN) 撥入的方式加入內部部署會議的音訊部分，您必須設定電話撥入式會議存取號碼。電話撥入式會議存取號碼是指使用者撥打以加入會議的號碼。</span><span class="sxs-lookup"><span data-stu-id="1383d-p101">To enable users to join the audio portion of on-premises conferences by dialing in from the public switched telephone network (PSTN), you must configure dial-in conferencing access numbers. Dial-in conferencing access numbers are the numbers that users call to join a conference.</span></span>
+<span data-ttu-id="33374-p101">若要讓使用者透過從公用交換電話網路 (PSTN) 撥入的方式加入內部部署會議的音訊部分，您必須設定電話撥入式會議存取號碼。電話撥入式會議存取號碼是指使用者撥打以加入會議的號碼。</span><span class="sxs-lookup"><span data-stu-id="33374-p101">To enable users to join the audio portion of on-premises conferences by dialing in from the public switched telephone network (PSTN), you must configure dial-in conferencing access numbers. Dial-in conferencing access numbers are the numbers that users call to join a conference.</span></span>
 
-<span data-ttu-id="1383d-106">撥入存取號碼會顯示於會議邀請函中，以及電話撥入式會議設定網頁上。</span><span class="sxs-lookup"><span data-stu-id="1383d-106">Dial-in access numbers are displayed in meeting invitations and on the Dial-in Conferencing Settings webpage.</span></span>
+<span data-ttu-id="33374-106">撥入存取號碼會顯示於會議邀請函中，以及電話撥入式會議設定網頁上。</span><span class="sxs-lookup"><span data-stu-id="33374-106">Dial-in access numbers are displayed in meeting invitations and on the Dial-in Conferencing Settings webpage.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="1383d-p102">在完成新撥入存取號碼的 Active Directory 複寫之前，您無法使用該存取號碼。複寫可能需要幾個小時才能完成。</span><span class="sxs-lookup"><span data-stu-id="1383d-p102">You cannot use a new dial-in access number until Active Directory replication of that access number is complete. Replication can take several hours.</span></span>
+> <span data-ttu-id="33374-p102">在完成新撥入存取號碼的 Active Directory 複寫之前，您無法使用該存取號碼。複寫可能需要幾個小時才能完成。</span><span class="sxs-lookup"><span data-stu-id="33374-p102">You cannot use a new dial-in access number until Active Directory replication of that access number is complete. Replication can take several hours.</span></span>
 
 
 
@@ -53,13 +53,13 @@ ms.locfileid: "42147076"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="1383d-109">本章節內容</span><span class="sxs-lookup"><span data-stu-id="1383d-109">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="33374-109">本章節內容</span><span class="sxs-lookup"><span data-stu-id="33374-109">In This Section</span></span>
 
-  - [<span data-ttu-id="1383d-110">Lync Server 2013 中檢視電話撥入式會議存取號碼</span><span class="sxs-lookup"><span data-stu-id="1383d-110">View dial-in conferencing access numbers in Lync Server 2013</span></span>](lync-server-2013-view-dial-in-conferencing-access-numbers.md)
+  - [<span data-ttu-id="33374-110">Lync Server 2013 中檢視電話撥入式會議存取號碼</span><span class="sxs-lookup"><span data-stu-id="33374-110">View dial-in conferencing access numbers in Lync Server 2013</span></span>](lync-server-2013-view-dial-in-conferencing-access-numbers.md)
 
-  - [<span data-ttu-id="1383d-111">建立或修改 Lync Server 2013 中的撥入式會議存取號碼</span><span class="sxs-lookup"><span data-stu-id="1383d-111">Create or modify a dial-in conferencing access number in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-dial-in-conferencing-access-number.md)
+  - [<span data-ttu-id="33374-111">建立或修改 Lync Server 2013 中的撥入式會議存取號碼</span><span class="sxs-lookup"><span data-stu-id="33374-111">Create or modify a dial-in conferencing access number in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-dial-in-conferencing-access-number.md)
 
-  - [<span data-ttu-id="1383d-112">刪除電話撥入式會議存取號碼在 Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1383d-112">Delete a dial-in conferencing access number in Lync Server 2013</span></span>](lync-server-2013-delete-a-dial-in-conferencing-access-number.md)
+  - [<span data-ttu-id="33374-112">刪除電話撥入式會議存取號碼在 Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="33374-112">Delete a dial-in conferencing access number in Lync Server 2013</span></span>](lync-server-2013-delete-a-dial-in-conferencing-access-number.md)
 
 </div>
 

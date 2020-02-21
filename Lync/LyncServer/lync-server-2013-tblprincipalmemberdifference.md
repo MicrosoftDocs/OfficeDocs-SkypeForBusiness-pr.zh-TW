@@ -12,20 +12,20 @@ ms:contentKeyID: 48183379
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cfdd2ff1ca0c288738005c8d0740770e7c43319f
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 8965a842adba2e1f0f3b1197ee392aec3ef10566
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42142009"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42214429"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tblprincipalmemberdifference-in-lync-server-2013"></a><span data-ttu-id="dc898-102">Lync Server 2013 中的 tblPrincipalMemberDifference</span><span class="sxs-lookup"><span data-stu-id="dc898-102">tblPrincipalMemberDifference in Lync Server 2013</span></span>
+# <a name="tblprincipalmemberdifference-in-lync-server-2013"></a><span data-ttu-id="bb166-102">Lync Server 2013 中的 tblPrincipalMemberDifference</span><span class="sxs-lookup"><span data-stu-id="bb166-102">tblPrincipalMemberDifference in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "42142009"
 
 <span> </span>
 
-<span data-ttu-id="dc898-103">_**主題上次修改日期：** 2012年-09-12_</span><span class="sxs-lookup"><span data-stu-id="dc898-103">_**Topic Last Modified:** 2012-09-12_</span></span>
+<span data-ttu-id="bb166-103">_**主題上次修改日期：** 2012年-09-12_</span><span class="sxs-lookup"><span data-stu-id="bb166-103">_**Topic Last Modified:** 2012-09-12_</span></span>
 
-<span data-ttu-id="dc898-104">tblPrincipalMemberDifference 包含稍後的 Active Directory 網域服務同步處理步驟尚未處理的群組成員資格變更 （新增和移除成員）。</span><span class="sxs-lookup"><span data-stu-id="dc898-104">tblPrincipalMemberDifference contains group membership changes (both added and removed members) that have not yet been processed by the later Active Directory Domain Services Sync steps.</span></span>
+<span data-ttu-id="bb166-104">tblPrincipalMemberDifference 包含稍後的 Active Directory 網域服務同步處理步驟尚未處理的群組成員資格變更 （新增和移除成員）。</span><span class="sxs-lookup"><span data-stu-id="bb166-104">tblPrincipalMemberDifference contains group membership changes (both added and removed members) that have not yet been processed by the later Active Directory Domain Services Sync steps.</span></span>
 
-### <a name="columns"></a><span data-ttu-id="dc898-105">Columns</span><span class="sxs-lookup"><span data-stu-id="dc898-105">Columns</span></span>
+### <a name="columns"></a><span data-ttu-id="bb166-105">Columns</span><span class="sxs-lookup"><span data-stu-id="bb166-105">Columns</span></span>
 
 <table>
 <colgroup>
@@ -49,32 +49,32 @@ ms.locfileid: "42142009"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="dc898-106">欄</span><span class="sxs-lookup"><span data-stu-id="dc898-106">Column</span></span></th>
-<th><span data-ttu-id="dc898-107">類型	</span><span class="sxs-lookup"><span data-stu-id="dc898-107">Type</span></span></th>
-<th><span data-ttu-id="dc898-108">描述</span><span class="sxs-lookup"><span data-stu-id="dc898-108">Description</span></span></th>
+<th><span data-ttu-id="bb166-106">欄</span><span class="sxs-lookup"><span data-stu-id="bb166-106">Column</span></span></th>
+<th><span data-ttu-id="bb166-107">類型	</span><span class="sxs-lookup"><span data-stu-id="bb166-107">Type</span></span></th>
+<th><span data-ttu-id="bb166-108">描述</span><span class="sxs-lookup"><span data-stu-id="bb166-108">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="dc898-109">prinGuid</span><span class="sxs-lookup"><span data-stu-id="dc898-109">prinGuid</span></span></p></td>
-<td><p><span data-ttu-id="dc898-110">GUID，非 null</span><span class="sxs-lookup"><span data-stu-id="dc898-110">GUID, not null</span></span></p></td>
-<td><p><span data-ttu-id="dc898-111">已變更群組的主體 GUID。</span><span class="sxs-lookup"><span data-stu-id="dc898-111">Principal GUID of the group that changed.</span></span></p></td>
+<td><p><span data-ttu-id="bb166-109">prinGuid</span><span class="sxs-lookup"><span data-stu-id="bb166-109">prinGuid</span></span></p></td>
+<td><p><span data-ttu-id="bb166-110">GUID，非 null</span><span class="sxs-lookup"><span data-stu-id="bb166-110">GUID, not null</span></span></p></td>
+<td><p><span data-ttu-id="bb166-111">已變更群組的主體 GUID。</span><span class="sxs-lookup"><span data-stu-id="bb166-111">Principal GUID of the group that changed.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="dc898-112">memberADPath</span><span class="sxs-lookup"><span data-stu-id="dc898-112">memberADPath</span></span></p></td>
-<td><p><span data-ttu-id="dc898-113">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="dc898-113">nvarchar (256)</span></span></p></td>
-<td><p><span data-ttu-id="dc898-114">成員的辨別名稱。</span><span class="sxs-lookup"><span data-stu-id="dc898-114">Distinguished name of the member.</span></span></p></td>
+<td><p><span data-ttu-id="bb166-112">memberADPath</span><span class="sxs-lookup"><span data-stu-id="bb166-112">memberADPath</span></span></p></td>
+<td><p><span data-ttu-id="bb166-113">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="bb166-113">nvarchar (256)</span></span></p></td>
+<td><p><span data-ttu-id="bb166-114">成員的辨別名稱。</span><span class="sxs-lookup"><span data-stu-id="bb166-114">Distinguished name of the member.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="dc898-115">memberRemoved</span><span class="sxs-lookup"><span data-stu-id="dc898-115">memberRemoved</span></span></p></td>
-<td><p><span data-ttu-id="dc898-116">bit，非 null</span><span class="sxs-lookup"><span data-stu-id="dc898-116">bit, not null</span></span></p></td>
-<td><p><span data-ttu-id="dc898-p101">False 表示已新增成員；True 表示已移除成員。</span><span class="sxs-lookup"><span data-stu-id="dc898-p101">False if the member was added. True if the member was removed.</span></span></p></td>
+<td><p><span data-ttu-id="bb166-115">memberRemoved</span><span class="sxs-lookup"><span data-stu-id="bb166-115">memberRemoved</span></span></p></td>
+<td><p><span data-ttu-id="bb166-116">bit，非 null</span><span class="sxs-lookup"><span data-stu-id="bb166-116">bit, not null</span></span></p></td>
+<td><p><span data-ttu-id="bb166-p101">False 表示已新增成員；True 表示已移除成員。</span><span class="sxs-lookup"><span data-stu-id="bb166-p101">False if the member was added. True if the member was removed.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="key"></a><span data-ttu-id="dc898-119">索引鍵</span><span class="sxs-lookup"><span data-stu-id="dc898-119">Key</span></span>
+### <a name="key"></a><span data-ttu-id="bb166-119">索引鍵</span><span class="sxs-lookup"><span data-stu-id="bb166-119">Key</span></span>
 
 <table>
 <colgroup>
@@ -83,14 +83,14 @@ ms.locfileid: "42142009"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="dc898-120">欄</span><span class="sxs-lookup"><span data-stu-id="dc898-120">Column</span></span></th>
-<th><span data-ttu-id="dc898-121">描述</span><span class="sxs-lookup"><span data-stu-id="dc898-121">Description</span></span></th>
+<th><span data-ttu-id="bb166-120">欄</span><span class="sxs-lookup"><span data-stu-id="bb166-120">Column</span></span></th>
+<th><span data-ttu-id="bb166-121">描述</span><span class="sxs-lookup"><span data-stu-id="bb166-121">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="dc898-122">&lt;prinGuid memberADPath&gt;</span><span class="sxs-lookup"><span data-stu-id="dc898-122">&lt;prinGuid, memberADPath&gt;</span></span></p></td>
-<td><p><span data-ttu-id="dc898-123">主索引鍵。</span><span class="sxs-lookup"><span data-stu-id="dc898-123">Primary key.</span></span></p></td>
+<td><p><span data-ttu-id="bb166-122">&lt;prinGuid memberADPath&gt;</span><span class="sxs-lookup"><span data-stu-id="bb166-122">&lt;prinGuid, memberADPath&gt;</span></span></p></td>
+<td><p><span data-ttu-id="bb166-123">主索引鍵。</span><span class="sxs-lookup"><span data-stu-id="bb166-123">Primary key.</span></span></p></td>
 </tr>
 </tbody>
 </table>
