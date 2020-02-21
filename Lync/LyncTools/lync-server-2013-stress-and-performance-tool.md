@@ -12,20 +12,20 @@ ms:contentKeyID: 51541435
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8269184e109d7bbfb3893394a41f003dc701b75a
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 46854a6cb81c636acc334c01054474483f965302
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42146316"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42196176"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-server-2013-stress-and-performance-tool"></a><span data-ttu-id="8907b-102">Lync Server 2013 壓力及效能工具</span><span class="sxs-lookup"><span data-stu-id="8907b-102">Lync Server 2013 Stress and Performance Tool</span></span>
+# <a name="lync-server-2013-stress-and-performance-tool"></a><span data-ttu-id="c6a31-102">Lync Server 2013 壓力及效能工具</span><span class="sxs-lookup"><span data-stu-id="c6a31-102">Lync Server 2013 Stress and Performance Tool</span></span>
 
 </div>
 
@@ -35,37 +35,37 @@ ms.locfileid: "42146316"
 
 <span> </span>
 
-<span data-ttu-id="8907b-103">_**上次修改主題：** 2013年-01-25_</span><span class="sxs-lookup"><span data-stu-id="8907b-103">_**Topic Last Modified:** 2013-01-25_</span></span>
+<span data-ttu-id="c6a31-103">_**上次修改主題：** 2013年-01-25_</span><span class="sxs-lookup"><span data-stu-id="c6a31-103">_**Topic Last Modified:** 2013-01-25_</span></span>
 
-<span data-ttu-id="8907b-104">Lync Server 2013 壓力及效能工具包括工具可簡化 Lync Server 2013 的容量計劃。</span><span class="sxs-lookup"><span data-stu-id="8907b-104">The Lync Server 2013 Stress and Performance Tool includes tools that simplify capacity planning for Lync Server 2013.</span></span> <span data-ttu-id="8907b-105">Lync Server 2013 壓力及效能工具可協助您：</span><span class="sxs-lookup"><span data-stu-id="8907b-105">The Lync Server 2013 Stress and Performance Tool will help you to:</span></span>
+<span data-ttu-id="c6a31-104">Lync Server 2013 壓力及效能工具包括工具可簡化 Lync Server 2013 的容量計劃。</span><span class="sxs-lookup"><span data-stu-id="c6a31-104">The Lync Server 2013 Stress and Performance Tool includes tools that simplify capacity planning for Lync Server 2013.</span></span> <span data-ttu-id="c6a31-105">Lync Server 2013 壓力及效能工具可協助您：</span><span class="sxs-lookup"><span data-stu-id="c6a31-105">The Lync Server 2013 Stress and Performance Tool will help you to:</span></span>
 
-  - <span data-ttu-id="8907b-106">簡化您規劃 Lync Server 2013 的硬體。</span><span class="sxs-lookup"><span data-stu-id="8907b-106">Simplify your hardware planning for Lync Server 2013 .</span></span>
+  - <span data-ttu-id="c6a31-106">簡化您規劃 Lync Server 2013 的硬體。</span><span class="sxs-lookup"><span data-stu-id="c6a31-106">Simplify your hardware planning for Lync Server 2013 .</span></span>
 
-  - <span data-ttu-id="8907b-107">會提供增強的知識和最佳作法與效能調整。</span><span class="sxs-lookup"><span data-stu-id="8907b-107">Provide you with increased knowledge and best practices for performance tuning.</span></span>
+  - <span data-ttu-id="c6a31-107">會提供增強的知識和最佳作法與效能調整。</span><span class="sxs-lookup"><span data-stu-id="c6a31-107">Provide you with increased knowledge and best practices for performance tuning.</span></span>
 
-  - <span data-ttu-id="8907b-108">測量預定 Lync Server 2013 部署的效能。</span><span class="sxs-lookup"><span data-stu-id="8907b-108">Measure the performance of your intended Lync Server 2013 deployments.</span></span>
+  - <span data-ttu-id="c6a31-108">測量預定 Lync Server 2013 部署的效能。</span><span class="sxs-lookup"><span data-stu-id="c6a31-108">Measure the performance of your intended Lync Server 2013 deployments.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="8907b-109">本章節內容</span><span class="sxs-lookup"><span data-stu-id="8907b-109">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="c6a31-109">本章節內容</span><span class="sxs-lookup"><span data-stu-id="c6a31-109">In This Section</span></span>
 
-1.  [<span data-ttu-id="8907b-110">簡介</span><span class="sxs-lookup"><span data-stu-id="8907b-110">Introduction</span></span>](introduction.md)
+1.  [<span data-ttu-id="c6a31-110">簡介</span><span class="sxs-lookup"><span data-stu-id="c6a31-110">Introduction</span></span>](introduction.md)
 
-2.  [<span data-ttu-id="8907b-111">必要條件</span><span class="sxs-lookup"><span data-stu-id="8907b-111">Prerequisites</span></span>](prerequisites.md)
+2.  [<span data-ttu-id="c6a31-111">必要條件</span><span class="sxs-lookup"><span data-stu-id="c6a31-111">Prerequisites</span></span>](prerequisites.md)
 
-3.  [<span data-ttu-id="8907b-112">安裝程式</span><span class="sxs-lookup"><span data-stu-id="8907b-112">Setup</span></span>](setup.md)
+3.  [<span data-ttu-id="c6a31-112">安裝程式</span><span class="sxs-lookup"><span data-stu-id="c6a31-112">Setup</span></span>](setup.md)
 
-4.  [<span data-ttu-id="8907b-113">設定 Lync Server 2013 案例</span><span class="sxs-lookup"><span data-stu-id="8907b-113">Configure Lync Server 2013 Scenarios</span></span>](configure-lync-server-2013-scenarios.md)
+4.  [<span data-ttu-id="c6a31-113">設定 Lync Server 2013 案例</span><span class="sxs-lookup"><span data-stu-id="c6a31-113">Configure Lync Server 2013 Scenarios</span></span>](configure-lync-server-2013-scenarios.md)
 
-5.  [<span data-ttu-id="8907b-114">建立使用者和連絡人</span><span class="sxs-lookup"><span data-stu-id="8907b-114">Create Users and Contacts</span></span>](create-users-and-contacts.md)
+5.  [<span data-ttu-id="c6a31-114">建立使用者和連絡人</span><span class="sxs-lookup"><span data-stu-id="c6a31-114">Create Users and Contacts</span></span>](create-users-and-contacts.md)
 
-6.  [<span data-ttu-id="8907b-115">設定使用者設定檔</span><span class="sxs-lookup"><span data-stu-id="8907b-115">Configure User Profile</span></span>](configure-user-profile.md)
+6.  [<span data-ttu-id="c6a31-115">設定使用者設定檔</span><span class="sxs-lookup"><span data-stu-id="c6a31-115">Configure User Profile</span></span>](configure-user-profile.md)
 
-7.  [<span data-ttu-id="8907b-116">執行 LyncPerfTool</span><span class="sxs-lookup"><span data-stu-id="8907b-116">Run LyncPerfTool</span></span>](run-lyncperftool.md)
+7.  [<span data-ttu-id="c6a31-116">執行 LyncPerfTool</span><span class="sxs-lookup"><span data-stu-id="c6a31-116">Run LyncPerfTool</span></span>](run-lyncperftool.md)
 
-8.  [<span data-ttu-id="8907b-117">解譯結果</span><span class="sxs-lookup"><span data-stu-id="8907b-117">Interpreting the Results</span></span>](interpreting-the-results.md)
+8.  [<span data-ttu-id="c6a31-117">解譯結果</span><span class="sxs-lookup"><span data-stu-id="c6a31-117">Interpreting the Results</span></span>](interpreting-the-results.md)
 
-9.  [<span data-ttu-id="8907b-118">Lync Server 2013 壓力及效能工具常見問題集</span><span class="sxs-lookup"><span data-stu-id="8907b-118">Lync Server 2013 Stress and Performance Tool FAQ</span></span>](lync-server-2013-stress-and-performance-tool-faq.md)
+9.  [<span data-ttu-id="c6a31-118">Lync Server 2013 壓力及效能工具常見問題集</span><span class="sxs-lookup"><span data-stu-id="c6a31-118">Lync Server 2013 Stress and Performance Tool FAQ</span></span>](lync-server-2013-stress-and-performance-tool-faq.md)
 
 </div>
 

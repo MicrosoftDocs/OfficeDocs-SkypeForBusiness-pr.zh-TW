@@ -12,20 +12,20 @@ ms:contentKeyID: 48706013
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f9e918d5c1f888d508220279426d6d6125f1416f
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 44138fba7524f74f660073f31a6af075d889ea64
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42137864"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42196436"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="adding-domains-of-users-and-user-groups-to-the-room-category-in-lync-server-2013"></a><span data-ttu-id="6bc7e-102">將網域的使用者與使用者群組新增至 Lync Server 2013 中的 [會議室] 類別</span><span class="sxs-lookup"><span data-stu-id="6bc7e-102">Adding domains of users and user groups to the room category in Lync Server 2013</span></span>
+# <a name="adding-domains-of-users-and-user-groups-to-the-room-category-in-lync-server-2013"></a><span data-ttu-id="eda8a-102">將網域的使用者與使用者群組新增至 Lync Server 2013 中的 [會議室] 類別</span><span class="sxs-lookup"><span data-stu-id="eda8a-102">Adding domains of users and user groups to the room category in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "42137864"
 
 <span> </span>
 
-<span data-ttu-id="6bc7e-103">_**上次修改主題：** 2014年-02-07_</span><span class="sxs-lookup"><span data-stu-id="6bc7e-103">_**Topic Last Modified:** 2014-02-07_</span></span>
+<span data-ttu-id="eda8a-103">_**上次修改主題：** 2014年-02-07_</span><span class="sxs-lookup"><span data-stu-id="eda8a-103">_**Topic Last Modified:** 2014-02-07_</span></span>
 
-<span data-ttu-id="6bc7e-104">若要將大型使用者群組新增至聊天室，請參閱部署文件中的[Lync Server 2013 中的 Configure categories](lync-server-2013-configure-categories.md)和[Manage categories](manage-categories.md) 。</span><span class="sxs-lookup"><span data-stu-id="6bc7e-104">To add larger groups of users to a chat room, see [Configure categories in Lync Server 2013](lync-server-2013-configure-categories.md) and [Manage categories](manage-categories.md) in the Deployment documentation.</span></span> <span data-ttu-id="6bc7e-105">例如，此命令會將所有使用者從 active Directory 中的 NorthAmericaUsers OU 加入 NorthAmerica 聊天室時亦可：</span><span class="sxs-lookup"><span data-stu-id="6bc7e-105">For example, this command adds all the users from the NorthAmericaUsers OU in active Directory to the NorthAmerica chat room:</span></span>
+<span data-ttu-id="eda8a-104">若要將大型使用者群組新增至聊天室，請參閱部署文件中的[Lync Server 2013 中的 Configure categories](lync-server-2013-configure-categories.md)和[Manage categories](manage-categories.md) 。</span><span class="sxs-lookup"><span data-stu-id="eda8a-104">To add larger groups of users to a chat room, see [Configure categories in Lync Server 2013](lync-server-2013-configure-categories.md) and [Manage categories](manage-categories.md) in the Deployment documentation.</span></span> <span data-ttu-id="eda8a-105">例如，此命令會將所有使用者從 active Directory 中的 NorthAmericaUsers OU 加入 NorthAmerica 聊天室時亦可：</span><span class="sxs-lookup"><span data-stu-id="eda8a-105">For example, this command adds all the users from the NorthAmericaUsers OU in active Directory to the NorthAmerica chat room:</span></span>
 
     Set-CsPersistentChatRoom -PersistentChatPoolFqdn "atl-cs-001.litwareinc.com\NorthAmerica" -Members @{Add="OU=NorthAmericaUsers,DC=litwareinc,DC=com"}
 
-<span data-ttu-id="6bc7e-106">他的命令會將所有成員從 Finance 通訊群組都新增至相同的聊天室：</span><span class="sxs-lookup"><span data-stu-id="6bc7e-106">His command adds all the members from the Finance distribution group to the same chat room:</span></span>
+<span data-ttu-id="eda8a-106">他的命令會將所有成員從 Finance 通訊群組都新增至相同的聊天室：</span><span class="sxs-lookup"><span data-stu-id="eda8a-106">His command adds all the members from the Finance distribution group to the same chat room:</span></span>
 
     Set-CsPersistentChatRoom -PersistentChatPoolFqdn "atl-cs-001.litwareinc.com\NorthAmerica" -Members @{Add="CN=Finance,OU=ExternalUsers,DC=litwareinc,DC=com"}
 

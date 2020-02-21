@@ -12,20 +12,20 @@ ms:contentKeyID: 48183222
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fb0e195b10f5c368e2b12d2dfdc00be0fa1b3da2
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 9905fa6de1f8461d81ffe9d7e5cf79108c35e80c
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42154945"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42198676"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="hosted-exchange-um-integration-architecture-in-lync-server-2013"></a><span data-ttu-id="e5e3c-102">主控的 Exchange UM 整合架構在 Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e5e3c-102">Hosted Exchange UM integration architecture in Lync Server 2013</span></span>
+# <a name="hosted-exchange-um-integration-architecture-in-lync-server-2013"></a><span data-ttu-id="7bbab-102">主控的 Exchange UM 整合架構在 Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7bbab-102">Hosted Exchange UM integration architecture in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,74 +35,74 @@ ms.locfileid: "42154945"
 
 <span> </span>
 
-<span data-ttu-id="e5e3c-103">_**主題上次修改日期：** 2012年-09-25_</span><span class="sxs-lookup"><span data-stu-id="e5e3c-103">_**Topic Last Modified:** 2012-09-25_</span></span>
+<span data-ttu-id="7bbab-103">_**主題上次修改日期：** 2012年-09-25_</span><span class="sxs-lookup"><span data-stu-id="7bbab-103">_**Topic Last Modified:** 2012-09-25_</span></span>
 
-<span data-ttu-id="e5e3c-104">Lync Server 2013 ExUM Routing 應用程式支援整合內部部署 Exchange 整合通訊 (UM) 部署與 Exchange UM 裝載提供者服務，或使用兩者的組合。</span><span class="sxs-lookup"><span data-stu-id="e5e3c-104">The Lync Server 2013 ExUM Routing application supports integration with an on-premises Exchange Unified Messaging (UM) deployment, with Exchange UM hosted by a service provider, or with a combination of the two.</span></span> <span data-ttu-id="e5e3c-105">下圖顯示所有三個可能性。</span><span class="sxs-lookup"><span data-stu-id="e5e3c-105">The following diagram shows all three possibilities.</span></span>
+<span data-ttu-id="7bbab-104">Lync Server 2013 ExUM Routing 應用程式支援整合內部部署 Exchange 整合通訊 (UM) 部署與 Exchange UM 裝載提供者服務，或使用兩者的組合。</span><span class="sxs-lookup"><span data-stu-id="7bbab-104">The Lync Server 2013 ExUM Routing application supports integration with an on-premises Exchange Unified Messaging (UM) deployment, with Exchange UM hosted by a service provider, or with a combination of the two.</span></span> <span data-ttu-id="7bbab-105">下圖顯示所有三個可能性。</span><span class="sxs-lookup"><span data-stu-id="7bbab-105">The following diagram shows all three possibilities.</span></span>
 
-<span data-ttu-id="e5e3c-106">**與內部部署 Exchange UM 和兩個託管式 Exchange 提供者整合**</span><span class="sxs-lookup"><span data-stu-id="e5e3c-106">**Integration with an on-premises Exchange UM deployment and two hosted Exchange providers**</span></span>
+<span data-ttu-id="7bbab-106">**與內部部署 Exchange UM 和兩個託管式 Exchange 提供者整合**</span><span class="sxs-lookup"><span data-stu-id="7bbab-106">**Integration with an on-premises Exchange UM deployment and two hosted Exchange providers**</span></span>
 
-<span data-ttu-id="e5e3c-107">![內部部署 Lync Server Exchange UM 部署](images/Gg398821.d6498eb9-87ee-40f3-8ecd-852f91546590(OCS.15).jpg "內部部署 Lync Server Exchange UM 部署")</span><span class="sxs-lookup"><span data-stu-id="e5e3c-107">![On-premises Lync Server Exchange UM Deployment](images/Gg398821.d6498eb9-87ee-40f3-8ecd-852f91546590(OCS.15).jpg "On-premises Lync Server Exchange UM Deployment")</span></span>
+<span data-ttu-id="7bbab-107">![內部部署 Lync Server Exchange UM 部署](images/Gg398821.d6498eb9-87ee-40f3-8ecd-852f91546590(OCS.15).jpg "內部部署 Lync Server Exchange UM 部署")</span><span class="sxs-lookup"><span data-stu-id="7bbab-107">![On-premises Lync Server Exchange UM Deployment](images/Gg398821.d6498eb9-87ee-40f3-8ecd-852f91546590(OCS.15).jpg "On-premises Lync Server Exchange UM Deployment")</span></span>
 
-<span data-ttu-id="e5e3c-108">支援下列模式：</span><span class="sxs-lookup"><span data-stu-id="e5e3c-108">The following modes are supported:</span></span>
+<span data-ttu-id="7bbab-108">支援下列模式：</span><span class="sxs-lookup"><span data-stu-id="7bbab-108">The following modes are supported:</span></span>
 
-  - <span data-ttu-id="e5e3c-109">**內部部署：** Lync Server 2013 和 Exchange UM 都部署於您企業內的本機伺服器上。</span><span class="sxs-lookup"><span data-stu-id="e5e3c-109">**On-premises deployment:** Lync Server 2013 and Exchange UM are both deployed on local servers within your enterprise.</span></span>
+  - <span data-ttu-id="7bbab-109">**內部部署：** Lync Server 2013 和 Exchange UM 都部署於您企業內的本機伺服器上。</span><span class="sxs-lookup"><span data-stu-id="7bbab-109">**On-premises deployment:** Lync Server 2013 and Exchange UM are both deployed on local servers within your enterprise.</span></span>
 
-  - <span data-ttu-id="e5e3c-110">**跨單位部署：** Lync Server 2013 部署在您企業內的本機伺服器上，而 Exchange UM 裝載於線上服務提供者的設備，例如 Microsoft Exchange 線上資料中心。</span><span class="sxs-lookup"><span data-stu-id="e5e3c-110">**Cross-premises deployment:** Lync Server 2013 is deployed on local servers within your enterprise and Exchange UM is hosted in an online service provider’s facility, such as a Microsoft Exchange Online data center.</span></span>
+  - <span data-ttu-id="7bbab-110">**跨單位部署：** Lync Server 2013 部署在您企業內的本機伺服器上，而 Exchange UM 裝載於線上服務提供者的設備，例如 Microsoft Exchange 線上資料中心。</span><span class="sxs-lookup"><span data-stu-id="7bbab-110">**Cross-premises deployment:** Lync Server 2013 is deployed on local servers within your enterprise and Exchange UM is hosted in an online service provider’s facility, such as a Microsoft Exchange Online data center.</span></span>
 
-  - <span data-ttu-id="e5e3c-111">**混合部署：** Lync Server 2013 部署有一些使用者信箱隸屬於本機 Exchange 伺服器在您的企業和部分信箱位於託管式 Exchange 服務資料中心。</span><span class="sxs-lookup"><span data-stu-id="e5e3c-111">**Mixed deployment:** Your Lync Server 2013 deployment has some user mailboxes homed on local Exchange servers within your enterprise and some mailboxes homed in a hosted Exchange service data center.</span></span>
+  - <span data-ttu-id="7bbab-111">**混合部署：** Lync Server 2013 部署有一些使用者信箱隸屬於本機 Exchange 伺服器在您的企業和部分信箱位於託管式 Exchange 服務資料中心。</span><span class="sxs-lookup"><span data-stu-id="7bbab-111">**Mixed deployment:** Your Lync Server 2013 deployment has some user mailboxes homed on local Exchange servers within your enterprise and some mailboxes homed in a hosted Exchange service data center.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="e5e3c-112">混合部署可以作為過渡解決方案 (例如進行評估以及將使用者分階段移轉至託管式 Exchange UM 的期間) 或永久解決方案 (如果您在進行部分移轉後，決定將其餘使用者的 Exchange UM 服務繼續留在內部部署)。</span><span class="sxs-lookup"><span data-stu-id="e5e3c-112">The mixed deployment can be used as a transitional solution during evaluation and phased migration of users to hosted Exchange UM, or a permanent solution if you opt to keep some users’ Exchange UM services on-premises after transferring others.</span></span>
+    > <span data-ttu-id="7bbab-112">混合部署可以作為過渡解決方案 (例如進行評估以及將使用者分階段移轉至託管式 Exchange UM 的期間) 或永久解決方案 (如果您在進行部分移轉後，決定將其餘使用者的 Exchange UM 服務繼續留在內部部署)。</span><span class="sxs-lookup"><span data-stu-id="7bbab-112">The mixed deployment can be used as a transitional solution during evaluation and phased migration of users to hosted Exchange UM, or a permanent solution if you opt to keep some users’ Exchange UM services on-premises after transferring others.</span></span>
 
     
     </div>
 
 <div>
 
-## <a name="shared-sip-address-space"></a><span data-ttu-id="e5e3c-113">共用 SIP 位址空間</span><span class="sxs-lookup"><span data-stu-id="e5e3c-113">Shared SIP Address Space</span></span>
+## <a name="shared-sip-address-space"></a><span data-ttu-id="7bbab-113">共用 SIP 位址空間</span><span class="sxs-lookup"><span data-stu-id="7bbab-113">Shared SIP Address Space</span></span>
 
-<span data-ttu-id="e5e3c-114">若要與內部部署 Exchange UM 整合 Lync Server 2013，您授與 Lync Server 2013 權限以讀取 Exchange UM Active Directory 網域服務物件。</span><span class="sxs-lookup"><span data-stu-id="e5e3c-114">To integrate Lync Server 2013 with an on-premises Exchange UM deployment, you grant Lync Server 2013 permission to read Exchange UM Active Directory Domain Services objects.</span></span> <span data-ttu-id="e5e3c-115">此方法不適用於整合主控 Exchange UM，不過，因為在不同樹系與它們之間不信任已安裝 Lync Server 2013 和 Exchange UM。</span><span class="sxs-lookup"><span data-stu-id="e5e3c-115">This approach does not work for integration with hosted Exchange UM, however, because Lync Server 2013 and Exchange UM are installed in separate forests with no trust between them.</span></span>
+<span data-ttu-id="7bbab-114">若要與內部部署 Exchange UM 整合 Lync Server 2013，您授與 Lync Server 2013 權限以讀取 Exchange UM Active Directory 網域服務物件。</span><span class="sxs-lookup"><span data-stu-id="7bbab-114">To integrate Lync Server 2013 with an on-premises Exchange UM deployment, you grant Lync Server 2013 permission to read Exchange UM Active Directory Domain Services objects.</span></span> <span data-ttu-id="7bbab-115">此方法不適用於整合主控 Exchange UM，不過，因為在不同樹系與它們之間不信任已安裝 Lync Server 2013 和 Exchange UM。</span><span class="sxs-lookup"><span data-stu-id="7bbab-115">This approach does not work for integration with hosted Exchange UM, however, because Lync Server 2013 and Exchange UM are installed in separate forests with no trust between them.</span></span>
 
-<span data-ttu-id="e5e3c-116">若要與裝載 Exchange UM 整合 Lync Server 2013，您必須設定*共用的 SIP 位址空間*。</span><span class="sxs-lookup"><span data-stu-id="e5e3c-116">To integrate Lync Server 2013 with hosted Exchange UM, you must configure a *shared SIP address space*.</span></span> <span data-ttu-id="e5e3c-117">在此組態中，相同的 SIP 網域位址空間僅適用於 Lync Server 2013 及 hosted 的 Exchange UM 服務提供者。</span><span class="sxs-lookup"><span data-stu-id="e5e3c-117">In this configuration, the same SIP domain address space is available to both Lync Server 2013 and the hosted Exchange UM service provider.</span></span>
+<span data-ttu-id="7bbab-116">若要與裝載 Exchange UM 整合 Lync Server 2013，您必須設定*共用的 SIP 位址空間*。</span><span class="sxs-lookup"><span data-stu-id="7bbab-116">To integrate Lync Server 2013 with hosted Exchange UM, you must configure a *shared SIP address space*.</span></span> <span data-ttu-id="7bbab-117">在此組態中，相同的 SIP 網域位址空間僅適用於 Lync Server 2013 及 hosted 的 Exchange UM 服務提供者。</span><span class="sxs-lookup"><span data-stu-id="7bbab-117">In this configuration, the same SIP domain address space is available to both Lync Server 2013 and the hosted Exchange UM service provider.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="e5e3c-118">使用共用的 SIP 位址空間會類似的跨單位部署 Lync Server 2013 環境中，在其中某些使用者皆位於內部部署和部分皆位於 （例如 [Lync Online) 裝載部署中使用的方法。</span><span class="sxs-lookup"><span data-stu-id="e5e3c-118">Use of the shared SIP address space is similar to the approach used in a cross-premises Lync Server 2013 environment, in which some users are homed in the on-premises deployment and some are homed in a hosted deployment (such as Lync Online).</span></span> <span data-ttu-id="e5e3c-119">SIP 網域被這兩者分割。</span><span class="sxs-lookup"><span data-stu-id="e5e3c-119">The SIP domain is split between them.</span></span> <span data-ttu-id="e5e3c-120">當您在與裝載 Exchange UM 整合 Lync Server 2013 時，請確定您在共用 SIP 位址空間中包含 Exchange UM 服務提供者。</span><span class="sxs-lookup"><span data-stu-id="e5e3c-120">When you integrate Lync Server 2013 with hosted Exchange UM, ensure that you include the Exchange UM service provider in the shared SIP address space.</span></span>
+> <span data-ttu-id="7bbab-118">使用共用的 SIP 位址空間會類似的跨單位部署 Lync Server 2013 環境中，在其中某些使用者皆位於內部部署和部分皆位於 （例如 [Lync Online) 裝載部署中使用的方法。</span><span class="sxs-lookup"><span data-stu-id="7bbab-118">Use of the shared SIP address space is similar to the approach used in a cross-premises Lync Server 2013 environment, in which some users are homed in the on-premises deployment and some are homed in a hosted deployment (such as Lync Online).</span></span> <span data-ttu-id="7bbab-119">SIP 網域被這兩者分割。</span><span class="sxs-lookup"><span data-stu-id="7bbab-119">The SIP domain is split between them.</span></span> <span data-ttu-id="7bbab-120">當您在與裝載 Exchange UM 整合 Lync Server 2013 時，請確定您在共用 SIP 位址空間中包含 Exchange UM 服務提供者。</span><span class="sxs-lookup"><span data-stu-id="7bbab-120">When you integrate Lync Server 2013 with hosted Exchange UM, ensure that you include the Exchange UM service provider in the shared SIP address space.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="e5e3c-121">若要設定共用 SIP 位址空間以便與 Exchange UM 服務提供者整合，您必須如下設定 Edge Server：</span><span class="sxs-lookup"><span data-stu-id="e5e3c-121">To configure the shared SIP address space for integrating with an Exchange UM service provider, you need to configure your Edge Server as follows:</span></span>
+<span data-ttu-id="7bbab-121">若要設定共用 SIP 位址空間以便與 Exchange UM 服務提供者整合，您必須如下設定 Edge Server：</span><span class="sxs-lookup"><span data-stu-id="7bbab-121">To configure the shared SIP address space for integrating with an Exchange UM service provider, you need to configure your Edge Server as follows:</span></span>
 
-1.  <span data-ttu-id="e5e3c-122">設定 Edge Server 進行同盟，作法為執行 **Set-CsAccessEdgeConfiguration** Cmdlet 以設定下列參數：</span><span class="sxs-lookup"><span data-stu-id="e5e3c-122">Configure the Edge Server for federation by running the **Set-CsAccessEdgeConfiguration** cmdlet to set the following parameters:</span></span>
+1.  <span data-ttu-id="7bbab-122">設定 Edge Server 進行同盟，作法為執行 **Set-CsAccessEdgeConfiguration** Cmdlet 以設定下列參數：</span><span class="sxs-lookup"><span data-stu-id="7bbab-122">Configure the Edge Server for federation by running the **Set-CsAccessEdgeConfiguration** cmdlet to set the following parameters:</span></span>
     
-      - <span data-ttu-id="e5e3c-123">**UseDnsSrvRouting** 指定 Edge Server 傳送和接收同盟要求時將依賴 DNS SRV 記錄。</span><span class="sxs-lookup"><span data-stu-id="e5e3c-123">**UseDnsSrvRouting** specifies that Edge Servers will rely on DNS SRV records when sending and receiving federation requests.</span></span>
+      - <span data-ttu-id="7bbab-123">**UseDnsSrvRouting** 指定 Edge Server 傳送和接收同盟要求時將依賴 DNS SRV 記錄。</span><span class="sxs-lookup"><span data-stu-id="7bbab-123">**UseDnsSrvRouting** specifies that Edge Servers will rely on DNS SRV records when sending and receiving federation requests.</span></span>
     
-      - <span data-ttu-id="e5e3c-p105">**AllowFederatedUsers** 指定是否允許內部使用者與同盟網域的使用者進行通訊。此屬性也會判斷內部使用者是否可與分割網域案例中的使用者進行通訊。</span><span class="sxs-lookup"><span data-stu-id="e5e3c-p105">**AllowFederatedUsers** specifies whether internal users are allowed to communicate with users from federated domains. This property also determines whether internal users can communicate with users in a split domain scenario.</span></span>
+      - <span data-ttu-id="7bbab-p105">**AllowFederatedUsers** 指定是否允許內部使用者與同盟網域的使用者進行通訊。此屬性也會判斷內部使用者是否可與分割網域案例中的使用者進行通訊。</span><span class="sxs-lookup"><span data-stu-id="7bbab-p105">**AllowFederatedUsers** specifies whether internal users are allowed to communicate with users from federated domains. This property also determines whether internal users can communicate with users in a split domain scenario.</span></span>
     
-      - <span data-ttu-id="e5e3c-126">**將 EnablePartnerDiscovery**指定 Lync Server 2013 是否會使用以嘗試探索未列在允許網域清單的 Active Directory 中的協力廠商網域的 DNS 記錄。</span><span class="sxs-lookup"><span data-stu-id="e5e3c-126">**EnablePartnerDiscovery** specifies whether Lync Server 2013 will use DNS records to try to discover partner domains that are not listed in the Active Directory allowed domains list.</span></span> <span data-ttu-id="e5e3c-127">若為 False，將只與允許的網域清單找到的網域聯盟 Lync Server 2013。</span><span class="sxs-lookup"><span data-stu-id="e5e3c-127">If False, Lync Server 2013 will federate only with domains that are found on the allowed domains list.</span></span> <span data-ttu-id="e5e3c-128">如果使用 DNS 服務路由，則需要此參數。</span><span class="sxs-lookup"><span data-stu-id="e5e3c-128">This parameter is required if you use DNS service routing.</span></span> <span data-ttu-id="e5e3c-129">在大多數部署中，此值設定為 False，以免對所有合作夥伴開放同盟。</span><span class="sxs-lookup"><span data-stu-id="e5e3c-129">In most deployments, the value is set to false to avoid opening up federation to all partners.</span></span>
+      - <span data-ttu-id="7bbab-126">**將 EnablePartnerDiscovery**指定 Lync Server 2013 是否會使用以嘗試探索未列在允許網域清單的 Active Directory 中的協力廠商網域的 DNS 記錄。</span><span class="sxs-lookup"><span data-stu-id="7bbab-126">**EnablePartnerDiscovery** specifies whether Lync Server 2013 will use DNS records to try to discover partner domains that are not listed in the Active Directory allowed domains list.</span></span> <span data-ttu-id="7bbab-127">若為 False，將只與允許的網域清單找到的網域聯盟 Lync Server 2013。</span><span class="sxs-lookup"><span data-stu-id="7bbab-127">If False, Lync Server 2013 will federate only with domains that are found on the allowed domains list.</span></span> <span data-ttu-id="7bbab-128">如果使用 DNS 服務路由，則需要此參數。</span><span class="sxs-lookup"><span data-stu-id="7bbab-128">This parameter is required if you use DNS service routing.</span></span> <span data-ttu-id="7bbab-129">在大多數部署中，此值設定為 False，以免對所有合作夥伴開放同盟。</span><span class="sxs-lookup"><span data-stu-id="7bbab-129">In most deployments, the value is set to false to avoid opening up federation to all partners.</span></span>
 
-2.  <span data-ttu-id="e5e3c-130">將中央管理存放區複寫到 Edge Server 並確認複寫。</span><span class="sxs-lookup"><span data-stu-id="e5e3c-130">Replicate the Central Management store to the Edge Server and verify the replication.</span></span> <span data-ttu-id="e5e3c-131">如需詳細資訊，請參閱部署文件中的[匯出您的 Lync Server 2013 拓撲，並複製到邊緣安裝的外部媒體](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md)。</span><span class="sxs-lookup"><span data-stu-id="e5e3c-131">For details, see [Export your Lync Server 2013 topology and copy it to external media for edge installation](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md) in the Deployment documentation.</span></span>
+2.  <span data-ttu-id="7bbab-130">將中央管理存放區複寫到 Edge Server 並確認複寫。</span><span class="sxs-lookup"><span data-stu-id="7bbab-130">Replicate the Central Management store to the Edge Server and verify the replication.</span></span> <span data-ttu-id="7bbab-131">如需詳細資訊，請參閱部署文件中的[匯出您的 Lync Server 2013 拓撲，並複製到邊緣安裝的外部媒體](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md)。</span><span class="sxs-lookup"><span data-stu-id="7bbab-131">For details, see [Export your Lync Server 2013 topology and copy it to external media for edge installation](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md) in the Deployment documentation.</span></span>
 
-3.  <span data-ttu-id="e5e3c-132">在 Edge Server 上設定 *「裝載提供者」*，作法是執行 **New-CsHostingProvider** Cmdlet 以設定下列參數：</span><span class="sxs-lookup"><span data-stu-id="e5e3c-132">Configure a *hosting provider* on the Edge Server by running the **New-CsHostingProvider** cmdlet to set the following parameters:</span></span>
+3.  <span data-ttu-id="7bbab-132">在 Edge Server 上設定 *「裝載提供者」*，作法是執行 **New-CsHostingProvider** Cmdlet 以設定下列參數：</span><span class="sxs-lookup"><span data-stu-id="7bbab-132">Configure a *hosting provider* on the Edge Server by running the **New-CsHostingProvider** cmdlet to set the following parameters:</span></span>
     
-      - <span data-ttu-id="e5e3c-133">**Identity** 為所建立的裝載提供者指定唯一的字串值識別碼，例如 **Hosted Exchange UM**。</span><span class="sxs-lookup"><span data-stu-id="e5e3c-133">**Identity** specifies a unique string value identifier for the hosting provider that you are creating, for example, **Hosted Exchange UM**.</span></span>
+      - <span data-ttu-id="7bbab-133">**Identity** 為所建立的裝載提供者指定唯一的字串值識別碼，例如 **Hosted Exchange UM**。</span><span class="sxs-lookup"><span data-stu-id="7bbab-133">**Identity** specifies a unique string value identifier for the hosting provider that you are creating, for example, **Hosted Exchange UM**.</span></span>
     
-      - <span data-ttu-id="e5e3c-p108">**Enabled** 指出網域與裝載提供者之間的網路連線是否已啟用。必須設定為 **True**。</span><span class="sxs-lookup"><span data-stu-id="e5e3c-p108">**Enabled** indicates whether the network connection between your domain and the hosting provider is enabled. Must be set to **True**.</span></span>
+      - <span data-ttu-id="7bbab-p108">**Enabled** 指出網域與裝載提供者之間的網路連線是否已啟用。必須設定為 **True**。</span><span class="sxs-lookup"><span data-stu-id="7bbab-p108">**Enabled** indicates whether the network connection between your domain and the hosting provider is enabled. Must be set to **True**.</span></span>
     
-      - <span data-ttu-id="e5e3c-p109">**EnabledSharedAddressSpace** 指出是否將以共用 SIP 位址空間案例使用裝載提供者。必須設定為 **True**。</span><span class="sxs-lookup"><span data-stu-id="e5e3c-p109">**EnabledSharedAddressSpace** indicates whether the hosting provider will be used in a shared SIP address space scenario. Must be set to **True**.</span></span>
+      - <span data-ttu-id="7bbab-p109">**EnabledSharedAddressSpace** 指出是否將以共用 SIP 位址空間案例使用裝載提供者。必須設定為 **True**。</span><span class="sxs-lookup"><span data-stu-id="7bbab-p109">**EnabledSharedAddressSpace** indicates whether the hosting provider will be used in a shared SIP address space scenario. Must be set to **True**.</span></span>
     
-      - <span data-ttu-id="e5e3c-138">**HostsOCSUsers**指出裝載提供者是否是用來裝載 Lync Server 2013 帳戶。</span><span class="sxs-lookup"><span data-stu-id="e5e3c-138">**HostsOCSUsers** indicates whether the hosting provider is used to host Lync Server 2013 accounts.</span></span> <span data-ttu-id="e5e3c-139">必須設定為 **False**。</span><span class="sxs-lookup"><span data-stu-id="e5e3c-139">Must be set to **False**.</span></span>
+      - <span data-ttu-id="7bbab-138">**HostsOCSUsers**指出裝載提供者是否是用來裝載 Lync Server 2013 帳戶。</span><span class="sxs-lookup"><span data-stu-id="7bbab-138">**HostsOCSUsers** indicates whether the hosting provider is used to host Lync Server 2013 accounts.</span></span> <span data-ttu-id="7bbab-139">必須設定為 **False**。</span><span class="sxs-lookup"><span data-stu-id="7bbab-139">Must be set to **False**.</span></span>
     
-      - <span data-ttu-id="e5e3c-140">**ProxyFQDN** 指定裝載提供者所使用之 Proxy 伺服器的完整網域名稱 (FQDN)，例如 **proxyserver.fabrikam.com**。</span><span class="sxs-lookup"><span data-stu-id="e5e3c-140">**ProxyFQDN** specifies the fully qualified domain name (FQDN) for the proxy server used by the hosting provider, for example, **proxyserver.fabrikam.com**.</span></span> <span data-ttu-id="e5e3c-141">如需此資訊，請與您的裝載提供者連絡。</span><span class="sxs-lookup"><span data-stu-id="e5e3c-141">Contact your hosting provider for this information.</span></span> <span data-ttu-id="e5e3c-142">您無法修改此值。</span><span class="sxs-lookup"><span data-stu-id="e5e3c-142">This value cannot be modified.</span></span> <span data-ttu-id="e5e3c-143">如果裝載提供者變更其 Proxy 伺服器，您必須刪除再重新建立該提供者的項目。</span><span class="sxs-lookup"><span data-stu-id="e5e3c-143">If the hosting provider changes its proxy server, you will need to delete and then recreate the entry for that provider.</span></span>
+      - <span data-ttu-id="7bbab-140">**ProxyFQDN** 指定裝載提供者所使用之 Proxy 伺服器的完整網域名稱 (FQDN)，例如 **proxyserver.fabrikam.com**。</span><span class="sxs-lookup"><span data-stu-id="7bbab-140">**ProxyFQDN** specifies the fully qualified domain name (FQDN) for the proxy server used by the hosting provider, for example, **proxyserver.fabrikam.com**.</span></span> <span data-ttu-id="7bbab-141">如需此資訊，請與您的裝載提供者連絡。</span><span class="sxs-lookup"><span data-stu-id="7bbab-141">Contact your hosting provider for this information.</span></span> <span data-ttu-id="7bbab-142">您無法修改此值。</span><span class="sxs-lookup"><span data-stu-id="7bbab-142">This value cannot be modified.</span></span> <span data-ttu-id="7bbab-143">如果裝載提供者變更其 Proxy 伺服器，您必須刪除再重新建立該提供者的項目。</span><span class="sxs-lookup"><span data-stu-id="7bbab-143">If the hosting provider changes its proxy server, you will need to delete and then recreate the entry for that provider.</span></span>
     
-      - <span data-ttu-id="e5e3c-144">**IsLocal**指出裝載提供者所使用的 proxy 伺服器是否包含在您的 Lync Server 2013 拓撲內。</span><span class="sxs-lookup"><span data-stu-id="e5e3c-144">**IsLocal** indicates whether the proxy server used by the hosting provider is contained within your Lync Server 2013 topology.</span></span> <span data-ttu-id="e5e3c-145">必須設定為 **False**。</span><span class="sxs-lookup"><span data-stu-id="e5e3c-145">Must be set to **False**.</span></span>
+      - <span data-ttu-id="7bbab-144">**IsLocal**指出裝載提供者所使用的 proxy 伺服器是否包含在您的 Lync Server 2013 拓撲內。</span><span class="sxs-lookup"><span data-stu-id="7bbab-144">**IsLocal** indicates whether the proxy server used by the hosting provider is contained within your Lync Server 2013 topology.</span></span> <span data-ttu-id="7bbab-145">必須設定為 **False**。</span><span class="sxs-lookup"><span data-stu-id="7bbab-145">Must be set to **False**.</span></span>
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 63969640
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cdb34ef5e000456f787c2a62bc61a4667a1459e3
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: cfb985d8c1432e238a813646d9f3cc5b55902a85
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42136300"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42197316"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="emergency-procedures-in-lync-server-2013"></a><span data-ttu-id="cb370-102">Lync Server 2013 中的緊急程序</span><span class="sxs-lookup"><span data-stu-id="cb370-102">Emergency procedures in Lync Server 2013</span></span>
+# <a name="emergency-procedures-in-lync-server-2013"></a><span data-ttu-id="38aac-102">Lync Server 2013 中的緊急程序</span><span class="sxs-lookup"><span data-stu-id="38aac-102">Emergency procedures in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,24 +35,24 @@ ms.locfileid: "42136300"
 
 <span> </span>
 
-<span data-ttu-id="cb370-103">_**上次修改主題：** 2014年-08-18_</span><span class="sxs-lookup"><span data-stu-id="cb370-103">_**Topic Last Modified:** 2014-08-18_</span></span>
+<span data-ttu-id="38aac-103">_**上次修改主題：** 2014年-08-18_</span><span class="sxs-lookup"><span data-stu-id="38aac-103">_**Topic Last Modified:** 2014-08-18_</span></span>
 
-<span data-ttu-id="cb370-104">緊急程序是先前所討論的標準程序以外的隨選程序，而應該使用變更管理功能由處理 （請參閱 「 變更 」 管理模型 」 函式上描述[MOF](https://go.microsoft.com/fwlink/p/?linkid=40939) ）。</span><span class="sxs-lookup"><span data-stu-id="cb370-104">Emergency procedures are on-demand procedures that fall outside the standard procedures previously discussed and should be handled by the change management function (refer to the [MOF](https://go.microsoft.com/fwlink/p/?linkid=40939) for a description on the "change management" function).</span></span> <span data-ttu-id="cb370-105">這些程序通常與下列其中一項：</span><span class="sxs-lookup"><span data-stu-id="cb370-105">These procedures usually relate to one of the following:</span></span>
+<span data-ttu-id="38aac-104">緊急程序是先前所討論的標準程序以外的隨選程序，而應該使用變更管理功能由處理 （請參閱 「 變更 」 管理模型 」 函式上描述[MOF](https://go.microsoft.com/fwlink/p/?linkid=40939) ）。</span><span class="sxs-lookup"><span data-stu-id="38aac-104">Emergency procedures are on-demand procedures that fall outside the standard procedures previously discussed and should be handled by the change management function (refer to the [MOF](https://go.microsoft.com/fwlink/p/?linkid=40939) for a description on the "change management" function).</span></span> <span data-ttu-id="38aac-105">這些程序通常與下列其中一項：</span><span class="sxs-lookup"><span data-stu-id="38aac-105">These procedures usually relate to one of the following:</span></span>
 
-  - <span data-ttu-id="cb370-106">實作變更疑難排解投入比一部分--若要解決已識別的系統問題。</span><span class="sxs-lookup"><span data-stu-id="cb370-106">Implementing change as part of a troubleshooting effort—to resolve an identified system issue.</span></span>
+  - <span data-ttu-id="38aac-106">實作變更疑難排解投入比一部分--若要解決已識別的系統問題。</span><span class="sxs-lookup"><span data-stu-id="38aac-106">Implementing change as part of a troubleshooting effort—to resolve an identified system issue.</span></span>
 
-  - <span data-ttu-id="cb370-107">解決已識別的安全性威脅 — 例如軟體更新。</span><span class="sxs-lookup"><span data-stu-id="cb370-107">Resolve an identified security threat—such as software updates.</span></span>
+  - <span data-ttu-id="38aac-107">解決已識別的安全性威脅 — 例如軟體更新。</span><span class="sxs-lookup"><span data-stu-id="38aac-107">Resolve an identified security threat—such as software updates.</span></span>
 
-<span data-ttu-id="cb370-108">對業務的影響應該加以評估，以判斷是否應實作或輸送至變更象限指引所定義的正式的變更管理程序的暫時變更。</span><span class="sxs-lookup"><span data-stu-id="cb370-108">Impact to the business should be evaluated to determine whether a temporary change should be implemented or channeled through the official change management procedures as defined by the Changing Quadrant guidance.</span></span>
+<span data-ttu-id="38aac-108">對業務的影響應該加以評估，以判斷是否應實作或輸送至變更象限指引所定義的正式的變更管理程序的暫時變更。</span><span class="sxs-lookup"><span data-stu-id="38aac-108">Impact to the business should be evaluated to determine whether a temporary change should be implemented or channeled through the official change management procedures as defined by the Changing Quadrant guidance.</span></span>
 
-<span data-ttu-id="cb370-109">我們建議您實作緊急變更程序。</span><span class="sxs-lookup"><span data-stu-id="cb370-109">We recommend implementing emergency change procedures.</span></span> <span data-ttu-id="cb370-110">例如，文件如何處理這些類型的程序，並協助減少混淆的狀態時的頻寬呈現緊急變更。</span><span class="sxs-lookup"><span data-stu-id="cb370-110">For example, document how to deal with these types of procedures and help with reducing a state of confusion when an emergency change is presented.</span></span>
+<span data-ttu-id="38aac-109">我們建議您實作緊急變更程序。</span><span class="sxs-lookup"><span data-stu-id="38aac-109">We recommend implementing emergency change procedures.</span></span> <span data-ttu-id="38aac-110">例如，文件如何處理這些類型的程序，並協助減少混淆的狀態時的頻寬呈現緊急變更。</span><span class="sxs-lookup"><span data-stu-id="38aac-110">For example, document how to deal with these types of procedures and help with reducing a state of confusion when an emergency change is presented.</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="cb370-111">另請參閱</span><span class="sxs-lookup"><span data-stu-id="cb370-111">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="38aac-111">另請參閱</span><span class="sxs-lookup"><span data-stu-id="38aac-111">See Also</span></span>
 
 
-[<span data-ttu-id="cb370-112">Microsoft Operations Framework 4.0</span><span class="sxs-lookup"><span data-stu-id="cb370-112">Microsoft Operations Framework 4.0</span></span>](https://go.microsoft.com/fwlink/p/?linkid=40939)  
+[<span data-ttu-id="38aac-112">Microsoft Operations Framework 4.0</span><span class="sxs-lookup"><span data-stu-id="38aac-112">Microsoft Operations Framework 4.0</span></span>](https://go.microsoft.com/fwlink/p/?linkid=40939)  
   
 
 </div>

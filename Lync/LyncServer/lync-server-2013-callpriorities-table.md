@@ -12,20 +12,20 @@ ms:contentKeyID: 48183275
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8d8d8a905fd34cecd77195fa9b824a5319778870
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 7804a02995550a550c2916db20f12367466efe4c
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42137252"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42198526"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="callpriorities-table-in-lync-server-2013"></a><span data-ttu-id="e845c-102">Lync Server 2013 中的 CallPriorities 表格</span><span class="sxs-lookup"><span data-stu-id="e845c-102">CallPriorities table in Lync Server 2013</span></span>
+# <a name="callpriorities-table-in-lync-server-2013"></a><span data-ttu-id="e451a-102">Lync Server 2013 中的 CallPriorities 表格</span><span class="sxs-lookup"><span data-stu-id="e451a-102">CallPriorities table in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "42137252"
 
 <span> </span>
 
-<span data-ttu-id="e845c-103">_**主題上次修改日期：** 2012年-09-28_</span><span class="sxs-lookup"><span data-stu-id="e845c-103">_**Topic Last Modified:** 2012-09-28_</span></span>
+<span data-ttu-id="e451a-103">_**主題上次修改日期：** 2012年-09-28_</span><span class="sxs-lookup"><span data-stu-id="e451a-103">_**Topic Last Modified:** 2012-09-28_</span></span>
 
-<span data-ttu-id="e845c-104">CallPriorities 表格是靜態表格，可儲存通話可能優先順序的清單 (如「緊急」、「急」或「一般」)。</span><span class="sxs-lookup"><span data-stu-id="e845c-104">The CallPriorities table is a static table that stores the list of possible call priorities, such as ‘emergency’, ‘urgent’, or ‘normal’.</span></span>
+<span data-ttu-id="e451a-104">CallPriorities 表格是靜態表格，可儲存通話可能優先順序的清單 (如「緊急」、「急」或「一般」)。</span><span class="sxs-lookup"><span data-stu-id="e451a-104">The CallPriorities table is a static table that stores the list of possible call priorities, such as ‘emergency’, ‘urgent’, or ‘normal’.</span></span>
 
 
 <table>
@@ -49,30 +49,30 @@ ms.locfileid: "42137252"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="e845c-105">欄</span><span class="sxs-lookup"><span data-stu-id="e845c-105">Column</span></span></th>
-<th><span data-ttu-id="e845c-106">資料類型</span><span class="sxs-lookup"><span data-stu-id="e845c-106">Data Type</span></span></th>
-<th><span data-ttu-id="e845c-107">主索引鍵 /</span><span class="sxs-lookup"><span data-stu-id="e845c-107">Key/Index</span></span></th>
-<th><span data-ttu-id="e845c-108">詳細資料</span><span class="sxs-lookup"><span data-stu-id="e845c-108">Details</span></span></th>
+<th><span data-ttu-id="e451a-105">欄</span><span class="sxs-lookup"><span data-stu-id="e451a-105">Column</span></span></th>
+<th><span data-ttu-id="e451a-106">資料類型</span><span class="sxs-lookup"><span data-stu-id="e451a-106">Data Type</span></span></th>
+<th><span data-ttu-id="e451a-107">主索引鍵 /</span><span class="sxs-lookup"><span data-stu-id="e451a-107">Key/Index</span></span></th>
+<th><span data-ttu-id="e451a-108">詳細資料</span><span class="sxs-lookup"><span data-stu-id="e451a-108">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="e845c-109"><strong>PriorityId</strong></span><span class="sxs-lookup"><span data-stu-id="e845c-109"><strong>PriorityId</strong></span></span></p></td>
-<td><p><span data-ttu-id="e845c-110">tinyint</span><span class="sxs-lookup"><span data-stu-id="e845c-110">tinyint</span></span></p></td>
-<td><p><span data-ttu-id="e845c-111">主要</span><span class="sxs-lookup"><span data-stu-id="e845c-111">Primary</span></span></p></td>
+<td><p><span data-ttu-id="e451a-109"><strong>PriorityId</strong></span><span class="sxs-lookup"><span data-stu-id="e451a-109"><strong>PriorityId</strong></span></span></p></td>
+<td><p><span data-ttu-id="e451a-110">tinyint</span><span class="sxs-lookup"><span data-stu-id="e451a-110">tinyint</span></span></p></td>
+<td><p><span data-ttu-id="e451a-111">主要</span><span class="sxs-lookup"><span data-stu-id="e451a-111">Primary</span></span></p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e845c-112"><strong>優先順序</strong></span><span class="sxs-lookup"><span data-stu-id="e845c-112"><strong>Priority</strong></span></span></p></td>
-<td><p><span data-ttu-id="e845c-113">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="e845c-113">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="e451a-112"><strong>優先順序</strong></span><span class="sxs-lookup"><span data-stu-id="e451a-112"><strong>Priority</strong></span></span></p></td>
+<td><p><span data-ttu-id="e451a-113">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="e451a-113">nvarchar(256)</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="e845c-114">允許的值：</span><span class="sxs-lookup"><span data-stu-id="e845c-114">Allowed values:</span></span></p>
+<td><p><span data-ttu-id="e451a-114">允許的值：</span><span class="sxs-lookup"><span data-stu-id="e451a-114">Allowed values:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="e845c-115">0 - 未知</span><span class="sxs-lookup"><span data-stu-id="e845c-115">0 - Unknown</span></span></p></li>
-<li><p><span data-ttu-id="e845c-116">1 - 非緊急</span><span class="sxs-lookup"><span data-stu-id="e845c-116">1 – Non-Urgent</span></span></p></li>
-<li><p><span data-ttu-id="e845c-117">2 - 一般</span><span class="sxs-lookup"><span data-stu-id="e845c-117">2 - Normal</span></span></p></li>
-<li><p><span data-ttu-id="e845c-118">3 - 急</span><span class="sxs-lookup"><span data-stu-id="e845c-118">3 - Urgent</span></span></p></li>
-<li><p><span data-ttu-id="e845c-119">4 - 緊急</span><span class="sxs-lookup"><span data-stu-id="e845c-119">4 - Emergency</span></span></p></li>
+<li><p><span data-ttu-id="e451a-115">0 - 未知</span><span class="sxs-lookup"><span data-stu-id="e451a-115">0 - Unknown</span></span></p></li>
+<li><p><span data-ttu-id="e451a-116">1 - 非緊急</span><span class="sxs-lookup"><span data-stu-id="e451a-116">1 – Non-Urgent</span></span></p></li>
+<li><p><span data-ttu-id="e451a-117">2 - 一般</span><span class="sxs-lookup"><span data-stu-id="e451a-117">2 - Normal</span></span></p></li>
+<li><p><span data-ttu-id="e451a-118">3 - 急</span><span class="sxs-lookup"><span data-stu-id="e451a-118">3 - Urgent</span></span></p></li>
+<li><p><span data-ttu-id="e451a-119">4 - 緊急</span><span class="sxs-lookup"><span data-stu-id="e451a-119">4 - Emergency</span></span></p></li>
 </ul></td>
 </tr>
 </tbody>
