@@ -12,16 +12,16 @@ ms:contentKeyID: 51541423
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 726e6bb537a16ece5c2955f005e91872f11f6a79
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: ffd95611f3033dff992092e3be93815bd0e01915
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42147726"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42206169"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -91,7 +91,7 @@ Lync Server 2013 常設聊天室 Resource Kit 工具可協助簡化例行工作 
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>說明
 
 AffCheck 工具確認常設聊天室後端資料庫的使用者和群組 affiliation 記錄符合的 Active Directory 網域服務。
 
@@ -159,7 +159,7 @@ AffCheck 工具確認常設聊天室後端資料庫的使用者和群組 affilia
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>說明
 
 PersistentChatMonitoringSummary 工具會將常設聊天室監視資訊從監控資料庫移至指定的 CSV 記錄檔。
 
@@ -220,7 +220,7 @@ CSV 檔案會包含的常設聊天室工作階段的工作階段總數，成功�
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>說明
 
 常設聊天室壓力工具提供簡單的方法來模擬的常設聊天室，來測試真實世界的效能，包括具有不同的使用者模型，才能滿足您的預期的使用情況的使用狀況。
 
@@ -301,7 +301,7 @@ CSV 檔案會包含的常設聊天室工作階段的工作階段總數，成功�
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>說明
 
 ChatUpgradeVerifier 是常設聊天室的特定資料庫比較工具。 工具會比較 [群組聊天 2007 R2] 或 [群組聊天 2010年資料庫 (2007年/2010Db) 至常設聊天室 2013年資料庫 (2013Db)。
 
@@ -345,7 +345,7 @@ ChatUpgradeVerifier.exe.config 檔案必須包含 GroupChat2007R2Db 參數或 Gr
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>說明
 
 ChatUsageReport 工具產生 HTML 報告的常設聊天室服務流量。
 
@@ -459,7 +459,7 @@ ChatUsageReport.exe.config:
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>說明
 
 ScheduleADSyncForPrincipal 是必須在 SQL Server Management Studio 連線至常設聊天室後端資料庫時的 [直接從執行 Microsoft SQL Server 2012 指令碼。 此指令碼可讓您強制常設聊天室與進行同步處理其記錄的使用者的 Active Directory 網域服務，而不是等待排定的同步處理的時間。
 

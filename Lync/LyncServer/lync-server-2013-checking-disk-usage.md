@@ -12,16 +12,16 @@ ms:contentKeyID: 63969578
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 55d8881bc8b8a55351cc088c230574b958718a63
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: d0cb167d2a7aed3f5c107d4beba568c00ac501e0
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42150932"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42206728"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -69,7 +69,7 @@ Lync Server 2013 所需的硬碟空間來儲存其資料庫與交易記錄檔，
 
 1.  **System Center Operations Manager**   System Center Operations Manager 可用來警告系統管理員，當磁碟區空間會受到限制。
 
-2.  **執行指令碼**   執行傳送郵件給您，如果的可用硬碟空間低於 20%的指令碼，以監視磁碟空間。 您可以找到 Microsoft TechNet 上的指令碼中心上的範例指令碼，請檢查：[http://gallery.technet.microsoft.com/scriptcenter/site/search?query=hard%20disk%20alert\&f%5B0%5D.Value=hard%20disk%20alert\&f%5B0%5D.Type=SearchText\&ac=5](http://gallery.technet.microsoft.com/scriptcenter/site/search?query=hard+disk+alert%26f%5b0%5d.value=hard+disk+alert%26f%5b0%5d.type=searchtext%26ac=5)
+2.  **執行指令碼**   執行傳送郵件給您，如果的可用硬碟空間低於 20%的指令碼，以監視磁碟空間。 您可以找到 Microsoft TechNet 上的指令碼中心上的範例指令碼，請檢查：[https://gallery.technet.microsoft.com/scriptcenter/site/search?query=hard%20disk%20alert\&f%5B0%5D.Value=hard%20disk%20alert\&f%5B0%5D.Type=SearchText\&ac=5](https://gallery.technet.microsoft.com/scriptcenter/site/search?query=hard+disk+alert%26f%5b0%5d.value=hard+disk+alert%26f%5b0%5d.type=searchtext%26ac=5)
 
 3.  **Windows 檔案總管**   使用 Windows 檔案總管中要檢查的磁碟區上的磁碟空間，Lync Server 2013 記錄該儲存區與資料庫。
 

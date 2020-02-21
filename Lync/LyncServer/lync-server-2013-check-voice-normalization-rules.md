@@ -12,16 +12,16 @@ ms:contentKeyID: 63969649
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1cf48022fc62f959bbddcd3cb6978e2e668a9334
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: eca48668bf0a19392558e10366f7a9bf4bb202ce
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42150952"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42206839"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -64,7 +64,7 @@ _**上次修改主題：** 2014年-05-20 個_
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>說明
 
 語音正規化規則可用來將轉換為 E.164 格式使用 Lync Server (+ 12065551219) 的使用者 (例如，2065551219) 所撥打的電話號碼。 例如，如果使用者在撥打的電話號碼，但不包括國家/地區或區域程式碼 (例如 5551219) 習慣然後您必須可以將該數字轉換成 E.164 格式的語音正規化規則: + 12065551219。 沒有這類規則，使用者無法呼叫 555-1219。
 
