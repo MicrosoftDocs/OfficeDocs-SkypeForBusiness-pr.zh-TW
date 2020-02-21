@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 20fd9372c34fd189868aa32882115bee3f6c6f8f
-ms.sourcegitcommit: 346b58b5d5ea0d2ec68891275628dfde32c074fe
+ms.openlocfilehash: ed0ea94910e9b3b5499a1f23a6c1c081590957c7
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41977525"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42160567"
 ---
 <a name="what-the-guest-experience-is-like"></a>來賓體驗像什麼
 =================================
@@ -41,22 +41,23 @@ ms.locfileid: "41977525"
 
 |**團隊中的功能**|**組織中的小組使用者**|**來賓使用者**|
 |:-----|:-----|:-----|
-|建立頻道  <br/>  *小組擁有者控制此設定。*  <br/> |![描述核取記號的圖示 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![描述核取記號的圖示 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|參與私人聊天  <br/> |![描述核取記號的圖示 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![描述核取記號的圖示 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|參與頻道交談  <br/> |![描述核取記號的圖示 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![描述核取記號的圖示 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|張貼、刪除及編輯郵件  <br/> |![描述核取記號的圖示 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![描述核取記號的圖示 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|共用頻道檔案  <br/> |![描述核取記號的圖示 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![描述核取記號的圖示 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|共用聊天檔案  <br/> |![描述核取記號的圖示 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|新增應用程式（索引標籤、bot 或連接器）  <br/> |![描述核取記號的圖示 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|建立會議或存取排程  <br/> |![描述核取記號的圖示 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|存取商務用 OneDrive 儲存空間  <br/> |![描述核取記號的圖示 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|建立整個租使用者與團隊/頻道來賓存取原則  <br/> |![描述核取記號的圖示 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|邀請 Office 365 租使用者網域以外的使用者 <br/>  *小組擁有者控制此設定。*  <br/> <br/> |![描述核取記號的圖示 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|建立團隊  <br/> |![描述核取記號的圖示 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|探索並加入公開團隊  <br/> |![描述核取記號的圖示 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|查看組織結構  <br/> |![描述核取記號的圖示 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|使用內嵌翻譯  <br/> |![描述核取記號的圖示 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|成為團隊擁有者  <br/> |![描述核取記號的圖示 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|建立頻道  <br/>  *小組擁有者控制此設定。*  <br/> |&#x2713;|&#x2713;|
+|參與私人聊天  <br/> |&#x2713;|&#x2713;|
+|參與頻道交談  <br/> |&#x2713;|&#x2713;|
+|張貼、刪除及編輯郵件  <br/> |&#x2713;|&#x2713;|
+|共用頻道檔案  <br/> |&#x2713;|&#x2713;|
+|共用聊天檔案  <br/> |&#x2713;||
+|新增應用程式（索引標籤、bot 或連接器）  <br/> |&#x2713;||
+|建立會議或存取排程  <br/> |&#x2713;||
+|存取商務用 OneDrive 儲存空間  <br/> |&#x2713;||
+|建立整個租使用者與團隊/頻道來賓存取原則  <br/> |&#x2713;||
+|邀請 Office 365 租使用者網域以外的使用者 <br/>  *小組擁有者控制此設定。*  <br/> <br/> |&#x2713;||
+|建立團隊  <br/> |&#x2713;||
+|探索並加入公開團隊  <br/> |&#x2713;||
+|查看組織結構  <br/> |&#x2713;||
+|使用內嵌翻譯  <br/> |&#x2713;||
+|成為團隊擁有者  <br/> |&#x2713;||
+
    
 下表顯示與其他使用者類型相比，來賓可用的通話與會議功能。
 

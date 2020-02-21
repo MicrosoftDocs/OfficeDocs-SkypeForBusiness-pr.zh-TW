@@ -16,18 +16,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4661239db682f1cbdc174460db803a01b553d292
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 41f586a9561a55a759768d719d751c98d2c6a975
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826171"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42160370"
 ---
 <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>在 Microsoft 團隊中組織團隊的最佳做法
 ======================================================
-
-> [!TIP]
-> 您是否有使用團隊的最佳做法或秘訣？ 在本文結尾的 [**批註**] 區段中，與我們共用。
 
 團隊是共同召集共同目標的人員集合。 這組人員可能位於某個部門或整個組織內。 將它們放在一起的結果就是它們的發展方向。 小組成員可能會以不同的節奏運作，或以不同的方式建立資產，但在我們的經驗中，我們會將我們稱之為「高 velocity 團隊共同作業」的程式。  
 

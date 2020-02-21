@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: be952d838135a03a873d7193118febf5639bd415
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 12d9350437867b04a181e62e8b23bb6ed78d8fbc
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836853"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42161734"
 ---
 # <a name="plan-for-microsoft-365-government---dod-deployments"></a>規劃 Microsoft 365 政府 DoD 部署
 
@@ -42,7 +42,7 @@ Microsoft 365 政府 DoD 環境提供與美國雲端服務政府需求相符的�
 
 您可以在[Office 365 政府版方案](https://products.office.com/government/compare-office-365-government-plans)（包括[資格需求](https://products.office.com/government/compare-office-365-government-plans#EligibilityRequirements)）中找到有關適用于美國政府客戶的 Microsoft 365 政府版產品的詳細資訊。
 
-[ [Office 365 美國政府服務描述](https://docs.microsoft.com/en-us/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government)] 描述的是平臺的優點，這些好處是在美國內滿足合規性需求的中心。
+[ [Office 365 美國政府服務描述](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government)] 描述的是平臺的優點，這些好處是在美國內滿足合規性需求的中心。
 
 
 > [!Tip]
@@ -79,6 +79,7 @@ Microsoft 365 政府 DoD 環境提供與美國雲端服務政府需求相符的�
 | 基本 | Id | 離線 |
 | | 目前狀態 | 離線 |
 | | 整合的目前狀態（商務用 Skype 和小組已統一） | 在政府積壓工作 |
+| | Linux 用戶端 | 在政府積壓工作 |
 | 操作 | 複製 | 離線 |
 |  | 我的活動 | 離線 |
 | 聊天 | 交談 | 離線 |

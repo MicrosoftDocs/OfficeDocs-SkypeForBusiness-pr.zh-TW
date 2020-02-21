@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b9bac6ee38c166250746b6ce9f4fb48afe3cbfe2
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
+ms.openlocfilehash: 47abe9934c92ce83ab0874a10b2c04ef238b428a
+ms.sourcegitcommit: 0289062510f0791906dab2791c5db8acb1cf849a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41852100"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42157891"
 ---
 # <a name="upgrade-from-skype-for-business-to-teams-mdash-for-it-administrators"></a>從商務用 Skype 升級至適用&mdash;于 IT 系統管理員的小組
 
@@ -423,7 +423,7 @@ Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 
 1. 透過查看[此清單](direct-routing-border-controllers.md)，確定您的會話邊界控制器（SBC）支援直接路由。 您也必須確定您的固件版本正確。  
 
-2. 將您的內部部署 SBC 與團隊直向路由服務配對。 如需詳細資訊，請參閱將[SBC 與電話系統的直接路由服務](direct-routing-configure.md#pair-the-sbc-to-the-direct-routing-service-of-phone-system)。 
+2. 將您的內部部署 SBC 與團隊直向路由服務配對。 如需詳細資訊，請參閱將[SBC 與電話系統的直接路由服務](direct-routing-configure.md)。 
 
 3. 此設定實質上是內部部署設定的鏡像。 線上配置包括： 
    - OnlineVoiceRoutingPolicy （根據內部部署 VoiceRoutingPolicy，如果您是從商務用 Skype Online 來遷移使用者，而如果是透過企業語音從內部部署遷移使用者，則根據 VoicePolicy）。

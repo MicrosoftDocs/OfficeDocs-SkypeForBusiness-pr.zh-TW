@@ -20,12 +20,12 @@ f1.keywords:
 - CSH
 ms.custom: Reporting
 description: 取得 Microsoft 團隊與商務用 Skype Online 的通話品質儀表板所使用之尺寸與度量的詳細資訊。
-ms.openlocfilehash: 6ad18b0674dec96c163bf64b6a16f014a0413ab8
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 99013a4919dac1312564ab3f4d935fb2628d5da5
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826911"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42161744"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard"></a>[通話品質] 儀表板中提供的尺寸與測量
 
@@ -58,7 +58,7 @@ CQD 中的許多尺寸與測量值標示為第一或第二筆。 下列邏輯會
 
 維度資訊是根據上傳到 CQD 入口網站的資料而定。 許多維度值也可以用來做為篩選。 下表列出目前在 CQD 中可用的維度，按照用來建立報表或編輯先前定義的報表的 [查詢編輯器] 中所列的順序進行。
 
-| 名稱 | 資料類型  | 說明 | 空白值的可能原因 |
+| 名稱 | 資料類型  | 描述 | 空白值的可能原因 |
 |:---  |:---        |:---         |:--- |
 |**端點**|||
 | 第一個 CPU 名稱  | String  | 第一個端點所使用之 CPU 的名稱。 <br/> **範例值：** Contoso CPU X11 @ 1.80 GHz | <br/>&bull;端點未報告此資料   |
@@ -199,6 +199,26 @@ CQD 中的許多尺寸與測量值標示為第一或第二筆。 下列邏輯會
 | 第二個 CDR 連線類型  | 枚舉 <br/>**可能的值：** <br/>&bull;OS <br/>&bull;PeerDerived <br/>&bull;Stun <br/>&bull;打開  | 識別第二個端點所選取的 ICE 連接路徑，以供此資料流程使用。  <br/> **範例值：** OS   | &bull;未報告傳輸類型 <br/>&bull;媒體路徑沒有建立   |
 |第一個 BSSID|String | [無線局域網基本服務設定] 用來連線到網路的第一個端點識別碼。| |
 | 第二個 BSSID| String|無線局域網基本服務設定用來連線到網路的第二個端點識別碼。| |
+| 第一個基底位址 | String | 第一個端點用來分配媒體轉送候選人之介面的 IP 位址。 僅適用于過去30天的資料，且只對擁有角色允許 EUII 存取權的使用者可見。 <br/> **範例值：** 10.0.0.10 | &bull;未報告傳輸診斷類型 <br/>&bull;媒體路徑沒有建立 |
+| 第二個基底位址 | String | 第二個端點用來分配媒體轉送候選人之介面的 IP 位址。 僅適用于過去30天的資料，且只對擁有角色允許 EUII 存取權的使用者可見。 <br/> **範例值：** 10.0.0.10 | &bull;未報告傳輸診斷類型 <br/>&bull;媒體路徑沒有建立 |
+| 第一個本機位址 | String | 在媒體連線檢查結束時，用於媒體流程之第一個端點的 IP 位址。 僅適用于過去30天的資料，且只對擁有角色允許 EUII 存取權的使用者可見。 <br/> **範例值：** 10.0.0.10 | &bull;未報告傳輸診斷類型 <br/>&bull;媒體路徑沒有建立 |
+| 第二個本機位址 | String | 在媒體連線檢查結束時，用於媒體流程之第二個端點的 IP 位址。 僅適用于過去30天的資料，且只對擁有角色允許 EUII 存取權的使用者可見。 <br/> **範例值：** 10.0.0.10 | &bull;未報告傳輸診斷類型 <br/>&bull;媒體路徑沒有建立 |
+| 第一個本機網址類別型 | 枚舉 <br/>**可能值** <br/>&bull;IceAddrType_Os <br/>&bull;IceAddrType_Stun <br/>&bull;IceAddrType_Turn <br/>&bull;IceAddrType_UPnP <br/>&bull;IceAddrType_ISA_Proxy <br/>&bull;IceAddrType_PeerDerived <br/>&bull;IceAddrType_Invalid | 第一個本機位址的候選類型。 IceAddrType_Turn 表示中繼通話。 其餘的類型表示直接連線。 | &bull;未報告傳輸診斷類型 <br/>&bull;媒體路徑沒有建立 |
+| 第二個本機網址類別型 | 枚舉 <br/>**可能值** <br/>&bull;IceAddrType_Os <br/>&bull;IceAddrType_Stun <br/>&bull;IceAddrType_Turn <br/>&bull;IceAddrType_UPnP <br/>&bull;IceAddrType_ISA_Proxy <br/>&bull;IceAddrType_PeerDerived <br/>&bull;IceAddrType_Invalid | 第二個本機位址的候選類型。 IceAddrType_Turn 表示中繼通話。 其餘的類型表示直接連線。 | &bull;未報告傳輸診斷類型 <br/>&bull;媒體路徑沒有建立 |
+| 第一個遠端位址 | String | 第二個端點的 IP 位址，在媒體連線檢查結束時，第一個端點會傳送媒體至該終點。 僅適用于過去30天的資料，且只對擁有角色允許 EUII 存取權的使用者可見。 <br/> **範例值：** 10.0.0.10 | &bull;未報告傳輸診斷類型 <br/>&bull;媒體路徑沒有建立 |
+| 第二個遠端位址 | String | 在媒體連線檢查結束時，第二個端點會傳送媒體至第一個端點的 IP 位址。 僅適用于過去30天的資料，且只對擁有角色允許 EUII 存取權的使用者可見。 <br/> **範例值：** 10.0.0.10 | &bull;未報告傳輸診斷類型 <br/>&bull;媒體路徑沒有建立 |
+| 第一個遠端網址類別型 | 枚舉 <br/>**可能值** <br/>&bull;IceAddrType_Os <br/>&bull;IceAddrType_Stun <br/>&bull;IceAddrType_Turn <br/>&bull;IceAddrType_UPnP <br/>&bull;IceAddrType_ISA_Proxy <br/>&bull;IceAddrType_PeerDerived <br/>&bull;IceAddrType_Invalid | 第一個遠端位址的候選類型。 IceAddrType_Turn 表示中繼通話。 其餘的值代表 [直接連線]。 | &bull;未報告傳輸診斷類型 <br/>&bull;媒體路徑沒有建立 |
+| 第二個遠端網址類別型 | 枚舉  <br/>**可能值** <br/>&bull;IceAddrType_Os <br/>&bull;IceAddrType_Stun <br/>&bull;IceAddrType_Turn <br/>&bull;IceAddrType_UPnP <br/>&bull;IceAddrType_ISA_Proxy <br/>&bull;IceAddrType_PeerDerived <br/>&bull;IceAddrType_Invalid | 第二個遠端位址的候選類型。 IceAddrType_Turn 表示中繼通話。 其餘的值代表 [直接連線]。 | &bull;未報告傳輸診斷類型 <br/>&bull;媒體路徑沒有建立 |
+| 第一個本機網站 | String | 媒體轉送伺服器所見到的第一個端點的 IP 位址。 這通常是與資料流程第一個端點相關聯的公用網際網路 IP 位址。 如果由於某種原因無法取得中繼或無法取得中繼器，這將是第一個端點上本機介面的 IP。 <br/> 這與第一個反身本機 IP 類似，但此資訊是由傳輸診斷事件（而不是 QoE）來報告。 僅適用于過去30天的資料，且只對擁有角色允許 EUII 存取權的使用者可見。 <br/> **範例值：** 104.43.195.251 | &bull;未報告傳輸診斷類型 <br/>&bull;媒體路徑沒有建立 |
+| 第二個本機網站 | String | 媒體轉送伺服器所見到的第二個端點的 IP 位址。 這通常是與資料流程之第二個端點相關聯的公用網際網路 IP 位址。 如果由於某種原因無法取得中繼或無法取得中繼器，這將是第一個端點上本機介面的 IP。 <br/> 這與第二個反身本機 IP 類似，但這項資訊是由傳輸診斷事件（而不是 QoE）來報告。 僅適用于過去30天的資料，且只對擁有角色允許 EUII 存取權的使用者可見。 <br/> **範例值：** 104.43.195.251 | &bull;未報告傳輸診斷類型 <br/>&bull;媒體路徑沒有建立 |
+| 第一個遠端網站 | String | 第二個端點所報告的本機網站 IP 位址，並與第一個端點交換。 <br/> 由於任何原因，無法使用第二個端點上的大小寫傳輸診斷事件中的額外資訊。 僅適用于過去30天的資料，且只對擁有角色允許 EUII 存取權的使用者可見。 <br/> **範例值：** 104.43.195.251 | &bull;未報告傳輸診斷類型 <br/>&bull;媒體路徑沒有建立 |
+| 第二個遠端網站 | String | 第一個端點所報告的本機網站 IP 位址，並與第二個端點交換。 <br/> 因任何原因而無法使用第一個端點上的傳輸診斷事件時所需的額外資訊。 僅適用于過去30天的資料，且只對擁有角色允許 EUII 存取權的使用者可見。 <br/> **範例值：** 104.43.195.251 | &bull;未報告傳輸診斷類型 <br/>&bull;媒體路徑沒有建立 |
+| 第一個本機媒體轉接位址 | String | 第一個端點所分配媒體轉送伺服器的 Microsoft IP 位址。 <br/> 這與第一次中繼 IP 是類似的資訊，但會透過傳輸診斷事件（而不是 QoE）來報告。 <br/> **範例值：** 52.114.5.237 | &bull;未報告傳輸診斷類型 <br/>&bull;媒體路徑沒有建立 |
+| 第二個本機媒體轉接位址 | String | 第二個端點所分配媒體轉送伺服器的 Microsoft IP 位址。 <br/> 這與第二個中繼 IP 是類似的資訊，但會透過傳輸診斷事件（而不是 QoE）來報告。 <br/> **範例值：** 52.114.5.237 | &bull;未報告傳輸診斷類型 <br/>&bull;媒體路徑沒有建立 |
+| 第一個遠端媒體轉送位址 | String | 第二個端點所分配的媒體轉送伺服器的 Microsoft IP 位址，並與第一個端點交換。 <br/> 因任何原因而無法使用第二個端點上的傳輸診斷事件時所需的額外資訊。 <br/> **範例值：** 52.114.5.237 | &bull;未報告傳輸診斷類型 <br/>&bull;媒體路徑沒有建立 |
+| 第二個遠端媒體轉接位址 | String | 由第一個端點所指派的媒體轉送伺服器的 Microsoft IP 位址，並與第二個端點交換。 <br/> 因任何原因而無法使用第一個端點上的傳輸診斷事件時所需的額外資訊。 <br/> **範例值：** 52.114.5.237 | &bull;未報告傳輸診斷類型 <br/>&bull;媒體路徑沒有建立 |
+| 第一次傳輸通訊協定 | 列舉字串 | 第一個端點用來傳送媒體的通訊通訊協定。 <br/>**可能值** <br/>&bull;UDP-多重用途 UDP 用於轉換和主機分配 <br/>&bull;TurnTCP-TCP 車削分配。 在已指定 proxy 設定的情況下使用 proxy <br/>&bull;TCPHostPassive-TCP 偵聽主機通訊端以取得被動連線類型 <br/>&bull;使用作用中連線類型的 TCPHostActive-TCP 連接 <br/>&bull;CompoundTCP-上游與下游 TCP 連線的組合。 通常是在 HTTPS 通訊協定上。 <br/> | &bull;未報告傳輸診斷類型 <br/>&bull;媒體路徑沒有建立 |
+| 第二個傳輸通訊協定 | 列舉字串 | 第二個端點用來傳送媒體的通訊通訊協定。 <br/>**可能值** <br/>&bull;UDP-多重用途 UDP 用於轉換和主機分配 <br/>&bull;TurnTCP-TCP 車削分配。 在已指定 proxy 設定的情況下使用 proxy <br/>&bull;TCPHostPassive-TCP 偵聽主機通訊端以取得被動連線類型 <br/>&bull;使用作用中連線類型的 TCPHostActive-TCP 連接 <br/>&bull;CompoundTCP-上游與下游 TCP 連線的組合。 通常是在 HTTPS 通訊協定上。 <br/> | &bull;未報告傳輸診斷類型 <br/>&bull;媒體路徑沒有建立 |
 |**裝置**| |||
 | 第一次捕獲開發人員  | String  | 第一個端點所使用的捕獲裝置名稱。 作為 <br/> **音訊串流**= 麥克風使用的裝置 <br/> **影片串流**= 相機使用的裝置 <br/> 以**影片為基礎的畫面共用資料流程**= 螢幕 scraper <br/> **應用程式共用資料流程**= 空白 <br/> **範例值：** 耳機麥克風（Microsoft LifeChat LX-6000）  | &bull;端點未報告資料 <br/>&bull;媒體路徑沒有建立 <br/>&bull;資料流程是以影片為基礎的畫面共用或應用程式共用。  |
 | 第二個捕獲開發人員  | String  | 第二個端點所使用的捕獲裝置名稱。  <br/> **音訊串流**= 麥克風使用的裝置 <br/> **影片串流**= 相機使用的裝置 <br/> 以**影片為基礎的畫面共用資料流程**= 螢幕 scraper <br/> **應用程式共用資料流程**= 空白 <br/> **範例值：** 耳機麥克風（Microsoft LifeChat LX-6000） | <br/>&bull;端點未報告資料 <br/>&bull;未建立媒體路徑 <br/>&bull;資料流程是以影片為基礎的畫面共用或應用程式共用   |
@@ -279,6 +299,7 @@ CQD 中的許多尺寸與測量值標示為第一或第二筆。 下列邏輯會
 | 因 VideoFrameRateAvg 而導致的視頻不佳  | Boolean  | 如果影片串流根據以下所列的影片畫面播放速率平均規格閾值分類，則為 True： [[通話品質] 儀表板中的 [資料流程分類](stream-classification-in-call-quality-dashboard.md)]。 在非視頻資料流程中，將永遠是 False。    | &bull;端點未報告此資料  <br/>&bull;資料流程不是影片串流 |
 | VBSS 較差，因為 VideoPostFecplr  | Boolean  | 如果以影片為基礎的畫面共用資料流程是根據此處所列的影片文章 FEC PLR 公制閾值分類，則為 True： [[通話品質] 儀表板中的 [資料流程分類](stream-classification-in-call-quality-dashboard.md)]。 在非以畫面為基礎的共用資料流程中，將永遠是 False。    | &bull;端點未報告此資料 <br/>&bull;資料流程不是以影片為基礎的畫面共用資料流程  |
 | VBSS 較差，因為 VideoLocalFrameLossPercentageAvg  | Boolean  | 如果以影片為基礎的畫面共用資料流程分類為較差的專案，請參閱此處所列的平均規格閾值： [[通話品質] 儀表板中的 [資料流程分類](stream-classification-in-call-quality-dashboard.md)]。 在非以畫面為基礎的共用資料流程中，將永遠是 False。    | &bull;端點未報告此資料 <br/>&bull;資料流程不是以影片為基礎的畫面共用資料流程  |
+| 因凍結而導致的視頻不佳 | Boolean  | 1如果視頻資料流程是根據視頻凍結實例分類為不良，請執行以下動作：[在通話品質儀表板中進行資料流程分類](stream-classification-in-call-quality-dashboard.md) | &bull;端點未報告此資料  <br/>&bull;資料流程不是視頻資料流程。 此欄位僅適用于 Microsoft 團隊。 |
 | VBSS 較差，因為 VideoFrameRateAvg  | Boolean  | 如果以影片為基礎的畫面共用資料流程是根據以下所列的視頻畫面播放速率平均指標閾值分類，則為 True： [[通話品質] 儀表板中的 [資料流程分類](stream-classification-in-call-quality-dashboard.md)]。 在非以畫面為基礎的共用資料流程中，將永遠是 False。   | &bull;端點未報告此資料 <br/>&bull;資料流程不是以影片為基礎的畫面共用資料流程   |
 | AppSharing 較差，因為 SpoiledTilePercentTotal  | Boolean  | 如果應用程式共用資料流程是根據下列所列的 Spoiled 磚% 總規格閾值分類，則為 True： [[通話品質] 儀表板中的 [資料流程分類](stream-classification-in-call-quality-dashboard.md)]。 在非應用程式共用資料流程中，將永遠是 False。   | &bull;端點未報告此資料  <br/>&bull;資料流程不是應用程式共用資料流程。  |
 | AppSharing 較差，因為 RelativeOneWayAverage  | Boolean  | 如果應用程式共用資料流程是根據此處所列的相對單一方式平均規格閾值分類，則為 True： [[通話品質] 儀表板中的 [資料流程分類](stream-classification-in-call-quality-dashboard.md)]。 在非應用程式共用資料流程中，將永遠是 False。    | &bull;端點未報告此資料  <br/>&bull;資料流程不是應用程式共用資料流程 |
@@ -463,7 +484,7 @@ CQD 所使用的字串通常是從資料檔案衍生而來，而且這些字元�
 
 許多測量值也可以用來做為篩選。 下表列出 CQD 中目前可用的度量，依 [查詢編輯器] 中列出的順序顯示。
 
-|度量值名稱 |訂購 |說明 |
+|度量值名稱 |訂購 |描述 |
 |:--- |:--- |:--- |
 |資料流程計數總計 |串流數 |不論媒體類型為何，都要編號媒體資料流程。 |
 | CDR 可用資料流程計數總計 | 串流數 |提供可靠性/診斷資訊的媒體資料流程數目。 請參閱[商務用 Skype Server 中的通話詳細資料錄製（CDR）](https://docs.microsoft.com/skypeforbusiness/manage/health-and-monitoring/call-detail-recording-cdr) |
@@ -522,10 +543,12 @@ CQD 所使用的字串通常是從資料檔案衍生而來，而且這些字元�
 |因 VideoPostFecplr 計數而導致的視頻不佳 |串流數 |影片文章 Fec plr 超過此處所列閾值的影片串流數量： [[通話品質] 儀表板中的 [資料流程分類](stream-classification-in-call-quality-dashboard.md)]。 |
 |因 VideoLocalFrameLossPercentageAvg 計數而導致的視頻不佳 |串流數 |影片中的視頻資料流程數量在% 中的部分損失百分比超過閾值： [[通話品質] 儀表板中的 [資料流程分類](stream-classification-in-call-quality-dashboard.md)]。 |
 |因 VideoFrameRateAvg 計數而導致的視頻不佳 |串流數 |影片畫面播放速率平均超過以下所列閾值的視頻串流數： [[通話品質] 儀表板中的 [資料流程分類](stream-classification-in-call-quality-dashboard.md)]。 |
+|因凍結計數而導致的視頻不佳 |串流數 | [視頻凍結躍點數] 超過此處所列閾值的主要視頻串流數。 [[通話品質] 儀表板中的串流分類](stream-classification-in-call-quality-dashboard.md)。 此欄位僅限 Microsoft 團隊專用 |
 |資料流程計數不佳 |串流數 |根據此處所列的網路躍點數，依 [[通話品質儀表板] 中](stream-classification-in-call-quality-dashboard.md)所列的網路指標分類的影片資料流程數目。 |
 |影片完好的資料流程計數 |串流數 |根據此處所列的網路指標，以標準方式分類的視頻串流數： [[通話品質] 儀表板中的 [資料流程分類](stream-classification-in-call-quality-dashboard.md)]。 |
 |影片未分類資料流程計數 |串流數 |根據此處所列的網路指標，沒有足夠資料分類為好或差的視頻串流數量： [[通話品質] 儀表板中的 [資料流程分類](stream-classification-in-call-quality-dashboard.md)]。 |
 |影片較差的百分比|百分 |根據 [[通話品質] 儀表板中](stream-classification-in-call-quality-dashboard.md)下列的網路躍點數，分類為不佳的視頻資料流程總數的百分比。 |
+|因凍結而導致視頻不佳的百分比|百分 | 根據視頻不佳指標（在[通話品質儀表板中](stream-classification-in-call-quality-dashboard.md)列出的凍結）來分類為不佳的主要視頻資料流程百分比。 此欄位僅限 Microsoft 團隊專用 |
 |VBSS 串流計數 |串流數 |以影片為基礎的畫面共用資料流程數目。 |
 |因 VideoPostFecplr 計數而 VBSS 較差 |串流數 |影片文章 Fec plr 超過以下所列閾值的影片畫面共用資料流程數量： [[通話品質] 儀表板中的 [資料流程分類](stream-classification-in-call-quality-dashboard.md)]。 |
 |因 VideoLocalFrameLossPercentageAvg 計數而 VBSS 較差 |串流數 |以影片為基礎的畫面共用資料流程的數目，其中的影片本框架遺失百分比超過閾值： [[通話品質] 儀表板中的 [資料流程分類](stream-classification-in-call-quality-dashboard.md)]。 |
@@ -641,3 +664,4 @@ CQD 所使用的字串通常是從資料檔案衍生而來，而且這些字元�
 [使用通話分析來疑難排解不良通話品質](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
 [通話分析和通話品質儀表板](difference-between-call-analytics-and-call-quality-dashboard.md)
+ 

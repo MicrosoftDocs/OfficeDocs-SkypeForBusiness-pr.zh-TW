@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 537f2a51076d93808089526d7b5be10faf5954b6
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: e3c44867b14a4b3bf83a45cf1dbbb37151c648a8
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837453"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42161588"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-high-deployments"></a>規劃 Microsoft 365 政府-GCC 高部署
 
@@ -79,6 +79,7 @@ Microsoft 365 政府版-GCC 高環境提供與美國雲端服務政府需求相�
 | 基本 | Id | 離線 |
 | | 目前狀態 | 離線 |
 | | 整合的目前狀態（商務用 Skype 和小組已統一） | 離線 |
+| | Linux 用戶端 | 在政府積壓工作 |
 | 操作 | 複製 | 離線 |
 |  | 我的活動 | 離線 |
 | 聊天 | 交談 | 離線 |

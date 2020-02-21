@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 - Direct Routing
 description: 瞭解緊急通話，包括緊急位址、緊急通話路由及動態緊急通話的相關資訊。
-ms.openlocfilehash: 010a1d3afd6ea1fa490b506b82c46c31bf3a4fa2
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 85a09880c1eec83851208197c008c8aaafac88f6
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836673"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42161686"
 ---
 # <a name="manage-emergency-calling"></a>管理緊急通話
 
@@ -157,9 +157,9 @@ Microsoft 通話方案的動態緊急通話可提供根據團隊用戶端目前�
 
 ### <a name="emergency-call-routing"></a>緊急通話路由
 
-TeamsEmergencyCallRoutingPolicy 參照的是線上 PSTN 使用量，必須具備適當的直接路由設定，才能將緊急通話正確地路由至適當的 PSTN 閘道。 特別是，您必須確保緊急撥號字串有 OnlineVoiceRoute。 如需詳細資訊，請參閱[設定直接路由](direct-routing-configure.md#configure-voice-routing)。 
+TeamsEmergencyCallRoutingPolicy 參照的是線上 PSTN 使用量，必須具備適當的直接路由設定，才能將緊急通話正確地路由至適當的 PSTN 閘道。 特別是，您必須確保緊急撥號字串有 OnlineVoiceRoute。 如需詳細資訊，請參閱[設定直接路由](direct-routing-configure.md)。 
 
-（注意：在商務用 Skype Server 中，緊急號碼是以 "+" 為首碼，這需要定義語音路由才能符合 "+ 911" 的範例。 團隊用戶端不會在 "+" 前面加上緊急數位。）
+（注意：團隊用戶端會在緊急電話號碼前面加上「+」登入，就像商務用 Skype 用戶端所做的一樣，也就是 + 911。 在未來幾個月內將會修改這項行為，如此一來，進行緊急通話的小組就不會再傳送數位前面的 "+";也就是說，911。）
 
 針對直接路由使用者動態路由緊急呼叫的能力，視特定國家/地區內的緊急呼叫網路而定。 提供兩種解決方案：
 

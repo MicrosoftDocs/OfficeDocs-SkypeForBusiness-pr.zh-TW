@@ -12,16 +12,16 @@ ms:contentKeyID: 48185216
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1a43d926fcc2883a36a577fd297567da0295a0f2
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 3d4e024ed5cdb29bb8a8a4170b89399f955254bf
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42145211"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42181386"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -51,7 +51,7 @@ _**主題上次修改日期：** 2012年-10-05_
 
 4.  （選用）按一下 [**描述**] 中，，，然後輸入分支網站的有意義描述。
 
-5.  按 [下一步]****。
+5.  按一下 **[下一步]**。
 
 6.  （選用）在下的 [**定義新的分支網站**] 對話方塊中，執行下列其中一項：
     

@@ -12,16 +12,16 @@ ms:contentKeyID: 49733830
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bfc267d20b9df284e458ff5883cfebb4c1e5b0b0
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 6b43272cc5ca054f913d51ec157802dc8f847461
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42145001"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42179960"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -51,7 +51,7 @@ Microsoft Lync Server 2013 Survivable Branch Appliance (SBA) 不能作為備份�
 
 4.  （選用）按一下 [**描述**] 中，，，然後輸入分支網站的有意義描述。
 
-5.  按 [下一步]****。
+5.  按一下 **[下一步]**。
 
 6.  （選用）在下的 [**定義新的分支網站**] 對話方塊中，執行下列其中一項：
     

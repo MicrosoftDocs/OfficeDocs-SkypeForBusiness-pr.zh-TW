@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何將自訂團隊 app 從開發開發到部署。
-ms.openlocfilehash: 3369371de34cd1346e81be8ea57bb3f5675864c5
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 070b0ecbf0ccc9af798e1d3a3c689ce4d4ff4da2
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837503"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42161804"
 ---
 # <a name="manage-your-line-of-business-apps-in-microsoft-teams"></a>在 Microsoft 團隊中管理您的商務用應用程式
 
@@ -49,11 +49,11 @@ ms.locfileid: "41837503"
 
 若要允許使用者上傳自訂應用程式，請依照下列步驟執行：
 
-1. 開啟 [**允許與自訂應用程式互動**] 的全組織性設定。 若要執行此動作：
-    1. 在<a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft 團隊系統管理中心</a>的左導覽中，移至 [**團隊 app** > **許可權原則**]，然後按一下 [**全組織性設定**]。
+1. 開啟 [**允許與自訂應用程式互動**] 全組織性應用程式設定。 若要執行此動作：
+    1. 在<a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft 團隊系統管理中心</a>的左導覽中，移至 [**團隊 app** > **管理 app**]，然後按一下 [**全組織式應用程式設定**]。
     2. 開啟 [**自訂應用程式**] 底下的 [**允許與自訂應用程式互動**]，然後按一下 [**儲存**]。
 
-    ![[允許與自訂應用程式互動] 的螢幕擷取畫面-全組織性設定](media/manage-your-lob-apps-org-wide-custom-apps.png)
+    ![「允許與自訂 app 互動」的螢幕擷取畫面](media/manage-your-lob-apps-org-wide-custom-apps.png)
 
 2. 開啟全域 app 設定原則中的 [上**傳自訂應用程式**] 設定。 若要執行此動作：
     1. 在<a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft 團隊系統管理中心</a>的左導覽中，移至 [**團隊 app** > **設定原則**]，然後按一下 [**全域（組織範圍預設值）** ] 原則。
@@ -81,12 +81,12 @@ Microsoft 使用<a href="https://docs.microsoft.com/microsoftteams/platform/publ
 若要驗證 app 在您的生產租使用者中是否正常運作，您必須允許您的組織中的人員和/或受信任的使用者上傳自訂應用程式。  就像在前面的<a href="https://docs.microsoft.com/microsoftteams/manage-your-lob-apps#allow-custom-apps-in-the-test-tenant" target="_blank">步驟</a>中，您可以使用應用程式設定原則來執行此動作。
 
 > [!NOTE]
-> 如果您不滿意將 app 上傳到您的生產租使用者進行驗證，即使您是自己或受信任的使用者，您也可以略過此步驟，然後遵循步驟3和4，將 unvalidated 應用程式上傳到您的租使用者應用程式存放區。 然後，將該 app 的存取許可權制為只有您自己和您信任的使用者。 然後，這些使用者就可以從租使用者應用程式商店取得 app 來執行驗證。 驗證應用程式後，請使用相同的許可權原則來開啟 access，並將 app 滾出以供生產使用。
+> 如果您不滿意將 app 上傳到您的生產租使用者進行驗證，即使您是自己或受信任的使用者，您也可以略過此步驟，並遵循步驟3和4，將 unvalidated 應用程式上傳到您的租使用者 app store。 然後，將該 app 的存取許可權制為只有您自己和您信任的使用者。 然後，這些使用者就可以從租使用者應用程式商店取得 app 來執行驗證。 驗證應用程式後，請使用相同的許可權原則來開啟 access，並將 app 滾出以供生產使用。
 
 若要允許信任的使用者上傳自訂應用程式，請依照下列步驟執行：
 
-1. 開啟 [**允許與自訂應用程式互動**] 的全組織性設定。 若要執行此動作：
-    1. 在<a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft 團隊系統管理中心</a>的左導覽中，移至 [**團隊 app** > **許可權原則**]，然後按一下 [**全組織性設定**]。
+1. 開啟 [**允許與自訂應用程式互動**] 全組織性應用程式設定。 若要執行此動作：
+    1. 在<a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft 團隊系統管理中心</a>的左導覽中，移至 [**團隊 app** > **管理 app**]，然後按一下 [**全組織式應用程式設定**]。
     2. 開啟 [**自訂應用程式**] 底下的 [**允許與自訂應用程式互動**]，然後按一下 [**儲存**]。
 2. 關閉全域 app 設定原則中的 [**上傳自訂應用程式**] 設定。 若要執行此動作：
     1. 在<a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft 團隊系統管理中心</a>的左導覽中，移至 [**團隊 app** > **設定原則**]，然後按一下 [**全域（組織範圍預設值）** ] 原則。
@@ -99,11 +99,17 @@ Microsoft 使用<a href="https://docs.microsoft.com/microsoftteams/platform/publ
 
     這些使用者現在可以上傳應用程式資訊清單，以驗證 app 在生產租使用者中是否正常運作。
 
-## <a name="step-3-upload-to-the-tenant-apps-catalog"></a>步驟3：上傳至租使用者應用程式目錄
+## <a name="step-3-upload-to-the-tenant-app-catalog"></a>步驟3：上傳至租使用者應用程式目錄
 
-若要讓 [租使用者應用程式] 存放區中的使用者使用 app，請上傳 app。 您可以使用小組桌面用戶端來執行此動作。 請按照<a href="https://docs.microsoft.com/microsoftteams/tenant-apps-catalog-teams#go-to-the-tenant-apps-catalog" target="_blank">這裡</a>的步驟進行。
+若要讓租使用者 app store 中的使用者使用該應用程式，請上傳 app。 您可以<a href="https://docs.microsoft.com/microsoftteams/tenant-apps-catalog-teams#go-to-the-tenant-apps-catalog" target="_blank">使用小組桌面用戶端</a>或 Microsoft 團隊系統管理中心的 [[管理應用程式](manage-apps.md)] 頁面來執行此動作。
+
+以下是 [團隊桌面用戶端] 中 [上傳] 選項的螢幕擷取畫面。
 
 ![[應用程式] 頁面的螢幕擷取畫面](media/manage-your-lob-apps-store.png)
+
+以下是 Microsoft 團隊系統管理中心 [**管理應用程式**] 頁面上 [上傳] 選項的螢幕擷取畫面。
+
+![系統管理中心 [管理應用程式] 頁面的螢幕擷取畫面](media/manage-your-lob-apps-upload-new-app.png)
 
 ## <a name="step-4-configure-and-assign-permissions"></a>步驟4：設定及指派許可權
 
@@ -125,6 +131,6 @@ Microsoft 使用<a href="https://docs.microsoft.com/microsoftteams/platform/publ
 
 若要更新應用程式，開發人員應該繼續遵循[步驟 1](#step-1-develop-and-test)和[步驟 2](#step-2-validate-in-production)。
 
-您可以透過租使用者應用程式目錄來更新應用程式。 若要這樣做，請在團隊桌面用戶端，移至**針對&lt;您的租&gt;使用者名稱所建的** **app** > ，按一下 **...** 按一下應用程式右上角的，然後按一下 [**更新**]。 這麼做會取代租使用者應用程式目錄中的現有應用程式，而且擁有權限原則和設定原則都會針對更新的 app 保持強制執行。 
+您可以透過租使用者應用程式目錄來更新應用程式。 若要這樣做，請在團隊桌面用戶端，移至**針對&lt;您的租&gt;使用者名稱所建的** **app** > ，按一下 **...** 按一下應用程式右上角的，然後按一下 [**更新**]。 這樣做會取代租使用者目錄中現有的 app，而且擁有權限原則和設定原則都會針對更新的 app 保持強制執行。 
 
 ![在 [應用程式] 頁面上更新應用程式的螢幕擷取畫面](media/manage-your-lob-apps-update-app.png)

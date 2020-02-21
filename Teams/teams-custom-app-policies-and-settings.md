@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.allowsideloading
 - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
-ms.openlocfilehash: c86e140c917300d1d9a05a42e81cf8095ed3a670
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 86bf441f6dfa74b243f1a6e64139a32b8b94d7fa
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837703"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42161629"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>管理 Microsoft 團隊中的自訂應用程式原則和設定
 
@@ -54,7 +54,7 @@ ms.locfileid: "41837703"
 
 ### <a name="user-custom-app-policy"></a>使用者自訂 app 原則
 
-在[應用程式設定原則](teams-app-setup-policies.md)中，系統管理員可以使用原則設定、**允許上傳自訂應用程式**，控制使用者是否能將自訂應用程式上傳給團隊。
+在[應用程式設定原則](teams-app-setup-policies.md)中，系統管理員可以使用原則設定、**上傳自訂應用程式**，控制使用者是否能將自訂應用程式上傳給小組。
  
 如果已關閉此設定：
 
@@ -73,7 +73,7 @@ ms.locfileid: "41837703"
 
 1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**團隊 app** > **設定原則**]。
 2. 按一下 [**新增**]。
-3. 開啟或關閉 [**允許上傳自訂應用程式**]。
+3. 開啟或關閉 **[上傳自訂應用程式**]。
 4. 選擇您想要用於原則的任何其他設定。
 5. 按一下 [**儲存**]。
 
@@ -101,11 +101,11 @@ ms.locfileid: "41837703"
 
 ### <a name="org-wide-custom-app-setting"></a>全組織的自訂應用程式設定
 
-組織範圍的自訂應用程式設定，可**讓您與自訂應用程式進行互動**，並將其套用至組織中的所有人，並控制他們是否可以上傳或與自訂 app 互動。 此設定會覆寫使用者和團隊的自訂應用程式原則與設定。 它是用來在安全性事件期間作為主機開啟/關閉切換。
+[[管理應用](manage-apps.md)程式] 頁面上的 [**允許與自訂應用程式互動**] 的 [管理 app] 頁面上的 [全式自訂應用程式] 設定適用于您組織中的所有人，並可控制他們是否 此設定會覆寫使用者和團隊的自訂應用程式原則與設定。 它是用來在安全性事件期間作為主機開啟/關閉切換。
 
 #### <a name="configure-the-org-wide-custom-app-setting"></a>設定組織範圍的自訂應用程式設定
 
-1. 在[Microsoft 團隊系統管理中心](https://admin.teams.microsoft.com/)的左導覽中，移至 [**團隊 app** > ]**許可權原則**。
+1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**團隊 app** > **管理應用程式**]。
 2. 按一下 [**全組織式應用程式設定**]。
 3. 在 [**自訂應用程式**] 底下，開啟或關閉 [**允許與自訂應用程式互動**]。
 
@@ -118,7 +118,7 @@ ms.locfileid: "41837703"
 例如，您想要只允許團隊擁有者將自訂應用程式上傳到特定團隊。 您可以設定下列專案：
 - 在 Microsoft 團隊系統管理中心開啟 [**允許與自訂應用程式互動**] 設定。
 - 針對您要限制存取權的每個團隊，關閉 [**允許成員上傳自訂應用程式**]。
-- 在 Microsoft 團隊系統管理中心建立並指派自訂的應用程式設定原則，**使用者可以開啟 [自訂應用程式**] 設定，然後將它指派給小組擁有者。
+- 在 Microsoft 團隊系統管理中心中建立並指派自訂應用程式設定原則，並將 [**上傳自訂應用程式**] 設定為開啟狀態，然後將它指派給團隊擁有者。
 
 |全組織的自訂應用程式設定 |團隊自訂應用程式設定 |使用者自訂 app 原則 |效果  |
 |---------|---------|---------|---------|
@@ -132,4 +132,5 @@ ms.locfileid: "41837703"
 | 按    | 按        | 按        | 無論使用者是否為小組擁有者，使用者都可以將自訂應用程式上傳至團隊。 使用者可以在個人內容中上傳自訂應用程式。       |
 
  ## <a name="related-topics"></a>相關主題
+ 
 - [在 Teams 中的應用程式系統管理設定](admin-settings.md)

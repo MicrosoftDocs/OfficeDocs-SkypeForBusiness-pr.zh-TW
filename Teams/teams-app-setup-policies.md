@@ -19,17 +19,17 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 9117837aab1b218ea34a77731eebaba8f4d27783
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 82af710d8c3cb89171085f9053ed1708d7f568ca
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837393"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42161646"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>在 Microsoft 團隊中管理 app 設定原則
 
 > [!NOTE]
-> 如果您已啟用整個組織內的應用程式許可權原則設定，**允許與自訂應用程式互動**，您可能不會在 Microsoft 團隊系統管理中心看到 app 安裝原則。 目前正在推出，且即將在您的組織中提供此功能。
+> 如果您已啟用整個組織內的應用程式設定，**允許與自訂應用程式互動**，您可能不會在 Microsoft 團隊系統管理中心看到 app 設定原則。 目前正在推出，且即將在您的組織中提供此功能。
 
 身為系統管理員，您可以使用應用程式設定原則來自訂 Microsoft 團隊，以醒目提示對您的使用者而言最重要的應用程式。 您可以選擇要釘選的 app，並設定它們出現的順序。 應用程式設定原則可讓您展示貴組織中的使用者所需的 app，包括由協力廠商或貴組織中的開發人員所建立的 app。 您也可以使用應用程式設定原則來控制使用者是否可以將 app 釘選到團隊，以及管理內建功能的顯示方式。
 
@@ -56,7 +56,7 @@ ms.locfileid: "41837393"
 2. 按一下 [**新增**]。
     ![顯示 [新增應用程式設定原則] 頁面的螢幕擷取畫面](media/app-setup-policies-add.png)
 3. 輸入原則的名稱和描述。
-4. 開啟或關閉 [上**傳自訂應用程式**]，視您是否要讓使用者將自訂應用程式上傳至團隊而定。 如果 [**允許協力廠商應用**程式在 app 許可權原則中的[全組織性應用程式設定](teams-app-permission-policies.md#manage-org-wide-app-settings)中] 為關閉，您將無法變更此設定。
+4. 開啟或關閉 [上**傳自訂應用程式**]，視您是否要讓使用者將自訂應用程式上傳至團隊而定。 如果 [**允許協力廠商應用**程式在[組織內的應用程式設定](manage-apps.md#manage-org-wide-app-settings)中關閉]，您將無法變更此設定。
 5. 開啟或關閉 [**允許使用者釘**用]，視您是否要讓使用者將應用程式釘選到自己的應用程式行。
 6. 按一下 [**新增應用程式**]。
 7. 在 [**新增釘選的應用程式**] 窗格中，搜尋您要新增的應用程式，然後按一下 [**新增**]。 您也可以依應用程式許可權原則篩選 app。 當您選取 app 清單後，請按一下 [**新增**]。
@@ -126,7 +126,7 @@ $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setu
 #### <a name="what-built-in-app-setup-policies-are-included-in-the-microsoft-teams-admin-center"></a>Microsoft 團隊系統管理中心包含哪些內建應用程式設定原則？
 
 - **全域（組織範圍預設值）**：除非您指派其他原則，否則此預設原則會套用到貴組織中的所有使用者。 編輯 [全域原則]，將最重要的 app 釘選到您的使用者。
-- **FirstLineWorker**：此原則適用于第一列工作人員。 您可以將它指派給您組織中的第一列工作人員。 請務必注意，您所建立的自訂原則，您必須將原則指派給使用者，才能讓設定生效。 如需詳細資訊，請移至本文的將[自訂應用程式設定原則指派給 [使用者](#assign-a-custom-app-setup-policy-to-users)] 區段。
+- **FirstLineWorker**：此原則適用于第一線員工工作者。 您可以將它指派給貴組織中的第一線員工工作人員。 請務必注意，您所建立的自訂原則，您必須將原則指派給使用者，才能讓設定生效。 如需詳細資訊，請移至本文的將[自訂應用程式設定原則指派給 [使用者](#assign-a-custom-app-setup-policy-to-users)] 區段。
 
 #### <a name="why-cant-i-find-an-app-in-the-add-pinned-apps-pane"></a>為什麼我無法在 [新增釘選的 app] 窗格中找到應用程式？
 
@@ -163,7 +163,7 @@ $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setu
 
 團隊行動用戶端（iOS 和 Android）目前不支援使用靜態索引標籤的個人 app。 根據原則中設定的應用程式，釘選到團隊行動用戶端的應用程式可能不會出現在小組行動用戶端中。 在行動用戶端上，個人機器人仍會出現在聊天中。
 
-透過團隊行動用戶端，使用者將會看到核心團隊 app （例如活動、交談和團隊），而且您可以將某些協力廠商應用程式釘選到 Microsoft （例如倒班）。 
+透過團隊行動用戶端，使用者將會看到核心團隊 app （例如活動、交談和團隊），而且您可以將某些協力廠商應用程式釘選到 Microsoft （例如倒班）。
 
 #### <a name="can-users-change-the-order-of-apps-pinned-through-a-policy"></a>使用者可以變更透過原則釘選的 app 順序嗎？
 
@@ -171,10 +171,11 @@ $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setu
 
 ### <a name="custom-teams-apps"></a>自訂團隊應用程式
 
-#### <a name="my-organization-built-a-custom-teams-app-and-published-it-either-to-appsource-or-the-tenant-app-catalog-but-the-app-icon-isnt-displayed-as-expected-when-the-app-is-pinned-to-the-app-bar-in-teams-how-do-i-fix-it"></a>我的組織已建立自訂團隊應用程式，並將其發佈至 AppSource 或租使用者目錄，但是當 app 釘選到 [團隊] 中的應用程式行時，應用程式圖示不會顯示為預期。 我要如何修正？ 
+#### <a name="my-organization-built-a-custom-teams-app-and-published-it-either-to-appsource-or-the-tenant-app-catalog-but-the-app-icon-isnt-displayed-as-expected-when-the-app-is-pinned-to-the-app-bar-in-teams-how-do-i-fix-it"></a>我的組織已建立自訂團隊應用程式，並將其發佈至 AppSource 或租使用者目錄，但是當 app 釘選到 [團隊] 中的應用程式行時，應用程式圖示不會顯示為預期。 我要如何修正？
 
 在提交 app 之前，請務必遵循標誌指導方針。 若要深入瞭解，請參閱[賣方儀表板提交的檢查清單](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/overview)。 
 
  ## <a name="related-topics"></a>相關主題
+
 - [在 Teams 中的應用程式系統管理設定](admin-settings.md)
 - [將應用程式發佈至團隊用戶端的租使用者應用程式目錄](tenant-apps-catalog-teams.md)

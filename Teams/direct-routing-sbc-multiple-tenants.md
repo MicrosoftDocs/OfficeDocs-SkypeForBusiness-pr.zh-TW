@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 瞭解如何設定一個會話邊界控制器（SBC）來提供多個承租人。
-ms.openlocfilehash: 7bd313c1b0c6d8078ee3ce80b2a08697dc6040e7
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: e0027df53edcec54cbeaef560182ffddc451ecbd
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837273"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42160727"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>設定多個租用戶的工作階段邊界控制器
 
@@ -37,7 +37,7 @@ ms.locfileid: "41837273"
 - 管理 [通話品質結束]。
 - 針對 PSTN 服務分別收取費用。
 
-Microsoft 不會管理運營商。 Microsoft 提供 PBX （Microsoft 手機系統）與團隊用戶端、認證手機，以及可搭配 Microsoft Phone 系統使用的 SBCs。 選擇運營商前，請確定您的選擇有認證的 SBC，且可管理語音品質端到端。
+Microsoft 不會管理運營商。 Microsoft 提供 PBX （Microsoft 手機系統）與團隊用戶端。 Microsoft 也會認證手機，並證實可搭配 Microsoft Phone 系統使用的 SBCs。 選擇運營商前，請確定您的選擇有認證的 SBC，且可管理語音品質端到端。
 
 以下是設定案例的技術實施步驟。
 
@@ -215,7 +215,6 @@ SBC 需要認證，才能驗證連線。 針對 SBC 主機案例，電信公司�
 
 -  **開銷處理**。 收集及監視幹線狀態資料-從多個邏輯 trunks 收集的 SIP 選項，實際上是同一個 SBC 與相同的物理幹線，會減緩路由資料的處理。
  
-
 根據這項意見反應，Microsoft 正在為客戶租使用者提供新的邏輯來提供 trunks。
 
 引入了兩個新的實體：
@@ -245,4 +244,22 @@ SBC 需要認證，才能驗證連線。 針對 SBC 主機案例，電信公司�
  
 
 請參閱[SBC 轉銷商提供的相關指示](#deploy-and-configure-the-sbc)，瞭解如何在連絡人標題中傳送子域的 FQDN 名稱。
+
+## <a name="considerations-for-setting-up-muti-tenant-failover"></a>設定 muti-租使用者容錯移轉的考慮 
+
+若要針對多租使用者環境設定容錯移轉，您必須執行下列動作：
+
+- 針對每個租使用者，新增兩個不同 SBCs 的 Fqdn。  例如：
+
+   customer1.sbc1.contoso.com <br>
+   customer2.sbc2.contoso.com <br>
+
+- 在使用者的線上語音路由策略中，指定半形。  如果一個 SBC 失敗，路由策略會將呼叫路由到第二個 SBC。
+
+
+## <a name="see-also"></a>另請參閱
+
+[規劃直接路由](direct-routing-plan.md)
+
+[設定直接路由](direct-routing-configure.md)
 

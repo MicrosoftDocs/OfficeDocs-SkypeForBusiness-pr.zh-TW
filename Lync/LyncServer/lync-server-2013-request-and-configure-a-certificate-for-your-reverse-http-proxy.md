@@ -12,16 +12,16 @@ ms:contentKeyID: 48184085
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9c380cb67e1e156bef616f81ce0c42f699b472d8
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 5db6e8ed2df53acf5c1543569778b29168d0500b
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42144940"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42183196"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -162,9 +162,9 @@ _**上次修改主題：** 2014年-02-14_
 
 3.  在**憑證註冊**頁面上，按一下 [**下一步**]。
 
-4.  在 [**自訂要求****選取憑證註冊原則**] 頁面上，選取 [**沒有註冊原則繼續**。 按 [下一步]****。
+4.  在 [**自訂要求****選取憑證註冊原則**] 頁面上，選取 [**沒有註冊原則繼續**。 按一下 **[下一步]**。
 
-5.  在 [**自訂要求**] 頁面上的**範本**選取 **（沒有範本） 傳統金鑰**。 除非另有指示您的憑證提供者，將保留**抑制預設延伸**未勾選和**要求格式**的選取範圍上**PKCS \#10**。 按 [下一步]****。
+5.  在 [**自訂要求**] 頁面上的**範本**選取 **（沒有範本） 傳統金鑰**。 除非另有指示您的憑證提供者，將保留**抑制預設延伸**未勾選和**要求格式**的選取範圍上**PKCS \#10**。 按一下 **[下一步]**。
 
 6.  在 [**認證資訊**] 頁面上，按一下 [**詳細資料**，然後按 [**屬性**。
 

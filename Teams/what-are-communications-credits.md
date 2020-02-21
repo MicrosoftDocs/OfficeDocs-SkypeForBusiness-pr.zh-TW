@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Licensing
 description: '瞭解什麼是通訊點數（PSTN 消費）帳單、如何尋找比率，以及您所取得的服務。 '
-ms.openlocfilehash: c071ebf297714e81cdb8a508ebf313d0054fe633
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 682d2d9fb89c0cee46ca6fb0e856a6000e4c6386
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42051567"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42161724"
 ---
 # <a name="what-are-communications-credits"></a>什麼是通訊點數？
 
@@ -68,7 +68,7 @@ ms.locfileid: "42051567"
 > [!NOTE]
 > 您可以登[入 Microsoft 365 系統管理中心](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)並前往**帳單** > **訂閱** > **新增訂閱**，以查看方案和價格。 
   
-在**Microsoft 365 系統管理中心** > **帳單** > **訂閱**中，您可以隨時手動新增信用額度。 您也可以啟用**自動**加值選項，當餘額低於您所設定的閾值時，就會允許自動重填帳戶。 如果您選擇將通訊點數與一次性金額進行資金平衡，然後餘額降到零，則上述其他通話案例將無法再運作，包括免付費電話號碼。 如此一來，建議您使用**自動**加值設定，以避免通訊點數平衡達到0（零）時的任何服務中斷。 當您自動充電交易時，系統會傳送電子郵件給您，且無法自動充電交易（例如已過期的信用卡），或您的通訊點數餘額達到0（零）。
+在**Microsoft 365 系統管理中心** > **帳單** > **購買服務** > 中 **，您可以**選取 [通訊點數] 來新增點數，而且您可以隨時手動新增信用額度。 您也可以啟用**自動**加值選項，當餘額低於您所設定的閾值時，就會允許自動重填帳戶。 如果您選擇將通訊點數與一次性金額進行資金平衡，然後餘額降到零，則上述其他通話案例將無法再運作，包括免付費電話號碼。 如此一來，建議您使用**自動**加值設定，以避免通訊點數平衡達到0（零）時的任何服務中斷。 當您自動充電交易時，系統會傳送電子郵件給您，且無法自動充電交易（例如已過期的信用卡），或您的通訊點數餘額達到0（零）。
   
 ## <a name="communications-credits"></a>通訊點數
 

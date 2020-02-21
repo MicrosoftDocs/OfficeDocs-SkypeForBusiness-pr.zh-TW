@@ -16,17 +16,17 @@ localization_priority: Normal
 search.appverid: MET150
 description: 瞭解在 Microsoft 團隊中將原則指派給使用者的不同方式。
 f1keywords: ''
-ms.openlocfilehash: a4d50f6182441e97f5d7290610e254bd82e91e96
-ms.sourcegitcommit: c8d16d5e61d66d7b5e7391a800978b920612ea4d
+ms.openlocfilehash: cb1c5fd43379388327de5e517409f01f7f52ed1b
+ms.sourcegitcommit: d7be89019dd5a3b88b0840bddf1b88fea8598ea7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42052539"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42170759"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>在 Microsoft 團隊中將原則指派給使用者
 
 > [!NOTE]
-> **本文中討論的兩個 Microsoft 團隊功能（[批次原則指派](#assign-a-policy-to-a-batch-of-users)和[群組原則指派](#assign-a-policy-to-a-group)）目前都在預覽中。**
+> **本文中討論的兩個 Microsoft 團隊功能、[批次原則指派](#assign-a-policy-to-a-batch-of-users)及[原則指派給群組](#assign-a-policy-to-a-group)，都是在預覽中。**
 
 身為系統管理員，您可以使用原則來控制貴組織中的使用者可以使用的小組功能。 例如，有一些通話原則、會議原則和訊息原則，只會為您命名。
 
@@ -213,18 +213,18 @@ Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-[群組原則指派] 可讓您將原則指派給使用者群組，例如安全群組或組織單位。 原則指派會根據優先順序規則傳播到群組的成員。 在群組中新增或移除成員時，系統會據此更新其繼承的原則分派。
+[群組原則指派] 可讓您將原則指派給使用者群組，例如安全性群組或組織單位。 原則指派會根據優先順序規則傳播到群組的成員。 在群組中新增或移除成員時，系統會據此更新其繼承的原則分派。
 
 您使用```New-CsGroupPolicyAssignment``` Cmdlet 將原則指派給群組。 您可以使用 [物件識別碼]、[SIP 位址] 或 [電子郵件地址] 來指定群組。
 
 指派原則時，它會立即指派給群組。 不過，請注意，原則指派對群組成員的傳播是作為背景作業執行，可能需要一些時間，視群組的大小而定。 如果沒有從群組中取消指派原則，或是在群組中新增或移除某個原則，就是如此。
 
 > [!NOTE]
-> 目前，群組原則指派不適用於所有團隊原則類型。 如需支援的原則類型清單，請參閱[新-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment) 。
+> 目前，對於所有團隊原則類型，將無法將原則指派給群組。 如需支援的原則類型清單，請參閱[新-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment) 。
 
-### <a name="what-you-need-to-know-about-group-policy-assignment"></a>關於群組原則指派所需注意的事項
+### <a name="what-you-need-to-know-about-policy-assignment-to-groups"></a>針對群組的原則指派所需注意的事項
 
-在您開始之前，請務必瞭解優先規則與群組原則指派排名。
+在您開始之前，請務必瞭解優先規則與群組指派排名。
 
 #### <a name="precedence-rules"></a>優先規則
 
@@ -240,7 +240,7 @@ Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367
  
 當您將原則指派給群組時，請指定群組指派的排名。 這是用來判斷，如果使用者是兩個或多個群組的成員，且每個群組都指派相同類型的原則，使用者應該繼承為其有效原則的原則。
 
-群組指派排名是相對於相同類型的其他群組原則指派。 例如，如果您要將通話原則指派給兩個群組，請將一個指派的等級設定為1，而另一個指派給2，1為最高排名。 [群組指派排名] 會指出哪些群組成員資格比繼承更重要，或比其他群組成員資格更相關。
+群組指派排名是相對於相同類型的其他群組分派。 例如，如果您要將通話原則指派給兩個群組，請將一個指派的等級設定為1，而另一個指派給2，1為最高排名。 [群組指派排名] 會指出哪些群組成員資格比繼承更重要，或比其他群組成員資格更相關。
  
 例如，您有兩個群組，請儲存 [員工] 和 [書店管理員]。 兩個群組都會獲指派團隊通話原則，分別將員工撥打電話給原則和商店管理員呼叫原則。 對於在這兩個群組中的書店管理員而言，其角色會與員工的角色更相關，所以指派給商店管理員群組的呼叫原則應該有較高的排名。
 

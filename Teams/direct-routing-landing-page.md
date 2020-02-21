@@ -16,12 +16,12 @@ f1.keywords:
 description: 直接路由的登陸頁面
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d146c2188f57dbee3887dd2fd595c1b06a86c30e
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: d643c137145649c0843296300a909c520ba653a6
+ms.sourcegitcommit: 0289062510f0791906dab2791c5db8acb1cf849a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836063"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42157901"
 ---
 # <a name="phone-system-direct-routing"></a>電話系統直接路由
 
@@ -51,7 +51,7 @@ ms.locfileid: "41836063"
 
 |問問自己|動作 |
 | :------------|:-------|
-|我要對哪些使用者啟用直接路由？ | 如需詳細資訊，請參閱[啟用直接路由服務的使用者](direct-routing-configure.md#enable-users-for-direct-routing-service)。 |
+|我要對哪些使用者啟用直接路由？ | 如需詳細資訊，請參閱[啟用直接路由服務的使用者](direct-routing-configure.md)。 |
 我是否有直接路由所需的授權？ | 如需詳細資訊，請參閱[授權及其他需求](direct-routing-plan.md#licensing-and-other-requirements)。
 |||
 
@@ -71,8 +71,8 @@ ms.locfileid: "41836063"
 
 |問問自己|動作 |
 |:------------|:-------|
-| 我需要建立哪些語音路由策略、PSTN 使用及語音路由？ | 如需語音路由資訊，請參閱[設定語音路由](direct-routing-configure.md#configure-voice-routing)。
-| 系統會將哪些使用者指派給我定義的語音路由策略？ | 請參閱[設定語音路由](direct-routing-configure.md#configure-voice-routing)中的範例。 |
+| 我需要建立哪些語音路由策略、PSTN 使用及語音路由？ | 如需語音路由資訊，請參閱[設定語音路由](direct-routing-configure.md)。
+| 系統會將哪些使用者指派給我定義的語音路由策略？ | 請參閱[設定語音路由](direct-routing-configure.md)中的範例。 |
 |||
 
 ### <a name="ensure-incoming-calls-land-in-the-teams-client-using-teamsupgradepolicy"></a>使用 TeamsUpgradePolicy 在團隊用戶端中確保來電土地
