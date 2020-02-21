@@ -12,20 +12,20 @@ ms:contentKeyID: 49733595
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 587287b8cfa4e89a6f5e0bdf3f7d3ac51e95fb0c
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 100f4b9bd94d7ca1cb5fd7a9bfbcf51586f735b6
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42141119"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42193536"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="topology-builder-supports-sql-server-mirroring-in-lync-server-2013"></a><span data-ttu-id="bef9a-102">拓撲產生器支援 SQL Server 鏡像在 Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bef9a-102">Topology Builder supports SQL Server mirroring in Lync Server 2013</span></span>
+# <a name="topology-builder-supports-sql-server-mirroring-in-lync-server-2013"></a><span data-ttu-id="37d1e-102">拓撲產生器支援 SQL Server 鏡像在 Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="37d1e-102">Topology Builder supports SQL Server mirroring in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "42141119"
 
 <span> </span>
 
-<span data-ttu-id="bef9a-103">_**主題上次修改日期：** 2012年-09-26_</span><span class="sxs-lookup"><span data-stu-id="bef9a-103">_**Topic Last Modified:** 2012-09-26_</span></span>
+<span data-ttu-id="37d1e-103">_**主題上次修改日期：** 2012年-09-26_</span><span class="sxs-lookup"><span data-stu-id="37d1e-103">_**Topic Last Modified:** 2012-09-26_</span></span>
 
-<span data-ttu-id="bef9a-104">Lync Server 2013 支援的您後端伺服器高可用性鏡像。</span><span class="sxs-lookup"><span data-stu-id="bef9a-104">Lync Server 2013 supports mirroring of your Back End Servers for high availability.</span></span> <span data-ttu-id="bef9a-105">您可以使用拓撲產生器，以設定鏡像，包括設定見證。</span><span class="sxs-lookup"><span data-stu-id="bef9a-105">You can use Topology Builder to set up mirroring, including setting up a witness.</span></span>
+<span data-ttu-id="37d1e-104">Lync Server 2013 支援的您後端伺服器高可用性鏡像。</span><span class="sxs-lookup"><span data-stu-id="37d1e-104">Lync Server 2013 supports mirroring of your Back End Servers for high availability.</span></span> <span data-ttu-id="37d1e-105">您可以使用拓撲產生器，以設定鏡像，包括設定見證。</span><span class="sxs-lookup"><span data-stu-id="37d1e-105">You can use Topology Builder to set up mirroring, including setting up a witness.</span></span>
 
 </div>
 

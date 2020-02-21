@@ -12,20 +12,20 @@ ms:contentKeyID: 48185470
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: da26789f782ff70b1c1296eac66524333ecb712e
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 3ae78a3cf32768771fe836e62e58ac41066f6836
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42130516"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42192559"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="msmqprocessing-table-in-lync-server-2013"></a><span data-ttu-id="de0da-102">Lync Server 2013 中的 MSMQProcessing 表格</span><span class="sxs-lookup"><span data-stu-id="de0da-102">MSMQProcessing table in Lync Server 2013</span></span>
+# <a name="msmqprocessing-table-in-lync-server-2013"></a><span data-ttu-id="0cfe4-102">Lync Server 2013 中的 MSMQProcessing 表格</span><span class="sxs-lookup"><span data-stu-id="0cfe4-102">MSMQProcessing table in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "42130516"
 
 <span> </span>
 
-<span data-ttu-id="de0da-103">_**主題上次修改日期：** 2012年-08-20 個_</span><span class="sxs-lookup"><span data-stu-id="de0da-103">_**Topic Last Modified:** 2012-08-20_</span></span>
+<span data-ttu-id="0cfe4-103">_**主題上次修改日期：** 2012年-08-20 個_</span><span class="sxs-lookup"><span data-stu-id="0cfe4-103">_**Topic Last Modified:** 2012-08-20_</span></span>
 
-<span data-ttu-id="de0da-104">MSMQProcessing 表格是僅供內部使用。</span><span class="sxs-lookup"><span data-stu-id="de0da-104">The MSMQProcessing table is for internal use only.</span></span> <span data-ttu-id="de0da-105">Microsoft Lync Server 2013 中已採用此表格。</span><span class="sxs-lookup"><span data-stu-id="de0da-105">This table was introduced in Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="0cfe4-104">MSMQProcessing 表格是僅供內部使用。</span><span class="sxs-lookup"><span data-stu-id="0cfe4-104">The MSMQProcessing table is for internal use only.</span></span> <span data-ttu-id="0cfe4-105">Microsoft Lync Server 2013 中已採用此表格。</span><span class="sxs-lookup"><span data-stu-id="0cfe4-105">This table was introduced in Microsoft Lync Server 2013.</span></span>
 
 </div>
 
