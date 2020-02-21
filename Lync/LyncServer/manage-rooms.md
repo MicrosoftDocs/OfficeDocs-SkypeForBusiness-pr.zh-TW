@@ -12,20 +12,20 @@ ms:contentKeyID: 48185505
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dc3f9e2c680d2812c11c41a551132d580de17f46
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: b6c684544a9acff04b4f03a47dcb7b403503f7b3
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42149002"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42210119"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="manage-rooms"></a><span data-ttu-id="98d3b-102">管理聊天室</span><span class="sxs-lookup"><span data-stu-id="98d3b-102">Manage rooms</span></span>
+# <a name="manage-rooms"></a><span data-ttu-id="6a309-102">管理聊天室</span><span class="sxs-lookup"><span data-stu-id="6a309-102">Manage rooms</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "42149002"
 
 <span> </span>
 
-<span data-ttu-id="98d3b-103">_**上次修改主題：** 2013年-02-21_</span><span class="sxs-lookup"><span data-stu-id="98d3b-103">_**Topic Last Modified:** 2013-02-21_</span></span>
+<span data-ttu-id="6a309-103">_**上次修改主題：** 2013年-02-21_</span><span class="sxs-lookup"><span data-stu-id="6a309-103">_**Topic Last Modified:** 2013-02-21_</span></span>
 
-<span data-ttu-id="98d3b-104">若要建立新的常設聊天室伺服器室</span><span class="sxs-lookup"><span data-stu-id="98d3b-104">To create a new Persistent Chat Server room</span></span>
+<span data-ttu-id="6a309-104">若要建立新的常設聊天室伺服器室</span><span class="sxs-lookup"><span data-stu-id="6a309-104">To create a new Persistent Chat Server room</span></span>
 
     New-CsPersistentChatRoom -Name Foo1 -PersistentChatPoolFqdn client.contoso.com -Category client.contoso.com\Foo [other parameters]
 
@@ -45,62 +45,62 @@ ms.locfileid: "42149002"
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="98d3b-105">下列其中一項，則為 true 時，就不需要-PersistentChatPoolFqdn:</span><span class="sxs-lookup"><span data-stu-id="98d3b-105">-PersistentChatPoolFqdn is not needed if one of the following is true:</span></span> 
+> <span data-ttu-id="6a309-105">下列其中一項，則為 true 時，就不需要-PersistentChatPoolFqdn:</span><span class="sxs-lookup"><span data-stu-id="6a309-105">-PersistentChatPoolFqdn is not needed if one of the following is true:</span></span> 
 > <UL>
 > <LI>
-> <P><span data-ttu-id="98d3b-106">沒有只有一個 Persistent Chat Server 集區。</span><span class="sxs-lookup"><span data-stu-id="98d3b-106">There is only one Persistent Chat Server pool.</span></span></P>
+> <P><span data-ttu-id="6a309-106">沒有只有一個 Persistent Chat Server 集區。</span><span class="sxs-lookup"><span data-stu-id="6a309-106">There is only one Persistent Chat Server pool.</span></span></P>
 > <LI>
-> <P><span data-ttu-id="98d3b-107">您提供該類別的集區 FQDN。</span><span class="sxs-lookup"><span data-stu-id="98d3b-107">You provide a pool FQDN to the category.</span></span></P>
+> <P><span data-ttu-id="6a309-107">您提供該類別的集區 FQDN。</span><span class="sxs-lookup"><span data-stu-id="6a309-107">You provide a pool FQDN to the category.</span></span></P>
 > <LI>
-> <P><span data-ttu-id="98d3b-108">您提供一個集區 FQDN 來新增聊天室。</span><span class="sxs-lookup"><span data-stu-id="98d3b-108">You provide a pool FQDN to adding the room.</span></span></P></LI></UL>
+> <P><span data-ttu-id="6a309-108">您提供一個集區 FQDN 來新增聊天室。</span><span class="sxs-lookup"><span data-stu-id="6a309-108">You provide a pool FQDN to adding the room.</span></span></P></LI></UL>
 
 
 
 </div>
 
-<span data-ttu-id="98d3b-109">若要變更現有的常設聊天室伺服器室</span><span class="sxs-lookup"><span data-stu-id="98d3b-109">To make changes to an existing Persistent Chat Server room</span></span>
+<span data-ttu-id="6a309-109">若要變更現有的常設聊天室伺服器室</span><span class="sxs-lookup"><span data-stu-id="6a309-109">To make changes to an existing Persistent Chat Server room</span></span>
 
     Set-CsPersistentChatRoom -Identity testCat -Members @{Add="sip:user1@contoso.com", "CN=container,DC=contoso,DC=com"}
     Set-CsPersistentChatRoom -Identity testCat -Managers @{Add="sip:user2@contoso.com"}
     Set-CsPersistentChatRoom -Identity testCat -Presenters @{Add="sip:user1@contoso.com"}
 
-<span data-ttu-id="98d3b-110">Windows PowerShell： 成員、 主管和簡報者可以同時設定。</span><span class="sxs-lookup"><span data-stu-id="98d3b-110">Windows PowerShell: Members, Managers and Presenters can be set simultaneously.</span></span> <span data-ttu-id="98d3b-111">它們都應該 AllowedMembers 減 DeniedMembers 主應用程式] 類別的子集。</span><span class="sxs-lookup"><span data-stu-id="98d3b-111">They all should be the subset of AllowedMembers minus DeniedMembers of the host Category.</span></span> <span data-ttu-id="98d3b-112">是類型會議室 = 一般不能包括簡報者。</span><span class="sxs-lookup"><span data-stu-id="98d3b-112">A room that is type=normal cannot include Presenters.</span></span>
+<span data-ttu-id="6a309-110">Windows PowerShell： 成員、 主管和簡報者可以同時設定。</span><span class="sxs-lookup"><span data-stu-id="6a309-110">Windows PowerShell: Members, Managers and Presenters can be set simultaneously.</span></span> <span data-ttu-id="6a309-111">它們都應該 AllowedMembers 減 DeniedMembers 主應用程式] 類別的子集。</span><span class="sxs-lookup"><span data-stu-id="6a309-111">They all should be the subset of AllowedMembers minus DeniedMembers of the host Category.</span></span> <span data-ttu-id="6a309-112">是類型會議室 = 一般不能包括簡報者。</span><span class="sxs-lookup"><span data-stu-id="6a309-112">A room that is type=normal cannot include Presenters.</span></span>
 
 <div>
 
-## <a name="create-get-set-clear-or-remove-a-room"></a><span data-ttu-id="98d3b-113">建立、 取得、 設定、 清除，或移除聊天室</span><span class="sxs-lookup"><span data-stu-id="98d3b-113">Create, Get, Set, Clear, or Remove a Room</span></span>
+## <a name="create-get-set-clear-or-remove-a-room"></a><span data-ttu-id="6a309-113">建立、 取得、 設定、 清除，或移除聊天室</span><span class="sxs-lookup"><span data-stu-id="6a309-113">Create, Get, Set, Clear, or Remove a Room</span></span>
 
-<span data-ttu-id="98d3b-114">若要建立新聊天室</span><span class="sxs-lookup"><span data-stu-id="98d3b-114">To create a new room</span></span>
+<span data-ttu-id="6a309-114">若要建立新聊天室</span><span class="sxs-lookup"><span data-stu-id="6a309-114">To create a new room</span></span>
 
     New-CsPersistentChatRoom -Name <String> [-PersistentChatPoolFqdn <String>]-Category <String> [-Description <String>] [-Disabled <Switch Parameter>] [-Type <Normal | Auditorium>] [-AddIn <String>] [-Privacy <ChatRoomPrivacy> {Open | Closed | Secret}] [-Invitations <Switch Parameter>]
 
-<span data-ttu-id="98d3b-115">設定聊天室</span><span class="sxs-lookup"><span data-stu-id="98d3b-115">To set a room</span></span>
+<span data-ttu-id="6a309-115">設定聊天室</span><span class="sxs-lookup"><span data-stu-id="6a309-115">To set a room</span></span>
 
     Set-CsPersistentChatRoom -Identity <String> [-Name <String>] [-Category <String>] [-Description <String>] [-Disabled <boolean>] [-Type <Normal | Auditorium>] [-AddIn <String>] [-Privacy <ChatRoomPrivacy> {Open | Closed | Secret}] [-Invitations <Enum>] [-Members <PSListModifier<String>>] [-Managers <PSListModifier<String>>] [-Presenters <PSListModifier<String>>] [-Force < Switch Parameter >] [-Confirm <Switch Parameter>][-WhatIf <Switch Parameter>]
 
-<span data-ttu-id="98d3b-116">若要取得聊天室</span><span class="sxs-lookup"><span data-stu-id="98d3b-116">To get a room</span></span>
+<span data-ttu-id="6a309-116">若要取得聊天室</span><span class="sxs-lookup"><span data-stu-id="6a309-116">To get a room</span></span>
 
     Get-CsPersistentChatRoom -Identity <String>
 
-<span data-ttu-id="98d3b-117">或</span><span class="sxs-lookup"><span data-stu-id="98d3b-117">or</span></span>
+<span data-ttu-id="6a309-117">或</span><span class="sxs-lookup"><span data-stu-id="6a309-117">or</span></span>
 
     Get-CsPersistentChatRoom -filter <String> [-PersistentChatPoolFqdn <String>] [-SearchDescription] [-Member <String>] [-Manager <string>] [-Category <string>] [-Addin <string>] [-Disabled <bool>] [-Privacy <ChatRoomPrivacy> {Open | Closed | Secret}] [-Type <ChatRoomType> {Normal | Auditorium}] [-Invitations <ChatRoomInvitations> {False | Inherit}] [-ChatContentExceedsMB <int>] [-ResultSize <int>]
 
-<span data-ttu-id="98d3b-118">其中 – 篩選器支援僅名稱和描述，幫助您尋找會議室其名稱/描述比對的關鍵字字串。</span><span class="sxs-lookup"><span data-stu-id="98d3b-118">where –filter supports only Name and Description and helps you find rooms whose Name/Description matches the keyword string.</span></span> <span data-ttu-id="98d3b-119">PoolFqdn 搜尋特定的 Persistent Chat Server 集區中。</span><span class="sxs-lookup"><span data-stu-id="98d3b-119">PoolFqdn searches in a given Persistent Chat Server pool.</span></span>
+<span data-ttu-id="6a309-118">其中 – 篩選器支援僅名稱和描述，幫助您尋找會議室其名稱/描述比對的關鍵字字串。</span><span class="sxs-lookup"><span data-stu-id="6a309-118">where –filter supports only Name and Description and helps you find rooms whose Name/Description matches the keyword string.</span></span> <span data-ttu-id="6a309-119">PoolFqdn 搜尋特定的 Persistent Chat Server 集區中。</span><span class="sxs-lookup"><span data-stu-id="6a309-119">PoolFqdn searches in a given Persistent Chat Server pool.</span></span>
 
-<span data-ttu-id="98d3b-120">若要清除聊天室和清除聊天室的訊息</span><span class="sxs-lookup"><span data-stu-id="98d3b-120">To clear a room and clear messages from a room</span></span>
+<span data-ttu-id="6a309-120">若要清除聊天室和清除聊天室的訊息</span><span class="sxs-lookup"><span data-stu-id="6a309-120">To clear a room and clear messages from a room</span></span>
 
     Clear-CsPersistentChatRoom [-Identity] <string> -EndDate <DateTime> [-WhatIf] [-Confirm]  [<CommonParameters>]
 
-<span data-ttu-id="98d3b-121">或</span><span class="sxs-lookup"><span data-stu-id="98d3b-121">or</span></span>
+<span data-ttu-id="6a309-121">或</span><span class="sxs-lookup"><span data-stu-id="6a309-121">or</span></span>
 
     Clear-CsPersistentChatRoom [-Instance] <ChatRoomObject> -EndDate <DateTime> [-WhatIf] [-Confirm] [<CommonParameters>]
 
-<span data-ttu-id="98d3b-122">若要移除聊天室</span><span class="sxs-lookup"><span data-stu-id="98d3b-122">To remove a room</span></span>
+<span data-ttu-id="6a309-122">若要移除聊天室</span><span class="sxs-lookup"><span data-stu-id="6a309-122">To remove a room</span></span>
 
     Remove-CsPersistentChatRoom [-Identity] <string> [-Force] [-WhatIf] [-Confirm]  [<CommonParameters>]
 
-<span data-ttu-id="98d3b-123">或</span><span class="sxs-lookup"><span data-stu-id="98d3b-123">or</span></span>
+<span data-ttu-id="6a309-123">或</span><span class="sxs-lookup"><span data-stu-id="6a309-123">or</span></span>
 
     Remove-CsPersistentChatRoom [-Instance] <ChatRoomObject> [-Force] [-WhatIf] [-Confirm]  [<CommonParameters>]
 

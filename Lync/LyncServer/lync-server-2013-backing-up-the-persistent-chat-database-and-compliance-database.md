@@ -12,20 +12,20 @@ ms:contentKeyID: 48705998
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4d55d43b211f3a45e2fd89ea147432bdc48c9067
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 7bcbea0dd4cd9bce2c394e02bca70080ab7e2133
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42135770"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42206059"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="backing-up-the-persistent-chat-database-and-compliance-database-in-lync-server-2013"></a><span data-ttu-id="efd5b-102">備份常設聊天室資料庫及 Lync Server 2013 中的規範資料庫</span><span class="sxs-lookup"><span data-stu-id="efd5b-102">Backing up the Persistent Chat database and Compliance database in Lync Server 2013</span></span>
+# <a name="backing-up-the-persistent-chat-database-and-compliance-database-in-lync-server-2013"></a><span data-ttu-id="cd763-102">備份常設聊天室資料庫及 Lync Server 2013 中的規範資料庫</span><span class="sxs-lookup"><span data-stu-id="cd763-102">Backing up the Persistent Chat database and Compliance database in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "42135770"
 
 <span> </span>
 
-<span data-ttu-id="efd5b-103">_**主題上次修改日期：** 2012年-08-01_</span><span class="sxs-lookup"><span data-stu-id="efd5b-103">_**Topic Last Modified:** 2012-08-01_</span></span>
+<span data-ttu-id="cd763-103">_**主題上次修改日期：** 2012年-08-01_</span><span class="sxs-lookup"><span data-stu-id="cd763-103">_**Topic Last Modified:** 2012-08-01_</span></span>
 
-<span data-ttu-id="efd5b-104">您應該定期備份常設聊天室資料庫及規範資料庫。</span><span class="sxs-lookup"><span data-stu-id="efd5b-104">You should regularly back up the Persistent Chat database and the compliance database.</span></span> <span data-ttu-id="efd5b-105">請與您的資料庫管理員連絡，以決定在您的環境中進行備份的最佳方式。</span><span class="sxs-lookup"><span data-stu-id="efd5b-105">Contact the database administrator to determine the best way to do this in your environment.</span></span>
+<span data-ttu-id="cd763-104">您應該定期備份常設聊天室資料庫及規範資料庫。</span><span class="sxs-lookup"><span data-stu-id="cd763-104">You should regularly back up the Persistent Chat database and the compliance database.</span></span> <span data-ttu-id="cd763-105">請與您的資料庫管理員連絡，以決定在您的環境中進行備份的最佳方式。</span><span class="sxs-lookup"><span data-stu-id="cd763-105">Contact the database administrator to determine the best way to do this in your environment.</span></span>
 
 </div>
 

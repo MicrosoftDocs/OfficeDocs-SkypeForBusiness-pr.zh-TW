@@ -12,20 +12,20 @@ ms:contentKeyID: 48184616
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 031c751cdb33dbafce9f99a6efcabe144f357732
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: bda2a04ca57a6bbd8f1d98cc93e0adf635049b8b
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42148442"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42209569"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="phase-7-add-lync-server-2013-edge-server-to-pilot-pool"></a><span data-ttu-id="b66da-102">階段 7： 將 Lync Server 2013 Edge Server 新增至試驗集區</span><span class="sxs-lookup"><span data-stu-id="b66da-102">Phase 7: Add Lync Server 2013 Edge Server to pilot pool</span></span>
+# <a name="phase-7-add-lync-server-2013-edge-server-to-pilot-pool"></a><span data-ttu-id="45567-102">階段 7： 將 Lync Server 2013 Edge Server 新增至試驗集區</span><span class="sxs-lookup"><span data-stu-id="45567-102">Phase 7: Add Lync Server 2013 Edge Server to pilot pool</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "42148442"
 
 <span> </span>
 
-<span data-ttu-id="b66da-103">_**主題上次修改日期：** 2012年-09-26_</span><span class="sxs-lookup"><span data-stu-id="b66da-103">_**Topic Last Modified:** 2012-09-26_</span></span>
+<span data-ttu-id="45567-103">_**主題上次修改日期：** 2012年-09-26_</span><span class="sxs-lookup"><span data-stu-id="45567-103">_**Topic Last Modified:** 2012-09-26_</span></span>
 
-<span data-ttu-id="b66da-104">本節中的主題說明如何將 Lync Server 2013 Edge Server 新增至試驗集區的部署。</span><span class="sxs-lookup"><span data-stu-id="b66da-104">The topics in this section explain how to add a Lync Server 2013 Edge Server to the pilot pool deployment.</span></span> <span data-ttu-id="b66da-105">這些主題將提供執行 [部署新的 Edge 集區]\*\*\*\* 精靈的設定及驗證指引。</span><span class="sxs-lookup"><span data-stu-id="b66da-105">The topics provide configuration and verification guidance when running the **Deploy New Edge pool** wizards.</span></span>
+<span data-ttu-id="45567-104">本節中的主題說明如何將 Lync Server 2013 Edge Server 新增至試驗集區的部署。</span><span class="sxs-lookup"><span data-stu-id="45567-104">The topics in this section explain how to add a Lync Server 2013 Edge Server to the pilot pool deployment.</span></span> <span data-ttu-id="45567-105">這些主題將提供執行 [部署新的 Edge 集區]\*\*\*\* 精靈的設定及驗證指引。</span><span class="sxs-lookup"><span data-stu-id="45567-105">The topics provide configuration and verification guidance when running the **Deploy New Edge pool** wizards.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="b66da-106">本節內容</span><span class="sxs-lookup"><span data-stu-id="b66da-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="45567-106">本節內容</span><span class="sxs-lookup"><span data-stu-id="45567-106">In This Section</span></span>
 
-  - [<span data-ttu-id="b66da-107">部署試驗 Edge Server</span><span class="sxs-lookup"><span data-stu-id="b66da-107">Deploy pilot Edge Server</span></span>](deploy-pilot-edge-server_1.md)
+  - [<span data-ttu-id="45567-107">部署試驗 Edge Server</span><span class="sxs-lookup"><span data-stu-id="45567-107">Deploy pilot Edge Server</span></span>](deploy-pilot-edge-server_1.md)
 
-  - [<span data-ttu-id="b66da-108">驗證複製組態設定</span><span class="sxs-lookup"><span data-stu-id="b66da-108">Validate replication of configuration settings</span></span>](validate-replication-of-configuration-settings.md)
+  - [<span data-ttu-id="45567-108">驗證複製組態設定</span><span class="sxs-lookup"><span data-stu-id="45567-108">Validate replication of configuration settings</span></span>](validate-replication-of-configuration-settings.md)
 
 </div>
 
