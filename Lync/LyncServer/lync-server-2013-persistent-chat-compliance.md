@@ -12,20 +12,20 @@ ms:contentKeyID: 48184099
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5da43df6acc0047965acb623446e8a3cdc0f966e
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 28aeb867e56a310b73e101a75608015dae80b796
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42153053"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42215569"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="persistent-chat-compliance-in-lync-server-2013"></a><span data-ttu-id="bc18d-102">在 [Lync Server 2013 常設聊天室規範</span><span class="sxs-lookup"><span data-stu-id="bc18d-102">Persistent Chat compliance in Lync Server 2013</span></span>
+# <a name="persistent-chat-compliance-in-lync-server-2013"></a><span data-ttu-id="c19a7-102">在 [Lync Server 2013 常設聊天室規範</span><span class="sxs-lookup"><span data-stu-id="c19a7-102">Persistent Chat compliance in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "42153053"
 
 <span> </span>
 
-<span data-ttu-id="bc18d-103">_**主題上次修改日期：** 2012年-10-06_</span><span class="sxs-lookup"><span data-stu-id="bc18d-103">_**Topic Last Modified:** 2012-10-06_</span></span>
+<span data-ttu-id="c19a7-103">_**主題上次修改日期：** 2012年-10-06_</span><span class="sxs-lookup"><span data-stu-id="c19a7-103">_**Topic Last Modified:** 2012-10-06_</span></span>
 
-<span data-ttu-id="bc18d-104">若要建立新的常設聊天室規範組態</span><span class="sxs-lookup"><span data-stu-id="bc18d-104">To create a new Persistent Chat compliance configuration</span></span>
+<span data-ttu-id="c19a7-104">若要建立新的常設聊天室規範組態</span><span class="sxs-lookup"><span data-stu-id="c19a7-104">To create a new Persistent Chat compliance configuration</span></span>
 
     New-CsPersistentChatComplianceConfiguration -Identity <XdsIdentity> [-AdapterName <String>] [-AdapterOutputDirectory <String>] [-AdapterType <String>] [-AddChatRoomDetails <$true | $false>] [-AddUserDetails <$true | $false>] [-Confirm [<Switch Parameter>]] [-CreateFileAttachmentsManifest <$true | $false>] [-CustomConfiguration <String>] [-Force <Switch Parameter>] [-InMemory <Switch Parameter>] [-OneChatRoomPerOutputFile <$true | $false>] [-RunInterval <TimeSpan>] [-WhatIf [<Switch Parameter>]]
 
-<span data-ttu-id="bc18d-105">取得常設聊天室規範組態設定</span><span class="sxs-lookup"><span data-stu-id="bc18d-105">To get Persistent Chat compliance configuration</span></span>
+<span data-ttu-id="c19a7-105">取得常設聊天室規範組態設定</span><span class="sxs-lookup"><span data-stu-id="c19a7-105">To get Persistent Chat compliance configuration</span></span>
 
     Get-CsPersistentChatComplianceConfiguration [-Identity <XdsIdentity>] [-LocalStore <Switch Parameter>]
 
-<span data-ttu-id="bc18d-106">設定常設聊天室規範組態設定</span><span class="sxs-lookup"><span data-stu-id="bc18d-106">To set Persistent Chat compliance configuration</span></span>
+<span data-ttu-id="c19a7-106">設定常設聊天室規範組態設定</span><span class="sxs-lookup"><span data-stu-id="c19a7-106">To set Persistent Chat compliance configuration</span></span>
 
     Set-CsPersistentChatComplianceConfiguration -Identity <XdsIdentity> [-AdapterName <String>] [-AdapterOutputDirectory <String>] [-AdapterType <String>] [-AddChatRoomDetails <$true | $false>] [-AddUserDetails <$true | $false>] [-Confirm [<Switch Parameter>]] [-CreateFileAttachmentsManifest <$true | $false>] [-CustomConfiguration <String>] [-Force <Switch Parameter>] [-InMemory <Switch Parameter>] [-OneChatRoomPerOutputFile <$true | $false>] [-RunInterval <TimeSpan>] [-WhatIf [<Switch Parameter>]]
 
-<span data-ttu-id="bc18d-107">若要移除常設聊天室規範設定</span><span class="sxs-lookup"><span data-stu-id="bc18d-107">To remove Persistent Chat compliance configuration</span></span>
+<span data-ttu-id="c19a7-107">若要移除常設聊天室規範設定</span><span class="sxs-lookup"><span data-stu-id="c19a7-107">To remove Persistent Chat compliance configuration</span></span>
 
     Remove-CsPersistentChatComplianceConfiguration -Identity <XdsIdentity> [-Confirm [<SwitchParameter>]] [-Force <SwitchParameter>] [-WhatIf [<SwitchParameter>]]
 

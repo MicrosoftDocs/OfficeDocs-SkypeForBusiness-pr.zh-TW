@@ -12,20 +12,20 @@ ms:contentKeyID: 48679567
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 59cae91ac3c0106d7c1a1aa31e0ee4f2549b49c1
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: ab897bf5bc9d959089090ebeaaddc4d766549401
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42129646"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42217119"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="negotiation-settings-for-xmpp-federated-partners-in-lync-server-2013"></a><span data-ttu-id="a34c4-102">交涉設定為 XMPP 同盟協力廠商在 Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a34c4-102">Negotiation settings for XMPP federated partners in Lync Server 2013</span></span>
+# <a name="negotiation-settings-for-xmpp-federated-partners-in-lync-server-2013"></a><span data-ttu-id="230a5-102">交涉設定為 XMPP 同盟協力廠商在 Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="230a5-102">Negotiation settings for XMPP federated partners in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "42129646"
 
 <span> </span>
 
-<span data-ttu-id="a34c4-103">_**主題上次修改日期：** 2012年-10-21_</span><span class="sxs-lookup"><span data-stu-id="a34c4-103">_**Topic Last Modified:** 2012-10-21_</span></span>
+<span data-ttu-id="230a5-103">_**主題上次修改日期：** 2012年-10-21_</span><span class="sxs-lookup"><span data-stu-id="230a5-103">_**Topic Last Modified:** 2012-10-21_</span></span>
 
-<span data-ttu-id="a34c4-104">設定中的 XMPP 協力廠商的交涉類型的設定有各種可能的組合。</span><span class="sxs-lookup"><span data-stu-id="a34c4-104">The settings for the negotiation types in the configuration of an XMPP Partner have a wide variety of possible combinations.</span></span> <span data-ttu-id="a34c4-105">並非所有的這些組合都有效。</span><span class="sxs-lookup"><span data-stu-id="a34c4-105">Not all of these combinations are valid.</span></span> <span data-ttu-id="a34c4-106">本主題中詳述的表格會定義有效及無效的設定。</span><span class="sxs-lookup"><span data-stu-id="a34c4-106">The table detailed in this topic will define the valid and not valid settings.</span></span> <span data-ttu-id="a34c4-107">一般設定一文中所述的第一個表格，其中所有可能組合第二個表格。</span><span class="sxs-lookup"><span data-stu-id="a34c4-107">Common configurations are presented in the first table, the second table detailing all possible combinations.</span></span> <span data-ttu-id="a34c4-108">請注意，您不能有*簡單驗證及安全性階層*(SASL)\**除非\*\*\*傳輸層安全性*(TLS) 也是可用的。</span><span class="sxs-lookup"><span data-stu-id="a34c4-108">Note that you cannot have *Simple Authentication and Security Layer* (SASL) **unless** *Transport Layer Security* (TLS) is also available.</span></span> <span data-ttu-id="a34c4-109">SASL 傳送以未加密 （讀取） 的格式，且應該永遠不容許傳輸除非由另一個方法，例如 TLS 保護。</span><span class="sxs-lookup"><span data-stu-id="a34c4-109">SASL is sent in an unencrypted (readable) format and should never be transmitted unless protected by another means, such as TLS.</span></span>
+<span data-ttu-id="230a5-104">設定中的 XMPP 協力廠商的交涉類型的設定有各種可能的組合。</span><span class="sxs-lookup"><span data-stu-id="230a5-104">The settings for the negotiation types in the configuration of an XMPP Partner have a wide variety of possible combinations.</span></span> <span data-ttu-id="230a5-105">並非所有的這些組合都有效。</span><span class="sxs-lookup"><span data-stu-id="230a5-105">Not all of these combinations are valid.</span></span> <span data-ttu-id="230a5-106">本主題中詳述的表格會定義有效及無效的設定。</span><span class="sxs-lookup"><span data-stu-id="230a5-106">The table detailed in this topic will define the valid and not valid settings.</span></span> <span data-ttu-id="230a5-107">一般設定一文中所述的第一個表格，其中所有可能組合第二個表格。</span><span class="sxs-lookup"><span data-stu-id="230a5-107">Common configurations are presented in the first table, the second table detailing all possible combinations.</span></span> <span data-ttu-id="230a5-108">請注意，您不能有*簡單驗證及安全性階層*(SASL)\**除非\*\*\*傳輸層安全性*(TLS) 也是可用的。</span><span class="sxs-lookup"><span data-stu-id="230a5-108">Note that you cannot have *Simple Authentication and Security Layer* (SASL) **unless** *Transport Layer Security* (TLS) is also available.</span></span> <span data-ttu-id="230a5-109">SASL 傳送以未加密 （讀取） 的格式，且應該永遠不容許傳輸除非由另一個方法，例如 TLS 保護。</span><span class="sxs-lookup"><span data-stu-id="230a5-109">SASL is sent in an unencrypted (readable) format and should never be transmitted unless protected by another means, such as TLS.</span></span>
 
-### <a name="common-xmpp-federation-negotiation-methods"></a><span data-ttu-id="a34c4-110">常見的 XMPP 同盟交涉方法</span><span class="sxs-lookup"><span data-stu-id="a34c4-110">Common XMPP Federation Negotiation Methods</span></span>
+### <a name="common-xmpp-federation-negotiation-methods"></a><span data-ttu-id="230a5-110">常見的 XMPP 同盟交涉方法</span><span class="sxs-lookup"><span data-stu-id="230a5-110">Common XMPP Federation Negotiation Methods</span></span>
 
 <table>
 <colgroup>
@@ -51,47 +51,47 @@ ms.locfileid: "42129646"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="a34c4-111">傳輸層安全性 (TLS)</span><span class="sxs-lookup"><span data-stu-id="a34c4-111">Transport Layer Security (TLS)</span></span></th>
-<th><span data-ttu-id="a34c4-112">簡單驗證及安全性階層 (SASL)</span><span class="sxs-lookup"><span data-stu-id="a34c4-112">Simple Authentication and Security Layer (SASL)</span></span></th>
-<th><span data-ttu-id="a34c4-113">回撥驗證</span><span class="sxs-lookup"><span data-stu-id="a34c4-113">Dialback Authentication</span></span></th>
-<th><span data-ttu-id="a34c4-114">預期的驗證方法</span><span class="sxs-lookup"><span data-stu-id="a34c4-114">Expected Authentication Method(s)</span></span></th>
-<th><span data-ttu-id="a34c4-115">附註</span><span class="sxs-lookup"><span data-stu-id="a34c4-115">Notes</span></span></th>
+<th><span data-ttu-id="230a5-111">傳輸層安全性 (TLS)</span><span class="sxs-lookup"><span data-stu-id="230a5-111">Transport Layer Security (TLS)</span></span></th>
+<th><span data-ttu-id="230a5-112">簡單驗證及安全性階層 (SASL)</span><span class="sxs-lookup"><span data-stu-id="230a5-112">Simple Authentication and Security Layer (SASL)</span></span></th>
+<th><span data-ttu-id="230a5-113">回撥驗證</span><span class="sxs-lookup"><span data-stu-id="230a5-113">Dialback Authentication</span></span></th>
+<th><span data-ttu-id="230a5-114">預期的驗證方法</span><span class="sxs-lookup"><span data-stu-id="230a5-114">Expected Authentication Method(s)</span></span></th>
+<th><span data-ttu-id="230a5-115">附註</span><span class="sxs-lookup"><span data-stu-id="230a5-115">Notes</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="a34c4-116">必要</span><span class="sxs-lookup"><span data-stu-id="a34c4-116">Required</span></span></p></td>
-<td><p><span data-ttu-id="a34c4-117">必要</span><span class="sxs-lookup"><span data-stu-id="a34c4-117">Required</span></span></p></td>
-<td><p><span data-ttu-id="a34c4-118">False</span><span class="sxs-lookup"><span data-stu-id="a34c4-118">False</span></span></p></td>
-<td><p><span data-ttu-id="a34c4-119">SASL 優於 TLS</span><span class="sxs-lookup"><span data-stu-id="a34c4-119">SASL over TLS</span></span></p></td>
-<td><p><span data-ttu-id="a34c4-120">需要協助確保 SASL 郵件資料流是安全的 TLS 和 SASL。</span><span class="sxs-lookup"><span data-stu-id="a34c4-120">TLS and SASL required helps to ensure that the SASL message stream is secure.</span></span> <span data-ttu-id="a34c4-121">回撥不提供，如果 XMPP 同盟協力廠商不必要或選用設定 TLS 無法用於後援方法。</span><span class="sxs-lookup"><span data-stu-id="a34c4-121">Dialback is not available and cannot be used for a fallback method if the XMPP federated partner has not set TLS to required or optional.</span></span></p></td>
+<td><p><span data-ttu-id="230a5-116">必要</span><span class="sxs-lookup"><span data-stu-id="230a5-116">Required</span></span></p></td>
+<td><p><span data-ttu-id="230a5-117">必要</span><span class="sxs-lookup"><span data-stu-id="230a5-117">Required</span></span></p></td>
+<td><p><span data-ttu-id="230a5-118">False</span><span class="sxs-lookup"><span data-stu-id="230a5-118">False</span></span></p></td>
+<td><p><span data-ttu-id="230a5-119">SASL 優於 TLS</span><span class="sxs-lookup"><span data-stu-id="230a5-119">SASL over TLS</span></span></p></td>
+<td><p><span data-ttu-id="230a5-120">需要協助確保 SASL 郵件資料流是安全的 TLS 和 SASL。</span><span class="sxs-lookup"><span data-stu-id="230a5-120">TLS and SASL required helps to ensure that the SASL message stream is secure.</span></span> <span data-ttu-id="230a5-121">回撥不提供，如果 XMPP 同盟協力廠商不必要或選用設定 TLS 無法用於後援方法。</span><span class="sxs-lookup"><span data-stu-id="230a5-121">Dialback is not available and cannot be used for a fallback method if the XMPP federated partner has not set TLS to required or optional.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a34c4-122">必要</span><span class="sxs-lookup"><span data-stu-id="a34c4-122">Required</span></span></p></td>
-<td><p><span data-ttu-id="a34c4-123">選擇性</span><span class="sxs-lookup"><span data-stu-id="a34c4-123">Optional</span></span></p></td>
-<td><p><span data-ttu-id="a34c4-124">True</span><span class="sxs-lookup"><span data-stu-id="a34c4-124">True</span></span></p></td>
-<td><p><span data-ttu-id="a34c4-125">SASL 優於 TLS、 TLS 回撥、 TCP 回撥</span><span class="sxs-lookup"><span data-stu-id="a34c4-125">SASL over TLS, TLS Dialback, TCP Dialback</span></span></p></td>
-<td><p><span data-ttu-id="a34c4-126">依需要 TLS，會使用 XMPP 同盟協力廠商已將 SASL 設定為選用或必要 SASL。</span><span class="sxs-lookup"><span data-stu-id="a34c4-126">By requiring TLS, if the XMPP federated partner has set SASL to optional or required SASL is used.</span></span> <span data-ttu-id="a34c4-127">如果無法使用 SASL，則會使用透過 TLS 的回撥。</span><span class="sxs-lookup"><span data-stu-id="a34c4-127">If SASL is not available, Dialback over TLS will be used.</span></span></p></td>
+<td><p><span data-ttu-id="230a5-122">必要</span><span class="sxs-lookup"><span data-stu-id="230a5-122">Required</span></span></p></td>
+<td><p><span data-ttu-id="230a5-123">選擇性</span><span class="sxs-lookup"><span data-stu-id="230a5-123">Optional</span></span></p></td>
+<td><p><span data-ttu-id="230a5-124">True</span><span class="sxs-lookup"><span data-stu-id="230a5-124">True</span></span></p></td>
+<td><p><span data-ttu-id="230a5-125">SASL 優於 TLS、 TLS 回撥、 TCP 回撥</span><span class="sxs-lookup"><span data-stu-id="230a5-125">SASL over TLS, TLS Dialback, TCP Dialback</span></span></p></td>
+<td><p><span data-ttu-id="230a5-126">依需要 TLS，會使用 XMPP 同盟協力廠商已將 SASL 設定為選用或必要 SASL。</span><span class="sxs-lookup"><span data-stu-id="230a5-126">By requiring TLS, if the XMPP federated partner has set SASL to optional or required SASL is used.</span></span> <span data-ttu-id="230a5-127">如果無法使用 SASL，則會使用透過 TLS 的回撥。</span><span class="sxs-lookup"><span data-stu-id="230a5-127">If SASL is not available, Dialback over TLS will be used.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a34c4-128">選用</span><span class="sxs-lookup"><span data-stu-id="a34c4-128">Optional</span></span></p></td>
-<td><p><span data-ttu-id="a34c4-129">選用</span><span class="sxs-lookup"><span data-stu-id="a34c4-129">Optional</span></span></p></td>
-<td><p><span data-ttu-id="a34c4-130">True</span><span class="sxs-lookup"><span data-stu-id="a34c4-130">True</span></span></p></td>
-<td><p><span data-ttu-id="a34c4-131">SASL 優於 TLS、 TLS 回撥、 TCP 回撥</span><span class="sxs-lookup"><span data-stu-id="a34c4-131">SASL over TLS, TLS Dialback, TCP Dialback</span></span></p></td>
-<td><p><span data-ttu-id="a34c4-132">雖然很有彈性中提供的交涉方法，這些設定會依賴 XMPP 同盟協力廠商的設定。</span><span class="sxs-lookup"><span data-stu-id="a34c4-132">While very flexible in the negotiation methods offered, these settings rely on the XMPP federation partner’s settings.</span></span> <span data-ttu-id="a34c4-133">如果協力廠商 TLS 選用或必要，但不是支援 SASL，則可使用 TLS 回撥。</span><span class="sxs-lookup"><span data-stu-id="a34c4-133">If the partner has TLS optional or required but SASL is not supported, TLS Dialback will be available.</span></span> <span data-ttu-id="a34c4-134">如果協力廠商 TLS 和 SASL 設為選用或必要，會使用 TLS over SASL 最佳選擇。</span><span class="sxs-lookup"><span data-stu-id="a34c4-134">If the partner has TLS and SASL set to optional or required, the optimal selection of TLS over SASL is used.</span></span></p></td>
+<td><p><span data-ttu-id="230a5-128">選用</span><span class="sxs-lookup"><span data-stu-id="230a5-128">Optional</span></span></p></td>
+<td><p><span data-ttu-id="230a5-129">選用</span><span class="sxs-lookup"><span data-stu-id="230a5-129">Optional</span></span></p></td>
+<td><p><span data-ttu-id="230a5-130">True</span><span class="sxs-lookup"><span data-stu-id="230a5-130">True</span></span></p></td>
+<td><p><span data-ttu-id="230a5-131">SASL 優於 TLS、 TLS 回撥、 TCP 回撥</span><span class="sxs-lookup"><span data-stu-id="230a5-131">SASL over TLS, TLS Dialback, TCP Dialback</span></span></p></td>
+<td><p><span data-ttu-id="230a5-132">雖然很有彈性中提供的交涉方法，這些設定會依賴 XMPP 同盟協力廠商的設定。</span><span class="sxs-lookup"><span data-stu-id="230a5-132">While very flexible in the negotiation methods offered, these settings rely on the XMPP federation partner’s settings.</span></span> <span data-ttu-id="230a5-133">如果協力廠商 TLS 選用或必要，但不是支援 SASL，則可使用 TLS 回撥。</span><span class="sxs-lookup"><span data-stu-id="230a5-133">If the partner has TLS optional or required but SASL is not supported, TLS Dialback will be available.</span></span> <span data-ttu-id="230a5-134">如果協力廠商 TLS 和 SASL 設為選用或必要，會使用 TLS over SASL 最佳選擇。</span><span class="sxs-lookup"><span data-stu-id="230a5-134">If the partner has TLS and SASL set to optional or required, the optimal selection of TLS over SASL is used.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a34c4-135">不支援</span><span class="sxs-lookup"><span data-stu-id="a34c4-135">Not Supported</span></span></p></td>
-<td><p><span data-ttu-id="a34c4-136">不支援</span><span class="sxs-lookup"><span data-stu-id="a34c4-136">Not Supported</span></span></p></td>
-<td><p><span data-ttu-id="a34c4-137">True</span><span class="sxs-lookup"><span data-stu-id="a34c4-137">True</span></span></p></td>
-<td><p><span data-ttu-id="a34c4-138">TCP 回撥</span><span class="sxs-lookup"><span data-stu-id="a34c4-138">TCP Dialback</span></span></p></td>
-<td><p><span data-ttu-id="a34c4-139">在許多情況下，TCP 回撥是唯一可能的解決方案。</span><span class="sxs-lookup"><span data-stu-id="a34c4-139">In many cases, TCP Dialback is the only possible solution.</span></span> <span data-ttu-id="a34c4-140">較不建議比其他選項，但是它提供某種程度的信任。</span><span class="sxs-lookup"><span data-stu-id="a34c4-140">Less desirable than other options, it does provide some level of trust.</span></span></p></td>
+<td><p><span data-ttu-id="230a5-135">不支援</span><span class="sxs-lookup"><span data-stu-id="230a5-135">Not Supported</span></span></p></td>
+<td><p><span data-ttu-id="230a5-136">不支援</span><span class="sxs-lookup"><span data-stu-id="230a5-136">Not Supported</span></span></p></td>
+<td><p><span data-ttu-id="230a5-137">True</span><span class="sxs-lookup"><span data-stu-id="230a5-137">True</span></span></p></td>
+<td><p><span data-ttu-id="230a5-138">TCP 回撥</span><span class="sxs-lookup"><span data-stu-id="230a5-138">TCP Dialback</span></span></p></td>
+<td><p><span data-ttu-id="230a5-139">在許多情況下，TCP 回撥是唯一可能的解決方案。</span><span class="sxs-lookup"><span data-stu-id="230a5-139">In many cases, TCP Dialback is the only possible solution.</span></span> <span data-ttu-id="230a5-140">較不建議比其他選項，但是它提供某種程度的信任。</span><span class="sxs-lookup"><span data-stu-id="230a5-140">Less desirable than other options, it does provide some level of trust.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="xmpp-federation-negotiation-methods-matrix---complete"></a><span data-ttu-id="a34c4-141">XMPP 同盟交涉方法矩陣： 完成</span><span class="sxs-lookup"><span data-stu-id="a34c4-141">XMPP Federation Negotiation Methods Matrix - Complete</span></span>
+### <a name="xmpp-federation-negotiation-methods-matrix---complete"></a><span data-ttu-id="230a5-141">XMPP 同盟交涉方法矩陣： 完成</span><span class="sxs-lookup"><span data-stu-id="230a5-141">XMPP Federation Negotiation Methods Matrix - Complete</span></span>
 
 <table>
 <colgroup>
@@ -103,220 +103,220 @@ ms.locfileid: "42129646"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="a34c4-142">傳輸層安全性 (TLS)</span><span class="sxs-lookup"><span data-stu-id="a34c4-142">Transport Layer Security (TLS)</span></span></th>
-<th><span data-ttu-id="a34c4-143">簡單驗證及安全性階層 (SASL)</span><span class="sxs-lookup"><span data-stu-id="a34c4-143">Simple Authentication and Security Layer (SASL)</span></span></th>
-<th><span data-ttu-id="a34c4-144">回撥驗證</span><span class="sxs-lookup"><span data-stu-id="a34c4-144">Dialback Authentication</span></span></th>
-<th><span data-ttu-id="a34c4-145">預期的驗證方法</span><span class="sxs-lookup"><span data-stu-id="a34c4-145">Expected Authentication Method</span></span></th>
-<th><span data-ttu-id="a34c4-146">備忘稿、 警告或錯誤不正確的設定</span><span class="sxs-lookup"><span data-stu-id="a34c4-146">Notes, Warning or Error for Not Valid Configuration</span></span></th>
+<th><span data-ttu-id="230a5-142">傳輸層安全性 (TLS)</span><span class="sxs-lookup"><span data-stu-id="230a5-142">Transport Layer Security (TLS)</span></span></th>
+<th><span data-ttu-id="230a5-143">簡單驗證及安全性階層 (SASL)</span><span class="sxs-lookup"><span data-stu-id="230a5-143">Simple Authentication and Security Layer (SASL)</span></span></th>
+<th><span data-ttu-id="230a5-144">回撥驗證</span><span class="sxs-lookup"><span data-stu-id="230a5-144">Dialback Authentication</span></span></th>
+<th><span data-ttu-id="230a5-145">預期的驗證方法</span><span class="sxs-lookup"><span data-stu-id="230a5-145">Expected Authentication Method</span></span></th>
+<th><span data-ttu-id="230a5-146">備忘稿、 警告或錯誤不正確的設定</span><span class="sxs-lookup"><span data-stu-id="230a5-146">Notes, Warning or Error for Not Valid Configuration</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="a34c4-147">必要</span><span class="sxs-lookup"><span data-stu-id="a34c4-147">Required</span></span></p></td>
-<td><p><span data-ttu-id="a34c4-148">必要</span><span class="sxs-lookup"><span data-stu-id="a34c4-148">Required</span></span></p></td>
-<td><p><span data-ttu-id="a34c4-149">True</span><span class="sxs-lookup"><span data-stu-id="a34c4-149">True</span></span></p></td>
-<td><p><span data-ttu-id="a34c4-150">SASL 優於 TLS</span><span class="sxs-lookup"><span data-stu-id="a34c4-150">SASL over TLS</span></span></p></td>
+<td><p><span data-ttu-id="230a5-147">必要</span><span class="sxs-lookup"><span data-stu-id="230a5-147">Required</span></span></p></td>
+<td><p><span data-ttu-id="230a5-148">必要</span><span class="sxs-lookup"><span data-stu-id="230a5-148">Required</span></span></p></td>
+<td><p><span data-ttu-id="230a5-149">True</span><span class="sxs-lookup"><span data-stu-id="230a5-149">True</span></span></p></td>
+<td><p><span data-ttu-id="230a5-150">SASL 優於 TLS</span><span class="sxs-lookup"><span data-stu-id="230a5-150">SASL over TLS</span></span></p></td>
 <td><div>
 
 > [!WARNING]  
-> <span data-ttu-id="a34c4-151">如果需要 SASL 與 TLS 的回撥將無法運作。</span><span class="sxs-lookup"><span data-stu-id="a34c4-151">Dialback will not operate if both SASL and TLS are required.</span></span>
+> <span data-ttu-id="230a5-151">如果需要 SASL 與 TLS 的回撥將無法運作。</span><span class="sxs-lookup"><span data-stu-id="230a5-151">Dialback will not operate if both SASL and TLS are required.</span></span>
 
 
 </div></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a34c4-152">必要</span><span class="sxs-lookup"><span data-stu-id="a34c4-152">Required</span></span></p></td>
-<td><p><span data-ttu-id="a34c4-153">必要</span><span class="sxs-lookup"><span data-stu-id="a34c4-153">Required</span></span></p></td>
-<td><p><span data-ttu-id="a34c4-154">False</span><span class="sxs-lookup"><span data-stu-id="a34c4-154">False</span></span></p></td>
-<td><p><span data-ttu-id="a34c4-155">SASL 優於 TLS</span><span class="sxs-lookup"><span data-stu-id="a34c4-155">SASL over TLS</span></span></p></td>
+<td><p><span data-ttu-id="230a5-152">必要</span><span class="sxs-lookup"><span data-stu-id="230a5-152">Required</span></span></p></td>
+<td><p><span data-ttu-id="230a5-153">必要</span><span class="sxs-lookup"><span data-stu-id="230a5-153">Required</span></span></p></td>
+<td><p><span data-ttu-id="230a5-154">False</span><span class="sxs-lookup"><span data-stu-id="230a5-154">False</span></span></p></td>
+<td><p><span data-ttu-id="230a5-155">SASL 優於 TLS</span><span class="sxs-lookup"><span data-stu-id="230a5-155">SASL over TLS</span></span></p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a34c4-156">選用</span><span class="sxs-lookup"><span data-stu-id="a34c4-156">Optional</span></span></p></td>
-<td><p><span data-ttu-id="a34c4-157">必要</span><span class="sxs-lookup"><span data-stu-id="a34c4-157">Required</span></span></p></td>
-<td><p><span data-ttu-id="a34c4-158">True</span><span class="sxs-lookup"><span data-stu-id="a34c4-158">True</span></span></p></td>
-<td><p><span data-ttu-id="a34c4-159">SASL 優於 TLS、 TLS 回撥、 TCP 回撥</span><span class="sxs-lookup"><span data-stu-id="a34c4-159">SASL over TLS, TLS Dialback, TCP Dialback</span></span></p></td>
+<td><p><span data-ttu-id="230a5-156">選用</span><span class="sxs-lookup"><span data-stu-id="230a5-156">Optional</span></span></p></td>
+<td><p><span data-ttu-id="230a5-157">必要</span><span class="sxs-lookup"><span data-stu-id="230a5-157">Required</span></span></p></td>
+<td><p><span data-ttu-id="230a5-158">True</span><span class="sxs-lookup"><span data-stu-id="230a5-158">True</span></span></p></td>
+<td><p><span data-ttu-id="230a5-159">SASL 優於 TLS、 TLS 回撥、 TCP 回撥</span><span class="sxs-lookup"><span data-stu-id="230a5-159">SASL over TLS, TLS Dialback, TCP Dialback</span></span></p></td>
 <td><div>
 
 > [!WARNING]  
-> <span data-ttu-id="a34c4-160">SASL 要求 TLS。</span><span class="sxs-lookup"><span data-stu-id="a34c4-160">SASL requires TLS.</span></span> <span data-ttu-id="a34c4-161">允許為選用的 TLS，可能會造成失敗的工作階段交涉。</span><span class="sxs-lookup"><span data-stu-id="a34c4-161">Allowing TLS to be optional may result in failed session negotiations.</span></span>
+> <span data-ttu-id="230a5-160">SASL 要求 TLS。</span><span class="sxs-lookup"><span data-stu-id="230a5-160">SASL requires TLS.</span></span> <span data-ttu-id="230a5-161">允許為選用的 TLS，可能會造成失敗的工作階段交涉。</span><span class="sxs-lookup"><span data-stu-id="230a5-161">Allowing TLS to be optional may result in failed session negotiations.</span></span>
 
 
 </div></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a34c4-162">選用</span><span class="sxs-lookup"><span data-stu-id="a34c4-162">Optional</span></span></p></td>
-<td><p><span data-ttu-id="a34c4-163">必要</span><span class="sxs-lookup"><span data-stu-id="a34c4-163">Required</span></span></p></td>
-<td><p><span data-ttu-id="a34c4-164">False</span><span class="sxs-lookup"><span data-stu-id="a34c4-164">False</span></span></p></td>
-<td><p><span data-ttu-id="a34c4-165">SASL 優於 TLS</span><span class="sxs-lookup"><span data-stu-id="a34c4-165">SASL over TLS</span></span></p></td>
+<td><p><span data-ttu-id="230a5-162">選用</span><span class="sxs-lookup"><span data-stu-id="230a5-162">Optional</span></span></p></td>
+<td><p><span data-ttu-id="230a5-163">必要</span><span class="sxs-lookup"><span data-stu-id="230a5-163">Required</span></span></p></td>
+<td><p><span data-ttu-id="230a5-164">False</span><span class="sxs-lookup"><span data-stu-id="230a5-164">False</span></span></p></td>
+<td><p><span data-ttu-id="230a5-165">SASL 優於 TLS</span><span class="sxs-lookup"><span data-stu-id="230a5-165">SASL over TLS</span></span></p></td>
 <td><div>
 
 > [!WARNING]  
-> <span data-ttu-id="a34c4-166">SASL 要求 TLS。</span><span class="sxs-lookup"><span data-stu-id="a34c4-166">SASL requires TLS.</span></span> <span data-ttu-id="a34c4-167">允許為選用的 TLS，可能會造成失敗的工作階段交涉。</span><span class="sxs-lookup"><span data-stu-id="a34c4-167">Allowing TLS to be optional may result in failed session negotiations.</span></span>
+> <span data-ttu-id="230a5-166">SASL 要求 TLS。</span><span class="sxs-lookup"><span data-stu-id="230a5-166">SASL requires TLS.</span></span> <span data-ttu-id="230a5-167">允許為選用的 TLS，可能會造成失敗的工作階段交涉。</span><span class="sxs-lookup"><span data-stu-id="230a5-167">Allowing TLS to be optional may result in failed session negotiations.</span></span>
 
 
 </div></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a34c4-168">不支援</span><span class="sxs-lookup"><span data-stu-id="a34c4-168">Not Supported</span></span></p></td>
-<td><p><span data-ttu-id="a34c4-169">必要</span><span class="sxs-lookup"><span data-stu-id="a34c4-169">Required</span></span></p></td>
-<td><p><span data-ttu-id="a34c4-170">True</span><span class="sxs-lookup"><span data-stu-id="a34c4-170">True</span></span></p></td>
-<td><p><span data-ttu-id="a34c4-171">TCP 回撥</span><span class="sxs-lookup"><span data-stu-id="a34c4-171">TCP Dialback</span></span></p></td>
+<td><p><span data-ttu-id="230a5-168">不支援</span><span class="sxs-lookup"><span data-stu-id="230a5-168">Not Supported</span></span></p></td>
+<td><p><span data-ttu-id="230a5-169">必要</span><span class="sxs-lookup"><span data-stu-id="230a5-169">Required</span></span></p></td>
+<td><p><span data-ttu-id="230a5-170">True</span><span class="sxs-lookup"><span data-stu-id="230a5-170">True</span></span></p></td>
+<td><p><span data-ttu-id="230a5-171">TCP 回撥</span><span class="sxs-lookup"><span data-stu-id="230a5-171">TCP Dialback</span></span></p></td>
 <td><div>
 
 > [!WARNING]  
-> <span data-ttu-id="a34c4-172">SASL 要求 TLS。</span><span class="sxs-lookup"><span data-stu-id="a34c4-172">SASL requires TLS.</span></span> <span data-ttu-id="a34c4-173">允許為選用的 TLS，可能會造成失敗的工作階段交涉。</span><span class="sxs-lookup"><span data-stu-id="a34c4-173">Allowing TLS to be optional may result in failed session negotiations.</span></span>
+> <span data-ttu-id="230a5-172">SASL 要求 TLS。</span><span class="sxs-lookup"><span data-stu-id="230a5-172">SASL requires TLS.</span></span> <span data-ttu-id="230a5-173">允許為選用的 TLS，可能會造成失敗的工作階段交涉。</span><span class="sxs-lookup"><span data-stu-id="230a5-173">Allowing TLS to be optional may result in failed session negotiations.</span></span>
 
 
 </div></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a34c4-174">不支援</span><span class="sxs-lookup"><span data-stu-id="a34c4-174">Not Supported</span></span></p></td>
-<td><p><span data-ttu-id="a34c4-175">必要</span><span class="sxs-lookup"><span data-stu-id="a34c4-175">Required</span></span></p></td>
-<td><p><span data-ttu-id="a34c4-176">False</span><span class="sxs-lookup"><span data-stu-id="a34c4-176">False</span></span></p></td>
+<td><p><span data-ttu-id="230a5-174">不支援</span><span class="sxs-lookup"><span data-stu-id="230a5-174">Not Supported</span></span></p></td>
+<td><p><span data-ttu-id="230a5-175">必要</span><span class="sxs-lookup"><span data-stu-id="230a5-175">Required</span></span></p></td>
+<td><p><span data-ttu-id="230a5-176">False</span><span class="sxs-lookup"><span data-stu-id="230a5-176">False</span></span></p></td>
 <td><div>
 
 > [!WARNING]  
-> <span data-ttu-id="a34c4-177">無效組態</span><span class="sxs-lookup"><span data-stu-id="a34c4-177">Not Valid Configuration</span></span>
+> <span data-ttu-id="230a5-177">無效組態</span><span class="sxs-lookup"><span data-stu-id="230a5-177">Not Valid Configuration</span></span>
 
 
 </div></td>
 <td><div>
 
 > [!WARNING]  
-> <span data-ttu-id="a34c4-178">因為 SASL 需要 TLS、 TLS 不提供，SASL/TLS 無法成功。</span><span class="sxs-lookup"><span data-stu-id="a34c4-178">Because SASL requires TLS, and TLS is not available, SASL/TLS cannot succeed.</span></span> <span data-ttu-id="a34c4-179">TCP 回撥設定為 false，並無法使用。</span><span class="sxs-lookup"><span data-stu-id="a34c4-179">TCP Dialback is set to false, and cannot be used.</span></span>
+> <span data-ttu-id="230a5-178">因為 SASL 需要 TLS、 TLS 不提供，SASL/TLS 無法成功。</span><span class="sxs-lookup"><span data-stu-id="230a5-178">Because SASL requires TLS, and TLS is not available, SASL/TLS cannot succeed.</span></span> <span data-ttu-id="230a5-179">TCP 回撥設定為 false，並無法使用。</span><span class="sxs-lookup"><span data-stu-id="230a5-179">TCP Dialback is set to false, and cannot be used.</span></span>
 
 
 </div></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a34c4-180">必要</span><span class="sxs-lookup"><span data-stu-id="a34c4-180">Required</span></span></p></td>
-<td><p><span data-ttu-id="a34c4-181">選擇性</span><span class="sxs-lookup"><span data-stu-id="a34c4-181">Optional</span></span></p></td>
-<td><p><span data-ttu-id="a34c4-182">True</span><span class="sxs-lookup"><span data-stu-id="a34c4-182">True</span></span></p></td>
-<td><p><span data-ttu-id="a34c4-183">SASL 優於 TLS、 TLS 回撥</span><span class="sxs-lookup"><span data-stu-id="a34c4-183">SASL over TLS, TLS Dialback</span></span></p></td>
+<td><p><span data-ttu-id="230a5-180">必要</span><span class="sxs-lookup"><span data-stu-id="230a5-180">Required</span></span></p></td>
+<td><p><span data-ttu-id="230a5-181">選擇性</span><span class="sxs-lookup"><span data-stu-id="230a5-181">Optional</span></span></p></td>
+<td><p><span data-ttu-id="230a5-182">True</span><span class="sxs-lookup"><span data-stu-id="230a5-182">True</span></span></p></td>
+<td><p><span data-ttu-id="230a5-183">SASL 優於 TLS、 TLS 回撥</span><span class="sxs-lookup"><span data-stu-id="230a5-183">SASL over TLS, TLS Dialback</span></span></p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a34c4-184">必要</span><span class="sxs-lookup"><span data-stu-id="a34c4-184">Required</span></span></p></td>
-<td><p><span data-ttu-id="a34c4-185">選擇性</span><span class="sxs-lookup"><span data-stu-id="a34c4-185">Optional</span></span></p></td>
-<td><p><span data-ttu-id="a34c4-186">False</span><span class="sxs-lookup"><span data-stu-id="a34c4-186">False</span></span></p></td>
-<td><p><span data-ttu-id="a34c4-187">SASL 優於 TLS</span><span class="sxs-lookup"><span data-stu-id="a34c4-187">SASL over TLS</span></span></p></td>
+<td><p><span data-ttu-id="230a5-184">必要</span><span class="sxs-lookup"><span data-stu-id="230a5-184">Required</span></span></p></td>
+<td><p><span data-ttu-id="230a5-185">選擇性</span><span class="sxs-lookup"><span data-stu-id="230a5-185">Optional</span></span></p></td>
+<td><p><span data-ttu-id="230a5-186">False</span><span class="sxs-lookup"><span data-stu-id="230a5-186">False</span></span></p></td>
+<td><p><span data-ttu-id="230a5-187">SASL 優於 TLS</span><span class="sxs-lookup"><span data-stu-id="230a5-187">SASL over TLS</span></span></p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a34c4-188">選用</span><span class="sxs-lookup"><span data-stu-id="a34c4-188">Optional</span></span></p></td>
-<td><p><span data-ttu-id="a34c4-189">選用</span><span class="sxs-lookup"><span data-stu-id="a34c4-189">Optional</span></span></p></td>
-<td><p><span data-ttu-id="a34c4-190">True</span><span class="sxs-lookup"><span data-stu-id="a34c4-190">True</span></span></p></td>
-<td><p><span data-ttu-id="a34c4-191">SASL 優於 TLS、 TLS 回撥、 TCP 回撥</span><span class="sxs-lookup"><span data-stu-id="a34c4-191">SASL over TLS, TLS Dialback, TCP Dialback</span></span></p></td>
+<td><p><span data-ttu-id="230a5-188">選用</span><span class="sxs-lookup"><span data-stu-id="230a5-188">Optional</span></span></p></td>
+<td><p><span data-ttu-id="230a5-189">選用</span><span class="sxs-lookup"><span data-stu-id="230a5-189">Optional</span></span></p></td>
+<td><p><span data-ttu-id="230a5-190">True</span><span class="sxs-lookup"><span data-stu-id="230a5-190">True</span></span></p></td>
+<td><p><span data-ttu-id="230a5-191">SASL 優於 TLS、 TLS 回撥、 TCP 回撥</span><span class="sxs-lookup"><span data-stu-id="230a5-191">SASL over TLS, TLS Dialback, TCP Dialback</span></span></p></td>
 <td><div>
 
 > [!WARNING]  
-> <span data-ttu-id="a34c4-192">SASL 要求 TLS。</span><span class="sxs-lookup"><span data-stu-id="a34c4-192">SASL requires TLS.</span></span> <span data-ttu-id="a34c4-193">允許為選用的 TLS，可能會造成失敗的工作階段交涉。</span><span class="sxs-lookup"><span data-stu-id="a34c4-193">Allowing TLS to be optional may result in failed session negotiations.</span></span>
+> <span data-ttu-id="230a5-192">SASL 要求 TLS。</span><span class="sxs-lookup"><span data-stu-id="230a5-192">SASL requires TLS.</span></span> <span data-ttu-id="230a5-193">允許為選用的 TLS，可能會造成失敗的工作階段交涉。</span><span class="sxs-lookup"><span data-stu-id="230a5-193">Allowing TLS to be optional may result in failed session negotiations.</span></span>
 
 
 </div></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a34c4-194">選用</span><span class="sxs-lookup"><span data-stu-id="a34c4-194">Optional</span></span></p></td>
-<td><p><span data-ttu-id="a34c4-195">選用</span><span class="sxs-lookup"><span data-stu-id="a34c4-195">Optional</span></span></p></td>
-<td><p><span data-ttu-id="a34c4-196">False</span><span class="sxs-lookup"><span data-stu-id="a34c4-196">False</span></span></p></td>
-<td><p><span data-ttu-id="a34c4-197">SASL 優於 TLS</span><span class="sxs-lookup"><span data-stu-id="a34c4-197">SASL over TLS</span></span></p></td>
+<td><p><span data-ttu-id="230a5-194">選用</span><span class="sxs-lookup"><span data-stu-id="230a5-194">Optional</span></span></p></td>
+<td><p><span data-ttu-id="230a5-195">選用</span><span class="sxs-lookup"><span data-stu-id="230a5-195">Optional</span></span></p></td>
+<td><p><span data-ttu-id="230a5-196">False</span><span class="sxs-lookup"><span data-stu-id="230a5-196">False</span></span></p></td>
+<td><p><span data-ttu-id="230a5-197">SASL 優於 TLS</span><span class="sxs-lookup"><span data-stu-id="230a5-197">SASL over TLS</span></span></p></td>
 <td><div>
 
 > [!WARNING]  
-> <span data-ttu-id="a34c4-198">SASL 要求 TLS。</span><span class="sxs-lookup"><span data-stu-id="a34c4-198">SASL requires TLS.</span></span> <span data-ttu-id="a34c4-199">允許為選用的 TLS，可能會造成失敗的工作階段交涉。</span><span class="sxs-lookup"><span data-stu-id="a34c4-199">Allowing TLS to be optional may result in failed session negotiations.</span></span>
+> <span data-ttu-id="230a5-198">SASL 要求 TLS。</span><span class="sxs-lookup"><span data-stu-id="230a5-198">SASL requires TLS.</span></span> <span data-ttu-id="230a5-199">允許為選用的 TLS，可能會造成失敗的工作階段交涉。</span><span class="sxs-lookup"><span data-stu-id="230a5-199">Allowing TLS to be optional may result in failed session negotiations.</span></span>
 
 
 </div></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a34c4-200">不支援</span><span class="sxs-lookup"><span data-stu-id="a34c4-200">Not Supported</span></span></p></td>
-<td><p><span data-ttu-id="a34c4-201">選用</span><span class="sxs-lookup"><span data-stu-id="a34c4-201">Optional</span></span></p></td>
-<td><p><span data-ttu-id="a34c4-202">True</span><span class="sxs-lookup"><span data-stu-id="a34c4-202">True</span></span></p></td>
-<td><p><span data-ttu-id="a34c4-203">TCP 回撥</span><span class="sxs-lookup"><span data-stu-id="a34c4-203">TCP Dialback</span></span></p></td>
+<td><p><span data-ttu-id="230a5-200">不支援</span><span class="sxs-lookup"><span data-stu-id="230a5-200">Not Supported</span></span></p></td>
+<td><p><span data-ttu-id="230a5-201">選用</span><span class="sxs-lookup"><span data-stu-id="230a5-201">Optional</span></span></p></td>
+<td><p><span data-ttu-id="230a5-202">True</span><span class="sxs-lookup"><span data-stu-id="230a5-202">True</span></span></p></td>
+<td><p><span data-ttu-id="230a5-203">TCP 回撥</span><span class="sxs-lookup"><span data-stu-id="230a5-203">TCP Dialback</span></span></p></td>
 <td><div>
 
 > [!WARNING]  
-> <span data-ttu-id="a34c4-204">SASL 要求 TLS。</span><span class="sxs-lookup"><span data-stu-id="a34c4-204">SASL requires TLS.</span></span> <span data-ttu-id="a34c4-205">允許為選用的 TLS，可能會造成失敗的工作階段交涉。</span><span class="sxs-lookup"><span data-stu-id="a34c4-205">Allowing TLS to be optional may result in failed session negotiations.</span></span>
+> <span data-ttu-id="230a5-204">SASL 要求 TLS。</span><span class="sxs-lookup"><span data-stu-id="230a5-204">SASL requires TLS.</span></span> <span data-ttu-id="230a5-205">允許為選用的 TLS，可能會造成失敗的工作階段交涉。</span><span class="sxs-lookup"><span data-stu-id="230a5-205">Allowing TLS to be optional may result in failed session negotiations.</span></span>
 
 
 </div></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a34c4-206">不支援</span><span class="sxs-lookup"><span data-stu-id="a34c4-206">Not Supported</span></span></p></td>
-<td><p><span data-ttu-id="a34c4-207">選用</span><span class="sxs-lookup"><span data-stu-id="a34c4-207">Optional</span></span></p></td>
-<td><p><span data-ttu-id="a34c4-208">False</span><span class="sxs-lookup"><span data-stu-id="a34c4-208">False</span></span></p></td>
+<td><p><span data-ttu-id="230a5-206">不支援</span><span class="sxs-lookup"><span data-stu-id="230a5-206">Not Supported</span></span></p></td>
+<td><p><span data-ttu-id="230a5-207">選用</span><span class="sxs-lookup"><span data-stu-id="230a5-207">Optional</span></span></p></td>
+<td><p><span data-ttu-id="230a5-208">False</span><span class="sxs-lookup"><span data-stu-id="230a5-208">False</span></span></p></td>
 <td><div>
 
 > [!WARNING]  
-> <span data-ttu-id="a34c4-209">無效組態</span><span class="sxs-lookup"><span data-stu-id="a34c4-209">Not Valid Configuration</span></span>
+> <span data-ttu-id="230a5-209">無效組態</span><span class="sxs-lookup"><span data-stu-id="230a5-209">Not Valid Configuration</span></span>
 
 
 </div></td>
 <td><div>
 
 > [!WARNING]  
-> <span data-ttu-id="a34c4-210">SASL 要求 TLS。</span><span class="sxs-lookup"><span data-stu-id="a34c4-210">SASL requires TLS.</span></span> <span data-ttu-id="a34c4-211">允許為選用的 TLS，可能會造成失敗的工作階段交涉。</span><span class="sxs-lookup"><span data-stu-id="a34c4-211">Allowing TLS to be optional may result in failed session negotiations.</span></span>
+> <span data-ttu-id="230a5-210">SASL 要求 TLS。</span><span class="sxs-lookup"><span data-stu-id="230a5-210">SASL requires TLS.</span></span> <span data-ttu-id="230a5-211">允許為選用的 TLS，可能會造成失敗的工作階段交涉。</span><span class="sxs-lookup"><span data-stu-id="230a5-211">Allowing TLS to be optional may result in failed session negotiations.</span></span>
 
 
 </div></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a34c4-212">必要</span><span class="sxs-lookup"><span data-stu-id="a34c4-212">Required</span></span></p></td>
-<td><p><span data-ttu-id="a34c4-213">不支援</span><span class="sxs-lookup"><span data-stu-id="a34c4-213">Not Supported</span></span></p></td>
-<td><p><span data-ttu-id="a34c4-214">True</span><span class="sxs-lookup"><span data-stu-id="a34c4-214">True</span></span></p></td>
-<td><p><span data-ttu-id="a34c4-215">TLS 回撥</span><span class="sxs-lookup"><span data-stu-id="a34c4-215">TLS Dialback</span></span></p></td>
-<td><p><span data-ttu-id="a34c4-216">組態可用於 TLS 回撥。</span><span class="sxs-lookup"><span data-stu-id="a34c4-216">Configuration allows for TLS Dialback.</span></span></p></td>
+<td><p><span data-ttu-id="230a5-212">必要</span><span class="sxs-lookup"><span data-stu-id="230a5-212">Required</span></span></p></td>
+<td><p><span data-ttu-id="230a5-213">不支援</span><span class="sxs-lookup"><span data-stu-id="230a5-213">Not Supported</span></span></p></td>
+<td><p><span data-ttu-id="230a5-214">True</span><span class="sxs-lookup"><span data-stu-id="230a5-214">True</span></span></p></td>
+<td><p><span data-ttu-id="230a5-215">TLS 回撥</span><span class="sxs-lookup"><span data-stu-id="230a5-215">TLS Dialback</span></span></p></td>
+<td><p><span data-ttu-id="230a5-216">組態可用於 TLS 回撥。</span><span class="sxs-lookup"><span data-stu-id="230a5-216">Configuration allows for TLS Dialback.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a34c4-217">必要</span><span class="sxs-lookup"><span data-stu-id="a34c4-217">Required</span></span></p></td>
-<td><p><span data-ttu-id="a34c4-218">不支援</span><span class="sxs-lookup"><span data-stu-id="a34c4-218">Not Supported</span></span></p></td>
-<td><p><span data-ttu-id="a34c4-219">False</span><span class="sxs-lookup"><span data-stu-id="a34c4-219">False</span></span></p></td>
-<td><p><span data-ttu-id="a34c4-220">無效組態</span><span class="sxs-lookup"><span data-stu-id="a34c4-220">Not Valid Configuration</span></span></p></td>
+<td><p><span data-ttu-id="230a5-217">必要</span><span class="sxs-lookup"><span data-stu-id="230a5-217">Required</span></span></p></td>
+<td><p><span data-ttu-id="230a5-218">不支援</span><span class="sxs-lookup"><span data-stu-id="230a5-218">Not Supported</span></span></p></td>
+<td><p><span data-ttu-id="230a5-219">False</span><span class="sxs-lookup"><span data-stu-id="230a5-219">False</span></span></p></td>
+<td><p><span data-ttu-id="230a5-220">無效組態</span><span class="sxs-lookup"><span data-stu-id="230a5-220">Not Valid Configuration</span></span></p></td>
 <td><div>
 
 > [!WARNING]  
-> <span data-ttu-id="a34c4-221">SASL 或回撥必須啟用。</span><span class="sxs-lookup"><span data-stu-id="a34c4-221">SASL or Dialback must be enabled.</span></span>
+> <span data-ttu-id="230a5-221">SASL 或回撥必須啟用。</span><span class="sxs-lookup"><span data-stu-id="230a5-221">SASL or Dialback must be enabled.</span></span>
 
 
 </div></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a34c4-222">選用</span><span class="sxs-lookup"><span data-stu-id="a34c4-222">Optional</span></span></p></td>
-<td><p><span data-ttu-id="a34c4-223">不支援</span><span class="sxs-lookup"><span data-stu-id="a34c4-223">Not Supported</span></span></p></td>
-<td><p><span data-ttu-id="a34c4-224">True</span><span class="sxs-lookup"><span data-stu-id="a34c4-224">True</span></span></p></td>
-<td><p><span data-ttu-id="a34c4-225">TLS 回撥、 TCP 回撥</span><span class="sxs-lookup"><span data-stu-id="a34c4-225">TLS Dialback, TCP Dialback</span></span></p></td>
-<td><p><span data-ttu-id="a34c4-226">根據其他端點的交涉選擇，TCP 或 TLS 回撥將被接受。</span><span class="sxs-lookup"><span data-stu-id="a34c4-226">Based on negotiation choices of the other end point, TCP or TLS Dialback will be accepted.</span></span></p></td>
+<td><p><span data-ttu-id="230a5-222">選用</span><span class="sxs-lookup"><span data-stu-id="230a5-222">Optional</span></span></p></td>
+<td><p><span data-ttu-id="230a5-223">不支援</span><span class="sxs-lookup"><span data-stu-id="230a5-223">Not Supported</span></span></p></td>
+<td><p><span data-ttu-id="230a5-224">True</span><span class="sxs-lookup"><span data-stu-id="230a5-224">True</span></span></p></td>
+<td><p><span data-ttu-id="230a5-225">TLS 回撥、 TCP 回撥</span><span class="sxs-lookup"><span data-stu-id="230a5-225">TLS Dialback, TCP Dialback</span></span></p></td>
+<td><p><span data-ttu-id="230a5-226">根據其他端點的交涉選擇，TCP 或 TLS 回撥將被接受。</span><span class="sxs-lookup"><span data-stu-id="230a5-226">Based on negotiation choices of the other end point, TCP or TLS Dialback will be accepted.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a34c4-227">選用</span><span class="sxs-lookup"><span data-stu-id="a34c4-227">Optional</span></span></p></td>
-<td><p><span data-ttu-id="a34c4-228">不支援</span><span class="sxs-lookup"><span data-stu-id="a34c4-228">Not Supported</span></span></p></td>
-<td><p><span data-ttu-id="a34c4-229">False</span><span class="sxs-lookup"><span data-stu-id="a34c4-229">False</span></span></p></td>
-<td><p><span data-ttu-id="a34c4-230">無效組態</span><span class="sxs-lookup"><span data-stu-id="a34c4-230">Not Valid Configuration</span></span></p></td>
+<td><p><span data-ttu-id="230a5-227">選用</span><span class="sxs-lookup"><span data-stu-id="230a5-227">Optional</span></span></p></td>
+<td><p><span data-ttu-id="230a5-228">不支援</span><span class="sxs-lookup"><span data-stu-id="230a5-228">Not Supported</span></span></p></td>
+<td><p><span data-ttu-id="230a5-229">False</span><span class="sxs-lookup"><span data-stu-id="230a5-229">False</span></span></p></td>
+<td><p><span data-ttu-id="230a5-230">無效組態</span><span class="sxs-lookup"><span data-stu-id="230a5-230">Not Valid Configuration</span></span></p></td>
 <td><div>
 
 > [!WARNING]  
-> <span data-ttu-id="a34c4-231">SASL 或回撥必須啟用。</span><span class="sxs-lookup"><span data-stu-id="a34c4-231">SASL or Dialback must be enabled.</span></span>
+> <span data-ttu-id="230a5-231">SASL 或回撥必須啟用。</span><span class="sxs-lookup"><span data-stu-id="230a5-231">SASL or Dialback must be enabled.</span></span>
 
 
 </div></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a34c4-232">不支援</span><span class="sxs-lookup"><span data-stu-id="a34c4-232">Not Supported</span></span></p></td>
-<td><p><span data-ttu-id="a34c4-233">不支援</span><span class="sxs-lookup"><span data-stu-id="a34c4-233">Not Supported</span></span></p></td>
-<td><p><span data-ttu-id="a34c4-234">True</span><span class="sxs-lookup"><span data-stu-id="a34c4-234">True</span></span></p></td>
-<td><p><span data-ttu-id="a34c4-235">TCP 回撥</span><span class="sxs-lookup"><span data-stu-id="a34c4-235">TCP Dialback</span></span></p></td>
-<td><p><span data-ttu-id="a34c4-236">TCP 回撥是可用的唯一的交涉方法</span><span class="sxs-lookup"><span data-stu-id="a34c4-236">TCP Dialback is the only negotiation method available</span></span></p></td>
+<td><p><span data-ttu-id="230a5-232">不支援</span><span class="sxs-lookup"><span data-stu-id="230a5-232">Not Supported</span></span></p></td>
+<td><p><span data-ttu-id="230a5-233">不支援</span><span class="sxs-lookup"><span data-stu-id="230a5-233">Not Supported</span></span></p></td>
+<td><p><span data-ttu-id="230a5-234">True</span><span class="sxs-lookup"><span data-stu-id="230a5-234">True</span></span></p></td>
+<td><p><span data-ttu-id="230a5-235">TCP 回撥</span><span class="sxs-lookup"><span data-stu-id="230a5-235">TCP Dialback</span></span></p></td>
+<td><p><span data-ttu-id="230a5-236">TCP 回撥是可用的唯一的交涉方法</span><span class="sxs-lookup"><span data-stu-id="230a5-236">TCP Dialback is the only negotiation method available</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a34c4-237">不支援</span><span class="sxs-lookup"><span data-stu-id="a34c4-237">Not Supported</span></span></p></td>
-<td><p><span data-ttu-id="a34c4-238">不支援</span><span class="sxs-lookup"><span data-stu-id="a34c4-238">Not Supported</span></span></p></td>
-<td><p><span data-ttu-id="a34c4-239">False</span><span class="sxs-lookup"><span data-stu-id="a34c4-239">False</span></span></p></td>
-<td><p><span data-ttu-id="a34c4-240">無效組態</span><span class="sxs-lookup"><span data-stu-id="a34c4-240">Not Valid Configuration</span></span></p></td>
+<td><p><span data-ttu-id="230a5-237">不支援</span><span class="sxs-lookup"><span data-stu-id="230a5-237">Not Supported</span></span></p></td>
+<td><p><span data-ttu-id="230a5-238">不支援</span><span class="sxs-lookup"><span data-stu-id="230a5-238">Not Supported</span></span></p></td>
+<td><p><span data-ttu-id="230a5-239">False</span><span class="sxs-lookup"><span data-stu-id="230a5-239">False</span></span></p></td>
+<td><p><span data-ttu-id="230a5-240">無效組態</span><span class="sxs-lookup"><span data-stu-id="230a5-240">Not Valid Configuration</span></span></p></td>
 <td><div>
 
 > [!WARNING]  
-> <span data-ttu-id="a34c4-241">SASL 或回撥必須啟用。</span><span class="sxs-lookup"><span data-stu-id="a34c4-241">SASL or Dialback must be enabled.</span></span>
+> <span data-ttu-id="230a5-241">SASL 或回撥必須啟用。</span><span class="sxs-lookup"><span data-stu-id="230a5-241">SASL or Dialback must be enabled.</span></span>
 
 
 </div></td>

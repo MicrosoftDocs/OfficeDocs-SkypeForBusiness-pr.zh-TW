@@ -12,20 +12,20 @@ ms:contentKeyID: 48184106
 ms.date: 09/20/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8f9a93f338f6fd3367999a5879d222fc1e410b9a
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 68764952ebfe2a45895e480d923d76a108fdda8e
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42150404"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42218259"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-server-2013-cmdlets-by-category"></a><span data-ttu-id="db8a2-102">依類別的 Lync Server 2013 cmdlet</span><span class="sxs-lookup"><span data-stu-id="db8a2-102">Lync Server 2013 cmdlets by category</span></span>
+# <a name="lync-server-2013-cmdlets-by-category"></a><span data-ttu-id="b75b6-102">依類別的 Lync Server 2013 cmdlet</span><span class="sxs-lookup"><span data-stu-id="b75b6-102">Lync Server 2013 cmdlets by category</span></span>
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "42150404"
 
 <span> </span>
 
-<span data-ttu-id="db8a2-103">_**主題上次修改日期：** 2017年-09-20 個_</span><span class="sxs-lookup"><span data-stu-id="db8a2-103">_**Topic Last Modified:** 2017-09-20_</span></span>
+<span data-ttu-id="b75b6-103">_**主題上次修改日期：** 2017年-09-20 個_</span><span class="sxs-lookup"><span data-stu-id="b75b6-103">_**Topic Last Modified:** 2017-09-20_</span></span>
 
-<span data-ttu-id="db8a2-104">Microsoft Lync Server 2013 隨附特別設計用來允許系統管理員可以從命令列管理 Lync Server 的幾乎 550 指令程式。</span><span class="sxs-lookup"><span data-stu-id="db8a2-104">Microsoft Lync Server 2013 ships with almost 550 cmdlets specifically designed to allow administrators to manage Lync Server from the command line.</span></span> <span data-ttu-id="db8a2-105">您從 Lync Server 管理命令介面存取指令程式。</span><span class="sxs-lookup"><span data-stu-id="db8a2-105">You access the cmdlets from the Lync Server Management Shell.</span></span> <span data-ttu-id="db8a2-106">您可以直接從命令列擷取某個 Cmdlet 的說明，方法為輸入類似下列命令：</span><span class="sxs-lookup"><span data-stu-id="db8a2-106">You can retrieve help on a cmdlet directly from the command line by typing a command similar to the following:</span></span>
+<span data-ttu-id="b75b6-104">Microsoft Lync Server 2013 隨附特別設計用來允許系統管理員可以從命令列管理 Lync Server 的幾乎 550 指令程式。</span><span class="sxs-lookup"><span data-stu-id="b75b6-104">Microsoft Lync Server 2013 ships with almost 550 cmdlets specifically designed to allow administrators to manage Lync Server from the command line.</span></span> <span data-ttu-id="b75b6-105">您從 Lync Server 管理命令介面存取指令程式。</span><span class="sxs-lookup"><span data-stu-id="b75b6-105">You access the cmdlets from the Lync Server Management Shell.</span></span> <span data-ttu-id="b75b6-106">您可以直接從命令列擷取某個 Cmdlet 的說明，方法為輸入類似下列命令：</span><span class="sxs-lookup"><span data-stu-id="b75b6-106">You can retrieve help on a cmdlet directly from the command line by typing a command similar to the following:</span></span>
 
     Get-Help New-CsVoicePolicy -Full
 
-<span data-ttu-id="db8a2-107">上述命令會擷取 **New-CsVoicePolicy** Cmdlet 所有可用的說明。</span><span class="sxs-lookup"><span data-stu-id="db8a2-107">The preceding command will retrieve all the help available for the **New-CsVoicePolicy** cmdlet.</span></span> <span data-ttu-id="db8a2-108">請將 **New-CsVoicePolicy** 的部分換成您要擷取說明的 Cmdlet 名稱。</span><span class="sxs-lookup"><span data-stu-id="db8a2-108">Substitute the reference to **New-CsVoicePolicy** with the name of the cmdlet for which you want to retrieve help.</span></span>
+<span data-ttu-id="b75b6-107">上述命令會擷取 **New-CsVoicePolicy** Cmdlet 所有可用的說明。</span><span class="sxs-lookup"><span data-stu-id="b75b6-107">The preceding command will retrieve all the help available for the **New-CsVoicePolicy** cmdlet.</span></span> <span data-ttu-id="b75b6-108">請將 **New-CsVoicePolicy** 的部分換成您要擷取說明的 Cmdlet 名稱。</span><span class="sxs-lookup"><span data-stu-id="b75b6-108">Substitute the reference to **New-CsVoicePolicy** with the name of the cmdlet for which you want to retrieve help.</span></span>
 
-<span data-ttu-id="db8a2-109">若要擷取 cmdlet 可用於管理 Microsoft Lync Server 2013 的完整清單，請在 Lync Server 管理命令介面命令提示字元處輸入下列命令：</span><span class="sxs-lookup"><span data-stu-id="db8a2-109">To retrieve a full list of cmdlets available for managing Microsoft Lync Server 2013, type the following at the Lync Server Management Shell command prompt:</span></span>
+<span data-ttu-id="b75b6-109">若要擷取 cmdlet 可用於管理 Microsoft Lync Server 2013 的完整清單，請在 Lync Server 管理命令介面命令提示字元處輸入下列命令：</span><span class="sxs-lookup"><span data-stu-id="b75b6-109">To retrieve a full list of cmdlets available for managing Microsoft Lync Server 2013, type the following at the Lync Server Management Shell command prompt:</span></span>
 
     Get-Command * -Module Lync -CommandType cmdlet
 
-<span data-ttu-id="db8a2-p103">如果您不確定需要哪個 Cmdlet，我們也提供 Cmdlet 及其說明主題的分類清單。您會發現某些 Cmdlet 出現在多個類別中，這是刻意的設計，因為它們適用於產品的多個區域。以下是類別清單：</span><span class="sxs-lookup"><span data-stu-id="db8a2-p103">If you are unsure which cmdlets you need, we have also provided a categorized list of cmdlets and their help topics. You will find that some of the cmdlets show up in more than one category, which was intentional as they apply to multiple areas of the product. The following is a list of categories:</span></span>
+<span data-ttu-id="b75b6-p103">如果您不確定需要哪個 Cmdlet，我們也提供 Cmdlet 及其說明主題的分類清單。您會發現某些 Cmdlet 出現在多個類別中，這是刻意的設計，因為它們適用於產品的多個區域。以下是類別清單：</span><span class="sxs-lookup"><span data-stu-id="b75b6-p103">If you are unsure which cmdlets you need, we have also provided a categorized list of cmdlets and their help topics. You will find that some of the cmdlets show up in more than one category, which was intentional as they apply to multiple areas of the product. The following is a list of categories:</span></span>
 
 <div>
 
 
 > [!NOTE]
-> <span data-ttu-id="db8a2-113">Skype for Business cmdlet 參照已移至 docs.microsoft.com。</span><span class="sxs-lookup"><span data-stu-id="db8a2-113">Skype for Business cmdlet reference has moved to docs.microsoft.com.</span></span> <span data-ttu-id="db8a2-114">按一下下列連結將帶您前往 [新增 docs.microsoft.com] 頁面。</span><span class="sxs-lookup"><span data-stu-id="db8a2-114">Clicking on the links below will take you to the new docs.microsoft.com page.</span></span> <span data-ttu-id="db8a2-115">內容現在是透過 GitHub 開啟來源，並可供社群參與。</span><span class="sxs-lookup"><span data-stu-id="db8a2-115">The content is now open sourced and available for community contributions through GitHub.</span></span> <span data-ttu-id="db8a2-116">參與有興趣嗎？</span><span class="sxs-lookup"><span data-stu-id="db8a2-116">Interested in contributing?</span></span> <span data-ttu-id="db8a2-117">請參閱 「 讀我檔案中的儲存機制：<A href="https://github.com/microsoftdocs/office-docs-powershell">https://github.com/MicrosoftDocs/office-docs-powershell</A></span><span class="sxs-lookup"><span data-stu-id="db8a2-117">Check out the README in the repo here: <A href="https://github.com/microsoftdocs/office-docs-powershell">https://github.com/MicrosoftDocs/office-docs-powershell</A></span></span>
+> <span data-ttu-id="b75b6-113">Skype for Business cmdlet 參照已移至 docs.microsoft.com。</span><span class="sxs-lookup"><span data-stu-id="b75b6-113">Skype for Business cmdlet reference has moved to docs.microsoft.com.</span></span> <span data-ttu-id="b75b6-114">按一下下列連結將帶您前往 [新增 docs.microsoft.com] 頁面。</span><span class="sxs-lookup"><span data-stu-id="b75b6-114">Clicking on the links below will take you to the new docs.microsoft.com page.</span></span> <span data-ttu-id="b75b6-115">內容現在是透過 GitHub 開啟來源，並可供社群參與。</span><span class="sxs-lookup"><span data-stu-id="b75b6-115">The content is now open sourced and available for community contributions through GitHub.</span></span> <span data-ttu-id="b75b6-116">參與有興趣嗎？</span><span class="sxs-lookup"><span data-stu-id="b75b6-116">Interested in contributing?</span></span> <span data-ttu-id="b75b6-117">請參閱 「 讀我檔案中的儲存機制：<A href="https://github.com/microsoftdocs/office-docs-powershell">https://github.com/MicrosoftDocs/office-docs-powershell</A></span><span class="sxs-lookup"><span data-stu-id="b75b6-117">Check out the README in the repo here: <A href="https://github.com/microsoftdocs/office-docs-powershell">https://github.com/MicrosoftDocs/office-docs-powershell</A></span></span>
 
 
 
@@ -61,7 +61,7 @@ ms.locfileid: "42150404"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="db8a2-118">本章節內容</span><span class="sxs-lookup"><span data-stu-id="db8a2-118">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="b75b6-118">本章節內容</span><span class="sxs-lookup"><span data-stu-id="b75b6-118">In This Section</span></span>
 
 
 <table>
@@ -71,43 +71,43 @@ ms.locfileid: "42150404"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="db8a2-119"><a href="lync-server-2013-user-management-cmdlets.md">Lync Server 2013 中的使用者管理 cmdlet</a></span><span class="sxs-lookup"><span data-stu-id="db8a2-119"><a href="lync-server-2013-user-management-cmdlets.md">User management cmdlets in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="db8a2-120"><a href="lync-server-2013-voice-application-cmdlets.md">Lync Server 2013 中的語音應用程式 cmdlet</a></span><span class="sxs-lookup"><span data-stu-id="db8a2-120"><a href="lync-server-2013-voice-application-cmdlets.md">Voice application cmdlets in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="b75b6-119"><a href="lync-server-2013-user-management-cmdlets.md">Lync Server 2013 中的使用者管理 cmdlet</a></span><span class="sxs-lookup"><span data-stu-id="b75b6-119"><a href="lync-server-2013-user-management-cmdlets.md">User management cmdlets in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="b75b6-120"><a href="lync-server-2013-voice-application-cmdlets.md">Lync Server 2013 中的語音應用程式 cmdlet</a></span><span class="sxs-lookup"><span data-stu-id="b75b6-120"><a href="lync-server-2013-voice-application-cmdlets.md">Voice application cmdlets in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="db8a2-121"><a href="lync-server-2013-client-management-cmdlets.md">Lync Server 2013 中的用戶端管理 cmdlet</a></span><span class="sxs-lookup"><span data-stu-id="db8a2-121"><a href="lync-server-2013-client-management-cmdlets.md">Client management cmdlets in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="db8a2-122"><a href="lync-server-2013-advanced-enterprise-voice-cmdlets.md">Lync Server 2013 中的進階的 Enterprise Voice cmdlet</a></span><span class="sxs-lookup"><span data-stu-id="db8a2-122"><a href="lync-server-2013-advanced-enterprise-voice-cmdlets.md">Advanced Enterprise Voice cmdlets in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="b75b6-121"><a href="lync-server-2013-client-management-cmdlets.md">Lync Server 2013 中的用戶端管理 cmdlet</a></span><span class="sxs-lookup"><span data-stu-id="b75b6-121"><a href="lync-server-2013-client-management-cmdlets.md">Client management cmdlets in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="b75b6-122"><a href="lync-server-2013-advanced-enterprise-voice-cmdlets.md">Lync Server 2013 中的進階的 Enterprise Voice cmdlet</a></span><span class="sxs-lookup"><span data-stu-id="b75b6-122"><a href="lync-server-2013-advanced-enterprise-voice-cmdlets.md">Advanced Enterprise Voice cmdlets in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="db8a2-123"><a href="lync-server-2013-im-and-presence-cmdlets.md">Lync Server 2013 中的 IM 和目前狀態 cmdlet</a></span><span class="sxs-lookup"><span data-stu-id="db8a2-123"><a href="lync-server-2013-im-and-presence-cmdlets.md">IM and presence cmdlets in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="db8a2-124"><a href="lync-server-2013-pstn-connectivity-cmdlets.md">Lync Server 2013 中的 PSTN 連線 cmdlet</a></span><span class="sxs-lookup"><span data-stu-id="db8a2-124"><a href="lync-server-2013-pstn-connectivity-cmdlets.md">PSTN connectivity cmdlets in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="b75b6-123"><a href="lync-server-2013-im-and-presence-cmdlets.md">Lync Server 2013 中的 IM 和目前狀態 cmdlet</a></span><span class="sxs-lookup"><span data-stu-id="b75b6-123"><a href="lync-server-2013-im-and-presence-cmdlets.md">IM and presence cmdlets in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="b75b6-124"><a href="lync-server-2013-pstn-connectivity-cmdlets.md">Lync Server 2013 中的 PSTN 連線 cmdlet</a></span><span class="sxs-lookup"><span data-stu-id="b75b6-124"><a href="lync-server-2013-pstn-connectivity-cmdlets.md">PSTN connectivity cmdlets in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="db8a2-125"><a href="lync-server-2013-conferencing-cmdlets.md">Lync Server 2013 中的會議 cmdlet</a></span><span class="sxs-lookup"><span data-stu-id="db8a2-125"><a href="lync-server-2013-conferencing-cmdlets.md">Conferencing cmdlets in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="db8a2-126"><a href="lync-server-2013-phones-and-devices-cmdlets.md">Lync Server 2013 的電話和裝置 cmdlet</a></span><span class="sxs-lookup"><span data-stu-id="db8a2-126"><a href="lync-server-2013-phones-and-devices-cmdlets.md">Phones and devices cmdlets in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="b75b6-125"><a href="lync-server-2013-conferencing-cmdlets.md">Lync Server 2013 中的會議 cmdlet</a></span><span class="sxs-lookup"><span data-stu-id="b75b6-125"><a href="lync-server-2013-conferencing-cmdlets.md">Conferencing cmdlets in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="b75b6-126"><a href="lync-server-2013-phones-and-devices-cmdlets.md">Lync Server 2013 的電話和裝置 cmdlet</a></span><span class="sxs-lookup"><span data-stu-id="b75b6-126"><a href="lync-server-2013-phones-and-devices-cmdlets.md">Phones and devices cmdlets in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="db8a2-127"><a href="lync-server-2013-infrastructure-and-deployment-cmdlets.md">Lync Server 2013 中的基礎結構和部署 cmdlet</a></span><span class="sxs-lookup"><span data-stu-id="db8a2-127"><a href="lync-server-2013-infrastructure-and-deployment-cmdlets.md">Infrastructure and deployment cmdlets in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="db8a2-128"><a href="lync-server-2013-migration-and-coexistence-cmdlets.md">Lync Server 2013 中的移轉和共存指令程式</a></span><span class="sxs-lookup"><span data-stu-id="db8a2-128"><a href="lync-server-2013-migration-and-coexistence-cmdlets.md">Migration and coexistence cmdlets in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="b75b6-127"><a href="lync-server-2013-infrastructure-and-deployment-cmdlets.md">Lync Server 2013 中的基礎結構和部署 cmdlet</a></span><span class="sxs-lookup"><span data-stu-id="b75b6-127"><a href="lync-server-2013-infrastructure-and-deployment-cmdlets.md">Infrastructure and deployment cmdlets in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="b75b6-128"><a href="lync-server-2013-migration-and-coexistence-cmdlets.md">Lync Server 2013 中的移轉和共存指令程式</a></span><span class="sxs-lookup"><span data-stu-id="b75b6-128"><a href="lync-server-2013-migration-and-coexistence-cmdlets.md">Migration and coexistence cmdlets in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="db8a2-129"><a href="lync-server-2013-security-cmdlets.md">Lync Server 2013 中的安全性指令程式</a></span><span class="sxs-lookup"><span data-stu-id="db8a2-129"><a href="lync-server-2013-security-cmdlets.md">Security cmdlets in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="db8a2-130"><a href="lync-server-2013-lync-server-management-shell-configuration-cmdlets.md">Lync Server 2013 中的 Lync Server 管理命令介面組態 cmdlet</a></span><span class="sxs-lookup"><span data-stu-id="db8a2-130"><a href="lync-server-2013-lync-server-management-shell-configuration-cmdlets.md">Lync Server Management Shell configuration cmdlets in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="b75b6-129"><a href="lync-server-2013-security-cmdlets.md">Lync Server 2013 中的安全性指令程式</a></span><span class="sxs-lookup"><span data-stu-id="b75b6-129"><a href="lync-server-2013-security-cmdlets.md">Security cmdlets in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="b75b6-130"><a href="lync-server-2013-lync-server-management-shell-configuration-cmdlets.md">Lync Server 2013 中的 Lync Server 管理命令介面組態 cmdlet</a></span><span class="sxs-lookup"><span data-stu-id="b75b6-130"><a href="lync-server-2013-lync-server-management-shell-configuration-cmdlets.md">Lync Server Management Shell configuration cmdlets in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="db8a2-131"><a href="lync-server-2013-server-roles-and-services-cmdlets.md">Lync Server 2013 中的伺服器角色和服務 cmdlet</a></span><span class="sxs-lookup"><span data-stu-id="db8a2-131"><a href="lync-server-2013-server-roles-and-services-cmdlets.md">Server roles and services cmdlets in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="db8a2-132"><a href="lync-server-2013-mobility-cmdlets.md">Lync Server 2013 中的行動性 cmdlet</a></span><span class="sxs-lookup"><span data-stu-id="db8a2-132"><a href="lync-server-2013-mobility-cmdlets.md">Mobility cmdlets in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="b75b6-131"><a href="lync-server-2013-server-roles-and-services-cmdlets.md">Lync Server 2013 中的伺服器角色和服務 cmdlet</a></span><span class="sxs-lookup"><span data-stu-id="b75b6-131"><a href="lync-server-2013-server-roles-and-services-cmdlets.md">Server roles and services cmdlets in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="b75b6-132"><a href="lync-server-2013-mobility-cmdlets.md">Lync Server 2013 中的行動性 cmdlet</a></span><span class="sxs-lookup"><span data-stu-id="b75b6-132"><a href="lync-server-2013-mobility-cmdlets.md">Mobility cmdlets in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="db8a2-133"><a href="lync-server-2013-application-management-cmdlets.md">Lync Server 2013 中的應用程式管理 cmdlet</a></span><span class="sxs-lookup"><span data-stu-id="db8a2-133"><a href="lync-server-2013-application-management-cmdlets.md">Application management cmdlets in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="db8a2-134"><a href="lync-server-2013-persistent-chat-server-cmdlets.md">Lync Server 2013 中 persistent Chat Server cmdlet</a></span><span class="sxs-lookup"><span data-stu-id="db8a2-134"><a href="lync-server-2013-persistent-chat-server-cmdlets.md">Persistent Chat Server cmdlets in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="b75b6-133"><a href="lync-server-2013-application-management-cmdlets.md">Lync Server 2013 中的應用程式管理 cmdlet</a></span><span class="sxs-lookup"><span data-stu-id="b75b6-133"><a href="lync-server-2013-application-management-cmdlets.md">Application management cmdlets in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="b75b6-134"><a href="lync-server-2013-persistent-chat-server-cmdlets.md">Lync Server 2013 中 persistent Chat Server cmdlet</a></span><span class="sxs-lookup"><span data-stu-id="b75b6-134"><a href="lync-server-2013-persistent-chat-server-cmdlets.md">Persistent Chat Server cmdlets in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="db8a2-135"><a href="lync-server-2013-federation-and-external-access-cmdlets.md">同盟和 Lync Server 2013 中的外部存取 cmdlet</a></span><span class="sxs-lookup"><span data-stu-id="db8a2-135"><a href="lync-server-2013-federation-and-external-access-cmdlets.md">Federation and external access cmdlets in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="db8a2-136"><a href="lync-server-2013-centralized-logging-cmdlets.md">Lync Server 2013 中的集中式的記錄 cmdlet</a></span><span class="sxs-lookup"><span data-stu-id="db8a2-136"><a href="lync-server-2013-centralized-logging-cmdlets.md">Centralized Logging cmdlets in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="b75b6-135"><a href="lync-server-2013-federation-and-external-access-cmdlets.md">同盟和 Lync Server 2013 中的外部存取 cmdlet</a></span><span class="sxs-lookup"><span data-stu-id="b75b6-135"><a href="lync-server-2013-federation-and-external-access-cmdlets.md">Federation and external access cmdlets in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="b75b6-136"><a href="lync-server-2013-centralized-logging-cmdlets.md">Lync Server 2013 中的集中式的記錄 cmdlet</a></span><span class="sxs-lookup"><span data-stu-id="b75b6-136"><a href="lync-server-2013-centralized-logging-cmdlets.md">Centralized Logging cmdlets in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="db8a2-137"><a href="lync-server-2013-enterprise-voice-cmdlets.md">Lync Server 2013 中的 Enterprise Voice cmdlet</a></span><span class="sxs-lookup"><span data-stu-id="db8a2-137"><a href="lync-server-2013-enterprise-voice-cmdlets.md">Enterprise Voice cmdlets in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="b75b6-137"><a href="lync-server-2013-enterprise-voice-cmdlets.md">Lync Server 2013 中的 Enterprise Voice cmdlet</a></span><span class="sxs-lookup"><span data-stu-id="b75b6-137"><a href="lync-server-2013-enterprise-voice-cmdlets.md">Enterprise Voice cmdlets in Lync Server 2013</a></span></span></p></td>
 <td></td>
 </tr>
 </tbody>
@@ -118,10 +118,10 @@ ms.locfileid: "42150404"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="db8a2-138">另請參閱</span><span class="sxs-lookup"><span data-stu-id="db8a2-138">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b75b6-138">另請參閱</span><span class="sxs-lookup"><span data-stu-id="b75b6-138">See Also</span></span>
 
 
-[<span data-ttu-id="db8a2-139">Lync Server PowerShell 部落格</span><span class="sxs-lookup"><span data-stu-id="db8a2-139">Lync Server PowerShell Blog</span></span>](https://go.microsoft.com/fwlink/p/?linkid=203150)  
+[<span data-ttu-id="b75b6-139">Lync Server PowerShell 部落格</span><span class="sxs-lookup"><span data-stu-id="b75b6-139">Lync Server PowerShell Blog</span></span>](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>
