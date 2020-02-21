@@ -12,20 +12,20 @@ ms:contentKeyID: 48184694
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aee7366215f5382b6882f3a4d5a16a22c4f8872b
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 7df6bd74eec13b44109db0b0c8454f5b9f43ac4a
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42136520"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42180546"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="decommissioning-servers-and-pools"></a><span data-ttu-id="04fb5-102">解除委任伺服器和集區</span><span class="sxs-lookup"><span data-stu-id="04fb5-102">Decommissioning servers and pools</span></span>
+# <a name="decommissioning-servers-and-pools"></a><span data-ttu-id="f6d4d-102">解除委任伺服器和集區</span><span class="sxs-lookup"><span data-stu-id="f6d4d-102">Decommissioning servers and pools</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "42136520"
 
 <span> </span>
 
-<span data-ttu-id="04fb5-103">_**主題上次修改日期：** 2012年-09-26_</span><span class="sxs-lookup"><span data-stu-id="04fb5-103">_**Topic Last Modified:** 2012-09-26_</span></span>
+<span data-ttu-id="f6d4d-103">_**主題上次修改日期：** 2012年-09-26_</span><span class="sxs-lookup"><span data-stu-id="f6d4d-103">_**Topic Last Modified:** 2012-09-26_</span></span>
 
-<span data-ttu-id="04fb5-104">下列網頁包含解除委任 Office Communications Server 2007 R2 Standard Edition 或 Enterprise Edition 伺服器和集區詳細資訊。</span><span class="sxs-lookup"><span data-stu-id="04fb5-104">The following webpages contain details about decommissioning Office Communications Server 2007 R2 Standard Edition or Enterprise Edition servers and pools.</span></span>
+<span data-ttu-id="f6d4d-104">下列網頁包含解除委任 Office Communications Server 2007 R2 Standard Edition 或 Enterprise Edition 伺服器和集區詳細資訊。</span><span class="sxs-lookup"><span data-stu-id="f6d4d-104">The following webpages contain details about decommissioning Office Communications Server 2007 R2 Standard Edition or Enterprise Edition servers and pools.</span></span>
 
-  - <span data-ttu-id="04fb5-105">解除委任 Standard Edition，[https://go.microsoft.com/fwlink/p/?linkId=205889](https://go.microsoft.com/fwlink/p/?linkid=205889)</span><span class="sxs-lookup"><span data-stu-id="04fb5-105">Decommissioning Standard Edition at [https://go.microsoft.com/fwlink/p/?linkId=205889](https://go.microsoft.com/fwlink/p/?linkid=205889)</span></span>
+  - <span data-ttu-id="f6d4d-105">解除委任 Standard Edition，[https://go.microsoft.com/fwlink/p/?linkId=205889](https://go.microsoft.com/fwlink/p/?linkid=205889)</span><span class="sxs-lookup"><span data-stu-id="f6d4d-105">Decommissioning Standard Edition at [https://go.microsoft.com/fwlink/p/?linkId=205889](https://go.microsoft.com/fwlink/p/?linkid=205889)</span></span>
 
-  - <span data-ttu-id="04fb5-106">移除伺服器及伺服器角色，請[https://go.microsoft.com/fwlink/p/?linkId=205887](https://go.microsoft.com/fwlink/p/?linkid=205887)</span><span class="sxs-lookup"><span data-stu-id="04fb5-106">Removing Servers and Server Roles at [https://go.microsoft.com/fwlink/p/?linkId=205887](https://go.microsoft.com/fwlink/p/?linkid=205887)</span></span>
+  - <span data-ttu-id="f6d4d-106">移除伺服器及伺服器角色，請[https://go.microsoft.com/fwlink/p/?linkId=205887](https://go.microsoft.com/fwlink/p/?linkid=205887)</span><span class="sxs-lookup"><span data-stu-id="f6d4d-106">Removing Servers and Server Roles at [https://go.microsoft.com/fwlink/p/?linkId=205887](https://go.microsoft.com/fwlink/p/?linkid=205887)</span></span>
 
-  - <span data-ttu-id="04fb5-107">移除 Enterprise 集區。[https://go.microsoft.com/fwlink/p/?linkId=205888](https://go.microsoft.com/fwlink/p/?linkid=205888)</span><span class="sxs-lookup"><span data-stu-id="04fb5-107">Removing an Enterprise Pool at [https://go.microsoft.com/fwlink/p/?linkId=205888](https://go.microsoft.com/fwlink/p/?linkid=205888)</span></span>
+  - <span data-ttu-id="f6d4d-107">移除 Enterprise 集區。[https://go.microsoft.com/fwlink/p/?linkId=205888](https://go.microsoft.com/fwlink/p/?linkid=205888)</span><span class="sxs-lookup"><span data-stu-id="f6d4d-107">Removing an Enterprise Pool at [https://go.microsoft.com/fwlink/p/?linkId=205888](https://go.microsoft.com/fwlink/p/?linkid=205888)</span></span>
 
 </div>
 
