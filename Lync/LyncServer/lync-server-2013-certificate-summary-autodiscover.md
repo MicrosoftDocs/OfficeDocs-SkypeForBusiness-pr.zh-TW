@@ -12,16 +12,16 @@ ms:contentKeyID: 51541451
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c7d45183b3dac5d96d65d771bf1425546f861c38
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 7424d0c002e5b14335a6d0256fc72a3beff733cc
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42135229"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42187476"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -79,7 +79,7 @@ Lync Server 2013 自動探索服務執行 Director 與前端集區伺服器，�
 </colgroup>
 <thead>
 <tr class="header">
-<th>描述</th>
+<th>說明</th>
 <th>主體替代名稱項目</th>
 </tr>
 </thead>
@@ -115,7 +115,7 @@ Lync Server 2013 自動探索服務執行 Director 與前端集區伺服器，�
 </colgroup>
 <thead>
 <tr class="header">
-<th>描述</th>
+<th>說明</th>
 <th>主體替代名稱項目</th>
 </tr>
 </thead>
@@ -151,7 +151,7 @@ Lync Server 2013 自動探索服務執行 Director 與前端集區伺服器，�
 </colgroup>
 <thead>
 <tr class="header">
-<th>描述</th>
+<th>說明</th>
 <th>主體別名項目</th>
 </tr>
 </thead>

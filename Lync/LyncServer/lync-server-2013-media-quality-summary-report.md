@@ -12,16 +12,16 @@ ms:contentKeyID: 48184776
 ms.date: 06/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: efa7c620cff3247e4d744f60c24e0f5aa6293da3
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: edeec17bccc4c2084f71d3a052d3a44a34f4ed94
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42149773"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42185179"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -180,7 +180,7 @@ Media Quality Summary Report 也可讓您套用篩選器，可讓您比較有線
 <tr class="header">
 <th>名稱</th>
 <th>可以排序這個項目嗎？</th>
-<th>描述</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>
@@ -276,7 +276,7 @@ Media Quality Summary Report 也可讓您套用篩選器，可讓您比較有線
 <tr class="header">
 <th>名稱</th>
 <th>可以排序這個項目嗎？</th>
-<th>描述</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>
@@ -375,7 +375,7 @@ Media Quality Summary Report 也可讓您套用篩選器，可讓您比較有線
 <tr class="header">
 <th>名稱</th>
 <th>可以排序這個項目嗎？</th>
-<th>描述</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>
