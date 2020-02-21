@@ -12,16 +12,16 @@ ms:contentKeyID: 48184789
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0ebd3da761fe9923f05c2ddd5dfced852b4b27e6
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: c055a48684716ce64428615759b023242b9e4ff5
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42134239"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42203439"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -152,7 +152,7 @@ _**主題上次修改日期：** 2012年-06-06_
 <tr class="header">
 <th>名稱</th>
 <th>可以排序這個項目嗎？</th>
-<th>描述</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>
@@ -190,7 +190,7 @@ _**主題上次修改日期：** 2012年-06-06_
 <tr class="header">
 <th>名稱</th>
 <th>可以排序這個項目嗎？</th>
-<th>描述</th>
+<th>說明</th>
 </tr>
 </thead>
 <tbody>
