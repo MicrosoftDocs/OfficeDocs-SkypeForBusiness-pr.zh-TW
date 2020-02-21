@@ -12,20 +12,20 @@ ms:contentKeyID: 48185584
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a872cee8bcbe3c6faa857d6d3f62a50edca393b6
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 09c4102008eca37d79d2862a3ede8b1498899511
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42146566"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42205149"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-an-existing-central-management-server-in-lync-server-2013"></a><span data-ttu-id="a60bd-102">在 Lync Server 2013 中設定現有的中央管理伺服器</span><span class="sxs-lookup"><span data-stu-id="a60bd-102">Configure an existing Central Management Server in Lync Server 2013</span></span>
+# <a name="configure-an-existing-central-management-server-in-lync-server-2013"></a><span data-ttu-id="78e48-102">在 Lync Server 2013 中設定現有的中央管理伺服器</span><span class="sxs-lookup"><span data-stu-id="78e48-102">Configure an existing Central Management Server in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "42146566"
 
 <span> </span>
 
-<span data-ttu-id="a60bd-103">_**上次修改主題：** 2013年-02-21_</span><span class="sxs-lookup"><span data-stu-id="a60bd-103">_**Topic Last Modified:** 2013-02-21_</span></span>
+<span data-ttu-id="78e48-103">_**上次修改主題：** 2013年-02-21_</span><span class="sxs-lookup"><span data-stu-id="78e48-103">_**Topic Last Modified:** 2013-02-21_</span></span>
 
-<span data-ttu-id="a60bd-104">如果您重複使用現有的 Lync Server 2013 部署從中央管理伺服器，您必須執行來讓確定該 Lync Server 控制台] 及 [Windows PowerShell 正確運作，如下所述的程序。</span><span class="sxs-lookup"><span data-stu-id="a60bd-104">If you reuse a Central Management Server from an existing Lync Server 2013 deployment, you must run the procedure described below to make sure that Lync Server Control Panel and Windows PowerShell function correctly.</span></span>
+<span data-ttu-id="78e48-104">如果您重複使用現有的 Lync Server 2013 部署從中央管理伺服器，您必須執行來讓確定該 Lync Server 控制台] 及 [Windows PowerShell 正確運作，如下所述的程序。</span><span class="sxs-lookup"><span data-stu-id="78e48-104">If you reuse a Central Management Server from an existing Lync Server 2013 deployment, you must run the procedure described below to make sure that Lync Server Control Panel and Windows PowerShell function correctly.</span></span>
 
 <div>
 
-## <a name="to-configure-an-existing-central-management-server"></a><span data-ttu-id="a60bd-105">若要設定現有的中央管理伺服器</span><span class="sxs-lookup"><span data-stu-id="a60bd-105">To configure an existing Central Management Server</span></span>
+## <a name="to-configure-an-existing-central-management-server"></a><span data-ttu-id="78e48-105">若要設定現有的中央管理伺服器</span><span class="sxs-lookup"><span data-stu-id="78e48-105">To configure an existing Central Management Server</span></span>
 
-1.  <span data-ttu-id="a60bd-106">啟動 Lync Server 管理命令介面： 按一下 [**開始]**，按一下 [**所有程式]**、 [ **Microsoft Lync Server 2013**]，然後按一下**Lync Server 管理命令介面**。</span><span class="sxs-lookup"><span data-stu-id="a60bd-106">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+1.  <span data-ttu-id="78e48-106">啟動 Lync Server 管理命令介面： 按一下 [**開始]**，按一下 [**所有程式]**、 [ **Microsoft Lync Server 2013**]，然後按一下**Lync Server 管理命令介面**。</span><span class="sxs-lookup"><span data-stu-id="78e48-106">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-2.  <span data-ttu-id="a60bd-107">使用**Update-csadminrole** cmdlet 來更新儲存在中央管理伺服器的角色型存取控制 (RBAC) 角色。</span><span class="sxs-lookup"><span data-stu-id="a60bd-107">Use the **Update-CsAdminRole** cmdlet to update the role-based access control (RBAC) roles stored in the Central Management Server.</span></span>
+2.  <span data-ttu-id="78e48-107">使用**Update-csadminrole** cmdlet 來更新儲存在中央管理伺服器的角色型存取控制 (RBAC) 角色。</span><span class="sxs-lookup"><span data-stu-id="78e48-107">Use the **Update-CsAdminRole** cmdlet to update the role-based access control (RBAC) roles stored in the Central Management Server.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="a60bd-108">除非發生錯誤，被不預期任何輸出。</span><span class="sxs-lookup"><span data-stu-id="a60bd-108">No output is expected unless there is an error.</span></span>
+    > <span data-ttu-id="78e48-108">除非發生錯誤，被不預期任何輸出。</span><span class="sxs-lookup"><span data-stu-id="78e48-108">No output is expected unless there is an error.</span></span>
 
     
     </div>

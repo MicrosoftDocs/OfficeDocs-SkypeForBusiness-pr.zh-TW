@@ -12,20 +12,20 @@ ms:contentKeyID: 48185603
 ms.date: 01/17/2019
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7fe1561798abb4c8c8b6d7944fd4f7f172e6b233
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 57928214d86d2d6c931de90ca40c83501e366f2d
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42144469"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42201149"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="running-large-meetings-in-lync-server-2013"></a><span data-ttu-id="74e17-102">在 Lync Server 2013 中執行大型會議</span><span class="sxs-lookup"><span data-stu-id="74e17-102">Running large meetings in Lync Server 2013</span></span>
+# <a name="running-large-meetings-in-lync-server-2013"></a><span data-ttu-id="1747a-102">在 Lync Server 2013 中執行大型會議</span><span class="sxs-lookup"><span data-stu-id="1747a-102">Running large meetings in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "42144469"
 
 <span> </span>
 
-<span data-ttu-id="74e17-103">_**主題上次修改日期：** 2019年-01-17_</span><span class="sxs-lookup"><span data-stu-id="74e17-103">_**Topic Last Modified:** 2019-01-17_</span></span>
+<span data-ttu-id="1747a-103">_**主題上次修改日期：** 2019年-01-17_</span><span class="sxs-lookup"><span data-stu-id="1747a-103">_**Topic Last Modified:** 2019-01-17_</span></span>
 
-<span data-ttu-id="74e17-104">數個到 1000 位使用者在會議中，它是很好的作法有專用的人員 moderate 大型會議的線上工作階段。</span><span class="sxs-lookup"><span data-stu-id="74e17-104">With several hundred to a thousand users in a meeting, it is a good practice to have a dedicated person moderate the online session of a large meeting.</span></span> <span data-ttu-id="74e17-105">此專用的人可以是會議召集人的代理人或組織的大型會議支援人員的成員。</span><span class="sxs-lookup"><span data-stu-id="74e17-105">This dedicated person can be a delegate of the meeting organizer or a member of the organization’s large-meeting support staff.</span></span> <span data-ttu-id="74e17-106">請務必在專用的會議仲裁者為簡報者次加入已排程會議，雖然您可以在會議進行期間提升簡報者角色的線上會議出席者。</span><span class="sxs-lookup"><span data-stu-id="74e17-106">It is important to add the dedicated meeting moderator as a presenter at the time that the meeting is scheduled, although it is possible to promote an online meeting attendee to the presenter role while the meeting is in progress.</span></span>
+<span data-ttu-id="1747a-104">數個到 1000 位使用者在會議中，它是很好的作法有專用的人員 moderate 大型會議的線上工作階段。</span><span class="sxs-lookup"><span data-stu-id="1747a-104">With several hundred to a thousand users in a meeting, it is a good practice to have a dedicated person moderate the online session of a large meeting.</span></span> <span data-ttu-id="1747a-105">此專用的人可以是會議召集人的代理人或組織的大型會議支援人員的成員。</span><span class="sxs-lookup"><span data-stu-id="1747a-105">This dedicated person can be a delegate of the meeting organizer or a member of the organization’s large-meeting support staff.</span></span> <span data-ttu-id="1747a-106">請務必在專用的會議仲裁者為簡報者次加入已排程會議，雖然您可以在會議進行期間提升簡報者角色的線上會議出席者。</span><span class="sxs-lookup"><span data-stu-id="1747a-106">It is important to add the dedicated meeting moderator as a presenter at the time that the meeting is scheduled, although it is possible to promote an online meeting attendee to the presenter role while the meeting is in progress.</span></span>
 
-<span data-ttu-id="74e17-107">會議仲裁者可以使用下列簡報者功能的 Lync Server 2013 用戶端管理大型會議：</span><span class="sxs-lookup"><span data-stu-id="74e17-107">The meeting moderator can use the following presenter functionalities of Lync Server 2013 clients to manage the large meeting:</span></span>
+<span data-ttu-id="1747a-107">會議仲裁者可以使用下列簡報者功能的 Lync Server 2013 用戶端管理大型會議：</span><span class="sxs-lookup"><span data-stu-id="1747a-107">The meeting moderator can use the following presenter functionalities of Lync Server 2013 clients to manage the large meeting:</span></span>
 
-- <span data-ttu-id="74e17-108">變更會議存取類型。</span><span class="sxs-lookup"><span data-stu-id="74e17-108">Change meeting access types.</span></span>
+- <span data-ttu-id="1747a-108">變更會議存取類型。</span><span class="sxs-lookup"><span data-stu-id="1747a-108">Change meeting access types.</span></span>
 
-- <span data-ttu-id="74e17-109">邀請其他參與者在會議中使用 Lync 拖放功能、 電話撥出或電子郵件。</span><span class="sxs-lookup"><span data-stu-id="74e17-109">Invite additional participants during the meeting using Lync drag and drop functionality, phone dial out, or email.</span></span>
+- <span data-ttu-id="1747a-109">邀請其他參與者在會議中使用 Lync 拖放功能、 電話撥出或電子郵件。</span><span class="sxs-lookup"><span data-stu-id="1747a-109">Invite additional participants during the meeting using Lync drag and drop functionality, phone dial out, or email.</span></span>
 
-- <span data-ttu-id="74e17-110">管理會議內容，包括上傳內容、 刪除內容以及切換作用中的內容。</span><span class="sxs-lookup"><span data-stu-id="74e17-110">Manage meeting content, including uploading content, deleting content, and switching active content.</span></span>
+- <span data-ttu-id="1747a-110">管理會議內容，包括上傳內容、 刪除內容以及切換作用中的內容。</span><span class="sxs-lookup"><span data-stu-id="1747a-110">Manage meeting content, including uploading content, deleting content, and switching active content.</span></span>
 
 </div>
 

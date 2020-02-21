@@ -12,20 +12,20 @@ ms:contentKeyID: 48185893
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 09e7c31bcd32c392d56c9143b075a771bf3dc42d
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: f8ab10dd6c0bb52de206268f051f2b1ed78e05e3
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42144559"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42201179"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="roles-table-in-lync-server-2013"></a><span data-ttu-id="0e0a6-102">Lync Server 2013 中的 [角色] 資料表</span><span class="sxs-lookup"><span data-stu-id="0e0a6-102">Roles table in Lync Server 2013</span></span>
+# <a name="roles-table-in-lync-server-2013"></a><span data-ttu-id="16b3a-102">Lync Server 2013 中的 [角色] 資料表</span><span class="sxs-lookup"><span data-stu-id="16b3a-102">Roles table in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "42144559"
 
 <span> </span>
 
-<span data-ttu-id="0e0a6-103">_**主題上次修改日期：** 2012年-09-28_</span><span class="sxs-lookup"><span data-stu-id="0e0a6-103">_**Topic Last Modified:** 2012-09-28_</span></span>
+<span data-ttu-id="16b3a-103">_**主題上次修改日期：** 2012年-09-28_</span><span class="sxs-lookup"><span data-stu-id="16b3a-103">_**Topic Last Modified:** 2012-09-28_</span></span>
 
-<span data-ttu-id="0e0a6-104">Roles 表格是靜態表格儲存可能之會議角色 （例如出席者和簡報者） 的清單。</span><span class="sxs-lookup"><span data-stu-id="0e0a6-104">The Roles table is a static table that stores the list of possible conference roles, such as attendee and presenter.</span></span>
+<span data-ttu-id="16b3a-104">Roles 表格是靜態表格儲存可能之會議角色 （例如出席者和簡報者） 的清單。</span><span class="sxs-lookup"><span data-stu-id="16b3a-104">The Roles table is a static table that stores the list of possible conference roles, such as attendee and presenter.</span></span>
 
 
 <table>
@@ -49,28 +49,28 @@ ms.locfileid: "42144559"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="0e0a6-105">欄</span><span class="sxs-lookup"><span data-stu-id="0e0a6-105">Column</span></span></th>
-<th><span data-ttu-id="0e0a6-106">資料類型</span><span class="sxs-lookup"><span data-stu-id="0e0a6-106">Data Type</span></span></th>
-<th><span data-ttu-id="0e0a6-107">主索引鍵 /</span><span class="sxs-lookup"><span data-stu-id="0e0a6-107">Key/Index</span></span></th>
-<th><span data-ttu-id="0e0a6-108">詳細資料</span><span class="sxs-lookup"><span data-stu-id="0e0a6-108">Details</span></span></th>
+<th><span data-ttu-id="16b3a-105">欄</span><span class="sxs-lookup"><span data-stu-id="16b3a-105">Column</span></span></th>
+<th><span data-ttu-id="16b3a-106">資料類型</span><span class="sxs-lookup"><span data-stu-id="16b3a-106">Data Type</span></span></th>
+<th><span data-ttu-id="16b3a-107">主索引鍵 /</span><span class="sxs-lookup"><span data-stu-id="16b3a-107">Key/Index</span></span></th>
+<th><span data-ttu-id="16b3a-108">詳細資料</span><span class="sxs-lookup"><span data-stu-id="16b3a-108">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="0e0a6-109"><strong>RoleId</strong></span><span class="sxs-lookup"><span data-stu-id="0e0a6-109"><strong>RoleId</strong></span></span></p></td>
-<td><p><span data-ttu-id="0e0a6-110">tinyint</span><span class="sxs-lookup"><span data-stu-id="0e0a6-110">tinyint</span></span></p></td>
-<td><p><span data-ttu-id="0e0a6-111">主要</span><span class="sxs-lookup"><span data-stu-id="0e0a6-111">Primary</span></span></p></td>
+<td><p><span data-ttu-id="16b3a-109"><strong>RoleId</strong></span><span class="sxs-lookup"><span data-stu-id="16b3a-109"><strong>RoleId</strong></span></span></p></td>
+<td><p><span data-ttu-id="16b3a-110">tinyint</span><span class="sxs-lookup"><span data-stu-id="16b3a-110">tinyint</span></span></p></td>
+<td><p><span data-ttu-id="16b3a-111">主要</span><span class="sxs-lookup"><span data-stu-id="16b3a-111">Primary</span></span></p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="0e0a6-112"><strong>角色</strong></span><span class="sxs-lookup"><span data-stu-id="0e0a6-112"><strong>Role</strong></span></span></p></td>
-<td><p><span data-ttu-id="0e0a6-113">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="0e0a6-113">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="16b3a-112"><strong>角色</strong></span><span class="sxs-lookup"><span data-stu-id="16b3a-112"><strong>Role</strong></span></span></p></td>
+<td><p><span data-ttu-id="16b3a-113">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="16b3a-113">nvarchar(256)</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="0e0a6-114">允許的值：</span><span class="sxs-lookup"><span data-stu-id="0e0a6-114">Allowed values:</span></span></p>
+<td><p><span data-ttu-id="16b3a-114">允許的值：</span><span class="sxs-lookup"><span data-stu-id="16b3a-114">Allowed values:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="0e0a6-115">0 - 未知</span><span class="sxs-lookup"><span data-stu-id="0e0a6-115">0 - Unknown</span></span></p></li>
-<li><p><span data-ttu-id="0e0a6-116">1-簡報者</span><span class="sxs-lookup"><span data-stu-id="0e0a6-116">1 - Presenter</span></span></p></li>
-<li><p><span data-ttu-id="0e0a6-117">2-出席者</span><span class="sxs-lookup"><span data-stu-id="0e0a6-117">2 - Attendee</span></span></p></li>
+<li><p><span data-ttu-id="16b3a-115">0 - 未知</span><span class="sxs-lookup"><span data-stu-id="16b3a-115">0 - Unknown</span></span></p></li>
+<li><p><span data-ttu-id="16b3a-116">1-簡報者</span><span class="sxs-lookup"><span data-stu-id="16b3a-116">1 - Presenter</span></span></p></li>
+<li><p><span data-ttu-id="16b3a-117">2-出席者</span><span class="sxs-lookup"><span data-stu-id="16b3a-117">2 - Attendee</span></span></p></li>
 </ul></td>
 </tr>
 </tbody>

@@ -12,20 +12,20 @@ ms:contentKeyID: 48184332
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7723a67b4cefb75218f01dde3603a100b54d40b8
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 638e2ff873415236d11bae4486cd4642bd075c9d
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42131396"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42204775"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="estimating-voice-usage-and-traffic-for-lync-server-2013"></a><span data-ttu-id="90d79-102">評估語音使用方式和 Lync Server 2013 的流量</span><span class="sxs-lookup"><span data-stu-id="90d79-102">Estimating voice usage and traffic for Lync Server 2013</span></span>
+# <a name="estimating-voice-usage-and-traffic-for-lync-server-2013"></a><span data-ttu-id="00258-102">評估語音使用方式和 Lync Server 2013 的流量</span><span class="sxs-lookup"><span data-stu-id="00258-102">Estimating voice usage and traffic for Lync Server 2013</span></span>
 
 </div>
 
@@ -35,22 +35,22 @@ ms.locfileid: "42131396"
 
 <span> </span>
 
-<span data-ttu-id="90d79-103">_**主題上次修改日期：** 2012年-08-07_</span><span class="sxs-lookup"><span data-stu-id="90d79-103">_**Topic Last Modified:** 2012-08-07_</span></span>
+<span data-ttu-id="00258-103">_**主題上次修改日期：** 2012年-08-07_</span><span class="sxs-lookup"><span data-stu-id="00258-103">_**Topic Last Modified:** 2012-08-07_</span></span>
 
-<span data-ttu-id="90d79-104">Microsoft Lync Server 2013、 規劃工具可用於下列計量評估的使用者流量，每個網站，以及支援該流量所需的連接埠數目。</span><span class="sxs-lookup"><span data-stu-id="90d79-104">The Microsoft Lync Server 2013, Planning Tool uses the following metric to estimate user traffic at each site and the number of ports that are required to support that traffic.</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="90d79-105">針對**輕型流量** (每位使用者每小時一個 PSTN 通話)，估計每個連接埠 15 位使用者。</span><span class="sxs-lookup"><span data-stu-id="90d79-105">For **Light traffic** (one PSTN call per user per hour), figure 15 users per port.</span></span>
+<span data-ttu-id="00258-104">Microsoft Lync Server 2013、 規劃工具可用於下列計量評估的使用者流量，每個網站，以及支援該流量所需的連接埠數目。</span><span class="sxs-lookup"><span data-stu-id="00258-104">The Microsoft Lync Server 2013, Planning Tool uses the following metric to estimate user traffic at each site and the number of ports that are required to support that traffic.</span></span>
 
   - <span></span>  
-    <span data-ttu-id="90d79-106">針對**中型流量** (每位使用者每小時兩個 PSTN 通話)，估計每個連接埠 10 位使用者。</span><span class="sxs-lookup"><span data-stu-id="90d79-106">For **Medium traffic** (2 PSTN calls per user per hour), figure 10 users per port.</span></span>
+    <span data-ttu-id="00258-105">針對**輕型流量** (每位使用者每小時一個 PSTN 通話)，估計每個連接埠 15 位使用者。</span><span class="sxs-lookup"><span data-stu-id="00258-105">For **Light traffic** (one PSTN call per user per hour), figure 15 users per port.</span></span>
 
   - <span></span>  
-    <span data-ttu-id="90d79-107">針對**重型流量** (每位使用者每小時三個以上的 PSTN 通話)，估計每個連接埠 5 位使用者。</span><span class="sxs-lookup"><span data-stu-id="90d79-107">For **Heavy traffic** (3 or more PSTN per user calls per hour), figure 5 users per port.</span></span>
+    <span data-ttu-id="00258-106">針對**中型流量** (每位使用者每小時兩個 PSTN 通話)，估計每個連接埠 10 位使用者。</span><span class="sxs-lookup"><span data-stu-id="00258-106">For **Medium traffic** (2 PSTN calls per user per hour), figure 10 users per port.</span></span>
 
-<span data-ttu-id="90d79-108">連接埠的數量接著會決定中繼伺服器和閘道所需的數目。</span><span class="sxs-lookup"><span data-stu-id="90d79-108">The number of ports in turn determines the number of Mediation Servers and gateways that will be required.</span></span> <span data-ttu-id="90d79-109">大多數的組織請考慮部署多達 960 連接埠大小 2 的連接埠範圍公用交換的電話網路 (PSTN) 閘道。</span><span class="sxs-lookup"><span data-stu-id="90d79-109">The public switched telephone network (PSTN) gateways that most organizations consider deploying range in size from 2 ports to as many as 960 ports.</span></span> <span data-ttu-id="90d79-110">（有更大的閘道器，但這些可用主要是藉由電話語音服務提供者）。</span><span class="sxs-lookup"><span data-stu-id="90d79-110">(There are even larger gateways, but these are used mainly by telephony service providers.)</span></span>
+  - <span></span>  
+    <span data-ttu-id="00258-107">針對**重型流量** (每位使用者每小時三個以上的 PSTN 通話)，估計每個連接埠 5 位使用者。</span><span class="sxs-lookup"><span data-stu-id="00258-107">For **Heavy traffic** (3 or more PSTN per user calls per hour), figure 5 users per port.</span></span>
 
-<span data-ttu-id="90d79-p102">例如，有 10,000 位使用者及中型流量的組織需要 1000 個連接埠。需要的閘道數目會等於閘道總容量所決定的必要連接埠總數。</span><span class="sxs-lookup"><span data-stu-id="90d79-p102">For example, an organization with 10,000 users and medium traffic would require 1000 ports. The number of gateways required would equal the total number of ports required as determined by the total capacity of the gateways.</span></span>
+<span data-ttu-id="00258-108">連接埠的數量接著會決定中繼伺服器和閘道所需的數目。</span><span class="sxs-lookup"><span data-stu-id="00258-108">The number of ports in turn determines the number of Mediation Servers and gateways that will be required.</span></span> <span data-ttu-id="00258-109">大多數的組織請考慮部署多達 960 連接埠大小 2 的連接埠範圍公用交換的電話網路 (PSTN) 閘道。</span><span class="sxs-lookup"><span data-stu-id="00258-109">The public switched telephone network (PSTN) gateways that most organizations consider deploying range in size from 2 ports to as many as 960 ports.</span></span> <span data-ttu-id="00258-110">（有更大的閘道器，但這些可用主要是藉由電話語音服務提供者）。</span><span class="sxs-lookup"><span data-stu-id="00258-110">(There are even larger gateways, but these are used mainly by telephony service providers.)</span></span>
+
+<span data-ttu-id="00258-p102">例如，有 10,000 位使用者及中型流量的組織需要 1000 個連接埠。需要的閘道數目會等於閘道總容量所決定的必要連接埠總數。</span><span class="sxs-lookup"><span data-stu-id="00258-p102">For example, an organization with 10,000 users and medium traffic would require 1000 ports. The number of gateways required would equal the total number of ports required as determined by the total capacity of the gateways.</span></span>
 
 </div>
 
