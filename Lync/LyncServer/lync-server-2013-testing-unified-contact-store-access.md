@@ -12,16 +12,16 @@ ms:contentKeyID: 63969621
 ms.date: 05/16/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6022d7651a99c2165961ed8cb8852048c10779ff
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 34dbf6ede9f58b39df1722e742511ee0844c41f7
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42141229"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42218289"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -64,7 +64,7 @@ _**主題上次修改日期：** 2015年-05-15_
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>說明
 
 在 Lync Server 2013 中引進整合連絡人存放區提供系統管理員將使用者的連絡人儲存在 Microsoft Exchange Server 2013 而不是在 Lync Server 中的選項。 這可讓使用者存取相同的 Outlook Web Access，除了 Lync 2013 中的連絡人集合。 （或者，您可以繼續將連絡人儲存在 Lync Server。 In that case，使用者仍必須維護兩組不同的連絡人： 一個用於 Outlook 和 Outlook Web Access，一個用於與 Lync 2013 搭配使用。)
 
