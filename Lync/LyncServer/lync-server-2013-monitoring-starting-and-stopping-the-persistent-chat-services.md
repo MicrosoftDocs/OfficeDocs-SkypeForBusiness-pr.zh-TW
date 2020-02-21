@@ -12,20 +12,20 @@ ms:contentKeyID: 48183291
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2a4ea34fe2397623c5a3f6c8cf82225274c592d8
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: aceb109d0f25ab65424046955ae3dfbb3ff75326
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42154815"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42184616"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="monitoring-starting-and-stopping-the-persistent-chat-services-in-lync-server-2013"></a><span data-ttu-id="8db66-102">監控、 啟動和停止 Lync Server 2013 中的常設聊天室服務</span><span class="sxs-lookup"><span data-stu-id="8db66-102">Monitoring, starting, and stopping the Persistent Chat services in Lync Server 2013</span></span>
+# <a name="monitoring-starting-and-stopping-the-persistent-chat-services-in-lync-server-2013"></a><span data-ttu-id="7a3f3-102">監控、 啟動和停止 Lync Server 2013 中的常設聊天室服務</span><span class="sxs-lookup"><span data-stu-id="7a3f3-102">Monitoring, starting, and stopping the Persistent Chat services in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "42154815"
 
 <span> </span>
 
-<span data-ttu-id="8db66-103">_**主題上次修改日期：** 2012年-10-06_</span><span class="sxs-lookup"><span data-stu-id="8db66-103">_**Topic Last Modified:** 2012-10-06_</span></span>
+<span data-ttu-id="7a3f3-103">_**主題上次修改日期：** 2012年-10-06_</span><span class="sxs-lookup"><span data-stu-id="7a3f3-103">_**Topic Last Modified:** 2012-10-06_</span></span>
 
-<span data-ttu-id="8db66-104">常設聊天室服務和常設聊天室規範服務一部分的 Lync Server 2013 拓撲可以因此是監視、 停止，並開始使用 Windows PowerShell cmdlet、 **Get-cswindowsservice**、 **Stop-cswindowsservice**及**使用 Start-cswindowsservice**，分別。</span><span class="sxs-lookup"><span data-stu-id="8db66-104">The Persistent Chat services and Persistent Chat Compliance services are part of the Lync Server 2013 topology and can therefore be monitored, stopped, and started by using the Windows PowerShell cmdlets, **get-CsWindowsService**, **stop-CsWindowsService**, and **start-CsWindowsService**, respectively.</span></span>
+<span data-ttu-id="7a3f3-104">常設聊天室服務和常設聊天室規範服務一部分的 Lync Server 2013 拓撲可以因此是監視、 停止，並開始使用 Windows PowerShell cmdlet、 **Get-cswindowsservice**、 **Stop-cswindowsservice**及**使用 Start-cswindowsservice**，分別。</span><span class="sxs-lookup"><span data-stu-id="7a3f3-104">The Persistent Chat services and Persistent Chat Compliance services are part of the Lync Server 2013 topology and can therefore be monitored, stopped, and started by using the Windows PowerShell cmdlets, **get-CsWindowsService**, **stop-CsWindowsService**, and **start-CsWindowsService**, respectively.</span></span>
 
 </div>
 

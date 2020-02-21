@@ -12,20 +12,20 @@ ms:contentKeyID: 48183730
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e5f109c20136bbef07842eaed1669cac2912b3b4
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 4087ccbe85774a29483191dad6b52799e46fe0b4
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42138284"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42187376"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dedicated-meeting-organizers-in-lync-server-2013"></a><span data-ttu-id="353dd-102">Lync Server 2013 中的專用的會議召集人</span><span class="sxs-lookup"><span data-stu-id="353dd-102">Dedicated meeting organizers in Lync Server 2013</span></span>
+# <a name="dedicated-meeting-organizers-in-lync-server-2013"></a><span data-ttu-id="fec99-102">Lync Server 2013 中的專用的會議召集人</span><span class="sxs-lookup"><span data-stu-id="fec99-102">Dedicated meeting organizers in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "42138284"
 
 <span> </span>
 
-<span data-ttu-id="353dd-103">_**主題上次修改日期：** 2012年-10-01_</span><span class="sxs-lookup"><span data-stu-id="353dd-103">_**Topic Last Modified:** 2012-10-01_</span></span>
+<span data-ttu-id="fec99-103">_**主題上次修改日期：** 2012年-10-01_</span><span class="sxs-lookup"><span data-stu-id="fec99-103">_**Topic Last Modified:** 2012-10-01_</span></span>
 
-<span data-ttu-id="353dd-p101">為了減少大型會議集區中的及時通訊流量，並不建議您主控使用 Lync 用戶端定期登入並參與即時訊息 (IM)、目前狀態、會議及語音工作階段的使用者。建議您改為執行下列其中一項作業：</span><span class="sxs-lookup"><span data-stu-id="353dd-p101">To minimize the real-time communications traffic in the large-meeting pool, we do not recommend hosting users who regularly sign in using Lync clients and participate in instant messaging (IM), presence, conferencing, and voice sessions. Instead, we recommend doing one of the following:</span></span>
+<span data-ttu-id="fec99-p101">為了減少大型會議集區中的及時通訊流量，並不建議您主控使用 Lync 用戶端定期登入並參與即時訊息 (IM)、目前狀態、會議及語音工作階段的使用者。建議您改為執行下列其中一項作業：</span><span class="sxs-lookup"><span data-stu-id="fec99-p101">To minimize the real-time communications traffic in the large-meeting pool, we do not recommend hosting users who regularly sign in using Lync clients and participate in instant messaging (IM), presence, conferencing, and voice sessions. Instead, we recommend doing one of the following:</span></span>
 
-  - <span data-ttu-id="353dd-106">建立一或多個排程大型會議的專用使用者帳戶，或者</span><span class="sxs-lookup"><span data-stu-id="353dd-106">Create one or more dedicated user accounts just for scheduling large meetings, or</span></span>
+  - <span data-ttu-id="fec99-106">建立一或多個排程大型會議的專用使用者帳戶，或者</span><span class="sxs-lookup"><span data-stu-id="fec99-106">Create one or more dedicated user accounts just for scheduling large meetings, or</span></span>
 
-  - <span data-ttu-id="353dd-107">將負責排程大型會議之人員的使用者帳戶放置在大型會議集區中。</span><span class="sxs-lookup"><span data-stu-id="353dd-107">Home the user accounts of the staff responsible for scheduling large meetings on a large-meeting pool.</span></span>
+  - <span data-ttu-id="fec99-107">將負責排程大型會議之人員的使用者帳戶放置在大型會議集區中。</span><span class="sxs-lookup"><span data-stu-id="fec99-107">Home the user accounts of the staff responsible for scheduling large meetings on a large-meeting pool.</span></span>
 
-<span data-ttu-id="353dd-108">不論執行哪項作業，均不應使用位於大型會議集區中的使用者帳戶來定期登入 Lync，而應使用這些帳戶排程會議。</span><span class="sxs-lookup"><span data-stu-id="353dd-108">In either case, the user accounts that are homed on the large-meeting pool should not be used to regularly sign in to Lync, other than to schedule meetings.</span></span>
+<span data-ttu-id="fec99-108">不論執行哪項作業，均不應使用位於大型會議集區中的使用者帳戶來定期登入 Lync，而應使用這些帳戶排程會議。</span><span class="sxs-lookup"><span data-stu-id="fec99-108">In either case, the user accounts that are homed on the large-meeting pool should not be used to regularly sign in to Lync, other than to schedule meetings.</span></span>
 
 </div>
 

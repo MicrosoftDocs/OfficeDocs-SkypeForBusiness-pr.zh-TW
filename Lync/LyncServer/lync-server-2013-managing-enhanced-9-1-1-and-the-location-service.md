@@ -12,20 +12,20 @@ ms:contentKeyID: 49733600
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: da574474ac58ccf6db77bf574312699ab0940c1b
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 0042d08fbc5cc23b8c8462b59677b8ab6a36e139
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42136150"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42185766"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-enhanced-9-1-1-and-the-location-service-in-lync-server-2013"></a><span data-ttu-id="e1943-102">管理增強型 9-1-1 和 Lync Server 2013 中的位置服務</span><span class="sxs-lookup"><span data-stu-id="e1943-102">Managing Enhanced 9-1-1 and the Location service in Lync Server 2013</span></span>
+# <a name="managing-enhanced-9-1-1-and-the-location-service-in-lync-server-2013"></a><span data-ttu-id="726e0-102">管理增強型 9-1-1 和 Lync Server 2013 中的位置服務</span><span class="sxs-lookup"><span data-stu-id="726e0-102">Managing Enhanced 9-1-1 and the Location service in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "42136150"
 
 <span> </span>
 
-<span data-ttu-id="e1943-103">_**主題上次修改日期：** 2012年-11-01_</span><span class="sxs-lookup"><span data-stu-id="e1943-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="726e0-103">_**主題上次修改日期：** 2012年-11-01_</span><span class="sxs-lookup"><span data-stu-id="726e0-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="e1943-104">Lync Server 2013 支援增強型 9-1-1 (E9-1-1) 從 Lync 用戶端和 Lync Phone Edition 裝置呼叫。</span><span class="sxs-lookup"><span data-stu-id="e1943-104">Lync Server 2013 supports Enhanced 9-1-1 (E9-1-1) calling from Lync clients and Lync Phone Edition devices.</span></span> <span data-ttu-id="e1943-105">當您設定 Lync Server 2013 的 E9-1-1、 緊急撥打從 Lync 2013 或 Lync Phone Edition 包含緊急回應位置 (ERL) 的資訊的位置資訊服務資料庫。</span><span class="sxs-lookup"><span data-stu-id="e1943-105">When you configure Lync Server 2013 for E9-1-1, emergency calls placed from Lync 2013 or Lync Phone Edition include Emergency Response Location (ERL) information from the Location Information service database.</span></span> <span data-ttu-id="e1943-106">使用本節中的程序管理此位置原則。</span><span class="sxs-lookup"><span data-stu-id="e1943-106">Use the procedures in this section to manage location policy.</span></span>
+<span data-ttu-id="726e0-104">Lync Server 2013 支援增強型 9-1-1 (E9-1-1) 從 Lync 用戶端和 Lync Phone Edition 裝置呼叫。</span><span class="sxs-lookup"><span data-stu-id="726e0-104">Lync Server 2013 supports Enhanced 9-1-1 (E9-1-1) calling from Lync clients and Lync Phone Edition devices.</span></span> <span data-ttu-id="726e0-105">當您設定 Lync Server 2013 的 E9-1-1、 緊急撥打從 Lync 2013 或 Lync Phone Edition 包含緊急回應位置 (ERL) 的資訊的位置資訊服務資料庫。</span><span class="sxs-lookup"><span data-stu-id="726e0-105">When you configure Lync Server 2013 for E9-1-1, emergency calls placed from Lync 2013 or Lync Phone Edition include Emergency Response Location (ERL) information from the Location Information service database.</span></span> <span data-ttu-id="726e0-106">使用本節中的程序管理此位置原則。</span><span class="sxs-lookup"><span data-stu-id="726e0-106">Use the procedures in this section to manage location policy.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="e1943-107">如需部署進階的 Enterprise Voice 功能，例如 E9-1-1 和位置資訊服務的詳細資訊，請參閱<A href="lync-server-2013-deploying-advanced-enterprise-voice-features.md">部署進階 Enterprise Voice 功能在 Lync Server 2013</A>。</span><span class="sxs-lookup"><span data-stu-id="e1943-107">For details on deploying advanced Enterprise Voice features, such as E9-1-1 and the Location Information service, see <A href="lync-server-2013-deploying-advanced-enterprise-voice-features.md">Deploying advanced Enterprise Voice features in Lync Server 2013</A>.</span></span>
+> <span data-ttu-id="726e0-107">如需部署進階的 Enterprise Voice 功能，例如 E9-1-1 和位置資訊服務的詳細資訊，請參閱<A href="lync-server-2013-deploying-advanced-enterprise-voice-features.md">部署進階 Enterprise Voice 功能在 Lync Server 2013</A>。</span><span class="sxs-lookup"><span data-stu-id="726e0-107">For details on deploying advanced Enterprise Voice features, such as E9-1-1 and the Location Information service, see <A href="lync-server-2013-deploying-advanced-enterprise-voice-features.md">Deploying advanced Enterprise Voice features in Lync Server 2013</A>.</span></span>
 
 
 
@@ -51,9 +51,9 @@ ms.locfileid: "42136150"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="e1943-108">本章節內容</span><span class="sxs-lookup"><span data-stu-id="e1943-108">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="726e0-108">本章節內容</span><span class="sxs-lookup"><span data-stu-id="726e0-108">In This Section</span></span>
 
-  - [<span data-ttu-id="e1943-109">管理 Lync Server 2013 中的位置原則</span><span class="sxs-lookup"><span data-stu-id="e1943-109">Managing location policy in Lync Server 2013</span></span>](lync-server-2013-managing-location-policy.md)
+  - [<span data-ttu-id="726e0-109">管理 Lync Server 2013 中的位置原則</span><span class="sxs-lookup"><span data-stu-id="726e0-109">Managing location policy in Lync Server 2013</span></span>](lync-server-2013-managing-location-policy.md)
 
 </div>
 

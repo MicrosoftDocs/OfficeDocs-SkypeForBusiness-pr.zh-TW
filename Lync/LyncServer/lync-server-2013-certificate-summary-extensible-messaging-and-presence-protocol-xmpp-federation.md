@@ -12,20 +12,20 @@ ms:contentKeyID: 49105661
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8e13b3a126b952ade0a422039a225970eb9bafbe
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 45758175a04bad0cc673242087c0a4751c1b01bc
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42135330"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42187426"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="certificate-summary---extensible-messaging-and-presence-protocol-xmpp-federation-in-lync-server-2013"></a><span data-ttu-id="30595-102">憑證摘要-可延伸訊息與顯示狀態通訊協定 (XMPP) 同盟 Lync Server 2013 中</span><span class="sxs-lookup"><span data-stu-id="30595-102">Certificate summary - Extensible messaging and presence protocol (XMPP) federation in Lync Server 2013</span></span>
+# <a name="certificate-summary---extensible-messaging-and-presence-protocol-xmpp-federation-in-lync-server-2013"></a><span data-ttu-id="1320c-102">憑證摘要-可延伸訊息與顯示狀態通訊協定 (XMPP) 同盟 Lync Server 2013 中</span><span class="sxs-lookup"><span data-stu-id="1320c-102">Certificate summary - Extensible messaging and presence protocol (XMPP) federation in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "42135330"
 
 <span> </span>
 
-<span data-ttu-id="30595-103">_**主題上次修改日期：** 2012年-12 月 23 日_</span><span class="sxs-lookup"><span data-stu-id="30595-103">_**Topic Last Modified:** 2012-12-23_</span></span>
+<span data-ttu-id="1320c-103">_**主題上次修改日期：** 2012年-12 月 23 日_</span><span class="sxs-lookup"><span data-stu-id="1320c-103">_**Topic Last Modified:** 2012-12-23_</span></span>
 
-<span data-ttu-id="30595-104">啟用的憑證需求，建立與可延伸訊息與顯示狀態通訊協定 (XMPP) 的通訊合作夥伴需要 XMPP 網域的其他記錄。</span><span class="sxs-lookup"><span data-stu-id="30595-104">Certificate requirements for enabling and establishing communications with extensible messaging and presence protocol (XMPP) partners require the additional record of your XMPP domains.</span></span> <span data-ttu-id="30595-105">包含在憑證的主體替代名稱 (SAN) 的記錄會是可以參與 XMPP 通訊的網域。</span><span class="sxs-lookup"><span data-stu-id="30595-105">The record that is included on the certificate as a subject alternative name (SAN) will be the domain that can participate in XMPP communications.</span></span> <span data-ttu-id="30595-106">網域可以是根層級網域 (例如，contoso.com)，如果您想要啟用 XMPP 的整個網域，或可選取的子網域 （例如，corp.contoso.com、 finance.contoso.com），如果您要啟用 XMPP 使用者的子集。</span><span class="sxs-lookup"><span data-stu-id="30595-106">The domain can be the root-level domain (for example, contoso.com) if you want to enable XMPP for your entire domain, or can be selected child domains (for example, corp.contoso.com, finance.contoso.com) if you are enabling XMPP for a subset of users.</span></span>
+<span data-ttu-id="1320c-104">啟用的憑證需求，建立與可延伸訊息與顯示狀態通訊協定 (XMPP) 的通訊合作夥伴需要 XMPP 網域的其他記錄。</span><span class="sxs-lookup"><span data-stu-id="1320c-104">Certificate requirements for enabling and establishing communications with extensible messaging and presence protocol (XMPP) partners require the additional record of your XMPP domains.</span></span> <span data-ttu-id="1320c-105">包含在憑證的主體替代名稱 (SAN) 的記錄會是可以參與 XMPP 通訊的網域。</span><span class="sxs-lookup"><span data-stu-id="1320c-105">The record that is included on the certificate as a subject alternative name (SAN) will be the domain that can participate in XMPP communications.</span></span> <span data-ttu-id="1320c-106">網域可以是根層級網域 (例如，contoso.com)，如果您想要啟用 XMPP 的整個網域，或可選取的子網域 （例如，corp.contoso.com、 finance.contoso.com），如果您要啟用 XMPP 使用者的子集。</span><span class="sxs-lookup"><span data-stu-id="1320c-106">The domain can be the root-level domain (for example, contoso.com) if you want to enable XMPP for your entire domain, or can be selected child domains (for example, corp.contoso.com, finance.contoso.com) if you are enabling XMPP for a subset of users.</span></span>
 
 <div>
 
-## <a name="certificate-summary-for-extensible-messaging-and-presence-protocol"></a><span data-ttu-id="30595-107">可延伸訊息和顯示狀態通訊協定的憑證摘要</span><span class="sxs-lookup"><span data-stu-id="30595-107">Certificate Summary for Extensible Messaging and Presence Protocol</span></span>
+## <a name="certificate-summary-for-extensible-messaging-and-presence-protocol"></a><span data-ttu-id="1320c-107">可延伸訊息和顯示狀態通訊協定的憑證摘要</span><span class="sxs-lookup"><span data-stu-id="1320c-107">Certificate Summary for Extensible Messaging and Presence Protocol</span></span>
 
 
 <table>
@@ -53,21 +53,21 @@ ms.locfileid: "42135330"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="30595-108">元件</span><span class="sxs-lookup"><span data-stu-id="30595-108">Component</span></span></th>
-<th><span data-ttu-id="30595-109">主體名稱</span><span class="sxs-lookup"><span data-stu-id="30595-109">Subject name</span></span></th>
-<th><span data-ttu-id="30595-110">主體替代名稱 (SAN)/順序</span><span class="sxs-lookup"><span data-stu-id="30595-110">Subject alternative names (SAN)/Order</span></span></th>
-<th><span data-ttu-id="30595-111">註解</span><span class="sxs-lookup"><span data-stu-id="30595-111">Comments</span></span></th>
+<th><span data-ttu-id="1320c-108">元件</span><span class="sxs-lookup"><span data-stu-id="1320c-108">Component</span></span></th>
+<th><span data-ttu-id="1320c-109">主體名稱</span><span class="sxs-lookup"><span data-stu-id="1320c-109">Subject name</span></span></th>
+<th><span data-ttu-id="1320c-110">主體替代名稱 (SAN)/順序</span><span class="sxs-lookup"><span data-stu-id="1320c-110">Subject alternative names (SAN)/Order</span></span></th>
+<th><span data-ttu-id="1320c-111">註解</span><span class="sxs-lookup"><span data-stu-id="1320c-111">Comments</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="30595-112">指派給 Access Edge service 之 Edge Server 或 Edge 集區</span><span class="sxs-lookup"><span data-stu-id="30595-112">Assign to Access Edge service of Edge Server or Edge pool</span></span></p></td>
-<td><p><span data-ttu-id="30595-113">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="30595-113">sip.contoso.com</span></span></p></td>
-<td><p><span data-ttu-id="30595-114">webcon.contoso.com</span><span class="sxs-lookup"><span data-stu-id="30595-114">webcon.contoso.com</span></span></p>
-<p><span data-ttu-id="30595-115">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="30595-115">sip.contoso.com</span></span></p>
-<p><span data-ttu-id="30595-116">sip.fabrikam.com</span><span class="sxs-lookup"><span data-stu-id="30595-116">sip.fabrikam.com</span></span></p>
-<p><span data-ttu-id="30595-117">contoso.com</span><span class="sxs-lookup"><span data-stu-id="30595-117">contoso.com</span></span></p></td>
-<td><p><span data-ttu-id="30595-118">前三個 SAN 項目是完整的 Edge server 的一般 SAN 項目。</span><span class="sxs-lookup"><span data-stu-id="30595-118">The first three SAN entries are the normal SAN entries for a full Edge Server.</span></span> <span data-ttu-id="30595-119">contoso.com 是在根網域層級與 XMPP 協力廠商同盟的必要項目。</span><span class="sxs-lookup"><span data-stu-id="30595-119">The contoso.com is the entry required for federation with the XMPP partner at the root domain level.</span></span> <span data-ttu-id="30595-120">這個項目會允許 XMPP 具有尾碼 contoso.com 的所有網域。</span><span class="sxs-lookup"><span data-stu-id="30595-120">This entry will allow XMPP for all domains with the suffix contoso.com.</span></span></p></td>
+<td><p><span data-ttu-id="1320c-112">指派給 Access Edge service 之 Edge Server 或 Edge 集區</span><span class="sxs-lookup"><span data-stu-id="1320c-112">Assign to Access Edge service of Edge Server or Edge pool</span></span></p></td>
+<td><p><span data-ttu-id="1320c-113">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="1320c-113">sip.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="1320c-114">webcon.contoso.com</span><span class="sxs-lookup"><span data-stu-id="1320c-114">webcon.contoso.com</span></span></p>
+<p><span data-ttu-id="1320c-115">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="1320c-115">sip.contoso.com</span></span></p>
+<p><span data-ttu-id="1320c-116">sip.fabrikam.com</span><span class="sxs-lookup"><span data-stu-id="1320c-116">sip.fabrikam.com</span></span></p>
+<p><span data-ttu-id="1320c-117">contoso.com</span><span class="sxs-lookup"><span data-stu-id="1320c-117">contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="1320c-118">前三個 SAN 項目是完整的 Edge server 的一般 SAN 項目。</span><span class="sxs-lookup"><span data-stu-id="1320c-118">The first three SAN entries are the normal SAN entries for a full Edge Server.</span></span> <span data-ttu-id="1320c-119">contoso.com 是在根網域層級與 XMPP 協力廠商同盟的必要項目。</span><span class="sxs-lookup"><span data-stu-id="1320c-119">The contoso.com is the entry required for federation with the XMPP partner at the root domain level.</span></span> <span data-ttu-id="1320c-120">這個項目會允許 XMPP 具有尾碼 contoso.com 的所有網域。</span><span class="sxs-lookup"><span data-stu-id="1320c-120">This entry will allow XMPP for all domains with the suffix contoso.com.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -77,18 +77,18 @@ ms.locfileid: "42135330"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="30595-121">另請參閱</span><span class="sxs-lookup"><span data-stu-id="30595-121">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="1320c-121">另請參閱</span><span class="sxs-lookup"><span data-stu-id="1320c-121">See Also</span></span>
 
 
-[<span data-ttu-id="30595-122">Lync Server 2013 – 與 Google Talk 的 XMPP 同盟中 XMPP 設定範例</span><span class="sxs-lookup"><span data-stu-id="30595-122">Example XMPP configuration in Lync Server 2013 – XMPP federation with Google Talk</span></span>](lync-server-2013-example-xmpp-configuration-–-xmpp-federation-with-google-talk.md)  
+[<span data-ttu-id="1320c-122">Lync Server 2013 – 與 Google Talk 的 XMPP 同盟中 XMPP 設定範例</span><span class="sxs-lookup"><span data-stu-id="1320c-122">Example XMPP configuration in Lync Server 2013 – XMPP federation with Google Talk</span></span>](lync-server-2013-example-xmpp-configuration-–-xmpp-federation-with-google-talk.md)  
 
 
-[<span data-ttu-id="30595-123">Lync Server 2013 中的 Edge Server 憑證計劃</span><span class="sxs-lookup"><span data-stu-id="30595-123">Plan for Edge Server certificates in Lync Server 2013</span></span>](lync-server-2013-plan-for-edge-server-certificates.md)  
+[<span data-ttu-id="1320c-123">Lync Server 2013 中的 Edge Server 憑證計劃</span><span class="sxs-lookup"><span data-stu-id="1320c-123">Plan for Edge Server certificates in Lync Server 2013</span></span>](lync-server-2013-plan-for-edge-server-certificates.md)  
 
 
-[<span data-ttu-id="30595-124">設定 Lync Server 2013 的邊緣憑證</span><span class="sxs-lookup"><span data-stu-id="30595-124">Set up Edge certificates for Lync Server 2013</span></span>](lync-server-2013-set-up-edge-certificates.md)  
-[<span data-ttu-id="30595-125">Request-cscertificate</span><span class="sxs-lookup"><span data-stu-id="30595-125">Request-CsCertificate</span></span>](https://docs.microsoft.com/powershell/module/skype/Request-CsCertificate)  
-[<span data-ttu-id="30595-126">Set-cscertificate</span><span class="sxs-lookup"><span data-stu-id="30595-126">Set-CsCertificate</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsCertificate)  
+[<span data-ttu-id="1320c-124">設定 Lync Server 2013 的邊緣憑證</span><span class="sxs-lookup"><span data-stu-id="1320c-124">Set up Edge certificates for Lync Server 2013</span></span>](lync-server-2013-set-up-edge-certificates.md)  
+[<span data-ttu-id="1320c-125">Request-cscertificate</span><span class="sxs-lookup"><span data-stu-id="1320c-125">Request-CsCertificate</span></span>](https://docs.microsoft.com/powershell/module/skype/Request-CsCertificate)  
+[<span data-ttu-id="1320c-126">Set-cscertificate</span><span class="sxs-lookup"><span data-stu-id="1320c-126">Set-CsCertificate</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsCertificate)  
   
 
 </div>

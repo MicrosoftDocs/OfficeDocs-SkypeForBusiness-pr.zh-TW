@@ -12,20 +12,20 @@ ms:contentKeyID: 48184569
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 107bc5f9b39b1d62db0cba6960b60307c82831fb
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: b260347eaf1642c9ff86c347539439e50de179b9
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42147046"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42187206"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="appendix-a-using-cmdlets-to-deploy-a-survivable-branch-appliance-in-lync-server-2013"></a><span data-ttu-id="c626d-102">附錄 a： 使用 cmdlet 部署 Survivable Branch Appliance Lync Server 2013 中</span><span class="sxs-lookup"><span data-stu-id="c626d-102">Appendix A: Using cmdlets to deploy a Survivable Branch Appliance in Lync Server 2013</span></span>
+# <a name="appendix-a-using-cmdlets-to-deploy-a-survivable-branch-appliance-in-lync-server-2013"></a><span data-ttu-id="c8ab9-102">附錄 a： 使用 cmdlet 部署 Survivable Branch Appliance Lync Server 2013 中</span><span class="sxs-lookup"><span data-stu-id="c8ab9-102">Appendix A: Using cmdlets to deploy a Survivable Branch Appliance in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "42147046"
 
 <span> </span>
 
-<span data-ttu-id="c626d-103">_**主題上次修改日期：** 2012年-10-07_</span><span class="sxs-lookup"><span data-stu-id="c626d-103">_**Topic Last Modified:** 2012-10-07_</span></span>
+<span data-ttu-id="c8ab9-103">_**主題上次修改日期：** 2012年-10-07_</span><span class="sxs-lookup"><span data-stu-id="c8ab9-103">_**Topic Last Modified:** 2012-10-07_</span></span>
 
-<span data-ttu-id="c626d-104">本主題說明如何部署 Survivable Branch Appliance 使用 Lync Server 管理命令介面。</span><span class="sxs-lookup"><span data-stu-id="c626d-104">This topic describes how to deploy a Survivable Branch Appliance using the Lync Server Management Shell.</span></span> <span data-ttu-id="c626d-105">請在中央網站執行這項程序。</span><span class="sxs-lookup"><span data-stu-id="c626d-105">Perform this procedure at the central site.</span></span>
+<span data-ttu-id="c8ab9-104">本主題說明如何部署 Survivable Branch Appliance 使用 Lync Server 管理命令介面。</span><span class="sxs-lookup"><span data-stu-id="c8ab9-104">This topic describes how to deploy a Survivable Branch Appliance using the Lync Server Management Shell.</span></span> <span data-ttu-id="c8ab9-105">請在中央網站執行這項程序。</span><span class="sxs-lookup"><span data-stu-id="c8ab9-105">Perform this procedure at the central site.</span></span>
 
 <div>
 
-## <a name="to-deploy-a-survivable-branch-appliance-remotely"></a><span data-ttu-id="c626d-106">若要從遠端部署 Survivable Branch Appliance</span><span class="sxs-lookup"><span data-stu-id="c626d-106">To deploy a Survivable Branch Appliance remotely</span></span>
+## <a name="to-deploy-a-survivable-branch-appliance-remotely"></a><span data-ttu-id="c8ab9-106">若要從遠端部署 Survivable Branch Appliance</span><span class="sxs-lookup"><span data-stu-id="c8ab9-106">To deploy a Survivable Branch Appliance remotely</span></span>
 
-1.  <span data-ttu-id="c626d-107">請依照[將分支網站新增至您的拓樸，Lync Server 2013 中](lync-server-2013-add-branch-sites-to-your-topology.md)新增新的分支網站中的程序。</span><span class="sxs-lookup"><span data-stu-id="c626d-107">Follow the procedure in [Add branch sites to your topology in Lync Server 2013](lync-server-2013-add-branch-sites-to-your-topology.md) to add a new branch site.</span></span>
+1.  <span data-ttu-id="c8ab9-107">請依照[將分支網站新增至您的拓樸，Lync Server 2013 中](lync-server-2013-add-branch-sites-to-your-topology.md)新增新的分支網站中的程序。</span><span class="sxs-lookup"><span data-stu-id="c8ab9-107">Follow the procedure in [Add branch sites to your topology in Lync Server 2013](lync-server-2013-add-branch-sites-to-your-topology.md) to add a new branch site.</span></span>
 
-2.  <span data-ttu-id="c626d-108">將分支網站加入網域。</span><span class="sxs-lookup"><span data-stu-id="c626d-108">Join the branch site to the domain.</span></span>
+2.  <span data-ttu-id="c8ab9-108">將分支網站加入網域。</span><span class="sxs-lookup"><span data-stu-id="c8ab9-108">Join the branch site to the domain.</span></span>
 
-3.  <span data-ttu-id="c626d-109">將 RTCUniversalSBATechnicians 群組新增至本機 Administrators 群組。</span><span class="sxs-lookup"><span data-stu-id="c626d-109">Add the RTCUniversalSBATechnicians group to the local Administrators group.</span></span>
+3.  <span data-ttu-id="c8ab9-109">將 RTCUniversalSBATechnicians 群組新增至本機 Administrators 群組。</span><span class="sxs-lookup"><span data-stu-id="c8ab9-109">Add the RTCUniversalSBATechnicians group to the local Administrators group.</span></span>
 
-4.  <span data-ttu-id="c626d-110">重新啟動伺服器，然後以 RTCUniversalSBATechnicians 群組成員的身分登入。</span><span class="sxs-lookup"><span data-stu-id="c626d-110">Restart the server, and log on to it as a member of the RTCUniversalSBATechnicians group.</span></span>
+4.  <span data-ttu-id="c8ab9-110">重新啟動伺服器，然後以 RTCUniversalSBATechnicians 群組成員的身分登入。</span><span class="sxs-lookup"><span data-stu-id="c8ab9-110">Restart the server, and log on to it as a member of the RTCUniversalSBATechnicians group.</span></span>
 
-5.  <span data-ttu-id="c626d-111">在 Lync Server 管理命令介面中，輸入下列命令，預留位置取代為您的組織的正確資訊：</span><span class="sxs-lookup"><span data-stu-id="c626d-111">In the Lync Server Management Shell, type the following commands, replacing the placeholders with the correct information for your organization:</span></span>
+5.  <span data-ttu-id="c8ab9-111">在 Lync Server 管理命令介面中，輸入下列命令，預留位置取代為您的組織的正確資訊：</span><span class="sxs-lookup"><span data-stu-id="c8ab9-111">In the Lync Server Management Shell, type the following commands, replacing the placeholders with the correct information for your organization:</span></span>
     
         Export-CsConfiguration -FileName C:\CSConfig.zip
         Import-CsConfiguration -LocalStore -FileName C:\CSConfig.zip -Verbose
