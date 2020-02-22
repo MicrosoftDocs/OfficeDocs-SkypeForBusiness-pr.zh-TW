@@ -13,16 +13,16 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 本文討論如何使用 Microsoft 團隊聊天室的 [恢復工具]，讓您用來將已過期的系統變成受支援的狀態。
-ms.openlocfilehash: 452f5d9d15375bec7ac25c07c865add8a01b0345
-ms.sourcegitcommit: ac922addbc1422b5c41273a2e03196efb2ed7770
+ms.openlocfilehash: 755a85c9013d160197c8a8d57f74ef18b207e052
+ms.sourcegitcommit: 3d393ceded4d64963411cfdc96931952d480ded5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41831175"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42225277"
 ---
 # <a name="use-the-microsoft-teams-rooms-recovery-tool"></a>使用 Microsoft 團隊會議室恢復工具
 
-本文討論如何使用 Microsoft 團隊聊天室的 [恢復工具]，讓您用來將已過期的系統變成受支援的狀態。 當 Microsoft 團隊聊天室主控台顯示「系統組態已過期」錯誤，或在執行推播按鈕重設[factory 還原](https://docs.microsoft.com/microsoftteams/room-systems/rooms-operations#microsoft-teams-rooms-reset-factory-restore)之前，應該套用此工具。
+本文討論如何使用 Microsoft 團隊聊天室的 [恢復工具]，讓您用來將已過期的系統變成受支援的狀態。 當 Microsoft 團隊聊天室主控台顯示「系統組態已過期」錯誤，或在執行推播按鈕重設[factory 還原](https://docs.microsoft.com/microsoftteams/rooms/rooms-operations#microsoft-teams-rooms-reset-factory-restore)之前，應該套用此工具。
 
 ## <a name="prerequisites"></a>先決條件
 
