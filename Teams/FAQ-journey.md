@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6ccea644ba1f1221d412d73e6488e8610ca02857
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: a2b051efa327a014bc719753e7aecae81f78e0f4
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834493"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42160380"
 ---
 # <a name="faq--upgrading-from-skype-for-business-to-microsoft-teams"></a>常見問題 - 從商務用 Skype 升級至 Microsoft Teams
 
@@ -82,7 +82,7 @@ Teams 可以在 Office 365 套件中取得。 目前在商務用 Skype Online �
 
 ### <a name="how-does-the-skype-for-business-online-retirement-announcement-affect-organizations-with-hybrid-configurations-skype-for-business-online-and-skype-for-business-server"></a>商務用 Skype Online 停用宣告會如何影響使用混合式組態 (商務用 Skype Online 和商務用 Skype Server) 的組織？
 
-使用線上和內部部署組態的混合式客戶，需要在 2021 年 7 月 31 日的停用日期之前，將使用者從商務用 Skype Online 轉換至 Microsoft Teams。 在停用商務用 Skype Online 之後，針對共存和互通性原則所建置的混合式組態升級路徑將會保留。 
+使用線上和內部部署組態的混合式客戶，需要在 2021 年 7 月 31 日的停用日期之前，將使用者從商務用 Skype Online 轉換至 Microsoft Teams。 在停用商務用 Skype Online 之後，針對共存和互通性原則所建置的混合式組態升級路徑將會保留。 如需詳細資訊，請參閱[與商務用Skype 共存](coexistence-chat-calls-presence.md)和[了解 Microsoft Teams 和商務用 Skype 的共存和互通性](teams-and-skypeforbusiness-coexistence-and-interoperability.md)。
 
 我們鼓勵擁有合格訂閱的客戶參與 [FastTrack](https://fasttrack.microsoft.com/)，以取得 Teams 上線協助。
 
