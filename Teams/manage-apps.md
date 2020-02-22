@@ -17,12 +17,12 @@ description: 瞭解如何在 Microsoft 團隊系統管理中心的 [管理應用
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: ab00f4ee445a5711a272ed5b4e2eea104012a7bd
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: 41d75d492cf8351f1f925713054ccf4be4d8725d
+ms.sourcegitcommit: 7093388425b34c80e444a50d062290187b80047d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42161895"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "42229913"
 ---
 <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>在 Microsoft 團隊系統管理中心管理您的應用程式
 ======================================================
@@ -53,9 +53,13 @@ ms.locfileid: "42161895"
 
 ## <a name="upload-a-new-app"></a>上傳新的應用程式
 
-若要將新的自訂應用程式上傳到您的租使用者應用程式目錄，請按一下 **[上傳新應用程式**]，以 .zip 格式上傳您的 應用程式在上傳後不會醒目提示，因此您需要搜尋您的租使用者目錄來尋找它。
+您可以使用您的 [應用程式目錄] 來測試及發佈專為貴組織建立的業務線應用程式。 團隊應用程式套件是使用[團隊 App Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio)建立的。 當您有應用程式套件時，您可以將它新增到您的 [應用程式目錄]。 雖然貴組織中的所有使用者都可以查看應用程式目錄，但只有全域管理員和團隊服務系統管理員可以發佈及管理它。
 
-您也可以[使用小組桌面用戶端](tenant-apps-catalog-teams.md#go-to-the-tenant-app-catalog)來上傳 app。 若要深入瞭解，請參閱[在團隊中管理您的商務用應用程式](manage-your-lob-apps.md)。
+若要將新的自訂應用程式上傳到您的租使用者應用程式目錄，請按一下 **[上傳新應用程式**]，以 .zip 格式上傳您的 應用程式在上傳後不會醒目提示，因此您需要搜尋您的應用程式目錄來尋找它。
+
+若要在上傳應用程式後進行更新，請在 [**管理應用**程式] 頁面上的應用程式清單中，按一下應用程式名稱，然後按一下 [**更新**]。 這麼做會取代應用程式目錄中的現有應用程式，以及所有應用程式許可權原則，以及 app 設定原則，都會針對更新的應用程式繼續執行。
+
+若要深入瞭解，請參閱[在團隊中管理您的商務用應用程式](manage-your-lob-apps.md)。
 
 ## <a name="allow-and-block-apps"></a>允許及封鎖應用程式
 

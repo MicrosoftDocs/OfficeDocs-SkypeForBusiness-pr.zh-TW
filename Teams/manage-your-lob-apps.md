@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何將自訂團隊 app 從開發開發到部署。
-ms.openlocfilehash: 070b0ecbf0ccc9af798e1d3a3c689ce4d4ff4da2
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: f8c5a7dcc12bc9b3823285138d15a0ccdf11c52a
+ms.sourcegitcommit: 7093388425b34c80e444a50d062290187b80047d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42161804"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "42229933"
 ---
 # <a name="manage-your-line-of-business-apps-in-microsoft-teams"></a>在 Microsoft 團隊中管理您的商務用應用程式
 
@@ -101,13 +101,7 @@ Microsoft 使用<a href="https://docs.microsoft.com/microsoftteams/platform/publ
 
 ## <a name="step-3-upload-to-the-tenant-app-catalog"></a>步驟3：上傳至租使用者應用程式目錄
 
-若要讓租使用者 app store 中的使用者使用該應用程式，請上傳 app。 您可以<a href="https://docs.microsoft.com/microsoftteams/tenant-apps-catalog-teams#go-to-the-tenant-apps-catalog" target="_blank">使用小組桌面用戶端</a>或 Microsoft 團隊系統管理中心的 [[管理應用程式](manage-apps.md)] 頁面來執行此動作。
-
-以下是 [團隊桌面用戶端] 中 [上傳] 選項的螢幕擷取畫面。
-
-![[應用程式] 頁面的螢幕擷取畫面](media/manage-your-lob-apps-store.png)
-
-以下是 Microsoft 團隊系統管理中心 [**管理應用程式**] 頁面上 [上傳] 選項的螢幕擷取畫面。
+若要讓租使用者 app store 中的使用者使用該應用程式，請上傳 app。 您可以在 Microsoft 團隊系統管理中心的 [[管理應用程式](manage-apps.md)] 頁面上執行此動作。
 
 ![系統管理中心 [管理應用程式] 頁面的螢幕擷取畫面](media/manage-your-lob-apps-upload-new-app.png)
 
@@ -131,6 +125,8 @@ Microsoft 使用<a href="https://docs.microsoft.com/microsoftteams/platform/publ
 
 若要更新應用程式，開發人員應該繼續遵循[步驟 1](#step-1-develop-and-test)和[步驟 2](#step-2-validate-in-production)。
 
-您可以透過租使用者應用程式目錄來更新應用程式。 若要這樣做，請在團隊桌面用戶端，移至**針對&lt;您的租&gt;使用者名稱所建的** **app** > ，按一下 **...** 按一下應用程式右上角的，然後按一下 [**更新**]。 這樣做會取代租使用者目錄中現有的 app，而且擁有權限原則和設定原則都會針對更新的 app 保持強制執行。 
+您可以透過租使用者應用程式目錄來更新應用程式。 若要這樣做，請在 Microsoft 團隊系統管理中心，移至 [**團隊 app** > **管理應用程式**]。 在應用程式清單中，按一下應用程式名稱，然後按一下 [**更新**]。 這樣做會取代租使用者目錄中現有的 app，而且所有 app 許可權原則和應用程式設定原則都會針對更新的 app 保持強制執行。
 
-![在 [應用程式] 頁面上更新應用程式的螢幕擷取畫面](media/manage-your-lob-apps-update-app.png)
+## <a name="related-apps"></a>相關應用程式
+
+- [在 Microsoft 團隊系統管理中心管理您的應用程式](manage-apps.md)

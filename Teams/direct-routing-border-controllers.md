@@ -17,12 +17,12 @@ hideEdit: true
 f1.keywords:
 - NOCSH
 description: Microsoft 合作夥伴與所選的 SBC 廠商合作，利用直接佈線來認證其 SBCs。
-ms.openlocfilehash: 3e442a2afd61c3d5c39ac8edc89fa128131ac468
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bc2d1fb1a0c7bcf550117c176e6f5d4f1b3068f3
+ms.sourcegitcommit: 7093388425b34c80e444a50d062290187b80047d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214409"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "42229881"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>通過直接路由認證的工作階段邊界控制器清單
 
@@ -53,15 +53,16 @@ Microsoft 與各個廠商搭配：
 |                                                                                                                     | Mediant 1000B SBC  |     &#10004;     |   擱置     |  7.20. 250  |    |    |    
 |                                                                                                                     | Mediant 9000 SBC  |     &#10004;     |   &#10004;     |  7.20. 250   |    |    |                                                                       
 |                                                                                                                     | 虛擬版 SBC |     &#10004;     |   &#10004;     |  7.20. 250 |    |    |    
-|  [功能區通訊](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5110       |     &#10004;     |   &#10004;    |       V 7。2       | <ul> <li>Intrado ERS </li> <li>Intrado EGW</li> <li> 紅天空地平線行動 </li> </ul> |   否 |    
-|                                                                                                                     |      SBC 5210       |     &#10004;     |  &#10004;    |       V 7。2       |  <ul> <li>Intrado ERS </li> <li>Intrado EGW</li> <li> 紅天空地平線行動 </li> </ul> | 否   |    
-|                                                                                                                     |      SBC 5400       |     &#10004;     |   &#10004;   |       V 7。2       |  <ul> <li>Intrado ERS </li> <li>Intrado EGW</li> <li> 紅天空地平線行動 </li> </ul>  |否|    
-|                                                                                                                     |      SBC 7000       |     &#10004;     |   &#10004;    |       V 7。2       |   <ul> <li>Intrado ERS </li> <li>Intrado EGW</li> <li> 紅天空地平線行動 </li> </ul> |  否  |    
-|                                                                                                                     |       SBC SWe       |     &#10004;     |   &#10004;   |       V 7。2       |   <ul> <li>Intrado ERS </li> <li>Intrado EGW</li> <li> 紅天空地平線行動 </li> </ul> |   否 |    
-|                                                                                                                     |      SBC 1000       |     &#10004;     |   &#10004;    |      v 8.0.3 （組建537）     |  <ul> <li> Intrado ERS </li> <li>Intrado EGW </li> </ul>   |         |    
-|                                                                                                                     |      SBC 2000       |     &#10004;     |   &#10004;   |     v 8.0.3 （組建537）     |  <ul> <li> Intrado ERS </li> <li>Intrado EGW </li> </ul>   |           |    
-|                                                                                                                     |    SBC SWe Lite     |     &#10004;     |  &#10004;    |      v 8.0.3 （組建216）    |  <ul> <li> Intrado ERS </li> <li>Intrado EGW </li> </ul>    |           |    
-|                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    思考 365 SBC    |     &#10004;     |           |       V 1。4       |     |    |    
+|  [功能區通訊](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5110       |     &#10004;     |   &#10004;    |       7.2       | <ul> <li>Intrado ERS </li> <li>Intrado EGW</li> <li> 紅天空地平線行動 </li> </ul> |   否 |    
+|                                                                                                                     |      SBC 5210       |     &#10004;     |  &#10004;    |       7.2       |  <ul> <li>Intrado ERS </li> <li>Intrado EGW</li> <li> 紅天空地平線行動 </li> </ul> | 否   |    
+|                                                                                                                     |      SBC 5400       |     &#10004;     |   &#10004;   |       7.2       |  <ul> <li>Intrado ERS </li> <li>Intrado EGW</li> <li> 紅天空地平線行動 </li> </ul>  |否|    
+|                                                                                                                     |      SBC 7000       |     &#10004;     |   &#10004;    |       7.2       |   <ul> <li>Intrado ERS </li> <li>Intrado EGW</li> <li> 紅天空地平線行動 </li> </ul> |  否  |    
+|                                                                                                                     |       SBC SWe       |     &#10004;     |   &#10004;   |       7.2       |   <ul> <li>Intrado ERS </li> <li>Intrado EGW</li> <li> 紅天空地平線行動 </li> </ul> |   否 |    
+|                                                                                                                     |      SBC 1000       |     &#10004;     |   &#10004;    |      8.0.3 （組建537）     |  <ul> <li> Intrado ERS </li> <li>Intrado EGW </li> </ul>   |         |    
+|                                                                                                                     |      SBC 2000       |     &#10004;     |   &#10004;   |     8.0.3 （組建537）     |  <ul> <li> Intrado ERS </li> <li>Intrado EGW </li> </ul>   |           |    
+|                                                                                                                     |    SBC SWe Lite     |     &#10004;     |  &#10004;    |      8.0.3 （組建216）    |  <ul> <li> Intrado ERS </li> <li>Intrado EGW </li> </ul>    |           |   
+| | Edgemarc 數列 |  &#10004; | | 15.6.1 | 
+|                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    思考 365 SBC    |     &#10004;     |        擱置   |       V 1。4       |     |    |    
 |                     [聯手](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 1100      |    &#10004;     |    &#10004;    |   8.3.0.0.1 |   <ul> <li> Intrado ERS </li> <li>Intrado EGW </li> </ul>   |    |    
 |                                                                                                                    |    AP 3900           |    &#10004;     |    &#10004;   |   8.3.0.0.1  |  <ul> <li> Intrado ERS </li> <li>Intrado EGW </li> </ul>  |    |    
 |                                                                                                                    |      AP 4600         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |   <ul> <li> Intrado ERS </li> <li>Intrado EGW </li> </ul>  |    |    
