@@ -17,12 +17,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 535c34bd19a2f019d1b9dc07718cf20d5da2f98e
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 9c2ef9f509f64e044567d9286704458b4dc91596
+ms.sourcegitcommit: 7093388425b34c80e444a50d062290187b80047d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826951"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "42229898"
 ---
 # <a name="apps-bots--connectors-in-microsoft-teams"></a>Microsoft Teams 中的應用程式、Bot 和連接器
 
@@ -57,7 +57,7 @@ Teams 提供數個由 Microsoft 發行的應用程式和第三方應用程式，
 
 | 問問自己 | 動作 |
 |--------------|--------|
-|<br>我想允許哪些應用程式的存取權？ 我不想允許哪些應用程式的存取權？  | <ul><li>如需在允許應用程式、Bot、索引標籤或連接器的存取權時應考慮的事項清單，請參閱 [Microsoft Teams 應用程式權限和考量事項](app-permissions.md)。</li><li>如需提供應用程式讓組織的使用者使用的相關資訊，請參閱 [在 Teams 租用戶應用程式目錄中發佈應用程式](tenant-apps-catalog-teams.md)。</li></ul>|
+|<br>我想允許哪些應用程式的存取權？ 我不想允許哪些應用程式的存取權？  | <ul><li>如需在允許應用程式、Bot、索引標籤或連接器的存取權時應考慮的事項清單，請參閱 [Microsoft Teams 應用程式權限和考量事項](app-permissions.md)。</li><li>如需提供應用程式讓貴組織的使用者使用的相關資訊，請參閱[在 Microsoft Teams 系統管理中心管理您的應用程式](manage-apps.md)。</li></ul>|
 |||
 
 ### <a name="bots-for-private-chats-and-channels"></a>適用於私人聊天和頻道的 Bot
