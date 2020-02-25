@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何在 Microsoft 團隊中使用和管理私人頻道。
-ms.openlocfilehash: 45d05f2dd726b340ac79ac11810d23d00c8b3e9d
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 761d6a06da6bb02991e706f6e18ac8ce7d4106f4
+ms.sourcegitcommit: bb88ac0c9489bb47957e5ef1074b5df3126b6fdb
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837313"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "42265628"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft 團隊中的私人頻道
 
@@ -60,7 +60,7 @@ Microsoft 團隊中的私人頻道會在您的小組中建立焦點空間，共�
 |是     |否         |否         |在現有團隊中建立頻道。         |
 |否     |否         |否         |考慮建立新團隊。         |
 |否     |否         |是         |考慮建立新的團隊，然後根據每個主題的機密性，考慮為每一個主題建立個別的標準或私人頻道。         |
-|否     |是         |否         |在現有團隊中建立新團隊或建立新的專用頻道。         |
+|否     |是         |否         |建立新團隊，並考慮建立私人頻道。         |
 
 建立私人頻道之後，該頻道就會連結至上層小組，而且不能移至不同的小組。 此外，無法將專用通道轉換成標準通道，反之亦然。
 

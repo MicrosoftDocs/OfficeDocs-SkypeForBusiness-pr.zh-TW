@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7f49626f6526fe05aed81f39574a094347e0a3ae
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 68bd92067bffc2ed88e8a9d44e228ce442021b29
+ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834523"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42236673"
 ---
 <a name="environmental-discovery-for-a-microsoft-teams-rollout"></a>Microsoft 團隊推出的環境探索
 ===================================================
@@ -31,8 +31,7 @@ ms.locfileid: "41834523"
 
 您可以對您的環境執行詳細的探索，以更清楚地瞭解其目前狀態，並揭示任何困難或甚至進一步，也就是可能的封鎖程式可執行您的小組推出。
 
-<a name="discovery-questionnaire"></a>探索問卷
-=======================
+## <a name="discovery-questionnaire"></a>探索問卷
 
 下面的範例問卷會逐步引導您完成一組問題，確認貴組織已準備好使用團隊中的通話方案功能成功推出音訊會議和電話系統。
 

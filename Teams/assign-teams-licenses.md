@@ -16,12 +16,12 @@ ms.reviewer: mikedav
 description: 瞭解如何指派音訊會議、電話系統和通話方案等功能的授權。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 46ae5952d79f3f0ef0a6137b240661550ecead00
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 9d75201b7be82337898d4e9fe4feafb4de1155a9
+ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888682"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42236833"
 ---
 # <a name="assign-microsoft-teams-licenses"></a>指派 Microsoft 團隊授權
 
@@ -107,14 +107,6 @@ for each ($user in $users)
 | 國內通話方案（每個國家/地區每個使用者/月的120分鐘） </br>*注意：此方案不適用於我們*。 | MCOPSTN5 |
 | 國內通話方案（每個國家/地區每個使用者/月的240分鐘） </br>*注意：此方案不適用於我們*。 | MCOPSTN6 |
 | 通訊點數 | MCOPSTNPP | 
-
-## <a name="audio-conferencing-tips-and-scripts-for-assigning-licenses"></a>音訊會議：指派授權的秘訣與腳本
-
-以下是指派音訊會議授權前需要注意的事項。
-
-- **協力廠商音訊會議提供者**：如果某人已設定為使用協力廠商音訊會議提供者，當您指派音訊會議授權時，系統會將其變更為使用 Microsoft 作為音訊會議提供者。 您可以將它們變更回協力廠商提供者。
-
-- **後續步驟**：指派音訊會議授權之後，您需要指派音訊會議提供者。 請參閱[將 Microsoft 指派為音訊會議提供者](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)。
 
 ## <a name="assign-an-audio-conferencing-license-to-one-user"></a>將音訊會議授權指派給一名使用者
 

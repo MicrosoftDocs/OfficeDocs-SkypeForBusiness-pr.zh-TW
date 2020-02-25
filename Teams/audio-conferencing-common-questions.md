@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 以下是我們從我們想要使用音訊會議的客戶所取得的主要問題。
-ms.openlocfilehash: bc8ec039cff2be47f0912f2e52bbdb56ce694a4e
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: e542d728ae95ddb35532fbb8cabfa61e3b93caa3
+ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826301"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42236843"
 ---
 # <a name="audio-conferencing-common-questions"></a>音訊會議的常見問題
 
@@ -81,7 +81,7 @@ ms.locfileid: "41826301"
 |:-----|:-----|
 |有一些使用者已使用商務用 Skype 或 Microsoft 團隊 app 進行加入，或已撥入會議。  <br/> |如果在24小時後沒有任何出席者清單的變更，會議就會結束。  <br/> |
 |所有使用者都已撥入會議，但有人使用 PIN 進入會議。  <br/> |會議會在24小時後結束。  <br/> |
-|所有使用者都是以撥入方式參與會議，但沒有任何人使用 PIN 進入會議。  <br/> |會議會在4小時後結束。  <br/> |
+|所有使用者都是以撥入方式參與會議，但沒有任何人使用 PIN 進入會議。  <br/> | 如果允許匿名使用者開始會議，會議會在4小時後結束。 如果匿名使用者無法啟動會議，且所有經過驗證的參與者都離開會議，會議將于最後一次驗證參與者留下的90分鐘結束。 <br/> |
    
 ## <a name="how-many-total-phone-participants-can-i-have-in-meetings"></a>我可以在會議中使用多少總的電話參與者？
 

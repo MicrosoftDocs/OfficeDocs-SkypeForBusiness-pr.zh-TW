@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 請閱讀本主題，以瞭解如何使用手機系統直接路由規劃媒體旁路。
-ms.openlocfilehash: 7c7d82d1ac13ec1612403ba5fd20471e72173122
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c40840e2169a67172f006a0f0910c715feb40253
+ms.sourcegitcommit: bb88ac0c9489bb47957e5ef1074b5df3126b6fdb
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214482"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "42265638"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>媒體旁路搭配直接路由方案
 
@@ -137,7 +137,7 @@ Microsoft 雲端中有兩個元件可位於媒體流量的路徑：媒體處理�
 在媒體路徑中，讓使用者略過來電 | 任何 | 如果用戶端無法在公用 IP 位址上到達 SBC | 
 在語音應用程式的媒體路徑中 | 總會 | 任何 | 
 可以執行轉碼（B2BUA）\* | 是 | 否，只在端點之間中繼音訊 | 
-全球和位置的實例數 | 總共8個：美國東和西部為2。在阿姆斯特丹和都柏林中為2，2在香港與新加坡中;日本中的2（在 Q1CY2019 中新增）  | 條
+全球和位置的實例數 | 總共8個：美國東和西部為2。在阿姆斯特丹和都柏林中為2，2在香港與新加坡中;日文中的2  | 條
 
 IP 範圍是 52.112.0.0/14 （從52.112.0.1 到52.115.255.254 的 IP 位址）。 
 

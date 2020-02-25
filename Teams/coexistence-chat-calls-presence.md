@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 本檔說明在團隊與商務用 Skype （在租使用者中，根據指派的 TeamsUpgrade 模式）進行的聊天、呼叫路由與目前狀態的行為。 它包含路由優化、目前狀態行為，以及將預設 TeamsUpgrade 模式從*舊版*變更為*孤島*，以及即將停用*舊版*。
-ms.openlocfilehash: 1a4a9f4c08da3e89324eb44551c0002931cee714
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 442b4b68b9739d9d17d02e298b53c5d9ecec3c8f
+ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050115"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42236823"
 ---
 # <a name="coexistence-with-skype-for-business"></a>與商務用 Skype 共存
 
@@ -58,9 +58,9 @@ ms.locfileid: "42050115"
 > [!NOTE]
 > 目前，涉及團隊的所有同盟都利用商務用 Skype 同盟管線以及團隊-商務用 Skype 互通性。 我們正在規劃原生團隊–團隊同盟。 在發行原生同盟時，會更新目前的檔。
 
-# <a name="chat-and-call-routing"></a>聊天和通話路由
+## <a name="chat-and-call-routing"></a>聊天和通話路由
 
-## <a name="in-tenant-routing-for-new-chats-or-calls"></a>新聊天或通話的租使用者內路由 
+### <a name="in-tenant-routing-for-new-chats-or-calls"></a>新聊天或通話的租使用者內路由 
 
 下表會捕獲受租使用者的聊天和通話的路由，而且對於不是從預先存在的執行緒開始的新通話或聊天而言，都是有效的。 它描述哪個用戶端會收到新的通話或聊天（如果左側的使用者產生）至右側的租使用者收件者。
 
@@ -102,7 +102,7 @@ ms.locfileid: "42050115"
 |TeamsOnly  | Teams | Online |  &boxv; |Teams   |
 |  |  |  | | |
 
-## <a name="federated-routing-for-new-chats-or-calls"></a>新聊天或通話的聯盟路由
+### <a name="federated-routing-for-new-chats-or-calls"></a>新聊天或通話的聯盟路由
   
 下表會捕獲同盟通話與聊天的路由，且適用于新的通話或聊天。 它們說明哪個用戶端會收到新的通話或聊天（如果是由左邊的使用者發起）到右側的聯盟目標使用者。
 
@@ -157,14 +157,14 @@ ms.locfileid: "42050115"
 
 商務用 Skype 執行緒不會保留在10分鐘的 SIP 會話超時以外。 在 SIP 會話到期前，在商務用 Skype 中，來自現有線程的聊天和呼叫將會以與執行緒相同的方式進行路由。 除了 SIP 會話超時之外，在商務用 Skype 中，來自現有的執行緒的通話和聊天，都將路由到遠端參與方的商務用 Skype，不論原始執行緒是來自其他人的那一方。
 
-## <a name="availability"></a>供應
+### <a name="availability"></a>供應
 
 上述所述的租使用者與同盟行為都提供，且有下列限制：
 
 - 租使用者位於不同 GoLocal 部署或地理位置的外部參與者在「同盟」會議中不會看到 IM 聊天
 - 不支援多租戶 O365 與主權雲彩之間的同盟與互通性
 
-# <a name="presence"></a>目前狀態
+## <a name="presence"></a>目前狀態
 
 當您有部分使用者使用團隊用戶端，而其他使用者仍在使用商務用 Skype 用戶端時，您可能會有許多使用這兩個用戶端的使用者。 您仍想要與所有使用者共用目前狀態狀態，而不需考慮個別使用者所擁有的用戶端。 在組織中共用這種情況時，使用者可以更好地判斷是否適合啟動聊天或撥打通話。
 
@@ -180,7 +180,7 @@ ms.locfileid: "42050115"
     * 在商務用 Skype 中，任何其他使用者都會看到孤島使用者的商務用 Skype 目前狀態（在租使用者與同盟中）;這與上述路由表對齊
 
 
-## <a name="in-tenant-presence"></a>租使用者狀態
+### <a name="in-tenant-presence"></a>租使用者狀態
 
 傳送給 TeamsOnly 使用者的郵件將永遠位於小組中。 傳送給 SfB\*使用者的郵件永遠會在商務用 Skype 中保持居住，如果可以進行交談，如上述所述。 傳送給孤島使用者的訊息將永遠位於其起源的用戶端。
 
@@ -194,7 +194,7 @@ ms.locfileid: "42050115"
 |Teams |&boxv; |Teams |商務用 Skype |Teams |
 | | | | |
 
-## <a name="federated-presence"></a>同盟目前狀態
+### <a name="federated-presence"></a>同盟目前狀態
 
 同盟目前狀態是以表格2所示的同盟可存取性為基礎。
 
@@ -208,7 +208,7 @@ ms.locfileid: "42050115"
 |Teams | &boxv;|商務用 Skype |商務用 Skype |Teams|
 | | | | ||
 
-## <a name="presence-in-pre-existing-threads"></a>在預先存在的執行緒中的目前狀態
+### <a name="presence-in-pre-existing-threads"></a>在預先存在的執行緒中的目前狀態
 
 為了在預先存在的執行緒中對齊目前狀態和可存取性，該執行緒中公開的目前狀態必須與執行緒路由（假設路由可能）對齊。
 

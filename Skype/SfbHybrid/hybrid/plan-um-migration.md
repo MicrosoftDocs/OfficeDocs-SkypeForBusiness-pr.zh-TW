@@ -11,16 +11,16 @@ ms.topic: article
 localization_priority: Normal
 ms.prod: skype-for-business-itpro
 description: 本主題涵蓋您需要考慮當您決定要將資料移轉您現有的 Skype for Business Server 或 Exchange Server 部署的最新版本或 Skype for Business Online 或 Exchange Online。
-ms.openlocfilehash: 072720499ac91942d5f1fdbdbe05fffe2de4db05
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ce2e0712c75e5aa052c7eff7667f09ff34c3908a
+ms.sourcegitcommit: bb88ac0c9489bb47957e5ef1074b5df3126b6fdb
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755997"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "42265608"
 ---
 # <a name="plan-for-skype-for-business-server-and-exchange-server-migration"></a>規劃 Skype for Business Server 與 Exchange Server 移轉
 
-本主題涵蓋您需要考慮當您決定要將資料移轉您現有的 Skype for Business Server 或 Exchange Server 部署的最新版本或 Skype for Business Online 或 Exchange Online。 您可以移轉，以及何時，頻繁取決於什麼您已有設定好貴組織中。 某些功能，例如組織自動語音應答，無法使用在正式上市 (GA)，但將即將稍後 2018年。
+本主題涵蓋您需要考慮當您決定要將資料移轉您現有的 Skype for Business Server 或 Exchange Server 部署的最新版本或 Skype for Business Online 或 Exchange Online。 您可以移轉，以及何時，頻繁取決於什麼您已有設定好貴組織中。
 
 ## <a name="feature-changes-in-exchange-2019-and-skype-for-business-server-2019"></a>商務 Server 2019 中可用的功能變更 Exchange 2019 與 Skype
 
@@ -45,12 +45,12 @@ Exchange 2019 與 Skype for Business Server 2019，我們我們所支援的功�
 
 與 Skype for Business Server 2019，我們可以從 Exchange Online UM 雲端語音信箱移。 當使用者移至 Skype for Business 2019 伺服器時，他們將自動開始使用雲端語音信箱時的主控語音信箱設定。 如果您目前使用 Exchange Online UM，您不需要執行任何以外的移動動作 Skype for Business Server 2019 若要開始使用雲端語音信箱使用者。 不過，有一些變更，您需要注意的功能：
 
-- 組織自動語音應答 （在 [Exchange 線上 UM 自動語音應答取代） 無法在 GA，但是可以稍後 2018年。
+- 組織自動語音應答是自動語音應答取代在 Exchange Online UM。
 - 網頁型 Outlook 中的使用者語音信箱設定不適用於雲端語音信箱。
 
 ## <a name="on-premises-um-migration-scenarios"></a>內部部署 UM 移轉案例
 
-我們支援下列案例可讓您將使用者移轉到 Exchange 2019 與雲端語音信箱。 稍後 2018年我們將支援其他案例，將可讓您從其他版本的 Exchange 與 Skype for Business server 移轉。 我們也會提供額外的功能，例如組織的自動語音應答。
+我們支援下列案例可讓您將使用者移轉到 Exchange 2019 與雲端語音信箱。
 
 - Exchange 2013/Exchange 2016 與 Skype for Business Server 2015 到 Exchange 2019 與 Skype for Business Server 2019
 - Skype 至 Skype for Business Server 2019 與 Exchange 2013/Exchange 2016 的 Business Server 2015
