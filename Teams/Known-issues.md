@@ -18,12 +18,12 @@ f1.keywords:
 description: Microsoft Teams 用戶端應用程式和系統管理員體驗目前的已知問題清單。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d0aafe4bcceca731825726d084e41fab37bb9931
-ms.sourcegitcommit: 93a8bd330c9a8ced81cd3eafb7b7236e9ed2066f
+ms.openlocfilehash: 6a80e9a360b28ed5d00fb02be3d34aab21fb0e2e
+ms.sourcegitcommit: bb88ac0c9489bb47957e5ef1074b5df3126b6fdb
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/13/2020
-ms.locfileid: "41962092"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "42265518"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams 的已知問題
 
@@ -51,7 +51,7 @@ ms.locfileid: "41962092"
 
 |**問題標題**|**行為/徵狀**|**已知的因應措施**|**發現日期**|
 |:-----|:-----|:-----|:-----|
-|在傳統型應用程式中使用 [網站] 索引標籤時，[條件式存取](https://docs.microsoft.com/azure/active-directory/conditional-access/overview)可能無法使用<br/> |如果網站 (例如內部網路入口網站) 具有條件式存取原則 (例如瀏覽器或 IP 位址限制)，該網站可能無法在傳統型應用程式的 Teams 內呈現為索引標籤 <br/> |在瀏覽器中使用 Teams，而非使用傳統型應用程式。  <br/> |2018/7/1  <br/> |
+|當您在傳統型應用程式中使用 [網站] 或 [Azure DevOps] 索引標籤時，[條件式存取](https://docs.microsoft.com/azure/active-directory/conditional-access/overview)可能無法使用。<br/> |如果網站 (例如內部網路入口網站) 具有條件式存取原則 (例如瀏覽器、IP 位址限制或裝置合規性)，則該網站可能無法在傳統型應用程式的 Teams 內呈現為索引標籤。 <br/> |在瀏覽器中使用 Teams，而非使用傳統型應用程式。  <br/> |2018/7/1  <br/> |
 
 |**問題標題**|**行為/徵狀**|**已知的因應措施**|**發現日期**|
 |:-----|:-----|:-----|:-----|
@@ -82,11 +82,15 @@ ms.locfileid: "41962092"
 
 |**問題標題**|**行為/徵狀**|**已知的因應措施**|**發現日期**|
 |:-----|:-----|:-----|:-----|
+|變更使用者帳戶的密碼之後，出現錯誤訊息：可能是您的密碼已變更，或是伺服器再次需要您的登入資訊。 即使使用新密碼，也會繼續進行。 <br/> | Teams 將會在推出修正程式時儘快解決此問題。 <br/> | 登出和重新登入時使用不正確的認證。 失敗之後，請輸入您的正確認證。 <br/> |2020/01/09  <br/> |
+
+|**問題標題**|**行為/徵狀**|**已知的因應措施**|**發現日期**|
+|:-----|:-----|:-----|:-----|
 |嘗試從 Internet Explorer 或 Edge 加入 Teams 時，程式會持續迴圈或當機且不會登入。   <br/> | 組織使用 Internet Explorer 中的信任的網站，而 Teams Web 式應用程式無法正確登入，因為未允許 Teams 信任的網站。 <br/>|使用系統管理員權限或群組原則物件，對 IE 設定或從控制台進行下列變更：<br/><ol><li>在 [網際網路選項]**** &gt; [隱私權]**** &gt; [進階]**** 下，接受第一方和第三方 Cookie，並勾選 [永遠允許工作階段 Cookie]**** 方塊。</li><li>按一下 [網際網路選項]**** &gt; [安全性]**** &gt; [信任的網站]**** &gt; [網站]****，然後新增下列所有項目：<ul><li>https://login.microsoftonline.com</li><li>https://\*.teams.microsoft.com</li></ul></li></ol><br/><b>附註</b>：請一律驗證並允許 Teams 的所有受信任 URL 和下列文件的需求：[Office 365 URL 和 IP 位址範圍](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)。   <br/> |2017/11/1  <br/> |
 
 |**問題標題**|**行為/徵狀**|**已知的因應措施**|**發現日期**|
 |:-----|:-----|:-----|:-----|
-|Microsoft Teams 一律會登入加入網域的電腦帳戶。   <br/> |如果使用者有兩個不同的 Teams 帳戶，且有一部已加入網域的電腦，Teams 會使用電腦上已加入網域的設定檔，自動將使用者登入 Teams。 若要切換到其他 Teams 帳戶，使用者必須手動登出應用程式，並輸入第二個帳戶的認證以登入。 如果使用者登出 Teams 並重新啟動電腦，在重新開機時，Teams 會使用已加入網域的設定檔自動登入。 <br/> | 無因應措施。 <br/> |2017/8/2  <br/> |
+|Microsoft Teams 一律會登入加入網域的電腦帳戶。   <br/> |如果使用者有兩個不同的 Teams 帳戶，且有一部已加入網域的電腦，Teams 會使用電腦上已加入網域的設定檔，自動將使用者登入 Teams。 若要切換到其他 Teams 帳戶，使用者必須手動登出應用程式，並輸入第二個帳戶的認證以登入。 如果使用者登出 Teams 並重新啟動電腦，在重新開機時，Teams 會使用已加入網域的設定檔自動登入。 <br/> | 如果使用者登入加入網域的電腦，但是您不希望 Teams 登入畫面預先填入其使用者名稱，系統管理員可以設定下列 Windows 登錄，關閉預先填入使用者名稱 (UPN) Computer\HKEY_CURRENT_USER\Software\Microsoft\Office\Teams SkipUpnPrefill(REG_DWORD) 0x00000001 (1) 的功能。 請注意，根據預設，系統並不會預先填入以 ".local" 或 ".corp" 結尾的使用者名稱，因此您不需要設定登錄機碼就能關閉這些名稱。 請參考 https://docs.microsoft.com/microsoftteams/sign-in-teams。 <br/> |2017/8/2  <br/> |
 
 |**問題標題**|**行為/徵狀**|**已知的因應措施**|**發現日期**|
 |:-----|:-----|:-----|:-----|
