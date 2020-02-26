@@ -17,12 +17,12 @@ hideEdit: true
 f1.keywords:
 - NOCSH
 description: Microsoft 合作夥伴與所選的 SBC 廠商合作，利用直接佈線來認證其 SBCs。
-ms.openlocfilehash: bc2d1fb1a0c7bcf550117c176e6f5d4f1b3068f3
-ms.sourcegitcommit: 7093388425b34c80e444a50d062290187b80047d
+ms.openlocfilehash: 75f8286355a900b8827ef7e685b9310f26434b4c
+ms.sourcegitcommit: 26e61e94f0ba5d06a56c43541ee4970f479819d8
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/22/2020
-ms.locfileid: "42229881"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "42280301"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>通過直接路由認證的工作階段邊界控制器清單
 
@@ -61,15 +61,15 @@ Microsoft 與各個廠商搭配：
 |                                                                                                                     |      SBC 1000       |     &#10004;     |   &#10004;    |      8.0.3 （組建537）     |  <ul> <li> Intrado ERS </li> <li>Intrado EGW </li> </ul>   |         |    
 |                                                                                                                     |      SBC 2000       |     &#10004;     |   &#10004;   |     8.0.3 （組建537）     |  <ul> <li> Intrado ERS </li> <li>Intrado EGW </li> </ul>   |           |    
 |                                                                                                                     |    SBC SWe Lite     |     &#10004;     |  &#10004;    |      8.0.3 （組建216）    |  <ul> <li> Intrado ERS </li> <li>Intrado EGW </li> </ul>    |           |   
-| | Edgemarc 數列 |  &#10004; | | 15.6.1 | 
-|                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    思考 365 SBC    |     &#10004;     |        擱置   |       V 1。4       |     |    |    
+| | EdgeMarc 數列 |  &#10004; | | 15.6.1 | 
+|                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    思考 365 SBC    |     &#10004;     |        擱置   |       1.4       |     |    |    
 |                     [聯手](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 1100      |    &#10004;     |    &#10004;    |   8.3.0.0.1 |   <ul> <li> Intrado ERS </li> <li>Intrado EGW </li> </ul>   |    |    
 |                                                                                                                    |    AP 3900           |    &#10004;     |    &#10004;   |   8.3.0.0.1  |  <ul> <li> Intrado ERS </li> <li>Intrado EGW </li> </ul>  |    |    
 |                                                                                                                    |      AP 4600         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |   <ul> <li> Intrado ERS </li> <li>Intrado EGW </li> </ul>  |    |    
 |                                                                                                                    |      AP 6300         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |  <ul> <li> Intrado ERS </li> <li>Intrado EGW </li> </ul>   |    |    
 |                                                                                                                   |      AP 6350           |    &#10004;   |    &#10004;    |     8.3.0.0.1  |   <ul> <li> Intrado ERS </li> <li>Intrado EGW </li> </ul>  |    |                                            
 |                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   <ul> <li> Intrado ERS </li> <li>Intrado EGW </li> </ul>   |    |    
-|                     [TE-系統](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      v 3.16。2      |     |    |    
+|                     [TE-系統](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      3.16.2      |     |    |    
 
 下表列出在直接路由和類比裝置之間驗證互通性的裝置。
 
