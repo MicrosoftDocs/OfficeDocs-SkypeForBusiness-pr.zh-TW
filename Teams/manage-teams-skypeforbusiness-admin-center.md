@@ -20,12 +20,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: f1aba8c461ca2cbdd827fe071d5e0486ac24b5f4
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 31d39b1c65afad3bdbb000ff779b590d9f82ac38
+ms.sourcegitcommit: 152eb7daacd0a36f42aa441633c12c7037a0969a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41833123"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "42288631"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>在轉換至新 Microsoft Teams 系統管理中心期間管理 Teams
 ======================================================
@@ -67,14 +67,14 @@ ms.locfileid: "41833123"
 |通話與會議     |允許會議中的影片         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |使用者          |
 |通話與會議     |允許在會議中共用螢幕         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |使用者          |
 |通話與會議     |允許私人通話         |[TeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)        |使用者          |
-|傳訊     |啟用 Giphy，讓使用者可以在交談中新增 Gif         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |使用者         |
-|傳訊     |內容分級         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |使用者         |
-|傳訊     |啟用使用者可以編輯及新增至交談的 meme         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |使用者         |
-|傳訊     |啟用使用者可以編輯及新增至交談的不乾膠標籤         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |使用者         |
-|傳訊     |允許擁有者刪除所有郵件         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |使用者         |
-|傳訊     |允許使用者編輯自己的郵件         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |使用者         |
-|傳訊     |允許使用者刪除自己的郵件         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |使用者         |
-|傳訊     |允許使用者私下聊天         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |使用者         |
+|訊息傳送     |啟用 Giphy，讓使用者可以在交談中新增 Gif         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |使用者         |
+|訊息傳送     |內容分級         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |使用者         |
+|訊息傳送     |啟用使用者可以編輯及新增至交談的 meme         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |使用者         |
+|訊息傳送     |啟用使用者可以編輯及新增至交談的不乾膠標籤         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |使用者         |
+|訊息傳送     |允許擁有者刪除所有郵件         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |使用者         |
+|訊息傳送     |允許使用者編輯自己的郵件         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |使用者         |
+|訊息傳送     |允許使用者刪除自己的郵件         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |使用者         |
+|訊息傳送     |允許使用者私下聊天         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |使用者         |
 
 <sup>1</sup>已過時的來賓。 您現在可以在 Microsoft 團隊系統管理中心管理啟用/停用來賓的功能。 啟用/停用商務用團隊企業、Edu 學生及 Edu 教職員將會在不久後過時。 您應該在 Microsoft 365 系統管理中心指派授權來加以管理。 請參閱[管理使用者對 Microsoft 團隊的存取權](user-access.md)。
 <br><br>
@@ -104,12 +104,12 @@ ms.locfileid: "41833123"
 |外部存取設定     |    X    |      |       |
 |使用者管理    |         |         |    X     |    
 |音訊會議     |    X     |    X     |         |
-|通話方案     |         |    X     |         |
-|電話系統    |         |     X    |         |
-|電話號碼管理     |         |   X      |         |
+|通話方案     |    X    |    X     |         |
+|電話系統    |    X    |     X    |         |
+|電話號碼管理     |    X    |   X      |         |
 |雲端語音功能的授權     |         |         |    X     |
-|自動語音應答     |         |    X     |         |
-|通話佇列     |         |    X     |         |
+|自動語音應答     |    X    |          |         |
+|通話佇列     |    X    |          |         |
 
 ## <a name="manage-settings-after-the-migration"></a>在遷移之後管理設定
 

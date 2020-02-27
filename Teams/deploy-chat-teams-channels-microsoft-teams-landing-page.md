@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.quickstartteamsadmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c7c89b4abe53621ae217ecb3874df9a51a43a7ac
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: 87de516afbd94a0d1784edd52efbcc5b10e262dd
+ms.sourcegitcommit: 29034bda30a8460eb18600785f785528d0944041
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42160697"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "42285825"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams 中的聊天、團隊、頻道和應用程式
 
@@ -226,7 +226,7 @@ Teams 會隨著許多 Office 365 授權的一部分提供。 若要深入了解 
 
 | 問問自己 | 動作 |
 |--------------|--------|
-|<br>我需要為 Teams 設定條件式存取嗎？|<ul><li>若要了解存取原則的運作方式，請參閱[條件式存取原則如何適合 Teams？](security-compliance-overview.md#how-do-conditional-access-policies-work-for-teams)</li><li>若要為 Teams 設定多重要素驗證 (MFA)，請參閱：<ul><li>[快速入門：透過 Azure Active Directory 條件式存取來要求特定應用程式需要 MFA](https://docs.microsoft.com/azure/active-directory/conditional-access/app-based-mfa)</li><li>[Azure Active Directory 條件式存取設定參考](https://docs.microsoft.com/azure/active-directory/conditional-access/technical-reference)</li></ul></ul>|
+|<br>我需要為 Teams 設定條件式存取嗎？|<ul><li>若要了解存取原則的運作方式，請參閱[條件式存取原則如何適合 Teams？](security-compliance-overview.md#how-conditional-access-policies-work-for-teams)</li><li>若要為 Teams 設定多重要素驗證 (MFA)，請參閱：<ul><li>[快速入門：透過 Azure Active Directory 條件式存取來要求特定應用程式需要 MFA](https://docs.microsoft.com/azure/active-directory/conditional-access/app-based-mfa)</li><li>[Azure Active Directory 條件式存取設定參考](https://docs.microsoft.com/azure/active-directory/conditional-access/technical-reference)</li></ul></ul>|
 |||
 
 

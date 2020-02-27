@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8362c95103594e8289aa110ec681fd6dba269bce
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: ba381659572fa8cfda6ac605a2910ef19220dcbd
+ms.sourcegitcommit: 29034bda30a8460eb18600785f785528d0944041
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824751"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "42285815"
 ---
 # <a name="use-the-getting-started-wizard-to-set-up-business-voice"></a>使用 [快速入門精靈] 設定商務語音
 
@@ -46,11 +46,8 @@ Microsoft 365 商務語音快速入門精靈可讓您在 Microsoft Teams 中快�
 
 <table>
     <tr>
-        <td>如果需要變更緊急地址，請按一下 <b>[編輯]</b>，然後輸入新地址。 您提供的地址需經過驗證，以確認其合法性且格式正確，可供緊急回應服務時使用。 然後，此地址會指派給在下一個步驟中指派號碼的所有使用者。 如果您有位於超過單一位置的員工，請參閱<a href="./customize-business-voice.md">商務語音設計自訂</a>，了解如何在準備 [快速入門精靈] 後，新增並指派更多緊急地址。</td>
-
-        
+        <td>如果需要變更緊急地址，請按一下 <b>[編輯]</b>，然後輸入新地址。 您提供的地址需經過驗證，以確認其合法性且格式正確，可供緊急回應服務時使用。 然後，此地址會指派給在下一個步驟中指派號碼的所有使用者。 如果您有位於超過單一位置的員工，請參閱<a href="./customize-business-voice.md">商務語音設計自訂</a>，了解如何在準備 [快速入門精靈] 後，新增並指派更多緊急地址。</td> 
         <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-choose-number.png" width="400"></td></tr>
-            
 </table>
 
 如需詳細資訊，請參閱[什麼是緊急位置、地址和通話路由](../what-are-emergency-locations-addresses-and-call-routing.md) (英文版)？

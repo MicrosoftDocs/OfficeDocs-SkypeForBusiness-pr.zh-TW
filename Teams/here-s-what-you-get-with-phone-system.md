@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: '瞭解功能、可用性，以及如何規劃及設定商務用 Microsoft Phone 系統。 '
-ms.openlocfilehash: b1ba96143c62b829ef9461c1429a83a8b3cfe51e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 27ec4803a33f524d1c260c27c1af3c71210b33d2
+ms.sourcegitcommit: 152eb7daacd0a36f42aa441633c12c7037a0969a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045165"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "42288701"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>以下是您在 Office 365 中使用電話系統所取得的結果
 
@@ -45,11 +45,11 @@ ms.locfileid: "42045165"
 |**Office 365 中的電話系統功能** <br/> |**描述** <br/> |
 |[雲端自動語音應答](what-are-phone-system-auto-attendants.md) <br/> |可讓您建立可讓外部與內部呼叫者找到並將來電放入或轉接給貴組織中的公司使用者或部門的功能表系統。  <br/> |
 |[雲端通話佇列](create-a-phone-system-call-queue.md) <br/> |可讓您設定為貴組織管理呼叫佇列的方式：例如，[保留問候語]、[暫留音樂]、[搜尋下一個可用的通話代理程式] 來處理通話，依此類推。  <br/> |
-|等候音樂 | 當從公用交換電話網絡（PSTN）的外部呼叫置於保留狀態時，會播放服務所定義的預設音樂。 除了呼叫佇列撥打電話之外，此功能也適用于一對一的 PSTN 對團隊通話。 這項功能可提供與其他平臺的保留期間通知同位。 在初次發行時，系統管理員不能設定此功能。 在 PSTN 通話的諮詢式轉接中，也不支援等候音樂。|
+|等候音樂 | 當從公用交換電話網絡（PSTN）的外部呼叫置於保留狀態時，會播放服務所定義的預設音樂。 除了呼叫佇列撥打電話之外，此功能也適用于一對一的 PSTN 對團隊通話。 這項功能可提供與其他平臺的保留期間通知同位。 此功能可由系統管理員進行設定，但[目前只能透過 PowerShell](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)進行設定。 在 PSTN 通話的諮詢式轉接中，也不支援等候音樂。|
 |呼叫應答/啟動（依名稱和號碼）  <br/> |讓使用者以觸控方式接聽來電，並撥打完整的電話號碼或按一下用戶端中的名稱，以進行撥出通話。  <br/> |
 |[來電轉接選項和同時撥打](https://support.office.com/article/call-forwarding-call-groups-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e) <br/> |讓使用者設定轉寄規則，讓通話在任何地方都能使用，或者來電可以轉寄給同事或語音信箱。  <br/> |
 |[[群組通話] 和 [轉寄至] 群組](call-sharing-and-group-call-pickup.md) <br/> | 讓使用者與同事共用來電，讓同事接聽在使用者無法使用時所發生的通話。 與其他通話共用形式（例如來電轉接或同時撥打）相比，中斷收件者的中斷更小，因為使用者可以設定接收共用通話的通知方式。 |
-|[轉接通話並 consultive 轉接](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0) <br/> |讓使用者將來電轉接給其他人。 或者，如果他們需要離開自己的 office，但想要繼續交談，他們可以將呼叫從他們的 PC 或 IP 手機轉接到他們的手機。  <br/> |
+|[轉接通話與顧問式轉接](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0) <br/> |讓使用者將來電轉接給其他人。 或者，如果他們需要離開自己的 office，但想要繼續交談，他們可以將呼叫從他們的 PC 或 IP 手機轉接到他們的手機。  <br/> |
 |[轉接至語音信箱 mid 通話](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0) <br/> | 讓使用者在通話期間轉移至語音信箱。 |
 |[通話駐留和擷取](call-park-and-retrieve.md)  <br/> | 讓使用者在雲端的 [小組服務] 中保留通話。 當通話停用時，服務會產生唯一的呼叫檢索程式碼。 停用通話的使用者，或其他人可以使用該程式碼和支援的 app 或裝置來檢索通話。 <br/> |
 |從搜尋撥打電話號碼  <br/> | 讓使用者使用/call 命令並指定名稱或數位，在搜尋方塊中放置通話。 <br/> |

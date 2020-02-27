@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4bc03a292614b6ae5888e6334e37a3b417bcacde
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: e147a300f628347b5e38837a3d277a78a4c593c4
+ms.sourcegitcommit: 29034bda30a8460eb18600785f785528d0944041
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834503"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "42285745"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 與 Microsoft 團隊如何互動
 
@@ -88,7 +88,7 @@ Microsoft 團隊可搭配數種 Office 365 服務使用，為使用者提供豐�
 
 - 在 Microsoft 團隊中，安全性與合規性功能（例如 eDiscovery、內容搜尋、封存和法律封存）在 Exchange Online 和 SharePoint Online 環境中的運作效果最佳。 在頻道交談中，郵件會在 Exchange Online 中的群組信箱中日記，在這裡可供 eDiscovery 使用。 如果是在整個組織和使用者啟用 SharePoint Online 和商務用 OneDrive （使用公司或學校帳戶），則小組中的所有檔案也都提供這些規範功能。
 
-- 使用條件式存取控制並保護團隊和 Exchange 中的合規性原則設定。 如需詳細資訊，請參閱[如何針對團隊使用條件式存取原則？](security-compliance-overview.md#how-do-conditional-access-policies-work-for-teams) .
+- 使用條件式存取控制並保護團隊和 Exchange 中的合規性原則設定。 如需詳細資訊，請參閱[如何針對團隊使用條件式存取原則？](security-compliance-overview.md#how-conditional-access-policies-work-for-teams) .
 
 - 如果您的組織具備合規性需求，以確保所有會議討論都能被發現，您應該在召集人擁有 Exchange 內部部署信箱時，停用 [私人會議]。
 
