@@ -15,12 +15,12 @@ f1.keywords:
 ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: fcf6ee6bbf0f9d485a84007a01cd9ce0dfee9500
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 958ca112e52cefa31e122c02b47c76a68537d284
+ms.sourcegitcommit: 152eb7daacd0a36f42aa441633c12c7037a0969a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836603"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "42288721"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -174,7 +174,7 @@ Microsoft 很高興地舉辦一系列免費的即時線上訓練課程，幫助�
         </a>
     </li>
     <li>
-        <a href="https://microsoftteams.eventbuilder.com/FLW3"target="_blank">
+        <a href="https://microsoftteams.eventbuilder.com/FLWValueWebinar"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -184,9 +184,9 @@ Microsoft 很高興地舉辦一系列免費的即時線上訓練課程，幫助�
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Teams 第一線員工</h3>
-                        <p>了解 Teams 中的第一線員工功能。</p>
-                        <p><i>對象：使用者</i></p>
+                        <h3>使用 Teams 讓您的第一線員工完成更多工作</h3>
+                        <p>了解 Teams 如何帶來數位轉型，讓您所有員工發揮無限潛能。</p>
+                        <p><i>觀眾：商務決策者、IT 決策者</i></p>
                     </div>
                 </div>
             </div>
