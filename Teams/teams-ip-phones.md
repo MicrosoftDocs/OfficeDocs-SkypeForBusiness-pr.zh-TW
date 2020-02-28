@@ -19,12 +19,12 @@ ms.custom:
 - Skype for Business Certification
 - dn947482
 description: 針對 Microsoft 團隊認證的 IP 服務台與會議電話
-ms.openlocfilehash: 83305c4d4d60c3347e7c55cab312311ddb014ebf
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: a02082719e509ed38646915a8ce5388837ceca26
+ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837653"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "42327965"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Microsoft 團隊的 IP 手機認證
 
@@ -52,6 +52,7 @@ IP 電話認證計畫可確保使用經過驗證的手機和手機的客戶能�
 |Poly CCX400 | 1.0.0.0200 | 2020年1月|
 |Poly CCX600 | 5.9.12.1111| 2020年1月|
 |Poly CCX500 | 5.9.12.1111| 2019年12月|
+|Yealink VC210| 118.15.0.14|2020年2月|
 |Yealink VP59 | 91.15.0.16 |2019年6月|
 |Yealink T55 | 58.15.0.36 |2019年5月|
 |Yealink CP 960 |73.15.0.20|2018年12月|

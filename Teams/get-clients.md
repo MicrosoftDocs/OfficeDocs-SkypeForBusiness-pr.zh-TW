@@ -3,7 +3,6 @@ title: 為 Microsoft 團隊取得用戶端
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 04/25/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -19,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e4abae267bf1a8c0c770eebf1c1b12018a6c7deb
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: e423bedc05dbbf303ecfdbf569ff9e1b096bd3d7
+ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41833763"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "42327835"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>為 Microsoft 團隊取得用戶端 
 
@@ -41,7 +40,7 @@ Microsoft 團隊擁有適用于桌面（Windows、Mac 和 Linux）、web 和 mob
 > [!TIP]
 > 請觀看下列會話，瞭解 Windows 桌面用戶端的優點、如何規劃它，以及如何部署：[團隊 Windows 桌面用戶端](https://aka.ms/teams-clients)
 
-Microsoft 團隊桌面用戶端是獨立的應用程式，也[可在 Office 365 專業增強版中](https://docs.microsoft.com/deployoffice/teams-install)取得。 團隊可在 Windows （7 +）、Windows Server （2012 R2 +）、32位與64位版本、macOS （10.10 +）及 Linux （ `.deb` `.rpm`格式）中取得。 在 Windows 上，小組需要 .NET Framework 4.5 或更新版本;如果您沒有，團隊安裝程式將會提供將它安裝給您的人員。 在 Linux 上，套件管理員（例如 apt 和 yum）會嘗試為您安裝任何需求。 不過，如果不是這樣，在 Linux 上安裝小組之前，您將需要安裝任何已報告的需求。
+Microsoft 團隊桌面用戶端是獨立的應用程式，也[可在 Office 365 專業增強版中](https://docs.microsoft.com/deployoffice/teams-install)取得。 團隊適用于32和64位版本的 Windows （8.1 或更新版本）及 Windows Server （2012 R2 或更新版本），以及 macOS （10.10 或更新版本）及 Linux （在與`.deb` `.rpm`格式中）。 在 Windows 上，小組需要 .NET Framework 4.5 或更新版本;如果您沒有，團隊安裝程式將會提供將它安裝給您的人員。 在 Linux 上，套件管理員（ `apt`例如`yum` ）會嘗試為您安裝任何需求。 不過，如果不是這樣，在 Linux 上安裝小組之前，您將需要安裝任何已報告的需求。
 
 桌面用戶端可為小組會議、群組通話和私人一對一通話提供即時通訊支援（音訊、影片和內容共用）。
 
@@ -181,6 +180,8 @@ Web 用戶端（[https://teams.microsoft.com](https://go.microsoft.com/fwlink/?l
 ## <a name="mobile-clients"></a>行動用戶端
 
 Microsoft 團隊行動應用程式適用于 Android 和 iOS，且適用于參與聊天交談和允許對等音訊通話的使用者。 若是行動裝置應用程式，請移至相關的行動裝置商店 [Google Play] 和 [Apple App Store]。 Windows Phone 應用程式已于2018年7月20日停用，可能無法再運作。 
+
+在中國，以下說明如何[取得 Android 版團隊](get-teams-android-in-china.md)。 
 
 Microsoft 團隊行動裝置 app 支援的行動平臺如下：
 

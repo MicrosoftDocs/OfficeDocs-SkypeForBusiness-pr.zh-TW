@@ -21,12 +21,12 @@ description: 瞭解如何在 [教育版團隊中的 Microsoft 團隊系統管理
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1fb811540fc4e79c65d93eefb993fa7523a39aff
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: ad9e3f8b0f2f3800c7394a9d4dc21fe7a2058426
+ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827821"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "42327995"
 ---
 # <a name="assignments-in-teams-for-education"></a>Teams 教育版中的作業
 
@@ -40,7 +40,6 @@ ms.locfileid: "41827821"
 
 <a name="#bkemaildigest"> </a>
 ### <a name="weekly-guardian-email-digest"></a>每週監護人電子郵件摘要
-[!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
 監護人電子郵件是傳送給學生的家長或監護人的每週電子郵件。 該電子郵件將會包含上周的工作分派及未來一周的作業相關資訊，並將于週末傳送。 系統必須由管理員使用學校資料同步處理功能來更新電子郵件。
 
@@ -58,7 +57,6 @@ MakeCode 是一種區塊式編碼平臺，可讓所有學生在生活中都能�
 
 <a name="#turnitin"> </a>
 ### <a name="turnitin"></a>Turnitin
-[!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
 Turnitin 是 plagiarism 偵測服務。 這個協力廠商產品或服務受限於自己的條款與隱私權原則。 您負責使用任何協力廠商產品和服務。
 

@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3054c961faa2587b203bd1522c266a55e0c34174
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: e1cdd071dfe19c50650d6f18605a5aeed5b39300
+ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834663"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "42327845"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>在 Outlook 中使用 Teams 會議增益集
 =======================================
@@ -39,7 +39,6 @@ ms.locfileid: "41834663"
 > [!NOTE]
 > - 執行 Regsvr32 檔案的使用者許可權對於要在電腦上安裝的小組會議增益集而言，是最低的需求。
 > - 如果使用者沒有看到 [團隊會議] 增益集，請指示他們關閉 Outlook 和團隊，然後先重新開機團隊用戶端，然後登入小組，然後以該特定順序重新開機 Outlook 用戶端。
-> - Windows 7 使用者必須在 Windows 的 windows 中安裝[通用 C 執行時間更新](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows)，小組會議增益集才能正常運作。
 > - 如果您是從 Microsoft 網上商店使用 Office Outlook 安裝，則不支援 [團隊會議] 增益集。 建議需要此增益集的使用者安裝隨選即用版本的 Office，如[Windows 10 中的 office 在 S 模式](https://support.office.com/article/faq-office-on-windows-10-in-s-mode-717193b5-ff9f-4388-84c0-277ddf07fe3f)文章中所述。
 
 ## <a name="teams-meeting-add-in-in-outlook-for-mac"></a>Mac 版 Outlook 中的團隊會議增益集

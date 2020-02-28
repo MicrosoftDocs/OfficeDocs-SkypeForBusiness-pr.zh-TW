@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 本檔說明在團隊與商務用 Skype （在租使用者中，根據指派的 TeamsUpgrade 模式）進行的聊天、呼叫路由與目前狀態的行為。 它包含路由優化、目前狀態行為，以及將預設 TeamsUpgrade 模式從*舊版*變更為*孤島*，以及即將停用*舊版*。
-ms.openlocfilehash: 442b4b68b9739d9d17d02e298b53c5d9ecec3c8f
-ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
+ms.openlocfilehash: 64889ae11b4ce8665fb4a6bdbb98ff95aaf777fc
+ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42236823"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "42328015"
 ---
 # <a name="coexistence-with-skype-for-business"></a>與商務用 Skype 共存
 
@@ -56,7 +56,7 @@ ms.locfileid: "42236823"
     - 團隊若要在租使用者中進行團隊溝通，請務必這樣做。
 
 > [!NOTE]
-> 目前，涉及團隊的所有同盟都利用商務用 Skype 同盟管線以及團隊-商務用 Skype 互通性。 我們正在規劃原生團隊–團隊同盟。 在發行原生同盟時，會更新目前的檔。
+> 如果收件者和寄件者都在 TeamsOnly 升級模式中，則交談將是一個固有的聊天體驗，包括所有豐富的訊息和呼叫功能。 若要深入瞭解，請閱讀[小組外部（同盟）使用者的原生聊天體驗](native-chat-for-external-users.md)。 如果其中一個交談參與者不在 TeamsOnly 升級模式中，則交談仍會有純文字訊息的交互操作體驗。
 
 ## <a name="chat-and-call-routing"></a>聊天和通話路由
 

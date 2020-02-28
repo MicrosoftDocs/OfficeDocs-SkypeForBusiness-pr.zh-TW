@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bc57222f56235c71c676f952cb0dd5aa149dc4e3
-ms.sourcegitcommit: df552697ae9c8c01c40f816bbe98b251db147199
+ms.openlocfilehash: c048e321241f4403fbb69f71e56b3fc179346951
+ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "42277976"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "42327825"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>使用 Microsoft 端點 Configuration Manager 安裝 Microsoft 團隊
 
@@ -55,9 +55,9 @@ ms.locfileid: "42277976"
 
 ### <a name="pc-installation"></a>電腦安裝
 
-[團隊 MSI] 會在程式檔案中放置安裝程式。 每當使用者登入新的 Windows 使用者設定檔時，系統就會啟動安裝程式，並將 [小組] app 複本安裝在該使用者的 appdata 資料夾中。 如果使用者已在 appdata 資料夾中安裝 [團隊] 應用程式，MSI 安裝程式將會略過該使用者的程式。
+[團隊 MSI] 會在程式檔案中放置安裝程式。 每當使用者登入新的 Windows 使用者設定檔時，系統就會啟動安裝程式，而且會在該使用者的`AppData`資料夾中安裝 [小組] app 的複本。 如果使用者已在`AppData`資料夾中安裝 [團隊] 應用程式，則 MSI 安裝程式將會略過該使用者的進程。
 
-請勿使用 MSI 來部署更新，因為用戶端會在檢測到可從服務取得新版本時自動更新。 若要重新部署最新的安裝程式，請使用以下所述的重新部署 MSI 程式。如果您部署舊版的 MSI 套件，則用戶端可能會自動更新（在 VDI 環境中除外）。 如果部署的是較舊的版本，MSI 將觸發應用程式更新，讓使用者能夠使用團隊。
+請勿使用 MSI 來部署更新，因為用戶端會在檢測到可從服務取得新版本時自動更新。 若要重新部署最新的安裝程式，請使用以下所述的重新部署 MSI 程式。 如果您部署舊版的 MSI 套件，則用戶端可能會自動更新（在 VDI 環境中除外）。 如果部署的是較舊的版本，MSI 將觸發應用程式更新，讓使用者能夠使用團隊。
 
 > [!Important]
 > 我們不建議您變更預設安裝位置，因為這可能會中斷更新流程。 如果版本太舊，最終會封鎖使用者存取服務。
@@ -65,7 +65,7 @@ ms.locfileid: "42277976"
 #### <a name="target-computer-requirements"></a>目的電腦需求
 
 - .NET framework 4.5 或更新版本
-- Windows 7 或更新版本
+- Windows 8.1 或更新版本
 - Windows Server 2012 R2 或更新版本
 - 每個使用者設定檔 3 GB 的磁碟空間（建議使用）
 
@@ -78,7 +78,7 @@ ms.locfileid: "42277976"
 如果使用者從使用者設定檔中移除團隊，MSI 安裝程式將會追蹤使用者已卸載小組應用程式，而且不會再安裝該使用者設定檔的小組。 若要在已卸載此使用者的特定電腦上重新部署團隊，請執行下列動作：
 
 1. 針對每個使用者設定檔卸載已安裝的團隊 App。
-2. 卸載之後，以遞迴方式在%localappdata%\Microsoft\Teams\. 下刪除目錄
+2. 卸載之後，[遞迴刪除] `%localappdata%\Microsoft\Teams\`下的 [目錄]。
 3. 將 MSI 套件重新部署到該特定電腦。
 
 ## <a name="prevent-teams-from-starting-automatically-after-installation"></a>避免團隊在安裝後自動啟動

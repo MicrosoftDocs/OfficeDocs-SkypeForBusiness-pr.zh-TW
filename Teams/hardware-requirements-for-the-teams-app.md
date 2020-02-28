@@ -1,10 +1,9 @@
 ---
-title: Microsoft 團隊應用程式的硬體需求
+title: Microsoft 團隊的硬體需求
 ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 06/04/2019
 audience: Admin
 ms.topic: reference
 ms.service: msteams
@@ -19,18 +18,18 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 64fc1698b4eda804825342708d430bd4b9dbcff9
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 65de6266af5d7b17234cd3b77d867176338d35fa
+ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41833163"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "42327855"
 ---
-# <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Microsoft 團隊應用程式的硬體需求
+# <a name="hardware-requirements-for-microsoft-teams"></a>Microsoft 團隊的硬體需求
 
-下列各節中的所有需求都適用于團隊桌面應用程式和團隊 Web app。
+下列各節中的所有需求都適用于 Microsoft 團隊桌面應用程式和小組 Web app。
 
-## <a name="hardware-requirements-for-the-teams-desktop-app-on-a-windows-pc"></a>Windows 電腦上小組桌面應用程式的硬體需求
+## <a name="hardware-requirements-for-teams-on-a-windows-pc"></a>Windows 電腦上團隊的硬體需求
 
 |**元件**|**需求**  |
 |---------|---------|
@@ -39,14 +38,14 @@ ms.locfileid: "41833163"
 |硬碟    | 3.0 GB 的可用磁碟空間        |
 |顯示幕    |   1024 x 768 畫面解析度 |
 |圖形硬體 |  最小 128 MB 圖形記憶體
-|作業系統  |    Windows Server 2012 R2 +、Windows 10、Windows 8.1 或32位和64位的 Windows 7 Service Pack 1。 為了獲得最佳體驗，請使用最新版本的任何作業系統。|
+|作業系統  |    Windows Server 2012 R2 +、Windows 10 或 Windows 8.1 （在32位和64位中）。 若要獲得最佳體驗，請使用最新版本的作業系統。|
 |.NET 版本    |  需要 .NET 4.5 CLR 或更新版本       |
 |顯示器    |  USB 2.0 攝影機       |
 |裝置    |   標準膝上型電腦相機、麥克風和喇叭    | 
 |影片通話與會議 | <ul><li>若要在視頻通話和線上會議中取得較佳的體驗，我們建議您使用具有 2.0 GHz 處理器和 4.0 GB RAM （或更新版本）的電腦。 </li><li>[選擇性**模糊處理我的背景**影片] 效果需要具備高級向量擴充2（AVX2）支援的處理器。 如需不支援的解碼器與編碼器清單，請參閱[硬體解碼器和編碼器驅動程式建議](hardware-decoders-and-encoders.md)。</li><li>使用 Microsoft 團隊聊天室中的鄰近性偵測來加入會議需要藍牙 LE （需要在用戶端裝置上啟用藍牙），而 Windows 用戶端則需要64位的團隊用戶端。 在32位團隊用戶端上無法使用。</li></ul> |
 |Teams 即時活動 | 如果您正在產生小組即時事件，我們建議您使用具有 Core i5 Kaby Lake processor、4.0 GB RAM （或更新版本）和硬體編碼器的電腦。 如需不支援的解碼器與編碼器清單，請參閱[硬體解碼器和編碼器驅動程式建議](hardware-decoders-and-encoders.md)。 |
 
-## <a name="hardware-requirements-for-the-teams-desktop-app-on-a-mac"></a>Mac 上的小組桌面應用程式的硬體需求
+## <a name="hardware-requirements-for-teams-on-a-mac"></a>Mac 上團隊的硬體需求
 
 |**元件**|**需求**  |
 |---------|---------|
@@ -59,7 +58,7 @@ ms.locfileid: "41833163"
 |語音    |  相容的麥克風與喇叭、耳機與麥克風或對等裝置       |
 |影片通話與會議 | 若要在視頻通話和線上會議中取得較佳的體驗，我們建議您使用具有 2.0 GHz 處理器和 4.0 GB RAM （或更新版本）的電腦。  <ul><li>[選擇性**模糊處理我的背景**影片] 效果需要具有先進向量擴充2（AVX2）支援的處理器，且支援最晚2013的 Mac 裝置及更新版本。 如需不支援的解碼器與編碼器清單，請參閱[硬體解碼器和編碼器驅動程式建議](hardware-decoders-and-encoders.md)。</li><li>在 Mac OS 上無法使用 Microsoft 團隊聊天室中的鄰近性偵測來加入會議。</li></ul> |
 
-## <a name="hardware-requirements-for-the-teams-desktop-app-on-a-linux"></a>Linux 上的小組桌面應用程式的硬體需求
+## <a name="hardware-requirements-for-teams-on-linux"></a>Linux 上團隊的硬體需求
 
 |**元件**|**需求**  |
 |---------|---------|
@@ -75,8 +74,7 @@ ms.locfileid: "41833163"
 |影片通話與會議 | <ul><li>若要在視頻通話和線上會議中取得較佳的體驗，我們建議您使用具有 2.0 GHz 處理器和 4.0 GB RAM （或更新版本）的電腦。 </li><li>[選擇性模糊處理我的背景影片] 效果需要具有先進向量擴充2（AVX2）支援的處理器，且支援最晚2013的 Mac 裝置及更新版本。 如需不支援的解碼器與編碼器清單，請參閱[硬體解碼器和編碼器驅動程式建議](hardware-decoders-and-encoders.md)。</li><li>在 Linux 上無法使用 Microsoft 團隊聊天室中的鄰近性偵測來加入會議。</li></ul>
 |支援的 Linux 發行 | Ubuntu 16.04 LTS、18.04 LTS、Fedora 30 Workstation、RHEL 8 工作站、CentOS 8
 
-
-## <a name="hardware-requirements-for-the-teams-app-on-mobile-devices"></a>行動裝置上的小組 app 的硬體需求
+## <a name="hardware-requirements-for-teams-on-mobile-devices"></a>行動裝置上團隊的硬體需求
 
 您可以在下列行動平臺上使用團隊：
 
@@ -84,17 +82,18 @@ ms.locfileid: "41833163"
 
   支援僅限於 Android 的最後四個主要版本。 發行新的 Android 主要版本時，正式支援新版本及前三個版本。
 
-- iOS：與 iPhone、iPad 和 iPod touch 相容。 
+- iOS：與 iPhone、iPad 和 iPod touch 相容。
 
   支援僅限於 iOS 的兩個最新主要版本。 發行新版 iOS 的新主要版本時，系統會正式支援新版 iOS 和舊版本。
 
 若要讓團隊發揮最佳的使用體驗，請使用最新版本的 iOS 和 Android。
 
-## <a name="hardware-requirements-for-the-teams-app-in-a-virtual-desktop-infrastructure-vdi-environment"></a>虛擬桌面基礎結構（VDI）環境中的團隊 app 硬體需求
+## <a name="hardware-requirements-for-teams-in-a-virtual-desktop-infrastructure-vdi-environment"></a>虛擬桌面基礎結構（VDI）環境中的小組硬體需求
 
-請參閱[虛擬化桌面基礎結構小組](teams-for-vdi.md)，以取得在虛擬化環境中執行團隊的需求。 
+請參閱[虛擬化桌面基礎結構小組](teams-for-vdi.md)，以取得在虛擬化環境中執行團隊的需求。
 
 ### <a name="related-topics"></a>相關主題
 - [取得團隊 app](get-clients.md)
 - [行動裝置上的 Microsoft 團隊](https://support.office.com/article/Microsoft-Teams-on-mobile-devices-2ACBCF73-8FD4-4929-9B31-AE403B88C2D3)
 - [使用 MSI 安裝 Microsoft 團隊應用程式](msi-deployment.md)
+- [Microsoft Teams 的限制和規格](limits-specifications-teams.md)
