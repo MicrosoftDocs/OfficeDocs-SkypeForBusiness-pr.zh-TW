@@ -263,10 +263,10 @@
 
 ### 設定直接路由
 #### [概觀](direct-routing-configure.md)
-#### [將您的 SBC 連線至直接路由](direct-routing-connect-the-sbc.md)
-#### [讓使用者能使用直接路由、語音和語音信箱](direct-routing-enable-users.md)
-#### [設定語音路由](direct-routing-voice-routing.md)
-#### [翻譯電話號碼](direct-routing-translate-numbers.md)
+#### [步驟 1：連結您的 SBC](direct-routing-connect-the-sbc.md)
+#### [步驟 2：啟用使用者](direct-routing-enable-users.md)
+#### [步驟 3：設定語音路由](direct-routing-voice-routing.md)
+#### [步驟 4：翻譯電話號碼](direct-routing-translate-numbers.md)
 #### [針對多個租用戶設定 SBC](direct-routing-sbc-multiple-tenants.md)
 #### [如何搭配直接路由使用類比裝置](direct-routing-analog-devices.md)
 
@@ -638,11 +638,11 @@
 <!-- ============================================================ -->
 
 # 安全性與合規性
+## [概觀](security-compliance-overview.md)
 ## 安全性
 ### [身分識別和驗證](identify-models-authentication.md)
 ### [使用新式驗證登入 Teams](sign-in-teams.md)
 ## 合規性
-### [概觀](security-compliance-overview.md)
 ### [資訊屏障](information-barriers-in-teams.md)
 ### [保留原則](retention-policies.md)
 ### [資料遺失防護](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
