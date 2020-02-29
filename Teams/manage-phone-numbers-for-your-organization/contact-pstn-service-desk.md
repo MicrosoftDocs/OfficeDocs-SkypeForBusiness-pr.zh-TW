@@ -23,27 +23,36 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: 當您取得貴組織的電話號碼或移植（轉移）號碼時，您可能需要在 PSTN 服務台取得說明和支援。
-ms.openlocfilehash: 819baa319fb0cd8d53e163560c6de888ecd177c9
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 6d400e51270b411054802240216d9e957a68f054
+ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825710"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "42341787"
 ---
-# <a name="pstn-service-desk-help"></a><span data-ttu-id="40c02-103">PSTN service 服務台說明</span><span class="sxs-lookup"><span data-stu-id="40c02-103">PSTN service desk help</span></span>
+# <a name="pstn-service-desk-contact"></a><span data-ttu-id="a5e52-103">PSTN Service 服務台連絡人</span><span class="sxs-lookup"><span data-stu-id="a5e52-103">PSTN Service Desk Contact</span></span>
 
-<span data-ttu-id="40c02-104">如果您需要取得或轉接號碼給我們的協助，但需要協助，請告訴我們我們可以在電子郵件中協助您，並將它傳送給我們。</span><span class="sxs-lookup"><span data-stu-id="40c02-104">If you need help with getting or transferring numbers to us but need help please let us know how we can help you in an email and send it to us.</span></span> <span data-ttu-id="40c02-105">在您的電子郵件說明要求中，您可以根據自己的需求，包含詳細資料，例如組織識別碼、網域、您需要協助的號碼類型、授權人員與您的問題相關的其他重要詳細資料。</span><span class="sxs-lookup"><span data-stu-id="40c02-105">In your email Help request, include as many details as you can and include details such as your organization ID, domains, what types of numbers you need help with, how many numbers you want, authorizing person on the account and other important details about your issue.</span></span>
+<span data-ttu-id="a5e52-104">如果您需要從 Microsoft 取得電話號碼或將現有的電話號碼移植至 Microsoft 的協助，請傳送含下列資訊的電子郵件要求：</span><span class="sxs-lookup"><span data-stu-id="a5e52-104">If you need help with acquiring phone numbers from Microsoft or with porting existing phone numbers to Microsoft, send an email request with the following information:</span></span>
 
-<span data-ttu-id="40c02-106">然後，將您的要求傳送到下列其中一個電子郵件地址：</span><span class="sxs-lookup"><span data-stu-id="40c02-106">Then send your request to one of the following email addresses:</span></span>
+  - <span data-ttu-id="a5e52-105">您的組織識別碼（租使用者識別碼）或作用中網域。</span><span class="sxs-lookup"><span data-stu-id="a5e52-105">Your Organization ID (Tenant ID) or active domains.</span></span>
+  - <span data-ttu-id="a5e52-106">您需要協助的號碼類型（使用者/訂閱者、服務/付費或免費電話）。</span><span class="sxs-lookup"><span data-stu-id="a5e52-106">What types of numbers you need help with (User/Subscriber, Service/Toll, or Toll-Free).</span></span>
+  - <span data-ttu-id="a5e52-107">您需要多少數位（如果這是用於取得編號）。</span><span class="sxs-lookup"><span data-stu-id="a5e52-107">How many numbers you require (if this is for number acquisition).</span></span>
+  - <span data-ttu-id="a5e52-108">根據您的要求，在客戶上授權人員及其他重要的詳細資料。</span><span class="sxs-lookup"><span data-stu-id="a5e52-108">Authorizing person on the account and other important details based on your request.</span></span>
 
-- <span data-ttu-id="40c02-107">如需美國境內電話號碼的說明，請[傳送您的要求](mailto:ptn@microsoft.com)。</span><span class="sxs-lookup"><span data-stu-id="40c02-107">For help with phone numbers inside the U.S., [send your request](mailto:ptn@microsoft.com).</span></span>
-- <span data-ttu-id="40c02-108">如需美國以外的電話號碼的說明，請[傳送您的要求](mailto:ptneu@microsoft.com)。</span><span class="sxs-lookup"><span data-stu-id="40c02-108">For help with phone numbers outside the U.S., [send your request](mailto:ptneu@microsoft.com).</span></span>
+<span data-ttu-id="a5e52-109">完成所有資訊之後，請將您的要求傳送至下列適用于您要求的電子郵件地址之一：</span><span class="sxs-lookup"><span data-stu-id="a5e52-109">Once you have all the information, send us your request to one the following email addresses that is applicable to your request:</span></span>
+- <span data-ttu-id="a5e52-110">**數位移植**</span><span class="sxs-lookup"><span data-stu-id="a5e52-110">**Number Porting**</span></span>
+    - <span data-ttu-id="a5e52-111">若要將電話號碼移植**到美國或加拿大內**，[請在 ptn@microsoft.com 傳送電子郵件給我們](mailto:ptn@microsoft.com)。</span><span class="sxs-lookup"><span data-stu-id="a5e52-111">Porting telephone numbers **inside the United States or Canada**, [please send us an email at ptn@microsoft.com](mailto:ptn@microsoft.com).</span></span>
+    - <span data-ttu-id="a5e52-112">在**美國或加拿大以外的**地方移植電話號碼，[請在 ptneu@microsoft.com 傳送電子郵件給我們](mailto:ptneu@microsoft.com)。</span><span class="sxs-lookup"><span data-stu-id="a5e52-112">Porting telephone numbers **outside the United States or Canada**, [please send us an email at ptneu@microsoft.com](mailto:ptneu@microsoft.com).</span></span>
+    
+- <span data-ttu-id="a5e52-113">**數量採集**</span><span class="sxs-lookup"><span data-stu-id="a5e52-113">**Number Acquisition**</span></span>
+    - <span data-ttu-id="a5e52-114">取得下列任何國家/地區的新電話號碼：**華南、法國、德國、英國、愛爾蘭、荷蘭、西班牙、瑞典、瑞士、西班牙、瑞典、瑞士**，[請在 ptneu@microsoft.com 傳送電子郵件給我們](mailto:ptneu@microsoft.com)</span><span class="sxs-lookup"><span data-stu-id="a5e52-114">Acquiring new telephone numbers for any of the following countries: **Belgium, France, Germany, Great Britain, Ireland, Netherlands, Spain, Sweden, Switzerland**, [please send us an email at ptneu@microsoft.com](mailto:ptneu@microsoft.com)</span></span>
+    - <span data-ttu-id="a5e52-115">為**世界各地的其他**人取得新的電話號碼，[請在 gcstnmsd@microsoft.com 傳送電子郵件給我們](mailto:gcstnmsd@microsoft.com)。</span><span class="sxs-lookup"><span data-stu-id="a5e52-115">Acquiring new telephone numbers for the **Rest of the World** , [please send us an email at gcstnmsd@microsoft.com](mailto:gcstnmsd@microsoft.com).</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="40c02-109">相關主題</span><span class="sxs-lookup"><span data-stu-id="40c02-109">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="a5e52-116">相關主題</span><span class="sxs-lookup"><span data-stu-id="a5e52-116">Related topics</span></span>
 
-[<span data-ttu-id="40c02-110">通話方案所用的不同類型的電話號碼</span><span class="sxs-lookup"><span data-stu-id="40c02-110">Different kinds of phone numbers used for Calling Plans</span></span>](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[<span data-ttu-id="a5e52-117">通話方案所用的不同類型的電話號碼</span><span class="sxs-lookup"><span data-stu-id="a5e52-117">Different kinds of phone numbers used for Calling Plans</span></span>](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[<span data-ttu-id="40c02-111">管理貴組織的電話號碼</span><span class="sxs-lookup"><span data-stu-id="40c02-111">Manage phone numbers for your organization</span></span>](manage-phone-numbers-for-your-organization.md)
+[<span data-ttu-id="a5e52-118">管理貴組織的電話號碼</span><span class="sxs-lookup"><span data-stu-id="a5e52-118">Manage phone numbers for your organization</span></span>](manage-phone-numbers-for-your-organization.md)
 
-[<span data-ttu-id="40c02-112">緊急通話條款及條件</span><span class="sxs-lookup"><span data-stu-id="40c02-112">Emergency calling terms and conditions</span></span>](../emergency-calling-terms-and-conditions.md)
+[<span data-ttu-id="a5e52-119">緊急通話條款及條件</span><span class="sxs-lookup"><span data-stu-id="a5e52-119">Emergency calling terms and conditions</span></span>](../emergency-calling-terms-and-conditions.md)
   
