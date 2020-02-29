@@ -15,12 +15,12 @@ f1.keywords:
 description: 瞭解資訊障礙及其對團隊有何影響。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0d5b5964f3fcf0f4d24fee44121f868d573eb6e9
-ms.sourcegitcommit: 93a8bd330c9a8ced81cd3eafb7b7236e9ed2066f
+ms.openlocfilehash: a3f4f7f256be21b9b3f8063ed34a25afb4af6971
+ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/13/2020
-ms.locfileid: "41962132"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "42341856"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft 團隊中的資訊障礙
 
@@ -38,14 +38,21 @@ ms.locfileid: "41962132"
 
 資訊障礙的主要驅動因素是來自金融服務行業。 財務行業監管機構（[FINRA]( http://www.finra.org)）會在成員公司內審查資訊的壁壘與利益衝突，並提供如何管理此類衝突（FINRA 2241、[債務研究規章注意事項 15-31](http://www.finra.org/sites/default/files/Regulatory-Notice-15-31_0.pdf)）的指導方針。  
 
-## <a name="when-should-i-use-information-barriers"></a>我何時應該使用資訊障礙？
+不過，由於資訊障礙的推出，許多其他區域都會發現它們很有用。 其他常見的案例包括：
+
+- 教育：一學校的學生無法查詢其他學校學生的連絡人詳細資料。
+- 法律：維護一個用戶端的律師所取得之資料的機密性，不受代表不同用戶端之同一事務所的律師存取。
+- 政府：資訊存取和控制限制在各個部門和群組中。
+- [專業服務]：公司中的一組人員只能透過同盟或來賓存取權在客戶合作期間與用戶端或特定客戶進行交談。
+
+## <a name="when-to-use-information-barriers"></a>何時使用資訊障礙
 
 在下列情況下，您可能會想要使用資訊障礙：
 
 - 小組必須防止與特定其他團隊進行通訊或共用資料。
 - 小組不能與團隊以外的任何人通訊或共用資料。
 
-資訊屏障原則評估服務會判斷通訊是否符合資訊屏障原則。 
+資訊屏障原則評估服務會判斷通訊是否符合資訊屏障原則。
 
 ## <a name="managing-information-barrier-policies"></a>管理資訊屏障原則
 
@@ -58,29 +65,28 @@ ms.locfileid: "41962132"
 
 IB 相容性管理角色負責管理資訊屏障原則。 如需有關此角色的詳細資訊，請參閱[Office 365 安全性 & 合規性中心的許可權](https://docs.microsoft.com/office365/securitycompliance/permissions-in-the-security-and-compliance-center)。
 
-## <a name="when-are-information-barrier-policies-checked"></a>何時已核取資訊屏障原則？
+## <a name="information-barrier-triggers"></a>資訊屏障觸發程式
 
-在下列團隊事件發生時，會檢查資訊屏障原則：
+資訊屏障原則會在下列團隊事件發生時啟用：
 
 - **成員會新增至團隊**-每當您將使用者新增至團隊時，必須針對其他團隊成員的資訊屏障原則評估使用者的原則。 成功新增使用者之後，使用者就可以執行團隊中的所有職能，而不需要進一步檢查。 如果使用者的原則禁止將他們加入小組，使用者就不會顯示在搜尋中。
 - **要求新的聊天**：每次在兩個或多個使用者之間要求新的交談時，就會評估聊天，以確保它不違反任何資訊屏障原則。 如果交談違反資訊屏障原則，就不會啟動交談。
 - **使用者受邀加入會議**-當使用者受邀加入會議時，系統會針對其他團隊成員的原則評估使用者的原則，如果發生衝突，就不允許使用者加入會議。
 - **在兩個以上的使用者之間共用螢幕**-只要兩個或多個使用者共用畫面，就必須評估畫面共用，以確保它不會違反其他使用者的資訊屏障原則。 如果違反資訊屏障原則，就不允許使用螢幕共用。
 - **使用者將電話撥打電話（VOIP）放在團隊中**，只要使用者向其他使用者或群組使用者啟動語音通話，就會評估通話，確定它不會違反其他小組成員的資訊屏障原則。 如果有任何侵犯，語音通話會遭到封鎖。
-- **小組中的來賓使用者**也可以在小組中的來賓使用者也套用資訊屏障原則。 如果在貴組織的全域通訊清單中，來賓使用者需要可被探索，請參閱[管理 Office 365 群組中的來賓存取](https://docs.microsoft.com/office365/admin/create-groups/manage-guest-access-in-groups?view=o365-worldwide#can-i-make-guest-objects-visible-in-the-global-address-list)。 一旦訪客使用者可被發現，您就可以[定義資訊屏障原則](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)。 
+- **小組中的來賓使用者**也可以在小組中的來賓使用者也套用資訊屏障原則。 如果在貴組織的全域通訊清單中，來賓使用者需要可被探索，請參閱[管理 Office 365 群組中的來賓存取](https://docs.microsoft.com/office365/admin/create-groups/manage-guest-access-in-groups?view=o365-worldwide#can-i-make-guest-objects-visible-in-the-global-address-list)。 一旦訪客使用者可被發現，您就可以[定義資訊屏障原則](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)。
 
-## <a name="what-happens-to-existing-chat-threads-when-a-policy-is-changed"></a>變更原則後，現有的聊天線程會發生什麼情況？
+## <a name="how-policy-changes-impact-existing-chats"></a>原則變更對現有聊天有何影響
 
 當資訊屏障原則管理員對原則進行變更，或由於使用者的設定檔變更（例如作業變更或類似的原因）而導致策略變更生效時，資訊屏障原則會自動評估服務搜尋成員，以確保小組成員不違反任何原則。
 
-如果使用者之間已有聊天或其他通訊，且已設定新的原則，或是已變更現有的原則，此服務會評估現有的通訊，以確保仍允許進行通訊。 
+如果使用者之間已有聊天或其他通訊，且已設定新的原則，或是已變更現有的原則，此服務會評估現有的通訊，以確保仍允許進行通訊。
 
 - **1:1 聊天**-如果已不再允許兩個使用者之間的通訊（如果原則封鎖通訊已套用至一或兩個使用者），系統會封鎖進一步通訊，聊天交談就會變成隻讀狀態。
-- **群組聊天**-如果已不再允許來自某個使用者的通訊（例如，如果使用者變更了工作），則該使用者與違反該原則的其他使用者都可能會從群組聊天中移除，且不允許進一步與群組通訊。 使用者仍然可以看到舊的交談（這會是唯讀的），但無法看到或參與與群組的任何新交談。 如果新的或已變更的原則將通訊套用到多個使用者，則受該原則影響的使用者可能會從群組聊天中移除。 他們仍能看到舊的交談。 
+- **群組聊天**-如果已不再允許來自某個使用者的通訊（例如，如果使用者變更了工作），則該使用者與違反該原則的其他使用者都可能會從群組聊天中移除，且不允許進一步與群組通訊。 使用者仍然可以看到舊的交談（這會是唯讀的），但無法看到或參與與群組的任何新交談。 如果新的或已變更的原則將通訊套用到多個使用者，則受該原則影響的使用者可能會從群組聊天中移除。 他們仍能看到舊的交談。
 - **小組**-已從群組中移除的任何使用者都會從小組中移除，而且將無法查看或參與現有或新的交談。
 
-
-## <a name="what-will-users-experience-if-another-user-is-blocked"></a>如果其他使用者遭到封鎖，使用者會有什麼體驗？
+## <a name="scenario-a-user-in-an-existing-chat-becomes-blocked"></a>案例：現有聊天中的使用者遭到封鎖
 
 目前，如果資訊屏障原則封鎖其他使用者，使用者就會遇到下列問題：
 
@@ -94,11 +100,12 @@ IB 相容性管理角色負責管理資訊屏障原則。 如需有關此角色�
 - [**通話連絡人**]-使用者可以在通話連絡人清單中看到封鎖的使用者，但系統會辨識封鎖的使用者，而使用者唯一可以執行的動作就是刪除它們。
 - **Skype 至團隊遷移**-在商務用 skype 中進行團隊遷移期間，所有使用者（即使是資訊屏障原則所封鎖），都會將它遷移至小組，然後將按照上述步驟進行處理。
 
-## <a name="will-files-and-sharepoint-site-experiences-connected-to-teams-honor-ib-policy"></a>檔案和 SharePoint 網站體驗會與團隊進行連結來服從 IB 原則嗎？
- 
+## <a name="teams-policies-and-sharepoint-sites"></a>團隊原則與 SharePoint 網站
+
 建立小組後，SharePoint 網站就會提供給小組，並與 [檔案體驗] 相關聯。 此 SharePoint 網站和檔案的存取權會採用組織的 IB，亦即，只有其針對每個 IB 原則的 IB 區段相符的使用者才能存取。 即使在檔案共用時，IB 原則也會生效。
 
-例如：在 Contoso 銀行公司中，使用者「Sesha@contosobank.onmicrosoft.com」屬於投資銀行區段，而使用者 ' Nikita@contosobank.onmicrosoft.com ' 屬於區段建議。 組織的 IB 原則會封鎖這兩個區段之間的通訊與共同作業。 當使用者 Sesha 建立投資銀行區段的小組時，只有投資銀行區段使用者才能存取該小組和支援該小組的 SharePoint 網站。 即使她擁有 [網站] 連結，使用者 Nikita 還是無法存取該網站。
+例如：在 Contoso 銀行公司中，使用者「Sesha@contosobank.onmicrosoft.com」屬於投資銀行區段，而使用者 ' Nikita@contosobank.onmicrosoft.com ' 屬於區段建議。 組織的 IB 原則會封鎖這兩個區段之間的通訊與共同作業。
+當使用者 Sesha 建立投資銀行區段的小組時，只有投資銀行區段使用者才能存取該小組和支援該小組的 SharePoint 網站。 即使她擁有 [網站] 連結，使用者 Nikita 還是無法存取該網站。
 
 ## <a name="required-licenses-and-permissions"></a>所需的授權和許可權
 
@@ -111,4 +118,3 @@ IB 相容性管理角色負責管理資訊屏障原則。 如需有關此角色�
 - 若要設定資訊屏障原則，請參閱[定義資訊屏障的原則](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)。
 
 - 若要編輯或移除資訊屏障原則，請參閱[編輯（或移除）資訊屏障原則](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-edit-segments-policies.md)
-

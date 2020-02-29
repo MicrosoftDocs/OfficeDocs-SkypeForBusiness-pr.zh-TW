@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 45e4c49824df9a098af5251d13234eae48db5619
-ms.sourcegitcommit: 152eb7daacd0a36f42aa441633c12c7037a0969a
+ms.openlocfilehash: 5b687d528f7cb593039fdafd9dcc6ec08ec66372
+ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "42288621"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "42341641"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Microsoft 團隊中的安全性與合規性
 
@@ -56,7 +56,7 @@ Microsoft 團隊提供高級威脅防護（ATP），以及 SharePoint 和商務�
 
 ### <a name="safe-links"></a>安全連結
 
-但此時，在 Microsoft 團隊中並不提供 ATP 安全連結，這些專案會在日後推出，且在這種情況下，我們會更新此內容，讓您知道。 在此同時，如需 O365 安全連結的相關資訊，請參閱[Office 365 ATP 安全連結](https://docs.microsoft.com/office365/securitycompliance/atp-safe-links#how-to-get-atp-safe-links-protection)。
+不過，目前在 Microsoft 團隊中並不提供 ATP 安全連結，現在我們是透過我們的技術採納計畫（輕觸）來進行公開預覽，而且一般可用性的發行日期未設定，我們將在該時間到達時更新此文章。 同時，如需 O365 安全連結的相關資訊，請參閱[Office 365 ATP 安全連結](https://docs.microsoft.com/office365/securitycompliance/atp-safe-links#how-to-get-atp-safe-links-protection)。
 
 ### <a name="how-conditional-access-policies-work-for-teams"></a>條件式存取原則對於團隊的運作方式
 

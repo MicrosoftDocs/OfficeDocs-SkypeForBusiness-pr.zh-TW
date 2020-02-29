@@ -23,21 +23,30 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: 當您取得貴組織的電話號碼或移植（轉移）號碼時，您可能需要在 PSTN 服務台取得說明和支援。
-ms.openlocfilehash: 819baa319fb0cd8d53e163560c6de888ecd177c9
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 6d400e51270b411054802240216d9e957a68f054
+ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825710"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "42341787"
 ---
-# <a name="pstn-service-desk-help"></a>PSTN service 服務台說明
+# <a name="pstn-service-desk-contact"></a>PSTN Service 服務台連絡人
 
-如果您需要取得或轉接號碼給我們的協助，但需要協助，請告訴我們我們可以在電子郵件中協助您，並將它傳送給我們。 在您的電子郵件說明要求中，您可以根據自己的需求，包含詳細資料，例如組織識別碼、網域、您需要協助的號碼類型、授權人員與您的問題相關的其他重要詳細資料。
+如果您需要從 Microsoft 取得電話號碼或將現有的電話號碼移植至 Microsoft 的協助，請傳送含下列資訊的電子郵件要求：
 
-然後，將您的要求傳送到下列其中一個電子郵件地址：
+  - 您的組織識別碼（租使用者識別碼）或作用中網域。
+  - 您需要協助的號碼類型（使用者/訂閱者、服務/付費或免費電話）。
+  - 您需要多少數位（如果這是用於取得編號）。
+  - 根據您的要求，在客戶上授權人員及其他重要的詳細資料。
 
-- 如需美國境內電話號碼的說明，請[傳送您的要求](mailto:ptn@microsoft.com)。
-- 如需美國以外的電話號碼的說明，請[傳送您的要求](mailto:ptneu@microsoft.com)。
+完成所有資訊之後，請將您的要求傳送至下列適用于您要求的電子郵件地址之一：
+- **數位移植**
+    - 若要將電話號碼移植**到美國或加拿大內**，[請在 ptn@microsoft.com 傳送電子郵件給我們](mailto:ptn@microsoft.com)。
+    - 在**美國或加拿大以外的**地方移植電話號碼，[請在 ptneu@microsoft.com 傳送電子郵件給我們](mailto:ptneu@microsoft.com)。
+    
+- **數量採集**
+    - 取得下列任何國家/地區的新電話號碼：**華南、法國、德國、英國、愛爾蘭、荷蘭、西班牙、瑞典、瑞士、西班牙、瑞典、瑞士**，[請在 ptneu@microsoft.com 傳送電子郵件給我們](mailto:ptneu@microsoft.com)
+    - 為**世界各地的其他**人取得新的電話號碼，[請在 gcstnmsd@microsoft.com 傳送電子郵件給我們](mailto:gcstnmsd@microsoft.com)。
 
 ## <a name="related-topics"></a>相關主題
 

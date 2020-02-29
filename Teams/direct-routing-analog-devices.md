@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 閱讀本文以瞭解如何將模擬裝置搭配 Microsoft Phone 系統 Direct 路由搭配使用。
-ms.openlocfilehash: c1720a7f702babbf677ab8f1de75014c629e6d76
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 525e898bd0eafe88d6893249465734d7c33a10b2
+ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192166"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "42341798"
 ---
 # <a name="how-to-use-analog-devices-with-phone-system-direct-routing"></a>如何將模擬裝置與電話系統直接路由搭配使用
 
@@ -45,7 +45,7 @@ ms.locfileid: "42192166"
 4. 將語音路由指派給 PSTN 使用量
 5. 啟用線上使用者
 6. 將語音路線原則指派給使用者
-7. 將語音路線原則指派給類比裝置
+7. 建立類比裝置的語音路線
 
 如需如何將 ATA 連線至 SBC 並設定 SBC 的相關資訊，請參閱您的 SBC 製造商配置指南：
 - [AudioCodes 設定檔](https://www.audiocodes.com/media/14278/connecting-audiocodes-sbc-with-analog-device-to-microsoft-teams-direct-routing-enterprise-model-configuration-note.pdf)
@@ -104,7 +104,7 @@ PS C:\> Set-CsUser -Identity "exampleuser@contoso.com" -EnterpriseVoiceEnabled $
 PS C:\> Grant-CsOnlineVoiceRoutingPolicy -Identity "exampleuser@contoso.com" -PolicyName "AnalogInteropPolicy" 
 ```
 
-## <a name="step-7--assign-a-voice-route-to-an-analog-device"></a>步驟7：將語音路由指派給類比裝置
+## <a name="step-7--create-a-voice-route-for-an-analog-device"></a>步驟7：為類比裝置建立語音路線
 
 這個命令會建立一個含有「類比-interop」的 [身分識別] 的線上語音路由，該號碼範圍 + 1425 4XX XX XX 適用于線上閘道 sbc.contoso.com 清單，並將其與線上 PSTN 使用 "互通性" 關聯。  針對每個具有適當電話號碼模式的類比裝置，都應該執行這個命令。 或者，當您在上述其中一個步驟中設定線上語音路由時，可以使用類比裝置的適當數位模式。
 

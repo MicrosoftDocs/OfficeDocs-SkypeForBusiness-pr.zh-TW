@@ -19,12 +19,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ca20e7293f20d68ea98f61a98090f7892ba294e8
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 6b06e675e93dd022847fc7af202045c3ecdebe63
+ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836943"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "42341777"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>使用 Microsoft Teams 限域目錄搜尋
 
@@ -53,7 +53,7 @@ Microsoft 團隊可讓組織為使用者提供目錄的自訂視圖。 Microsoft
 
 2. 在 Microsoft [團隊管理中心] 中，選取 [全**組織性設定** > **團隊設定**]。
 
-3. 在 [**搜尋**] 底下，在**使用 Exchange 通訊錄原則（APB）的 [小組] 中的 [範圍目錄搜尋**] 旁，開啟 **[開啟]。**
+3. 在 [**搜尋**] 底下，在**使用 Exchange 通訊錄原則（ABP）的 [小組] 中的 [範圍目錄搜尋**] 旁，開啟 **[開啟]。**
 
     ![Microsoft 團隊系統管理中心的作用中目錄搜尋範圍](media/teams-scoped-directory-search-image1.png)
 

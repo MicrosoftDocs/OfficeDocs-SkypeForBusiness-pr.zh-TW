@@ -18,12 +18,12 @@ description: 直接路由呼叫通知
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 3d53245d241435e869dbdbeb15dcb1c81e18ff96
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 0320ebc6abfc0e3f3d720fbab03abc698b26849c
+ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837593"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "42341803"
 ---
 # <a name="manage-call-notifications"></a>管理來電通知
 
@@ -45,7 +45,7 @@ ms.locfileid: "41837593"
 
 原因： SIP;原因 = 200; 文字「通話完成于別處」 
 
-請注意，通話不會在 Microsoft Phone 系統的通話詳細資料記錄中登入，因為這是成功的呼叫。 呼叫將會註冊為「嘗試」，其最終 SIP 程式碼為「487」、最終的 Microsoft 子代碼 "540200"，以及最後一個 SIP 程式碼片語「在別處完成通話」。   （若要查看通話詳細資料記錄，請移至 [團隊管理員] 入口網站、[分析與報告]、[使用方式報告]，然後選取 PSTN 使用量）。
+請注意，通話不會在 Microsoft Phone 系統的通話詳細資料記錄中登入，因為這是成功的呼叫。 呼叫將會註冊為「嘗試」，其最終 SIP 程式碼為「487」、最終的 Microsoft 子代碼 "540200"，以及最後一個 SIP 程式碼片語「在別處完成通話」。  （若要查看通話詳細資料記錄，請移至 [團隊管理員] 入口網站、[分析與報告]、[使用方式報告]，然後選取 PSTN 使用量）。
 
 
 下圖說明分叉1的 SIP 階梯，說明通話流程，以及取消訊息中的預期原因。 
