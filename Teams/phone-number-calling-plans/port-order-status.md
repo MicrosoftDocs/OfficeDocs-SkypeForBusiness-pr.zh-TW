@@ -17,12 +17,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: '瞭解如何取得您的埠順序的狀態，以及您可以對這些訂單採取的不同動作。 '
-ms.openlocfilehash: 2c141bab63990c39ef7fd08837eb4ad99d72682d
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 67a69ff2a86a57e16d157fa1a0b4b36ca3c2e036
+ms.sourcegitcommit: c4f13aa4947df606d38694a7e544b08be7ce20d1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827951"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42370402"
 ---
 # <a name="whats-the-status-of-your-port-orders"></a>您的移轉訂單狀態為何？
 
@@ -30,19 +30,19 @@ ms.locfileid: "41827951"
 
 下表列出 [埠順序] 狀態，以及視需要您可以採取的動作。
 
-|**狀態值**|**您可以查看訂單嗎？**|**您可以編輯訂單嗎？**|**您可以取消訂單嗎？**|**您可以刪除訂單嗎？**|**說明**|
+|**狀態值**|**您可以查看訂單嗎？**|**您可以編輯訂單嗎？**|**您可以取消訂單嗎？**|**您可以刪除訂單嗎？**|**描述**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |**後處理** <br/> |是  <br/> |否  <br/> |是  <br/> |否  <br/> |系統管理員建立訂單，且已由 Microsoft 收到。  <br/> |
 |**與承運人聯繫** <br/> |是  <br/> |否  <br/> |是  <br/> |否  <br/> |訂單已由 Microsoft 接收並獲核准，我們正在使用無法取得的承運人來核准。  <br/> |
 |**已核准轉接** <br/> |是  <br/> |確認訂單承諾（FOC）  <br/> |是  <br/> |否  <br/> |失敗的承運人已接受該訂單，且已設定 FOC 日期。  <br/> |
 |**轉接擱置** <br/> |是  <br/> |否  <br/> |否  <br/> |否  <br/> |傳送時間少於24小時，因此無法再編輯或取消訂單。  <br/> |
-|**出錯** <br/> |否  <br/> |是  <br/> |是  <br/> |是（此時，如果發生錯誤，您就無法刪除埠順序。 需要重新建立埠順序，或者您需要與[PSTN service 服務台](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)的說明。  <br/> |遺失的載波已拒絕訂單。  <br/> |
+|**出錯** <br/> |否  <br/> |是  <br/> |是  <br/> |是（此時，如果發生錯誤，您就無法刪除埠順序。 必須重新建立埠順序，否則您需要與[PSTN 服務台](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)取得聯繫。  <br/> |遺失的載波已拒絕訂單。  <br/> |
 |**完畢** <br/> |是  <br/> |否  <br/> |否  <br/> |否  <br/> |已成功傳送數位。  <br/> |
 |**取消** <br/> |否  <br/> |是  <br/> |否  <br/> |否  <br/> |系統管理員已取消訂單。  <br/> |
 
 如需完整的逐步指示，請參閱[將電話號碼轉移至團隊](transfer-phone-numbers-to-teams.md)。
 
-如果您需要協助，或如果您需要取得更多電話號碼，請聯絡[PSTN 服務台](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)說明。
+如果您需要協助，或如果您需要取得更多電話號碼，請聯絡[PSTN 服務台](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)。
 
 ## <a name="related-topics"></a>相關主題
 

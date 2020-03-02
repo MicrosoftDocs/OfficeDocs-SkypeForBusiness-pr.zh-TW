@@ -17,12 +17,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: ''
-ms.openlocfilehash: 0f846029002529d221b079140cf7de8ae618f26c
-ms.sourcegitcommit: f3d4f4aabe31c5516507dfacbbd61cf0ae362d46
+ms.openlocfilehash: b87684b6fbb73115540e20c72636200e61ca0e88
+ms.sourcegitcommit: c4f13aa4947df606d38694a7e544b08be7ce20d1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42089736"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42370412"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>將電話號碼轉移至 Microsoft 團隊
 
@@ -87,7 +87,7 @@ ms.locfileid: "42089736"
 
 ## <a name="what-happens-next"></a>接下來會發生什麼事？
 
-當我們收到您的埠順序時，您會收到一封確認您要求的電子郵件。 每日都會檢查並更新您的要求，您會在電子郵件中收到其進度和狀態的通知。 如果您的要求遭到拒絕，系統會要求您開啟支援票證。
+當我們收到您的埠順序時，您會收到一封確認您要求的電子郵件。 每日都會檢查並更新您的要求，您會在電子郵件中收到其進度和狀態的通知。 如果您的埠要求遭到遺失的載體拒絕，請與[PSTN 服務服務台](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)聯繫。
 
 若要查看您的埠順序狀態，請在 Microsoft 團隊系統管理中心的左導覽中，移至 > 的**語音** > **埠訂單**，然後按一下 [**訂單歷程記錄**]。 每個埠訂單狀態都列在 [**狀態**] 欄中。 若要深入瞭解，請參閱[您的埠訂單狀態為何？](port-order-status.md)
 
