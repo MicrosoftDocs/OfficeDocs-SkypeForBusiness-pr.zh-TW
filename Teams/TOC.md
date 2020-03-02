@@ -4,6 +4,8 @@
 
 # [架構和電話語音解決方案海報](teams-architecture-solutions-posters.md)  
 
+# [支援遠端工作者 (WFH)](support-remote-work-with-teams.md)
+
 # 訓練 
 ## [概觀](training-microsoft-teams-landing-page.md)
 ## [Teams 的講師帶領訓練](instructor-led-training-teams-landing-page.md)
@@ -157,6 +159,7 @@
 #### [變更音訊會議橋接器的設定](change-the-settings-for-an-audio-conferencing-bridge.md)
 #### [查看音訊會議的號碼清單](see-a-list-of-audio-conferencing-numbers-in-teams.md)
 #### [設定音訊會議的自動語音應答語言](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)
+#### [為使用者設定會議撥出確認](set-up-meeting-dial-out-confirmation.md)
 
 
 ### [管理貴組織的音訊會議設定](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
