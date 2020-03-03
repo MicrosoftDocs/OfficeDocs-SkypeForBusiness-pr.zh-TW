@@ -45,11 +45,11 @@ ms.locfileid: "42342900"
     
 3. 閱讀有關遠端工作的新內容，並與您的使用者分享：
         
-      - Teams 部落格 (2020 年 2 月 28 日)：[使用 Microsoft Teams 在家工作的 4 個秘訣](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/4-tips-for-working-from-home-with-microsoft-teams-by-lola/ba-p/1202083)
+      - Teams 部落格 (2020 年 2 月 28 日)：[使用 Microsoft Teams 在家工作的 4 個祕訣](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/4-tips-for-working-from-home-with-microsoft-teams-by-lola/ba-p/1202083) (英文)
 
       - [使用 Office 365 共同作業](https://support.office.com/article/Collaborate-with-Office-365-ac05a41e-0b49-4420-9ebc-190ee4e744f4)
 
-      - [使用 Teams 和 Office 365 遠端工作](https://support.microsoft.com/help/4549995/working-remotely-with-teams-and-office-365)
+      - [使用 Teams 和 Office 365 遠端工作](https://support.microsoft.com/help/4549995/working-remotely-with-teams-and-office-365) (英文)
 
 3.  鼓勵每個人[安裝](get-clients.md#mobile-clients)並使用行動裝置應用程式：[iOS](https://go.microsoft.com/fwlink/?LinkId=835758)   [Android](https://go.microsoft.com/fwlink/p/?linkid=2102168)
 
@@ -70,7 +70,7 @@ ms.locfileid: "42342900"
 
 ## <a name="personal-considerations"></a>個人考量
 
-以下是您在成功在家工作的一些秘訣：
+以下是您在成功在家工作的一些祕訣：
 
 - 備妥限定的實際工作空間，光線良好且適當的人體工學設備。
 
