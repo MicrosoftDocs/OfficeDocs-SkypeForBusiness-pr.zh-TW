@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3f03c4cdd13ea63dfee6470843fea5e2dafeab7c
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 51afc464b5f6d0fa698250d1255315535e383bf8
+ms.sourcegitcommit: ed0ecb3b1250a23d3b91a5a33256aee1c3119db1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837443"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "42374320"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>規劃 Microsoft 365 政府版-GCC 部署
 
@@ -128,7 +128,7 @@ Microsoft 365 政府版-GCC 環境提供對雲端服務（包括 FedRAMP 適中�
 | | Skype 消費者-小組通話支援 | 離線 |
 | 檔案 | 近 | 離線 |
 | | Microsoft Teams | 離線 |
-| 存放 | App Store | 在政府積壓工作 |
+| 存放 | App Store | 離線 |
 | 檢索 | 錯誤資訊 | 離線 |
 | | 人員 | 離線 |
 | | 檔案 | 離線 |
@@ -140,7 +140,6 @@ Microsoft 365 政府版-GCC 環境提供對雲端服務（包括 FedRAMP 適中�
 | | eDiscovery | 離線 |
 
 > [!Note]
-
 > 當所有其他工作負載在 GCC 雲端中都是完整的，當所有其他的整合作業完成後，就能在小組中使用它們。
 
 
