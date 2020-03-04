@@ -21,12 +21,12 @@ ms.custom:
 ms.collection:
 - M365-collaboration
 description: 瞭解如何在您的組織中管理使用者排程的小組會議設定。
-ms.openlocfilehash: bed367c9c40bb7124235abf204bbfa0395859685
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 920069ed5f5687111d51411afce9499a2d5db5d2
+ms.sourcegitcommit: ab6099547846f048f1c4cc584a8c5cb8c386d22e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836463"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "42413300"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>在 Microsoft 團隊中管理會議設定
 
@@ -71,7 +71,9 @@ ms.locfileid: "41836463"
     - **合法 URL**如果您的組織有您希望其他人出於任何法律考慮的法律網站，請在這裡輸入 URL。
     - 說明**URL**如果您的組織有您希望其他人在遇到問題時要移至的支援網站，請在這裡輸入 URL。
     - **** 頁尾輸入要納入頁尾的文字。
-3. 等候一小時或如此，以傳播所做的變更。 然後排程小組會議，看看會議邀請看起來的樣子。  
+3. 按一下 [**預覽邀請**]，即可查看會議邀請的預覽。
+4. 完成後，請按一下 [**儲存**]。
+5. 等候一小時或如此，以傳播所做的變更。 然後排程小組會議，看看會議邀請看起來的樣子。  
 
 ## <a name="set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings"></a>設定您想要處理團隊會議即時媒體流量的方式
 
@@ -90,13 +92,13 @@ ms.locfileid: "41836463"
     ![系統管理中心之會議網路設定的螢幕擷取畫面](media/meeting-settings-network.png "Microsoft 團隊系統管理中心之團隊會議的網路設定的螢幕擷取畫面")
 
     - 若要允許將 DSCP 標記用於 QoS，請開啟**即時媒體流量的 [插入服務品質（QoS）] 標記**。 您只能選擇是否要使用標記;您無法針對每種流量類型設定自訂標記。 如需 DSCP 標記的詳細資訊，請參閱[選取 QoS 實現方法](QoS-in-Teams.md#select-a-qos-implementation-method)。
-    > [!NOTE] 
-    > 開啟**即時媒體流量的 [插入服務品質（QoS）] 標記**，也可讓您使用 UDP 埠3479（音訊）、3480（影片）和3481（共用）與傳輸中繼進行通訊。
+        > [!NOTE] 
+        > 開啟**即時媒體流量的 [插入服務品質（QoS）] 標記**，也可讓您使用 UDP 埠3479（音訊）、3480（影片）和3481（共用）與傳輸中繼進行通訊。
     - 若要指定埠範圍，請在 [**選取即時媒體流量的每個類型的埠範圍**] 旁，選取 [**指定埠範圍**]，然後輸入音訊、影片和螢幕共用的起始和結束埠。 需要選取此選項才能實現 QoS。
-    > [!IMPORTANT]
-    > 如果您選取 [**自動使用任何可用的埠**]，則會使用1024和65535之間的可用埠。 只有在未實現 QoS 時才使用這個選項。
-    >
-    > 選取太窄的埠範圍，將會導致呼叫中斷和通話品質不佳。 下列建議最小。
+        > [!IMPORTANT]
+        > 如果您選取 [**自動使用任何可用的埠**]，則會使用1024和65535之間的可用埠。 只有在未實現 QoS 時才使用這個選項。
+        >
+        > 選取太窄的埠範圍，將會導致呼叫中斷和通話品質不佳。 下列建議最小。
 
 如果您不確定要在您的環境中使用的埠範圍，下列設定就是良好的起點。 若要深入瞭解，請參閱[在 Microsoft 團隊中實施服務品質（QoS）](QoS-in-Teams.md)。 這些是所需的 DSCP 標記，以及團隊和 ExpressRoute 所使用的建議對應媒體埠範圍。
 
