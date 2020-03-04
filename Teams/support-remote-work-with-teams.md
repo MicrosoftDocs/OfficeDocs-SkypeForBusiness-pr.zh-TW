@@ -14,12 +14,12 @@ search.appverid: MET150
 description: 使用本指導方針來協助組織中的遠端工作者使用 Microsoft Teams 來提高生產力，尤其是當他們在家中工作 (WFH) 時，以因應 COVID-19 (冠狀病毒) 爆發的情況。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4fbdb875896ca07402d699f1ca2a28770cb46ee2
-ms.sourcegitcommit: ae65fb089d98665c4b26e0345bb96241fb893f0b
+ms.openlocfilehash: 80af76906697ef2510fe75d8764e8908cdbbd976
+ms.sourcegitcommit: ed0ecb3b1250a23d3b91a5a33256aee1c3119db1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "42342900"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "42374310"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>支援使用 Microsoft Teams 的遠端工作者
 
@@ -29,7 +29,7 @@ ms.locfileid: "42342900"
 
 1.  確定[所有人均開啟 Teams](assign-teams-licenses.md)
     
-      - 查看 [Teams Exploratory](teams-exploratory.md) 或 [Teams 免費版](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)，讓公司中所有人都能使用 Teams。
+      - 查看 [Teams E1 試用版](e1-trial-license.md)、[Teams Exploratory](teams-exploratory.md) 或 [Teams 免費版](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)，讓公司中所有人都能使用 Teams。
 
       - 遠端員工更仰賴會議和音訊會議。 如果您還沒有推出這些工作負載，請查看 [Teams 中的會議和研討會](deploy-meetings-microsoft-teams-landing-page.md)。
 
