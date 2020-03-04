@@ -16,21 +16,21 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eb0998579c29cd7405319600c436468bac2ec4e8
-ms.sourcegitcommit: 73376693670d12f3d9038d4ed604e6685ee21984
+ms.openlocfilehash: f2629f855485f0301f6a7fc576cd17a9e1c1f49d
+ms.sourcegitcommit: bc2e0f6f2ed3802ecc67275594db221c61824458
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41917018"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "42398171"
 ---
 <a name="manage-the-microsoft-teams-exploratory-license"></a>管理 Microsoft Teams Exploratory 授權
 =======================================================
 
-Microsoft Teams Exploratory 體驗可讓貴組織中擁有 Azure Active Directory (AAD) 和未取得 Teams 授權的使用者起始 Teams 探勘體驗。 系統管理員可以為其組織中的使用者開啟或關閉這項功能。 舊版 [Microsoft 商務雲端試用版](iw-trial-teams.md)現在稱為 Teams Exploratory 體驗。
+Microsoft Teams Exploratory 體驗可讓貴組織中擁有 Azure Active Directory (AAD) 和未取得 Teams 授權的使用者起始 Teams 探勘體驗。 系統管理員可以為其組織中的使用者開啟或關閉這項功能。 舊版 [Microsoft 商務雲端試用版](iw-trial-teams.md)現在已由 Teams Exploratory 體驗取代。
 
 ## <a name="whats-in-the-teams-exploratory-experience"></a>Microsoft Teams Exploratory 體驗有什麼內容？
 
-Teams Exploratory 體驗中的服務方案包含：
+系統管理員將在 Teams Exploratory 體驗中看到的服務方案如下：
  - Exchange Online (方案 1)
  - 適用於 Office 365 的 Flow
  - MyAnalytics 的深入解析
@@ -53,9 +53,10 @@ Teams Exploratory 體驗中的服務方案包含：
 
 ## <a name="whos-eligible"></a>符合使用資格的對象
 
+只要使用者有受管理的 AAD 網域電子郵件地址，且目前還沒有受指派 Teams 授權，就符合這種使用體驗。 例如，如果使用者擁有 Office 365 商務版 (其中不包含 Teams)，使用者就符合 Teams Exploratory 體驗使用資格。
+
 必須啟用使用者才能註冊應用程式和試用版 (於 Microsoft 365 系統管理中心)。 如需詳細資訊，請參閱本文稍後的[管理 Teams Exploratory 體驗](#manage-the-teams-exploratory-experience)。 
 
-沒有包含 Teams 的 Office 365 授權之使用者可以起始 Teams Exploratory 體驗。 例如，如果使用者擁有 Office 365 商務版 (其中不包含 Teams)，使用者就符合 Teams Exploratory 體驗使用資格。
 
 ## <a name="who-isnt-eligible"></a>不符合使用資格的對象
 
@@ -140,14 +141,22 @@ Teams Exploratory 體驗隨附 Exchange Online 授權，但在系統管理員指
 如需詳細資訊，請參閱 [Microsoft Teams 的 Office 365 授權](Office-365-licensing.md)。
 
 > [!NOTE]
-> 如果 Teams Exploratory 授權結束，且使用者未立即升級為包含 Teams 的訂閱，則不會移除使用者資料。 使用者仍然存在於 Azure Active Directory 中，且 Teams 內的所有資料仍會保留。 一旦將新授權指派給使用者以再次啟用 Teams 功能，所有內容仍會存在。 
+> 如果 Teams Exploratory 授權結束，且使用者未立即升級為包含 Teams 的訂閱，並不會移除使用者資料。 使用者仍然存在於 Azure Active Directory 中，且 Teams 內的所有資料仍會保留。 一旦將新授權指派給使用者以再次啟用 Teams 功能，所有內容仍會存在。 
 
 ## <a name="what-happens-to-legacy-microsoft-teams-commercial-cloud-trial-licenses"></a>舊版 Microsoft Teams 商業雲端試用版授權會發生什麼情況？
 
-自 2020 年 1 月中起，符合資格的使用者就可以開始使用最新的 Microsoft Teams Exploratory 體驗。 所有 Teams 商務雲端試用版授權將在試用到期之前，自動轉換為新服務。
+自 2020 年 2 月起，符合資格的使用者就可以開始使用最新的 Microsoft Teams Exploratory 體驗。 所有 Teams 商務雲端試用版授權將在試用到期之前，自動轉換為新服務。
 
 ### <a name="remove-a-teams-exploratory-license"></a>移除 Teams Exploratory 授權
 
 - 如果您想要透過 PowerShell 移除此授權，請參閱：[使用 Office 365 PowerShell 從使用者帳戶移除授權](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)
 
 - 如果您想要透過系統管理入口網站移除此授權，請參閱：[在商務用 Office 365 中移除使用者的授權](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)
+
+## <a name="how-long-does-the-teams-exploratory-experience-last"></a>Teams Exploratory 體驗持續時間？
+
+您在下一個 Enterprise 合約週年日或 2021 年 1 月或之後續約之前，無需任何額外費用即可獲得Microsoft Teams Exploratory 體驗。 屆時 Microsoft Exploratory 體驗授權的使用者將需要移至包括 Teams 的付費授權。 在該時間之後起始的任何 Microsoft Exploratory 體驗授權，在您的下一週年日或續約週期前都將維持免費提供。 
+
+### <a name="what-happens-if-an-end-user-initiates-the-microsoft-teams-exploratory-experience-just-before-my-anniversary-or-renewal-date"></a>如果使用者在週年日或續約日到期前起始 Microsoft Teams Exploratory 體驗，會發生什麼情況？
+
+在您的 Enterprise 合約週年日或續約日 90 天內起始的Microsoft Teams Exploratory 體驗授權，直到下一個週年日或續約週期為止前都不需移到付費授權。 
