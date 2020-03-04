@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.trainingvideos.enduser
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fb9de199cb02ee278b0e7bb1227ac41172d1a3e1
-ms.sourcegitcommit: ed0ecb3b1250a23d3b91a5a33256aee1c3119db1
+ms.openlocfilehash: 29b01c5d5bbbf386e834cf89cc2d80bff07de1ab
+ms.sourcegitcommit: 0286eec17b7eea486b857a69fb6c6166ef0799d2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "42374220"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "42408848"
 ---
 # <a name="end-user-training-for-microsoft-teams"></a>Microsoft 團隊的最終使用者訓練
 
@@ -121,6 +121,24 @@ ms.locfileid: "42374220"
         </div>
         </a>
     </li>
+<li>
+        <a href="https://aka.ms/TeamsLiveTraining">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="Users/people" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>參加即時、線上訓練</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
 </ul>
 
     
@@ -149,7 +167,7 @@ ms.locfileid: "42374220"
                     <div class="cardText">
                         <h3>團隊概覽</h3>
                         <p><a href="https://teamsdemo.office.com/">小組互動示範</a></p>  
-                        <p><a href="https://microsoftteams.eventbuilder.com/event/1772">隨選即時訓練： #ThisisTeams-團隊可以為您工作的方式</a></p>
+                        <p><a href="https://microsoftteams.eventbuilder.com/SayHellotoTeams">線上訓練：將 [Hello] 稱為 [團隊]</a></p>
                         <p><a href="https://aka.ms/teamsgettingstartedondemand">隨選即時訓練：團隊快速入門</a></p>
                     </div>
                 </div>
@@ -162,9 +180,9 @@ ms.locfileid: "42374220"
                 <div class="card">
                     <div class="cardText">
                         <h3>從商務用 Skype 切換至團隊</h3>
+                         <p><a href="https://microsoftteams.eventbuilder.com/Getting%20Started%20with%20Microsoft%20Teams">線上訓練：團隊快速入門</a></p>
                          <p><a href="https://support.office.com/article/switch-to-teams-from-skype-for-business-6295a0ae-4e8e-4bba-a100-64cc951cc964">文章：從商務用 Skype 切換至團隊</a></p>
-                         <p><a href="https://aka.ms/upgrade101ondemand">隨選即時訓練：升級101：瞭解從商務用 Skype 升級至團隊的升級</a></p>
-                        <p><a href="https://aka.ms/fromskypetoteamsondemand">點播即時訓練：從商務用 Skype 到團隊</a></p>
+                         <p><a href="https://www.youtube.com/watch?v=yCLqmvEp7Pk&list=PLXPr7gfUMmKzR7_jXN5s886apYoHNC3Xk&index=7&t=21s">隨選即時訓練：從商務用 Skype 切換至團隊</a></p>
                     </div>
                 </div>
             </div>
@@ -220,6 +238,7 @@ ms.locfileid: "42374220"
                        <p><a href="https://support.office.com/article/video-start-chats-and-make-calls-a864b052-5e4b-4ccf-b046-2e26f40e21b5">影片：開始聊天並撥打電話</a></p>
                        <p><a href="https://support.office.com/article/video-create-instant-meetings-with-meet-now-26e06837-853d-4df1-a729-06bf700d4ecf">影片：使用 [立即開會] 建立立即會議</a></p>
                        <p><a href="https://support.office.com/article/video-manage-meetings-ba44d0fd-da3c-4541-a3eb-a868f5e2b137">影片：管理會議</a></p>
+                       <p><a href="https://microsoftteams.eventbuilder.com/MaximizingTeamsMeetings">隨選訓練：與團隊召開有效的會議</a></p>
                     </div>
                 </div>
             </div>
@@ -235,6 +254,7 @@ ms.locfileid: "42374220"
                         <p><a href="https://support.office.com/article/tip-turn-a-file-into-a-tab-8c490008-3fb1-41b4-8152-6266b4474b05">影片：將檔案轉換為索引標籤</a></p>
                         <p><a href="https://support.office.com/article/how-to-use-the-command-box-13c4e429-7324-4886-b377-5dbed539193b">影片：使用命令框</a></p>
                         <p><a href="https://www.youtube.com/watch?v=wYrRCRphrp0">影片：命令列概覽</a></p>
+                        <p><a href="https://aka.ms/LearnTeamsApps">隨選訓練：瞭解如何在團隊中使用應用程式</a></p>
                     </div>
                 </div>
             </div>
