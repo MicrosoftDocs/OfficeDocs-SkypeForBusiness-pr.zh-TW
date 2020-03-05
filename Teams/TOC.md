@@ -20,33 +20,33 @@
 <!-- ============================================================ -->
 # 開始使用
 ## [概觀](get-started-with-teams-quick-start.md)
-## [步驟 1：建立您的首批小組和頻道](get-started-with-teams-create-your-first-teams-and-channels.md)
+## [步驟 1：建立您的首批團隊和頻道](get-started-with-teams-create-your-first-teams-and-channels.md)
 ## [步驟 2：讓早期採用者快速上手](get-started-with-teams-onboard-early-adopters.md)
 ## [步驟 3：監視使用情況和意見反應](get-started-with-teams-monitor-usage-and-feedback.md)
 ## [步驟 4：規劃推出至整個組織](get-started-with-teams-resources-for-org-wide-rollout.md)
 
 <!-- ============================================================ -->
 
-# 聊天、小組、頻道和應用程式
+# 聊天、團隊、頻道和應用程式
 ## [規劃您的部署](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
-## [使用小組顧問來推行 Teams](use-advisor-teams-roll-out.md)
+## [使用 Advisor for Teams 來推行 Teams](use-advisor-teams-roll-out.md)
 ## [團隊和頻道概觀](teams-channels-overview.md)
 ## [私人頻道概觀](private-channels.md)
 ## [管理私人頻道的生命週期](private-channels-life-cycle-management.md)
 ## [在 Teams 中指派團隊擁有者和成員](assign-roles-permissions.md)
-## [小組的動態成員資格概觀](dynamic-memberships.md)
-## [在 Teams 中組織小組的最佳做法](best-practices-organizing.md)
-## [在 Teams 中建立全組織小組](create-an-org-wide-team.md)
-## [管理小組和頻道原則](teams-policies.md)
+## [團隊的動態成員資格概觀](dynamic-memberships.md)
+## [在 Teams 中組織團隊的最佳做法](best-practices-organizing.md)
+## [在 Teams 中建立全組織團隊](create-an-org-wide-team.md)
+## [管理團隊和頻道原則](teams-policies.md)
 ## [適用於 Teams 的敏感度標籤](sensitivity-labels.md)
-## [在 Teams 中管理私人小組的探索](manage-discovery-of-private-teams.md)
+## [在 Teams 中管理私人團隊的探索](manage-discovery-of-private-teams.md)
 ## [在 Teams 中設定頻道裁決](manage-channel-moderation-in-teams.md)
 ## [管理訊息原則](messaging-policies-in-teams.md)
 ## [Teams 中使用者的目前狀態](presence-admins.md)
 ## [在 Teams 中管理標籤](manage-tags.md)
-## [在 Teams 中檢視跨小組和各個小組的分析](teams-analytics-and-reports/cross-team-per-team-analytics.md)
-## [小組的到期和更新](team-expiration-renewal.md)
-## [封存或刪除小組](archive-or-delete-a-team.md)
+## [在 Teams 中檢視跨團隊和各個團隊的分析](teams-analytics-and-reports/cross-team-per-team-analytics.md)
+## [團隊的到期和更新](team-expiration-renewal.md)
+## [封存或刪除團隊](archive-or-delete-a-team.md)
 ## [從 Slack 移轉到 Teams](migrate-slack-to-teams.md)
 ## [適用於中小型企業的 Teams 範本](smb-templates.md)
 
@@ -76,12 +76,12 @@
 ### 來賓存取
 #### [關於來賓存取](guest-access.md)
 #### [來賓存取檢查清單](guest-access-checklist.md)
-#### [來賓如何加入小組](guest-joins.md)
+#### [來賓如何加入團隊](guest-joins.md)
 #### [來賓體驗像什麼](guest-experience.md)
 #### [在 Teams 中授權來賓存取](teams-dependencies.md)
 #### [在 Teams 中開啟或關閉來賓存取](set-up-guests.md)
 #### [在 Teams 中管理來賓存取](manage-guests.md)
-#### [將來賓新增至小組](add-guests.md)
+#### [將來賓新增至團隊](add-guests.md)
 #### [在 Teams 中檢視來賓使用者](view-guests.md)
 #### [編輯來賓使用者資訊](edit-guests-information.md)
 #### [使用 PowerShell 控制來賓存取](guest-access-PowerShell.md)
@@ -96,7 +96,7 @@
 ### [在轉換至新 Microsoft Teams 系統管理中心期間管理 Teams](manage-teams-skypeforbusiness-admin-center.md)
 ### [在 Microsoft Teams 系統管理中心管理 Teams](manage-teams-in-modern-portal.md)
 ### [管理 Teams 免費版](manage-freemium.md)
-### [在 Teams 中指派小組擁有者和成員](assign-roles-permissions.md)
+### [在 Teams 中指派團隊擁有者和成員](assign-roles-permissions.md)
 ### [大量編輯 Teams 使用者設定](edit-user-settings-in-bulk.md)
 ### [將原則指派給使用者](assign-policies.md)
 ### [在 Teams 中管理應用程式權限原則](teams-app-permission-policies.md)
@@ -455,7 +455,7 @@
 
 ## 階段 1 - 開始使用
 ### [開始使用](teams-adoption-phase1.md)
-### [了解小組和頻道](teams-adoption-understand-teams-and-channels.md)
+### [了解團隊和頻道](teams-adoption-understand-teams-and-channels.md)
 ### [建立您的第一個應用程式](teams-adoption-your-first-teams.md)
 ### [貴組織的 Teams 整備程度如何？](teams-adoption-assess-readiness.md)
 
@@ -605,8 +605,8 @@
 ### [終止對 Microsoft StaffHub 的支援](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
 ### [安裝 Microsoft StaffHub PowerShell 模組](expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md)
 ### [執行報告以顯示作用中 StaffHub 的使用情況](expand-teams-across-your-org/shifts/run-report-to-show-staffhub-usage.md)
-### [規劃將 StaffHub 小組移動至 Teams 中的 Shifts](expand-teams-across-your-org/shifts/plan-to-move-staffhub-teams-to-shifts-in-teams.md)
-### [將 StaffHub 小組移動至 Teams 中的 Shifts](expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams.md)
+### [規劃將 StaffHub 團隊移動至 Teams 中的 Shifts](expand-teams-across-your-org/shifts/plan-to-move-staffhub-teams-to-shifts-in-teams.md)
+### [將 StaffHub 團隊移動至 Teams 中的 Shifts](expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams.md)
 ### [傳送給使用者的電子郵件通訊範例](expand-teams-across-your-org/shifts/staffhub-to-teams-email-template.md)
 ### [在 Teams 中管理貴組織的 Shifts 應用程式](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
 
@@ -621,8 +621,10 @@
 ##### [STU3 介面規格](expand-teams-across-your-org/healthcare/stu3-interface.md)
 ##### [將病患應用程式連線至 Azure API for FHIR](expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir.md)
 #### [病患應用程式的稽核記錄](expand-teams-across-your-org/healthcare/patients-audit.md)
+
 ## [Microsoft Teams 教育版](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [快速入門 - Teams 教育版系統管理員](teams-quick-start-edu.yml)
+### [開始使用遠端學習](remote-learning-edu.md)
 ### [Teams 教育版中的作業](expand-teams-across-your-org/assignments-in-teams.md)
 ### [Teams 教育版管理員的資源](resources-teams-edu.md)
 ### [適用於教育界管理員的 Microsoft Teams 原則套件](policy-packages-edu.md)
@@ -651,7 +653,7 @@
 ### [資料遺失防護](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### 電子文件探索
 #### [針對內容進行電子文件探索調查](ediscovery-investigation.md)
-#### [將 Teams 使用者或小組置於合法持有](legal-hold.md)
+#### [將 Teams 使用者或團隊置於合法持有](legal-hold.md)
 ### 內容搜尋
 #### [使用內容搜尋](content-search.md)
 #### [搜尋活動的稽核記錄檔](audit-log-events.md)
@@ -691,7 +693,7 @@
 ### [使用 Teams 的網路規劃中心](network-planner.md)
 ### [網路規劃中心逐步解說](tutorial-network-planner-example.yml)
 ### [Teams 或商務用 Skype Online 的 Proxy 伺服器](proxy-servers-for-skype-for-business-online.md)
-### [在 Teams 中建立小組時的 Office 365 群組方案](plan-office-365-groups.md)
+### [在 Teams 中建立團隊時的 Office 365 群組方案](plan-office-365-groups.md)
 ### [Teams 中的生命週期管理方案](plan-teams-lifecycle.md)
 ### [Teams 中的控管方案](plan-teams-governance.md)
 ### [使用網路測試小幫手](use-network-testing-companion.md)

@@ -20,12 +20,12 @@ ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 ROBOTS: NOINDEX
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3415c68ec8d27789bd00161fc70107a3be672431
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: bc72976fd7aa2ff03d305b5edaeff0d18c1f2a61
+ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837363"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42417868"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -52,15 +52,33 @@ ms.locfileid: "41837363"
                     <div class="cardText">
                         <h3>在30開始使用團隊</h3>
                         <P>在右足的30歷程中，將您的小組開始。 瞭解要參與的計畫，以及可用來確保您成功的資源。</P>
-                        <p>物件：企業贊助商，IT 系統管理員，採納及變更擁有者</p>
+                        <p>*物件：企業贊助商，IT 系統管理員，採納及變更擁有者*</p>
                     </div>
                 </div>
             </div>
         </div>
         </a>
     </li>
-    <li></li>  
-    <li> 
+   <li>
+        <a href="https://microsoftteams.eventbuilder.com/T30ReadyUsers"target="_blank"">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="Two person icons with representing users" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>讓您的使用者做好準備</h3>
+                    <p>探索可讓您的使用者使用的戰略與資源、建立擁護程式的數量，以及確保使用者接受成為您團隊推出的核心元件。</p><p>*物件：採納及變更擁有者*</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+        <li> 
         <a href="https://microsoftteams.eventbuilder.com/T30PrepareI"target="_blank"">
         <div class="cardSize">
             <div class="cardPadding">
@@ -72,7 +90,7 @@ ms.locfileid: "41837363"
                     </div>
                     <div class="cardText">
                     <h3>在您的環境中進行準備</h3>
-                    <p>設定團隊推出的基礎。 找出小組先決條件、網路和安全性最佳做法、共存原則、分析與報告，以及用戶端發佈建議。</p><p>物件： IT 系統管理員</p>
+                    <p>設定團隊推出的基礎。 找出小組先決條件、網路和安全性最佳做法、共存原則、分析與報告，以及用戶端發佈建議。</p><p>*對象：IT 系統管理員*</p>
 </div>
                 </div>
             </div>
@@ -90,32 +108,13 @@ ms.locfileid: "41837363"
                     </div>
                     <div class="cardText">
                         <h3>準備您的環境-第二部分</h3>
-                    <p>現在您已經掌握基礎，瞭解如何針對團隊實施規範、保留、管理及音訊會議的最佳做法。</p><p>物件： IT 系統管理員</p>
+                    <p>現在您已經掌握基礎，瞭解如何針對團隊實施規範、保留、管理及音訊會議的最佳做法。</p><p>*對象：IT 系統管理員*</p>
                     </div>
                 </div>
             </div>
         </div>
         </a>
     </li> 
-   <li>
-        <a href="https://microsoftteams.eventbuilder.com/T30ReadyUsers"target="_blank"">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="Two person icons with representing users" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>準備好您的最終使用者</h3>
-                    <p>探索可讓您的使用者使用的戰略與資源、建立擁護程式的數量，以及確保使用者接受成為您團隊推出的核心元件。</p><p>物件：採納及變更擁有者</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
  <li>
         <a href="https://microsoftteams.eventbuilder.com/T30Optimize"target="_blank"">
         <div class="cardSize">
@@ -129,13 +128,33 @@ ms.locfileid: "41837363"
                     <div class="cardText">
                     <h3>優化和展開</h3>
                     <p>設計包括優化服務效能、擴大團隊功能及加入新使用者的方案。</p>
-                    <p>物件：企業贊助商，IT 系統管理員，採納及變更擁有者</p>
+                    <p>*物件：企業贊助商，IT 系統管理員，採納及變更擁有者*</p>
                     </div>
                 </div>
             </div>
         </div>
         </a>
     </li>
+   <li>
+        <a href="https://aka.ms/TeamsChalkTalks"target="_blank"">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/sign-up-teams.svg" alt="Sign up symbol" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>[粉筆粉筆] 交談</h3>
+                    <p>透過行業專家的參與，這些線上互動式研討會提供獨特的機會，可在小組中瞭解一些最受歡迎和引人注目案例的最佳做法及實際指導方針。</p><p>*對象：IT 系統管理員*</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+
 </ul>
 
     
