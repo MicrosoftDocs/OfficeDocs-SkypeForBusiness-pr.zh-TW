@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 025bd70c79cdc0547f86514521fd1e565265d4f8
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: 13c3267378d4e8fbc5b3d3631606cf0824ea7a44
+ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42160777"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42417848"
 ---
 # <a name="quality-of-experience-review-guide"></a>體驗品質的審查指南
 
@@ -379,7 +379,7 @@ _圖 5-選取產品篩選器_
 
 **範例**
 
-```https://cqd.lync.com/cqd/#/1234567/2018-5/filter/[AllStreams].[Is Teams]|[FALSE]```
+```https://cqd.teams.microsoft.com/cqd/#/1234567/2018-5/filter/[AllStreams].[Is Teams]|[FALSE]```
 
 如需 URL 篩選的詳細資訊，請參閱本節稍後的[篩選報表](#filtering-reports)。
 
@@ -472,7 +472,7 @@ CQD 中的許多維度與量值會分類為第一或第二個。 CQD 不使用 [
 
 您可以透過下列三種方式之一來存取 CQD：
 
--   移至<https://cqd.lync.com>。
+-   移至<https://cqd.teams.microsoft.com>。
 
 -   移至 [ **Microsoft 團隊系統管理中心**]，然後選取要 CQD 的連結，如下圖所示。
 
@@ -482,7 +482,7 @@ _圖 7-透過 Microsoft 團隊系統管理中心存取 CQD_
 
 -   移至舊版**商務用 Skype 系統管理中心** > **工具**，然後選取 CQD 的連結，如下圖所示。
 
-![在主要窗格中選取 [CQD] 的螢幕擷取畫面。](media/qerguide-image-legacyui.png "在左側流覽窗格中選取 [工具]，然後在主窗格中選取 [CQD] 連結。")
+![在主要窗格中選取的 CQD 螢幕擷取畫面。](media/qerguide-image-legacyui.png "在左側流覽窗格中選取 [工具]，然後在主窗格中選取 [CQD] 連結。")
 
 _圖 8-透過商務用 Skype 系統管理中心存取 CQD_
 
@@ -497,7 +497,7 @@ _圖 9-流覽至詳細報表_
 
 CQD 中的 [詳細報告] 頁面看起來會像下列圖例所示。
 
-![說明組成詳細報告的元素的螢幕擷取畫面](media/qerguide-image-detailedreportspage.png)
+![說明組成詳細報表之元素的螢幕擷取畫面](media/qerguide-image-detailedreportspage.png)
 
 |             |           |
 | ------------|-----------|
@@ -514,7 +514,7 @@ _圖 10-詳細報告頁面_
 
 當您在報表的 [動作] 功能表上選取 [**編輯**] 時，會開啟 [查詢編輯器]。 每個報告都受 CQD 查詢的支援。 報表是其查詢所傳回資料的視覺效果。 [查詢編輯器] 是一個 UI，除了報表的顯示選項之外，還能編輯這些查詢，如下圖所示。
 
-![說明組成所編輯報表的元素的螢幕擷取畫面。](media/qerguide-image-queryeditor.png)
+![此螢幕擷取畫面說明組成要編輯之報表的元素。](media/qerguide-image-queryeditor.png)
 
 |             |           |
 | ------------|-----------|
@@ -543,7 +543,7 @@ _圖 11-查詢編輯器_
 
 範例  
 
-```https://cqd.lync.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Second Tenant Id]|[TENANTID]```
+```https://cqd.teams.microsoft.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Second Tenant Id]|[TENANTID]```
 
 若要篩選團隊或商務用 Skype 的報表，請將下列專案附加到 URL 的結尾：
 
@@ -553,11 +553,11 @@ _圖 11-查詢編輯器_
 
 範例
 
-```https://cqd.lync.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Is Teams]|[TRUE]```
+```https://cqd.teams.microsoft.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Is Teams]|[TRUE]```
 
 
 > [!NOTE]
-> 上述 URL 範例只適用于視覺標記法。 請使用預設的 CQD 連結<https://cqd.lync.com>。
+> 上述 URL 範例只適用于視覺標記法。 請使用預設的 CQD 連結<https://cqd.teams.microsoft.com>。
 
 
 #### <a name="query-filters"></a>查詢篩選
@@ -591,7 +591,7 @@ _資料表 4-報表篩選_
 
 **若要匯入範本（。CQDX）進入 CQD Online**
 
-1. 移至<https://cqd.lync.com>。
+1. 移至<https://cqd.teams.microsoft.com>。
 
 2. 使用您的 Office 365 系統管理認證進行驗證。
 
@@ -711,11 +711,11 @@ _表 5-建立檔結構_
 
 CQD 摘要報告儀表板包含租使用者的**資料上傳**頁面，可透過選取右上角的 [**租使用者資料上傳**連結] 標記來存取（尋找齒輪圖示）。 此頁面可供系統管理員上傳自己的資訊，例如 IP 位址和地理資訊的對應、對應每個無線存取點及其 MAC 位址等。
 
-1. 流覽至以<https://cqd.lync.com>線上前往 CQD。
+1. 流覽至以<https://cqd.teams.microsoft.com>線上前往 CQD。
 
 2. 選取右上角的齒輪圖示，然後從 [**摘要報告**] 頁面選擇 [**租使用者資料上傳**]。
 
-   ![上傳資料時出現的對話方塊螢幕擷取畫面](media/qerguide-image-tenantdataupload.png)
+   ![上傳資料時出現之對話方塊的螢幕擷取畫面](media/qerguide-image-tenantdataupload.png)
 
    _圖 14-租使用者資料上傳功能表_
 
@@ -778,7 +778,7 @@ CQD 摘要報告儀表板包含租使用者的**資料上傳**頁面，可透過
 > [!NOTE] 
 > 請務必將 [月年度] 報表篩選調整為 [本月]。 選取 [**編輯**]，然後調整 [**月**] 報表篩選，以儲存新的預設月份。
 
-![螢幕擷取畫面顯示遺失的子網報表](media/qerguide-image-missingbuildingreport.png)
+![螢幕擷取畫面顯示遺失的子網報告](media/qerguide-image-missingbuildingreport.png)
 
 _圖 17-缺少建立報告_
 
@@ -1130,7 +1130,7 @@ _圖 28-含 HTTP Proxy 使用的音訊串流_
 > [!NOTE]
 > 請務必將 [月份年份] 篩選調整為 [當月]。 選取 [**編輯**]，然後調整**月份年份**以儲存新的預設月份。
 
-![透過建立和子網來 Sreen HTTP Proxy 使用方式報告的快照](media/qerguide-image-httpproxyusage.png)
+![透過建立和子網來報告 HTTP Proxy 使用量的螢幕擷取畫面](media/qerguide-image-httpproxyusage.png)
 
 _圖 29-透過建立和子網來使用 HTTP Proxy_
 

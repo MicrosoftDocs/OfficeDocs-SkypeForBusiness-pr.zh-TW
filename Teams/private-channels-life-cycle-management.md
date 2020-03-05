@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何在您的組織中管理私人頻道的生命週期。
-ms.openlocfilehash: 7cd7701a66c03dfc71d89f007eae4addaed0c89a
-ms.sourcegitcommit: f23c428043bb0b37c9a8600e64691bc2a1f2e874
+ms.openlocfilehash: dd4509e809348a21231a6aa136c6cb360a152472
+ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "42403742"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42417568"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>在 Microsoft 團隊中管理私人頻道的生命週期
 
@@ -187,13 +187,13 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 1. 執行下列動作，其中&lt;group_id&gt;是團隊的群組識別碼，而&lt;channel_name&gt;是頻道名稱。
 
     ```PowerShell
-    Get-TeamChannelUser -GroupId <group_id> –MembershipType Private -DisplayName "<channel_name>" 
+    Get-TeamChannelUser -GroupId <group_id> -DisplayName "<channel_name>" 
     ```
 
 2. 將成員升級為擁有者。
 
     ```PowerShell
-    Add-TeamChannelUser -GroupId <group_id> –MembershipType Private -DisplayName "<channel_name>" -User <UPN> -Role Owner
+    Add-TeamChannelUser -GroupId <group_id> -DisplayName "<channel_name>" -User <UPN> -Role Owner
     ```
 
 ### <a name="using-graph-api"></a>使用圖形 API

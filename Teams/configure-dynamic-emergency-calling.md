@@ -16,12 +16,12 @@ f1.keywords:
 description: 設定動態緊急電話
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0cd5f3320896c823eb81a9147a1b1b1adb36dbac
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 6b22c6cec20e42ac33b15c53a49477b36a35fbe9
+ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825511"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42417588"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>規劃和設定動態緊急電話 
 
@@ -70,10 +70,10 @@ Microsoft 通話方案和電話系統直連路由的動態緊急通話可提供�
 
 目前支援下列用戶端。  經常回到查看此清單的更新。
 
-- Windows 版團隊桌面用戶端
-- Mac 版團隊桌面用戶端
-- IOS 用戶端版本1.0.92.2019121004 和 App Store 1.0.92 及更高版本的團隊行動用戶端
-- Android 用戶端的團隊行動用戶端及商店版本 1416/1.0.0.2019121201 及更高版本
+- Microsoft Windows 版團隊桌面用戶端
+- Apple macOS 的小組桌面用戶端
+- Apple iOS 用戶端版本1.0.92.2019121004 和 App Store 1.0.92 及更高版本的團隊行動用戶端
+- 適用于 Android 用戶端和 Google Play 商店版本 1416/1.0.0.2019121201 及更高版本的團隊行動用戶端
 - 團隊手機版本 1449/1.0.94.2019110802 及更高版本
 
 ## <a name="assign-emergency-addresses"></a>指派緊急位址

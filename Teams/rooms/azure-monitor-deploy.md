@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: 本文將說明如何使用 Azure 監視器，以整合的端對端方式部署 Microsoft 團隊機房裝置的管理。
-ms.openlocfilehash: 54268676eadab25599d4f8b6e415ff373717943f
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 70c2311143a4daabbc0838168e19969f950a2df1
+ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826261"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42417538"
 ---
 # <a name="deploy-no-loc-textmicrosoft-teams-rooms-management-with-no-loc-textazure-monitor"></a>部署:::no-loc text="Microsoft Teams Rooms":::管理:::no-loc text="Azure Monitor":::
 
@@ -30,7 +30,7 @@ ms.locfileid: "41826261"
 
 透過遵循本指南，您可以使用類似下列範例的儀表板，來取得裝置可用性、應用程式和硬體健康情況，以及:::no-loc text="Microsoft Teams Rooms":::應用程式與作業系統版本發佈的詳細狀態報表。
 
-![範例:::no-loc text="Log Analytics":::視圖的螢幕擷取畫面:::no-loc text="Microsoft Teams Rooms":::](../media/Deploy-Azure-Monitor-1.png [範例:::no-loc text="Log Analytics":::視圖:::no-loc text="Microsoft Teams Rooms":::]）
+![Microsoft 團隊聊天室範例記錄分析視圖範例的螢幕擷取畫面](../media/Deploy-Azure-Monitor-1.png "Microsoft 團隊聊天室的 [Log Analytics 分析] 視圖範例")
 
 在較高的層次，您必須執行下列工作：
 
@@ -65,7 +65,7 @@ ms.locfileid: "41826261"
 
 若要:::no-loc text="Log Analytics":::設定收集:::no-loc text="Microsoft Teams Rooms":::事件，請參閱[ :::no-loc text="Windows":::中的:::no-loc text="Azure Monitor":::事件記錄資料來源](https://docs.microsoft.com/azure/azure-monitor/platform/data-sources-windows-events)
 
-![[事件記錄] 設定的螢幕擷取畫面](../media/Deploy-Azure-Monitor-2.png "事件記錄檔設定")
+![事件記錄檔設定的螢幕擷取畫面](../media/Deploy-Azure-Monitor-2.png "事件記錄檔設定")
 
 > [!IMPORTANT]
 > 設定:::no-loc text="Windows":::事件記錄的設定， **:::no-loc text="Skype Room System":::** 並以事件記錄名稱的形式輸入，然後選取 [**錯誤**]、[**警告**] 及 [**資訊**] 核取方塊。
@@ -138,7 +138,7 @@ ms.locfileid: "41826261"
 
 | **JSON 欄位**                   | **:::no-loc text="Log Analytics":::自訂欄位** | **事件識別碼** | **要與提取搭配使用的查詢**                   |
 |:---------------------------------|:-------------------------------|:-------------|:-------------------------------------------------------|
-| 說明                      | SRSEventDescription         | **2000**     | 來源\| = = "SRS-App" 和 EventID = = 2000 的事件 |
+| 描述                      | SRSEventDescription         | **2000**     | 來源\| = = "SRS-App" 和 EventID = = 2000 的事件 |
 | ResourceState                    | SRSResourceState            | **2000**     | 來源\| = = "SRS-App" 和 EventID = = 2000 的事件 |
 | End                    | SRSOperationName            | **2000**     | 來源\| = = "SRS-App" 和 EventID = = 2000 的事件 |
 | OperationResult                  | SRSOperationResult          | **2000**     | 來源\| = = "SRS-App" 和 EventID = = 2000 的事件 |
@@ -373,7 +373,7 @@ ms.locfileid: "41826261"
 5.  設定警報邏輯設定：<br>
     **依據：** 結果數<br>
     **條件：** 較大的<br>
-    **Treshold：** 0<br>
+    **閾值：** 0<br>
 
 6. 設定評估設定，然後選取 [**完成**]： <br>
     **句號（分鐘）：** 60<br>
@@ -383,7 +383,7 @@ ms.locfileid: "41826261"
     1.  選取 [**建立新**的]
     2.  針對 [*動作組名稱*] 和 [*簡稱*] 欄位提供適當的名稱。
     3.  指定唯一的*動作名稱*，然後選取 [**電子郵件/SMS/推播/語音**]，然後選取 [**編輯詳細資料**]。
-    4.  選取 [電子郵件] 核取方塊，並提供將接收通知之人員或群組的電子郵件地址。
+    4.  選取 [**電子郵件**] 核取方塊，並提供將接收通知之人員或群組的電子郵件地址。
     5.  您也可以提供您的電話號碼，以取得 SMS、語音通話或兩者的通知。
     6. 選取 **[確定]**。
 
