@@ -8,92 +8,121 @@ ms.topic: article
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-ms.reviewer: dansteve
+ms.reviewer: dansteve, anmich
 localization_priority: Priority
 search.appverid: MET150
 description: 使用本指導方針來協助組織中的遠端工作者使用 Microsoft Teams 來提高生產力，尤其是當他們在家中工作 (WFH) 時，以因應 COVID-19 (冠狀病毒) 爆發的情況。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 80af76906697ef2510fe75d8764e8908cdbbd976
-ms.sourcegitcommit: ed0ecb3b1250a23d3b91a5a33256aee1c3119db1
+ms.openlocfilehash: b61052a7468e9fcc13f8c3812e1ec5c2aa21fb7a
+ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "42374310"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42417608"
 ---
-# <a name="support-remote-workers-using-microsoft-teams"></a><span data-ttu-id="47c20-103">支援使用 Microsoft Teams 的遠端工作者</span><span class="sxs-lookup"><span data-stu-id="47c20-103">Support remote workers using Microsoft Teams</span></span>
+# <a name="support-remote-workers-using-microsoft-teams"></a><span data-ttu-id="68049-103">支援使用 Microsoft Teams 的遠端工作者</span><span class="sxs-lookup"><span data-stu-id="68049-103">Support remote workers using Microsoft Teams</span></span>
 
-<span data-ttu-id="47c20-104">使用本文中的最佳做法，為遠端或在家工作者提供支援。</span><span class="sxs-lookup"><span data-stu-id="47c20-104">Use the best practices in this article to support your users who work remotely or from home.</span></span>
+<span data-ttu-id="68049-104">貴組織想要開始使用 Microsoft Teams 來支援遠端工作或在家工作的使用者嗎？</span><span class="sxs-lookup"><span data-stu-id="68049-104">Does your organization want to get started with Microsoft Teams to support your users who work remotely or from home?</span></span> <span data-ttu-id="68049-105">使用本文中的指導方針快速啟動及執行。</span><span class="sxs-lookup"><span data-stu-id="68049-105">Use the guidance in this article to get up and running quickly.</span></span>
 
-## <a name="technical"></a><span data-ttu-id="47c20-105">技術</span><span class="sxs-lookup"><span data-stu-id="47c20-105">Technical</span></span>
+## <a name="it-admin-guidance"></a><span data-ttu-id="68049-106">IT 系統管理員指導方針</span><span class="sxs-lookup"><span data-stu-id="68049-106">IT admin guidance</span></span>
 
-1.  <span data-ttu-id="47c20-106">確定[所有人均開啟 Teams](assign-teams-licenses.md)</span><span class="sxs-lookup"><span data-stu-id="47c20-106">Make sure [Teams is turned on for everyone](assign-teams-licenses.md)</span></span>
+-  <span data-ttu-id="68049-107">確定 **[為所有人均開啟 Teams](assign-teams-licenses.md)**</span><span class="sxs-lookup"><span data-stu-id="68049-107">Make sure **[Teams is turned on for everyone](assign-teams-licenses.md)**</span></span>
     
-      - <span data-ttu-id="47c20-107">查看 [Teams E1 試用版](e1-trial-license.md)、[Teams Exploratory](teams-exploratory.md) 或 [Teams 免費版](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)，讓公司中所有人都能使用 Teams。</span><span class="sxs-lookup"><span data-stu-id="47c20-107">Look at the [Teams E1 Trial](e1-trial-license.md), [Teams Exploratory](teams-exploratory.md), or [Teams free](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c) to make Teams available to everybody in your company.</span></span>
+- <span data-ttu-id="68049-108">如果您沒有適用於所有人的 Teams 授權，請使用下列其中一種優惠讓成員都能使用 Teams：</span><span class="sxs-lookup"><span data-stu-id="68049-108">If you don't have Teams licenses for everyone, use one of these offers to make Teams available to everyone:</span></span>
 
-      - <span data-ttu-id="47c20-108">遠端員工更仰賴會議和音訊會議。</span><span class="sxs-lookup"><span data-stu-id="47c20-108">Remote employees rely more heavily on meetings and audio conferencing.</span></span> <span data-ttu-id="47c20-109">如果您還沒有推出這些工作負載，請查看 [Teams 中的會議和研討會](deploy-meetings-microsoft-teams-landing-page.md)。</span><span class="sxs-lookup"><span data-stu-id="47c20-109">If you haven't yet rolled out these workloads, check out [Meetings and conferencing in Teams](deploy-meetings-microsoft-teams-landing-page.md).</span></span>
+   - <span data-ttu-id="68049-109">參閱 **[Teams 免費版](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)** 或 **[Teams E1 試用版](e1-trial-license.md)** (英文)。</span><span class="sxs-lookup"><span data-stu-id="68049-109">Look at **[Teams free](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)** or the **[Teams E1 Trial](e1-trial-license.md)**.</span></span> <span data-ttu-id="68049-110">系統管理員可透過 Teams E1 試用版推出 Teams；請向您的 Microsoft 帳戶團隊或合作夥伴取得詳細資料。</span><span class="sxs-lookup"><span data-stu-id="68049-110">The Teams E1 Trial lets an admin roll out Teams - reach out to your Microsoft account team or partner for details.</span></span>
 
-2.  <span data-ttu-id="47c20-110">向您的使用者介紹 Teams。</span><span class="sxs-lookup"><span data-stu-id="47c20-110">Tell your users about Teams.</span></span> <span data-ttu-id="47c20-111">下載 [Teams 客戶成功案例套件](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip)，取得簡報、範例電子郵件、海報和入門指南。</span><span class="sxs-lookup"><span data-stu-id="47c20-111">Download the [Teams Customer Success Kit](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) to get presentations, sample emails, posters, and getting-started guides.</span></span>
+   - <span data-ttu-id="68049-111">[Teams Exploratory](teams-exploratory.md) 也可能是個選擇。</span><span class="sxs-lookup"><span data-stu-id="68049-111">[Teams Exploratory](teams-exploratory.md) may also be an option.</span></span> 
+
+- <span data-ttu-id="68049-112">了解貴組織如何開始使用 **[Teams 中的會議](https://docs.microsoft.com/MicrosoftTeams/tutorial-meetings-in-teams)**。</span><span class="sxs-lookup"><span data-stu-id="68049-112">Understand how to get your organization started with **[Meetings in Teams](https://docs.microsoft.com/MicrosoftTeams/tutorial-meetings-in-teams)**.</span></span> 
+
+<span data-ttu-id="68049-113">如需詳細資訊，請參閱下方[支援遠端工作者的其他資源](#additional-resources-for-supporting-remote-workers) (英文)。</span><span class="sxs-lookup"><span data-stu-id="68049-113">For more, read [Additional resources for supporting remote workers](#additional-resources-for-supporting-remote-workers) below.</span></span>
 
 
-5.  <span data-ttu-id="47c20-112">確定您的員工擁有足夠的網際網路存取權和頻寬供 Teams 使用。</span><span class="sxs-lookup"><span data-stu-id="47c20-112">Make sure your employees have adequate internet access and bandwidth for Teams.</span></span> <span data-ttu-id="47c20-113">使用[針對 Teams 準備組織的網路](prepare-network.md)中的指導方針，以了解如何執行此作業。</span><span class="sxs-lookup"><span data-stu-id="47c20-113">Use the guidance in [Prepare your organization's network for Teams](prepare-network.md) to learn how to do this.</span></span>
-    - <span data-ttu-id="47c20-114">有限的頻寬會影響 Teams 會議中的音訊品質。</span><span class="sxs-lookup"><span data-stu-id="47c20-114">Limited bandwidth can affect audio quality in Teams meetings.</span></span> <span data-ttu-id="47c20-115">為了確保在低頻寬條件下的最佳會議體驗，請鼓勵使用者限制視訊通話，並對通話和會議音訊使用 PSTN。</span><span class="sxs-lookup"><span data-stu-id="47c20-115">To ensure the best meeting experience under low-bandwidth conditions, encourage users to limit video and use PSTN for calls and meeting audio.</span></span> 
+## <a name="end-user-communications"></a><span data-ttu-id="68049-114">使用者通訊</span><span class="sxs-lookup"><span data-stu-id="68049-114">End user communications</span></span>
 
-    - <span data-ttu-id="47c20-116">如果您需要協助疑難排解或修正有關通話或會議品質的問題，請遵循本文最下方的[已知問題：撥入商務用 Skype 或 Teams 會議識別碼](#known-issue-dialing-into-skype-for-business-or-teams-conference-ids)中的指導方針。</span><span class="sxs-lookup"><span data-stu-id="47c20-116">If you need help troubleshooting or fixing problems with call or meeting quality, follow the guidance in [Known issue: Dialing into Skype for Business/Teams conference IDs](#known-issue-dialing-into-skype-for-business-or-teams-conference-ids) at the bottom of this article.</span></span>
+<span data-ttu-id="68049-115">準備好要向使用者推出 Teams？</span><span class="sxs-lookup"><span data-stu-id="68049-115">Ready to roll out Teams to your users?</span></span> <span data-ttu-id="68049-116">取得包含此類精彩電子郵件範本的**[客戶成功套件](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip)**：</span><span class="sxs-lookup"><span data-stu-id="68049-116">Get the **[Customer Success Kit](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip)**, which contains these great email templates:</span></span>
 
-2.  <span data-ttu-id="47c20-117">[傳送訓練連結](enduser-training.md)，協助您的員工充分發揮 Teams 的效用。</span><span class="sxs-lookup"><span data-stu-id="47c20-117">[Send out links to training](enduser-training.md) to help your employees get the most out of Teams.</span></span>
+- <span data-ttu-id="68049-117">使用 **[通知電子郵件]** 告知使用者有 Teams 可供使用</span><span class="sxs-lookup"><span data-stu-id="68049-117">Use the **Announcement Email** to tell users that Teams is available for them</span></span>
+
+- <span data-ttu-id="68049-118">傳送 **[第一天使用 Teams 電子郵件]**，以協助使用者迅速地感受到生產力</span><span class="sxs-lookup"><span data-stu-id="68049-118">Send **Your First Day in Teams Email** to help users feel productive quickly</span></span>
+
+- <span data-ttu-id="68049-119">幾天後，傳送 **[秘訣和訣竅電子郵件]**，以協助使用者充分利用 Teams</span><span class="sxs-lookup"><span data-stu-id="68049-119">A few days later, send the **Tips and Tricks Email** to help your users get the most out of Teams</span></span>
+
+## <a name="end-user-guidance"></a><span data-ttu-id="68049-120">使用者指導方針</span><span class="sxs-lookup"><span data-stu-id="68049-120">End user guidance</span></span>
+
+<span data-ttu-id="68049-121">與使用者共用這些資產與影片，以協助他們快速入門：</span><span class="sxs-lookup"><span data-stu-id="68049-121">Share these assets and videos with your end users to help them get started quickly:</span></span>
+
+- <span data-ttu-id="68049-122">觀看 **[[歡迎影片]](https://support.office.com/article/video-welcome-to-microsoft-teams-b98d533f-118e-4bae-bf44-3df2470c2b12?wt.mc_id=otc_microsoft_teams)** 以取得 Teams 的概觀</span><span class="sxs-lookup"><span data-stu-id="68049-122">Watch the **[Welcome video](https://support.office.com/article/video-welcome-to-microsoft-teams-b98d533f-118e-4bae-bf44-3df2470c2b12?wt.mc_id=otc_microsoft_teams)** to get an overview of Teams</span></span>
+
+- <span data-ttu-id="68049-123">下載 **[[快速入門手冊]](https://download.microsoft.com/download/D/9/F/D9FE8B9E-22F5-47BF-A1AB-09539C41FCD0/Teams%20QS.pdf)** 以了解 Teams 基本概念</span><span class="sxs-lookup"><span data-stu-id="68049-123">Download the **[Quick Start Guide](https://download.microsoft.com/download/D/9/F/D9FE8B9E-22F5-47BF-A1AB-09539C41FCD0/Teams%20QS.pdf)** to learn the Teams basics</span></span>
+
+- <span data-ttu-id="68049-124">觀看一系列簡短的 **[[快速入門影片]](https://support.office.com/article/video-what-is-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d)** 以取得 Teams 逐步解說</span><span class="sxs-lookup"><span data-stu-id="68049-124">Watch a series of short **[Quick Start videos](https://support.office.com/article/video-what-is-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d)** for a walkthrough of Teams</span></span>
+
+- <span data-ttu-id="68049-125">觀看 **[[會議影片]](https://support.office.com/article/join-a-teams-meeting-078e9868-f1aa-4414-8bb9-ee88e9236ee4)** 以了解如何使用 Teams 中的會議</span><span class="sxs-lookup"><span data-stu-id="68049-125">Watch the **[Meetings videos](https://support.office.com/article/join-a-teams-meeting-078e9868-f1aa-4414-8bb9-ee88e9236ee4)** to learn how to use meetings in Teams</span></span>
+
+
+## <a name="additional-resources-for-supporting-remote-workers"></a><span data-ttu-id="68049-126">支援遠端工作者的其他資源</span><span class="sxs-lookup"><span data-stu-id="68049-126">Additional resources for supporting remote workers</span></span>
+
+1. <span data-ttu-id="68049-127">確定您的員工擁有足夠的網際網路存取權和頻寬供 Teams 使用。</span><span class="sxs-lookup"><span data-stu-id="68049-127">Make sure your employees have adequate internet access and bandwidth for Teams.</span></span> <span data-ttu-id="68049-128">使用[針對 Teams 準備組織的網路](prepare-network.md)中的指導方針，以了解如何執行此作業。</span><span class="sxs-lookup"><span data-stu-id="68049-128">Use the guidance in [Prepare your organization's network for Teams](prepare-network.md) to learn how to do this.</span></span>
+   - <span data-ttu-id="68049-129">有限的頻寬會影響 Teams 會議中的音訊品質。</span><span class="sxs-lookup"><span data-stu-id="68049-129">Limited bandwidth can affect audio quality in Teams meetings.</span></span> <span data-ttu-id="68049-130">為了確保在低頻寬條件下的最佳會議體驗，請鼓勵使用者限制視訊通話，並對通話和會議音訊使用 PSTN。</span><span class="sxs-lookup"><span data-stu-id="68049-130">To ensure the best meeting experience under low-bandwidth conditions, encourage users to limit video and use PSTN for calls and meeting audio.</span></span> 
+
+   - <span data-ttu-id="68049-131">如果您需要協助有關通話或會議品質的疑難排解或問題修正，請遵循本文最下方的[已知問題 - 中國：撥入商務用 Skype 或 Teams 會議識別碼](#known-issue---china-dialing-into-skype-for-business-or-teams-conference-ids)中的指導方針。</span><span class="sxs-lookup"><span data-stu-id="68049-131">If you need help troubleshooting or fixing problems with call or meeting quality, follow the guidance in [Known issue - China: Dialing into Skype for Business/Teams conference IDs](#known-issue---china-dialing-into-skype-for-business-or-teams-conference-ids) at the bottom of this article.</span></span>
+
+2.  <span data-ttu-id="68049-132">[傳送訓練連結](enduser-training.md)，協助您的員工充分發揮 Teams 的效用。</span><span class="sxs-lookup"><span data-stu-id="68049-132">[Send out links to training](enduser-training.md) to help your employees get the most out of Teams.</span></span>
+
+3. <span data-ttu-id="68049-133">更進一步：深入了解推出 Teams 的詳細資訊。</span><span class="sxs-lookup"><span data-stu-id="68049-133">Go deeper: Learn more about rolling out Teams.</span></span>
+   - <span data-ttu-id="68049-134">身為中等規模的組織為單位 (500-5000 使用者)，使用即時的 [互動式工作研討會](teams-in-30-workshops.md)開展您的 Teams 過程。</span><span class="sxs-lookup"><span data-stu-id="68049-134">As a mid-sized organization (500-5000 users), start your Teams journey with live, [interactive workshops](teams-in-30-workshops.md)</span></span>
+
+   - <span data-ttu-id="68049-135">加入我們的[線上課程](instructor-led-training-teams-landing-page.md)以查看作用中的 Teams，並得到問題的解答</span><span class="sxs-lookup"><span data-stu-id="68049-135">Join one of our [online classes](instructor-led-training-teams-landing-page.md) to see Teams in action and get your questions answered</span></span>  
+
+   - <span data-ttu-id="68049-136">與想要深入了解的使用者共用[深入訓練影片](https://www.youtube.com/playlist?list=PLXPr7gfUMmKzR7_jXN5s886apYoHNC3Xk)</span><span class="sxs-lookup"><span data-stu-id="68049-136">Share [in-depth training videos](https://www.youtube.com/playlist?list=PLXPr7gfUMmKzR7_jXN5s886apYoHNC3Xk) with users who want to learn more</span></span>
+
+   - <span data-ttu-id="68049-137">參閱[如何推出向 Teams](How-to-roll-out-teams.md) (英文)，以了解如何為管理 Teams 做好準備</span><span class="sxs-lookup"><span data-stu-id="68049-137">Read [How to roll out Teams](How-to-roll-out-teams.md) to learn how to get ready for and manage Teams</span></span>
+
+
     
-3. <span data-ttu-id="47c20-118">閱讀有關遠端工作的新內容，並與您的使用者分享：</span><span class="sxs-lookup"><span data-stu-id="47c20-118">Read our new content about working remotely and share it with your users:</span></span>
+3. <span data-ttu-id="68049-138">閱讀有關遠端工作的新內容，並與您的使用者分享：</span><span class="sxs-lookup"><span data-stu-id="68049-138">Read our new content about working remotely and share it with your users:</span></span>
         
-      - <span data-ttu-id="47c20-119">Teams 部落格 (2020 年 2 月 28 日)：[使用 Microsoft Teams 在家工作的 4 個祕訣](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/4-tips-for-working-from-home-with-microsoft-teams-by-lola/ba-p/1202083) (英文)</span><span class="sxs-lookup"><span data-stu-id="47c20-119">Teams blog (Feb 28, 2020): [4 tips for working from home with Microsoft Teams](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/4-tips-for-working-from-home-with-microsoft-teams-by-lola/ba-p/1202083)</span></span>
+      - <span data-ttu-id="68049-139">Teams 部落格 (2020 年 2 月 28 日)：[使用 Microsoft Teams 在家工作的 4 個祕訣](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/4-tips-for-working-from-home-with-microsoft-teams-by-lola/ba-p/1202083) (英文)</span><span class="sxs-lookup"><span data-stu-id="68049-139">Teams blog (Feb 28, 2020): [4 tips for working from home with Microsoft Teams](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/4-tips-for-working-from-home-with-microsoft-teams-by-lola/ba-p/1202083)</span></span>
 
-      - [<span data-ttu-id="47c20-120">使用 Office 365 共同作業</span><span class="sxs-lookup"><span data-stu-id="47c20-120">Collaborate with Office 365</span></span>](https://support.office.com/article/Collaborate-with-Office-365-ac05a41e-0b49-4420-9ebc-190ee4e744f4)
+      - [<span data-ttu-id="68049-140">使用 Office 365 共同作業</span><span class="sxs-lookup"><span data-stu-id="68049-140">Collaborate with Office 365</span></span>](https://support.office.com/article/Collaborate-with-Office-365-ac05a41e-0b49-4420-9ebc-190ee4e744f4)
 
-      - <span data-ttu-id="47c20-121">[使用 Teams 和 Office 365 遠端工作](https://support.microsoft.com/help/4549995/working-remotely-with-teams-and-office-365) (英文)</span><span class="sxs-lookup"><span data-stu-id="47c20-121">[Working remotely with Teams and Office 365](https://support.microsoft.com/help/4549995/working-remotely-with-teams-and-office-365)</span></span>
 
-3.  <span data-ttu-id="47c20-122">鼓勵每個人[安裝](get-clients.md#mobile-clients)並使用行動裝置應用程式：[iOS](https://go.microsoft.com/fwlink/?LinkId=835758)   [Android](https://go.microsoft.com/fwlink/p/?linkid=2102168)</span><span class="sxs-lookup"><span data-stu-id="47c20-122">Encourage everyone to [install](get-clients.md#mobile-clients) and use the mobile app: [iOS](https://go.microsoft.com/fwlink/?LinkId=835758)   [Android](https://go.microsoft.com/fwlink/p/?linkid=2102168)</span></span>
+3.  <span data-ttu-id="68049-141">鼓勵每個人[安裝](get-clients.md#mobile-clients)並使用行動裝置應用程式：[iOS](https://go.microsoft.com/fwlink/?LinkId=835758) 或 [Android](https://go.microsoft.com/fwlink/p/?linkid=2102168)</span><span class="sxs-lookup"><span data-stu-id="68049-141">Encourage everyone to [install](get-clients.md#mobile-clients) and use the mobile app: [iOS](https://go.microsoft.com/fwlink/?LinkId=835758) or [Android](https://go.microsoft.com/fwlink/p/?linkid=2102168)</span></span>
 
     > [!NOTE]
-    > <span data-ttu-id="47c20-123">如果您位於中國，請前往這裡，以[在中國取得 Android 版 Teams](get-teams-android-in-china.md)</span><span class="sxs-lookup"><span data-stu-id="47c20-123">If you're in China, go here to [Get Teams for Android in China](get-teams-android-in-china.md)</span></span>
+    > <span data-ttu-id="68049-142">如果您位於中國，請前往以[在中國取得 Android 版 Teams](get-teams-android-in-china.md) (英文)。</span><span class="sxs-lookup"><span data-stu-id="68049-142">If you're in China, go here to [Get Teams for Android in China](get-teams-android-in-china.md).</span></span>
 
-4.  <span data-ttu-id="47c20-124">設置[技術服務人員](troubleshoot-installation.md)，處理使用者查詢。</span><span class="sxs-lookup"><span data-stu-id="47c20-124">Staff up your [helpdesk](troubleshoot-installation.md) to deal with user inquiries.</span></span>
-
-
-## <a name="communications"></a><span data-ttu-id="47c20-125">通訊</span><span class="sxs-lookup"><span data-stu-id="47c20-125">Communications</span></span>
-
-<span data-ttu-id="47c20-126">使用 Teams 與員工保持連絡：</span><span class="sxs-lookup"><span data-stu-id="47c20-126">Use Teams to stay in touch with your employees:</span></span>
-- <span data-ttu-id="47c20-127">[整個組織的 Teams](create-an-org-wide-team.md) 和[公司 Communicator](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates#company-communicator) 應用程式範本</span><span class="sxs-lookup"><span data-stu-id="47c20-127">[Org-wide teams](create-an-org-wide-team.md) and [Company Communicator](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates#company-communicator) app template</span></span>
+8. <span data-ttu-id="68049-143">使用 Teams 與員工保持連絡：</span><span class="sxs-lookup"><span data-stu-id="68049-143">Use Teams to stay in touch with your employees:</span></span>
+   - <span data-ttu-id="68049-144">[整個組織的 Teams](create-an-org-wide-team.md) 和[公司 Communicator](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates#company-communicator) 應用程式範本。</span><span class="sxs-lookup"><span data-stu-id="68049-144">[Org-wide teams](create-an-org-wide-team.md) and [Company Communicator](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates#company-communicator) app template.</span></span>
     
-- <span data-ttu-id="47c20-128">傳送有關組織的在家工作以及健康和安全原則資訊。</span><span class="sxs-lookup"><span data-stu-id="47c20-128">Send out information about your org’s work-from-home and health and safety policies.</span></span>
+   - <span data-ttu-id="68049-145">傳送有關組織的在家工作以及健康和安全原則資訊。</span><span class="sxs-lookup"><span data-stu-id="68049-145">Send out information about your org’s work-from-home and health and safety policies.</span></span>
     
-- <span data-ttu-id="47c20-129">在全公司的會議與拓展中使用[即時活動](teams-live-events/what-are-teams-live-events.md)。</span><span class="sxs-lookup"><span data-stu-id="47c20-129">Use [Live events](teams-live-events/what-are-teams-live-events.md) for company-wide meetings and outreach.</span></span> <span data-ttu-id="47c20-130">如果您的會議有超過 250 個參與者，請將它設為即時活動。</span><span class="sxs-lookup"><span data-stu-id="47c20-130">For any meeting of more than 250 participants, make it a live event.</span></span> 
+   - <span data-ttu-id="68049-146">在全公司的會議與拓展中使用[即時活動](teams-live-events/what-are-teams-live-events.md)。</span><span class="sxs-lookup"><span data-stu-id="68049-146">Use [Live events](teams-live-events/what-are-teams-live-events.md) for company-wide meetings and outreach.</span></span> <span data-ttu-id="68049-147">如果您的會議有超過 250 個參與者，請將它設為即時活動。</span><span class="sxs-lookup"><span data-stu-id="68049-147">For any meeting of more than 250 participants, make it a live event.</span></span> 
 
-## <a name="personal-considerations"></a><span data-ttu-id="47c20-131">個人考量</span><span class="sxs-lookup"><span data-stu-id="47c20-131">Personal considerations</span></span>
+4.  <span data-ttu-id="68049-148">設置[技術服務人員](troubleshoot-installation.md)以處理使用者查詢。</span><span class="sxs-lookup"><span data-stu-id="68049-148">Staff up your [helpdesk](troubleshoot-installation.md) to deal with user inquiries.</span></span>
 
-<span data-ttu-id="47c20-132">以下是您在成功在家工作的一些祕訣：</span><span class="sxs-lookup"><span data-stu-id="47c20-132">Here are some tips for successfully working from home:</span></span>
+7. <span data-ttu-id="68049-149">如果您是 Teams 系統管理員角色的新手，請參閱 [Teams 系統管理員訓練](itadmin-readiness.md)。</span><span class="sxs-lookup"><span data-stu-id="68049-149">If you're new to the Teams admin role, check out [Admin training for Teams](itadmin-readiness.md).</span></span>
 
-- <span data-ttu-id="47c20-133">備妥限定的實際工作空間，光線良好且適當的人體工學設備。</span><span class="sxs-lookup"><span data-stu-id="47c20-133">Have a defined physical work space with good lighting and proper ergonomics.</span></span>
 
-- <span data-ttu-id="47c20-134">對於工作時間和承諾有清楚的界定，並使用 Teams [目前狀態](https://support.office.com/article/change-your-status-in-teams-ce36ed14-6bc9-4775-a33e-6629ba4ff78e)來指出在您目前不在。</span><span class="sxs-lookup"><span data-stu-id="47c20-134">Set clear boundaries on your work hours and commitments, and use the Teams [presence status](https://support.office.com/article/change-your-status-in-teams-ce36ed14-6bc9-4775-a33e-6629ba4ff78e) to indicate when you're away.</span></span>
 
-- <span data-ttu-id="47c20-135">特意在您的在家工作辦公室往返「通勤」；而不要把在家工作變成家裡等於工作。</span><span class="sxs-lookup"><span data-stu-id="47c20-135">“Commute” to and from your work-from-home office deliberately; don’t turn work-from-home into home-equals-work.</span></span>
 
-- <span data-ttu-id="47c20-136">定期站起來並休息。</span><span class="sxs-lookup"><span data-stu-id="47c20-136">Get up and take a break periodically.</span></span> <span data-ttu-id="47c20-137">散步、伸展，幫自己泡杯茶。</span><span class="sxs-lookup"><span data-stu-id="47c20-137">Go for a walk, stretch, make yourself a cup of tea.</span></span>
+### <a name="known-issue---china-dialing-into-skype-for-business-or-teams-conference-ids"></a><span data-ttu-id="68049-150">已知問題 - 中國：撥入商務用 Skype 或 Teams 會議識別碼</span><span class="sxs-lookup"><span data-stu-id="68049-150">Known issue - China: Dialing into Skype for Business or Teams conference IDs</span></span>
 
-## <a name="known-issue-dialing-into-skype-for-business-or-teams-conference-ids"></a><span data-ttu-id="47c20-138">已知問題：撥入商務用 Skype 或 Teams 會議識別碼</span><span class="sxs-lookup"><span data-stu-id="47c20-138">Known issue: Dialing into Skype for Business or Teams conference IDs</span></span>
+<span data-ttu-id="68049-151">以下是 2020 年 2 月 7 日訊息中心文章 (MC203397) 的摘要：</span><span class="sxs-lookup"><span data-stu-id="68049-151">The following is a summary of a Feb 7, 2020 Message center post (MC203397):</span></span>
 
-<span data-ttu-id="47c20-139">以下是 2020 年 2 月 7 日訊息中心文章 (MC203397) 的摘要：</span><span class="sxs-lookup"><span data-stu-id="47c20-139">The following is a summary of a Feb 7, 2020 Message center post (MC203397):</span></span>
+<span data-ttu-id="68049-152">Microsoft 知道，中國地區的部分使用者在撥入商務用 Skype 或 Teams 會議識別碼時發生問題。</span><span class="sxs-lookup"><span data-stu-id="68049-152">Microsoft is aware that some users in the China region are experiencing issues dialing into Skype for Business or Teams conference IDs.</span></span> <span data-ttu-id="68049-153">在多數情況下，這些問題在於我們無法控制的外部系統。</span><span class="sxs-lookup"><span data-stu-id="68049-153">In most cases, these problems are external to systems under our control.</span></span> <span data-ttu-id="68049-154">問題往往在於當地行動電話和電話語音的通信業者。</span><span class="sxs-lookup"><span data-stu-id="68049-154">Often, the issue is with local mobile and telephony carriers.</span></span> 
 
-<span data-ttu-id="47c20-140">Microsoft 知道，中國地區的部分使用者在撥入商務用 Skype 或 Teams 會議識別碼時發生問題。</span><span class="sxs-lookup"><span data-stu-id="47c20-140">Microsoft is aware that some users in the China region are experiencing issues dialing into Skype for Business or Teams conference IDs.</span></span> <span data-ttu-id="47c20-141">在多數情況下，這些問題在於我們無法控制的外部系統。</span><span class="sxs-lookup"><span data-stu-id="47c20-141">In most cases, these problems are external to systems under our control.</span></span> <span data-ttu-id="47c20-142">問題往往在於當地行動電話和電話語音的通信業者。</span><span class="sxs-lookup"><span data-stu-id="47c20-142">Often, the issue is with local mobile and telephony carriers.</span></span> 
+<span data-ttu-id="68049-155">如果您遇到音訊會議問題，建議您執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="68049-155">We recommend the following if you're having audio conferencing problems:</span></span>
 
-<span data-ttu-id="47c20-143">如果您遇到音訊會議問題，建議您執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="47c20-143">We recommend the following if you're having audio conferencing problems:</span></span>
+- <span data-ttu-id="68049-156">要求來電者或會議召集人撥打您的 PSTN 或行動電話號碼。</span><span class="sxs-lookup"><span data-stu-id="68049-156">Ask the caller or meeting organizer to call your PSTN or mobile number.</span></span>
+- <span data-ttu-id="68049-157">從桌面或行動裝置用戶端透過 VoIP 加入通話或會議。</span><span class="sxs-lookup"><span data-stu-id="68049-157">Join the call or meeting from the desktop or mobile clients, using VoIP.</span></span>
 
-- <span data-ttu-id="47c20-144">要求來電者或會議召集人撥打電話給您的 PSTN 或行動電話號碼</span><span class="sxs-lookup"><span data-stu-id="47c20-144">Ask the caller or meeting organizer to call your PSTN or mobile number</span></span>
-- <span data-ttu-id="47c20-145">從桌面或行動裝置用戶端透過 VoIP 加入通話或會議</span><span class="sxs-lookup"><span data-stu-id="47c20-145">Join the call or meeting from the desktop or mobile clients, using VoIP</span></span>
-
-<span data-ttu-id="47c20-146">如果您需要記錄支援票證，請包含下列項目：</span><span class="sxs-lookup"><span data-stu-id="47c20-146">If you need to log a support ticket, please include the following:</span></span>
+<span data-ttu-id="68049-158">如果您需要記錄支援票證，請包含下列項目：</span><span class="sxs-lookup"><span data-stu-id="68049-158">If you need to log a support ticket, please include the following:</span></span>
     
-- <span data-ttu-id="47c20-147">實際通話時間</span><span class="sxs-lookup"><span data-stu-id="47c20-147">Exact time of call</span></span>
-- <span data-ttu-id="47c20-148">撥入的會議橋接器號碼</span><span class="sxs-lookup"><span data-stu-id="47c20-148">Conference bridge number dialed</span></span>
-- <span data-ttu-id="47c20-149">來電者電話網路</span><span class="sxs-lookup"><span data-stu-id="47c20-149">Caller phone network</span></span>
-- <span data-ttu-id="47c20-150">來電者電話號碼</span><span class="sxs-lookup"><span data-stu-id="47c20-150">Caller Phone Number</span></span>
+- <span data-ttu-id="68049-159">實際通話時間</span><span class="sxs-lookup"><span data-stu-id="68049-159">Exact time of call</span></span>
+- <span data-ttu-id="68049-160">撥入的會議橋接器號碼</span><span class="sxs-lookup"><span data-stu-id="68049-160">Conference bridge number dialed</span></span>
+- <span data-ttu-id="68049-161">來電者電話網路</span><span class="sxs-lookup"><span data-stu-id="68049-161">Caller phone network</span></span>
+- <span data-ttu-id="68049-162">來電者電話號碼</span><span class="sxs-lookup"><span data-stu-id="68049-162">Caller phone number</span></span>
