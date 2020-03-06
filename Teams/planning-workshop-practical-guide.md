@@ -15,19 +15,19 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a5d7423dfd0493af0e780b81f96d840f422d4833
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 356ff815fe05a91f203778c0f6af255182ace35c
+ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834653"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42550900"
 ---
 # <a name="tools-and-workshops-plan-deliver-and-adopt-microsoft-teams"></a>工具與討論會：規劃、交付及採納 Microsoft 團隊
 
 下載這些工具，逐步引導您在組織中規劃、交付及採用小組。
 
 
-- [Microsoft 團隊客戶成功套件](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip)
+- [Microsoft 團隊客戶成功套件](https://aka.ms/TeamsCustomerSuccess)
 
     此套件包含大量的簡報、電子郵件範本、秘訣 & 訣竅，以及您可以用來推出並推動組織中的小組採用的海報。 它包含兩個適用于系統管理員和小組領導的快速入門手冊，以及每個部門的使用案例範例。 您可以使用這些資源，讓貴組織中的各種職能小組，包括行銷、銷售、財務、人力資源、IT、工程及專案管理。
 

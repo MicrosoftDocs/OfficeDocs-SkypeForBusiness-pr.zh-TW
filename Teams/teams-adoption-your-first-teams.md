@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1a62bc73e7dc2496a9fedc94ad7fc38f2ebecd65
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 69cfb557f04644c1bb54d78ae24a8110d42ee8a0
+ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030767"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42551030"
 ---
 # <a name="create-your-first-teams-in-microsoft-teams"></a>在 Microsoft 團隊中建立您的第一個團隊
 
@@ -46,7 +46,7 @@ ms.locfileid: "42030767"
 |----------------- | ---------- |
 | **Microsoft 團隊部署** ||
 | 一般 | [網頁] 索引標籤：[團隊檔](https://aka.ms/SuccessWithTeams) |
-| 認知與採納 | [團隊採用中樞](https://aka.ms/DriveTeamsAdoption)<br/>[Microsoft 團隊客戶成功套件](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip)|
+| 認知與採納 | [團隊採用中樞](https://aka.ms/DriveTeamsAdoption)<br/>[Microsoft 團隊客戶成功套件](https://aka.ms/TeamsCustomerSuccess)|
 | 商務活動 | Wiki –交往指導方針<br/>表單–團隊諮詢要求<br/>清單–預訂要求 |
 |早期採納者 | 已固定的意見反應群組 <br/> OneNote 常見問題及常見主題 |
 | 意見反應與報告 | 已固定的 Office 365 使用方式報告（僅適用于 Office 365 管理員） |

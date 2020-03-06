@@ -19,12 +19,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 55e4ec98d6e54dba88a417d9631605859962c9c1
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 78531cfad01051e4a9d7493384a18f4c0a4e1dc4
+ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42033020"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42551001"
 ---
 # <a name="tools-for-driving-adoption"></a>推動採用的工具 
 
@@ -155,4 +155,4 @@ Office 365 擁護者程式是一個免費程式，可協助想要從 Microsoft �
 請參閱[小組採納 flipbook](https://aka.ms/teamstoolkit)，這是可協助您在公司中推出小組的線上指南。 它包含許多可下載的工具、範本及其他資源，可協助您在小組採用歷程中進行。
 
 ### <a name="teams-customer-success-kit"></a>團隊客戶成功套件
-[[團隊客戶成功案例](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip)] 可提供工具，協助您在組織中推出小組。 它包含通知的電子郵件範本、海報海報、倒計時，以及 & 墩的秘訣。 它也包含小組領導和 IT 系統管理員的快速入門手冊。
+[[團隊客戶成功案例](https://aka.ms/TeamsCustomerSuccess)] 可提供工具，協助您在組織中推出小組。 它包含通知的電子郵件範本、海報海報、倒計時，以及 & 墩的秘訣。 它也包含小組領導和 IT 系統管理員的快速入門手冊。

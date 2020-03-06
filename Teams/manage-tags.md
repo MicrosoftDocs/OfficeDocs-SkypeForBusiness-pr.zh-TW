@@ -16,30 +16,31 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何在 Microsoft 團隊中管理組織中使用標記的方式。
-ms.openlocfilehash: 3ade2f47474fe8aaf16c568e8c141dcd84526d86
-ms.sourcegitcommit: 561b9bab7d6f5a621436bc85ea28ea14657e7868
+ms.openlocfilehash: 5da1d1549e6171656b0065036819be0fac450759
+ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42034494"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42551040"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>管理 Microsoft 團隊中的標記
 
 > [!NOTE]
 > 在 Microsoft 團隊系統管理中心中還沒看到這項功能嗎？ 目前正在推出，您的組織可能無法使用。 若要維持在即將到來的小組功能上，請參閱[Microsoft 365 藍圖](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams)。
 
-Microsoft 團隊中的標記可讓使用者與團隊中的人員子集進行通訊。 您可以將標籤新增至一或多個小組成員，輕鬆地與正確的人員子集連線。 小組擁有者和成員（如果已為他們啟用功能）可以在人員中新增一或多個標記。 然後，您可以 @mentions 在頻道文章中，小組中的任何人都能使用這些標籤，只要與分派該標記的人員通訊即可。
+Microsoft 團隊中的標記可讓使用者與團隊中的人員子集進行通訊。 您可以將標籤新增至一或多個小組成員，輕鬆地與正確的人員子集連線。 小組擁有者和成員（如果已為他們啟用功能）可以在人員中新增一或多個標記。 然後，您就可以 @mentions 使用這些標籤，讓團隊中的任何人都能使用這些標籤，或只與已分派該標記的人員開始交談。
 
 > [!NOTE]
 > 在私有通道中尚不支援標記。
 
 ## <a name="how-tags-work"></a>標記的運作方式
 
-您可以將標記新增至特定小組中的人員。 新增標籤之後，就可以在團隊的任何標準頻道中 @mentions 使用。 以下是如何在團隊中使用標記的一些範例：
+您可以將標記新增至特定小組中的人員。 新增標籤之後，就可以在聊天的 @mentions 中或在團隊的任何標準頻道中使用它。 以下是如何在團隊中使用標記的一些範例：
 
 - 商店管理員想要張貼公告至頻道並通知所有出納。
 - 群組產品經理想要將頻道中的所有產品經理宣傳。
 - 醫院管理員想要傳送訊息給頻道中的所有 radiologists。
+- 行銷經理想要與所有設計人員一起開始進行群組聊天。 
 
 若要深入瞭解，請參閱[在團隊中使用標記](https://support.office.com/article/using-tags-in-teams-667bd56f-32b8-4118-9a0b-56807c96d91e)。
 

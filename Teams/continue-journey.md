@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7453743407696a0ba8c41cb401caf4f22ba7b78f
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 6ffbf676a86320fe3003d26dc94161d9e9e58c4d
+ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825301"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42550910"
 ---
 ![升級歷程圖表，強調卓越運作階段](media/upgrade-banner-op-excellence.png "升級歷程階段，重點放在卓越運作階段")
 
@@ -47,7 +47,7 @@ ms.locfileid: "41825301"
 
 - 登記對等的擁護者，協助 evangelize 並鼓勵同事的使用者。
 - 請查看[Office 365 採用指南](https://go.microsoft.com/fwlink/?linkid=859045)，以取得有關提升合作及促進採納的秘訣。
-- 利用[團隊客戶成功套件](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip)來加強知名度並分享最佳做法。
+- 利用[團隊客戶成功套件](https://aka.ms/TeamsCustomerSuccess)來加強知名度並分享最佳做法。
 - 實施正式[採用與變更管理戰略](http://www.successwithteams.com/)，以協助維持採用的增長。
 
 ## <a name="prepare-for-new-functionality"></a>準備新功能
