@@ -16,18 +16,19 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords:
-- ms.teamsadmincenter.directrouting.cqd
-- ms.lync.lac.ToolsCallQualityDashboard
+f1.keywords:
+- CSH
 ms.custom:
 - Reporting
+- ms.teamsadmincenter.directrouting.cqd
+- ms.lync.lac.ToolsCallQualityDashboard
 description: '瞭解如何開啟和使用通話品質儀表板，並取得通話品質的摘要報告。 '
-ms.openlocfilehash: e29bced13fd4bad900c349efc07219e4edebc9d3
-ms.sourcegitcommit: 013190ad10cdc02ce02e583961f433d024d5d370
+ms.openlocfilehash: 9e9c70c88aec9fcdf898d94a17f46f76bd2c608a
+ms.sourcegitcommit: 98fcfc03c55917d0aca48b7bd97988f81e8930c1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "41636837"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42559895"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>開啟並使用 Microsoft 團隊和商務用 Skype Online 的通話品質儀表板
 
@@ -36,6 +37,13 @@ ms.locfileid: "41636837"
 通話品質儀表板（CQD）可讓您深入瞭解使用 Microsoft 團隊和商務用 Skype Online 服務所進行的通話品質。 本主題描述開始收集資料的步驟，您可以用來疑難排解通話品質問題。
 
 目前，您可以使用 [高級 CQD] 和 [CQD]。 您可以在<span>https://cqd.teams.microsoft.com</span>使用 [高級 CQD]。 使用您的系統管理員認證的新 URL，但相同的記錄。
+
+## <a name="use-power-bi-to-analyze-cqd-data"></a>使用 Power BI 來分析 CQD 資料
+
+2020年1月[的新功能：下載 POWER BI 查詢範本以進行 CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)。 可自訂的 Power BI 範本，您可以用來分析及報告您的 CQD 資料。
+
+已閱讀 [[使用 POWER BI 分析 CQD 資料](CQD-Power-BI-query-templates.md)] 以深入瞭解。
+
 
 ## <a name="latest-changes-and-updates"></a>最新變更與更新
 
@@ -355,7 +363,7 @@ CQD 使用建築物資料檔，這可協助提供有用的通話詳細資料。 
 - 資料檔案不包含表格標題列。 資料檔案的第一行應該是真實資料，而不是標頭標籤（例如「網路」）。
 - 檔案中的資料類型只能是 String、Integer 或 Boolean。 針對整數資料類型，此值必須是一個數值。 布林值必須是0或1。
 - 如果資料行使用 [字串] 資料類型，資料欄位可以是空的，但仍必須以 tab 或逗號分隔。 空白資料欄位只會指派空的字串值。
-- 每個資料列都必須有14個數據行，每一欄都必須具有適當的資料類型，且欄必須按照下表所列的順序排列：
+- 每個資料列都必須有14個數據行（如果您想要新增選用的欄，則每一欄都必須具有適當的資料類型），且欄必須按照下表所列的順序排列：
 
 ||||||||||||||||
 |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:---  |:--- |:---|
@@ -423,6 +431,33 @@ CQD 會使用端點資料檔案。 欄值會用於通話記錄的第一個用戶
 
 ## <a name="frequently-asked-questions"></a>常見問題
 
+### <a name="why-does-cqd-mark-a-call-as-good-if-one-or-more-meeting-participants-had-a-poor-experience"></a>如果有一個或多個會議參與者的體驗不佳，CQD 會將呼叫標示為「良好」嗎？
+
+查看 CQD 用於[資料流程分類](stream-classification-in-call-quality-dashboard.md)的規則。
+ 
+對於音訊資料流程而言，任何5個分類器（根據呼叫長度來計算）都可以在「良好」參數中使用。 這並不表示使用者並未遇到音訊 drop、static 或問題所帶來的問題。 
+
+若要判斷是否為網路問題，請查看會話平均值與最大值之間的差異。 [最大值] 是會話期間檢測到和報告的最大值。
+ 
+以下是如何針對此情況進行疑難排解的範例。 假設您在通話期間進行網路追蹤，並在前20分鐘內沒有遺失的資料包，但接著您有1.5 秒的資料包，然後就能取得其他通話的差距。 即使在 Wireshark 追蹤 RTP 分析中，平均值也會 <10% （0.1）的資料包遺失。 最大的資料包遺失是什麼？ 5秒期間中的1.5 秒是30% （0.3）。 在五個採樣期間內發生（也許可能是在採樣期間進行分割）嗎？
+ 
+如果網路躍點數在平均和最大值中看起來很好，請查看其他遙測資料： 
+- 檢查 CPU 不足的事件比率，看看檢測到的 CPU 資源是否不足，並導致品質不佳。 
+- 音訊裝置是否為半雙工模式，以避免因麥克風與喇叭接近而導致的意見反應？ 
+- 檢查 Device 半雙工 AEC 事件比率。 裝置 glitching 或麥克風 glitching 在插入中樞或塢站時出現噪音或靜電，而導致聲音或靜電無法使用：  
+- 檢查裝置是否有問題，以及麥克風的故障事件比率。 裝置本身是否正常運作？  
+- 檢查捕獲和轉譯裝置無法運作的事件比率。
+
+
+如需有關 CQD 遙測中可用之維度與量值的詳細資訊，請參閱[通話品質儀表板中提供的尺寸與測量](dimensions-and-measures-available-in-call-quality-dashboard.md)。
+
+針對背景雜音，請檢查 [靜音事件比率]，以查看參與者已靜音的時間長度。
+ 
+在 CQD 中建立詳細報表，並篩選會議 ID 以查看會議中的所有使用者和資料流程，並新增感興趣的欄位。 報告問題的使用者可能不是有問題的使用者。 他們只是報告體驗。
+ 
+遙測不一定要找出問題，但它可以協助您更好地瞭解在何處查看並告知您的決策。 是網路、裝置、驅動程式或固件更新、使用方式或使用者嗎？
+
+
 ### <a name="why-does-my-cqd-v2-report-data-look-different-than-the-cqd-v3-report-data"></a>為什麼 CQD v2 報告資料看起來與 CQD v3 報告資料不同？ 
 
 如果您看到 CQD v2 與 v3 之間的資料差異，請確定資料比較或驗證是在 "蘋果" 和 [窄] 層級完成，而不是 [匯總層級]。 例如，如果您篩選兩個報告以進行 MSIT ' 建築物 30 ' WiFi 小組桌面用戶端資料，那麼在 v2 與 v3 之間，品質較差的百分比應該相同。
@@ -481,3 +516,4 @@ CQD v2 和 CQD v3 具有不同的總計數，因為 CQD v3 有新的案例不在
 [使用通話分析來疑難排解不良通話品質](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
 [通話分析和通話品質儀表板](difference-between-call-analytics-and-call-quality-dashboard.md)
+ 
