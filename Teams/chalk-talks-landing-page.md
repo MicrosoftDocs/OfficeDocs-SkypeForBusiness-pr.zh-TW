@@ -16,17 +16,19 @@ f1.keywords:
 ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: adead862907c29c066df8b2541c260045f19db95
-ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
+ms.openlocfilehash: 7d41218e75b24432e1f67ae1dc8344f8a76b8a50
+ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42417598"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42558653"
 ---
 <div id="main" class="v2">
     <div class="container">
         <h1>Microsoft 團隊粉筆與粉筆交談</h1>
-專為 IT 專業人員和決策者設計而設計，可提供獨特的機會來掌握最佳做法，以及小組中一些最受歡迎且引人注目的案例的實際指導方針。 透過行業專家的協助工具，這些線上互動式研討會將可與您深入瞭解，以增強您的團隊實現，並為使用者提供額外的價值。<br><br><i>按一下下列任何討論會標題，即可查看可用的日期和時間，並立即註冊！</i>
+專為 IT 專業人員和決策者設計而設計，可提供獨特的機會來掌握最佳做法，以及小組中一些最受歡迎且引人注目的案例的實際指導方針。 透過行業專家的協助工具，這些線上互動式研討會將可與您深入瞭解，以增強您的團隊實現，並為使用者提供額外的價值。<br><br>
+           <strong>先決條件</strong>：先<a href="https://aka.ms/Teamsin30"target="_blank">在30個討論會中參與團隊</a>。<br><br>
+           <i>按一下下列任何討論會標題，即可查看可用的日期和時間，並立即註冊！</i>
         <ul class="pivots">
             <li>
                 <a href="#home" data-linktype="self-bookmark"></a> 
