@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 閱讀本文以瞭解如何將模擬裝置搭配 Microsoft Phone 系統 Direct 路由搭配使用。
-ms.openlocfilehash: 525e898bd0eafe88d6893249465734d7c33a10b2
-ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
+ms.openlocfilehash: 45128b8806644e4399687787bcce251ccb807d85
+ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "42341798"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42558513"
 ---
 # <a name="how-to-use-analog-devices-with-phone-system-direct-routing"></a>如何將模擬裝置與電話系統直接路由搭配使用
 
@@ -39,16 +39,17 @@ ms.locfileid: "42341798"
 
 這個範例會逐步引導您完成下列步驟：
 
-1. 將 SBC 連接至直接路由
-2. 建立 PSTN 使用量
-3. 建立語音路由，並將它與 PSTN 使用量建立關聯
-4. 將語音路由指派給 PSTN 使用量
-5. 啟用線上使用者
-6. 將語音路線原則指派給使用者
-7. 建立類比裝置的語音路線
+1. 將 SBC 連接至直接路由。
+2. 建立 PSTN 使用量。
+3. 建立語音路由，並將它與 PSTN 使用狀況建立關聯。
+4. 將語音路由指派給 PSTN 使用量。
+5. 啟用線上使用者。
+6. 將語音路線原則指派給使用者。
+7. 建立類比裝置的語音路線。
 
 如需如何將 ATA 連線至 SBC 並設定 SBC 的相關資訊，請參閱您的 SBC 製造商配置指南：
 - [AudioCodes 設定檔](https://www.audiocodes.com/media/14278/connecting-audiocodes-sbc-with-analog-device-to-microsoft-teams-direct-routing-enterprise-model-configuration-note.pdf)
+- [功能區設定檔](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)
 
 ## <a name="step-1--connect-the-sbc-to-direct-routing"></a>步驟1。  將 SBC 連接至直接路由
 

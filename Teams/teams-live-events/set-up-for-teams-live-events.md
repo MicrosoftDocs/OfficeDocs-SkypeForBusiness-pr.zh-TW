@@ -1,7 +1,7 @@
 ---
 title: 在 Microsoft 團隊中設定即時事件
-author: chuckedmonson
-ms.author: chucked
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 07/10/2019
 ms.topic: article
@@ -18,12 +18,12 @@ description: 瞭解在小組中設定即時事件的步驟，包括準備網路�
 ms.custom: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 469e693b8ad04bb214831e2c444c9fb11fc10128
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: f18f35ef6775f04049b79374a4e2940646eff9e8
+ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827021"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42558573"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>在 Microsoft 團隊中設定即時事件
 
@@ -56,10 +56,10 @@ ms.locfileid: "41827021"
 
     ![即時事件原則設定的螢幕擷取畫面](../media/teams-live-events-policies.png "Microsoft 團隊系統管理中心中 [即時事件] 原則設定的螢幕擷取畫面") 
 
-|正在  |說明  |
+|正在  |描述  |
 |---------|---------|
 |**職稱**     |這是出現在 [即時事件原則] 頁面上的原則標題。 它不能超過64個字元或包含任何特殊字元。          |
-|**說明**    |使用此操作來新增原則的易記描述。         |
+|**描述**    |使用此操作來新增原則的易記描述。         |
 |**允許排程**     |開啟此功能可讓貴組織中的使用者在團隊中建立及排程即時事件。 請務必注意，如果您希望使用者排程由外部 app 或裝置產生的即時事件，您必須執行其他步驟。 若要深入瞭解，請參閱[讓使用者排程由外部 app 或裝置產生的事件](#enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device)。     |
 |**允許會議出席者** |此設定僅適用于小組中產生的事件。 開啟此功能可讓即時活動出席者在事件期間查看動態標題和字幕。         |
 |**誰可以加入排程的即時事件**    |選擇下列其中一項。<br><br>**所有人**使用者可以建立即時事件，包括所有人，包括貴組織外部的人員，都可以出席。 此設定會在使用者排程即時事件時，在小組中啟用 [**公用**] 許可權類型。<br> **組織中的所有人**使用者可以建立您組織中的人員（包括新增至貴組織的[來賓使用者](../add-guests.md)）可以出席的即時事件。 使用者無法建立匿名使用者所參與的即時事件。 此設定會在使用者排程即時事件時，在小組中啟用**組織內**的許可權類型。<br> **特定使用者或群組**使用者可以建立只有貴組織中的特定使用者或群組可以出席的即時事件。 使用者無法建立由組織中的所有人或匿名使用者所參與的即時事件。 此設定可讓使用者在排程即時事件時，在小組中啟用 [**人員與群組**] 許可權類型。       |

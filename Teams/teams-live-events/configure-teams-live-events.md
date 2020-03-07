@@ -1,7 +1,7 @@
 ---
 title: 在 Microsoft 團隊中設定即時事件設定
-author: chuckedmonson
-ms.author: chucked
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 03/11/2019
 ms.topic: article
@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1cdfd1bc832827dbcf48e82a49ed4d02c38116bb
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 222e7e51fcf87e0e76c3ab18f33357f7489a1ce1
+ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827141"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42558593"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>在 Microsoft 團隊中設定即時事件設定
 
@@ -38,7 +38,7 @@ ms.locfileid: "41827141"
 
 此 URL 會顯示在 [即時事件] 出席者中。 新增貴組織的支援 URL，讓出席者在即時事件期間取得聯絡支援的方式。
 
-### <a name="an-icon-showing-the-microsoft-teams-logomediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![顯示 Microsoft [小組標誌] 的圖示](../media/teams-logo-30x30.png) 使用 Microsoft 團隊系統管理中心
+### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![顯示 Microsoft [小組標誌] 的圖示](../media/teams-logo-30x30.png) 使用 Microsoft 團隊系統管理中心
 
 1. 在左側導覽中，移至 [**會議** > **即時事件設定**]。
 2. 在 [**支援 url**] 底下，輸入您組織的支援 url。 
@@ -55,7 +55,7 @@ Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}”
 
 如果您是透過 Microsoft video 傳遞合作夥伴購買及設定軟體定義的網路（SDN）方案或企業內容傳遞網路（eCDN）方案，請在團隊中設定即時事件的提供者。 
 
-### <a name="an-icon-showing-the-microsoft-teams-logomediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![顯示 Microsoft [小組標誌] 的圖示](../media/teams-logo-30x30.png) 使用 Microsoft 團隊系統管理中心
+### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![顯示 Microsoft [小組標誌] 的圖示](../media/teams-logo-30x30.png) 使用 Microsoft 團隊系統管理中心
 
 1. 在左側導覽中，移至 [**會議** > **即時事件設定**]。
 2. 在**協力廠商的 [視頻發佈提供者**] 下，完成下列動作： 
