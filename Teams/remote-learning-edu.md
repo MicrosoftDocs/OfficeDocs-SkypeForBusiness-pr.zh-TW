@@ -16,22 +16,25 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7cc8b5d681fe6dbb85be77063b5974417bbf19ff
-ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
+ms.openlocfilehash: 9e0259a47f72caa441d0f7d4b13ccf00345b1a3d
+ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42417528"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42551010"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>開始使用 Microsoft Teams 進行遠端學習
 
 > [!NOTE]
 > 本文是為學校設定遠端學習的絕佳資源。 如果您是授課者或學校主管，這些資源可能會有所幫助：
-> - 專為教師撰寫的文章集合，包括最重要之[在 Teams 中教學首要步驟](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114)的使用指南。
-> - Microsoft 教育工作者中心 1 小時線上課程顯示教師在其專業領域中使用 Teams 的方式。 [使用 Microsoft Teams 轉換學習](https://education.microsoft.com/course/9c9f5c11/overview)。
-> - Microsoft 教育工作者中心 1 小時線上課程，帶領教師在班級 Teams 中逐步教學。 [使用班級 Teams 營造共同學習環境](https://education.microsoft.com/course/b1e15cfc/overview)。
+>
+> - 專為教師撰寫的文章集合，包括最重要之[**在 Teams 中教學首要步驟**](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114)的使用方法指南。
+> - Microsoft 教育者中心的 1 小時線上課程，說明教師如何在其專業領域中使用 Teams。 [**使用 Microsoft Teams 轉換學習**](https://education.microsoft.com/course/9c9f5c11/overview)。
+> - Microsoft 教育者中心的 1 小時線上課程，引導教師在班級 Teams 中進行教學。 [**使用班級 Teams 營造共同學習環境**](https://education.microsoft.com/course/b1e15cfc/overview)。
 
-線上學習可以如同在教室中的個人化、具參與感，以及有社會聯繫感。 學生和教師可以保持連絡、使用交談互相幫助，並使用即時會議而有見面開會的感受。 教師可以使用 [作業] 來追蹤學生每日作業的進度。 沒有人該有置身事外的感受。 許多學生都表示比起在教室上課，使用線上學習更能表達意見，並與教師和同學更有聯繫。 就像在教室中一樣，教師可以使用 Teams 的 App 和功能來支援其最佳運作方式。
+不要錯過 2020 年 3 月 4 日的部落格，[學校如何使用 Microsoft Teams 輕鬆提升遠端學習計劃](https://aka.ms/teamseduremoteblog) (英文)。
+
+線上學習可以是個人化、在教室中學習般的互動和社交聯繫。 學生和教師可以保持連絡、使用交談互相幫助，並使用即時會議而有見面開會的感受。 教師可以使用 [作業] 來追蹤學生每日作業的進度。 沒有人該有置身事外的感受。 許多學生都表示比起在教室上課，使用線上學習更能表達意見，並與教師和同學更有聯繫。 就像在教室中一樣，教師可以使用 Teams 的 App 和功能來支援其最佳運作方式。
 
 Microsoft Teams 是一種數位中心，可將交談、內容、作業和 App 結合於一處，便於教師建立充滿生氣的學習環境。 建立共同作業的教室、在專業學習社群中相互聯繫，並與同事交流；以上通通可以藉由單一體驗完成。
 
@@ -47,7 +50,7 @@ Teams 具有[用戶端](get-clients.md)以供桌面 (Windows、Mac 和 Linux)、
 
 Teams 利用 Microsoft 365 功能來驗證使用者和提供服務。 教職員、講師和學生應建立身分識別，以利於共同作業。 如果身分識別尚不存在，請遵循此程序來建立。
 
-在使用者可以開始使用 Teams 功能之前，必須[為使用者啟用 Teams 授權](user-access.md)。 Teams 依賴其他 Microsoft 365 功能，例如 [Office 365 群組](Office-365-groups.md)、[Exchange](Exchange-Teams-interact.md)、[SharePoint 和 OneDrive](SharePoint-OneDrive-interact.md) 來啟用共同作業案例。 如果這所有服務也都啟用，使用者就能獲得最佳的 Teams 體驗。 [Teams 可支援由 Google 託管電子郵件的使用者](https://docs.microsoft.com/microsoft-365/education/deploy/enabling-teams-for-education-for-google-users)。
+[需要為使用者啟用 Teams 授權](https://docs.microsoft.com/microsoft-365/education/intune-edu-trial/enable-microsoft-teams)，然後[必須將授權指派給使用者](teams-edu-licensing.md)，之後使用者才能使用 Teams 功能。 Teams 依賴其他 Microsoft 365 功能，例如 [Office 365 群組](Office-365-groups.md)、[Exchange](Exchange-Teams-interact.md)、[SharePoint 和 OneDrive](SharePoint-OneDrive-interact.md) 來啟用共同作業案例。 如果這所有服務也都啟用，使用者就能獲得最佳的 Teams 體驗。 [Teams 可支援由 Google 託管電子郵件的使用者](https://docs.microsoft.com/microsoft-365/education/deploy/enabling-teams-for-education-for-google-users)。
 
 Microsoft Teams 隨附於 Office 365 A1 中，教育機構可免費試用。 如需有關如何部署 Office 365 並讓整個學校開始使用 Teams 的 IT 指導方針，請參閱[此頁](https://docs.microsoft.com/microsoft-365/education/intune-edu-trial/set-up-office365-edu-tenant)。 若要取得支援，可以在[這裡](https://signup.microsoft.com/Signup?OfferId=03ee83a5-5cb4-4545-aca9-33ead43f222a,d764709a-7763-45ef-a2a8-db5b8b6ae704&DL=ENTERPRISEPREMIUM_FACULTY&ali=1)提出支援票證；若要取得 Teams 的訓練課程，請造訪當地的 Microsoft Store 實體商店與專業人員洽詢。
 
@@ -135,7 +138,7 @@ Microsoft Teams 教育版提供[特定類型的 Teams](https://support.office.co
 
 ## <a name="adoption-content"></a>採用內容
 
-Microsoft 已針對部署 Teams 開發了[採用內容](https://support.office.com/article/video-moderating-a-q-a-4984e582-8c66-4ea3-aaaf-d93cf62e1b76)和策略指導方針。 [Teams 採用指南](https://teamworktools.azurewebsites.net/tft/index.html)提供可用內容的良好概觀，而 [Teams 客戶成功套件](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip)則提供許多可用於促進 Teams 認知的許多範本。 Microsoft Educator Center 提供教育有關如何在教室中使用 [Microsoft Teams](https://education.microsoft.com/learningPath/18793af1) 和 [OneNote](https://education.microsoft.com/learningPath/b6e3b5f2) 的特定訓練。
+Microsoft 已針對部署 Teams 開發了[採用內容](https://support.office.com/article/video-moderating-a-q-a-4984e582-8c66-4ea3-aaaf-d93cf62e1b76)和策略指導方針。 [Teams 採用指南](https://teamworktools.azurewebsites.net/tft/index.html)提供可用內容的良好概觀，而 [Teams 客戶成功套件](https://aka.ms/TeamsCustomerSuccess)則提供許多可用於促進 Teams 認知的許多範本。 Microsoft Educator Center 提供教育有關如何在教室中使用 [Microsoft Teams](https://education.microsoft.com/learningPath/18793af1) 和 [OneNote](https://education.microsoft.com/learningPath/b6e3b5f2) 的特定訓練。
 
 其他採用資源包括：
 
