@@ -71,6 +71,7 @@
 ### 外部存取 (同盟)
 #### [管理外部存取](manage-external-access.md)
 #### [適用於外部使用者的原生 Teams 聊天](native-chat-for-external-users.md)
+#### [Teams 和 Skype 互通性](teams-skype-interop.md)
 
 
 ### 來賓存取
@@ -625,6 +626,7 @@
 ## [Microsoft Teams 教育版](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [快速入門 - Teams 教育版系統管理員](teams-quick-start-edu.yml)
 ### [開始使用遠端學習](remote-learning-edu.md)
+### [Teams 授權教育](teams-edu-licensing.md)
 ### [Teams 教育版中的作業](expand-teams-across-your-org/assignments-in-teams.md)
 ### [Teams 教育版管理員的資源](resources-teams-edu.md)
 ### [適用於教育界管理員的 Microsoft Teams 原則套件](policy-packages-edu.md)
@@ -635,6 +637,7 @@
 ### [開始使用適用於零售業的 Teams 範本](get-started-with-retail-teams-templates.md)
 
 ## [適用於政府機關的 Teams](expand-teams-across-your-org/teams-for-government-landing-page.md)
+### [管理 Office 365 G1 試用版方案](g1-trial-license.md)
 ### [Microsoft 365 政府版的方案 - GCC](plan-for-government-gcc.md)
 ### [Microsoft 365 政府版的方案 - GCC High](plan-for-government-gcc-high.md)
 ### [Microsoft 365 政府版的方案 - DoD](plan-for-government-dod.md)
@@ -674,6 +677,7 @@
 ## [安裝和更新問題疑難排解](troubleshoot-installation.md)
 ## [疑難排解 Teams 用戶端的連線問題](connectivity-issues.md)
 ## [疑難排解 Teams 的問題時使用記錄檔](log-files.md)
+## [常見問題：支援您的遠端員工](FAQ-support-remote-workforce.md)
 ## [驗證 Teams 的服務健康情況](service-health.md)
 ## [Teams 的已知問題](Known-issues.md)
 ## [Teams 的支援資源](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -726,6 +730,7 @@
 ##### [Office 365 企業版 E5 (不含音訊會議)](teams-add-on-licensing/office-365-enterprise-e5-without-audio-conferencing.md)
 ##### [政府機關、教育界和非營利組織](teams-add-on-licensing/gov-edu-and-nonprofit-organizations.md)
 ### [管理 Office 365 E1 試用版方案](e1-trial-license.md)
+### [管理 Office 365 G1 試用版方案](g1-trial-license.md)
 ### [管理 Teams 商業試用版](iw-trial-teams.md)
 ### [管理 Teams Exploratory 體驗](teams-exploratory.md)
 ### [將 Teams 免費升級為 Office 365 訂閱版本](upgrade-freemium.md)
