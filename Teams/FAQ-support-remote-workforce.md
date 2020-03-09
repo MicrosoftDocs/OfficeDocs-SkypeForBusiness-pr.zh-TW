@@ -14,12 +14,12 @@ search.appverid: MET150
 description: 使用本指導方針支援在家中工作 (WFH) 的遠端員工提高生產力，以因應 COVID-19 (冠狀病毒) 爆發的情況。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9bbd42047037985ec4ac2c211a677e4c37e45af0
-ms.sourcegitcommit: ac811017d54a55f39ecc0e3a66a883d9e027ce68
+ms.openlocfilehash: b7cdbe0922116015f33d7f10219eb51b07abaf76
+ms.sourcegitcommit: 98fcfc03c55917d0aca48b7bd97988f81e8930c1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42547970"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42559320"
 ---
 # <a name="faq-support-your-remote-workforce"></a>常見問題：支援遠端員工
 
@@ -91,6 +91,14 @@ Microsoft 提供[適用於 Office 365 的 FastTrack 中心權益](https://docs.m
 
 請參閱[使用 Teams 支援遠端工作者](support-remote-work-with-teams.md)。 本文涵蓋有關遠端工作者開始使用 Teams 的大部分常見工作和問題。
 
+### <a name="i-just-got-started-with-microsoft-365-so-i-can-use-teams-to-support-my-remote-workers-or-students-ive-signed-up-for-the-service-but-when-a-user-tries-to-use-teams-they-get-this-error-youre-missing-out-ask-your-admin-to-enable-microsoft-teams-what-should-i-do"></a>我只要開始使用 Microsoft 365，就能使用 Teams 來支援我的遠端工作者或學生。 我已經註冊服務，但是當使用者嘗試使用 Teams 時，收到以下錯誤訊息：「別再錯過了! 請要求您的系統管理員啟用 Microsoft Teams。」。 我該怎麼做？
+
+啟用其中一個免費 Teams 優惠版本之後，仍需為使用者進行開啟。 請閱讀[管理 Teams 的使用者存取](user-access.md) (部分機器翻譯) 和[個別或大量將使用者新增至 Office 365](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users) (英文)。
+
+如果您已經擁有 Microsoft 365 一段時間，但卻是第一次授權或啟用使用者，您可能需要為組織 [開啟 Teams][](Office-365-set-up.md)。 查看本文章中的[我已經有 Microsoft 365，但我沒有使用 Teams](#i-have-microsoft-365-already-but-i-dont-use-teams-are-you-providing-trial-licenses)。
+
+
+
 ### <a name="can-i-use-calling-plans-with-the-office-365-e1-trial-that-microsoft-is-offering-can-i-assign-a-telephone-number-to-my-users-how-much-am-i-going-to-pay"></a>我是否可以使用通話方案搭配 Microsoft 提供的 Office 365 E1 試用版？ 我是否可以將電話號碼指派給我的使用者？ 我要付多少錢？
 
 使用者可以在任何版本的 Teams 中，進行應用程式對應用程式的語音通話和視訊通話。 若要將電話號碼指派給員工，您需要 [Office 365 電話系統](what-is-phone-system-in-office-365.md)。 我們建議您與 Microsoft 合作夥伴或銷售代表合作，取得並部署此電話系統。 若要深入了解，請參閱[使用 Microsoft Teams 進行語音和視訊通話](https://products.office.com/microsoft-teams/voice-calling)。
@@ -106,9 +114,8 @@ Microsoft 提供[適用於 Office 365 的 FastTrack 中心權益](https://docs.m
 IT 系統管理員/IT 專業人員：[使用 Teams 支援遠端工作者](support-remote-work-with-teams.md)。
 
 
-<!-- ============================================================ 
-### What is Microsoft doing to support its own employees during the COVID-19 outbreak?
+### <a name="what-is-microsoft-doing-to-support-its-own-employees-during-the-covid-19-outbreak"></a>在 COVID-19 疫情爆發期間，Microsoft 如何支援自己的員工？
 
-Please read our blog that details the recommendations we are giving our own users.
--->
+請閱讀 Microsoft 總裁 Brad Smith 於 2020 年 3 月 5 日發表的部落格：[在我們致力於保護公眾健康的同時，我們也需要保護支援校園的時薪員工的收入](https://blogs.microsoft.com/on-the-issues/2020/03/05/covid-19-microsoft-hourly-workers/)
+
 
