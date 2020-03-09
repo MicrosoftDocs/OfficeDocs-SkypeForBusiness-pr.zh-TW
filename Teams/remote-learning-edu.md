@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9e0259a47f72caa441d0f7d4b13ccf00345b1a3d
-ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
+ms.openlocfilehash: 2fc4439b6e40aa29f538be461e75f672bcd82e41
+ms.sourcegitcommit: 98fcfc03c55917d0aca48b7bd97988f81e8930c1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "42551010"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42559343"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>開始使用 Microsoft Teams 進行遠端學習
 
@@ -31,6 +31,8 @@ ms.locfileid: "42551010"
 > - 專為教師撰寫的文章集合，包括最重要之[**在 Teams 中教學首要步驟**](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114)的使用方法指南。
 > - Microsoft 教育者中心的 1 小時線上課程，說明教師如何在其專業領域中使用 Teams。 [**使用 Microsoft Teams 轉換學習**](https://education.microsoft.com/course/9c9f5c11/overview)。
 > - Microsoft 教育者中心的 1 小時線上課程，引導教師在班級 Teams 中進行教學。 [**使用班級 Teams 營造共同學習環境**](https://education.microsoft.com/course/b1e15cfc/overview)。
+> - 如果您是教師、學生、家長或監護人，請透過[**使用 Office 365 教學和學習**](https://aka.ms/RemoteLearningHelp)取得更多指引。
+> - 家長和監護人也可以前往我們的[家長支援頁面](https://support.office.com/article/remote-learning-with-office-365-guidance-for-parents-and-guardians-89d514f9-bf5e-4374-a731-a75d38ddd588?ui=en-US&rs=en-US&ad=US)，取得遠端學習的協助。
 
 不要錯過 2020 年 3 月 4 日的部落格，[學校如何使用 Microsoft Teams 輕鬆提升遠端學習計劃](https://aka.ms/teamseduremoteblog) (英文)。
 
@@ -153,7 +155,11 @@ IT 專業人員和支援人員能運用 [Teams IT 架構海報](teams-architectu
 其他支援資源包括：
 
 - [Microsoft Teams 安裝和更新問題的疑難排解](troubleshoot-installation.md)
+- [發出支援票證 (可供教職員使用)](https://aka.ms/edusupport)
+- [適用於使用 Teams 的教育人員的支援和說明中心](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114)
+- [學生說明中心](https://support.office.com/article/student-help-center-395ab230-55bf-44c6-b265-e832d729b694)
 - [適用於虛擬桌面架構的 Teams](https://docs.microsoft.com/microsoftteams/teams-for-vdi)
+- [如何為遠端員工快速最佳化 Office 365 流量](https://techcommunity.microsoft.com/t5/office-365-blog/how-to-quickly-optimize-office-365-traffic-for-remote-staff-amp/ba-p/1214571)
 - [監控及管理通話品質](monitor-call-quality-qos.md)
 - [驗證 Teams 的服務健康情況](service-health.md)
 - [Teams 的支援資源](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
