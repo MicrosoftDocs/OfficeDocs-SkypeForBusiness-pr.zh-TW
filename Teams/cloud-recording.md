@@ -16,12 +16,12 @@ f1.keywords:
 description: 在 Microsoft 團隊中部署雲端語音功能的實用指導方針。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5041b35822a04dc98aa6c07d3731ad8c6791af98
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 678e17ed92c0f269e134ac6c23dce29169c0d36d
+ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030717"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42583000"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 雲端會議錄製
 
@@ -151,6 +151,10 @@ Microsoft Stream 是以符合資格的 Office 365 訂閱或獨立服務的形式
 ## <a name="manage-meeting-recordings"></a>管理會議錄製
 
 會議錄製被視為由租使用者擁有的內容。 如果錄製的擁有者離開公司，系統管理員可以在 [系統管理模式] 中開啟 Microsoft Stream 中的錄製影片 URL。 系統管理員可以刪除錄製、更新任何錄製的中繼資料，或變更錄製影片的許可權。 深入瞭解[資料流程中的系統管理功能](https://docs.microsoft.com/stream/manage-content-permissions)。
+
+> [!NOTE]
+> 如需更多有關管理錄製與使用者存取的資訊，請參閱在 microsoft stream 中[管理使用者資料](https://docs.microsoft.com/stream/managing-user-data)和[許可權與隱私權](https://docs.microsoft.com/stream/portal-permissions)。
+
 
 ## <a name="compliance-and-ediscovery-for-meeting-recordings"></a>相容性與 eDiscovery for 會議錄製
 

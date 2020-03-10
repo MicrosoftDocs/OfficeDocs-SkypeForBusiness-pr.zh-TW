@@ -20,12 +20,12 @@ f1.keywords:
 - CSH
 ms.custom: Reporting
 description: 取得 Microsoft 團隊與商務用 Skype Online 的通話品質儀表板所使用之尺寸與度量的詳細資訊。
-ms.openlocfilehash: 1bc3fc7e62b234d0679531d48a656c71c54db113
-ms.sourcegitcommit: 86502c9ad03c5dd5ed18f0e3276a81d1260c76d2
+ms.openlocfilehash: b23b87ee7cf0f28fca59a3dee13113dcf28a141a
+ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/10/2020
-ms.locfileid: "42574416"
+ms.locfileid: "42583075"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard"></a>[通話品質] 儀表板中提供的尺寸與測量
 
@@ -439,10 +439,8 @@ CQD 中的許多尺寸與測量值標示為第一或第二筆。 下列邏輯會
 |PSTN MP 位置|String|在非旁路模式下，媒體處理器位置會顯示媒體路徑。<br/>**範例：** USWE||
 |第一個 PSTN 國家地區|String|如果 FirstIsCaller 為 true，則第一個 PSTN 國家地區就是來電者的國家/地區。 如果是 false，則第二個 PSTN 國家/地區就是來電者的國家/地區。<br/>**範例：** 一下||
 |抖動|時間|RTP 資料包在到達時間內的變化。 如需詳細資訊，請參閱[通話品質儀表板中的資料流程分類](stream-classification-in-call-quality-dashboard.md)。<br/>**範例：** 5.982||
-|資料包遺失率|百分|在中繼伺服器與 SBC 或閘道之間的資料流程百分比（如果有的話）。
-如需詳細資訊，請參閱[通話品質儀表板中的資料流程分類](stream-classification-in-call-quality-dashboard.md)。<br/>**範例：** 1.2%||
-|延遲（往返時間）|時間|每個資料流程計算的平均網路傳播往返時間。
-如需詳細資訊，請參閱[通話品質儀表板中的資料流程分類](stream-classification-in-call-quality-dashboard.md)。<br/>**範例：** 3.49||
+|資料包遺失率|百分|在中繼伺服器與 SBC 或閘道之間的資料流程百分比（如果有的話）。 如需詳細資訊，請參閱[通話品質儀表板中的資料流程分類](stream-classification-in-call-quality-dashboard.md)。<br/>**範例：** 1.2%||
+|延遲（往返時間）|時間|每個資料流程計算的平均網路傳播往返時間。 如需詳細資訊，請參閱[通話品質儀表板中的資料流程分類](stream-classification-in-call-quality-dashboard.md)。<br/>**範例：** 3.49||
 ||||
 
 ### <a name="notes-on-dimension-data-typeunits"></a>[維度] 資料類型/單位的備忘稿

@@ -23,16 +23,16 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: 當您取得貴組織的電話號碼或移植（轉移）號碼時，您可能需要在 PSTN 服務台取得說明和支援。
-ms.openlocfilehash: 6d400e51270b411054802240216d9e957a68f054
-ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
+ms.openlocfilehash: 3fe6353deb52911a4e0f0249f500a2a562e29ac1
+ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "42341787"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42583071"
 ---
 # <a name="pstn-service-desk-contact"></a>PSTN Service 服務台連絡人
 
-如果您需要從 Microsoft 取得電話號碼或將現有的電話號碼移植至 Microsoft 的協助，請傳送含下列資訊的電子郵件要求：
+如果您需要取得或轉接號碼給我們的協助，但需要協助，請告訴我們我們可以在電子郵件中協助您，並將它傳送給我們。 在您的電子郵件說明要求中，您可以視需要包含許多詳細資料，並加入詳細資料（例如組織識別碼（租使用者識別碼）、網域、您需要協助的號碼類型、帳戶上的授權人員及其他重要詳細資料關於您的問題。
 
   - 您的組織識別碼（租使用者識別碼）或作用中網域。
   - 您需要協助的號碼類型（使用者/訂閱者、服務/付費或免費電話）。
