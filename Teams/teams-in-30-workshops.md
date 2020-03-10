@@ -20,12 +20,12 @@ ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 ROBOTS: NOINDEX
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 182b7178cf24b786e81afd9181c9275541857486
-ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
+ms.openlocfilehash: 094f3db845109538df4652c3f1e990465c670918
+ms.sourcegitcommit: 86502c9ad03c5dd5ed18f0e3276a81d1260c76d2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558603"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42574426"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -147,8 +147,8 @@ ms.locfileid: "42558603"
                     </div>
                     <div class="cardText">
                     <h3>[粉筆粉筆] 交談</h3>
-                    <p>透過行業專家的參與，這些線上互動式研討會提供獨特的機會，可在小組中瞭解一些最受歡迎和引人注目案例的最佳做法及實際指導方針。</p>
-                    <p><strong>先決條件</strong>：30個討論會中的小組。 [粉筆] 是您在此頁面上找到的 [討論會] 中所學的專案建立方式。</p>
+                    <p>透過行業專家的參與，這些線上互動式研討會提供獨特的機會，可在小組中瞭解一些最受歡迎和引人注目案例的最佳做法及實際指導方針。 粉筆交談假設您已完成基本團隊推出。</p>
+                    <p><strong>系統必備</strong>：30個討論會中的小組出席，或已在整個組織內啟用團隊。</p>
                     <p><i>對象：IT 系統管理員</i></p>
                     </div>
                 </div>

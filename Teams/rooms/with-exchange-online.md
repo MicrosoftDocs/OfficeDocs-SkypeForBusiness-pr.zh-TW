@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: 如需如何使用 Exchange Online 部署 Microsoft 團隊聊天室的詳細資訊，請參閱本主題。
-ms.openlocfilehash: 9368a21d581b87bc71606ba4c7ccb035c3254cde
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: d909174712ba27efdc5e4c5427c51c67049b8e92
+ms.sourcegitcommit: 543f650ad4aff73bccfe7a60b66fb944b4e3c119
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827871"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42572881"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>使用 Exchange Online 部署 Microsoft 團隊聊天室
 
@@ -47,10 +47,10 @@ ms.locfileid: "41827871"
 
     ``` Powershell
     Set-ExecutionPolicy Unrestricted
-    $org='contoso.microsoft.com'
-    $cred=Get-Credential $admin@$org
-    $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell-liveid/ -Credential $cred -Authentication Basic  -AllowRedirection
-    Import-PSSession $Session -DisableNameChecking
+    $org = 'contoso.microsoft.com'
+    $cred = Get-Credential $admin@$org
+    $sess = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell-liveid/ -Credential $cred -Authentication Basic -AllowRedirection
+    Import-PSSession $sess -DisableNameChecking
     ```
 
 2. 建立會話之後，您可以建立新的信箱並將其設為 RoomMailboxAccount，或變更現有會議室信箱的設定。 這可讓帳戶在 Microsoft 團隊聊天室中進行驗證。
@@ -120,8 +120,9 @@ ms.locfileid: "41827871"
 1. 從電腦建立遠端 Windows PowerShell 會話，如下所示：
 
     ``` Powershell
-    Import-Module SkypeOnlineConnector  
-    $cssess=New-CsOnlineSession -Credential $cred  
+    Import-Module SkypeOnlineConnector
+    $cred = Get-Credential
+    $cssess = New-CsOnlineSession -Credential $cred  
     Import-PSSession $cssess -AllowClobber
     ```
 

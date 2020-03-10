@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4b0a516ae74ea012d8cba4e85509b5b37ee27163
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 4cf14616d4cfa2abc2caa99aee052b30e902172d
+ms.sourcegitcommit: 769241842058cfb4618460fad2dde1494a3609a1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834883"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42574020"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft 團隊中的團隊和頻道概覽
 
@@ -73,7 +73,7 @@ Microsoft 團隊中有兩個主要角色：
 
 請花三分鐘的時間來查看適用于小組擁有者的此引導式影片：
 
-   > [!VIDEO https://www.youtube.com/embed/7XcDSuw6NR4]
+   > [!VIDEO https://www.youtube.com/embed/kalV4dG-oFo]
 
 如果您是 Office 365 中的 Microsoft 團隊管理員，您可以在 Microsoft 團隊系統管理中心中存取全系統的設定。 這些設定會影響 [團隊設定] 底下的選項和預設團隊擁有者。 例如，您可以為小組內的宣告、討論和資源啟用預設頻道 [一般]，這些專案會顯示在所有團隊中。
 
