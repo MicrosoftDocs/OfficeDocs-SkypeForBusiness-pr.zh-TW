@@ -16,18 +16,17 @@ f1.keywords:
 ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: 4a66451a760e6d9e07c374e4ea900af4b0d78b36
-ms.sourcegitcommit: 98fcfc03c55917d0aca48b7bd97988f81e8930c1
+ms.openlocfilehash: cde69bd588c7262e5ed6f0274b091fee29b27030
+ms.sourcegitcommit: 769241842058cfb4618460fad2dde1494a3609a1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42559321"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42574000"
 ---
 <div id="main" class="v2">
     <div class="container">
         <h1>Microsoft 團隊粉筆與粉筆交談</h1>
 專為 IT 專業人員和決策者設計而設計，可提供獨特的機會來掌握最佳做法，以及小組中一些最受歡迎且引人注目的案例的實際指導方針。 透過行業專家的協助工具，這些線上互動式研討會將可與您深入瞭解，以增強您的團隊實現，並為使用者提供額外的價值。<br><br>
-           <strong>先決條件</strong>：先<a href="https://aka.ms/Teamsin30"target="_blank">在30個討論會中參與團隊</a>。<br><br>
            <i>按一下下列任何討論會標題，即可查看可用的日期和時間，並立即註冊！</i>
         <ul class="pivots">
             <li>
