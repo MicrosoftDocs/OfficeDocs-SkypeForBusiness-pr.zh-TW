@@ -19,19 +19,19 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 171192353227e7e0d14d59ca36b632f90aeb9941
-ms.sourcegitcommit: 7093388425b34c80e444a50d062290187b80047d
+ms.openlocfilehash: 7ee649cff23ee569b284ecf8873205524eb2e838
+ms.sourcegitcommit: dde63e1b92c0bc3dbb41d8670778b863c3bc9bec
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/22/2020
-ms.locfileid: "42229923"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "42601430"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>在 Microsoft 團隊中管理 app 設定原則
 
 > [!NOTE]
 > 如果您已啟用整個組織內的應用程式設定，**允許與自訂應用程式互動**，您可能不會在 Microsoft 團隊系統管理中心看到 app 設定原則。 目前正在推出，且即將在您的組織中提供此功能。
 
-身為系統管理員，您可以使用應用程式設定原則來自訂 Microsoft 團隊，以醒目提示對您的使用者而言最重要的應用程式。 您可以選擇要釘選的 app，並設定它們出現的順序。 應用程式設定原則可讓您展示貴組織中的使用者所需的 app，包括由協力廠商或貴組織中的開發人員所建立的 app。 您也可以使用應用程式設定原則來控制使用者是否可以將 app 釘選到團隊，以及管理內建功能的顯示方式。
+身為系統管理員，您可以使用應用程式設定原則來自訂 Microsoft 團隊，以醒目提示對您的使用者而言最重要的應用程式。 您可以選擇要釘選的 app，並設定它們出現的順序。 應用程式設定原則可讓您展示貴組織中的使用者所需的 app，包括由協力廠商或貴組織中的開發人員所建立的 app。 您也可以使用應用程式設定原則來控制使用者是否可以將 app 釘選到團隊，以及管理內建功能的顯示方式。 您必須是全域管理員或團隊服務系統管理員，才能管理這些原則。
 
 應用程式會釘選到應用程式行。 這是團隊桌面用戶端和團隊行動用戶端（iOS 和 Android）底部的列。
 

@@ -22,16 +22,16 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: ab5f85e7ea6239a5b56471ed0a378af3bc1c4c9f
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: baf3f025dd9b2340f59aee18d72d3707e4cab8fd
+ms.sourcegitcommit: dde63e1b92c0bc3dbb41d8670778b863c3bc9bec
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42161662"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "42601410"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>管理 Microsoft 團隊中的 app 許可權原則
 
-身為管理員，您可以使用應用程式許可權原則來控制貴組織中的 Microsoft 團隊使用者可以使用哪些應用程式。 您可以允許或封鎖由 Microsoft、協力廠商及貴組織發佈的所有 app 或特定應用程式。 當您封鎖 app 時，擁有原則的使用者將無法從 [小組 app store] 安裝該應用程式。
+身為管理員，您可以使用應用程式許可權原則來控制貴組織中的 Microsoft 團隊使用者可以使用哪些應用程式。 您可以允許或封鎖由 Microsoft、協力廠商及貴組織發佈的所有 app 或特定應用程式。 當您封鎖 app 時，擁有原則的使用者將無法從 [小組 app store] 安裝該應用程式。 您必須是全域管理員或團隊服務系統管理員，才能管理這些原則。
 
 您可以在 Microsoft 團隊系統管理中心管理 app 許可權原則。 您可以使用全域（組織範圍預設值）原則，或建立並指派自訂原則給群組中的個別使用者或使用者。  
 

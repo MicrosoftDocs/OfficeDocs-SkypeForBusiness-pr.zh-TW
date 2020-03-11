@@ -22,19 +22,19 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.allowsideloading
 - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
-ms.openlocfilehash: 86bf441f6dfa74b243f1a6e64139a32b8b94d7fa
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: a3435d0a6be9e9ef6642fe84404cb54d4ebaf8e4
+ms.sourcegitcommit: dde63e1b92c0bc3dbb41d8670778b863c3bc9bec
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42161629"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "42601420"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>管理 Microsoft 團隊中的自訂應用程式原則和設定
 
 > [!NOTE]
 > 若要使用應用程式 Studio，請參閱[使用 c #/.NET 和 App Studio 的 Microsoft 團隊平臺快速](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-dotnet-app-studio)入門最後一個步驟尚無法運作，因此您必須先下載該 zip，然後在將[應用程式套件上傳到 Microsoft 團隊](https://docs.microsoft.com/microsoftteams/platform/concepts/apps/apps-upload)時將它安裝。
 
-做為管理員，您可以使用自訂的應用程式原則和設定來控制貴組織中的哪些人可以將自訂應用程式上傳到 Microsoft 團隊。 系統管理員決定可以上傳自訂應用程式的使用者，以及系統管理員和小組擁有者可以判斷您組織中的特定團隊是否允許將自訂應用程式新增到他們。  在您編輯自訂應用程式原則之後，變更才會生效24小時。
+做為管理員，您可以使用自訂的應用程式原則和設定來控制貴組織中的哪些人可以將自訂應用程式上傳到 Microsoft 團隊。 系統管理員決定可以上傳自訂應用程式的使用者，以及系統管理員和小組擁有者可以判斷您組織中的特定團隊是否允許將自訂應用程式新增到他們。  在您編輯自訂應用程式原則之後，變更才會生效24小時。 您必須是全域管理員或團隊服務系統管理員，才能管理這些原則。
 
 ## <a name="overview-of-custom-apps"></a>自訂應用程式的概覽
 
