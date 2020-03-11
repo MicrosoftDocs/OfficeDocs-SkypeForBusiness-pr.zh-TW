@@ -15,17 +15,17 @@ f1.keywords:
 ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: 958ca112e52cefa31e122c02b47c76a68537d284
-ms.sourcegitcommit: 152eb7daacd0a36f42aa441633c12c7037a0969a
+ms.openlocfilehash: 9fe712b484c20f5a7a8a1b1df5c4720788ac877a
+ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "42288721"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42583060"
 ---
 <div id="main" class="v2">
     <div class="container">
         <h1>Microsoft Teams 導學型訓練</h1>
-Microsoft 很高興地舉辦一系列免費的即時線上訓練課程，幫助您快速開始使用 Teams。  無論是企業決策者、系統管理員、IT 專業人員或使用者，都能找到適合的課程。 不知從何開始嗎？ 參加 <a href="https://aka.ms/TeamsKnowledgeCheck">Teams 知識檢定</a>。 加入我們，查看 Teams 的實際功能、獲得問題的解答並與我們的線上講師們互動。 若要自行檢視訓練課程，請瀏覽 <a href="https://aka.ms/TeamsOnDemand">隨選使用者訓練</a>。<br><br>按一下下方工作階段以登入。
+Microsoft 很高興地舉辦一系列免費的即時線上訓練課程，幫助您快速開始使用 Teams。無論是企業決策者、系統管理員、IT 專業人員或使用者，都能找到適合的課程。 不知從何開始嗎？ 參加 <a href="https://aka.ms/TeamsKnowledgeCheck">Teams 知識檢定</a>。 加入我們，查看 Teams 的實際功能、獲得問題的解答並與我們的線上講師們互動。 若要自行檢視訓練課程，請瀏覽 <a href="https://aka.ms/TeamsOnDemand">隨選使用者訓練</a>。<br><br>按一下下方工作階段以登入。
         <ul class="pivots">
             <li>
                 <a href="#home" data-linktype="self-bookmark"></a>
@@ -186,13 +186,34 @@ Microsoft 很高興地舉辦一系列免費的即時線上訓練課程，幫助�
                     <div class="cardText">
                         <h3>使用 Teams 讓您的第一線員工完成更多工作</h3>
                         <p>了解 Teams 如何帶來數位轉型，讓您所有員工發揮無限潛能。</p>
-                        <p><i>觀眾：商務決策者、IT 決策者</i></p>
+                        <p><i>對象：商務決策者、IT 決策者</i></p>
                     </div>
                 </div>
             </div>
         </div>
         </a>
-    </li>        </ul>
+    </li>
+    <li>
+        <a href="https://aka.ms/TeamsAtHome"target="_blank">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/headset.svg" alt="Headset" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>精通使用 Teams 在家工作</h3>
+                        <p><strong><font color="#4B53BC">新增！</font></strong> 了解與團隊保持連絡並保有生產力的最佳做法。</p>
+                        <p><i>對象：使用者、團隊和部門經理</i></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>  
+        </ul>
         </li>
     </ul>
     </div>
