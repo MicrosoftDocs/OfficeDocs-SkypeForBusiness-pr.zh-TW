@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ae9315c172bc88cb96d5071e4bddf7f2e82a0d9f
-ms.sourcegitcommit: a597b1572f1eca095144288446a2c038e5daa5f7
+ms.openlocfilehash: e7d0f4a38194f80329c34cab73d61a99d4d4d03b
+ms.sourcegitcommit: 90066455ea2f982cdeabd9bff7944718bc7895c4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42586700"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "42592543"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>開始使用 Microsoft Teams 進行遠端學習
 
@@ -32,7 +32,7 @@ ms.locfileid: "42586700"
 > - Microsoft 教育者中心的 1 小時線上課程，說明教師如何在其專業領域中使用 Teams。 [**使用 Microsoft Teams 轉換學習**](https://education.microsoft.com/course/9c9f5c11/overview)。
 > - Microsoft 教育者中心的 1 小時線上課程，引導教師在班級 Teams 中進行教學。 [**使用班級 Teams 營造共同學習環境**](https://education.microsoft.com/course/b1e15cfc/overview)。
 > - 如果您是教師、學生、家長或監護人，請透過[**使用 Office 365 教學和學習**](https://aka.ms/RemoteLearningHelp)取得更多指引。
-> - 家長和監護人也可以前往我們的[家長支援頁面](https://support.office.com/article/remote-learning-with-office-365-guidance-for-parents-and-guardians-89d514f9-bf5e-4374-a731-a75d38ddd588)，取得遠端學習的協助。
+> - 家長和監護人也可以前往我們的[**家長支援頁面**](https://support.office.com/article/remote-learning-with-office-365-guidance-for-parents-and-guardians-89d514f9-bf5e-4374-a731-a75d38ddd588)，取得遠端學習的協助。
 
 不要錯過 2020 年 3 月 4 日的部落格，[學校如何使用 Microsoft Teams 輕鬆提升遠端學習計劃](https://aka.ms/teamseduremoteblog) (英文)。
 
@@ -104,7 +104,7 @@ Microsoft Teams 隨附於 Office 365 A1 中，教育機構可免費試用。 如
 
 - [建立私人頻道] 設定為 [關閉]
 
-**小學教職員和授課者**應獲指派可授與可對學生限制之核心功能的原則。 建立允許私人交談和會議排程 (新原則的預設設定) 的新原則。 [透過安全性群組成員資格將這些原則指派給您的教職員和授課者](batch-policy-assignment-edu)。
+**小學教職員和授課者**應獲指派可授與可對學生限制之核心功能的原則。 建立允許私人交談和會議排程 (新原則的預設設定) 的新原則。 [透過批次原則指派將這些原則大量指派給您的教職員和授課者](batch-policy-assignment-edu.md)。
 
 ## <a name="start-using-teams"></a>開始使用 Teams
 
