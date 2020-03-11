@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: 新的商務用 Skype 系統管理中心報告區域會顯示您組織中的通話和音訊會議活動。 它可讓您深入探索報表，讓您更精確地瞭解每個使用者的活動。 例如，您可以使用 [商務用 Skype PSTN 使用詳細資料] 報告來查看輸入/撥出通話中花費的分鐘數，以及這些通話的成本。 您可以查看音訊會議 PSTN 使用狀況詳細資料（包括通話成本），以便了解您的使用方式，以及撥打帳單詳細資料來判斷貴組織內的使用方式。
-ms.openlocfilehash: b76bd2f752b03e59143162261b37f311f1b38b64
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: a489277eceaab533fc03ac7017dcc217b4071bc6
+ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706048"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42582880"
 ---
 # <a name="pstn-usage-report"></a>PSTN 使用報告
 
@@ -71,8 +71,8 @@ ms.locfileid: "41706048"
      *    **user_out_forwarding** （使用者將呼叫轉寄至 PSTN 號碼）
 
      **音訊會議呼叫類型**
-     *    **conf_in** （撥入通話至音訊會議橋） 
-     *    **conf_out** （來自音訊會議橋接的呼出通話通常是將 PSTN 號碼新增到會議）
+     *    **conf_in** （撥入通話至音訊會議橋）。 針對此通話類型的記錄，[**使用者識別碼**] 欄中指定的使用者會對應到會議的召集人。
+     *    **conf_out** （來自音訊會議橋接器的撥出通話，通常是用來在會議中新增 PSTN 號碼）。 針對此通話類型的記錄，[**使用者識別碼**] 欄中指定的使用者會對應到會議的召集人。
 
      **整合通訊應用程式（UCAP）** 
      *    **ucap_in** （針對自動語音應答或通話佇列等 UC 應用程式的入站 PSTN 呼叫） 
@@ -94,12 +94,13 @@ ms.locfileid: "41706048"
      *    **MCOPSTN6** -國內通話方案（240 min 通話方案）注意：有限的可用性
      *    **MCOMEETADD** -音訊會議
      *    **MCOMEETACPEA** -每分鐘付款音訊會議
+     
 > [!NOTE]
 > 如果您想要執行報表，以便只包含通話或會議訂閱中不包含的每分鐘工資通話，請使用「MCOPSTNPP」功能篩選報表。 如此一來，就會提供每分鐘工資通話的明細。  針對每分鐘付費音訊會議，請依「MCOMEETACPEA」篩選，而不是「MCOPSTNPP」。  
-***
+
 > [!NOTE]
 > 在某些欄位中，您可能也會看到「沒有資料」。 "無資料" 表示該欄位不適用於呼叫類型或功能。 
-***
+
 > [!NOTE]
 > 如果您有 Telstra 通話方案，就不會在 PSTN 使用狀況報告中看到任何通話詳細資料記錄。 如需報告需求，請與 Telstra。 
 ***
