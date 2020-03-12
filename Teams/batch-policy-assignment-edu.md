@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何使用批次原則指派將原則指派給教育機構中的大型使用者，以供遠端學校（teleschool、tele 學校）使用。
 f1keywords: ''
-ms.openlocfilehash: e95c6b035298ce583a0ad34a030f2086b7c12ff3
-ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
+ms.openlocfilehash: 79c36aa0e2a7a2d310756d052b8962daeaa38634
+ms.sourcegitcommit: a34a827dfdad05b281e2e5ec5a80fc4e67fc89e2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42583329"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "42604300"
 ---
 # <a name="assign-policies-to-large-sets-of-users-in-your-school"></a>將原則指派給學校中的大型使用者
 
@@ -42,14 +42,14 @@ ms.locfileid: "42583329"
 
 ## <a name="connect-to-the-azure-ad-powershell-for-graph-module-and-the-teams-powershell-module"></a>連線到適用于圖形模組與團隊 PowerShell 模組的 Azure AD PowerShell
 
-在您執行本文中的步驟之前，您必須先安裝並聯機至 [圖形] 的 Azure AD PowerShell （依指派的授權）及預發行版本本的 Microsoft 團隊 PowerShell 模組（將原則指派給那些使用者）。
+在您執行本文中的步驟之前，您必須先安裝並聯機至 [圖形] 的 Azure AD PowerShell （依指派的授權）及 Microsoft 團隊 PowerShell 模組（將原則指派給那些使用者）。
 
 ### <a name="install-and-connect-to-the-azure-ad-powershell-for-graph-module"></a>安裝並連接至 Azure AD PowerShell for Graph 模組
 
 開啟提升許可權的 Windows PowerShell 命令提示字元（以系統管理員身分執行 Windows PowerShell），然後執行下列動作以安裝適用于 Graph 模組的 Azure Active Directory PowerShell。
 
 ```powershell
-Install-Module AzureAD
+Install-Module -Name AzureAD
 ```
 
 執行下列動作以連線至 Azure AD。
@@ -60,11 +60,15 @@ Connect-AzureAD
 
 出現提示時，請使用您的系統管理員認證登入。
 
-若要深入瞭解，請參閱[使用 Azure Active Directory PowerShell For Graph 模組進行](https://docs.microsoft.com/eoffice365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)連線。
+若要深入瞭解，請參閱[使用 Azure Active Directory PowerShell For Graph 模組進行](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)連線。
 
-### <a name="install-and-connect-to-the-pre-release-version-of-the-teams-powershell-module"></a>安裝並聯機至團隊 PowerShell 模組的預發行版本本
+### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>安裝並連接至 Microsoft 團隊 PowerShell 模組
 
-您所需的 Cmdlet 位於團隊 PowerShell 模組的預發行版本本中。 遵循[安裝並聯機至 Microsoft 團隊 powershell 模組](assign-policies.md#install-and-connect-to-the-microsoft-teams-powershell-module)中的步驟，以先卸載小組 powershell 模組的一般可用版本（如果已安裝），然後從 PowerShell 測試圖庫安裝該模組最新的測試版。
+請執行下列動作來安裝[Microsoft 團隊 PowerShell 模組](https://www.powershellgallery.com/packages/MicrosoftTeams)。 請確定您已安裝版本1.0.5 或更新版本。
+
+```powershell
+Install-Module -Name MicrosoftTeams
+```
 
 執行下列動作以連線至團隊並啟動會話。
 
@@ -102,7 +106,7 @@ ee1a846c-79e9-4bc3-9189-011ca89be890_46c119d4-0379-4a9d-85e4-97c66d3f909e M365ED
 接著，我們會執行下列動作來找出擁有此授權的使用者，並將它們一起收集。
 
 ```powershell
-$faculty = Get-AzureADUser -All $true | Where-Object (($_.assignedLicenses).SkuId -contains “e97c048c-37a4-45fb-ab50-922fbf07a370”)
+$faculty = Get-AzureADUser -All $true | Where-Object (($_.assignedLicenses).SkuId -contains "e97c048c-37a4-45fb-ab50-922fbf07a370")
 ```
 
 ## <a name="assign-a-policy-in-bulk"></a>大量指派原則

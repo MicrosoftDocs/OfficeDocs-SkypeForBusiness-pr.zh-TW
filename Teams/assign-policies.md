@@ -16,17 +16,17 @@ localization_priority: Normal
 search.appverid: MET150
 description: 瞭解在 Microsoft 團隊中將原則指派給使用者的不同方式。
 f1keywords: ''
-ms.openlocfilehash: cb1c5fd43379388327de5e517409f01f7f52ed1b
-ms.sourcegitcommit: d7be89019dd5a3b88b0840bddf1b88fea8598ea7
+ms.openlocfilehash: e9f31f9bf9d08497b58490ddc7a7bea9e0496539
+ms.sourcegitcommit: a34a827dfdad05b281e2e5ec5a80fc4e67fc89e2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42170759"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "42604290"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>在 Microsoft 團隊中將原則指派給使用者
 
 > [!NOTE]
-> **本文中討論的兩個 Microsoft 團隊功能、[批次原則指派](#assign-a-policy-to-a-batch-of-users)及[原則指派給群組](#assign-a-policy-to-a-group)，都是在預覽中。**
+> **本文中討論的 Microsoft 團隊功能之一，是 [[群組] 的原則指派](#assign-a-policy-to-a-group)，目前在預覽中。**
 
 身為系統管理員，您可以使用原則來控制貴組織中的使用者可以使用的小組功能。 例如，有一些通話原則、會議原則和訊息原則，只會為您命名。
 
@@ -64,7 +64,7 @@ ms.locfileid: "42170759"
 |---------|---------|----|
 |[指派原則給個別使用者](#assign-a-policy-to-individual-users)    | 您是團隊新手，剛開始使用，或只需要指派一或幾個原則給少數使用者。 |商務用 Skype Online PowerShell 模組中的 Microsoft 團隊管理員中心或 PowerShell Cmdlet
 | [指派原則套件](#assign-a-policy-package)   | 您需要將多個原則指派給貴組織中擁有相同或相似角色的特定使用者組。 例如，將教育版（教師）原則套件指派給學校中的教師，讓他們能完全存取聊天、通話及會議，以及將教育（次要學校學生）原則封裝到次要學生，以限制某些功能（例如私人通話。  |團隊 PowerShell 模組中的 Microsoft 團隊系統管理中心或 PowerShell Cmdlet|
-|[指派原則給一批使用者](#assign-a-policy-to-a-batch-of-users)（在預覽中）   | 您必須將原則指派給大型使用者組。 例如，您想要一次將原則指派給組織中的成百上千位使用者。  |團隊 PowerShell 模組中的 PowerShell Cmdlet|
+|[指派原則給一批使用者](#assign-a-policy-to-a-batch-of-users)   | 您必須將原則指派給大型使用者組。 例如，您想要一次將原則指派給組織中的成百上千位使用者。  |團隊 PowerShell 模組中的 PowerShell Cmdlet|
 |[將原則指派給群組](#assign-a-policy-to-a-group)（在預覽中）   |您必須根據使用者的群組成員資格指派原則。 例如，您想要將原則指派給安全性群組或組織單位中的所有使用者。| 團隊 PowerShell 模組中的 PowerShell Cmdlet|
 | 指派原則套件給一批使用者（即將推出） |||
 | 將原則套件指派給群組（即將推出）   | ||
@@ -121,8 +121,6 @@ Grant-CsTeamsMeetingPolicy -Identity reda@contoso.com -PolicyName "Student Meeti
 若要深入瞭解原則套件，包括如何指派及管理它們的逐步指導方針，請參閱[管理團隊中的原則套件](manage-policy-packages.md)。
 
 ## <a name="assign-a-policy-to-a-batch-of-users"></a>指派原則給一批使用者
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
  
 使用批次原則指派，您可以一次將原則指派給大型的使用者組，而不需要使用腳本。 您可以使用```New-CsBatchPolicyAssignmentOperationd``` Cmdlet 來提交一批使用者和您要指派的原則。 作業會處理為背景作業，並會針對每個批次產生操作 ID。 然後，您就可以```Get-CsBatchPolicyAssignmentOperation```使用此 Cmdlet 來追蹤批次中作業的進度和狀態。
 
@@ -133,25 +131,10 @@ Grant-CsTeamsMeetingPolicy -Identity reda@contoso.com -PolicyName "Student Meeti
 
 ### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>安裝並連接至 Microsoft 團隊 PowerShell 模組
 
-> [!NOTE]
-> Cmdlet 位於團隊 PowerShell 模組的預發行版本本中。 請依照下列步驟，先卸載「通用」團隊 PowerShell 模組（如果已安裝），然後從 PowerShell 測試圖庫安裝該模組最新的預發行版本本。
-
-如果您尚未安裝，請執行下列動作，將 PowerShell 測試圖庫註冊為受信任的來源。
+請執行下列動作來安裝[Microsoft 團隊 PowerShell 模組](https://www.powershellgallery.com/packages/MicrosoftTeams)。 請確定您已安裝版本1.0.5 或更新版本。
 
 ```powershell
-Register-PSRepository -SourceLocation https://www.poshtestgallery.com/api/v2 -Name PsTestGallery -InstallationPolicy Trusted
-```
-
-如果您已安裝「通用」的小組 PowerShell 模組版本，請執行下列動作加以卸載。
-
-```powershell
-Uninstall-Module MicrosoftTeams -AllVersions
-```
-
-執行下列動作，從 PowerShell 測試圖庫安裝最新的 Microsoft 團隊 PowerShell 模組。
-
-```powershell
-Install-Module MicrosoftTeams -Repository PSTestGallery
+Install-Module -Name MicrosoftTeams
 ```
 
 執行下列動作以連線至團隊並啟動會話。
