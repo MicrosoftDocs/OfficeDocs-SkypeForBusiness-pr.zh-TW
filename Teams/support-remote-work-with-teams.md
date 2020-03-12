@@ -14,12 +14,12 @@ search.appverid: MET150
 description: 使用本指導方針來協助組織中的遠端工作者使用 Microsoft Teams 來提高生產力，尤其是當他們在家中工作 (WFH) 時，以因應 COVID-19 (冠狀病毒) 爆發的情況。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 011522533a5a1a0641afb3da4421a8ae8e6c6715
-ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
+ms.openlocfilehash: cdd4338a157869d6e0453910a29514d6dc7ed0c9
+ms.sourcegitcommit: 769241842058cfb4618460fad2dde1494a3609a1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558633"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42574080"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>支援使用 Microsoft Teams 的遠端工作者
 
@@ -65,6 +65,8 @@ ms.locfileid: "42558633"
 
 2. 除了 [Office 365 E1 試用版](e1-trial-license.md)和 [Teams 免費版](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)，如果您需要免費的 Teams 授權，[Teams Exploratory](teams-exploratory.md) 也可能是一個選項。
 
+1. 如果您從事教育工作，而且想要在 Teams 上設定教師、學生和系統管理員，請使用 Office 365 A1。 所有教育機構都能使用這個免費的 Office 365 版本。 在[免費取得全校師生都能使用的 Office 365](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans)註冊。
+
 1. 確定您的員工擁有足夠的網際網路存取權和頻寬供 Teams 使用。 使用[針對 Teams 準備組織的網路](prepare-network.md)中的指導方針，以了解如何執行此作業。
 
    - 有限的頻寬會影響 Teams 會議中的音訊品質。 為了確保在低頻寬條件下的最佳會議體驗，請鼓勵使用者限制視訊通話，並對通話和會議音訊使用 PSTN。 
@@ -89,6 +91,8 @@ ms.locfileid: "42558633"
     
 3. 閱讀有關遠端工作的新內容，並與您的使用者分享：
         
+      - *2020 年 3 月9 日新聞*：[使用 Microsoft Teams 遠端作業](https://products.office.com/microsoft-teams/work-remotely)
+
       - Teams 部落格 (2020 年 2 月 28 日)：[使用 Microsoft Teams 在家工作的 4 個祕訣](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/4-tips-for-working-from-home-with-microsoft-teams-by-lola/ba-p/1202083) (英文)
 
       - [使用 Office 365 共同作業](https://support.office.com/article/Collaborate-with-Office-365-ac05a41e-0b49-4420-9ebc-190ee4e744f4)
@@ -109,14 +113,14 @@ ms.locfileid: "42558633"
     
    - 傳送有關組織的在家工作以及健康和安全原則資訊。
     
-   - 在全公司的會議與拓展中使用[即時活動](teams-live-events/what-are-teams-live-events.md)。 如果您的會議有超過 250 個參與者，請將它設為即時活動。 
+   - 在全公司的會議與拓展中使用[即時活動](teams-live-events/what-are-teams-live-events.md)。 如果您的會議有超過 250 個參與者，請將它設為即時活動。 開啟[會議](https://support.office.com/article/Use-live-captions-in-a-Teams-meeting-4be2d304-f675-4b57-8347-cbd000a21260)和[即時活動](https://support.office.com/article/Use-live-captions-in-a-live-event-1d6778d4-6c65-4189-ab13-e2d77beb9e2a)的即時輔助字幕。 此外，在即時活動中開啟字幕。 這些功能會提高包容性、生產力和理解力。 
 
 4.  設置[技術服務人員](troubleshoot-installation.md)以處理使用者查詢。
 
 7. 如果您是 Teams 系統管理員角色的新手，請參閱 [Teams 的管理訓練](itadmin-readiness.md)。
 
 
-1. 確定您的使用者擁有攝影機和麥克風等裝置。 查看用於個人和共用空間的 [Teams 認證裝置](https://aka.ms/TeamsDevices)。
+1. 確定使用者的裝置能夠清楚被看見和聽見。 查看用於個人和共用空間的 [Teams 認證裝置](https://aka.ms/TeamsDevices)。
 
 
 ### <a name="known-issue---china-dialing-into-skype-for-business-or-teams-conference-ids"></a>已知問題 - 中國：撥入商務用 Skype 或 Teams 會議識別碼。
