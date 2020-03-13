@@ -14,34 +14,35 @@ search.appverid: MET150
 description: 使用本指導方針支援在家中工作 (WFH) 的遠端員工提高生產力，以因應 COVID-19 (冠狀病毒) 爆發的情況。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b7cdbe0922116015f33d7f10219eb51b07abaf76
-ms.sourcegitcommit: 98fcfc03c55917d0aca48b7bd97988f81e8930c1
+ms.openlocfilehash: 869c489fbb5ff30f611b52d3682b090422aece8d
+ms.sourcegitcommit: 5f4bcbd3011aae13db846b4fe3da0b76fff7d05f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42559320"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42617747"
 ---
 # <a name="faq-support-your-remote-workforce"></a>常見問題：支援遠端員工
 
-本文將解答 IT 系統管理員如何管理越來越多使用者從遠端工作的最常見問題。 使用這項資訊支援在家中工作 (WFH) 的遠端員工提高生產力。 
+本文將解答 IT 系統管理員如何管理越來越多使用者從遠端工作的最常見問題。 使用這項資訊支援在家中工作 (WFH) 的遠端員工提高生產力。
 
 請參閱[使用 Teams 支援遠端工作者](support-remote-work-with-teams.md)，這會解答您的許多問題，並協助您做好支援遠端員工的準備。
 
-
 ### <a name="is-microsoft-taking-proactive-action-to-be-ready-for-the-added-workload-of-users-working-from-home-to-avoid-service-disruption-all-those-11-calls-will-now-use-microsoft-infrastructure"></a>Microsoft 是否採取主動預防性措施，為在家工作的使用者所增加的工作負載做好準備，以避免服務中斷？ 所有這些一對一通話都將會使用 Microsoft 基礎結構。
 
-Microsoft 在最近發佈的 COVID-19 (冠狀病毒) 疫情公告中，大量擴充了關鍵地區的容量。 我們一直在非常密切地監視情況和我們的服務，以確保我們的服務可供客戶使用。雲端服務的優點之一，就是能夠以動態方式調整，包括利用我們重要的供應鏈、重新配置服務之間的資源，以及重新分配負載。我們已經看到 Microsoft Teams 的使用率有所增加，對此我們已經做出了回應並繼續進行密切監視。
+Microsoft 在最近發佈的 COVID-19 (冠狀病毒) 疫情公告中，大量擴充了關鍵地區的容量。 我們一直在非常密切地監視情況和我們的服務，以確保我們的服務可供客戶使用。雲端服務的優點之一，就是能夠以動態方式調整，包括利用我們重要的供應鏈、重新配置服務之間的資源，以及重新分配負載。我們已經看到 Microsoft Teams 的使用率有所增加，對此我們已經做出了回應並繼續進行密切監視。 我們也致力於提早解決通話方案需求，並視需要採購足夠的電話號碼。
 
+> [!NOTE]
+> 如果您已經設定 M365，並想要深入了解 Microsoft 正在採取的行動，請前往 [訊息中心] 並檢視 **MC205458** 訊息中心貼文。
 
 請不要錯過我們 Microsoft 365 企業副總裁 Jared Spataro 在 2020 年 3 月 5 日發佈的部落格文章：[我們在 COVID-19 期間提供給客戶的承諾](https://www.microsoft.com/microsoft-365/blog/2020/03/05/our-commitment-to-customers-during-covid-19/) \(英文\)
 
 ### <a name="with-the-actions-that-microsoft-is-taking-do-we-anticipate-problems"></a>對於 Microsoft 所採取的行動，我們可以預見到問題嗎？
 
-儘管 Microsoft 一直在盡力避免出現問題，但是由於病毒傳播而導致區域發生非預期的尖峰，可能會造成暫時性問題。 在我們持續主動監視容量並視需要增加的同時，您可能會受到影響，直到我們可以在這些區域增加容量為止。 此外，還有一些 Microsoft 無法控制的外部情況。 我們預見到 ISP 和電信業者也在採取前瞻性行動，但是他們不一定有能力處理越來越多的在家工作者越來越多的負載。我們將與業界共同致力於網路基礎結構。我們看到了一些利用公共入口/出口到中國的問題，但除此之外，沒有發現任何問題。
+儘管 Microsoft 一直在盡力避免出現問題，但是由於病毒傳播而導致區域發生非預期的尖峰，可能會造成暫時性問題。 在我們持續主動監視容量並視需要增加的同時，您可能會受到影響，直到我們可以在這些區域增加容量為止。 此外，還有一些 Microsoft 無法控制的外部狀況。 我們預見到 ISP 和電信業者也在採取前瞻性行動，但是他們不一定有能力處理越來越多的在家工作者越來越多的負載。我們將與業界共同致力於網路基礎結構。 如果您有中斷的問題，請查詢 [訊息中心] 以了解目前任何的中斷情況。
 
-###  <a name="what-are-the-general-microsoft-guidelines-regarding-network-optimization-for-microsoft-365-some-of-my-users-in-china-are-having-a-bad-experience-what-should-i-do-to-optimize-our-network"></a>Microsoft 對於 Microsoft 365 網路最佳化的一般指導方針為何？ 我在中國的一些使用者體驗不佳；我應該怎麼做才能將網路最佳化？
+### <a name="what-are-the-general-microsoft-guidelines-regarding-network-optimization-for-microsoft-365-some-of-my-users-in-china-are-having-a-bad-experience-what-should-i-do-to-optimize-our-network"></a>Microsoft 對於 Microsoft 365 網路最佳化的一般指導方針為何？ 我在中國的一些使用者體驗不佳；我應該怎麼做才能將網路最佳化？
 
-由於中國的獨特需求，客戶可能需要採取特定的行動： 
+由於中國的獨特需求，客戶可能需要採取特定的行動：
 
 - [Office 365 針對中國使用者的全域租用戶效能最佳化](https://docs.microsoft.com/office365/enterprise/office-365-networking-china)
 
@@ -49,31 +50,32 @@ Microsoft 在最近發佈的 COVID-19 (冠狀病毒) 疫情公告中，大量擴
 
 - [針對 Teams 準備組織的網路](prepare-network.md)
 
-### <a name="my-users-are-reporting-bad-calls-or-their-calls-are-not-connecting-what-should-i-do-to-get-help"></a>我的使用者回報電話不正確，或電話未接通。 我該如何取得協助？ 
+### <a name="my-users-are-reporting-bad-calls-or-their-calls-are-not-connecting-what-should-i-do-to-get-help"></a>我的使用者回報電話不正確，或電話未接通。 我該如何取得協助？
 
 我們很樂意提供協助。 [連絡支援部門](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)之前，請確認您已經遵循我們所有的[網路連線建議](#what-are-the-general-microsoft-guidelines-regarding-network-optimization-for-microsoft-365-some-of-my-users-in-china-are-having-a-bad-experience-what-should-i-do-to-optimize-our-network)。 為協助您對通話品質進行疑難排解，請使用[通話分析和通話品質儀表板](difference-between-call-analytics-and-call-quality-dashboard.md)。 我們也建議您在 Microsoft 365 系統管理中心檢查[服務健康情況儀表板](https://docs.microsoft.com/office365/enterprise/view-service-health)，以取得 Microsoft 服務的任何最新公告或問題。
 
-### <a name="what-other-actions-can-i-take-to-have-a-better-experience"></a>我還可以採取其他哪些行動以獲得更好的體驗？ 
+### <a name="what-other-actions-can-i-take-to-have-a-better-experience"></a>我還可以採取其他哪些行動以獲得更好的體驗？
 
 我們建議使用者安裝並使用我們豐富的桌面用戶端，而不是 Web 用戶端 (例如 Outlook、[Teams 桌面](get-clients.md))。 基於頻寬限制或網路問題，桌面用戶端將會快取資訊並提供更佳的效能。 就通訊的觀點，我們強烈建議您改用 Teams 而不是商務用 Skype，因為 Teams 有更多新型通訊協定，且能更妥善地處理網路問題。 我們建議您試用 Teams 以避免發生問題。若要深入了解，請參閱[開始使用 Teams 升級](upgrade-start-here.md)。
 
-### <a name="is-teams-free-to-help-with-the-covid-19-coronavirus-outbreak-how-does-this-work-i-dont-have-microsoft-365"></a>Teams 是否可以免費提供 COVID-19 (冠狀病毒) 疫情的協助？ 運作方式 我沒有 Microsoft 365。  
+### <a name="is-teams-free-to-help-with-the-covid-19-coronavirus-outbreak-how-does-this-work-i-dont-have-microsoft-365"></a>Teams 是否可以免費提供 COVID-19 (冠狀病毒) 疫情的協助？ 運作方式 我沒有 Microsoft 365。
 
 您可以透過幾種不同的方案，免費取得 Teams：
 
 **個人**
-- 在 [https://products.office.com/microsoft-teams](https://products.office.com/microsoft-teams) 使用公司或學校認證登入。 即使您沒有授權，我們也會自動將您路由傳送至與貴組織帳戶相關聯的 Teams 版本。
+
+- 在 [https://products.office.com/microsoft-teams](https://products.office.com/microsoft-teams) 使用公司或學校認證登入。 即使您沒有授權，我們也會自動將您路由傳送至與貴組織帳戶相關的 Teams 版本。
 
 - 如果貴組織沒有 Microsoft 雲端帳戶，請在 [https://products.office.com/microsoft-teams/free](https://products.office.com/microsoft-teams/free) 註冊免費版的 Teams，並邀請您的同事加入。 若要深入了解，請參閱[歡迎使用 Teams 免費版](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)。 若是 IT 系統管理員，請參閱[管理 Teams 免費版](manage-freemium.md)。
 
 **IT 專業人員**
+
 - 如果您在一家公司工作，而且想要讓員工在 Teams 中設定，您可以透過 Microsoft 合作夥伴或銷售代表，註冊六個月的 [Office 365 E1 試用版](e1-trial-license.md)方案。
 
 > [!NOTE]
 > [美國政府雲端](g1-trial-license.md)提供相同的免費 Teams 方案，但 GCC High 和美國國防部除外。
 
 - 如果您從事教育工作，而且想要在 Teams 上設定教師、學生和系統管理員，請使用 Office 365 A1，也就是可供教育機構使用的 Office 365 免費版。 在 [https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans) 註冊。
-
 
 ### <a name="i-have-microsoft-365-already-but-i-dont-use-teams-are-you-providing-trial-licenses"></a>我已經有 Microsoft 365，但我沒有使用 Teams。 您是否會提供試用版授權？
 
@@ -87,7 +89,7 @@ Microsoft 提供[適用於 Office 365 的 FastTrack 中心權益](https://docs.m
 
 對於教育版 (EDU) 租用戶，Microsoft 提供[學校資料同步處理](https://docs.microsoft.com/schooldatasync/)，可協助您同步處理學校學生資訊系統 (SIS) 中的資訊。 如需部署 Microsoft 365 的說明，請參閱 [Microsoft 365 教育版部署概觀](https://docs.microsoft.com/microsoft-365/education/deploy/)。 請不要錯過我們的新文章，[開始使用 Teams 進行遠端學習](remote-learning-edu.md)。
 
-### <a name="where-do-i-find-help-getting-teams-running-for-my-company-so-my-users-can-work-from-home-during-this-crisis"></a>哪裡可以找到讓公司執行 Teams 的相關協助，讓我的使用者在疫情爆發的緊要關頭在家裡工作？ 
+### <a name="where-do-i-find-help-getting-teams-running-for-my-company-so-my-users-can-work-from-home-during-this-crisis"></a>哪裡可以找到讓公司執行 Teams 的相關協助，讓我的使用者在疫情爆發的緊要關頭在家裡工作？
 
 請參閱[使用 Teams 支援遠端工作者](support-remote-work-with-teams.md)。 本文涵蓋有關遠端工作者開始使用 Teams 的大部分常見工作和問題。
 
@@ -95,27 +97,22 @@ Microsoft 提供[適用於 Office 365 的 FastTrack 中心權益](https://docs.m
 
 啟用其中一個免費 Teams 優惠版本之後，仍需為使用者進行開啟。 請閱讀[管理 Teams 的使用者存取](user-access.md) (部分機器翻譯) 和[個別或大量將使用者新增至 Office 365](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users) (英文)。
 
-如果您已經擁有 Microsoft 365 一段時間，但卻是第一次授權或啟用使用者，您可能需要為組織 [開啟 Teams][](Office-365-set-up.md)。 查看本文章中的[我已經有 Microsoft 365，但我沒有使用 Teams](#i-have-microsoft-365-already-but-i-dont-use-teams-are-you-providing-trial-licenses)。
-
-
+如果您已經擁有 Microsoft 365 一段時間，但卻是第一次授權或啟用使用者，您可能需要為組織 [開啟 Teams][](Office-365-set-up.md)。 查看本文章中的[我已經有 Microsoft 365，但我沒有使用 Teams。您是否會提供試用版授權？](#i-have-microsoft-365-already-but-i-dont-use-teams-are-you-providing-trial-licenses)。
 
 ### <a name="can-i-use-calling-plans-with-the-office-365-e1-trial-that-microsoft-is-offering-can-i-assign-a-telephone-number-to-my-users-how-much-am-i-going-to-pay"></a>我是否可以使用通話方案搭配 Microsoft 提供的 Office 365 E1 試用版？ 我是否可以將電話號碼指派給我的使用者？ 我要付多少錢？
 
 使用者可以在任何版本的 Teams 中，進行應用程式對應用程式的語音通話和視訊通話。 若要將電話號碼指派給員工，您需要 [Office 365 電話系統](what-is-phone-system-in-office-365.md)。 我們建議您與 Microsoft 合作夥伴或銷售代表合作，取得並部署此電話系統。 若要深入了解，請參閱[使用 Microsoft Teams 進行語音和視訊通話](https://products.office.com/microsoft-teams/voice-calling)。
 
-### <a name="can-i-set-up-an-auto-attendant-with-the-new-teams-e1-trial-so-i-can-have-an-emergency-line-internally-at-my-company-to-deal-with-covid-19-coronavirus"></a>我是否可以使用新的 Teams E1 試用版設定自動語音應答，以便在公司內部設置緊急電話以處理 COVID-19 (冠狀病毒)？ 
+### <a name="can-i-set-up-an-auto-attendant-with-the-new-teams-e1-trial-so-i-can-have-an-emergency-line-internally-at-my-company-to-deal-with-covid-19-coronavirus"></a>我是否可以使用新的 Teams E1 試用版設定自動語音應答，以便在公司內部設置緊急電話以處理 COVID-19 (冠狀病毒)？
 
-若要在 Teams 中設定 [雲端自動語音應答][](what-are-phone-system-auto-attendants.md)，除了 Teams 以外，您還需要 [Office 365 電話系統](what-is-phone-system-in-office-365.md)。 我們建議您與 Microsoft 合作夥伴或銷售代表合作，取得並部署此電話系統。 
+若要在 Teams 中設定 [雲端自動語音應答][](what-are-phone-system-auto-attendants.md)，除了 Teams 以外，您還需要 [Office 365 電話系統](what-is-phone-system-in-office-365.md)。 我們建議您與 Microsoft 合作夥伴或銷售代表合作，取得並部署此電話系統。
 
 ### <a name="where-can-i-find-more-information-to-help-remote-workers"></a>哪裡可以找到更多協助遠端工作者的資訊？
 
-使用者：[使用 Office 365 共同作業](https://support.office.com/article/collaborate-with-office-365-ac05a41e-0b49-4420-9ebc-190ee4e744f4) - 如何在所有 Office 365 工作負載中更有效地共同作業 
+使用者：[使用 Office 365 共同作業](https://support.office.com/article/collaborate-with-office-365-ac05a41e-0b49-4420-9ebc-190ee4e744f4) - 如何在所有 Office 365 工作負載中更有效地共同作業
 
 IT 系統管理員/IT 專業人員：[使用 Teams 支援遠端工作者](support-remote-work-with-teams.md)。
-
 
 ### <a name="what-is-microsoft-doing-to-support-its-own-employees-during-the-covid-19-outbreak"></a>在 COVID-19 疫情爆發期間，Microsoft 如何支援自己的員工？
 
 請閱讀 Microsoft 總裁 Brad Smith 於 2020 年 3 月 5 日發表的部落格：[在我們致力於保護公眾健康的同時，我們也需要保護支援校園的時薪員工的收入](https://blogs.microsoft.com/on-the-issues/2020/03/05/covid-19-microsoft-hourly-workers/)
-
-
