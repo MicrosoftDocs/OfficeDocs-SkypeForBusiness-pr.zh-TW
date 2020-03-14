@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: 新的商務用 Skype 系統管理中心報告區域會顯示您組織中的通話和音訊會議活動。 它可讓您深入探索報表，讓您更精確地瞭解每個使用者的活動。 例如，您可以使用 [商務用 Skype PSTN 使用詳細資料] 報告來查看輸入/撥出通話中花費的分鐘數，以及這些通話的成本。 您可以查看音訊會議 PSTN 使用狀況詳細資料（包括通話成本），以便了解您的使用方式，以及撥打帳單詳細資料來判斷貴組織內的使用方式。
-ms.openlocfilehash: a489277eceaab533fc03ac7017dcc217b4071bc6
-ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
+ms.openlocfilehash: 7050334a390188f47f5d201b3fa541d337601400
+ms.sourcegitcommit: a4fd238de09366d6ed33d72c908faff812da11a5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42582880"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42637140"
 ---
 # <a name="pstn-usage-report"></a>PSTN 使用報告
 
@@ -56,7 +56,7 @@ ms.locfileid: "42582880"
 
 ***
 ![數位1](../images/sfbcallout1.png)<br/>下表顯示每個使用者的所有 PSTN 使用量明細。 這會顯示已指派商務用 Skype 的所有使用者以及其 PSTN 使用方式。 您可以在資料表中新增/移除資料行。
-*    [**通話 id** ] 是通話的通話 id。 它是呼叫 Microsoft 服務支援時所使用之通話的唯一識別碼。
+*    [**通話 id** ] 是通話的通話 id。 它是呼叫 Microsoft 服務支援時所使用之通話的識別碼。
 *    [**使用者識別碼**] 是使用者的登入名稱。
 *    [**電話號碼**] 是已接收撥入通話通話或撥出通話電話號碼的商務用 Skype 電話號碼。
 *    [**使用者位置**] 是使用者所在的國家/地區。
@@ -106,7 +106,48 @@ ms.locfileid: "42582880"
 ***
 ![數位2](../images/sfbcallout2.png)<br/>按一下以將欄拖曳至依據特定欄進行分組，如果您想要建立一個將一或多個欄中的所有資料組成群組的視圖 **，請在這裡拖曳欄標題**。
  ***
-![數位3](../images/sfbcallout3.png)<br/>您也可以透過按一下或敲擊 [**匯出至 Excel** ] 按鈕，將報告資料匯出為逗號分隔的 Excel 檔案。 除非國家或地區的特定規定禁止將資料保留12個月，否則您可以從目前日期開始匯出一年的資料。<br/><br/> 這會匯出所有使用者的資料，並可讓您進行簡單的排序與篩選，以進行進一步分析。 如果您的使用者少於2000，您可以在報表本身的資料表中排序和篩選。 
+
+## <a name="exporting-pstn-usage-report"></a>匯出 PSTN 使用狀況報告
+
+按一下或敲擊 [**匯出至 Excel** ] 按鈕可讓您下載 PSTN 使用方式報告。 除非國家/地區專用的規章禁止將資料保留12個月，否則您可以從目前日期開始匯出一年的資料。
+
+這會匯出所有使用者的資料，並可讓您進行簡單的排序與篩選，以進行進一步分析。
+
+匯出程式可能需要幾秒鐘到數分鐘的時間，才能完成，視資料數量而定。 當伺服器完成匯出時，您會收到名為「通話. 匯出」的 zip 檔案 **。 [[ `identifier`.zip]**，其中識別碼是匯出的唯一識別碼，可以用來進行疑難排解。
+
+如果您同時擁有通話方案和直接路由，匯出的檔案可能會包含這兩個產品的資料。 PSTN 使用狀況報告檔案將會有檔案名 "**PSTN. [" `UTC date`.csv**"。 除了 PSTN 和直接路由檔案之外，封存會包含檔案 "**parameters. json**"，以及所選取的匯出時間範圍和功能（如果有的話）。
+
+匯出的檔案是與[RFC 4180](https://tools.ietf.org/html/rfc4180)標準相容的逗號分隔值（CSV）檔。 您可以在 Excel 或任何其他符合標準的編輯工具中開啟檔案，而不需要任何轉換。
+
+CSV 的第一列包含資料行名稱。
+
+### <a name="fields-in-the-export"></a>匯出中的欄位
+
+匯出的檔案包含無法在線上報表中使用的其他欄位。 這些都可以用來進行疑難排解和自動化工作流程。
+
+| #  | 名稱 | [資料類型（SQL Server）](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | 描述 |
+| :-: | :-: | :-: |:------------------- |
+| 0 | UsageId | `uniqueidentifier` | 唯一的呼叫識別碼 |
+| 1 | 通話 ID | `nvarchar(64)` | [通話識別碼]。 不保證唯一 |
+| pplx-2 | 會議 ID | `nvarchar(64)` | 音訊會議的識別碼 |
+| 3 | 使用者位置 | `nvarchar(2)` | 使用者的國家/地區代碼， [ISO 3166-1 Alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
+| 4 | AAD ObjectId | `uniqueidentifier` | 在 Azure Active Directory 中呼叫使用者的 ID。<br/> 在 bot 呼叫類型（ucap_in、ucap_out）中，此和其他使用者資訊將會是 null/空。 |
+| 500 | UPN | `nvarchar(128)` | Azure Active Directory 中的 UserPrincipalName （登入名稱）。<br/>這通常與使用者的 SIP 位址相同，而且可以與使用者的電子郵件地址相同 |
+| 6 | 使用者顯示名稱 | `nvarchar(128)` | 使用者的顯示名稱 |
+| utf-7 | 來電顯示 | `nvarchar(128)` | 已接收撥入通話通話或撥出通話電話號碼的號碼。 [E. 164](https://en.wikipedia.org/wiki/E.164)格式 |
+| 型 | 通話類型 | `nvarchar(32)` | 通話是 PSTN 輸出或撥入通話，以及撥打電話類型（例如使用者或音訊會議發出的通話） |
+| 9 | 數位類型 | `nvarchar(16)` | 使用者的電話號碼類型，例如免付費電話號碼的服務 |
+| 第 | 國內/國際 | `nvarchar(16)` | 通話是國內（在國家或地區內）或國際（在國家或地區外），根據使用者的位置來決定 |
+| 11 | 已撥號目的地 | `nvarchar(64)` | 已撥打國家或地區 |
+| 之間 | 目的地編號 | `nvarchar(32)` | 以[164](https://en.wikipedia.org/wiki/E.164)格式撥打的號碼 |
+| 合 | 開始時間 | `datetimeoffset` | 呼叫開始時間（UTC， [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)） |
+| 4 | 結束時間 | `datetimeoffset` | 通話結束時間（UTC， [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)） |
+| 工資 | 持續時間秒 | `int` | 通話的連線時間 |
+| 位 | 連線費用 | `numeric(16, 2)` | 連接費價格 |
+| 11x17 | 收費 | `numeric(16, 2)` | 支付給帳戶所需通話的金額或成本 |
+| 滿 | 貨幣 | `nvarchar(3)` | 用來計算通話成本的貨幣類型（[ISO 4217](https://en.wikipedia.org/wiki/ISO_4217)） |
+| 合 | 功能 | `nvarchar(32)` | 通話所用的授權 |
+
     
 ## <a name="want-to-see-other-skype-for-business-reports"></a>想要查看其他商務用 Skype 報表嗎？
 

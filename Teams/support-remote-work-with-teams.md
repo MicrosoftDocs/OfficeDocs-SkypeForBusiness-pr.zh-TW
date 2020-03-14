@@ -14,12 +14,12 @@ search.appverid: MET150
 description: 使用本指導方針來協助組織中的遠端工作者使用 Microsoft Teams 來提高生產力，尤其是當他們在家中工作 (WFH) 時，以因應 COVID-19 (冠狀病毒) 爆發的情況。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cdd4338a157869d6e0453910a29514d6dc7ed0c9
-ms.sourcegitcommit: 769241842058cfb4618460fad2dde1494a3609a1
+ms.openlocfilehash: 0786f7dac4339a5cfa83773010aa9a95ee957f51
+ms.sourcegitcommit: 4306083e7b1dc2e7a0d02b682790450934dada50
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42574080"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "42639430"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>支援使用 Microsoft Teams 的遠端工作者
 
@@ -91,7 +91,9 @@ ms.locfileid: "42574080"
     
 3. 閱讀有關遠端工作的新內容，並與您的使用者分享：
         
-      - *2020 年 3 月9 日新聞*：[使用 Microsoft Teams 遠端作業](https://products.office.com/microsoft-teams/work-remotely)
+      - Microsoft 部落格 (2020 年 3 月 10 日)：[使用 Teams 遠端工作時保持生產力](https://www.microsoft.com/microsoft-365/blog/2020/03/10/staying-productive-while-working-remotely-with-microsoft-teams/) (英文)
+      
+      - [使用 Teams 遠端作業](https://products.office.com/microsoft-teams/work-remotely)
 
       - Teams 部落格 (2020 年 2 月 28 日)：[使用 Microsoft Teams 在家工作的 4 個祕訣](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/4-tips-for-working-from-home-with-microsoft-teams-by-lola/ba-p/1202083) (英文)
 
@@ -100,6 +102,8 @@ ms.locfileid: "42574080"
       - [使用 Office 365 遠端作業](https://support.office.com/article/work-remotely-with-office-365-164946c8-a47a-470e-a0b4-feb12a2eea04)
 
       - [遠端工作的 9 個秘訣](https://www.microsoft.com/tips/home/working-remotely)
+
+      - [從家裡更安全地工作的最佳祕訣](https://support.office.com/article/top-tips-for-working-more-securely-from-home-c3e6c940-43a6-43a3-b780-b8784776c2a8)
 
 
 3.  鼓勵每個人[安裝](get-clients.md#mobile-clients)並使用行動裝置應用程式：[iOS](https://go.microsoft.com/fwlink/?LinkId=835758) 或 [Android](https://go.microsoft.com/fwlink/p/?linkid=2102168)。

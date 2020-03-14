@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - PowerShell
 description: 疑難排解建立用來連線到商務用 Skype Online 的遠端 PowerShell 會話，包括匯入模組、併發 shell、Live ID 和許可權錯誤。
-ms.openlocfilehash: f3de8d67079aaf4afeffdc63588f6806413383fc
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: be3500ea5573dab6daa3d8ff72a8de4f60566ee2
+ms.sourcegitcommit: a4fd238de09366d6ed33d72c908faff812da11a5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010686"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42637130"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>診斷商務用 Skype Online 連接器的連線問題
 
@@ -140,7 +140,7 @@ PowerShell 執行原則可協助判斷哪些設定檔可以載入到 PowerShell 
 ## <a name="the-maximum-number-of-concurrent-shells-for-this-tenant-in-skype-for-business-online-has-been-exceeded"></a>已超出此租使用者在商務用 Skype Online 中的併發 shell 數上限
 <a name="BKMKMaxNumberShellsTenant"> </a>
 
-雖然每個系統管理員都可以有多達三個同時連線到商務用 Skype Online 租使用者，但不允許單一租使用者有超過九個同時連線的連接。 例如，三個管理員可能會有三個開啟的會話。 如果第四個系統管理員嘗試建立連線（同時連線10個同時連線），此嘗試將會失敗，並出現下列錯誤訊息：
+雖然每個系統管理員都可以有多達三個同時連線到商務用 Skype Online 租使用者，但不允許單一租使用者有超過二十個的同時連接。 例如，六個系統管理員可能會有三個開啟的會話。 如果第七個系統管理員嘗試開啟超過兩個的連線（同時連接21個同時連線），則這項嘗試將會失敗，並顯示下列錯誤訊息：
   
 - **錯誤**：*新的 PSSession： [admin.vdomain.com] 連線到遠端伺服器 admin.vdomain.com 失敗，並出現下列錯誤訊息： ws-management 服務無法處理該要求。已超出此租使用者的併發 shell 數上限。關閉現有的程式外殼程式，或升高此租使用者的配額。如需詳細資訊，請參閱 [遠端疑難排解]https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1 （*
 
