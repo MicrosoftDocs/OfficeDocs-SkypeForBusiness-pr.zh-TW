@@ -18,16 +18,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a3226dd3887a4d289b810bb866d96dba704dd448
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 29cd3a6b420ab33cfc6f18b839d544572cfc9753
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837113"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706913"
 ---
-![團隊升級歷程的圖表](media/upgrade-banner-main.png "確定您的專案已針對適當的專案小組進行成功設定。定義您的專案範圍、目標及時程表。確認技術與使用者的就緒情況。執行您的推出方案。維持勢頭，以獲得最佳結果。")
-
 # <a name="plan-for-your-upgrade"></a>規劃升級
+
+![團隊升級歷程的圖表](media/upgrade-banner-main.png "確定您的專案已針對適當的專案小組進行成功設定。定義您的專案範圍、目標及時程表。確認技術與使用者的就緒情況。執行您的推出方案。維持勢頭，以獲得最佳結果。")
 
 良好的技術環境、持續的使用者採納，以及所有您的業務目標都是以適當的規劃開始的方式來實現。 實體方案提供升級專案的架構，並確保所有專案關係人都能達到相同的目標。 只要花時間就能正確定義成功，您就可以在您的部署過程中測量結果，並確認您要達到想要的結果。 規劃您的旅程包括：
 

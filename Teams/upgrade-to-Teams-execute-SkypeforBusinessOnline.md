@@ -18,13 +18,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3a9cedd0a169fc43e81dfdc131f98b0a90d9cd9e
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 03eda4a90cc90eed38e6a1f6bb6ff6751291ffc1
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836225"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706623"
 ---
+# <a name="upgrade-from-skype-for-business-online-to-teams"></a>從商務用 Skype Online 升級至團隊
+
 ![升級歷程圖表，強調部署與實施](media/upgrade-banner-deployment.png "升級歷程階段，重點是部署與實施階段")
 
 本文是升級歷程部署與實施階段的一部分。 繼續之前，請確認您已完成下列活動：
@@ -36,8 +38,6 @@ ms.locfileid: "41836225"
 - [準備好您的環境](https://aka.ms/SkypeToTeams-TechnicalReadiness)
 - [準備好貴組織](https://aka.ms/SkypeToTeams-UserReadiness)
 - [已進行試驗](https://aka.ms/SkypeToTeams-Pilot)
-
-# <a name="upgrade-from-skype-for-business-online-to-teams"></a>從商務用 Skype Online 升級至團隊
 
 如果您已部署商務用 Skype Online，且想要將您的使用者從商務用 Skype 升級至小組，請遵循本文中的指導方針。 您可以根據貴組織所選擇的升級歷程，將適當的共存和升級模式指派給您的使用者，以有選擇性或全式方式升級使用者。
 

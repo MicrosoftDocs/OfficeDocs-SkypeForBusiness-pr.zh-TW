@@ -21,13 +21,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 31966dbb98d89cf6a4ef9b4d4dd12710b098c755
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 849d54b5bbdab228d4d91329894da3cdf993017b
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41833723"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706603"
 ---
+# <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>選擇從商務用 Skype 升級到團隊的升級歷程
+
 ![升級歷程圖表，強調專案定義階段](media/upgrade-banner-project-definition.png "升級歷程階段，重點放在專案定義階段")
 
 本文是升級歷程專案定義階段的一部分。 繼續之前，請確認您已完成下列活動：
@@ -35,8 +37,6 @@ ms.locfileid: "41833723"
 - [已登記您的專案干係人](upgrade-enlist-stakeholders.md)
 - [已定義您的專案範圍](https://aka.ms/SkypetoTeams-Scope)
 - [已瞭解商務用 Skype 與團隊的共存與互通性](https://aka.ms/SkypeToTeams-Coexist)
-
-# <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>選擇從商務用 Skype 升級到團隊的升級歷程
 
 在現有的商務用 Skype 客戶中，您對團隊的完整轉場可能需要一些時間。 不過，您現在可以讓您的使用者在商務用 Skype 中使用團隊，來開始實現團隊的價值。 如果兩個應用程式之間有一些重迭的功能，建議您查看可用的共存和升級模式，以協助判斷哪一個路徑適合您的組織。 例如，您可以選擇在兩個解決方案中都啟用所有工作負荷，而不需要互通性。 或者，您也可以決定是否要管理使用者體驗，只要逐步引入小組功能，或以使用者的目標群組為選取功能，直到貴組織準備好將所有人升級至團隊為止。 使用試驗的結果，協助您評估貴組織的正確升級歷程。
 
@@ -102,9 +102,9 @@ ms.locfileid: "41833723"
 | 團隊經驗 | 在孤島模式中 | 在 TeamsOnly 模式中 |
 |:------------------ | :------------------- | :------------------ |
 | 傳入聊天與接聽的通話：|  團隊或商務用 Skype | Teams |
-| 在下列情況中接收 PSTN 通話： | 商務用 Skype <br>（在 [孤島] 模式中不支援使用團隊中的 PSTN 功能。）    | Teams |   
- |目前狀態  | 商務用 Skype 和團隊中的目前狀態是獨立的。 針對相同的孤島使用者，使用者可能會看到不同的狀態，視它們所使用的用戶端而定。 | 目前狀態僅根據使用者在團隊中的活動而定。 所有其他使用者（無論他們使用的用戶端），請參閱目前狀態。 | 
- | 會議排程   | 使用者可以在小組或商務用 Skype 中排程會議。 它們會在 Outlook 中看到兩個增益集。 |   使用者只會在團隊中排程會議。 只有 [團隊] 增益集可在 Outlook 中使用。 | 
+| 在下列情況中接收 PSTN 通話： | 商務用 Skype <br>（在 [孤島] 模式中不支援使用團隊中的 PSTN 功能。）     | Teams |   
+ |目前狀態    | 商務用 Skype 和團隊中的目前狀態是獨立的。 針對相同的孤島使用者，使用者可能會看到不同的狀態，視它們所使用的用戶端而定。 | 目前狀態僅根據使用者在團隊中的活動而定。 所有其他使用者（無論他們使用的用戶端），請參閱目前狀態。 | 
+ | 會議排程    | 使用者可以在小組或商務用 Skype 中排程會議。 它們會在 Outlook 中看到兩個增益集。    |     使用者只會在團隊中排程會議。 只有 [團隊] 增益集可在 Outlook 中使用。 | 
 
 下表摘要列出使用重迭的功能方法將您的組織遷移至團隊的優點與缺點。
 

@@ -18,19 +18,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b271dbfbb99508c26feb86cb7803b8eacdf73910
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 5244bd063caae9b0fab1411f4644e3adbd337431
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837193"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706993"
 ---
+# <a name="enlist-your-project-stakeholders"></a>列出您的專案關係人
+
 ![顯示升級歷程之風險承擔者狀態的圖例](media/upgrade-banner-stakeholders.png "升級歷程階段，重點是收集您的專案干係人小組")
 
 本文是您升級歷程的專案專案關係負責人階段，您針對專案成功所完成的第一項和最重要的活動。
-
-
-# <a name="enlist-your-project-stakeholders"></a>列出您的專案關係人
 
 從實施專案的交付專案到促進責任，您的專案關係人擁有專案成功的關鍵。 您會想要指派兩組專案關係人：（1）_贊助聯盟_，包括對專案的成功進行 vested 感興趣和影響專案的人員，以及（2）_專案小組_，由負責確保技術與使用者就緒的人員完成專案計劃中的各種工作。 這兩個群組之間的常見執行緒是_專案管理員_，其作用是確定專案工作已完成排程，並將專案狀態報表回聯盟。
 

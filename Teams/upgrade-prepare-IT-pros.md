@@ -18,13 +18,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c11b7fa80940ad45d4462510e8fa46531f10f1e9
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 6c3813b5d79f1362ff30ff15fa6fd2aff38b25a9
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836123"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706893"
 ---
+# <a name="prepare-your-it-staff-for-microsoft-teams"></a>為您的 Microsoft 團隊準備 IT 員工
+
 ![升級歷程圖表，強調技術就緒階段](media/upgrade-banner-tech-readiness.png "升級歷程階段，重點放在技術準備階段")
 
 本文是您升級歷程的技術就緒階段（您可以與使用者準備階段並行完成的活動）的一部分。 繼續之前，請先確認您已從先前階段完成這些活動：
@@ -33,8 +35,6 @@ ms.locfileid: "41836123"
 - [已定義您的專案範圍](https://aka.ms/SkypetoTeams-Scope)
 - [已瞭解商務用 Skype 與團隊的共存與互通性](https://aka.ms/SkypeToTeams-Coexist)
 - [已選擇升級歷程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-
-# <a name="prepare-your-it-staff-for-microsoft-teams"></a>為您的 Microsoft 團隊準備 IT 員工
 
 您的 Office 365 租使用者系統管理員、技術主管及支援中心都有責任提供高品質的使用者體驗。 這包括確保您的網路已準備好支援小組、為使用者設定小組，以及能夠有效地疑難排解並解決可能發生的問題。
 

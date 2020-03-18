@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何使用批次原則指派將原則指派給教育機構中的大型使用者，以供遠端學校（teleschool、tele 學校）使用。
 f1keywords: ''
-ms.openlocfilehash: 79c36aa0e2a7a2d310756d052b8962daeaa38634
-ms.sourcegitcommit: a34a827dfdad05b281e2e5ec5a80fc4e67fc89e2
+ms.openlocfilehash: 8dd771b27c1950cdce1590783bcfb3b4159c1c29
+ms.sourcegitcommit: 891ba3670ccd16bf72adee5a5f82978dc144b9c1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "42604300"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42691183"
 ---
 # <a name="assign-policies-to-large-sets-of-users-in-your-school"></a>將原則指派給學校中的大型使用者
 
@@ -112,6 +112,9 @@ $faculty = Get-AzureADUser -All $true | Where-Object (($_.assignedLicenses).SkuI
 ## <a name="assign-a-policy-in-bulk"></a>大量指派原則
 
 現在，我們會大量將適當的原則指派給使用者。 您可以指派或更新原則的使用者數目上限為20000一次。 例如，如果您有超過20000名員工和教育版，您將需要提交多個批次。
+
+> [!IMPORTANT]
+> 我們目前建議您逐一指派原則，以批次5000使用者。 在這些時間增加需求期間，您可能會遇到處理時間的延遲。 為了將這些增加的處理時間的影響降至最低，我們建議您提交較小至5000個使用者的批次，並在前一個帳戶完成後提交每個批次。 在一般的商務時間以外提交批次也會有所説明。
 
 執行下列動作，將名為「EducatorMeetingPolicy」的會議原則指派給您的員工和教育版。
 

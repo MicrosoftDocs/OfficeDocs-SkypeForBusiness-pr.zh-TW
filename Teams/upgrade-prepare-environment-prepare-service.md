@@ -18,13 +18,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5e70d9bed1dfc2f04d7c5fa5a6823f93a02ec759
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: 8b9e55a4189556c69e93c86286dd1b9b585bb726
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863444"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706883"
 ---
+# <a name="prepare-your-service-for-upgrading-to-teams"></a>準備您的服務以升級至小組
+
 ![升級歷程圖表，強調技術就緒階段](media/upgrade-banner-tech-readiness.png "升級歷程階段，重點放在技術準備階段")
 
 本文是您升級歷程的技術就緒階段（您可以與使用者準備階段並行完成的活動）的一部分。 繼續之前，請先確認您已從先前階段完成這些活動：
@@ -33,8 +35,6 @@ ms.locfileid: "41863444"
 - [已定義您的專案範圍](https://aka.ms/SkypetoTeams-Scope)
 - [已瞭解商務用 Skype 與團隊的共存與互通性](https://aka.ms/SkypeToTeams-Coexist)
 - [已選擇升級歷程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-
-# <a name="prepare-your-service-for-upgrading-to-teams"></a>準備您的服務以升級至小組
 
 本文將為您的組織準備與團隊共同作業和雲端語音服務的需求。 透過正確地準備，您可以確定您已準備好將這些功能提供給您的組織。
 

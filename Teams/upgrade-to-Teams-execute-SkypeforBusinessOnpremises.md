@@ -18,13 +18,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e2bcd48abb34ad3b8e18b780708e588ad9d0276
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: fb6815c805c9f5bcf47d6ee88a6c43c559b932d3
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836215"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706643"
 ---
+# <a name="upgrade-from-a-skype-for-business-on-premises-deployment-to-teams"></a>從商務用 Skype 內部部署升級到團隊
+
 ![升級歷程階段，重點是部署與實施階段](media/upgrade-banner-deployment.png "升級歷程階段，重點是部署與實施階段")
 
 本文是升級歷程的部署與實施階段的一部分。 繼續之前，請確認您已完成下列活動：
@@ -36,8 +38,6 @@ ms.locfileid: "41836215"
 - [準備好您的環境](https://aka.ms/SkypeToTeams-TechnicalReadiness)
 - [準備好貴組織](https://aka.ms/SkypeToTeams-UserReadiness)
 - [已進行試驗](https://aka.ms/SkypeToTeams-Pilot)
-
-# <a name="upgrade-from-a-skype-for-business-on-premises-deployment-to-teams"></a>從商務用 Skype 內部部署升級到團隊
 
 如果您已部署商務用 Skype 或 Microsoft Lync 內部部署，且您的組織想要以選擇性升級至 Microsoft 團隊，請遵循本文中的指導方針，只要使用多個共存模式（或多功能）。 
 

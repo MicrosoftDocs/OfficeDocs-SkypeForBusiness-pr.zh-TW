@@ -18,13 +18,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad51dd4b269652ec1899b2af6ace6a9b7b9f713a
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: d52c9d670c81e0fcbdcf31012ec08a008b082459
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836793"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706683"
 ---
+# <a name="prepare-a-user-readiness-plan"></a>準備使用者整備計畫
+
 ![升級歷程階段，醒目提示使用者準備階段](media/upgrade-banner-user-readiness.png "升級歷程階段，重點放在使用者準備階段")
 
 本文是您升級歷程的 [使用者準備就緒階段] 的一部分，您可以與技術就緒階段並行完成活動。 繼續之前，請先確認您已從先前階段完成這些活動：
@@ -33,8 +35,6 @@ ms.locfileid: "41836793"
 - [已定義您的專案範圍](https://aka.ms/SkypetoTeams-Scope)
 - [已瞭解商務用 Skype 與團隊的共存與互通性](https://aka.ms/SkypeToTeams-Coexist)
 - [已選擇升級歷程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-
-# <a name="prepare-a-user-readiness-plan"></a>準備使用者整備計畫
 
 最佳的使用者準備方案整合了您在試點、進行板載及升級至小組時，如何與您溝通、訓練及支援您的使用者。 當您在[評估組織變更準備工作](https://aka.ms/OrgReadiness)時，[準備就緒] 不只是一個大小。 為了確保最佳 receptiveness 新的技術，請結合使用廣泛的訊息（包含遠景/價值訊息及通用使用案例）和訊息、訓練及支援，以及針對您定義的角色和 cohorts （視情況而定）。 此個人化方案可讓使用者更快速地與團隊取得關聯，同時也能協助您瞭解他們的需求。
 

@@ -18,18 +18,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6ffbf676a86320fe3003d26dc94161d9e9e58c4d
-ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
+ms.openlocfilehash: 41976649dec2509a9adfd472e7c382389250a4b4
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "42550910"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706443"
 ---
+# <a name="how-to-use-microsoft-teams-effectively"></a>如何有效使用 Microsoft 團隊
+
 ![升級歷程圖表，強調卓越運作階段](media/upgrade-banner-op-excellence.png "升級歷程階段，重點放在卓越運作階段")
 
 本文是您升級歷程的卓越運作階段的一部分，在您完成從商務用 Skype 升級至團隊之後，就會立即開始。
-
-# <a name="how-to-use-microsoft-teams-effectively"></a>如何有效使用 Microsoft 團隊
 
 技術以前所未有的速度進行創新。 保持最新並啟用現代工作場所環境已成為組織運作方式的標準。 在 Microsoft 團隊中，Microsoft 365 和 Microsoft 的智慧型溝通願景持續進行展開，有一個運作方案可協助確保貴組織已設定為長期成功。 最佳作業方案包括監視健康情況與品質的環境、繼續使用使用者的勢頭來優化採用，以及規劃將在一段時間內繼續進行線上作業的新功能。
 

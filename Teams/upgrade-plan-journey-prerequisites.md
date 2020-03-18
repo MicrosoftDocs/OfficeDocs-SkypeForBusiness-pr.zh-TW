@@ -18,13 +18,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6fb4a1c8ac462078e92c3981660872c3adc2843f
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: ec634105f87c548ed962bdf9f098298f01f1e93e
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836135"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706863"
 ---
+# <a name="prerequisites-and-environmental-dependencies-for-teams"></a>團隊的先決條件與環境相依性
+
 ![升級歷程圖表，強調技術就緒階段](media/upgrade-banner-tech-readiness.png "升級歷程階段，重點放在技術準備階段")
 
 本文是您升級歷程的技術就緒階段（您可以與使用者準備階段並行完成的活動）的一部分。 繼續之前，請先確認您已從先前階段完成這些活動：
@@ -33,8 +35,6 @@ ms.locfileid: "41836135"
 - [已定義您的專案範圍](https://aka.ms/SkypetoTeams-Scope)
 - [已瞭解商務用 Skype 與團隊的共存與互通性](https://aka.ms/SkypeToTeams-Coexist)
 - [已選擇升級歷程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-
-# <a name="prerequisites-and-environmental-dependencies-for-teams"></a>團隊的先決條件與環境相依性
 
 團隊會結合多個 Office 365 服務，因此請視這些服務的正確實現與運作而定。 這些服務包括（但不限於） SharePoint Online、Exchange Online 和商務用 OneDrive。
 
@@ -48,7 +48,7 @@ ms.locfileid: "41836135"
 
 - 如果您的組織尚未將身分識別與 Azure Active Directory 同步處理，請參閱[Microsoft 團隊中的身分識別模型和驗證](identify-models-authentication.md)。
 
-- 如果您的組織不是¹ t 擁有 Exchange Online，請參閱[瞭解 exchange 與 Microsoft 團隊互動的方式](Exchange-Teams-interact.md)。
+- 如果您的組織是沒有 Exchange Online 的<sup>1</sup>，請參閱[瞭解 Exchange 與 Microsoft 團隊互動的方式](Exchange-Teams-interact.md)。
 
 - 如果您的組織沒有 SharePoint Online，請參閱[瞭解 Sharepoint online 與商務用 OneDrive 與 Microsoft 團隊互動的方式](SharePoint-OneDrive-interact.md)。
 

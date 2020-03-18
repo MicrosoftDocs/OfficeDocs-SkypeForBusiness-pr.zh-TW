@@ -18,13 +18,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ec60beb606224a5b202a03187027b8e3e002dfd1
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 52721d40e36dc017d9ba76473367d1c9c5e5b4e7
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41833893"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706453"
 ---
+# <a name="conduct-a-user-pilot"></a>舉辦使用者試驗
+
 ![升級歷程圖表，醒目提示部署與實現](media/upgrade-banner-deployment.png "升級歷程階段，重點是部署與實施階段")
 
 本文是您升級歷程的部署與實施階段的一部分，並分享深入的執行試驗。 繼續之前，請確認您已完成下列活動：
@@ -35,8 +37,6 @@ ms.locfileid: "41833893"
 - [已選擇升級歷程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 - [準備好您的環境](https://aka.ms/SkypeToTeams-TechnicalReadiness)
 - [準備好貴組織](https://aka.ms/SkypeToTeams-UserReadiness)
-
-# <a name="conduct-a-user-pilot"></a>舉辦使用者試驗
 
 透過部署新的技術，您的組織可以實現成本節約、安全性合規性、員工滿意度及運作效率等業務價值，但也會影響使用者的生產力與組織基礎結構（您的網路）。 在您的整個組織啟用新技術之前，請先執行正式的使用者試驗。 就像您在繪製整個聊天室前，在牆上繪製小的色彩片一樣，您可以執行試驗來驗證技術與使用者的就緒性、找出並減少問題，並協助確保成功全組織的實現。
 

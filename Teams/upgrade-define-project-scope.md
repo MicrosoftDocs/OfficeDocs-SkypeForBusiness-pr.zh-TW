@@ -18,20 +18,20 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 13da1a583d5aa0abaad4e981e5fc68d3aa913ce9
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 4084bc58d98aa05af14511869fc44c6db85343b8
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837243"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42707013"
 ---
+# <a name="define-your-project-scope"></a>定義專案範圍
+
 ![升級歷程圖表，醒目提示專案定義階段](media/upgrade-banner-project-definition.png "升級歷程階段，重點放在專案定義階段")
 
 本文是您在升級歷程的專案定義階段的一部分，在您從已確定的專案關係人中建立贊助聯盟和專案小組之後，您所完成的活動就是您專案成功的關鍵。 繼續之前，請確認您已完成下列活動：
 
 - [已登記專案的干係人](upgrade-enlist-stakeholders.md)
-
-# <a name="define-your-project-scope"></a>定義專案範圍
 
 您需要花時間來定義您的專案構想、範圍、目標及管轄，以確保所有專案干係人都能在相同的最終結果中對齊和運作。 此功能特別重要，因為技術就緒小組與使用者準備小組會獨立運作，以將各自的棋子放在一起。 完成本節之後，請在整個專案中參考它，以確保您已順利完成您想要的結束狀態。 使用以下所述的目標來評估您的結果，並視需要減少。
 

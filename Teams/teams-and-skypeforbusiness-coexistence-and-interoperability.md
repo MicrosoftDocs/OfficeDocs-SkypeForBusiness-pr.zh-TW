@@ -18,21 +18,21 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: adadf5bbc4ad8ea177e194c699eff7bd08384b87
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: ef1c9d8fd9d30101fdd40dba5946dfefb324742c
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837413"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706653"
 ---
+# <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>瞭解 Microsoft 團隊及商務用 Skype 的共存與互通性
+
 ![升級歷程圖表，強調專案定義階段](media/upgrade-banner-project-definition.png "升級歷程階段，重點放在專案定義階段")
 
 本文是您在升級歷程的專案定義階段的一部分，您可以在建立贊助聯盟及專案小組，並定義專案的範圍、目標及願景之後，完成這個活動。 繼續之前，請確認您已完成下列活動：
 
 - [已登記您的專案干係人](upgrade-enlist-stakeholders.md)
 - [已定義您的專案範圍](https://aka.ms/SkypetoTeams-Scope)
-
-# <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>瞭解 Microsoft 團隊及商務用 Skype 的共存與互通性
 
 如果您的組織目前使用商務用 Skype，且您開始將團隊與商務用 Skype 搭配使用，或是您開始升級至小組，請務必瞭解這兩個應用程式如何共存、何時以及其交互操作方式，以及如何管理從商務用 Skype 到團隊的最終升級，一直到使用者的遷移。
 

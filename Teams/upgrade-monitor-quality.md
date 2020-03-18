@@ -18,18 +18,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 69f36da55daf95da66fa87b90487dde447953f53
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: e870c6e6561bac991e7b9498ef76162ec1fa2eb9
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837173"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706973"
 ---
+# <a name="quality-of-experience-review-guide"></a>體驗品質的審查指南
+
 ![圖表醒目提示升級歷程的卓越運作階段](media/upgrade-banner-op-excellence.png "升級歷程階段，重點放在卓越運作階段")
 
 本文是您升級歷程的卓越運作階段的一部分，在您完成從商務用 Skype 升級至團隊之後，就會立即開始。
-
-# <a name="quality-of-experience-review-guide"></a>體驗品質的審查指南
 
 [[體驗品質檢查指南](https://aka.ms/qerguide)] 包含一組活動，可針對改善使用者體驗的重要區域評估並提供修正指導方針，如下所示。
 

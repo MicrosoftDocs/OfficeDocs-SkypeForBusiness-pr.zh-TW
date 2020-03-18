@@ -18,13 +18,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ec47733accfe9973887cd9f3f7019ac368e8e970
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: d58613bc3455d5467e9e6c6589f73d498c6e1e3b
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837213"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706903"
 ---
+# <a name="prepare-your-network-for-upgrading-to-teams"></a>準備您的網路以升級至團隊
+
 ![升級歷程圖表，強調技術就緒階段](media/upgrade-banner-tech-readiness.png "升級歷程階段，重點放在技術準備階段")
 
 本文是您升級歷程的技術就緒階段（您可以與使用者準備階段並行完成的活動）的一部分。 繼續之前，請先確認您已從先前階段完成這些活動：
@@ -36,8 +38,6 @@ ms.locfileid: "41837213"
 
 > [!Tip]
 > 觀看下列會話，瞭解如何讓團隊利用您的網路，以及如何最佳規劃最佳網路連線：[團隊網路規劃](https://aka.ms/teams-networking)
-
-# <a name="prepare-your-network-for-upgrading-to-teams"></a>準備您的網路以升級至團隊
 
 如果您要部署音訊、影片或會議，您可以採取一些額外步驟來優化您的網路，以取得該功能。 團隊使用可適應的音訊和視頻技術（編解碼器），因此在大多數網路條件下都能更好地執行。 為確保最佳且一致的效能，您應該為小組準備好您的網路。
 

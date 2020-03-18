@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: 瞭解在 Microsoft 團隊中將原則指派給使用者的不同方式。
 f1keywords: ''
-ms.openlocfilehash: e9f31f9bf9d08497b58490ddc7a7bea9e0496539
-ms.sourcegitcommit: a34a827dfdad05b281e2e5ec5a80fc4e67fc89e2
+ms.openlocfilehash: 0f0ce566eb395e3bf3722149797908599091bc2a
+ms.sourcegitcommit: 891ba3670ccd16bf72adee5a5f82978dc144b9c1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "42604290"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42691193"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>在 Microsoft 團隊中將原則指派給使用者
 
@@ -125,6 +125,9 @@ Grant-CsTeamsMeetingPolicy -Identity reda@contoso.com -PolicyName "Student Meeti
 使用批次原則指派，您可以一次將原則指派給大型的使用者組，而不需要使用腳本。 您可以使用```New-CsBatchPolicyAssignmentOperationd``` Cmdlet 來提交一批使用者和您要指派的原則。 作業會處理為背景作業，並會針對每個批次產生操作 ID。 然後，您就可以```Get-CsBatchPolicyAssignmentOperation```使用此 Cmdlet 來追蹤批次中作業的進度和狀態。
 
 批次最多可包含20000個使用者。 您可以依物件識別碼、使用者主體名稱（UPN）、會話初始通訊協定（SIP）位址或電子郵件地址來指定使用者。
+
+> [!IMPORTANT]
+> 我們目前建議您逐一指派原則，以批次5000使用者。 在這些時間增加需求期間，您可能會遇到處理時間的延遲。 為了將這些增加的處理時間的影響降至最低，我們建議您提交較小至5000個使用者的批次，並在前一個帳戶完成後提交每個批次。 在一般的商務時間以外提交批次也會有所説明。
 
 > [!NOTE]
 > 目前，所有團隊原則類型都無法使用批次原則分派。 如需支援的原則類型清單，請參閱[新-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation) 。

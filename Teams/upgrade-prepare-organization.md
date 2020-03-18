@@ -18,13 +18,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ea2fc7a56b3bc87a7d25c2afa86ff0b9f974995c
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 088db496d6e04cb25a26a55f2748b25a11a8a76b
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836245"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706783"
 ---
+# <a name="prepare-your-organization"></a>準備貴組織
+
 ![升級歷程階段，重點關注使用者準備階段](media/upgrade-banner-user-readiness.png "升級歷程階段，重點放在使用者準備階段")
 
 本文是您升級歷程的 [使用者準備就緒階段] 的一部分，您可以與技術就緒階段並行完成活動。 繼續之前，請先確認您已從先前階段完成這些活動：
@@ -33,8 +35,6 @@ ms.locfileid: "41836245"
 - [已定義您的專案範圍](https://aka.ms/SkypetoTeams-Scope)
 - [已瞭解商務用 Skype 與團隊的共存與互通性](https://aka.ms/SkypeToTeams-Coexist)
 - [已選擇升級歷程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-
-# <a name="prepare-your-organization"></a>準備貴組織
 
 若要讓團隊發揮最大價值，使用者必須實際使用它，但讓使用者變更其運作方式並不一定簡單。 您需要花些時間來瞭解您的使用者，並設計適當的準備方案，有助於協助變更並加速團隊的採用。 這些活動應與您的技術就緒準備並行完成：
 

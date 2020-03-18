@@ -18,18 +18,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 02772dddf435e8c3dc2bc0fe243e453e387cd244
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 2c5a437353d00fca8a59bd7de2b753967adc1134
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837203"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42707003"
 ---
+# <a name="get-the-most-out-of-teams-after-upgrading"></a>在升級後充分發揮團隊的效用
+
 ![升級歷程圖表，強調卓越運作階段](media/upgrade-banner-op-excellence.png "升級歷程階段，重點放在卓越運作階段")
 
 本文是您升級歷程的卓越運作階段的一部分，在您完成從商務用 Skype 升級至團隊之後，就會立即開始。
-
-# <a name="get-the-most-out-of-teams-after-upgrading"></a>在升級後充分發揮團隊的效用
 
 本文將提供升級後充分利用操作團隊的需求概覽。 透過持續監控小組服務的功能，您可以確定您為貴組織提供了最大的價值。
 

@@ -18,17 +18,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 94126a5d49c9573751279c645024dcb9d164bd90
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: 7e2687f00a2d0ccb02e742d5077e472aa1dc37ed
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863294"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706613"
 ---
-<a name="about-upgrade-basic"></a>
-
 # <a name="teams-client-experience-and-conformance-to-coexistence-modes"></a>Teams 用戶端體驗和遵從共存模式
 
+<a name="about-upgrade-basic"></a>
 
 商務用 Skype 共存模式（SfBOnly、SfBWithTeamsCollab、SfBWithTeamsCollabAndMeetings）的用途，是提供使用者的簡單且可預測的體驗，就像是組織從商務用 Skype 轉換到團隊。  如果組織要移至團隊，則 [**團隊專用**] 模式是每個使用者的最終目的地，但並非所有使用者都需要同時指派**團隊**（或任何其他模式）。  在使用者進入 TeamsOnly 模式之前，組織可以使用任何商務用 Skype 共存模式，以確保**僅供團隊**使用的使用者和尚不在小組中的使用者進行預期通訊。 
 

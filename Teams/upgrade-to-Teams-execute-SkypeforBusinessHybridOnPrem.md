@@ -19,13 +19,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5c467fe63cee4681f2b758b264949cd931e3f901
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 4957b22b7fe00ed756c1e81c6bb7c8e2e982720f
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045025"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706673"
 ---
+# <a name="upgrade-from-skype-for-business-on-premises-to-teams"></a>從商務用 Skype 內部部署升級至團隊
+
 ![升級歷程圖表，強調部署與實施](media/upgrade-banner-deployment.png "升級歷程階段，重點是部署與實施階段")
 
 本文是升級歷程部署與實施階段的一部分。 繼續之前，請確認您已完成下列活動：
@@ -37,8 +39,6 @@ ms.locfileid: "42045025"
 -   [準備好您的環境](https://aka.ms/SkypeToTeams-TechnicalReadiness)
 -   [準備好貴組織](https://aka.ms/SkypeToTeams-UserReadiness)
 -   [已進行試驗](https://aka.ms/SkypeToTeams-Pilot)
-
-# <a name="upgrade-from-skype-for-business-on-premises-to-teams"></a>從商務用 Skype 內部部署升級至團隊
 
 如果您已部署商務用 Skype Server 或 Microsoft Lync 內部部署，且貴組織想要升級至小組，請遵循本文中的指導方針。 您必須設定與您的 Office 365 租使用者的混合式連線性，並判斷您在幾個階段將使用者移至團隊時的共存需求。 
 

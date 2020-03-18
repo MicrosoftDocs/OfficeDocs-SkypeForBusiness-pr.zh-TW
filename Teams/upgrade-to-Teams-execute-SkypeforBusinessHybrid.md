@@ -18,13 +18,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 54a9f75e6f9e1d0465af56b49df86010697edbd3
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: ca9ebc7a28e07eec9b24c0628ade4941c0fd2fa2
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837073"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706693"
 ---
+# <a name="upgrade-from-a-skype-for-business-hybrid-deployment-to-teams"></a>從商務用 Skype 混合式部署升級至團隊
+
 ![升級歷程階段，重點是部署與實施階段](media/upgrade-banner-deployment.png "升級歷程階段，重點是部署與實施階段")
 
 本文是升級歷程部署與實施階段的一部分。 繼續之前，請確認您已完成下列活動：
@@ -36,8 +38,6 @@ ms.locfileid: "41837073"
 - [準備好您的環境](https://aka.ms/SkypeToTeams-TechnicalReadiness)
 - [準備好貴組織](https://aka.ms/SkypeToTeams-UserReadiness)
 - [已進行試驗](https://aka.ms/SkypeToTeams-Pilot)
-
-# <a name="upgrade-from-a-skype-for-business-hybrid-deployment-to-teams"></a>從商務用 Skype 混合式部署升級至團隊
 
 如果您已部署商務用 Skype 或 Microsoft Lync 內部部署，且已在與您的 Office 365 租使用者混合式部署中進行設定，且貴組織想要使用多個專案升級至小組，請按照本文中的指導方針進行：共存模式（或全式）。 針對升級歷程，您必須將使用者移至商務用 Skype Online （如果尚未在線上），然後指派適當的共存與升級模式。
 

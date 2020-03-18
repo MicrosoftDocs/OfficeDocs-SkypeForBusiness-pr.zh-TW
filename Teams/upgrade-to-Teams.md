@@ -18,13 +18,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8038b1d04c3deda955465d6262982d0e216e8f23
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: c1a7602139eda3eba3f1d2919312055773110fc6
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836295"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706873"
 ---
+# <a name="overview"></a>概觀
+
 ![升級歷程階段，重點是部署與實施階段](media/upgrade-banner-deployment.png "升級歷程階段，重點是部署與實施階段")
 
 本文是升級歷程的部署與實施階段的一部分。 繼續之前，請確認您已完成下列活動：
@@ -35,11 +37,6 @@ ms.locfileid: "41836295"
 - [已選擇升級歷程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 - [準備好您的環境](https://aka.ms/SkypeToTeams-TechnicalReadiness)
 - [準備好貴組織](https://aka.ms/SkypeToTeams-UserReadiness)
-
-
-
-
-# <a name="overview"></a>概觀
 
 您針對團隊進行升級所採取的步驟，取決於您目前的商務用 Skype 部署：
 

@@ -50,6 +50,36 @@
 | 3/6/2020 | [開啟並使用通話品質儀表板](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) | 日期 |
 
 
+## <a name="week-of-march-09-2020"></a>2020年3月9日的周
+
+
+| 發佈日期 |主題標題 | 切換 |
+|------|------------|--------|
+| 3/10/2020 | [Teams 雲端會議錄製](/MicrosoftTeams/cloud-recording) | 日期 |
+| 3/10/2020 | [資料收集方式](/MicrosoftTeams/data-collection-practices) | 日期 |
+| 3/10/2020 | [[通話品質] 儀表板中提供的尺寸與測量](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | 日期 |
+| 3/10/2020 | [請與 PSTN 服務服務台聯繫](/MicrosoftTeams/manage-phone-numbers-for-your-organization/contact-pstn-service-desk) | 日期 |
+| 3/10/2020 | [您的移轉訂單狀態為何？](/MicrosoftTeams/phone-number-calling-plans/port-order-status) | 日期 |
+| 3/10/2020 | [在 Microsoft 團隊中設定邀請中所包含的電話號碼](/MicrosoftTeams/set-the-phone-numbers-included-on-invites-in-teams) | 日期 |
+| 3/10/2020 | [Microsoft Teams 使用者的導學型訓練與影片](/MicrosoftTeams/instructor-led-training-teams-landing-page) | 日期 |
+| 3/10/2020 | [適用於 Microsoft Teams 教育版管理員的資源](/MicrosoftTeams/remote-learning-edu) | 日期 |
+| 3/10/2020 | [在 Microsoft 團隊中管理您的裝置](/MicrosoftTeams/device-management) | 日期 |
+| 3/11/2020 | [管理 Microsoft 團隊中的 app 許可權原則](/MicrosoftTeams/teams-app-permission-policies) | 日期 |
+| 3/11/2020 | [在 Microsoft 團隊中管理 app 設定原則](/MicrosoftTeams/teams-app-setup-policies) | 日期 |
+| 3/11/2020 | [管理 Microsoft 團隊中的自訂應用程式原則和設定](/MicrosoftTeams/teams-custom-app-policies-and-settings) | 日期 |
+| 3/11/2020 | [在 Microsoft 團隊中將原則指派給使用者](/MicrosoftTeams/assign-policies) | 日期 |
+| 3/11/2020 | [將原則指派給學校中的大型使用者](/MicrosoftTeams/batch-policy-assignment-edu) | 日期 |
+| 3/12/2020 | [適用於虛擬桌面架構的 Teams](/MicrosoftTeams/teams-for-vdi) | 日期 |
+| 3/12/2020 | [常見問題 - 支援遠端員工](/MicrosoftTeams/faq-support-remote-workforce) | 日期 |
+| 3/13/2020 | [印度中的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-india) | 日期 |
+| 3/13/2020 | [適用於 Microsoft Teams 教育版管理員的資源](/MicrosoftTeams/remote-learning-edu) | 日期 |
+| 3/13/2020 | [在 Microsoft 團隊中管理私人頻道的生命週期](/MicrosoftTeams/private-channels-life-cycle-management) | 日期 |
+| 3/13/2020 | [Microsoft 團隊 PSTN 使用方式報告](/MicrosoftTeams/teams-analytics-and-reports/pstn-usage-report) | 日期 |
+| 3/13/2020 | [Microsoft Teams 使用者的導學型訓練與影片](/MicrosoftTeams/instructor-led-training-teams-landing-page) | 日期 |
+| 3/13/2020 | [針對 Microsoft Teams 準備組織的網路](/MicrosoftTeams/prepare-network) | 日期 |
+| 3/13/2020 | [支援使用 Microsoft Teams 的遠端工作者](/MicrosoftTeams/support-remote-work-with-teams) | 日期 |
+
+
 ## <a name="week-of-february-17-2020"></a>2020年2月17日的周
 
 

@@ -18,13 +18,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6d7d0b1cf23b94f33c66218eaacdfdeda5aaab19
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 888e56561e4e6f4a521a0e1730fe3c9ea6adff82
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42048594"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706933"
 ---
+# <a name="assess-organizational-change-readiness"></a>評估組織的變更整備程度
+
 ![升級歷程圖表，強調使用者準備就緒階段](media/upgrade-banner-user-readiness.png "升級歷程階段，重點放在使用者準備階段")
 
 本文是您升級歷程的 [使用者準備就緒階段] 的一部分，您可以與技術就緒階段並行完成活動。 繼續之前，請先確認您已從先前階段完成這些活動：
@@ -33,8 +35,6 @@ ms.locfileid: "42048594"
 - [已定義您的專案範圍](https://aka.ms/SkypetoTeams-Scope)
 - [已瞭解商務用 Skype 與團隊的共存與互通性](https://aka.ms/SkypeToTeams-Coexist)
 - [已選擇升級歷程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-
-# <a name="assess-organizational-change-readiness"></a>評估組織的變更整備程度
 
 在您保護專案小組並定義您的願景、範圍和目標之後，升級歷程的下一步是確保您的組織和使用者已準備好使用小組，這是您與確保您的技術就緒性並行完成的活動。 若要實現來自團隊的價值，使用者必須實際使用它。 簡單地讓團隊不保證您達到目標。 使用者有不同的使用案例和不同的學習樣式，而且它們會以不同的速度來適應新技術。 好的是，管理變更並不是很複雜，而是需要進行專門的工作。 以下的指導式討論旨在協助您瞭解您的使用者基底，讓您可以準備正確的教育程度，以促進並加速使用者的採用。 您可以透過兩種方式來查看您的使用者基底：
 
@@ -62,7 +62,7 @@ ms.locfileid: "42048594"
 <!--
 | **Type of user** | **%** |
 |------------|---|
-| *Early adopters* request the solution before it’s available. | |
+| *Early adopters* request the solution before it's available. | |
 | *Informed users* accept the solution as soon as its value is demonstrated. | |
 | *Laggards* reject the solution, even when pushed into change. | |
 -->
@@ -80,8 +80,8 @@ ms.locfileid: "42048594"
 | **Type of learner** | **%** |
 |---------------|---|
 | *Self-motivated* learners seek out resources, learn by doing. | |
-| *Team-players* enjoy group and interactive training; they’ll go along with coworkers. | |
-| *Hand-holding* seekers expect “white glove” or one-on-one assistance. | |
+| *Team-players* enjoy group and interactive training; they'll go along with coworkers. | |
+| *Hand-holding* seekers expect "white glove" or one-on-one assistance. | |
 -->
 
 | 自我熱情 | 小組玩家 | 手動保留 seekers |
