@@ -1,6 +1,6 @@
 ---
 title: 在 Microsoft 團隊中組織團隊的最佳做法
-ms.reviewer: ''
+ms.reviewer: pbethi
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 41f586a9561a55a759768d719d751c98d2c6a975
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: 59dcb99e8e8734885f7e62b79102cfad2745612a
+ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42160370"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42795756"
 ---
 <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>在 Microsoft 團隊中組織團隊的最佳做法
 ======================================================
@@ -32,37 +32,43 @@ ms.locfileid: "42160370"
 
 請參閱這段短片，看看如何組織組織結構或單一用途團隊的一些範例：
 
-> [!VIDEO https://www.youtube.com/embed/hjJWtoaRJeE]
+> [!VIDEO https://youtu.be/XAowXcmQ-kA]
 
-## <a name="build-your-team-gradually"></a>逐步建立您的小組
+## <a name="add-teams-gradually"></a>逐漸加入團隊
 
-您可以從少數小組成員開始，在您往前移動，然後在您移到時新增人員或群組。 Microsoft 團隊的絕佳用途，就是當您新增人員或群組時，他們可以快速掌握已討論的內容，而不管他們加入的時間，都能向使用者提供交談和檔案。 請嘗試避免建立擁有相同成員集的不同小組，因為這個方法可能不會提供所需的焦點來傳送專案或目標。 Outlook 是一個很好的工具，可讓您共用這些類型的群組內通訊。
+當您第一次推出小組時，我們建議從少數小組和小組成員開始。 移至 [新增連絡人] 或 [群組]。 團隊的絕佳用途就是，當您新增人員或群組時，他們可以快速掌握所討論的內容，因為無論他們身在何處，都能向使用者提供交談和檔案。 避免使用這種方式來建立一組具有相同成員的不同團隊;請改為在單一團隊中建立頻道。
 
 ## <a name="create-channels-to-focus-discussions"></a>建立要集中討論的頻道
 
-建立小組之後，最好開始思考您想要向目標提供的不同交談區域，並建立初始頻道，讓使用者知道要參與的位置，以及尋找現有的交談。 在命名通道時加以描述，讓您可以更輕鬆地瞭解頻道中的交談所要達到的目標。 您可以將新的索引標籤新增到頻道，以新增 OneNote、PowerBI 或網頁與其他內容的連結等工具，讓使用者可以輕鬆找到內容並分享其想法。
+建立小組之後，就可以開始思考您需要支援的不同專案與交談類型，這是個不錯的想法。 建立初始頻道，讓使用者知道參與及尋找現有交談的位置。 使用描述性的頻道名稱，讓使用者可以輕鬆瞭解每個交談的位置。 新增工具（例如 OneNote、Power BI 或 Planner）做為頻道的索引標籤，讓成員可以直接在頻道中擁有所需的內容。 您也可以將通常使用的網頁新增為頻道的索引標籤。 
 
 深入瞭解如何[在團隊中使用](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_teams)這些針對使用者提供的快速秘訣。 
 
-我們的最佳做法指導方針是使用較大的成員集合及其他通道來建立小組。  若要維持高品質的使用者體驗，請將需要人員參與的小組數降至最低。 小組中的頻道應該看作是主題或工作流，協助小組組織其工作，以提供其加入目標。 不應建立任何特定數量的頻道。 每個小組都應該根據工作、優先順序與樣式來製作出頻道。 
+最佳做法：使用較大的成員集合及其他頻道建立團隊。 將需要人員參與的小組數量減至最少。 小組中的頻道應該看作是主題或工作流，以協助小組組織其工作，以提供其共同作業目標。 不應建立任何特定數量的頻道。 每個小組都應該根據工作、優先順序及樣式來製作頻道。 
 
-使用標準通道進行交談：當小組中的部分人員需要更專注的共同作業空間時，小組中的每個人都可以參與與專用頻道。 若要深入瞭解私人頻道以及建立時間，請參閱[小組中的私人頻道](private-channels.md)。
+針對小組中的每個人都可以參與的交談使用標準頻道。 當您需要焦點共同作業空間與選取成員群組時，請充分利用[團隊中的私人頻道](private-channels.md)。
 
-較大型的組織可能會想要建立小組做為「範本」，以標準化其針對特定工作類型所捕獲的資訊。  這對於戰略客戶管理、教室管理、保健保健案例、索賠管理、事件管理，以及適用于特定行業的其他案例都很有用。
+較大型的組織可能會想要建立小組做為「範本」，以標準化其針對特定工作類型所捕獲的資訊。 這對於戰略客戶管理、教室管理、保健保健案例、索賠管理、事件管理，以及適用于特定行業的其他案例都很有用。 若要深入瞭解，請參閱[快速入門的團隊範本](get-started-with-teams-templates.md)與[團隊範本（適用于中小型企業](smb-templates.md)）。
 
 ## <a name="use-the-general-channel"></a>使用 [一般] 通道
 
 根據預設，當您建立小組時，會為您建立 **[一般] 頻道**。 此頻道有許多有用的用途：
-
-若要深入瞭解如何使用這些適用于使用者的快速秘訣，請參閱[在頻道中工作](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_channels)。
 
 - 使用它來分享小組想要取得的專案，例如專案公司或團隊中的人員。
 - 將它用於新的小組成員加入，以及新的團隊成員可能會對您有所説明的其他高層資訊。
 - 您可以將它用於宣告，或設定 SharePoint 新聞連接器將您的新式狀態報表張貼到此頻道。  
 - 在新的或單一用途的小組中，您決定團隊如何最大程度地支援您的目標時，可能只是最新的頻道。
 
-目前您無法移除或移除最愛 [一般] 頻道。 命名通道時，請記住，通道會依字母順序在 [一般] 通道之後排序。 在有許多頻道的團隊中，使用「我最愛的頻道」功能來控制流覽至團隊時所能自動看到的頻道。 
+您無法移除、重新命名或移除最愛 [一般] 頻道。 頻道會依字母順序顯示（[一般] 通道位於最上方）。 在有許多頻道的小組中，請使用 [**隱藏**] 或 [**顯示**] 來顯示您最常使用的頻道。
+
+若要深入瞭解，請 peruse [[團隊和頻道](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_channels)] 頁面上的 [**在頻道中工作**] 索引標籤。
+
+
 
 ## <a name="consider-setting-up-moderation-in-your-channels"></a>考慮在您的頻道中設定裁決
 
 小組擁有者可以為頻道開啟裁決，以控制誰可以開始新的文章，以及回復該頻道中的文章。 當您設定 [裁決] 時，您可以選擇一或多個要成為版主的小組成員。 （[團隊擁有者] 預設為「版主」。）如需詳細資訊，請參閱[在 Microsoft 團隊中設定和管理 [頻道裁決](manage-channel-moderation-in-teams.md)]。
+
+## <a name="related-topics"></a>相關主題
+
+[在 Teams 中建立全組織小組](create-an-org-wide-team.md)

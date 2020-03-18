@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 806a96db63ca0bbb44eb92ed6e84f8451069e725
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 7ec2d9ede5fdd31070228995cefaa16a60ad6224
+ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035457"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42795996"
 ---
 # <a name="teams-only-mode-considerations"></a>僅限團隊的模式考慮
 
@@ -49,8 +49,6 @@ ms.locfileid: "42035457"
 
 **整個租**使用者的考慮：我們正在努力在下列環境中啟用團隊;不過，如果您的商務用 Skype 租使用者是以下列其中一種環境為宿主，系統管理員就不應該升級組織中的任何使用者：
 
- - 政府社區雲端高
- - 政府社區雲端 DoD
  - 由世紀互聯運營的 Office 365
  - Office 365 德國
  - 商務用 Skype 租使用者託管于韓國 **，** 組織需要將團隊資料儲存在韓國中。 目前，以韓國所儲存的商務用 Skype 資料升級至團隊的組織，會將其小組資料儲存在亞太地區，而不是在韓國資料中心區域中。

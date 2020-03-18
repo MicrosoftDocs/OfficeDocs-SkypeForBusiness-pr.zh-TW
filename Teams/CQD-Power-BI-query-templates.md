@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 使用 Power BI 來分析 Microsoft 團隊的 CQD 資料。
-ms.openlocfilehash: 155bde0373880befc770d745ca246b76d4c63eec
-ms.sourcegitcommit: 543f650ad4aff73bccfe7a60b66fb944b4e3c119
+ms.openlocfilehash: c69d2ba79044d4d15e21881e5d2a9a2ce4f64feb
+ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42572891"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42796006"
 ---
 # <a name="use-power-bi-to-analyze-cqd-data-for-microsoft-teams"></a>使用 Power BI 來分析 Microsoft 團隊的 CQD 資料
 
@@ -40,6 +40,9 @@ ms.locfileid: "42572891"
 |CQD 摘要報表 .pbix     |更好的視覺效果、改良的簡報、增加的資訊密度，以及滾動日期。 這些報告可讓識別碼的離群更容易。 使用便於使用的互動式地圖，透過位置深化通話品質。 9個新的報表：</p>整體品質<br>-整體可靠性<br>-RMC （費率通話）整體<br>-會議品質<br>-P2P 品質<br>-會議可靠性<br>-P2P 可靠性<br>-會議 RMC<br>-P2P RMC         |
 |<strong>（新增！）</strong>CQD 團隊使用方式報表 .pbix     | 顯示貴組織中的使用者如何使用團隊以及多少。 若要深入瞭解，請參閱[使用 CQD POWER BI 報表來查看 Microsoft 團隊的利用率](CQD-teams-utilization-report.md)。        |
 |CQD 使用者意見反應（比率我的通話）報表 .pbix     | 顯示使用您可以輕鬆地協助支援您組織通話的方式，為我的通話資料打分。 與 verbatims 進行交叉參照，以找出使用者的教育機會。        |
+
+> [!TIP]
+> 在您設定 Power BI 報表以取得 CQD 資料後，請將其新增為頻道的索引標籤。 選取**+** 頻道之後，請選取 [ **Power BI** ]，然後尋找您的報表。 請記住，只有具備 Power BI 授權及 CQD 管理員認證的人員才能存取這些報告。
 
 
 ## <a name="related-topics"></a>相關主題

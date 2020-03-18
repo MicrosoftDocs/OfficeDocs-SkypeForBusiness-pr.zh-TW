@@ -3,7 +3,6 @@ title: 開始使用 Teams 範本
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/25/2019
 audience: Admin
 ms.topic: conceptual
 ms.service: msteams
@@ -19,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fef3357f938be0e9261d0b5459c9f6aa16942329
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 585d3241506dacf60eb02b1d7a3e97cb80357026
+ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837013"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42796026"
 ---
 # <a name="get-started-with-teams-templates"></a>開始使用 Teams 範本
 
@@ -77,9 +76,6 @@ ms.locfileid: "41837013"
 | 健康<br>Ward |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')` |管道 <ul><li>公告\*</li><li>Huddles\*</li><li>輪</li><li>人員\*</li><li>訓練\*</li></ul>\*自動將通道 |
 |健康<br>醫院 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')` |管道<ul><li>公告\*</li><li>從屬\*</li><li>Custodial</li><li>人力資源</li></li><li>藥房</li></ul>\*自動將通道|
 |||
-
-> [!NOTE]
-> 我們將在未來版本的 Microsoft 團隊中新增更多基本範本類型，因此請返回支援屬性的最新資訊。
 
 ## <a name="related-topics"></a>相關主題
 
