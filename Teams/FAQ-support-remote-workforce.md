@@ -8,18 +8,19 @@ ms.topic: article
 ms.service: msteams
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_RemoteWorkers
 ms.reviewer: nichrose
 localization_priority: Priority
 search.appverid: MET150
 description: 使用本指導方針支援在家中工作 (WFH) 的遠端員工提高生產力，以因應 COVID-19 (冠狀病毒) 爆發的情況。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 869c489fbb5ff30f611b52d3682b090422aece8d
-ms.sourcegitcommit: 5f4bcbd3011aae13db846b4fe3da0b76fff7d05f
+ms.openlocfilehash: e5b6249adc4c5f7af09f0414b07f500058f71747
+ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42617747"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42858738"
 ---
 # <a name="faq-support-your-remote-workforce"></a>常見問題：支援遠端員工
 

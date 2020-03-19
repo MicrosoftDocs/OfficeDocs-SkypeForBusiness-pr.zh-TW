@@ -12,14 +12,15 @@ localization_priority: Priority
 description: 適用於美國政府，如果您沒有 Microsoft Teams 且急需使用它，針對因應 COVID-19 (冠狀病毒) 爆發而需要從遠端工作或在家工作 (WFH) 的使用者而推出的 Office 365 G1 試用版。
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 388c3c30e9b4db2db6a21179829ca6ac40e00da0
-ms.sourcegitcommit: 095bed15ffe64c34e6c39770b5734d966d5d8a0f
+ms.openlocfilehash: a6ae8079ba3ccd498936c5d17740ea2e5bafb514
+ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42508192"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42858718"
 ---
 <a name="manage-the-office-365-g1-trial-for-us-government"></a>管理適用於美國政府的 Office 365 G1 試用版 
 ==============================
