@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.quickstartteamsadmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 87de516afbd94a0d1784edd52efbcc5b10e262dd
-ms.sourcegitcommit: 29034bda30a8460eb18600785f785528d0944041
+ms.openlocfilehash: f8259b8a06a4601ff7feebca53c06f268bdc08c5
+ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "42285825"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42796016"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams 中的聊天、團隊、頻道和應用程式
 
@@ -38,18 +38,11 @@ Teams 為您的組織提供絕佳的現成共同作業體驗，而大部分組�
  - [適用於 IT YouTube 頻道的 Microsoft Teams 基本版](https://aka.ms/MicrosoftTeamsforIT)，包括告訴您如何推出、設定及管理 Teams 的簡短 (8-10 分鐘) 影片。
 
 > [!TIP]
-> 建議您初始推出 Teams 時能夠包含我們的精選應用程式，例如 Planner。 在開始推動 Teams 的採用時，則新增其他[應用程式、Bot 和連接器](deploy-apps-microsoft-teams-landing-page.md)。
+> 建議您一開始推出 Teams 時能夠包含我們的精選應用程式，例如 Planner。 在開始推動 Teams 的採用時，則新增其他[應用程式、Bot 和連接器](deploy-apps-microsoft-teams-landing-page.md)。
 
 ## <a name="chat-deployment-prerequisites"></a>聊天部署必要條件
 
-在您的組織中推出 Teams 之前，請先用點時間確認您的環境已針對 Teams 備妥。 請檢閱下列資訊，並對您的環境進行任何必要的變更。
-
-- 若要獲得完整的 Teams 體驗，組織必須已部署 [Exchange Online 和 SharePoint Online](#exchange-and-sharepoint-interoperability)，並且必須具有 Office 365 經驗證的網域 (例如 contoso.com)。
-
-- 若要在整個組織中擴展聊天、團隊和頻道，請確認所有位置都擁有網際網路存取，使得它們能夠連線到 Office 365。 請至少確保已從所有位置將下列常見連接埠對網際網路開放：
-
-    - 對來自將使用 Teams 用戶端的連出流量開放 **TCP** 連接埠 80 和 443
-    - 對來自將使用 Teams 用戶端的連出流量開放 **UDP** 連接埠 3478 到3481
+在您的組織中推出 Teams 之前，請先用點時間確認您的環境已針對 Teams 備妥。 請參閱[針對 Teams 準備組織的網路](prepare-network.md)，並對您的環境進行任何必要的變更。
 
 |問問自己|動作 |
 |------------|-------|
