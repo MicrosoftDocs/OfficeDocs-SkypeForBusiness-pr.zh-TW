@@ -3,7 +3,7 @@ title: 在 Microsoft 團隊中管理 app 設定原則
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.reviewer: lajin,rarang
+ms.reviewer: rarang
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -14,24 +14,28 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: 瞭解 Microsoft 團隊中的應用程式設定原則，以及如何使用這些原則將 app 釘選到您組織中的使用者自訂小組。
+description: 瞭解如何在 Microsoft 團隊中針對貴組織的使用者使用及管理 app 設定原則。
 f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 7ee649cff23ee569b284ecf8873205524eb2e838
-ms.sourcegitcommit: dde63e1b92c0bc3dbb41d8670778b863c3bc9bec
+ms.openlocfilehash: 241a109a6d6a6809f3bcfe363884f6168e67ef12
+ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "42601430"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42858686"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>在 Microsoft 團隊中管理 app 設定原則
 
 > [!NOTE]
 > 如果您已啟用整個組織內的應用程式設定，**允許與自訂應用程式互動**，您可能不會在 Microsoft 團隊系統管理中心看到 app 設定原則。 目前正在推出，且即將在您的組織中提供此功能。
 
-身為系統管理員，您可以使用應用程式設定原則來自訂 Microsoft 團隊，以醒目提示對您的使用者而言最重要的應用程式。 您可以選擇要釘選的 app，並設定它們出現的順序。 應用程式設定原則可讓您展示貴組織中的使用者所需的 app，包括由協力廠商或貴組織中的開發人員所建立的 app。 您也可以使用應用程式設定原則來控制使用者是否可以將 app 釘選到團隊，以及管理內建功能的顯示方式。 您必須是全域管理員或團隊服務系統管理員，才能管理這些原則。
+以管理員身分，您可以使用應用程式設定原則來執行下列動作：
+
+- 自訂小組，以醒目提示對您的使用者而言最重要的 app。 您可以選擇要釘選的 app，並設定它們出現的順序。 釘選應用程式可讓您展示貴組織中的使用者所需的應用程式，包括由協力廠商或貴組織中的開發人員所建立的 app。
+- 控制使用者是否可以將 app 釘選到團隊。
+- 代表使用者安裝應用程式 **（在 [預覽] 中）**。 您可以選擇在使用者開始團隊時預設會為使用者安裝哪些 app。 請記住，如果指派給他們的[app 許可權原則](teams-app-permission-policies.md)允許，使用者仍然可以自行安裝應用程式。
 
 應用程式會釘選到應用程式行。 這是團隊桌面用戶端和團隊行動用戶端（iOS 和 Android）底部的列。
 
@@ -39,7 +43,9 @@ ms.locfileid: "42601430"
 |---------|---------|
 |![顯示小組桌面用戶端的螢幕擷取畫面](media/app-setup-policies-desktop-app-bar.png)<br>  |   ![顯示團隊行動用戶端的螢幕擷取畫面](media/app-setup-policies-mobile-app-bar.png)      |
 
-您可以在 Microsoft [團隊管理中心] 管理 app 設定原則。 您可以使用全域（組織範圍預設值）原則，或建立自訂原則，並將它們指派給使用者。 除非您建立並指派自訂原則，否則貴組織中的使用者會自動取得全域原則。
+若要查看其預先安裝的應用程式，請在應用程式行中，按一下 [使用者] **。** 團隊桌面及網頁用戶端中的其他應用程式，並在行動用戶端中向上滑動。
+
+您可以在 Microsoft [團隊管理中心] 管理 app 設定原則。 您可以使用全域（組織範圍預設值）原則，或建立自訂原則，並將它們指派給使用者。 除非您建立並指派自訂原則，否則貴組織中的使用者會自動取得全域原則。 您必須是全域管理員或團隊服務系統管理員，才能管理這些原則。
 
 您可以編輯全域原則中的設定，以包含您想要的 app。 如果您想要針對貴組織中不同的使用者群組自訂小組，請建立並指派一或多個自訂原則。 如果指派給使用者的是自訂原則，該原則會套用給使用者。 如果使用者未獲指派自訂原則，則全域原則會套用至使用者。
 
@@ -58,14 +64,23 @@ ms.locfileid: "42601430"
 3. 輸入原則的名稱和描述。
 4. 開啟或關閉 [上**傳自訂應用程式**]，視您是否要讓使用者將自訂應用程式上傳至團隊而定。 如果 [**允許協力廠商應用**程式在[組織內的應用程式設定](manage-apps.md#manage-org-wide-app-settings)中關閉]，您將無法變更此設定。
 5. 開啟或關閉 [**允許使用者釘**用]，視您是否要讓使用者將應用程式釘選到自己的應用程式行。
-6. 按一下 [**新增應用程式**]。
-7. 在 [**新增釘選的應用程式**] 窗格中，搜尋您要新增的應用程式，然後按一下 [**新增**]。 您也可以依應用程式許可權原則篩選 app。 當您選取 app 清單後，請按一下 [**新增**]。
+6. 若要為使用者安裝應用程式 **（在預覽中）**，請執行下列動作：
 
-     ![顯示 [新增釘選的應用程式] 窗格的螢幕擷取畫面](media/app-setup-policies-add-apps.png)
+    1. 在 [**已安裝的 app**] 底下，按一下 [**新增 app**]。
+    2. 在 [**新增已安裝的應用程式**] 窗格中，搜尋您想要在使用者開始團隊時自動安裝的應用程式。 您也可以依應用程式許可權原則篩選 app。 當您選取 app 清單後，請按一下 [**新增**]。
 
-8. 依您希望它們出現在團隊中的順序排列應用程式，然後按一下 [**儲存**]。
+        ![顯示 [新增已安裝的應用程式] 窗格的螢幕擷取畫面](media/app-setup-policies-add-installed-apps.png)
 
-    ![顯示 [固定的 app] 區段的螢幕擷取畫面](media/app-setup-policies-new-policy-setup.png)
+7. 若要釘選應用程式，請執行下列動作：
+
+    1. 在 [**固定應用程式**] 底下，按一下 [**新增應用程式**]。
+    2. 在 [**新增釘選的應用程式**] 窗格中，搜尋您要新增的應用程式，然後按一下 [**新增**]。 您也可以依應用程式許可權原則篩選 app。 當您選擇要釘選的 app 清單時，請按一下 [**新增**]。
+
+         ![顯示 [新增釘選的應用程式] 窗格的螢幕擷取畫面](media/app-setup-policies-add-apps.png)
+
+    3. 依您希望它們出現在團隊中的順序排列應用程式，然後按一下 [**儲存**]。
+
+        ![顯示 [固定的 app] 區段的螢幕擷取畫面](media/app-setup-policies-new-policy-setup.png)
 
 ## <a name="edit-an-app-setup-policy"></a>編輯應用程式設定原則
 
@@ -73,7 +88,7 @@ ms.locfileid: "42601430"
 
 1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**團隊 app** > **設定原則**]。
 2. 按一下原則名稱左邊的，然後按一下 [**編輯**]，選取原則。
-3. 您可以從這裡進行所要的變更。 您可以新增、移除及變更 app 順序。
+3. 您可以從這裡進行所要的變更。
 4. 按一下 [**儲存**]。
 
 ## <a name="assign-a-custom-app-setup-policy-to-users"></a>將自訂應用程式設定原則指派給使用者
@@ -138,11 +153,11 @@ $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setu
 
 在教育版小組中無法使用通話應用程式。 當您建立新的自訂應用程式設定原則時，通話 app 會顯示在應用程式清單中。 不過，應用程式不會釘選到團隊用戶端與教育版小組，也不會在團隊中看到 [通話] 應用程式。
 
-#### <a name="how-many-apps-can-be-added-to-a-policy"></a>您可以將多少應用程式新增至原則？
+#### <a name="how-many-pinned-apps-can-be-added-to-a-policy"></a>您可以將多少固定 app 新增至原則？
 
 您至少必須將兩個 app 釘選到團隊行動用戶端（iOS 和 Android）。 如果原則的 app 少於兩個，行動用戶端不會反映原則設定，而是會繼續使用現有的設定。
 
-您可以新增至原則的 app 數目沒有限制。
+您可以新增至原則的固定 app 數目沒有限制。
 
 #### <a name="how-long-does-it-take-for-policy-changes-to-take-effect"></a>原則變更需要多少時間才能生效？
 

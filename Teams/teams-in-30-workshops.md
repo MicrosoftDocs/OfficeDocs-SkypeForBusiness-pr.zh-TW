@@ -11,6 +11,7 @@ audience: admin
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_JourneyFromSfB
+- Teams_ITAdmin_RemoteWorkers
 ms.reviewer: dearbeen, nsuter
 search.appverid: MET150
 description: 即時、互動式的討論會，旨在讓您在30天內就能與 Microsoft 團隊保持聯繫並開始執行。
@@ -20,12 +21,12 @@ ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 ROBOTS: NOINDEX
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 094f3db845109538df4652c3f1e990465c670918
-ms.sourcegitcommit: 86502c9ad03c5dd5ed18f0e3276a81d1260c76d2
+ms.openlocfilehash: 1bf083f88033028121a8c8286dd5c4161ac1c8f9
+ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42574426"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42858550"
 ---
 <div id="main" class="v2">
     <div class="container">

@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 請閱讀本主題，瞭解 Microsoft 手機系統直通路由如何讓您將支援的客戶提供的會話邊界控制器（SBC）連線至 Microsoft Phone 系統。
-ms.openlocfilehash: 347a8a7dd64831281c1c9e2f94f2bea24fb18555
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: 0e15f8e76bc9512a28311764c39e34b45131b9d3
+ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42160707"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42858578"
 ---
 # <a name="plan-direct-routing"></a>規劃直接路由
 
@@ -303,6 +303,25 @@ SBC 會進行 DNS 查詢來解析 sip.pstnhub.microsoft.com。 根據 SBC 位置
   > [!NOTE]
   > Microsoft 建議在 SBC 上每個併發呼叫至少有兩個埠。
 
+
+## <a name="media-traffic-media-processors-geography"></a>媒體流量：媒體處理器地理位置
+
+媒體流量透過稱為媒體處理器的元件來流動。 媒體處理器與 SIP proxy 放在同一個資料中心。 此外，還有其他媒體處理器可優化媒體流程。 例如，我們目前沒有在澳大利亞（透過新加坡或香港）傳送 sip proxy 元件，但我們在澳大利亞有本機的媒體處理器。 在本機提供媒體處理器的需求是由我們透過傳送流量（例如從澳大利亞到新加坡或香港）來取得的延隔時間來決定。 雖然從澳大利亞到香港或新加坡的流量範例中的延遲，仍可保持良好的 SIP 流量通話品質，而不需要進行即時媒體流量。
+
+媒體處理器的位置：
+
+已部署 SIP proxy 和媒體處理器元件的位置：
+- 我們（美國西部和東資料中心有兩個）
+- 歐洲（阿姆斯特丹與都柏林資料中心）
+- 亞洲（新加坡與香港資料中心）
+
+只部署媒體處理器的位置（由上述最接近資料中心的 SIP 流程）：
+- 日本（JP 東部和西部資料中心）
+- 澳大利亞（澳大利亞東部和西部資料中心）
+
+
+
+
 ## <a name="media-traffic-codecs"></a>媒體流量：編解碼器
 
 ### <a name="leg-between-sbc-and-cloud-media-processor-or-microsoft-teams-client"></a>在 SBC 與雲端媒體處理器或 Microsoft 團隊用戶端之間的腿。
@@ -333,6 +352,3 @@ Microsoft 只支援驗證的 SBCs 與直接路由配對。 因為企業語音對
 ## <a name="see-also"></a>另請參閱
 
 [設定直接路由](direct-routing-configure.md)
-
-
-

@@ -9,18 +9,19 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-voice
+- Teams_ITAdmin_RemoteWorkers
 search.appverid: MET150
 audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 使用 [小組利用率 Power BI 報表] 來追蹤貴組織中的 Microsoft 團隊使用方式。
-ms.openlocfilehash: d22f37bb230ecbaa3cf6c33c2ba43f5ea92afaad
-ms.sourcegitcommit: 98fcfc03c55917d0aca48b7bd97988f81e8930c1
+ms.openlocfilehash: 7eb39d043fafae0464ac52aa1e328c24b22d73f3
+ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42559419"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42858758"
 ---
 # <a name="view-microsoft-teams-utilization-in-power-bi-using-cqd-data"></a>在 Power BI 中使用 CQD 資料來查看 Microsoft 團隊利用率
 

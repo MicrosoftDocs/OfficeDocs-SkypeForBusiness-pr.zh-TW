@@ -12,16 +12,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-f1.keywords: ms.teamsadmincenter.policypackages.overview
+f1.keywords:
+- CSH
+ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何在 Microsoft 團隊中使用及管理原則套件。
-ms.openlocfilehash: d73cd22cc0a98cd772ba3823fffa3649602010bc
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d7c0ded990225b969579f50ea5f87a32efebe388
+ms.sourcegitcommit: 54cbcf917d9663e6aa9760d7399b36c00d66478c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41772753"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42857992"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>管理 Microsoft 團隊中的原則套件
 
@@ -29,13 +31,15 @@ Microsoft 團隊中的原則套件是預先定義的原則與原則設定的集�
 
 當您將原則套件指派給使用者時，會建立套件中的原則，然後您就可以自訂套件中原則的設定，以符合貴組織的需求。
 
+我們的政府雲端社區（GCC）組織無法使用原則套件。
+
 ## <a name="what-is-a-policy-package"></a>什麼是原則套件？
 
 [原則套件] 可讓您控制您想要允許或限制整個組織中特定人員組的小組功能。 團隊中的每個原則套件都是圍繞使用者角色來設計，包含預先定義的原則與原則設定，可支援該角色的共同作業及通訊活動。
 
 團隊目前包含下列原則套件。
 
-|**套件名稱**  |**說明** |
+|**套件名稱**  |**描述** |
 |---------|---------|
 |教育版（高等教育學生）    |建立一組可套用至較高教育學生的原則與原則設定。|
 |教育版（主要學校學生）   |建立適用于主要學生的一組原則與原則設定。|

@@ -9,6 +9,7 @@ ms.service: msteams
 audience: admin
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_RemoteWorkers
 ms.reviewer: lolaj
 search.appverid: MET150
 description: 訓練影片、教學課程及其他資源供貴組織中的使用者瞭解及使用團隊。
@@ -19,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.trainingvideos.enduser
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 72e8543d4d279796051ae24a728092fc236b13e3
-ms.sourcegitcommit: 769241842058cfb4618460fad2dde1494a3609a1
+ms.openlocfilehash: 967fdf2dd00c41425a56627082c5f74a7310acb9
+ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42574010"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42858348"
 ---
 # <a name="end-user-training-for-microsoft-teams"></a>Microsoft 團隊的最終使用者訓練
 
@@ -148,7 +149,32 @@ ms.locfileid: "42574010"
 
 <h2>精選訓練</h2>
 <ul class="panelContent cardsW">
-     <li>
+<li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>遠端工作（WFH）</h3>
+                         <p><a href="https://aka.ms/remote-work">使用 Office 365 遠端作業</a></p>
+                        <p><a href="https://support.office.com/article/5144136b-1ff8-476f-bcba-00de0bdaa600">使用 Office 365 進行合作的最佳做法</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li> 
+    <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>遠端學習</h3>
+                         <p><a href="https://www.microsoft.com/en-us/education/remote-learning">進行遠端學習</a></p>
+                        <p><a href="https://aka.ms/TeamsEDUQuickGuide">教育版團隊：快速入門手冊</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li><li>
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">

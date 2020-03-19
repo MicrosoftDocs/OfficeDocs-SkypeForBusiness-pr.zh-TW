@@ -9,6 +9,7 @@ ms.topic: article
 ms.service: msteams
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_RemoteWorkers
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -16,12 +17,12 @@ ms.reviewer: mikedav
 description: 瞭解如何指派音訊會議、電話系統和通話方案等功能的授權。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9d75201b7be82337898d4e9fe4feafb4de1155a9
-ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
+ms.openlocfilehash: b962a29f163a094f5b7c74f7504a5d78e310561a
+ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42236833"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42858551"
 ---
 # <a name="assign-microsoft-teams-licenses"></a>指派 Microsoft 團隊授權
 
@@ -164,10 +165,10 @@ foreach ($user in $users)
 | 產品名稱 | SKU 元件名稱 |
 |--------------|---------------|
 | 音訊會議（訂閱） | MCOMEETADV | 
-| 每分鐘付費語音會議（隨您的付費）</br>*注意：需要設定並啟用通訊點數*。 | MCOMEETACPEA |
+| 每分鐘付費語音會議（隨您的付費）</br>*注意：需要設定並啟用通訊點數*。 |    MCOMEETACPEA |
 | 企業版 E1 | STANDARDPACK | 
 | 企業版 E3 | ENTERPRISEPACK |
-| 企業版 E5 （不含音訊會議） |  ENTERPRISEPREMIUM_NOPSTNCONF |
+| 企業版 E5 （不含音訊會議） |     ENTERPRISEPREMIUM_NOPSTNCONF |
 | 企業版 E5 （含音訊會議） | ENTERPRISEPREMIUM |
 
 ##  <a name="communications-credits"></a>通訊點數
