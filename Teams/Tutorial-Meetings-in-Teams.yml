@@ -16,14 +16,15 @@ metadata:
   search.appverid: MET150
   ms.collection:
   - M365-collaboration
+  - Teams_ITAdmin_RemoteWorkers
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 47e80b1eda888581b46284e69ef735f751962b64
-  ms.sourcegitcommit: 543f650ad4aff73bccfe7a60b66fb944b4e3c119
+  ms.openlocfilehash: fce35ee2d37da4eefd80649acb780a8b42b60dfd
+  ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
   ms.translationtype: MT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 03/10/2020
-  ms.locfileid: "42572781"
+  ms.lasthandoff: 03/19/2020
+  ms.locfileid: "42858638"
 items:
 - durationInMinutes: 1
   content: >
@@ -71,7 +72,7 @@ items:
   content: "\n若要瞭解團隊中的會議，請參閱下列內容：\n-   [會議和通話](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)中的「有會議」（估計閱讀時間6分鐘）\n\n-   [[立即開會](https://support.office.com/article/Video-Meet-now-26e06837-853d-4df1-a729-06bf700d4ecf)] 影片（1:45 分鐘）\n\n-   已[排程的會議](https://support.office.com/article/Video-Scheduled-meetings-ba44d0fd-da3c-4541-a3eb-a868f5e2b137)影片（1:45 分鐘）\n\n-   [與 Microsoft 團隊見面](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444)以瞭解會議大廳、匿名加入會議以及其他（估計閱讀時間6分鐘）的9個秘訣\n"
 - title: 案例-會議類型
   durationInMinutes: 1
-  content: "\n他們適用于 Contoso （擁有多個辦公室的公司）。 他們需要定期連線至其他辦公室位置中的人員：\n\n-  他的專案小組每週一次都要達到一小時的時間。 因為他們已在 Microsoft 團隊中擁有專用的頻道，所以他們會排程「通道會議」以進行定期同步處理。這對他們和其小組有多項好處：\n   -   團隊的所有成員都會自動受到邀請。\n   -   在會議之前、期間或之後的任何會議相關討論，都屬於 [頻道討論] 的一部分。\n   -   小組成員的所有人都能看到會議及討論。\n   -   開啟會議和即時事件的即時輔助字幕。 此外，他們也會開啟 [即時事件] 中的字幕。 這些功能會增加 inclusivity、生產力與理解。\n-   他們也需要與個別人同步，但不希望其他人看到這些會議。 針對這些用途，他們會安排「私人會議」。\n    私人會議可讓他們在會議召開前開始聊天。 此會議準備工作可讓會議變得更有效率，因為他們可以預先分享資料，或與重要的小組成員討論議程。 在會議期間，您也可以使用相同的聊天功能來捕獲筆記，此後就能在任何後續追蹤中使用。\n-   有時候，小組在他們的頻道中有 lively 討論，而他們需要他們來進行快速決策。 他決定在每個人都輸入的同時，視頻通話可能是更有效率的溝通方式。 在這種情況下，他們在目前交談中選取 [**立即開會**]，即可安排零星會議。\n"
+  content: "\n他們適用于 Contoso （擁有多個辦公室的公司）。 他們需要定期連線至其他辦公室位置中的人員：\n\n-  他的專案小組每週一次都要達到一小時的時間。 因為他們已在 Microsoft 團隊中擁有專用的頻道，所以他們會排程「通道會議」以進行定期同步處理。這對他們和其小組有多項好處：\n   -   團隊的所有成員都會自動受到邀請。\n   -   在會議之前、期間或之後的任何會議相關討論，都屬於 [頻道討論] 的一部分。\n   -   小組成員的所有人都能看到會議及討論。\n   -   開啟會議和即時活動的即時輔助字幕。 此外，他們也會開啟 [即時事件] 中的字幕。 這些功能會提高包容性、生產力和理解力。\n-   他們也需要與個別人同步，但不希望其他人看到這些會議。 針對這些用途，他們會安排「私人會議」。\n    私人會議可讓他們在會議召開前開始聊天。 此會議準備工作可讓會議變得更有效率，因為他們可以預先分享資料，或與重要的小組成員討論議程。 在會議期間，您也可以使用相同的聊天功能來捕獲筆記，此後就能在任何後續追蹤中使用。\n-   有時候，小組在他們的頻道中有 lively 討論，而他們需要他們來進行快速決策。 他決定在每個人都輸入的同時，視頻通話可能是更有效率的溝通方式。 在這種情況下，他們在目前交談中選取 [**立即開會**]，即可安排零星會議。\n"
 - title: 會議用戶端
   durationInMinutes: 5
   content: "\n您可以從各種不同的用戶端加入會議。 查看[Microsoft 團隊的 [取得用戶端](https://docs.microsoft.com/MicrosoftTeams/get-clients)] （估計讀取時間為3分鐘），瞭解哪些平臺團隊可供使用。\n\n此外，您也可以使用音訊會議，透過撥入會議或從會議撥出，讓參與來從一般手機參加會議。\n有關音訊會議的詳細資料將在專門訓練中講述。\n\n在 Windows 版 Outlook 中，您可以使用增益集直接從您的行事曆排程會議。 複習[在 Outlook 中使用 [團隊會議] 增益集](https://docs.microsoft.com/MicrosoftTeams/teams-add-in-for-outlook)（估計閱讀時間為2分鐘）。\n"
