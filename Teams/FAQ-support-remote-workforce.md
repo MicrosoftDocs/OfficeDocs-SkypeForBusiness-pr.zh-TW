@@ -15,12 +15,12 @@ search.appverid: MET150
 description: 使用本指導方針支援在家中工作 (WFH) 的遠端員工提高生產力，以因應 COVID-19 (冠狀病毒) 爆發的情況。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e5b6249adc4c5f7af09f0414b07f500058f71747
-ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
+ms.openlocfilehash: bedd9e0022dc82520d7c23e8f8f7b61a5fd78e89
+ms.sourcegitcommit: 45bbec77370ed44ba069790086541a914800ae5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/19/2020
-ms.locfileid: "42858738"
+ms.locfileid: "42866568"
 ---
 # <a name="faq-support-your-remote-workforce"></a>常見問題：支援遠端員工
 
@@ -35,7 +35,7 @@ Microsoft 在最近發佈的 COVID-19 (冠狀病毒) 疫情公告中，大量擴
 > [!NOTE]
 > 如果您已經設定 M365，並想要深入了解 Microsoft 正在採取的行動，請前往 [訊息中心] 並檢視 **MC205458** 訊息中心貼文。
 
-請不要錯過我們 Microsoft 365 企業副總裁 Jared Spataro 在 2020 年 3 月 5 日發佈的部落格文章：[我們在 COVID-19 期間提供給客戶的承諾](https://www.microsoft.com/microsoft-365/blog/2020/03/05/our-commitment-to-customers-during-covid-19/) \(英文\)
+請不要錯過我們 Microsoft 365 企業副總裁 Jared Spataro 在 2020 年 3 月 5 日發佈的部落格文章：[我們在 COVID-19 期間提供給客戶的承諾](https://www.microsoft.com/zh-TW/microsoft-365/blog/2020/03/05/our-commitment-to-customers-during-covid-19/) \(英文\)
 
 ### <a name="with-the-actions-that-microsoft-is-taking-do-we-anticipate-problems"></a>對於 Microsoft 所採取的行動，我們可以預見到問題嗎？
 
