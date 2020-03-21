@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c048e321241f4403fbb69f71e56b3fc179346951
-ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
+ms.openlocfilehash: a17b9ed78f484f593715a551fd11fa158bd6262a
+ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "42327825"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42892203"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>使用 Microsoft 端點 Configuration Manager 安裝 Microsoft 團隊
 
@@ -77,15 +77,15 @@ ms.locfileid: "42327825"
 
 如果使用者從使用者設定檔中移除團隊，MSI 安裝程式將會追蹤使用者已卸載小組應用程式，而且不會再安裝該使用者設定檔的小組。 若要在已卸載此使用者的特定電腦上重新部署團隊，請執行下列動作：
 
-1. 針對每個使用者設定檔卸載已安裝的團隊 App。
-2. 卸載之後，[遞迴刪除] `%localappdata%\Microsoft\Teams\`下的 [目錄]。
+1. 卸載針對每個使用者設定檔所安裝的團隊 app。
+2. 卸載之後，請以遞迴方式刪除`%localappdata%\Microsoft\Teams\`目錄。
 3. 將 MSI 套件重新部署到該特定電腦。
 
 ## <a name="prevent-teams-from-starting-automatically-after-installation"></a>避免團隊在安裝後自動啟動
 
 MSI 的預設行為是在使用者登入後立即安裝 [小組] app，然後自動啟動小組。 如果您不想讓團隊在使用者安裝之後自動開始進行，您可以使用群組原則來設定策略設定，或停用 MSI 安裝程式的自動啟動。
 
-#### <a name="use-group-policy-recommended"></a>使用群組原則（建議使用）
+### <a name="use-group-policy-recommended"></a>使用群組原則（建議使用）
 
 啟用 [在安裝群組原則設定**之後，禁止 Microsoft 小組自動啟動**]。 您可以在 User Configuration\Policies\Administrative Templates\Microsoft 團隊中找到此原則設定。 這是建議的方法，因為您可以根據組織的需求關閉或開啟原則設定。
 
@@ -103,16 +103,18 @@ MSI 的預設行為是在使用者登入後立即安裝 [小組] app，然後自
 針對32位版本
 
 ```console
-msiexec /i Teams_windows.msi OPTIONS="noAutoStart=true"
+msiexec /i Teams_windows.msi OPTIONS="noAutoStart=true" ALLUSERS=1
 ```
 
 針對64位版本
 
 ```console
-msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true"
+msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true" ALLUSERS=1
 ```
 
 當使用者登入 Windows 時，會在 MSI 中安裝小組，並將開始團隊的快捷方式新增至使用者的桌面。 在使用者手動開始團隊前，小組將無法啟動。 使用者手動啟動團隊後，小組會在使用者登入時自動啟動。
+
+請注意，這些範例也會使用**ALLUSERS = 1**參數。 當您設定此參數時，系統會在 [控制台] 的 [程式和功能] 和 [應用程式 & Windows 設定] 中的 [應用程式] 中，顯示「團隊電腦範圍」的安裝程式。 如果團隊在電腦上擁有管理員認證，則所有使用者都可以卸載小組。
 
 > [!Note]
 > 如果您是手動執行 MSI，請務必以提升許可權執行。 即使您是以系統管理員身分執行，而且不是以提升許可權執行，安裝程式也無法將選項設定為停用自動啟動。

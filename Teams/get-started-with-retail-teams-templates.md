@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 31c6b04531b21996f897b3d668fdb6515f1e953f
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: ec16f919bad5ed696741664836aa3d7127837c5a
+ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836813"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42892363"
 ---
 # <a name="get-started-with-teams-templates-in-retail"></a>在零售中開始使用團隊範本 
 
@@ -64,3 +64,26 @@ Manager 共同工作範本是根據零售商的需求而設計的另一個團隊
 為您的組織自訂管理員共同工作範本的建議方式：
 
 - 如果您的組織擁有與主管相關的任何內部網站（例如，SharePoint 網站），請考慮將其固定為相關小組頻道中的索引標籤（請參閱[這裡](get-started-with-teams-templates.md)的檔以取得指示）。
+
+## <a name="how-to-use-first-party-templates"></a>如何使用第一方範本
+
+若要使用這些範本，只要將申請主體中的 [template@odata. bind] 屬性從 [標準] 變更為上述 TemplateIDs 即可。  如需如何部署團隊範本的詳細資訊，請參閱 Microsoft Graph 文章，瞭解如何[建立團隊](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta)。
+
+> [!NOTE]
+> 範本中的頻道會自動建立在 [一般] 索引標籤底下。
+
+### <a name="example-store-template-extension-script"></a>範例：儲存範本延伸腳本
+
+``` PowerShell
+{
+  "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates('retailStore')",
+  "DisplayName": "Contoso Store",
+  "Description": "Team for all staff in Contoso Store",
+  "Channels": [
+    {
+      "displayName": "Additional store channel",
+      "IsFavoriteByDefault": false
+    }
+  ]
+}
+```

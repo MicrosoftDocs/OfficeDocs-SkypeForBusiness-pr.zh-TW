@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e009ccfb70e307e4a67f8331deabce51e229c0f
-ms.sourcegitcommit: 511238a3550ad0ff8d4bbd4600a252651ab6a654
+ms.openlocfilehash: 2cfe1c1af9fe85d307999289d318106c8ebc132a
+ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42615365"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42892293"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>適用於虛擬桌面架構的 Teams
 
@@ -142,28 +142,31 @@ Office 365 專業增強版不支援小組的每電腦安裝。 若要使用 [每
     - 每位使用者安裝（預設）
   
         ```console
-        msiexec /i <path_to_msi> /l*v <install_logfile_name>
+        msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSERS=1
         ```
-    
+
         這是預設安裝，可將團隊安裝至 [% AppData% user] （使用者）資料夾。 此時，黃金影像設定就完成了。 在非持久性設定上，小組將無法與每位使用者安裝正常運作。
-    
+
     - 每電腦安裝
 
         ```console
-        msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1
+        msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1 ALLUSERS=1
         ```
 
         這會將團隊安裝至64位作業系統上的 [程式檔案（x86）] 資料夾，以及32位作業系統上的 [程式] 資料夾。 此時，黃金影像設定就完成了。 針對非持久的安裝，必須針對每台電腦安裝團隊。
- 
+
         下次互動式登入會話會啟動團隊並要求認證。
 
-3. 從 VDI VM 卸載 MSI。 
+    > [!NOTE]
+    > 這些範例也會使用**ALLUSERS = 1**參數。 當您設定此參數時，系統會在 [控制台] 的 [程式和功能] 和 [應用程式 & Windows 設定] 中的 [應用程式] 中，顯示「團隊電腦範圍」的安裝程式。 如果有管理員認證，所有使用者都可以卸載小組。 請務必瞭解**ALLUSERS = 1**與**ALLUSER = 1**之間的差異。 **ALLUSERS = 1**參數可以在非 VDI 和 VDI 環境中使用，而**ALLUSER = 1**參數只會在 VDI 環境中用來指定每電腦安裝。
+
+3. 從 VDI VM 卸載 MSI。
 
     有兩種方式可以卸載團隊：  
   
     - PowerShell 腳本（建議使用）
-    
-    - 命令列：此方法會移除團隊，但不會重新安裝團隊。 執行下列命令：
+
+    - 命令列：
   
       ```console
       msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name>
