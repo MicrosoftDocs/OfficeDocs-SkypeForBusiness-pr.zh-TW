@@ -12,14 +12,15 @@ localization_priority: Priority
 description: 如果您沒有 Microsoft Teams 且急需要使用它，請為因應 COVID-19 (冠狀病毒) 爆發，需要從遠端工作或在家工作 (WFH) 的使用者推出 Office 365 E1 試用版。
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a99be01a1a9c59a06e4c92973187c1818d1b1a99
-ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
+ms.openlocfilehash: 62b4add4e3371604478c8a49cc6690000d699f65
+ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42795956"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42858768"
 ---
 <a name="manage-the-office-365-e1-trial"></a>管理 Office 365 E1 試用版
 ==============================
@@ -33,6 +34,9 @@ ms.locfileid: "42795956"
 ## <a name="how-to-get-an-e1-trial-license"></a>如何取得 E1 試用版授權
 
 連絡您的 Microsoft 客戶代表。 他們會提供一個促銷代碼給您，供您用來註冊取得 E1 試用版。 
+
+針對由 Microsoft 合作夥伴提供服務的組織，請與合作夥伴合作以獲得免費 6 個月的 Teams 試用版。 如果您想要與 Microsoft 合作夥伴合作，但尚未擁有合作夥伴，請移至 [Microsoft 解決方案提供者](https://www.microsoft.com/solution-providers/home)，並使用 Teams 內的專業知識搜尋合作夥伴。
+
 
 ## <a name="how-to-sign-up-for-e1"></a>如何註冊取得 E1
 
