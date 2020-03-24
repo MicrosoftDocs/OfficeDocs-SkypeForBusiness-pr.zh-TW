@@ -80,6 +80,61 @@
 | 3/13/2020 | [支援使用 Microsoft Teams 的遠端工作者](/MicrosoftTeams/support-remote-work-with-teams) | 日期 |
 
 
+## <a name="week-of-march-16-2020"></a>2020年3月16日的周
+
+
+| 發佈日期 |主題標題 | 切換 |
+|------|------------|--------|
+| 3/17/2020 | [Microsoft 團隊會議室需求](/MicrosoftTeams/rooms/requirements) | 日期 |
+| 3/17/2020 | [適用于團隊的電話和裝置](/MicrosoftTeams/teams-ip-phones) | 日期 |
+| 3/17/2020 | [使用 Power BI 來分析 Microsoft 團隊的 CQD 資料](/MicrosoftTeams/cqd-power-bi-query-templates) | 日期 |
+| 3/17/2020 | [在 Microsoft 團隊中組織團隊的最佳做法](/MicrosoftTeams/best-practices-organizing) | 日期 |
+| 3/17/2020 | [Microsoft 團隊中的聊天、團隊、頻道、& 應用程式](/MicrosoftTeams/deploy-chat-teams-channels-microsoft-teams-landing-page) | 日期 |
+| 3/17/2020 | [管理免費的 Office 365 E1 試用版](/MicrosoftTeams/e1-trial-license) | 日期 |
+| 3/17/2020 | [在 Microsoft Teams 中建立您的首批團隊和頻道](/MicrosoftTeams/get-started-with-teams-create-your-first-teams-and-channels) | 日期 |
+| 3/17/2020 | [開始使用 Teams 範本](/MicrosoftTeams/get-started-with-teams-templates) | 日期 |
+| 3/17/2020 | [支援使用 Microsoft Teams 的遠端工作者](/MicrosoftTeams/support-remote-work-with-teams) | 日期 |
+| 3/17/2020 | [政府機關、教育界和非營利組織](/MicrosoftTeams/teams-add-on-licensing/gov-edu-and-nonprofit-organizations) | 日期 |
+| 3/17/2020 | [僅限團隊的模式考慮](/MicrosoftTeams/teams-only-mode-considerations) | 日期 |
+| 3/17/2020 | [使用 Advisor for Teams (預覽) 協助您推出 Microsoft Teams](/MicrosoftTeams/use-advisor-teams-roll-out) | 日期 |
+| 3/18/2020 | [管理免費的 Office 365 E1 試用版](/MicrosoftTeams/e1-trial-license) | 日期 |
+| 3/18/2020 | [管理 Microsoft 團隊中的原則套件](/MicrosoftTeams/manage-policy-packages) | 日期 |
+| 3/18/2020 | [工具與討論會-規劃、交付及採納 Microsoft 團隊](/MicrosoftTeams/planning-workshop-practical-guide) | 日期 |
+| 3/18/2020 | [在 Power BI 中使用 CQD 資料來查看 Microsoft 團隊利用率](/MicrosoftTeams/cqd-teams-utilization-report) | 日期 |
+| 3/18/2020 | [常見問題 - 支援遠端員工](/MicrosoftTeams/faq-support-remote-workforce) | 日期 |
+| 3/18/2020 | [如何推出 Microsoft Teams](/MicrosoftTeams/how-to-roll-out-teams) | 日期 |
+| 3/18/2020 | [Microsoft 團隊的系統管理訓練](/MicrosoftTeams/itadmin-readiness) | 日期 |
+| 3/18/2020 | [Microsoft 團隊中的會議](/MicrosoftTeams/tutorial-meetings-in-teams) | 日期 |
+| 3/18/2020 | [指派 Teams 授權](/MicrosoftTeams/assign-teams-licenses) | 日期 |
+| 3/18/2020 | [Microsoft Teams 中的會議和召集會議](/MicrosoftTeams/deploy-meetings-microsoft-teams-landing-page) | 日期 |
+| 3/18/2020 | [通過直接路由認證的工作階段邊界控制器清單](/MicrosoftTeams/direct-routing-border-controllers) | 日期 |
+| 3/18/2020 | [規劃直接路由](/MicrosoftTeams/direct-routing-plan) | 日期 |
+| 3/18/2020 | [Microsoft 團隊的最終使用者訓練](/MicrosoftTeams/enduser-training) | 日期 |
+| 3/18/2020 | [管理適用於美國政府的免費 Office 365 G1 試用版](/MicrosoftTeams/g1-trial-license) | 日期 |
+| 3/18/2020 | [在中國取得 Android 版 Microsoft 團隊](/MicrosoftTeams/get-teams-android-in-china) | 日期 |
+| 3/18/2020 | [Microsoft Teams 使用者的導學型訓練與影片](/MicrosoftTeams/instructor-led-training-teams-landing-page) | 日期 |
+| 3/18/2020 | [適用於 Microsoft Teams 教育版管理員的資源](/MicrosoftTeams/remote-learning-edu) | 日期 |
+| 3/18/2020 | [支援使用 Microsoft Teams 的遠端工作者](/MicrosoftTeams/support-remote-work-with-teams) | 日期 |
+| 3/18/2020 | [在 Microsoft 團隊中管理 app 設定原則](/MicrosoftTeams/teams-app-setup-policies) | 日期 |
+| 3/18/2020 | [適用於 Microsoft Teams 教育版管理員的資源](/MicrosoftTeams/teams-edu-licensing) | 日期 |
+| 3/18/2020 | [管理 Microsoft Teams Exploratory 體驗](/MicrosoftTeams/teams-exploratory) | 日期 |
+| 3/18/2020 | [30中的團隊](/MicrosoftTeams/teams-in-30-workshops) | 日期 |
+| 3/18/2020 | [Microsoft Teams 訓練](/MicrosoftTeams/training-microsoft-teams-landing-page) | 日期 |
+| 3/19/2020 | [常見問題 - 支援遠端員工](/MicrosoftTeams/faq-support-remote-workforce) | 日期 |
+| 3/19/2020 | [支援使用 Microsoft Teams 的遠端工作者](/MicrosoftTeams/support-remote-work-with-teams) | 日期 |
+| 3/19/2020 | [將原則指派給學校中的大型使用者](/MicrosoftTeams/batch-policy-assignment-edu) | 日期 |
+| 3/19/2020 | [Teams 中的 Shifts](/MicrosoftTeams/expand-teams-across-your-org/shifts-for-teams-landing-page) | 日期 |
+| 3/20/2020 | [在零售中開始使用團隊範本](/MicrosoftTeams/get-started-with-retail-teams-templates) | 日期 |
+| 3/20/2020 | [透過 Microsoft 端點 Configuration Manager 使用 MSI 安裝 Microsoft 團隊](/MicrosoftTeams/msi-deployment) | 日期 |
+| 3/20/2020 | [適用於 Microsoft Teams 教育版管理員的資源](/MicrosoftTeams/remote-learning-edu) | 日期 |
+| 3/20/2020 | [支援使用 Microsoft Teams 的遠端工作者](/MicrosoftTeams/support-remote-work-with-teams) | 日期 |
+| 3/20/2020 | [適用於虛擬桌面架構的 Teams](/MicrosoftTeams/teams-for-vdi) | 日期 |
+| 3/20/2020 | [使用顧問進行小組（公開預覽版），協助您推出 Microsoft 團隊](/MicrosoftTeams/use-advisor-teams-roll-out) | 日期 |
+| 3/20/2020 | [建立通話佇列](/MicrosoftTeams/create-a-phone-system-call-queue) | 日期 |
+| 3/20/2020 | [通過直接路由認證的工作階段邊界控制器清單](/MicrosoftTeams/direct-routing-border-controllers) | 日期 |
+| 3/20/2020 | [管理 Microsoft Teams Exploratory 體驗](/MicrosoftTeams/teams-exploratory) | 日期 |
+
+
 ## <a name="week-of-february-17-2020"></a>2020年2月17日的周
 
 

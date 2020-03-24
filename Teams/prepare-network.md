@@ -16,18 +16,18 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 42f0ec656036849aa87d9d4e7e092f4b5d3a505f
-ms.sourcegitcommit: 4306083e7b1dc2e7a0d02b682790450934dada50
+ms.openlocfilehash: d85bb4ba32bf83d3c774a2b6700a96c7e35dcb2a
+ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "42639460"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42935240"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>針對 Microsoft Teams 準備組織的網路 
 
 ## <a name="network-requirements"></a>網路需求
 
-如果您已經針對[Office 365 優化您的網路](https://docs.microsoft.com/Office365/Enterprise/assessing-network-connectivity)，您可能已經準備好開始進行 Microsoft 團隊。 在任何情況下，請先檢查下列專案，然後再開始進行團隊推出：
+如果您已經針對[Office 365 優化您的網路](https://docs.microsoft.com/Office365/Enterprise/assessing-network-connectivity)，您可能已經準備好開始進行 Microsoft 團隊。 在任何情況下，特別是如果您是在第一個 Office 365 工作負載中快速推出團隊以支援**遠端工作人員**，請先檢查下列專案，然後再開始進行團隊推出：
 
 1.  您所有的位置都有網際網路存取權（讓他們可以連線到 Office 365）嗎？ 除了標準的網路流量之外，請確定您已針對團隊中的媒體開啟下列專案（適用于所有位置）：
 
