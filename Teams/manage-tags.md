@@ -16,17 +16,14 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何在 Microsoft 團隊中管理組織中使用標記的方式。
-ms.openlocfilehash: 5da1d1549e6171656b0065036819be0fac450759
-ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
+ms.openlocfilehash: cd2c2e69054923ccf287f35a15fcebb870d6a5d5
+ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "42551040"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42928446"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>管理 Microsoft 團隊中的標記
-
-> [!NOTE]
-> 在 Microsoft 團隊系統管理中心中還沒看到這項功能嗎？ 目前正在推出，您的組織可能無法使用。 若要維持在即將到來的小組功能上，請參閱[Microsoft 365 藍圖](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams)。
 
 Microsoft 團隊中的標記可讓使用者與團隊中的人員子集進行通訊。 您可以將標籤新增至一或多個小組成員，輕鬆地與正確的人員子集連線。 小組擁有者和成員（如果已為他們啟用功能）可以在人員中新增一或多個標記。 然後，您就可以 @mentions 使用這些標籤，讓團隊中的任何人都能使用這些標籤，或只與已分派該標記的人員開始交談。
 
