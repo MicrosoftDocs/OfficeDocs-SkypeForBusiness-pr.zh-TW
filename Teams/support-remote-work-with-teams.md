@@ -15,12 +15,12 @@ search.appverid: MET150
 description: 使用本指導方針來協助組織中的遠端工作者使用 Microsoft Teams 來提高生產力，尤其是當他們在家中工作 (WFH) 時，以因應 COVID-19 (冠狀病毒) 爆發的情況。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 85fc97c801495c05a4b5a8f68fe508ef7a7b08af
-ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
+ms.openlocfilehash: 844aef84633c767131b60158e634b0f6f3fe1cd2
+ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42892333"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42928406"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>支援使用 Microsoft Teams 的遠端工作者
 
@@ -77,6 +77,8 @@ ms.locfileid: "42892333"
 
    - 有限的頻寬會影響 Teams 會議中的音訊品質。 為了確保在低頻寬條件下的最佳會議體驗，請鼓勵使用者限制視訊通話，並對通話和會議音訊使用 PSTN。 
 
+   - 請閱讀這篇及時的部落格 (2020 年 3 月 6 日)，[如何快速優化遠端員工的 Office 365 流量，並降低基礎結構負載](https://techcommunity.microsoft.com/t5/office-365-blog/how-to-quickly-optimize-office-365-traffic-for-remote-staff-amp/ba-p/1214571) (英文)。
+   
    - 如果您在中國，請參閱 [Office 365 針對中國使用者的全域租用戶效能最佳化](https://docs.microsoft.com/Office365/Enterprise/office-365-networking-china)。
 
    - 如果您需要協助有關通話或會議品質的疑難排解或問題修正，請遵循本文最下方的[已知問題 - 中國：撥入商務用 Skype 或 Teams 會議識別碼](#known-issue---china-dialing-into-skype-for-business-or-teams-conference-ids)中的指導方針。

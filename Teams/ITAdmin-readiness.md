@@ -19,12 +19,12 @@ ms.custom:
 description: 針對系統管理員如何規劃、部署及執行 Microsoft 團隊的訓練影片、PowerPoint 卡座、教學課程及其他資源。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 217f099fb773d3f8468e214c2e1e9ef33990d816
-ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
+ms.openlocfilehash: 2794891da78e8b8028bc18d82715a27d5c2eb78d
+ms.sourcegitcommit: 613665c866f6fd0febfa6e26ad718241cdfbb207
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42858338"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42937607"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Microsoft 團隊的系統管理訓練
 
@@ -105,7 +105,7 @@ ms.locfileid: "42858338"
 | 動態緊急通話 | [顯示器](https://aka.ms/teams-dec) |  [文稿](https://aka.ms/teams-dec-deck) |
 | 即時事件 | [顯示器](https://aka.ms/teams-live-events-session) | [文稿](https://aka.ms/teams-live-events-deck) |
 | 電話系統簡介 | [顯示器](https://aka.ms/teams-phone-system) | [文稿](https://aka.ms/teams-phone-system-deck) |
-| 直接路由 | [顯示器](https://aka.ms/teams-direct-routing) | [文稿](https://aka.ms/teams-direct-routing-deck) |
+| 直接路由 | [影片1：規劃直接在小組中傳送](https://aka.ms/teams-dr-plan)<br>[影片2：在團隊中設定和管理直接路由](https://aka.ms/teams-dr-config)<br>影片3：在團隊中進行直接路由的遷移：即將<strong><font color="#4B53BC">推出！</font></strong>  | [文稿](https://aka.ms/teams-direct-routing-deck) |
 | 從商務用 Skype 升級至 Teams | [影片1：升級簡介](https://aka.ms/teams-upgrade-intro)</br>[影片2：規劃升級](https://aka.ms/teams-upgrade-plan)</br>[影片3：共存與互通性](https://aka.ms/teams-upgrade-coexistence-interop)</br>[影片4：管理員體驗](https://aka.ms/teams-upgrade-admin) | [文稿](https://aka.ms/teams-upgrade-deck)|
 
 <h2>快速入門手冊</h2>
