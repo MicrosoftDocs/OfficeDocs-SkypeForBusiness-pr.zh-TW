@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9587244483bf220324a24396e5719843ba0ebc3c
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 8fe24de92f46b5850edc9fe6631bb02a03be8bcb
+ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834793"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42928256"
 ---
 # <a name="welcome-to-microsoft-teams"></a>歡迎使用 Microsoft Teams
 如果您是組織中 Microsoft Teams 的系統管理員，那您便是正確的人選。 當您準備好開始使用 Teams 時，請從[如何推出 Teams](How-to-roll-out-teams.md) 開始。
@@ -59,18 +59,23 @@ Teams 的建置基礎為 Office 365 群組、Microsoft Graph，以及與其餘 O
 
 ## <a name="managing-teams"></a>管理 Teams
 
-身為系統管理員的您，將透過 Microsoft Teams 系統管理中心來管理 Teams。 若要深入了解：
+身為系統管理員的您，將透過 Microsoft Teams 系統管理中心來管理 Teams。 若要快速方針介紹，請觀看使用 Teams 系統管理中心管理 Teams 影片 (3:03 分鐘)：
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE476Yi]
+
+若要深入了解：
+
 - [使用 Teams 系統管理員角色來管理 Teams](using-admin-roles.md)
 - [在 Teams 系統管理中心管理 Teams](manage-teams-skypeforbusiness-admin-center.md)
 - [在轉換至新 Teams 系統管理中心期間管理 Teams](manage-teams-in-modern-portal.md)
 - [在 Office 365 組織中管理 Teams 功能](enable-features-office-365.md)
 
-若要掌握 Teams 和組織中所有其他 Office 365 產品和服務即將推出的內容，請務必檢查[訊息中心](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter)和 [Teams 藍圖](https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters=Microsoft%20Teams%26searchterms=microsoft%2Cteams)。 您會收到有關新功能和更新功能、計劃的變更和問題的公告，以協助您了解並做好準備。 
+若要掌握 Teams 和組織中所有其他 Office 365 產品和服務即將推出的內容，請務必查看[訊息中心](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter)和 [Teams 藍圖](https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters=Microsoft%20Teams%26searchterms=microsoft%2Cteams)。 您會收到有關新功能和更新功能、計劃的變更和問題的公告，以協助您了解並做好準備。 
 
 ## <a name="upgrade-from-skype-for-business-to-teams"></a>從商務用 Skype 升級至 Teams
 Teams 是 Office 365 中智慧通訊的主要用戶端，最終會取代商務用 Skype Online。 若要掌握 Teams 即將推出的新功能，請參閱 [Microsoft 365 藍圖](https://aka.ms/O365Roadmap)。 為了補足持續聊天和傳訊的功能，Teams 提供了全面性的會議和通話體驗，包括內建完全整合的語音和視訊。 請查看 Microsoft Teams 部落格中的 [Teams 現在是完整的會議和通話解決方案](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-is-now-a-complete-meeting-and-calling-solution/ba-p/236042)。
 
-如果您是執行商務用 Skype 且準備好要升級為 Teams，或是並行執行商務用 Skype 和 Teams 且準備好要完全移至 Teams，我們有工具、秘訣和指導方針可協助您順利轉換。 若要深入了解，請參閱[升級至 Teams](upgrade-start-here.md)。
+如果您是執行商務用 Skype 且準備好要升級為 Teams，或是並存執行商務用 Skype 和 Teams 且準備好要完全移至 Teams，我們有工具、秘訣和指導方針可協助您順利轉換。 若要深入了解，請參閱[升級至 Teams](upgrade-start-here.md)。
 
 ## <a name="teamwork-and-office-365"></a>團隊工作與 Office 365
 每個團隊都是不同的；針對共同作業，沒有一體適用的方法。 Office 365 的設計可滿足每個團隊的獨特需求，讓人員能夠透過專門建置且整合的應用程式來進行通訊、共同作業，並實現更多功能。
