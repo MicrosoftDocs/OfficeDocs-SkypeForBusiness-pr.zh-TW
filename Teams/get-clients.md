@@ -1,5 +1,5 @@
 ---
-title: 為 Microsoft 團隊取得用戶端
+title: 取得 Microsoft Teams 用戶端
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -11,7 +11,7 @@ ms.collection:
 ms.reviewer: harij, rafarhi
 localization_priority: Normal
 search.appverid: MET150
-description: 瞭解如何使用 Microsoft 團隊提供的各種用戶端，包括 web、桌面（Windows 和 Mac），以及行動裝置（Android 與 iOS）。
+description: 了解如何使用各種適用 Microsoft Teams 的用戶端，包括 Web、桌面 (Windows 和 Mac) 以及行動裝置 (Android 和 iOS)。
 f1.keywords:
 - CSH
 ms.custom:
@@ -20,120 +20,120 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: e423bedc05dbbf303ecfdbf569ff9e1b096bd3d7
 ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 02/28/2020
 ms.locfileid: "42327835"
 ---
-# <a name="get-clients-for-microsoft-teams"></a>為 Microsoft 團隊取得用戶端 
+# <a name="get-clients-for-microsoft-teams"></a>取得 Microsoft Teams 用戶端 
 
 
-Microsoft 團隊擁有適用于桌面（Windows、Mac 和 Linux）、web 和 mobile （Android 和 iOS）的用戶端。 這些用戶端都需要使用中的網際網路連線，而且不支援離線模式。
+Microsoft Teams 具有適用於 Web、桌面 (Windows、Mac 和 Linux) 及行動裝置 (Android 和 iOS) 的用戶端。 這些用戶端都需要使用有效的網際網路連線，且並不支援離線模式。
 
 > [!NOTE]
-> 2018年11月29日，您將無法再使用 microsoft 網上商店提供的 Windows 10 S （預覽版） app Microsoft 團隊。 您現在可以改為在執行 Windows 10 S 模式的裝置上下載並安裝小組桌面用戶端。 若要下載桌面用戶端，請[https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754)移至。 在執行 Windows 10 S 模式的裝置上，不提供團隊桌面用戶端的 MSI 組建。
+> 2018 年 11 月 29 日起，您將無法再使用 Microsoft Store 提供的 Windows 10 S 版 Microsoft Teams (預覽版) 應用程式。 但是您現在可以在執行 Windows 10 S 模式的裝置上，下載並安裝 Teams 桌面版用戶端。 若要下載桌面版用戶端，請移至 [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754)。 Teams 桌面版用戶端的 MSI 組建尚不適用於執行 Windows 10 S 模式的裝置。
 >
-> 如需 Windows 10 S 模式的詳細資訊，請參閱[在 S 模式中簡介 Windows 10](https://www.microsoft.com/windows/s-mode)。 
+> 如需有關 Windows 10 S 模式的詳細資訊，請參閱[引進 Windows 10 S 模式](https://www.microsoft.com/windows/s-mode)。 
 
-## <a name="desktop-client"></a>桌面用戶端
+## <a name="desktop-client"></a>桌面版用戶端
 
 > [!TIP]
-> 請觀看下列會話，瞭解 Windows 桌面用戶端的優點、如何規劃它，以及如何部署：[團隊 Windows 桌面用戶端](https://aka.ms/teams-clients)
+> 請觀看下列工作階段，以了解 Windows 桌面版用戶端的優點、規劃方式及部署方式：[Teams 的 Windows 桌面版用戶端](https://aka.ms/teams-clients)
 
-Microsoft 團隊桌面用戶端是獨立的應用程式，也[可在 Office 365 專業增強版中](https://docs.microsoft.com/deployoffice/teams-install)取得。 團隊適用于32和64位版本的 Windows （8.1 或更新版本）及 Windows Server （2012 R2 或更新版本），以及 macOS （10.10 或更新版本）及 Linux （在與`.deb` `.rpm`格式中）。 在 Windows 上，小組需要 .NET Framework 4.5 或更新版本;如果您沒有，團隊安裝程式將會提供將它安裝給您的人員。 在 Linux 上，套件管理員（ `apt`例如`yum` ）會嘗試為您安裝任何需求。 不過，如果不是這樣，在 Linux 上安裝小組之前，您將需要安裝任何已報告的需求。
+Microsoft Teams 桌面版用戶端是獨立的應用程式，並且[可用於 Office 365 專業增強版](https://docs.microsoft.com/deployoffice/teams-install)。 Teams 適用於 32 位元和 64 位元版本的 Windows (8.1 或更新版本) 及 Windows Server (2012 R2 或更新版本)，也適用於 macOS (10.10 或更新版本) 及 Linux (`.deb` 和 `.rpm` 格式)。 在 Windows 上，Teams 需要 .NET Framework 4.5 或更新版本；如果您沒有此元件，Teams 安裝程式將會為您安裝。 在 Linux 上，套件管理員 (例如 `apt` 和 `yum`) 會嘗試為您安裝任何需求。 不過，如果套件管理員沒有這麼做，您必須先安裝所有回報的需求，然後再安裝 Linux 版 Teams。
 
-桌面用戶端可為小組會議、群組通話和私人一對一通話提供即時通訊支援（音訊、影片和內容共用）。
+桌面版用戶端提供即時通訊支援 (音訊、視訊和內容共用)，可用於進行小組會議、群組通話和個人的一對一通話。
 
-如果使用者具有適當的本地許可權（在 PC 上安裝[https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754)團隊用戶端但在 Mac 上是必要的系統管理員許可權），則使用者可以直接從桌面用戶端下載並安裝。
+如果終端使用者擁有適當的本機權限 (在 PC 上安裝 Teams 用戶端不需要系統管理員權限，但在 Mac 上安裝則需要系統管理員權限)，他們可以直接從 [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) 下載和安裝桌面版用戶端。
 
-IT 管理員可以選擇其慣用的方法，將安裝檔案分發給組織中的電腦。 一些範例包括 Microsoft 端點建構管理員（Windows）或 Jamf Pro （macOS）。 若要取得適用于 Windows 發佈的 MSI 套件，請參閱[使用 MSI 安裝 Microsoft 團隊](msi-deployment.md)。  
-
-> [!NOTE]
-> 透過這些機制發佈用戶端只適用于 Microsoft 團隊用戶端的初始安裝，不適用於未來的更新。
-
-### <a name="windows"></a>時間
-
-Windows 版 Microsoft 團隊安裝會提供32位與64位架構中的可下載的安裝程式。
+IT 系統管理員可以選擇其偏好的方式，將安裝檔案發佈到組織中的電腦。 例如 Microsoft Endpoint Configuration Manager (Windows) 或 Jamf Pro (macOS)。 若要取得 Windows 發行版本的 MSI 套件，請參閱[使用 MSI 安裝 Microsoft Teams](msi-deployment.md)。  
 
 > [!NOTE]
-> Microsoft 團隊的架構（32位與64位）不可知是已安裝的 Windows 與 Office 體系結構。
+> 透過這些機制發佈的用戶端只適用於一開始的 Microsoft Team 用戶端安裝，不適用於未來的更新。
 
-Windows 用戶端會部署至位於使用者設定檔中的 [AppData] 資料夾。 部署到使用者的本機設定檔後，就能在不需要提升許可權的情況下安裝用戶端。 Windows 用戶端會利用下列位置：
+### <a name="windows"></a>Windows
 
-- % LocalAppData%\\Microsoft\\團隊
-
-- % LocalAppData%\\Microsoft\\TeamsMeetingAddin
-
-- % AppData%\\Microsoft\\團隊
-
-- % LocalAppData%\\SquirrelTemp
-
-當使用者第一次使用 Microsoft 團隊用戶端啟動通話時，可能會注意到 Windows 防火牆設定要求使用者允許通訊的警告。 使用者可能會指示您略過這封郵件，因為通話會起作用，即使關閉警告也一樣。
-
-![[Windows 安全性警報] 對話方塊的螢幕擷取畫面。](media/Get_clients_for_Microsoft_Teams_image3.png)
+適用於 Windows 的 Microsoft Teams 安裝會提供 32 位元和 64 位元架構的可下載安裝程式。
 
 > [!NOTE]
-> 您也可以在關閉提示時選取 [取消] 來變更 Windows 防火牆設定。 針對 TCP 和 UDP 通訊協定，會建立兩個針對團隊 .exe 的入站規則。
+> Microsoft Teams 的架構 (32 位元和 64 位元) 並不受限於已安裝的 Windows 和 Office 架構。
 
-### <a name="mac"></a>版
+Windows 用戶端會部署至使用者設定檔中的 [AppData] 資料夾。 部署至使用者的本機設定檔中，即可在不需要提高權限的情況下安裝用戶端。 Windows 用戶端會利用下列位置：
 
-Mac 使用者可以使用 INSTALLER.PKG 安裝檔 macOS 電腦來安裝團隊。 必須具備系統管理存取權才能安裝 Mac 用戶端。 MacOS 用戶端已安裝至 [/Applications] 資料夾。
+- %LocalAppData%\\Microsoft\\Teams
 
-#### <a name="install-teams-by-using-the-pkg-file"></a>使用 INSTALLER.PKG 檔案安裝團隊
+- %LocalAppData%\\Microsoft\\TeamsMeetingAddin
 
-1. 從 [[團隊下載] 頁面](https://teams.microsoft.com/downloads)的 [ **Mac**] 底下，按一下 [**下載**]。
-2. 按兩下 INSTALLER.PKG 檔案。
-3. 依照安裝精靈完成安裝。
-4. 團隊將會安裝至/Applications 資料夾。 這是整個電腦的安裝。
+- %AppData%\\Microsoft\\Teams
 
-> [!NOTE]
-> 在安裝期間，INSTALLER.PKG 會提示您輸入管理員認證。 無論使用者是否為系統管理員，使用者都必須輸入管理員認證。
+- %LocalAppData%\\SquirrelTemp
 
-如果使用者目前已安裝 .DMG 的團隊，而想要將它取代為 INSTALLER.PKG 安裝，使用者應該：
+使用者第一次使用 Microsoft Teams 用戶端進行通話時，可能會注意到要求使用者允許通訊的 Windows 防火牆設定警告。 系統可能會指示使用者忽略這則訊息，因為即使忽略警告，您仍然能進行通話。
 
-1. 結束團隊 app。
-2. 卸載 [團隊] 應用程式。
-3. 安裝 INSTALLER.PKG 檔案。
-
-IT 管理員可以使用小組的 managed 部署來將安裝檔案發佈到其組織中的所有 Mac，例如 Jamf Pro。
+![Windows 安全性警示對話方塊的螢幕擷取畫面。](media/Get_clients_for_Microsoft_Teams_image3.png)
 
 > [!NOTE]
-> 如果您在安裝 INSTALLER.PKG 時遇到問題，請告訴我們。 在本文結尾的 [**意見**反應] 區段中，按一下 [**產品意見**反應]。
+> 即使您選取「取消」來忽略提示，Windows 防火牆設定仍會變更。 針對 TCP 和 UDP 通訊協定，系統會為 teams.exe 建立包含封鎖動作的兩個輸入規則。
+
+### <a name="mac"></a>Mac
+
+Mac 使用者可以使用 macOS 電腦的 PKG 安裝檔來安裝 Teams。 安裝 Mac 用戶端必須具備系統管理存取權。 MacOS 用戶端會安裝至 /Applications 資料夾。
+
+#### <a name="install-teams-by-using-the-pkg-file"></a>使用 PKG 檔案來安裝 Teams
+
+1. 在 **Mac**底下的 [Teams 下載頁面](https://teams.microsoft.com/downloads)中，按一下 [下載]****。
+2. 按兩下 PKG 檔案。
+3. 遵循安裝精靈來完成安裝。
+4. Teams 將會安裝到 /Applications 資料夾。 這是全機器安裝。
+
+> [!NOTE]
+> 在安裝期間，PKG 會提示您輸入系統管理員認證。 無論使用者是否為系統管理員，使用者都需要輸入系統管理員認證。
+
+如果使用者目前已具有 Teams 的 DMG 安裝，但想要將其取代為 PKG 安裝，使用者應該：
+
+1. 結束 Teams 應用程式。
+2. 取消安裝 Teams 應用程式。
+3. 安裝 PKG 檔案。
+
+IT 系統管理員可以使用 Teams 的受控部署，將安裝檔案發佈到其組織中的所有 Mac，例如 Jamf Pro。
+
+> [!NOTE]
+> 如果您在安裝 PKG 時遇到問題，請告訴我們。 請在本文結尾的**意見反應**一節中，按一下 [產品意見反應]****。
 
 ### <a name="linux"></a>Linux
 
-使用者將能夠安裝原生 Linux 套件`.deb`及`.rpm`格式。
-安裝 DEB 或 RPM 套件時會自動安裝套件儲存庫
-- DEB`https://packages.microsoft.com/repos/ms-teams stable main`
-- RPM`https://packages.microsoft.com/yumrepos/ms-teams` 
+使用者能夠安裝 `.deb` 和 `.rpm` 格式的原生 Linux 套件。
+安裝 DEB 或 RPM 套件時會自動安裝套件存放庫
+- DEB `https://packages.microsoft.com/repos/ms-teams stable main`
+- RPM `https://packages.microsoft.com/yumrepos/ms-teams` 
 
-使用系統的套件管理員來啟用自動更新的簽名金鑰會自動安裝。 不過，您也可以在以下網址找到：https://packages.microsoft.com/keys/microsoft.asc)（。 Microsoft 團隊每月都會隨附，而且如果儲存庫已正確安裝，系統套件管理員就會以與系統中其他套件相同的方式處理自動更新。
+使用系統套件管理員來啟用自動更新所需的簽署金鑰也會自動安裝。 不過，也可以在以下位置找到：(https://packages.microsoft.com/keys/microsoft.asc)。 Microsoft Teams 會每月傳送，而且如果存放庫安裝正確，則系統套件管理員會使用與系統中其他套件相同的方式處理自動更新。
 
 > [!NOTE] 
-> 如果您發現錯誤，請使用`Report a Problem`用戶端中的 [從] 進行提交。 如有已知問題，請參閱[已知問題](Known-issues.md)。
-> 對於 Linux 版團隊支援，您可以使用[Microsoft Q&的 Linux 論壇支援頻道](https://docs.microsoft.com/answers/topics/teams.html)。 在張貼問題時， `teams-linux`請務必使用標記。 
+> 如果您發現錯誤，請使用用戶端內部的 `Report a Problem` 提交錯誤。 如需已知問題，請參閱[已知問題](Known-issues.md)。
+> 如需適用於 Teams 的 Linux 支援，您可以使用 [Microsoft Q&A 上的 Linux 論壇支援頻道](https://docs.microsoft.com/answers/topics/teams.html)。 請務必在張貼問題時使用 `teams-linux` 標籤。 
 
-#### <a name="install-teams-using-deb-package"></a>使用 DEB 套件安裝團隊
+#### <a name="install-teams-using-deb-package"></a>使用 DEB 套件安裝 Teams
 
-1. 從https://aka.ms/getteams下載套件。
-2. 使用下列其中一項進行安裝：  
-    - 開啟相關的套件管理工具，並完成自行引導的 Linux app 安裝程式。
-    - 或者，如果您喜歡 [終端]，請輸入：`sudo apt install **teams download file**`
+1. 從 https://aka.ms/getteams 下載套件。
+2. 利用下列其中一個選項進行安裝：  
+    - 開啟相關套件管理工具，並進行自助式 Linux 應用程式安裝程序。
+    - 或者，如果您喜歡終端機，請輸入：`sudo apt install **teams download file**`
 
-您可以透過 [活動] 或 [透過終端] `Teams`啟動小組，只要輸入即可。 
+您可以輸入 `Teams`，以透過活動或終端機來啟動 Teams。 
 
-#### <a name="install-teams-using-rpm-package"></a>使用 RPM 套件安裝團隊
+#### <a name="install-teams-using-rpm-package"></a>使用 RPM 套件來安裝 Teams
 
-1. 從https://aka.ms/getteams下載套件。
-2. 使用下列其中一項進行安裝：
-    - 開啟相關的套件管理工具，並完成自行引導的 Linux app 安裝程式。
-    - 或者，如果您喜歡 [終端]，請輸入：`sudo yum install **teams download file**`
+1. 從 https://aka.ms/getteams 下載套件。
+2. 利用下列其中一個選項進行安裝：
+    - 開啟相關套件管理工具，並進行自助式 Linux 應用程式安裝程序。
+    - 或者，如果您喜歡終端機，請輸入： `sudo yum install **teams download file**`
 
-您可以透過 [活動] 或 [透過終端] `Teams`啟動小組，只要輸入即可。
+您可以輸入 `Teams`，以透過活動或終端機來啟動 Teams。
 
 #### <a name="install-manually-from-the-command-line"></a>從命令列手動安裝
 
-在 Debian 和 Ubuntu 發行時手動安裝：
+在 Debian 和 Ubuntu 發行版本上手動安裝：
 ```
 curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
  
@@ -143,7 +143,7 @@ sudo apt update
 sudo apt install teams
 ```
 
-在 RHEL、Fedora 和 CentOS 的發佈上手動安裝：
+在 RHEL、Fedora 和 CentOS 發行版本中手動安裝：
 ```
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
  
@@ -153,13 +153,13 @@ sudo dnf check-update
 sudo dnf install teams
 ```
 
-或者，若要使用 yum 而不是 dnf：
+或者，若要使用 yum (而不是 dnf)：
 ```
 yum check-update
 sudo yum install teams
 ```
 
-在 openSUSE 的發佈上手動安裝：
+在 openSUSE 發行版本上手動安裝：
 ```
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
  
@@ -171,52 +171,52 @@ sudo zypper install teams
 
 ## <a name="web-client"></a>Web 用戶端 
 
-Web 用戶端（[https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)）是一種完整的功能用戶端，可在各種不同的瀏覽器中使用。 網頁用戶端支援使用 webRTC 進行通話與會議，因此在網頁瀏覽器中不需要使用外掛程式或下載來執行團隊。 瀏覽器必須設定為允許協力廠商 cookie。 
+Web 用戶端 ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) 是功能完整的用戶端，可在多種瀏覽器中使用。 Web 用戶端使用 webRTC 來支援通話和會議，因此不需要外掛程式或任何下載，即可在網頁瀏覽器中執行 Teams。 瀏覽器必須設定為允許第三方 Cookie。 
 
 [!INCLUDE [browser-support](includes/browser-support.md)]
 
-網頁用戶端會在連線時執行瀏覽器[https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)版本檢測。 如果偵測到不受支援的瀏覽器版本，它會封鎖網頁介面的存取權，並建議使用者下載桌面用戶端或行動裝置 app。
+Web 用戶端會在連線至 [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753) 時執行瀏覽器版本偵測。 如果偵測到不受支援的瀏覽器版本，則會封鎖 Web 介面的存取權，並建議使用者下載桌面版用戶端或行動裝置應用程式。
 
-## <a name="mobile-clients"></a>行動用戶端
+## <a name="mobile-clients"></a>行動裝置用戶端
 
-Microsoft 團隊行動應用程式適用于 Android 和 iOS，且適用于參與聊天交談和允許對等音訊通話的使用者。 若是行動裝置應用程式，請移至相關的行動裝置商店 [Google Play] 和 [Apple App Store]。 Windows Phone 應用程式已于2018年7月20日停用，可能無法再運作。 
+Microsoft Teams 行動裝置應用程式適用於 Android 和 iOS，可讓使用者在任何地方參與聊天式對話，並且允許對等音訊通話。 若需行動裝置應用程式，請移至相關的行動裝置商店：Google Play 和 Apple App Store。 Windows Phone 應用程式已於 2018 年 7 月 20 日停用，已不再適用。 
 
-在中國，以下說明如何[取得 Android 版團隊](get-teams-android-in-china.md)。 
+以下說明如何在中國[取得 Android 版 Teams](get-teams-android-in-china.md)。 
 
-Microsoft 團隊行動裝置 app 支援的行動平臺如下：
+Microsoft Teams 行動裝置應用程式支援的行動平台如下：
 
--   **Android**：支援僅限最新四個 Android 主要版本。 發行新的 Android 主要版本時，正式支援新版本及前三個版本。
+-   **Android**：僅支援 Android 最新的四個主要版本。 發行新的 Android 主要版本時，此新版本和前三個版本都可受到正式支援。
 
--   **iOS**：支援僅限於 ios 的兩個最新主要版本。 發行新版 iOS 的新主要版本時，系統會正式支援新版 iOS 和舊版本。
+-   **iOS**：僅支援 iOS 最新的兩個主要版本。 發行新的 iOS 主要版本時，此新版 iOS 和前一版本都可受到正式支援。
 
 > [!NOTE]
-> 行動裝置版必須提供給公眾，小組才能如期運作。
+> 為了讓 Teams 正常運作，您必須公開使用行動裝置版本。
 
-行動應用程式只會透過各個行動平臺的 app store 進行散佈與更新。 Microsoft 不支援透過 MDM 或側載來傳播行動應用程式。 在支援的行動平臺上安裝行動應用程式後，如果版本在目前發行的三個月內，就會支援小組行動應用程式本身。
+行動裝置應用程式只可透過各別行動平台的應用程式商店來發行及更新。 Microsoft 不支援透過 MDM 或側載來發行行動裝置應用程式。 當行動裝置應用程式安裝在支援的行動裝置平台上之後，在目前版本發行後的三個月內，該版本仍能支援 Teams 行動裝置應用程式本身。
 
 
 | | | |
 |---------|---------|---------|
-|![描述決策點的圖示](media/Get_clients_for_Microsoft_Teams_image4.png)      |決策點         |是否有任何限制讓使用者在他們的裝置上安裝適當的 Microsoft 團隊用戶端？         |
-|![描繪後續步驟的圖示](media/Get_clients_for_Microsoft_Teams_image5.png)     |後續步驟         |如果您的組織限制軟體安裝，請確定此程式與 Microsoft 團隊相容。 注意：電腦用戶端安裝不需要系統管理員許可權，但在 Mac 上安裝則是必要的。         |
+|![描繪決策點的圖示](media/Get_clients_for_Microsoft_Teams_image4.png)      |決策點         |是否有任何限制會讓使用者無法在其裝置上安裝適當的 Microsoft Teams 用戶端？         |
+|![描繪後續步驟的圖示](media/Get_clients_for_Microsoft_Teams_image5.png)     |後續步驟         |如果您的組織限制軟體安裝，請確認該程序與 Microsoft Teams 相容。 附註：PC 版用戶端安裝程式不需要系統管理員權限，但這在 Mac 上安裝時是必要的權限。         |
 
 ## <a name="client-update-management"></a>用戶端更新管理
 
-用戶端目前會自動由 Microsoft 團隊服務更新，不需要 IT 管理員干預。 如果有可用的更新，用戶端會自動下載更新，當 app 在一段時間內有 idled 時，更新程式就會開始。
+用戶端目前由 Microsoft Teams 服務自動更新，無需 IT 系統管理員介入。 一旦有可用的更新，用戶端就會自動下載更新，並且會在應用程式已閒置一段時間後，開始更新程序。
 
 ## <a name="client-side-configurations"></a>用戶端設定
 
-目前，沒有任何受支援的選項可用來透過租使用者管理員、PowerShell、群組原則物件或登錄設定用戶端。
+目前，沒有支援的選項可供您透過租用戶系統管理員、PowerShell、群組原則物件或登錄來設定用戶端。
 
 ## <a name="notification-settings"></a>通知設定
 
-目前沒有可供 IT 系統管理員設定用戶端通知設定的選項。 所有通知選項都是由使用者設定。 下圖概述預設用戶端設定。
+目前沒有可供 IT 系統管理員設定用戶端通知設定的選項。 所有通知選項皆由使用者設定。 下圖概述預設的用戶端設定。
 
 ![通知設定的螢幕擷取畫面。](media/Get_clients_for_Microsoft_Teams_image6.png)
 
-## <a name="sample-powershell-script"></a>範例 PowerShell 腳本
+## <a name="sample-powershell-script"></a>PowerShell 指令碼範例
 
-這個範例腳本（需要在已提升許可權的管理員帳戶的內容中執行用戶端電腦）會針對在 c:\users. 中找到的每個使用者資料夾，建立新的入站防火牆規則。 當團隊找到這個規則時，會防止團隊應用程式在使用者第一次從小組通話時提示使用者建立防火牆規則。 
+此指令碼範例必須在系統管理員帳戶權限已提升的用戶端電腦上執行，才能為 c:\users 中的每個使用者資料夾建立新的輸入防火牆規則。 當 Teams 找到此規則時，該規則會防止 Teams 應用程式在使用者第一次從 Teams 進行通話時，提示使用者建立防火牆規則。 
 
 ```powershell
 <#

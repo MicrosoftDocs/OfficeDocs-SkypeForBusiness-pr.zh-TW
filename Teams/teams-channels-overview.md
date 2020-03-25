@@ -1,5 +1,5 @@
 ---
-title: Microsoft 團隊中的團隊和頻道概覽
+title: Microsoft Teams 中的團隊和頻道概覽
 author: LolaJacobsen
 ms.author: lolaj
 ms.reviewer: ''
@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-description: 瞭解可供多種需求（例如財務、活動規劃、銷售等）的各種團隊、頻道和應用程式。
+description: 了解應用於各種需求 (例如財務、活動規劃和銷售等) 的不同團隊、頻道和應用程式。
 localization_priority: Normal
 f1.keywords:
 - CSH
@@ -19,92 +19,92 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 4cf14616d4cfa2abc2caa99aee052b30e902172d
 ms.sourcegitcommit: 769241842058cfb4618460fad2dde1494a3609a1
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/10/2020
 ms.locfileid: "42574020"
 ---
-# <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft 團隊中的團隊和頻道概覽
+# <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams 中的團隊和頻道概覽
 
 > [!NOTE]
-> 請複習下列資訊，瞭解團隊中的聊天、團隊、頻道、& 應用程式。 然後，移至 [[聊天]、[團隊]、[頻道]、& [團隊] 中的應用程式](deploy-chat-teams-channels-microsoft-teams-landing-page.md)，逐步引導您團隊推出的重要決策清單。
+> 請檢閱下列資訊以了解 Teams 中的聊天、團隊、頻道和應用程式。 然後，移至 [Teams 中的聊天、團隊、頻道和應用程式](deploy-chat-teams-channels-microsoft-teams-landing-page.md)，逐步完成您首次使用 Teams 時的重要決策清單。
 
-現在就讓我們來看看 Microsoft 團隊如何允許個別團隊在商務案例間自行組織及共同作業：
+讓我們先來了解 Microsoft Teams 如何讓個別團隊在商務案例之間自我組織及共同作業：
 
-- **團隊**是組織內不同專案和結果的人員、內容和工具集合。
+- **Teams** 是與組織內不同專案和結果有關的人員、內容和工具的集合。
 
-    - 只有受邀的使用者才能建立團隊私人。
-    - 小組也可以建立為公開及開啟，組織中的任何人都可以加入（最多5000個成員）。
+    - Teams 可以建立為只有受邀使用者才可加入的形式。
+    - Teams 也可以建立為公開形式，組織內的任何人都可以加入 (最多 5,000 個成員)。
     
-    小組的設計目的是將一組人集中在一起，共同完成工作。 小組可以是動態的專案工作（例如，啟動產品、建立數位 war 房間），以及進行中的工作，以反映貴組織的內部結構（例如部門與辦公室位置）。 團隊頻道中的交談、檔案和筆記只會顯示在小組成員中。
+    設計團隊的目的是聚集一群人，讓他們以密切合作的方式來完成工作。 專案型工作 (例如啟動產品、建立數位戰情室) 的團隊可以是動態且持續性的，以反映組織的內部結構 (例如部門和辦公室位置)。 團隊中的聊天、檔案和記事只會對團隊成員顯示。
 
-- **頻道**是團隊內的專用區段，可讓交談依特定主題、專案、學科來組織，任何適合您團隊的交談！ 您在頻道中共用的檔案（在 [檔案] 索引標籤上）會儲存在 SharePoint 中。 若要深入瞭解，請參閱[SharePoint Online 與商務用 OneDrive 與團隊互動的方式](SharePoint-OneDrive-interact.md)。
+- **頻道**是團隊內的專用區段，可依據特定主題、專案或訓練等適合團隊的分類來讓交談保持在井然有序的狀態中！ 您在頻道中共用的檔案 (位於 [檔案] 索引標籤上) 會儲存在 SharePoint 中。 如需詳細資訊，請參閱 [SharePoint Online 和商務用 OneDrive 如何與 Teams 互動](SharePoint-OneDrive-interact.md)。
 
-    - 頻道是在進行交談的位置，以及實際完成工作的位置。 頻道可以開啟給所有團隊成員，或者如果您需要更多選取的物件，則可以是私人的。 標準頻道適用于小組中的每個人都可以參與的交談，而[私人頻道](private-channels.md)則限制與團隊中的人員子集進行通訊。
-    - 當您使用包括索引標籤、連接器和 bot 的應用程式（可將其值增加至團隊成員）來延伸時，通道最有價值。 若要深入瞭解，請參閱[小組中的 app、bot、& 連接器](deploy-apps-microsoft-teams-landing-page.md)。
+    - 頻道是指交談發生的位置，以及實際完成工作的位置。 您可以為所有團隊成員開啟頻道，或將頻道設為私人頻道 (如果您需要挑選對象)。 標準頻道是團隊中每個人都可參與的頻道，而[私人頻道](private-channels.md)會限制僅與團隊內一小群人員交談。
+    - 頻道若以包含索引標籤、連接器和 Bot 的應用程式進行擴充，則其對於團隊成員的作用，將最具價值。 若要深入了解，請參閱 [Teams 中的應用程式、Bot 和連接器](deploy-apps-microsoft-teams-landing-page.md)。
     
 如需使用團隊和頻道的說明，請參閱[團隊和頻道](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499)。
 
-若要深入瞭解建立小組和頻道的最佳做法，請觀看這段短片。
+若要深入了解建立團隊和頻道的最佳做法，請觀看這段短片。
 
    > [!VIDEO https://www.youtube.com/embed/WkAVgNKn0hs]
 
 <a name="membership-roles-and-settings"></a>成員資格、角色和設定
 ------------------------------
 
-**小組成員資格**
+**團隊成員資格**
 
-針對您的整個組織啟用 Microsoft 團隊後，指定的小組擁有者可以邀請其共同作業的任何員工加入其小組。 Microsoft 團隊可讓小組擁有者根據自己的名稱，輕鬆地在組織中新增人員。 根據貴組織的 [設定]，而不是組織外部的小組成員，您也可以新增至您的小組。 如需詳細資訊，請參閱[Microsoft 團隊中的來賓存取權](guest-access.md)。 
+為您的整個組織啟用 Microsoft Teams 時，指定的團隊擁有者可以邀請與他們共同作業的任何員工加入其團隊。 Microsoft Teams 可讓團隊擁有者根據姓名輕鬆地在組織中新增人員。 視組織的設定而定，您也可以將屬於團隊成員但位在組織外部的來賓新增至您的團隊。 如需詳細資訊，請參閱 [Microsoft Teams 中的來賓存取](guest-access.md)。 
 
-小組擁有者也可以根據現有的 Office 365 群組建立小組。 對群組所做的任何變更，都會自動與 Microsoft 團隊同步處理。 根據現有的 Office 365 群組建立小組，不僅可簡化邀請與管理成員的程式，還能同步處理 Microsoft 團隊內的群組檔案。
+團隊擁有者也可以根據現有的 Office 365 群組建立團隊。 對群組所做的任何變更都會自動與 Microsoft Teams 同步。 根據現有的 Office 365 群組建立團隊不僅能簡化邀請和管理成員的程序，還能同步 Microsoft Team 內的群組檔案。
 
-**小組角色**
+**團隊角色**
 
-Microsoft 團隊中有兩個主要角色： 
+Microsoft Teams 中的主要角色如下： 
 
-- **小組擁有**者-建立小組的人員。 小組擁有者可以讓其小組中的任何成員成為共同擁有者，當他們邀請給小組或在他們加入小組之後的任何時刻。 擁有多個小組擁有者可讓您分享管理設定和成員資格的責任，包括邀請。
-- **小組成員**-擁有者邀請加入其小組的人員。
+- **團隊擁有者** - 建立團隊的人員。 團隊擁有者可以在邀請人員加入團隊時，或在人員加入團隊之後的任何時間點，讓團隊成員成為共同擁有者。 擁有多個團隊擁有者，表示您能將管理設定和成員資格的責任 (包括邀請) 由其他人分擔。
+- **團隊成員** - 擁有者邀請加入其團隊的人員。
 
-此外，如果已設定 [裁決]，小組擁有者和成員可以擁有頻道的仲裁者功能。 版主可以在頻道中開始新的文章，並控制小組成員是否可以回復現有的頻道訊息。 小組擁有者可以在頻道內指派版主。 （小組擁有者預設具有仲裁者的功能）。頻道內的仲裁者可以在該頻道中新增或移除其他仲裁者。 如需詳細資訊，請參閱[在 Microsoft 團隊中設定和管理 [頻道裁決](manage-channel-moderation-in-teams.md)]。
+此外，如果已設定仲裁功能，則團隊擁有者和成員都可以有頻道的仲裁者功能。 仲裁者可在頻道中開始新的文章，並控制團隊成員是否可以回覆現有的頻道訊息。 團隊擁有者可以在頻道內指派仲裁者。 (頻道擁有者會預設為具有仲裁者功能。) 頻道內的仲裁者可以新增或移除該頻道中的其他仲裁者。 如需詳細資訊，請參閱[在 Microsoft Teams 中設定和管理頻道仲裁](manage-channel-moderation-in-teams.md)。
 
 **團隊設定** 
 
-小組擁有者可以直接在 Microsoft 團隊中管理整個小組的設定。 [設定] 包括新增小組圖片、在小組成員中設定標準及[專用頻道](private-channels.md)的許可權，以及新增索引標籤和連接器、@mentioning 整個團隊或頻道，以及 gif、貼紙及 meme 的使用方式。
+團隊擁有者可以直接在 Microsoft Teams 中管理整個團隊內的設定。 設定包括新增團隊圖片、設定團隊成員的權限以建立標準和 [私人頻道](private-channels.md)、新增索引標籤和連接器、以 @ 提及整個團隊或頻道，以及使用 Gif、貼紙和 Meme。
 
-請花三分鐘的時間來查看適用于小組擁有者的此引導式影片：
+請花三分鐘觀看專為團隊擁有者準備的指南：
 
    > [!VIDEO https://www.youtube.com/embed/kalV4dG-oFo]
 
-如果您是 Office 365 中的 Microsoft 團隊管理員，您可以在 Microsoft 團隊系統管理中心中存取全系統的設定。 這些設定會影響 [團隊設定] 底下的選項和預設團隊擁有者。 例如，您可以為小組內的宣告、討論和資源啟用預設頻道 [一般]，這些專案會顯示在所有團隊中。
+如果您是 Office 365 中的 Microsoft Teams 系統管理員，您可以在 Microsoft Teams 系統管理中心中存取全系統的設定。 這些設定可以影響團隊擁有者可在其團隊設定底下看到的選項和預設值。 例如，您可以啟用預設的「一般」頻道，在整個團隊中發佈公告、進行討論和提供資源，這些都會顯示在所有團隊中。
 
-根據預設，所有使用者都有權在 Microsoft 團隊中建立小組（若要修改此專案，請參閱[在團隊中指派角色和許可權](assign-roles-permissions.md)。 現有 Office 365 群組的使用者也可以利用團隊功能加強其許可權。
+根據預設，所有使用者都有權在 Microsoft Teams 內建立團隊 (若要修改此設定，請參閱[在 Teams 中指派角色和權限](assign-roles-permissions.md))。 現有 Office 365 群組的使用者也可以使用 Teams 功能來加強其權限。
 
-讓使用者與 Microsoft 團隊共同合作的一個重要規劃活動，可協助人們思考並瞭解團隊可以如何在日常生活中加強共同作業。 與人員交談，並協助他們選取目前以零碎方式共同作業的商業案例。 在頻道中使用相關的索引標籤將這些索引標籤放在一起，以協助其完成工作。 小組其中一個最強大的使用案例就是任何跨組織的處理常式。 
+為了讓使用者與 Microsoft Teams 接觸而建立早期規劃活動的其中一個重點是，這可協助使用者思考並了解 Teams 可如何加強他們日常生活中的共同作業。 藉由與其他人交談，協助他們選取目前以零碎方式進行共同作業的商務案例。 透過相關索引標籤將他們聚集在頻道中，以協助他們完成工作。 Teams 最強的使用案例之一就是任何跨組織的程序。 
 
-<a name="example-teams"></a>小組範例
+<a name="example-teams"></a>團隊範例
 --------------
 
-以下是幾個可供不同類型的使用者使用的範例，這些範例說明如何設定其小組、頻道和應用程式（索引標籤/連接器/bot）。 這對於協助開始與您的使用者群體進行有關 Microsoft 團隊的交談可能很有用。 當您想瞭解如何在貴組織中實現 Microsoft 團隊時，請記住，您可以提供如何建立其小組結構的指導方針;不過，使用者可以自行控制自己的組織方式。 以下只是協助讓團隊開始思考所需可能性的範例。
+以下幾個實用案例可說明不同類型的使用者可如何設定其團隊、頻道和應用程式 (索引標籤/連接器/Bot)。 這可能有助於您與您的使用者社群開始一個有關 Microsoft Teams 的交談。 當您思考如何在您組織中實作 Microsoft Teams 時，請記住，您可以提供如何建構團隊的指導方針，不過，使用者可以自行控制管理方式。 這些只是協助團隊開始思考可能性的範例。
 
-Microsoft 團隊非常適合用來細分組織小倉庫並宣傳跨職能團隊，因此鼓勵您的使用者思考功能團隊，而不是組織界限。
+Microsoft Teams 非常適合用來打破組織中的隔閡，以及建立跨功能性的團隊，因此，請鼓勵您的使用者考慮建立打破組織界限的功能性團隊。
 
-|團隊類型  |可能的頻道  |應用程式（索引標籤 ![使用索引標籤描述資料夾的圖示](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image2.png)/Connectors ![描述連接區塊的圖示](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image3.png)/Bots ![描述小機器人自動機的圖示](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image4.png))  |
+|團隊類型  |潛在頻道  |應用程式 (索引標籤 ![描述資料夾及索引標籤的圖示](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image2.png)/連接器 ![描述連接區塊的圖示](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image3.png)/Bot ![描述小機器人的圖示](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image4.png))  |
 |---------|---------|---------|
-|客戶     |年度銷售會議<br></br> 季度業務回顧<br></br> 每月銷售管線回顧<br></br> 銷售行動手冊 |Power BI<br></br>Trello<br></br>關係<br></br>摘要 Bot         |
-|公用關係     |新聞發佈<br></br>新聞與更新<br></br>事實檢查         |RSS 摘要<br></br>Twitter         |
-|活動規劃     |發展<br></br>物流與排程<br></br>地點<br></br>預算         |Twitter<br></br>Facebook<br></br>員<br></br>PDF         |
-|行銷/移至市場   |市場研究<br></br>訊息支柱<br></br>溝通方案<br></br>行銷物料清單        |YouTube<br></br>Microsoft Stream<br></br>Twitter<br></br>MailChimp         |
-|技術作業    |事件管理<br></br>衝刺規劃<br></br>工作專案<br></br>基礎結構和作業         |小組服務<br></br>Jira<br></br>AzureBot         |
-|產品小組      |策略<br></br>發展<br></br>客戶<br></br>作業<br></br>深入<br></br>服務 & 支援         |Power BI<br></br>小組服務         |
-|財務    |目前會計<br></br>年度規劃<br></br>預測<br></br>應收帳款<br></br>應付帳款         |Power BI<br></br>Google Analytics         |
-|細節     |倉庫作業<br></br>機動車維護<br></br>驅動程式 Rosters         |天氣服務<br></br>出差/路上中斷<br></br>員<br></br>Tubot<br></br>UPS Bot         |
-|部門     |人才管理<br></br>招聘<br></br>效能審查規劃<br></br>士氣         |HR 工具<br></br>外部作業張貼網站<br></br>Growbot         |
-|跨組織 <br></br>虛擬小組 |策略<br></br>工作力開發<br></br>爭用 & 研究         |Power BI<br></br>Microsoft Stream         |
+|銷售     |年度銷售會議<br></br> 季度業務審查<br></br> 每月銷售漏斗審查<br></br> 銷售手冊 |Power BI<br></br>Trello<br></br>CRM<br></br>摘要 Bot         |
+|公共關系     |新聞稿<br></br>新聞和更新<br></br>事實查核         |RSS 摘要<br></br>Twitter         |
+|活動計劃     |行銷<br></br>物流和排程<br></br>場地<br></br>預算         |Twitter<br></br>Facebook<br></br>Planner<br></br>PDF         |
+|行銷/進入市場   |市場研究<br></br>訊息支柱 (Messaging Pillars)<br></br>通訊方案<br></br>行銷物料單        |YouTube<br></br>Microsoft Stream<br></br>Twitter<br></br>MailChimp         |
+|技術操作    |事件管理<br></br>短期衝刺計劃<br></br>工作項目<br></br>基礎結構和運營         |團隊服務<br></br>Jira<br></br>AzureBot         |
+|產品團隊      |策略<br></br>行銷<br></br>銷售<br></br>營運<br></br>深入解析<br></br>服務與支援         |Power BI<br></br>團隊服務         |
+|財務    |目前財務<br></br>財務年度規劃<br></br>預測<br></br>應收帳款<br></br>應付帳款         |Power BI<br></br>Google Analytics         |
+|物流     |倉儲營運<br></br>交通工具維護<br></br>司機名冊         |氣象服務<br></br>旅行/道路中斷<br></br>Planner<br></br>Tubot<br></br>UPS Bot         |
+|人力資源     |人才管理<br></br>招募<br></br>績效審查規劃<br></br>士氣         |人力資源工具<br></br>外部工作張貼網站<br></br>Growbot         |
+|跨組織 <br></br>虛擬團隊 |策略<br></br>工作力開發<br></br>競爭及研究         |Power BI<br></br>Microsoft Stream         |
 
-您可以建立與組織結構相符的小組。 這適用于想要推動士氣的領導人、進行小組專用的審查、澄清員工加入流程、討論工作力方案，以及增加不同員工的知名度。  
+您可以建立與組織結構一致的團隊。 領導者最適合使用此服務來推動士氣、進行團隊特定審查、闡明員工報到流程、討論工作力計畫，以及提高多樣化人力的可見度。  
 
-![在 Microsoft 團隊中組織的小組和頻道階層圖。](media/overview-of-teams-and-channels-image1.png)
+![由 Microsoft Teams 組織的團隊和頻道階層圖。](media/overview-of-teams-and-channels-image1.png)
 
 ## <a name="org-wide-teams"></a>全組織團隊
 
-如果貴組織的使用者不超過5000，您可以建立組織範圍的小組。 組織範圍的團隊會提供自動方法，讓組織中的每個人都成為單一小組共同作業的一部分。 如需詳細資訊（包括建立及管理組織內小組的最佳做法），請參閱[在 Microsoft 團隊中建立組織範圍的小組](create-an-org-wide-team.md)。
+如果您組織的使用者不到 5000 人，您可以建立全組織團隊。 全組織團隊提供自動化方式，讓組織中的每個人都成為單一團隊的一部分來進行共同作業。 如需詳細資訊 (包括建立及管理組織內團隊的最佳做法)，請參閱[在 Microsoft Teams 中建立全組織團隊](create-an-org-wide-team.md)。

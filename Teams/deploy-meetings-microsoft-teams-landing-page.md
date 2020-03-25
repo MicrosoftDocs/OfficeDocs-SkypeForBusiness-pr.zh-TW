@@ -12,16 +12,17 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_RemoteWorkers
 localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 77a935041cd0cdcb35a28e315ab48eadf6263273
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 00dab47ce695d542dcd9b7a30a1b289d0a804dea
+ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826881"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42858592"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Microsoft Teams 中的會議和召集會議
 
@@ -46,7 +47,7 @@ Teams 為您的組織提供絕佳的現成體驗，而大部分組織認為預�
 
 若要獲得 Teams 的最佳體驗，組織必須已部署 Exchange Online 和 SharePoint Online，並且必須具有 O365 經驗證的網域，例如 *contoso.com*。
 
-若要將會議擴及整個組織，您應確保所有使用者位置都擁有網際網路存取權，可連線至 Office 365 服務。 您應至少確保已從使用者的位置將下列常見連接埠對網際網路開放：
+若要將會議擴及整個組織，您應確保所有使用者位置都擁有網際網路存取權，可連線至 Office 365 服務。 您應至少確保已從使用者的位置，將下列常見連接埠設為對網際網路開放：
 
 - 從將使用 Teams 的用戶端傳出的 TCP 連接埠 80 和 443
 - 從將使用 Teams 的用戶端傳出的 UDP 連接埠 3478 到 3481

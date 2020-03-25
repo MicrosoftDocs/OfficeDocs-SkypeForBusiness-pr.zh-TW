@@ -17,27 +17,27 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 851c661a2a75a3dfe82212b896041ddd2516c678
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 51ca2d8b6723be408adaaa53499efed2338a1f73
+ms.sourcegitcommit: 7455ae664d0e2d2915557764b26d8c8f1bf92a96
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824831"
+ms.lasthandoff: 03/25/2020
+ms.locfileid: "42945903"
 ---
 # <a name="create-and-license-business-voice-users-and-assign-them-phone-numbers"></a>建立及授權商務語音使用者，並指派電話號碼給使用者
 
-若要使用 :::no-loc text="Microsoft 365 Business Voice":::，您需要具備 :::no-loc text="Microsoft 365 Business Voice with SMS"::: 授權的 :::no-loc text="Microsoft 365"::: 帳戶。 具備帳戶和授權後，您就可以為其指派電話號碼。
+若要使用 :::no-loc text="Microsoft 365 Business Voice":::，您需要具備 :::no-loc text="Microsoft 365 Business Voice"::: 授權的 :::no-loc text="Microsoft 365"::: 帳戶。 具備帳戶和授權後，您就可以為其指派電話號碼。
 
 ## <a name="create-and-license-users"></a>建立並授權使用者
 
 按照[個別或大量將使用者新增至 :::no-loc text="Office 365":::](https://docs.microsoft.com/office365/admin/add-users/add-users) 中的步驟。
 
 > [!NOTE]
-> 在 **[指派產品授權]** 窗格中，選取 **:::no-loc text="Microsoft 365 Business Voice with SMS":::**。
+> 在 **[指派產品授權]** 窗格中，選取 **:::no-loc text="Microsoft 365 Business Voice":::**。
 
 ## <a name="assign-phone-numbers-to-users"></a>將電話號碼指派給使用者
 
-建立使用者並指派 :::no-loc text="Microsoft 365 Business Voice with SMS"::: 授權後，您就可以為其指派電話號碼。 針對需要撥打或接聽外部電話號碼的使用者，每位使用者皆需要一個未指派的電話號碼。 如果您未指派的電話號碼不夠，請參閱本文稍後的[取得更多電話號碼](#get-more-phone-numbers)。
+建立使用者並指派 :::no-loc text="Microsoft 365 Business Voice"::: 授權後，您就可以為其指派電話號碼。 針對需要撥打或接聽外部電話號碼的使用者，每位使用者皆需要一個未指派的電話號碼。 如果您未指派的電話號碼不夠，請參閱本文稍後的[取得更多電話號碼](#get-more-phone-numbers)。
 
 1. 移至https://admin.teams.microsoft.com。
 2. 輸入電話號碼要求的名稱和描述。
