@@ -17,15 +17,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b60b0e5f0972d862ec1b945f1b267b04faae9a8a
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: d5470d9ec2ec2d22d8f3b66bac09ba6c67b9982f
+ms.sourcegitcommit: 0549714f17f9994cf832a303ec9bc58a537c3a51
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41833253"
+ms.lasthandoff: 03/25/2020
+ms.locfileid: "42951498"
 ---
 <a name="microsoft-teams-guest-access-checklist"></a>Microsoft 團隊來賓存取檢查清單
-==========================================
+=========================================
 
 使用此檢查清單可協助您開啟並設定 Microsoft 團隊中的來賓存取權。 您必須是全域系統管理員或團隊管理員，才能進行這些變更。
 
@@ -46,7 +46,7 @@ ms.locfileid: "41833253"
     ![螢幕擷取畫面顯示 [團隊設定] 切換開關的範例](media/guest-access-checklist-set-up-guests-image1.png)
 
 3. 在此相同頁面上，開啟或關閉來賓的**通話**、**會議**和**訊息**設定。
-4. 按一下 [**儲存**]。
+4. 按一下 [儲存]****。
 
 > [!TIP]
 > 如果您使用的是 Azure Active Directory、SharePoint Online 和 Office 365 群組中的預設設定，您可能已完成來賓存取。 在這種情況下，您可以略過其餘的步驟。 如果您不確定，或者您使用的是 AAD、SharePoint Online 或 Office 365 群組的自訂設定，請繼續執行此檢查清單中的其餘步驟。
