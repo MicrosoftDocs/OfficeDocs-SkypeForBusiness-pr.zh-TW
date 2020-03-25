@@ -12,17 +12,18 @@ ms.service: msteams
 localization_priority: Priority
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_RemoteWorkers
 search.appverid: MET150
 f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6efdbb15ce4a9bcd5a3691a5fa9a9a82d0b7cd5f
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: dc47eee83c9347613d37d2e808f0c434b7ba9750
+ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837643"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42858728"
 ---
 # <a name="microsoft-teams-training"></a>Microsoft Teams 訓練
 
@@ -98,13 +99,26 @@ ms.locfileid: "41837643"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
+                        <h3>支援遠端工作者</h3>
+                         <p><a href="https://aka.ms/TeamsForRemoteWork">取得您所需的指導方針 (包括訓練的連結)，以支援在家中工作的使用者。</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+        <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
                         <h3>適用於 IT 的 Teams 基本資訊。</h3>
                          <p><a href="https://aka.ms/MicrosoftTeamsforIT">Microsoft 機械的「適用於 Teams」視訊系列為您 (系統管理員) 顯示如何推出、設定及管理 Teams 的方法。</a></p>
                     </div>
                 </div>
             </div>
         </div>
-    </li><li>
+    </li>
+    <li>
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">

@@ -37,6 +37,7 @@
 ## [團隊的動態成員資格概觀](dynamic-memberships.md)
 ## [在 Teams 中組織團隊的最佳做法](best-practices-organizing.md)
 ## [在 Teams 中建立全組織團隊](create-an-org-wide-team.md)
+## [建立人員管理團隊](create-manager-directs-teams.md)
 ## [管理團隊和頻道原則](teams-policies.md)
 ## [適用於 Teams 的敏感度標籤](sensitivity-labels.md)
 ## [在 Teams 中管理私人團隊的探索](manage-discovery-of-private-teams.md)
