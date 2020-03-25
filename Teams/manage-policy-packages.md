@@ -18,12 +18,12 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何在 Microsoft 團隊中使用及管理原則套件。
-ms.openlocfilehash: d7c0ded990225b969579f50ea5f87a32efebe388
-ms.sourcegitcommit: 54cbcf917d9663e6aa9760d7399b36c00d66478c
+ms.openlocfilehash: a2c2ecf22529c4f16b992f349b29ccaf0ad48b0d
+ms.sourcegitcommit: 613665c866f6fd0febfa6e26ad718241cdfbb207
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42857992"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42942445"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>管理 Microsoft 團隊中的原則套件
 
@@ -45,7 +45,8 @@ Microsoft 團隊中的原則套件是預先定義的原則與原則設定的集�
 |教育版（主要學校學生）   |建立適用于主要學生的一組原則與原則設定。|
 |教育版（副學校學生）    |建立一組可套用至副學生的原則與原則設定。         |
 |教育版（教師）    |建立適用于教師的一組原則與原則設定。      |
-|商務語音 |建立應用程式設定原則，其中包含商務語音體驗的 app。|
+|中小型企業使用者（商務語音） |建立應用程式設定原則，其中包含商務語音體驗的 app。|
+|中小型企業使用者（無需商務用語音） |此原則套件的設計目的是建立一組原則，並將這些設定套用到中小型企業使用者，不含任何商務語音功能。|
 |公開安全官員   |建立一組原則與原則設定，適用于貴組織中的公用安全主管。|
 |醫療保健（臨床員工）  |建立一組原則與原則設定，提供臨床工人（例如註冊的護士、充電護士、醫生和社會員工）完整存取聊天、通話、值班管理和會議。 |
 |醫療保健（資訊工作者）  |建立一組原則與原則設定，以提供資訊工作者，例如 IT 人員、informatics 員工、財務人員及合規性監察官，完整存取聊天、通話及會議。|
@@ -84,7 +85,7 @@ Microsoft 團隊中的原則套件是預先定義的原則與原則設定的集�
 
 #### <a name="assign-a-policy-package-to-one-user"></a>指派原則套件給一個使用者
 
-1. 在 Microsoft 團隊系統管理中心的左導覽中，前往 [**使用者**]，然後按一下使用者。
+1. 在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至 [使用者]****，然後按一下該使用者。
 2. 在使用者的頁面上，按一下 [**原則**]，然後按一下 [**原則封裝**] 旁的 [**編輯**]。
 3. 在 [**指派原則套件**] 窗格中，選取您要指派的套件，然後按一下 [**儲存**]。
 
@@ -92,7 +93,7 @@ Microsoft 團隊中的原則套件是預先定義的原則與原則設定的集�
 
 1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**原則套件**]，然後按一下套件名稱左邊的 [原則]，選取您要指派的原則套件。
 2. 按一下 [**管理使用者**]。
-3. 在 [**管理使用者**] 窗格中，依 [顯示名稱] 或 [使用者名稱] 搜尋使用者，選取名稱，然後按一下 [**新增**]。 針對您要新增的每個使用者重複此步驟。
+3. 在 [管理使用者]**** 窗格中，依顯示名稱或使用者名稱搜尋使用者，選取名稱，然後按一下 [新增]****。 針對要新增的每一個使用者重複此步驟。
 4. 完成新增使用者後，請按一下 [**儲存**]。
 
 ### <a name="customize-policies-in-a-policy-package"></a>在原則套件中自訂策略

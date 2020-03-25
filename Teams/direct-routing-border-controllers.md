@@ -1,7 +1,7 @@
 ---
 title: 通過直接路由認證的工作階段邊界控制器清單
 ms.author: crowe
-ms.reviewer: NMuravlyannikov
+ms.reviewer: FilippSe
 author: CarolynRowe
 manager: serdars
 audience: ITPro
@@ -17,12 +17,12 @@ hideEdit: true
 f1.keywords:
 - NOCSH
 description: Microsoft 合作夥伴與所選的 SBC 廠商合作，利用直接佈線來認證其 SBCs。
-ms.openlocfilehash: c956fad4e18e4bfb2e97ccbc04ed776a967affc7
-ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
+ms.openlocfilehash: e7831abf7a5d522afd05c3fd178e6acda04772e3
+ms.sourcegitcommit: 43e8960ef091d9e206f22eb7ffef9d6e84756335
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/24/2020
-ms.locfileid: "42928416"
+ms.locfileid: "42939617"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>通過直接路由認證的工作階段邊界控制器清單
 
@@ -62,15 +62,15 @@ Microsoft 與各個廠商搭配：
 |                                                                                                                     |      SBC 2000       |     &#10004;     |   &#10004;   |     8.0.3 （組建537）     |  <ul> <li>[頻寬動態位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li> Intrado ERS </li> <li>Intrado EGW </li> <li> 紅天空地平線行動 </li> </ul>   |     &#10004;     |    
 |                                                                                                                     |    SBC SWe Lite     |     &#10004;     |  &#10004;    |      8.0.3 （組建216）    |  <ul> <li> [頻寬動態位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li> Intrado ERS </li> <li>Intrado EGW </li> <li> 紅天空地平線行動 </li> </ul>    |     &#10004;     |   
 | | EdgeMarc 數列 |  &#10004; | | 15.6.1 | 
-|                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    思考 365 SBC    |     &#10004;     |        擱置   |       V 1。4       |     |    |    
+|                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    思考 365 SBC    |     &#10004;     |        擱置   |       1.4       |     |    |    
 |                     [聯手](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 1100      |    &#10004;     |    &#10004;    |   8.3.0.0.1 |   <ul> <li> [頻寬動態位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>Intrado ERS </li> <li>Intrado EGW</li> <li> 紅天空地平線行動 </li>  </ul>   |  &#10004;  |    
 |                                                                                                                    |    AP 3900           |    &#10004;     |    &#10004;   |   8.3.0.0.1  |  <ul> <li> [頻寬動態位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>Intrado ERS </li> <li>Intrado EGW</li> <li> 紅天空地平線行動 </li>  </ul>  |  &#10004;  |    
 |                                                                                                                    |      AP 4600         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |  <ul> <li> [頻寬動態位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>Intrado ERS </li> <li>Intrado EGW</li> <li> 紅天空地平線行動 </li>  </ul>  |  &#10004;  |    
 |                                                                                                                    |      AP 6300         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |  <ul> <li> [頻寬動態位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>Intrado ERS </li> <li>Intrado EGW</li> <li> 紅天空地平線行動 </li>  </ul>   |  &#10004;  |    
 |                                                                                                                   |      AP 6350           |    &#10004;   |    &#10004;    |     8.3.0.0.1  |   <ul> <li> [頻寬動態位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>Intrado ERS </li> <li>Intrado EGW</li> <li> 紅天空地平線行動 </li>  </ul>  |  &#10004;  |                                            
 |                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   <ul> <li> [頻寬動態位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>Intrado ERS </li> <li>Intrado EGW</li> <li> 紅天空地平線行動 </li>  </ul>  |  &#10004;  |    
-|                     [TE-系統](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      v 3.16。2      |     |    |    
-
+|                     [TE-系統](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      3.16.2      |     |    |    
+|                     [Metaswitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     Perimeta SBC        |     &#10004;   |  |      4.7      |     |    |    
 
 下表列出在直接路由和類比裝置之間驗證互通性的裝置。
 
