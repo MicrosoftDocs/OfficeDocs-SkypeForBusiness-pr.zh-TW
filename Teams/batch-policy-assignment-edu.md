@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何使用批次原則指派將原則指派給教育機構中的大型使用者，以供遠端學校（teleschool、tele 學校）使用。
 f1keywords: ''
-ms.openlocfilehash: 5e3ee25bf4fadea595fc224b2944a12c279f9c59
-ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
+ms.openlocfilehash: 7e297b6a4b99162fb50564d4f552a06f0dc41a10
+ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42892273"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42978515"
 ---
 # <a name="assign-policies-to-large-sets-of-users-in-your-school"></a>將原則指派給學校中的大型使用者
 
@@ -161,7 +161,7 @@ Get-CsUserPolicyAssignment -Identity hannah@contoso.com
 
 ## <a name="faq"></a>常見問題集
 
-**我想要確認學生、員工和教職員的所有使用者都能自動取得指派的授權。我該怎麼做？**
+**我想要確認學生、員工和教職員的所有使用者都已自動取得指派的原則。我該怎麼做？**
 
 [小組] 產品小組正在進行工作，以支援指派原則至安全性群組。 此時，您就可以為學生和教師建立群組，然後為這些群組建立適當的原則。 請注意，明確的使用者指派（例如您使用本教學課程所指派的原則）會覆寫從群組繼承的原則。 支援此功能時，我們將提供更多關於如何將原則指派給群組並更新使用者的指示，以確保他們取得繼承的群組原則。
 

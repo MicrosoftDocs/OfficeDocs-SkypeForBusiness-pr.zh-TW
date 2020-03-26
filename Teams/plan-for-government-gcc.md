@@ -17,16 +17,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a1b97e82edd97079c1e4615e5bb7fcf4a1eb2fea
-ms.sourcegitcommit: b6eb22e96be5fb18984f1dd05e4eb8f2cfc032f6
+ms.openlocfilehash: 97f7987d450b5a7b1fc23c39ed1e96ee0f953ae9
+ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/26/2020
-ms.locfileid: "42968658"
+ms.locfileid: "42978505"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>規劃 Microsoft 365 政府版-GCC 部署
 
-本指導方針適用于在美國聯邦、州、當地、tribal 或 territorial 政府機構中的 Office 365 部署，或其他處理受限於政府法規與需求之資料的其他實體，這些專業人員使用 Microsoft365政府-GCC 適用于符合這些需求。
+本指導方針適用于在美國聯邦、州、當地、tribal 或 territorial 政府機構中的 Office 365 部署，或其他處理受限於政府法規與需求之資料的其他實體，這些專業人員使用 Microsoft365政府-GCC 適用于符合這些需求。 新的2020年3月26日：請不要錯過我們可下載[的適用于 GCC 的快速入門手冊](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Quick-Start-Guide-for-GCC.pdf?raw=true)。
 
 > [!IMPORTANT]
 > Microsoft 團隊在進行線上通話和音訊/視訊會議時，會因為 coronavirus （COVID-19） pandemic 而遭遇大量的高峰。<br/>
@@ -35,7 +35,7 @@ ms.locfileid: "42968658"
 > 
 >這些音訊/視訊伺服器位於 Microsoft Azure FedRAMP 在美國的高資格鑒定邊界伺服器內，且不會儲存任何客戶內容。 不過，這些伺服器正在處理通話與會議的音訊和視頻，且在這段期間內是在我們的商業員工中運作。<br/>
 > 
->經確認，已遮罩的人員會透過審查這些伺服器的任何互動式登入，來監視這些伺服器以取得客戶資料的潛在存取權。 合格的人員符合您存取客戶內容的 GCC 需求。 如需有關篩選需求的詳細資訊，請參閱[GCC 服務描述](Office365-ServiceDescriptions\office-365-platform-service-description\office-365-us-government\gcc.md)。<br/>
+>經確認，已遮罩的人員會透過審查這些伺服器的任何互動式登入，來監視這些伺服器以取得客戶資料的潛在存取權。 合格的人員符合您存取客戶內容的 GCC 需求。 如需有關篩選需求的詳細資訊，請參閱[GCC 服務描述](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc)。<br/>
 > 
 >感謝您的支援人員，因為我們採取步驟來確保我們的服務在這些特別時間內保持可用且可靠。<br/>
 

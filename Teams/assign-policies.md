@@ -16,17 +16,17 @@ localization_priority: Normal
 search.appverid: MET150
 description: 瞭解在 Microsoft 團隊中將原則指派給使用者的不同方式。
 f1keywords: ''
-ms.openlocfilehash: 0f0ce566eb395e3bf3722149797908599091bc2a
-ms.sourcegitcommit: 891ba3670ccd16bf72adee5a5f82978dc144b9c1
+ms.openlocfilehash: a3946ab7296603822655ac115ae5826f3f670cea
+ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42691193"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42978525"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>在 Microsoft 團隊中將原則指派給使用者
 
 > [!NOTE]
-> **本文中討論的 Microsoft 團隊功能之一，是 [[群組] 的原則指派](#assign-a-policy-to-a-group)，目前在預覽中。**
+> **本文中討論的其中一個 Microsoft 團隊功能，目前僅提供有限預覽中的[原則指派給群組](#assign-a-policy-to-a-group)。此功能的 Powershell Cmdlet 位於預發行團隊 PowerShell 模組中。**
 
 身為系統管理員，您可以使用原則來控制貴組織中的使用者可以使用的小組功能。 例如，有一些通話原則、會議原則和訊息原則，只會為您命名。
 
@@ -77,8 +77,8 @@ ms.locfileid: "42691193"
 
 若要將原則指派給使用者：
 
-1. 在 Microsoft 團隊系統管理中心的左導覽中，前往 [**使用者**]，然後按一下使用者。
-2. 按一下使用者名稱左邊的，然後按一下 [**編輯設定**]，選取使用者。
+1. 在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至 [使用者]****，然後按一下該使用者。
+2. 按一下使用者名稱左方以選取使用者，然後按一下 [編輯設定]****。
 3. 選取您要指派的原則，**然後按一下 [** 套用]。
 
 若要一次指派一項原則給20位使用者，請參閱[大量編輯團隊使用者設定](edit-user-settings-in-bulk.md)。
@@ -87,8 +87,8 @@ ms.locfileid: "42691193"
 
 1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [原則] 頁面。
 2. 按一下原則名稱左邊的，選取您要指派的原則。
-3. 選取 [**管理使用者**]。
-4. 在 [**管理使用者**] 窗格中，依 [顯示名稱] 或 [使用者名稱] 搜尋使用者，選取名稱，然後選取 [**新增**]。 針對您要新增的每個使用者重複此步驟。
+3. 選取 [管理使用者]****。
+4. 在 [**管理使用者**] 窗格中，依 [顯示名稱] 或 [使用者名稱] 搜尋使用者，選取名稱，然後選取 [**新增**]。 針對要新增的每一個使用者重複此步驟。
 5. 完成新增使用者後，請選取 [**儲存**]。
 
 ### <a name="using-powershell"></a>使用 PowerShell
@@ -197,7 +197,7 @@ Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367
 
 ## <a name="assign-a-policy-to-a-group"></a>指派原則給群組
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
+**目前僅在有限預覽中提供群組的原則指派。此功能的 Cmdlet 位於預發行團隊 PowerShell 模組中。**
 
 [群組原則指派] 可讓您將原則指派給使用者群組，例如安全性群組或組織單位。 原則指派會根據優先順序規則傳播到群組的成員。 在群組中新增或移除成員時，系統會據此更新其繼承的原則分派。
 
@@ -304,7 +304,7 @@ Get-CsGroupPolicyAssignment -PolicyType TeamsMeetingPolicy
 
 |組名  |原則名稱  |排名|
 |---------|---------|---------|
-|客戶    |銷售原則       | 1        |
+|銷售    |銷售原則       | 1        |
 |西部地區     |西部地區原則         |pplx-2         |
 |除以    |部門原則         |3         |
 |附屬   |附屬原則        |4         |
@@ -313,7 +313,7 @@ Get-CsGroupPolicyAssignment -PolicyType TeamsMeetingPolicy
 
 |組名  |原則名稱  |排名|
 |---------|---------|---------|
-|客戶    |銷售原則       | 1        |
+|銷售    |銷售原則       | 1        |
 |除以    |部門原則         |pplx-2         |
 |附屬   |附屬原則        |3        |
 

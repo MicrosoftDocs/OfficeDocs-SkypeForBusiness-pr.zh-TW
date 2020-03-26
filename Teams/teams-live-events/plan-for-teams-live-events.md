@@ -17,12 +17,12 @@ search.appverid: MET150
 description: 瞭解在 Microsoft 團隊中設定即時事件之前要考慮的因素。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6f0c141751a9b67a47640ba5210c3cb7aeeadbb2
-ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
+ms.openlocfilehash: ecd08f71545bcaf2775b3e502860b9d6a8e234fc
+ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558563"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42978415"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>規劃 Microsoft 團隊中的即時事件
 
@@ -64,13 +64,13 @@ ms.locfileid: "42558563"
 |**出席者可視性**       |**團隊生產**  |**外部 app 或裝置生產**  |
 |------------------------------|-----------------|----------------------|
 |公用（匿名使用者）      |  是            |  否                  |
-|來賓使用者                   |  無<sup>1</sup> |  否                  |
-|聯盟公司中的所有人 |  無<sup>2</sup> |  否                  |
+|來賓使用者                   |  是            |  否                  |
+|聯盟公司中的所有人 |  是<sup>1</sup>|  否                  |
 |公司中的每個人           |  是            |  是                 |
 |特定群組/人員      |  是            |  是                 |
 
-如果即時事件是使用**組織範圍**選項設定， <sup>1</sup>就能監視即時事件。<br>
-<sup>2</sup>只能將即時事件監視為匿名使用者。
+<sup>1</sup>同盟參與者只能在 [人員] & 群組中受邀 <br>
+
 
  
 ## <a name="teams-live-events-and-skype-meeting-broadcast"></a>團隊即時活動與 Skype 會議廣播

@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 13c3267378d4e8fbc5b3d3631606cf0824ea7a44
-ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
+ms.openlocfilehash: ced9ab01c5f33ef2b8095079443c447c301ee742
+ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42417848"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42978595"
 ---
 # <a name="quality-of-experience-review-guide"></a>體驗品質的審查指南
 
@@ -652,6 +652,7 @@ _表 5-建立檔結構_
 | 地區             | String    | MSUS                      | 採用 |
 | InsideCorp         | Bool      | 1                         | 必要    |
 | ExpressRoute       | Bool      | 0                         | 必要    |
+| 點對點                | Bool      | 0                         | 選用    |
 
 \*CQD 不需要時，範本會設定為顯示建築物和網路名稱。
 
@@ -701,7 +702,7 @@ _表 5-建立檔結構_
   _圖 13-使用建築物名稱的 VPN_
 
 > [!IMPORTANT]
-> 某些 VPN 實現不會精確地報告子網資訊。 如果您在報表中出現這種情況，建議您將 VPN 子網新增至組建檔案，而不是子網的一個專案，就會將 VPN 子網上每個位址的個別專案新增成獨立的32位網路。 每個資料列都可以有相同的建築物中繼資料。 例如，如果 172.16.18.0/24 不是一列，則會有253列，每個位址都有一個列，其中每個位址都是從 172.16.18.1/32 至 172.16.18.254/32 （含）。
+> 某些 VPN 實現不會精確地報告子網資訊。 這是因為 VPN 用戶端是由32位子網提供的。  如前一節所述，CQD 無法正確識別32位子網。  若要在 CQD 中正確識別 VPN 子網，請在組建檔案中將 VPN 欄位設定為1。
 
 
 > [!NOTE]

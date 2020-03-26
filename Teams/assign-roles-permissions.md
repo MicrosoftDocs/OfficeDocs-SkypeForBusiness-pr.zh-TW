@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cd9ca2fc26c58087992cdee18dee1b1d869a6fa1
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: f411de7f0c373e82b450cd41b828fd591777311b
+ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826101"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42978455"
 ---
 <a name="assign-team-owners-and-members-in-microsoft-teams"></a>在 Microsoft 團隊中指派小組擁有者和成員
 =================================================
@@ -48,9 +48,7 @@ ms.locfileid: "41826101"
 |        ***刪除私人頻道**         |    是     |    否|
 |          **新增成員**          |  是<sup>3</sup>   |     無<sup>4</sup>    |
 |          **要求新增成員**          |  不適用   |     是<sup>5</sup>     |
-|           **[新增] 索引標籤**            |    是     |    是<sup>2</sup>|
-|        **新增連接器**         |    是     |    是<sup>2</sup>|
-|           **新增 bot**            |    是     |    是<sup>2</sup>|
+|           **新增應用程式**            |    是     |    是<sup>2</sup>|
 
 <sup>1</sup>小組擁有者可以建立團隊，除非他們受到限制。 [建立小組的許可權](#permissions-to-create-teams)。<br>
 <sup>2</sup>擁有者可以在小組層級關閉這些專案，在這種情況下，成員將無法存取它們。<br>
