@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 瞭解團隊如何在不受支援的瀏覽器中支援音訊和影片。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5f2fc7ee97a5172a849c14d9ede6d93ffc08d302
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 1dfd2ba704aa2428555dd126c506e1673a120b72
+ms.sourcegitcommit: 46b15a11755a89526be2a0b20befad61c628cdb4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837253"
+ms.lasthandoff: 03/25/2020
+ms.locfileid: "42955712"
 ---
 # <a name="microsoft-teams-meetings-on-unsupported-browsers"></a>Microsoft 團隊在不支援的瀏覽器上的會議
 
@@ -43,7 +43,8 @@ ms.locfileid: "41837253"
 - 如果通話中斷，會議就不會自動重新連線。
 - 使用者無法啟動會議。
 
+如需有關團隊中瀏覽器支援的詳細資訊，請參閱[小組的限制與規格](/microsoftteams/limits-specifications-teams#browsers)。
+
 ## <a name="related-topics"></a>相關主題
 
 - [在不受支援的瀏覽器上加入團隊會議](https://support.office.com/article/daafdd3c-ac7a-4855-871b-9113bad15907)
-- [Teams 的限制和規格](/microsoftteams/limits-specifications-teams#browsers)
