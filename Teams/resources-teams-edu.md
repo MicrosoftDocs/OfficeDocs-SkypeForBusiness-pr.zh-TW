@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8cb9e4c4b46e732b2cc96b58b67522a8a9da678c
-ms.sourcegitcommit: a2b2ae17a35f530f797504bb85b44f1a0f561a7d
+ms.openlocfilehash: fd01a781cfb5a928e4d14e64d45789b4f023648d
+ms.sourcegitcommit: 3ddb28e085a89501e4e64687de4697f82f47f119
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/27/2020
-ms.locfileid: "42983811"
+ms.locfileid: "43027673"
 ---
 <a name="microsoft-teams-resources-for-education-admins"></a>適用於 Microsoft Teams 教育版管理員的資源
 ==============================================
@@ -36,9 +36,9 @@ ms.locfileid: "42983811"
 
 | |  |
 |---------|---------|
-|[秘訣和訣竅手冊](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/get-started-tips-tricks.zip?raw=true)<br> ![螢幕擷取畫面](media/edu-adoption-get-started.png)    |
 |海報-[可自訂](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-customizable.zip?raw=true)且[列印就緒](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-print-ready.zip?raw=true)<br>![標牌的螢幕擷取畫面](media/edu-adoption-posters.png)     |[演講](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/handouts.zip?raw=true)<br>![講義的螢幕擷取畫面](media/edu-adoption-handouts.png)|
 |[單](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/flyers.zip?raw=true)<br>![傳單的螢幕擷取畫面](media/edu-adoption-flyers.png)   |[書籍 adverts](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/book-adverts.zip?raw=true)<br>![書籍啟用廣告的螢幕擷取畫面](media/edu-adoption-book-adverts.png)         |
+|[秘訣和訣竅手冊](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/get-started-tips-tricks.zip?raw=true)<br> ![螢幕擷取畫面](media/edu-adoption-get-started.png)    |
 
 ### <a name="digital-assets"></a>數位資產
 
