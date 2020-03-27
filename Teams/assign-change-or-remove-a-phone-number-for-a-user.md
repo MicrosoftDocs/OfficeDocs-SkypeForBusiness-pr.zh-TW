@@ -20,68 +20,68 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 瞭解如何指派、變更或移除團隊中的公司電話號碼，讓您的小組使用者可以在外部進行通話。
-ms.openlocfilehash: 08f662abbad8d7e59d6ed543257d7bb1116e08f1
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: b406a303352afaf29537815e98aed2d660670f12
+ms.sourcegitcommit: 89a7c0427a5abbef838a17ae7eac6934c6176a35
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826991"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42982106"
 ---
-# <a name="assign-change-or-remove-a-phone-number-for-a-user"></a><span data-ttu-id="3632c-103">指派、變更或移除使用者的電話號碼</span><span class="sxs-lookup"><span data-stu-id="3632c-103">Assign, change, or remove a phone number for a user</span></span>
+# <a name="assign-change-or-remove-a-phone-number-for-a-user"></a><span data-ttu-id="a81f9-103">指派、變更或移除使用者的電話號碼</span><span class="sxs-lookup"><span data-stu-id="a81f9-103">Assign, change, or remove a phone number for a user</span></span>
 
-<span data-ttu-id="3632c-104">當您設定通話方案時，您會將電話號碼指派給使用者。</span><span class="sxs-lookup"><span data-stu-id="3632c-104">When you set up Calling Plans, you assign phone numbers to your users.</span></span> <span data-ttu-id="3632c-105">在 Microsoft 團隊中，當使用者按一下 [**來電**] 時，就會列出您指派的電話號碼。</span><span class="sxs-lookup"><span data-stu-id="3632c-105">In Microsoft Teams, the phone number you assign is listed when a user clicks **Calls**.</span></span>
+<span data-ttu-id="a81f9-104">當您設定通話方案時，您會將電話號碼指派給使用者。</span><span class="sxs-lookup"><span data-stu-id="a81f9-104">When you set up Calling Plans, you assign phone numbers to your users.</span></span> <span data-ttu-id="a81f9-105">在 Microsoft 團隊中，當使用者按一下 [**來電**] 時，就會列出您指派的電話號碼。</span><span class="sxs-lookup"><span data-stu-id="a81f9-105">In Microsoft Teams, the phone number you assign is listed when a user clicks **Calls**.</span></span>
 
 ![[小組] 中顯示的使用者電話號碼。](media/teams-phone-number.png)
 
-<span data-ttu-id="3632c-107">當您設定使用者讓他們撥打及接聽電話時，您必須先使用 Microsoft 團隊系統管理中心並指派電話號碼。</span><span class="sxs-lookup"><span data-stu-id="3632c-107">When you're setting up users so they can make and receive phone calls, you must first use the Microsoft Teams admin center and assign a phone number.</span></span> <span data-ttu-id="3632c-108">您可以視需要變更或移除電話號碼。</span><span class="sxs-lookup"><span data-stu-id="3632c-108">You can change or remove the phone number if you need to.</span></span>
+<span data-ttu-id="a81f9-107">當您設定使用者讓他們撥打及接聽電話時，您必須先使用 Microsoft 團隊系統管理中心並指派電話號碼。</span><span class="sxs-lookup"><span data-stu-id="a81f9-107">When you're setting up users so they can make and receive phone calls, you must first use the Microsoft Teams admin center and assign a phone number.</span></span> <span data-ttu-id="a81f9-108">您可以視需要變更或移除電話號碼。</span><span class="sxs-lookup"><span data-stu-id="a81f9-108">You can change or remove the phone number if you need to.</span></span>
   
-<span data-ttu-id="3632c-109">若要瞭解如何在團隊中取得通話方案以及成本，請參閱[小組附加元件授權](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。</span><span class="sxs-lookup"><span data-stu-id="3632c-109">To learn how to get Calling Plans in Teams and how much they cost, see [Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).</span></span>
+<span data-ttu-id="a81f9-109">若要瞭解如何在團隊中取得通話方案以及成本，請參閱[小組附加元件授權](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。</span><span class="sxs-lookup"><span data-stu-id="a81f9-109">To learn how to get Calling Plans in Teams and how much they cost, see [Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="3632c-110">若要查看使用者是否擁有指派授權，您可以移至 Microsoft 團隊系統管理中心 >**使用者**。</span><span class="sxs-lookup"><span data-stu-id="3632c-110">One way to see whether a user has a license assigned is by going to the Microsoft Teams admin center > **Users**.</span></span> <span data-ttu-id="3632c-111">如果指派授權，就會顯示在頁面上。</span><span class="sxs-lookup"><span data-stu-id="3632c-111">If a license is assigned, it will be indicated on the page.</span></span>  <span data-ttu-id="3632c-112">您也可以使用 Microsoft 365 系統管理中心。</span><span class="sxs-lookup"><span data-stu-id="3632c-112">You can also use the Microsoft 365 admin center.</span></span>
+> <span data-ttu-id="a81f9-110">若要查看使用者是否擁有指派授權，您可以移至 Microsoft 團隊系統管理中心 >**使用者**。</span><span class="sxs-lookup"><span data-stu-id="a81f9-110">One way to see whether a user has a license assigned is by going to the Microsoft Teams admin center > **Users**.</span></span> <span data-ttu-id="a81f9-111">如果指派授權，就會顯示在頁面上。</span><span class="sxs-lookup"><span data-stu-id="a81f9-111">If a license is assigned, it will be indicated on the page.</span></span>  <span data-ttu-id="a81f9-112">您也可以使用 Microsoft 365 系統管理中心。</span><span class="sxs-lookup"><span data-stu-id="a81f9-112">You can also use the Microsoft 365 admin center.</span></span>
   
-## <a name="assign-a-phone-number-to-a-user"></a><span data-ttu-id="3632c-113">將電話號碼指派給使用者</span><span class="sxs-lookup"><span data-stu-id="3632c-113">Assign a phone number to a user</span></span>
+## <a name="assign-a-phone-number-to-a-user"></a><span data-ttu-id="a81f9-113">將電話號碼指派給使用者</span><span class="sxs-lookup"><span data-stu-id="a81f9-113">Assign a phone number to a user</span></span>
  
-<span data-ttu-id="3632c-114">![](media/teams-logo-30x30.png) **使用 microsoft [團隊管理中心**] 顯示 Microsoft 團隊標誌的圖示</span><span class="sxs-lookup"><span data-stu-id="3632c-114">![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**</span></span>
+<span data-ttu-id="a81f9-114">![](media/teams-logo-30x30.png) **使用 microsoft [團隊管理中心**] 顯示 Microsoft 團隊標誌的圖示</span><span class="sxs-lookup"><span data-stu-id="a81f9-114">![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**</span></span>
     
-1. <span data-ttu-id="3632c-115">在左側導覽中，按一下 [**語音** > **電話號碼**]。</span><span class="sxs-lookup"><span data-stu-id="3632c-115">In the left navigation, click **Voice** > **Phone numbers**.</span></span>
-2. <span data-ttu-id="3632c-116">在 [**電話號碼**] 頁面上，選取清單中未指派的號碼，然後按一下 [**編輯**]。</span><span class="sxs-lookup"><span data-stu-id="3632c-116">On the **Phone numbers** page, select an unassigned number in the list, and then click **Edit**.</span></span>  
-3. <span data-ttu-id="3632c-117">在 [**編輯**] 窗格中的 [**指派給**] 底下，以 [顯示名稱] 或 [使用者名稱] 搜尋使用者，然後按一下 [**指派**]。</span><span class="sxs-lookup"><span data-stu-id="3632c-117">In the **Edit** pane, under **Assigned to**, search for the user by display name or user name, and then click **Assign**.</span></span>
-4. <span data-ttu-id="3632c-118">若要指派或變更相關聯的緊急位置，請在 [**緊急位置**] 底下，搜尋並選取位置。</span><span class="sxs-lookup"><span data-stu-id="3632c-118">To assign or change the associated emergency location, under **Emergency location**, search for and then select the location.</span></span>
-6. <span data-ttu-id="3632c-119">按一下 [**儲存**]。</span><span class="sxs-lookup"><span data-stu-id="3632c-119">Click **Save**.</span></span>
+1. <span data-ttu-id="a81f9-115">在左側導覽中，按一下 [**語音** > **電話號碼**]。</span><span class="sxs-lookup"><span data-stu-id="a81f9-115">In the left navigation, click **Voice** > **Phone numbers**.</span></span>
+2. <span data-ttu-id="a81f9-116">在 [**電話號碼**] 頁面上，選取清單中未指派的號碼，然後按一下 [**編輯**]。</span><span class="sxs-lookup"><span data-stu-id="a81f9-116">On the **Phone numbers** page, select an unassigned number in the list, and then click **Edit**.</span></span>  
+3. <span data-ttu-id="a81f9-117">在 [**編輯**] 窗格中的 [**指派給**] 底下，以 [顯示名稱] 或 [使用者名稱] 搜尋使用者，然後按一下 [**指派**]。</span><span class="sxs-lookup"><span data-stu-id="a81f9-117">In the **Edit** pane, under **Assigned to**, search for the user by display name or user name, and then click **Assign**.</span></span>
+4. <span data-ttu-id="a81f9-118">若要指派或變更相關聯的緊急位置，請在 [**緊急位置**] 底下，搜尋並選取位置。</span><span class="sxs-lookup"><span data-stu-id="a81f9-118">To assign or change the associated emergency location, under **Emergency location**, search for and then select the location.</span></span>
+6. <span data-ttu-id="a81f9-119">按一下 [儲存]\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="a81f9-119">Click **Save**.</span></span>
     > [!NOTE]
-    > <span data-ttu-id="3632c-120">由於 Office 365 與小組之間的延遲，可能需要長達24小時才能啟用使用者。</span><span class="sxs-lookup"><span data-stu-id="3632c-120">Because of the latency between Office 365 and Teams, it can possibly take up to 24 hours for users to be enabled.</span></span> <span data-ttu-id="3632c-121">如果在24小時之後，沒有正確指派電話號碼，請[與 PSTN 服務服務台聯繫](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)。</span><span class="sxs-lookup"><span data-stu-id="3632c-121">If after 24 hours, if the phone number isn't assigned correctly, [contact the PSTN service desk](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).</span></span> <span data-ttu-id="3632c-122">我們在這裡協助您！</span><span class="sxs-lookup"><span data-stu-id="3632c-122">We're here to help!</span></span>
+    > <span data-ttu-id="a81f9-120">由於 Office 365 與小組之間的延遲，可能需要長達24小時才能啟用使用者。</span><span class="sxs-lookup"><span data-stu-id="a81f9-120">Because of the latency between Office 365 and Teams, it can possibly take up to 24 hours for users to be enabled.</span></span> <span data-ttu-id="a81f9-121">如果您在24小時後沒有正確指派電話號碼，請[與商務用客戶支援-系統管理協助](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)。</span><span class="sxs-lookup"><span data-stu-id="a81f9-121">If after 24 hours, if the phone number isn't assigned correctly, [contact support for business products - Admin Help](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products).</span></span> <span data-ttu-id="a81f9-122">我們在這裡協助您！</span><span class="sxs-lookup"><span data-stu-id="a81f9-122">We're here to help!</span></span>
   
-## <a name="change-a-phone-number-for-a-user"></a><span data-ttu-id="3632c-123">變更使用者的電話號碼</span><span class="sxs-lookup"><span data-stu-id="3632c-123">Change a phone number for a user</span></span>
+## <a name="change-a-phone-number-for-a-user"></a><span data-ttu-id="a81f9-123">變更使用者的電話號碼</span><span class="sxs-lookup"><span data-stu-id="a81f9-123">Change a phone number for a user</span></span>
  
-<span data-ttu-id="3632c-124">![](media/teams-logo-30x30.png) **使用 microsoft [團隊管理中心**] 顯示 Microsoft 團隊標誌的圖示</span><span class="sxs-lookup"><span data-stu-id="3632c-124">![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**</span></span>
+<span data-ttu-id="a81f9-124">![](media/teams-logo-30x30.png) **使用 microsoft [團隊管理中心**] 顯示 Microsoft 團隊標誌的圖示</span><span class="sxs-lookup"><span data-stu-id="a81f9-124">![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**</span></span>
     
-1. <span data-ttu-id="3632c-125">在左側導覽中，按一下 [**使用者**]，找出並按兩下您要的使用者，按一下 [**帳戶**]，然後在 **[一般資訊**] 底下，記下指派給使用者的電話號碼。</span><span class="sxs-lookup"><span data-stu-id="3632c-125">In the left navigation, click **Users**, locate and double-click the user you want, click **Account**, and then under **General information**, make a note of the phone number that's assigned to the user.</span></span>
-2. <span data-ttu-id="3632c-126">在左側導覽中，按一下 [**語音** > **電話號碼**]。</span><span class="sxs-lookup"><span data-stu-id="3632c-126">In the left navigation, click **Voice** > **Phone numbers**.</span></span>
-3. <span data-ttu-id="3632c-127">在 [**電話號碼**] 頁面上，選取您在步驟1中所識別的號碼，然後按一下 [**編輯**]。</span><span class="sxs-lookup"><span data-stu-id="3632c-127">On the **Phone numbers** page, select the number that you identified in step 1, and then click **Edit**.</span></span>  
-4. <span data-ttu-id="3632c-128">在 [**編輯**] 窗格中的 [**指派給**] 底下，按一下 [ **X** ] 以移除使用者。</span><span class="sxs-lookup"><span data-stu-id="3632c-128">In the **Edit** pane, under **Assigned to**, click the **X** to remove the user.</span></span>
-5. <span data-ttu-id="3632c-129">按一下 [**儲存**]。</span><span class="sxs-lookup"><span data-stu-id="3632c-129">Click **Save**.</span></span>
-6. <span data-ttu-id="3632c-130">在 [**電話號碼**] 頁面上，選取清單中未指派的號碼，然後按一下 [**編輯**]。</span><span class="sxs-lookup"><span data-stu-id="3632c-130">On the **Phone numbers** page, select an unassigned number in the list, and then click **Edit**.</span></span>  
-7. <span data-ttu-id="3632c-131">在 [**編輯**] 窗格中的 [**指派給**] 底下，以 [顯示名稱] 或 [使用者名稱] 搜尋使用者，然後按一下 [**指派**]。</span><span class="sxs-lookup"><span data-stu-id="3632c-131">In the **Edit** pane, under **Assigned to**, search for the user by display name or user name, and then click **Assign**.</span></span>
-8. <span data-ttu-id="3632c-132">若要指派或變更相關聯的緊急位置，請在 [**緊急位置**] 底下，搜尋並選取位置。</span><span class="sxs-lookup"><span data-stu-id="3632c-132">To assign or change the associated emergency location, under **Emergency location**, search for and then select the location.</span></span>
-9. <span data-ttu-id="3632c-133">按一下 [**儲存**]。</span><span class="sxs-lookup"><span data-stu-id="3632c-133">Click **Save**.</span></span>
+1. <span data-ttu-id="a81f9-125">在左側導覽中，按一下 [**使用者**]，找出並按兩下您要的使用者，按一下 [**帳戶**]，然後在 **[一般資訊**] 底下，記下指派給使用者的電話號碼。</span><span class="sxs-lookup"><span data-stu-id="a81f9-125">In the left navigation, click **Users**, locate and double-click the user you want, click **Account**, and then under **General information**, make a note of the phone number that's assigned to the user.</span></span>
+2. <span data-ttu-id="a81f9-126">在左側導覽中，按一下 [**語音** > **電話號碼**]。</span><span class="sxs-lookup"><span data-stu-id="a81f9-126">In the left navigation, click **Voice** > **Phone numbers**.</span></span>
+3. <span data-ttu-id="a81f9-127">在 [**電話號碼**] 頁面上，選取您在步驟1中所識別的號碼，然後按一下 [**編輯**]。</span><span class="sxs-lookup"><span data-stu-id="a81f9-127">On the **Phone numbers** page, select the number that you identified in step 1, and then click **Edit**.</span></span>  
+4. <span data-ttu-id="a81f9-128">在 [**編輯**] 窗格中的 [**指派給**] 底下，按一下 [ **X** ] 以移除使用者。</span><span class="sxs-lookup"><span data-stu-id="a81f9-128">In the **Edit** pane, under **Assigned to**, click the **X** to remove the user.</span></span>
+5. <span data-ttu-id="a81f9-129">按一下 [儲存]\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="a81f9-129">Click **Save**.</span></span>
+6. <span data-ttu-id="a81f9-130">在 [**電話號碼**] 頁面上，選取清單中未指派的號碼，然後按一下 [**編輯**]。</span><span class="sxs-lookup"><span data-stu-id="a81f9-130">On the **Phone numbers** page, select an unassigned number in the list, and then click **Edit**.</span></span>  
+7. <span data-ttu-id="a81f9-131">在 [**編輯**] 窗格中的 [**指派給**] 底下，以 [顯示名稱] 或 [使用者名稱] 搜尋使用者，然後按一下 [**指派**]。</span><span class="sxs-lookup"><span data-stu-id="a81f9-131">In the **Edit** pane, under **Assigned to**, search for the user by display name or user name, and then click **Assign**.</span></span>
+8. <span data-ttu-id="a81f9-132">若要指派或變更相關聯的緊急位置，請在 [**緊急位置**] 底下，搜尋並選取位置。</span><span class="sxs-lookup"><span data-stu-id="a81f9-132">To assign or change the associated emergency location, under **Emergency location**, search for and then select the location.</span></span>
+9. <span data-ttu-id="a81f9-133">按一下 [儲存]\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="a81f9-133">Click **Save**.</span></span>
 
-## <a name="remove-a-phone-number-from-a-user"></a><span data-ttu-id="3632c-134">移除使用者的電話號碼</span><span class="sxs-lookup"><span data-stu-id="3632c-134">Remove a phone number from a user</span></span>
+## <a name="remove-a-phone-number-from-a-user"></a><span data-ttu-id="a81f9-134">移除使用者的電話號碼</span><span class="sxs-lookup"><span data-stu-id="a81f9-134">Remove a phone number from a user</span></span>
  
-<span data-ttu-id="3632c-135">![](media/teams-logo-30x30.png) **使用 microsoft [團隊管理中心**] 顯示 Microsoft 團隊標誌的圖示</span><span class="sxs-lookup"><span data-stu-id="3632c-135">![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**</span></span>
+<span data-ttu-id="a81f9-135">![](media/teams-logo-30x30.png) **使用 microsoft [團隊管理中心**] 顯示 Microsoft 團隊標誌的圖示</span><span class="sxs-lookup"><span data-stu-id="a81f9-135">![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**</span></span>
 
-1. <span data-ttu-id="3632c-136">在左側導覽中，按一下 [**使用者**]，找出並按兩下您要的使用者，按一下 [**帳戶**]，然後在 **[一般資訊**] 底下，記下指派給使用者的電話號碼。</span><span class="sxs-lookup"><span data-stu-id="3632c-136">In the left navigation, click **Users**, locate and double-click the user you want, click **Account**, and then under **General information**, make a note of the phone number that's assigned to the user.</span></span>
-2. <span data-ttu-id="3632c-137">在左側導覽中，按一下 [**語音** > **電話號碼**]。</span><span class="sxs-lookup"><span data-stu-id="3632c-137">In the left navigation, click **Voice** > **Phone numbers**.</span></span>
-3. <span data-ttu-id="3632c-138">在 [**電話號碼**] 頁面上，選取您在步驟2中所識別的號碼，然後按一下 [**編輯**]。</span><span class="sxs-lookup"><span data-stu-id="3632c-138">On the **Phone numbers** page, select the number that you identified in step 2, and then click **Edit**.</span></span>  
-4. <span data-ttu-id="3632c-139">在 [**編輯**] 窗格中的 [**指派給**] 底下，按一下 [ **X** ] 以移除使用者。</span><span class="sxs-lookup"><span data-stu-id="3632c-139">In the **Edit** pane, under **Assigned to**, click the **X** to remove the user.</span></span>
-5. <span data-ttu-id="3632c-140">按一下 [**儲存**]。</span><span class="sxs-lookup"><span data-stu-id="3632c-140">Click **Save**.</span></span>
+1. <span data-ttu-id="a81f9-136">在左側導覽中，按一下 [**使用者**]，找出並按兩下您要的使用者，按一下 [**帳戶**]，然後在 **[一般資訊**] 底下，記下指派給使用者的電話號碼。</span><span class="sxs-lookup"><span data-stu-id="a81f9-136">In the left navigation, click **Users**, locate and double-click the user you want, click **Account**, and then under **General information**, make a note of the phone number that's assigned to the user.</span></span>
+2. <span data-ttu-id="a81f9-137">在左側導覽中，按一下 [**語音** > **電話號碼**]。</span><span class="sxs-lookup"><span data-stu-id="a81f9-137">In the left navigation, click **Voice** > **Phone numbers**.</span></span>
+3. <span data-ttu-id="a81f9-138">在 [**電話號碼**] 頁面上，選取您在步驟2中所識別的號碼，然後按一下 [**編輯**]。</span><span class="sxs-lookup"><span data-stu-id="a81f9-138">On the **Phone numbers** page, select the number that you identified in step 2, and then click **Edit**.</span></span>  
+4. <span data-ttu-id="a81f9-139">在 [**編輯**] 窗格中的 [**指派給**] 底下，按一下 [ **X** ] 以移除使用者。</span><span class="sxs-lookup"><span data-stu-id="a81f9-139">In the **Edit** pane, under **Assigned to**, click the **X** to remove the user.</span></span>
+5. <span data-ttu-id="a81f9-140">按一下 [儲存]\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="a81f9-140">Click **Save**.</span></span>
     
-## <a name="related-topics"></a><span data-ttu-id="3632c-141">相關主題</span><span class="sxs-lookup"><span data-stu-id="3632c-141">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="a81f9-141">相關主題</span><span class="sxs-lookup"><span data-stu-id="a81f9-141">Related topics</span></span>
 
-[<span data-ttu-id="3632c-142">什麼是位址驗證？</span><span class="sxs-lookup"><span data-stu-id="3632c-142">What is address validation?</span></span>](/skypeforbusiness/what-are-calling-plans-in-office-365/what-is-address-validation)
+[<span data-ttu-id="a81f9-142">什麼是位址驗證？</span><span class="sxs-lookup"><span data-stu-id="a81f9-142">What is address validation?</span></span>](/skypeforbusiness/what-are-calling-plans-in-office-365/what-is-address-validation)
 
-[<span data-ttu-id="3632c-143">管理貴組織的電話號碼</span><span class="sxs-lookup"><span data-stu-id="3632c-143">Manage phone numbers for your organization</span></span>](/microsoftteams/manage-phone-numbers-for-your-organization)
+[<span data-ttu-id="a81f9-143">管理貴組織的電話號碼</span><span class="sxs-lookup"><span data-stu-id="a81f9-143">Manage phone numbers for your organization</span></span>](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[<span data-ttu-id="3632c-144">緊急通話條款及條件</span><span class="sxs-lookup"><span data-stu-id="3632c-144">Emergency calling terms and conditions</span></span>](/microsoftteams/emergency-calling-terms-and-conditions)
+[<span data-ttu-id="a81f9-144">緊急通話條款及條件</span><span class="sxs-lookup"><span data-stu-id="a81f9-144">Emergency calling terms and conditions</span></span>](/microsoftteams/emergency-calling-terms-and-conditions)
 
-<span data-ttu-id="3632c-145">[緊急通話免責聲明標籤](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="3632c-145">[Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
+<span data-ttu-id="a81f9-145">[緊急通話免責聲明標籤](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="a81f9-145">[Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
