@@ -640,6 +640,7 @@
 ### [開始使用適用於零售業的 Teams 範本](get-started-with-retail-teams-templates.md)
 
 ## [適用於政府機關的 Teams](expand-teams-across-your-org/teams-for-government-landing-page.md)
+### [支援遠端工作者 (WFH)](expand-teams-across-your-org/GOV-support-remote-work-with-teams.md)
 ### [管理 Office 365 G1 試用版方案](g1-trial-license.md)
 ### [Microsoft 365 政府版的方案 - GCC](plan-for-government-gcc.md)
 ### [Microsoft 365 政府版的方案 - GCC High](plan-for-government-gcc-high.md)
