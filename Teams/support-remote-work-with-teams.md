@@ -15,12 +15,12 @@ search.appverid: MET150
 description: 使用本指導方針來協助組織中的遠端工作者使用 Microsoft Teams 來提高生產力，尤其是當他們在家中工作 (WFH) 時，以因應 COVID-19 (冠狀病毒) 爆發的情況。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 844aef84633c767131b60158e634b0f6f3fe1cd2
-ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
+ms.openlocfilehash: 7edbce168ec3357dbc432f3cb0da30c6310ea9cc
+ms.sourcegitcommit: 89a7c0427a5abbef838a17ae7eac6934c6176a35
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42928406"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42982096"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>支援使用 Microsoft Teams 的遠端工作者
 
@@ -64,7 +64,13 @@ ms.locfileid: "42928406"
 
 1. 閱讀[常見問題：支援遠端員工](FAQ-support-remote-workforce.md)，我們會定期更新本文。
 
-1. 請參閱 2020 年 3 月 6 日的部落格文章，[Microsoft 如何讓員工使用 Microsoft Teams 遠端工作](https://www.microsoft.com/itshowcase/blog/how-microsoft-enables-its-employees-to-work-remotely/)。
+1. 閱讀最新的部落格文章：
+   
+   - [Microsoft 如何讓員工使用 Microsoft Teams 遠端工作](https://www.microsoft.com/itshowcase/blog/how-microsoft-enables-its-employees-to-work-remotely/) (英文)
+   - [協助中小型企業能夠使用 Teams 遠端工作](https://www.microsoft.com/zh-TW/microsoft-365/blog/2020/03/17/helping-smb-customers-work-remotely-microsoft-teams/) (英文)
+
+   - [Microsoft IT 為其員工啟用遠端作業的最熱門 9 種方式](https://www.microsoft.com/zh-TW/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/) (英文)
+
 
 1. Microsoft Teams 教育版
    - 如果您從事教育工作，而且想要在 Teams 上設定教師、學生和系統管理員，請使用 Office 365 A1。 所有教育機構都能使用這個免費的 Office 365 版本。 在[免費取得全校師生都能使用的 Office 365](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans)註冊。
@@ -78,6 +84,8 @@ ms.locfileid: "42928406"
    - 有限的頻寬會影響 Teams 會議中的音訊品質。 為了確保在低頻寬條件下的最佳會議體驗，請鼓勵使用者限制視訊通話，並對通話和會議音訊使用 PSTN。 
 
    - 請閱讀這篇及時的部落格 (2020 年 3 月 6 日)，[如何快速優化遠端員工的 Office 365 流量，並降低基礎結構負載](https://techcommunity.microsoft.com/t5/office-365-blog/how-to-quickly-optimize-office-365-traffic-for-remote-staff-amp/ba-p/1214571) (英文)。
+
+   - 2020 的 3 月 26 日部落格：[在 VPN 上執行：Microsoft 如何保持遠端工作力的聯繫](https://www.microsoft.com/itshowcase/blog/running-on-vpn-how-microsoft-is-keeping-its-remote-workforce-connected/) (英文)
    
    - 如果您在中國，請參閱 [Office 365 針對中國使用者的全域租用戶效能最佳化](https://docs.microsoft.com/Office365/Enterprise/office-365-networking-china)。
 
@@ -95,6 +103,13 @@ ms.locfileid: "42928406"
 
    - 閱讀[如何推出 Teams](How-to-roll-out-teams.md)，以了解如何為使用與管理 Teams 做好準備。
 
+1. 大家在家中工作時的安全性
+
+   - [從家裡更安全工作的最佳祕訣](https://support.office.com/article/top-tips-for-working-more-securely-from-home-c3e6c940-43a6-43a3-b780-b8784776c2a8)
+
+   - Microsoft 安全部落格 (2020 年 3 月 26 日)：[在今日獨特的遠端工作情境中，安全專業人員與 IT 達到現代安全控制的另一種方法](https://www.microsoft.com/security/blog/2020/03/26/alternative-security-professionals-it-achieve-modern-security-controls-todays-unique-remote-work-scenarios/) (英文)
+
+   - [遠端工作，保持安全 - 適用於 CISO 指引](https://www.microsoft.com/security/blog/?p=90736)
 
     
 3. 閱讀有關遠端工作的新內容，並與您的使用者分享：
@@ -110,8 +125,6 @@ ms.locfileid: "42928406"
       - [使用 Office 365 遠端作業](https://support.office.com/article/work-remotely-with-office-365-164946c8-a47a-470e-a0b4-feb12a2eea04)
       
       - [遠端工作的 9 個秘訣](https://www.microsoft.com/tips/home/working-remotely)
-
-      - [從家裡更安全地工作的最佳祕訣](https://support.office.com/article/top-tips-for-working-more-securely-from-home-c3e6c940-43a6-43a3-b780-b8784776c2a8)
 
       - Satya Nadella 及 Teams 產品行銷經理 Aya Tange 關於[使用 Teams 遠端工作](https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6646786497422987264?compact=1) 的影片 ( 2020 年 3 月 20 日)
 
