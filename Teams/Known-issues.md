@@ -17,12 +17,12 @@ f1.keywords:
 description: Microsoft Teams 用戶端應用程式和系統管理員體驗目前的已知問題清單。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 212f7f2bab023127bcc110133d1b8e574ee0d5de
-ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
+ms.openlocfilehash: 9023c7a7bfe5a629f3f2fdb9589ee3f9ef9efd68
+ms.sourcegitcommit: 0549714f17f9994cf832a303ec9bc58a537c3a51
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42928286"
+ms.lasthandoff: 03/25/2020
+ms.locfileid: "42951508"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams 的已知問題
 
@@ -62,11 +62,7 @@ ms.locfileid: "42928286"
 
 |**問題標題**|**行為/徵狀**|**已知的因應措施**|**發現日期**|
 |:-----|:-----|:-----|:-----|
-|將 UsersPermissionToReadOtherUsersEnabled 設為 false 時，無法將成員新增至團隊  <br/> |在 AAD 中將此值設為 false 時，客戶無法在 Microsoft Teams 中新增外部/內部成員，且會顯示下列錯誤訊息：「我們無法新增成員。 發生問題。 請稍後再試一次。」 不過，您可以直接將成員新增至 Office 365 群組。    <br/> |在 AAD 中將此設定變更為 true。  <br/> |2018/4/10  <br/> |
-
-|**問題標題**|**行為/徵狀**|**已知的因應措施**|**發現日期**|
-|:-----|:-----|:-----|:-----|
-|全租用戶連接器的系統管理員管理已不再可用  <br/> |嘗試在用戶端和線上版本中新增連接器時，我們遇到錯誤：發生意外的錯誤。 請再試一次。 Set-OrganizationConfig -ConnectorsEnabled=True   <br/> |使用 Teams 設定來停用。 請參閱此支援文章：https://answers.microsoft.com/en-us/msoffice/forum/msoffice_o365admin-mso_teams-mso_o365b/how-to-enable-or-disable-connectors-in-office-365/33d4b2c1-00eb-420a-ad83-01a2b42ad098    <br/> |2017/6/21  <br/> |
+|將 UsersPermissionToReadOtherUsersEnabled 設為 false 時，無法將成員新增至團隊  <br/> |在 AAD 中將此值設為 false 時，使用者無法在 Microsoft Teams 中新增外部/內部成員，且會顯示下列錯誤訊息：「我們無法新增成員。 發生問題。 請稍後再試一次。」 不過，您可以直接將成員新增至 Office 365 群組。    <br/> |在 AAD 中將此設定變更為 true。  <br/> |2018/4/10  <br/> |
 
 ## <a name="apps"></a>應用程式
 
@@ -77,14 +73,6 @@ ms.locfileid: "42928286"
 |**問題標題**|**行為/徵狀**|**已知的因應措施**|**發現日期**|
 |:-----|:-----|:-----|:-----|
 |當您在傳統型應用程式中使用 [網站] 或 [Azure DevOps] 索引標籤時，[條件式存取](https://docs.microsoft.com/azure/active-directory/conditional-access/overview)可能無法使用。<br/> |如果網站 (例如內部網路入口網站) 具有條件式存取原則 (例如瀏覽器、IP 位址限制或裝置合規性)，則該網站可能無法在傳統型應用程式的 Teams 內呈現為索引標籤。 <br/> |在瀏覽器中使用 Teams，而非使用傳統型應用程式。  <br/> |2018/7/1  <br/> |
-
-|**問題標題**|**行為/徵狀**|**已知的因應措施**|**發現日期**|
-|:-----|:-----|:-----|:-----|
-|部分團隊沒有連接器選項  <br/> |當您以滑鼠右鍵按一下頻道時，[連接器] 選項不會對團隊的任何成員顯示。  <br/> |團隊建立者必須擁有線上信箱；否則，[連接器] 選項將無法使用。 這是預期的行為。  <br/> |2017/6/26  <br/> |
-
-|**問題標題**|**行為/徵狀**|**已知的因應措施**|**發現日期**|
-|:-----|:-----|:-----|:-----|
-|「作業」應用程式在停用時仍保持顯示  <br/> |在系統管理中心中停用「作業」應用程式時，該應用程式會在 Teams 用戶端內針對取得教育版授權的使用者顯示。 在停用時選取該應用程式將會傳回錯誤訊息，指出「糟糕! 發生問題...」  <br/> |無因應措施。  <br/> |2017/12/29  <br/> |
 
 ## <a name="audio-conferencing"></a>音訊會議
 
