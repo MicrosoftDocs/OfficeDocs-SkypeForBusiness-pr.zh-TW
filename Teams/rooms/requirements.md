@@ -14,12 +14,12 @@ ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
 description: 本文將摘要說明支援 Microsoft 團隊聊天室的需求。
-ms.openlocfilehash: e19537005717a803740f268f2d8f766ed2d87303
-ms.sourcegitcommit: 169107e56dbc7f887e709e6304521ce959658990
+ms.openlocfilehash: c20da0aaa42f9e11b8bb0aba3a1f9c0248c24c7b
+ms.sourcegitcommit: 89a7c0427a5abbef838a17ae7eac6934c6176a35
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42728932"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42982116"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft 團隊會議室需求
 
@@ -63,6 +63,7 @@ Microsoft 團隊聊天室會根據房間大小及用途，使用各種經認證�
   |[Yealink MVC800](https://www.yealink.com/products_125.html)|核心 i5|8 GB|128 GB|
   |[Yealink MVC500](https://www.yealink.com/products_126.html)|核心 i5|8 GB |128 GB |
   |[Yealink MVC300](https://www.yealink.com/products_154.html)|核心 i5|8 GB |128 GB |
+  |[Yealink MVC900](https://www.yealink.com/product/microsoft-teams-room-system-mvc900)|核心 i5|8 GB|128 GB|
   ||||||
 
 > [!NOTE]

@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 瞭解如何指派、變更或移除團隊中的公司電話號碼，讓您的小組使用者可以在外部進行通話。
-ms.openlocfilehash: 08f662abbad8d7e59d6ed543257d7bb1116e08f1
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: b406a303352afaf29537815e98aed2d660670f12
+ms.sourcegitcommit: 89a7c0427a5abbef838a17ae7eac6934c6176a35
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826991"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42982106"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>指派、變更或移除使用者的電話號碼
 
@@ -48,9 +48,9 @@ ms.locfileid: "41826991"
 2. 在 [**電話號碼**] 頁面上，選取清單中未指派的號碼，然後按一下 [**編輯**]。  
 3. 在 [**編輯**] 窗格中的 [**指派給**] 底下，以 [顯示名稱] 或 [使用者名稱] 搜尋使用者，然後按一下 [**指派**]。
 4. 若要指派或變更相關聯的緊急位置，請在 [**緊急位置**] 底下，搜尋並選取位置。
-6. 按一下 [**儲存**]。
+6. 按一下 [儲存]****。
     > [!NOTE]
-    > 由於 Office 365 與小組之間的延遲，可能需要長達24小時才能啟用使用者。 如果在24小時之後，沒有正確指派電話號碼，請[與 PSTN 服務服務台聯繫](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)。 我們在這裡協助您！
+    > 由於 Office 365 與小組之間的延遲，可能需要長達24小時才能啟用使用者。 如果您在24小時後沒有正確指派電話號碼，請[與商務用客戶支援-系統管理協助](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)。 我們在這裡協助您！
   
 ## <a name="change-a-phone-number-for-a-user"></a>變更使用者的電話號碼
  
@@ -60,11 +60,11 @@ ms.locfileid: "41826991"
 2. 在左側導覽中，按一下 [**語音** > **電話號碼**]。
 3. 在 [**電話號碼**] 頁面上，選取您在步驟1中所識別的號碼，然後按一下 [**編輯**]。  
 4. 在 [**編輯**] 窗格中的 [**指派給**] 底下，按一下 [ **X** ] 以移除使用者。
-5. 按一下 [**儲存**]。
+5. 按一下 [儲存]****。
 6. 在 [**電話號碼**] 頁面上，選取清單中未指派的號碼，然後按一下 [**編輯**]。  
 7. 在 [**編輯**] 窗格中的 [**指派給**] 底下，以 [顯示名稱] 或 [使用者名稱] 搜尋使用者，然後按一下 [**指派**]。
 8. 若要指派或變更相關聯的緊急位置，請在 [**緊急位置**] 底下，搜尋並選取位置。
-9. 按一下 [**儲存**]。
+9. 按一下 [儲存]****。
 
 ## <a name="remove-a-phone-number-from-a-user"></a>移除使用者的電話號碼
  
@@ -74,7 +74,7 @@ ms.locfileid: "41826991"
 2. 在左側導覽中，按一下 [**語音** > **電話號碼**]。
 3. 在 [**電話號碼**] 頁面上，選取您在步驟2中所識別的號碼，然後按一下 [**編輯**]。  
 4. 在 [**編輯**] 窗格中的 [**指派給**] 底下，按一下 [ **X** ] 以移除使用者。
-5. 按一下 [**儲存**]。
+5. 按一下 [儲存]****。
     
 ## <a name="related-topics"></a>相關主題
 

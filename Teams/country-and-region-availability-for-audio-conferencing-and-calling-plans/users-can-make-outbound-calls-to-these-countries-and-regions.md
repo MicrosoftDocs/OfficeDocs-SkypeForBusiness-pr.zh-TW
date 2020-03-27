@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 本主題包含使用者在擁有通話方案時，所能致電的所有國家/地區。
-ms.openlocfilehash: d882078c32b5820dc060778dca4c3f30b4b2a044
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
-ms.translationtype: HT
+ms.openlocfilehash: 09e6fae92c7708e13c8b1eb595d76bf313dbba0c
+ms.sourcegitcommit: 89a7c0427a5abbef838a17ae7eac6934c6176a35
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41682510"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42982126"
 ---
 # <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>使用者可以致電給這些國家和地區
 

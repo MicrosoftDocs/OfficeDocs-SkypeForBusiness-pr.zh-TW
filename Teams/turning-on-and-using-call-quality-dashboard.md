@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: '瞭解如何開啟和使用通話品質儀表板，並取得通話品質的摘要報告。 '
-ms.openlocfilehash: 9e9c70c88aec9fcdf898d94a17f46f76bd2c608a
-ms.sourcegitcommit: 98fcfc03c55917d0aca48b7bd97988f81e8930c1
+ms.openlocfilehash: 7fafbebaa21a6bbd71ab0e253f226908d6787869
+ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42559895"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42983327"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>開啟並使用 Microsoft 團隊和商務用 Skype Online 的通話品質儀表板
 
@@ -94,7 +94,7 @@ CQD 版本1已供應商務用 Skype Server 2015 管理員下列功能：
 
 ## <a name="cqd-near-real-time-nrt-data"></a>CQD 近乎即時（NRT）資料
 
-先進 CQD （V3 2019 年11月）使用近乎即時的資料摘要。 通話記錄可在通話結束後的30分鐘內，于 CQD 入口網站中取得。 從資料集移除 NRT 管線中的記錄前，只能有幾個月提供給它。 CQD v3 會從來自 v3 管線的 NRT 資料合併目前 v2 管線的資料。 在 v2 和 v3 入口網站上，來自存檔週期之資料的查詢會產生相同的結果。 NRT 資料的 V2 和 v3 資料查詢與 NRT Data + PII 期間會不同。
+先進 CQD （V3 2019 年11月）使用近乎即時的資料摘要。 您可以在 CQD 入口網站上的 [通話記錄] 中，在30分鐘內（與前一個 CQD，平均值為 [平均24小時]）。 從資料集移除 NRT 管線中的記錄前，只能有幾個月提供給它。 CQD v3 會從來自 v3 管線的 NRT 資料合併目前 v2 管線的資料。 在 v2 和 v3 入口網站上，來自存檔週期之資料的查詢會產生相同的結果。 NRT 資料的 V2 和 v3 資料查詢與 NRT Data + PII 期間會不同。
 
 ### <a name="piieuii-data"></a>PII/EUII 資料
 
