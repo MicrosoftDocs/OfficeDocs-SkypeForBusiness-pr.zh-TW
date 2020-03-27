@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 62b4add4e3371604478c8a49cc6690000d699f65
-ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
+ms.openlocfilehash: 8db4565b4a9b1fd5e984640b20d3eaacbed24a37
+ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42858768"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42978485"
 ---
 <a name="manage-the-office-365-e1-trial"></a>管理 Office 365 E1 試用版
 ==============================
@@ -97,3 +97,5 @@ E1 試用版促銷代碼一經使用，就無法再次使用，您也無法啟�
 [管理 Teams Exploratory 體驗](teams-exploratory.md)
 
 [Office 365 非營利組織版](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit)
+
+[取得部署 Teams 的協助](https://go.microsoft.com/fwlink/?linkid=780698)
