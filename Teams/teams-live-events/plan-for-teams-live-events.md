@@ -17,12 +17,12 @@ search.appverid: MET150
 description: 瞭解在 Microsoft 團隊中設定即時事件之前要考慮的因素。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ecd08f71545bcaf2775b3e502860b9d6a8e234fc
-ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
+ms.openlocfilehash: 816cfb3c971621a367dcf81d1ec555e9735bda9d
+ms.sourcegitcommit: a2b2ae17a35f530f797504bb85b44f1a0f561a7d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42978415"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "42983859"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>規劃 Microsoft 團隊中的即時事件
 
@@ -81,6 +81,7 @@ ms.locfileid: "42978415"
 |---------|---------|---------|---------|
 |最大物件大小 |10,000 位出席者 |10000出席者<sup>1</sup> |10000出席者<sup>1</sup> |
 |即時事件的最長持續時間 |4 小時 |4 小時 |4 小時 |
+|即時事件中的簡報者和發生器數目上限 |10 <sup>2</sup> |10 <sup>2</sup> |10 <sup>2</sup> |
 |每個 Office 365 租使用者的併發即時事件數量上限 |工資  | 工資  | 工資  |
 |即時事件建立 |   Skype 會議廣播入口網站 |團隊，透過團隊進行 Yammer | 團隊、Yammer 透過團隊、資料流程 |
 |物件參與– Yammer |&#x2714; |&#x2714; （整合式體驗） |&#x2714; （整合式體驗） |
@@ -104,7 +105,9 @@ ms.locfileid: "42978415"
 |提供給發生器的廣播後出席報告 |&#x2714; |&#x2714; |X |
 |物件觀點分析-即時投票 & 投票 |&#x2714; （Microsoft 脈衝） |X |X |
 
-<sup>1</sup>設定的限制可能會變更。
+<sup>1</sup>設定的限制可能會變更。<br/>
+<sup>2</sup>您最多可以在即時事件中擁有250簡報者和發生器，但只有在清單中顯示的最後10個分支。
+
 
 ## <a name="regional-availability"></a>地區可用性
 您可以在世界各地的多個區域中使用團隊即時事件。 下列資訊顯示事件小組成員和出席者的可用性。 
