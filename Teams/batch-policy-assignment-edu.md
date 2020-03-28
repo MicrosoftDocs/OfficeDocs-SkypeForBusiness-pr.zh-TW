@@ -10,18 +10,19 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
+- remotework
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何使用批次原則指派將原則指派給教育機構中的大型使用者，以供遠端學校（teleschool、tele 學校）使用。
 f1keywords: ''
-ms.openlocfilehash: 7e297b6a4b99162fb50564d4f552a06f0dc41a10
-ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
+ms.openlocfilehash: bb851981f9923869d39c690dff6d22e446e0e844
+ms.sourcegitcommit: e710bb8dbbd084912cbf509896515a674ab5e19f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42978515"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43033357"
 ---
 # <a name="assign-policies-to-large-sets-of-users-in-your-school"></a>將原則指派給學校中的大型使用者
 
