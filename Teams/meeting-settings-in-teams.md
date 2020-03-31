@@ -20,97 +20,97 @@ ms.custom:
 - ms.teamsadmincenter.meetingsettings.overview
 ms.collection:
 - M365-collaboration
-description: 瞭解如何在您的組織中管理使用者排程的小組會議設定。
+description: 了解如何管理使用者在您組織中排程的 Teams 會議設定。
 ms.openlocfilehash: 920069ed5f5687111d51411afce9499a2d5db5d2
 ms.sourcegitcommit: ab6099547846f048f1c4cc584a8c5cb8c386d22e
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/04/2020
 ms.locfileid: "42413300"
 ---
-# <a name="manage-meeting-settings-in-microsoft-teams"></a>在 Microsoft 團隊中管理會議設定
+# <a name="manage-meeting-settings-in-microsoft-teams"></a>在 Microsoft Teams 中管理會議設定
 
-在管理員中，您可以使用 [團隊會議] 設定來控制匿名使用者是否可以加入團隊會議、自訂會議邀請，以及如果您想要啟用服務品質（QoS），請設定即時流量的埠範圍。 這些設定適用于使用者在貴組織中排程的所有小組會議。 您可以在 Microsoft 團隊系統管理中心中管理**會議** > **會議設定**中的這些設定。
+身為系統管理員，您可以使用 Teams 會議設定，來控制匿名使用者是否可以加入 Teams 會議、自訂會議邀請，以及如果您要啟用服務品質 (QoS)，則要針對即時流量設定連接範圍。 這些設定適用於使用者在貴組織中排程的所有 Teams 會議。 您可以在 Microsoft Teams 系統管理中心的 [會議]****  >  [會議設定]**** 來管理這些設定。
 
 ## <a name="allow-anonymous-users-to-join-meetings"></a>允許匿名使用者加入會議
 
-透過匿名加入，任何人都可以按一下會議邀請中的連結，以匿名使用者身分加入會議。 若要深入瞭解，請參閱[加入沒有小群組帳戶的會議](https://support.office.com/article/join-a-meeting-without-a-teams-account-c6efc38f-4e03-4e79-b28f-e65a4c039508)。
+利用匿名加入，任何人都可以按一下會議邀請中的連結，以匿名使用者的身分加入會議。 若要深入了解，請參閱[在沒有 Teams 帳戶的情況下加入會議](https://support.office.com/article/join-a-meeting-without-a-teams-account-c6efc38f-4e03-4e79-b28f-e65a4c039508)。
 
 
-![](media/teams-logo-30x30.png) **使用 microsoft [團隊管理中心**] 顯示 Microsoft 團隊標誌的圖示
+![Microsoft Teams 標誌圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
 
-1. 在左側導覽中，移至 [**會議** > **會議設定**]。
-2. 開啟 [**參與者**] 底下的 [**匿名使用者可以加入會議**]。
+1. 在左側導覽中，移至 [會議]****  >  [會議設定]****。
+2. 在 [參與者]**** 底下，開啟 [匿名使用者可加入會議]****。
 
-    ![系統管理中心會議參與者設定的螢幕擷取畫面](media/meeting-settings-participants.png "Microsoft 團隊系統管理中心之團隊會議的參與者設定的螢幕擷取畫面")
+    ![系統管理中心中會議的參與者設定螢幕擷取畫面](media/meeting-settings-participants.png "Microsoft Teams 系統管理中心中 Teams 會議的參與者設定螢幕擷取畫面")
 
-如果您不希望匿名使用者加入您組織中的使用者排程的會議，請關閉此設定。
+如果您不想讓匿名使用者加入由組織中的使用者排程的會議，請關閉此設定。
 
 ## <a name="customize-meeting-invitations"></a>自訂會議邀請
 
-您可以自訂小組會議邀請，以符合貴組織的需求。 您可以新增貴組織的標誌，並包含有用的資訊，例如支援網站的連結和法律免責聲明，以及純文字的頁尾。
+您可以自訂 Teams 會議邀請來滿足組織的需求。 您可以新增組織的標誌，並提供實用的資訊，例如支援網站和法律免責聲明的連結，以及純文字的頁尾。
 
 ### <a name="tips-for-creating-a-logo-for-meeting-invitations"></a>建立會議邀請標誌的秘訣  
 
-1. 建立寬度188不超過30圖元的影像（相當小）。
+1. 建立不超過寬度 188 像素 * 高度 30 像素 (相當小) 的影像。
 2. 將影像儲存為 JPG 或 PNG 格式。
-3. 將影像儲存在每一個接收邀請的人都可以存取的位置，例如公用網站。
+3. 將影像儲存在收到邀請的每個人都可以存取的位置，例如公用網站。
 
-    現在，您可以將它新增到會議邀請。 請參閱後續步驟。
+    現在您可以將它新增至會議邀請。 請參閱後續的步驟。
 
-### <a name="customize-your-meeting-invitations"></a>自訂會議邀請
+### <a name="customize-your-meeting-invitations"></a>自訂您的會議邀請
 
-![](media/teams-logo-30x30.png) **使用 microsoft [團隊管理中心**] 顯示 Microsoft 團隊標誌的圖示
+![Microsoft Teams 標誌圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
 
-1. 在左側導覽中，移至 [**會議** > **會議設定**]。
-2. 在 [**電子郵件邀請**] 底下，執行下列動作：
+1. 在左側導覽中，移至 [會議]****  >  [會議設定]****。
+2. 在 [電子郵件邀請]**** 底下，執行下列動作：
 
-    ![您可以自訂之會議邀請設定的螢幕擷取畫面](media/meeting-settings-invitation.png "您可以針對團隊會議自訂之會議邀請設定的螢幕擷取畫面")
+    ![您可以自訂的會議邀請設定的螢幕擷取畫面](media/meeting-settings-invitation.png "您可以為 Teams 會議自訂的會議邀請設定的螢幕擷取畫面")
 
-    - **標誌 URL**輸入您的標誌儲存位置的 URL。
-    - **合法 URL**如果您的組織有您希望其他人出於任何法律考慮的法律網站，請在這裡輸入 URL。
-    - 說明**URL**如果您的組織有您希望其他人在遇到問題時要移至的支援網站，請在這裡輸入 URL。
-    - **** 頁尾輸入要納入頁尾的文字。
-3. 按一下 [**預覽邀請**]，即可查看會議邀請的預覽。
-4. 完成後，請按一下 [**儲存**]。
-5. 等候一小時或如此，以傳播所做的變更。 然後排程小組會議，看看會議邀請看起來的樣子。  
+    - **標誌 URL**：輸入儲存標誌所在的 URL。
+    - **法律聲明 URL**：如果您的組織有您想要讓其他人有任何法律方面的顧慮時前往的法律網站，請在此輸入其 URL。
+    - **說明 URL**：如果您的組織有當其他人遇到問題時可前往的支援網站，請在這裡輸入其 URL。
+    - **頁尾**：輸入要包含做為頁尾的文字。
+3. 按一下 [預覽邀請]**** 以查看會議邀請的預覽。
+4. 完成後，按一下 [儲存]****。
+5. 等候一小時的時間，讓變更傳播。 然後排程 Teams 會議，以查看會議邀請的外觀。  
 
-## <a name="set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings"></a>設定您想要處理團隊會議即時媒體流量的方式
+## <a name="set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings"></a>設定您想要如何處理 Teams 會議的即時媒體流量
 
 <a name="bknetwork"> </a>
 
-如果您使用的是服務品質[（QoS）](qos-in-teams.md)來設定網路流量的優先順序，您可以啟用 QoS 標記，而且您可以為每種媒體流量設定埠範圍。 設定不同流量類型的埠範圍只是處理即時媒體的一個步驟;如需更多詳細資訊，請參閱[小組中的服務品質（QoS）](qos-in-teams.md) 。
+如果您使用服務品質 [(QoS)](qos-in-teams.md) 來排程網路流量的優先順序，您可以啟用 QoS 標記，且您可以針對每個類型的媒體流量設定連接埠範圍。 針對不同流量類型設定連接埠範圍，在處理即時媒體中只需一個步驟；如需更多詳細資訊，請參閱 [Teams 中的服務品質 (QoS)](qos-in-teams.md)。
 
 > [!IMPORTANT]
-> 如果您在 microsoft 團隊服務的 Microsoft 團隊系統管理中心啟用 [QoS] 或 [變更設定]，您也必須將 [相符的設定] 套用[至所有的使用者裝置](QoS-in-Teams-clients.md)和所有內部網路裝置，才能完全實現團隊中的 QoS 變更。
+> 如果您在 Microsoft Teams 系統管理中心針對 Microsoft Teams 服務啟用 QoS 或變更設定，您也必須[將相符設定套用到所有使用者裝置](QoS-in-Teams-clients.md)和所有內部網路裝置，以便對 Teams 中的 QoS 完整實作變更。
 
- ![](media/teams-logo-30x30.png) **使用 microsoft [團隊管理中心**] 顯示 Microsoft 團隊標誌的圖示
+ ![Microsoft Teams 標誌圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
 
-1. 在左側導覽中，移至 [**會議** > **會議設定**]。
-2. 在 [**網路**] 底下，執行下列動作：
+1. 在左側導覽中，移至 [會議]****  >  [會議設定]****。
+2. 在 [網路]**** 底下，執行下列動作：
 
-    ![系統管理中心之會議網路設定的螢幕擷取畫面](media/meeting-settings-network.png "Microsoft 團隊系統管理中心之團隊會議的網路設定的螢幕擷取畫面")
+    ![系統管理中心中會議的會議設定螢幕擷取畫面](media/meeting-settings-network.png "Microsoft Teams 系統管理中心中 Teams 會議的網路設定螢幕擷取畫面")
 
-    - 若要允許將 DSCP 標記用於 QoS，請開啟**即時媒體流量的 [插入服務品質（QoS）] 標記**。 您只能選擇是否要使用標記;您無法針對每種流量類型設定自訂標記。 如需 DSCP 標記的詳細資訊，請參閱[選取 QoS 實現方法](QoS-in-Teams.md#select-a-qos-implementation-method)。
+    - 若要允許將 DSCP 標記用於 QoS，請開啟 [插入即時媒體流量的服務品質 (QoS) 標記]****。 您只能選擇是否使用標記；無法為每個流量類型設定自訂標記。 如需有關 DSCP 標記的詳細資訊，請參閱[選取 QoS 實作方法](QoS-in-Teams.md#select-a-qos-implementation-method)。
         > [!NOTE] 
-        > 開啟**即時媒體流量的 [插入服務品質（QoS）] 標記**，也可讓您使用 UDP 埠3479（音訊）、3480（影片）和3481（共用）與傳輸中繼進行通訊。
-    - 若要指定埠範圍，請在 [**選取即時媒體流量的每個類型的埠範圍**] 旁，選取 [**指定埠範圍**]，然後輸入音訊、影片和螢幕共用的起始和結束埠。 需要選取此選項才能實現 QoS。
+        > 開啟 [插入即時媒體流量的服務品質 (QoS) 標記]****，將啟用使用 UDP 連接埠 3479 (音訊)、3480 (視訊) 和 3481 (共用) 對傳輸轉送的通訊。
+    - 若要指定連接埠範圍，請在 [選取各即時媒體流量類型的連接埠範圍]**** 旁選取 [指定連接埠範圍]****，然後輸入音訊、視訊和螢幕共用的開始和結束連接埠。 若要實作 QoS，需要選取此選項。
         > [!IMPORTANT]
-        > 如果您選取 [**自動使用任何可用的埠**]，則會使用1024和65535之間的可用埠。 只有在未實現 QoS 時才使用這個選項。
+        > 如果您選取 [自動使用任何可用的連接埠]****，則會使用 1024 和 65535 之間的可用連接埠。 只有在不實作 QoS 時才使用此選項。
         >
-        > 選取太窄的埠範圍，將會導致呼叫中斷和通話品質不佳。 下列建議最小。
+        > 選取太窄的連接埠範圍會導致通話中斷和通話品質不佳。 以下應視為最基本的建議。
 
-如果您不確定要在您的環境中使用的埠範圍，下列設定就是良好的起點。 若要深入瞭解，請參閱[在 Microsoft 團隊中實施服務品質（QoS）](QoS-in-Teams.md)。 這些是所需的 DSCP 標記，以及團隊和 ExpressRoute 所使用的建議對應媒體埠範圍。
+如果您不確定要在環境中使用的連接埠範圍，使用下列設定應該是良好的起點。 若要深入了解，請參閱[在 Microsoft Teams 中實作服務品質 (QoS)](QoS-in-Teams.md)。 以下是 Teams 和 ExpressRoute 所使用的必要 DSCP 標記，以及建議的對應媒體連接埠範圍。
 
-_埠範圍和 DSCP 標記_
+_連接埠範圍和 DSCP 標記_
 
-媒體流量類型| 用戶端來源埠範圍\* |通訊協定|DSCP 值|DSCP 類別|
+媒體流量類型| 用戶端來源連接埠範圍 \* |通訊協定|DSCP 值|DSCP 類別|
 |:---             |:---                         |:---    |:---      |:---      |
-|音訊            | 50000–50019               |TCP/UDP |46        |加急轉移（EF）|
-|顯示器            | 50,020–50,039               |TCP/UDP |34        |有保證的轉寄（AF41）|
-|應用程式/螢幕共用| 50,040–50,059      |TCP/UDP |滿        |有保證的轉寄（AF21）|
+|音訊            | 50,000-50,019               |TCP/UDP |46        |快速式轉送 (EF)|
+|影片            | 50,020-50,039               |TCP/UDP |34        |保證式轉送 (AF41)|
+|應用程式/螢幕共用| 50,040-50,059      |TCP/UDP |18        |保證式轉送 (AF21)|
 | | | | |
 
-\*您指定的埠範圍不能重疊，且必須彼此相鄰。
+\* 您指定的連接埠範圍不能重疊，且必須彼此相接。
 
-當 QoS 已用於一段時間之後，您就會在每個這三個工作負載的需求上取得使用量資訊，而且您可以根據自己的特定需求，選擇要進行的變更。 [通話品質儀表板](turning-on-and-using-call-quality-dashboard.md)將會對您有所説明。
+在使用 QoS 一段時間後，您將會獲得這三個工作負載相關需求的使用資訊，而且您可以根據自己的特定需求來選擇要進行的變更。 [通話品質儀表板](turning-on-and-using-call-quality-dashboard.md)對此應該有幫助。
