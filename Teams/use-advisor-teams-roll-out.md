@@ -1,5 +1,5 @@
 ---
-title: 使用 Advisor for Teams (預覽) 協助您推出 Microsoft Teams
+title: 使用適用於 Teams 的建議程式 (公開預覽) 協助您推行 Microsoft Teams
 author: lolajacobsen
 ms.author: lolaj
 ms.reviewer: brandber
@@ -9,6 +9,7 @@ ms.service: msteams
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
+- remotework
 search.appverid: MET150
 audience: Admin
 appliesto:
@@ -17,19 +18,19 @@ localization_priority: Priority
 f1.keywords:
 - CSH
 ms.custom: ''
-description: 使用 Advisor for Teams (預覽) 協助您規劃和完成您的 Microsoft Teams 部署。
-ms.openlocfilehash: ef78352df9d678d9f14dff246c3a363de755b539
-ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
+description: 使用適用於 Teams 的建議程式 (公開預覽) 協助您規劃和完成您的 Microsoft Teams 部署。
+ms.openlocfilehash: 6e4f383983326333bcd8b821d2342872eb89ecd7
+ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42795846"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43053616"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>使用 Advisor for Teams 協助您推出 Microsoft Teams
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-Advisor for Teams (預覽) 會引導您完成 Microsoft Teams 的推廣。 在您成功推出 Teams 前，Advisor for Teams 會評估您的 Office 365 租用戶環境，找出可能需要更新或修改的最常用設定。 接著，Advisor for Teams 會建立部署團隊 (在 Teams 中)，並為您要推出的每個工作負載建立頻道。部署團隊中的每項工作負載隨附有全方位的 Planner 計劃，其中包含每個工作負載的所有推出工作。  您可以使用此 Planner 計劃，將工作指派給每個推廣階段的負責人，包括專案經理、Teams 和 Office 365 系統管理員、支援人員，以及您的採用和使用者整備團隊。 每項推廣工作都包含所有您成功完成工作所需的指引和資源。
+適用於 Teams 的建議程式 (公開預覽) 會引導您完成 Microsoft Teams 的推行。 在您成功推出 Teams 前，Advisor for Teams 會評估您的 Office 365 租用戶環境，找出可能需要更新或修改的最常用設定。 接著，Advisor for Teams 會建立部署團隊 (在 Teams 中)，並為您要推出的每個工作負載建立頻道。部署團隊中的每項工作負載隨附有全方位的 Planner 計劃，其中包含每個工作負載的所有推出工作。  您可以使用此 Planner 計劃，將工作指派給每個推廣階段的負責人，包括專案經理、Teams 和 Office 365 系統管理員、支援人員，以及您的採用和使用者整備團隊。 每項推廣工作都包含所有您成功完成工作所需的指引和資源。
 
 Advisor for Teams 是 [Teams 系統管理中心](https://admin.teams.microsoft.com)的功能之一。 您至少會需要 Office 365 商務基本版授權，才能運用 Advisor for Teams 和 Forms 與 Planner 的整合。 若要開始使用 Advisor for Teams，請在儀表板上按一下 **[部署 Teams 工作負載]** 小工具中的 **[啟動]** 按鈕。 或者前往**規劃** > **Teams 建議程式**。
 
@@ -38,7 +39,7 @@ Advisor for Teams 是 [Teams 系統管理中心](https://admin.teams.microsoft.c
 
 如需 Advisor for Teams 的逐步指導，請參閱[部署及設定 Microsoft Teams](https://youtu.be/o2mlsUubIO4?t=50) Microsoft Mechanics 影片。
 
-## <a name="using-advisor-for-teams-preview"></a>使用 Advisor for Teams (預覽)
+## <a name="using-advisor-for-teams-public-preview"></a>使用適用於 Teams 的建議程式 (公開預覽)
 
 **Teams、Forms 和 Planner 授權是使用適用於 Teams 的建議程式所需的授權。** 不過，若要使用 Advisor for Teams，您不必成為 Teams 系統管理員，組織中的任何人都能使用。 我們已設定特殊權限，讓非系統管理員的使用者可以使用 Advisor for Teams，即使 Advisor for Teams 位於 Teams 系統管理中心亦可。 您必須是 Teams 系統管理員、Teams 服務管理員或全域管理員，才能開啟租用戶整備評估 (這是因為特殊的非管理員角色無法存取位於評估底層的 Microsoft Graph API)。
 
@@ -52,9 +53,9 @@ Advisor for Teams 是 [Teams 系統管理中心](https://admin.teams.microsoft.c
 
 ## <a name="available-advisor-for-teams-plans"></a>可使用的 Advisor for Teams 方案
 
-由於 Advisor for Teams 目前為預覽，我們提供以下兩個方案：
+由於適用於 Teams 的建議程式目前為公開預覽，我們提供以下兩個方案：
 
-1. 交談、團隊、頻道和應用程式
+1. 聊天、團隊、頻道和應用程式
     - 租用戶評估
     - Planner 計劃，包括採用工作
     - Forms 使用者問卷
@@ -74,7 +75,7 @@ Advisor for Teams 是 [Teams 系統管理中心](https://admin.teams.microsoft.c
 - <sub><img src="media/use-advisor-teams-roll-out-image1.png" alt="Yellow alert mark"/></img></sub>橙色警告三角形表示我們建議您追蹤以判斷是否需要任何動作 (例如，建議使用 Office 365 群組到期原則，但非必須)。
 
 > [!IMPORTANT]
-> 擁有系統管理員角色的使用者啟動 Advisor for Teams 後，所有評估都會在背景執行。 如果您進行更新或修補，這些內容可能不會在最多 24 小時內反映到評估中。 這只是暫時的，只要 Advisor for Teams 離開預覽版並公開發布，評估便會即時更新。
+> 擁有系統管理員角色的使用者啟動 Advisor for Teams 後，所有評估都會在背景執行。 如果您進行更新或修補，這些內容可能不會在最多 24 小時內反映到評估中。 這只是暫時的，只要適用於 Teams 的建議程式結束公開預覽版並公開發布，評估便會即時更新。
 
 下列各節說明每項評估，包括是否有任何一項是必要條件或最佳做法、每項評估檢查的執行方式和理由，並視需要提供修補指引。
 
@@ -133,7 +134,7 @@ Advisor for Teams 建立部署團隊後，Advisor Bot 會在 [一般] 頻道傳�
 您至少會需要 Office 365 商務基本版，才能運用 Advisor for Teams 和 Forms 與 Planner 的整合。
 
 ### <a name="can-i-delete-the-deployment-team"></a>我可以刪除部署團隊嗎？
-在 Advisor for Teams 建立您的部署團隊後，請像管理其他團隊一樣管理該團隊，包括刪除團隊。 請注意，如果您不是使用 Teams 系統管理中心刪除團隊，Teams 系統管理中心會顯示該團隊依然存在。 這只是暫時的，Advisor for Teams 離開預覽期間並公開發布時，便會修正此問題。
+在 Advisor for Teams 建立您的部署團隊後，請像管理其他團隊一樣管理該團隊，包括刪除團隊。 請注意，如果您不是使用 Teams 系統管理中心刪除團隊，Teams 系統管理中心會顯示該團隊依然存在。 這只是暫時的，適用於 Teams 的建議程式結束公開預覽期間並公開發布時，便會修正此問題。
 
 ### <a name="can-i-add-or-remove-channels-in-the-deployment-team"></a>我是否可以在部署團隊中新增或移除頻道？
 可以，部署團隊建立後，您就能使用與其他任何團隊相同的方式管理頻道。
