@@ -15,14 +15,15 @@ f1.keywords:
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_RemoteWorkers
+- remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a8f6a0d5df609724a4bdd807a3f2f41826cd40c9
-ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
+ms.openlocfilehash: 704a08678bfb64cdbee223b555dfaa4fa6350892
+ms.sourcegitcommit: e710bb8dbbd084912cbf509896515a674ab5e19f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42858589"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43033367"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>開始使用 Microsoft Teams 進行遠端學習
 
@@ -79,7 +80,8 @@ Microsoft Teams 隨附於 Office 365 A1 中，教育機構可免費試用。 如
 
 #### <a name="messaging-policy"></a>訊息原則
 
-- [變更] 設定為 [關閉]
+- 刪除已傳送的訊息設為 [關閉]
+- 編輯已傳送的訊息設為 [關閉]
 - [Giphy 內容分級] 設定為 [嚴格]
 - [翻譯訊息] 設定為 [開啟]
 - [使用優先順序通知傳送緊急訊息] 設定為 [關閉]
@@ -113,7 +115,7 @@ Microsoft Teams 隨附於 Office 365 A1 中，教育機構可免費試用。 如
 
 Microsoft Teams 教育版提供[特定類型的 Teams](https://support.office.com/article/choose-a-team-type-to-collaborate-in-microsoft-teams-0a971053-d640-4555-9fd7-f785c2b99e67) 供教育使用。 [班級團隊類型](https://support.office.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b)是專為具有特定功能的教室設計，包括：作業、OneNote 教室筆記本、[班級教材資料夾](https://support.office.com/article/Use-folders-to-create-read-only-files-for-students-or-other-team-members-0e7791d7-8c9c-4749-9bca-984289477988)，以保護學生唯讀內容的安全，以及能夠將干擾的學生設為靜音。 有幾種方法可供您部署班級團隊：
 
-1. 由 **IT 設定**[學校資料同步處理 (SDS)](https://sds.microsoft.com/)，使得您能夠根據學校資訊系統中的資訊，為所有班級建立班級團隊。 此程序會為每個課程佈建團隊，並讓講師和學生名單保持同步。[授課者能夠在接受學生之前準備其團隊](https://support.office.com/article/activate-early-access-class-teams-created-with-school-data-sync-0d154696-66ab-4fcf-b22f-c3d9a82aaf78)。 或者，如果某授課者不使用團隊，因為授課者沒有按 [啟用]，學生就不會被接受加入團隊，。 SDS 針對資料匯入支援 80 多種不同的學校資訊系統 (SIS 系統)，而 [SDS 支援團隊](https://aka.ms/SDSSupport)可協助您進行規劃和組態。 您也可以觀看我們的[遠端學習的快速部署指南](https://docs.microsoft.com/SchoolDataSync/fast-deployment-guidance)，以便快速開始使用。
+1. 由 **IT 設定**[學校資料同步處理 (SDS)](https://sds.microsoft.com/)，使得您能夠根據學校資訊系統中的資訊，為所有班級建立班級團隊。 此程序會為每個課程佈建團隊，並讓講師和學生名單保持同步。[授課者能夠在接受學生之前準備其團隊](https://support.office.com/article/activate-early-access-class-teams-created-with-school-data-sync-0d154696-66ab-4fcf-b22f-c3d9a82aaf78)。 或者，如果某授課者不使用團隊，因為授課者沒有按 [啟用]，學生就不會被接受加入團隊。 SDS 針對資料匯入支援 80 多種不同的學校資訊系統 (SIS 系統)，而 [SDS 支援團隊](https://aka.ms/SDSSupport)可協助您進行規劃和組態。 您也可以觀看我們的[遠端學習的快速部署指南](https://docs.microsoft.com/SchoolDataSync/fast-deployment-guidance)，以便快速開始使用。
 1. **授課者設定**自己的班級類型團隊，並邀請學生。 授課者透過[將學生新增至團隊](https://support.office.com/article/add-a-student-to-a-class-team-b88263bb-ace1-4702-8a48-f8a2cf4af954)、[共用加入代碼](https://support.office.com/article/create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f)或[共用團隊的連結](https://support.office.com/article/create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f)來執行此動作。 若可能，最好是由授課者將學生新增至團隊，以確保學生取得存取權，並收到已將他們新增至團隊的通知。
 
 在設定團隊之後，團隊擁有者可以[自訂其團隊的設定](https://support.office.com/article/find-your-class-team-s-settings-in-microsoft-teams-2592d4de-581d-4952-9028-02317880c158)，包括新增[團隊圖片](https://support.office.com/article/change-your-team-picture-02ea2af6-b49d-4de8-9551-1a5e472993c0)、為班級主題或群組共同作業區域[建立頻道](https://support.office.com/article/create-student-project-groups-channels-in-microsoft-teams-f85b3c07-fb87-4b94-883b-9be55f4b1e45)、[新增應用程式](https://support.office.com/article/add-an-app-to-teams-b2217706-f7ed-4e64-8e96-c413afd02f77) (例如 Quizlet/Flipgrid/Kahoot) 來呈現現有的教學內容，以及[在第一篇文章中提及其團隊](https://support.office.com/article/using-the-conversation-tab-in-microsoft-teams-53d1c530-3797-4a6f-9892-6760f8763df2)來通知所有人並開始交談。
@@ -164,4 +166,4 @@ IT 專業人員和支援人員能運用 [Teams IT 架構海報](teams-architectu
 - [監控及管理通話品質](monitor-call-quality-qos.md)
 - [驗證 Teams 的服務健康情況](service-health.md)
 - [Teams 的支援資源](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
-- [團隊說明中心](https://support.office.com/teams)
+- [Teams 說明中心](https://support.office.com/teams)
