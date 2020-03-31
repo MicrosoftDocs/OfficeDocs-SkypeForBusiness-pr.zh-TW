@@ -12,18 +12,19 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
+- remotework
 f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5b687d528f7cb593039fdafd9dcc6ec08ec66372
-ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
+ms.openlocfilehash: 3320681f606150be223433d6ab80e8e0ee41a42f
+ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "42341641"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43053409"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Microsoft 團隊中的安全性與合規性
 
@@ -70,7 +71,11 @@ Microsoft 團隊桌面應用程式支援 AppLocker。  如需有關 AppLocker �
 
 ## <a name="compliance"></a>從屬
 
-團隊提供大量的資訊，可協助您處理合規性區域，包括保留原則、資料遺失保護（DLP）、eDiscovery 和法律封存（適用于頻道、聊天和檔案、審核記錄搜尋，以及與 Microsoft 的行動應用程式管理）Intune. 我們已提供下列所有主題的相關資訊，您可以前往 Office 365 安全 & 合規性中心來管理這些設定。
+團隊有大量的資訊可協助您處理合規性領域，包括頻道、聊天和附件的溝通合規性、保留原則、資料遺失保護（DLP）、eDiscovery 和法律封存，以及頻道、聊天和檔案、審核記錄搜尋，以及使用 Microsoft Intune 進行行動應用程式管理。 我們已提供下列所有主題的相關資訊，您可以移至[Microsoft 365 合規性中心](https://compliance.microsoft.com)或[Office 365 安全性 & 合規性中心](https://protection.microsoft.com)來管理這些設定。
+
+### <a name="communication-compliance"></a>溝通合規性
+
+Microsoft 365 中的通訊合規性可讓您將使用者新增至範圍內原則，這些策略可以設定以檢查適用于冒犯性語言的 Microsoft 團隊通訊、敏感資訊，以及與內部和法規標準相關的資訊。. 您可以掃描公用和私人團隊頻道、個別聊天和附件中的聊天通信及相關附件，協助將貴組織的通訊風險降至最低。 如需如何設定原則以協助您偵測、捕獲並採取行動以進行不當小組通訊的詳細資訊，請參閱[Microsoft 365 中的通訊合規性](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance)。
 
 ### <a name="retention-policies"></a>保留原則
 
@@ -163,11 +168,12 @@ Microsoft 團隊中的資料遺失防護（DLP），以及 O365 較大的 DLP �
 
 ## <a name="compliance-standards"></a>合規性標準
 
-團隊是標準的層級。 這包括下列標準： ISO 27001、ISO 27018、SSAE16 SOC 1 和 SOC 2、HIPAA 以及歐盟模型子句（EUMC）。 在 Microsoft 合規性架構中，Microsoft 將 Office 365 應用程式和服務分類成四種類別。 每個類別都是由要在該類別中列出的 Office 365 服務或相關 Microsoft 服務所需符合的特定合規性承諾所定義。
+團隊是標準的層級。 這包括下列標準： [iso 27001](https://docs.microsoft.com/microsoft-365/compliance/offering-iso-27001)、 [iso 27018](https://docs.microsoft.com/microsoft-365/compliance/offering-iso-27018)、 [SSAE16 SOC 1 和 SOC 2](https://docs.microsoft.com/microsoft-365/compliance/offering-soc)、 [HIPAA](https://docs.microsoft.com/microsoft-365/compliance/offering-hipaa-hitech)以及[歐盟模型子句（EUMC）](https://docs.microsoft.com/microsoft-365/compliance/offering-eu-model-clauses)。 在 Microsoft 合規性架構中，Microsoft 將 Office 365 應用程式和服務分類成四種類別。 每個類別都是由要在該類別中列出的 Office 365 服務或相關 Microsoft 服務所需符合的特定合規性承諾所定義。
 
 符合行業領先規範承諾的合規性類別 C 和 D 中的服務會預設為啟用。 [類別 A] 和 [B] 中的服務隨附控制項，可為整個組織開啟或關閉這些服務。 您可以在[規範架構中找到適用于行業標準與規章](https://download.microsoft.com/download/1/4/3/1434ABAB-B8E9-412D-8C3A-187B5FCB7A2F/Compliance%20Framework%20document.pdf)的詳細資料。 團隊也支援雲端安全聯盟規範。
 
 ## <a name="related-topics"></a>相關主題
 
-[M365 安全性](https://docs.microsoft.com/microsoft-365/security/)
-[M365 合規性](https://docs.microsoft.com/microsoft-365/compliance/)
+[Microsoft 365 安全性](https://docs.microsoft.com/microsoft-365/security/)
+[microsoft 365 合規性](https://docs.microsoft.com/microsoft-365/compliance/)
+[microsoft 合規性服務](https://docs.microsoft.com/microsoft-365/compliance/offering-home)
