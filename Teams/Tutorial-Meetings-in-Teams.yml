@@ -19,12 +19,12 @@ metadata:
   - Teams_ITAdmin_RemoteWorkers
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: fce35ee2d37da4eefd80649acb780a8b42b60dfd
-  ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
+  ms.openlocfilehash: 7d39f9d169cbfb873f513a2eb39ba64a9344cd35
+  ms.sourcegitcommit: 996ae0d36ae1bcb3978c865bb296d8eccf48598e
   ms.translationtype: MT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 03/19/2020
-  ms.locfileid: "42858638"
+  ms.lasthandoff: 03/31/2020
+  ms.locfileid: "43068445"
 items:
 - durationInMinutes: 1
   content: >
@@ -78,7 +78,7 @@ items:
   content: "\n您可以從各種不同的用戶端加入會議。 查看[Microsoft 團隊的 [取得用戶端](https://docs.microsoft.com/MicrosoftTeams/get-clients)] （估計讀取時間為3分鐘），瞭解哪些平臺團隊可供使用。\n\n此外，您也可以使用音訊會議，透過撥入會議或從會議撥出，讓參與來從一般手機參加會議。\n有關音訊會議的詳細資料將在專門訓練中講述。\n\n在 Windows 版 Outlook 中，您可以使用增益集直接從您的行事曆排程會議。 複習[在 Outlook 中使用 [團隊會議] 增益集](https://docs.microsoft.com/MicrosoftTeams/teams-add-in-for-outlook)（估計閱讀時間為2分鐘）。\n"
 - title: 會議的需求和考慮
   durationInMinutes: 4
-  content: "\n### <a name=\"licensing\"></a>授權\n雖然您可以在沒有任何額外授權的情況下舉行會議，但您只需要 Microsoft 團隊的授權，有些案例則需要額外的授權。\n\n[音訊會議] 可讓參與者從一般手機加入團隊會議，需要額外的授權。 我們將在專門訓練音訊會議中解決這個問題。\n\n如需詳細資訊，請參閱 [Microsoft Teams 的 Office 365 授權](https://docs.microsoft.com/microsoftteams/office-365-licensing)。\n\n### <a name=\"bandwidth-and-media-flow\"></a>頻寬與媒體流程\n在團隊中，有兩種方式可以啟動即時通訊：\n-   使用者可以直接呼叫其他使用者\n-   使用者可以為通話、媒體（音訊、影片或桌面或應用程式共用）建立會議（臨時或排程），盡可能地直接傳播。 例如，如果兩個使用者之間沒有防火牆（例如，兩者都在同一個網路內），媒體流量會直接從一個使用者傳送到另一個使用者。 如果防火牆封鎖使用者之間的直接流量，流量會透過中繼傳送。\n\n對於會議，所有流量都會先傳送給駐留在 Office 365 的會議服務。 音訊流量會在那裡收集並混合，然後再傳送回去;系統會接收並散佈視頻流量及應用程式或桌面共用給出席者。\n\n在此訓練中不涉及規劃頻寬，但對使用者經驗而言，這將是非常重要的。\n\n如需詳細資訊，請參閱為[Microsoft 團隊準備貴組織的網路](https://docs.microsoft.com/microsoftteams/prepare-network)。\n\n### <a name=\"exchange-dependencies\"></a>Exchange 相依性\n\n針對使用 Exchange Server 內部部署的客戶，可能會在建立和查看團隊用戶端的會議時，也可能會有一些限制，但在遵守合規性時也會發生這種情況。\n查看[Exchange 與 Microsoft 團隊如何互動](https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact)（估計讀取時間為3分鐘），以瞭解可能的限制。\n"
+  content: "\n### <a name=\"licensing\"></a>授權\n雖然您可以在沒有任何額外授權的情況下舉行會議，但您只需要 Microsoft 團隊的授權，有些案例則需要額外的授權。\n\n[音訊會議] 可讓參與者從一般手機加入團隊會議，需要額外的授權。 我們將在專門訓練音訊會議中解決這個問題。\n\n如需詳細資訊，請參閱 [Microsoft Teams 的 Office 365 授權](https://docs.microsoft.com/microsoftteams/office-365-licensing)。\n\n### <a name=\"bandwidth-and-media-flow\"></a>頻寬與媒體流程\n在團隊中，有兩種方式可以啟動即時通訊：\n-   使用者可以直接呼叫其他使用者\n-   使用者可以為通話、媒體（音訊、影片或桌面或應用程式共用）建立會議（臨時或排程），盡可能地直接傳播。 例如，如果兩個使用者之間沒有防火牆（例如，兩者都在同一個網路內），媒體流量會直接從一個使用者傳送到另一個使用者。 如果防火牆封鎖使用者之間的直接流量，流量會透過中繼傳送。\n\n對於會議，所有流量都會先傳送給駐留在 Office 365 的會議服務。 音訊流量會在那裡收集並混合，然後再傳送回去;系統會接收並散佈視頻流量及應用程式或桌面共用給出席者。\n\n重要在 COVID-19 爆發期間，我們建議使用者按一下「加入團隊會議」按鈕來加入會議，而不是使用 PSTN 會議號碼或使用「打電話給我」進行撥號。 這有助於在較高的會議容量在 PSTN 網路上造成擁擠的情況下，確保品質的音訊。\n\n在此訓練中不涉及規劃頻寬，但對使用者經驗而言，這將是非常重要的。\n\n如需詳細資訊，請參閱為[Microsoft 團隊準備貴組織的網路](https://docs.microsoft.com/microsoftteams/prepare-network)。\n\n### <a name=\"exchange-dependencies\"></a>Exchange 相依性\n\n針對使用 Exchange Server 內部部署的客戶，可能會在建立和查看團隊用戶端的會議時，也可能會有一些限制，但在遵守合規性時也會發生這種情況。\n查看[Exchange 與 Microsoft 團隊如何互動](https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact)（估計讀取時間為3分鐘），以瞭解可能的限制。\n"
 - title: 會議配置選項
   durationInMinutes: 1
   content: "\n做為 IT 管理員，除了停用形式（例如影片或螢幕共用）之外，您還可以啟用和停用不同類型的會議。 查看[通話與會議](https://docs.microsoft.com/MicrosoftTeams/enable-features-office-365#calls-and-meetings)（估計讀取時間1分鐘），瞭解可從 IT 專業人員配置取得的選項。 本文也會列出會議參與者的數目上限。\n"

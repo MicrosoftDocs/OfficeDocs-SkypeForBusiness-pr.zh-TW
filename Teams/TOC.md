@@ -629,6 +629,7 @@
 ### [開始使用遠端學習](remote-learning-edu.md)
 ### [將原則指派給大型使用者集合](batch-policy-assignment-edu.md)
 ### [Teams 授權教育](teams-edu-licensing.md)
+### [教育版系統管理員的低頻寬指導方針](edu-remote-low-bandwidth.md)
 ### [Teams 教育版中的作業](expand-teams-across-your-org/assignments-in-teams.md)
 ### [Teams 教育版管理員的資源](resources-teams-edu.md)
 ### [適用於教育界管理員的 Microsoft Teams 原則套件](policy-packages-edu.md)
@@ -652,6 +653,7 @@
 # 安全性與合規性
 ## [概觀](security-compliance-overview.md)
 ## 安全性
+### [安全性手冊](teams-security-guide.md)
 ### [身分識別和驗證](identify-models-authentication.md)
 ### [使用新式驗證登入 Teams](sign-in-teams.md)
 ## 合規性
