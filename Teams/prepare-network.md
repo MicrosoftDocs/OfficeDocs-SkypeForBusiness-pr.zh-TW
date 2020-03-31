@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d85bb4ba32bf83d3c774a2b6700a96c7e35dcb2a
-ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
+ms.openlocfilehash: f91ba33e372334fed3561227f1c7f88f9357aa55
+ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42935240"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43060380"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>針對 Microsoft Teams 準備組織的網路 
 
@@ -34,7 +34,7 @@ ms.locfileid: "42935240"
     |  |  |
     |---------|---------|
     |埠     |UDP 埠<strong>3478</strong>到<strong>3481</strong>        |
-    |[IP 位址](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) |<strong>13.107.64.0/18</strong>和<strong>52.112.0.0/14</strong>        |
+    |[IP 位址](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) |<strong>13.107.64.0/18</strong>、 <strong>52.112.0.0/14</strong>和<strong>52.120.0.0/14</strong>         |
     
 2.  您有 Office 365 的驗證網域（例如，contoso.com）嗎？
     
@@ -67,7 +67,7 @@ ms.locfileid: "42935240"
 
   - 團隊執行緩慢（可能是您的頻寬不夠用）
   - 呼叫繼續放下（可能是防火牆或 proxy 攔截程式所致）
-  - 呼叫是靜態 y、剪取，或像是機器人的語音音效（可能是抖動或資料包遺失）
+  - 通話有靜態和剪下，或聲音像機器人（可能是抖動或資料包遺失）
 
 如需網路優化的深入討論，包括識別及修正網路障礙的指導方針，請參閱[Office 365 網路連接原則](https://aka.ms/pnc)。
 

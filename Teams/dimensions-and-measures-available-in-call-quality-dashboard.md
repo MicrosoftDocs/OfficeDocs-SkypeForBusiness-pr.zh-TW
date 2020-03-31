@@ -20,12 +20,12 @@ f1.keywords:
 - CSH
 ms.custom: Reporting
 description: 取得 Microsoft 團隊與商務用 Skype Online 的通話品質儀表板所使用之尺寸與度量的詳細資訊。
-ms.openlocfilehash: b23b87ee7cf0f28fca59a3dee13113dcf28a141a
-ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
+ms.openlocfilehash: 71f9f2ea8ea01108b0a2f80e8e07cacfeef899ea
+ms.sourcegitcommit: 62969bd1c3a74412aa692709d497b8c6c5992c5c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42583075"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "43059427"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard"></a>[通話品質] 儀表板中提供的尺寸與測量
 
@@ -501,7 +501,7 @@ CQD 所使用的字串通常是從資料檔案衍生而來，而且這些字元�
 
 |度量值名稱 |訂購 |描述 |
 |:--- |:--- |:--- |
-|資料流程計數總計 |串流數 |不論媒體類型為何，都要編號媒體資料流程。 |
+|資料流程計數總計 |串流數 |不論媒體類型為何，都要編號媒體資料流程，包括不含媒體類型的可靠性/診斷資料流程。 |
 | CDR 可用資料流程計數總計 | 串流數 |提供可靠性/診斷資訊的媒體資料流程數目。 請參閱[商務用 Skype Server 中的通話詳細資料錄製（CDR）](https://docs.microsoft.com/skypeforbusiness/manage/health-and-monitoring/call-detail-recording-cdr) |
 |媒體資料流程失敗的總數量 |串流數 |其中一個媒體路徑無法建立或無法正常終止的資料流程數目。 |
 |總通話設定失敗的資料流程計數 |串流數 |在呼叫開始時端點之間無法建立媒體路徑的串流數。 |
