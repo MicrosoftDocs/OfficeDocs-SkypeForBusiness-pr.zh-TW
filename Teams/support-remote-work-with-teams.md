@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 使用本指導方針來協助組織中的遠端工作者使用 Microsoft Teams 來提高生產力，尤其是當他們在家中工作 (WFH) 時，以因應 COVID-19 (冠狀病毒) 爆發的情況。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8ee5947aee6055a1e69f3d404c7d341c93fd7433
-ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
+ms.openlocfilehash: f954e9dff86b8c660d416a1aed8031912207ea4f
+ms.sourcegitcommit: ce6b6b57eb9683649f589b747163110bf42ae420
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43053596"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "43062665"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>支援使用 Microsoft Teams 的遠端工作者
 
@@ -111,6 +111,13 @@ ms.locfileid: "43053596"
    - Microsoft 安全部落格 (2020 年 3 月 26 日)：[在今日獨特的遠端工作情境中，安全專業人員與 IT 達到現代安全控制的另一種方法](https://www.microsoft.com/security/blog/2020/03/26/alternative-security-professionals-it-achieve-modern-security-controls-todays-unique-remote-work-scenarios/) (英文)
 
    - [遠端工作，保持安全 - 適用於 CISO 指引](https://www.microsoft.com/security/blog/?p=90736)
+
+   - [安全性團隊支援在家工作最常見的 12 項工作](https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work)
+   
+   - [使用 VPN 分割通道將遠端使用者的 Office 365 連線能力最佳化](https://docs.microsoft.com/zh-TW/Office365/Enterprise/office-365-vpn-split-tunnel)
+
+   - [安全性和 Teams](teams-security-guide.md) 進入 Teams 安全性的所有技術詳細資料，做為 Microsoft 365 企業級安全性最佳做法與程序的一部分。
+
 
     
 3. 閱讀有關遠端工作的新內容，並與您的使用者分享：

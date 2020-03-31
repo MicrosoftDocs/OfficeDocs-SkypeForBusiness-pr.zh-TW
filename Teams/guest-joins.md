@@ -14,12 +14,12 @@ ms.reviewer: sbhatta
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 取得來賓在 Microsoft 團隊中加入團隊的邀請。
+description: 取得訪客如何受邀加入 Microsoft Teams 中小組的簡短概觀。
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 491770bcd3c2f435bbd2ea18c366effea2c8124f
 ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 02/06/2020
 ms.locfileid: "41833173"
@@ -27,25 +27,25 @@ ms.locfileid: "41833173"
 <a name="how-a-guest-joins-a-team"></a>來賓如何加入小組
 ========================
 
-Microsoft 團隊中的小組擁有者可以透過網頁或桌面在他們的小組中新增和管理來賓。 任何擁有商務或消費者電子郵件帳戶的人（例如 Outlook、Gmail 或其他人），都可以在小組中以來賓的身分參與，擁有小組聊天、會議和檔案的完整存取權。 只有貴組織外部的人員（例如合作夥伴或顧問）可以新增為來賓。 貴組織內的人員可以加入為一般小組成員。
+Microsoft Teams 中的小組擁有者可以透過網頁或桌面，在其小組中新增及管理來賓。 任何擁有商務或消費者電子郵件帳戶的人員 (例如 Outlook、Gmail 或其他)，都能以來賓身分參與 Teams，擁有小組聊天、會議及檔案的完整存取權。 只有組織外部的人員 (例如合作夥伴或顧問) 可以新增為來賓。 貴組織內部的人員可以加入成為一般小組成員。
   
 > [!NOTE]
-> 預設會關閉來賓存取。 因此，在來賓加入小組之前，系統管理員必須開啟小組中的來賓存取權。 若要這樣做，請使用[來賓存取檢查清單](guest-access-checklist.md)。 
+> 根據預設，來賓存取權會關閉。 因此，在來賓可以加入小組之前，系統管理員必須開啟 Teams 中的來賓存取權。 若要這麼做，請使用[來賓存取檢查清單](guest-access-checklist.md)。 
   
-## <a name="how-a-guest-becomes-a-member-of-a-team"></a>來賓成為團隊成員的方式
+## <a name="how-a-guest-becomes-a-member-of-a-team"></a>來賓成為小組成員的方式
 
-1. 小組擁有者或 Office 365 管理員[將來賓新增至小組](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f)。
-1. Office 365 管理員或小組擁有者視需要管理來賓的功能：例如，允許來賓新增或刪除頻道或停用檔案存取權。
-1. 來賓會收到來自小組擁有者的歡迎電子郵件，以及小組的相關資訊，以及該小組所預期的成員。 
+1. 小組擁有者或 Office 365 系統管理員[將來賓新增至小組](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f)。
+1. Office 365 系統管理員或小組擁有者視需要管理來賓的功能：例如，允許來賓新增或刪除頻道或停用檔案存取權。
+1. 來賓會收到來自小組擁有者的歡迎電子郵件，其中具有小組相關資訊，以及現在成為成員預期有什麼優點。 
 1. 來賓接受邀請。
-  擁有屬於 Azure Active Directory 或 Office 365 公司或學校帳戶的電子郵件地址的來賓使用者，可以直接接受邀請。 
-  如果來賓還沒有與其電子郵件地址相關聯的 Microsoft 帳戶，他們將會被導向以免費建立一個。 
-1. 接受邀請之後，來賓可以[參與團隊和頻道](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499)、接收及回應頻道訊息、[存取頻道中](https://support.office.com/article/access-files-in-channels-c593c78a-27c4-4661-a598-682baa30ca7e)的檔案、參與聊天、加入會議、在檔上共同作業等等。 
+  擁有屬於 Azure Active Directory 或 Office 365 公司或學校帳戶電子郵件地址的來賓使用者可以直接接受邀請。 
+  如果來賓還沒有與他們的電子郵件地址相關聯的 Microsoft 帳戶，系統會引導他們免費建立一個帳戶。 
+1. 接受邀請之後，來賓可以[參與小組和頻道](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499)、接收及回應頻道訊息、[存取頻道中的檔案](https://support.office.com/article/access-files-in-channels-c593c78a-27c4-4661-a598-682baa30ca7e)、參與交談、加入會議、在文件上共同作業等等。 
 
-在團隊中，系統會明確識別來賓。 來賓使用者的名稱包括標籤 **（來賓）**，而頻道包含一個圖示，表示小組中有來賓。 如需更多詳細資料，請參閱[來賓體驗](guest-experience.md)。
+在 Teams 中，系統會清楚地識別來賓。 來賓使用者的名稱包括標籤 **(來賓)**，頻道包含一個圖示指出小組中有來賓。 如需詳細資訊，請參閱[來賓體驗像什麼](guest-experience.md)。
   
-來賓可以隨時從團隊中離開團隊。 如需詳細資訊，請參閱[如何離開團隊？](https://support.office.com/article/leave-a-team-e481005d-3ec6-4694-b300-375472ba4076)
+來賓隨時可以離開 Teams 內的小組。 如需詳細資訊，請參閱[如何離開小組？](https://support.office.com/article/leave-a-team-e481005d-3ec6-4694-b300-375472ba4076)
 
 > [!NOTE]
-> 離開團隊並不會從組織/租使用者移除來賓帳戶。 如需如何將組織從組織中移除，請參閱[讓組織成為來賓使用者](https://docs.microsoft.com/azure/active-directory/b2b/leave-the-organization)。 <br><br>或者，組織的系統管理員可以從租使用者移除來賓使用者。
+> 離開小組不會從組織/租用戶中移除來賓帳戶。 請參閱[以來賓使用者的身分離開組織](https://docs.microsoft.com/azure/active-directory/b2b/leave-the-organization)，了解如何將自己從組織中移除。 <br><br>或者，組織的系統管理員可以從租用戶中移除來賓使用者。
 
