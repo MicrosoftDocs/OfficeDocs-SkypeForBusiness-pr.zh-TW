@@ -1,7 +1,7 @@
 ---
 title: 規劃 Microsoft 365 政府 DoD 部署-Microsoft 團隊
 author: lolajacobsen
-ms.author: lolaj
+ms.author: heidip
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,16 +17,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 12d9350437867b04a181e62e8b23bb6ed78d8fbc
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: 82c7c8625ca5fcdab7325cf74fcde0c60049da07
+ms.sourcegitcommit: 4e1647d19501b37860d9fc79370fa4347f76f85f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42161734"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43079445"
 ---
 # <a name="plan-for-microsoft-365-government---dod-deployments"></a>規劃 Microsoft 365 政府 DoD 部署
 
-本指導方針適用于在美國聯邦政府機構中部署 Office 365 的 IT 專業人員，或其他處理受限於政府法規與需求之資料的實體，而在這些實體中使用 Microsoft 365 政府版-DoD 適用于符合這些需求。
+本指導方針適用于在美國聯邦政府機構中的 Office 365 部署，或其他處理受政府管理法規與需求之資料的實體，在此專業人員中，使用 Microsoft 365 政府-DoD 適合滿足這些需求。
 
 > [!NOTE]
 > 如果您的組織已符合 Microsoft 365 政府-DoD 資格要求，且已在計畫中套用並接受，您可以跳過步驟1和2，然後直接移至步驟3。
@@ -67,82 +67,14 @@ Microsoft 365 政府 DoD 環境提供與美國雲端服務政府需求相符的�
 
 |    |     |
 |-----------|------------|
-| ![描述決策點的圖示](media/audio_conferencing_image7.png) <br/>決策點|<ul><li>判斷您是否需要修改任何預設的 Microsoft 365 政府 DoD 安全性設定，以解決您的任何變更對您可能造成的影響。</li></ul> |
+| ![描繪決策點的圖示](media/audio_conferencing_image7.png) <br/>決策點|<ul><li>判斷您是否需要修改任何預設的 Microsoft 365 政府 DoD 安全性設定，以解決您的任何變更對您可能造成的影響。</li></ul> |
 
 
 ## <a name="step-4-understand-which-teams-capabilities-are-currently-available-in-microsoft-365-government---dod"></a>步驟4。 瞭解 Microsoft 365 政府-DoD 目前提供哪些團隊功能
 
 為了符合政府雲端客戶的需求，Microsoft 365 政府-DoD 和團隊在企業方案中有一些差異。 請參閱下表，查看有哪些功能可供使用。
 
-|                             | 功能                     | DoD       |
-|-----------------------------|-----------------------------|----------------|
-| 基本 | Id | 離線 |
-| | 目前狀態 | 離線 |
-| | 整合的目前狀態（商務用 Skype 和小組已統一） | 在政府積壓工作 |
-| | Linux 用戶端 | 在政府積壓工作 |
-| 操作 | 複製 | 離線 |
-|  | 我的活動 | 離線 |
-| 聊天 | 交談 | 離線 |
-| | 檔案 | 離線 |
-| | 組織結構 | 離線 |
-| | 操作 | 離線 |
-| | 互通性（1:1 團隊-商務用 Skype 聊天） | 在政府積壓工作 |
-| Teams | 頻道訊息 | 離線 |
-| | 頻道檔案 | 離線 |
-| | [OneNote] 索引標籤 | 在政府積壓工作 |
-| | 透過電子郵件傳送頻道 | 無法使用 |
-| | 新增成員 | 離線 |
-| | 來賓存取 | 在政府積壓工作 |
-| 會議 | 排程會議 | 離線 |
-| | 加入會議 | 離線 |
-| | VoIP 會議 | 離線 |
-| | 桌面共用 | 離線 |
-| | 在共用中提供控制權並加以控制 | 離線 |
-| | 從會議室連接 | 離線 |
-| | 雲端錄製 | 在政府積壓工作 |
-| | 會議記事 | 離線 |
-| | 廣播會議 | 在政府積壓工作 |
-| | 雲端（DoD 到 DoD）同盟會議 | 離線 |
-| | Surface Hub 支援 | 在政府積壓工作 |
-| 撥 | 連絡人 | 離線 |
-| | 歷程記錄 | 離線 |
-| | 語音信箱 | 離線 |
-| | VoIP 通話 | 離線 |
-| | 商務用 Skype-小組通話 | 離線 |
-| | 通話方案 | 無法使用 |
-| | 音訊會議（透過允許會議參與者透過 PSTN 加入） | 離線 |
-| | Microsoft Phone 系統直向路由 | 在政府積壓工作 |
-| | PSTN 呼叫者的大廳 | 在政府積壓工作 |
-| | 通話佇列 | 在政府積壓工作 |
-| | 老闆及代理人支援 | 在政府積壓工作 |
-| | 顧問式與安全轉接 | 在政府積壓工作 |
-| | 請勿打擾突破 | 在政府積壓工作 |
-| | 區別性鈴聲 | 在政府積壓工作 |
-| | 1:1 至團隊、商務用 Skype 和 PSTN 參與者的群組通話升級 | 在政府積壓工作 |
-| | [轉寄至] 群組 | 在政府積壓工作 |
-| | 轉接至 PSTN 通話 | 在政府積壓工作 |
-| | 緊急電話撥打電話方案 | 在政府積壓工作 |
-| | 現有的認證 SIP 手機支援 | 在政府積壓工作 |
-| | USB HID | 離線 |
-| | 通話和會議的 eDiscovery | 離線 |
-| | 組織自動語音應答 | 在政府積壓工作 |
-| | Skype 消費者-小組通話支援 | 無法使用 |
-| 檔案 | 近 | 離線 |
-| | Microsoft Teams | 離線 |
-| 存放 | App Store | 無法使用 |
-| 檢索 | 錯誤資訊 | 離線 |
-| | 人員 | 離線 |
-| | 檔案 | 離線 |
-| | 斜杠命令 | 離線 |
-| 從屬 | 合規性內容搜尋 | 離線 |
-| | 留成 | 離線 |
-| | 審核記錄搜尋 | 離線 |
-| | 法律封存 | 離線 |
-| | eDiscovery | 離線 |
-
-|    |     |
-|-----------|------------|
-| ![描述決策點的圖示](media/audio_conferencing_image7.png) <br/>決策點|<ul><li>決定 [小組] 功能集是否符合貴組織的需求。</li></ul> |
+[Microsoft 團隊服務描述](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)
 
 ## <a name="step-5-plan-for-governance"></a>步驟5。 規劃管理
 

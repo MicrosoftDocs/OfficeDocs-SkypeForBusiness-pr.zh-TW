@@ -17,12 +17,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c548886eafede9ba4525fd9a17d2d7655f8c5a8
-ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
+ms.openlocfilehash: 63a091c3b3c93f6b3769c538b74c17b4235a09a5
+ms.sourcegitcommit: 4e1647d19501b37860d9fc79370fa4347f76f85f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42892263"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43079395"
 ---
 # <a name="shifts-for-teams"></a>Teams 中的 Shifts
 
@@ -87,7 +87,7 @@ ms.locfileid: "42892263"
 
 </ul>
 
-### <a name="set-up-and-manage-shifts"></a>設定及管理倒班
+### <a name="set-up-and-manage-shifts-for-your-organization"></a>為您的組織設定及管理倒班
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -120,6 +120,67 @@ ms.locfileid: "42892263"
                     </div>
                     <div class="cardText">
                         <h3>倒班第一線員工工作者的協助</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+</ul>
+
+---
+
+## <a name="featured-training"></a>精選訓練
+
+<ul class="panelContent cardsFTitle">
+    <li>
+        <a href="https://support.office.com/article/what-is-shifts-f8efe6e4-ddb3-4d23-b81b-bb812296b821">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/arrow-right-2-teams.svg" alt="An arrow icon representing quick start" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>影片：什麼是倒班？</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://support.office.com/article/create-a-shifts-schedule-2b94ca38-36db-4a1c-8fee-f8f0fec9a984">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/clock-teams.svg" alt="An icon representing an analog clock" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>影片：建立倒班排程</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+        <li>
+        <a href="https://support.office.com/article/manage-a-shifts-schedule-63acda7b-ea39-441a-b1c6-c404a72e79f7">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/blocks-teams.svg" alt="A building blocks icon" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>影片：管理倒班排程</h3>
                     </div>
                 </div>
             </div>

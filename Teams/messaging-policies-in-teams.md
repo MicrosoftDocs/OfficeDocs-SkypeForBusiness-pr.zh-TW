@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: 瞭解訊息原則，以及如何使用它們來控制小組中的聊天訊息。
-ms.openlocfilehash: 476fd2cf77b7ec57a0279d71b614dc50395b3023
-ms.sourcegitcommit: 62969bd1c3a74412aa692709d497b8c6c5992c5c
+ms.openlocfilehash: a589b676a6c1da24eae7a25218fcfd449160f374
+ms.sourcegitcommit: 4e1647d19501b37860d9fc79370fa4347f76f85f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "43059407"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43079435"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>管理小組中的訊息傳遞原則
 
@@ -92,7 +92,7 @@ ms.locfileid: "43059407"
 - **允許 URL 預覽**使用此設定可開啟或關閉郵件的自動 URL 預覽。
 - **允許使用者翻譯郵件**開啟此設定可讓使用者自動將小組郵件翻譯成由 Office 365 的個人語言設定所指定的語言。
 - **允許沉浸式閱讀程式查看郵件**開啟此設定可讓使用者在 Microsoft 沉浸式閱讀程式中查看郵件。 沉浸式閱讀程式是一種學習工具，可提供全螢幕閱讀體驗，以增強文字的可讀性。
-- **使用優先順序通知傳送緊急郵件**如果您開啟此選項，使用者可以傳送使用優先順序通知的郵件。 [優先順序通知] 會在20分鐘內每隔兩分鐘通知使用者，或直到郵件透過收件者取得並繼續閱讀為止，最大限度地提高郵件的取得時間，並以及時的方式進行動作。   [!INCLUDE [pri-message-offer](includes/pri-message-offer.md)]
+- **使用優先順序通知傳送緊急郵件**如果您開啟此選項，使用者可以使用[優先順序通知](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462)傳送郵件。 [優先順序通知] 會每隔兩分鐘通知使用者一段20分鐘，或直到收件者收到標示為*緊急*的郵件，以及時最大限度地處理郵件的可能性。   [!INCLUDE [pri-message-offer](includes/pri-message-offer.md)]
 - **建立音訊訊息** 
   > [!Important]
   > 不會在 eDiscovery 報表中捕獲音訊訊息。 
