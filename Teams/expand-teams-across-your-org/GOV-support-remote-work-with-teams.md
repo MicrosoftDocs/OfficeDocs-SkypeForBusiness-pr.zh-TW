@@ -15,12 +15,12 @@ search.appverid: MET150
 description: 使用本指導方針來協助政府組織中的遠端工作者使用 Microsoft Teams 來提高生產力，尤其是當他們在家中工作 (WFH) 時，以因應 COVID-19 (冠狀病毒) 爆發的情況。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3ba76e667b7dc5aeb3ae83b2d2a19d5e4da5d653
-ms.sourcegitcommit: a2b2ae17a35f530f797504bb85b44f1a0f561a7d
+ms.openlocfilehash: 35bd251b4b8ef6a13263148c5fbb2245256dad3f
+ms.sourcegitcommit: 4e1647d19501b37860d9fc79370fa4347f76f85f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "42983840"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43079385"
 ---
 # <a name="support-remote-government-workers-using-microsoft-teams"></a>支援使用 Microsoft Teams 的遠端政府工作者
 
@@ -57,7 +57,7 @@ ms.locfileid: "42983840"
 
 與使用者共用這些資產與影片，以協助他們快速入門：
 
-  - 下載**[適用於政府的快速入門手冊](https:aka.ms/quickstartgov)** 以了解 Teams 基本概念。
+  - 下載**[適用於政府的快速入門手冊](https://aka.ms/quickstartgov)** 以了解 Teams 基本概念。
 
   - 觀看 **[簡短的快速入門影片](https://support.office.com/article/video-what-is-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d?wt.mc_id=otc_microsoft_teams)** 以逐步了解 Teams，並觀看 **[會議影片](https://support.office.com/article/join-a-teams-meeting-078e9868-f1aa-4414-8bb9-ee88e9236ee4)**，以了解如何在 Teams 中使用會議的方法。
 
