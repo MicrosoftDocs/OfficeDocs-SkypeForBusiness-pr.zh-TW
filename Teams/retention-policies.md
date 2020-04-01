@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a9097dfc43ca0f70d37b0051e6b0e10283da26c3
-ms.sourcegitcommit: e710bb8dbbd084912cbf509896515a674ab5e19f
+ms.openlocfilehash: e2c918a8276be2eeab0a125a1661b70b42c6b069
+ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43033387"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43096998"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Microsoft 團隊中的保留原則
 
@@ -82,7 +82,7 @@ ms.locfileid: "43033387"
 
 - 小組不支援 [高級保留] 設定，例如，將原則套用至包含關鍵字或機密資訊的內容。 目前，小組中的保留原則會套用至所有聊天和/或通道郵件內容。
 
-- 小組可能需要長達三天的時間來清除過期的訊息。 當保留期間到期時，小組保留原則會刪除聊天和頻道訊息。 不過，您可能需要長達三天的時間來清除這些訊息，並將它們永久刪除。 此外，聊天和頻道訊息在保留期到期之後以及永久刪除郵件的時間之間，都能使用 eDiscovery 工具進行搜尋。
+- 小組可能需要最多三到七天的時間來清除過期的訊息。 當保留期間到期時，小組保留原則會刪除聊天和頻道訊息。 不過，您可能需要最多三到七天的時間來清除這些訊息，並將它們永久刪除。 此外，聊天和頻道訊息在保留期到期之後以及永久刪除郵件的時間之間，都能使用 eDiscovery 工具進行搜尋。
 
 ### <a name="multiple-retention-policies-and-the-principles-of-retention"></a>多種保留原則和保留原則
 

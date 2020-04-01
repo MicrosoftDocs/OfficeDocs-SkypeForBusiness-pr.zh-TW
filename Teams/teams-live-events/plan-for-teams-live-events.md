@@ -17,12 +17,12 @@ search.appverid: MET150
 description: 瞭解在 Microsoft 團隊中設定即時事件之前要考慮的因素。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 816cfb3c971621a367dcf81d1ec555e9735bda9d
-ms.sourcegitcommit: a2b2ae17a35f530f797504bb85b44f1a0f561a7d
+ms.openlocfilehash: fac7ca633985a030fd611578466b52912cd3b445
+ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "42983859"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43096817"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>規劃 Microsoft 團隊中的即時事件
 
@@ -89,13 +89,13 @@ ms.locfileid: "42983859"
 |Windows 上的製造者用戶端 |&#x2714; （商務用 Skype） |&#x2714; （團隊） |&#x2714; （資料流程、透過資料流程內嵌的團隊） |
 |Mac 上的製造者用戶端 |X  | &#x2714; （團隊） |&#x2714; （資料流程、透過資料流程內嵌的團隊） |
 |製造者 UI 中的出席者計數 |X  |&#x2714; （團隊） |&#x2714; （資料流程、透過資料流程內嵌的團隊） |
-|允許多重簡報者 |&#x2714; （商務用 Skype） |&#x2714; （團隊） |不適用  |
-|在會議期間邀請簡報者 |&#x2714; （商務用 Skype） |X |不適用 |
-|簡報者加入網頁和行動裝置 |&#x2714; （商務用 Skype）  |X |不適用 |
-|聯盟 & 來賓簡報者/出席者 |&#x2714; （商務用 Skype）  | （即將推出） |不適用 |
-|簡報者-PSTN 存取 |X |&#x2714; （團隊） |不適用 |
-|展示畫面 |X |&#x2714; （團隊） |不適用 |
-|展示 PowerPoint （PPT 共用） |&#x2714; |X （透過螢幕共用減輕） |不適用 |
+|允許多重簡報者 |&#x2714; （商務用 Skype） |&#x2714; （團隊） |N/A  |
+|在會議期間邀請簡報者 |&#x2714; （商務用 Skype） |X |N/A |
+|簡報者加入網頁和行動裝置 |&#x2714; （商務用 Skype）  |X |N/A |
+|聯盟 & 來賓簡報者/出席者 |&#x2714; （商務用 Skype）  | &#x2714; （團隊）  |N/A |
+|簡報者-PSTN 存取 |X |&#x2714; （團隊） |N/A |
+|展示畫面 |X |&#x2714; （團隊） |N/A |
+|展示 PowerPoint （PPT 共用） |&#x2714; |X （透過螢幕共用減輕） |N/A |
 |以雲端為基礎的會議錄製 |&#x2714; |&#x2714; |&#x2714; |
 |自動發行錄製至串流 |X |X |&#x2714; |
 |即時輔助字幕和字幕 |&#x2714; |&#x2714; |X |

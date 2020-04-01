@@ -16,19 +16,19 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8fc2a66e2414350a56874583af6a00f688450f0e
-ms.sourcegitcommit: 996ae0d36ae1bcb3978c865bb296d8eccf48598e
+ms.openlocfilehash: 8cee6937a1bdc2bef6d2184066cb32a4aa94d8e6
+ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "43068515"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43096848"
 ---
 # <a name="set-up-the-call-me-feature-for-your-users"></a>為您的使用者設定語音來電功能
 
 在 Microsoft 團隊中，[**撥號給我**] 功能可讓使用者透過電話加入會議的音訊部分。 這在使用音訊電腦的情況下可能很方便。 使用者透過其手機或土地線，以及會議&mdash;的內容部分（例如其他會議參與者共用螢幕或透過電腦播放影片&mdash;），取得會議的音訊部分。
 
 > [!IMPORTANT]
-> 在 COVID-19 爆發期間，我們建議使用者按一下 [**加入團隊會議**] 按鈕，而不是使用 PSTN 會議號碼撥入，或使用 [**呼叫我**] 來加入會議。 這有助於在較高的會議容量在 PSTN 網路上造成擁擠的情況下，確保品質的音訊。
+> 在 COVID-19 爆發期間，我們建議使用者按一下 [**加入團隊會議**] 按鈕，而不是使用 PSTN 會議號碼撥入，或使用 [**呼叫我**</strong>] 來加入會議。 這主要是因為 COVID-19 所影響之國家/地區的電話架構中的擁塞。 透過避免 PSTN 通話，您可能會遇到較好的音訊品質。 
 
 ## <a name="the-user-experience"></a>使用者體驗
 
