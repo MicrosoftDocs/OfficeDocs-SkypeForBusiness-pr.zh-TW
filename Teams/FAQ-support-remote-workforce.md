@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 使用本指導方針支援在家中工作 (WFH) 的遠端員工提高生產力，以因應 COVID-19 (冠狀病毒) 爆發的情況。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 720a94f86bd8ca0d84d682b15d59461a4b9133fb
-ms.sourcegitcommit: 62969bd1c3a74412aa692709d497b8c6c5992c5c
+ms.openlocfilehash: d897fe85bbc1dc2a77759b126bce5436cc617c04
+ms.sourcegitcommit: 996ae0d36ae1bcb3978c865bb296d8eccf48598e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/31/2020
-ms.locfileid: "43059397"
+ms.locfileid: "43068505"
 ---
 # <a name="faq-support-your-remote-workforce"></a>常見問題：支援遠端員工
 
@@ -42,6 +42,10 @@ Microsoft 在最近發佈的 COVID-19 (冠狀病毒) 疫情公告中，大量擴
 ### <a name="with-the-actions-that-microsoft-is-taking-do-we-anticipate-problems"></a>對於 Microsoft 所採取的行動，我們可以預見到問題嗎？
 
 儘管 Microsoft 一直在盡力避免出現問題，但是由於病毒傳播而導致區域發生非預期的尖峰，可能會造成暫時性問題。 在我們持續主動監視容量並視需要增加的同時，您可能會受到影響，直到我們可以在這些區域增加容量為止。 此外，還有一些 Microsoft 無法控制的外部狀況。 我們預見到 ISP 和電信業者也在採取前瞻性行動，但是他們不一定有能力處理越來越多的在家工作者越來越多的負載。我們將與業界共同致力於網路基礎結構。 如果您有中斷的問題，請查詢 [訊息中心] 以了解目前任何的中斷情況。
+
+### <a name="what-can-admins-do-if-attendees-are-having-trouble-joining-meetings-by-dialing-in-such-as-if-calls-arent-getting-through"></a>如果出席者無法透過撥入來順利加入會議，例如電話打不通，系統管理員可以怎麼做？
+
+在 COVID-19 疫情爆發期間，我們建議使用者按一下 [加入 Teams 會議]**** 按鈕，而不要使用 PSTN 會議號碼或使用 [撥號給我]**** 來加入會議。 這有助於在大量會議造成 PSTN 網路擁塞時確保音訊品質。
 
 ### <a name="what-are-the-general-microsoft-guidelines-regarding-network-optimization-for-microsoft-365-some-of-my-users-in-china-are-having-a-bad-experience-what-should-i-do-to-optimize-our-network"></a>Microsoft 對於 Microsoft 365 網路最佳化的一般指導方針為何？ 我在中國的一些使用者體驗不佳；我應該怎麼做才能將網路最佳化？
 
