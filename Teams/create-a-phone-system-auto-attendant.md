@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 瞭解如何為 Microsoft 團隊設定及測試雲端自動語音應答。
-ms.openlocfilehash: b89f2b439cf79cf90915c61771bb5a08ef27db99
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 9f166e8626d799cb95a447b453663b60079b0704
+ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824804"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43102082"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>設定雲端自動語音應答
 
@@ -73,7 +73,7 @@ ms.locfileid: "41824804"
 * * *
 
 ![數位2的圖示，前一個螢幕擷取畫面](media/teamscallout2.png)
- <a name="operator"></a> 
+ <a name="operator"> </a> 
 **操作員**中的標注這是選擇性的（但建議使用）。 您可以設定 [**運算子**] 選項，讓呼叫者中斷功能表並向指定的人朗讀。
 
 預設會將0按鍵指派給接線員。
@@ -109,7 +109,7 @@ ms.locfileid: "41824804"
 * * *
 
 ![數位4的圖示，前一個螢幕擷取畫面](media/teamscallout4.png)
- <a name="language"></a> 
+ <a name="language"> </a> 
 **語言**中的標注選取您要用於自動語音應答的語言。 自動語音應答會將該語言用於呼叫者，且系統會以這種語言來播放所有系統提示。
 
  * * *
@@ -220,8 +220,13 @@ ms.locfileid: "41824804"
 
 > [!IMPORTANT]
 > 請注意下列事項：
->- 您想要讓撥打電話的使用者在[Microsoft 365 系統管理中心](https://docs.microsoft.com/office365/admin/add-users/add-users?view=o365-worldwide#use-the-new-admin-center-to-add-users)指派的電話號碼或行動電話號碼的一部分，必須具備副檔名。  在 [使用者電話號碼] 欄位中輸入延伸所需的格式，可以`+<phonenumber>;ext=<extension>`是`x<extension>`或。
->- 目前不支援在團隊系統管理中心指派延伸。 您必須使用[MsolUser](https://docs.microsoft.com/powershell/module/msonline/set-msoluser?view=azureadps-1.0) powershell 命令或 Microsoft 365 系統管理中心。
+>- 您想要讓撥打電話使用的使用者必須將延伸指定為下列其中一個電話屬性（在 Active Directory 或 Azure Active Directory [Microsoft 365 系統管理中心](https://docs.microsoft.com/office365/admin/add-users/add-users?view=o365-worldwide#use-the-new-admin-center-to-add-users)定義）的一部分。
+>    - HomePhone
+>    - 行動/MobilePhone
+>    - Telephonenumber 相同/PhoneNumber
+>    - OtherTelephone
+>- 在 [使用者電話號碼] 欄位中輸入延伸所需的格式，可以`+<phonenumber>;ext=<extension>`是`x<extension>`或。
+>- 目前不支援在團隊系統管理中心指派延伸。 您必須使用[MsolUser](https://docs.microsoft.com/powershell/module/msonline/set-msoluser?view=azureadps-1.0) PowerShell 命令或 Microsoft 365 系統管理中心。
 >- 在 AAD PhoneNumber 和 MobilePhone 屬性的變更可供使用前，可能需要最多12小時的時間。
 >- 請不要定義使用者 LineUri 的延伸。 目前不支援這種情況。
 >- 自動語音應答可以設定為透過名稱撥號，或使用撥打電話給撥號，但不能同時使用這兩者。
@@ -273,7 +278,7 @@ If you choose **Write your call instructions**, enter the script  you want the s
 
  <!-- The **Apply to all days** option can be used to reset all days of the week to match the settings for that day. This makes setting weekdays and weekends to different hours easier.-->
 
-![數位6的圖示，前一個螢幕擷取畫面](media/teamscallout6.png)中的標注若要設定工間休息（例如午餐），請選取 [新增**時間**]，以建立新的表格列，然後選取 [新的開始] 和 [結束] 時間。 您可以在上班時間內設定多個工間休息。
+![數位6的圖示，前一個螢幕擷取畫面](media/teamscallout6.png)中的標注：若要設定工間休息（例如午餐），請選取 [新增一周的**新時間**] 來建立新的表格列，然後選取 [新的開始] 與 [結束] 時間。 您可以在上班時間內設定多個工間休息。
 
 下班時間之後所提供的[通話流程](#call-flow)選項，與在上班時間期間提供的選項相同。 向下滾動 [資訊輸入] 頁面，設定 [下班後通話流程] 選項。
 
