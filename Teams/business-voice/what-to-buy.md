@@ -1,5 +1,5 @@
 ---
-title: 使用 Microsoft 365 商務語音需要購買哪些項目？
+title: 使用 Microsoft 365 商務語音附帶通話方案需要購買哪些項目？
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -24,30 +24,43 @@ no-loc:
 - Teams
 - Microsoft Teams
 - Office 365
-ms.openlocfilehash: 0e0d483a3655753527b42a44e51aab68c08eaa95
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 13c2e6dcb2f3f26fc016a96d9acabba4029d91ae
+ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824571"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43096828"
 ---
 # <a name="what-do-i-need-to-buy-to-use-microsoft-365-business-voice"></a>使用 Microsoft 365 商務語音需要購買哪些項目？
 
 ## <a name="microsoft-365-business-voice-licenses"></a>Microsoft 365 商務語音授權
 
-若要在 Microsoft Teams 中撥打或接聽*外部*電話號碼電話，使用者需要 Microsoft 365 商務語音授權。 該授權提供使用者存取撥打或接聽電話、主持音訊會議等所需的所有功能。
+若要在 Microsoft Teams 中撥打或接聽*外部*電話號碼的電話，使用者需要 Microsoft 365 商務語音授權。 該授權提供使用者存取撥打或接聽電話、主持音訊會議等所需的所有功能。
 
 不需要撥打或接聽外部電話號碼電話的使用者只需要 Teams。 不需要 Microsoft 365 商務語音授權。
 
 例如，您可能有 10 位工廠員工和 5 位辦公室員工。 工廠員工只需要在公司內撥打電話給其他員工。 辦公室員工需要撥打電話給其他員工，而且也需要撥打和接聽供應商、合作夥伴和客戶的電話。 在此情況下，只有那 5 位辦公室員工需要 Microsoft 365 商務語音授權。
 
-商務語音隨附國內通話方案，可讓您在您的國家或地區內每月撥打特定的通話分鐘數。 若需要撥打至其他國家或地區，您可以購買國際通話方案。 您使用*通訊點數*支付國際通話方案、國內通話方案的每月額外通話分鐘數，以及免付費電話號碼。 您稍後將在本文中深入了解有關通話方案和通訊點數的詳細資訊。
+### <a name="business-voice-license-types"></a>商務語音授權類型
+
+有兩種商務語音授權類型：商務語音**附帶**通話方案和商務語音**不附帶**通話方案。 您可以使用的商務語音授權類型取決於您的 Microsoft 365 租用戶的位置。 授權類型決定您是否可以從管理您的電話號碼的 Microsoft 合作夥伴或轉銷商取得協助，來自行設定商務語音等等。
+
+- **商務語音附帶通話方案** 您可以從 Microsoft 購買商務語音，使用 [快速入門精靈] 設定商務語音，然後將現有的電話號碼設定或轉移到 Microsoft。 本文[使用 [快速入門精靈] 設定商務語音](use-getting-started-wizard.md)說明如何為您的租用戶設定商務用語音。
+
+  如需購買商務語音附帶通話方案授權的詳細資訊，請參閱本文稍後的[商務語音附帶通話方案](#business-voice-with-calling-plan)。
+- **商務語音不附帶通話方案** 您需要從 Microsoft 合作夥伴或轉銷商購買商務語音，他們將協助您設定商務用語音。 您現有的電話號碼會保留在您目前的第三方電話提供者。 本文[從 Microsoft 轉銷商或合作夥伴取得協助](reseller-partner-support.md)，提供在您的租用戶中設定商務語音所需程序的概觀。
+
+若要查看您的國家/地區是否支援通話方案，請參閱[適用于商務語音的國家和地區可用性](country-region-availability.md)。
 
 若要了解商務語音功能，請參閱 [Microsoft 365 商務版語音服務描述](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-business-voice-service-description)。
 
-若要購買 Microsoft 365 商務語音授權，請登入 [[系統管理中心]](https://admin.microsoft.com/Adminportal/Home#/homepage)，然後前往 **[帳單]** > **[購買服務]**。
+## <a name="business-voice-with-calling-plan"></a>商務語音附帶通話方案
 
-## <a name="calling-plans"></a>通話方案
+商務語音附帶通話方案隨附國內通話方案，可讓您在您的國家/地區內每月撥打特定的通話分鐘數。 若需要撥打至其他國家或地區，您可以購買國際通話方案。 您使用*通訊點數*支付國際通話方案、國內通話方案的每月額外通話分鐘數，以及免付費電話號碼。 您稍後將在本文中深入了解有關通話方案和通訊點數的詳細資訊。
+
+若要購買 Microsoft 365 商務語音附帶通話方案授權，請登入 [系統管理中心][](https://admin.microsoft.com/Adminportal/Home#/homepage)，然後前往 [帳單]**** > [購買服務]****。
+
+### <a name="calling-plans"></a>通話方案
 
 通話方案可以讓使用者撥打組織外部的電話號碼。 通話方案隨附每月共用通話時間，視指定國家或地區中受指派商務語音授權的人數而定。 當使用者撥打電話時，該通話的分鐘數便會從每月共用通話時間扣減。 系統會在每個月初重設每月共用通話時間的餘額分鐘數。
 
@@ -60,24 +73,27 @@ ms.locfileid: "41824571"
 
 通話方案有兩種：
 
-### <a name="domestic-calling-plan"></a>國內通話方案
+#### <a name="domestic-calling-plan"></a>國內通話方案
 
-國內通話方案可以讓使用者在其國家或地區內撥打電話號碼。 商務語音包含有國內通話方案，可供每個獲派商務語音授權的使用者使用。 每位使用者每月可使用的分鐘數視使用者所在的國家/地區而定。 此表格顯示支援商務語音的每個國家或地區可使用的分鐘數：
+國內通話方案可以讓使用者在其國家或地區內撥打電話號碼。 商務語音包含有國內通話方案，可供每個獲派商務語音授權的使用者使用。 每位使用者每月可使用的分鐘數視使用者所在的國家/地區而定。 此表格顯示商務語音包含的通話方案中，每個國家/地區可使用的分鐘數：
 
-|使用者所在位置          |國內通話的每月配額 |
-|-----------------------------------|-------------------------------------|
+|使用者所在位置          |國內通話的每月配額  |
+|-----------------------------------|--------------------------------------|
 |加拿大                             | 3,000                                |
 |英國                     | 1,200                                |
+|美國                      | 3,000                                |
+
+在上表未列出的國家/地區中，商務語音並未包含通話方案。 如需所有可供使用的國家/地區的清單，請參閱[商務語音可用性](country-region-availability.md)。
 
 美國和加拿大之間的通話視為國內通話。 您不需要新增國際通話方案就能在這兩個國家或地區之間撥打電話。
 
-### <a name="international-calling-plan"></a>國際通話方案
+#### <a name="international-calling-plan"></a>國際通話方案
 
 國際通話方案可讓使用者撥打在其國家或地區之外的電話號碼。 國際通話方案會以附加方案的形式購買。
 
 當您考慮是否要為使用者購買國際通話方案時，請判斷使用者撥打電話的頻率和通話時間。 這很重要，因為當您購買國際通話方案時，您必須提前支付一些分鐘數的費用。 如果使用者沒有在一個月內用完所有分鐘數，剩餘的分鐘數會在下個月初捨棄。 如果使用者可能不會將國際通話方案中的分鐘數用盡，請不要購買。 請改使用通訊點數 (請參閱下一節)。
 
-## <a name="communications-credits"></a>通訊點數
+### <a name="communications-credits"></a>通訊點數
 
 通訊點數就像是一種數位錢包，可以用來支付撥打或接聽電話系統外部電話號碼的通話。 通訊點數可以在以下幾種情況下使用。
 
@@ -87,7 +103,7 @@ ms.locfileid: "41824571"
 
 如果您的通訊點數到月底時還有剩餘，這些餘額將會轉入下個月使用。
 
-### <a name="buy-communication-credits"></a>購買通訊點數
+#### <a name="buy-communication-credits"></a>購買通訊點數
 
 我們強烈建議您永遠保有通訊點數最低餘額，讓您的使用者能夠隨時撥打電話。 若要確保您永遠保有可用餘額，最簡單的方法就是設定自動加值。 透過自動加值，當餘額低於最低額度時，Microsoft 365 會自動加值。 您可以選擇最低額度以及每次購買量。 如果您偏好手動加值通訊點數餘額，您也可以這樣做。
 
@@ -97,7 +113,3 @@ ms.locfileid: "41824571"
 若要深入了解通訊點數，請參閱[什麼是通訊點數？](../what-are-communications-credits.md)
 
 若要查看免付費電話和國際電話的費率，請在 [[雲端式電話系統]](https://products.office.com/microsoft-teams/voice-calling#ow-download-rates) 中，向下捲動至 [透過通訊點數來增加時間]。
-
-## <a name="maximum-number-of-supported-users"></a>支援的使用者數最大值
-
-中小型 Microsoft 365 訂閱提供的商務語音授權支援最多 300 位授權使用者。 如果您想要授權的商務語音使用者超過 300 位，您需要購買 Office 365 E3 或 E5 訂閱。
