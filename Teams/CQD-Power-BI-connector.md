@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 安裝 Power BI 連接器以使用 CQD 查詢範本
-ms.openlocfilehash: 393bfaf6348bb5ebc8c46df011387961d95cccfa
-ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
+ms.openlocfilehash: 73f19ef893aebbbd2c6ab9b79946097d6a834c36
+ms.sourcegitcommit: f0f2fa999c1ca4a1118377c7938a247f79217609
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 04/02/2020
-ms.locfileid: "43102344"
+ms.locfileid: "43106690"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>安裝 Power BI 連接器以使用 CQD 查詢範本
 
@@ -121,7 +121,7 @@ ms.locfileid: "43102344"
 
 ### <a name="im-trying-to-use-the-date-column-as-a-date-slicer-as-soon-as-i-convert-the-data-type-of-this-column-to-date-i-get-this-error"></a>我嘗試將 [日期] 資料行做為日期交叉分析篩選器。 當我將此資料行的資料類型轉換為 [日期] 後，就會出現這個錯誤：
 
-  **無法載入此視覺效果的資料**： OLE DB 或 ODBC 錯誤： [Expression. 錯誤] 無法將運算式折向資料來源。 請嘗試比較簡單的運算式。 
+> **無法載入此視覺效果的資料**： OLE DB 或 ODBC 錯誤： [Expression. 錯誤] 無法將運算式折向資料來源。 請嘗試比較簡單的運算式。 
 
 Power BI 連接器不支援日期交叉分析篩選器。 若要指定日期範圍，請將兩個篩選套用至報表，並指定小於和大於日期。
 

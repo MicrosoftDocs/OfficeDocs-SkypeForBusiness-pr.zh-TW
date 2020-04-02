@@ -14,12 +14,12 @@ ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
 description: 本文將摘要說明支援 Microsoft 團隊聊天室的需求。
-ms.openlocfilehash: 9e07ac6f5f7ca477006dac703f7b3b8b2604c60b
-ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
+ms.openlocfilehash: 9dba3a9972dee782b3d2df2ce48f7f38c19fcbc1
+ms.sourcegitcommit: f0f2fa999c1ca4a1118377c7938a247f79217609
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 04/02/2020
-ms.locfileid: "43102334"
+ms.locfileid: "43106680"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft 團隊會議室需求
 
@@ -115,7 +115,7 @@ Microsoft 團隊聊天室會根據房間大小及用途，使用各種經認證�
 |[Yamaha YVC-1000](http://www.yamaha.com/products/en/communication/usb_conference_speakerphones/yvc-1000/)   |100c   |
 |[Yealink CP900](https://www.yealink.com/products_150.html) |100.20.0.29 |
 |[Shure Intellimix P300 音訊會議處理器](https://www.shure.com/en-US/products/mixers/p300)+</br></br> [Shure MXA 310 資料表陣列麥克風](https://www.shure.com/en-US/products/microphones/mxa310) | 4.1 |
-|[Shure Intellimix P300 音訊 Conferening 處理器](https://www.shure.com/en-US/products/mixers/p300) + </br></br> [Shure MXA 910，含 Intellimix 天花板陣列 Mic](https://www.shure.com/en-US/products/microphones/mxa910) | 4.1|
+|[Shure Intellimix P300 音訊會議處理器](https://www.shure.com/en-US/products/mixers/p300) + </br></br> [Shure MXA 910，含 Intellimix 天花板陣列 Mic](https://www.shure.com/en-US/products/microphones/mxa910) | 4.1|
 |[Biamp Tesira AVB VT4 Fixed audio DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;</br></br> [Sennheiser TeamConnect 天花板2麥克風](https://en-us.sennheiser.com/tcc2)+ &Dagger;</br></br> [TESIRA EX-UBT](https://www.biamp.com/products/tesira/tesira-expanders)&Dagger; |  Biamp DSP：3.12.0.15  </br></br> TCC2: 1.3.3 </br></br> EX-UBT：3.12.0.15 |
 |[Bose ControlSpace EX-440C DSP + </br>Bose P2600A AmpLink 放大器 +</br> Sennheiser TCC2 天花板麥克風 + </br> Bose EdgeMax EM180 天花板喇叭](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html)|  Bose DSP：2.290  </br> P2600A：1.160  </br> TCC2：1.4。2  |  |
 ||||||
