@@ -15,16 +15,16 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0cdb9d63d6c14c6950f7066f5cb8b6fbd933703b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: e929ce706ee2f59af5c74891ff66f643f2f14ee2
+ms.sourcegitcommit: aaae9df142ebb844a1fea27d3ae3b95130903d6a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008135"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43100090"
 ---
 # <a name="teams-for-education"></a>Microsoft Teams 教育版
 
-您可以使用團隊、教師與教職員建立共同作業教室、連線至專業學習社區，以及與學生和教師進行通訊。 您可以在這裡使用系統管理資源，協助您在學校或機構中順利部署、採用及管理小組。 
+使用小組、教育版和教職員，您可以建立共同作業教室、連線至專業學習社區，以及與學生和教育者進行溝通。 您可以在這裡使用系統管理資源，協助您在學校或機構中順利部署、採用及管理小組。 
 
 <ul class="panelContent cardsFTitle">
     <li>
