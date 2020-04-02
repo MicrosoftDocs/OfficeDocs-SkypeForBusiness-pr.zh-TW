@@ -16,19 +16,19 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 084f6d4587bc279c4387cf44b8ed29d38d51d4a6
-ms.sourcegitcommit: 613665c866f6fd0febfa6e26ad718241cdfbb207
+ms.openlocfilehash: fe158c1f6a6d8ff7fb830408657ed2deae13c163
+ms.sourcegitcommit: 482050a77a85aeb8dae52f86c9344023487e1b70
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42937597"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43113146"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>使用 Microsoft 端點 Configuration Manager 安裝 Microsoft 團隊
 
 > [!Tip]
 > 請觀看下列會話，瞭解 Windows 桌面用戶端的優點，以及如何進行規劃，以及部署方式：[團隊 Windows 桌面用戶端](https://aka.ms/teams-clients)。
 
-若要使用 Microsoft 端點設定管理員（或群組原則），或適用于廣泛部署的任何協力廠商發佈機制，Microsoft 提供了 MSI 檔案（32位與64位），管理員可以使用它來大量部署團隊來選取使用者，或桌上型電腦. 系統管理員可以使用這些檔案來遠端部署團隊，讓使用者不需要手動下載團隊 app。 部署時，小組會自動啟動在該電腦上登入的所有使用者。 （您可以在安裝應用程式後停用自動啟動。 [請參閱下文](#disable-auto-launch-for-the-msi-installer)。）我們建議您將套件部署到電腦，讓電腦的所有新使用者也能從這項部署獲益。
+若要使用 Microsoft 端點設定管理員（或群組原則），或適用于廣泛部署的任何協力廠商發佈機制，Microsoft 提供了 MSI 檔案（32位與64位），管理員可以使用它來大量部署團隊來選取使用者或電腦。 系統管理員可以使用這些檔案來遠端部署團隊，讓使用者不需要手動下載團隊 app。 部署時，小組會自動啟動在該電腦上登入的所有使用者。 （您可以在安裝應用程式後停用自動啟動。 [請參閱下文](#disable-auto-launch-for-the-msi-installer)。）我們建議您將套件部署到電腦，讓電腦的所有新使用者也能從這項部署獲益。
 
 以下是 MSI 檔案的連結：
 
@@ -80,9 +80,13 @@ ms.locfileid: "42937597"
 
 如果使用者從使用者設定檔中移除團隊，MSI 安裝程式將會追蹤使用者已卸載小組應用程式，而且不會再安裝該使用者設定檔的小組。 若要在已卸載此使用者的特定電腦上重新部署團隊，請執行下列動作：
 
-1. 卸載針對每個使用者設定檔所安裝的團隊 app。
-2. 卸載之後，請以遞迴方式刪除`%localappdata%\Microsoft\Teams\`目錄。
-3. 將 MSI 套件重新部署到該特定電腦。
+> [!IMPORTANT]
+> 後續步驟包含如何修改註冊表的相關資訊。 修改之後，請務必先備份註冊表，然後在問題發生時，瞭解如何還原註冊表。 如需如何備份、還原及修改註冊表的詳細資訊，請參閱[適用于高級使用者的 Windows 註冊資訊](https://support.microsoft.com/help/256986)。
+
+1. 卸載針對每個使用者設定檔所安裝的團隊 app。 如需詳細資訊，請參閱[卸載 Microsoft 團隊](https://support.office.com/article/uninstall-microsoft-teams-3b159754-3c26-4952-abe7-57d27f5f4c81#ID0EAABAAA=Desktop)。
+2. 在下`%localappdata%\Microsoft\Teams\`遞迴刪除目錄。
+3. 刪除`HKEY_CURRENT_USER\Software\Microsoft\Office\Teams\PreventInstallationFromMsi`註冊表值。
+4. 將 MSI 套件重新部署到該特定電腦。
 
 ## <a name="prevent-teams-from-starting-automatically-after-installation"></a>避免團隊在安裝後自動啟動
 
