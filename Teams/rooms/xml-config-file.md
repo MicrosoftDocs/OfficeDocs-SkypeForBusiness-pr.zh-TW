@@ -14,12 +14,12 @@ ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
 ms.collection:
 - M365-collaboration
 description: 本文將討論 Microsoft 團隊聊天室裝置所使用的預設設定的遠端系統管理，包括套用自訂主題。
-ms.openlocfilehash: e33934dcabc420b7e84886f0301c343f5caf333a
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 6a06b94bff350d07e540a80092bf7edbed33ddc8
+ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827393"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43102314"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>使用 XML 設定檔遠端系統管理 Microsoft 團隊聊天室的主控台設定
 
@@ -47,6 +47,7 @@ ms.locfileid: "41827393"
     <SkypeMeetingsEnabled>false</SkypeMeetingsEnabled>
     <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled>
     <DualScreenMode>true</DualScreenMode>
+    <DuplicateIngestDefault>false</DuplicateIngestDefault>
     <SendLogs>
         <EmailAddressForLogsAndFeedback>RanierConf@contoso.com</EmailAddressForLogsAndFeedback>
         <SendLogsAndFeedback>true</SendLogsAndFeedback>
@@ -91,9 +92,10 @@ ms.locfileid: "41827393"
 |\<IsTeamsDefaultClient> |布林值 &#x2777;  |第一 &#x2776;  |預設為停用。 |
 |\<BluetoothAdvertisementEnabled> |布林值 &#x2777;  |第一 &#x2776;  |預設為啟用。 |
 |\<DualScreenMode\>  |布林值 &#x2777;  |第一 &#x2776;  |如果為 true，則會啟用雙螢幕模式。 否則，裝置會使用單一畫面模式。 |
-|\<SendLogs\> |包裝箱 |第一 &#x2776;  ||
-|\<EmailAddressForLogsAndFeedback\> |字串 &#x2778;  || 設定當 [提供意見反應] 視窗出現時，可以傳送記錄的選擇性電子郵件地址。 |
-|\<SendLogsAndFeedback\> |布林值 &#x2777;  || 如果為 true，則會將記錄傳送給系統管理員。如果是 false，則只會傳送意見反應給系統管理員（而非記錄）。  |
+| \<DuplicateIngestDefault\> |布林值 &#x2777;  |第一 &#x2776; |如果為 true，則在雙螢幕模式中，內容會在兩個畫面上顯示，而不是在會議中。 | 
+|\<SendLogs\> |包裝箱 |第一 &#x2776;  |  |
+|\<EmailAddressForLogsAndFeedback\> |字串 &#x2778;  | | 設定當 [提供意見反應] 視窗出現時，可以傳送記錄的選擇性電子郵件地址。 |
+|\<SendLogsAndFeedback\> |布林值 &#x2777;  | | 如果為 true，則會將記錄傳送給系統管理員。如果是 false，則只會傳送意見反應給系統管理員（而非記錄）。  |
 | \<裝置\>  |包裝箱 |第一 &#x2776;  | 子項目中連接的音訊裝置名稱與 [裝置管理器] 應用程式中所列的值相同。 此設定可以包含目前不存在於系統中的裝置，例如目前未連線到主機的 A/V 裝置。 該設定將會保留給個別裝置使用。  |
 |\<MicrophoneForCommunication\> |字串 &#x2778;  ||設定在會議中用來做為錄製裝置的麥克風。 |
 |\<SpeakerForCommunication\> |字串 &#x2778;  ||要作為會議演講者使用的裝置。 這個設定是用來設定通話中使用的喇叭裝置。 |
@@ -107,7 +109,7 @@ ms.locfileid: "41827393"
 |\<CustomThemeColor\> |包裝箱 ||[ \<RedComponent\>]、 \<[GreenComponent\>] 和\<[\> BlueComponent] 值的容器。 這些值是自訂主題所必需的。 |
 |\<RedComponent\> |Byte （0-255） ||代表紅色色彩分量。 |
 |\<GreenComponent\> |Byte （0-255） ||代表綠色色彩分量。 |
-|\<BlueComponent\> |Byte （0-255） ||代表藍色色彩分量。 |
+|\<BlueComponent\> |Byte （0-255） ||代表藍色色彩分量。 | 
 | | | |
 
 &#x2776; 所有的第一層元素都是選用的。 如果省略第一層元素，則其所有子參數在裝置上保持不變。

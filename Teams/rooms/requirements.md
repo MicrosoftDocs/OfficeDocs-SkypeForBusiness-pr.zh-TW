@@ -14,16 +14,16 @@ ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
 description: 本文將摘要說明支援 Microsoft 團隊聊天室的需求。
-ms.openlocfilehash: c20da0aaa42f9e11b8bb0aba3a1f9c0248c24c7b
-ms.sourcegitcommit: 89a7c0427a5abbef838a17ae7eac6934c6176a35
+ms.openlocfilehash: 9e07ac6f5f7ca477006dac703f7b3b8b2604c60b
+ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42982116"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43102334"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft 團隊會議室需求
 
-Microsoft 團隊聊天室會根據房間大小及用途，使用各種經認證的音訊和視頻週邊數來調整不同的房間大小。 您可以選取適當的核心裝置和主控台（結合麥克風、喇叭、相機，並針對空間顯示），將 Microsoft 團隊會議室從非常小的 huddle 空間部署到大量的會議空間然後 boardrooms。  [裝置展示](https://products.office.com/microsoft-teams/across-devices)中提供了所有可用來設定您房間的已鑒定音訊及視頻外設的完整集合。
+Microsoft 團隊聊天室會根據房間大小及用途，使用各種經認證的音訊和視頻週邊數來調整不同的房間大小。 您可以選取適當的核心裝置和主控台（結合麥克風、喇叭、相機，以及顯示適合空間），您就可以將 Microsoft 團隊會議室從非常小的 huddle 空間，從非常大的會議空間和 boardrooms 部署到任何大小的空間中。  [裝置展示](https://products.office.com/microsoft-teams/across-devices)中提供了所有可用來設定您房間的已鑒定音訊及視頻外設的完整集合。
 
 本文摘要說明支援 Microsoft 團隊聊天室的裝置部署與設定需求。
 
@@ -48,7 +48,7 @@ Microsoft 團隊聊天室會根據房間大小及用途，使用各種經認證�
 
 在[房間系統產品展示](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=20&page=1&filterIds=)中，所有目前的 Microsoft 團隊聊天室裝置和套件都可使用。
 
-  |控制|處理器類型|RAM|光碟|
+  |控制|處理器|RAM|光碟|
   |:-----|:-----|:-----|:-----|
   |[Crestron Flex UC-M130-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M130-T)|核心 i5|8 GB |128 GB |
   |[Crestron Flex UC-B130-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B130-T)|核心 i5|8 GB |128 GB |
@@ -72,7 +72,7 @@ Microsoft 團隊聊天室會根據房間大小及用途，使用各種經認證�
 
 **支援用於 dock 樣式系統的 Surface Pro 平板電腦**
 
-  |平板電腦|處理器類型|RAM|光碟|
+  |平板電腦|處理器|RAM|光碟|
   |:-----|:-----|:-----|:-----|
   |Surface Pro 6| 核心 i5 |16 GB 或 8 GB |128 GB 以上 |
   |Surface Pro </br>（第5代） |核心 i5 |8 GB 或 4 GB |128 GB 以上 |
@@ -116,7 +116,8 @@ Microsoft 團隊聊天室會根據房間大小及用途，使用各種經認證�
 |[Yealink CP900](https://www.yealink.com/products_150.html) |100.20.0.29 |
 |[Shure Intellimix P300 音訊會議處理器](https://www.shure.com/en-US/products/mixers/p300)+</br></br> [Shure MXA 310 資料表陣列麥克風](https://www.shure.com/en-US/products/microphones/mxa310) | 4.1 |
 |[Shure Intellimix P300 音訊 Conferening 處理器](https://www.shure.com/en-US/products/mixers/p300) + </br></br> [Shure MXA 910，含 Intellimix 天花板陣列 Mic](https://www.shure.com/en-US/products/microphones/mxa910) | 4.1|
-|[Biamp Tesira AVB VT4 Fixed audio DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;</br></br> [Sennheiser TeamConnect 天花板2麥克風](https://en-us.sennheiser.com/tcc2)+ &Dagger;</br></br> [TESIRA EX-UBT](https://www.biamp.com/products/tesira/tesira-expanders)&Dagger; |  Biamp DSP：3.12.0.15  </br></br> TCC2: 1.3.3 </br></br> EX-UBT：3.12.0.15 |  |
+|[Biamp Tesira AVB VT4 Fixed audio DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;</br></br> [Sennheiser TeamConnect 天花板2麥克風](https://en-us.sennheiser.com/tcc2)+ &Dagger;</br></br> [TESIRA EX-UBT](https://www.biamp.com/products/tesira/tesira-expanders)&Dagger; |  Biamp DSP：3.12.0.15  </br></br> TCC2: 1.3.3 </br></br> EX-UBT：3.12.0.15 |
+|[Bose ControlSpace EX-440C DSP + </br>Bose P2600A AmpLink 放大器 +</br> Sennheiser TCC2 天花板麥克風 + </br> Bose EdgeMax EM180 天花板喇叭](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html)|  Bose DSP：2.290  </br> P2600A：1.160  </br> TCC2：1.4。2  |  |
 ||||||
 
 &Dagger;客戶可以選擇 Biamp/Sennheiser 針對這種套件所建議的 Dante 介面或網路交換器。

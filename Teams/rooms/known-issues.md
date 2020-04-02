@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: 本文將討論 Microsoft 團隊聊天室的已知問題（依功能區域）。
-ms.openlocfilehash: 3fedfbb4fdce0626783d285825eb75c22e2e7a78
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: e0b22d55de5fcf2fd49cf795497f2cb26c1952cf
+ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826061"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43102374"
 ---
 # <a name="known-issues"></a>已知問題 
  
@@ -31,14 +31,14 @@ ms.locfileid: "41826061"
 | 問題標題 |  行為\/症狀 | 已知的因應措施 | 知識庫文章 |
 |  ---        |      ---             |   ---            | --- |
 |  App 已過期         |    Microsoft [團隊聊天室] 主控台顯示「系統組態已過期」錯誤。                |   [使用 Microsoft 團隊會議室恢復工具](recovery-tool.md)             |  無 |
-
+|  裝置更新為不受支援的 Windows 10 版本   |    Windows 10 裝置從版本1803更新至不受支援的版本1809。 支援的版本為1903。 |   如果 DeferFeatureUpdatesPeriodinDays 設定的[群組原則或 MDM](https://docs.microsoft.com/windows/deployment/update/waas-configure-wufb)設定（可讓您將功能更新推遲至指定的天數），則會發生這種情況，將其設定為最大值365天。 <br><br> Microsoft 團隊聊天室不支援 Windows 10 版本1809，而版本1903則受支援。 不過，從2020年3月27日起，版本1809超過365天。 如果此設定未變更，Windows 會嘗試安裝版本1809，這可能會導致 Microsoft 團隊聊天室發生問題。<br><br>若要避免這種情況，請**移除**任何群組原則或任何推遲更新的 MDM 設定。 這可讓 Windows 更新到最新支援的 OS 版本。 <br><br>**重要**必須**移除**[群組原則] 或 [MDM] 設定（[保留未設定]），且**未設定為 0**。 如果原則設定為0，Windows 會採用可能不受支援的最新可用版本。 |  無 |
 
 <a name="OS-conflicts"> </a>  
 ## <a name="user-interface"></a>使用者介面 
 
 | 問題標題 |  行為\/症狀 | 已知的因應措施 | 知識庫文章 |
 |  ---        |      ---             |   ---            | --- |
-|找不到虛擬鍵盤   | 當您需要在 Microsoft 團隊聊天室中輸入資訊時，不會顯示虛擬鍵盤。 此問題會在 Windows 10 創意者更新（版本1703）安裝于 Microsoft 團隊聊天室正在執行的 Surface Pro 4 上。 | 若要解決此問題，請手動開啟虛擬鍵盤。 若要這樣做，請執行下列步驟：<br><br> **1.** 敲擊並按住工作列，然後按 [**顯示觸控式鍵盤**] 按鈕。 鍵盤圖示應該出現在工作列的右側。 <br><br> **2.** 輕觸鍵盤圖示以開啟虛擬鍵盤。 | [KB4037694](https://support.microsoft.com/help/4037694/virtual-keyboard-missing-in-skype-room-systems-v2) | 
+|找不到虛擬鍵盤   | 當您需要在 Microsoft 團隊聊天室中輸入資訊時，不會顯示虛擬鍵盤。 這個問題會發生在 Windows 10 版本1903。 | 透過 Windows 更新，為 Windows 10 （版本1903）安裝2020-04 累積更新。  | 無 | 
 
 <a name="Hardware"> </a>  
 ## <a name="hardware"></a>硬體
@@ -69,9 +69,6 @@ Microsoft 團隊會議室不支援 HDCP 輸入，但已觀察到可導致 HDMI �
 Microsoft 團隊聊天室版本3.0.12.0 不再支援64位版本的 Windows 10 Enterprise 周年紀念日（英文、版本1607）。 
 ***
 Microsoft [團隊會議室] 是一個多視窗應用程式，且需要將房間顯示器正面連接到裝置的 HDMI 埠，才能讓 app 正常運作。 如果您正在測試，但尚未購買顯示器，請確定您已連接 HDMI 顯示器，或使用虛擬 HDMI 插頭。
-***
-由於圖形驅動程式出現問題，因此 Microsoft 團隊聊天室裝置上的 Windows 10 1903 尚未提供給 Crestron。
-
 ***
 <a name="See"> </a>  
 ## <a name="see-also"></a>另請參閱
