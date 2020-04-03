@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: ''
-description: 如何使用新式驗證登入 Microsoft Teams。 包含如何在使用者登入時，自動跳過新增 UPN 使用者名稱。
+description: 如何使用新式驗證登入 Microsoft Teams。 包含當使用者使用會告知 Windows 略過 UPN 的設定登入時，如何將新增 UPN 使用者名稱自動略過。
 localization_priority: Priority
 ms.collection:
 - M365-collaboration
@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c541371b78bcd9119abe7a11523d0d2f7b5eda7c
-ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
+ms.openlocfilehash: f86568f92f2b758ae48062c84b330461743ef178
+ms.sourcegitcommit: 8665603fae8408ccbc083dd59cb01936ebe96c58
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42978365"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43116639"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>使用新式驗證登入 Microsoft Teams
 ==========================
@@ -40,14 +40,14 @@ Microsoft Teams 使用新式驗證讓登入體驗更加簡單可靠。 若要瞭
 
 - 如果使用者登入加入網域的電腦，當他們啟動 Teams 時，系統可能會要求他們執行一個進一步的驗證步驟，視您的組織是否選擇要求 MFA 或他們的電腦是否要求 MFA 才能登入而定。 如果使用者的電腦要求 MFA 才能登入，當他們開啟 Teams 時，應用程式會自動啟動。
 
-- 如果使用者登入加入網域的電腦，但是您不希望 Teams 登入畫面預先填入其使用者名稱，系統管理員可以設定下列 Windows 登錄，關閉預先填入使用者名稱 (UPN) 的功能：
+- 如果使用者登入加入網域的電腦，但是您**不希望 Teams 登入畫面預先填入其使用者名稱**，系統管理員可以設定下列 Windows 登錄，關閉預先填入使用者名稱 (UPN) 的功能：
 
   Computer\HKEY_CURRENT_USER\Software\Microsoft\Office\Teams<br/>
   SkipUpnPrefill(REG_DWORD)<br/>
   0x00000001 (1)
 
     > [!NOTE]
-    > 根據預設，系統並不會預先填入以 ".local" 或 ".corp" 結尾的使用者名稱，因此您不需要設定登錄機碼就能關閉這些名稱。 
+    > 針對以 ".local" 或 ".corp" 結尾的使用者名稱，略過或忽略使用者名稱預先填入的功能依預設會開啟，因此您不需要設定登錄機碼就能關閉此功能。 
 
 
 ### <a name="mac-users"></a>Mac 使用者 

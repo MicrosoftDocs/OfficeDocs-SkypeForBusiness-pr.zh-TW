@@ -21,7 +21,7 @@ appliesto:
 localization_priority: Normal
 ms.openlocfilehash: b354172e5a60e3c6f9df5d74c5d16731fdac0bf8
 ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 04/01/2020
 ms.locfileid: "43096858"
@@ -29,7 +29,7 @@ ms.locfileid: "43096858"
 <a name="manage-external-access-in-microsoft-teams"></a>在 Microsoft Teams 中管理外部存取
 ======================================================
 
-外部存取是一種從整個外部網域進行的小組使用者尋找、通話、聊天以及在小組中設定會議的方式。 您也可以使用外部存取來與仍在使用商務用 Skype （線上及內部部署）及 Skype （預覽）中的外部使用者進行通訊。
+外部存取是一種讓整個外部網域的 Teams 使用者可以在 Teams 中尋找、通話、聊天以及與您進行會議的方式。 您也可以使用外部存取，與仍在使用商務用 Skype (線上或內部部署) 或 Skype (預覽版) 的外部使用者通訊。
 
 如果您想讓外部使用者存取小組和頻道，「來賓存取」可能是更好的做法。 如需外部存取和來賓存取之間差異的詳細資訊，請參閱[比較外部和來賓存取](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access)。 
 
