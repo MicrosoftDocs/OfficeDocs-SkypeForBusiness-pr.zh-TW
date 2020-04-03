@@ -12,32 +12,32 @@ metadata:
   ms.author: samanro
   ms.date: 02/12/2020
   localization_priority: Priority
-  ms.openlocfilehash: aaa60d789f5048c11647460dccb636da8c519e62
-  ms.sourcegitcommit: eab284e2add7af1b3f3c5f1f77c0a3bbf77857a7
+  ms.openlocfilehash: e3c67ada87cdee958fbb76c4862e01b1ced7901a
+  ms.sourcegitcommit: 1bb3df681177db5ecc6afae3d3f3a46c251e5c23
   ms.translationtype: MT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 02/12/2020
-  ms.locfileid: "41953794"
+  ms.lasthandoff: 04/02/2020
+  ms.locfileid: "43117531"
 highlightedContent:
   items:
+  - title: COVID-19 回應-使用團隊支援遠端工作人員
+    itemType: overview
+    url: /MicrosoftTeams/support-remote-work-with-teams
   - title: 如何推出 Teams
     itemType: deploy
     url: /MicrosoftTeams/how-to-roll-out-teams
+  - title: 團隊中的安全性與合規性
+    itemType: overview
+    url: /MicrosoftTeams/security-compliance-overview
   - title: 為您和您的使用者尋找訓練
     itemType: learn
     url: /MicrosoftTeams/training-microsoft-teams-landing-page
   - title: 從商務用 Skype 升級至 Teams
-    itemType: overview
+    itemType: how-to-guide
     url: /MicrosoftTeams/upgrade-start-here
   - title: 採用中樞
     itemType: get-started
     url: /MicrosoftTeams/adopt-microsoft-teams-landing-page
-  - title: IT 架構海報和解決方案
-    itemType: architecture
-    url: /MicrosoftTeams/teams-architecture-solutions-posters
-  - title: 如果您是團隊新手，請從這裡開始
-    itemType: quickstart
-    url: /MicrosoftTeams/teams-overview
 additionalContent:
   sections:
   - items:
@@ -51,8 +51,8 @@ additionalContent:
         url: /MicrosoftTeams/teams-memory-usage-perf
       - text: 與其他組織的使用者通訊（來賓/外部存取）
         url: /MicrosoftTeams/communicate-with-users-from-other-organizations
-      - text: 團隊中的安全性與合規性
-        url: /MicrosoftTeams/security-compliance-overview
+      - text: IT 架構海報和解決方案
+        url: /MicrosoftTeams/teams-architecture-solutions-posters
     - title: 使用團隊進行語音通話
       links:
       - text: Microsoft 團隊中的雲端語音
