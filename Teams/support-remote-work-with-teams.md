@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 使用本指導方針來協助組織中的遠端工作者使用 Microsoft Teams 來提高生產力，尤其是當他們在家中工作 (WFH) 時，以因應 COVID-19 (冠狀病毒) 爆發的情況。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f954e9dff86b8c660d416a1aed8031912207ea4f
-ms.sourcegitcommit: ce6b6b57eb9683649f589b747163110bf42ae420
+ms.openlocfilehash: 8ea77e0c672ffd15adcb5bc63aa77bd45d4b3604
+ms.sourcegitcommit: 1bb3df681177db5ecc6afae3d3f3a46c251e5c23
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "43062665"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43117506"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>支援使用 Microsoft Teams 的遠端工作者
 
@@ -44,7 +44,7 @@ ms.locfileid: "43062665"
 
 - 使用**通知電子郵件**告知使用者 Teams 可供使用。
 
-- 傳送**第一天使用 Teams 電子郵件**，以協助使用者迅速地感受到生產力。
+- 傳送**倒數計時 - 第一天使用 Teams 電子郵件**，以協助使用者迅速地感受到生產力。
 
 - 幾天後，傳送**秘訣和訣竅電子郵件**，以協助使用者充分利用 Teams。
 
@@ -68,9 +68,9 @@ ms.locfileid: "43062665"
 1. 閱讀最新的部落格文章：
    
    - [Microsoft 如何讓員工使用 Microsoft Teams 遠端工作](https://www.microsoft.com/itshowcase/blog/how-microsoft-enables-its-employees-to-work-remotely/) (英文)
-   - [協助中小型企業能夠使用 Teams 遠端工作](https://www.microsoft.com/zh-TW/microsoft-365/blog/2020/03/17/helping-smb-customers-work-remotely-microsoft-teams/) (英文)
+   - [協助中小型企業能夠使用 Teams 遠端工作](https://www.microsoft.com/microsoft-365/blog/2020/03/17/helping-smb-customers-work-remotely-microsoft-teams/) (英文)
 
-   - [Microsoft IT 為其員工啟用遠端作業的最熱門 9 種方式](https://www.microsoft.com/zh-TW/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/) (英文)
+   - [Microsoft IT 為其員工啟用遠端作業的最熱門 9 種方式](https://www.microsoft.com/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/) (英文)
 
 
 1. Microsoft Teams 教育版
@@ -92,6 +92,21 @@ ms.locfileid: "43062665"
 
    - 如果您需要協助有關通話或會議品質的疑難排解或問題修正，請遵循本文最下方的[已知問題 - 中國：撥入商務用 Skype 或 Teams 會議識別碼](#known-issue---china-dialing-into-skype-for-business-or-teams-conference-ids)中的指導方針。
 
+1. 大家在家中工作時的安全性
+
+   - [從家裡更安全工作的最佳祕訣](https://support.office.com/article/top-tips-for-working-more-securely-from-home-c3e6c940-43a6-43a3-b780-b8784776c2a8)
+
+   - Microsoft 安全部落格 (2020 年 3 月 26 日)：[在今日獨特的遠端工作情境中，安全專業人員與 IT 達到現代安全控制的另一種方法](https://www.microsoft.com/security/blog/2020/03/26/alternative-security-professionals-it-achieve-modern-security-controls-todays-unique-remote-work-scenarios/) (英文)
+
+   - [遠端工作，保持安全 - 適用於 CISO 指引](https://www.microsoft.com/security/blog/?p=90736)
+
+   - [安全性團隊支援在家工作最常見的 12 項工作](https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work)
+   
+   - [使用 VPN 分割通道將遠端使用者的 Office 365 連線能力最佳化](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
+
+   - [安全性和 Teams](teams-security-guide.md) 進入 Teams 安全性的所有技術詳細資料，做為 Microsoft 365 企業級安全性最佳做法與程序的一部分。
+
+
 2.  [傳送訓練連結](enduser-training.md)，協助您的員工充分發揮 Teams 的效用。
 
 3. 更進一步：深入了解推出 Teams 的詳細資訊。
@@ -103,21 +118,6 @@ ms.locfileid: "43062665"
    - 與想要深入了解的使用者分享[深入訓練影片](https://www.youtube.com/playlist?list=PLXPr7gfUMmKzR7_jXN5s886apYoHNC3Xk)。
 
    - 閱讀[如何推出 Teams](How-to-roll-out-teams.md)，以了解如何為使用與管理 Teams 做好準備。
-
-1. 大家在家中工作時的安全性
-
-   - [從家裡更安全工作的最佳祕訣](https://support.office.com/article/top-tips-for-working-more-securely-from-home-c3e6c940-43a6-43a3-b780-b8784776c2a8)
-
-   - Microsoft 安全部落格 (2020 年 3 月 26 日)：[在今日獨特的遠端工作情境中，安全專業人員與 IT 達到現代安全控制的另一種方法](https://www.microsoft.com/security/blog/2020/03/26/alternative-security-professionals-it-achieve-modern-security-controls-todays-unique-remote-work-scenarios/) (英文)
-
-   - [遠端工作，保持安全 - 適用於 CISO 指引](https://www.microsoft.com/security/blog/?p=90736)
-
-   - [安全性團隊支援在家工作最常見的 12 項工作](https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work)
-   
-   - [使用 VPN 分割通道將遠端使用者的 Office 365 連線能力最佳化](https://docs.microsoft.com/zh-TW/Office365/Enterprise/office-365-vpn-split-tunnel)
-
-   - [安全性和 Teams](teams-security-guide.md) 進入 Teams 安全性的所有技術詳細資料，做為 Microsoft 365 企業級安全性最佳做法與程序的一部分。
-
 
     
 3. 閱讀有關遠端工作的新內容，並與您的使用者分享：
