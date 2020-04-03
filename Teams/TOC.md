@@ -567,8 +567,10 @@
 
 # Microsoft 365 Business Voice
 ## [什麼是 Microsoft 365 Business Voice？](business-voice/whats-business-voice.md)
+## [適用國家與地區](business-voice/country-region-availability.md)
 ## 購買前應了解的事項
 ### [要購買什麼才能取得 Business Voice](business-voice/what-to-buy.md)
+### [從轉銷商或合作夥伴取得協助](business-voice/reseller-partner-support.md)
 ### [檢查您的網際網路連線](business-voice/get-ready-internet.md)
 ### [讓您的使用者準備就緒](business-voice/prepare-users.md)
 ## [執行快速入門精靈](business-voice/use-getting-started-wizard.md)
@@ -603,6 +605,7 @@
 ## [概觀](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md)
 ## [開始使用 Teams 範本](get-started-with-teams-templates.md)
 ## [適用於第一線員工的快速入門](firstline-workers-quickstart.yml)
+## [適用於 Microsoft Teams 的 RealWear](flw-realwear.md)
 ## [Teams 中的 Shifts](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 ### [終止對 Microsoft StaffHub 的支援](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
 ### [安裝 Microsoft StaffHub PowerShell 模組](expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md)

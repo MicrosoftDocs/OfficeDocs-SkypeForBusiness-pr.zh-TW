@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0eca4b7c7c4708509eb33bc14e4514dc3f858980
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 344bf59d401e43c40c6f643b334c2f34311d6cbe
+ms.sourcegitcommit: 8665603fae8408ccbc083dd59cb01936ebe96c58
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837953"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43116689"
 ---
 # <a name="powershell-script-to-test-direct-routing-session-border-controller-connections"></a>測試直接路由會話邊界控制器連線的 PowerShell 腳本
 
@@ -36,3 +36,8 @@ SIP 測試者用戶端是一個範例 PowerShell 腳本，您可以用來測試 
 ## <a name="download-the-script-and-documentation"></a>下載腳本與檔
 
 下載[SIP 測試程式用戶端腳本及檔](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/sip-tester-client/siptesterclient.zip?raw=true)。
+
+  > [!NOTE]
+  > SIP 測試用戶端腳本只支援 adal.ps 版本3.19.8.1。 如果使用的是更新版本的 adal.ps，就會傳回錯誤。
+  
+  

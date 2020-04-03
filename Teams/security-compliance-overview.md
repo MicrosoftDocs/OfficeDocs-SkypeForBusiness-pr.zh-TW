@@ -19,24 +19,32 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3320681f606150be223433d6ab80e8e0ee41a42f
-ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
+ms.openlocfilehash: fbec8f7d246a4acfe241ef4f4d701cc9e1e6b28c
+ms.sourcegitcommit: 1bb3df681177db5ecc6afae3d3f3a46c251e5c23
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43053409"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43117421"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Microsoft 團隊中的安全性與合規性
 
 > [!IMPORTANT]
-> 就像 Office 365 的客戶一樣，您擁有及控制您的資料。 除了向您提供已訂閱的服務之外，Microsoft 不會將您的資料用於任何其他專案。 身為服務提供者，我們不會掃描您的電子郵件、檔或團隊，以進行廣告或與服務相關的目的。 Microsoft 沒有已上傳內容的存取權。 就像商務用 OneDrive 和 SharePoint Online 一樣，客戶資料仍會留在租使用者中。 您可以在[Microsoft 信任中心](https://microsoft.com/trustcenter)深入瞭解我們與安全性相關的資訊。 小組與 Microsoft 信任中心遵循相同的指導方針與原則。
+> 若要深入瞭解如何在**COVID-19 爆發期間，從家用的任何人都**能保證安全性，請閱讀以下文章：
+>  - [安全性團隊支援在家工作最常見的 12 項工作](https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work)
+>  - [使用 VPN 分割通道將遠端使用者的 Office 365 連線能力最佳化](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
+>  - 更新2020年4月2日：[團隊安全性指南](teams-security-guide.md)
+
 
 Microsoft 團隊是以 Office 365 超規模、企業級的雲端為基礎，提供客戶預期的高級安全性與合規性功能。 如需在 O365 中規劃安全性的詳細資訊，請參閱我們的 O365 內容。 [O365 安全性藍圖](https://docs.microsoft.com/microsoft-365/security/office-365-security/security-roadmap)是一個不錯的開始位置。 如需在 O365 中規劃合規性的詳細資訊，您可以從[安全性與合規性](https://docs.microsoft.com/microsoft-365/compliance/plan-for-security-and-compliance)文章的規劃開始。
 
-本文將提供更多關於小組特定安全性與合規性的資訊。 您應該查看這些關於安全性與合規性的 Microsoft 機械結構：
+
+本文將提供更多關於小組特定安全性與合規性的資訊。 不要錯過這些關於安全性與合規性的 Microsoft 規範影片：
 
 - [適用于 IT 的 Microsoft 團隊基本版：安全性與合規性](https://youtu.be/91lHNKVVvQ4)（12:42 分鐘）
 - [Microsoft 團隊控制安全性與合規性](https://www.youtube.com/watch?v=Km4T4hMM__k)（10:54 分鐘）
+
+> [!IMPORTANT]
+> 就像 Office 365 的客戶一樣，您擁有及控制您的資料。 除了向您提供已訂閱的服務之外，Microsoft 不會將您的資料用於任何其他專案。 身為服務提供者，我們不會掃描您的電子郵件、檔或團隊，以進行廣告或與服務相關的目的。 Microsoft 沒有已上傳內容的存取權。 就像商務用 OneDrive 和 SharePoint Online 一樣，客戶資料仍會留在租使用者中。 您可以在[Microsoft 信任中心](https://microsoft.com/trustcenter)深入瞭解我們與安全性相關的資訊。 小組與 Microsoft 信任中心遵循相同的指導方針與原則。
 
 ## <a name="security"></a>安全性
 
@@ -71,11 +79,11 @@ Microsoft 團隊桌面應用程式支援 AppLocker。  如需有關 AppLocker �
 
 ## <a name="compliance"></a>從屬
 
-團隊有大量的資訊可協助您處理合規性領域，包括頻道、聊天和附件的溝通合規性、保留原則、資料遺失保護（DLP）、eDiscovery 和法律封存，以及頻道、聊天和檔案、審核記錄搜尋，以及使用 Microsoft Intune 進行行動應用程式管理。 我們已提供下列所有主題的相關資訊，您可以移至[Microsoft 365 合規性中心](https://compliance.microsoft.com)或[Office 365 安全性 & 合規性中心](https://protection.microsoft.com)來管理這些設定。
+團隊有大量的資訊可協助您處理合規性區域，包括頻道、聊天和附件、保留原則、資料遺失保護（DLP）、eDiscovery 和法律封存（針對頻道、聊天和檔案、審核記錄搜尋），以及使用 Microsoft Intune 的行動應用程式管理。 我們已提供下列所有主題的相關資訊，您可以移至[Microsoft 365 合規性中心](https://compliance.microsoft.com)或[Office 365 安全性 & 合規性中心](https://protection.microsoft.com)來管理這些設定。
 
 ### <a name="communication-compliance"></a>溝通合規性
 
-Microsoft 365 中的通訊合規性可讓您將使用者新增至範圍內原則，這些策略可以設定以檢查適用于冒犯性語言的 Microsoft 團隊通訊、敏感資訊，以及與內部和法規標準相關的資訊。. 您可以掃描公用和私人團隊頻道、個別聊天和附件中的聊天通信及相關附件，協助將貴組織的通訊風險降至最低。 如需如何設定原則以協助您偵測、捕獲並採取行動以進行不當小組通訊的詳細資訊，請參閱[Microsoft 365 中的通訊合規性](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance)。
+Microsoft 365 中的通訊合規性可讓您將使用者新增至範圍內原則，這些策略可以設定以檢查適用于冒犯性語言的 Microsoft 團隊通訊、敏感資訊，以及與內部和法規標準相關的資訊。 您可以掃描公用和私人團隊頻道、個別聊天和附件中的聊天通信及相關附件，協助將貴組織的通訊風險降至最低。 如需如何設定原則以協助您偵測、捕獲並採取行動以進行不當小組通訊的詳細資訊，請參閱[Microsoft 365 中的通訊合規性](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance)。
 
 ### <a name="retention-policies"></a>保留原則
 

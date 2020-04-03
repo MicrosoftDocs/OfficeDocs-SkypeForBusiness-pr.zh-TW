@@ -23,19 +23,20 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: 當您取得貴組織的電話號碼或移植（轉移）號碼時，您可能需要在 PSTN 服務台取得說明和支援。
-ms.openlocfilehash: 3fe6353deb52911a4e0f0249f500a2a562e29ac1
-ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
+ms.openlocfilehash: 58c32b8bf54ff6b1e9df689c6bcde184889b8462
+ms.sourcegitcommit: 8665603fae8408ccbc083dd59cb01936ebe96c58
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42583071"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43116699"
 ---
 # <a name="pstn-service-desk-contact"></a>PSTN Service 服務台連絡人
 
-如果您需要取得或轉接號碼給我們的協助，但需要協助，請告訴我們我們可以在電子郵件中協助您，並將它傳送給我們。 在您的電子郵件說明要求中，您可以視需要包含許多詳細資料，並加入詳細資料（例如組織識別碼（租使用者識別碼）、網域、您需要協助的號碼類型、帳戶上的授權人員及其他重要詳細資料關於您的問題。
+如果您需要取得或轉接號碼給我們的協助，但需要協助，請告訴我們我們可以在電子郵件中協助您，並將它傳送給我們。 在您的電子郵件說明要求中，您可以視需要包含許多詳細資料，並加入詳細資料，例如組織識別碼（租使用者識別碼）、網域、您需要協助的號碼類型、帳戶上的授權人員，以及您問題的其他重要詳細資料。
 
   - 您的組織識別碼（租使用者識別碼）或作用中網域。
   - 您需要協助的號碼類型（使用者/訂閱者、服務/付費或免費電話）。
+    - 包含您想要的電話號碼/Country/Region 區號（s）。
   - 您需要多少數位（如果這是用於取得編號）。
   - 根據您的要求，在客戶上授權人員及其他重要的詳細資料。
 

@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e1cdd071dfe19c50650d6f18605a5aeed5b39300
-ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
-ms.translationtype: HT
+ms.openlocfilehash: 0320a08a5358716472d382482cb9c825d0709e59
+ms.sourcegitcommit: 1bb3df681177db5ecc6afae3d3f3a46c251e5c23
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "42327845"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43117431"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>在 Outlook 中使用 Teams 會議增益集
 =======================================
@@ -37,6 +37,7 @@ Teams 會議增益集可讓使用者從 Outlook 安排 Teams 會議。 您可以
 ![Outlook 功能區上的 Teams 會議增益集螢幕擷取畫面](media/Teams-add-in-for-Outlook.png)
 
 > [!NOTE]
+> - 如果您的組織同時執行 [團隊] 和 [商務用 Skype]，也會有其他的考慮。 在某些情況下，Outlook 中不提供 [團隊] 增益集。 如需詳細資訊，請參閱[從商務用 Skype 升級至小組](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings)。
 > - 若要在電腦上安裝 Teams 會議增益集，使用者必須具備執行 Regsvr32 .exe 檔案的權限。
 > - 如果使用者沒有看到 Teams 會議增益集，請指示他們關閉 Outlook 和 Teams，然後重新啟動 Teams 用戶端並登入 Teams，接著重新啟動 Outlook 用戶端 (須遵循特定順序)。
 > - 如果您使用的是 Microsoft Store 提供的 Office Outlook 安裝，則不支援 Teams 會議增益集。 針對需要此增益集的使用者，建議您安裝隨選即用的 Office，如 [Windows 10 S 模式上的 Office](https://support.office.com/article/faq-office-on-windows-10-in-s-mode-717193b5-ff9f-4388-84c0-277ddf07fe3f)一文中所述。
@@ -73,7 +74,7 @@ FindTime 是 Outlook 的增益集，可協助使用者在跨公司會議的時�
 
 ## <a name="authentication-requirements"></a>驗證需求
 
-Teams 會議增益集需要使用者使用新式驗證來登入 Teams。 如果使用者不是使用此方法登入，他們仍然可以使用 Teams 用戶端，但是無法使用 Outlook 增益集來安排 Teams 線上會議。 若要修正此問題，請執行下列其中一項操作：
+Teams 會議增益集需要使用者使用新式驗證來登入 Teams。 如果使用者不使用此方法登入，他們仍能使用團隊用戶端，但無法使用 Outlook 增益集來排程小組線上會議。 若要修正此問題，請執行下列其中一項操作：
 
 - 如果您的組織未設定新式驗證，則您應設定新式驗證。
 - 如果已設定新式驗證，但在對話方塊中將其取消，您應指示使用者使用多重要素驗證再次登入。
@@ -120,7 +121,7 @@ Teams 會議增益集是仍在建置的功能，因此請注意下列事項：
 - 請確定已套用所有適用於 Outlook 桌面版用戶端的更新。
 - 重新啟動 Teams 桌面版用戶端。
 - 登出 Teams 桌面用戶端，然後重新登入。
-- 重新啟動 Outlook 桌面用戶端。 (請確定 Outlook 不是以 [系統管理員模式] 執行)。
+- 重新啟動 Outlook 桌面用戶端。 （請確定 Outlook 未在系統管理員模式下執行）。
 - 請確認登入的使用者帳戶名稱不含空格。 (這是已知的問題，我們會在未來更新中修正。)
 - 請確定已啟用單一登入 (SSO)。
 
