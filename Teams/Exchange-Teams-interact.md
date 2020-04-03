@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e147a300f628347b5e38837a3d277a78a4c593c4
-ms.sourcegitcommit: 29034bda30a8460eb18600785f785528d0944041
+ms.openlocfilehash: 68468455da96fc3b2790a832b6732d7211bd7733
+ms.sourcegitcommit: dc6108917392754d950cea47b92f871211bf4212
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "42285745"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43131141"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 與 Microsoft 團隊如何互動
 
@@ -32,11 +32,11 @@ ms.locfileid: "42285745"
 
 使用者的 Exchange 信箱可以在線上託管或內部部署。 不過，某些功能需要與您的 Office 365 租使用者進行混合式部署。
 
-以 Exchange Online 或 Exchange 專用 vNext 為宿主的使用者可以使用團隊的所有功能。 他們可以建立及加入團隊與頻道、建立及觀看會議、呼叫及聊天、修改使用者設定檔圖片，以及新增及設定連接器、索引標籤和 bot。
+以 Exchange Online 或 Exchange 專用 vNext 為宿主的使用者可以使用團隊的所有功能。 他們可以建立及加入團隊和頻道、建立及觀看會議、呼叫及聊天、修改使用者設定檔圖片（如果 Outlook 網頁版信箱原則允許他們這麼做），以及新增及設定連接器、索引標籤和 bot。
 
 以 Exchange Online 專用（舊版）託管的使用者必須同步處理到 Office 365 上的 Azure Active Directory。 他們可以建立及加入團隊與頻道、新增及設定索引標籤和機器人，以及利用聊天與通話功能。 不過，他們無法修改個人檔案圖片、管理會議、存取 outlook 連絡人或管理連接器。
 
-擁有內部部署之信箱的使用者必須同步處理到 Azure Active Directory。 它們可以利用上述案例中的所有功能，此外，他們也可以變更使用者設定檔圖片及管理會議，提供 Exchange Server 2016 （累加更新3）或更新版本，以執行內部部署。
+擁有內部部署之信箱的使用者必須同步處理到 Azure Active Directory。 他們可以使用上述案例中的所有功能，此外還可以變更使用者設定檔圖片（如果 Outlook 網頁版信箱原則允許他們這麼做），以及管理會議，提供 Exchange Server 2016 （累加更新3）或更新版本，都是在內部部署執行。
 
 下表提供根據 Exchange 環境的功能可用性的實用快速參考。
 
@@ -45,10 +45,10 @@ ms.locfileid: "42285745"
 
 | 使用者的信箱託管于： | eDiscovery| 法律&nbsp;封存 | 留成| 團隊和頻道管理 |在團隊中建立及查看會議| 修改使用者個人資料圖片 | 通話記錄 | 管理連絡人 | 存取 Outlook 連絡人 | 語音信箱 |新增及設定連接器|新增及設定索引標籤|新增及設定 bot| 
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|**Exchange Online**|是<sup>2</sup>|是<sup>2</sup>|是|是|是|是|是|是|是<sup>7</sup>|是|是|是|是|
-|**Exchange Online 專用 vNext**|是<sup>2</sup>|是<sup>2</sup>|是|是|是|是|是|是|是<sup>7</sup>|是|是|是|是|
+|**Exchange Online**|是<sup>2</sup>|是<sup>2</sup>|是|是|是|是<sup>8</sup>|是|是|是<sup>7</sup>|是|是|是|是|
+|**Exchange Online 專用 vNext**|是<sup>2</sup>|是<sup>2</sup>|是|是|是|是<sup>8</sup>|是|是|是<sup>7</sup>|是|是|是|是|
 |**Exchange Online 專用–傳統**版（需要同步處理到 Azure AD）|是<sup>2</sup>|是<sup>2、3</sup>|是<sup>4|是|否|否|是|是|否|是<sup>5|是<sup>6|是|是|
-|**Exchange 內部部署**（需要同步處理到 Azure AD）|是<sup>2</sup>| 是<sup>2、3</sup> |是<sup>4|是|是（Exchange 2016 CU3 +）|是（Exchange 2016 CU3 +）|是|是|否|是<sup>5|是<sup>6|是|是|
+|**Exchange 內部部署**（需要同步處理到 Azure AD）|是<sup>2</sup>| 是<sup>2、3</sup> |是<sup>4|是|是（Exchange 2016 CU3 +）|是<sup>8</sup> （EXCHANGE 2016 CU3 +）|是|是|否|是<sup>5|是<sup>6|是|是|
 
 支援<sup>1</sup>個 EXCHANGE 2016 CU3 及以上版本。  
 
@@ -63,6 +63,8 @@ ms.locfileid: "42285745"
 <sup>6</sup>如果小組的其中一個擁有者可以新增連接器，該小組中的其他人都能這樣做，即使他們的信箱是內部部署的。
 
 只有<sup>7</sup>個 [預設連絡人] 資料夾中的連絡人。 不支援存取其他連絡人資料夾或子資料夾。
+
+<sup>8 個</sup>團隊會將 Outlook 設為租使用者管理員設定的[Outlook 網頁信箱原則](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy)設定，以控制使用者是否可以變更其個人檔案圖片。 如果在原則中關閉了 **-SetPhotoEnabled**設定，使用者就無法新增、變更或移除其個人檔案圖片。 例如，如果使用者上傳由貴組織 IT 或人力資源部門核准的個人資料圖片，就不需要採取任何動作。 不過，如果使用者上傳的圖片不適當，請根據貴組織的內部原則變更圖片。
 
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>充分利用 Microsoft 團隊的需求
 

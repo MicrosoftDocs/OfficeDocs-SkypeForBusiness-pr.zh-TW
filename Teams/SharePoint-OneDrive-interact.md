@@ -17,19 +17,19 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 236b1d570d44395f3499c0a5fec3d3a415953e12
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: d5f2698330ae23f25ffbbe5fae40d8dc6234354d
+ms.sourcegitcommit: dc6108917392754d950cea47b92f871211bf4212
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834683"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43131111"
 ---
 # <a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>SharePoint Online 與商務用 OneDrive 與 Microsoft 團隊互動的方式
 
 > [!Tip]
 > 請觀看下列會話，瞭解團隊與 Azure Active Directory （AAD）、Office 365 群組、Exchange、SharePoint 和商務用 OneDrive 的互動方式： [Microsoft 團隊的基礎](https://aka.ms/teams-foundations)
 
-Microsoft 團隊中的每個團隊在 SharePoint Online 中都有小組網站，小組中的每個標準頻道都會在預設的小組網站文件庫中取得一個資料夾。 在交談中共用的檔案會自動新增到文件庫，在 SharePoint 中設定的權限和檔案安全性選項會自動在 Teams 中反映。
+Microsoft 團隊中的每個團隊在 SharePoint Online 中都有小組網站，小組中的每個標準頻道都會在預設的小組網站文件庫中取得一個資料夾。 在交談中共用的檔案會自動新增到文件庫，在 SharePoint 中設定的權限和檔案安全性選項會自動在 Teams 中反映。 若要查看在 SharePoint 中變更網站位址的影響，請參閱[變更網站位址](https://docs.microsoft.com/sharepoint/change-site-address)。
 
 > [!NOTE]
 > 本文只適用于標準頻道。 專用通道的架構與標準通道不同。 每個私人頻道都有自己的 SharePoint 網站集合，與父小組網站不同。 若要深入瞭解，請參閱[Microsoft 團隊中的私人頻道](private-channels.md)。
