@@ -1,6 +1,6 @@
 ---
 title: Microsoft Teams 教育版
-description: 使用這些資源可充分發揮整個組織的團隊數量。
+description: 使用 [教育版團隊] 來建立共同作業教室、連線專業學習社區，以及與學生和教師進行通訊。
 layout: LandingPage
 ms.topic: landing-page
 author: lanachin
@@ -15,12 +15,13 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e929ce706ee2f59af5c74891ff66f643f2f14ee2
-ms.sourcegitcommit: aaae9df142ebb844a1fea27d3ae3b95130903d6a
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 1a5948a8702a9759a7ed523b035856f4cacd45b4
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43100090"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136853"
 ---
 # <a name="teams-for-education"></a>Microsoft Teams 教育版
 

@@ -1,5 +1,5 @@
 ---
-title: Microsoft 團隊的系統管理訓練
+title: 系統管理訓練資源-Microsoft 團隊
 ms.reviewer: ''
 author: LanaChin
 ms.author: v-lanac
@@ -16,17 +16,18 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.dashboard.trainingvideos.admintrainingteams
+- seo-marvel-mar2020
 description: 針對系統管理員如何規劃、部署及執行 Microsoft 團隊的訓練影片、PowerPoint 卡座、教學課程及其他資源。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2794891da78e8b8028bc18d82715a27d5c2eb78d
-ms.sourcegitcommit: 613665c866f6fd0febfa6e26ad718241cdfbb207
+ms.openlocfilehash: aecc877fb558dac0fb6d9999599caf20d9013f19
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42937607"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136523"
 ---
-# <a name="admin-training-for-microsoft-teams"></a>Microsoft 團隊的系統管理訓練
+# <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Microsoft 團隊的管理員訓練快速入門
 
 
 使用訓練資源來向您自己說明小組、向他人講授或執行討論會。 經常查看這裡的新內容。 
@@ -91,21 +92,21 @@ ms.locfileid: "42937607"
 
 <h2>技術訓練</h2>
 
-| 模組 | 顯示器 | PowerPoint 投影片組  |
+| 模組 | 影片 | PowerPoint 投影片組  |
 | ------------ | -------------------- | -------------------- |
 | [Microsoft 結構-IT YouTube 頻道的團隊基本套件](https://aka.ms/MicrosoftTeamsforIT) | [影片：團隊基本](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn)版（最小10:13）<br>[影片：部署 & 設定團隊-簡介](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2)（8:22 分鐘）  <br>[影片：安全性與合規性](https://youtu.be/91lHNKVVvQ4)（12:42 分鐘）<br>[影片：團隊控制安全性與合規性](https://www.youtube.com/watch?v=Km4T4hMM__k)（10:54 分鐘）||
-| 地基-核心元件 | [顯示器](https://aka.ms/teams-foundations) | [文稿](https://aka.ms/teams-foundations-deck) |
-| Windows 桌面用戶端 | [顯示器](https://aka.ms/teams-clients) | [文稿](https://aka.ms/teams-clients-deck) |
-| 管轄、管理與生命週期 | [顯示器](https://aka.ms/teams-governance) | [文稿](https://aka.ms/teams-governance-deck) |
-| 安全性 & 合規性 | [顯示器](https://aka.ms/teams-security-compliance) | [文稿](https://aka.ms/teams-security-compliance-deck) |
-| 通話品質概覽 | [顯示器](https://aka.ms/teams-quality) | [文稿](https://aka.ms/teams-quality-deck) |
-| 會議簡介 | [顯示器](https://aka.ms/teams-meetings-intro) | [文稿](https://aka.ms/teams-meetings-intro-deck) |
-| 媒體-為什麼會議很簡單|[顯示器](https://aka.ms/media-in-teams)  | [文稿](https://aka.ms/media-in-teams-deck)|
-| 媒體-媒體流程 | [顯示器](https://aka.ms/teams-media-flows) | [文稿](https://aka.ms/teams-media-flows-deck)  |
-| 動態緊急通話 | [顯示器](https://aka.ms/teams-dec) |  [文稿](https://aka.ms/teams-dec-deck) |
-| 即時事件 | [顯示器](https://aka.ms/teams-live-events-session) | [文稿](https://aka.ms/teams-live-events-deck) |
-| 電話系統簡介 | [顯示器](https://aka.ms/teams-phone-system) | [文稿](https://aka.ms/teams-phone-system-deck) |
-| 直接路由 | [影片1：規劃直接在小組中傳送](https://aka.ms/teams-dr-plan)<br>[影片2：在團隊中設定和管理直接路由](https://aka.ms/teams-dr-config)<br>影片3：在團隊中進行直接路由的遷移：即將<strong><font color="#4B53BC">推出！</font></strong>  | [文稿](https://aka.ms/teams-direct-routing-deck) |
+| 地基-核心元件 | [影片](https://aka.ms/teams-foundations) | [文稿](https://aka.ms/teams-foundations-deck) |
+| Windows 桌面用戶端 | [影片](https://aka.ms/teams-clients) | [文稿](https://aka.ms/teams-clients-deck) |
+| 管轄、管理與生命週期 | [影片](https://aka.ms/teams-governance) | [文稿](https://aka.ms/teams-governance-deck) |
+| 安全性 & 合規性 | [影片](https://aka.ms/teams-security-compliance) | [文稿](https://aka.ms/teams-security-compliance-deck) |
+| 通話品質概覽 | [影片](https://aka.ms/teams-quality) | [文稿](https://aka.ms/teams-quality-deck) |
+| 會議簡介 | [影片](https://aka.ms/teams-meetings-intro) | [文稿](https://aka.ms/teams-meetings-intro-deck) |
+| 媒體-為什麼會議很簡單|[影片](https://aka.ms/media-in-teams)  | [文稿](https://aka.ms/media-in-teams-deck)|
+| 媒體-媒體流程 | [影片](https://aka.ms/teams-media-flows) | [文稿](https://aka.ms/teams-media-flows-deck)  |
+| 動態緊急通話 | [影片](https://aka.ms/teams-dec) |  [文稿](https://aka.ms/teams-dec-deck) |
+| 即時事件 | [影片](https://aka.ms/teams-live-events-session) | [文稿](https://aka.ms/teams-live-events-deck) |
+| 電話系統簡介 | [影片](https://aka.ms/teams-phone-system) | [文稿](https://aka.ms/teams-phone-system-deck) |
+| 直接路由 | [影片1：規劃直接在小組中傳送](https://aka.ms/teams-dr-plan)<br>[影片2：在團隊中設定和管理直接路由](https://aka.ms/teams-dr-config)<br>[影片3：在團隊中遷移至直接路由](https://aka.ms/teams-dr-migrate)  | [文稿](https://aka.ms/teams-direct-routing-deck) |
 | 從商務用 Skype 升級至 Teams | [影片1：升級簡介](https://aka.ms/teams-upgrade-intro)</br>[影片2：規劃升級](https://aka.ms/teams-upgrade-plan)</br>[影片3：共存與互通性](https://aka.ms/teams-upgrade-coexistence-interop)</br>[影片4：管理員體驗](https://aka.ms/teams-upgrade-admin) | [文稿](https://aka.ms/teams-upgrade-deck)|
 
 <h2>快速入門手冊</h2>
