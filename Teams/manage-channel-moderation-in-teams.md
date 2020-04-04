@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft 團隊中設定及管理頻道裁決
+title: 設定及管理頻道裁決
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -17,12 +17,13 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何在 Microsoft 團隊中設定裁決的頻道，包括如何將團隊成員新增為頻道審查程式。
-ms.openlocfilehash: 70cb06e3a55d24b3609902af529a2880a42901d2
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 128676bbe4ec27300013836425bf221e3de10f9b
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836623"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136803"
 ---
 # <a name="set-up-and-manage-channel-moderation-in-microsoft-teams"></a>在 Microsoft 團隊中設定及管理頻道裁決
 
@@ -78,4 +79,4 @@ ms.locfileid: "41836623"
 
 ## <a name="related-topics"></a>相關主題
 
-- [團隊中的團隊和頻道概覽](teams-channels-overview.md)
+- [Teams 的小組和頻道概觀](teams-channels-overview.md)

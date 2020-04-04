@@ -20,13 +20,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
-description: Office 365 中的電話系統提供使用者指派電話號碼的預設本機號碼。 您可以變更或封鎖使用者的本機號碼（也稱為通話行識別碼）。 若要深入瞭解如何在您的組織中使用本機號碼，請參閱如何在貴組織中使用本機號碼。
-ms.openlocfilehash: 9b31e761ee59626482b0cd98991ae1ab886af7b6
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+- seo-marvel-mar2020
+description: 瞭解 Office 365 預設本機號碼（使用者指派的電話號碼），也稱為呼叫線路 ID。 您可以變更或封鎖使用者的本機號碼。
+ms.openlocfilehash: c04fdfa7dc395f31eb3277fe0ab2f77aa92605c7
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838093"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140906"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>設定使用者的來電顯示
 Office 365 中的電話系統提供使用者指派電話號碼的預設本機號碼。 您可以變更或封鎖使用者的本機號碼（也稱為通話行識別碼）。 若要深入瞭解如何在[您的組織](how-can-caller-id-be-used-in-your-organization.md)中使用本機號碼，請參閱如何在貴組織中使用本機號碼。

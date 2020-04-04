@@ -1,5 +1,5 @@
 ---
-title: Microsoft 團隊中的安全性與合規性概述
+title: 安全性與合規性概述
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
@@ -17,14 +17,15 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
+- seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fbec8f7d246a4acfe241ef4f4d701cc9e1e6b28c
-ms.sourcegitcommit: 1bb3df681177db5ecc6afae3d3f3a46c251e5c23
+ms.openlocfilehash: e777ef76f6c8f11dfd914b3c4be149c224b63cf5
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43117421"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139092"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Microsoft 團隊中的安全性與合規性
 
@@ -143,6 +144,10 @@ Microsoft 團隊中的資料遺失防護（DLP），以及 O365 較大的 DLP �
 ### <a name="auditing-and-reporting"></a>審核與報告
 
 您可以在 Office 365 安全 & 合規性中心中，將審核記錄搜尋直接插入您，讓您能夠設定警報，以及報告審核事件，方法是允許匯出工作負載的特定或一般事件集，以供管理員使用，並跨無限制的審核時程表進行調查。 您可以在 Office 365 安全性 & 合規性中心] 中設定所有審計記錄資料的警示，並篩選及匯出此資料以進行進一步分析。 請參閱[搜尋審核記錄](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)文章，進一步瞭解如何進行 O365 的審核記錄。 若要深入瞭解在 Office 365 安全 & 合規性中心搜尋 Microsoft 團隊活動，我們也會在[團隊文章中開啟 [審核](audit-log-events.md)]，讓您查看。
+
+## <a name="privacy"></a>隱私權
+
+在 Microsoft，保護您的資料是我們最高的優先順序。 若要瞭解我們的隱私權慣例，請參閱[Microsoft 的隱私權](https://www.microsoft.com/trust-center/privacy)。
 
 ## <a name="information-protection-architecture"></a>資訊保護架構
 

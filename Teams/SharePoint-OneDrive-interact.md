@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: snigdhav
 search.appverid: MET150
-description: 瞭解 SharePoint Online 與商務用 OneDrive 與 Microsoft 團隊互動的方式，例如私人聊天檔案的儲存方式，以及團隊、標準通道及文件庫之間的關聯性。
+description: SharePoint Online & 與團隊進行商務用 OneDrive 互動私人聊天檔案儲存 & 在團隊、標準通道、& 文件庫之間互動。
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
@@ -17,12 +17,13 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5f2698330ae23f25ffbbe5fae40d8dc6234354d
-ms.sourcegitcommit: dc6108917392754d950cea47b92f871211bf4212
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: fd34bf368667fcfa5776de40cad0d1444440805a
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 04/03/2020
-ms.locfileid: "43131111"
+ms.locfileid: "43137253"
 ---
 # <a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>SharePoint Online 與商務用 OneDrive 與 Microsoft 團隊互動的方式
 

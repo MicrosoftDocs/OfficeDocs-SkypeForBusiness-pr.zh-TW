@@ -21,13 +21,14 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.quantity
-description: 當您正在尋找並取得貴組織的電話號碼時，您可以取得的電話號碼會比您指派的授權還多。 但這取決於電話號碼類型，以及您購買及指派的授權類型。 您可以按一下撥號方案中使用的不同電話號碼，找出在 Microsoft 團隊中使用的不同電話號碼。
-ms.openlocfilehash: d620e10c90474857325b15201d3b899d728ed815
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+- seo-marvel-mar2020
+description: 瞭解您可以在 Microsoft 團隊中根據號碼類型和您擁有的授權數量來取得多少電話號碼。
+ms.openlocfilehash: b8c6c8a2e1fa2b1b882a4fc2ddbbb5e904e5f6f7
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836285"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141106"
 ---
 # <a name="how-many-phone-numbers-can-you-get"></a>您可以取得多少電話號碼？
 

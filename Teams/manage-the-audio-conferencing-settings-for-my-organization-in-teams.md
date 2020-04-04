@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft 團隊中管理貴組織的音訊會議設定
+title: 管理音訊會議設定
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
+- seo-marvel-mar2020
 description: '請參閱 Microsoft 團隊步驟，將電話撥入式會議授權及會議 ID 指派給使用者和許多其他電話撥入式會議設定。 '
-ms.openlocfilehash: b7c080936b2f7e4a1fde76134cab7272c861d8d4
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 513695cf905c7cb21f332f6b025318253b03334d
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837523"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141156"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>在 Microsoft 團隊中管理貴組織的音訊會議設定
 
@@ -47,7 +48,7 @@ ms.locfileid: "41837523"
 2. 在**Microsoft 365 系統管理中心**的左導覽中，前往 [**使用者** > 作用中的**使用者**]，然後從可用使用者清單中選取使用者。
     
     > [!NOTE]
-    > 如果您要同時指派授權給20個以上的使用者，您可以使用 [**選取視圖**] 下拉式清單，然後選擇其中一個選項，或建立您自己的 [視圖]。 然後按一下****[編輯 **]，接著**兩次，選取授權，然後按一下 [**提交**]。  
+    > 如果您要同時指派授權給20個以上的使用者，您可以使用 [**選取視圖**] 下拉式清單，然後選擇其中一個選項，或建立您自己的 [視圖]。 然後按一下**Edit**[編輯 **]，接著**兩次，選取授權，然後按一下 [**提交**]。  
   
 3. 在 [**產品授權**] 底下的 [動作] 窗格中，按一下 [**編輯**]。 
     
@@ -58,7 +59,7 @@ ms.locfileid: "41837523"
   
 ## <a name="enable-or-disable-emails-sent-to-audio-conferencing-users"></a>啟用或停用傳送給音訊會議使用者的電子郵件
 
-![](media/teams-logo-30x30.png) **使用 microsoft [團隊管理中心**] 顯示 Microsoft 團隊標誌的圖示
+![Microsoft Teams 標誌圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
 
 1. 在左側導覽中，前往 [**會議** > **會議橋**]。 
 
@@ -66,7 +67,7 @@ ms.locfileid: "41837523"
 
 3. 在 [**橋設定**] 窗格中，如果使用者的撥入設定變更，請啟用或停用**自動傳送電子郵件給使用者**。
 
-4. 按一下 [**儲存**]。
+4. 按一下 [儲存]****。
 
     
 **使用 Windows PowerShell**
@@ -89,7 +90,7 @@ ms.locfileid: "41837523"
 
 使用者排程的每個會議都會指派唯一的會議 ID。 雖然系統會自動建立會議 ID 並將其指派給使用者，但有時候使用者不想要使用此識別碼，而且您想要將它設定為特定的數位，或者您的使用者無法記住或遺失其會議 ID。 
 
-![](media/teams-logo-30x30.png) **使用 microsoft [團隊管理中心**] 顯示 Microsoft 團隊標誌的圖示
+![Microsoft Teams 標誌圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
 
 1. 在左側導覽中，按一下 [**使用者**]，然後從可用使用者清單中選取使用者。
 
@@ -101,7 +102,7 @@ ms.locfileid: "41837523"
   
 ## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>使用音訊會議資訊傳送電子郵件給使用者
 
-![](media/teams-logo-30x30.png) **使用 microsoft [團隊管理中心**] 顯示 Microsoft 團隊標誌的圖示
+![Microsoft Teams 標誌圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
 
 1. 在左側導覽中，按一下 [**使用者**]，然後從可用使用者清單中選取使用者。
 
@@ -114,7 +115,7 @@ ms.locfileid: "41837523"
   
 ## <a name="set-the-phone-numbers-included-on-invites"></a>設定邀請中包含的電話號碼
 
-![](media/teams-logo-30x30.png) **使用 microsoft [團隊管理中心**] 顯示 Microsoft 團隊標誌的圖示
+![Microsoft Teams 標誌圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
 
 1. 在左側導覽中，按一下 [**使用者**]，然後從可用使用者清單中選取使用者。
 
@@ -122,7 +123,7 @@ ms.locfileid: "41837523"
  
 3. 在 [**音訊會議**] 窗格中，您可以設定**付費電話號碼**，並在允許的情況下**撥打免費電話號碼**。
 
-4. 按一下 [**儲存**]。
+4. 按一下 [儲存]****。
     
 請參閱[設定邀請中包含的電話號碼](set-the-phone-numbers-included-on-invites-in-teams.md)。
   
@@ -131,7 +132,7 @@ ms.locfileid: "41837523"
 
 **設定呼叫者加入會議時的會議體驗**
 
-![](media/teams-logo-30x30.png) **使用 microsoft [團隊管理中心**] 顯示 Microsoft 團隊標誌的圖示
+![Microsoft Teams 標誌圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
 
 1. 在左側導覽中，前往 [**會議** > **會議橋**]。 
 
@@ -145,7 +146,7 @@ ms.locfileid: "41837523"
 
     如果您選擇 [**名稱] 或 [電話號碼**]，您也可以在加入會議前，選擇要啟用或停用**要求呼叫者記錄其名稱**。 
 
-5. 按一下 [**儲存**]。
+5. 按一下 [儲存]****。
 
     
 請參閱[變更音訊會議橋接器的設定](change-the-settings-for-an-audio-conferencing-bridge.md)。
@@ -171,7 +172,7 @@ ms.locfileid: "41837523"
 
 3. 在橋接器的 [**設定**] 窗格中，啟用或停用 [**自動傳送電子郵件給使用者] （如果他們的音訊會議設定變更**）。
 
-4. 按一下 [**儲存**]。 
+4. 按一下 [儲存]****。 
  
     您也可以移至使用者的音訊會議屬性，然後按一下 [**以電子郵件傳送會議資訊**]，透過音訊會議設定傳送電子郵件給使用者。
     
@@ -181,7 +182,7 @@ ms.locfileid: "41837523"
     
 ## <a name="see-and-set-the-primary-default-and-secondary-alternate-languages-on-an-audio-conferencing-bridge"></a>在音訊會議橋中查看及設定主要（預設）和次要（替代）語言
 
-![](media/teams-logo-30x30.png) **使用 microsoft [團隊管理中心**] 顯示 Microsoft 團隊標誌的圖示
+![Microsoft Teams 標誌圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
 
 1. 在左側導覽中，前往 [**會議** > **會議橋**]。 
 
@@ -189,14 +190,14 @@ ms.locfileid: "41837523"
 
 3. 在 [**預設語言**] 和 [**備用語言] （選用）** 底下，選擇您想要的語言。
 
-4. 按一下 [**儲存**]。
+4. 按一下 [儲存]****。
 
 
 請參閱[設定音訊會議的自動助理語言](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)。
   
 ## <a name="see-audio-conferencing-dial-in-numbers"></a>請參閱音訊會議撥入號碼
 
-![](media/teams-logo-30x30.png) **使用 microsoft [團隊管理中心**] 顯示 Microsoft 團隊標誌的圖示
+![Microsoft Teams 標誌圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
 
 1. 在左側導覽中，前往 [**會議** > **會議橋**]。 
 

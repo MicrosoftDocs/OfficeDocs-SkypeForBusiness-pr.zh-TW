@@ -1,5 +1,5 @@
 ---
-title: 為 Microsoft 團隊啟用 Office 365 服務的 [加入] 檢查清單
+title: 加入檢查清單-啟用 Office 365 服務
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -15,12 +15,13 @@ f1.keywords:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 646a820888c47b0e5ecd8cd491fb9949160cb42c
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: f1421acef62c1a5fd72b097fb8a5fdc504388f4b
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41862873"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43138273"
 ---
 # <a name="enable-office-365"></a>啟用 Office 365
  

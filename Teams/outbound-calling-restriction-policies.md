@@ -1,5 +1,5 @@
 ---
-title: 音訊會議和使用者 PSTN 通話的撥出通話限制原則
+title: 呼出通話限制-語音會議 & PSTN 通話
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -19,13 +19,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
+- seo-marvel-mar2020
 description: 系統管理員可以控制使用者可以發出的音訊會議和使用者 PSTN 呼叫類型。
-ms.openlocfilehash: 830ab45178c10ab485d50aafd66a4bf5d4db9011
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 253553e884b3f4591a7c5340132337d295cefe09
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836883"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137903"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>音訊會議和使用者 PSTN 通話的撥出通話限制原則
 
@@ -33,7 +34,7 @@ ms.locfileid: "41836883"
 
 輸出呼叫控制可以在每位使用者的基礎上套用，並提供下列兩個控制項來單獨限制每個輸出呼叫類型。 根據預設，兩個控制項都設定為允許國際和國內呼出通話。 
 
-|控制權|說明|控制選項|
+|控制權|描述|控制選項|
 |:-----|:-----|:-----|
 |音訊會議 PSTN 通話|限制輸出類型 </br>內部允許的通話 </br>由使用者組織的會議。|國際和國內（預設）</br>家用</br>無|
 |最終使用者 PSTN 通話|限制通話類型 </br>使用者可以進行的工作。|國際和國內（預設）</br>家用</br>無|
@@ -46,7 +47,7 @@ ms.locfileid: "41836883"
 
 ## <a name="restrict-audio-conferencing-outbound-calls"></a>限制音訊會議撥出通話 
 
-![](media/teams-logo-30x30.png) **使用 microsoft [團隊管理中心**] 顯示 Microsoft 團隊標誌的圖示
+![Microsoft Teams 標誌圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
 
 1. 在左側導覽中，按一下 [**使用者**]，然後從可用使用者清單中選取使用者。
 
@@ -56,19 +57,19 @@ ms.locfileid: "41836883"
 
 4. 在 [**從會議撥出許可權**] 底下，選取您想要的撥出限制選項。
 
-5. 按一下 [**儲存**]。 
+5. 按一下 [儲存]****。 
 
-![](media/sfb-logo-30x30.png) **使用商務用 skype 系統管理中心**顯示商務用 skype 標誌的圖示
+![商務用 Skype 標誌圖示](media/sfb-logo-30x30.png) **使用商務用 Skype 系統管理中心**
 
-1.  在**商務用 Skype 系統管理中心**的左導覽中，前往 [**音訊會議** > **使用者**]，然後從可用使用者清單中選取使用者。
+1.    在**商務用 Skype 系統管理中心**的左導覽中，前往 [**音訊會議** > **使用者**]，然後從可用使用者清單中選取使用者。
 
-2.  在 [動作] 窗格中，按一下 [**編輯**]。
+2.    在 [動作] 窗格中，按一下 [**編輯**]。
 
-3.  在 [**限制使用此使用者的會議進行撥**出] 底下，選取您想要的撥出限制選項。
+3.    在 [**限制使用此使用者的會議進行撥**出] 底下，選取您想要的撥出限制選項。
 
     ![撥出選項的限制](media/restrictions-to-dial-outs.png)
 
-5. 按一下 [**儲存**]。
+5. 按一下 [儲存]****。
 
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]

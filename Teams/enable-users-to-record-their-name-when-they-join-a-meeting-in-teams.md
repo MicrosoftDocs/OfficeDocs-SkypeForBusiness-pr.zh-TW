@@ -1,5 +1,5 @@
 ---
-title: 讓使用者在 Microsoft 團隊中加入會議時，記錄他們的名稱
+title: 讓使用者記錄會議的名稱
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
+- seo-marvel-mar2020
 description: 瞭解如何啟用或停用您的使用者在 Microsoft 團隊中加入會議時是否可以記錄他們的名稱。
-ms.openlocfilehash: b7b04ba5959d4ffbbb4664401ccf8e95b46c48b9
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: f6d1f8ea0ef015e4d951fbf3bbe124263a3b9a1f
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836103"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141216"
 ---
 # <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-microsoft-teams"></a>讓使用者在 Microsoft 團隊中加入會議時，記錄他們的名稱
 
@@ -37,7 +38,7 @@ ms.locfileid: "41836103"
   
 ## <a name="set-whether-callers-should-record-their-name"></a>設定呼叫者是否應記錄其名稱
 
-![](media/teams-logo-30x30.png) **使用 microsoft [團隊管理中心**] 顯示 Microsoft 團隊標誌的圖示
+![Microsoft Teams 標誌圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
 
 1. 在左側導覽中，前往 [**會議** > **會議橋**]。 
 
@@ -47,7 +48,7 @@ ms.locfileid: "41836103"
 
 4. 如果啟用通知，請在 [**進入/結束通知類型**] 下選擇**名稱或電話號碼**，然後開啟**Ask 呼叫者在加入會議前記錄他們的名稱。**
 
-6. 按一下 [**儲存**]。
+6. 按一下 [儲存]****。
     
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]

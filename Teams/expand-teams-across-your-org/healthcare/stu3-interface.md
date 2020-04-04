@@ -16,13 +16,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: anach
-description: Microsoft 團隊患者 app EHR 整合
-ms.openlocfilehash: d718f3d3772a08ecfa57e418a4f4fc2e22fe7172
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+description: 瞭解團隊中的 STU3 介面規格，包括設定或重新配置 FHIR 伺服器以搭配 Microsoft 團隊患者 app 使用。
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 35d887575ffb894b7a47e50511e6bd6c3a9a75d1
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42147696"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141196"
 ---
 # <a name="stu3-interface-specification"></a>STU3 介面規格
 
@@ -221,7 +222,7 @@ ms.locfileid: "42147696"
 
     要求：取得 <fhir-server>/AllergyIntolerance？患者 =<患者 id>
     
-    回應： {"resourceType"： "套裝"，"id"： "<套件-識別碼>"，"類型"： "searchset"，"total"：1，"條目"： [{"resource"： {"resourceType"： "AllergyIntolerance"，"識別碼"： "<資源識別碼>"，"clinicalStatus"： "active"，"verificationStatus"： "已確認"，"code"： "http://rxnav.nlm.nih.gov/REST/Ndfrt"，"code"： "N0000175503"，"顯示"： "sulfonamide antibacterial"，} "，" 文字 ".." sulfonamide antibacterial "}，" assertedDate "：" 2018-01-01T00：00： 00-2007： 00 "，" [{]： [{""： [{"編碼"： [{http://snomed.info/sct"271807003"，"顯示"： "外觀 rash"，}]，"文字"： "外觀 rash"}]，}]}}]}
+    回應： {"resourceType"： "套裝"，"id"： "<束-識別碼>"，"類型"： "searchset"，"總計"：1，"條目"： [{"資源"： {"resourceType"： "AllergyIntolerance"，"id"： "<資源識別碼>"，"verificationStatus"： "已確認"，"code"： {"編碼"： [{"system"： "http://rxnav.nlm.nih.gov/REST/Ndfrt" "" "" code "：" N0000175503 "，" 顯示 "：" sulfonamide antibacterial "，}]，" 文字 "：" sulfonamide antibacterial "}，" assertedDate "：" 2018-01-01T00：00：00： [{"，" 反應 "： [{「表現」」： [{" 編碼 "： [{" 系統 "："http://snomed.info/sct""，"code"： "271807003"，"顯示"： "皮膚 rash"，}]，"文字"： "皮膚 rash"}]，}]}}]}
 
 * * *
 

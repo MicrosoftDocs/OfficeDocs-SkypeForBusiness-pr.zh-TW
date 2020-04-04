@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 audience: admin
-description: 在 Microsoft 團隊中為貴組織的服務品質（QoS）準備貴組織的網路。
+description: 瞭解如何為 Microsoft 團隊中的服務品質（QoS）準備貴組織的網路。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -16,22 +16,23 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.meetingsettings.qos
 - ms.teamsadmincenter.meetingsettings.network.qosmarkers
+- seo-marvel-mar2020
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 31e8b01f5a48d74d516121c5a59ea79d94c317a3
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 545cbc1d170f6b511de5e8d21a237bc893ee0702
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834733"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43138033"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>在 Microsoft 團隊中實現服務品質（QoS）
 
 本文將協助您在 Microsoft 團隊中為貴組織的服務品質（QoS）準備好貴組織的網路。 如果您支援大量的使用者，且遇到下列任何問題，您可能需要實施 QoS。 只有少數使用者的小型企業可能不需要 QoS，但甚至應該有説明。
 
-QoS 是一種允許即時網路流量（例如語音或視頻資料流程），它可讓您在不太敏感的通信量（例如下載新的應用程式，增加額外的下載，而不是大筆交易）的情況下，以網路延遲為保密。 QoS 會識別並標示即時資料流中的所有資料包（使用 Windows 群組原則物件，以及稱為埠的存取控制清單的路由功能，如以下所示），這些可協助您的網路為語音、影片和螢幕共用資料流程 a網路頻寬的專用部分。
+QoS 是一種允許即時網路流量（例如語音或視頻資料流程），它可讓您在不太敏感的通信量（例如下載新的應用程式，增加額外的下載，而不是大筆交易）的情況下，以網路延遲為保密。 QoS 會識別並標示即時資料流中的所有資料包（使用 Windows 群組原則物件，以及稱為埠的存取控制清單的路由功能，如以下所示），這可協助您的網路為網路頻寬的專用部分提供語音、影片和螢幕共用。
 
 若沒有某種形式的 QoS，您可能會在語音和影片中看到下列品質問題：
 
@@ -79,7 +80,7 @@ _圖2。QoS 佇列的範例_
 
 您可以在網路路由器上使用存取控制清單（Acl），透過埠標記來實現 QoS。 以埠為基礎的標記是最可靠的方法，因為它能在混合式 Windows 和 Mac 環境中運作，且最容易實現。 行動用戶端不會提供使用 DSCP 值來標示流量的機制，所以需要這個方法。  
 
-使用這個方法，您的網路路由器會檢查傳入的資料包，如果資料包是使用特定的埠或埠範圍來接收，則會將它識別為特定媒體類型，並將它放在該類型的佇列中， [](https://tools.ietf.org/html/rfc2474)以便讓其他裝置辨識其流量類型，並在其佇列中賦予其優先順序。
+使用這個方法，您的網路路由器會檢查傳入的資料包，如果資料包是使用特定的埠或埠範圍來接收，則會將它識別為特定媒體類型，並將它放在該類型的佇列中， [DSCP](https://tools.ietf.org/html/rfc2474)以便讓其他裝置辨識其流量類型，並在其佇列中賦予其優先順序。
 
 雖然這可跨平臺使用，但它只會在 WAN edge （並非所有用戶端電腦的方式）標示流量，並產生管理負荷。 您應該參閱路由器製造商提供的檔，以取得實現此方法的指示。
 
@@ -109,11 +110,11 @@ DSCP 標記可以是 likened 到郵票，指出郵政工人是傳送的緊急程
 
 _建議的初始埠範圍_
 
-|媒體流量類型| 用戶端來源埠範圍 |通訊協定|DSCP 值|DSCP 類別|
+|媒體流量類型| 用戶端來源連接埠範圍  |通訊協定|DSCP 值|DSCP 類別|
 |:--- |:--- |:--- |:--- |:--- |
-|音訊| 50000–50019|TCP/UDP|46|加急轉移（EF）|
-|顯示器| 50,020–50,039|TCP/UDP|34|有保證的轉寄（AF41）|
-|應用程式/螢幕共用| 50,040–50,059|TCP/UDP|滿|有保證的轉寄（AF21）|
+|音訊| 50,000-50,019|TCP/UDP|46|快速式轉送 (EF)|
+|影片| 50,020-50,039|TCP/UDP|34|保證式轉送 (AF41)|
+|應用程式/螢幕共用| 50,040-50,059|TCP/UDP|滿|保證式轉送 (AF21)|
 ||||||
 
 使用這些設定時，請注意下列事項：

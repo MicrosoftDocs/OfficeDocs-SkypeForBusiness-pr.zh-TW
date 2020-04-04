@@ -1,5 +1,5 @@
 ---
-title: 針對 Microsoft Teams 準備組織的網路
+title: 針對 Teams 準備組織的網路
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: jastark, kojika
 audience: admin
-description: 在您推出 Microsoft 團隊前，請先評估並準備您的網路，以確定它已準備好供團隊使用。 資訊包括網路需求、頻寬需求和網路優化指導方針。
+description: 瞭解如何為 Microsoft 團隊準備貴組織的網路，包括網路需求、網路優化和頻寬需求。
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -16,12 +16,14 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 64bcdee7e1a4ce7f36a9089fd5231cf2a63e9d5b
-ms.sourcegitcommit: f0f2fa999c1ca4a1118377c7938a247f79217609
+ms.custom:
+- seo-marvel-mar2020
+ms.openlocfilehash: bc81781e17b16820eebb134a0ee57f1fb82d403c
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43109472"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43143780"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>針對 Microsoft Teams 準備組織的網路 
 
@@ -157,5 +159,4 @@ ms.locfileid: "43109472"
 [Teams 中的身分識別和驗證](identify-models-authentication.md)
 
 [如何推出 Teams](How-to-roll-out-teams.md)
-
 

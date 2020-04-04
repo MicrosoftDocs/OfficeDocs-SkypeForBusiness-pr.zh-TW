@@ -1,5 +1,5 @@
 ---
-title: 將商務用 Skype 混合式部署升級至 Microsoft 團隊 |通向
+title: 將商務用 Skype 混合式部署升級至團隊
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -12,18 +12,20 @@ localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom:
+- Teams-upgrade-guidance
+- seo-marvel-mar2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ca9ebc7a28e07eec9b24c0628ade4941c0fd2fa2
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: fa72c0d6a03ef89d0c04b0a70a0bbc918a508243
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706693"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136973"
 ---
 # <a name="upgrade-from-a-skype-for-business-hybrid-deployment-to-teams"></a>從商務用 Skype 混合式部署升級至團隊
 
@@ -39,7 +41,7 @@ ms.locfileid: "42706693"
 - [準備好貴組織](https://aka.ms/SkypeToTeams-UserReadiness)
 - [已進行試驗](https://aka.ms/SkypeToTeams-Pilot)
 
-如果您已部署商務用 Skype 或 Microsoft Lync 內部部署，且已在與您的 Office 365 租使用者混合式部署中進行設定，且貴組織想要使用多個專案升級至小組，請按照本文中的指導方針進行：共存模式（或全式）。 針對升級歷程，您必須將使用者移至商務用 Skype Online （如果尚未在線上），然後指派適當的共存與升級模式。
+如果您已部署商務用 Skype 或 Microsoft Lync 內部部署，且已在與您的 Office 365 租使用者混合式部署中進行設定，而貴組織想要使用多個共存模式（或全式）將其升級至小組，請遵循本文中的指導方針。 針對升級歷程，您必須將使用者移至商務用 Skype Online （如果尚未在線上），然後指派適當的共存與升級模式。
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
@@ -57,6 +59,6 @@ ms.locfileid: "42706693"
 
 ## <a name="phone-system-and-teams-upgrade"></a>手機系統與團隊升級
 
-如果您要將商務用 Skype 混合式部署轉換為含有通話方案的電話系統，Microsoft 將是您的公用交換電話網絡（PSTN）供應商，並假設您已完成電話號碼移植：升級您的使用者以團隊會自動將入站 PSTN 通話轉場至團隊。
+如果您要將商務用 Skype 混合式部署轉換為含有通話方案的電話系統，Microsoft 將是您的公用交換電話網絡（PSTN）提供者，並假設您已完成電話號碼移植：將您的使用者升級至團隊會自動將入站 PSTN 通話轉場給小組。
 
-如果無法使用通話方案，或是您想要使用現有的 PSTN 連線提供者，您必須轉換企業語音部署，或使用您現有內部部署或雲端連接器版本的混合式語音部署，以Microsoft Phone 系統 Direct 路由。 若要將您的使用者升級至小組，請參閱[手機系統直接路由的其他考慮](2-envision-make-my-service-decisions-direct-routing.md)。
+如果通話方案無法使用，或您想要使用現有的 PSTN 連線提供者，您必須將企業語音部署（或使用您現有內部部署或雲端連接器版本的混合式語音部署）轉換為 Microsoft 手機系統 Direct 路由。 若要將您的使用者升級至小組，請參閱[手機系統直接路由的其他考慮](2-envision-make-my-service-decisions-direct-routing.md)。

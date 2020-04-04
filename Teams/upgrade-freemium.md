@@ -1,5 +1,5 @@
 ---
-title: 免費升級 Microsoft 團隊 Office 365 訂閱版本
+title: 免費升級 Microsoft 團隊 Office 365 訂閱
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -15,21 +15,22 @@ f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
+- seo-marvel-mar2020
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 756f22712bb0d3f71cdeb5936eb53960700ef57b
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: 6019491c7e72e91c9f3cfbcaec8a4c60ae297c14
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706983"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139642"
 ---
 # <a name="upgrade-microsoft-teams-free-to-office-365-subscription-version"></a>免費升級 Microsoft 團隊 Office 365 訂閱版本
 ======================================================
 
-如果您的組織使用的是免費的 Microsoft 團隊版本，您可以為使用者購買 Office 365 訂閱者案，輕鬆升級至完整版。 完整版本提供了其他團隊功能（例如排程、音訊會議、增強的管理和安全性功能），而免費版本則不提供。 Office 365 結合了熟悉的 Microsoft Office 桌面套件與雲端版本的 Microsoft 新一代通訊與共同作業服務（包括 Exchange Online、SharePoint Online 和 Office），協助使用者提高生產力幾乎隨處都透過網際網路。 當您升級團隊時，您現有的團隊資料將不會遺失;您所有的團隊、頻道、聊天、檔案和許可權都會隨附給您。 
+如果您的組織使用的是免費的 Microsoft 團隊版本，您可以為使用者購買 Office 365 訂閱者案，輕鬆升級至完整版。 完整版本提供了其他團隊功能（例如排程、音訊會議、增強的管理和安全性功能），而免費版本則不提供。 Office 365 結合了熟悉的 Microsoft Office 桌面套件與雲端版本的 Microsoft 新一代通訊與共同作業服務（包括 Exchange Online、SharePoint Online 和 Office），協助使用者隨時隨地透過網際網路進行生產力。 當您升級團隊時，您現有的團隊資料將不會遺失;您所有的團隊、頻道、聊天、檔案和許可權都會隨附給您。 
 
 > [!NOTE]
 > 如果您已經有 Office 365 訂閱，就表示您有資格試用版的小組（使用您的公司身分識別），而不是免費版本。 團隊試用版在有限的時間內提供完整的小組。 如需詳細資訊，請參閱[管理 Microsoft 團隊商業版雲端試用優惠](iw-trial-teams.md)。

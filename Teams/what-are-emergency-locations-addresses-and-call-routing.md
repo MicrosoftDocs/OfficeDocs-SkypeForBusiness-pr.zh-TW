@@ -1,5 +1,5 @@
 ---
-title: 規劃緊急通話、緊急位址、緊急通話路由、動態緊急通話
+title: 規劃及管理緊急通話
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -22,13 +22,14 @@ ms.custom:
 - ms.lync.lac.AddressAndLocation
 - Calling Plans
 - Direct Routing
+- seo-marvel-mar2020
 description: 瞭解緊急通話，包括緊急位址、緊急通話路由及動態緊急通話的相關資訊。
-ms.openlocfilehash: 85a09880c1eec83851208197c008c8aaafac88f6
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: 8afe2d2af8b2aecbe3d73da03137f330aa8304b8
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42161686"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141026"
 ---
 # <a name="manage-emergency-calling"></a>管理緊急通話
 
@@ -91,7 +92,7 @@ Microsoft 通話方案的動態緊急通話可提供根據團隊用戶端目前�
 
 目前，只有美國地區的通話方案使用者可以利用動態位置來路由緊急呼叫，如下所示：
 
-- 如果美國通話方案使用者的團隊用戶端動態取得美國境內的緊急位址，該位址會用於緊急路由，而不是已註冊的位址，而且通話會自動路由至 PSAP 中的位址的 [服務] 區域。
+- 如果美國通話方案使用者的團隊用戶端動態取得美國境內的緊急位址，該位址會用於緊急路由，而不是已註冊的位址，而且通話會自動路由到位址的服務區域中的 PSAP。
 
 - 如果美國通話方案使用者的團隊用戶端無法在美國動態取得緊急位址，則會使用註冊的緊急位址來協助螢幕並傳送通話。 不過，在將呼叫者連線至適當的 PSAP 之前，會進行通話，以判斷是否需要更新的位址。
 
@@ -179,7 +180,7 @@ TeamsEmergencyCallRoutingPolicy 參照的是線上 PSTN 使用量，必須具備
 
 #### <a name="emergency-location-identification-number-elin-applications"></a>緊急位置識別號碼（ELIN）應用程式
 
-會話邊界控制器（SBCs）可以包含緊急位置身分識別號碼（ELIN）應用程式。 如果 SBC ELIN 應用程式已整合至直接路由部署，您必須在 ELIN 應用程式中設定緊急位址和相關的電話號碼，然後將 ELIN 記錄上傳到各個 PSTN 中的緊急呼叫資料庫.  使用 ELIN 識別碼的小組緊急位置，必須符合 ELIN 應用程式中的專案。
+會話邊界控制器（SBCs）可以包含緊急位置身分識別號碼（ELIN）應用程式。 如果 SBC ELIN 應用程式已整合至直接路由部署，您必須在 ELIN 應用程式中設定緊急位址和相關的電話號碼，然後將 ELIN 記錄上傳到各自 PSTN 中的緊急呼叫資料庫。  使用 ELIN 識別碼的小組緊急位置，必須符合 ELIN 應用程式中的專案。
 
 當有動態取得位置的緊急通話路由至適當的 SBC 時，ELIN 應用程式：
 

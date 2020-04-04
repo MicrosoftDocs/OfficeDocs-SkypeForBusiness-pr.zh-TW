@@ -8,7 +8,7 @@ audience: admin
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-description: ''
+description: 尋找關於停用 Microsoft StaffHub 及轉換至 Microsoft 團隊中的倒班應用程式之常見問題的解答。
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -17,12 +17,13 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 346ef795f8432154d74610e4d061d00fc6039f2a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 53d82dc346226215101c837dcf8a2f10dd6ff2fc
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008155"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141176"
 ---
 # <a name="microsoft-staffhub-to-be-retired"></a>終止對 Microsoft StaffHub 的支援
 
@@ -148,7 +149,7 @@ ms.locfileid: "42008155"
 
 使用者的排程會移至班次，不過，使用者不會成為團隊或 Office 365 群組的成員。
 
-對於未連結至 Azure AD 使用者帳戶的非作用中帳戶，管理員可以在 [StaffHub 小組成員] 頁面上新增有效的 Office 365 電子郵件地址，以確保使用者已連結至您在其中的正確 Azure AD 帳戶。紅外組織。
+對於未連結至 Azure AD 使用者帳戶的非作用中帳戶，管理員可以在 [StaffHub 小組成員] 頁面上新增有效的 Office 365 電子郵件地址，以確保使用者已連結至其組織中正確的 Azure AD 帳戶。
 
 另一個選項是系統管理員執行**StaffHubMember**及**remove StaffHubUser** Cmdlet，以從 StaffHub 小組中移除未預配的帳戶，然後使用其 UPN 將使用者新增回團隊。
 

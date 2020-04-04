@@ -1,5 +1,5 @@
 ---
-title: 開始使用適用於醫療保健組織的 Secure Messaging
+title: 醫療保健組織的安全訊息
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -17,12 +17,13 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: 開始使用適用於醫療保健組織的 Secure Messaging
-ms.openlocfilehash: cd200900f70abf9f9e1d6cef049f46139dcff022
-ms.sourcegitcommit: 4e1647d19501b37860d9fc79370fa4347f76f85f
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: f2b431eb28d2f475bc8abdf6ac05db760200d40e
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43079465"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136983"
 ---
 # <a name="get-started-with-secure-messaging-for-healthcare-organizations"></a>開始使用適用於醫療保健組織的 Secure Messaging
 

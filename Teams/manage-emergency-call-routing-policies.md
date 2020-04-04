@@ -1,5 +1,5 @@
 ---
-title: 管理 Microsoft 團隊中的緊急通話路由原則
+title: 管理緊急電話路由原則
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -16,12 +16,13 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何使用及管理 Microsoft 團隊中的緊急通話路由原則。
-ms.openlocfilehash: af0b7a6a82e0d5ff06c65d726b2f67af22b6f4aa
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: c0e02a44997e07626c39dc576357f8811a9b1bf9
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836503"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141116"
 ---
 # <a name="manage-emergency-call-routing-policies-in-microsoft-teams"></a>管理 Microsoft 團隊中的緊急通話路由原則
 
@@ -51,7 +52,7 @@ ms.locfileid: "41836503"
     > [!NOTE]
     > 撥號字串和撥號遮罩在原則中必須是唯一的。 這表示對於原則而言，您可以定義多個緊急電話號碼，而且您可以為撥號字串設定多個撥號遮罩，但每個撥號字串和撥號遮罩只能使用一次。
 
-6. 按一下 [**儲存**]。
+6. 按一下 [儲存]****。
 
 ### <a name="using-powershell"></a>使用 PowerShell
 
@@ -75,7 +76,7 @@ ms.locfileid: "41836503"
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft 團隊系統管理中心
 
-1. 在 Microsoft 團隊系統管理中心的左導覽中，前往 [**使用者**]，然後按一下使用者。
+1. 在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至 [使用者]****，然後按一下該使用者。
 2. 按一下 [**原則**]，然後在 [**指派的原則**] 旁，按一下 [**編輯**]。
 3. 在 [**緊急呼叫路由策略**] 底下，選取您要指派的原則，然後按一下 [**儲存**]。
 
@@ -84,9 +85,9 @@ ms.locfileid: "41836503"
 或者，您也可以執行下列動作：
 
 1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**語音** > **緊急原則**]，然後按一下 [**呼叫路由策略**] 索引標籤。
-2. 按一下原則名稱左方，選取原則。
-3. 選取 [**管理使用者**]。
-4. 在 [**管理使用者**] 窗格中，依 [顯示名稱] 或 [使用者名稱] 搜尋使用者，選取名稱，然後選取 [**新增**]。 針對您要新增的每個使用者重複此步驟。
+2. 按一下原則名稱的左側來選取原則。
+3. 選取 [管理使用者]****。
+4. 在 [**管理使用者**] 窗格中，依 [顯示名稱] 或 [使用者名稱] 搜尋使用者，選取名稱，然後選取 [**新增**]。 針對要新增的每一個使用者重複此步驟。
 5. 完成新增使用者後，請按一下 [**儲存**]。
 
 ### <a name="using-powershell"></a>使用 PowerShell
@@ -131,4 +132,4 @@ Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Emergency
 ## <a name="related-topics"></a>相關主題
 
 - [管理團隊中的緊急通話原則](manage-emergency-calling-policies.md)
-- [團隊 PowerShell 概覽](teams-powershell-overview.md)
+- [Teams PowerShell 概觀](teams-powershell-overview.md)

@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft 團隊中傳送電子郵件給使用者的音訊會議資訊
+title: 透過電子郵件傳送使用者的音訊會議資訊
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
+- seo-marvel-mar2020
 description: 在 Microsoft 團隊中，向使用者傳送其音訊會議資訊的電子郵件。
-ms.openlocfilehash: c2ae5fe3af00cece551db690aa76805edd480373
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 2a045eaf3a2a79b893ff0d13e25d9b34224fd355
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838123"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140926"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-microsoft-teams"></a>在 Microsoft 團隊中傳送電子郵件給使用者的音訊會議資訊
 
@@ -46,7 +47,7 @@ ms.locfileid: "41838123"
   
 ## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>使用音訊會議資訊傳送電子郵件給使用者
 
-### <a name="an-icon-showing-the-microsoft-teams-logomediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![顯示 Microsoft [小組標誌] 的圖示](media/teams-logo-30x30.png) 使用 Microsoft 團隊系統管理中心
+### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![顯示 Microsoft [小組標誌] 的圖示](media/teams-logo-30x30.png) 使用 Microsoft 團隊系統管理中心
 
 1. 在左側導覽中，按一下 [**使用者**]，然後從可用使用者清單中選取使用者。
 

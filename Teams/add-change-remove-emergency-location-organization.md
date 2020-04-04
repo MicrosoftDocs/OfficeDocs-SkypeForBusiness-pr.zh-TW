@@ -1,5 +1,5 @@
 ---
-title: 新增、變更或移除貴組織的緊急位置
+title: 新增、變更、移除緊急位置
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -17,12 +17,13 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: '瞭解如何在 Microsoft 團隊系統管理中心新增、變更或移除您組織的緊急位置。 '
-ms.openlocfilehash: 2471f13f67555eeff4e0a1b130c416dbbe97b0c7
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 5ec834592e6978c2e2b63810ea25eb7e837513dd
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695823"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141266"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>新增、變更或移除貴組織的緊急位置
 
@@ -40,16 +41,16 @@ ms.locfileid: "41695823"
 4. 選取國家或地區，然後輸入位址。
 
    > [!NOTE]
-   > 在比利時、法國、德國、愛爾蘭、荷蘭及西班牙，請務必瞭解若要在 Office 365 中成功啟動電話號碼，請務必在緊急位置（用來取得號碼）中設定的位址必須符合電話號碼的區功能變數代碼。
+   > 在比利時、法國、德國、愛爾蘭、荷蘭及西班牙，請務必瞭解若要在 Office 365 中成功啟用電話號碼，在緊急位置中設定的位址（用來取得號碼）必須符合電話號碼的區功能變數代碼。
 5. 如果找不到位址且想要手動編輯位址，請開啟 **[如果找不到選取的位址，請開啟我手動編輯位址表單**]。
-6. 按一下 [**儲存**]。
+6. 按一下 [儲存]****。
     
 ## <a name="change-an-emergency-location"></a>變更緊急位置
 
 1. 在 Microsoft [團隊管理中心] 的左導覽中，按一下 [**地點** > **緊急位址**]。
 2. 在清單中，選取您要變更的位置，然後按一下 [**編輯**]。
 3. 進行您想要的變更。
-4. 按一下 [**儲存**]。
+4. 按一下 [儲存]****。
 
 > [!NOTE]
 > 只有在位址未驗證時，才能變更位置的位址資訊。 如果位址已經過驗證，且您需要變更位址，請刪除該位置，然後使用正確的位址建立新位置。

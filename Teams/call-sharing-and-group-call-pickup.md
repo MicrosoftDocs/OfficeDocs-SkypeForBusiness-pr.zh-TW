@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft 團隊中呼叫共用與群組通話挑選
+title: 通話共用和群組來電接聽
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -21,19 +21,20 @@ ms.custom:
 - ms.teamsadmincenter.users.voice.groupcallpickup.tooltip
 - ms.teamsadmincenter.users.voice.callorderanddelay.tooltip
 - Phone System
+- seo-marvel-mar2020
 description: 通話共用和群組通話挑選讓使用者與同事共用來電，以便在使用者無法使用時，可以捕獲通話。
-ms.openlocfilehash: c3a47c892940762807a86d6690fa59520f137960
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: aa59166d32de49b9163209a4836c7024d697fa8f
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824551"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141286"
 ---
 # <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>在 Microsoft 團隊中呼叫共用與群組通話挑選
 
 Microsoft 團隊的呼叫共用與群組呼叫功能可讓使用者與同事共用來電，讓同事可以接聽使用者無法使用的通話。
 
-群組通話與其他通話共用形式（例如來電轉接或同時撥打）不會對收件者造成中斷影響，因為使用者可以設定接收共用通話的通知方式（透過音訊和視覺通知、僅限 visual）。或 [小組] 應用程式中的 [橫幅]，他們可以決定是否要回復。
+群組呼叫對於收件者的電話與其他形式的呼叫共用（例如來電轉接或同時撥打），因為使用者可以設定收到來電通知的方式（透過音訊和視覺通知、僅限 visual 或橫幅在團隊應用程式中），他們可以決定是否要回復。
 
 若要與其他人共用通話，使用者可以建立通話群組，並新增他們要與其通話共用的使用者。 然後，選擇同時撥打或轉寄設定。 如需詳細資訊，請參閱[在小組中來電轉接及同時撥打](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e)。
 

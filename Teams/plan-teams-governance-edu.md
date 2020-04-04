@@ -1,5 +1,5 @@
 ---
-title: 適用于 IT 專業人員的 microsoft 教育管理常見問題-Microsoft 團隊
+title: 適用於系統管理員的 Microsoft 教育版控管常見問題集
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -16,12 +16,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 719f9429d49dfef7a21670c67bad96c9e26c993e
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 18476e043268d8b51fdf877b27e23eb926a1885e
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837433"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137783"
 ---
 # <a name="microsoft-education-governance-faq-for-admins"></a>適用於系統管理員的 Microsoft 教育版控管常見問題集
 
@@ -60,7 +61,7 @@ ms.locfileid: "41837433"
 
 在每個學期或季的開始，您需要有許多新團隊。 您可以採取自動化方法來自動建立這些團隊、使用正確的使用者進行填充，並設定正確的許可權：
 
--   學校資料同步處理可建立適用于 Exchange Online 和 SharePoint Online 的 Office 365 群組、Microsoft 團隊的課程小組以及 OneNote 課程筆記本、學校用來進行教育的學校小組，以及 rostering 及單一登入（SSO）整合許多其他功能協力廠商應用程式。 深入瞭解[學校資料同步處理的概覽](https://docs.microsoft.com/schooldatasync/overview-of-school-data-sync)。
+-   學校資料同步處理可建立適用于 Exchange Online 和 SharePoint Online 的 Office 365 群組、Microsoft 團隊的課程小組以及 OneNote 課程筆記本、適用于 Intune 的學校小組，以及針對許多其他協力廠商應用程式的 rostering 及單一登入（SSO）整合。 深入瞭解[學校資料同步處理的概覽](https://docs.microsoft.com/schooldatasync/overview-of-school-data-sync)。
 -   您可以使用 PowerShell 建立團隊和頻道，並自動設定設定。 如需詳細資訊，請參閱[Microsoft 團隊 PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) 。
 -   您可以使用 Microsoft Graph API （目前在 Beta 版）來建立、設定、克隆及封存小組。 如需詳細資訊，請參閱[使用 Microsoft GRAPH API 與 Microsoft 團隊共同作業](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview)。
 

@@ -1,5 +1,5 @@
 ---
-title: Microsoft 團隊雲端語音部署的指導委員會
+title: 雲端語音部署的籌畫指導委員會
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -15,12 +15,13 @@ localization_priority: Normal
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4338e2b6b169fa6f8fc46ae116f3d297096543f7
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 397f41a468c987e70d068066dcf16ddf0e64843a
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41862984"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136783"
 ---
 # <a name="steering-committee"></a>籌畫指導委員會
 
@@ -30,7 +31,7 @@ ms.locfileid: "41862984"
 
 每個專案都需要商定的願景與章程。 若要傳送專案的預期結果，遠景必須明確定義，它必須受到監視及維護。 這會成為籌畫指導委員會的責任：若要推動決策、建議、提供戰略監管，以充當專案計劃的組織，以及在必要時，請移除封鎖器。
 
-貴組織應該將重要的想法放入籌畫指導委員會。 該委員會必須確保專案能夠達到您為整個組織所做的變更所定義的公司目標，定期開會以討論專案目前的脈衝，並協助您移除在此期間遇到的任何障礙生涯.
+貴組織應該將重要的想法放入籌畫指導委員會。 該委員會必須確保專案達到您在整個組織中所定義的業務目標，並定期開會以討論專案目前的脈衝，並協助您移除在旅程期間遇到的任何障礙。
 
 委員會應該定義其宗旨，以包括一些主要目標：
 

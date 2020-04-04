@@ -16,14 +16,16 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ced9ab01c5f33ef2b8095079443c447c301ee742
-ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
+ms.custom:
+- seo-marvel-mar2020
+ms.openlocfilehash: e109d3a8f43d6f989c96709562efbf759c0e562e
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42978595"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137693"
 ---
-# <a name="quality-of-experience-review-guide"></a>體驗品質的審查指南
+# <a name="quality-of-experience-review-guide"></a>體驗品質的審查指南 
 
 <!-- Note that this link to the Word doc is intentionally NOT the aka.ms/qerquide link -->
 本指南針對 Microsoft 團隊和商務用 Skype Online 的 [磁片磁碟機值] 階段。 您可以下載本指南的[Word 版本](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true)。
@@ -107,7 +109,7 @@ _圖 2-什麼是品質？_
 CQD 中的實際度量單位依工作負載而有所不同，但為了讓品質體驗進行評審，我們主要將重點放在_音訊不佳的百分比_測量中。 PSR.EXE 是由下表所述的五個網路度量值所組成。 針對要分類為較差的資料流程，只有一個公制需要超過定義的閾值。 如需有關資料流程分類程式的詳細資訊，請參閱[這篇文章](stream-classification-in-call-quality-dashboard.md)。
 
 > [!Note]
-> CQD 提供「不佳的原因 ...」 測量，以更清楚地瞭解哪個條件導致資料流程分類為較差。
+> CQD 提供「不佳的原因 ...」測量，以更清楚地瞭解哪個條件導致資料流程分類為較差。
 
 
 _表格 1-音訊品質不佳的指標_
@@ -800,7 +802,7 @@ _圖 17-缺少建立報告_
 
 #### <a name="network-planner"></a>網路規劃中心
 
-網路 Planner 只需幾個簡單的步驟，就能判斷及組織您雲端語音部署的網路需求。 透過提供貴組織的網路詳細資料和雲端語音使用，您可以大致計算雲端語音部署的網路需求、管理及匯出這些詳細資料以進行報告，以及查看區域以進行進一步調查以及後續步驟。
+網路 Planner 只需幾個簡單的步驟，就能判斷及組織您雲端語音部署的網路需求。 透過提供貴組織的網路詳細資料和雲端語音使用，您可以大致計算雲端語音部署的網路需求、管理及匯出這些詳細資料以進行報告，以及查看區域以進行進一步調查及後續步驟。
 
 雖然網路 Planner 不會完全自動進行組建對應程式，但在網路資訊輸入網路資訊之後，就可以將它匯出至組建檔案，準備好進行上傳。
 
@@ -1231,7 +1233,7 @@ _圖 31-裝置（麥克風）報告_
 
 下一個工作是判斷[認證音訊裝置](https://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs)的整體使用量。 我們建議您至少80% 的所有音訊資料流程都使用經過認證的音訊裝置。 最佳做法是將麥克風裝置報告匯出至 Excel，以計算認證或核准裝置的使用方式。 組織通常會保留所有核准裝置的清單，因此篩選及排序資料應該相當簡單。
 
-##### <a name="video"></a>顯示器
+##### <a name="video"></a>影片
 
 影片驅動程式也很重要，就是繼續更新。 確保經常修正的視訊卡，將無法排除視頻驅動程式，因為這是視頻串流品質較差的來源。 使用[經過驗證的影片裝置](https://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs)將有助於確保使用者體驗順暢且高品質。 支援 H-p 原生編碼的視頻裝置是可取的，以減少在視訊會議期間的 CPU 使用量。
 

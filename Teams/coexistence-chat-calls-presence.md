@@ -16,13 +16,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-description: 本檔說明在團隊與商務用 Skype （在租使用者中，根據指派的 TeamsUpgrade 模式）進行的聊天、呼叫路由與目前狀態的行為。 它包含路由優化、目前狀態行為，以及將預設 TeamsUpgrade 模式從*舊版*變更為*孤島*，以及即將停用*舊版*。
-ms.openlocfilehash: 64889ae11b4ce8665fb4a6bdbb98ff95aaf777fc
-ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
+ms.custom: seo-marvel-mar2020
+description: 團隊 & 商務用 Skype 的共存行為，包括路線參數、聊天 & 通話路由、聊天 & 來自預先存在的執行緒的通話，& 目前狀態。
+ms.openlocfilehash: ff5e94b16cd55374ec0aeb45aaffdda41fbe0498
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "42328015"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137303"
 ---
 # <a name="coexistence-with-skype-for-business"></a>與商務用 Skype 共存
 
@@ -77,9 +78,9 @@ ms.locfileid: "42328015"
 
 **資料表1a：租使用者新聊天或呼叫路由至孤島模式收件者**
 
-| <br/><br/> 下 | 觸發器 <br/><br/> 用戶端 | <br/><br/> SfB&nbsp;宿主 | | 人 <br/><br/> 索羅門群島  |
+| <br/><br/> 下 | 觸發器 <br/><br/> 用戶端 | <br/><br/> SfB&nbsp;宿主 | | 人 <br/><br/> 離島  |
 |--- |--- |--- |--- |--- |
-| 索羅門群島 | Teams <br/> 商務用 Skype<br/> Teams<br/> 商務用 Skype| Online<br/> Online<br/> 內部部署<br/>內部部署| &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|Teams <br/> 商務用 Skype<br/> Teams<br/> 商務用 Skype|
+| 離島 | Teams <br/> 商務用 Skype<br/> Teams<br/> 商務用 Skype| Online<br/> Online<br/> 內部部署<br/>內部部署| &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|Teams <br/> 商務用 Skype<br/> Teams<br/> 商務用 Skype|
 |SfB\* <br/> | 商務用 Skype<br/>商務用 Skype<br/> | Online<br/> 內部部署<br/> |&boxv;<br/>&boxv;|商務用 Skype<br/>商務用 Skype<br/>|
 |TeamsOnly |Teams| Online<br/>|&boxv;<br/>|Teams|
 | | | | | |
@@ -88,7 +89,7 @@ ms.locfileid: "42328015"
 
 | <br/><br/> 下   | 觸發器 <br/><br/> 用戶端 | <br/><br/> SfB&nbsp;宿主 | |   人 <br/><br/> SfB\*   |
 |--- |--- |--- |---   |--- |
-| 索羅門群島 |Teams<br/>商務用 Skype<br/>Teams <br/>商務用 Skype  |Online<br/> Online<br/> 內部部署<br/> 內部部署<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *商務用 Skype* <br/> 商務用 Skype<br/> **無法進行** <br/>商務用 Skype<br/> |
+| 離島 |Teams<br/>商務用 Skype<br/>Teams <br/>商務用 Skype  |Online<br/> Online<br/> 內部部署<br/> 內部部署<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *商務用 Skype* <br/> 商務用 Skype<br/> **無法進行** <br/>商務用 Skype<br/> |
 |SfB\* <br/> | 商務用 Skype<br/>商務用 Skype<br/> | Online<br/> 內部部署<br/> |&boxv;<br/>&boxv; |  商務用 Skype<br/>商務用 Skype<br/> |
 |TeamsOnly |Teams| Online<br/>|&boxv;<br/> |  *商務用 Skype* <br/>| 
 | | | | | |
@@ -97,7 +98,7 @@ ms.locfileid: "42328015"
 
 | <br/><br/> 下   | 觸發器 <br/><br/> 用戶端 | <br/><br/> SfB&nbsp;宿主 | |   人 <br/><br/> TeamsOnly  |
 |--- |--- |--- |--- | --- |
-| 索羅門群島   |Teams<br/>商務用 Skype<br/>Teams <br/>商務用 Skype<br/>|Online<br/> Online<br/> 內部部署<br/> 內部部署<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|  Teams <br/>*團隊* <br/>Teams <br/>*團隊*  |
+| 離島   |Teams<br/>商務用 Skype<br/>Teams <br/>商務用 Skype<br/>|Online<br/> Online<br/> 內部部署<br/> 內部部署<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|  Teams <br/>*團隊* <br/>Teams <br/>*團隊*  |
 |SfB\*  | 商務用 Skype<br/>商務用 Skype<br/> | Online<br/> 內部部署<br/> | &boxv;<br/>&boxv; | *團隊*  <br/>*團隊*   |
 |TeamsOnly  | Teams | Online |  &boxv; |Teams   |
 |  |  |  | | |
@@ -111,15 +112,15 @@ ms.locfileid: "42328015"
 這是因為我們無法假設聯合商務用 Skype 合作夥伴已在使用孤島模式時使用團隊。 [孤島] 是預設模式，但我們無法假設所有孤島使用者都執行團隊。 透過傳送到商務用 Skype，我們可以確保沒有孤島的通訊失敗。 如果我們路由至團隊，如果目標不是使用小組，就可能會錯過該通訊。 [路由到商務用 Skype] 可確保郵件永遠收到。  
 
 > [!NOTE]
-> 目前的團隊同盟實現是以商務用 Skype 同盟為基礎，因此它會利用互通性基礎結構（要求始發者的租使用者是純線上或商務用 Skype 混合式），並提供與原生執行緒相比，精簡的功能集。 我們預期會在將來為團隊同盟提供原生團隊，此時，該執行緒就會成為原生，並提供完整功能。
+> 目前的團隊同盟實現是以商務用 Skype 同盟為基礎，因此它會利用互通性基礎結構（需要始發者的租使用者是純線上或商務用 Skype 混合式），並提供一組與原生執行緒較少的功能。 我們預期會在將來為團隊同盟提供原生團隊，此時，該執行緒就會成為原生，並提供完整功能。
 
 下表說明哪個用戶端會接收來自始發者的呼叫（三個最左邊的欄），這取決於發信方的模式、用戶端，以及其商務用 Skype 用戶端的駐留位置（內部部署或線上）。
 
 **表格2a：同盟新聊天或通話路由至孤島收件者**
 
-| <br/><br/>下   | 觸發器<br/><br/> 用戶端| <br/><br/>SfB 宿主| | 人<br/><br/> 索羅門群島 |
+| <br/><br/>下   | 觸發器<br/><br/> 用戶端| <br/><br/>SfB 宿主| | 人<br/><br/> 離島 |
 |--- |--- |--- |--- |--- |
-| 索羅門群島 |Teams<br/>商務用 Skype <br/>Teams <br/>商務用 Skype  |Online<br/> Online<br/> 內部部署<br/> 內部部署<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *商務用 Skype* <br/> 商務用 Skype <br/> **無法進行**   <br/> 商務用 Skype |
+| 離島 |Teams<br/>商務用 Skype <br/>Teams <br/>商務用 Skype  |Online<br/> Online<br/> 內部部署<br/> 內部部署<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *商務用 Skype* <br/> 商務用 Skype <br/> **無法進行**   <br/> 商務用 Skype |
 | SfB\* |商務用 Skype <br/>商務用 Skype |Online<br/> 內部部署<br/> | &boxv;<br/>&boxv;|商務用 Skype <br/>商務用 Skype |
 | TeamsOnly |Teams |Online| &boxv;|*商務用 Skype* |
 |  | | | | 
@@ -128,7 +129,7 @@ ms.locfileid: "42328015"
 
 | <br/><br/>下   | 觸發器<br/><br/> 用戶端| <br/><br/>SfB 宿主| |  人<br/><br/> SfB\* |  
 |--- |--- |--- |--- |--- |
-| 索羅門群島 |Teams<br/>商務用 Skype <br/>Teams <br/>商務用 Skype <br/>|Online<br/> Online<br/> 內部部署<br/> 內部部署<br/> | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *商務用 Skype* <br/> 商務用 Skype <br/> **無法進行** <br/>商務用 Skype <br/> |  
+| 離島 |Teams<br/>商務用 Skype <br/>Teams <br/>商務用 Skype <br/>|Online<br/> Online<br/> 內部部署<br/> 內部部署<br/> | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *商務用 Skype* <br/> 商務用 Skype <br/> **無法進行** <br/>商務用 Skype <br/> |  
 | SfB\* |商務用 Skype <br/>商務用 Skype  |Online<br/> 內部部署<br/>  |&boxv;<br/>&boxv; | 商務用 Skype <br/>商務用 Skype  |
 | TeamsOnly | Teams|Online |&boxv; |*商務用 Skype*  |
 |  | | | | |
@@ -137,7 +138,7 @@ ms.locfileid: "42328015"
 
 | <br/><br/>下 | 觸發器<br/><br/> 用戶端| <br/><br/>SfB 宿主| |  人<br/>  <br/> TeamsOnly  |
 |--- |--- |--- |--- |--- |
-| 索羅門群島  |Teams<br/>商務用 Skype <br/>Teams <br/>商務用 Skype <br/>|Online<br/> Online<br/> 內部部署<br/> 內部部署<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;| Teams <br/>*團隊* <br/>**無法進行** <br/>*團隊* |
+| 離島  |Teams<br/>商務用 Skype <br/>Teams <br/>商務用 Skype <br/>|Online<br/> Online<br/> 內部部署<br/> 內部部署<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;| Teams <br/>*團隊* <br/>**無法進行** <br/>*團隊* |
 | SfB\* |商務用 Skype <br/>商務用 Skype  | Online<br/> 內部部署| &boxv;<br/>&boxv;|*團隊* <br/>*團隊*   |
 | TeamsOnly |Teams |Online |&boxv; |Teams |
 |  | | | | |
@@ -174,7 +175,7 @@ ms.locfileid: "42328015"
 
 * 如果使用者是 TeamsOnly 模式，則其他任何使用者（無論是在團隊或商務用 Skype 中），都會看到 TeamsOnly 使用者的小組目前狀態
 * 如果使用者使用的是任何 SfB\*模式（SfbOnly、SfbWithTeamsCollab、SfbWithTeamsCollabAndMeetings），則其他任何使用者（無論是在團隊或商務用 skype 中），都會看到 SfB\*使用者的商務用 skype 目前狀態
-* 如果使用者使用的是孤島（或舊版）模式，則團隊中的目前狀態與商務用 Skype 中的目前狀態是獨立的（不需要符合的值），而其他使用者會看到一或多個孤島使用者的狀態，這取決於它們是在相同的租使用者中或在 federat 中ed 租使用者及其使用的用戶端
+* 如果使用者使用的是孤島（或舊版）模式，則團隊中的目前狀態與商務用 Skype 中的目前狀態是獨立的（不需要符合的值），而其他使用者會看到孤島使用者的一或其他存在性，這取決於它們是位於相同的租使用者中，還是在聯盟租使用者中使用的用戶端。
     * 從團隊來看，同一租使用者中的任何其他使用者都會看到孤島使用者的小組目前狀態。這與上述的租使用者路由表對齊
     * 從團隊來看，同盟租使用者中的任何其他使用者都會看到孤島使用者的商務用 Skype 目前狀態;這與上述聯盟路由表對齊
     * 在商務用 Skype 中，任何其他使用者都會看到孤島使用者的商務用 Skype 目前狀態（在租使用者與同盟中）;這與上述路由表對齊
@@ -188,7 +189,7 @@ ms.locfileid: "42328015"
 
 **資料表3：租使用者內的目前狀態（新執行緒）**
 
-|監視器 <br/><br/>用戶端| |<br/><br/>索羅門群島 |Publisher <br/><br/>SfB\* |<br/>僅限團隊|
+|監視器 <br/><br/>用戶端| |<br/><br/>離島 |Publisher <br/><br/>SfB\* |<br/>僅限團隊|
 |--- |--- |--- |--- |---|
 |商務用 Skype |&boxv;|商務用 Skype | 商務用 Skype | Teams|
 |Teams |&boxv; |Teams |商務用 Skype |Teams |
@@ -202,7 +203,7 @@ ms.locfileid: "42328015"
 
 **資料表4：同盟目前狀態（新執行緒）**
 
-|監視器 <br/><br/> 用戶端 | |<br/><br/> 索羅門群島  |Publisher <br/><br/> SfB\* |<br/><br/> 僅限團隊 |
+|監視器 <br/><br/> 用戶端 | |<br/><br/> 離島  |Publisher <br/><br/> SfB\* |<br/><br/> 僅限團隊 |
 |--- |--- |--- |--- |---|
 |商務用 Skype |&boxv; |商務用 Skype  | 商務用 Skype  | Teams  |
 |Teams | &boxv;|商務用 Skype |商務用 Skype |Teams|

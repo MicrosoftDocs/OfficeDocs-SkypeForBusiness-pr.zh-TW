@@ -19,13 +19,14 @@ localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 瞭解附加元件授權、每個授權可取得的功能、如何為您的產品購買授權、如何搭配現有電信業者使用授權。 您可以取得 Office 365、通訊點數、通話方案的價格和方案詳細資料。
-ms.openlocfilehash: c1faf51c6f0c61ce569a0e3f14181aa8db276a2c
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
-ms.translationtype: HT
+- seo-marvel-mar2020
+description: 瞭解附加元件授權、每個授權可取得的功能、如何為您的產品購買授權、如何搭配現有電信業者使用授權。
+ms.openlocfilehash: 10f8b8d0af5c0c70d68c6fbdba561b15af41f64b
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029374"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140816"
 ---
 # <a name="microsoft-teams-add-on-licensing"></a>Microsoft Teams 附加元件授權
 

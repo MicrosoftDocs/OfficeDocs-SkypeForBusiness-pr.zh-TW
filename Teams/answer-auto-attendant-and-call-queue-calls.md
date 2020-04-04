@@ -1,5 +1,5 @@
 ---
-title: 直接從 Teams 回答自動語音應答和通話佇列的通話
+title: 應答自動回應及呼叫佇列通話
 ms.reviewer: waseemh
 author: LolaJacobsen
 ms.author: lolaj
@@ -18,12 +18,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8e864e32409730373d98263215b0bcc35d9b404d
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: d630ea41915cb89013e407a6fa0b1cc21cb21abf
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825311"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137433"
 ---
 <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>直接從 Teams 回答自動語音應答和通話佇列的通話
 ===========================================================
@@ -34,7 +35,7 @@ ms.locfileid: "41825311"
 
 雲端自動語音應答提供一系列的語音提示或音訊檔案，當來電者撥入組織時，會聽到該語音提示，而不是人工操作員。 自動接聽：可讓呼叫者透過功能表系統、撥打電話或使用語音辨識來尋找使用者（使用電話鍵台（DTMF）或語音輸入。
 
-雲端通話佇列包括某人撥入您組織的電話號碼時所使用的問候語、自動保留通話的功能，以及在通話時搜尋下一個可用的呼叫代理程式來處理通話的功能在暫停時聆聽音樂。 您可以為組織建立單一或多個通話佇列。
+雲端通話佇列包括某人撥入您組織的電話號碼時所使用的問候語、自動保留通話的功能，以及搜尋下一個可用的呼叫代理程式，以處理通話，而呼叫者正在聆聽音樂的人員。 您可以為組織建立單一或多個通話佇列。
 
 ## <a name="handling-an-auto-attendant-or-call-queue-call"></a>處理自動語音應答或通話佇列通話
 
@@ -53,10 +54,10 @@ ms.locfileid: "41825311"
 
 在下列用戶端提供自動語音應答及呼叫佇列呼叫支援：
 
--   Microsoft 團隊 Windows 用戶端（32和64位版本）
--   Microsoft 團隊 Mac 用戶端
--   Microsoft 團隊 iPhone 應用程式
--   Microsoft 團隊 Android 應用程式
+-    Microsoft 團隊 Windows 用戶端（32和64位版本）
+-    Microsoft 團隊 Mac 用戶端
+-    Microsoft 團隊 iPhone 應用程式
+-    Microsoft 團隊 Android 應用程式
 
 ## <a name="configure-auto-attendant-and-call-queue-support-for-microsoft-teams"></a>針對 Microsoft 團隊設定自動語音應答及呼叫佇列支援
 
@@ -64,8 +65,8 @@ ms.locfileid: "41825311"
 
 ## <a name="related-topics"></a>相關主題
 
--   [什麼是 Office 365 中的電話系統](what-is-phone-system-in-office-365.md)
--   [建立雲端通話佇列](create-a-phone-system-call-queue.md)
--   [什麼是雲端自動語音應答？](what-are-phone-system-auto-attendants.md)
--   [設定雲端自動語音應答](create-a-phone-system-auto-attendant.md)
+-    [什麼是 Office 365 中的電話系統](what-is-phone-system-in-office-365.md)
+-    [建立雲端通話佇列](create-a-phone-system-call-queue.md)
+-    [什麼是雲端自動語音應答？](what-are-phone-system-auto-attendants.md)
+-    [設定雲端自動語音應答](create-a-phone-system-auto-attendant.md)
 

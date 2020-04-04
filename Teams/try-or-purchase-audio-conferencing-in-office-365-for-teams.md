@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft 團隊的 Office 365 中試用或購買音訊會議
+title: 在適用于團隊的 Office 365 中試用或購買音訊會議
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,21 +21,22 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - ms.lync.lac.CpcGettingStarted
+- seo-marvel-mar2020
 description: '瞭解如何試用或購買 Office 365 的音訊會議（PSTN 會議）授權，以設定人員可以撥入的電話會議。 '
-ms.openlocfilehash: 6c2b7583dcf286ba3b761a3445e3eff241896194
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 6f30f59e20ee6fd8516bcfe420e2b936e9749a8e
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837613"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139692"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-microsoft-teams"></a>在 Microsoft 團隊的 Office 365 中試用或購買音訊會議
 
-有時候貴組織中的人員必須使用電話撥入會議。 Microsoft 團隊只有在這種情況下才包含音訊會議功能！ 使用者可以使用電話撥入 Microsoft 團隊會議，而不是在行動裝置或電腦上使用 Microsoft 團隊 app。
+貴組織內的人員有時會需要透過電話來加入會議。 Microsoft 團隊只有在這種情況下才包含音訊會議功能！ 使用者可以使用電話撥入 Microsoft 團隊會議，而不是在行動裝置或電腦上使用 Microsoft 團隊 app。
 
 您只需要為規劃排程或領導會議的人員設定音訊會議。 在會議中呼叫會議的出席者不需要獲指派任何授權，也不需要其他設定。
 
-如需定價資訊，請參閱[音訊會議的價格](https://products.office.com/skype-for-business/audio-conferencing#Requirements)。
+如需定價資訊，請參閱[音訊會議的定價](https://products.office.com/skype-for-business/audio-conferencing#Requirements)。
 
 ## <a name="step-1-buy-and-assign-audio-conferencing-licenses"></a>步驟1：購買並指派音訊會議授權
 

@@ -21,13 +21,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Licensing
-description: 除了標準的音訊會議每個使用者授權之外，使用 Microsoft 大量授權的組織也可以選擇為其組織啟用音訊會議功能的每分鐘付款優惠。
-ms.openlocfilehash: ac73ca3396e5fff9e9146206a8f9e2008d9065f7
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+- seo-marvel-mar2020
+description: 瞭解使用 Microsoft 大量授權為組織啟用音訊會議功能的每分鐘付款選項。
+ms.openlocfilehash: 5943b5d160df1ddd2ebb3da42818b02683e47309
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826281"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139162"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>音訊會議按分鐘計費
 
@@ -59,7 +60,7 @@ ms.locfileid: "41826281"
 
 ## <a name="why-is-it-best-for-you"></a>為什麼最適合您？
 
-- 每分鐘支付的費用只會針對每個出席者在排程會議期間發出的每一分鐘，而不是在行動裝置上使用商務用 Skype 或團隊應用程式（費率）。裝置或電腦。
+- 每分鐘支付的費用只會針對每個出席者在排程的會議期間發出的每一分鐘，而不是在行動裝置或電腦上使用商務用 Skype 或團隊應用程式，而是有費用變化。
 
 - 管理成本的功能，因為系統管理員可以控制，以限制可從召集人會議完成的撥出（國際及國內）類型。 查看[出站通話限制原則以進行音訊會議與使用者 PSTN 通話](/microsoftteams/outbound-calling-restriction-policies)
 
@@ -77,13 +78,13 @@ ms.locfileid: "41826281"
   
 - [音訊會議的定價](https://products.office.com/skype-for-business/audio-conferencing#Requirements)
     
-- [電話系統價格](https://products.office.com/skype-for-business/phone-system#Requirements)
+- [電話系統的定價](https://products.office.com/skype-for-business/phone-system#Requirements)
     
 - [通話方案的價格](https://products.office.com/skype-for-business/pstn-calling-plans#requirements)
     
 ## <a name="related-topics"></a>相關主題
   
-[Microsoft 團隊附加元件授權](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+[Microsoft Teams 附加元件授權](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
   
  

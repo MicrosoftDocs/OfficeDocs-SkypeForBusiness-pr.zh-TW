@@ -1,5 +1,5 @@
 ---
-title: 音訊會議與通話方案的適用國家/地區
+title: 國家/地區可用性-音訊會議，通話方案
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -24,13 +24,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 - LIL_Placement
-description: 您可以選取國家/地區，以了解是否可以使用音訊會議、電話系統、通話方案和通訊點數，以及是否有可用的付費和免付費電話號碼。
-ms.openlocfilehash: cc1acc2e112477c441b9bfb492dff49183e5dc3d
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
-ms.translationtype: HT
+- seo-marvel-mar2020
+description: 瞭解音訊會議、電話系統、通話方案、通訊點數，以及免付費電話號碼以及免付費電話號碼在國家或地區中都有提供。
+ms.openlocfilehash: d6c989ea073a3d12f5bd4f04496f57977534e05c
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41682520"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141056"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>音訊會議與通話方案的適用國家/地區
 

@@ -1,5 +1,5 @@
 ---
-title: Office 365 通話方案-英國的練習準則（英國）
+title: 英國的練習準則 -Office 365 通話方案
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,14 +20,15 @@ f1.keywords:
 - CSH
 ms.custom:
 - Legal
+- seo-marvel-mar2020
 hideEdit: true
-description: '瞭解適用于英國商務用 Skype 的通話方案（PSTN 通話方案）準則、取得協助的方式，以及如何提交投訴及解決糾紛的方法。 '
-ms.openlocfilehash: a811b3a49310a81d5cc62502fe210367b5ac6905
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+description: 瞭解商務用 Skype UK 的 PSTN 通話方案程式碼，包括在何處取得協助，以及如何提交投訴及解決糾紛。
+ms.openlocfilehash: ef69d726ab40a4eb282422ab549961776c985ef1
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824941"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139042"
 ---
 # <a name="calling-plans-in-office-365---code-of-practice-for-the-united-kingdom-uk"></a>Office 365 通話方案-英國的練習準則（英國）
 
@@ -55,7 +56,7 @@ ms.locfileid: "41824941"
   
 ## <a name="4-number-porting"></a>4. 數位移植
 
-在某些情況下，商務用 Skype 可能無法轉讓客戶的電話號碼以與服務搭配使用。 在有可攜性的情況下，商務用 Skype 將採取所有合理的步驟，以確保在協定轉讓已達到客戶目前為止的號碼之後，立即完成該號碼的轉移及後續啟用服務提供者。
+在某些情況下，商務用 Skype 可能無法轉讓客戶的電話號碼以與服務搭配使用。 在有可用的數位可攜性的情況下，商務用 Skype 將採取所有合理的步驟，以確保在已達到客戶目前服務提供者所能傳送號碼的協定後，立即完成編號與後續啟用的轉移。
 
 ## <a name="5-service-reliability"></a>5. 服務可靠性
 
@@ -65,7 +66,7 @@ Office 365 通話方案依賴您的寬頻連線。 如果您的寬頻連線遇�
 
 商務用 Skype 可讓您在英國、威爾士、蘇格蘭和北愛爾蘭的客戶存取999/112 公用緊急通話服務。 不過，緊急呼叫999或112的運作方式與使用傳統電話語音的 Office 365 通話方案服務有所不同。 客戶必須通知這些差異的 Office 365 通話方案服務的每個使用者。
 
-差異包括：（i）商務用 Skype 可能不知道來電者的實際位置，這可能會導致緊急服務被 despatched 到錯誤的位置;（ii）當商務用 Skype 使用者撥打電話給緊急通話時，操作員可能會要求使用者提供其目前的位置，以協助正確地傳送緊急通話並 despatching 緊急服務;（iii）如果使用者的裝置沒有電源、遇到電源中斷或因任何原因而無法存取網際網路，使用者就無法透過 Office 365 通話方案服務撥打緊急電話;與（iv）雖然您可以在網際網路連線的世界上的任何地方使用 Office 365 通話方案服務，但使用者不應呼叫999或112外部、威爾士、蘇格蘭或北愛爾蘭，因為通話可能不會路由到適當的緊急服務。
+差異包括：（i）商務用 Skype 可能不知道來電者的實際位置，這可能會導致緊急服務被 despatched 到錯誤的位置;（ii）當商務用 Skype 使用者撥打電話給緊急通話時，操作員可能會要求使用者提供其目前的位置，以協助正確地傳送緊急通話並 despatching 緊急服務;（iii）如果使用者的裝置沒有電源、遇到電源中斷或因任何原因而無法存取網際網路，使用者就無法透過 Office 365 通話方案服務撥打緊急電話;與（iv）雖然您可以在網際網路連線的世界上的任何地方使用 Office 365 通話方案服務，但使用者不應呼叫999或112，在英國、威爾士、蘇格蘭或北愛爾蘭之外，因為通話可能不會傳送給適當的緊急服務。
 
 每個客戶都必須註冊使用者的位置，並將此資訊保留更新，以便提供給緊急服務。 您可以透過商務用 Skype 系統管理員入口網站線上變更位置資訊。
 
@@ -139,7 +140,7 @@ Office 365 通話方案依賴您的寬頻連線。 如果您的寬頻連線遇�
 
 ### <a name="dispute-resolution"></a>爭議解決
 
-如果您認為您在 [商務用 Skype] 元件上的 [您的帳單費用] 上的費用是錯誤的，而您想要退款，您可以根據商務用 Skype 投訴處理常式代碼來歸檔投訴。 如果您使用商務用 Skype 歸檔投訴，或（a）當您在八（8）周的提交期間未解決投訴，或（b）您收到一份字母，告訴我們我們已達到最終決定，您可以將投訴提供給 Ombudsman 服務，也就是 Ofcom 核准的協力廠商，以處理有關通訊服務的投訴。
+如果您認為您在 [商務用 Skype] 元件上的 [您的帳單費用] 上的費用是錯誤的，而您想要退款，您可以根據商務用 Skype 投訴處理常式代碼來歸檔投訴。 如果您使用商務用 Skype 歸檔投訴，或（a），在提交（8）周之後，或（b）收到我們已達到最終決定的 Ombudsman 服務，您可能會將投訴提供給 Ofcom，以處理有關通訊服務的相關意見投訴的協力廠商。
 
 ## <a name="13-national-translation-services-personal-numbers-and-0870-numbers"></a>13. 國家翻譯服務、個人號碼與0870號碼
 
@@ -150,4 +151,3 @@ Office 365 通話方案依賴您的寬頻連線。 如果您的寬頻連線遇�
 
 ## <a name="related-topics"></a>相關主題
 [音訊會議與通話方案的適用國家/地區](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-

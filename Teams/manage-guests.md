@@ -13,21 +13,22 @@ ms.reviewer: sbhatta
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: IT 管理員可以在租使用者層級新增來賓、設定及管理來賓使用者原則和許可權、決定哪些使用者可以邀請客人，以及拉入來賓使用者活動的報告。
+description: 瞭解如何建立您的第一份團隊與頻道、快速使用中的應用程式、監視器使用量與意見反應，以及取得資源以規劃貴組織內的推出。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ef091eb926301e6dd9d3ac27d7c62486d93075a1
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: fea5ab9eec355d77f19165253fe97ee8aeb725ca
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834773"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139242"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>管理 Microsoft 團隊中的來賓存取權
 ======================================
 
 > [!IMPORTANT]
-> 您可能必須等候長達24小時，變更才會生效。 
+> 您可能需要等候 24 小時，變更才會生效。 
 
 **來賓**是 Microsoft 團隊中的使用者類型，包括所有 Office 365 商務版 Premium、Office 365 企業版、Office 365 商務基本版和 Office 365 教育版訂閱。 您不需要額外的 Office 365 授權。 請參閱以下有關[來賓存取授權](#guest-access-licensing-limits)的詳細資訊。
 

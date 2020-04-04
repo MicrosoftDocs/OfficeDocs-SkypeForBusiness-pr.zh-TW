@@ -1,5 +1,5 @@
 ---
-title: 使用 Microsoft 端點 Configuration Manager 部署 Microsoft 團隊聊天室
+title: 使用 Microsoft Endpoint Configuration Manager 部署 Microsoft 團隊聊天室
 author: lanachin
 ms.author: v-lanac
 ms.reviewer: Turgayo
@@ -10,7 +10,9 @@ ms.service: msteams
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-ms.custom: Strat_SB_Admin
+ms.custom:
+- Strat_SB_Admin
+- seo-marvel-mar2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 ms.collection:
 - M365-collaboration
@@ -32,12 +34,12 @@ no-loc:
 - Azure Monitor
 - Log Analytics
 - Operations Management Suite
-ms.openlocfilehash: eb1e4337f97f16df6d7ef039bf4ba095ed692995
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 04d5945e042293ad0cb1597307fd4a2b596bee39
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827921"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141016"
 ---
 # <a name="deploy-microsoft-teams-rooms-by-using-microsoft-endpoint-configuration-manager"></a>使用 Microsoft 端點 Configuration Manager 部署 Microsoft 團隊聊天室
 
@@ -156,7 +158,7 @@ Configuration Manager 需要多個套件來部署並設定 Microsoft 團隊會�
 
 您需要建立並設定下列套件，然後將它們發佈到已指派發佈點伺服器角色的 Configuration Manager 網站系統。
 
-| **套件名稱**                     | **類型**               | **說明**                                                                           |
+| **套件名稱**                     | **類型**               | **描述**                                                                           |
 |--------------------------------------|------------------------|-------------------------------------------------------------------------------------------|
 | SRS v2-SRS 應用程式套件     | 軟體套件       | Microsoft 團隊聊天室部署套件封裝                                      |
 | SRS v2-Sysprep 套件             | 軟體套件       | [自訂以無人參與的 .xml] 來設定 Microsoft 團隊會議室單位            |
@@ -593,7 +595,7 @@ Surface Pro 和 Surface Pro 4 都支援 Microsoft 球隊會議室。 您需要�
 
 ## <a name="configuration-manager-task-sequences"></a>Configuration Manager 任務序列
 
-您可以將任務順序與 Configuration Manager 搭配使用，以自動將作業系統映射部署到目的地電腦的步驟。 若要以自動化的方式部署 Microsoft 團隊會議室，您可以建立一個工作序列，參照用於啟動目的地 Microsoft 團隊聊天室電腦的啟動影像、您想要安裝的 Windows 10 企業版作業系統影像，以及任何其他其他內容，例如其他應用程式或軟體更新。
+您可以將任務順序與 Configuration Manager 搭配使用，以自動將作業系統映射部署到目的地電腦的步驟。 若要以自動方式部署 Microsoft 團隊會議室，您可以建立一個參照啟動影像的任務序列，這些啟動影像是用來啟動目的地 Microsoft 團隊聊天室電腦、您想要安裝的 Windows 10 企業版作業系統影像，以及其他任何其他內容（例如其他應用程式或軟體更新）。
 
 ### <a name="import-the-sample-task-sequence"></a>匯入範例任務序列
 
@@ -656,7 +658,7 @@ Surface Pro 和 Surface Pro 4 都支援 Microsoft 球隊會議室。 您需要�
    11. **複製 SRS V2 設定檔**：此步驟會將所需的設定和配置檔案從 Microsoft 團隊聊天室部署套件複製到本機硬碟。 此步驟不需要自訂。
        -   確認已選取 [ **srs v2 – srs] 應用程式套件**和 [**停用64位檔案系統**重新導向]。
 
-   12. **安裝-SRSv2-OS-更新**：此步驟會將 Microsoft 小組聊天室部署所需的任何強制作業系統更新部署。 請執行下列步驟：
+   12. **安裝-SRSv2-OS-更新**：此步驟會將 Microsoft 小組聊天室部署所需的任何強制作業系統更新部署。 請執行下列動作：
        -   檢查 [[設定 Microsoft 團隊聊天室] 主控台](console.md)，查看需要哪些更新。
        -   確認您的**SRS v2-OS 更新套件**包含所有需要的更新。
        -   確認已選取 [ **SRS v2-OS 更新套件**]。

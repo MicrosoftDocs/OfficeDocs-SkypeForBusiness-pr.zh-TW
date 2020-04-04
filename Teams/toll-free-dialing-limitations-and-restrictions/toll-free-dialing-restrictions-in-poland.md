@@ -22,20 +22,21 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: 這將協助您瞭解如何在每個國家/地區撥打免付費電話號碼。 在您選取國家/地區之後，系統會將您帶到特定國家/地區的頁面，其中包含特定的詳細資料、限制，以及免費提供免付費服務的服務可用性限制。 [撥號格式] 或 [格式] 會在每個國家/地區顯示所需的存取代碼，以撥打免付費電話號碼。
-ms.openlocfilehash: aac5a16f9f3eca802f53af7950fd93f31a2e85ac
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+- seo-marvel-mar2020
+description: 瞭解如何在波蘭中撥打免付費電話號碼，包括可用性、有線/固定線與行動網路可用性，以及限制。
+ms.openlocfilehash: 7e467fc5b62b94c31a3e3859c94520c1a23982cd
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41693418"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140302"
 ---
 # <a name="toll-free-dialing-restrictions-in-poland"></a>波蘭的免付費撥號限制
 
 [尋找其他國家或地區](../toll-free-dialing-limitations-and-restrictions.md)，或進一步瞭解免付費撥號限制與限制。
 
 
-|**詳細資料**|**說明**|
+|**詳細資料**|**描述**|
 |:-----|:-----|
 |免費通話嗎？  <br/> |是  <br/> |
 |撥號格式（s）  <br/> |00 800 XXX XX XX  <br/> |

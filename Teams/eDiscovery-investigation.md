@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft 團隊中進行 eDiscovery 調查內容
+title: 對內容進行 eDiscovery 調查
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -16,12 +16,13 @@ f1.keywords:
 description: 瞭解當您需要提交以電子形式儲存的法律訴訟資訊時，該怎麼辦。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 315ec351450224dc8d5b98dc0d974b64573bc0ab
-ms.sourcegitcommit: e710bb8dbbd084912cbf509896515a674ab5e19f
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 955fbf6ba937ca0fc11270cb58c12a0349d46330
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43033267"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136683"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>在 Microsoft 團隊中進行 eDiscovery 調查內容
 
@@ -44,7 +45,7 @@ ms.locfileid: "43033267"
 
 ## <a name="ediscovery-of-private-channels"></a>電子檔探索（私人頻道）
 
-在私人通道中傳送的訊息記錄會傳送到所有私人通道成員的信箱，而不是群組信箱。 記錄的標題會設定格式，以指出其傳送的是哪一種私人頻道。
+在私人頻道中傳送的訊息記錄會傳送到所有私人頻道成員的信箱，而不是傳送到群組信箱。 記錄的標題會有格式設定，指出寄自哪一個私人頻道。
 
 因為每個私人通道都有自己的 SharePoint 網站集合與父小組網站分開，所以專用通道中的檔案會獨立于父團隊進行管理。
 

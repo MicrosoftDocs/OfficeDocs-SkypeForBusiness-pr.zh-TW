@@ -1,5 +1,5 @@
 ---
-title: 變更音訊會議橋接器的電話號碼
+title: 變更音訊會議橋的電話號碼
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,13 +21,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
-description: 當您購買音訊會議授權時，Microsoft 會為您的組織託管您的音訊會議橋。 音訊會議橋會從不同位置提供撥入電話號碼，讓會議召集人與參與者都能使用電話加入商務用 Skype 或 Microsoft 團隊會議。
-ms.openlocfilehash: 54662b34f5b8b1f56aceffb2294801a485bc26ae
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+- seo-marvel-mar2020
+description: 瞭解將新服務電話號碼指派給您的會議橋接器所需的步驟，以擴大使用者的覆蓋範圍。
+ms.openlocfilehash: 571b7a9c14db1601e0a4b94740395ad087808a49
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825201"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139072"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>變更音訊會議橋接器的電話號碼
 
@@ -82,7 +83,7 @@ ms.locfileid: "41825201"
 
 在接下來的兩個步驟中，您將需要啟動 Windows PowerShell。
   
-如果您更新了部分或所有使用者的會議邀請中 inlcuded 的預設電話號碼，您可以選擇性地更新已傳送給組織中的使用者的會議邀請，在其預設電話號碼變更之後，再使用會議遷移服務。 如需其他資訊，請參閱[設定會議遷移服務（MMS）](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)。
+如果您更新了部分或所有使用者的會議邀請中 inlcuded 的預設電話號碼，您可以選擇性地更新已傳送給組織中的使用者的會議邀請，然後再使用會議遷移服務變更其預設電話號碼。 如需其他資訊，請參閱[設定會議遷移服務（MMS）](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)。
   
 - 針對在步驟2中變更預設電話號碼的使用者，執行會議遷移服務（MMS）。 若要這樣做，請執行下列命令：
 
@@ -235,7 +236,7 @@ Get-CsOnlineDialInConferencingBridge -Name "Conference Bridge"
 
 **例如**，若要取消指派 DefaultServiceNumber "8005551234"
 ```PowerShell
-Unregister-CsOnlineDialInConferencingServiceNumber -BridgeName “Conference Bridge” -RemoveDefaultServiceNumber 8005551234 
+Unregister-CsOnlineDialInConferencingServiceNumber -BridgeName "Conference Bridge" -RemoveDefaultServiceNumber 8005551234 
 ```
 
 ## <a name="about-windows-powershell"></a>關於 Windows PowerShell

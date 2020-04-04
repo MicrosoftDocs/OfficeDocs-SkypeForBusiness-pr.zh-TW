@@ -1,5 +1,5 @@
 ---
-title: 使用 XML 設定檔遠端系統管理 Microsoft 團隊聊天室的主控台設定
+title: 遠端系統管理 Microsoft 團隊聊天室裝置設定
 ms.author: v-lanac
 author: lanachin
 ms.reviewer: sohailta
@@ -13,13 +13,14 @@ localization_priority: Normal
 ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
 ms.collection:
 - M365-collaboration
-description: 本文將討論 Microsoft 團隊聊天室裝置所使用的預設設定的遠端系統管理，包括套用自訂主題。
-ms.openlocfilehash: 6a06b94bff350d07e540a80092bf7edbed33ddc8
-ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
+ms.custom: seo-marvel-mar2020
+description: 由 Microsoft 團隊聊天室裝置使用的預設設定的遠端系統管理，包括套用自訂主題及建立主設定檔案。
+ms.openlocfilehash: 988fa11ef3a84c21bfef3a726e3901bae26e222a
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43102314"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140986"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>使用 XML 設定檔遠端系統管理 Microsoft 團隊聊天室的主控台設定
 

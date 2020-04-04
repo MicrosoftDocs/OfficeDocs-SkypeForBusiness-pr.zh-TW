@@ -1,5 +1,5 @@
 ---
-title: 快速入門手冊-在 Microsoft 團隊中配置通話方案
+title: 快速入門手冊-設定通話方案
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -18,12 +18,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b7f1ded5d843689e828b00c0a466e012b8750582
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: a81cd7d3481c9c2f6e3e5c8874eef97dc0540431
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825361"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137773"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>快速入門手冊：在 Microsoft 團隊中設定通話方案
 ==============================================================
@@ -64,7 +65,7 @@ TeamsUpgradePolicy 的預設設定為 [孤島] 模式，可確保現有的商務
 
 **筆記**
  - 商務用 Skype IP 手機將接聽通話，即使使用者處於 TeamsOnly 模式。  
- - 已使用 [電話系統] 和 [通話方案] 授權搭配商務用 Skype Online （例如，已獲指派 OnlineVoiceRoutingPolicy）的使用者，會在團隊中啟用 [通話] 索引標籤，並可將呼出的 PSTN 電話撥出沒有系統管理員需要進行任何系統管理動作的小組。
+ - 已針對商務用 Skype Online （例如已獲指派 OnlineVoiceRoutingPolicy）的手機系統和通話方案授權所提供的使用者，將會在團隊中啟用 [通話] 索引標籤，而且可以在不需要採取任何管理動作的情況下，將來自團隊的出站 PSTN 呼叫提供給您。
 
 
 ### <a name="how-to-configure-users-to-receive-all-incoming-voip-and-pstn-calls-in-teams"></a>如何設定使用者接收小組中的所有打入 VOIP 和 PSTN 通話

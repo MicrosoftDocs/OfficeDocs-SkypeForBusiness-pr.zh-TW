@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-description: 瞭解在小組中設定即時事件的步驟，包括準備網路、指派授權、使用原則來啟用即時事件功能及排程使用者，以及設定協力廠商的發佈提供者。
-ms.custom: ms.teamsadmincenter.liveevents.policies
+description: 在小組中設定活動，包括設定您的網路、指派授權、啟用即時事件功能和排程，以及影片發佈解決方案。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f18f35ef6775f04049b79374a4e2940646eff9e8
-ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: ae30fdb824c62027d1a704435e80df2a9abf1f85
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558573"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140562"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>在 Microsoft 團隊中設定即時事件
 
@@ -32,7 +32,7 @@ ms.locfileid: "42558573"
 ## <a name="step-1-set-up-your-network-for-live-events-in-teams"></a>步驟1：在團隊中設定即時事件的網路
 在團隊中產生的即時事件需要您[準備貴組織的小組網路](https://docs.microsoft.com/microsoftteams/prepare-network)。  
 
-## <a name="step-2-get-and-assign-licenses"></a>步驟2：取得並指派授權
+## <a name="step-2-get-and-assign-licenses"></a>步驟 2：取得和指派授權
 請確定您有[誰可以建立和排程即時事件](plan-for-teams-live-events.md#who-can-create-and-schedule-live-events)，以及[誰可以觀看即時事件](plan-for-teams-live-events.md#who-can-watch-live-events)的授權指派正確。
 
 ## <a name="step-3-set-up-live-events-policies"></a>步驟3：設定即時事件原則
@@ -82,9 +82,9 @@ ms.locfileid: "42558573"
 ![顯示 Microsoft [小組標誌] 的圖示](../media/teams-logo-30x30.png) 使用 Microsoft 團隊系統管理中心
 
 1. 移至 [**會議** > **即時事件] 原則**。
-2. 按一下原則名稱左方，選取原則。
-3. 選取 [**管理使用者**]。
-4. 在 [**管理使用者**] 窗格中，依 [顯示名稱] 或 [使用者名稱] 搜尋使用者，選取名稱，然後選取 [**新增**]。 針對您要新增的每個使用者重複此步驟。
+2. 按一下原則名稱的左側來選取原則。
+3. 選取 [管理使用者]****。
+4. 在 [**管理使用者**] 窗格中，依 [顯示名稱] 或 [使用者名稱] 搜尋使用者，選取名稱，然後選取 [**新增**]。 針對要新增的每一個使用者重複此步驟。
 5. 完成新增使用者後，請選取 [**儲存**]。
  
 
@@ -114,7 +114,7 @@ ms.locfileid: "42558573"
 - **斜坡 OmniCache**提供新一代網路發佈，並確保透過全球 wan 順暢地傳送影片內容，協助事件發生器優化網路頻寬，並支援成功的即時事件廣播和點播資料流程。 我們即將推出在小組中產生的即時事件支援的快速衝刺 OmniCache。 [深入了解](http://www.ramp.com)。 
  
 > [!NOTE] 
-> 您所選擇的 SDN 或 eCDN 方案受限於所選的**協力廠商提供者服務條款與隱私權原則**，這將會控制提供者的解決方案的使用。 您使用的是提供者的解決方案，不會受到 Microsoft 大量授權條款或線上服務條款的制約。 如果您不同意**協力廠商提供者的條款**，請不要在小組中啟用此方案。 
+> 您所選擇的 SDN 或 eCDN 方案受限於所選的**協力廠商提供者服務條款與隱私權原則**，這將會控制您對提供者的解決方案的使用。 您使用的是提供者的解決方案，不會受到 Microsoft 大量授權條款或線上服務條款的制約。 如果您不同意**協力廠商提供者的條款**，請不要在小組中啟用此方案。 
 
 在您設定 SDN 或 eCDN 方案之後，您就可以為團隊中的即時事件設定提供者。 
 
@@ -125,4 +125,3 @@ ms.locfileid: "42558573"
 - [什麼是 Teams 即時活動？](what-are-teams-live-events.md)
 - [Teams 即時活動的方案](plan-for-teams-live-events.md)
 - [在團隊中設定即時事件設定](configure-teams-live-events.md)
-

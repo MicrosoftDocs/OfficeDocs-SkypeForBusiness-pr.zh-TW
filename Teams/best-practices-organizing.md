@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft Teams 中組織小組的最佳做法
+title: 組織團隊的最佳做法
 ms.reviewer: pbethi
 author: LolaJacobsen
 ms.author: lolaj
@@ -16,12 +16,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 59dcb99e8e8734885f7e62b79102cfad2745612a
-ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
-ms.translationtype: HT
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: e8f6335edde67fcc00e68b6aa42b3100afa603c9
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42795756"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136873"
 ---
 <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>在 Microsoft Teams 中組織小組的最佳做法
 ======================================================
@@ -40,7 +41,7 @@ ms.locfileid: "42795756"
 
 ## <a name="create-channels-to-focus-discussions"></a>建立頻道來聚焦討論
 
-建立小組之後，建議您考慮不同的專案和您需要支援的交談類型。 建立初始頻道，讓其他人知道要在哪裡參與，並尋找現有的交談。 使用描述性的頻道名稱，讓使用者能夠輕鬆地知道每個交談的位置。 將工具 (例如 OneNote、Power BI 或 Planner) 新增為頻道的索引標籤，讓成員能夠在頻道中具備所需的項目。 您也可以將常用網頁新增為頻道的索引標籤。 
+建立小組之後，就可以開始思考您需要支援的不同專案與交談類型，這是個不錯的想法。 建立初始頻道，讓其他人知道要在哪裡參與，並尋找現有的交談。 使用描述性的頻道名稱，讓使用者能夠輕鬆地知道每個交談的位置。 將工具 (例如 OneNote、Power BI 或 Planner) 新增為頻道的索引標籤，讓成員能夠在頻道中具備所需的項目。 您也可以將常用網頁新增為頻道的索引標籤。 
 
 使用適用於使用者的快速秘訣，深入了解[在小組中工作](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_teams)。 
 

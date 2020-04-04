@@ -1,5 +1,5 @@
 ---
-title: 針對 Microsoft 團隊設定網路小組的 [加入檢查清單]
+title: 加入檢查清單-設定網路-Microsoft 團隊
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -15,12 +15,13 @@ f1.keywords:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 97a59ede284474069f39dc166d77d0a4a6ebc167
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: b4780e0509598406b25c1b8145a29a6aeef0423f
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41862883"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43138313"
 ---
 # <a name="configure-networking"></a>設定網路
 

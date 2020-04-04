@@ -19,13 +19,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: 瞭解如何為小組取得新的電話號碼，例如音訊會議（適用于會議室）、自動語音應答及呼叫佇列（亦稱為服務號碼）等服務。
-ms.openlocfilehash: 8c1ec0af6defbf325d05be3fdd896bb7e9f6bec0
-ms.sourcegitcommit: d7be89019dd5a3b88b0840bddf1b88fea8598ea7
+- seo-marvel-mar2020
+description: 瞭解如何取得新的電話號碼和埠，或為小組傳送音訊會議、自動語音應答及通話佇列（服務號碼）的現有號碼。
+ms.openlocfilehash: 9eb88d46a9e993067e7a2fc8baf9847dea5b32d7
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42170719"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136713"
 ---
 # <a name="getting-service-phone-numbers"></a>取得服務電話號碼
 
@@ -38,16 +39,16 @@ ms.locfileid: "42170719"
   
 - **使用 Microsoft 團隊系統管理中心。** 在某些國家和地區，您可以使用 Microsoft 團隊系統管理中心取得服務號碼。 請參閱[取得新的服務號碼](#get-new-service-numbers)。
 
-- **移植您現有的號碼。** 您可以從目前的服務提供者或電話載波移植或轉移現有號碼。 如需詳細資訊，請參閱將[電話號碼傳送給團隊](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams)或[管理您組織的電話號碼](/microsoftteams/manage-phone-numbers-for-your-organization)，以協助您執行此動作。  
+- **轉移現有的號碼。** 您可以從目前的服務提供者或電話載波移植或轉移現有號碼。 如需詳細資訊，請參閱[將電話號碼轉接至 Teams](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams) 或[管理貴組織的電話號碼](/microsoftteams/manage-phone-numbers-for-your-organization)，協助您完成此作業。  
   
-- **針對新號碼使用要求表單。** 有時候（視您的國家或地區而定）您無法使用 Microsoft 團隊系統管理中心取得新的電話號碼，或者您需要特定的電話號碼或區功能變數代碼。 如果是這樣，您將需要下載表單並將它傳送給我們。 如需詳細資訊，請參閱[管理貴組織的電話號碼](/microsoftteams/manage-phone-numbers-for-your-organization)。
+- **使用表單要求新號碼。** 有時候（視您的國家或地區而定）您無法使用 Microsoft 團隊系統管理中心取得新的電話號碼，或者您需要特定的電話號碼或區功能變數代碼。 如果是這樣，您將需要下載表單並將它傳送給我們。 如需詳細資訊，請參閱[管理貴組織的電話號碼](/microsoftteams/manage-phone-numbers-for-your-organization)。
   
 > [!NOTE]
 > 需要服務號碼，您才能取得特定號碼的併發通話容量較高的需求。 當您將號碼轉接到我們時，您可以[與 PSTN 服務台取得聯繫](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)，以確定您要轉移的服務號碼具有高併發通話的容量。
   
 ## <a name="get-new-service-numbers"></a>取得新的服務號碼
 
-![](media/teams-logo-30x30.png) **使用 microsoft [團隊管理中心**] 顯示 Microsoft 團隊標誌的圖示
+![Microsoft Teams 標誌圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
 
 1. 在左側導覽中，移至 [**語音** > **電話號碼**]，然後按一下 [**新增**]。
 2. 輸入訂單的名稱，如果您想要的話，也可以新增描述。
@@ -71,7 +72,7 @@ ms.locfileid: "42170719"
 
 ## <a name="view-the-phone-numbers-for-your-organization"></a>查看貴組織的電話號碼
 
-![](media/teams-logo-30x30.png) **使用 microsoft [團隊管理中心**] 顯示 Microsoft 團隊標誌的圖示 
+![Microsoft Teams 標誌圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心** 
 
 在左側導覽中，移至 [**語音** > **電話號碼**] 來查看貴組織的號碼，包括位置、編號類型及狀態資訊。
 

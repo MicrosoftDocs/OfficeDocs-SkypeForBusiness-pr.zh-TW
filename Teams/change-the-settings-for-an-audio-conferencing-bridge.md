@@ -22,17 +22,18 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - ms.teamsadmincenter.audioconferencing.bridgesettings
-description: '您可以在不使用商務用 Skype 或 Microsoft 團隊 app 的情況下，取得您變更會議橋的設定所需的步驟，用來提示來電者並收集會議召集人的名稱和釘選。 '
-ms.openlocfilehash: d872bf3d0db2e19089716ab65fc487db601c48ea
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+- seo-marvel-mar2020
+description: 變更音訊會議橋設定，包括進入與結束通知、播放姓名或電話號碼、鈴聲，以及提示來電者記下其名稱。
+ms.openlocfilehash: aaff3518675e1db56340f9dc1568b994cf2ed6e6
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825111"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139082"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>變更音訊會議橋接器的設定
 
-當您在 Office 365 中設定音訊會議時，您將會收到「音訊會議橋」的電話號碼供使用者使用。 [會議橋] 可以包含一或多個電話號碼。 當來電者撥入會議時，會用到這些電話號碼。 電話號碼包含在商務用 Skype 或 Microsoft 團隊會議邀請的底部。
+當您在 Office 365 中設定音訊會議時，您將會收到「音訊會議橋」的電話號碼供使用者使用。 一個會議橋接器可以包含一或多個電話號碼。 當來電者撥入會議時，會用到這些電話號碼。 電話號碼包含在商務用 Skype 或 Microsoft 團隊會議邀請的底部。
   
 [會議橋接] 會使用會議自動語音應答接聽來電，並使用語音提示提示來電者，然後根據您的設定，您可以播放通知、要求呼叫者記錄其名稱，以及控制 PIN 設定。 當使用者不是使用商務用 Skype 或 Microsoft 團隊 app 時，會為會議召集人提供 Pin，讓他們可以開始會議。
 
@@ -42,7 +43,7 @@ ms.locfileid: "41825111"
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-## <a name="an-icon-showing-the-microsoft-teams-logomediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![顯示 Microsoft [小組標誌] 的圖示](media/teams-logo-30x30.png) 使用 Microsoft 團隊系統管理中心
+## <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![顯示 Microsoft [小組標誌] 的圖示](media/teams-logo-30x30.png) 使用 Microsoft 團隊系統管理中心
 
 1. 在左側導覽中，前往 [**會議** > **會議橋**]。 
 
@@ -64,10 +65,10 @@ ms.locfileid: "41825111"
 5. 若要指定是否要傳送電子郵件給使用者，請啟用或停用 [**自動傳送電子郵件給使用者] （如果他們的音訊會議設定變更**）。
     當[電子郵件的音訊會議設定在](emails-sent-to-users-when-their-settings-change-in-teams.md)[商務用 Skype Online 中的設定變更時](/SkypeForBusiness/audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change)，請參閱自動傳送給使用者的電子郵件，以取得詳細資訊。
  
-6. 按一下 [**儲存**]。 
+6. 按一下 [儲存]****。 
 
 
-## <a name="an-icon-showing-the-skype-for-business-logomediasfb-logo-30x30png--using-the-skype-for-business-admin-center"></a>![顯示商務用 Skype 標誌的圖示](media/sfb-logo-30x30.png)  使用商務用 Skype 系統管理中心
+## <a name="an-icon-showing-the-skype-for-business-logo--using-the-skype-for-business-admin-center"></a>![顯示商務用 Skype 標誌的圖示](media/sfb-logo-30x30.png)  使用商務用 Skype 系統管理中心
 
  **設定呼叫者加入會議時的會議體驗**
     
@@ -135,6 +136,6 @@ ms.locfileid: "41825111"
   
 ## <a name="related-topics"></a>相關主題
 
-[為 Microsoft 團隊設定音訊會議](set-up-audio-conferencing-in-teams.md)
+[設定 Microsoft Teams 的音訊會議](set-up-audio-conferencing-in-teams.md)
 
 [在商務用 Skype Online 中設定音訊會議](/skypeforbusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)

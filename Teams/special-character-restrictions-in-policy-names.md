@@ -1,5 +1,5 @@
 ---
-title: 團隊原則中的特殊字元限制是什麼？
+title: Teams 原則中的特殊字元限制
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.policies.naming.error
+- seo-marvel-mar2020
 description: 查看原則名稱中有哪些特殊字元，以及您可以執行哪些動作來修正這些問題。
-ms.openlocfilehash: 4116f34c06667a3bd4e75f9a5541b23c8ea79dcb
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: c6e41e19467f01252049c7fdc54745bcee3109d9
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837923"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140836"
 ---
 # <a name="what-are-the-special-character-restrictions-in-teams-policies"></a>團隊原則中的特殊字元限制是什麼？
 

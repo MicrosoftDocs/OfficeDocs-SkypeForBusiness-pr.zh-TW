@@ -1,5 +1,5 @@
 ---
-title: 準備部署 Microsoft 團隊雲端語音服務
+title: 準備部署雲端語音服務
 author: rmw2890
 ms.author: Rowille
 manager: serdars
@@ -18,12 +18,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: efc7193549fac95a29a574f455576dec5ea35c58
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 710a365ef68d3e187013892ef978cd8e12557cc1
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41862823"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137993"
 ---
 # <a name="prepare-my-service"></a>準備我的服務
 
@@ -80,7 +81,7 @@ ms.locfileid: "41862823"
 
 ## <a name="test-cloud-voice-workloads-in-teams"></a>在團隊中測試雲端語音工作負載
 
-在構想階段中定義並記錄您的小組雲端企業成功和技術實現方案之後，且在系統管理中心進行您想要的設定後，下一步就是驗證貴組織的您可以透過功能、功能和可用性來滿足預期和需求。 您應該先執行此驗證步驟，才能在您的生產環境中部署試驗或最終部署。
+在構想階段中定義並記錄您的小組雲端業務成功和技術實現方案之後，且在系統管理中心進行您想要的設定後，下一步就是透過功能、功能和可用性來驗證貴組織的預期與需求是否已完成。 您應該先執行此驗證步驟，才能在您的生產環境中部署試驗或最終部署。
 
 您可以利用在您的構想階段所定義的商業成功方案，作為判斷活動、預期、功能/功能測試案例的基礎，以及在測試階段評估的整體範圍。
 
@@ -117,7 +118,7 @@ ms.locfileid: "41862823"
 
 - [音訊會議的技術規劃](cloud-voice-deployment.md)
 
-- [為 Microsoft 團隊設定音訊會議](set-up-audio-conferencing-in-teams.md)
+- [設定 Microsoft Teams 的音訊會議](set-up-audio-conferencing-in-teams.md)
 
 - [使用通話方案的電話系統技術規劃](calling-plan-landing-page.md)
 

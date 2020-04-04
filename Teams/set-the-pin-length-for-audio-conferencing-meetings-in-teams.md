@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft 團隊中設定音訊會議會議的 PIN 長度
+title: 設定音訊會議的 PIN 碼長度
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,26 +20,27 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
+- seo-marvel-mar2020
 description: 瞭解 PIN 長度與需求的參數，並瞭解如何在 Microsoft 團隊中設定會議的長度。
-ms.openlocfilehash: 2827845cb53aa822f09ebdd0948cc06e679e4c0a
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: f8d225728854e1bb7609264eecfd1230de2f919b
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838073"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140886"
 ---
 # <a name="set-the-pin-length-for-audio-conferencing-meetings-in-microsoft-teams"></a>在 Microsoft 團隊中設定音訊會議會議的 PIN 長度
 
-當您為 Microsoft 團隊設定音訊會議時，您將會收到音訊會議橋。 [會議橋] 可以包含一或多個電話號碼。 您所設定的電話號碼將會包含在 Microsoft 團隊 app 的會議邀請中。
+當您為 Microsoft 團隊設定音訊會議時，您將會收到音訊會議橋。 一個會議橋接器可以包含一或多個電話號碼。 您所設定的電話號碼將會包含在 Microsoft 團隊 app 的會議邀請中。
   
-[音訊會議橋接] 會針對使用電話撥入會議的人員接聽來電。 它會從自動語音應答中向來電者提供語音提示，然後視您的設定而定，您可以播放通知並要求呼叫者記錄他們的名稱。 **Microsoft bridge 設定**可讓您變更會議通知與會議加入體驗的設定，以及設定會議召集人所使用的 pin 長度。 如果會議召集人無法使用 Microsoft 團隊 app 加入會議，請使用 Pin 來啟動會議。
+音訊會議橋接器可接聽電話使用手機撥入會議人員的電話。 它會從自動語音應答中向來電者提供語音提示，然後視您的設定而定，您可以播放通知並要求呼叫者記錄他們的名稱。 **Microsoft bridge 設定**可讓您變更會議通知與會議加入體驗的設定，以及設定會議召集人所使用的 pin 長度。 如果會議召集人無法使用 Microsoft 團隊 app 加入會議，請使用 Pin 來啟動會議。
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
 ## <a name="setting-the-pin-length"></a>設定 PIN 長度
 
-![](media/teams-logo-30x30.png) **使用 microsoft [團隊管理中心**] 顯示 Microsoft 團隊標誌的圖示
+![Microsoft Teams 標誌圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
 
 1. 在左側導覽中，前往 [**會議** > **會議橋**]。 
 
@@ -47,7 +48,7 @@ ms.locfileid: "41838073"
 
 3. 在 [**橋接器設定**] 窗格的 [ **PIN 長度**] 底下，選取您想要的 PIN 數位位數。
 
-4. 按一下 [**儲存**]。
+4. 按一下 [儲存]****。
 
 > [!NOTE]
 > PIN 與會議 ID 不同。 呼叫者加入會議時，會使用會議 Id。 它們可用來識別會議。 PIN 是用來將來電者驗證為會議召集人。 

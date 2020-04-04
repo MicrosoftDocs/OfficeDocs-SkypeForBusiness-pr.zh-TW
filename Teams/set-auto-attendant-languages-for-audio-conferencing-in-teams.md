@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft 團隊中設定音訊會議的自動助理語言
+title: 設定音訊會議自動語音應答語言
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
+- seo-marvel-mar2020
 description: 瞭解如何在 Microsoft 團隊中針對音訊會議號碼選取音訊會議自動語音應答語言。
-ms.openlocfilehash: a84ee0b230ed8de35da3a4fdea488eee9b3628e6
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 37d430ba641277c7b72f921b06599f58cff4e4a0
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838103"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140916"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>在 Microsoft 團隊中設定音訊會議的自動助理語言
 
@@ -42,7 +43,7 @@ Microsoft 團隊的音訊會議自動語音應答可以在加入會議時，以�
   
 ## <a name="set-the-conferencing-auto-attendant-languages"></a>設定會議自動語音應答語言
 
-![](media/teams-logo-30x30.png) **使用 microsoft [團隊管理中心**] 顯示 Microsoft 團隊標誌的圖示
+![Microsoft Teams 標誌圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
 
 1. 在左側導覽中，前往 [**會議** > **會議橋**]。
 
@@ -53,7 +54,7 @@ Microsoft 團隊的音訊會議自動語音應答可以在加入會議時，以�
     > [!NOTE]
     > 列出支援的預設及替代語言。 您在清單中選取它們的順序就會是提供給呼叫者的語言順序。 
 
-4. 按一下 [**儲存**]。
+4. 按一下 [儲存]****。
 
     
 ## <a name="want-else-should-i-know"></a>還需要知道嗎？

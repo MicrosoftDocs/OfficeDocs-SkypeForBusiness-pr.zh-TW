@@ -1,5 +1,5 @@
 ---
-title: Microsoft 團隊 | 評估環境 |採納、探索
+title: 環境相容性-Microsoft 團隊
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -17,12 +17,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 68bd92067bffc2ed88e8a9d44e228ce442021b29
-ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: abe848e21ed245230edc1ebfbfd038af9eec9175
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42236673"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139312"
 ---
 <a name="environmental-discovery-for-a-microsoft-teams-rollout"></a>Microsoft 團隊推出的環境探索
 ===================================================
@@ -179,7 +180,7 @@ ms.locfileid: "42236673"
 > | 行動裝置的提供方式為何？ <br/>選取 [所有適用的]。 | <input type="checkbox">公司裝置 <br/> <input type="checkbox">攜帶您自己的裝置 | |
 > | 使用者目前用來存取的裝置 <br>語音和會議服務 <br>（話筒、耳機、手機、影片）？ | | |
 
-<a name="operations"></a>作業
+<a name="operations"></a>營運
 ---
 
 您可以使用下表來捕獲環境中運作方面的詳細資料。

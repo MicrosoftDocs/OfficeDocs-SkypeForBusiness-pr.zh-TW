@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft 團隊用戶端中實施服務品質
+title: 在團隊用戶端中實施服務品質
 author: lolajacobsen
 ms.author: lolaj
 manager: Serdars
@@ -17,12 +17,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6fb3823a77995e401be7e60e86603f9d8c56099f
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 66e6dc43e03f1ec3606116ad001f11104de4a55f
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863154"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139602"
 ---
 # <a name="set-qos-on-windows-clients"></a>在 Windows 用戶端上設定 QoS
 
@@ -30,11 +31,11 @@ ms.locfileid: "41863154"
 
 *資料表1。建議的初始埠範圍*
 
-|媒體流量類型| 用戶端來源埠範圍 |通訊協定|DSCP 值|DSCP 類別|
+|媒體流量類型| 用戶端來源連接埠範圍  |通訊協定|DSCP 值|DSCP 類別|
 |:--- |:--- |:--- |:--- |:--- |
-|音訊| 50000–50019|TCP/UDP|46|加急轉移（EF）|
-|顯示器| 50,020–50,039|TCP/UDP|34|有保證的轉寄（AF41）|
-|應用程式/螢幕共用| 50,040–50,059|TCP/UDP|滿|有保證的轉寄（AF21）|
+|音訊| 50,000-50,019|TCP/UDP|46|快速式轉送 (EF)|
+|影片| 50,020-50,039|TCP/UDP|34|保證式轉送 (AF41)|
+|應用程式/螢幕共用| 50,040-50,059|TCP/UDP|滿|保證式轉送 (AF21)|
 | | | | | |
 
 請盡可能在群群組原則物件中設定原則式 QoS 設定。 下列步驟與[在商務用 Skype Server 上針對您的用戶端設定埠範圍和服務品質原則](https://docs.microsoft.com/SkypeForBusiness/manage/network-management/qos/configuring-port-ranges-for-your-skype-clients#configure-quality-of-service-policies-for-clients-running-on-windows-10)非常相似，這也有一些其他可能不必要的詳細資料。

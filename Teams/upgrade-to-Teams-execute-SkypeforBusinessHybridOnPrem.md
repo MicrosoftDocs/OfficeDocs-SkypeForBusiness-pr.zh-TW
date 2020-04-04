@@ -1,5 +1,5 @@
 ---
-title: 從商務用 Skype 內部部署（Microsoft 團隊）升級至團隊
+title: 將商務用 Skype 內部部署升級為 Teams
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -8,23 +8,25 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: bjwhalen
-description: 從商務用 Skype 內部部署升級至團隊的考慮。
+description: 從商務用 Skype Server 或 Microsoft Lync 內部部署部署，部署並實施您的小組升級。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom:
+- Teams-upgrade-guidance
+- seo-marvel-mar2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4957b22b7fe00ed756c1e81c6bb7c8e2e982720f
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: 24ccbaa0e7f43cdf1ccc816a3839547793c65167
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706673"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139622"
 ---
 # <a name="upgrade-from-skype-for-business-on-premises-to-teams"></a>從商務用 Skype 內部部署升級至團隊
 
@@ -43,7 +45,7 @@ ms.locfileid: "42706673"
 如果您已部署商務用 Skype Server 或 Microsoft Lync 內部部署，且貴組織想要升級至小組，請遵循本文中的指導方針。 您必須設定與您的 Office 365 租使用者的混合式連線性，並判斷您在幾個階段將使用者移至團隊時的共存需求。 
 
 > [!IMPORTANT]
-> 商務用 Skype Online 將于2021年7月31日停用，之後就不能再存取或支援。 若要最大限度取得效益並確保貴組織有適當的時間來實施升級，我們鼓勵您立即開始將您的遷移到 Microsoft 團隊。 請記住，成功的升級會將技術與使用者的就緒性相符，因此請務必在您向 Microsoft 團隊流覽您的旅程時，在本文中利用指導方針。
+> 商務用 Skype Online 將於 2021 年 7 月 31 日淘汰，之後將無法再存取也不再受支援。 若要最大限度取得效益並確保貴組織有適當的時間來實施升級，我們鼓勵您立即開始將您的遷移到 Microsoft 團隊。 請記住，成功的升級會將技術與使用者的就緒性相符，因此請務必在您向 Microsoft 團隊流覽您的旅程時，在本文中利用指導方針。
 
 ## <a name="step-1-configure-hybrid-connectivity"></a>步驟1：設定混合式連接 
 

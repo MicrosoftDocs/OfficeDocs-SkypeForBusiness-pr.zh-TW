@@ -1,5 +1,5 @@
 ---
-title: 為使用者指派或變更緊急位置的位置
+title: 指派、變更使用者緊急位置的位置
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -17,12 +17,13 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: 瞭解如何為您組織中的使用者指派或變更緊急位置的位置。
-ms.openlocfilehash: 5fc4f9ceeb8fc602ae28831ba48fcf37191608b9
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 6390ebf3cc366d41b36d09f597dd2bf76ba2d2a2
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41684166"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137483"
 ---
 # <a name="assign-or-change-the-place-for-an-emergency-location-for-a-user"></a>為使用者指派或變更緊急位置的位置
 
@@ -39,7 +40,7 @@ ms.locfileid: "41684166"
 - 若要指派位置，請搜尋位置或位置，然後選取搜尋結果中的位置。
 - 若要變更已指派給使用者的位置，請按一下 [ **X** ] 以移除現有的位置和位置，然後按一下 [搜尋]，然後選取您要指派的位置。
 
-4. 按一下 [**儲存**]。
+4. 按一下 [儲存]****。
     
 ## <a name="related-topics"></a>相關主題
 

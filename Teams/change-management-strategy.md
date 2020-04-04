@@ -1,5 +1,5 @@
 ---
-title: 建立 Microsoft 團隊的變更管理策略
+title: 建立變更管理策略
 ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
@@ -11,15 +11,16 @@ audience: admin
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 瞭解如何透過您的行銷活動的主要股東、業務成果、成功措施及管理，為 Microsoft 團隊建立變更管理戰略。
+description: 透過找出重要的專案關係人、商業結果、成功的措施，以及管理您的行銷活動，為 Microsoft 團隊建立變更管理戰略。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8e6c07271caecd2c84301930f0b71aa6eda0011a
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 628c839560423e0e2524bed24082156469faeb36
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824971"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137913"
 ---
 <a name="create-a-change-management-strategy-for-microsoft-teams"></a>建立 Microsoft 團隊的變更管理策略
 =======================================================

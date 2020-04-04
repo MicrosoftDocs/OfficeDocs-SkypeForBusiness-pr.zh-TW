@@ -14,18 +14,19 @@ ms.assetid: 9fd16866-27eb-47a9-b335-2f6bc9044a80
 ms.collection:
 - M365-collaboration
 description: 本文將討論使用 Azure 監視器來管理商務用 Skype 或團隊實現中的 Microsoft 團隊會議室裝置的規劃考慮。
-ms.openlocfilehash: 4fdf5d80b88a973cf1a1132775c7b0cc85e5cc18
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 16a962d7414407cf5f2f5734b7a2f39a56f7d281
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826111"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137603"
 ---
 # <a name="plan-microsoft-teams-rooms-management-with-azure-monitor"></a>使用 Azure 監視器規劃 Microsoft 團隊聊天室管理
  
  本文將討論使用 Azure 監視器來管理 Microsoft 團隊或商務用 Skype 實現中的 Microsoft 團隊會議室裝置的規劃考慮。
   
-[Azure 監視器](https://docs.microsoft.com/azure/azure-monitor/overview)是從開始就在雲端中設計的管理服務集合。 Azure 監視器元件完全託管于 Azure 中，而不是部署和管理內部部署資源。 配置最小，在幾分鐘內您就可以依原義地啟動並執行。 有了一些自訂作業，it 能協助您管理 Microsoft 團隊會議室會議系統，方法是提供即時通知給個別房間系統的系統健康情況或故障，而且可能會擴大以管理成千上萬個 Microsoft 團隊會議室會議室。
+[Azure 監視器](https://docs.microsoft.com/azure/azure-monitor/overview)是從開始就在雲端中設計的管理服務集合。 Azure 監視器元件完全託管于 Azure 中，而不是部署和管理內部部署資源。 配置最小，在幾分鐘內您就可以依原義地啟動並執行。 有了一些自訂作業，it 能協助您管理 Microsoft 團隊會議室會議系統，方法是提供即時通知給個別房間系統的系統健康情況或錯誤，而且可能會擴大以管理數千個 Microsoft 團隊會議室會議室。
   
 本文提供針對 microsoft 團隊會議室會議裝置的 Azure 監視器管理所需執行的需求、設計/架構和實施最佳做法的討論，並提供有關針對 microsoft 團隊會議室進行即時監視的詳細文章的連結。 
   

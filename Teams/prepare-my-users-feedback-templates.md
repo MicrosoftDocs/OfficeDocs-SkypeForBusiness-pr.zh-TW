@@ -1,5 +1,5 @@
 ---
-title: Microsoft 團隊或商務用 Skype 中的使用者意見反應調查
+title: 團隊或商務用 Skype 中的意見反應調查
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -15,12 +15,13 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 89c7f6384df285d4f47eac4407cb9b0884dd2486
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: dff5fc154d55dac208f451e4ddec392167c08975
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834623"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137443"
 ---
 # <a name="user-feedback-surveys"></a>使用者意見反應調查 
 
@@ -57,13 +58,13 @@ ms.locfileid: "41834623"
 
 您想要將團隊作為手機給朋友或同事的可能性有多大？ （0 = 根本不可能 .。。10 = 極有可能）
 
-| 0      | 1 | 2 | 3 | 4 | 500 | 6 | utf-7 | 型 | 9 | 第 |
+| 0      | 1 | pplx-2 | 3 | 4 | 500 | 6 | utf-7 | 型 | 9 | 第 |
 |--------|---|---|---|---|---|---|---|---|---|---|----|
 |&nbsp; |&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 
 您將手機裝置推薦給朋友或同事的可能性有多大？ （0 = 根本不可能 .。。10 = 極有可能）  
 
-| 0      | 1 | 2 | 3 | 4 | 500 | 6 | utf-7 | 型 | 9 | 第 |
+| 0      | 1 | pplx-2 | 3 | 4 | 500 | 6 | utf-7 | 型 | 9 | 第 |
 |--------|---|---|---|---|---|---|---|---|---|---|----|
 |&nbsp; |&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 

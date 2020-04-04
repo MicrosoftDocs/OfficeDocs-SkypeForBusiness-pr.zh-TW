@@ -20,14 +20,15 @@ f1.keywords:
 - CSH
 ms.custom:
 - Legal
+- seo-marvel-mar2020
 hideEdit: true
 description: Fournir des expériences accessibles à tous est au cœur de la Microsoft，qui consiste à permettre à chaque personne à chaque 組織 de la planète d'accomplir davantage。 Microsoft offre 取消特定 nombre de fonctionnalités d'accessibilité澆築 Skype Entreprise et Microsoft 團隊 qui s'inscrivent dans 兒子參與勞 faveur de l'accessibilité！ de l'inclusion。
-ms.openlocfilehash: 9d7e7ff471bdd2c88ff1527f224f43e6f7e30b16
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 5e58f0228430d99540bbe45548018059e65be016
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825631"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139172"
 ---
 # <a name="accessibility-solutions-for-skype-for-business-online-and-microsoft-teams-in-france"></a>在華北進行商務用 Skype Online 和 Microsoft 團隊的協助工具解決方案
 
@@ -41,7 +42,7 @@ Skype Entreprise dans Office 365 offre des fonctionnalités d'accessibilité qui
 
 Microsoft 團隊 dans Office 365 est 取消 outil 的 [取消共同作業 professionnelle avec des fonctions de messagerie，de vidéoconférence et d'appel。 Microsoft 團隊 intègre des fonctionnalités d'accessibilité afin de faciliter la 通訊 des utilisateurs ayant une mauvaise，une dextérité réduite ou d'autres handicaps。 Ces caractéristiques sont résumées sur le 網站網站 Accessibilité de Microsoft 團隊： [https://support.office.com/fr-fr/article/prise-en-charge-de-l-accessibilit%C3%A9-dans-microsoft-teams-d12ee53f-d15f-445e-be8d-f0ba2c5ee68f?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR](https://support.office.com/fr-fr/article/prise-en-charge-de-l-accessibilit%C3%A9-dans-microsoft-teams-d12ee53f-d15f-445e-be8d-f0ba2c5ee68f?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR)。  
   
-果頁面 consacrées à chacune de 版版面-formes décrivent 批註 se présentent généralement Skype Entreprise et Microsoft 團隊 sur 果 appareils qui prennent 費用 ces-formes、telles que Windows、Mac 和 iOS et Android。  果說明 des agencements 解除 Skype Entreprise et Microsoft 團隊 peuvent s'avérer particulièrement utiles 澆築果 utilisateurs 非 voyants，malvoyants ou à mobilité réduite 果 aidercaractéristiques des 介面 utilisateur （IU） de Skype Entreprise et Microsoft 團隊 afin 解除 leur permettre d'y naviguer 加 facilement。
+果頁面 consacrées à chacune de 版版面-formes décrivent 批註 se présentent généralement Skype Entreprise et Microsoft 團隊 sur 果 appareils qui prennent 費用 ces-formes、telles que Windows、Mac 和 iOS et Android。  果說明 des agencements 解除 Skype Entreprise et Microsoft 團隊 peuvent s'avérer particulièrement utiles 澆築果 utilisateurs 非 voyants，malvoyants ou à mobilité réduite 澆築果 aider à se construire une représentation des mentale des 介面 caractéristiques （IU） de utilisateur Entreprise afin leur 加 permettre。
   
 澆築果 personnes qui utilisent 取消 lecteur d'écran，il est 可能的 de naviguer dans l'interface utilisateur de l'application Skype Entreprise à l'aide du clavier，et des 頁面 d'aide sont proposées 澆築 expliquer：  
   
@@ -85,5 +86,5 @@ L'objectif de Microsoft est d'offrir la meilleure expérience 可能的à tous s
   
 ## <a name="dclaration-de-conformit-en-301-549"></a>Déclaration de conformité *EN 301 549*
 
-澆築 aider ses 用戶端為évaluer l'accessibilité，Microsoft 建議 une 檔 qui décrit 批註 Skype Entreprise et Microsoft 團隊 se conforment à la norme européenne EN 301 549 相對 aux exigences d'accessibilité applicables aux marchés publicsdes produits et services liés aux TIC （技術 de l'Information，de la 通訊） en 西歐。 Des 複製 des rapports EN 301 549 sont jointes en annexes。
+澆築 aider se 用戶端版請évaluer l'accessibilité，Microsoft 建議 une 檔 qui décrit 批註 Skype Entreprise et Microsoft 團隊 se conforment norme européenne 301 549 相對 aux exigences d'accessibilité applicables marchés des publics et services produits LIÉS （技術 de TIC，de la 通訊） EN 西歐。 Des 複製 des rapports EN 301 549 sont jointes en annexes。
 

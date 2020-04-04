@@ -1,5 +1,5 @@
 ---
-title: 開啟或關閉 Microsoft 團隊中的會議進入與結束宣告
+title: 開啟或關閉小組中會議的進入與結束宣告
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,13 +19,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
+- seo-marvel-mar2020
 description: '瞭解如何在 Microsoft 團隊會議中開啟或關閉 [進入] 和 [結束公告]。 '
-ms.openlocfilehash: 8deb53145c95f9a370e894083de8e998b50fa9ae
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 558146853c7365a1eac9fdd2497326781889cf09
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41832603"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139682"
 ---
 # <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings-in-microsoft-teams"></a>開啟或關閉 Microsoft 團隊中的會議進入與結束宣告
 
@@ -38,7 +39,7 @@ ms.locfileid: "41832603"
   
 ## <a name="setting-meeting-join-options"></a>設定會議加入選項
 
-![](media/teams-logo-30x30.png) **使用 microsoft [團隊管理中心**] 顯示 Microsoft 團隊標誌的圖示
+![Microsoft Teams 標誌圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
 
 1. 在左側導覽中，前往 [**會議** > **會議橋**]。 
 
@@ -50,7 +51,7 @@ ms.locfileid: "41832603"
     
 5. 如果您選擇 [**名稱] 或 [電話號碼**]，請在加入會議前，啟用或停用**要求呼叫者記下其名稱**。
     
-6. 按一下 [**儲存**]。
+6. 按一下 [儲存]****。
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>想要深入瞭解 Windows PowerShell 嗎？
 

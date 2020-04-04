@@ -1,5 +1,5 @@
 ---
-title: 設定 Microsoft 團隊的通用區域電話授權
+title: 設定通用區域電話授權
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -19,13 +19,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
+- seo-marvel-mar2020
 description: '瞭解如何為大廳、接待區域及會議室設定通用區域電話 '
-ms.openlocfilehash: 5997137420a9cac0517f67a81c7dedc7b779b715
-ms.sourcegitcommit: f3d4f4aabe31c5516507dfacbbd61cf0ae362d46
+ms.openlocfilehash: da44a7d66cdc0810405711719f4545caf64007a7
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42089726"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140866"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>設定 Microsoft 團隊的通用區域電話授權
 > [!NOTE]
@@ -104,7 +105,7 @@ ms.locfileid: "42089726"
 
 1. 在 [團隊管理中心] 中，選取 [**語音** > **電話號碼**]。
 
-3.  從電話號碼清單中選取一個數位，然後按一下 [**指派**]。
+3.    從電話號碼清單中選取一個數位，然後按一下 [**指派**]。
 
 4. 在 [**指派**] 頁面上，于 [語音使用者] 方塊中，輸入將使用電話的使用者名稱，然後在 [**選取語音使用者**] 下拉式清單中選取使用者。
 

@@ -1,5 +1,5 @@
 ---
-title: 為您的 Microsoft 團隊採納定義結果與成功
+title: 定義採用 Microsoft 團隊的結果與成功-Microsoft 團隊
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -7,7 +7,9 @@ ms.date: 11/01/2018
 audience: Admin
 ms.topic: conceptual
 ms.service: msteams
-ms.custom: Adopt
+ms.custom:
+- Adopt
+- seo-marvel-mar2020
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
@@ -19,12 +21,12 @@ f1.keywords:
 description: 瞭解如何衡量團隊規模廣泛啟用的結果與成功率。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 51f1af667e7cf4e387b9e05eec40d17bb48a550d
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: f963acb58369e7b623969cb518f53249912bfd67
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837853"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140796"
 ---
 # <a name="define-outcomes-and-success-for-your-microsoft-teams-adoption"></a>為您的 Microsoft 團隊採納定義結果與成功
 
@@ -77,7 +79,7 @@ ms.locfileid: "41837853"
 | 團隊優先 | 團隊核心 | 團隊變大 | 並排 Skype | 移轉 |
 |------------ | ---------- | ------------ | ------------------ | --------- |
 | 與小組領導雲端部署 | 團隊領導共同作業案例 | 團隊和組織範圍團隊中的所有員工 | 啟用團隊和商務用 Skype | 從商務用 Skype 將使用者遷移至團隊 |
-| -適用于新的或低使用量的 Office 365 客戶 <br/>-在客戶特定案例中靠團隊打頭陣 <br/>-醒目提示集成的使用者經驗，並加速 Office 365 的價值 <br/>-配合規劃工作負載來避免串列實現 | -啟用團隊以及 OneDrive 和 SharePoint Online <br/>-使用 Microsoft Stream 建立公司內部網路以共用新聞資源和影片<br/>**更好地搭配**： <br/>Teams<br/>SharePoint<br/>Yammer<br/>員<br/>PowerApps |-適用于低於5000座位的客戶（目前限制）<br/>-啟用跨組織與一個團隊共同作業<br/>-自動化一般工作（假期要求、員工勘察、管理層參與） |-使用團隊核心戰術來加速共同作業<br/>-根據所需大小和功能集醒目提示會議案例指引</br>-使用商務用 Skype 進行企業通話、互通性及混合式案例<br/>-使用公用藍圖進行功能規劃。 |-規劃從商務用 Skype 移至團隊，方法是建立客戶的服務戰略藍圖<br/>-附加至功能版本排程<br/>-建議包含並排和小組核心，以簡化轉場
+| -適用于新的或低使用量的 Office 365 客戶 <br/>-在客戶特定案例中靠團隊打頭陣 <br/>-醒目提示集成的使用者經驗，並加速 Office 365 的價值 <br/>-配合規劃工作負載來避免串列實現 | -啟用團隊以及 OneDrive 和 SharePoint Online <br/>-使用 Microsoft Stream 建立公司內部網路以共用新聞資源和影片<br/>**更好地搭配**： <br/>Teams<br/>SharePoint<br/>Yammer<br/>Planner<br/>PowerApps |-適用于低於5000座位的客戶（目前限制）<br/>-啟用跨組織與一個團隊共同作業<br/>-自動化一般工作（假期要求、員工勘察、管理層參與） |-使用團隊核心戰術來加速共同作業<br/>-根據所需大小和功能集醒目提示會議案例指引</br>-使用商務用 Skype 進行企業通話、互通性及混合式案例<br/>-使用公用藍圖進行功能規劃。 |-規劃從商務用 Skype 移至團隊，方法是建立客戶的服務戰略藍圖<br/>-附加至功能版本排程<br/>-建議包含並排和小組核心，以簡化轉場
 
 以下是我們針對大多數客戶組織的建議。 不過，也有例外狀況。 若要針對此處未提及的任何案例取得指導方針，請在我們的推動採用群體中提出您的問題，或與 FastTrack 小組或 Microsoft 合作夥伴網路取得聯繫。
 

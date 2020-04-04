@@ -1,5 +1,5 @@
 ---
-title: 在沒有 Microsoft 團隊中的 PIN 的情況下，透過電話啟動音訊會議
+title: 在沒有小組中的 PIN 的情況下，在手機上啟動音訊會議
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
+- seo-marvel-mar2020
 description: '瞭解如何啟用或停用匿名呼叫者從 [小組] 管理中心加入會議。 '
-ms.openlocfilehash: 87588bc8edfcc4d50b5589339f92f56829ec38ef
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: e6e3244a3b2135023d80b9b0df925cc5293244f6
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837913"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140826"
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-microsoft-teams"></a>在沒有 Microsoft 團隊中的 PIN 的情況下，透過電話啟動音訊會議
 
@@ -41,7 +42,7 @@ ms.locfileid: "41837913"
   
 ## <a name="enable-or-disable-anonymous-callers-from-joining-a-meeting"></a>啟用或停用匿名呼叫者加入會議
 
-![](media/teams-logo-30x30.png) **使用 microsoft [團隊管理中心**] 顯示 Microsoft 團隊標誌的圖示
+![Microsoft Teams 標誌圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
 
 1. 在左側導覽中，按一下 [**使用者**]。 
 

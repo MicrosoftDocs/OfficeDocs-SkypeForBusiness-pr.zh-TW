@@ -1,5 +1,5 @@
 ---
-title: 設定多個租用戶的工作階段邊界控制器
+title: 設定會話邊界控制器-多重承租人
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -16,12 +16,13 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 瞭解如何設定一個會話邊界控制器（SBC）來提供多個承租人。
-ms.openlocfilehash: e0027df53edcec54cbeaef560182ffddc451ecbd
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 90bad0c87cef92a36dea392d98cfb66824c10113
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42160727"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141086"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>設定多個租用戶的工作階段邊界控制器
 
@@ -118,8 +119,8 @@ SBC 需要認證，才能驗證連線。 針對 SBC 主機案例，電信公司�
 
 ### <a name="add-a-base-domain-to-the-tenant-and-verify-it"></a>新增基底網域至租使用者並驗證
 
-1.  在 Microsoft 365 系統管理中心中，移至**設定** > **網域** > [**新增網域**]。
-2.  在 [**輸入您擁有的網域**] 方塊中，輸入基底網域的 FQDN。 在下列範例中，基底網域是*customers.adatum.biz*。
+1.    在 Microsoft 365 系統管理中心中，移至**設定** > **網域** > [**新增網域**]。
+2.    在 [**輸入您擁有的網域**] 方塊中，輸入基底網域的 FQDN。 在下列範例中，基底網域是*customers.adatum.biz*。
 
     ![顯示 [新增網域] 頁面的螢幕擷取畫面](media/direct-routing-2-sbc-add-domain.png)
 
@@ -128,8 +129,8 @@ SBC 需要認證，才能驗證連線。 針對 SBC 主機案例，電信公司�
 
     ![螢幕擷取畫面顯示已驗證的功能變數名稱確認](media/direct-routing-3-sbc-verify-domain.png)
 
-5.  按一下 **[下一步]**，然後在 [**更新 DNS 設定**] 頁面上，選取 [**我將自行新增 DNS 記錄**]，然後按 **[下一步**
-6.  在下一頁上，清除所有值（除非您想要將功能變數名稱用於 Exchange、SharePoint 或團隊/商務用 Skype），請按 **[下一步**]，然後按一下 **[完成**]。 請確定您的新網域處於 [設定完成] 狀態。
+5.    按一下 **[下一步]**，然後在 [**更新 DNS 設定**] 頁面上，選取 [**我將自行新增 DNS 記錄**]，然後按 **[下一步**
+6.    在下一頁上，清除所有值（除非您想要將功能變數名稱用於 Exchange、SharePoint 或團隊/商務用 Skype），請按 **[下一步**]，然後按一下 **[完成**]。 請確定您的新網域處於 [設定完成] 狀態。
 
     ![顯示已完成 [設定] 狀態之網域的螢幕擷取畫面](media/direct-routing-14-sbc-setup-complete.png)
 
@@ -218,22 +219,22 @@ SBC 需要認證，才能驗證連線。 針對 SBC 主機案例，電信公司�
 根據這項意見反應，Microsoft 正在為客戶租使用者提供新的邏輯來提供 trunks。
 
 引入了兩個新的實體：
--   使用命令 New-CSOnlinePSTNGateway 在載波租使用者中註冊的載波幹線，例如新的-CSOnlinePSTNGateway-FQDN customers.adatum.biz-SIPSignalingport 5068-ForwardPAI $true。
+-    使用命令 New-CSOnlinePSTNGateway 在載波租使用者中註冊的載波幹線，例如新的-CSOnlinePSTNGateway-FQDN customers.adatum.biz-SIPSignalingport 5068-ForwardPAI $true。
 
--   衍生的主幹，不需要註冊。 它只是從載波幹線中新增的想要的主機名稱。 它會從載波幹線衍生其所有設定參數。 衍生主幹不需要在 PowerShell 中建立，而且與載波幹線的關聯性是以 FQDN 名稱為基礎（請參閱下方的詳細資料）。
+-    衍生的主幹，不需要註冊。 它只是從載波幹線中新增的想要的主機名稱。 它會從載波幹線衍生其所有設定參數。 衍生主幹不需要在 PowerShell 中建立，而且與載波幹線的關聯性是以 FQDN 名稱為基礎（請參閱下方的詳細資料）。
 
 **置備邏輯與範例**
 
--   運營商只需要使用 CSOnlinePSTNGateway 命令來設定和管理單一干線（電信公司網域中的載波幹線）。 在上述範例中，它是 adatum.biz;
--   在客戶租使用者中，電信公司只需要將衍生的主幹 FQDN 新增至使用者的語音路由原則。 不需要針對主幹執行新的 CSOnlinePSTNGateway。
--    衍生的主幹（如名稱所暗示）會繼承或衍生載波幹線的所有設定參數。 示例
--   Customers.adatum.biz –需要在承運人租使用者中建立的載波主幹。
--   Sbc1.customers.adatum.biz –客戶租使用者中的衍生主幹，不需要在 PowerShell 中建立。  您可以直接在線上語音路由策略中，在客戶租使用者中新增衍生主幹的名稱，而不需建立它。
+-    運營商只需要使用 CSOnlinePSTNGateway 命令來設定和管理單一干線（電信公司網域中的載波幹線）。 在上述範例中，它是 adatum.biz;
+-    在客戶租使用者中，電信公司只需要將衍生的主幹 FQDN 新增至使用者的語音路由原則。 不需要針對主幹執行新的 CSOnlinePSTNGateway。
+-     衍生的主幹（如名稱所暗示）會繼承或衍生載波幹線的所有設定參數。 示例
+-    Customers.adatum.biz –需要在承運人租使用者中建立的載波主幹。
+-    Sbc1.customers.adatum.biz –客戶租使用者中的衍生主幹，不需要在 PowerShell 中建立。  您可以直接在線上語音路由策略中，在客戶租使用者中新增衍生主幹的名稱，而不需建立它。
 -   電信公司將需要設定 DNS 記錄，將衍生的主幹 FQDN 解析成載波 SBC ip 位址。
 
--   在載波主幹上所做的任何變更（在承運人租使用者），都會自動套用到衍生的 trunks。 例如，電信公司可以在載波主幹上變更 SIP 埠，此變更會套用至所有衍生的 trunks。 設定 trunks 的新邏輯可簡化管理，因為您不需要移至每個租使用者，並在每個幹線變更參數。
--   選項只會傳送給載波中繼 FQDN。 載波幹線的健康狀態會套用至所有衍生的 trunks，並用於路由決定。 瞭解更多關於[直接路由選項](https://docs.microsoft.com/microsoftteams/direct-routing-monitor-and-troubleshoot)的資訊。
--   電信公司可以排出載波幹線，而且所有衍生的 trunks 也會排出。 
+-    在載波主幹上所做的任何變更（在承運人租使用者），都會自動套用到衍生的 trunks。 例如，電信公司可以在載波主幹上變更 SIP 埠，此變更會套用至所有衍生的 trunks。 設定 trunks 的新邏輯可簡化管理，因為您不需要移至每個租使用者，並在每個幹線變更參數。
+-    選項只會傳送給載波中繼 FQDN。 載波幹線的健康狀態會套用至所有衍生的 trunks，並用於路由決定。 瞭解更多關於[直接路由選項](https://docs.microsoft.com/microsoftteams/direct-routing-monitor-and-troubleshoot)的資訊。
+-    電信公司可以排出載波幹線，而且所有衍生的 trunks 也會排出。 
  
 
 **從先前的模型遷移至載波幹線**

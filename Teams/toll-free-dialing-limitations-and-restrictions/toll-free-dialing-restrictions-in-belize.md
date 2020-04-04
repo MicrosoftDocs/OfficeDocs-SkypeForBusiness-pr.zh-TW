@@ -22,20 +22,21 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
+- seo-marvel-mar2020
 description: 這將協助您瞭解如何在每個國家/地區撥打免付費電話號碼。 在您選取國家/地區之後，系統會將您帶到特定國家/地區的頁面，其中包含特定的詳細資料、限制，以及免費提供免付費服務的服務可用性限制。 [撥號格式] 或 [格式] 會在每個國家/地區顯示所需的存取代碼，以撥打免付費電話號碼。
-ms.openlocfilehash: c30a97e9e5c44a5f3b79829eca73427d53413ae8
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 9d4a3656e02e74366fbf24f244a3b4a6fe393525
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41708200"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140502"
 ---
 # <a name="toll-free-dialing-restrictions-in-belize"></a>貝里斯免付費電話撥號限制
 
 [尋找其他國家或地區](../toll-free-dialing-limitations-and-restrictions.md)，或進一步瞭解免付費撥號限制與限制。
 
 
-|**詳細資料**|**說明**|
+|**詳細資料**|**描述**|
 |:-----|:-----|
 |免費通話嗎？  <br/> |是  <br/> |
 |撥號格式（s）  <br/> | 1 800 XXX XXXX <br/> |

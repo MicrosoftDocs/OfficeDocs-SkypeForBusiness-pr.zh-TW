@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft 團隊中其設定變更時傳送給使用者的電子郵件
+title: 在設定變更時傳送給使用者的電子郵件
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,13 +19,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
+- seo-marvel-mar2020
 description: '瞭解在 Microsoft 團隊中，當使用者的電話撥入式會議設定變更時，電子郵件會自動傳送哪些資訊給使用者。 '
-ms.openlocfilehash: 28dcf8e166eff4a8852dd1ad77828213dc88fd05
-ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
+ms.openlocfilehash: ada608da12791a586d3adcbfd6477c1f26f7e30d
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42236863"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141256"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-microsoft-teams"></a>在 Microsoft 團隊中其設定變更時傳送給使用者的電子郵件
 
@@ -35,7 +36,7 @@ ms.locfileid: "42236863"
 
 - **系統會將音訊會議授權指派給他們，或者當您將音訊會議提供者變更為 Microsoft 時。**
 
-     此電子郵件包含會議 ID、會議的預設會議電話號碼、使用者的音訊會議 PIN，以及使用用來更新現有會議的 [商務用 Skype Online 會議更新] 工具的指示與連結。使用者名. 請參閱[指派 Microsoft 團隊授權](assign-teams-licenses.md)或[將 microsoft 指派為音訊會議提供者](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)。
+     此電子郵件包含會議 ID、會議的預設會議電話號碼、使用者的音訊會議 PIN，以及用來更新使用者現有會議的指示與連結，以使用商務用 Skype Online 會議更新工具。 請參閱[指派 Microsoft 團隊授權](assign-teams-licenses.md)或[將 microsoft 指派為音訊會議提供者](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)。
 
     > [!NOTE]
     > 如果您的組織已啟用動態會議 Id，他們排程的所有使用者會議都會有唯一的會議 Id。 您可以[在組織中設定音訊會議動態 id](/skypeforbusiness/audio-conferencing-in-office-365/reset-a-conference-id-for-a-user)。 
@@ -85,7 +86,7 @@ ms.locfileid: "42236863"
 
 根據預設，電子郵件會傳送給您的使用者，但如果您想要防止他們接收電子郵件以進行音訊會議，您可以使用 Microsoft 團隊或 Windows PowerShell。 
 
-![](media/teams-logo-30x30.png) **使用 microsoft [團隊管理中心**] 顯示 Microsoft 團隊標誌的圖示
+![Microsoft Teams 標誌圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
 
 1. 在左側導覽中，前往 [**會議** > **會議橋**]。 
 
@@ -93,7 +94,7 @@ ms.locfileid: "42236863"
 
 3. 在 [**橋設定**] 窗格中，如果使用者的撥入設定變更，請啟用或停用**自動傳送電子郵件給使用者**。
 
-4. 按一下 [**儲存**]。
+4. 按一下 [儲存]****。
 
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]

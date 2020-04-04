@@ -1,5 +1,5 @@
 ---
-title: 針對 Microsoft 團隊雲端語音工作負載評估您的環境
+title: 針對雲端語音工作負載評估您的環境
 author: rmw2890
 ms.author: Rowille
 manager: serdars
@@ -18,12 +18,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3efb5a58c36a38757b2f6046ca8c8c42ab80f6ce
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 17843b886fc334d7b02907882a82dffdf302e9f5
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825071"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137983"
 ---
 # <a name="evaluate-my-environment"></a>評估我的環境
 
@@ -42,7 +43,7 @@ ms.locfileid: "41825071"
 
 ## <a name="current-environment"></a>目前環境
 
-在您的環境探索中，包括與使用者計算相關的所有事項，例如電腦和行動裝置的準備評估，以支援音訊會議和電話系統規劃商務使用案例，從硬體需求到軟體需求。
+在您的環境探索中，包括與使用者計算有關的所有相關事項，例如電腦和行動裝置的準備情況評估，以支援音訊會議和電話系統規劃商務使用案例（從硬體需求到軟體需求）。
 
 環境探索也可以揭示您是否需要將[電話號碼傳送給 Microsoft](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)。
 瞭解這將會協助您的組織調整其專案計劃，並準備數位移植所需的資訊。 您可以使用[Microsoft 團隊推出的環境探索](environmental-discovery-for-microsoft-teams-rollout.md)來執行環境探索。

@@ -21,13 +21,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
+- seo-marvel-mar2020
 description: 瞭解如何使用 Microsoft 團隊系統管理中心來查看貴組織中所有電話號碼的清單，以及指派給使用者或未指派的所有號碼。
-ms.openlocfilehash: 029f5f15e4d414ed2f6bc4e06d39b3456b32ee62
-ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
+ms.openlocfilehash: 8483a3847027f3790930653ead39678f6a802533
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42236853"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140956"
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>查看貴組織的電話號碼清單
 

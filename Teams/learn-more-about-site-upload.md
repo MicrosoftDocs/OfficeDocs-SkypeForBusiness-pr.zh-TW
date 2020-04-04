@@ -11,7 +11,7 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: 瞭解如何上傳包含實體位置清單及相關子網的文字檔，以做為通話分析和通話品質儀表板報表的報告標籤。
+description: 瞭解如何透過上傳包含實體位置及相關子網清單的文字檔來新增和更新報告標籤。
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,14 +19,15 @@ ms.custom:
 - ms.teamsadmincenter.locations.reportinglabels.overview
 - ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.location
 - ms.teamsadmincenter.locations.overview
+- seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ebf362bf6b0cb7213b085a895e59e7c93e98d60f
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: b245566c0920604dac0e10e6a6cfe49937570bc2
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836573"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137113"
 ---
 <a name="add-and-update-reporting-labels"></a>新增和更新報告標籤
 ============================
@@ -51,10 +52,10 @@ ms.locfileid: "41836573"
 
 |網路|網路名稱|網路範圍|建築物名稱|擁有權類型|建築物類型|建立 Office 類型|座|郵遞區號|國家|市|地區|在 Corp 內|快速路線|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|
-|10.0.128.0 |SVC-1|32|USCAMTV001|Contoso 租賃 RE&F|Office|重新&F|山地視圖|94043|一下|頒發|一下|1|1|
-|10.0.130.0 |SVC-1|32|USCAMTV001|Contoso 租賃 RE&F|Office|重新&F|山地視圖|94043|一下|頒發|一下|1|1|
-|10.0.131.0 |SVC-1|32|USCAMTV001|Contoso 租賃 RE&F|Office|重新&F|山地視圖|94043|一下|頒發|一下|1|1|
-|10.0.132.0 |SVC-1|32|USCAMTV001|Contoso 租賃 RE&F|Office|重新&F|山地視圖|94043|一下|頒發|一下|1|1|
+|10.0.128.0    |SVC-1|32|USCAMTV001|Contoso 租賃 RE&F|Office|重新&F|山地視圖|94043|一下|頒發|一下|1|1|
+|10.0.130.0    |SVC-1|32|USCAMTV001|Contoso 租賃 RE&F|Office|重新&F|山地視圖|94043|一下|頒發|一下|1|1|
+|10.0.131.0    |SVC-1|32|USCAMTV001|Contoso 租賃 RE&F|Office|重新&F|山地視圖|94043|一下|頒發|一下|1|1|
+|10.0.132.0    |SVC-1|32|USCAMTV001|Contoso 租賃 RE&F|Office|重新&F|山地視圖|94043|一下|頒發|一下|1|1|
 
 如需格式化資料檔案的詳細資訊，請參閱[租使用者資料檔案格式及建立資料檔案結構](turning-on-and-using-call-quality-dashboard.md#tenant-data-file-format-and-structure)。
 

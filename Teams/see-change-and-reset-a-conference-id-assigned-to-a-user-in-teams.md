@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft 團隊中查看、變更及重設指派給使用者的會議 ID
+title: 查看、變更及重設使用者的會議 ID
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,13 +19,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
-description: '瞭解如何將會議 ID 指派給 Microsoft 團隊中的使用者，以及會議 ID 的參數應該是什麼。 '
-ms.openlocfilehash: e6b1a1ace9bdbf607fa4e1ef678687f37034a052
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+- seo-marvel-mar2020
+description: 瞭解如何將會議 ID 指派給 Microsoft 團隊中的使用者，以及會議 Id 參數的用途。
+ms.openlocfilehash: 7c4b9614843f353438630892574c25576913d24b
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838133"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140936"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-microsoft-teams"></a>在 Microsoft 團隊中查看及重設指派給使用者的會議 ID
 
@@ -42,7 +43,7 @@ ms.locfileid: "41838133"
 
 ### <a name="to-view-the-conference-id"></a>若要查看會議 ID
 
-![](media/teams-logo-30x30.png) **使用 microsoft [團隊管理中心**] 顯示 Microsoft 團隊標誌的圖示
+![Microsoft Teams 標誌圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
 
 1. 在左側導覽中，按一下 [**使用者**]，然後從可用使用者清單中選取使用者。
 
@@ -62,7 +63,7 @@ ms.locfileid: "41838133"
 
 您可以重設使用者的會議 ID （例如忘記它）。
   
-![](media/teams-logo-30x30.png) **使用 microsoft [團隊管理中心**] 顯示 Microsoft 團隊標誌的圖示
+![Microsoft Teams 標誌圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
 
 1. 在左側導覽中，按一下 [**使用者**]，然後從可用使用者清單中選取使用者。
 

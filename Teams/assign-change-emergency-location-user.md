@@ -17,12 +17,13 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: 瞭解如何為您組織中的使用者指派或變更緊急位置。
-ms.openlocfilehash: dca0116188eddeb3c28b8d1f8486ae601e742079
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 2652cbd2f01af4436de737bae54656e96488ab27
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695708"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137103"
 ---
 # <a name="assign-or-change-an-emergency-location-for-a-user"></a>指派或變更使用者的緊急位置
 
@@ -39,7 +40,7 @@ ms.locfileid: "41695708"
 - 若要指派緊急位置，請搜尋並選取緊急位置。
 - 若要變更已指派給使用者的緊急位置，請按一下 [ **X** ] 以移除現有的位置，然後搜尋並選取您要指派的位置。
 
-4. 按一下 [**儲存**]。
+4. 按一下 [儲存]****。
     
 ## <a name="related-topics"></a>相關主題
 

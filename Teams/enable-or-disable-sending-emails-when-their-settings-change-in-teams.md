@@ -1,5 +1,5 @@
 ---
-title: 啟用或停用 Microsoft 團隊中的音訊會議設定變更時傳送電子郵件
+title: 音訊會議設定變更時的電子郵件選項
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,19 +19,20 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
+- seo-marvel-mar2020
 description: '瞭解如何啟用或停用 Skype 將電子郵件傳送給使用者，例如 pin 變更或 Microsoft 團隊中的預設會議號碼變更等設定。 '
-ms.openlocfilehash: 3bb4b09cf1e60edcb9ffb4f4fdb981a9fd6ea0ae
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: f1c9ca14a88317cd921c19e761ee06cba2786dba
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836803"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141236"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-microsoft-teams"></a>啟用或停用 Microsoft 團隊中的音訊會議設定變更時傳送電子郵件
 
 當使用者啟用音訊會議時，系統會自動透過電子郵件收到通知。 不過，有時您可能會想要減少傳送給 Microsoft 團隊使用者的電子郵件數目。 在這種情況下，您可以停用傳送電子郵件。
   
-如果您停用傳送電子郵件，語音會議電子郵件不會傳送給您的使用者，包括使用者在音訊會議中啟用或停用的電子郵件、其 PIN 重設時，以及會議 ID 和預設會議電話號碼的變更.
+如果您停用傳送電子郵件，語音會議電子郵件不會傳送給您的使用者，包括使用者在音訊會議中啟用或停用的電子郵件、其 PIN 重設時，以及會議 ID 和預設會議電話號碼的變更。
   
 以下是在啟用音訊會議時傳送給使用者的電子郵件範例：
   
@@ -58,7 +59,7 @@ ms.locfileid: "41836803"
 
 您可以使用 Microsoft 團隊或 Windows PowerShell 來啟用或停用傳送給使用者的電子郵件。
 
-![](media/teams-logo-30x30.png) **使用 microsoft [團隊管理中心**] 顯示 Microsoft 團隊標誌的圖示
+![Microsoft Teams 標誌圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
 
 1. 在左側導覽中，前往 [**會議** > **會議橋**]。 
 
@@ -66,7 +67,7 @@ ms.locfileid: "41836803"
 
 3. 在 [**橋設定**] 窗格中，如果使用者的撥入設定變更，請啟用或停用**自動傳送電子郵件給使用者**。
 
-4. 按一下 [**儲存**]。
+4. 按一下 [儲存]****。
 
   
 > [!Note]

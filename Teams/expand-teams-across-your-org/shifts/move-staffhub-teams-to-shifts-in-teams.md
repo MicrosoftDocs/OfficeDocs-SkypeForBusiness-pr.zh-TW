@@ -1,5 +1,5 @@
 ---
-title: 將您的 StaffHub 團隊移至 Microsoft 團隊中的倒班
+title: 將您的 StaffHub 團隊移到倒班
 author: LanaChin
 ms.author: v-lanac
 ms.reviewer: lisawu, gumariam
@@ -18,12 +18,13 @@ ms.collection:
 - SPO_Content
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4725669d4f5829941df4bded0a5f2bbb393fb034
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 3c93e01624883d9db755479baf6e87c80feba2e1
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41887872"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139592"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>將 Microsoft StaffHub 小組移至 Microsoft 團隊中的倒班
 
@@ -153,7 +154,7 @@ $InvitedUsersObject | SELECT * | export-csv InvitedUsers.csv -NoTypeInformation
 
 ### <a name="assign-the-firstlineworker-app-setup-policy-to-users"></a>將 FirstlineWorker 應用程式設定原則指派給使用者
 
-團隊包含內建的 FirstlineWorker 應用程式設定原則，您可以用來自訂小組，以醒目提示貴組織中的第一線員工工人最重要的 app。 當您將此原則指派給使用者時，原則中的應用程式會釘選在團隊中的應用程式行上，以便快速且輕鬆地存取。 您可以在應用程式行中，按一下 [...]，在應用程式行中找到新增至團隊的其他 app。 **** 小組桌面及網頁用戶端中的其他應用程式，以及在小組行動用戶端中向上輕掃。 根據預設，FirstlineWorker 應用程式的設定原則包括活動、班次、聊天及呼叫 app。
+團隊包含內建的 FirstlineWorker 應用程式設定原則，您可以用來自訂小組，以醒目提示貴組織中的第一線員工工人最重要的 app。 當您將此原則指派給使用者時，原則中的應用程式會釘選在團隊中的應用程式行上，以便快速且輕鬆地存取。 您可以在應用程式行中，按一下 [...]，在應用程式行中找到新增至團隊的其他 app。 **... More apps**小組桌面及網頁用戶端中的其他應用程式，以及在小組行動用戶端中向上輕掃。 根據預設，FirstlineWorker 應用程式的設定原則包括活動、班次、聊天及呼叫 app。
 
 如需如何將 FirstlineWorker 應用程式設定原則指派給使用者的步驟，請參閱[使用 FirstlineWorker 應用程式設定原則將倒班移至團隊](manage-the-shifts-app-for-your-organization-in-teams.md#use-the-firstlineworker-app-setup-policy-to-pin-shifts-to-teams)。 指派原則之後，最多可能需要24小時才能生效。
 
@@ -271,7 +272,7 @@ Move-PnPFile -ServerRelativeUrl "/sites/<Group Name>/Shared Documents/<File Name
 ```PowerShell
 $StaffHubTeams = Get-StaffHubTeamsForTenant
 
-$StaffHubTeams[0] | Where-Object { $_.ManagedBy -eq ‘StaffHub’ }
+$StaffHubTeams[0] | Where-Object { $_.ManagedBy -eq 'StaffHub' }
 ```
 
 然後，執行下列動作來移動所有團隊。

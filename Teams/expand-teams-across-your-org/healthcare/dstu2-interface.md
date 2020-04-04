@@ -16,13 +16,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: anach
-description: Microsoft 團隊患者 app EHR 整合
-ms.openlocfilehash: 10a6b21e583b5fdd3e70857c4cfc5e7e21a7e988
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+description: 瞭解團隊中的 DSTU2 介面規格，包括設定或重新配置 FHIR 伺服器以搭配 Microsoft 團隊患者 app 使用。
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: f09f43af431b3f0cc6d9f984171206f2549a550a
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42153815"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136953"
 ---
 # <a name="dstu2-interface-specification"></a>DSTU2 介面規格
 
@@ -175,7 +176,7 @@ ms.locfileid: "42153815"
 
     要求：取得 <fhir-server>/Condition？患者 =<患者 id>&_count = 10
     
-    回應： {"resourceType"： "套裝"，"id"： "<套件-識別碼>"，"類型"： "searchset"，"total"：1，"條目"： [{"resource"： {"resourceType"： "Condition"，"識別碼"： "<資源 id>"，"code"： {"code"： [{"系統"： "http://snomed.info/sct"，"code"： "386033004"，"顯示"： "Neuropathy （nerve 損失）"}]}，"dateRecorded"： "2018-09-17"，"嚴重性"： {"code"： [{"system "："http://snomed.info/sct"，" code "：" 24484000 "，" 顯示 "：" 嚴重 "}"}}，}]}
+    回應： {"resourceType"： "套裝"，"id> <"： "searchset"，"總計"： []，"輸入"： ""，"total"：1，"條目"： [{"資源"： {[resourceType "：" Condition "，" id "：" <資源 id> "，" code "： {" "： [{"http://snomed.info/sct系統 "：" "，" code "：" 386033004 "，" 顯示 "：" Neuropathy （nerve 損壞） "}]}，" dateRecorded "：" 2018-09-17 "，" 嚴重性 "： {" 編碼 "： [{"http://snomed.info/sct系統 "：" "，" code "：" 24484000 "，" 顯示 "：" 嚴重 "}"
 
 * * *
 
@@ -204,7 +205,7 @@ ms.locfileid: "42153815"
 
     要求：取得 <fhir-伺服器>/Encounter？患者 =<患者 id>&_sort:d esc = 日期&_count = 1
     
-    回應： {"resourcetype"： "捆綁式"，"類型"： "searchset"，"總計"：1，"entry"： [{"資源"：]，"：" <資源識別碼> "，" 識別碼 "： [{" 使用 "：" 官方 "，" 值 "："<id>"}]，" 狀態 "： [[]，" 類型 "： [{" 編碼 "： [{" 顯示 "：" 約會 "}]，}]，" 患者 "： {" 參考 "：" 患者/<患者-識別碼> "}，" period "： {" start "：" 09/17/2018 1:00:00 PM "}，" location "： [{             "位置"： {"顯示"： "診所-ENT"}，} "}}]}
+    回應： {"resourceType"： "捆綁式"，"類型"： "searchset"，"總計"：1，"entry"： [{"資源" .. {"resourceType"： "遇到"，"id"： "<資源識別碼>"，"識別碼"： [{"使用"： "官方"，"value"： "<id>" "狀態"： "已到達"，"類型"： [{"編碼"： [{"顯示"： "約會"}]，}]，"患者"： {"參考"： "患者/<患者 id>"}，"period"： {「開始」： "09/17/2018 1:00:00 PM"}，"location"： [{"位置"： {"顯示"： "診所-ENT"}，} "}}]}
 
 * * *
 
@@ -236,7 +237,7 @@ ms.locfileid: "42153815"
 
     要求：取得 <fhir-server>/AllergyIntolerance？患者 =<患者 id>
     
-    回應： {"resourceType"： "套裝"，"id"： "> <searchset"，"" 類型 "：" "，" 總計 "：1，" 條目 "： [{" 資源 "： {" resourceType "：" AllergyIntolerance "，" id "：" <資源識別碼> "，" recordedDate "：" 2018-09-17T07：00： 00.000 Z "，" 物質 "： {" 文字 "：" Cashew 螺母 "}，" 狀態 "：" 已確認 "，" 反應 "： [{" 物質 "： {" 文字 "：" Cashew 螺母 allergenic 解壓 Injectable 產品 "}，" manifestati在 "： [{" 文字 "：" Anaphylactic 反應 "}]}]}]}
+    回應： {"resourceType"： "套裝"，"id> <"： "searchset"，"total"：1，"AllergyIntolerance"，""：1，"專案"： [{]：1，"entry"： ""，"id"： "<資源 id>"，"recordedDate"： "2018-09-17T07：00： 00.000 Z"，"物質"： {"文字"： "Cashew 螺母"}，"status"： "已確認"，"反應"： [{"物質"： {"文字"： "Cashew 螺母 allergenic 摘錄 Injectable 產品"}，"表現形式"： [{"文字"： "Anaphylactic 反應"
 
 * * *
 

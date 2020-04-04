@@ -16,13 +16,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: anach
-description: Microsoft 團隊患者 app EHR 整合
-ms.openlocfilehash: 27149ad8466eec9bd3c1f73293f82a877dc1a722
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+description: 瞭解如何使用 FHIR Api 將電子醫療保健記錄整合至 Microsoft 團隊，以連線至 Microsoft 團隊。
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: bbd239c34c6fd4cd5838b2ba57c7160448f38497
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42147716"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141206"
 ---
 # <a name="integrating-electronic-healthcare-records-into-microsoft-teams"></a>將電子醫療保健記錄整合至 Microsoft Teams
 
@@ -63,7 +64,7 @@ ms.locfileid: "42147716"
 
 ### <a name="authentication"></a>驗證  
 
-*不支援使用者層級授權*的 App 層級授權，就是執行資料轉換並公開連線來透過 FHIR 來 EHR 資料的最常見方式，即使 EHR 系統可能會執行使用者層級授權也一樣。 互通性服務（合作夥伴）會取得 EHR 資料的提升存取權，當其公開與適當的 FHIR 資源相同的資料時，不會將授權內容傳到互通性服務消費者（患者 app）與互通性整合[服務] 或 [平臺]。 患者應用程式將無法強制執行使用者層級授權，但卻支援應用程式在患者 app 與互通性合作夥伴的服務之間進行應用程式驗證。
+*不支援使用者層級授權*的 App 層級授權，就是執行資料轉換並公開連線來透過 FHIR 來 EHR 資料的最常見方式，即使 EHR 系統可能會執行使用者層級授權也一樣。 互通性服務（合作夥伴）會取得 EHR 資料的提升存取權，當其公開與適當的 FHIR 資源相同的資料時，就不會將授權內容傳遞到互通性服務消費者（患者 app）與互通性服務或平臺整合。 患者應用程式將無法強制執行使用者層級授權，但卻支援應用程式在患者 app 與互通性合作夥伴的服務之間進行應用程式驗證。
 
 應用程式至應用程式驗證模型的描述如下：
 
@@ -71,7 +72,7 @@ ms.locfileid: "42147716"
 
 1. 合作夥伴服務可讓患者 app 建立合作夥伴的帳戶，這可讓患者 app 產生並擁有 client_id 和 client_secret，透過合作夥伴驗證服務器上的驗證登錄入口網站來管理。
 2. 合作夥伴服務擁有驗證/授權系統，可接受並驗證（驗證）提供的用戶端認證，並在範圍中傳回含租使用者的存取權杖，如下所述。
-3. 出於安全考慮或在秘密破壞的情況下，患者應用程式可以重新產生密碼，並使或刪除舊的密碼（例如，Azure 入口網站-AAD App 註冊中提供相同的範例）
+3. 出於安全考慮或在秘密破壞的情況下，患者應用程式可以重新產生機密，並使密碼失效或刪除舊密碼（例如，Azure 入口網站-AAD App 註冊中提供相同的範例）。
 4. 必須解除驗證託管一致性語句的中繼資料端點，才能無需驗證權杖。
 5. 合作夥伴服務提供患者 app 的權杖端點，以使用用戶端認證流程來要求存取權杖。 每個授權伺服器的權杖 url，都應該是從 FHIR 伺服器上的中繼資料中取得的 FHIR 規範（功能）語句的一部分，如下例所示：
 
@@ -136,7 +137,7 @@ ms.locfileid: "42147716"
 
 ## <a name="performance-and-reliability"></a>效能與可靠性
 
-雖然患者 app 是私人預覽，但並不保證端對端的效能。 效能中的因素包括工作流程中所涉及之所有躍點的相對延遲，從健康情況系統內容的 EHR 開始，到互通性合作夥伴及其基礎，包括 FHIR 伺服器以及在 Office 365 生態系統中。患者 app。
+雖然患者 app 是私人預覽，但並不保證端對端的效能。 效能中的因素包括工作流程中所涉及之所有躍點的相對延遲，從健康情況系統內容的 EHR 開始，到互通性合作夥伴及其基礎，包括 FHIR 伺服器以及跨 Office 365 生態系統和患者 app。
 
 ![互通性合作夥伴效能的圖例](../../media/FHIR.png)
 
@@ -167,5 +168,3 @@ ms.locfileid: "42147716"
     ![患者 app 伺服器設定的螢幕擷取畫面](../../media/patients-server.png)
 
 5. 開始使用 app 從 FHIR Server/EHR 搜尋患者，並將它們新增到清單中，並在問題無法使用時[提供意見反應給我們](mailto:Teamsforhealthcare@service.microsoft.com?subject=Microsoft%20Teams%20Patients%20App%20feedback)。 此外，若要建立完整的經過驗證的患者應用程式（> FHIR 伺服器流程），請透過舊版的 Microsoft 團隊進行醫療保健產品工程，以 FHIR 介面檔中上述所述的驗證需求為您啟用此功能。  
-
-

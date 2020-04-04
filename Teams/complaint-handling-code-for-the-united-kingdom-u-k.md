@@ -1,5 +1,5 @@
 ---
-title: Office 365 中的通話方案-英國的投訴處理常式代碼（英國）
+title: 英國的投訴處理常式代碼 -Office 365 通話方案
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,14 +20,15 @@ f1.keywords:
 - CSH
 ms.custom:
 - Legal
+- seo-marvel-mar2020
 hideEdit: true
-description: '瞭解如何在商務用 Skype 通話服務（在英國進行 PSTN 通話）中提出投訴，以及如何解決未解決之投訴的糾紛問題。 '
-ms.openlocfilehash: 4a035c77756acc811eec184c0749623a2142cf41
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+description: 在商務用 Skype 通話服務（英國的 PSTN 通話）中提出投訴，回復的時程表，以及解決未解決之投訴的糾紛問題。
+ms.openlocfilehash: 6bebf983d19461485f7f381c300fc6e5b3611b6b
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825571"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137283"
 ---
 # <a name="calling-plans-in-office-365---complaint-handling-code-for-the-united-kingdom-uk"></a>Office 365 中的通話方案-英國的投訴處理常式代碼（英國）
 
@@ -55,7 +56,7 @@ ms.locfileid: "41825571"
 
 ## <a name="alternative-dispute-resolution"></a>替代糾紛解析
 
-如果您在提交的八（8）周後未解決您的服務問題，或如果您收到我們已達到最終決定的信件，您可能會將投訴提供給 Ombudsman 服務，而這是由 Ofcom 認可的協力廠商來進行交易關於通訊服務的相關意見。 我們也會在撰寫中通知您，這類替代糾紛解析服務的可用性。
+如果您對服務的投訴在八（8）周內未得到解決，或者您收到我們已達到最終決定的信件，您可能會將投訴提供給 Ombudsman 服務，這是 Ofcom 核准的協力廠商，用來處理通訊服務的相關意見。 我們也會在撰寫中通知您，這類替代糾紛解析服務的可用性。
 
 Ombudsman Services 與 Microsoft 無關，並將針對投訴的優點作出 impartial 決定。 參照投訴 Ombudsman 服務沒有任何費用。
 

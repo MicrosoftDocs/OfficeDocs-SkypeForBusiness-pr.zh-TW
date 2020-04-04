@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft 團隊中建立小組時規劃 Office 365 群組
+title: 建立團隊時規劃 Office 365 群組
 ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
@@ -8,7 +8,7 @@ ms.date: 08/29/2018
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-description: 瞭解規劃 Office 365 群組（例如選擇 [公用] 和 [私人群組]、使用 [團隊用戶端] 或 [Office 365 系統管理] 網頁版）時應進行的決策，以及如何教育您的小組使用交談。
+description: 瞭解小組中的 Office 365 群組規劃，包括群組 & 小組交談之間的差異，以及團隊如何尊重群組命名原則。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -17,12 +17,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 092a30be3fb8cffce8abfc9b885e3de3caa8bed4
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom:
+- seo-marvel-mar2020
+ms.openlocfilehash: 5e06422d38cc2a0b1fc0b925c6b3b3c12f47d67a
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41833833"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137573"
 ---
 <a name="plan-for-office-365-groups-when-creating-teams-in-microsoft-teams"></a>在 Microsoft 團隊中建立小組時規劃 Office 365 群組
 ==========================================================

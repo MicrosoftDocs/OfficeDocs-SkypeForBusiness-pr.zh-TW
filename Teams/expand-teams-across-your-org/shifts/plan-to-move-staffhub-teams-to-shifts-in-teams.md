@@ -1,5 +1,5 @@
 ---
-title: 規劃將您的 StaffHub 團隊移至 Microsoft 團隊中的倒班
+title: 規劃將您的 StaffHub 團隊移到倒班
 author: LanaChin
 ms.author: v-lanac
 ms.reviewer: gumariam,aaku
@@ -17,12 +17,13 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad0043b1599ac7ce90599a03d786d756cf16e684
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 41fd33c384bf6f91ae760d539e18ea7ee74a8503
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008145"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139582"
 ---
 # <a name="plan-to-move-your-staffhub-teams-to-shifts-in-microsoft-teams"></a>規劃將您的 StaffHub 團隊移至 Microsoft 團隊中的倒班
 
@@ -41,7 +42,7 @@ ms.locfileid: "42008145"
 |pplx-2     |查看從 StaffHub 轉至團隊和團隊加入的檔         |[StaffHub 停用](microsoft-staffhub-to-be-retired.md)<br><br>[將您的 StaffHub 團隊移至團隊中的倒班](move-staffhub-teams-to-shifts-in-teams.md)<br><br>[開始使用 Teams](../../get-started-with-teams-quick-start.md)         |
 |3    |為您的組織啟用 Office 365 群組        |[Office 365 群組與團隊](../../Office-365-groups.md)      |
 |4    |確認已滿足先決條件         |[檢查是否符合先決條件](move-staffhub-teams-to-shifts-in-teams.md#check-that-prerequisites-are-met)       |
-|500   |指派團隊授權給貴組織中的 StaffHub 使用者|[指派 Teams 授權](move-staffhub-teams-to-shifts-in-teams.md#assign-teams-licenses)<br><br>[管理 Teams 的使用者存取](../../user-access.md)      |
+|500   |指派團隊授權給貴組織中的 StaffHub 使用者|[指派 Teams 授權](move-staffhub-teams-to-shifts-in-teams.md#assign-teams-licenses)<br><br>[管理使用者對 Teams 的存取權](../../user-access.md)      |
 |6    |安裝 StaffHub PowerShell 模組        |[安裝 StaffHub PowerShell 模組](install-the-staffhub-powershell-module.md)        |
 |utf-7     |判斷時程表並找出移至團隊的 StaffHub 使用者       |[執行報告以顯示作用中 StaffHub 的使用情況](run-report-to-show-staffhub-usage.md) |
 |型     |找出沒有 Azure AD 帳戶的 StaffHub 使用者（在 StaffHub 中顯示為「非使用中」），並連結帳戶給他們     |[連結 Azure AD 帳戶給沒有 StaffHub 小組成員的人員](move-staffhub-teams-to-shifts-in-teams.md#link-an-azure-ad-account-for-staffhub-team-members-who-dont-have-one)        |

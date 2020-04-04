@@ -1,5 +1,5 @@
 ---
-title: 針對 Microsoft 團隊進行磁片磁碟機意識與實施訓練
+title: 促進認知和實施訓練
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -13,18 +13,20 @@ search.appverid: MET150
 description: 瞭解如何為 Microsoft 團隊採納增加知名度並執行訓練計畫。
 f1.keywords:
 - CSH
-ms.custom: Adopt
+ms.custom:
+- Adopt
+- seo-marvel-mar2020
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ee8040980f0452529ec84367093262843f499d1f
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 02239b1b77a8fdffbfd4e2a3081fc5a031c43878
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837833"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140786"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>針對 Microsoft 團隊進行磁片磁碟機意識與實施訓練
 

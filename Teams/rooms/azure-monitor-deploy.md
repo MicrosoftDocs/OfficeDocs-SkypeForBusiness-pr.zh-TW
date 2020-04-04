@@ -1,6 +1,5 @@
 ---
 title: 使用 Azure 監視器部署 Microsoft 團隊聊天室管理
-ms.author: v-lanac
 author: lanachin
 ms.reviewer: Turgayo
 manager: serdars
@@ -12,15 +11,15 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: 本文將說明如何使用 Azure 監視器，以整合的端對端方式部署 Microsoft 團隊機房裝置的管理。
-ms.openlocfilehash: 70c2311143a4daabbc0838168e19969f950a2df1
-ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 3e01ae7a0fddcb63595b7dcc15b719ad1d41db32
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42417538"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137643"
 ---
 # <a name="deploy-no-loc-textmicrosoft-teams-rooms-management-with-no-loc-textazure-monitor"></a>部署:::no-loc text="Microsoft Teams Rooms":::管理:::no-loc text="Azure Monitor":::
 
@@ -416,7 +415,7 @@ ms.locfileid: "42417538"
 ![警示:::no-loc text="Azure Monitor":::電子郵件範例](../media/Deploy-Azure-Monitor-6.png 「示範:::no-loc text="Azure Monitor":::通知電子郵件」）
 
 ## <a name="configure-all-devices-for-no-loc-textazure-monitoring"></a>設定所有裝置:::no-loc text="Azure Monitoring":::
-<a name="configure_all_devices"></a>在儀表板和通知設定之後，您可以在所有:::no-loc text="Microsoft Monitoring"::: :::no-loc text="Microsoft Teams Rooms":::裝置上設定和設定代理程式，以完成您的監視部署。
+<a name="configure_all_devices"> </a>在儀表板和通知設定之後，您可以在所有:::no-loc text="Microsoft Monitoring"::: :::no-loc text="Microsoft Teams Rooms":::裝置上設定和設定代理程式，以完成您的監視部署。
 
 雖然您可以在每個裝置:::no-loc text="Microsoft Monitoring":::上手動安裝及設定代理，但我們強烈建議您利用現有的軟體部署工具和方法。
 

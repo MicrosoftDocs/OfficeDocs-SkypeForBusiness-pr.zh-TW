@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-description: 瞭解如何在團隊中設定 [呼叫我] 功能，讓使用者可以在無法使用電腦音訊的情況下，透過電話加入音訊部分。
+description: 瞭解如何在團隊中設定 [呼叫我] 功能，讓使用者可以透過電話在使用電腦音訊時加入音訊部分。
 localization_priority: Normal
 ms.collection:
 - M365-voice
@@ -16,12 +16,13 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8cee6937a1bdc2bef6d2184066cb32a4aa94d8e6
-ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: c2343ce76e404ce2462cdbfc443130058112dcc4
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43096848"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140856"
 ---
 # <a name="set-up-the-call-me-feature-for-your-users"></a>為您的使用者設定語音來電功能
 

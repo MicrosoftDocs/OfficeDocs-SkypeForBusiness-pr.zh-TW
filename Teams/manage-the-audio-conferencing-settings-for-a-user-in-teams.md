@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft 團隊中管理使用者的音訊會議設定
+title: 管理使用者的音訊會議設定
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,19 +20,20 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
-description: '做為 Office 365 系統管理員，您可以針對組織中的個別使用者編輯 Microsoft 團隊音訊會議設定，例如提供者、預設的付費或免付費電話號碼、會議 ID 或 PIN 等。 '
-ms.openlocfilehash: 1d6a72c2a621d5f87c1d0fad215c648e2511f48c
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+- seo-marvel-mar2020
+description: Office 365 系統管理員可以編輯團隊音訊會議設定，包括提供者、預設的付費或免付費電話號碼、會議 ID，或使用者的 PIN。
+ms.openlocfilehash: f635a3a9c471d2d089b8592c4dd36f55bf9095e2
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836255"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137143"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-microsoft-teams"></a>在 Microsoft 團隊中管理使用者的音訊會議設定
 
 做為 Office 365 系統管理員，您可以針對組織中的個別使用者編輯音訊會議設定，例如提供者、預設的付費或免付費電話號碼、會議 ID 或 PIN 等。 如果您想要編輯貴組織的設定，請參閱[管理貴組織的音訊會議設定](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)。
 
-## <a name="an-icon-showing-the-microsoft-teams-logomediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![顯示 Microsoft [小組標誌] 的圖示](media/teams-logo-30x30.png) 使用 Microsoft 團隊系統管理中心
+## <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![顯示 Microsoft [小組標誌] 的圖示](media/teams-logo-30x30.png) 使用 Microsoft 團隊系統管理中心
 
 1. 在左側導覽中，按一下 [**使用者**]，然後從可用使用者清單中選取使用者。
 
@@ -40,7 +41,7 @@ ms.locfileid: "41836255"
 
 3. 在 [**音訊會議**] 底下，修改下列任何一項：
 
-|**正在**|**說明**|
+|**正在**|**描述**|
 |:-----|:-----|
 |**音訊會議**|若要為使用者開啟或關閉音訊會議，請按一下 [**音訊會議**] 旁的 [**編輯**]，然後在 [**音訊會議**] 窗格中，開啟或關閉**音訊會議**。|
 |**在電子郵件中傳送會議資訊**  |如果您想要立即將電子郵件傳送給使用者，並加入其會議 ID 和電話號碼，請按一下 [此連結]。 （此電子郵件不包含 PIN）。請參閱[使用音訊會議資訊傳送電子郵件給使用者](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)。  |

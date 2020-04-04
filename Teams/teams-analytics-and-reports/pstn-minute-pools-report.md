@@ -13,15 +13,16 @@ localization_priority: Normal
 search.appverid: MET150
 MS.collection:
 - M365-voice
-description: 瞭解如何使用 Microsoft 團隊系統管理中心中的 [團隊 PSTN 分鐘數] 報告，以查看在您組織的當月期間消耗的分鐘數。
+description: 如何使用 Microsoft 團隊系統管理中心中的 [團隊 PSTN 分鐘數] 報告，以查看您在當月期間在貴組織內消耗的分鐘數。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0fa9b8f4a676c1e937fed02eabc0e7cd4acd5325
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 5f44d8a48dc01b8d2cdbce9dd164d5b2440c24d8
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827321"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140664"
 ---
 # <a name="microsoft-teams-pstn-minute-pools-report"></a>Microsoft 團隊 PSTN 分鐘池報告
 
@@ -35,7 +36,7 @@ Microsoft [小組系統管理中心] 的 [團隊 PSTN 分鐘數] 報告可讓您
 
 ## <a name="interpret-the-report"></a>解讀報表
 
-|圖說文字 |說明  |
+|圖說文字 |描述  |
 |--------|-------------|
 |**1**   |每個報告都有產生的日期。 報告通常會反映來自啟用時間的24到48小時延遲時間。 |
 |**2**   |按一下功能（授權）來查看該功能的活動。 |

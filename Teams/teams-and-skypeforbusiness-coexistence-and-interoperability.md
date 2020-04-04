@@ -1,5 +1,5 @@
 ---
-title: Microsoft 團隊 |升級、孤島模式、交互操作原則（僅限）
+title: 商務用 Skype 與 Microsoft 團隊之間的互通性
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -12,18 +12,18 @@ localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom: seo-marvel-mar2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ef1c9d8fd9d30101fdd40dba5946dfefb324742c
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: dc2a4495d95d0c6458fef16ea2f3f336dd337db4
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706653"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140674"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>瞭解 Microsoft 團隊及商務用 Skype 的共存與互通性
 
@@ -34,7 +34,7 @@ ms.locfileid: "42706653"
 - [已登記您的專案干係人](upgrade-enlist-stakeholders.md)
 - [已定義您的專案範圍](https://aka.ms/SkypetoTeams-Scope)
 
-如果您的組織目前使用商務用 Skype，且您開始將團隊與商務用 Skype 搭配使用，或是您開始升級至小組，請務必瞭解這兩個應用程式如何共存、何時以及其交互操作方式，以及如何管理從商務用 Skype 到團隊的最終升級，一直到使用者的遷移。
+如果貴組織是使用商務用 Skype，且您開始將團隊與商務用 skype 搭配使用，或是您開始升級至小組，請務必瞭解這兩個應用程式是如何共存、何時以及其交互操作方式，以及如何從商務用 Skype 升級至團隊的最終升級。
 
 > [!Tip]
 > 請觀看下列會話，瞭解[共存與互通性](https://aka.ms/teams-upgrade-coexistence-interop)。
@@ -70,13 +70,13 @@ ms.locfileid: "42706653"
 
 在此共存模式中，使用者會保持在商務用 Skype （而非小組）中，以進行聊天、會議和通話功能，而且不會將小組用於小組和頻道。 此模式目前可供使用。不過，在目前的實施中，使用者不會自動關閉團隊和頻道。 您可以使用應用程式許可權原則來隱藏小組和頻道，以達到此目的。
 
-此模式可以在開始受管理的小組部署之前使用，以防止使用者開始使用「建立準備就緒」等小組，或作為在商務用 Skype 使用者的小組會議中啟用驗證參與的方式（前提是使用者是已授權給小組。
+您可以在開始受管理的小組部署之前使用這個模式，避免使用者開始使用「建立準備就緒」等小組，或作為在商務用 Skype 使用者的小組會議中啟用驗證參與的方式（前提是使用者擁有團隊的授權）。
 
 ### <a name="teams-only"></a>僅限團隊
 
 
 > [!IMPORTANT]
-> 如果您在將使用者移至 [僅 Teams]**** 模式之後解除安裝商務用 Skype 用戶端，則 Outlook 和其他 Office應用程式中的目前狀態將會停止運作。 目前狀態在 Teams 中可正常運作。 因應措施：若要在 Outlook （以及其他 Office app）中查看目前狀態，您必須安裝商務用 Skype，即使您是在 [**僅限團隊**] 模式中執行團隊也一樣。 Microsoft 已發現此問題，正在努力解決中。
+> 如果您在將使用者移至 [僅 Teams]**** 模式之後解除安裝商務用 Skype 用戶端，則 Outlook 和其他 Office應用程式中的目前狀態將會停止運作。 目前狀態在 Teams 中可正常運作。 解決辦法：若要在 Outlook (和其他 Office 應用程式) 中查看目前狀態，則必須安裝商務用 Skype，即使您在 [僅 Teams]**** 模式中執行 Teams 亦然。 Microsoft 已發現此問題，正在努力解決中。
 
 
 **團隊只有**使用者（也稱為已*升級*的使用者）可以存取團隊中的所有功能。 他們可能會保留商務用 Skype 用戶端，以在已由未升級的使用者或外部合作夥伴組織的商務用 Skype 上加入會議。 已升級的使用者可以使用小組與商務用 Skype 之間的互通性功能，繼續與組織中的其他使用者進行通訊（前提是這些商務用 Skype 使用者不是以**孤島**模式提供）。 不過，升級後的使用者無法啟動商務用 Skype 聊天、通話或會議。
@@ -95,7 +95,7 @@ ms.locfileid: "42706653"
 
 ### <a name="skype-for-business-with-teams-collaboration-and-meetings-also-known-as-meetings-first"></a>商務用 Skype 與團隊共同作業與會議（也稱為會議）
 
-您也可以使用此共存模式，加速團隊在您組織中的會議能力，以及其共同作業功能，讓您的使用者能夠充分利用卓越團隊會議體驗-優質的品質。新穎的功能（例如，工具化與翻譯或背景模糊），以及跨所有平臺的卓越使用者體驗，包括行動裝置和瀏覽器。
+在您的組織中，您可以使用此共存模式，以加速團隊會議功能的可用性，除了其共同作業功能之外，還能讓您的使用者充分利用優質的團隊會議體驗-品質、革新性、翻譯或背景模糊等最佳的使用者體驗，包括行動裝置和瀏覽器。
 
 在此模式中，您也可以在小組和頻道交談中使用小組，使用者將會使用團隊來排程及召開會議。 私人聊天和通話會保留在商務用 Skype 中。 團隊和商務用 Skype 的好處，在這兩個應用程式中，都有一個「更好搭配」功能的範圍，例如目前狀態調解、自動保留/unhold，以及 HID 裝置支援。 請注意，如果您需要使用應用程式許可權原則，可以隱藏團隊和頻道。
 
@@ -166,7 +166,7 @@ ms.locfileid: "42706653"
 
 當團隊使用者觸發互通性升級時，就會建立小組會議。 當商務用 Skype 使用者觸發時，就會建立商務用 Skype 會議。 在這兩種情況下，建立的會議都是 [**立即開會**] 會議，不會反映在使用者的行事曆中。
  
-對方會透過按一下該連結，透過交互操作聊天與連接來接收會議加入連結。 如果商務用 Skype 使用者擁有小群組帳戶，且受到團隊使用者的邀請，他們將會加入經過驗證的會議。 否則，它們會以匿名參與者的身分加入。 相反地，小組使用者幾乎總是有商務用 Skype 帳戶和商務用 Skype 用戶端，他們可以用來將商務用 skype 會議加入為已驗證的參與者，但他們也可能以匿名參與者的身分加入，例如使用 Skype會議 App。
+對方會透過按一下該連結，透過交互操作聊天與連接來接收會議加入連結。 如果商務用 Skype 使用者擁有小群組帳戶，且受到團隊使用者的邀請，他們將會加入經過驗證的會議。 否則，它們會以匿名參與者的身分加入。 相反地，小組使用者幾乎總是有商務用 Skype 帳戶和商務用 Skype 用戶端，他們可以用來將商務用 skype 會議加入為已驗證的參與者，但他們也可能以匿名參與者的身分加入，例如使用 Skype 會議應用程式。
 
 當雙方加入會議之後，他們就可以在會議中執行任何支援的活動，例如桌面或內容共用、檔案共用或傳送、新增其他參與者等。
 
