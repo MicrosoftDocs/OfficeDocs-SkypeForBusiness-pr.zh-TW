@@ -1,7 +1,7 @@
 ---
 layout: HubPage
 ms.topic: hub-page
-title: Microsoft Teams 使用者的導學型訓練與影片
+title: 使用者由講師帶領的訓練課程
 ms.reviewer: dearbeen
 manager: serdars
 description: 登入導學型課程以全面了解 Microsoft Teams。
@@ -12,17 +12,19 @@ ms.author: lolaj
 ms.service: msteams
 f1.keywords:
 - CSH
-ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
+ms.custom:
+- ms.teamsadmincenter.dashboard.trainingvideos.instructorled
+- seo-marvel-mar2020
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_RemoteWorkers
 - remotework
-ms.openlocfilehash: 979dea70287f82b34ef6cb0f38ec31fa58610d3d
-ms.sourcegitcommit: ce6b6b57eb9683649f589b747163110bf42ae420
+ms.openlocfilehash: 43d7c47379c6645ca25da4974e0b08f0e4444faa
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "43062667"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137123"
 ---
 <div id="main" class="v2">
     <div class="container">
