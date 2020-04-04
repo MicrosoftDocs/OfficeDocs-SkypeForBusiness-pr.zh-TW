@@ -14,15 +14,16 @@ ms.reviewer: sbhatta
 f1.keywords:
 - NOCSH
 localization_priority: Priority
-description: 了解系統管理員可用來將新來賓使用者新增到組織的工具，包括 Microsoft Teams 桌面和網頁用戶端以及 Azure Active Directory B2B 共同作業入口網站。
+description: 系統管理員可以了解如何將新的來賓使用者新增至 Microsoft Teams 桌面版和網頁用戶端中的組織，以及 Azure Active Directory B2B 共同作業入口網站。
+ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5b25dc9c5b870b038b95f5df5821581f8c2fae79
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 60538383021028d043cb47197dd41ee89f8a4d37
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826941"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139362"
 ---
 <a name="add-a-guest-to-a-team"></a>將來賓新增至團隊
 =====================

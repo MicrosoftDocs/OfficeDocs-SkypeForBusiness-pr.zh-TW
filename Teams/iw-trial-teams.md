@@ -1,5 +1,5 @@
 ---
-title: 管理 Microsoft Teams 商業雲端試用版方案
+title: 管理商業雲端試用版方案
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
@@ -16,12 +16,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fb4a42ebe8772eebe5e5ebd130a68dd4bba714b3
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: a46720a59b5d3530f64bf4f459df13ad7c5cf5de
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836593"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137153"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>管理 Microsoft Teams 商業雲端試用版方案
 =======================================================
@@ -70,7 +71,7 @@ Microsoft Teams 商業雲端試用版提供貴組織中未取得 Microsoft Teams
 
 貴組織內的所有試用版會有相同的開始和結束日期，即第一個使用者註冊取得試用版的日期。 例如，如果使用者 A 在 2019 年 1 月 25 日開始第一個試用版，而使用者 B 在 2019 年 6 月 3 日啟動試用版，則這兩個使用者的試用版都將於 2020 年 1 月 25 日到期。
 
-## <a name="manage-the-trial"></a>管理試用版
+## <a name="manage-the-trial"></a><a name="manage-the-trial"></a>管理試用版
 
 Teams 試用版旨在由個別使用者起始，因此您可能無法代表使用者員工起始 Teams 試用版。
 
