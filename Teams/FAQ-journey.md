@@ -1,5 +1,5 @@
 ---
-title: 常見問題 - 從商務用 Skype 升級至 Microsoft Teams
+title: 從商務用 Skype 升級至 Teams 的常見問題集
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -12,18 +12,20 @@ localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom:
+- Teams-upgrade-guidance
+- seo-marvel-mar2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a2b051efa327a014bc719753e7aecae81f78e0f4
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: 44544e440d9f6cdfff08ae66ed7f425abf69fb4d
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42160380"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136533"
 ---
 # <a name="faq--upgrading-from-skype-for-business-to-microsoft-teams"></a>常見問題 - 從商務用 Skype 升級至 Microsoft Teams
 
@@ -98,21 +100,21 @@ Teams 可以在 Office 365 套件中取得。 目前在商務用 Skype Online �
 
 ### <a name="is-there-a-recommended-upgrade-path-for-skype-for-business-online"></a>是否有適用於商務用 Skype Online 的建議升級路徑？
 
-我們鼓勵客戶利用位於 [https://aka.ms/SkypetoTeams](https://aka.ms/SkypetoTeams) (英文) 的規劃指引和資源，找出並實作最符合貴組織需求的升級路徑，來規劃從商務用 Skype Online 至 Teams 的旅程。
+我們鼓勵客戶利用位於 [https://aka.ms/SkypetoTeams](https://aka.ms/SkypetoTeams) 的規劃指引和資源，找出並實作最符合貴組織需求的升級路徑，來規劃從商務用 Skype Online 至 Teams 的旅程。
 
 ### <a name="where-can-i-learn-more-about-coexistence-modes-in-the-microsoft-teams-admin-center"></a>我可以在哪裡深入了解 Microsoft Teams 系統管理中心的共存模式？
 
-在 Microsoft Teams 系統管理中心，您會發現共存模式的選項，讓貴組織能夠管理適合貴組織的商務用 Skype 至 Teams 旅程。 深入了解[共存與升級模式](https://aka.ms/skypetoteams-coexist)。
+在 Microsoft Teams 系統管理中心，您會發現共存模式的選項，讓您的組織能夠管理適合組織的商務用 Skype 至 Teams 旅程。 深入了解[共存與升級模式](https://aka.ms/skypetoteams-coexist)。
 
 ### <a name="what-should-i-do-to-prepare-for-my-upgrade"></a>我該如何準備升級？
 
-若要成功升級，除了使用者接受整備程度之外，還包含驗證技術整備程度。 即使您判斷貴組織還未準備好升級至 Teams，您還是可以立即開始規劃程序。 此外，您也可以隨著商務用 Skype 一起啟用 Teams，開始實現 Teams 的價值。 立即開始[您的 Skype 至 Teams 旅程](https://aka.ms/skypetoteams-home) (英文)。
+若要成功升級，除了使用者接受整備程度之外，還包含驗證技術整備程度。 即使您判斷您的組織還未準備好升級至 Teams，您還是可以立即開始規劃程序。 此外，您也可以隨著商務用 Skype 一起啟用 Teams，開始實現 Teams 的價值。 立即開始[您的 Skype 至 Teams 旅程](https://aka.ms/skypetoteams-home) (英文)。
 
-Microsoft 也提供即時互動的研討會，我們會在這裡分享專為開始升級規劃和實作所設計的指導方針、最佳做法和資源。 [深入了解升級規劃研討會](https://aka.ms/SkypeToTeamsPlanning) (英文)。
+Microsoft 也提供即時互動的研討會，分享專為開始升級規劃和實作所設計的指引、最佳做法和資源。 [深入了解升級規劃研討會](https://aka.ms/SkypeToTeamsPlanning) (英文)。
 
 ### <a name="my-organization-is-already-running-teams-alongside-skype-for-business-can-i-just-disable-skype-for-business"></a>我的組織已經一起執行商務用 Skype 與 Teams。 我是否可以直接停用商務用 Skype？
 
-否，您要將使用者切換至 [僅 Teams]**** 模式，以完成 Teams 升級。 如果貴組織準備好升級至 Teams，請花時間與使用者聯繫，讓他們知道發生什麼事，讓他們能夠適應 Teams。 這可協助確保他們有正面的升級體驗，並協助減少與您技術支援人員的通話。 如需範例通訊範本，請下載我們的[升級成功套件](https://aka.ms/UpgradeSuccessKit)。
+否，您要將使用者切換至 [僅 Teams]**** 模式，以完成 Teams 升級。 如果您的組織準備好升級至 Teams，請花時間與使用者溝通，讓他們知道會發生什麼事，讓他們能夠適應 Teams。 這可協助確保他們有正面的升級體驗，並協助減少與您技術支援人員的通話。 如需範例通訊範本，請下載我們的[升級成功套件](https://aka.ms/UpgradeSuccessKit)。
 
 ### <a name="who-can-i-contact-if-i-have-questions-about-the-upgrade-process"></a>如果我有關於升級程序的問題，我要與誰聯繫？
 
@@ -142,7 +144,7 @@ Microsoft 也提供即時互動的研討會，我們會在這裡分享專為開�
 
 ### <a name="what-are-the-benefits-of-teams-back-end-infrastructure"></a>Teams 的後端基礎結構有哪些優點？
 
-Teams 是針對雲端，在可高度調整的微服務架構上建置，讓頻寬的使用更有效率，提供更強固的遙測，並且在中斷程度最小的情況下進行維護和升級程序。 因此，使用者會看到更快的會議加入時間，並且有更佳的瀏覽器體驗，而不需要下載外掛程式。這種新式基礎結構可以輕鬆地進入 Microsoft 認知服務 (其中包括抄寫、翻譯、語音辨識和機器學習功能)，而且能夠讓通訊和共同作業更簡單、更有效率。
+Teams 是針對雲端，在可高度調整的微服務架構上建置的，讓頻寬的使用更有效率，提供更強固的遙測，並且在中斷程度最小的情況下進行維護和升級程序。 因此，使用者會看到更快的會議加入時間，並且有更佳的瀏覽器體驗，而不需要下載外掛程式。這種新式基礎結構可以輕鬆地進入 Microsoft 認知服務 (其中包括抄寫、翻譯、語音辨識和機器學習功能)，而且能夠讓通訊和共同作業更簡單、更有效率。
 
 ### <a name="how-can-customers-learn-when-skype-for-business-capabilities-will-be-available-in-teams"></a>客戶要如何知道何時可以在 Teams 中使用商務用 Skype 功能？
 
@@ -166,9 +168,9 @@ Teams 可以在教育版套件授權的所有 Office 365 中取得：除了在�
 
 ## <a name="calling-capabilities"></a>通話功能
 
-### <a name="what-is-the-plan-for-microsofts-online-voice-capabilities"></a>Microsoft 的線上語音功能有何方案？
+### <a name="what-is-the-plan-for-microsofts-online-voice-capabilities"></a>Microsoft 線上語音功能的計劃為何?
 
-我們的語音解決方案核心是目前可用的電話系統。 客戶還可以新增 Microsoft 通話方案，提供完整的通話支援，包括直接在 Office 365 中取得和指派號碼。 想要保留其電信電話主線的客戶可以使用直接路由，直接路由包含在電話系統中。 針對貴組織的需求，將兩者混合及匹配在一起，以具備完整的語音解決方案。
+我們的語音解決方案核心是目前可用的電話系統。 客戶還可以新增 Microsoft 通話方案，提供完整的通話支援，包括直接在 Office 365 中取得和指派號碼。 想要保留其電信電話主線的客戶可以使用直接路由，直接路由包含在電話系統中。 針對您組織的需求，將兩者混合及搭配在一起，以具備完整的語音解決方案。
 
 ### <a name="what-is-the-guidance-for-customers-already-deployed-on-phone-system-cloud-pbx-in-skype-for-business-online"></a>在商務用 Skype Online 中，對於已在電話系統 (雲端 PBX) 上進行部署的客戶，有什麼指導方針？
 
@@ -190,7 +192,7 @@ Teams 可以在教育版套件授權的所有 Office 365 中取得：除了在�
 
 對於將第三方音訊會議提供者 (ACP) 整合到商務用 Skype Online 的支援，已延長到 2021 年 7 月 31 日，對於其餘使用中租用戶具有有限支援，以允許額外的轉換時間。  這是在 2018 年 4 月所宣告 ACP 時間表的更新。
 
-### <a name="whats-the-plan-for-video-interoperability-support-for-teams-meetings"></a>Teams 會議視訊互通性支援有什麼方案？
+### <a name="whats-the-plan-for-video-interoperability-support-for-teams-meetings"></a>Teams 會議視訊互通性支援的計劃為何?
 
 [會議室裝置](https://products.office.com/microsoft-teams/across-devices)對於我們目前現代化工作場所的願景而言至關重要。 [雲端視頻互通性服務](cloud-video-interop.md)可以使用可透過我們的合作夥伴 Pexip、Polycom 及 Blue Jeans 取得的現有 VTC 系統，支援 Teams 會議。
 

@@ -1,5 +1,5 @@
 ---
-title: 管理組織的 Microsoft Teams 設定
+title: 管理貴組織的設定
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -8,23 +8,25 @@ ms.service: msteams
 audience: admin
 ms.reviewer: ritikag
 search.appverid: MET150
-description: 了解如何開啟或關閉貴組織的 Microsoft Teams 全組織設定，包括應用程式、外部存取、來賓存取、Teams 設定及 Teams 升級喜好設定。
+description: 了解如何開啟或關閉 Microsoft Teams 全組織設定，包括應用程式、外部存取、來賓存取、Teams 設定及 Teams 升級喜好設定。
 localization_priority: Priority
-ms.custom:
-- ms.teamsadmincenter.orgwidesettings.teamssettings.targetingintro
-- ms.teamsadmincenter.teamssettings.overview
 ms.collection:
 - M365-collaboration
 f1.keywords:
 - CSH
+ms.custom:
+- ms.teamsadmincenter.orgwidesettings.teamssettings.targetingintro
+- ms.teamsadmincenter.teamssettings.overview
+- NewAdminCenter_Update
+- seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 87c78839c0c6998464ed362dc8a3c2e4798a2321
-ms.sourcegitcommit: 561b9bab7d6f5a621436bc85ea28ea14657e7868
+ms.openlocfilehash: 5ad6e1679d809cbf4451677fdf67814930d33807
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035235"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141226"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>管理組織的 Microsoft Teams 設定
 
@@ -77,7 +79,7 @@ Microsoft Teams 中的**來賓存取**可將團隊和頻道的存取權授與給
 
 #### <a name="organization"></a>組織
 
-您可以在這裡開啟 **[組織]** 索引標籤，其中顯示使用者組織的詳細組織結構。 如需詳細資訊，請參閱[使用 Teams 中的組織索引標籤](https://support.office.com/article/use-the-organization-tab-in-teams-ff02568b-290a-46d6-ae7a-cda22f723894)。
+您可以在這裡開啟 [組織]**** 索引標籤，其中顯示使用者組織的詳細組織結構。 如需詳細資訊，請參閱[使用 Teams 中的組織索引標籤](https://support.office.com/article/use-the-organization-tab-in-teams-ff02568b-290a-46d6-ae7a-cda22f723894)。
 
 #### <a name="devices"></a>裝置
 

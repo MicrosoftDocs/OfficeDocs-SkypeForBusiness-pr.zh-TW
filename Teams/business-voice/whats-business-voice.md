@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Microsoft 365 商務語音概觀，以及它如何協助中小企業更有效率地通訊。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b9093fe2fd7050e582132c79a932b4b6fd4925d
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: ecce1626a541c14c7175390c086acfa5eb0262f2
+ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824561"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43096868"
 ---
 # <a name="what-is-microsoft-365-business-voice"></a>什麼是 Microsoft 365 商務語音？
 
@@ -42,8 +42,9 @@ Microsoft 365 商務語音可讓中小型組織輕鬆將 Microsoft Teams 轉變�
 * Microsoft 365 E3
 * Microsoft 365 商務版
 
+商務語音可於 70 幾個國家與地區使用。 無論您是否可以自行設定商務語音，將電話號碼轉移到 Microsoft 365，並在 Microsoft 365 中管理本身的電話號碼，取決於您的 Microsoft 365 租用戶所在的國家或地區。 如需詳細資訊，請參閱[商務語音的適用國家與地區](country-region-availability.md)。
+
 > [!IMPORTANT]
-> 商務語音目前於加拿大和英國兩地區可使用。 2020 年開始將有更多國家/地區可使用。
 >
 > 只有當您的使用者信箱位於 Microsoft 365 中時，才能使用 Microsoft Teams 和商務語音。  他們不支援內部部署 Exchange Server 上的信箱。
 

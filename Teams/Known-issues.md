@@ -17,12 +17,12 @@ f1.keywords:
 description: Microsoft Teams 用戶端應用程式和系統管理員體驗目前的已知問題清單。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9023c7a7bfe5a629f3f2fdb9589ee3f9ef9efd68
-ms.sourcegitcommit: 0549714f17f9994cf832a303ec9bc58a537c3a51
+ms.openlocfilehash: d856962cf0fdb21d0dd58313b5ade6a9bab9d364
+ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42951508"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43096618"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams 的已知問題
 
@@ -41,7 +41,7 @@ ms.locfileid: "42951508"
 |**啟用 Teams 來賓存取**     |參閱 [Teams 來賓存取檢查清單](guest-access-checklist.md)，並確定已完成所有步驟。 請參閱下列其他資源：<ul><li>[了解 Microsoft Teams 中的來賓存取](guest-access.md)</li>[來賓加入團隊的方式](guest-joins.md) <li>[設定 – Microsoft Teams 來賓存取檢查清單](guest-access-checklist.md)</li></ul>|
 |**Teams 會議與撥入**    |需要在 Teams 中開啟或設定音訊會議的協助嗎？ 這名使用者是最近建立的嗎？ 如果是，您必須等待 2 至 24 小時**設定才會生效**。<br>若要驗證使用者已獲得音訊會議授權，並擁有預設付費電話號碼：<br><ol><li>在 Microsoft 365 系統管理中心，移至 **[作用中的使用者]**，然後選取有問題的使用者。</li><li> 視系統管理中心的版本而定，請選擇 **[授權和應用程式]**，或按一下 **[產品授權]** 上的 **[編輯]**。</li><li> 確認使用者已選取 [音訊會議]、[Microsoft Teams ] 和 [商務用 Skype Online (方案2)] 的授權。</li><li>在 **[系統管理中心]** 按一下 **[全部顯示]**，再按一下 **[Teams]**。</li><li>在 [Microsoft Teams 系統管理中心] 中，按一下 **[傳統入口網站]**。</li><li>在 [商務用 Skype 系統管理中心] 中，按一下 **[音訊會議]**，再按一下 **[使用者]**。</li><li>選取有問題的使用者，並確認使用者有 [預設付費電話號碼]。</li> </ol> 如需詳細資訊，請參閱 [Office 365 的通話方案](calling-plans-for-office-365.md) (英文)，或撥打 Microsoft Commerce 收費團隊，取得授權相關問題的協助。 <br><br>其他資源：<ul><li>[Microsoft Teams 中的會議和召集會議](deploy-meetings-microsoft-teams-landing-page.md)</li><li>[Office 365 的音訊會議](audio-conferencing-in-office-365.md)</li></ul>       |
 |**Teams Exploratory 授權**     |Microsoft Teams Exploratory 體驗可讓貴組織中擁有 Azure Active Directory (AAD) 和未取得 Teams 授權的使用者起始 Teams 探勘體驗。 系統管理員可以為其組織中的使用者開啟或關閉這項功能。 舊版 [Microsoft 商務雲端試用版](iw-trial-teams.md)現在已由 Teams Exploratory 體驗取代。 <br><br>其他資源：<ul><li>[使用者註冊 Teams Exploratory 體驗的方式](teams-exploratory.md#how-users-sign-up-for-the-teams-exploratory-experience)</li><li>[管理 Teams Exploratory 體驗](teams-exploratory.md#manage-the-teams-exploratory-experience)</li></ul>|
-|**私人頻道**    |Microsoft Teams 中的私人頻道為小組內的共同作業建立了焦點空間。 只有小組中身為私人頻道的擁有者或成員的使用者，才可以存取通道。 任何人 (包括來賓) 都可以新增為私人頻道的成員，只要他們已經是小組的成員即可。<br><br>如果要將共同作業限制為需要知道的人員，或是在不另外建立小組來管理已指派特定專案小組的情況下，促進小組人員之間的溝通，您可能會想要使用私人頻道。<br><br>其他資源：<ul><li>[使用者註冊 Teams Exploratory 體驗的方式](teams-exploratory.md#how-users-sign-up-for-the-teams-exploratory-experience)</li><li>[管理 Teams Exploratory 體驗](teams-exploratory.md#manage-the-teams-exploratory-experience)</li><ul>        |
+|**私人頻道**    |Microsoft Teams 中的私人頻道為小組內的共同作業建立了焦點空間。 只有小組中身為私人頻道的擁有者或成員的使用者，才可以存取頻道。 任何人 (包括來賓) 都可以新增為私人頻道的成員，只要他們已經是小組的成員即可。<br><br>如果要將共同作業限制為需要知道的人員，或是在不另外建立小組來管理已指派特定專案小組的情況下，促進小組人員之間的溝通，您可能會想要使用私人頻道。<br><br>其他資源：<ul><li>[使用者註冊 Teams Exploratory 體驗的方式](teams-exploratory.md#how-users-sign-up-for-the-teams-exploratory-experience)</li><li>[管理 Teams Exploratory 體驗](teams-exploratory.md#manage-the-teams-exploratory-experience)</li><ul>        |
 |**會議原則**|[會議原則](meeting-policies-in-teams.md)是針對由您組織中的使用者所排程的會議，控制會議參與者可用於會議的功能。 建立原則並進行變更之後，您可以將使用者指派給該原則。         |
 ||**變更或建立會議原則**<br><br>若要變更或建立會議原則，請移至 [Microsoft Teams 系統管理中心] > **[會議] ** > ** [會議原則]**。 從清單中選取原則，或選取 **[新增]**。 如果您要建立新原則，請新增原則的名稱和描述。 名稱不能包含特殊字元，且長度不可超過 64 個字元。 選擇您的設定，然後按一下 [儲存]****。 例如，假設您有多位使用者，並且想要限制其會議所需的頻寬量。 您可以建立名為「有限頻寬」的新自訂原則，並停用下列設定：<br><br>在 [音訊與視訊]**** 下：<ul><li>關閉 [允許雲端錄製]。</li><li>關閉 [允許 IP 視訊]。</li></ul>在 [內容共用]**** 下：<ul><li>停用 [螢幕畫面分享模式]。</li><li>關閉 [允許白板]。</li><li>關閉 [允許共用記事]。</li></ul>然後，將原則指派給使用者。         |
 | |**將會議原則指派給使用者**<br><br><ol><li>在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至 [使用者]****，然後按一下該使用者。</li><li>按一下使用者名稱左方以選取使用者，然後按一下 [編輯設定]****。</li><li>在 [會議原則]**** 下，選取要指派的原則，然後按一下 [套用]****。</li></ol>若要一次將原則指派給多個使用者，請參閱[大量編輯 Teams 使用者設定](edit-user-settings-in-bulk.md)。 或者，您可以執行下列內容︰<ol><li>在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至 [會議] > [會議原則]****。</li><li>按一下原則名稱的左側來選取原則。</li><li>選取 [管理使用者]****。</li><li>在 [管理使用者]**** 窗格中，依顯示名稱或使用者名稱搜尋使用者，選取名稱，然後按一下 [新增]****。 針對要新增的每一個使用者重複此步驟。</li><li>新增完使用者之後，按一下 **[儲存]**。</li>         |
@@ -275,7 +275,7 @@ ms.locfileid: "42951508"
 
 |**問題標題**|**行為/徵狀**|**已知的因應措施**|**發現日期**|
 |:-----|:-----|:-----|:-----|
-|資源帳戶設定部門錯誤 <br/> | 在 2019 年 1 月之前建立、與自動語音應答或通話佇列相關聯的內部部署資源帳戶，其部門參數可能設定錯誤，這可能會導致電話號碼指派失敗。 我們正在進行修正以解決此問題。 <br/><br/> 使用 New-CsHybridApplicationEndpoint 搭配商務用 Skype Server 設定的資源帳戶，其部門參數可能設定錯誤，這會導致 Teams 系統管理中心的資源帳戶建立失敗。 在此情況下，您必須先在內部部署 Active Directory 中設定部門名稱，再同步至線上。|若要緩解此問題，您可以執行下列 Cmdlet 來設定部門參數。 Set-MsolUser -ObjectId <Resource Account Object ID> -Department "Microsoft Communication Application Instance" <br/> 另請參閱[自動語音應答和通話佇列服務更新](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Auto-Attendant-and-Call-Queues-Service-Update/ba-p/564521)。 |2019/5/8 <br/> |
+|資源帳戶設定部門錯誤 <br/> | 在 2019 年 1 月之前建立、與自動語音應答或通話佇列相關聯的內部部署資源帳戶，其部門參數可能設定錯誤，這可能會導致電話號碼指派失敗。 我們正在進行修正以解決此問題。 <br/><br/> 使用 New-CsHybridApplicationEndpoint 搭配商務用 Skype Server 設定的資源帳戶，其部門參數可能設定錯誤，這會導致 Teams 系統管理中心的資源帳戶建立失敗。 在此情況下，您必須先在內部部署 Active Directory 中設定部門名稱，再同步至線上。|若要緩解此問題，您可以執行下列 Cmdlet 來設定部門參數：Set-AdUser -Identity <objectId> -Department “Microsoft Communication Application Instance” <br/> 另請參閱[自動語音應答和通話佇列服務更新](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Auto-Attendant-and-Call-Queues-Service-Update/ba-p/564521)。 |2019/5/8 <br/> |
 
 
 |**問題標題**|**行為/徵狀**|**已知的因應措施**|**發現日期**|

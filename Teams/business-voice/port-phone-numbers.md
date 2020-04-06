@@ -17,14 +17,19 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c9895875832e1d173366a4f6ef0c48abf662fc5d
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 1dab1673f32c6a3c902c761004e5720d8c61dbfb
+ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827395"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43096888"
 ---
 # <a name="move-port-phone-numbers-to-business-voice"></a>移動 (移植) 電話號碼至商務語音
+
+> [!IMPORTANT]
+> 本文中的資訊僅適用於**含**通話方案的商務語音。 含通話方案的商務語音只有在選取的國家和地區才能使用。 閱讀本文之前，請參閱[商務語音的適用國家與地區](country-region-availability.md)，以查看您的國家或地區是否支援含通話方案的商務語音。
+>
+> 如果您的租用戶所在國家或地區不支援含通話方案的商務語音，請參閱[從 Microsoft 轉銷商或合作夥伴取得協助](reseller-partner-support.md)。
 
 當 [快速入門] 精靈協助您設定商務語音時，它會指派電話號碼給公司的代表線以及具有您指派之商務語音授權的任何使用者。 如果您已經有想要在移至商務語音時保留的電話號碼，您可以使用稱為電話號碼移轉的程序，將電話號碼帶至商務語音。 在您將電話號碼移轉至商務語音後，您可以將電話號碼指派給使用者和服務。 舊號碼會取代 [快速入門] 精靈中指派的暫時號碼。
 
