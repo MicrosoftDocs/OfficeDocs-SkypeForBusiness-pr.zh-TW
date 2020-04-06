@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams 中的音訊會議
+title: 設定音訊會議設定 - Microsoft Teams
 ms.reviewer: ''
 description: 使用這些部署資源幫助您在 Microsoft Teams中，將音訊會議做為會議工作負載的一部分推出。
 ms.topic: article
@@ -12,20 +12,21 @@ ms.service: msteams
 ms.collection:
 - M365-voice
 - M365-collaboration
+ms.custom: seo-marvel-mar2020
 f1.keywords:
 - NOCSH
 localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 78c4443352bffa02dc5bdeef6297ede6bed01e64
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: f57753947221068a21edd282ba0667efc4182690
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826741"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137323"
 ---
-# <a name="audio-conferencing-in-microsoft-teams"></a>Microsoft Teams 中的音訊會議
+# <a name="learn-how-to-deploy-audio-conferencing-in-microsoft-teams"></a>了解如何在 Microsoft Teams 中部署音訊會議
 
 音訊會議是由一般電話加入 Teams 會議，並由會議撥出電話號碼的功能。 請確認您已在組織中檢閱[會議推出](deploy-meetings-microsoft-teams-landing-page.md)做為推出音訊會議的一部分。
 
@@ -42,9 +43,9 @@ ms.locfileid: "41826741"
 
 |問問自己|動作 |
 |------------|-------|
-|我所在的國家/地區是否可使用音訊會議？|若要了解您的國家/地區是否可使用音訊會議，請參閱[音訊會議與通話方案的適用國家/地區](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) (英文版)。|
-|我的使用者是否具有 Teams 音訊會議的適當授權？|音訊會議授權可隨 Office 365 E5 訂閱取得，或是從 Office 365 商務進階版、E1 或 E3 訂閱的附加服務取得。 <ul><li>若要取得並指派授權，請參閱[試用或購買 Office 365 中的音訊會議](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)和[指派或移除商務用 Office 365 的授權](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) (英文版)。</li><li> 若要深入了解，請參閱 [Microsoft Teams 附加元件授權](teams-add-on-licensing/microsoft-teams-add-on-licensing.md) (英文版)。 </li><li>若要查看每個包含在 Office 365 方案中的雲端功能，請參閱[根據您方案的授權選項](teams-add-on-licensing/office-365-business-premium.md)文章。</li></ul>|
-|對於獲得音訊會議授權的使用者，我是否需要為他們購買通訊點數？|若要深入了解，請參閱[什麼是通訊點數](what-are-communications-credits.md)，然後查看下方的[通訊點數](#communications-credits) (英文版) 一節。|
+|我所在的國家/地區是否可使用音訊會議？|若要了解您的國家/地區是否可使用音訊會議，請參閱[音訊會議與通話方案的適用國家/地區](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。|
+|我的使用者是否具有 Teams 音訊會議的適當授權？|音訊會議授權可隨 Office 365 E5 訂閱取得，或是從 Office 365 商務進階版、E1 或 E3 訂閱的附加服務取得。 <ul><li>若要取得並指派授權，請參閱[試用或購買 Office 365 中的音訊會議](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)和[指派或移除商務用 Office 365 的授權](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)。</li><li> 若要深入了解，請參閱 [Microsoft Teams 附加元件授權](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。 </li><li>若要查看每個包含在 Office 365 方案中的雲端功能，請參閱[根據您方案的授權選項](teams-add-on-licensing/office-365-business-premium.md)文章。</li></ul>|
+|對於獲得音訊會議授權的使用者，我是否需要為他們購買通訊點數？|若要深入了解，請參閱[什麼是通訊點數](what-are-communications-credits.md)，然後查看下方的[通訊點數](#communications-credits) 一節。|
 |||
 
 
@@ -68,13 +69,13 @@ Teams 提供了一組自訂管理員角色，可用來為組織管理 Teams。 �
 
 會議橋接器可讓與會者使用電話撥入會議。 您可以使用會議橋接器的預設設定，或變更電話號碼 (付費和免付費) 以及其他設定，例如 PIN 或使用的語言。
 
-如需詳細資訊，請參閱[Office 365 的音訊會議](audio-conferencing-in-office-365.md) (英文版)。
+如需詳細資訊，請參閱[Office 365 的音訊會議](audio-conferencing-in-office-365.md)。
 
 |問問自己|動作 |
 |------------|-------|
-|是否需要新增新的會議橋接器號碼？| 若要新增新號碼，請參閱[取得服務電話號碼](/microsoftteams/getting-service-phone-numbers) (英文版)。|
-|需要修改橋接器設定嗎？|若要修改橋接器設定，請參閱[變更音訊會議橋接器的設定](change-the-settings-for-an-audio-conferencing-bridge.md) (英文版)。|
-|需要連接埠號碼搭配音訊會議使用嗎？|如需連接埠號碼的詳細資訊，請參閱[將電話號碼移轉至 Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) (英文版)。|
+|是否需要新增新的會議橋接器號碼？| 若要新增新號碼，請參閱[取得服務電話號碼](/microsoftteams/getting-service-phone-numbers)。|
+|需要修改橋接器設定嗎？|若要修改橋接器設定，請參閱[變更音訊會議橋接器的設定](change-the-settings-for-an-audio-conferencing-bridge.md)。|
+|需要連接埠號碼搭配音訊會議使用嗎？|如需連接埠號碼的詳細資訊，請參閱[將電話號碼移轉至 Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)。|
 |||
 
 
@@ -84,7 +85,7 @@ Teams 音訊會議可讓您設定會議橋接器的預設和替代語言。
 
 |問問自己|動作 |
 |------------|-------|
-| 自動語音應答問候語應選擇哪些語言？ | 若要選擇語言，請參閱[設定音訊會議的自動語音應答語言](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json) (英文版)。|
+| 自動語音應答問候語應選擇哪些語言？ | 若要選擇語言，請參閱[設定音訊會議的自動語音應答語言](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)。|
 |||
 
 ### <a name="conferencing-bridge-settings"></a>會議橋接器設定 
@@ -93,7 +94,7 @@ Teams 音訊會議可讓您設定會議橋接器的預設和替代語言。
 
 |問問自己|動作 |
 |------------|-------|
-| 使用者加入或離開會議時，出席者是否會聽到通知？ | 若要變更這些設定，請參閱[變更音訊會議橋接器的設定](change-the-settings-for-an-audio-conferencing-bridge.md) (英文版)。|
+| 使用者加入或離開會議時，出席者是否會聽到通知？ | 若要變更這些設定，請參閱[變更音訊會議橋接器的設定](change-the-settings-for-an-audio-conferencing-bridge.md)。|
 |會議召集人用來開始會議的 PIN 所需長度為何？||
 |||
 
@@ -103,18 +104,18 @@ Teams 音訊會議可讓您設定會議橋接器的預設和替代語言。
 
 |問問自己|動作 |
 |------------|-------|
-| 要指派給每位主持會議使用者之會議橋接器電話號碼為何？ | 若要為使用者指派撥入電話號碼，請參閱[步驟7：為主持會議使用者指派撥入電話號碼](set-up-audio-conferencing-in-teams.md#step-7-assign-dial-in-phone-numbers-for-users-who-lead-meetings) (英文版)。 |
+| 要指派給每位主持會議使用者之會議橋接器電話號碼為何？ | 若要為使用者指派撥入電話號碼，請參閱[步驟7：為主持會議使用者指派撥入電話號碼](set-up-audio-conferencing-in-teams.md#step-7-assign-dial-in-phone-numbers-for-users-who-lead-meetings)。 |
 |||
 
 ### <a name="communications-credits"></a>通訊點數
 
-若要提供免付費會議橋接器電話號碼，以及支援電話會議撥出的國際電話號碼，您必須為組織設定通訊點數。 若要深入了解通訊點數，請參閱[什麼是通訊點數？](what-are-communications-credits.md) (英文版)。
+若要提供免付費會議橋接器電話號碼，以及支援電話會議撥出的國際電話號碼，您必須為組織設定通訊點數。 若要深入了解通訊點數，請參閱[什麼是通訊點數？](what-are-communications-credits.md)。
 
 |問問自己|動作 |
 |------------|-------|
-|我的語音會議實作是否需要通訊點數？ |若要了解您是否需要設定通訊點數，請參閱[設定貴組織的通訊點數](set-up-communications-credits-for-your-organization.md) (英文版)。|
-|如果通訊點數為必須，應該花費多少購買？|若要決定通訊點數金額，請參閱[建議的資金金額](what-are-communications-credits.md#recommended-funding-amounts) (英文版)。|
-|需要設定自動儲值金額嗎？|若要設定自動儲值金額，請參閱[設定貴組織的通訊點數](set-up-communications-credits-for-your-organization.md) (英文版)。|
+|我的語音會議實作是否需要通訊點數？ |若要了解您是否需要設定通訊點數，請參閱[設定貴組織的通訊點數](set-up-communications-credits-for-your-organization.md)。|
+|如果通訊點數為必須，應該花費多少購買？|若要決定通訊點數金額，請參閱[建議的資金金額](what-are-communications-credits.md#recommended-funding-amounts)。|
+|需要設定自動儲值金額嗎？|若要設定自動儲值金額，請參閱[設定貴組織的通訊點數](set-up-communications-credits-for-your-organization.md)。|
 |||
 
 
@@ -129,7 +130,7 @@ Teams 音訊會議可讓您設定會議橋接器的預設和替代語言。
 
 |問問自己|動作 |
 |------------|-------|
-| 要限制允許的撥出通話類型嗎？ | 若要限制撥出通話，請參閱[音訊會議和使用者 PSTN 通話的撥出通話限制原則](outbound-calling-restriction-policies.md) (英文版)。|
+| 要限制允許的撥出通話類型嗎？ | 若要限制撥出通話，請參閱[音訊會議和使用者 PSTN 通話的撥出通話限制原則](outbound-calling-restriction-policies.md)。|
 |||
 
 
@@ -137,12 +138,12 @@ Teams 音訊會議可讓您設定會議橋接器的預設和替代語言。
 
 撥號對應表包含在 Office 365 的電話系統中，是可將撥打的電話號碼轉換為替代格式 (通常是 E.164 格式)，以進行通話授權和通話路由的正規化規則集合。
 
-如需撥號對應表的相關資訊，請參閱[什麼是撥號對應表？](what-are-dial-plans.md) (英文版)
+如需撥號對應表的相關資訊，請參閱[什麼是撥號對應表？](what-are-dial-plans.md)
 
 |問問自己|動作 |
 |------------|-------|
-|我的組織需要自訂的撥號對應表？|若要幫助決定是否需要自訂的撥號對應表，請參閱[規劃租用戶撥號對應表](what-are-dial-plans.md#planning-for-tenant-dial-plans) (英文版)。 |
-|哪些使用者需要自訂的撥號對應表，以及應指派給每個使用者何種租用戶撥號對應表？|若要使用 PowerShell 將使用者新增至自訂撥號對應表，請參閱 [建立及管理撥號對應表](create-and-manage-dial-plans.md) (英文版)。|
+|我的組織需要自訂的撥號對應表？|若要幫助決定是否需要自訂的撥號對應表，請參閱[規劃租用戶撥號對應表](what-are-dial-plans.md#planning-for-tenant-dial-plans)。 |
+|哪些使用者需要自訂的撥號對應表，以及應指派給每個使用者何種租用戶撥號對應表？|若要使用 PowerShell 將使用者新增至自訂撥號對應表，請參閱 [建立及管理撥號對應表](create-and-manage-dial-plans.md)。|
 |||
 
 ### <a name="troubleshoot-meeting-and-call-quality"></a>對會議和通話品質進行疑難排解 
@@ -151,7 +152,7 @@ Teams 有兩種方式可供您監視和疑難排解通話品質問題：[通話�
 
 |問問自己|動作 |
 |------------|-------|
-| 誰會負責監視及疑難排解通話品質問題？ | 如需疑難排解通話品質問題所需權限等級的相關資訊，請參閱[使用通話分析來疑難排解低劣的通話品質](use-call-analytics-to-troubleshoot-poor-call-quality.md) (英文版)。|
+| 誰會負責監視及疑難排解通話品質問題？ | 如需疑難排解通話品質問題所需權限等級的相關資訊，請參閱[使用通話分析來疑難排解低劣的通話品質](use-call-analytics-to-troubleshoot-poor-call-quality.md)。|
 |||
 
 
