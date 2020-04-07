@@ -12,8 +12,6 @@
 ## [Teams 的管理訓練](itadmin-readiness.md)
 ## [Teams 的使用者訓練](enduser-training.md)
 <!-- ============================================================ -->
-#       
-#    
 
 # [如何推出 Teams](How-to-roll-out-teams.md)
 
@@ -124,7 +122,8 @@
 
 <!-- ============================================================ -->
 
-# 會議和研討會
+# 會議和召集會議
+## [快速入門 - 會議與即時活動](quick-start-meetings-live-events.md)
 ## [規劃您的部署](deploy-meetings-microsoft-teams-landing-page.md)
 ## [教學課程：Teams 中的會議](Tutorial-Meetings-in-Teams.yml)
 ## [管理會議原則](meeting-policies-in-teams.md)
@@ -293,6 +292,16 @@
 #### [媒體旁路搭配直接路由方案](direct-routing-plan-media-bypass.md)
 #### [設定媒體旁路搭配直接路由](direct-routing-configure-media-bypass.md)
 
+### 直接路由的本機媒體最佳化
+#### [規劃本機媒體最佳化](direct-routing-media-optimization.md)
+#### [設定本機媒體最佳化](direct-routing-media-optimization-configure.md)
+
+### 監視和疑難排解直接路由
+#### [概觀](direct-routing-monitor-and-troubleshoot.md)
+#### [健康狀態儀表板](direct-routing-health-dashboard.md)
+### [含有 PSTN 連線功能的混合式環境中的使用者帳戶](direct-routing-user-accounts-in-a-hybrid-environment.md)
+
+### [移轉至直接路由](direct-routing-migrating.md)
 
 ### 直接路由的技術參考
 #### [輸出呼叫上的主幹容錯移轉](direct-routing-trunk-failover-on-outbound-call.md)
@@ -475,9 +484,8 @@
 ### [最佳化意見反應和報告](teams-adoption-optimize-feedback-and-reporting.md)
 ### [促進認知和實施訓練](teams-adoption-drive-awareness.md)
 ### [排程服務健康情況審查](teams-adoption-schedule-service-health-reviews.md)
+
 <!-- ============================================================ -->
-#       
-#        
 
 # 升級至 Teams
 
@@ -560,9 +568,6 @@
 
 ## [與 Exchange 和 SharePoint 的整合](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint)
 
-#     
-#     
-
 <!-- ============================================================ -->
 
 # Microsoft 365 Business Voice
@@ -595,17 +600,11 @@
 
 ## [合作夥伴資源](business-voice/partner-resources.md)
 
-#        
-#        
-
 <!-- ============================================================ -->
-
 
 # 產業和政府指引
 ## [概觀](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md)
 ## [開始使用 Teams 範本](get-started-with-teams-templates.md)
-## [適用於第一線員工的快速入門](firstline-workers-quickstart.yml)
-## [適用於 Microsoft Teams 的 RealWear](flw-realwear.md)
 ## [Teams 中的 Shifts](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 ### [終止對 Microsoft StaffHub 的支援](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
 ### [安裝 Microsoft StaffHub PowerShell 模組](expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md)
@@ -640,6 +639,12 @@
 ### [安裝 Moodle 整合](install-moodle-integration.md)
 ### [教育 SKU 參考](sku-reference-edu.md)
 
+## 適用於第一線員工的 Teams
+### [適用於第一線員工的快速入門](firstline-workers-quickstart.yml)
+### [第一線員工編寫指令碼部署](flw-scripted-deployment.md)
+### [適用於 Microsoft Teams 的 RealWear](flw-realwear.md)
+### [從 SPO 網站或頁面建立 Teams 內部網路入口網站應用程式](teams-standalone-static-tabs-using-spo-sites.md)
+
 ## [適用於零售業的 Teams](expand-teams-across-your-org/teams-for-retail-landing-page.md)
 ### [開始使用適用於零售業的 Teams 範本](get-started-with-retail-teams-templates.md)
 
@@ -655,10 +660,12 @@
 
 # 安全性與合規性
 ## [概觀](security-compliance-overview.md)
+## [Teams 中的資料位置](location-of-data-in-teams.md)
 ## 安全性
 ### [安全性手冊](teams-security-guide.md)
 ### [身分識別和驗證](identify-models-authentication.md)
 ### [使用新式驗證登入 Teams](sign-in-teams.md)
+### [Teams 中的安全連結](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## 合規性
 ### [資訊屏障](information-barriers-in-teams.md)
 ### [保留原則](retention-policies.md)
@@ -697,8 +704,7 @@
 ## [Teams 的支援資源](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 <!-- ============================================================ -->
-#       
-#    
+  
 # 參考
 
 ## [Teams 的限制和規格](limits-specifications-teams.md)
