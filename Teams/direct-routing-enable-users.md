@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 瞭解如何啟用使用者 Microsoft Phone 系統 Direct 路由。
-ms.openlocfilehash: e9120dcbcd4b1a82eb864f545efdbadc42481794
-ms.sourcegitcommit: 0289062510f0791906dab2791c5db8acb1cf849a
+ms.openlocfilehash: 10c62d14f283d565765a47e4c07504bc9bffa720
+ms.sourcegitcommit: 0fdc60840f45ff5b0a39a8ec4a21138f6cab49c9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42157944"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43160057"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>允許使用者使用直接路由、語音及語音信箱
 
@@ -80,7 +80,7 @@ ms.locfileid: "42157944"
     例如，若要將使用者的電話號碼新增至 [Spencer Low]，請輸入下列內容： 
 
     ```PowerShell
-    Set-CsUser -Identity "Spencer Low" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+    Set-CsUser -Identity "spencer.low@contoso.com" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
     ```
 
     所使用的電話號碼必須設定為完整的 E. 164 電話號碼（國家/地區碼）。 

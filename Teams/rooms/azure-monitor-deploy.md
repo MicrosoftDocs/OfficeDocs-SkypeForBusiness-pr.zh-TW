@@ -1,5 +1,6 @@
 ---
 title: 使用 Azure 監視器部署 Microsoft 團隊聊天室管理
+ms.author: v-lanac
 author: lanachin
 ms.reviewer: Turgayo
 manager: serdars
@@ -14,12 +15,12 @@ ms.collection:
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: 本文將說明如何使用 Azure 監視器，以整合的端對端方式部署 Microsoft 團隊機房裝置的管理。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 3e01ae7a0fddcb63595b7dcc15b719ad1d41db32
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 0e0e810bb2932918947a011a9d2091858d0819eb
+ms.sourcegitcommit: 0fdc60840f45ff5b0a39a8ec4a21138f6cab49c9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137643"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43160087"
 ---
 # <a name="deploy-no-loc-textmicrosoft-teams-rooms-management-with-no-loc-textazure-monitor"></a>部署:::no-loc text="Microsoft Teams Rooms":::管理:::no-loc text="Azure Monitor":::
 
@@ -137,7 +138,7 @@ ms.locfileid: "43137643"
 
 | **JSON 欄位**                   | **:::no-loc text="Log Analytics":::自訂欄位** | **事件識別碼** | **要與提取搭配使用的查詢**                   |
 |:---------------------------------|:-------------------------------|:-------------|:-------------------------------------------------------|
-| 描述                      | SRSEventDescription         | **2000**     | 來源\| = = "SRS-App" 和 EventID = = 2000 的事件 |
+| 說明                      | SRSEventDescription         | **2000**     | 來源\| = = "SRS-App" 和 EventID = = 2000 的事件 |
 | ResourceState                    | SRSResourceState            | **2000**     | 來源\| = = "SRS-App" 和 EventID = = 2000 的事件 |
 | End                    | SRSOperationName            | **2000**     | 來源\| = = "SRS-App" 和 EventID = = 2000 的事件 |
 | OperationResult                  | SRSOperationResult          | **2000**     | 來源\| = = "SRS-App" 和 EventID = = 2000 的事件 |

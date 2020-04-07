@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 瞭解如何建立和管理呼叫撥號方案（PSTN 呼叫撥號方案），以及管理它們的方式。
-ms.openlocfilehash: 774b0a78f39b91b634ed0833be3497935cb25c4f
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 6a5f46772ed8eebb309ba8bd9eaeca6fddb35afa
+ms.sourcegitcommit: 0fdc60840f45ff5b0a39a8ec4a21138f6cab49c9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826921"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43160077"
 ---
 # <a name="create-and-manage-dial-plans"></a>建立和管理撥號對應表
 
@@ -50,7 +50,7 @@ ms.locfileid: "41826921"
     > [!NOTE]
     > 團隊會從上而下遍歷正常化規則清單，並使用與撥號號碼相符的第一個規則。 如果您設定撥號方案，讓撥入的號碼可以符合多個正常化規則，請確定更嚴格的規則排序在限制性較低的規則上方。
 
-6. 按一下 [**儲存**]。
+6. 按一下 [儲存]****。
 7. 如果您想要測試撥號規劃，請在 [**測試撥號方案**] 下輸入電話號碼，然後按一下 [**測試**]。
 
 ### <a name="edit-a-dial-plan"></a>編輯撥號方案
@@ -61,11 +61,11 @@ ms.locfileid: "41826921"
 
 ### <a name="add-users-to-a-dial-plan"></a>將使用者新增至撥號方案
 
-1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**語音** > **撥號方案**]。
-2. 按一下撥號方案名稱左邊的，即可選取撥號方案。
-3. 選取 [**管理使用者**]。
-4. 在 [**管理使用者**] 窗格中，依 [顯示名稱] 或 [使用者名稱] 搜尋使用者，選取名稱，然後選取 [**新增**]。 針對您要新增的每個使用者重複此步驟。
-5. 完成新增使用者後，**請選取 [** 套用]。
+1. 在 Microsoft 團隊系統管理中心的左導覽中，前往 [**使用者**]。
+2. 按一下 [顯示名稱]，選取使用者。
+3. 選取 [**原則**] 索引標籤。
+4. 按一下指派原則右側的 [**編輯**]。
+5. 從 [**撥號方案**] 下拉式功能表中，選取您要指派給使用者的撥號方案，然後按一下 [套用] **。**
 
 ## <a name="using-powershell"></a>使用 PowerShell
   
@@ -248,4 +248,4 @@ New-CsTenantDialPlan -Identity $dp.SimpleName -ExternalAccessPrefix $dp.External
 - [管理貴組織的電話號碼](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [緊急通話條款及條件](emergency-calling-terms-and-conditions.md)
 - [緊急通話免責聲明標籤](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
-- [團隊 PowerShell 概覽](teams-powershell-overview.md)
+- [Teams PowerShell 概觀](teams-powershell-overview.md)

@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 ms.custom: seo-marvel-mar2020
 description: 由 Microsoft 團隊聊天室裝置使用的預設設定的遠端系統管理，包括套用自訂主題及建立主設定檔案。
-ms.openlocfilehash: 988fa11ef3a84c21bfef3a726e3901bae26e222a
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 0334b9de7759885b6bf00dae7a6418b3c381c68f
+ms.sourcegitcommit: 0fdc60840f45ff5b0a39a8ec4a21138f6cab49c9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140986"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43160067"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>使用 XML 設定檔遠端系統管理 Microsoft 團隊聊天室的主控台設定
 
@@ -44,6 +44,7 @@ ms.locfileid: "43140986"
         <ConfigureDomain>domain1, domain2</ConfigureDomain>
     </UserAccount>
     <IsTeamsDefaultClient>false</IsTeamsDefaultClient>
+    <ModernAuthEnabled>false</ModernAuthEnabled>
     <BluetoothAdvertisementEnabled>true</BluetoothAdvertisementEnabled>
     <SkypeMeetingsEnabled>false</SkypeMeetingsEnabled>
     <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled>
@@ -91,6 +92,7 @@ ms.locfileid: "43140986"
 | \<ConfigureDomain\>  |字串 &#x2778;  ||您可以列出數個網域，並以逗號分隔。 |
 |\<TeamsMeetingsEnabled\> |布林值 &#x2777;  |第一 &#x2776;  |預設為停用。 <br/> <br/> 如果\<SkypeMeetingsEnabled\>和\<TEAMSMEETINGSENABLED\>都停用，則 XML 檔案會被視為錯誤的格式，但同時啟用這兩個設定。 |
 |\<IsTeamsDefaultClient> |布林值 &#x2777;  |第一 &#x2776;  |預設為停用。 |
+|\<ModernAuthEnabled> |布林值 &#x2777;  |第一 &#x2776;  |預設為停用。 <br/> <br/>當設定為 true 時，Microsoft 團隊聊天室應用程式只會使用新式驗證來連線資源，而且不會回到基本驗證。|
 |\<BluetoothAdvertisementEnabled> |布林值 &#x2777;  |第一 &#x2776;  |預設為啟用。 |
 |\<DualScreenMode\>  |布林值 &#x2777;  |第一 &#x2776;  |如果為 true，則會啟用雙螢幕模式。 否則，裝置會使用單一畫面模式。 |
 | \<DuplicateIngestDefault\> |布林值 &#x2777;  |第一 &#x2776; |如果為 true，則在雙螢幕模式中，內容會在兩個畫面上顯示，而不是在會議中。 | 
