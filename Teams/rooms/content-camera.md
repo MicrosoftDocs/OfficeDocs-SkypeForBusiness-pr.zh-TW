@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 ms.custom: seo-marvel-mar2020
 description: 在 Microsoft 團隊聊天室中使用內容相機，這會與影像處理軟體互動，以允許簡報者在類比白板上繪圖。
-ms.openlocfilehash: 6ddc1a43a9d75e6f142c82c0215124bad97f77dd
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: ecd9c20c7f479c548d0ab9b4c3db8bbec945e79f
+ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137623"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43157806"
 ---
 # <a name="content-cameras"></a>內容相機
 
@@ -102,6 +102,4 @@ ms.locfileid: "43137623"
 
 [Microsoft 團隊會議室需求](requirements.md)
 
-> [!NOTE]
-> 某些具有 Microsoft Surface Pro （例如 Logitech Smartdock 和 Crestron SR）的 Microsoft 團隊機房裝置還不支援 [內容相機]。 這些裝置的支援稍後會在 CY2019 中新增。 
->
+

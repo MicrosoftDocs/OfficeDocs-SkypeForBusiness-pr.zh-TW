@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e777ef76f6c8f11dfd914b3c4be149c224b63cf5
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 922489b421a819554ae680cf70ab2df6a21b2aed
+ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139092"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43157626"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Microsoft 團隊中的安全性與合規性
 
@@ -81,6 +81,12 @@ Microsoft 團隊桌面應用程式支援 AppLocker。  如需有關 AppLocker �
 ## <a name="compliance"></a>從屬
 
 團隊有大量的資訊可協助您處理合規性區域，包括頻道、聊天和附件、保留原則、資料遺失保護（DLP）、eDiscovery 和法律封存（針對頻道、聊天和檔案、審核記錄搜尋），以及使用 Microsoft Intune 的行動應用程式管理。 我們已提供下列所有主題的相關資訊，您可以移至[Microsoft 365 合規性中心](https://compliance.microsoft.com)或[Office 365 安全性 & 合規性中心](https://protection.microsoft.com)來管理這些設定。
+
+### <a name="information-barriers"></a>資訊障礙
+
+資訊障礙是由團隊管理員在適當的地方進行，例如讓人員或群組相互通訊（不需要他們執行這項作業時，或因監管原因而封鎖），也可讓您設定與查閱及 eDiscovery 等專案相關的原則（如下所述）。 這些原則會影響1:1 聊天、群組聊天或團隊階層的使用者。
+
+如需進一步閱讀本主題，請參閱[Microsoft 團隊中的資訊障礙](information-barriers-in-teams.md)。
 
 ### <a name="communication-compliance"></a>溝通合規性
 

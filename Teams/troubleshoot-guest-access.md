@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 0c0f65f7026e6c083d9230551d689f0dd19d6b0d
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
-ms.translationtype: HT
+ms.openlocfilehash: b8ef4fb03de0172403556334e43359402ccce113
+ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837633"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43157736"
 ---
 <a name="troubleshoot-problems-with-guest-access-in-microsoft-teams"></a>針對 Microsoft Teams 中的來賓存取問題進行疑難排解
 ======================================================
@@ -41,7 +41,10 @@ ms.locfileid: "41837633"
 
 Teams 中的來賓存取使用 Azure Active Directory (Azure AD) 企業對企業 (B2B) 及其授權模型。 來賓存取隨附於所有 Office 365 商務進階版、Office 365 企業版和 Office 365 教育版訂閱。 您不需要額外的 Office 365 授權。
 
-如果您看到授權錯誤，請務必閱讀 [Azure Active Directory B2B 授權指南](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)，判斷符合您組織中來賓存取需求的授權需求。
+> [!NOTE]
+> 您必須在來賓的家用租使用者上啟用團隊，才能在另一個（資源）租使用者上以來賓身分登入和使用團隊。
+
+如果您看到授權錯誤，請務必閱讀[Azure Active DIRECTORY B2B 授權指南](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)，以判斷授權需求，以符合您組織中的來賓存取需求。
 
 
 - 系統會針對邀請的組織計算來賓授權。 當您計算所需的授權數量時，請考慮這一點。

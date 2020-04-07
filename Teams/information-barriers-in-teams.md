@@ -15,12 +15,12 @@ f1.keywords:
 description: 瞭解資訊障礙及其對團隊有何影響。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a3f4f7f256be21b9b3f8063ed34a25afb4af6971
-ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
+ms.openlocfilehash: a666d89e78a9234144eb09173b713d1186410206
+ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "42341856"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43157816"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft 團隊中的資訊障礙
 
@@ -44,6 +44,10 @@ ms.locfileid: "42341856"
 - 法律：維護一個用戶端的律師所取得之資料的機密性，不受代表不同用戶端之同一事務所的律師存取。
 - 政府：資訊存取和控制限制在各個部門和群組中。
 - [專業服務]：公司中的一組人員只能透過同盟或來賓存取權在客戶合作期間與用戶端或特定客戶進行交談。
+
+例如，Enrico 屬於 [銀行] 區段，而 Pradeep 屬於 [財務顧問] 區段。 Enrico 和 Pradeep 無法彼此通訊，因為組織的 IB 原則會封鎖這兩個區段之間的通訊與共同作業。 不過，Enrico 和 Pradeep 可以與 HR 中的 [人力資源] 進行溝通。
+
+![此範例顯示資訊障礙，避免在區段之間通訊](media/information-barriers-example.png)
 
 ## <a name="when-to-use-information-barriers"></a>何時使用資訊障礙
 
@@ -70,20 +74,45 @@ IB 相容性管理角色負責管理資訊屏障原則。 如需有關此角色�
 資訊屏障原則會在下列團隊事件發生時啟用：
 
 - **成員會新增至團隊**-每當您將使用者新增至團隊時，必須針對其他團隊成員的資訊屏障原則評估使用者的原則。 成功新增使用者之後，使用者就可以執行團隊中的所有職能，而不需要進一步檢查。 如果使用者的原則禁止將他們加入小組，使用者就不會顯示在搜尋中。
+
+    ![顯示群組聊天的螢幕擷取畫面](media/information-barriers-add-members.png)
+
 - **要求新的聊天**：每次在兩個或多個使用者之間要求新的交談時，就會評估聊天，以確保它不違反任何資訊屏障原則。 如果交談違反資訊屏障原則，就不會啟動交談。
+
+    以下是1:1 聊天的範例。
+
+     ![顯示1:1 聊天中封鎖通訊的螢幕擷取畫面](media/information-barriers-one-one-chat.png)
+
+    以下是群組聊天的範例。
+
+    ![顯示群組聊天的螢幕擷取畫面](media/information-barriers-group-chat.png)
+
 - **使用者受邀加入會議**-當使用者受邀加入會議時，系統會針對其他團隊成員的原則評估使用者的原則，如果發生衝突，就不允許使用者加入會議。
+
+    ![顯示使用者已封鎖會議的螢幕擷取畫面](media/information-barriers-meeting.png)
+
 - **在兩個以上的使用者之間共用螢幕**-只要兩個或多個使用者共用畫面，就必須評估畫面共用，以確保它不會違反其他使用者的資訊屏障原則。 如果違反資訊屏障原則，就不允許使用螢幕共用。
 - **使用者將電話撥打電話（VOIP）放在團隊中**，只要使用者向其他使用者或群組使用者啟動語音通話，就會評估通話，確定它不會違反其他小組成員的資訊屏障原則。 如果有任何侵犯，語音通話會遭到封鎖。
 - **小組中的來賓使用者**也可以在小組中的來賓使用者也套用資訊屏障原則。 如果在貴組織的全域通訊清單中，來賓使用者需要可被探索，請參閱[管理 Office 365 群組中的來賓存取](https://docs.microsoft.com/office365/admin/create-groups/manage-guest-access-in-groups?view=o365-worldwide#can-i-make-guest-objects-visible-in-the-global-address-list)。 一旦訪客使用者可被發現，您就可以[定義資訊屏障原則](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)。
 
 ## <a name="how-policy-changes-impact-existing-chats"></a>原則變更對現有聊天有何影響
 
-當資訊屏障原則管理員對原則進行變更，或由於使用者的設定檔變更（例如作業變更或類似的原因）而導致策略變更生效時，資訊屏障原則會自動評估服務搜尋成員，以確保小組成員不違反任何原則。
+當資訊屏障原則管理員對原則進行變更，或由於使用者的設定檔變更（例如作業變更或類似的原因），資訊屏障原則評估服務會自動搜尋成員，以確保小組成員不會違反任何原則的情況。
 
 如果使用者之間已有聊天或其他通訊，且已設定新的原則，或是已變更現有的原則，此服務會評估現有的通訊，以確保仍允許進行通訊。
 
 - **1:1 聊天**-如果已不再允許兩個使用者之間的通訊（如果原則封鎖通訊已套用至一或兩個使用者），系統會封鎖進一步通訊，聊天交談就會變成隻讀狀態。
+
 - **群組聊天**-如果已不再允許來自某個使用者的通訊（例如，如果使用者變更了工作），則該使用者與違反該原則的其他使用者都可能會從群組聊天中移除，且不允許進一步與群組通訊。 使用者仍然可以看到舊的交談（這會是唯讀的），但無法看到或參與與群組的任何新交談。 如果新的或已變更的原則將通訊套用到多個使用者，則受該原則影響的使用者可能會從群組聊天中移除。 他們仍能看到舊的交談。
+
+在這個範例中，Enrico 移至組織內的不同部門，並從群組聊天中移除。
+
+  ![顯示群組聊天的螢幕擷取畫面](media/information-barriers-user-changes-job.png)
+
+Enrico 無法再傳送訊息到群組聊天。
+
+  ![顯示群組聊天的螢幕擷取畫面](media/information-barriers-user-changes-job-2.png)
+
 - **小組**-已從群組中移除的任何使用者都會從小組中移除，而且將無法查看或參與現有或新的交談。
 
 ## <a name="scenario-a-user-in-an-existing-chat-becomes-blocked"></a>案例：現有聊天中的使用者遭到封鎖
@@ -92,6 +121,9 @@ IB 相容性管理角色負責管理資訊屏障原則。 如需有關此角色�
 
 - [**人員]** 索引標籤-使用者無法在 [**人員**] 索引標籤上看到封鎖的使用者。
 - **人員選擇器**-在 [人員選擇器] 中不會顯示封鎖的使用者。
+
+    ![顯示群組聊天的螢幕擷取畫面](media/information-barriers-people-picker.png)
+    
 - [**活動]** 索引標籤-如果使用者要造訪封鎖使用者的 [**活動**] 索引標籤，就不會顯示任何文章。 （[**活動**] 索引標籤只會顯示頻道發佈，而在兩個使用者之間則不會有任何常見頻道。）
 - **組織**結構-如果使用者存取的組織結構中出現封鎖的使用者，則封鎖的使用者不會出現在組織結構上，而是會顯示錯誤訊息。
 - **連絡人卡片**-如果使用者參與交談，且隨後遭到封鎖，當使用者將游標移到封鎖的使用者名稱上時，其他使用者就會看到錯誤訊息，而不是連絡人卡片。 在卡片上所列的動作（例如 [通話與聊天]）將無法使用。
@@ -109,7 +141,7 @@ IB 相容性管理角色負責管理資訊屏障原則。 如需有關此角色�
 
 ## <a name="required-licenses-and-permissions"></a>所需的授權和許可權
 
-如需詳細資訊（包括方案和定價），請參閱[授權指南](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-tenantlevel-services-licensing-guidance)。
+如需詳細資訊（包括方案和定價），請參閱[授權指南](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)。
 
 ## <a name="more-information"></a>詳細資訊
 
@@ -117,4 +149,4 @@ IB 相容性管理角色負責管理資訊屏障原則。 如需有關此角色�
 
 - 若要設定資訊屏障原則，請參閱[定義資訊屏障的原則](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)。
 
-- 若要編輯或移除資訊屏障原則，請參閱[編輯（或移除）資訊屏障原則](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-edit-segments-policies.md)
+- 若要編輯或移除資訊屏障原則，請參閱[編輯（或移除）資訊屏障原則](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-edit-segments-policies)。

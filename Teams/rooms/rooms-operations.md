@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 請閱讀本主題，以瞭解 Microsoft 團隊聊天室（即新一代 Skype 房間系統）的管理。
-ms.openlocfilehash: 5368df53e7617f602265071a66f7b871c6b88f66
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 1fecf852c11e7ab89e0cdc7dc6caf615182e7d5f
+ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825864"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43157757"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft 團隊會議室維護和作業 
  
@@ -31,10 +31,10 @@ Microsoft [團隊聊天室] 是 Microsoft 的最新會議解決方案，旨在�
 ## <a name="collecting-logs-on-microsoft-teams-rooms"></a>在 Microsoft 團隊聊天室收集記錄
 <a name="Logs"> </a>
 
-若要收集記錄，您必須呼叫由 Microsoft 團隊聊天室應用程式隨附的記錄集合腳本。 在 [系統管理模式] 中，啟動提升許可權的命令提示字元，然後發出下列命令：
+若要收集記錄，您必須呼叫由 Microsoft 團隊聊天室應用程式隨附的記錄集合腳本。 在 [系統管理模式] 中，啟動提升許可權的 PowerShell 提示，然後發出下列命令：
   
 ```PowerShell
-powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1
+c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1 -ExecutionPolicy unrestricted
 ```
 
 在 c:\rigel. 中，會將記錄輸出為 ZIP 檔案
@@ -84,7 +84,7 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 使用群組原則來傳送檔案將在 [[設定檔案專案](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)] 中討論。
 
 > [!NOTE]
-> 當 Microsoft 團隊聊天室裝置與下一版的 Windows 10 OS 相容時，裝置會透過 Windows Update 自動更新至下一個版本。 Microsoft 團隊聊天室裝置不應升級至 Windows 10 的下一次發行，或透過啟用商務用 Windows Update （WUFB）群組原則，選取您想要接收之更新的 Windows 就緒層級，以及 [在預覽組建時選取] 和[透過 GPO 接收功能更新]。 已啟用這些群群組原則的裝置已知會遇到 Microsoft 小組聊天室 app 的 Windows 10 OS 更新問題。
+> 當 Microsoft 團隊聊天室裝置與下一版的 Windows 10 OS 相容時，裝置會透過 Windows Update 自動更新至下一個版本。 Microsoft 團隊聊天室裝置不應升級至 Windows 10 的下一次發行，或透過啟用商務用 Windows Update （WUFB）群組原則，選取您想要接收之更新的 Windows 就緒層級，然後透過 GPO 選取何時接收預覽版和功能更新。 已啟用這些群群組原則的裝置已知會遇到 Microsoft 小組聊天室 app 的 Windows 10 OS 更新問題。
 
 ## <a name="remote-management-using-powershell"></a>使用 PowerShell 進行遠端系統管理
 <a name="RemotePS"> </a>
