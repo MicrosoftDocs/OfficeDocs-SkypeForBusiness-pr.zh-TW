@@ -1,5 +1,5 @@
 ---
-title: 選擇在整個組織推出 Microsoft Teams 的路徑
+title: 選擇在整個組織推出的路徑
 author: lolajacobsen
 ms.author: lolaj
 manager: serdars
@@ -17,12 +17,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b4c1a936108a12d4fd5d633a79fe2b37c5bd1542
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: cbbec12b48560b39a3db385b42eb412d5099333f
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837023"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136703"
 ---
 # <a name="choose-a-path-to-your-organization-wide-rollout-of-microsoft-teams"></a>選擇在整個組織推出 Microsoft Teams 的路徑
 

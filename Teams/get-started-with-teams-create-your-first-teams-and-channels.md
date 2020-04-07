@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft Teams 中建立您的首批團隊和頻道
+title: 建立您的首批團隊和頻道
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -16,12 +16,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d84d4afaabdcfd5f8b548eb938d5aa9757d4c038
-ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 79fc1bc2a415ae59cd581f7fdde11be8972311a2
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42796036"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136793"
 ---
 # <a name="create-your-first-teams-and-channels-in-microsoft-teams"></a>在 Microsoft Teams 中建立您的首批團隊和頻道
 
@@ -33,7 +34,7 @@ ms.locfileid: "42796036"
 
 若要深入了解，請參閱[團隊和頻道概觀](teams-channels-overview.md)和[在 Teams 中組織團隊的最佳做法](best-practices-organizing.md)。
 
- 我們建議您使用「了解 Teams」團隊，讓您的早期採用者試用、提問及探索 Teams 的功能。 開始試用 Teams 時，此團隊對您的成功至關重要。 
+ 我們建議您使用「了解 Teams」團隊開始，讓您的早期採用者試用、提問及探索 Teams 的功能。 開始試用 Teams 時，此團隊對您的成功至關重要。 
 
 ### <a name="get-to-know-teams-team"></a>「了解 Teams」團隊
 您的專案團隊可使用「了解 Teams」團隊，以確保設定 Teams 用戶端、進行初始交談，以及探索 Teams 的功能。 您的組織中可能已有一群搶先使用新功能的人員。 這可以是他們開始使用時的初始團隊，並協助您提早獲得意見反應。
