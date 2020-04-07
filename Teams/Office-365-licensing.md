@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 012a45c679faef7e547b5017590c7b81c577dde5
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: d0a6c14c3fba7e5a303200499c4d158edfb56473
+ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834323"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43170361"
 ---
 <a name="office-365-licensing-for-microsoft-teams"></a>Microsoft 團隊的 Office 365 授權
 ========================================
@@ -44,13 +44,13 @@ ms.locfileid: "41834323"
 如需取得團隊的詳細資訊，請參閱[如何取得 Microsoft 團隊的存取權？](https://support.office.com/article/How-do-I-get-access-to-Microsoft-Teams-fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
 > [!NOTE]
-> 團隊也適用于非盈利性組織。 小組將于7月17日開始推出美國政府雲端共同體（GCC），並在2018年8月結束後供所有符合資格的客戶使用。 我們正致力於將 Microsoft 團隊推向其他美國政府群（GCC 高級版和 DoD）即將推出。 請參閱 Microsoft[團隊博客中](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-will-be-available-July-17-for-the-US-Government/ba-p/209976)的詳細資訊。
+> 團隊也適用于非盈利性組織。
 
 > [!NOTE]
 > 從2019年8月開始，所有新的 Office 365 客戶將會 onboarded 給小組，而且將無法存取商務用 Skype Online。 已在使用商務用 Skype Online 的租使用者將能夠繼續進行（包括預配新使用者），直到他們完成向小組的轉換。 若要深入瞭解，請參閱[Microsoft 團隊現在是會議的主要客戶，以及 Office 365 中的通話](https://support.microsoft.com/help/4465277/microsoft-teams-now-the-primary-client-for-meetings-and-calling)。
 
 > [!NOTE]
-> 如果應用程式中的商務用 Skype Online 列在已選取的授權，請勿將它移除。 如果清單並移除，小組使用者設定將無法順利完成。 
+> 如果應用程式中的商務用 Skype Online 列在已選取的授權，請勿將它移除。 如果清單並移除，小組使用者設定將無法順利完成。
         
 就小組核心功能而言，Office 365 訂閱之間沒有任何差異。 相容性功能的可用性不依賴正確的訂閱等級。 若要深入瞭解，請參閱[小組中安全性與合規性的概覽](security-compliance-overview.md)。 如需每個訂閱中可用功能的詳細清單，請參閱[Office 365 平臺服務說明](https://technet.microsoft.com/library/office-365-platform-service-description.aspx)。
 

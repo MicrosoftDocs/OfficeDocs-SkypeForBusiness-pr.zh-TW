@@ -19,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 37f01b5de9fc5ffd56d703c73e60c3ed55f50b6d
-ms.sourcegitcommit: c70778ea3a29834f62e6ef96053b5540803acc6a
+ms.openlocfilehash: 5289abbafb217b60d6ba55af12454a44d11ce7f5
+ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43153287"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43170489"
 ---
 > [!IMPORTANT]
 > Teams 服務模型可能會有所變更，以改善客戶體驗。 例如，預設存取權或重新整理權杖到期時間可能會修改，以提升使用 Teams 的效能與驗證復原能力。 任何此類變更的目標都是讓 Teams 保持安全且從設計上值得信賴。
@@ -63,7 +63,7 @@ Teams 會執行 Azure DDOS 網路保護，並對來自相同端點、子網路�
 
 當攻擊者獲得網路中資料路徑的存取權，並有能力監視及讀取流量時，就可能發生竊聽。 這種攻擊也稱為探查或窺探。 如果流量是純文字，攻擊者就能在獲得路徑的存取權時讀取流量。 藉由控制資料路徑上的路由器來執行攻擊便是其中一例。
 
-Teams 會使用相互 TLS (MTLS) 讓伺服器在 O365 中通訊，並使用 TLS 來進行用戶端到服務的通訊，而讓這種攻擊很難達到要攻擊給定交談所需的一段時間。 TLS 會對各方實施驗證，並加密所有流量。 這雖然不會妨礙竊聽，但除非加密遭到破解，否則攻擊者將無法讀取流量。 新增 OAuth 區段/行。
+Teams 會使用相互 TLS (MTLS) 讓伺服器在 O365 中通訊，並使用 TLS 來進行用戶端到服務的通訊，而讓這種攻擊很難達到要攻擊給定交談所需的一段時間。 TLS 會對各方實施驗證，並加密所有流量。 這雖然不會妨礙竊聽，但除非加密遭到破解，否則攻擊者將無法讀取流量。
 
 TURN 通訊協定可用於即時媒體用途。 TURN 通訊協定不會要求流量必須加密，而是會透過郵件完整性來保護所傳送的資訊。 此通訊協定雖對竊聽不設防，但其所傳送的資訊 (也就是 IP 位址和連接埠) 只要藉由查看封包的來源和目的地位址，就能直接擷取到。 Teams 服務可確保資料的有效性，其方法是使用衍生自少數幾個項目、絕對不會以純文字傳送的金鑰 (包括 TURN 密碼) 來檢查郵件的完整性。 SRTP 則可用於媒體流量，而且也會進行加密。
 

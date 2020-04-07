@@ -16,12 +16,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 使用 Power BI 來分析 Microsoft 團隊的 CQD 資料。
-ms.openlocfilehash: 374f0da0342e5fbd50a7a27b9dde49acf605a23d
-ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
+ms.openlocfilehash: af540f09fefc27b99e1c084d2571fe51d47a393c
+ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43053506"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43170501"
 ---
 # <a name="use-power-bi-to-analyze-cqd-data-for-microsoft-teams"></a>使用 Power BI 來分析 Microsoft 團隊的 CQD 資料
 
@@ -34,13 +34,13 @@ ms.locfileid: "43053506"
 
 |  |  |
 |---------|---------|
-|CQD 支援人員報告 .pbix     |整合建立與 EUII 資料時，此報告的設計目的是讓您從單一使用者向上切入，找出該使用者的通話品質差的上游根本原因（例如，使用者在遇到網路問題的建築物中）。         |
-|CQD 位置增強的報表 .pbix     | 重新 imagining CQD 的 SPD 位置報告。 包括9個報告、提供通話品質、建立 WiFi、可靠性，以及透過透過建立或使用者進行額外的 thrus 來評價我的通話（RMC）資訊。        |
-|CQD 行動裝置報表 .pbix     | 提供專門針對行動裝置使用者進行調整的深入資訊，包括通話品質、可靠性及評級我的通話。 查看行動網路、WiFi 網路及行動作業系統報告（Android、iOS）。        |
-|CQD PSTN 直向路由報告 .pbix     |提供穿過直接路由的 PSTN 呼叫的深入見解。 若要深入瞭解，請[使用 CQD PSTN Direct 路由報告](CQD-PSTN-report.md)進行閱讀。         |
-|CQD 摘要報表 .pbix     |更好的視覺效果、改良的簡報、增加的資訊密度，以及滾動日期。 這些報告可讓識別碼的離群更容易。 使用便於使用的互動式地圖，透過位置深化通話品質。 9個新的報表：</p>整體品質<br>-整體可靠性<br>-RMC （費率通話）整體<br>-會議品質<br>-P2P 品質<br>-會議可靠性<br>-P2P 可靠性<br>-會議 RMC<br>-P2P RMC         |
-|<strong>（新增！）</strong>CQD 團隊使用方式報表 .pbix     | 顯示貴組織中的使用者如何使用團隊以及多少。 若要深入瞭解，請參閱[使用 CQD POWER BI 報表來查看 Microsoft 團隊的利用率](CQD-teams-utilization-report.md)。        |
-|CQD 使用者意見反應（比率我的通話）報表 .pbix     | 顯示使用您可以輕鬆地協助支援您組織通話的方式，為我的通話資料打分。 與 verbatims 進行交叉參照，以找出使用者的教育機會。        |
+|CQD 支援人員報告。 pbit     |整合建立與 EUII 資料時，此報告的設計目的是讓您從單一使用者向上切入，找出該使用者的通話品質差的上游根本原因（例如，使用者在遇到網路問題的建築物中）。         |
+|CQD 位置增強的報表。 pbit     | 重新 imagining CQD 的 SPD 位置報告。 包括9個報告、提供通話品質、建立 WiFi、可靠性，以及透過透過建立或使用者進行額外的 thrus 來評價我的通話（RMC）資訊。  請確定您上傳的是組建資料，以最大化您的報表體驗。        |
+|CQD 行動裝置報告。 pbit     | 提供專門針對行動裝置使用者進行調整的深入資訊，包括通話品質、可靠性及評級我的通話。 查看行動網路、WiFi 網路及行動作業系統報告（Android、iOS）。        |
+|CQD PSTN 直向路由報告。 pbit     |提供穿過直接路由的 PSTN 呼叫的深入見解。 若要深入瞭解，請[使用 CQD PSTN Direct 路由報告](CQD-PSTN-report.md)進行閱讀。         |
+|CQD 摘要報表。 pbit     |更好的視覺效果、改良的簡報、增加的資訊密度，以及滾動日期。 這些報告可讓識別碼的離群更容易。 使用便於使用的互動式地圖，透過位置深化通話品質。 9個新的報表：</p>整體品質<br>-整體可靠性<br>-RMC （費率通話）整體<br>-會議品質<br>-P2P 品質<br>-會議可靠性<br>-P2P 可靠性<br>-會議 RMC<br>-P2P RMC         |
+|<strong>（新增！）</strong>CQD [團隊利用率] 報表。 pbit     | 顯示貴組織中的使用者如何使用團隊以及多少。 請確定您上傳的是組建資料，以最大化您的報表體驗。 若要深入瞭解，請參閱[使用 CQD POWER BI 報表來查看 Microsoft 團隊的利用率](CQD-teams-utilization-report.md)。        |
+|CQD 使用者意見反應（評級我的通話）報告。 pbit     | 顯示使用您可以輕鬆地協助支援您組織通話的方式，為我的通話資料打分。 與 verbatims 進行交叉參照，以找出使用者的教育機會。        |
 
 > [!TIP]
 > 在您設定 Power BI 報表以取得 CQD 資料後，請將其新增為頻道的索引標籤。 選取**+** 頻道之後，請選取 [ **Power BI** ]，然後尋找您的報表。 請記住，只有具備 Power BI 授權及 CQD 管理員認證的人員才能存取這些報告。

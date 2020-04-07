@@ -3,7 +3,6 @@ title: 免費升級 Microsoft 團隊 Office 365 訂閱
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 12/20/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ''
@@ -20,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6019491c7e72e91c9f3cfbcaec8a4c60ae297c14
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 92bb76f58983e4605d5a1be147bb898aee1a5832
+ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139642"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43170521"
 ---
 # <a name="upgrade-microsoft-teams-free-to-office-365-subscription-version"></a>免費升級 Microsoft 團隊 Office 365 訂閱版本
 ======================================================
@@ -39,7 +38,7 @@ ms.locfileid: "43139642"
 
 [團隊免費版] 是專為中小型企業設計的，具有下列功能：
 
-- 300使用者數目上限
+- 500000使用者數目上限
 - 無限制交談訊息與搜尋
 - 來賓存取
 - 與應用程式和服務整合，包括線上版的 Word、Excel、PowerPoint 和 OneNote

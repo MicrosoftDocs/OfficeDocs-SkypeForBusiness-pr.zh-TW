@@ -17,12 +17,12 @@ description: 瞭解如何在 Microsoft 團隊系統管理中心的 [管理應用
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 532129792dd35a2b016510094f1b08beade1b32a
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 5e261dfd6f23ec298e354a7732a9a1afa9d6b22e
+ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136843"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43170551"
 ---
 <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>在 Microsoft 團隊系統管理中心管理您的應用程式
 ======================================================
@@ -68,6 +68,9 @@ ms.locfileid: "43136843"
 若要允許或封鎖應用程式，請選取它，然後按一下 [**允許**] 或 [**封鎖**]。 當您封鎖 app 時，所有與該 app 的互動都會停用，而且該 app 不會出現在小組中您組織中的任何使用者。
 
 當您封鎖或允許 [**管理應用程式**] 頁面上的應用程式時，該應用程式會遭到封鎖，或您組織中的所有使用者都能使用該 app。  當您在小組 app 許可權原則中封鎖或允許應用程式時，系統會封鎖或允許指派該原則的使用者。 若要讓使用者能夠安裝任何 app 並與之互動，您必須在 [**管理應用程式**] 頁面上，或已指派給使用者的 app 許可權原則中，允許該應用程式位於組織層級。
+
+ > [!NOTE]
+ > 若要卸載應用程式，請以滑鼠右鍵按一下應用程式，然後按一下 [**卸載**]，或使用左側端的 [**其他應用程式**] 功能表。 
 
 ## <a name="manage-org-wide-app-settings"></a>管理整個組織內的應用程式設定
 
