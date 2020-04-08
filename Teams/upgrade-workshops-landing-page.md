@@ -18,18 +18,17 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c272ce29a73b66af2eee03a04469a90b1e34bf64
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 38960039c34c8fae0838b07ebea5b9581b63c297
+ms.sourcegitcommit: c70778ea3a29834f62e6ef96053b5540803acc6a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141036"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43153288"
 ---
 <div id="main" class="v2">
     <div class="container">
         <h1>Teams 升級規劃研討會</h1>
-           <p>身為重要商務用 Skype 客戶的您，我們想要確保您在瀏覽 Teams 時擁有所需的資訊。 請加入我們一系列的即時互動式升級規劃研討會，我們將在中分享指導方針、最佳做法和資源，以協助您規劃和實作升級至 Teams。 若要獲得最佳體驗，請從下方的<strong>規劃您的升級</strong>工作階段開始。
-           <p>若要在工作以外的時間自行檢視這些研討會，請造訪 YouTube 上的 <a href="https://aka.ms/UpgradeOnDemand"target="_blank">Teams 升級規劃</a>。
+           <p>身為重要商務用 Skype 客戶的您，我們想要確保您在瀏覽 Teams 時擁有所需的資訊。 請加入我們一系列的即時互動式升級規劃研討會，我們將在中分享指導方針、最佳做法和資源，以協助您規劃和實作升級至 Teams。 若要獲得最佳體驗，請從下方的<strong>規劃您的升級</strong>工作階段開始。 若要在工作以外的時間自行檢視這些研討會，請造訪 YouTube 上的<a href="https://aka.ms/UpgradeOnDemand"target="_blank">升級至 Microsoft Teams</a>。
             <p>Teams 的新使用者嗎？ 按一下<a href="https://docs.microsoft.com/microsoftteams/teams-overview">這裡</a>深入了解。
         <ul class="pivots">
             <li>

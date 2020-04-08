@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 使用本指導方針來協助組織中的遠端工作者使用 Microsoft Teams 來提高生產力，尤其是當他們在家中工作 (WFH) 時，以因應 COVID-19 (冠狀病毒) 爆發的情況。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8ea77e0c672ffd15adcb5bc63aa77bd45d4b3604
-ms.sourcegitcommit: 1bb3df681177db5ecc6afae3d3f3a46c251e5c23
+ms.openlocfilehash: c5c359ebf1efd20d9a1db41ddf19f39240826b77
+ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43117506"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43157776"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>支援使用 Microsoft Teams 的遠端工作者
 
@@ -33,7 +33,7 @@ ms.locfileid: "43117506"
 
 -  如果您已擁有包含 Teams 的訂閱，請**[為每個人開啟](assign-teams-licenses.md)**。
     
-- 了解如何讓組織開始使用 **[Teams 中的會議](https://docs.microsoft.com/MicrosoftTeams/tutorial-meetings-in-teams)**。 
+- 了解如何讓組織開始使用 **[Teams 中的會議和即時活動](quick-start-meetings-live-events.md)**。 
 
 如需詳細資訊，請參閱下方[支援遠端工作者的其他資源](#additional-resources-for-supporting-remote-workers) (英文)。
 
