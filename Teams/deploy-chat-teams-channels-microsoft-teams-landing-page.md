@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.quickstartteamsadmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f8259b8a06a4601ff7feebca53c06f268bdc08c5
-ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
+ms.openlocfilehash: 0c6cd94f5d7205b438396dcb09ebb047a49b8f2e
+ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42796016"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43170591"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams 中的聊天、團隊、頻道和應用程式
 
@@ -97,6 +97,10 @@ Teams 提供了一組自訂管理員角色，可用來為組織管理 Teams。 �
 ### <a name="guest-access"></a>來賓存取
 
 Teams 中的來賓存取可讓組織外部的個人存取團隊和頻道。 您可使用來賓存取設定來控制來賓使用者可否使用的功能。 來賓存取依預設為關閉。 若要深入了解，請參閱 [Teams 中的來賓存取](https://docs.microsoft.com/microsoftteams/guest-access)。
+
+> [!NOTE]
+> 若要深入了解外部存取和來賓存取，請參閱這裡 - [在 Microsoft Teams 中與其他組織的使用者通訊](communicate-with-users-from-other-organizations.md)。
+
 
 |問問自己|動作 |
 |------------|-------|

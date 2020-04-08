@@ -17,12 +17,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3ec86d9f57afca71624263d1cbd6ca212b8093dd
-ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
+ms.openlocfilehash: 65ce8eb17efe434f5da288b89485e813b21190e4
+ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43157937"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43170482"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>系統管理員快速入門 - Microsoft Teams 的會議和即時活動
 
@@ -55,6 +55,8 @@ Microsoft Teams 有 2 個集會方式 - 會議和即時活動。 請使用此文
 
 - 身為系統管理員，您要設定每個人的[會議設定](meeting-settings-in-teams.md)。 接著，您可以使用[會議原則](meeting-policies-in-teams.md)控制使用者可以使用 (和不可以使用) 哪些會議功能。 
 
+- 若要了解如何管理會議錄製，請參閱 [Teams 雲端會議錄製](cloud-recording.md)。
+
 - 如果使用者是 Teams 會議的新手，請與新手們共用[管理會議](https://support.office.com/article/join-a-teams-meeting-078e9868-f1aa-4414-8bb9-ee88e9236ee4)訓練。 請查看由講師帶領的線上課程，[透過 Teams 進行有效會議](https://microsoftteams.eventbuilder.com/MaximizingTeamsMeetings)。
 
 - 若要深入了解管理會議的選項，請參閱[變更團隊會議的參與者設定](https://support.microsoft.com/office/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e)。
@@ -78,3 +80,5 @@ Microsoft Teams 有 2 個集會方式 - 會議和即時活動。 請使用此文
 [Teams 的即時活動](teams-live-events/what-are-teams-live-events.md)
 
 [Teams 的限制和規格](limits-specifications-teams.md)
+
+[Microsoft 技術社群：Microsoft 365 中的即時活動](https://resources.techcommunity.microsoft.com/live-events/)
