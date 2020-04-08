@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 本文將討論 Microsoft 團隊聊天室的生命週期支援。
-ms.openlocfilehash: e5142d23d9f57a6ca50bcdb348378084afffd86b
-ms.sourcegitcommit: 1bb3df681177db5ecc6afae3d3f3a46c251e5c23
+ms.openlocfilehash: 27610cd7a7ed5c2bca1fcb118b3687149d2872d0
+ms.sourcegitcommit: a610bfe9c0192432744dfaf8d5ff5c2bb5a16b00
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43117521"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43190824"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Microsoft 團隊聊天室 app 版本支援
  
@@ -59,7 +59,7 @@ Microsoft 團隊聊天室需要 Windows 10 IoT Enterprise 或 Windows 10 企業�
 | 1709 |2018-01-18 |不支援                         |&#x2014; |&#x2014; |
 | 1703 |2017-07-11 |不支援                         |&#x2014; |&#x2014; |
 
-由於在 Microsoft 團隊聊天室應用程式中發現相容性問題，因此建議您 &#x2781; Windows 10 1809 版本。 此特定問題會導致在夜間重新開機後，Microsoft 團隊聊天室應用程式無法啟動。 此問題已在 Windows 10 1903 版本中解決。  
+由於在 Microsoft 團隊聊天室應用程式中發現相容性問題，因此建議您 &#x2780; Windows 10 版本1809。 此特定問題會導致在夜間重新開機後，Microsoft 團隊聊天室應用程式無法啟動。 此問題已在 Windows 10 版本1903中解決。  
 
 當您使用受支援版本的 Windows 10 時，您將永遠會取得 Microsoft 團隊聊天室 app 的最新應用程式更新。  
 

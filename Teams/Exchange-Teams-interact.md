@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 68468455da96fc3b2790a832b6732d7211bd7733
-ms.sourcegitcommit: dc6108917392754d950cea47b92f871211bf4212
+ms.openlocfilehash: d97f92b56b4a3e38489b1f99f8ba25497485495f
+ms.sourcegitcommit: a610bfe9c0192432744dfaf8d5ff5c2bb5a16b00
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43131141"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43191240"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 與 Microsoft 團隊如何互動
 
@@ -36,7 +36,7 @@ ms.locfileid: "43131141"
 
 以 Exchange Online 專用（舊版）託管的使用者必須同步處理到 Office 365 上的 Azure Active Directory。 他們可以建立及加入團隊與頻道、新增及設定索引標籤和機器人，以及利用聊天與通話功能。 不過，他們無法修改個人檔案圖片、管理會議、存取 outlook 連絡人或管理連接器。
 
-擁有內部部署之信箱的使用者必須同步處理到 Azure Active Directory。 他們可以使用上述案例中的所有功能，此外還可以變更使用者設定檔圖片（如果 Outlook 網頁版信箱原則允許他們這麼做），以及管理會議，提供 Exchange Server 2016 （累加更新3）或更新版本，都是在內部部署執行。
+擁有內部部署之信箱的使用者必須同步處理到 Azure Active Directory。 他們可以使用上述案例中的所有功能，此外，他們也可以變更使用者設定檔圖片（如果 Outlook 網頁版信箱原則允許他們這麼做），以及管理會議（如果您是透過混合式設定向導2016提供）與 OAuth 設定的內部部署（最好是透過混合式設定精靈）。
 
 下表提供根據 Exchange 環境的功能可用性的實用快速參考。
 
@@ -48,7 +48,7 @@ ms.locfileid: "43131141"
 |**Exchange Online**|是<sup>2</sup>|是<sup>2</sup>|是|是|是|是<sup>8</sup>|是|是|是<sup>7</sup>|是|是|是|是|
 |**Exchange Online 專用 vNext**|是<sup>2</sup>|是<sup>2</sup>|是|是|是|是<sup>8</sup>|是|是|是<sup>7</sup>|是|是|是|是|
 |**Exchange Online 專用–傳統**版（需要同步處理到 Azure AD）|是<sup>2</sup>|是<sup>2、3</sup>|是<sup>4|是|否|否|是|是|否|是<sup>5|是<sup>6|是|是|
-|**Exchange 內部部署**（需要同步處理到 Azure AD）|是<sup>2</sup>| 是<sup>2、3</sup> |是<sup>4|是|是（Exchange 2016 CU3 +）|是<sup>8</sup> （EXCHANGE 2016 CU3 +）|是|是|否|是<sup>5|是<sup>6|是|是|
+|**Exchange 內部部署**（需要同步處理到 Azure AD & OAuth 配置）|是<sup>2</sup>| 是<sup>2、3</sup> |是<sup>4|是|是（Exchange 2016 CU3 +）|是<sup>8</sup> （EXCHANGE 2016 CU3 +）|是|是|否|是<sup>5|是<sup>6|是|是|
 
 支援<sup>1</sup>個 EXCHANGE 2016 CU3 及以上版本。  
 

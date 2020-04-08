@@ -19,17 +19,17 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d630ea41915cb89013e407a6fa0b1cc21cb21abf
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 80400d9e9d7ab1519a15ab299f07896f55342eaf
+ms.sourcegitcommit: a610bfe9c0192432744dfaf8d5ff5c2bb5a16b00
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137433"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43190871"
 ---
 <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>直接從 Teams 回答自動語音應答和通話佇列的通話
 ===========================================================
 
-團隊使用者可以從雲端自動語音應答並直接從其小組用戶端呼叫佇列來接收和接聽通話。 針對團隊使用者，現在可以使用自動語音應答功能，而且通話佇列功能是在預覽中。 
+團隊使用者可以從雲端自動語音應答並直接從其小組用戶端呼叫佇列來接收和接聽通話。
 
 ## <a name="what-are-auto-attendants-and-call-queues"></a>什麼是自動語音應答及呼叫佇列？
 
