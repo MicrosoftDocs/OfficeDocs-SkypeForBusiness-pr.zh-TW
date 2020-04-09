@@ -16,15 +16,19 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fd01a781cfb5a928e4d14e64d45789b4f023648d
-ms.sourcegitcommit: 3ddb28e085a89501e4e64687de4697f82f47f119
+ms.openlocfilehash: 6b6f0b27c80baf62d85d3791982965a26f4353f9
+ms.sourcegitcommit: 273d7565ad350bf97dbf035f148fd48b1cb04d4f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "43027673"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43194843"
 ---
 <a name="microsoft-teams-resources-for-education-admins"></a>適用於 Microsoft Teams 教育版管理員的資源
 ==============================================
+
+## <a name="resources-for-remote-learning"></a>遠端學習的資源
+
+您的學校或大學是否需要啟用 Microsoft 團隊進行遠端學習？ 快速開始使用「快速入門」，以及下列任何[一](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true)項採用的資料！
 
 ## <a name="adoption-content"></a>採用內容
 
@@ -61,7 +65,7 @@ ms.locfileid: "43027673"
 
 - [團隊藍圖](https://aka.ms/teamsroadmap)
 - 使用我們的[技術社區博客](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog)掌握最新資訊
-- [團隊 PowerShell 概覽](teams-powershell-overview.md)
+- [Teams PowerShell 概觀](teams-powershell-overview.md)
 - [傳送建議](https://aka.ms/eduuservoice)
 - [聯絡客戶支援](https://aka.ms/o365portal)
 - [詢問團隊社區](https://aka.ms/msteamscommunity)
