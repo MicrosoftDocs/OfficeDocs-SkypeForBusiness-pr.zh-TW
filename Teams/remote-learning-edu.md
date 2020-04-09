@@ -18,18 +18,19 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 15e84c6e5d7d205910be982eb0688143cd14abfa
-ms.sourcegitcommit: dc6108917392754d950cea47b92f871211bf4212
+ms.openlocfilehash: 0358e23f4f549aba6064a78d95f7ce160bb738b0
+ms.sourcegitcommit: 1c2cef3deb384216bf0a89628573a277ee6e3e2b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43131221"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43174955"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>開始使用 Microsoft Teams 進行遠端學習
 
 > [!NOTE]
-> 本文是為學校設定遠端學習的絕佳資源。 如果您是授課者或學校主管，這些資源可能會有所幫助：
+> 本文是為學校設定遠端學習的絕佳資源。 如果您是教育人士、學校主管或 IT 專業人員，這些資源可能會有所幫助：
 >
+> - 下載[**如何開始使用 Teams**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Teams-for-Education-ITAdmin-get-started-guide.pptx?raw=true)：適用於 IT 專業人員的指南，其中包含有關安全性和變更管理的實用作法。
 > - 專為授課者撰寫的文章集合，包括最重要之[**在 Teams 中教學首要步驟**](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114)的使用方法指南。
 > - Microsoft 教育工作者中心的 1 小時線上課程，說明授課者如何在其專業領域中使用 Teams。 [**使用 Microsoft Teams 轉換學習**](https://education.microsoft.com/course/9c9f5c11/overview)。
 > - Microsoft 教育工作者中心的 1 小時線上課程，引導授課者在班級 團隊中進行教學。 [**使用班級 Teams 營造共同學習環境**](https://education.microsoft.com/course/b1e15cfc/overview)。
@@ -80,7 +81,7 @@ Microsoft Teams 隨附於 Office 365 A1 中，教育機構可免費試用。 如
 **中小學學校學生**可能需要為學生提供受限制的功能。 原則會設定學生可以執行動作的範圍。 因為學生人口通常是最大的使用者集合，而且通常會取得最受限制的設定，建議您將學生原則變更為 [全域 (全組織預設)] 原則。
 
 > [!IMPORTANT]
-> 對於指派給任何使用者的會議原則，我們建議您將「自動系統管理員」設定設為「組織中的所有人」。 此設定可確保未驗證的使用者必須先在大廳獲准後才能加入 Teams 會議。 如需詳細資訊，請參閱 [Teams 管理會議原則][。
+> 對於指派給任何使用者的會議原則，我們建議您將「自動系統管理員」設定設為「組織中的所有人」。 此設定可確保未驗證的使用者必須先在大廳獲准後才能加入 Teams 會議。 如需詳細資訊，請參閱 [Teams 管理會議原則][](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#automatically-admit-people)。
 
 以下是一組常見的非預設原則組態，可指派給中小學學生以限制學生之間的未經仲裁通訊：
 
@@ -149,7 +150,7 @@ Microsoft Teams 教育版提供[特定類型的 Teams](https://support.office.co
 
 ### <a name="prevent-users-from-changing-their-profile-photo"></a>防止使用者變更其個人資料相片
 
-Teams 接受由租用戶管理員設定的 [Outlook 網頁版信箱原則][ 設定，來控制使用者是否可以變更個人資料相片。 如果 [-SetPhotoEnabled]** 設定為關閉狀態，使用者將無法新增、變更或移除他們的個人資料相片。 若要防止學生或教職員變更或移除個人資料相片，請在指派給其 Outlook 網頁版信箱原則中關閉這項設定。
+Teams 接受由租用戶管理員設定的 [Outlook 網頁版信箱原則][](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy) 設定，來控制使用者是否可以變更個人資料相片。 如果 [-SetPhotoEnabled]**** 設定為關閉狀態，使用者將無法新增、變更或移除他們的個人資料相片。 若要防止學生或教職員變更或移除個人資料相片，請在指派給其 Outlook 網頁版信箱原則中關閉這項設定。
 
 例如，如果學生上傳由您學校 IT 或人力資源部門核准的個人資料相片，其則不需要採取任何動作。 然而，如果學生上傳了不適當的相片，則請根據您學校的內部政策變更相片。  
 

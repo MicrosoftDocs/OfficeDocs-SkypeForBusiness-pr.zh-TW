@@ -19,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5289abbafb217b60d6ba55af12454a44d11ce7f5
-ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
+ms.openlocfilehash: d2aded83cf92a98aaaa1b01fdedab695013dac8e
+ms.sourcegitcommit: 1c2cef3deb384216bf0a89628573a277ee6e3e2b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 04/07/2020
-ms.locfileid: "43170489"
+ms.locfileid: "43174965"
 ---
 > [!IMPORTANT]
 > Teams 服務模型可能會有所變更，以改善客戶體驗。 例如，預設存取權或重新整理權杖到期時間可能會修改，以提升使用 Teams 的效能與驗證復原能力。 任何此類變更的目標都是讓 Teams 保持安全且從設計上值得信賴。
@@ -125,6 +125,9 @@ TLS 可讓使用者透過其用戶端軟體來驗證其連線的 Teams 伺服器
 伺服器對伺服器的連線會仰賴相互 TLS (MTLS) 來進行相互驗證。 在 MTLS 連線中，產生訊息的伺服器和接收訊息的伺服器會交換雙方都信任的 CA 所核發的憑證。 憑證可讓伺服器雙方證明彼此的身分識別。 Teams 服務會遵循此程序來進行。
 
 TLS 和 MTLS 可同時防範竊聽和中間人攻擊。 發生中間人攻擊時，攻擊者會在網路實體雙方不知情的情況下，透過攻擊者的電腦來重新路由傳送兩者之間的通訊。 TLS 與 Teams 的信任伺服器規格透過在兩個端點之間使用公開金鑰加密來進行加密協調，部分緩解了應用程式層受到中間人攻擊的風險。 攻擊者必須擁有對應私密金鑰的有效且受信任的憑證，並核發給用戶端正在通訊的服務名稱，才能解密通訊。
+
+> [!NOTE]
+> Teams 資料會在傳輸和待用時加密。 Microsoft 使用了業界標準技術 (例如 TLS 和 SRTP) 來加密在使用者裝置和 Microsoft 資料中心之間，以及在 Microsoft 資料中心之間傳輸的所有資料。 其中包括郵件、檔案、會議及其他內容。 我們也會在 Microsoft 資料中心中加密待用的企業資料，並以一種允許組織根據需要解密內容的方式來履行其安全性和合規性義務，例如電子文件探索。
 
 ### <a name="encryption-for-teams"></a>Teams 的加密
 
