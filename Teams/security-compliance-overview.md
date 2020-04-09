@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 922489b421a819554ae680cf70ab2df6a21b2aed
-ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
+ms.openlocfilehash: 66ef35a8a8235507e4d87a7b9c4da7625a939770
+ms.sourcegitcommit: 9419860f9a1c1dd2c7c444162e1d55d704e19c69
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43157626"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43207002"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Microsoft 團隊中的安全性與合規性
 
@@ -36,7 +36,7 @@ ms.locfileid: "43157626"
 >  - 更新2020年4月2日：[團隊安全性指南](teams-security-guide.md)
 
 
-Microsoft 團隊是以 Office 365 超規模、企業級的雲端為基礎，提供客戶預期的高級安全性與合規性功能。 如需在 O365 中規劃安全性的詳細資訊，請參閱我們的 O365 內容。 [O365 安全性藍圖](https://docs.microsoft.com/microsoft-365/security/office-365-security/security-roadmap)是一個不錯的開始位置。 如需在 O365 中規劃合規性的詳細資訊，您可以從[安全性與合規性](https://docs.microsoft.com/microsoft-365/compliance/plan-for-security-and-compliance)文章的規劃開始。
+Microsoft 團隊是以 Office 365 超規模、企業級的雲端為基礎，提供客戶預期的高級安全性與合規性功能。 如需在 Office 365 中規劃安全性的詳細資訊，請參閱我們的 Office 365 內容。 [Office 365 安全藍圖](https://docs.microsoft.com/microsoft-365/security/office-365-security/security-roadmap)是一個不錯的開始位置。 如需在 Office 365 中規劃合規性的詳細資訊，您可以從[安全性與合規性](https://docs.microsoft.com/microsoft-365/compliance/plan-for-security-and-compliance)文章的方案開始。
 
 
 本文將提供更多關於小組特定安全性與合規性的資訊。 不要錯過這些關於安全性與合規性的 Microsoft 規範影片：
@@ -53,7 +53,7 @@ Microsoft 團隊是以 Office 365 超規模、企業級的雲端為基礎，提�
 
 閱讀身分[識別模型與驗證](identify-models-authentication.md)，以深入瞭解驗證與團隊，以及[新式驗證運作方式將如何](sign-in-teams.md)協助新式驗證。
 
-由於團隊在與 SharePoint、OneNote、Exchange 等合作夥伴合作，因此您應該輕鬆管理 O365 中的安全性。 若要深入瞭解 Office 365 的安全性，請閱讀[設定您的 Office 365 租使用者，以提高安全性](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security)。
+由於團隊在與 SharePoint、OneNote、Exchange 等合作夥伴合作，因此您應該輕鬆管理 Office 365 中的安全性。 若要深入瞭解 Office 365 的安全性，請閱讀[設定您的 Office 365 租使用者，以提高安全性](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security)。
 
 > [!NOTE]
 > 目前，[私有通道](private-channels.md)支援有限的安全性與合規性功能。 我們即將推出私人通道中完整的安全性與合規性功能的支援。
@@ -62,11 +62,11 @@ Microsoft 團隊是以 Office 365 超規模、企業級的雲端為基礎，提�
 
 Microsoft 團隊提供高級威脅防護（ATP），以及 SharePoint 和商務用 OneDrive、與團隊進行內容管理的應用程式。 ATP 可讓您判斷這些應用程式中的內容是否具有惡意性質，並封鎖來自使用者存取的內容。
 
-在您在 O365 中選取的設定之後，受影響內容的管理方式。 我們強烈建議您在設定 ATP 時考慮所有應用程式，並進一步閱讀 [ [SharePoint 版 Office 365 ATP]、[OneDrive] 和 [Microsoft 團隊](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams)] 文章，將提供如何開始使用的詳細資訊。
+在檢測到您在 Office 365 中選取的設定之後，受影響內容的管理方式。 我們強烈建議您在設定 ATP 時考慮所有應用程式，並進一步閱讀 [ [SharePoint 版 Office 365 ATP]、[OneDrive] 和 [Microsoft 團隊](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams)] 文章，將提供如何開始使用的詳細資訊。
 
 ### <a name="safe-links"></a>安全連結
 
-不過，目前在 Microsoft 團隊中並不提供 ATP 安全連結，現在我們是透過我們的技術採納計畫（輕觸）來進行公開預覽，而且一般可用性的發行日期未設定，我們將在該時間到達時更新此文章。 同時，如需 O365 安全連結的相關資訊，請參閱[Office 365 ATP 安全連結](https://docs.microsoft.com/office365/securitycompliance/atp-safe-links#how-to-get-atp-safe-links-protection)。
+不過，目前在 Microsoft 團隊中並不提供 ATP 安全連結，現在我們是透過我們的技術採納計畫（輕觸）來進行公開預覽，而且一般可用性的發行日期未設定，我們將在該時間到達時更新此文章。 同時，如需 Office 365 安全連結的相關資訊，請參閱[office 365 ATP 安全連結](https://docs.microsoft.com/office365/securitycompliance/atp-safe-links#how-to-get-atp-safe-links-protection)。
 
 ### <a name="how-conditional-access-policies-work-for-teams"></a>條件式存取原則對於團隊的運作方式
 
@@ -98,15 +98,15 @@ Microsoft 團隊中的保留原則可讓您保留貴組織所重要的資料，�
 
 ### <a name="data-loss-prevention-dlp"></a>資料遺失防護（DLP）
 
-Microsoft 團隊中的資料遺失防護（DLP），以及 O365 較大的 DLP 故事，在在 O365 中保護機密檔和資料時，就會涉及到業務準備。 無論您是否擔心郵件或檔中的機密資訊，DLP 原則都可以協助確保您的使用者不會與錯誤的人員共用此機密資料。
+Microsoft 團隊中的資料遺失防護（DLP），以及 Office 365 較大型的 DLP 故事，在保護 Office 365 中的機密檔和資料時，就會在業務就緒中進行。 無論您是否擔心郵件或檔中的機密資訊，DLP 原則都可以協助確保您的使用者不會與錯誤的人員共用此機密資料。
 
-如需有關團隊資料遺失防範功能的詳細資訊，請參閱[Microsoft 團隊的 DLP](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams)。 O36 DLP 問題的好文章就是[https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies)。
+如需有關團隊資料遺失防範功能的詳細資訊，請參閱[Microsoft 團隊的 DLP](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams)。 O36 DLP 問題的好文章就是[資料遺失防護的概覽](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies)。
 
 ### <a name="ediscovery"></a>eDiscovery
 
 電子查詢（或 eDiscovery）是識別、收集及出具電子儲存資訊（ESI），以回應法律或調查中的生產要求的電子產品。 功能包括案例管理、保留、搜尋、分析，以及匯出團隊資料。 這包括聊天、訊息與檔案、會議和通話摘要。 針對團隊會議和通話，在會議和通話中所發生事件的摘要會在 eDiscovery 中建立並提供。
 
-如需更多關於如何在安全性 & 合規性中心中執行 O365 eDiscovery，以及執行小組內容的規範內容搜尋的詳細資訊，請參閱下列連結：
+如需有關365如何在安全性 & 合規性中心及執行合規性內容搜尋的詳細資料，請參閱下列連結：
 
 [eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/manage-legal-investigations)
 
@@ -140,7 +140,7 @@ Microsoft 團隊中的資料遺失防護（DLP），以及 O365 較大的 DLP �
 
 ### <a name="compliance-content-search"></a>合規性內容搜尋
 
-您可以使用內容搜尋，透過豐富的篩選功能搜尋所有團隊資料。 產生的資料可以匯出到特定容器，以進行合規性和訴訟支援。 您可以使用或不使用 eDiscovery 案例來完成此操作。 這可讓合規性系統管理員收集所有使用者的小組資料、審閱並匯出，以進行進一步的處理。 請參閱 O365 文章[中的 [內容搜尋](https://docs.microsoft.com/microsoft-365/compliance/content-search)]，深入瞭解如何在 Office 365 安全 & 合規性中心中進行 Microsoft 團隊及其他 O365 內容搜尋。
+您可以使用內容搜尋，透過豐富的篩選功能搜尋所有團隊資料。 產生的資料可以匯出到特定容器，以進行合規性和訴訟支援。 您可以使用或不使用 eDiscovery 案例來完成此操作。 這可讓合規性系統管理員收集所有使用者的小組資料、審閱並匯出，以進行進一步的處理。 請參閱[office 365 文章中的 [內容搜尋](https://docs.microsoft.com/microsoft-365/compliance/content-search)]，深入瞭解如何在 Office 365 安全 & 合規性中心中進行 Microsoft 團隊及其他 office 365 內容的相容性內容搜尋。
 
 > [!TIP]
 > 使用內容搜尋，您可以在必要時篩選到 Microsoft 團隊中的 [僅限交談] 和 [頻道訊息]、[會議] 和 [通話] 等內容。
@@ -149,7 +149,7 @@ Microsoft 團隊中的資料遺失防護（DLP），以及 O365 較大的 DLP �
 
 ### <a name="auditing-and-reporting"></a>審核與報告
 
-您可以在 Office 365 安全 & 合規性中心中，將審核記錄搜尋直接插入您，讓您能夠設定警報，以及報告審核事件，方法是允許匯出工作負載的特定或一般事件集，以供管理員使用，並跨無限制的審核時程表進行調查。 您可以在 Office 365 安全性 & 合規性中心] 中設定所有審計記錄資料的警示，並篩選及匯出此資料以進行進一步分析。 請參閱[搜尋審核記錄](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)文章，進一步瞭解如何進行 O365 的審核記錄。 若要深入瞭解在 Office 365 安全 & 合規性中心搜尋 Microsoft 團隊活動，我們也會在[團隊文章中開啟 [審核](audit-log-events.md)]，讓您查看。
+您可以在 Office 365 安全 & 合規性中心中，將審核記錄搜尋直接插入您，讓您能夠設定警報，以及報告審核事件，方法是允許匯出工作負載的特定或一般事件集，以供管理員使用，並跨無限制的審核時程表進行調查。 您可以在 Office 365 安全性 & 合規性中心] 中設定所有審計記錄資料的警示，並篩選及匯出此資料以進行進一步分析。 請參閱[搜尋審核記錄](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)文章，進一步瞭解如何進行 Office 365 的審核記錄。 若要深入瞭解在 Office 365 安全 & 合規性中心搜尋 Microsoft 團隊活動，我們也會在[團隊文章中開啟 [審核](audit-log-events.md)]，讓您查看。
 
 ## <a name="privacy"></a>隱私權
 
@@ -172,7 +172,7 @@ Microsoft 團隊中的資料遺失防護（DLP），以及 O365 較大的 DLP �
 
 當您遇到資訊保護功能時，Office 365 訂閱和相關聯的獨立授權將決定可用的功能集。
 
-如需判斷授權必須實現安全性與合規性功能的相關資訊，請參閱： [Office 365 授權](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center)。
+如需判斷授權必須實現安全性與合規性功能的相關資訊，請參閱[Office 365 或 Microsoft 365 的授權](https://download.microsoft.com/download/8/7/7/877B1713-671E-43AA-BB79-AF8478C64AFF/Licensing-Microsoft-365.pdf)。
 
 > [!NOTE]
 > 在安全性 & 合規性中心中不需要啟用 [內容搜尋] 和 [eDiscovery]，就能正常運作。
