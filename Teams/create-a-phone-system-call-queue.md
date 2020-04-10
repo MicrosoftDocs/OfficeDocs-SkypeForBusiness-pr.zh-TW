@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: 瞭解如何在 Microsoft 團隊中設定雲端通話佇列的電話系統。
-ms.openlocfilehash: 2027658c5335f19c00ea1c8e44c6d38e1f16a730
-ms.sourcegitcommit: 9a448104a76857e3aa464c53cec577d813f8f414
+ms.openlocfilehash: e6ff659790159595c86a2aa442bcb20bcff9659a
+ms.sourcegitcommit: 1d24b62f41bce4f8d86d6060291af1267f75a2a2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "43184239"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43213644"
 ---
 # <a name="create-a-cloud-call-queue"></a>建立雲端通話佇列
 
@@ -204,7 +204,7 @@ ms.locfileid: "43184239"
 
 如果代理程式無法取得來電，無論其可用性狀態為何，都不會包含在通話傳送清單中。
 
-> [!CAUTION]
+> [!IMPORTANT]
 > 啟用商務用 Skype 用戶端的代理程式不會包含在 [通話] 路由清單中（無論其可用性狀態為何）。 不在通話傳送清單中的工程師將不會收到來電。 如果您有使用商務用 Skype 的代理商，請不要啟用目前狀態的呼叫路由。
 
 ### <a name="select-an-agent-opt-out-option"></a>選取代理退出宣告選項

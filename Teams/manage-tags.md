@@ -16,19 +16,19 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何在 Microsoft 團隊中管理組織中使用標記的方式。
-ms.openlocfilehash: 5fbfa980f1cf6acd8ce32af810bf2527ece3d1fa
-ms.sourcegitcommit: 0549714f17f9994cf832a303ec9bc58a537c3a51
+ms.openlocfilehash: 6b95dc07954803ea6d15a1ca5bdf6c705ca3e252
+ms.sourcegitcommit: 1d24b62f41bce4f8d86d6060291af1267f75a2a2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42951548"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43209485"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>管理 Microsoft 團隊中的標記
 
 Microsoft 團隊中的標記可讓使用者與團隊中的人員子集進行通訊。 您可以將標籤新增至一或多個小組成員，輕鬆地與正確的人員子集連線。 小組擁有者和成員（如果已為他們啟用功能）可以在人員中新增一或多個標記。 然後，您就可以 @mentions 使用這些標籤，讓團隊中的任何人都能使用這些標籤，或只與已分派該標記的人員開始交談。
 
 > [!NOTE]
-> 在私有通道中尚不支援標記。 在美國政府社區雲端（GCC）、GCC 高或國防（DoD）組織中尚不提供標記。 
+> 在私有通道中尚不支援標記。 在美國政府社區雲端（GCC）、GCC 高或國防（DoD）組織中尚不提供標記。
 
 ## <a name="how-tags-work"></a>標記的運作方式
 
@@ -37,7 +37,7 @@ Microsoft 團隊中的標記可讓使用者與團隊中的人員子集進行通�
 - 商店管理員想要張貼公告至頻道並通知所有出納。
 - 群組產品經理想要將頻道中的所有產品經理宣傳。
 - 醫院管理員想要傳送訊息給頻道中的所有 radiologists。
-- 行銷經理想要與所有設計人員一起開始進行群組聊天。 
+- 行銷經理想要與所有設計人員一起開始進行群組聊天。
 
 若要深入瞭解，請參閱[在團隊中使用標記](https://support.office.com/article/using-tags-in-teams-667bd56f-32b8-4118-9a0b-56807c96d91e)。
 
@@ -46,6 +46,8 @@ Microsoft 團隊中的標記可讓使用者與團隊中的人員子集進行通�
 身為系統管理員，您可以控制誰可以新增標記，以及如何在 Microsoft 團隊系統管理中心的整個組織中使用標記。
 
 ![Microsoft 團隊系統管理中心的標記設定的螢幕擷取畫面](media/manage-tags-admin-settings.png)
+
+團隊最多可以有100個標籤，最多可將100個小組成員指派給一個標籤，而且最多25個標籤可以指派給單一使用者。 
 
 ### <a name="set-who-can-add-tags"></a>設定誰可以新增標記
 
