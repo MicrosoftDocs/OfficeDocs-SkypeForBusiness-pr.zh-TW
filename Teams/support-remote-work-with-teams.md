@@ -16,16 +16,18 @@ search.appverid: MET150
 description: 使用本指導方針來協助組織中的遠端工作者使用 Microsoft Teams 來提高生產力，尤其是當他們在家中工作 (WFH) 時，以因應 COVID-19 (冠狀病毒) 爆發的情況。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c5c359ebf1efd20d9a1db41ddf19f39240826b77
-ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
+ms.openlocfilehash: 96ff59470c8d9726b4c26bf0522e5b1e730b9014
+ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43157776"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43170511"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>支援使用 Microsoft Teams 的遠端工作者
 
 貴組織想要開始使用 Microsoft Teams 來支援遠端工作或在家工作的使用者嗎？ 使用本文中的指導方針快速啟動及執行。
+
+如果您是小型或中型企業，請不要錯過[使用遠端工作為小型企業提供協助](https://aka.ms/remote-business)。
 
 ## <a name="it-admin-guidance"></a>IT 系統管理員指導方針
 
