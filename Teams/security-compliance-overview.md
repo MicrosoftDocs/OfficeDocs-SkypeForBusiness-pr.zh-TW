@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 66ef35a8a8235507e4d87a7b9c4da7625a939770
-ms.sourcegitcommit: 9419860f9a1c1dd2c7c444162e1d55d704e19c69
+ms.openlocfilehash: f45c83e765bcc10d81ff9cab6fb70b8c7d027ad0
+ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43207002"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "43227407"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Microsoft 團隊中的安全性與合規性
 
@@ -66,7 +66,11 @@ Microsoft 團隊提供高級威脅防護（ATP），以及 SharePoint 和商務�
 
 ### <a name="safe-links"></a>安全連結
 
-不過，目前在 Microsoft 團隊中並不提供 ATP 安全連結，現在我們是透過我們的技術採納計畫（輕觸）來進行公開預覽，而且一般可用性的發行日期未設定，我們將在該時間到達時更新此文章。 同時，如需 Office 365 安全連結的相關資訊，請參閱[office 365 ATP 安全連結](https://docs.microsoft.com/office365/securitycompliance/atp-safe-links#how-to-get-atp-safe-links-protection)。
+雖然在此時間，Microsoft 團隊中不提供高級威脅防護（ATP）安全連結，但現在我們已透過我們的技術採納方案（攻絲）進行[公開預覽](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?view=o365-worldwide)，而且一般可用性的發行日期未設定，我們將在這段時間後更新此文章。 同時，如需 Office 365 安全連結的相關資訊，請參閱[office 365 ATP 安全連結](https://docs.microsoft.com/office365/securitycompliance/atp-safe-links#how-to-get-atp-safe-links-protection)。 [Atp[方案 1] 和 [Atp 方案 2](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide)] 中都有 [atp 安全連結]。
+
+### <a name="safe-attachments"></a>安全附件
+
+[安全附件] 是專門用來加強使用者安全性的功能，方法是檢查及偵測惡意附件。 全域或安全性系統管理員會建立處理這些可疑的惡意附件的[原則](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-atp-safe-attachments-policies?view=o365-worldwide)，避免它們被傳送給使用者、按一下，以及採取的動作。 您可以在 SharePoint Online、商務用 OneDrive 和 Microsoft 團隊中取得安全的附件保護，而且這兩種 Office 365[高級威脅防護方案1和 2](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide)都有這項功能。 瞭解更多關於安全附件的資訊，以及他們如何協助保護[貴組織。](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-attachments?view=o365-worldwide)
 
 ### <a name="how-conditional-access-policies-work-for-teams"></a>條件式存取原則對於團隊的運作方式
 

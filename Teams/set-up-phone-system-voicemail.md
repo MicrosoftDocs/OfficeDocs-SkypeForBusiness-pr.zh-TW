@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: '瞭解如何為您的使用者設定雲端語音信箱。 '
-ms.openlocfilehash: 5f975eac51cf3787ac5a1dde9b76b80b0912478d
-ms.sourcegitcommit: a610bfe9c0192432744dfaf8d5ff5c2bb5a16b00
+ms.openlocfilehash: dc771847db8dca52d22b4c1db1b8ae585b99f8e4
+ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "43190832"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "43227497"
 ---
 # <a name="set-up-cloud-voicemail"></a>設定雲端語音信箱
 
@@ -120,6 +120,12 @@ Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionProfanityMaskingEnabled -
 
 > [!IMPORTANT]
 > Office 365 中的語音信箱服務會緩存語音信箱原則，並每4小時更新一次快取。 所以，您所做的原則變更可能需要長達4個小時才能套用。
+
+## <a name="help-your-users-learn-teams-voicemail-features"></a>協助您的使用者瞭解團隊語音信箱功能
+
+我們提供下列資訊，讓您的使用者管理其語音信箱設定，以及團隊中的其他通話功能。
+
+- [在團隊中管理您的通話設定](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)。 本文說明如何管理所有的最終使用者團隊通話功能。 
 
 ## <a name="help-your-users-learn-skype-for-business-voicemail-features"></a>協助使用者瞭解商務用 Skype 語音信箱功能
 

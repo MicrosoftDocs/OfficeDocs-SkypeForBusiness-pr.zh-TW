@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 安裝 Power BI 連接器以使用 CQD 查詢範本
-ms.openlocfilehash: 73f19ef893aebbbd2c6ab9b79946097d6a834c36
-ms.sourcegitcommit: f0f2fa999c1ca4a1118377c7938a247f79217609
+ms.openlocfilehash: ad76c2f4378a1f639abf98d115e4700fae7796c5
+ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43106690"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "43227547"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>安裝 Power BI 連接器以使用 CQD 查詢範本
 
@@ -75,7 +75,8 @@ ms.locfileid: "43106690"
 
     ![螢幕擷取畫面： Power BI 連接器](media/CQD-power-bi-connector4.png)
 
-**重要注意事項：**[通話品質儀表板] 需要執行任何查詢的測量。 無法將度量值新增至查詢，會造成該查詢失敗。
+    > [!IMPORTANT] 
+    > [通話品質儀表板] 需要執行任何查詢的測量。 無法將度量值新增至查詢，會造成該查詢失敗。
 
 3.  接著，選取您要篩選的任何尺寸，然後將其拖曳到 [*篩選*] 窗格中*這個視覺欄位上*的 [篩選]。 CQD Power BI 連接器目前支援*基本篩選*（從可能維度值的清單中選取值）、*高級篩選*（手動指定要篩選的值與運算元，類似于 [高級] CQD），以及*相對日期篩選*（僅適用于 [*結束時間*] 和 [*開始時間*] 尺寸）。 CQD 不支援根據*Top N*進行篩選。
 
@@ -83,7 +84,8 @@ ms.locfileid: "43106690"
 
 4.  最後，選取 [*視覺效果*] 窗格中的 [*格式*] 索引標籤來設定查詢的樣式和格式。
 
-**注意：** CQD 查詢至少需要一個量值，才能執行。 如果您的查詢未載入，請再次檢查您是否已在查詢中包含量值。
+    > [!NOTE]
+    > CQD 查詢至少需要一個量值，才能執行。 如果您的查詢未載入，請再次檢查您是否已在查詢中包含量值。
 
 ## <a name="creating-a-drillthrough-report"></a>建立鑽研報表
 
@@ -100,6 +102,10 @@ ms.locfileid: "43106690"
     ![螢幕擷取畫面： Power BI 連接器](media/CQD-power-bi-connector7.png)
 
 與 [高級 CQD] 不同，Power BI 支援非順序式鑽取。 只要查詢包含必要的維度，就可以對任何其他頁面進行鑽取。
+
+### <a name="best-practice"></a>最佳做法
+
+通話品質連接器查詢的設計應考慮使用鑽取功能。 不要嘗試一次載入所有資料，然後再使用篩選來向下切入、從較廣的基數查詢開始，並向下切入至高基數查詢。 例如，當您嘗試診斷哪些子網最能貢獻品質問題時，請先找出對問題有影響的地區和國家，然後向下切入該地區或國家/地區的子網。 通話品質連接器範本是以這種方式設計，以做為範例。
 
 ## <a name="limitations"></a>有限
 
@@ -143,7 +149,7 @@ Power BI 連接器不支援日期交叉分析篩選器。 若要指定日期範�
 
 ## <a name="footnotes"></a>批註
 
-**<sup>1</sup>** 某些程式和應用程式（例如 OneDrive）可能會導致您的 [檔] 根資料夾變更;確認*POWER BI 桌面\\自訂連接器*目錄位於目前的根資料夾檔資料夾中。
+**<sup>1</sup>** 某些程式和應用程式（例如 OneDrive）可能會導致您的檔根資料夾變更;確認*POWER BI 桌面\\自訂連接器*目錄位於目前的根資料夾檔資料夾中。
 
 **<sup>2</sup>** 您用於 CQD 的登入認證*不*需要是您用來登入 Power BI 傳統型應用程式本身的認證。
 

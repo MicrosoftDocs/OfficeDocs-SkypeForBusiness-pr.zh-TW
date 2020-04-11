@@ -18,12 +18,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何使用 [移植] 嚮導，將您的電話號碼從目前的服務提供者轉接到 Microsoft 團隊。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 07368b6dfd05567eac4eac66614560b6ecc9d2b4
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: a13e08a569c34f8182997bb438e997d8caee2ae7
+ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137863"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "43227527"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>將電話號碼轉移至 Microsoft 團隊
 
@@ -39,7 +39,7 @@ ms.locfileid: "43137863"
 ## <a name="create-a-port-order-and-transfer-your-phone-numbers-to-teams"></a>建立埠順序並將您的電話號碼轉接至團隊
 
 > [!NOTE]
-> **目前，您可以使用此嚮導來取得英國和加拿大的電話號碼**。 若要取得其他國家和地區的電話號碼，您可以[手動提交埠順序](manually-submit-port-order.md)。 若要取得手動提交埠順序所需的表單，請在 [[管理您的組織的電話號碼](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)] 下拉式清單中，選取您的國家或地區。
+> **目前，您可以使用此嚮導來取得英國、美國和加拿大的電話號碼**。 若要取得其他國家和地區的電話號碼，您可以[手動提交埠順序](manually-submit-port-order.md)。 若要取得手動提交埠順序所需的表單，請在 [[管理您的組織的電話號碼](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)] 下拉式清單中，選取您的國家或地區。
 
 1. 在 Microsoft [團隊管理中心] 的左導覽中，移至 [**語音** > **電話號碼**]。 按一下 [**數位**]，然後按一下 [**埠**] 以啟動移植嚮導。
 2. 查看 [**入門**] 頁面上的資訊，然後在您準備好時，按一下 **[下一步]**。

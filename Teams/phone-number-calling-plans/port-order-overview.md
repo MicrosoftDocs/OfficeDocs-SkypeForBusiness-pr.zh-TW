@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.porting.overview
 - Calling Plans
 description: 瞭解什麼是埠訂單，以及如何將電話號碼從服務提供者轉移至團隊。
-ms.openlocfilehash: 7d92c76c62405efbffaff378b2045195c175d867
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 0102adfd53dba3ff455ddbdbc3678e625fd978de
+ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827941"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "43227537"
 ---
 # <a name="whats-a-port-order"></a>什麼是移轉訂單？
 
@@ -35,7 +35,9 @@ ms.locfileid: "41827941"
   
 ## <a name="what-countries-or-regions-support-number-porting"></a>哪些國家或地區支援數位移植？
 
-您可以在所有支援的國家或地區中移植或傳送電話號碼，但提交埠順序要求的方式取決於電話號碼來自哪個國家或地區。 如需支援編號移植的國家和地區清單，請參閱[管理貴組織的電話號碼](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
+您可以在所有支援的國家或地區中移植或傳送電話號碼，但提交埠順序要求的方式取決於電話號碼來自哪個國家或地區。 如需支援編號移植的國家和地區清單，請參閱[管理貴組織的電話號碼](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。  
+
+目前，Microsoft [團隊管理中心[] 中的 [移植] 嚮導](transfer-phone-numbers-to-teams.md)支援取得英國、美國和加拿大的電話號碼。 若要取得其他國家和地區的電話號碼，您可以[手動提交埠順序](manually-submit-port-order.md)。
   
 ## <a name="what-numbers-can-be-transferred"></a>哪些號碼可以轉移？
 

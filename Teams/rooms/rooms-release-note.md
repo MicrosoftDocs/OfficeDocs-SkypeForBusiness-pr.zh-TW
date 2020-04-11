@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: 本文將討論 Microsoft 團隊聊天室中的累加性改進。
-ms.openlocfilehash: 7a411c8a94379c71226c4c5e593968a8ba65eb53
-ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
+ms.openlocfilehash: a79f9c4087be638de5c978eda2a8cf1d12fc1ed4
+ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43157764"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "43227517"
 ---
 # <a name="release-notes"></a>版本資訊
 
@@ -69,7 +69,6 @@ ms.locfileid: "43157764"
 - 支援針對團隊進行動態緊急通話（需要使用小組用戶端響鈴的服務元件）
 - 使用 XML 來停用不在會議中的重複內容的能力顯示會議室
 - 應用程式啟動顯示畫面
-- [自動回答] 設定可改善接近的會議連接體驗 
 - 在裝置設定中開啟來源軟體（OSS）通知
 - 在商務用 Skype Server 2015/2019 中停用 TLS 1.0 和 TLS 1.1 時，修正 PSOM 連線性問題。
 
