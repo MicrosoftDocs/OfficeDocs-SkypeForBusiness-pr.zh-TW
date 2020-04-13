@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 545cbc1d170f6b511de5e8d21a237bc893ee0702
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 5bbb66b99a061648c4c12b7611fc7054a4044c6f
+ms.sourcegitcommit: f9860dbf3c719fec5ffc1874b503b6db252afe10
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43138033"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "43237886"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>在 Microsoft 團隊中實現服務品質（QoS）
 
@@ -78,7 +78,7 @@ _圖2。QoS 佇列的範例_
 
 ## <a name="select-a-qos-implementation-method"></a>選取 QoS 實現方法
 
-您可以在網路路由器上使用存取控制清單（Acl），透過埠標記來實現 QoS。 以埠為基礎的標記是最可靠的方法，因為它能在混合式 Windows 和 Mac 環境中運作，且最容易實現。 行動用戶端不會提供使用 DSCP 值來標示流量的機制，所以需要這個方法。  
+您可以在網路路由器上使用存取控制清單（Acl），透過埠標記來實現 QoS。 以埠為基礎的標記是最可靠的方法，因為它能在混合式 Windows、Mac 和 Linux 環境中運作，且最容易實現。 行動用戶端不會提供使用 DSCP 值來標示流量的機制，所以需要這個方法。  
 
 使用這個方法，您的網路路由器會檢查傳入的資料包，如果資料包是使用特定的埠或埠範圍來接收，則會將它識別為特定媒體類型，並將它放在該類型的佇列中， [DSCP](https://tools.ietf.org/html/rfc2474)以便讓其他裝置辨識其流量類型，並在其佇列中賦予其優先順序。
 

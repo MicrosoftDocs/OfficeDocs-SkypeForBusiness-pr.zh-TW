@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f45c83e765bcc10d81ff9cab6fb70b8c7d027ad0
-ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
+ms.openlocfilehash: 17cf1e32b26edc609bea9e679c9f5ee5f4cc66d2
+ms.sourcegitcommit: f9860dbf3c719fec5ffc1874b503b6db252afe10
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/11/2020
-ms.locfileid: "43227407"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "43237896"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Microsoft 團隊中的安全性與合規性
 
@@ -193,7 +193,7 @@ Microsoft 團隊中的資料遺失防護（DLP），以及 Office 365 較大型�
 
 團隊是標準的層級。 這包括下列標準： [iso 27001](https://docs.microsoft.com/microsoft-365/compliance/offering-iso-27001)、 [iso 27018](https://docs.microsoft.com/microsoft-365/compliance/offering-iso-27018)、 [SSAE16 SOC 1 和 SOC 2](https://docs.microsoft.com/microsoft-365/compliance/offering-soc)、 [HIPAA](https://docs.microsoft.com/microsoft-365/compliance/offering-hipaa-hitech)以及[歐盟模型子句（EUMC）](https://docs.microsoft.com/microsoft-365/compliance/offering-eu-model-clauses)。 在 Microsoft 合規性架構中，Microsoft 將 Office 365 應用程式和服務分類成四種類別。 每個類別都是由要在該類別中列出的 Office 365 服務或相關 Microsoft 服務所需符合的特定合規性承諾所定義。
 
-符合行業領先規範承諾的合規性類別 C 和 D 中的服務會預設為啟用。 [類別 A] 和 [B] 中的服務隨附控制項，可為整個組織開啟或關閉這些服務。 您可以在[規範架構中找到適用于行業標準與規章](https://download.microsoft.com/download/1/4/3/1434ABAB-B8E9-412D-8C3A-187B5FCB7A2F/Compliance%20Framework%20document.pdf)的詳細資料。 團隊也支援雲端安全聯盟規範。
+符合行業領先規範承諾的合規性類別 C 和 D 中的服務會預設為啟用。 [類別 A] 和 [B] 中的服務隨附控制項，可為整個組織開啟或關閉這些服務。 您可以在[合規性標準](security-compliance-overview.md#compliance-standards)中找到詳細資料。 團隊也支援雲端安全聯盟規範。
 
 ## <a name="related-topics"></a>相關主題
 

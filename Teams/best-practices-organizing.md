@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 621bb6328ab4ea59caa18d27fe7196a25ee15157
-ms.sourcegitcommit: 1c2cef3deb384216bf0a89628573a277ee6e3e2b
+ms.openlocfilehash: f8f142e48c005b14fc265d7efe6d4413b3c5f44c
+ms.sourcegitcommit: f9860dbf3c719fec5ffc1874b503b6db252afe10
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43174915"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "43237936"
 ---
 <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>在 Microsoft Teams 中組織小組的最佳做法
 ======================================================
@@ -31,7 +31,10 @@ ms.locfileid: "43174915"
 
 建立小組之前，請先考慮目標、專案或工作項目，以及貴組織中的哪些成員可以共同作業以達成目標。 您識別這些成員之後，將這些人員或群組新增至小組以開始共同作業。 因為成員資格會隨著時間變更，建議您為每個小組指定多個擁有者。 如需相關資訊，請參閱[管理小組](https://support.office.com/article/Teams-and-Channels-df38ae23-8f85-46d3-b071-cb11b9de5499)。
 
-Microsoft [團隊[影片] 播放清單](https://www.youtube.com/playlist?list=PLXPr7gfUMmKwYKFSqoPN-aHQppI7rRQLf)提供更多關於建立及管理團隊的資訊。
+
+請參閱這段短片，查看如何建立跨組織或單一目的小組的範例：
+
+> [!VIDEO https://www.youtube.com/embed/WkAVgNKn0hs]
 
 ## <a name="add-teams-gradually"></a>逐漸新增小組
 
