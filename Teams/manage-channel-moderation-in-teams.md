@@ -18,18 +18,21 @@ localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何在 Microsoft 團隊中設定裁決的頻道，包括如何將團隊成員新增為頻道審查程式。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 128676bbe4ec27300013836425bf221e3de10f9b
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 6cdf6988afb9afbd91c2bfd19ed516c8e8fdf702
+ms.sourcegitcommit: 379bfaf6b0584c1ac93341af605f93ab932a442b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136803"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "43240613"
 ---
 # <a name="set-up-and-manage-channel-moderation-in-microsoft-teams"></a>在 Microsoft 團隊中設定及管理頻道裁決
 
-在 Microsoft 團隊中，小組擁有者可以為頻道開啟「裁決」，以控制誰可以開始新的文章，以及回復該頻道中的文章。
+在 Microsoft 團隊中，小組擁有者可以針對標準頻道開啟 [裁決]，以控制誰可以開始新的文章，以及如何在該頻道中回復文章。
 
 小組擁有者也可以將團隊成員新增為版主。 小組擁有者可能不具備頻道階層的主題專業技能，以最佳支援管道裁決。 透過讓特定的小組成員能夠適中的頻道，在小組擁有者和管道版主之間，管理頻道內的內容與內容的責任。 例如，小組擁有者可以將企業擁有者或內容擁有者新增為仲裁者，讓他們控制該頻道中的資訊共用。
+
+> [!NOTE]
+> 目前，[頻道裁決] 可用於標準頻道。 專用通道無法使用。
 
 ## <a name="what-can-a-channel-moderator-do"></a>頻道審查者能做什麼？
 

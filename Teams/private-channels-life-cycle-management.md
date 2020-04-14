@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何在您的組織中管理私人頻道的生命週期。
-ms.openlocfilehash: 317cded1be30beac8fefbb579d5f0c24258f2fa1
-ms.sourcegitcommit: a4fd238de09366d6ed33d72c908faff812da11a5
+ms.openlocfilehash: 39830035ba91b2fa50c7d5bbd82e6da6e60d0f00
+ms.sourcegitcommit: 379bfaf6b0584c1ac93341af605f93ab932a442b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42637200"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "43240633"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>在 Microsoft 團隊中管理私人頻道的生命週期
 
@@ -95,7 +95,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 ## <a name="find-sharepoint-urls-for-all-private-channels-in-a-team"></a>尋找小組中所有私人頻道的 SharePoint Url
 
-無論您是要針對私人頻道中的檔案執行 eDiscovery 或法律封存，或是想要建立在特定專用通道中放入檔案的一系列商務用應用程式，您都想要查詢建立的唯一 SharePoint 網站集合。每個專用通道。
+無論您是要針對私人頻道中的檔案執行 eDiscovery 或法律封存，或是想要建立在特定專用通道中放入檔案的一系列企業應用程式，您都會想要查詢針對每個私人通道建立的唯一 SharePoint 網站集合。
 
 以管理員身分，您可以使用 PowerShell 或圖形 Api 命令來查詢這些 Url。
 
@@ -271,7 +271,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 ### <a name="install-the-latest-teams-powershell-module-from-the-powershell-test-gallery"></a>從 PowerShell 測試圖庫安裝最新的團隊 PowerShell 模組
 
-最新的現有團隊 PowerShell 模組版本（目前為[1.0.3](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.3)）不支援管理私人頻道。 使用這些步驟，從 PowerShell 測試圖庫中安裝含私用通道支援（目前為1.0.18）的最新版本團隊 PowerShell 模組。
+最新的現有團隊 PowerShell 模組版本（目前為[1.0.5](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.5)）不支援管理私人頻道。 使用這些步驟，從 PowerShell 測試圖庫中安裝含私用通道支援（目前為1.0.21）的最新版本團隊 PowerShell 模組。
 
 > [!NOTE]
 > 請勿從 PowerShell 測試圖庫並排安裝團隊 PowerShell 模組與公用 PowerShell 庫中的模組版本。 請依照下列步驟，先從公用 PowerShell 庫中卸載團隊 PowerShell 模組，然後從 PowerShell 測試圖庫安裝最新版本的模組。
@@ -323,8 +323,8 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 ## <a name="related-topics"></a>相關主題
 
-- [團隊 PowerShell 概覽](teams-powershell-overview.md)
-- [使用 Microsoft Graph API 與團隊搭配運作](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0)
+- [Teams PowerShell 概觀](teams-powershell-overview.md)
+- [使用 Microsoft 圖形 API 搭配 Teams](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0)
     - [清單頻道](https://docs.microsoft.com/graph/api/channel-list)
     - [建立頻道](https://docs.microsoft.com/graph/api/channel-post)
     - [將成員新增到頻道](https://docs.microsoft.com/graph/api/conversationmember-add)
