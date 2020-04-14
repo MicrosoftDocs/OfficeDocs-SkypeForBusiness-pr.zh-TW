@@ -19,15 +19,16 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d2aded83cf92a98aaaa1b01fdedab695013dac8e
-ms.sourcegitcommit: 1c2cef3deb384216bf0a89628573a277ee6e3e2b
+ms.openlocfilehash: 32cbbbc87e6447c3bc49b97b772e2aea4849550f
+ms.sourcegitcommit: 1d24b62f41bce4f8d86d6060291af1267f75a2a2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43174965"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43209495"
 ---
 > [!IMPORTANT]
-> Teams 服務模型可能會有所變更，以改善客戶體驗。 例如，預設存取權或重新整理權杖到期時間可能會修改，以提升使用 Teams 的效能與驗證復原能力。 任何此類變更的目標都是讓 Teams 保持安全且從設計上值得信賴。
+> Teams 服務模型可能會有所變更，以改善客戶體驗。 例如，預設存取權或重新整理權杖到期時間可能會修改，以提升使用 Teams 的效能與驗證復原能力。 任何此類變更的目標都是讓 Teams 保持安全且從設計上值得信賴。 
+<p>
 
  # <a name="security-and-microsoft-teams"></a>安全性和 Microsoft Teams
 
@@ -77,7 +78,7 @@ TLS 會對各方實施驗證，並加密所有流量。 使用 TLS 可防止攻�
 
 當攻擊者在通訊使用者雙方不知情的情況下，透過攻擊者的電腦來重新路由傳送兩位使用者之間的通訊，就表示發生了中間人攻擊。 攻擊者可在流量傳送給預期的收件者之前，監視並讀取流量。 通訊中的每個使用者都會在不知情的情況下傳送流量給攻擊者，以及接收來自攻擊者的流量，卻又認為他們在與預期的使用者通訊。 如果攻擊者能修改 Active Directory Domain Services 而將其伺服器新增為信任的伺服器，或修改網域名稱系統 (DNS) 而讓用戶端透過攻擊者連線到伺服器，就會發生這種情況。
 
-兩個用戶端之間的媒體流量也會發生中間人攻擊，不同之處在於，Teams 中的點對點音訊、視訊和應用程式共用串流會以 SRTP 加密，加密時所使用的加密金鑰會於透過 TLS 使用工作階段初始通訊協定 (SIP) 的對等端之間進行交涉。
+使用 SRTP 來加密媒體串流，可防止兩端點在 Teams 音訊、視訊和應用程式共用中的媒體流量遭到「中間人」攻擊。 加密金鑰會透過專有信號通訊協定 (Teams 通話信號協定) 在兩個端點之間協商，該協定使用 TLS 1.2 和 AES-256 (在 GCM 模式中) 加密的 UDP/TCP 通道。
 
 ### <a name="rtp-replay-attack"></a>RTP 重播攻擊
 

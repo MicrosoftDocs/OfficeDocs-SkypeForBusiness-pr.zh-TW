@@ -17,12 +17,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0fd871f36c2261dd5ec243dbd8dbdd52a3a8e694
-ms.sourcegitcommit: 93a8bd330c9a8ced81cd3eafb7b7236e9ed2066f
+ms.openlocfilehash: 3d7b2dec3b4077ddfb06035a2d7069b04c789db1
+ms.sourcegitcommit: 1d24b62f41bce4f8d86d6060291af1267f75a2a2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/13/2020
-ms.locfileid: "41962082"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43209445"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和規格
 
@@ -121,8 +121,6 @@ Teams 的聊天是在 Microsoft Exchange 後端執行，因此 Exchange 的傳�
 |週期性 (沒有結束時間)     |開始時間 + 60 天         |60 天         |
 |週期性 (有結束時間)     |最後發生的結束時間 + 60 天         |60 天         |
 
-
-
 ## <a name="teams-live-events"></a>Teams 即時活動
 
 |功能     | 最大限制 |
@@ -156,6 +154,15 @@ Microsoft Teams 中的每個團隊在 SharePoint Online 中都有一個團隊網
 頻道受資料夾所支援，而資料夾位於針對團隊建立的 SharePoint Online 網站集合中，因此頻道內的檔案索引標籤會共用所屬團隊的儲存空間限制。
 
 如需詳細資訊，請參閱 [SharePoint Online 限制](https://support.office.com/article/SharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498)。
+
+## <a name="tags"></a>標記
+
+|功能  |最大限制  |
+|---------|---------|
+|每個小組的標記數量    | 100        |
+|每個小組的建議預設標記數量    | 25        |
+|指派給標記的小組成員人數    |100         |
+|指派給使用者的標記數量    |25         |
 
 ## <a name="contacts"></a>連絡人
 
