@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: caecd0d97e760470604fa164e6356a59699e57ad
-ms.sourcegitcommit: bc1d2e0478a429f981b53765e6194443b32ae35c
+ms.openlocfilehash: c747d68b53e428678fd07cd690fa7575262d4ae6
+ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43122917"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "43227557"
 ---
 # <a name="how-to-provision-teams-at-scale-for-firstline-workers"></a>如何為第一線員工大規模佈建 Teams
 
@@ -38,9 +38,12 @@ ms.locfileid: "43122917"
 - 對大量使用者套用這些原則。
 - 將大量使用者指派到指定的小組。
 
+> [!NOTE]
+> 如果您已檢閱此資訊，但仍覺得需要協助或有一些問題，則可以[**按一下這裡**](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbRyMDv-1voW9MqL7zkQ11DzBUREZaU1E0WEk5T0NYS0NDSkFMSDROUUdYMC4u)，以聯繫 White Glove Support。
+
 ## <a name="prerequisites"></a>必要條件
 
-從[此位置](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/FLWTeamsScale.zip?raw=true)下載資產。
+從[此位置](https://aka.ms/flwteamsscale)下載資產。
 
 > [!IMPORTANT]
 > 上述連結中的指令碼是 Microsoft 所提供的原始指令碼，您必須根據個別需求加以修改。
@@ -48,90 +51,92 @@ ms.locfileid: "43122917"
 ## <a name="technical-requirements"></a>技術需求
 
 - 您的租用戶必須具備涵蓋 Microsoft Teams 的適當授權數量。 如果您還沒有這些授權，請依照此處的指示來啟動 [Office 365 E1 免費試用](e1-trial-license.md)。
-- 使用者必須以 Azure AD 中的全域系統管理員或使用者系統管理員角色來採取這些步驟。
+- 執行這些步驟的使用者必須已獲指派下列角色：全域系統管理員、使用者系統管理員及 Teams 服務系統管理員 (在 Azure AD 中)。
 - 使用者必須有權在其本機電腦上安裝和設定軟體。
 
 ## <a name="step-by-step-process-overview"></a>逐步程序概觀
 
 1. **設定您的環境**
-    1. 下載包含 PowerShell 指令碼範例和文件的 ZIP 檔案
-    1. 設定認證
+    1. 從包含 PowerShell 指令碼範例和文件的 GitHub 存放庫下載
     1. 設定本機環境
+    1. 設定認證
     1. 設定 PowerShell 模組和環境變數
-    1. 建立應用程式註冊
-1. **建立及設定小組**
-    1. 建立小組
-    1. 為小組建立頻道
-1. **建立小組原則**
-    1. 建立小組訊息原則
-    1. 建立小組應用程式設定原則
-    1. 建立小組應用程式權限原則
-1. **建立及設定使用者**
+1. **建立及設定 Teams**
+    1. 建立團隊
+    1. 建立團隊的步驟
+    1. 為團隊建立頻道
+1. **建立 Teams 原則**
+    1. 建立 Teams 訊息原則
+    1. 建立 Teams 應用程式設定原則
+    1. 建立 Teams 應用程式權限原則
+1. **使用者和安全性群組**
     1. 建立使用者和安全性群組
     1. 透過群組型授權將授權指派給使用者
 1. **指派使用者和原則**
-    1. 將使用者指派給小組
-    1. 將原則指派給使用者和群組
+    1. 將使用者指派給團隊
+    1. 指派 Teams 原則給使用者
+    1. 選用：轉換群組成員資格類型
 1. **測試與驗證**
-    1. 檢查錯誤
     1. 以測試使用者的身分登入 Teams
+    1. 檢查錯誤
+    1. 錯誤處理
+1. **深入閱讀**
 
 ## <a name="set-up-your-environment"></a>設定您的環境
 
 下列步驟可讓您設定您的環境：
 
-### <a name="download-zip-file-containing-sample-powershell-scripts"></a>下載包含 PowerShell 指令碼範例的 .zip 檔案
+### <a name="download-from-the-github-repository-containing-sample-powershell-scripts-and-documentation"></a>從包含 PowerShell 指令碼範例和文件的 GitHub 存放庫下載
 
-在您繼續進行之前，您必須先在[此位置](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/FLWTeamsScale.zip?raw=true)下載指令碼。
+在您繼續進行之前，您必須先在[此位置](https://aka.ms/flwteamsscale)下載指令碼。
+
+### <a name="configure-the-local-environment"></a>設定本機環境
+
+設定本機環境變數，會允許使用相對路徑執行此處參考的指令碼。 rootPath 是您複製此存放庫的根目錄，且 tenantName 的格式為 **yourTenant.onmicrosoft.com** (不應包含 https)。
+
+1. 開啟 PowerShell 工作階段，並瀏覽至複製的 Git 存放庫內的 scripts 資料夾。
+1. 執行此指令碼 .\SetConfig.ps1 -tenantName [您的租用戶名稱] -rootPath "Git 存放庫根目錄的完整路徑"。
+
+例如：.\SetConfig.ps1 -tenantName contoso.onmicrosoft.com -rootPath "C:\data\source\FLWTeamsScale"
 
 ### <a name="setup-credentials"></a>設定認證
 
-為了方便起見，我們已在本文件和指令碼範例中，選擇建立包含您認證的參考檔案。 此方式可讓您在本機存放區中維護認證，而不必再對所有服務端點進行驗證。 若要執行後續的指令碼，您將必須使用您和您環境獨有的認證來更新該參考檔案。 在後續的每個指令碼中，系統會使用稱為 **GetCreds** 的 helper 函式來讀取適當認證，而這些認證會用來與各種服務連線。
+> [!IMPORTANT]
+> 在這些指令碼中管理認證的方式，可能不適合您的使用，但易於變更，以符合您的需求。 請務必遵循公司用於保護服務帳戶和管理身分識別的標準和做法。
 
-不同服務需要不同認證的情形並不常見。 例如，您可能會有用於 MicrosoftTeams、AzureAD 和 MSonline 的不同認證，在這種情況下，您可以執行 SetCred 將每個憑證檔儲存為對本身有意義的名稱。
+該指令碼會使用以 XML 檔案格式儲存在 $ENV:LOCALAPPDATA\keys 中的認證，也就是 AppData\Local 資料夾。 需要呼叫模組 **BulkAddFunctions.psm1** 中的 **Set-Creds** Helper 函數，以設定用來執行這些指令碼的認證。 此方式可讓您不再需要對所有服務端點進行驗證，同時在本機存放區中維護認證。 從每個指令碼內，系統會使用 Helper 函數 **Get-Creds** 來讀取適當認證，且這些認證會用來與各種服務連線。
 
-例如：SetCreds msol-cred.xml、SetCreds azuread-cred.xml、SetCreds teams-cred.xml
+呼叫 **Set-Creds** 時，系統會提示您提供要寫入 $ENV:LOCALAPPDATA\keys 的 XML 檔案名稱。 不同的服務可能有不同的認證。 例如，您可能會有用於 MicrosoftTeams、AzureAD 和 MSonline 的不同認證，在這種情況下，您可以執行 **Set-Creds** 一次以上，將每個認證檔案以對其本身有意義的名稱儲存。
+
+範例：Set-Creds msol-cred.xml Set-Creds azuread-cred.xml Set-Creds teams-cred.xml
+
+執行指令碼 **SetCreds.ps1** 以儲存您的認證。 系統會提示您「正在執行作業 "Export-Clixml"...」，請輸入 'Y' 來核准。
 
 > [!NOTE]
-> 用於認證的帳戶不可要求 MFA。
+> 用於認證的帳戶不可要求多重要素驗證 (MFA)。
 
 下列範例說明各種指令碼如何使用已儲存的認證來進行驗證：
 
 ```azurepowershell
 # Connect to MicrosoftTeams
-$teams_cred = GetCreds teams-cred.xml
+$teams_cred = Get-Creds teams-cred.xml
 Connect-MicrosoftTeams -Credential $teams_cred
 ```
 
-若要設定認證，請完成下列動作：
-
-1. 在 .zip 檔案資產中尋找 **SetCreds.ps1**。
-1. 從 PowerShell 執行 **SetCreds.ps1** 指令碼來儲存認證。
-    1. 系統會提示您「執行 "Export-Clixml" 作業...」，然後您必須輸入 'Y' 來核准。
-
-### <a name="configure-the-local-environment"></a>設定本機環境
-
-1. 在 .zip 檔案資產中尋找 **SetConfig.ps1**。
-1. 從 PowerShell 執行下列命令，並以您的特定資訊取代括弧中的項目。
-    1. **SetConfig.ps1** -tenantName [您的租用戶名稱] -rootPath "[Git 存放庫根目錄的完整路徑]"
-
-例如：`.\SetConfig.ps1 -tenantName contoso.onmicrosoft.com -rootPath "C:\data\source\FLWTeamsScale"`
-
 ### <a name="configure-powershell-modules-and-environmental-variables"></a>設定 PowerShell 模組和環境變數
 
-在您進行下一步之前，您必須安裝並連線到數個 PowerShell 模組，包括 Azure AD、MSAL、MSCloudUtils 和 MicrosoftTeams。
+您必須安裝並連線到數個 PowerShell 模組，包括 Azure AD、MSAL、MSCloudUtils 和 MicrosoftTeams。
 
-1. 在 .zip 檔案資產中尋找 **ConfigurePowerShellModules.ps1**。
-1. 使用您的變數來編輯及取代下列環境變數：
+1. 在存放庫的 scripts 資料夾中，尋找 **ConfigurePowerShellModules.ps1**。
 1. 從 PowerShell 中執行 **ConfigurePowerShellModules.ps1** 指令碼。
 
 ## <a name="create-and-set-up-teams"></a>建立及設定小組
 
 為了與您的第一線員工交流並進行共同作業，您必須先建立一系列的小組，並為這些小組新增標準頻道，我們將在下一節中說明。
 
-### <a name="create-teams"></a>建立小組
+### <a name="create-teams"></a>建立團隊
 
-小組是組織內人員、內容和工具的集合。 對於大部分以第一線員工為中心的組織而言，最佳做法是以實體位置為中心來定位小組。 例如，為下列每一項建立小組：
+小組是組織內人員、內容和工具的集合。 對於大部分以第一線員工為中心的組織而言，最佳做法是以實體位置為中心來定位小組。 例如，為下列每一項建立團隊：
 
 - 商店
 - 配送中心
@@ -139,16 +144,16 @@ Connect-MicrosoftTeams -Credential $teams_cred
 - 醫院
 - 雜貨店
 
-*最佳做法討論*：設計小組時，務必注意[小組限制和規格](limits-specifications-teams.md)。 對於較小的組織，可使用整個組織作為小組來簡化溝通工作，並讓實體位置結構變得更完整。 對其他組織來說，結構良好的實體位置小組命名慣例，有助於公司透過交叉發佈輕鬆地同時與多個小組通訊。 例如，若要以所有「美國」地區的小組為目標，您可以搜尋名稱中有「美國」的所有小組，並對其進行交叉發佈。 您可以在[這裡](https://support.office.com/article/cross-post-a-channel-conversation-in-teams-9c1252a3-67ef-498e-a7c1-dd7147b3d295)找到有關交叉發佈的詳細資訊。
+*最佳做法討論*：設計小組時，務必注意[小組限制和規格](limits-specifications-teams.md)。 對於較小的組織，可使用整個組織作為小組來簡化溝通工作，並讓實體位置結構變得更完整。 對其他組織來說，結構良好的實體位置小組命名慣例，有助於公司透過交叉發佈輕鬆地同時與多個小組通訊。 例如，若要以所有「美國」地區的團隊為目標，您可以搜尋名稱中有「美國」的所有 Teams，並對其進行交叉發佈。 您可以在[這裡](https://support.office.com/article/cross-post-a-channel-conversation-in-teams-9c1252a3-67ef-498e-a7c1-dd7147b3d295)找到有關交叉發佈的詳細資訊。
 
-#### <a name="steps-to-create-teams"></a>建立小組的步驟
+#### <a name="steps-to-create-teams"></a>建立團隊的步驟
 
-1. 在資產中尋找 **Teams Information.csv** 檔案。
-1. 使用您組織的特定資訊來更新 **Teams Information.csv** 檔案中的資訊。 請記住上述的最佳做法。
+1. 在存放庫的 data 資料夾中，尋找 **TeamsInformation.csv** 檔案。
+1. 使用您組織的特定資訊來更新 **TeamsInformation.csv** 檔案中的資訊。 請記住上述的最佳做法。
 1. 尋找 **CreateTeams.ps1** 指令碼。
 1. 從 PowerShell 中執行 **CreateTeams.ps1** 指令碼。
 
-### <a name="create-channels-for-teams"></a>為小組建立頻道
+### <a name="create-channels-for-teams"></a>為團隊建立頻道
 
 頻道是小組內的專用區段，可保存依特定主題、專案、分項等等而統整的交談。 每個小組都會自動取得「一般」頻道，但是您可以根據企業需求在此處自訂您的結構。 例如，您的額外頻道結構可能包括：
 
@@ -163,31 +168,31 @@ Connect-MicrosoftTeams -Credential $teams_cred
 
 *最佳做法討論*：設計頻道結構時，務必要讓一切簡單，特別是當您想要讓許多使用者上手時。 避免針對每個狀況、角色或主題建立頻道，以將訓練的需求降至最低。 一開始最多挑選 3-5 個頻道。 您可以在需求增加時輕鬆地建立其他頻道。 事實上，您現在就可以獨自使用一般通道了！
 
-#### <a name="steps-to-create-channels-for-teams"></a>建立小組頻道的步驟
+#### <a name="steps-to-create-channels-for-teams"></a>建立 Teams 頻道的步驟
 
-1. 在 .zip 檔案資產中尋找 **TeamsChannels.csv** 檔案。
+1. 在存放庫的 scripts 資料夾中，尋找 **TeamsChannels.csv** 檔案。
 1. 使用您組織的特定資訊來更新 **TeamsChannels.csv** 檔案。 請記住上述的最佳做法。
-1. 在 .zip 檔案資產中尋找 **CreateTeamsChannels.ps1**指令碼。
-1. 從 PowerShell 中執行 **TeamsChannels.ps1** 指令碼。
+1. 在存放庫的 scripts 資料夾中，尋找 **CreateTeamsChannels.ps1**。
+1. 從 PowerShell，執行 **CreateTeamsChannels.ps1** 指令碼。
 
-## <a name="create-teams-policies"></a>建立小組原則
+## <a name="create-teams-policies"></a>建立 Teams 原則
 
 如果您是系統管理員，您可以使用 Microsoft Teams 中的小組原則來控制您組織中使用者可看見和可執行的項目。 例如，您可以控制要將哪些應用程式釘選到桌面或網頁瀏覽器的左側滑軌，或行動裝置的底部工具列，以簡化加入大量使用者的使用者體驗。 其中有些原則可使用 PowerShell 建立，但其他原則必須在 Teams 系統管理員主控台上手動建立。
 
 *最佳做法討論*：針對下列每個原則，我們將選擇實際建立兩個原則：一個用於第一線員工，一個用於第一線管理者。 您可以根據自己的喜好，選擇建立任意數量的原則。 對大部分客戶而言，兩個是較佳的起點 (即使您一開始對每個群組都進行相同的設定)。 隨著您對 Teams 愈來愈熟悉，您可以選擇進一步區別他們的經驗，若已建立此兩個原則，則可讓此動作變得更簡單。
 
-### <a name="create-teams-message-policies"></a>建立小組訊息原則
+### <a name="create-teams-message-policies"></a>建立 Teams 訊息原則
 
 管理原則是用來控制 Microsoft Teams. 中使用者可使用的聊天及頻道訊息功能。
 
 *最佳做法討論*：雖然您可以使用自動建立的預設全域原則，但我們選擇使用下列步驟建立自訂原則，以便為第一線管理者和第一線員工提供更隱密、簡單且與眾不同的使用體驗。
 
-#### <a name="steps-to-create-teams-message-policies"></a>建立小組訊息原則的步驟
+#### <a name="steps-to-create-teams-message-policies"></a>建立 Teams 訊息原則的步驟
 
-1. 在 .zip 檔案資產中尋找 **TeamsMessagingPolicies.csv** 檔案。
+1. 在存放庫的 scripts 資料夾中，尋找 **TeamsMessagingPolicies.csv** 檔案。
 1. 使用您組織的特定資訊更新 **TeamsMessagingPolicies.csv** 檔案。 您可以在[這裡](https://docs.microsoft.com/microsoftteams/messaging-policies-in-teams#messaging-policy-settings)找到一些不同選項的詳細資訊。
-1. 在資產中尋找 **CreateTeamsMessagePolicies.ps1**指令碼。
-1. 從 PowerShell 中執行 **TeamsMessagePolicies.ps1** 指令碼。
+1. 在存放庫的 scripts 資料夾中，尋找 **CreateTeamsMessagePolicies.ps1**。
+1. 從 PowerShell，執行 **CreateTeamsMessagePolicies.ps1** 指令碼。
 
 ### <a name="create-teams-app-setup-policies"></a>建立 Teams 應用程式設定原則
 
@@ -251,7 +256,7 @@ Connect-MicrosoftTeams -Credential $teams_cred
     1. Teams
     1. Shifts ![依序列出員工應用程式的螢幕擷取畫面。](media/FLW-Worker-Pinned-Apps.png)
 
-### <a name="create-app-permission-policies"></a>建立應用程式權限原則
+### <a name="create-teams-app-permission-policies"></a>建立 Teams 應用程式權限原則
 
 身為系統管理員，您可以使用應用程式權限原則來控制組織中 Microsoft Teams 使用者可使用的應用程式。 您可以允許或封鎖所有應用程式，或是由 Microsoft、第三方和您組織發行的特定應用程式。 當您封鎖應用程式時，擁有原則的使用者將無法從 Teams 應用程式商店安裝該應用程式。 您必須是全域系統管理員或 Teams 服務系統管理員，才能管理這些原則。
 
@@ -285,9 +290,9 @@ Connect-MicrosoftTeams -Credential $teams_cred
 6. 在 [租用戶應用程式] 底下，選取 **[允許所有應用程式]**。
 7. 按一下  **[儲存]**。
 
-## <a name="create-and-set-up-users"></a>建立及設定使用者
+## <a name="users-and-security-groups"></a>使用者和安全性群組
 
-### <a name="create-user-and-security-groups"></a>建立使用者和安全性群組
+### <a name="create-users-and-security-groups"></a>建立使用者和安全性群組
 
 若要在 Teams 中與大量使用者合作，您必須先在 Azure AD 中建立使用者。 佈建大量使用者的方法有很多種，但我們會著重說明以下內容：
 
@@ -298,17 +303,17 @@ Connect-MicrosoftTeams -Credential $teams_cred
 
 若要以更有效率的方式管理大量使用者，您必須為第一線員工和第一線管理者建立兩個安全性群組，並按照下列步驟將這些使用者直接佈建到安全性群組：
 
-1. 在 .zip 檔案資產中尋找 **SecurityGroups.csv** 檔案。
-1. 使用您組織的特定資訊更新 **SecurityGroups.csv** 檔案。
-    1. 請務必更新 **[MessagePolicy]**、**[AppPermissionPolicy]** 和 **[AppSetupPolicy]** 欄位，以對應您之前建立的適當原則。
-    1. 請務必更新 **[LicensePlan]** 欄位，以反映您要如何將授權提供給每位使用者。 如需產品名稱與服務方案識別碼的詳細資訊，請參閱[此處](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference)的文件。
-1. 在 .zip 檔案資產中尋找 **Users.csv** 檔案。
+1. 在存放庫的 scripts 資料夾中，尋找 **Users.csv** 檔案。
 1. 使用您組織的特定資訊來更新 **Users.csv** 檔案。
     1. 根據預設，我們提供的指令碼會建立一個使用者和暫時性密碼，第一次登入時必須變更此密碼。 如果您不想要使用預設密碼，請編輯 **CreateUsers.ps1** 指令碼，以符合您的需求。
     1. 請務必更新 SecurityGroup 欄位，以反映先前建立的適當名稱。
-1. 透過 PowerShell 執行資產中的 **CreateUsers.ps1** 指令碼。
+1. 在存放庫的 scripts 資料夾中，尋找 **SecurityGroups.csv** 檔案。
+1. 使用您組織的特定安全性群組資訊更新 **SecurityGroups.csv** 檔案。
+    1. 請務必更新 **[MessagePolicy]**、**[AppPermissionPolicy]** 和 **[AppSetupPolicy]** 欄位，以對應您之前建立的適當原則。
+    1. 請務必更新 **[LicensePlan]** 欄位，以反映您要如何將授權提供給每位使用者。 如需產品名稱與服務方案識別碼的詳細資訊，請參閱[此處](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference)的文件。
+1. 從 PowerShell，執行資產中的 **CreateUsers.ps1** 指令碼。
 
-### <a name="assign-licensing-to-users-by-group-based-licensing"></a>透過群組型授權將授權指派給使用者
+### <a name="assign-licensing-to-users-via-group-based-licensing"></a>透過群組型授權將授權指派給使用者
 
 Microsoft 付費雲端服務 (例如 Office 365、企業版行動力 + 安全性、Dynamics 365 及其他類似產品) 都需要授權。 這些授權會指派給需要存取這些服務的每位使用者。 若要管理授權，系統管理員可使用其中一個管理入口網站 (Office 或 Azure) 和 PowerShell Cmdlet。 Azure Active Directory (Azure AD) 是支援所有 Microsoft 雲端服務身分識別管理的基礎結構。 Azure AD 會儲存使用者授權指派狀態的相關資訊。
 
@@ -316,34 +321,65 @@ Microsoft 付費雲端服務 (例如 Office 365、企業版行動力 + 安全性
 
 ## <a name="assign-users-and-policies"></a>指派使用者和原則
 
-### <a name="assigning-users-to-teams"></a>將使用者指派給小組
+### <a name="assign-users-to-teams"></a>將使用者指派給團隊
 
-現在您已建立使用者並建立了小組，您可以將所有使用者放在適當的小組中。
+現在您已建立使用者並建立了 Teams，您現在可以將所有使用者放在適當的 Teams 中。
 
-1. 在 .zip 檔案資產中尋找 **Users.csv** 檔案，並確認與該檔案中的小組有正確的對應。
-1. 透過 PowerShell 執行 .zip 檔案資產中的 **AssignUserstoTeams.ps1** 指令碼。
+1. 在存放庫的 data 資料夾中，尋找 **Users.csv** 檔案，並確認您在此檔案中有與 Teams 的準確對應。
+1. 透過 PowerShell，執行存放庫的 scripts 資料夾中的指令碼 **AssignUserstoTeams.ps1**。
 
-### <a name="assign-teams-policies-to-users"></a>指派小組原則給使用者
+### <a name="assign-teams-policies-to-users"></a>指派 Teams 原則給使用者
 
 現在您已建立使用者和用來修改小組體驗的原則，接著您可以將這些原則指派給正確的使用者。
 
-1. 在 .zip 檔案資產中尋找 **SecurityGroups.csv** 檔案，並確認您的原則正確地對應至群組。
-1. 透過 PowerShell 執行 .zip 檔案資產中的 **AssignPoliciestoUsers.ps1**。
+1. 在存放庫的 data 資料夾中，尋找 **SecurityGroups.csv** 檔案，並確認您有與群組準確對應的原則。
+1. 透過 PowerShell，執行存放庫的 scripts 資料夾中的指令碼 **AssignPoliciestoUsers.ps1**。
+
+### <a name="optional-convert-group-membership-type"></a>選用：轉換群組成員資格類型
+
+> [!NOTE]
+> 此步驟適合擁有 Azure AD P1 或更新版本的使用者。
+
+取得 Azure AD P1 或更新版本授權時，您可以選擇使用動態群組成員資格，而非使用指派的成員資格。 建立 Teams 的指令碼也建立了成員資格類型為「已指派」的 Office 群組，這表示其成員必須明確地新增。
+
+使用動態成員資格，其編寫的規則可用來判斷是否有人為團隊的成員。
+
+> [!NOTE]
+> 執行此指令碼時，系統會移除群組的目前成員資格 (其擁有者除外)，並且會在成員資格同步作業執行時加入新的成員。
+
+1. 在存放庫的 data 資料夾中，尋找 **migrateGroups.csv** 檔案。
+1. 將 CSV 檔案 **migrateGroups.csv** 更新為將進行移轉的群組，並加上用於動態成員資格的規則。
+1. 在存放庫的 scripts 資料夾中，尋找 **ConvertGroupMembershipType.ps1** 檔案。
+1. 從 PowerShell，執行指令碼 **ConvertGroupMembershipType.ps1**
 
 ## <a name="test-and-validate"></a>測試與驗證
-
-### <a name="check-for-errors"></a>檢查錯誤
-
-當您執行較舊的指令碼時，系統會將錯誤或例外狀況寫入到 .csv 檔案，並置於 .zip 檔案資產的 [記錄] 資料夾。 您可以使用此檔案來調查可能發生的任何問題。
-
-例如，如果您嘗試建立已存在於租用戶的小組，就可能會發生例外狀況。
-
-1. 尋找 **[記錄]** 資料夾，然後檢視其中包含的任何 .csv 檔案。 如果沒有例外狀況，表示您可能無法在此找到例外狀況檔案。
 
 ### <a name="login-to-teams-with-a-test-user"></a>以測試使用者的身分登入 Teams
 
 完成所有步驟之後，您就可以驗證您所完成的工作了。
 
-1. 選取先前清單中的使用者，然後以該使用者的認證登入 Teams。
-1. 確認 Teams 的外觀與風格是否與您所預期的相同。 如果不是，請檢閱**建立小組原則**和**指派小組原則給使用者**區段。
+1. 建立的使用者將會具有的初始密碼位於 CreateUsers.ps1 中，且使用者必須在第一次登入時變更密碼。
+1. 確認 Teams 的外觀與風格是否與您所預期的相同。 如果不是，請檢閱**建立 Teams 原則**和**指派 Teams 原則給使用者**區段。
 1. 驗證使用者是否屬於正確的小組。 如果不是，請檢閱**建立及設定使用者**和**將使用者指派給小組**區段。
+
+> [!NOTE]
+> 如果第一線員工佈建是透過您的身分識別和存取管理團隊來管理，您將必須遵循其用於提供員工認證的程序。
+
+### <a name="check-for-errors"></a>檢查錯誤
+
+當您執行較舊的指令碼時，系統會將錯誤或例外狀況寫入到位於存放庫複本 logs 資料夾中的 .csv 檔案。 您可以使用此檔案來調查可能發生的任何問題。
+
+例如，如果您嘗試建立已存在於租用戶的小組，就可能會發生例外狀況。
+
+1. 尋找 **[記錄]** 資料夾，然後檢視其中包含的任何 .csv 檔案。 如果沒有例外狀況，表示您可能無法在此找到例外狀況檔案。
+
+### <a name="error-handling"></a>錯誤處理
+
+這些範例指令碼中已實作最基本的錯誤處理。 有 try/catch 區塊，而如果觸發，我們會將錯誤儲存到 catch 區塊中的某個變數。 必須根據您的喜好執行其他錯誤處理。
+
+## <a name="further-reading"></a>深入閱讀
+
+- [新增團隊頻道 (Powershell)](https://docs.microsoft.com/powershell/module/teams/new-teamchannel?view=teams-ps)
+- [新增 Teams 訊息原則 (Powershell)](https://docs.microsoft.com/powershell/module/skype/new-csteamsmessagingpolicy?view=skype-ps)
+- [在 Microsoft Teams 中將原則指派給使用者](assign-policies.md#install-and-connect-to-the-microsoft-teams-powershell-module)
+- [使用 Office 365 PowerShell 指派授權和使用者帳戶](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)
