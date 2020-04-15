@@ -20,12 +20,12 @@ ms.custom:
 description: 針對系統管理員如何規劃、部署及執行 Microsoft 團隊的訓練影片、PowerPoint 卡座、教學課程及其他資源。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aecc877fb558dac0fb6d9999599caf20d9013f19
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 2f9d1e201e6b838abcfc582b0a7d4aaef90493ef
+ms.sourcegitcommit: 5606f908c6efeb67713f5986b1d8575a896bb5bd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136523"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43506744"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Microsoft 團隊的管理員訓練快速入門
 
@@ -70,7 +70,7 @@ ms.locfileid: "43136523"
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/microsoftteams/enduser-training">
+        <a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
