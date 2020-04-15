@@ -17,12 +17,12 @@ search.appverid: MET150
 description: 瞭解在 Microsoft 團隊中設定即時事件之前要考慮的因素。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95baeaf25600853b7d6a2b4e18c548d1998f6789
-ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
+ms.openlocfilehash: 2f70a7a2be51045f616ebb4cedc5baf46dbe101d
+ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43102364"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43505620"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>規劃 Microsoft 團隊中的即時事件
 
@@ -55,6 +55,7 @@ ms.locfileid: "43102364"
 - 在團隊會議中啟用螢幕共用（*TeamsMeetingPolicy-ScreenSharingMode 參數 = EntireScreen*）。
 - 已啟用團隊中的即時事件排程（*TeamsMeetingBroadcastPolicy-AllowBroadcastScheduling 參數 = True*）。
 - 在串流中建立即時事件的許可權（適用于外部 app 或裝置生產）。
+- 共存模式已設定為能夠排程團隊會議（*僅限 Islands、會議優先或團隊*）。
 
 > [!IMPORTANT]
 > 未驗證的匿名使用者無法在團隊即時事件中受邀成為發生器或簡報者。 
@@ -70,8 +71,6 @@ ms.locfileid: "43102364"
 |特定群組/人員      |  是            |  是                 |
 
 <sup>1</sup>同盟參與者只能在 [人員] & 群組中受邀 <br>
-
-
  
 ## <a name="teams-live-events-and-skype-meeting-broadcast"></a>團隊即時活動與 Skype 會議廣播
 
@@ -89,13 +88,13 @@ ms.locfileid: "43102364"
 |Windows 上的製造者用戶端 |&#x2714; （商務用 Skype） |&#x2714; （團隊） |&#x2714; （資料流程、透過資料流程內嵌的團隊） |
 |Mac 上的製造者用戶端 |&#x274C;  | &#x2714; （團隊） |&#x2714; （資料流程、透過資料流程內嵌的團隊） |
 |製造者 UI 中的出席者計數 |&#x274C;  |&#x2714; （團隊） |&#x2714; （資料流程、透過資料流程內嵌的團隊） |
-|允許多重簡報者 |&#x2714; （商務用 Skype） |&#x2714; （團隊） |N/A  |
-|在會議期間邀請簡報者 |&#x2714; （商務用 Skype） |&#x274C; |N/A |
-|簡報者加入網頁和行動裝置 |&#x2714; （商務用 Skype）  |&#x274C; |N/A |
-|聯盟 & 來賓簡報者/出席者 |&#x2714; （商務用 Skype）  |  &#x2714; （團隊） |N/A |
-|簡報者-PSTN 存取 |&#x274C; |&#x2714; （團隊） |N/A |
-|展示畫面 |&#x274C; |&#x2714; （團隊） |N/A |
-|展示 PowerPoint （PPT 共用） |&#x2714; |&#x274C; （透過螢幕共用來減輕） |N/A |
+|允許多重簡報者 |&#x2714; （商務用 Skype） |&#x2714; （團隊） |不適用  |
+|在會議期間邀請簡報者 |&#x2714; （商務用 Skype） |&#x274C; |不適用 |
+|簡報者加入網頁和行動裝置 |&#x2714; （商務用 Skype）  |&#x274C; |不適用 |
+|聯盟 & 來賓簡報者/出席者 |&#x2714; （商務用 Skype）  |  &#x2714; （團隊） |不適用 |
+|簡報者-PSTN 存取 |&#x274C; |&#x2714; （團隊） |不適用 |
+|展示畫面 |&#x274C; |&#x2714; （團隊） |不適用 |
+|展示 PowerPoint （PPT 共用） |&#x2714; |&#x274C; （透過螢幕共用來減輕） |不適用 |
 |以雲端為基礎的會議錄製 |&#x2714; |&#x2714; |&#x2714; |
 |自動發行錄製至串流 |&#x274C; |&#x274C; |&#x2714; |
 |即時輔助字幕和字幕 |&#x2714; |&#x2714; |&#x274C; |
@@ -132,4 +131,3 @@ ms.locfileid: "43102364"
 - [什麼是 Teams 即時活動？](what-are-teams-live-events.md)
 - [設定 Teams 即時活動](set-up-for-teams-live-events.md)
 - [在團隊中設定即時事件設定](configure-teams-live-events.md)
-

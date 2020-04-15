@@ -17,12 +17,12 @@ f1.keywords:
 description: Microsoft Teams 用戶端應用程式和系統管理員體驗目前的已知問題清單。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d856962cf0fdb21d0dd58313b5ade6a9bab9d364
-ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.openlocfilehash: 2a8775722daa5cd6fc236933fc0e0fd8bad1213a
+ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43096618"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43505530"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams 的已知問題
 
@@ -295,13 +295,6 @@ ms.locfileid: "43096618"
 |**問題標題**|**行為/徵狀**|**已知的因應措施**|**發現日期**|
 |:-----|:-----|:-----|:-----|
 |封鎖的電話號碼|封鎖的電話號碼：移除電話號碼之前刪除該資源帳戶，將會封鎖該電話號碼。|請與 Microsoft 支援服務連絡，來釋出該電話號碼。|2019/5/18|
-
-## <a name="presence"></a>目前狀態
-|**問題標題**|**行為/徵狀**|**已知的因應措施**|**發現日期**|
-|:-----|:-----|:-----|:-----|
-|Outlook 和其他 Office 應用程式中的目前狀態，在使用者移至 [僅 Teams]**** 模式之後不會顯示。 <br/> |如果您在將使用者移至 [僅 Teams]**** 模式之後解除安裝商務用 Skype 用戶端，則 Outlook 和其他 Office應用程式中的目前狀態將會停止運作。 目前狀態在 Teams 中可正常運作。  <br/> |若要在 Outlook (和其他 Office 應用程式) 中查看目前狀態，則必須安裝商務用 Skype，即使您在 [僅 Teams]**** 模式中執行 Teams 亦然。 Microsoft 已發現此問題，正在努力解決中。  <br/> |2019/9  <br/> |
-
-
 
 ## <a name="provisioning"></a>佈建
 

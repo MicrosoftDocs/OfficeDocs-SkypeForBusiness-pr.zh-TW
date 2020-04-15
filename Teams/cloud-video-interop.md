@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2f2c5cb45c82696ec5b365dc8e887cbaa9abce13
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: ddd8a0574899c13e03aae34915b8a342d1984feb
+ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42046496"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43505640"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Microsoft 團隊的雲端視頻互通性
 
@@ -43,6 +43,12 @@ ms.locfileid: "42046496"
 - 在遷移到原生 Microsoft 團隊解決方案期間，想要保留其在目前會議機房裝置和個人視頻裝置中投資的價值
 
 雖然雲端視頻互通性提供出色的中間方案，但我們鼓勵我們的客戶在長期使用我們的原生團隊會議解決方案（例如小組室系統）。 
+
+### <a name="office-365-us-government-and-third-party-services"></a>Office 365 美國政府與協力廠商服務
+
+Office 365 提供將協力廠商應用程式整合到 SharePoint Online 網站、商務用 Skype、團隊、office 365 專業增強版（例如 Word、Excel、PowerPoint 和 Outlook）及 Outlook Web App 中的 Office 應用程式的功能。 此外，Office 365 支援與協力廠商服務提供者的整合。 這些協力廠商應用程式和服務可能會涉及在 Office 365 基礎結構以外的協力廠商系統上儲存、傳輸及處理貴組織的客戶資料，因此不會受到 Office 365 合規性與資料保護承諾的覆蓋。 **建議您查看協力廠商提供的隱私權與規範聲明，以針對貴組織評估這些服務的適當用途。**
+
+
 
 ### <a name="partners-certified-for-microsoft-teams"></a>針對 Microsoft 團隊認證的合作夥伴
 
@@ -87,7 +93,7 @@ ms.locfileid: "42046496"
 
 ### <a name="schedule"></a>表
 
-在使用者啟用雲端視頻 Interop 之後，使用 Outlook 的團隊會議增益集或團隊用戶端安排的任何會議，都將會自動新增到 [團隊會議] 中的相關額外資訊，讓雲端影片交互操作相容的裝置可以加入這些會議。
+在使用者啟用雲端視頻 Interop 之後，使用 Outlook 或團隊用戶端的 [小組會議] 增益集安排的任何會議，都將會自動新增到 [小組會議] 中的相關額外資訊，讓雲端視頻交互操作相容的裝置可以加入這些會議。
 
 ### <a name="join"></a>起來
 

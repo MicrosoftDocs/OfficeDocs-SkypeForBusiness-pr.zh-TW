@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 瞭解如何為 Microsoft 團隊設定及測試雲端自動語音應答。
-ms.openlocfilehash: eff5b3e7d29715714513e7c627a1611f6733b70f
-ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
+ms.openlocfilehash: 05a70c578812ee5ecdd91214ab253843fe67471c
+ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43159288"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43508630"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>設定雲端自動語音應答
 
@@ -225,7 +225,7 @@ ms.locfileid: "43159288"
 >    - 行動/MobilePhone
 >    - Telephonenumber 相同/PhoneNumber
 >    - OtherTelephone
->- 在 [使用者電話號碼] 欄位中輸入延伸所需的格式，可以`+<phonenumber>;ext=<extension>`是`x<extension>`或。
+>- 您可以`+<phonenumber>;ext=<extension>`在 [使用者電話號碼] 欄位中輸入延伸所需的格式`x<extension>`為或。
 >- 目前不支援在團隊系統管理中心指派延伸。 您必須使用[MsolUser](https://docs.microsoft.com/powershell/module/msonline/set-msoluser?view=azureadps-1.0) PowerShell 命令或 Microsoft 365 系統管理中心。
 >- 在 AAD PhoneNumber 和 MobilePhone 屬性的變更可供使用前，可能需要最多12小時的時間。
 >- 請不要定義使用者 LineUri 的延伸。 目前不支援這種情況。

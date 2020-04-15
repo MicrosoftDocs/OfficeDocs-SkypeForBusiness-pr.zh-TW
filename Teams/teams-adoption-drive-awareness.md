@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 02239b1b77a8fdffbfd4e2a3081fc5a031c43878
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: d1111a73fcd80b429d04ed688ac44053c4ef3ad9
+ms.sourcegitcommit: 5606f908c6efeb67713f5986b1d8575a896bb5bd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140786"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43506864"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>針對 Microsoft 團隊進行磁片磁碟機意識與實施訓練
 
@@ -53,7 +53,7 @@ ms.locfileid: "43140786"
 
 - [針對團隊提供講師指導的使用者訓練](instructor-led-training-teams-landing-page.md)
 - [團隊的管理員訓練](itadmin-readiness.md)
-- [線上端使用者訓練](enduser-training.md)
+- [線上端使用者的影片訓練](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
 - [& IT 專業人員的擁護的雲端線上訓練中的咖啡](https://aka.ms/CoffeeintheCloud) 
 - [Office 365 訓練課程中的日簡介](https://aka.ms/O365AdoptionTools)
 
