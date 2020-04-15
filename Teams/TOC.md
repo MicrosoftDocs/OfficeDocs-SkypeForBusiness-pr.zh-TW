@@ -10,7 +10,7 @@
 ## [概觀](training-microsoft-teams-landing-page.md)
 ## [Teams 的講師帶領訓練](instructor-led-training-teams-landing-page.md)
 ## [Teams 的管理訓練](itadmin-readiness.md)
-## [Teams 的使用者訓練](enduser-training.md)
+## [Teams 的使用者訓練](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
 <!-- ============================================================ -->
 
 # [如何推出 Teams](How-to-roll-out-teams.md)
