@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 ms.custom: seo-marvel-mar2020
 description: 由 Microsoft 團隊聊天室裝置使用的預設設定的遠端系統管理，包括套用自訂主題及建立主設定檔案。
-ms.openlocfilehash: 0334b9de7759885b6bf00dae7a6418b3c381c68f
-ms.sourcegitcommit: 0fdc60840f45ff5b0a39a8ec4a21138f6cab49c9
+ms.openlocfilehash: 0bc693d8bee35b37184d0dcb38831b396b34b97c
+ms.sourcegitcommit: 477aac9e14fced139ee7dd827942ce35b9769b63
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43160067"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43510762"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>使用 XML 設定檔遠端系統管理 Microsoft 團隊聊天室的主控台設定
 
@@ -39,12 +39,12 @@ ms.locfileid: "43160067"
     <UserAccount>
         <SkypeSignInAddress>RanierConf@contoso.com</SkypeSignInAddress>
         <ExchangeAddress>RanierConf@contoso.com</ExchangeAddress>
+        <ModernAuthEnabled>false</ModernAuthEnabled>
         <DomainUsername>Seattle\RanierConf</DomainUsername>
         <Password>password</Password>
         <ConfigureDomain>domain1, domain2</ConfigureDomain>
     </UserAccount>
     <IsTeamsDefaultClient>false</IsTeamsDefaultClient>
-    <ModernAuthEnabled>false</ModernAuthEnabled>
     <BluetoothAdvertisementEnabled>true</BluetoothAdvertisementEnabled>
     <SkypeMeetingsEnabled>false</SkypeMeetingsEnabled>
     <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled>
@@ -83,16 +83,16 @@ ms.locfileid: "43160067"
 |\<SkypeSettings\> |所有元素的容器。 ||必填。 |
 | \<AutoScreenShare\>  |布林值 &#x2777;  |第一 &#x2776;  | 如果為 true，則會啟用自動螢幕共用。  |
 |\<HideMeetingName\> |布林值 &#x2777;  |第一 &#x2776;  |如果為 true，會議名稱就會隱藏。 |
-|\<UserAccount\> |包裝箱 |第一 &#x2776;  |認證參數的容器。 [登入位址]、[Exchange 位址] 或 [電子郵件地址] 通常相同，<span></span>例如 [RanierConf @contoso .com]。 |
+|\<UserAccount\> |包裝箱 |第一 &#x2776;  |認證參數的容器。 [登入位址]、[Exchange 位址] 或 [電子郵件地址] 通常相同，例如<span></span>[RanierConf @contoso .com]。 |
 |\<SkypeMeetingsEnabled\>  |布林值 &#x2777;  |第一 &#x2776;  |預設為啟用。 |
 |\<SkypeSignInAddress\> |字串 &#x2778;  ||主機的 SfB 或團隊裝置帳戶的登入名稱。 |
 |\<ExchangeAddress\> |字串 &#x2778;  ||主機 Exchange 裝置帳戶的登入名稱。 如果省略 ExchangeAddress，則不會自動重複使用 SkypeSignInAddress。 |
+|\<ModernAuthEnabled> |布林值 &#x2777;  |  |預設為停用。 <br/> <br/>當設定為 true 時，Microsoft 團隊聊天室應用程式只會使用新式驗證來連線資源，而且不會回到基本驗證。|
 |\<DomainUsername\> |字串 &#x2778;  ||主控台裝置的網域和使用者名稱，例如 Seattle\RanierConf。 |
 |\<口令\> |字串3  || 密碼參數就是商務用 Skype 裝置帳戶登入所用的密碼。  |
 | \<ConfigureDomain\>  |字串 &#x2778;  ||您可以列出數個網域，並以逗號分隔。 |
 |\<TeamsMeetingsEnabled\> |布林值 &#x2777;  |第一 &#x2776;  |預設為停用。 <br/> <br/> 如果\<SkypeMeetingsEnabled\>和\<TEAMSMEETINGSENABLED\>都停用，則 XML 檔案會被視為錯誤的格式，但同時啟用這兩個設定。 |
 |\<IsTeamsDefaultClient> |布林值 &#x2777;  |第一 &#x2776;  |預設為停用。 |
-|\<ModernAuthEnabled> |布林值 &#x2777;  |第一 &#x2776;  |預設為停用。 <br/> <br/>當設定為 true 時，Microsoft 團隊聊天室應用程式只會使用新式驗證來連線資源，而且不會回到基本驗證。|
 |\<BluetoothAdvertisementEnabled> |布林值 &#x2777;  |第一 &#x2776;  |預設為啟用。 |
 |\<DualScreenMode\>  |布林值 &#x2777;  |第一 &#x2776;  |如果為 true，則會啟用雙螢幕模式。 否則，裝置會使用單一畫面模式。 |
 | \<DuplicateIngestDefault\> |布林值 &#x2777;  |第一 &#x2776; |如果為 true，則在雙螢幕模式中，內容會在兩個畫面上顯示，而不是在會議中。 | 

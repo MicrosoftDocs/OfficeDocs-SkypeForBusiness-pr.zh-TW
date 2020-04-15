@@ -16,19 +16,16 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ea756b24a0292a35d4e47252383bfc954fcb8fa7
-ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.openlocfilehash: ab24c6ee27f3e99a30a18af82f0a26196a049528
+ms.sourcegitcommit: 477aac9e14fced139ee7dd827942ce35b9769b63
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43096968"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43510772"
 ---
 # <a name="user-presence-in-teams"></a>Teams 中使用者的目前狀態
 
 目前狀態是 Microsoft 團隊（以及整個 Office 365）中使用者設定檔的一部分，可指出使用者目前的可用性與其他使用者的狀態。 依預設，貴組織中任何有使用 Teams 的人都可以 (幾乎即時) 查看其他使用者是否在線上。
-
-> [!IMPORTANT]
-> 如果您在將使用者移至 [僅 Teams]**** 模式之後解除安裝商務用 Skype 用戶端，則 Outlook 和其他 Office應用程式中的目前狀態將會停止運作。 目前狀態在 Teams 中可正常運作。 解決辦法：若要在 Outlook (和其他 Office 應用程式) 中查看目前狀態，則必須安裝商務用 Skype，即使您在 [僅 Teams]**** 模式中執行 Teams 亦然。 Microsoft 已發現此問題，正在努力解決中。
 
 Outlook 2013 傳統型應用程式和更新版本支援在 Outlook 中的 Teams 目前狀態。
 
