@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams 訓練
+title: Microsoft Teams 系統管理訓練
 ms.reviewer: ''
 description: 使用這些使用者、系統管理員和由講師帶領的訓練資源，幫助您充分利用貴組織中的 Microsoft Teams。
 layout: LandingPage
@@ -19,14 +19,14 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e0b810b5b8d700379c979363ac5349eec9bb2342
-ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
+ms.openlocfilehash: e5c8ad6455fda6231efd089a2592a0860f206939
+ms.sourcegitcommit: 5606f908c6efeb67713f5986b1d8575a896bb5bd
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43053636"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43506824"
 ---
-# <a name="microsoft-teams-training"></a>Microsoft Teams 訓練
+# <a name="microsoft-teams-admin-training"></a>Microsoft Teams 系統管理訓練
 
 
 
@@ -70,7 +70,7 @@ ms.locfileid: "43053636"
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/microsoftteams/enduser-training">
+        <a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
