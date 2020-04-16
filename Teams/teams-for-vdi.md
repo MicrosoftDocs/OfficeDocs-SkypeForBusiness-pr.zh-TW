@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2cfe1c1af9fe85d307999289d318106c8ebc132a
-ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
+ms.openlocfilehash: ee41f32ac2237e5e2c6e2e92fd18ea1c1952f7cd
+ms.sourcegitcommit: df4dde0fe6ce9e26cb4b3da4e4b878538d31decc
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42892293"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43521609"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>適用於虛擬桌面架構的 Teams
 
@@ -135,7 +135,7 @@ Office 365 專業增強版不支援小組的每電腦安裝。 若要使用 [每
     - [32位版本](https://statics.teams.cdn.office.net/production-windows/1.3.00.4461/Teams_windows.msi)
     - [64位版本](https://statics.teams.cdn.office.net/production-windows-x64/1.3.00.4461/Teams_windows_x64.msi)
 
-    所需的小組桌面應用程式最低版本為版本1.2.00.31357。 （舊版中不支援 PSTN 保留。）
+    所需的小組桌面應用程式最低版本為版本1.3.00.4461。 （舊版中不支援 PSTN 保留。）
 
 2. 執行下列其中一項命令，將 MSI 安裝到 VDI VM：
 
@@ -246,21 +246,21 @@ Chrome 瀏覽器上的小組無法使用 AV 優化來為 VDI 的小組桌面應�
 若要將 DisallowCalling 通話原則和 AllOff 會議原則指派給使用者，請遵循下列步驟：
 
 1. 在 Microsoft 團隊系統管理中心的左導覽中，前往 [**使用者**]。
-2. 按一下使用者名稱左邊的，然後按一下 [**編輯設定**]，選取使用者。
-3. 請執行下列步驟：
+2. 按一下使用者名稱左方以選取使用者，然後按一下 [編輯設定]****。
+3. 請執行下列動作：
     1.  按一下 [**呼叫原則**] 底下的 [ **DisallowCalling**]。
     2.  按一下 [**會議原則**] 底下的 [ **AllOff**]。
 4. 按一下 **[** 套用]。
 
-若要一次將原則指派給多位使用者，請參閱[大量編輯團隊使用者設定](edit-user-settings-in-bulk.md)。
+若要一次將原則指派給多個使用者，請參閱[大量編輯 Teams 使用者設定](edit-user-settings-in-bulk.md)。
 
 或者，您也可以執行下列動作：
 
 1. 在 Microsoft 團隊系統管理中心的左導覽中，移至您要指派的原則。 例如：
     - 移至 [**語音** > **通話原則**]，然後按一下 [ **DisallowCalling**]。
     - 移至 [**會議** > **會議原則**]，然後按一下 [ **AllOff**]。
-3. 選取 [**管理使用者**]。
-4. 在 [**管理使用者**] 窗格中，依 [顯示名稱] 或 [使用者名稱] 搜尋使用者，選取名稱，然後按一下 [**新增**]。 針對您要新增的每個使用者重複此步驟。
+3. 選取 [管理使用者]****。
+4. 在 [管理使用者]**** 窗格中，依顯示名稱或使用者名稱搜尋使用者，選取名稱，然後按一下 [新增]****。 針對要新增的每一個使用者重複此步驟。
 5. 完成新增使用者後，請按一下 [**儲存**]。
 
 #### <a name="assign-policies-using-powershell"></a>使用 PowerShell 指派原則
@@ -283,7 +283,7 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity "user email id"
 
 ## <a name="migrate-teams-on-vdi-with-chat-and-collaboration-to-citrix-with-calling-and-meetings"></a>使用通話與會議，在 VDI 上將團隊遷移到與 Citrix 進行聊天與共同作業
 
-如果您在 VDI 上已有使用您已設定使用者層級原則來關閉通話和會議功能的小組，且您是透過 AV 優化來遷移到 Citrix，您必須設定原則來開啟通話，並針對 VDI 使用者的小組提供的會議功能。
+如果您在 VDI 上有現有的小組實現，且您已將使用者層級原則設定為關閉通話與會議功能，且您是透過 AV 優化來移植到 Citrix，則您必須設定原則來針對 VDI 使用者的小組開啟與會議功能。
 
 ### <a name="set-policies-to-turn-on-calling-and-meeting-functionality"></a>設定原則以開啟通話與會議功能
 
@@ -298,21 +298,21 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity "user email id"
 若要將 AllowCalling 通話原則和 AllOn 會議原則指派給使用者，請遵循下列步驟：
 
 1. 在 Microsoft 團隊系統管理中心的左導覽中，前往 [**使用者**]。
-2. 按一下使用者名稱左邊的，然後按一下 [**編輯設定**]，選取使用者。
-3. 請執行下列步驟：
+2. 按一下使用者名稱左方以選取使用者，然後按一下 [編輯設定]****。
+3. 請執行下列動作：
     1.  按一下 [**呼叫原則**] 底下的 [ **AllowCalling**]。
     2.  按一下 [**會議原則**] 底下的 [ **AllOn**]。
 4. 按一下 **[** 套用]。
 
-若要一次將原則指派給多位使用者，請參閱[大量編輯團隊使用者設定](edit-user-settings-in-bulk.md)。
+若要一次將原則指派給多個使用者，請參閱[大量編輯 Teams 使用者設定](edit-user-settings-in-bulk.md)。
 
 或者，您也可以執行下列動作：
 
 1. 在 Microsoft 團隊系統管理中心的左導覽中，移至您要指派的原則。 例如：
     - 移至 [**語音** > **通話原則**]，然後按一下 [ **AllowCalling**]。
     - 移至 [**會議** > **會議原則**]，然後按一下 [ **AllOn**]。
-3. 選取 [**管理使用者**]。
-4. 在 [**管理使用者**] 窗格中，依 [顯示名稱] 或 [使用者名稱] 搜尋使用者，選取名稱，然後按一下 [**新增**]。 針對您要新增的每個使用者重複此步驟。
+3. 選取 [管理使用者]****。
+4. 在 [管理使用者]**** 窗格中，依顯示名稱或使用者名稱搜尋使用者，選取名稱，然後按一下 [新增]****。 針對要新增的每一個使用者重複此步驟。
 5. 完成新增使用者後，請按一下 [**儲存**]。
 
 #### <a name="assign-policies-using-powershell"></a>使用 PowerShell 指派原則
@@ -369,4 +369,4 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity "user email id"
 ## <a name="related-topics"></a>相關主題
 
 - [使用 MSI 安裝 Microsoft 團隊](msi-deployment.md)
-- [團隊 PowerShell 概覽](teams-powershell-overview.md)
+- [Teams PowerShell 概觀](teams-powershell-overview.md)

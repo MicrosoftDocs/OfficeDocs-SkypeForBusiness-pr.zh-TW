@@ -17,12 +17,12 @@ description: 瞭解當您需要執行 eDiscovery 時要採取的動作，例如�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 75098323afa8aef9e80223cbc1883e9c12cb53c6
-ms.sourcegitcommit: 477aac9e14fced139ee7dd827942ce35b9769b63
+ms.openlocfilehash: 4b31f2efb613551ab17320900e45cf30d0ee11be
+ms.sourcegitcommit: df4dde0fe6ce9e26cb4b3da4e4b878538d31decc
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 04/15/2020
-ms.locfileid: "43510692"
+ms.locfileid: "43521539"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>在 Microsoft 團隊中進行 eDiscovery 調查內容
 
@@ -43,12 +43,12 @@ ms.locfileid: "43510692"
 | 顯示每位使用者讀取郵件的時間戳記 | 否 | |
 | 音訊錄製 | 否 | |
 | 私人通道訊息 | 否 | |
-| Emoji、Gif、不乾膠標籤 | 否 | |
+| Emoji、Gif、不乾膠標籤 | 是 | |
 | 程式碼片段 | 否 | |
 | 聊天連結 | 否 | |
 | 反應（贊、紅心等等） | 否 | |
 | 已編輯的郵件 | 是 | 如果使用者已保留，則會保留先前版本的已編輯郵件。 |
-| 內嵌圖像 | 否 | |
+| 內嵌圖像 | 是 | |
 | 該表 | 否 | |
 | 主題 | 否 | |
 | 引述 | 是 | 已報價的內容可供搜尋。 不過，搜尋結果不會指出內容已加上引號。 |

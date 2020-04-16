@@ -14,12 +14,12 @@ ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
 description: 本文將摘要說明支援 Microsoft 團隊聊天室的需求。
-ms.openlocfilehash: 9dba3a9972dee782b3d2df2ce48f7f38c19fcbc1
-ms.sourcegitcommit: f0f2fa999c1ca4a1118377c7938a247f79217609
+ms.openlocfilehash: 2496fcb1af7d85a3d1c3ba755a2431aff40d5a70
+ms.sourcegitcommit: df4dde0fe6ce9e26cb4b3da4e4b878538d31decc
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43106680"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43521599"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft 團隊會議室需求
 
@@ -78,7 +78,7 @@ Microsoft 團隊聊天室會根據房間大小及用途，使用各種經認證�
   |Surface Pro </br>（第5代） |核心 i5 |8 GB 或 4 GB |128 GB 以上 |
   |Surface Pro 4 |核心 i5 |8 GB 或 4 GB |128 GB 以上 |
 
-- 下列其中一個對接站選項，可將平板電腦固定在會議室表格。
+- Surface Pro 裝置需要下列其中一個對接站選項，才能將平板電腦固定在會議室表格中。
 
   - [Logitech SmartDock](https://www.logitech.com/product/smartdock)
   - [Crestron SR](https://www.crestron.com/products/line/sr-for-skype-for-business-room-system )

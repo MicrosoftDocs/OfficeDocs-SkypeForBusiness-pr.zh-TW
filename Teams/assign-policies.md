@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft 團隊中將原則指派給使用者
+title: 在 Microsoft Teams 中將原則指派給使用者
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -16,14 +16,14 @@ localization_priority: Normal
 search.appverid: MET150
 description: 瞭解在 Microsoft 團隊中將原則指派給使用者的不同方式。
 f1keywords: ''
-ms.openlocfilehash: 0ad4794d0813eec97ea723d86ae6b3c60e0c9129
-ms.sourcegitcommit: 996ae0d36ae1bcb3978c865bb296d8eccf48598e
+ms.openlocfilehash: 5c46b74519520950d31f01d4c86ae2a5002ae279
+ms.sourcegitcommit: df4dde0fe6ce9e26cb4b3da4e4b878538d31decc
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "43068495"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43521619"
 ---
-# <a name="assign-policies-to-your-users-in-microsoft-teams"></a>在 Microsoft 團隊中將原則指派給使用者
+# <a name="assign-policies-to-your-users-in-microsoft-teams"></a>在 Microsoft Teams 中將原則指派給使用者
 
 > [!NOTE]
 > **本文中討論的其中一個 Microsoft 團隊功能，目前只有私人預覽提供的[原則指派給群組](#assign-a-policy-to-a-group)。此功能的 Powershell Cmdlet 位於預發行團隊 PowerShell 模組中。** 若要掌握此功能的發行狀態，請參閱[Microsoft 365 藍圖](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=61185)。
@@ -66,7 +66,7 @@ ms.locfileid: "43068495"
 | [指派原則套件](#assign-a-policy-package)   | 您需要將多個原則指派給貴組織中擁有相同或相似角色的特定使用者組。 例如，將教育版（教師）原則套件指派給學校的教師，讓他們能完全存取聊天、通話及會議，以及將教育（次要學校學生）原則封裝到次要學生，以限制私人電話等特定功能。  |團隊 PowerShell 模組中的 Microsoft 團隊系統管理中心或 PowerShell Cmdlet|
 |[指派原則給一批使用者](#assign-a-policy-to-a-batch-of-users)   | 您必須將原則指派給大型使用者組。 例如，您想要一次將原則指派給組織中的成百上千位使用者。  |團隊 PowerShell 模組中的 PowerShell Cmdlet|
 |[將原則指派給群組](#assign-a-policy-to-a-group)（在預覽中）   |您必須根據使用者的群組成員資格指派原則。 例如，您想要將原則指派給安全性群組或組織單位中的所有使用者。| 團隊 PowerShell 模組中的 PowerShell Cmdlet|
-| 指派原則套件給一批使用者（即將推出） |||
+| [指派原則套件給一批使用者](#assign-a-policy-package-to-a-batch-of-users)|您需要將多個原則指派給組織中擁有相同或相似角色的使用者。 例如，您可以使用批次作業將教育版（教師）原則套件指派給學校中的所有教師，讓他們能完全存取聊天、通話及會議，並將教育（次要學校學生）原則套件指派給一批次要學生，以限制私人通話等特定功能。|團隊 PowerShell 模組中的 PowerShell Cmdlet|
 | 將原則套件指派給群組（即將推出）   | ||
 
 ## <a name="assign-a-policy-to-individual-users"></a>指派原則給個別使用者
@@ -373,6 +373,57 @@ Grant-CsTeamsMeetingBroadcastPolicy -Identity daniel@contoso.com -PolicyName $nu
 ```powershell
 New-CsBatchPolicyAssignmentOperation -OperationName "Assigning null at bulk" -PolicyType TeamsMeetingBroadcastPolicy -PolicyName $null -Identity $users  
 ```
+
+## <a name="assign-a-policy-package-to-a-batch-of-users"></a>指派原則套件給一批使用者
+
+使用批次原則套件指派，您可以一次將原則套件指派給大型的使用者組，而不需要使用腳本。 您可以使用```New-CsBatchPolicyPackageAssignmentOperation``` Cmdlet 來提交一批使用者，以及您要指派的原則套件。 作業會處理為背景作業，並會針對每個批次產生操作 ID。 然後，您就可以```Get-CsBatchPolicyAssignmentOperation```使用此 Cmdlet 來追蹤批次中作業的進度和狀態。
+
+批次最多可包含20000個使用者。 您可以依物件識別碼、UPN、SIP 位址或電子郵件地址來指定使用者。
+
+> [!IMPORTANT]
+> 我們目前建議您一次將原則套件指派給一批5000個使用者。 在這些時間增加需求期間，您可能會遇到處理時間的延遲。 為了將這些增加的處理時間的影響降至最低，我們建議您提交較小至5000個使用者的批次，並在前一個帳戶完成後提交每個批次。 在一般的商務時間以外提交批次也會有所説明。
+
+### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>安裝並連接至 Microsoft 團隊 PowerShell 模組
+
+執行下列動作以安裝[Microsoft 團隊 PowerShell 模組](https://www.powershellgallery.com/packages/MicrosoftTeams)（如果您尚未這麼做）。 請確定您已安裝版本1.0.5 或更新版本。
+
+```powershell
+Install-Module -Name MicrosoftTeams
+```
+
+執行下列動作以連線至團隊並啟動會話。
+
+```powershell
+Connect-MicrosoftTeams
+```
+
+出現提示時，請使用您的系統管理員認證登入。
+
+### <a name="assign-a-policy-package-to-a-batch-of-users"></a>指派原則套件給一批使用者
+
+在這個範例中，我們使用```New-CsBatchPolicyPackageAssignmentOperation``` Cmdlet 將 Education_PrimaryStudent 原則套件指派給一批使用者。
+
+```powershell
+New-CsBatchPolicyPackageAssignmentOperation -Identity 1bc0b35f-095a-4a37-a24c-c4b6049816ab,user1@econtoso.com,user2@contoso.com -PackageName Education_PrimaryStudent
+```
+
+若要深入瞭解，請參閱[新-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation)。
+
+### <a name="get-the-status-of-a-batch-assignment"></a>取得批次作業的狀態
+
+執行下列操作以取得批次工作的狀態，其中 OperationId 是由```New-CsBatchPolicyAssignmentOperation``` Cmdlet 針對指定批次傳回的作業識別碼。
+
+```powershell
+$Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | fl
+```
+
+如果輸出顯示發生錯誤，請執行下列動作，以取得有關```UserState```屬性中錯誤的詳細資訊。
+
+```powershell
+Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | Select -ExpandProperty UserState
+```
+
+若要深入瞭解，請參閱[CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/get-csbatchpolicyassignmentoperation)。 
 
 ## <a name="related-topics"></a>相關主題
 
