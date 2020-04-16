@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 為商務用 Skype Server 2019 設定資源帳戶。
-ms.openlocfilehash: 14d2f161be54ac61c866597bdad141cf31138fbd
-ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
+ms.openlocfilehash: 1de087abdf08420a6300ae45466e9696aacb1ed1
+ms.sourcegitcommit: 477aac9e14fced139ee7dd827942ce35b9769b63
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42892303"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43510782"
 ---
 # <a name="configure-resource-accounts"></a>設定資源帳戶
 
@@ -26,7 +26,7 @@ ms.locfileid: "42892303"
 
 若要使用電話系統自動語音應答或具有商務用 Skype Server 2019 的通話佇列，您將需要建立充當應用程式端點且可以指派電話號碼的資源帳戶，然後使用線上團隊系統管理中心來設定通話佇列或自動語音應答。 這個資源帳戶可在線上上進行（請參閱[管理 Microsoft 小組中的資源帳戶](/MicrosoftTeams/manage-resource-accounts)以建立線上資源帳戶）或內部部署（如本文所述）。 一般來說，您會有多個電話系統自動語音應答或通話佇列節點，每個節點都對應至可在線上或商務用 Skype Server 2019 中的資源帳戶。
 
-如果您有現有的 Exchange UM 自動語音應答及通話佇列系統，在切換至 Exchange Server 2019 或 Exchange online 之前，您必須先手動記錄詳細資料，然後再使用團隊系統管理中心執行全新的系統。.
+如果您有現有的 Exchange UM 自動語音應答及通話佇列系統，在切換至 Exchange Server 2019 或 Exchange online 之前，您必須先手動記錄詳細資料，然後再使用團隊系統管理中心執行全新的系統。
 
 ## <a name="overview"></a>概觀
 
@@ -105,7 +105,7 @@ ms.locfileid: "42892303"
 
    若要將其指派給最上層的自動語音應答或通話佇列，則資源帳戶需要指派的電話號碼。 無法將使用者（訂戶）電話號碼指派給資源帳戶，只能使用服務收費或免付費電話號碼。
 
-     您可以將直接路由混合式號碼指派給您的資源帳戶。 如需詳細資訊，請參閱[規劃直接路由](/MicrosoftTeams/direct-routing-plan)。
+     您可以將直接路由或混合式號碼指派給資源帳戶。 如需詳細資訊，請參閱[Plan Direct Routing](/MicrosoftTeams/direct-routing-plan) And [plan Cloud auto](plan-cloud-auto-attendant.md)direct。
 
      > [!NOTE]
      > 指派給自動語音應答和通話佇列之資源帳戶的直接路由服務編號，僅支援 Microsoft 團隊使用者和代理程式。
