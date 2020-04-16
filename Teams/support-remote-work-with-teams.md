@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 使用本指導方針來協助組織中的遠端工作者使用 Microsoft Teams 來提高生產力，尤其是當他們在家中工作 (WFH) 時，以因應 COVID-19 (冠狀病毒) 爆發的情況。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 96ff59470c8d9726b4c26bf0522e5b1e730b9014
-ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
+ms.openlocfilehash: ef26f05e20aadeb46be2a553303bc686aded6215
+ms.sourcegitcommit: 5606f908c6efeb67713f5986b1d8575a896bb5bd
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43170511"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43506844"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>支援使用 Microsoft Teams 的遠端工作者
 
@@ -67,6 +67,8 @@ ms.locfileid: "43170511"
 
 1. 閱讀[常見問題：支援遠端員工](FAQ-support-remote-workforce.md)，我們會定期更新本文。
 
+2. [使用適用於 Teams 的建議程式協助您推出 Teams](use-advisor-teams-roll-out.md)。 適用於 Teams 的建議程式 (位於 Team 系統管理中心) 將引導您完成 Teams 部署。
+
 1. 閱讀最新的部落格文章：
    
    - [Microsoft 如何讓員工使用 Microsoft Teams 遠端工作](https://www.microsoft.com/itshowcase/blog/how-microsoft-enables-its-employees-to-work-remotely/) (英文)
@@ -109,7 +111,7 @@ ms.locfileid: "43170511"
    - [安全性和 Teams](teams-security-guide.md) 進入 Teams 安全性的所有技術詳細資料，做為 Microsoft 365 企業級安全性最佳做法與程序的一部分。
 
 
-2.  [傳送訓練連結](enduser-training.md)，協助您的員工充分發揮 Teams 的效用。
+2.  分享 [Teams 視訊訓練](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)連結，協助您的員工充分發揮 Teams 的效用。
 
 3. 更進一步：深入了解推出 Teams 的詳細資訊。
 
@@ -150,7 +152,7 @@ ms.locfileid: "43170511"
     
    - 傳送有關組織的在家工作以及健康和安全原則資訊。
     
-   - 在全公司的會議與拓展中使用[即時活動](teams-live-events/what-are-teams-live-events.md)。 如果您的會議有超過 250 個參與者，請將它設為即時活動。 開啟[會議](https://support.office.com/article/Use-live-captions-in-a-Teams-meeting-4be2d304-f675-4b57-8347-cbd000a21260)和[即時活動](https://support.office.com/article/Use-live-captions-in-a-live-event-1d6778d4-6c65-4189-ab13-e2d77beb9e2a)的即時輔助字幕。 此外，在即時活動中開啟字幕。 這些功能會提高包容性、生產力和理解力。 
+   - 在全公司的會議與拓展中使用[即時活動](teams-live-events/what-are-teams-live-events.md)。 如果您的會議有超過 250 個參與者，請將它設為即時活動。 開啟[會議](https://support.office.com/article/Use-live-captions-in-a-Teams-meeting-4be2d304-f675-4b57-8347-cbd000a21260)和[即時活動](https://support.office.com/article/Use-live-captions-in-a-live-event-1d6778d4-6c65-4189-ab13-e2d77beb9e2a)的即時輔助字幕。 此外，在即時活動中開啟翻譯字幕。 這些功能會提高包容性、生產力和理解力。 
 
 4.  設置[技術服務人員](troubleshoot-installation.md)以處理使用者查詢。
 

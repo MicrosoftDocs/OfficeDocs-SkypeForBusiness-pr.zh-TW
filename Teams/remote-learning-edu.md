@@ -18,18 +18,19 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0358e23f4f549aba6064a78d95f7ce160bb738b0
-ms.sourcegitcommit: 1c2cef3deb384216bf0a89628573a277ee6e3e2b
+ms.openlocfilehash: 3c264bba408205f8f00d1df20fffbc6242124220
+ms.sourcegitcommit: f9860dbf3c719fec5ffc1874b503b6db252afe10
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43174955"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "43237956"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>開始使用 Microsoft Teams 進行遠端學習
 
 > [!NOTE]
 > 本文是為學校設定遠端學習的絕佳資源。 如果您是教育人士、學校主管或 IT 專業人員，這些資源可能會有所幫助：
 >
+> - 您可以使用[**單頁入門**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true)，迅速建立整個學校或大學的資料，並在 Teams 中執行。
 > - 下載[**如何開始使用 Teams**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Teams-for-Education-ITAdmin-get-started-guide.pptx?raw=true)：適用於 IT 專業人員的指南，其中包含有關安全性和變更管理的實用作法。
 > - 專為授課者撰寫的文章集合，包括最重要之[**在 Teams 中教學首要步驟**](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114)的使用方法指南。
 > - Microsoft 教育工作者中心的 1 小時線上課程，說明授課者如何在其專業領域中使用 Teams。 [**使用 Microsoft Teams 轉換學習**](https://education.microsoft.com/course/9c9f5c11/overview)。
@@ -60,7 +61,7 @@ Teams 利用 Microsoft 365 功能來驗證使用者和提供服務。 教職員�
 Microsoft Teams 隨附於 Office 365 A1 中，教育機構可免費試用。 如需有關如何部署 Office 365 並讓整個學校開始使用 Teams 的 IT 指導方針，請參閱[此頁](https://docs.microsoft.com/microsoft-365/education/intune-edu-trial/set-up-office365-edu-tenant)。 若要取得支援，可以在[這裡](https://signup.microsoft.com/Signup?OfferId=03ee83a5-5cb4-4545-aca9-33ead43f222a,d764709a-7763-45ef-a2a8-db5b8b6ae704&DL=ENTERPRISEPREMIUM_FACULTY&ali=1)提出支援票證；若要取得 Teams 的訓練課程，請造訪當地的 Microsoft Store 實體商店與專業人員洽詢。
 
 > [!NOTE]
-> 如需有關教育界部署的最新資訊，請參閱 COVID-19 的《M365 教育界部署更新指南》[](https://docs.microsoft.com/microsoft-365/education/deploy/guidance-for-m365-edu-deployment-during-covid19)。
+> 如需有關教育界部署的最新資訊，請參閱 COVID-19 的[《M365 教育界部署更新指南》](https://docs.microsoft.com/microsoft-365/education/deploy/guidance-for-m365-edu-deployment-during-covid19)。
 
 ## <a name="easily-set-up-teams"></a>輕鬆設定 Teams
 
@@ -72,16 +73,18 @@ Microsoft Teams 隨附於 Office 365 A1 中，教育機構可免費試用。 如
 
 當您讓每個人 (包括學生) 為班級、研究、群組專案及研究群組建立團隊時，高等教育客戶更能從中獲益。 中小學學校可能會想要限制學生建立 Teams，以確保所有學生與學生之間的通訊會在包含成人的論壇內進行。 在此情況下，您可以將 Office 365 群組和 Teams 建立限制為所有授課者和教職員。
 
+如需如何建立 Teams 的逐步解說，請參閱[在 Microsoft Teams 中建立班級團隊](https://support.office.com/article/create-a-class-team-in-microsoft-teams-preview-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b)。
+
 ### <a name="2-configure-user-experiences-using-policies"></a>2. 使用原則設定使用者體驗
 
 [Teams 原則](teams-policies.md)能讓您控制特定使用者或使用者群組可用的選項。 您可以套用原則來定義應允許哪些人員使用私人交談、私人通話、會議排程、可以共用的內容類型等等。
 
-**高等教育教職員、授課者和學生**都能因為預設 (全域) 原則所包含的功能而從中獲益。 您可以啟用部分其他原則設定，以新增更多功能至 Teams，包括[在訊息原則中啟用翻譯功能](messaging-policies-in-teams.md#messaging-policy-settings)，以及在會議原則中[允許自動轉錄會議](meeting-policies-in-teams.md#allow-transcription)。
+**高等教育教職員、授課者和學生**都能因為預設 (全域) 原則所包含的功能而從中獲益。 您可以啟用部分其他原則設定，以新增更多功能至 Teams，包括[在訊息原則中啟用翻譯功能](messaging-policies-in-teams.md#messaging-policy-settings)，以及在會議原則中[允許自動謄寫會議](meeting-policies-in-teams.md#allow-transcription)。
 
 **中小學學校學生**可能需要為學生提供受限制的功能。 原則會設定學生可以執行動作的範圍。 因為學生人口通常是最大的使用者集合，而且通常會取得最受限制的設定，建議您將學生原則變更為 [全域 (全組織預設)] 原則。
 
 > [!IMPORTANT]
-> 對於指派給任何使用者的會議原則，我們建議您將「自動系統管理員」設定設為「組織中的所有人」。 此設定可確保未驗證的使用者必須先在大廳獲准後才能加入 Teams 會議。 如需詳細資訊，請參閱 [Teams 管理會議原則][](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#automatically-admit-people)。
+> 對於指派給任何使用者的會議原則，我們建議您將 [自動准許人員] 設定設為 [組織中的所有人]。 此設定可確保未驗證的使用者必須先在大廳獲准後才能加入 Teams 會議。 如需詳細資訊，請參閱 [[Teams 管理會議原則]](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#automatically-admit-people)。
 
 以下是一組常見的非預設原則組態，可指派給中小學學生以限制學生之間的未經仲裁通訊：
 
@@ -101,6 +104,10 @@ Microsoft Teams 隨附於 Office 365 A1 中，教育機構可免費試用。 如
 - [允許頻道會議排程] 設定為 [關閉]
 - [允許排程私人會議] 設定為 [關閉]
 - [允許在私人會議中立即開會] 設定為 [關閉]
+- 選用：[允許 IP 視訊] 設定為 [開啟]
+
+> [!NOTE]
+> 這可讓教職員能夠即時查看學生的影片。
 
 #### <a name="live-events-policy"></a>即時活動原則
 
@@ -122,7 +129,7 @@ Microsoft Teams 隨附於 Office 365 A1 中，教育機構可免費試用。 如
 
 Microsoft Teams 教育版提供[特定類型的 Teams](https://support.office.com/article/choose-a-team-type-to-collaborate-in-microsoft-teams-0a971053-d640-4555-9fd7-f785c2b99e67) 供教育使用。 [班級團隊類型](https://support.office.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b)是專為具有特定功能的教室設計，包括：作業、OneNote 教室筆記本、[班級教材資料夾](https://support.office.com/article/Use-folders-to-create-read-only-files-for-students-or-other-team-members-0e7791d7-8c9c-4749-9bca-984289477988)，以保護學生唯讀內容的安全，以及能夠將干擾的學生設為靜音。 有幾種方法可供您部署班級團隊：
 
-1. 由 **IT 設定**[學校資料同步處理 (SDS)](https://sds.microsoft.com/)，使得您能夠根據學校資訊系統中的資訊，為所有班級建立班級團隊。 此程序會為每個課程佈建團隊，並讓講師和學生名單保持同步。[授課者能夠在接受學生之前準備其團隊](https://support.office.com/article/activate-early-access-class-teams-created-with-school-data-sync-0d154696-66ab-4fcf-b22f-c3d9a82aaf78)。 或者，如果某授課者不使用團隊，因為授課者沒有按 [啟用]，學生就不會被接受加入團隊。 SDS 針對資料匯入支援 80 多種不同的學校資訊系統 (SIS 系統)，而 [SDS 支援團隊](https://aka.ms/SDSSupport)可協助您進行規劃和組態。 您也可以觀看我們的[遠端學習的快速部署指南](https://docs.microsoft.com/SchoolDataSync/fast-deployment-guidance)，以便快速開始使用。
+1. 由 **IT 設定**[學校資料同步處理 (SDS)](https://sds.microsoft.com/)，使得您能夠根據學校資訊系統中的資訊，為所有班級建立班級團隊。 此程序會在每個區段中佈建群組，並讓講師和學生名冊隨著註冊變更而保持同步。 授課者可以[使用此程序](https://support.office.com/article/create-a-class-team-in-microsoft-teams-preview-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b)將這些群組轉換成課程團隊。 一旦建立課程團隊，[授課者就能在准許學生之前，先準備好其團隊](https://support.office.com/article/activate-early-access-class-teams-created-with-school-data-sync-0d154696-66ab-4fcf-b22f-c3d9a82aaf78) 。 SDS 針對資料匯入支援 80 多種不同的學校資訊系統 (SIS 系統)，而  [SDS 支援團隊](https://aka.ms/SDSSupport) 可協助您進行規劃和組態。 您也可以觀看我們的[遠端學習的快速部署指南](https://docs.microsoft.com/SchoolDataSync/fast-deployment-guidance)，以便快速開始使用。
 1. **授課者設定**自己的班級類型團隊，並邀請學生。 授課者透過[將學生新增至團隊](https://support.office.com/article/add-a-student-to-a-class-team-b88263bb-ace1-4702-8a48-f8a2cf4af954)、[共用加入代碼](https://support.office.com/article/create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f)或[共用團隊的連結](https://support.office.com/article/create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f)來執行此動作。 若可能，最好是由授課者將學生新增至團隊，以確保學生取得存取權，並收到已將他們新增至團隊的通知。
 
 在設定團隊之後，團隊擁有者可以[自訂其團隊的設定](https://support.office.com/article/find-your-class-team-s-settings-in-microsoft-teams-2592d4de-581d-4952-9028-02317880c158)，包括新增[團隊圖片](https://support.office.com/article/change-your-team-picture-02ea2af6-b49d-4de8-9551-1a5e472993c0)、為班級主題或群組共同作業區域[建立頻道](https://support.office.com/article/create-student-project-groups-channels-in-microsoft-teams-f85b3c07-fb87-4b94-883b-9be55f4b1e45)、[新增應用程式](https://support.office.com/article/add-an-app-to-teams-b2217706-f7ed-4e64-8e96-c413afd02f77) (例如 Quizlet/Flipgrid/Kahoot) 來呈現現有的教學內容，以及[在第一篇文章中提及其團隊](https://support.office.com/article/using-the-conversation-tab-in-microsoft-teams-53d1c530-3797-4a6f-9892-6760f8763df2)來通知所有人並開始交談。
@@ -135,7 +142,9 @@ Microsoft Teams 教育版提供[特定類型的 Teams](https://support.office.co
 
 ### <a name="collaborative-meetings-for-virtual-classes"></a>虛擬班級的共同會議
 
-[Microsoft Teams 會議](https://docs.microsoft.com/MicrosoftTeams/tutorial-meetings-in-teams)最多可支援 250 個並行的出席者，包括音訊、視訊、[內容共用](https://support.office.com/article/show-your-screen-during-a-meeting-90c84e5a-b6fe-4ed4-9687-5923d230d3a7)、白板和共用筆記等功能。 您可以在 Teams 用戶端中以[私人空間或團隊頻道內進行會議](https://docs.microsoft.com/MicrosoftTeams/tutorial-meetings-in-teams)的形式排程會議，使所有團隊成員知道該相關資訊。 您可以錄製會議並儲存會議，以供出席者稍後檢閱。 您也可以[轉錄這些錄製檔以輕鬆尋找討論過的內容](https://support.office.com/article/Microsoft-Stream-automatically-creates-closed-captions-for-videos-8d6ac353-9ff2-4e2b-bca1-329499455308)。 膝上型電腦或行動電話網路攝影機、麥克風和喇叭可供會議使用，您可以從 [Microsoft Teams 最佳化裝置](https://products.office.com/microsoft-teams/across-devices/devices)獲得優質音訊/視頻品質。
+[Microsoft Teams 會議](https://docs.microsoft.com/MicrosoftTeams/tutorial-meetings-in-teams)最多可支援 250 個並行的出席者，包括音訊、視訊、[內容共用](https://support.office.com/article/show-your-screen-during-a-meeting-90c84e5a-b6fe-4ed4-9687-5923d230d3a7)、白板和共用筆記等功能。 您可以在 Teams 用戶端中以[私人空間或團隊頻道內進行會議](https://docs.microsoft.com/MicrosoftTeams/tutorial-meetings-in-teams)的形式排程會議，使所有團隊成員知道該相關資訊。 您可以錄製會議並儲存會議，以供出席者稍後檢閱。 您也可以[謄寫這些錄製檔以輕鬆尋找討論過的內容](https://support.office.com/article/Microsoft-Stream-automatically-creates-closed-captions-for-videos-8d6ac353-9ff2-4e2b-bca1-329499455308)。 膝上型電腦或行動電話網路攝影機、麥克風和喇叭可供會議使用，您可以從 [Microsoft Teams 最佳化裝置](https://products.office.com/microsoft-teams/across-devices/devices)獲得優質音訊/視頻品質。
+
+在 Teams 中，會議召集人可以結束所有參與者的會議。 使用這項功能，授課者就能在課程完成之後，確保學生不會留在會議中而不受監督。
 
 ### <a name="districtuniversity-events-or-updates"></a>校區/大學活動或更新
 
@@ -148,9 +157,11 @@ Microsoft Teams 教育版提供[特定類型的 Teams](https://support.office.co
 > [!NOTE]
 > 部分重要的 Teams 功能並非專為教育所用。 您可以在下列位置找到核心 Teams 功能的秘訣與訣竅：[Microsoft Teams 說明與學習](https://support.office.com/teams)。
 
+如果您想要深入了解如何在會議過程中保護學生，您可以查看[在 Teams 中使用會議進行遠距學習時確保學生的安全](https://support.office.com/article/f00fa399-0473-4d31-ab72-644c137e11c8)。
+
 ### <a name="prevent-users-from-changing-their-profile-photo"></a>防止使用者變更其個人資料相片
 
-Teams 接受由租用戶管理員設定的 [Outlook 網頁版信箱原則][](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy) 設定，來控制使用者是否可以變更個人資料相片。 如果 [-SetPhotoEnabled]**** 設定為關閉狀態，使用者將無法新增、變更或移除他們的個人資料相片。 若要防止學生或教職員變更或移除個人資料相片，請在指派給其 Outlook 網頁版信箱原則中關閉這項設定。
+Teams 接受由租用戶管理員設定的 [[Outlook 網頁版信箱原則]](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy) 設定，來控制使用者是否可以變更個人資料相片。 如果 **[-SetPhotoEnabled]** 設定為關閉狀態，使用者將無法新增、變更或移除他們的個人資料相片。 若要防止學生或教職員變更或移除個人資料相片，請在指派給其 Outlook 網頁版信箱原則中關閉這項設定。
 
 例如，如果學生上傳由您學校 IT 或人力資源部門核准的個人資料相片，其則不需要採取任何動作。 然而，如果學生上傳了不適當的相片，則請根據您學校的內部政策變更相片。  
 

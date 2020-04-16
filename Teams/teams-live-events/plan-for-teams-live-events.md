@@ -1,5 +1,5 @@
 ---
-title: 規劃 Microsoft 團隊中的即時事件
+title: 在 Microsoft Teams 中規劃即時活動
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -14,120 +14,120 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 search.appverid: MET150
-description: 瞭解在 Microsoft 團隊中設定即時事件之前要考慮的因素。
+description: 了解在 Microsoft Teams 中設定即時活動之前需考量的因素。
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 2f70a7a2be51045f616ebb4cedc5baf46dbe101d
 ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 04/14/2020
 ms.locfileid: "43505620"
 ---
-# <a name="plan-for-live-events-in-microsoft-teams"></a>規劃 Microsoft 團隊中的即時事件
+# <a name="plan-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中規劃即時活動
 
-當您規劃團隊即時事件以在貴組織中舉行大型會議時，必須先考慮幾個因素，才能開始設定。 
+當您規劃 Teams 即時活動來舉辦貴組織大型會議時，必須先考量幾個因素，再開始進行設定。 
 
-## <a name="who-can-create-and-schedule-live-events"></a>誰可以建立及排程即時事件？ 
-使用者必須具備下列先決條件，才能排程小組即時事件。
+## <a name="who-can-create-and-schedule-live-events"></a>哪些人可以建立及排定即時活動？ 
+使用者需要具備下列必要條件，才能排定 Teams 即時活動。
 
 以下是必須指派的授權：  
-- Office 365 企業版 E1、E3 或 E5 授權或 Office 365 A3 或 A5 授權
-- Microsoft 團隊授權
-- Microsoft 串流授權
+- Office 365 企業版 E1、E3 或 E5 授權，或 Office 365 A3 或 A5 授權
+- Microsoft Teams 授權
+- Microsoft Stream 授權
 
 > [!IMPORTANT]
-> 使用者建立及排程即時事件必須有 Exchange Online 信箱。
+> 建立和排程即時活動的使用者必須擁有 Exchange Online 信箱。
 
-請務必瞭解，必須有 Office 365 授權，才能以驗證的使用者身分參與即時事件，但這項需求視使用的生產方法而定：
+請務必知道，若要以已驗證的使用者身分參與即時活動，必須要具備 Office 365 授權，但這項需求視使用的生產方法而定：
 
-- **針對團隊中產生的活動** 使用者必須獲指派團隊授權。
-- **針對使用外部應用程式或裝置產生的事件**使用者必須獲指派串流授權。
+- **針對 Teams 中產生的活動**，使用者必須取得指派的 Teams 授權。
+- **針對外部應用程式或裝置所產生的活動**，使用者必須取得指派的 Stream 授權。
 
 > [!NOTE]
-> 團隊即時事件現已提供給美國政府雲端社區（GCC）組織使用。
+> Teams 即時活動現在適用於美國政府社群雲端 (GCC) 組織。
 
-如需授權的詳細資訊，請參閱[Microsoft 團隊附加元件授權](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
+如需授權的詳細資訊，請參閱 [Microsoft Teams 附加元件授權](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
 
-使用者必須具備：
-- 已啟用團隊中的私人會議排程（*TeamsMeetingPolicy-AllowPrivateMeetingScheduling 參數 = True*）。
-- 在團隊會議中啟用影片共用（*TeamsMeetingPolicy-AllowIPVideo 參數 = True*）。
-- 在團隊會議中啟用螢幕共用（*TeamsMeetingPolicy-ScreenSharingMode 參數 = EntireScreen*）。
-- 已啟用團隊中的即時事件排程（*TeamsMeetingBroadcastPolicy-AllowBroadcastScheduling 參數 = True*）。
-- 在串流中建立即時事件的許可權（適用于外部 app 或裝置生產）。
-- 共存模式已設定為能夠排程團隊會議（*僅限 Islands、會議優先或團隊*）。
+使用者必須：
+- 已啟用 Teams 中的私人會議排程 (*TeamsMeetingPolicy -AllowPrivateMeetingScheduling 參數 = True*)。
+- 在 Teams 會議中啟用影片共用 (*TeamsMeetingPolicy -AllowIPVideo 參數 = True*)。
+- 在 Teams 會議中啟用螢幕共用 (*TeamsMeetingPolicy -ScreenSharingMode 參數 = EntireScreen*)。
+- 已啟用 Teams 中的即時活動 (*TeamsMeetingBroadcastPolicy -AllowBroadcastScheduling 參數 = True*)。
+- 在 Stream 中建立即時活動的權限 (適用於外部應用程式或裝置生產)。
+- 已設定共存模式，以便排程 Teams 會議 (*孤島、會議優先或僅 Teams*)。
 
 > [!IMPORTANT]
-> 未驗證的匿名使用者無法在團隊即時事件中受邀成為發生器或簡報者。 
+> 未經驗證的匿名使用者無法受邀為 Teams 即時活動製作人或簡報者。 
  
-## <a name="who-can-watch-live-events"></a>誰可以觀看即時事件？
+## <a name="who-can-watch-live-events"></a>誰可以觀看即時活動？
 
-|**出席者可視性**       |**團隊生產**  |**外部 app 或裝置生產**  |
+|**出席者可見度**       |**Teams 生產**  |**外部應用程式或裝置生產**  |
 |------------------------------|-----------------|----------------------|
-|公用（匿名使用者）      |  是            |  否                  |
+|公用 (匿名使用者)      |  是            |  否                  |
 |來賓使用者                   |  是            |  否                  |
-|聯盟公司中的所有人 |  是<sup>1</sup>|  否                  |
+|同盟公司中的每個人 |  是<sup>1</sup>|  否                  |
 |公司中的每個人           |  是            |  是                 |
 |特定群組/人員      |  是            |  是                 |
 
-<sup>1</sup>同盟參與者只能在 [人員] & 群組中受邀 <br>
+<sup>1</sup> 同盟的出席者只能透過人員與群組邀請 <br>
  
-## <a name="teams-live-events-and-skype-meeting-broadcast"></a>團隊即時活動與 Skype 會議廣播
+## <a name="teams-live-events-and-skype-meeting-broadcast"></a>Teams 即時活動和 Skype 會議廣播
 
-下表重點說明即時事件中提供的核心功能與功能，以及它們與 Skype 會議廣播有何不同。 
+下表醒目提示即時活動中提供的核心功能和功能，以及它們與 Skype 會議廣播有何差異。 
 
-|**功能**   |**Skype 會議廣播** |**小組中產生的事件** |**在外部 app 或裝置中產生的事件** |
+|**功能**   |**Skype 會議廣播** |**Teams 中產生的活動** |**在外部應用程式或裝置中生產的活動** |
 |---------|---------|---------|---------|
-|最大物件大小 |10,000 位出席者 |10000出席者<sup>1</sup> |10000出席者<sup>1</sup> |
-|即時事件的最長持續時間 |4 小時 |4 小時 |4 小時 |
-|即時事件中的簡報者和發生器數目上限 |10 <sup>2</sup> |10 <sup>2</sup> |10 <sup>2</sup> |
-|每個 Office 365 租使用者的併發即時事件數量上限 |工資  | 工資  | 工資  |
-|即時事件建立 |   Skype 會議廣播入口網站 |團隊，透過團隊進行 Yammer | 團隊、Yammer 透過團隊、資料流程 |
-|物件參與– Yammer |&#x2714; |&#x2714; （整合式體驗） |&#x2714; （整合式體驗） |
-|觀眾合作– & 的審查問題 |&#x2714;  |&#x2714; |&#x2714; |
-|Windows 上的製造者用戶端 |&#x2714; （商務用 Skype） |&#x2714; （團隊） |&#x2714; （資料流程、透過資料流程內嵌的團隊） |
-|Mac 上的製造者用戶端 |&#x274C;  | &#x2714; （團隊） |&#x2714; （資料流程、透過資料流程內嵌的團隊） |
-|製造者 UI 中的出席者計數 |&#x274C;  |&#x2714; （團隊） |&#x2714; （資料流程、透過資料流程內嵌的團隊） |
-|允許多重簡報者 |&#x2714; （商務用 Skype） |&#x2714; （團隊） |不適用  |
-|在會議期間邀請簡報者 |&#x2714; （商務用 Skype） |&#x274C; |不適用 |
-|簡報者加入網頁和行動裝置 |&#x2714; （商務用 Skype）  |&#x274C; |不適用 |
-|聯盟 & 來賓簡報者/出席者 |&#x2714; （商務用 Skype）  |  &#x2714; （團隊） |不適用 |
-|簡報者-PSTN 存取 |&#x274C; |&#x2714; （團隊） |不適用 |
-|展示畫面 |&#x274C; |&#x2714; （團隊） |不適用 |
-|展示 PowerPoint （PPT 共用） |&#x2714; |&#x274C; （透過螢幕共用來減輕） |不適用 |
-|以雲端為基礎的會議錄製 |&#x2714; |&#x2714; |&#x2714; |
-|自動發行錄製至串流 |&#x274C; |&#x274C; |&#x2714; |
-|即時輔助字幕和字幕 |&#x2714; |&#x2714; |&#x274C; |
-|即時事件錄製中的標題 |&#x2714; |&#x2714; |&#x2714; |
-|出席者的 DVR 控制項（暫停，倒帶） |&#x2714; |&#x2714; |&#x2714; |
-|合作夥伴 eCDN 支援 |&#x2714; （Hive、Kollective、斜坡） |&#x2714; （Hive、Kollective、斜坡） |&#x2714; （Hive、Kollective、斜坡） |
-|提供給發生器的廣播後出席報告 |&#x2714; |&#x2714; |&#x274C; |
-|物件觀點分析-即時投票 & 投票 |&#x2714; （Microsoft 脈衝） |&#x274C; |&#x274C; |
+|對象數目上限 |10,000 位出席者 |10,000 位出席者<sup>1</sup> |10,000 位出席者<sup>1</sup> |
+|即時活動的持續時間上限 |4 小時 |4 小時 |4 小時 |
+|即時活動中簡報者和製作人人數上限 |10 <sup>2</sup> |10 <sup>2</sup> |10 <sup>2</sup> |
+|每個 Office 365 租用戶的並行即時活動數量上限 |15  | 15  | 15  |
+|即時活動建立 |   Skype 會議廣播入口網站 |Teams，透過 Teams 的 Yammer | Teams，透過 Teams 的 Yammer，Stream |
+|對象參與 – Yammer |&#x2714; |&#x2714; (整合式體驗) |&#x2714; (整合式體驗) |
+|對象參與 – 仲裁常見問題集 |&#x2714;  |&#x2714; |&#x2714; |
+|Windows 上的製作人用戶端 |&#x2714; (商務用 Skype) |&#x2714; (Teams) |&#x2714; (Stream，透過內嵌 Stream 的 Teams) |
+|Mac 上的製作人用戶端 |&#x274C;  | &#x2714; (Teams) |&#x2714; (Stream，透過內嵌 Stream 的 Teams) |
+|製作人 UI 中的出席者計數 |&#x274C;  |&#x2714; (Teams) |&#x2714; (Stream，透過內嵌 Stream 的 Teams) |
+|允許多個簡報者 |&#x2714; (商務用 Skype) |&#x2714; (Teams) |不適用  |
+|在會議期間邀請簡報者 |&#x2714; (商務用 Skype) |&#x274C; |不適用 |
+|網路和行動裝置上的簡報者加入 |&#x2714; (商務用 Skype)  |&#x274C; |不適用 |
+|同盟和來賓簡報者/出席者 |&#x2714; (商務用 Skype)  |  &#x2714; (Teams) |不適用 |
+|簡報者 - PSTN 存取 |&#x274C; |&#x2714; (Teams) |不適用 |
+|展示畫面 |&#x274C; |&#x2714; (Teams) |不適用 |
+|展示 PowerPoint (PPT 共用) |&#x2714; |&#x274C; (透過螢幕畫面分享緩解) |不適用 |
+|雲端式會議錄製 |&#x2714; |&#x2714; |&#x2714; |
+|自動發佈錄製到 Stream |&#x274C; |&#x274C; |&#x2714; |
+|即時輔助字幕和翻譯字幕 |&#x2714; |&#x2714; |&#x274C; |
+|即時活動錄製中的輔助字幕 |&#x2714; |&#x2714; |&#x2714; |
+|出席者 DVR 控制項 (暫停、倒轉) |&#x2714; |&#x2714; |&#x2714; |
+|合作夥伴 eCDN 支援 |&#x2714; (Hive、Kollective、Ramp) |&#x2714; (Hive、Kollective、Ramp) |&#x2714; (Hive、Kollective、Ramp) |
+|適用於製作人的廣播後出席報告 |&#x2714; |&#x2714; |&#x274C; |
+|對象人氣分析 - 即時投票與票選 |&#x2714; (Microsoft Pulse) |&#x274C; |&#x274C; |
 
-<sup>1</sup>設定的限制可能會變更。 檢查[小組的限制與規格](../limits-specifications-teams.md)。<br/>
-<sup>2</sup>您最多可以在即時事件中擁有250簡報者和發生器，但只有在清單中顯示的最後10個分支。
+<sup>1</sup> 設定的限制可能會變更。 查看[Teams 的限制和規格](../limits-specifications-teams.md)。<br/>
+<sup>2</sup> 您最多可以在即時活動中擁有 250 位簡報者和製作人，但只會在清單中顯示最後 10 位發言者。
 
 
-## <a name="regional-availability"></a>地區可用性
-您可以在世界各地的多個區域中使用團隊即時事件。 下列資訊顯示事件小組成員和出席者的可用性。 
+## <a name="regional-availability"></a>區域可用性
+您可以在世界各地多個區域中使用 Teams 即時活動。 下列資訊顯示事件小組成員和出席者的可用性。 
 
 > [!IMPORTANT]
-> 系統會自動選取事件的地區，視召集人和 Office 365 組織而定。
+> 系統會根據召集人和 Office 365 組織，自動選取活動的區域。
 
-**在這些區域中提供**
-- 地區
+**可在這些區域中使用**
+- 美洲地區
 - 歐洲/非洲
 - 亞太地區
-- 當地地區加拿大、印度、澳大利亞、日本、英國
+- Go Local 加拿大、印度、澳大利亞、日本、英國
 
-**排除及考慮**
-- **移至 [區域變數]：** 目前不支援小組 [從上面所列以外的區域變數] 到 [局部]。
-- **中國：** 事件小組成員和出席者將無法使用團隊即時事件，因為 Azure CDN 在中國無法存取。 解決方法是使用公司 VPN 連線，透過客戶的公司網路來取得連接至 CDN 的用戶端。
+**排除和考量**
+- **Go Local：** Teams Go Local，上述以外的國家/地區目前不支援。
+- **中國：** 活動小組成員和出席者無法使用 Teams 即時活動，因為無法在中國存取 Azure CDN。 因應措施是使用公司 VPN 連線，透過客戶的公司網路，讓用戶端連線到 CDN。
 
 ## <a name="next-steps"></a>後續步驟
-移至[設定小組即時事件](set-up-for-teams-live-events.md)。
+移至[設定 Teams 即時活動](set-up-for-teams-live-events.md)。
 
 ### <a name="related-topics"></a>相關主題
 - [什麼是 Teams 即時活動？](what-are-teams-live-events.md)
 - [設定 Teams 即時活動](set-up-for-teams-live-events.md)
-- [在團隊中設定即時事件設定](configure-teams-live-events.md)
+- [在 Teams 中設定即時活動設定](configure-teams-live-events.md)
