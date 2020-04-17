@@ -16,12 +16,12 @@ f1.keywords:
 description: 針對直接路由設定本機媒體優化
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3097f97a856dc4e947281847c65669c23c73a408
-ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
+ms.openlocfilehash: 8a69a46d7620628c7afffb706354c0f6e7868f3d
+ms.sourcegitcommit: 3dd6499416e9fbdcb48187c6322bd607290502ce
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43158012"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "43541590"
 ---
 # <a name="configure-local-media-optimization-for-direct-routing"></a>針對直接路由設定本機媒體優化
 
@@ -75,6 +75,12 @@ ms.locfileid: "43158012"
 |            |  SBC 2000         | 8.1.1，組建527 |
 |            |  SBC SWe Lite     | 8.1.0，組建222 |
 | [TE-系統](https://www.anynode.de/local_media_optimization/) |  anynode          | 4.0.1 + |
+| [聯手](https://www.oracle.com/industries/communications/enterprise-communications/session-border-controller/microsoft.html) | AP 1100 | 8.4.0.0.0 |
+|        | AP 3900 | 8.4.0.0.0 |
+|        | AP 4600 | 8.4.0.0.0 | 
+|        | AP 6300 | 8.4.0.0.0 |
+|        | AP 6350 | 8.4.0.0.0 | 
+|        | VME     | 8.4.0.0.0 |
 
 
 ## <a name="manage-external-trusted-ip-addresses"></a>管理外部信任的 IP 位址
@@ -263,7 +269,7 @@ Set-CSOnlinePSTNGateway -Identity “IDsbc.contoso.com” -GatewaySiteID “Indo
 
 | 下 |    使用者 |  網站 |  通話方向
 |:------------|:-------|:-------|:-------|
-AlwaysBypass |  外來 |  N/A | 發 |
+AlwaysBypass |  外來 |  不適用 | 發 |
 
 
 下圖顯示使用 AlwaysBypass 模式的出站呼叫的 SIP 階梯，且使用者是外部的：
@@ -282,7 +288,7 @@ AlwaysBypass |  外來 |  N/A | 發 |
 
 | 下 | 使用者 | 網站 |  通話方向 |
 |:------------|:-------|:-------|:-------|
-AlwaysBypass |  外來 |  N/A |   進貨 |
+AlwaysBypass |  外來 |  不適用 |   進貨 |
 
 如果是撥入通話，則連接至直接路由的 SBC 必須傳送重新邀請（預設會提供本機媒體候選人）（如果使用者是外部的位置）。  X-MediaPath 是根據記錄路由與指定的 SBC 使用者來計算。
 
