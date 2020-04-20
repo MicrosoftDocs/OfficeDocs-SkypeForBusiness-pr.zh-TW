@@ -54,4 +54,4 @@ ms.locfileid: "43535528"
 |---------|---------|
 |您的使用者看到「您錯過了！」 的訊息。   |請確定要[為您的學校啟用 Microsoft Teams](https://docs.microsoft.com/microsoft-365/education/intune-edu-trial/enable-microsoft-teams)。 在 EDU 租用戶中不會預設啟用 Teams；您必須先將它開啟。 <br><br>接下來請參閱 [Office 365 教育版中的遠端教學和學習](https://support.office.com/article/remote-teaching-and-learning-in-office-365-education-f651ccae-7b65-478b-8366-51bb884025c4)，以了解如何設定學校、課程規劃、虛擬會議，以及與學生共用內容的最新指導方針。<br><br>最後，請務必在 [Teams 的管理訓練](itadmin-readiness.md)中查看 Microsoft Teams IT 系統管理員訓練影片、投影集和許多其他資訊。        |
 
-如需解決 Microsoft Teams 問題的詳細資訊，請參閱 [Teams 疑難排解](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)。
+如需解決 Microsoft Teams 問題的詳細資訊，請參閱 [Teams 疑難排解](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams) (部分機器翻譯)。
