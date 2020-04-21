@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d97f92b56b4a3e38489b1f99f8ba25497485495f
-ms.sourcegitcommit: a610bfe9c0192432744dfaf8d5ff5c2bb5a16b00
+ms.openlocfilehash: 18ad8a2808b12eb05e51d781cb422c65ad14e7ad
+ms.sourcegitcommit: edca9c1310b22a7b15ee1e3d00b4064cf647aa1e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "43191240"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43580671"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 與 Microsoft 團隊如何互動
 
@@ -30,16 +30,18 @@ ms.locfileid: "43191240"
 
 為了獲得完整的 Teams 體驗，每個使用者都應能夠建立 Exchange Online、SharePoint Online 和 Office 365 群組。
 
-使用者的 Exchange 信箱可以在線上託管或內部部署。 不過，某些功能需要與您的 Office 365 租使用者進行混合式部署。
+使用者的 Exchange 信箱可以在線上託管或內部部署。 整合內部部署 Exchange 需要 Exchange 混合式部署。 如需有關設定混合式部署的詳細資訊，請參閱[Exchange 伺服器混合式部署](https://docs.microsoft.com/exchange/exchange-hybrid)。
 
 以 Exchange Online 或 Exchange 專用 vNext 為宿主的使用者可以使用團隊的所有功能。 他們可以建立及加入團隊和頻道、建立及觀看會議、呼叫及聊天、修改使用者設定檔圖片（如果 Outlook 網頁版信箱原則允許他們這麼做），以及新增及設定連接器、索引標籤和 bot。
 
 以 Exchange Online 專用（舊版）託管的使用者必須同步處理到 Office 365 上的 Azure Active Directory。 他們可以建立及加入團隊與頻道、新增及設定索引標籤和機器人，以及利用聊天與通話功能。 不過，他們無法修改個人檔案圖片、管理會議、存取 outlook 連絡人或管理連接器。
 
-擁有內部部署之信箱的使用者必須同步處理到 Azure Active Directory。 他們可以使用上述案例中的所有功能，此外，他們也可以變更使用者設定檔圖片（如果 Outlook 網頁版信箱原則允許他們這麼做），以及管理會議（如果您是透過混合式設定向導2016提供）與 OAuth 設定的內部部署（最好是透過混合式設定精靈）。
+擁有內部部署之信箱的使用者必須同步處理到 Azure Active Directory。 它們可以利用上述案例中的所有功能，此外，他們也可以變更使用者設定檔圖片（如果 Outlook 網頁版信箱原則允許他們這麼做），以及管理會議（如果您提供 Exchange Server 2016 （累加更新3）或更新版本），都是在[exchange 與 Exchange Online 組織之間設定 oauth 驗證](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)的情況下，在內部部署上使用 oauth 設定（最好是透過 exchange 混合式設定向導）。 若要為這些使用者啟用行事曆委派，您也必須按照在商務用[Skype Online 與 Exchange Server 之間設定整合和 OAuth](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)中的說明，來完成步驟2-3。這些步驟會提供小組排程應用程式，以確認委派許可權所需的許可權。   
 
 下表提供根據 Exchange 環境的功能可用性的實用快速參考。
 
+> [!NOTE]
+> 內部部署 Exchange 與團隊之間的功能整合需要進行 Exchange 混合式部署。 此需求除了下表中的部分功能之外，還有其他版本特殊需求。
 
 **支援的動作：**
 
@@ -76,7 +78,7 @@ Microsoft 團隊可搭配數種 Office 365 服務使用，為使用者提供豐�
 
 - 若要在 Microsoft 團隊中建立小組，必須為使用者啟用 Office 365 群組建立功能。
 
-- 若要讓 Microsoft 團隊與 Exchange 內部部署搭配運作，您必須按照[設定 exchange 與 Exchange Online 組織之間的 OAuth 驗證](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)中所述的方式來設定新的 Exchange OAuth 驗證通訊協定。
+- 若要讓 Microsoft 團隊與 Exchange 內部部署搭配運作，您必須設定新的 Exchange OAuth 驗證通訊協定（最好是執行 Exchange 混合式嚮導），如在[Exchange 與 Exchange Online 組織之間設定 OAuth 驗證](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)中所述。 若要讓使用 Exchange 內部部署信箱的使用者以其他使用者的身分排程團隊會議，您也必須按照在[商務用 Skype Online 與 Exchange Server 之間設定整合和 OAuth](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)中的說明，來完成步驟2-3。 
 
 > [!NOTE]
 >針對 Exchange 內部部署與團隊整合，必須針對 AAD 同步處理的使用者指派所需的授權。
