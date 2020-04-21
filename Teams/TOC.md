@@ -729,7 +729,6 @@
 ### [硬體解碼器和編碼器驅動程式的建議](hardware-decoders-and-encoders.md)
 ### [使用 MSI 安裝 Teams](msi-deployment.md)
 ### [開啟貴組織中的 Teams](Office-365-set-up.md)
-### [要從防病毒掃描中排除的 Teams 檔案和資料夾](teams-files-folders-antivirus-perf.md)
 ### [Microsoft Teams 如何使用記憶體](teams-memory-usage-perf.md)
 ### [Office 365 URL 與 IP 位址範圍](office-365-urls-ip-address-ranges.md)
 ### [適用於虛擬桌面架構 (VDI) 的 Teams](teams-for-vdi.md)

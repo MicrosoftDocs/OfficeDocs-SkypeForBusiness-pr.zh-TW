@@ -3,36 +3,6 @@
 
 
 
-## <a name="week-of-march-09-2020"></a>2020年3月9日的周
-
-
-| 發佈日期 |主題標題 | 切換 |
-|------|------------|--------|
-| 3/10/2020 | [Teams 雲端會議錄製](/MicrosoftTeams/cloud-recording) | 日期 |
-| 3/10/2020 | [資料收集方式](/MicrosoftTeams/data-collection-practices) | 日期 |
-| 3/10/2020 | [[通話品質] 儀表板中提供的尺寸與測量](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | 日期 |
-| 3/10/2020 | [請與 PSTN 服務服務台聯繫](/MicrosoftTeams/manage-phone-numbers-for-your-organization/contact-pstn-service-desk) | 日期 |
-| 3/10/2020 | [您的移轉訂單狀態為何？](/MicrosoftTeams/phone-number-calling-plans/port-order-status) | 日期 |
-| 3/10/2020 | [在 Microsoft 團隊中設定邀請中所包含的電話號碼](/MicrosoftTeams/set-the-phone-numbers-included-on-invites-in-teams) | 日期 |
-| 3/10/2020 | [Microsoft Teams 使用者的導學型訓練與影片](/MicrosoftTeams/instructor-led-training-teams-landing-page) | 日期 |
-| 3/10/2020 | [適用於 Microsoft Teams 教育版管理員的資源](/MicrosoftTeams/remote-learning-edu) | 日期 |
-| 3/10/2020 | [在 Microsoft 團隊中管理您的裝置](/MicrosoftTeams/device-management) | 日期 |
-| 3/11/2020 | [管理 Microsoft 團隊中的 app 許可權原則](/MicrosoftTeams/teams-app-permission-policies) | 日期 |
-| 3/11/2020 | [在 Microsoft 團隊中管理 app 設定原則](/MicrosoftTeams/teams-app-setup-policies) | 日期 |
-| 3/11/2020 | [管理 Microsoft 團隊中的自訂應用程式原則和設定](/MicrosoftTeams/teams-custom-app-policies-and-settings) | 日期 |
-| 3/11/2020 | [在 Microsoft 團隊中將原則指派給使用者](/MicrosoftTeams/assign-policies) | 日期 |
-| 3/11/2020 | [將原則指派給學校中的大型使用者](/MicrosoftTeams/batch-policy-assignment-edu) | 日期 |
-| 3/12/2020 | [適用於虛擬桌面架構的 Teams](/MicrosoftTeams/teams-for-vdi) | 日期 |
-| 3/12/2020 | [常見問題 - 支援遠端員工](/MicrosoftTeams/faq-support-remote-workforce) | 日期 |
-| 3/13/2020 | [印度中的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-india) | 日期 |
-| 3/13/2020 | [適用於 Microsoft Teams 教育版管理員的資源](/MicrosoftTeams/remote-learning-edu) | 日期 |
-| 3/13/2020 | [在 Microsoft 團隊中管理私人頻道的生命週期](/MicrosoftTeams/private-channels-life-cycle-management) | 日期 |
-| 3/13/2020 | [Microsoft 團隊 PSTN 使用方式報告](/MicrosoftTeams/teams-analytics-and-reports/pstn-usage-report) | 日期 |
-| 3/13/2020 | [Microsoft Teams 使用者的導學型訓練與影片](/MicrosoftTeams/instructor-led-training-teams-landing-page) | 日期 |
-| 3/13/2020 | [針對 Microsoft Teams 準備組織的網路](/MicrosoftTeams/prepare-network) | 日期 |
-| 3/13/2020 | [支援使用 Microsoft Teams 的遠端工作者](/MicrosoftTeams/support-remote-work-with-teams) | 日期 |
-
-
 ## <a name="week-of-march-16-2020"></a>2020年3月16日的周
 
 
@@ -111,9 +81,9 @@
 | 3/26/2020 | [適用於 Microsoft Teams 教育版管理員的資源](/MicrosoftTeams/remote-learning-edu) | 日期 |
 | 3/26/2020 | [開啟並使用通話品質儀表板](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) | 日期 |
 | 3/26/2020 | [在 Power BI 中使用 CQD 資料來查看 Microsoft 團隊利用率](/MicrosoftTeams/cqd-teams-utilization-report) | 日期 |
-| 3/26/2020 | [在 Microsoft 團隊中將原則指派給使用者](/MicrosoftTeams/assign-policies) | 日期 |
+| 3/26/2020 | [在 Microsoft Teams 中將原則指派給使用者](/MicrosoftTeams/assign-policies) | 日期 |
 | 3/26/2020 | [使用新式驗證登入 Microsoft Teams](/MicrosoftTeams/sign-in-teams) | 日期 |
-| 3/26/2020 | [規劃 Microsoft 團隊中的即時事件](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | 日期 |
+| 3/26/2020 | [在 Microsoft Teams 中規劃即時活動](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | 日期 |
 | 3/26/2020 | [指派、變更或移除使用者的電話號碼](/MicrosoftTeams/assign-change-or-remove-a-phone-number-for-a-user) | 日期 |
 | 3/26/2020 | [使用者可以致電給這些國家和地區](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions) | 日期 |
 | 3/26/2020 | [Microsoft 團隊會議室需求](/MicrosoftTeams/rooms/requirements) | 日期 |
@@ -135,7 +105,7 @@
 |------|------------|--------|
 | 3/31/2020 | [常見問題 - 支援遠端員工](/MicrosoftTeams/faq-support-remote-workforce) | 日期 |
 | 3/31/2020 | [Microsoft 團隊中的會議](/MicrosoftTeams/tutorial-meetings-in-teams) | 日期 |
-| 3/31/2020 | [在 Microsoft 團隊中將原則指派給使用者](/MicrosoftTeams/assign-policies) | 日期 |
+| 3/31/2020 | [在 Microsoft Teams 中將原則指派給使用者](/MicrosoftTeams/assign-policies) | 日期 |
 | 3/31/2020 | [為您的使用者設定語音來電功能](/MicrosoftTeams/set-up-the-call-me-feature-for-your-users) | 日期 |
 | 3/31/2020 | [支援使用 Microsoft Teams 的遠端政府工作者](/MicrosoftTeams/expand-teams-across-your-org/gov-support-remote-work-with-teams) | 日期 |
 | 3/31/2020 | [開始使用適用於醫療保健組織的 Secure Messaging](/MicrosoftTeams/expand-teams-across-your-org/healthcare/messaging-policies-hc) | 日期 |
@@ -152,7 +122,7 @@
 | 4/1/2020 | [Microsoft 團隊中的保留原則](/MicrosoftTeams/retention-policies) | 日期 |
 | 4/1/2020 | [為您的使用者設定語音來電功能](/MicrosoftTeams/set-up-the-call-me-feature-for-your-users) | 日期 |
 | 4/1/2020 | [支援使用 Microsoft Teams 的遠端工作者](/MicrosoftTeams/support-remote-work-with-teams) | 日期 |
-| 4/1/2020 | [規劃 Microsoft 團隊中的即時事件](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | 日期 |
+| 4/1/2020 | [在 Microsoft Teams 中規劃即時活動](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | 日期 |
 | 4/1/2020 | [將電話號碼移轉至商務語音](/MicrosoftTeams/business-voice/port-phone-numbers) | 日期 |
 | 4/1/2020 | [使用 [快速入門精靈] 設定商務語音](/MicrosoftTeams/business-voice/use-getting-started-wizard) | 日期 |
 | 4/1/2020 | [使用 Microsoft 365 商務語音附帶通話方案需要購買哪些項目？](/MicrosoftTeams/business-voice/what-to-buy) | 日期 |
@@ -172,7 +142,7 @@
 | 4/1/2020 | [版本支援](/MicrosoftTeams/rooms/rooms-lifecycle-support) | 日期 |
 | 4/1/2020 | [使用 XML 設定檔遠端系統管理 Microsoft 團隊聊天室的主控台設定](/MicrosoftTeams/rooms/xml-config-file) | 日期 |
 | 4/1/2020 | [使用 PowerShell 在 Microsoft 團隊中設定即時事件原則](/MicrosoftTeams/teams-live-events/set-teams-live-events-policies-using-powershell) | 日期 |
-| 4/1/2020 | [從 SharePoint Online 網站或頁面建立團隊 [內部網路入口網站] 應用程式](/MicrosoftTeams/teams-standalone-static-tabs-using-spo-sites) | 日期 |
+| 4/1/2020 | [從 SharePoint Online 網站或頁面建立 Teams「內部網路入口網站應用程式」](/MicrosoftTeams/teams-standalone-static-tabs-using-spo-sites) | 日期 |
 | 4/2/2020 | [適用於 Microsoft Teams for RealWear 用戶端的 ITAdmin 資訊 (預覽)](/MicrosoftTeams/flw-realwear) | 日期 |
 | 4/2/2020 | [透過 Microsoft 端點 Configuration Manager 使用 MSI 安裝 Microsoft 團隊](/MicrosoftTeams/msi-deployment) | 日期 |
 | 4/2/2020 | [Microsoft Teams 的安全性指南](/MicrosoftTeams/teams-security-guide) | 日期 |
@@ -350,7 +320,7 @@
 | 4/3/2020 | [商務用 Skype 與 Microsoft 團隊之間的互通性](/MicrosoftTeams/teams-and-skypeforbusiness-coexistence-and-interoperability) | 日期 |
 | 4/3/2020 | [管理自訂 app 原則和設定](/MicrosoftTeams/teams-custom-app-policies-and-settings) | 日期 |
 | 4/3/2020 | [使用 PowerShell 設定即時事件原則](/MicrosoftTeams/teams-live-events/set-teams-live-events-policies-using-powershell) | 日期 |
-| 4/3/2020 | [在 Microsoft 團隊中設定即時事件](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | 日期 |
+| 4/3/2020 | [在 Microsoft Teams 中設定即時活動](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | 日期 |
 | 4/3/2020 | [免付費電話的撥號限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions) | 日期 |
 | 4/3/2020 | [阿根廷的免付費撥號限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina) | 日期 |
 | 4/3/2020 | [澳大利亞免費撥號限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-australia) | 日期 |
@@ -440,7 +410,7 @@
 | 4/9/2020 | [為第一線員工大規模佈建 Microsoft Teams](/MicrosoftTeams/flw-scripted-deployment) | 日期 |
 | 4/9/2020 | [適用於 Microsoft Teams 教育版管理員的資源](/MicrosoftTeams/remote-learning-edu) | 日期 |
 | 4/9/2020 | [安全性與合規性概述](/MicrosoftTeams/security-compliance-overview) | 日期 |
-| 4/9/2020 | [從 SharePoint Online 網站或頁面建立團隊 [內部網路入口網站] 應用程式](/MicrosoftTeams/teams-standalone-static-tabs-using-spo-sites) | 日期 |
+| 4/9/2020 | [從 SharePoint Online 網站或頁面建立 Teams「內部網路入口網站應用程式」](/MicrosoftTeams/teams-standalone-static-tabs-using-spo-sites) | 日期 |
 | 4/9/2020 | [建立通話佇列](/MicrosoftTeams/create-a-phone-system-call-queue) | 日期 |
 | 4/9/2020 | [Microsoft Teams 的安全性指南](/MicrosoftTeams/teams-security-guide) | 日期 |
 | 4/9/2020 | [Microsoft Teams 的限制和規格](/MicrosoftTeams/limits-specifications-teams) | 日期 |
@@ -453,3 +423,43 @@
 | 4/10/2020 | [為第一線員工大規模佈建 Microsoft Teams](/MicrosoftTeams/flw-scripted-deployment) | 日期 |
 | 4/10/2020 | [什麼是移轉訂單？](/MicrosoftTeams/phone-number-calling-plans/port-order-overview) | 日期 |
 | 4/10/2020 | [將電話號碼轉移至 Microsoft 團隊](/MicrosoftTeams/phone-number-calling-plans/transfer-phone-numbers-to-teams) | 日期 |
+
+
+## <a name="week-of-april-13-2020"></a>2020年4月13日
+
+
+| 發佈日期 |主題標題 | 切換 |
+|------|------------|--------|
+| 4/14/2020 | [Microsoft Teams 的已知問題](/MicrosoftTeams/known-issues) | 日期 |
+| 4/14/2020 | [Microsoft 團隊的雲端視頻互通性](/MicrosoftTeams/cloud-video-interop) | 日期 |
+| 4/14/2020 | [設定雲端自動語音應答](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 日期 |
+| 4/14/2020 | [設定及管理頻道裁決](/MicrosoftTeams/manage-channel-moderation-in-teams) | 日期 |
+| 4/14/2020 | [管理會議原則](/MicrosoftTeams/meeting-policies-in-teams) | 日期 |
+| 4/14/2020 | [Microsoft 團隊聊天室中的驗證](/MicrosoftTeams/rooms/rooms-authentication) | 日期 |
+| 4/14/2020 | [在 Microsoft Teams 中規劃即時活動](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | 日期 |
+| 4/14/2020 | [系統管理訓練資源-Microsoft 團隊](/MicrosoftTeams/itadmin-readiness) | 日期 |
+| 4/14/2020 | [採納 Microsoft 團隊](/MicrosoftTeams/adopt-microsoft-teams-landing-page) | 日期 |
+| 4/14/2020 | Microsoft 團隊的最終使用者訓練 | 移除 |
+| 4/14/2020 | [從 Slack 移轉到 Microsoft Teams](/MicrosoftTeams/migrate-slack-to-teams) | 日期 |
+| 4/14/2020 | [支援使用 Microsoft Teams 的遠端工作者](/MicrosoftTeams/support-remote-work-with-teams) | 日期 |
+| 4/14/2020 | [促進認知和實施訓練](/MicrosoftTeams/teams-adoption-drive-awareness) | 日期 |
+| 4/14/2020 | [Microsoft Teams 系統管理訓練](/MicrosoftTeams/training-microsoft-teams-landing-page) | 日期 |
+| 4/14/2020 | [對內容進行 eDiscovery 調查](/MicrosoftTeams/ediscovery-investigation) | 日期 |
+| 4/14/2020 | [Teams 中的使用者目前狀態](/MicrosoftTeams/presence-admins) | 日期 |
+| 4/14/2020 | [遠端系統管理 Microsoft 團隊聊天室裝置設定](/MicrosoftTeams/rooms/xml-config-file) | 日期 |
+| 4/15/2020 | [在 Microsoft Teams 中將原則指派給使用者](/MicrosoftTeams/assign-policies) | 日期 |
+| 4/15/2020 | [Microsoft 團隊會議室需求](/MicrosoftTeams/rooms/requirements) | 日期 |
+| 4/15/2020 | [適用於虛擬桌面架構的 Teams](/MicrosoftTeams/teams-for-vdi) | 日期 |
+| 4/15/2020 | [對內容進行 eDiscovery 調查](/MicrosoftTeams/ediscovery-investigation) | 日期 |
+| 4/15/2020 | [在 Outlook 中使用 Microsoft Teams 會議增益集](/MicrosoftTeams/teams-add-in-for-outlook) | 日期 |
+| 4/15/2020 | [Microsoft 團隊使用量報告](/MicrosoftTeams/teams-analytics-and-reports/teams-usage-report) | 日期 |
+| 4/15/2020 | [Microsoft 團隊使用者活動報告](/MicrosoftTeams/teams-analytics-and-reports/user-activity-report) | 日期 |
+| 4/15/2020 | 準備您的網路以取得\| Microsoft 團隊埠防火牆需求 | 移除 |
+| 4/16/2020 | [Microsoft Teams 的已知問題](/MicrosoftTeams/known-issues) | 日期 |
+| 4/16/2020 | [直接路由本機媒體優化](/MicrosoftTeams/direct-routing-media-optimization-configure) | 日期 |
+| 4/17/2020 | [在 Outlook 中使用 Microsoft Teams 會議增益集](/MicrosoftTeams/teams-add-in-for-outlook) | 日期 |
+| 4/17/2020 | 加入檢查清單-設定網路-Microsoft 團隊 | 移除 |
+| 4/17/2020 | [手動提交移轉訂單](/MicrosoftTeams/phone-number-calling-plans/manually-submit-port-order) | 日期 |
+| 4/17/2020 | [PowerShell 腳本範例-建立 & 指派訊息傳遞原則](/MicrosoftTeams/scripts/powershell-script-teams-messaging-policy-edu) | 日期 |
+| 4/17/2020 | [在 Microsoft Teams 中規劃即時活動](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | 日期 |
+| 4/17/2020 | [Microsoft Teams 隱私權](/MicrosoftTeams/teams-privacy) | 日期 |
