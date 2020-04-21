@@ -657,14 +657,15 @@
 
 <!-- ============================================================ -->
 
-# 安全性與合規性
+# 安全性、隱私權與合規性
 ## [概觀](security-compliance-overview.md)
-## [Teams 中的資料位置](location-of-data-in-teams.md)
-## 安全性
+## 安全性及隱私權
 ### [安全性手冊](teams-security-guide.md)
 ### [身分識別和驗證](identify-models-authentication.md)
 ### [使用新式驗證登入 Teams](sign-in-teams.md)
 ### [Teams 中的安全連結](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [隱私權和 Microsoft Teams](teams-privacy.md)
+### [Teams 中的資料位置](location-of-data-in-teams.md)
 ## 合規性
 ### [資訊屏障](information-barriers-in-teams.md)
 ### [保留原則](retention-policies.md)
