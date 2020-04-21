@@ -17,7 +17,7 @@
 ### [使用 Exchange 內部部署 (混合式)](with-exchange-on-premises.md)
 ### [設定主控台](console.md)
 ### [設定驗證](rooms-authentication.md)
-### [使用 Microsoft 端點建構管理員](rooms-scale.md)
+### [使用 Microsoft Endpoint Configuration Manager](rooms-scale.md)
 ### [使用 Azure 監視器管理](azure-monitor-deploy.md)
 ### [移轉 SRS v1 或 LRS](lrs-migration.md)
 ### [內容相機](content-camera.md)
