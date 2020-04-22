@@ -16,137 +16,137 @@ ms.collection:
 - M365-voice
 localization_priority: Normal
 description: 本文涵蓋針對 Microsoft 團隊認證的手機清單，以及手機認證中 Microsoft 團隊支援的功能。
-ms.openlocfilehash: b811a92977d10601aa601e1bae811ef73c34dce8
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 94ee5e2dc1b55da190c4b6afa736fab2ced3e1d1
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836863"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780222"
 ---
-# <a name="phones-for-microsoft-teams"></a><span data-ttu-id="737c9-103">Microsoft 團隊的電話</span><span class="sxs-lookup"><span data-stu-id="737c9-103">Phones for Microsoft Teams</span></span>
+# <a name="phones-for-microsoft-teams"></a><span data-ttu-id="37f20-103">Microsoft 團隊的電話</span><span class="sxs-lookup"><span data-stu-id="37f20-103">Phones for Microsoft Teams</span></span>
 
-<span data-ttu-id="737c9-104">Microsoft 團隊可為需要傳統電話體驗的使用者支援一套手機。</span><span class="sxs-lookup"><span data-stu-id="737c9-104">Microsoft Teams supports a portfolio of desk phones for users who require a traditional phone experience.</span></span> <span data-ttu-id="737c9-105">本文涵蓋針對 Microsoft 團隊認證的手機清單，以及手機認證中 Microsoft 團隊支援的功能。</span><span class="sxs-lookup"><span data-stu-id="737c9-105">This article covers the list of phones that are certified for Microsoft Teams and the features supported in the phones certified for Microsoft Teams.</span></span> <span data-ttu-id="737c9-106">若要取得小組認證裝置的最新及最新資訊，請移至 [[小組 Marketplace](https://office.com/teamsdevices)]。</span><span class="sxs-lookup"><span data-stu-id="737c9-106">To get the latest and up-to-date information on Teams certified devices, go to [Teams Marketplace](https://office.com/teamsdevices).</span></span>
+<span data-ttu-id="37f20-104">Microsoft 團隊可為需要傳統電話體驗的使用者支援一套手機。</span><span class="sxs-lookup"><span data-stu-id="37f20-104">Microsoft Teams supports a portfolio of desk phones for users who require a traditional phone experience.</span></span> <span data-ttu-id="37f20-105">本文涵蓋針對 Microsoft 團隊認證的手機清單，以及手機認證中 Microsoft 團隊支援的功能。</span><span class="sxs-lookup"><span data-stu-id="37f20-105">This article covers the list of phones that are certified for Microsoft Teams and the features supported in the phones certified for Microsoft Teams.</span></span> <span data-ttu-id="37f20-106">若要取得小組認證裝置的最新及最新資訊，請移至 [[小組 Marketplace](https://office.com/teamsdevices)]。</span><span class="sxs-lookup"><span data-stu-id="37f20-106">To get the latest and up-to-date information on Teams certified devices, go to [Teams Marketplace](https://office.com/teamsdevices).</span></span>
 
-## <a name="teams-certified-ip-phones"></a><span data-ttu-id="737c9-107">小組認證的 IP 電話</span><span class="sxs-lookup"><span data-stu-id="737c9-107">Teams certified IP phones</span></span>
+## <a name="teams-certified-ip-phones"></a><span data-ttu-id="37f20-107">小組認證的 IP 電話</span><span class="sxs-lookup"><span data-stu-id="37f20-107">Teams certified IP phones</span></span>
 
-<span data-ttu-id="737c9-108">若要在手機上提供高品質且可靠的 Microsoft 團隊體驗，我們將與 Yealink、Crestron、Polycom 和 Audiocodes 共同合作，以開發及認證大量的手機和會議室音訊裝置。</span><span class="sxs-lookup"><span data-stu-id="737c9-108">To deliver a high-quality and reliable Microsoft Teams experience on phones, we are partnering and actively working with Yealink, Crestron, Polycom, and Audiocodes to develop and certify a wide portfolio of desk phones and conference room audio devices.</span></span> <span data-ttu-id="737c9-109">請參閱[目前已認證的 IP 手機](teams-ip-phones.md#currently-certified-ip-phones)（適用于目前支援的裝置）。</span><span class="sxs-lookup"><span data-stu-id="737c9-109">See [Currently certified IP Phones](teams-ip-phones.md#currently-certified-ip-phones) for current supported devices.</span></span>
+<span data-ttu-id="37f20-108">若要在手機上提供高品質且可靠的 Microsoft 團隊體驗，我們將與 Yealink、Crestron、Polycom 和 Audiocodes 共同合作，以開發及認證大量的手機和會議室音訊裝置。</span><span class="sxs-lookup"><span data-stu-id="37f20-108">To deliver a high-quality and reliable Microsoft Teams experience on phones, we are partnering and actively working with Yealink, Crestron, Polycom, and Audiocodes to develop and certify a wide portfolio of desk phones and conference room audio devices.</span></span> <span data-ttu-id="37f20-109">請參閱[目前已認證的 IP 手機](teams-ip-phones.md#currently-certified-ip-phones)（適用于目前支援的裝置）。</span><span class="sxs-lookup"><span data-stu-id="37f20-109">See [Currently certified IP Phones](teams-ip-phones.md#currently-certified-ip-phones) for current supported devices.</span></span>
 
-## <a name="microsoft-teams-phones-feature-set"></a><span data-ttu-id="737c9-110">Microsoft 團隊手機功能集</span><span class="sxs-lookup"><span data-stu-id="737c9-110">Microsoft Teams phones feature set</span></span>
+## <a name="microsoft-teams-phones-feature-set"></a><span data-ttu-id="37f20-110">Microsoft 團隊手機功能集</span><span class="sxs-lookup"><span data-stu-id="37f20-110">Microsoft Teams phones feature set</span></span>
 
-<span data-ttu-id="737c9-111">下表提供「團隊認證的 IP 手機」支援的高層級功能。</span><span class="sxs-lookup"><span data-stu-id="737c9-111">A high-level set of features supported in Teams certified IP phones is available in the following table.</span></span>
+<span data-ttu-id="37f20-111">下表提供「團隊認證的 IP 手機」支援的高層級功能。</span><span class="sxs-lookup"><span data-stu-id="37f20-111">A high-level set of features supported in Teams certified IP phones is available in the following table.</span></span>
 
-|<span data-ttu-id="737c9-112">Features</span><span class="sxs-lookup"><span data-stu-id="737c9-112">Features</span></span> |<span data-ttu-id="737c9-113">Phone （個人模式）</span><span class="sxs-lookup"><span data-stu-id="737c9-113">Desk Phone (Personal Mode)</span></span> |<span data-ttu-id="737c9-114">會議室電話（共用模式）</span><span class="sxs-lookup"><span data-stu-id="737c9-114">Conference Room Phone (Shared Mode)</span></span>|
+|<span data-ttu-id="37f20-112">功能</span><span class="sxs-lookup"><span data-stu-id="37f20-112">Features</span></span> |<span data-ttu-id="37f20-113">Phone （個人模式）</span><span class="sxs-lookup"><span data-stu-id="37f20-113">Desk Phone (Personal Mode)</span></span> |<span data-ttu-id="37f20-114">會議室電話（共用模式）</span><span class="sxs-lookup"><span data-stu-id="37f20-114">Conference Room Phone (Shared Mode)</span></span>|
 |---------|---------|---------|
-|<span data-ttu-id="737c9-115">**驗證**</span><span class="sxs-lookup"><span data-stu-id="737c9-115">**Authentication**</span></span> | |  |
-|<span data-ttu-id="737c9-116">使用使用者認證登入</span><span class="sxs-lookup"><span data-stu-id="737c9-116">Sign in with user credentials</span></span> |  <span data-ttu-id="737c9-117">是</span><span class="sxs-lookup"><span data-stu-id="737c9-117">Yes</span></span> | <span data-ttu-id="737c9-118">是</span><span class="sxs-lookup"><span data-stu-id="737c9-118">Yes</span></span>|
-|<span data-ttu-id="737c9-119">使用 PC/智慧型手機登入</span><span class="sxs-lookup"><span data-stu-id="737c9-119">Sign in using PC/Smartphone</span></span>  | <span data-ttu-id="737c9-120">是</span><span class="sxs-lookup"><span data-stu-id="737c9-120">Yes</span></span> |<span data-ttu-id="737c9-121">是</span><span class="sxs-lookup"><span data-stu-id="737c9-121">Yes</span></span>|
-|<span data-ttu-id="737c9-122">新式驗證</span><span class="sxs-lookup"><span data-stu-id="737c9-122">Modern Authentication</span></span> | <span data-ttu-id="737c9-123">是</span><span class="sxs-lookup"><span data-stu-id="737c9-123">Yes</span></span> |<span data-ttu-id="737c9-124">是</span><span class="sxs-lookup"><span data-stu-id="737c9-124">Yes</span></span> |
-|<span data-ttu-id="737c9-125">電話鎖定/解除鎖定</span><span class="sxs-lookup"><span data-stu-id="737c9-125">Phone lock/unlock</span></span> | <span data-ttu-id="737c9-126">是</span><span class="sxs-lookup"><span data-stu-id="737c9-126">Yes</span></span> |<span data-ttu-id="737c9-127">否</span><span class="sxs-lookup"><span data-stu-id="737c9-127">No</span></span> |
-|<span data-ttu-id="737c9-128">**通話**</span><span class="sxs-lookup"><span data-stu-id="737c9-128">**Calling**</span></span> |  |  |
-|<span data-ttu-id="737c9-129">傳入/傳出 P2P 通話</span><span class="sxs-lookup"><span data-stu-id="737c9-129">Incoming/Outgoing P2P calls</span></span> | <span data-ttu-id="737c9-130">是</span><span class="sxs-lookup"><span data-stu-id="737c9-130">Yes</span></span>  |<span data-ttu-id="737c9-131">是</span><span class="sxs-lookup"><span data-stu-id="737c9-131">Yes</span></span> |
-|<span data-ttu-id="737c9-132">透過 UI 進行通話控制（[靜音]、[保留/繼續]、[轉接]、[結束通話]）</span><span class="sxs-lookup"><span data-stu-id="737c9-132">In-call controls via UI (Mute, hold/resume, transfer, end call)</span></span>| <span data-ttu-id="737c9-133">是</span><span class="sxs-lookup"><span data-stu-id="737c9-133">Yes</span></span>  |<span data-ttu-id="737c9-134">是</span><span class="sxs-lookup"><span data-stu-id="737c9-134">Yes</span></span> |
-|<span data-ttu-id="737c9-135">PSTN 通話</span><span class="sxs-lookup"><span data-stu-id="737c9-135">PSTN calls</span></span>| <span data-ttu-id="737c9-136">是</span><span class="sxs-lookup"><span data-stu-id="737c9-136">Yes</span></span>  |<span data-ttu-id="737c9-137">是</span><span class="sxs-lookup"><span data-stu-id="737c9-137">Yes</span></span> |
-|<span data-ttu-id="737c9-138">視覺語音信箱</span><span class="sxs-lookup"><span data-stu-id="737c9-138">Visual Voicemail</span></span> | <span data-ttu-id="737c9-139">是</span><span class="sxs-lookup"><span data-stu-id="737c9-139">Yes</span></span> | <span data-ttu-id="737c9-140">否</span><span class="sxs-lookup"><span data-stu-id="737c9-140">No</span></span> |
-|<span data-ttu-id="737c9-141">911支援</span><span class="sxs-lookup"><span data-stu-id="737c9-141">911 support</span></span>  | <span data-ttu-id="737c9-142">是</span><span class="sxs-lookup"><span data-stu-id="737c9-142">Yes</span></span>  |<span data-ttu-id="737c9-143">是</span><span class="sxs-lookup"><span data-stu-id="737c9-143">Yes</span></span> |
-|<span data-ttu-id="737c9-144">**行事曆和目前狀態**</span><span class="sxs-lookup"><span data-stu-id="737c9-144">**Calendar and Presence**</span></span>|   | |
-|<span data-ttu-id="737c9-145">行事曆存取與會議詳細資料</span><span class="sxs-lookup"><span data-stu-id="737c9-145">Calendar Access and Meeting Details</span></span>|<span data-ttu-id="737c9-146">是</span><span class="sxs-lookup"><span data-stu-id="737c9-146">Yes</span></span> |<span data-ttu-id="737c9-147">是</span><span class="sxs-lookup"><span data-stu-id="737c9-147">Yes</span></span>|
-|<span data-ttu-id="737c9-148">目前狀態整合</span><span class="sxs-lookup"><span data-stu-id="737c9-148">Presence Integration</span></span> |<span data-ttu-id="737c9-149">是</span><span class="sxs-lookup"><span data-stu-id="737c9-149">Yes</span></span>|<span data-ttu-id="737c9-150">是</span><span class="sxs-lookup"><span data-stu-id="737c9-150">Yes</span></span>|
-|<span data-ttu-id="737c9-151">Exchange 行事曆整合</span><span class="sxs-lookup"><span data-stu-id="737c9-151">Exchange Calendar Integration</span></span> |<span data-ttu-id="737c9-152">是</span><span class="sxs-lookup"><span data-stu-id="737c9-152">Yes</span></span>|<span data-ttu-id="737c9-153">是</span><span class="sxs-lookup"><span data-stu-id="737c9-153">Yes</span></span>|
-|<span data-ttu-id="737c9-154">連絡人圖片整合</span><span class="sxs-lookup"><span data-stu-id="737c9-154">Contact Picture Integration</span></span>  |<span data-ttu-id="737c9-155">是</span><span class="sxs-lookup"><span data-stu-id="737c9-155">Yes</span></span>|<span data-ttu-id="737c9-156">是</span><span class="sxs-lookup"><span data-stu-id="737c9-156">Yes</span></span>|
-|<span data-ttu-id="737c9-157">公司目錄存取</span><span class="sxs-lookup"><span data-stu-id="737c9-157">Corporate Directory Access</span></span> | <span data-ttu-id="737c9-158">是</span><span class="sxs-lookup"><span data-stu-id="737c9-158">Yes</span></span>|<span data-ttu-id="737c9-159">是</span><span class="sxs-lookup"><span data-stu-id="737c9-159">Yes</span></span>|
-|<span data-ttu-id="737c9-160">**會議**</span><span class="sxs-lookup"><span data-stu-id="737c9-160">**Meetings**</span></span>|   ||
-|<span data-ttu-id="737c9-161">按一下 [加入會議]</span><span class="sxs-lookup"><span data-stu-id="737c9-161">One-click Join for Meetings</span></span>  | <span data-ttu-id="737c9-162">是</span><span class="sxs-lookup"><span data-stu-id="737c9-162">Yes</span></span>  |<span data-ttu-id="737c9-163">是</span><span class="sxs-lookup"><span data-stu-id="737c9-163">Yes</span></span> |
-|<span data-ttu-id="737c9-164">加入商務用 Skype 會議</span><span class="sxs-lookup"><span data-stu-id="737c9-164">Join Skype for Business meetings</span></span> | <span data-ttu-id="737c9-165">是</span><span class="sxs-lookup"><span data-stu-id="737c9-165">Yes</span></span>  | <span data-ttu-id="737c9-166">是</span><span class="sxs-lookup"><span data-stu-id="737c9-166">Yes</span></span>|
-|<span data-ttu-id="737c9-167">會議通話控制（靜音/取消靜音、保留/繼續、掛斷、新增/移除參與者）</span><span class="sxs-lookup"><span data-stu-id="737c9-167">Meeting Call controls (Mute/unmute, hold/resume, hang up, add/remove participant)</span></span>|<span data-ttu-id="737c9-168">是</span><span class="sxs-lookup"><span data-stu-id="737c9-168">Yes</span></span>|<span data-ttu-id="737c9-169">是</span><span class="sxs-lookup"><span data-stu-id="737c9-169">Yes</span></span>|
-|<span data-ttu-id="737c9-170">會議詳細資料</span><span class="sxs-lookup"><span data-stu-id="737c9-170">Meeting Details</span></span>|<span data-ttu-id="737c9-171">是</span><span class="sxs-lookup"><span data-stu-id="737c9-171">Yes</span></span>|<span data-ttu-id="737c9-172">否</span><span class="sxs-lookup"><span data-stu-id="737c9-172">No</span></span>|
+|<span data-ttu-id="37f20-115">**驗證**</span><span class="sxs-lookup"><span data-stu-id="37f20-115">**Authentication**</span></span> | |  |
+|<span data-ttu-id="37f20-116">使用使用者認證登入</span><span class="sxs-lookup"><span data-stu-id="37f20-116">Sign in with user credentials</span></span> |  <span data-ttu-id="37f20-117">是</span><span class="sxs-lookup"><span data-stu-id="37f20-117">Yes</span></span> | <span data-ttu-id="37f20-118">是</span><span class="sxs-lookup"><span data-stu-id="37f20-118">Yes</span></span>|
+|<span data-ttu-id="37f20-119">使用 PC/智慧型手機登入</span><span class="sxs-lookup"><span data-stu-id="37f20-119">Sign in using PC/Smartphone</span></span>  | <span data-ttu-id="37f20-120">是</span><span class="sxs-lookup"><span data-stu-id="37f20-120">Yes</span></span> |<span data-ttu-id="37f20-121">是</span><span class="sxs-lookup"><span data-stu-id="37f20-121">Yes</span></span>|
+|<span data-ttu-id="37f20-122">新式驗證</span><span class="sxs-lookup"><span data-stu-id="37f20-122">Modern Authentication</span></span> | <span data-ttu-id="37f20-123">是</span><span class="sxs-lookup"><span data-stu-id="37f20-123">Yes</span></span> |<span data-ttu-id="37f20-124">是</span><span class="sxs-lookup"><span data-stu-id="37f20-124">Yes</span></span> |
+|<span data-ttu-id="37f20-125">電話鎖定/解除鎖定</span><span class="sxs-lookup"><span data-stu-id="37f20-125">Phone lock/unlock</span></span> | <span data-ttu-id="37f20-126">是</span><span class="sxs-lookup"><span data-stu-id="37f20-126">Yes</span></span> |<span data-ttu-id="37f20-127">否</span><span class="sxs-lookup"><span data-stu-id="37f20-127">No</span></span> |
+|<span data-ttu-id="37f20-128">**通話**</span><span class="sxs-lookup"><span data-stu-id="37f20-128">**Calling**</span></span> |  |  |
+|<span data-ttu-id="37f20-129">傳入/傳出 P2P 通話</span><span class="sxs-lookup"><span data-stu-id="37f20-129">Incoming/Outgoing P2P calls</span></span> | <span data-ttu-id="37f20-130">是</span><span class="sxs-lookup"><span data-stu-id="37f20-130">Yes</span></span>  |<span data-ttu-id="37f20-131">是</span><span class="sxs-lookup"><span data-stu-id="37f20-131">Yes</span></span> |
+|<span data-ttu-id="37f20-132">透過 UI 進行通話控制（[靜音]、[保留/繼續]、[轉接]、[結束通話]）</span><span class="sxs-lookup"><span data-stu-id="37f20-132">In-call controls via UI (Mute, hold/resume, transfer, end call)</span></span>| <span data-ttu-id="37f20-133">是</span><span class="sxs-lookup"><span data-stu-id="37f20-133">Yes</span></span>  |<span data-ttu-id="37f20-134">是</span><span class="sxs-lookup"><span data-stu-id="37f20-134">Yes</span></span> |
+|<span data-ttu-id="37f20-135">PSTN 通話</span><span class="sxs-lookup"><span data-stu-id="37f20-135">PSTN calls</span></span>| <span data-ttu-id="37f20-136">是</span><span class="sxs-lookup"><span data-stu-id="37f20-136">Yes</span></span>  |<span data-ttu-id="37f20-137">是</span><span class="sxs-lookup"><span data-stu-id="37f20-137">Yes</span></span> |
+|<span data-ttu-id="37f20-138">視覺語音信箱</span><span class="sxs-lookup"><span data-stu-id="37f20-138">Visual Voicemail</span></span> | <span data-ttu-id="37f20-139">是</span><span class="sxs-lookup"><span data-stu-id="37f20-139">Yes</span></span> | <span data-ttu-id="37f20-140">否</span><span class="sxs-lookup"><span data-stu-id="37f20-140">No</span></span> |
+|<span data-ttu-id="37f20-141">911支援</span><span class="sxs-lookup"><span data-stu-id="37f20-141">911 support</span></span>  | <span data-ttu-id="37f20-142">是</span><span class="sxs-lookup"><span data-stu-id="37f20-142">Yes</span></span>  |<span data-ttu-id="37f20-143">是</span><span class="sxs-lookup"><span data-stu-id="37f20-143">Yes</span></span> |
+|<span data-ttu-id="37f20-144">**行事曆和目前狀態**</span><span class="sxs-lookup"><span data-stu-id="37f20-144">**Calendar and Presence**</span></span>|   | |
+|<span data-ttu-id="37f20-145">行事曆存取與會議詳細資料</span><span class="sxs-lookup"><span data-stu-id="37f20-145">Calendar Access and Meeting Details</span></span>|<span data-ttu-id="37f20-146">是</span><span class="sxs-lookup"><span data-stu-id="37f20-146">Yes</span></span> |<span data-ttu-id="37f20-147">是</span><span class="sxs-lookup"><span data-stu-id="37f20-147">Yes</span></span>|
+|<span data-ttu-id="37f20-148">目前狀態整合</span><span class="sxs-lookup"><span data-stu-id="37f20-148">Presence Integration</span></span> |<span data-ttu-id="37f20-149">是</span><span class="sxs-lookup"><span data-stu-id="37f20-149">Yes</span></span>|<span data-ttu-id="37f20-150">是</span><span class="sxs-lookup"><span data-stu-id="37f20-150">Yes</span></span>|
+|<span data-ttu-id="37f20-151">Exchange 行事曆整合</span><span class="sxs-lookup"><span data-stu-id="37f20-151">Exchange Calendar Integration</span></span> |<span data-ttu-id="37f20-152">是</span><span class="sxs-lookup"><span data-stu-id="37f20-152">Yes</span></span>|<span data-ttu-id="37f20-153">是</span><span class="sxs-lookup"><span data-stu-id="37f20-153">Yes</span></span>|
+|<span data-ttu-id="37f20-154">連絡人圖片整合</span><span class="sxs-lookup"><span data-stu-id="37f20-154">Contact Picture Integration</span></span>  |<span data-ttu-id="37f20-155">是</span><span class="sxs-lookup"><span data-stu-id="37f20-155">Yes</span></span>|<span data-ttu-id="37f20-156">是</span><span class="sxs-lookup"><span data-stu-id="37f20-156">Yes</span></span>|
+|<span data-ttu-id="37f20-157">公司目錄存取</span><span class="sxs-lookup"><span data-stu-id="37f20-157">Corporate Directory Access</span></span> | <span data-ttu-id="37f20-158">是</span><span class="sxs-lookup"><span data-stu-id="37f20-158">Yes</span></span>|<span data-ttu-id="37f20-159">是</span><span class="sxs-lookup"><span data-stu-id="37f20-159">Yes</span></span>|
+|<span data-ttu-id="37f20-160">**會議**</span><span class="sxs-lookup"><span data-stu-id="37f20-160">**Meetings**</span></span>|   ||
+|<span data-ttu-id="37f20-161">按一下 [加入會議]</span><span class="sxs-lookup"><span data-stu-id="37f20-161">One-click Join for Meetings</span></span>  | <span data-ttu-id="37f20-162">是</span><span class="sxs-lookup"><span data-stu-id="37f20-162">Yes</span></span>  |<span data-ttu-id="37f20-163">是</span><span class="sxs-lookup"><span data-stu-id="37f20-163">Yes</span></span> |
+|<span data-ttu-id="37f20-164">加入商務用 Skype 會議</span><span class="sxs-lookup"><span data-stu-id="37f20-164">Join Skype for Business meetings</span></span> | <span data-ttu-id="37f20-165">是</span><span class="sxs-lookup"><span data-stu-id="37f20-165">Yes</span></span>  | <span data-ttu-id="37f20-166">是</span><span class="sxs-lookup"><span data-stu-id="37f20-166">Yes</span></span>|
+|<span data-ttu-id="37f20-167">會議通話控制（靜音/取消靜音、保留/繼續、掛斷、新增/移除參與者）</span><span class="sxs-lookup"><span data-stu-id="37f20-167">Meeting Call controls (Mute/unmute, hold/resume, hang up, add/remove participant)</span></span>|<span data-ttu-id="37f20-168">是</span><span class="sxs-lookup"><span data-stu-id="37f20-168">Yes</span></span>|<span data-ttu-id="37f20-169">是</span><span class="sxs-lookup"><span data-stu-id="37f20-169">Yes</span></span>|
+|<span data-ttu-id="37f20-170">會議詳細資料</span><span class="sxs-lookup"><span data-stu-id="37f20-170">Meeting Details</span></span>|<span data-ttu-id="37f20-171">是</span><span class="sxs-lookup"><span data-stu-id="37f20-171">Yes</span></span>|<span data-ttu-id="37f20-172">否</span><span class="sxs-lookup"><span data-stu-id="37f20-172">No</span></span>|
 
-<span data-ttu-id="737c9-173">我們正在努力持續新增功能，以協助使用者增強其在手機上的團隊體驗。</span><span class="sxs-lookup"><span data-stu-id="737c9-173">We are working to continuously add features to help our users enhance their Teams experience on phones.</span></span> <span data-ttu-id="737c9-174">下面的螢幕擷取畫面說明我們目前支援的一些體驗。</span><span class="sxs-lookup"><span data-stu-id="737c9-174">The screen shots below illustrate some of the experiences we support today.</span></span>
+<span data-ttu-id="37f20-173">我們正在努力持續新增功能，以協助使用者增強其在手機上的團隊體驗。</span><span class="sxs-lookup"><span data-stu-id="37f20-173">We are working to continuously add features to help our users enhance their Teams experience on phones.</span></span> <span data-ttu-id="37f20-174">下面的螢幕擷取畫面說明我們目前支援的一些體驗。</span><span class="sxs-lookup"><span data-stu-id="37f20-174">The screen shots below illustrate some of the experiences we support today.</span></span>
 
-## <a name="sign-in-experience"></a><span data-ttu-id="737c9-175">登入體驗</span><span class="sxs-lookup"><span data-stu-id="737c9-175">Sign-in experience</span></span>
+## <a name="sign-in-experience"></a><span data-ttu-id="37f20-175">登入體驗</span><span class="sxs-lookup"><span data-stu-id="37f20-175">Sign-in experience</span></span>
 
-<span data-ttu-id="737c9-176">當使用者按一下團隊中的登入按鈕時，就會透過公司入口網站開始登入。</span><span class="sxs-lookup"><span data-stu-id="737c9-176">When a user clicks the sign-in button in Teams, sign-in is started via the Company Portal.</span></span> <span data-ttu-id="737c9-177">使用者可以在手機上輸入使用者認證，或選擇從另一個裝置登入，以選擇登入。</span><span class="sxs-lookup"><span data-stu-id="737c9-177">The user has the option to sign in by entering user credentials on the phone or by choosing to sign in from another device.</span></span> <span data-ttu-id="737c9-178">如果使用者選擇從另一個裝置登入，則使用者可以從電腦或智慧型手機完成驗證。</span><span class="sxs-lookup"><span data-stu-id="737c9-178">If the user chooses to sign in from another device, the user can complete authentication from their PC or smartphone.</span></span>
+<span data-ttu-id="37f20-176">當使用者按一下團隊中的登入按鈕時，就會透過公司入口網站開始登入。</span><span class="sxs-lookup"><span data-stu-id="37f20-176">When a user clicks the sign-in button in Teams, sign-in is started via the Company Portal.</span></span> <span data-ttu-id="37f20-177">使用者可以在手機上輸入使用者認證，或選擇從另一個裝置登入，以選擇登入。</span><span class="sxs-lookup"><span data-stu-id="37f20-177">The user has the option to sign in by entering user credentials on the phone or by choosing to sign in from another device.</span></span> <span data-ttu-id="37f20-178">如果使用者選擇從另一個裝置登入，則使用者可以從電腦或智慧型手機完成驗證。</span><span class="sxs-lookup"><span data-stu-id="37f20-178">If the user chooses to sign in from another device, the user can complete authentication from their PC or smartphone.</span></span>
 
-<span data-ttu-id="737c9-179">**使用者使用認證登入**</span><span class="sxs-lookup"><span data-stu-id="737c9-179">**User sign-in with credentials**</span></span>
+<span data-ttu-id="37f20-179">**使用者使用認證登入**</span><span class="sxs-lookup"><span data-stu-id="37f20-179">**User sign-in with credentials**</span></span>
 
 ![使用認證登入的螢幕擷取畫面](media/sign-in-with-credentials.png)
 
-<span data-ttu-id="737c9-181">**使用者從電腦/智慧手機登入**</span><span class="sxs-lookup"><span data-stu-id="737c9-181">**User sign-in via PC/smartphone**</span></span>
+<span data-ttu-id="37f20-181">**使用者從電腦/智慧手機登入**</span><span class="sxs-lookup"><span data-stu-id="37f20-181">**User sign-in via PC/smartphone**</span></span>
 
 ![使用其他裝置登入的螢幕擷取畫面](media/sign-in-with-device.jpg)
 
-## <a name="personalshared-mode"></a><span data-ttu-id="737c9-183">個人/共用模式</span><span class="sxs-lookup"><span data-stu-id="737c9-183">Personal/shared mode</span></span>
+## <a name="personalshared-mode"></a><span data-ttu-id="37f20-183">個人/共用模式</span><span class="sxs-lookup"><span data-stu-id="37f20-183">Personal/shared mode</span></span>
 
-<span data-ttu-id="737c9-184">成功登入之後，使用者就可以選擇要在個人用或在共用會議室中使用裝置。</span><span class="sxs-lookup"><span data-stu-id="737c9-184">After successful sign-in, the user can choose whether the device will be used for personal use or in a shared conference room.</span></span>
+<span data-ttu-id="37f20-184">成功登入之後，使用者就可以選擇要在個人用或在共用會議室中使用裝置。</span><span class="sxs-lookup"><span data-stu-id="37f20-184">After successful sign-in, the user can choose whether the device will be used for personal use or in a shared conference room.</span></span>
 
 ![[個人] 或 [共用帳戶] 選項的螢幕擷取畫面](media/personal-vs-shared-mode.jpg)
 
-<span data-ttu-id="737c9-186">[團隊電話經驗] 是根據使用者的選取進行優化。</span><span class="sxs-lookup"><span data-stu-id="737c9-186">The Teams phone experience is optimized based on the user's selection.</span></span>
+<span data-ttu-id="37f20-186">[團隊電話經驗] 是根據使用者的選取進行優化。</span><span class="sxs-lookup"><span data-stu-id="37f20-186">The Teams phone experience is optimized based on the user's selection.</span></span>
 
-<span data-ttu-id="737c9-187">**個人模式**</span><span class="sxs-lookup"><span data-stu-id="737c9-187">**Personal mode**</span></span>
+<span data-ttu-id="37f20-187">**個人模式**</span><span class="sxs-lookup"><span data-stu-id="37f20-187">**Personal mode**</span></span>
 
 ![個人模式中帳戶的螢幕擷取畫面](media/personal-mode.png)
 
-<span data-ttu-id="737c9-189">**共用模式**</span><span class="sxs-lookup"><span data-stu-id="737c9-189">**Shared mode**</span></span>
+<span data-ttu-id="37f20-189">**共用模式**</span><span class="sxs-lookup"><span data-stu-id="37f20-189">**Shared mode**</span></span>
 
 ![共用模式中帳戶的螢幕擷取畫面](media/shared-mode.png)
 
-## <a name="calling-experience"></a><span data-ttu-id="737c9-191">通話體驗</span><span class="sxs-lookup"><span data-stu-id="737c9-191">Calling experience</span></span>
+## <a name="calling-experience"></a><span data-ttu-id="37f20-191">通話體驗</span><span class="sxs-lookup"><span data-stu-id="37f20-191">Calling experience</span></span>
 
-<span data-ttu-id="737c9-192">Microsoft 團隊使用者可以抬起話筒，或按下喇叭按鈕來啟動通話畫面上的撥號鍵台。</span><span class="sxs-lookup"><span data-stu-id="737c9-192">The Microsoft Teams user can lift the handset or press the speaker button to launch the dial pad on the calling screen.</span></span> <span data-ttu-id="737c9-193">或者，使用者可以使用硬體按鈕（如果有的話）傳出號碼。</span><span class="sxs-lookup"><span data-stu-id="737c9-193">Alternatively, the user can use the hardware buttons (if available) to dial out a number.</span></span>
+<span data-ttu-id="37f20-192">Microsoft 團隊使用者可以抬起話筒，或按下喇叭按鈕來啟動通話畫面上的撥號鍵台。</span><span class="sxs-lookup"><span data-stu-id="37f20-192">The Microsoft Teams user can lift the handset or press the speaker button to launch the dial pad on the calling screen.</span></span> <span data-ttu-id="37f20-193">或者，使用者可以使用硬體按鈕（如果有的話）傳出號碼。</span><span class="sxs-lookup"><span data-stu-id="37f20-193">Alternatively, the user can use the hardware buttons (if available) to dial out a number.</span></span>
 
-<span data-ttu-id="737c9-194">**螢幕上的撥號鍵台**</span><span class="sxs-lookup"><span data-stu-id="737c9-194">**On-screen dial pad**</span></span>
+<span data-ttu-id="37f20-194">**螢幕上的撥號鍵台**</span><span class="sxs-lookup"><span data-stu-id="37f20-194">**On-screen dial pad**</span></span>
 
 ![螢幕擷取畫面顯示幕幕小鍵盤](media/on-screen-dial-pad.png)
 
-<span data-ttu-id="737c9-196">**通話畫面**</span><span class="sxs-lookup"><span data-stu-id="737c9-196">**Calling screen**</span></span>
+<span data-ttu-id="37f20-196">**通話畫面**</span><span class="sxs-lookup"><span data-stu-id="37f20-196">**Calling screen**</span></span>
 
 ![[通話] 畫面的螢幕擷取畫面](media/calling-screen.png)
 
-## <a name="meeting-experience"></a><span data-ttu-id="737c9-198">會議體驗</span><span class="sxs-lookup"><span data-stu-id="737c9-198">Meeting experience</span></span>
+## <a name="meeting-experience"></a><span data-ttu-id="37f20-198">會議體驗</span><span class="sxs-lookup"><span data-stu-id="37f20-198">Meeting experience</span></span>
 
-<span data-ttu-id="737c9-199">Microsoft 團隊使用者可以流覽至 [會議] 索引標籤來查看其會議，並使用 [**加入**] 按鈕來加入其小組會議。</span><span class="sxs-lookup"><span data-stu-id="737c9-199">The Microsoft Teams user can navigate to the meetings tab to view their meetings and use the **Join** button to join their Teams meetings.</span></span>
+<span data-ttu-id="37f20-199">Microsoft 團隊使用者可以流覽至 [會議] 索引標籤來查看其會議，並使用 [**加入**] 按鈕來加入其小組會議。</span><span class="sxs-lookup"><span data-stu-id="37f20-199">The Microsoft Teams user can navigate to the meetings tab to view their meetings and use the **Join** button to join their Teams meetings.</span></span>
 
-<span data-ttu-id="737c9-200">**行事曆檢視**</span><span class="sxs-lookup"><span data-stu-id="737c9-200">**Calendar view**</span></span>
+<span data-ttu-id="37f20-200">**行事曆檢視**</span><span class="sxs-lookup"><span data-stu-id="37f20-200">**Calendar view**</span></span>
 
 ![[行事曆] 視圖中會議的螢幕擷取畫面](media/calendar-view.png)
 
-<span data-ttu-id="737c9-202">**會議加入視圖**</span><span class="sxs-lookup"><span data-stu-id="737c9-202">**Meeting join view**</span></span>
+<span data-ttu-id="37f20-202">**會議加入視圖**</span><span class="sxs-lookup"><span data-stu-id="37f20-202">**Meeting join view**</span></span>
 
 ![加入視圖中會議的螢幕擷取畫面](media/meeting-join-view.png)
 
 
-## <a name="voicemail"></a><span data-ttu-id="737c9-204">語音信箱</span><span class="sxs-lookup"><span data-stu-id="737c9-204">Voicemail</span></span>
+## <a name="voicemail"></a><span data-ttu-id="37f20-204">語音信箱</span><span class="sxs-lookup"><span data-stu-id="37f20-204">Voicemail</span></span>
 
-<span data-ttu-id="737c9-205">Microsoft 團隊使用者在流覽至 [**語音信箱**] 索引標籤時，可以存取其語音信箱。</span><span class="sxs-lookup"><span data-stu-id="737c9-205">The Microsoft Teams user can access their voicemail when they navigate to the **Voicemail** tab.</span></span>
+<span data-ttu-id="37f20-205">Microsoft 團隊使用者在流覽至 [**語音信箱**] 索引標籤時，可以存取其語音信箱。</span><span class="sxs-lookup"><span data-stu-id="37f20-205">The Microsoft Teams user can access their voicemail when they navigate to the **Voicemail** tab.</span></span>
 
 ![[語音信箱] 索引標籤的螢幕擷取畫面](media/voicemail-tab.png)
 
-## <a name="user-sign-out"></a><span data-ttu-id="737c9-207">使用者登出</span><span class="sxs-lookup"><span data-stu-id="737c9-207">User sign-out</span></span>
+## <a name="user-sign-out"></a><span data-ttu-id="37f20-207">使用者登出</span><span class="sxs-lookup"><span data-stu-id="37f20-207">User sign-out</span></span>
 
-<span data-ttu-id="737c9-208">團隊電話使用者可以從左上方功能表中選取 [**登出**] 選項，選擇 [登出]。</span><span class="sxs-lookup"><span data-stu-id="737c9-208">The Teams phone user can choose to sign out by selecting the **Sign Out** option from the top left menu.</span></span>
+<span data-ttu-id="37f20-208">團隊電話使用者可以從左上方功能表中選取 [**登出**] 選項，選擇 [登出]。</span><span class="sxs-lookup"><span data-stu-id="37f20-208">The Teams phone user can choose to sign out by selecting the **Sign Out** option from the top left menu.</span></span>
 
 ![登出團隊的螢幕擷取畫面](media/teams-sign-out.png)
 
-## <a name="finding-the-firmware-version-on-a-mobile-device"></a><span data-ttu-id="737c9-210">在行動裝置上尋找固件版本</span><span class="sxs-lookup"><span data-stu-id="737c9-210">Finding the Firmware version on a mobile device</span></span>
+## <a name="finding-the-firmware-version-on-a-mobile-device"></a><span data-ttu-id="37f20-210">在行動裝置上尋找固件版本</span><span class="sxs-lookup"><span data-stu-id="37f20-210">Finding the Firmware version on a mobile device</span></span>
 
-<span data-ttu-id="737c9-211">您可以在 [團隊登入] 頁面上，選擇右上角的 [**設定**] 圖示，然後按一下 [**關於**] 來檢查最低固件版本。</span><span class="sxs-lookup"><span data-stu-id="737c9-211">The minimum firmware version can be checked on the Teams sign-in page by choosing the **Settings** icon in the top-right corner and then clicking **About**.</span></span>
+<span data-ttu-id="37f20-211">您可以在 [團隊登入] 頁面上，選擇右上角的 [**設定**] 圖示，然後按一下 [**關於**] 來檢查最低固件版本。</span><span class="sxs-lookup"><span data-stu-id="37f20-211">The minimum firmware version can be checked on the Teams sign-in page by choosing the **Settings** icon in the top-right corner and then clicking **About**.</span></span>
 
-<span data-ttu-id="737c9-212">**團隊登入頁面**</span><span class="sxs-lookup"><span data-stu-id="737c9-212">**Teams sign-in page**</span></span>
+<span data-ttu-id="37f20-212">**團隊登入頁面**</span><span class="sxs-lookup"><span data-stu-id="37f20-212">**Teams sign-in page**</span></span>
 
 ![小組登入頁面的螢幕擷取畫面](media/teams-sign-in-page.jpg)
 
-<span data-ttu-id="737c9-214">**[設定] 頁面**</span><span class="sxs-lookup"><span data-stu-id="737c9-214">**Settings page**</span></span>
+<span data-ttu-id="37f20-214">**[設定] 頁面**</span><span class="sxs-lookup"><span data-stu-id="37f20-214">**Settings page**</span></span>
 
 ![[團隊設定] 頁面的螢幕擷取畫面](media/teams-settings-page.jpg)
 
-## <a name="required-licenses"></a><span data-ttu-id="737c9-216">所需的授權</span><span class="sxs-lookup"><span data-stu-id="737c9-216">Required Licenses</span></span>
+## <a name="required-licenses"></a><span data-ttu-id="37f20-216">所需授權</span><span class="sxs-lookup"><span data-stu-id="37f20-216">Required Licenses</span></span>
 
-<span data-ttu-id="737c9-217">Microsoft 團隊授權可以作為其[Office 365 訂閱](Office-365-licensing.md)的一部分購買。</span><span class="sxs-lookup"><span data-stu-id="737c9-217">Microsoft Teams licenses can be purchased as part of their [Office 365 subscriptions](Office-365-licensing.md).</span></span> <span data-ttu-id="737c9-218">若要深入瞭解在手機上使用 Microsoft 團隊所需的授權，請參閱可用的[電話系統授權](https://products.office.com/microsoft-teams/voice-calling)。</span><span class="sxs-lookup"><span data-stu-id="737c9-218">To learn more about the required licenses for using Microsoft Teams on phones, see available [phone system licenses](https://products.office.com/microsoft-teams/voice-calling).</span></span>
+<span data-ttu-id="37f20-217">Microsoft 團隊授權可以在[microsoft 365 和 Office 365 訂閱](Office-365-licensing.md)中購買。</span><span class="sxs-lookup"><span data-stu-id="37f20-217">Microsoft Teams licenses can be purchased as part of their [Microsoft 365 and Office 365 subscriptions](Office-365-licensing.md).</span></span> <span data-ttu-id="37f20-218">若要深入瞭解在手機上使用 Microsoft 團隊所需的授權，請參閱可用的[電話系統授權](https://products.office.com/microsoft-teams/voice-calling)。</span><span class="sxs-lookup"><span data-stu-id="37f20-218">To learn more about the required licenses for using Microsoft Teams on phones, see available [phone system licenses](https://products.office.com/microsoft-teams/voice-calling).</span></span>
 
-<span data-ttu-id="737c9-219">如需取得團隊的詳細資訊，請參閱[如何取得 Microsoft 團隊的存取權？](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)</span><span class="sxs-lookup"><span data-stu-id="737c9-219">For more information about getting Teams, check out [How do I get access to Microsoft Teams?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)</span></span>
+<span data-ttu-id="37f20-219">如需取得團隊的詳細資訊，請參閱[如何取得 Microsoft 團隊的存取權？](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)</span><span class="sxs-lookup"><span data-stu-id="37f20-219">For more information about getting Teams, check out [How do I get access to Microsoft Teams?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="737c9-220">另請參閱</span><span class="sxs-lookup"><span data-stu-id="737c9-220">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="37f20-220">另請參閱</span><span class="sxs-lookup"><span data-stu-id="37f20-220">See also</span></span>
 
-[<span data-ttu-id="737c9-221">團隊 Marketplace</span><span class="sxs-lookup"><span data-stu-id="737c9-221">Teams Marketplace</span></span>](https://office.com/teamsdevices)
+[<span data-ttu-id="37f20-221">團隊 Marketplace</span><span class="sxs-lookup"><span data-stu-id="37f20-221">Teams Marketplace</span></span>](https://office.com/teamsdevices)
 
-[<span data-ttu-id="737c9-222">Microsoft 團隊的 IP 手機認證</span><span class="sxs-lookup"><span data-stu-id="737c9-222">IP Phones certified for Microsoft Teams</span></span>](teams-ip-phones.md)
+[<span data-ttu-id="37f20-222">Microsoft 團隊的 IP 手機認證</span><span class="sxs-lookup"><span data-stu-id="37f20-222">IP Phones certified for Microsoft Teams</span></span>](teams-ip-phones.md)
