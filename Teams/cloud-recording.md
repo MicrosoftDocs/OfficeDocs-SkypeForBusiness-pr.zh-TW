@@ -7,26 +7,22 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
-ms.reviewer: sonua
+ms.reviewer: nakulm
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 在 Microsoft Teams 中部署雲端語音功能的實用指導方針。
+description: 如何在 Microsoft 團隊中開啟與管理會議錄製。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 678e17ed92c0f269e134ac6c23dce29169c0d36d
-ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
-ms.translationtype: HT
+ms.openlocfilehash: 1098b1e316bb6ed747577183fc144bf2db7d0b9d
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42583000"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43751850"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 雲端會議錄製
-
-> [!IMPORTANT]
-> **將來會有個設定上的改變**：只要客戶的 Teams 資料是儲存在國內，其 Teams 會議錄製功能就會開啟，即使該國內資料落地區域沒有提供 Microsoft Stream。 當此改變生效時，會議錄製內容預設會儲存在最靠近的 Microsoft Stream 區域。 如果您的 Teams 資料是儲存在國內，而且您比較想將會議錄製內容儲存在國內，我們建議您先關閉會議錄製，然後在您將 Microsoft Stream 部署到您的國內區域後，再將會議錄製開啟。 若要深入瞭解，請參閱[會議錄製內容的儲存位置](#where-your-meeting-recordings-are-stored)。
 
 在 Microsoft Teams 中，使用者可以錄製其 Teams 會議和群組通話，擷取音訊、視訊和螢幕共用的活動。 您也可以使用自動轉錄的錄製選項，便於使用者播放具有隱藏式輔助字幕的會議錄製，並在文字記錄中搜尋重要的討論項目。 錄製會在雲端進行，並儲存到 [Microsoft Stream](https://docs.microsoft.com/stream/)，使用者可以因此安全地在整個組織內共用檔案。
 
@@ -53,13 +49,13 @@ ms.locfileid: "42583000"
 
 本節說明您可以如何設定和規劃 Teams 會議的錄製。
 
-### <a name="enable-microsoft-stream-for-users-in-the-organization"></a>為組織中的使用者啟用 Microsoft Stream
+### <a name="turn-on-microsoft-stream-for-users-in-the-organization"></a>針對組織中的使用者開啟 Microsoft Stream
 
 Microsoft Stream 可做為合格 Office 365 訂閱或獨立服務的一部分。  如需詳細資訊，請參閱 [Stream 授權概述](https://docs.microsoft.com/stream/license-overview)。  Microsoft Stream 現已加入 Microsoft 365 商務版、Office 365 商務進階版和 Office 365 商務基本版。
 
 深入瞭解如何[在 Office 365 中指派授權給使用者](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC)，以便讓使用者能夠存取 Microsoft Stream。 請確認 Microsoft Stream 沒有封鎖使用者 ，如[這篇文章](https://docs.microsoft.com/stream/disable-user-organization)所述。
 
-### <a name="ensure-that-users-have-upload-video-permissions-in-microsoft-stream"></a>確保使用者有在 Microsoft Stream 上傳影片的權限
+### <a name="make-sure-users-have-upload-video-permissions-in-microsoft-stream"></a>確定使用者已在 Microsoft Stream 中上傳視頻許可權
 
 依預設，公司中的每個人都能在 Stream 中建立內容，只要有啟用 Stream 並指派授權給使用者。 Microsoft Stream 系統管理員可以[限制員工在 Stream 中建立內容](https://docs.microsoft.com/stream/restrict-uploaders)。 列入此限制清單的使用者將無法錄製會議。
 
@@ -93,22 +89,11 @@ Microsoft Stream 可做為合格 Office 365 訂閱或獨立服務的一部分。
 |                                    我想要讓公司中的所有使用者都能錄製他們的會議                                    |                                                                     <ol><li>確認 Global CsTeamsMeetingPolicy 有 AllowCloudRecording = True<li>所有使用者都擁有 Global CsTeamsMeetingPolicy 原則或是其中一個 CsTeamsMeetingPolicy 原則有 AllowCloudRecording = True </ol>                                                                     |
 | 我想讓大部分使用者能錄製會議，但我能選擇性地停用特定使用者不允許他進行錄製 |        <ol><li>確認 Global CsTeamsMeetingPolicy 有 AllowCloudRecording = True<li>大部分使用者都擁有 Global CsTeamsMeetingPolicy 原則或是其中一個 CsTeamsMeetingPolicy 原則有 AllowCloudRecording = True<li>所有其他使用者都獲得其中一個 CsTeamsMeetingPolicy 原則有 AllowCloudRecording = False 的授權</ol>         |
 |                                                   我想要 100% 停用錄製                                                   |                                                                <ol><li>確認 Global CsTeamsMeetingPolicy 有 AllowCloudRecording = False<li>所有使用者都獲得 Global CsTeamsMeetingPolicy 原則或是其中一個 CsTeamsMeetingPolicy 原則有 AllowCloudRecording = False                                                                 |
-|      我想讓大部分使用者不能錄製會議，但我能選擇性地啟用特定使用者允許他進行錄製       | <ol><li>確認 Global CsTeamsMeetingPolicy 有 AllowCloudRecording = False<li>大部分使用者都獲得 Global CsTeamsMeetingPolicy 原則或是其中一個 CsTeamsMeetingPolicy 原則有 AllowCloudRecording = False<li>所有其他使用者都獲得其中一個 CsTeamsMeetingPolicy 原則有 AllowCloudRecording = True 的授權 <ol> |
+|      我想要針對大多數使用者關閉錄製，但有選擇性地啟用允許錄製的特定使用者       | <ol><li>確認 Global CsTeamsMeetingPolicy 有 AllowCloudRecording = False<li>大部分使用者都獲得 Global CsTeamsMeetingPolicy 原則或是其中一個 CsTeamsMeetingPolicy 原則有 AllowCloudRecording = False<li>所有其他使用者都獲得其中一個 CsTeamsMeetingPolicy 原則有 AllowCloudRecording = True 的授權 <ol> |
 |                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                  |
 #### <a name="where-your-meeting-recordings-are-stored"></a>會議錄製內容的儲存位置
 
-會議的錄製內容會儲存在 Microsoft Stream 雲端儲存空間。 目前，如果客戶的 Teams 資料是儲存在國內，只要儲存資料的國內資料落地區域沒有提供 Microsoft Stream，客戶的 Teams 會議錄製功能就會關閉。 將來，只要客戶的 Teams 資料是儲存在國內，其會議錄製功能就會開啟，即使該國內資料落地區域沒有提供 Microsoft Stream。
-
-當此改變生效時，會議錄製內容預設會儲存在最靠近 Microsoft Stream 的地理區域。 如果您的 Teams 資料是儲存在國內，而且您比較想將會議錄製內容儲存在國內，我們建議您先關閉會議錄製，然後在您將 Microsoft Stream 部署到您的國內資料落地區域後，再將會議錄製開啟。 若要為貴組織中所有使用者關閉這個功能，請在 Microsoft Teams 系統管理中心，關閉全域 Teams 會議原則中的 [允許雲端錄製]**** 設定。
-
-以下摘要說明在此改變生效後，當您開啟會議錄製會發生什麼情況：
-
-|如果您開啟會議錄製... |會議錄製內容會儲存在...  |
-|---------|---------|
-|在您的國內資料落地區域提供 Microsoft Stream 之前    |在最靠近的 Microsoft Stream 區域         |
-|在您的國內資料落地區域提供 Microsoft Stream 之後    | 在您的國內資料落地區域        |
-
-針對尚未開啟會議錄製的新的和現有租用戶，在國內資料落地區域提供 Microsoft Stream 之後，新的錄製內容會儲存在國內。 不過，在國內資料落地區域提供 Microsoft Stream 之前就啟用會議錄製的任何租用戶，將會繼續使用 Microsoft Stream 儲存空間來存放現有和新的錄製內容，即使國內資料落地區域提供 Microsoft Stream 之後。
+會議的錄製內容會儲存在 Microsoft Stream 雲端儲存空間。 錄製會議之後，Microsoft Stream 會永久保留它（或直到錄製擁有者刪除）。 如果錄製未上傳至串流，則會儲存在團隊雲端儲存空間中，可供下載20天。 目前，如果客戶的 Teams 資料是儲存在國內，只要儲存資料的國內資料落地區域沒有提供 Microsoft Stream，客戶的 Teams 會議錄製功能就會關閉。
 
 若要找出您的 Microsoft Stream 資料的儲存區域，請在 Microsoft Stream 中按一下 [?]**** (在右上角)，按一下 [關於 Microsoft Stream]****，然後按一下 [您的資料儲存位置]****。  若要深入瞭解 Microsoft Stream 儲存資料的區域，請參閱 [Microsoft Stream 常見問題集](https://docs.microsoft.com/stream/faq#which-regions-does-microsoft-stream-host-my-data-in)。
 

@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
 description: 使用裝置、網路和連線的呼叫分析詳細資料，來針對 Microsoft 團隊及商務用 Skype 通話和會議的使用者問題進行疑難排解。
-ms.openlocfilehash: a9ef3265fa86349ef92c6174c6f561b006af4d1a
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 05af82a942d54e0f97f2be2b176091f19186cbf4
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836763"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43749560"
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>使用通話分析來疑難排解不良通話品質
 
@@ -68,7 +68,7 @@ ms.locfileid: "41836763"
   
 4. 從清單中選取使用者。
 
-5. 選取 [**通話記錄**]，然後選取您想要疑難排解的通話或會議。
+5. 選取 [**通話記錄**]，然後選取您想要疑難排解的通話或會議。  最多可傳回500筆記錄。
     
     ![使用者 [通話記錄] 頁面的螢幕擷取畫面。](media/use-call-analytics-to-troubleshoot-image-2.png)
   
@@ -82,7 +82,7 @@ ms.locfileid: "41836763"
   
 對於有經驗品質（QoE）資料的音訊會話，下表說明將會話限制為**不良**的主要問題。
   
-|**問題**|**圖**|**說明**|
+|**問題**|**圖**|**描述**|
 |:-----|:-----|:-----|
 |撥號設定  <br/> |工作階段  <br/> |錯誤碼 Ms-診斷程式20-29 指出通話設定失敗。 使用者無法加入通話或會議。  <br/> |
 |音訊網路分類不佳通話  <br/> |工作階段  <br/> |遇到網路品質問題（例如資料包遺失、抖動、NMOS 下降、RTT 或隱藏比率）。 如需有關用來將不佳通話分類之條件的詳細資訊，請參閱這篇[Microsoft 博客文章](https://go.microsoft.com/fwlink/p/?linkid=852133)。  <br/> |

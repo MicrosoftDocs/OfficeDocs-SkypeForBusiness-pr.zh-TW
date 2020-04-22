@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: 瞭解如何在 Microsoft 團隊中管理資源帳戶
-ms.openlocfilehash: 5d1558f027226845842923140f9f9e64c5f4eae1
-ms.sourcegitcommit: a610bfe9c0192432744dfaf8d5ff5c2bb5a16b00
+ms.openlocfilehash: 9de381c1ba338c9ffc51153ac0fa1296ccb3f4a0
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "43190872"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43750000"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>在 Microsoft Teams 中管理資源帳戶
 
@@ -82,7 +82,7 @@ ms.locfileid: "43190872"
 2. 取得電話系統虛擬使用者授權或一般的電話系統授權。
 
    若要取得虛擬使用者授權（從 Microsoft 365 系統管理中心開始），請移至**帳單** > **購買服務** > **附加元件訂閱**，然後滾動至結尾，您會看到「電話系統-虛擬使用者」授權。 選取 [**立即購買**]。 有零成本，但您仍需遵循這些步驟來取得授權。
-3. 建立新的資源帳戶。 請參閱[在 Microsoft 團隊系統管理中心建立資源帳戶](#create-a-resource-account-in-microsoft-teams-admin-center)或[在 Powershell 中建立資源帳戶](#create-a-resource-account-in-powershell)
+3. 建立新的資源帳戶。 請參閱[在 Microsoft 團隊系統管理中心建立資源帳戶](#create-a-resource-account-in-microsoft-teams-admin-center)或[在 Powershell 中建立資源帳戶](#create-a-resource-account-in-powershell)。
 4. 將電話系統-[虛擬使用者授權](teams-add-on-licensing/virtual-user.md)或電話系統授權指派給資源帳戶。 請參閱[指派 Microsoft 團隊授權](assign-teams-licenses.md)及[指派授權給一個使用者](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#assign-licenses-to-one-user)。
 5. 將服務號碼指派給資源帳戶。 請參閱[指派/取消指派電話號碼和服務](#assignunassign-phone-numbers-and-services)。
 6. 設定下列其中一項：
@@ -96,11 +96,11 @@ ms.locfileid: "43190872"
 
 嵌套的自動語音應答或呼叫佇列將需要資源帳戶，但在許多情況下，對應的資源帳戶不需要電話號碼和支援電話號碼所需的授權。 若要建立不需要電話號碼的資源帳戶，必須以下列循序執行下列工作：
 
-1. 建立新的資源帳戶。 請參閱[在 Microsoft 團隊系統管理中心建立資源帳戶](#create-a-resource-account-in-microsoft-teams-admin-center)或[在 Powershell 中建立資源帳戶](#create-a-resource-account-in-powershell)
+1. 建立新的資源帳戶。 請參閱[在 Microsoft 團隊系統管理中心建立資源帳戶](#create-a-resource-account-in-microsoft-teams-admin-center)或[在 Powershell 中建立資源帳戶](#create-a-resource-account-in-powershell)。
 2. 設定下列其中一項：
    - [雲端自動語音應答](create-a-phone-system-auto-attendant.md)
    - [雲端通話佇列](create-a-phone-system-call-queue.md)
-3. 將資源帳戶指派給通話佇列或自動語音應答。 請參閱[指派/取消指派電話號碼和服務](#assignunassign-phone-numbers-and-services)
+3. 將資源帳戶指派給通話佇列或自動語音應答。 請參閱[指派/取消指派電話號碼和服務](#assignunassign-phone-numbers-and-services)。
 
 
 ## <a name="create-a-resource-account-in-microsoft-teams-admin-center"></a>在 Microsoft 團隊系統管理中心中建立資源帳戶
@@ -115,7 +115,7 @@ ms.locfileid: "43190872"
 
 ![[新增資源帳戶] 選項的螢幕擷取畫面](media/res-acct.png)
 
-接下來，將授權套用至 O365 系統管理中心的資源帳戶，如在[商務用 Office 365 中指派授權給使用者](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide)的說明。
+接下來，將授權套用至 O365 系統管理中心的資源帳戶，如在[商務用 Office 365 中指派授權給使用者](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide)所述。
 
 ### <a name="edit-resource-account"></a>編輯資源帳戶 
 
@@ -175,9 +175,9 @@ ms.locfileid: "43190872"
 
 1. 若要在線上建立與自動語音助理搭配使用的資源帳戶，請使用下列命令：
 
-``` Powershell
-New-CsOnlineApplicationInstance -UserPrincipalName testra1@contoso.com -ApplicationId “ce933385-9390-45d1-9512-c8d228074e07” -DisplayName "Resource account 1"
-```
+    ``` Powershell
+    New-CsOnlineApplicationInstance -UserPrincipalName testra1@contoso.com -ApplicationId “ce933385-9390-45d1-9512-c8d228074e07” -DisplayName "Resource account 1"
+    ```
 
 2. 您必須先將授權套用至該資源帳戶，才能使用該帳戶。 如需如何將授權套用至 O365 系統管理中心中的帳戶，請參閱[在商務用 Office 365 中指派授權給使用者](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide#assign-licenses-to-one-user)，以及[指派商務用 Skype 授權](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)。
 
@@ -214,7 +214,7 @@ New-CsOnlineApplicationInstance -UserPrincipalName testra1@contoso.com -Applicat
 在刪除前，請確定您已將電話號碼與資源帳戶取消關聯，以免讓您的服務號碼停滯在擱置模式中。 您可以使用下列 commandlet 來執行此動作：
 
 ``` Powershell
-Set-csonlinevoiceapplicationinstance -identity <Resource Account oid> -TelephoneNumber $null
+Set-CsOnlineVoiceApplicationInstance -Identity <Resource Account oid> -TelephoneNumber $null
 ```
 
 完成之後，您就可以從 O365 系統管理入口網站刪除資源帳戶（位於 [使用者] 索引標籤底下）。

@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 瞭解如何設定商務用 Skype 針對貴組織的預設語音信箱問候語使用另一種語言。
-ms.openlocfilehash: 829776be347f2453f3b87a150b19e2334e876f40
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 1fb9a97c31e973d6a56da65d301324b1d9d34b90
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139132"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43752340"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>變更問候語和電子郵件的預設語言
 
@@ -51,7 +51,7 @@ ms.locfileid: "43139132"
 
 1. 使用您的[Office 365 全域系統管理員](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)帳戶登[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)入。 
     
-2. 在 Microsoft 365 系統管理中心，選擇 [**設定** > **組織設定檔**]。 
+2. 在 Microsoft 365 系統管理中心，選擇 [**設定** > **設定** > **組織設定檔**]。 
     
      ![螢幕擷取畫面顯示選擇 [設定]，然後選擇 [組織設定檔]。](media/9d9de520-bb84-409f-9417-96bd8ec86c48.png)
   

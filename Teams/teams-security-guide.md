@@ -19,15 +19,15 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 32cbbbc87e6447c3bc49b97b772e2aea4849550f
-ms.sourcegitcommit: 1d24b62f41bce4f8d86d6060291af1267f75a2a2
+ms.openlocfilehash: d3375abfbcd8319d104b4a2a657492c5105e240f
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43209495"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43749780"
 ---
 > [!IMPORTANT]
-> Teams 服務模型可能會有所變更，以改善客戶體驗。 例如，預設存取權或重新整理權杖到期時間可能會修改，以提升使用 Teams 的效能與驗證復原能力。 任何此類變更的目標都是讓 Teams 保持安全且從設計上值得信賴。 
+> Teams 服務模型可能會有所變更，以改善客戶體驗。 例如，預設存取權或重新整理權杖到期時間可能會修改，以提升使用 Teams 的效能與驗證復原能力。 任何此類變更的目標都是讓 Teams 保持安全且從設計上值得信賴。
 <p>
 
  # <a name="security-and-microsoft-teams"></a>安全性和 Microsoft Teams
