@@ -16,16 +16,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 44b7a87a003b59543c37feb278462e839d83bd1e
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: 68a7b26fa9668685fc9082ecdb202b6f589e0f4f
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863304"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780182"
 ---
 # <a name="overview-of-dynamic-membership-for-teams"></a>小組的動態成員資格概觀
 
-Microsoft 團隊支援使用*動態成員資格*與 Office 365 群組相關聯的小組。 動態成員資格可讓團隊的成員資格由一或多個在 Azure Active Directory （Azure AD）中檢查特定使用者屬性的規則所定義。 當使用者屬性變更或使用者加入並離開租使用者時，系統會自動新增或移除正確的團隊。
+Microsoft 團隊支援使用*動態成員資格*與 microsoft 365 群組相關聯的小組。 動態成員資格可讓團隊的成員資格由一或多個在 Azure Active Directory （Azure AD）中檢查特定使用者屬性的規則所定義。 當使用者屬性變更或使用者加入並離開租使用者時，系統會自動新增或移除正確的團隊。
 
 在動態成員資格中，您可以針對組織中的某些使用者設定小組 cohorts。 可能的案例包括：
 - 醫院可以為護士、醫生和 surgeons 建立獨特的小組來廣播通訊。 如果醫院依賴 temp 員工，這一點尤為重要。
@@ -48,7 +48,7 @@ Microsoft 團隊可能需要幾分鐘的時間，才能在小組的 Office 365 �
 
 ## <a name="create-a-new-team-with-your-o365-group"></a>使用您的 O365 群組建立新團隊
 
-現在允許成員資格變更的時間生效，並以[Microsoft 團隊增強現有的 Office 365 群組](enhance-office-365-groups.md)中所述的方式來建立新的團隊。
+現在允許成員資格變更的時間生效，並以[Microsoft 團隊增強現有的 Microsoft 365 群組](enhance-office-365-groups.md)中所述，建立新的小組。
 
 ## <a name="apply-dynamic-membership-to-an-existing-team"></a>將動態成員資格套用至現有的團隊
 

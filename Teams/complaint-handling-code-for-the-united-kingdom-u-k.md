@@ -1,5 +1,5 @@
 ---
-title: 英國的投訴處理常式代碼 -Office 365 通話方案
+title: 英國的投訴處理常式代碼 -Microsoft 365 通話方案
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -23,16 +23,16 @@ ms.custom:
 - seo-marvel-mar2020
 hideEdit: true
 description: 在商務用 Skype 通話服務（英國的 PSTN 通話）中提出投訴，回復的時程表，以及解決未解決之投訴的糾紛問題。
-ms.openlocfilehash: 6bebf983d19461485f7f381c300fc6e5b3611b6b
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 75ee19a237f669bf52ce354f325275f859180dd0
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137283"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780272"
 ---
-# <a name="calling-plans-in-office-365---complaint-handling-code-for-the-united-kingdom-uk"></a>Office 365 中的通話方案-英國的投訴處理常式代碼（英國）
+# <a name="calling-plans-in-microsoft-365---complaint-handling-code-for-the-united-kingdom-uk"></a>Microsoft 365 中的通話方案-英國的投訴處理常式代碼（英國）
 
-這段程式碼適用于英國（英國）的小型企業客戶（含10名員工或較少10名員工），且根據英國通訊管理法規，以 Office 365 通話方案服務（"服務"）為依據。 其他商務用 Skype 服務是由您的服務合約所管轄，以及適用于您使用特定服務的任何其他條款。
+此程式碼適用于英國（英國）中的小型企業客戶（有10名員工或少於 Microsoft 365 通話方案服務（「服務」），並依照英國通訊管理法規而有所不同。 其他商務用 Skype 服務是由您的服務合約所管轄，以及適用于您使用特定服務的任何其他條款。
 
 ## <a name="how-to-make-a-complaint"></a>如何作出投訴
 

@@ -18,13 +18,13 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Reporting
-description: 新的 Office 365 [報告] 儀表板會在您組織中的 Office 365 產品上顯示活動概覽。 它可讓您深入瞭解個別的產品層級報告，讓您更精確地瞭解每個產品內的活動。
-ms.openlocfilehash: 58f3c42c0a0188d4a2858e6b6b0a5bed93dfc72d
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: 新的 Microsoft 365 [報告] 儀表板會在您組織中的 Office 365 產品上顯示活動概覽。 它可讓您深入瞭解個別的產品層級報告，讓您更精確地瞭解每個產品內的活動。
+ms.openlocfilehash: b10e68e46b8865579692594ded33e89558f4fdc2
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692348"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776278"
 ---
 # <a name="session-details-report"></a>工作階段詳細資報告
 
@@ -49,7 +49,7 @@ ms.locfileid: "41692348"
     > 如果您沒有看到此報告，請移至**商務用 Skype 系統管理中心** > **報告** > **會話詳細資料**。 
   
     > [!IMPORTANT]
-    > 視您擁有的 Office 365 訂閱而定，您可能不會看到這裡顯示的所有產品和報表。 
+    > 視您擁有的 Microsoft 365 或 Office 365 訂閱而定，您可能不會看到這裡顯示的所有產品和報表。 
   
 ## <a name="interpret-the-skype-for-business-session-details-report"></a>解讀商務用 Skype 會話詳細資料包表
 

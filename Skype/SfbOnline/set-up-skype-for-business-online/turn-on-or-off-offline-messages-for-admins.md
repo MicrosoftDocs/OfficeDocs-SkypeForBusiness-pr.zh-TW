@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 瞭解如何傳送商務用 Skype 立即訊息，即使您的連絡人未使用 PowerShell 登入也一樣。
-ms.openlocfilehash: 2b9cea6e7a4bcb3f7fc34bdf67e77353412d9e13
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 03e92118fd915582030b5259654664121ca96c50
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706308"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777138"
 ---
 # <a name="turn-on-or-off-offline-messages-for-admins"></a>開啟或關閉系統管理員的離線訊息
 
@@ -62,7 +62,7 @@ ms.locfileid: "41706308"
 
 1. 從 [**開始] 功能表** > 中的 [**Windows PowerShell**]。
 
-2. 在**Windows PowerShell**視窗中，執行下列動作以連線到您的 Office 365 組織：
+2. 在**Windows PowerShell**視窗中，執行下列動作以連線至您的 Microsoft 365 或 Office 365：
 
     > [!NOTE]
     > 您在第一次使用商務用 Skype Online Windows PowerShell 模組時，您只需執行匯**入模組**命令。

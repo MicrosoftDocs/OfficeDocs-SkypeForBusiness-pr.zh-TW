@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '瞭解關於 Pin 的資訊，以及如何在商務用 Skype Online 中重設。 '
-ms.openlocfilehash: fdd11e3ef9c656b4b2cc6b929a2963e9b5e10824
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: a2f91e1ccae53f08507a63ea56b499a3ad968c73
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41680560"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777698"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-skype-for-business-online"></a>在商務用 Skype Online 中重設音訊會議 PIN
 
@@ -39,7 +39,7 @@ PIN 是由為已啟用音訊會議的每個商務用 Skype 使用者所建立的
   
 ## <a name="reset-a-users-pin"></a>重設使用者的 PIN
 
-1. 使用您的公司或學校帳戶登入 Office 365。
+1. 使用您的公司或學校帳戶登入。
     
 2. 移至 [系統管理中心] >**商務用 Skype**，然後在左側導覽中，按一下 [**音訊會議**]。
     
@@ -64,7 +64,7 @@ PIN 是由為已啟用音訊會議的每個商務用 Skype 使用者所建立的
     
 - 預設會啟用自動將電子郵件傳送給使用者，當使用者啟用音訊會議或 PIN 重設時，就會收到一封電子郵件及其 PIN。 但如果您已停用自動傳送電子郵件，則 PIN 重設電子郵件不會傳送給使用者，您必須手動將 PIN 資訊傳送給使用者。
     
-- 當會議開始時，大廳中的所有使用者都會自動加入該會議。 例如，如果有兩個參與者嘗試在會議開始前加入會議，則會將它們放在大廳，並在會議召集人透過電話使用其 PIN 進行加入時，會議將會啟動，且會議廳中的參與者將會加入 [會議]。
+- 當會議開始時，大廳中的所有使用者都會自動加入該會議。 例如，如果兩個參與者嘗試在會議啟動前加入會議，則會將它們放在大廳，並在會議召集人透過電話使用其 PIN 加入會議時，會議就會開始，而會議廳中的參與者將會加入會議。
     
 - 預設設定為 [不允許匿名呼叫者啟動會議]。
     

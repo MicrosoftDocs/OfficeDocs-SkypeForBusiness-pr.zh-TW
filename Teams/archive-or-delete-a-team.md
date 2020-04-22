@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e367fe85f1af35391fa00b4a416b6e796383d962
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
-ms.translationtype: HT
+ms.openlocfilehash: e065ddccd9781143b9c3522aa795f85ef0e118bb
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826401"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780712"
 ---
 <a name="archive-or-delete-a-team-in-microsoft-teams"></a>在 Microsoft Teams 中封存或刪除團隊
 ===========================================
@@ -98,7 +98,7 @@ ms.locfileid: "41826401"
     Connect-AzureAD
     ```
     當您看到提示時，使用您的系統管理員帳戶和密碼登入。  
-2. 執行以下命令以顯示所有仍在 30 天保留期限內的虛刪除 Office 365 群組清單： 如果有大量群組，請使用 **-All $True** 參數。
+2. 執行下列動作，以顯示仍在30天保留期間內的所有虛刪除 Microsoft 365 群組清單。 如果有大量群組，請使用 **-All $True** 參數。
     ```PowerShell
     Get-AzureADMSDeletedGroup
     ``` 

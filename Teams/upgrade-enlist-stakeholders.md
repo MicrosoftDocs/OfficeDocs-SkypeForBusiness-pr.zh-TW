@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5244bd063caae9b0fab1411f4644e3adbd337431
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: e7e8effb58130a177e193db006ec6e0279f27309
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706993"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780592"
 ---
 # <a name="enlist-your-project-stakeholders"></a>列出您的專案關係人
 
@@ -61,7 +61,7 @@ ms.locfileid: "42706993"
 | 電話領導 | 提供電話語音設計與實施的深入資訊 |
 | 服務擁有者/品質擁護者 | 擁有團隊的運作，包括使用者體驗的品質 |
 | 桌面和裝置主管 | 提供輸入至用戶端、裝置和桌面應用程式 |
-| IT 專業人員/租使用者系統管理員 | 確保網路就緒性與 Office 365 入口網站設定正確無誤 |
+| IT 專業人員/租使用者系統管理員 | 確保已準備好網路準備工作與 Microsoft 365 管理中心設定 |
 | 支援/問訊台組長 | 管理支援中心的就緒性 |
 | 變更管理潛在客戶 | 監管使用者變更管理與採納計畫 |
 | 行銷組長 | 設計與實施溝通活動 |

@@ -15,16 +15,16 @@ ms.collection:
 - Teams_ITAdmin_Healthcare
 ms.reviewer: anach
 description: 適用于團隊管理員的患者應用程式
-ms.openlocfilehash: 03aa421a72ab1402e0574a65117fa1eb182f1a47
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: fbbb3361968ae928638fedca09fbd8d4c2ff33b6
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42147706"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780402"
 ---
 # <a name="audit-logs-for-patients-app"></a>病患應用程式的稽核記錄
 
-患者應用程式活動的審核記錄可讓事件回應小組審閱患者的電子醫療記錄（EMR）或患者保健資訊（PHI）的變更，並判斷在中的 PHI 存取原則或程式是否有所改進需要生產力工具。 審核記錄事件涵蓋透過患者 app 使用者介面執行的動作。
+患者應用程式活動的審核記錄可讓您在事件回應小組中查看患者的電子醫療記錄（EMR）或患者保健資訊（PHI）的變更，並判斷是否需要在生產率工具中進行 PHI 存取的原則或程式的變更或改進。 審核記錄事件涵蓋透過患者 app 使用者介面執行的動作。
 
 ## <a name="meet-hipaa-requirements"></a>符合 HIPAA 需求
 
@@ -41,7 +41,7 @@ ms.locfileid: "42147706"
 
 1. 系統管理員必須與他們的 FHIR 服務提供者合作，才能以患者 App 所使用的格式 EMR。 請參閱將[電子醫療保健記錄整合至 Microsoft 團隊](patients-app.md)。
 2. 醫療保健提供者管理員必須在小組系統管理中心啟用患者 app。 如需詳細資訊，請參閱[管理 Microsoft 團隊和相關文章中的 app 設定原則](../../teams-app-setup-policies.md)。
-3. 系統管理員必須在 O365 中啟用活動審計，就像在 Office 365 中啟用任何活動記錄審核一樣，如[您開始](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#before-you-begin)並[開啟或關閉 office 365 審核記錄搜尋](https://docs.microsoft.com/office365/securitycompliance/turn-audit-log-search-on-or-off#turn-on-audit-log-search)中所述。 如果已開啟審核記錄，患者 App 不需要任何特殊的功能。 每當醫療保健提供者在小組中安裝並執行應用程式時，審核記錄會記錄其 PHI 活動。
+3. 系統管理員必須在 O365 中啟用活動審計，就與在 Office 365 中啟用任何活動記錄審核相同，如[您開始](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#before-you-begin)並[開啟或關閉審核記錄搜尋](https://docs.microsoft.com/office365/securitycompliance/turn-audit-log-search-on-or-off#turn-on-audit-log-search)中所述。 如果已開啟審核記錄，患者 App 不需要任何特殊的功能。 每當醫療保健提供者在小組中安裝並執行應用程式時，審核記錄會記錄其 PHI 活動。
 4. 系統管理員接著需要宣告患者 app 的可用性，而醫療保健工人必須開始產生活動，才能納入審計。
 
 <!-- add link out to client doc when available -->
@@ -80,6 +80,6 @@ Microsoft 團隊[活動](https://docs.microsoft.com/office365/securitycompliance
 
 ## <a name="related-topics"></a>相關主題
 
-[搜尋 Office 365 審核記錄](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
+[搜尋審核記錄](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
 
 [將電子醫療保健記錄整合至 Microsoft Teams](patients-app.md)

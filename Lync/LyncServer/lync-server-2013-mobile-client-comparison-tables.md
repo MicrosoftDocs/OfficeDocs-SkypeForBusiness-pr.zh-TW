@@ -12,20 +12,20 @@ ms:contentKeyID: 51541531
 ms.date: 09/21/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e326ddd479a3d414563b3dd690ecce758f16a9ef
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 82e66cf65d8aa29e476e759bd1f09ccbbf7b61f5
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758741"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780242"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="mobile-client-comparison-tables-for-lync-server-2013"></a>Lync Server 2013 行動用戶端比較表
+# <a name="mobile-client-comparison-tables-for-lync-server-2013"></a>Lync Server 2013 的行動用戶端比較表
 
 </div>
 
@@ -37,27 +37,27 @@ ms.locfileid: "41758741"
 
 _**主題上次修改日期：** 2015-09-21_
 
-下清單格比較 Lync 2013 行動用戶端與 Lync 2013 桌面用戶端在下列類別中的功能和功能：
+下表依下列類別，比較 Lync 2013 行動用戶端和 Lync 2013 桌面用戶端之間的功能：
 
-  - [登入]、[推播通知] 和 [一般] 功能
+  - 登入、推播通知及一般功能
 
-  - 增強的目前狀態
+  - 增強顯示狀態
 
-  - 連絡人與連絡人群組
+  - 連絡人和連絡人群組
 
   - 立即訊息（IM）
 
-  - Lync 對 Lync 音訊和影片
+  - Lync-to-Lync 音訊和影片
 
   - 會議
 
-  - $
+  - 電話
 
   - 外部使用者
 
-  - 封存與合規性
+  - 封存和合規性
 
-這些表格代表 lync Server 2013 內部部署中可供 Lync 使用者使用的功能。 商務用 Skype Online 和 Microsoft Office 365 使用者也可以使用相同的功能，除非表格註腳中另有指示。
+這些表格指出 lync Server 2013 的內部部署中，Lync 使用者可以使用的功能。 除非表格註腳中另有指出，否則您也可以使用商務用 Skype Online 和 Microsoft 365 或 Office 365 使用者的相同功能。
 
 <div>
 
@@ -65,13 +65,13 @@ _**主題上次修改日期：** 2015-09-21_
 > [!NOTE]  
 > <UL>
 > <LI>
-> <P>尋找商務用 Skype 的行動用戶端比較表嗎？ 請參閱商務用 Skype 的行動<A href="https://technet.microsoft.com/en-us/library/dn951412.aspx">用戶端比較表</A>。</P>
+> <P>尋找商務用 Skype 的行動用戶端比較表？ 請參閱適用于商務用 Skype 的行動<A href="https://technet.microsoft.com/library/dn951412.aspx">用戶端比較表</A>。</P>
 > <LI>
-> <P>如需最終使用者的線上說明和資源，請參閱行動<A href="http://go.microsoft.com/fwlink/?linkid=286237">用戶端的 Microsoft Lync 2013</A>。</P>
+> <P>如需使用者的線上說明和資源，請參閱適用于行動<A href="https://go.microsoft.com/fwlink/?linkid=286237">用戶端的 Microsoft Lync 2013</A>。</P>
 > <LI>
 > <P>若要比較其他 Lync 2013 用戶端中可用的功能，請參閱<A href="lync-server-2013-desktop-client-comparison-tables.md">Lync Server 2013 的用戶端比較表</A>。</P>
 > <LI>
-> <P>Lync Server 2013 也支援 Lync 2010 行動裝置 app。 如需詳細資訊，請參閱 Lync Server 2010 檔中的行動<A href="http://go.microsoft.com/fwlink/p/?linkid=234777">用戶端比較表</A>。</P></LI></UL>
+> <P>Lync Server 2013 也支援 Lync 2010 行動應用程式。 如需詳細資訊，請參閱 Lync Server 2010 檔中的行動<A href="https://go.microsoft.com/fwlink/p/?linkid=234777">用戶端比較表</A>。</P></LI></UL>
 
 
 
@@ -79,7 +79,7 @@ _**主題上次修改日期：** 2015-09-21_
 
 <div>
 
-## <a name="sign-in-push-notifications-and-general-features"></a>[登入]、[推播通知] 和 [一般] 功能
+## <a name="sign-in-push-notifications-and-general-features"></a>登入、推播通知及一般功能
 
 
 <table style="width:100%;">
@@ -96,14 +96,14 @@ _**主題上次修改日期：** 2015-09-21_
 <th>功能/功能</th>
 <th>Lync 2013 桌面用戶端</th>
 <th>Windows Phone</th>
-<th>iPhone</th>
-<th>iPad</th>
+<th>Iphone</th>
+<th>Ipad</th>
 <th>Android</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Lync 會話保持登入</p></td>
+<td><p>Lync 會話仍保持登入狀態</p></td>
 <td><p>●</p></td>
 <td><p>●1</p></td>
 <td><p>●1</p></td>
@@ -111,15 +111,15 @@ _**主題上次修改日期：** 2015-09-21_
 <td><p>●1</p></td>
 </tr>
 <tr class="even">
-<td><p>支援推播通知</p></td>
+<td><p>對推播通知的支援</p></td>
 <td></td>
 <td><p>●</p></td>
-<td><p>4Not 必要</p></td>
-<td><p>4Not 必要</p></td>
-<td><p>4Not 必要</p></td>
+<td><p>需要4Not</p></td>
+<td><p>需要4Not</p></td>
+<td><p>需要4Not</p></td>
 </tr>
 <tr class="odd">
-<td><p>國家/地區代碼會根據區域設定來填入</p></td>
+<td><p>國家/地區代碼會根據地區設定進行填充</p></td>
 <td></td>
 <td></td>
 <td><p>●</p></td>
@@ -127,7 +127,7 @@ _**主題上次修改日期：** 2015-09-21_
 <td></td>
 </tr>
 <tr class="even">
-<td><p>多個使用者的帳戶資訊可以在同一個裝置上緩存</p></td>
+<td><p>多個使用者的帳戶資訊可在相同裝置上快取</p></td>
 <td><p>●</p></td>
 <td></td>
 <td></td>
@@ -135,17 +135,17 @@ _**主題上次修改日期：** 2015-09-21_
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>螢幕閱讀器/語音移過</p></td>
+<td><p>螢幕閱讀器/語音 over</p></td>
 <td><p>●</p></td>
 <td><p>●2<br />
-僅提供英文</p></td>
+僅限英文</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●<br />
-僅提供英文</p></td>
+僅限英文</p></td>
 </tr>
 <tr class="even">
-<td><p>在 Lync 中使用外接鍵盤</p></td>
+<td><p>使用具有 Lync 的外部鍵盤</p></td>
 <td></td>
 <td></td>
 <td><p>●3</p></td>
@@ -153,7 +153,7 @@ _**主題上次修改日期：** 2015-09-21_
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>行動用戶端的憑證和被動驗證支援（僅適用于 Lync Server）</p></td>
+<td><p>行動用戶端的憑證和被動式驗證支援（僅限 Lync Server）</p></td>
 <td></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -172,27 +172,27 @@ _**主題上次修改日期：** 2015-09-21_
 </table>
 
 
-1在 Windows Phone 上，Lync 會在使用者未使用應用程式的一段時間後自動登出，如下所示：
+1在 Windows Phone 上，如果使用者在一段時間內未使用此應用程式，Lync 便會自動登出，如下所示：
 
-  - 如果使用者已啟用推播通知，Lync 會在10天不活動之後登出。
+  - 如果使用者已啟用推播通知，Lync 會在空閒10天后簽署。
 
-  - 如果使用者沒有啟用推播通知，Lync 會在1小時後登出。
+  - 如果使用者未啟用推播通知，Lync 會在1小時後登出。
 
-在 iPhone 和 iPad 上，Lync 會在使用者未使用應用程式的一段時間內自動登出，如下所示：
+在 iPhone 和 iPad 上，如果使用者一段時間未使用應用程式，Lync 便會自動登出，如下所示：
 
-  - 如果行動用戶端因網路連線中斷或其他問題而沒有與伺服器聯繫10天。
+  - 如果行動用戶端未連接至伺服器10天，因為網路連線中斷或其他問題。
 
-僅限 app 中的2個。
+僅限應用程式中的2。
 
-3必須在 VoiceOver 模式中。
+3必須處於 VoiceOver 模式。
 
-4iPhone、iPad 和 Android 不需要在應用程式在背景中執行時接收訊息的推播通知。
+4iPhone、iPad 和 Android 不需要在後臺執行應用程式時接收郵件的推播通知。
 
 </div>
 
 <div>
 
-## <a name="enhanced-presence-support-in-lync-mobile-clients"></a>在 Lync 行動用戶端中增強的目前狀態支援
+## <a name="enhanced-presence-support-in-lync-mobile-clients"></a>Lync Mobile 用戶端中的增強顯示狀態支援
 
 
 <table style="width:100%;">
@@ -209,8 +209,8 @@ _**主題上次修改日期：** 2015-09-21_
 <th>功能/功能</th>
 <th>Lync 2013 桌面用戶端</th>
 <th>Windows Phone</th>
-<th>iPhone</th>
-<th>iPad</th>
+<th>Iphone</th>
+<th>Ipad</th>
 <th>Android</th>
 </tr>
 </thead>
@@ -232,7 +232,7 @@ _**主題上次修改日期：** 2015-09-21_
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>查看狀態筆記及 [不在辦公室] 訊息</p></td>
+<td><p>查看狀態記事和不在辦公室的郵件</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -248,7 +248,7 @@ _**主題上次修改日期：** 2015-09-21_
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>新增自訂記事</p></td>
+<td><p>新增自訂附注</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -256,7 +256,7 @@ _**主題上次修改日期：** 2015-09-21_
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>根據行事曆空閒/忙碌資訊發佈狀態</p></td>
+<td><p>以行事曆空閒/忙碌資訊為基礎的發行狀態</p></td>
 <td><p>●1</p></td>
 <td></td>
 <td></td>
@@ -264,7 +264,7 @@ _**主題上次修改日期：** 2015-09-21_
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>設定手動線上狀態（例如 [忙碌]、[請勿打擾] 等等）</p></td>
+<td><p>設定手動顯示狀態（如忙碌、請勿打擾等等）</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -275,7 +275,7 @@ _**主題上次修改日期：** 2015-09-21_
 </table>
 
 
-1 Lync 行動用戶端不會根據使用者的空閒/忙碌行事曆資訊來更新使用者的目前狀態。 如果行動用戶端使用者也是登入 Lync 桌面用戶端，則桌面用戶端會根據使用者的空閒/忙碌行事曆資訊來更新使用者的目前狀態。 如果使用者只登入行動用戶端，使用者的目前狀態就不會根據空閒/忙碌行事曆資訊來更新。
+1 Lync 行動用戶端不會根據使用者的空閒/忙碌行事曆資訊，更新使用者的目前狀態。 如果行動用戶端使用者也登入 Lync 桌面用戶端，則桌面用戶端會根據使用者的空閒/忙碌行事曆資訊，更新使用者的狀態。 如果使用者只登入行動用戶端，使用者的目前狀態不會根據空閒/忙碌行事曆資訊進行更新。
 
 </div>
 
@@ -298,8 +298,8 @@ _**主題上次修改日期：** 2015-09-21_
 <th>功能/功能</th>
 <th>Lync 2013 桌面用戶端</th>
 <th>Windows Phone</th>
-<th>iPhone</th>
-<th>iPad</th>
+<th>Iphone</th>
+<th>Ipad</th>
 <th>Android</th>
 </tr>
 </thead>
@@ -321,7 +321,7 @@ _**主題上次修改日期：** 2015-09-21_
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>[查看常用連絡人] 群組</p></td>
+<td><p>查看經常連絡人群組</p></td>
 <td><p>●</p></td>
 <td></td>
 <td></td>
@@ -337,7 +337,7 @@ _**主題上次修改日期：** 2015-09-21_
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>針對狀態變更通知標記連絡人</p></td>
+<td><p>標記連絡人的狀態變更通知</p></td>
 <td><p>●</p></td>
 <td></td>
 <td></td>
@@ -345,7 +345,7 @@ _**主題上次修改日期：** 2015-09-21_
 <td></td>
 </tr>
 <tr class="even">
-<td><p>控制隱私權關係</p></td>
+<td><p>控制隱私權關聯</p></td>
 <td><p>●</p></td>
 <td></td>
 <td></td>
@@ -401,7 +401,7 @@ _**主題上次修改日期：** 2015-09-21_
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>將連絡人釘選到您的主畫面</p></td>
+<td><p>將連絡人固定至您的主畫面</p></td>
 <td></td>
 <td><p>●</p></td>
 <td></td>
@@ -412,13 +412,13 @@ _**主題上次修改日期：** 2015-09-21_
 </table>
 
 
-1不適用於商務用 Skype Online 和/或 Office 365 使用者。
+1不適用於商務用 Skype Online 和/或 Microsoft 365 或 Office 365 使用者。
 
 </div>
 
 <div>
 
-## <a name="instant-messaging-support-in-lync-mobile-clients"></a>Lync 行動用戶端中的立即訊息支援
+## <a name="instant-messaging-support-in-lync-mobile-clients"></a>Lync Mobile 用戶端中的立即訊息支援
 
 
 <table style="width:100%;">
@@ -435,14 +435,14 @@ _**主題上次修改日期：** 2015-09-21_
 <th>功能/功能</th>
 <th>Lync 2013 桌面用戶端</th>
 <th>Windows Phone</th>
-<th>iPhone</th>
-<th>iPad</th>
+<th>Iphone</th>
+<th>Ipad</th>
 <th>Android</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>啟動與連絡人的立即訊息（IM）</p></td>
+<td><p>使用連絡人啟動立即訊息（IM）</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -474,7 +474,7 @@ _**主題上次修改日期：** 2015-09-21_
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>在多個 IM 交談之間流覽</p></td>
+<td><p>在多個 IM 交談間流覽</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -482,7 +482,7 @@ _**主題上次修改日期：** 2015-09-21_
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>自動記錄 Exchange 中的 IM 交談</p></td>
+<td><p>在 Exchange 中自動記錄 IM 交談</p></td>
 <td><p>●</p></td>
 <td></td>
 <td></td>
@@ -490,7 +490,7 @@ _**主題上次修改日期：** 2015-09-21_
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>以電子郵件訊息的方式傳送 IM 交談</p></td>
+<td><p>以電子郵件訊息傳送 IM 交談</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -506,7 +506,7 @@ _**主題上次修改日期：** 2015-09-21_
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>查看未接的 IM 邀請</p></td>
+<td><p>查看錯過的 IM 邀請</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -514,7 +514,7 @@ _**主題上次修改日期：** 2015-09-21_
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>使用傳入 IM 震動</p></td>
+<td><p>使用傳入的 IM Vibrate</p></td>
 <td></td>
 <td><p>●1</p></td>
 <td><p>●</p></td>
@@ -525,13 +525,13 @@ _**主題上次修改日期：** 2015-09-21_
 </table>
 
 
-1這個裝置會在每次收到 IM 時 vibrates，即使已顯示 IM 交談中的目前訊息
+1此裝置 vibrates 每次收到 IM 時，即使 IM 交談中的目前郵件會顯示
 
 </div>
 
 <div>
 
-## <a name="lync-to-lync-audio-and-video"></a>Lync 對 Lync 音訊和影片
+## <a name="lync-to-lync-audio-and-video"></a>Lync-to-Lync 音訊和影片
 
 
 <table style="width:100%;">
@@ -548,14 +548,14 @@ _**主題上次修改日期：** 2015-09-21_
 <th>功能/功能</th>
 <th>Lync 2013 桌面用戶端</th>
 <th>Windows Phone</th>
-<th>iPhone</th>
-<th>iPad</th>
+<th>Iphone</th>
+<th>Ipad</th>
 <th>Android</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Lync 對 Lync 語音</p></td>
+<td><p>Lync-to-Lync 語音</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -563,7 +563,7 @@ _**主題上次修改日期：** 2015-09-21_
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>Lync 對 Lync 影片</p></td>
+<td><p>Lync-to-Lync 影片</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -595,14 +595,14 @@ _**主題上次修改日期：** 2015-09-21_
 <th>功能/功能</th>
 <th>Lync 2013 桌面用戶端</th>
 <th>Windows Phone</th>
-<th>iPhone</th>
-<th>iPad</th>
+<th>Iphone</th>
+<th>Ipad</th>
 <th>Android</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>按一下會議提醒中的連結，加入會議（公開交換電話網絡（PSTN））</p></td>
+<td><p>按一下會議提醒中的連結以加入會議（公用交換電話網路（PSTN））</p></td>
 <td><p>●</p></td>
 <td><p>●1</p></td>
 <td><p>●1</p></td>
@@ -610,7 +610,7 @@ _**主題上次修改日期：** 2015-09-21_
 <td><p>●1</p></td>
 </tr>
 <tr class="even">
-<td><p>按一下會議提醒中的連結，即可加入影片或 VoIP 會議</p></td>
+<td><p>按一下會議提醒中的連結，以加入影片或 VoIP 會議</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -626,7 +626,7 @@ _**主題上次修改日期：** 2015-09-21_
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>使用撥出式會議（伺服器呼叫行動裝置）</p></td>
+<td><p>使用電話撥出式會議（伺服器呼叫行動裝置）</p></td>
 <td><p>●</p></td>
 <td><p>●2</p></td>
 <td><p>●2</p></td>
@@ -642,7 +642,7 @@ _**主題上次修改日期：** 2015-09-21_
 <td></td>
 </tr>
 <tr class="even">
-<td><p>觀看會議影片</p></td>
+<td><p>查看會議影片</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -650,7 +650,7 @@ _**主題上次修改日期：** 2015-09-21_
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>查看多方影片（圖庫視圖）</p></td>
+<td><p>流覽多方影片（圖庫視圖）</p></td>
 <td><p>●</p></td>
 <td></td>
 <td></td>
@@ -658,7 +658,7 @@ _**主題上次修改日期：** 2015-09-21_
 <td></td>
 </tr>
 <tr class="even">
-<td><p>在會議大廳等候</p></td>
+<td><p>在會議廳中等候</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -682,7 +682,7 @@ _**主題上次修改日期：** 2015-09-21_
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>存取 IM 會議的詳細會議名單</p></td>
+<td><p>存取適用于 IM 會議的詳細會議名單</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -706,7 +706,7 @@ _**主題上次修改日期：** 2015-09-21_
 <td></td>
 </tr>
 <tr class="even">
-<td><p>查看共用的 PowerPoint</p></td>
+<td><p>View shared PowerPoint</p></td>
 <td><p>●</p></td>
 <td><p>●4</p></td>
 <td><p>●4</p></td>
@@ -714,7 +714,7 @@ _**主題上次修改日期：** 2015-09-21_
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>使用會議工具（顯示 Microsoft PowerPoint 檔案、使用白板、執行投票、共用檔案）</p></td>
+<td><p>使用會議工具（呈現 Microsoft PowerPoint 檔案、使用白板、執行投票、共用檔）</p></td>
 <td><p>●</p></td>
 <td></td>
 <td></td>
@@ -722,7 +722,7 @@ _**主題上次修改日期：** 2015-09-21_
 <td></td>
 </tr>
 <tr class="even">
-<td><p>流覽會議清單</p></td>
+<td><p>流覽您的會議清單</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -730,7 +730,7 @@ _**主題上次修改日期：** 2015-09-21_
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>即使您沒有 Lync 帳戶也能加入會議</p></td>
+<td><p>即使您沒有 Lync 帳戶也可加入會議</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -738,7 +738,7 @@ _**主題上次修改日期：** 2015-09-21_
 <td></td>
 </tr>
 <tr class="even">
-<td><p>查看會議參與者的詳細資訊</p></td>
+<td><p>查看有關會議參與者的詳細資訊</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -746,7 +746,7 @@ _**主題上次修改日期：** 2015-09-21_
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>從您的用戶端或裝置直接使用多位參與者啟動未排程的群組交談</p></td>
+<td><p>從您的用戶端或裝置直接啟動與多個參與者的非定時群組交談</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -757,19 +757,19 @@ _**主題上次修改日期：** 2015-09-21_
 </table>
 
 
-1對於 Office 365 使用者，此功能僅適用于音訊會議提供者（ACP）的會議。
+1若為 Microsoft 365 或 Office 365 使用者，此功能僅適用于音訊會議提供者（ACP）啟用的會議。
 
-2不提供給 Office 365 使用者。
+2不適用於 Microsoft 365 或 Office 365 使用者。
 
-3：適用于商務用 Skype Online 和/或 Office 365 使用者，可從協力廠商音訊會議提供者取得此功能。
+3如需商務用 Skype Online 和/或 Microsoft 365 或 Office 365 使用者，可從協力廠商音訊會議提供者取得此功能。
 
-無法從 Lync Mobile 2013 查看 Lync Web App 共用的 4A PowerPoint 簡報。 在 Lync 2013 桌面用戶端上所做的標注無法在行動裝置上查看。
+在 lync Mobile 2013 中無法查看由 Lync Web App 共用的 4A PowerPoint 簡報。 在 Lync 2013 桌面用戶端上進行的批註無法在行動裝置上查看。
 
 </div>
 
 <div>
 
-## <a name="telephony-support-in-lync-mobile-clients"></a>Lync 行動用戶端中的電話支援
+## <a name="telephony-support-in-lync-mobile-clients"></a>Lync Mobile 用戶端的電話語音支援
 
 
 <table style="width:100%;">
@@ -786,14 +786,14 @@ _**主題上次修改日期：** 2015-09-21_
 <th>功能/功能</th>
 <th>Lync 2013 桌面用戶端</th>
 <th>Windows Phone</th>
-<th>iPhone</th>
-<th>iPad</th>
+<th>Iphone</th>
+<th>Ipad</th>
 <th>Android</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>在 Lync 中，請按 [通話] 圖示撥打電話給連絡人</p></td>
+<td><p>在 Lync 中，點擊呼叫圖示呼叫連絡人</p></td>
 <td><p>●1</p></td>
 <td><p>●2</p></td>
 <td><p>●2</p></td>
@@ -801,7 +801,7 @@ _**主題上次修改日期：** 2015-09-21_
 <td><p>●2</p></td>
 </tr>
 <tr class="even">
-<td><p>轉接來電</p></td>
+<td><p>轉接電話</p></td>
 <td><p>●1</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -817,7 +817,7 @@ _**主題上次修改日期：** 2015-09-21_
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>管理團隊通話設定</p></td>
+<td><p>管理小組通話設定</p></td>
 <td><p>●3</p></td>
 <td></td>
 <td></td>
@@ -833,7 +833,7 @@ _**主題上次修改日期：** 2015-09-21_
 <td></td>
 </tr>
 <tr class="even">
-<td><p>啟動通話至回應群組</p></td>
+<td><p>撥號給回應群組</p></td>
 <td><p>●3</p></td>
 <td></td>
 <td></td>
@@ -849,7 +849,7 @@ _**主題上次修改日期：** 2015-09-21_
 <td></td>
 </tr>
 <tr class="even">
-<td><p>代表其他聯絡人撥打（管理員/代理人案例）</p></td>
+<td><p>代表其他連絡人撥打電話 (主管/代理人案例)</p></td>
 <td><p>●3</p></td>
 <td></td>
 <td></td>
@@ -857,7 +857,7 @@ _**主題上次修改日期：** 2015-09-21_
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>處理其他聯絡人的來電（如果已設定為代理人）</p></td>
+<td><p>處理另一個連絡人的來電（若設定為代理人）</p></td>
 <td><p>●3</p></td>
 <td><p>●3</p></td>
 <td><p>●3</p></td>
@@ -865,7 +865,7 @@ _**主題上次修改日期：** 2015-09-21_
 <td><p>●3</p></td>
 </tr>
 <tr class="even">
-<td><p>透過公司通話（Lync Server 2013 會放置您的撥出電話，讓收件者的本機號碼顯示您的公司電話號碼，而不是您的行動電話號碼）</p></td>
+<td><p>使用 [從公司來電] （Lync Server 2013 會將您的撥出電話，讓收件者的來電者識別碼顯示您的工作號碼，而不是您的行動電話號碼）</p></td>
 <td></td>
 <td><p>●3</p></td>
 <td><p>●3</p></td>
@@ -881,7 +881,7 @@ _**主題上次修改日期：** 2015-09-21_
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>在 Lync 中使用小鍵盤</p></td>
+<td><p>使用 Lync 中的小鍵盤</p></td>
 <td><p>●</p></td>
 <td><p>●3</p></td>
 <td><p>●3</p></td>
@@ -892,19 +892,19 @@ _**主題上次修改日期：** 2015-09-21_
 </table>
 
 
-1 Lync Server 2013、商務用 Skype Online 和 Office 365 使用者可以透過敲擊圖示呼叫其他 Lync 使用者和 Skype 使用者。 Lync Server 2013 使用者也可以透過攻絲圖示來撥打 PSTN 通話。
+1 Lync Server 2013、商務用 Skype Online 和 Office 365 使用者可能會點擊此圖示呼叫其他 Lync 使用者和 Skype 使用者。 Lync Server 2013 使用者也可以透過點擊圖示放置 PSTN 通話。
 
-2對於內部部署 Lync Server 2013 使用者，在 Windows Phone、iPhone 和 iPad 裝置上，使用者可在連絡人卡片中按一下通話圖示，並接受 Lync Server 2013 的回呼。 針對 Office 365 使用者，在 Windows Phone、iPhone 和 iPad 裝置上，當使用者按下 [通話] 按鈕時，會開啟一個對話方塊，詢問使用者是否要呼叫該號碼。
+2對於內部部署的 Lync Server 2013 使用者，在 Windows Phone、iPhone 和 iPad 裝置上，使用者可點擊連絡人卡片中的呼叫圖示，並接受 Lync Server 2013 的回撥。 針對 Microsoft 365 或 Office 365 使用者，在 Windows Phone、iPhone 和 iPad 裝置上，當使用者按下 [通話] 按鈕時，會開啟對話方塊，詢問使用者是否要撥打號碼。
 
-3不適用於商務用 Skype Online 和/或 Office 365 使用者。
+3商務用 Skype Online 和/或 Microsoft 365 或 Office 365 使用者無法使用。
 
-4：商務用 Skype Online 和/或 Office 365 使用者，這項功能受 Microsoft 合作夥伴支援。
+4如果是商務用 Skype Online 和/或 Microsoft 365 或 Office 365 使用者，則 Microsoft 合作夥伴支援此功能。
 
 </div>
 
 <div>
 
-## <a name="external-user-support-in-lync-mobile-clients"></a>Lync 行動用戶端中的外部使用者支援
+## <a name="external-user-support-in-lync-mobile-clients"></a>Lync Mobile 用戶端的外部使用者支援
 
 
 <table style="width:100%;">
@@ -921,14 +921,14 @@ _**主題上次修改日期：** 2015-09-21_
 <th>功能/功能</th>
 <th>Lync 2013 桌面用戶端</th>
 <th>Windows Phone</th>
-<th>iPhone</th>
-<th>iPad</th>
+<th>Iphone</th>
+<th>Ipad</th>
 <th>Android</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>啟動與公用連絡人的 IM</p></td>
+<td><p>以公用連絡人啟動 IM</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -936,7 +936,7 @@ _**主題上次修改日期：** 2015-09-21_
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>啟動與同盟連絡人的 IM</p></td>
+<td><p>使用同盟連絡人啟動 IM</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -960,7 +960,7 @@ _**主題上次修改日期：** 2015-09-21_
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>使用 [透過工作撥打電話] 呼叫其已發佈的工時數位，即可在其行動電話上取得同盟連絡人。</p></td>
+<td><p>使用 [從公司來電] 呼叫其已發佈的工作成1，以接觸行動電話上的同盟連絡人。</p></td>
 <td></td>
 <td><p>●2</p></td>
 <td><p>●2</p></td>
@@ -971,9 +971,9 @@ _**主題上次修改日期：** 2015-09-21_
 </table>
 
 
-1預設情況下，會將聯盟使用者指派為外部連絡人隱私權關係。 若要透過呼叫其已發佈的公司電話號碼，在其行動電話上取得同盟連絡人，同盟連絡人必須手動指派給您同事的隱私權關係。
+1依預設，同盟使用者會被指派外部連絡人隱私權關聯。 若要能夠撥打同盟連絡人的使用者已發佈的公司電話號碼，必須手動為您指派同事隱私權關聯。
 
-2不提供給 Office 365 使用者。
+2不適用於 Office 365 使用者。
 
 </div>
 
@@ -996,8 +996,8 @@ _**主題上次修改日期：** 2015-09-21_
 <th>功能/功能</th>
 <th>Lync 2013 桌面用戶端</th>
 <th>Windows Phone</th>
-<th>iPhone</th>
-<th>iPad</th>
+<th>Iphone</th>
+<th>Ipad</th>
 <th>Android</th>
 </tr>
 </thead>
@@ -1011,7 +1011,7 @@ _**主題上次修改日期：** 2015-09-21_
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>從通訊錄直接撥打連絡人的 Lync 電話</p></td>
+<td><p>直接從通訊錄中撥打連絡人的 Lync 通話</p></td>
 <td></td>
 <td></td>
 <td></td>
@@ -1026,7 +1026,7 @@ _**主題上次修改日期：** 2015-09-21_
 
 <div>
 
-## <a name="archiving-and-compliance-support-in-lync-mobile-clients"></a>Lync 行動用戶端中的封存與合規性支援
+## <a name="archiving-and-compliance-support-in-lync-mobile-clients"></a>Lync 行動用戶端的封存和規範支援
 
 
 <table style="width:100%;">
@@ -1043,8 +1043,8 @@ _**主題上次修改日期：** 2015-09-21_
 <th>功能/功能</th>
 <th>Lync 2013 桌面用戶端</th>
 <th>Windows Phone</th>
-<th>iPhone</th>
-<th>iPad</th>
+<th>Iphone</th>
+<th>Ipad</th>
 <th>Android</th>
 </tr>
 </thead>

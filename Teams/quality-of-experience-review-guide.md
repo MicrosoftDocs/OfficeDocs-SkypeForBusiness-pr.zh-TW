@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 91e2763fac952b7188284dcf09e6fc0b7cc4bf16
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: 44ea666d39427e6be6aa60a3c05af2a10ed1cc5e
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 04/22/2020
-ms.locfileid: "43749860"
+ms.locfileid: "43780582"
 ---
 # <a name="quality-of-experience-review-guide"></a>體驗品質的審查指南 
 
@@ -70,16 +70,16 @@ _圖 1-本指南涵蓋的主要操作區域_
 
 |  |查看報表  |[查看 EUII] 欄位  |建立報表  |上傳資料  |
 |---------|:-------:|:-------:|:-------:|:-------:|
-|Office 365 全域系統管理員     |是         |是         |是         |是         |
+|全域系統管理員     |是         |是         |是         |是         |
 |Teams 服務管理員     |是         |是         |是         |是         |
 |Teams 通訊系統管理員     |是         |是         |是         |是         |
 |Teams 通訊支援工程師     |是         |是         |是         |否         |
 |團隊溝通支援專家     |是         |否         |是         |否         |
 |商務用 Skype 系統管理員     |是         |是         |是         |是         |
 |Azure AD 全域讀取器 |是         |是         |是         |否         |
-|Office 365 報告讀取器<sup>1</sup>     |是         |否         |是         |否         |
+|Microsoft 365 報告讀取器<sup>1</sup>     |是         |否         |是         |否         |
 
-<sup>1</sup>除了讀取 CQD 報表之外，Office 365 報告閱讀者還可以查看系統管理中心的所有[活動報告](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263)，以及[Microsoft 365 採用內容套件](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f)中的所有報告。
+<sup>1</sup>除了讀取 CQD 報表之外，Microsoft 365 報告閱讀程式也可從[microsoft 365 採用內容套件](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f)中，查看系統管理中心的所有[活動報告](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263)和所有報告。
 
 > [!NOTE]
 > 如果您沒有看到 [EUII] （使用者可辨識的資訊），而且您擁有可查看此資訊的角色之一，請記住 CQD 只能在30天內保留 EUII。 已刪除30天之前的任何日期。
@@ -598,7 +598,7 @@ _資料表 4-報表篩選_
 2. 使用您的 Office 365 系統管理認證進行驗證。
 
    > [!NOTE]
-   > 您必須具備 Office 365 全域系統管理員、商務用 Skype 系統管理員或報表閱讀者角色，才能存取 CQD。 
+   > 您必須擁有全域管理員、商務用 Skype 系統管理員或報表閱讀者角色，才能存取 CQD。 
 
 3. 選取頁面頂端的 [**摘要報表**] 功能表，然後選擇 [**詳細報表**]。
 
@@ -1189,7 +1189,7 @@ _圖 30-用戶端版本報告_
 您可以透過下列連結找到商務用 Skype 的版本號碼：
 
 -   [Office 專業增強版更新的發行資訊](https://docs.microsoft.com/officeupdates/release-notes-office365-proplus)
--   [Office 365 專業增強版的更新歷程記錄](https://docs.microsoft.com/officeupdates/update-history-office365-proplus-by-date)
+-   [適用于企業的 Microsoft 365 應用程式更新歷程記錄](https://docs.microsoft.com/officeupdates/update-history-office365-proplus-by-date)
 -   [商務用 Skype 的下載及更新](/SkypeForBusiness/software-updates)
 
 ### <a name="devices"></a>裝置

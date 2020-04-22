@@ -17,12 +17,12 @@ description: 瞭解如何建立您的第一份團隊與頻道、快速使用中�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: fea5ab9eec355d77f19165253fe97ee8aeb725ca
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 544dcb4ffd424512797d3791e2eda6b22439c084
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139242"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777838"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>管理 Microsoft 團隊中的來賓存取權
 ======================================
@@ -30,7 +30,7 @@ ms.locfileid: "43139242"
 > [!IMPORTANT]
 > 您可能需要等候 24 小時，變更才會生效。 
 
-**來賓**是 Microsoft 團隊中的使用者類型，包括所有 Office 365 商務版 Premium、Office 365 企業版、Office 365 商務基本版和 Office 365 教育版訂閱。 您不需要額外的 Office 365 授權。 請參閱以下有關[來賓存取授權](#guest-access-licensing-limits)的詳細資訊。
+**來賓**是 microsoft 團隊中的使用者類型，包括所有 Microsoft 365 商務標準版、Office 365 企業版、Microsoft 365 Business Basic 及 Office 365 教育版訂閱。 您不需要額外的 Office 365 授權。 請參閱以下有關[來賓存取授權](#guest-access-licensing-limits)的詳細資訊。
 
 [團隊訪客存取] 是租使用者層級設定，預設為關閉狀態。 如需如何開啟來賓存取的詳細資料，請參閱[開啟或關閉對團隊的來賓存取權](set-up-guests.md)，或使用[來賓存取檢查清單](guest-access-checklist.md)逐步引導您完成設定。
 
@@ -64,7 +64,7 @@ Teams 未限制您可以新增的來賓數量。 然而，可以新增至租用�
 
 ## <a name="lag-time-for-guest-access-settings-to-take-effect"></a>[來賓存取設定] 生效的延後時間
 
-針對 Azure Active Directory 中的來賓存取設定，您需要2-24 小時才能讓變更在您的 Office 365 組織中生效。 當使用者嘗試將來賓新增到其小組時，如果使用者看到「與您的系統管理員聯繫」的訊息，可能是因為來賓功能尚未開啟，或設定尚未生效。 如需設定來賓存取問題的相關說明，請參閱[疑難排解團隊中的來賓存取權](troubleshoot-guest-access.md)。
+針對 Azure Active Directory 中的來賓存取設定，您需要2-24 小時才能讓變更在您的 Microsoft 365 或 Office 365 中生效。 當使用者嘗試將來賓新增到其小組時，如果使用者看到「與您的系統管理員聯繫」的訊息，可能是因為來賓功能尚未開啟，或設定尚未生效。 如需設定來賓存取問題的相關說明，請參閱[疑難排解團隊中的來賓存取權](troubleshoot-guest-access.md)。
 
   
 ## <a name="external-access-federation-vs-guest-access"></a>外部存取 (同盟) 與來賓存取

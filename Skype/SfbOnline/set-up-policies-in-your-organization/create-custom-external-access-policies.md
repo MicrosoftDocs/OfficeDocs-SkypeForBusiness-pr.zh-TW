@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 商務用 Skype Online 可讓您建立其他外部存取原則。 與用戶端或會議原則不同（您可以使用多個組合），有三個預先定義的外部存取原則可涵蓋大部分案例。
-ms.openlocfilehash: 76fa8fd1ae18f4108d9c4f52bca73d86ea07aafd
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: bf98dbdd7e59bea5f818bf803ba993be569c59b7
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41983968"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776308"
 ---
 # <a name="create-custom-external-access-policies"></a>建立自訂外部存取原則
 
@@ -67,7 +67,7 @@ ms.locfileid: "41983968"
     
 1. 從 [**開始] 功能表** > 中的 [**Windows PowerShell**]。
     
-2. 在**Windows PowerShell**視窗中，執行下列動作以連線到您的 Office 365 組織：
+2. 在**Windows PowerShell**視窗中，執行下列動作以連線至您的 Microsoft 365 或 Office 365：
     
     > [!NOTE]
     > 您在第一次使用商務用 Skype Online Windows PowerShell 模組時，您只需執行匯**入模組**命令。

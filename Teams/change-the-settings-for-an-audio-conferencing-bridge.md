@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.audioconferencing.bridgesettings
 - seo-marvel-mar2020
 description: 變更音訊會議橋設定，包括進入與結束通知、播放姓名或電話號碼、鈴聲，以及提示來電者記下其名稱。
-ms.openlocfilehash: aaff3518675e1db56340f9dc1568b994cf2ed6e6
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 48028ccb3f2a0664f9fa724ec91e1dfc0177326f
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139082"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780342"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>變更音訊會議橋接器的設定
 
@@ -43,7 +43,7 @@ ms.locfileid: "43139082"
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-## <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![顯示 Microsoft [小組標誌] 的圖示](media/teams-logo-30x30.png) 使用 Microsoft 團隊系統管理中心
+## <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![顯示 Microsoft Teams 標誌的圖示](media/teams-logo-30x30.png) 使用 Microsoft Teams 系統管理中心
 
 1. 在左側導覽中，前往 [**會議** > **會議橋**]。 
 
@@ -90,7 +90,7 @@ ms.locfileid: "43139082"
     
 **設定會議的 PIN 長度**
   
-1. 使用您的公司或學校帳戶登入 Office 365。
+1. 使用您的公司或學校帳戶登入。
     
 2. 移至**Microsoft 365 管理中心** > **商務用 Skype**。
     
@@ -103,7 +103,7 @@ ms.locfileid: "43139082"
   
 **選取是否要傳送電子郵件給您的使用者**
   
-1. 使用您的公司或學校帳戶登入 Office 365。
+1. 使用您的公司或學校帳戶登入。
     
 2. 移至**Microsoft 365 管理中心** > **商務用 Skype**。
     

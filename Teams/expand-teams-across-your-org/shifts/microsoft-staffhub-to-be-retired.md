@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 53d82dc346226215101c837dcf8a2f10dd6ff2fc
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 4c37d0c606a52893b69a101c99ef962e46d4deb3
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141176"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780632"
 ---
 # <a name="microsoft-staffhub-to-be-retired"></a>終止對 Microsoft StaffHub 的支援
 
@@ -97,7 +97,7 @@ ms.locfileid: "43141176"
 
 #### <a name="where-is-shifts-data-stored"></a>[倒班] 資料會儲存在何處？
 
-倒班中的資料會儲存于北美和西歐資料中心的 Azure 中。 SharePoint 內容利用 Office 365 群組，並使用相同的儲存空間和支援。
+倒班中的資料會儲存于北美和西歐資料中心的 Azure 中。 SharePoint 內容利用 Microsoft 365 群組，並使用相同的儲存空間和支援。
 
 如需詳細資訊，請參閱[倒班資料的位置](manage-the-shifts-app-for-your-organization-in-teams.md#location-of-shifts-data)。
 
@@ -131,9 +131,9 @@ ms.locfileid: "43141176"
 
 是，使用小組與團隊中的團隊和倒班的每個管理員和小組成員都必須擁有 Office 365 帳戶（Azure AD），而且必須指派有效的授權。
  
-#### <a name="in-staffhub-i-could-add-a-special-prefix-to-all-office-365-groups-that-were-created-by-staffhub-teams-can-i-do-the-same-in-teams"></a>在 StaffHub 中，我可以在由 StaffHub 團隊建立的所有 Office 365 群組中新增特殊的前置詞。 我可以在小組中執行相同的動作嗎？
+#### <a name="in-staffhub-i-could-add-a-special-prefix-to-all-microsoft-365-groups-that-were-created-by-staffhub-teams-can-i-do-the-same-in-teams"></a>在 StaffHub 中，我可以在由 StaffHub 團隊建立的所有 Microsoft 365 群組中，新增特殊的前置詞。 我可以在小組中執行相同的動作嗎？
 
-當您從 StaffHub 移至 [團隊] 時，您將無法使用相同的功能。 如果您需要將名稱一致性套用至所有的 Office 365 群組，您可以使用[Office 365 群組命名原則](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy)。
+當您從 StaffHub 移至 [團隊] 時，您將無法使用相同的功能。 如果您需要將名稱一致性套用至所有的 Microsoft 365 群組，您可以使用[Microsoft 365 群組命名原則](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy)。
 
 #### <a name="will-team-names-be-the-same-in-teams"></a>小組中的團隊名稱是否相同？
 
@@ -149,7 +149,7 @@ ms.locfileid: "43141176"
 
 使用者的排程會移至班次，不過，使用者不會成為團隊或 Office 365 群組的成員。
 
-對於未連結至 Azure AD 使用者帳戶的非作用中帳戶，管理員可以在 [StaffHub 小組成員] 頁面上新增有效的 Office 365 電子郵件地址，以確保使用者已連結至其組織中正確的 Azure AD 帳戶。
+對於未連結至 Azure AD 使用者帳戶的非作用中帳戶，管理員可以在 [StaffHub 小組成員] 頁面上新增有效的 Microsoft 365 或 Office 365 電子郵件地址，以確保使用者已連結至其組織中正確的 Azure AD 帳戶。
 
 另一個選項是系統管理員執行**StaffHubMember**及**remove StaffHubUser** Cmdlet，以從 StaffHub 小組中移除未預配的帳戶，然後使用其 UPN 將使用者新增回團隊。
 

@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 瞭解 Office 365 預設本機號碼（使用者指派的電話號碼），也稱為呼叫線路 ID。 您可以變更或封鎖使用者的本機號碼。
-ms.openlocfilehash: c04fdfa7dc395f31eb3277fe0ab2f77aa92605c7
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 3e19b1de929057880573c29ba75aa0ec1091139f
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140906"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780522"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>設定使用者的來電顯示
 Office 365 中的電話系統提供使用者指派電話號碼的預設本機號碼。 您可以變更或封鎖使用者的本機號碼（也稱為通話行識別碼）。 若要深入瞭解如何在[您的組織](how-can-caller-id-be-used-in-your-organization.md)中使用本機號碼，請參閱如何在貴組織中使用本機號碼。
@@ -79,7 +79,7 @@ Office 365 中的電話系統提供使用者指派電話號碼的預設本機號
     
 1. 從 [**開始] 功能表** > 中的 [**Windows PowerShell**]。
     
-2. 在**Windows PowerShell**視窗中，執行下列動作以連線到您的 Office 365 組織：
+2. 在**Windows PowerShell**視窗中，執行下列動作以連線至您的 Microsoft 365 或 Office 365：
     
    > [!NOTE]
    > 您在第一次使用商務用 Skype Online Windows PowerShell 模組時，您只需執行匯**入模組**命令。

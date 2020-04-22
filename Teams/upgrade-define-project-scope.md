@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ef2f257934847f74466ff6f91890a667084b88d1
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 8c3e3e9d3253fef62c93751367647399ca91febd
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139662"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780602"
 ---
 # <a name="define-your-project-scope"></a>定義專案範圍
 
@@ -93,7 +93,7 @@ ms.locfileid: "43139662"
 |---|---|---|---|---|
 | **網路與品質** | 較差的音訊通話百分比應該最小化 | [通話品質儀表板（CQD）](https://aka.ms/sof-cqd) | \<與團隊通話不佳的3% | 每週，然後按月 |
 | **使用量與認知** | 聊天、會議和通話體驗等於或優於商務用 Skype | 匯總 | 80% 同意或強烈同意 | 每週完成試驗，後期部署 |
-| **使用量與採納** | 使用者積極使用此方案 | Office 365 報表或 CQD | 從試驗使用者參與的90%，比目前的方案要好 | 每週，然後按月 |
+| **使用量與採納** | 使用者積極使用此方案 | Microsoft 365 報表或 CQD | 從試驗使用者參與的90%，比目前的方案要好 | 每週，然後按月 |
 | **使用量與訓練** | 我有足夠的訓練/說明資源來成功使用團隊 | 試驗後問卷 | 80% 同意或強烈同意 | 試驗後、後期推出 |
 | **使用者滿意度** | 我建議將團隊給其他人 | 透過試驗後問捲進行的[Net Promoter 成績（NPS）](http://www.npscalculator.com/en) | NPS \> 0 | 試驗後、後期推出 |
 | **商務驅動程式** | 成本節約 | 應付帳款 | \$協力廠商解決方案的成本支出是 X 萬美元 | 六個月，然後一年，後五年後推出 |
@@ -107,7 +107,7 @@ ms.locfileid: "43139662"
 
 | 造成 | 幾率 | 受到 | 全域 | 緩解方案 |
 |---|---|---|---|-------|
-| **網路品質** | 深淺 | 中高 | 中高 | 執行網路規劃練習。 |
+| **網路品質** | 中型 | 中高 | 中高 | 執行網路規劃練習。 |
 | **低使用者採用** | 中高 | 中高 | 中高 | 在試驗和部署階段與使用者積極合作;實施有針對性的認知與訓練活動，以建立您的需求。 |
 | | | | | |
 

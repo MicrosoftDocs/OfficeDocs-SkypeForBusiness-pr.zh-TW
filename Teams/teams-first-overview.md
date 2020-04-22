@@ -15,12 +15,12 @@ description: 使用本指導方針將 Microsoft 團隊作為您的第一份 Offi
 ROBOTS: NOINDEX, NOFOLLOW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 79607004c8f750ceed0325733c8c52a4873e9cdc
-ms.sourcegitcommit: 89a7c0427a5abbef838a17ae7eac6934c6176a35
+ms.openlocfilehash: 9db6b2192224e796475c903cf5eeeaa06ecdc8ee
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42982151"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780372"
 ---
 # <a name="roll-out-microsoft-teams-first"></a>先推出 Microsoft 團隊
 
@@ -37,7 +37,7 @@ Microsoft 團隊可以協助您的員工彼此保持聯繫並共同作業，特�
 
 若要開始使用您的小組第一次部署，您必須至少滿足一些必備元件。 下列清單會顯示您在啟用團隊之前必須針對貴組織進行的動作：
 
-1.  使用您的功能變數名稱設定的 Office 365 租使用者
+1.  使用您的功能變數名稱設定的 Office 365 組織
 
 2.  Azure Active Directory 連線（AAD 連線）或類似的雲端身分識別同步處理方案（含與您的租使用者同步處理的所有必要屬性）  
     若要瞭解與 AAD 同步處理的屬性，請閱讀[AZURE AD Connect 同步處理：屬性已同步處理到 Azure Active Directory](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized)
@@ -93,7 +93,7 @@ Microsoft 團隊可以協助您的員工彼此保持聯繫並共同作業，特�
 <table>
 <thead>
 <tr class="header">
-<th>選項</th>
+<th>項目</th>
 <th>筆記</th>
 </tr>
 </thead>
@@ -104,7 +104,7 @@ Microsoft 團隊可以協助您的員工彼此保持聯繫並共同作業，特�
 </tr>
 <tr class="even">
 <td>團隊中的聊天/外部通訊</td>
-<td><p>內部（在 Office 365 租使用者內）和來自團隊的外部聊天通訊</p>
+<td><p>內部（Office 365 組織內）及來自團隊的外部聊天通訊</p>
 <p><em>注意： DNS 專案必須針對外部存取進行設定。 您也可以使用商務用 skype DNS 記錄，即使您沒有商務用 skype 內部部署或 Office 365，才能允許與 Lync 和商務用 Skype 環境進行同盟。<br />
 <a href="https://docs.microsoft.com/office365/enterprise/external-domain-name-system-records">Office 365 的外部網域名稱系統記錄</a></em></p></td>
 </tr>
@@ -173,7 +173,7 @@ Microsoft 團隊可以協助您的員工彼此保持聯繫並共同作業，特�
 <table>
 <thead>
 <tr class="header">
-<th>選項</th>
+<th>項目</th>
 <th>筆記</th>
 </tr>
 </thead>
@@ -264,11 +264,11 @@ Microsoft 團隊可以是您組織的啟用程式，將所有員工、資訊工�
 
   - [傳送線上會議與活動](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/17/delivering-online-meetings-events/)
 
-  - [協助中小型企業與團隊進行遠端作業](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/17/helping-smb-customers-work-remotely-microsoft-teams/)
+  - [協助中小型企業能夠使用 Teams 遠端工作](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/17/helping-smb-customers-work-remotely-microsoft-teams/) (英文)
 
   - [即時事件的數位轉換：王俊元從第一線 Bejan 的觀測值](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/13/digital-transformation-live-events-bob-bejans-observations-frontline/)
 
-  - [Microsoft IT 為員工啟用遠端作業的前九種方式](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/)
+  - [Microsoft IT 為其員工啟用遠端作業的最熱門 9 種方式](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/) (英文)
 
   - [遠端工作、保持安全（CISOs 的秘訣）](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/12/work-remotely-stay-secure-ciso-tips/)
 
@@ -278,7 +278,7 @@ Microsoft 團隊可以是您組織的啟用程式，將所有員工、資訊工�
 
 ## <a name="support-services-reference"></a>支援服務參考
 
-團隊依賴 Exchange Online、SharePoint Online、商務用 OneDrive 和 Office 365 群組，為您的使用者提供完全整合的 Office 365 體驗。 如上述所述，小組將能正常運作，而不需全面部署這些服務-並提供有限的功能。 您可以在這裡閱讀更多關於團隊及其必備專案的資訊：[歡迎使用團隊](teams-overview.md)。
+團隊依賴 Exchange Online、SharePoint Online、商務用 OneDrive 和 Microsoft 365 群組，為您的使用者提供完全整合的 Office 365 體驗。 如上述所述，小組將能正常運作，而不需全面部署這些服務-並提供有限的功能。 您可以在這裡閱讀更多關於團隊及其必備專案的資訊：[歡迎使用團隊](teams-overview.md)。
 
 如需上述各項服務的詳細資訊，請遵循下列連結：
 
@@ -289,7 +289,7 @@ Microsoft 團隊可以是您組織的啟用程式，將所有員工、資訊工�
 
   - SharePoint 是用於頻道中的檔案共用，而商務用/OneDrive 則用於1:1 或群組聊天中的檔案共用。 若要深入瞭解，請參閱[SharePoint Online 與商務用 OneDrive 與 Microsoft 團隊互動的方式](sharepoint-onedrive-interact.md)。
 
-  - [Office 365 群組](office-365-groups.md)用於小組和頻道建立/管理。
+  - [Microsoft 365 群組](office-365-groups.md)用於小組和通道建立/管理。
 
 
 ## <a name="related-topics"></a>相關主題

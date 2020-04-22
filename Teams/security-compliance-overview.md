@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 42f6b185a8a09b0aae139175acfc632b84387db8
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: e226acdc12d4b94b7854f6d4bdb1d2fa618fa21e
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 04/22/2020
-ms.locfileid: "43749440"
+ms.locfileid: "43777498"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Microsoft 團隊中的安全性與合規性
 
@@ -53,7 +53,7 @@ Microsoft 團隊是以 Office 365 超規模、企業級的雲端為基礎，提�
 
 閱讀身分[識別模型與驗證](identify-models-authentication.md)，以深入瞭解驗證與團隊，以及[新式驗證運作方式將如何](sign-in-teams.md)協助新式驗證。
 
-由於團隊在與 SharePoint、OneNote、Exchange 等合作夥伴合作，因此您應該輕鬆管理 Office 365 中的安全性。 若要深入瞭解 Office 365 的安全性，請閱讀[設定您的 Office 365 租使用者，以提高安全性](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security)。
+由於團隊在與 SharePoint、OneNote、Exchange 等合作夥伴合作，因此您應該輕鬆管理 Office 365 中的安全性。 若要深入瞭解 Office 365 的安全性，請閱讀[設定您的 Office 365 組織以提高安全性](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security)。
 
 > [!NOTE]
 > 目前，[私有通道](private-channels.md)支援有限的安全性與合規性功能。 我們即將推出私人通道中完整的安全性與合規性功能的支援。
@@ -84,7 +84,7 @@ Microsoft 團隊桌面應用程式支援 AppLocker。  如需有關 AppLocker �
 
 ## <a name="compliance"></a>從屬
 
-團隊有大量的資訊可協助您處理合規性區域，包括頻道、聊天和附件、保留原則、資料遺失保護（DLP）、eDiscovery 和法律封存（針對頻道、聊天和檔案、審核記錄搜尋），以及使用 Microsoft Intune 的行動應用程式管理。 我們已提供下列所有主題的相關資訊，您可以移至[Microsoft 365 合規性中心](https://compliance.microsoft.com)或[Office 365 安全性 & 合規性中心](https://protection.microsoft.com)來管理這些設定。
+團隊有大量的資訊可協助您處理合規性區域，包括頻道、聊天和附件、保留原則、資料遺失保護（DLP）、eDiscovery 和法律封存（針對頻道、聊天和檔案、審核記錄搜尋），以及使用 Microsoft Intune 的行動應用程式管理。 我們已提供下列所有主題的相關資訊，您可以移至[Microsoft 365 合規性中心](https://compliance.microsoft.com)來管理這些設定。
 
 ### <a name="information-barriers"></a>資訊障礙
 
@@ -140,11 +140,11 @@ Microsoft 團隊中的資料遺失防護（DLP），以及 Office 365 較大型�
 
 在任何一種情況下，只要設定保留，就能確保即使使用者刪除或編輯群組信箱中的頻道訊息，該內容的不變複本仍能透過 eDiscovery 搜尋進行維護和使用。 法律封存一般會套用在 eDiscovery 案例的內容中。
 
-請參閱[保留原則](https://docs.microsoft.com/microsoft-365/compliance/retention-policies)文章的概覽，以深入瞭解如何在 Office 365 安全 & 合規性中心中保留和保留。 如需法律封存的相關小組特定資訊，我們也可以讓[Microsoft 團隊使用者或團隊在法律封存](legal-hold.md)中取得詳細資訊。
+請參閱[保留原則](https://docs.microsoft.com/microsoft-365/compliance/retention-policies)文章的概覽，以深入瞭解 Microsoft 365 規範中心中保留並保留的資訊。 如需法律封存的相關小組特定資訊，我們也可以讓[Microsoft 團隊使用者或團隊在法律封存](legal-hold.md)中取得詳細資訊。
 
 ### <a name="compliance-content-search"></a>合規性內容搜尋
 
-您可以使用內容搜尋，透過豐富的篩選功能搜尋所有團隊資料。 產生的資料可以匯出到特定容器，以進行合規性和訴訟支援。 您可以使用或不使用 eDiscovery 案例來完成此操作。 這可讓合規性系統管理員收集所有使用者的小組資料、審閱並匯出，以進行進一步的處理。 請參閱[office 365 文章中的 [內容搜尋](https://docs.microsoft.com/microsoft-365/compliance/content-search)]，深入瞭解如何在 Office 365 安全 & 合規性中心中進行 Microsoft 團隊及其他 office 365 內容的相容性內容搜尋。
+您可以使用內容搜尋，透過豐富的篩選功能搜尋所有團隊資料。 產生的資料可以匯出到特定容器，以進行合規性和訴訟支援。 您可以使用或不使用 eDiscovery 案例來完成此操作。 這可讓合規性系統管理員收集所有使用者的小組資料、審閱並匯出，以進行進一步的處理。 請參閱[Office 365 文章中的 [內容搜尋](https://docs.microsoft.com/microsoft-365/compliance/content-search)]，進一步瞭解如何在 Microsoft 365 規範中心中進行 microsoft 團隊以及其他 microsoft 365 或 Office 365 內容的相容性內容搜尋。
 
 > [!TIP]
 > 使用內容搜尋，您可以在必要時篩選到 Microsoft 團隊中的 [僅限交談] 和 [頻道訊息]、[會議] 和 [通話] 等內容。
@@ -153,7 +153,7 @@ Microsoft 團隊中的資料遺失防護（DLP），以及 Office 365 較大型�
 
 ### <a name="auditing-and-reporting"></a>審核與報告
 
-您可以在 Office 365 安全 & 合規性中心中，將審核記錄搜尋直接插入您，讓您能夠設定警報，以及報告審核事件，方法是允許匯出工作負載的特定或一般事件集，以供管理員使用，並跨無限制的審核時程表進行調查。 您可以在 Office 365 安全性 & 合規性中心] 中設定所有審計記錄資料的警示，並篩選及匯出此資料以進行進一步分析。 請參閱[搜尋審核記錄](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)文章，進一步瞭解如何進行 Office 365 的審核記錄。 若要深入瞭解在 Office 365 安全 & 合規性中心搜尋 Microsoft 團隊活動，我們也會在[團隊文章中開啟 [審核](audit-log-events.md)]，讓您查看。
+在 Microsoft 365 合規性中心直接進行審核記錄搜尋，讓您能夠設定警報，以及報告審核事件，方法是允許匯出工作負載的特定或一般事件集，以供管理員使用，並跨無限制的審核時程表進行調查。 您可以針對 Microsoft 365 合規性中心內的所有審核記錄資料設定警示，並篩選及匯出此資料以進行進一步分析。 請參閱[搜尋審核記錄](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)文章，進一步瞭解如何進行 Office 365 的審核記錄。 若要深入瞭解在 Microsoft 365 規範中心中搜尋 Microsoft 團隊活動，我們也會在[團隊文章中開啟 [審核](audit-log-events.md)]，讓您複習。
 
 ## <a name="privacy"></a>隱私權
 
@@ -174,7 +174,7 @@ Microsoft 團隊中的資料遺失防護（DLP），以及 Office 365 較大型�
 
 ## <a name="licensing"></a>授權
 
-當您遇到資訊保護功能時，Office 365 訂閱和相關聯的獨立授權將決定可用的功能集。
+當您遇到資訊保護功能時，Microsoft 365 訂閱、Office 365 訂閱及相關聯的獨立授權將決定可用的功能集。
 
 如需判斷授權必須實現安全性與合規性功能的相關資訊，請參閱[Office 365 或 Microsoft 365 的授權](https://download.microsoft.com/download/8/7/7/877B1713-671E-43AA-BB79-AF8478C64AFF/Licensing-Microsoft-365.pdf)。
 
@@ -183,7 +183,7 @@ Microsoft 團隊中的資料遺失防護（DLP），以及 Office 365 較大型�
 
 ## <a name="location-of-data-in-teams"></a>Teams 中的資料位置
 
-團隊中的資料位於與您的 Office 365 租使用者相關聯的地理區域中。 若要查看目前支援哪些地區，請參閱[Microsoft 團隊中資料的位置](location-of-data-in-teams.md)。
+團隊中的資料位於與您的 Office 365 組織相關聯的地理區域中。 若要查看目前支援哪些地區，請參閱[Microsoft 團隊中資料的位置](location-of-data-in-teams.md)。
 
 如果您需要查看哪個地區駐留您租使用者的資料，請移至[Microsoft 365 系統管理中心](https://portal.office.com/adminportal/home) > **設定** > **組織設定檔**。 向下滾動至 [**資料位置**]。
 

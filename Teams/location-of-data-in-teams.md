@@ -16,16 +16,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3908100a0270f9e72835e189a220ece6e54a27bd
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 11d95858c39a2d555a4b1a7433b0a7dce0388293
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836533"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780262"
 ---
 # <a name="location-of-data-in-microsoft-teams"></a>Microsoft 團隊中的資料位置
 
-團隊中的資料位於與您的 Office 365 租使用者相關聯的地理區域中。 目前，團隊支援澳大利亞、加拿大、法國、德國、印度、日本、南非、韓國、瑞士（包括列支敦斯登）、阿拉伯聯合大公國、英國、美洲、APAC 及 EMEA 地區。 
+團隊中的資料位於與您的 Office 365 組織相關聯的地理區域中。 目前，團隊支援澳大利亞、加拿大、法國、德國、印度、日本、南非、韓國、瑞士（包括列支敦斯登）、阿拉伯聯合大公國、英國、美洲、APAC 及 EMEA 地區。 
 
 > [!IMPORTANT]
 > 團隊目前在澳大利亞、加拿大、法國、德國、印度、日本、阿拉伯聯合大公國、英國、韓國、非洲和瑞士（包括列支敦斯登）等新的租使用者中提供資料。
@@ -47,7 +47,7 @@ ms.locfileid: "41836533"
 
 ### <a name="core-teams-customer-data"></a>核心團隊客戶資料
 
-如果您的租使用者是在澳大利亞、加拿大、歐洲同盟、法國、德國、印度、日本、南非、韓國、瑞士（包括列支敦斯登）、阿拉伯聯合大公國、英國或美國，Microsoft 書店下列客戶資料只存放在該位置中：
+如果您的租使用者是在澳大利亞、加拿大、歐洲同盟、法國、德國、印度、日本、南非、韓國、瑞士（包括列支敦斯登）、阿拉伯聯合大公國、英國或美國，Microsoft 將下列客戶資料儲存在該位置中：
 
 - 團隊聊天、團隊和頻道交談、影像、語音信箱訊息及連絡人
 - SharePoint Online 網站內容和儲存在該網站中的檔案

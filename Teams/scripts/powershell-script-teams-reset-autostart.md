@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad6411f82df31ec5f0be93cbd30d87a1832daa50
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 16d0c9270cfa387c10d1c3e4b05ac5bb1d5f3f0a
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826961"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780532"
 ---
 # <a name="powershell-script-sample---reset-the-autostart-setting-in-teams"></a>PowerShell 腳本範例-重設小組中的自動啟動設定
 
@@ -149,4 +149,4 @@ if($null -eq $teamsProc) {
 ## <a name="related-topics"></a>相關主題
 
 - [使用 MSI 安裝 Teams](../msi-deployment.md)
-- [使用 Office 365 專業增強版部署團隊](https://docs.microsoft.com/deployoffice/teams-install)
+- [使用適用于企業的 Microsoft 365 應用程式部署團隊](https://docs.microsoft.com/deployoffice/teams-install)

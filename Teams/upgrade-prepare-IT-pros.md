@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6c3813b5d79f1362ff30ff15fa6fd2aff38b25a9
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: 47aef5ceee6daee63683655f167016e4d7ae1cf2
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706893"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776730"
 ---
 # <a name="prepare-your-it-staff-for-microsoft-teams"></a>為您的 Microsoft 團隊準備 IT 員工
 
@@ -36,13 +36,13 @@ ms.locfileid: "42706893"
 - [已瞭解商務用 Skype 與團隊的共存與互通性](https://aka.ms/SkypeToTeams-Coexist)
 - [已選擇升級歷程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-您的 Office 365 租使用者系統管理員、技術主管及支援中心都有責任提供高品質的使用者體驗。 這包括確保您的網路已準備好支援小組、為使用者設定小組，以及能夠有效地疑難排解並解決可能發生的問題。
+您的 Office 365 組織管理員、技術主管及支援中心都有責任提供高品質的使用者體驗。 這包括確保您的網路已準備好支援小組、為使用者設定小組，以及能夠有效地疑難排解並解決可能發生的問題。
 
 與您的 IT 員工成員共用下列資源，並確認他們已準備好支援使用者，然後才能開始升級至團隊：
 
 - [Microsoft 團隊的系統管理訓練](itadmin-readiness.md)
 - [連絡商務產品的客戶支援 - 系統管理說明](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-- [疑難排解 Microsoft 團隊用戶端的連線問題](connectivity-issues.md)
+- [針對 Microsoft Teams 用戶端的連線問題進行疑難排解](connectivity-issues.md)
 - [在 Microsoft 團隊的疑難排解中使用記錄檔](log-files.md)
 
 [//]: # (要求 Debbie 進行：)

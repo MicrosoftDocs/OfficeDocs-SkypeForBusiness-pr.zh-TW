@@ -22,18 +22,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6c359f1d078448af33a8871ebcbe0f5cb73c1b15
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: a3d65b6af52764a28548cb9ddf190959f89e8f97
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836155"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778329"
 ---
 # <a name="upgrade-basic"></a>升級基本版
 
 <a name="about-upgrade-basic"></a>
 
-針對較小的組織或是使用商務用 Skype Online 傳送 IM （聊天）和會議的方案，[升級基本檢查清單] 是一個加速的行動方案，其中包含實施成功地從商務用 Skype 移至團隊。
+針對較小的組織或使用商務用 Skype Online 進行 IM （聊天）和會議的方案，「升級基本檢查清單」是一種加速的行動方案，其中包含從商務用 Skype 成功移至團隊之成功行動所需的核心、建議活動和相關聯的資源。
 
 這些十個簡單的步驟會提供成功升級所需的一切。 它們的設計目的是在30到45天內完成，但您應該根據貴組織的升級排程來調整任務完成日期。
 
@@ -75,7 +75,7 @@ ms.locfileid: "41836155"
 
 *（升級前約4到六周）*
 
-小組提供相容的商務用 Skype 功能（例如 IM （聊天）及會議），但是它也可以執行這麼多動作。 針對團隊合作的真正中樞，小組可讓工作組在單一位置管理專案、檔案、交談和應用程式。 根據預設，小組已開啟所有組織。 決定貴組織將如何使用小組，並為成功設定您的環境。 
+小組提供相容的商務用 Skype 功能（例如 IM （聊天）及會議），但是它也可以執行這麼多動作。 針對團隊合作的真正中樞，小組可讓工作組在單一位置管理專案、檔案、交談和應用程式。 預設會為所有組織開啟 Teams。 決定貴組織將如何使用小組，並為成功設定您的環境。 
 
 > [!Note]
 > 就像現有的商務用 Skype 客戶一樣，您目前的網路基礎結構可能已針對團隊進行設定。 若要確認這一點，您可以遵循下列連結的「完整技術規劃」指導方針（此為選用）。
@@ -83,7 +83,7 @@ ms.locfileid: "41836155"
 **資源清單**
 
 - [團隊概覽](Teams-overview.md)
-- [Microsoft 團隊快速入門](get-started-with-teams-quick-start.md)
+- [開始使用 Microsoft Teams](get-started-with-teams-quick-start.md)
 
 [回到頁首](#about-upgrade-basic)
 
@@ -114,7 +114,7 @@ ms.locfileid: "41836155"
 為您的使用者提供大量的通知，讓他們能在不負面影響其生產力的情況下，給予他們熟悉的時間，進而帶來較積極的使用者體驗。 傳送通訊以告知他們變更的內容、其變更的原因，以及他們可以如何為其進行準備。
 
 > [!Note]
-> 如有需要，您可以透過 Office 365 系統管理入口網站為使用者啟用團隊。
+> 如有需要，您可以在此時透過 Microsoft 365 系統管理中心為使用者啟用團隊。
 
 **資源清單**
 

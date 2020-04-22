@@ -19,22 +19,22 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3ff198dcc7898f463c5b2c299ab9b9fb411f3382
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 52a3f29869320992840ab8aebd17453485eec662
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837723"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779589"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>瞭解 Microsoft 團隊中的團隊和頻道
 
 團隊和頻道的概念是 Microsoft 團隊良好、高效實施的基礎。 
 
-- 小組是共同作業的人員、內容和工具集合，共同為您的公司產生商業成果。 Teams 的建置基礎為 Office 365 群組，因此 Office 365 群組成員資格的變更會同步至團隊。 
+- 小組是共同作業的人員、內容和工具集合，共同為您的公司產生商業成果。 團隊是以 Microsoft 365 群組為基礎，且變更 Office 365 群組成員資格同步處理至小組。 
 
 - [頻道] 是指小組中的共同作業空間，實際工時已完成。 
 
-若要深入瞭解團隊和頻道，請參閱[Microsoft 團隊中的團隊和頻道概覽](teams-channels-overview.md)。 如需全面的團隊採用指示，請取得[團隊採用指南](https://aka.ms/teamstoolkit)。 若要深入瞭解團隊和 Office 365 群組，請參閱[office 365 群組和 Microsoft 團隊](office-365-groups.md)，並[深入瞭解 office 365 群組](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)。
+若要深入瞭解團隊和頻道，請參閱[Microsoft 團隊中的團隊和頻道概覽](teams-channels-overview.md)。 如需全面的團隊採用指示，請取得[團隊採用指南](https://aka.ms/teamstoolkit)。 若要深入瞭解團隊和 Microsoft 365 群組，請參閱[microsoft 365 群組和 Microsoft 團隊](office-365-groups.md)，並[深入瞭解 microsoft 365 群組](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)。
 
 
 |  |  |

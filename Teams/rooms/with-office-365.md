@@ -1,5 +1,5 @@
 ---
-title: 使用 Office 365 部署 Microsoft 團隊聊天室
+title: 使用 Microsoft 365 或 Office 365 部署 Microsoft 團隊聊天室
 ms.author: v-lanac
 author: lanachin
 manager: serdars
@@ -14,15 +14,15 @@ ms.collection:
 - M365-collaboration
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
-description: 如需有關如何使用 Office 365 部署 Microsoft 團隊聊天室的資訊，請閱讀本主題。
-ms.openlocfilehash: 39a703b844df1a1ff487187772ff8eb8ea035191
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+description: 如需有關如何使用 Microsoft 365 或 Office 365 部署 Microsoft 團隊聊天室的資訊，請閱讀本主題。
+ms.openlocfilehash: 02eb5869d7464a4daeece177c4d1b5a5ef440fa0
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888752"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780542"
 ---
-# <a name="deploy-microsoft-teams-rooms-with-office-365"></a>使用 Office 365 部署 Microsoft 團隊聊天室
+# <a name="deploy-microsoft-teams-rooms-with-microsoft-365-or-office-365"></a>使用 Microsoft 365 或 Office 365 部署 Microsoft 團隊聊天室
 
 如需有關如何使用 Office 365 （Microsoft 團隊或商務用 Skype 與 Exchange 都在線上）部署 Microsoft 團隊聊天室的資訊，請閱讀本主題。
 
@@ -144,7 +144,7 @@ ms.locfileid: "41888752"
    Set-AzureADUser -UserPrincipalName <Account> -PhoneNumber "<PhoneNumber>"
    ```  -->
 
-6. 裝置帳戶必須具備有效的 Office 365 授權，或是 Exchange 與 Microsoft 團隊或商務用 Skype 將無法運作。 如果您有授權，您必須將使用位置指派給您的裝置帳戶，這會決定您的帳戶可使用哪些授權 Sku。 您可以使用`Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> 若要為您的 Office 365 租使用者取得可用的 Sku 清單，如下所示：
+6. 裝置帳戶必須具備有效的 Office 365 授權，或是 Exchange 與 Microsoft 團隊或商務用 Skype 將無法運作。 如果您有授權，您必須將使用位置指派給您的裝置帳戶，這會決定您的帳戶可使用哪些授權 Sku。 您可以使用`Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> 若要為您的 Office 365 組織取得可用的 Sku 清單，請按照下列步驟操作：
 
   ``` Powershell
   Get-MsolAccountSku
@@ -257,12 +257,12 @@ Enable-CsMeetingRoom -Identity rigel1@contoso.onmicrosoft.com -RegistrarPool sip
 
 [設定 Microsoft 團隊聊天室的帳戶](rooms-configure-accounts.md)
 
-[規劃 Microsoft 團隊聊天室](rooms-plan.md)
+[規劃 Microsoft Teams 會議室](rooms-plan.md)
 
-[部署 Microsoft 團隊聊天室](rooms-deploy.md)
+[部署 Microsoft Teams 會議室](rooms-deploy.md)
 
-[設定 Microsoft 團隊聊天室主控台](console.md)
+[設定 Microsoft Teams 會議室主控台](console.md)
 
-[管理 Microsoft 團隊聊天室](rooms-manage.md)
+[管理 Microsoft Teams 會議室](rooms-manage.md)
 
 [Microsoft 團隊聊天室授權](rooms-licensing.md)

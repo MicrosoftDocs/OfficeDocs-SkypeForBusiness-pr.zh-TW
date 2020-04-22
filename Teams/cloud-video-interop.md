@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ddd8a0574899c13e03aae34915b8a342d1984feb
-ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
+ms.openlocfilehash: f9addb5dfe25f5d4906c0b4ab1d332a2ea70f72d
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43505640"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779639"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Microsoft 團隊的雲端視頻互通性
 
@@ -46,7 +46,7 @@ ms.locfileid: "43505640"
 
 ### <a name="office-365-us-government-and-third-party-services"></a>Office 365 美國政府與協力廠商服務
 
-Office 365 提供將協力廠商應用程式整合到 SharePoint Online 網站、商務用 Skype、團隊、office 365 專業增強版（例如 Word、Excel、PowerPoint 和 Outlook）及 Outlook Web App 中的 Office 應用程式的功能。 此外，Office 365 支援與協力廠商服務提供者的整合。 這些協力廠商應用程式和服務可能會涉及在 Office 365 基礎結構以外的協力廠商系統上儲存、傳輸及處理貴組織的客戶資料，因此不會受到 Office 365 合規性與資料保護承諾的覆蓋。 **建議您查看協力廠商提供的隱私權與規範聲明，以針對貴組織評估這些服務的適當用途。**
+Office 365 提供將協力廠商應用程式整合到 SharePoint Online 網站、商務用 Skype、團隊、Office 應用365程式（例如 Word、Excel、PowerPoint 和 Outlook）及 Outlook Web App 的功能。 此外，Office 365 支援與協力廠商服務提供者的整合。 這些協力廠商應用程式和服務可能會涉及在 Office 365 基礎結構以外的協力廠商系統上儲存、傳輸及處理貴組織的客戶資料，因此不會受到 Office 365 合規性與資料保護承諾的覆蓋。 **建議您查看協力廠商提供的隱私權與規範聲明，以針對貴組織評估這些服務的適當用途。**
 
 
 

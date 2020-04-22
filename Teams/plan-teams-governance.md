@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: afd990c0a49b1f61bb5be717cc3bf2ad7bc70935
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 7fd782df443504a20a6010f07ac15b9078e570a7
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836185"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780202"
 ---
 # <a name="plan-for-governance-in-teams"></a>Teams 中的控管方案
 
@@ -57,7 +57,7 @@ ms.locfileid: "41836185"
 > 若要協助您預先規劃，請[進一步瞭解如何設定這些原則以及他們所需的授權](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets#template-settings)。
 > 
 > [!NOTE]
-> 限制群組和小組建立會降低使用者的生產力，因為許多 Office 365 服務都需要建立群組才能正常運作。 如需其他資訊，請流覽並展開[控制誰能建立 Office 365 群組的原因](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618#why)。
+> 限制群組和小組建立會降低使用者的生產力，因為許多 Office 365 服務都需要建立群組才能正常運作。 如需其他資訊，請流覽並展開[控制誰能建立 Microsoft 365 群組的原因](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618#why)。
 
 
 #### <a name="additional-information"></a>其他資訊
@@ -66,14 +66,14 @@ ms.locfileid: "41836185"
 
 - [Azure Active Directory Cmdlet，用於設定群組設定](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets)。
 
-- [在 Azure Active Directory 中強制執行 Office 365 群組的命名原則](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy)。
+- [在 Azure Active Directory 中強制執行 Microsoft 365 群組的命名原則](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy)。
 
-- [Office 365 群組命名原則](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552)。
+- [Microsoft 365 群組命名原則](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552)。
 
 
 ## <a name="group-and-team-expiration-retention-and-archiving"></a>群組和小組到期、保留及封存
 
-您的組織可能對設定到期、保留及封存團隊與團隊資料（頻道訊息和頻道檔案）的需求有額外需求。 您可以設定群組過期原則，以自動管理群組和保留原則的生命週期，以根據需要保留或刪除資訊，而且您可以將團隊封存（將其設為唯讀模式），以保留團隊的時間點視圖不再有效。
+您的組織可能對設定到期、保留及封存團隊與團隊資料（頻道訊息和頻道檔案）的需求有額外需求。 您可以設定群組過期原則，以自動管理群組和保留原則的生命週期，以根據需要保留或刪除資訊，而且您可以將團隊封存（將其設為唯讀模式），以保留不在使用中的小組的時間點視圖。
 
 |           |            |
 |-----------|------------|
@@ -85,7 +85,7 @@ ms.locfileid: "41836185"
 
 |功能 |詳細資料 |需要 Azure AD Premium 授權 |決議 |
 |---------|---------|---------|---------|
-|過期原則 |您可以設定過期原則來管理 Office 365 群組的生命週期。 |P1 |TBD|
+|過期原則 |設定過期原則，管理 Microsoft 365 群組的週期。 |P1 |TBD|
 |保留原則 |在安全性 & 合規性中心設定小組的保留原則，以保留或刪除特定時段內的資料。 **注意**：使用這項功能需要授權 Office 365 Enterprise E3 或更新版本。 |否 |TBD |
 |封存和還原 |當小組已不在使用中，但您想要保留以供參考或在將來重新啟用時，請封存團隊。 |否 |TBD |
 
@@ -96,7 +96,7 @@ ms.locfileid: "41836185"
 
 如需如何實現這些設定的技術指導方針，請參閱：
 
-- [設定 Office 365 群組到期](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-lifecycle)日。
+- [設定 Microsoft 365 群組到期](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-lifecycle)日。
 
 - [設定小組保留原則](retention-policies.md)。
 
@@ -105,7 +105,7 @@ ms.locfileid: "41836185"
 
 ## <a name="teams-feature-management"></a>團隊功能管理
 
-小組管理與生命週期管理的另一個重要方面，就是控制您的使用者可以存取哪些功能的功能。 您可以在 Office 365 租使用者層級或每位使用者管理訊息、會議和通話功能。 
+小組管理與生命週期管理的另一個重要方面，就是控制您的使用者可以存取哪些功能的功能。 您可以在 Office 365 的組織層級或每位使用者，管理訊息、會議和通話功能。 
 
 
 |         |         |

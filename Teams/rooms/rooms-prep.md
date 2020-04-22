@@ -14,12 +14,12 @@ ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection:
 - M365-collaboration
 description: 本文說明部署 Microsoft 團隊聊天室的基礎結構準備。
-ms.openlocfilehash: e39624f7b90dbb25424c98f60e6b90e2a883e212
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 7c067376ffffd2a674c5e0cfb2204801b0c4f32a
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825863"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779770"
 ---
 # <a name="prepare-your-environment"></a>準備您的環境
 
@@ -110,16 +110,16 @@ Microsoft 團隊聊天室是設計來從 Windows 作業系統繼承 Proxy 設定
 |特殊|來源或認證|來源埠|目的地|CDN|適用于 Office 365 的 ExpressRoute|目的地 IP|目的地埠|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |驗證與身分識別  <br/> |請參閱[Office 365 驗證與身分識別](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Identity) <br/> |||
-|入口網站與共享  <br/> |請參閱[Office 365 入口網站與共享](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Portal-identity) <br/> |||
+|入口網站與共享  <br/> |請參閱[Microsoft 365 系統管理中心及共用](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Portal-identity) <br/> |||
 |SIP 信號  <br/> |用戶端電腦或登入的使用者  <br/> |暫時埠  <br/> |\*. contoso.com  <br/> |否  <br/> |是  <br/> |[商務用 Skype IP 範圍](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
 |持續性共用物件模型（PSOM）連線 web 會議  <br/> |用戶端電腦或登入的使用者  <br/> |暫時埠  <br/> |\*. contoso.com  <br/> |否  <br/> |是  <br/> |[商務用 Skype IP 範圍](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
 |HTTPS 下載  <br/> |用戶端電腦或登入的使用者  <br/> |暫時埠  <br/> |\*. contoso.com  <br/> |否  <br/> |是  <br/> |[商務用 Skype IP 範圍](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
 |音訊  <br/> |用戶端電腦或登入的使用者  <br/> |TCP/UDP 50000-50019  <br/> |\*. contoso.com  <br/> |否  <br/> |是  <br/> |[商務用 Skype IP 範圍](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443、UDP 3478、TCP/UDP 50000-59999  <br/> |
-|顯示器  <br/> |用戶端電腦或登入的使用者  <br/> |TCP/UDP 50020-50039  <br/> |\*. contoso.com  <br/> |否  <br/> |是  <br/> |[商務用 Skype IP 範圍](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443、UDP 3478、TCP/UDP 50000-59999  <br/> |
+|影片  <br/> |用戶端電腦或登入的使用者  <br/> |TCP/UDP 50020-50039  <br/> |\*. contoso.com  <br/> |否  <br/> |是  <br/> |[商務用 Skype IP 範圍](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443、UDP 3478、TCP/UDP 50000-59999  <br/> |
 |桌面共用  <br/> |用戶端電腦或登入的使用者  <br/> |TCP/UDP 50040-50059  <br/> |\*. contoso.com  <br/> |否  <br/> |是  <br/> |[商務用 Skype IP 範圍](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443，50000-59999  <br/> |
 |在 iOS 裝置上 Lync mobile 2010 的 lync Mobile 推播通知。 您不需要 Android、Nokia Symbian 或 Windows Phone 行動裝置。  <br/> |用戶端電腦或登入的使用者  <br/> |暫時埠  <br/> |\*. contoso.com  <br/> |否  <br/> |是  <br/> |[商務用 Skype IP 範圍](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 5223  <br/> |
-|Skype 遙測  <br/> |用戶端電腦或登入的使用者  <br/> |暫時埠  <br/> |skypemaprdsitus.trafficmanager.net  <br/> pipe.skype.com  <br/> |否  <br/> |否  <br/> |不適用  <br/> |TCP 443  <br/> |
-|Skype 用戶端快速提示  <br/> |用戶端電腦或登入的使用者  <br/> |暫時埠  <br/> |quicktips.skypeforbusiness.com  <br/> |否  <br/> |否  <br/> |不適用  <br/> |TCP 443  <br/> |
+|Skype 遙測  <br/> |用戶端電腦或登入的使用者  <br/> |暫時埠  <br/> |skypemaprdsitus.trafficmanager.net  <br/> pipe.skype.com  <br/> |否  <br/> |否  <br/> |N/A  <br/> |TCP 443  <br/> |
+|Skype 用戶端快速提示  <br/> |用戶端電腦或登入的使用者  <br/> |暫時埠  <br/> |quicktips.skypeforbusiness.com  <br/> |否  <br/> |否  <br/> |N/A  <br/> |TCP 443  <br/> |
 
 > [!NOTE]
 > Contoso.com 和 broadcast.skype.com 的萬用字元代表一份較長的節點清單，專門供 Office 365 使用。 
@@ -162,12 +162,12 @@ Microsoft 團隊會議室預設密碼設定為 "sfb"。 若要在本機變更密
 
 [規劃 Microsoft 團隊聊天室](rooms-plan.md)
 
-[Microsoft 團隊會議室需求](requirements.md)
+[Microsoft Teams 會議室需求](requirements.md)
   
-[部署 Microsoft 團隊聊天室](rooms-deploy.md)
+[部署 Microsoft Teams 會議室](rooms-deploy.md)
   
-[設定 Microsoft 團隊聊天室主控台](console.md)
+[設定 Microsoft Teams 會議室主控台](console.md)
   
-[管理 Microsoft 團隊聊天室](rooms-manage.md)
+[管理 Microsoft Teams 會議室](rooms-manage.md)
 
 [Microsoft Store for Business 和教育版的先決條件](https://docs.microsoft.com/microsoft-store/prerequisites-microsoft-store-for-business) 

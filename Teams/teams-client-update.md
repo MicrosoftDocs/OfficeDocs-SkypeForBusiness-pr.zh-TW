@@ -15,12 +15,12 @@ f1.keywords:
 description: 瞭解小組桌面用戶端的更新方式。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8058fa1e79b7d415d03c08500213206579029042
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 0a76fe4e0cfb896d1bd89a02acebc1c00dff8767
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41832613"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776828"
 ---
 # <a name="teams-update-process"></a>小組更新流程
 
@@ -36,11 +36,11 @@ ms.locfileid: "41832613"
 
 從2019年7月31日起，團隊用戶端更新在更新期間使用明顯較低的網路頻寬。 此功能預設為開啟，且不需要系統管理員或使用者執行任何動作。
 
-## <a name="what-about-updates-to-office-365-proplus"></a>Office 365 專業增強版的更新內容是什麼？
+## <a name="what-about-updates-to-microsoft-365-apps-for-enterprise"></a>針對企業版 Microsoft 365 應用程式的更新，該怎麼辦？
 
-依[使用 office 365 專業增強版部署 Microsoft 團隊](https://docs.microsoft.com/DeployOffice/teams-install)中所述，預設會在新安裝的 Office 365 專業增強版中安裝團隊。 
+依將[Microsoft 團隊與企業版 microsoft 365 應用程式一起部署](https://docs.microsoft.com/DeployOffice/teams-install)，在預設情況下，小組會自行安裝 Microsoft 365 應用程式的新安裝。 
 
-團隊會依照上面所述的更新程式，而不是其他辦公室應用程式（例如 Word 和 Excel）的更新程式。 若要深入瞭解，請參閱[Office 365 專業增強版更新通道的概覽](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus)
+團隊會依照上面所述的更新程式，而不是其他辦公室應用程式（例如 Word 和 Excel）的更新程式。 若要深入瞭解，請參閱適用[于企業的 Microsoft 365 應用程式更新通道的概覽](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus)
 
 ## <a name="what-about-updates-to-teams-on-vdi"></a>VDI 上的小組更新為何？
 
@@ -56,7 +56,7 @@ ms.locfileid: "41832613"
 
 若要在桌面用戶端過期時開始協助識別，如果使用者的目前版本在一到三個月之間，且有可用的新版本，就會顯示應用程式內警示。 此應用程式內訊息鼓勵使用者更新到最新版本的小組，或視需要向 IT 系統管理員進行更新。 在超過三個月之前的小組桌面用戶端上，系統會顯示封鎖頁面，提供立即更新、與 IT 管理員聯繫，或繼續在網路上的小組中的選項。
 
-在第一次安裝和/或第一次執行團隊後的桌面用戶端版本超過三個月，在遇到上述服務資訊之前，會有28天的寬限期。 在此期間，自動更新程式將會更新團隊用戶端。 如果未更新，使用者就會看到應用程式內的警示，鼓勵他們手動更新為最新版本的團隊，或視需要向 IT 系統管理員確認。 這包括使用小組桌面用戶端的使用者做為 Office 365 專業增強版套件的一部分。
+在第一次安裝和/或第一次執行團隊後的桌面用戶端版本超過三個月，在遇到上述服務資訊之前，會有28天的寬限期。 在此期間，自動更新程式將會更新團隊用戶端。 如果未更新，使用者就會看到應用程式內的警示，鼓勵他們手動更新為最新版本的團隊，或視需要向 IT 系統管理員確認。 這包括使用小組桌面用戶端的使用者做為適用于企業套件的 Microsoft 365 應用程式的一部分。
 
 政府群的小組桌面用戶端目前有此服務協定的例外狀況，直到進一步通知。
 

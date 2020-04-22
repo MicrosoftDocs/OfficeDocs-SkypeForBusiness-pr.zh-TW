@@ -15,12 +15,12 @@ f1.keywords:
 description: 如何在 Microsoft 團隊中開啟與管理會議錄製。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1098b1e316bb6ed747577183fc144bf2db7d0b9d
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: f358a0099da3f759e50f02b7bb7a5226069fcd28
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 04/22/2020
-ms.locfileid: "43751850"
+ms.locfileid: "43780332"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 雲端會議錄製
 
@@ -51,7 +51,7 @@ ms.locfileid: "43751850"
 
 ### <a name="turn-on-microsoft-stream-for-users-in-the-organization"></a>針對組織中的使用者開啟 Microsoft Stream
 
-Microsoft Stream 可做為合格 Office 365 訂閱或獨立服務的一部分。  如需詳細資訊，請參閱 [Stream 授權概述](https://docs.microsoft.com/stream/license-overview)。  Microsoft Stream 現已加入 Microsoft 365 商務版、Office 365 商務進階版和 Office 365 商務基本版。
+Microsoft Stream 是以合格的 Microsoft 365 與 Office 365 訂閱或獨立服務的形式提供。  如需詳細資訊，請參閱 [Stream 授權概述](https://docs.microsoft.com/stream/license-overview)。  Microsoft Stream 現已包含在 Microsoft 365 商務版、Microsoft 365 商務標準版和 Microsoft 365 Business Basic 中。
 
 深入瞭解如何[在 Office 365 中指派授權給使用者](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC)，以便讓使用者能夠存取 Microsoft Stream。 請確認 Microsoft Stream 沒有封鎖使用者 ，如[這篇文章](https://docs.microsoft.com/stream/disable-user-organization)所述。
 

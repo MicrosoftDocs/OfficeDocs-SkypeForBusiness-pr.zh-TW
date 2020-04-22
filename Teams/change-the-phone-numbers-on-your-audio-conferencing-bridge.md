@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 瞭解將新服務電話號碼指派給您的會議橋接器所需的步驟，以擴大使用者的覆蓋範圍。
-ms.openlocfilehash: 571b7a9c14db1601e0a4b94740395ad087808a49
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 233678bd953046eed5e6425e0b1a36c5a39b1061
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139072"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780352"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>變更音訊會議橋接器的電話號碼
 
@@ -69,7 +69,7 @@ ms.locfileid: "43139072"
 
 使用者在排程會議時包含在會議邀請上的預設電話號碼。 如需詳細資訊，包括如何指派 defaul 電話號碼給新的使用者，請參閱[設定 Microsoft 團隊邀請中包含的電話號碼](set-the-phone-numbers-included-on-invites-in-teams.md)，或[在商務用 Skype Online 中設定邀請中包含的電話號碼](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites)。
   
-1. 使用您的公司或學校帳戶登入 Office 365。
+1. 使用您的公司或學校帳戶登入。
 
 2. 移至**Microsoft 365 系統管理中心** > 的**管理中心** > **小組 & Skype** > **舊版入口網站** > **音訊會議** > **使用者**，然後選取清單中的使用者。
 
@@ -133,7 +133,7 @@ Get-CsMeetingMigrationStatus -SummaryOnly
   
 ### <a name="step-3---unassign-the-old-phone-number-from-the-audio-conferencing-bridge"></a>步驟 3-從音訊會議橋中取消指派舊的電話號碼
 
-1. 使用您的公司或學校帳戶登入 Office 365。
+1. 使用您的公司或學校帳戶登入。
 
 2. 移至**Microsoft 365 系統管理中心** > **管理中心** > **小組 & Skype** > **舊版入口網站** > **語音** > **電話號碼**。
 
@@ -169,7 +169,7 @@ Get-CsMeetingMigrationStatus -SummaryOnly
 
 1. 從 [**開始] 功能表** > 中的 [**Windows PowerShell**]。
 
-2. 在**Windows PowerShell**視窗中，執行下列動作以連線到您的 Office 365 組織：
+2. 在**Windows PowerShell**視窗中，執行下列動作以連線至您的 Microsoft 365 或 Office 365：
 
 >
   ```PowerShell

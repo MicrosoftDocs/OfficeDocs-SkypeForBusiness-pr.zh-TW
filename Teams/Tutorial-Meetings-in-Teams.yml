@@ -19,12 +19,12 @@ metadata:
   - Teams_ITAdmin_RemoteWorkers
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 6724d094223910c932e12b793e5ee8caaa04e82b
-  ms.sourcegitcommit: a610bfe9c0192432744dfaf8d5ff5c2bb5a16b00
+  ms.openlocfilehash: cbf9b344b9bded2ca98741a743b84a6b7481f95d
+  ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
   ms.translationtype: MT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 04/08/2020
-  ms.locfileid: "43191230"
+  ms.lasthandoff: 04/22/2020
+  ms.locfileid: "43778499"
 items:
 - durationInMinutes: 1
   content: >
@@ -84,10 +84,10 @@ items:
   content: "\n做為 IT 系統管理員，您可以設定會議原則和設定來定義會議體驗。\n\n### <a name=\"meeting-policies\"></a>會議原則\n\n使用團隊會議原則來控制會議參與者對於由您組織中的使用者排程之會議所提供的功能。 若要深入瞭解，請參閱[管理團隊中的會議原則](https://docs.microsoft.com/MicrosoftTeams/meeting-policies-in-teams)（估計閱讀時間16分鐘）。 \n\n### <a name=\"meeting-settings\"></a>會議設定\n\n使用 [團隊會議] 設定來控制匿名使用者是否可以加入團隊會議、自訂會議邀請，以及如果您想要啟用服務品質（QoS），請設定即時流量的埠範圍。 這些設定適用於使用者在貴組織中排程的所有 Teams 會議。 若要深入瞭解，請參閱[在團隊中管理會議設定](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams)。\n（估計時間閱讀時間4分鐘）。\n"
 - title: 練習-設定會議
   durationInMinutes: 20
-  content: "\n在這個練習中，您將有機會在小組中測試會議。 雖然我們並不說明如何執行每個動作，但我們建議您嘗試一些案例。\n\n### <a name=\"requirements\"></a>需求\n-   具備適當授權才能使用團隊的 Office 365 租使用者\n    -   我們強烈建議您使用專用的測試租使用者。\n    -   如果您沒有測試租使用者，您可以在[Office 365 企業版 E5 試用版](https://go.microsoft.com/fwlink/p/?LinkID=698279)註冊試用租使用者。\n    -   不要在您的生產環境中執行任何測試。 變更設定或原則可能會對所有使用者造成負面影響，且可能會影響使用者的使用體驗。\n-   至少兩個端點\n   -   這可以是兩台電腦，但是您也可以在您的行動電話上使用用戶端。\n\n### <a name=\"suggested-scenarios-to-test\"></a>建議的測試案例\n-   在團隊用戶端中排定不同的會議類型：頻道會議、即席會議、私人會議。\n-   使用[Outlook 增益集](https://docs.microsoft.com/MicrosoftTeams/Teams-add-in-for-Outlook)排程會議。\n-   針對排程的會議，在會議開始前開始聊天（例如討論議程）。\n-   加入會議並測試不同的案例和工作負載：例如，音訊、影片、桌面共用。\n-   不需登入您的租使用者就能從瀏覽器加入會議（您可能會想要使用「InPrivate」流覽）來查看它要匿名加入會議的內容。\n-   登入 Microsoft 團隊系統管理中心並變更某些會議設定（例如，停用私人會議的排程）。 這對使用者體驗有何影響？\n-   在會議召集人中，為所有參與者結束會議。    \n"
+  content: "\n在這個練習中，您將有機會在小組中測試會議。 雖然我們並不說明如何執行每個動作，但我們建議您嘗試一些案例。\n\n### <a name=\"requirements\"></a>需求\n-   具備適當授權才能使用小組的 Office 365 組織\n    -   我們強烈建議您使用專用的測試租使用者。\n    -   如果您沒有測試租使用者，您可以在[Office 365 企業版 E5 試用版](https://go.microsoft.com/fwlink/p/?LinkID=698279)註冊試用租使用者。\n    -   不要在您的生產環境中執行任何測試。 變更設定或原則可能會對所有使用者造成負面影響，且可能會影響使用者的使用體驗。\n-   至少兩個端點\n   -   這可以是兩台電腦，但是您也可以在您的行動電話上使用用戶端。\n\n### <a name=\"suggested-scenarios-to-test\"></a>建議的測試案例\n-   在團隊用戶端中排定不同的會議類型：頻道會議、即席會議、私人會議。\n-   使用[Outlook 增益集](https://docs.microsoft.com/MicrosoftTeams/Teams-add-in-for-Outlook)排程會議。\n-   針對排程的會議，在會議開始前開始聊天（例如討論議程）。\n-   加入會議並測試不同的案例和工作負載：例如，音訊、影片、桌面共用。\n-   不需登入您的租使用者就能從瀏覽器加入會議（您可能會想要使用「InPrivate」流覽）來查看它要匿名加入會議的內容。\n-   登入 Microsoft 團隊系統管理中心並變更某些會議設定（例如，停用私人會議的排程）。 這對使用者體驗有何影響？\n-   在會議召集人中，為所有參與者結束會議。    \n"
 - title: 報告
   durationInMinutes: 2
-  content: "\n從報表的觀點來看，有兩個區域可供查看：\n-   使用量：有多少會議發生？\n-   品質：會議品質為何？\n\n您應該小心地監視這兩個區域：\n-   [低使用量] 表示使用者，出於其中一個原因，或另一個無法使用該產品。 您只能透過進行其他調查來判斷原因。 原因可能是從認識到會議的使用者需求不短，或因品質問題所造成的意識或訓練不足。\n-   另一方面，低品質是指使用者與 Office 365 之間的連線性問題。 低品質可能會導致使用者體驗不佳及較低的用法。\n    請參閱系統[管理中心的 Office 365 報表-Microsoft 團隊使用者活動](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524)（估計讀取時間為5分鐘），進一步瞭解使用方式報告。\n\n管理品質超出本訓練的範圍，但請參閱以下訓練資料：\n\n-   如需品質擁護者角色的相關資訊，請參閱[品質擁護者角色](https://docs.microsoft.com/microsoftteams/prepare-network)。\n-   如需通話品質儀表板的相關資訊，請參閱[使用 CQD 調查媒體質量](https://aka.ms/sof-cqd)。\n"
+  content: "\n從報表的觀點來看，有兩個區域可供查看：\n-   使用量：有多少會議發生？\n-   品質：會議品質為何？\n\n您應該小心地監視這兩個區域：\n-   [低使用量] 表示使用者，出於其中一個原因，或另一個無法使用該產品。 您只能透過進行其他調查來判斷原因。 原因可能是從認識到會議的使用者需求不短，或因品質問題所造成的意識或訓練不足。\n-   另一方面，低品質是指使用者與 Office 365 之間的連線性問題。 低品質可能會導致使用者體驗不佳及較低的用法。\n    請參閱系統[管理中心的 microsoft 365 報表-Microsoft 團隊使用者活動](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524)（估計讀取時間為5分鐘），進一步瞭解使用方式報告。\n\n管理品質超出本訓練的範圍，但請參閱以下訓練資料：\n\n-   如需品質擁護者角色的相關資訊，請參閱[品質擁護者角色](https://docs.microsoft.com/microsoftteams/prepare-network)。\n-   如需通話品質儀表板的相關資訊，請參閱[使用 CQD 調查媒體質量](https://aka.ms/sof-cqd)。\n"
 - title: 後續步驟
   durationInMinutes: 1
   content: >-

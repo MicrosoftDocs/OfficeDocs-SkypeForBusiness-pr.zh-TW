@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d1dfd82cc10f90616dcdd557e9d1d70f36a9ae1f
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 2a8c154a0e3f1366327b37b22531541fde288db2
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837813"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780482"
 ---
 # <a name="governance-quick-start-for-microsoft-teams"></a>Microsoft 團隊的管理快速入門
 
@@ -36,7 +36,7 @@ ms.locfileid: "41837813"
 
 若要深入瞭解，請閱讀[小組中的管轄方案](plan-teams-governance.md)，並[規劃團隊中的週期管理](plan-teams-lifecycle.md)。
 
-## <a name="an-icon-representing-a-decision-pointmediateams-adoption-decision-iconpngdecisions"></a>![代表決策點的圖示](media/teams-adoption-decision-icon.png)判斷
+## <a name="an-icon-representing-a-decision-pointdecisions"></a>![代表決策點的圖示](media/teams-adoption-decision-icon.png)判斷
 
 進行下列決策（此時，這些決策只適用于階段2）：
 
@@ -62,7 +62,7 @@ ms.locfileid: "41837813"
 
 ### <a name="decision-6--data-security"></a>決策6：資料安全性
 
-為您廣泛的部署準備，您可以選擇使用 [安全標籤] 來將您環境中的小組類型分類。 針對本次實驗的目的，我們建議您參考[小組中的管轄規劃](plan-teams-governance.md)，並確保已針對 Office 365 組織中的小組資料設定基本的保留原則。 您可能需要與您的技術小組協調此工作，因為需要 Office 365 系統管理員許可權才能完成此作業。
+為您廣泛的部署準備，您可以選擇使用 [安全標籤] 來將您環境中的小組類型分類。 針對本次實驗的目的，我們建議您參考[小組中的管轄規劃](plan-teams-governance.md)，並確保已針對 Microsoft 365 或 Office 365 中的小組資料設定基本的保留原則。 您可能需要與您的技術小組協調此工作，因為需要 Office 365 系統管理員許可權才能完成此作業。
 
 ### <a name="decision-7-length-of-your-experiment"></a>決策7：實驗的長度
 

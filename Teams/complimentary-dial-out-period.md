@@ -23,12 +23,12 @@ ms.custom:
 - Legal
 - seo-marvel-mar2020
 description: 瞭解 Office 365 通話方案的免費撥出期，以及 Microsoft 團隊中的 Office 365 音訊會議。
-ms.openlocfilehash: 46c9aac02c40a973abc8356dc4212b3521852461
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 19ffdd1b0a634a2fb3294479b2163af38aefedf6
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137293"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779790"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>音訊會議免費撥出期間
 
@@ -48,7 +48,7 @@ ms.locfileid: "43137293"
 
 此外，在免費撥出期間，在下列情況下，會有900分鐘的上限限制：
 
-擁有授權使用位置的使用者（這是在任何國家/地區的 Office 365 系統管理入口網站的授權區域中定義的使用者國家/地區位置），都可以從會議撥出給任何44區域中的國家和地區。 每個使用者每個月都會收到900分鐘，每個使用者都是在租使用者層級彙集的國家和地區。 例如，客戶已購買115音訊會議訂閱授權，且在美國有10個使用者、英國的100使用者，以及印度中的5位使用者，全部都有指派音訊會議訂閱授權給使用者。
+擁有授權使用位置的使用者（這是在 Microsoft 365 系統管理中心的授權區域中定義的使用者國家/地區位置）可以從會議撥出至任何一個國家和地區的44區域。 每個使用者每個月都會收到900分鐘，每個使用者都是在租使用者層級彙集的國家和地區。 例如，客戶已購買115音訊會議訂閱授權，且在美國有10個使用者、英國的100使用者，以及印度中的5位使用者，全部都有指派音訊會議訂閱授權給使用者。
 
 > [!NOTE]
 > [泳池大小] 是以指派的授權為基礎，而且不是已購買的授權。

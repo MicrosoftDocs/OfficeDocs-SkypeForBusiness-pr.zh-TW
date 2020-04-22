@@ -19,12 +19,12 @@ ms.custom:
 - Skype for Business Certification
 - dn947482
 description: 針對 Microsoft 團隊認證的 IP 服務台與會議電話
-ms.openlocfilehash: a8b8b0f1763aba131fb7ecd242bc63a2de973f44
-ms.sourcegitcommit: 169107e56dbc7f887e709e6304521ce959658990
+ms.openlocfilehash: 238878831511175f5b7ec647da0ccd607fa1fddd
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42728942"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779972"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Microsoft 團隊的 IP 手機認證
 
@@ -70,7 +70,7 @@ IP 電話認證計畫可確保使用經過驗證的手機和手機的客戶能�
 
 請參閱在行動[裝置上尋找固件版本](/MicrosoftTeams/phones-for-teams#finding-the-firmware-version-on-a-mobile-device)，以判斷行動裝置上的裝置固件版本。
 
-Microsoft 團隊授權可以作為其[Office 365 訂閱](/MicrosoftTeams/Office-365-licensing.md)的一部分購買。 若要深入瞭解在手機上使用 Microsoft 團隊所需的授權，請參閱可用的[電話系統授權](https://products.office.com/microsoft-teams/voice-calling)。
+Microsoft 團隊授權可以在[microsoft 365 或 Office 365 訂閱](/MicrosoftTeams/Office-365-licensing.md)中購買。 若要深入瞭解在手機上使用 Microsoft 團隊所需的授權，請參閱可用的[電話系統授權](https://products.office.com/microsoft-teams/voice-calling)。
 
 如需取得團隊的詳細資訊，請參閱[如何取得 Microsoft 團隊的存取權？](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 

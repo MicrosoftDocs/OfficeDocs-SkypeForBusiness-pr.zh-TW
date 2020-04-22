@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1ed959f74be1074ab8ed60b3fe54f06384b7990a
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: b42785d4f8d765e7d9600c2e195e48d7ec60d8ba
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836165"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780652"
 ---
 # <a name="automated-upgrades-from-skype-for-business-online-to-microsoft-teams"></a>從商務用 Skype Online 到 Microsoft 團隊的自動升級
 
@@ -35,7 +35,7 @@ Microsoft 將自動升級提供給小組，以協助小型企業從商務用 Sky
 
 符合自動升級至小組資格的商務用 Skype Online 客戶，將會在排程升級日期前的30天內收到一系列升級通知。 這些通知將會在系統管理訊息中心中傳送為變更文章的*計畫*，將電子郵件升級至全域系統管理員，並將 app 內標誌升級至最終使用者。
 
-這些通知將會傳達自動升級的排程日期，將連結到升級資源和訓練，以協助推動小組的使用及使用量，並讓客戶能選擇將自己的自動升級延遲到事件未準備好透過其排程日期進行升級。
+這些通知將會傳達自動升級的排程日期，將連結到升級資源和訓練，以協助推動團隊的採納及使用，並讓客戶在其排程日期之後，有30天的時間來升級自動升級。
 
 ## <a name="the-automated-upgrade-experience"></a>自動升級體驗
 
@@ -56,7 +56,7 @@ Microsoft 將自動升級提供給小組，以協助小型企業從商務用 Sky
 
 從商務用 Skype Online 到 Microsoft 團隊的成功轉場需要技術規劃與使用者準備，以確保貴組織充分利用延伸的功能和小組效能。 不過，當您規劃升級時，您可能會發現貴組織目前尚未準備好升級至小組。
 
-如果您收到有關排程的自動升級至小組的通知，且想要推遲到較晚的日期，Office 365 全域系統管理員可能會登入團隊管理入口網站，然後按一下 [*延遲*] 按鈕。 這麼做會將自動升級日期推出30天。 當您在延遲後重新整理團隊管理入口網站時，您會看到包含新的自動升級日期的通知。
+如果您收到有關排程自動升級至團隊的通知，且您想要推遲到較晚的日期，全域管理員可能會登入團隊管理入口網站，然後按一下 [*延遲*] 按鈕。 這麼做會將自動升級日期推出30天。 當您在延遲後重新整理團隊管理入口網站時，您會看到包含新的自動升級日期的通知。
 
 ## <a name="requests-to-downgrade-to-skype-for-business"></a>降級至商務用 Skype 的要求
 
@@ -64,7 +64,7 @@ Microsoft 將自動升級提供給小組，以協助小型企業從商務用 Sky
 
 ## <a name="related-content"></a>相關內容
 
-- [Microsoft 團隊升級快速入門](upgrade-start-here.md)
+- [開始升級您的 Microsoft Teams](upgrade-start-here.md)
 - [終止對商務用 Skype Online 的支援](skype-for-business-online-retirement.md)
 - [CsTeamsUpgradeStatus](https://docs.microsoft.com/powershell/module/skype/get-csteamsupgradestatus?view=skype-ps)
 - [僅限團隊的模式考慮](teams-only-mode-considerations.md)

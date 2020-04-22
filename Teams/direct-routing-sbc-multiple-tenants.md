@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 瞭解如何設定一個會話邊界控制器（SBC）來提供多個承租人。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 90bad0c87cef92a36dea392d98cfb66824c10113
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 1419a42a6affa00bbeed35d328f91331ad5357ec
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141086"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779569"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>設定多個租用戶的工作階段邊界控制器
 
@@ -80,7 +80,7 @@ Microsoft 不會管理運營商。 Microsoft 提供 PBX （Microsoft 手機系�
 
 當來電到達 Office 365 Direct 路由介面時，介面會使用連絡人標題尋找使用者應該在其中進行查閱的租使用者。 [直接傳送] 不會在邀請中使用電話號碼查閱，因為有些客戶可能有不需要在數個租使用者中重迭的號碼。 因此，連絡人標頭中的 FQDN 名稱是必要的，以識別確切的租使用者，以便透過電話號碼查閱使用者。
 
-*如需在 Office 365 租使用者中建立功能變數名稱的詳細資訊，請參閱[取得 office 365 網域的協助](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)。*
+*如需在 Office 365 組織中建立功能變數名稱的詳細資訊，請參閱[取得 office 365 網域](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)的說明。*
 
 下圖摘要說明基本網域、子域和連絡人標頭的需求。
 
@@ -138,7 +138,7 @@ SBC 需要認證，才能驗證連線。 針對 SBC 主機案例，電信公司�
 
 在您註冊功能變數名稱之後，您必須加入至少一個 E1、E3 或 E5 授權的使用者，並將 SIP 位址指定為與建立的基礎網域相符的 SIP 位址的 FQDN 部分來啟動。 
 
-*如需在 Office 365 租使用者中新增使用者的詳細資訊，請參閱[取得 office 365 網域的協助](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)。*
+*如需在 Office 365 組織中新增使用者的詳細資訊，請參閱[取得 office 365 網域的協助](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)。*
 
 例如： test@customers.adatum.biz
 
@@ -200,7 +200,7 @@ SBC 需要認證，才能驗證連線。 針對 SBC 主機案例，電信公司�
 
 在您註冊功能變數名稱之後，您必須至少新增一個使用者，然後使用與客戶租使用者中建立的子域相符之 SIP 位址的 FQDN 部分來啟動該功能變數名稱。
 
-*如需在 Office 365 租使用者中新增使用者的詳細資訊，請參閱[取得 office 365 網域的協助](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)。*
+*如需在 Office 365 組織中新增使用者的詳細資訊，請參閱[取得 office 365 網域的協助](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)。*
 
 例如： test@sbc1.customers.adatum.biz
 

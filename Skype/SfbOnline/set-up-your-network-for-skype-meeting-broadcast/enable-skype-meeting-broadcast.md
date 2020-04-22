@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - SMB
 description: 在貴組織中的人員可以使用 Skype 會議廣播之前，您必須先啟用它。 若要這樣做，您必須知道如何使用 Windows PowerShell。 如果您不知道 Windows PowerShell，請考慮聘用 Microsoft 合作夥伴來為您執行此步驟。
-ms.openlocfilehash: 1b06f327fa59ec8e90c9b014db8a252ca7b40579
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 4684f445dc004678bf978069c2430111e7961d0d
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010606"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778118"
 ---
 # <a name="enable-skype-meeting-broadcast"></a>啟用 Skype 會議廣播
 
@@ -33,9 +33,9 @@ ms.locfileid: "42010606"
   
 ## <a name="enable-skype-meeting-broadcast-using-the-skype-for-business-admin-center"></a>使用商務用 Skype 系統管理中心啟用 Skype 會議廣播
 
-![](../images/sfb-logo-30x30.png) **使用商務用 skype 系統管理中心**顯示商務用 skype 標誌的圖示
+![商務用 Skype 標誌圖示](../images/sfb-logo-30x30.png) **使用商務用 Skype 系統管理中心**
 
-1. 使用您的 Office 365 全域系統管理員帳戶或商務用 Skype 系統管理員帳戶[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)登入。
+1. 使用您的全域系統管理員帳戶或商務用 Skype 系統管理中心帳戶[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)登入。
     
 2. 在系統管理中心中，移至 [系統**管理中心** > ]**小組**。
     
@@ -55,7 +55,7 @@ ms.locfileid: "42010606"
     
 6. 從 [**開始] 功能表**中，選擇 [ **Windows PowerShell**]。
     
-7. 在**Windows PowerShell**視窗中，執行下列動作以連線到您的 Office 365 組織：
+7. 在**Windows PowerShell**視窗中，執行下列動作以連線至您的 Microsoft 365 或 Office 365：
     
    ```PowerShell
    $Credential = get-credential

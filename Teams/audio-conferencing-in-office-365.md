@@ -1,5 +1,5 @@
 ---
-title: Office 365 中的音訊會議
+title: Microsoft 365 中的音訊會議
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -24,14 +24,14 @@ ms.custom:
 - ms.teamsadmincenter.audioconferencing.overview
 - seo-marvel-mar2020
 description: 瞭解 Office 365 中的音訊會議，包括成本、可用性及專用電話號碼。
-ms.openlocfilehash: 5fef21489bbbceb490a2b97d70ee9dbafd2a791c
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: fb61c9445358949677358220e881dbe318ff64b4
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139012"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780412"
 ---
-# <a name="audio-conferencing-in-office-365"></a>Office 365 中的音訊會議
+# <a name="audio-conferencing-in-microsoft-365"></a>Microsoft 365 中的音訊會議
 Office 365 中的音訊會議可讓使用者從他們的手機撥入會議。 音訊會議可允許最多 250 位電話出席者。
 
 ## <a name="what-is-audio-conferencing"></a>什麼是音訊會議？
@@ -68,7 +68,7 @@ Office 365 中的音訊會議可讓使用者從他們的手機撥入會議。 �
   
  **專用電話號碼**是只有在組織內部使用者才可以使用的電話號碼。 您可以變更某人撥入其中一個號碼時所使用的語言。 您必須取得這些語言的服務電話號碼。
   
- **共用電話號碼**是可以與其他 Office 365 組織共用的電話號碼。 您無法變更某人撥入其中一個號碼時所使用的語言。
+ **共用的電話號碼**是可與其他 Microsoft 365 或 Office 365s 共用的電話號碼。 您無法變更某人撥入其中一個號碼時所使用的語言。
   
 雖然指派給召集人的預設音訊會議號碼只會包含在會議邀請中，呼叫者可以使用指派給您的會議橋接器的任何電話號碼加入會議。 您可以使用每個會議邀請中包含的 [尋找當地電話號碼]**** 連結，來取得可用來加入會議的電話號碼清單。
 

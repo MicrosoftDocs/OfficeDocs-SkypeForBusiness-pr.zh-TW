@@ -24,24 +24,24 @@ ms.custom:
 - O365M_SkypeforBusinessON
 - O365P_SkypeforBusinessON
 description: '瞭解如何為您的組織設定您的網域、使用者、IM 和目前狀態，以安裝商務用 Skype。 另請參閱如何設定音訊會議、電話系統和通話方案，以及 Skype 會議廣播。 '
-ms.openlocfilehash: 7ac027549f45c55f62c6fc83d7ebc03d0afef5d2
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c61e2b7dd4a9c4bb4e04a90ffa403e930e4d142b
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010786"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777178"
 ---
 # <a name="set-up-skype-for-business-online"></a>設定商務用 Skype Online
 
-您必須具備 Office 365 全域系統管理員許可權，才能設定商務用 Skype。 如果您的防火牆或 proxy 伺服器限制存取網路元件，請考慮聘用[Microsoft 合作夥伴](https://go.microsoft.com/fwlink/?linkid=391089)來為您設定商務用 Skype。
+您必須具備全域管理員許可權，才能設定商務用 Skype。 如果您的防火牆或 proxy 伺服器限制存取網路元件，請考慮聘用[Microsoft 合作夥伴](https://go.microsoft.com/fwlink/?linkid=391089)來為您設定商務用 Skype。
 
 ## <a name="setting-up-skype"></a>設定 Skype
 
-看起來您需要協助設定 Office 365 訂閱的 Skype。 您可以依照本文所述的步驟，讓您的設定完成。
+看起來您需要使用 Microsoft 365 或 Office 365 訂閱設定 Skype 的相關協助。 您可以依照本文所述的步驟，讓您的設定完成。
 
 ## <a name="1-plan-for-skype-for-business"></a>1. 規劃商務用 Skype
 
-如果您有**[Office 365 商務版 Premium](https://products.office.com/business/office-365-business-premium)** 或**商業基本**版，您可以使用商務用 Skype，在您的訂閱中的其他人對您的公司進行線上通話。 例如，如果您的公司有10人，您就可以[開始使用商務用 skype 進行 IM 和線上會議](https://support.office.com/article/cc05afa6-1894-4a82-9dd9-6222061f50fd)，以及在執行下列步驟2-6 後使用商務用 skype 進行商務用 Skype 的[會議](https://support.office.com/article/2eed8424-581a-4497-b505-c08c152e5851)。 您也可以[在 Outlook 中設定商務用 Skype 會議，在](https://support.office.com/article/b8305620-d16e-4667-989d-4a977aad6556#bkmk_OWA)線上開會！
+如果您有**[Microsoft 365 Business Premium 標準版](https://products.office.com/business/office-365-business-premium)** 或**商務基本**版，您可以使用商務用 Skype，在您的訂閱中的其他人對您的公司中的其他人員進行線上通話。 例如，如果您的公司有10人，您就可以[開始使用商務用 skype 進行 IM 和線上會議](https://support.office.com/article/cc05afa6-1894-4a82-9dd9-6222061f50fd)，以及在執行下列步驟2-6 後使用商務用 skype 進行商務用 Skype 的[會議](https://support.office.com/article/2eed8424-581a-4497-b505-c08c152e5851)。 您也可以[在 Outlook 中設定商務用 Skype 會議，在](https://support.office.com/article/b8305620-d16e-4667-989d-4a977aad6556#bkmk_OWA)線上開會！
 
 如果您想要使用商務用 Skype 撥打與接聽公司*外部*人員的**通話**：
 
@@ -56,11 +56,11 @@ ms.locfileid: "42010786"
 
 商務用 Skype Online 是 Office 365 套件服務套件的一部分。 若要設定商務用 Skype Online，您必須登入 Office 365。 具體做法如下：
 
-1. 找出您的 Office 365 使用者識別碼（例如， <em>rob@fourthcoffee.com</em> ）。 您收到來自 Microsoft Online 服務小組的電子郵件，其中包含您購買商務用 Skype Online 時所建立的 Office 365 使用者識別碼。 [郵件] 看起來像這樣：
+1. 找出您的 Microsoft 365 或 Office 365 使用者識別碼（例如， <em>rob@fourthcoffee.com</em> ）。 您收到來自 Microsoft Online 服務小組的電子郵件，其中包含您購買商務用 Skype Online 時所建立的 Microsoft 365 或 Office 365 使用者識別碼。 [郵件] 看起來像這樣：
 
-    ![在您註冊商務用 Skype Online 之後收到的歡迎電子郵件範例。 它包含您的 Office 365 使用者識別碼。](../images/977c5c96-29c5-40c0-a4c4-1ba66ba3a1fb.png)
+    ![在您註冊商務用 Skype Online 之後收到的歡迎電子郵件範例。 它包含您的 Microsoft 365 或 Office 365 使用者識別碼。](../images/977c5c96-29c5-40c0-a4c4-1ba66ba3a1fb.png)
 
-2. 登入系統[管理中心](https://admin.microsoft.com)，並輸入您的 Office 365 使用者識別碼和密碼。 
+2. 登入系統[管理中心](https://admin.microsoft.com)，並輸入您的 Microsoft 365 或 Office 365 使用者識別碼與密碼。 
 
 ## <a name="3-set-up-your-domain-and-users"></a>3. 設定您的網域和使用者
 <a name="bkmk_users"> </a>
@@ -103,7 +103,7 @@ ms.locfileid: "42010786"
 
 若要在您的 PC、Mac 或行動裝置上使用商務用 Skype，您和企業中的其他人必須先在您的裝置上安裝商務用 Skype 下載。
 
-- [安裝商務用 Skype](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb)：說明如何從 Office 365 入口網站下載應用程式，並將它安裝在您的 PC 或 Mac 上。
+- [安裝商務用 Skype](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb)：說明如何從 Microsoft 365 系統管理中心下載 app，以及將其安裝在您的 PC 或 Mac 上。
 
 - [在 Office 365 中部署商務用 Skype 用戶端](deploy-the-skype-for-business-client-in-office-365.md)：在大型企業中部署應用程式的指示。
 
@@ -116,11 +116,11 @@ ms.locfileid: "42010786"
 
 首先，測試您與貴組織中的其他人是否可以進行[影片：登入和登出商務用 Skype](https://support.office.com/article/8abed4b3-ac48-493e-9d76-0e10140e9451)。 檢查您是否可以相互傳送即時消息、查看彼此的目前狀態，以及嘗試快速會議。
 
-常見問題? 請執行下列步驟：
+常見問題? 請執行下列動作：
 
 - [需要登入商務用 Skype 的協助嗎？](https://support.office.com/article/448b8ea7-5b33-444a-afd4-175fc9930d05)常見的登入問題。
 
-- [客戶支援部門-系統管理協助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。 我們在這裡協助您！
+- [請連絡商務產品的客戶支援 - 管理說明](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。 我們在這裡協助您！
 
 ## <a name="do-you-want-to-set-up-other-available-features"></a>您想要設定其他可用的功能嗎？
 <a name="bkmk_more"> </a>

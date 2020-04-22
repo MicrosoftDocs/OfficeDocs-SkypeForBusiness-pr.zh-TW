@@ -17,12 +17,12 @@ f1.keywords:
 description: 直接路由式通訊協定
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6b93ea469a1a27e796b5cc2016fd63c9cfd3acdd
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: a66213214457648ec0b699d77bdadc96113fba27
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888562"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780682"
 ---
 # <a name="direct-routing---sip-protocol"></a>直接路由 SIP 通訊協定
 
@@ -30,7 +30,7 @@ ms.locfileid: "41888562"
 
 ## <a name="processing-the-incoming-request-finding-the-tenant-and-user"></a>處理傳入要求：尋找租使用者和使用者
 
-在撥入通話中，SIP proxy 需要尋找通話是目的地的租使用者，並在這個租使用者中找到特定使用者。 租使用者管理員可能會在多個租使用者中設定非已執行的號碼（例如 + 1001）。 因此，請務必找出要在其上執行數位查閱的特定租使用者，因為在多個 Office 365 租使用者中，未完成的號碼可能會相同。  
+在撥入通話中，SIP proxy 需要尋找通話是目的地的租使用者，並在這個租使用者中找到特定使用者。 租使用者管理員可能會在多個租使用者中設定非已執行的號碼（例如 + 1001）。 因此，請務必找出要在其上執行數位查閱的特定租使用者，因為在多個 Office 365 組織中，非使用中的號碼可能是相同的。  
 
 本節將說明 SIP proxy 如何找到租使用者與使用者，以及如何在傳入連線上執行 SBC 驗證。
 
@@ -56,11 +56,11 @@ ms.locfileid: "41888562"
 
 2. 嘗試使用在連絡人標題中提供的完整 FQDN 名稱尋找租使用者。  
 
-   檢查來自連絡人標題（sbc1.adatum.biz）的 FQDN 名稱是否已在任何 Office 365 租使用者中註冊為 DNS 名稱。 如果找到，則會在已將 SBC FQDN 註冊為功能變數名稱的租使用者中執行使用者查閱。 如果找不到，則會套用步驟3。   
+   檢查連絡人標題（sbc1.adatum.biz）的 FQDN 名稱是否已在任何 Office 365 組織中註冊為 DNS 名稱。 如果找到，則會在已將 SBC FQDN 註冊為功能變數名稱的租使用者中執行使用者查閱。 如果找不到，則會套用步驟3。   
 
 3. 步驟3只有在步驟2失敗時才適用。 
 
-   從 FQDN 中移除主機部分（FQDN： sbc12.adatum.biz，在移除主機部分： adatum.biz）後，查看此名稱是否已在任何 Office 365 租使用者中註冊為 DNS 名稱。 如果找到，則會在此租使用者中執行使用者查閱。 如果找不到，通話就會失敗。
+   從 FQDN 中移除主機部分（FQDN： sbc12.adatum.biz，在移除主機部分： adatum.biz）後，檢查是否已在任何 Office 365 組織中將此名稱註冊為 DNS 名稱。 如果找到，則會在此租使用者中執行使用者查閱。 如果找不到，通話就會失敗。
 
 4. 使用在 Request URI 中所提供的電話號碼，在步驟2或3中發現的租使用者中執行反向號碼查閱。 在上一個步驟中找到的租使用者內，將所提供的電話號碼與使用者 SIP URI 相符。
 

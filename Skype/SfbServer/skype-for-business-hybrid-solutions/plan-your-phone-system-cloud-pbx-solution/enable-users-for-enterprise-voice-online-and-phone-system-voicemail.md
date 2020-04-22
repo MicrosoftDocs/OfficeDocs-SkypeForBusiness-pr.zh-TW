@@ -1,5 +1,5 @@
 ---
-title: 為使用者啟用 Office 365 語音信箱中的企業語音線上版和電話系統
+title: 在 Office 365 語音信箱中為使用者啟用企業語音線上和電話系統
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -18,61 +18,61 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
-description: 瞭解如何在商務用 Skype 使用者的 Office 365 語音服務中啟用電話系統。
-ms.openlocfilehash: f4fdd2a9a3da58f6804fa65acf96ba2b8fac682e
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 瞭解如何在 Office 365 語音服務中為您的商務用 Skype 使用者啟用電話系統。
+ms.openlocfilehash: 8ed04e3926adfecb2f0022d12c783f6c3e83d763
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41802203"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780722"
 ---
-# <a name="enable-users-for-enterprise-voice-online-and-phone-system-in-office-365-voicemail"></a>為使用者啟用 Office 365 語音信箱中的企業語音線上版和電話系統
+# <a name="enable-users-for-enterprise-voice-online-and-phone-system-in-office-365-voicemail"></a>在 Office 365 語音信箱中為使用者啟用企業語音線上和電話系統
  
-瞭解如何在商務用 Skype 使用者的 Office 365 語音服務中啟用電話系統。
+瞭解如何在 Office 365 語音服務中為您的商務用 Skype 使用者啟用電話系統。
   
-在 Office 365 中使用內部部署 PSTN 連線來部署電話系統的最後一個步驟是，在 Office 365 和語音信箱中，為您的使用者提供手機系統功能。 若要啟用這些功能，您必須是具備 Office 365 全域系統管理員角色的使用者，並且能夠執行遠端 PowerShell。 您必須遵循本主題中的步驟，找出尚未針對商務用 Skype Online 啟用 Enterprise Voice 的所有使用者帳戶。
+在 Office 365 中使用內部部署 PSTN 連線部署電話系統的最後一個步驟，就是讓您的使用者能夠在 Office 365 和語音信箱中使用電話系統。 若要啟用這些功能，您必須是具有全域系統管理員角色的使用者，而且能夠執行遠端 PowerShell。 您必須針對尚未啟用商務用 Skype Online 的 Enterprise Voice 的所有使用者帳戶，遵循此主題中的步驟。
   
 ## <a name="enable-phone-system-in-office-365-voice-services"></a>在 Office 365 語音服務中啟用電話系統
 
-若要讓使用者在 Office 365 語音及語音信箱中使用電話系統，您必須執行一些初始步驟，例如檢查您的伺服器是否已部署商務用 Skype Online 連接器，並允許您的使用者擁有託管語音信箱。
+若要讓使用者在 Office 365 語音及語音信箱中啟用電話系統，您必須執行一些初始步驟，例如檢查您的伺服器上是否已部署商務用 Skype Online 連接器，以及是否允許使用者裝載語音信箱。
   
-### <a name="to-enable-your-users-for-phone-system-in-office-365-voice-and-voicemail"></a>在 Office 365 語音及語音信箱中，為您的使用者啟用電話系統
+### <a name="to-enable-your-users-for-phone-system-in-office-365-voice-and-voicemail"></a>在 Office 365 語音及語音信箱中為您的使用者啟用電話系統
 
-1. 開始之前，請檢查您的前端伺服器上是否已部署商務用 Skype Online 連接器（Windows PowerShell 模組）。 如果不是，您可以從[下載中心](https://www.microsoft.com/en-us/download/details.aspx?id=39366)下載它。 您可以在[針對商務用 Skype Online 管理設定您的電腦](https://technet.microsoft.com/en-us/library/dn362839%28v=ocs.15%29.aspx)上，找到有關使用此模組的詳細資訊。
+1. 開始之前，請先檢查您的前端伺服器上是否已部署商務用 Skype Online 連接器（Windows PowerShell 模組）。 如果不是，您可以從[[下載中心](https://www.microsoft.com/download/details.aspx?id=39366)] 下載。 您可以在設定[您的電腦以進行商務用 Skype Online 管理](https://technet.microsoft.com/library/dn362839%28v=ocs.15%29.aspx)時，找到使用此模組的詳細資訊。
     
 2. 以系統管理員身分啟動 Windows PowerShell。
     
-3. 輸入下列內容，然後按 Enter 鍵：
+3. 輸入下列專案，然後按 Enter：
     
    ```powershell
    Import-Module skypeonlineconnector
    ```
 
-4. 輸入下列內容，然後按 Enter 鍵：
+4. 輸入下列專案，然後按 Enter：
     
    ```powershell
    $cred = Get-Credential
    ```
 
-    按 Enter 之後，您應該會看到 [Windows PowerShell 認證] 對話方塊。
+    按 Enter 後，您應該會看到 [Windows PowerShell 認證] 對話方塊。
     
-5. 輸入您的租使用者管理員的使用者名稱和密碼，然後按一下 **[確定]**。
+5. 輸入您的租使用者管理員使用者名稱和密碼，然後按一下 **[確定]**。
     
-6. 在 PowerShell 視窗中，輸入下列內容，然後按 Enter 鍵：
+6. 在 [PowerShell] 視窗中，輸入下列專案，然後按 Enter：
     
    ```powershell
    $Session = New-CsOnlineSession -Credential $cred -Verbose
    ```
 
-7. 輸入下列 Cmdlet 來匯入會話：
+7. 輸入下列 Cmdlet 以匯入會話：
     
    ```powershell
    Import-PSSession $Session -AllowClobber
    ```
 
-    當您在商務用 Skype 伺服器上執行 PowerShell 時，在您開啟 PowerShell 時會載入本機商務用 Skype Cmdlet。 您必須指定-AllowClobber 參數，才能讓線上 Cmdlet 覆寫相同名稱的內部部署 Cmdlet。
+    在商務用 Skype 伺服器上執行 PowerShell 時，當您開啟 PowerShell 時，已載入本機商務用 Skype Cmdlet。 您必須指定-AllowClobber 參數以允許線上 Cmdlet 覆寫具有相同名稱的內部部署 Cmdlet。
     
-8. 使用 Move-csuser Cmdlet 來指派 $EnterpriseVoiceEnabled，並 $HostedVoiceMail 屬性指派給使用者，如下所示：
+8. 使用 Set-CsUser Cmdlet，將 $EnterpriseVoiceEnabled 和 $HostedVoiceMail 屬性指派給您的使用者，如下所示：
     
    ```powershell
    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
@@ -85,96 +85,96 @@ ms.locfileid: "41802203"
    ```
 
     > [!NOTE]
-    > 您也可以透過其 SIP 位址、使用者主體名稱（UPN）、功能變數名稱與使用者名（[Bob]），以及 Active Directory 中的顯示名稱來指定使用者（「Bob 凱利」）。 
+    > 您也可以指定使用者的 SIP 位址、使用者主體名稱（UPN）、功能變數名稱和使用者名稱（網域 \ 使用者名稱），以及 Active Directory 中的顯示名稱（「Bob 凱利」）。 
   
-## <a name="update-the-line-uri-and-dial-plan-for-users-enabled-for-phone-system-in-office-365"></a>更新在 Office 365 中為手機系統啟用的使用者的行 URI 和撥號方案
+## <a name="update-the-line-uri-and-dial-plan-for-users-enabled-for-phone-system-in-office-365"></a>針對 Office 365 中已啟用電話系統的使用者更新行 URI 和撥號對應表
 
-本節說明如何在 Office 365 中為已啟用電話系統的使用者更新行 URI 與撥號計畫。 
+本節說明如何針對 Office 365 中已啟用電話系統的使用者，更新行 URI 和撥號對應表。 
   
 ### <a name="to-update-the-line-uri"></a>更新行 URI
 
-1. 從指派給 CsUserAdministrator 角色或 CsAdministrator 角色的使用者帳戶登入內部部署中的任何電腦。
+1. 從指派給 CsUserAdministrator 角色或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。
     
-2. 使用 [開始] 功能表或 [桌面] 快捷方式來開啟商務用 Skype Server 的 [控制台]。
+2. 使用「開始」功能表或桌面快捷方式，開啟商務用 Skype Server 控制台。
     
     > [!NOTE]
-    > 您也可以開啟瀏覽器視窗，然後輸入系統管理員 URL 來開啟商務用 Skype Server 的 [控制台]。 
+    > 您也可以開啟瀏覽器視窗，然後輸入系統管理員 URL，以開啟商務用 Skype Server 控制台。 
   
-3. 在左側導覽列中，按一下 [**使用者**]。
+3. 在左導覽列中，按一下 **[使用者]**。
     
-4. 在 [**搜尋使用者**] 方塊中，輸入您要啟用的使用者帳戶的全部或第一部分的顯示名稱、名字、姓氏、安全帳戶管理員（SAM）帳戶名稱、SIP 位址或行統一資源識別項（URI），然後按一下 [**尋找**]。
+4. 在 [**搜尋使用者**] 方塊中，輸入您要啟用之使用者帳戶的顯示名稱、名字、姓氏、安全性帳戶管理員（SAM）帳戶名稱、SIP 位址或線路統一資源識別元（URI）的全部或第一部分，然後按一下 [**尋找**]。
     
-5. 在表格中，按一下您想要變更行 URI 的商務用 Skype 使用者帳戶。
+5. 在表格中，按一下您要變更行 URI 的商務用 Skype 使用者帳戶。
     
-6. 按一下 [**行 URI**]，然後輸入唯一的、標準化的電話號碼（例如電話： + 14255550200）。 然後按一下 [**確認**]。
+6. 按一下 [**行 URI**]，然後輸入唯一的標準化電話號碼（例如電話： + 14255550200）。 然後按一下 [**認可**]。
     
-## <a name="update-the-dial-plan-using-on-premises-windows-powershell-cmdlets"></a>使用內部部署的 Windows PowerShell Cmdlet 更新撥號方案
+## <a name="update-the-dial-plan-using-on-premises-windows-powershell-cmdlets"></a>使用內部部署 Windows PowerShell Cmdlet 更新撥號對應表
 
-您可以將每個使用者的撥號方案指派給 Windows PowerShell 和[Grant CsDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps) Cmdlet。 您可以從商務用 Skype Server 2015 或從 Windows PowerShell 遠端會話中執行此 Cmdlet。
+您可以將每一使用者撥號對應表指派給 Windows PowerShell 和[Grant-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps) Cmdlet。 您可以從商務用 Skype Server 2015 或從 Windows PowerShell 的遠端會話中執行此 Cmdlet。
   
-### <a name="to-assign-a-per-user-dial-plan-to-a-single-user"></a>若要將每個使用者的撥號方案指派給單一使用者
+### <a name="to-assign-a-per-user-dial-plan-to-a-single-user"></a>將每一使用者撥號對應表指派給單一使用者
 
-- 使用[授與 CsDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps) Cmdlet，將每個使用者的撥號方案 RedmondDialPlan 指派給使用者 Ken Myer：
+- 使用[Grant-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps)指令程式，將個別使用者撥號對應表 RedmondDialPlan 指派給使用者 Ken Myer：
     
   ```powershell
   Grant-CsDialPlan -Identity "Ken Myer" -PolicyName "RedmondDialPlan"
   ```
 
-### <a name="to-assign-a-per-user-dial-plan-to-multiple-users"></a>若要將每個使用者的撥號方案指派給多個使用者
+### <a name="to-assign-a-per-user-dial-plan-to-multiple-users"></a>將每一使用者撥號對應表指派給多位使用者
 
-- 下列命令會將每個使用者的撥號方案 RedmondDialPlan 指派給在雷德蒙者所在城市的所有使用者。 如需此命令中使用之 LdapFilter 參數的詳細資訊，請參閱[move-csuser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps) Cmdlet 的相關檔：
+- 下列命令會將每位使用者的撥號對應表 RedmondDialPlan 指派給 Redmond 的城市中所有工作的使用者。 如需此命令中所使用之 LdapFilter 參數的詳細資訊，請參閱[Get-CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps) Cmdlet 的檔：
     
   ```powershell
   Get-CsUser -LdapFilter "l=Redmond" | Grant-CsDialPlan -PolicyName "RedmondDialPlan"
   ```
 
 > [!NOTE]
-> 您可以針對線上使用者使用全域或使用者撥號方案。 無法使用網站撥號計畫，因為這些方案只適用于內部部署的使用者，且已指派至內部部署網站。 
+> 您可以針對線上使用者使用通用或使用者撥號對應表。 無法使用網站撥號對應表，只適用于裝載內部部署並指派給內部部署網站的使用者。 
   
-### <a name="to-unassign-a-per-user-dial-plan"></a>取消指派每個使用者的撥號方案
+### <a name="to-unassign-a-per-user-dial-plan"></a>取消指派個別使用者撥號對應表
 
-- 使用[授與 CsDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps) Cmdlet，取消指派先前指派給 Ken Myer 的任何每使用者撥號方案。 未指派每個使用者的撥號方案後，會使用全域撥號方案或指派給其註冊機構或 PSTN 閘道的服務範圍撥號方案，自動管理 Ken Myer。 服務範圍撥號計畫的優先順序高於全域撥號方案：
+- 使用[Grant-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps) Cmdlet 取消指派先前指派給 Ken Myer 的任何個別使用者撥號對應表。 未指派每個使用者的撥號對應表後，Ken Myer 將會透過使用全域撥號對應表或指派給其註冊機構或 PSTN 閘道的服務範圍撥號對應表，來進行管理。 服務範圍撥號對應表優先于全域撥號對應表：
     
   ```powershell
   Grant-CsDialPlan -Identity "Ken Myer" -PolicyName $Null
   ```
 
-## <a name="update-the-voice-routing-policies-using-on-premises-windows-powershell-cmdlets"></a>使用內部部署的 Windows PowerShell Cmdlet 更新語音路由策略
+## <a name="update-the-voice-routing-policies-using-on-premises-windows-powershell-cmdlets"></a>使用內部部署 Windows PowerShell Cmdlet 更新語音路由原則
 
-本節說明如何在 Office 365 中針對啟用電話系統的使用者更新語音路由策略。
+本節說明如何為 Office 365 中啟用電話系統的使用者更新語音路由策略。
   
-Office 365 使用者中的電話系統必須已獲指派語音路由策略，才能讓呼叫順利路由。 這與需要指派語音原則的內部部署商務語音使用者不同，允許呼叫順利路由。 語音路由策略應包含 PSTN 用途，這些用法定義 Office 365 使用者中的電話系統的授權呼叫和路線。 您可以將這些 PSTN 用途從現有的語音原則複製到新的語音路由策略。 如需詳細資訊，請參閱[新 CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps)。
+Office 365 中的電話系統使用者必須將語音路由原則指派給他們，來電才能成功路由傳送。 這與需要將語音原則指派給他們以允許通話成功路由的內部部署商務語音使用者不同。 語音路由原則應包含 PSTN 使用方式，以定義 Office 365 使用者中的電話系統的授權呼叫和路由。 您可以將這些 PSTN 使用方式從現有的語音原則複製到新的語音路由原則。 如需詳細資訊，請參閱[New-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps)。
   
 > [!NOTE]
-> Office 365 使用者中的所有電話系統都會獲指派名為 BusinessVoice 的相同線上語音原則，以定義所允許的通話功能;例如，允許同時撥打。 
+> Office 365 使用者中的所有電話系統都被指派了名為 BusinessVoice 的相同線上語音原則，以定義允許的呼叫功能;例如，允許同時振鈴。 
   
-### <a name="to-assign-a-per-user-voice-routing-policy-to-a-single-user"></a>將每位使用者的語音路由策略指派給單一使用者
+### <a name="to-assign-a-per-user-voice-routing-policy-to-a-single-user"></a>將每一使用者的語音路由原則指派給單一使用者
 
-- 使用[授與 CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csvoiceroutingpolicy?view=skype-ps) Cmdlet，將每位使用者的語音路由原則 RedmondVoiceRoutingPolicy 指派給使用者 Ken Myer：
+- 使用[Grant-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csvoiceroutingpolicy?view=skype-ps)指令程式將每位使用者的語音路由原則 RedmondVoiceRoutingPolicy 指派給使用者 Ken Myer：
     
   ```powershell
   Grant-CsVoiceRoutingPolicy -Identity "Ken Myer" -PolicyName "RedmondVoiceRoutingPolicy"
   ```
 
-### <a name="to-assign-a-per-user-voice-routing-policy-to-multiple-users"></a>將每個使用者的語音路由策略指派給多個使用者
+### <a name="to-assign-a-per-user-voice-routing-policy-to-multiple-users"></a>將每一使用者的語音路由原則指派給多位使用者
 
-- 下一個命令會將每個使用者的語音路由原則 RedmondVoiceRoutingPolicy 指派給所有在雷德蒙者中工作的使用者。 如需此命令中使用之 LdapFilter 參數的詳細資訊，請參閱[move-csuser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps)。
+- 下一個命令會將每位使用者的語音路由原則 RedmondVoiceRoutingPolicy 指派給在 Redmond 的城市中工作的所有使用者。 如需此命令中所用 LdapFilter 參數的詳細資訊，請參閱[Get-CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps)。
     
   ```powershell
   Get-CsUser -LdapFilter "l=Redmond" | Grant-CsVoiceRoutingPolicy -PolicyName "RedmondVoiceRoutingPolicy"
   ```
 
     > [!NOTE]
-    > 您可以使用全域或使用者語音路由策略來進行線上使用者。 無法使用網站語音路由策略，因為這些原則只適用于內部部署的使用者，且已指派至內部部署網站。 
+    > 您可以針對線上使用者使用通用或使用者語音路由策略。 無法使用網站語音路由策略，因為這些原則只適用于內部部署所主控且指派給內部部署網站的使用者。 
   
-### <a name="to-unassign-a-per-user-voice-routing-policy"></a>若要取消指派每位使用者的語音路由策略
+### <a name="to-unassign-a-per-user-voice-routing-policy"></a>取消指派個別使用者的語音路由原則
 
-- 使用授與 CsVoiceRoutingPolicy 取消指派先前指派給 Ken Myer 的任何每使用者語音路由原則。 未指派每個使用者的語音路由策略之後，Ken Myer 將會使用全域語音路由策略自動進行管理。
+- 使用 Grant-CsVoiceRoutingPolicy 取消指派先前指派給 Ken Myer 的任何個別使用者語音路由原則。 未指派每位使用者的語音路由原則之後，將會使用通用語音路由原則來管理 Ken Myer。
     
   ```powershell
   Grant-CsVoiceRoutingPolicy -Identity "Ken Myer" -PolicyName $Null
   ```
 
-    如需詳細資訊，請參閱[授與 CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csvoiceroutingpolicy?view=skype-ps)。
+    如需詳細資訊，請參閱[Grant-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csvoiceroutingpolicy?view=skype-ps)。
     
 

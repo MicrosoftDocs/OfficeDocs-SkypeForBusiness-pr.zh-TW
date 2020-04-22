@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 24ccbaa0e7f43cdf1ccc816a3839547793c65167
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: ac5045df6462be28d7f13e093695376ea612e6cd
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139622"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780152"
 ---
 # <a name="upgrade-from-skype-for-business-on-premises-to-teams"></a>從商務用 Skype 內部部署升級至團隊
 
@@ -42,7 +42,7 @@ ms.locfileid: "43139622"
 -   [準備好貴組織](https://aka.ms/SkypeToTeams-UserReadiness)
 -   [已進行試驗](https://aka.ms/SkypeToTeams-Pilot)
 
-如果您已部署商務用 Skype Server 或 Microsoft Lync 內部部署，且貴組織想要升級至小組，請遵循本文中的指導方針。 您必須設定與您的 Office 365 租使用者的混合式連線性，並判斷您在幾個階段將使用者移至團隊時的共存需求。 
+如果您已部署商務用 Skype Server 或 Microsoft Lync 內部部署，且貴組織想要升級至小組，請遵循本文中的指導方針。 您必須設定與您的 Office 365 組織的混合式連線，並判斷您在幾個階段將使用者移至團隊時的共存需求。 
 
 > [!IMPORTANT]
 > 商務用 Skype Online 將於 2021 年 7 月 31 日淘汰，之後將無法再存取也不再受支援。 若要最大限度取得效益並確保貴組織有適當的時間來實施升級，我們鼓勵您立即開始將您的遷移到 Microsoft 團隊。 請記住，成功的升級會將技術與使用者的就緒性相符，因此請務必在您向 Microsoft 團隊流覽您的旅程時，在本文中利用指導方針。

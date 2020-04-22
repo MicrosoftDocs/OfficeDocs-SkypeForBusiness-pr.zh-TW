@@ -12,18 +12,18 @@ ms:contentKeyID: 48183798
 ms.date: 01/23/2018
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 74d3f54ff5239bf157fa8988f8de71f9d8355790
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 18c9174075ee009b7f67ee8d2757b4af9dd07818
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762491"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780002"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="desktop-client-comparison-tables-for-lync-server-2013"></a>Lync Server 2013 的桌面用戶端比較表
 
@@ -37,31 +37,31 @@ ms.locfileid: "41762491"
 
 _**主題上次修改日期：** 2018-01-23_
 
-下清單格比較 Lync 2013 用戶端在下列類別中的功能和功能：
+下表依下列類別，比較 Lync 2013 用戶端的特性與功能：
 
-  - 增強的目前狀態支援
+  - 增強型顯示支援
 
-  - 連絡人與連絡人群組支援
+  - 連絡人和連絡人群組支援
 
   - IM 支援
 
   - 會議支援
 
-  - 電話支援
+  - 電話語音支援
 
   - 外部使用者支援
 
-  - 封存、合規性及記錄支援
+  - 封存、規範和記錄支援
 
   - 新式驗證
 
-這些表格代表 lync Server 2013 內部部署中可供 Lync 使用者使用的功能。 商務用 Skype Online 和 Office 365 使用者也可以使用相同的功能，除非另有指示。
+這些表格指出 lync Server 2013 的內部部署中，Lync 使用者可以使用的功能。 您也可以在商務用 Skype Online 和 Microsoft 365 或 Office 365 使用者使用相同的功能，除非另有指示。
 
 <div>
 
 
 > [!IMPORTANT]  
-> 如需 Lync 2013 行動用戶端功能可用性的詳細資訊，請參閱<A href="lync-server-2013-mobile-client-comparison-tables.md">Lync Server 2013 的行動用戶端比較表</A>。
+> 如需 Lync 2013 行動用戶端中的功能可用性的詳細資訊，請參閱<A href="lync-server-2013-mobile-client-comparison-tables.md">Lync Server 2013 的行動用戶端比較表</A>。
 
 
 
@@ -73,11 +73,11 @@ _**主題上次修改日期：** 2018-01-23_
 > [!NOTE]  
 > <UL>
 > <LI>
-> <P>如需商務用 Skype Online 訂閱者案的詳細資料，請參閱位於<A href="https://go.microsoft.com/fwlink/p/?linkid=282430">https://go.microsoft.com/fwlink/p/?LinkId=282430</A>的商務用 Skype Online 服務說明。</P>
+> <P>如需商務用 Skype Online 訂閱者案的詳細資訊，請參閱的商務用 Skype Online <A href="https://go.microsoft.com/fwlink/p/?linkid=282430">https://go.microsoft.com/fwlink/p/?LinkId=282430</A>服務說明。</P>
 > <LI>
-> <P>Lync Server 2013 支援下列先前發佈的用戶端： Lync 2010、Lync 2010 Mobile、Lync Phone Edition 和 Lync 2010 助理。 如需這些用戶端的相關資訊，2010請參閱下列用戶端比較資料表<A href="https://go.microsoft.com/fwlink/p/?linkid=213798">https://go.microsoft.com/fwlink/p/?LinkID=213798</A>版本。</P>
+> <P>Lync Server 2013 支援下列先前發佈的用戶端： Lync 2010、Lync 2010 Mobile、Lync Phone Edition 和 Lync 2010 語音應答。 如需這些用戶端的相關資訊，請參閱 Lync 2010 版本的用戶端<A href="https://go.microsoft.com/fwlink/p/?linkid=213798">https://go.microsoft.com/fwlink/p/?LinkID=213798</A>比較表。</P>
 > <LI>
-> <P>Lync 2013 用戶端支援虛擬桌面基礎結構（VDI）環境中的音訊和視頻。 如需有關 VDI 環境中 Lync 2013 功能的詳細資訊，請參閱<A href="lync-server-2013-supported-virtualization-technologies-and-known-limitations.md">支援的虛擬化技術和 Lync Server 2013 中的已知限制</A>。</P></LI></UL>
+> <P>Lync 2013 用戶端支援虛擬桌面基礎結構（VDI）環境中的音訊和影片。 如需有關 VDI 環境中的 Lync 2013 功能的詳細資訊，請參閱<A href="lync-server-2013-supported-virtualization-technologies-and-known-limitations.md">Lync Server 2013 中支援的虛擬化技術與已知限制</A>。</P></LI></UL>
 
 
 
@@ -87,7 +87,7 @@ _**主題上次修改日期：** 2018-01-23_
 
 <div>
 
-## <a name="enhanced-presence-support"></a>增強的目前狀態支援
+## <a name="enhanced-presence-support"></a>增強型顯示支援
 
 
 <table>
@@ -109,15 +109,15 @@ _**主題上次修改日期：** 2018-01-23_
 <tr class="header">
 <th>功能/功能</th>
 <th>商務用 Skype 2015 和2016用戶端</th>
-<th>Mac 上的商務用 Skype</th>
+<th>Mac 版商務用 Skype</th>
 <th>Lync 2013</th>
 <th>Lync Windows Store 應用程式</th>
-<th>Lync 2013 基本版</th>
+<th>Lync 2013 Basic</th>
 <th>Lync Web App</th>
 <th>Lync 2010</th>
-<th>Lync 2010 助理</th>
+<th>Lync 2010 Attendant</th>
 <th>Lync Phone Edition</th>
-<th>Mac 版 Communicator 2011</th>
+<th>Mac 2011 的 Communicator</th>
 <th>Lync for Mac 2011</th>
 </tr>
 </thead>
@@ -137,7 +137,7 @@ _**主題上次修改日期：** 2018-01-23_
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>發佈狀態</p></td>
+<td><p>發行狀態</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -151,7 +151,7 @@ _**主題上次修改日期：** 2018-01-23_
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>查看狀態筆記及 [不在辦公室] 訊息</p></td>
+<td><p>查看狀態記事和不在辦公室的郵件</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -179,7 +179,7 @@ _**主題上次修改日期：** 2018-01-23_
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>新增自訂記事</p></td>
+<td><p>新增自訂附注</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -193,7 +193,7 @@ _**主題上次修改日期：** 2018-01-23_
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>在我的圖片中使用來自任何公用網站的相片</p></td>
+<td><p>從任何公開網站使用圖片的相片</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -216,7 +216,7 @@ _**主題上次修改日期：** 2018-01-23_
 
 <div>
 
-## <a name="contacts-and-contact-groups-support"></a>連絡人與連絡人群組支援
+## <a name="contacts-and-contact-groups-support"></a>連絡人和連絡人群組支援
 
 
 <table>
@@ -238,15 +238,15 @@ _**主題上次修改日期：** 2018-01-23_
 <tr class="header">
 <th>功能/功能</th>
 <th>商務用 Skype 2015 和2016用戶端</th>
-<th>Mac 上的商務用 Skype</th>
+<th>Mac 版商務用 Skype</th>
 <th>Lync 2013</th>
 <th>Lync Windows Store 應用程式</th>
-<th>Lync 2013 基本版</th>
+<th>Lync 2013 Basic</th>
 <th>Lync Web App</th>
 <th>Lync 2010</th>
-<th>Lync 2010 助理</th>
+<th>Lync 2010 Attendant</th>
 <th>Lync Phone Edition</th>
-<th>Mac 版 Communicator 2011</th>
+<th>Mac 2011 的 Communicator</th>
 <th>Lync for Mac 2011</th>
 </tr>
 </thead>
@@ -266,7 +266,7 @@ _**主題上次修改日期：** 2018-01-23_
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>針對狀態變更通知標記連絡人</p></td>
+<td><p>標記連絡人的狀態變更通知</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -280,7 +280,7 @@ _**主題上次修改日期：** 2018-01-23_
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>控制隱私權關係</p></td>
+<td><p>控制隱私權關聯</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -336,7 +336,7 @@ _**主題上次修改日期：** 2018-01-23_
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>展開通訊群組和 Office 365 群組</p></td>
+<td><p>展開通訊群組和 Microsoft 365 群組</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -378,7 +378,7 @@ _**主題上次修改日期：** 2018-01-23_
 <td></td>
 </tr>
 <tr class="even">
-<td><p>[顯示目前的交談] 群組</p></td>
+<td><p>顯示目前的交談群組</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -392,7 +392,7 @@ _**主題上次修改日期：** 2018-01-23_
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>顯示備用連絡人視圖（例如，磚）</p></td>
+<td><p>顯示其他連絡人視圖（例如，磚）</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -406,7 +406,7 @@ _**主題上次修改日期：** 2018-01-23_
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>依群組、關聯或新增（將您新增至其連絡人清單的人員）來排序連絡人</p></td>
+<td><p>依群組、關聯或新的方式排序連絡人（已將您新增至連絡人清單的人員）</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -434,7 +434,7 @@ _**主題上次修改日期：** 2018-01-23_
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>搜尋及新增 Exchange 連絡人</p></td>
+<td><p>搜尋並新增 Exchange 連絡人</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -451,9 +451,9 @@ _**主題上次修改日期：** 2018-01-23_
 </table>
 
 
-1針對商務用 Skype Online 和/或 Office 365 使用者，不支援 Lync 2010 助理。
+1若為商務用 Skype Online 和/或 Microsoft 365 或 Office 365 使用者，則不支援 Lync 2010 語音應答。
 
-2如果是商務用 Skype Online 和/或 Office 365 使用者，則無法使用此功能。
+2對於商務用 Skype Online 和/或 Microsoft 365 或 Office 365 使用者，無法使用這項功能。
 
 </div>
 
@@ -483,15 +483,15 @@ _**主題上次修改日期：** 2018-01-23_
 <tr class="header">
 <th>功能/功能</th>
 <th>商務用 Skype 2015 和2016用戶端</th>
-<th>Mac 上的商務用 Skype</th>
+<th>Mac 版商務用 Skype</th>
 <th>Lync 2013</th>
 <th>Lync Windows Store 應用程式</th>
-<th>Lync 2013 基本版</th>
+<th>Lync 2013 Basic</th>
 <th>Lync Web App</th>
 <th>Lync 2010</th>
-<th>Lync 2010 助理</th>
+<th>Lync 2010 Attendant</th>
 <th>Lync Phone Edition</th>
-<th>Mac 版 Communicator 2011</th>
+<th>Mac 2011 的 Communicator</th>
 <th>Lync for Mac 2011</th>
 </tr>
 </thead>
@@ -511,7 +511,7 @@ _**主題上次修改日期：** 2018-01-23_
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>在多個 IM 交談中流覽/在單一分頁視窗中追蹤多個交談</p></td>
+<td><p>在單一選項卡式視窗中，在多個 IM 交談/追蹤多個交談之間流覽</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -539,7 +539,7 @@ _**主題上次修改日期：** 2018-01-23_
 <td><p>儲存在 Lync for Mac 中</p></td>
 </tr>
 <tr class="even">
-<td><p>使用準備好的交談範本</p></td>
+<td><p>使用準備的交談範本</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td></td>
@@ -567,7 +567,7 @@ _**主題上次修改日期：** 2018-01-23_
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>技能搜尋（含 SharePoint Server 整合）</p></td>
+<td><p>技能搜尋（搭配 SharePoint Server 整合）</p></td>
 <td><p>●2</p></td>
 <td> </td>
 <td><p>●2</p></td>
@@ -575,13 +575,13 @@ _**主題上次修改日期：** 2018-01-23_
 <td></td>
 <td></td>
 <td><p>●2</p></td>
-<td><p>●1、2</p></td>
+<td><p>●1，2</p></td>
 <td></td>
 <td></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>持續聊天（群組聊天）整合</p></td>
+<td><p>Persistent Chat （群組聊天）整合</p></td>
 <td><p>●3</p></td>
 <td> </td>
 <td><p>●3</p></td>
@@ -595,7 +595,7 @@ _**主題上次修改日期：** 2018-01-23_
 <td></td>
 </tr>
 <tr class="even">
-<td><p>只要按一下就能將持續聊天室升級至 Lync 會議</p></td>
+<td><p>只按一下一次即可將持續聊天室提升為 Lync 會議</p></td>
 <td><p>●3</p></td>
 <td> </td>
 <td><p>●3</p></td>
@@ -637,7 +637,7 @@ _**主題上次修改日期：** 2018-01-23_
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>接收筆跡訊息</p></td>
+<td><p>接收手寫消息</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -651,7 +651,7 @@ _**主題上次修改日期：** 2018-01-23_
 <td></td>
 </tr>
 <tr class="even">
-<td><p>將 IM 訊息設為高重要性</p></td>
+<td><p>將 IM 郵件設為高重要性</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -668,11 +668,11 @@ _**主題上次修改日期：** 2018-01-23_
 </table>
 
 
-1針對商務用 Skype Online 和/或 Office 365 使用者，不支援 Lync 2010 助理。
+1若為商務用 Skype Online 和/或 Microsoft 365 或 Office 365 使用者，則不支援 Lync 2010 語音應答。
 
-您必須具備2個內部部署的 Lync Server 2013 和內部部署 SharePoint 2013，才能進行技能搜尋。
+2內部部署的 Lync Server 2013 和內部部署 SharePoint 2013 是技能搜尋所需的。
 
-3：商務用 Skype Online 和/或 Office 365 使用者無法使用持續聊天功能。
+3如需商務用 Skype Online 和/或 Microsoft 365 或 Office 365 使用者，仍然無法使用持續性聊天功能。
 
 </div>
 
@@ -688,11 +688,11 @@ _**主題上次修改日期：** 2018-01-23_
 > [!NOTE]  
 > <UL>
 > <LI>
-> <P>商務用 Skype Online 獨立方案1中不提供 Lync 會議功能。</P>
+> <P>商務用 Skype Online 獨立方案1中無法使用 Lync 會議功能。</P>
 > <LI>
-> <P>在 Lync 對 Lync 會話中，商務用 Skype Online 方案1使用者可以在有權共用功能的使用者受邀的情況下，參與桌面共用和應用程式共用。</P>
+> <P>在 Lync-to-Lync 會話中，商務用 Skype Online 方案1使用者可以參與桌面共用和應用程式共用（如果使用者受到具有共用功能存取權的使用者邀請）。</P>
 > <LI>
-> <P>如需詳細資訊，請參閱中的商務用 Skype <A href="https://go.microsoft.com/fwlink/?linkid=282430">https://go.microsoft.com/fwlink/?LinkID=282430</A>Online 服務說明。</P></LI></UL>
+> <P>如需詳細資訊，請參閱的商務用 Skype Online <A href="https://go.microsoft.com/fwlink/?linkid=282430">https://go.microsoft.com/fwlink/?LinkID=282430</A>服務說明。</P></LI></UL>
 
 
 
@@ -718,15 +718,15 @@ _**主題上次修改日期：** 2018-01-23_
 <tr class="header">
 <th>功能/功能</th>
 <th>商務用 Skype 2015 和2016用戶端</th>
-<th>Mac 上的商務用 Skype</th>
+<th>Mac 版商務用 Skype</th>
 <th>Lync 2013</th>
 <th>Lync Windows Store 應用程式</th>
-<th>Lync 2013 基本版</th>
+<th>Lync 2013 Basic</th>
 <th>Lync Web App</th>
 <th>Lync 2010</th>
-<th>Lync 2010 助理</th>
+<th>Lync 2010 Attendant</th>
 <th>Lync Phone Edition</th>
-<th>Mac 版 Communicator 2011</th>
+<th>Mac 2011 的 Communicator</th>
 <th>Lync for Mac 2011</th>
 </tr>
 </thead>
@@ -762,7 +762,7 @@ _**主題上次修改日期：** 2018-01-23_
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>查看多方影片（圖庫視圖）</p></td>
+<td><p>流覽多方影片（圖庫視圖）</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -835,7 +835,7 @@ _**主題上次修改日期：** 2018-01-23_
 <tr class="even">
 <td><p>共用程式（如果已啟用）</p></td>
 <td><p>●</p></td>
-<td><p>僅限查看</p></td>
+<td><p>僅檢視</p></td>
 <td><p>●</p></td>
 <td></td>
 <td><p>●</p></td>
@@ -845,10 +845,10 @@ _**主題上次修改日期：** 2018-01-23_
 <td></td>
 <td></td>
 <td></td>
-<td><p>僅限查看</p></td>
+<td><p>僅檢視</p></td>
 </tr>
 <tr class="odd">
-<td><p>新增匿名參與者（如果已啟用）</p></td>
+<td><p>新增匿名參與者（若啟用）</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -890,7 +890,7 @@ _**主題上次修改日期：** 2018-01-23_
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>新增及展示 Microsoft PowerPoint 檔案</p></td>
+<td><p>新增及呈現 Microsoft PowerPoint 檔案</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -901,7 +901,7 @@ _**主題上次修改日期：** 2018-01-23_
 <td></td>
 <td></td>
 <td></td>
-<td><p>僅限查看，不 available4 的批註</p></td>
+<td><p>僅限 View，不使用4批註</p></td>
 </tr>
 <tr class="odd">
 <td><p>流覽 Microsoft PowerPoint 檔案</p></td>
@@ -924,7 +924,7 @@ _**主題上次修改日期：** 2018-01-23_
 <td><p>●</p></td>
 <td></td>
 <td></td>
-<td><p>僅限編輯（非新增）</p></td>
+<td><p>只編輯（非新增）</p></td>
 <td> </td>
 <td></td>
 <td></td>
@@ -960,7 +960,7 @@ _**主題上次修改日期：** 2018-01-23_
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>上傳檔案以與其他人共用</p></td>
+<td><p>上傳與其他人共用的檔案</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -988,7 +988,7 @@ _**主題上次修改日期：** 2018-01-23_
 <td><p>Outlook</p></td>
 </tr>
 <tr class="odd">
-<td><p>問&amp;：管理員</p></td>
+<td><p>Q&amp;A 主管</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td> </td>
@@ -1002,7 +1002,7 @@ _**主題上次修改日期：** 2018-01-23_
 <td> </td>
 </tr>
 <tr class="even">
-<td><p>使用 Outlook 中的靜態會議 Id 建立公用會議</p></td>
+<td><p>從 Outlook 中使用靜態會議 ID 建立公開會議</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -1030,7 +1030,7 @@ _**主題上次修改日期：** 2018-01-23_
 <td> </td>
 </tr>
 <tr class="even">
-<td><p>將觀眾設為靜音</p></td>
+<td><p>靜音物件</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -1044,7 +1044,7 @@ _**主題上次修改日期：** 2018-01-23_
 <td> </td>
 </tr>
 <tr class="odd">
-<td><p>將所有人設為出席者</p></td>
+<td><p>讓每個人成為出席者</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -1072,7 +1072,7 @@ _**主題上次修改日期：** 2018-01-23_
 <td> </td>
 </tr>
 <tr class="odd">
-<td><p>在 UNRESOLVED_TOKEN_VAL （com.microsoft.skypeforbusiness.plugin.plist）和 Outlook 之間同步處理委派</p></td>
+<td><p>在 UNRESOLVED_TOKEN_VAL （skypeforbusiness）和 Outlook 之間同步處理代理人</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -1086,7 +1086,7 @@ _**主題上次修改日期：** 2018-01-23_
 <td> </td>
 </tr>
 <tr class="even">
-<td><p>設定影片焦點（鎖定影片）</p></td>
+<td><p>設定影片聚焦（鎖定影片）</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -1100,7 +1100,7 @@ _**主題上次修改日期：** 2018-01-23_
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>提供/取得螢幕共用的控制權</p></td>
+<td><p>提供/取得畫面共用的控制權</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -1117,13 +1117,13 @@ _**主題上次修改日期：** 2018-01-23_
 </table>
 
 
-1針對商務用 Skype Online 和/或 Office 365 使用者，不支援 Lync 2010 助理。
+1若為商務用 Skype Online 和/或 Microsoft 365 或 Office 365 使用者，則不支援 Lync 2010 語音應答。
 
-2參與者無法控制 Mac 版商務用 Skype、Lync for mac 2011 或 Mac 2011 使用者的 Communicator 所共用的桌面。 Mac 使用者可以控制由 Windows 使用者共用的桌面。
+2參與者不能控制由商務用 Skype 于 Mac、Lync for Mac 2011 或 Communicator for Mac 2011 使用者共用的桌面。 Mac 使用者可以控制 Windows 使用者共用的桌面。
 
-3：商務用 Skype Online 和/或 Office 365 使用者，這項功能需要音訊會議提供者。
+3對於商務用 Skype Online 和/或 Microsoft 365 或 Office 365 使用者，此功能需要音訊會議提供者。
 
-4 Lync for Mac 2011 用戶端在由 Lync Web App 2013 用戶端在會議中共用時，無法查看 Microsoft Office 2013 PowerPoint 簡報。
+4 Lync for Mac 2011 用戶端無法在 Lync Web App 2013 用戶端在會議中共用時，查看 Microsoft Office 2013 PowerPoint 簡報。
 
 </div>
 
@@ -1131,13 +1131,13 @@ _**主題上次修改日期：** 2018-01-23_
 
 <div>
 
-## <a name="voice-telephony-support"></a>語音（電話）支援
+## <a name="voice-telephony-support"></a>語音（電話語音）支援
 
 <div>
 
 
 > [!NOTE]  
-> Lync 語音功能僅限於特定的商務用 Skype Online 訂閱者案。 如需詳細資訊，請參閱商務用 Skype Online 服務說明中的「Lync 語音功能」 <A href="https://go.microsoft.com/fwlink/?linkid=282430">https://go.microsoft.com/fwlink/?LinkID=282430</A>主題。
+> Lync 語音功能限制在特定商務用 Skype Online 訂閱者案中。 如需詳細資訊，請參閱《商務用 Skype Online 服務說明》中的「Lync 語音<A href="https://go.microsoft.com/fwlink/?linkid=282430">https://go.microsoft.com/fwlink/?LinkID=282430</A>功能」主題。
 
 
 
@@ -1163,21 +1163,21 @@ _**主題上次修改日期：** 2018-01-23_
 <tr class="header">
 <th>功能/功能</th>
 <th>商務用 Skype 2015 和2016用戶端</th>
-<th>Mac 上的商務用 Skype</th>
+<th>Mac 版商務用 Skype</th>
 <th>Lync 2013</th>
 <th>Lync Windows Store 應用程式</th>
-<th>Lync 2013 基本版</th>
+<th>Lync 2013 Basic</th>
 <th>Lync Web App</th>
 <th>Lync 2010</th>
-<th>Lync 2010 助理</th>
+<th>Lync 2010 Attendant</th>
 <th>Lync Phone Edition</th>
-<th>Mac 版 Communicator 2011</th>
+<th>Mac 2011 的 Communicator</th>
 <th>Lync for Mac 2011</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>啟動通話</p></td>
+<td><p>發起通話</p></td>
 <td><p>●2</p></td>
 <td><p>●</p></td>
 <td><p>●2</p></td>
@@ -1191,7 +1191,7 @@ _**主題上次修改日期：** 2018-01-23_
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>按一下以撥打電話給連絡人</p></td>
+<td><p>按一下以撥打連絡人</p></td>
 <td><p>●2</p></td>
 <td><p>●</p></td>
 <td><p>●2</p></td>
@@ -1205,7 +1205,7 @@ _**主題上次修改日期：** 2018-01-23_
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>轉接來電</p></td>
+<td><p>轉接電話</p></td>
 <td><p>●2</p></td>
 <td><p>●</p></td>
 <td><p>●2</p></td>
@@ -1233,7 +1233,7 @@ _**主題上次修改日期：** 2018-01-23_
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>管理團隊通話設定</p></td>
+<td><p>管理小組通話設定</p></td>
 <td><p>●3</p></td>
 <td> </td>
 <td><p>●3</p></td>
@@ -1261,7 +1261,7 @@ _**主題上次修改日期：** 2018-01-23_
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>啟動通話至回應群組</p></td>
+<td><p>撥號給回應群組</p></td>
 <td><p>●3</p></td>
 <td> </td>
 <td><p>●3</p></td>
@@ -1290,7 +1290,7 @@ _**主題上次修改日期：** 2018-01-23_
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>電子911通話的 IM 通知至 SIP URI</p></td>
+<td><p>適用于 E-911 通話的 IM 通知至 SIP URI</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -1304,7 +1304,7 @@ _**主題上次修改日期：** 2018-01-23_
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>E-911 通話的 IM 通知至通訊群組清單</p></td>
+<td><p>電子911通話之通訊群組清單的 IM 通知</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -1318,7 +1318,7 @@ _**主題上次修改日期：** 2018-01-23_
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>連線至 [語音信箱]、設定或變更問候語</p></td>
+<td><p>連接至語音信箱、設定或變更問候語</p></td>
 <td><p>●3</p></td>
 <td><p>●</p></td>
 <td><p>●3</p></td>
@@ -1346,7 +1346,7 @@ _**主題上次修改日期：** 2018-01-23_
 <td> </td>
 </tr>
 <tr class="odd">
-<td><p>代表其他聯絡人撥打（管理員/代理人案例）</p></td>
+<td><p>代表其他連絡人撥打電話 (主管/代理人案例)</p></td>
 <td><p>●3</p></td>
 <td> </td>
 <td><p>●3</p></td>
@@ -1360,7 +1360,7 @@ _**主題上次修改日期：** 2018-01-23_
 <td></td>
 </tr>
 <tr class="even">
-<td><p>如果設定為代理人，請處理另一個來電</p></td>
+<td><p>處理其他人的通話 (若設定為代理人)</p></td>
 <td><p>●3</p></td>
 <td> </td>
 <td><p>●3</p></td>
@@ -1402,7 +1402,7 @@ _**主題上次修改日期：** 2018-01-23_
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>群組通話</p></td>
+<td><p>群組來電接聽</p></td>
 <td><p>●3</p></td>
 <td> </td>
 <td><p>●3</p></td>
@@ -1419,11 +1419,11 @@ _**主題上次修改日期：** 2018-01-23_
 </table>
 
 
-1針對商務用 Skype Online 和/或 Office 365 使用者，不支援 Lync 2010 助理。
+1若為商務用 Skype Online 和/或 Microsoft 365 或 Office 365 使用者，則不支援 Lync 2010 語音應答。
 
-2對於商務用 Skype Online 和/或 Office 365 使用者，此功能僅適用于 PC 至電腦通話。
+2對於商務用 Skype Online 和/或 Microsoft 365 或 Office 365 使用者，此功能僅適用于電腦對電腦的呼叫。
 
-3：商務用 Skype Online 和/或 Office 365 使用者無法使用此功能。
+3如需商務用 Skype Online 和/或 Microsoft 365 或 Office 365 使用者，無法使用這項功能。
 
 </div>
 
@@ -1452,20 +1452,20 @@ _**主題上次修改日期：** 2018-01-23_
 <tr class="header">
 <th>功能/功能</th>
 <th>商務用 Skype 2015 和2016用戶端</th>
-<th>Mac 上的商務用 Skype</th>
+<th>Mac 版商務用 Skype</th>
 <th>Lync 2013</th>
 <th>Lync Windows Store 應用程式</th>
 <th>Lync Web App</th>
 <th>Lync 2010</th>
-<th>Lync 2010 助理</th>
+<th>Lync 2010 Attendant</th>
 <th>Lync Phone Edition</th>
-<th>Mac 版 Communicator 2011</th>
+<th>Mac 2011 的 Communicator</th>
 <th>Lync for Mac 2011</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>啟動與公用連絡人的 IM</p></td>
+<td><p>以公用連絡人啟動 IM</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -1478,7 +1478,7 @@ _**主題上次修改日期：** 2018-01-23_
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>啟動與同盟連絡人的 IM</p></td>
+<td><p>使用同盟連絡人啟動 IM</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -1507,15 +1507,15 @@ _**主題上次修改日期：** 2018-01-23_
 </table>
 
 
-1針對商務用 Skype Online 和/或 Office 365 使用者，不支援 Lync 2010 助理。
+1若為商務用 Skype Online 和/或 Microsoft 365 或 Office 365 使用者，則不支援 Lync 2010 語音應答。
 
-2如果是商務用 Skype Online 和/或 Office 365 使用者，則無法使用此功能。
+2對於商務用 Skype Online 和/或 Microsoft 365 或 Office 365 使用者，無法使用這項功能。
 
 </div>
 
 <div>
 
-## <a name="recording"></a>錄音室
+## <a name="recording"></a>記錄
 
 
 <table>
@@ -1537,15 +1537,15 @@ _**主題上次修改日期：** 2018-01-23_
 <tr class="header">
 <th>功能/功能</th>
 <th>商務用 Skype 2015 和2016用戶端</th>
-<th>Mac 上的商務用 Skype</th>
+<th>Mac 版商務用 Skype</th>
 <th>Lync 2013</th>
 <th>Lync Windows Store 應用程式</th>
-<th>Lync 2013 基本版</th>
+<th>Lync 2013 Basic</th>
 <th>Lync Web App</th>
 <th>Lync 2010</th>
-<th>Lync 2010 助理</th>
+<th>Lync 2010 Attendant</th>
 <th>Lync Phone Edition</th>
-<th>Mac 版 Communicator 2011</th>
+<th>Mac 2011 的 Communicator</th>
 <th>Lync for Mac 2011</th>
 </tr>
 </thead>
@@ -1565,7 +1565,7 @@ _**主題上次修改日期：** 2018-01-23_
 <td></td>
 </tr>
 <tr class="even">
-<td><p>檔案傳輸的用戶端錄製、共用的 OneNote 頁面及 PowerPoint 注釋</p></td>
+<td><p>檔案傳輸、共用 OneNote 頁面及 PowerPoint 批註的用戶端記錄</p></td>
 <td><p>●2</p></td>
 <td> </td>
 <td><p>●2</p></td>
@@ -1596,9 +1596,9 @@ _**主題上次修改日期：** 2018-01-23_
 </table>
 
 
-1對於商務用 Skype Online 和/或 Office 365 使用者，無法在某些商務用 Skype Online 獨立方案中使用錄製。 錄製需要完整的 Lync 2013 用戶端許可權。 如需詳細資訊，請參閱中的商務用 Skype [https://go.microsoft.com/fwlink/?LinkID=282430](https://go.microsoft.com/fwlink/?linkid=282430)Online 服務說明。
+1對於商務用 Skype Online 和/或 Microsoft 365 或 Office 365 使用者，在特定商務用 Skype Online 獨立方案中無法使用錄製功能。 錄製需要完整的 Lync 2013 用戶端權力。 如需詳細資訊，請參閱的商務用 Skype Online [https://go.microsoft.com/fwlink/?LinkID=282430](https://go.microsoft.com/fwlink/?linkid=282430)服務說明。
 
-2針對商務用 Skype Online 和/或 Office 365 使用者，檔案傳輸、共用的 OneNote 頁面和 PowerPoint 標注的錄製無法使用。
+2對於商務用 Skype Online 和/或 Microsoft 365 或 Office 365 使用者，錄製檔案傳輸、共用 OneNote 頁面及 PowerPoint 批註無法使用。
 
 </div>
 
@@ -1606,7 +1606,7 @@ _**主題上次修改日期：** 2018-01-23_
 
 <div>
 
-## <a name="archiving-compliance-and-logging-support"></a>封存、合規性及記錄支援
+## <a name="archiving-compliance-and-logging-support"></a>封存、規範和記錄支援
 
 
 <table>
@@ -1628,21 +1628,21 @@ _**主題上次修改日期：** 2018-01-23_
 <tr class="header">
 <th>功能/功能</th>
 <th>商務用 Skype 2015 和2016用戶端</th>
-<th>Mac 上的商務用 Skype</th>
+<th>Mac 版商務用 Skype</th>
 <th>Lync 2013</th>
 <th>Lync Windows Store 應用程式</th>
-<th>Lync 2013 基本版</th>
+<th>Lync 2013 Basic</th>
 <th>Lync Web App</th>
 <th>Lync 2010</th>
-<th>Lync 2010 助理</th>
+<th>Lync 2010 Attendant</th>
 <th>Lync Phone Edition</th>
-<th>Mac 版 Communicator 2011</th>
+<th>Mac 2011 的 Communicator</th>
 <th>Lync for Mac 2011</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Outlook 交談記錄中的 IM 交談的存檔</p></td>
+<td><p>在 Outlook 交談記錄中封存 IM 交談</p></td>
 <td><p>●2</p></td>
 <td> </td>
 <td><p>●2</p></td>
@@ -1656,7 +1656,7 @@ _**主題上次修改日期：** 2018-01-23_
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>音訊、影片、應用程式共用、桌面共用和上傳內容的用戶端歸檔</p></td>
+<td><p>音訊、影片、應用程式共用、桌面共用和上傳內容的用戶端封存</p></td>
 <td><p>●2</p></td>
 <td> </td>
 <td><p>●2</p></td>
@@ -1670,7 +1670,7 @@ _**主題上次修改日期：** 2018-01-23_
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>用戶端封存檔案傳輸、共用的 OneNote 頁面及 PowerPoint 注釋</p></td>
+<td><p>檔案傳輸、共用 OneNote 頁面及 PowerPoint 批註的用戶端封存</p></td>
 <td><p>●3</p></td>
 <td> </td>
 <td><p>●3</p></td>
@@ -1684,7 +1684,7 @@ _**主題上次修改日期：** 2018-01-23_
 <td></td>
 </tr>
 <tr class="even">
-<td><p>從工作列中的 [Lync] 圖示存取登入記錄</p></td>
+<td><p>從工作列中的 Lync 圖示存取登入記錄</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -1701,11 +1701,11 @@ _**主題上次修改日期：** 2018-01-23_
 </table>
 
 
-1針對商務用 Skype Online 和/或 Office 365 使用者，不支援 Lync 2010 助理。
+1若為商務用 Skype Online 和/或 Microsoft 365 或 Office 365 使用者，則不支援 Lync 2010 語音應答。
 
-2：商務用 Skype Online 和/或 Office 365 使用者，這項功能需要 Exchange Online，且是由使用者的 Exchange 信箱就地保留屬性所控制。
+2對於商務用 Skype Online 和/或 Microsoft 365 或 Office 365 使用者，此功能需要 Exchange Online，且由使用者的 Exchange 信箱 In-Place 保留屬性來控制。
 
-3：商務用 Skype Online 和/或 Office 365 使用者，檔案傳輸、共用的 OneNote 頁面和 PowerPoint 標注的存檔無法使用。
+3對於商務用 Skype Online 和/或 Microsoft 365 或 Office 365 使用者，封存檔案傳輸、共用 OneNote 頁面及 PowerPoint 批註無法使用。
 
 </div>
 
@@ -1721,23 +1721,23 @@ _**主題上次修改日期：** 2018-01-23_
 
 ## <a name="basic-client-limitations"></a>基本用戶端限制
 
-下列功能可使用完整的用戶端，且不適用於基本用戶端：
+以下功能可使用完整用戶端，而且不能用於基本用戶端：
 
-  - 管理團隊通話設定
+  - 管理小組通話設定
 
   - 管理代理人
 
-  - 代表其他聯絡人撥打（管理員/代理人案例）
+  - 代表其他連絡人撥打電話 (主管/代理人案例)
 
-  - 如果設定為代理人，請處理另一個來電
+  - 處理其他人的通話 (若設定為代理人)
 
   - 管理大量通話
 
-  - 啟動通話至回應群組
+  - 撥號給回應群組
 
   - 通話駐留
 
-  - 群組通話
+  - 群組來電接聽
 
 </div>
 
@@ -1745,17 +1745,17 @@ _**主題上次修改日期：** 2018-01-23_
 
 <div>
 
-## <a name="online-or-hybrid-user-account-limitations"></a>線上或混合式使用者帳戶限制
+## <a name="online-or-hybrid-user-account-limitations"></a>線上或混合使用者帳戶限制
 
-使用者帳戶可以是線上或內部部署的，而且會影響該使用者可用的功能。 在商務用 Skype Online 中擁有帳戶的使用者將無法存取下列功能（即使是完整的用戶端）：
+使用者帳戶可以是線上或內部部署的，而且會影響該使用者可用的功能。 在商務用 Skype Online 上具有帳戶的使用者，即使具有完整用戶端，仍無法存取下列功能：
 
-  - 增強的目前狀態：在您的圖片中使用任何公用網站的相片
+  - 增強顯示狀態：從圖片的任何公開網站使用相片
 
   - 連絡人：搜尋回應群組
 
   - IM 支援：持續聊天（群組聊天）整合
 
-  - IM 支援：只要按一下就能將持續聊天室上報給會議
+  - IM 支援：按一下一次即可將持續聊天室提升為會議
 
   - 外部使用者：與外部使用者進行兩方或多方通話
 

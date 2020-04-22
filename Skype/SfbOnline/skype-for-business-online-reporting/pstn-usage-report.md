@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: 新的商務用 Skype 系統管理中心報告區域會顯示您組織中的通話和音訊會議活動。 它可讓您深入探索報表，讓您更精確地瞭解每個使用者的活動。 例如，您可以使用 [商務用 Skype PSTN 使用詳細資料] 報告來查看輸入/撥出通話中花費的分鐘數，以及這些通話的成本。 您可以查看音訊會議 PSTN 使用狀況詳細資料（包括通話成本），以便了解您的使用方式，以及撥打帳單詳細資料來判斷貴組織內的使用方式。
-ms.openlocfilehash: 7050334a390188f47f5d201b3fa541d337601400
-ms.sourcegitcommit: a4fd238de09366d6ed33d72c908faff812da11a5
+ms.openlocfilehash: 4161f0f9f0b6e011b67f94afc14b5ac793fc1009
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42637140"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776268"
 ---
 # <a name="pstn-usage-report"></a>PSTN 使用報告
 
@@ -39,12 +39,12 @@ ms.locfileid: "42637140"
   
 ## <a name="how-to-get-to-the-skype-for-business-pstn-usage-details-report"></a>如何取得商務用 Skype PSTN 使用狀況詳細資料包告
 
-![](../images/sfb-logo-30x30.png) **使用商務用 skype 系統管理中心**顯示商務用 skype 標誌的圖示
+![商務用 Skype 標誌圖示](../images/sfb-logo-30x30.png) **使用商務用 Skype 系統管理中心**
 
 - 移至系統管理中心 > 系統**管理中心** > **商務用 Skype 系統管理中心** > **報告** > **PSTN 使用狀況詳細資料**。
     
     > [!NOTE]
-    > 視您擁有的 Office 365 訂閱而定，您可能不會看到這裡顯示的所有產品和報表。 
+    > 視您擁有的 Microsoft 365 或 Office 365 訂閱而定，您可能不會看到這裡顯示的所有產品和報表。
   
 ## <a name="interpret-the-skype-for-business-pstn-usage-report"></a>解讀商務用 Skype PSTN 使用量報告
 

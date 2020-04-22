@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 瞭解如何在商務用 Skype Online 中為音訊會議編號選取音訊會議自動語音應答語言。
-ms.openlocfilehash: 22c3ad1d2386dec07060548cd055a5d289db4364
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 34ed4ccee5239923f68b089ce14551fe43c32320
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41680380"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776798"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-skype-for-business-online"></a>在商務用 Skype Online 中設定音訊會議的自動助理語言
 
@@ -45,7 +45,7 @@ ms.locfileid: "41680380"
   
 ## <a name="set-the-conferencing-auto-attendant-languages"></a>設定會議自動語音應答語言
 
-您必須是[Office 365 全域系統管理員](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)或[商務用 Skype 系統管理員](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)才能執行這個步驟。
+您必須是[全域系統管理員](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)或[商務用 Skype 系統管理員](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)才能執行這個步驟。
     
 1. 在**商務用 Skype 系統管理中心**的左導覽中，移至 [**舊版入口網站**]。 在舊版入口網站中，選取 [**音訊會議**]，然後按一下 [ **Microsoft 橋接器**]。
     
@@ -56,7 +56,7 @@ ms.locfileid: "41680380"
     > [!NOTE]
     > 列出支援的主要和次要語言。 您在清單中選取它們的順序就會是提供給呼叫者的語言順序。 
   
-4. 按一下 [**儲存**]。
+4. 按一下 [儲存]****。
     
 ## <a name="want-else-should-i-know"></a>還需要知道嗎？
 

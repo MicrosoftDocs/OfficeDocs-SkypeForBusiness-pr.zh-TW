@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 47abe9934c92ce83ab0874a10b2c04ef238b428a
-ms.sourcegitcommit: 0289062510f0791906dab2791c5db8acb1cf849a
+ms.openlocfilehash: 69efb8c74950ffdb4426049558caaf59254b4605
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42157891"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779800"
 ---
 # <a name="upgrade-from-skype-for-business-to-teams-mdash-for-it-administrators"></a>從商務用 Skype 升級至適用&mdash;于 IT 系統管理員的小組
 
@@ -201,7 +201,7 @@ Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 
 當使用者被遷移至 TeamsOnly 模式時，預設會將他們所組織的現有商務用 Skype 會議轉換成小組。 您也可以選擇在指派 TeamsOnly 模式給使用者時，停用預設行為。 從內部部署移動使用者時，必須將會議遷移到雲端，才能與線上使用者帳戶共同作業，但如果您沒有指定-MoveToTeams，會議將會以商務用 Skype 會議進行遷移，而不是轉換成團隊。 
 
-在租使用者層級指派 TeamsOnly 模式時，不會觸發會議遷移給任何使用者。 如果您想要在租使用者層級指派 TeamsOnly 模式和遷移會議，您可以使用 PowerShell 來取得租使用者的清單（例如，在需要的任何篩選器中使用 CsOnlineUser），然後遍歷這些使用者，以觸發會議使用開始-CsExMeetingMigration 的遷移。 如需詳細資訊，請參閱[使用會議遷移服務（MMS）](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)。
+在租使用者層級指派 TeamsOnly 模式時，不會觸發會議遷移給任何使用者。 如果您想要在租使用者層級指派 TeamsOnly 模式和遷移會議，您可以使用 PowerShell 來取得租使用者的清單（例如，在需要任何篩選器時使用 CsOnlineUser），然後迴圈流覽這些使用者，以使用啟動-CsExMeetingMigration 觸發會議遷移。 如需詳細資訊，請參閱[使用會議遷移服務（MMS）](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)。
 
 
 ### <a name="additional-considerations-for-organizations-with-skype-for-business-server-on-premises"></a>使用商務用 Skype Server 內部部署之組織的其他考慮事項
@@ -221,7 +221,7 @@ Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 - 如果您想要在內部部署使用者的商務用 Skype 用戶端中顯示通知，您必須在內部部署工具集中使用 TeamsUpgradePolicy。 只有 NotifySfbUsers 參數與內部部署使用者有關。  內部部署使用者從 TeamsUpgradePolicy 的線上實例接收它們的模式。 請參閱授與[授與 CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)中的筆記。 
 
 >[!NOTE]
-> 在2019年9月3日之後建立的任何新租使用者，都會建立為 TeamsOnly 租使用者，而不需要系統管理員進行降級的功能。 使用商務用 Skype Server 內部部署的組織（在9月 3 2019 日之前從未安裝 Office 365 訂閱），在使用者取得 Office 365 的訂閱之後，就必須與 Microsoft 支援人員聯繫，才能將其租使用者。 
+> 2019在9月3日之後建立的任何新租使用者都會建立為 TeamsOnly 租使用者，除非組織已有內部部署的商務用 Skype 伺服器。 Microsoft 會使用 DNS 記錄來識別內部部署商務用 Skype 伺服器組織。 如果您的組織有內部部署商務用 Skype Server （沒有公用 DNS 專案），您必須致電 Microsoft 支援人員來降級新的租使用者。 
 
 
 ## <a name="perform-the-upgrade-for-your-organization"></a>針對您的組織執行升級
@@ -286,7 +286,7 @@ Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 
 1. 在團隊中尋找活躍的使用者，如下所示：
 
-   1. 從 Office 365 系統管理入口網站的左側導覽中，移至 [報表]，然後移至 [使用方式]。 
+   1. 從 Microsoft 365 系統管理中心的左側導覽中，移至 [報表]，然後移至 [使用方式]。 
    2. 在 [選取報表] 下拉式清單中，選擇 [Microsoft 團隊]，然後選擇 [使用者活動]。 這將提供已在團隊中使用中的使用者可匯出的資料表。 
    3. 按一下 [匯出]、[開啟 Excel] 和 [篩選]，只顯示在團隊中作用中的使用者。
 
@@ -335,7 +335,7 @@ Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 
 - *在商務用 Skype 內部部署中使用企業語音的使用者，他們將會移至線上並保留內部部署 PSTN 連線*。  將此使用者遷移至團隊需要將使用者的內部部署商務用 Skype 帳戶移至雲端，並將使用者的遷移轉移至直接傳送路線。 
 
-- *在商務用 Skype 內部部署中使用企業語音的使用者*，他們將會移至線上並使用 Microsoft 通話方案。  將此使用者遷移至團隊需要將使用者的內部部署商務用 Skype 帳戶移至雲端，並將該使用者電話號碼的埠與 A 進行協調）指派新的訂閱者號碼可用區域。
+- *在商務用 Skype 內部部署中使用企業語音的使用者*，他們將會移至線上並使用 Microsoft 通話方案。  將此使用者遷移至團隊需要將使用者的內部部署商務用 Skype 帳戶移到雲端，並將該使用者的電話號碼的埠與 A 進行協調，以從可用區域指派新的訂閱者號碼。
 
 本文僅提供高層次的概覽。 如需詳細資訊，請參閱[手機系統 Direct 路由](direct-routing-landing-page.md)與[通話方案](calling-plan-landing-page.md)。 此外，請注意，只有當使用者處於 TeamsOnly 模式時，才會支援使用電話系統與團隊。  如果使用者使用的是孤島模式，則只有商務用 Skype 支援電話系統。 
 
@@ -469,7 +469,7 @@ Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 | :------------------ | :---------------- |
 | TeamsOnly, SfbWithTeamsCollabAndMeetings |    安排在團隊中的所有會議。 Outlook 中無法使用商務用 Skype 增益集。 | 
 | SfbWithTeamsCollab, SfbOnly   | 在商務用 Skype 中排程的所有會議。 Outlook 中無法使用 [團隊] 增益集。 | 
-| 索羅門群島 |     您可以在商務用 Skype 或團隊中排程會議。 您可以在 Outlook 中使用這兩個增益集。 | 
+| 離島 |     您可以在商務用 Skype 或團隊中排程會議。 您可以在 Outlook 中使用這兩個增益集。 | 
 
 
 ### <a name="interoperability"></a>互通性

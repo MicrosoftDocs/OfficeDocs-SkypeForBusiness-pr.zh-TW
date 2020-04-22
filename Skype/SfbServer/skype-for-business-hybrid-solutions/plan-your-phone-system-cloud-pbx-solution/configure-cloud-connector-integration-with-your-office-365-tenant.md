@@ -1,5 +1,5 @@
 ---
-title: 設定 Cloud Connector 與 Office 365 租用戶的整合
+title: 設定與您的 Microsoft 365 或 Office 365 組織的雲端連接器整合
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -15,61 +15,61 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 0e2f2395-b890-4d16-aa2d-99d52438b89c
-description: 瞭解如何設定雲端連接器與您的 Office 365 租使用者整合。
-ms.openlocfilehash: 3e451757d82957987b394b67babe88dac199715b
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 瞭解如何設定雲端連接器與 Office 365 組織的整合。
+ms.openlocfilehash: 1fecf017f614fc8bdf0f38b5f51c29e4b2774357
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41803583"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780642"
 ---
-# <a name="configure-cloud-connector-integration-with-your-office-365-tenant"></a>設定 Cloud Connector 與 Office 365 租用戶的整合
+# <a name="configure-cloud-connector-integration-with-your-microsoft-365-or-office-365-organization"></a>設定與您的 Microsoft 365 或 Office 365 組織的雲端連接器整合
  
-瞭解如何設定雲端連接器與您的 Office 365 租使用者整合。
+瞭解如何設定雲端連接器與 Office 365 組織的整合。
   
-在商務用 Skype 雲端連接器版本安裝完成後，請執行本節中的步驟來設定您的部署，並將其連線至您的 Office 365 租使用者。
+完成商務用 Skype Cloud Connector Edition 安裝之後，請執行本節中的步驟來設定您的部署，並將其連線至您的 Office 365 組織。
   
 ## <a name="configure-firewall-settings"></a>設定防火牆設定
 
-針對您的周邊網路設定您的內部和外部防火牆設定的防火牆設定，以開啟 [[商務用 Skype 雲端連接器版本規劃](plan-skype-for-business-cloud-connector-edition.md)中的[埠和通訊協定](plan-skype-for-business-cloud-connector-edition.md#BKMB_Ports)] 中所述的必要端口。
+為周邊網路設定內部和外部防火牆設定的防火牆設定，以開啟[計畫商務用 Skype 雲端連接器 Edition](plan-skype-for-business-cloud-connector-edition.md)的[埠和通訊協定](plan-skype-for-business-cloud-connector-edition.md#BKMB_Ports)中所述的必要端口。
   
-## <a name="set-up-public-switched-telephone-network-pstn-gateways"></a>設定公用交換電話網絡（PSTN）閘道
+## <a name="set-up-public-switched-telephone-network-pstn-gateways"></a>設定公用交換電話網路（PSTN）閘道
 
-在每個 PSTN 閘道設定 trunks，以指向所有裝置的中繼伺服器。 因為對於池中的所有伺服器而言，池 FQDN 都是相同的，所以每個幹線都應該指向一個中繼伺服器 FQDN 或 IP 位址，而不是中繼伺服器池 FQDN。 Trunks 應設定為相同的優先順序。
+在每個 PSTN 閘道上設定主幹，以指向所有裝置的轉送伺服器。 因為集區中所有伺服器的集區 FQDN 都是相同的，所以每個主幹應該指向一個轉送伺服器 FQDN 或 IP 位址，而非轉送伺服器集區 FQDN。 主幹應以相同的優先順序加以設定。
   
-如果您使用的是在中繼伺服器和閘道之間的 TLS，您必須設定閘道和中繼伺服器來支援 MTLS，如下所示：
+如果您使用的是轉送伺服器和閘道之間的 TLS，您必須將閘道和轉送伺服器設定為支援 MTLS，如下所示：
   
 1. 從雲端連接器 Active Directory 電腦匯出根 CA。
     
-2. 請依照 PSTN 閘道供應商的說明進行，以匯入根 CA。
+2. 依照 PSTN 閘道廠商的指示，匯入根 CA。
     
-3. 匯入您在中繼伺服器上頒發給閘道之憑證的根 CA 憑證。 如果您需要取得閘道的 SSL 憑證，您可以使用在雲端連接器 Active Directory 電腦上執行的憑證授權單位服務來執行此動作，如下所示：
+3. 在轉送伺服器上，匯入發給您閘道之憑證的根 CA 憑證。 如果您需要取得閘道的 SSL 憑證，您可以使用雲端連接器 Active Directory 電腦上所執行的憑證授權單位服務，如下所示：
     
-   - 修改現有的 Web 服務器範本，讓經過驗證的使用者可以進行註冊，或建立新的 Web 服務器範本來設定其他屬性，並讓經過驗證的使用者可以進行註冊。 如需詳細指示，請參閱[憑證範本](https://technet.microsoft.com/en-us/library/cc730705.aspx)。
+   - 修改現有的 Web 服務器範本，讓已驗證的使用者能夠註冊，或是建立新的網頁伺服器範本以設定其他屬性，並讓已驗證的使用者能夠進行註冊。 如需詳細指示，請參閱[憑證範本](https://technet.microsoft.com/library/cc730705.aspx)。
     
-   - 使用 [憑證] 管理單元來申請憑證，選取您已啟用的 Web 服務器範本。 請務必在 [主題] 和 [DNS 名稱] 中的 [Subject] 和 [DNS 名稱] 中新增常見名稱，並在 [主要選項] 底下選取 [可匯出私密金鑰] 的 [私人金鑰]。 
+   - 使用憑證嵌入式管理單元要求憑證選取您已啟用的 Web 服務器範本。 請務必在 [替代名稱] 中，使用「閘道的 FQDN」來新增 Subject 和 DNS 名稱中的 [一般名稱]，然後在 [主要選項] 下，確認已選取 [可匯出私密金鑰] 的私密金鑰。 
     
-4. 使用私人金鑰匯出 SSL 憑證，然後依照 PSTN 閘道廠商的指示匯入憑證。
+4. 使用私密金鑰匯出 SSL 憑證，並遵循您的 PSTN 閘道廠商的指示，以匯入憑證。
     
-## <a name="update-the-domain-for-your-tenant"></a>為您的租使用者更新網域
+## <a name="update-the-domain-for-your-tenant"></a>更新租使用者的網域
 
-請確定您已完成 Office 365 中更新網域的步驟，並具備新增 DNS 記錄的功能。 如需如何在 Office 365 中設定網域的詳細資訊，請參閱[將網域新增至 office 365](https://support.office.com/en-us/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)。
+請確認您已完成在 Office 365 更新您的網域的步驟，並且具備新增 DNS 記錄的能力。 如需如何在 Office 365 中設定網域的相關資訊，請參閱[Add a domain To Office 365](https://support.office.com/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)。
   
 ## <a name="add-dns-records-in-office-365-for-your-edge"></a>在 Office 365 中新增您 Edge 的 DNS 記錄
 
-將下列 DNS 記錄新增至您的 Office 365 租使用者。 如需如何將 DNS 記錄新增至您的 Office 365 租使用者的相關資訊，請參閱[在 office 365 中新增或編輯自訂 DNS 記錄](https://support.office.com/en-us/article/Add-or-edit-custom-DNS-records-in-Office-365-AF00A516-DD39-4EDA-AF3E-1EAF686C8DC9?ui=en-US&amp;rs=en-US&amp;ad=US&amp;fromAR=1)。
+將下列 DNS 記錄新增至您的 Office 365 組織。 如需如何將 DNS 記錄新增至 Office 365 組織的詳細資訊，請參閱[在 office 365 中新增或編輯自訂 DNS 記錄](https://support.office.com/article/Add-or-edit-custom-DNS-records-in-Office-365-AF00A516-DD39-4EDA-AF3E-1EAF686C8DC9?ui=en-US&amp;rs=en-US&amp;ad=US&amp;fromAR=1)。
   
 1. 新增 Access Edge 的 DNS A 記錄。
     
-2. 您可以透過 Office 365 和部署腳本來自動建立 SRV 記錄。 確認您可以在 Edge 上查詢下列兩個 SIP 服務： [_sip] 和 [_sipfederationtls]。
+2. Office 365 和部署腳本會自動建立 SRV 記錄。 請確認您可以在 Edge 上查詢下列兩種 SIP 服務： _sip 和 _sipfederationtls。
     
-     ![已確認 SRV 記錄](../../media/3c353a29-6dcc-4ed3-98db-3a6bed3e929e.png)
+     ![SRV 記錄確認](../../media/3c353a29-6dcc-4ed3-98db-3a6bed3e929e.png)
   
-## <a name="set-up-hybrid-connectivity-between-cloud-connector-edition-and-office-365"></a>在雲端連接器版本與 Office 365 之間設定混合式連接
+## <a name="set-up-hybrid-connectivity-between-cloud-connector-edition-and-office-365"></a>設定 Cloud Connector Edition 與 Office 365 之間的混合式連線
 
-若要設定您的商務用 Skype 雲端連接器版本部署與您的 Office 365 租使用者之間的混合式連線性，請在遠端 PowerShell 會話中執行下列 Cmdlet。 若要瞭解如何建立遠端 PowerShell 會話，請參閱：[設定您的 Windows PowerShell 電腦](https://technet.microsoft.com/en-us/library/dn362831%28v=ocs.15%29.aspx)。
+若要設定商務用 Skype Cloud Connector Edition 部署與 Office 365 組織之間的混合式連線，請在遠端 PowerShell 會話中執行下列 Cmdlet。 若要瞭解如何建立遠端 PowerShell 會話，請參閱：[設定您的電腦 Windows PowerShell](https://technet.microsoft.com/library/dn362831%28v=ocs.15%29.aspx)。
   
-這個 Cmdlet 會設定存取邊緣外部 FQDN。 在第一個命令中， \<外部存取邊緣 FQDN 應該是\> SIP 存取邊緣角色的 FQDN。 根據預設，這應該是 [ap\<. 功能變數名稱\>]。
+Cmdlet 會設定 Access Edge 的外部 FQDN。 在第一個命令中， \<外部訪問 edge FQDN 應該是\> SIP ACCESS edge role 的 FQDN。 根據預設，此值應為 ap\<。功能變數名稱\>。
   
 ```powershell
 Set-CsTenantHybridConfiguration -PeerDestination <External Access Edge FQDN> -UseOnPremDialPlan $false
@@ -77,46 +77,46 @@ Set-CsTenantFederationConfiguration -SharedSipAddressSpace $True
 ```
 
 > [!NOTE]
-> 針對對等目的地使用的外部存取邊緣 FQDN 應該設定為 PSTN 網站，只有當使用者未指派給 PSTN 網站時，才會將它當作備用物件使用。 如需詳細資訊，請參閱[在雲端連接器中部署單一網站](deploy-a-single-site-in-cloud-connector.md)，並[在雲端連接器中部署多個網站](deploy-multiple-sites-in-cloud-connector.md)。 
+> 用於對等目的地的外部存取 Edge FQDN 應該設定為 PSTN 網站，只有當使用者未被指派給 PSTN 網站時，才會將其當作回退使用。 如需詳細資訊，請參閱[deploy a site In Cloud connector](deploy-a-single-site-in-cloud-connector.md)和[Deploy in cloud connector 中的多個網站](deploy-multiple-sites-in-cloud-connector.md)。 
   
 ## <a name="set-up-pstn-gateways"></a>設定 PSTN 閘道
 
-在每個 PSTN 閘道設定 trunks，以指向所有裝置的中繼伺服器。 每個幹線都應該指向一個中繼伺服器 FQDN 或 IP 位址（而非轉送轉送伺服器池 FQDN），因為對於池中的所有伺服器而言，該池 FQDN 都是相同的。 Trunks 應設定為相同的優先順序。
+在每個 PSTN 閘道上設定主幹，以指向所有裝置的轉送伺服器。 每個主幹應該指向一個轉送伺服器 FQDN 或 IP 位址，而非轉送伺服器集區 FQDN，因為集區中所有伺服器的集區 FQDN 都相同。 主幹應以相同的優先順序加以設定。
   
-如果您使用的是在中繼伺服器和閘道之間的 TLS，您必須設定閘道和中繼伺服器來支援 MTLS，如下所示：
+如果您使用的是轉送伺服器和閘道之間的 TLS，您必須將閘道和轉送伺服器設定為支援 MTLS，如下所示：
   
 1. 從雲端連接器 Active Directory 電腦匯出根 CA。
     
-2. 請依照 PSTN 閘道供應商的說明進行，以匯入根 CA。
+2. 依照 PSTN 閘道廠商的指示，匯入根 CA。
     
-3. 匯入您在中繼伺服器上頒發給閘道之憑證的根 CA 憑證。 如果您需要取得閘道的 SSL 憑證，您可以使用在雲端連接器 Active Directory 電腦上執行的憑證授權單位服務來執行此動作，如下所示：
+3. 在轉送伺服器上，匯入發給您閘道之憑證的根 CA 憑證。 如果您需要取得閘道的 SSL 憑證，您可以使用雲端連接器 Active Directory 電腦上所執行的憑證授權單位服務，如下所示：
     
-   - 修改現有的 Web 服務器範本，讓經過驗證的使用者可以進行註冊，或建立新的 Web 服務器範本來設定其他屬性，並讓經過驗證的使用者可以進行註冊。 如需詳細指示，請參閱[憑證範本](https://technet.microsoft.com/library/cc730705.aspx)。
+   - 修改現有的 Web 服務器範本，讓已驗證的使用者能夠註冊，或是建立新的網頁伺服器範本以設定其他屬性，並讓已驗證的使用者能夠進行註冊。 如需詳細指示，請參閱[憑證範本](https://technet.microsoft.com/library/cc730705.aspx)。
     
-   - 使用 [憑證] 管理單元來申請憑證，選取您已啟用的 Web 服務器範本。 請務必在 [主題] 和 [DNS 名稱] 中的 [Subject] 和 [DNS 名稱] 中新增常見名稱，並在 [主要選項] 底下選取 [可匯出私密金鑰] 的 [私人金鑰]。 
+   - 使用憑證嵌入式管理單元要求憑證選取您已啟用的 Web 服務器範本。 請務必在 [替代名稱] 中，使用「閘道的 FQDN」來新增 Subject 和 DNS 名稱中的 [一般名稱]，然後在 [主要選項] 下，確認已選取 [可匯出私密金鑰] 的私密金鑰。 
     
-4. 使用私人金鑰匯出 SSL 憑證，然後依照 PSTN 閘道廠商的指示匯入憑證。
+4. 使用私密金鑰匯出 SSL 憑證，並遵循您的 PSTN 閘道廠商的指示，以匯入憑證。
     
-5. 一個 PSTN 網站中的 PSTN 閘道應該只會連接到相同網站中的中繼伺服器。
+5. 一個 PSTN 網站中的 PSTN 閘道應該只會連接至相同網站的轉送伺服器。
     
-## <a name="set-up-your-users-in-office-365"></a>在 Office 365 中設定您的使用者
+## <a name="set-up-your-users-in-office-365"></a>在 Office 365 中設定使用者
 
-登入 Office 365 系統管理入口網站，新增將可供線上語音服務使用的使用者，並在 Office 365 附加元件中將 E5 授權或電話系統指派給這些使用者的 E3 授權。 如需新增使用者的相關資訊，請參閱[將使用者新增至商務用 Office 365](https://support.office.com/en-US/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc)。
+登入 Microsoft 365 系統管理中心，新增將為線上語音服務啟用的使用者，並在 Office 365 附加元件中指派 E5 授權或電話系統給這些使用者的 E3 授權。 如需新增使用者的詳細資訊，請參閱[將使用者新增至 Office 365 for business](https://support.office.com/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc)。
   
-## <a name="enable-users-for-phone-system-in-office-365-voice-and-voicemail-services"></a>在 Office 365 語音及語音信箱服務中啟用手機系統使用者
+## <a name="enable-users-for-phone-system-in-office-365-voice-and-voicemail-services"></a>在 Office 365 語音及語音信箱服務中啟用使用者的電話系統
 
-將使用者新增至 Office 365 之後，在 Office 365 語音服務（包括語音信箱）中啟用其電話系統帳戶。 若要啟用這些功能，您必須使用 Office 365 全域系統管理員角色的帳戶登入 Office 365 租使用者，並且能夠執行遠端 PowerShell。 若要瞭解如何建立遠端 PowerShell 會話，請參閱：[設定您的 Windows PowerShell 電腦](https://technet.microsoft.com/en-us/library/dn362831%28v=ocs.15%29.aspx)
+將使用者新增至 Office 365 之後，請在 Office 365 語音服務（包括語音信箱）中啟用其電話系統帳戶。 若要啟用這些功能，您必須以全域系統管理員角色的帳戶登入 Office 365 組織，並且能夠執行遠端 PowerShell。 若要瞭解如何建立遠端 PowerShell 會話，請參閱：[設定電腦的 Windows PowerShell](https://technet.microsoft.com/library/dn362831%28v=ocs.15%29.aspx)
   
-- 將原則指派給您的使用者，並設定使用者的商務語音電話號碼，並以身分**識別**參數的值來指定：
+- 將原則指派給您的使用者，並設定使用者的商務語音電話號碼，並以**Identity**參數的值來指定：
     
   ```powershell
   Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI <tel:+phonenumber>
   ```
 
     > [!NOTE]
-    > 您可以使用使用者的 SIP 位址、使用者主體名稱（UPN）或使用者的 Active Directory 顯示名稱（例如「Bob 凱利」）來指定使用者身分識別。 星號（\*）字元也可以搭配顯示名稱來作為使用者身分識別。 例如，身分識別「\*smith」會傳回其顯示名稱以字串值「Smith」結尾的所有使用者。
+    > 使用者身分識別可以使用使用者的 SIP 位址、使用者主體名稱（UPN）或使用者的 Active Directory 顯示名稱來指定（例如，「Bob 凱利」）。 星號（\*）字元也可以使用顯示名稱做為使用者身分識別。 例如，身分識別 "\*smith" 會傳回顯示名稱結尾為字串值 "Smith" 的所有使用者。
   
-然後，您可以使用下列腳本確認已新增並啟用使用者：
+然後，您可以使用下列腳本確認使用者已新增及啟用：
   
 ```powershell
 # Input the user name you want to verify
@@ -132,19 +132,19 @@ $user.HostedVoiceMail
 $user.VoicePolicy
 ```
 
-您必須決定您的使用者是否可以進行國際通話。 根據預設，國際通話是啟用的。 您可以使用線上商務用 Skype 系統管理中心來停用或啟用使用者的國際撥號。
+您必須決定您的使用者是否應該能夠撥打國際電話。 依預設，會啟用國際通話。 您可以使用線上商務用 Skype 系統管理中心，停用或啟用使用者進行國際撥號的功能。
   
-若要針對每位使用者停用國際通話，請在商務用 Skype Online PowerShell 中執行下列 Cmdlet：
+若要以每位使用者為基礎停用國際電話，請在商務用 Skype Online 中執行下列 Cmdlet PowerShell:
   
 ```powershell
 Grant-CsVoiceRoutingPolicy -PolicyName InternationalCallsDisallowed -Identity $user
 ```
 
-若要在已停用每個使用者的情況下，針對每個使用者重新啟用國際通話，請執行相同的 Cmdlet，但將**PolicyName**的值變更為*InternationalCallsAllowed* 。
+若要在每一使用者停用時以每個使用者為基礎重新啟用國際電話，請執行相同的 Cmdlet，但將**PolicyName**的值變更為*InternationalCallsAllowed* 。
   
 ## <a name="assign-users-to-pstn-sites"></a>將使用者指派至 PSTN 網站
 
-即使您只部署單一網站，也可以使用租使用者遠端 PowerShell 將網站指派給使用者。 若要瞭解如何建立遠端 PowerShell 會話，請參閱：[設定您的 Windows PowerShell 電腦](https://technet.microsoft.com/en-us/library/dn362831%28v=ocs.15%29.aspx)。
+使用租使用者遠端 PowerShell 將網站指派給使用者，即使您只部署了單一網站也是一樣。 若要瞭解如何建立遠端 PowerShell 會話，請參閱：[設定您的電腦 Windows PowerShell](https://technet.microsoft.com/library/dn362831%28v=ocs.15%29.aspx)。
   
 ```powershell
 # Set the site to users
@@ -158,40 +158,40 @@ Get-CsOnlineUser | Get-CsUserPstnSettings
 ```
 
 > [!NOTE]
-> 如果沒有 PSTN 網站指派給使用者，您的商務用 Skype 雲端連接器版本部署與您的 Office 365 租使用者之間的混合式連接，就會回到使用租使用者層級預設值（對等目的地），以便完成通話。 
+> 如果沒有 PSTN 網站指派給使用者，則您的商務用 Skype 雲端連接器 Edition 部署和 Office 365 組織之間的混合式連線將會回復為使用租使用者層級的預設值（對等目的地），這樣通話才能完成。 
   
-## <a name="configure-online-hybrid-mediation-server-settings"></a>設定線上混合式轉送轉送伺服器設定
+## <a name="configure-online-hybrid-mediation-server-settings"></a>設定線上混合轉送伺服器設定
 <a name="BKMK_ConfigureMediationServer"> </a>
 
-當 P2P 通話升級至 PSTN 會議時，商務用 Skype Online 會議服務器會將邀請傳送給雲端連接器中繼伺服器。 若要確保 Office 365 能成功地路由此邀請，您需要針對每個雲端連接器中繼伺服器設定線上租使用者的設定，如下所示： 
+當 P2P 呼叫呈報給 PSTN 會議時，商務用 Skype Online 會議服務器會將邀請傳送至雲端連接器轉送伺服器。 為了確保 Office 365 可順利路由傳送此邀請，您必須為每個雲端連接器轉送伺服器設定您線上承租人中的設定，如下所示： 
   
-1. 在 Office 365 系統管理入口網站中建立使用者。 使用任何您想要的使用者名稱，例如 "MediationServer1"。
+1. 在 Microsoft 365 admin center 中建立使用者。 使用任何您想要的使用者名稱，例如 "MediationServer1"。
     
-    使用雲端連接器的預設 SIP 網域（.ini 檔案中的第一個 SIP 網域）作為使用者網域。
+    使用雲端連接器的預設 SIP 網域（.ini 檔案中的第一個 SIP 網域）做為使用者網域。
     
-    請注意，只有在使用者傳播到商務用 Skype online 目錄時，才需要授權指派。 將 Office 365 授權（例如 E5）指派給您所建立的帳戶，最多允許一個小時來傳播變更，確認使用者帳戶已透過執行下列 Cmdlet 正確地提供給商務用 Skype online 目錄，然後移除此帳戶的授權。
+    請注意，使用者必須將授權指派傳播至商務用 Skype online 目錄。 將 Office 365 授權（例如 E5）指派給您所建立的帳戶，最多允許一小時若要傳播變更，請透過執行下列 Cmdlet，將使用者帳戶正確布建至商務用 Skype online 目錄，然後從此帳戶中移除授權。
     ```powershell
    Get-CsOnlineUser -Identity <UserPrincipalName>
    ```
     
-2. 使用您的全域或使用者管理員認證啟動租使用者 Azure AD 遠端 PowerShell 會話，然後執行下列 Cmdlet，將步驟1中設定的 Azure AD 使用者帳戶設定為「HybridMediationServer」：
+2. 使用您的全域或使用者系統管理員認證來啟動租 Azure AD remote PowerShell 會話，然後執行下列 Cmdlet，將步驟1中設定之 Azure AD 使用者帳戶的部門設定為 "HybridMediationServer"：
 
    ```powershell
    Set-MsolUser -UserPrincipalName <UserPrincipalName> -Department "HybridMediationServer"
    ```
 
-3. 使用您的商務用 Skype 租使用者系統管理員認證啟動租使用者商務用 Skype 遠端 PowerShell 會話，然後執行下列 Cmdlet，將轉送伺服器和 Edge 伺服器 FQDN 設定為該使用者帳戶， \<將\> DisplayName 替換為您在步驟1中建立的帳戶顯示名稱：
+3. 使用您的商務用 Skype 租使用者系統管理員認證來啟動租使用者商務用 Skype 遠端 PowerShell 會話，然後執行下列 Cmdlet，將轉送伺服器和 Edge Server FQDN 設定為該使用者帳戶\<，\>並將 DisplayName 取代為您在步驟1中建立之帳戶的使用者顯示名稱：
     
    ```powershell
    Set-CsHybridMediationServer -Identity <DisplayName> -Fqdn <MediationServerFQDN> -AccessProxyExternalFqdn <EdgeServerExternalFQDN>
    ```
 
-    針對 [身分識別]，請使用您為此中繼伺服器建立的 Office 365 使用者帳戶的顯示名稱。
+    針對 [身分識別]，使用您為此轉送伺服器建立的使用者帳戶顯示名稱。
     
-    若是*MediationServerFQDN* ，請使用針對您的中繼伺服器定義的內部 FQDN。
+    針對*MediationServerFQDN* ，使用為您的轉送伺服器定義的內部 FQDN。
     
-    若是*EdgeServerExternalFQDN* ，請使用針對 Edge 伺服器訪問 Proxy 定義的外部 FQDN。 如果有多個雲端連接器 PSTN 網站，請選擇指派給中繼伺服器所在之網站的邊緣伺服器訪問 Proxy FQDN。
+    針對*EdgeServerExternalFQDN* ，使用為 Edge Server Access Proxy 定義的外部 FQDN。 如果有多個雲端連接器 PSTN 網站，請選擇指派給轉送伺服器所在之網站的 Edge Server Access Proxy FQDN。
     
-4. 如果有多個雲端連接器中繼伺服器（多個網站、HA），請針對每個伺服器重複上述步驟。
+4. 如果有多個 Cloud Connector 轉送伺服器（多個網站，HA），請為每個轉送伺服器重複先前的步驟。
     
 

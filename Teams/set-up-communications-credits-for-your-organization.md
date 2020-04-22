@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Licensing
 description: '瞭解如何為您的使用者和組織設定通訊點數（PSTN 消費）帳單授權。 '
-ms.openlocfilehash: e1672c2d3c66690393e34b90fbeb1b2be4d54042
-ms.sourcegitcommit: 5e2dc3430e63bc0a17b87a63fa36ac93d96d8134
+ms.openlocfilehash: 304c08568ee39f69f727d159a5599a3a3ac89ed4
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41889412"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779740"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>設定貴組織的通訊點數
 
@@ -56,7 +56,7 @@ ms.locfileid: "41889412"
   
 ## <a name="step-2-set-up-communications-credits-for-your-organization"></a>步驟2：為您的組織設定通訊點數
 
-1. 使用您的公司或學校帳戶登入新的 Office 365 入口網站。
+1. 使用您的公司或學校帳戶登入新的 Microsoft 365 系統管理中心。
     
 2. 在 Microsoft 365 系統管理中心的左導覽中，前往 [**帳單** > **購買服務**]。 向下滾動，然後選取 [**附加**元件]。
 
@@ -89,7 +89,7 @@ ms.locfileid: "41889412"
   
 ## <a name="step-3-assign-a-communications-credits-license-to-users"></a>步驟3：指派通訊點數授權給使用者
 
-1. 使用您的公司或學校帳戶登入 Office 365。
+1. 使用您的公司或學校帳戶登入。
     
 2. 在 Microsoft 365 系統管理中心的左導覽中，移至 [**使用者** > 作用中的**使用者**]，然後從清單中選取一個或多位使用者。
     
@@ -118,7 +118,7 @@ ms.locfileid: "41889412"
 
 - [設定商務用 Skype Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     
-- [設定雲端語音信箱 - 系統管理說明](set-up-phone-system-voicemail.md)
+- [設定雲端語音信箱 - 管理說明](set-up-phone-system-voicemail.md)
     
 - 設定[Office 365 的](calling-plans-for-office-365.md)[通話方案](set-up-calling-plans.md)和通話方案
     

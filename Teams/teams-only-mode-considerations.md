@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7ec2d9ede5fdd31070228995cefaa16a60ad6224
-ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
+ms.openlocfilehash: 4c4619758672022ed767c56e296ba41d2dcc33fd
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42795996"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776818"
 ---
 # <a name="teams-only-mode-considerations"></a>僅限團隊的模式考慮
 
-如果您是 Office 365 租使用者的系統管理員，您現在會在 Microsoft 團隊系統管理中心看到 [升級為團隊專用模式] 的選項。 使用此功能，您可以升級個別使用者或整個租使用者。  
+如果您是 Office 365 組織的系統管理員，您現在會在 Microsoft 團隊系統管理中心中看到 [升級為團隊專用模式] 的選項。 使用此功能，您可以升級個別使用者或整個租使用者。  
 
 升級至 [僅限團隊] 模式可透過單一用戶端體驗，為使用者提供 Microsoft 團隊的全部好處，即在 Office 365 中進行團隊合作的中心。 此外，[團隊專用] 模式中的使用者會在團隊中收到所有通話和聊天，不論寄件者是使用商務用 Skype 還是小組，以及互通性與同盟支援的好處。
 

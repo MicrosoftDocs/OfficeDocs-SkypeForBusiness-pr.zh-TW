@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8a3425ca19ded72f814e8f81252b7224c2c08a42
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: d75a76ca7a98191f90005ebe6c1edf915fde4571
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 04/22/2020
-ms.locfileid: "43749491"
+ms.locfileid: "43778299"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>取得 Microsoft Teams 用戶端 
 
@@ -40,7 +40,7 @@ Microsoft Teams 具有適用於 Web、桌面 (Windows、Mac 和 Linux) 及行動
 > [!TIP]
 > 請觀看下列工作階段，以了解 Windows 桌面版用戶端的優點、規劃方式及部署方式：[Teams 的 Windows 桌面版用戶端](https://aka.ms/teams-clients)
 
-Microsoft Teams 桌面版用戶端是獨立的應用程式，並且[可用於 Office 365 專業增強版](https://docs.microsoft.com/deployoffice/teams-install)。 Teams 適用於 32 位元和 64 位元版本的 Windows (8.1 或更新版本) 及 Windows Server (2012 R2 或更新版本)，也適用於 macOS (10.10 或更新版本) 及 Linux (`.deb` 和 `.rpm` 格式)。 在 Windows 上，Teams 需要 .NET Framework 4.5 或更新版本；如果您沒有此元件，Teams 安裝程式將會為您安裝。 在 Linux 上，套件管理員 (例如 `apt` 和 `yum`) 會嘗試為您安裝任何需求。 不過，如果套件管理員沒有這麼做，您必須先安裝所有回報的需求，然後再安裝 Linux 版 Teams。
+Microsoft 團隊桌面用戶端是獨立的應用程式，也[可在適用于企業的 Microsoft 365 應用程式中使用](https://docs.microsoft.com/deployoffice/teams-install)。 Teams 適用於 32 位元和 64 位元版本的 Windows (8.1 或更新版本) 及 Windows Server (2012 R2 或更新版本)，也適用於 macOS (10.10 或更新版本) 及 Linux (`.deb` 和 `.rpm` 格式)。 在 Windows 上，Teams 需要 .NET Framework 4.5 或更新版本；如果您沒有此元件，Teams 安裝程式將會為您安裝。 在 Linux 上，套件管理員 (例如 `apt` 和 `yum`) 會嘗試為您安裝任何需求。 不過，如果套件管理員沒有這麼做，您必須先安裝所有回報的需求，然後再安裝 Linux 版 Teams。
 
 桌面版用戶端提供即時通訊支援 (音訊、視訊和內容共用)，可用於進行小組會議、群組通話和個人的一對一通話。
 

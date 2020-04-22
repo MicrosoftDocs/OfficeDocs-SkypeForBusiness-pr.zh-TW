@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 跨單位部署環境中設定 Lync Server'
+title: Lync Server 2013：在跨部署環境中設定 Lync Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184449
 ms.date: 02/21/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a95f2fba2d65f0d25f1fa9b843dd7bb47240aa6c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 44d1f06fcbdbbba7400bf45857dad9ed57971363
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188388"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779719"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,9 +35,9 @@ ms.locfileid: "42188388"
 
 <span> </span>
 
-_**主題上次修改日期：** 2017年-02-21_
+_**主題上次修改日期：** 2017-02-21_
 
-在跨內部部署組態中，部分使用者位於 Microsoft Lync Server 2013 內部部署安裝時的其他使用者位於 Lync Server 的 Office 365 版本。 若要在跨單位部署環境中設定伺服器對伺服器驗證，您必須先設定為信任的 Office 365 授權伺服器的 Lync Server 2013 內部部署安裝。 此程序的初始步驟須先藉由執行下列的 Lync Server 管理命令介面指令碼：
+在跨內部部署設定中，您的部分使用者是駐留在 Microsoft Lync Server 2013 的內部部署安裝，而其他使用者則位於 Lync Server 的 Office 365 版本上。 為了在跨部署環境中設定伺服器對伺服器的驗證，您必須先將 Lync Server 2013 的內部部署安裝設定為信任 Office 365 授權伺服器。 您可以執行下列 Lync Server 管理命令介面腳本，以執行此程式的初始步驟：
 
     $TenantID = (Get-CsTenant -Filter {DisplayName -eq "Fabrikam.com"}).TenantId
     
@@ -81,21 +81,21 @@ _**主題上次修改日期：** 2017年-02-21_
 
     $TenantID = (Get-CsTenant -DisplayName "Fabrikam.com").TenantId
 
-指令碼完成之後您必須設定 Lync Server 2013 與授權伺服器之間的信任關係，Exchange 2013 與授權伺服器之間的第二個信任關係。 唯有使用 Microsoft Online Services Cmdlet 才能完成這項作業。
+在腳本完成之後，您必須設定 Lync Server 2013 與授權伺服器之間的信任關係，以及 Exchange 2013 與授權伺服器之間的第二個信任關係。 唯有使用 Microsoft Online Services Cmdlet 才能完成這項作業。
 
 <div>
 
 
 > [!NOTE]  
-> 如果您尚未安裝 Microsoft Online Services Cmdlet，那麼，您必需先完成兩個動作才能繼續進行。 首先，下載及安裝  Microsoft Online Services 登入小幫手 64 位元版本。 完成安裝之後，請下載並安裝 64 位元版本的 Microsoft Online Services 模組適用於 Windows PowerShell。 您可以在 Office 365 網站找到有關安裝及使用 Microsoft Online Services 模組的詳細資訊。 這些說明也將告訴您如何設定 Office 365 與 Active Directory 之間的單一登入、同盟與同步處理。<BR>如果您尚未安裝您的指令碼會失敗，因為 Get-cstenant 指令程式將無法使用這些 cmdlet。
+> 如果您尚未安裝 Microsoft Online Services Cmdlet，那麼，您必需先完成兩個動作才能繼續進行。 首先，下載及安裝  Microsoft Online Services 登入小幫手 64 位元版本。 安裝完成後，請下載並安裝 Windows PowerShell 的64位版本的 Microsoft Online Services 模組。 您可以在 Office 365 網站找到有關安裝及使用 Microsoft Online Services 模組的詳細資訊。 這些說明也將告訴您如何設定 Office 365 與 Active Directory 之間的單一登入、同盟與同步處理。<BR>若尚未安裝這些 Cmdlet，您的腳本將會失敗，因為 Get-CsTenant Cmdlet 將無法使用。
 
 
 
 </div>
 
-之後您是否已設定 Office 365，並建立 Office 365 服務主體的 Lync Server 2013 和 Exchange 2013 之後，您接著需要這些服務主體中註冊您的認證。 為了完成這項作業，您首先必須取得副檔名為 .CER 的 X.509 Base64 檔案。 接著此憑證將會套用至 Office 365 服務主體。
+在您設定 Office 365 之後，以及建立 Lync Server 2013 和 Exchange 2013 的 Office 365 服務主體後，您就必須使用這些服務主體註冊您的認證。 為了完成這項作業，您首先必須取得副檔名為 .CER 的 X.509 Base64 檔案。 接著此憑證將會套用至 Office 365 服務主體。
 
-當您取得 X.509 憑證時，啟動的 Microsoft Online Services 模組 （按一下 [**開始]**、 [**所有程式]**、 按一下 [ **Microsoft Online Services**]，然後按一下 [ **Microsoft Online Services 模組適用於 Windows PowerShell**）。 服務模組開啟後，請輸入下列命令以匯入 Microsoft Online Windows PowerShell 模組包含可用來管理服務主體的 cmdlet:
+當您取得 x.509 憑證之後，請啟動 Microsoft Online Services 模組（按一下 [**開始**]，按一下 [**所有程式**]，按一下 [ **microsoft online 服務**]，然後按一下 [ **Windows PowerShell 的 microsoft online services 模組**]）。 在 [服務] 模組開啟之後，請輸入下列命令，以匯入 Microsoft Online Windows PowerShell 模組，其中包含可用於管理服務主體的 Cmdlet：
 
     Import-Module MSOnlineExtended
 
@@ -103,7 +103,7 @@ _**主題上次修改日期：** 2017年-02-21_
 
     Connect-MsolService
 
-按下 ENTER 鍵後，將會出現認證對話方塊。請在對話方塊內輸入您的 Office 365 使用者名稱和密碼，然後按一下 [確定]。
+按下 ENTER 鍵後，將會出現認證對話方塊。 在對話方塊中輸入您的 Microsoft 365 或 Office 365 使用者名稱和密碼，然後按一下 [確定]。
 
 一旦連線至 Office 365，您就可以執行下列命令以傳回有關服務主體的資訊：
 
@@ -120,18 +120,18 @@ _**主題上次修改日期：** 2017年-02-21_
     ServicePrincipalName : LyncServer/litwareinc.com
     TrustedForDelegation : True
 
-下一個步驟為匯入、編碼以及指派 X.509 憑證。 若要匯入並進行編碼的憑證，使用下列 Windows PowerShell 命令，所指定的完整檔案路徑，請務必您。當您呼叫匯入方法的 CER 檔案：
+下一個步驟為匯入、編碼以及指派 X.509 憑證。 若要匯入和編碼憑證，請使用下列 Windows PowerShell 命令，確定指定您的完整檔案路徑。CER 檔案當您呼叫 Import 方法時：
 
     $certificate = New-Object System.Security.Cryptography.X509Certificates.X509Certificate
     $certificate.Import("C:\Certificates\Office365.cer")
     $binaryValue = $certificate.GetRawCertData()
     $credentialsValue = [System.Convert]::ToBase64String($binaryValue)
 
-憑證匯入且完成編碼後，接著您可以將憑證指派至 Office 365 服務主體。 若要執行該動作，首先，請使用 Get-MsolServicePrincipal 擷取 Lync Server 與 Microsoft Exchange 服務主體的 AppPrincipalId 屬性值；AppPrincipalId 屬性值將會用來識別指派憑證的服務主體。 AppPrincipalId 屬性值，是針對 Lync Server 2013 手中時，使用下列命令來指派憑證給 Lync Server （StartDate 和 EndDate 屬性，應對應至憑證的有效期） 的 Office 365 版本：
+憑證匯入且完成編碼後，接著您可以將憑證指派至 Office 365 服務主體。 若要執行該動作，首先，請使用 Get-MsolServicePrincipal 擷取 Lync Server 與 Microsoft Exchange 服務主體的 AppPrincipalId 屬性值；AppPrincipalId 屬性值將會用來識別指派憑證的服務主體。 使用 Lync Server 2013 的 AppPrincipalId 屬性值手頭，使用下列命令將憑證指派給 Lync Server 的 Office 365 版本（StartDate 和 EndDate 屬性應對應至憑證的有效期限）：
 
     New-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000 -Type Asymmetric -Usage Verify -Value $credentialsValue -StartDate 6/1/2012 -EndDate 5/31/2013
 
-這次使用 Exchange 2013 的 AppPrincipalId 屬性值時，應該重複命令。
+然後您應該重複執行此命令，這次使用 Exchange 2013 的 AppPrincipalId 屬性值。
 
 日後如需刪除該憑證，您可透過先擷取憑證的 KeyId 來完成作業：
 
@@ -150,7 +150,7 @@ _**主題上次修改日期：** 2017年-02-21_
 
     Remove-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000 -KeyId bc2795f3-2387-4543-a95d-f92c85c7a1b0
 
-除了指派的憑證中，您也必須藉由新增您的內部部署版本的 Lync Server 2013 伺服器主體名稱，以設定 Exchange online 的 Office 365 服務主要名稱。 這可以藉由在 Microsoft Online Services PowerShell 工作階段中執行下列四種幾行：
+除了指派憑證之外，您還必須為您的 Lync Server 2013 的內部部署版本，新增伺服器主要名稱，以設定 Exchange Online 的 Office 365 服務主體。 若要執行此動作，可在 Microsoft Online Services PowerShell 會話中執行下列四行：
 
     Set-MSOLServicePrincipal -AppPrincipalID 00000002-0000-0ff1-ce00-000000000000 -AccountEnabled $true
     

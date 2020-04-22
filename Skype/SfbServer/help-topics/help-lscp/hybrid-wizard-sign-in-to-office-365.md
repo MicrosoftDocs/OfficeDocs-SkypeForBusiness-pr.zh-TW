@@ -1,5 +1,5 @@
 ---
-title: 混合式嚮導登入 Office 365
+title: 混合式嚮導登入 Microsoft 365 或 Office 365
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -18,22 +18,22 @@ ms.collection:
 - IT_Skype16
 - IT_Skype4B_Hybrid
 ms.assetid: 791026d0-730f-4225-872e-74c9b5c166d7
-description: 使用商務用 Skype Server 混合式管理性嚮導，協助您設定與商務用 Skype Online 混合使用的環境。
-ms.openlocfilehash: a76bdf59ab9bc54d8cabdc642f1a3824b013410e
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 使用商務用 Skype Server 混合式管理性嚮導，協助您設定環境，以與商務用 Skype Online 混合。
+ms.openlocfilehash: 1e94dba9c0aef4a45c00409319f51c87d7e623d4
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41822716"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780432"
 ---
-# <a name="hybrid-wizard-sign-in-to-office-365"></a>混合精靈：登入 365
+# <a name="hybrid-wizard-sign-in-to-microsoft-365-or-office-365"></a>混合式嚮導：登入 Microsoft 365 或 Office 365
 
-使用商務用 Skype Server 混合式管理性嚮導，協助您設定與商務用 Skype Online 混合使用的環境。
+使用商務用 Skype Server 混合式管理性嚮導，協助您設定環境，以與商務用 Skype Online 混合。
 
-## <a name="sign-in-to-office-365"></a>登入 Office 365
+## <a name="sign-in-to-microsoft-365-or-office-365"></a>登入 Microsoft 365 或 Office 365
 
-輸入您的 Office 365 租用戶使用者名稱和密碼以登入並將您的內部部署連結您的 Office 365 租用戶。您將需要使用您註冊 Office 365 時所建立的 onmicrosoft 網域管理帳戶。例如：admin@contoso.onmicrosoft.com。
+輸入您的 Microsoft 365 或 Office 365 組織的使用者名稱和密碼，以登入您的內部部署與您的 Microsoft 365 或 Office 365 組織。 當您註冊 Microsoft 365 或 Office 365 時（例如，admin@contoso.onmicrosoft.com），您必須使用為 name.onmicrosoft.com17 網域所建立的系統管理員帳戶。
 
-如需有關如何設定環境以進行混和部署的詳細資訊，請參閱〈[Overview of hybrid deployments](https://technet.microsoft.com/library/f6610f2f-c804-4f36-81fc-7aa3297bb4a2.aspx)〉。
+如需如何設定環境混合式環境的詳細資訊，請參閱[混合式部署的概述](https://technet.microsoft.com/library/f6610f2f-c804-4f36-81fc-7aa3297bb4a2.aspx)。
 
 

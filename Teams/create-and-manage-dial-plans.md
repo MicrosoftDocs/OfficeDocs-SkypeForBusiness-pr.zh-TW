@@ -20,18 +20,18 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 瞭解如何建立和管理呼叫撥號方案（PSTN 呼叫撥號方案），以及管理它們的方式。
-ms.openlocfilehash: 6a5f46772ed8eebb309ba8bd9eaeca6fddb35afa
-ms.sourcegitcommit: 0fdc60840f45ff5b0a39a8ec4a21138f6cab49c9
+ms.openlocfilehash: 9c72745e6dee12ffbac4d91df47df37c327aab33
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43160077"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778259"
 ---
 # <a name="create-and-manage-dial-plans"></a>建立和管理撥號對應表
 
 規劃貴組織的撥號方案並查明需要為呼叫路由建立的所有正常化規則之後，您就可以開始建立撥號方案了。 您可以使用 Microsoft 團隊系統管理中心或 Windows PowerShell 來建立及管理撥號方案。  
 
-## <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft 團隊系統管理中心
+## <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 系統管理中心
 
 ### <a name="create-a-dial-plan"></a>建立撥號方案
 
@@ -87,7 +87,7 @@ ms.locfileid: "43160077"
   
 1. 按一下 [**啟動** > **Windows PowerShell**]。
     
-2. 在**Windows PowerShell**視窗中，執行下列動作以連線到您的 Office 365 組織：
+2. 在**Windows PowerShell**視窗中，執行下列動作以連線至您的 Microsoft 365 或 Office 365：
     
     > [!NOTE]
     > 您在第一次使用商務用 Skype Online Windows PowerShell 模組時，您只需執行匯**入模組**命令。

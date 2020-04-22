@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 localization_priority: Normal
 description: 本文涵蓋針對 Microsoft 團隊認證的手機清單，以及手機認證中 Microsoft 團隊支援的功能。
-ms.openlocfilehash: b811a92977d10601aa601e1bae811ef73c34dce8
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 94ee5e2dc1b55da190c4b6afa736fab2ced3e1d1
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836863"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780222"
 ---
 # <a name="phones-for-microsoft-teams"></a>Microsoft 團隊的電話
 
@@ -35,7 +35,7 @@ Microsoft 團隊可為需要傳統電話體驗的使用者支援一套手機。 
 
 下表提供「團隊認證的 IP 手機」支援的高層級功能。
 
-|Features |Phone （個人模式） |會議室電話（共用模式）|
+|功能 |Phone （個人模式） |會議室電話（共用模式）|
 |---------|---------|---------|
 |**驗證** | |  |
 |使用使用者認證登入 |  是 | 是|
@@ -139,9 +139,9 @@ Microsoft 團隊使用者在流覽至 [**語音信箱**] 索引標籤時，可�
 
 ![[團隊設定] 頁面的螢幕擷取畫面](media/teams-settings-page.jpg)
 
-## <a name="required-licenses"></a>所需的授權
+## <a name="required-licenses"></a>所需授權
 
-Microsoft 團隊授權可以作為其[Office 365 訂閱](Office-365-licensing.md)的一部分購買。 若要深入瞭解在手機上使用 Microsoft 團隊所需的授權，請參閱可用的[電話系統授權](https://products.office.com/microsoft-teams/voice-calling)。
+Microsoft 團隊授權可以在[microsoft 365 和 Office 365 訂閱](Office-365-licensing.md)中購買。 若要深入瞭解在手機上使用 Microsoft 團隊所需的授權，請參閱可用的[電話系統授權](https://products.office.com/microsoft-teams/voice-calling)。
 
 如需取得團隊的詳細資訊，請參閱[如何取得 Microsoft 團隊的存取權？](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 

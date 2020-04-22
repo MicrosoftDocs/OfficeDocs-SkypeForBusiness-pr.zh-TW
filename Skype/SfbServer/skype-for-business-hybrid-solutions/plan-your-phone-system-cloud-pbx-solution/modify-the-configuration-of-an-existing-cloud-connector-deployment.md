@@ -1,5 +1,5 @@
 ---
-title: 修改現有的雲端連接器部署的組態
+title: 修改現有 Cloud Connector 部署的設定
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -15,124 +15,124 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 90490c65-0e40-4e85-96e1-751f27897e25
-description: 遵循此主題以便修改現有的 Skype 商務雲端連接器 Edition 1.4.1 或更新版本的部署的組態中的步驟。
-ms.openlocfilehash: 4c2c0b8ad5340cd4ae4275f1ac009bf3d9d3ec0b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+description: 遵循此主題中的步驟，修改現有商務用 Skype 雲端連接器 Edition 1.4.1 或更新版本的設定。
+ms.openlocfilehash: 77e9940e10cc356afbade5592bf41a0cdba66b0f
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42018004"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779379"
 ---
-# <a name="modify-the-configuration-of-an-existing-cloud-connector-deployment"></a>修改現有的雲端連接器部署的組態
+# <a name="modify-the-configuration-of-an-existing-cloud-connector-deployment"></a>修改現有 Cloud Connector 部署的設定
  
-遵循此主題以便修改現有的 Skype 商務雲端連接器 Edition 1.4.1 或更新版本的部署的組態中的步驟。 
+遵循此主題中的步驟，修改現有商務用 Skype 雲端連接器 Edition 1.4.1 或更新版本的設定。 
   
-## <a name="modify-the-configuration-of-a-single-site"></a>修改單一站台的組態
+## <a name="modify-the-configuration-of-a-single-site"></a>修改單一網站的設定
 <a name="BKMK_SIngleSite"> </a>
 
-如果沒有在網站中，只有一個 appliance 時您想要變更的組態設定，裝置所傳入部署之後，您可以修改 CloudConnector.ini 檔案，並開始重新部署。
+如果網站中只有一個裝置，當您想要在部署裝置之後變更設定設定時，您可以修改 CloudConnector 檔案，並重新啟動部署。
   
-1. 執行下列 cmdlet 以解除安裝所有現有的主機伺服器上的虛擬機器： 
+1. 執行下列 Cmdlet，以卸載主機伺服器上的所有現有虛擬機器： 
     
    ```powershell
    Uninstall-CcAppliance
    ```
 
-2. 執行下列 cmdlet 以取消登錄該裝置：
+2. 執行下列 Cmdlet 以取消登錄裝置：
     
    ```powershell
    Unregister-CcAppliance
    ```
 
-3. 更新 CloudConnector.ini 目錄中的檔案應用裝置。
+3. 更新裝置目錄中的 CloudConnector 檔案。
     
-4. 執行下列 cmdlet 以更新設定: （時，才適用第 2 版; 舊版此步驟，請跳到下一步）。
+4. 執行下列 Cmdlet 來更新設定：（此步驟僅適用于版本 2; 針對舊版，請跳至下一個步驟）。
     
    ```powershell
    Import-CcConfiguration 
    ```
 
-5. 執行下列 cmdlet 以重新註冊裝置所傳入：
+5. 請執行下列 Cmdlet 重新註冊裝置：
     
    ```powershell
    Register-CcAppliance
    ```
 
-6. 執行下列 cmdlet 以安裝 Skype for Business 雲端連接器版：
+6. 執行下列 Cmdlet 以安裝商務用 Skype Cloud Connector Edition：
     
    ```powershell
    Install-CcAppliance
    ```
 
-如果有多個 appliance 站台中，您需要遵循這些步驟，修改 CloudConnector.ini 檔案，並重新部署設備逐一。
+如果網站中有一個以上的裝置，您必須遵循下列步驟，修改 CloudConnector 檔案，然後逐個重新部署裝置。
   
-1. 執行下列 cmdlet 以解除安裝所有目前 appliance 上現有的虛擬機器： 
+1. 執行下列 Cmdlet，以卸載目前裝置上的所有現有虛擬機器： 
     
    ```powershell
    Uninstall-CcAppliance
    ```
 
-2. 執行下列 cmdlet 以取消登錄該裝置：
+2. 執行下列 Cmdlet 以取消登錄裝置：
     
    ```powershell
    Unregister-CcAppliance
    ```
 
-3. 更新 CloudConnector.ini 目錄中的檔案應用裝置。
+3. 更新裝置目錄中的 CloudConnector 檔案。
     
-4. 執行下列 cmdlet 以更新設定: （時，才適用第 2 版; 舊版此步驟，請跳到下一步）。
+4. 執行下列 Cmdlet 來更新設定：（此步驟僅適用于版本 2; 針對舊版，請跳至下一個步驟）。
     
    ```powershell
    Import-CcConfiguration 
    ```
 
-5. 執行下列 cmdlet 以重新註冊裝置所傳入：
+5. 請執行下列 Cmdlet 重新註冊裝置：
     
    ```powershell
    Register-CcAppliance
    ```
 
-6. 所有其他設備中挑選最新的設定備份的網站上執行下列 cmdlet:
+6. 在網站中的所有其他裝置上執行下列 Cmdlet，以挑選最新的設定：
     
    ```powershell
    Publish-CcAppliance
    ```
 
-7. 執行下列 cmdlet 以目前 appliance 上部署雲端連接器：
+7. 在目前的裝置上執行下列 Cmdlet 重新部署雲端連接器：
     
    ```powershell
    Install-CcAppliance
    ```
 
-## <a name="modify-the-configuration-of-multiple-sites"></a>修改多個站台的組態
+## <a name="modify-the-configuration-of-multiple-sites"></a>修改多個網站的設定
 <a name="BKMK_MultipleSites"> </a>
 
-若要修改的組態中部署多個站台，請依照下列單一站台，一次更新一個站台的步驟。
+若要在部署中修改多個網站的設定，請遵循單一網站的步驟，一次更新一個網站。
   
-## <a name="modify-the-configuration-of-your-office-365-tenant-to-enable-automatic-updates"></a>修改 Office 365 租用戶啟用自動更新的組態
+## <a name="modify-the-configuration-of-your-office-365-organization-to-enable-automatic-updates"></a>修改 Office 365 組織的設定以啟用自動更新
 <a name="BKMK_MultipleSites"> </a>
 
-若要啟用作業系統自動更新 」 和 「 位元自動更新，您必須使用用 Skype online 管理的企業租用戶系統管理員帳戶及租用戶遠端 PowerShell，如下所示的使用。
+若要啟用作業系統自動更新和 Bits 自動更新，您必須使用商務用 Skype 租使用者系統管理員帳戶進行線上管理，並使用租使用者遠端 PowerShell，如下所示。
   
-如果您停用作業系統自動更新 」 或 「 位元自動更新，「 主機 」 和 「 虛擬機器可能遺漏重要的 Windows 更新，以及雲端連接器不會自動升級到新版本。 強烈建議您啟用 [自動更新。
+如果您停用作業系統自動更新或 Bits 自動更新，您的主機和虛擬機器可能會錯過重要的 Windows 更新，而雲端連接器將無法自動升級為新的版本。 強烈建議您啟用自動更新。
   
-1. 站台的 EnableAutoUpdate 屬性必須設為 true （預設值）。 執行下列 cmdlet 以確保 EnableAutoUpdate 設為 true:
+1. 網站的 EnableAutoUpdate 屬性必須設定為 true （預設值）。 請執行下列 Cmdlet，確定 EnableAutoUpdate 設定為 true：
     
    ```powershell
    Get-CsHybridPSTNSite -Identity <SiteName>
    ```
 
-2. 租用戶中建立自動更新時間間隔。
+2. 建立租使用者的自動更新時間範圍。
     
-    每日、 每週及每月，可以是時間範圍。 所有時間 windows 都需要開始時間] 和 [持續時間。
+    時段可以是每天、每週及每月。 Windows 所有的時間都需要開始時間和持續時間。
     
-   - 針對每日時間] 視窗中，所需僅 [開始時間] 和 [持續時間。 
+   - 針對每日時段，只需要開始時間和持續時間。 
     
-   - 是每週的時間視窗，所需的一週的天數，可以是一天或數天。
+   - 若為每週時段，需要天數，其可為一天或多天。
     
-   - 針對每月的時間範圍，可以有兩種類型。 第一個類型是指定月份日期，可以是一天。 第二個類型是月的指定、 週，這兩個可以是月的單一項目或多個項目以及星期數。
+   - 在每月的時段中，可能會有兩種類型。 第一種類型是指定一月中的第幾天，也就是一天。 第二種類型是指定每月的周數，也就是一周中的天數，這兩者都可以是單一專案或多個專案。
     
-   - 每個租用戶可以有 20 次 windows 定義。 預設的 [時間] 視窗將會建立新租用戶，為作業系統更新] 和 [位元更新預設時間範圍。 執行下列 cmdlet(s) 若要設定的每日、 每週或每月時段：
+   - 每個租使用者可定義20個時間視窗。 將新租使用者的預設時段，當作作業系統更新和 Bits 更新的預設時間範圍而建立。 執行下列 Cmdlet 以設定每日、每週或每月時間的時段：
     
    ```powershell
    New-CsTenantUpdateTimeWindow -Identity Night -Daily -StartTime 22:00 -Duration 6:00
@@ -150,84 +150,84 @@ ms.locfileid: "42018004"
    New-CsTenantUpdateTimeWindow -Identity MidDayOfMonth -Monthly -DayOfMonth 15 -StartTime 0:00 -Duration 1.00:00
    ```
 
-   - 將更新時間 windows 指派至網站。 
+   - 將更新時間視窗指派至網站。 
     
-     位元更新時間和 OS 更新時間 windows 會個別設定。 兩者都可以指派單一或多個時間 windows。 每個時間間隔可以指派給不同的站台和不同用途 （位元更新和 OS 更新）。 執行下列 cmdlet 以設定網站的 [時間] 視窗： 
+     會個別設定 Bits 更新時間與 OS 更新時間視窗。 這兩者都可以指派一或多個時間視窗。 每個時間範圍可指派給不同的網站和不同的目的（Bits 更新和 OS 更新）。 執行下列 Cmdlet 來設定網站的時間範圍： 
     
    ```powershell
    Set-CsHybridPSTNSite -Identity <SiteName> -BitsUpdateTimeWindow @{add="MidDayOfMonth","WeekdayNight"} -OsUpdateTimeWindow @{replace="Night"}
    ```
 
-## <a name="update-the-dedicated-tenant-admin-credentials"></a>更新專用的租用戶系統管理員認證
+## <a name="update-the-dedicated-tenant-admin-credentials"></a>更新專用的租使用者系統管理員認證
 <a name="BKMK_MultipleSites"> </a>
 
-從具有必要的權限的帳戶進行雲端連接器在 Office 365 租用戶中的系統管理變更。 在雲端連接器版本 2.0 之前，該帳戶是專用的全域租用戶系統管理員帳戶。 在雲端連接器版本 2.0 和更新版本，該帳戶可以是 Office 365 帳戶與 Skype 商務系統管理員權限。
+您可以從具有必要許可權的帳戶，從 Office 365 組織中取得雲端連接器的系統管理變更。 在2.0 之前的雲端連接器版本中，該帳戶是專用的全域租使用者管理員帳戶。 在雲端連接器版本2.0 和更新版本中，該帳戶可以是具有商務用 Skype 系統管理員許可權的 Office 365 帳戶。
   
-如果您的系統管理員帳戶認證變更 Office 365 中，您也需要您已部署每個雲端連接器 appliance 上執行下列系統管理員的 PowerShell 命令來更新雲端連接器中的本機快取的認證：
+如果您的系統管理員帳號憑證變更于 Office 365，您也需要在您已部署的每個雲端連接器裝置上執行下列管理員 PowerShell 命令，以更新雲端連接器中的本機快取認證：
   
 ```powershell
 Set-CcCredential -AccountType TenantAdmin
 ```
 
-## <a name="update-the-password-for-the-host-server"></a>更新主機伺服器的密碼
+## <a name="update-the-password-for-the-host-server"></a>更新主伺服器的密碼
 <a name="BKMK_UpdatePassword"> </a>
 
 > [!NOTE]
-> 此區段可用於雲端連接器第 2.0 版及更新版本。 
+> 本節適用于雲端連接器版本2.0 和更新版本。 
   
-所有雲端連接器認證會都儲存在下列檔案:"%systemdrive%\programdata\cloudconnector\credentials。\<CurrentUser\>.xml 」。 在主機伺服器上的密碼變更時，您必須更新本機已儲存的認證。
+所有雲端連接器認證都儲存在下列檔案中： "%SystemDrive%\Programdata\Cloudconnector\credentials。\<CurrentUser\>.xml "。 當主伺服器上的密碼變更時，您將需要更新本機儲存的認證。
   
-若要更新雲端連接器 appliance 上本機已儲存的認證，使用[Get-CcCredential](get-cccredential.md)和[設定 CcCredential](set-cccredential.md)指令程式，請遵循下列步驟：
+若要在雲端連接器裝置上更新本機儲存的認證，請使用[CcCredential](get-cccredential.md)和[CcCredential](set-cccredential.md)指令程式，然後遵循下列步驟：
   
-1. 執行下列命令，以擷取您稍後需要密碼： 
+1. 執行下列命令，以取得稍後需要的密碼： 
     
-   - 取得 CcCredential-AccountType DomainAdmin DisplayPassword
+   - CcCredential-AccountType DomainAdmin-DisplayPassword
     
-   - 取得 CcCredential-AccountType VMAdmin DisplayPassword
+   - CcCredential-AccountType VMAdmin-DisplayPassword
     
-   - 取得 CcCredential-AccountType CceService DisplayPassword
+   - CcCredential-AccountType CceService-DisplayPassword
     
-2. 變更您在主機伺服器上的帳戶的密碼。
+2. 變更您的帳戶在主伺服器上的密碼。
     
-3. 重新啟動主應用程式伺服器。
+3. 重新開機主機伺服器。
     
-4. 刪除下列檔案:"%systemdrive%\programdata\cloudconnector\credentials。\<CurrentUser\>.xml 」。
+4. 刪除下列檔案： "%SystemDrive%\Programdata\Cloudconnector\credentials。\<CurrentUser\>.xml "。
     
-5. 啟動 PowerShell 主控台，身為管理員，然後再執行 「 註冊 CcAppliance-本機 「 重新輸入密碼描述。 請確定您輸入您所輸入之前的雲端連接器部署相同的密碼。
+5. 以系統管理員身分啟動 PowerShell 主控台，然後執行「Register-CcAppliance-Local」，以在描述之後重新輸入密碼。 請確定輸入的密碼與您在雲端連接器部署之前輸入的密碼相同。
     
-根據預設，VmAdmin 和 DomainAdmin 會使用相同的密碼作為 CceService。 如果步驟 1 中傳回 DomainAdmin、 VMAdmin，以及 CceService 密碼不同，您必須執行下列步驟：
+根據預設，VmAdmin 和 DomainAdmin 會使用與 CceService 相同的密碼。 如果步驟1中傳回的 DomainAdmin、VMAdmin 和 CceService 密碼不同，您必須執行下列步驟：
   
-1. 執行設定 CcCredential AccountType DomainAdmin 如下所示：
+1. 執行 Set-CcCredential-AccountType DomainAdmin，如下所示：
     
-1. 時提示輸入舊的帳戶認證，請輸入您用於 CceService 密碼的認證。
+1. 當系統提示您輸入舊帳號憑證時，請輸入您用於 CceService 密碼的認證。
     
-2. 時提示輸入新的帳戶認證，請在步驟 1 中傳回的 DomainAdmin 密碼輸入密碼。
+2. 當系統提示您輸入新的帳號憑證時，請輸入步驟1中所傳回之 DomainAdmin 密碼的密碼。
     
-2. 執行設定 CcCredential AccountType VmAdmin 如下所示：
+2. 執行 Set-CcCredential-AccountType VmAdmin，如下所示：
     
-1. 時提示輸入舊的帳戶認證，請輸入您用於 CceService 密碼的認證。
+1. 當系統提示您輸入舊帳號憑證時，請輸入您用於 CceService 密碼的認證。
     
-2. 時提示輸入新的帳戶認證，請在步驟 1 中傳回的 VmAdmin 密碼輸入密碼。 
+2. 當系統提示您輸入新的帳號憑證時，請輸入步驟1中所傳回之 VmAdmin 密碼的密碼。 
     
 ## <a name="update-the-password-for-the-cceservice-account"></a>更新 CceService 帳戶的密碼
 <a name="BKMK_UpdatePassword"> </a>
 
 > [!NOTE]
-> 此區段可用於雲端連接器 2.0.1 版及更新版本。 
+> 本節適用于雲端連接器2.0.1 版及更新版本。 
   
-雲端連接器服務會執行雲端連接器管理服務。 CceService 帳戶是在雲端連接器 Edition 部署期間建立並儲存在下列檔案:"%systemdrive%\programdata\cloudconnector\credentials。\<CurrentUser\>.xml 」 和 「 %systemdrive%\programdata\cloudconnector\credentials..CceService.xml 」。
+雲端連接器服務會執行雲端連接器管理服務。 在雲端連接器版本部署期間建立 CceService 帳戶，並儲存在下列檔案中： "%SystemDrive%\Programdata\Cloudconnector\credentials。\<CurrentUser\>.Xml "和"%SystemDrive%\Programdata\Cloudconnector\credentials。。CceService。
   
-若要確保所有設備可以都存取的網站目錄共用，CceService 帳戶的密碼必須部署站台內的所有設備相同。 請記住下列事項：
+為了確保所有裝置都可以存取網站目錄共用，CceService 帳戶的密碼在網站中部署的所有裝置上都必須相同。 請記住下列事項：
   
-- 根據預設，CceService 帳戶已設定為 「 密碼永不過期 」。 當您更新密碼時，Microsoft 建議保持這種組態。
+- 根據預設，CceService 帳戶會設定為「密碼永不到期」。 當您更新密碼時，Microsoft 建議您保留此設定。
     
-- 您應該在非尖峰使用時段和外部的位元或 Windows 更新的 [自動更新時間 windows 更新密碼。 當您更新密碼時，裝置所傳入必須清空並重新啟動，這需要花一些時間。 重新啟動該裝置將會中斷自動更新作業。 
+- 您應該在非峰值使用期間更新密碼，並在自動更新時間範圍外更新 bits 或 Windows 更新。 當您更新密碼時，裝置必須耗盡並重新啟動，這需要一些時間。 重新開機裝置會中斷自動更新作業。 
     
-- 當您變更 CceService 帳戶密碼時，您必須指定所有的認證，並加以更新在本機儲存檔案。 
+- 當您變更 CceService 帳戶密碼時，您必須指定所有的認證，並在本機儲存的檔案中進行更新。 
     
-屬於相同的 PSTN 網站每個 appliance，您必須指定下列項目： 
+針對屬於相同 PSTN 網站的每一個裝置，您必須指定下列各項： 
   
-1. 執行下列命令，以擷取的帳戶名稱和密碼，您將在稍後使用：
+1. 執行下列命令，以取得稍後將使用的帳戶名稱和密碼：
     
    ```powershell
    Get-CcCredential -AccountType TenantAdmin -DisplayPassword
@@ -241,33 +241,33 @@ Set-CcCredential -AccountType TenantAdmin
    Get-CcCredential -AccountType DomainAdmin -DisplayPassword
    ```
 
-2. 執行 redirect-message appliance，並將它移到手動維護模式 Enter CcUpdate cmdlet。
+2. 執行 CcUpdate 指令程式以耗盡裝置，並將其移入手動維護模式。
     
-3. 更新主機伺服器上的 CceService 帳戶的密碼。
+3. 更新主伺服器上 CceService 帳戶的密碼。
     
-4. 重新啟動主應用程式伺服器。
+4. 重新開機主機伺服器。
     
-5. 執行還原 CcCredentials 指令程式重新輸入密碼描述。 
+5. 執行 CcCredentials 指令程式，以在描述之後重新輸入密碼。 
     
-    請確定您輸入您所輸入之前的雲端連接器部署，但不包括 CceService 帳戶相同的密碼。 CceService 帳戶] 中，輸入新的密碼。 請確定 CceService 帳戶的新密碼是相同的 PSTN 站台中的所有設備。
+    請確定輸入的密碼與您在雲端連接器部署之前所輸入的密碼相同，但 CceService 帳戶除外。 若為 CceService 帳戶，請輸入新的密碼。 請確定 CceService 帳戶的新密碼對 PSTN 網站中的所有裝置都是相同的。
     
-6. 根據預設，VmAdmin 和 DomainAdmin 會使用相同的密碼作為 CceService。 如果步驟 1 中傳回 DomainAdmin、 VMAdmin，以及 CceService 密碼不同，您必須執行下列步驟：
+6. 根據預設，VmAdmin 和 DomainAdmin 會使用與 CceService 相同的密碼。 如果步驟1中傳回的 DomainAdmin、VMAdmin 和 CceService 密碼不同，您必須執行下列步驟：
     
-7. 執行設定 CcCredential AccountType DomainAdmin 如下所示：
+7. 執行 Set-CcCredential-AccountType DomainAdmin，如下所示：
     
-   - 時提示輸入舊的帳戶認證，請輸入您用於 CceService 密碼的認證。
+   - 當系統提示您輸入舊帳號憑證時，請輸入您用於 CceService 密碼的認證。
     
-   - 時提示輸入新的帳戶認證，請在步驟 1 中傳回的 DomainAdmin 密碼輸入密碼。
+   - 當系統提示您輸入新的帳號憑證時，請輸入步驟1中所傳回之 DomainAdmin 密碼的密碼。
     
-8. 執行設定 CcCredential AccountType VmAdmin 如下所示：
+8. 執行 Set-CcCredential-AccountType VmAdmin，如下所示：
     
-   - 時提示輸入舊的帳戶認證，請輸入您用於 CceService 密碼的認證。
+   - 當系統提示您輸入舊帳號憑證時，請輸入您用於 CceService 密碼的認證。
     
-   - 時提示輸入新的帳戶認證，請在步驟 1 中傳回的 VmAdmin 密碼輸入密碼。 
+   - 當系統提示您輸入新的帳號憑證時，請輸入步驟1中所傳回之 VmAdmin 密碼的密碼。 
     
-9. 執行結束 CcUpdate cmdlet 來移動裝置所傳入手動維護模式。
+9. 執行 CcUpdate Cmdlet，將裝置移出手動維護模式。
     
-10. 完成這些步驟在相同的 PSTN 站台中的所有設備之後，刪除的網站根目錄中的下列檔案：
+10. 在相同 PSTN 網站中的所有裝置上完成這些步驟之後，請在網站根目錄中刪除下列檔案：
     
     - CcLockFile
     
@@ -277,18 +277,18 @@ Set-CcCredential -AccountType TenantAdmin
     
     - TenantConfigLock_\<Edge 外部 Sip 集區 fqdn\>
     
-## <a name="add-a-new-sip-domain"></a>新增新的 SIP 網域
+## <a name="add-a-new-sip-domain"></a>新增 SIP 網域
 <a name="BKMK_UpdatePassword"> </a>
 
-若要新增您現有的雲端連接器部署新的 SIP 網域 （或多個 SIP 網域），執行下列動作：
+若要將新的 SIP 網域（或多個 SIP 網域）新增至現有的雲端連接器部署，請執行下列操作：
   
-1. 請確定您已完成的步驟來更新 Office 365 中的網域，並有能力新增 DNS 記錄。 如需如何設定 Office 365 中的網域的詳細資訊，請參閱[新增網域至 Office 365](https://support.office.com/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)。
+1. 請確認您已完成在 Office 365 更新您的網域的步驟，並且具備新增 DNS 記錄的能力。 如需如何在 Office 365 中設定網域的相關資訊，請參閱[Add a domain To Office 365](https://support.office.com/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)。
     
-2. 使用新的 SIP 網域] 或 [網域更新雲端連接器組態檔。
+2. 使用新的 SIP 網域或網域更新雲端連接器的設定檔。
     
-3. 要求新的 Edge 外部憑證 sip.domain 每個 SIP 網域雲端連接器組態中所定義的其他 SAN (英文） 名稱。 
+3. 針對您的雲端連接器設定中所定義的每個 SIP 網域，向新的 Edge 外部憑證要求 sip 的其他 SAN 名稱。 
     
-4. 設定新的 Edge 外部憑證的路徑，如下所示：
+4. 設定新 Edge 外部憑證的路徑，如下所示：
     
    ```powershell
    Set-CcExternalCertificateFilePath -Path <Full path to External certificate>
@@ -296,20 +296,20 @@ Set-CcCredential -AccountType TenantAdmin
 
 5. 
     
-    若要[修改的單一站台組態](modify-the-configuration-of-an-existing-cloud-connector-deployment.md#BKMK_SIngleSite)] 或 [[修改的多個站台組態](modify-the-configuration-of-an-existing-cloud-connector-deployment.md#BKMK_MultipleSites)，請遵循指示。
+    依照指示[修改單一網站的](modify-the-configuration-of-an-existing-cloud-connector-deployment.md#BKMK_SIngleSite)設定或[修改多個網站的](modify-the-configuration-of-an-existing-cloud-connector-deployment.md#BKMK_MultipleSites)設定。
     
-## <a name="modify-the-primary-sip-domain"></a>修改的主要 SIP 網域
+## <a name="modify-the-primary-sip-domain"></a>修改主要 SIP 網域
 <a name="BKMK_UpdatePassword"> </a>
 
-如果您要變更定域機組連接器部署中的主要 SIP 網域，請執行下列動作：
+如果您需要在您的雲端連接器部署中變更主要 SIP 網域，請執行下列操作：
   
-1. 請確定您已完成的步驟來更新 Office 365 中的網域，並有能力新增 DNS 記錄。 如需如何設定 Office 365 中的網域的詳細資訊，請參閱[新增網域至 Office 365](https://support.office.com/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)。
+1. 請確認您已完成在 Office 365 更新您的網域的步驟，並且具備新增 DNS 記錄的能力。 如需如何在 Office 365 中設定網域的相關資訊，請參閱[Add a domain To Office 365](https://support.office.com/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)。
     
-2. 使用新的 SIP 網域來更新雲端連接器組態檔。
+2. 使用新的 SIP 網域更新雲端連接器的設定檔。
     
-3. 要求新的 Edge 外部憑證 sip.domain 每個 SIP 網域雲端連接器組態中所定義的其他 SAN (英文） 名稱。 
+3. 針對您的雲端連接器設定中所定義的每個 SIP 網域，向新的 Edge 外部憑證要求 sip 的其他 SAN 名稱。 
     
-4. 設定新的 Edge 外部憑證的路徑，如下所示：
+4. 設定新 Edge 外部憑證的路徑，如下所示：
     
    ```powershell
    Set-CcExternalCertificateFilePath -Path <Full path to External certificate>
@@ -317,7 +317,7 @@ Set-CcCredential -AccountType TenantAdmin
 
 5. 
     
-    移除網站中每個 appliance 的租用戶註冊雲端連接器上系統管理員 PowerShell 中執行下列 cmdlet:
+    在雲端連接器的系統管理員 PowerShell 中執行下列指令程式，以移除網站中每一個裝置的承租人註冊。
     
    ```powershell
    Unregister-CcAppliance
@@ -325,7 +325,7 @@ Set-CcCredential -AccountType TenantAdmin
 
 6. 
     
-    移除的每個網站的網站註冊商務 Online powershell 中 Skype 執行下列 cmdlet:
+    在商務用 Skype Online PowerShell: 中執行下列 Cmdlet，以移除每個網站的網站註冊。
     
    ```powershell
    Remove-CsHybridPSTNSite
@@ -333,7 +333,7 @@ Set-CcCredential -AccountType TenantAdmin
 
 7. 
     
-    解除安裝每個 appliance 雲端連接器上系統管理員 PowerShell 中執行下列 cmdlet:
+    在 Cloud Connector 上的系統管理員 PowerShell 中執行下列 Cmdlet，以卸載每個裝置：
     
    ```powershell
    Uninstall-CcAppliance
@@ -341,7 +341,7 @@ Set-CcCredential -AccountType TenantAdmin
 
 8. 
     
-     登錄每個 appliance 雲端連接器上系統管理員 PowerShell 中執行下列 cmdlet:
+     在 Cloud Connector 上的系統管理員 PowerShell 中執行下列 Cmdlet，以登錄每個裝置：
     
    ```powershell
    Register-ccAppliance
@@ -349,18 +349,18 @@ Set-CcCredential -AccountType TenantAdmin
 
 9. 
     
-     安裝每個 appliance，一個接著一個，藉由雲端連接器上系統管理員 PowerShell 中執行下列 cmdlet:
+     逐個安裝每一個裝置，在雲端連接器的系統管理員 PowerShell 中執行下列 Cmdlet：
     
    ```powershell
    Install-CcAppliance
    ```
 
-## <a name="replace-the-external-edge-certificate-with-a-new-certificate"></a>外部邊緣憑證取代為新的憑證
+## <a name="replace-the-external-edge-certificate-with-a-new-certificate"></a>以新憑證取代外部 Edge 憑證
 <a name="BKMK_UpdatePassword"> </a>
 
-當您要取代上您雲端連接器設備的外部邊緣憑證時，您必須取得新的邊緣憑證，準備 PFX 檔案包含私密金鑰及整個憑證鏈結，然後執行下列每個 appliance 上：
+當您需要取代雲端連接器裝置上的外部 Edge 憑證時，您必須取得新的 Edge 憑證，準備包含私密金鑰和完整憑證鏈的 PFX 檔案，然後在每個裝置上執行下列動作：
   
-1. 使用 Enter CcUpdate 指令程式會處於維護模式裝置所傳入。
+1. 使用 Enter-CcUpdate 指令程式，讓裝置進入維護模式。
     
 2. 執行下列命令： 
     
@@ -370,8 +370,8 @@ Set-CcCredential -AccountType TenantAdmin
 
 3. 
     
-    如果舊的相同新憑證的密碼，匯入將會成功。 如果密碼不同，您會收到錯誤，密碼錯誤，且您想要執行註冊 CcAppliance 指令程式重設密碼使用-Local 參數，，然後重複步驟 2。 
+    如果新憑證的密碼與舊憑證相同，則匯入將會成功。 如果密碼不同，您會收到錯誤，指出密碼錯誤，您必須使用-Local 參數執行 CcAppliance Cmdlet 來重設密碼，然後重複步驟2。 
     
-4. 需要裝置所傳入退出維護模式使用 Exit CcUpdate 指令程式。
+4. 使用 CcUpdate 指令程式，讓裝置停止維護模式。
     
 

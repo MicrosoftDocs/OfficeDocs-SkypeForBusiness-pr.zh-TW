@@ -21,12 +21,12 @@ ms.custom:
 - ms.lync.lac.MeetingInvitation
 - ms.teamsadmincenter.meetingsettings.invitationurls
 description: '使用圖形標誌、說明與合法 Url 以及頁尾文字自訂 Skype 會議邀請。 '
-ms.openlocfilehash: b30c31d3e109fa36e49665c19a7aaebad581c7cc
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: 41ed423349ff34f27a164b4d9c652571241b1afb
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769636"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776228"
 ---
 # <a name="customize-meeting-invitations"></a>自訂會議邀請
 
@@ -41,14 +41,14 @@ ms.locfileid: "41769636"
     
 3. 將影像儲存在您企業中的每個人都可以存取的中央位置，例如網路共用、共用的商務用 OneDrive 資料夾、Dropbox 等。
     
-    現在，您可以將它新增到會議邀請。 請參閱後續步驟。
+    現在您可以將它新增至會議邀請。 請參閱後續的步驟。
     
-## <a name="customize-your-meeting-invitations"></a>自訂會議邀請
+## <a name="customize-your-meeting-invitations"></a>自訂您的會議邀請
 <a name="__top"> </a>
 
-![](../images/sfb-logo-30x30.png) **使用商務用 skype 系統管理中心**顯示商務用 skype 標誌的圖示
+![商務用 Skype 標誌圖示](../images/sfb-logo-30x30.png) **使用商務用 Skype 系統管理中心**
 
-1. 使用您的公司或學校帳戶登入 Office 365。
+1. 使用您的公司或學校帳戶登入。
     
 2. 在系統管理中心，選擇 [系統管理中心] 的 [**管理員中心** > **]。**
     

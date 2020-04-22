@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 3c93e01624883d9db755479baf6e87c80feba2e1
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 6c57ebda3d23135beb46febf13529b903958df6b
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139592"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780622"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>將 Microsoft StaffHub 小組移至 Microsoft 團隊中的倒班
 
@@ -78,7 +78,7 @@ ms.locfileid: "43139592"
 
 - 已登入的使用者是全域系統管理員。
 - 已針對租使用者中的所有使用者啟用團隊。
-- 已在租使用者啟用 Office 365 群組建立。
+- 已在租使用者啟用 Microsoft 365 群組建立。
 - StaffHub teamId 是有效的。
 - StaffHub 小組至少有一個團隊擁有者。
 - StaffHub 小組包含成員。
@@ -140,7 +140,7 @@ $InvitedUsersObject | SELECT * | export-csv InvitedUsers.csv -NoTypeInformation
 
 #### <a name="link-the-account"></a>連結帳戶
 
-請執行下列其中一項操作：
+執行下列其中一項動作：
 
 - 轉換及連結帳戶。
 

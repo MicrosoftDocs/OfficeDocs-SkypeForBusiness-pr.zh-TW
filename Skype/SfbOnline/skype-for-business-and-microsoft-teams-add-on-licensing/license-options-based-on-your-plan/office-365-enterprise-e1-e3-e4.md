@@ -21,12 +21,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: '瞭解附加元件授權、功能，以及如何購買 Office 365 企業版、E1、E3 和 E4 方案。 '
-ms.openlocfilehash: 79a803061acfd4550c75871c08f40b16ee2f8e2b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 8000a71c52c03d82c8d01c92601be01d48db04dd
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010586"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777958"
 ---
 # <a name="office-365-enterprise-e1-e3-and-e4"></a>Office 365 企業版 E1、E3 及 E4
 
@@ -71,8 +71,8 @@ E3 方案是您的動作套件的一部分。 若要購買 [**電話系統**] �
 
 在幾種情況下，您不會在 Microsoft 365 系統管理中心看到購買商務用 Skype 附加元件的選項。
 
-- **您是透過 GoDaddy 購買 Office 365 Business Premium**。 在這種情況下，您無法購買商務用 Skype 附加元件。 您必須切換到 E3 方案（不銷售的 GoDaddy），然後才能購買。 [客戶支援部門-系統管理協助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
+- **您是透過 GoDaddy 購買 Microsoft 365 商務標準**。 在這種情況下，您無法購買商務用 Skype 附加元件。 您必須切換到 E3 方案（不銷售的 GoDaddy），然後才能購買。 [請連絡商務產品的客戶支援 - 管理說明](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
 
-- **您有每月承諾，而不是年度承諾**。 在某些情況下，每月承諾的客戶都無法購買附加元件（這與付款條件不同）。 這是我們修正的已知問題。 [客戶支援部門-系統管理協助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
+- **您有每月承諾，而不是年度承諾**。 在某些情況下，每月承諾的客戶都無法購買附加元件（這與付款條件不同）。 這是我們修正的已知問題。 [請連絡商務產品的客戶支援 - 管理說明](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
 
     ![購買附加元件可能需要一年的承諾。](../../images/164579c2-f4df-4ae0-bd1d-bff12addb500.png)

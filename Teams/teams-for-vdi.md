@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ee41f32ac2237e5e2c6e2e92fd18ea1c1952f7cd
-ms.sourcegitcommit: df4dde0fe6ce9e26cb4b3da4e4b878538d31decc
+ms.openlocfilehash: 43adfb71c287677a6390d371a05bd1aea35ceda3
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43521609"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779982"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>適用於虛擬桌面架構的 Teams
 
@@ -106,27 +106,27 @@ Citrix 虛擬 App 與桌上型電腦（先前稱為 XenApp 和 XenDesktop）為 
 - .txt 檔案
 - 媒體堆疊資料夾
 
-### <a name="office-365-proplus-considerations"></a>Office 365 專業增強版考慮
+### <a name="microsoft-365-apps-for-enterprise-considerations"></a>適用于企業考慮的 Microsoft 365 應用程式
 
-在 VDI 上使用 Office 365 專業增強版部署團隊時，請考慮下列事項。
+當您使用 VDI 上的企業版 Microsoft 365 應用程式部署團隊時，請考慮下列事項。
 
-#### <a name="new-deployments-of-teams-through-office-365-proplus"></a>透過 Office 365 專業增強版新的團隊部署
+#### <a name="new-deployments-of-teams-through-microsoft-365-apps-for-enterprise"></a>透過企業版 Microsoft 365 應用程式的新部署團隊
 
-在透過 Office 365 專業增強版部署團隊之前，您必須先卸載任何預先存在的團隊應用程式（如果這些 app 是使用各電腦安裝來部署的）。
+在透過企業版 Microsoft 365 應用程式部署團隊前，您必須先卸載任何預先存在的團隊應用程式（如果它們是使用各電腦安裝來部署）。
 
-透過 Office 365 專業增強版的團隊是針對每位使用者所安裝。 若要深入瞭解，請參閱[安裝或更新 VDI 區段上的小組桌面應用程式](#install-or-update-the-teams-desktop-app-on-vdi)。
+團隊透過適用于企業的 Microsoft 365 應用程式是針對每位使用者安裝的。 若要深入瞭解，請參閱[安裝或更新 VDI 區段上的小組桌面應用程式](#install-or-update-the-teams-desktop-app-on-vdi)。
 
-#### <a name="teams-deployments-through-office-365-proplus-updates"></a>透過 Office 365 專業增強版更新的團隊部署
+#### <a name="teams-deployments-through-microsoft-365-apps-for-enterprise-updates"></a>透過適用于企業更新的 Microsoft 365 應用程式部署團隊
 
-團隊也會新增至 Office 365 專業增強版的現有安裝。 由於 Office 365 專業增強版只會針對每位使用者安裝小組，請參閱[安裝或更新 VDI 區段上的小組桌面應用程式](#install-or-update-the-teams-desktop-app-on-vdi)。
+團隊也會新增至企業版 Microsoft 365 應用程式的現有安裝。 由於 [企業版 Microsoft 365 應用程式] 只會針對每位使用者安裝小組，請參閱在[VDI 上安裝或更新小組桌面應用程式](#install-or-update-the-teams-desktop-app-on-vdi)。
 
-#### <a name="using-teams-with-per-machine-installation-and-office-365-proplus"></a>使用團隊進行每電腦安裝和 Office 365 專業增強版
+#### <a name="using-teams-with-per-machine-installation-and-microsoft-365-apps-for-enterprise"></a>使用團隊進行每電腦安裝和適用于企業的 Microsoft 365 應用程式
 
-Office 365 專業增強版不支援小組的每電腦安裝。 若要使用 [每電腦安裝]，您必須從 Office 365 專業增強版中排除團隊。 請參閱將[團隊桌面應用程式部署到 VM](#deploy-the-teams-desktop-app-to-the-vm) ，以及[如何透過 Office 365 專業增強版區段排除團隊部署](#how-to-exclude-teams-deployment-through-office-365-proplus)。
+適用于企業的 Microsoft 365 應用程式不支援小組的每電腦安裝。 若要使用 [每電腦安裝]，您必須從適用于企業的 Microsoft 365 App 中排除團隊。 請參閱將[團隊傳統型應用程式部署至 VM](#deploy-the-teams-desktop-app-to-the-vm) ，以及[如何透過適用于企業的 Microsoft 365 應用程式排除團隊部署](#how-to-exclude-teams-deployment-through-microsoft-365-apps-for-enterprise)。
 
-#### <a name="how-to-exclude-teams-deployment-through-office-365-proplus"></a>如何透過 Office 365 專業增強版排除團隊部署
+#### <a name="how-to-exclude-teams-deployment-through-microsoft-365-apps-for-enterprise"></a>如何透過適用于企業的 Microsoft 365 應用程式排除團隊部署
 
-若要深入瞭解團隊和 Office 365 專業增強版，請參閱[如何從新安裝的 Office 365 專業增強版中排除團隊](https://docs.microsoft.com/DeployOffice/teams-install#how-to-exclude-microsoft-teams-from-new-installations-of-office-365-proplus)，並[使用群組原則來控制團隊的安裝](https://docs.microsoft.com/DeployOffice/teams-install#use-group-policy-to-control-the-installation-of-microsoft-teams)。
+若要深入瞭解團隊和適用于企業的 Microsoft 365 應用程式，請參閱[如何將團隊從新安裝的企業版 microsoft 365 應用程式中排除](https://docs.microsoft.com/DeployOffice/teams-install#how-to-exclude-microsoft-teams-from-new-installations-of-office-365-proplus)，並[使用群組原則來控制團隊的安裝](https://docs.microsoft.com/DeployOffice/teams-install#use-group-policy-to-control-the-installation-of-microsoft-teams)。
 
 ### <a name="deploy-the-teams-desktop-app-to-the-vm"></a>將團隊桌面應用程式部署到 VM
 

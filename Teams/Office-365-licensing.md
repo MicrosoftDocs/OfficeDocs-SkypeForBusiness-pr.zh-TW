@@ -1,5 +1,5 @@
 ---
-title: Microsoft 團隊的 Office 365 授權
+title: Microsoft 團隊適用的 microsoft 365 和 Office 365 授權
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -19,24 +19,24 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d0a6c14c3fba7e5a303200499c4d158edfb56473
-ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
+ms.openlocfilehash: 5b3dcb5b7859c491470c274b5700eae32b2ac274
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43170361"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778569"
 ---
-<a name="office-365-licensing-for-microsoft-teams"></a>Microsoft 團隊的 Office 365 授權
-========================================
+<a name="microsoft-365-and-office-365-licensing-for-microsoft-teams"></a>Microsoft 團隊適用的 microsoft 365 和 Office 365 授權
+==========================================================
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-下列 Office 365 訂閱可讓使用者使用團隊。
+下列 Microsoft 365 和 Office 365 訂閱可讓使用者使用小組。
 
 |小型企業方案  |企業方案  |教育方案  |開發人員計畫 |
 |---------|---------|---------|---------|
-|Office 365 商務基本版     |Office 365 Enterprise E1  |Office 365 教育版 |Office 365 開發人員     |
-|Office 365 商務進階版     |Office 365 企業版 E3         |Office 365 教育版 Plus         |      |
+|Microsoft 365 商務版基本版     |Office 365 Enterprise E1  |Office 365 教育版 |Office 365 開發人員     |
+|Microsoft 365 商務標準版     |Office 365 企業版 E3         |Office 365 教育版 Plus         |      |
 |商務用 Microsoft 365     |Office 365 企業版 E4 （已停用）         |Office 365 教育版 E3 （已停用）         |  |
 |     |Office 365 企業版 E5         |Office 365 教育版 E5  | 
 |     |Office 365 企業版 F1 |    |     | 
@@ -52,7 +52,7 @@ ms.locfileid: "43170361"
 > [!NOTE]
 > 如果應用程式中的商務用 Skype Online 列在已選取的授權，請勿將它移除。 如果清單並移除，小組使用者設定將無法順利完成。
         
-就小組核心功能而言，Office 365 訂閱之間沒有任何差異。 相容性功能的可用性不依賴正確的訂閱等級。 若要深入瞭解，請參閱[小組中安全性與合規性的概覽](security-compliance-overview.md)。 如需每個訂閱中可用功能的詳細清單，請參閱[Office 365 平臺服務說明](https://technet.microsoft.com/library/office-365-platform-service-description.aspx)。
+就團隊核心功能而言，訂閱之間沒有任何差異。 相容性功能的可用性不依賴正確的訂閱等級。 若要深入瞭解，請參閱[小組中安全性與合規性的概覽](security-compliance-overview.md)。 如需每個訂閱中可用功能的詳細清單，請參閱[Office 365 平臺服務說明](https://technet.microsoft.com/library/office-365-platform-service-description.aspx)。
 
 **雲端語音功能**：對於音訊會議，您的組織將需要購買並指派音訊會議授權給每個將設定撥入會議的使用者。 針對通話方案，每個使用者都會需要一個電話系統加上國內或國內和國際通話方案。 若要深入瞭解，請參閱[Microsoft 團隊附加元件授權](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
 

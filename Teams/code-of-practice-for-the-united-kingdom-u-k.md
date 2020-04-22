@@ -1,5 +1,5 @@
 ---
-title: 英國的練習準則 -Office 365 通話方案
+title: 英國的練習準則 -Microsoft 365 通話方案
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -23,14 +23,14 @@ ms.custom:
 - seo-marvel-mar2020
 hideEdit: true
 description: 瞭解商務用 Skype UK 的 PSTN 通話方案程式碼，包括在何處取得協助，以及如何提交投訴及解決糾紛。
-ms.openlocfilehash: ef69d726ab40a4eb282422ab549961776c985ef1
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 064d6961289a7874e9e67843c0cf47339c64f896
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139042"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779629"
 ---
-# <a name="calling-plans-in-office-365---code-of-practice-for-the-united-kingdom-uk"></a>Office 365 通話方案-英國的練習準則（英國）
+# <a name="calling-plans-in-microsoft-365---code-of-practice-for-the-united-kingdom-uk"></a>Microsoft 365 中的通話方案-英國的練習準則（英國）
 
 這段程式碼適用于英國（英國）的小型企業客戶（含10名員工或較少10名員工），且根據英國通訊管理法規，以 Office 365 通話方案服務（"服務"）為依據。 其他商務用 Skype 服務是由您的服務合約所管轄，以及適用于您使用特定服務的任何其他條款。
 

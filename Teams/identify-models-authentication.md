@@ -18,12 +18,12 @@ description: 瞭解 Microsoft 團隊（例如雲端、同步處理及同盟）�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a58dcdae704be7ccdaefe1e2bca3b4978f4a10f9
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 75020dfd414e6990f1a3a07ec6f1506ebc9f2f89
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139292"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776878"
 ---
 <a name="identity-models-and-authentication-in-microsoft-teams"></a>Microsoft 團隊中的身分識別模型與驗證
 ==========================================
@@ -44,8 +44,8 @@ Microsoft 團隊支援 Office 365 提供的所有身分識別模型。 支援的
 
 |身分識別模型 |部署檢查清單  |其他資訊  |
 |---------|---------|---------|
-|* All     |<ol type="1"><li>比較 Office 365 方案選項並取得訂閱</li><li>建立 Office 365 租使用者</li><li>將 Office 365 授權指派給租使用者</li><li>設定網域和系統管理員使用者</li><li>繼續使用身分識別模型的特定指示</li></ol>          |<ul style="list-style-type:none"><li>[Office 365 方案選項](https://technet.microsoft.com/library/office-365-plan-options.aspx)</li><li>[比較 Office 365 商務方案](https://go.microsoft.com/fwlink/?linkid=854617)</li><li>[購買商務用 Office 365 訂閱的授權](https://support.office.com/article/Buy-licenses-for-your-Office-365-for-business-subscription-36081d8d-b3fa-4948-8c34-e217bba825e1)</li><li>[新增授權至訂閱](https://support.office.com/article/Add-licenses-to-a-subscription-paid-for-using-a-product-key-4fb4bd7e-3920-4ce0-98fb-0c06e3fedf53)</li><li>[設定商務用 Office 365](https://support.office.com/Article/set-up-Office-365-for-business-6a3a29a0-e616-4713-99d1-15eda62d04fa)</li><li>[使用 [設定] 嚮導新增使用者和網域](https://support.office.com/article/Add-users-and-domain-with-the-setup-wizard-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)</li><li>注意：如果您需要協助，可使用[Microsoft Office 365 團隊的 Microsoft FastTrack](https://go.microsoft.com/fwlink/?linkid=854618) 。</li></ul>          |
-|雲端身分識別     |<ol type="1"><li>使用 Office 365 系統管理入口網站建立使用者</li></ol>           |<ul style="list-style-type:none"><li>[個別或大量將使用者新增至 Office 365](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec)</li></ul>         |
+|* All     |<ol type="1"><li>比較 Office 365 方案選項並取得訂閱</li><li>建立 Office 365 組織</li><li>將 Office 365 授權指派給租使用者</li><li>設定網域和系統管理員使用者</li><li>繼續使用身分識別模型的特定指示</li></ol>          |<ul style="list-style-type:none"><li>[Office 365 方案選項](https://technet.microsoft.com/library/office-365-plan-options.aspx)</li><li>[比較 Microsoft 365 App for business 方案](https://go.microsoft.com/fwlink/?linkid=854617)</li><li>[購買商務用 Office 365 訂閱的授權](https://support.office.com/article/Buy-licenses-for-your-Office-365-for-business-subscription-36081d8d-b3fa-4948-8c34-e217bba825e1)</li><li>[新增授權至訂閱](https://support.office.com/article/Add-licenses-to-a-subscription-paid-for-using-a-product-key-4fb4bd7e-3920-4ce0-98fb-0c06e3fedf53)</li><li>[設定商務用 Office 365](https://support.office.com/Article/set-up-Office-365-for-business-6a3a29a0-e616-4713-99d1-15eda62d04fa)</li><li>[使用 [設定] 嚮導新增使用者和網域](https://support.office.com/article/Add-users-and-domain-with-the-setup-wizard-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)</li><li>注意：如果您需要協助，可使用[Microsoft Office 365 團隊的 Microsoft FastTrack](https://go.microsoft.com/fwlink/?linkid=854618) 。</li></ul>          |
+|雲端身分識別     |<ol type="1"><li>使用 Microsoft 365 系統管理中心建立使用者</li></ol>           |<ul style="list-style-type:none"><li>[個別或大量將使用者新增至 Office 365](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec)</li></ul>         |
 |已同步身分識別     |<ol type="1"><li>安裝 Azure AD Connect</li><li>設定目錄同步處理</li><li>使用內部部署的 Active Directory 管理工具建立使用者</li></ol>         |<ul style="list-style-type:none"><li>[設定 Office 365 的目錄同步處理](https://support.office.com/article/Set-up-directory-synchronization-for-Office-365-1b3b5318-6977-42ed-b5c7-96fa74b08846)</li><li>注意：必須同步處理 Office 365 的密碼雜湊，才能執行驗證。</li></ul>         |
 |同盟身分識別    |<ol type="1"><li>安裝 Azure AD Connect</li><li>設定目錄同步處理</li><li>安裝和設定聯合身分識別提供者（建議使用 ADFS）</li><li>使用內部部署的 Active Directory 管理工具建立使用者</li></ol>           |<ul style="list-style-type:none"><li>[設定 Office 365 的目錄同步處理](https://support.office.com/article/Set-up-directory-synchronization-for-Office-365-1b3b5318-6977-42ed-b5c7-96fa74b08846)</li><li>[規劃您的 AD FS 部署](https://go.microsoft.com/fwlink/?linkid=854619)</li><li>[檢查清單：部署您的同盟伺服器群](https://go.microsoft.com/fwlink/?linkid=854620)</li><li>[針對 AD FS 設定外部網路存取](https://go.microsoft.com/fwlink/?linkid=854621)</li><li>[在 AD FS 與 Azure AD 之間設定信任關係](https://go.microsoft.com/fwlink/?linkid=854622)</li><li>[使用 ADFS 驗證及管理單一登入](https://go.microsoft.com/fwlink/?linkid=854624)</li><li>[Azure AD 同盟相容性清單](https://go.microsoft.com/fwlink/?linkid=854625)</li><li>注意：密碼雜湊不需要同步處理到 Azure Active Directory。</li></ul>         |
 
@@ -56,7 +56,7 @@ Microsoft 團隊支援 Office 365 提供的所有身分識別模型。 支援的
 
 Office 365 方案支援多重要素驗證（MFA），可增加 Office 365 服務的使用者登錄安全性。 透過 MFA for Office 365，使用者正確輸入其密碼之後，就必須確認電話撥、短訊息或代理程式更新。 只有在滿足這個第二個驗證因素之後，使用者才能登入。
 
-任何包含 Microsoft 團隊的 Office 365 方案都支援多重要素驗證。 以下是包含 Microsoft 團隊的 Office 365 訂閱者案將在下文的 [授權] 區段中討論。
+任何包含 Microsoft 團隊的 Microsoft 365 或 Office 365 方案都支援多重要素驗證。 下面將在 [授權] 區段中討論包含 Microsoft 團隊的訂閱者案。
 
 當使用者登入 MFA 之後，下次使用者登入時，會看到一則訊息，要求他們設定其第二個驗證因數。 支援的驗證方法如下：
 

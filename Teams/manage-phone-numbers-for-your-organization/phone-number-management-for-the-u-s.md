@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 您可以在此表格中尋找有關取得與管理 Microsoft 團隊之美國（包括波多黎各）電話號碼的相關資訊。
-ms.openlocfilehash: a3c94b4e091529fdc2fa3389b3b0155f5bf118d9
-ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
+ms.openlocfilehash: af8d93eabd8c4b033918ab7bce7e4c1fc9ab6d3d
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42417628"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778389"
 ---
 # <a name="phone-number-management-for-the-us"></a>美國的電話號碼管理
 
@@ -40,7 +40,7 @@ ms.locfileid: "42417628"
 |取得 Microsoft 團隊系統管理中心未列出的新服務電話號碼。 <br/> |針對美國境內的服務電話，請[下載此表單](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-numbers-inside-the-u.s.-(service-numbers)-(v.1.0)-(en-us).pdf?raw=true)並填入，然後[將它傳送給我們](mailto:gcstnmsd@microsoft.com)。
 |取得傳送給我們的電話號碼。  <br/> | 下載下列其中一個表單： <br/> [美國（使用者和服務號碼）的授權（LOA）（英文）（us-ascii）（zh-cn）](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.s.-(user-and-service-numbers)-(v.3.2)-(en-us).pdf?raw=true)<br/>[美國的授權（LOA）（免費電話號碼）（華南）（zh-cn）](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/Letter-of-authorization-(loa)-for-the-u.s.-(toll-free-numbers)-(v.3.2)-(en-us).pdf?raw=true)<br/><br/>**注意：** 如果您嘗試取得超過999的訂閱者或使用者電話號碼，您必須填寫一份授權信（LOA），並將其傳送給我們。 如需詳細資訊，請參閱[將電話號碼轉接至團隊](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md)。          <br/>  <br/>   填寫並[傳送給我們](mailto:ptn@microsoft.com)。  <br/> |
 |將使用者的號碼變更為服務號碼。  <br/> |[傳送](mailto:ptn@microsoft.com)您的 PIN 及您想要轉換成服務號碼的使用者號碼清單。 若要設定 PIN，請移至[這裡](/skypeforbusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider)。  <br/> |
-|從一個 Office 365 組織傳送數位至另一個。  <br/> |傳送您想要[轉移的使用者](mailto:ptn@microsoft.com)（訂閱者）電話號碼清單，以及您要從中轉移號碼之來源組織的 PIN。 若要設定 PIN，請移至[這裡](/skypeforbusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider)。  <br/> |
+|將號碼從一個 Microsoft 365 或 Office 365 轉移到另一個。  <br/> |傳送您想要[轉移的使用者](mailto:ptn@microsoft.com)（訂閱者）電話號碼清單，以及您要從中轉移號碼之來源組織的 PIN。 若要設定 PIN，請移至[這裡](/skypeforbusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider)。  <br/> |
 |||
    
 ## <a name="related-topics"></a>相關主題 

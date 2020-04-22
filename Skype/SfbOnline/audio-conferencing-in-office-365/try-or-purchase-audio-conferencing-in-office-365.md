@@ -1,5 +1,5 @@
 ---
-title: 在商務用 Skype Online 的 Office 365 中試用或購買音訊會議
+title: 在 Microsoft 365 或 Office 365 中試用或購買商務用 Skype Online 的音訊會議
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,24 +21,24 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '瞭解如何試用或購買 Office 365 的音訊會議（PSTN 會議）授權，以設定人員可以撥入的電話會議。 '
-ms.openlocfilehash: d2ae202cbed7c59876ea04c9d3a5760d6495898d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: d5afdc88b4d3c891b66ef3d4fce3860a648db488
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010956"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776768"
 ---
-# <a name="try-or-purchase-audio-conferencing-in-office-365-for-skype-for-business-online"></a>在商務用 Skype Online 的 Office 365 中試用或購買音訊會議
+# <a name="try-or-purchase-audio-conferencing-in-microsoft-365-or-office-365-for-skype-for-business-online"></a>在 Microsoft 365 或 Office 365 中試用或購買商務用 Skype Online 的音訊會議
 
 > [!Note]
 > 如需 Microsoft 團隊中音訊會議的相關資訊，請參閱[在 Microsoft 團隊版 Skype 的 Office 365 中試用或購買音訊會議](/MicrosoftTeams/try-or-purchase-audio-conferencing-in-office-365-for-teams)。
 
 
-有時候貴組織中的人員必須使用電話撥入會議。 商務用 Skype 包括音訊會議功能，只適用于這種情況！ 使用者可以使用電話撥入商務用 Skype 會議，而不是在行動裝置或電腦上使用商務用 Skype 應用程式。
+貴組織內的人員有時會需要透過電話來加入會議。 商務用 Skype 包括音訊會議功能，只適用于這種情況！ 使用者可以使用電話撥入商務用 Skype 會議，而不是在行動裝置或電腦上使用商務用 Skype 應用程式。
 
 您只需要為規劃排程或領導會議的人員設定音訊會議。 在會議中呼叫會議的出席者不需要獲指派任何授權，也不需要其他設定。
 
-如需定價資訊，請參閱[音訊會議的價格](https://products.office.com/skype-for-business/audio-conferencing#Requirements)。
+如需定價資訊，請參閱[音訊會議的定價](https://products.office.com/skype-for-business/audio-conferencing#Requirements)。
 
 ## <a name="step-1-buy-and-assign-audio-conferencing-licenses"></a>步驟1：購買並指派音訊會議授權
 

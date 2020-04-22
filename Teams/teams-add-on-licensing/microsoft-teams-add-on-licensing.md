@@ -21,12 +21,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 瞭解附加元件授權、每個授權可取得的功能、如何為您的產品購買授權、如何搭配現有電信業者使用授權。
-ms.openlocfilehash: 10f8b8d0af5c0c70d68c6fbdba561b15af41f64b
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 93d3ea0637063a2422871ba82e037c8f01e36299
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140816"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780512"
 ---
 # <a name="microsoft-teams-add-on-licensing"></a>Microsoft Teams 附加元件授權
 
@@ -65,8 +65,8 @@ Microsoft Teams 授權的設計是為了提供您最大的彈性。 例如，使
 
 您可以使用的附加元件授權選項取決於您的 Office 365 方案。 請參閱下列主題，瞭解不同方案的資訊、功能及選項。
 
-- [Office 365 商務進階版](office-365-business-premium.md)
-- [Office 365 專業增強版](office-365-premium-pro-plus.md)
+- [Microsoft 365 商務標準版](office-365-business-premium.md)
+- [適用于企業的 Microsoft 365 應用程式](office-365-premium-pro-plus.md)
 - [Office 365 企業版 E1 或 E3](office-365-enterprise-e1-e3.md)
 - [Office 365 企業版 E5](office-365-enterprise-e5-with-audio-conferencing.md)
 - [Office 365 企業版 E5 (不含音訊會議)](office-365-enterprise-e5-without-audio-conferencing.md)

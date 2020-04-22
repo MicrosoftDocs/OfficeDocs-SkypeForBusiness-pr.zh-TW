@@ -19,12 +19,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: 如何為加拿大的 IP 中繼帳戶 sigh。
-ms.openlocfilehash: 9dda43f5489b63918142aff4c2c111f4471b958b
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: f4aedc3f90aeaf8888ef24609cdc31068e2ad030
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41693108"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778749"
 ---
 # <a name="ip-relay-in-canada---sign-up"></a>加拿大 IP 轉送 - 註冊
 
@@ -33,8 +33,8 @@ ms.locfileid: "41693108"
 |||
 |:-----|:-----|
 |首先 & 姓氏：||
-|Office 365 租使用者網功能變數名稱稱： <br/>（範例： Contoso.com）||
-|Office 365 使用者電話號碼： <br/>範例： + 1 XXX XXX XXXX） ||
+|Microsoft 365 或 Office 365 組織的功能變數名稱： <br/>（範例： Contoso.com）||
+|Microsoft 365 或 Office 365 使用者電話號碼： <br/>範例： + 1 XXX XXX XXXX） ||
 |密碼（8到16個字元）： ||
 |最可能的實際位址 <br/>緊急時：||
 |街道號碼 & 名稱：||
@@ -43,7 +43,7 @@ ms.locfileid: "41693108"
 |省/市/自治區：||
 |郵遞區號/郵遞區號：||
 |電話號碼：||
-|Office 365 電子郵件地址：||
+|Microsoft 365 或 Office 365 電子郵件地址：||
 |||
 
 > [!NOTE]

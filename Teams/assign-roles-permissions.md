@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f411de7f0c373e82b450cd41b828fd591777311b
-ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
+ms.openlocfilehash: ba628bf3f58523dc37e2273b437f22af1a0ebc19
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42978455"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778929"
 ---
 <a name="assign-team-owners-and-members-in-microsoft-teams"></a>在 Microsoft 團隊中指派小組擁有者和成員
 =================================================
@@ -44,7 +44,7 @@ ms.locfileid: "42978455"
 | **編輯標準頻道名稱/描述** |    是     |    是<sup>2</sup>|
 |        **刪除標準頻道**         |    是     |    是<sup>2</sup>|
 |          ***新增私人頻道**          |    是     |    是<sup>2</sup>|
-| ***編輯私人頻道名稱/描述** |    否     |    不適用|
+| ***編輯私人頻道名稱/描述** |    否     |    N/A|
 |        ***刪除私人頻道**         |    是     |    否|
 |          **新增成員**          |  是<sup>3</sup>   |     無<sup>4</sup>    |
 |          **要求新增成員**          |  不適用   |     是<sup>5</sup>     |
@@ -75,10 +75,10 @@ ms.locfileid: "42978455"
 
 ## <a name="permissions-to-create-teams"></a>建立小組的許可權
 
-根據預設，所有在 Exchange Online 中擁有信箱的使用者，都有權建立 Office 365 群組，進而成為 Microsoft 團隊內的小組。 您可以透過將群組建立與管理許可權委派給一組使用者，讓您更嚴密地控制和限制新團隊的建立，進而建立新的 Office 365 群組。 如需相關指示，請參閱[管理可建立 Office 365 群組的人員](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618)。
+根據預設，所有在 Exchange Online 中擁有信箱的使用者，都有權建立 Microsoft 365 群組，進而成為 Microsoft 團隊內的小組。 您可以透過將群組建立與管理許可權委派給一組使用者，讓您更嚴密地控制和限制新團隊的建立，從而建立新的 Microsoft 365 群組。 如需相關指示，請參閱[管理可以建立 Microsoft 365 群組的人員](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618)。
 
 
 ||||
 |---------|---------|---------|
 | ![代表決策點的圖示](media/Assign_roles_and_permissions_in_Microsoft_Teams_image2.png)     |決策點         |所有 Microsoft 團隊使用者都可以建立小組（建議使用）嗎？         |
-| ![代表後續步驟的圖示](media/Assign_roles_and_permissions_in_Microsoft_Teams_image3.png)    |後續步驟         |修改誰能建立 Office 365 群組的預設許可權（如果您需要限制誰可以建立團隊）         |
+| ![代表後續步驟的圖示](media/Assign_roles_and_permissions_in_Microsoft_Teams_image3.png)    |後續步驟         |修改誰可以建立 Microsoft 365 群組的預設許可權（如果您需要限制誰可以建立團隊）         |

@@ -23,16 +23,16 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 瞭解如何設定商務用 Skype 針對貴組織的預設語音信箱問候語使用另一種語言。
-ms.openlocfilehash: 1fb9a97c31e973d6a56da65d301324b1d9d34b90
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: 5cff20da14dac942527b8b667731c24a47f0cf29
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 04/22/2020
-ms.locfileid: "43752340"
+ms.locfileid: "43780362"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>變更問候語和電子郵件的預設語言
 
-如果您是[Office 365 全域系統管理員](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)，您可以設定商務用 Skype，以另一種語言播放預設的語音信箱問候語。 預設的系統問候語就像「請留言給張三張。 音調之後，請錄製您的訊息。 錄製完畢後，請掛斷，或按井井號鍵以取得更多選項。 
+如果您是[全域系統管理員](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)，您可以設定商務用 Skype，以另一種語言播放預設的語音信箱問候語。 預設的系統問候語就像「請留言給張三張。 音調之後，請錄製您的訊息。 錄製完畢後，請掛斷，或按井井號鍵以取得更多選項。 
   
  **首先，請閱讀下列重要資訊：**
   
@@ -49,7 +49,7 @@ ms.locfileid: "43752340"
     
 ## <a name="change-the-system-language-for-everyone-in-your-organization"></a>變更組織中每個人的系統語言
 
-1. 使用您的[Office 365 全域系統管理員](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)帳戶登[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)入。 
+1. 使用您的[全域系統管理員](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)帳戶登[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)入。 
     
 2. 在 Microsoft 365 系統管理中心，選擇 [**設定** > **設定** > **組織設定檔**]。 
     

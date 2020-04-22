@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '做為 Office 365 系統管理員，您可以針對組織中的個別使用者編輯商務用 Skype Online 音訊會議設定，例如提供者、預設的付費或免付費電話號碼、會議 ID 或 PIN 等。 '
-ms.openlocfilehash: c9a5f90d0c7577571188764393ecc667a243cd56
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: fe6814bee547e80d6bcb6fc367d055dce13d513d
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707178"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777988"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-skype-for-business-online"></a>在商務用 Skype Online 中管理使用者的音訊會議設定
 
@@ -36,7 +36,7 @@ ms.locfileid: "41707178"
 做為 Office 365 系統管理員，您可以針對組織中的個別使用者編輯音訊會議設定，例如提供者、預設的付費或免付費電話號碼、會議 ID 或 PIN 等。 如果您想要編輯貴組織的設定，請參閱[管理組織的音訊會議設定](manage-the-audio-conferencing-settings-for-my-organization.md)。
 
  
-1. 使用您的公司或學校帳戶登入 Office 365。
+1. 使用您的公司或學校帳戶登入。
     
 2. 選擇系統**管理中心** > **的商務用 Skype**。
     
@@ -46,7 +46,7 @@ ms.locfileid: "41707178"
     
 5. 在左側導覽中選擇 [**音訊會議**]，然後在使用者的 [**屬性**] 頁面上，修改下列任何一項：
     
-|**正在**|**說明**|
+|**設定**|**描述**|
 |:-----|:-----|
 |**提供者名稱** <br/> |從清單中選擇您的提供者。  <br/><br/> **注意：** 此表格中的其餘設定只有在您選取 [Microsoft] 做為音訊會議提供者時才適用。           |
 |**預設的付費電話號碼**（必要） <br/> |對於協力廠商提供者，這些電話號碼是您從音訊會議提供者接收到的電話號碼。 如果使用者使用 Microsoft 做為音訊會議提供者，則會是在音訊會議橋接器上設定的號碼。 將數位格式化為想要在商務用 Skype 和 Microsoft 團隊會議邀請中顯示的數位。  <br/> |

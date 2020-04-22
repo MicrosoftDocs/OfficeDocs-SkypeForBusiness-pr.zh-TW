@@ -20,22 +20,22 @@ f1.keywords:
 ms.custom:
 - Optimization
 description: 本文將協助說明商務用 Skype Online 與 ExpressRoute 的核心通話流程原則，並提供一些通話流程的詳細範例，讓您可以正確瞭解及規劃。
-ms.openlocfilehash: 3c728dab868177aab07c6fe618fba3a8c357eaa2
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 8460d845302fbca2ab10e5c43f9feda8af45a321
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706668"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777588"
 ---
 # <a name="call-flow-using-expressroute"></a>使用 ExpressRoute 的通話流程
 
 本文將協助說明商務用 Skype Online 與 ExpressRoute 的核心通話流程原則，並提供一些通話流程的詳細範例，讓您可以正確瞭解及規劃。
 
-如果您是在 Office 365、商務用 Skype Server 混合版或商務用 Skype 雲端連接器版本中部署商務用 Skype Online，您將需要瞭解商務用 Skype 用戶端與伺服器與通話流程之間的通訊。您可以有效地規劃、部署、操作和疑難排解商務用 Skype Online 服務。
+如果您要部署商務用 Skype Online 做為 Office 365、商務用 Skype Server 混合版或商務用 Skype 雲端連接器版本，您必須瞭解商務用 skype 用戶端與伺服器與通話流程之間的通訊，讓您能夠有效地規劃、部署、運作及疑難排解商務用 Skype Online 服務。
 
 ## <a name="call-flow-overview"></a>通話流程概覽
 
-這份檔說明可以傳送這些通話流程資料的網段，並協助您瞭解哪些流量將在網路上保持不變，並與透過網際網路或 ExpressRoute 傳送的流量進行比較。 瞭解使用 ExpressRoute 的流量可協助您評估貴公司將使用 ExpressRoute 所收到的福利，並協助您瞭解 ExpressRoute 部署指示，以在您決定之後驗證並疑難排解您的部署使用 ExpressRoute。
+這份檔說明可以傳送這些通話流程資料的網段，並協助您瞭解哪些流量將在網路上保持不變，並與透過網際網路或 ExpressRoute 傳送的流量進行比較。 瞭解使用 ExpressRoute 的流量可協助您評估貴公司將使用 ExpressRoute 接收的好處，以及協助您瞭解 ExpressRoute 部署指示，以在您決定要使用 ExpressRoute 之後驗證並疑難排解您的部署。
 
 此處所述的通話流程可能會受到控制之下各種不同因素的影響，包括防火牆規則、NAT 配置、proxy 和路由器設定。 本檔假設已套用建議的設定。 這些建議的設定如下所述：
 
@@ -47,7 +47,7 @@ ms.locfileid: "41706668"
 
 - [Azure ExpressRoute](https://azure.microsoft.com/services/expressroute/)
 
-未遵循上述檔中的設定步驟的設定和設定，可能會有不同的呼叫流程與我們在這裡所記錄的相同。 此外，您可能會發現配置問題，例如非對稱與不滿意的網路路由或非最佳傳輸通訊協定。 在涉及 ExpressRoute 時，非對稱路由是一個重要的考慮，因為 ExpressRoute 會將第二個路徑提供給 Office 365，這可讓使用網際網路的路由成為一個方向，而另一個路由則使用在其他方向上的 ExpressRoute。 這可能會導致流量在傳回狀態的防火牆流經時封鎖在傳回方向。
+未遵循上述檔中的設定步驟的設定和設定，可能會有不同的呼叫流程與我們在這裡所記錄的相同。 此外，您可能會發現配置問題，例如非對稱與不滿意的網路路由或非最佳傳輸通訊協定。 在涉及 ExpressRoute 時，非對稱路由是一個重要的考慮，因為 ExpressRoute 會將第二個路徑提供給 Office 365，這會產生一個方向的路由，以及另一個方向使用 ExpressRoute 的路由。 這可能會導致流量在傳回狀態的防火牆流經時封鎖在傳回方向。
 
 ## <a name="network-segments-and-traffic-types"></a>網段與流量類型
 
@@ -55,7 +55,7 @@ ms.locfileid: "41706668"
 
 在我們可以說明通話流程之前，我們需要定義一些字詞，協助您瞭解網路區段以及在商務用 Skype Online 中使用的媒體類型。
 
-下列的通話流程圖顯示四個不同的網路區段，每個網段都由不同的組織（您的內部網路、您的網路服務提供者，以及其網際網路對等合作夥伴以及 Microsoft）所管理效能特性。 如需網路效能目標的指導方針，請參閱[商務用 Skype Online 中的媒體質量和網路連線效能](media-quality-and-network-connectivity-performance.md)。
+下列的呼叫流程圖表會顯示四個不同的網路區段，每個網段都由不同的組織（您的內部網路、您的網路服務提供者以及其網際網路對等合作夥伴，以及 Microsoft）管理，其效能特性不同。 如需網路效能目標的指導方針，請參閱[商務用 Skype Online 中的媒體質量和網路連線效能](media-quality-and-network-connectivity-performance.md)。
 
 在下方，您可以看到我們將討論的每個網路區段。
 
@@ -63,7 +63,7 @@ ms.locfileid: "41706668"
 
  **您的網路**這個網段是您控制及管理的整個網路的一部分。 這包括您的辦公室內的所有連線（無論是有線或無線）、office 建築物之間、內部部署資料中心，以及您連線至網際網路供應商或 ExpressRoute 合作夥伴。
 
-一般來說，您的網路邊緣有一個或多個使用防火牆和/或 proxy 伺服器的 DMZ，這些伺服器會強制執行您組織的安全性原則，且只允許您已設定並設定的特定網路流量。 因為您要管理這個網路，所以您可以直接控制您的網路效能，而且強烈建議您完成網路評量，以驗證您網路中的網站與商務用 Skype 的網路中的效能。Online. 若要查看效能需求，請參閱[商務用 Skype Online 中的媒體質量和網路連線效能](media-quality-and-network-connectivity-performance.md)。
+一般來說，您的網路邊緣有一個或多個使用防火牆和/或 proxy 伺服器的 DMZ，這些伺服器會強制執行您組織的安全性原則，且只允許您已設定並設定的特定網路流量。 因為您管理這個網路，所以您可以直接控制您的網路效能，而且強烈建議您完成網路評量，以驗證您網路中的網站，以及從您的網路到商務用 Skype Online 中的效能。 若要查看效能需求，請參閱[商務用 Skype Online 中的媒體質量和網路連線效能](media-quality-and-network-connectivity-performance.md)。
 
  **網際網路**這是整個網路的一部分，該網路區段將由從您的網路外部連線到商務用 Skype Online 的使用者使用，且在未設定 ExpressRoute 時用於所有連線。 網際網路及其所有連線都不由您或 Microsoft 管理，所以無法決定效能與路由路徑，這將會對整個通話流程和品質產生最大的影響。
 
@@ -81,7 +81,7 @@ ms.locfileid: "41706668"
 
 此流量的目的地在所有 Office 365 服務的[office 365 url 和 IP 位址範圍](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)中找到。 針對每個 URL，它會指出這部分流量是否可能會遍歷 ExpressRoute for Office 365。 如果圖表顯示已啟用 ExpressRoute 時，仍在部分流量中使用網際網路，請參閱適用于[Office 365 的 Azure ExpressRoute](https://support.office.com/article/6d2534a2-c19c-4a99-be5e-33a0cee5d3bd)。 請務必瞭解，即使是在 ExpressRoute 上列出的可透過 ExpressRoute 路由的 Url，也可透過網際網路路由。 這表示在某些情況下，會根據用戶端的位置與 proxy 伺服器和防火牆的設定，決定是否要使用網際網路或 ExpressRoute。 此外，請務必瞭解，因為並非所有與 Office 365 相關聯的 Url 都能使用 ExpressRoute，即使您是從 ExpressRoute 合作夥伴購買 ExpressRoute，仍需要網際網路連線。
 
-只能透過網際網路傳送的流量包括常見的網際網路相依性，例如憑證撤銷清單（Crl）、DNS 查閱和名稱解析、共用 Office 365 服務的 Url，例如 Microsoft 365 系統管理中心的 Url，以及一些商務用 Skype Online 的非即時通訊功能，例如遙測與與 Skype 消費者進行互通性的同盟，以及針對 Skype 會議廣播進行流式處理的媒體。 若要協助您做出決策，請參閱[與 ExpressRoute For Office 365 的路由](https://support.office.com/article/e1da26c6-2d39-4379-af6f-4da213218408)，以取得規劃網路路由時的更多考慮。
+僅可透過網際網路傳送的流量包括常見的網際網路相依性，例如，[憑證吊銷清單（Crl）]、[DNS 查閱] 和 [名稱解析]、共用 Office 365 服務的 Url （例如 Microsoft 365 系統管理中心），以及商務用 skype Online 的一些非即時通訊功能（例如遙測與與 Skype 消費者進行互通性的同盟），也就是為 Skype 會議廣播傳送資料流程的媒體。 若要協助您做出決策，請參閱[與 ExpressRoute For Office 365 的路由](https://support.office.com/article/e1da26c6-2d39-4379-af6f-4da213218408)，以取得規劃網路路由時的更多考慮。
 
 ## <a name="principles-for-call-flows-with-skype-for-business"></a>使用商務用 Skype 進行通話流程的原則
 
@@ -103,7 +103,7 @@ ms.locfileid: "41706668"
 
 ## <a name="skype-for-business-call-flows-with-expressroute"></a>使用 ExpressRoute 進行商務用 Skype 通話流程
 
-現在您已經瞭解四種不同的網段，以及商務用 Skype 通話流程的一些一般指導原則，您可以使用該資訊來協助您瞭解哪些商務用 Skype 通訊會透過 ExpressRoute網路區段。
+現在您已經瞭解四種不同的網段，以及商務用 Skype 通話流程的一些一般指導原則，您可以使用該資訊來協助您瞭解哪些商務用 Skype 通訊會透過 ExpressRoute network 區段。
 
 一般來說，如果您的網路中有一個端點，而且另一個端點位於 Office 365 datacenter 中，網路流量將會遍歷 ExpressRoute 連線。 這會包括用戶端與伺服器之間的信號流量、通話期間使用的媒體流量，或使用線上邊緣伺服器的對等通話。
 
@@ -116,7 +116,7 @@ ms.locfileid: "41706668"
 > [!NOTE]
 > 商務用 Skype 所使用的流量子集無法透過 ExpressRoute 路由，且永遠會採用網際網路路徑。 請參閱[Office 365 url 和 IP 位址範圍](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)，以判斷可能受影響的 url。
 
-### <a name="peer-to-peer-call-for-office-365-users-from-within-customer-network"></a>客戶網路中的 Office 365 使用者對等呼叫
+### <a name="peer-to-peer-call-for-microsoft-365-or-office-365-user-from-within-customer-network"></a>客戶網路中的 Microsoft 365 或 Office 365 使用者對等通話
 <a name="bk_Figure2"> </a>
 
 對於對等呼叫，媒體流量永遠會最直接傳送到目的地。 不過，信號流量會傳送給線上使用者所在的 Office 365 資料中心。 因為兩個使用者都在同一個 WAN 上，而且不能防止用戶端直接通訊，所以媒體會直接在它們之間流動。 針對每個組織的資料中心的 ExpressRoute 連線，這兩個使用者都可透過信號傳送傳輸。 若要在這種情況下顯示通話流程，請參閱此。
@@ -128,7 +128,7 @@ ms.locfileid: "41706668"
 ### <a name="online-user-on-your-network-joining-a-conference-that-is-hosted-online"></a>網路上的線上使用者加入線上託管的會議
 <a name="bk_Figure3"> </a>
 
-在對等範例中，媒體流量永遠會最直接傳送到目的地。 不過，對於線上會議，目的地位於 Office 365 雲端。 這表示從您的網路中加入會議的所有使用者的媒體流量都會遍歷 ExpressRoute 連線，而信號流量則會傳播至 Office 365 雲端。 下圖顯示的是媒體和寄件者會針對您網路中的使用者進行 ExpressRoute 連線，並直接從您的網路外部連線至網際網路的使用者（例如從咖啡[購物] 或 [旅館]。
+在對等範例中，媒體流量永遠會最直接傳送到目的地。 不過，對於線上會議，目的地位於 Office 365 雲端。 這表示從您的網路中加入會議的所有使用者的媒體流量都會遍歷 ExpressRoute 連線，而信號流量則會傳播至 Office 365 雲端。 下圖顯示的是媒體和寄件者會針對您網路中的使用者進行 ExpressRoute 連線，並且直接從您的網路外部連線至網際網路的使用者（例如來自咖啡廳或旅館），直接前往網際網路。
 
 請記住，會議的地點是由會議召集人所定義，而不是由參與者所定義。 這表示如果會議是由內部部署客戶排程，媒體流量將無法透過 ExpressRoute 流向 Office 365 雲端，但會改為將網際網路傳遞到會議召集人的內部部署資料中心。
 
@@ -138,7 +138,7 @@ ms.locfileid: "41706668"
 
 - 如果使用者是從公司組織所在位置以外的其他國家/地區進行加入，可能是因為公司是跨國公司，或使用者正在旅行中。
 
-在這種情況下，使用 ExpressRoute 的好消息是 expressroute premium 附加元件、ExpressRoute 路徑後面的資料，不論會議召集人的地理區域為何，都將會自動傳遞到 Microsoft 的主幹中組織的資料中心。
+在這種情況下，使用 ExpressRoute 的好消息是 expressroute premium 附加元件、ExpressRoute 路徑後的資料將會自動傳遞到 Microsoft 的主幹，而不管會議組織資料中心召集人的地理區域。
 
  **含線上會議通話流程的線上使用者**
 
@@ -197,7 +197,7 @@ Skype 會議廣播是一個特殊的使用案例，由包含兩個部分的會�
 |||||||
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |**使用案例** <br/> |**端點** <br/> |**信號路徑** <br/> |**媒體路徑** <br/> |**範例流程** <br/> |**筆記** <br/> |
-|對等通話  <br/> |兩個用戶端，都在您的網路上。  <br/> |ExpressRoute  <br/> |局部  <br/> |[客戶網路中的 Office 365 使用者對等呼叫](call-flow-using-expressroute.md#bk_Figure2) <br/> ||
+|對等通話  <br/> |兩個用戶端，都在您的網路上。  <br/> |ExpressRoute  <br/> |局部  <br/> |[客戶網路中的 Microsoft 365 或 Office 365 使用者對等通話](call-flow-using-expressroute.md#bk_Figure2) <br/> ||
 |對等通話  <br/> |您網路上的兩個用戶端（內部），以及網際網路上的另一個用戶端（外部）。  <br/> |內部使用者： ExpressRoute  <br/> 外部使用者：網際網路  <br/> |內部使用者： ExpressRoute  <br/> 外部使用者：網際網路至 Office 365 Edge 伺服器。  <br/> |[客戶網路中的 Office 365 使用者對等呼叫](call-flow-using-expressroute.md#bk_Figure2) <br/> |假設防火牆封鎖用戶端之間的直接連線，這需要線上邊緣伺服器。 內部使用者與線上邊緣伺服器的流量遵循與會議服務器通話的類似路徑。  <br/> |
 |聯盟組織中的使用者對等呼叫  <br/> |您網路上的兩個用戶端（內部），以及聯盟組織網路（同盟）上的線上使用者。  <br/> |ExpressRoute  <br/> |ExpressRoute  <br/> |[網路上的線上使用者加入線上託管的會議](call-flow-using-expressroute.md#bk_Figure3) <br/> |假設防火牆封鎖用戶端之間的直接連接，需要線上邊緣伺服器。 內部使用者與線上邊緣伺服器的流量與會議服務器進行電話會議的類似路徑。  <br/> |
 |在客戶網路中由使用者加入會議通話  <br/> |在 Office 365 雲端，您的網路和會議服務器上的用戶端。  <br/> |ExpressRoute  <br/> |ExpressRoute  <br/> |[網路上的線上使用者加入線上託管的會議](call-flow-using-expressroute.md#bk_Figure3) <br/> ||
@@ -216,7 +216,7 @@ Skype 會議廣播是一個特殊的使用案例，由包含兩個部分的會�
 |||||||
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |**使用案例** <br/> |**端點** <br/> |**信號路徑** <br/> |**媒體路徑** <br/> |**範例流程** <br/> |**筆記** <br/> |
-|對等通話  <br/> |客戶網路上的兩個用戶端，以及駐留內部部署  <br/> |局部  <br/> |局部  <br/> |[客戶網路中的 Office 365 使用者對等呼叫](call-flow-using-expressroute.md#bk_Figure2) <br/> |因為使用者是託管于內部部署，所以會將資料流程從本機傳送到內部部署資料中心，而不是 Office 365 雲端。  <br/> |
+|對等通話  <br/> |客戶網路上的兩個用戶端，以及駐留內部部署  <br/> |局部  <br/> |局部  <br/> |[客戶網路中的 Microsoft 365 或 Office 365 使用者對等通話](call-flow-using-expressroute.md#bk_Figure2) <br/> |因為使用者是託管于內部部署，所以會將資料流程從本機傳送到內部部署資料中心，而不是 Office 365 雲端。  <br/> |
 |對等通話  <br/> |兩個用戶端，兩者都是從客戶網路連接。 一個是在線上，另一個則是託管內部部署。  <br/> |線上使用者： ExpressRoute  <br/> 內部部署使用者：本機  <br/> |局部  <br/> |[客戶網路中的 Office 365 使用者對等呼叫](call-flow-using-expressroute.md#bk_Figure2) <br/> |只有線上駐留的使用者才會傳送傳送信號流量給 Office 365 雲端。  <br/> |
 |聯盟組織中的使用者對等呼叫  <br/> |在客戶網路（內部）和聯盟公司網路（同盟）的線上使用者中，有兩個用戶端在內部部署使用者。  <br/> |內部使用者：本機  <br/> 聯盟使用者： ExpressRoute  <br/> |網際網路或 ExpressRoute （取決於使用的是線上或內部部署邊緣伺服器）  <br/> |[您網路上的線上使用者加入在線上託管的會議](call-flow-using-expressroute.md#bk_Figure3)，以及[包含 Office 365 託管會議的內部部署邊緣伺服器](call-flow-using-expressroute.md#bk_Figure5)（適用于媒體流量）。 <br/> |假設防火牆封鎖用戶端之間的直接連接，需要線上邊緣伺服器。 ICE 協商將提供線上（由線上使用者）和內部部署邊緣伺服器（由內部部署使用者）進行連線。  <br/> |
 |在客戶網路中，由使用者加入電話會議（由線上使用者排程的會議）  <br/> |在 Office 365 雲端，您的網路和會議服務器上的內部部署使用者。  <br/> |ExpressRoute  <br/> |ExpressRoute  <br/> |[網路上的線上使用者加入線上託管的會議](call-flow-using-expressroute.md#bk_Figure3) <br/> |電話會議的伺服器資源是由會議召集人所定義。 在這種情況下，它是由線上使用者排程，所以資源位於 Office 365 雲端。  <br/> |

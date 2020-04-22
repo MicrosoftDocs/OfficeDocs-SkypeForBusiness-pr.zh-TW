@@ -15,12 +15,12 @@ ms.collection:
 description: 瞭解 Microsoft 團隊系統管理中心提供的團隊報表。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c1c4c142ff311debd3f96d08e386df68af953c2b
-ms.sourcegitcommit: 379bfaf6b0584c1ac93341af605f93ab932a442b
+ms.openlocfilehash: 86003876bbbf4927886a8b260fad48f451a2d325
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "43240643"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778238"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Microsoft 團隊分析和報告
 
@@ -33,7 +33,7 @@ Microsoft 團隊系統管理中心提供 Microsoft 團隊的新分析與報告�
 移至 [Microsoft 團隊系統管理中心]，在左側導覽中，選取 [**分析] & 報表**]，然後在 [**報表**] 底下，選擇您要執行的報表。
 
 > [!NOTE]
-> Microsoft [團隊系統管理中心] 中的報表與「Microsoft 365 系統管理中心」的 Office 365 報表中的團隊活動報告不同。 如需 Microsoft 365 系統管理中心的活動報告的詳細資訊，請參閱[microsoft 365 系統管理中心的團隊活動報告](../teams-activity-reports.md)。
+> Microsoft [團隊管理中心] 中的報表與 Microsoft 365 系統管理中心的 Microsoft 365 報表中的團隊活動報告是分開的。 如需 Microsoft 365 系統管理中心的活動報告的詳細資訊，請參閱[microsoft 365 系統管理中心的團隊活動報告](../teams-activity-reports.md)。
 
 ## <a name="teams-reporting-reference"></a>團隊報告參考
 

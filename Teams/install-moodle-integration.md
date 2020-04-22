@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3a3ee51fdbbda7c3d49ac5a7b2a65b977f8fb245
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 90ce02e773d20759b90ea090123823b6bf94d9ee
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137133"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779619"
 ---
 # <a name="installing-the-moodle-integration-with-microsoft-teams"></a>安裝 Moodle 整合與 Microsoft 團隊
 
@@ -41,7 +41,7 @@ ms.locfileid: "43137133"
 
 若要深入瞭解此整合提供的功能，請移至[這裡](https://education.microsoft.com/courses-and-resources/resources/microsoft-teams-moodle)。
 
-## <a name="prerequisites"></a>先決條件
+## <a name="prerequisites"></a>必要條件
 
 若要安裝和設定此應用程式，您需要：
 
@@ -73,7 +73,7 @@ Microsoft 團隊中的 Moodle 整合是由開放來源[Office 365 Moodle 外掛�
 
 > [!VIDEO https://www.youtube.com/embed/FpGEezaJ3SA]
 
-接下來，您將需要在您的 Azure Active Directory 中將 Moodle 註冊為應用程式。 我們提供 PowerShell 腳本以協助您完成此程式。 PowerShell 腳本會為您的 Office 365 租使用者提供新的 Azure AD 應用程式，而 Office 365 Moodle 外掛程式會使用此應用程式。 此腳本將為您的 O365 租使用者提供應用程式，為已設定的應用程式設定所有必要的回復 Url 和許可權，並傳回 AppID 與 Key。 您可以在 O365 Moodle 外掛程式設定頁面中使用產生的 AppID 和 Key，以使用 Azure AD 設定您的 Moodle 伺服器。 如果您想要查看 PowerShell 腳本自動化的詳細手動步驟，您可以在外掛程式的完整[檔](https://docs.moodle.org/34/en/Office365#Register_your_Moodle_instance_as_an_Application)中找到這些步驟。
+接下來，您將需要在您的 Azure Active Directory 中將 Moodle 註冊為應用程式。 我們提供 PowerShell 腳本以協助您完成此程式。 PowerShell 腳本會為您的 Office 365 組織提供新的 Azure AD 應用程式，而 Office 365 Moodle 外掛程式會使用此應用程式。 此腳本將為您的 O365 租使用者提供應用程式，為已設定的應用程式設定所有必要的回復 Url 和許可權，並傳回 AppID 與 Key。 您可以在 O365 Moodle 外掛程式設定頁面中使用產生的 AppID 和 Key，以使用 Azure AD 設定您的 Moodle 伺服器。 如果您想要查看 PowerShell 腳本自動化的詳細手動步驟，您可以在外掛程式的完整[檔](https://docs.moodle.org/34/en/Office365#Register_your_Moodle_instance_as_an_Application)中找到這些步驟。
 
 ### <a name="moodle-tab-for-microsoft-teams-information-flow"></a>Microsoft 團隊資訊流程的 [Moodle] 索引標籤
 

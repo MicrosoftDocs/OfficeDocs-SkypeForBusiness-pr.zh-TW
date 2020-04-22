@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5470d9ec2ec2d22d8f3b66bac09ba6c67b9982f
-ms.sourcegitcommit: 0549714f17f9994cf832a303ec9bc58a537c3a51
+ms.openlocfilehash: 22a0c2a8641203e764d6c490a008525cf71e8d5c
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42951498"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776948"
 ---
 <a name="microsoft-teams-guest-access-checklist"></a>Microsoft 團隊來賓存取檢查清單
 =========================================
@@ -30,7 +30,7 @@ ms.locfileid: "42951498"
 使用此檢查清單可協助您開啟並設定 Microsoft 團隊中的來賓存取權。 您必須是全域系統管理員或團隊管理員，才能進行這些變更。
 
 > [!IMPORTANT]
-> 您可能必須等候長達24小時，變更才會生效。 
+> 您可能需要等候 24 小時，變更才會生效。 
 
 觀看這段短片（5:31 分鐘），瞭解如何在整個 Microsoft 365 （包括團隊）中開啟來賓存取。
 
@@ -49,7 +49,7 @@ ms.locfileid: "42951498"
 4. 按一下 [儲存]****。
 
 > [!TIP]
-> 如果您使用的是 Azure Active Directory、SharePoint Online 和 Office 365 群組中的預設設定，您可能已完成來賓存取。 在這種情況下，您可以略過其餘的步驟。 如果您不確定，或者您使用的是 AAD、SharePoint Online 或 Office 365 群組的自訂設定，請繼續執行此檢查清單中的其餘步驟。
+> 如果您使用的是 Azure Active Directory、SharePoint Online 和 Microsoft 365 群組中的預設設定，您可能已完成來賓存取。 在這種情況下，您可以略過其餘的步驟。 如果您不確定，或者您使用的是 AAD、SharePoint Online 或 Microsoft 365 群組的自訂設定，請繼續執行此檢查清單中的其餘步驟。
 
 ## <a name="step-2-configure-azure-ad-business-to-business-settings"></a>步驟2：設定 Azure AD 企業對企業設定
 
@@ -75,17 +75,17 @@ ms.locfileid: "42951498"
       
     如需有關控制誰可以邀請來賓的詳細資訊，請參閱[委派 Azure Active Directory B2B 共同作業邀請](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations)。
 
-## <a name="step-3-configure-office-365-groups"></a>步驟3：設定 Office 365 群組
+## <a name="step-3-configure-microsoft-365-groups"></a>步驟3：設定 Microsoft 365 群組
 
-1. 在 Microsoft 365 系統管理中心中，移至 [**設定** > **設定**]，按一下 [**服務**]，然後選取 [ **Office 365 群組**]。
+1. 在 Microsoft 365 系統管理中心中，移至 [**設定** > **設定**]，按一下 [**服務**]，然後選取 [ **Microsoft 365 群組**]。
 
-     ![螢幕擷取畫面顯示 Office 365 群組設定](media/guest-access-checklist-services-settings.png)
+     ![螢幕擷取畫面顯示 Microsoft 365 群組設定](media/guest-access-checklist-services-settings.png)
 2. 確認已選取 [**允許組織存取群組內容外的群組成員**] 核取方塊。 如果未選取此設定，來賓將無法存取任何群組內容。
 
-    ![螢幕擷取畫面顯示 Office 365 群組設定](media/guest-access-checklist-office365.png)
+    ![螢幕擷取畫面顯示 Microsoft 365 群組設定](media/guest-access-checklist-office365.png)
 3. 確認已選取 [**允許群組擁有者將組織外的人員新增至群組**] 核取方塊。 如果未選取此設定，小組擁有者將無法新增來賓。 此設定至少必須開啟才能支援來賓存取。
 
-如需設定這些設定的詳細指示，請參閱[管理 office 365 群組中的來賓存取](https://support.office.com/article/manage-guest-access-in-office-365-groups-9de497a9-2f5c-43d6-ae18-767f2e6fe6e0?appver=MOE150)，以及[控制 office 365 群組中的來賓存取權](Teams-dependencies.md#control-guest-access-in-office-365-groups)。
+如需設定這些設定的詳細指示，請參閱[管理 microsoft 365 群組中的來賓存取](https://support.office.com/article/manage-guest-access-in-office-365-groups-9de497a9-2f5c-43d6-ae18-767f2e6fe6e0?appver=MOE150)及[控制 microsoft 365 群組中的來賓存取權](Teams-dependencies.md#control-guest-access-in-microsoft-365-groups)。
 
 ## <a name="step-4-configure-sharing-in-office-365"></a>步驟4：在 Office 365 中設定共用 
 
@@ -127,6 +127,6 @@ ms.locfileid: "42951498"
 
 如果您在設定來賓存取或在小組中新增來賓時遇到問題，請使用下列資源來協助您：
 
-[針對 Microsoft 團隊中的來賓存取問題進行疑難排解](troubleshoot-guest-access.md)
+[針對 Microsoft Teams 中的來賓存取問題進行疑難排解](troubleshoot-guest-access.md)
 
 [團隊疑難排解](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/)

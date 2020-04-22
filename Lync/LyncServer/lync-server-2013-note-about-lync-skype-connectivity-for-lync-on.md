@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 附註的 Lync 上的 Lync Skype 連線能力
+title: Lync Server 2013：有關 Lync On Lync-Skype connectivity 的注意事項
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +12,12 @@ ms:contentKeyID: 57793359
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 65f91c6ecbfa97a5799d2811f69d920c1e7947b2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: de54cbdde864da5600c06b608344e8593529d604
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216679"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780702"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42216679"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="note-about-lync-skype-connectivity-in-lync-server-2013-for-lync-online-customers"></a>附註在 Lync Server 2013 中的 Lync Skype 連線的相關的 Lync Online 客戶
+# <a name="note-about-lync-skype-connectivity-in-lync-server-2013-for-lync-online-customers"></a>有關 Lync Online 客戶在 Lync Server 2013 中 Lync-Skype 連線的附注
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "42216679"
 
 <span> </span>
 
-_**上次修改主題：** 2013年-09-23_
+_**主題上次修改日期：** 2013-09-23_
 
-這份文件已寫入至協助 Lync Server 內部部署系統管理員設定 Lync Skype 連線。Lync Skype 連線也是 Lync online，也就是 Office 365 的一部分的功能。 您可以啟用從 Office 365 入口網站內 Lync 系統管理中心的 Lync Skype 連線功能。
+這份檔已撰寫，可協助設定 Lync Server 內部部署管理員 Lync-Skype 連線能力。Lync-Skype 連線也是 Lync Online 的一項功能，也就是 Office 365 的一部分。 您可以從 Microsoft 365 系統管理中心內的 Lync 系統管理中心啟用 Lync-Skype connectivity 功能。
 
-Office 365 中型企業版、 Office 365 企業版、 Office 365 教育版，和 Office 365 for Government： 登入 Office 365 入口網站，並瀏覽至**Lync 系統管理中心**。 移至**外部通訊**。 在 [**公用 IM 服務提供者**下, 按一下 [**啟用**]。 如果您想要控制個別使用者存取 Lync Skype 連線，您可以藉由編輯個別使用者的外部通訊設定來執行此動作。
+針對 Office 365 中型企業版、office 365 企業版、Office 365 教育版和 Office 365 for 政府：登入 Microsoft 365 系統管理中心，並流覽至**Lync 系統管理中心**。 移至 [**外部通訊**]。 在 [**公用 IM 服務提供者**] 底下，按一下 [**啟用**]。 如果您想要控制個別使用者對 Lync-Skype 連線的存取，您可以編輯個別使用者的外部通訊設定來執行此動作。
 
-針對 Office 365 小型企業進階版： 登入 Office 365，並移至**系統\>服務設定\>立即訊息、 會議和研討會**。 開啟外部通訊。 功能變數的外部通訊參數會開啟 Lync Skype 連線和使用 Lync 其他組織與通訊。 根據當您開始使用 Lync Online，「 開啟 」 狀態的外部通訊參數一開始可能只與其他 Lync 組織的通訊會在啟動。 若要開啟 Lync Skype 連線，只是切換關閉參數，然後再一次。
+適用于 Office 365 Small Business Premium：登入，然後移至 [系統**管理\> ] 服務設定\>立即訊息、會議和會議**。 開啟外部通訊。 外部通訊參數會同時開啟 Lync-Skype 連線，以及與使用 Lync 的其他組織進行通訊。 視您開始使用 Lync Online 的時間而定，「on」狀態的外部通訊切換器最初可能只會指出與其他 Lync 組織的通訊已啟用。 若要開啟 Lync-Skype 連線能力，只要關閉開關，然後再重新開啟即可。
 
 </div>
 

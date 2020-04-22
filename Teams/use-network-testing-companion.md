@@ -19,12 +19,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: c3d292eecb6173f98a2e95dbbd5a1097f5f785eb
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: a9fffea969ea1448bdf8f2a076dbef6756765e20
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836753"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780022"
 ---
 <a name="use-the-network-testing-companion"></a>使用網路測試小幫手
 =================================
@@ -34,7 +34,7 @@ ms.locfileid: "41836753"
 您可以在商務用 Skype 或 Microsoft 團隊部署的規劃階段中使用此工具。 如果您目前使用的是團隊或商務用 Skype Online，您可以使用這個工具來診斷語音品質問題，或只在撥打電話之前或在您有品質不佳的體驗時檢查網路連線。
 
 > [!NOTE]
-> 您不需要 Office 365 訂閱就能下載並安裝網路測試副等。
+> 您不需要 Microsoft 365 或 Office 365 訂閱，就能下載並安裝網路測試副等。
 
 ## <a name="download-the-tool-and-documentation"></a>下載工具和檔
 

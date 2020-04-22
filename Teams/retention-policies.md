@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e2c918a8276be2eeab0a125a1661b70b42c6b069
-ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.openlocfilehash: 17ece37fded1d7b0743f3eeb66a300021f568c44
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43096998"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779780"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Microsoft 團隊中的保留原則
 
@@ -29,7 +29,7 @@ ms.locfileid: "43096998"
 
 依預設，小組聊天、頻道和檔案資料都會永久保留。 就像管理員一樣，您可以為聊天和頻道訊息設定小組保留原則，並提前決定是否要保留資料、刪除資料，或將資料保留一段特定的時間，然後將其刪除。
 
-您可以在[Office 365 安全 & 合規性中心](https://protection.office.com/)或使用安全性 & 合規性中心 PowerShell Cmdlet 中，建立及管理小組和其他工作負載的保留原則。 您可以將團隊保留原則套用到整個組織或特定的使用者與團隊。
+您可以在[Microsoft 365 合規性中心](https://protection.office.com/)或使用安全性 & 合規性中心 PowerShell Cmdlet 中，建立及管理小組和其他工作負載的保留原則。 您可以將團隊保留原則套用到整個組織或特定的使用者與團隊。
 
 > [!NOTE]
 > 我們還不支援保留私人通道訊息的設定。 支援在私人通道中共用的檔案保留。
@@ -123,7 +123,7 @@ ms.locfileid: "43096998"
         ![[選擇位置] 頁面上的 [團隊頻道訊息] 和 [團隊聊天] 選項的螢幕擷取畫面](media/retention-policies-create.png)
 
       > [!IMPORTANT]
-      > 在**Exchange 電子郵件**或**Office 365 群組**位置中，對於使用者或群組信箱套用的保留原則，小組聊天和頻道訊息不會受到影響。 雖然團隊聊天和頻道訊息會儲存在 Exchange 中，但它們只能受到團隊位置所套用的保留原則影響。
+      > 在**Exchange 電子郵件**或**Microsoft 365 群組**位置中，對於使用者或群組信箱套用的保留原則，不會影響團隊聊天與頻道訊息。 雖然團隊聊天和頻道訊息會儲存在 Exchange 中，但它們只能受到團隊位置所套用的保留原則影響。
 
 6. 檢查您的設定，當您準備好時，請選取 [**建立此原則**]。
 
@@ -160,7 +160,7 @@ ms.locfileid: "43096998"
 
 下列是追蹤及調查之小組中保留原則的已知問題。
 
-- 在 [**團隊頻道訊息**位置] 列中的 **[選擇團隊**] 底下，您可能會看到不是「團隊」的 Office 365 群組。 未來將會解決這個問題。
+- 在 [**小組頻道訊息**位置] 列中的 **[選擇團隊**] 底下，您可能會看到不是「團隊」的 Microsoft 365 群組。 未來將會解決這個問題。
 
 - 在 [**小組聊天**位置] 列中的 **[選擇使用者**] 底下，您可能會看到 [來賓] 和 [非信箱] 使用者。 保留原則並非要針對來賓進行設定，我們正在努力從清單中移除這些原則。
 

@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d73c40ee6a2ebe906a6a3ca66dbb430b843c6eeb
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: 1b7c7910c7c876c01d3192e16f49498e508fcd2c
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706923"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776731"
 ---
 # <a name="evaluate-your-environment-before-upgrading-to-teams"></a>升級至團隊之前先評估您的環境
 
@@ -44,24 +44,24 @@ ms.locfileid: "42706923"
 
 您可以在環境評估與採納準備情況評估中識別技術風險，並針對每個已識別的風險開發緩解方案。 您應該將此資訊納入風險登記簿中。
 
-所有與您現有的共同作業基礎結構及 Office 365 租使用者、網路、端點、作業及準備情況有關的事項，都包含在環境探索問卷問卷中。 問卷劃分為多個區段，以確認貴組織在幾個主要區域中的小組部署準備就緒。 與您的專案小組合作，以盡可能詳細地提供要求的資訊，以協助您的規劃活動。
+與您現有的共同作業基礎結構和 Office 365 組織、網路、端點、作業及採納等相關的所有事項，都包含在環境探索問卷問卷中。 問卷劃分為多個區段，以確認貴組織在幾個主要區域中的小組部署準備就緒。 與您的專案小組合作，以盡可能詳細地提供要求的資訊，以協助您的規劃活動。
 
 > [!TIP]
 > 您可以從將問卷問卷複製到 Microsoft Word 檔開始。 當您在移動時，請嘗試回答所有問題，並捕獲所有詳細資料。
 
 ## <a name="project-team"></a>專案小組
 
-確定您已將合適的人員用於您的專案小組。 確認您在[登記專案 stakekholders](upgrade-enlist-stakeholders.md)中完成的步驟。
+確定您已將合適的人員用於您的專案小組。 確認您在[登記專案干係人](upgrade-enlist-stakeholders.md)時所完成的步驟。
 
-## <a name="office-365-tenant-details"></a>Office 365 租使用者詳細資料
+## <a name="office-365-organization-details"></a>Office 365 組織詳細資料
 
-我們強烈建議您在使用這份問卷時，擁有有效的 Office 365 租使用者。 如果您尚未啟用或設定 Office 365 租使用者，請參閱[規劃您的商務用 office 365 設定](https://support.office.com/article/plan-your-setup-of-office-365-for-business-eb926624-018b-4486-bf11-5fba6ee4d645)。
+我們強烈建議您在使用這份問卷時，擁有有效的 Office 365 組織。 如果您還沒有啟用或設定 Office 365 組織，請參閱[規劃商務用 office 365 的設定](https://support.office.com/article/plan-your-setup-of-office-365-for-business-eb926624-018b-4486-bf11-5fba6ee4d645)。
 
-使用下表來捕獲 Office 365 租使用者的相關資訊。
+使用下表來捕獲 Office 365 組織的相關資訊。
 
-> | 關鍵字 | 自動回應 | 批註 |
+> | 關鍵字 | 自動回應 | 註解 |
 > |---|---|---|
-> | 請注意生產 Office 365 租使用者 <br>[回答] 欄中的名稱和識別碼 <br/>如果您有一個以上的租使用者 <br>與您的組織相關聯， <br>請注意所有 Id。 | 租使用者名稱： <br/>租使用者識別碼：| |
+> | 請注意生產 Office 365 組織 <br>[回答] 欄中的名稱和識別碼 <br/>如果您有一個以上的租使用者 <br>與您的組織相關聯， <br>請注意所有 Id。 | 租使用者名稱： <br/>租使用者識別碼：| |
 > | 在哪些地區部署承租人？| | |
 > | 這些租使用者是 Office 365 多租戶或 <br>負責? | <input type="checkbox">多<br/> <input type="checkbox">負責 | |
 > | 目前使用的是哪些 Microsoft 線上產品？ <br/>請注意每個啟用的使用者數目 <br>[批註] 欄中的 [服務]。 | <input type="checkbox">Microsoft 團隊 <br/> <input type="checkbox">商務用 Skype <br>&nbsp;&nbsp; &nbsp;線上 <br/> <input type="checkbox">Exchange Online <br/> <input type="checkbox">SharePoint Online <br/> <input type="checkbox">商務用 OneDrive <br/> <input type="checkbox">Yammer <br/> <input type="checkbox">換句話說| |
@@ -77,7 +77,7 @@ ms.locfileid: "42706923"
 
 使用下表來捕獲現有共同作業平臺部署的相關資訊。
 
-> | 關鍵字 | 自動回應 | 批註 |
+> | 關鍵字 | 自動回應 | 註解 |
 > |---|---|---|
 > | 已部署 Microsoft 團隊嗎？ | <input type="checkbox">是的 <br/> <input type="checkbox">不 | |
 > | 商務用 Skype 是否已部署？ <br/>針對內部部署和混合式部署，請確定 <br>您會注意到版本和累積更新（CU） <br>[批註] 欄中的詳細資料。 | <input type="checkbox">是，Office 365 <br/> <input type="checkbox">是，混合式（使用 Office 365） <br/> <input type="checkbox">是，內部部署 <br/> <input type="checkbox">是、線上、專用 <br>&nbsp;&nbsp; &nbsp; <br/> <input type="checkbox">是、託管、專用 <br>&nbsp;&nbsp; &nbsp;方） <br/> <input type="checkbox">是、託管、共用（協力廠商） <br/> <input type="checkbox">否，其他 | |
@@ -95,10 +95,10 @@ ms.locfileid: "42706923"
 
 如有需要，請使用下面的範例表格來捕獲團隊部署的詳細資料。 如果您尚未部署團隊，請略過此區段。
 
-> | 關鍵字 | 自動回應 | 批註 |
+> | 關鍵字 | 自動回應 | 註解 |
 > |---|---|---|
 > | 針對團隊啟用哪些類型的使用者？ | <input type="checkbox">組織中的所有使用者 <br/> <input type="checkbox">特定使用者/使用者群組 <br>&nbsp;&nbsp; （在 [批註] 欄中&nbsp;指定） ||
-> | 哪些團隊功能和形式正在使用中？ | <input type="checkbox">頻道式交談 <br/> <input type="checkbox">私人聊天 <br/> <input type="checkbox">來賓存取 <br/> <input type="checkbox">頻道會議 <br/> <input type="checkbox">私人會議 <br/> <input type="checkbox">私人通話 <br/> <input type="checkbox">點對點通道頻道 <br/> <input type="checkbox">會議中的影片 <br/> <input type="checkbox">會議中的螢幕共用 <br/> <input type="checkbox">音訊會議 <br/><input type="checkbox">應用程式（應用程式）<br> &nbsp;&nbsp; &nbsp; <input type="checkbox"><br>&nbsp;&nbsp; Bot &nbsp; <input type="checkbox"> <br>&nbsp;&nbsp;連接器&nbsp; <input type="checkbox"><br><input type="checkbox">自訂雲端儲存整合 <br>&nbsp;&nbsp; （Box、Dropbox、ShareFile、Google 雲端&nbsp;硬碟） <br/> <input type="checkbox">通道電子郵件整合 <br/> <input type="checkbox">[其他] （在 [批註] 欄中指定）。 | |
+> | 哪些團隊功能和形式正在使用中？ | <input type="checkbox">頻道式交談 <br/> <input type="checkbox">私人聊天 <br/> <input type="checkbox">來賓存取 <br/> <input type="checkbox">頻道會議 <br/> <input type="checkbox">私人會議 <br/> <input type="checkbox">私人通話 <br/> <input type="checkbox">點對點通道頻道 <br/> <input type="checkbox">會議中的影片 <br/> <input type="checkbox">會議中的螢幕共用 <br/> <input type="checkbox">音訊會議 <br/><input type="checkbox">應用程式（應用程式）<br> &nbsp;&nbsp; &nbsp; <input type="checkbox"><br>&nbsp;&nbsp; Bot &nbsp; <input type="checkbox"> <br>&nbsp;&nbsp;連接器&nbsp; <input type="checkbox"><br><input type="checkbox">自訂雲端儲存整合 <br>&nbsp;&nbsp; （Dropbox、Box、ShareFile、Google Drive、 &nbsp; Egnyte） <br/> <input type="checkbox">通道電子郵件整合 <br/> <input type="checkbox">[其他] （在 [批註] 欄中指定）。 | |
 > | 您已將哪些應用程式部署至團隊？ | | |
 > | 您是否已明確封鎖任何團隊功能？ <br/>如果是，請記下 [批註] 欄中的詳細資料。 | <input type="checkbox">是的 <br/> <input type="checkbox">不 ||
 > | 哪些團隊客戶在使用中？ | <input type="checkbox">網站 <br/> <input type="checkbox">時間 <br/> <input type="checkbox">版 <br/> <input type="checkbox">且 <br/> <input type="checkbox">Android <br/> <input type="checkbox">Windows Mobile | |
@@ -109,7 +109,7 @@ ms.locfileid: "42706923"
 
 如有需要，請使用下面的範例表格來捕獲商務用 Skype Online 部署的詳細資料。 如果您尚未部署商務用 Skype Online 部署，請略過此區段。
 
-> | 關鍵字 | 自動回應 | 批註 |
+> | 關鍵字 | 自動回應 | 註解 |
 > |---|---|---|
 > | 啟用 Skype 的使用者類型 <br>商務用 Online？ | <input type="checkbox">組織中的所有使用者 <br/> <input type="checkbox">特定使用者/使用者群組 <br>&nbsp;&nbsp; （在 [批註] 欄中&nbsp;指定） | |
 > | 目前的形式及功能 <br>目前正在使用中嗎？ | <input type="checkbox">立即訊息和目前狀態（IM/P）<br/> <input type="checkbox">舉行 <br/> <input type="checkbox">聯盟 <br/> <input type="checkbox">會議錄製 <br/> <input type="checkbox">Microsoft 音訊會議 <br/> <input type="checkbox">協力廠商音訊會議 <br>&nbsp;&nbsp; （請注意 [批註] 欄中的詳細資料&nbsp;）。 <br/> <input type="checkbox">通話方案（以前稱為 PSTN 通話） <br/> <input type="checkbox">組織自動語音應答 <br/> <input type="checkbox">通話佇列 | |
@@ -121,7 +121,7 @@ ms.locfileid: "42706923"
 
 如果適用的話，請使用下表中的範例資料表，來捕獲商務用 Skype 部署的詳細資料。 如果您尚未部署商務用 Skype 內部部署，請略過此區段。
 
-> | 關鍵字 | 自動回應 | 批註 |
+> | 關鍵字 | 自動回應 | 註解 |
 > |---|---|---|
 > | 目前所用的 Lync 或商務用 Skype 版本 <br>部署于內部部署？ | <input type="checkbox">Office 通訊伺服器 2007 "R1" <br/> <input type="checkbox">Office 通訊伺服器 2007 R2 <br/> <input type="checkbox">Lync Server 2010 <br/> <input type="checkbox">Lync Server 2013 <br/> <input type="checkbox">商務用 Skype Server 2015 <br/> <input type="checkbox">商務用 Skype Server 2019 <br/> <input type="checkbox">商務用 Skype 雲端連接器版本 | |
 > | 是否與設定的商務用 Skype Online 混合？ | <input type="checkbox">是的 <br/> <input type="checkbox">不 | |
@@ -136,7 +136,7 @@ ms.locfileid: "42706923"
 
 您可以使用下表來捕獲貴組織的網路詳細資料，以及您的使用者（或將要）連線至 Office 365 服務的方式。
 
-> | 關鍵字 | 自動回應 | 批註 |
+> | 關鍵字 | 自動回應 | 註解 |
 > |---|---|---|
 > | 如何（或如何）將遷移範圍中的使用者 <br>在 office 中時存取團隊？ <br/>選取 [所有適用的]。 | <input type="checkbox">路由 NAT 連線 <br/> <input type="checkbox">Proxy 伺服器 <br/> <input type="checkbox">公用 Wi-fi <br/> <input type="checkbox">受管理（非公用） Wi-fi <br/> <input type="checkbox">ExpressRoute （Microsoft 對等） ||
 > | 如果您是透過 proxy 伺服器存取 Office 365，就是 <br>您可以用任何方式來避開 proxy？ | <input type="checkbox">是的 <br/> <input type="checkbox">不 | |
@@ -152,7 +152,7 @@ ms.locfileid: "42706923"
 
 使用下表來捕獲所使用之用戶端與端點的詳細資料。
 
-> | 關鍵字 | 自動回應 | 批註 |
+> | 關鍵字 | 自動回應 | 註解 |
 > |---|---|---|
 > | 使用者使用的是哪些桌面作業系統？ | <input type="checkbox">Windows XP <br/> <input type="checkbox">Windows 7 <br/> <input type="checkbox">Windows 8 <br/> <input type="checkbox">Windows 10 <br/> <input type="checkbox">Mac （在 [批註] 欄中指定版本）。 <br/> <input type="checkbox">Linux （在 [批註] 欄中指定散佈）。） <br/> <input type="checkbox">其他（請注意 [批註] 欄中的詳細資料）。 | |
 > | 部署的 Microsoft Office 版本 <br>在這些裝置上？ | <input type="checkbox">Office 2003 <br/> <input type="checkbox">Office 2007 <br/> <input type="checkbox">Office 2010 <br/> <input type="checkbox">Office 2013 <br/> <input type="checkbox">Office 2016 <br/> <input type="checkbox">Mac 版 Office 2011 <br/> <input type="checkbox">Mac 版 Office 2016 <br/> <input type="checkbox">其他（請注意 [批註] 欄中的詳細資料）。 | |
@@ -161,11 +161,11 @@ ms.locfileid: "42706923"
 > | 行動裝置的提供方式為何？ <br/>選取 [所有適用的]。 | <input type="checkbox">公司裝置 <br/> <input type="checkbox">攜帶您自己的裝置 | |
 > | 使用者目前用來存取的裝置 <br>語音和會議服務 <br>（話筒、耳機、手機、影片）？ | | |
 
-## <a name="operations"></a>作業
+## <a name="operations"></a>營運
 
 您可以使用下表來捕獲環境中運作方面的詳細資料。
 
-> | 關鍵字 | 自動回應 | 批註 |
+> | 關鍵字 | 自動回應 | 註解 |
 > |---|---|---|
 > | Lync Server 的操作模型是什麼？ <br>商務用 Skype Server 或 Office 365 部署 <br>即刻? | | |
 > | 您可以將目前的支援方案大綱 <br>Lync Server、商務用 Skype Server 或 Office 365？ | | |
@@ -181,7 +181,7 @@ ms.locfileid: "42706923"
 使用下表，並捕獲貴組織目前的採用及準備狀態。
 
 >
-> | 關鍵字 | 自動回應 | 批註 |
+> | 關鍵字 | 自動回應 | 註解 |
 > |---|---|---|
 > | 您目前的使用方式 <br>商務用 Skype？ | **__** % 總作用中使用者與已啟用的使用者 | |
 > | 貴組織的使用方式 <br>商務用 Skype？ | 1:1 交談 <br>&nbsp;&nbsp; IM &nbsp; <input type="checkbox"> <br>&nbsp;&nbsp;通話&nbsp; <input type="checkbox"> <br>&nbsp;&nbsp;共用&nbsp; <input type="checkbox"><br> 會議 <br>&nbsp;&nbsp;會議&nbsp; <input type="checkbox"><br>&nbsp;&nbsp;共用&nbsp; <input type="checkbox"><br>&nbsp;&nbsp;通話&nbsp; <input type="checkbox"> | |

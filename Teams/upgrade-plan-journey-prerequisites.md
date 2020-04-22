@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ec634105f87c548ed962bdf9f098298f01f1e93e
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: f340146225d7e386233e727bb8c5d181db7f15fb
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706863"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776718"
 ---
 # <a name="prerequisites-and-environmental-dependencies-for-teams"></a>團隊的先決條件與環境相依性
 
@@ -38,7 +38,7 @@ ms.locfileid: "42706863"
 
 團隊會結合多個 Office 365 服務，因此請視這些服務的正確實現與運作而定。 這些服務包括（但不限於） SharePoint Online、Exchange Online 和商務用 OneDrive。
 
-雖然並非所有服務都是必要的，但我們強烈建議您實現所有服務。 如果您選擇不執行某些服務，會影響團隊可為您的組織提供的功能。 例如，雖然您不需要執行 SharePoint Online，但小組會針對特定的功能（例如群組交談中的檔案共用）依賴 SharePoint Online，因此不需要執行這項服務，就能減少透過端.
+雖然並非所有服務都是必要的，但我們強烈建議您實現所有服務。 如果您選擇不執行某些服務，會影響團隊可為您的組織提供的功能。 例如，雖然您不需要執行 SharePoint Online，但小組會針對特定的功能（例如群組交談中的檔案共用）而依賴 SharePoint Online，因此不需要執行此服務就能減少透過用戶端提供的功能。
 
 請參閱下列文章以瞭解先決條件，以及團隊如何與其他技術互動：
 
@@ -52,7 +52,7 @@ ms.locfileid: "42706863"
 
 - 如果您的組織沒有 SharePoint Online，請參閱[瞭解 Sharepoint online 與商務用 OneDrive 與 Microsoft 團隊互動的方式](SharePoint-OneDrive-interact.md)。
 
-- 瞭解[Office 365 群組與 Microsoft 團隊互動](Office-365-groups.md)的方式。
+- 瞭解[microsoft 365 群組與 Microsoft 團隊互動](Office-365-groups.md)的方式。
 
 - 如果您的組織是教育機構，且您是使用學生資訊系統，請在部署 Microsoft 團隊之前先[部署學校資料同步](https://docs.microsoft.com/schooldatasync)處理。
 

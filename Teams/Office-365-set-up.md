@@ -1,5 +1,5 @@
 ---
-title: 開啟 Office 365 組織中的小組
+title: 開啟 Microsoft 365 或 Office 365 中的小組
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
 audience: admin
-description: 了解如何為您的 Office 365 組織開啟 Microsoft Teams。
+description: 瞭解如何為您的 Microsoft 365 或 Office 365 開啟 Microsoft 團隊。
 localization_priority: Normal
 f1.keywords:
 - CSH
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b3f4225eceea027a87843f5c92047ce98187ce9e
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: d10e93c1ae5f01a2417502f99ee18ab4d12d7b9d
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136473"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778539"
 ---
 # <a name="turn-on-teams-in-your-organization"></a>開啟組織中的 Teams
 

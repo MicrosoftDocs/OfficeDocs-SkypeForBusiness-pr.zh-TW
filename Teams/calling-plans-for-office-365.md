@@ -1,5 +1,5 @@
 ---
-title: Office 365 的通話方案
+title: Microsoft 365 通話方案
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -25,14 +25,14 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: '瞭解商務用 Skype 選項的通話方案（PSTN 通話方案），以及如何取得貴組織的授權。 '
-ms.openlocfilehash: 7eb6b049761ed7575512b816ea31c86c35c17baf
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 81bf7febe1bece1482c9e882632c6b6bde512207
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825251"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779942"
 ---
-# <a name="calling-plans-for-office-365"></a>Office 365 的通話方案
+# <a name="calling-plans-for-microsoft-365"></a>Microsoft 365 通話方案
 
 呼叫其他商務用 Skype 和 Microsoft 團隊使用者是免費的，但如果您想讓使用者能夠呼叫一般電話，而您還沒有服務提供者撥打語音通話，您必須購買通話方案。 如需詳細資訊，請參閱[電話系統和通話方案](calling-plan-landing-page.md)。
   
@@ -75,7 +75,7 @@ ms.locfileid: "41825251"
 
 - [通話方案的價格](https://go.microsoft.com/fwlink/?LinkId=799761)
     
-- [電話系統價格](https://go.microsoft.com/fwlink/?linkid=799763)
+- [電話系統的定價](https://go.microsoft.com/fwlink/?linkid=799763)
     
 - [音訊會議的定價](https://go.microsoft.com/fwlink/?linkid=799762)
     
@@ -85,7 +85,7 @@ ms.locfileid: "41825251"
   
 - [設定通話方案](set-up-calling-plans.md)
     
-- [Microsoft 團隊附加元件授權](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+- [Microsoft Teams 附加元件授權](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
     
 - [以下是您在 Office 365 中使用電話系統所取得的結果](https://docs.microsoft.com/MicrosoftTeams/here-s-what-you-get-with-phone-system)
     
@@ -94,7 +94,7 @@ ms.locfileid: "41825251"
 
 - [設定商務用 Skype Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     
-- [設定雲端語音信箱 - 系統管理說明](set-up-phone-system-voicemail.md)
+- [設定雲端語音信箱 - 管理說明](set-up-phone-system-voicemail.md)
     
 - [設定通話方案](set-up-calling-plans.md)
     

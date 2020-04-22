@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: 摘要： IT 專業人員應該在規劃商務用 Skype Server 時，查看商務用 Skype Web App 和 Skype 會議應用程式的支援需求。 本文並非適用于這些應用程式的使用者。
-ms.openlocfilehash: f5b402b23cbb49d1605b83b9f54531e26714b1f7
-ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
+ms.openlocfilehash: 0e1ce225f99a112f11d55d76eb8039a10d9aac6b
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43157636"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777788"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>規劃會議用戶端（Web 應用程式和會議應用程式）
  
@@ -70,7 +70,7 @@ Skype 會議應用程式提供簡化的瀏覽器體驗，可供下載及安裝�
 &#x2778; 從 Windows 上的 Chrome 存取 Web 應用程式，將會啟動小型程式，以在內嵌的 Internet Explorer 框架中載入 Web 應用程式。 此程式需要安裝其中一個支援的 Internet Explorer 版本，才能正確載入 Web 應用程式。
   
 > [!NOTE]
-> Office 365 使用者可以使用 Internet Explorer 10 或更新版本搭配商務用 Skype。 
+> Microsoft 365 和 Office 365 使用者可以使用 Internet Explorer 10 或更新版本搭配商務用 Skype。 
   
 ### <a name="skype-meetings-app"></a>Skype 會議 App
 

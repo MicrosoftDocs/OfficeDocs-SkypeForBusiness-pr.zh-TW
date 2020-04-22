@@ -1,5 +1,5 @@
 ---
-title: 'Office 365 商務進階版 '
+title: 'Microsoft 365 商務標準版 '
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,17 +20,17 @@ f1.keywords:
 ms.custom:
 - Licensing
 - LIL_Placement
-description: '瞭解附加元件授權、功能，以及如何購買 Office 365 商務版 Premium 方案。 '
-ms.openlocfilehash: 9ffc251fafb9c1304f78d215a2b5c26d17ae9aae
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: '瞭解附加元件授權、功能，以及如何購買 Microsoft 365 商務標準方案。 '
+ms.openlocfilehash: 18e0e16def82354339948f63f958025924e17d1e
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706108"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777408"
 ---
-# <a name="office-365-business-premium"></a>Office 365 商務進階版
+# <a name="microsoft-365-business-standard"></a>Microsoft 365 商務標準版
 
-如果您有[Office 365 商務版 Premium](https://products.office.com/en/business/office-365-business-premium)，您可以使用商務用 Skype 撥打訂閱中的其他人員。 例如，如果您的公司有10人，您可以使用商務用 Skype 呼叫和傳送 IM 給對方。
+如果您有[Microsoft 365 商務標準版](https://products.office.com/en/business/office-365-business-premium)，您可以使用商務用 Skype 撥打訂閱中的其他人員。 例如，如果您的公司有10人，您可以使用商務用 Skype 呼叫和傳送 IM 給對方。
 
  **若要撥打及接聽公司外部人員的來電，您有兩個選項**：
 

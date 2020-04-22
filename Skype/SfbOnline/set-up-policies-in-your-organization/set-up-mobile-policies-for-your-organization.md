@@ -18,17 +18,17 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: 您可以使用行動裝置上的商務用 Skype app 來設定使用者連線到商務用 Skype Online 的方式，例如可讓使用者使用公司電話號碼在手機上撥打及接聽電話的功能，而不是在其行動電話上撥打電話mber. 行動原則也可以用於在撥打或接聽來電時，需要使用 Wi-fi 連線。
-ms.openlocfilehash: 2d608356e08ae989d0be79bd61f14a4d6ba3b9f0
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+description: 您可以使用行動裝置上的商務用 Skype app 來設定使用者連線到商務用 Skype Online 的方式，例如可讓使用者使用公司電話號碼（而不是行動電話號碼）在手機上撥打及接聽電話的功能。 行動原則也可以用於在撥打或接聽來電時，需要使用 Wi-fi 連線。
+ms.openlocfilehash: ac8f94cb7203b3b0ee4698969db0b76cb1e31a49
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41887852"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776258"
 ---
 # <a name="set-up-mobile-policies-for-your-organization"></a>設定組織的行動原則
 
-您可以使用行動裝置上的商務用 Skype app 來設定使用者連線到商務用 Skype Online 的方式，例如可讓使用者使用公司電話號碼在手機上撥打及接聽電話的功能，而不是在其行動電話上撥打電話mber. 行動原則也可以用於在撥打或接聽來電時，需要使用 Wi-fi 連線。
+您可以使用行動裝置上的商務用 Skype app 來設定使用者連線到商務用 Skype Online 的方式，例如可讓使用者使用公司電話號碼（而不是行動電話號碼）在手機上撥打及接聽電話的功能。 行動原則也可以用於在撥打或接聽來電時，需要使用 Wi-fi 連線。
   
 行動原則設定可以在建立原則時設定，或者您可以使用**CsMobilityPolicy** Cmdlet 來修改現有原則的設定。
   
@@ -55,7 +55,7 @@ ms.locfileid: "41887852"
     
     1. 從 [**開始] 功能表** > 中的 [**Windows PowerShell**]。
         
-    2. 在**Windows PowerShell**視窗中，執行下列動作以連線到您的 Office 365 組織：
+    2. 在**Windows PowerShell**視窗中，執行下列動作以連線至您的 Microsoft 365 或 Office 365：
         
         > [!NOTE]
         > 您在第一次使用商務用 Skype Online Windows PowerShell 模組時，您只需執行匯**入模組**命令。

@@ -16,12 +16,12 @@ MS.collection:
 description: 瞭解如何使用 Microsoft 團隊系統管理中心的 [小組 PSTN 使用量] 報告，以取得貴組織中通話和音訊會議的使用方式的概覽。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3372bc77a4850da0690c2076c5858812e3e80452
-ms.sourcegitcommit: a4fd238de09366d6ed33d72c908faff812da11a5
+ms.openlocfilehash: c35699093168f5bb0443277f65da9a8060f27b69
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42637190"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778249"
 ---
 # <a name="microsoft-teams-pstn-usage-report"></a>Microsoft 團隊 PSTN 使用方式報告
 
@@ -134,7 +134,7 @@ CSV 的第一列包含資料行名稱。 所有日期都是 UTC，且是[ISO 860
 | :-: | :-: | :-: |:------------------- |
 | 0 | Id | `uniqueidentifier` | 唯一的呼叫識別碼 |
 | 1 | SIP 位址 | `nvarchar(128)` | 撥打或接聽電話的使用者或 bot 的位址。<br/>請注意，這實際上是 Azure Active Directory 中的實際 UserPrincipalName （UPN，登入名稱），通常與 SIP 位址相同 |
-| pplx-2 | 顯示名稱 | `nvarchar(128)` | 在 Office 365 入口網站中設定的使用者名稱或通話 bot （例如通話佇列或自動語音應答） |
+| pplx-2 | 顯示名稱 | `nvarchar(128)` | 在 Microsoft 365 系統管理中心設定的使用者名稱或通話 bot （例如通話佇列或自動語音應答） |
 | 3 | 使用者所在國家/地區 | `nvarchar(2)` | 使用者的國家/地區代碼， [ISO 3166-1 Alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
 | 4 | 邀請時間 | `datetimeoffset` | 當初始邀請是從團隊使用者或 bot 呼叫到 SBC，或從 SBC 直接路由的 SIP Proxy 元件呼叫給團隊或 bot 撥入時 |
 | 500 | 開始時間 | `datetimeoffset` | SIP proxy 收到最終的答案（SIP 訊息 "200 OK"）的時間，即從輸出的 SBC （團隊/Bot 到 PSTN 使用者），或 SIP Proxy 在撥入呼叫（PSTN 使用者至團隊/Bot）之後，將邀請傳送至團隊後端的下一個躍點。<br/>對於失敗與未接聽的通話，這可以等於邀請或失敗時間 |

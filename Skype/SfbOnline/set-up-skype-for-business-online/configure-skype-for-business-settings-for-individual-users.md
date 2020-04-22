@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.UsersGeneralOptions
 - ms.lync.lac.UsersLyncToPhoneMoreInfo
 description: '瞭解如何變更個別使用者的商務用 Skype 設定，例如音訊與視訊會議、通話和會議的錄製。 '
-ms.openlocfilehash: 756de9829194139f39c7618e0c8bbd74f3418264
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 5247d814429d8d1f62fe9ea963aa76b7aafe40df
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010886"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776318"
 ---
 # <a name="admins-configure-skype-for-business-settings-for-individual-users"></a>系統管理員：針對個別使用者設定商務用 Skype 設定
 
@@ -45,9 +45,9 @@ ms.locfileid: "42010886"
 
 您必須具備系統[管理員許可權](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)才能執行這些步驟。
 
-![](../images/sfb-logo-30x30.png) **使用商務用 skype 系統管理中心**顯示商務用 skype 標誌的圖示
+![商務用 Skype 標誌圖示](../images/sfb-logo-30x30.png) **使用商務用 Skype 系統管理中心**
   
-1. 使用您的公司或學校帳戶登入 Office 365。
+1. 使用您的公司或學校帳戶登入。
     
 2. 選擇系統**管理中心** > **的商務用 Skype**。
     
@@ -84,7 +84,7 @@ ms.locfileid: "42010886"
     
    - **外部 Skype 使用者**：如果您不希望使用者能夠與使用 freeSkype 應用程式的人員進行通訊，請清除此方塊。
     
-3. 按一下 [**儲存**]。
+3. 按一下 [儲存]****。
     
 若要大量設定這些設定，請使用 PowerShell。 請參閱[設定您的 Windows PowerShell 電腦](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)。
   

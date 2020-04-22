@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '若要將電話撥入式會議授權及會議 ID 指派給使用者和許多其他電話撥入式會議設定，請參閱商務用 Skype Online 步驟。 '
-ms.openlocfilehash: 46f55ba256759d86e93e9436e949ee49ff337f7c
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 9567c8234c0ef7a5b65c5894666747eab3cff7a5
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41986518"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777978"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-skype-for-business-online"></a>在商務用 Skype Online 中管理我組織的音訊會議設定
 
@@ -43,12 +43,12 @@ ms.locfileid: "41986518"
 
  **指派使用者的授權**
 
-1. 使用您的公司或學校帳戶登入 Office 365。
+1. 使用您的公司或學校帳戶登入。
 
 2. 在系統管理中心的左側導覽中，移至 [**使用者** > 作用中的**使用者**]，然後從可用使用者清單中選取使用者。
 
     > [!NOTE]
-    > 如果您要同時指派授權給20個以上的使用者，您可以使用 [**選取視圖**] 下拉式清單，然後選擇其中一個選項，或建立您自己的 [視圖]。 然後按一下****[編輯 **]，接著**兩次，選取授權，然後按一下 [**提交**]。 您也可以使用 Windows Powershell，將授權指派給多個使用者。 如需指示與範例 PowerShell 腳本，請參閱[指派商務用 Skype 授權](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)。
+    > 如果您要同時指派授權給20個以上的使用者，您可以使用 [**選取視圖**] 下拉式清單，然後選擇其中一個選項，或建立您自己的 [視圖]。 然後按一下**Edit**[編輯 **]，接著**兩次，選取授權，然後按一下 [**提交**]。 您也可以使用 Windows Powershell，將授權指派給多個使用者。 如需指示與範例 PowerShell 腳本，請參閱[指派商務用 Skype 授權](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)。
 
 3. 在 [**產品授權**] 底下的 [動作] 窗格中，按一下 [**編輯**]。
 
@@ -59,15 +59,15 @@ ms.locfileid: "41986518"
 
 ## <a name="enable-or-disable-emails-sent-to-audio-conferencing-users"></a>啟用或停用傳送給音訊會議使用者的電子郵件
 
-![](../images/sfb-logo-30x30.png) **使用商務用 skype 系統管理中心**顯示商務用 skype 標誌的圖示
+![商務用 Skype 標誌圖示](../images/sfb-logo-30x30.png) **使用商務用 Skype 系統管理中心**
 
-1. 使用您的公司或學校帳戶登入 Office 365。
+1. 使用您的公司或學校帳戶登入。
 
 2. 移至 [系統管理中心] >**商務用 Skype** ，然後在左側導覽中，按一下 [**音訊會議**]。
 
 3. 在 [ **Microsoft 橋接器設定**] 頁面上，選取或清除 [**自動傳送電子郵件給使用者] （如果他們的音訊會議設定已變更**）。
 
-4. 按一下 [**儲存**]。
+4. 按一下 [儲存]****。
 
     您也可以移至使用者的音訊會議屬性，然後按一下 [透過**電子郵件傳送會議資訊**]，以語音會議設定傳送電子郵件給使用者。 會議 ID 和預設的音訊會議電話號碼包含在會議邀請中，但不包含在 PIN 中。
 
@@ -110,7 +110,7 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
 
 ## <a name="reset-the-meeting-conference-id"></a>重設會議 ID
 
-1. 使用您的公司或學校帳戶登入 Office 365。
+1. 使用您的公司或學校帳戶登入。
 
 2. 移至 [系統管理中心] > [**商務用 Skype**]。
 
@@ -128,7 +128,7 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
 使用者排程的每個會議都會指派唯一的會議 ID。 雖然系統會自動建立會議 ID 並將其指派給使用者，但有時候使用者不想要使用此識別碼，而且您想要將它設定為特定的數位，或者您的使用者無法記住或遺失其會議 ID。 您可以使用商務用 Skype 系統管理中心和 Windows PowerShell 來查看、變更及重設其會議 ID。
 
 
-1. 使用您的公司或學校帳戶登入 Office 365。
+1. 使用您的公司或學校帳戶登入。
 
 2. 移至 [系統管理中心] >**商務用 Skype** ，然後在左側導覽中，按一下 [**音訊會議**]。
 
@@ -142,7 +142,7 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
 
 ## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>使用音訊會議資訊傳送電子郵件給使用者
 
-1. 使用您的公司或學校帳戶登入 Office 365。
+1. 使用您的公司或學校帳戶登入。
 
 2. 移至 [系統管理中心] >**商務用 Skype** ，然後在左側導覽中，按一下 [**音訊會議**]。
 
@@ -157,7 +157,7 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
 
 ## <a name="setting-the-phone-numbers-included-on-invites"></a>設定邀請中包含的電話號碼
 
-1. 使用您的公司或學校帳戶登入 Office 365。
+1. 使用您的公司或學校帳戶登入。
 
 2. 移至 [系統管理中心] > [**商務用 Skype**]。
 
@@ -165,7 +165,7 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
 
 4. 在 [動作] 窗格中，您可以設定**付費電話號碼**，並在允許的情況下撥打免費**電話號碼**。
 
-5. 按一下 [**儲存**]。
+5. 按一下 [儲存]****。
 
 請參閱[設定邀請中包含的電話號碼](set-the-phone-numbers-included-on-invites.md)。
 
@@ -175,7 +175,7 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
 **設定呼叫者加入會議時的會議體驗**
 
 
-1. 使用您的公司或學校帳戶登入 Office 365。
+1. 使用您的公司或學校帳戶登入。
 
 2. 移至 [系統管理中心] > [**商務用 Skype**]。
 
@@ -195,7 +195,7 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
   
  **設定會議的 PIN 長度**
 
-1. 使用您的公司或學校帳戶登入 Office 365。
+1. 使用您的公司或學校帳戶登入。
 
 2. 移至 [系統管理中心] > [**商務用 Skype**]。
 
@@ -209,13 +209,13 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
   
  **啟用或停用傳送電子郵件給音訊使用者的電子郵件**
 
-1. 使用您的公司或學校帳戶登入 Office 365。
+1. 使用您的公司或學校帳戶登入。
 
 2. 移至 [系統管理中心] >**商務用 Skype** ，然後在左側導覽中，按一下 [**音訊會議**]。
 
 3. 在 [ **Microsoft 橋接器設定**] 頁面上，選取或清除 [**自動傳送電子郵件給使用者] （如果他們的音訊會議設定已變更**）。
 
-4. 按一下 [**儲存**]。
+4. 按一下 [儲存]****。
 
     您也可以移至使用者的音訊會議屬性，然後按一下 [透過**電子郵件傳送會議資訊**]，透過音訊會議設定傳送電子郵件給使用者。
 
@@ -226,7 +226,7 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
 ## <a name="see-and-set-the-primary-default-and-secondary-alternate-languages-on-an-audio-conferencing-bridge"></a>在音訊會議橋中查看及設定主要（預設）和次要（替代）語言
 
 
-1. 使用您的公司或學校帳戶登入 Office 365。
+1. 使用您的公司或學校帳戶登入。
 
 2. 移至 [系統管理中心] > [**商務用 Skype**]。
 
@@ -240,7 +240,7 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
 
 ## <a name="see-audio-conferencing-dial-in-numbers"></a>請參閱音訊會議撥入號碼
 
-1. 使用您的公司或學校帳戶登入 Office 365。
+1. 使用您的公司或學校帳戶登入。
 
 2. 移至 [系統管理中心] > [**商務用 Skype**]。
 
@@ -258,7 +258,7 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
 
 ## <a name="see-a-list-of-users-that-are-enabled"></a>查看已啟用的使用者清單
 
-1. 使用您的公司或學校帳戶登入 Office 365。
+1. 使用您的公司或學校帳戶登入。
 
 2. 移至 [系統管理中心] > [**商務用 Skype**]。
 

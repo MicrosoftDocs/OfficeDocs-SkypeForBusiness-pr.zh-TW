@@ -13,15 +13,15 @@ f1.keywords:
 - NOCSH
 ms.reviewer: anach
 search.appverid: MET150
-description: 瞭解如何從 Office 365 審核記錄中檢索 Microsoft 團隊資料。
+description: 瞭解如何從審核記錄中檢索 Microsoft 團隊資料。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3f53d1a0b5e600de9d38233b243dba3486b88bf1
-ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
+ms.openlocfilehash: 9b1235dcd1a33800185eb005f5e309204790c5b1
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "42341621"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778889"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>在 [審核記錄] 中搜尋 Microsoft 團隊中的事件
 
@@ -41,11 +41,11 @@ ms.locfileid: "42341621"
 > [!NOTE]
 > 來自專用通道的審核事件也會記錄為針對團隊和標準通道的活動。
 
-若要查看在 Office 365 中審核之活動的完整清單，請閱讀[在 office 365 安全性 & 合規性中心搜尋審核記錄](https://support.office.com/article/0d4d0f35-390b-4518-800e-0c7ec95e946c)。
+若要查看在 Microsoft 365 中審核之活動的完整清單，請參閱[在 microsoft 365 規範中心搜尋審核記錄](https://support.office.com/article/0d4d0f35-390b-4518-800e-0c7ec95e946c)。
 
 ## <a name="turn-on-auditing-in-teams"></a>在團隊中開啟審核
 
-您必須先在[安全性 & 合規性中心](https://protection.office.com)開啟審核，然後才能查看審核資料。 如需有關開啟審核的協助，請參閱[開啟或關閉 Office 365 審核記錄搜尋](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014)。
+您必須先在[安全性 & 合規性中心](https://protection.office.com)開啟審核，然後才能查看審核資料。 如需有關開啟審核的協助，請參閱[開啟或關閉審核記錄搜尋](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014)。
 
 > [!IMPORTANT]
 > 審核資料只能從您開啟 [審計] 的位置使用。
@@ -65,7 +65,7 @@ ms.locfileid: "42341621"
 
 ![大量刪除所觸發的事件清單的螢幕擷取畫面](media/TeamsExternalUserAddPolicy.png)
 
-此策略的螢幕擷取畫面可讓您命名原則、根據您的業務需求來設定嚴重性、將嚴重性設定為（在此例中為單一活動），然後建立只會只監視加法的參數在非內部使用者，並將此活動限制為 Microsoft 團隊。
+此原則的螢幕擷取畫面可讓您命名原則、根據您的業務需求來設定嚴重性、將其設定為（在此例中為單一活動），然後建立將只會監視非內部使用者的參數，並將此活動限制為 Microsoft 團隊。
 
 然後，就可以在活動記錄中查看來自此原則的結果：
 

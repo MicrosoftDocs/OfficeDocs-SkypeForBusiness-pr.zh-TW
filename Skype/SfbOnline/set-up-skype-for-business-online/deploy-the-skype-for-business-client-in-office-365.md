@@ -1,5 +1,5 @@
 ---
-title: 在 Office 365 中部署商務用 Skype 用戶端
+title: 在 Microsoft 365 aor Office 365 中部署商務用 Skype 用戶端
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -19,14 +19,14 @@ f1.keywords:
 ms.custom:
 - Setup
 description: '瞭解如何在小型、中型及大型組織中規劃及部署商務用 Skype，並讓您的使用者使用。 '
-ms.openlocfilehash: 052cc4cb8aa1242628e0f57a57a3fe5532be3d71
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: d7c310935c5fa97873183d18b264616404471895
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706498"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777238"
 ---
-# <a name="deploy-the-skype-for-business-client-in-office-365"></a>在 Office 365 中部署商務用 Skype 用戶端
+# <a name="deploy-the-skype-for-business-client-in-microsoft-365-or-office-365"></a>在 Microsoft 365 或 Office 365 中部署商務用 Skype 用戶端
 
 本文說明您的系統**[管理員](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** 可以如何將商務用 Skype 應用程式部署到貴組織中的人員的選項。
   
@@ -39,7 +39,7 @@ ms.locfileid: "41706498"
 
  **逐步安裝指示：** 如果您有小型或中型企業版，我們建議您只要求您的使用者在電腦上安裝商務用 Skype 應用程式。 請將其指向以下指示：[安裝商務用 Skype](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb)。 如果他們使用 Mac，請將其指向[針對 Office 365 設定 Lync For Mac 2011](https://support.office.com/article/ae3ebd0e-a1a7-48cf-9350-36b144dc5f88)。 商務用 Skype app 是獨立于其他 Office 應用程式安裝的。
   
- **Office 365 專業增強版客戶：** 如果您的企業使用的是包含 Office 365 專業增強版的 Office 365 方案（例如 E3 方案），則在您的使用者下載及安裝 Word、Excel、PowerPoint 等時，就會安裝商務用 Skype 應用程式。這也表示他們無法卸載商務用 Skype，除非他們已卸載所有的 Office。
+ **適用于企業客戶的 Microsoft 365 應用程式：** 如果您的企業使用的是包含適用于企業的 Microsoft 365 應用程式的 Office 365 方案（例如 E3 方案），則在您的使用者下載及安裝 Word、Excel、PowerPoint 等時，就會安裝商務用 Skype 應用程式。這也表示他們無法卸載商務用 Skype，除非他們已卸載所有的 Office。
   
 ### <a name="choose-whether-to-make-skype-for-business-available-to-your-users"></a>選擇是否要讓您的使用者使用商務用 Skype
 
@@ -78,9 +78,9 @@ ms.locfileid: "41706498"
   
 - 如[手動將商務用 skype 部署給使用者](deploy-the-skype-for-business-client-in-office-365.md#bkmk_manual_1)，請從 Microsoft 365 系統管理中心將商務用 skype 應用程式下載到您的本機網路。
     
-- 使用**[Office 部署工具](https://go.microsoft.com/fwlink/p/?LinkID=626065)**，將 Office 365 專業增強版或商務用 Skype 應用程式下載到您的本機網路。 然後，使用 Office 部署工具，將應用程式部署到您的使用者。 Office 部署工具可讓您控制部署的特定方面，例如語言與版本（32位或64位）。
+- 使用**[Office 部署工具](https://go.microsoft.com/fwlink/p/?LinkID=626065)**，將適用于企業的 Microsoft 365 App 或商務用 Skype 應用程式下載到您的本機網路。 然後，使用 Office 部署工具，將應用程式部署到您的使用者。 Office 部署工具可讓您控制部署的特定方面，例如語言與版本（32位或64位）。
     
-- 使用您現有的軟體部署工具和程式（例如 Microsoft 端點建構管理員），將 Office 365 專業增強版或商務用 Skype 應用程式部署到您的使用者。 您可以在[Office 部署工具](https://go.microsoft.com/fwlink/p/?LinkID=626065)或從 Microsoft 365 系統管理中心下載的軟體中使用現有的工具和程式。
+- 使用您現有的軟體部署工具和程式（例如 Microsoft 端點建構管理員），將適用于企業的 Microsoft 365 app 或商務用 Skype 應用程式部署到您的使用者。 您可以在[Office 部署工具](https://go.microsoft.com/fwlink/p/?LinkID=626065)或從 Microsoft 365 系統管理中心下載的軟體中使用現有的工具和程式。
     
 ### <a name="more-info-on-using-the-office-deployment-tool"></a>有關使用 Office 部署工具的詳細資訊
 
@@ -112,7 +112,7 @@ ms.locfileid: "41706498"
     
 - [使用 Configuration Manager 部署應用程式](https://docs.microsoft.com/configmgr/apps/deploy-use/deploy-applications)
     
-如果您是在部署 Office 365 專業增強版時部署商務用 Skype app，請參閱[使用 Configuration Manager 管理 Office 365 專業增強版](https://docs.microsoft.com/configmgr/sum/deploy-use/manage-office-365-proplus-updates)。
+如果您要部署適用于企業的 Microsoft 365 應用程式的商務用 Skype app，請參閱[使用 Configuration Manager 管理企業版 microsoft 365 應用](https://docs.microsoft.com/configmgr/sum/deploy-use/manage-office-365-proplus-updates)程式。
   
 ## <a name="planning-for-updates-to-the-skype-for-business-app"></a>規劃商務用 Skype 應用程式的更新
 
@@ -132,11 +132,11 @@ ms.locfileid: "41706498"
   
 如需有關 Office 365 軟體更新運作方式的詳細資訊，請參閱下列文章：
   
-- [Office 365 專業增強版更新程式概覽](https://technet.microsoft.com/library/dn761709.aspx)
+- [適用于企業版 Microsoft 365 應用程式的更新程式概覽](https://technet.microsoft.com/library/dn761709.aspx)
     
-- [選擇管理 Office 365 專業增強版更新的方式](https://technet.microsoft.com/library/dn761707.aspx)
+- [選擇管理 windows 版 Microsoft 365 應用程式的更新方式](https://technet.microsoft.com/library/dn761707.aspx)
     
-- [設定 Office 365 專業增強版的更新設定](https://technet.microsoft.com/library/dn761708.aspx)
+- [為適用于企業的 Microsoft 365 應用程式設定更新設定](https://technet.microsoft.com/library/dn761708.aspx)
     
   **取得功能更新的頻率**
   
@@ -148,7 +148,7 @@ ms.locfileid: "41706498"
     
 針對某些組織，他們想要時間來測試新功能，因此他們想要每年只取得兩次的功能更新，而不是每個月。
   
-您可以透過使用 Office 部署工具或群組原則來設定更新通道，以控制您取得功能更新的頻率。 每月頻道可讓您每月（約）的功能更新，而半年通道提供每六個月的功能更新。 如需有關通道的詳細資訊，請參閱[Office 365 專業增強版更新通道的概覽](https://support.office.com/article/9ccf0f13-28ff-4975-9bd2-7e4ea2fefef4)。
+您可以透過使用 Office 部署工具或群組原則來設定更新通道，以控制您取得功能更新的頻率。 每月頻道可讓您每月（約）的功能更新，而半年通道提供每六個月的功能更新。 如需有關通道的詳細資訊，請參閱適用[于企業的 Microsoft 365 應用程式更新通道的概覽](https://support.office.com/article/9ccf0f13-28ff-4975-9bd2-7e4ea2fefef4)。
   
 ## <a name="related-topics"></a>相關主題
 

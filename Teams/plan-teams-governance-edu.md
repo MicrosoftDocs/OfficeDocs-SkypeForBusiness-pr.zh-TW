@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 18476e043268d8b51fdf877b27e23eb926a1885e
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 79b6e33c6434a1242b7d30322aff77b62f1b42fd
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137783"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780212"
 ---
 # <a name="microsoft-education-governance-faq-for-admins"></a>適用於系統管理員的 Microsoft 教育版控管常見問題集
 
@@ -31,14 +31,14 @@ ms.locfileid: "43137783"
 
 ## <a name="how-do-i-control-team-creation-im-worried-students-are-going-to-create-inappropriate-teams"></a>如何控制小組建立？ 我擔心學生會建立不適當的小組。
 
-若要避免不適當或誤導的名稱，或只是為了提供更多有關團隊命名方式的結構，您可以使用 Office 365 群組命名原則（目前在預覽中）：
+若要避免不適當或令人誤解的名稱，或只是為了提供更多有關團隊命名方式的結構，您可以使用 Microsoft 365 群組命名原則（目前在預覽中）：
 
 -   **前置詞尾碼命名原則**您可以使用 [首碼] 或 [尾碼] 定義小組（群組）的命名慣例，例如**GRP_US_My Group_Engineering**]。 首碼和尾碼可以是固定字串或使用者屬性（例如 **[部門]**），根據建立小組的使用者，新增到名稱中。
 -   **自訂封鎖的單字**您可以上傳特定組織中的使用者在其建立的小組名稱中封鎖的一組字。 例如，您可以封鎖條款**CEO**、**工資**與**HR**在小組名稱中用於不適用的群組。
 -   **分類**您可以建立組織中的使用者在建立 Office 365 群組時可以設定的分類。 
 
 > [!IMPORTANT]
-> 使用 Office 365 群組命名原則時，必須具備 Azure Active Directory Premium P1 授權或 Azure AD 基本 EDU 授權，以提供一或多個 Office 365 群組成員的每個唯一使用者。
+> 使用 Microsoft 365 群組命名原則時，必須具備 Azure Active Directory Premium P1 授權或 Azure AD 基本 EDU 授權，才能針對一或多個 Microsoft 365 群組成員的每個唯一使用者。
 
 如需詳細指示，請參閱[Office 群組命名原則](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552)。
 
@@ -55,13 +55,13 @@ ms.locfileid: "43137783"
 
 在我們的經驗中，使用者教育有助於確保責任團隊的使用。 只要使用者瞭解建立團隊不是匿名的，他們就能瞭解 carelessly 建立小組的意義，並傾向于 shy 離開工具。
 
-如果您確定要控制誰可以建立團隊，請參閱[管理可建立 Office 365 群組的人員](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618)。
+如果您確定要控制誰可以建立團隊，請參閱[管理可建立 Microsoft 365 群組的人員](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618)。
 
 ## <a name="how-do-i-automatically-create-a-team-for-each-course-at-the-beginning-of-the-semester-or-quarter"></a>如何在學期或季開始時為每個課程自動建立小組？
 
 在每個學期或季的開始，您需要有許多新團隊。 您可以採取自動化方法來自動建立這些團隊、使用正確的使用者進行填充，並設定正確的許可權：
 
--   學校資料同步處理可建立適用于 Exchange Online 和 SharePoint Online 的 Office 365 群組、Microsoft 團隊的課程小組以及 OneNote 課程筆記本、適用于 Intune 的學校小組，以及針對許多其他協力廠商應用程式的 rostering 及單一登入（SSO）整合。 深入瞭解[學校資料同步處理的概覽](https://docs.microsoft.com/schooldatasync/overview-of-school-data-sync)。
+-   學校資料同步處理可建立適用于 Exchange Online 和 SharePoint Online 的 Microsoft 365 群組、Microsoft 團隊的課程小組以及 OneNote 課程筆記本、適用于 Intune 的學校小組，以及針對許多其他協力廠商應用程式的 rostering 及單一登入（SSO）整合。 深入瞭解[學校資料同步處理的概覽](https://docs.microsoft.com/schooldatasync/overview-of-school-data-sync)。
 -   您可以使用 PowerShell 建立團隊和頻道，並自動設定設定。 如需詳細資訊，請參閱[Microsoft 團隊 PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) 。
 -   您可以使用 Microsoft Graph API （目前在 Beta 版）來建立、設定、克隆及封存小組。 如需詳細資訊，請參閱[使用 Microsoft GRAPH API 與 Microsoft 團隊共同作業](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview)。
 
@@ -78,7 +78,7 @@ ms.locfileid: "43137783"
 -   封存**團隊：** 此設定會將團隊放入唯讀模式。 他們仍然可以流覽和搜尋，但沒有人可以新增任何新的文章。 封存[或還原團隊](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7)說明團隊擁有者如何封存團隊;小組擁有者也可以使用[圖形 API （Beta）](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview)來封存或還原團隊。
  
 > [!IMPORTANT]
-> 使用 Office 365 群組過期原則，對於屬於一或多個 Office 365 群組的每個唯一使用者，都需要 Azure Active Directory Premium P1 授權。
+> 使用 Microsoft 365 群組過期原則，對於屬於一或多個 Microsoft 365 群組成員的每個唯一使用者，都需要 Azure Active Directory Premium P1 授權。
 
 ## <a name="are-there-team-templates-for-my-faculty-members-to-use-when-creating-a-team"></a>在建立小組時，是否有供教職員成員使用的小組範本？
 
@@ -122,10 +122,10 @@ ms.locfileid: "43137783"
 您可以使用來賓存取來邀請來自您租使用者以外的使用者，這對於研究共同作業或訪客講座很有用：
 
 -   使用網域 whitelisting 根據其網域來允許或封鎖來賓。
--   針對特定的 Office 365 群組和團隊開啟和關閉來賓存取權，以控制哪些團隊可以（且不能）邀請來賓。
+-   針對特定 Microsoft 365 群組和團隊開啟和關閉來賓存取權，以控制哪些團隊可以（且不能）邀請來賓。
 -   使用審核記錄來查看哪些通知已傳送給受邀的來賓。
 
-如需詳細資訊，請參閱[Office 365 群組中的來賓存取權](https://support.office.com/article/Guest-access-in-Office-365-Groups-bfc7a840-868f-4fd6-a390-f347bf51aff6#PickTab=Manage)。
+如需詳細資訊，請參閱[Microsoft 365 群組中的來賓存取權](https://support.office.com/article/Guest-access-in-Office-365-Groups-bfc7a840-868f-4fd6-a390-f347bf51aff6#PickTab=Manage)。
 
 ## <a name="what-information-can-i-review-about-existing-teams"></a>我可以查看現有團隊的哪些資訊？
 

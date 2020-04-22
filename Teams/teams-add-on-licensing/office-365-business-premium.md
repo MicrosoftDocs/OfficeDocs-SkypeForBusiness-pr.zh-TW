@@ -1,5 +1,5 @@
 ---
-title: 'Office 365 商務進階版 '
+title: 'Microsoft 365 商務標準版 '
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,17 +18,17 @@ localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
-description: '瞭解附加元件授權、功能，以及如何購買 Office 365 商務版 Premium 方案。 '
-ms.openlocfilehash: b51724524f56fe534c95ede85bca7535ab1be396
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+description: '瞭解附加元件授權、功能，以及如何購買 Microsoft 365 商務標準方案。 '
+ms.openlocfilehash: 20aacf46acf60bb581056654babc85277f41ee45
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826561"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780502"
 ---
-# <a name="office-365-business-premium"></a>Office 365 商務進階版
+# <a name="microsoft-365-business-standard"></a>Microsoft 365 商務標準版
 
-如果您有[Office 365 商務版 Premium](https://products.office.com/en/business/office-365-business-premium)，您可以使用 Microsoft 團隊撥打訂閱中其他人的電話給其他人。 例如，如果您的公司有10人，您可以使用團隊相互通話和傳送即時消息。
+如果您有[Microsoft 365 商務標準版](https://products.office.com/en/business/office-365-business-premium)，您可以使用 microsoft 團隊撥打訂閱中其他人員的電話給其他人。 例如，如果您的公司有10人，您可以使用團隊相互通話和傳送即時消息。
 
 
 **若要撥打及接聽公司外部人員的來電，您可以使用下列選項**：
