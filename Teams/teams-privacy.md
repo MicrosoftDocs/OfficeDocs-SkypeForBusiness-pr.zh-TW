@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: reference
 ms.service: msteams
 audience: admin
-ms.reviewer: ''
+ms.reviewer: stbyer
 description: Microsoft Teams 的隱私權指導方針和資訊。
 localization_priority: Priority
 search.appverid: MET150
@@ -16,32 +16,39 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 22abb4bc7c5c68d2e628026c96ca5dc40ca87c98
-ms.sourcegitcommit: c40a7ada120180cd39f18b2e37f23223075abbf4
+ms.openlocfilehash: 924aaf1ad9c9d462a454260226b3a5340f0a68e2
+ms.sourcegitcommit: 0fa50d1cf354d79fbaf16b6aaec60e8d3ab852e8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43535569"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43579569"
 ---
 # <a name="privacy-and-microsoft-teams"></a>隱私權和 Microsoft Teams
 
-當組織考慮依賴 Microsoft Teams 進行通訊和共同作業時，隱私權是在每個層級都需要解決的問題。 以下我們所提出的問題，應該可以解決當您規劃 Teams 實作或者在使用 Teams 的任何時間點，可能會有的隱私權考量。
+當組織考慮依賴 Microsoft Teams 進行通訊和共同作業時，隱私權是在每個層級都需要解決的問題。 我們在以下列出的問題，應該可以解決當您規劃 Teams 實作或者在使用 Teams 的任何時間點，可能會有的隱私權考量。
 
-## <a name="what-personal-data-does-teams-collect-and-how-does-teams-use-this-data"></a>Teams 會收集哪些個人資料以及 Teams 如何使用此資料？
+## <a name="what-personal-data-does-microsoft-teams-collect-and-for-what-purposes-does-microsoft-teams-use-this-data"></a>Microsoft Teams 會收集哪些個人資料，以及 Microsoft Teams 將這些資料用於什麼目的？
 
-由於 Teams 是雲端式服務，所有會由 Microsoft 在提供服務的同時，處理及儲存各種類型的資料。 此資料包含：
+Microsoft 處理 Microsoft Teams 中提供的個人資料是為了提供在[線上服務條款](https://go.microsoft.com/fwlink/p/?linkid=2050263)中約定的服務，並且最終用於由取得服務的資料控制者決定的目的。Microsoft Teams 是一項雲端式服務，可於提供服務時處理各種類型的個人資料。 此個人資料包含：
 
-- **客戶資料**客戶資料包括您的會議和交談聊天、語音信箱、共用檔案、記錄和轉譯等內容。 Microsoft 永遠不會存取您的內容。
-  - **設定檔資料**在貴公司內共用，與您有關的資料。 範例包括您的電子郵件地址、設定檔圖片和電話號碼。
-- **通話記錄，通話品質** Microsoft 會維護您通話的詳細歷程記錄。 這可讓您返回並檢閱您自己的通話記錄。 Microsoft 也會將會議及通話資料詳細資料提供給您的系統管理員。 這可讓您的系統管理員診斷與不良通話品質及服務使用狀況相關的問題。 此外，Microsoft 會針對提供服務目的維護通話記錄，例如計費和疑難排解。
-- **支援/意見反應資料** 在您向 Microsoft 開立問題票證或提交意見反應時所建立的資料。 Microsoft 承諾只會使用這些資料來解決您的問題，或改善 Teams 產品。
-- **診斷與服務資料** Microsoft 也會收集與服務使用情況相關的各種遙測資料。 這可讓 Microsoft 提供服務 (疑難排解、保護及更新產品，並監控效能) 以及執行一些內部商務作業。 以下是一些範例：
-  - 決定收入
+- **內容** 您的會議和交談聊天、語音信箱、共用檔案、錄製與轉錄。
+- **設定檔資料** 在公司內共用，與您有關的資料。 範例包括您的電子郵件地址、設定檔圖片和電話號碼。
+- **通話記錄** 一份您撥打的電話的詳細記錄，可讓您返回並檢閱您自己的通話記錄。
+- **通話品質資料** 可供系統管理員使用的會議和通話資料的詳細資料。 這可讓您的系統管理員診斷與不良通話品質及服務使用狀況相關的問題。
+- **支援/意見反應資料** 與疑難排解票證或提交給 Microsoft 的意見反應的相關資訊。
+- **診斷與服務資料** 與服務使用相關的診斷資料。 此個人資料可讓 Microsoft 提供服務 (疑難排解、保護及更新產品，並監控效能) 以及執行一些內部商務作業，例如：
+  - 決定營收
   - 開發計量
   - 決定服務使用情況
   - 執行產品和容量規劃
 
-Microsoft Teams 只會使用提供的資料，根據[線上服務條款](https://go.microsoft.com/fwlink/p/?linkid=2050263) (英文) 中所定義來提供服務。
+就 Microsoft Teams 結合 Microsoft 的合法商務作業處理個人資料的程度，Microsoft 將是這類使用的獨立資料控制者，並將負責遵守所有適用法律和控制者義務。
+
+## <a name="legal-basis-of-processing"></a>處理的法律基礎  
+
+我們的客戶是提供給 Microsoft 資料的控制者，如[線上服務條款](https://go.microsoft.com/fwlink/p/?linkid=2050263)中所述，並且會決定處理的法律基礎。然後，Microsoft 會按照客戶的指示，以處理者身分處理資料。
+
+就 Microsoft 結合其自己的合法商務作業處理個人資料的程度，如[線上服務條款](https://go.microsoft.com/fwlink/p/?linkid=2050263)中所述，Microsoft 將是這類處理的獨立控制者，其法律基礎為合法權益。 「Microsoft 的合法商務作業」包括下列，各項均可做為提供 Microsoft Teams 給客戶的事件：(1) 帳單和帳戶管理；(2) 補償 (例如，計算員工傭金和合作夥伴獎勵)；(3) 內部報告與建模 (例如，預測、收入、容量規劃、產品策略)；(4) 防範可能對 Microsoft 或 Microsoft 產品產生影響的欺詐、網路犯罪或網路攻擊；(5) 改善協助工具、隱私權或能效的核心功能；以及 (6) 財務報告和法律義務遵循。
 
 ## <a name="what-third-parties-have-access-to-personal-data"></a>哪些第三方可以存取個人資料？
 
@@ -82,6 +89,3 @@ Microsoft Teams 會將您的資料保留至提供服務所需的最低時間量�
 ## <a name="contact-details-of-microsofts-data-protection-officer"></a>Microsoft 資料保護長的連絡人詳細資料
 
 如果您有隱私權考量、投訴或有任何問題想要詢問 Microsoft 隱私長和歐盟資料保護長，請使用[我們的 Web 表單](https://go.microsoft.com/fwlink/?LinkId=321116)與我們連絡。 我們的歐盟資料保護長連絡資訊是：Microsoft Place, South County Business Park, Leopardstown, Dublin 18, Ireland。 電話：+353 1 706 3117。 您也可以透過資料保護授權機構或其他具有管轄權的機關，來提出投訴。
-
-> [!IMPORTANT]
-> 本文件與[線上服務條款](https://go.microsoft.com/fwlink/p/?linkid=2050263) (英文) 之間若有任何衝突，則以「線上服務條款」為準。
