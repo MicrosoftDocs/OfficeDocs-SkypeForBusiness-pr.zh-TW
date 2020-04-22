@@ -18,17 +18,17 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: e109d3a8f43d6f989c96709562efbf759c0e562e
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 91e2763fac952b7188284dcf09e6fc0b7cc4bf16
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137693"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43749860"
 ---
 # <a name="quality-of-experience-review-guide"></a>體驗品質的審查指南 
 
 <!-- Note that this link to the Word doc is intentionally NOT the aka.ms/qerquide link -->
-本指南針對 Microsoft 團隊和商務用 Skype Online 的 [磁片磁碟機值] 階段。 您可以下載本指南的[Word 版本](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true)。
+本指南針對 Microsoft 團隊和商務用 Skype Online 的 [磁片磁碟機值] 階段。 
 
 ## <a name="introduction"></a>簡介
 
@@ -478,15 +478,15 @@ CQD 中的許多維度與量值會分類為第一或第二個。 CQD 不使用 [
 
 -   移至 [ **Microsoft 團隊系統管理中心**]，然後選取要 CQD 的連結，如下圖所示。
 
-![已選取 [通話品質儀表板] 的螢幕擷取畫面。](media/qerguide-image-mopo.png "在左側流覽窗格中，[通話品質儀表板] 的 [連結] 已選取。")
+    ![已選取 [通話品質儀表板] 的螢幕擷取畫面。](media/qerguide-image-mopo.png "在左側流覽窗格中，[通話品質儀表板] 的 [連結] 已選取。")
 
-_圖 7-透過 Microsoft 團隊系統管理中心存取 CQD_
+    _圖 7-透過 Microsoft 團隊系統管理中心存取 CQD_
 
 -   移至舊版**商務用 Skype 系統管理中心** > **工具**，然後選取 CQD 的連結，如下圖所示。
 
-![在主要窗格中選取的 CQD 螢幕擷取畫面。](media/qerguide-image-legacyui.png "在左側流覽窗格中選取 [工具]，然後在主窗格中選取 [CQD] 連結。")
+    ![在主要窗格中選取的 CQD 螢幕擷取畫面。](media/qerguide-image-legacyui.png "在左側流覽窗格中選取 [工具]，然後在主窗格中選取 [CQD] 連結。")
 
-_圖 8-透過商務用 Skype 系統管理中心存取 CQD_
+    _圖 8-透過商務用 Skype 系統管理中心存取 CQD_
 
 
 ### <a name="getting-started"></a>快速入門
@@ -634,7 +634,7 @@ _資料表 4-報表篩選_
 
 -   針對每個資料行，如果資料類型是 String，則資料可以是空白（但必須以適當的分隔符號分隔，也就是 Tab 字元或逗號）。 這只會將該欄位指派為空白字串值。
 
--   每個資料列都必須有14個數據行。 每一欄都必須具有下表所述的資料類型，而且這些欄必須按照資料表中所列的順序。
+-   每個資料列必須有14個數據行（如果您想要新增選用的 VPN 欄，則必須是15個）。 每一欄都必須具有下表所述的資料類型，而且這些欄必須按照資料表中所列的順序。
 
 _表 5-建立檔結構_
 

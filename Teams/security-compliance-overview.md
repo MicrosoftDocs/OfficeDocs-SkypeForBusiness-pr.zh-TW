@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 17cf1e32b26edc609bea9e679c9f5ee5f4cc66d2
-ms.sourcegitcommit: f9860dbf3c719fec5ffc1874b503b6db252afe10
+ms.openlocfilehash: 42f6b185a8a09b0aae139175acfc632b84387db8
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "43237896"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43749440"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Microsoft 團隊中的安全性與合規性
 
@@ -118,9 +118,9 @@ Microsoft 團隊中的資料遺失防護（DLP），以及 Office 365 較大型�
 
 我們有一個小組專用文章，如需詳細資訊，請[EDiscovery 電子檔探索](eDiscovery-investigation.md)。
 
-客戶可以根據自己的[需求](https://docs.microsoft.com/microsoft-365/compliance/office-365-advanced-ediscovery)，利用就地 ediscovery 或 [高級 ediscovery]。 下表說明兩個專案之間的差異：
+客戶可以根據電子檔的需求來利用 eDiscovery 或[高級 ediscovery](https://docs.microsoft.com/microsoft-365/compliance/office-365-advanced-ediscovery) 。 下表說明兩個專案之間的差異：
 
-| |就地 eDiscovery  |高級 eDiscovery  |
+| |eDiscovery  |高級 eDiscovery  |
 |---------|---------|---------|
 |案例管理     |X        |X         |
 |存取控制  |X         |X         |

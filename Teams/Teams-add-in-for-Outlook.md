@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 26eb3af88b6e16de0535d25d4b5205a72626b7b2
-ms.sourcegitcommit: df4dde0fe6ce9e26cb4b3da4e4b878538d31decc
+ms.openlocfilehash: ca163d2a705b4aaebc77c03dbf4c92edf9c5d601
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43521529"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43749570"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>在 Outlook 中使用 Teams 會議增益集
 =======================================
@@ -111,22 +111,51 @@ Teams 用戶端會藉由判斷使用者需要 32 位元或 64 位元版本，來
 Teams 會議增益集是仍在建置的功能，因此請注意下列事項：
 
 - 此增益集適用於具有特定參與者的排程會議 (不適用於頻道中的會議)。 頻道會議必須從 Teams 內排程。
-- 如果驗證 Proxy 位於使用者 PC 與 Teams 服務的網路路徑，則增益集將無法運作。
+- 如果驗證 Proxy 位於使用者電腦和團隊服務的網路路徑中，增益集將無法運作。
 - 使用者無法從 Outlook 中安排即時活動。 請移至 Teams 以安排即時活動。 如需詳細資訊，請參閱[什麼是 Microsoft Teams 即時活動？](teams-live-events/what-are-teams-live-events.md)。
+
+深入了解 [Microsoft Teams 中的會議和通話](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)。
 
 ## <a name="troubleshooting"></a>疑難排解
 
+使用下列步驟來疑難排解團隊會議增益集的相關問題。
+
+### <a name="teams-meeting-add-in-in-outlook-for-windows-does-not-show"></a>Windows 版 Outlook 中的 [團隊會議增益集] 不會顯示
+
 如果您無法取得適用於 Outlook 的 Teams 會議增益集，請嘗試這些疑難排解步驟。
 
-- 請確定已套用所有適用於 Outlook 桌面版用戶端的更新。
-- 重新啟動 Teams 桌面版用戶端。
-- 登出 Teams 桌面用戶端，然後重新登入。
-- 重新啟動 Outlook 桌面用戶端。 （請確定 Outlook 未在系統管理員模式下執行）。
+- 確認使用者擁有小組升級原則，可在小組中排程會議。 如需詳細資訊，請參閱[從商務用 Skype 升級至團隊](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings)。
+- 確認使用者擁有允許 Outlook 增益集的小組會議原則。 如需詳細資訊，請參閱[在團隊中管理會議原則](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#allow-the-outlook-add-in)。
+- 確定使用者已安裝 [團隊桌面用戶端]。 只有使用團隊網頁用戶端時，才能安裝會議增益集。
+- 確認使用者有權執行 regsvr32。
+- 確認已套用所有適用于 Outlook 桌面用戶端的更新。
 - 請確認登入的使用者帳戶名稱不含空格。 (這是已知的問題，我們會在未來更新中修正。)
-- 請確定已啟用單一登入 (SSO)。
+- 請遵循下列步驟：
+  - 重新啟動 Teams 桌面版用戶端。
+  - 登出 Teams 桌面用戶端，然後重新登入。
+  - 重新啟動 Outlook 桌面用戶端。 （請確定 Outlook 未在系統管理員模式下執行）。
+
+如果您仍然沒有看到增益集，請確認它沒有在 Outlook 中停用。
+
+- 在 Outlook 中，**選擇 [檔案]，然後**選擇 [**選項**]。
+- 選取 [ **Outlook 選項**] 對話方塊的 [**增益集**] 索引標籤。
+- 確認 microsoft **Office 的 Microsoft 團隊會議載入**宏已列于 [作用中的**應用程式增益集**] 清單中
+- 如果 [團隊會議] 增益集列于 [**停用的應用程式增益集**] 清單中，請選取 [**管理**] 中**的 [COM 增益集**]，然後選取 [執行 **...** ]。
+- 在**Microsoft Office 的 [Microsoft 團隊會議增益集**] 旁，設定核取方塊。
+- 在所有對話方塊中選擇 **[確定]** ，然後重新開機 Outlook。
+
+如需有關如何管理增益集的一般指導方針，請參閱[在 Office 程式中查看、管理及安裝增益集](https://support.office.com/article/View-manage-and-install-add-ins-in-Office-programs-16278816-1948-4028-91E5-76DCA5380F8D)。
+
+如果該增益集仍未顯示，請使用下列步驟驗證登錄設定。
+
+> [!NOTE]
+> 不正確地編輯註冊表可能會嚴重損壞您的系統。 在變更註冊表之前，您應該先備份電腦上任何有價值的資料。
+- 啟動 RegEdit
+- 流覽至 HKEY_CURRENT_USER \Software\Microsoft\Office\Outlook\Addins
+- 確認 TeamsAddin 已存在。
+- 在 TeamsAddin 中，確認 LoadBehavior 存在並設定為3。
+  - 如果 LoadBehavior 的值不是3，請將它變更為3，然後重新開機 Outlook。
+
+### <a name="delegate-scheduling-does-not-work"></a>代理人排程無法運作
 
 如果您的系統管理員已將 Microsoft Exchange 設定為[控制對 Exchange Web 服務器 (EWS) 的存取](https://docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange)，代理人將無法代表老闆安排 Teams 會議。 此設定的解決方案正在開發中，即將在未來發行。 
-
-如需有關如何停用增益集的一般指導方針，請參閱[在 Office 程式中檢視、管理及安裝增益集](https://support.office.com/article/View-manage-and-install-add-ins-in-Office-programs-16278816-1948-4028-91E5-76DCA5380F8D)。
-
-深入了解 [Microsoft Teams 中的會議和通話](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)。

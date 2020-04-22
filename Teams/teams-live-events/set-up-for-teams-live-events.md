@@ -18,43 +18,48 @@ description: 在 Teams 中設定即時活動，包括設定您的網路、指派
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ae30fdb824c62027d1a704435e80df2a9abf1f85
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
-ms.translationtype: HT
+ms.openlocfilehash: 8e3110717cd9279d881415bf1e01d03a1cbee293
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140562"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43749800"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中設定即時活動
 
 設定即時活動時，您必須採取幾個步驟。
 
 ## <a name="step-1-set-up-your-network-for-live-events-in-teams"></a>步驟 1：在 Teams 中針對即時活動設定您的網路
+
 在 Teams 中產生的即時活動，需要您[針對 Teams 準備組織的網路](https://docs.microsoft.com/microsoftteams/prepare-network)。  
 
 ## <a name="step-2-get-and-assign-licenses"></a>步驟 2：取得和指派授權
-確保您擁有[可建立及排程即時活動的人員](plan-for-teams-live-events.md#who-can-create-and-schedule-live-events)和[可監視即時活動的人員](plan-for-teams-live-events.md#who-can-watch-live-events)的正確授權指派。
+
+確保您擁有[可建立及排程即時活動的人員](plan-for-teams-live-events.md#who-can-attend-create-and-schedule-live-events)和[可監視即時活動的人員](plan-for-teams-live-events.md#who-can-watch-live-events)的正確授權指派。
 
 ## <a name="step-3-set-up-live-events-policies"></a>步驟 3：設定即時活動原則
+
 即時活動原則是用來控制組織中的哪些人員可以舉辦即時活動，以及在他們所建立活動中可用的功能。 您可以使用預設原則或建立一或多個自訂即時活動原則。 建立自訂原則之後，請將它指派給組織中一個或一組使用者。
 
 > [!NOTE]
-> 除非您建立並指派自訂原則，否則組織中的使用者將會取得全域原則。 依預設在全域原則中，會為 Teams 使用者啟用即時活動排程，關閉即時的輔助字幕和翻譯字幕 (謄寫)，組織中的每個人都可以加入即時活動，且錄製設定設為永遠錄製。 
+> 除非您建立並指派自訂原則，否則組織中的使用者將會取得全域原則。 依預設在全域原則中，會為 Teams 使用者啟用即時活動排程，關閉即時的輔助字幕和翻譯字幕 (謄寫)，組織中的每個人都可以加入即時活動，且錄製設定設為永遠錄製。
 
 ### <a name="create-or-edit-a-live-events-policy"></a>建立或編輯即時活動原則
+
 <a name="bkcreatepolicy"> </a>
 
 **![顯示 Microsoft Teams 標誌的圖示](../media/teams-logo-30x30.png)使用 Microsoft Teams 系統管理中心**
 
-1. 在左側導覽中，移至 **[會議]**  >  **[即時活動原則]**。 
+1. 在左側導覽中，移至 **[會議]**  >  **[即時活動原則]**。
 2. 執行下列其中一項動作：
-- 如果要編輯現有的預設原則，請選擇 **[全域 (全組織預設值)]**。 
-- 如果要建立新的自訂原則，請選擇 **[新增原則]**。 
-- 如果要編輯自訂原則，請選取該原則，然後選擇 **[編輯]**。 
+
+- 如果要編輯現有的預設原則，請選擇 **[全域 (全組織預設值)]**。
+- 如果要建立新的自訂原則，請選擇 **[新增原則]**。
+- 如果要編輯自訂原則，請選取該原則，然後選擇 **[編輯]**。
 
     以下是您可以根據組織需求變更的設定。
 
-    ![即時活動原則設定的螢幕擷取畫面](../media/teams-live-events-policies.png "Microsoft Teams 系統管理中心即時活動原則設定的螢幕擷取畫面") 
+    ![即時活動原則設定的螢幕擷取畫面](../media/teams-live-events-policies.png "Microsoft Teams 系統管理中心即時活動原則設定的螢幕擷取畫面")
 
 |設定  |描述  |
 |---------|---------|

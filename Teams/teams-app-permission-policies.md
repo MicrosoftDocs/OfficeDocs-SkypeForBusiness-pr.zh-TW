@@ -22,23 +22,23 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: baf3f025dd9b2340f59aee18d72d3707e4cab8fd
-ms.sourcegitcommit: dde63e1b92c0bc3dbb41d8670778b863c3bc9bec
+ms.openlocfilehash: 3382eff6334c3879c1c30d503101446ceaae4df9
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "42601410"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43749810"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>管理 Microsoft 團隊中的 app 許可權原則
 
-身為管理員，您可以使用應用程式許可權原則來控制貴組織中的 Microsoft 團隊使用者可以使用哪些應用程式。 您可以允許或封鎖由 Microsoft、協力廠商及貴組織發佈的所有 app 或特定應用程式。 當您封鎖 app 時，擁有原則的使用者將無法從 [小組 app store] 安裝該應用程式。 您必須是全域管理員或團隊服務系統管理員，才能管理這些原則。
+身為系統管理員，您可以使用應用程式權限原則來控制組織中 Microsoft Teams 使用者可使用的應用程式。 您可以允許或封鎖由 Microsoft、協力廠商及貴組織發佈的所有 app 或特定應用程式。 當您封鎖應用程式時，擁有原則的使用者將無法從 Teams 應用程式商店安裝該應用程式。 您必須是全域系統管理員或 Teams 服務系統管理員，才能管理這些原則。
 
 您可以在 Microsoft 團隊系統管理中心管理 app 許可權原則。 您可以使用全域（組織範圍預設值）原則，或建立並指派自訂原則給群組中的個別使用者或使用者。  
 
 ![App 許可權原則的螢幕擷取畫面](media/app-permission-policies.png)
 
 > [!NOTE]
-> 除非您建立並指派自訂原則，否則貴組織中的使用者會自動取得全域原則。 整個組織內的應用程式設定會覆寫全域原則和您建立並指派給使用者的任何自訂原則。
+> 除非您建立並指派自訂原則，否則貴組織中的使用者將會自動取得全域原則。 整個組織內的應用程式設定會覆寫全域原則和您建立並指派給使用者的任何自訂原則。
 
 如果您的組織已在團隊中，您在 Microsoft 365 系統管理中心的 [整個租使用者]**設定**中所設定的應用程式設定會反映在 [[管理應用程式](manage-apps.md)] 頁面上的 [組織內應用程式設定] 中。 如果您是團隊新手，且剛開始使用，則預設會允許全域原則中的所有 app。 這包含由 Microsoft、協力廠商及貴組織發佈的應用程式。
 
@@ -69,7 +69,7 @@ ms.locfileid: "42601410"
     1. 當您選取 app 清單後，請按一下 [**允許**]。
 
 6. 同樣地，如果您已選取 [**封鎖特定應用程式並允許所有人**]，請搜尋並新增您想要封鎖的 app。
-7. 按一下 [**儲存**]。
+7. 按一下 [儲存]****。
 
 ## <a name="edit-an-app-permission-policy"></a>編輯應用程式許可權原則
 
@@ -78,7 +78,7 @@ ms.locfileid: "42601410"
 1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**團隊 app** > ]**許可權原則**。
 2. 按一下原則名稱左邊的，然後按一下 [**編輯**]，選取原則。
 3. 您可以從這裡進行所要的變更。 您可以根據應用程式發行者管理設定，然後根據 [允許/封鎖] 設定新增及移除應用程式。
-4. 按一下 [**儲存**]。
+4. 按一下 [儲存]****。
 
 ## <a name="assign-a-custom-app-permission-policy-to-users"></a>將自訂應用程式許可權原則指派給使用者
 
@@ -87,17 +87,17 @@ ms.locfileid: "42601410"
 ### <a name="assign-a-custom-app-permission-policy-to-a-user"></a>將自訂應用程式許可權原則指派給使用者
 
 1. 在 Microsoft 團隊系統管理中心的左導覽中，前往 [**使用者**]。
-2. 按一下使用者名稱左邊的，然後按一下 [**編輯設定**]，選取使用者。
+2. 按一下使用者名稱左方以選取使用者，然後按一下 [編輯設定]****。
 3. 在 [**應用程式許可權原則**] 底下，選取您要指派的 App 許可權原則，**然後按一下 [** 套用]。
 
-若要一次將原則指派給多位使用者，請參閱[大量編輯團隊使用者設定](edit-user-settings-in-bulk.md)。
+若要一次將原則指派給多個使用者，請參閱[大量編輯 Teams 使用者設定](edit-user-settings-in-bulk.md)。
 
 或者，您也可以執行下列動作：
 
 1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**團隊 app** > ]**許可權原則**。
-2. 按一下原則名稱左方，選取原則。
-3. 選取 [**管理使用者**]。
-4. 在 [**管理使用者**] 窗格中，依 [顯示名稱] 或 [使用者名稱] 搜尋使用者，選取名稱，然後按一下 [**新增**]。 針對您要新增的每個使用者重複此步驟。
+2. 按一下原則名稱的左側來選取原則。
+3. 選取 [管理使用者]****。
+4. 在 [管理使用者]**** 窗格中，依顯示名稱或使用者名稱搜尋使用者，選取名稱，然後按一下 [新增]****。 針對要新增的每一個使用者重複此步驟。
 5. 完成新增使用者後，請按一下 [**儲存**]。
 
 ### <a name="assign-a-custom-app-permission-policy-to-users-in-a-group"></a>將自訂應用程式許可權原則指派給群組中的使用者
@@ -149,6 +149,9 @@ $members | ForEach-Object { Grant-CsTeamsAppPermissionPolicy -PolicyName "HR App
 
 ### <a name="working-with-app-permission-policies"></a>使用應用程式許可權原則
 
+#### <a name="what-app-interactions-do-permission-policies-affect"></a>許可權原則會影響哪些 app 互動？
+許可權原則可控制使用者的安裝、探索及互動，以控制應用程式的使用狀況。 無論指派的許可權原則為何，管理員仍可管理 Microsoft 團隊系統管理中心中的 app。
+
 #### <a name="can-i-control-line-of-business-lob-apps"></a>我可以控制商務用線（LOB）應用程式嗎？
 是的，您可以使用應用程式許可權原則來控制自訂（LOB）應用程式的推出與發佈。 您可以建立自訂原則或編輯全域原則，以根據貴組織的需求來允許或封鎖自訂應用程式。
 
@@ -183,7 +186,7 @@ $members | ForEach-Object { Grant-CsTeamsAppPermissionPolicy -PolicyName "HR App
 
 舊版入口網站允許您在組織階層控制應用程式，這表示當應用程式遭到封鎖時，系統會封鎖組織中的所有使用者。 封鎖 [[管理應用程式](manage-apps.md)] 頁面上的應用程式的運作方式與此完全相同。
 
-針對指派給特定使用者的 app 許可權原則，如果允許並封鎖含 bot 或連接器功能的應用程式，而且如果在共用的內容中則只允許部分使用者使用該應用程式的群組聊天或頻道成員，就不會有該應用程式的許可權 可以查看由 bot 或連接器所張貼的訊息歷程記錄和訊息，但無法與它互動。
+針對指派給特定使用者的 app 許可權原則，如果允許並封鎖具有機器人或連接器功能的應用程式，而且如果只允許共用內容中的部分使用者使用該應用程式，則群組聊天或頻道的成員不具備該應用程式的許可權，就能看到由 bot 或連接器張貼的訊息歷程記錄和訊息。，但無法與它互動。
 
 ## <a name="related-topics"></a>相關主題
 

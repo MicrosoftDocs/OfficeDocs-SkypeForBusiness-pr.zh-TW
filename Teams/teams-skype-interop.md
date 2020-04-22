@@ -12,12 +12,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: 瞭解貴組織中的團隊使用者與 Skype （消費者）使用者之間的互通性功能。
 localization_priority: Normal
-ms.openlocfilehash: 6e157cb04687d0577ad5b4cb5fd8da7d2f55e0b4
-ms.sourcegitcommit: 87022aa009eae868e1fd945dc299367e16733a3c
+ms.openlocfilehash: ca67cd1f96b2a0e8bc9b65e60ccf71fdea53763a
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42545020"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43749550"
 ---
 # <a name="teams-and-skype-interoperability"></a>團隊與 Skype 互通性
 
@@ -72,15 +72,15 @@ Skype 使用者可以使用他們的電子郵件地址，搜尋並開始與團�
 
 如果您是從商務用 Skype 升級至小組，您在商務用 Skype 系統管理中心所設定的外部通訊設定會遷移至小組。
 
-### <a name="in-the-microsoft-teams-admin-center"></a>在 Microsoft 團隊系統管理中心
+### <a name="in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 系統管理中心
 
 在 Microsoft 團隊系統管理中心中，移至 [**全組織設定** > **外部存取**]，然後開啟 [**使用者可以與 Skype 使用者通訊**]。 如需如何設定此和其他外部存取設定的逐步指導，請參閱[管理團隊中的外部存取](https://docs.microsoft.com/microsoftteams/manage-external-access#allow-or-block-domains)。
 
 ### <a name="using-powershell"></a>使用 PowerShell
 
-搭配使用[CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy) Cmdlet 與```EnablePublicCloudAccess```參數，以控制團隊使用者是否可與 Skype 使用者通訊。 設定參數以```true```允許團隊使用者與 Skype 使用者通訊。
+搭配使用[CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy) Cmdlet 與```EnablePublicCloudAccess```參數，以控制團隊使用者是否可與 Skype 使用者通訊。 設定參數以```true```允許團隊使用者與 Skype 使用者通訊。 請注意， ```EnablePublicCloudAudioVideoAccess```您可以使用此參數來啟用/停用音訊/視頻通話。
 
 ## <a name="related-topics"></a>相關主題
 
 - [管理團隊中的外部存取](manage-external-access.md)
-- [團隊 PowerShell 概覽](teams-powershell-overview.md)
+- [Teams PowerShell 概觀](teams-powershell-overview.md)

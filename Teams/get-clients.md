@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e423bedc05dbbf303ecfdbf569ff9e1b096bd3d7
-ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
-ms.translationtype: HT
+ms.openlocfilehash: 8a3425ca19ded72f814e8f81252b7224c2c08a42
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "42327835"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43749491"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>取得 Microsoft Teams 用戶端 
 
@@ -45,6 +45,9 @@ Microsoft Teams 桌面版用戶端是獨立的應用程式，並且[可用於 Of
 桌面版用戶端提供即時通訊支援 (音訊、視訊和內容共用)，可用於進行小組會議、群組通話和個人的一對一通話。
 
 如果終端使用者擁有適當的本機權限 (在 PC 上安裝 Teams 用戶端不需要系統管理員權限，但在 Mac 上安裝則需要系統管理員權限)，他們可以直接從 [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) 下載和安裝桌面版用戶端。
+
+> [!NOTE]
+> 如需在 Chromebook 上安裝團隊的詳細資訊，請參閱[如何在 Chromebook 上安裝及執行 Microsoft Office](https://support.office.com/article/how-to-install-and-run-microsoft-office-on-a-chromebook-32f14a23-2c1a-4579-b973-d4b1d78561ad)。
 
 IT 系統管理員可以選擇其偏好的方式，將安裝檔案發佈到組織中的電腦。 例如 Microsoft Endpoint Configuration Manager (Windows) 或 Jamf Pro (macOS)。 若要取得 Windows 發行版本的 MSI 套件，請參閱[使用 MSI 安裝 Microsoft Teams](msi-deployment.md)。  
 
@@ -75,6 +78,8 @@ Windows 用戶端會部署至使用者設定檔中的 [AppData] 資料夾。 部
 > [!NOTE]
 > 即使您選取「取消」來忽略提示，Windows 防火牆設定仍會變更。 針對 TCP 和 UDP 通訊協定，系統會為 teams.exe 建立包含封鎖動作的兩個輸入規則。
 
+如果您想要防止團隊在使用者第一次從團隊撥打電話時，提示使用者建立防火牆規則，請使用下列[範例 PowerShell 腳本-入站防火牆規則](#sample-powershell-script---inbound-firewall-rule)。 
+
 ### <a name="mac"></a>Mac
 
 Mac 使用者可以使用 macOS 電腦的 PKG 安裝檔來安裝 Teams。 安裝 Mac 用戶端必須具備系統管理存取權。 MacOS 用戶端會安裝至 /Applications 資料夾。
@@ -103,7 +108,7 @@ IT 系統管理員可以使用 Teams 的受控部署，將安裝檔案發佈到�
 ### <a name="linux"></a>Linux
 
 使用者能夠安裝 `.deb` 和 `.rpm` 格式的原生 Linux 套件。
-安裝 DEB 或 RPM 套件時會自動安裝套件存放庫
+安裝 DEB 或 RPM 套件時，將會自動安裝套件儲存庫。
 - DEB `https://packages.microsoft.com/repos/ms-teams stable main`
 - RPM `https://packages.microsoft.com/yumrepos/ms-teams` 
 
@@ -118,7 +123,7 @@ IT 系統管理員可以使用 Teams 的受控部署，將安裝檔案發佈到�
 1. 從 https://aka.ms/getteams 下載套件。
 2. 利用下列其中一個選項進行安裝：  
     - 開啟相關套件管理工具，並進行自助式 Linux 應用程式安裝程序。
-    - 或者，如果您喜歡終端機，請輸入：`sudo apt install **teams download file**`
+    - 或者，如果您喜歡終端機，請輸入： `sudo apt install **teams download file**`
 
 您可以輸入 `Teams`，以透過活動或終端機來啟動 Teams。 
 
@@ -214,7 +219,7 @@ Microsoft Teams 行動裝置應用程式支援的行動平台如下：
 
 ![通知設定的螢幕擷取畫面。](media/Get_clients_for_Microsoft_Teams_image6.png)
 
-## <a name="sample-powershell-script"></a>PowerShell 指令碼範例
+## <a name="sample-powershell-script---inbound-firewall-rule"></a>PowerShell 腳本-入站防火牆規則範例
 
 此指令碼範例必須在系統管理員帳戶權限已提升的用戶端電腦上執行，才能為 c:\users 中的每個使用者資料夾建立新的輸入防火牆規則。 當 Teams 找到此規則時，該規則會防止 Teams 應用程式在使用者第一次從 Teams 進行通話時，提示使用者建立防火牆規則。 
 
