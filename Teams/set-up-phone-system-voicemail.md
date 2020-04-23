@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: '瞭解如何為您的使用者設定雲端語音信箱。 '
-ms.openlocfilehash: dc771847db8dca52d22b4c1db1b8ae585b99f8e4
-ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
+ms.openlocfilehash: 4f85e8db6f50becb4ae2406e84621c08507e9737
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/11/2020
-ms.locfileid: "43227497"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779729"
 ---
 # <a name="set-up-cloud-voicemail"></a>設定雲端語音信箱
 
@@ -71,7 +71,7 @@ ms.locfileid: "43227497"
 
 預設會啟用語音語音功能，而且預設會針對所有組織和使用者停用「每個語言不過，您可以使用 [[設定 CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798310.aspx) ] 和[[授與 CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798311.aspx) ] Cmdlet 來控制它們。
 
-貴組織中的使用者收到的語音信箱訊息是在您的 Office 365 租使用者託管的地區中 transcribed。 您的租使用者主機所在的地區可能不是接收語音信箱訊息的使用者所在的地區。 若要查看您的租使用者所在的地區，請移至 [[組織設定檔](https://go.microsoft.com/fwlink/p/?linkid=2067339)] 頁面，然後按一下 [**資料位置**] 旁的 [**查看詳細**資料]。
+貴組織中的使用者收到的語音信箱訊息是在託管 Office 365 組織的地區 transcribed。 您的租使用者主機所在的地區可能不是接收語音信箱訊息的使用者所在的地區。 若要查看您的租使用者所在的地區，請移至 [[組織設定檔](https://go.microsoft.com/fwlink/p/?linkid=2067339)] 頁面，然後按一下 [**資料位置**] 旁的 [**查看詳細**資料]。
 
 > [!IMPORTANT]
 > 您無法使用**CsOnlineVoiceMailPolicy** Cmdlet 來建立用來進行新的新原則遮罩，且無法使用**remove-CsOnlineVoiceMailPolicy** Cmdlet 來移除現有的原則實例。

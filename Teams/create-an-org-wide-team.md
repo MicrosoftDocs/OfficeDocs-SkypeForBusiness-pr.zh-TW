@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 99acc2e1756c0915f404f6bf6b1bfab1e30fcaf6
-ms.sourcegitcommit: 152eb7daacd0a36f42aa441633c12c7037a0969a
-ms.translationtype: HT
+ms.openlocfilehash: 90051eb5ee4faf981ec54efa8049909dde4311d3
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "42288731"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778449"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>在 Microsoft Teams 中建立全組織小組
 
@@ -77,7 +77,7 @@ ms.locfileid: "42288731"
 
 ### <a name="is-there-a-way-to-create-an-org-wide-team-other-than-using-the-teams-client"></a>有沒有使用 Teams 用戶端以外的建立全組織小組方法？
 
-全域系統管理員只能使用 Teams 用戶端建立全組織小組。 如果貴組織將建立小組限制為使用 PowerShell，建議的因應措施是將您的全域系統管理員新增至可建立小組的使用者安全性群組。 如需詳細資訊，請參閱[管理能建立 Office 365 群組的使用者](https://docs.microsoft.com/office365/admin/create-groups/manage-creation-of-groups) (部分機器翻譯)。
+全域系統管理員只能使用 Teams 用戶端建立全組織小組。 如果貴組織將建立小組限制為使用 PowerShell，建議的因應措施是將您的全域系統管理員新增至可建立小組的使用者安全性群組。 如需詳細資訊，請參閱[管理可以建立 Microsoft 365 群組的人員](https://docs.microsoft.com/office365/admin/create-groups/manage-creation-of-groups)。
 
 如果這不是選項，您可以使用 PowerShell 來建立公用小組，並將全域系統管理員新增為小組擁有者。 然後，讓全域系統管理員按一下小組名稱旁的 [更多選項]****，按一下 [編輯小組]****，然後將隱私權變更為 [全組織 - 貴組織中的所有人都會自動新增]****。 請注意，只有小組擁有者可以存取 [編輯小組]**** 選項，而且只有全域系統管理員才能查看 [全組織]**** 選項。
 

@@ -15,12 +15,12 @@ f1.keywords:
 description: 瞭解資訊障礙及其對團隊有何影響。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a666d89e78a9234144eb09173b713d1186410206
-ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
+ms.openlocfilehash: 8cdb736db3234d0c7e24729a7d8e2b06c2d068d0
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43157816"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780812"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft 團隊中的資訊障礙
 
@@ -60,14 +60,14 @@ ms.locfileid: "43157816"
 
 ## <a name="managing-information-barrier-policies"></a>管理資訊屏障原則
 
-資訊屏障原則是在 Office 365 安全性 & 合規性中心（SCC）使用 PowerShell Cmdlet 來管理。 如需詳細資訊，請參閱[定義資訊屏障的原則](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)。
+資訊屏障原則是在 Microsoft 365 規範中心（SCC）中使用 PowerShell Cmdlet 來管理。 如需詳細資訊，請參閱[定義資訊屏障的原則](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)。
 
 > [!IMPORTANT]
 > 在您設定或定義原則之前，**您必須在 Microsoft 團隊中啟用範圍目錄搜尋**。 在您設定或定義資訊屏障的原則之前，請先在啟用範圍目錄搜尋後等候至少24小時。 [深入瞭解資訊障礙的先決條件](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies#prerequisites)。
 
 ## <a name="information-barriers-administrator-role"></a>資訊障礙管理員角色
 
-IB 相容性管理角色負責管理資訊屏障原則。 如需有關此角色的詳細資訊，請參閱[Office 365 安全性 & 合規性中心的許可權](https://docs.microsoft.com/office365/securitycompliance/permissions-in-the-security-and-compliance-center)。
+IB 相容性管理角色負責管理資訊屏障原則。 如需有關此角色的詳細資訊，請參閱[Microsoft 365 規範中心中的許可權](https://docs.microsoft.com/office365/securitycompliance/permissions-in-the-security-and-compliance-center)。
 
 ## <a name="information-barrier-triggers"></a>資訊屏障觸發程式
 
@@ -93,7 +93,7 @@ IB 相容性管理角色負責管理資訊屏障原則。 如需有關此角色�
 
 - **在兩個以上的使用者之間共用螢幕**-只要兩個或多個使用者共用畫面，就必須評估畫面共用，以確保它不會違反其他使用者的資訊屏障原則。 如果違反資訊屏障原則，就不允許使用螢幕共用。
 - **使用者將電話撥打電話（VOIP）放在團隊中**，只要使用者向其他使用者或群組使用者啟動語音通話，就會評估通話，確定它不會違反其他小組成員的資訊屏障原則。 如果有任何侵犯，語音通話會遭到封鎖。
-- **小組中的來賓使用者**也可以在小組中的來賓使用者也套用資訊屏障原則。 如果在貴組織的全域通訊清單中，來賓使用者需要可被探索，請參閱[管理 Office 365 群組中的來賓存取](https://docs.microsoft.com/office365/admin/create-groups/manage-guest-access-in-groups?view=o365-worldwide#can-i-make-guest-objects-visible-in-the-global-address-list)。 一旦訪客使用者可被發現，您就可以[定義資訊屏障原則](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)。
+- **小組中的來賓使用者**也可以在小組中的來賓使用者也套用資訊屏障原則。 如果在貴組織的全域通訊清單中，有來賓使用者需要可發現的，請參閱[在 Microsoft 365 群組中管理來賓存取](https://docs.microsoft.com/office365/admin/create-groups/manage-guest-access-in-groups?view=o365-worldwide#can-i-make-guest-objects-visible-in-the-global-address-list)。 一旦訪客使用者可被發現，您就可以[定義資訊屏障原則](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)。
 
 ## <a name="how-policy-changes-impact-existing-chats"></a>原則變更對現有聊天有何影響
 

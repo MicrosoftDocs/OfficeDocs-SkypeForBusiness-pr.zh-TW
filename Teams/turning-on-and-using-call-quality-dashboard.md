@@ -23,16 +23,16 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: '瞭解如何開啟和使用通話品質儀表板，並取得通話品質的摘要報告。 '
-ms.openlocfilehash: 7fafbebaa21a6bbd71ab0e253f226908d6787869
-ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
+ms.openlocfilehash: 52bf3856ad5c737143d179525e5c2870748f3b46
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42983327"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43788946"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>開啟並使用 Microsoft 團隊和商務用 Skype Online 的通話品質儀表板
 
-瞭解如何設定您的 Office 365 組織，以使用通話品質儀表板來監控通話品質。
+瞭解如何設定您的 Microsoft 365 或 Office 365，以使用通話品質儀表板來監控通話品質。
   
 通話品質儀表板（CQD）可讓您深入瞭解使用 Microsoft 團隊和商務用 Skype Online 服務所進行的通話品質。 本主題描述開始收集資料的步驟，您可以用來疑難排解通話品質問題。
 
@@ -149,11 +149,11 @@ CQD v3 支援在 SPD 報告中使用 [鑽取] 或 [向下切入] 欄位。 如�
 
 ## <a name="activate-microsoft-call-quality-dashboard-cqd-summary-reports"></a>啟動 Microsoft 通話品質儀表板（CQD）摘要報告
 
-在您開始使用 CQD 之前，請先為您的 Office 365 組織啟動它，如下所示：
+在您開始使用 CQD 之前，請先為您的 Microsoft 365 或 Office 365 啟動它，如下所示：
 
 ![](media/teams-logo-30x30.png) **使用 microsoft 團隊系統管理中心**顯示 microsoft 小組標誌的圖示
 
-1. 使用 Microsoft 團隊服務系統管理員帳戶登入您的 Office 365 組織，然後選取 [系統**管理**] 磚以開啟系統管理中心。
+1. 使用 Microsoft 團隊服務系統管理員帳戶登入您的 Microsoft 365 或 Office 365，然後選取 [系統**管理**] 磚以開啟系統管理中心。
 2. 在左窗格中的 [系統**管理中心**] 底下，選取 [ **microsoft 團隊**] 以開啟 microsoft 團隊系統管理中心。
 3. 在 Microsoft [團隊管理中心] 中，選取左窗格中的 [**通話品質儀表板**]。
 4. \(在開啟 HTTPs://<span>cqd.teams.microsoft.com<span/>\)的頁面上，按一下 [登**入**]，然後輸入您的全域系統管理員帳戶或 microsoft 團隊服務系統管理員帳戶資訊。
@@ -166,7 +166,7 @@ CQD v3 支援在 SPD 報告中使用 [鑽取] 或 [向下切入] 欄位。 如�
 
 ![](media/sfb-logo-30x30.png) **使用商務用 skype 傳統版入口網站**的商務用 skype 標誌圖示
 
-1. 使用系統管理員帳戶登入您的 Office 365 組織，然後選取 [系統**管理**] 磚以開啟系統管理中心。
+1. 使用系統管理員帳戶登入您的 Microsoft 365 或 Office 365，然後選取 [系統**管理**] 磚以開啟系統管理中心。
 2. 在左窗格中的 [系統**管理中心**] 底下，選取 [ **microsoft 團隊**] 以開啟 microsoft 團隊系統管理中心。
 3. 在 Microsoft [團隊管理中心] 中，選取左窗格中的 [**舊版入口網站**]，選取 [**工具**]，然後選取 [**商務用 Skype Online 通話品質儀表板**]。
 
@@ -466,7 +466,7 @@ CQD v2 和 CQD v3 具有不同的總計數，因為 CQD v3 有新的案例不在
 
 如果使用案例包含商務用 Skype Server 2019 通話，CQD v3 資料包括 Skype Bot 呼叫（自動語音應答、CVI、虛擬桌面介面）、即時事件和 PSTN 通話。 CQD v2 不使用此資料。 （CQD v3 需要已設定雲端資料連線器的商務用 Skype Server 2019。）
 
-例如，如果您在 CQD v2 摘要報告中看到200000音訊串流，5000且出現5500失敗的300000音訊資料流程（差別可能是由於商務用 Skype Server 2019 通話、CVI 通話、PSTN 通話等等），在 CQD v3 摘要報告中。
+例如，如果您在 CQD v2 摘要報告中看到200000音訊串流（含5000失敗），則在 CQD v3 摘要報告中看到的300000音訊資料流程可能不尋常（這是由於商務5500用 Skype Server 2019 通話、CVI 通話、PSTN 通話等等）。
 
 若要消除不預期的差異，請查看整個資料的多個細目分類。 根據下列一個或多個參數篩選資料：
 
@@ -496,7 +496,7 @@ CQD v2 和 CQD v3 具有不同的總計數，因為 CQD v3 有新的案例不在
 ### <a name="why-cant-i-see-euii-in-cqd"></a>為什麼在 CQD 中看不到 EUII？
 
 這些系統管理員角色可以存取 CQD，但他們無法查看 EUII （使用者可辨識的資訊）：
-- Office 365 報告閱讀程式
+- Microsoft 365 報告閱讀程式
 - 團隊溝通支援專家
 
 若要深入瞭解可存取 CQD 的角色，包括 EUII 讀取[指派角色以存取 CQD](quality-of-experience-review-guide.md#assign-roles-for-accessing-cqd)。

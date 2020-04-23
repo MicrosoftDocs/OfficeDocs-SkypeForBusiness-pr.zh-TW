@@ -1,5 +1,5 @@
 ---
-title: 在適用于團隊的 Office 365 中試用或購買音訊會議
+title: 在 Microsoft 365 for 團隊中試用或購買音訊會議
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -23,14 +23,14 @@ ms.custom:
 - ms.lync.lac.CpcGettingStarted
 - seo-marvel-mar2020
 description: '瞭解如何試用或購買 Office 365 的音訊會議（PSTN 會議）授權，以設定人員可以撥入的電話會議。 '
-ms.openlocfilehash: 6f30f59e20ee6fd8516bcfe420e2b936e9749a8e
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 35d84c84f02c459af32aa764d877f4b8c64d4d63
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139692"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780162"
 ---
-# <a name="try-or-purchase-audio-conferencing-in-office-365-for-microsoft-teams"></a>在 Microsoft 團隊的 Office 365 中試用或購買音訊會議
+# <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>在 microsoft 365 for Microsoft 團隊中試用或購買音訊會議
 
 貴組織內的人員有時會需要透過電話來加入會議。 Microsoft 團隊只有在這種情況下才包含音訊會議功能！ 使用者可以使用電話撥入 Microsoft 團隊會議，而不是在行動裝置或電腦上使用 Microsoft 團隊 app。
 

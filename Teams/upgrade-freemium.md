@@ -1,5 +1,5 @@
 ---
-title: 免費升級 Microsoft 團隊 Office 365 訂閱
+title: 免費升級 Microsoft 團隊
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -19,20 +19,20 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 92bb76f58983e4605d5a1be147bb898aee1a5832
-ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
+ms.openlocfilehash: a96bb03a511a776e2f7e4aded5cd79f66fe2106c
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43170521"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780442"
 ---
-# <a name="upgrade-microsoft-teams-free-to-office-365-subscription-version"></a>免費升級 Microsoft 團隊 Office 365 訂閱版本
+# <a name="upgrade-microsoft-teams-free-to-subscription-version"></a>免費升級 Microsoft 團隊訂閱版本
 ======================================================
 
-如果您的組織使用的是免費的 Microsoft 團隊版本，您可以為使用者購買 Office 365 訂閱者案，輕鬆升級至完整版。 完整版本提供了其他團隊功能（例如排程、音訊會議、增強的管理和安全性功能），而免費版本則不提供。 Office 365 結合了熟悉的 Microsoft Office 桌面套件與雲端版本的 Microsoft 新一代通訊與共同作業服務（包括 Exchange Online、SharePoint Online 和 Office），協助使用者隨時隨地透過網際網路進行生產力。 當您升級團隊時，您現有的團隊資料將不會遺失;您所有的團隊、頻道、聊天、檔案和許可權都會隨附給您。 
+如果您的組織使用的是免費的 Microsoft 團隊版本，您可以透過為使用者購買 Microsoft 365 或 Office 365 訂閱者案，輕鬆升級至完整版本。 完整版本提供了其他團隊功能（例如排程、音訊會議、增強的管理和安全性功能），而免費版本則不提供。 Office 365 結合了熟悉的 Microsoft Office 桌面套件與雲端版本的 Microsoft 新一代通訊與共同作業服務（包括 Exchange Online、SharePoint Online 和 Office），協助使用者隨時隨地透過網際網路進行生產力。 當您升級團隊時，您現有的團隊資料將不會遺失;您所有的團隊、頻道、聊天、檔案和許可權都會隨附給您。 
 
 > [!NOTE]
-> 如果您已經有 Office 365 訂閱，就表示您有資格試用版的小組（使用您的公司身分識別），而不是免費版本。 團隊試用版在有限的時間內提供完整的小組。 如需詳細資訊，請參閱[管理 Microsoft 團隊商業版雲端試用優惠](iw-trial-teams.md)。
+> 如果您已經有 Microsoft 365 或 Office 365 訂閱，就表示您有資格試用版的小組（含公司身分識別），而不是免費版本。 團隊試用版在有限的時間內提供完整的小組。 如需詳細資訊，請參閱[管理 Microsoft 團隊商業版雲端試用優惠](iw-trial-teams.md)。
 
 ## <a name="how-does-teams-free-compare-to-the-full-version-of-teams"></a>團隊與團隊的完整版本有何不同？
 
@@ -47,7 +47,7 @@ ms.locfileid: "43170521"
 - 頻道會議
 - 螢幕共用
 
-除了團隊免費提供的功能之外，Office 365 訂閱隨附的完整團隊也提供下列功能：
+除了團隊提供的功能之外，Microsoft 365 或 Office 365 訂閱隨附的完整團隊也提供下列功能：
 
 - 無使用者限制（含企業版授權）
 - Exchange 電子郵件主機託管及自訂電子郵件網域
@@ -85,7 +85,7 @@ ms.locfileid: "43170521"
 
 ![顯示 [升級] 按鈕的螢幕擷取畫面](media/teams-freemium-upgrade-image1.png)
 
-輸入您用來登入團隊的電子郵件地址，然後購買 Office 365 商務版 Premium 方案。 如果您想要購買 Office 365 Business Essentials 或企業版的 Office 365，請[聯絡支援人員](https://portal.office.com/support/altusupport.aspx?app=teamsfreeupgrade)。
+輸入您用來登入團隊的電子郵件地址，然後購買 Microsoft 365 商務標準方案。 如果您想要購買 Microsoft 365 Business Basic 或企業版的 Office 365，請[聯絡支援人員](https://portal.office.com/support/altusupport.aspx?app=teamsfreeupgrade)。
 
 ## <a name="whats-next"></a>下一步是什麼？
 

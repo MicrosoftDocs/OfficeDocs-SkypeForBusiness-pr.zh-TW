@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: '瞭解如何為您的組織設定電話系統（雲端 PBX）。 '
-ms.openlocfilehash: e1ae56200132ab4468b6db8d490c12d11b7a6deb
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 8c534607ca50baae75c3b0b2fdf5bc54359c22e4
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888722"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779810"
 ---
 # <a name="set-up-phone-system-in-your-organization"></a>在組織中設定電話系統
 
@@ -81,7 +81,7 @@ ms.locfileid: "41888722"
 ### <a name="get-new-service-numbers-using-the-teams-admin-center"></a>使用團隊系統管理中心取得新的服務號碼
 
 
-1. 使用您的公司或學校帳戶登入 Office 365。
+1. 使用您的公司或學校帳戶登入。
 
 2. 移至 [**團隊系統管理中心**]。
 
@@ -105,12 +105,12 @@ ms.locfileid: "41888722"
 
 ## <a name="step-6-if-you-want-to-set-up-audio-conferencing"></a>步驟6：如果您想要設定音訊會議
 
-有時候貴組織中的人員必須使用電話撥入會議。 Microsoft 團隊包括音訊會議功能，只適用于這種情況。 使用者可以使用電話撥入團隊會議，而不是在行動裝置或電腦上使用 [小組] 應用程式。
+貴組織內的人員有時會需要透過電話來加入會議。 Microsoft 團隊包括音訊會議功能，只適用于這種情況。 使用者可以使用電話撥入團隊會議，而不是在行動裝置或電腦上使用 [小組] 應用程式。
 如需如何設定音訊會議的詳細資訊，請參閱[設定適用于小組的音訊會議](set-up-audio-conferencing-in-teams.md)。
 
 ## <a name="step-7-if-you-want-to-set-up-a-cloud-call-queue"></a>步驟7：如果您想要設定雲端通話佇列
 
-雲端通話佇列包括某人撥入您組織的電話號碼時所使用的問候語、自動保留通話的功能，以及在通話時搜尋下一個可用的呼叫代理程式來處理通話的功能在暫停時聆聽音樂。 您可以為組織建立單一或多個通話佇列。
+雲端通話佇列包括某人撥入您組織的電話號碼時所使用的問候語、自動保留通話的功能，以及搜尋下一個可用的呼叫代理程式，以處理通話，而呼叫者正在聆聽音樂的人員。 您可以為組織建立單一或多個通話佇列。
 
 如需通話佇列的詳細資訊，請參閱[建立雲端通話佇列](create-a-phone-system-call-queue.md)。
 

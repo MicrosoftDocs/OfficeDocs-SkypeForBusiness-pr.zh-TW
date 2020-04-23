@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 瞭解如何為 Microsoft 團隊設定及測試雲端自動語音應答。
-ms.openlocfilehash: 05a70c578812ee5ecdd91214ab253843fe67471c
-ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
+ms.openlocfilehash: dee263c08751f21e1fde19965d23595d5da27e39
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43508630"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43788951"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>設定雲端自動語音應答
 
@@ -333,7 +333,7 @@ If you choose **Write your call instructions**, enter the script  you want the s
 
 如果您選取 [**所有線上使用者**]，所有符合資格的使用者都會包含在目錄搜尋中。
 
-**自訂使用者群組**這個選項可讓您搜尋並選取您組織中已建立的 Office 365 群組、通訊群組清單或安全性群組。 如果使用者位於所選的 Office 365 群組、通訊群組清單或安全群組中，而且他們是使用**電話系統授權的線上使用者**，或是使用商務用 Skype Server 主機內部部署的使用者，就會新增到目錄中。 您可以將多個 Office 365 群組、通訊群組清單和安全性群組新增到目錄中。
+**自訂使用者群組**這個選項可讓您搜尋並選取您組織中已建立的 Office 365 群組、通訊群組清單或安全性群組。 如果使用者位於所選的 Office 365 群組、通訊群組清單或安全群組中，而且他們是使用**電話系統授權的線上使用者**，或是使用商務用 Skype Server 主機內部部署的使用者，就會新增到目錄中。 您可以將多個 Microsoft 365 群組、通訊群組清單和安全性群組新增到目錄中。
 
 <a name="dialscope"> </a>
 
@@ -343,7 +343,7 @@ If you choose **Write your call instructions**, enter the script  you want the s
 
 如果您選取 [**無**]，所有符合資格的使用者都會包含在目錄搜尋中。
 
-**自訂使用者群組**您可以搜尋已在貴組織中建立的 Office 365 群組、通訊群組清單或安全性群組。 該群組中的使用者會從 [目錄搜尋] 中排除。 您可以新增多個 Office 365 群組、通訊群組清單和安全性群組。
+**自訂使用者群組**您可以搜尋已在貴組織中建立的 Office 365 群組、通訊群組清單或安全性群組。 該群組中的使用者會從 [目錄搜尋] 中排除。 您可以新增多個 Microsoft 365 群組、通訊群組清單和安全性群組。
 
 
 如果啟用 [依名稱撥號] 時，系統會將設定保留為預設值，則所有符合資格的使用者都會包含在目錄搜尋中。

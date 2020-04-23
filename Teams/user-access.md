@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 379573e7c671c3a5bca906cc3986bce068921b07
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: f571dd461c6c783703159dfd6e9beb343612dd58
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41833653"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779479"
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>管理使用者對 Microsoft 團隊的存取權
 =====================================
@@ -39,7 +39,7 @@ ms.locfileid: "41833653"
 
 ## <a name="manage-teams-through-the-microsoft-365-admin-center"></a>透過 Microsoft 365 系統管理中心管理團隊
 
-團隊使用者層級授權是透過 Microsoft 365 系統管理中心使用者管理介面直接管理。 系統管理員可以在建立新的使用者帳戶時指派授權給新的使用者，或指派給現有帳戶的使用者。 系統管理員必須擁有 Office 365 全域系統管理員或使用者管理管理員的許可權，才能管理 Microsoft 團隊授權。
+團隊使用者層級授權是透過 Microsoft 365 系統管理中心使用者管理介面直接管理。 系統管理員可以在建立新的使用者帳戶時指派授權給新的使用者，或指派給現有帳戶的使用者。 系統管理員必須具備全域系統管理員或使用者管理管理員的許可權，才能管理 Microsoft 團隊授權。
 
 當您將 E3 或 E5 等授權 SKU 指派給使用者時，系統會自動指派 Microsoft 團隊授權，並為 Microsoft 團隊啟用該使用者。 系統管理員可以對所有 Office 365 服務和授權進行精細的控制，而且可以啟用或停用特定使用者或使用者群組的 Microsoft 團隊授權。
 
@@ -75,6 +75,6 @@ ms.locfileid: "41833653"
 |![代表決策點的圖示](media/Manage_user_access_to_Microsoft_Teams_image5.png)     |決策點         |<ul><li>貴組織在整個組織中要加入哪些小組的方案？  （試驗或開啟）</li></ul>         |
 |![代表後續步驟的圖示](media/Manage_user_access_to_Microsoft_Teams_image6.png)     |後續步驟         |<ul><li>如果您是透過關閉的試運行進行加入，請決定您是否要透過授權或目標通訊來執行此操作。</li><li>根據決定，請採取步驟以確保只有獲允許存取團隊的試驗使用者（視需要）。</li><li>針對將（或將沒有）存取團隊的使用者記錄指導方針。</li></ul>         |
 
-## <a name="manage-teams-at-the-office-365-tenant-level"></a>在 Office 365 租使用者層級管理團隊
+## <a name="manage-teams-at-the-office-365-organization-level"></a>在 Office 365 組織層級管理團隊
 [!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)]
 

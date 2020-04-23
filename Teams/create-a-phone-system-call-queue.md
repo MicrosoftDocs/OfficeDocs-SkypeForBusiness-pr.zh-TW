@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: 瞭解如何在 Microsoft 團隊中設定雲端通話佇列的電話系統。
-ms.openlocfilehash: e6ff659790159595c86a2aa442bcb20bcff9659a
-ms.sourcegitcommit: 1d24b62f41bce4f8d86d6060291af1267f75a2a2
+ms.openlocfilehash: 0feee280526b432a14f0411ab4787e3b07ce2453
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43213644"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43788962"
 ---
 # <a name="create-a-cloud-call-queue"></a>建立雲端通話佇列
 
@@ -186,7 +186,7 @@ ms.locfileid: "43213644"
 
  若要啟用企業語音的代理程式，您可以使用 Windows PowerShell。 例如，執行：`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
-- 已新增至 Office 365 群組的**電話系統**授權或通話方案的使用者;已啟用郵件的通訊群組清單;或 [安全性群組]。 當您將通訊群組清單或安全群組中的代理程式新增為通話佇列代理程式時，第一次呼叫到貨最多可能需要3小時的時間。 新建立的通訊群組清單或安全性群組可能需要長達48小時才能與通話佇列搭配使用。 新建立的 Office 365 群組幾乎會立即提供給您。
+- 已新增至 Office 365 群組的**電話系統**授權或通話方案的使用者;已啟用郵件的通訊群組清單;或 [安全性群組]。 當您將通訊群組清單或安全群組中的代理程式新增為通話佇列代理程式時，第一次呼叫到貨最多可能需要3小時的時間。 新建立的通訊群組清單或安全性群組可能需要長達48小時才能與通話佇列搭配使用。 新建立的 Microsoft 365 群組幾乎會立即提供給您。
 
 - 如果您的代理正在使用 Microsoft 團隊 app 進行通話佇列通話，則必須在 TeamsOnly 模式中。
 
