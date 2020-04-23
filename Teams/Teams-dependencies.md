@@ -18,24 +18,24 @@ f1.keywords:
 description: 透過四種不同的授權等級管理 Microsoft Teams 的來賓存取功能。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b1743b8d2fea354716138800ffe2c1b50d9e71b6
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 848db9ea517876d941e837eaff34e72e0cff9c2a
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834803"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778479"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>在 Microsoft Teams 中授權來賓存取
 ===========================================
 
-為滿足貴組織的需求，您可以透過四種不同的授權等級管理 Microsoft Teams 的來賓存取功能。 所有授權等級都適用於您的 Office 365 租用戶。 每個授權等級控制的來賓體驗如下所示：
+為滿足貴組織的需求，您可以透過四種不同的授權等級管理 Microsoft Teams 的來賓存取功能。 所有授權等級都適用於您的 Office 365 組織。 每個授權等級控制的來賓體驗如下所示：
 
 - **Azure Active Directory**：Microsoft Teams 的來賓存取需要 Azure AD 企業對企業 (B2B) 平台。 此授權等級控制目錄、租用戶和應用程式層級的來賓體驗。
 - **Microsoft Teams**：僅控制 Microsoft Teams 中的來賓體驗。
-- **Office 365 群組**：控制 Office 365 群組和 Microsoft Teams 中的來賓體驗。
-- **SharePoint Online 和商務用 OneDrive**：控制 SharePoint Online、商務用 OneDrive、Office 365 群組和 Microsoft Teams 中的來賓體驗。
+- **Microsoft 365 群組**：控制 Microsoft 365 群組和 Microsoft Teams 中的來賓體驗。
+- **SharePoint Online 和商務用 OneDrive**：控制 SharePoint Online、商務用 OneDrive、Microsoft 365 群組和 Microsoft Teams 中的來賓體驗。
 
-這些不同的授權等級能夠讓您彈性設定貴組織的來賓存取。 例如，如果您不想在 Microsoft Teams 中允許來賓使用者，但是想要在貴組織中全面允許來賓使用者，只要在 Microsoft Teams 中關閉來賓存取即可。 另一個範例：您可以啟用 Azure AD、Microsoft Teams 和群組等級的來賓存取，但是接著在符合一或多個準則 (例如資料分類等於機密) 的小組中，停用所選小組的新增來賓使用者功能。 SharePoint Online 和商務用 OneDrive 擁有自己的來賓存取設定，不需要依賴 Office 365 群組。
+這些不同的授權等級能夠讓您彈性設定貴組織的來賓存取。 例如，如果您不想在 Microsoft Teams 中允許來賓使用者，但是想要在貴組織中全面允許來賓使用者，只要在 Microsoft Teams 中關閉來賓存取即可。 另一個範例：您可以啟用 Azure AD、Microsoft Teams 和群組等級的來賓存取，但是接著在符合一或多個準則 (例如資料分類等於機密) 的小組中，停用所選小組的新增來賓使用者功能。 SharePoint Online 和商務用 OneDrive 擁有自己的來賓存取設定，不需要依賴 Microsoft 365 群組。
 
 > [!NOTE]
 > 來賓須遵守 [Office 365](https://go.microsoft.com/fwlink/p/?linkid=282347) 和 [Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=853019) 的服務限制。 
@@ -70,41 +70,41 @@ Azure AD 包含有下列設定可設定外部使用者：
 如需有關控制誰可以邀請來賓的詳細資訊，請參閱[委派 Azure Active Directory B2B 共同作業邀請](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations)。
 
 > [!NOTE]
-> 您也可以管理哪些網域可以做為來賓受邀加入您的租用戶。 請參閱[允許/封鎖來賓獲得 Office 365 群組的存取權限](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-group-access-to-office-365-groups)。
+> 您也可以管理哪些網域可以做為來賓受邀加入您的租用戶。 請參閱[允許/封鎖來賓獲得 Microsoft 365 群組的存取權限](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-group-access-to-office-365-groups)。
 
 您不需要將使用者來賓帳戶手動新增到 Azure AD B2B，因為當您將來賓新增到 Teams 時，帳戶會自動新增到目錄。
 
 ### <a name="licensing-for-guest-access"></a>來賓存取的授權
-來賓存取的授權是 Azure AD 授權的一部分。 來賓存取隨附於所有 Office 365 商務進階版和 Office 365 企業版訂閱。 如需有關授權的詳細資訊，請參閱 [Azure Active Directory B2B 共同作業授權指引](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)。
+來賓存取的授權是 Azure AD 授權的一部分。 來賓存取隨附於所有 Microsoft 365 商務標準版和 Office 365 企業版訂閱。 如需有關授權的詳細資訊，請參閱 [Azure Active Directory B2B 共同作業授權指引](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)。
 
 
 > [!NOTE]
-> 僅擁有獨立版 Office 365 訂閱方案 (例如 Exchange Online Plan 2) 的組織使用者將無法受邀為貴組織的來賓，因為 Teams 認為這些使用者屬於相同的組織。 若要讓這些使用者使用 Teams，這些使用者必須獲派 Office 365 商務進階版、Office 365 企業版或 Office 365 教育版訂閱。 
+> 僅擁有獨立版 Office 365 訂閱方案 (例如 Exchange Online Plan 2) 的組織使用者將無法受邀為貴組織的來賓，因為 Teams 認為這些使用者屬於相同的組織。 若要讓這些使用者使用 Teams，這些使用者必須獲派 Microsoft 365 商務標準版、Office 365 企業版或 Office 365 教育版訂閱。 
 
 ## <a name="control-guest-access-in-teams"></a>控制 Teams 的來賓存取
 
 Teams 的來賓存取依預設會關閉。 若要開啟來賓存取，請參閱[開啟或關閉 Microsoft Teams 的來賓存取](set-up-guests.md)。 
 
 
-## <a name="control-guest-access-in-office-365-groups"></a>控制 Office 365 群組的來賓存取
+## <a name="control-guest-access-in-microsoft-365-groups"></a>控制 Microsoft 365 群組的來賓存取
 
-在 Office 365 群組中，您可以控制貴組織中所有 Office 365 群組和 Microsoft Teams 小組的新增來賓使用者和來賓存取。
+在 Microsoft 365 群組中，您可以控制貴組織中所有 Microsoft 365 群組和 Microsoft Teams 小組的新增來賓使用者和來賓存取。
 
-1. 使用您的 Office 365 全域系統管理員帳戶登入 [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)。
+1. 使用您的全域系統管理員帳戶登入 [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)。
 
 2. 在左側，選擇 **[設定]**，然後選取 [服務]**&amp; [增益集]**。
 
-3. 選取 **[Office 365 群組]**。
+3. 選取 **Microsoft 365 群組**。
 
-     ![[設定] 中的 [Office 365 群組] 螢幕擷取畫面](media/authorize-guest-image2.png)
+     ![[設定] 中的 [Microsoft 365 群組] 螢幕擷取畫面](media/authorize-guest-image2.png)
   
-4. 在 [Office 365 群組] 頁面上，根據您是否想讓貴組織外部的小組和群組擁有者存取 Office 365 群組而定，將開關切換為 **[開啟]** 或 **[關閉]**。 按一下或點選 **[讓群組擁有者將貴組織外部的人員新增到群組]** 旁的 **[開啟]**。 如果您將開關切換為 **[開啟]**，您會看到另一個用來控制是否要讓群組和小組擁有者將組織外部人員新增至 Office 365 群組和 Microsoft Teams 的選項。 如果您想讓群組和小組擁有者新增來賓使用者，請將此開關設定為 **[開啟]**。 
+4. 在 [Microsoft 365 群組] 頁面上，根據您是否想讓貴組織外部的小組和群組擁有者存取 Microsoft 365 群組而定，將開關切換為 **[開啟]** 或 **[關閉]**。 按一下或點選 **[讓群組擁有者將貴組織外部的人員新增到群組]** 旁的 **[開啟]**。 如果您將開關切換為 **[開啟]**，您會看到另一個用來控制是否要讓群組和小組擁有者將組織外部人員新增至 Microsoft 365 群組和 Microsoft Teams 的選項。 如果您想讓群組和小組擁有者新增來賓使用者，請將此開關設定為 **[開啟]**。 
  
-   ![[Office 365 群組] 面板及選項已開啟的螢幕擷取畫面](media/authorize-guest-image3.png)
+   ![[Microsoft 365 群組] 面板及選項已開啟的螢幕擷取畫面](media/authorize-guest-image3.png)
 
-這些設定會套用到租用戶層級，控制 Office 365 群組和 Teams 中的來賓體驗。
+這些設定會套用到租用戶層級，控制 Microsoft 365 群組和 Teams 中的來賓體驗。
 
-如需有關群組中的來賓存取，包括來賓存取的運作方式、來賓存取的管理方法以及常見問題的解答等詳細資訊，請參閱 [Office 365 群組的來賓存取權](https://support.office.com/article/Guest-access-in-Office-365-Groups-bfc7a840-868f-4fd6-a390-f347bf51aff6)。
+如需有關群組中的來賓存取，包括來賓存取的運作方式、來賓存取的管理方法以及常見問題的解答等詳細資訊，請參閱 [Microsoft 365 群組的來賓存取權](https://support.office.com/article/Guest-access-in-Office-365-Groups-bfc7a840-868f-4fd6-a390-f347bf51aff6)。
 
 ## <a name="control-guest-access-to-sharepoint-online-and-onedrive-for-business"></a>控制 SharePoint Online 和商務用 OneDrive 的來賓存取
 
@@ -116,11 +116,11 @@ Teams 需要 SharePoint Online 和商務用 OneDrive 來儲存頻道和聊天交
 
     如需詳細資訊，請參閱[開啟或關閉外部共用](https://docs.microsoft.com/sharepoint/turn-external-sharing-on-or-off)。
 
-- 在 Office 365 群組：開啟 **[讓群組擁有者將貴組織外部的人員新增到群組]**
+- 在 Microsoft 365 群組：開啟 **[讓群組擁有者將貴組織外部的人員新增到群組]**
 
-    如需詳細資訊，請參閱上述的[控制 Office 365 群組的來賓存取](#control-guest-access-in-office-365-groups)。
+    如需詳細資訊，請參閱上述的[控制 Microsoft 365 群組的來賓存取](#control-guest-access-in-microsoft-365-groups)。
   
-這些設定會套用到租用戶層級，控制 SharePoint Online、商務用 OneDrive、Office 365 群組和 Teams 中的來賓體驗。
+這些設定會套用到租用戶層級，控制 SharePoint Online、商務用 OneDrive、Microsoft 365 群組和 Teams 中的來賓體驗。
 
 針對連接至 Teams 的小組網站，您可以管理 SharePoint Online 外部使用者設定。 若要深入了解，請參閱[管理 SharePoint 小組網站設定](https://support.office.com/article/Manage-your-SharePoint-team-site-settings-8376034d-d0c7-446e-9178-6ab51c58df42)。
 

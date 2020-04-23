@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Microsoft 365 商務語音概觀，以及它如何協助中小企業更有效率地通訊。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ecce1626a541c14c7175390c086acfa5eb0262f2
-ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.openlocfilehash: bffce01704402aac8fea90aee92d6bd854c5874f
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43096868"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780792"
 ---
 # <a name="what-is-microsoft-365-business-voice"></a>什麼是 Microsoft 365 商務語音？
 
@@ -32,8 +32,8 @@ Microsoft 365 商務語音可讓中小型組織輕鬆將 Microsoft Teams 轉變�
 
 如果您組織的人員為 300 個以下，而且您有下列其中一種 Microsoft 365 訂閱，則商務語音正可滿足您的需要：
 
-* Office 365 商務基本版
-* Office 365 商務進階版
+* Microsoft 365 商務基本版
+* Microsoft 365 商務標準版
 * Office 365 E1
 * Office 365 E3
 * Office 365 F1

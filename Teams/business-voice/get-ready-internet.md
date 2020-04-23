@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 473c053036b766ef475c3aed5f0bba2d24dd9e6c
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: d2a158f8b43b4cf58e2c5c6c4a4248488f41973d
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824881"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780282"
 ---
 # <a name="check-your-internet-connection-for-business-voice"></a>針對 Business Voice 檢查您的網際網路連線
 
@@ -32,8 +32,8 @@ Business Voice 位於 Microsoft 365 的雲端中。 使用 Microsoft Teams 和 B
 
 若要執行這些步驟，您必須有具備下列其中一項訂閱的租用戶：
 
-* Office 365 商務基本版
-* Office 365 商務進階版
+* Microsoft 365 商務基本版
+* Microsoft 365 商務標準版
 * Office 365 E1
 * Office 365 E3
 * Office 365 F1
