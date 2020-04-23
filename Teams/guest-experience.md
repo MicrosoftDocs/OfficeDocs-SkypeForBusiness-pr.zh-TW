@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 60891c2e5283b8e9cdaa9e8d7852768bbb52d8aa
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 2f118611d55fe9192f32402946d672901b0f66ee
+ms.sourcegitcommit: 6fbaab29076e16fe18f8faeb7e012a0815c2369d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776928"
+ms.locfileid: "43785866"
 ---
 <a name="what-the-guest-experience-is-like"></a>來賓體驗像什麼
 =================================
@@ -34,6 +34,11 @@ ms.locfileid: "43776928"
 所有團隊成員都會在頻道執行緒中看到一則訊息，宣佈小組擁有者已新增來賓並提供來賓的名稱。 小組中的每個人都可以輕鬆識別誰是來賓。 如下列範例小組的螢幕擷取畫面所示，橫幅代表「這個小組有客人」，且每個來賓的名稱旁邊都會出現一個 **（來賓）** 標籤。
     
 ![顯示橫幅通知來賓使用者的螢幕擷取畫面](media/guest-experience-image2.png "螢幕擷取畫面顯示適用于 Northwind 商貿的行銷管道的一部分，並在上方橫幅中發出通知，指出該小組有來賓和來賓的使用者，其名稱旁會出現 [word 來賓]。")
+
+請參閱以下有關團隊訪客體驗的影片：
+- [以來賓身分加入團隊](https://support.office.com/article/join-a-team-as-a-guest-928d1eef-61e2-49ec-b754-c2fe86b34824)
+- [使用來賓加入團隊會議](https://support.office.com/article/join-a-company-meeting-a120c282-063d-46b8-b973-851197ab75d8)
+
 
 ## <a name="comparison-of-team-member-and-guest-capabilities"></a>比較小組成員與來賓的功能
 

@@ -5,6 +5,8 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -14,78 +16,78 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
-description: 在混合式環境中配置 Azure AD Connect 的指示。
-ms.openlocfilehash: 9df0e42224d3186c3d7b5b1748412e9ec9121897
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 在混合式環境中設定 Azure AD Connect 的指示。
+ms.openlocfilehash: 75e269cfa36a97249c9078cfc37cfc493ebcc502
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36185482"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780112"
 ---
-# <a name="configure-azure-ad-connect-for-teams-and-skype-for-business"></a>針對團隊和商務用 Skype 設定 Azure AD Connect
+# <a name="configure-azure-ad-connect-for-teams-and-skype-for-business"></a>針對 Teams 和商務用 Skype 設定 Configure Azure AD Connect
  
-在內部部署使用商務用 Skype Server (或 Lync Server) 的組織, 以及規劃使用團隊或商務用 Skype Online 的組織, 都必須設定 Azure AD Connect, 以將其內部部署目錄與 Office 365 同步處理, 如以下所述單據.  這包括直接從商務用 Skype 內部部署到團隊的組織。 具體說來, 擁有商務用 Skype 內部部署的組織必須確保將適當的 msRTCSIP 屬性同步處理到 Azure AD。 
+具有商務用 Skype 伺服器（或 Lync Server）內部部署的組織，以及計畫使用團隊或商務用 Skype Online 的組織，都必須設定 Azure AD Connect，以同步處理其內部部署目錄與 Office 365 （如本檔所述）。  這包括直接從商務用 Skype 內部遷移到小組的組織。 尤其是使用商務用 Skype 內部部署的組織，必須確保同步處理到 Azure AD的 msRTCSIP 屬性是正確的。 
 
 > [!NOTE]
-> 您也可以將商務用 Skype 內部部署帳戶的現有團隊使用者移至雲端, 以取得完整的功能, 例如與商務用 Skype 使用者進行交互操作的功能, 以及與聯盟組織中的使用者通訊。 即使使用者只是使用團隊, 基礎結構也必須有此線上商務用 Skype 帳戶, 才能提供額外的功能。  若要進行這種遷移, 您必須確保正確設定 Azure AD Connect, 才能啟用混合式。
+> 現有 Teams 使用者若同時也有商務用 Skype 內部部署，必須將其商務用 Skype 內部部署帳戶移至雲端，才能取得完整的功能，例如可與商務用 Skype 使用者互通、與同盟組織中的使用者進行通訊等功能。 即使使用者未來只會使用 Teams，基礎結構也需要此線上商務用 Skype 帳戶來提供額外的功能。  為了進行這項移轉，您必須確保已正確設定 Azure AD Connect，以便啟用混合式。
  
 
 ## <a name="background-information"></a>背景資訊
 
-Azure Active Directory Connect 會讓您的內部部署 Active Directory 持續與 Office 365 保持同步。  您的內部部署目錄仍然是身分識別的授權來源, 而您內部部署環境的變更會同步處理到 Azure AD。 如需詳細資訊, 請參閱[AZURE AD Connect 同步](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-sync-whatis)處理。 即使您不是將所有使用者從內部部署移至雲端, 所有使用團隊、商務用 Skype 內部部署或商務用 Skype Online 的使用者, 都必須從內部部署到 Azure AD, 以確保內部部署與線上使用者之間的通訊. *貴組織中的使用者會在您的內部部署和線上目錄中加以表示。*
+Azure Active Directory Connect 可讓您的內部部署 Active Directory 持續與 Office 365 保持同步。  您的內部部署目錄同步保留身分識別的授權來源，從您的內部部署環境所做的變更會同步處理到 Azure AD。 如需詳細資訊，請參閱[AZURE AD Connect Sync](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sync-whatis)。 即使您沒有將所有使用者從內部部署移至雲端，使用團隊、商務用 Skype 內部部署或商務用 Skype Online 的所有使用者，都必須從內部部署與 Azure AD 同步處理，以確保內部部署和線上使用者之間的通訊。 *在您的內部部署和線上目錄都將會表示貴組織的使用者。*
 
 
-## <a name="configuring-azure-ad-when-you-have-skype-for-business-server"></a>在您有商務用 Skype Server 時設定 Azure AD 
+## <a name="configuring-azure-ad-when-you-have-skype-for-business-server"></a>當您有商務用 Skype Server 時設定 Azure AD 
 
-無論您有一個內部部署的 Active Directory 林或多個目錄林, Azure AD Connect 都可以在各種支援的拓撲中使用, 如[AZURE Ad connect](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/plan-connect-topologies)中的拓撲中所述。  從商務用 Skype 伺服器的角度來看, 有三種主要變化: 
+不論您是否有一個內部部署 Active Directory 樹系或多個樹系，Azure AD Connect 都可以用於各種支援的拓撲，如[AZURE Ad connect 的拓撲](https://docs.microsoft.com/azure/active-directory/hybrid/plan-connect-topologies)中所述。  從商務用 Skype Server 的角度來看，主要分成三種拓樸： 
 
-1. 單一目錄林, 包含授權使用者身分識別及主機商務用 Skype 伺服器。 
+1. 單一樹系，此樹系包含授權使用者身分識別，並裝載商務用 Skype Server。 
 
-2. 多個目錄林, 只有其中一個主機商務用 Skype 伺服器, 以及一或多個包含權威性使用者身分識別 (帳戶目錄林) 的其他目錄林。 
+2. 多個樹系，只有其中一個樹系裝載商務用 Skype Server，另外一或多個樹系則包含授權使用者身分識別 (帳戶樹系)。 
 
-3. 多個目錄林中多個商務用 Skype Server 部署。 如果符合某些需求, 組織可以將這些多個部署整合到單一的 Office 365 租使用者。
+3. 在多個樹系中部署多個商務用 Skype Server。 在符合特定需求的情況下，組織可以將多個部署合併到單一 Office 365 組織中。
 
-### <a name="single-forest"></a>單一目錄林 
+### <a name="single-forest"></a>單一樹系 
 
-如果使用者帳戶和商務用 Skype 都是在單一目錄林中託管, 您必須確保 Azure AD Connect 已設定為將來自這個林的使用者同步處理到 Azure AD。  雖然 Azure AD Connect 安裝精靈有多種選項, 但適當的屬性會自動同步處理到 Azure Active Directory 中。 建議客戶不要修改內建的同步處理規則和/或連接器, 以管理設定 (這是無法從安裝精靈進行的)。  
+如果使用者帳戶和商務用 Skype 全都位於單一樹系中，您必須確保將 Azure AD Connect 設定為將該樹系中的使用者同步處理到 Azure AD。  雖然 Azure AD Connect 安裝精靈有多種選項，但是適當的屬性會自動同步處理到 Azure Active Directory。 系統會建議客戶修改內建的同步處理規則和/或連接器，以管理設定（這無法從安裝精靈）。  
 
-### <a name="multiple-forests-with-one-skype-for-business-deployment"></a>多個目錄林且有一個商務用 Skype 部署 
+### <a name="multiple-forests-with-one-skype-for-business-deployment"></a>多個樹系與一個商務用 Skype 的部署 deployment 
 
-這個案例通常稱為資源林拓撲。 使用者的授權身分識別是託管在一個或多個帳戶目錄林中, 而商務用 Skype 則會部署在另一個資原始目錄林中 (本身也可能會主持權威性的使用者身分識別)。 一般來說, 商務用 Skype 使用者的授權身分識別可以與商務用 Skype 伺服器和/或其他林中的同一個林中, 提供: 
+此案例通常稱為「資源樹系拓撲」。 使用者的授權身分識別位於一或多個帳戶樹系中，而商務用 Skype 則部署在另一個資源樹系中 (後者本身可能也裝載授權使用者身分識別)。 一般而言，商務用 Skype 使用者的授權身分識別可以和商務用 Skype Server 位於相同樹系中，和/或位於另一個樹系中，前提是： 
 
-- 從帳戶目錄林中擁有權威性身分識別身分識別的使用者會以停用的使用者物件的形式, 在資原始目錄林中 (部署商務用 Skype 伺服器的位置) 表示, 而資源林中的 msRTCSIP-OriginatorSID 屬性則與帳戶目錄林。 如需詳細資訊, 請參閱[設定混合式商務用 Skype 的多林環境](configure-a-multi-forest-environment-for-hybrid.md)。
+- 在帳戶樹系中有授權身分識別的使用者，在資源樹系 (部署商務用 Skype Server) 中會表示為已停用的使用者物件，且在資源樹系中的 msRTCSIP-OriginatorSID 屬性會與帳戶樹系中的 SID 相符。 如需詳細資訊，請參閱[設定混合式商務用 Skype 的多樹系環境](configure-a-multi-forest-environment-for-hybrid.md)。
 
-- 主持商務用 Skype Server 的資原始目錄林信任帳戶目錄林。  
+- 裝載商務用 Skype Server 的資源樹系會信任帳戶樹系。  
 
-- 針對身分識別 (來自帳戶林) 與商務用 Skype (來自資源林) 的所有相關使用者物件和屬性, 都是透過 Azure AD Connect 與正確的值同步處理到 Azure AD。  
+- 所有用於身分識別 (來自帳戶樹系) 和商務用 Skype (來自資源樹系) 的相關使用者物件和屬性，都會透過 Azure AD Connect 將適當的值同步處理到 Azure AD。  
 
- 若要在[多目錄林內部部署案例](configure-a-multi-forest-environment-for-hybrid.md)中, 在 Azure AD 中實現適當的物件和屬性同步處理, Microsoft 強烈建議您使用 Azure AD Connect 從已啟用使用者帳戶的所有目錄林, 以及包含商務用 Skype。  如果您是從所有的目錄林進行同步處理, 則必須設定 Azure AD Connect 來合併這些身分識別, 並同步處理到 Azure AD。 Azure AD Connect 的設計目的是處理這個案例, 並提供安裝精靈中的內建選項來設定此情況, 包括設定加入身分識別的錨點。  選擇下列專案: 多個目錄中都存在使用者身分識別。 搭配使用--> ObjectSID 和 msExchangeMasterAccountSID 屬性。
+ 若要在[多樹系內部部署案例](configure-a-multi-forest-environment-for-hybrid.md)中，在 Azure ad 中取得適當的物件和屬性同步處理，Microsoft 強烈建議使用 Azure ad Connect，以同步處理已啟用使用者帳戶的所有樹系和包含商務用 Skype 的樹系。  假設您要從所有樹系進行同步處理，則必須先設定 Azure AD Connect 來合併這些身分識別，然後同步處理到 Azure AD。 Azure AD Connect 即是為了處理這種案例而設計，並在安裝精靈中提供內建選項來進行此設定，包括設定錨點以加入身分識別。  請選擇下列專案：多個目錄上都存在使用者身分識別。 搭配使用--> ObjectSID 及 msExchangeMasterAccountSID 屬性。
 
 
-### <a name="multiple-skype-for-business-server-deployments-in-multiple-forests"></a>多個林中的多個商務用 Skype Server 部署 
+### <a name="multiple-skype-for-business-server-deployments-in-multiple-forests"></a>多個樹系中有多個商務用 Skype Server 的部署 
 
-在此案例中, 有多個目錄林, 每個都包含商務用 Skype 伺服器以及單一的 Office 365 租使用者。  每個包含商務用 Skype 伺服器的林中, 都可以使用 AAD Connect 同步處理到該租使用者的 Azure AD 中。 在特定時間, 您最多隻能針對商務用 Skype 混合式設定一個目錄林。 在林中啟用混合功能之前, 必須使用[disable-csonlineSipDomain](https://docs.microsoft.com/en-us/powershell/module/skype/disable-csonlinesipdomain)停用所有其他目錄林的所有 SIP 網域。 如需如何將此類環境合併至 Office 365 的詳細資訊, 請參閱[小組和商務用 Skype 的雲端整合](cloud-consolidation.md)。
+在此案例中，有多個樹系，每個樹系都包含商務用 Skype 伺服器及單一 Office 365 組織。  每個包含商務用 Skype 伺服器的樹系，都可以使用 AAD Connect 同步處理到該租使用者的 Azure AD 中。 在指定時間裡，您最多只能為商務用 Skype 混合式設定一個樹系。 在樹系中啟用混合功能之前，所有其他樹系中的所有 SIP 網域都必須使用[停用 csonlineSipDomain](https://docs.microsoft.com/powershell/module/skype/disable-csonlinesipdomain)加以停用。 如需如何將這類環境合併至 Office 365 的詳細資訊，請參閱[Cloud 整合 For 小組和商務用 Skype](cloud-consolidation.md)。
 
 ## <a name="general-requirements"></a>一般需求 
 
-[小組] 和 [商務用 Skype] 線上服務都要求正確的 Active Directory 屬性存在, 且已填入 Azure AD。  Microsoft 的一般建議是同步處理所有包含使用者身分識別的目錄林, 以及包含商務用 Skype 伺服器的任何目錄林。
+小組和商務用 Skype Online 服務都要求正確的 Active Directory 屬性存在，且已在 Azure AD 中填入。  Microsoft 的一般建議是同步處理所有包含使用者身分識別及包含商務用 Skype Server 之樹系的樹系。
 
- 如果有多個目錄林的使用者身分識別, Azure AD Connect 應該會進行合併。 遵循本指南之後, 只要您不在 Azure AD Connect 中修改連接器或同步處理規則, Azure AD Connect 就會自動同步處理正確的屬性。 
+ 如果使用者的身分識別在多個樹系中存在，Azure AD Connect 應執行合併。 遵循此指南之後，Azure AD Connect 將會自動同步處理正確的屬性，前提是您不會在 Azure AD Connect 中修改連接器或同步規則。 
   
-如果您不是從所有包含使用者身分識別及商務用 Skype Server 部署的目錄林進行同步處理, 您仍然必須確保針對使用團隊或 Skype 的任何使用者將相關身分識別與商務用 Skype 屬性正確填入 Azure AD。商務 (無論是內部部署或線上))--這可能需要額外的內部部署目錄同步處理。 如需詳細資訊, 請參閱[AZURE AD Connect 同步處理: 屬性已同步處理到 Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized)。
+如果您未同步處理所有包含使用者身分識別和商務用 Skype Server 部署的樹系，則您仍然必須針對任何使用團隊或商務用 Skype （不論是內部部署或線上）的使用者，將相關的身分識別和商務用 Skype 屬性正確地填入到 Azure AD 中（不論是內部部署或線上）--可能需要其他內部部署目錄同步處理。 如需詳細資訊，請參閱[AZURE AD Connect sync：同步處理至 Azure Active Directory 的屬性](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized)。
 
-在這種情況下, 客戶必須負責確保將屬性填入 Azure AD 所需的適當配置。 請記住下列事項: 
+在這種情況下，客戶必須負責確保將屬性填入 Azure AD 的適當設定。 請記住下列事項： 
 
-- 使用非標準的設定來同步處理到 Azure AD 是危險的, 因為這可能會導致無法正確配置, 可能會導致您的線上目錄中的資料損毀。
+- 使用非標準設定來同步處理到 Azure AD 有風險，因為這可能會造成錯誤配置，而導致線上目錄中的資料損毀。
 
-- 隨著產品不斷演化, Microsoft 會繼續驗證已同步處理所有相關目錄林的標準同步處理設定。 具有自訂同步處理設定的客戶負責確保其設定能將正確的屬性和值傳遞到 Azure AD。 
+- 隨著產品演進，Microsoft 會繼續驗證所有相關樹系都可同步處理的標準同步處理設定。 擁有自訂同步處理設定的客戶負責確保其設定會將正確的屬性和值傳送到 Azure AD。 
 
 ## <a name="related-information"></a>相關資訊
 
-- [什麼是混合式身分識別](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/whatis-hybrid-identity?toc=%2Fen-us%2Fazure%2Factive-directory%2Fhybrid%2FTOC.json&bc=%2Fen-us%2Fazure%2Fbread%2Ftoc.json)
+- [混合式身分識別](https://docs.microsoft.com/azure/active-directory/hybrid/whatis-hybrid-identity?toc=%2Fen-us%2Fazure%2Factive-directory%2Fhybrid%2FTOC.json&bc=%2Fen-us%2Fazure%2Fbread%2Ftoc.json)
 
-- [Azure AD Connect 同步處理: 瞭解及自訂同步處理](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-sync-whatis)
+- [Azure AD Connect 同步處理：瞭解和自訂同步處理](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sync-whatis)
 
-- [Azure AD Connect 的拓撲](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/plan-connect-topologies)
+- [Azure AD Connect 的拓撲](https://docs.microsoft.com/azure/active-directory/hybrid/plan-connect-topologies)
 
-- [Azure AD Connect 同步處理: 屬性已同步處理到 Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized)
+- [Azure AD Connect sync：同步處理至 Azure Active Directory 的屬性](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized)

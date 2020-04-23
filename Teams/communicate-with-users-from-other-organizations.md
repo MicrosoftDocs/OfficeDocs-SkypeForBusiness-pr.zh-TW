@@ -17,12 +17,12 @@ description: 了解如何使用外部存取 (同盟)和來賓存取在 Microsoft
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: f7a18390841c6a62488c060b4279110a61dffb23
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: fb22aeaef31d04a9d359bc43742c85b72bf12c97
+ms.sourcegitcommit: 6fbaab29076e16fe18f8faeb7e012a0815c2369d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824921"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43785926"
 ---
 <a name="communicate-with-users-from-other-organizations-in-microsoft-teams"></a>在 Microsoft Teams 中與其他組織的使用者通訊
 ======================================================
@@ -73,6 +73,7 @@ ms.locfileid: "41824921"
 | 可以封鎖個別使用者 | 否 | 是 |
 | 支援以 @ 提及 | 是<sup>4</sup> | 是 |
 | 可進行私人通話 | 是 | 是 |
+| 查看撥入會議參與者的電話號碼 | 否 | 是 |
 | 允許 IP 視訊 | 是 | 是 |
 | 螢幕畫面分享模式 | 是<sup>4</sup> | 是 |
 | 允許立即開會 | 否 | 是 |
