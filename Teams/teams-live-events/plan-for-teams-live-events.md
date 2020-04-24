@@ -10,28 +10,32 @@ audience: admin
 ms.reviewer: sonua
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - M365-collaboration
 search.appverid: MET150
 description: 了解在 Microsoft Teams 中設定即時活動之前需考量的因素。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2f70a7a2be51045f616ebb4cedc5baf46dbe101d
-ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
+ms.openlocfilehash: c4a7f60a199a342d69311467bffbc4607854a719
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43505620"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43752360"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中規劃即時活動
 
-當您規劃 Teams 即時活動來舉辦貴組織大型會議時，必須先考量幾個因素，再開始進行設定。 
+當您規劃 Teams 即時活動來舉辦貴組織大型會議時，必須先考量幾個因素，再開始進行設定。
 
-## <a name="who-can-create-and-schedule-live-events"></a>哪些人可以建立及排定即時活動？ 
+## <a name="who-can-attend-create-and-schedule-live-events"></a>哪些人可以參加、建立及排定即時活動？
+
+任何人都可以在沒有授權的情況下參加即時活動。 請閱讀[系統管理員快速入門 - 會議與即時活動](../quick-start-meetings-live-events.md)。
+
 使用者需要具備下列必要條件，才能排定 Teams 即時活動。
 
 以下是必須指派的授權：  
+
 - Office 365 企業版 E1、E3 或 E5 授權，或 Office 365 A3 或 A5 授權
 - Microsoft Teams 授權
 - Microsoft Stream 授權
@@ -50,6 +54,7 @@ ms.locfileid: "43505620"
 如需授權的詳細資訊，請參閱 [Microsoft Teams 附加元件授權](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
 
 使用者必須：
+
 - 已啟用 Teams 中的私人會議排程 (*TeamsMeetingPolicy -AllowPrivateMeetingScheduling 參數 = True*)。
 - 在 Teams 會議中啟用影片共用 (*TeamsMeetingPolicy -AllowIPVideo 參數 = True*)。
 - 在 Teams 會議中啟用螢幕共用 (*TeamsMeetingPolicy -ScreenSharingMode 參數 = EntireScreen*)。
@@ -58,23 +63,23 @@ ms.locfileid: "43505620"
 - 已設定共存模式，以便排程 Teams 會議 (*孤島、會議優先或僅 Teams*)。
 
 > [!IMPORTANT]
-> 未經驗證的匿名使用者無法受邀為 Teams 即時活動製作人或簡報者。 
- 
+> 未經驗證的匿名使用者無法受邀為 Teams 即時活動製作人或簡報者。
+
 ## <a name="who-can-watch-live-events"></a>誰可以觀看即時活動？
 
 |**出席者可見度**       |**Teams 生產**  |**外部應用程式或裝置生產**  |
 |------------------------------|-----------------|----------------------|
 |公用 (匿名使用者)      |  是            |  否                  |
 |來賓使用者                   |  是            |  否                  |
-|同盟公司中的每個人 |  是<sup>1</sup>|  否                  |
+|外部存取 (同盟) 公司中的每個人 |  是<sup>1</sup>|  否                  |
 |公司中的每個人           |  是            |  是                 |
 |特定群組/人員      |  是            |  是                 |
 
-<sup>1</sup> 同盟的出席者只能透過人員與群組邀請 <br>
- 
+<sup>1</sup> 外部存取 (同盟) 的出席者只能透過人員與群組邀請 <br>
+
 ## <a name="teams-live-events-and-skype-meeting-broadcast"></a>Teams 即時活動和 Skype 會議廣播
 
-下表醒目提示即時活動中提供的核心功能和功能，以及它們與 Skype 會議廣播有何差異。 
+下表醒目提示即時活動中提供的核心功能和功能，以及它們與 Skype 會議廣播有何差異。
 
 |**功能**   |**Skype 會議廣播** |**Teams 中產生的活動** |**在外部應用程式或裝置中生產的活動** |
 |---------|---------|---------|---------|
@@ -90,8 +95,8 @@ ms.locfileid: "43505620"
 |製作人 UI 中的出席者計數 |&#x274C;  |&#x2714; (Teams) |&#x2714; (Stream，透過內嵌 Stream 的 Teams) |
 |允許多個簡報者 |&#x2714; (商務用 Skype) |&#x2714; (Teams) |不適用  |
 |在會議期間邀請簡報者 |&#x2714; (商務用 Skype) |&#x274C; |不適用 |
-|網路和行動裝置上的簡報者加入 |&#x2714; (商務用 Skype)  |&#x274C; |不適用 |
-|同盟和來賓簡報者/出席者 |&#x2714; (商務用 Skype)  |  &#x2714; (Teams) |不適用 |
+|網路和行動裝置上的簡報者加入 |&#x2714; (商務用 Skype)  |&#x274C; |N/A |
+|外部存取 (同盟) 和來賓簡報者/出席者 |&#x2714; (商務用 Skype)  |  &#x2714; (Teams) |不適用 |
 |簡報者 - PSTN 存取 |&#x274C; |&#x2714; (Teams) |不適用 |
 |展示畫面 |&#x274C; |&#x2714; (Teams) |不適用 |
 |展示 PowerPoint (PPT 共用) |&#x2714; |&#x274C; (透過螢幕畫面分享緩解) |不適用 |
@@ -107,27 +112,31 @@ ms.locfileid: "43505620"
 <sup>1</sup> 設定的限制可能會變更。 查看[Teams 的限制和規格](../limits-specifications-teams.md)。<br/>
 <sup>2</sup> 您最多可以在即時活動中擁有 250 位簡報者和製作人，但只會在清單中顯示最後 10 位發言者。
 
-
 ## <a name="regional-availability"></a>區域可用性
-您可以在世界各地多個區域中使用 Teams 即時活動。 下列資訊顯示事件小組成員和出席者的可用性。 
+
+您可以在世界各地多個區域中使用 Teams 即時活動。 下列資訊顯示事件小組成員和出席者的可用性。
 
 > [!IMPORTANT]
 > 系統會根據召集人和 Office 365 組織，自動選取活動的區域。
 
 **可在這些區域中使用**
+
 - 美洲地區
 - 歐洲/非洲
 - 亞太地區
-- Go Local 加拿大、印度、澳大利亞、日本、英國
+- 加拿大、印度、澳大利亞、日本、英國的資料位置
 
 **排除和考量**
-- **Go Local：** Teams Go Local，上述以外的國家/地區目前不支援。
+
+- **資料位置：** Teams 資料位置，目前不支援上述以外的國家/地區。
 - **中國：** 活動小組成員和出席者無法使用 Teams 即時活動，因為無法在中國存取 Azure CDN。 因應措施是使用公司 VPN 連線，透過客戶的公司網路，讓用戶端連線到 CDN。
 
 ## <a name="next-steps"></a>後續步驟
+
 移至[設定 Teams 即時活動](set-up-for-teams-live-events.md)。
 
 ### <a name="related-topics"></a>相關主題
+
 - [什麼是 Teams 即時活動？](what-are-teams-live-events.md)
 - [設定 Teams 即時活動](set-up-for-teams-live-events.md)
 - [在 Teams 中設定即時活動設定](configure-teams-live-events.md)

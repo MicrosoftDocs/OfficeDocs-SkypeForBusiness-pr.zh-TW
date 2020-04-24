@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0ad27eec186bec2fce915da0fc53f515f58ce8e9
-ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
+ms.openlocfilehash: 4991945d47ecda85964068530118bcf3ef1f616a
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42892313"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43749790"
 ---
 <a name="manage-the-microsoft-teams-exploratory-license"></a>管理 Microsoft Teams Exploratory 授權
 =======================================================
@@ -156,8 +156,8 @@ Teams Exploratory 體驗隨附 Exchange Online 授權，但在系統管理員指
 
 ## <a name="how-long-does-the-teams-exploratory-experience-last"></a>Teams Exploratory 體驗持續時間？
 
-您在下一個 Enterprise 合約週年日或 2021 年 1 月或之後續約之前，無需任何額外費用即可獲得Microsoft Teams Exploratory 體驗。 屆時 Microsoft Exploratory 體驗授權的使用者將需要移至包括 Teams 的付費授權。 在該時間之後起始的任何 Microsoft Exploratory 體驗授權，在您的下一週年日或續約週期前都將維持免費提供。 
+您在下一個**合約週年日**或 2021 年 1 月或之後**續約**之前，無需任何額外費用即可獲得 Microsoft Teams Exploratory 體驗。 屆時 Microsoft Exploratory 體驗授權的使用者將需要移至包括 Teams 的付費授權。 在該時間之後起始的任何 Microsoft Exploratory 體驗授權，在您的下一**週年日**或**續約**週期前都將維持免費提供。 
 
 ### <a name="what-happens-if-an-end-user-initiates-the-microsoft-teams-exploratory-experience-just-before-my-anniversary-or-renewal-date"></a>如果使用者在週年日或續約日到期前起始 Microsoft Teams Exploratory 體驗，會發生什麼情況？
 
-在您的 Enterprise 合約週年日或續約日 90 天內起始的Microsoft Teams Exploratory 體驗授權，直到下一個週年日或續約週期為止前都不需移到付費授權。 
+在您的**合約週年日**或**續約**日 90 天內起始的 Microsoft Teams Exploratory 體驗授權，直到下一個週年日或續約週期為止前，都不需移到付費授權。 
