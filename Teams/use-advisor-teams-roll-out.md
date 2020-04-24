@@ -19,20 +19,20 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: 使用適用於 Teams 的建議程式 (公開預覽) 協助您規劃和完成您的 Microsoft Teams 部署。
-ms.openlocfilehash: 6e4f383983326333bcd8b821d2342872eb89ecd7
-ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
+ms.openlocfilehash: 006ecf1563da153660902ac4c580253e50632867
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43053616"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780802"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>使用 Advisor for Teams 協助您推出 Microsoft Teams
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-適用於 Teams 的建議程式 (公開預覽) 會引導您完成 Microsoft Teams 的推行。 在您成功推出 Teams 前，Advisor for Teams 會評估您的 Office 365 租用戶環境，找出可能需要更新或修改的最常用設定。 接著，Advisor for Teams 會建立部署團隊 (在 Teams 中)，並為您要推出的每個工作負載建立頻道。部署團隊中的每項工作負載隨附有全方位的 Planner 計劃，其中包含每個工作負載的所有推出工作。  您可以使用此 Planner 計劃，將工作指派給每個推廣階段的負責人，包括專案經理、Teams 和 Office 365 系統管理員、支援人員，以及您的採用和使用者整備團隊。 每項推廣工作都包含所有您成功完成工作所需的指引和資源。
+適用於 Teams 的建議程式 (公開預覽) 會引導您完成 Microsoft Teams 的推行。 在您成功推出 Teams 前，Advisor for Teams 會評估您的 Office 365 組織環境，找出可能需要更新或修改的最常用設定。 接著，Advisor for Teams 會建立部署團隊 (在 Teams 中)，並為您要推出的每個工作負載建立頻道。部署團隊中的每項工作負載隨附有全方位的 Planner 計劃，其中包含每個工作負載的所有推出工作。  您可以使用此 Planner 計劃，將工作指派給每個推廣階段的負責人，包括專案經理、Teams 和 Office 365 系統管理員、支援人員，以及您的採用和使用者整備團隊。 每項推廣工作都包含所有您成功完成工作所需的指引和資源。
 
-Advisor for Teams 是 [Teams 系統管理中心](https://admin.teams.microsoft.com)的功能之一。 您至少會需要 Office 365 商務基本版授權，才能運用 Advisor for Teams 和 Forms 與 Planner 的整合。 若要開始使用 Advisor for Teams，請在儀表板上按一下 **[部署 Teams 工作負載]** 小工具中的 **[啟動]** 按鈕。 或者前往**規劃** > **Teams 建議程式**。
+Advisor for Teams 是 [Teams 系統管理中心](https://admin.teams.microsoft.com)的功能之一。 您至少會需要 Microsoft 365 商務基本版授權，才能運用 Advisor for Teams 和 Forms 與 Planner 的整合。 若要開始使用 Advisor for Teams，請在儀表板上按一下 **[部署 Teams 工作負載]** 小工具中的 **[啟動]** 按鈕。 或者前往**規劃** > **Teams 建議程式**。
 
 > [!IMPORTANT]
 > Advisor for Teams 不適用於 Microsoft 365 政府版 - GCC High 或 DoD 部署。
@@ -96,8 +96,8 @@ Advisor for Teams 是 [Teams 系統管理中心](https://admin.teams.microsoft.c
 
 |評估測試  |代表意義  |
 |---------|---------|
-|已設定 Office 365 群組命名原則     |是否已針對 Office 365 群組設定命名標準。 Office 365 群組命名原則可讓貴組織為使用者建立的團隊套用一致的命名策略，也適用於其他群組工作負載 (包括 Outlook、SharePoint、Planner 和 Yammer)。 此測試會經由 Microsoft Graph 查詢 Azure AD，以檢查適用於 Office 365 群組的命名原則是否存在。 如需詳細資訊，請參閱 [Office 365 群組命名原則](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy)。    |
-|已設定 Office 365 群組到期原則     |是否已為 Office 365 群組定義群組到期原則。 這能讓貴組織自動移除非作用中的團隊。 預設為關閉。 此測試經由 Microsoft Graph 查詢 Azure AD，並報告是否已修改預設值。 如需詳細資訊，請參閱 [Office 365 群組到期原則](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups-expiration-policy)。    |
+|已設定 Office 365 群組命名原則     |是否已針對 Microsoft 365 群組設定命名標準。 Microsoft 365 群組命名原則可讓貴組織為使用者建立的團隊套用一致的命名策略，也適用於其他群組工作負載 (包括 Outlook、SharePoint、Planner 和 Yammer)。 此測試會經由 Microsoft Graph 查詢 Azure AD，以檢查適用於 Microsoft 365 群組的命名原則是否存在。 如需詳細資訊，請參閱 [Office 365 群組命名原則](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy)。    |
+|已設定 Office 365 群組到期原則     |是否已為 Microsoft 365 群組定義群組到期原則。 這能讓貴組織自動移除非作用中的團隊。 預設為關閉。 此測試經由 Microsoft Graph 查詢 Azure AD，並報告是否已修改預設值。 如需詳細資訊，請參閱 [Office 365 群組到期原則](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups-expiration-policy)。    |
 
 ### <a name="assessments-for-meetings-and-conferencing"></a>會議和研討會評估
 
@@ -131,7 +131,7 @@ Advisor for Teams 建立部署團隊後，Advisor Bot 會在 [一般] 頻道傳�
 
 ## <a name="frequently-asked-questions"></a>常見問題集
 ### <a name="what-are-the-licensing-requirements-for-advisor-for-teams"></a>Advisor for Teams 的授權需求為何？
-您至少會需要 Office 365 商務基本版，才能運用 Advisor for Teams 和 Forms 與 Planner 的整合。
+您至少會需要 Microsoft 365 商務基本版，才能運用 Advisor for Teams 和 Forms 與 Planner 的整合。
 
 ### <a name="can-i-delete-the-deployment-team"></a>我可以刪除部署團隊嗎？
 在 Advisor for Teams 建立您的部署團隊後，請像管理其他團隊一樣管理該團隊，包括刪除團隊。 請注意，如果您不是使用 Teams 系統管理中心刪除團隊，Teams 系統管理中心會顯示該團隊依然存在。 這只是暫時的，適用於 Teams 的建議程式結束公開預覽期間並公開發布時，便會修正此問題。

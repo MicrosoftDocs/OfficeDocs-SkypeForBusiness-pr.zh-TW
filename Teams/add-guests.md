@@ -18,12 +18,12 @@ description: 系統管理員可以了解如何將新的來賓使用者新增至 
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 60538383021028d043cb47197dd41ee89f8a4d37
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 026fa191dffa160980bfb00e7031490f01ddc6cc
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139362"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778218"
 ---
 <a name="add-a-guest-to-a-team"></a>將來賓新增至團隊
 =====================
@@ -42,7 +42,7 @@ ms.locfileid: "43139362"
 
 透過 Azure AD B2B 共同作業功能，組織可為 B2B 使用者強制執行條件式存取和多重要素驗證 (MFA) 原則。 這些原則可以在租用戶層級、應用程式或個別使用者層級強制執行，與為組織全職員工和成員啟用原則的方式相同。 這類原則會在資源組織強制執行。 如需詳細資訊，請參閱[適用於 B2B 共同作業使用者的條件式存取](https://go.microsoft.com/fwlink/?linkid=857454)。 無法封鎖個別來賓使用者。
 
-您透過 Azure AD B2B、Office 365 群組或 SharePoint Online 新增的來賓使用者已準備就緒。 Office 365 系統管理員或團隊擁有者可將這些來賓新增至個別團隊中。 如果團隊已使用 Office 365 群組，且已將來賓新增至群組，來賓將可存取團隊。 透過 Office 365 群組新增來賓並不會為來賓產生邀請電子郵件，因此團隊中的人員應通知來賓。
+您透過 Azure AD B2B、Microsoft 365 群組或 SharePoint Online 新增的來賓使用者已準備就緒。 Office 365 系統管理員或團隊擁有者可將這些來賓新增至個別團隊中。 如果團隊已使用 Office 365 群組，且已將來賓新增至群組，來賓將可存取團隊。 透過 Office 365 群組新增來賓並不會為來賓產生邀請電子郵件，因此團隊中的人員應通知來賓。
 
 > [!NOTE]
 > 來賓須遵守 [Office 365](https://go.microsoft.com/fwlink/p/?linkid=282347) 和 [Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=853019) 的服務限制。

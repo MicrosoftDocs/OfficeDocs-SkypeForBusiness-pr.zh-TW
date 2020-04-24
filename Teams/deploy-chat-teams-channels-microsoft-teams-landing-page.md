@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.quickstartteamsadmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c6cd94f5d7205b438396dcb09ebb047a49b8f2e
-ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
+ms.openlocfilehash: 082cde04ad29ba0d1af68bb02f851d87197d7407
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43170591"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776568"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams 中的聊天、團隊、頻道和應用程式
 
@@ -46,7 +46,7 @@ Teams 為您的組織提供絕佳的現成共同作業體驗，而大部分組�
 
 |問問自己|動作 |
 |------------|-------|
-|我的組織是否已準備好要推出 Teams？|若要回答此問題，請參閱： <ul><li>[針對 Teams 準備組織的網路](prepare-network.md)</li><li>[Office 365 URL 與 IP 位址範圍](office-365-urls-ip-address-ranges.md)</li><li>[建立團隊時規劃 Office 365 群組](plan-office-365-groups.md)</li></ul>|
+|我的組織是否已準備好要推出 Teams？|若要回答此問題，請參閱： <ul><li>[針對 Teams 準備組織的網路](prepare-network.md)</li><li>[Office 365 URL 與 IP 位址範圍](office-365-urls-ip-address-ranges.md)</li><li>[在建立團隊時規劃 Microsoft 365 群組](plan-office-365-groups.md)</li></ul>|
 |||
 
 ## <a name="core-deployment-decisions"></a>核心部署決策
@@ -193,7 +193,7 @@ Teams 會隨著許多 Office 365 授權的一部分提供。 若要深入了解 
 | 問問自己 | 動作 |
 |--------------|--------|
 |我是否需要對可以建立團隊的人員實作控制？| 請閱讀[規劃 Teams 中的控管](plan-teams-governance.md)。|
-|我是否需要對團隊的命名方式實作控制？|請閱讀[在 Azure AD 中對 Office 365 群組強制執行命名原則](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy)。|
+|我是否需要對團隊的命名方式實作控制？|請閱讀[在 Azure AD 中對 Microsoft 365 群組強制執行命名原則](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy)。|
 |||
 
 ### <a name="teams-application-policy-side-rail-control"></a>Teams 應用程式原則 (側邊欄控制)

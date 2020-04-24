@@ -17,12 +17,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c2ef9f509f64e044567d9286704458b4dc91596
-ms.sourcegitcommit: 7093388425b34c80e444a50d062290187b80047d
+ms.openlocfilehash: d47a14dd84a1ccbe73d07ea3cbd638b5ed6159db
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/22/2020
-ms.locfileid: "42229898"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776618"
 ---
 # <a name="apps-bots--connectors-in-microsoft-teams"></a>Microsoft Teams 中的應用程式、Bot 和連接器
 
@@ -62,11 +62,11 @@ Teams 提供數個由 Microsoft 發行的應用程式和第三方應用程式，
 
 ### <a name="bots-for-private-chats-and-channels"></a>適用於私人聊天和頻道的 Bot
 
-Bot 是自動程式，可回應查詢或可針對使用者感興趣或希望隨時了解的詳細資訊提供更新和通知。 Bot 可讓使用者與 Teams 聊天中的雲端服務互動，例如工作管理、排程和投票等。 Teams 支援在私人聊天和頻道中使用 Bot。 系統管理員可以控制是否允許在 Office 365 租用戶中使用 Bot。
+Bot 是自動程式，可回應查詢或可針對使用者感興趣或希望隨時了解的詳細資訊提供更新和通知。 Bot 可讓使用者與 Teams 聊天中的雲端服務互動，例如工作管理、排程和投票等。 Teams 支援在私人聊天和頻道中使用 Bot。 系統管理員可以控制是否允許在 Office 365 組織中使用 Bot。
 
 | 問問自己 | 動作 |
 |--------------|--------|
-|我想要在我的 Office 365 租用戶中允許使用自訂 Bot 嗎？|如需新增 Bot 的詳細資訊，請參閱[在 Microsoft Teams 中新增適用於私人聊天和頻道的 Bot](add-bots.md) (英文)。 如需開啟或關閉自訂 Bot 的詳細資訊，請參閱 [Microsoft Teams 中應用程式的系統管理設定](admin-settings.md)。|
+|我想要在我的 Office 365 組織中允許使用自訂 Bot 嗎？|如需新增 Bot 的詳細資訊，請參閱[在 Microsoft Teams 中新增適用於私人聊天和頻道的 Bot](add-bots.md) (英文)。 如需開啟或關閉自訂 Bot 的詳細資訊，請參閱 [Microsoft Teams 中應用程式的系統管理設定](admin-settings.md)。|
 |||
 
 ### <a name="built-in-and-custom-tabs"></a>內建和自訂索引標籤
@@ -75,7 +75,7 @@ Bot 是自動程式，可回應查詢或可針對使用者感興趣或希望隨�
 
 | 問問自己 | 動作 |
 |--------------|--------|
-|我想要在我的 Office 365 租用戶中允許使用自訂索引標籤嗎？|如需詳細資訊，請參閱 [在 Teams 中使用內建和自訂索引標籤](built-in-custom-tabs.md)。|
+|我想要在我的 Office 365 組織中允許使用自訂索引標籤嗎？|如需詳細資訊，請參閱 [在 Teams 中使用內建和自訂索引標籤](built-in-custom-tabs.md)。|
 |||
 
 ### <a name="office-365-and-custom-connectors"></a>Office 365 和自訂連接器

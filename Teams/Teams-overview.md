@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8fe24de92f46b5850edc9fe6631bb02a03be8bcb
-ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
+ms.openlocfilehash: fe9e0b5220466971749bd3a8fd12c0c854e42009
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42928256"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778469"
 ---
 # <a name="welcome-to-microsoft-teams"></a>歡迎使用 Microsoft Teams
 如果您是組織中 Microsoft Teams 的系統管理員，那您便是正確的人選。 當您準備好開始使用 Teams 時，請從[如何推出 Teams](How-to-roll-out-teams.md) 開始。
@@ -38,7 +38,7 @@ ms.locfileid: "42928256"
 
 ## <a name="teams-architecture"></a>Teams 架構
 
-Teams 的建置基礎為 Office 365 群組、Microsoft Graph，以及與其餘 Office 365 相同的企業層級安全性、合規性和可管理性。 Teams 會利用儲存在 Azure Active Directory (Azure AD) 中的身分識別。 即使您離線或遇到時好時壞的網路狀況時，Teams 也會持續運作。
+Teams 的建置基礎為 Microsoft 365 群組、Microsoft Graph，以及與其餘 Office 365 相同的企業層級安全性、合規性和可管理性。 Teams 會利用儲存在 Azure Active Directory (Azure AD) 中的身分識別。 即使您離線或遇到時好時壞的網路狀況時，Teams 也會持續運作。
 
 若要查看 Teams 在 Microsoft 365 的內容中適合的位置，請查看此架構海報：[Teams 成為 Microsoft 365 的一部分](teams-architecture-solutions-posters.md#teams-as-part-of-microsoft-365)
 
@@ -68,7 +68,7 @@ Teams 的建置基礎為 Office 365 群組、Microsoft Graph，以及與其餘 O
 - [使用 Teams 系統管理員角色來管理 Teams](using-admin-roles.md)
 - [在 Teams 系統管理中心管理 Teams](manage-teams-skypeforbusiness-admin-center.md)
 - [在轉換至新 Teams 系統管理中心期間管理 Teams](manage-teams-in-modern-portal.md)
-- [在 Office 365 組織中管理 Teams 功能](enable-features-office-365.md)
+- [在 Microsoft 365 或 Office 365 中管理 Teams 功能](enable-features-office-365.md)
 
 若要掌握 Teams 和組織中所有其他 Office 365 產品和服務即將推出的內容，請務必查看[訊息中心](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter)和 [Teams 藍圖](https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters=Microsoft%20Teams%26searchterms=microsoft%2Cteams)。 您會收到有關新功能和更新功能、計劃的變更和問題的公告，以協助您了解並做好準備。 
 

@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c264bba408205f8f00d1df20fffbc6242124220
-ms.sourcegitcommit: f9860dbf3c719fec5ffc1874b503b6db252afe10
+ms.openlocfilehash: 756059aaf7a707a824c75bd0306df04a70b66829
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "43237956"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780562"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>開始使用 Microsoft Teams 進行遠端學習
 
@@ -56,7 +56,7 @@ Teams 具有[用戶端](get-clients.md)以供桌面 (Windows、Mac 和 Linux)、
 
 Teams 利用 Microsoft 365 功能來驗證使用者和提供服務。 教職員、講師和學生應建立身分識別，以利於共同作業。 如果身分識別尚不存在，請遵循此程序來建立。
 
-[需要為使用者啟用 Teams 授權](https://docs.microsoft.com/MicrosoftTeams/teams-quick-start-edu?tutorial-step=2)，然後[必須將授權指派給使用者](teams-edu-licensing.md)，之後使用者才能使用 Teams 功能。 Teams 依賴其他 Microsoft 365 功能，例如 [Office 365 群組](Office-365-groups.md)、[Exchange](Exchange-Teams-interact.md)、[SharePoint 和 OneDrive](SharePoint-OneDrive-interact.md) 來啟用共同作業案例。 如果這所有服務也都啟用，使用者就能獲得最佳的 Teams 體驗。 [Teams 可支援由 Google 託管電子郵件的使用者](https://docs.microsoft.com/microsoft-365/education/deploy/enabling-teams-for-education-for-google-users)。
+[需要為使用者啟用 Teams 授權](https://docs.microsoft.com/MicrosoftTeams/teams-quick-start-edu?tutorial-step=2)，然後[必須將授權指派給使用者](teams-edu-licensing.md)，之後使用者才能使用 Teams 功能。 Teams 依賴其他 Microsoft 365 功能，例如 [Microsoft 365 群組](Office-365-groups.md)、[Exchange](Exchange-Teams-interact.md)、[SharePoint 和 OneDrive](SharePoint-OneDrive-interact.md) 來啟用共同作業案例。 如果這所有服務也都啟用，使用者就能獲得最佳的 Teams 體驗。 [Teams 可支援由 Google 託管電子郵件的使用者](https://docs.microsoft.com/microsoft-365/education/deploy/enabling-teams-for-education-for-google-users)。
 
 Microsoft Teams 隨附於 Office 365 A1 中，教育機構可免費試用。 如需有關如何部署 Office 365 並讓整個學校開始使用 Teams 的 IT 指導方針，請參閱[此頁](https://docs.microsoft.com/microsoft-365/education/intune-edu-trial/set-up-office365-edu-tenant)。 若要取得支援，可以在[這裡](https://signup.microsoft.com/Signup?OfferId=03ee83a5-5cb4-4545-aca9-33ead43f222a,d764709a-7763-45ef-a2a8-db5b8b6ae704&DL=ENTERPRISEPREMIUM_FACULTY&ali=1)提出支援票證；若要取得 Teams 的訓練課程，請造訪當地的 Microsoft Store 實體商店與專業人員洽詢。
 
@@ -69,7 +69,7 @@ Microsoft Teams 隨附於 Office 365 A1 中，教育機構可免費試用。 如
 
 ### <a name="1-allow-users-to-create-teams"></a>1. 允許使用者建立 Teams
 
-當學生和授課者使用 Teams 時遇到的隔閡最小，並有彈性可量身訂做它來符合需求時，才能發揮其最大效用。 使用者可以量身訂做其 Teams 體驗的其中一個方式是能夠建立符合其自己的需求的團隊。 **根據預設，每個人都可以建立 Office 365 群組和團隊**。 有時候此功能可能不適當；例如，有些客戶可能會想要限制中小學學生建立 Teams。 如有需要，您可以將 Office 365 群組和團隊建立[限制於您環境中的特定安全性群組](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups)。
+當學生和授課者使用 Teams 時遇到的隔閡最小，並有彈性可量身訂做它來符合需求時，才能發揮其最大效用。 使用者可以量身訂做其 Teams 體驗的其中一個方式是能夠建立符合其自己的需求的團隊。 **根據預設，每個人都可以建立 Microsoft 365 群組和團隊**。 有時候此功能可能不適當；例如，有些客戶可能會想要限制中小學學生建立 Teams。 如有需要，您可以將 Office 365 群組和團隊建立[限制於您環境中的特定安全性群組](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups)。
 
 當您讓每個人 (包括學生) 為班級、研究、群組專案及研究群組建立團隊時，高等教育客戶更能從中獲益。 中小學學校可能會想要限制學生建立 Teams，以確保所有學生與學生之間的通訊會在包含成人的論壇內進行。 在此情況下，您可以將 Office 365 群組和 Teams 建立限制為所有授課者和教職員。
 

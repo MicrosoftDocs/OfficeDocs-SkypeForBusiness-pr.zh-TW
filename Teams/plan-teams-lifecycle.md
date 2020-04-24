@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ce58f292fd732c498880936c01d3e1b1343d2aa6
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 29caa32b894c2a407a724f68c11c01cfe567c82e
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137823"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780252"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Teams 中的生命週期管理方案
 
@@ -40,7 +40,7 @@ Teams 提供的豐富工具組可以在您組織中實作共同作業的生命�
 
 **團隊**
 
-_團隊_是促進共同作業的人員、內容和工具的集合。 團隊會定義其成員，以及會套用到這些成員的權限和原則。 Teams 的建置基礎為 Office 365 群組，因此 Office 365 群組成員資格的變更會同步至團隊。 和其他 Office 365 群組一樣，Teams 會在 Office 365 內自動佈建 Exchange 信箱、SharePoint 網站、OneNote 筆記本和其他資產。 [深入了解 Office 365 群組](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)。
+_團隊_是促進共同作業的人員、內容和工具的集合。 團隊會定義其成員，以及會套用到這些成員的權限和原則。 Teams 的建置基礎為 Microsoft 365 群組，因此 Office 365 群組成員資格的變更會同步至團隊。 和其他 Microsoft 365 群組一樣，Teams 會在 Office 365 內自動佈建 Exchange 信箱、SharePoint 網站、OneNote 筆記本和其他資產。 [深入了解 Microsoft 365 群組](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)。
 
 **頻道**
 
@@ -57,7 +57,7 @@ _團隊_是促進共同作業的人員、內容和工具的集合。 團隊會�
 
 團隊使用者類型決定團隊成員擁有的控制權：
 
--   _團隊建立者_擁有可以在目錄中建立群組或團隊的權限。 系統管理員可以將此使用者類型限制為系統管理員或使用者的子集。 如需詳細資訊，請參閱[管理能建立 Office 365 群組的使用者](https://support.office.com/article/Manage-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618) (英文)。 
+-   _團隊建立者_擁有可以在目錄中建立群組或團隊的權限。 系統管理員可以將此使用者類型限制為系統管理員或使用者的子集。 如需詳細資訊，請參閱[管理能建立 Microsoft 365 群組的使用者](https://support.office.com/article/Manage-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618) (部分機器翻譯)。 
 -   _團隊擁有者_管理團隊的成員資格和設定。 每個團隊最多可以有 100 位團隊擁有者。
 -   _團隊成員_是參與團隊的組織成員。
 -   _來賓_是組織外部的使用者。 如果您的組織已啟用[來賓存取](guest-access.md)，則擁有電子郵件地址的任何人都可以受邀成為來賓。
@@ -79,7 +79,7 @@ Teams 系統管理員角色決定每個系統管理員角色持有者所擁有�
 <tbody>
    <tr>
     <td valign="top" colspan="2">Teams 服務管理員</td>
-    <td valign="top">管理 Teams 服務，建立和管理 Office 365 群組</td>
+    <td valign="top">管理 Teams 服務，建立和管理 Microsoft 365 群組</td>
     <td valign="top">管理會議，包括會議原則、組態和會議橋接器<sup>1</sup><br><br>管理語音，包括通話原則、電話號碼的庫存和指派、通話佇列以及自動語音應答<sup>1</sup><br><br>管理訊息，包括訊息原則<sup>1</sup><br><br>管理所有的全組織設定，包括同盟、Teams 升級和 Teams 用戶端設定<sup>1</sup><br><br>管理組織中的團隊及其相關設定，包括成員資格<sup>2</sup><br><br>透過使用進階的疑難排解工具組<sup>3</sup>，檢視使用者設定檔頁面，並針對使用者通話品質問題進行疑難排解</td>
 </tr>
 <tr>
@@ -197,7 +197,7 @@ Teams 系統管理員角色決定每個系統管理員角色持有者所擁有�
 
 當團隊的工作持續到自然結束，正式告知團隊已結束非常重要。 這樣可以讓團隊成員感覺到團隊已關閉，也可以避免任何人存取過期過時的資訊。 您可以利用團隊本身來舉辦如事後剖析和執行摘要等的關閉儀式。
 
-您可以刪除您知道已不再需要的團隊 (例如專為測試而建立的團隊，或是含有敏感性資料的團隊)。 實際上，團隊會以「虛刪除」的方式刪除，IT 人員最多可以在 21 天內回復 (Office 365 群組為 30天)。 刪除團隊不會影響依照合規性原則而保留的任何交談或內容。 頻道也有「虛刪除」，而且可以在刪除後最多 21 天內回復。
+您可以刪除您知道已不再需要的團隊 (例如專為測試而建立的團隊，或是含有敏感性資料的團隊)。 實際上，團隊會以「虛刪除」的方式刪除，IT 人員最多可以在 21 天內回復 (Microsoft 365 群組為 30天)。 刪除團隊不會影響依照合規性原則而保留的任何交談或內容。 頻道也有「虛刪除」，而且可以在刪除後最多 21 天內回復。
 
 除了封存功能之外，您也可以使用到期和保留原則，針對不再使用的團隊或是擁有者已離開組織的團隊，減少這些團隊的曝光率。
 

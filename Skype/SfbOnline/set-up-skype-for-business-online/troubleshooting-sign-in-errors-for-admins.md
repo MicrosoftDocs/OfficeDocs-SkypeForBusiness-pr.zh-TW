@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: '了解商務用 Skype Online 登入錯誤的常見原因，並對這些問題進行疑難排解。 '
-ms.openlocfilehash: 6014c8af8a3fd39ad3a79d80f7abfbddeaa4340b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 881bb6e41b4b22fe71caeb701ac10d1696147d4b
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010756"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777148"
 ---
 # <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>系統管理員適用的商務用 Skype 登入錯誤問題疑難排解
 
@@ -65,7 +65,7 @@ ms.locfileid: "42010756"
 | 登入位址、使用者名稱或密碼輸入錯誤  <br/>                                                                                                               | 確認使用者的登入名稱和密碼正確。 <br/>  驗證使用者的登入名稱格式如下：<strong>bobk@contoso.com</strong>。 這可能與您用來登入組織網路的格式不同。  <br/>  我們可能會要求使用者再次登入。 <br/>                                                                                                                                                                                                                             |
 | 忘記密碼  <br/>                                                                                                                                             | 重設使用者的密碼，並通知使用者新的臨時密碼。  <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | 未獲授權使用商務用 Skype Online  <br/>                                                                                                                  | 確認使用者已註冊為商務用 Skype Online 使用者。 如果沒有，請註冊該使用者，然後要求使用者再次登入。  <br/>                                                                                                                                                                                                                                                                                                                                                                                           |
-| 安裝的商務用 Skype Online 版本錯誤  <br/>                                                                                                           | 此問題通常與包含下列字詞的錯誤訊息相關聯：**驗證服務可能與這一版的程式不相容**。  <br/> 要求使用者從 Office 365 入口網站解除安裝並重新安裝商務用 Skype Online。  <br/>                                                                                                                                                                                                                                                    |
+| 安裝的商務用 Skype Online 版本錯誤  <br/>                                                                                                           | 此問題通常與包含下列字詞的錯誤訊息相關聯：**驗證服務可能與這一版的程式不相容**。  <br/> 要求使用者從 Microsoft 365 系統管理中心解除安裝並重新安裝商務用 Skype Online。  <br/>                                                                                                                                                                                                                                                    |
 | 取得登入所需的個人憑證時發生問題  <br/>                                                                                           | 如果使用者的登入地址最近已變更，則可能需要刪除快取的登入資料。 要求使用者登出，在登入畫面上按一下 [刪除我的登入資訊] 連結，然後再試一次。  <br/>                                                                                                                                                                                                                                                                                                                                |
 | 您設定自訂網域名稱，但是變更可能沒有完全傳佈到系統。  <br/>                                                         | 首先，請確定您已修改網域名稱服務 (DNS) 記錄，以反映變更。  <br/> 如果您已完成必要的 DNS 變更，請建議使用者稍後再嘗試登入。 DNS 變更最多可能需要 72 個小時的時間，才能反映在整個系統中。  <br/>                                                                                                                                                                                                                                                        |
 | 系統時鐘與伺服器時鐘不同步  <br/>                                                                                                                     | 確保您的網路網域控制站正在與可靠的外部時間來源同步處理。 如需詳細資訊，請參閱 Microsoft 知識庫文章816042：[如何在 Windows Server 中設定授權時間伺服器](https://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=816042)。<br/>                                                                                                                                                                                                                                          |

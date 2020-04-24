@@ -19,12 +19,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f57753947221068a21edd282ba0667efc4182690
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: c706fdde4f9634cc67b334cf19d0e9d3325f6ec8
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137323"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776578"
 ---
 # <a name="learn-how-to-deploy-audio-conferencing-in-microsoft-teams"></a>了解如何在 Microsoft Teams 中部署音訊會議
 
@@ -44,7 +44,7 @@ ms.locfileid: "43137323"
 |問問自己|動作 |
 |------------|-------|
 |我所在的國家/地區是否可使用音訊會議？|若要了解您的國家/地區是否可使用音訊會議，請參閱[音訊會議與通話方案的適用國家/地區](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。|
-|我的使用者是否具有 Teams 音訊會議的適當授權？|音訊會議授權可隨 Office 365 E5 訂閱取得，或是從 Office 365 商務進階版、E1 或 E3 訂閱的附加服務取得。 <ul><li>若要取得並指派授權，請參閱[試用或購買 Office 365 中的音訊會議](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)和[指派或移除商務用 Office 365 的授權](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)。</li><li> 若要深入了解，請參閱 [Microsoft Teams 附加元件授權](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。 </li><li>若要查看每個包含在 Office 365 方案中的雲端功能，請參閱[根據您方案的授權選項](teams-add-on-licensing/office-365-business-premium.md)文章。</li></ul>|
+|我的使用者是否具有 Teams 音訊會議的適當授權？|音訊會議授權可隨 Office 365 E5 訂閱取得，或是從 Microsoft 365 商務標準版、E1 或 E3 訂閱的附加服務取得。 <ul><li>若要取得並指派授權，請參閱[試用或購買 Office 365 中的音訊會議](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)和[指派或移除商務用 Office 365 的授權](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)。</li><li> 若要深入了解，請參閱 [Microsoft Teams 附加元件授權](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。 </li><li>若要查看每個包含在 Office 365 方案中的雲端功能，請參閱[根據您方案的授權選項](teams-add-on-licensing/office-365-business-premium.md)文章。</li></ul>|
 |對於獲得音訊會議授權的使用者，我是否需要為他們購買通訊點數？|若要深入了解，請參閱[什麼是通訊點數](what-are-communications-credits.md)，然後查看下方的[通訊點數](#communications-credits) 一節。|
 |||
 
