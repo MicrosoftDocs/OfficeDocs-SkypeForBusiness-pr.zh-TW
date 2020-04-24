@@ -9,7 +9,7 @@ ms.reviewer: baluc
 ms.service: msteams
 search.appverid: MET150
 localization_priority: Priority
-description: 未取得 Microsoft Teams 授權的 Office 365 使用者可以起始 1 年的 Teams 試用版。
+description: 未取得 Microsoft Teams 授權的 Microsoft 365 或 Office 365 使用者可以起始 1 年的 Teams 試用版。
 f1.keywords:
 - NOCSH
 ms.collection:
@@ -17,17 +17,17 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a46720a59b5d3530f64bf4f459df13ad7c5cf5de
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 6a0ad5cf058b8dcc5567cfc706ed3edb2cc09adf
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137153"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778349"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>管理 Microsoft Teams 商業雲端試用版方案
 =======================================================
 
-Microsoft Teams 商業雲端試用版提供貴組織中未取得 Microsoft Teams 授權的現有 Office 365 使用者，可以起始產品的 1 年試用版。 系統管理員可以為其組織中的使用者開啟或關閉這項功能。
+Microsoft Teams 商業雲端試用版可為貴組織中未取得 Microsoft Teams 授權的現有 Microsoft 365 或 Office 365 使用者，提供 1 年的產品試用。 系統管理員可以為其組織中的使用者開啟或關閉這項功能。
 
 > [!IMPORTANT]
 > Microsoft Teams Exploratory 將於 2020 年 1 月取代 Microsoft Teams 商業雲端試用版。 若要了解此新方案，請參閱[管理 Manage Teams Exploratory 授權](teams-exploratory.md)。
@@ -55,7 +55,7 @@ Microsoft Teams 商業雲端試用版提供貴組織中未取得 Microsoft Teams
 
 必須啟用使用者，才能註冊取得應用程式和試用版 (在 Microsoft 365 系統管理中心)。 如需詳細資訊，請參閱本文稍後的[管理試用版](#manage-the-trial)。 
 
-沒有包含 Teams 的 Office 365 授權的使用者，可以起始 Microsoft Teams 商業雲端試用版方案。 例如，如果某個使用者有 Office 365 商務版 (其不包含 Teams)，使用者就符合試用版的資格。
+沒有包含 Teams 的 Office 365 授權的使用者，可以起始 Microsoft Teams 商業雲端試用版方案。 例如，如果某個使用者有 Microsoft 365 應用程式商務版 (其不包含 Teams)，使用者就符合試用版的資格。
 
 ## <a name="who-is-not-eligible"></a>不符合資格的對象
 

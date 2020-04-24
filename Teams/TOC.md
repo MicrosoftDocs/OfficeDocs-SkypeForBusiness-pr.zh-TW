@@ -58,7 +58,7 @@
 ### [管理 Teams 應用程式](manage-apps.md)
 ### [在 Teams 中的應用程式系統管理設定](admin-settings.md)
 ### [使用內建和自訂索引標籤](built-in-custom-tabs.md)
-### [使用 Office 365 和自訂連接器](Office-365-custom-connectors.md)
+### [使用 Microsoft 365 或 Office 365 和自訂連接器](Office-365-custom-connectors.md)
 ### [管理您的企業營運應用程式](manage-your-lob-apps.md)
 ### [應用程式認證](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Teams 的應用程式範本](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -143,10 +143,10 @@
 ## 音訊會議
 ### [規劃您的部署](deploy-audio-conferencing-teams-landing-page.md)
 
-### [Office 365 的音訊會議](audio-conferencing-in-office-365.md)
+### [Microsoft 365 中的音訊會議](audio-conferencing-in-office-365.md)
 ### [音訊會議的常見問題](audio-conferencing-common-questions.md)
 ### [教學課程：Teams 的音訊會議](Tutorial-Audio-Conferencing.yml)
-### [試用或購買 Office 365 的音訊會議](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
+### [試用或購買 Microsoft 365 的音訊會議](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
 ### [音訊會議附贈外撥期間](complimentary-dial-out-period.md)
 ### [音訊會議訂用帳戶的「外撥」/「用下列電話號碼連絡我」優惠](audio-conferencing-subscription-dial-out.md)
 
@@ -717,7 +717,7 @@
 ### [使用 Teams 的網路規劃中心](network-planner.md)
 ### [網路規劃中心逐步解說](tutorial-network-planner-example.yml)
 ### [Teams 或商務用 Skype Online 的 Proxy 伺服器](proxy-servers-for-skype-for-business-online.md)
-### [在 Teams 中建立團隊時的 Office 365 群組方案](plan-office-365-groups.md)
+### [在 Teams 中建立團隊時適用於 Microsoft 365 群組的方案](plan-office-365-groups.md)
 ### [Teams 中的生命週期管理方案](plan-teams-lifecycle.md)
 ### [Teams 中的控管方案](plan-teams-governance.md)
 ### [使用網路測試小幫手](use-network-testing-companion.md)
@@ -730,7 +730,7 @@
 ### [使用 MSI 安裝 Teams](msi-deployment.md)
 ### [開啟貴組織中的 Teams](Office-365-set-up.md)
 ### [Microsoft Teams 如何使用記憶體](teams-memory-usage-perf.md)
-### [Office 365 URL 與 IP 位址範圍](office-365-urls-ip-address-ranges.md)
+### [Microsoft 365 和 Office 365 URL 和 IP 位址範圍](office-365-urls-ip-address-ranges.md) (部分機器翻譯)。
 ### [適用於虛擬桌面架構 (VDI) 的 Teams](teams-for-vdi.md)
 ### [針對 Surface Hub 部署 Teams](teams-surface-hub.md)
 ### [Teams 用戶端更新](teams-client-update.md)
@@ -738,12 +738,12 @@
 
 ## 授權
 ### [管理 Teams 的使用者存取](user-access.md)
-### [Office 365 的 Teams 授權](office-365-licensing.md)
+### [Microsoft 365 和 Office 365 的 Teams 授權](office-365-licensing.md)
 ### [指派 Teams 授權](assign-teams-licenses.md)
 ### [Teams 附加元件授權](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 #### 根據您方案的授權選項
-##### [Office 365 商務進階版](teams-add-on-licensing/office-365-business-premium.md)
-##### [Office 365 專業增強版](teams-add-on-licensing/office-365-premium-pro-plus.md)
+##### [Microsoft 365 商務標準版](teams-add-on-licensing/office-365-business-premium.md)
+##### [Microsoft 365 應用程式企業版](teams-add-on-licensing/office-365-premium-pro-plus.md)
 ##### [Office 365 企業版 E1 和 E3](teams-add-on-licensing/office-365-enterprise-e1-e3.md)
 ##### [Office 365 企業版 E5](teams-add-on-licensing/office-365-enterprise-e5-with-audio-conferencing.md)
 ##### [Office 365 企業版 E5 (不含音訊會議)](teams-add-on-licensing/office-365-enterprise-e5-without-audio-conferencing.md)
@@ -753,20 +753,20 @@
 ### [管理 Teams 商業試用版](iw-trial-teams.md)
 ### [管理 Teams Exploratory 體驗](teams-exploratory.md)
 ### [管理 Teams 免費版](manage-freemium.md)
-### [將 Teams 免費升級為 Office 365 訂閱版本](upgrade-freemium.md)
+### [將 Teams 免費版升級為訂閱版本](upgrade-freemium.md)
 ### [訊息原則授權](teams-add-on-licensing/pri-message.md)
 ### [虛擬使用者授權](teams-add-on-licensing/virtual-user.md)
 
 
-## 與 Office 365 的互通性
+## Microsoft 365 和 Office 365 的互通性
 
-### [Office 365 群組與 Teams](office-365-groups.md)
-### [使用 Teams 加強現有的 Office 365 群組](enhance-office-365-groups.md)
+### [Microsoft 365 群組與 Teams](office-365-groups.md)
+### [使用 Teams 加強現有的 Microsoft 365 群組](enhance-office-365-groups.md)
 ### [Exchange 和 Teams 如何互動](exchange-teams-interact.md)
 #### [設定 Exchange 混合式組織以搭配 Teams 使用](exchange-hybrid-organization.md)
 #### [在 Exchange Online 中將 Teams SMTP 網域新增為公認網域](smtp-accepted-domain.md)
 ### [SharePoint Online 和商務用 OneDrive 如何與 Teams 互動](sharepoint-onedrive-interact.md)
-### [在已啟用多地理位置的 Office 365 租用中的 Teams 體驗](teams-experience-o365odb-spo-multi-geo.md)
+### [在 Microsoft 365 或已啟用多地理位置的 Office 365 租用戶中的 Teams 體驗](teams-experience-o365odb-spo-multi-geo.md)
 
 
 ## 支援的裝置
@@ -899,6 +899,6 @@
 ## 協助工具與符合性
 ### [Microsoft Teams 在法國的輔助工具符合性聲明](accessibility-declaration-of-conformance-in-france-for-teams.md)
 ### [商務用 Skype Online 和 Microsoft Teams 的輔助工具解決方案](accessibility-solutions-in-france.md)
-### [Office 365 的通話方案 - 英國的實務守則](code-of-practice-for-the-united-kingdom-u-k.md)
-### [Office 365 的通話方案 - 英國的投訴處理守則](complaint-handling-code-for-the-united-kingdom-u-k.md)
+### [Microsoft 365 的通話方案 - 英國的工作條例規定](code-of-practice-for-the-united-kingdom-u-k.md)
+### [Microsoft 365 的通話方案 - 英國的投訴處理規定](complaint-handling-code-for-the-united-kingdom-u-k.md)
 ### [緊急通話條款及條件](emergency-calling-terms-and-conditions.md)

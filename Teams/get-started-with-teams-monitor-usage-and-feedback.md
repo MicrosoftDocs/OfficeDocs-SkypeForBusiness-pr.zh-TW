@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b8cc942b1f249a78622d49f2880eed7282e900c0
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 2604a0dd6aa662d807ae878dc31800736529833c
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837053"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778439"
 ---
 # <a name="monitor-usage-and-feedback-in-microsoft-teams"></a>在 Microsoft Teams 中監視使用情況和意見反應
 了解使用者使用 Teams 的方式及他們對 Teams 的體驗十分重要。 使用狀況報告可協助您更加了解使用模式，並提供使用者意見反應，讓您深入了解如何向更多人員推出，以及應優先訓練及溝通的人員。
@@ -54,7 +54,7 @@ Microsoft Teams 系統管理中心的 Teams 報告可讓您深入了解 Teams �
 若要深入瞭解，請參閱 [Teams 分析與報告](teams-analytics-and-reports/teams-reporting-reference.md)。 
 
 ### <a name="teams-activity-reports-microsoft-365-admin-center"></a>Teams 活動報告 (Microsoft 365 系統管理中心)
-您也可以透過 Microsoft 365 系統管理中心提供的報告來檢視 Teams 活動。 這些報告屬於 Microsoft 365 系統管理中心的 Office 365 報告，並提供使用者活動和裝置使用狀況的相關資訊。 
+您也可以透過 Microsoft 365 系統管理中心提供的報告來檢視 Teams 活動。 這些報告屬於 Microsoft 365 系統管理中心的 Microsoft 365 報告，並提供使用者活動和裝置使用狀況的相關資訊。 
 
 若要檢視這些報告，請移至 Microsoft 365 系統管理中心，按一下 **[報告]** > **[使用狀況]**。 在 **[選取報告]** 底下，按一下 **[Microsoft Teams]**。 從這裡選擇您要檢視的報告。
 

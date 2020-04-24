@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e95440652111dbcd39b756ef942e7a974ef31de0
-ms.sourcegitcommit: dc6108917392754d950cea47b92f871211bf4212
+ms.openlocfilehash: 6ec30e455a79ee37a107509e7c179dd859732b1e
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43131201"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780572"
 ---
 # <a name="microsoft-teams-for-realwear"></a>Microsoft Teams for RealWear
 
@@ -43,7 +43,7 @@ RealWear 裝置更新為版本10.5.0 或更新版本。 請在[這裡](https://r
 
 ## <a name="required-licenses"></a>所需授權
 
-Microsoft Teams 授權屬於 Office 365 訂閱的一部分。 使用適用於 RealWear 的 Teams 不需要額外的授權。 如需取得 Teams 的詳細資訊，請參閱 [如何取得 Microsoft Teams 存取權](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)。
+Microsoft Teams 授權屬於 Microsoft 365 和 Office 365 訂閱的一部分。 使用適用於 RealWear 的 Teams 不需要額外的授權。 如需取得 Teams 的詳細資訊，請參閱 [如何取得 Microsoft Teams 存取權](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)。
 
 ## <a name="managing-realwear-devices"></a>管理 RealWear 裝置
 
