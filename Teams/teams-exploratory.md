@@ -9,7 +9,7 @@ ms.reviewer: baluc
 ms.service: msteams
 search.appverid: MET150
 localization_priority: Priority
-description: 未取得 Microsoft Teams 授權的 Office 365 使用者可以起始 Exploratory Teams 授權。
+description: 未取得 Microsoft Teams 授權的 Microsoft 365 或 Office 365 使用者可以起始 Exploratory Teams 授權。
 f1.keywords:
 - NOCSH
 ms.collection:
@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4991945d47ecda85964068530118bcf3ef1f616a
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: 4cc744b8cbe9942712857309f061b998957661b4
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 04/22/2020
-ms.locfileid: "43749790"
+ms.locfileid: "43780382"
 ---
 <a name="manage-the-microsoft-teams-exploratory-license"></a>管理 Microsoft Teams Exploratory 授權
 =======================================================
@@ -54,7 +54,7 @@ Microsoft Teams Exploratory 體驗可讓貴組織中擁有 Azure Active Director
 
 ## <a name="whos-eligible"></a>符合使用資格的對象
 
-只要使用者有受管理的 AAD 網域電子郵件地址，且目前還沒有受指派 Teams 授權，就符合這種使用體驗。 例如，如果使用者擁有 Office 365 商務版 (其中不包含 Teams)，使用者就符合 Teams Exploratory 體驗使用資格。
+只要使用者有受管理的 AAD 網域電子郵件地址，且目前還沒有受指派 Teams 授權，就符合這種使用體驗。 例如，如果使用者擁有 Microsoft 365 Apps 商務版 (其中不包含 Teams)，使用者就符合 Teams Exploratory 體驗使用資格。
 
 必須啟用使用者才能註冊應用程式和試用版 (於 Microsoft 365 系統管理中心)。 如需詳細資訊，請參閱本文稍後的[管理 Teams Exploratory 體驗](#manage-the-teams-exploratory-experience)。 
 

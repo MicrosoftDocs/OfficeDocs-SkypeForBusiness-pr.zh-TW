@@ -17,12 +17,12 @@ search.appverid: MET150
 description: 了解在 Microsoft Teams 中設定即時活動之前需考量的因素。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c4a7f60a199a342d69311467bffbc4607854a719
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: aabd94e8a5c4904f0343e2c8ccb647d632f3fa21
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 04/22/2020
-ms.locfileid: "43752360"
+ms.locfileid: "43779962"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中規劃即時活動
 
@@ -86,7 +86,7 @@ ms.locfileid: "43752360"
 |對象數目上限 |10,000 位出席者 |10,000 位出席者<sup>1</sup> |10,000 位出席者<sup>1</sup> |
 |即時活動的持續時間上限 |4 小時 |4 小時 |4 小時 |
 |即時活動中簡報者和製作人人數上限 |10 <sup>2</sup> |10 <sup>2</sup> |10 <sup>2</sup> |
-|每個 Office 365 租用戶的並行即時活動數量上限 |15  | 15  | 15  |
+|每個 Office 365 組織的並行即時活動數量上限 |15  | 15  | 15  |
 |即時活動建立 |   Skype 會議廣播入口網站 |Teams，透過 Teams 的 Yammer | Teams，透過 Teams 的 Yammer，Stream |
 |對象參與 – Yammer |&#x2714; |&#x2714; (整合式體驗) |&#x2714; (整合式體驗) |
 |對象參與 – 仲裁常見問題集 |&#x2714;  |&#x2714; |&#x2714; |
@@ -117,7 +117,7 @@ ms.locfileid: "43752360"
 您可以在世界各地多個區域中使用 Teams 即時活動。 下列資訊顯示事件小組成員和出席者的可用性。
 
 > [!IMPORTANT]
-> 系統會根據召集人和 Office 365 組織，自動選取活動的區域。
+> 系統會根據召集人和 Microsoft 365 或 Office 365，自動選取活動的區域。
 
 **可在這些區域中使用**
 

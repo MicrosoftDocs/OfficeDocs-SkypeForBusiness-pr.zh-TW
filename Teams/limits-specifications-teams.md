@@ -17,12 +17,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bdc38c7ad6f7a7eaef0fa0cfb2a9d48745b92bef
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: a2e1073736ff927c34c56f3236d98e338384942d
+ms.sourcegitcommit: 6fbaab29076e16fe18f8faeb7e012a0815c2369d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 04/22/2020
-ms.locfileid: "43749590"
+ms.locfileid: "43785876"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和規格
 
@@ -39,7 +39,7 @@ ms.locfileid: "43749590"
 |一個租用戶中允許的全組織小組數目 | 5     |
 |一個[全組織小組](create-an-org-wide-team.md)中的成員數目 | 5,000       |
 |一位全域系統管理員可以建立的團隊數目        |  500,000   |
-|一個 Office 365 租用戶可以擁有的團隊數目    | 500,000&sup2;     |
+|一個 Office 365 組織可以擁有的小組數目    | 500,000&sup2;     |
 |每個團隊的頻道數目    | 200 (包含已刪除的頻道)&sup3;         |
 |每個團隊的私人頻道數量    |30|
 |頻道交談貼文大小 | 每篇貼文約 28 KB<sup>4</sup> |
@@ -63,6 +63,7 @@ Teams 的聊天是在 Microsoft Exchange 後端執行，因此 Exchange 的傳�
 |功能  | 最大限制  |
 |---------|---------|
 |一個私人聊天中的人員數目<sup>1</sup>  | 100    |
+|交談視訊或音訊通話中的人員數目 | 20 |
 |檔案附件的數目<sup>2</sup>  |10     |
 |聊天大小 | 每篇貼文約 28 KB<sup>3</sup> |
 
@@ -109,6 +110,7 @@ Teams 的聊天是在 Microsoft Exchange 後端執行，因此 Exchange 的傳�
 |功能     | 最大限制 |
 |------------|---------------|
 |一個會議中的人員數目  | 250    |
+|交談視訊或音訊通話中的人員數目 | 20 |
 |PowerPoint 檔案大小的最大值 | 2 GB|
 |Teams 會保留[會議記錄](cloud-recording.md)，該記錄不會上傳至 Microsoft Stream，但可供本機下載 | 20 天 |
 
@@ -128,7 +130,7 @@ Teams 的聊天是在 Microsoft Exchange 後端執行，因此 Exchange 的傳�
 |------------|---------------|
 |對象數目 | 10,000 位出席者 |
 |活動持續時間 | 4 小時 |
-|一個 Office 365 租用戶的並行即時活動 | 15 |
+|一個 Office 365 組織的並行即時活動 | 15 |
 
 如需更多有關即時活動以及 Teams 即時活動與 Skype 會議廣播的比較詳細資訊，請參閱 [Teams 即時活動和 Skype 會議廣播](teams-live-events/plan-for-teams-live-events.md#teams-live-events-and-skype-meeting-broadcast) (英文)。
 
@@ -146,7 +148,7 @@ Microsoft Teams 中的每個團隊在 SharePoint Online 中都有一個團隊網
 
 由於 Teams 是在 SharePoint Online 後端執行檔案共用，因此 SharePoint 的限制會套用到團隊內的 [檔案] 區段。 以下是 SharePoint Online 適用的儲存空間限制。
 
-|功能                 |Office 365 商務基本版  |Office 365 商務進階版   |Office 365 Enterprise E1  |Office 365 企業版 E3  |Office 365 企業版 E5  |Office 365 企業版 F1  |
+|功能                 |Microsoft 365 商務基本版  |Microsoft 365 商務標準版   |Office 365 Enterprise E1  |Office 365 企業版 E3  |Office 365 企業版 E5  |Office 365 企業版 F1  |
 |------------------------|---------|---------|---------|---------|---------|---------|
 |儲存空間                 |每個組織 1 TB，加上每個購買授權 10 GB  |每個組織 1 TB，加上每個購買授權 10 GB  |每個組織 1 TB，加上每個購買授權 10 GB   |每個組織 1 TB，加上每個購買授權 10 GB |每個組織 1 TB，加上每個購買授權 10 GB  |每個組織 1 TB            |
 |Teams 檔案的儲存空間 |每個網站集合或群組最多 25 TB。 |每個網站集合或群組最多 25 TB。 |每個網站集合或群組最多 25 TB。 |每個網站集合或群組最多 25 TB。 |每個網站集合或群組最多 25 TB。 |每個網站集合或群組最多 25 TB。 |
