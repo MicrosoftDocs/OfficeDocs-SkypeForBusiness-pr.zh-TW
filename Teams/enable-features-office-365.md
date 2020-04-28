@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e72d17fb146e27696306e34660150e47bb98bcd5
-ms.sourcegitcommit: 0fa50d1cf354d79fbaf16b6aaec60e8d3ab852e8
+ms.openlocfilehash: e2ec2956b3fc448f4408cefd7e7bf323898cc7d2
+ms.sourcegitcommit: 3ef5c913318fdeeaa8c55caab07c2f8224eae2b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43579559"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43898098"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>管理組織的 Microsoft Teams 設定
 
@@ -75,7 +75,7 @@ Microsoft Teams 中的**來賓存取**可將團隊和頻道的存取權授與給
 
 您可以在這裡開啟或關閉檔案分享和雲端檔案儲存選項。
 
-使用者可以從 Teams 頻道和交談的雲端儲存服務上傳及分享檔案。 Teams 中的雲端儲存選項目前包括 Dropbox、Box、 ShareFile、 Google Drive、和 [Egnyte](https://helpdesk.egnyte.com/hc/requests/new)。 開啟貴組織要使用的雲端儲存空間提供者的開關。
+使用者可以從 Teams 頻道和交談的雲端儲存服務上傳及分享檔案。 Teams 中的雲端儲存選項目前包括 Dropbox、Box、 ShareFile、 Google Drive、和 [Egnyte](https://www.egnyte.com)。 開啟貴組織要使用的雲端儲存空間提供者的開關。
 
 #### <a name="organization"></a>組織
 
