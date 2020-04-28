@@ -1,5 +1,5 @@
 ---
-title: 部署 Microsoft 團隊聊天室
+title: 部署 Microsoft Teams 會議室
 ms.author: v-lanac
 author: lanachin
 manager: serdars
@@ -12,15 +12,15 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-ms.custom: ''
+ms.custom: seo-marvel-apr2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
-description: 閱讀本文以瞭解如何部署 Microsoft 團隊聊天室。
-ms.openlocfilehash: 650302d6d952a59c1cc460e2cdf8758cfb0fcd41
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+description: 閱讀本文以瞭解如何部署 Microsoft 團隊聊天室，包括部署階段。
+ms.openlocfilehash: cf5ba9614426c59412c53b7e0e9420ca09ef6267
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863344"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905405"
 ---
 # <a name="deployment-overview"></a>部署概觀
 
@@ -63,7 +63,7 @@ Microsoft 團隊聊天室的部署實質上會分解成幾個階段：
 
 根據您針對 Microsoft 團隊聊天室部署所決定啟用的共同作業案例，您必須判斷您指派給您的每個 Microsoft 團隊聊天室服務帳戶所指派的功能和功能。
 
-| **例子** | **描述** | **Microsoft 團隊聊天室服務帳戶功能** |
+| **案例** | **描述** | **Microsoft 團隊聊天室服務帳戶功能** |
 |---------- |------------- | --- |
 | 互動式會議            | 使用語音、影片和螢幕共用;將 Microsoft 團隊會議室製作成 bookable 資源                     | 針對商務用 Skype 啟用，已啟用 Exchange （資源信箱） |
 | 電話撥入式會議            | 使用電話撥入式會議座標，從 Microsoft 團隊聊天室主控台*直接*開始進行會議 | 已啟用音訊會議                                          |
@@ -82,8 +82,8 @@ _範例 Microsoft 團隊聊天室服務帳戶規劃表格_
 
 | **網站**  | **會議室名稱** | **會議室類型** | **未來的空間功能**                                                 | **Microsoft 團隊聊天室帳戶功能**                                                                                         |
 |-----------|---------------|---------------|------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
-| 倫敦總部 | Curie         | 深淺        | 1畫面、音訊及影片加上簡報 <br>電話撥入式會議存取<br> PSTN 存取  | 針對商務用 Skype 啟用，已啟用 Exchange （資源信箱） <br>已啟用音訊會議 <br>已啟用電話系統 |
-| 悉尼總部 | 峰          | 大中型         | 2個畫面、音訊及影片加上簡報<br>電話撥入式會議存取<br> PSTN 存取  | 針對商務用 Skype 啟用，已啟用 Exchange （資源信箱）<br> 已啟用音訊會議 <br>已啟用電話系統 |
+| 倫敦總部 | Curie         | 中型        | 1畫面、音訊及影片加上簡報 <br>電話撥入式會議存取<br> PSTN 存取  | 針對商務用 Skype 啟用，已啟用 Exchange （資源信箱） <br>已啟用音訊會議 <br>已啟用電話系統 |
+| 悉尼總部 | 峰          | 大型         | 2個畫面、音訊及影片加上簡報<br>電話撥入式會議存取<br> PSTN 存取  | 針對商務用 Skype 啟用，已啟用 Exchange （資源信箱）<br> 已啟用音訊會議 <br>已啟用電話系統 |
 
 
 ### <a name="prepare-to-host-microsoft-teams-rooms-machine-and-service-accounts-optional"></a>準備主持 Microsoft 團隊聊天室電腦與服務帳戶（選用）
@@ -131,14 +131,14 @@ _範例 Microsoft 團隊聊天室服務帳戶規劃表格_
 
 規劃部署 Microsoft 團隊聊天室時，您有幾個選項可考慮安裝必要的軟體。 下表說明常見的案例及方法。 
 
-| **例子**            | **手段**         |
+| **案例**            | **手段**         |
 |-------------------------|-----------------------|   
 |部署少量的 Microsoft 團隊會議室裝置（<10）。 | 如果您使用的是 Surface Pro 的 Microsoft 團隊聊天室，請遵循[針對每個裝置安裝的安裝指示進行](console.md)。 [這個方便的影片會逐步引導您完成整個程式。](https://content.cloudguides.com/guides/Configure%20the%20Skype%20Room%20Systems%20console) 如果您使用的是整合解決方案，請使用 [廠商] 影像來部署，並視需要設定設定。 |
 | 從單一供應商的10與50裝置進行部署。     | 建立 WIM 的映射，[在指南中的步驟 6](console.md)之後暫停，並捕獲與您的仿製發佈技術搭配使用的發佈影像。    |
 | 部署50以上的 Microsoft 團隊會議室裝置、從多個供應商部署裝置，或需要組織特定的代理程式作為部署的一部分。 | 使用以任務排序器為基礎的軟體組建與發佈平臺，例如[Microsoft 端點建構管理員](rooms-scale.md)。  |
 
 
-**Pro 提示**-每個 Microsoft 團隊聊天室都必須在您的網路上擁有有效且唯一的電腦名稱稱。 許多監視及警示系統會將電腦名稱稱顯示為金鑰識別碼，因此請務必開發 Microsoft 團隊聊天室部署的命名慣例，以讓支援人員輕鬆找出已標記的 Microsoft 團隊聊天室做為需要動作。 範例可能是使用 MTR-*網站*-*房間名稱*（MTR-CURIE）的模式。 
+**Pro 提示**-每個 Microsoft 團隊聊天室都必須在您的網路上擁有有效且唯一的電腦名稱稱。 許多監視及觸發系統會將電腦名稱稱顯示為金鑰識別碼，因此請務必開發 Microsoft 團隊聊天室部署的命名慣例，以讓支援人員輕鬆找出已標記為需要動作的 Microsoft 團隊聊天室。 範例可能是使用 MTR-*網站*-*房間名稱*（MTR-CURIE）的模式。 
 
 在部署過程中，您也需要考慮管理和設定由 Microsoft 小組聊天室應用程式安裝程式所建立的[本機帳戶](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0#local-accounts)的方案。
 
@@ -166,12 +166,12 @@ _範例部署資料表_
 
 | **網站**  | **會議室名稱** | **會議室類型** | **Microsoft 團隊聊天室系統**  | **週邊裝置**  | **Microsoft 團隊聊天室電腦名稱稱**  | **Microsoft 團隊聊天室資源帳戶**  |
 |-----------|---------------|---------------|-----------------------------------|------------------|------------------------------------------|---------------------------------------------|
-| 倫敦總部 | Curie         | 深淺        |                                   |                  |                                          |                                             |
-| 悉尼總部 | 峰          | 大中型         |                                   |                  |                                          |                                             |
+| 倫敦總部 | Curie         | 中型        |                                   |                  |                                          |                                             |
+| 悉尼總部 | 峰          | 大型         |                                   |                  |                                          |                                             |
 
 ### <a name="microsoft-teams-rooms-application-and-peripheral-device-configuration"></a>Microsoft 團隊聊天室應用程式和週邊裝置設定 
 
-在每個 Microsoft 團隊會議室系統已實際部署且已連接支援的週邊裝置之後，您必須設定 Microsoft 團隊聊天室應用程式，以指派 Microsoft 團隊聊天室資源帳戶和先前建立的密碼，讓 Microsoft 團隊聊天室系統登入 Microsoft 團隊或商務用 Skype 和 Exchange。 在檔中的其他位置，充分利用連結的已認證 USB 音訊及視頻週邊設備的金鑰。 如果不這麼做，可能會導致無法預料的行為。 
+在每個 Microsoft 團隊會議室系統都已實際部署且已連接支援的週邊裝置之後，您必須設定 Microsoft 團隊聊天室應用程式，將其指派給舊版的 Microsoft 團隊聊天室資源帳戶和密碼，以讓 Microsoft 團隊聊天室系統登入 Microsoft 團隊或商務用 Skype 和 Exchange。 在檔中的其他位置，充分利用連結的已認證 USB 音訊及視頻週邊設備的金鑰。 如果不這麼做，可能會導致無法預料的行為。 
 
 您可以手動設定每個 Microsoft 團隊會議室系統。 或者，您也可以使用集中式儲存的每個 Microsoft 團隊會議室 XML 配置檔案來管理應用程式設定，並利用啟動 GPO 腳本，在每次 Microsoft 小組聊天室系統啟動時，重新套用您想要的設定。 
 
@@ -198,7 +198,7 @@ _[資產] 資料表範例_
 
 | **網站**  | **會議室名稱** | **會議室類型** | **Microsoft 團隊聊天室序號**  | **週邊裝置/串列 nos （埠）**  | **Microsoft 團隊聊天室電腦名稱稱**  | **Microsoft 團隊聊天室服務帳戶**  | **部署日期** |
 |-----------|---------------|---------------|------------------------------------------|------------------------------------------|------------------------------------------|--------------------------------------------|-------------------|
-| 倫敦總部 | Curie         | 深淺        |                                          |                                          |                                          |                                            |                   |
-| 悉尼總部 | 峰          | 大中型         |                                          |                                          |                                          |                                            |                   |
+| 倫敦總部 | Curie         | 中型        |                                          |                                          |                                          |                                            |                   |
+| 悉尼總部 | 峰          | 大型         |                                          |                                          |                                          |                                            |                   |
 
 

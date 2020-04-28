@@ -22,13 +22,14 @@ ms.custom:
 - Reporting
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
-description: '瞭解如何開啟和使用通話品質儀表板，並取得通話品質的摘要報告。 '
-ms.openlocfilehash: 52bf3856ad5c737143d179525e5c2870748f3b46
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+- seo-marvel-apr2020
+description: 瞭解如何開啟和使用通話品質儀表板，並取得通話品質的摘要報告。
+ms.openlocfilehash: bfb67c6246581513d06ad4489ab8c3b534ad04d4
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43788946"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43914037"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>開啟並使用 Microsoft 團隊和商務用 Skype Online 的通話品質儀表板
 
@@ -409,11 +410,11 @@ CQD 會使用端點資料檔案。 欄值會用於通話記錄的第一個用戶
 
 如果您在商務用 Skype 中建立報告或上傳的租使用者資料（對應）https://cqd.lync.com)檔案至 CQD （並想要將它們遷移https://cqd.teams.microsoft.com)至小組的 CQD），請參閱：
 
-1.  移至[https://cqd.lync.com/cqd/](https://cqd.lync.com/cqd/)並流覽至您要匯出的報表集合。 
-2.  將游標暫留在報表上，然後在 [...]功能表中，選擇 [**匯出報表樹**]。 儲存匯出檔案。
-3.  移至[https://cqd.teams.microsoft.com/cqd/](https://cqd.teams.microsoft.com/cqd/)並流覽至您要匯入報表的位置。
-4.  從左側的連結中，按一下 [匯**入**]，然後選取匯出的檔案。 
-5.  匯入報告之後，您會看到以下訊息：「已成功匯入報告。 新的報表已在報表集的結尾新增。」 
+1.    移至[https://cqd.lync.com/cqd/](https://cqd.lync.com/cqd/)並流覽至您要匯出的報表集合。 
+2.    將游標暫留在報表上，然後在 [...]功能表中，選擇 [**匯出報表樹**]。 儲存匯出檔案。
+3.    移至[https://cqd.teams.microsoft.com/cqd/](https://cqd.teams.microsoft.com/cqd/)並流覽至您要匯入報表的位置。
+4.    從左側的連結中，按一下 [匯**入**]，然後選取匯出的檔案。 
+5.    匯入報告之後，您會看到以下訊息：「已成功匯入報告。 新的報表已在報表集的結尾新增。」 
 
 
 ## <a name="create-custom-detailed-reports"></a>建立自訂的詳細報告

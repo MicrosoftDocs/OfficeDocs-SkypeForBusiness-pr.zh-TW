@@ -19,13 +19,14 @@ localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
-description: '瞭解附加元件授權、功能，以及如何購買 Office 365 企業版 E1 與 E3 方案。 '
-ms.openlocfilehash: 0cc29a9cc353f9d0068aeb65b10179f4adfdc804
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+- seo-marvel-apr2020
+description: 瞭解附加元件授權、其功能，以及如何購買 Office 365 企業版 E1 與 E3 方案。
+ms.openlocfilehash: 7038342d704dc6af92dbdc9eaff0c7a6211926e1
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780492"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904715"
 ---
 # <a name="office-365-enterprise-e1-and-e3"></a>Office 365 企業版 E1 和 E3
 

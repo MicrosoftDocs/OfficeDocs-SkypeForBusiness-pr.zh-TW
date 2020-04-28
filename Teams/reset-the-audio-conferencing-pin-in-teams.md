@@ -20,13 +20,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
-description: '瞭解您應該瞭解的 Pin，以及如何在 Microsoft 團隊中重設它們。 '
-ms.openlocfilehash: 92f0fcf0b5a5e8afe0615b54b08f0fa407c4a969
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+- seo-marvel-apr2020
+description: 瞭解如何在 Microsoft 團隊中重設使用者的音訊會議 PIN，以及瞭解關於 Pin 的重要資訊。
+ms.openlocfilehash: 451031698294fc49acee4a51efa0203cd3eb898d
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838223"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905485"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-microsoft-teams"></a>在 Microsoft 團隊中重設音訊會議 PIN
 
@@ -36,7 +37,7 @@ PIN 是由為每個啟用音訊會議的 Microsoft 團隊使用者所建立的�
 
 ## <a name="reset-a-users-pin"></a>重設使用者的 PIN
 
-![](media/teams-logo-30x30.png) **使用 microsoft [團隊管理中心**] 顯示 Microsoft 團隊標誌的圖示
+![Microsoft Teams 標誌圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
 
 1. 在左側導覽中，按一下 [**使用者**]，然後從可用使用者清單中選取使用者。
 
@@ -61,7 +62,7 @@ PIN 是由為每個啟用音訊會議的 Microsoft 團隊使用者所建立的�
     
 - 預設會啟用自動將電子郵件傳送給使用者，當使用者啟用音訊會議或 PIN 重設時，就會收到一封電子郵件及其 PIN。 但如果您已停用自動傳送電子郵件，則 PIN 重設電子郵件不會傳送給使用者，您必須手動將 PIN 資訊傳送給使用者。
     
-- 當會議開始時，大廳中的所有使用者都會自動加入該會議。 例如，如果有兩個參與者嘗試在會議開始前加入會議，則會將它們放在大廳，並在會議召集人透過電話使用其 PIN 進行加入時，會議將會啟動，且會議廳中的參與者將會加入 [會議]。
+- 當會議開始時，大廳中的所有使用者都會自動加入該會議。 例如，如果兩個參與者嘗試在會議啟動前加入會議，則會將它們放在大廳，並在會議召集人透過電話使用其 PIN 加入會議時，會議就會開始，而會議廳中的參與者將會加入會議。
     
 - 預設設定為 [不允許匿名呼叫者啟動會議]。
     

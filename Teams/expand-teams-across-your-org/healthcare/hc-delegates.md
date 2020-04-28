@@ -16,13 +16,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: acolonna
-description: 使用者可以將另一個使用者明確地設定為其狀態訊息中的代理人。
-ms.openlocfilehash: e76181ff69f2d4e6ed75183bdb5fbdda695d05e4
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+description: 瞭解 [離開狀態] 或 [請勿打擾] 狀態的使用者可以在其狀態訊息中明確將另一個使用者設為代理人。
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 5fea05e8f316117ae711cc9f00da752c45959f2e
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42153805"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904735"
 ---
 # <a name="message-delegation"></a>訊息委派
 
@@ -47,7 +48,7 @@ ms.locfileid: "42153805"
 |共存模式 | 預期行為|
 |---|---|
 |TeamsOnly |使用者只能從小組設定記事。 <br> 在團隊 & SfB 中會顯示使用者的小組記事。 |
-|索羅門群島 | 小組中的使用者記事集只能在 [團隊] 中看到。 <br> SfB 中的使用者記事集只能在 SfB 中看到 |
+|離島 | 小組中的使用者記事集只能在 [團隊] 中看到。 <br> SfB 中的使用者記事集只能在 SfB 中看到 |
 |SfB * 模式 | 使用者只能從 SfB 設定記事。 <br> 使用者的 SfB 附注會顯示在 [SfB & 的小組中。  |
 |||
 

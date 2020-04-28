@@ -7,22 +7,22 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 audience: admin
-description: 系統管理員可以使用團隊 MSI 來大量部署 Microsoft 團隊來選取使用者或電腦。
+description: 使用 Microsoft 端點設定管理員來大量部署 Microsoft 團隊以選取使用者或電腦。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
+ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 9e27199d953eb04c20a10765020b179ff303c5e8
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 6f4d29790994ba155984077ea9046fc6cf097302
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777828"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43902808"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>使用 Microsoft 端點 Configuration Manager 安裝 Microsoft 團隊
 

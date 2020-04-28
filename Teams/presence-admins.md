@@ -7,7 +7,8 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: rakayala
-description: 有關 Teams 中目前狀態的管理資訊。
+description: 瞭解 [團隊] 中的目前狀態，以及目前狀態功能的管理設定。
+ms.custom: seo-marvel-apr2020
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -16,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ab24c6ee27f3e99a30a18af82f0a26196a049528
-ms.sourcegitcommit: 477aac9e14fced139ee7dd827942ce35b9769b63
+ms.openlocfilehash: 6432bac9dbbfe65cf3e139ecae00b02cd5ae8651
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43510772"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905765"
 ---
 # <a name="user-presence-in-teams"></a>Teams 中使用者的目前狀態
 

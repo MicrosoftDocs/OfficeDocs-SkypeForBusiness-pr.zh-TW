@@ -14,16 +14,18 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - CSH
-ms.custom: ms.teamsadmincenter.policypackages.overview
+ms.custom:
+- ms.teamsadmincenter.policypackages.overview
+- seo-marvel-apr2020
 localization_priority: Normal
 search.appverid: MET150
-description: 瞭解如何在 Microsoft 團隊中使用及管理原則套件。
-ms.openlocfilehash: a2c2ecf22529c4f16b992f349b29ccaf0ad48b0d
-ms.sourcegitcommit: 613665c866f6fd0febfa6e26ad718241cdfbb207
+description: 瞭解如何使用及管理 Microsoft 團隊中的原則套件，以簡化、簡化及協助在管理使用者群組原則時提供一致性。
+ms.openlocfilehash: b69ce06d01af624ff73386531d7ef2b77bef3b4e
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42942445"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43914046"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>管理 Microsoft 團隊中的原則套件
 

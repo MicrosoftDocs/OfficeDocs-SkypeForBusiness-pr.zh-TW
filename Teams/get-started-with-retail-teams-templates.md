@@ -11,19 +11,20 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: 瞭解如何使用團隊範本來建立專為零售商需求而設計的小組結構。
+description: 瞭解如何使用團隊範本，透過提供預先定義的設定、通道及預先安裝的應用程式，來建立專為零售商需求而設計的小組結構。
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
+- seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ec16f919bad5ed696741664836aa3d7127837c5a
-ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
+ms.openlocfilehash: 4477d42cf7036ac93d79684407ee97b7b9e9b900
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42892363"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904658"
 ---
 # <a name="get-started-with-teams-templates-in-retail"></a>在零售中開始使用團隊範本 
 
@@ -43,7 +44,7 @@ ms.locfileid: "42892363"
 
 | 基底範本類型 | baseTemplateId | 此基礎範本隨附的屬性 |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| 面向 <br>存放 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')`| 頻道 <ul><li>倒班切換\*</li><li>教學\*</li></ul>\*自動將通道<br><br>團隊屬性 <ul><li>將團隊可見度設定為 Public</li></ul> <br>成員許可權 <ul><li>無法建立/更新/刪除頻道 </li><li>無法新增/移除 app </li><li>無法建立/更新/移除索引標籤</li><li>無法建立/更新/移除連接器</li><ul>|
+| 面向 <br>商店 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')`| 頻道 <ul><li>倒班切換\*</li><li>教學\*</li></ul>\*自動將通道<br><br>團隊屬性 <ul><li>將團隊可見度設定為 Public</li></ul> <br>成員許可權 <ul><li>無法建立/更新/刪除頻道 </li><li>無法新增/移除 app </li><li>無法建立/更新/移除索引標籤</li><li>無法建立/更新/移除連接器</li><ul>|
 ||||
 
 為您的組織自訂商店範本的建議方式：
@@ -58,12 +59,12 @@ Manager 共同工作範本是根據零售商的需求而設計的另一個團隊
 
 | 基底範本類型 | baseTemplateId | 此基礎範本隨附的屬性 |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| 面向 <br>存放 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')`| 頻道 <ul><li>作業\*</li><li>教學\*</li></ul>\*自動將通道<br><br>團隊屬性 <ul><li>[團隊可見度] 設定為 [私人]</li></ul> <br>成員許可權 <ul><li>可以建立/更新/刪除頻道 </li><li>可以新增/移除 app </li><li>可以建立/更新/移除索引標籤</li><li>可以建立/更新/移除連接器</li><ul>|
+| 面向 <br>商店 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')`| 頻道 <ul><li>營運\*</li><li>教學\*</li></ul>\*自動將通道<br><br>團隊屬性 <ul><li>[團隊可見度] 設定為 [私人]</li></ul> <br>成員許可權 <ul><li>可以建立/更新/刪除頻道 </li><li>可以新增/移除 app </li><li>可以建立/更新/移除索引標籤</li><li>可以建立/更新/移除連接器</li><ul>|
 ||||
 
 為您的組織自訂管理員共同工作範本的建議方式：
 
-- 如果您的組織擁有與主管相關的任何內部網站（例如，SharePoint 網站），請考慮將其固定為相關小組頻道中的索引標籤（請參閱[這裡](get-started-with-teams-templates.md)的檔以取得指示）。
+- 如果您的組織擁有與主管相關的任何內部網站（例如，SharePoint 網站），請考慮將其固定為相關小組頻道中的索引標籤。 您可以參閱[Microsoft 團隊範本檔](get-started-with-teams-templates.md)，以取得相關指示。
 
 ## <a name="how-to-use-first-party-templates"></a>如何使用第一方範本
 

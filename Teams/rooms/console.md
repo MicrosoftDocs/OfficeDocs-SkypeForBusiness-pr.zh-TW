@@ -1,5 +1,5 @@
 ---
-title: 設定 Microsoft 團隊聊天室主控台
+title: 設定 Microsoft Teams 會議室主控台
 ms.author: v-lanac
 author: lanachin
 ms.reviewer: Travis-Snoozy
@@ -12,17 +12,17 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-ms.custom: ''
+ms.custom: seo-marvel-apr2020
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
-description: 本文說明如何設定 Microsoft 團隊聊天室主控台及其外設。
-ms.openlocfilehash: c91c570cd83cc07f1f15823623f2b02a2ebcddf4
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+description: 本文說明如何設定和設定 Microsoft 團隊聊天室主控台及其外設。
+ms.openlocfilehash: d5c1b7f47769d925f6d67527429971970b555044
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826091"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905445"
 ---
-# <a name="configure-a-microsoft-teams-rooms-console"></a>設定 Microsoft 團隊聊天室主控台
+# <a name="configure-a-microsoft-teams-rooms-console"></a>設定 Microsoft Teams 會議室主控台
 
 本文說明如何設定 Microsoft 團隊聊天室主控台及其外設。
   
@@ -86,9 +86,9 @@ CreateSrsMedia. ps1 腳本會自動執行下列任務：
 
 5. 啟動至 USB 安裝盤。 請參閱製造商的指示。 如果您的目標裝置是 Surface Pro，請使用下列步驟引導至 USB 安裝盤：
 
-    是. 按下並持續按住音量（-）按鈕。
+    a. 按下並持續按住音量（-）按鈕。
 
-    乙. 按下並放開 [電源] 按鈕。
+    b. 按下並放開 [電源] 按鈕。
 
     c-clip. 啟動 Windows 安裝程式後，請放開 volume （-）按鈕。
 
@@ -101,7 +101,7 @@ CreateSrsMedia. ps1 腳本會自動執行下列任務：
 
 ### <a name="selecting-a-language"></a>選取語言 
 
-在建立者的更新中，當隱含語言選取不提供使用者所需的實際應用程式語言（例如，他們想要讓主控台 app 以法文進行）時，您必須使用 ApplyCurrentRegionAndLanguage. ps1 腳本（也就是它會以英文提供。
+在建立者的更新中，如果隱含語言的選取範圍不會提供使用者所需的實際應用程式語言（例如，他們想要讓主控台 app 以英文啟動），請使用 ApplyCurrentRegionAndLanguage 範本。
   
 > [!NOTE]
 > 下列指示僅適用于使用 Windows Creator 更新程式建立的主控台。 未使用新置備系統的媒體進行設定的舊版/內建系統將無法使用這些指示，但也不會受到需要此手動干預的初始問題（[周年紀念] 版本可讓您在設定中明確挑選您的應用程式語言）。
@@ -128,9 +128,9 @@ CreateSrsMedia. ps1 腳本會自動執行下列任務：
     
 10. 針對您想要移除的任何語言：
     
-    是. 選取您要移除的語言。
+    a. 選取您要移除的語言。
     
-    乙. 選取 [**移除**]。
+    b. 選取 [**移除**]。
     
 11. 啟動提升許可權的命令提示字元。
     
@@ -260,10 +260,10 @@ Add-Computer -DomainName redmond.corp.microsoft.com -OUPath "OU=Microsoft_Teams_
 ## <a name="see-also"></a>另請參閱
 <a name="Checklist"> </a>
 
-[規劃 Microsoft 團隊聊天室](rooms-plan.md)
+[規劃 Microsoft Teams 會議室](rooms-plan.md)
   
-[部署 Microsoft 團隊聊天室](rooms-deploy.md)
+[部署 Microsoft Teams 會議室](rooms-deploy.md)
   
-[設定 Microsoft 團隊聊天室主控台](console.md)
+[設定 Microsoft Teams 會議室主控台](console.md)
   
-[管理 Microsoft 團隊聊天室](rooms-manage.md)
+[管理 Microsoft Teams 會議室](rooms-manage.md)

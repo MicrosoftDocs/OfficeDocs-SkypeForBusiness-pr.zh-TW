@@ -13,13 +13,14 @@ localization_priority: Normal
 ms.assetid: 3034fdcb-7c89-42c4-9c5e-13400e82d88f
 ms.collection:
 - M365-collaboration
-description: 若要瞭解如何將 Skype 會議室系統裝置電腦加入您的網域，請閱讀本主題。
-ms.openlocfilehash: f2cad169b812d3da3a964c96adabc498df1009b8
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+description: 系統管理員可以瞭解如何將 Skype 會議室系統裝置電腦加入 Active Directory 網域，以及執行此操作的考慮。
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: dfcee1421c25903a5ec8deb2f66871ed1d57ef1c
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826081"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905435"
 ---
 <!-- This asset missed in the rebrand, and honestly not sure if it's worth keeping.   -->
 
@@ -60,7 +61,7 @@ Add-Computer -DomainName contoso.local -Credential $mycred -OUPath "OU=LyncRoomS
   
 您可能有多種方法可以解決這些問題。 我們建議您與 Active Directory 專家協商，以確保您有提供適當 GPO 設定的 OU，或至少有先前描述之原則不存在的 OU。 建議啟用 Skype 會議室系統裝置的服務品質（QoS）。
 
-## <a name="see-also"></a>另請參閱
+## <a name="related-topics"></a>相關主題
   
 [裝置組態：建立新的或編輯現有組態](/skypeforbusiness/help-topics/help-lscp/device-configuration-create-new-or-edit-existing.md)
 

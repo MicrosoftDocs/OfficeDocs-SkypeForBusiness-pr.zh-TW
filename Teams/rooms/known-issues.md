@@ -12,13 +12,14 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-description: 本文將討論 Microsoft 團隊聊天室的已知問題（依功能區域）。
-ms.openlocfilehash: e0b22d55de5fcf2fd49cf795497f2cb26c1952cf
-ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
+description: 系統管理員可以瞭解 Microsoft 團隊聊天室的已知問題清單，包括更新、使用者介面、硬體、限制及預期行為。
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: d8f7dcd6453458885a35bdcf7b39e729cc776f5a
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43102374"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905415"
 ---
 # <a name="known-issues"></a>已知問題 
  
@@ -75,4 +76,4 @@ Microsoft [團隊會議室] 是一個多視窗應用程式，且需要將房間�
 
 [Microsoft 團隊聊天室說明](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
-[管理 Microsoft 團隊聊天室](rooms-manage.md)
+[管理 Microsoft Teams 會議室](rooms-manage.md)

@@ -21,12 +21,12 @@ ms.custom:
 ms.collection:
 - M365-collaboration
 description: 了解如何管理使用者在您組織中排程的 Teams 會議設定。
-ms.openlocfilehash: 920069ed5f5687111d51411afce9499a2d5db5d2
-ms.sourcegitcommit: ab6099547846f048f1c4cc584a8c5cb8c386d22e
-ms.translationtype: HT
+ms.openlocfilehash: 25945b35ec4800a00ab295ba328d5f1d65ac2ab0
+ms.sourcegitcommit: 3ef5c913318fdeeaa8c55caab07c2f8224eae2b0
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "42413300"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43898168"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>在 Microsoft Teams 中管理會議設定
 
@@ -36,7 +36,6 @@ ms.locfileid: "42413300"
 
 利用匿名加入，任何人都可以按一下會議邀請中的連結，以匿名使用者的身分加入會議。 若要深入了解，請參閱[在沒有 Teams 帳戶的情況下加入會議](https://support.office.com/article/join-a-meeting-without-a-teams-account-c6efc38f-4e03-4e79-b28f-e65a4c039508)。
 
-
 ![Microsoft Teams 標誌圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
 
 1. 在左側導覽中，移至 [會議]****  >  [會議設定]****。
@@ -44,7 +43,8 @@ ms.locfileid: "42413300"
 
     ![系統管理中心中會議的參與者設定螢幕擷取畫面](media/meeting-settings-participants.png "Microsoft Teams 系統管理中心中 Teams 會議的參與者設定螢幕擷取畫面")
 
-如果您不想讓匿名使用者加入由組織中的使用者排程的會議，請關閉此設定。
+> [!CAUTION]
+> 如果您不想讓匿名使用者加入由組織中的使用者排程的會議，請關閉此設定。
 
 ## <a name="customize-meeting-invitations"></a>自訂會議邀請
 
@@ -92,7 +92,7 @@ ms.locfileid: "42413300"
     ![系統管理中心中會議的會議設定螢幕擷取畫面](media/meeting-settings-network.png "Microsoft Teams 系統管理中心中 Teams 會議的網路設定螢幕擷取畫面")
 
     - 若要允許將 DSCP 標記用於 QoS，請開啟 [插入即時媒體流量的服務品質 (QoS) 標記]****。 您只能選擇是否使用標記；無法為每個流量類型設定自訂標記。 如需有關 DSCP 標記的詳細資訊，請參閱[選取 QoS 實作方法](QoS-in-Teams.md#select-a-qos-implementation-method)。
-        > [!NOTE] 
+        > [!NOTE]
         > 開啟 [插入即時媒體流量的服務品質 (QoS) 標記]****，將啟用使用 UDP 連接埠 3479 (音訊)、3480 (視訊) 和 3481 (共用) 對傳輸轉送的通訊。
     - 若要指定連接埠範圍，請在 [選取各即時媒體流量類型的連接埠範圍]**** 旁選取 [指定連接埠範圍]****，然後輸入音訊、視訊和螢幕共用的開始和結束連接埠。 若要實作 QoS，需要選取此選項。
         > [!IMPORTANT]
@@ -102,7 +102,7 @@ ms.locfileid: "42413300"
 
 如果您不確定要在環境中使用的連接埠範圍，使用下列設定應該是良好的起點。 若要深入了解，請參閱[在 Microsoft Teams 中實作服務品質 (QoS)](QoS-in-Teams.md)。 以下是 Teams 和 ExpressRoute 所使用的必要 DSCP 標記，以及建議的對應媒體連接埠範圍。
 
-_連接埠範圍和 DSCP 標記_
+### <a name="port-ranges-and-dscp-markings"></a>連接埠範圍和 DSCP 標記
 
 媒體流量類型| 用戶端來源連接埠範圍 \* |通訊協定|DSCP 值|DSCP 類別|
 |:---             |:---                         |:---    |:---      |:---      |

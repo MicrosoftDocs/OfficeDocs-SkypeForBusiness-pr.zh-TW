@@ -12,20 +12,20 @@ ms.collection:
 ms.reviewer: salilda
 localization_priority: Normal
 search.appverid: MET150
-description: 瞭解如何在 Microsoft 團隊中使用內嵌翻譯。
+description: 瞭解如何使用 Microsoft 團隊系統管理中心或 PowerShell 開啟 Microsoft 團隊中的內嵌翻譯。
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
-- seo-marvel-mar2020
+- seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4de799959e5e387ad768c3f82e379e464f42191c
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 0fabdbde6f8307694457d4861d67c6ed2eb22ac1
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141096"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905805"
 ---
 <a name="turn-on-inline-message-translation-in-microsoft-teams"></a>開啟 Microsoft 團隊中的內嵌郵件翻譯 
 =================================================

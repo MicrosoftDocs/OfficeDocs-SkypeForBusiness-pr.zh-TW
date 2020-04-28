@@ -20,13 +20,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: '瞭解您可以在商務用 Skype 中針對預設系統訊息設定哪些語言。 '
-ms.openlocfilehash: 78d3c53782e83ae191983bd8d7af2f1f5072f1df
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+- seo-marvel-apr2020
+description: 瞭解您可以在商務用 Skype 中針對預設系統訊息和語音信箱留言設定哪些語言。
+ms.openlocfilehash: e5158c7b313ad13abbd370550c38f54c8df04d29
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836583"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904518"
 ---
 # <a name="languages-for-voicemail-greetings-and-messages"></a>語音信箱問候語和訊息的語言
 
@@ -43,7 +44,7 @@ ms.locfileid: "41836583"
 |中文（香港特別行政區）  <br/> |中國  <br/> |zh-cn&platform-hk  <br/> |是，但使用中文（繁體）（zh-cn&platform-繁體）。  <br/> | 是 <br/> |是，但使用中文（繁體）（zh-cn&platform-繁體）。  <br/> |
 |中文（繁體）  <br/> |台灣  <br/> |zh-cn&platform-繁體  <br/> |是  <br/> |是  <br/> |否  <br/> |
 |克羅地亞語<br/> |克羅埃西亞  <br/> |hr-HR  <br/> |是  <br/> |是  <br/> |否  <br/> |
-|捷克文 <br/> |捷克  <br/> |cs-CZ  <br/> |是  <br/> |是  <br/> |否  <br/> |
+|捷克文 <br/> |捷克共和國  <br/> |cs-CZ  <br/> |是  <br/> |是  <br/> |否  <br/> |
 |丹麥文  <br/> |丹麥  <br/> |da-深  <br/> |是  <br/> |是  <br/> |否  <br/> |
 |荷蘭文  <br/> |荷蘭  <br/> |nl-nl&platform-NL-NL&PLATFORM  <br/> |是  <br/> |是  <br/> |否  <br/> |
 |英語  <br/> |澳洲  <br/> |en-AU  <br/> |是，但使用了美國英文（zh-cn）。  <br/> |是  <br/> |是，但使用了美國英文（zh-cn）。  <br/> |

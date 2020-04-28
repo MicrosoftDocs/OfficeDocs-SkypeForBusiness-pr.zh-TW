@@ -8,20 +8,21 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-description: 瞭解以 AAD 為基礎的動態團隊成員資格。
+description: 瞭解 Microsoft 團隊如何使用動態成員資格支援與 Office 365 群組相關聯的小組。
 f1.keywords:
 - NOCSH
 localization_priority: Normal
+ms.custom: seo-marvel-apr2020
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 68a7b26fa9668685fc9082ecdb202b6f589e0f4f
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: d325ee076d29ddfe50fd6193ec5755bf2bb51b82
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780182"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905795"
 ---
 # <a name="overview-of-dynamic-membership-for-teams"></a>小組的動態成員資格概觀
 
@@ -40,7 +41,7 @@ Microsoft 團隊可能需要幾分鐘的時間，才能在小組的 Office 365 �
 > - 規則可以定義誰是團隊成員，而不是團隊擁有者。
 > - 請參閱 Microsoft 團隊針對團隊和頻道大小目前限制的[限制與規格](limits-specifications-teams.md)。
 > - 因為成員是由動態群組規則所定義，所以擁有者將無法將使用者新增或移除為小組成員。
-> - 成員將無法留下動態群組所支援的小組。
+> -    成員將無法留下動態群組所支援的小組。
 
 
 ## <a name="creating-and-managing-an-office-365-group-with-dynamic-membership"></a>使用動態成員資格建立及管理 Office 365 群組

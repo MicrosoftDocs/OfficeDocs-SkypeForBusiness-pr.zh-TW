@@ -14,15 +14,16 @@ ms.reviewer: sbhatta
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 取得訪客如何受邀加入 Microsoft Teams 中小組的簡短概觀。
+description: 瞭解將組織外部的人員新增為 Microsoft 團隊中的團隊的來賓所需的步驟。
+ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 491770bcd3c2f435bbd2ea18c366effea2c8124f
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
-ms.translationtype: HT
+ms.openlocfilehash: 8202f7cae250d497eb690a7cb337c12dd1b79cb1
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41833173"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43902548"
 ---
 <a name="how-a-guest-joins-a-team"></a>來賓如何加入小組
 ========================
@@ -39,7 +40,7 @@ Microsoft Teams 中的小組擁有者可以透過網頁或桌面，在其小組�
 1. 來賓會收到來自小組擁有者的歡迎電子郵件，其中具有小組相關資訊，以及現在成為成員預期有什麼優點。 
 1. 來賓接受邀請。
   擁有屬於 Azure Active Directory 或 Office 365 公司或學校帳戶電子郵件地址的來賓使用者可以直接接受邀請。 
-  如果來賓還沒有與他們的電子郵件地址相關聯的 Microsoft 帳戶，系統會引導他們免費建立一個帳戶。 
+  如果來賓還沒有與其電子郵件地址相關聯的 Microsoft 帳戶，他們將會被導向以免費建立一個。 
 1. 接受邀請之後，來賓可以[參與小組和頻道](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499)、接收及回應頻道訊息、[存取頻道中的檔案](https://support.office.com/article/access-files-in-channels-c593c78a-27c4-4661-a598-682baa30ca7e)、參與交談、加入會議、在文件上共同作業等等。 
 
 在 Teams 中，系統會清楚地識別來賓。 來賓使用者的名稱包括標籤 **(來賓)**，頻道包含一個圖示指出小組中有來賓。 如需詳細資訊，請參閱[來賓體驗像什麼](guest-experience.md)。

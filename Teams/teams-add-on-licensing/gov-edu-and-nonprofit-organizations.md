@@ -1,5 +1,5 @@
 ---
-title: .GOV、EDU 和非盈利性組織
+title: 政府機關、教育界、非營利組織
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,17 +18,18 @@ localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
-description: '瞭解 .GOV、EDU 和非盈利性組織方案的附加元件授權和功能。 '
-ms.openlocfilehash: 49be4e27997278d1a0b2842ced2c540783b68163
-ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
+- seo-marvel-apr2020
+description: 瞭解政府、教育及非盈利性組織方案的附加元件授權和功能。
+ms.openlocfilehash: d16a6f0170acb90a54e24cbf7b24f2480fd4b51a
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42795966"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904538"
 ---
-# <a name="gov-edu-and-non-profit-organizations"></a>.GOV、EDU 和非盈利性組織
+# <a name="gov-edu-and-non-profit-organizations"></a>政府機關、教育界、非營利組織
 
-大多數團隊功能可供美國政府、教育機構及非贏利組織使用。 如需詳細資訊，請參閱下表。
+大多數團隊功能可供美國政府、教育機構及非贏利組織使用。 請參閱下列資料表以取得詳細資料。
 
 |**團隊功能**|**可供 .GOV （GCC）使用**|**可供 .GOV （非 GCC）**|**可供 EDU**|**可供非盈利性組織使用**|
 |:-----|:-----|:-----|:-----|:-----|
@@ -51,4 +52,4 @@ ms.locfileid: "42795966"
 
 ## <a name="related-topics"></a>相關主題
 
-[Office 365 非贏利](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit)
+[Office 365 非營利組織版](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit)

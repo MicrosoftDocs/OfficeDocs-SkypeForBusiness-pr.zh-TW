@@ -15,14 +15,14 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: 瞭解如何設定一個會話邊界控制器（SBC）來提供多個承租人。
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 1419a42a6affa00bbeed35d328f91331ad5357ec
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: 瞭解如何設定一個會話邊界控制器（SBC）來為 Microsoft 合作夥伴和/或 PSTN 運營商提供多個租使用者。
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 061d0afec96e6c76e49f6471ea8ed2f673e33eba
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779569"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43901848"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>設定多個租用戶的工作階段邊界控制器
 

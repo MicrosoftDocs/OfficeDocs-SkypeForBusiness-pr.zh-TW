@@ -15,13 +15,14 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: 請閱讀本主題，以瞭解如何使用手機系統直接路由規劃媒體旁路。
-ms.openlocfilehash: c40840e2169a67172f006a0f0910c715feb40253
-ms.sourcegitcommit: bb88ac0c9489bb47957e5ef1074b5df3126b6fdb
+description: 瞭解如何使用 [電話系統直接路由] 規劃媒體旁路，這可讓您縮短媒體流量的路徑，並改善效能。
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 316e94a2baafcecc9fb690f3d836e7c96c0b30ea
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "42265638"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43901838"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>媒體旁路搭配直接路由方案
 
@@ -319,7 +320,7 @@ UDP/SRTP | 媒體處理器 | SBC | 49 152 – 53 247    | 在 SBC 上定義 |
 
 ## <a name="configure-separate-trunks-for-media-bypass-and-non-media-bypass"></a>針對媒體旁路和非媒體旁路設定個別 trunks  
 
-如果您是從非媒體旁路移植到媒體旁路，且想要在將所有使用方式遷移到媒體旁路之前確認功能，您可以建立個別的主幹及個別的線上語音路由原則，以路由到媒體旁路幹線並指派給特定使用者. 
+如果您是從非媒體旁路移植到媒體旁路，且想要在將所有使用方式移植到媒體旁路之前確認功能，您可以建立個別的主幹及個別的線上語音路由原則，以路由到媒體旁路幹線並指派給特定的使用者。 
 
 高層次的設定步驟：
 

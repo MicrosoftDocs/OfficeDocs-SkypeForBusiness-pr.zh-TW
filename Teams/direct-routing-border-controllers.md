@@ -16,14 +16,14 @@ appliesto:
 hideEdit: true
 f1.keywords:
 - NOCSH
-description: Microsoft 合作夥伴與所選的 SBC 廠商合作，利用直接佈線來認證其 SBCs。
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ec7dacf18c27eb6aafbb29adc2ce618e9db07e68
-ms.sourcegitcommit: 0fdc60840f45ff5b0a39a8ec4a21138f6cab49c9
+description: 系統管理員可以瞭解哪個會話邊界控制器（SBCs）已認證以進行直接路由。
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 4d0a4f5846b120559b2fbaea97e191f1740ad4be
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43160040"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43901828"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>通過直接路由認證的工作階段邊界控制器清單
 

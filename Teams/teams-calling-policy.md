@@ -9,22 +9,23 @@ ms.service: msteams
 ms.reviewer: jastark
 audience: admin
 search.appverid: MET150
-description: 瞭解如何在 Microsoft 團隊中呼叫原則設定。
+description: 瞭解如何在 Microsoft 團隊中建立、修改及新增使用者至自訂通話原則，以及各種通話原則設定。
 localization_priority: Normal
 ms.custom:
-- NewAdminCenter_Update
+- ms.teamsadmincenter.callingpolicies.overview
+- seo-marvel-apr2020
 ms.collection:
 - M365-voice
-f1keywords:
-- ms.teamsadmincenter.callingpolicies.overview
+f1.keywords:
+- CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 788cc0e93b16585f1d3424d3bfa0a62693528740
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: a94bf072aa4db0ba0b3f65fb5340c22ab09581e4
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972444"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43914039"
 ---
 <a name="calling-policies-in-microsoft-teams"></a>在 Microsoft 團隊中呼叫原則
 ===================================
@@ -105,6 +106,10 @@ ms.locfileid: "37972444"
 ### <a name="busy-on-busy-is-available-while-in-a-call"></a>通話時可使用 [忙碌] 功能
 
 繁忙（忙選項））是小組通話原則中的新設定，可讓您設定當使用者已在通話或會議中，或有來電處於保留狀態時，處理來電的方式。 您可以使用占線信號拒絕新的或來電的通話。 您可以在租使用者層級或使用者層級啟用 busy 選項。 不論其忙碌選項的設定方式為何，通話或會議中的使用者，或使用保留通話的使用者，都不會阻止您開始新的通話或會議。 此設定預設為停用。
+
+### <a name="allow-music-on-hold"></a>允許暫停音樂
+
+此設定可讓您在保留 PSTN 呼叫者時，開啟或關閉 [等候音樂]。 預設為開啟。 此設定不適用於通話駐留與老闆代理人功能，且僅可透過 powershell 取得。 
 
 ## <a name="see-also"></a>另請參閱
 

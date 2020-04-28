@@ -24,13 +24,14 @@ ms.custom:
 - ms.lync.lac.NewNumberManualAcquisitionOpenSupportTicket
 - ms.lync.lac.VASAMissingGeoCodes
 - Calling Plans
-description: 瞭解如何為您的組織取得及管理 Microsoft 團隊的電話號碼。
-ms.openlocfilehash: 39f6b143f65b2e3aee8d9aa78a06ae280cafea8c
-ms.sourcegitcommit: a610bfe9c0192432744dfaf8d5ff5c2bb5a16b00
+- seo-marvel-apr2020
+description: 瞭解如何針對貴組織的 Microsoft 團隊取得及管理使用者（訂閱者）和服務（免付費電話和免付費）電話號碼。
+ms.openlocfilehash: 264196a75c908fb4731c0db1ff9db8d788c08ed0
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "43191300"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905845"
 ---
 # <a name="manage-phone-numbers-for-your-organization"></a>管理貴組織的電話號碼
 

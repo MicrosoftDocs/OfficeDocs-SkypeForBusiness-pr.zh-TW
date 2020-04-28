@@ -18,13 +18,14 @@ localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 瞭解團隊訊息中的優先順序通知。
-ms.openlocfilehash: c6bd6c1381eee82878ce59cc2133ec72b9b9e21c
-ms.sourcegitcommit: 4e1647d19501b37860d9fc79370fa4347f76f85f
+- seo-marvel-apr2020
+description: 在本文中，您將瞭解 Microsoft 團隊訊息中的優先順序通知。
+ms.openlocfilehash: c2c84019635ce2c46b6aad38363c7f8aabada83b
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43079405"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904685"
 ---
 # <a name="messaging-policies-licensing"></a>訊息原則授權
 

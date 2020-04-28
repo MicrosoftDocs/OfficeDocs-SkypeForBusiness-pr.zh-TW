@@ -18,13 +18,14 @@ localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 瞭解附加元件授權、功能，以及如何為企業版 Microsoft 365 應用程式購買。
-ms.openlocfilehash: e80ccd6a32b9eec9a0ba8973d11acaea7abc3ffc
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+- seo-marvel-apr2020
+description: 瞭解附加元件授權、其特定功能，以及如何為適用于企業的 Microsoft 365 應用程式購買這些授權。
+ms.openlocfilehash: b8183276354c41a9f75336b0e4a4e371cc8e55df
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779932"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904695"
 ---
 # <a name="microsoft-365-apps-for-enterprise"></a>適用于企業的 Microsoft 365 應用程式
 

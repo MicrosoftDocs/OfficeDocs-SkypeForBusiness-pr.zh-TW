@@ -13,17 +13,18 @@ f1.keywords:
 - CSH
 ms.reviewer: ritikag
 search.appverid: MET150
-description: 瞭解如何在每位使用者上啟用或停用使用者層級的存取。
+description: 瞭解如何指派或移除 Microsoft 團隊產品授權，在每位使用者上啟用或停用使用者層級的存取。
 ms.custom:
 - NewAdminCenter_Update
+- seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f571dd461c6c783703159dfd6e9beb343612dd58
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 10485fd7f04cfae675ea38967389851d4d72be90
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779479"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43903348"
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>管理使用者對 Microsoft 團隊的存取權
 =====================================

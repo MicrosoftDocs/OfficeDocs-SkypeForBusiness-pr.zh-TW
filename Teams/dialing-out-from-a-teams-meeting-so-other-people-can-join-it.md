@@ -20,14 +20,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
-- seo-marvel-mar2020
-description: 瞭解您需要的專案，以及會議召集人可以使用團隊撥出給其他人的方式。
-ms.openlocfilehash: fbba74f7d8cd25da4a96237dfc551463681eef20
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+- seo-marvel-apr2020
+description: 會議召集人可以瞭解如何使用 [團隊] 應用程式撥出，讓其他人使用自己的手機加入相同的會議。
+ms.openlocfilehash: fc670995dcf5a16c79c857c217711490be82a664
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137363"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43901958"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>從 Microsoft 團隊會議撥出，讓其他人可以加入
 

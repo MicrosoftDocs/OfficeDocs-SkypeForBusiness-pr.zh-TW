@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 瞭解將新服務電話號碼指派給您的會議橋接器所需的步驟，以擴大使用者的覆蓋範圍。
-ms.openlocfilehash: 233678bd953046eed5e6425e0b1a36c5a39b1061
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: d22e3c475ae80b7c6aecb89e9e6487c8db38ab1e
+ms.sourcegitcommit: 3ef5c913318fdeeaa8c55caab07c2f8224eae2b0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780352"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43898148"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>變更音訊會議橋接器的電話號碼
 
@@ -67,7 +67,7 @@ ms.locfileid: "43780352"
  
 ### <a name="step-3---change-the-default-phone-numbers-that-are-included-in-the-meeting-invites-of-users-optional"></a>步驟 3-變更使用者的會議邀請中所包含的預設電話號碼（選用）
 
-使用者在排程會議時包含在會議邀請上的預設電話號碼。 如需詳細資訊，包括如何指派 defaul 電話號碼給新的使用者，請參閱[設定 Microsoft 團隊邀請中包含的電話號碼](set-the-phone-numbers-included-on-invites-in-teams.md)，或[在商務用 Skype Online 中設定邀請中包含的電話號碼](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites)。
+使用者在排程會議時包含在會議邀請上的預設電話號碼。 如需詳細資訊，包括如何指派預設電話號碼給新的使用者，請參閱[設定 Microsoft 團隊邀請中包含的電話號碼](set-the-phone-numbers-included-on-invites-in-teams.md)，或[在商務用 Skype Online 中設定邀請中包含的電話號碼](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites)。
   
 1. 使用您的公司或學校帳戶登入。
 
@@ -83,7 +83,7 @@ ms.locfileid: "43780352"
 
 在接下來的兩個步驟中，您將需要啟動 Windows PowerShell。
   
-如果您更新了部分或所有使用者的會議邀請中 inlcuded 的預設電話號碼，您可以選擇性地更新已傳送給組織中的使用者的會議邀請，然後再使用會議遷移服務變更其預設電話號碼。 如需其他資訊，請參閱[設定會議遷移服務（MMS）](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)。
+如果您更新了部分或所有使用者的會議邀請中所包含的預設電話號碼，您可以選擇性地更新已傳送給組織中的使用者的會議邀請，然後再使用會議遷移服務變更其預設電話號碼。 如需其他資訊，請參閱[設定會議遷移服務（MMS）](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)。
   
 - 針對在步驟2中變更預設電話號碼的使用者，執行會議遷移服務（MMS）。 若要這樣做，請執行下列命令：
 
@@ -139,7 +139,7 @@ Get-CsMeetingMigrationStatus -SummaryOnly
 
 3. 如果電話號碼是免費電話號碼，請從清單中選取電話號碼，然後在 [動作] 窗格中，按一下 [**取消指派**]。 如果電話號碼是付費號碼，請與[Microsoft 支援](https://go.microsoft.com/fwlink/?linkid=2091806)人員聯繫，以取消指派電話號碼。
 
-4. 如果電話號碼是付費 fre 號碼，請在確認視窗中按一下 **[是]** 。
+4. 如果電話號碼是免費電話號碼，請在確認視窗中按一下 **[是]** 。
 
    > [!IMPORTANT]
    > 從音訊會議橋中取消指派電話號碼之後，使用者將無法再使用電話號碼加入新的或現有的會議。
@@ -223,9 +223,9 @@ Get-CsMeetingMigrationStatus -SummaryOnly
 
 ## <a name="troubleshooting"></a>疑難排解
 
-**[取消指派] 按鈕呈現灰色**
+**無法使用 [取消指派] 按鈕**
 
-您想要取消指派某個數位，但該按鈕在 hoovering 時是灰顯的，而且如果您是透過其進行，您就會以下列訊息來重定向至連絡人支援： [_預設] 或 [共用號碼] 可以́t 從橋中取消指派。若要取消指派專用的付費電話號碼，請聯絡支援人員。_
+您想要取消指派某個數位但無法使用該按鈕，如果將滑鼠游標停留在該按鈕上，就會使用下列訊息來重定向至連絡人支援： [_預設] 或 [共用號碼] 可以從橋接器解除指派́t。若要取消指派專用的付費電話號碼，請聯絡支援人員。_
 
 若要取得橋接器的詳細資訊，請執行下列 Powershell：
 ```PowerShell
