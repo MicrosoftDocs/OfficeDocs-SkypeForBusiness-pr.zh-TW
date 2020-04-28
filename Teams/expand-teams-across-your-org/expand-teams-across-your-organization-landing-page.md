@@ -1,6 +1,6 @@
 ---
 title: 在您的組織中展開 Microsoft 團隊
-description: 瞭解 Microsoft 團隊資源，包括團隊的倒班、醫療保健小組、教育版團隊、零售小組，以及政府的團隊。
+description: 瞭解可在標準團隊部署中建立的資源，以協助您充分利用特定組織類型的團隊。
 layout: LandingPage
 ms.topic: landing-page
 author: lanachin
@@ -15,13 +15,13 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d4b6e2b1706f64a37aa8174ca919bd7582b90772
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 91a584f7dea5ae9c6ea23f8c4ee30b5eadf3dc20
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136934"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904368"
 ---
 # <a name="expand-microsoft-teams-across-your-organization"></a>在您的組織中展開 Microsoft 團隊
 
