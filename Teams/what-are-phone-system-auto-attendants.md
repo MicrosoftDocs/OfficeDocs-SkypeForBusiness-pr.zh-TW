@@ -22,13 +22,14 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.autoattendants.overview
 - Phone System
-description: 瞭解什麼是雲端自動語音應答，以及如何使用它們。
-ms.openlocfilehash: d9f108acd4c1ebe3c275d79555145c6c92a78737
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+- seo-marvel-apr2020
+description: 瞭解雲端自動語音應答，以及如何使用它，讓來電者在功能表系統中移動，找出電話並將來電放入或轉接給使用者或部門。
+ms.openlocfilehash: bfe142db0322757dd8fefe55c4de529168939126
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836663"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905135"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>什麼是雲端自動語音應答？
 
@@ -91,7 +92,7 @@ Office 365 中的 [電話系統] 提供自動語音應答，可以用來讓外�
 |語音（語音輸入） |段  <br/> 姓名  <br/> FirstName + 姓氏  <br/> 姓氏 + FirstName  | 80000使用者 |
 
 > [!NOTE]
-> 如果您是在語音辨識中使用 [透過名稱撥號]，但貴組織的 Active Directory 大於80000的使用者，而且您還沒有使用撥號作用中的名稱限制撥號作用中，使用電話鍵撥打電話給您的呼叫者仍能正常運作並且語音輸入將可供所有其他案例使用。 您可以使用 [撥號作用中] 功能，透過針對特定自動語音應答變更撥號作用中的名稱，來縮小所能達到的名稱。
+> 如果您是使用語音辨識進行撥號，但貴組織的 Active Directory 大於80000的使用者，而且您還沒有使用撥號作用中的名稱限制撥號作用中，[按名稱撥號] 仍可供您使用電話鍵的呼叫者使用，而語音輸入則適用于所有其他案例。 您可以使用 [撥號作用中] 功能，透過針對特定自動語音應答變更撥號作用中的名稱，來縮小所能達到的名稱。
   
 ### <a name="dial-by-name---keypad-dtmf-entry"></a>透過名稱鍵台（DTMF）專案撥號
 撥入的人員可透過指定使用者的完整或部分名稱來使用撥號，以取得使用者的名稱。 輸入名稱時，可以使用各種不同的格式。

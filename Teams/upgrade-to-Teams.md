@@ -7,23 +7,25 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
 audience: admin
-description: 根據您目前的商務用 Skype 部署，選擇 Microsoft 團隊的升級路徑
+description: 根據您目前的商務用 Skype 部署，決定 Microsoft 團隊的最佳升級路徑。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom:
+- Teams-upgrade-guidance
+- seo-marvel-apr2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c1a7602139eda3eba3f1d2919312055773110fc6
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: 030081b4fbf633e808e1c340f7b88b8224c13700
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706873"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905185"
 ---
 # <a name="overview"></a>概觀
 

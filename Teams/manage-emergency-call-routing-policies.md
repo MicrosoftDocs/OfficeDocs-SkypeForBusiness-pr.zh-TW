@@ -15,14 +15,14 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: 瞭解如何使用及管理 Microsoft 團隊中的緊急通話路由原則。
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c0e02a44997e07626c39dc576357f8811a9b1bf9
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: 瞭解如何使用及管理 Microsoft 團隊中的緊急呼叫路由策略，以設定緊急電話號碼，以及指定如何傳送緊急通話。
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 310f2d3177f7a601013859d06a90f6d1ba44c656
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141116"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905115"
 ---
 # <a name="manage-emergency-call-routing-policies-in-microsoft-teams"></a>管理 Microsoft 團隊中的緊急通話路由原則
 
@@ -36,7 +36,7 @@ ms.locfileid: "43141116"
 
 ## <a name="create-a-custom-emergency-call-routing-policy"></a>建立自訂緊急通話路由策略
 
-### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft 團隊系統管理中心
+### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 系統管理中心
 
 1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**語音** > **緊急原則**]，然後按一下 [**呼叫路由策略**] 索引標籤。
 2. 按一下 [**新增**]。
@@ -60,7 +60,7 @@ ms.locfileid: "43141116"
 
 ## <a name="edit-an-emergency-call-routing-policy"></a>編輯緊急通話路由策略
 
-### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft 團隊系統管理中心
+### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 系統管理中心
 
 您可以編輯全域原則或您建立的任何自訂原則。
 
@@ -74,7 +74,7 @@ ms.locfileid: "43141116"
 
 ## <a name="assign-a-custom-emergency-call-routing-policy-to-users"></a>將自訂緊急通話路由原則指派給使用者
 
-### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft 團隊系統管理中心
+### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 系統管理中心
 
 1. 在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至 [使用者]****，然後按一下該使用者。
 2. 按一下 [**原則**]，然後在 [**指派的原則**] 旁，按一下 [**編輯**]。
@@ -87,7 +87,7 @@ ms.locfileid: "43141116"
 1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**語音** > **緊急原則**]，然後按一下 [**呼叫路由策略**] 索引標籤。
 2. 按一下原則名稱的左側來選取原則。
 3. 選取 [管理使用者]****。
-4. 在 [**管理使用者**] 窗格中，依 [顯示名稱] 或 [使用者名稱] 搜尋使用者，選取名稱，然後選取 [**新增**]。 針對要新增的每一個使用者重複此步驟。
+4. 在 **[管理使用者]** 窗格中，依顯示名稱或使用者名稱搜尋使用者，選取名稱，然後選取 **[新增]**。 針對要新增的每一個使用者重複此步驟。
 5. 完成新增使用者後，請按一下 [**儲存**]。
 
 ### <a name="using-powershell"></a>使用 PowerShell

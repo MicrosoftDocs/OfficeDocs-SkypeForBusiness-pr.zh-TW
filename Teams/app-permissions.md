@@ -12,18 +12,19 @@ ms.collection:
 - M365-collaboration
 search.appverid: MET150
 ms.reviewer: rowille
-description: 瞭解哪些資料和許可權應用程式是從您的組織要求的。
+description: 系統管理員可以瞭解 Microsoft 團隊 app 從其組織要求哪些資料和許可權。
 f1.keywords:
 - NOCSH
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5d7548d4d162310bc239c752e2bce38e725008f9
-ms.sourcegitcommit: 8e2fa7b744d0a174b699ae7298d4688b971eeff3
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 0f17ed779415c1dfaa731d13839d02ca971d46f1
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41845224"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904588"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Microsoft 團隊 app 許可權和考慮
 
@@ -32,7 +33,7 @@ Microsoft 團隊 app 是一種將一或多項功能匯總成_應用程式套件_
 - Bot
 - 郵件擴充功能
 - 索引標籤
-- 連接線
+- 連接器
 
 應用程式受到使用者的同意，且由策略的觀點加以管理。 不過，在大多數情況下，應用程式的許可權和風險設定檔是由 app 所包含之功能的許可權和風險設定檔所定義。 因此，本文著重說明功能層級的許可權和考慮。
 
@@ -41,7 +42,7 @@ Microsoft 團隊 app 是一種將一或多項功能匯總成_應用程式套件_
 
 |    |     |
 |-----------|------------|
-| ![描述決策點的圖示](media/audio_conferencing_image7.png) <br/>決策點|<ul><li>您可以使用下表做為說明，瞭解您正在調查哪些應用程式要求哪些許可權。</li></ul> |
+| ![描繪決策點的圖示](media/audio_conferencing_image7.png) <br/>決策點|<ul><li>您可以使用下表做為說明，瞭解您正在調查哪些應用程式要求哪些許可權。</li></ul> |
 | ![描繪後續步驟的圖示](media/audio_conferencing_image9.png)<br/>後續步驟|<ul><li>研究 app 或服務本身，決定是否要允許您組織中的存取權。 例如，bot 會從使用者傳送和接收訊息，除了企業業務線 bot 之外，它們位於合規性界限外。 因此，任何包含 bot 的 app 都需要這些許可權，並至少擁有該風險設定檔。 </li></ul>|
 
 ## <a name="global-app-permissions-and-considerations"></a>全域 app 許可權和考慮
@@ -135,9 +136,9 @@ None （目前）
 
 - 索引標籤的風險設定檔與在瀏覽器索引標籤上執行的相同網站幾乎完全相同。 
 
-- 索引標籤也會取得執行中的內容，包括目前使用者的登入名稱和 UPN、目前使用者的 Azure AD 物件識別碼、其所在的 Office 365 群組（如果它是團隊），租使用者識別碼以及使用者目前的地區設定。 不過，若要將這些識別碼對應至使用者的資訊，索引標籤會必須讓使用者登入 Azure AD。
+- 索引標籤也會取得執行中的內容，包括目前使用者的登入名稱和 UPN、目前使用者的 Azure AD 物件識別碼、其所在之 Office 365 群組的識別碼（如果是團隊）、租使用者識別碼，以及使用者目前的地區設定。 不過，若要將這些識別碼對應至使用者的資訊，索引標籤會必須讓使用者登入 Azure AD。
 
-## <a name="connectors"></a>連接線
+## <a name="connectors"></a>連接器
 
 當外部系統中的事件發生時，連接器會將訊息張貼到頻道。
 

@@ -13,15 +13,17 @@ ms.reviewer: sbhatta
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 瞭解系統管理員可以如何編輯 Azure Active Directory 入口網站中來賓使用者的相關資訊。
+description: 在本文中，您將瞭解系統管理員可以如何在 Azure Active Directory 入口網站中編輯來賓使用者的相關資訊。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d59e991212391ea9cdac194ef3687da9095f0679
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom:
+- seo-marvel-apr2020
+ms.openlocfilehash: 038312f2dc63778111bd58ae93bfc5afab56750c
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41833773"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904048"
 ---
 <a name="edit-guest-user-information"></a>編輯來賓使用者資訊
 ===========================

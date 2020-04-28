@@ -19,13 +19,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: '瞭解如何為您的組織設定電話系統（雲端 PBX）。 '
-ms.openlocfilehash: 8c534607ca50baae75c3b0b2fdf5bc54359c22e4
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+- seo-marvel-apr2020
+description: 逐步指南詳細說明如何在 Office 365 中設定貴組織的電話系統（雲端 PBX）。
+ms.openlocfilehash: c2756b750c00dd370d5ef33370ae359d0351e07e
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779810"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905565"
 ---
 # <a name="set-up-phone-system-in-your-organization"></a>在組織中設定電話系統
 
@@ -33,9 +34,9 @@ ms.locfileid: "43779810"
 
 ## <a name="step-1-make-sure-that-phone-system-is-available-in-your-country-or-region"></a>步驟1：確認您的國家或地區有可用的電話系統
 
-1.  首先，請移至[適用于音訊會議與通話方案的國家和地區可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，然後從頁面頂端的清單中選取您的國家或地區。 
-2.  在 [**電話系統**] 下，查看功能清單及詳細資料。 
-3.  如果有可用的電話系統，請移至步驟2。 
+1.    首先，請移至[適用于音訊會議與通話方案的國家和地區可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，然後從頁面頂端的清單中選取您的國家或地區。 
+2.    在 [**電話系統**] 下，查看功能清單及詳細資料。 
+3.    如果有可用的電話系統，請移至步驟2。 
 
 ## <a name="step-2-buy-and-assign-phone-system-and-calling-plan-licenses"></a>步驟2：購買並指派電話系統和通話方案授權
 

@@ -16,14 +16,14 @@ appliesto:
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-description: 瞭解如何為您組織中的使用者指派或變更緊急位置。
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2652cbd2f01af4436de737bae54656e96488ab27
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: 在本文中，您將瞭解如何為貴組織中的使用者指派或變更緊急位置。
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: cd0fa9ed5fca430b5c49934adb66f3c61deb4bbd
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137103"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904855"
 ---
 # <a name="assign-or-change-an-emergency-location-for-a-user"></a>指派或變更使用者的緊急位置
 

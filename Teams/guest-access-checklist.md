@@ -7,7 +7,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 ms.reviewer: sbhatta
-description: 使用此檢查清單可協助您設定 Microsoft 團隊中的來賓存取權。
+description: 瞭解如何在 Microsoft 團隊中開啟和設定來賓存取（作為全域或團隊管理員）。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -17,12 +17,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 22a0c2a8641203e764d6c490a008525cf71e8d5c
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 04627c74528972aad69b1e810e222f55cae49588
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776948"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43902578"
 ---
 <a name="microsoft-teams-guest-access-checklist"></a>Microsoft 團隊來賓存取檢查清單
 =========================================
@@ -30,7 +31,7 @@ ms.locfileid: "43776948"
 使用此檢查清單可協助您開啟並設定 Microsoft 團隊中的來賓存取權。 您必須是全域系統管理員或團隊管理員，才能進行這些變更。
 
 > [!IMPORTANT]
-> 您可能需要等候 24 小時，變更才會生效。 
+> 您可能需要等候幾個小時，變更才會生效。 
 
 觀看這段短片（5:31 分鐘），瞭解如何在整個 Microsoft 365 （包括團隊）中開啟來賓存取。
 

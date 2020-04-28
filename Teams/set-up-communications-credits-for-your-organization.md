@@ -20,13 +20,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Licensing
+- seo-marvel-apr2020
 description: '瞭解如何為您的使用者和組織設定通訊點數（PSTN 消費）帳單授權。 '
-ms.openlocfilehash: 304c08568ee39f69f727d159a5599a3a3ac89ed4
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 8deb0d00365803ff8ae585f8f6d4dfefbf72108f
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779740"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905585"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>設定貴組織的通訊點數
 
@@ -37,7 +38,7 @@ ms.locfileid: "43779740"
   
 ## <a name="step-1-assign-an-audio-conferencing-or-calling-plan-license-to-your-users"></a>步驟1：將音訊會議或通話方案授權指派給您的使用者
 
-當您註冊時，視您的國家/地區而定，您會收到特定的分鐘數。 您可以在這裡看到您會在[這裡](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)搜尋國家或地區的分鐘數。 在您使用這些分鐘數之後，通話會中斷連線。 若要避免發生這種情況，您必須設定通訊點數。
+當您註冊時，視您的國家/地區而定，您會收到特定的分鐘數。 您可以在 [國家或地區可用性] 清單中搜尋您的國家或地區，以取得[音訊會議與通話方案](https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans#select-your-country-or-region-to-see-whats-available-for-your-organization)，以查看您會收到的分鐘數。 在您使用這些分鐘數之後，通話會中斷連線。 若要避免發生這種情況，您必須設定通訊點數。
   
 若要這樣做，**您必須將音訊會議或電話系統授權指派**給您的使用者。
   

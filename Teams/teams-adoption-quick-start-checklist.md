@@ -10,21 +10,23 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: 完成檢查清單以開始進行 Microsoft 團隊採用。
+description: 使用此快速入門檢查清單，確保貴組織開始採納 Microsoft 團隊的成功。
 f1.keywords:
 - CSH
-ms.custom: Adopt
+ms.custom:
+- Adopt
+- seo-marvel-apr2020
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d7cef7033a79d7282d73534ded41805b11b2a46e
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 9cdea5f7e6bce5e348fa2a85feb93f733bf46c24
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837743"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905085"
 ---
 # <a name="microsoft-teams-adoption-quick-start-checklist"></a>Microsoft 團隊採用快速入門檢查清單
 

@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何將自訂團隊 app 從開發開發到部署。
-ms.openlocfilehash: f8c5a7dcc12bc9b3823285138d15a0ccdf11c52a
-ms.sourcegitcommit: 7093388425b34c80e444a50d062290187b80047d
+ms.openlocfilehash: dd34b96a40affc2ffd7e5ddeb6a118a122831296
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/22/2020
-ms.locfileid: "42229933"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904945"
 ---
 # <a name="manage-your-line-of-business-apps-in-microsoft-teams"></a>在 Microsoft 團隊中管理您的商務用應用程式
 
@@ -126,6 +126,20 @@ Microsoft 使用<a href="https://docs.microsoft.com/microsoftteams/platform/publ
 若要更新應用程式，開發人員應該繼續遵循[步驟 1](#step-1-develop-and-test)和[步驟 2](#step-2-validate-in-production)。
 
 您可以透過租使用者應用程式目錄來更新應用程式。 若要這樣做，請在 Microsoft 團隊系統管理中心，移至 [**團隊 app** > **管理應用程式**]。 在應用程式清單中，按一下應用程式名稱，然後按一下 [**更新**]。 這樣做會取代租使用者目錄中現有的 app，而且所有 app 許可權原則和應用程式設定原則都會針對更新的 app 保持強制執行。
+
+### <a name="end-user-update-experience"></a>最終使用者更新體驗
+
+在大多數情況下，當您完成 app 更新之後，就會自動針對最終使用者顯示新版本。 不過， <a href="https://docs.microsoft.com/microsoftteams/platform/resources/schema/manifest-schema" target="_blank">Microsoft 團隊資訊清單</a>有一些更新需要使用者驗收才能完成：
+
+* 已新增或移除 bot
+* 現有 bot 的 "botId" 屬性已變更
+* 現有 bot 的 "isNotificationOnly" 屬性已變更
+* bot 的 "supportsFiles" 屬性已變更
+* 已新增或移除訊息延伸
+* 已新增新的連接器
+* 新增了 [靜態] 索引標籤
+* 新增 [可設定] 索引標籤
+* "webApplicationInfo" 中的屬性已變更
 
 ## <a name="related-apps"></a>相關應用程式
 

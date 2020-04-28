@@ -20,14 +20,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
-- seo-marvel-mar2020
-description: '瞭解如何從 Microsoft 團隊中查詢您的電話撥入式會議號碼。 '
-ms.openlocfilehash: d430daf841694029818f54d27abfeba3bc77604e
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+- seo-marvel-apr2020
+description: 瞭解如何在 Microsoft 團隊中查詢音訊會議所能使用的電話撥入式會議號碼。
+ms.openlocfilehash: 962ca1626ab0bcc6fe3ac7e8da1c0183dbe3dcf2
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140966"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905755"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>在 Microsoft 團隊中查看音訊會議號碼清單
 

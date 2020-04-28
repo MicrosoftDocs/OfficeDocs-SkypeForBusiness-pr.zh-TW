@@ -13,13 +13,14 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 ms.assetid: ''
-description: 管理 Microsoft 團隊聊天室的 Windows 更新
-ms.openlocfilehash: 2fc96118b70ff7c15e7bde02fdcd048c07581ad3
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+description: 系統管理員可以瞭解如何管理 Microsoft 團隊聊天室的 Windows 更新和 Windows 功能更新。
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: e52c1fdf3bb35be6869320aa57e6f5aff5fd0773
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827911"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905305"
 ---
 # <a name="manage-windows-updates"></a>管理 Windows 更新
 

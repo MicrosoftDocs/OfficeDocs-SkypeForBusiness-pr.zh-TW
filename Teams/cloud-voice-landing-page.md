@@ -15,16 +15,17 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.cloudvoice
+- seo-marvel-apr2020
 search.appverid: MET150
-description: 在小組中部署雲端語音的登陸頁面
+description: 深入瞭解雲端語音功能，並瞭解您將面臨的必要部署決定。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c8498d8d4f6336bf54f6ae7f9c96540783b54dd1
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 20a46a82c336396ccb71587db71515b699a9056e
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825051"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905905"
 ---
 # <a name="cloud-voice-in-microsoft-teams"></a>Microsoft 團隊中的雲端語音
 
@@ -121,7 +122,7 @@ Microsoft 提供兩種電話號碼類型：可指派給您組織中的使用者�
 
 Office 365 的 [電話系統] 功能中的撥號方案是一組正常化規則，可將撥打的電話號碼轉換成替代格式（通常是164個格式），用於呼叫授權及呼叫路由。
 
-如需撥號對應表的相關資訊，請參閱[什麼是撥號對應表？](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans) (英文版)
+如需撥號對應表的相關資訊，請參閱[什麼是撥號對應表？](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans)
 
 |問問自己|動作 |
 |:------------|:-------|
@@ -131,7 +132,7 @@ Office 365 的 [電話系統] 功能中的撥號方案是一組正常化規則�
 
 ### <a name="call-queues"></a>通話佇列
 
-雲端通話佇列包括某人撥入您組織的電話號碼時所使用的問候語、自動保留通話的功能，以及在通話時搜尋下一個可用的呼叫代理程式來處理通話的功能在暫停時聆聽音樂。 您可以為組織建立單一或多個通話佇列。 
+雲端通話佇列包括某人撥入您組織的電話號碼時所使用的問候語、自動保留通話的功能，以及搜尋下一個可用的呼叫代理程式，以處理通話，而呼叫者正在聆聽音樂的人員。 您可以為組織建立單一或多個通話佇列。 
 
 
 |問問自己|動作 |

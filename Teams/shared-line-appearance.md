@@ -20,13 +20,14 @@ f1.keywords:
 ms.custom:
 - Phone System
 - ms.teamsadmincenter.users.voice.calldelegation.tooltip
-description: 共用線外觀可讓使用者選擇代表代表對方接聽或處理通話的代理人。
-ms.openlocfilehash: bb6728de67d1bf29a5e00ed9b62d8957391dd8ba
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+- seo-marvel-apr2020
+description: 瞭解如何在 Microsoft 團隊中傳送電子郵件給使用者的音訊會議資訊。
+ms.openlocfilehash: 52f4257d5e5603c0f7ed812d5ab677a18ed47fb9
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837963"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905545"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>Microsoft 團隊中的共用線條外觀
 

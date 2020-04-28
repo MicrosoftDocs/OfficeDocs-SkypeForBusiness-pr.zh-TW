@@ -13,13 +13,14 @@ localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection:
 - M365-collaboration
-description: 本文說明部署 Microsoft 團隊聊天室的基礎結構準備。
-ms.openlocfilehash: 7c067376ffffd2a674c5e0cfb2204801b0c4f32a
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: 瞭解如何準備您的基礎結構以部署 Microsoft 團隊聊天室，讓您充分利用所有的功能。
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 5267e27409e41c014d391048b70620fc802d8ff4
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779770"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905345"
 ---
 # <a name="prepare-your-environment"></a>準備您的環境
 
@@ -158,7 +159,7 @@ Microsoft 團隊會議室預設密碼設定為 "sfb"。 若要在本機變更密
   
  如果您想要在加入到網域之後重新命名電腦，請使用重新命名電腦 PowerShell 命令，後面接著電腦的新名稱。
   
-## <a name="see-also"></a>另請參閱
+## <a name="related-topics"></a>相關主題
 
 [規劃 Microsoft 團隊聊天室](rooms-plan.md)
 

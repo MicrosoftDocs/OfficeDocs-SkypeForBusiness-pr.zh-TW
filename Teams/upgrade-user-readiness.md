@@ -7,25 +7,25 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
 audience: admin
-description: 規劃與您的使用者進行宣傳、訓練及支援您的使用者，並在您進行示範、加入團隊並升級至小組
+description: 規劃在您向 Microsoft 團隊進行示範、進行板載和升級時，與您的使用者進行溝通、訓練及支援。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
 ms.custom:
 - Teams-upgrade-guidance
-- seo-marvel-mar2020
+- seo-marvel-apr2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5519646aab3f1fbd14a2ee643313e50f9fbc678c
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: b751ec6d14e5d137bb9dfdb3e4c6e9664137cda4
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136643"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905325"
 ---
 # <a name="prepare-a-user-readiness-plan"></a>準備使用者整備計畫
 

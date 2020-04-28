@@ -8,9 +8,11 @@ ms.service: msteams
 audience: admin
 ms.reviewer: dearbeen
 search.appverid: MET150
-description: 從商務用 Skype 繼續旅程至 Microsoft 團隊的指導方針
+description: 瞭解如何使用團隊監控網路健康情況、保持使用者參與，以及準備新功能。
 localization_priority: Normal
-ms.custom: Teams-upgrade-guidance
+ms.custom:
+- Teams-upgrade-guidance
+- seo-marvel-mar2020
 f1.keywords:
 - NOCSH
 ms.collection:
@@ -18,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 41976649dec2509a9adfd472e7c382389250a4b4
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: b414cd4a6e312270520560edd3ed4d14c874bacb
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706443"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904088"
 ---
 # <a name="how-to-use-microsoft-teams-effectively"></a>如何有效使用 Microsoft 團隊
 

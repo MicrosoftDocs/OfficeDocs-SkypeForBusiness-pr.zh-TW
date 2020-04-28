@@ -20,13 +20,14 @@ f1.keywords:
 ms.custom:
 - Phone System
 - ms.teamsadmincenter.callparkpolicies.overview
-description: 使用 [呼叫駐留] 和 [檢索]，在雲端的小組服務中保留通話。
-ms.openlocfilehash: b4b5200f139f5610ff1109b97742607d3b633ff6
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+- seo-marvel-apr2020
+description: 瞭解如何使用通話駐留及取回功能，在雲端的小組服務中保持通話。
+ms.openlocfilehash: 2420652fc908a943e798ac1acade53eca4c5b55f
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824591"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905035"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>在 Microsoft 團隊中通話駐留與取回
 
@@ -75,10 +76,10 @@ ms.locfileid: "41824591"
 請依照下列步驟，將通話駐留原則指派給一或多位使用者：
 
 1. 移至**Microsoft 團隊系統管理中心** > 的 [**語音** > **通話] 寄存原則**。
-2. 按一下原則名稱左方，選取原則。
-3. 選取 [**管理使用者**]。
-4. 在 [**管理使用者**] 窗格中，依 [顯示名稱] 或 [使用者名稱] 搜尋使用者，選取名稱，然後選取 [**新增**]。 針對您要新增的每個使用者重複此步驟。
-5. 完成新增使用者後，請選取 [**儲存**]。
+2. 按一下原則名稱的左側來選取原則。
+3. 選取 [管理使用者]****。
+4. 在 **[管理使用者]** 窗格中，依顯示名稱或使用者名稱搜尋使用者，選取名稱，然後選取 **[新增]**。 針對要新增的每一個使用者重複此步驟。
+5. 完成新增使用者時，選取 **[儲存]**。
  
 ### <a name="configure-call-park-and-retrieve-with-powershell"></a>使用 PowerShell 設定通話駐留及檢索
 

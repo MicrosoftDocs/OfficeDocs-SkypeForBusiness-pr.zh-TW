@@ -7,23 +7,25 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: dearbeen
-description: 確定貴組織和使用者已準備好進行 Microsoft 團隊
+description: 瞭解如何評估貴組織的準備順利轉換為 Microsoft 團隊環境。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom:
+- Teams-upgrade-guidance
+- seo-marvel-apr2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 888e56561e4e6f4a521a0e1730fe3c9ea6adff82
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: a9cfb5c1982d6cfa031db447ed07543edf3a2a3e
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706933"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904438"
 ---
 # <a name="assess-organizational-change-readiness"></a>評估組織的變更整備程度
 
@@ -53,7 +55,7 @@ ms.locfileid: "42706933"
 
 透過評估貴組織的就緒性，您可以決定 receptive （或不是）您的使用者可能會變更其運作方式及採用新技術的方式。 瞭解使用者對變更作出反應的方式，讓您的組織能夠主動解決問題、調整您的推出方案以取得最佳的購買，以及找出可協助您利用其對等進行變更的使用者。
 
-### <a name="activity"></a>操作
+### <a name="activity"></a>活動
 
 使用下列交談初學者進行組織的準備評估，並在變更時記錄貴組織的文化。 此資訊可協助告知您的專案可能需要多少意識與訓練。 請勿擔心確切數位。 這個練習代表您組織文化的一般瞭解。 如果您需要開始協助，只需評估過去推出的時間即可;這可協助您預測使用者如何回應變更，並協助您主動處理預期的反應。
 

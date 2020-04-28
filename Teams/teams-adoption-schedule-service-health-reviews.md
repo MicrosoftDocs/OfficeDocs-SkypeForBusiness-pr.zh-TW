@@ -10,21 +10,22 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: 瞭解如何在您的小組採用中使用 [服務健康情況] 報告。
+description: 瞭解如何使用小組中的服務健康情況審查，分享使用方式、健康情況、功能/專案藍圖及其他更新等方面的見解。
 f1.keywords:
 - CSH
 ms.custom: Adopt
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
+- seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 930bed20da33fa49ae322af69f7756597e11f1fe
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 1279d9f9d9b8afc66dc64ac9ded524d1340c2a1f
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837733"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905075"
 ---
 # <a name="schedule-service-health-reviews-for-your-microsoft-teams-adoption"></a>針對您的 Microsoft 團隊採納排程服務健康情況檢查
 

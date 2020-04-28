@@ -10,19 +10,21 @@ search.appverid: MET150
 ms.reviewer: srividhc
 f1.keywords:
 - NOCSH
-description: 雲端視頻交互操作可讓協力廠商會議室裝置加入 Microsoft 團隊會議。
+description: 使用雲端視頻 Interop 作為中間方案，以允許協力廠商會議室的裝置加入 Microsoft 團隊會議。
 localization_priority: Normal
+ms.custom:
+- seo-marvel-apr2020
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f9addb5dfe25f5d4906c0b4ab1d332a2ea70f72d
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 5c7cb1888856ff8dba910e4f4735516876a8ade2
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779639"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905875"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Microsoft 團隊的雲端視頻互通性
 
@@ -89,7 +91,7 @@ Office 365 提供將協力廠商應用程式整合到 SharePoint Online 網站�
 
 ### <a name="provision"></a>布建  
 
-在預置階段中，您將根據合作夥伴設定指南，將授權指派給適當的使用者。 您也需要完成 Azure 同意程式，才能提供合作夥伴對您團隊環境的存取權。 您可以在以下網址找到有關 Azure 同意流程的詳細資訊：https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent 
+在預置階段中，您將根據合作夥伴設定指南，將授權指派給適當的使用者。 您也需要完成 Azure 同意程式，才能提供合作夥伴對您團隊環境的存取權。 如需有關 Azure 同意程式的詳細資訊，請參閱[Microsoft 身分識別平臺端點中的許可權和同意](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent)。
 
 ### <a name="schedule"></a>表
 

@@ -12,17 +12,17 @@ f1.keywords:
 localization_priority: Normal
 ms.custom:
 - Strat_SB_Admin
-- seo-marvel-mar2020
+- seo-marvel-apr2020
 ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection:
 - M365-collaboration
 description: 請閱讀本主題，以瞭解如何使用 Exchange 內部部署在混合式環境中部署 Microsoft 團隊聊天室的相關資訊。
-ms.openlocfilehash: 0efed0a07024f0f1fcfeea7168c4f78c66fecd64
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 39e78b914edb547737ed75c20191dd9beba242c6
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141006"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905295"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>使用 Exchange 內部部署來部署 Microsoft 團隊聊天室
 
@@ -175,14 +175,14 @@ Microsoft 提供[SkypeRoomProvisioningScript. ps1](https://go.microsoft.com/fwli
 
 針對驗證，您應該可以使用任何用戶端登入此帳戶。
   
-## <a name="see-also"></a>另請參閱
+## <a name="related-topics"></a>相關主題
 
 [設定 Microsoft 團隊聊天室的帳戶](rooms-configure-accounts.md)
 
-[規劃 Microsoft 團隊聊天室](rooms-plan.md)
+[規劃 Microsoft Teams 會議室](rooms-plan.md)
   
-[部署 Microsoft 團隊聊天室](rooms-deploy.md)
+[部署 Microsoft Teams 會議室](rooms-deploy.md)
   
-[設定 Microsoft 團隊聊天室主控台](console.md)
+[設定 Microsoft Teams 會議室主控台](console.md)
   
-[管理 Microsoft 團隊聊天室](rooms-manage.md)
+[管理 Microsoft Teams 會議室](rooms-manage.md)

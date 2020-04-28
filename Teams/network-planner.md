@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: svemu
 audience: admin
-description: 瞭解如何使用網路 Planner 來判斷 Microsoft 團隊的網路需求。
+description: 系統管理員可以瞭解如何使用網路 Planner 來判斷 Microsoft 團隊的網路需求。
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -18,14 +18,15 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.networkplanner.overview
 - ms.teamsadmincenter.networkplanner.personas
+- seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e27979bc4f440fee58f97ffb647cdd5465fb326
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 4a4676349dab9c7b587e63dcc9a538c9f0b43a80
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41832703"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904795"
 ---
 # <a name="use-the-network-planner-for-microsoft-teams"></a>使用 Microsoft 團隊的網路 Planner
 
@@ -56,7 +57,7 @@ ms.locfileid: "41832703"
 
 4. 選取此角色將在組織中使用的許可權。
 
-5. 按一下 [**儲存**]。
+5. 按一下 [儲存]****。
 
 ## <a name="build-your-plan"></a>建立您的計畫
 
@@ -85,7 +86,7 @@ ms.locfileid: "41832703"
       > [!NOTE]
       > 您必須新增 WAN 和網際網路容量數位，才能查看您產生報告時的特定頻寬建議。
 
-    4. 按一下 [**儲存**]。
+    4. 按一下 [儲存]****。
 
 ## <a name="create-a-report"></a>建立報表
 
@@ -101,7 +102,7 @@ ms.locfileid: "41832703"
     - 含個別計算的表格將會顯示每個允許活動的頻寬需求。
     - [其他] 視圖會以建議顯示整體頻寬需求。
 
-4. 按一下 [**儲存**]。 您可以在報表清單中使用您的報表，以供日後查看。
+4. 按一下 [儲存]****。 您可以在報表清單中使用您的報表，以供日後查看。
 
 ## <a name="example-scenario"></a>範例案例
 

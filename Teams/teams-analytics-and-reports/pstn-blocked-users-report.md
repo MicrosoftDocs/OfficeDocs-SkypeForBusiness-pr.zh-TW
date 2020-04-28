@@ -16,19 +16,19 @@ MS.collection:
 description: 使用 Microsoft 團隊系統管理中心中的 PSTN 封鎖使用者報告，以瞭解貴組織的小組使用者是否已封鎖進行 PSTN 通話。
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: e6055533138f08bafbdc9c39b03350612075840f
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 511485fa156ba448368809edf54728ada1b80be7
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140684"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904905"
 ---
 # <a name="microsoft-teams-pstn-blocked-users-report"></a>Microsoft 團隊 PSTN 封鎖的使用者報告
 
 Microsoft 團隊系統管理中心的 PSTN 封鎖的使用者報告會顯示您組織中被封鎖在團隊中進行 PSTN 通話的使用者。 您可以查看每個封鎖使用者的詳細資訊，包括其指派的電話號碼，以及他們被封鎖撥打的原因。
 
-## <a name="view-the-report"></a>查看報表
+## <a name="view-the-pstn-blocked-users-report"></a>查看 PSTN 封鎖的使用者報告
 
 在 Microsoft [團隊管理中心] 的左導覽中，按一下 [**分析] & 報告** > **使用方式報告**。 在 [**查看報表**] 索引標籤的 [**報表**] 底下，選取 [ **PSTN 封鎖的使用者**]，然後按一下 [**執行報表**]。
 
@@ -36,7 +36,7 @@ Microsoft 團隊系統管理中心的 PSTN 封鎖的使用者報告會顯示您�
 
 ## <a name="interpret-the-report"></a>解讀報表
 
-|圖說文字 |描述  |
+|圖說文字 |說明  |
 |--------|-------------|
 |**1**   |每個報告都有產生的日期。 報告通常會反映來自啟用時間的24到48小時延遲時間。 |
 |**2**   |X 軸是日期。 Y 軸是使用者數目。 <br>將游標停留在指定日期上的點上，即可查看該日期封鎖的使用者數目。 |

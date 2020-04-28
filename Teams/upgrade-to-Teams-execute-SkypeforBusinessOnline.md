@@ -7,23 +7,25 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: dearbeen
-description: 從商務用 Skype Online 升級至團隊的考慮事項
+description: 瞭解如何從商務用 Skype Online deployement 將您的組織升級至 Microsoft 團隊。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom:
+- Teams-upgrade-guidance
+- seo-marvel-apr2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 03eda4a90cc90eed38e6a1f6bb6ff6751291ffc1
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: 37deecdbff083718dcb5b8a16e77ac8da4b998ff
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706623"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905355"
 ---
 # <a name="upgrade-from-skype-for-business-online-to-teams"></a>從商務用 Skype Online 升級至團隊
 
@@ -42,7 +44,7 @@ ms.locfileid: "42706623"
 如果您已部署商務用 Skype Online，且想要將您的使用者從商務用 Skype 升級至小組，請遵循本文中的指導方針。 您可以根據貴組織所選擇的升級歷程，將適當的共存和升級模式指派給您的使用者，以有選擇性或全式方式升級使用者。
 
 > [!IMPORTANT]
-> 商務用 Skype Online 將于2021年7月31日停用，之後就不能再存取或支援。 若要最大限度取得效益並確保貴組織有適當的時間來實施升級，我們鼓勵您立即開始將您的遷移到 Microsoft 團隊。 請記住，成功的升級會將技術與使用者的就緒性相符，因此請務必在您向 Microsoft 團隊流覽您的旅程時，在本文中利用指導方針。
+> 商務用 Skype Online 將於 2021 年 7 月 31 日淘汰，之後將無法再存取也不再受支援。 若要最大限度取得效益並確保貴組織有適當的時間來實施升級，我們鼓勵您立即開始將您的遷移到 Microsoft 團隊。 請記住，成功的升級會將技術與使用者的就緒性相符，因此請務必在您向 Microsoft 團隊流覽您的旅程時，在本文中利用指導方針。
 
 ## <a name="assign-the-coexistence-and-upgrade-mode"></a>指派共存與升級模式
 

@@ -10,27 +10,29 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: 深入瞭解如何在 Microsoft 團隊中組織團隊和頻道。
+description: 深入瞭解如何在 Microsoft 團隊中組織團隊和頻道，以及如何使用團隊來驅動跨組織共同作業。
 f1.keywords:
 - CSH
-ms.custom: Adopt
+ms.custom:
+- Adopt
+- seo-marvel-apr2020
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 52a3f29869320992840ab8aebd17453485eec662
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: e59cb13759e078ae9686396635f41bd95fce90b8
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779589"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904935"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>瞭解 Microsoft 團隊中的團隊和頻道
 
 團隊和頻道的概念是 Microsoft 團隊良好、高效實施的基礎。 
 
-- 小組是共同作業的人員、內容和工具集合，共同為您的公司產生商業成果。 團隊是以 Microsoft 365 群組為基礎，且變更 Office 365 群組成員資格同步處理至小組。 
+- 小組是共同作業的人員、內容和工具集合，共同為您的公司產生商業成果。 Teams 的建置基礎為 Microsoft 365 群組，因此 Office 365 群組成員資格的變更會同步至團隊。 
 
 - [頻道] 是指小組中的共同作業空間，實際工時已完成。 
 

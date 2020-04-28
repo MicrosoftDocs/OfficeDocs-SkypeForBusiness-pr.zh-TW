@@ -19,14 +19,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
-- seo-marvel-mar2020
+- seo-marvel-apr2020
 description: 瞭解如何將會議 ID 指派給 Microsoft 團隊中的使用者，以及會議 Id 參數的用途。
-ms.openlocfilehash: 7c4b9614843f353438630892574c25576913d24b
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 66d67693970f03326ae2acb58ba40310f567a370
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140936"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905615"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-microsoft-teams"></a>在 Microsoft 團隊中查看及重設指派給使用者的會議 ID
 
@@ -34,7 +34,7 @@ ms.locfileid: "43140936"
   
 雖然系統會自動建立會議 ID 並將其指派給使用者，但有時候使用者不想要使用此識別碼，而且您想要將它設定為特定的數位，或是您的使用者無法記住或遺失其會議 ID。 您可以使用 Microsoft 團隊系統管理中心或 Windows PowerShell 來查看、變更及重設其會議 ID。
   
-系統會傳送電子郵件給使用者，並提供會議 ID 和預設的音訊會議電話號碼; 或者，如果您重設會議 ID，就會傳送不同的電子郵件，並包含會議 ID，但不包含 PIN。 如需重設會議召集人 PIN 的詳細資訊，請[移至這裡](reset-a-conference-id-for-a-user-in-teams.md)。 
+系統會傳送電子郵件給使用者，並提供會議 ID 和預設的音訊會議電話號碼; 或者，如果您重設會議 ID，就會傳送不同的電子郵件，並包含會議 ID，但不包含 PIN。 如需如何重設會議召集人的 PIN 的詳細資訊，請參閱[重設為 Microsoft 團隊使用者的會議 ID](reset-a-conference-id-for-a-user-in-teams.md) 。 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -100,4 +100,3 @@ Windows PowerShell 全部說明如何管理使用者，以及允許或不允許�
 ## <a name="related-topics"></a>相關主題
 
 [試用或購買 Office 365 的音訊會議](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
-

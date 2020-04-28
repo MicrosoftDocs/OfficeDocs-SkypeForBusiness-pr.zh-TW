@@ -13,15 +13,16 @@ f1.keywords:
 - NOCSH
 ms.reviewer: crowe
 search.appverid: MET150
-description: '[通話方案] 登陸頁面'
+description: 決定哪一種 Microsoft 手機系統通話方案最適合您在小組中的雲端語音提供您的組織。
+ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c62ce8a891244920257623aea9a62859161a129f
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 4b1fb0abed3477039f4c19c0e2de0ea696626f35
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825191"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905025"
 ---
 # <a name="which-calling-plan-is-right-for-you"></a>哪一個通話方案適合您？ 
 

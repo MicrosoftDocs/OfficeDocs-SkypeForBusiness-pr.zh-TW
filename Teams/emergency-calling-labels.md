@@ -19,14 +19,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
-- seo-marvel-mar2020
-description: 當您使用 Office 365 中的通話方案時，您可以下載這些標籤以進行緊急通話。
-ms.openlocfilehash: 4ce43ce30535f1210643c33d087671afc3413ee2
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+- seo-marvel-apr2020
+description: 當您使用 Office 365 中的通話方案時，您可以下載及列印這些標籤，以進行緊急通話。
+ms.openlocfilehash: d092d94ac6ca2288a2cb6a5a0dac6a8b49fb0967
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141246"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904308"
 ---
 # <a name="emergency-calling-labels"></a>緊急通話標籤
 

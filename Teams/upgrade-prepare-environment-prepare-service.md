@@ -7,23 +7,25 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: dearbeen
-description: 使用此指導方針來準備您的租使用者小組部署和推出
+description: 瞭解如何為您的組織準備與團隊共同作業和雲端語音服務的需求。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom:
+- Teams-upgrade-guidance
+- seo-marvel-apr2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8b9e55a4189556c69e93c86286dd1b9b585bb726
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: b51897aa0c135f13a0f7950576665527d5dbc834
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706883"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905245"
 ---
 # <a name="prepare-your-service-for-upgrading-to-teams"></a>準備您的服務以升級至小組
 

@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: ''
 search.appverid: MET150
-description: 瞭解如何安裝和設定 Microsoft 團隊的 Moodle 整合應用程式
+description: 瞭解如何安裝和設定適用于 Microsoft 團隊的 Moodle 開啟來源學習管理系統（LMS）應用程式。
 keywords: 團隊 Moodle 應用程式整合外掛程式
 localization_priority: Normal
 f1.keywords:
@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 90ce02e773d20759b90ea090123823b6bf94d9ee
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 984aecea4ca0be3e35a4c5eb6d09e6d3b3e49a4b
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779619"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904358"
 ---
 # <a name="installing-the-moodle-integration-with-microsoft-teams"></a>安裝 Moodle 整合與 Microsoft 團隊
 

@@ -8,22 +8,23 @@ ms.service: msteams
 audience: admin
 ms.reviewer: daryav
 search.appverid: MET150
-description: 深入瞭解團隊中的系統管理功能。
+description: 瞭解誰可以免費管理團隊中的使用者，以及瞭解各種團隊方案之間的差異。
 localization_priority: Normal
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
+- seo-marvel-apr2020
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bb766eb7f1e5e8ef98afc540bdbb5264877b8142
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 0d8d7edb5710883c7725a0784819d3a35c1c2f2f
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780032"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905095"
 ---
 <a name="manage-the-free-version-of-microsoft-teams"></a>管理免費的 Microsoft 團隊版本
 ==========================================

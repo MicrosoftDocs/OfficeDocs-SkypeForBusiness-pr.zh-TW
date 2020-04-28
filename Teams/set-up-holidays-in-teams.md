@@ -16,14 +16,16 @@ appliesto:
 localization_priority: Normal
 f1.keywords:
 - CSH
-ms.custom: ms.teamsadmincenter.orgwidesettings.holidays.overview
-description: 瞭解如何在 Microsoft 團隊中設定假日，以及將其連線至您的自動語音應答。
-ms.openlocfilehash: dc156b2c2ae0a71ae7cdb1282676f47c7ba648bc
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom:
+- ms.teamsadmincenter.orgwidesettings.holidays.overview
+- seo-marvel-apr2020
+description: 瞭解如何在 Microsoft 團隊中設定假日，以及使用 [假日] 功能將其連線至您的自動語音應答。
+ms.openlocfilehash: 531b2ff6c9fedcab7710fbab3ac9bd69d615ab73
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838013"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905575"
 ---
 # <a name="set-up-holidays-in-microsoft-teams"></a>在 Microsoft 團隊中設定假日
 

@@ -24,13 +24,14 @@ ms.custom:
 - O365P_E5Voiceplandetails
 - Licensing
 - LIL_Placement
+- seo-marvel-apr2020
 description: '瞭解商務用 Skype 選項的通話方案（PSTN 通話方案），以及如何取得貴組織的授權。 '
-ms.openlocfilehash: 81bf7febe1bece1482c9e882632c6b6bde512207
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: c7e3d405e82613de8cfe5313c6dd93c0b5c29e0a
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779942"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905015"
 ---
 # <a name="calling-plans-for-microsoft-365"></a>Microsoft 365 通話方案
 
@@ -42,7 +43,7 @@ ms.locfileid: "43779942"
     
 - **國內和國際通話方案**：授權的使用者可以撥出其 Office 365 授權根據使用者的位置指派給使用者的國家/地區，以及[196 國家/地區](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md)的國際電話號碼。
     
-每個組織的可用每月通話分鐘數，且每個國家/地區都位於[這裡](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
+造訪[國家/地區的可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，找出每個國家/地區的每個組織可使用的每月通話分鐘數。
   
 > [!IMPORTANT]
 > [國家/地區] 是以**microsoft 365 系統管理中心** > [作用中**使用者**] 的使用者授權位置為基礎，而**不**是以**microsoft 365 系統管理中心**[**組織設定檔**] 底下所列的帳單位址為基礎。   

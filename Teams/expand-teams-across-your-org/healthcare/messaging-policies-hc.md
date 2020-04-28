@@ -16,20 +16,20 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: 開始使用適用於醫療保健組織的 Secure Messaging
+description: 瞭解如何自訂可包含讀信回條及優先順序通知的安全訊息原則。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f2b431eb28d2f475bc8abdf6ac05db760200d40e
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 95a4d258f35827d4ad30ee1e6b2938e6331efcc2
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136983"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905525"
 ---
 # <a name="get-started-with-secure-messaging-for-healthcare-organizations"></a>開始使用適用於醫療保健組織的 Secure Messaging
 
 郵件服務原則是用來控制 Microsoft 團隊使用者可以使用的聊天和通道訊息功能，而且是整個部署安全訊息（例如醫院、診所或醫生的辦公室），在這種情況下，無論閱讀重要訊息的時間為何，都能及時挑選並採取行動。
 
-您可以使用全域（組織範圍預設值）原則，或針對貴組織中的人員建立一或多個自訂的訊息原則。 除非您建立並指派自訂原則，否則貴組織中的使用者會自動取得全域原則。 在您建立自訂原則之後，請指派給它一個使用者或貴組織中的一組使用者。 例如，您可以選擇只允許特定工作角色使用這些功能（例如醫生和護士）及其他工人（例如 janitorial 或廚房教職員），以取得更有限的功能集。 自己決定貴組織的需求為何，以下是最常提出的建議。
+您可以使用全域（組織範圍預設值）原則，或針對貴組織中的人員建立一或多個自訂的訊息原則。 除非您建立並指派自訂原則，否則貴組織中的使用者將會自動取得全域原則。 在您建立自訂原則之後，請指派給它一個使用者或貴組織中的一組使用者。 例如，您可以選擇只允許特定工作角色使用這些功能（例如醫生和護士）及其他工人（例如 janitorial 或廚房教職員），以取得更有限的功能集。 自己決定貴組織的需求為何，以下是最常提出的建議。
 
 您可以使用系統管理員認證登入，然後在左側流覽窗格中選擇 [**訊息原則**]，輕鬆地在[Microsoft [小組管理中心](https://admin.teams.microsoft.com)] 中管理原則。
 

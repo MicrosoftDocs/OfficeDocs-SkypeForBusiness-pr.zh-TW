@@ -8,23 +8,24 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: jatpatel
-description: 針對 Surface Hub 設定 Microsoft 團隊的管理員設定。
+description: 瞭解如何安裝和設定 Surface Hub 應用程式的團隊，讓團隊成為預設通話與會議應用程式。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
 ms.custom:
 - Devices
+- seo-marvel-apr2020
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5634c4ac5e5955d099555cce4f74b57a527662e9
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 589bbfe75f0beea88066b5a6188b1d29c98ddd5f
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836933"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905645"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>部署適用于 Surface Hub 的 Microsoft 團隊
 ======================================
@@ -41,7 +42,7 @@ ms.locfileid: "41836933"
 下列指示適用于從 Microsoft 網上商店安裝 Surface Hub 的小組。 
  
 1. 啟動 Microsoft Store：<br>
-   是. 按一下 [**開始** > **所有應用程式** > **設定**]。<br> 乙. 攻絲**Surface Hub 裝置帳戶、管理**。<br>
+   a. 按一下 [**開始** > **所有應用程式** > **設定**]。<br> b. 攻絲**Surface Hub 裝置帳戶、管理**。<br>
    c-clip. 在左邊，輕觸 [ **app & 功能**] 索引標籤。<br> 希望. 在右側，請敲擊 [**開啟商店**] 按鈕。 
 2. 從 Microsoft 網上商店搜尋*Microsoft 團隊*。 隨即會顯示 [ **Surface Hub** ] 的 Microsoft [小組]。 輕觸 [**取得 app** ] 按鈕即可進行安裝。  
 3. 安裝完成後，請重新開機 Surface Hub。 
@@ -81,17 +82,17 @@ ms.locfileid: "41836933"
 
 使用下列選項，透過 Intune 設定預設通話與會議應用程式原則。 另請參閱[使用 Intune 部署 Microsoft 團隊的 Surface Hub 應用程式](https://y0av.me/2018/07/16/deploy-the-microsoft-teams-for-surface-hub-app-using-intune/)。
 
-|正在   |值    |說明    |
+|設定   |值    |說明    |
 |----------|---------|---------|
 |路徑      | ./Vendor/MSFT/SurfaceHub/Properties/SurfaceHubMeetingMode        |
 |資料類型 | integer （0-2）   |0-[開始] 畫面上的 Skype 慣用 app，[團隊會議] 可供使用<br>1-[開始] 畫面上的 [團隊喜好] app，提供 Skype 會議<br>2-[開始] 畫面上的 [團隊專用] 應用程式（Skype app 無法使用） |
-|作業| 取得、設定        |
+|營運| 取得、設定        |
 
-|正在   |值    |
+|設定   |值    |
 |----------|---------|
 |路徑      | ./Vendor/MSFT/SurfaceHub/Properties/VtcAppPackageId        |
 |資料類型 | 字串-將 [團隊應用程式套件識別碼] 設定為「 **Microsoft MicrosoftTeamsforSurfaceHub_8wekyb3d8bbwe！」。團隊** |
-|作業| 取得、設定        |
+|營運| 取得、設定        |
 
 重新開機 Surface Hub 裝置。 裝置重新開機之後，您應該能夠從 [開始] 畫面啟動 [團隊] app，然後從行事曆加入會議。
 

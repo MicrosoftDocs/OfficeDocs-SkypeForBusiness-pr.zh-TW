@@ -12,15 +12,16 @@ ms.reviewer: nakulm
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 如何在 Microsoft 團隊中開啟與管理會議錄製。
+description: 在團隊中部署雲端語音功能以錄製小組會議與群組通話以捕獲音訊、影片和螢幕共用活動的實用指導方針。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f358a0099da3f759e50f02b7bb7a5226069fcd28
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: e38b7fcfdbe8789604716410beca3c5d76975c29
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780332"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905495"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 雲端會議錄製
 
@@ -30,7 +31,7 @@ ms.locfileid: "43780332"
 
 ## <a name="prerequisites-for-teams-cloud-meeting-recording"></a>Teams 雲端會議錄製的必要條件
 
-若要錄製 Teams 使用者的會議，必須啟用該租用戶的 Microsoft Stream。 此外，會議召集人和啟動錄製的人員都需要符合下列必要條件：
+若要錄製小組使用者的會議，必須針對租使用者啟用 Microsoft Stream。 此外，會議召集人和啟動錄製的人員都需要符合下列必要條件：
 
 - 使用者有 Office 365 E1、E3、E5、A1、A3、A5、M365 商務版、商務進階版或商務基本版
 - 使用者需要獲得 Microsoft Stream 的授權<sup>1</sup> 

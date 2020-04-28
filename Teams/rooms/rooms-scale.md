@@ -12,11 +12,11 @@ f1.keywords:
 localization_priority: Normal
 ms.custom:
 - Strat_SB_Admin
-- seo-marvel-mar2020
+- seo-marvel-apr2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 ms.collection:
 - M365-collaboration
-description: 請閱讀本主題，瞭解如何在大規模部署中部署 Microsoft 團隊會議室。
+description: 瞭解如何使用 Microsoft 端點設定管理員部署大型部署的 Microsoft 團隊會議室。
 no-loc:
 - Microsoft
 - Microsoft Corporation
@@ -34,12 +34,12 @@ no-loc:
 - Azure Monitor
 - Log Analytics
 - Operations Management Suite
-ms.openlocfilehash: 04d5945e042293ad0cb1597307fd4a2b596bee39
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: f96b970165996cc27308ce616fb4875d741f8869
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141016"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905315"
 ---
 # <a name="deploy-microsoft-teams-rooms-by-using-microsoft-endpoint-configuration-manager"></a>使用 Microsoft 端點 Configuration Manager 部署 Microsoft 團隊聊天室
 
@@ -728,7 +728,7 @@ Surface Pro 和 Surface Pro 4 都支援 Microsoft 球隊會議室。 您需要�
 
     5.  選取 [**啟動配置**]。
 
-    6.  請執行下列其中一項操作：
+    6.  執行下列其中一項動作：
 
         -   選取 [ **PXE 引導**]，然後將它拖曳到清單頂端。 或者，您可以在網路介面卡上向左滑動，立即引導至裝置。 這不會影響啟動順序。
         -   選取裝有啟動媒體的 USB 快閃記憶體磁片磁碟機。

@@ -10,21 +10,23 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: 瞭解如何使用產品推動團隊採用。
+description: 瞭解如何透過團隊管理 Office 365 部署來促進團隊採用，包括如何將金鑰資源釘選到適當頻道中的索引標籤。
 f1.keywords:
 - CSH
-ms.custom: Adopt
+ms.custom:
+- Adopt
+- seo-marvel-apr2020
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 69cfb557f04644c1bb54d78ae24a8110d42ee8a0
-ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
+ms.openlocfilehash: 0b1a22c76cd2a9ef9ca5d4be667cbfebe8a19b62
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "42551030"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904925"
 ---
 # <a name="create-your-first-teams-in-microsoft-teams"></a>在 Microsoft 團隊中建立您的第一個團隊
 
@@ -55,7 +57,7 @@ ms.locfileid: "42551030"
 | 訓練 | 自訂學習訓練入口網站 <br/> [團隊線上訓練](https://aka.ms/TeamsTraining) |
 | **團隊合作擁護**|  |
 | 一般 | 用於程式宣告 <br/> Pin 擁護者計畫概述 |
-| 最佳作法 | 團隊、頻道和聊天版 PowerPoint 的最佳做法 <br/> 小組生命週期 |
+| 最佳做法 | 團隊、頻道和聊天版 PowerPoint 的最佳做法 <br/> 小組生命週期 |
 | 擁護者角落 | 會議筆記和簡報 |
 | 社交中心 | RSS 連接器：團隊博客和推動採納的博客 |
 | 訓練與做法 | 您的訓練入口網站連結 |

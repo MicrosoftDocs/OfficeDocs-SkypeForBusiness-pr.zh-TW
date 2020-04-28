@@ -15,13 +15,14 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: 請閱讀本文，找出直接路由的媒體路徑國家/地區代碼。
-ms.openlocfilehash: 4d3e19ceeab48e7ade6ffa9b51bff68f38613426
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+description: 請閱讀本文，找出直接路由的媒體路徑國家/地區代碼，讓您可以選取最佳媒體路徑。
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 69265e797b256186f714e2cd4dcefcb3751c05ee
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836093"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904805"
 ---
 # <a name="direct-routing-media-path-country-codes"></a>直接路由媒體路徑國家/地區代碼
 
@@ -48,18 +49,18 @@ CSOnlinePSTNGateway-身分識別 sbc1.contoso.com – MediaRelayRoutingLocationO
 | 美屬薩摩亞  | 完工 |
 | 安道爾         | 特定 |
 | 安哥拉          | AO |
-| Anguilla        | AI |
+| 安奎拉        | AI |
 | Antarctica      | AQ | 
 | 安地卡及巴布達 | 證券交易所 |
 | 阿根廷       | AR |
 | 亞美尼亞         | 為何 |
-| Aruba           | AW |
+| 荷屬阿魯巴           | AW |
 | 澳洲       | X |
 | 奧地利         | 的 |
 | 亞塞拜然      | AZ |
 | 巴哈馬         | BS |
 | 巴林         | BH |
-| 孟加拉國      | 過 |
+| 孟加拉      | 過 |
 | 巴貝多        | BB |
 | 白俄羅斯         | 按照 |
 | 比利時         | 不必 |
@@ -69,8 +70,8 @@ CSOnlinePSTNGateway-身分識別 sbc1.contoso.com – MediaRelayRoutingLocationO
 | 不丹          | BT |
 | 玻利維亞         | 標 |
 | 波奈         | BQ |
-| 波士尼亞和黑塞哥維那 | BA |
-| 博茨瓦納        | 黑白 |
+| 波士尼亞與赫塞哥維納 | BA |
+| 波札那        | 黑白 |
 | Bouvet 島   | BV |
 | 巴西          | < |
 | 英屬印度洋領土 | 輸出 |
@@ -91,13 +92,13 @@ CSOnlinePSTNGateway-身分識別 sbc1.contoso.com – MediaRelayRoutingLocationO
 | 聖誕島 | 陣列 |
 | 科科斯（奇林）群島 | 單 |
 | 哥倫比亞        | 條 |
-| 群島         | 公里 |
+| 葛摩         | 公里 |
 | 剛果           | CG |
 | 剛果（金）     | CD |
 | 庫擁有群島    | CK |
 | 哥斯大黎加      | CR |
 | 象牙海岸   | CI |
-| 克羅埃西亞         | 部門 |
+| 克羅埃西亞         | 人力資源 |
 | 古巴            | CU |
 | Curacao         | 時針 |
 | 賽普勒斯          | CY |
@@ -105,15 +106,15 @@ CSOnlinePSTNGateway-身分識別 sbc1.contoso.com – MediaRelayRoutingLocationO
 | 丹麥         | 深 |
 | 吉布地        | DJ |
 | 多米尼克        | 矩陣 |
-| 多明尼加共和國 | 請 |
+| 多明尼加 | 請 |
 | 厄瓜多         | 成員國 |
 | 埃及           | 例如 |
 | 薩爾瓦多     | SV |
 | 赤道幾內亞 | GQ |
-| 省         | ER |
+| 厄利垂亞         | ER |
 | 愛沙尼亞         | EE |
 | Eswatini        | SZ |
-| 埃塞俄比亞        | ET |
+| 衣索比亞        | ET |
 | 福克蘭群島 | FK |
 | 法羅群島   | FO |
 | 斐濟            | FJ |
@@ -129,15 +130,15 @@ CSOnlinePSTNGateway-身分識別 sbc1.contoso.com – MediaRelayRoutingLocationO
 | 迦納           | GH |
 | 直布羅陀       | GI |
 | 希臘          | 凍結 |
-| 東部       | 總帳 |
+| 格陵蘭       | 總帳 |
 | 格瑞那達         | GD-GB&PLATFORM |
-| Guadeloupe      | GP |
+| 瓜地洛普      | GP |
 | 關島            | GU |
 | 瓜地馬拉       | T |
 | Guernsey        | GG |
-| 新幾內亞          | GN |
+| 幾內亞          | GN |
 | 幾內亞比索   | 網 |
-| 蓋亞納          | GY |
+| 蓋亞那          | GY |
 | 海地           | 你好 |
 | 赫德島與麥克唐納群島 | HM |
 | 宏都拉斯        | HN |
@@ -163,7 +164,7 @@ CSOnlinePSTNGateway-身分識別 sbc1.contoso.com – MediaRelayRoutingLocationO
 | 韓國           | KR |
 | Kosovo          | XK |
 | 科威特          | KW |
-| 吉爾吉斯斯坦      | 千克 |
+| 吉爾吉斯      | 千克 |
 | 老撾            | LA |
 | 拉脫維亞          | LV-LV&PLATFORM |
 | 黎巴嫩         | LB |
@@ -178,20 +179,20 @@ CSOnlinePSTNGateway-身分識別 sbc1.contoso.com – MediaRelayRoutingLocationO
 | 馬拉威          | MW |
 | 馬來西亞        | 我的帳戶 |
 | 群島        | MV |
-| 馬里            | ML-IN&PLATFORM |
+| 馬利            | ML-IN&PLATFORM |
 | 馬爾他           | 黑體 |
 | 馬紹爾群島 | MH |
-| 島      | .MQ |
+| 馬丁尼克      | .MQ |
 | 茅利塔尼亞      | 先生 |
 | 模里西斯       | MU |
-| Mayotte         | YT |
+| 馬約特島         | YT |
 | 墨西哥          | MX |
-| Micronesia      | 電臺 |
+| 密克羅尼西亞      | 電臺 |
 | 摩爾多瓦         | 醫師 |
 | 摩納哥          | MC |
 | 蒙古        | MN |
 | 蒙特內哥羅      | 我 |
-| Montserrat      | 隸書 |
+| 蒙哲臘      | 隸書 |
 | 摩洛哥         | 購 |
 | 莫三比克      | MZ |
 | 緬甸         | 年 |
@@ -199,21 +200,21 @@ CSOnlinePSTNGateway-身分識別 sbc1.contoso.com – MediaRelayRoutingLocationO
 | Nauru           | NR |
 | 尼泊爾           | 站 |
 | 荷蘭     | NL-NL&PLATFORM |
-| 新赫里多尼亞   | NC |
+| 新喀里多尼亞   | NC |
 | 紐西蘭     | NZ |
 | 尼加拉瓜       | NI |
-| 尼日爾           | 左下 |
+| 尼日           | 左下 |
 | 奈及利亞         | NG |
 | Niue            | NU |
 | 諾福克島  | NF-E |
 | 朝鮮     | KP |
 | 北馬其頓共和國 | MK |
-| 北馬里安納群島 | 站 |
+| 北馬利安納群島 | 站 |
 | 挪威          | 不 |
 | 阿曼            | 模型 |
 | 巴基斯坦        | 主鍵 |
-| Palau           | PW |
-| 巴勒斯坦權力機構 | PS-AF&PLATFORM |
+| 帛琉           | PW |
+| 巴勒斯坦民族權力機構 | PS-AF&PLATFORM |
 | 巴拿馬          | 賓夕法尼亞 |
 | 巴布亞紐幾內亞 | PG |
 | 巴拉圭        | .PY |
@@ -224,7 +225,7 @@ CSOnlinePSTNGateway-身分識別 sbc1.contoso.com – MediaRelayRoutingLocationO
 | 葡萄牙        | PT |
 | 波多黎各     | / |
 | 卡達           | QA |
-| 留尼旺島         | 重新 |
+| 留尼汪         | 重新 |
 | 羅馬尼亞         | RO |
 | 俄羅斯          | RU |
 | 盧安達          | 燒錄 |
@@ -234,7 +235,7 @@ CSOnlinePSTNGateway-身分識別 sbc1.contoso.com – MediaRelayRoutingLocationO
 | 聖露西亞     | LC-FC |
 | 聖聖馬丁    | 大型機 |
 | 聖匹島 | 經理 |
-| 聖文森特和格林納丁斯群島St.Vincent | VC |
+| 聖文森及格瑞那丁 | VC |
 | 美屬薩摩亞           | WS |
 | 聖馬利諾      | 購買 |
 | 聖多美聖多美及普林西比島 | 短期 |
@@ -263,17 +264,17 @@ CSOnlinePSTNGateway-身分識別 sbc1.contoso.com – MediaRelayRoutingLocationO
 | 瑞士     | 48 |
 | 敘利亞           | SY |
 | 台灣          | 華文 |
-| 塔吉克斯坦      | TJ |
+| 塔吉克      | TJ |
 | 聯合        | TZ |
 | 泰國        | K |
 | 東帝汶-Leste     | TL |
-| Togo            | TG |
+| 多哥            | TG |
 | Tokelau         | TK-TM&PLATFORM |
 | 語           | 自 |
-| 特立尼達和多巴哥 | TT-RU&PLATFORM |
+| 千里達及托巴哥 | TT-RU&PLATFORM |
 | 突尼西亞         | TN-ZA&PLATFORM |
 | 土耳其          | TR |
-| 土庫曼斯坦    | 153 |
+| 土庫曼    | 153 |
 | 特克斯與凱科斯群島 | 目錄 |
 | Tuvalu          | 播放 |
 | 美屬離島 | 嗯 |
@@ -284,7 +285,7 @@ CSOnlinePSTNGateway-身分識別 sbc1.contoso.com – MediaRelayRoutingLocationO
 | 英國  | GB |
 | 美國   | 一下 |
 | 烏拉圭         | UY |
-| 烏茲別克斯坦      | UZ |
+| 烏茲別克      | UZ |
 | 瓦努阿圖         | VU |
 | 梵蒂岡城    | VA |
 | 委內瑞拉       | 曾 |

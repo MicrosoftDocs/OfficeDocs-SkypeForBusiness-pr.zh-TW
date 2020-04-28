@@ -16,18 +16,19 @@ ms.collection:
 description: 瞭解如何使用 Microsoft 團隊系統管理中心的 [小組使用者活動] 報告，查看貴組織中的使用者使用團隊的方式。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d2e6d747afdf5dc5d381c11c83521e8a56ee38fe
-ms.sourcegitcommit: f4beced1a74d123253e166c7d402c1f24653d452
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 9516c7ed39a56e09bb714f58e988dc46b41ec9e2
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43528428"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43903868"
 ---
 # <a name="microsoft-teams-user-activity-report"></a>Microsoft 團隊使用者活動報告
 
 [團隊使用者活動] 報告可讓您深入瞭解貴組織中的使用者在團隊中執行的活動類型。 例如，您可以查看有多少使用者透過1:1 通話進行通訊，以及多少使用者透過通道訊息通訊，以及有多少使用者參與私人聊天訊息。
 
-## <a name="view-the-report"></a>查看報表
+## <a name="view-the-user-activity-report"></a>查看使用者活動報告
 
 1. 在 Microsoft [團隊管理中心] 的左導覽中，按一下 [**分析] & 報告** > **使用方式報告**。 在 [**查看報表**] 索引標籤的 [**報表**] 底下，選取 [**團隊使用者活動**]。
 2. 在 [**日期範圍**] 底下，選取一個範圍，然後按一下 [**執行報表**]。
@@ -36,7 +37,7 @@ ms.locfileid: "43528428"
 
 ## <a name="interpret-the-report"></a>解讀報表
 
-|圖說文字 |描述  |
+|圖說文字 |說明  |
 |--------|-------------|
 |**1**   |您可以針對過去7天、28或90天的趨勢，查看團隊使用者活動報告。 |
 |**2**   |每個報告都有產生此報告的日期。 報告通常會反映來自啟用時間的24到48小時延遲時間。 |

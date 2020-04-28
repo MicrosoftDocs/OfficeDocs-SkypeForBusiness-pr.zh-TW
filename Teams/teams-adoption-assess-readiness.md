@@ -10,21 +10,23 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: 判斷您的組織是否已準備好轉移至團隊。
+description: 評估您的專案關係人，找出早期的採納者，然後評估您的組織是否已準備好轉移至團隊。
 f1.keywords:
 - CSH
-ms.custom: Adopt
+ms.custom:
+- Adopt
+- seo-marvel-apr2020
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8e7f1261857905cea3c849654fdbcf926c36026d
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 3c34494c08b6c81671c7f36e1ca76593e8d204be
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837873"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904765"
 ---
 # <a name="how-ready-is-your-organization-for-microsoft-teams"></a>貴組織為 Microsoft 團隊準備就緒了嗎？
 

@@ -16,19 +16,19 @@ MS.collection:
 description: 如何使用 Microsoft 團隊系統管理中心中的 [團隊 PSTN 分鐘數] 報告，以查看您在當月期間在貴組織內消耗的分鐘數。
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 5f44d8a48dc01b8d2cdbce9dd164d5b2440c24d8
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: d00e6f76258caad7899ddd589e037718928741e0
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140664"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904895"
 ---
 # <a name="microsoft-teams-pstn-minute-pools-report"></a>Microsoft 團隊 PSTN 分鐘池報告
 
 Microsoft [小組系統管理中心] 的 [團隊 PSTN 分鐘數] 報告可讓您在當月中，為您提供音訊會議和通話活動的概覽。 您可以查看活動的細目，包括通話所用的授權、可用的總分鐘數、使用的分鐘數，以及依位置的授權使用方式。
 
-## <a name="view-the-report"></a>查看報表
+## <a name="view-the-pstn-minute-pools-report"></a>查看 PSTN 分鐘池報告
 
 在 Microsoft [團隊管理中心] 的左導覽中，按一下 [**分析] & 報告** > **使用方式報告**。 在 [**查看報表**] 索引標籤的 [**報表**] 底下，選取 [ **PSTN minute pool**]，然後按一下 [**執行報表**]。
 
@@ -36,7 +36,7 @@ Microsoft [小組系統管理中心] 的 [團隊 PSTN 分鐘數] 報告可讓您
 
 ## <a name="interpret-the-report"></a>解讀報表
 
-|圖說文字 |描述  |
+|圖說文字 |說明  |
 |--------|-------------|
 |**1**   |每個報告都有產生的日期。 報告通常會反映來自啟用時間的24到48小時延遲時間。 |
 |**2**   |按一下功能（授權）來查看該功能的活動。 |

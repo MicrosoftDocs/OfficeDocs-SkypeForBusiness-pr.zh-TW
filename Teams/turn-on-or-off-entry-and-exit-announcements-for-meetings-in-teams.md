@@ -19,14 +19,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
-- seo-marvel-mar2020
-description: '瞭解如何在 Microsoft 團隊會議中開啟或關閉 [進入] 和 [結束公告]。 '
-ms.openlocfilehash: 558146853c7365a1eac9fdd2497326781889cf09
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+- seo-marvel-apr2020
+description: 系統管理員可以瞭解如何在 Microsoft 團隊會議中開啟或關閉 [進入] 和 [結束公告]。
+ms.openlocfilehash: b5c9227ad50816fecf64690b4a2de3233e7a669f
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139682"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904745"
 ---
 # <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings-in-microsoft-teams"></a>開啟或關閉 Microsoft 團隊中的會議進入與結束宣告
 

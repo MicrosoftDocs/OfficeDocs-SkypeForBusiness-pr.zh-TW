@@ -8,23 +8,23 @@ ms.service: msteams
 ms.reviewer: ''
 audience: admin
 search.appverid: MET150
-description: 瞭解如何升級免費的 Microsoft 團隊版本
+description: 透過針對您的使用者購買 Office 365 訂閱者案，瞭解如何輕鬆地從免費版本的 Microsoft 團隊升級至完整版本。
 localization_priority: Normal
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
-- seo-marvel-mar2020
+- seo-marvel-apr2020
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a96bb03a511a776e2f7e4aded5cd79f66fe2106c
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 2c760285655d9bb2557fbf981c333e1019cef379
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780442"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904448"
 ---
 # <a name="upgrade-microsoft-teams-free-to-subscription-version"></a>免費升級 Microsoft 團隊訂閱版本
 ======================================================

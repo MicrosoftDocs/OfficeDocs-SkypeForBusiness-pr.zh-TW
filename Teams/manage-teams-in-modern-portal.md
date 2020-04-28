@@ -8,22 +8,23 @@ ms.service: msteams
 audience: admin
 search.appverid: MET150
 ms.reviewer: islubin, jastark
-description: 瞭解如何在 Microsoft 團隊系統管理中心中查看或更新您的小組。
+description: 瞭解如何在 Microsoft 團隊系統管理中心中查看或更新貴組織已設定共同作業的團隊。
 localization_priority: Normal
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
+- seo-marvel-apr2020
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d07c9c1f19b86b3b95a597a52290acb2fdaa80cc
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 8c83d985a277c8341565e44878ba03385e23a358
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836265"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904995"
 ---
 <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>在 Microsoft 團隊系統管理中心管理團隊
 ==========================================
@@ -100,7 +101,7 @@ ms.locfileid: "41836265"
 - [**成員**]-新增或移除成員以及提升或降級擁有者。
 - **頻道**-新增頻道，以及編輯或移除現有頻道。 請記住，您無法刪除預設的 [一般] 頻道。
 - **團隊名稱**
-- **說明**
+- **描述**
 - **隱私權**-設定團隊是否為公用或私人。
 - **分類**-這是由您的 Office 365 群組分類所支援。 選擇 [**機密**]、[**高度機密**] 或 **[一般**]。
 - [**交談設定**]-設定成員是否可以編輯及刪除已傳送的郵件。
@@ -132,7 +133,7 @@ ms.locfileid: "41836265"
 
 6. 確認小組已正確顯示在 Microsoft 團隊系統管理中心-小組概述中。
 
-## <a name="learn-more"></a>瞭解更多資訊
+## <a name="learn-more"></a>深入了解
 
 - [團隊 Cmdlet 參考](https://docs.microsoft.com/powershell/teams/?view=teams-ps)  
 - [使用團隊管理員角色管理團隊](using-admin-roles.md)

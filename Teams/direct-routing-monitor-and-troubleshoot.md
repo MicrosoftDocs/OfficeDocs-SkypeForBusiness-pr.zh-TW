@@ -15,13 +15,14 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: 本文說明如何監視和疑難排解直接路由設定。
-ms.openlocfilehash: 5dcae4d734c146c92c0cda4ac988d6010f90cc6f
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+description: 瞭解如何監視和疑難排解直接路由設定，包括會話邊界控制器、直接路由元件，以及電信 trunks。
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 52ab594b901606ccf7c3b43fc8484d989c248fcd
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836043"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43901908"
 ---
 # <a name="monitor-and-troubleshoot-direct-routing"></a>監視和疑難排解直接路由
 

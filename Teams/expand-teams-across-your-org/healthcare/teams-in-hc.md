@@ -16,13 +16,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: 開始使用適用於醫療保健組織的 Teams
-ms.openlocfilehash: 15e10a69174787d104a990f8b71a6e8ef4f8be04
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+description: 瞭解醫療保健的功能，包括護理協調、安全的訊息、telehealth、EHR 整合，以及第一線員工 worker 系統整合。
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: b3335fa6cd5135dd30837338d762dd3b3fe8a2e7
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42147686"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905735"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>開始使用適用於醫療保健組織的 Teams
 

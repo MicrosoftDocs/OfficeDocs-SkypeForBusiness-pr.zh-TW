@@ -17,12 +17,13 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9f3f35318c2ccfdf791becba0ae67208484c883c
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 01f9ecbbce3146a2b5d36a70b485a2106f12ab6e
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779049"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43902348"
 ---
 <a name="use-activity-reports-for-microsoft-teams"></a>使用 Microsoft 團隊的活動報告 
 ========================================
@@ -54,7 +55,7 @@ ms.locfileid: "43779049"
 
 ![含編號標注的使用者活動報告螢幕擷取畫面。](media/teams-user-activity-report-with-callouts.png)
 
-|圖說文字 |描述  |
+|圖說文字 |說明  |
 |--------|-------------|
 |**1**   |您可以在過去7天、30天、90天或180天的趨勢中查看團隊使用者活動報告。 不過，如果您在報表中按一下某個特定的時間範圍，該表（7）會顯示30天內的資料，最多為產生報告的日期（2）。 |
 |**2**   |每個報告都有產生此報告的日期。 報告通常會反映來自啟用時間的24到48小時延遲時間。 |
@@ -78,7 +79,7 @@ ms.locfileid: "43779049"
 
 ![小組裝置使用方式報告的螢幕擷取畫面，編號標注。](media/teams-device-usage-report-with-callouts.png)
 
-|圖說文字 |描述  |
+|圖說文字 |說明  |
 |--------|-------------|
 |**1**   |您可以針對過去7天、30天、90天或180天的趨勢，查看團隊裝置報告。 不過，如果您在報表中按一下某個特定的時間範圍，該表（7）會顯示30天內的資料，最多為產生報告的日期（2）。 |
 |**2**   |每個報告都有產生此報告的日期。 報告通常會反映來自啟用時間的24到48小時延遲時間。 |

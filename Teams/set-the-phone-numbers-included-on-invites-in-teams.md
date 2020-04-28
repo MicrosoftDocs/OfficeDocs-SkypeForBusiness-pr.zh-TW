@@ -21,13 +21,13 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: '取得建立呼叫者的預設電話號碼以加入 Microsoft 團隊會議的步驟。 '
-ms.openlocfilehash: 6c45a28ab48add26eef8929e37e5cf60113185ea
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: 請依照下列步驟，為呼叫者加入 Microsoft 團隊會議所用的預設電話號碼。
+ms.openlocfilehash: 22950bed0b09caf96e9fc26060f466eb6c00ff30
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140896"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905595"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>在 Microsoft 團隊中設定邀請中所包含的電話號碼
 

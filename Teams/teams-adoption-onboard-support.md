@@ -10,21 +10,23 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: 讓支援人員在團隊採納的實驗階段中提供。
+description: 使用線上訓練資源，讓支援人員在團隊採納的實驗階段提供板載支援。
 f1.keywords:
 - CSH
-ms.custom: Adopt
+ms.custom:
+- Adopt
+- seo-marvel-apr2020
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cc0d48a8dae40405f0b1bbc7d3b14475276cd18b
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 81b6552f976c6a780ba01349c0ff4995b4b728c4
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837793"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904408"
 ---
 # <a name="onboard-support-for-microsoft-teams"></a>Microsoft 團隊的板載支援
 

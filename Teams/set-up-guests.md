@@ -11,25 +11,25 @@ ms.collection:
 - M365-collaboration
 ms.reviewer: sbhatta
 search.appverid: MET150
-description: 開啟或關閉 Microsoft 團隊中的來賓存取功能。
+description: 瞭解如何開啟或關閉 Microsoft 團隊中的來賓存取功能做為 Office 365 系統管理員。
 ms.custom: ms.teamsadmincenter.orgwidesettings.guestaccess.turnonguestaccessarticle
 f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5bcdbc3251820bdcee860323ad993efc8d6673c0
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: e634c58d34787a76477591ab4262c703e5773cbe
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41835643"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43903788"
 ---
 <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>開啟或關閉 Microsoft 團隊的來賓存取權
 ===================================================
 
-預設會關閉來賓存取。 就像 Office 365 管理員一樣，您必須先開啟團隊的來賓存取權，管理員或團隊擁有者才能新增來賓。 若要開啟來賓存取，請使用[來賓存取檢查清單](guest-access-checklist.md)。 
+根據預設，來賓存取權會關閉。 就像 Office 365 管理員一樣，您必須先開啟團隊的來賓存取權，管理員或團隊擁有者才能新增來賓。 若要開啟來賓存取，請使用[來賓存取檢查清單](guest-access-checklist.md)。 
 
-開啟來賓存取之後，變更將需要2-24 小時才能生效。 當使用者嘗試將來賓新增到其小組時，如果使用者看到「與您的系統管理員聯繫」訊息，可能是因為來賓存取尚未開啟，或是設定尚未生效。
+開啟來賓存取後，可能需要幾個小時的時間，變更才會生效。 當使用者嘗試將來賓新增到其小組時，如果使用者看到「與您的系統管理員聯繫」訊息，可能是因為來賓存取尚未開啟，或是設定尚未生效。
 
 > [!IMPORTANT]
 > 開啟來賓存取權視 Azure Active Directory、Office 365、SharePoint Online 和團隊中的設定而定。 如需詳細資訊，請參閱[核准團隊中的來賓存取權](Teams-dependencies.md)。
@@ -38,15 +38,15 @@ ms.locfileid: "41835643"
 
 ## <a name="configure-guest-access-in-the-teams-admin-center"></a>在團隊系統管理中心設定來賓存取
 
-1.  登入 Microsoft 團隊系統管理中心。
+1.    登入 Microsoft 團隊系統管理中心。
 
-2.  選取 [全**組織性設定** > **來賓存取**]。
+2.    選取 [全**組織性設定** > **來賓存取**]。
 
 3. 將**Microsoft 團隊中的 [允許來賓存取**權設定為 [**開啟**]。
 
     ![[允許來賓存取開關設定為開啟] ](media/set-up-guests-image1.png)
 
-4.  在 [**通話**]、[**會議**] 和 [**訊息**] 底下，針對每個功能選取 [**開啟**] 或 [**關閉**]，視您想要來賓使用者的需求而定。
+4.    在 [**通話**]、[**會議**] 和 [**訊息**] 底下，針對每個功能選取 [**開啟**] 或 [**關閉**]，視您想要來賓使用者的需求而定。
 
     - **撥打私人電話** **–開啟此設定可**讓來賓進行對等通話。
     - [**允許 IP 影片**] **-開啟此設定可**讓來賓在通話和會議中使用影片。
@@ -67,7 +67,7 @@ ms.locfileid: "41835643"
     - **在交談中使用不乾膠**圖示，請**開啟此設定，** 以允許來賓在交談中使用不乾膠圖示。 
 
 
-5.  按一下 [**儲存**]。
+5.    按一下 [儲存]****。
 
 ## <a name="use-powershell-to-turn-guest-access-on-or-off"></a>使用 PowerShell 開啟或關閉來賓存取
 已閱讀 [[使用 PowerShell] 開啟或關閉來賓存取](guest-access-PowerShell.md#use-powershell-to-turn-guest-access-on-or-off)

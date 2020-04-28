@@ -14,13 +14,13 @@ ms.collection:
 - M365-collaboration
 ms.assetid: a038e34d-8bc8-4a59-8ed2-3fc00ec33dd7
 description: 如需如何使用商務用 Skype Server 部署 Microsoft 團隊聊天室的相關資訊，請參閱本主題。
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f1f0788e9c2342f2bac8484ceb1cc83bf30fd8d3
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 9e827f4d1fc020160b59f26dffde960394c3a69e
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140996"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905265"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-skype-for-business-server"></a>使用商務用 Skype Server 部署 Microsoft 團隊聊天室
   
@@ -117,14 +117,14 @@ Grant-CsVoicePolicy -PolicyName dk -Identity rigel1
 Grant-CsDialPlan -PolicyName e15dp2.contoso.com -Identity rigel1
 ```
 
-## <a name="see-also"></a>另請參閱
+## <a name="related-topics"></a>相關主題
 
 [設定 Microsoft 團隊聊天室的帳戶](rooms-configure-accounts.md)
 
-[規劃 Microsoft 團隊聊天室](rooms-plan.md)
+[規劃 Microsoft Teams 會議室](rooms-plan.md)
   
-[部署 Microsoft 團隊聊天室](rooms-deploy.md)
+[部署 Microsoft Teams 會議室](rooms-deploy.md)
   
-[設定 Microsoft 團隊聊天室主控台](console.md)
+[設定 Microsoft Teams 會議室主控台](console.md)
   
-[管理 Microsoft 團隊聊天室](rooms-manage.md)
+[管理 Microsoft Teams 會議室](rooms-manage.md)

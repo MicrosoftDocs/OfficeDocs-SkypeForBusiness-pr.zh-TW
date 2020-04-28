@@ -21,13 +21,14 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.contentsharing
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
-description: 瞭解如何在團隊中管理會議原則設定。
-ms.openlocfilehash: b87453fb24173ba648511f49efc82becb2616d70
-ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
+- seo-marvel-apr2020
+description: 瞭解如何在團隊中管理會議原則設定，並使用他們來控制會議參與者針對使用者排程會議所提供的功能。
+ms.openlocfilehash: d06dbe4d2a6e7750abba5352becc15be1daf8ce6
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43505630"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904428"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>在團隊中管理會議原則
 
@@ -77,7 +78,7 @@ ms.locfileid: "43505630"
 1. 在 Microsoft 團隊系統管理中心的左導覽中，前往 [**會議** > **會議原則**]。
 2. 按一下原則名稱的左側來選取原則。
 3. 選取 [管理使用者]****。
-4. 在 [**管理使用者**] 窗格中，依 [顯示名稱] 或 [使用者名稱] 搜尋使用者，選取名稱，然後選取 [**新增**]。 針對要新增的每一個使用者重複此步驟。
+4. 在 **[管理使用者]** 窗格中，依顯示名稱或使用者名稱搜尋使用者，選取名稱，然後選取 **[新增]**。 針對要新增的每一個使用者重複此步驟。
 5. 完成新增使用者之後，請選取 [**儲存**]。
 
 > [!NOTE]

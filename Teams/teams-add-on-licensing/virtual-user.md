@@ -18,13 +18,14 @@ localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 瞭解免費的虛擬使用者授權。
-ms.openlocfilehash: f2ecaddc6fd1dcc4bbb179fde3f495a0eea29353
-ms.sourcegitcommit: a610bfe9c0192432744dfaf8d5ff5c2bb5a16b00
+- seo-marvel-apr2020
+description: 瞭解如何為貴組織中的資源帳戶指派免費的電話系統-虛擬使用者授權或付費電話系統使用者授權。
+ms.openlocfilehash: 5a60e757f4ed9dbca67219217257894a8f95a295
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "43190818"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904785"
 ---
 # <a name="microsoft-365-phone-system--virtual-user-license"></a>Microsoft 365 電話系統-虛擬使用者授權 
 

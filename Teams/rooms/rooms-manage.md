@@ -13,13 +13,14 @@ localization_priority: Normal
 ms.assetid: 39d7dc65-22c3-400f-91f1-87ed2fd792b6
 ms.collection:
 - M365-collaboration
-description: Microsoft 團隊聊天室的管理概覽。
-ms.openlocfilehash: 3a56a03342ca0edb0da9dc9ed3a4cada77816bc7
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+description: 瞭解如何開發及執行持續進行的維護與作業，以確保您的使用者可以使用您的 Microsoft [小組室] 系統。
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 6b63e42e1f3fa3d5540936d562aa913837103ed1
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825881"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905365"
 ---
 # <a name="management-overview"></a>管理概觀
 
@@ -38,7 +39,7 @@ ms.locfileid: "41825881"
 
 Microsoft [團隊聊天室] 應用程式和已連接週邊裝置狀態的相關資訊，由 Microsoft 團隊聊天室應用程式寫入 Windows 事件記錄，並在[瞭解記錄專案](azure-monitor-manage.md#understand-the-log-entries)中記錄。 
 
-|**正在**|**讓**|
+|**設定**|**讓**|
 |:-----|:-----|
 |HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AutoAdminLogon = （dword）1  <br/> |可讓 Microsoft 團隊聊天室啟動  <br/> |
 |電源管理-\>在 AC 上，10分鐘後關閉螢幕  <br/> 電源管理-\>在交流電上，請勿將系統置於睡眠狀態  <br/> |讓 Microsoft 團隊聊天室關閉附加的顯示，並自動喚醒  <br/> |
@@ -86,10 +87,10 @@ Microsoft 團隊聊天室會在 Windows 10 企業版 IoT 或 Windows 10 企業�
 
 [Microsoft 團隊聊天室說明](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
-[規劃 Microsoft 團隊聊天室](rooms-plan.md)
+[規劃 Microsoft Teams 會議室](rooms-plan.md)
 
-[部署 Microsoft 團隊聊天室](rooms-deploy.md)
+[部署 Microsoft Teams 會議室](rooms-deploy.md)
 
-[設定 Microsoft 團隊聊天室主控台](console.md)
+[設定 Microsoft Teams 會議室主控台](console.md)
 
 [使用 XML 設定檔遠端系統管理 Microsoft 團隊聊天室的主控台設定](xml-config-file.md)

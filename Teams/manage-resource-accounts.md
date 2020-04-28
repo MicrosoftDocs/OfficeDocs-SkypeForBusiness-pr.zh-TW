@@ -18,13 +18,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
-description: 瞭解如何在 Microsoft 團隊中管理資源帳戶
-ms.openlocfilehash: 9de381c1ba338c9ffc51153ac0fa1296ccb3f4a0
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+- seo-marvel-apr2020
+description: 在本文中，您將瞭解如何在 Microsoft 團隊中建立、編輯和管理資源帳戶。
+ms.openlocfilehash: 07f6f15f3ed3fc1e115ae672ef1eac89b5eab12f
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43750000"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905005"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>在 Microsoft Teams 中管理資源帳戶
 
@@ -37,7 +38,7 @@ ms.locfileid: "43750000"
 > [!NOTE]
 > 本文適用于 Microsoft 團隊和商務用 Skype Online。 針對駐留在商務用 Skype Server 2019 的資源帳戶，請參閱[設定資源帳戶](/SkypeForBusiness/hybrid/configure-onprem-ra)。
 
-## <a name="overview"></a>概觀
+## <a name="assign-a-phone-number-to-a-phone-system-call-queue"></a>將電話號碼指派給電話系統通話佇列
 
 如果您的組織已經使用至少一個電話系統授權，請將電話號碼指派給電話系統呼叫佇列，處理常式為：
 

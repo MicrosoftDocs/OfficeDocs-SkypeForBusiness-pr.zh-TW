@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: 了解如何在 Teams 中建立及管理全組織小組。
+description: 瞭解如何建立及管理小組中的組織內小組，為中小型組織中的每個人提供自動方法來進行共同作業。
 localization_priority: Normal
 f1.keywords:
 - NOCSH
@@ -16,12 +16,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 90051eb5ee4faf981ec54efa8049909dde4311d3
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 41d7241cc0ffddf1042a3fe46f75def76c1ccf04
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778449"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43903028"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>在 Microsoft Teams 中建立全組織小組
 
@@ -71,13 +72,13 @@ ms.locfileid: "43778449"
 
 ### <a name="remove-accounts-that-might-not-belong"></a>移除可能不屬於的帳戶
 
-即使成員不能離開全組織小組，但是身為小組擁有者的您可以藉由移除他們不屬於的帳戶來管理小組名冊。 **請確認您使用 Teams 移除全組織小組中的使用者**。 如果您使用其他方法 (例如 Microsoft 365 系統管理中心或從 Outlook 中的群組) 移除使用者，有可能會不小心將該使用者新增回全組織小組。
+即使成員不能離開組織內的小組（作為小組擁有者），您還是可以移除不屬於的帳戶來管理團隊名單。 **請確認您使用 Teams 移除全組織小組中的使用者**。 如果您使用其他方法 (例如 Microsoft 365 系統管理中心或從 Outlook 中的群組) 移除使用者，有可能會不小心將該使用者新增回全組織小組。
 
 ## <a name="faq"></a>常見問題集
 
 ### <a name="is-there-a-way-to-create-an-org-wide-team-other-than-using-the-teams-client"></a>有沒有使用 Teams 用戶端以外的建立全組織小組方法？
 
-全域系統管理員只能使用 Teams 用戶端建立全組織小組。 如果貴組織將建立小組限制為使用 PowerShell，建議的因應措施是將您的全域系統管理員新增至可建立小組的使用者安全性群組。 如需詳細資訊，請參閱[管理可以建立 Microsoft 365 群組的人員](https://docs.microsoft.com/office365/admin/create-groups/manage-creation-of-groups)。
+全域系統管理員只能使用 Teams 用戶端建立全組織小組。 如果貴組織將建立小組限制為使用 PowerShell，建議的因應措施是將您的全域系統管理員新增至可建立小組的使用者安全性群組。 如需詳細資訊，請參閱[管理能建立 Microsoft 365 群組的使用者](https://docs.microsoft.com/office365/admin/create-groups/manage-creation-of-groups) (部分機器翻譯)。
 
 如果這不是選項，您可以使用 PowerShell 來建立公用小組，並將全域系統管理員新增為小組擁有者。 然後，讓全域系統管理員按一下小組名稱旁的 [更多選項]****，按一下 [編輯小組]****，然後將隱私權變更為 [全組織 - 貴組織中的所有人都會自動新增]****。 請注意，只有小組擁有者可以存取 [編輯小組]**** 選項，而且只有全域系統管理員才能查看 [全組織]**** 選項。
 

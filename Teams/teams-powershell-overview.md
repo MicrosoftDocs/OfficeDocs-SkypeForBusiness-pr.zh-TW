@@ -12,15 +12,16 @@ ms.collection:
 - M365-collaboration
 f1.keywords:
 - NOCSH
-description: 瞭解如何使用 PowerShell 控制項來管理 Microsoft 團隊。
+description: 瞭解如何使用 PowerShell 控制項來管理 Microsoft 團隊，包括 PowerShell Cmdlet 的結構化方式。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c5eaf04a0244e35e7d9f7deb7d8afb135b3acb2c
-ms.sourcegitcommit: c8d16d5e61d66d7b5e7391a800978b920612ea4d
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: e95b3ab5bdb2b13dbd4c37eca413c865f54fde94
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42052520"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43903038"
 ---
 # <a name="teams-powershell-overview"></a>團隊 PowerShell 概覽
 
@@ -124,7 +125,7 @@ PowerShell 控制項的參考檔將會告知您要調查的 Cmdlet 所在的模�
 
 您可以在[microsoft [團隊 Cmdlet 參考](https://docs.microsoft.com/powershell/teams/?view=teams-ps)] 和 [[商務用 skype] Cmdlet 參考](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)中，找到有關如何使用所有 PowerShell 控制項來管理 Microsoft 團隊和商務用 skype 的詳細指示，包括每個原則中設定的詳細描述。
 
-## <a name="learn-more"></a>瞭解更多資訊
+## <a name="learn-more"></a>深入了解
 
 - [Microsoft 團隊 Cmdlet 參考](https://docs.microsoft.com/powershell/teams/?view=teams-ps)
 - [商務用 Skype Cmdlet 參考](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)

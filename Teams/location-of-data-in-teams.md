@@ -7,7 +7,7 @@ ms.topic: reference
 audience: admin
 ms.service: msteams
 ms.reviewer: anach, kehardy
-description: 瞭解資料在 Microsoft 團隊中的儲存位置。
+description: 在本文中，您將瞭解在 Microsoft 團隊中，資料位於地理位置的位置。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -16,12 +16,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 11d95858c39a2d555a4b1a7433b0a7dce0388293
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: ebe94c04fcc4d93f636544d54930cf83855deec2
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780262"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904815"
 ---
 # <a name="location-of-data-in-microsoft-teams"></a>Microsoft 團隊中的資料位置
 

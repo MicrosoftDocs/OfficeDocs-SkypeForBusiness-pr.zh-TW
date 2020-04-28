@@ -12,15 +12,15 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-ms.custom: ''
+ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
-description: 如需有關如何使用 Microsoft 365 或 Office 365 部署 Microsoft 團隊聊天室的資訊，請閱讀本主題。
-ms.openlocfilehash: 02eb5869d7464a4daeece177c4d1b5a5ef440fa0
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: 如需有關如何使用 Microsoft 365 或 Office 365 （團隊或商務用 Skype 與 Exchange 都在線上）部署 Microsoft 團隊聊天室的資訊，請閱讀本主題。
+ms.openlocfilehash: 2b7574b54782140e3f082c8c3859c9caee7712eb
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780542"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905275"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-microsoft-365-or-office-365"></a>使用 Microsoft 365 或 Office 365 部署 Microsoft 團隊聊天室
 

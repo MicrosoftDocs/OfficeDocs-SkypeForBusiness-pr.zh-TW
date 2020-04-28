@@ -12,15 +12,15 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-ms.custom: ''
+ms.custom: seo-marvel-apr2020
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
-description: 如需如何使用 Exchange Online 部署 Microsoft 團隊聊天室的詳細資訊，請參閱本主題。
-ms.openlocfilehash: fbf1057539f15d6de702909a1571c9e11fdf5de3
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: 請閱讀本主題，瞭解如何使用 Exchange Online 和商務用 Skype Server 內部部署來部署 Microsoft 團隊聊天室。
+ms.openlocfilehash: aa106c525a1d6b25513fe0c9aa0614e222ce75ca
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780552"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905285"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>使用 Exchange Online 部署 Microsoft 團隊聊天室
 
@@ -155,7 +155,7 @@ ms.locfileid: "43780552"
 > [!IMPORTANT]
 > 如果您使用的是商務用 Skype 方案2，您只能在 [僅限商務用 skype] 模式中使用 Microsoft 團隊聊天室，這表示您所有的會議都將是商務用 Skype 會議。 若要為 Microsoft 團隊會議啟用會議室，我們建議您購買會議室授權。
   
-## <a name="see-also"></a>另請參閱
+## <a name="related-topics"></a>相關主題
 
 [設定 Microsoft 團隊聊天室的帳戶](rooms-configure-accounts.md)
 

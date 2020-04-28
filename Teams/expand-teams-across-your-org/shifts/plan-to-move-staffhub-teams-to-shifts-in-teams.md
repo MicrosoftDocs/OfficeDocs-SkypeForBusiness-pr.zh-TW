@@ -8,7 +8,8 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: 取得如何規劃以將您的 StaffHub 小組移至 Microsoft 團隊中的指導方針。
+description: 使用此時程表可協助貴組織從 StaffHub 小組轉場到 Microsoft 團隊中的倒班。
+ms.custom: seo-marvel-mar2020
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -17,13 +18,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f296beffa5d9d97bd34035a80cac8068783cea54
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 67c7a34a1051f68183429d9850561748d34568ab
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780612"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905715"
 ---
 # <a name="plan-to-move-your-staffhub-teams-to-shifts-in-microsoft-teams"></a>規劃將您的 StaffHub 團隊移至 Microsoft 團隊中的倒班
 
@@ -39,7 +39,7 @@ ms.locfileid: "43780612"
 |循序漸進 |指導方針  |資源 |
 |---------|---------|---------|
 |1    |準備及識別干係人         |         |
-|pplx-2     |查看從 StaffHub 轉至團隊和團隊加入的檔         |[StaffHub 停用](microsoft-staffhub-to-be-retired.md)<br><br>[將您的 StaffHub 團隊移至團隊中的倒班](move-staffhub-teams-to-shifts-in-teams.md)<br><br>[開始使用 Teams](../../get-started-with-teams-quick-start.md)         |
+|2     |查看從 StaffHub 轉至團隊和團隊加入的檔         |[StaffHub 停用](microsoft-staffhub-to-be-retired.md)<br><br>[將您的 StaffHub 團隊移至團隊中的倒班](move-staffhub-teams-to-shifts-in-teams.md)<br><br>[開始使用 Teams](../../get-started-with-teams-quick-start.md)         |
 |3    |為您的組織啟用 Microsoft 365 群組        |[Microsoft 365 群組與團隊](../../Office-365-groups.md)      |
 |4    |確認已滿足先決條件         |[檢查是否符合先決條件](move-staffhub-teams-to-shifts-in-teams.md#check-that-prerequisites-are-met)       |
 |500   |指派團隊授權給貴組織中的 StaffHub 使用者|[指派 Teams 授權](move-staffhub-teams-to-shifts-in-teams.md#assign-teams-licenses)<br><br>[管理使用者對 Teams 的存取權](../../user-access.md)      |
@@ -58,7 +58,7 @@ ms.locfileid: "43780612"
 |循序漸進 |指導方針 |資源  |
 |---------|---------|---------|
 |1  |找出試驗小組並移動一個團隊          |[移動 StaffHub 小組](move-staffhub-teams-to-shifts-in-teams.md#move-a-staffhub-team)          |
-|pplx-2    |驗證試驗小組並找出任何搬遷問題。 視需要更新訓練檔。         |         |
+|2    |驗證試驗小組並找出任何搬遷問題。 視需要更新訓練檔。         |         |
 |3     |找出其他試驗小組，並將五個小組移至十個團隊         |[移動您的 StaffHub 團隊](move-staffhub-teams-to-shifts-in-teams.md#go-beyond-your-pilot-and-move-all-staffhub-teams)         |
 |4     |找出剩餘的 StaffHub 團隊，並以分段的方式進行移動         |[移動您的 StaffHub 團隊](move-staffhub-teams-to-shifts-in-teams.md#go-beyond-your-pilot-and-move-all-staffhub-teams)         |
 |500     |繼續提供對倒班與團隊的支援         |         |

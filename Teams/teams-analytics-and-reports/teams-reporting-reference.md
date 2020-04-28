@@ -12,15 +12,16 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: 瞭解 Microsoft 團隊系統管理中心提供的團隊報表。
+description: 在本文中，您將瞭解 Microsoft 團隊系統管理中心提供的小組報表。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 86003876bbbf4927886a8b260fad48f451a2d325
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 24d8a9658c4f7c0d9b0c12472491065106a7533c
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778238"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904278"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Microsoft 團隊分析和報告
 

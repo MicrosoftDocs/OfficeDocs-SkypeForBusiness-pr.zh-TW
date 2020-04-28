@@ -18,13 +18,14 @@ localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
-description: '瞭解附加元件授權、功能，以及如何購買 Microsoft 365 商務標準方案。 '
-ms.openlocfilehash: 20aacf46acf60bb581056654babc85277f41ee45
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+- seo-marvel-apr2020
+description: 瞭解附加元件授權、其功能，以及如何為 Microsoft 365 商務標準方案購買這些授權。
+ms.openlocfilehash: 136dbf60f728d4c4455c466dd8a8a02376e20f1f
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780502"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904608"
 ---
 # <a name="microsoft-365-business-standard"></a>Microsoft 365 商務標準版
 

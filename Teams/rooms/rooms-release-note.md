@@ -12,13 +12,14 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-description: 本文將討論 Microsoft 團隊聊天室中的累加性改進。
-ms.openlocfilehash: a79f9c4087be638de5c978eda2a8cf1d12fc1ed4
-ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
+description: 系統管理員可以閱讀 Microsoft 團隊聊天室的版本資訊，這會在 Microsoft 團隊聊天室中列出累加性的改良功能。
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: ecc7328f81da24bb750ec164bc614db2104179a7
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/11/2020
-ms.locfileid: "43227517"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905335"
 ---
 # <a name="release-notes"></a>版本資訊
 
@@ -70,7 +71,6 @@ ms.locfileid: "43227517"
 - 使用 XML 來停用不在會議中的重複內容的能力顯示會議室
 - 應用程式啟動顯示畫面
 - 在裝置設定中開啟來源軟體（OSS）通知
-- 在商務用 Skype Server 2015/2019 中停用 TLS 1.0 和 TLS 1.1 時，修正 PSOM 連線性問題。
 
 ### <a name="43420-03022020"></a>4.3.42.0 （03/02/2020）
 
@@ -348,6 +348,6 @@ Microsoft 團隊聊天室版本3.0.12.0 （更新3）不再支援64位版本的 
 
 [Microsoft 團隊聊天室的已知問題](known-issues.md)
 
-[規劃 Microsoft 團隊聊天室](rooms-plan.md)
+[規劃 Microsoft Teams 會議室](rooms-plan.md)
 
-[管理 Microsoft 團隊聊天室](rooms-manage.md)
+[管理 Microsoft Teams 會議室](rooms-manage.md)

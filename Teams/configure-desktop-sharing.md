@@ -11,17 +11,18 @@ ms.service: msteams
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 設定會議原則，讓使用者在 Teams 聊天或會議中共用其桌面
+description: 瞭解如何設定會議原則，讓使用者在團隊聊天或會議中共用其桌面。
 ms.collection:
 - M365-collaboration
+ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 366aaeb4f48670ae04d4b53d21196ef2d9e81fb4
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
-ms.translationtype: HT
+ms.openlocfilehash: 955a642d2a2309ccbaf9f9d6280170a93a9179ae
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825541"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905895"
 ---
 <a name="configure-desktop-sharing-in-microsoft-teams"></a>在 Microsoft Teams 中設定桌面共用
 ============================================
@@ -52,8 +53,8 @@ ms.locfileid: "41825541"
 
 5. 開啟或關閉下列設定：
 
-    - **允許參與者授與或要求控制權**：讓小組成員可以授與或要求簡報者的桌面或應用程式控制權。
-    - **允許外部參與者提供或要求控制**：可讓來賓與外部 (同盟) 使用者授與或要求簡報者的桌面或應用程式控制權。
+    - [**允許參與者授與要求控制**]：讓小組成員可以授與要求控制簡報者的桌面或應用程式。
+    - [**允許外部參與者授與要求控制**]：讓來賓與外部（同盟）使用者提供或要求簡報者的桌面或應用程式的控制權。
     - **允許 PowerPoint 分享**：讓使用者建立可讓 PowerPoint 簡報上傳並共用的會議。
     - **允許使用白板**：讓使用者共用白板。
     - **允許共用記事**：讓使用者記共用記事。

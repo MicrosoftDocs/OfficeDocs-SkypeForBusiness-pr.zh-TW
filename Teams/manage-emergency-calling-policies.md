@@ -15,13 +15,14 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: 瞭解如何在 Microsoft 團隊中使用和管理緊急通話原則。
-ms.openlocfilehash: 90f278487b1b8d2e0e0b9b165e7d15023d6c0aaa
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+description: 瞭解如何在 Microsoft 團隊中使用和管理緊急通話原則，定義貴組織中的小組使用者撥打緊急通話時，會發生什麼情況。
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 2e697e05c4ade1e14ee2f59da5b60413e60e2367
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888692"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905105"
 ---
 # <a name="manage-emergency-calling-policies-in-microsoft-teams"></a>管理 Microsoft 團隊中的緊急通話原則
 
@@ -35,7 +36,7 @@ ms.locfileid: "41888692"
 
 ## <a name="create-a-custom-emergency-calling-policy"></a>建立自訂緊急通話原則
 
-### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft 團隊系統管理中心
+### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 系統管理中心
 
 1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**語音** > **緊急原則**]，然後按一下 [**通話原則**] 索引標籤。
 2. 按一下 [**新增**]。
@@ -45,7 +46,7 @@ ms.locfileid: "41888692"
     - **Conferenced in 但已靜音**： [團隊聊天] 訊息會傳送給您指定的使用者和群組，而且他們可以在來電者與 PSAP 運算子之間的交談中聆聽（但不參與）。
 5.  如果您已選取 [Conferenced]，**但處於靜音**通知模式，請在 [**撥出電話號碼**] 方塊中輸入使用者或群組的 PSTN 電話號碼，即可呼叫並加入緊急通話。 例如，輸入貴組織的 security 辦公桌編號，該號碼會在發出緊急通話時接聽來電，然後可以接聽電話或參與通話。
 6. 搜尋並選取一或多個使用者或群組（例如貴組織的安全服務台），以在進行緊急通話時通知您。  通知可以傳送到使用者、通訊群組和安全性群組的電子郵件地址。 最多可以通知50使用者。
-7. 按一下 [**儲存**]。
+7. 按一下 [儲存]****。
 
 ### <a name="using-powershell"></a>使用 PowerShell
 
@@ -53,7 +54,7 @@ ms.locfileid: "41888692"
 
 ## <a name="edit-an-emergency-calling-policy"></a>編輯緊急通話原則
 
-### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft 團隊系統管理中心
+### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 系統管理中心
 
 您可以編輯全域原則或您建立的任何自訂原則。
 
@@ -67,9 +68,9 @@ ms.locfileid: "41888692"
 
 ## <a name="assign-a-custom-emergency-calling-policy-to-users"></a>將自訂緊急通話原則指派給使用者
 
-### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft 團隊系統管理中心
+### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 系統管理中心
 
-1. 在 Microsoft 團隊系統管理中心的左導覽中，前往 [**使用者**]，然後按一下使用者。
+1. 在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至 [使用者]****，然後按一下該使用者。
 2. 按一下 [**原則**]，然後在 [**指派的原則**] 旁，按一下 [**編輯**]。
 3. 在 [**緊急通話原則**] 底下，選取您要指派的原則，然後按一下 [**儲存**]。
 
@@ -78,9 +79,9 @@ ms.locfileid: "41888692"
 或者，您也可以執行下列動作：
 
 1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**語音** > **緊急原則**]，然後按一下 [**通話原則**] 索引標籤。
-2. 按一下原則名稱左方，選取原則。
-3. 選取 [**管理使用者**]。
-4. 在 [**管理使用者**] 窗格中，依 [顯示名稱] 或 [使用者名稱] 搜尋使用者，選取名稱，然後選取 [**新增**]。 針對您要新增的每個使用者重複此步驟。
+2. 按一下原則名稱的左側來選取原則。
+3. 選取 [管理使用者]****。
+4. 在 **[管理使用者]** 窗格中，依顯示名稱或使用者名稱搜尋使用者，選取名稱，然後選取 **[新增]**。 針對要新增的每一個使用者重複此步驟。
 5. 完成新增使用者後，請按一下 [**儲存**]。
 
 ### <a name="using-powershell"></a>使用 PowerShell
@@ -125,4 +126,4 @@ $members | ForEach-Object {Grant-CsTeamsEmergencyCallingPolicy -PolicyName "Oper
 ## <a name="related-topics"></a>相關主題
 
 - [管理團隊中的緊急通話路由策略](manage-emergency-call-routing-policies.md)
-- [團隊 PowerShell 概覽](teams-powershell-overview.md)
+- [Teams PowerShell 概觀](teams-powershell-overview.md)

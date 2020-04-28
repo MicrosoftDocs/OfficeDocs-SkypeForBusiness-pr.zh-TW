@@ -10,19 +10,20 @@ ms.collection:
 - M365-collaboration
 ms.reviewer: bjwhalen
 search.appverid: MET150
-description: 本文將協助您挑選共存模式並設定其他共存設定。
+description: 瞭解如何一次為貴組織中的所有使用者設定共存與升級設定，或針對貴組織中的一或一組使用者設定共存與升級設定。
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
+- seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a8cf8b0400ae924924d73394be0ca4deabcdeb9e
-ms.sourcegitcommit: 0fa50d1cf354d79fbaf16b6aaec60e8d3ab852e8
+ms.openlocfilehash: 245e22c9a5deb518617ff547c4cc2f590d9ea1e6
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43579609"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905555"
 ---
 # <a name="setting-your-coexistence-and-upgrade-settings"></a>設定您的共存與升級設定
 

@@ -16,18 +16,19 @@ ms.collection:
 description: 瞭解如何使用 Microsoft 團隊系統管理中心中的 [團隊裝置使用量] 報告，以瞭解貴組織中的使用者如何連線至團隊。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 16abf763579a542583f3aafa30252c1423759641
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 128a9e816249dd918a5bf5fb380fde78d3ed9ce2
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827351"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904915"
 ---
 # <a name="microsoft-teams-device-usage-report"></a>Microsoft 團隊裝置使用量報告
 
 Microsoft 團隊系統管理中心的 [小組裝置使用量] 報告可提供使用者連線至團隊之方式的相關資訊。 您可以使用報告來查看貴組織所使用的裝置，包括在行動裝置上使用的小組數。  
 
-## <a name="view-the-report"></a>查看報表
+## <a name="view-the-device-usage-report"></a>查看裝置使用方式報告
 
 1. 在 Microsoft [團隊管理中心] 的左導覽中，按一下 [**分析] & 報告** > **使用方式報告**。 在 [**查看報表**] 索引標籤的 [**報表**] 底下，選取 [**團隊裝置使用方式**]。
 2. 在 [**日期範圍**] 底下，選取一個範圍，然後按一下 [**執行報表**]。

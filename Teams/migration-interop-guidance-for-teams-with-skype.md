@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: bjwhalen
-description: 從商務用 Skype 管理團隊轉場的指導方針
+description: 瞭解管理貴組織從商務用 Skype 轉至團隊的基本概念。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5bf12dc366de030329b306fdd2f68291b5ff532d
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: fd4c733aece4bc75c0bce16c77aebae4806fecd7
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140272"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904388"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>與商務用 Skype 搭配使用團隊之組織的遷移和互通性指南
 
@@ -112,7 +112,7 @@ TeamsUpgradePolicy 會公開兩個主要屬性： Mode 和 NotifySfbUsers。
 </br>
 </br>
 
-|參數|類型|允許值</br>（預設為斜體）|描述|
+|參數|類型|允許值</br>（預設為斜體）|說明|
 |---|---|---|---|
 |下|列舉|*離島*</br>TeamsOnly</br>SfBOnly</br>SfBWithTeamsCollab</br>SfBWithTeamsCollabAndMeetings|指示用戶端應該在其中執行的模式。|
 |NotifySfbUsers|Bool|*False*或 true|指出是否要在商務用 Skype 用戶端中顯示橫幅，以通知使用者小組將會很快取代商務用 Skype。 如果 Mode = TeamsOnly，則此值不能為 true。|

@@ -2,7 +2,7 @@
 title: 使用網路 Planner-範例案例
 metadata:
   title: 使用網路 Planner-範例案例
-  description: 逐步使用網路 Planner 來設定網路方案並產生報告。
+  description: 這個範例案例會示範如何使用網路 Planner 工具來建立網站和角色，以及執行報表。
   audience: IT Pro
   level: Intermediate
   displayType: one-column
@@ -15,12 +15,13 @@ metadata:
   localization_priority: Normal
   ms.collection:
   - M365-collaboration
-  ms.openlocfilehash: 7a743bea1524084298abb590c653d994aacb0bc4
-  ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+  ms.custom: seo-marvel-apr2020
+  ms.openlocfilehash: 5148415363ac62c68140982d03235b8bfa8835ac
+  ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
   ms.translationtype: MT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 02/08/2020
-  ms.locfileid: "41863534"
+  ms.lasthandoff: 04/27/2020
+  ms.locfileid: "43904508"
 items:
 - durationInMinutes: 2
   content: "\n[網路 Planner] 工具可在 [團隊管理中心] 中取得。 它可協助您判斷貴組織的網路需求。 這個範例案例會示範如何使用此工具來建立名為 Contoso 的公司的網站、角色及執行報表。 \n\n## <a name=\"before-you-begin\"></a>開始之前\n\n我們假設您已瞭解團隊系統管理中心的相關資訊，而且您已經熟悉如何為小組準備網路所需執行的動作。 如果這是您在網路 Planner 中看到的第一篇文章，我們建議您先閱讀下列文章。\n\n- [針對 Teams 準備組織的網路](prepare-network.md)\n- [使用 Microsoft 團隊的網路 Planner](network-planner.md) \n\n## <a name=\"overview-of-contoso-network\"></a>Contoso 網路概覽\n\nContoso 有三個位置：\n\n- **西雅圖總部：** 這是 Contoso 的主要位置。 它有1000員工，且只有25名者通話。 網站已連線至網際網路，且有本機電話連線（PSTN）。 Contoso 已設定直接路由來與團隊搭配使用本機電話連線。 \n- **Kirkland Office：** 這個分支機搆擁有400員工，而10只是通話。 網站在網際網路和電話（PSTN）流量中使用與總部的連線。 這個 office 是使用 WAN 連線與西雅圖總部連線。\n- **丹佛 Office：** 此 office 擁有250員工和50只能通話。 網站有自己的本機網際網路連線，但沒有直接電話連線（PSTN）。\n\n讓我們開始吧！\n"

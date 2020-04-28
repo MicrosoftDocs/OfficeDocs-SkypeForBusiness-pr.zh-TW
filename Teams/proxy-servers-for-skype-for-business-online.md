@@ -20,13 +20,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Optimization
-description: 本文提供與團隊或商務用 Skype 一起使用 proxy 伺服器的相關資訊。
-ms.openlocfilehash: ca81c32064406af0e5bc3d614566a96ec5646a91
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+- seo-marvel-apr2020
+description: 本文提供有關在 Microsoft 團隊或商務用 Skype 中使用 proxy 伺服器的資訊。
+ms.openlocfilehash: 5a0d35ee2b8c95c4dea30886497e184f57077264
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863184"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905675"
 ---
 # <a name="proxy-servers-for-teams-or-skype-for-business-online"></a>Teams 或商務用 Skype Online 的 Proxy 伺服器
 

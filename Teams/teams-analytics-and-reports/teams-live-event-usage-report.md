@@ -16,18 +16,19 @@ ms.collection:
 description: 瞭解如何使用 Microsoft 團隊系統管理中心中的 [團隊即時事件使用量] 報告，以取得貴組織中的小組即時事件活動的概覽。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: af8a7d0225c3098f48de689a15921cd6f1f2f1c9
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: faf4a19b8a9bcd4b6fbdc2b3fd55882121015da2
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827241"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904288"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Microsoft 團隊即時事件使用量報告
 
 Microsoft 團隊系統管理中心的 [小組即時事件使用量] 報告會顯示您組織中的即時事件的活動概覽。 您可以查看使用方式資訊，包括事件狀態、開始時間、視圖，以及每個事件的生產類型。 您可以深入瞭解使用狀況趨勢，並查看貴組織的排程、提出及產生即時事件。
 
-## <a name="view-the-report"></a>查看報表
+## <a name="view-the-live-event-usage-report"></a>查看即時事件使用量報告
 
 1. 在 Microsoft [團隊管理中心] 的左導覽中，按一下 [**分析] & 報告** > **使用方式報告**。 在 [**查看報表**] 索引標籤的 [**報表**] 底下，選取 [**團隊即時事件使用量**]。
 2. 在 [**日期範圍**] 底下，選取預先定義的範圍或設定自訂範圍。 您可以將範圍設定為在目前日期之前或之後的六個月內顯示資料。

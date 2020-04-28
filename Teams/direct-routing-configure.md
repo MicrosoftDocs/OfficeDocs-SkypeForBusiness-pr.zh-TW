@@ -15,13 +15,14 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: 瞭解如何設定 Microsoft Phone 系統 Direct 路由。
-ms.openlocfilehash: b596e5acb0002ad90f5c0298b56973f2490ad2e6
-ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
+description: 瞭解如何設定 Microsoft Phone 系統 Direct 路由，以將您的內部部署電話結構連線至 Microsoft 團隊。
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: f12eb67fd63a3d1bbed3ddcd0c4fadce16529083
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43170581"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904825"
 ---
 # <a name="configure-direct-routing"></a>設定直接路由
 
@@ -54,7 +55,7 @@ Microsoft 手機系統 [直接路由] 可讓您將內部部署的電話結構連
 如果您要為多個租使用者設定 SBC，您也會想要[為多個](direct-routing-sbc-multiple-tenants.md)租使用者閱讀 [設定 sbc]。
 
 
-## <a name="see-also"></a>另請參閱
+## <a name="related-topics"></a>相關主題
 
 [電話系統直接路由](direct-routing-landing-page.md)
 

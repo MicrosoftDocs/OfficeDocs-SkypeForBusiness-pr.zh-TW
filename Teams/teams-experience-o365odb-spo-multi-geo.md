@@ -7,22 +7,23 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: snigdhav
 audience: admin
-description: 瞭解如何在 Microsoft 365 或 Office 365 OneDrive 和 SharePoint Online 多地域租賃中使用團隊。
+description: 在本文中，您將學習如何在 Microsoft 365 或 Office 365 OneDrive 與 SharePoint Online 多地域租賃中使用團隊。
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
 - SPO_Content
+ms.custom: seo-marvel-apr2020
 f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 534155d49cda89291e5d8bdfb8da9b8caf0efb5f
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 4e754177de6f08476c9160254f2334f6f3ac18d3
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780392"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43903138"
 ---
 <a name="teams-experience-in-a-microsoft-365-or-office-365-onedrive-and-sharepoint-online-multi-geo-enabled-tenancy"></a>Microsoft 365 或 Office 365 OneDrive 與 SharePoint Online 多地域租賃中的團隊體驗
 ===========================================

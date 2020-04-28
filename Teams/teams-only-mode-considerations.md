@@ -8,7 +8,7 @@ ms.topic: conceptual
 audience: admin
 ms.service: msteams
 ms.reviewer: dearbeen
-description: 準備升級至 [僅限 Microsoft 團隊] 模式
+description: 系統管理員可以瞭解如何準備在 Microsoft 團隊系統管理中心升級至 [僅 Microsoft 團隊專用模式]。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -16,17 +16,18 @@ f1.keywords:
 ms.custom:
 - Teams-upgrade-guidance
 - ms.teamsadmincenter.orgwidesettings.teamsupgrade.upgradetoteams
+- seo-marvel-apr2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4c4619758672022ed767c56e296ba41d2dcc33fd
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: c45a21a1aae9facd10dafe675d10955b3fa90c62
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776818"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43903058"
 ---
 # <a name="teams-only-mode-considerations"></a>僅限團隊的模式考慮
 
@@ -37,7 +38,7 @@ ms.locfileid: "43776818"
 雖然成千上萬的客戶已成功升級至 Microsoft 團隊，但在這種情況下，可能也會影響貴組織的升級時程表和使用者體驗。 特別是，升級選項並不一定表示貴組織已準備好進行這項變更。 為了獲得最佳使用者體驗，請確認 Teams 符合您的共同作業與通訊需求，並確認您的網路已準備好可支援 Teams，並在將使用者升級至 Teams 之前，先進行您的使用者整備計劃。 
 
 > [!IMPORTANT]
-> 如果您剛剛開始升級規劃，請務必複習我們的完整升級指導方針和規劃資源。 [從這裡開始](upgrade-start-here.md)。 
+> 如果您剛剛開始升級規劃，請務必參閱我們[的 Microsoft 團隊快速入門升級](upgrade-start-here.md)指南。 
 
 **共存考慮**：已使用商務用 skype Online 和/或商務用 skype 伺服器的組織，會以符合其需求的節奏，將小組引入他們的環境中。 組織可以視需要將團隊逐漸推出給所需的使用者組，而使用團隊的使用者可以與使用商務用 Skype 的使用者通訊，反之亦然。 若要管理此體驗，系統管理員會使用共存模式來定義最終使用者用戶端體驗、傳入聊天和通話的傳送行為，以及是否在團隊或商務用 Skype 中排程新會議。 如果使用者只升級至**團隊**，則使用者可以與其他組織中的使用者聯盟;不過，當兩個使用者都使用團隊時，就會提供最佳體驗。 已升級至團隊的使用者仍然可以加入商務用 Skype 會議。 
 

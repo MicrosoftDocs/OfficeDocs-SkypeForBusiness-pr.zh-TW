@@ -13,19 +13,20 @@ ms.reviewer: crowe
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 直接路由的登陸頁面
+description: 深入瞭解直接路由，並瞭解您將面臨的必要部署決定。
+ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d643c137145649c0843296300a909c520ba653a6
-ms.sourcegitcommit: 0289062510f0791906dab2791c5db8acb1cf849a
+ms.openlocfilehash: ba1732864a765af5bb5a0dfc5504f1d37b5460b5
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42157901"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904578"
 ---
 # <a name="phone-system-direct-routing"></a>電話系統直接路由
 
-您已完成[開始使用](get-started-with-teams-quick-start.md)。 您已使用[聊天、團隊、頻道和應用程式](deploy-chat-teams-channels-microsoft-teams-landing-page.md)在組織中推出 Teams。 也許您已將[會議 & 會議](deploy-meetings-microsoft-teams-landing-page.md)已部署。 現在您已經準備好要新增雲端語音工作負載，而您決定要使用自己的電話運營公司來取得公用交換電話網絡（PSTN）連線，方法是使用 [電話系統直向] 路由。 透過直接路由，您可以在幾乎任何電話運營商中使用電話系統。
+您已完成[開始使用](get-started-with-teams-quick-start.md)。 您已使用[聊天、團隊、頻道和應用程式](deploy-chat-teams-channels-microsoft-teams-landing-page.md)在組織中推出 Teams。 也許您已將[會議 & 會議](deploy-meetings-microsoft-teams-landing-page.md)已部署。 現在您已經準備好要新增雲端語音工作負載，而您決定要使用自己的電話運營公司來取得公用交換電話網絡（PSTN）連線，方法是使用 [電話系統直向] 路由。 透過直接路由，您就可以實際地透過任何電信運營公司使用電話系統。
 
 本文將說明直接路由的核心部署決策，以及您可能想要考慮的其他考慮因素（視貴組織的需求而定）。 您也應該閱讀[Microsoft 團隊中的雲端語音](cloud-voice-landing-page.md)，以取得關於 Microsoft 雲端語音服務的詳細資訊。
 

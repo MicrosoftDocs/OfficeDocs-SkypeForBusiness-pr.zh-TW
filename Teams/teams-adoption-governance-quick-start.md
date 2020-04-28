@@ -10,21 +10,23 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: 針對您採用方案中的階段2作出重要決策
+description: '[快速入門] 涵蓋您在 Microsoft 團隊採用方案中需要進行的主要決策。'
 f1.keywords:
 - CSH
-ms.custom: Adopt
+ms.custom:
+- Adopt
+- seo-marvel-apr2020
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2a8c154a0e3f1366327b37b22531541fde288db2
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 7b24fd6e6ea957c085050dd1311ec536800b706b
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780482"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904318"
 ---
 # <a name="governance-quick-start-for-microsoft-teams"></a>Microsoft 團隊的管理快速入門
 

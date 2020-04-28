@@ -16,12 +16,13 @@ MS.collection:
 description: 瞭解如何使用 Microsoft 團隊系統管理中心的 [小組 PSTN 使用量] 報告，以取得貴組織中通話和音訊會議的使用方式的概覽。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c35699093168f5bb0443277f65da9a8060f27b69
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 411cf551697bd1fdd0902dc2d906e1c7752cd27d
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778249"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904298"
 ---
 # <a name="microsoft-teams-pstn-usage-report"></a>Microsoft 團隊 PSTN 使用方式報告
 
@@ -29,7 +30,7 @@ Microsoft [團隊管理中心] 中的 [團隊 PSTN 使用方式] 報告可讓您
 
 [**通話方案**] 索引標籤會顯示資訊，包括使用者在輸入和輸出 PSTN 通話中所花費的分鐘數，以及這些通話的成本。 [**直接路由**] 索引標籤會顯示您的資訊，包括 SIP 位址及呼叫開始和結束時間。 使用此報告中的資訊，深入瞭解貴組織中的 PSTN 使用量，並協助您調查、規劃及做出業務決策。
 
-## <a name="view-the-report"></a>查看報表
+## <a name="view-the-pstn-usage-report"></a>查看 PSTN 使用狀況報告
 
 1. 在 Microsoft [團隊管理中心] 的左導覽中，按一下 [**分析] & 報告** > **使用方式報告**。 在 [**查看報表**] 索引標籤的 [**報表**] 底下，選取 [ **PSTN 使用方式報告**]。
 2. 在 [**日期範圍**] 底下，選取7或28天的預先定義範圍，或設定自訂範圍，然後選取 [**執行報表**]。
@@ -40,7 +41,7 @@ Microsoft [團隊管理中心] 中的 [團隊 PSTN 使用方式] 報告可讓您
 
 ![系統管理中心的通話方案 PSTN 使用報告報告的螢幕擷取畫面](../media/teams-reports-pstn-usage-calling-plans-with-callouts.png "[Microsoft 團隊系統管理中心] 中含有編號標注的 PSTN 使用狀況報告螢幕擷取畫面")
 
-|圖說文字 |描述  |
+|圖說文字 |說明  |
 |--------|-------------|
 |**1**   |您可以在過去7天、28天或您設定的自訂日期範圍中查看趨勢 |
 |**2**   |每個報告都有產生的日期。 報告通常會反映來自啟用時間的24到48小時延遲時間。 |
@@ -55,7 +56,7 @@ Microsoft [團隊管理中心] 中的 [團隊 PSTN 使用方式] 報告可讓您
 
 ![系統管理中心 [直接路由 PSTN 使用狀況報告] 報告的螢幕擷取畫面](../media/teams-reports-pstn-usage-direct-routing-with-callouts.png "在 Microsoft 團隊系統管理中心使用編號標注直接路由 PSTN 使用方式報告的螢幕擷取畫面")
 
-|圖說文字 |描述  |
+|圖說文字 |說明  |
 |--------|-------------|
 |**1**   |您可以在過去7天或28天的趨勢中查看報告。 |
 |**2**   |每個報告都有產生的日期。 報告通常會反映來自啟用時間的24到48小時延遲時間。 |
@@ -79,10 +80,10 @@ Microsoft [團隊管理中心] 中的 [團隊 PSTN 使用方式] 報告可讓您
 
 共用的相關識別碼只會存在於您下載的匯出 Excel 檔案中，並指出兩個或多個通話是相關的。 下列說明不同的案例，以及共用的相關識別碼存在時。
 
-1.  Pstn 使用者1在團隊用戶端上名為「團隊使用者1」的 PSTN 端點上，通話類型 Dr_In，相關識別碼 57f28917-42k5-4c0c-9433-79734873f2ac，無共用的關聯 ID。
-2.  小組使用者1在 PSTN 端點上稱為 PSTN 使用者1的團隊用戶端上，呼叫 type Dr_Out 2c12b8ca-62eb-4c48-b68d-e451f518ff4，無共用的相關識別碼。
-3.  PSTN 使用者1在團隊用戶端上稱為團隊使用者2，呼叫類型 Dr_In f45e9a25-9f94-46e7-a457-84f5940efde9，共用相關識別碼 f45e9a25-9f94-46e7-a457-84f5940efde9。
-4.  現有的呼叫3，相關 ID 為 "f45e9a25-9f94-46e7-a457-84f5940efde9"。 在與團隊使用者2通話中的 PSTN 使用者1。 團隊使用者2已傳送（盲人或顧問式）對團隊或 PSTN 使用者的呼叫、呼叫類型 Dr_Out_User_Transfer 45a1da7c-9e97-481a-8a05-3fe19a9a77e0、共用的相關識別碼 f45e9a25-9f94-46e7-a457-84f5940efde9。
+1.    Pstn 使用者1在團隊用戶端上名為「團隊使用者1」的 PSTN 端點上，通話類型 Dr_In，相關識別碼 57f28917-42k5-4c0c-9433-79734873f2ac，無共用的關聯 ID。
+2.    小組使用者1在 PSTN 端點上稱為 PSTN 使用者1的團隊用戶端上，呼叫 type Dr_Out 2c12b8ca-62eb-4c48-b68d-e451f518ff4，無共用的相關識別碼。
+3.    PSTN 使用者1在團隊用戶端上稱為團隊使用者2，呼叫類型 Dr_In f45e9a25-9f94-46e7-a457-84f5940efde9，共用相關識別碼 f45e9a25-9f94-46e7-a457-84f5940efde9。
+4.    現有的呼叫3，相關 ID 為 "f45e9a25-9f94-46e7-a457-84f5940efde9"。 在與團隊使用者2通話中的 PSTN 使用者1。 團隊使用者2已傳送（盲人或顧問式）對團隊或 PSTN 使用者的呼叫、呼叫類型 Dr_Out_User_Transfer 45a1da7c-9e97-481a-8a05-3fe19a9a77e0、共用的相關識別碼 f45e9a25-9f94-46e7-a457-84f5940efde9。
 
 ## <a name="exporting-the-reports"></a>匯出報表
 按一下 [**匯出至 Excel**]，然後在 [**下載**] 索引標籤上，按一下 [**下載**] 以在準備好時下載報告。 匯出程式可能需要幾秒鐘到數分鐘的時間，才能完成，視資料數量而定。
@@ -103,11 +104,11 @@ CSV 的第一列包含資料行名稱。 所有日期都是 UTC，且是[ISO 860
 
  除非國家/地區專用的規章禁止將資料保留12個月，否則您可以從目前日期開始匯出一年的資料。
 
-| # | 名稱 | [資料類型（SQL Server）](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | 描述 |
+| # | 名稱 | [資料類型（SQL Server）](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | 說明 |
 | :-: | :-: | :-: |:------------------- |
 | 0 | UsageId | `uniqueidentifier` | 唯一的呼叫識別碼 |
 | 1 | 通話 ID | `nvarchar(64)` | [通話識別碼]。 不保證唯一 |
-| pplx-2 | 會議 ID | `nvarchar(64)` | 音訊會議的識別碼 |
+| 2 | 會議 ID | `nvarchar(64)` | 音訊會議的識別碼 |
 | 3 | 使用者位置 | `nvarchar(2)` | 使用者的國家/地區代碼， [ISO 3166-1 Alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
 | 4 | AAD ObjectId | `uniqueidentifier` | 在 Azure Active Directory 中呼叫使用者的 ID。<br/> 在 bot 呼叫類型（ucap_in、ucap_out）中，此和其他使用者資訊將會是 null/空。 |
 | 500 | UPN | `nvarchar(128)` | Azure Active Directory 中的 UserPrincipalName （登入名稱）。<br/>這通常與使用者的 SIP 位址相同，而且可以與使用者的電子郵件地址相同 |
@@ -130,11 +131,11 @@ CSV 的第一列包含資料行名稱。 所有日期都是 UTC，且是[ISO 860
 
 除非國家/地區專用的規章禁止保留該期間的資料，否則您最多可以將資料從目前日期匯出到五個月（150天）。
 
-| # | 名稱 | [資料類型（SQL Server）](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | 描述 |
+| # | 名稱 | [資料類型（SQL Server）](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | 說明 |
 | :-: | :-: | :-: |:------------------- |
 | 0 | Id | `uniqueidentifier` | 唯一的呼叫識別碼 |
 | 1 | SIP 位址 | `nvarchar(128)` | 撥打或接聽電話的使用者或 bot 的位址。<br/>請注意，這實際上是 Azure Active Directory 中的實際 UserPrincipalName （UPN，登入名稱），通常與 SIP 位址相同 |
-| pplx-2 | 顯示名稱 | `nvarchar(128)` | 在 Microsoft 365 系統管理中心設定的使用者名稱或通話 bot （例如通話佇列或自動語音應答） |
+| 2 | 顯示名稱 | `nvarchar(128)` | 在 Microsoft 365 系統管理中心設定的使用者名稱或通話 bot （例如通話佇列或自動語音應答） |
 | 3 | 使用者所在國家/地區 | `nvarchar(2)` | 使用者的國家/地區代碼， [ISO 3166-1 Alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
 | 4 | 邀請時間 | `datetimeoffset` | 當初始邀請是從團隊使用者或 bot 呼叫到 SBC，或從 SBC 直接路由的 SIP Proxy 元件呼叫給團隊或 bot 撥入時 |
 | 500 | 開始時間 | `datetimeoffset` | SIP proxy 收到最終的答案（SIP 訊息 "200 OK"）的時間，即從輸出的 SBC （團隊/Bot 到 PSTN 使用者），或 SIP Proxy 在撥入呼叫（PSTN 使用者至團隊/Bot）之後，將邀請傳送至團隊後端的下一個躍點。<br/>對於失敗與未接聽的通話，這可以等於邀請或失敗時間 |

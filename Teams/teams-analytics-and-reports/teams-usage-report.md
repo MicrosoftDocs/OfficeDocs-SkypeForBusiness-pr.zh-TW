@@ -16,18 +16,19 @@ ms.collection:
 description: 瞭解如何使用 Microsoft 團隊系統管理中心中的 [團隊使用量] 報告，以取得貴組織中的小組活動的概覽。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0252478a1ca41962ecdc424f97c85025b6b7dda9
-ms.sourcegitcommit: f4beced1a74d123253e166c7d402c1f24653d452
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 8cc25c5f63bd8645e5bfc540438a77f37abaa164
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43528418"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904268"
 ---
 # <a name="microsoft-teams-usage-report"></a>Microsoft 團隊使用量報告
 
 Microsoft 團隊系統管理中心中的 [團隊使用方式] 報告可讓您大致瞭解團隊中的使用狀況活動，包括作用中使用者和頻道的數目，讓您可以快速查看貴組織中的使用者數是使用團隊進行通訊和共同作業。 您可以查看小組的使用方式資訊，包括每個小組中的作用中使用者數與頻道、來賓和訊息。
 
-## <a name="view-the-report"></a>查看報表
+## <a name="view-the-usage-report"></a>查看使用狀況報告
 
 1. 在 Microsoft [團隊管理中心] 的左導覽中，按一下 [**分析] & 報告** > **使用方式報告**。 在 [**查看報表**] 索引標籤的 [**報表**] 底下，選取 [**團隊使用方式**]。
 2. 在 [**日期範圍**] 底下，選取一個範圍，然後按一下 [**執行報表**]。
@@ -36,7 +37,7 @@ Microsoft 團隊系統管理中心中的 [團隊使用方式] 報告可讓您大
 
 ## <a name="interpret-the-report"></a>解讀報表
 
-|圖說文字 |描述  |
+|圖說文字 |說明  |
 |--------|-------------|
 |**1**   |您可以針對過去7天、28或90天的趨勢，查看 [團隊使用方式] 活動報告。 |
 |**2**   |每個報告都有產生此報告的日期。 報告通常會反映來自啟用時間的24到48小時延遲時間。 |

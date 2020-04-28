@@ -12,13 +12,14 @@ ms.collection:
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 本文將討論 Microsoft 團隊聊天室的生命週期支援。
-ms.openlocfilehash: 27610cd7a7ed5c2bca1fcb118b3687149d2872d0
-ms.sourcegitcommit: a610bfe9c0192432744dfaf8d5ff5c2bb5a16b00
+description: 瞭解 Microsoft 團隊聊天室的生命週期支援，包括動態支援結構及其階段。
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 6a6a3000b97de9756c78ed09c5f4d56a237fda0d
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "43190824"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905375"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Microsoft 團隊聊天室 app 版本支援
  
@@ -63,10 +64,10 @@ Microsoft 團隊聊天室需要 Windows 10 IoT Enterprise 或 Windows 10 企業�
 
 當您使用受支援版本的 Windows 10 時，您將永遠會取得 Microsoft 團隊聊天室 app 的最新應用程式更新。  
 
-## <a name="see-also"></a>另請參閱
+## <a name="related-topics"></a>相關主題
 
 [Microsoft 團隊聊天室說明](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 [Microsoft 團隊聊天室版本資訊](rooms-release-note.md)
 
-[規劃 Microsoft 團隊聊天室](rooms-plan.md)
+[規劃 Microsoft Teams 會議室](rooms-plan.md)
