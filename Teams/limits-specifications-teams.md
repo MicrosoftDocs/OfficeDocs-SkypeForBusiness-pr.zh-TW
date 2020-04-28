@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: ''
-description: 了解套用到 Microsoft Teams 的限制、規格和其他需求。
+description: 本文說明套用到 Microsoft Teams 的限制、規格和其他需求。
 localization_priority: Priority
 f1.keywords:
 - NOCSH
@@ -17,12 +17,13 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a2e1073736ff927c34c56f3236d98e338384942d
-ms.sourcegitcommit: 6fbaab29076e16fe18f8faeb7e012a0815c2369d
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 03cc795f9d3df5500c4eafceee4a1fd5d3605fb6
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43785876"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904028"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和規格
 

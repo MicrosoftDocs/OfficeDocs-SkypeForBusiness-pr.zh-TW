@@ -8,7 +8,8 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: ''
-description: 如何使用新式驗證登入 Microsoft Teams。 包含當使用者使用會告知 Windows 略過 UPN 的設定登入時，如何將新增 UPN 使用者名稱自動略過。
+description: 了解新式驗證如何運作、如何切換帳戶，以及如何疑難排解新式驗證。
+ms.custom: seo-marvel-apr2020
 localization_priority: Priority
 ms.collection:
 - M365-collaboration
@@ -16,13 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 5e61b1cb79b7c4e2989d823af2c6617337291cf6
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 43bbb3018b1c0cbe9f225a8a78acd4007b9232c2
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43138892"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43903728"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>使用新式驗證登入 Microsoft Teams
 ==========================

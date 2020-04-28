@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 中的應用程式、Bot 和連接器
 ms.reviewer: ''
-description: 使用者這些部署資源協助您在 Microsoft 中部署應用程式。
+description: 了解應用程式、Bot 和連接器，以及如何根據貴組織的設定檔和商務需求，決定要在 Microsoft Teams 中部署哪些應用程式、Bot 和連接器。
 ms.topic: article
 author: LolaJacobsen
 ms.author: lolaj
@@ -17,12 +17,13 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d47a14dd84a1ccbe73d07ea3cbd638b5ed6159db
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 83e5c452cd2e9056818059c5f0b1ddcdeca2c235
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776618"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43901948"
 ---
 # <a name="apps-bots--connectors-in-microsoft-teams"></a>Microsoft Teams 中的應用程式、Bot 和連接器
 

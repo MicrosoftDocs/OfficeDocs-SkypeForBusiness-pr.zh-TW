@@ -14,18 +14,18 @@ f1.keywords:
 - CSH
 ms.custom:
 - Teams-upgrade-guidance
-- seo-marvel-mar2020
+- seo-marvel-apr2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 44544e440d9f6cdfff08ae66ed7f425abf69fb4d
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 595d8104e465217533a8e751eae69156cb548921
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136533"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43902948"
 ---
 # <a name="faq--upgrading-from-skype-for-business-to-microsoft-teams"></a>常見問題 - 從商務用 Skype 升級至 Microsoft Teams
 
@@ -164,7 +164,7 @@ Teams 可以在教育版套件授權的所有 Office 365 中取得：除了在�
 
 ### <a name="is-teams-available-in-the-government-community-cloud-gcc"></a>Teams 是否可以在政府社群雲端 (GCC) 中取得？
 
-是，美國政府社群雲端 (GCC) 提供 Teams。 [深入了解](plan-for-government-gcc.md)。
+是，美國政府社群雲端 (GCC) 提供 Teams。 若要深入了解，請參閱[適用於 Microsoft 365 GCC 部署的方案](plan-for-government-gcc.md)。
 
 ## <a name="calling-capabilities"></a>通話功能
 
@@ -204,7 +204,7 @@ Teams 可以在教育版套件授權的所有 Office 365 中取得：除了在�
 
 ### <a name="will-skype-room-systems-v1-be-updated-to-support-teams-meetings"></a>Skype 會議室系統 v1 是否會更新以支援 Teams 會議？
 
-具有 Skype 會議室系統第 1 版 (SRS v1) 軟體的 Lync Room System (LRS) 裝置，已經在 2018 年 10 月 9 日終止支援。 這表示 Skype 會議室系統 v1 軟體將不再取得任何產品更新或修正。 如果客戶的裝置是使用 Skype 會議室系統 v1 軟體的 Lync Room System 裝置，建議您將其裝置升級至「Microsoft Teams 會議室」。 [深入了解](rooms/lrs-migration.md)。
+具有 Skype 會議室系統第 1 版 (SRS v1) 軟體的 Lync Room System (LRS) 裝置，已經在 2018 年 10 月 9 日終止支援。 這表示 Skype 會議室系統 v1 軟體將不再取得任何產品更新或修正。 如果客戶的裝置是使用 Skype 會議室系統 v1 軟體的 Lync Room System 裝置，建議您將其裝置升級至「Microsoft Teams 會議室」。 若要深入了解，請參閱 [將 Lync 會議室系統 (LRS) 裝置遷移至 Microsoft Teams 會議室](rooms/lrs-migration.md)。
 
 ## <a name="management-capabilities"></a>管理功能
 

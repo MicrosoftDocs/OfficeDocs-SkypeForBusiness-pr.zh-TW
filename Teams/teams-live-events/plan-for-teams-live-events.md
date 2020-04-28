@@ -14,15 +14,16 @@ localization_priority: Priority
 ms.collection:
 - M365-collaboration
 search.appverid: MET150
-description: 了解在 Microsoft Teams 中設定即時活動之前需考量的因素。
+description: 在本文中，您將了解在 Microsoft Teams 中設定即時活動之前需考量的因素。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aabd94e8a5c4904f0343e2c8ccb647d632f3fa21
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: c0246a8517035ab5edd347fef30ae3f86af4afd9
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779962"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43903078"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中規劃即時活動
 
@@ -99,6 +100,7 @@ ms.locfileid: "43779962"
 |外部存取 (同盟) 和來賓簡報者/出席者 |&#x2714; (商務用 Skype)  |  &#x2714; (Teams) |不適用 |
 |簡報者 - PSTN 存取 |&#x274C; |&#x2714; (Teams) |不適用 |
 |展示畫面 |&#x274C; |&#x2714; (Teams) |不適用 |
+|在 Windows 上共用系統音訊 (僅適用於螢幕共用時)|&#x274C; |&#x2714; (Teams) |&#x2714; |
 |展示 PowerPoint (PPT 共用) |&#x2714; |&#x274C; (透過螢幕畫面分享緩解) |不適用 |
 |雲端式會議錄製 |&#x2714; |&#x2714; |&#x2714; |
 |自動發佈錄製到 Stream |&#x274C; |&#x274C; |&#x2714; |

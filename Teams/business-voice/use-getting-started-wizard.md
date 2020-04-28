@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95ad893b3070a560edfa0e4afe46ab10df2960ad
-ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.openlocfilehash: 9a22c741898b48c3d71970699f09c00bb638205f
+ms.sourcegitcommit: 3ef5c913318fdeeaa8c55caab07c2f8224eae2b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43096878"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43898128"
 ---
 # <a name="use-the-getting-started-wizard-to-set-up-business-voice"></a>使用 [快速入門精靈] 設定商務語音
 
@@ -49,7 +49,7 @@ Microsoft 365 商務語音快速入門精靈可讓您在 Microsoft Teams 中快�
 
 <table>
     <tr>
-        <td>如果需要變更緊急地址，請按一下 <b>[編輯]</b>，然後輸入新地址。 您提供的地址需經過驗證，以確認其合法性且格式正確，可供緊急回應服務時使用。 然後，此地址會指派給在下一個步驟中指派號碼的所有使用者。 如果您有位於超過單一位置的員工，請參閱<a href="./customize-business-voice.md">商務語音設計自訂</a>，了解如何在準備 [快速入門精靈] 後，新增並指派更多緊急地址。</td> 
+        <td>如果需要變更緊急地址，請按一下 <b>[編輯]</b>，然後輸入新地址。 您提供的地址需經過驗證，以確認其合法性且格式正確，可供緊急回應服務時使用。 然後，此地址會指派給在下一個步驟中指派號碼的所有使用者。 如果您有位於超過單一位置的員工，請參閱<a href="./customize-business-voice.md">商務語音設計自訂</a>，了解如何在準備 [快速入門精靈] 後，新增並指派更多緊急地址。</td>
         <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-choose-number.png" width="400"></td></tr>
 </table>
 
@@ -59,7 +59,7 @@ Microsoft 365 商務語音快速入門精靈可讓您在 Microsoft Teams 中快�
 
 <table>
     <tr>
-        <td>除了新的當地電話號碼以外，您還可以購買免付費電話號碼，或將現有的號碼移轉到 Microsoft 365。 若要設定免付費電話號碼，您必須購買通話方案。 若要將一或多個號碼移轉至 Microsoft 365，請在精靈完成後，前往 <a href="https://admin.teams.microsoft.com">Teams 系統管理中心</a>。
+        <td>除了新的當地電話號碼以外，您還可以購買免付費電話號碼，或將現有的號碼移轉到 Microsoft 365。 若要設定免付費電話號碼，您必須購買通訊點數。 若要將一或多個號碼移轉至 Microsoft 365，請在精靈完成後，前往 <a href="https://admin.teams.microsoft.com">Teams 系統管理中心</a>。
         </td>
         <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-choose-number.png" width="400">
         </td>

@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 756059aaf7a707a824c75bd0306df04a70b66829
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: d380300aa27d07ecfecdbe805be9042c88779285
+ms.sourcegitcommit: 3ef5c913318fdeeaa8c55caab07c2f8224eae2b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780562"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43898158"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>開始使用 Microsoft Teams 進行遠端學習
 
@@ -76,6 +76,9 @@ Microsoft Teams 隨附於 Office 365 A1 中，教育機構可免費試用。 如
 如需如何建立 Teams 的逐步解說，請參閱[在 Microsoft Teams 中建立班級團隊](https://support.office.com/article/create-a-class-team-in-microsoft-teams-preview-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b)。
 
 ### <a name="2-configure-user-experiences-using-policies"></a>2. 使用原則設定使用者體驗
+
+> [!IMPORTANT]
+> 如果您需要深入了解如何在會議過程中保護學生，您可以查看[在 Teams 中使用會議進行遠距學習時確保學生的安全](https://support.office.com/article/f00fa399-0473-4d31-ab72-644c137e11c8)。
 
 [Teams 原則](teams-policies.md)能讓您控制特定使用者或使用者群組可用的選項。 您可以套用原則來定義應允許哪些人員使用私人交談、私人通話、會議排程、可以共用的內容類型等等。
 
@@ -156,8 +159,6 @@ Microsoft Teams 教育版提供[特定類型的 Teams](https://support.office.co
 
 > [!NOTE]
 > 部分重要的 Teams 功能並非專為教育所用。 您可以在下列位置找到核心 Teams 功能的秘訣與訣竅：[Microsoft Teams 說明與學習](https://support.office.com/teams)。
-
-如果您想要深入了解如何在會議過程中保護學生，您可以查看[在 Teams 中使用會議進行遠距學習時確保學生的安全](https://support.office.com/article/f00fa399-0473-4d31-ab72-644c137e11c8)。
 
 ### <a name="prevent-users-from-changing-their-profile-photo"></a>防止使用者變更其個人資料相片
 
