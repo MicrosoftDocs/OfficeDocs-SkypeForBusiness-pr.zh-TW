@@ -4,7 +4,7 @@ summary: 瞭解如何推出及管理團隊，並為您的小組準備您的使�
 brand: teams
 metadata:
   title: Microsoft 團隊系統管理檔
-  description: 瞭解如何推出及管理團隊，並為您的小組準備您的使用者
+  description: 瞭解 Microsoft 團隊系統管理檔，包括如何推出及管理團隊，以及為團隊使用者做好準備。
   ms.service: msteams
   ms.topic: hub-page
   audience: ITPro
@@ -12,12 +12,13 @@ metadata:
   ms.author: samanro
   ms.date: 02/12/2020
   localization_priority: Priority
-  ms.openlocfilehash: e3c67ada87cdee958fbb76c4862e01b1ced7901a
-  ms.sourcegitcommit: 1bb3df681177db5ecc6afae3d3f3a46c251e5c23
+  ms.custom: seo-marvel-apr2020
+  ms.openlocfilehash: 77c0310989bb8b6cb649afd4fa24c6f6bd641a18
+  ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
   ms.translationtype: MT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 04/02/2020
-  ms.locfileid: "43117531"
+  ms.lasthandoff: 04/27/2020
+  ms.locfileid: "43905475"
 highlightedContent:
   items:
   - title: COVID-19 回應-使用團隊支援遠端工作人員
