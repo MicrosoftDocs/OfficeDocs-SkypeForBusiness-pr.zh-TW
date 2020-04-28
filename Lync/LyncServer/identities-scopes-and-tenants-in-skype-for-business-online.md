@@ -1,5 +1,5 @@
 ---
-title: 身分識別、 範圍與 skype for Business Online 租用戶
+title: 商務用 Skype Online 中的身分識別、範圍和承租人
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,12 +12,12 @@ ms:contentKeyID: 56558817
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e6c6f0c08d03cd746f5929f6a7f1d82373a527a4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 598f1cb760a6b4ca969c1e8df25f9735fd0df7c1
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180290"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918561"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42180290"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="identities-scopes-and-tenants-in-skype-for-business-online"></a>身分識別、 範圍與 skype for Business Online 租用戶
+# <a name="identities-scopes-and-tenants-in-skype-for-business-online"></a>商務用 Skype Online 中的身分識別、範圍和承租人
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "42180290"
 
 <span> </span>
 
-_**主題上次修改日期：** 2015年-03-09_
+_**主題上次修改日期：** 2015-03-09_
 
-許多用來管理商務用 Skype 的 Windows PowerShell cmdlet 需要非常特定的對想要管理的項目。 例如，當您執行[設定 CsUserAcp](https://docs.microsoft.com/powershell/module/skype/Set-CsUserAcp)指令程式，您必須指定想要管理的使用者。 這是合理。 除非您特別告知指令程式來管理使用者帳戶，**設定 CsUserAcp**指令程式都有任何想法應該可以修改哪些使用者的音訊會議資訊。 基於這個理由，每次您執行**設定 CsUserAcp** cmdlet 時，您將需要加入 Identity 參數，後面接著要修改的使用者帳戶的身分識別：
+許多用來管理商務用 Skype Online 的 Windows PowerShell Cmdlet，都需要您特別注意嘗試管理的專案。 例如，當您執行 CsUserAcp 指令[程式](https://docs.microsoft.com/powershell/module/skype/Set-CsUserAcp)時，您必須指出嘗試管理的使用者。 這會有意義。 除非您明確告訴 Cmdlet 要管理哪個使用者帳戶，否則**CsUserAcp 指令程式**不會知道應修改哪一個使用者的音訊會議資訊。 基於這個理由，每次執行 CsUserAcp 指令**程式**時，您必須加入 identity 參數，後面接著要修改的使用者帳戶身分識別：
 
     Set-CsUserAcp -Identity "Ken Myer" -TollNumber "14255551298" -ParticipantPassCode 13761 -Domain "fabrikam.com" -Name "Fabrikam ACP"
 
-如果字詞一律參照的使用者帳戶的身分識別*身分識別*，就很少造成混淆。 當您正在處理與人員 （使用者、 連絡人、 等等） 時，身分識別參照個別的使用者本身。 不過，使用者帳戶以外的項目也有身分識別。 當您在處理與 Skype for Business Online service 的元件-原則、 組態設定，等等 — 身分識別 」 是指稍有不同的字詞。 例如，假設此命令：
+如果字詞*識別碼*永遠稱為使用者帳戶的身分識別，將不會造成混淆的原因很小。 當您處理人員時（使用者、連絡人等等），身分識別會參照個別的使用者。 不過，使用者帳戶以外的專案也具有身分識別。 當您處理商務用 Skype Online 服務的元件時（原則、設定設定等等），「字詞身分識別」表示有些略有不同。 例如，請考慮下列命令：
 
     Get-CsMeetingConfiguration -Identity "global"
 
-在此情況下，Identity 為"global 」 指的是範圍的會議組態設定。 *範圍*是和所用的商務用 Skype （Lync Server） 的字詞來指定鄰的管理。 根據預設，原則與設定一律會擁有全域範圍。 當您第一次設定您 Skype for Business Online 帳戶必須，根據預設，全域原則及設定一群 — 全域會議組態設定、 全域外部存取原則、 全域撥號對應表，依此類推。
+在此情況下，身分識別 "global" 是指會議配置設定的範圍。 *範圍*是用於商務用 Skype Online （在 Lync Server 中，也就是 Lync Server）中的字詞，用來指定的管理。 原則和設定預設會永遠具有全域範圍。 當您第一次設定商務用 Skype Online 帳戶時，預設會有一個全域原則和設定的集合，全域會議設定、全域外部存取原則、全域撥號對應表等的集合。
 
-為了協助確保之所有使用者和所有元件會永遠，以某種方式，受管理的 Microsoft Lync Server 2010 中引進下列全域原則與設定。 這是不一定為 true，Microsoft Office Communicator 2007 R2。 根據您，如何存取系統，您無法可能最後的主要是未受管理的狀態 （通常是因為群組原則無法套用至您的使用者帳戶）。 相反地，在 Lync Server 和商務用 Skype，則是 nothing 屬於左未受管理。 這是因為任何動作，您就不用全域原則與設定將一律會強制執行。
+這些全域原則和設定會在 Microsoft Lync Server 2010 中引進，以協助確保所有使用者和所有元件都一定會受到管理。 在 Microsoft Office Communicator 2007 R2 中，這不一定是 true。 視您存取系統的方式而定，您可能會有很大的非管理狀態（通常是因為群組原則無法套用至您的使用者帳戶）。 相反地，在 Lync Server 和商務用 Skype Online 中，永遠不會留下任何專案。 這是因為絕對會強制執行全域原則及設定，而不是任何其他專案。
 
-我們由 「 就不需任何其他項目 」 代表什麼意義？ Skype 商務 Online，若是沒錯，可以建立原則*標記的範圍*，或管理的圓球。 在標記範圍 （也就是*個別使用者範圍*） 中建立的原則優先於全域範圍建立原則。 換句話說，每一使用者原則將會一律優先於全域原則。 例如，您可能有兩個外部使用者存取原則。 全域原則會禁止使用者擁有公用立即訊息 (IM) 提供者，例如 Windows Live 帳戶的人通訊。 個別使用者原則，AllowPublicIMCommunication，可讓與公用 IM 提供者的通訊。
+「代替其他任何人」是什麼意思？ 好的情況是，在商務用 Skype Online 中，您可以在*標記範圍*或管理的球體建立原則。 在標記範圍建立的原則（也稱為個別*使用者範圍*）優先于在全域範圍內建立的原則。 換句話說，每一使用者原則永遠優先于全域原則。 例如，您可能有兩個外部使用者存取原則。 全域原則禁止使用者與在公用立即訊息（IM）提供者（例如 Windows Live）上帳戶的使用者進行通訊。 每一使用者原則 AllowPublicIMCommunication，允許與公用 IM 提供者通訊。
 
-您可能也有兩位使用者： Ken Myer 與 Pilar Ackerman。 Ken Myer 已被指派個別使用者原則。 為 pilar Ackerman 尚未被指派每位使用者的原則;也就是說，她管理由全域外部存取原則。 下表顯示哪些使用者 （如果有的話） 可以與彼此公用 IM 提供者：
+您也可能會有兩位使用者： Ken Myer 和 Pilar Ackerman。 Ken Myer 已被指派每個使用者的原則。 尚未將每一使用者原則指派給 Pilar Ackerman;也就是說，她是由全域外部存取原則所管理。 下表顯示可與公用 IM 提供者通訊的使用者（如果有的話）：
 
 
 <table>
@@ -79,7 +79,7 @@ _**主題上次修改日期：** 2015年-03-09_
 <td><p>否</p></td>
 </tr>
 <tr class="odd">
-<td><p>使用者可以與彼此公用 IM 提供者</p></td>
+<td><p>使用者可以與公用 IM 提供者通訊</p></td>
 <td><p>是</p></td>
 <td><p>否</p></td>
 </tr>
@@ -87,9 +87,9 @@ _**主題上次修改日期：** 2015年-03-09_
 </table>
 
 
-如您所見，Ken Myer 會允許與公用 IM 提供者進行通訊。 這是因為中指派給他的每一使用者原則的設定會覆寫全域原則設定。 為 pilar Ackerman 無法與公用 IM 提供者進行通訊。 這是因為她會受全域原則，並全域原則禁止這類通訊。
+如您所見，允許 Ken Myer 與公用 IM 提供者通訊。 這是因為指派給他的個別使用者原則中的設定會覆寫全域原則中的設定。 Pilar Ackerman 無法與公用 IM 提供者通訊。 這是因為她是由全域原則所管理，而全域原則則禁止這類通訊。
 
-由 Office 365 支援人員，必須為您建立個別使用者原則。 建立原則之後，您可以再指派這些使用者使用適當的**授與 Cs**指令程式 (例如， [Grant-csexternalaccesspolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsExternalAccessPolicy))。 每一使用者原則很容易識別因為原則 Identity 一律為開頭標記**前置詞**。 例如：
+每個使用者的原則都必須為您建立 Microsoft 支援服務。 建立原則之後，您可以使用適當的**授與 Cs** Cmdlet 將它們指派給使用者（例如，[授與 get-csexternalaccesspolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsExternalAccessPolicy)）。 因為原則識別永遠以標記**前置**詞開頭，所以個別使用者原則很容易識別。 例如：
 
     Identity : tag:AllowPublicIMCommunication
 
@@ -97,35 +97,35 @@ _**主題上次修改日期：** 2015年-03-09_
 
 
 > [!NOTE]  
-> 回到開發早期 Lync Server 2010 的標記<STRONG>前置詞</STRONG>日期。 這些天內個別使用者原則已稱為<EM>標籤原則</EM>，並已識別的標記<STRONG>前置詞</STRONG>。 這些原則現在更精確地稱為<EM>個別使用者原則</EM>，而且標籤範圍更精確地稱為<EM>每個使用者範圍</EM>。 不過，基於技術考量，已永遠不會變更標記<STRONG>前置詞</STRONG>。
+> 標記<STRONG>首碼</STRONG>日期回到 Lync Server 2010 的早期開發天。 在這天內，每個使用者的原則稱為<EM>標記原則</EM>，並由標記<STRONG>前置</STRONG>詞識別。 這些原則現在會以<EM>每個使用者的原則</EM>更準確地稱為，標籤範圍會更準確地稱為個別<EM>使用者範圍</EM>。 不過，由於技術原因，標記<STRONG>首碼</STRONG>永遠不會變更。
 
 
 
 </div>
 
-使用 Skype for Business Online 和 Windows PowerShell 時使用的另一個重要字詞是*租用戶*。 當您設定 「 Skype for Business Online 帳戶時，指派新部署的租用戶識別碼號碼，也就是類似這樣的全域唯一識別碼 (GUID):
+使用商務用 Skype Online 和 Windows PowerShell 的另一個關鍵術語是*租*使用者。 當您設定商務用 Skype Online 帳戶時，您的新部署會指派租使用者識別碼（GUID），這是類似以下的全域唯一識別碼（GUID）：
 
     bf19b7db-6960-41e5-a139-2aa373474354
 
-Skype 商務 Online 指令程式的幾個要求您輸入的租用戶識別碼，每當您執行 cmdlet。 您必須輸入的租用戶識別碼，即使您已登入，並只能有一個租用戶。 幸好，您不需要記下租用戶識別碼。 您可以隨時擷取租用戶識別碼，藉由執行下列 Windows PowerShell 命令：
+在您每次執行 Cmdlet 時，有些商務用 Skype Online Cmdlet 會要求您輸入租使用者識別碼。 您必須輸入租使用者識別碼，即使您已登入，而且只有一個承租人。 幸運的是，您不需要記住租使用者識別碼。 您可以隨時執行下列 Windows PowerShell 命令，來取得租使用者識別碼：
 
     Get-CsTenant | Select-Object TenantId
 
-當然，了解等全域範圍和個別使用者範圍 （或標籤範圍） 之間的差異是只一半。 務必要知道當 （或即使） 您可以使用這些範圍。 相同是身分識別和 tenant 參數，則為 true。 下列主題說明不同的 Skype for Business Online 指令程式如何使用身分識別、 範圍和 tenant 參數：
+當然，知道全域範圍和個別使用者範圍（或標記範圍）之間的差異，只是部分工作。 請務必知道何時（或甚至是）您可以使用這些範圍。 識別碼和租使用者參數也是如此。 下列主題說明不同的商務用 Skype Online Cmdlet 如何使用 identity、範圍及承租人參數：
 
-  - [Skype 商務 Online 中使用全域範圍的指令程式](cmdlets-in-skype-for-business-online-that-use-only-the-global-scope.md)
+  - [僅使用全域範圍之商務用 Skype Online 中的 Cmdlet](cmdlets-in-skype-for-business-online-that-use-only-the-global-scope.md)
 
-  - [Skype 商務 Online 中使用全域範圍和標籤範圍的指令程式](cmdlets-in-skype-for-business-online-that-use-the-global-scope-and-the-tag-scope.md)
+  - [使用全域範圍及標記範圍的商務用 Skype Online 中的 Cmdlet](cmdlets-in-skype-for-business-online-that-use-the-global-scope-and-the-tag-scope.md)
 
-  - [Skype 商務 Online 中使用的使用者身分識別的指令程式](cmdlets-in-skype-for-business-online-that-use-a-user-identity.md)
+  - [使用使用者身分識別的商務用 Skype Online 中的 Cmdlet](cmdlets-in-skype-for-business-online-that-use-a-user-identity.md)
 
-  - [Skype 商務 Online 中使用的使用者身分識別和標籤範圍的指令程式](cmdlets-in-skype-for-business-online-that-use-a-user-identity-and-the-tag-scope.md)
+  - [使用使用者身分識別及標記範圍的商務用 Skype Online 中的 Cmdlet](cmdlets-in-skype-for-business-online-that-use-a-user-identity-and-the-tag-scope.md)
 
-  - [Skype 商務 Online 中使用 Tenant 參數的指令程式](cmdlets-in-skype-for-business-online-that-use-the-tenant-parameter.md)
+  - [使用承租人參數的商務用 Skype Online 中的 Cmdlet](cmdlets-in-skype-for-business-online-that-use-the-tenant-parameter.md)
 
-  - [Skype 商務 Online 中使用的會議提供者身分識別的指令程式](cmdlets-in-skype-for-business-online-that-use-a-conferencing-provider-identity.md)
+  - [使用會議提供者身分識別的商務用 Skype Online 中的 Cmdlet](cmdlets-in-skype-for-business-online-that-use-a-conferencing-provider-identity.md)
 
-  - [Skype 商務 Online 中不需要使用某個範圍或身分識別的指令程式](cmdlets-in-skype-for-business-online-that-do-not-use-a-scope-or-an-identity.md)
+  - [在商務用 Skype Online 中不使用範圍或身分識別的 Cmdlet](cmdlets-in-skype-for-business-online-that-do-not-use-a-scope-or-an-identity.md)
 
 </div>
 
