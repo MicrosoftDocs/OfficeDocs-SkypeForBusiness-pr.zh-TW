@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 本附錄包含針對團隊和商務用 Skype 進行雲合併時，停用混合的詳細步驟。
-ms.openlocfilehash: 053d632b5a07b7ce7cca8ef7a1ddf45a673bcf59
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 039e8a30495567fe818fe4d60b863f37cf94e049
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780142"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918732"
 ---
 # <a name="disable-hybrid-to-complete-migration-to-the-cloud"></a>停用混合式以完成移轉至雲端
 
@@ -42,7 +42,7 @@ ms.locfileid: "43780142"
 
 > [!Note] 
 > 在極少的情況下，將組織的內部部署至 Office 365 的 DNS 變更為您的組織可能會造成其他一些組織的同盟停止運作，直到其他組織更新其同盟設定為止：<ul><li>
-任何使用舊版直接同盟模型（也稱為「允許夥伴伺服器」）的同盟組織，都必須更新其組織的允許網域專案，以移除 proxy FQDN。 這種舊版同盟模型不是以 DNS SRV 記錄為基礎，因此當您的組織移至雲端時，此設定將會到期。 </li><li>任何沒有啟用 sipfed 之主機服務提供者的同盟組織。<span>com 必須更新其設定，才能啟用該功能。 只有在同盟組織完全位於內部部署，且決不會與任何混合式或線上租使用者同盟時，才可以使用此狀況。 在此情況下，與這些組織的同盟必須啟用其主機服務提供者後，才能運作。</li></ul>如果您懷疑任何同盟協力廠商都可能使用直接同盟或與任何線上或混合組織同盟，我們建議您在準備完成對雲端的遷移時，向其傳送有關此資訊的通訊。
+任何使用舊版直接同盟模型（也稱為「允許夥伴伺服器」）的同盟組織，都必須更新其組織的允許網域專案，以移除 proxy FQDN。 這種舊版同盟模型不是以 DNS SRV 記錄為基礎，因此當您的組織移至雲端時，此設定將會到期。 </li><li>任何沒有啟用 sipfed 之主機服務提供者的同盟組織。<span>com 必須更新其設定，才能啟用該功能。 只有在同盟組織完全存在於內部部署，且決不會與任何混合式或線上租使用者同盟的情況下，才可能出現這種情況。 在此情況下，與這些組織的同盟必須啟用其主機服務提供者後，才能運作。</li></ul>如果您懷疑任何同盟協力廠商可能使用的是直接同盟或尚未與任何線上或混合組織同盟，我們建議您在準備完成對雲端的遷移時，向他們傳送此資訊的通訊。
 
 1.  *將 DNS 更新為指向 Office 365。*
 組織的外部 DNS 必須更新內部部署組織，以便商務用 Skype 記錄指向 Office 365，而不是內部部署。 特別是：
@@ -65,9 +65,10 @@ ms.locfileid: "43780142"
  
 3.  *停用內部部署中與 Office 365 通訊的功能。*  
 以下是必須從內部部署 PowerShell 視窗執行的命令：
-```PowerShell
+
+    ```PowerShell
     Get-CsHostingProvider|Set-CsHostingProvider -Enabled $false
-```
+    ```
 
 ### <a name="manage-phone-numbers-for-users-who-were-migrated-from-on-premises"></a>管理從內部部署遷移之使用者的電話號碼
 
@@ -83,6 +84,6 @@ ms.locfileid: "43780142"
 
   ![Active Directory 使用者和電腦工具](../media/disable-hybrid-1.png)
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 [小組和商務用 Skype 的雲端整合](cloud-consolidation.md)

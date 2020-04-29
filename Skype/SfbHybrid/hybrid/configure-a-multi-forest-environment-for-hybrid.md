@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 下列各節提供如何設定資源/使用者樹系模型中有多個樹系的環境，以在混合案例中供應商務用 Skype 功能的指導方針。
-ms.openlocfilehash: 3a0a5f08c9be4c6ba4c954a4100794d83d46ea53
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: acfca3b29407b019b87f5429906dbc72b4ef7dc3
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780122"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918682"
 ---
 # <a name="deploy-a-resource-forest-topology"></a>部署資源樹系拓撲
  
@@ -65,7 +65,7 @@ ms.locfileid: "43780122"
 |ProxyAddresses  <br/> |ProxyAddresses  <br/> |
 |ObjectSID  <br/> |msRTCSIP-OriginatorSID  <br/> |
    
-[選取的帳戶連結屬性](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-design-concepts/)將會做為來源錨點使用。 如果您想要使用不同且不可變的屬性，您可以這樣做;只須確定編輯 AD FS 宣告規則，並在 AAD 連線設定期間選取屬性。
+[選取的帳戶連結屬性](https://docs.microsoft.com/azure/active-directory/hybrid/plan-connect-design-concepts)將會做為來源錨點使用。 如果您想要使用不同且不可變的屬性，您可以這樣做;只須確定編輯 AD FS 宣告規則，並在 AAD 連線設定期間選取屬性。
   
 請勿同步處理樹系之間的 Upn。 我們在測試期間發現，我們需要針對每個使用者樹系使用唯一的 UPN，因為您無法在多個樹系中使用相同的 UPN。 因此，我們會提供兩個可能的方式，同步處理 UPN 或不同步處理。 
   
@@ -121,14 +121,16 @@ AAD Connect 應該使用預設值安裝，但不包括下列各項：
     
 3. 在內部部署目錄中識別使用者：選取**跨越多個目錄的使用者識別碼**，然後選取**ObjectSID**及**msExchangeMasterAccountSID**屬性。
     
-4. 在 Azure AD 中識別使用者：來源錨點：選取您在閱讀 [[選取好的 sourceAnchor 屬性](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-design-concepts/)、使用者主體名稱- **userPrincipalName**後所選擇的屬性。
+4. 在 Azure AD 中識別使用者：來源錨點：選取您在閱讀 [[選取好的 sourceAnchor 屬性](https://docs.microsoft.com/azure/active-directory/hybrid/plan-connect-design-concepts#selecting-a-good-sourceanchor-attribute)、使用者主體名稱- **userPrincipalName**後所選擇的屬性。
     
 5.  選用功能：選取是否已部署 Exchange 混合式。
     
     > [!NOTE]
     >  如果您只有 Exchange Online，由於 CNAME 重新導向，所以自動探索期間可能會發生 OAuth 失敗的問題。 若要修正此錯誤，您必須從商務用 Skype Server 管理命令介面執行下列 Cmdlet 來設定 Exchange 自動探索 URL：
-  
-    Set-CsOAuthConfiguration ExchangeAutoDiscoverURL HTTPs://<span>autodiscover-s.outlook.com/autodiscover/autodiscover.svc 
+    >
+    > ```powershell
+    > Set-CsOAuthConfiguration -ExchangeAutoDiscoverURL https://autodiscover-s.outlook.com/autodiscover/autodiscover.svc 
+    > ```
     
 6.  AD FS 伺服器陣列：選取 [**使用現有的 Windows Server 2012 R2 AD FS 伺服器陣列**]，然後輸入 AD fs 伺服器的名稱。
     
@@ -142,4 +144,3 @@ AAD Connect 應該使用預設值安裝，但不包括下列各項：
 
 如有必要，請遵循設定 Exchange 混合式的最佳作法。 如需詳細資訊，請參閱[Exchange Server 混合部署](https://docs.microsoft.com/exchange/exchange-hybrid)。 
   
-

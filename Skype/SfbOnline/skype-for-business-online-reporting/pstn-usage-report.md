@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: 新的商務用 Skype 系統管理中心報告區域會顯示您組織中的通話和音訊會議活動。 它可讓您深入探索報表，讓您更精確地瞭解每個使用者的活動。 例如，您可以使用 [商務用 Skype PSTN 使用詳細資料] 報告來查看輸入/撥出通話中花費的分鐘數，以及這些通話的成本。 您可以查看音訊會議 PSTN 使用狀況詳細資料（包括通話成本），以便了解您的使用方式，以及撥打帳單詳細資料來判斷貴組織內的使用方式。
-ms.openlocfilehash: 4161f0f9f0b6e011b67f94afc14b5ac793fc1009
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: e298bc79b821a8ec8373186a879b94790bc9d151
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776268"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918511"
 ---
 # <a name="pstn-usage-report"></a>PSTN 使用報告
 
@@ -32,7 +32,7 @@ ms.locfileid: "43776268"
   
 查看[報表總覽](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)以取得更多可用報表。
   
-此報告以及其他商務用 Skype 報告，提供活動的詳細資料，包括在整個組織中呼叫使用方式。 當您調查、規劃及針對貴組織進行其他業務決策，以及設定[通訊信用額度](/microsoftteams/what-are-communications-credits)時，這些詳細資料非常有用。
+此報告以及其他商務用 Skype 報告，提供活動的詳細資料，包括在整個組織中呼叫使用方式。 當您調查、規劃及針對貴組織進行其他業務決策，以及設定[通訊點數](/microsoftteams/what-are-communications-credits)時，這些詳細資料非常有用。
   
 > [!NOTE]
 > 當您以系統管理員身分登入 Microsoft 365 系統管理中心時，您可以看到所有商務用 Skype 報告。 
@@ -77,8 +77,9 @@ ms.locfileid: "43776268"
      **整合通訊應用程式（UCAP）** 
      *    **ucap_in** （針對自動語音應答或通話佇列等 UC 應用程式的入站 PSTN 呼叫） 
      *    **ucap_out** （來自 UC 應用程式的輸出 PSTN 呼叫，例如自動語音應答或通話佇列）
-     *    **注意：** 從 UC 應用程式傳送給使用者的呼叫（例如自動語音應答或呼叫佇列）不會出現在 PSTN 使用狀況報告中，因為這些呼叫腿是對等（P2P）音訊通話。 您可以在商務用 Skype 系統 > 管理中心的 [商務用 Skype 通話分析] 底下存取 P2P 通話，然後依使用者名稱或 SIP 位址來搜尋，依日期/時間和/或來源 CLID （通話行識別碼）來進行通話。 
-*     
+         > [!NOTE]
+         > 從 UC 應用程式傳送給使用者的呼叫（例如自動語音應答或呼叫佇列）不會出現在 PSTN 使用狀況報告中，因為這些呼叫腿是對等（P2P）音訊通話。 您可以在商務用 Skype 系統 > 管理中心的 [商務用 Skype 通話分析] 底下存取 P2P 通話，然後依使用者名稱或 SIP 位址來搜尋，依日期/時間和/或來源 CLID （通話行識別碼）來進行通話。 
+
      **國內/國際**是根據使用者的位置，告訴您所設定的通話是國內（在國家/地區內）還是國際（位於國家/地區外）。 
 *    [**目的地撥號**] 是您撥打的國家/地區目的地（例如華北、德國或美國）的名稱。 
 *    **Number type**是來自使用者電話號碼、服務或免付費電話號碼的電話號碼類型。  
@@ -125,28 +126,29 @@ CSV 的第一列包含資料行名稱。
 
 匯出的檔案包含無法在線上報表中使用的其他欄位。 這些都可以用來進行疑難排解和自動化工作流程。
 
-| #  | 名稱 | [資料類型（SQL Server）](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | 描述 |
-| :-: | :-: | :-: |:------------------- |
-| 0 | UsageId | `uniqueidentifier` | 唯一的呼叫識別碼 |
-| 1 | 通話 ID | `nvarchar(64)` | [通話識別碼]。 不保證唯一 |
-| pplx-2 | 會議 ID | `nvarchar(64)` | 音訊會議的識別碼 |
-| 3 | 使用者位置 | `nvarchar(2)` | 使用者的國家/地區代碼， [ISO 3166-1 Alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
-| 4 | AAD ObjectId | `uniqueidentifier` | 在 Azure Active Directory 中呼叫使用者的 ID。<br/> 在 bot 呼叫類型（ucap_in、ucap_out）中，此和其他使用者資訊將會是 null/空。 |
-| 500 | UPN | `nvarchar(128)` | Azure Active Directory 中的 UserPrincipalName （登入名稱）。<br/>這通常與使用者的 SIP 位址相同，而且可以與使用者的電子郵件地址相同 |
-| 6 | 使用者顯示名稱 | `nvarchar(128)` | 使用者的顯示名稱 |
-| utf-7 | 來電顯示 | `nvarchar(128)` | 已接收撥入通話通話或撥出通話電話號碼的號碼。 [E. 164](https://en.wikipedia.org/wiki/E.164)格式 |
-| 型 | 通話類型 | `nvarchar(32)` | 通話是 PSTN 輸出或撥入通話，以及撥打電話類型（例如使用者或音訊會議發出的通話） |
-| 9 | 數位類型 | `nvarchar(16)` | 使用者的電話號碼類型，例如免付費電話號碼的服務 |
-| 第 | 國內/國際 | `nvarchar(16)` | 通話是國內（在國家或地區內）或國際（在國家或地區外），根據使用者的位置來決定 |
-| 11 | 已撥號目的地 | `nvarchar(64)` | 已撥打國家或地區 |
-| 之間 | 目的地編號 | `nvarchar(32)` | 以[164](https://en.wikipedia.org/wiki/E.164)格式撥打的號碼 |
-| 合 | 開始時間 | `datetimeoffset` | 呼叫開始時間（UTC， [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)） |
-| 4 | 結束時間 | `datetimeoffset` | 通話結束時間（UTC， [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)） |
-| 工資 | 持續時間秒 | `int` | 通話的連線時間 |
-| 位 | 連線費用 | `numeric(16, 2)` | 連接費價格 |
-| 11x17 | 收費 | `numeric(16, 2)` | 支付給帳戶所需通話的金額或成本 |
-| 滿 | 貨幣 | `nvarchar(3)` | 用來計算通話成本的貨幣類型（[ISO 4217](https://en.wikipedia.org/wiki/ISO_4217)） |
-| 合 | 功能 | `nvarchar(32)` | 通話所用的授權 |
+> [!div class="has-no-wrap"]  
+> | #  | 名稱 | [資料類型（SQL Server）](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | 說明 |
+> | :-: | :-: | :-: |:------------------- |
+> | 0 | UsageId | `uniqueidentifier` | 唯一的呼叫識別碼 |
+> | 1 | 通話 ID | `nvarchar(64)` | [通話識別碼]。 不保證唯一 |
+> | 2 | 會議 ID | `nvarchar(64)` | 音訊會議的識別碼 |
+> | 3 | 使用者位置 | `nvarchar(2)` | 使用者的國家/地區代碼， [ISO 3166-1 Alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
+> | 4 | AAD ObjectId | `uniqueidentifier` | 在 Azure Active Directory 中呼叫使用者的 ID。<br/> 在 bot 呼叫類型（ucap_in、ucap_out）中，此和其他使用者資訊將會是 null/空。 |
+> | 500 | UPN | `nvarchar(128)` | Azure Active Directory 中的 UserPrincipalName （登入名稱）。<br/>這通常與使用者的 SIP 位址相同，而且可以與使用者的電子郵件地址相同 |
+> | 6 | 使用者顯示名稱 | `nvarchar(128)` | 使用者的顯示名稱 |
+> | utf-7 | 來電顯示 | `nvarchar(128)` | 已接收撥入通話通話或撥出通話電話號碼的號碼。 [E. 164](https://en.wikipedia.org/wiki/E.164)格式 |
+> | 型 | 通話類型 | `nvarchar(32)` | 通話是 PSTN 輸出或撥入通話，以及撥打電話類型（例如使用者或音訊會議發出的通話） |
+> | 9 | 數位類型 | `nvarchar(16)` | 使用者的電話號碼類型，例如免付費電話號碼的服務 |
+> | 第 | 國內/國際 | `nvarchar(16)` | 通話是國內（在國家或地區內）或國際（在國家或地區外），根據使用者的位置來決定 |
+> | 11 | 已撥號目的地 | `nvarchar(64)` | 已撥打國家或地區 |
+> | 之間 | 目的地編號 | `nvarchar(32)` | 以[164](https://en.wikipedia.org/wiki/E.164)格式撥打的號碼 |
+> | 合 | 開始時間 | `datetimeoffset` | 呼叫開始時間（UTC， [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)） |
+> | 4 | 結束時間 | `datetimeoffset` | 通話結束時間（UTC， [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)） |
+> | 工資 | 持續時間秒 | `int` | 通話的連線時間 |
+> | 位 | 連線費用 | `numeric(16, 2)` | 連接費價格 |
+> | 11x17 | 收費 | `numeric(16, 2)` | 支付給帳戶所需通話的金額或成本 |
+> | 滿 | 貨幣 | `nvarchar(3)` | 用來計算通話成本的貨幣類型（[ISO 4217](https://en.wikipedia.org/wiki/ISO_4217)） |
+> | 合 | 功能 | `nvarchar(32)` | 通話所用的授權 |
 
     
 ## <a name="want-to-see-other-skype-for-business-reports"></a>想要查看其他商務用 Skype 報表嗎？
