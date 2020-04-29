@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 瞭解如何設定一個會話邊界控制器（SBC）來為 Microsoft 合作夥伴和/或 PSTN 運營商提供多個租使用者。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 061d0afec96e6c76e49f6471ea8ed2f673e33eba
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 883df3c78387d509f094f91bc346fc5b31f53690
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43901848"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918712"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>設定多個租用戶的工作階段邊界控制器
 
@@ -119,8 +119,8 @@ SBC 需要認證，才能驗證連線。 針對 SBC 主機案例，電信公司�
 
 ### <a name="add-a-base-domain-to-the-tenant-and-verify-it"></a>新增基底網域至租使用者並驗證
 
-1.    在 Microsoft 365 系統管理中心中，移至**設定** > **網域** > [**新增網域**]。
-2.    在 [**輸入您擁有的網域**] 方塊中，輸入基底網域的 FQDN。 在下列範例中，基底網域是*customers.adatum.biz*。
+1. 在 Microsoft 365 系統管理中心中，移至**設定** > **網域** > [**新增網域**]。
+2. 在 [**輸入您擁有的網域**] 方塊中，輸入基底網域的 FQDN。 在下列範例中，基底網域是*customers.adatum.biz*。
 
     ![顯示 [新增網域] 頁面的螢幕擷取畫面](media/direct-routing-2-sbc-add-domain.png)
 
@@ -129,8 +129,8 @@ SBC 需要認證，才能驗證連線。 針對 SBC 主機案例，電信公司�
 
     ![螢幕擷取畫面顯示已驗證的功能變數名稱確認](media/direct-routing-3-sbc-verify-domain.png)
 
-5.    按一下 **[下一步]**，然後在 [**更新 DNS 設定**] 頁面上，選取 [**我將自行新增 DNS 記錄**]，然後按 **[下一步**
-6.    在下一頁上，清除所有值（除非您想要將功能變數名稱用於 Exchange、SharePoint 或團隊/商務用 Skype），請按 **[下一步**]，然後按一下 **[完成**]。 請確定您的新網域處於 [設定完成] 狀態。
+5. 按一下 **[下一步]**，然後在 [**更新 DNS 設定**] 頁面上，選取 [**我將自行新增 DNS 記錄**]，然後按 **[下一步**
+6. 在下一頁上，清除所有值（除非您想要將功能變數名稱用於 Exchange、SharePoint 或團隊/商務用 Skype），請按 **[下一步**]，然後按一下 **[完成**]。 請確定您的新網域處於 [設定完成] 狀態。
 
     ![顯示已完成 [設定] 狀態之網域的螢幕擷取畫面](media/direct-routing-14-sbc-setup-complete.png)
 
@@ -227,7 +227,7 @@ SBC 需要認證，才能驗證連線。 針對 SBC 主機案例，電信公司�
 
 -    運營商只需要使用 CSOnlinePSTNGateway 命令來設定和管理單一干線（電信公司網域中的載波幹線）。 在上述範例中，它是 adatum.biz;
 -    在客戶租使用者中，電信公司只需要將衍生的主幹 FQDN 新增至使用者的語音路由原則。 不需要針對主幹執行新的 CSOnlinePSTNGateway。
--     衍生的主幹（如名稱所暗示）會繼承或衍生載波幹線的所有設定參數。 示例
+-    衍生的主幹（如名稱所暗示）會繼承或衍生載波幹線的所有設定參數。 示例
 -    Customers.adatum.biz –需要在承運人租使用者中建立的載波主幹。
 -    Sbc1.customers.adatum.biz –客戶租使用者中的衍生主幹，不需要在 PowerShell 中建立。  您可以直接在線上語音路由策略中，在客戶租使用者中新增衍生主幹的名稱，而不需建立它。
 -   電信公司將需要設定 DNS 記錄，將衍生的主幹 FQDN 解析成載波 SBC ip 位址。

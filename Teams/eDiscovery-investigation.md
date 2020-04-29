@@ -1,7 +1,7 @@
 ---
 title: 對內容進行 eDiscovery 調查
 author: LolaJacobsen
-ms.author: lolaj
+ms.author: hakank
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ description: 瞭解當您需要執行 eDiscovery 時要採取的動作，例如�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4b31f2efb613551ab17320900e45cf30d0ee11be
-ms.sourcegitcommit: df4dde0fe6ce9e26cb4b3da4e4b878538d31decc
+ms.openlocfilehash: 67006fba94a58514fa33c91edd0a46312396b31a
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43521539"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918581"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>在 Microsoft 團隊中進行 eDiscovery 調查內容
 
@@ -40,17 +40,15 @@ ms.locfileid: "43521539"
 |:--- | --- |:--- |
 | 小組聊天訊息 | 是 | 從聊天中的聊天訊息，其中來賓使用者是1:1 或1： N 聊天中的唯一參與者。 |
 | 音訊錄製 | 否 | |
-| 顯示每位使用者讀取郵件的時間戳記 | 否 | |
-| 音訊錄製 | 否 | |
 | 私人通道訊息 | 否 | |
 | Emoji、Gif、不乾膠標籤 | 是 | |
 | 程式碼片段 | 否 | |
-| 聊天連結 | 否 | |
+| 聊天連結 | 是 | |
 | 反應（贊、紅心等等） | 否 | |
 | 已編輯的郵件 | 是 | 如果使用者已保留，則會保留先前版本的已編輯郵件。 |
 | 內嵌圖像 | 是 | |
-| 該表 | 否 | |
-| 主題 | 否 | |
+| 該表 | 是 | |
+| 主題 | 是 | |
 | 引述 | 是 | 已報價的內容可供搜尋。 不過，搜尋結果不會指出內容已加上引號。 |
 | 頻道名稱 | 否 | |
 
@@ -162,7 +160,7 @@ ms.locfileid: "43521539"
 
 在兩種類型的審閱集中都提供密文等功能。
 
-如需有關審閱集的詳細資訊，請參閱[在高級 eDiscovery 中查看交談](https://docs.microsoft.com/microsoft-365/compliance/conversation-review-sets)
+如需有關審閱集的詳細資訊，請參閱[在高級 eDiscovery 中查看交談](https://docs.microsoft.com/microsoft-365/compliance/conversation-review-sets)。
 
 #### <a name="collection-options"></a>收集選項
 

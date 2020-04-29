@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 瞭解如何在團隊中管理會議原則設定，並使用他們來控制會議參與者針對使用者排程會議所提供的功能。
-ms.openlocfilehash: d06dbe4d2a6e7750abba5352becc15be1daf8ce6
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 689b22a98c986ca73ae3926785f75dcb6c6a9e74
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904428"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918702"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>在團隊中管理會議原則
 
@@ -44,7 +44,7 @@ ms.locfileid: "43904428"
 |每個召集人和每位使用者     |當您實現每個召集人與每個使用者的原則組合時，某些功能會根據其原則和召集人原則，限制會議參與者。 例如，[**允許雲端錄製**] 是每個召集人和每個使用者的原則。 開啟此設定可讓會議召集人與參與者開始並停止錄製。
 
 根據預設，會建立名為 [全域] （組織範圍預設值）的原則。 貴組織中的所有使用者預設都會獲指派 [全域會議原則]。 您可以對其進行變更或建立一或多個自訂原則，並將使用者指派給他們。 除非您建立並指派自訂原則，否則使用者會取得全域原則。 當您建立自訂原則時，您可以允許或防止您的使用者使用某些功能，然後將其指派給將設定套用至其中的一或多個使用者。
-
+-注意-[會議詳細資料] 按鈕會 availiable 如果使用者已啟用 audioconference 授權，或使用者允許 audioconferencing，則不會 availiable 會議詳細資料。
 ## <a name="change-or-create-a-meeting-policy"></a>變更或建立會議原則
 
 若要變更或建立會議原則，請移至 [Microsoft Teams 系統管理中心] > **[會議] ** > ** [會議原則]**。 從清單中選取原則，或選取 **[新增]**。 如果您要建立新原則，請新增原則的名稱和描述。 名稱不能包含特殊字元，且長度不可超過 64 個字元。 選擇您的設定，然後選取 [**儲存**]。
@@ -139,7 +139,7 @@ ms.locfileid: "43904428"
 - [允許進行文字](#allow-transcription)
 - [允許雲端錄製](#allow-cloud-recording)
 - [允許 IP 視訊](#allow-ip-video)
-- [媒體位元速率（KBs）](#media-bit-rate-kbs)
+- [媒體位元速率（Kps）](#media-bit-rate-kps)
 
 ### <a name="allow-transcription"></a>允許進行文字
 
@@ -188,9 +188,9 @@ ms.locfileid: "43904428"
 
 如果 Daniela 呼叫 Amanda 的 [影片]，Amanda 只能以音訊接聽通話。  通話連線時，Amanda 可以看到 Daniela 的影片，但無法開啟影片。 如果 Amanda 呼叫 Daniela，Daniela 可以使用影片和音訊接聽通話。 當通話連線時，Daniela 可以視需要開啟或關閉她的影片。
 
-### <a name="media-bit-rate-kbs"></a>媒體位元速率（KBs）
+### <a name="media-bit-rate-kps"></a>媒體位元速率（Kps）
 
-這是每個使用者的原則。 此設定會針對使用者的通話和會議中的音訊、影片及影片式應用程式共用傳輸，決定媒體位元速率。 它適用于通話或會議中的使用者的上行與下行媒體遍歷。 此設定可讓您精細控制貴組織中的頻寬管理。 根據使用者所需的會議案例，我們建議您有足夠的頻寬來提供良好的品質體驗。 最小值為 30 Kbps，而最大值則視會議案例而定。 若要深入瞭解在小組中提供優質會議、通話及即時事件的最小建議頻寬，請參閱[頻寬需求](prepare-network.md#bandwidth-requirements)。
+這是每個使用者的原則。 此設定會針對使用者的通話和會議中的音訊、影片及影片式應用程式共用傳輸，決定媒體位元速率。 它適用于通話或會議中的使用者的上行與下行媒體遍歷。 此設定可讓您精細控制貴組織中的頻寬管理。 根據使用者所需的會議案例，我們建議您有足夠的頻寬來提供良好的品質體驗。 最小值為30個 Kps，而最大值則視會議案例而定。 若要深入瞭解在小組中提供優質會議、通話及即時事件的最小建議頻寬，請參閱[頻寬需求](prepare-network.md#bandwidth-requirements)。
 
 如果沒有足夠的頻寬可供會議使用，參與者會看到指出網路品質不佳的訊息。
 

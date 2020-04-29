@@ -16,12 +16,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 使用 Power BI 來分析 Microsoft 團隊的 CQD 資料。
-ms.openlocfilehash: af540f09fefc27b99e1c084d2571fe51d47a393c
-ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
+ms.openlocfilehash: a288376192af375660107b79e93ec8613f46163d
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43170501"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918672"
 ---
 # <a name="use-power-bi-to-analyze-cqd-data-for-microsoft-teams"></a>使用 Power BI 來分析 Microsoft 團隊的 CQD 資料
 
@@ -29,7 +29,7 @@ ms.locfileid: "43170501"
 
 針對團隊中的 CQD 報表，如果您想要使用 Power BI 查詢及報告資料，請下載我們的 CQD Power BI 範本。 當您在 Power BI 中開啟範本時，系統會提示您使用 CQD 管理員認證登入。 您可以自訂這些查詢範本，並將它們發佈給貴組織中擁有 Power BI 授權及 CQD 系統管理員許可權的任何人。
 
-在您可以使用這些 .PBIX 檔案之前，您必須使用[下載](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)中包含的*MicrosoftCallQuality Pqx*檔案，[安裝 Microsoft CQD 的 Power BI 連接器](CQD-Power-BI-connector.md)。 
+在您可以使用這些 PBIT 檔案之前，您必須使用[下載](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)中包含的*MicrosoftCallQuality Pqx*檔案，[安裝 Microsoft CQD 的 Power BI 連接器](CQD-Power-BI-connector.md)。 
 
 
 |  |  |
@@ -43,7 +43,7 @@ ms.locfileid: "43170501"
 |CQD 使用者意見反應（評級我的通話）報告。 pbit     | 顯示使用您可以輕鬆地協助支援您組織通話的方式，為我的通話資料打分。 與 verbatims 進行交叉參照，以找出使用者的教育機會。        |
 
 > [!TIP]
-> 在您設定 Power BI 報表以取得 CQD 資料後，請將其新增為頻道的索引標籤。 選取**+** 頻道之後，請選取 [ **Power BI** ]，然後尋找您的報表。 請記住，只有具備 Power BI 授權及 CQD 管理員認證的人員才能存取這些報告。
+> 在您設定 Power BI 報表以取得 CQD 資料後，請將其新增為頻道的索引標籤。 選取**+** 頻道之後，請選取 [ **Power BI** ]，然後尋找您的報表。 若要深入瞭解，請參閱[使用 [POWER BI] 索引標籤針對團隊的內嵌報表](https://docs.microsoft.com/power-bi/service-embed-report-microsoft-teams)。 請記住，只有具備 Power BI 授權及 CQD 管理員認證的人員才能存取這些報告。
 
 
 ## <a name="related-topics"></a>相關主題
