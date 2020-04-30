@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 18c545d6b3208bb5156a699deee71ee27b38b3f4
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: d3a6d946d6bf00e6e43a0f6678352e5b4e9b7629
+ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43903118"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43940670"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>適用於虛擬桌面架構的 Teams
 
@@ -345,6 +345,7 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity "user email id"
 - 內送和外寄的視頻資料流程解析度限制為720p 解析度。 這是 WebRTC 的限制。
 - 只支援來自內送相機或畫面共用資料流程的一個影片串流。 當有內送螢幕共用時，就會顯示畫面共用，而不是主要喇叭的影片。
 - 外寄螢幕共用：
+    - 不支援從聊天進行螢幕共用。
     - 不支援應用程式共用。
 - 授與控制權並加以控制：  
     - 在螢幕共用或應用程式共用會話期間不支援。

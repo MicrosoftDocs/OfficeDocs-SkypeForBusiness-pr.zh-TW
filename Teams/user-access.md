@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 10485fd7f04cfae675ea38967389851d4d72be90
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 823038671ac03669808e8a3dec5d065a60682b19
+ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43903348"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43940610"
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>管理使用者對 Microsoft 團隊的存取權
 =====================================
@@ -53,7 +53,7 @@ ms.locfileid: "43903348"
 ## <a name="manage-via-powershell"></a>透過 PowerShell 管理
 
 > [!IMPORTANT]
-> 新的-MsolLicenseOptions 會啟用先前已停用的所有服務，除非您在自訂腳本中明確標示。 例如，如果您想讓 Exchange & Sway 同時停用，同時又停用小組，您必須在腳本中包含這項功能，否則您已識別的使用者就能使用這兩種 Exchange & Sway。 若要使用 GUI 來管理這項功能，請參閱[Office 365 授權報告和管理工具-指派批量移除授權](https://gallery.technet.microsoft.com/Office365-License-cfd9489c)以取得詳細資訊。
+> 新的-MsolLicenseOptions 會啟用先前已停用的所有服務，除非您在自訂腳本中明確標示。 例如，如果您想讓 Exchange & Sway 同時停用，同時又停用小組，您必須在腳本中包含這項功能，否則您已識別的使用者就能使用這兩種 Exchange & Sway。
 
 透過 PowerShell 啟用和停用團隊作為工作負載授權，就完成了任何其他工作負載。 Microsoft 團隊的服務方案名稱是 TEAMS1。 針對 GCC，服務方案名稱是 TEAMS_GOV。 針對 GCC 高版，服務方案名稱是 TEAMS_GCCHIGH。 如果是 DoD，服務方案名稱是 TEAMS_DOD （請參閱[使用 Office 365 PowerShell 停用服務的存取權](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell)，以取得詳細資訊。）
 

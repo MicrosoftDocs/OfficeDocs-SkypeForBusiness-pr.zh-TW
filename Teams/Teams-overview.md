@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fe9e0b5220466971749bd3a8fd12c0c854e42009
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 256c86eec1fba1526ef8e7a17fbb07db4c5d3e32
+ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778469"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43940680"
 ---
 # <a name="welcome-to-microsoft-teams"></a>歡迎使用 Microsoft Teams
 如果您是組織中 Microsoft Teams 的系統管理員，那您便是正確的人選。 當您準備好開始使用 Teams 時，請從[如何推出 Teams](How-to-roll-out-teams.md) 開始。
@@ -70,7 +70,7 @@ Teams 的建置基礎為 Microsoft 365 群組、Microsoft Graph，以及與其�
 - [在轉換至新 Teams 系統管理中心期間管理 Teams](manage-teams-in-modern-portal.md)
 - [在 Microsoft 365 或 Office 365 中管理 Teams 功能](enable-features-office-365.md)
 
-若要掌握 Teams 和組織中所有其他 Office 365 產品和服務即將推出的內容，請務必查看[訊息中心](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter)和 [Teams 藍圖](https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters=Microsoft%20Teams%26searchterms=microsoft%2Cteams)。 您會收到有關新功能和更新功能、計劃的變更和問題的公告，以協助您了解並做好準備。 
+若要掌握 Teams 和組織中所有其他 Office 365 產品和服務即將推出的內容，請務必查看[訊息中心](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter)和 [Teams 藍圖](https://www.microsoft.com/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams)。 您會收到有關新功能和更新功能、計劃的變更和問題的公告，以協助您了解並做好準備。 
 
 ## <a name="upgrade-from-skype-for-business-to-teams"></a>從商務用 Skype 升級至 Teams
 Teams 是 Office 365 中智慧通訊的主要用戶端，最終會取代商務用 Skype Online。 若要掌握 Teams 即將推出的新功能，請參閱 [Microsoft 365 藍圖](https://aka.ms/O365Roadmap)。 為了補足持續聊天和傳訊的功能，Teams 提供了全面性的會議和通話體驗，包括內建完全整合的語音和視訊。 請查看 Microsoft Teams 部落格中的 [Teams 現在是完整的會議和通話解決方案](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-is-now-a-complete-meeting-and-calling-solution/ba-p/236042)。

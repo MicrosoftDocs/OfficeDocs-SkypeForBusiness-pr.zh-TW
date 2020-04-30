@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 414ca42153ab336500aa7b2e9de42dd9fe7f2708
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: d82b8de29d8f73f439f158e96d1c61767a3bd019
+ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902118"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43940690"
 ---
 <a name="microsoft-365-groups-and-microsoft-teams"></a>Microsoft 365 群組和 Microsoft 團隊
 =====================================
@@ -55,4 +55,4 @@ Office 365 管理員可以定義 Office 365 群組、新增成員，以及從功
 
 使用者的群組功能和功能取決於您驅動群組成員資格的位置。 例如，如果您移除團隊的成員，也會從 Office 365 群組中移除。 從群組中移除會立即從團隊用戶端移除團隊和頻道。 如果您使用 Microsoft 365 系統管理中心從群組中移除人員，他們將無法存取其他共同作業的內容，例如 SharePoint Online 文件庫、Yammer 群組或共用的 OneNote。 不過，他們仍可存取團隊的聊天功能大約兩小時的時間。
 
-作為管理團隊成員的最佳做法，請在團隊用戶端新增和移除成員，以確保已套用對其他相依雲端應用程式的正確的級聯存取控制。 此外，您也可以避免因您的使用者仍然有權存取其所使用的資源（直到下一個同步處理週期新增或廢除服務特定元件的存取權）時才有脫節的體驗。 如果您在團隊用戶端之外新增或移除團隊成員（使用 Microsoft 365 系統管理中心、Azure AD 或 Exchange Online PowerShell），最多可能需要兩個小時才能反映在團隊中的變更。
+作為管理團隊成員的最佳做法，請在團隊用戶端新增和移除成員，以確保已套用對其他相依雲端應用程式的正確的級聯存取控制。 此外，您也可以避免因您的使用者仍然有權存取其所使用的資源（直到下一個同步處理週期新增或廢除服務特定元件的存取權）時才有脫節的體驗。 如果您在團隊用戶端之外新增或移除團隊成員（使用 Microsoft 365 系統管理中心、Azure AD 或 Exchange Online PowerShell），可能需要長達24小時（在某些情況下），才能反映團隊中的變更。
