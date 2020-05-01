@@ -11,27 +11,28 @@ description: 使用此 PowerShell 腳本，為每個主管建立小組，並將�
 f1.keywords:
 - NOCSH
 localization_priority: Normal
+search.appverid: MET150
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8e878ad25b2f0fa469633f11c0a003e245094934
-ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
+ms.openlocfilehash: cd7f638d8023595de3f3526376e3ce46c37dcff2
+ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42796185"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43951028"
 ---
-# <a name="powershell-script-sample---create-new-people-manager-teams"></a><span data-ttu-id="47f79-103">PowerShell 腳本範例-建立新的人員管理員小組</span><span class="sxs-lookup"><span data-stu-id="47f79-103">PowerShell script sample - Create new people manager teams</span></span>
+# <a name="powershell-script-sample---create-new-people-manager-teams"></a><span data-ttu-id="be5a0-103">PowerShell 腳本範例-建立新的人員管理員小組</span><span class="sxs-lookup"><span data-stu-id="be5a0-103">PowerShell script sample - Create new people manager teams</span></span>
 
-<span data-ttu-id="47f79-104">使用此 PowerShell 腳本，為每個主管建立小組，並將其指引為小組成員。</span><span class="sxs-lookup"><span data-stu-id="47f79-104">Use this PowerShell script to create a team for each manager with their directs as team members.</span></span> <span data-ttu-id="47f79-105">在執行此腳本之前，請先執行[匯出管理器](powershell-script-create-teams-from-managers-export-managers.md)腳本來匯出（從 Active Directory），以取得貴組織的管理員及其指導者清單。</span><span class="sxs-lookup"><span data-stu-id="47f79-105">Before you run this script, run the [Export managers](powershell-script-create-teams-from-managers-export-managers.md) script to  export (from your Active Directory) a list of managers and their directs for your organization.</span></span>
+<span data-ttu-id="be5a0-104">使用此 PowerShell 腳本，為每個主管建立小組，並將其指引為小組成員。</span><span class="sxs-lookup"><span data-stu-id="be5a0-104">Use this PowerShell script to create a team for each manager with their directs as team members.</span></span> <span data-ttu-id="be5a0-105">在執行此腳本之前，請先執行[匯出管理器](powershell-script-create-teams-from-managers-export-managers.md)腳本來匯出（從 Active Directory），以取得貴組織的管理員及其指導者清單。</span><span class="sxs-lookup"><span data-stu-id="be5a0-105">Before you run this script, run the [Export managers](powershell-script-create-teams-from-managers-export-managers.md) script to  export (from your Active Directory) a list of managers and their directs for your organization.</span></span>
 
-<span data-ttu-id="47f79-106">若要瞭解此 PowerShell 腳本，請閱讀[建立人員管理員小組](../create-manager-directs-teams.md)。</span><span class="sxs-lookup"><span data-stu-id="47f79-106">To learn about this PowerShell script, read [Create people manager teams](../create-manager-directs-teams.md).</span></span>
+<span data-ttu-id="be5a0-106">若要瞭解此 PowerShell 腳本，請閱讀[建立人員管理員小組](../create-manager-directs-teams.md)。</span><span class="sxs-lookup"><span data-stu-id="be5a0-106">To learn about this PowerShell script, read [Create people manager teams](../create-manager-directs-teams.md).</span></span>
 
-<span data-ttu-id="47f79-107">如果您是 PowerShell 新手，且需要開始協助，請參閱[Azure PowerShell 的概覽](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1)。</span><span class="sxs-lookup"><span data-stu-id="47f79-107">If you're new to PowerShell and need help getting started, see [Overview of Azure PowerShell](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1).</span></span>
+<span data-ttu-id="be5a0-107">如果您是 PowerShell 新手，且需要開始協助，請參閱[Azure PowerShell 的概覽](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1)。</span><span class="sxs-lookup"><span data-stu-id="be5a0-107">If you're new to PowerShell and need help getting started, see [Overview of Azure PowerShell](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1).</span></span>
 
 
-## <a name="create-new-people-manager-teams"></a><span data-ttu-id="47f79-108">建立新的人員管理員小組</span><span class="sxs-lookup"><span data-stu-id="47f79-108">Create new people manager teams</span></span> 
+## <a name="create-new-people-manager-teams"></a><span data-ttu-id="be5a0-108">建立新的人員管理員小組</span><span class="sxs-lookup"><span data-stu-id="be5a0-108">Create new people manager teams</span></span> 
 
 ```powershell
 <# 
