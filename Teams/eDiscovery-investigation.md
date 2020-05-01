@@ -17,12 +17,12 @@ description: 瞭解當您需要執行 eDiscovery 時要採取的動作，例如�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 67006fba94a58514fa33c91edd0a46312396b31a
-ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
+ms.openlocfilehash: 55afbf3ff1dd3f38990dc60f9cae3cbce7c2f9db
+ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43918581"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43950888"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>在 Microsoft 團隊中進行 eDiscovery 調查內容
 
@@ -38,9 +38,9 @@ ms.locfileid: "43918581"
 
 | 內容類型 | eDiscoverable | 筆記 |
 |:--- | --- |:--- |
-| 小組聊天訊息 | 是 | 從聊天中的聊天訊息，其中來賓使用者是1:1 或1： N 聊天中的唯一參與者。 |
+| 小組聊天訊息 | 是 |  |
 | 音訊錄製 | 否 | |
-| 私人通道訊息 | 否 | |
+| 私人通道訊息 | 是 | |
 | Emoji、Gif、不乾膠標籤 | 是 | |
 | 程式碼片段 | 否 | |
 | 聊天連結 | 是 | |

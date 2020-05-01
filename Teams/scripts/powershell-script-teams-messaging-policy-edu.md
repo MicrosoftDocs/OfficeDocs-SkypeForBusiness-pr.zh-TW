@@ -11,17 +11,18 @@ description: 使用此 PowerShell 腳本在團隊中建立訊息原則，並將�
 f1.keywords:
 - NOCSH
 localization_priority: Normal
+search.appverid: MET150
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ffd564d421c07503fe5e19ace8f24a0379418b74
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 748167dc8e03b53fc07611df0ff464d984fb5678
+ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140976"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43951058"
 ---
 # <a name="powershell-script-sample---create-and-assign-a-messaging-policy"></a>PowerShell 腳本範例-建立並指派訊息原則
 
@@ -29,13 +30,14 @@ ms.locfileid: "43140976"
 
 如需有關使用此 PowerShell 腳本的詳細資訊，請參閱[快速入門-教育版團隊](https://docs.microsoft.com/microsoftteams/teams-quick-start-edu)。
 
-如果您是 PowerShell 新手，且需要開始協助，請參閱[Azure PowerShell 的概覽](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1)。
+此腳本使用商務用 Skype Online PowerShell 模組中的[Grant CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmessagingpolicy) Cmdlet。 若要深入瞭解如何使用 PowerShell 管理團隊，請參閱[團隊 PowerShell 概覽](../teams-powershell-overview.md)。
 
 
 ## <a name="before-you-start"></a>開始之前
-下載並安裝[商務用 Skype Online 連接器模組](https://www.microsoft.com/download/details.aspx?id=39366)，然後在出現提示時重新開機電腦。
 
-若要瞭解詳細資訊，請觀看[使用 Office 365 PowerShell 管理商務用 Skype Online](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) 。
+下載並安裝[商務用 Skype Online PowerShell 模組](https://www.microsoft.com/download/details.aspx?id=39366)，然後在出現提示時重新開機電腦。
+
+若要進一步瞭解，請參閱[使用 Office 365 PowerShell 管理商務用 Skype Online](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)。
 
 
 ## <a name="sample-script"></a>範例腳本
@@ -59,4 +61,5 @@ $dataSetFilePath = "<csv file with user ids for newly provisioned students> "
  }
 ```
 
-
+> [!NOTE]
+> 您也可以使用批次原則指派，將訊息原則指派給大型使用者組。 如需詳細資訊，請參閱[將原則指派給學校中的大型使用者](../batch-policy-assignment-edu.md)，然後[將原則指派給您的小組中的使用者](../assign-policies.md)。

@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: '瞭解如何取得新的、埠或轉讓現有的團隊編號，以及如何向使用者顯示變更。 '
-ms.openlocfilehash: d2ac4a0a5e487b99cf8dbc303b85e6f4e3446ec8
-ms.sourcegitcommit: d7be89019dd5a3b88b0840bddf1b88fea8598ea7
+ms.openlocfilehash: 97d827d2fedbf12fd18519ac70a23bacdc78a58c
+ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42170749"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43951008"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>為您的使用者取得電話號碼
 
@@ -35,19 +35,19 @@ ms.locfileid: "42170749"
 
 - **使用 Microsoft 團隊系統管理中心。** 對於某些國家和地區，您可以使用 Microsoft 團隊系統管理中心為使用者取得號碼。 請參閱[為您的使用者取得新的電話號碼](#get-new-phone-numbers-for-your-users)。
     
-- **移植您現有的號碼。** 您可以從目前的服務提供者或電話載波移植或轉移現有號碼。 如需詳細資訊，請參閱將[電話號碼傳送給團隊](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams)或[管理您組織的電話號碼](/microsoftteams/manage-phone-numbers-for-your-organization)，以協助您執行此動作。  
+- **轉移現有的號碼。** 您可以從目前的服務提供者或電話載波移植或轉移現有號碼。 如需詳細資訊，請參閱[將電話號碼轉接至 Teams](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams) 或[管理貴組織的電話號碼](/microsoftteams/manage-phone-numbers-for-your-organization)，協助您完成此作業。  
   
-- **針對新號碼使用要求表單。** 有時候（視您的國家或地區而定）您無法使用 Microsoft 團隊系統管理中心取得新的電話號碼，或者您需要特定的電話號碼或區功能變數代碼。 如果是這樣，您將需要下載表單並將它傳送給我們。 如需詳細資訊，請參閱[管理貴組織的電話號碼](/microsoftteams/manage-phone-numbers-for-your-organization)。
+- **使用表單要求新號碼。** 有時候（視您的國家或地區而定）您無法使用 Microsoft 團隊系統管理中心取得新的電話號碼，或者您需要特定的電話號碼或區功能變數代碼。 如果是這樣，您將需要下載表單並將它傳送給我們。 如需詳細資訊，請參閱[管理貴組織的電話號碼](/microsoftteams/manage-phone-numbers-for-your-organization)。
   
 > [!NOTE]
 > 如果您需要協助設定貴組織的電話號碼，您可以[聯絡 PSTN 服務台](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)。
   
 ## <a name="get-new-phone-numbers-for-your-users"></a>為您的使用者取得新的電話號碼
 
-![](media/teams-logo-30x30.png) **使用 microsoft [團隊管理中心**] 顯示 Microsoft 團隊標誌的圖示
+![Microsoft Teams 標誌圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
     
 1. 在左側導覽中，移至 [**語音** > **電話號碼**]，然後按一下 [**新增**]。
-2. 輸入訂單的名稱，如果您想要的話，也可以新增描述。
+2. 輸入訂單的名稱並新增描述。
 3. 在 [位置及數量] 頁面上，執行下列動作：
     1. 在 [**國家或地區**] 下，選取國家或地區。
     2. 在 [**數位類型**] 底下，選取 **[使用者] （訂閱者）**。
@@ -68,7 +68,7 @@ ms.locfileid: "42170749"
 
 ## <a name="view-the-phone-numbers-for-your-organization"></a>查看貴組織的電話號碼
 
-![](media/teams-logo-30x30.png) **使用 microsoft [團隊管理中心**] 顯示 Microsoft 團隊標誌的圖示 
+![Microsoft Teams 標誌圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心** 
 
 在左側導覽中，移至 [**語音** > **電話號碼**] 來查看貴組織的號碼，包括位置、編號類型及狀態資訊。
   

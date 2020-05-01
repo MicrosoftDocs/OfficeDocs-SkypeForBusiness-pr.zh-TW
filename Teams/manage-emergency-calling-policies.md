@@ -17,12 +17,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何在 Microsoft 團隊中使用和管理緊急通話原則，定義貴組織中的小組使用者撥打緊急通話時，會發生什麼情況。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2e697e05c4ade1e14ee2f59da5b60413e60e2367
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 62a6314435aa3af44d0c44ab6a6790212c62d8de
+ms.sourcegitcommit: 5692900c0fc0a2552fe3f8ece40920c839e1ea23
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905105"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43952432"
 ---
 # <a name="manage-emergency-calling-policies-in-microsoft-teams"></a>管理 Microsoft 團隊中的緊急通話原則
 
@@ -42,9 +42,10 @@ ms.locfileid: "43905105"
 2. 按一下 [**新增**]。
 3. 輸入原則的名稱和描述。
 4. 在進行緊急通話時，設定您想要如何通知組織中的人員（通常是安全服務台）。 若要執行此動作，請在 [**通知模式]** 底下，選取下列其中一項：
-    - **僅通知**： [團隊聊天] 訊息會傳送給您指定的使用者和群組。
+    - **僅傳送通知**： [小組聊天] 訊息會傳送給您指定的使用者和群組。
     - **Conferenced in 但已靜音**： [團隊聊天] 訊息會傳送給您指定的使用者和群組，而且他們可以在來電者與 PSAP 運算子之間的交談中聆聽（但不參與）。
-5.  如果您已選取 [Conferenced]，**但處於靜音**通知模式，請在 [**撥出電話號碼**] 方塊中輸入使用者或群組的 PSTN 電話號碼，即可呼叫並加入緊急通話。 例如，輸入貴組織的 security 辦公桌編號，該號碼會在發出緊急通話時接聽來電，然後可以接聽電話或參與通話。
+    - **Conferenced 並已取消靜音** **（即將推出）： [** 團隊聊天] 訊息會傳送給您指定的使用者和群組，而且可以取消靜音來聽取來電者與 PSAP 運算子之間的交談。
+5.  如果您已選取 [Conferenced]，**但處於靜音**通知模式，請在 [**撥出電話號碼**] 方塊中輸入使用者或群組的 PSTN 電話號碼，即可呼叫並加入緊急通話。 例如，輸入貴組織的 security 辦公桌編號，該號碼會在發出緊急通話時接聽來電，然後可以接聽通話。
 6. 搜尋並選取一或多個使用者或群組（例如貴組織的安全服務台），以在進行緊急通話時通知您。  通知可以傳送到使用者、通訊群組和安全性群組的電子郵件地址。 最多可以通知50使用者。
 7. 按一下 [儲存]****。
 
@@ -100,15 +101,15 @@ ms.locfileid: "43905105"
 > 請依照在[單一 Windows PowerShell 視窗中連線至 [所有 Office 365 服務]](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)中的步驟，確認您首先連線至 [圖形模組] 和 [商務用 Skype] powershell 模組的 [Azure Active Directory PowerShell]。
 
 取得特定群組的 GroupObjectId。
-```
+```powershell
 $group = Get-AzureADGroup -SearchString "Contoso Operations"
 ```
 取得指定群組的成員。
-```
+```powershell
 $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
 ```
 將群組中的所有使用者指派給特定的團隊原則。 在這個範例中，它是緊急呼叫路由策略的作業。
-```
+```powershell
 $members | ForEach-Object {Grant-CsTeamsEmergencyCallingPolicy -PolicyName "Operations Emergency Calling Policy" -Identity $_.UserPrincipalName}
 ``` 
 根據群組中的成員數目而定，此命令可能需要幾分鐘的時間執行。
@@ -119,9 +120,9 @@ $members | ForEach-Object {Grant-CsTeamsEmergencyCallingPolicy -PolicyName "Oper
 
 下列範例顯示如何將稱為 Contoso 緊急呼叫原則1的原則指派給 Site1 網站。
 
-    ```
-    Set-CsTenantNetworkSite -identity "site1" -EmergencyCallingPolicy "Contoso Emergency Calling Policy 1"
-    ```
+```powershell
+Set-CsTenantNetworkSite -identity "site1" -EmergencyCallingPolicy "Contoso Emergency Calling Policy 1"
+```
 
 ## <a name="related-topics"></a>相關主題
 
