@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 256c86eec1fba1526ef8e7a17fbb07db4c5d3e32
-ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
+ms.openlocfilehash: 8aad3af888bb071ad871d67d964b0ae388684a15
+ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43940680"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "43996994"
 ---
 # <a name="welcome-to-microsoft-teams"></a>歡迎使用 Microsoft Teams
 如果您是組織中 Microsoft Teams 的系統管理員，那您便是正確的人選。 當您準備好開始使用 Teams 時，請從[如何推出 Teams](How-to-roll-out-teams.md) 開始。
@@ -100,7 +100,7 @@ Teams 是 Office 365 中智慧通訊的主要用戶端，最終會取代商務�
 
 ## <a name="teams-known-issues"></a>Teams 的已知問題
 
-請參閱 [Teams 的已知問題](Known-issues.md)。
+查看 [貴組織中的 Support Teams](Known-issues.md)。
 
 ## <a name="teams-client-release-notes"></a>Teams 用戶端版本資訊
 
