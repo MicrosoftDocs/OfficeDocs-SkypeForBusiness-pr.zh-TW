@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 瞭解如何指派、變更或移除團隊中的公司電話號碼，讓您的小組使用者可以在外部進行通話。
-ms.openlocfilehash: b406a303352afaf29537815e98aed2d660670f12
-ms.sourcegitcommit: 89a7c0427a5abbef838a17ae7eac6934c6176a35
+ms.openlocfilehash: 0be2d66d1a073a031b8112cf4aa8438cfc68b150
+ms.sourcegitcommit: a09334ef1a6b0a877839c3b46165eb5a6aad1ba9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42982106"
+ms.lasthandoff: 05/02/2020
+ms.locfileid: "44006029"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>指派、變更或移除使用者的電話號碼
 
@@ -42,19 +42,20 @@ ms.locfileid: "42982106"
   
 ## <a name="assign-a-phone-number-to-a-user"></a>將電話號碼指派給使用者
  
-![](media/teams-logo-30x30.png) **使用 microsoft [團隊管理中心**] 顯示 Microsoft 團隊標誌的圖示
+![Microsoft Teams 標誌圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
     
 1. 在左側導覽中，按一下 [**語音** > **電話號碼**]。
 2. 在 [**電話號碼**] 頁面上，選取清單中未指派的號碼，然後按一下 [**編輯**]。  
 3. 在 [**編輯**] 窗格中的 [**指派給**] 底下，以 [顯示名稱] 或 [使用者名稱] 搜尋使用者，然後按一下 [**指派**]。
 4. 若要指派或變更相關聯的緊急位置，請在 [**緊急位置**] 底下，搜尋並選取位置。
+5. 視您是否想要傳送電子郵件給使用者的電話號碼資訊而定，請關閉或開啟**含有電話號碼資訊的電子郵件使用者**。 根據預設，這是開啟的。 
 6. 按一下 [儲存]****。
     > [!NOTE]
     > 由於 Office 365 與小組之間的延遲，可能需要長達24小時才能啟用使用者。 如果您在24小時後沒有正確指派電話號碼，請[與商務用客戶支援-系統管理協助](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)。 我們在這裡協助您！
   
 ## <a name="change-a-phone-number-for-a-user"></a>變更使用者的電話號碼
  
-![](media/teams-logo-30x30.png) **使用 microsoft [團隊管理中心**] 顯示 Microsoft 團隊標誌的圖示
+![Microsoft Teams 標誌圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
     
 1. 在左側導覽中，按一下 [**使用者**]，找出並按兩下您要的使用者，按一下 [**帳戶**]，然後在 **[一般資訊**] 底下，記下指派給使用者的電話號碼。
 2. 在左側導覽中，按一下 [**語音** > **電話號碼**]。
@@ -68,7 +69,7 @@ ms.locfileid: "42982106"
 
 ## <a name="remove-a-phone-number-from-a-user"></a>移除使用者的電話號碼
  
-![](media/teams-logo-30x30.png) **使用 microsoft [團隊管理中心**] 顯示 Microsoft 團隊標誌的圖示
+![Microsoft Teams 標誌圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
 
 1. 在左側導覽中，按一下 [**使用者**]，找出並按兩下您要的使用者，按一下 [**帳戶**]，然後在 **[一般資訊**] 底下，記下指派給使用者的電話號碼。
 2. 在左側導覽中，按一下 [**語音** > **電話號碼**]。

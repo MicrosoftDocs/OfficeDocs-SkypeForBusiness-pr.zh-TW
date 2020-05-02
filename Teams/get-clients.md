@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d75a76ca7a98191f90005ebe6c1edf915fde4571
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: d7411ab9862dc07b7c3bb5f8f4bed6f1cca62b47
+ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778299"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "43997014"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>取得 Microsoft Teams 用戶端 
 
@@ -115,7 +115,7 @@ IT 系統管理員可以使用 Teams 的受控部署，將安裝檔案發佈到�
 使用系統套件管理員來啟用自動更新所需的簽署金鑰也會自動安裝。 不過，也可以在以下位置找到：(https://packages.microsoft.com/keys/microsoft.asc)。 Microsoft Teams 會每月傳送，而且如果存放庫安裝正確，則系統套件管理員會使用與系統中其他套件相同的方式處理自動更新。
 
 > [!NOTE] 
-> 如果您發現錯誤，請使用用戶端內部的 `Report a Problem` 提交錯誤。 如需已知問題，請參閱[已知問題](Known-issues.md)。
+> 如果您發現錯誤，請使用用戶端內部的 `Report a Problem` 提交錯誤。 如有已知問題，請參閱[貴組織的支援小組](Known-issues.md)。
 > 如需適用於 Teams 的 Linux 支援，您可以使用 [Microsoft Q&A 上的 Linux 論壇支援頻道](https://docs.microsoft.com/answers/topics/teams.html)。 請務必在張貼問題時使用 `teams-linux` 標籤。 
 
 #### <a name="install-teams-using-deb-package"></a>使用 DEB 套件安裝 Teams
