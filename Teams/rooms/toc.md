@@ -7,6 +7,7 @@
 ### [需求](requirements.md)
 ### [線上授權](rooms-licensing.md)
 ### [使用 Azure 監視器規劃管理](azure-monitor-plan.md)
+### [使用受管理的會議室進行規劃管理](managed-meeting-rooms.md)
 
 ## 部署
 ### [部署概觀](rooms-deploy.md)
@@ -25,7 +26,7 @@
 ## 管理
 ### [管理概觀](rooms-manage.md)
 ### [維護和作業](rooms-operations.md)
-### [已知問題](known-issues.md)
+### [貴組織中的支援小組](known-issues.md)
 ### [使用 Azure 監視器的裝置](azure-monitor-manage.md)
 ### [含有 XML 檔案的設定](xml-config-file.md)
 ### [使用修復工具](recovery-tool.md)
