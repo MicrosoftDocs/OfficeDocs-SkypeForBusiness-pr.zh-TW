@@ -43,7 +43,7 @@
 ## [管理訊息原則](messaging-policies-in-teams.md)
 ## [Teams 中使用者的目前狀態](presence-admins.md)
 ## [在 Teams 中管理標籤](manage-tags.md)
-## [在 Teams 中檢視跨團隊和各個團隊的分析](teams-analytics-and-reports/cross-team-per-team-analytics.md)
+## [在 Teams 中檢視分析](teams-analytics-and-reports/view-analytics.md)
 ## [團隊的到期和更新](team-expiration-renewal.md)
 ## [封存或刪除團隊](archive-or-delete-a-team.md)
 ## [從 Slack 移轉到 Teams](migrate-slack-to-teams.md)
@@ -59,10 +59,12 @@
 ### [在 Teams 中的應用程式系統管理設定](admin-settings.md)
 ### [使用內建和自訂索引標籤](built-in-custom-tabs.md)
 ### [使用 Microsoft 365 或 Office 365 和自訂連接器](Office-365-custom-connectors.md)
-### [管理您的企業營運應用程式](manage-your-lob-apps.md)
+### [管理您的自訂應用程式](manage-your-custom-apps.md)
 ### [應用程式認證](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Teams 的應用程式範本](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [設定Skype 會議應用程式以搭配使用 Teams](configure-skype-meetings-app-to-work-with-teams.md)
+### [管理貴組織的 Tasks 應用程式](manage-tasks-app.md)
+### [設定您的小組目標階層](set-up-your-team-hierarchy.md)
+### [設定 Skype 會議應用程式以搭配 Teams 運作](configure-skype-meetings-app-to-work-with-teams.md)
 
 ## 與外部使用者通訊
 ### [與其他組織的使用者通訊](communicate-with-users-from-other-organizations.md)
@@ -274,14 +276,6 @@
 #### [如何搭配直接路由使用類比裝置](direct-routing-analog-devices.md)
 
 
-### [移轉至直接路由](direct-routing-migrating.md)
-
-### 監視和疑難排解直接路由
-#### [概觀](direct-routing-monitor-and-troubleshoot.md)
-#### [健康狀態儀表板](direct-routing-health-dashboard.md)
-### [含有 PSTN 連線功能的混合式環境中的使用者帳戶](direct-routing-user-accounts-in-a-hybrid-environment.md)
-
-
 ### 依位置路由
 #### [規劃直接路由的依位置路由](location-based-routing-plan.md)
 #### [設定依位置路由的網路設定](location-based-routing-configure-network-settings.md)
@@ -295,12 +289,14 @@
 #### [規劃本機媒體最佳化](direct-routing-media-optimization.md)
 #### [設定本機媒體最佳化](direct-routing-media-optimization-configure.md)
 
-### 監視和疑難排解直接路由
-#### [概觀](direct-routing-monitor-and-troubleshoot.md)
-#### [健康狀態儀表板](direct-routing-health-dashboard.md)
 ### [含有 PSTN 連線功能的混合式環境中的使用者帳戶](direct-routing-user-accounts-in-a-hybrid-environment.md)
 
 ### [移轉至直接路由](direct-routing-migrating.md)
+
+### 監視和疑難排解直接路由
+#### [概觀](direct-routing-monitor-and-troubleshoot.md)
+#### [健康狀態儀表板](direct-routing-health-dashboard.md)
+
 
 ### 直接路由的技術參考
 #### [輸出呼叫上的主幹容錯移轉](direct-routing-trunk-failover-on-outbound-call.md)
@@ -680,6 +676,7 @@
 
 <!-- ============================================================ -->
 # 監控、維護和疑難排解
+## [貴組織中的支援小組](Known-issues.md)
 ## [監控及管理通話品質](monitor-call-quality-qos.md)
 ### [體驗品質的審查指南](quality-of-experience-review-guide.md)
 ### [在 Teams 中設定 QoS](QoS-in-Teams.md)
@@ -700,7 +697,6 @@
 ## [疑難排解 Teams 的問題時使用記錄檔](log-files.md)
 ## [常見問題：支援您的遠端員工](FAQ-support-remote-workforce.md)
 ## [驗證 Teams 的服務健康情況](service-health.md)
-## [Teams 的已知問題](Known-issues.md)
 ## [Teams 的支援資源](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 <!-- ============================================================ -->
