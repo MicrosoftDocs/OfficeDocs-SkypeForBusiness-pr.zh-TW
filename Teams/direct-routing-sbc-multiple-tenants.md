@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 瞭解如何設定一個會話邊界控制器（SBC）來為 Microsoft 合作夥伴和/或 PSTN 運營商提供多個租使用者。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 883df3c78387d509f094f91bc346fc5b31f53690
-ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
+ms.openlocfilehash: 13d2dceb8cedc6e48d420619476cbf73c675785a
+ms.sourcegitcommit: e618396eb8da958983668ad0884b4481e1ed7b98
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43918712"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44021995"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>設定多個租用戶的工作階段邊界控制器
 
@@ -253,7 +253,7 @@ SBC 需要認證，才能驗證連線。 針對 SBC 主機案例，電信公司�
 - 針對每個租使用者，新增兩個不同 SBCs 的 Fqdn。  例如：
 
    customer1.sbc1.contoso.com <br>
-   customer2.sbc2.contoso.com <br>
+   customer1.sbc2.contoso.com <br>
 
 - 在使用者的線上語音路由策略中，指定半形。  如果一個 SBC 失敗，路由策略會將呼叫路由到第二個 SBC。
 

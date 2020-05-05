@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ba8e6439d1b0c8bb5795408f5cff39ef2c298fa4
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 9475b323e1b9b04c5735a656eac5766b8a110810
+ms.sourcegitcommit: 48b24ccf133c9d03b0d1d4eea1ec275b2be5e3bb
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778729"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44016177"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 與 Microsoft 團隊如何互動
 
@@ -50,7 +50,7 @@ ms.locfileid: "43778729"
 |**Exchange Online**|是<sup>2</sup>|是<sup>2</sup>|是|是|是|是<sup>8</sup>|是|是|是<sup>7</sup>|是|是|是|是|
 |**Exchange Online 專用 vNext**|是<sup>2</sup>|是<sup>2</sup>|是|是|是|是<sup>8</sup>|是|是|是<sup>7</sup>|是|是|是|是|
 |**Exchange Online 專用–傳統**版（需要同步處理到 Azure AD）|是<sup>2</sup>|是<sup>2、3</sup>|是<sup>4|是|否|否|是|是|否|是<sup>5|是<sup>6|是|是|
-|**Exchange 內部部署**（需要同步處理到 Azure AD & OAuth 配置）|是<sup>2</sup>| 是<sup>2、3</sup> |是<sup>4|是|是（Exchange 2016 CU3 +）|是<sup>8</sup> （EXCHANGE 2016 CU3 +）|是|是|否|是<sup>5|是<sup>6|是|是|
+|**Exchange 內部部署**（需要同步處理到 Azure AD & OAuth 配置）|是<sup>2</sup>| 是<sup>2</sup> |是<sup>4|是|是（Exchange 2016 CU3 +）|是<sup>8</sup> （EXCHANGE 2016 CU3 +）|是|是|否|是<sup>5|是<sup>6|是|是|
 
 支援<sup>1</sup>個 EXCHANGE 2016 CU3 及以上版本。  
 

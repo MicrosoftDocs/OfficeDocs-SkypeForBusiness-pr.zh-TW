@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 瞭解如何取得新的電話號碼和埠，或為小組傳送音訊會議、自動語音應答及通話佇列（服務號碼）的現有號碼。
-ms.openlocfilehash: 9eb88d46a9e993067e7a2fc8baf9847dea5b32d7
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 9ce7875f06677ab6b9a4ad61a9e30bf0df861bb8
+ms.sourcegitcommit: e618396eb8da958983668ad0884b4481e1ed7b98
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136713"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44021985"
 ---
 # <a name="getting-service-phone-numbers"></a>取得服務電話號碼
 
@@ -51,7 +51,7 @@ ms.locfileid: "43136713"
 ![Microsoft Teams 標誌圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
 
 1. 在左側導覽中，移至 [**語音** > **電話號碼**]，然後按一下 [**新增**]。
-2. 輸入訂單的名稱，如果您想要的話，也可以新增描述。
+2. 輸入訂單的名稱並新增描述。
 3. 在 [位置及數量] 頁面上，執行下列動作：
     1. 在 [**國家或地區**] 下，選取國家或地區。
     1. 在 [**數位類型**] 底下，選取您想要的服務號碼類型。
