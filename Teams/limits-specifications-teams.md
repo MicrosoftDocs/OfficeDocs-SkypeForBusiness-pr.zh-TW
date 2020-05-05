@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 03cc795f9d3df5500c4eafceee4a1fd5d3605fb6
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 28a77271c66dc473dfb774db2c02ca80bc842587
+ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904028"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43950968"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和規格
 
@@ -134,6 +134,16 @@ Teams 的聊天是在 Microsoft Exchange 後端執行，因此 Exchange 的傳�
 |一個 Office 365 組織的並行即時活動 | 15 |
 
 如需更多有關即時活動以及 Teams 即時活動與 Skype 會議廣播的比較詳細資訊，請參閱 [Teams 即時活動和 Skype 會議廣播](teams-live-events/plan-for-teams-live-events.md#teams-live-events-and-skype-meeting-broadcast) (英文)。
+
+> [!IMPORTANT]
+> **Microsoft 365 的即時活動限制增加**
+> 
+> 為了協助客戶滿足迅速變化的通訊需求，Microsoft 365 即時活動將針對於 Teams 中進行的即時活動暫時提高預設限制，直到 2020 年 7 月 1 日止。 以下限制將於 2020 年 4 月底推出：
+> - 出席者限制：活動最多可支援 20,000 位出席者
+> - 同時活動：不同租用戶可以同時進行 50 個活動
+> - 活動持續時間：每個廣播的活動長度已增加為 16 小時
+
+
 
 ## <a name="presence-in-outlook"></a>在 Outlook 中的目前狀態
 
