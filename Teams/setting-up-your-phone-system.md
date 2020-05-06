@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 逐步指南詳細說明如何在 Office 365 中設定貴組織的電話系統（雲端 PBX）。
-ms.openlocfilehash: c2756b750c00dd370d5ef33370ae359d0351e07e
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 01e5016761481a49af5a2946dd151acb7c3930ea
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905565"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042430"
 ---
 # <a name="set-up-phone-system-in-your-organization"></a>在組織中設定電話系統
 
@@ -40,7 +40,7 @@ ms.locfileid: "43905565"
 
 ## <a name="step-2-buy-and-assign-phone-system-and-calling-plan-licenses"></a>步驟2：購買並指派電話系統和通話方案授權
 
-若要將電話系統和通話方案授權指派給單一使用者，這些步驟與指派 Office 365 授權是一樣的。  您也可以大量指派授權給多位使用者。 如需詳細資訊，請參閱[指派 Microsoft 團隊授權](assign-teams-licenses.md)。
+若要將電話系統和通話方案授權指派給單一使用者，這些步驟與指派 Office 365 授權是一樣的。  您也可以大量指派授權給多位使用者。 如需詳細資訊，請參閱[指派 Microsoft 團隊附加元件授權](teams-add-on-licensing/assign-teams-add-on-licenses.md)。
 
 如果通話方案不適用於您的國家或地區，請考慮使用直接路由將您的內部部署電話結構連線至 [電話系統]。  如需詳細資訊，請參閱[手機系統 Direct 路由](direct-routing-landing-page.md)。
 

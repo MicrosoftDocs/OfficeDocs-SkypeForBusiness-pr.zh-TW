@@ -23,12 +23,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 瞭解如何設定通話方案，包括您地區中提供的 [查看方案]、購買 & 指派授權、取得電話號碼，以及將緊急位址新增 & 位置。
-ms.openlocfilehash: 4c470327b01b799dabc585db479e51e8ef37c41b
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 08db669cfb7ddb75f6a73610f112c682a016354b
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140876"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042400"
 ---
 # <a name="set-up-calling-plans"></a>設定通話方案
 
@@ -45,7 +45,7 @@ ms.locfileid: "43140876"
     > [!TIP]
     > Office 365 中的**電話系統**授權與通話方案若要查看購買通話方案的選項，您必須先擁有**電話系統**授權。
   
-2. 首先指派授權，然後將通話方案指派給貴組織中的人員。 請參閱[指派 Microsoft 團隊授權](assign-teams-licenses.md)。
+2. 首先指派授權，然後將通話方案指派給貴組織中的人員。 請參閱[指派 Microsoft 團隊附加元件授權](teams-add-on-licensing/assign-teams-add-on-licenses.md)。
     
 ## <a name="step-3-get-phone-numbers"></a>步驟3：取得電話號碼
 有三種方式可以取得新的使用者號碼：

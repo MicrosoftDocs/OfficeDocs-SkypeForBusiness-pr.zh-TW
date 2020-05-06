@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 摘要：商務用 Skype Server 2015 或商務用 Skype Online 系統管理員可以使用這些表格，瞭解哪些用戶端支援哪些功能。
-ms.openlocfilehash: c07955758f86e31eb947a99ce8ba0e8dc7a44b30
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 2da6ed53ea70e6a3065b283456ccf028fd04ca6f
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777798"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44041950"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2015"></a>商務用 Skype Server 2015 的桌面用戶端功能比較
 
@@ -188,7 +188,7 @@ ms.locfileid: "43777798"
 |群組來電接聽  |&#x2714;||&#x2714; &#x2776; ||||&#x2714;|||
 |依位置路由  |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;||&#x2714;|
 |管理回應群組/小組通話群組 |&#x2714;||&#x2714;|||||||
-
+|應答自動語音應答呼叫 |&#x2714;||&#x2714;|||||||
  &#x2776; 商務用 Skype Online 中無法使用此功能。
   
 ## <a name="external-users-support"></a>外部使用者支援

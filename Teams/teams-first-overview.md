@@ -15,12 +15,12 @@ description: 使用本指導方針將 Microsoft 團隊作為您的第一份 Offi
 ROBOTS: NOINDEX, NOFOLLOW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9db6b2192224e796475c903cf5eeeaa06ecdc8ee
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 2cd8fc92d3f46df8bcfaa07a96b69b84790750aa
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780372"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44041710"
 ---
 # <a name="roll-out-microsoft-teams-first"></a>先推出 Microsoft 團隊
 
@@ -43,7 +43,7 @@ Microsoft 團隊可以協助您的員工彼此保持聯繫並共同作業，特�
     若要瞭解與 AAD 同步處理的屬性，請閱讀[AZURE AD Connect 同步處理：屬性已同步處理到 Azure Active Directory](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized)
 
 3.  指派給小組的適當使用者授權  
-    若要瞭解團隊授權，請閱讀[Microsoft 團隊的 Office 365 授權](office-365-licensing.md)
+    若要瞭解團隊授權，請參閱[Microsoft 團隊服務說明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)。
 
 4.  組織為團隊準備的網路  
     若要瞭解網路準備，請閱讀[針對團隊準備貴組織的網路](prepare-network.md)。
@@ -54,7 +54,7 @@ Microsoft 團隊可以協助您的員工彼此保持聯繫並共同作業，特�
 > 在2019年9月1日之後建立的租使用者僅限 [小組] 模式提供。
 > 
 > [!IMPORTANT]
-> 如果您已部署商務用 Skype Server，且您的租使用者已于2019年9月1日之後預配，請與 premier 支援人員聯繫，以啟用團隊的共存功能。 將任何團隊授權指派給使用者<span class="underline">之前</span>，請確定您的 [組織範圍升級原則] 已設定為 [孤島模式]。
+> 如果您已部署商務用 Skype Server 且您的租使用者已于2019年9月1日之後預配，請聯絡支援人員來啟用團隊的共存功能。 將任何團隊授權指派給使用者<span class="underline">之前</span>，請確定您的 [組織範圍升級原則] 已設定為 [孤島模式]。
 
 ## <a name="migration-starting-points"></a>遷移開始點
 
@@ -233,7 +233,7 @@ Microsoft 團隊可以協助您的員工彼此保持聯繫並共同作業，特�
 
 1.  符合上述 [從這裡開始] 區段中的先決條件。
 
-2.  將租使用者切換到孤島模式（在9/1/2019 之後，請與 premier 支援人員聯繫，以進行變更）  
+2.  將租使用者切換到孤島模式（在9/1/2019 之後，請與支援人員聯繫以進行變更）  
     [設定您的共存與升級設定](setting-your-coexistence-and-upgrade-settings.md)
 
 3.  根據公司的商務/公司原則設定您的租使用者  

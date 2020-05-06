@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 瞭解在 Microsoft 團隊中重設使用者的會議 ID，以及取得會議更新與遷移工具的連結的步驟。
-ms.openlocfilehash: 4874630d27f0ded2cdf9cf4bb0bc0912a426e544
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 008a479677723dedbfe1923f57358808b16fd9ec
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137613"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042450"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-microsoft-teams"></a>在 Microsoft 團隊中重設使用者的會議 ID
 
@@ -59,7 +59,7 @@ ms.locfileid: "43137613"
 
 - 您可以在包含會議 ID 和撥入電話號碼的電子郵件中，將所有會議資訊傳送給使用者，方法是在 [**音訊會議**] 區段中，按一下 [**以電子郵件傳送會議資訊**]。 它不會傳送 PIN。
     
-- 會議 ID 會包含7位數，而且您無法變更它的長度。
+- 會議 ID 會包含8位數，而且您無法變更它的長度。
     
 - 重設之後，您可以在 [**會議 id**] 底下看到新的會議 ID。
     

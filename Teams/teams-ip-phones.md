@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 瞭解哪些桌面與會議已認證，讓 Microsoft 團隊能產生最佳結果。
-ms.openlocfilehash: fddb09ee2da24629cce7c942847d5a2ae445d7a1
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: 9a533b882da3298cdfd497e4f87b88e64a2d5ef4
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43951208"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44041831"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Microsoft 團隊的 IP 手機認證
 
@@ -73,7 +73,7 @@ IP 電話認證計畫可確保使用經過驗證的手機和手機的客戶能�
 
 請參閱在行動[裝置上尋找固件版本](/MicrosoftTeams/phones-for-teams#finding-the-firmware-version-on-a-mobile-device)，以判斷行動裝置上的裝置固件版本。
 
-Microsoft 團隊授權可以在[microsoft 365 或 Office 365 訂閱](/MicrosoftTeams/Office-365-licensing.md)中購買。 若要深入瞭解在手機上使用 Microsoft 團隊所需的授權，請參閱可用的[電話系統授權](https://products.office.com/microsoft-teams/voice-calling)。
+Microsoft 團隊授權可以在[microsoft 365 或 Office 365 訂閱](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)中購買。 若要深入瞭解在手機上使用 Microsoft 團隊所需的授權，請參閱可用的[電話系統授權](https://products.office.com/microsoft-teams/voice-calling)。
 
 如需取得團隊的詳細資訊，請參閱[如何取得 Microsoft 團隊的存取權？](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 

@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是適用于商務用 Skype 和 Microsoft 團隊（適用于沙烏地阿拉伯）的 Office 365 服務。
-ms.openlocfilehash: 36d59a1c77824f86d4eca6d94450c71c4cd87cb6
-ms.sourcegitcommit: 67466cde3ffd5c42d632300b8a2adf7aab7df5d1
+ms.openlocfilehash: ba64a0e3cb0e9bfd6da12cfaf70516cf3c508955
+ms.sourcegitcommit: b143611d14765af054a4f84cca52e2003d35af1a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "43958458"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44047829"
 ---
 # <a name="availability-in-saudi-arabia"></a>沙烏地阿拉伯的可用性
 
@@ -71,7 +71,7 @@ ms.locfileid: "43958458"
 |:-----|:-----|
 |哪些首都/首要城市能提供您付費電話號碼？  <br/> | 不適用  <br/> |
 |有提供付費電話號碼嗎？  <br/> |否  <br/> |
-|是否提供免付費電話號碼？  <br/> |否  <br/> |
+|是否提供免付費電話號碼？  <br/> |是  <br/> |
    
  如果您想要取得音訊會議、自動語音應答和通話佇列的付費電話號碼和免付費電話號碼，請參閱[取得商務用 Skype 和 Microsoft Teams 的服務電話號碼](/microsoftteams/getting-service-phone-numbers)。
   

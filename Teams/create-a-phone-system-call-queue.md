@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 瞭解如何在 Microsoft 團隊設定電話系統，以提供問候訊息、等候音樂、呼叫重新導向及其他功能。
-ms.openlocfilehash: d6a0095e0189c37a8002017fde590e05faf791fe
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 8d7001d3e4052eddcfce1d3dfa3da845bce3af66
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43914043"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44047366"
 ---
 # <a name="create-a-cloud-call-queue"></a>建立雲端通話佇列
 
@@ -68,7 +68,7 @@ ms.locfileid: "43914043"
 > 僅限 Microsoft 團隊使用者和代理程式支援電話佇列的直接路由服務號碼。
 
 > [!NOTE]
-> 若要將來電重新導向至貴組織中的線上人員，他們必須具備**電話系統**授權，且可供企業語音使用或擁有 Office 365 通話方案。 請參閱[指派 Microsoft 團隊授權](assign-teams-licenses.md)。 若要啟用企業語音，您可以使用 Windows PowerShell。 例如，執行：`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+> 若要將來電重新導向至貴組織中的線上人員，他們必須具備**電話系統**授權，且可供企業語音使用或擁有 Office 365 通話方案。 請參閱[指派 Microsoft 團隊附加元件授權](teams-add-on-licensing/assign-teams-add-on-licenses.md)。 若要啟用企業語音，您可以使用 Windows PowerShell。 例如，執行：`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 - 若要深入瞭解 Office 365 通話方案，請參閱[手機系統和通話方案](calling-plan-landing-page.md)與[Office 365 的通話方案](calling-plans-for-office-365.md)。
 
@@ -183,7 +183,7 @@ ms.locfileid: "43914043"
 - 內部部署商務用 Skype 伺服器使用者
 
   > [!NOTE]
-  > 如果您想要將來電重新導向至組織中線上的人員，也適用這種情況。 這些人必須具備**手機系統**授權和企業語音功能，*或是*有通話方案。 如需詳細資訊，請參閱[指派商務用 Skype 授權](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)、[指派 Microsoft 團隊授權](https://docs.microsoft.com/microsoftteams/assign-teams-licenses)，或適合[您的通話計畫？](https://docs.microsoft.com/microsoftteams/calling-plan-landing-page)
+  > 如果您想要將來電重新導向至組織中線上的人員，也適用這種情況。 這些人必須具備**手機系統**授權和企業語音功能，*或是*有通話方案。 如需詳細資訊，請參閱[指派商務用 Skype 授權](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)、[指派 Microsoft 團隊授權](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses)，或適合[您的通話計畫？](https://docs.microsoft.com/microsoftteams/calling-plan-landing-page)
 
  若要啟用企業語音的代理程式，您可以使用 Windows PowerShell。 例如，執行：`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 

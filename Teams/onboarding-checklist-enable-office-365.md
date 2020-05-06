@@ -16,19 +16,19 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 5e40902fdb01ba6c639e37395d9e63c1776c1e83
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 96d5021b9760d8db875ddeb979cf147086eb755e
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777258"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042080"
 ---
 # <a name="enable-microsoft-365-or-office-365"></a>啟用 Microsoft 365 或 Office 365
  
-| 否 | 活動或任務| 描述| 完畢? | 其他資訊|
+| 否 | 活動或任務| 說明| 完畢? | 其他資訊|
 |----|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1  | 建立 Microsoft 365 或 Office 365 組織| 您必須先設定 Microsoft 365 或 Office 365 組織，您的組織才能享受團隊帶來的好處。 如果您沒有 Microsoft 365 或 Office 365 組織，請參閱 [**其他資訊**] 欄中的指導方針。 | | [設定商務用 Office 365](https://support.office.com/article/Set-up-Office-365-for-business-6a3a29a0-e616-4713-99d1-15eda62d04fa) <br/><br/>[如果您需要其他協助，請使用 Microsoft FastTrack for Office 365 團隊提供協助](https://fasttrack.microsoft.com/office) |
-| pplx-2  | 購買 Office 365 授權 | 根據您在團隊構想階段所做的工作結果，與您的購買群組共同作業，以確保貴組織已購買必要的授權 Sku 或附加元件服務，且已準備好將其指派給租使用者。 | | [Microsoft 團隊的 Office 365 授權](https://docs.microsoft.com/MicrosoftTeams/office-365-licensing) <br/><br/>[購買商務用 Office 365 訂閱的授權](https://support.office.com/article/Buy-licenses-for-your-Office-365-for-business-subscription-36081d8d-b3fa-4948-8c34-e217bba825e1) |
+| 2  | 購買 Office 365 授權 | 根據您在團隊構想階段所做的工作結果，與您的購買群組共同作業，以確保貴組織已購買必要的授權 Sku 或附加元件服務，且已準備好將其指派給租使用者。 | | [Microsoft 團隊服務描述](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description) <br/><br/>[購買商務用 Office 365 訂閱的授權](https://support.office.com/article/Buy-licenses-for-your-Office-365-for-business-subscription-36081d8d-b3fa-4948-8c34-e217bba825e1) |
 | 3  | 將 Office 365 授權指派給租使用者 | 通常，您或您的授權管理員會收到來自 Microsoft 授權的連結，以將您的授權新增至您的 Office 365 組織。 <br/><br/>視您用來購買授權的頻道而定，您可能需要造訪 [**其他資訊**] 欄中所列的其中一個指南。 | | [新增授權至支付給使用產品金鑰的訂閱](https://support.office.com/article/Add-licenses-to-a-subscription-paid-for-using-a-product-key-4fb4bd7e-3920-4ce0-98fb-0c06e3fedf53) <br/><br/>[透過大量授權服務中心中心新增授權至購買的訂閱](https://support.office.com/article/Add-licenses-to-a-subscription-purchased-through-the-Volume-Licensing-Service-Center-82ba88fa-ebdf-4d44-a7b3-cea82b25d71a) |
 | 4  | 選用：啟用通訊點數 | [通訊點數] 是您用來提供貴組織的會議橋接器電話號碼免費存取的選擇性功能，或是讓會議召集人能夠撥出給國際會議參與者。 <br/><br/>除了標準的音訊會議每個使用者授權之外，大量和授權組織也可以選擇要啟用音訊會議功能的每分鐘付費優惠。 <br/><br/>決定貴組織是否需要通訊點數，如果是的話，請將通訊點數附加元件授權新增至您的租使用者，以啟用它。 | | [什麼是通訊點數？](what-are-communications-credits.md) <br/><br/>[設定貴組織的通訊點數](set-up-communications-credits-for-your-organization.md) <br/><br/>[音訊會議按分鐘計費](audio-conferencing-pay-per-minute.md) |
 | 500  | 確認 Office 365 組織有可用的授權 | 移至 Microsoft 365 系統管理中心，確認它顯示您在 Office 365 組織中預期的授權 Sku 與數量。 <br/><br/>在**其他資訊**中使用參照來遍歷此程式。 | | [我擁有哪些商務用 Office 365 訂閱？](https://support.office.com/article/What-Office-365-for-business-subscription-do-I-have-092252f8-08df-4cdb-a8d2-b8653caa29a1) |

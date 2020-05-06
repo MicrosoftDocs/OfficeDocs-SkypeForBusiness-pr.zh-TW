@@ -22,12 +22,12 @@ ms.custom:
 - Licensing
 - seo-marvel-apr2020
 description: '瞭解如何為您的使用者和組織設定通訊點數（PSTN 消費）帳單授權。 '
-ms.openlocfilehash: 8deb0d00365803ff8ae585f8f6d4dfefbf72108f
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 5fb963bbea97a41b6dbd6b68d5d7e0c162dc5a05
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905585"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042940"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>設定貴組織的通訊點數
 
@@ -42,11 +42,11 @@ ms.locfileid: "43905585"
   
 若要這樣做，**您必須將音訊會議或電話系統授權指派**給您的使用者。
   
-- 將**音訊會議**授權指派給您的使用者。 請參閱[指派 Microsoft 團隊授權](assign-teams-licenses.md)。
+- 將**音訊會議**授權指派給您的使用者。 請參閱[指派 Microsoft 團隊附加元件授權](teams-add-on-licensing/assign-teams-add-on-licenses.md)。
     
     指派此授權之後，您將需要設定音訊會議。 如需逐步指示，請參閱[在 Office 365 中試用或購買音訊會議](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)。
     
-- 為您的使用者指派**電話系統**和**國內或國內和國際**通話方案授權。 請參閱[指派 Microsoft 團隊授權](assign-teams-licenses.md)。
+- 為您的使用者指派**電話系統**和**國內或國內和國際**通話方案授權。 請參閱[指派 Microsoft 團隊附加元件授權](teams-add-on-licensing/assign-teams-add-on-licenses.md)。
     
     > [!NOTE]
     > 雖然通訊點數不需要，但您仍需要指派**國內通話方案**或**國內與國際通話方案**授權。

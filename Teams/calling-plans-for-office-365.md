@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: '瞭解商務用 Skype 選項的通話方案（PSTN 通話方案），以及如何取得貴組織的授權。 '
-ms.openlocfilehash: c7e3d405e82613de8cfe5313c6dd93c0b5c29e0a
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 14e3727ae4e474b2b211df469b44e94b2cec8bf3
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905015"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44041730"
 ---
 # <a name="calling-plans-for-microsoft-365"></a>Microsoft 365 通話方案
 
@@ -58,19 +58,19 @@ ms.locfileid: "43905015"
     ![螢幕擷取畫面顯示購買語音通話方案的選項。](media/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
   
     > [!NOTE]
-    > 視您的方案而定，您可能需要購買更多附加元件，才能購買電話系統授權。 若要深入瞭解，請參閱[Microsoft 團隊附加元件授權](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)中的「根據您的方案的授權選項」。
+    > 視您的方案而定，您可能需要購買更多附加元件，才能購買電話系統授權。 若要深入瞭解，請參閱[Microsoft 團隊附加元件授權](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
   
 2. 購買電話系統授權之後，您可以登入**Microsoft 365 管理中心**，選擇 [**帳單** > **購買服務** > **附加元件訂閱**]，然後按一下 [**立即購買**]，即可購買通話方案。 您會在這裡看到通話方案。
     
     ![顯示語音通話方案選項的螢幕擷取畫面。](media/ab2d6dce-56eb-4bbc-ac1a-430b0c065d18.png)
   
-您可以根據組織的需求，購買並指派不同的通話方案給不同的使用者。 在您選取所需的通話方案後，請繼續結帳。 您可以在 Microsoft 365 系統管理中心將計畫指派給每個使用者。 若要瞭解做法，請參閱[指派 Microsoft 團隊授權](assign-teams-licenses.md)。
+您可以根據組織的需求，購買並指派不同的通話方案給不同的使用者。 在您選取所需的通話方案後，請繼續結帳。 您可以在 Microsoft 365 系統管理中心將計畫指派給每個使用者。 若要瞭解做法，請參閱[指派 Microsoft 團隊附加元件授權](teams-add-on-licensing/assign-teams-add-on-licenses.md)。
   
 ## <a name="do-you-have-a-service-provider-that-provides-on-premises-pstn-connectivity-for-hybrid-users"></a>您是否有服務提供者為混合式使用者提供內部部署 PSTN 連線能力？
 
 如果是這樣，您就不需要購買通話方案。 Office 365 企業版 E5 包括 [**電話系統**] 附加元件，所以您可以繼續結帳。
   
-然後，將企業版 E5 或**電話系統**附加元件授權指派給 Microsoft 365 系統管理中心的使用者。 若要瞭解做法，請參閱[指派 Microsoft 團隊授權](assign-teams-licenses.md)。
+然後，將企業版 E5 或**電話系統**附加元件授權指派給 Microsoft 365 系統管理中心的使用者。 若要瞭解做法，請參閱[指派 Microsoft 團隊附加元件授權](teams-add-on-licensing/assign-teams-add-on-licenses.md)。
   
 ## <a name="pricing-information"></a>定價資訊
 

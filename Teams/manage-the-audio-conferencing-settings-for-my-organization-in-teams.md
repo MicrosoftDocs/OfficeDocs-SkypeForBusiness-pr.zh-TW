@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: '請參閱 Microsoft 團隊步驟，將電話撥入式會議授權及會議 ID 指派給使用者和許多其他電話撥入式會議設定。 '
-ms.openlocfilehash: 513695cf905c7cb21f332f6b025318253b03334d
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: b353f119d3f666f0a694ab325273e2b5f568da04
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141156"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042480"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>在 Microsoft 團隊中管理貴組織的音訊會議設定
 
@@ -39,7 +39,7 @@ ms.locfileid: "43141156"
 ## <a name="assign-an-audio-conferencing-license"></a>指派音訊會議授權
 
 > [!NOTE]
-> 您無法使用團隊指派授權。 您必須使用 Microsoft 365 系統管理中心。 請參閱[指派商務用 Skype 和 Microsoft 團隊授權](assign-teams-licenses.md)。 
+> 您無法使用團隊指派授權。 您必須使用 Microsoft 365 系統管理中心。 請參閱[指派 Microsoft 團隊附加元件授權](teams-add-on-licensing/assign-teams-add-on-licenses.md)。 
   
  **指派使用者的授權**
   

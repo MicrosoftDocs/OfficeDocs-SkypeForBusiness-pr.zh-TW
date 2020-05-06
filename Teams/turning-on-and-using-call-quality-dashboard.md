@@ -24,12 +24,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: 瞭解如何開啟和使用通話品質儀表板，並取得通話品質的摘要報告。
-ms.openlocfilehash: 874b074047e191422d552236dea1d0f1e746780d
-ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
+ms.openlocfilehash: 95c4a777576b2cf574ba76d7f1b19de69f64dc88
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43918841"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44047363"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>開啟並使用 Microsoft 團隊和商務用 Skype Online 的通話品質儀表板
 
@@ -482,6 +482,8 @@ CQD 會使用端點資料檔案。 欄值會用於通話記錄的第一個用戶
  
 遙測不一定要找出問題，但它可以協助您更好地瞭解在何處查看並告知您的決策。 是網路、裝置、驅動程式或固件更新、使用方式或使用者嗎？
 
+### <a name="why-do-i-see-upto-02-difference-in-call-and-user-count-values-on-measures-and-how-to-get-most-accurate-volumes"></a>為什麼在 [通話] 和 [使用者計數] 值中看到的0.2% 差異，以及如何取得最精確的磁片容量？ 
+若要計算通話計數和使用者計數測量，請針對資料集中的通話或使用者識別碼執行不同的 countif 操作。 在大型資料集上，有最多0.2% 的錯誤 inherient 與 distinct opeartion。 若要取得最精確的容量，您應該依靠資料流程計數測量，因為它們不依賴這個不同的 countif 操作。 篩選以減少資料量，可能會減少錯誤，但在不同的通話和使用者計數中可能不會 elimnate 這個錯誤來源。 請參閱[通話品質儀表板中可](dimensions-and-measures-available-in-call-quality-dashboard.md)受影響之量值的尺寸與測量。
 
 ### <a name="why-does-my-cqd-v2-report-data-look-different-than-the-cqd-v3-report-data"></a>為什麼 CQD v2 報告資料看起來與 CQD v3 報告資料不同？ 
 

@@ -23,12 +23,12 @@ ms.custom:
 - Licensing
 - seo-marvel-mar2020
 description: 瞭解使用 Microsoft 大量授權為組織啟用音訊會議功能的每分鐘付款選項。
-ms.openlocfilehash: 5943b5d160df1ddd2ebb3da42818b02683e47309
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 18324a5e2f0ec97311675fa4dcb7293a456486a0
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139162"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44041720"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>音訊會議按分鐘計費
 
@@ -74,7 +74,7 @@ ms.locfileid: "43139162"
   
 ## <a name="want-to-find-out-more-about-pricing"></a>想要瞭解更多關於定價的資訊嗎？
 
- **想要尋找價格嗎？** 瞭解[如何查看價格並購買附加元件授權](teams-add-on-licensing/microsoft-teams-add-on-licensing.md#bkmk_how)或下列其中一項：
+ **想要尋找價格嗎？** 請參閱下列內容：
   
 - [音訊會議的定價](https://products.office.com/skype-for-business/audio-conferencing#Requirements)
     

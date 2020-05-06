@@ -17,12 +17,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b870a15f885922563d8440d571dc5a6eb7ac7540
-ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
+ms.openlocfilehash: 5358e169c66764cc3343feeb78365fbe47cab452
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43940780"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042470"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>系統管理員快速入門 - Microsoft Teams 的會議和即時活動
 
@@ -45,7 +45,7 @@ Microsoft Teams 有 2 個集會方式 - 會議和即時活動。 請使用此文
 > <sup>2</sup>  若是撥出至[**用下列電話號碼連絡我**號碼](set-up-the-call-me-feature-for-your-users.md)的會議，召集人必須擁有 E5 或[音訊會議附加元件授權](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。 [撥號對應表](what-are-dial-plans.md)可能也在必要項目之列。 
 
 
-若要深入了解授權，請參閱 [Office 365 的 Teams 授權](Office-365-licensing.md)。 
+若要深入瞭解授權，請參閱 [Microsoft Teams 服務描述](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)。 
 
 ## <a name="make-sure-your-networks-ready"></a>確定網路已準備就緒
 

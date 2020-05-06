@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 使用本指導方針來協助組織中的遠端工作者使用 Microsoft Teams 來提高生產力，尤其是當他們在家中工作 (WFH) 時，以因應 COVID-19 (冠狀病毒) 爆發的情況。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 98570e5ee634781467c373bebf1ec1fa4dc97e6d
-ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
+ms.openlocfilehash: bdcb1dd78db1e3a555b58b40c17a7313d875317a
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43940710"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042420"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>支援使用 Microsoft Teams 的遠端工作者
 
@@ -33,7 +33,7 @@ ms.locfileid: "43940710"
 
 - 確定每個人都能利用免費 6 個月的 **[Office 365 E1](e1-trial-license.md)** 或 **[Teams 免費增值版](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)** 來存取 Teams。 如需協助，請連絡您的 Microsoft 帳戶團隊或合作夥伴。
 
--  如果您已擁有包含 Teams 的訂閱，請**[為每個人開啟](assign-teams-licenses.md)**。
+-  如果您已擁有包含 Teams 的訂閱，請**[為每個人開啟](user-access.md)**。
     
 - 了解如何讓組織開始使用 **[Teams 中的會議和即時活動](quick-start-meetings-live-events.md)**。 
 

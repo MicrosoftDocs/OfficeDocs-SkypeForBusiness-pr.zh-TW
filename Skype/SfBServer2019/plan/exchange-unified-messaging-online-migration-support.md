@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Microsoft 正在撤銷2020年2月28日的 Exchange 整合通訊線上（ExchUMO）服務。 本文摘要說明哪些受影響客戶應知道哪些專案，以及應如何規劃其業務持續性。
-ms.openlocfilehash: ab0040887b41fc62786f21c889f7dd63aae011b4
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: a28d8e1d9217773ec28c8f2afdf00cb1e16ae53c
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780772"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042830"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange 整合通訊線上遷移支援
 
@@ -135,6 +135,7 @@ Office 365 組織管理員必須在 Microsoft 雲端自動語音應答服務中�
 | Vm | 服務功能 | eDiscovery 和保留  | 出於安全性和合規性  | Y | Y    |
 | Vm | 服務功能 | Exchange 規則支援 | 出於安全性和合規性  | Y | Y    |
 | Vm | 使用者功能 | PSTN 撥入式存取  | 使用者存取  | N | Y    |
+| Vm | 使用者功能 | 委託  | 未接來電電子郵件  | N | Y    |
 | Vm | 使用者功能 | PSTN Outlook 語音存取   | 使用者存取  | N | Y    |
 | Vm | 使用者功能 | 使用已驗證端點撥入 | 呼叫語音信箱服務收聽語音訊息及變更語音信箱設定| Y | Y    |
 | Vm | 使用者功能 | 停用語音信箱的使用者設定   |  | Y | Y    |

@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 瞭解雲端自動語音應答，以及如何使用它，讓來電者在功能表系統中移動，找出電話並將來電放入或轉接給使用者或部門。
-ms.openlocfilehash: bfe142db0322757dd8fefe55c4de529168939126
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 614077237f95c97c584a467c5852f97f438e92b8
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905135"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042600"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>什麼是雲端自動語音應答？
 
@@ -64,7 +64,7 @@ Office 365 中的 [電話系統] 提供自動語音應答，可以用來讓外�
 > 僅限 Microsoft 團隊使用者和呼叫代理程式支援自動語音應答和通話佇列的直接路由服務號碼。
 
    > [!TIP]
-   > 若要將來電重新導向給以**電話系統**授權為線上使用者的操作員或功能表選項，您必須啟用其企業語音帳戶或指派通話方案給他們。 請參閱[指派 Microsoft 團隊授權](assign-teams-licenses.md)。 您也可以使用 Windows PowerShell。 例如，執行：`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+   > 若要將來電重新導向給以**電話系統**授權為線上使用者的操作員或功能表選項，您必須啟用其企業語音帳戶或指派通話方案給他們。 請參閱[指派 Microsoft 團隊附加元件授權](teams-add-on-licensing/assign-teams-add-on-licenses.md)。 您也可以使用 Windows PowerShell。 例如，執行：`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
 - 若要取得並使用自動語音應答的免費服務號碼，您必須設定通訊點數。 若要這樣做，請參閱[什麼是通訊信用？](what-are-communications-credits.md) ，並[為您的組織設定通訊點數](set-up-communications-credits-for-your-organization.md)。
 

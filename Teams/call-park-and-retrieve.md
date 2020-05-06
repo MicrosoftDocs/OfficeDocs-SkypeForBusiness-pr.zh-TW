@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callparkpolicies.overview
 - seo-marvel-apr2020
 description: 瞭解如何使用通話駐留及取回功能，在雲端的小組服務中保持通話。
-ms.openlocfilehash: 2420652fc908a943e798ac1acade53eca4c5b55f
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: e36690c4059ceae67c8615b1e910051439ca8e78
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905035"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042960"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>在 Microsoft 團隊中通話駐留與取回
 
@@ -44,7 +44,7 @@ ms.locfileid: "43905035"
 
 ## <a name="license-required"></a>需要授權
 
-若要寄存與取回通話，使用者必須是企業語音使用者，且系統管理員必須為使用者授予通話駐留原則。 如需授權模型的詳細資訊，請參閱[Microsoft 團隊適用的 Office 365 授權](office-365-licensing.md)。
+若要寄存與取回通話，使用者必須是企業語音使用者，且系統管理員必須為使用者授予通話駐留原則。 如需授權模型的詳細資訊，請參閱[Microsoft 團隊服務說明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)。
 
 ## <a name="call-park-and-retrieve-feature-availability"></a>通話駐留及取得功能可用性
 

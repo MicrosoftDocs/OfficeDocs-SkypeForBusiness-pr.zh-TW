@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 為商務用 Skype Server 2019 設定資源帳戶。
-ms.openlocfilehash: 1de087abdf08420a6300ae45466e9696aacb1ed1
-ms.sourcegitcommit: 477aac9e14fced139ee7dd827942ce35b9769b63
+ms.openlocfilehash: 0d7e52892c718f215a269201b73a547a97c13f96
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43510782"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042840"
 ---
 # <a name="configure-resource-accounts"></a>設定資源帳戶
 
@@ -43,7 +43,7 @@ ms.locfileid: "43510782"
 
 如果 [自動語音應答] 或 [通話佇列] 嵌套在最上層的自動語音應答之下，只要您想要將多個專案點組成至自動語音應答及通話佇列的結構，相關聯的資源帳戶才需要電話號碼。
 
-若要將來電重新導向至組織中的內部網路人員，他們必須具備**電話系統**授權，並可啟用 Enterprise Voice 或具備 Office 365 通話方案。 請參閱[指派 Microsoft 團隊授權](/MicrosoftTeams/assign-teams-licenses)。 若要啟用企業語音，您可以使用 Windows PowerShell。 例如，執行：`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+若要將來電重新導向至組織中的內部網路人員，他們必須具備**電話系統**授權，並可啟用 Enterprise Voice 或具備 Office 365 通話方案。 請參閱[指派 Microsoft 團隊附加元件授權](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses)。 若要啟用企業語音，您可以使用 Windows PowerShell。 例如，執行：`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 如果您要建立的電話系統自動語音應答或通話佇列將會嵌套，而且不需要電話號碼，則程式為：
 
@@ -84,7 +84,7 @@ ms.locfileid: "43510782"
 
     如需此命令的詳細資訊，請參閱[ADSyncSyncCycle](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler) 。
 
-5. 將電話系統虛擬使用者或電話系統授權指派給資源帳戶。 請參閱[指派 Microsoft 團隊授權](/MicrosoftTeams/assign-teams-licenses)，並[指派授權給一位使用者](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#assign-licenses-to-one-user)。
+5. 將電話系統虛擬使用者或電話系統授權指派給資源帳戶。 請參閱[指派 Microsoft 團隊附加元件授權](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses)，並[指派授權給一位使用者](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#assign-licenses-to-one-user)。
 
    若要將電話號碼指派給資源帳戶，您現在可以使用「成本免費電話系統-虛擬」使用者授權。 這為組織層級的電話號碼提供電話系統功能，並讓您建立自動語音應答及通話佇列功能。
 

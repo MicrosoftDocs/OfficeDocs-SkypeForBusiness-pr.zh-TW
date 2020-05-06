@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d0ae16216c5975407b3ec1c60a67231edd2ee8f1
-ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
+ms.openlocfilehash: cc6238e2cf9a3912cfa8cec765f63e6a553f4db1
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43940930"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042490"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft 團隊中管理貴組織的任務應用程式
 
@@ -28,7 +28,7 @@ ms.locfileid: "43940930"
 
 ## <a name="overview-of-tasks"></a>任務概覽
 
-[工作] app 會為 Microsoft 團隊帶來一個內聚的工作管理體驗，整合由 Planner 提供的個人工作與團隊工作（在單一位置）。 使用者可以將工作作為小組左邊的 app 存取，以及在個別團隊的頻道中作為索引標籤。 [工作] 中的 [**個人清單**] 和 [**小組清單**] 可讓使用者查看及管理其所有個人和小組工作，並排定其工作的優先順序。 在團隊桌面、web 和行動用戶端中都有可用的工作。 
+[工作] app 會為 Microsoft 團隊帶來一個內聚性的工作管理體驗，整合由[microsoft](https://todo.microsoft.com/tasks/)所提供的個人工作，並將由 Planner 提供的小組工作集中在一個位置。 使用者可以將工作作為小組左邊的 app 存取，以及在個別團隊的頻道中作為索引標籤。 [工作] 中的 [**個人清單**] 和 [**小組清單**] 可讓使用者查看及管理其所有個人和小組工作，並排定其工作的優先順序。 在團隊桌面、web 和行動用戶端中都有可用的工作。 
 
 > [!NOTE]
 > 當我們在團隊桌面用戶端上推出工作體驗時，應用程式名稱最初會以**Planner**顯示給使用者。 然後，該名稱會暫時變更為工作（**依 Planner 及待辦事項**），稍後再將其重新命名為 [**任務**]。 在團隊行動用戶端上，使用者將永遠會看到應用程式名稱做為 [**任務**]。 在桌面體驗推出後，行動體驗的可用性可能會有短暫的延遲。

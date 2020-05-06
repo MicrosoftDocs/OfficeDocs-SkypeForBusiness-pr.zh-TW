@@ -20,14 +20,14 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 瞭解如何為貴組織中的資源帳戶指派免費的電話系統-虛擬使用者授權或付費電話系統使用者授權。
-ms.openlocfilehash: 5a60e757f4ed9dbca67219217257894a8f95a295
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: cd70b4a1d24bf762c5aa1508d29a9ce343cf4b76
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904785"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042410"
 ---
-# <a name="microsoft-365-phone-system--virtual-user-license"></a>Microsoft 365 電話系統-虛擬使用者授權 
+# <a name="microsoft-365-phone-system--virtual-user-license"></a>Microsoft 365 電話系統-虛擬使用者授權
 
 擁有手機系統授權使用者的組織可以指派免費的 Microsoft 365 手機系統-虛擬使用者授權或付費電話系統使用者授權給資源帳戶。 不需要通話方案。 所有自動語音應答或通話佇列都需要相關聯的資源帳戶。 需要電話號碼的資源帳戶必須具備免費的 Microsoft 365 Phone 系統-虛擬使用者授權或付費電話系統使用者授權，才能將電話號碼套用至資源帳戶。
 
@@ -41,7 +41,7 @@ ms.locfileid: "43904785"
 您的組織會根據其總體大小，為您的組織分派 Microsoft 365 電話系統-虛擬使用者授權。 已新增至少有一項授權（包括電話系統或已加入手機系統）的任何組織，都有25個可用的虛擬使用者授權（無成本）。 當您在貴組織中新增10個電話系統使用者授權時，將會有一個更多 Microsoft 365 Phone 系統-虛擬使用者授權可供使用。
 
 > [!NOTE]
-> [電話系統] 是 Office 365 E1 和 E3 提供的附加元件授權。 電話系統也會包含在 Office 365 E5 和 Microsoft 365 商務語音授權中。
+> [電話系統] 是 Microsoft 365 和 Office 365 E1 與 E3 提供的附加元件授權。 手機系統也包含在 Microsoft 365 E5、Office 365 E5 及 Microsoft 365 商務語音授權中。
 
 如果您的組織在建立自動語音應答或通話佇列節點時，使用免費的 Microsoft 365 Phone 系統（虛擬使用者授權），您仍然可以將付費電話系統授權用於資源帳戶。 大多陣列織會根據縮放方案，擁有足夠的虛擬使用者授權。 
 

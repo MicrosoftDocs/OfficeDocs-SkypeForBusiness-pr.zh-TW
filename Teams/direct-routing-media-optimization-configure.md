@@ -16,12 +16,12 @@ f1.keywords:
 description: 針對直接路由設定本機媒體優化
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8a69a46d7620628c7afffb706354c0f6e7868f3d
-ms.sourcegitcommit: 3dd6499416e9fbdcb48187c6322bd607290502ce
+ms.openlocfilehash: 518445e10b757adc9a21c426fb885bb04b7a878b
+ms.sourcegitcommit: b143611d14765af054a4f84cca52e2003d35af1a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43541590"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44047852"
 ---
 # <a name="configure-local-media-optimization-for-direct-routing"></a>針對直接路由設定本機媒體優化
 
@@ -71,9 +71,6 @@ ms.locfileid: "43541590"
 |            |  SBC 5400         | 8.2  |
 |            |  SBC 7000         | 8.2  |
 |            |  SBC SWe          | 8.2  |
-| [功能區 SBC 邊緣](https://support.sonus.net/display/UXDOC81/Microsoft+Teams+Direct+Routing+-+On+Premises+Deployment)  |  SBC 1000         | 8.1.1，組建527 |
-|            |  SBC 2000         | 8.1.1，組建527 |
-|            |  SBC SWe Lite     | 8.1.0，組建222 |
 | [TE-系統](https://www.anynode.de/local_media_optimization/) |  anynode          | 4.0.1 + |
 | [聯手](https://www.oracle.com/industries/communications/enterprise-communications/session-border-controller/microsoft.html) | AP 1100 | 8.4.0.0.0 |
 |        | AP 3900 | 8.4.0.0.0 |
@@ -186,7 +183,7 @@ Set-CSOnlinePSTNGateway -Identity “IDsbc.contoso.com” -GatewaySiteID “Indo
 
 如果定義了 BypassMode，則會直接在邀請和重新邀請上路由的 X MS 標頭：
 
-| 標題名稱 | 相對值 | 批註 | 
+| 標題名稱 | 相對值 | 註解 | 
 |:------------|:-------|:-------|
 | X 毫秒-UserLocation | 內部/外部 | 指出使用者是否為內部或外部使用者 |
 | 要求-URI 邀請 sip： + 84439263000@VNsbc.contoso.com SIP/2。0 | SBC FQDN | 即使 SBC 未直接連線至直接佈線，也會以呼叫為目標的 FQDN |

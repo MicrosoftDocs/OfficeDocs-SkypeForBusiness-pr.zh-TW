@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 16e02d3a1948ece53fbb51189880bb3dbd737b23
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: c067abec99c032b8343de0a5c5fc0a1f3869efe5
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778739"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042220"
 ---
 <a name="environmental-discovery-for-a-microsoft-teams-rollout"></a>Microsoft 團隊推出的環境探索
 ===================================================
@@ -115,7 +115,7 @@ ms.locfileid: "43778739"
 > | 關鍵字 | 自動回應 | 註解 |
 > |---|---|---|
 > | 針對團隊啟用哪些類型的使用者？ | <input type="checkbox">組織中的所有使用者 <br/> <input type="checkbox">特定使用者/使用者群組 <br>&nbsp;&nbsp; （在 [批註] 欄中&nbsp;指定） ||
-> | 哪些團隊功能和形式正在使用中？ | <input type="checkbox">頻道式交談 <br/> <input type="checkbox">私人聊天 <br/> <input type="checkbox">來賓存取 <br/> <input type="checkbox">頻道會議 <br/> <input type="checkbox">私人會議 <br/> <input type="checkbox">私人通話 <br/> <input type="checkbox">點對點通道頻道 <br/> <input type="checkbox">會議中的影片 <br/> <input type="checkbox">會議中的螢幕共用 <br/> <input type="checkbox">音訊會議 <br/><input type="checkbox">應用程式（應用程式）<br> &nbsp;&nbsp; &nbsp; <input type="checkbox"><br>&nbsp;&nbsp; Bot &nbsp; <input type="checkbox"> <br>&nbsp;&nbsp;連接器&nbsp; <input type="checkbox"><br><input type="checkbox">自訂雲端儲存整合 <br>&nbsp;&nbsp; （Dropbox、Box、ShareFile、Google Drive、 &nbsp; Egnyte） <br/> <input type="checkbox">通道電子郵件整合 <br/> <input type="checkbox">[其他] （在 [批註] 欄中指定）。 | |
+> | 哪些團隊功能和形式正在使用中？ | <input type="checkbox">頻道式交談 <br/> <input type="checkbox">私人聊天 <br/> <input type="checkbox">來賓存取 <br/> <input type="checkbox">頻道會議 <br/> <input type="checkbox">私人會議 <br/> <input type="checkbox">私人通話 <br/> <input type="checkbox">點對點通道頻道 <br/> <input type="checkbox">會議中的影片 <br/> <input type="checkbox">會議中的螢幕共用 <br/> <input type="checkbox">音訊會議 <br/><input type="checkbox">應用程式（應用程式）<br> &nbsp;&nbsp; &nbsp; <input type="checkbox"><br>&nbsp;&nbsp; Bot &nbsp; <input type="checkbox"> <br>&nbsp;&nbsp;連接器&nbsp; <input type="checkbox"><br><input type="checkbox">自訂雲端儲存整合 <br>&nbsp;&nbsp; Dropbox、Box、ShareFile、Google 雲端硬碟、Egnyte （即將&nbsp;推出） <br/> <input type="checkbox">通道電子郵件整合 <br/> <input type="checkbox">[其他] （在 [批註] 欄中指定）。 | |
 > | 您已將哪些應用程式部署至團隊？ | | |
 > | 您是否已明確封鎖任何團隊功能？ <br/>如果是，請記下 [批註] 欄中的詳細資料。 | <input type="checkbox">是的 <br/> <input type="checkbox">不 ||
 > | 哪些團隊客戶在使用中？ | <input type="checkbox">網站 <br/> <input type="checkbox">時間 <br/> <input type="checkbox">版 <br/> <input type="checkbox">Linux <br/>  <input type="checkbox">且 <br/> <input type="checkbox">Android <br/> <input type="checkbox">Windows Mobile | |

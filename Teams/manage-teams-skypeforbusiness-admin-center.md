@@ -21,12 +21,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 43ecac8faedf5f98ce2634db85321eb363c19f20
-ms.sourcegitcommit: 0fa50d1cf354d79fbaf16b6aaec60e8d3ab852e8
+ms.openlocfilehash: a847d27a53ab406b248f011dd12742b23b69e999
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43579066"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44041960"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>在轉換至新 Microsoft Teams 系統管理中心期間管理 Teams
 ======================================================
@@ -52,7 +52,7 @@ ms.locfileid: "43579066"
 |電子郵件整合     |[允許寄件者] 清單         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)        |Tenant         |
 |自訂雲端儲存空間     |框         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Tenant         |
 |自訂雲端儲存空間     |Dropbox        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Tenant         |
-|自訂雲端儲存空間     |Egnyte         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Tenant         |
+|自訂雲端儲存空間     |Egnyte （即將推出）        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Tenant         |
 |自訂雲端儲存空間     |Google 磁片磁碟機        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Tenant         |
 |自訂雲端儲存空間     |ShareFile        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Tenant         |
 |依使用者/授權類型設定     |針對所有使用者開啟或關閉 Microsoft 團隊          |已棄用<sup>1</sup>        |         |

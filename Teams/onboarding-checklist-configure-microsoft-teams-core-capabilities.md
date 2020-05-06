@@ -16,12 +16,12 @@ f1.keywords:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 69874e9d75cea1377b0aae110b5e1b3ce681d84f
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: e7d167b8e1e868f550067b08f2f7dbfb22cb0a41
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43903898"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042100"
 ---
 # <a name="configure-microsoft-teams-core-capabilities"></a>設定 Microsoft 團隊核心功能
 
@@ -35,5 +35,5 @@ ms.locfileid: "43903898"
 | 6  | 選用：設定團隊命名原則 | 當使用者建立或編輯小組名稱時，小組會利用 Microsoft 365 群組的命名原則。 <br/><br/>根據預設，當使用者建立小組時，不會套用任何命名限制。 <br/><br/>如果您需要強制執行團隊名稱規則，請設定適用于您組織的 Microsoft 365 群組命名原則。 您可以設定強制的首碼和尾碼，並指定封鎖的字。 | | [在 Microsoft 團隊中建立小組時規劃 Microsoft 365 群組](plan-office-365-groups.md) <br/><br/>[Microsoft 365 群組命名原則](https://support.office.com/article/Office-365-Groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552) |
 | utf-7  | 針對團隊 SMTP 網域設定 Exchange | 小組使用 Exchange Online，透過 SMTP 網域（email.teams.microsoft.com）傳送通知給小組成員，然後在新增或移除通知。 <br/><br/>請務必將此 SMTP 網域新增至 Exchange 基礎結構中的 [接受的網域] 清單。 | | [在 Exchange Online 中將 Microsoft 團隊 SMTP 網域新增為已接受的網域](smtp-accepted-domain.md) |
 | 型  | 設定及管理使用者對團隊的存取權 | 雖然我們強烈建議您為團隊啟用所有使用者，但是您可以指派或移除團隊產品授權，以允許或禁止針對每位使用者存取團隊。 | | [管理使用者對 Microsoft 團隊的存取權](user-access.md) |
-| 9  | 指派授權給使用者 | 指派授權給使用者，以取得音訊會議、電話系統和通話方案等功能 | | [指派商務用 Skype 和 Microsoft 團隊授權](assign-teams-licenses.md)|
+| 9  | 指派授權給使用者 | 指派授權給使用者，以取得音訊會議、電話系統和通話方案等功能 | | [指派 Microsoft 團隊附加元件授權](teams-add-on-licensing/assign-teams-add-on-licenses.md)|
 | 第 | [選用]：使用 PowerShell 管理團隊 | 您可以使用 PowerShell Cmdlet （而不是 Microsoft 365 系統管理中心）來管理和管理團隊設定。 | | [Microsoft 團隊 PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) |

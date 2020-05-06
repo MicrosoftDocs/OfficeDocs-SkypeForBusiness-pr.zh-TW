@@ -15,12 +15,12 @@ search.appverid: MET150
 description: 使用本指導方針來協助政府組織中的遠端工作者使用 Microsoft Teams 來提高生產力，尤其是當他們在家中工作 (WFH) 時，以因應 COVID-19 (冠狀病毒) 爆發的情況。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 35bd251b4b8ef6a13263148c5fbb2245256dad3f
-ms.sourcegitcommit: 4e1647d19501b37860d9fc79370fa4347f76f85f
+ms.openlocfilehash: 92d7e2d151b467cabf387791f635fb284c99fca1
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43079385"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042380"
 ---
 # <a name="support-remote-government-workers-using-microsoft-teams"></a>支援使用 Microsoft Teams 的遠端政府工作者
 
@@ -33,7 +33,7 @@ ms.locfileid: "43079385"
 
   - 確定每個人都能利用免費 6 個月的 **[Office 365 G1 優惠](../g1-trial-license.md)** 來存取 Teams。 如需協助，請連絡您的 Microsoft 帳戶團隊或合作夥伴。
 
-  - 如果您已擁有訂閱，請確定為每個人**[開啟 Teams](../assign-teams-licenses.md)**。
+  - 如果您已擁有訂閱，請確定為每個人**[開啟 Teams](../user-access.md)**。
 
   - 若要快速部署，請前往 [**Teams FastPath PowerPoint**](https://aka.ms/TeamsGovFastPath) 以取得在組織中推出 Teams 的資料。
 
