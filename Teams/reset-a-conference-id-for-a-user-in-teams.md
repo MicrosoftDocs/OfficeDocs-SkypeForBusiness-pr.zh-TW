@@ -21,60 +21,60 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 瞭解在 Microsoft 團隊中重設使用者的會議 ID，以及取得會議更新與遷移工具的連結的步驟。
-ms.openlocfilehash: 4874630d27f0ded2cdf9cf4bb0bc0912a426e544
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 008a479677723dedbfe1923f57358808b16fd9ec
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137613"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042450"
 ---
-# <a name="reset-a-conference-id-for-a-user-in-microsoft-teams"></a><span data-ttu-id="bed52-103">在 Microsoft 團隊中重設使用者的會議 ID</span><span class="sxs-lookup"><span data-stu-id="bed52-103">Reset a conference ID for a user in Microsoft Teams</span></span>
+# <a name="reset-a-conference-id-for-a-user-in-microsoft-teams"></a><span data-ttu-id="c49a3-103">在 Microsoft 團隊中重設使用者的會議 ID</span><span class="sxs-lookup"><span data-stu-id="c49a3-103">Reset a conference ID for a user in Microsoft Teams</span></span>
 
-<span data-ttu-id="bed52-104">[動態會議 ID] 包含在會議邀請的底部，以及撥入電話號碼，可供呼叫者用來撥入會議。</span><span class="sxs-lookup"><span data-stu-id="bed52-104">A dynamic conference ID is included at the bottom of meeting invitations along with the dial-in phone numbers that can be used by callers to call in to a meeting.</span></span> <span data-ttu-id="bed52-105">當使用者撥打電話號碼時，會議的自動回應會要求來電者輸入此會議 ID，才能出席會議。</span><span class="sxs-lookup"><span data-stu-id="bed52-105">When the user dials the phone number, the auto attendant for the meeting will ask the caller to enter this conference ID so they can attend the meeting.</span></span>
+<span data-ttu-id="c49a3-104">[動態會議 ID] 包含在會議邀請的底部，以及撥入電話號碼，可供呼叫者用來撥入會議。</span><span class="sxs-lookup"><span data-stu-id="c49a3-104">A dynamic conference ID is included at the bottom of meeting invitations along with the dial-in phone numbers that can be used by callers to call in to a meeting.</span></span> <span data-ttu-id="c49a3-105">當使用者撥打電話號碼時，會議的自動回應會要求來電者輸入此會議 ID，才能出席會議。</span><span class="sxs-lookup"><span data-stu-id="c49a3-105">When the user dials the phone number, the auto attendant for the meeting will ask the caller to enter this conference ID so they can attend the meeting.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="bed52-106">如果您的會議提供者是 Microsoft，您的使用者的會議 Id 預設會設定為 [僅限動態]。</span><span class="sxs-lookup"><span data-stu-id="bed52-106">If your conferencing provider is Microsoft, your users' conference IDs are set to Dynamic Only by default.</span></span> <span data-ttu-id="bed52-107">遺憾的是，無法將它變更為靜態的，因為目前不支援此功能。</span><span class="sxs-lookup"><span data-stu-id="bed52-107">Unfortunately, there's no ability to change it to become static, as this is now unsupported.</span></span> <span data-ttu-id="bed52-108">只有已啟用音訊會議的 Microsoft 團隊使用者才會自動設定會議 Id。</span><span class="sxs-lookup"><span data-stu-id="bed52-108">Conference IDs are only automatically set for Microsoft Teams users enabled for Audio Conferencing.</span></span> 
+> <span data-ttu-id="c49a3-106">如果您的會議提供者是 Microsoft，您的使用者的會議 Id 預設會設定為 [僅限動態]。</span><span class="sxs-lookup"><span data-stu-id="c49a3-106">If your conferencing provider is Microsoft, your users' conference IDs are set to Dynamic Only by default.</span></span> <span data-ttu-id="c49a3-107">遺憾的是，無法將它變更為靜態的，因為目前不支援此功能。</span><span class="sxs-lookup"><span data-stu-id="c49a3-107">Unfortunately, there's no ability to change it to become static, as this is now unsupported.</span></span> <span data-ttu-id="c49a3-108">只有已啟用音訊會議的 Microsoft 團隊使用者才會自動設定會議 Id。</span><span class="sxs-lookup"><span data-stu-id="c49a3-108">Conference IDs are only automatically set for Microsoft Teams users enabled for Audio Conferencing.</span></span> 
 
 
-## <a name="resetting-the-conference-id-for-a-user"></a><span data-ttu-id="bed52-109">重設使用者的會議 ID</span><span class="sxs-lookup"><span data-stu-id="bed52-109">Resetting the conference ID for a user</span></span>
+## <a name="resetting-the-conference-id-for-a-user"></a><span data-ttu-id="c49a3-109">重設使用者的會議 ID</span><span class="sxs-lookup"><span data-stu-id="c49a3-109">Resetting the conference ID for a user</span></span>
 
-<span data-ttu-id="bed52-110">![Microsoft Teams 標誌圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**</span><span class="sxs-lookup"><span data-stu-id="bed52-110">![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**</span></span>
+<span data-ttu-id="c49a3-110">![Microsoft Teams 標誌圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**</span><span class="sxs-lookup"><span data-stu-id="c49a3-110">![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**</span></span>
 
-1. <span data-ttu-id="bed52-111">在左側導覽中，按一下 [**使用者**]，然後從可用使用者清單中選取使用者。</span><span class="sxs-lookup"><span data-stu-id="bed52-111">In the left navigation, click **Users**, and then select the user from the list of available users.</span></span>
+1. <span data-ttu-id="c49a3-111">在左側導覽中，按一下 [**使用者**]，然後從可用使用者清單中選取使用者。</span><span class="sxs-lookup"><span data-stu-id="c49a3-111">In the left navigation, click **Users**, and then select the user from the list of available users.</span></span>
 
-2. <span data-ttu-id="bed52-112">按一下 [**編輯**]。</span><span class="sxs-lookup"><span data-stu-id="bed52-112">Click **Edit**.</span></span>
+2. <span data-ttu-id="c49a3-112">按一下 [**編輯**]。</span><span class="sxs-lookup"><span data-stu-id="c49a3-112">Click **Edit**.</span></span>
 
-3. <span data-ttu-id="bed52-113">在 [**音訊會議**] 底下，按一下 [**重設會議 ID**]。</span><span class="sxs-lookup"><span data-stu-id="bed52-113">Under **Audio Conferencing** click **Reset conference ID**.</span></span>
+3. <span data-ttu-id="c49a3-113">在 [**音訊會議**] 底下，按一下 [**重設會議 ID**]。</span><span class="sxs-lookup"><span data-stu-id="c49a3-113">Under **Audio Conferencing** click **Reset conference ID**.</span></span>
 
-2. <span data-ttu-id="bed52-114">在 [**重設會議 ID** ] 視窗中，按一下 [**重設**]。</span><span class="sxs-lookup"><span data-stu-id="bed52-114">In the **Reset conference ID** window, click **Reset**.</span></span> <span data-ttu-id="bed52-115">系統會自動建立會議 ID，並以新的會議 ID 傳送給使用者的電子郵件。</span><span class="sxs-lookup"><span data-stu-id="bed52-115">A conference ID will be automatically created and an email sent to the user with the new conference ID.</span></span> <span data-ttu-id="bed52-116">根據預設，電子郵件會傳送給使用者，但您可以關閉此功能。</span><span class="sxs-lookup"><span data-stu-id="bed52-116">By default, emails are sent to users, but this can be turned off.</span></span>   
+2. <span data-ttu-id="c49a3-114">在 [**重設會議 ID** ] 視窗中，按一下 [**重設**]。</span><span class="sxs-lookup"><span data-stu-id="c49a3-114">In the **Reset conference ID** window, click **Reset**.</span></span> <span data-ttu-id="c49a3-115">系統會自動建立會議 ID，並以新的會議 ID 傳送給使用者的電子郵件。</span><span class="sxs-lookup"><span data-stu-id="c49a3-115">A conference ID will be automatically created and an email sent to the user with the new conference ID.</span></span> <span data-ttu-id="c49a3-116">根據預設，電子郵件會傳送給使用者，但您可以關閉此功能。</span><span class="sxs-lookup"><span data-stu-id="c49a3-116">By default, emails are sent to users, but this can be turned off.</span></span>   
 
     
 > [!NOTE]
-> <span data-ttu-id="bed52-117">在您重設會議 ID 之後，具有新會議 ID 的電子郵件將會傳送給使用者。</span><span class="sxs-lookup"><span data-stu-id="bed52-117">After you reset the conference ID, an email with the new conference ID will be sent to the user.</span></span> <span data-ttu-id="bed52-118">此電子郵件將會傳送至主要電子郵件地址，在許多情況下，也會傳送到他們的 Office 365 信箱。</span><span class="sxs-lookup"><span data-stu-id="bed52-118">This email will be sent to the primary email address, in many cases, their Office 365 mailbox.</span></span> <span data-ttu-id="bed52-119">電子郵件包含新的會議 ID、預設的撥入電話號碼，以及更新現有會議的指示。</span><span class="sxs-lookup"><span data-stu-id="bed52-119">The email contains the new conference ID, default dial-in phone number(s) and instructions for updating existing meetings.</span></span> 
+> <span data-ttu-id="c49a3-117">在您重設會議 ID 之後，具有新會議 ID 的電子郵件將會傳送給使用者。</span><span class="sxs-lookup"><span data-stu-id="c49a3-117">After you reset the conference ID, an email with the new conference ID will be sent to the user.</span></span> <span data-ttu-id="c49a3-118">此電子郵件將會傳送至主要電子郵件地址，在許多情況下，也會傳送到他們的 Office 365 信箱。</span><span class="sxs-lookup"><span data-stu-id="c49a3-118">This email will be sent to the primary email address, in many cases, their Office 365 mailbox.</span></span> <span data-ttu-id="c49a3-119">電子郵件包含新的會議 ID、預設的撥入電話號碼，以及更新現有會議的指示。</span><span class="sxs-lookup"><span data-stu-id="c49a3-119">The email contains the new conference ID, default dial-in phone number(s) and instructions for updating existing meetings.</span></span> 
   
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-## <a name="what-else-should-i-know"></a><span data-ttu-id="bed52-120">我還需要知道什麼？</span><span class="sxs-lookup"><span data-stu-id="bed52-120">What else should I know?</span></span>
+## <a name="what-else-should-i-know"></a><span data-ttu-id="c49a3-120">我還需要知道什麼？</span><span class="sxs-lookup"><span data-stu-id="c49a3-120">What else should I know?</span></span>
 
-- <span data-ttu-id="bed52-121">您可以在包含會議 ID 和撥入電話號碼的電子郵件中，將所有會議資訊傳送給使用者，方法是在 [**音訊會議**] 區段中，按一下 [**以電子郵件傳送會議資訊**]。</span><span class="sxs-lookup"><span data-stu-id="bed52-121">You can send all of the conferencing information to the user in an email that includes the conference ID and dial-in phone numbers by clicking **Send conference info in email** for the user in the **Audio Conferencing** section.</span></span> <span data-ttu-id="bed52-122">它不會傳送 PIN。</span><span class="sxs-lookup"><span data-stu-id="bed52-122">It doesn't send the PIN.</span></span>
+- <span data-ttu-id="c49a3-121">您可以在包含會議 ID 和撥入電話號碼的電子郵件中，將所有會議資訊傳送給使用者，方法是在 [**音訊會議**] 區段中，按一下 [**以電子郵件傳送會議資訊**]。</span><span class="sxs-lookup"><span data-stu-id="c49a3-121">You can send all of the conferencing information to the user in an email that includes the conference ID and dial-in phone numbers by clicking **Send conference info in email** for the user in the **Audio Conferencing** section.</span></span> <span data-ttu-id="c49a3-122">它不會傳送 PIN。</span><span class="sxs-lookup"><span data-stu-id="c49a3-122">It doesn't send the PIN.</span></span>
     
-- <span data-ttu-id="bed52-123">會議 ID 會包含7位數，而且您無法變更它的長度。</span><span class="sxs-lookup"><span data-stu-id="bed52-123">A conference ID will contain 7 digits, and you can't change its length.</span></span>
+- <span data-ttu-id="c49a3-123">會議 ID 會包含8位數，而且您無法變更它的長度。</span><span class="sxs-lookup"><span data-stu-id="c49a3-123">A conference ID will contain 8 digits, and you can't change its length.</span></span>
     
-- <span data-ttu-id="bed52-124">重設之後，您可以在 [**會議 id**] 底下看到新的會議 ID。</span><span class="sxs-lookup"><span data-stu-id="bed52-124">After it has been reset, you can see the new conference ID listed under **Conference ID**.</span></span>
+- <span data-ttu-id="c49a3-124">重設之後，您可以在 [**會議 id**] 底下看到新的會議 ID。</span><span class="sxs-lookup"><span data-stu-id="c49a3-124">After it has been reset, you can see the new conference ID listed under **Conference ID**.</span></span>
     
-- <span data-ttu-id="bed52-125">在建立新的會議 ID 之後，不能讓呼叫者使用舊的會議 id。</span><span class="sxs-lookup"><span data-stu-id="bed52-125">After a new conference ID is created, the old conference ID can't be used by callers.</span></span> <span data-ttu-id="bed52-126">您應該通知使用者重新安排現有的會議邀請，以確保新的會議 ID 已新增到邀請中。</span><span class="sxs-lookup"><span data-stu-id="bed52-126">You should notify users to reschedule their existing meeting invites to make sure the new conference ID is added to the invitations.</span></span> 
+- <span data-ttu-id="c49a3-125">在建立新的會議 ID 之後，不能讓呼叫者使用舊的會議 id。</span><span class="sxs-lookup"><span data-stu-id="c49a3-125">After a new conference ID is created, the old conference ID can't be used by callers.</span></span> <span data-ttu-id="c49a3-126">您應該通知使用者重新安排現有的會議邀請，以確保新的會議 ID 已新增到邀請中。</span><span class="sxs-lookup"><span data-stu-id="c49a3-126">You should notify users to reschedule their existing meeting invites to make sure the new conference ID is added to the invitations.</span></span> 
 
-## <a name="want-to-know-more-about-windows-powershell"></a><span data-ttu-id="bed52-127">想要深入瞭解 Windows PowerShell 嗎？</span><span class="sxs-lookup"><span data-stu-id="bed52-127">Want to know more about Windows PowerShell?</span></span>
+## <a name="want-to-know-more-about-windows-powershell"></a><span data-ttu-id="c49a3-127">想要深入瞭解 Windows PowerShell 嗎？</span><span class="sxs-lookup"><span data-stu-id="c49a3-127">Want to know more about Windows PowerShell?</span></span>
 
-<span data-ttu-id="bed52-128">Windows PowerShell 全部說明如何管理使用者，以及允許或不允許的使用者執行。</span><span class="sxs-lookup"><span data-stu-id="bed52-128">Windows PowerShell is all about managing users and what users are allowed or not allowed to do.</span></span> <span data-ttu-id="bed52-129">在 Windows PowerShell 中，您可以使用單一管理點來管理 Office 365，以便在有多項工作需要執行時簡化日常作業。</span><span class="sxs-lookup"><span data-stu-id="bed52-129">With Windows PowerShell, you can manage Office 365 using a single point of administration that can simplify your daily work when you have multiple tasks to do.</span></span> <span data-ttu-id="bed52-130">若要開始使用 Windows PowerShell，請參閱以下主題：</span><span class="sxs-lookup"><span data-stu-id="bed52-130">To get started with Windows PowerShell, see these topics:</span></span>
+<span data-ttu-id="c49a3-128">Windows PowerShell 全部說明如何管理使用者，以及允許或不允許的使用者執行。</span><span class="sxs-lookup"><span data-stu-id="c49a3-128">Windows PowerShell is all about managing users and what users are allowed or not allowed to do.</span></span> <span data-ttu-id="c49a3-129">在 Windows PowerShell 中，您可以使用單一管理點來管理 Office 365，以便在有多項工作需要執行時簡化日常作業。</span><span class="sxs-lookup"><span data-stu-id="c49a3-129">With Windows PowerShell, you can manage Office 365 using a single point of administration that can simplify your daily work when you have multiple tasks to do.</span></span> <span data-ttu-id="c49a3-130">若要開始使用 Windows PowerShell，請參閱以下主題：</span><span class="sxs-lookup"><span data-stu-id="c49a3-130">To get started with Windows PowerShell, see these topics:</span></span>
     
-  - [<span data-ttu-id="bed52-131">為什麼需要使用 Office 365 PowerShell</span><span class="sxs-lookup"><span data-stu-id="bed52-131">Why you need to use Office 365 PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [<span data-ttu-id="c49a3-131">為什麼需要使用 Office 365 PowerShell</span><span class="sxs-lookup"><span data-stu-id="c49a3-131">Why you need to use Office 365 PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [<span data-ttu-id="bed52-132">使用 Windows PowerShell 管理 Office 365 的最佳方式</span><span class="sxs-lookup"><span data-stu-id="bed52-132">Best ways to manage Office 365 with Windows PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [<span data-ttu-id="c49a3-132">使用 Windows PowerShell 管理 Office 365 的最佳方式</span><span class="sxs-lookup"><span data-stu-id="c49a3-132">Best ways to manage Office 365 with Windows PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-<span data-ttu-id="bed52-133">如需有關 Windows PowerShell 的詳細資訊，請參閱[Microsoft 團隊 PowerShell 參考](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)，以取得詳細資訊。</span><span class="sxs-lookup"><span data-stu-id="bed52-133">For more information about Windows PowerShell, see the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) for more information.</span></span>
+<span data-ttu-id="c49a3-133">如需有關 Windows PowerShell 的詳細資訊，請參閱[Microsoft 團隊 PowerShell 參考](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)，以取得詳細資訊。</span><span class="sxs-lookup"><span data-stu-id="c49a3-133">For more information about Windows PowerShell, see the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) for more information.</span></span>
     
-## <a name="related-topics"></a><span data-ttu-id="bed52-134">相關主題</span><span class="sxs-lookup"><span data-stu-id="bed52-134">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="c49a3-134">相關主題</span><span class="sxs-lookup"><span data-stu-id="c49a3-134">Related topics</span></span>
 
-[<span data-ttu-id="bed52-135">重設音訊會議 PIN 碼</span><span class="sxs-lookup"><span data-stu-id="bed52-135">Reset the Audio Conferencing PIN</span></span>](reset-the-audio-conferencing-pin-in-teams.md)
+[<span data-ttu-id="c49a3-135">重設音訊會議 PIN 碼</span><span class="sxs-lookup"><span data-stu-id="c49a3-135">Reset the Audio Conferencing PIN</span></span>](reset-the-audio-conferencing-pin-in-teams.md)

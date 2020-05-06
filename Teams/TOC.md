@@ -624,14 +624,14 @@
 ## [Microsoft Teams 教育版](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [快速入門 - Teams 教育版系統管理員](teams-quick-start-edu.yml)
 ### [開始使用遠端學習](remote-learning-edu.md)
+### [適用於教育界管理員的 Microsoft Teams 原則套件](policy-packages-edu.md)
 ### [將原則指派給大型使用者集合](batch-policy-assignment-edu.md)
-### [Teams 授權教育](teams-edu-licensing.md)
 ### [教育版系統管理員的低頻寬指導方針](edu-remote-low-bandwidth.md)
 ### [Teams 教育版中的作業](expand-teams-across-your-org/assignments-in-teams.md)
-### [Teams 教育版管理員的資源](resources-teams-edu.md)
-### [適用於教育界管理員的 Microsoft Teams 原則套件](policy-packages-edu.md)
+### [適用於 Teams 教育版系統管理員的資源](resources-teams-edu.md)
 ### [適用於系統管理員的 Microsoft 教育版控管常見問題集](plan-teams-governance-edu.md)
 ### [安裝 Moodle 整合](install-moodle-integration.md)
+### [Teams 授權教育](teams-edu-licensing.md)
 ### [教育 SKU 參考](sku-reference-edu.md)
 
 ## 適用於第一線員工的 Teams
@@ -734,16 +734,8 @@
 
 ## 授權
 ### [管理 Teams 的使用者存取](user-access.md)
-### [Microsoft 365 和 Office 365 的 Teams 授權](office-365-licensing.md)
-### [指派 Teams 授權](assign-teams-licenses.md)
-### [Teams 附加元件授權](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
-#### 根據您方案的授權選項
-##### [Microsoft 365 商務標準版](teams-add-on-licensing/office-365-business-premium.md)
-##### [Microsoft 365 應用程式企業版](teams-add-on-licensing/office-365-premium-pro-plus.md)
-##### [Office 365 企業版 E1 和 E3](teams-add-on-licensing/office-365-enterprise-e1-e3.md)
-##### [Office 365 企業版 E5](teams-add-on-licensing/office-365-enterprise-e5-with-audio-conferencing.md)
-##### [Office 365 企業版 E5 (不含音訊會議)](teams-add-on-licensing/office-365-enterprise-e5-without-audio-conferencing.md)
-##### [政府機關、教育界和非營利組織](teams-add-on-licensing/gov-edu-and-nonprofit-organizations.md)
+### [Teams 附加元件授權選項](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+### [指派 Teams 附加元件授權](teams-add-on-licensing/assign-teams-add-on-licenses.md)
 ### [管理 Office 365 E1 試用版方案](e1-trial-license.md)
 ### [管理 Office 365 G1 試用版方案](g1-trial-license.md)
 ### [管理 Teams 商業試用版](iw-trial-teams.md)
@@ -751,7 +743,7 @@
 ### [管理 Teams 免費版](manage-freemium.md)
 ### [將 Teams 免費版升級為訂閱版本](upgrade-freemium.md)
 ### [訊息原則授權](teams-add-on-licensing/pri-message.md)
-### [虛擬使用者授權](teams-add-on-licensing/virtual-user.md)
+### [Microsoft 365 電話系統 - 虛擬使用者授權](teams-add-on-licensing/virtual-user.md)
 
 
 ## Microsoft 365 和 Office 365 的互通性
