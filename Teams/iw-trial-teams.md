@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5f8735cc328f06fd612fb86e292bc4291b99e21f
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 68d8ff88e34fac291560b414c18055a12d838a91
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904528"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042790"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>管理 Microsoft Teams 商業雲端試用版方案
 =======================================================
@@ -139,7 +139,7 @@ Teams 試用版旨在由個別使用者起始，因此您可能無法代表使�
 
 3. 指派新購買的授權。
 
-如需詳細資訊，請參閱 [Microsoft Teams 的 Office 365 授權](Office-365-licensing.md)。
+如需詳細資訊，請參閱 [Microsoft Teams 服務描述](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)。
 
 > [!NOTE]
 > 如果試用版結束，且使用者未立即升級為包含 Teams 的訂閱，則不會移除使用者資料。 使用者仍然存在於 Azure Active Directory 中，且 Teams 內的所有資料仍會保留。 一旦將新授權指派給使用者以再次啟用 Teams 功能，所有內容仍會存在。 

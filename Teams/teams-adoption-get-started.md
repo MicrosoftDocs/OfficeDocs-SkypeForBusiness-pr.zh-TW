@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 853e897a31b229962acec8f85d8a0a3e966c507b
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 00e0cd424de4917cf4a6f84a36b99dbfc3e2f951
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905855"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44041870"
 ---
 # <a name="get-started-driving-adoption-of-microsoft-teams"></a>開始推進 Microsoft 團隊的採納
 
@@ -36,7 +36,7 @@ ms.locfileid: "43905855"
 
 開始之前，請先確定：
 
-- [系統會安裝團隊](get-clients.md)，並在您的環境中[指派授權](office-365-licensing.md)。 必須將最低授權指派給您的核心小組，以及參與此初始專案階段的前期消費者。
+- [系統會安裝團隊](get-clients.md)，並在您的環境中[指派授權](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)。 必須將最低授權指派給您的核心小組，以及參與此初始專案階段的前期消費者。
 
 - 您已下載桌面和行動應用程式。 
 

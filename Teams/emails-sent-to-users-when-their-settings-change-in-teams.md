@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: '瞭解在 Microsoft 團隊中，當使用者的電話撥入式會議設定變更時，電子郵件會自動傳送哪些資訊給使用者。 '
-ms.openlocfilehash: ada608da12791a586d3adcbfd6477c1f26f7e30d
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 4c4668e671b65a7927434a5ad7c9028d673d47b3
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141256"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042860"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-microsoft-teams"></a>在 Microsoft 團隊中其設定變更時傳送給使用者的電子郵件
 
@@ -36,7 +36,7 @@ ms.locfileid: "43141256"
 
 - **系統會將音訊會議授權指派給他們，或者當您將音訊會議提供者變更為 Microsoft 時。**
 
-     此電子郵件包含會議 ID、會議的預設會議電話號碼、使用者的音訊會議 PIN，以及用來更新使用者現有會議的指示與連結，以使用商務用 Skype Online 會議更新工具。 請參閱[指派 Microsoft 團隊授權](assign-teams-licenses.md)或[將 microsoft 指派為音訊會議提供者](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)。
+     此電子郵件包含會議 ID、會議的預設會議電話號碼、使用者的音訊會議 PIN，以及用來更新使用者現有會議的指示與連結，以使用商務用 Skype Online 會議更新工具。 請參閱[指派 Microsoft 團隊附加元件授權](teams-add-on-licensing/assign-teams-add-on-licenses.md)或[將 microsoft 指派為音訊會議提供者](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)。
 
     > [!NOTE]
     > 如果您的組織已啟用動態會議 Id，他們排程的所有使用者會議都會有唯一的會議 Id。 您可以[在組織中設定音訊會議動態 id](/skypeforbusiness/audio-conferencing-in-office-365/reset-a-conference-id-for-a-user)。 

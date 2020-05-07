@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ca163d2a705b4aaebc77c03dbf4c92edf9c5d601
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: 4d9e288037b82b3d5b0cccab133debdfa2d7d66b
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43749570"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042210"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>在 Outlook 中使用 Teams 會議增益集
 =======================================
@@ -124,12 +124,12 @@ Teams 會議增益集是仍在建置的功能，因此請注意下列事項：
 
 如果您無法取得適用於 Outlook 的 Teams 會議增益集，請嘗試這些疑難排解步驟。
 
+- Windows 7 使用者必須[在 Windows 中安裝通用 C 運行](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows)時間的更新，小組會議增益集才能運作。
 - 確認使用者擁有小組升級原則，可在小組中排程會議。 如需詳細資訊，請參閱[從商務用 Skype 升級至團隊](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings)。
 - 確認使用者擁有允許 Outlook 增益集的小組會議原則。 如需詳細資訊，請參閱[在團隊中管理會議原則](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#allow-the-outlook-add-in)。
 - 確定使用者已安裝 [團隊桌面用戶端]。 只有使用團隊網頁用戶端時，才能安裝會議增益集。
-- 確認使用者有權執行 regsvr32。
+- 確認使用者有權執行 regsvr32。  如需詳細資訊，請參閱https://support.microsoft.com/help/249873/how-to-use-the-regsvr32-tool-and-troubleshoot-regsvr32-error-messages
 - 確認已套用所有適用于 Outlook 桌面用戶端的更新。
-- 請確認登入的使用者帳戶名稱不含空格。 (這是已知的問題，我們會在未來更新中修正。)
 - 請遵循下列步驟：
   - 重新啟動 Teams 桌面版用戶端。
   - 登出 Teams 桌面用戶端，然後重新登入。

@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9487a6a96397be27ebf23bd474fc0b9a5ba1fea0
-ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
+ms.openlocfilehash: be3df465c740aef7069a77cb7a7562fd0ecd8cd9
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43940770"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042440"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Microsoft 團隊中的保留原則
 
@@ -55,7 +55,7 @@ ms.locfileid: "43940770"
 
 當資料服從保留原則時，使用者可以繼續使用它，因為資料會保留在原來的位置。 如果使用者編輯或刪除受原則制約的資料，則會將複本儲存到在原則生效時保留的安全位置。
 
-保留原則的最低授權需求是 Office 365 E3。 若要深入瞭解授權，請參閱適用[于團隊的 Office 365 授權](Office-365-licensing.md)。
+保留原則的最低授權需求是 Office 365 E3。 若要深入瞭解授權，請參閱[Microsoft 團隊服務說明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)。
 
 ## <a name="how-teams-retention-policies-work"></a>團隊保留原則的運作方式
 

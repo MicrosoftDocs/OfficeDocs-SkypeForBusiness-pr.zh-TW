@@ -22,18 +22,18 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 瞭解 Microsoft 團隊聊天室中不同類型的通話與會議功能可用的授權。
-ms.openlocfilehash: cc736fad2e7050f4989250917d8fc0d1a7c22fae
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: d3ab603e914fef828788d474fa051c1e102165cd
+ms.sourcegitcommit: b5c747e2daad6dd3c1d91f4e61ae6f26db5c77f0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905385"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44064488"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>團隊會議室授權更新
 
 ## <a name="licensing-solutions-for-shared-communication-devices"></a>共用通訊裝置的授權解決方案
 
-Microsoft 擁有專用的 SKU，以針對會議室裝置（例如 Microsoft 團隊聊天室、Microsoft Surface Hub 及 Microsoft 團隊的 collaboartion 橫欄）授權會議，並針對每個裝置進行通話。
+Microsoft 有一個專用的 SKU，可針對會議室裝置（例如 Microsoft 團隊聊天室、Microsoft Surface Hub 以及 Microsoft 團隊共同作業橫條圖）授權會議，並針對每個裝置進行通話。
 
 ||會議室 SKU |  
 |:--- |:---: |

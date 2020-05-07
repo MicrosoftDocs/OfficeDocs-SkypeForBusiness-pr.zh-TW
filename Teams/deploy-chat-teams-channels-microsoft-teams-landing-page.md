@@ -19,12 +19,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
-ms.openlocfilehash: 1f503bbfbc582fc3713a9f40e435382772e7ab63
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: e8e2f2b09ab448e0460c82af0fba776f2ce1126a
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43901938"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44041840"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams 中的聊天、團隊、頻道和應用程式
 
@@ -151,11 +151,11 @@ Teams 提供大量的第一方 (Microsoft 提供) 和第三方應用程式，用
 
 ### <a name="teams-licensing"></a>Teams 授權
 
-Teams 會隨著許多 Office 365 授權的一部分提供。 若要深入了解 Teams 授權，請參閱 [Teams 的 Office 365 授權](office-365-licensing.md)。
+Teams 會隨著許多 Office 365 授權的一部分提供。 若要深入瞭解 Teams 授權，請參閱 [Microsoft Teams 服務描述](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)。
 
 |問問自己|動作 |
 |------------|-------|
-|我的使用者是否擁有使用我要推出的 Teams 所有功能所需的授權？ | 若要了解授權需求，請參閱 [Teams 的 Office 365 授權](office-365-licensing.md)。|
+|我的使用者是否擁有使用我要推出的 Teams 所有功能所需的授權？ | 若要深入瞭解授權需求，請參閱 [Microsoft Teams 服務描述](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)。|
 |||
 
 ### <a name="exchange-and-sharepoint-interoperability"></a>Exchange 和 SharePoint 互通性 

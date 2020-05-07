@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.voice.calldelegation.tooltip
 - seo-marvel-apr2020
 description: 瞭解如何在 Microsoft 團隊中傳送電子郵件給使用者的音訊會議資訊。
-ms.openlocfilehash: 52f4257d5e5603c0f7ed812d5ab677a18ed47fb9
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 80c279e4d80478c2392f8c4faffb46e822c016e4
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905545"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042580"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>Microsoft 團隊中的共用線條外觀
 
@@ -40,7 +40,7 @@ ms.locfileid: "43905545"
 
 使用者必須有使用 PSTN 連線的電話系統（呼叫方案授權或直接路由 OnlineVoiceRoutingPolicy）作為代理人或設定委派，並允許其他人代表對方撥打或接聽電話。
 
-管理員和代理人都需要具備 PSTN 連線的電話系統（通話方案授權或直接路由 OnlineVoiceRoutingPolicy）。 共用線體驗是委派的一部分，且包含在手機系統中。 如需授權模型的其他詳細資料，請參閱[Microsoft 團隊適用的 Office 365 授權](office-365-licensing.md)。
+管理員和代理人都需要具備 PSTN 連線的電話系統（通話方案授權或直接路由 OnlineVoiceRoutingPolicy）。 共用線體驗是委派的一部分，且包含在手機系統中。 如需授權模型的其他詳細資料，請參閱[Microsoft 團隊服務說明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)。
 
 ## <a name="configuring-delegation-and-shared-line-appearance"></a>設定委派和共用線外觀
 

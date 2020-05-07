@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 通話共用和群組通話挑選讓使用者與同事共用來電，以便在使用者無法使用時，可以捕獲通話。
-ms.openlocfilehash: 727e3a4c3627e38722182bc1d6ad1f4e435d95a4
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 8ed53ca5103d3ee4264e0dc1aef3267172d37527
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780782"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042950"
 ---
 # <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>在 Microsoft 團隊中呼叫共用與群組通話挑選
 
@@ -43,7 +43,7 @@ Microsoft 團隊的呼叫共用與群組呼叫功能可讓使用者與同事共�
 
 ## <a name="license-required"></a>需要授權
 
-使用者必須是啟用企業語音，才能設定及使用通話共用和群組通話。 如需授權模型的其他詳細資料，請參閱[Microsoft 團隊適用的 Office 365 授權](office-365-licensing.md)。
+使用者必須是啟用企業語音，才能設定及使用通話共用和群組通話。 如需授權模型的其他詳細資料，請參閱[Microsoft 團隊服務說明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)。
 
 ## <a name="configure-group-call-pickup"></a>設定群組呼叫挑選
 

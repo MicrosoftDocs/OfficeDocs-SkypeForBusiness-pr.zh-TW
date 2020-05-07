@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 瞭解如何為 Microsoft 團隊設定及測試雲端自動語音應答。
-ms.openlocfilehash: dee263c08751f21e1fde19965d23595d5da27e39
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 0b4b654a8e6d0eedd9d80cf5bf3bed8e9ee74115
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43788951"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44047368"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>設定雲端自動語音應答
 
@@ -48,7 +48,7 @@ ms.locfileid: "43788951"
 <!-- When you create a new auto attendant in Teams after October 10th, 2019, the required auto attendant is automatically created and linked with the new auto attendant. -->
  
 > [!TIP]
-> 若要將來電重新導向給以電話系統授權為線上使用者的操作員或功能表選項，您必須啟用企業語音。 請參閱[指派商務用 Skype 授權](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)或[指派 Microsoft 團隊授權](assign-teams-licenses.md)。 您也可以使用 Windows PowerShell。 例如，執行：`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+> 若要將來電重新導向給以電話系統授權為線上使用者的操作員或功能表選項，您必須啟用企業語音。 請參閱[指派商務用 Skype 授權](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)或[指派 Microsoft 團隊附加元件授權](teams-add-on-licensing/assign-teams-add-on-licenses.md)。 您也可以使用 Windows PowerShell。 例如，執行：`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 ## <a name="step-2--create-auto-attendants"></a>步驟2：建立自動語音應答
 

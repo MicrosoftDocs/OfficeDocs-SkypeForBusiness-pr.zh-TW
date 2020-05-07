@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 55b43e9fe156a2b3707cb5e99c57239345bf031e
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: 89b1a8a756cba44435098e5cd446294004029eac
+ms.sourcegitcommit: b5c747e2daad6dd3c1d91f4e61ae6f26db5c77f0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43749820"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44064478"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>在 Microsoft 團隊中管理 app 設定原則
 
@@ -183,6 +183,10 @@ $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setu
 #### <a name="can-users-change-the-order-of-apps-pinned-through-a-policy"></a>使用者可以變更透過原則釘選的 app 順序嗎？
 
 如果開啟 [**允許使用者釘**選] 選項，使用者就可以變更其在團隊桌面和行動用戶端上的固定 app 順序。 使用者無法在團隊 web 用戶端變更其固定應用程式的順序。
+
+#### <a name="does-user-pinning-take-precedence"></a>使用者釘選是否優先？
+
+如果指派給使用者的 app 設定原則已變更為 [封鎖使用者 app 釘選]，小組會移除任何釘選到應用程式行的應用程式。 如果隨後將原則變更為 [允許使用者 app 釘選]，使用者就必須重新固定其先前釘駐留的 app。
 
 ### <a name="custom-teams-apps"></a>自訂團隊應用程式
 

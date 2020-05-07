@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8db4565b4a9b1fd5e984640b20d3eaacbed24a37
-ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
+ms.openlocfilehash: 39e1177f4e400b0be085bb2c822bc645fc77cf7c
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42978485"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042390"
 ---
 <a name="manage-the-office-365-e1-trial"></a>管理 Office 365 E1 試用版
 ==============================
@@ -59,7 +59,7 @@ E1 試用版促銷代碼一經使用，就無法再次使用，您也無法啟�
 
 ## <a name="manage-the-e1-trial"></a>管理 E1 試用版
 
-啟用 Office 365 E1 試用版後，請為需要它的任何使用者開啟授權。 若要了解做法，請參閱[管理使用者對 Teams 的存取權](user-access.md#manage-teams-through-the-microsoft-365-admin-center)。
+啟用 Office 365 E1 試用版後，請為需要它的任何使用者開啟授權。 若要了解做法，請參閱[管理使用者對 Teams 的存取權](user-access.md)。
 
 
 一旦您為需要它的使用者開啟 E1 試用版，您就可以如同管理擁有付費授權的使用者一般，管理這些使用者。 如需詳細資訊，請參閱[管理組織的 Teams 設定](enable-features-office-365.md)。
@@ -76,7 +76,7 @@ E1 試用版促銷代碼一經使用，就無法再次使用，您也無法啟�
 
 3. 指派新購買的授權。
 
-如需詳細資訊，請參閱 [Microsoft Teams 的 Office 365 授權](Office-365-licensing.md)。
+如需詳細資訊，請參閱 [Microsoft Teams 服務描述](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)。
 
 > [!NOTE]
 > 如果 E1 試用版結束，且使用者未立即升級為包含 Teams 的訂閱，則不會移除使用者資料。 使用者仍然存在於 Azure Active Directory 中，且 Teams 內的所有資料仍會保留。 一旦將新授權指派給使用者以再次啟用 Teams 功能，所有內容仍會存在。 
@@ -90,7 +90,7 @@ E1 試用版促銷代碼一經使用，就無法再次使用，您也無法啟�
 
 ## <a name="related-topics"></a>相關主題
 
-[管理使用者對 Teams 的存取權](user-access.md#manage-teams-through-the-microsoft-365-admin-center)
+[管理使用者對 Teams 的存取權](user-access.md)
 
 [管理組織的 Teams 設定](enable-features-office-365.md)
 

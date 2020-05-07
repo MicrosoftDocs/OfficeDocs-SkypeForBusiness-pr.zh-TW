@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a6ae8079ba3ccd498936c5d17740ea2e5bafb514
-ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
+ms.openlocfilehash: 9579edfb8571f6d7d3ddf86eb6ce56c2a7e4fb85
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42858718"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042810"
 ---
 <a name="manage-the-office-365-g1-trial-for-us-government"></a>管理適用於美國政府的 Office 365 G1 試用版 
 ==============================
@@ -55,7 +55,7 @@ G1 試用版促銷代碼一經使用，就無法再次使用，您也無法啟�
 
 ## <a name="manage-the-g1-trial"></a>管理 G1 試用版
 
-啟用 Office 365 G1 試用版後，請為需要的任何使用者開啟授權。 若要了解做法，請參閱 [管理使用者對 Teams 的存取權](user-access.md#manage-teams-through-the-microsoft-365-admin-center)。
+啟用 Office 365 G1 試用版後，請為需要的任何使用者開啟授權。 若要了解做法，請參閱 [管理使用者對 Teams 的存取權](user-access.md)。
 
 一旦您為需要的使用者開啟 G1 試用版，就可以如同管理擁有付費授權的使用者一般地管理這些使用者。 如需詳細資訊，請參閱 [管理組織的 Teams 設定](enable-features-office-365.md)。
 
@@ -82,7 +82,6 @@ G1 試用版促銷代碼一經使用，就無法再次使用，您也無法啟�
 
 ## <a name="related-topics"></a>相關主題
 
-[管理使用者對 Teams 的存取權](user-access.md#manage-teams-through-the-microsoft-365-admin-center)
+[管理使用者對 Teams 的存取權](user-access.md)
 
 [管理貴組織的 Teams 設定](enable-features-office-365.md)
-

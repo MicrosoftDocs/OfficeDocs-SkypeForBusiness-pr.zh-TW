@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 瞭解如何在團隊中管理會議原則設定，並使用他們來控制會議參與者針對使用者排程會議所提供的功能。
-ms.openlocfilehash: 3a482ce562c0d0281c1bc289dfc953f416a8f133
-ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
+ms.openlocfilehash: 4a61d2563a63d2dc8d1b55bbf0bbc6c52230d900
+ms.sourcegitcommit: c3f44fccdbd9178d30b52bb0db6f6d31a6dd174b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43940700"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44139207"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>在團隊中管理會議原則
 
@@ -106,10 +106,11 @@ ms.locfileid: "43940700"
 - [允許 Outlook 增益集](#allow-the-outlook-add-in)
 - [允許頻道會議排程](#allow-channel-meeting-scheduling)
 - [允許排程私人會議](#allow-scheduling-private-meetings)
+- [在私人會議中允許立即開會](#allow-meet-now-in-private-meetings)
 
 ### <a name="allow-meet-now-in-channels"></a>允許頻道中的 [立即開會]
 
-這是針對每個使用者的原則，在會議開始之前就會套用。 此設定控制使用者是否可在團隊頻道中啟動零星會議。 如果您開啟此選項，當使用者在團隊頻道中張貼訊息時，使用者可以按一下撰寫方塊下的 [**立即開會**]，以在頻道中啟動零星會議。
+這是針對每個使用者的原則，在會議開始之前就會套用。 此設定控制使用者是否可在團隊頻道中啟動零星會議。 如果您開啟此選項，當使用者在團隊頻道中張貼訊息時，使用者可以按一下撰寫方塊下的 [**立即開會**]，以在頻道中啟動零星會議。 預設值為 True。
 
 ![顯示郵件下方 [立即開會] 圖示的螢幕擷取畫面](media/meeting-policies-meet-now.png)
 
@@ -123,7 +124,7 @@ ms.locfileid: "43940700"
 
 ### <a name="allow-channel-meeting-scheduling"></a>允許頻道會議排程
 
-這是針對每個使用者的原則，在會議開始之前就會套用。 此設定控制使用者是否可在團隊頻道中排程會議。  如果您關閉此功能，當使用者在團隊頻道中開始會議，且團隊中的使用者停用 [**新增頻道**] 選項時，系統將無法使用 [**排程會議**] 選項。
+這是針對每個使用者的原則，在會議開始之前就會套用。 此設定控制使用者是否可在團隊頻道中排程會議。  如果您關閉此功能，當使用者在團隊頻道中開始會議，且團隊中的使用者停用 [**新增頻道**] 選項時，系統將無法使用 [**排程會議**] 選項。 預設值為 True。
 
 ![顯示團隊中的 [排程會議] 選項的螢幕擷取畫面](media/meeting-policies-schedule-a-meeting.png)
 
@@ -133,7 +134,11 @@ ms.locfileid: "43940700"
 
 這是針對每個使用者的原則，在會議開始之前就會套用。 此設定可控制使用者是否可以在小組中排程私人會議。 如果會議不是發佈至小組中的頻道，就是私人的。
 
-請注意，如果您關閉 [**允許排程私人會議**] 和 [**允許頻道會議排程**]，就會針對小組中的使用者停用 [**新增必要的出席**者] 和 [**新增頻道**] 選項。
+請注意，如果您關閉 [**允許排程私人會議**] 和 [**允許頻道會議排程**]，就會針對小組中的使用者停用 [**新增必要的出席**者] 和 [**新增頻道**] 選項。 預設值為 True。
+
+### <a name="allow-meet-now-in-private-meetings"></a>在私人會議中允許立即開會
+
+這是針對每個使用者的原則，在會議開始之前就會套用。 此設定可控制使用者是否能開始即席私人會議。  預設值為 True。
 
 <a name="bkaudioandvideo"> </a>
 
@@ -314,7 +319,6 @@ Daniela 可以在 Amanda 的會議中記錄筆記，而 Amanda 無法在任何�
 - [讓匿名人員開始會議](#let-anonymous-people-start-a-meeting)
 - [自動承認人員](#automatically-admit-people)
 - [允許撥入使用者略過大廳](#allow-dial-in-users-to-bypass-the-lobby)
-- [在私人會議中允許立即開會](#allow-meet-now-in-private-meetings)
 - [啟用即時標題](#enable-live-captions)
 - [允許在會議中聊天](#allow-chat-in-meetings)
 
@@ -378,9 +382,6 @@ Daniela 可以在 Amanda 的會議中記錄筆記，而 Amanda 無法在任何�
 |   | 貴組織中的每個人     |在大廳等候         |
 |   | 貴組織和聯盟組織中的每個人      | 在大廳等候         |
 
-### <a name="allow-meet-now-in-private-meetings"></a>在私人會議中允許立即開會
-
-這是針對每個使用者的原則，在會議開始之前就會套用。 此設定可控制使用者是否能開始即席私人會議。 
 
 ### <a name="enable-live-captions"></a>啟用即時標題
 

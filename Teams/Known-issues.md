@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams 的已知問題
+title: 在組織中支援 Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -9,25 +9,33 @@ ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
 ms.custom: seo-marvel-mar2020
-ms.reviewer: marcl
+ms.reviewer: marcl, billkau
 audience: admin
 localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 使用 Microsoft Teams 用戶端應用程式和系統管理體驗的已知問題清單，針對組織內部的問題進行疑難排解。
+description: 無論您是 Teams 系統管理員或服務支援工程師，都能使用這些資源在組織中支援 Microsoft Teams。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1343317d29f196caf151ead5a6429fb3edf19d87
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 2af4f29ade3e360f4802077d503fd5ad66b081c9
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902298"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44041940"
 ---
-# <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams 的已知問題
+# <a name="support-microsoft-teams-in-your-organization"></a>在組織中支援 Microsoft Teams
 
-本文依功能區域列出 Microsoft Teams 的已知問題。
+如果您正在尋找 Teams 已知的問題，您找對地方了。 使用本文中的資源，協助您在組織中支援 Teams。 
+
+首先，請在以下文章複習最[常見問題與解決方法](#common-issues-and-resolutions)清單。
+
+然後，如果您找不到所需的資訊，請移至 [Teams 疑難排解](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)，然後在目錄或 [依標題篩選]**** 方塊中搜尋您的問題。 
+:::image type="content" source="media/known-issues1.png" alt-text="[Teams疑難排解] 頁面上的 [目錄] 和 [篩選] 方塊的螢幕擷取畫面":::
+
+如果仍然無法解決問題，請與 [Microsoft 支援服務](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)聯繫。
+
 
 ## <a name="common-issues-and-resolutions"></a>常見問題和解決方案
 
@@ -46,7 +54,7 @@ ms.locfileid: "43902298"
 |**會議原則**|[會議原則](meeting-policies-in-teams.md)是針對由您組織中的使用者所排程的會議，控制會議參與者可用於會議的功能。 建立原則並進行變更之後，您可以將使用者指派給該原則。         |
 ||**變更或建立會議原則**<br><br>若要變更或建立會議原則，請移至 [Microsoft Teams 系統管理中心] > **[會議] ** > ** [會議原則]**。 從清單中選取原則，或選取 **[新增]**。 如果您要建立新原則，請新增原則的名稱和描述。 名稱不能包含特殊字元，且長度不可超過 64 個字元。 選擇您的設定，然後按一下 [儲存]****。 例如，假設您有多位使用者，並且想要限制其會議所需的頻寬量。 您可以建立名為「有限頻寬」的新自訂原則，並停用下列設定：<br><br>在 [音訊與視訊]**** 下：<ul><li>關閉 [允許雲端錄製]。</li><li>關閉 [允許 IP 視訊]。</li></ul>在 [內容共用]**** 下：<ul><li>停用 [螢幕畫面分享模式]。</li><li>關閉 [允許白板]。</li><li>關閉 [允許共用記事]。</li></ul>然後，將原則指派給使用者。         |
 | |**將會議原則指派給使用者**<br><br><ol><li>在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至 [使用者]****，然後按一下該使用者。</li><li>按一下使用者名稱左方以選取使用者，然後按一下 [編輯設定]****。</li><li>在 [會議原則]**** 下，選取要指派的原則，然後按一下 [套用]****。</li></ol>若要一次將原則指派給多個使用者，請參閱[大量編輯 Teams 使用者設定](edit-user-settings-in-bulk.md)。 或者，您可以執行下列內容︰<ol><li>在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至 [會議] > [會議原則]****。</li><li>按一下原則名稱的左側來選取原則。</li><li>選取 [管理使用者]****。</li><li>在 [管理使用者]**** 窗格中，依顯示名稱或使用者名稱搜尋使用者，選取名稱，然後按一下 [新增]****。 針對要新增的每一個使用者重複此步驟。</li><li>新增完使用者之後，按一下 **[儲存]**。</li>         |
-|**遺失撥號鍵台的疑難排解**     |請執行下列動作： <ul><li>請確認已指派使用者 [[Teams 授權]](assign-teams-licenses.md)。</li><li>請確認已指派使用者 [[通話方案]](calling-plan-landing-page.md)。</li><li>為使用者啟用 [[企業語音]](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-enterprise-voice-online-and-phone-system-voicemail#to-enable-your-users-for-phone-system-in-office-365-voice-and-voicemail)。</li></ul>      |
+|**遺失撥號鍵台的疑難排解**     |請執行下列動作： <ul><li>請確認已指派使用者 [[Teams 授權]](teams-add-on-licensing/assign-teams-add-on-licenses.md)。</li><li>請確認已指派使用者 [[通話方案]](calling-plan-landing-page.md)。</li><li>為使用者啟用 [[企業語音]](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-enterprise-voice-online-and-phone-system-voicemail#to-enable-your-users-for-phone-system-in-office-365-voice-and-voicemail)。</li></ul>      |
 |**疑難排解 Teams 登入問題**   |首先，請確認 [Microsoft Teams 服務狀況良好](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/servicehealth)。 然後檢查是否有任何常見的錯誤碼，並參閱[為何我無法登入 Microsoft Teams？](https://support.office.com/article/a02f683b-61a3-4008-9447-ee60c5593b0f)  您可能還需要參閱 [Microsoft Teams 中的身分識別模型和驗證方式](identify-models-authentication.md) (部分機器翻譯)。         |
 
 ### <a name="for-education-customers"></a>適用於教育版客戶
@@ -55,4 +63,9 @@ ms.locfileid: "43902298"
 |---------|---------|
 |您的使用者看到「您錯過了！」 的訊息。   |請確定要[為您的學校啟用 Microsoft Teams](https://docs.microsoft.com/microsoft-365/education/intune-edu-trial/enable-microsoft-teams)。 在 EDU 租用戶中不會預設啟用 Teams；您必須先將它開啟。 <br><br>接下來請參閱 [Office 365 教育版中的遠端教學和學習](https://support.office.com/article/remote-teaching-and-learning-in-office-365-education-f651ccae-7b65-478b-8366-51bb884025c4)，以了解如何設定學校、課程規劃、虛擬會議，以及與學生共用內容的最新指導方針。<br><br>最後，請務必在 [Teams 的管理訓練](itadmin-readiness.md)中查看 Microsoft Teams IT 系統管理員訓練影片、投影集和許多其他資訊。        |
 
-如需解決 Microsoft Teams 問題的詳細資訊，請參閱 [Teams 疑難排解](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams) (部分機器翻譯)。
+
+## <a name="related-topics"></a>相關主題
+
+[Teams 疑難排解](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+
+[Teams 的支援資源](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)

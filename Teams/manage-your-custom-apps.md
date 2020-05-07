@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何將自訂團隊 app 從開發開發到部署。
-ms.openlocfilehash: 8166ba6b46853510a9f4e966ddca4e5b8686b551
-ms.sourcegitcommit: a09334ef1a6b0a877839c3b46165eb5a6aad1ba9
+ms.openlocfilehash: a2896a2aa2b2d9750afd147b113a76637514afb6
+ms.sourcegitcommit: b5c747e2daad6dd3c1d91f4e61ae6f26db5c77f0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/02/2020
-ms.locfileid: "44006050"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44064528"
 ---
 # <a name="manage-your-custom-apps-in-microsoft-teams"></a>在 Microsoft 團隊中管理您的自訂應用程式
 
@@ -134,12 +134,16 @@ Microsoft 使用<a href="https://docs.microsoft.com/microsoftteams/platform/publ
 * 已新增或移除 bot
 * 現有 bot 的 "botId" 屬性已變更
 * 現有 bot 的 "isNotificationOnly" 屬性已變更
-* bot 的 "supportsFiles" 屬性已變更
+* Bot 的 "supportsFiles" 屬性已變更
 * 已新增或移除訊息延伸
 * 已新增新的連接器
 * 新增了 [靜態] 索引標籤
 * 新增 [可設定] 索引標籤
-* "webApplicationInfo" 中的屬性已變更
+* "WebApplicationInfo" 中的屬性已變更
+
+![[應用程式清單] 的螢幕擷取畫面，顯示已推出新版本的 app](media/manage-your-custom-apps-update1.png)
+
+![App 之升級選項的螢幕擷取畫面](media/manage-your-custom-apps-update2.png)
 
 ## <a name="related-apps"></a>相關應用程式
 

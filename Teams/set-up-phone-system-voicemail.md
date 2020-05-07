@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: '瞭解如何為您的使用者設定雲端語音信箱。 '
-ms.openlocfilehash: 4f85e8db6f50becb4ae2406e84621c08507e9737
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: eb25d18dc0414edcc3b143487cced1f0e13b2b60
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779729"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042930"
 ---
 # <a name="set-up-cloud-voicemail"></a>設定雲端語音信箱
 
@@ -41,7 +41,7 @@ ms.locfileid: "43779729"
   
 1. 如果您的方案中不包含電話系統功能，您可能需要購買 [**電話系統**附加元件授權]。 您可能也需要購買 Exchange Online 授權。 請參閱[Microsoft 團隊附加元件授權](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
     
-2. [指派或移除商務用 Office 365 的授權](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)、[指派 Microsoft 團隊授權](assign-teams-licenses.md)，以及 Exchange Online 授權給您企業中的人員。 完成之後，他們就可以接收語音信箱訊息了！
+2. [指派或移除商務用 Office 365 的授權](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)、[指派 Microsoft 團隊附加元件授權](teams-add-on-licensing/assign-teams-add-on-licenses.md)，以及 Exchange Online 授權給您企業中的人員。 完成之後，他們就可以接收語音信箱訊息了！
     
 3. 已新增到2017年3月的語音信箱支援，且預設為所有組織和使用者啟用。 您可以使用 Windows PowerShell 來停用您組織的方式，並依照下列步驟進行。
 
@@ -51,7 +51,7 @@ ms.locfileid: "43779729"
   
 1. 如果您的方案中不包含電話系統功能，您可能需要購買 [**電話系統**附加元件授權]。 您也需要購買 Exchange Online 授權。 請參閱[Microsoft 團隊附加元件授權](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
     
-2. [指派或移除商務用 Office 365 的授權](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)、[指派 Microsoft 團隊授權](assign-teams-licenses.md)，以及 Exchange Online 授權給您企業中的人員。
+2. [指派或移除商務用 Office 365 的授權](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)、[指派 Microsoft 團隊附加元件授權](teams-add-on-licensing/assign-teams-add-on-licenses.md)，以及 Exchange Online 授權給您企業中的人員。
     
 3. 遵循針對您的使用者部署的內部部署 PSTN 呼叫解決方案的指示。 如果是雲端連接器版本，請依照[設定商務用 Skype 雲端連接器版本指南](https://technet.microsoft.com/library/mt605228.aspx)中的 [**允許使用者使用電話系統語音及語音信箱服務**] 區段中的指示進行。 針對使用商務用 Skype Server 的 PSTN 通話，請遵循[啟用企業內部部署的使用者](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises)。 針對團隊直接傳送路線，請遵循設定[直接路由](https://docs.microsoft.com/microsoftteams/direct-routing-configure#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail)的 [**設定電話號碼] 和 [啟用企業語音及語音信箱**] 區段。
 
