@@ -18,12 +18,12 @@ description: 在本文中，您將了解在 Microsoft Teams 中設定即時活�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c0246a8517035ab5edd347fef30ae3f86af4afd9
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 51c81bb5c9ec945d7a7c47021a6a0af705c98883
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43903078"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042850"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中規劃即時活動
 
@@ -119,14 +119,21 @@ ms.locfileid: "43903078"
 您可以在世界各地多個區域中使用 Teams 即時活動。 下列資訊顯示事件小組成員和出席者的可用性。
 
 > [!IMPORTANT]
-> 系統會根據召集人和 Microsoft 365 或 Office 365，自動選取活動的區域。
+> 系統會根據召集人和 Microsoft 365 租用戶位置，自動選取活動的區域。
 
-**可在這些區域中使用**
+**可在這些地區資料中心使用**
 
 - 美洲地區
-- 歐洲/非洲
 - 亞太地區
-- 加拿大、印度、澳大利亞、日本、英國的資料位置
+- 歐洲/非洲
+
+**這些國家/地區的資料位置**
+
+- 澳洲
+- 加拿大
+- 印度
+- 日本
+- 英國
 
 **排除和考量**
 

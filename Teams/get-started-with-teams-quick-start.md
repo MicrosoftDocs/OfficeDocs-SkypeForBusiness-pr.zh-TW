@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 72c6c4c959350c8320c908b4e9f4a9c649eb8d7b
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: e92cc870eca689206df0e497ebd174c364b55968
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136773"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042800"
 ---
 # <a name="get-started-with-microsoft-teams"></a>開始使用 Microsoft Teams
 
@@ -55,7 +55,7 @@ Teams 可讓您快速凝聚團隊與組織內外的人員，藉由交談快速�
 - [針對 Teams 準備組織的網路](prepare-network.md)
     - 這包含設定您的 Office 365 網域、SharePoint Online、Exchange Online 和商務用 OneDrive。
 
-- 為每個人取得 Teams 授權。 請參閱[Teams 方案](https://products.office.com/microsoft-teams/free)和 [Teams 的 Office 365 授權](office-365-licensing.md) (部分機器翻譯)。 
+- 為每個人取得 Teams 授權。 請查看 [Teams 方案](https://www.microsoft.com/microsoft-365/microsoft-teams/compare-microsoft-teams-options) 以及 [Microsoft Teams 服務描述](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)。
 
 - [了解安裝桌面、Web 和行動用戶端的優點](get-clients.md)
 
@@ -65,7 +65,7 @@ Teams 可讓您快速凝聚團隊與組織內外的人員，藉由交談快速�
    - [規劃商務用 Skype Server 和 Office 365 之間的混合式連線](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity)
    
    > [!NOTE]
-> 如果貴組織執行的是內部部署商務用 Skype Server (或 Lync Server)，您必須 [設定 Azure AD Connect](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect)，以與 Office 365同步處理您的內部部署目錄。 
+   > 如果貴組織執行的是內部部署商務用 Skype Server (或 Lync Server)，您必須 [設定 Azure AD Connect](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect)，以與 Office 365同步處理您的內部部署目錄。 
 
 
 ## <a name="next-steps"></a>後續步驟
