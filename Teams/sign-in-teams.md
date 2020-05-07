@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 43bbb3018b1c0cbe9f225a8a78acd4007b9232c2
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 344cf0d38926af200f4d92b664761d2c8868df57
+ms.sourcegitcommit: c3f44fccdbd9178d30b52bb0db6f6d31a6dd174b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43903728"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44139136"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>使用新式驗證登入 Microsoft Teams
 ==========================
@@ -46,6 +46,8 @@ Microsoft Teams 使用新式驗證讓登入體驗更加簡單可靠。 若要瞭
   Computer\HKEY_CURRENT_USER\Software\Microsoft\Office\Teams<br/>
   SkipUpnPrefill(REG_DWORD)<br/>
   0x00000001 (1)
+
+  如果執行 Outlook 2013 或2016，請參閱 [更新以跳過 Outlook 2016 和 2013 中使用者主要名稱 (UPN) 查閱](https://support.microsoft.com/help/4022165/update-to-skip-user-principal-name-upn-lookup-in-outlook-2016-and-2013)
 
     > [!NOTE]
     > 針對以 ".local" 或 ".corp" 結尾的使用者名稱，略過或忽略使用者名稱預先填入的功能依預設會開啟，因此您不需要設定登錄機碼就能關閉此功能。 
