@@ -20,12 +20,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: 在2021年7月31日，生命計畫結束時，將會結束與協力廠商音訊會議提供者（協力廠商 ACP）的商務用 Skype 的整合。
-ms.openlocfilehash: 7ea6068d8715bd0df9e80041d70b8baf37abaf1b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 5b49bf573ad79cbdacbc538a0ef67faf1b2b634e
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41985028"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164452"
 ---
 # <a name="end-of-life-program-for-the-integration-of-skype-for-business-with-third-party-audio-conferencing-providers"></a>在商務用 Skype 中與協力廠商音訊會議提供者整合的生命計畫結束 
 
@@ -59,7 +59,7 @@ Microsoft 已宣佈結束生命計畫的開始，以便與協力廠商音訊會�
 
 決定要遷移至 Microsoft 音訊會議並在2021年7月31日之前完成其遷移的組織，在該日期期間或之後，將不會發生任何服務影響。 遷移至 Microsoft 音訊會議將會對組織進行下列變更： 
 
-- 該服務將會以所有其他 Office 365 服務計費。 
+- 系統會使用所有其他 Microsoft 365 或 Office 365 服務計費該服務。 
 
 - 如果購買標準訂閱，將會在每位使用者的每月訂閱成本中包含付費電話撥入成本。 
 
@@ -73,13 +73,13 @@ Microsoft 已宣佈結束生命計畫的開始，以便與協力廠商音訊會�
 
 遷移至 Microsoft 音訊會議很簡單，只要取得服務授權之後，就可以完成幾個步驟。 若要瞭解如何遷移至 Microsoft 音訊會議，請參閱：
 
-- [試用或購買 Office 365 的音訊會議](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+- [在 Microsoft 365 或 Office 365 中試用或購買音訊會議](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
  
 **合計**
 
 - 遷移至 Microsoft 音訊會議，並在2021年7月31日之前完成其遷移的組織，在該日期或之後，就不會看到對其服務的任何影響。
 
-- 若要深入瞭解遷移至 Microsoft 音訊會議的相關資訊，請參閱[在 Office 365 中試用或購買音訊會議](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)。 
+- 若要深入瞭解遷移至 Microsoft 音訊會議的相關資訊，請參閱[在 microsoft 365 或 Office 365 中試用或購買音訊會議](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)。 
 
 ### <a name="path-2-continue-to-separately-use-a-third-party-audio-conferencing-provider"></a>路徑 #2：繼續單獨使用協力廠商音訊會議提供者
 
@@ -91,7 +91,7 @@ Microsoft 已宣佈結束生命計畫的開始，以便與協力廠商音訊會�
  
 根據排程及2021年7月31日，協力廠商 ACP 的撥入資訊將不再自動包含在商務用 Skype 會議邀請中。 如果使用者想要繼續在會議中包含這項資訊，必須在其商務用 Skype 會議邀請上手動新增撥入資訊。 
 
-請注意，在2021年7月31日，現有的使用者會議將不會自動重新安排，以移除任何協力廠商 ACP 的撥入資訊。 決定要為使用者的會議啟用 VoIP 的組織，應該考慮停用協力廠商 ACP 的使用者，然後使用會議遷移服務來移除協力廠商音訊。從現有的會議中會議撥入資訊，避免在已排程的會議上產生音訊碎片。 
+請注意，在2021年7月31日，現有的使用者會議將不會自動重新安排，以移除任何協力廠商 ACP 的撥入資訊。 決定要將 VoIP 保留在使用者的會議中的組織，應考慮停用使用者的協力廠商 ACP，並使用會議遷移服務，以從現有的會議中移除協力廠商音訊會議撥入資訊，並防止音訊在已排程的會議上顯示。 
 
 - 若要針對指定的召集人停用協力廠商音訊會議的整合，請使用 CsUserAcp Cmdlet。 如需其他資訊，請參閱[移除-CsUserAcp](https://docs.microsoft.com/powershell/module/skype/remove-csuseracp?view=skype-ps)。 
 
@@ -105,7 +105,7 @@ Microsoft 已宣佈結束生命計畫的開始，以便與協力廠商音訊會�
 
     - 若要從指定召集人的所有會議停用 VoIP，請透過 CsConferencingPolicy Cmdlet，將使用者的會議原則的 AllowIPAudio 參數設定為 false。 如需其他資訊，請參閱[設定 CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)。
  
-- 如果組織不停針對所有會議停用 VoIP，建議使用者停用商務用 Skype Online 與協力廠商 ACP，並重新安排其會議，以移除協力廠商 ACP 的撥入資訊，以防止音訊的分段。
+- 如果組織不停針對所有會議停用 VoIP，建議使用者停用商務用 Skype Online 與協力廠商 ACP，並重新安排其會議，以移除協力廠商 ACP 的撥入資訊，以避免音訊的分段。
 
     - 若要針對指定的召集人停用協力廠商音訊會議的整合，請使用[CsUserAcp](https://docs.microsoft.com/powershell/module/skype/remove-csuseracp?view=skype-ps) Cmdlet。 
 

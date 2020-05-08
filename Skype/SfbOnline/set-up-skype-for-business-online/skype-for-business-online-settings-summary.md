@@ -20,24 +20,24 @@ f1.keywords:
 ms.custom:
 - Setup
 description: '此商務用 Skype 組織和使用者設定的摘要可協助您深入瞭解公用 IM 連線、會議邀請、錄製通話及會議等內容。  '
-ms.openlocfilehash: fd8db122b1e0ec8ef205c07f68826dea83a833c7
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: a7c627620bba6d1249dcc6ce14bbaf25796b7173
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706458"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164122"
 ---
 # <a name="skype-for-business-online-settings-summary"></a>商務用 Skype Online 設定摘要
 
 **商務用 Skype 系統管理中心**包含您的整個組織及個別使用者的設定。 
   
 > [!NOTE]
->  視您的位置而定，您可能無法存取商務用 Skype Online 的所有功能。 如需詳細資訊，請參閱[Office 365 的授許可權制](https://go.microsoft.com/fwlink/?LinkId=529483)。 
+>  視您的位置而定，您可能無法存取商務用 Skype Online 的所有功能。 如需詳細資訊，請參閱[Microsoft 365 和 Office 365 的授許可權制](https://go.microsoft.com/fwlink/?LinkId=529483)。 
   
 ## <a name="skype-for-business-online-organization-settings"></a>商務用 Skype Online 組織設定
 <a name="__top"> </a>
 
-|**正在**|**說明**|**設置**|**瞭解更多資訊**|
+|**設定**|**描述**|**設置**|**深入了解**|
 |:-----|:-----|:-----|:-----|
 |網域同盟  <br/> |與使用商務用 Skype Online 的其他組織進行通訊。  <br/> |後  <br/> |[允許使用者連絡外部商務用 Skype 使用者](allow-users-to-contact-external-skype-for-business-users.md) <br/> |
 |公用 IM 連線  <br/> |與商務用 Skype Online 使用者通訊。  <br/> |後  <br/> |[允許使用者連絡外部商務用 Skype 使用者](allow-users-to-contact-external-skype-for-business-users.md) <br/> |
@@ -48,7 +48,7 @@ ms.locfileid: "41706458"
 ## <a name="skype-for-business-online-user-settings"></a>商務用 Skype Online 使用者設定
 <a name="__toc314837470"> </a>
 
-|**正在**|**說明**|**設置**|**瞭解更多資訊**|
+|**設定**|**描述**|**設置**|**深入了解**|
 |:-----|:-----|:-----|:-----|
 |音訊和影片  <br/> |使用商務用 Skype Online 進行音訊與視頻交談  <br/> |後  <br/> |[系統管理員：針對個別使用者設定商務用 Skype 設定](configure-skype-for-business-settings-for-individual-users.md) <br/> |
 |錄音室  <br/> |記錄通話與會議  <br/> |後  <br/> |[系統管理員：針對個別使用者設定商務用 Skype 設定](configure-skype-for-business-settings-for-individual-users.md) <br/> |

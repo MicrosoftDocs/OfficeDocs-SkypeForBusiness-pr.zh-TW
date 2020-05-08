@@ -20,28 +20,28 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: '瞭解如何讓使用商務用 Skype 的使用者從貴組織外的商務用 skype 連絡人，然後將他們新增至他們的連絡人清單。 '
-ms.openlocfilehash: ffefa664845f5dbe06b064e0a197a28d8df2c3da
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 71282fe105c85cadca9aab341fc1b5e6ffbe47d2
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010806"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164472"
 ---
 # <a name="let-skype-for-business-users-add-skype-contacts"></a>讓商務用 Skype 使用者新增 Skype 連絡人
 
 在商務用 Skype 中，您的使用者可以在使用 Skype （免費應用程式）的所有人搜尋和傳送即時消息！ 本文說明您需要採取的動作，才能新增 Skype 連絡人。 
   
-您必須具備 Office 365 的系統[管理員許可權](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d?ui=en-US&rs=en-US&ad=US)，才能執行此動作。
+您必須在 Microsoft 365 或 Office 365 中擁有系統[管理員許可權](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d?ui=en-US&rs=en-US&ad=US)，才能執行此動作。
 
-![](../images/sfb-logo-30x30.png) **使用商務用 skype 系統管理中心**顯示商務用 skype 標誌的圖示
+![商務用 Skype 標誌圖示](../images/sfb-logo-30x30.png) **使用商務用 Skype 系統管理中心**
   
-1. 使用您的 Office 365 系統管理員帳戶登[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home#/homepage)入。
+1. 使用您的 Microsoft 365 或 Office 365 系統管理員帳戶登[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home#/homepage)入。
     
 2. 在系統管理中心中，移至 [系統**管理中心] 中心** > **商務用 Skype**。 
     
     ![選擇 [商務用 Skype 系統管理中心]。](../images/376a7a45-e6e3-4716-be09-d2f294d885a2.png)
   
-3. 在**商務用 Skype 系統管理中心**中，選擇 [**組織** > **外部通訊**]。 
+3. 在 [商務用 Skype 系統管理中心]****，選擇 [組織]****  >  [外部通訊]****。 
     
 4. 根據預設，您的使用者可以與使用商務用 Skype 的世界各地的其他人通訊（假設您的防火牆已設定為允許）。 
     

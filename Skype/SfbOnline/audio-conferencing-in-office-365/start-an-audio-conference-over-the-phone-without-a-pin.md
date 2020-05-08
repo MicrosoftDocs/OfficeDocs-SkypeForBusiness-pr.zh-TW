@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '瞭解如何從商務用 Skype 系統管理中心或使用 PowerShell 腳本，來啟用或停用匿名呼叫者加入會議。 '
-ms.openlocfilehash: e2cb4fc543f92bd4dc5c2a16a1fb7e10f65e0660
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: f02d458450f07b64f3daf4d23b1c56aa2bb846a3
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41680340"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44163872"
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-skype-for-business-online"></a>在商務用 Skype Online 中不使用 PIN 在手機上啟動音訊會議
 
@@ -50,7 +50,7 @@ ms.locfileid: "41680340"
     
 3. 在使用者的 [屬性] 頁面的 [**會議選項**] 底下，選取或清除 [**允許未驗證的呼叫者成為會議中的第一位人員]。如果不是，則會在大廳等候，直到經過驗證的使用者加入為止**。
     
-4. 按一下 [**儲存**]。 
+4. 按一下 [儲存]****。 
 
 
     
@@ -82,11 +82,11 @@ ms.locfileid: "41680340"
 
 - 若要節省時間或將這項作業自動化給一個以上的使用者，您可以使用[get-csonlinedialinconferencinguser](https://go.microsoft.com/fwlink/?LinkId=617688 ) Cmdlet。
     
-- 在 Windows PowerShell 中，商務用 Skype Online 就是管理使用者以及允許或不允許的使用者。 在 Windows PowerShell 中，您可以使用單一管理點來管理 Office 365，以便在有多項工作需要執行時簡化日常作業。 若要開始使用 Windows PowerShell，請參閱以下主題：
+- 在 Windows PowerShell 中，商務用 Skype Online 就是管理使用者以及允許或不允許的使用者。 在 Windows PowerShell 中，您可以使用單一管理點來管理 Microsoft 365 或 Office 365，以便在您有多個工作執行時，簡化日常作業。 若要開始使用 Windows PowerShell，請參閱以下主題：
     
-  - [為什麼需要使用 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [為什麼您需要使用 Microsoft 365 或 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [使用 Windows PowerShell 管理 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [使用 Windows PowerShell 管理 Microsoft 365 或 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
     
 - Windows PowerShell 的速度、簡潔性和生產率都有許多優點，只是使用 Microsoft 365 系統管理中心，例如當您在一次為多位使用者進行設定變更時。 請參閱下列主題，瞭解這些優點： 
     
@@ -101,4 +101,4 @@ ms.locfileid: "41680340"
   
 ## <a name="related-topics"></a>相關主題
 
-[試用或購買 Office 365 的音訊會議](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[在 Microsoft 365 或 Office 365 中試用或購買音訊會議](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

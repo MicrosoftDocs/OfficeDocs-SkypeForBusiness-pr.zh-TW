@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '瞭解在商務用 Skype Online 的電話撥入式會議設定變更時，電子郵件會自動傳送哪些資訊給使用者。 '
-ms.openlocfilehash: 12904c6485a422c7df314767b58ac485c38816ea
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: e2f58bfe582b7adc6672c06bec0e90571ff9a96a
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41986548"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164272"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-skype-for-business-online"></a>在商務用 Skype Online 的設定變更時傳送給使用者的電子郵件
 
@@ -35,11 +35,11 @@ ms.locfileid: "41986548"
 
 電子郵件會自動傳送給已使用 Microsoft 做為音訊會議提供者[的音訊會議的](set-up-audio-conferencing.md)使用者。
   
-根據預設，會傳送四種類型的電子郵件給已啟用音訊會議的使用者。 不過，如果您想要限制傳送給使用者的電子郵件數目，您可以將它關閉。 Office 365 中的音訊會議會在下列情況傳送電子郵件給使用者的電子郵件：
+根據預設，會傳送四種類型的電子郵件給已啟用音訊會議的使用者。 不過，如果您想要限制傳送給使用者的電子郵件數目，您可以將它關閉。 Microsoft 365 或 Office 365 中的音訊會議會在下列情況中傳送電子郵件給使用者的電子郵件：
   
 - **系統會將音訊會議授權指派給他們，或者當您將音訊會議提供者變更為 Microsoft 時。**
     
-     此電子郵件包含會議 ID、會議的預設會議電話號碼、使用者的音訊會議 PIN，以及使用用來更新現有會議的 [商務用 Skype Online 會議更新] 工具的指示與連結。使用者名. 請參閱[指派商務用 Skype 授權](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)，或[將 Microsoft 指派為音訊會議提供者](assign-microsoft-as-the-audio-conferencing-provider.md)。
+     此電子郵件包含會議 ID、會議的預設會議電話號碼、使用者的音訊會議 PIN，以及用來更新使用者現有會議的指示與連結，以使用商務用 Skype Online 會議更新工具。 請參閱[指派商務用 Skype 授權](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)，或[將 Microsoft 指派為音訊會議提供者](assign-microsoft-as-the-audio-conferencing-provider.md)。
     
     > [!NOTE]
     > 如果您的組織已啟用動態會議 Id，他們排程的所有使用者會議都會有唯一的會議 Id。 您可以[在組織中設定音訊會議動態 id](using-audio-conferencing-dynamic-ids-in-your-organization.md)。 
@@ -76,7 +76,7 @@ ms.locfileid: "41986548"
     
     當您在使用者中移除**音訊會議**授權，或是將使用者的音訊會議提供者從 Microsoft 改為協力廠商音訊會議提供者或將提供者設定為 [**無**] 時，就會發生這種情況。 此電子郵件包含使用者使用商務用 Skype Online 會議更新工具來移除語音會議特定資訊（例如預設會議電話號碼或會議 ID）的指示與資訊。
     
-    請參閱[指派或移除商務用 Office 365 的授權](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)。
+    請參閱[指派或移除商務用 Microsoft 365 app 的授權](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)。
     
     以下是這封電子郵件的範例：
     
@@ -87,7 +87,7 @@ ms.locfileid: "41986548"
 
 ## <a name="make-changes-to-the-email-messages-that-are-sent-to-them"></a>對傳送給他們的電子郵件訊息進行變更
 
-您可以對自動傳送給使用者的電子郵件進行變更，包括 [寄件者] 和 [*發件*人] 資訊中所包含的電子郵件地址和顯示名稱。 根據預設，電子郵件的寄件者會來自 Office 365，但您可以使用 Windows PowerShell 和[CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) Cmdlet 來變更電子郵件地址和顯示名稱。 若要對傳送電子郵件給使用者的電子郵件地址進行變更，您必須：
+您可以對自動傳送給使用者的電子郵件進行變更，包括 [寄件者] 和 [*發件*人] 資訊中所包含的電子郵件地址和顯示名稱。 根據預設，電子郵件的寄件者是來自 Microsoft 365 或 Office 365，但是您可以使用 Windows PowerShell 和[CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) Cmdlet 來變更電子郵件地址和顯示名稱。 若要對傳送電子郵件給使用者的電子郵件地址進行變更，您必須：
   
 - 在_SendEmailFromAddress_參數中輸入電子郵件地址。
     
@@ -118,7 +118,7 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
     
 2. 在 [ **Microsoft 橋接器設定**] 頁面上，選取或清除 [**自動傳送電子郵件給使用者] （如果他們的音訊會議設定已變更**）。 
     
-3. 按一下 [**儲存**]。 
+3. 按一下 [儲存]****。 
 
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -145,13 +145,13 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
   
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>想知道如何使用 Windows PowerShell 進行管理嗎？
 
-- 根據預設，電子郵件的寄件者會來自 Office 365，但您可以使用 Windows PowerShell 和[CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) Cmdlet 來變更電子郵件地址和顯示名稱。
+- 根據預設，電子郵件的寄件者是來自 Microsoft 365 或 Office 365，但是您可以使用 Windows PowerShell 和[CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) Cmdlet 來變更電子郵件地址和顯示名稱。
     
-- Windows PowerShell 全部說明如何管理使用者，以及允許或不允許的使用者執行。 在 Windows PowerShell 中，您可以使用單一管理點來管理 Office 365，以便在有多項工作需要執行時簡化日常作業。 若要開始使用 Windows PowerShell，請參閱以下主題：
+- Windows PowerShell 全部說明如何管理使用者，以及允許或不允許的使用者執行。 在 Windows PowerShell 中，您可以使用單一管理點來管理 Microsoft 365 或 Office 365，以便在您有多個工作執行時，簡化日常作業。 若要開始使用 Windows PowerShell，請參閱以下主題：
     
-  - [為什麼需要使用 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [為什麼您需要使用 Microsoft 365 或 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [使用 Windows PowerShell 管理 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [使用 Windows PowerShell 管理 Microsoft 365 或 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
     
 - Windows PowerShell 的速度、簡潔性和生產率都有許多優點，只是使用 Microsoft 365 系統管理中心，例如當您在一次為多位使用者進行設定變更時。 請參閱下列主題，瞭解這些優點： 
     

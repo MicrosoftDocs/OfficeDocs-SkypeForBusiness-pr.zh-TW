@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 瞭解如何在商務用 Skype Online 中為音訊會議編號選取音訊會議自動語音應答語言。
-ms.openlocfilehash: 34ed4ccee5239923f68b089ce14551fe43c32320
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 93b6ea917c7f79747273366893efc47a22b89bb2
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776798"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44163898"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-skype-for-business-online"></a>在商務用 Skype Online 中設定音訊會議的自動助理語言
 
@@ -64,7 +64,7 @@ ms.locfileid: "43776798"
     
 - 您可以將 [語言] 設定為 [專用]，而不是用於共用的電話號碼。
     
-- 若要查看 Office 365 中可使用 Microsoft 作為提供者的音訊會議的國家/地區清單，請參閱[音訊會議的電話號碼](phone-numbers-for-audio-conferencing.md)。
+- 若要查看在 Microsoft 365 或 Office 365 中使用 Microsoft 作為提供者的音訊會議的國家/地區清單，請參閱[音訊會議的電話號碼](phone-numbers-for-audio-conferencing.md)。
     
 ## <a name="want-to-use-windows-powershell"></a>想要使用 Windows PowerShell 嗎？
 
@@ -74,4 +74,4 @@ ms.locfileid: "43776798"
   
 ## <a name="related-topics"></a>相關主題
 
-[試用或購買 Office 365 的音訊會議](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[在 Microsoft 365 或 Office 365 中試用或購買音訊會議](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

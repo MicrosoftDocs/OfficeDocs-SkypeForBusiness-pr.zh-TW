@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '[會議遷移服務（MMS）] 是在背景執行的服務，會自動更新使用者的商務用 Skype 和 Microsoft 團隊會議。 MMS 的設計目的是要讓使用者不需要執行會議遷移工具來更新其商務用 Skype 和 Microsoft 團隊會議。'
-ms.openlocfilehash: 5ce6f2ab5954ba0c076e9a4db432da3e93a75db1
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 81bd5f1e9304ff3ff6eedb901a50632aa6edd73a
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010976"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44163952"
 ---
 # <a name="using-the-meeting-migration-service-mms"></a>使用會議遷移服務（MMS）
 
@@ -211,6 +211,6 @@ Set-CsOnlineDialInConferencingTenantSettings  -AutomaticallyMigrateUserMeetings 
 
 ## <a name="related-topics"></a>相關主題
 
-[試用或購買 Office 365 的音訊會議](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[在 Microsoft 365 或 Office 365 中試用或購買音訊會議](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 
 [在內部部署和雲端之間移動使用者](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)

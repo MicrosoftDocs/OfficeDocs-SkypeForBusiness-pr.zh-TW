@@ -16,12 +16,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 使用 Power BI 來分析 Microsoft 團隊的 CQD 資料。
-ms.openlocfilehash: a288376192af375660107b79e93ec8613f46163d
-ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
+ms.openlocfilehash: 5d081853f9fc5c1106ce6906f31ddc10613ec9f9
+ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43918672"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44158960"
 ---
 # <a name="use-power-bi-to-analyze-cqd-data-for-microsoft-teams"></a>使用 Power BI 來分析 Microsoft 團隊的 CQD 資料
 
@@ -31,6 +31,7 @@ ms.locfileid: "43918672"
 
 在您可以使用這些 PBIT 檔案之前，您必須使用[下載](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)中包含的*MicrosoftCallQuality Pqx*檔案，[安裝 Microsoft CQD 的 Power BI 連接器](CQD-Power-BI-connector.md)。 
 
+請確定您擁有正確的[CQD 存取角色](https://docs.microsoft.com/microsoftteams/turning-on-and-using-call-quality-dashboard#assign-roles-for-accessing-cqd)，才能存取 Power BI 報表。 
 
 |  |  |
 |---------|---------|

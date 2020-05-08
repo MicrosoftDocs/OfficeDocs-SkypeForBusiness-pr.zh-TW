@@ -21,19 +21,19 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '取得建立呼叫者加入商務用 Skype Online 會議的預設電話號碼的步驟。 '
-ms.openlocfilehash: a570c457c51ce87655c1cb13e1eb61951b968400
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: b7a4ee991ff8a8e41401b3b2d2dc20aa20708b88
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776778"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44163932"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-skype-for-business-online"></a>在商務用 Skype Online 中設定邀請中包含的電話號碼
 
 > [!Note]
 > 如需 Microsoft 團隊中會議邀請電話號碼的相關資訊，請參閱[在 Microsoft 團隊中設定邀請中所包含的電話號碼](/MicrosoftTeams/set-the-phone-numbers-included-on-invites-in-teams)。
 
-Office 365 中的音訊會議可讓貴組織中的使用者建立商務用 Skype 會議，然後允許使用者使用電話撥入這些會議。 在 Office 365 中，您可以選擇使用 Microsoft 音訊會議橋接器或由已核准的音訊會議提供者（ACP）託管的協力廠商音訊會議橋。
+在 Microsoft 365 或 Office 365 中的音訊會議可讓貴組織中的使用者建立商務用 Skype 會議，然後允許使用者使用電話撥入這些會議。 在 Microsoft 365 和 Office 365 中，您可以選擇使用 Microsoft 音訊會議橋接器或由已核准的音訊會議提供者（ACP）託管的協力廠商音訊會議橋。
   
 > [!NOTE]
 > 沒有任何資源會包含音訊會議的所有撥入號碼清單。 如果您要查看您的地區或國家/地區是否有可用的撥入電話號碼，請使用**商務用 Skype 系統管理中心** > **語音** > **電話號碼** **，按一下 [** 新增]，然後輸入新的**服務號碼**。 使用 [**國家/地區**]、[**州/地區**] 和 [**城市**] 的清單來篩選您的搜尋。 > 此外，如果您正在尋找免費的服務號碼，請從 [**省/市/自治區**] 清單中選取 [**免付費電話**]。
@@ -136,11 +136,11 @@ Office 365 中的音訊會議可讓貴組織中的使用者建立商務用 Skype
     
   - [Windows PowerShell 與 Lync Online 的簡介](https://go.microsoft.com/fwlink/?LinkId=525039)
     
-  - [為什麼需要使用 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [為什麼您需要使用 Microsoft 365 或 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
     
 - Windows PowerShell 在速度、簡潔性和生產率上都有許多優點，只是使用 Microsoft 365 系統管理中心，例如當您在一次為多位使用者設定變更時。 請參閱下列主題，瞭解這些優點：
     
-  - [使用 Windows PowerShell 管理 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [使用 Windows PowerShell 管理 Microsoft 365 或 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
     
   - [使用 Windows PowerShell 管理商務用 Skype Online](https://go.microsoft.com/fwlink/?LinkId=525453)
     
@@ -148,4 +148,4 @@ Office 365 中的音訊會議可讓貴組織中的使用者建立商務用 Skype
     
 ## <a name="related-topics"></a>相關主題
 
-[試用或購買 Office 365 的音訊會議](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[在 Microsoft 365 或 Office 365 中試用或購買音訊會議](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

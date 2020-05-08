@@ -28,17 +28,17 @@ ms.custom:
 - O365P_ShareLync
 - LIL_Placement
 description: '瞭解如何設定商務用 Skype，讓使用者與其他組織中的使用者交談，或讓連絡人以外的人員。 '
-ms.openlocfilehash: 394613e3137c65e814cc08dd898ec797d560d1c6
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: a1f399f7b127596aaf28c7e22b2c65525c72a8e4
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010936"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164822"
 ---
 # <a name="allow-users-to-contact-external-skype-for-business-users"></a>允許使用者連絡外部商務用 Skype 使用者
 
 > [!NOTE]
-> 商務用 Skype 同盟不適用於由世紀運營的 Office 365 和 Office 365 德國組織。 
+> 商務用 Skype 同盟不適用於由世紀互聯、Microsoft 365 或 Office 365 德國組織運營的 Microsoft 365 或 Office 365。 
   
 在下列情況下，請使用本文中的步驟：
   
@@ -51,11 +51,11 @@ ms.locfileid: "42010936"
 ## <a name="enable-business-to-business-communications-for-your-users"></a>為使用者啟用企業對企業通訊
 <a name="bk_preview"> </a>
 
-您必須在兩個組織的 Office 365 中擁有系統[管理員許可權](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)，才能執行此動作。
+在這兩個組織中，您必須具備 Microsoft 365 或 Office 365 中的系統[管理員許可權](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)才能執行此動作。
 
 ![](../images/teams-logo-30x30.png) **使用 [團隊管理中心**] 顯示 Microsoft 小組標誌的圖示
   
-1. 使用您的 Office 365 系統管理員帳戶登入。 
+1. 使用您的 Microsoft 365 或 Office 365 系統管理員帳戶登入。 
     
 2. 在系統管理中心中，移至 [系統**管理中心** > ]**小組**。
     
@@ -65,7 +65,7 @@ ms.locfileid: "42010936"
  ![] 選擇 [SfB 舊版入口網站]。](../images/SFBlegacy-size65.png)
  
 4. 在**商務用 Skype 系統管理中心**中，選擇 [**組織** > **外部通訊**]。
-5. 若要設定與特定企業或其他網域中的使用者通訊，請在下拉式方塊中，選擇 [**只對允許的網域開啟**]。
+5. 若要設定與特定公司或其他網域中的使用者進行通訊，請在下拉式方塊中選擇 [僅對允許的網域開啟]****。
     
     或者，如果您想要與世界各地擁有開啟商務用 Skype 原則的其他人通訊，請選擇 [**除了封鎖的網域以外**]。 這是預設設定。
     
@@ -98,7 +98,7 @@ ms.locfileid: "42010936"
     
     如果您收到因公司原則無法傳送的訊息，您必須仔細檢查您的[Office 365 url 與 IP 位址範圍](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges)。
     
-3. 要求您的商務用 Skype 連絡人向您傳送聊天的要求。 如果您沒有收到他們的要求，問題就是您的防火牆設定（假設他們已確認其防火牆設定正確）。
+3. 要求您的商務用 Skype 連絡人向您傳送聊天的要求。 如果您沒有收到其要求，就表示您的防火牆設定有問題 (假設他們已確認其防火牆設定正確)。
     
 4. 測試問題是否是您的防火牆的另一種方法是，移至不在防火牆背後（例如咖啡廳）的 wifi 位置，然後使用商務用 Skype 將要求傳送給您的連絡人進行聊天。 如果郵件在其中，但不在您的工作中，您知道問題是您的防火牆。
     
@@ -116,7 +116,7 @@ ms.locfileid: "42010936"
     
 - 若要在 Lync 與商務用 Skype Online 之間設定同盟，請參閱這篇文章：為[Lync Online 客戶設定同盟支援](https://technet.microsoft.com/library/hh202193.aspx)。
     
-- 當 Office 365 中的兩個商務用 Skype 使用者互相通訊在不同的網域上時，他們只能使用在兩個組織中開啟的商務用 Skype 功能（例如，影片交談或桌面共用）。
+- 當 Microsoft 365 或 Office 365 中的兩個商務用 Skype 使用者彼此通訊于不同的網域時，他們只能使用在兩個組織中開啟的商務用 Skype 功能（例如，影片交談或桌面共用）。
     
 - 如果貴組織中的商務用 Skype 使用者已加入就地或訴訟封存，該使用者與其他商務用 Skype 或 Skype 使用者之間的任何 IM 交談，都會儲存在其信箱中的**可復原專案**中。 這些交談不會儲存在其信箱中的 [**交談記錄**] 資料夾中。
     
@@ -125,7 +125,7 @@ ms.locfileid: "42010936"
 
 在您為整個企業啟用外部溝通之後，您就可以針對特定的人員關閉該功能。
   
-1. 使用您的 Office 365 系統管理員帳戶登入。
+1. 使用您的 Microsoft 365 或 Office 365 系統管理員帳戶登入。
     
 2. 在系統管理中心中，移至 [**使用者** > 作用中的**使用者**]。
     

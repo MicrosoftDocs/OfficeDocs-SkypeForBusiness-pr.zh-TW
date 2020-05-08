@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 瞭解哪些國家和地區有電話撥入式會議號碼，以及它們的自動指派方式。
-ms.openlocfilehash: fa99e9225f55919b58bf6d9b4648a740b21fcb34
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: e3abae815eca6dad17fe51efaf7ec715421650ff
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777438"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164712"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-skype-for-business-online"></a>商務用 Skype Online 中音訊會議的電話號碼
 
@@ -55,7 +55,7 @@ ms.locfileid: "43777438"
   
  **專用電話號碼**是只有在組織內部使用者才可以使用的電話號碼。 您可以變更某人撥入其中一個號碼時所使用的語言。
   
- **共用的電話號碼**是可與其他 Microsoft 365 或 Office 365s 共用的電話號碼。 您無法變更某人撥入其中一個號碼時所使用的語言。
+ **共用的電話號碼**是可與其他 Microsoft 365 或 Office 365 帳戶共用的電話號碼。 您無法變更某人撥入其中一個號碼時所使用的語言。
   
 雖然指派給召集人的預設音訊會議號碼只會包含在會議邀請中，呼叫者可以使用指派給您的會議橋接器的任何電話號碼加入會議。 您可以使用每個會議邀請中包含的 [尋找當地電話號碼]**** 連結，來取得可用來加入會議的電話號碼清單。
   
@@ -89,4 +89,4 @@ ms.locfileid: "43777438"
    
 ## <a name="related-topics"></a>相關主題
 
-[試用或購買 Office 365 的音訊會議](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[在 Microsoft 365 或 Office 365 中試用或購買音訊會議](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

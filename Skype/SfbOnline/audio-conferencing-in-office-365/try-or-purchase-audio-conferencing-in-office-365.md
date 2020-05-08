@@ -21,17 +21,17 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '瞭解如何試用或購買 Office 365 的音訊會議（PSTN 會議）授權，以設定人員可以撥入的電話會議。 '
-ms.openlocfilehash: d5afdc88b4d3c891b66ef3d4fce3860a648db488
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 149f72bbd5924c17ba8566875be5a54009cfb1d1
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776768"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44163882"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-microsoft-365-or-office-365-for-skype-for-business-online"></a>在 Microsoft 365 或 Office 365 中試用或購買商務用 Skype Online 的音訊會議
 
 > [!Note]
-> 如需 Microsoft 團隊中音訊會議的相關資訊，請參閱[在 Microsoft 團隊版 Skype 的 Office 365 中試用或購買音訊會議](/MicrosoftTeams/try-or-purchase-audio-conferencing-in-office-365-for-teams)。
+> 如需 Microsoft 團隊中音訊會議的相關資訊，請參閱[試用或購買 Microsoft 團隊版 Skype 的 microsoft 365 或 Office 365 中的音訊會議](/MicrosoftTeams/try-or-purchase-audio-conferencing-in-office-365-for-teams)。
 
 
 貴組織內的人員有時會需要透過電話來加入會議。 商務用 Skype 包括音訊會議功能，只適用于這種情況！ 使用者可以使用電話撥入商務用 Skype 會議，而不是在行動裝置或電腦上使用商務用 Skype 應用程式。
@@ -42,7 +42,7 @@ ms.locfileid: "43776768"
 
 ## <a name="step-1-buy-and-assign-audio-conferencing-licenses"></a>步驟1：購買並指派音訊會議授權
 
-您必須是[Office 365 管理員角色](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)，才能執行這些步驟。
+您必須是系統管理員，才能執行這些步驟。 如需詳細資訊，請參閱[關於系統管理員角色](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)。
 
 ### <a name="to-buy-and-assign-user-audio-conferencing-licenses"></a>若要購買並指派使用者音訊會議授權：
 
@@ -54,7 +54,7 @@ ms.locfileid: "43776768"
 
    - **購買**，請參閱[商務用 Skype 和 Microsoft 團隊附加元件授權](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)。
 
-3. [指派或移除商務用 Office 365 的授權](https://support.office.com/article//997596b5-4173-4627-b915-36abac6786dc)，您已購買給組織中打算排程或領導會議的人員。
+3. [指派或移除](https://support.office.com/article//997596b5-4173-4627-b915-36abac6786dc)您購買至組織中要排程或領導會議之人員的商務用 Microsoft 365 app 的授權。
 
 4. 如果您購買的是 [音訊會議附加元件授權] 和 [通訊點數] 授權，也請指派它們。 如需相關指示，請參閱[指派商務用 Skype 和 Microsoft 團隊授權](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)。
 
@@ -71,7 +71,7 @@ ms.locfileid: "43776768"
     > [!IMPORTANT]
     > 如果通訊點數尚未設定，音訊會議將無法針對每分鐘付費授權的使用者使用。 此外，如果您有音訊會議每分鐘付費授權，您就不需要為每位使用者分別指派通訊信用額度授權，但您可能仍需要指派給其他服務。
 
-4. [指派或移除商務用 Office 365 的授權](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)，您已購買給組織中打算排程或領導會議的人員。
+4. [指派或移除](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)您購買至組織中要排程或領導會議之人員的商務用 Microsoft 365 app 的授權。
 
 
 ## <a name="step-2-set-the-audio-conferencing-provider-for-people-who-lead-or-schedule-meetings"></a>步驟2：為領導或排程會議的人員設定音訊會議提供者
@@ -92,7 +92,7 @@ ms.locfileid: "43776768"
 
 
 > [!NOTE]
-> 使用中國由世紀運營之 Office 365 的客戶尚不提供此功能。 若要深入瞭解，請參閱[瞭解由世紀運營的 Office 365](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE)。
+> 使用中國由世紀運營的 Microsoft 365 或 Office 365 的客戶尚不提供此功能。 若要深入瞭解，請參閱[瞭解由世紀運營的 Microsoft 365 或 Office 365](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE)。
 
 ## <a name="related-topics"></a>相關主題
 

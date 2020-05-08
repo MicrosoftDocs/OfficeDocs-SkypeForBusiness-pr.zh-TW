@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 摘要：商務用 Skype Server 2015 或商務用 Skype Online 系統管理員可以使用這些表格，瞭解哪些用戶端支援哪些功能。
-ms.openlocfilehash: 2da6ed53ea70e6a3065b283456ccf028fd04ca6f
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 4d23a23b133366401d784d4e403b283af1967162
+ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44041950"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44158920"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2015"></a>商務用 Skype Server 2015 的桌面用戶端功能比較
 
@@ -165,7 +165,7 @@ ms.locfileid: "44041950"
 此表格涵蓋語音服務支援相關的功能。
   
 > [!NOTE]
-> 商務用 skype 語音（電話語音）功能限制在特定商務用 Skype Online 訂閱者案中。 > 如需詳細資訊，請參閱[商務用 Skype Online 服務說明](https://technet.microsoft.com/library/jj822172.aspx)。
+> 商務用 skype 語音（電話語音）功能限制在特定商務用 Skype Online 訂閱者案中。 如需詳細資訊，請參閱[商務用 Skype Online 服務說明](https://technet.microsoft.com/library/jj822172.aspx)。
   
 | 功能/功能 | 商務用 Skype 2015 或2016用戶端 | Mac 版商務用 Skype | Lync 2013 用戶端 | Lync Windows Store 應用程式 | Lync 2010 | Lync 2010 Attendant | Lync Phone Edition | Mac 2011 的 Communicator | Lync for Mac 2011 |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
@@ -189,7 +189,8 @@ ms.locfileid: "44041950"
 |依位置路由  |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;||&#x2714;|
 |管理回應群組/小組通話群組 |&#x2714;||&#x2714;|||||||
 |應答自動語音應答呼叫 |&#x2714;||&#x2714;|||||||
- &#x2776; 商務用 Skype Online 中無法使用此功能。
+
+&#x2776; 商務用 Skype Online 中無法使用此功能。
   
 ## <a name="external-users-support"></a>外部使用者支援
 
@@ -281,7 +282,7 @@ ms.locfileid: "44041950"
 - IM 支援：透過一次點擊，將持續聊天室提升為商務用 Skype 會議
 - 外部使用者：與外部使用者進行兩方或多方通話
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 <a name="Types"> </a>
 

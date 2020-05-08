@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 56ea3f8b27a582a9cea282244a03be692d0781be
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 69f2ee37e63f83d6fc1d19ea733ff44ad23e7011
+ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905775"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44158990"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>啟用直接路由的依位置路由
 
@@ -38,7 +38,45 @@ ms.locfileid: "43905775"
 - 閘道設定
 - 通話原則
 
-## <a name="enable-location-based-routing-for-users"></a>針對使用者啟用以位置為基礎的路由
+您可以使用[Microsoft Team 管理中心](#using-the-microsoft-teams-admin-center)或[PowerShel](#using-powershell)l 來啟用以位置為基礎的路由。
+
+## <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 系統管理中心
+
+### <a name="enable-location-based-routing-for-users"></a>針對使用者啟用以位置為基礎的路由
+
+1. 建立語音路由策略，並將 PSTN 用途指派給原則。 當您將 PSTN 用途指派給原則時，請確定執行下列其中一項操作：
+
+    - 使用與在網站使用 PSTN 閘道的語音路由相關的 PSTN 用法。
+    - 使用不需要以位置為基礎路由限制之區域中的 PSTN 閘道的語音路由所關聯的 PSTN 用法。
+2. 將語音路由原則指派給需要強制執行路由限制的使用者。
+
+若要深入瞭解如何建立語音路由策略並指派給使用者，請參閱[在 Microsoft 團隊中管理語音路由原則](manage-voice-routing-policies.md)。
+
+### <a name="enable-location-based-routing-for-network-sites"></a>啟用網路網站的位置路由
+
+針對必須強制執行路由限制的網站，啟用以位置為基礎的路由。 若要這樣做，請在 Microsoft 團隊系統管理中心的左導覽中，移至 [**位置** > **網路拓撲**]，選取網路網站，按一下 [**編輯**]，然後開啟 [以**位置為基礎的路由**]。  
+
+若要深入瞭解，請參閱[管理您的網路拓撲](manage-your-network-topology.md)。
+
+### <a name="enable-location-based-routing-for-gateways"></a>啟用閘道的位置路由
+
+啟用將呼叫路由至 pstn 閘道，並將呼叫路由到 PSTN 的閘道，並將閘道所在的網路網站與網路網站建立關聯，以進行位置路由。 
+
+1. 在左側導覽中，移至 [**語音** > **直式路由**]，然後按一下 [ **SBCs** ] 索引標籤。
+2. 選取 SBC，然後按一下 [**編輯**]。 
+3. 在 [位置] 下的 [**路由及媒體優化**] 底下，開啟 [**啟用根據位置的路由**]。
+4. 指定閘道網站識別碼，然後設定 [略過模式]。
+5. 按一下 [儲存]****。
+
+### <a name="enable-location-based-routing-for-calling-policies"></a>啟用呼叫原則的位置路由
+
+若要針對特定的使用者強制執行以位置為基礎的路由，請設定使用者的通話原則，以避免 PSTN 免付費旁路。 若要這樣做，請在通話原則中開啟 [**防止收費略過**] 設定。
+
+若要深入瞭解，請參閱[在團隊中呼叫原則](teams-calling-policy.md)。
+
+## <a name="using-powershell"></a>使用 PowerShell
+
+### <a name="enable-location-based-routing-for-users"></a>針對使用者啟用以位置為基礎的路由
 
 1. 使用[CsOnlinePstnUsage](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstnusage?view=skype-ps) Cmdlet 來設定 PSTN 用法。 針對多種用途，請使用逗號來分隔每個用法。
 
@@ -76,7 +114,8 @@ ms.locfileid: "43905775"
     ```PowerShell
     Grant-CsOnlineVoiceRoutingPolicy -Identity <User> -Tenant <TenantId>
     ```
-## <a name="enable-location-based-routing-for-network-sites"></a>啟用網路網站的位置路由
+### <a name="enable-location-based-routing-for-network-sites"></a>啟用網路網站的位置路由
+
 1.  使用[CsTenantNetworkSite](https://docs.microsoft.com/powershell/module/skype/set-cstenantnetworksite?view=skype-ps) Cmdlet 來啟用以位置為基礎的路由，並將語音路由策略與您的網路網站進行關聯，而您必須強制執行路由限制。
     ```PowerShell
     Set-CsTenantNetworkSite -Identity <site ID> -EnableLocationBasedRouting <$true|$false>  
@@ -96,7 +135,8 @@ ms.locfileid: "43905775"
     |EnableLocationBasedRouting    |滿足    |滿足    |
     |網     |Subnet 1 （新德里）     |Subnet 2 （Hyderabad）     |
 
-## <a name="enable-location-based-routing-for-gateways"></a>啟用閘道的位置路由
+### <a name="enable-location-based-routing-for-gateways"></a>啟用閘道的位置路由
+
 1. 使用[CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway?view=skype-ps) Cmdlet 來為每個閘道或網路網站建立閘道配置。 
 
     ```PowerShell
@@ -148,7 +188,7 @@ ms.locfileid: "43905775"
     |PstnGateway：閘道 3 DEL-PBX    |    虛假     |     Site 1 （新德里）    |
     |PstnGateway：閘道 4 HYD-PBX    |    虛假     |    Site 2 （Hyderabad）     |
 
-## <a name="enable-location-based-routing-for-calling-policies"></a>啟用呼叫原則的位置路由
+### <a name="enable-location-based-routing-for-calling-policies"></a>啟用呼叫原則的位置路由
 
 若要針對特定的使用者強制執行以位置為基礎的路由，請設定使用者的語音原則來避免 PTSN 免付費旁路。 
 

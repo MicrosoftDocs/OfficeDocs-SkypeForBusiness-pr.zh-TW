@@ -21,12 +21,12 @@ ms.custom:
 - Setup
 - ms.lync.lac.TenantInMigration
 description: '瞭解您可以在商務用 Skype 系統管理中心中使用的內容，以及當您的服務遷移至另一個 Microsoft 資料中心時的其他功能。 '
-ms.openlocfilehash: f43f1cce6921d3e3cb6e40ad58898ece04d800df
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 7258467929663c42bfb6088202511a04613db383
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777618"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164492"
 ---
 # <a name="why-cant-i-use-the-skype-for-business-online-admin-center-right-now"></a>為什麼我無法立即使用商務用 Skype Online 系統管理中心？
 
@@ -42,7 +42,7 @@ ms.locfileid: "43777618"
 
 首先，讓我們來細分幾個字詞。
   
-- **資料中心**這是儲存 Microsoft 365 或 Office 365 中資訊的物理位置，例如您的檔案和電子郵件訊息。 如果您確實想要深入瞭解 Office 365 資料中心的內容，請參閱[本文。](https://www.microsoft.com/online/legal/v2/?docid=25)
+- **資料中心**這是儲存 Microsoft 365 或 Office 365 中資訊的物理位置，例如您的檔案和電子郵件訊息。 如果您確實想要深入瞭解 Microsoft 365 和 Office 365 資料中心的資料中心，請參閱[這篇文章](https://www.microsoft.com/online/legal/v2/?docid=25)。
     
 - **遷移**這相當於「移動」。 在這種情況下，這表示我們要將商務用 Skype Online 使用者和設定從一個資料中心移至另一個更靠近您的服務。
     
@@ -52,7 +52,7 @@ ms.locfileid: "43777618"
     
 這就是我們正在將所有商務用 Skype Online 使用者和服務設定移至更接近您的另一個位置的程式。 越接近越好。 好消息是在這小段時間之後，您的商務用 Skype Online 服務將會改善。
   
-![Office 365 中的服務遷移](../images/77502071-36fe-4833-a5ff-3b9ca7676542.png)
+![Microsoft 365 或 Office 365 中的服務遷移](../images/77502071-36fe-4833-a5ff-3b9ca7676542.png)
   
 ## <a name="what-skype-for-business-online-features-will-still-work"></a>哪些商務用 Skype Online 功能仍可以運作？
 
@@ -64,7 +64,7 @@ ms.locfileid: "43777618"
     
 ## <a name="can-i-get-other-work-done"></a>我可以完成其他工作嗎？
 
-確定. 我們正在遷移您的商務用 Skype Online 服務，您仍然可以使用 Office 365 中的其他系統管理中心（例如，Office 365 和 Exchange 系統管理中心）。 不過，除了商務用 Skype Online 系統管理中心之外，您將無法在遷移期間使用商務用 Skype Online 遠端 PowerShell Cmdlet。 
+確定. 當我們正在遷移您的商務用 Skype Online 服務時，您仍然可以使用 Microsoft 365 中的其他系統管理中心（例如，Microsoft 365 和 Exchange 系統管理中心）。 不過，除了商務用 Skype Online 系統管理中心之外，您將無法在遷移期間使用商務用 Skype Online 遠端 PowerShell Cmdlet。 
   
 ## <a name="related-topics"></a>相關主題
 [設定商務用 Skype Online](set-up-skype-for-business-online.md)

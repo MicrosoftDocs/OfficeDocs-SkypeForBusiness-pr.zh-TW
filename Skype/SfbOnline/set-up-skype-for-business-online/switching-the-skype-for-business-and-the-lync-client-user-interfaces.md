@@ -19,17 +19,17 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: '瞭解如何在 Office 365 中使用 PowerShell 在商務用 Skype 和 Lync 用戶端使用者介面之間切換 '
-ms.openlocfilehash: 02221d0edde6a37ec16a4820792d1d18756d4bb7
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: '瞭解如何使用 Microsoft 365 或 Office 365 中的 PowerShell 在商務用 Skype 和 Lync 用戶端使用者介面之間切換 '
+ms.openlocfilehash: 02542d11c7315c8f7e183fb78eebf210ead2df94
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706448"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164302"
 ---
 # <a name="switching-between-the-skype-for-business-and-the-lync-client-user-interfaces"></a>在商務用 Skype 和 Lync 用戶端使用者介面之間切換
 
-針對商務用 Skype Online 組織，您可以使用 Office 365 中的遠端 PowerShell，讓您的商務用 Skype 使用者使用商務用 Skype 用戶端或商務用 Skype （Lync）用戶端使用者介面。 預設設定是供使用者使用商務用 Skype 用戶端使用者介面。 如果您喜歡使用 Lync 用戶端體驗，您可以依照本主題稍後的步驟，管理第一次啟動用戶端行為，以顯示 Lync 使用者介面。
+針對商務用 Skype Online 組織，您可以在 Microsoft 365 或 Office 365 中使用遠端 PowerShell，讓您的商務用 Skype 使用者使用商務用 Skype 用戶端或商務用 Skype （Lync）用戶端使用者介面。 預設設定是供使用者使用商務用 Skype 用戶端使用者介面。 如果您喜歡使用 Lync 用戶端體驗，您可以依照本主題稍後的步驟，管理第一次啟動用戶端行為，以顯示 Lync 使用者介面。
   
 > [!NOTE]
 > Lync 2013 用戶端體驗不是商務用 Skype 2016 用戶端版本的選項。 在您嘗試將用戶端環境設定為使用 Lync 2013 用戶端之前，請先檢查用戶端版本，以確保它不是以數位16開頭;例如： x.x.x。 
@@ -167,9 +167,9 @@ Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -Policy
    
 若要開始使用 Windows PowerShell，請參閱以下主題：
   
-- [為什麼需要使用 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
+- [為什麼您需要使用 Microsoft 365 或 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-- [使用 Windows PowerShell 管理 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
+- [使用 Windows PowerShell 管理 Microsoft 365 或 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
     
 ## <a name="first-launch-client-behaviors"></a>第一次啟動用戶端行為
 

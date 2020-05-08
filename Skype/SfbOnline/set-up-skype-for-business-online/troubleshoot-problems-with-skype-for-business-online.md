@@ -18,13 +18,13 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: 瞭解如何在 Office 365 中修正商務用 Skype 的管理員和使用者問題。
-ms.openlocfilehash: 812df872775e31109df300e3bad1911de975c07e
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: 瞭解如何在 Microsoft 365 和 Office 365 中修正商務用 Skype 的管理員和使用者問題。
+ms.openlocfilehash: 79f4f9f2ac8d1cd2e6b65486089b212c076d272d
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777158"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164312"
 ---
 # <a name="troubleshoot-problems-with-skype-for-business-online"></a>疑難排解商務用 Skype Online 的相關問題
 
@@ -75,9 +75,9 @@ ms.locfileid: "43777158"
 ## <a name="still-need-help-contact-support"></a>仍需要協助嗎？ 聯絡支援人員。
 <a name="BK_SupportBridge_1"> </a>
 
-如果您是商務用 Office 365 的管理員，您就能免費存取我們的豐富支援專員，以取得售前、帳戶和帳單支援，以及協助解決技術問題。 您也可以代表您組織中的 Microsoft 365 和 Office 365 使用者，[與支援人員取得聯繫](https://go.microsoft.com/fwlink/p/?LinkID=518322)。
+如果您是商務用 Microsoft 365 應用程式的系統管理員，您就能免費存取我們的豐富支援專員，以取得售前、帳戶和帳單支援，以及協助解決技術問題。 您也可以代表您組織中的 Microsoft 365 和 Office 365 使用者，[與支援人員取得聯繫](https://go.microsoft.com/fwlink/p/?LinkID=518322)。
 
-- [從 Office 365 社區論壇取得協助](https://go.microsoft.com/fwlink/p/?LinkId=518605)
+- [從 Microsoft 365 和 Office 365 社區論壇取得協助](https://go.microsoft.com/fwlink/p/?LinkId=518605)
 
 - [系統管理員：撥打電話給支援人員](https://go.microsoft.com/fwlink/p/?LinkID=518322)
 
@@ -88,5 +88,3 @@ ms.locfileid: "43777158"
 [設定商務用 Skype Online](set-up-skype-for-business-online.md)
 
 [讓商務用 Skype 使用者新增 Skype 連絡人](let-skype-for-business-users-add-skype-contacts.md)
-
-

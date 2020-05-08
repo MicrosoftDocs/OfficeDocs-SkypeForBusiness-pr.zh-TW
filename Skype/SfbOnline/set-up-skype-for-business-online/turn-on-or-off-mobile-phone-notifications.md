@@ -20,25 +20,25 @@ ms.custom:
 - Setup
 - ms.lync.lac.OrgMobileNotification
 description: 瞭解如何開啟或關閉行動電話通知，讓您的使用者能夠接收傳入、語音信箱及未接的立即訊息的通知。
-ms.openlocfilehash: e84ae2ef4054d730cc56bae3bd545f04e966bab4
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: 8e209637ffe4c4053adc6dea44fb574257c330c3
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769546"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164106"
 ---
 # <a name="turn-on-or-off-mobile-phone-notifications"></a>開啟或關閉行動電話通知
 
-當您的組織**[在商務用 Office 365 中指派管理員角色](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** 時，您可以選擇您的商務用 Skype 使用者是否會在其行動電話或平板電腦上收到有關來電及未接立即訊息的通知。
+在您組織的**[商務用 Microsoft 365 應用程式中](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)**，您可以選擇您的商務用 Skype 使用者是否會在其行動電話或平板電腦上收到來電及未接立即訊息的相關通知。
   
 在 Android 和 Windows 手機上，商務用 Skype 通知會即時彈出。 如果您不是在手機或平板電腦上使用商務用 Skype，則在 Windows Phone、iPhone 和 iPad 裝置上使用推播通知，就會顯示通知。
   
 ## <a name="turn-push-notifications-off-for-all-the-windows-phone-or-apple-devices-in-your-organization"></a>針對貴組織中的所有 Windows Phone 或 Apple 裝置關閉推播通知
 <a name="__top"> </a>
 
-![](../images/sfb-logo-30x30.png) **使用商務用 skype 系統管理中心**顯示商務用 skype 標誌的圖示
+![商務用 Skype 標誌圖示](../images/sfb-logo-30x30.png) **使用商務用 Skype 系統管理中心**
 
-1. 登入 Office 365。
+1. 登入 Microsoft 365。
     
 2. 移至 [系統管理中心] > [**商務用 Skype**]。
     

@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Optimization
 description: 下列需求對於您針對您的組織所設定的所有商務用 Skype Online 功能而言，都是非常重要的。 我們知道你們中的部分都非常技術性-這份檔適用于您，但您不在其中。 如果您需要協助設定商務用 Skype Online，您應該閱讀這份檔，熟悉您需要考慮的事項。 您也可以在使用 Microsoft FastTrack Center、Microsoft 服務與帳戶小組，或使用 Microsoft 合作夥伴來瞭解如何符合這些需求，為您提供相關討論。
-ms.openlocfilehash: 5101b59c4e911f6fbad36ff2c601428a8fa25177
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: eb8cf69ee7e8ea82d71ea088f5866b03e048a0ac
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010946"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164752"
 ---
 # <a name="optimizing-your-network-for-skype-for-business-online"></a>針對商務用 Skype Online 優化您的網路
 
@@ -52,7 +52,7 @@ ms.locfileid: "42010946"
 
 透過 IP 的即時媒體質量（音訊、影片和應用程式共用）會大大影響端對端網路連線的品質。 若要獲得最佳的商務用 Skype Online 媒體質量，請務必確保貴公司的網路與商務用 Skype Online 之間有高品質的連線。 完成這項作業的最佳方式，就是根據網路容量來設定您的內部網路和雲端連線，以適應所有連線中的商務用 Skype Online 的峰值流量。
 
-使用[Microsoft 合作夥伴](https://partnercenter.microsoft.com/pcv/search)，您可以將各種 Office 365 應用程式連線到您的網路，包括雲端的商務用 skype Online，以及商務用 skype 的即時語音及視頻通訊功能，必須具備網路服務，才能支援這些 office 365 即時工作負載。 這包括具備足夠頻寬的網路，以傳送所需的流量，並且能夠支援服務品質（QoS）來為您的使用者供應商務類別體驗。
+使用[Microsoft 合作夥伴](https://partnercenter.microsoft.com/pcv/search)，您可以將各種 Microsoft 365 或 Office 365 應用程式連線到您的網路，包括雲端的商務用 skype Online，以及商務用 skype 的即時語音及視頻通訊功能，必須具備專門設定的網路服務，以支援這些 Microsoft 365 與 Office 365 即時工作負載。 這包括具備足夠頻寬的網路，以傳送所需的流量，並且能夠支援服務品質（QoS）來為您的使用者供應商務類別體驗。
 
 在這裡，還有其他資源可協助您成功規劃及部署商務用 Skype Online 服務和功能，並確保您的網路服務符合這些需求：
 
@@ -64,11 +64,11 @@ ms.locfileid: "42010946"
 
 ## <a name="implement-quality-of-service-qos-for-skype-for-business"></a>針對商務用 Skype 實施服務品質（QoS）
 
-移至商務用 Skype Online 前，您應該先瞭解網路的容量，才能處理音訊、影片和共用會話流量。 與其他 Office 365 服務一樣，Microsoft 也提供下載商務用[Skype 頻寬計算機](https://www.microsoft.com/download/details.aspx?id=19011)，用來判斷每個公司網站所需的網路流量。 您應該執行使用方式建模，包括建模即時通訊流量媒體流程，以及每個公司位置的商務用 Skype 流量、計算流量量，以及分析該流量對您的整個網路產生的影響。 完成之後，請對此資料進行分析，以提供您的網路需要改良的建議，以及建議佇列大小，以提供絕佳的使用者體驗。
+移至商務用 Skype Online 前，您應該先瞭解網路的容量，才能處理音訊、影片和共用會話流量。 與其他 Microsoft 365 和 Office 365 服務一樣，Microsoft 還提供下載商務用[Skype 頻寬計算機](https://www.microsoft.com/download/details.aspx?id=19011)，用來判斷每個公司網站所需的網路流量。 您應該執行使用方式建模，包括建模即時通訊流量媒體流程，以及每個公司位置的商務用 Skype 流量、計算流量量，以及分析該流量對您的整個網路產生的影響。 完成之後，請對此資料進行分析，以提供您的網路需要改良的建議，以及建議佇列大小，以提供絕佳的使用者體驗。
 
 商務用 Skype 即時流量對資料包遺失、延遲和抖動是敏感的，在擁擠的網路中通常會發生這種情況。 服務品質（QoS）-有時稱為服務類別-也必須部署在 managed 外部 Wan、managed 內部局域網及企業級的 WiFi 網路上。 這將協助您以正確的方式，將商務用 Skype 的即時流量（例如音訊與視頻）與本機網路和 WAN 上的其他非實際時間流量進行排序，為使用者帶來更佳的體驗。
 
-商務用 skype 音訊必須部署在 EF （加急轉寄-DSCP 46）佇列中，而商務用 Skype 影片必須部署在 AF41 （有保證的轉寄 DSCP 34）佇列中。 即便是對等與會議流量，也是如此，不論是否要部署 Office 365 中的電話系統或其他電話功能。
+商務用 skype 音訊必須部署在 EF （加急轉寄-DSCP 46）佇列中，而商務用 Skype 影片必須部署在 AF41 （有保證的轉寄 DSCP 34）佇列中。 即便是對等與會議流量，也是如此，不論 Microsoft 365 或 Office 365 中的電話系統或是否已部署其他電話服務功能。
 
 雖然現有的 QoS 原則可能是在 LAN 和 WAN 上的其他 IP 電話產品中，但商務用 Skype 可讓使用者在使用服務時，行動電話並從地點移至地點。 因此，QoS 原則必須在 LAN、WAN 和無線網路上標示，才能確定所有的商務用 Skype 流量都已在受管理的網路上劃分優先順序。
 
@@ -80,30 +80,30 @@ ms.locfileid: "42010946"
 
 ## <a name="bypass-proxies-and-wan-optimization-devices"></a>旁路 proxy 與 WAN 優化裝置
 
-所有 Office 365 （包括商務用 Skype Online）都經過加密，且通常無法由 proxy 裝置檢查。 出於這些原因，我們建議您針對所有 Office 365 網路流量（定義為您的使用者對[Office 365 url 和 IP 位址範圍](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)所做的連線），繞過 proxy 裝置。 由於 proxy 裝置可能會在即時商務用 Skype Online 媒體資料流程中引入延遲，我們強烈建議您至少跳過該流量的 proxy 裝置。
+所有 Microsoft 365 或 Office 365 （包括商務用 Skype Online）都經過加密，且通常無法由 proxy 裝置檢查。 出於這些原因，我們建議您針對所有 Microsoft 365 和 Office 365 網路流量（定義為您的使用者對[Office 365 url 和 IP 位址範圍](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)所做的連線），繞過 proxy 裝置。 由於 proxy 裝置可能會在即時商務用 Skype Online 媒體資料流程中引入延遲，我們強烈建議您至少跳過該流量的 proxy 裝置。
 
-Microsoft 建議使用 PAC 檔案排除 Office 365 Url，以將 Office 365 流量傳送到防火牆。
+Microsoft 建議使用 PAC 檔案排除 Microsoft 365 和 Office 365 Url，以將 Microsoft 365 和 Office 365 流量傳送到防火牆。
 
 以下是一些可協助您解決問題的資源：
 
-- [使用比較基準與效能歷程記錄的 Office 365 效能調整](https://support.office.com/article/1492cb94-bd62-43e6-b8d0-2a61ed88ebae)
+- [使用比較基準與效能歷程記錄的 Microsoft 365 或 Office 365 效能調整](https://support.office.com/article/1492cb94-bd62-43e6-b8d0-2a61ed88ebae)
 
-- [Office 365 的網路與遷移規劃](https://support.office.com/article/f5ee6c33-bcd7-4b0b-b0f8-dc1d9fb8d132)
+- [Microsoft 365 或 Office 365 的網路與遷移規劃](https://support.office.com/article/f5ee6c33-bcd7-4b0b-b0f8-dc1d9fb8d132)
 
 - [Office 365 Proxy Pac 發生器](https://gallery.technet.microsoft.com/Office-365-Proxy-Pac-60fb28f7)
 
-- [使用 WAN 優化控制器或與 Office 365 的流量/檢查裝置](https://aka.ms/kb2690045)
+- [使用 WAN 優化控制器或使用 Microsoft 365 或 Office 365 的流量/檢查裝置](https://aka.ms/kb2690045)
 
-- [使用 ExpressRoute for Office 365 進行路由](https://support.office.com/article/e1da26c6-2d39-4379-af6f-4da213218408)
+- [使用 ExpressRoute 針對 Microsoft 365 或 Office 365 進行路由](https://support.office.com/article/e1da26c6-2d39-4379-af6f-4da213218408)
 
 ## <a name="bypass-double-encryption"></a>略過雙加密
 
-若要為使用者提供最佳的音訊和視頻體驗，您必須執行一個解決方案，讓商務用 Skype 媒體（音訊和影片）無法透過虛擬私人網路（VPN）隧道來遍歷。 所有商務用 Skype 通訊都是以傳輸層安全性（TLS）加密，且媒體工作負載是以安全即時通訊協定（SRTP）加密。 信號是以 TLS 加密，媒體工作負載是使用 SRTP 進行加密。 透過 VPN 隧道傳送這項流量會增加額外的加密層級，以及用戶端與 Office 365 之間的其他網路躍點，這兩者都可能造成降級、資料包遺失及延遲。
+若要為使用者提供最佳的音訊和視頻體驗，您必須執行一個解決方案，讓商務用 Skype 媒體（音訊和影片）無法透過虛擬私人網路（VPN）隧道來遍歷。 所有商務用 Skype 通訊都是以傳輸層安全性（TLS）加密，且媒體工作負載是以安全即時通訊協定（SRTP）加密。 信號是以 TLS 加密，媒體工作負載是使用 SRTP 進行加密。 透過 VPN 隧道傳送這項流量會增加額外的加密層級，以及用戶端與 Microsoft 365 或 Office 365 之間的其他網路躍點，這兩者都可能造成降級、資料包遺失及延遲。
 
 其中一個選項可讓商務用 Skype 流量無法透過 VPN 隧道來分割隧道。 若要實現分割隧道，客戶必須向其 VPN 供應商諮詢如何在軟體中執行此操作的詳細資訊。
 
 > [!NOTE]
-> 這僅適用于商務用 Skype 媒體工作負載，不適用於其他 Office 365 服務。
+> 這僅適用于商務用 Skype 媒體工作負載，不適用於其他 Microsoft 365 或 Office 365 服務。
 
 其他資源：
 
@@ -115,7 +115,7 @@ Microsoft 建議使用 PAC 檔案排除 Office 365 Url，以將 Office 365 流�
 
 ## <a name="ensure-the-right-ports-and-protocols-are-open"></a>確定正確的埠和通訊協定已開啟
 
-客戶必須確保提供 O365 服務所需的 Url 和 IP 位址的可存取性。 如需所有 IP 位址的完整清單及商務用 Skype Online 的 Url，請參閱[Office 365 url 與 IP 位址範圍](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)。
+客戶必須確保適用于 Microsoft 365 或 Office 365 服務所需的 Url 和 IP 位址。 如需所有 IP 位址的完整清單及商務用 Skype Online 的 Url，請參閱[Office 365 url 與 IP 位址範圍](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)。
 
 商務用 Skype 用戶端使用各種不同的埠和通訊協定。 商務用 Skype 會話的網路流量方向與流程會根據互動（對等對等與多方）類型的不同而有所不同，這取決於內容共用和語音/影片的使用。 您必須審查並開啟埠和通訊協定清單，特別注意來源和目的地埠。 例如，音訊流量在用戶端只使用20個埠（50000-50019 TCP/UDP），但是目的地埠可能位於服務端的10K 埠範圍（50000-59999 TCP/UDP）中的任何位置。 這也包括在防火牆上開啟 TCP 443 和 UDP 3478。
 

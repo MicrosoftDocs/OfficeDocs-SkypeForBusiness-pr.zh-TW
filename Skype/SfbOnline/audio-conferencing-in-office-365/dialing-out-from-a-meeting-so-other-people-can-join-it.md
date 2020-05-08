@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 瞭解您需要的專案，以及會議召集人可以使用商務用 Skype 撥出給其他人的方式。
-ms.openlocfilehash: e69fa266b9e10091f0936baee45c140ba198661f
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c0bf11f3bd6a865bcd5dea107eedb8f2d5f5951f
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41982818"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164282"
 ---
 # <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>從商務用 Skype 會議撥出，讓其他人可以加入
 
@@ -39,7 +39,7 @@ ms.locfileid: "41982818"
     
 - 您在會議召集人已啟用音訊會議。
 
-若要透過撥出到貴組織的會議來新增其他參與者，必須在會議中至少有一個經過驗證的使用者（您的組織），才能允許新增其他參與者透過撥出。 
+若要透過撥出到貴組織的會議來新增其他參與者，必須在會議中至少有一個經過驗證的使用者（您的組織），才能允許透過撥出來新增其他參與者。 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -58,7 +58,7 @@ ms.locfileid: "41982818"
   
 ## <a name="want-to-know-more-about-audio-conferencing"></a>想要深入瞭解音訊會議嗎？
 
-[試用或購買 Office 365 的音訊會議](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[在 Microsoft 365 或 Office 365 中試用或購買音訊會議](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
     
 - [商務用 Skype 附加元件授權](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
     
