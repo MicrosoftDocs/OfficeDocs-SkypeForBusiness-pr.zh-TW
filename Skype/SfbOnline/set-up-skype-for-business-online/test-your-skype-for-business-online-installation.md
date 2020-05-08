@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: '瞭解如何設定測試帳戶和電腦，以及測試電話撥入式會議、線上功能（例如人員對人員通話、會議，以及登入和登出），以節省時間、支援電話並提高滿意度。 '
-ms.openlocfilehash: b8ebf8f82ad4706282d9feca5cdf21f27df90adb
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: fea4b04f51560b602687eff90ca6932ce5d1be8f
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692818"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164292"
 ---
 # <a name="test-your-skype-for-business-online-installation"></a>測試您的商務用 Skype Online 安裝
 
@@ -32,7 +32,7 @@ ms.locfileid: "41692818"
 
 以下是您需要的專案：
 
-- 至少三個 Office 365 帳戶（您至少還有兩個帳戶）。
+- 至少三個 Microsoft 365 或 Office 365 帳戶（您至少還有兩個帳戶）。
 
 - 每個測試帳戶的電腦。 您可以將它們設定成與典型的電腦在您的組織中。
 
@@ -51,7 +51,7 @@ ms.locfileid: "41692818"
 ## <a name="set-up-test-accounts"></a>設定測試帳戶
 <a name="__toc328126910"> </a>
 
-1. 移至 [**管理員** > **Office 365** > **使用者和群組**]，然後選取![[](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png)新增新增]，然後輸入所需的資訊。
+1. 移至 [**管理員** > **Microsoft 365** ] 或 [ **Office 365** > **使用者和群組**]，![然後](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png)選取 [新增]，然後輸入所需的資訊。
 
 2. 當您進入步驟4（電子郵件）時，請輸入您自己的電子郵件地址。 接著，您就會記錄一份新的使用者名稱和密碼。
 
@@ -62,7 +62,7 @@ ms.locfileid: "41692818"
 
 在每個測試電腦上：
 
-1. 移至 Office 365 首頁，並以其中一個測試帳戶的認證登入。
+1. 移至 Microsoft 365 或 Office 365 首頁，並使用其中一個測試帳戶的認證登入。
 
 2. 移至 [**設定**![設定]：更新您的設定檔、安裝軟體並將](../images/4b83e9cb-c7e4-46c8-b3d1-cfee017123ae.png)它連線至雲端，然後按一下 **[安裝軟體] 並將它連線至雲端**。
 
@@ -85,7 +85,7 @@ ms.locfileid: "41692818"
 
 3. 選取您的音訊會議提供者，輸入要求的資訊，然後按一下 [**儲存**]。
 
-|**音訊會議設定**|**說明**|
+|**音訊會議設定**|**描述**|
 |:-----|:-----|
 |**服務** <br/> |從清單中選擇您的音訊會議提供者。  <br/> |
 |**付費電話號碼**（必要） <br/> |您從音訊會議提供者接收到的電話號碼。 格式化您想要在商務用 Skype 會議邀請中顯示的數位。  <br/> |
@@ -114,7 +114,7 @@ ms.locfileid: "41692818"
 |[在商務用 Skype 中傳送 IM](https://support.office.com/article/b3aefb9b-dec8-4be8-a1ee-1eab12144d05) <br/> |[商務用 Skype] 交談視窗隨即出現，您可以輸入內容，而您會收到與您聯繫者的回復。  <br/> |
 |[在商務用 Skype 中傳送 IM](https://support.office.com/article/b3aefb9b-dec8-4be8-a1ee-1eab12144d05) <br/> |[商務用 Skype] 交談視窗隨即出現，您可以輸入內容，而交談中的每個人都有回應。  <br/> |
 |[使用姓氏或名字搜尋連絡人](https://support.office.live.com/article/29fa2061-f679-4e0d-902d-736b67774c8b#BKMK_ContactsFAQ) <br/> |開始輸入之後，搜尋結果就會開始顯示。  <br/> |
-|[Lync for Office 365 的常見問題](https://support.office.com/article/29fa2061-f679-4e0d-902d-736b67774c8b.aspx#BKMK_ContactsFAQ) <br/> |您所新增的連絡人會出現在您所選擇的 [連絡人] 群組中。  <br/> |
+|[Lync for Microsoft 365 的常見問題](https://support.office.com/article/29fa2061-f679-4e0d-902d-736b67774c8b.aspx#BKMK_ContactsFAQ) <br/> |您所新增的連絡人會出現在您所選擇的 [連絡人] 群組中。  <br/> |
 |[在 Lync 中變更您的目前狀態](https://support.office.com/article/ef8998cc-7801-4b62-81ba-9a2c1630f9e5) <br/> |新的目前狀態會反映在其他人的連絡人清單中。  <br/> |
 |[使用連絡人卡片](https://support.office.com/article/19870880-FC90-46B0-9C60-C398518E9FBC) <br/> |該人員的連絡人卡片會出現在其名稱附近。  <br/> |
 

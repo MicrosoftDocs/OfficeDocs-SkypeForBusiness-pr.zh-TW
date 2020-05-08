@@ -22,16 +22,16 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 瞭解如何將 Microsoft 電話撥入式會議提供者指派給商務用 Skype。
-ms.openlocfilehash: f0c3d1d667847e080b47f31bb1032ff4b8ac980d
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 8ce128c2fa19668ed93c6ad387feecbee2e00a8d
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695758"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164514"
 ---
 # <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>將 Microsoft 指派為音訊會議提供者
 
-若要在 Office 365 中搭配商務用 Skype 和 Microsoft 團隊使用音訊會議，貴組織中的使用者必須具備指派音訊會議授權。 請參閱[在 Office 365 中試用或購買音訊會議](try-or-purchase-audio-conferencing-in-office-365.md)，以取得授權及成本的詳細資訊。
+若要在 Microsoft 365 或 Office 365 中使用商務用 Skype 和 Microsoft 團隊的音訊會議，貴組織中的使用者必須具備指派音訊會議授權。 請參閱[在 Microsoft 365 或 Office 365 中試用或購買音訊會議](try-or-purchase-audio-conferencing-in-office-365.md)，以取得授權及成本的詳細資訊。
 
 Microsoft 音訊會議提供撥入式電話號碼、Pin 及會議 Id，可供會議參與者加入貴組織的會議。 您只需將 Microsoft 作為音訊會議提供者指派給要排程或引導商務用 Skype 或 Microsoft 團隊會議的人員。
 
@@ -40,7 +40,7 @@ Microsoft 音訊會議提供撥入式電話號碼、Pin 及會議 Id，可供會
   
 ## <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>將 Microsoft 指派為音訊會議提供者
 
-### <a name="an-icon-showing-the-skype-for-business-logoimagessfb-logo-30x30png-using-the-skype-for-business-admin-center"></a>![顯示商務用 Skype 標誌的圖示](../images/sfb-logo-30x30.png) 使用商務用 Skype 系統管理中心
+### <a name="an-icon-showing-the-skype-for-business-logo-using-the-skype-for-business-admin-center"></a>![顯示商務用 Skype 標誌的圖示](../images/sfb-logo-30x30.png) 使用商務用 Skype 系統管理中心
 
 1. 移至**Microsoft [團隊管理中心** > ] 的**舊版入口網站**。
     
@@ -53,7 +53,7 @@ Microsoft 音訊會議提供撥入式電話號碼、Pin 及會議 Id，可供會
     > [!NOTE]
     > 由於您是使用 Microsoft 作為音訊會議提供者，而且有多個電話號碼，因此您可以使用 [**預設收費號碼**] 下拉式清單來選取使用者的預設音訊號碼。
   
-5. 按一下 [**儲存**]。
+5. 按一下 [儲存]****。
 
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -196,6 +196,6 @@ Script.ps1 -CsvFile <Path of the csv file>
 如需使用 Windows PowerShell 的詳細資訊，請參閱[使用 Windows PowerShell 來執行常見的商務用 Skype Online 管理工作](https://go.microsoft.com/fwlink/?LinkId=525038)。
   
 ## <a name="related-topics"></a>相關主題
-[在 Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[在 Microsoft 365 或 Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 中試用或購買音訊會議[設定商務用 Skype Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
 

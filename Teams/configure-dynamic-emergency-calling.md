@@ -17,12 +17,12 @@ description: 瞭解如何設定 Microsoft 通話方案和電話系統直接路�
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 92862eb960722ac2becbe216cdec5281282106b5
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: b76f8605aa1151911c26e0724db161b3a497fcf6
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905885"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164552"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>規劃和設定動態緊急電話 
 
@@ -135,7 +135,7 @@ Azure 對應是用來進行位置服務的。  當您使用 Microsoft 團隊系�
 
 ## <a name="configure-location-information-service"></a>設定位置資訊服務
 
-團隊用戶端從與不同網路識別碼相關聯的位置取得緊急位址。 同時支援子網和無線存取點（WAPs）。 （乙太網上交換器/埠的支援已擱置。）
+團隊用戶端從與不同網路識別碼相關聯的位置取得緊急位址。 同時支援子網和無線存取點（WAPs）。 如果找到多個位置，WAP 會優先于子網。 （乙太網上交換器/埠的支援已擱置。）
 
 若要讓用戶端取得位置，您必須使用下列 Cmdlet 來填入位置資訊服務（.LIS）與網路識別碼及緊急位置：  
 

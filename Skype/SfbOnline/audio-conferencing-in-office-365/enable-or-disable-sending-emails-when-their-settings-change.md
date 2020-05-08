@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '瞭解如何在設定例如 pin 變更或預設會議號碼變更時，啟用或停用 Skype 將電子郵件傳送給使用者。 '
-ms.openlocfilehash: bfdbe1c6c9380b12086ce667c588d8b974438ee5
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 681a02fd410c008f46ad7906c5963660df668a89
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707218"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164262"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-skype-for-business-online"></a>在商務用 Skype Online 中的音訊會議設定變更時啟用或停用傳送電子郵件
 
@@ -35,7 +35,7 @@ ms.locfileid: "41707218"
 
 當使用者啟用音訊會議時，系統會自動透過電子郵件收到通知。 不過，您可能會想要減少傳送到商務用 Skype 使用者的電子郵件數目。 在這種情況下，您可以停用傳送電子郵件。
   
-如果您停用傳送電子郵件，語音會議電子郵件不會傳送給您的使用者，包括使用者在音訊會議中啟用或停用的電子郵件、其 PIN 重設時，以及會議 ID 和預設會議電話號碼的變更.
+如果您停用傳送電子郵件，語音會議電子郵件不會傳送給您的使用者，包括使用者在音訊會議中啟用或停用的電子郵件、其 PIN 重設時，以及會議 ID 和預設會議電話號碼的變更。
   
 以下是在啟用音訊會議時傳送給使用者的電子郵件範例：
   
@@ -63,13 +63,13 @@ ms.locfileid: "41707218"
 您可以使用商務用 Skype 系統管理中心或 Windows PowerShell 來啟用或停用傳送給使用者的電子郵件。
 
  
-![](../images/sfb-logo-30x30.png) **使用商務用 skype 系統管理中心**顯示商務用 skype 標誌的圖示
+![商務用 Skype 標誌圖示](../images/sfb-logo-30x30.png) **使用商務用 Skype 系統管理中心**
     
 1. 在**商務用 Skype 系統管理中心**的左導覽中，按一下 [**音訊會議**]。
     
 2. 在 [ **Microsoft 橋接器設定**] 頁面上，選取或清除 [**自動傳送電子郵件給使用者] （如果他們的音訊會議設定已變更**）。
     
-3. 按一下 [**儲存**]。
+3. 按一下 [儲存]****。
     
     > [!TIP]
     > 您也可以移至 [**音訊會議** > ]**使用者**、選取使用者，然後按一下 [透過**電子郵件傳送會議資訊**]，將電子郵件傳送給具有音訊會議設定的使用者。  如果您這樣做，就會傳送一封電子郵件，只包含會議 ID 與會議電話號碼，但不包含 PIN。  如需詳細資訊，請參閱[傳送電子郵件給使用者的音訊會議資訊](send-an-email-to-a-user-with-their-dial-in-information.md)。
@@ -105,11 +105,11 @@ ms.locfileid: "41707218"
     
   - [CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=715760)
     
-- Windows PowerShell 全部說明如何管理使用者，以及允許或不允許的使用者執行。 在 Windows PowerShell 中，您可以使用單一管理點來管理 Office 365，以便在有多項工作需要執行時簡化日常作業。 若要開始使用 Windows PowerShell，請參閱以下主題：
+- Windows PowerShell 全部說明如何管理使用者，以及允許或不允許的使用者執行。 在 Windows PowerShell 中，您可以使用單一管理點來管理 Microsoft 365 或 Office 365，以便在您有多個工作執行時，簡化日常作業。 若要開始使用 Windows PowerShell，請參閱以下主題：
     
-  - [為什麼需要使用 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [為什麼您需要使用 Microsoft 365 或 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [使用 Windows PowerShell 管理 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [使用 Windows PowerShell 管理 Microsoft 365 或 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
     
 - Windows PowerShell 的速度、簡潔性和生產率都有許多優點，只是使用 Microsoft 365 系統管理中心，例如當您在一次為多位使用者進行設定變更時。 請參閱下列主題，瞭解這些優點： 
     

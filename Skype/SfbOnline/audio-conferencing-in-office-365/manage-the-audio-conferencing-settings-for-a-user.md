@@ -20,20 +20,20 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: '做為 Office 365 系統管理員，您可以針對組織中的個別使用者編輯商務用 Skype Online 音訊會議設定，例如提供者、預設的付費或免付費電話號碼、會議 ID 或 PIN 等。 '
-ms.openlocfilehash: fe6814bee547e80d6bcb6fc367d055dce13d513d
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: '做為 Microsoft 365 或 Office 365 系統管理員，您可以針對組織中的個別使用者編輯商務用 Skype Online 音訊會議設定，例如提供者、預設的付費或免付費電話號碼、會議 ID 或 PIN 等。 '
+ms.openlocfilehash: 2df6b9bfe7b1b9c161730b29e85dd1ed7335b0cd
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777988"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164132"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-skype-for-business-online"></a>在商務用 Skype Online 中管理使用者的音訊會議設定
 
 > [!Note]
 > 如果您想要在 Microsoft 團隊中管理使用者設定，請參閱[在 Microsoft 團隊中管理使用者的音訊會議設定](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-a-user-in-teams)。
 
-做為 Office 365 系統管理員，您可以針對組織中的個別使用者編輯音訊會議設定，例如提供者、預設的付費或免付費電話號碼、會議 ID 或 PIN 等。 如果您想要編輯貴組織的設定，請參閱[管理組織的音訊會議設定](manage-the-audio-conferencing-settings-for-my-organization.md)。
+做為 Microsoft 365 或 Office 365 系統管理員，您可以針對組織中的個別使用者編輯音訊會議設定，例如提供者、預設的付費或免付費電話號碼、會議 ID 或 PIN 等。 如果您想要編輯貴組織的設定，請參閱[管理組織的音訊會議設定](manage-the-audio-conferencing-settings-for-my-organization.md)。
 
  
 1. 使用您的公司或學校帳戶登入。

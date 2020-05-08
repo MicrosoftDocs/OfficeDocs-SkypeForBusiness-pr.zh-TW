@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '若要將電話撥入式會議授權及會議 ID 指派給使用者和許多其他電話撥入式會議設定，請參閱商務用 Skype Online 步驟。 '
-ms.openlocfilehash: 9567c8234c0ef7a5b65c5894666747eab3cff7a5
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: aa8e9cbaf063ebf1780e3f8ce45b7bd54ced474f
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777978"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164142"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-skype-for-business-online"></a>在商務用 Skype Online 中管理我組織的音訊會議設定
 
@@ -88,7 +88,7 @@ ms.locfileid: "43777978"
 
 ## <a name="change-the-senders-contact-information-in-email-messages-sent-to-users"></a>變更傳送給使用者的電子郵件訊息中的寄件者連絡人資訊
 
-您可以對自動傳送給使用者的電子郵件進行變更，包括實際的電子郵件地址和寄件者連絡人資訊的顯示名稱。 根據預設，電子郵件的寄件者是 Office 365，但是您可以使用 Windows PowerShell 和[CsOnlineDialInConferencingTenantSettings](https://docs.microsoft.com/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps) Cmdlet 來變更電子郵件地址和顯示名稱。 若要對傳送電子郵件給使用者的電子郵件地址進行變更，您必須：
+您可以對自動傳送給使用者的電子郵件進行變更，包括實際的電子郵件地址和寄件者連絡人資訊的顯示名稱。 根據預設，電子郵件的寄件者為 Microsoft 365 或 Office 365，但是您可以使用 Windows PowerShell 和[CsOnlineDialInConferencingTenantSettings](https://docs.microsoft.com/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps) Cmdlet 來變更電子郵件地址和顯示名稱。 若要對傳送電子郵件給使用者的電子郵件地址進行變更，您必須：
 
 - 在_SendEmailFromAddress_參數中輸入電子郵件地址。
 
@@ -243,10 +243,10 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
 1. 使用您的公司或學校帳戶登入。
 
 2. 移至 [系統管理中心] > [**商務用 Skype**]。
-
+ 
 3. 在**商務用 Skype 系統管理中心**的左導覽中，移至 [**音訊會議** > **Microsoft 橋接器**]。 您可以在這裡進行下列動作：
 
-   - 查看由 Office 365 設定用來進行音訊會議的電話號碼。
+   - 查看要用於音訊會議的 Microsoft 365 或 Office 365 所設定的電話號碼。
 
    - 查看音訊會議自動語音應答將使用的位置，以及主要和次要語言。
 
@@ -315,11 +315,11 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
   ```
 
   ## <a name="want-to-know-more-about-windows-powershell"></a>想要深入瞭解 Windows PowerShell
-- Windows PowerShell 全部說明如何管理使用者，以及允許或不允許的使用者執行。 在 Windows PowerShell 中，您可以使用單一管理點來管理 Office 365，以便在有多項工作需要執行時簡化日常作業。 若要開始使用 Windows PowerShell，請參閱以下主題：
+- Windows PowerShell 全部說明如何管理使用者，以及允許或不允許的使用者執行。 在 Windows PowerShell 中，您可以使用單一管理點來管理 Microsoft 365 或 Office 365，以便在您有多個工作執行時，簡化日常作業。 若要開始使用 Windows PowerShell，請參閱以下主題：
 
-  - [為什麼需要使用 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [為什麼您需要使用 Microsoft 365 或 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
 
-  - [使用 Windows PowerShell 管理 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [使用 Windows PowerShell 管理 Microsoft 365 或 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
 
 - Windows PowerShell 的速度、簡潔性及生產率都有許多優點，只是使用系統管理中心，例如當您在一次為多位使用者進行設定變更時。 請參閱下列主題，瞭解這些優點：
 

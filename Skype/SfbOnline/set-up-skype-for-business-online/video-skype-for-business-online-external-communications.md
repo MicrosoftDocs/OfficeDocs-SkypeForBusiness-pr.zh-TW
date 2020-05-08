@@ -19,18 +19,18 @@ f1.keywords:
 ms.custom:
 - Setup
 description: '瞭解如何為您的使用者設定商務用 Skype Online 外部通訊，以便與外部 Skype 連絡人進行通訊。 '
-ms.openlocfilehash: ec10b29c87d4dcab00bb2e680c0ed594aa9de2d9
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 52b43ea21f9f0aa56b923355cfc936f334f1607f
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010736"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164482"
 ---
 # <a name="video-skype-for-business-online-external-communications"></a>視訊：商務用 Skype Online 外部通訊
 
 設定商務用 Skype Online 外部通訊，讓您的使用者可以與外部商務用 Skype、Lync 與 Skype 連絡人進行通訊。
 
- **物件：** Office 365 系統管理員
+ **物件：** Microsoft 365 和 Office 365 系統管理員
 
 ***
 > [!VIDEO https://videoplayercdn.osi.office.net/hub/?csid=ux-cms-en-us-msoffice&uuid=492278f0-6912-47ba-a1d1-00040061cf44&AutoPlayVideo=false]

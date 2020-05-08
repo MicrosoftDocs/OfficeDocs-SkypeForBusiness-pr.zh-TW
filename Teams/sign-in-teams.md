@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: ''
-description: 了解新式驗證如何運作、如何切換帳戶，以及如何疑難排解新式驗證。
+description: 了解新式驗證如何運作、如何切換帳戶，以及如何疑難排解新式驗證。 包含如何在登入時告訴 Teams 忽略預先填入的使用者名稱 (UPN)。
 ms.custom: seo-marvel-apr2020
 localization_priority: Priority
 ms.collection:
@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 344cf0d38926af200f4d92b664761d2c8868df57
-ms.sourcegitcommit: c3f44fccdbd9178d30b52bb0db6f6d31a6dd174b
+ms.openlocfilehash: f9b11fca87ce8cda8bc5d61198eb640fecd5b787
+ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
 ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 05/07/2020
-ms.locfileid: "44139136"
+ms.locfileid: "44158820"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>使用新式驗證登入 Microsoft Teams
 ==========================
@@ -46,8 +46,6 @@ Microsoft Teams 使用新式驗證讓登入體驗更加簡單可靠。 若要瞭
   Computer\HKEY_CURRENT_USER\Software\Microsoft\Office\Teams<br/>
   SkipUpnPrefill(REG_DWORD)<br/>
   0x00000001 (1)
-
-  如果執行 Outlook 2013 或2016，請參閱 [更新以跳過 Outlook 2016 和 2013 中使用者主要名稱 (UPN) 查閱](https://support.microsoft.com/help/4022165/update-to-skip-user-principal-name-upn-lookup-in-outlook-2016-and-2013)
 
     > [!NOTE]
     > 針對以 ".local" 或 ".corp" 結尾的使用者名稱，略過或忽略使用者名稱預先填入的功能依預設會開啟，因此您不需要設定登錄機碼就能關閉此功能。 

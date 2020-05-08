@@ -21,12 +21,12 @@ ms.custom:
 - ms.lync.lac.MeetingInvitation
 - ms.teamsadmincenter.meetingsettings.invitationurls
 description: '使用圖形標誌、說明與合法 Url 以及頁尾文字自訂 Skype 會議邀請。 '
-ms.openlocfilehash: 41ed423349ff34f27a164b4d9c652571241b1afb
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 2f4622a964037feab0c06e731606aded7a9fb758
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776228"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164332"
 ---
 # <a name="customize-meeting-invitations"></a>自訂會議邀請
 
@@ -69,14 +69,14 @@ ms.locfileid: "43776228"
    
 5. 選擇 [**儲存**]。
     
-6. 等候一小時或如此，即可在所有 Office 365 服務上填入變更。 接著，移至 Outlook 並排程 Skype 會議，以查看您的變更看起來。 
+6. 等候一小時或如此，即可在所有 Microsoft 365 或 Office 365 服務上填入所做的變更。 接著，移至 Outlook 並排程 Skype 會議，以查看您的變更看起來。 
     
     ![以下是自訂邀請看起來的樣子（沒有圖形）](../images/ebb5c03c-c23d-4da7-97f1-9b13e26a6cf8.png)
   
 ## <a name="related-topics"></a>相關主題
 <a name="__top"> </a>
 
-[試用或購買 Office 365 的音訊會議](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[在 Microsoft 365 或 Office 365 中試用或購買音訊會議](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 
   
  

@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: 使用適用於 Teams 的建議程式 (公開預覽) 協助您規劃和完成您的 Microsoft Teams 部署。
-ms.openlocfilehash: 1357829330f4d2ef7ad95e0eda1cebcbe8492756
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 79273c0c0d96bf5f7c52399310bffce433928e2b
+ms.sourcegitcommit: c3f44fccdbd9178d30b52bb0db6f6d31a6dd174b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042910"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44139196"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>使用 Advisor for Teams 協助您推出 Microsoft Teams
 
@@ -65,6 +65,12 @@ Advisor for Teams 是 [Teams 系統管理中心](https://admin.teams.microsoft.c
     - Planner 計劃，包括採用工作
     - Forms 使用者問卷
     - Advisor for Teams Bot
+1. 商務用 Skype 升級
+    - 租用戶評估
+    - Planner 計劃，包括採用工作
+    - Forms 使用者問卷
+    - Advisor for Teams Bot
+    - 專為目前正在使用商務用 Skype Online 或商務用 Skype 內部部署環境的客戶設計，商務用 Skype 升級計畫可幫助您擺脫升級過程中的猜測。 該計劃將利用一個行之有效的成功框架來實作變更，無論您是剛開始使用 Teams、已經將 Teams與商務用 Skype 搭配使用還是準備進行升級，它都將指導您逐步進行操作。 該計劃還將提供您[線上指南和最佳做法](https://aka.ms/SkypeToTeams)、[可下載資產](https://aka.ms/UpgradeSuccessKit)、[即時一對多規劃研討會](https://aka.ms/UpgradeWorkshops)以及其他資源，以支援您成功升級。
 
 我們建議您從交談、團隊、頻道和應用程式的方案開始。 您完成該工作負載的部署後，請返回 Advisor for Teams，按一下 **[新增頻道]** 以開始下一項工作負載。
 
@@ -108,6 +114,9 @@ Advisor for Teams 是 [Teams 系統管理中心](https://admin.teams.microsoft.c
 |音訊會議授權    |您的音訊會議授權是否為有效訂閱。 如果您要部署音訊會議橋接器，這是必要條件。 查詢 Microsoft Graph，查看您是否具有音訊會議授權 (至少有一個授權可供指派)。如需詳細資訊，請參閱 [Teams 附加元件授權](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。    |
 |Stream 授權     |您是否有使用 Microsoft Stream 授權的有效訂閱。 如果您要開啟會議錄製，這是必要條件。 查詢 Microsoft Graph，查看您是否具有 Microsoft Stream 授權 (至少有一個授權可供指派)。 如需有關 Stream 和開啟方式的詳細資訊，請參閱 [Teams 雲端會議錄製](cloud-recording.md)。
 
+### <a name="assessments-for-skype-for-business-upgrade"></a>商務用 Skype 升級評估
+除了[所有工作負載的評估測試](#assessment-tests-for-all-workloads)之外，商務用 Skype 升級也包含評估會議與會議方案。
+
 ### <a name="advisor-for-teams-bot"></a>Advisor for Teams Bot
 
 Advisor for Teams 建立部署團隊後，Advisor Bot 會在 [一般] 頻道傳遞下列訊息：
@@ -148,6 +157,9 @@ Advisor for Teams 建立部署團隊後，Advisor Bot 會在 [一般] 頻道傳�
 ### <a name="can-i-modify-the-forms-survey"></a>我可以修改 Forms 問卷嗎？
 可以，Advisor for Teams 建立部署團隊後，您可以視需要修改 Forms 問卷。
 
+### <a name="are-there-any-differences-between-advisor-for-teams-in-gcc"></a>在 GCC 中的 Advisor for Teams 是否有任何不同？
+有的，使用者問卷 Forms 已建立，但尚未固定在計畫頻道中，因為目前 GCC 尚不支援 Teams Forms 應用程式。
+
 ### <a name="what-information-is-advisor-for-teams-collecting-about-my-organization"></a>Advisor for Teams 會收集有關我組織的哪些資訊？
 Advisor for Teams 會尋求您的同意才收集非 EUII (使用者識別資訊)。 這些資訊以遙測形式進行收集，將有關 Advisor for Teams 成功導入後的成果以及需要改善之處的回饋意見提供給 Microsoft。 相同的資料也會用來找出 Microsoft 可以主動與您組織合作的機會，協助您進行部署。
 
@@ -170,4 +182,4 @@ Advisor for Teams 會尋求您的同意才收集非 EUII (使用者識別資訊)
 [在 Teams 中組織團隊的最佳做法](best-practices-organizing.md)
 
 [用於授權的產品名稱和服務方案識別碼](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference
-) 
+)

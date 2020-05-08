@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: '了解商務用 Skype Online 登入錯誤的常見原因，並對這些問題進行疑難排解。 '
-ms.openlocfilehash: 881bb6e41b4b22fe71caeb701ac10d1696147d4b
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: ae5c2e5eb85ea7afb3033e7e6b769a607ab86601
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777148"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164322"
 ---
 # <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>系統管理員適用的商務用 Skype 登入錯誤問題疑難排解
 
@@ -128,7 +128,7 @@ ms.locfileid: "43777148"
 
   - **值/目的地**：sipdir.online.lync.com
 
-如需詳細資訊，請參閱 Microsoft 知識庫文章 2566790：[對 Office 365 中的商務用 Skype Online DNS 設定問題進行疑難排解](https://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2566790)。
+如需詳細資訊，請參閱 Microsoft 知識庫文章 2566790：[疑難排解 Microsoft 365 或 Office 365 中的商務用 Skype Online DNS 設定問題](https://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2566790)。
 
 ### <a name="install-a-third-party-ssl-certificate-on-your-adfs-server"></a>在您的 ADFS 伺服器上安裝第三方 SSL 憑證
 <a name="verify-upn-and"> </a>
