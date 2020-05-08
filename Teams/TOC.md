@@ -433,6 +433,7 @@
 #### [加值和管理通訊點數](add-funds-and-manage-communications-credits.md)
 
 ### [Microsoft Teams 通話流程](microsoft-teams-online-call-flows.md)
+### [管理語音路由原則](manage-voice-routing-policies.md)
 
 ## 適用於大型組織的實用指引
 ### [教學課程：在 Teams 中通話](Tutorial-calling-in-teams.yml)
