@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 您可以在此表格中尋找有關在荷蘭 Microsoft 團隊中取得與管理電話號碼的相關資訊。
-ms.openlocfilehash: 77e6748873d921a2e25fb10a73010da4dfdc6fc7
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 7e814786f8e381e59d4c56af815cefff1490dac1
+ms.sourcegitcommit: 42b9b921d28cb02f537f0598653835193eb3f42f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706958"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44170664"
 ---
 # <a name="phone-number-management-for-the-netherlands"></a>荷蘭的電話號碼管理
 
@@ -37,7 +37,7 @@ ms.locfileid: "41706958"
 |**您想要做什麼？**|**下載正確的表單**|
 |:-----|:-----|
 |取得 Microsoft 團隊系統管理中心未列出的新使用者和服務電話號碼。   <br/> | 下載此表單。</br> [荷蘭（v. 4.0）的新電話號碼要求（nl-nl&platform-nl-nl&platform）](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-netherlands-(v.4.0)-(nl-nl).pdf?raw=true) <br/> [荷蘭（v. 4.0）的新電話號碼要求（zh-cn）](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-netherlands-(v.4.0)-(en-us).pdf?raw=true)  <br/>  填寫並[傳送給我們](mailto:ptneu@microsoft.com)。  <br/> |
-|取得傳送給我們的電話號碼。  <br/> |下載下列其中一個表單： <br/> [荷蘭（地理數位）（nl-nl&platform-nl-nl&platform）的授權函式（LOA）](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-netherlands-(geographic-numbers)-(v.2.0)-(nl-nl).pdf?raw=true) <br/> [荷蘭（非地理數位）（nl-nl&platform-nl-nl&platform）的授權函式（LOA）](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-netherlands-(non-geographic-numbers)-(v.2.0)-(nl-nl).pdf?raw=true) <br/> <br/>  填寫並[傳送給我們](mailto:ptneu@microsoft.com)。  <br/> |
+|取得傳送給我們的電話號碼。  <br/> |下載下列其中一個表單： <br/> [荷蘭（地理數位）（nl-nl&platform-nl-nl&platform）的授權函式（LOA）](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-netherlands-(geographic-numbers)-(v.2.0)-(nl-nl).pdf?raw=true) <br/> [荷蘭（非地理數位）（nl-nl&platform-nl-nl&platform）的授權函式（LOA）](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-Netherlands-(non-geographic-numbers)-(v.2.0)-(nl-nl).pdf?raw=true) <br/> <br/>  填寫並[傳送給我們](mailto:ptneu@microsoft.com)。  <br/> |
 |在國內電話目錄中發佈/取消發佈電話號碼。  <br/> |[傳送](mailto:ptneu@microsoft.com)您想要發佈/取消發佈的電話號碼清單給我們。 <br/> |
 |將使用者的號碼變更為服務號碼。  <br/> |[向我們傳送](mailto:ptneu@microsoft.com)您想要轉換成服務號碼的使用者號碼清單。 <br/> |
 
