@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 28a77271c66dc473dfb774db2c02ca80bc842587
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: 73193c1979e2db3632f84e762b9c716ab46a7e56
+ms.sourcegitcommit: b5c747e2daad6dd3c1d91f4e61ae6f26db5c77f0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43950968"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44064418"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和規格
 
@@ -110,7 +110,7 @@ Teams 的聊天是在 Microsoft Exchange 後端執行，因此 Exchange 的傳�
 
 |功能     | 最大限制 |
 |------------|---------------|
-|一個會議中的人員數目  | 250    |
+|一場會議中的人數 (可以交談和通話)  | 250    |
 |交談視訊或音訊通話中的人員數目 | 20 |
 |PowerPoint 檔案大小的最大值 | 2 GB|
 |Teams 會保留[會議記錄](cloud-recording.md)，該記錄不會上傳至 Microsoft Stream，但可供本機下載 | 20 天 |
@@ -131,7 +131,9 @@ Teams 的聊天是在 Microsoft Exchange 後端執行，因此 Exchange 的傳�
 |------------|---------------|
 |對象數目 | 10,000 位出席者 |
 |活動持續時間 | 4 小時 |
-|一個 Office 365 組織的並行即時活動 | 15 |
+|一個 Office 365 組織中執行的並行即時活動 <sup>1</sup> | 15 |
+
+<sup>1</sup> 您可根據自己的需求排定許多即時活動，但一次只能執行 15 個。 製作人一加入即時活動，就表示該活動執行中。 嘗試加入第 16 個即時活動的製作人會收到錯誤。
 
 如需更多有關即時活動以及 Teams 即時活動與 Skype 會議廣播的比較詳細資訊，請參閱 [Teams 即時活動和 Skype 會議廣播](teams-live-events/plan-for-teams-live-events.md#teams-live-events-and-skype-meeting-broadcast) (英文)。
 

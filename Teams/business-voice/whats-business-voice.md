@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Microsoft 365 商務語音概觀，以及它如何協助中小企業更有效率地通訊。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bffce01704402aac8fea90aee92d6bd854c5874f
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 828d05e68e84145868f4e58156fbe86ec8f14912
+ms.sourcegitcommit: 42b9b921d28cb02f537f0598653835193eb3f42f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780792"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44170674"
 ---
 # <a name="what-is-microsoft-365-business-voice"></a>什麼是 Microsoft 365 商務語音？
 
@@ -32,15 +32,19 @@ Microsoft 365 商務語音可讓中小型組織輕鬆將 Microsoft Teams 轉變�
 
 如果您組織的人員為 300 個以下，而且您有下列其中一種 Microsoft 365 訂閱，則商務語音正可滿足您的需要：
 
-* Microsoft 365 商務基本版
-* Microsoft 365 商務標準版
-* Office 365 E1
-* Office 365 E3
-* Office 365 F1
-* Microsoft 365 A1
-* Microsoft 365 A3
-* Microsoft 365 E3
-* Microsoft 365 商務版
+- Microsoft 365 商務基本版
+- Microsoft 365 商務標準版
+- Microsoft 365 商務進階版
+- Microsoft Apps 商務版 
+- Microsoft Apps 企業版
+- Microsoft 365 F1
+- Office 365 F1
+- Microsoft 和 Office 365 企業版 E1、E3 或 E5
+- Microsoft 365 和 Office 365 教育版 A1、A3 或 A5
+- Microsoft 365 和 Office 365 政府版 G1、G3 或 G5 (僅限 GCC)
+- Microsoft 365 非營利組織商務基本版
+- Microsoft 365 非營利組織商務標準版
+- Microsoft 365 和 Office 365 非營利組織版 E1、E3 或 E5
 
 商務語音可於 70 幾個國家與地區使用。 無論您是否可以自行設定商務語音，將電話號碼轉移到 Microsoft 365，並在 Microsoft 365 中管理本身的電話號碼，取決於您的 Microsoft 365 租用戶所在的國家或地區。 如需詳細資訊，請參閱[商務語音的適用國家與地區](country-region-availability.md)。
 
