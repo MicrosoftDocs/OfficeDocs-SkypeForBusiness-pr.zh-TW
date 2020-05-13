@@ -1,5 +1,5 @@
 ---
-title: 混合式部署的 Lync Server 2013： 概觀
+title: Lync Server 2013：混合式部署的概述
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +12,12 @@ ms:contentKeyID: 48185845
 ms.date: 05/25/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ae6aec94b75bdb559dace5fe110c1b07442f6171
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0d5b3b276d93fc0f09ad42be9448dc87eb1ba049
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216269"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221537"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42216269"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-lync-server-2013-hybrid-deployments"></a>Lync Server 2013 混合式部署的概觀
+# <a name="overview-of-lync-server-2013-hybrid-deployments"></a>Lync Server 2013 混合式部署的概述
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "42216269"
 
 <span> </span>
 
-_**主題上次修改日期：** 2016年-05-25_
+_**主題上次修改日期：** 2016-05-25_
 
-Lync Server 混合式部署都是部署所在的網域，例如 contoso.com，使用者會分割使用 Lync Server 內部部署與 Microsoft Lync Online 之間。 網域使用者的一些位於內部部署 Lync Server，和某些使用者位於 Skype for Business Online。
+Lync Server 混合式部署是一種部署方式，使用者可以使用 Lync Server 內部部署和 Microsoft Lync Online，分割網域的使用者（例如 contoso.com）。 有些網域使用者位於內部部署的 Lync 伺服器上，有些使用者則位於商務用 Skype Online 中。
 
-您可以設定混合式內部部署 Lync 部署與 Skype 商務 Online，並保留您的內部部署和線上同步處理的使用者使用 Active Directory 同步處理。 您也可以設定混合式部署與整合內部部署 Exchange 和 SharePoint，或使用 Microsoft Office 365 應用程式，包括 Exchange Online 和 SharePoint Online。
+您可以使用商務用 Skype Online 設定混合式的內部部署 Lync 部署，並使用 Active Directory 同步處理，以保持內部部署和線上使用者同步。 您也可以設定混合式部署，以與內部部署 Exchange 和 SharePoint 整合，或是使用 Microsoft 365 和 Office 365 應用程式（包括 Exchange Online 和 SharePoint 線上）進行整合。
 
-本節會引導您完成部署所需的 Lync Server 混合部署中，應用程式，然後設定來管理商務 Online 使用者之間 Skype 和 Lync Server 內部部署。
+本節會引導您部署 Lync Server 混合部署所需的應用程式，然後設定您的部署，以管理 Lync Server 內部部署和商務用 Skype Online 之間的使用者。
 
-如需設定您內部部署 Lync Server 部署混合式與 Skype for Business Online，請參閱下列主題：
+如需使用商務用 Skype Online 為混合式設定內部部署 Lync Server 部署的詳細資訊，請參閱下列主題：
 
   - [規劃 Lync Server 2013 混合式部署](lync-server-2013-planning-for-hybrid-deployments.md)
 
   - [設定 Lync Server 2013 混合式部署](lync-server-2013-configuring-hybrid-deployments.md)
 
-如需 Skype for Business Online，請參閱[Lync Online](https://go.microsoft.com/fwlink/p/?linkid=282396)。
+如需商務用 Skype Online 的詳細資訊，請參閱[Lync online](https://go.microsoft.com/fwlink/p/?linkid=282396)。
 
 </div>
 
@@ -60,4 +60,3 @@ Lync Server 混合式部署都是部署所在的網域，例如 contoso.com，�
 </div>
 
 </div>
-

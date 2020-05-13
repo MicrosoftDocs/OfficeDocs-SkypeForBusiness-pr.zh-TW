@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 決定如何部署 Microsoft Lync
+title: Lync Server 2013：決定如何部署 Microsoft Lync
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184423
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fdd7deb87eef28e3b439f290f6da5a90d2fe50dc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d5f4e622d71175ec393706af39ce470c5030216a
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187366"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221797"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,13 +35,13 @@ ms.locfileid: "42187366"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-03_
+_**主題上次修改日期：** 2012-10-03_
 
-規劃時 Lync，首要決策在於如何部署 Microsoft Lync： 為 Lync Server 2013 內部部署，或 Lync Online 與 Microsoft Office 365，在雲端上。
+在規劃 Lync 時，第一個主要決定是如何部署 Microsoft Lync：在內部部署上使用 Lync Server 2013，或在雲端使用 Microsoft 365 或 Office 365 的 Lync Online。
 
-  - **Lync Server 2013 內部部署**： 此選項提供完整的 Lync 功能集，並提供最大的彈性中設定、 自訂及操作您的部署。 所有伺服器皆安裝於現場，且由您的組織來維護。 在內部部署提供的完整範圍 Lync Server 的功能。
+  - **Lync Server 2013 內部部署**：此選擇提供完整的 Lync 功能集，並提供設定、自訂及作業部署的最佳靈活性。 所有伺服器皆安裝於現場，且由您的組織來維護。 內部部署部署提供 Lync Server 功能的完整範圍。
 
-  - **Lync Online 在雲端中**Lync Online 專為想而無需在 Lync Server 的商務類別功能的成本和靈活性優點基於雲端的立即訊息、 目前狀態和會議的組織。 透過 Lync Online，Microsoft 部署及維護的所需的伺服器基礎結構，並處理持續維護、 修補和升級。 在內部部署中提供部分功能不 Lync Online 中提供。
+  - **雲端中的 Lync Online**Lync Online 是專為需要雲端式立即訊息、目前狀態和會議的成本和靈活性優勢所設計的組織，而不會犧牲 Lync Server 的商務類別功能。 在 Lync Online 中，Microsoft 會部署及維護必要的伺服器基礎結構，並處理即時維護、修補程式和升級。 Lync Online 中無法使用內部部署中所提供的部分功能。
 
 您最適合的部署類型取決於您想要部署的工作負載，及組織的地理位置和業務狀態。
 
@@ -51,17 +51,17 @@ _**主題上次修改日期：** 2012年-10-03_
 
 內部部署的 Lync Server 部署最適合下列案例：
 
-  - **完整的企業語音功能**   如果您打算部署來取代 PBX 或其使用進階通話功能完整的企業語音解決方案，是必要的內部部署 Lync Server 部署。 在內部支援與 PBX 系統與主幹，以及進階的電話功能，例如回應群組和通話駐留直接連線。 Lync Online 目前不支援這些功能。
+  - **完整的 Enterprise Voice 功能**    如果您計畫部署完整的企業語音解決方案以取代 PBX 或使用高級通話功能，則需要內部部署 Lync Server 部署。 內部部署支援與 PBX 系統和主幹的直接連線能力，以及高級電話功能（如回應群組和通話駐留）。 Lync Online 目前不支援這些功能。
 
-  - **媒體品質控制**   如果您想要完整的媒體品質保證功能，例如通話許可控制 (CAC) 和服務品質 (QoS) 功能，您會想在內部部署。
+  - **媒體質量控制**    如果您想要完整範圍的媒體品質保證功能（例如通話許可控制（CAC）和服務品質（QoS）功能），您將需要內部部署。
 
-  - **常設聊天室**   如果您需要部署組織的常設聊天室，您必須選擇內部部署。
+  - **Persistent 聊天**    如果您需要為組織部署持續性聊天，您必須選擇內部部署。
 
-  - **第 3 廠商伺服器應用程式**   僅在內部部署可以搭配信任的第 3 廠商應用程式使用 Microsoft Unified Communications Managed API (UCMA)。
+  - **協力廠商伺服器應用程式**    只有內部部署才能與使用 Microsoft 整合通訊 Managed API （UCMA）的受信任協力廠商應用程式搭配使用。
 
-  - **多-跨國/跨地區公司需要地區性支援**   如果您有多個國家/地區或區域中的資料中心，且需要部署及管理區域為基礎的伺服器，在內部部署最為適合，因為它可提供這種類型的地區管理功能。
+  - **需要區域支援的多國/多地區性公司**    如果您有多個國家或地區的資料中心，且需要以地區性為基礎部署和管理伺服器，則內部部署的部署最佳，因為它會提供這種類型的區域管理功能。
 
-  - **完整控制權原則、 報表及升級**   與內部 Lync Server 部署，您可以存取伺服器和用戶端原則、 監視和其他報告，一組完整及升級的時機。 Lync Online 提供原則設定和報告的子集，並提供有限，雖然重大視窗接受升級。
+  - **完全控制原則、報告和升級**    使用內部部署 Lync Server 部署，您可以存取完整的伺服器和用戶端原則集合、監控和其他報告，以及升級的時間。 Lync Online 提供原則設定與報告的子集，並提供有限但有意義的視窗，可接受升級。
 
 </div>
 
@@ -69,7 +69,7 @@ _**主題上次修改日期：** 2012年-10-03_
 
 ## <a name="lync-online"></a>Lync Online
 
-如果對您而言，前述清單中沒有任何重要因素，則您可能會想要選擇 Lync Online 以擁有部署和管理上的簡易性。 Lync Online 提供穩定的 IM、 目前狀態和會議功能設定，而且也可讓語音和視訊通話透過 IP 貴組織中的使用者之間。
+如果對您而言，前述清單中沒有任何重要因素，則您可能會想要選擇 Lync Online 以擁有部署和管理上的簡易性。 Lync Online 可提供強健的 IM、顯示狀態和會議功能集，也可讓您組織中使用者間的語音和影片通話。
 
 </div>
 
@@ -82,4 +82,3 @@ _**主題上次修改日期：** 2012年-10-03_
 </div>
 
 </div>
-

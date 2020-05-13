@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Lync Server 2013 混合式'
+title: Lync Server 2013： Lync Server 2013 混合式
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +12,12 @@ ms:contentKeyID: 48183839
 ms.date: 05/25/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1626b01f1cf008285e7d7fd12c6987c8da9f9ba4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 538f2163fe983e8ab886964e379b0c54c9de6dd8
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186176"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221687"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,17 +35,17 @@ ms.locfileid: "42186176"
 
 <span> </span>
 
-_**主題上次修改日期：** 2016年-05-25_
+_**主題上次修改日期：** 2016-05-25_
 
-處理 Lync 混合式部署，您可以在 Lync Online 中，這兩個共用相同的網域有部分 Lync 使用者內部，與其他使用者。 這可以讓容易給您組織中不同的地理位置的使用者或遠端連線的使用者提供 Lync 服務。 您也可以利用 Lync 混合式組態的移轉路徑為 Office 365。
+透過 Lync 混合式部署，您可以讓一些 Lync 使用者內部部署，以及 Lync Online 中的其他使用者共用相同的網域。 這可讓您在不同的地理位置或以遠端方式連線的使用者向組織的使用者提供 Lync 服務。 您也可以利用 Lync 混合式設定，做為 Microsoft 365 的遷移路徑。
 
-本節說明針對 Lync Server 2013 的混合式組態。
+本節說明 Lync Server 2013 的混合式設定。
 
 <div>
 
 ## <a name="in-this-section"></a>本章節內容
 
-[Lync Server 2013 混合式部署的概觀](lync-server-2013-overview-of-hybrid-deployments.md)
+[Lync Server 2013 混合式部署的概述](lync-server-2013-overview-of-hybrid-deployments.md)
 
 [規劃 Lync Server 2013 混合式部署](lync-server-2013-planning-for-hybrid-deployments.md)
 

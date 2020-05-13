@@ -12,12 +12,12 @@ ms:contentKeyID: 51541531
 ms.date: 09/21/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 82e66cf65d8aa29e476e759bd1f09ccbbf7b61f5
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: de331cc4742a3a995a63ea4848e2515871fb5f69
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780242"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221213"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -412,8 +412,7 @@ _**主題上次修改日期：** 2015-09-21_
 </table>
 
 
-1不適用於商務用 Skype Online 和/或 Microsoft 365 或 Office 365 使用者。
-
+1不適用於商務用 Skype Online、Microsoft 365 或 Office 365 使用者。
 </div>
 
 <div>
@@ -757,11 +756,11 @@ _**主題上次修改日期：** 2015-09-21_
 </table>
 
 
-1若為 Microsoft 365 或 Office 365 使用者，此功能僅適用于音訊會議提供者（ACP）啟用的會議。
+1對於 Office 365 和 Microsoft 365 使用者而言，此功能僅適用于音訊會議提供者（ACP）啟用的會議。
 
 2不適用於 Microsoft 365 或 Office 365 使用者。
 
-3如需商務用 Skype Online 和/或 Microsoft 365 或 Office 365 使用者，可從協力廠商音訊會議提供者取得此功能。
+3如需商務用 Skype Online、Microsoft 365 或 Office 365 使用者，可從協力廠商音訊會議提供者取得此功能。
 
 在 lync Mobile 2013 中無法查看由 Lync Web App 共用的 4A PowerPoint 簡報。 在 Lync 2013 桌面用戶端上進行的批註無法在行動裝置上查看。
 
@@ -892,13 +891,13 @@ _**主題上次修改日期：** 2015-09-21_
 </table>
 
 
-1 Lync Server 2013、商務用 Skype Online 和 Office 365 使用者可能會點擊此圖示呼叫其他 Lync 使用者和 Skype 使用者。 Lync Server 2013 使用者也可以透過點擊圖示放置 PSTN 通話。
+1 Lync Server 2013、商務用 Skype Online 和 Microsoft 365 或 Office 365 使用者可能會點擊此圖示呼叫其他 Lync 使用者和 Skype 使用者。 Lync Server 2013 使用者也可以透過點擊圖示放置 PSTN 通話。
 
 2對於內部部署的 Lync Server 2013 使用者，在 Windows Phone、iPhone 和 iPad 裝置上，使用者可點擊連絡人卡片中的呼叫圖示，並接受 Lync Server 2013 的回撥。 針對 Microsoft 365 或 Office 365 使用者，在 Windows Phone、iPhone 和 iPad 裝置上，當使用者按下 [通話] 按鈕時，會開啟對話方塊，詢問使用者是否要撥打號碼。
 
-3商務用 Skype Online 和/或 Microsoft 365 或 Office 365 使用者無法使用。
+3商務用 Skype Online、Microsoft 365 或 Office 365 使用者不可使用
 
-4如果是商務用 Skype Online 和/或 Microsoft 365 或 Office 365 使用者，則 Microsoft 合作夥伴支援此功能。
+4如果是商務用 Skype Online、Microsoft 365 或 Office 365 使用者，則 Microsoft 合作夥伴支援此功能。
 
 </div>
 
@@ -973,7 +972,7 @@ _**主題上次修改日期：** 2015-09-21_
 
 1依預設，同盟使用者會被指派外部連絡人隱私權關聯。 若要能夠撥打同盟連絡人的使用者已發佈的公司電話號碼，必須手動為您指派同事隱私權關聯。
 
-2不適用於 Office 365 使用者。
+2不適用於 Microsoft 365 或 Office 365 使用者。
 
 </div>
 
@@ -1080,4 +1079,3 @@ _**主題上次修改日期：** 2015-09-21_
 </div>
 
 </div>
-

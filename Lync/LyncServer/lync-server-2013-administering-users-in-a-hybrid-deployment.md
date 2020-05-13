@@ -12,12 +12,12 @@ ms:contentKeyID: 48184381
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b09ca3c5a80215c0a2d63a018150361671df6859
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 906018941b00d8ef2cbb5e37aef8d1245ad93f00
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779599"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221437"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +37,7 @@ ms.locfileid: "43779599"
 
 _**主題上次修改日期：** 2014-05-29_
 
-您可以使用 Microsoft Office 365 Online 入口網站中提供的使用者管理功能，管理遷移至 Lync Online 之使用者的使用者設定和原則。 您必須使用租使用者系統管理員帳戶登入，以執行管理工作。
+您可以使用 Microsoft 365 系統管理中心提供的使用者管理功能，管理遷移至 Lync Online 之使用者的使用者設定和原則。 您必須使用租使用者系統管理員帳戶登入，以執行管理工作。
 
 <div>
 
@@ -65,11 +65,11 @@ _**主題上次修改日期：** 2014-05-29_
 
 針對**HostedMigrationOverrideUrl**參數所指定的 url 格式，必須是正在執行裝載遷移服務之集區的 url，格式如下：
 
-Https://\<集區\>FQDN/HostedMigration/hostedmigrationService.svc。 您可以透過查看 Office 365 組織帳戶的 Lync Online 控制台 URL，判斷主控遷移服務的 URL。
+Https:// \< 集區 FQDN \> /HostedMigration/hostedmigrationService.svc。 您可以透過查看 Microsoft 365 或 Office 365 組織帳戶的 Lync Online 控制台 URL，來決定主控遷移服務的 URL。
 
-**決定 Office 365 組織的主控遷移服務 URL**
+**決定 Microsoft 365 或 Office 365 組織的主控遷移服務 URL**
 
-1.  以系統管理員身分登入您的 Office 365 組織。
+1.  以管理員身分登入您的組織。
 
 2.  開啟**Lync 系統管理中心**。
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 54973688
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ee6bc90743e20f69579c86c565395e0375c8bb0b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 170c7564e53680f3c6971894ceee9997d20e63ef
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734463"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221807"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-two-factor-authentication-in-lync-server-2013"></a>在 Lync Server 2013 中設定雙因素驗證
 
@@ -37,23 +37,23 @@ ms.locfileid: "41734463"
 
 _**主題上次修改日期：** 2013-07-03_
 
-下列各節說明針對您的部署設定雙因素驗證所需的步驟。 如需有關雙因素驗證的詳細資訊，請參閱[啟用 Office 365 的多重要素驗證以進行線上系統管理員-格線使用者文章](http://go.microsoft.com/fwlink/p/?linkid=313332)。
+下列各節說明為您的部署設定雙因素驗證所需的步驟。 
 
 <div>
 
-## <a name="in-this-section"></a>本節內容
+## <a name="in-this-section"></a>本章節內容
 
-[在 Lync Server 2013 中設定智慧卡驗證的企業 CA](lync-server-2013-configuring-enterprise-ca-for-smart-card-authentication.md)
+[在 Lync Server 2013 中設定企業 CA 以進行智慧卡驗證](lync-server-2013-configuring-enterprise-ca-for-smart-card-authentication.md)
 
-[針對使用 Lync Server 2013 的虛擬智慧卡設定 Windows 8](lync-server-2013-configuring-windows-8-for-virtual-smart-cards.md)
+[設定使用虛擬智慧卡搭配 Lync Server 2013 的 Windows 8](lync-server-2013-configuring-windows-8-for-virtual-smart-cards.md)
 
-[在 Lync Server 2013 中註冊智慧卡驗證的使用者](lync-server-2013-enrolling-users-for-smart-card-authentication.md)
+[在 Lync Server 2013 中登記智慧卡驗證的使用者](lync-server-2013-enrolling-users-for-smart-card-authentication.md)
 
-[正在為 Lync Server 2013 設定 Active Directory Federation Services （AD FS 2.0）](lync-server-2013-configuring-active-directory-federation-services-ad-fs-2-0.md)
+[為 Lync Server 2013 設定 Active Directory Federation Services （AD FS 2.0）](lync-server-2013-configuring-active-directory-federation-services-ad-fs-2-0.md)
 
-[在 Lync Server 2013 中設定 AD FS 2.0 以支援用戶端驗證](lync-server-2013-configuring-ad-fs-2-0-to-support-client-authentication.md)
+[設定 AD FS 2.0 以支援 Lync Server 2013 中的用戶端驗證](lync-server-2013-configuring-ad-fs-2-0-to-support-client-authentication.md)
 
-[設定 Lync Server 2013 被動式驗證](lync-server-2013-configuring-passive-authentication.md)
+[設定 Lync Server 2013 被動驗證](lync-server-2013-configuring-passive-authentication.md)
 
 </div>
 
@@ -72,4 +72,3 @@ _**主題上次修改日期：** 2013-07-03_
 </div>
 
 </div>
-

@@ -12,12 +12,12 @@ ms:contentKeyID: 48184392
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5106d4e27921d9407b2663410cc0872892479ebb
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 3dcc72c0f9934aebf28838cfd79899e1ce7aa2bc
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779850"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221203"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,7 +53,7 @@ _**主題上次修改日期：** 2014-05-29_
 
 在您開始將使用者移至 Lync Online 之前，您可能會想要移動一些試驗使用者，以確認您的環境已正確設定。 然後，您可以在嘗試移動其他使用者之前，確認 Lync 功能及服務是否如預期般運作。
 
-若要將內部部署使用者移至 Lync Online 租使用者，請使用 Microsoft Office 365 組織的系統管理員認證，在 Lync Server 管理命令介面中執行下列 Cmdlet。 將 "username@contoso.com" 取代為您想要移動之使用者的資訊。
+若要將內部部署使用者移至 Lync Online 租使用者，請在 Lync Server 管理命令介面中，使用 Microsoft 365 或 Office 365 組織的系統管理員認證來執行下列 Cmdlet。 將 "username@contoso.com" 取代為您想要移動之使用者的資訊。
 
    ```PowerShell
     $creds=Get-Credential
@@ -63,13 +63,13 @@ _**主題上次修改日期：** 2014-05-29_
     Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -Credential $creds -HostedMigrationOverrideUrl <URL>
    ```
 
-針對**HostedMigrationOverrideUrl**參數所指定的 url 格式，必須是正在執行裝載遷移服務之集區的 url，格式如下： Https://\<集區 FQDN/HostedMigration/hostedmigrationService.svc.\>
+針對**HostedMigrationOverrideUrl**參數所指定的 url 格式，必須是正在執行裝載遷移服務之集區的 url，格式如下： Https:// \< 集區 FQDN \> /HostedMigration/hostedmigrationService.svc。
 
-您可以透過查看 Office 365 組織帳戶的 Lync Online 控制台 URL，判斷主控遷移服務的 URL。
+您可以透過查看 Microsoft 365 或 Office 365 組織帳戶的 Lync Online 控制台 URL，來決定主控遷移服務的 URL。
 
-**決定 Office 365 組織的主控遷移服務 URL**
+**決定組織的主控遷移服務 URL**
 
-1.  以系統管理員身分登入您的 Office 365 組織。
+1.  以系統管理員身分登入您的 Microsoft 365 或 Office 365 組織。
 
 2.  開啟**Lync 系統管理中心**。
 

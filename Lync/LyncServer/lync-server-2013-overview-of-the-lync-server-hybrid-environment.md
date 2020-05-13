@@ -12,12 +12,12 @@ ms:contentKeyID: 48183399
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b39c94b08da65e546fdf3ad01d42ada636ff371d
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: e3fe59038c022dafcf7eeedb0079ae1a8cc63fd1
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780752"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221527"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -59,7 +59,7 @@ Lync Server 2013 混合式環境指的是內部部署的 Lync Server 2013 和其
 
   - [安裝 Windows PowerShell 以進行單一登入與 AD FS](https://go.microsoft.com/fwlink/p/?linkid=398710)
 
-  - Microsoft Online Services 登入小幫手（msoidcli-7.0）隨附于 Office 365 的桌面設定，可從 Microsoft 365 系統管理中心連結的下載頁面獲得。
+  - Microsoft Online Services 登入小幫手（msoidcli-7.0）隨附于 Microsoft 365 的桌面安裝程式，可從 Microsoft 365 系統管理中心連結的下載頁面取得。
 
 </div>
 
@@ -67,7 +67,7 @@ Lync Server 2013 混合式環境指的是內部部署的 Lync Server 2013 和其
 
 ## <a name="administrator-credentials"></a>系統管理員認證
 
-當系統要求您提供系統管理員認證時，請使用 Office 365 組織之系統管理員帳戶的使用者名稱和密碼。 當您設定 Active Directory Federation Services （AD FS）2.0、目錄同步處理、單一登入、同盟及移動使用者至 Lync Online 時，也會使用這些認證。
+當系統要求您提供系統管理員認證時，請使用 Microsoft 365 或 Office 365 組織之系統管理員帳戶的使用者名稱和密碼。 當您設定 Active Directory Federation Services （AD FS）2.0、目錄同步處理、單一登入、同盟及移動使用者至 Lync Online 時，也會使用這些認證。
 
 </div>
 
@@ -75,7 +75,7 @@ Lync Server 2013 混合式環境指的是內部部署的 Lync Server 2013 和其
 
 ## <a name="connecting-to-lync-online-powershell"></a>連接至 Lync Online PowerShell
 
-管理員現在具備使用 Windows PowerShell 管理 Lync Online 和其 Lync Online 使用者帳戶的能力。 若要這麼做，您必須先從 Microsoft 下載中心下載 Lync Online Connector 模組（https://go.microsoft.com/fwlink/?LinkId=294688)。 如需下載、安裝和使用 Lync Online 連接器模組的詳細資訊，以及使用 Windows PowerShell 來管理 Lync Online 的詳細資訊，請參閱[使用 windows PowerShell 管理 Lync online](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)。
+管理員現在具備使用 Windows PowerShell 管理 Lync Online 和其 Lync Online 使用者帳戶的能力。 若要這麼做，您必須先從 Microsoft 下載中心下載 Lync Online Connector 模組（ https://go.microsoft.com/fwlink/?LinkId=294688) 。 如需下載、安裝和使用 Lync Online 連接器模組的詳細資訊，以及使用 Windows PowerShell 來管理 Lync Online 的詳細資訊，請參閱[使用 windows PowerShell 管理 Lync online](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)。
 
 </div>
 

@@ -12,12 +12,12 @@ ms:contentKeyID: 48183925
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6ad8735834ab004753444849c529cb4ceec18c16
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: af989286dad9c0c8bba38f61b17b606e758dcd15
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776708"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221787"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +41,7 @@ Lync 2013 為用戶端部署引入了不同的方法。 在舊版本的出發中
 
   - **Office 2013 Windows installer**是以 Windows Installer 為基礎的安裝套件，由多個 MSI 檔案組成。 中性語言核心 MSI 套件結合了一或多個特定語言套件，組成完整的產品。 安裝程式組合了個別套件，在安裝 Office 於使用者的電腦期間 (以及之後)，執行自訂與維護工作。 本節中的主題說明如何使用和自訂 Office 2013 Windows Installer 來部署 Lync 2013。
 
-  - **Office 2013 Click-to-Run**是一種安裝程式，可將 Office 安裝檔案從 Microsoft 365 系統管理中心流式傳送給使用者。 管理員可以使用隨選即用的 Office 部署工具來自訂安裝。 由於 Office 2013 Click-to-Run 主要用於 Microsoft Office 365 環境中，此安裝方法不會在本節詳細說明。 Office 2013 資源套件檔中提供有關使用和自訂 Click-to-Run 安裝的詳細資訊。 系統管理員也可以將 Office 2013 Click-to-Run 程式和語言來源檔案下載至內部部署位置，當您想要將網路需求降至最低，或由於公司的安全性需求而防止使用者從網際網路安裝軟體時，這是很有用的。
+  - **Office 2013 Click-to-Run**是一種安裝程式，可將 Office 安裝檔案從 Microsoft 365 系統管理中心流式傳送給使用者。 管理員可以使用隨選即用的 Office 部署工具來自訂安裝。 由於 Office 2013 Click-to-Run 主要用於 Microsoft 365 環境，因此本節中不會詳細說明此安裝方法。 Office 2013 資源套件檔中提供有關使用和自訂 Click-to-Run 安裝的詳細資訊。 系統管理員也可以將 Office 2013 Click-to-Run 程式和語言來源檔案下載至內部部署位置，當您想要將網路需求降至最低，或由於公司的安全性需求而防止使用者從網際網路安裝軟體時，這是很有用的。
 
 本節中的主題將著重說明如何使用 Office 2013 MSI 安裝程式部署用戶端。 您的主要參考應該是 Office 2013 資源套件檔，其詳細說明如何準備基礎結構、自訂安裝及部署 Office 2013。 不過，您應該將 Office 檔與本節中的主題搭配使用，以指出 Lync 2013 特有的部署考慮。
 

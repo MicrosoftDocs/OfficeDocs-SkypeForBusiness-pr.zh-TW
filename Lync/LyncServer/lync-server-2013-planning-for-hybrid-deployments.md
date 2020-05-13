@@ -12,12 +12,12 @@ ms:contentKeyID: 48185910
 ms.date: 05/25/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 54888a96d33dc3d9195256483f41719031847744
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 47e8bc57edbf3b6414820aba1613be8b44fc670e
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780322"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221517"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,7 +45,7 @@ _**主題上次修改日期：** 2016-05-25_
 
 您必須在您的環境中設定下列設定，才能實施及部署混合部署。
 
-  - 已啟用商務用 Skype Online 的 Microsoft Office 365 組織。 請注意，您可以只對內部部署部署使用單一租使用者進行混合設定。
+  - 啟用啟用商務用 Skype Online 的 Microsoft 365 或 Office 365 組織。 請注意，您可以只對內部部署部署使用單一租使用者進行混合設定。
 
   - 在支援的拓撲中部署之商務用 Skype Server 或 Lync Server 的單一內部部署（基礎結構）。 請參閱拓撲的需求。
     
@@ -53,7 +53,7 @@ _**主題上次修改日期：** 2016-05-25_
 
   - 商務用 Skype Server 2015 系統管理工具。 如果您使用的是 Lync Server 2013 或 Lync Server 2010，您可以使用 Lync Server 2013 系統管理工具。
 
-  - 若要支援單一登入與 Office 365，讓使用者可以使用相同的登入認證，以在內部部署時登入 Office，您可以使用 Azure Active Directory （AAD） Connect 的密碼同步功能。 您也可以使用 Active Directory Federation Services （AD FS）進行單一登入與 Office 365。
+  - 若要支援使用 Microsoft 365 或 Office 365 進行單一登入，讓使用者可以使用相同的登入認證，以在內部部署時登入 Office，您可以使用 Azure Active Directory （AAD） Connect 的密碼同步功能。 您也可以使用 Active Directory Federation Services （AD FS）進行單一登入與 Microsoft 365 或 Office 365。
     
     如需詳細資訊，請參閱[將內部部署識別與 Azure Active Directory 整合](https://go.microsoft.com/fwlink/p/?linkid=619754)。
 
@@ -159,7 +159,7 @@ Lync 用戶端支援的功能有一些差異，以及內部部署和線上環境
 
 若要成功設定混合式部署，必須符合下列需求：
 
-  - 您的內部部署和 Office 365 組織必須設定符合網域的功能。 如果已在內部部署上啟用夥伴探索，則必須為您的線上租使用者設定開啟同盟。 若未啟用夥伴探索，則必須為您的線上租使用者設定關閉的同盟。
+  - 您的內部部署和您的 Microsoft 365 或 Office 365 組織必須設定符合網域的功能。 如果已在內部部署上啟用夥伴探索，則必須為您的線上租使用者設定開啟同盟。 若未啟用夥伴探索，則必須為您的線上租使用者設定關閉的同盟。
 
   - 內部部署部署中的封鎖網域清單必須完全符合您線上租使用者的封鎖網域清單。
 
@@ -191,7 +191,7 @@ Lync 用戶端支援的功能有一些差異，以及內部部署和線上環境
 <td><p>DNS 需求</p></td>
 </tr>
 <tr class="even">
-<td><p>_Sipfederationtls _tcp 的 DNS SRV 記錄。&lt;sipdomain.com&gt;用於所有支援的 SIP 網域解析存取 Edge 外部 IP</p></td>
+<td><p>_Sipfederationtls _tcp 的 DNS SRV 記錄。 &lt;sipdomain.com &gt; 用於所有支援的 SIP 網域解析存取 Edge 外部 IP</p></td>
 <td><p>Edge server</p></td>
 <td><p>在混合式設定中啟用同盟通訊。 Edge Server 需要知道如何路由傳送內部部署和線上間的 SIP 網域的同盟流量。</p></td>
 </tr>
@@ -214,7 +214,7 @@ Lync 用戶端支援的功能有一些差異，以及內部部署和線上環境
 
 網路上的電腦必須能夠執行標準網際網路 DNS 查閱。 若這些電腦可以搜尋標準網際網路網站，表示您的網路符合此需求。
 
-根據 Microsoft Online Services 資料中心的位置，您也必須設定網路防火牆裝置，以接受以萬用字元功能變數名稱為基礎的連線（例如，所有來自 outlook.com 的\*流量）。 如果您組織的防火牆不支援萬用字元名稱設定，您必須手動判斷您要允許的 IP 位址範圍和指定的埠。
+根據 Microsoft Online Services 資料中心的位置，您也必須設定網路防火牆裝置，以接受以萬用字元功能變數名稱為基礎的連線（例如，所有來自 outlook.com 的流量 \* ）。 如果您組織的防火牆不支援萬用字元名稱設定，您必須手動判斷您要允許的 IP 位址範圍和指定的埠。
 
 請參閱 Help 主題[Office 365 URLs 和 IP 位址範圍](https://go.microsoft.com/fwlink/p/?linkid=252942)。
 
@@ -299,7 +299,7 @@ Lync 用戶端支援的功能有一些差異，以及內部部署和線上環境
 
 
 > [!IMPORTANT]  
-> 如果使用者是使用 Office 365 的 online 入口網站建立，使用者帳戶將不會與內部部署 Active Directory 同步處理，而且使用者將不會存在於內部部署 Active Directory 中。 如果您已在 Lync Online 中建立使用者，而且想要使用內部部署的 Lync 伺服器設定混合，請參閱在<A href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">Lync Server 2013 中將使用者從 Lync Online 移至 lync 內部部署</A>。
+> 如果使用者是使用 Microsoft 365 系統管理中心的線上入口網站建立，使用者帳戶將不會與內部部署 Active Directory 同步處理，而且使用者將不會存在於內部部署 Active Directory 中。 如果您已在 Lync Online 中建立使用者，而且想要使用內部部署的 Lync 伺服器設定混合，請參閱在<A href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">Lync Server 2013 中將使用者從 Lync Online 移至 lync 內部部署</A>。
 
 
 
@@ -307,11 +307,11 @@ Lync 用戶端支援的功能有一些差異，以及內部部署和線上環境
 
 在規劃混合式部署時，您也應考慮下列使用者相關的問題。
 
-  - **使用者連絡人**   Lync Online 使用者的連絡人限制是250。 當帳戶移至 Lync Online 時，任何超出該號碼的連絡人都會從使用者的連絡人清單中移除。
+  - **使用者連絡人**    Lync Online 使用者的連絡人限制為250。 當帳戶移至 Lync Online 時，任何超出該號碼的連絡人都會從使用者的連絡人清單中移除。
 
-  - **立即訊息和目前狀態**   使用者連絡人清單、群組和存取控制清單（ACLs）會與使用者帳戶一起遷移。
+  - **立即訊息與顯示狀態**    使用者連絡人清單、群組和存取控制清單（ACLs）會與使用者帳戶一起遷移。
 
-  - **會議資料、會議內容及排程的會議**   此內容不會與使用者帳戶一起遷移。 使用者在將其帳戶遷移至 Lync Online 後，必須重新排定會議。
+  - **會議資料、會議內容及排程的會議**    此內容不會與使用者帳戶一起遷移。 使用者在將其帳戶遷移至 Lync Online 後，必須重新排定會議。
 
 </div>
 
@@ -321,11 +321,11 @@ Lync 用戶端支援的功能有一些差異，以及內部部署和線上環境
 
   - 在 Lync Server 2013 混合式環境中，使用者可以在內部部署或線上上啟用立即訊息、語音和會議，但不能同時啟用兩者。
 
-  - **Lync 用戶端**   當使用者移至 Lync Online 時，可能需要新的用戶端版本。 若為 Office 通訊伺服器 2007 R2，使用者必須先移至 Lync Server 2013 集區，再遷移至 Lync Online。
+  - **Lync 用戶端**    當某些使用者移至 Lync Online 時，可能需要新的用戶端版本。 若為 Office 通訊伺服器 2007 R2，使用者必須先移至 Lync Server 2013 集區，再遷移至 Lync Online。
     
     如需用戶端支援的詳細資訊，請參閱[用戶端的 Lync Online](https://go.microsoft.com/fwlink/p/?linkid=281902)和[支援的 lync 用戶端和網路埠](https://go.microsoft.com/fwlink/p/?linkid=281901)設定。
 
-  - **內部部署原則和設定（非使用者）**   線上和內部部署原則需要不同的設定。 您無法設定適用于這兩者的全域原則。
+  - **內部部署原則及設定（非使用者）**    線上和內部部署原則需要不同的設定。 您無法設定適用于這兩者的全域原則。
 
 </div>
 
@@ -338,4 +338,3 @@ Lync 用戶端支援的功能有一些差異，以及內部部署和線上環境
 </div>
 
 </div>
-

@@ -12,12 +12,12 @@ ms:contentKeyID: 48183798
 ms.date: 01/23/2018
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 18c9174075ee009b7f67ee8d2757b4af9dd07818
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 3b154bc5f94064f0a42d6cda138ca66e0700aea7
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780002"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44219713"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -73,9 +73,9 @@ _**主題上次修改日期：** 2018-01-23_
 > [!NOTE]  
 > <UL>
 > <LI>
-> <P>如需商務用 Skype Online 訂閱者案的詳細資訊，請參閱的商務用 Skype Online <A href="https://go.microsoft.com/fwlink/p/?linkid=282430">https://go.microsoft.com/fwlink/p/?LinkId=282430</A>服務說明。</P>
+> <P>如需商務用 Skype Online 訂閱者案的詳細資訊，請參閱的商務用 Skype Online 服務說明 <A href="https://go.microsoft.com/fwlink/p/?linkid=282430">https://go.microsoft.com/fwlink/p/?LinkId=282430</A> 。</P>
 > <LI>
-> <P>Lync Server 2013 支援下列先前發佈的用戶端： Lync 2010、Lync 2010 Mobile、Lync Phone Edition 和 Lync 2010 語音應答。 如需這些用戶端的相關資訊，請參閱 Lync 2010 版本的用戶端<A href="https://go.microsoft.com/fwlink/p/?linkid=213798">https://go.microsoft.com/fwlink/p/?LinkID=213798</A>比較表。</P>
+> <P>Lync Server 2013 支援下列先前發佈的用戶端： Lync 2010、Lync 2010 Mobile、Lync Phone Edition 和 Lync 2010 語音應答。 如需這些用戶端的相關資訊，請參閱 Lync 2010 版本的用戶端比較表 <A href="https://go.microsoft.com/fwlink/p/?linkid=213798">https://go.microsoft.com/fwlink/p/?LinkID=213798</A> 。</P>
 > <LI>
 > <P>Lync 2013 用戶端支援虛擬桌面基礎結構（VDI）環境中的音訊和影片。 如需有關 VDI 環境中的 Lync 2013 功能的詳細資訊，請參閱<A href="lync-server-2013-supported-virtualization-technologies-and-known-limitations.md">Lync Server 2013 中支援的虛擬化技術與已知限制</A>。</P></LI></UL>
 
@@ -451,10 +451,9 @@ _**主題上次修改日期：** 2018-01-23_
 </table>
 
 
-1若為商務用 Skype Online 和/或 Microsoft 365 或 Office 365 使用者，則不支援 Lync 2010 語音應答。
+1若為商務用 Skype Online、Microsoft 365 或 Office 365 使用者，則不支援 Lync 2010 語音應答。
 
-2對於商務用 Skype Online 和/或 Microsoft 365 或 Office 365 使用者，無法使用這項功能。
-
+2對於商務用 Skype Online、Microsoft 365 或 Office 365 使用者，無法使用這項功能。
 </div>
 
 <span id="IMSupport"></span>
@@ -668,11 +667,11 @@ _**主題上次修改日期：** 2018-01-23_
 </table>
 
 
-1若為商務用 Skype Online 和/或 Microsoft 365 或 Office 365 使用者，則不支援 Lync 2010 語音應答。
+1若為商務用 Skype Online、Microsoft 365 或 Office 365 使用者，則不支援 Lync 2010 語音應答。
 
 2內部部署的 Lync Server 2013 和內部部署 SharePoint 2013 是技能搜尋所需的。
 
-3如需商務用 Skype Online 和/或 Microsoft 365 或 Office 365 使用者，仍然無法使用持續性聊天功能。
+3對於商務用 Skype Online、Microsoft 365 或 Office 365 使用者，仍然無法使用持續性聊天功能。
 
 </div>
 
@@ -692,7 +691,7 @@ _**主題上次修改日期：** 2018-01-23_
 > <LI>
 > <P>在 Lync-to-Lync 會話中，商務用 Skype Online 方案1使用者可以參與桌面共用和應用程式共用（如果使用者受到具有共用功能存取權的使用者邀請）。</P>
 > <LI>
-> <P>如需詳細資訊，請參閱的商務用 Skype Online <A href="https://go.microsoft.com/fwlink/?linkid=282430">https://go.microsoft.com/fwlink/?LinkID=282430</A>服務說明。</P></LI></UL>
+> <P>如需詳細資訊，請參閱的商務用 Skype Online 服務說明 <A href="https://go.microsoft.com/fwlink/?linkid=282430">https://go.microsoft.com/fwlink/?LinkID=282430</A> 。</P></LI></UL>
 
 
 
@@ -988,7 +987,7 @@ _**主題上次修改日期：** 2018-01-23_
 <td><p>Outlook</p></td>
 </tr>
 <tr class="odd">
-<td><p>Q&amp;A 主管</p></td>
+<td><p>Q &amp; A 主管</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td> </td>
@@ -1117,11 +1116,11 @@ _**主題上次修改日期：** 2018-01-23_
 </table>
 
 
-1若為商務用 Skype Online 和/或 Microsoft 365 或 Office 365 使用者，則不支援 Lync 2010 語音應答。
+1若為商務用 Skype Online、Microsoft 365 或 Office 365 使用者，則不支援 Lync 2010 語音應答。
 
 2參與者不能控制由商務用 Skype 于 Mac、Lync for Mac 2011 或 Communicator for Mac 2011 使用者共用的桌面。 Mac 使用者可以控制 Windows 使用者共用的桌面。
 
-3對於商務用 Skype Online 和/或 Microsoft 365 或 Office 365 使用者，此功能需要音訊會議提供者。
+3對於商務用 Skype Online、Microsoft 365 或 Office 365 使用者，此功能需要音訊會議提供者。
 
 4 Lync for Mac 2011 用戶端無法在 Lync Web App 2013 用戶端在會議中共用時，查看 Microsoft Office 2013 PowerPoint 簡報。
 
@@ -1137,7 +1136,7 @@ _**主題上次修改日期：** 2018-01-23_
 
 
 > [!NOTE]  
-> Lync 語音功能限制在特定商務用 Skype Online 訂閱者案中。 如需詳細資訊，請參閱《商務用 Skype Online 服務說明》中的「Lync 語音<A href="https://go.microsoft.com/fwlink/?linkid=282430">https://go.microsoft.com/fwlink/?LinkID=282430</A>功能」主題。
+> Lync 語音功能限制在特定商務用 Skype Online 訂閱者案中。 如需詳細資訊，請參閱《商務用 Skype Online 服務說明》中的「Lync 語音功能」主題 <A href="https://go.microsoft.com/fwlink/?linkid=282430">https://go.microsoft.com/fwlink/?LinkID=282430</A> 。
 
 
 
@@ -1419,11 +1418,11 @@ _**主題上次修改日期：** 2018-01-23_
 </table>
 
 
-1若為商務用 Skype Online 和/或 Microsoft 365 或 Office 365 使用者，則不支援 Lync 2010 語音應答。
+1若為商務用 Skype Online、Microsoft 365 或 Office 365 使用者，則不支援 Lync 2010 語音應答。
 
-2對於商務用 Skype Online 和/或 Microsoft 365 或 Office 365 使用者，此功能僅適用于電腦對電腦的呼叫。
+2對於商務用 Skype Online、Microsoft 365 或 Office 365 使用者，這項功能僅適用于電腦對電腦的呼叫。
 
-3如需商務用 Skype Online 和/或 Microsoft 365 或 Office 365 使用者，無法使用這項功能。
+3如需商務用 Skype Online、Microsoft 365 或 Office 365 使用者，無法使用這項功能。
 
 </div>
 
@@ -1507,9 +1506,9 @@ _**主題上次修改日期：** 2018-01-23_
 </table>
 
 
-1若為商務用 Skype Online 和/或 Microsoft 365 或 Office 365 使用者，則不支援 Lync 2010 語音應答。
+1若為商務用 Skype Online、Microsoft 365 或 Office 365 使用者，則不支援 Lync 2010 語音應答。
 
-2對於商務用 Skype Online 和/或 Microsoft 365 或 Office 365 使用者，無法使用這項功能。
+2對於商務用 Skype Online、Microsoft 365 或 Office 365 使用者，無法使用這項功能。
 
 </div>
 
@@ -1596,9 +1595,9 @@ _**主題上次修改日期：** 2018-01-23_
 </table>
 
 
-1對於商務用 Skype Online 和/或 Microsoft 365 或 Office 365 使用者，在特定商務用 Skype Online 獨立方案中無法使用錄製功能。 錄製需要完整的 Lync 2013 用戶端權力。 如需詳細資訊，請參閱的商務用 Skype Online [https://go.microsoft.com/fwlink/?LinkID=282430](https://go.microsoft.com/fwlink/?linkid=282430)服務說明。
+1對於商務用 Skype Online、Microsoft 365 或 Office 365 使用者，在特定商務用 Skype Online 獨立方案中無法使用錄製功能。 錄製需要完整的 Lync 2013 用戶端權力。 如需詳細資訊，請參閱的商務用 Skype Online 服務說明 [https://go.microsoft.com/fwlink/?LinkID=282430](https://go.microsoft.com/fwlink/?linkid=282430) 。
 
-2對於商務用 Skype Online 和/或 Microsoft 365 或 Office 365 使用者，錄製檔案傳輸、共用 OneNote 頁面及 PowerPoint 批註無法使用。
+2對於商務用 Skype Online、Microsoft 365 或 Office 365 使用者、檔案傳輸、共用 OneNote 頁面和 PowerPoint 批註的錄製無法使用。
 
 </div>
 
@@ -1701,11 +1700,11 @@ _**主題上次修改日期：** 2018-01-23_
 </table>
 
 
-1若為商務用 Skype Online 和/或 Microsoft 365 或 Office 365 使用者，則不支援 Lync 2010 語音應答。
+1若為商務用 Skype Online、Microsoft 365 或 Office 365 使用者，則不支援 Lync 2010 語音應答。
 
-2對於商務用 Skype Online 和/或 Microsoft 365 或 Office 365 使用者，此功能需要 Exchange Online，且由使用者的 Exchange 信箱 In-Place 保留屬性來控制。
+2對於商務用 Skype Online、Microsoft 365 或 Office 365 使用者，此功能需要 Exchange Online，且由使用者的 Exchange 信箱 In-Place 保留屬性所控制。
 
-3對於商務用 Skype Online 和/或 Microsoft 365 或 Office 365 使用者，封存檔案傳輸、共用 OneNote 頁面及 PowerPoint 批註無法使用。
+3用於商務用 Skype Online、Microsoft 365 或 Office 365 使用者、檔案傳輸、共用 OneNote 頁面和 PowerPoint 批註的封存無法使用。
 
 </div>
 
@@ -1772,4 +1771,3 @@ _**主題上次修改日期：** 2018-01-23_
 </div>
 
 </div>
-

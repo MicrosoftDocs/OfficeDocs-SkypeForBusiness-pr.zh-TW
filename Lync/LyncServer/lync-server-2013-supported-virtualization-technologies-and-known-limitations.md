@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： 支援虛擬化技術和已知的限制
+title: Lync Server 2013：支援的虛擬化技術與已知限制
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184428
 ms.date: 02/07/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c81b56fd8d0922b011840aa2b3133ce05d32ad13
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0968f79b8c9aedc3dc2d2318a2e8abf5c51531d7
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42218279"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221143"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42218279"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="supported-virtualization-technologies-and-known-limitations-in-lync-server-2013"></a>支援的虛擬化技術和 Lync Server 2013 中的已知的限制
+# <a name="supported-virtualization-technologies-and-known-limitations-in-lync-server-2013"></a>Lync Server 2013 中支援的虛擬化技術與已知限制
 
 </div>
 
@@ -35,53 +35,53 @@ ms.locfileid: "42218279"
 
 <span> </span>
 
-_**主題上次修改日期：** 2017年-02-06_
+_**主題上次修改日期：** 2017-02-06_
 
-Lync VDI 外掛程式可讓音訊和視訊通話支援的虛擬化技術。 此擴充[Microsoft Lync 2010 中的用戶端虛擬化](https://go.microsoft.com/fwlink/?linkid=330447)本白皮書中所述的 Microsoft Lync Server 2010 功能。 符合標準電話法規、 規範支援 E911 是也包含在內。 下列各節說明 Lync VDI 外掛程式已知的功能會受到限制所支援的虛擬化技術。
+Lync VDI 外掛程式允許音訊和視頻通話支援的虛擬化技術。 這會在[Microsoft lync 2010 白皮書的用戶端虛擬化](https://go.microsoft.com/fwlink/?linkid=330447)中，擴充 Microsoft lync Server 2010 所列的功能。 在遵守標準電話規定時，也會包含對 E911 的支援。 下列各節說明 Lync VDI 外掛程式支援的虛擬化技術與已知的功能限制。
 
 <div>
 
-## <a name="support-for-virtualization-technologies"></a>對虛擬化技術的支援
+## <a name="support-for-virtualization-technologies"></a>虛擬化技術的支援
 
-Lync VDI 外掛程式可支援完整桌面 remoting 在個人虛擬桌面案例中，但不是在遠端桌面工作階段的案例。 這些案例說明如下：
+Lync VDI 外掛程式支援個人虛擬桌面案例中的完整桌面遠端處理，但不支援在遠端桌面會話案例中。 您可以將這些案例描述如下：
 
-  - **支援： 個人化的虛擬桌面或虛擬桌面基礎結構 (VDI)。**   在此案例中，每位使用者登入可自訂的虛擬桌面，而且能夠儲存在桌面上會保存跨工作階段的檔案。 Microsoft 遠端桌面服務、 VMware 水平線檢視，以及 Citrix XenDesktop 是經過測試與 Lync 搭配使用的實作。 供應商特有 VDI 環境和 microsoft 經過測試的用戶端硬體的相關資訊，請參閱[Microsoft lync 合格基礎結構](https://go.microsoft.com/fwlink/?linkid=313435)。
+  - **支援：個人化的虛擬機器或虛擬桌面基礎結構（VDI）。**    在此案例中，每一位使用者都登入至可自訂的虛擬桌面機，而且能夠將保留在會話中的檔案儲存在桌面機上。 Microsoft 遠端桌面服務、VMware 地平線模式，以及 Citrix XenDesktop 是已測試為搭配 Lync 使用的實施方案。 如需廠商特有的 VDI 環境及已由 Microsoft 測試的用戶端硬體資訊，請參閱[Microsoft Lync 的基礎結構限定](https://go.microsoft.com/fwlink/?linkid=313435)。
 
-  - **不支援： 遠端桌面工作階段。**   在此案例中，每個使用者用來登入的一般虛擬桌面工作階段無法自訂。 範例實作包括 Microsoft 遠端桌面工作階段 (RDSH)，以及 Citrix XenApp 結合 Citrix 收件者。
+  - **不支援：遠端桌面會話。**    在此案例中，每一位使用者都登入無法自訂的一般虛擬桌面會話。 範例實施包括 Microsoft 遠端桌面會話（RDSH）和 Citrix XenApp 結合 Citrix 接收器。
 
-Lync VDI 外掛程式不支援其他虛擬化技術，例如應用程式虛擬化，而不需要安裝完整的應用程式在本機上允許使用應用程式。 範例實作包含 Citrix XenApp 和 Microsoft Application Virtualization (APP-V)。 不支援應用程式資料流、 應用程式遠端處理和混合式虛擬化模式 （例如，應用程式遠端處理的完整桌面的遠端處理）。
+Lync VDI 外掛程式不支援其他虛擬化技術（例如 application virtualization），允許使用應用程式，而不需要在本機安裝完整的應用程式。 範例實現包括 Citrix XenApp 和 Microsoft Application Virtualization （App-V）。 不支援應用程式流式處理、應用程式遠端處理和混合虛擬化模式（例如，完整桌面遠端處理中的應用程式遠端處理）。
 
-若要允許擴充性，Lync VDI 外掛程式的設計目的在於使用獨立平台的 Api 呼叫動態虛擬通道 (DVCs)。 Lync 不明確支援的案例，請參閱支援從 VDI 解決方案提供者的陳述式。
+為了允許擴充，Lync VDI 外掛程式設計為使用獨立于平臺的 APIs，稱為動態虛擬通道（Dvc）。 如果是 Lync 未明確支援的案例，請參閱 VDI 解決方案提供者的支援聲明。
 
 </div>
 
 <div>
 
-## <a name="known-feature-limitations"></a>已知的功能會受到限制
+## <a name="known-feature-limitations"></a>已知的功能限制
 
-下面是已知限制在 VDI 環境中使用 Lync 2013 時：
+當您在 VDI 環境中使用 Lync 2013 時，已知的限制如下：
 
-  - 沒有有限的支援通話委派與回應群組代理人匿名功能。
+  - 「呼叫委派」和「回應群組代理程式」匿名功能的支援有限。
 
   - 不支援以下功能：
     
       - 整合式音訊裝置及視訊裝置調整頁面。
     
-      - 多重檢視視訊。
+      - 多 view 影片。
     
       - 錄製交談。
     
-      - 遠端桌面服務 (RDS)。
+      - 遠端桌面服務（RDS）。
     
-      - 加入會議匿名 （也就加入與您的組織不同盟的組織所主控的 Lync 會議）。
+      - 以匿名方式加入會議（也就是說，加入由未與您組織建立同盟之組織所主控的 Lync 會議）。
     
-      - 使用 Lync VDI 外掛程式以及 Lync Phone Edition 裝置。
+      - 使用 Lync VDI 外掛程式和 Lync Phone Edition 裝置。
     
       - 在網路中斷連線的情況下延續通話。
     
-      - 自訂等候鈴聲及音樂上保留功能。
+      - 自訂鈴聲和暫止的音樂功能。
 
-  - 在 Office 365 環境中不支援 Lync VDI 外掛程式。
+  - 在 Microsoft 365 或 Office 365 環境中不支援 Lync VDI 外掛程式。
 
 </div>
 

@@ -12,12 +12,12 @@ ms:contentKeyID: 48184946
 ms.date: 08/15/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 34e96ec4aac4573a05e50eb1b13469731068b6db
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 2ce178e57b850ee4003f2596ee075d68ea14e00a
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779559"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221153"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -63,7 +63,7 @@ _**主題上次修改日期：** 2016-08-15_
 
 ## <a name="configure-your-skype-for-business-online-tenant-for-a-shared-sip-address-space"></a>設定共用 SIP 位址空間的商務用 Skype Online 租使用者
 
-會話初始通訊協定（SIP）位址是網路上每位使用者的唯一識別碼，類似于電話號碼或電子郵件地址。 在您嘗試將 Lync 使用者從內部部署移至商務用 Skype Online 之前，您必須設定 Office 365 組織，以與您的內部部署共用共用會話初始通訊協定（SIP）位址空間。 若未設定此設定，您可能會看到下列錯誤訊息：
+會話初始通訊協定（SIP）位址是網路上每位使用者的唯一識別碼，類似于電話號碼或電子郵件地址。 在您嘗試將 Lync 使用者從內部部署移至商務用 Skype Online 之前，您必須設定 Microsoft 365 或 Office 365 組織，以與您的內部部署共用共用會話初始通訊協定（SIP）位址空間。 若未設定此設定，您可能會看到下列錯誤訊息：
 
 Move-CsUser： HostedMigration fault： Error = （510），Description = （此使用者的租使用者未啟用共用 sip 位址空間。）
 
@@ -71,7 +71,7 @@ Move-CsUser： HostedMigration fault： Error = （510），Description = （此
 ```powershell
 Set-CsTenantFederationConfiguration -SharedSipAddressSpace $true
 ```
-若要建立與商務用 Skype Online 的遠端 PowerShell 會話，您必須先安裝適用于 Windows PowerShell 的商務用 Skype Online 模組，您可以在這裡找到[https://go.microsoft.com/fwlink/p/?LinkId=391911](https://go.microsoft.com/fwlink/p/?linkid=391911)：。
+若要建立與商務用 Skype Online 的遠端 PowerShell 會話，您必須先安裝適用于 Windows PowerShell 的商務用 Skype Online 模組，您可以在這裡找到： [https://go.microsoft.com/fwlink/p/?LinkId=391911](https://go.microsoft.com/fwlink/p/?linkid=391911) 。
 
 安裝模組之後，您可以建立具有下列 Cmdlet 的遠端會話：
 
@@ -116,4 +116,3 @@ Set-CsTenantFederationConfiguration -SharedSipAddressSpace $true
 </div>
 
 </div>
-

@@ -12,12 +12,12 @@ ms:contentKeyID: 62258120
 ms.date: 11/13/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e87b977dd70227d134e5feae8df2ea089e216df3
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 5efc642ea326765df138f19fde4e691aa94d6b3b
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780742"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221223"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -55,7 +55,7 @@ _**主題上次修改日期：** 2015-11-13_
     
       - 安裝 Azure Active Directory 同步作業工具。 如需詳細資訊，請參閱 <https://social.technet.microsoft.com/wiki/contents/articles/19098.howto-install-the-windows-azure-active-directory-sync-tool.aspx>。
     
-      - 若要讓您的使用者可以使用單一登入來進行 Lync Online，請安裝 Active Directory <https://social.technet.microsoft.com/wiki/contents/articles/1011.active-directory-federation-services-ad-fs-overview.aspx>Federation Services。
+      - 若要讓您的使用者可以使用單一登入來進行 Lync Online，請安裝 Active Directory Federation Services <https://social.technet.microsoft.com/wiki/contents/articles/1011.active-directory-federation-services-ad-fs-overview.aspx> 。
     
       - 在您的內部部署中，在 Lync Server 管理命令介面中輸入下列 Cmdlet，以建立 Lync Online 的裝載提供者：
         
@@ -117,13 +117,13 @@ _**主題上次修改日期：** 2015-11-13_
     
       - 更新**Lyncdiscover.contoso.com** A 記錄，使其指向內部部署反向 proxy 伺服器的 FQDN。
     
-      - 更新 ***\_sip *。\_tls.contoso.com** SRV 記錄，以解析至 Lync 內部部署的 Access Edge service 的公用 IP 或 VIP 位址。
+      - 更新 *** \_ sip *。 \_tls.contoso.com** SRV 記錄，以解析至 Lync 內部部署的 Access Edge service 的公用 IP 或 VIP 位址。
     
-      - 更新 ***\_sipfederationtls *。\_tcp.contoso.com** SRV 記錄，以解析至 Lync 內部部署的 Access Edge service 的公用 IP 或 VIP 位址。
+      - 更新 *** \_ sipfederationtls *。 \_tcp.contoso.com** SRV 記錄，以解析至 Lync 內部部署的 Access Edge service 的公用 IP 或 VIP 位址。
     
       - 如果您的組織使用分割 DNS （有時稱為「split-大腦 DNS」），請確定透過內部 DNS 區域解析名稱的使用者會定向至前端集區。
 
-6.  輸入`Get-CsUser` Cmdlet 以檢查您將會移動之使用者的一些屬性。 您想確定 HostingProviderProxyFQDN 已設定為`"sipfed.online.lync.com"` ，且 SIP 位址設定正確。
+6.  輸入 `Get-CsUser` Cmdlet 以檢查您將會移動之使用者的一些屬性。 您想確定 HostingProviderProxyFQDN 已設定為 `"sipfed.online.lync.com"` ，且 SIP 位址設定正確。
 
 7.  將 Lync Online 使用者移至 Lync 內部部署。
     
@@ -141,15 +141,15 @@ _**主題上次修改日期：** 2015-11-13_
     
         Get-CsUser -Filter {Hosting Provider -eq "sipfed.online.lync.com"} | Move-CsUser -Target "<fe-pool>.contoso.com" -Credential $creds -HostedMigrationOverrideURL <URL>
     
-    針對**HostedMigrationOverrideUrl**參數所指定的 url 格式，必須是正在執行裝載遷移服務之集區的 url，格式如下： *HTTPS://\<集區 FQDN\>/HostedMigration/hostedmigrationService.svc*。
+    針對**HostedMigrationOverrideUrl**參數所指定的 url 格式，必須是正在執行裝載遷移服務之集區的 url，格式如下： *HTTPS:// \< 集區 FQDN \> /HostedMigration/hostedmigrationService.svc*。
     
-    您可以透過查看 Office 365 組織帳戶的 Lync Online 控制台 URL，判斷主控遷移服務的 URL。
+    您可以透過查看 Microsoft 365 或 Office 365 組織帳戶的 Lync Online 控制台 URL，來決定主控遷移服務的 URL。
     
     <div>
     
-    ## <a name="to-determine-the-hosted-migration-service-url-for-your-office-365-organization"></a>決定 Office 365 組織的主控遷移服務 URL
+    ## <a name="to-determine-the-hosted-migration-service-url-for-your-organizaton"></a>決定 organizaton 的主控遷移服務 URL
     
-    1.  以系統管理員身分登入您的 Office 365 組織。
+    1.  以管理員身分登入您的 Microsoft 365 或 Office 365 組織。
     
     2.  開啟**Lync 系統管理中心**。
     
@@ -173,7 +173,7 @@ _**主題上次修改日期：** 2015-11-13_
     
 
     > [!NOTE]  
-    > Rtcxds 資料庫之交易記錄檔的預設大小上限為 16 GB。 如果您同時移動大量的使用者，尤其是當您已啟用鏡像，這樣做可能會不夠大。 若要解決此問題，您可以定期增加檔案大小或備份記錄檔。 如需詳細資訊， <A class=uri href="https://support.microsoft.com/kb/2756725">https://support.microsoft.com/kb/2756725</A>請參閱。
+    > Rtcxds 資料庫之交易記錄檔的預設大小上限為 16 GB。 如果您同時移動大量的使用者，尤其是當您已啟用鏡像，這樣做可能會不夠大。 若要解決此問題，您可以定期增加檔案大小或備份記錄檔。 如需詳細資訊，請參閱 <A class=uri href="https://support.microsoft.com/kb/2756725">https://support.microsoft.com/kb/2756725</A> 。
 
     
     </div>
