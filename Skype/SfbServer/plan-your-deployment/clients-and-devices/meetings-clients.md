@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: 摘要： IT 專業人員應該在規劃商務用 Skype Server 時，查看商務用 Skype Web App 和 Skype 會議應用程式的支援需求。 本文並非適用于這些應用程式的使用者。
-ms.openlocfilehash: 0e1ce225f99a112f11d55d76eb8039a10d9aac6b
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 30397c922dbc5bb8578714d70712f90d7e14ca4c
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777788"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221043"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>規劃會議用戶端（Web 應用程式和會議應用程式）
  
@@ -33,14 +33,14 @@ ms.locfileid: "43777788"
 稍後，這些使用者可能會建立會議並邀請來自組織外部的使用者，而這些會議被邀請者可能沒有任何版本的商務用 Skype 用戶端。 當使用者按一下會議邀請的 URL 時，就會偵測到缺少用戶端，而且不需要商務用 Skype 用戶端的被邀請者，也會要求您下載並安裝輕量、只有會議的用戶端，這樣他們才可以加入會議。
   
 > [!NOTE]
-> 只有在沒有商務用 Skype 的情況下嘗試登入會議時，才可使用商務用 Skype Web App 和 Skype 會議應用程式。 這些應用程式的使用者説明位於[https://aka.ms/smahelp](https://aka.ms/smahelp)。 
+> 只有在沒有商務用 Skype 的情況下嘗試登入會議時，才可使用商務用 Skype Web App 和 Skype 會議應用程式。 這些應用程式的使用者説明位於 [https://aka.ms/smahelp](https://aka.ms/smahelp) 。 
   
 > [!NOTE]
 > 您無法預先安裝商務用 Skype Web App 或 Skype 會議應用程式，但[smart phone](https://products.office.com/skype-for-business/download-app?tab=tabs-1)和[平板](https://products.office.com/skype-for-business/download-app?tab=tabs-2)電腦使用者可能能夠安裝可用於參加會議的廉價行動用戶端。
   
 根據預設，主控會議的伺服器會指導使用者下載及安裝商務用 Skype Web App 加入會議。 商務用 Skype Web App 會儲存在前端伺服器上，並傳送給會議出席者。 
   
-在商務用 Skype Server 中，Skype 會議應用程式（在 Windows 上）和商務用 Skype for Mac （Mac）可作為商務用 skype Web App 的取代，以供開始使用 CU5，但提供更換應用程式需要啟用 Skype 會議應用程式中所述的其他設定，[才能取代商務用 Skype Web app （選用）](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable)。  如果啟用 Skype 會議應用程式和商務用 Skype for Mac，使用者將從 Office 365 內容傳遞網路（CDN）下載最新版本的應用程式，而不是從您的商務用 Skype 伺服器下載。 針對商務用 Skype Server 2019，使用 Skype 會議應用程式和商務用 Skype for Mac 是唯一的選項。
+在商務用 Skype Server 中，Skype 會議應用程式（在 Windows 上）和商務用 Skype for Mac （Mac）可作為商務用 skype Web App 的取代，以供開始使用 CU5，但提供更換應用程式需要啟用 Skype 會議應用程式中所述的其他設定，[才能取代商務用 Skype Web app （選用）](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable)。 如果啟用 Skype 會議應用程式和商務用 Skype for Mac，使用者將從 Microsoft 365 或 Office 365 內容傳遞網路（CDN）下載最新版本的應用程式，而不是從您的商務用 Skype 伺服器下載。 針對商務用 Skype Server 2019，使用 Skype 會議應用程式和商務用 Skype for Mac 是唯一的選項。
   
 Skype 會議應用程式提供簡化的瀏覽器體驗，可供下載及安裝應用程式，以及加入會議（包括針對 Internet Explorer 的使用者進行點擊式加入）。 Skype 會議應用程式在可靠性和會議體驗上的商務用 Skype Web App 也有許多改進功能。 
   
@@ -130,7 +130,7 @@ Skype 會議應用程式在使用 Windows 10、Windows 8.1、Windows 8、Windows
 |進行投票  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
 |上傳與其他人共用的檔案  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
 |排程會議或會議  <br/> |Outlook 或商務用 Skype Web 排程器  <br/> |Outlook 或商務用 Skype Web 排程器  <br/> |商務用 Skype Web 排程器  <br/> |商務用 Skype Web 排程器  <br/> |商務用 Skype Web 排程器  <br/> |
-|Q&amp;A 主管  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
+|Q &amp; A 主管  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
 |停用出席者影片  <br/> |&#x2714;|||||
 |停用會議 IM  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
 |靜音物件  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
@@ -166,7 +166,7 @@ Skype 會議應用程式在使用 Windows 10、Windows 8.1、Windows 8、Windows
 
 在商務用 Skype Server 2015 CU5 中，不支援 ASP.NET 4.6 的 AES，這可能會導致 Skype 會議應用程式無法啟動。 [因 ASP .net 4.5](../security/user-and-client-authentication.md#cryptographic-requirements-due-to-asp-net-45)所產生的密碼編譯需求更詳細。
   
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 <a name="BKMK_Conferencing"> </a>
 
 [在商務用 Skype Server 中部署 Web 可下載的用戶端](../../deploy/deploy-clients/deploy-web-downloadable-clients.md)

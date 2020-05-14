@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 本文說明實施 Microsoft Cloud 語音信箱服務的優點、規劃考慮和需求。 如需設定雲端語音信箱的詳細資訊，請參閱設定雲端語音信箱。
-ms.openlocfilehash: 30a4983c79f4a7cddd274c272b5a094c17653bbb
-ms.sourcegitcommit: 7c08d88dcaa85e34e93131bb9a5a64597c6d8155
+ms.openlocfilehash: e07dfe76a60d107702891384458cf164a4744578
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44210629"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221283"
 ---
 # <a name="plan-cloud-voicemail-service-for-on-premises-users"></a>規劃內部部署使用者的雲端語音信箱服務
 
@@ -31,7 +31,7 @@ ms.locfileid: "44210629"
 
 - 使用商務用 Skype Online 或 Outlook 用戶端，存取使用者的 Exchange 信箱中的語音信箱
 
-- 使用 Office 365 web 入口網站管理語音信箱選項的能力
+- 使用 Microsoft 365 系統管理中心管理語音信箱選項的功能
 
 - 支援內部部署或雲端的 Exchange 信箱
 
@@ -46,7 +46,7 @@ ms.locfileid: "44210629"
 - 不需要設定 Exchange UM 角色。
 - 雲端語音信箱的設定工作變得更簡單。
 - 語音信箱功能的更新是直接在雲端中傳遞，所以您的使用者永遠可以存取最新的功能和更新，但不依賴累計更新（Cu）。
-- 您可以在內部部署和線上 Exchange 信箱中使用相同的控制項集合。 如需這些控制項的詳細資訊，請參閱[Set Up Phone 系統語音信箱](https://support.office.com/article/Set-up-Phone-System-voicemail-Admin-help-9c590873-b014-4df3-9e27-1bb97322a79d?ui=en-US&rs=en-US&ad=US)。
+- 您可以在內部部署和線上 Exchange 信箱中使用相同的控制項集合。 如需這些控制項的詳細資訊，請參閱[Set Up Phone 系統語音信箱](https://support.office.com/article/Set-up-Phone-System-voicemail-Admin-help-9c590873-b014-4df3-9e27-1bb97322a79d)。
 
 下圖顯示混合式部署中的雲端語音信箱：
 
@@ -73,7 +73,7 @@ ms.locfileid: "44210629"
 
 - 混合連接。 如果您已部署商務用 Skype Server，而且想要為您的內部部署使用者啟用雲端語音信箱，您必須確定您的內部部署與線上環境之間已設定混合式連線能力。 這有時稱為分割網域設定。
 
-   如需詳細資訊，請參閱[規劃商務用 Skype server 與 office 365 之間的混合](plan-hybrid-connectivity.md)式連線，以及[設定商務用 Skype server 與 office 365 之間的混合式連接](configure-hybrid-connectivity.md)。
+   如需詳細資訊，請參閱[規劃商務用 Skype server 與 Microsoft 365 或 office 365 之間的混合](plan-hybrid-connectivity.md)式連線，以及[設定商務用 Skype server 與 office 365 的混合](configure-hybrid-connectivity.md)式連線。
 
 - 內部部署使用者必須在商務用 Skype Server 中啟用 Enterprise Voice 和主控語音信箱。
 

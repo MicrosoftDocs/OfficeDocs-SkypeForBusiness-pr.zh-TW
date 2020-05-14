@@ -13,18 +13,18 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 700639ec-5264-4449-a8a6-d7386fad8719
 description: 摘要：設定商務用 Skype Server 混合式環境的伺服器對伺服器驗證。
-ms.openlocfilehash: 191d5d2f391df73401ff27e8c71a60624e74296c
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 6cc408677af4629d36b577da4ae38cd420195483
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780732"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221677"
 ---
 # <a name="configure-server-to-server-authentication-for-a-skype-for-business-server-hybrid-environment"></a>設定商務用 Skype Server 混合式環境的伺服器對伺服器驗證。
 
 **摘要：** 設定商務用 Skype Server 混合式環境的伺服器對伺服器驗證。
 
-在混合式設定中，您的部分使用者是駐留在內部部署商務用 Skype Server，而其他使用者則位於 Office 365 版本的商務用 Skype Server 上。 為了設定混合式環境中的伺服器對伺服器驗證，您必須先將內部部署的商務用 Skype 伺服器設定為信任 Office 365 授權伺服器。 您可以執行下列商務用 Skype Server 管理命令介面腳本，以執行此程式的初始步驟：
+在混合式設定中，您的部分使用者是駐留在內部部署商務用 Skype Server，而其他使用者則是位於 Microsoft 365 或 Office 365 版本的商務用 Skype Server 上。 若要設定混合式環境中的伺服器對伺服器驗證，您必須先將內部部署安裝的商務用 Skype 伺服器設定為信任授權伺服器。 您可以執行下列商務用 Skype Server 管理命令介面腳本，以執行此程式的初始步驟：
 
 ```PowerShell
 $TenantID = (Get-CsTenant -Filter {DisplayName -eq "Fabrikam.com"}).TenantId
@@ -75,11 +75,11 @@ $TenantID = (Get-CsTenant -Filter {DisplayName -eq "Fabrikam.com"}).TenantId
 若要執行此腳本，您必須已安裝商務用 Skype Online PowerShell 模組，並使用此模組連線到您的租使用者。 若尚未安裝這些 Cmdlet，您的腳本將會失敗，因為 Get-CsTenant Cmdlet 將無法使用。 腳本完成之後，您必須設定商務用 Skype Server 與授權伺服器之間的信任關係，以及 Exchange 2013/2016 和授權伺服器之間的第二個信任關係。 唯有使用 Microsoft Online Services Cmdlet 才能完成這項作業。
 
 > [!NOTE]
-> 若尚未安裝 Microsoft Online Services Cmdlet，您需要使用 Cmdlet `install-module MSOnline`從 PowerShell 存放庫進行安裝。 您可以在 Office 365 網站找到有關安裝及使用 Microsoft Online Services 模組的詳細資訊。 這些說明也將告訴您如何設定 Office 365 與 Active Directory 之間的單一登入、同盟與同步處理。 
+> 若尚未安裝 Microsoft Online Services Cmdlet，您需要使用 Cmdlet 從 PowerShell 存放庫進行安裝 `install-module MSOnline` 。 有關安裝及使用 Microsoft Online Services 模組的詳細資訊，可在 Microsoft 365 網站上找到。 這些指示也會告訴您如何在 Microsoft 365 或 Office 365 和 Active Directory 之間設定單一登入、同盟及同步處理。 
 
 
 
-在您設定 Office 365 之後，以及為商務用 Skype Server 和 Exchange 2013 建立 Office 365 服務主體之後，您將需要使用這些服務主體註冊您的認證。 為了達到此目的，您必須先取得 x.509 Base64 憑證另存為。CER 檔案。 接著此憑證將會套用至 Office 365 服務主體。
+在您設定 Microsoft 365 或 Office 365 之後，以及為商務用 Skype Server 和 Exchange 2013 建立 Microsoft 365 或 Office 365 服務主體之後，您將需要使用這些服務主體註冊您的認證。 為了達到此目的，您必須先取得 x.509 Base64 憑證另存為。CER 檔案。 然後將此憑證套用至 Microsoft 365 或 Office 365 服務主體。
 
 當您取得 x.509 憑證之後，請開啟 PowerShell 主控台，然後匯入 Microsoft Online Windows PowerShell 模組，其中包含可用於管理服務主體的 Cmdlet：
 
@@ -87,7 +87,7 @@ $TenantID = (Get-CsTenant -Filter {DisplayName -eq "Fabrikam.com"}).TenantId
 Import-Module MSOnline
 ```
 
-匯入模組後，請鍵入下列命令並按下 ENTER 鍵，以連線至 Office 365：
+匯入模組後，請輸入下列命令，然後按 ENTER：
 
 ```PowerShell
 Connect-MsolService
@@ -95,7 +95,7 @@ Connect-MsolService
 
 按下 ENTER 鍵後，將會出現認證對話方塊。 在對話方塊中輸入您的 Microsoft 365 或 Office 365 使用者名稱和密碼，然後按一下 [確定]。
 
-當您連線至 Office 365 後，您就可以執行下列命令，以傳回服務主體的相關資訊：
+當您連線至 Microsoft 365 或 Office 365 後，您就可以執行下列命令，以傳回服務主體的相關資訊：
 
 ```PowerShell
 Get-MsolServicePrincipal
@@ -120,10 +120,10 @@ TrustedForDelegation : True
 $certificate = New-Object System.Security.Cryptography.X509Certificates.X509Certificate
 $certificate.Import("C:\Certificates\Office365.cer")
 $binaryValue = $certificate.GetRawCertData()
-$credentialsValue = [System.Convert]::ToBase64String($binaryValue)
+$credentialsValue = [System.Convert]::ToBase64String($binaryValue) 
 ```
 
-憑證匯入且完成編碼後，接著您可以將憑證指派至 Office 365 服務主體。 若要這麼做，請先使用 New-msolserviceprincipal，以取得商務用 Skype Server 和 Microsoft Exchange 服務主體的 AppPrincipalId 屬性值;AppPrincipalId 屬性的值將用來識別被指派憑證的服務主體。 使用適用于商務用 Skype Server 的 AppPrincipalId 屬性值，使用下列命令將憑證指派至商務用 Skype Online 版本：
+在匯入並編碼憑證之後，您可以將憑證指派給您的 Microsoft 365 或 Office 365 服務主體。 若要這麼做，請先使用 New-msolserviceprincipal，以取得商務用 Skype Server 和 Microsoft Exchange 服務主體的 AppPrincipalId 屬性值;AppPrincipalId 屬性的值將用來識別被指派憑證的服務主體。 使用適用于商務用 Skype Server 的 AppPrincipalId 屬性值，使用下列命令將憑證指派至商務用 Skype Online 版本：
 
 ```PowerShell
 New-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000 -Type Asymmetric -Usage Verify -Value $credentialsValue 
@@ -154,7 +154,7 @@ Usage     : Verify
 Remove-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000 -KeyId bc2795f3-2387-4543-a95d-f92c85c7a1b0
 ```
 
-除了指派憑證之外，您還必須設定 Exchange Online 服務主體，並將內部部署版本的商務用 Skype Server 外部 Web 服務 URLs 當做 Office 365 服務主體。 您可以執行下列兩個命令來執行此動作。 
+除了指派憑證之外，您還必須設定 Exchange Online 服務主體，並將內部部署版本的商務用 Skype Server 外部 Web 服務 URLs 為 Microsoft 365 或 Office 365 服務主體。 您可以執行下列兩個命令來執行此動作。 
 
 在下列範例中，Pool1ExternalWebFQDN.contoso.com 是商務用 Skype 伺服器集區的外部 Web 服務 URL。 您應重複這些步驟，以在部署中新增所有外部 Web 服務 URLs。
 

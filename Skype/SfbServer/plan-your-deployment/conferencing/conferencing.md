@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 10add1ea-d693-406c-9dc9-853df0ab05da
 description: 摘要：閱讀此主題以瞭解商務用 Skype Server 中的會議功能和功能。
-ms.openlocfilehash: feaa3dbbe3d05b09e3490ef160ceb21816ae7d5e
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 1c67eecda6c7691dfbb042f4743733b73864a426
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780422"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221163"
 ---
 # <a name="plan-for-conferencing-in-skype-for-business-server"></a>在商務用 Skype Server 中規劃會議
  
@@ -136,7 +136,7 @@ Web 會議可讓會議出席者共同作業在會議期間共用的檔，以及�
     
 如需管理大型會議的詳細資訊，請參閱[在商務用 Skype Server 中規劃大型會議](large-meetings.md)。
   
-如果您的組織需要更大的會議能力，您應該考慮實施使用 Skype 會議廣播的混合式環境，這是 Office 365 的一部分線上服務。 Skype 會議廣播可讓使用者主控及廣播會議至最多10000參與者的大型線上受眾。 使用 Skype 會議廣播時，必須已在實際執行 Office 365 組織的混合式設定中設定商務用 Skype 伺服器。 所有使用者都必須以必要條件建立線上承租人。 如果您想要部署可利用 Skype 會議廣播的混合式解決方案，請參閱[設定您的內部部署以進行 Skype 會議廣播](../../deploy/configure-skype-meeting-broadcast.md)。
+如果您的組織需要較大的會議能力，您應該考慮實施使用 Skype 會議廣播的混合式環境，這是 Microsoft 365 和 Office 365 中的一項線上服務。 Skype 會議廣播可讓使用者主控及廣播會議至最多10000參與者的大型線上受眾。 使用 Skype 會議廣播時，必須已在實際執行 Microsoft 365 或 Office 365 組織的混合式設定中設定商務用 Skype 伺服器。 所有使用者都必須以必要條件建立線上承租人。 如果您想要部署可利用 Skype 會議廣播的混合式解決方案，請參閱[設定您的內部部署以進行 Skype 會議廣播](../../deploy/configure-skype-meeting-broadcast.md)。
   
 ## <a name="determine-your-organizations-needs"></a>決定組織的需求
 

@@ -1,5 +1,5 @@
 ---
-title: 修改現有 Cloud Connector 部署的設定
+title: 修改現有 Cloud Connector 部署的組態
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -16,14 +16,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 90490c65-0e40-4e85-96e1-751f27897e25
 description: 遵循此主題中的步驟，修改現有商務用 Skype 雲端連接器 Edition 1.4.1 或更新版本的設定。
-ms.openlocfilehash: 77e9940e10cc356afbade5592bf41a0cdba66b0f
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 4b551d7cd7a61a1113b4b2bb05e2c0f5ca4f3288
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779379"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220293"
 ---
-# <a name="modify-the-configuration-of-an-existing-cloud-connector-deployment"></a>修改現有 Cloud Connector 部署的設定
+# <a name="modify-the-configuration-of-an-existing-cloud-connector-deployment"></a>修改現有 Cloud Connector 部署的組態
  
 遵循此主題中的步驟，修改現有商務用 Skype 雲端連接器 Edition 1.4.1 或更新版本的設定。 
   
@@ -109,7 +109,7 @@ ms.locfileid: "43779379"
 
 若要在部署中修改多個網站的設定，請遵循單一網站的步驟，一次更新一個網站。
   
-## <a name="modify-the-configuration-of-your-office-365-organization-to-enable-automatic-updates"></a>修改 Office 365 組織的設定以啟用自動更新
+## <a name="modify-the-configuration-of-your-microsoft-365-or-office-365-organization-to-enable-automatic-updates"></a>修改 Microsoft 365 或 Office 365 組織的設定以啟用自動更新
 <a name="BKMK_MultipleSites"> </a>
 
 若要啟用作業系統自動更新和 Bits 自動更新，您必須使用商務用 Skype 租使用者系統管理員帳戶進行線上管理，並使用租使用者遠端 PowerShell，如下所示。
@@ -161,9 +161,9 @@ ms.locfileid: "43779379"
 ## <a name="update-the-dedicated-tenant-admin-credentials"></a>更新專用的租使用者系統管理員認證
 <a name="BKMK_MultipleSites"> </a>
 
-您可以從具有必要許可權的帳戶，從 Office 365 組織中取得雲端連接器的系統管理變更。 在2.0 之前的雲端連接器版本中，該帳戶是專用的全域租使用者管理員帳戶。 在雲端連接器版本2.0 和更新版本中，該帳戶可以是具有商務用 Skype 系統管理員許可權的 Office 365 帳戶。
+您可以使用具有必要許可權的帳戶，從 Microsoft 365 或 Office 365 組織中的雲端連接器進行管理變更。 在2.0 之前的雲端連接器版本中，該帳戶是專用的全域租使用者管理員帳戶。 在雲端連接器版本2.0 和更新版本中，該帳戶可以是具有商務用 Skype 系統管理員許可權的 Microsoft 365 或 Office 365 帳戶。
   
-如果您的系統管理員帳號憑證變更于 Office 365，您也需要在您已部署的每個雲端連接器裝置上執行下列管理員 PowerShell 命令，以更新雲端連接器中的本機快取認證：
+如果您的系統管理員帳號憑證變更于 Microsoft 365 或 Office 365，您也需要在您已部署的每個雲端連接器裝置上執行下列管理員 PowerShell 命令，以更新雲端連接器中的本機快取認證：
   
 ```powershell
 Set-CcCredential -AccountType TenantAdmin
@@ -175,7 +175,7 @@ Set-CcCredential -AccountType TenantAdmin
 > [!NOTE]
 > 本節適用于雲端連接器版本2.0 和更新版本。 
   
-所有雲端連接器認證都儲存在下列檔案中： "%SystemDrive%\Programdata\Cloudconnector\credentials。\<CurrentUser\>.xml "。 當主伺服器上的密碼變更時，您將需要更新本機儲存的認證。
+所有雲端連接器認證都儲存在下列檔案中： "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser \> .xml "。 當主伺服器上的密碼變更時，您將需要更新本機儲存的認證。
   
 若要在雲端連接器裝置上更新本機儲存的認證，請使用[CcCredential](get-cccredential.md)和[CcCredential](set-cccredential.md)指令程式，然後遵循下列步驟：
   
@@ -191,7 +191,7 @@ Set-CcCredential -AccountType TenantAdmin
     
 3. 重新開機主機伺服器。
     
-4. 刪除下列檔案： "%SystemDrive%\Programdata\Cloudconnector\credentials。\<CurrentUser\>.xml "。
+4. 刪除下列檔案： "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser \> .xml "。
     
 5. 以系統管理員身分啟動 PowerShell 主控台，然後執行「Register-CcAppliance-Local」，以在描述之後重新輸入密碼。 請確定輸入的密碼與您在雲端連接器部署之前輸入的密碼相同。
     
@@ -215,7 +215,7 @@ Set-CcCredential -AccountType TenantAdmin
 > [!NOTE]
 > 本節適用于雲端連接器2.0.1 版及更新版本。 
   
-雲端連接器服務會執行雲端連接器管理服務。 在雲端連接器版本部署期間建立 CceService 帳戶，並儲存在下列檔案中： "%SystemDrive%\Programdata\Cloudconnector\credentials。\<CurrentUser\>.Xml "和"%SystemDrive%\Programdata\Cloudconnector\credentials。。CceService。
+雲端連接器服務會執行雲端連接器管理服務。 在雲端連接器版本部署期間建立 CceService 帳戶，並儲存在下列檔案中： "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser \> .xml "和"%SystemDrive%\Programdata\Cloudconnector\credentials。。CceService。
   
 為了確保所有裝置都可以存取網站目錄共用，CceService 帳戶的密碼在網站中部署的所有裝置上都必須相同。 請記住下列事項：
   
@@ -271,18 +271,18 @@ Set-CcCredential -AccountType TenantAdmin
     
     - CcLockFile
     
-    - Site_\<Edge 外部 Sip 集區 fqdn\>
+    - Site_ \< Edge 外部 Sip 集區 fqdn\>
     
-    - Tenant_\<Edge 外部 Sip 集區 fqdn\>
+    - Tenant_ \< Edge 外部 Sip 集區 fqdn\>
     
-    - TenantConfigLock_\<Edge 外部 Sip 集區 fqdn\>
+    - TenantConfigLock_ \< Edge 外部 Sip 集區 fqdn\>
     
 ## <a name="add-a-new-sip-domain"></a>新增 SIP 網域
 <a name="BKMK_UpdatePassword"> </a>
 
 若要將新的 SIP 網域（或多個 SIP 網域）新增至現有的雲端連接器部署，請執行下列操作：
   
-1. 請確認您已完成在 Office 365 更新您的網域的步驟，並且具備新增 DNS 記錄的能力。 如需如何在 Office 365 中設定網域的相關資訊，請參閱[Add a domain To Office 365](https://support.office.com/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)。
+1. 請確認您已完成在 Microsoft 365 或 Office 365 中更新網域的步驟，並且具備新增 DNS 記錄的能力。 如需如何在 Microsoft 365 或 Office 365 中設定網域的詳細資訊，請參閱[Add a domain To Microsoft 365 Or Office 365](https://support.office.com/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)。
     
 2. 使用新的 SIP 網域或網域更新雲端連接器的設定檔。
     
@@ -303,7 +303,7 @@ Set-CcCredential -AccountType TenantAdmin
 
 如果您需要在您的雲端連接器部署中變更主要 SIP 網域，請執行下列操作：
   
-1. 請確認您已完成在 Office 365 更新您的網域的步驟，並且具備新增 DNS 記錄的能力。 如需如何在 Office 365 中設定網域的相關資訊，請參閱[Add a domain To Office 365](https://support.office.com/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)。
+1. 請確認您已完成在 Microsoft 365 或 Office 365 中更新網域的步驟，並且具備新增 DNS 記錄的能力。 如需如何在 Microsoft 365 或 Office 365 中設定網域的詳細資訊，請參閱[Add a domain To Microsoft 365 Or Office 365](https://support.office.com/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)。
     
 2. 使用新的 SIP 網域更新雲端連接器的設定檔。
     

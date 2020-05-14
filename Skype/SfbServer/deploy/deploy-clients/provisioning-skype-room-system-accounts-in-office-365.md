@@ -12,18 +12,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
 description: 閱讀此主題以瞭解如何在 Microsoft 365 或 Office 365 中布建 Skype 室系統帳戶。
-ms.openlocfilehash: e2796d9a81f918c0503382e23aad5ead711240e7
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: dd79081c690863a5851295ab48a950b3f7af66af
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779709"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221847"
 ---
 # <a name="provisioning-skype-room-system-accounts-in-microsoft-365-and-office-365"></a>在 Microsoft 365 和 Office 365 中布建 Skype 室系統帳戶
  
-閱讀此主題以瞭解如何在 Office 365 中布建 Skype 室系統帳戶。
+閱讀此主題以瞭解如何在 Microsoft 365 或 Office 365 中布建 Skype 室系統帳戶。
   
-下列章節涵蓋 Office 365 組織的 Skype 會議室系統帳戶布建。
+下列章節涵蓋 Skype 會議室系統帳戶布建。
   
 ## <a name="microsoft-365-and-office-365-prerequisites"></a>Microsoft 365 和 Office 365 必要條件
 
@@ -41,7 +41,7 @@ ms.locfileid: "43779709"
     
   - 商務用 Skype Online 遠端 PowerShell 存取
     
-  - Windows Azure Active Directory Module for Windows PowerShell 存取 Office 365 目錄存取權
+  - Windows Azure Active Directory Module for Windows PowerShell，用以存取 Microsoft 365 或 Office 365 目錄存取權
     
 若為 Skype 聊天室帳戶，則需要下列授權：
   
@@ -55,9 +55,9 @@ ms.locfileid: "43779709"
     
 ## <a name="provisioning-overview"></a>布建概述
 
-下圖提供 Office 365 中 Skype 會議室系統帳戶布建流程的概述。
+下圖概要說明 Skype 室系統帳戶布建流程。
   
-![O365 的 Skype 會議室系統布建步驟](../../media/354c5659-317b-4e85-a1bc-c60c07f305a4.png)
+![Skype 會議室系統布建步驟](../../media/354c5659-317b-4e85-a1bc-c60c07f305a4.png)
   
 ## <a name="identify-a-new-conference-room"></a>識別新的會議室
 
@@ -93,7 +93,7 @@ New-Mailbox -Name "Conf Room 2" -MicrosoftOnlineServicesID $rm -Room  -EnableRoo
 
 ## <a name="assigning-a-skype-for-business-online-license"></a>指派商務用 Skype Online 授權
 
-現在，您可以使用 Office 365 管理入口網站來指派商務用 Skype Online （Plan 2）或商務用 skype Online （Plan 3）授權，如[指派或移除 office 365 for](https://support.office.com/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&amp;rs=en-US&amp;ad=US) Business 或[商務用 Skype 附加元件授權](https://support.office.com/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)中所述。 
+現在，您可以使用 Microsoft 365 管理入口網站（如[指派或移除 microsoft 365 for](https://support.office.com/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&amp;rs=en-US&amp;ad=US) Business 或[商務用 Skype 附加元件授權](https://support.office.com/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)中所述），指派或移除商務用 skype online （Plan 2）或商務用 skype online （plan 3）授權。 
   
 在您指派商務用 Skype Online 的授權後，您就可以使用任何商務用 Skype 用戶端，登入並驗證帳戶是否為作用中。
   
@@ -126,7 +126,7 @@ New-Mailbox -Name "Conf Room 2" -MicrosoftOnlineServicesID $rm -Room  -EnableRoo
 
 ## <a name="password-expiration"></a>密碼過期
 
-在 Office 365 中，除非您設定其他密碼到期原則，否則所有使用者帳戶的預設密碼到期原則都會是90天。 若為 Skype 會議室系統帳戶，您可以使用下列步驟，選取 [密碼永不到期] 設定。
+在 Microsoft 365 或 Office 365 中，所有使用者帳戶的預設密碼到期原則都是90天，除非您設定其他密碼到期原則。 若為 Skype 會議室系統帳戶，您可以使用下列步驟，選取 [密碼永不到期] 設定。
   
 1. 使用您的租使用者全域系統管理員認證，建立 Windows Azure Active Directory 會話。
     

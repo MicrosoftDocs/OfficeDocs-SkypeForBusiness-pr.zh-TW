@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 摘要：在內部部署中為混合式啟用商務用 Skype Server 的內部部署，您可以在內部部署環境與雲端之間移動使用者（不論是 Microsoft 團隊或商務用 Skype Online）。
-ms.openlocfilehash: aea3bed7db6c7821d957aa0e6d56cbafd548edb7
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: eede6062bd9d03a2d9d6062a6dacb861ce37e14c
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780082"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221123"
 ---
 # <a name="move-users-between-on-premises-and-cloud"></a>在內部部署和雲端之間移動使用者
 
@@ -41,8 +41,8 @@ ms.locfileid: "43780082"
 - 組織必須正確地設定 Azure AD Connect，並依照[Configure AZURE Ad connect](configure-azure-ad-connect.md)中所述的方式，同步處理使用者的所有相關屬性。
 - 必須設定商務用 skype 混合（如[設定商務用 skype 混合](configure-federation-with-skype-for-business-online.md)式中所述）。
 - 必須為使用者指派商務用 Skype Online (方案2) 的授權，而如果要使用 Teams，使用者也必須擁有 Teams 的授權。  此外：
-    - 如果使用者已在內部部署中啟用電話撥入式會議，則預設情況下，使用者在執行移動使用者的線上之前，還必須在 Office 365 中指派音訊會議授權。 使用者一旦移轉到雲端，就會在雲端中佈建 [音訊會議]。 若由於某些原因您想要將使用者移至雲端，但未使用音訊會議功能，您可以在中`BypassAudioConferencingCheck` `Move-CsUser`指定參數，以覆寫此檢查。
-    - 如果使用者已在內部部署中啟用 Enterprise Voice，使用者在線上移動使用者之前，必須先在 Office 365 中指派電話系統授權。 使用者一旦移轉到雲端，就會在雲端中佈建 [電話系統]。 若由於某些原因您想要將使用者移至雲端，但未使用電話系統功能，您可以在中`BypassEnterpriseVoiceCheck` `Move-CsUser`指定參數，以覆寫此檢查。
+    - 如果使用者已在內部部署中啟用電話撥入式會議，則預設情況下，使用者在執行移動使用者的線上之前，還必須在 Microsoft 365 或 Office 365 中指派音訊會議授權。 使用者一旦移轉到雲端，就會在雲端中佈建 [音訊會議]。 若由於某些原因您想要將使用者移至雲端，但未使用音訊會議功能，您可以在中指定參數，以覆寫此檢查 `BypassAudioConferencingCheck` `Move-CsUser` 。
+    - 如果使用者已在內部部署中啟用 Enterprise Voice，使用者在線上移動使用者之前，必須先在 Microsoft 365 或 Office 365 中指派電話系統授權。 使用者一旦移轉到雲端，就會在雲端中佈建 [電話系統]。 若由於某些原因您想要將使用者移至雲端，但未使用電話系統功能，您可以在中指定參數，以覆寫此檢查 `BypassEnterpriseVoiceCheck` `Move-CsUser` 。
 
 
 ## <a name="moving-users"></a>移動使用者
@@ -62,13 +62,13 @@ ms.locfileid: "43780082"
 
 ## <a name="required-administrative-credentials"></a>所需的系統管理認證
 
-若要在內部部署與雲端之間移動使用者，您必須在內部部署商務用 Skype 伺服器環境和 Office 365 組織中使用具有足夠許可權的帳戶。 您可以使用一個具有所有必要權限的帳戶，或使用兩個帳戶。無論何種狀況您都會使用內部部署認證來存取內部部署工具，然後在這些工具中供應 Office 365 系統管理帳戶的額外認證。  
+若要在內部部署與雲端之間移動使用者，您必須在內部部署商務用 Skype 伺服器環境和 Microsoft 365 或 Office 365 組織中使用具有足夠許可權的帳戶。 您可以使用一個具有所有必要許可權的帳戶，也可以使用兩個帳戶，在這種情況下，您會使用內部部署認證來存取內部部署工具，然後在這些工具中，您會為 Microsoft 365 或 Office 365 系統管理帳戶提供額外的認證。  
 
 - 在內部部署環境中，執行移動的使用者必須具備商務用 Skype Server 中的 CSServerAdminstrator 角色。
-- 在 Office 365 中，執行移動的使用者必須是全域管理員，或者必須同時擁有商務用 Skype 系統管理員和使用者系統管理員的角色。  
+- 在 Microsoft 365 和 Office 365 中，執行移動的使用者必須是全域系統管理員或同時具有商務用 Skype 管理員和使用者管理員角色。  
 
     > [!Important]
-    > - 如果您使用的是商務用 Skype 系統管理員控制台，系統會提示您使用適當的角色為 Office 365 帳戶提供認證，如上所述。 您必須提供一個以 onmicrosoft.com 結尾的帳戶。 如果無法做到，請使用 Move-CsUser Cmdlet。
+    > - 如果您使用的是商務用 Skype 系統管理員控制台，系統會提示您使用適當的角色為 Microsoft 365 或 Office 365 帳戶提供認證，如上所述。 您必須提供一個以 onmicrosoft.com 結尾的帳戶。 如果無法做到，請使用 Move-CsUser Cmdlet。
     >- 如果您是在 PowerShell 中使用 Move-CsUser，您可以使用 onmicrosoft.com 中的任何內部部署帳戶，也可以使用任何已同步處理至 Azure AD 的內部部署帳戶，前提是您也在 Cmdlet 中指定 HostedMigrationOverrideUrl 參數。 裝載的遷移覆寫 URL 的值為下列 URL: 的 variant。https://adminXX.online.lync.com/HostedMigration/hostedmigrationService.svc<br>在上述 URL 中，以兩個或三個字元取代 XX，如下所示：
     >   - 在商務用 Skype Online PowerShell 會話中，執行下列 Cmdlet：<br>`Get-CsTenant|ft identity`
     >    - 產生的值會是下列格式：<br>`OU=<guid>,OU=OCS Tenants,DC=lyncXX001,DC=local`
@@ -90,7 +90,7 @@ ms.locfileid: "43780082"
 
 內部部署和線上環境中的原則 (例如，控制訊息、會議、通話行為) 互不相干。 您可以考慮在環境中設定任何原則，並將其指派給使用者，然後再將該使用者從內部部署移至雲端，使其在遷移到線上時立即具備正確的設定。
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 [將使用者從內部部署移動至商務用 Skype Online](move-users-from-on-premises-to-skype-for-business-online.md)
 

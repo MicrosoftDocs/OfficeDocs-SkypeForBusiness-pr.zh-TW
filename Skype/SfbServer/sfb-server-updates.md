@@ -13,18 +13,18 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: 在單一位置尋找及管理商務用 Skype Server 2015/2019 和 Lync 2013 的更新。 使用此頁面上的連結取得更新的詳細資訊，然後下載更新。
-ms.openlocfilehash: f1644a96542ae6b7a1ee5842d640b1581d660cae
-ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
+ms.openlocfilehash: 5530816da6ca5561439a8a6620cd132eeb86ab44
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42928246"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220543"
 ---
 # <a name="skype-for-business-server-updates"></a>商務用 Skype Server 更新
 
 在單一位置尋找及管理[商務用 Skype server 2019](#skype-for-business-server-2019-update-history)、[商務用 skype server 2015](#skype-for-business-server-2015-update-history)、 [Lync server 2013](#lync-server-2013-update-history)和[lync server 2010](#lync-server-2010-update-history)的更新。 使用此頁面上的連結取得更新的詳細資訊，然後下載更新。
 
-如需最新的商務用 Skype Online 和 Office 365 更新，請參閱[Microsoft 365 藍圖](https://go.microsoft.com/fwlink/p/?linkid=529454)。
+如需最新的商務用 Skype Online 和 Microsoft 365 更新，請參閱[Microsoft 365 藍圖](https://go.microsoft.com/fwlink/p/?linkid=529454)。
 
 ## <a name="skype-for-business-server-2019-update-history"></a>商務用 Skype Server 2019 更新歷程記錄
 
@@ -131,7 +131,7 @@ KB 4470124 是商務用 Skype Server 2019 的主要 KB，具有所有已發佈�
 
 #### <a name="pre-configured-vhds"></a>預先設定的 Vhd
 
-完整的拓撲包含7個虛擬機器，可讓您完全評估 Microsoft Lync 2013、Microsoft Exchange 2013、SharePoint 2013 和 UC 開發平臺 APIs （包括 Microsoft Lync 2013 SDK、Exchange Web 服務受管理 API 2.0）。Microsoft Lync Server 2013 SDK 和 Microsoft 整合通訊受管理 API 4.0）。
+完整的拓撲包含7個虛擬機器，可讓您完全評估 Microsoft Lync 2013、Microsoft Exchange 2013、SharePoint 2013 和 UC 開發平臺 APIs （包括 Microsoft Lync 2013 SDK、Exchange Web 服務受管理 API 2.0、Microsoft Lync Server 2013 SDK，以及 Microsoft 整合通訊 Managed API 4.0）。
 
 套件名稱/連結|發行日期|
 |:--- |:--- |

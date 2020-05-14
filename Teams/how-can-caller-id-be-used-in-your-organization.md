@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.teamsadmincenter.voice.callerid.overview
 description: 您可以使用稱為 CallingLineIdentity 的原則，控制撥打電話給電話系統使用者的撥入和撥出電話的本機號碼。
-ms.openlocfilehash: af578cf92f6c19e8ac612dfe8301914c9e55833b
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 2547e6ca3aed10d112897aa1b24900a479c5c8ef
+ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836305"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44224206"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>如何在貴組織中使用來電顯示
 
@@ -66,16 +66,16 @@ ms.locfileid: "41836305"
 
 EnableUserOverride 屬性可讓單一或多個使用者將其本機號碼設定變更為**Anonymous**。 這僅適用于使用 LineURI 或替代品的 CallingIDSubstitute 參數設定 CallingLineIdentity 原則時。 EnableUserOverride 的預設值為 False。
   
-您的使用者可以使用商務用 Skype 電腦版用戶端中的 [**設定**] 索引標籤，將其本機號碼設定為**匿名**，選取 [**呼叫使用者**] （如果系統管理員已啟用），選取 [**隱藏我的電話號碼及所有通話的設定檔資訊**]。
+您的使用者可以使用商務用 Skype 電腦版用戶端中的 [**設定**] 索引標籤，將其本機號碼設定為**匿名**，選取 [**呼叫使用者**] （如果系統管理員已啟用），然後選取 [**隱藏我的電話號碼及所有通話的設定檔資訊**]。 在團隊中，使用者可以前往右上角的個人檔案圖片，選取 [**設定**  >  **通話**]，然後在 [**來電**顯示] 底下，選取 [**隱藏我的電話號碼及所有通話的設定檔資訊**]。
   
 ||||
 |:-----|:-----|:-----|
-|**時間** <br/> |**版本** <br/> |**受** <br/> |
+|**Windows** <br/> |**版本** <br/> |**受** <br/> |
 |隨選即用  <br/> |目前已于2016年12月6日發行的頻道-版本1611（組建7571.2072）  <br/> |是  <br/> |
 |隨選即用  <br/> |1701 2017 年2月22日（組建7766.2060）發行之推遲通道的第一個發行版本本  <br/> |是  <br/> |
 |隨選即用  <br/> |已于2017年6月13日發行的延遲頻道-版本1701（組建7766.2092）  <br/> |是  <br/> |
 |.MSI  <br/> |商務用 Skype  <br/> |否  <br/> |
-|版  <br/> |商務用 Skype  <br/> |否  <br/> |
+|Mac  <br/> |商務用 Skype  <br/> |否  <br/> |
    
 ## <a name="inbound-caller-id"></a>呼入本機號碼
 

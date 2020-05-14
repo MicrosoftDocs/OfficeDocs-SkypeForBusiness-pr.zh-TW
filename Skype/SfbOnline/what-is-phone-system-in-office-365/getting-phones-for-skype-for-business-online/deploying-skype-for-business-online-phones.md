@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 瞭解如何取得正確的固件、根據需要進行更新、指派授權，以及設定商務用 Skype online 手機的設定等部署步驟
-ms.openlocfilehash: f4f1a36e5a2e98c4566a81b41bc6e6c281ac9a3b
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 41c6ef53469ab2de3699fd17a2d181477e143fae
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42113146"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220443"
 ---
 # <a name="deploying-skype-for-business-online-phones"></a>部署用商務用 Skype Online 電話
 
@@ -54,23 +54,23 @@ ms.locfileid: "42113146"
 
 檢查您手機上的固件版本。 作為
   
-- **Polycom [VVX 手機**]，移至**設定** > **狀態** > **平臺** > **應用程式** > **主要**。
+- **Polycom [VVX 手機**]，移至**設定**  >  **狀態**  >  **平臺**  >  **應用程式**  >  **主要**。
     
 - **Yealink [電話**]，移至 [主要電話] 畫面上的 [**狀態**]。
     
-- **AudioCodes [電話**]，從 [開始] 畫面移至 [**功能表** > **裝置狀態** > **固件版本**]。
+- **AudioCodes [電話**]，從 [開始] 畫面移至 [**功能表**  >  **裝置狀態**  >  **固件版本**]。
     
     > [!NOTE]
     > 如需遠端存取電話的詳細資料，請參閱製造商管理指南。 請參閱上方的使用者指南和電話手冊連結。 
   
-- **Lync Phone Edition （lpw）電話**，移至 [開始] 畫面中的 [**功能表** > **系統資訊**]。
+- **Lync Phone Edition （lpw）電話**，移至**Menu**  >  [開始] 畫面中的 [功能表**系統資訊**]。
     
 ### <a name="step-4---device-update-considerations"></a>步驟 4-裝置更新考慮
 
 > [!NOTE]
 > Polycom 之前，請先5.5.1 固件，然後再建立一個製造商專用的裝置鎖機制，該裝置會以商務用 Skype 實現「電話-鎖定」取代。 將使用「裝置鎖」保護的 5.4. a.x 中的手機升級為5.5.1，並不會從「裝置-鎖定」繼承 PIN 碼，這可以讓手機離開不安全。 已啟用「裝置鎖定」的使用者必須啟用下列 Polycom 裝置設定檔參數，讓使用者能夠控制升級的時間（popUpSK，deviceUpdate = 1）。 
   
-固件更新是由商務用 Skype 服務來管理。 每個商務用 Skype 認證手機的固件都會上傳到商務用 Skype 補救伺服器，且預設會在所有手機上啟用裝置更新。 電話會自動下載並安裝最新的認證組建，這取決於電話和巡迴檢測間隔中的非啟用時間。 您可以使用[CsIPPhonePolicy](https://technet.microsoft.com/library/mt629497.aspx) Cmdlet 來停用裝置更新設定，並將_EnableDeviceUpdate_參數設定為`false`。
+固件更新是由商務用 Skype 服務來管理。 每個商務用 Skype 認證手機的固件都會上傳到商務用 Skype 補救伺服器，且預設會在所有手機上啟用裝置更新。 電話會自動下載並安裝最新的認證組建，這取決於電話和巡迴檢測間隔中的非啟用時間。 您可以使用[CsIPPhonePolicy](https://technet.microsoft.com/library/mt629497.aspx) Cmdlet 來停用裝置更新設定，並將_EnableDeviceUpdate_參數設定為 `false` 。
   
 ![顯示部署手機的螢幕擷取畫面](../../images/be727622-1924-439f-96ca-89230739db9e.png)
   
@@ -222,7 +222,7 @@ BToE 可以設定為以兩種模式運作： [*自動*（預設）] 和 [*手動
 ## <a name="related-topics"></a>相關主題
 [取得商務用 Skype 和 Microsoft Teams 的服務電話號碼](../../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 
-[以下是您在 Office 365 中使用電話系統所取得的結果](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
+[以下是可透過電話系統獲得的功能](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
 [音訊會議與通話方案的適用國家/地區](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 

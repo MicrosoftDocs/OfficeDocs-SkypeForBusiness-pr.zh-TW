@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: 摘要：瞭解如何使用 Skype 客戶程式來連接商務用 Skype Server。 也稱為「Skype 連線」。
-ms.openlocfilehash: 2cf124c340218a352f55fa1c09302a0d0f1d972a
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: b0cae57ac357b2b88d74b6326176c7cb7cdaf22e
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780062"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44219743"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>在商務用 Skype Server 中部署 Skype Connectivity
 
@@ -52,7 +52,7 @@ Skype 目錄搜尋功能可讓商務用 Skype 使用者能夠搜尋 Skype 連絡
 下表概述 Skype 目錄搜尋的支援。
   
 
-||**商務用 Skype Server 前端**|**Lync Server 2013 （或更舊版本）前端**|**註解**|
+||**商務用 Skype Server 前端**|**Lync Server 2013 （或更舊版本）前端**|**Comments**|
 |:-----|:-----|:-----|:-----|
 |商務用 Skype Server Edge  <br/> |支援  <br/> |不支援  <br/> |商務用 skype Server 和 Edge 是 Skype 目錄搜尋的必要條件  <br/> |
 |商務用 Skype Server Edge + Lync Server 2013 Edge 並排部署  <br/> |支援  <br/> |不支援  <br/> |透過商務用 Skype Server Edge server 流過 skype 目錄搜尋流量。 同盟流量會透過系統管理員設定的 edge 進行。 例如，管理員可以選擇繼續透過 Lync Server 2013 Edge server 傳送同盟流量，這不會支援 Skype 目錄搜尋。  <br/> |
@@ -73,13 +73,13 @@ Skype 目錄搜尋功能可讓商務用 Skype 使用者能夠搜尋 Skype 連絡
 > [!NOTE]
 > 如果佇列中有太多擱置要求，商務用 Skype Server 會節流傳入的要求。 
   
-## <a name="deploying-skype-connectivity-for-skype-for-business-online-in-office-365"></a>在 Office 365 中部署商務用 Skype Online 的 Skype Connectivity
+## <a name="deploying-skype-connectivity-for-skype-for-business-online"></a>為商務用 Skype Online 部署 Skype Connectivity
 
-Skype Connectivity 也是商務用 Skype Online 的功能，也就是 Office 365 的一部分。 您可以從 Microsoft 365 系統管理中心內的商務用 Skype 系統管理中心啟用 Skype Connectivity 功能。
+Skype Connectivity 也是商務用 Skype Online 的功能，也就是 Microsoft 365 和 Office 365 的一部分。 您可以從 Microsoft 365 系統管理中心內的商務用 Skype 系統管理中心啟用 Skype Connectivity 功能。
   
-針對 Office 365 中型企業版、office 365 企業版、Office 365 教育版和 Office 365 for 政府：登入 Microsoft 365 系統管理中心，並流覽至商務用 Skype 系統管理中心。 移至 [外部通訊]。 在 [公用 IM 服務提供者] 底下，按一下 [啟用]。 如果您想要控制個別使用者對 Skype 連線的存取，您可以編輯個別使用者的外部通訊設定來執行此動作。
+Microsoft 365 中型企業版、Office 365 企業版、Microsoft 365 教育版和 Office 365 for 政府：登入 Microsoft 365 系統管理中心，並流覽至商務用 Skype 系統管理中心。 移至 [外部通訊]。 在 [公用 IM 服務提供者] 底下，按一下 [啟用]。 如果您想要控制個別使用者對 Skype 連線的存取，您可以編輯個別使用者的外部通訊設定來執行此動作。
   
-適用于 Office 365 Small Business Premium：登入 Office 365，然後移至 [ \>系統管理\> ] 服務設定立即訊息、會議和會議。 開啟外部通訊。 外部通訊參數會同時開啟 Skype 連線，以及與使用商務用 Skype 的其他組織進行通訊。
+適用于 Office 365 Small Business Premium：登入 Office 365，然後移至 [系統管理] \> 服務設定 \> 立即訊息、會議和會議。 開啟外部通訊。 外部通訊參數會同時開啟 Skype 連線，以及與使用商務用 Skype 的其他組織進行通訊。
   
 如需商務用 Skype Online 管理的詳細資訊，請參閱：
   
@@ -204,7 +204,7 @@ Skype Connectivity 也是商務用 Skype Online 的功能，也就是 Office 365
     
    - ProxyFqdn： Skype 同盟 edge 的位置（由 Microsoft 擁有/維護）
     
-   - IconURL： Lync &amp;商務用 skype 用戶端用來以視覺方式識別 Skype 連絡人的圖示
+   - IconURL： Lync &amp; 商務用 skype 用戶端用來以視覺方式識別 Skype 連絡人的圖示
     
    - NameDecorationRoutingDomain 與 NameDecorationExcludedDomainList：設定這些功能可讓使用者輸入 Skype 使用者的 MSAs，而不需要知道「修飾」非 Microsoft 網域與「msn.com」。 這樣就不需要為 ExcludedDomainList 以外的所有網域輸入 "user （contoso） @msn .com"。 當網域不在排除清單中時，SfB 用戶端會自動格式化 MSA。 我們已將最常見的 Microsoft 帳戶網域新增至排除清單。
     
@@ -212,7 +212,7 @@ Skype Connectivity 也是商務用 Skype Online 的功能，也就是 Office 365
      > 若要進行變更，必須移除公用提供者並新增新的提供者。 不允許就地變更。 
   
      > [!NOTE]
-     > 已新增于 Office 2013 中&amp;的 lync Server 2013 CU5 lync 桌面用戶端 SP1 中，NameDecorationRoutingDomain 和 NameDecorationExcludedDomainList 改善了 Lync 使用者新增必要的 skype 連絡人，以識別並將其路由傳送至 skype （格式為： user （contoso .com @msn）。 在 [新增 Skype 連絡人] 對話方塊中，如果不包含 NameDecorationExcludedDomainList 中的網域（我們目前可支援 msn.com、live.com、Hotmail.com、outlook.com），這些新設定將允許自動設定位址使用者輸入的 NameDecorationRoutingDomain （應該設定為 msn.com）的位址。 
+     > 已新增于 Office 2013 中的 lync Server 2013 CU5 &amp; lync 桌面用戶端 SP1 中，NameDecorationRoutingDomain 和 NameDecorationExcludedDomainList 改善了 Lync 使用者新增必要的 skype 連絡人，以識別並將其路由傳送至 skype （格式為： user （contoso .com @msn）。 在 [新增 Skype 連絡人] 對話方塊中，如果不包含 NameDecorationExcludedDomainList 中的網域（我們目前可支援 msn.com、live.com、Hotmail.com、outlook.com），這些新設定將允許自動設定位址使用者輸入的 NameDecorationRoutingDomain （應該設定為 msn.com）的位址。 
   
 3. 從商務用 Skype 用戶端使用者現在可以搜尋並新增 Skype 使用者。
     
@@ -247,4 +247,3 @@ Skype Connectivity 也是商務用 Skype Online 的功能，也就是 Office 365
 |Lync Phone Edition  <br/> |不適用  <br/> |不適用  <br/> |
 |Lync 語音應答  <br/> |不適用  <br/> |不適用  <br/> |
    
-

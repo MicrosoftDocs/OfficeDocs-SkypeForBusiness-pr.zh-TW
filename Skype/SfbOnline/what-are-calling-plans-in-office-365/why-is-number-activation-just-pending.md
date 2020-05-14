@@ -21,17 +21,17 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - ms.lync.lac.NumberActivationStatePending
-description: 位址驗證是設定 Office 365 通話方案的重要部分。 它會為貴組織中的使用者提供緊急呼叫位址，以供緊急回應服務使用。
-ms.openlocfilehash: 12cd21d0be899b69abeeb787759fea702a98791c
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 位址驗證是設定通話方案的重要部分。 它會為貴組織中的使用者提供緊急呼叫位址，以供緊急回應服務使用。
+ms.openlocfilehash: 879c8681a65fc491fb9b0573b3cbf7f15e3276b1
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769136"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220673"
 ---
 # <a name="why-is-number-activation-just-pending"></a>為什麼數位啟用只是擱置的？
 
-位址驗證是設定 Office 365 通話方案的重要部分。 如果由於某種原因無法啟動電話號碼，且由於位址驗證而列為**擱置**，您將需要建立並提交服務要求。 您這樣做的方式取決於貴組織的規模。
+位址驗證是設定通話方案的重要部分。 如果由於某種原因無法啟動電話號碼，且由於位址驗證而列為**擱置**，您將需要建立並提交服務要求。 您這樣做的方式取決於貴組織的規模。
   
 ## <a name="for-organizations-150-or-less-follow-these-steps"></a>針對貴組織的150或較少，請依照下列步驟進行
 1. 在系統管理中心中，選擇 [**需要協助**嗎？]
@@ -39,12 +39,12 @@ ms.locfileid: "41769136"
 3. 如果 [**視圖解決方案**] 區段中的結果不是 [說明]，請選擇下列其中一項：
     - **讓我們撥打電話給您（建議使用）**：確認您的聯絡人電話號碼，然後按 [**呼叫我**]。 來電的預期等待時間會顯示在 [**需要協助嗎？** ] 窗格中。
     - 傳送**電子郵件給我們**：確認您的電子郵件地址，然後選擇 [**傳送**]。 通話回應時間會顯示在 [**需求**說明] 窗格中。
-
+ 
 ## <a name="for-organizations-with-more-than-150-users-create-a-service-request-to-validate-an-emergency-address"></a>針對有超過150使用者的組織，建立服務要求以驗證緊急位址
 
-1. 使用您的公司或學校帳戶，以系統管理員身分登入 Office 365。
+1. 使用您的公司或學校帳戶，以系統管理員身分登入 Microsoft 365 或 Office 365。
     
-2. 在系統管理中心的左導覽中，按一下 [**支援** > **新的服務要求**]。
+2. 在系統管理中心的左導覽中，按一下 [**支援**  >  **新的服務要求**]。
     
 3. 在 [**服務要求**] 底下，按一下 [**新增**]。
     
@@ -69,7 +69,7 @@ ms.locfileid: "41769136"
       - 國家或地區
     
      > [!IMPORTANT]
-     > **在您想要在指派電話號碼時驗證緊急位址的 Office 365 中，輸入國家/地區。**
+     > **在您指派電話號碼時，請將國家/地區提供給您嘗試驗證緊急位址的電話方案。**
   
       - 郵政或郵遞區號
     

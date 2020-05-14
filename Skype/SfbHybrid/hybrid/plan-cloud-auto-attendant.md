@@ -12,18 +12,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 在商務用 Skype Server 2019 中使用雲端自動語音應答的概覽
-ms.openlocfilehash: f0b8018e7a926444e7920ccac31ed3ff4ab5c15f
-ms.sourcegitcommit: 477aac9e14fced139ee7dd827942ce35b9769b63
+ms.openlocfilehash: d85c846a05448d8b1021bb5c1cac62c80ee1bf22
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43510802"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221293"
 ---
 # <a name="plan-cloud-auto-attendants"></a>規劃雲端自動語音應答
 
 Exchange Server 2019 或 Exchange Online 中已不再提供與 Exchange 整合通訊（Exchange Server 2013 或 Exchange Server 2016）搭配使用的自動語音應答。 如果您對商務用 Skype Server 2019 的實施與上述任一 Exchange 版本整合，您必須使用與電話系統相關聯的線上雲端語音功能。 如需將 exchange Server 2013 和2016上的 Exchange UM 服務移至雲端的詳細資訊，請參閱[Plan For 商務用 Skype server 和 Exchange Server 遷移](plan-um-migration.md)。
 
-如果您想要使用「整合通訊」功能（如自動語音應答），則這本身就表示您將具備商務用 Skype Server 2019 的混合式實現。 如需詳細資訊，請參閱[設定商務用 Skype Server 與 Office 365 的混合](configure-hybrid-connectivity.md)式連線。
+如果您想要使用「整合通訊」功能（如自動語音應答），則這本身就表示您將具備商務用 Skype Server 2019 的混合式實現。 如需詳細資訊，請參閱[設定商務用 Skype Server 與 Microsoft 365 或 Office 365 的混合](configure-hybrid-connectivity.md)式連線。
 
 自動語音應答是一項雲端服務，可接受客戶來電和播放問候語、提供功能表選項，並與使用語音或撥號盤的來電者互動，以將來電路由傳送至正確目的地。 每個自動語音應答都會被指派一個*資源帳戶*（請參閱[設定資源帳戶](configure-onprem-ra.md)）的商務用 Skype Server 2019 系統，該系統將直接連結到 Microsoft 小組系統管理中心中的自動語音應答。 請參閱[什麼是雲端自動](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md)語音應答？如需有關自動語音應答的詳細資訊，以及自動語音應答的選項及功能有哪些。
 
@@ -36,7 +36,7 @@ Exchange Server 2019 或 Exchange Online 中已不再提供與 Exchange 整合�
 
 1. 透過商務用 Skype Server 2019
 2. 透過[會話邊界控制器](/MicrosoftTeams/direct-routing-border-controllers.md)和[直接路由](/MicrosoftTeams/direct-routing-plan.md)
-3. 透過 Office 365 中的線上號碼。
+3. 透過 Microsoft 365 或 Office 365 中的數位線上。
 
 另請參閱：
 
@@ -55,7 +55,7 @@ Exchange Server 2019 或 Exchange Online 中已不再提供與 Exchange 整合�
 
 - 混合連接。 如果您已部署商務用 Skype Server，而且想要為您的內部部署使用者啟用雲端自動語音應答，則必須確定您的內部部署與線上環境之間已設定混合式連線能力。 這有時稱為分割網域設定。
 
-   如需詳細資訊，請參閱[規劃商務用 Skype server 與 office 365 之間的混合](plan-hybrid-connectivity.md)式連線，以及[設定商務用 Skype server 與 office 365 之間的混合式連接](configure-hybrid-connectivity.md)。
+   如需詳細資訊，請參閱[規劃商務用 Skype server 與 microsoft 365 或 office 365 之間的混合](plan-hybrid-connectivity.md)式連線，以及[設定商務用 Skype server 與 Microsoft 365 或 office 365 的混合](configure-hybrid-connectivity.md)式連線。
 
 - 如果您要將電話號碼指派給您的自動語音應答，則需要[Office 365 企業版 E5](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing)授權。
 - 為每個自動語音應答建立線上[資源帳戶](/MicrosoftTeams/manage-resource-accounts.md)或內部部署[資源帳戶](configure-onprem-ra.md)，並指派電話號碼和授權。 
@@ -114,8 +114,8 @@ Microsoft 建議下列遷移路徑：
 
 Exchange UM：[自動接聽和路由傳送來電](https://docs.microsoft.com/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls)
 
-[規劃商務用 Skype Server 和 Office 365 之間的混合式連線](plan-hybrid-connectivity.md)
+[規劃商務用 Skype Server 與 Microsoft 365 或 Office 365 之間的混合式連線](plan-hybrid-connectivity.md)
 
-[設定商務用 Skype Server 和 Office 365 之間的混合式連線](configure-hybrid-connectivity.md)
+[設定商務用 Skype Server 與 Microsoft 365 或 Office 365 的混合式連線](configure-hybrid-connectivity.md)
 
 [KB4480742：將連絡人物件移至商務用 Skype Server 2019 後，對訂閱者存取或自動語音應答的呼叫會失敗，並會出現「快速忙碌」和「500伺服器內部」錯誤。](https://support.microsoft.com/help/4480742/call-failures-and-500-server-internal-error-after-migration-to-2019)

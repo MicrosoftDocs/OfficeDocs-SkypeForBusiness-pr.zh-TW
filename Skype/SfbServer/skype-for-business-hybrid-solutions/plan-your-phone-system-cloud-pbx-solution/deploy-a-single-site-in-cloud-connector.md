@@ -1,5 +1,5 @@
 ---
-title: 在雲端連接器中部署單一網站
+title: 在 Cloud Connector 中部署單一網站
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -16,14 +16,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fa8aa499-1188-447e-bc30-89d1f5b198a7
 description: 瞭解如何在雲端連接器 Edition 中部署單一 PSTN 網站。
-ms.openlocfilehash: cc508d21f9e39c215ce3c07403ab75e791e2414a
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 334454645be3361794fdd0d16076095a518e58b0
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779349"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220533"
 ---
-# <a name="deploy-a-single-site-in-cloud-connector"></a>在雲端連接器中部署單一網站
+# <a name="deploy-a-single-site-in-cloud-connector"></a>在 Cloud Connector 中部署單一網站
  
 瞭解如何在雲端連接器 Edition 中部署單一 PSTN 網站。
   
@@ -55,7 +55,7 @@ Install-CcAppliance
   
 1. 遵循[準備雲端連接器裝置](prepare-your-cloud-connector-appliance.md)中所述的步驟，以準備您的雲端連接器裝置。 請注意，只有部署中的第一個裝置需要一些步驟。 確認網站目錄存在，且已正確設定 HA 支援。
     
-2. 請僅在新加入的主伺服器上執行下列 Cmdlet，以更新 Office 365 組織設定中的拓撲資訊。 如果您想要同時新增多個裝置，請逐一在新加入的主機伺服器上執行 Cmdlet：
+2. 請僅在新加入的主伺服器上執行下列 Cmdlet，以更新 Microsoft 365 或 Office 365 組織設定中的拓撲資訊。 如果您想要同時新增多個裝置，請逐一在新加入的主機伺服器上執行 Cmdlet：
     
    ```powershell
    Register-CcAppliance
@@ -80,7 +80,7 @@ Install-CcAppliance
 
 若要從現有的網站移除裝置：
   
-1. 請僅在您想要從網站移除的主伺服器上執行下列 Cmdlet，以更新 Office 365 組織設定中的拓撲資訊。
+1. 請僅在您想要從網站移除的主伺服器上執行下列 Cmdlet，以更新 Microsoft 365 或 Office 365 組織設定中的拓撲資訊。
     
    ```powershell
    Unregister-CcAppliance

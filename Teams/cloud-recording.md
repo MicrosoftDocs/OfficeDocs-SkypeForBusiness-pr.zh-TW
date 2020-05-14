@@ -16,12 +16,12 @@ description: 在團隊中部署雲端語音功能以錄製小組會議與群組�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e38b7fcfdbe8789604716410beca3c5d76975c29
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 58c264075608817ef805f7b6c58f8b39394fc369
+ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905495"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44224226"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 雲端會議錄製
 
@@ -40,11 +40,12 @@ ms.locfileid: "43905495"
 - 使用者有足夠的 Microsoft Stream 儲存空間以儲存錄製檔案
 - 使用者已將 TeamsMeetingPolicy-AllowCloudRecording 設定設為 true
 - 使用者在會議中不是匿名、來賓或同盟使用者
+- 若要為使用者的會議啟用 [會議]，指派給他們的小組會議原則必須必須設定為 true，才能使用 [AllowTranscription 設定]。
 
-> [!NOTE]
-> 此外，若要讓啟動錄製的人員選擇是否要自動謄寫錄製內容，使用者的 TeamsMeetingPolicy-AllowTranscription 設定必須設定為 true
+必須授權<sup>1</sup>使用者將會議上傳/下載到 Microsoft Stream，但他們不需要有錄製會議的授權。 如果您想要封鎖使用者不讓他錄製 Microsoft Teams 會議，您必須授予一個將 AllowCloudRecording 設定為 $False 的 TeamsMeetingPolicy。
 
-<sup>1</sup>使用者需要獲得將會議上傳/下載至 Microsoft Stream 的授權，但不需要授權就能錄製會議。 如果您想要封鎖使用者不讓他錄製 Microsoft Teams 會議，您必須授予一個將 AllowCloudRecording 設定為 $False 的 TeamsMeetingPolicy。
+> [!IMPORTANT] 
+> 如果您希望使用者只記錄及下載錄製，則不需要指派 Microsoft Stream 授權。 這會表示這些錄製不會儲存在 Microsoft Stream 中，而是儲存在 Azure 媒體服務（AMS）中，但在刪除前會有30天的限制。 在這一點，系統管理員可以控制或管理，包括刪除它的功能。
 
 ## <a name="set-up-teams-cloud-meeting-recording-for-users-in-your-organization"></a>為貴組織中的使用者設定 Teams 雲端會議錄製
 
@@ -54,7 +55,7 @@ ms.locfileid: "43905495"
 
 Microsoft Stream 是以合格的 Microsoft 365 與 Office 365 訂閱或獨立服務的形式提供。  如需詳細資訊，請參閱 [Stream 授權概述](https://docs.microsoft.com/stream/license-overview)。  Microsoft Stream 現已包含在 Microsoft 365 商務版、Microsoft 365 商務標準版和 Microsoft 365 Business Basic 中。
 
-深入瞭解如何[在 Office 365 中指派授權給使用者](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC)，以便讓使用者能夠存取 Microsoft Stream。 請確認 Microsoft Stream 沒有封鎖使用者 ，如[這篇文章](https://docs.microsoft.com/stream/disable-user-organization)所述。
+深入瞭解如何[在 Office 365 中指派授權給使用者](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC)，以便讓使用者能夠存取 Microsoft Stream。 確定沒有針對使用者封鎖 Microsoft Stream，如在 [封鎖註冊] 中定義的 [ [Microsoft stream](https://docs.microsoft.com/stream/disable-user-organization)]。
 
 ### <a name="make-sure-users-have-upload-video-permissions-in-microsoft-stream"></a>確定使用者已在 Microsoft Stream 中上傳視頻許可權
 
@@ -132,7 +133,7 @@ Microsoft Stream 是以合格的 Microsoft 365 與 Office 365 訂閱或獨立服
 
 ### <a name="planning-for-storage"></a>規劃儲存空間
 
-1小時錄製內容的大小為 400 MB。 請確認您瞭解錄製檔案所需的容量，並讓 Microsoft Stream 有足夠的儲存空間可使用。  如需瞭解訂閱中包含的基本儲存空間，以及如何購買額外儲存空間，請參閱[本文](https://docs.microsoft.com/stream/license-overview)。
+1小時錄製內容的大小為 400 MB。 請確認您瞭解錄製檔案所需的容量，並讓 Microsoft Stream 有足夠的儲存空間可使用。  閱讀[Microsoft Stream 授權概述](https://docs.microsoft.com/stream/license-overview)，瞭解訂閱中包含的基本儲存體，以及如何購買額外的儲存空間。
 
 ## <a name="manage-meeting-recordings"></a>管理會議錄製
 
@@ -140,7 +141,6 @@ Microsoft Stream 是以合格的 Microsoft 365 與 Office 365 訂閱或獨立服
 
 > [!NOTE]
 > 如需有關管理錄製和使用者存取的其他資訊，請參閱[在 Microsoft stream 中管理使用者資料](https://docs.microsoft.com/stream/managing-user-data)和 [Microsoft Stream 中的權限和隱私權](https://docs.microsoft.com/stream/portal-permissions)。
-
 
 ## <a name="compliance-and-ediscovery-for-meeting-recordings"></a>會議錄製的合規性與電子文件探索
 

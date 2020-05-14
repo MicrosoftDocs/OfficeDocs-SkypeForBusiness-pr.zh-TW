@@ -22,25 +22,25 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: '從 Polycom、HP 和 Mitel，以及所需的授權，瞭解哪些手機可搭配商務用 Skype 使用。 '
-ms.openlocfilehash: f779462ad6def85cee43139d450d19b5d70195a3
-ms.sourcegitcommit: a61d33fe15982bd8a34f1759b6b89be5aa699fe3
+ms.openlocfilehash: f51465cc86baa37e54acddf732cc5f63e6274aa1
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "41784760"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220433"
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>取得商務用 Skype Online 的電話
 
 商務用 skype Online 可為想要取得傳統電話經驗的使用者（而不是使用商務用 Skype 應用程式）提供和支援桌面電話。 本主題涵蓋在商務用 Skype Online 中支援使用的電話和固件版本，以及當您在組織中設定手機時可協助您的其他資訊。
 
 > [!NOTE]
-> 在 Office 365 中，商務用 Skype 將會以 Microsoft 團隊的主要通訊方式來取代。  如需詳細資訊，請參閱[Office 365 中適用于智慧通訊的新構想](https://www.microsoft.com/microsoft-365/blog/2017/09/25/a-new-vision-for-intelligent-communications-in-office-365/)。
+> 商務用 Skype 在 Microsoft 365 和 Office 365 中將會以 Microsoft 團隊的主要通訊方式來取代。  如需詳細資訊，請參閱[Office 365 中適用于智慧通訊的新構想](https://www.microsoft.com/microsoft-365/blog/2017/09/25/a-new-vision-for-intelligent-communications-in-office-365/)。
 >
 >若要取得最新的更新以及支援的裝置上的最新資訊，請參閱[適用于智慧通訊的 Microsoft 團隊裝置](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)。
   
 ## <a name="supported-phones"></a>支援的電話
   
-Microsoft 是與 Polycom、Yealink 和 AudioCodes 密切合作與共同作業，透過 Office 365 和商務用 Skype Server 中的 [合作夥伴 IP 電話] 程式（PIP）來開發及認證各種裝置。
+Microsoft 是與 Polycom、Yealink 和 AudioCodes 密切合作並共同合作，透過合作夥伴 IP Phone 程式（PIP）為手機系統開發並認證各種裝置。
   
 針對商務用 Skype 排序新電話時，請務必購買擁有*正確產品識別碼*的手機。 這些產品識別碼可確保您收到的手機已安裝商務用 Skype Online 的合格版本。
   
@@ -64,7 +64,7 @@ Microsoft 是與 Polycom、Yealink 和 AudioCodes 密切合作與共同作業，
   
 ## <a name="supported-firmware"></a>支援的固件
 
-這是支援的電話在 Office 365 中搭配手機系統使用所需的最低軟體發行：
+這是支援的電話與電話系統搭配使用所需的最低軟體發行：
   
 ||||
 |:-----|:-----|:-----|
@@ -123,7 +123,7 @@ Microsoft 是與 Polycom、Yealink 和 AudioCodes 密切合作與共同作業，
 ## <a name="related-topics"></a>相關主題
 [取得商務用 Skype 和 Microsoft Teams 的服務電話號碼](../getting-service-phone-numbers.md)
 
-[以下是您在 Office 365 中使用電話系統所取得的結果](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
+[以下是可透過電話系統獲得的功能](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
 [音訊會議與通話方案的適用國家/地區](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 

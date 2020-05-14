@@ -1,5 +1,5 @@
 ---
-title: 在雲端連接器 Edition 中規劃媒體旁路
+title: 規劃 Cloud Connector Edition 中的媒體旁路
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -16,14 +16,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e69ac58c-e8fe-40bc-a4c8-f0a0190fbaa7
 description: 閱讀此主題以查看使用雲端連接器 Edition 版本2.0 和更新版本執行媒體旁路的規劃考慮。 如需部署媒體旁路的詳細資訊，請參閱在雲端連接器 Edition 中部署媒體旁路。
-ms.openlocfilehash: f9da5df4815c731b479f5d2333f26546be0daf4c
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 568fa13584a44540d8351ea2eb32475c1d276ff7
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778779"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220253"
 ---
-# <a name="plan-for-media-bypass-in-cloud-connector-edition"></a>在雲端連接器 Edition 中規劃媒體旁路
+# <a name="plan-for-media-bypass-in-cloud-connector-edition"></a>規劃 Cloud Connector Edition 中的媒體旁路
  
 閱讀此主題以查看使用雲端連接器 Edition 版本2.0 和更新版本執行媒體旁路的規劃考慮。 如需部署媒體旁路的詳細資訊，請參閱[在雲端連接器 Edition 中部署媒體旁路](deploy-media-bypass-in-cloud-connector.md)。
   
@@ -37,7 +37,7 @@ ms.locfileid: "43778779"
 
 當信號使用或不具有媒體旁路的相同路徑時，媒體流程會有所不同。 下列圖表顯示使用和不使用媒體旁路的拓撲中的媒體和信號路徑。 
   
-例如，在下列拓撲中（不採用媒體旁路）：商務用 Skype 用戶端將 PSTN 通話加入外部號碼，SIP 信號送出至 Office 365，而 Office 365 接著會根據使用者語音原則來指示信號流量。 針對 Cloud Connector 使用者，語音原則會將信號流量指引至雲端連接器 Edge Server，然後透過雲端連接器轉送伺服器將信號流量路由傳送至 PSTN 會話邊界控制器（SBC）或閘道。 媒體會從商務用 Skype 用戶端傳送至雲端連接器轉送伺服器，然後再流向 SBC 或閘道，如下圖所示：
+例如，在下列拓撲中（不採用媒體旁路）：商務用 Skype 用戶端將 PSTN 通話加入外部號碼，SIP 信號會移至 Microsoft 365 或 Office 365，這會根據使用者語音原則來指示信號流量。 針對 Cloud Connector 使用者，語音原則會將信號流量指引至雲端連接器 Edge Server，然後透過雲端連接器轉送伺服器將信號流量路由傳送至 PSTN 會話邊界控制器（SBC）或閘道。 媒體會從商務用 Skype 用戶端傳送至雲端連接器轉送伺服器，然後再流向 SBC 或閘道，如下圖所示：
   
 **沒有媒體旁路的媒體和信號路徑**
 
@@ -59,7 +59,7 @@ ms.locfileid: "43778779"
 
 ![Cloud Connector Multisite 範例](../../media/ace8dc3c-1082-46a2-b8b4-98cbf678620e.png)
   
-1. SIP 流量會從蘇黎世的使用者流向 Office 365。
+1. SIP 流量會從蘇黎世的使用者流向 Microsoft 365 或 Office 365。
     
 2. 然後，流量會依照使用者語音路由原則中所指定的阿姆斯特丹，路由傳送至雲端連接器裝置。
     
@@ -113,6 +113,6 @@ Always 旁路要求使用者與 PSTN 網站中的 PSTN 閘道之間有沒有障�
 
 啟用媒體旁路時，用戶端與 SBC 或閘道之間的媒體流量會使用 g.711 編解碼器。 
   
-## <a name="see-also"></a>也請參閱
+## <a name="see-also"></a>另請參閱
 
 [在雲端連接器 Edition 中部署媒體旁路](deploy-media-bypass-in-cloud-connector.md)

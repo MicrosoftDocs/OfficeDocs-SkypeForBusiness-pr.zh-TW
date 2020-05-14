@@ -1,5 +1,5 @@
 ---
-title: 在 Office 365 語音信箱中為使用者啟用企業語音線上和電話系統
+title: 為使用者啟用企業語音線上和電話語音語音信箱
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -18,25 +18,25 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
-description: 瞭解如何在 Office 365 語音服務中為您的商務用 Skype 使用者啟用電話系統。
-ms.openlocfilehash: 8ed04e3926adfecb2f0022d12c783f6c3e83d763
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: 瞭解如何為商務用 Skype 使用者啟用電話系統語音服務。
+ms.openlocfilehash: 522da56969f851280812670692a27d94e4df09a8
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780722"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221103"
 ---
-# <a name="enable-users-for-enterprise-voice-online-and-phone-system-in-office-365-voicemail"></a>在 Office 365 語音信箱中為使用者啟用企業語音線上和電話系統
+# <a name="enable-users-for-enterprise-voice-online-and-phone-system-voicemail"></a>為使用者啟用企業語音線上和電話語音語音信箱
  
-瞭解如何在 Office 365 語音服務中為您的商務用 Skype 使用者啟用電話系統。
+瞭解如何為商務用 Skype 使用者啟用電話系統語音服務。
   
-在 Office 365 中使用內部部署 PSTN 連線部署電話系統的最後一個步驟，就是讓您的使用者能夠在 Office 365 和語音信箱中使用電話系統。 若要啟用這些功能，您必須是具有全域系統管理員角色的使用者，而且能夠執行遠端 PowerShell。 您必須針對尚未啟用商務用 Skype Online 的 Enterprise Voice 的所有使用者帳戶，遵循此主題中的步驟。
+使用內部部署 PSTN 連線部署電話系統的最後一個步驟，就是讓您的使用者能夠使用電話系統及語音信箱。 若要啟用這些功能，您必須是具有全域系統管理員角色的使用者，而且能夠執行遠端 PowerShell。 您必須針對尚未啟用商務用 Skype Online 的 Enterprise Voice 的所有使用者帳戶，遵循此主題中的步驟。
   
-## <a name="enable-phone-system-in-office-365-voice-services"></a>在 Office 365 語音服務中啟用電話系統
+## <a name="enable-phone-system-voice-services"></a>啟用電話系統語音服務
 
-若要讓使用者在 Office 365 語音及語音信箱中啟用電話系統，您必須執行一些初始步驟，例如檢查您的伺服器上是否已部署商務用 Skype Online 連接器，以及是否允許使用者裝載語音信箱。
+若要讓使用者能夠使用電話語音及語音信箱，您必須執行一些初始步驟，例如檢查您的伺服器上是否已部署商務用 Skype Online 連接器，以及是否允許您的使用者主控語音信箱。
   
-### <a name="to-enable-your-users-for-phone-system-in-office-365-voice-and-voicemail"></a>在 Office 365 語音及語音信箱中為您的使用者啟用電話系統
+### <a name="to-enable-your-users-for-phone-system-voice-and-voicemail"></a>為使用者啟用電話系統語音和語音信箱
 
 1. 開始之前，請先檢查您的前端伺服器上是否已部署商務用 Skype Online 連接器（Windows PowerShell 模組）。 如果不是，您可以從[[下載中心](https://www.microsoft.com/download/details.aspx?id=39366)] 下載。 您可以在設定[您的電腦以進行商務用 Skype Online 管理](https://technet.microsoft.com/library/dn362839%28v=ocs.15%29.aspx)時，找到使用此模組的詳細資訊。
     
@@ -87,9 +87,9 @@ ms.locfileid: "43780722"
     > [!NOTE]
     > 您也可以指定使用者的 SIP 位址、使用者主體名稱（UPN）、功能變數名稱和使用者名稱（網域 \ 使用者名稱），以及 Active Directory 中的顯示名稱（「Bob 凱利」）。 
   
-## <a name="update-the-line-uri-and-dial-plan-for-users-enabled-for-phone-system-in-office-365"></a>針對 Office 365 中已啟用電話系統的使用者更新行 URI 和撥號對應表
+## <a name="update-the-line-uri-and-dial-plan-for-users-enabled-for-phone-system"></a>更新啟用電話系統之使用者的行 URI 和撥號對應表
 
-本節說明如何針對 Office 365 中已啟用電話系統的使用者，更新行 URI 和撥號對應表。 
+本節說明如何更新啟用電話系統之使用者的行 URI 和撥號對應表。 
   
 ### <a name="to-update-the-line-uri"></a>更新行 URI
 
@@ -141,12 +141,12 @@ ms.locfileid: "43780722"
 
 ## <a name="update-the-voice-routing-policies-using-on-premises-windows-powershell-cmdlets"></a>使用內部部署 Windows PowerShell Cmdlet 更新語音路由原則
 
-本節說明如何為 Office 365 中啟用電話系統的使用者更新語音路由策略。
+本節說明如何更新啟用電話系統之使用者的語音路由原則。
   
-Office 365 中的電話系統使用者必須將語音路由原則指派給他們，來電才能成功路由傳送。 這與需要將語音原則指派給他們以允許通話成功路由的內部部署商務語音使用者不同。 語音路由原則應包含 PSTN 使用方式，以定義 Office 365 使用者中的電話系統的授權呼叫和路由。 您可以將這些 PSTN 使用方式從現有的語音原則複製到新的語音路由原則。 如需詳細資訊，請參閱[New-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps)。
+電話系統使用者必須具有指派給他們的語音路由原則，來電才能成功路由傳送。 這與需要將語音原則指派給他們以允許通話成功路由的內部部署商務語音使用者不同。 語音路由原則應包含 PSTN 使用方式，以定義電話系統使用者的授權呼叫和路由。 您可以將這些 PSTN 使用方式從現有的語音原則複製到新的語音路由原則。 如需詳細資訊，請參閱[New-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps)。
   
 > [!NOTE]
-> Office 365 使用者中的所有電話系統都被指派了名為 BusinessVoice 的相同線上語音原則，以定義允許的呼叫功能;例如，允許同時振鈴。 
+> 所有電話系統使用者都被指派了名為 BusinessVoice 的相同線上語音原則，用來定義允許的呼叫功能;例如，允許同時振鈴。 
   
 ### <a name="to-assign-a-per-user-voice-routing-policy-to-a-single-user"></a>將每一使用者的語音路由原則指派給單一使用者
 

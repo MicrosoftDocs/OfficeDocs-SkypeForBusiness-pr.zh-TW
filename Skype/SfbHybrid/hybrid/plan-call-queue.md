@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 在商務用 Skype Server 2019 中使用雲端自動語音應答的概覽。
-ms.openlocfilehash: d14aeab9857f2a54e6622fb368193a2e270e0f49
-ms.sourcegitcommit: 477aac9e14fced139ee7dd827942ce35b9769b63
+ms.openlocfilehash: 2186909b3ec905d6ec6d387bcea172d8fb80287c
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43510792"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221303"
 ---
 # <a name="plan-cloud-call-queues"></a>規劃雲端通話佇列
 
@@ -43,7 +43,7 @@ ms.locfileid: "43510792"
 
 - 混合連接。 如果您已部署商務用 Skype Server，而您想要為您的內部部署使用者啟用雲端通話佇列，您必須確定您的內部部署與線上環境之間已設定混合式連線能力。 這有時稱為分割網域設定。
 
-   如需詳細資訊，請參閱[規劃商務用 Skype server 與 office 365 之間的混合](plan-hybrid-connectivity.md)式連線，以及[設定商務用 Skype server 與 office 365 之間的混合式連接](configure-hybrid-connectivity.md)。
+   如需詳細資訊，請參閱[規劃商務用 Skype server 與 microsoft 365 或 office 365 之間的混合](plan-hybrid-connectivity.md)式連線，以及[設定商務用 Skype server 與 Microsoft 365 或 office 365 的混合](configure-hybrid-connectivity.md)式連線。
 
 - 若要將電話號碼指派給資源帳戶，您現在可以使用「成本免費電話系統虛擬使用者」授權。 這為組織層級的電話號碼提供電話系統功能，並讓您建立自動語音應答及通話佇列功能。
 
@@ -65,8 +65,8 @@ ms.locfileid: "43510792"
 
 [設定雲端自動語音應答](/MicrosoftTeams/create-a-phone-system-auto-attendant)
 
-[規劃商務用 Skype Server 和 Office 365 之間的混合式連線](plan-hybrid-connectivity.md)
+[規劃商務用 Skype Server 與 Microsoft 365 或 Office 365 之間的混合式連線](plan-hybrid-connectivity.md)
 
-[設定商務用 Skype Server 和 Office 365 之間的混合式連線](configure-hybrid-connectivity.md)
+[設定商務用 Skype Server 與 Microsoft 365 或 Office 365 的混合式連線](configure-hybrid-connectivity.md)
 
 [在 Microsoft Teams 中管理資源帳戶](/MicrosoftTeams/manage-resource-accounts)

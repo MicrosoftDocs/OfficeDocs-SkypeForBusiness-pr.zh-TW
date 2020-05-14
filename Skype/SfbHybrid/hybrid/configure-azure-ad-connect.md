@@ -17,16 +17,16 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: 在混合式環境中設定 Azure AD Connect 的指示。
-ms.openlocfilehash: 75e269cfa36a97249c9078cfc37cfc493ebcc502
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 7a0c458692da1381f2ed3f52dfef8c1d360d74e2
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780112"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221467"
 ---
 # <a name="configure-azure-ad-connect-for-teams-and-skype-for-business"></a>針對 Teams 和商務用 Skype 設定 Configure Azure AD Connect
  
-具有商務用 Skype 伺服器（或 Lync Server）內部部署的組織，以及計畫使用團隊或商務用 Skype Online 的組織，都必須設定 Azure AD Connect，以同步處理其內部部署目錄與 Office 365 （如本檔所述）。  這包括直接從商務用 Skype 內部遷移到小組的組織。 尤其是使用商務用 Skype 內部部署的組織，必須確保同步處理到 Azure AD的 msRTCSIP 屬性是正確的。 
+具有商務用 Skype 伺服器（或 Lync Server）內部部署的組織，以及計畫使用團隊或商務用 Skype Online 的組織，都必須設定 Azure AD Connect，以同步處理其內部部署目錄與 Microsoft 365 或 Office 365 （如本檔所述）。  這包括直接從商務用 Skype 內部遷移到小組的組織。 尤其是使用商務用 Skype 內部部署的組織，必須確保同步處理到 Azure AD的 msRTCSIP 屬性是正確的。 
 
 > [!NOTE]
 > 現有 Teams 使用者若同時也有商務用 Skype 內部部署，必須將其商務用 Skype 內部部署帳戶移至雲端，才能取得完整的功能，例如可與商務用 Skype 使用者互通、與同盟組織中的使用者進行通訊等功能。 即使使用者未來只會使用 Teams，基礎結構也需要此線上商務用 Skype 帳戶來提供額外的功能。  為了進行這項移轉，您必須確保已正確設定 Azure AD Connect，以便啟用混合式。
@@ -34,7 +34,7 @@ ms.locfileid: "43780112"
 
 ## <a name="background-information"></a>背景資訊
 
-Azure Active Directory Connect 可讓您的內部部署 Active Directory 持續與 Office 365 保持同步。  您的內部部署目錄同步保留身分識別的授權來源，從您的內部部署環境所做的變更會同步處理到 Azure AD。 如需詳細資訊，請參閱[AZURE AD Connect Sync](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sync-whatis)。 即使您沒有將所有使用者從內部部署移至雲端，使用團隊、商務用 Skype 內部部署或商務用 Skype Online 的所有使用者，都必須從內部部署與 Azure AD 同步處理，以確保內部部署和線上使用者之間的通訊。 *在您的內部部署和線上目錄都將會表示貴組織的使用者。*
+Azure Active Directory Connect 可讓您的內部部署 Active Directory 持續與 Microsoft 365 或 Office 365 同步處理。  您的內部部署目錄同步保留身分識別的授權來源，從您的內部部署環境所做的變更會同步處理到 Azure AD。 如需詳細資訊，請參閱[AZURE AD Connect Sync](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sync-whatis)。 即使您沒有將所有使用者從內部部署移至雲端，使用團隊、商務用 Skype 內部部署或商務用 Skype Online 的所有使用者，都必須從內部部署與 Azure AD 同步處理，以確保內部部署和線上使用者之間的通訊。 *在您的內部部署和線上目錄都將會表示貴組織的使用者。*
 
 
 ## <a name="configuring-azure-ad-when-you-have-skype-for-business-server"></a>當您有商務用 Skype Server 時設定 Azure AD 
@@ -45,7 +45,7 @@ Azure Active Directory Connect 可讓您的內部部署 Active Directory 持續�
 
 2. 多個樹系，只有其中一個樹系裝載商務用 Skype Server，另外一或多個樹系則包含授權使用者身分識別 (帳戶樹系)。 
 
-3. 在多個樹系中部署多個商務用 Skype Server。 在符合特定需求的情況下，組織可以將多個部署合併到單一 Office 365 組織中。
+3. 在多個樹系中部署多個商務用 Skype Server。 在符合特定需求的情況下，組織可以將多個部署合併到單一 Microsoft 365 或 Office 365 組織。
 
 ### <a name="single-forest"></a>單一樹系 
 
@@ -66,7 +66,7 @@ Azure Active Directory Connect 可讓您的內部部署 Active Directory 持續�
 
 ### <a name="multiple-skype-for-business-server-deployments-in-multiple-forests"></a>多個樹系中有多個商務用 Skype Server 的部署 
 
-在此案例中，有多個樹系，每個樹系都包含商務用 Skype 伺服器及單一 Office 365 組織。  每個包含商務用 Skype 伺服器的樹系，都可以使用 AAD Connect 同步處理到該租使用者的 Azure AD 中。 在指定時間裡，您最多只能為商務用 Skype 混合式設定一個樹系。 在樹系中啟用混合功能之前，所有其他樹系中的所有 SIP 網域都必須使用[停用 csonlineSipDomain](https://docs.microsoft.com/powershell/module/skype/disable-csonlinesipdomain)加以停用。 如需如何將這類環境合併至 Office 365 的詳細資訊，請參閱[Cloud 整合 For 小組和商務用 Skype](cloud-consolidation.md)。
+在此案例中，有多個樹系，每個樹系都包含商務用 Skype 伺服器及單一 Microsoft 365 或 Office 365 組織。  每個包含商務用 Skype 伺服器的樹系，都可以針對該組織使用 AAD Connect 同步處理至 Azure AD。 在指定時間裡，您最多只能為商務用 Skype 混合式設定一個樹系。 在樹系中啟用混合功能之前，所有其他樹系中的所有 SIP 網域都必須使用[停用 csonlineSipDomain](https://docs.microsoft.com/powershell/module/skype/disable-csonlinesipdomain)加以停用。 如需如何將這類環境合併至 Microsoft 365 或 Office 365 的詳細資訊，請參閱[Cloud 整合小組和商務用 Skype](cloud-consolidation.md)。
 
 ## <a name="general-requirements"></a>一般需求 
 
@@ -84,7 +84,7 @@ Azure Active Directory Connect 可讓您的內部部署 Active Directory 持續�
 
 ## <a name="related-information"></a>相關資訊
 
-- [混合式身分識別](https://docs.microsoft.com/azure/active-directory/hybrid/whatis-hybrid-identity?toc=%2Fen-us%2Fazure%2Factive-directory%2Fhybrid%2FTOC.json&bc=%2Fen-us%2Fazure%2Fbread%2Ftoc.json)
+- [混合式身分識別](https://docs.microsoft.com/azure/active-directory/hybrid/whatis-hybrid-identity)
 
 - [Azure AD Connect 同步處理：瞭解和自訂同步處理](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sync-whatis)
 

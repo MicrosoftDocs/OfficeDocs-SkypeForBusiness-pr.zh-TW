@@ -20,16 +20,16 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.CivicAddressValidation
 description: '瞭解什麼是位址驗證、重要的原因，以及它與緊急位址及服務的關聯方式。 '
-ms.openlocfilehash: 695698f8d1b6a466829174802f2ece0b92398f7e
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: 9cde4246cf449e1259fb7b46264f20d65d3a7849
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769246"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220693"
 ---
 # <a name="what-is-address-validation"></a>什麼是位址驗證？
 
-當您在 Office 365 中設定通話方案時，您必須將電話號碼和緊急位址指派給每一個使用者。
+當您設定通話方案時，您必須將電話號碼和緊急位址指派給每一個使用者。
   
 驗證街道或市政位址涉及確定它是否正確且格式正確。 部分正確的緊急位址（例如，城市名稱錯誤）可能仍會通過驗證。 驗證程式會使用指定位址的所有部分來判斷它是否包含足夠的資訊，以將呼叫路由至適當的緊急服務中心。 如果是，它會以驗證方式傳回，然後才能指派給電話號碼。
 

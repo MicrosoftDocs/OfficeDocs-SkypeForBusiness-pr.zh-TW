@@ -1,5 +1,5 @@
 ---
-title: CcCredential
+title: Set-CcCredential
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -13,14 +13,14 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 784ff94a-4b33-4dbd-ba74-27acc3eb6954
 description: CcCredential Cmdlet 會設定目前商務用 Skype Connector Edition 部署的認證。
-ms.openlocfilehash: a97d85ef6fec31383b349e9a0c3b3d9e25d04337
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 3717eb0dcaa46bb6708f40ecb7f94869f24774a2
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780672"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221567"
 ---
-# <a name="set-cccredential"></a>CcCredential
+# <a name="set-cccredential"></a>Set-CcCredential
  
 CcCredential Cmdlet 會設定目前商務用 Skype Connector Edition 部署的認證。 
   
@@ -44,7 +44,7 @@ Set-CcCredential -AccountType "TenantAdmin"
 ## <a name="detailed-description"></a>詳細描述
 <a name="DetailedDescription"> </a>
 
-CcCredential Cmdlet 會為承租人管理員設定帳戶名稱和密碼。 在2.0 之前的版本中，此管理員必須是全域系統管理員。 雲端連接器會使用此帳戶來取得設定資訊、設定設定參數，並將裝置狀態更新為 Office 365 組織設定。 使用版本2.0 和更新版本時，您也可以使用此 Cmdlet 來更新 VmAdmin 及 DomainAdmin 帳戶的密碼。
+CcCredential Cmdlet 會為承租人管理員設定帳戶名稱和密碼。 在2.0 之前的版本中，此管理員必須是全域系統管理員。 雲端連接器會使用此帳戶來取得設定資訊、設定設定參數，並將裝置狀態更新為 Microsoft 365 或 Office 365 組織設定。 使用版本2.0 和更新版本時，您也可以使用此 Cmdlet 來更新 VmAdmin 及 DomainAdmin 帳戶的密碼。
   
 ## <a name="parameters"></a>參數
 <a name="DetailedDescription"> </a>
@@ -63,9 +63,9 @@ CcCredential Cmdlet 會為承租人管理員設定帳戶名稱和密碼。 在2.
 
 無
   
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 <a name="ReturnTypes"> </a>
 
-[CcCredential](get-cccredential.md)
+[Get-CcCredential](get-cccredential.md)
   
 

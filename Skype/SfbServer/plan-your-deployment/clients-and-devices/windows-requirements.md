@@ -17,18 +17,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a6851e38-ba9a-4f19-9aa7-d8accf4d62b3
 description: 摘要：在規劃商務用 Skype Server 時，複查 Windows 用戶端支援需求。
-ms.openlocfilehash: 39f9efcd2008dacb653538b56f2aff3fcb8b7887
-ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
+ms.openlocfilehash: 67208fc25344ff417094419f22068822e03b13db
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42928236"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44219823"
 ---
 # <a name="windows-client-requirements-and-software-support"></a>Windows 用戶端需求和軟體支援
  
 **摘要：** 在規劃商務用 Skype Server 時，請複查 Windows 用戶端支援需求。
   
-本節摘要支援商務用 Skype Windows 用戶端所需的軟體。  在安裝 Office 365 時會安裝這些用戶端，也可以在[所有裝置上下載商務用 Skype](https://products.office.com/skype-for-business/download-app?tab=tabs-3)。
+本節摘要支援商務用 Skype Windows 用戶端所需的軟體。 當 Microsoft 365 或 Office 365 安裝時，即會安裝這些用戶端，也可以在[所有裝置上下載商務用 Skype](https://products.office.com/skype-for-business/download-app?tab=tabs-3)。
   
 > [!NOTE]
 > 商務用 Skype 的線上會議增益集（支援來自 Outlook 郵件和共同作業用戶端的會議管理）會自動隨商務用 Skype 安裝。 
@@ -45,7 +45,7 @@ ms.locfileid: "42928236"
    
 ## <a name="hardware"></a>硬體
 
-如需執行商務用 Skype 用戶端所需的硬體，請參閱 Office 365[系統需求](https://products.office.com/office-system-requirements)。
+如需執行商務用 Skype 用戶端所需的硬體，請參閱 Microsoft 365 和 Office[系統需求](https://products.office.com/office-system-requirements)。
   
 ## <a name="skype-meetings-app-and-skype-for-business-web-app"></a>Skype 會議應用程式和商務用 Skype Web App 
 
@@ -81,4 +81,4 @@ Microsoft 商務用 Skype for Windows Phone 為組織中從 smartphone 或 Windo
 
 [在所有裝置中下載商務用 Skype](https://products.office.com/skype-for-business/download-app?tab=tabs-3)
   
-[Office 365 系統需求](https://products.office.com/office-system-requirements)
+[Microsoft 365 和 Office 系統需求](https://products.office.com/office-system-requirements)

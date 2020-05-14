@@ -21,30 +21,30 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 本文說明如何針對具有內部部署商務用 Skype （或 Lync）的組織進行整合，以尋找將其 UC 工作負載移至小組和/或商務用 Skype Online 的組織。
-ms.openlocfilehash: 859a6f3809a653334f7ac43b591d9a067833e3d5
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: d2733ffacf8b56a5cfe4217553f533950eb82e36
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780132"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221487"
 ---
 # <a name="cloud-consolidation-for-teams-and-skype-for-business"></a>Teams 和商務用 Skype 的雲端整合
 
-許多大型企業擁有多個內部部署 AD 樹系，在某些情況下，客戶會有多個 Exchange 和/或商務用 Skype Server (或 Lync Server) 部署。 此外，即使是只有一個內部部署樹系的組織，透過企業併購的過程，也會發現自己處於類似的情況。 當這些客戶移至雲端時，他們想要將特定內部部署工作負載的多個實例合併到單一 Office 365 組織中。 本文說明如何針對想要將其 UC 工作負載移至 Microsoft 雲端的商務用 Skype （或 Lync）進行多個內部部署組織（例如，Microsoft 團隊和/或商務用 Skype Online）進行整合。
+許多大型企業擁有多個內部部署 AD 樹系，在某些情況下，客戶會有多個 Exchange 和/或商務用 Skype Server (或 Lync Server) 部署。 此外，即使是只有一個內部部署樹系的組織，透過企業併購的過程，也會發現自己處於類似的情況。 當這些客戶移至雲端時，他們想要將特定內部部署工作負載的多個實例合併到單一 Microsoft 365 或 Office 365 組織中。 本文說明如何針對想要將其 UC 工作負載移至 Microsoft 雲端的商務用 Skype （或 Lync）進行多個內部部署組織（例如，Microsoft 團隊和/或商務用 Skype Online）進行整合。
 
-針對這類狀況的客戶，過去的指導方針是先合併內部部署的部署，然後再移至雲端。 雖然這仍是一項選擇，但本文會以新功能為基礎，以讓具有多部商務用 Skype 部署的組織，一次將一個部署遷移到單一 Office 365 組織，而不需要執行內部部署整合。 請注意，即使具有這項新功能，商務用 Skype Online 和 Microsoft 小組也不會在具有單一 Office 365 組織的混合模式中支援多個商務用 Skype/Lync 樹系。 
+針對這類狀況的客戶，過去的指導方針是先合併內部部署的部署，然後再移至雲端。 雖然這仍是一項選擇，但本文會以新功能為基礎，以讓具有多部商務用 Skype 部署的組織，一次將一個部署遷移到單一 Microsoft 365 或 Office 365 組織，而不需要執行內部部署整合。 請注意，即使具有這項新功能，商務用 Skype Online 和 Microsoft 小組也不會以單一 Microsoft 365 或 Office 365 組織，在混合模式中支援多個商務用 Skype/Lync 樹系。 
 
 > [!Important]
 > 設定此指南之前，請務必複查並瞭解[限制](#limitations)，因為它們可能會影響您的組織。
 
 ## <a name="overview-of-cloud-consolidation"></a>雲端整合概述
 
-在具有多個商務用 Skype 部署的組織中，所有的使用者都可以整合至單一 Office 365 組織中的雲端，但前提是符合下列主要需求：
+將內部部署中的所有使用者整合至單一 Microsoft 365 或 Office 365 組織中的雲端，只要具備下列主要需求，便可滿足任何具有多個商務用 Skype 部署之組織的目的：
 
-- 最多隻能有一個 Office 365 組織參與。 不支援在具有多個 Office 365 組織的案例中進行合併。
-- 任何時候，只有一個內部部署商務用 Skype 樹系可以處於混合模式 (共用 SIP 位址空間)。 其他所有內部部署商務用 Skype 樹系都必須仍是內部部署 (而且可能會互相形成同盟)。 請注意，如有需要，這些其他內部部署組織*可以*與 AAD 同步處理，以停用於12月2018的[線上 SIP 網域](https://docs.microsoft.com/powershell/module/skype/disable-csonlinesipdomain?view=skype-ps)。
+- 最多隻能有一個 Microsoft 365 或 Office 365 組織參與。 不支援在具有多個組織之案例中進行合併。
+- 任何時候，只有一個內部部署商務用 Skype 樹系可以處於混合模式 (共用 SIP 位址空間)。 其他所有內部部署商務用 Skype 樹系都必須仍是內部部署 (而且可能會互相形成同盟)。 請注意，如有需要，這些其他內部部署組織*可以*與 AAD 同步處理，以停用於12月2018的[線上 SIP 網域](https://docs.microsoft.com/powershell/module/skype/disable-csonlinesipdomain)。
 
-在多個樹系中部署商務用 Skype 的客戶，必須使用共用 SIP 位址空間功能，將單一混合式商務用 Skype 樹系的所有使用者，分別完整地遷移到 Office 365 組織中，然後再停用該內部部署的混合式，再繼續遷移下一個內部部署商務用 Skype 部署。 在移轉到雲端之前，內部部署使用者與任何不在相同使用者內部部署目錄中的使用者還是會保持同盟狀態。  
+在多個樹系中部署商務用 Skype 的客戶，必須使用共用 SIP 位址空間功能，將單一混合式商務用 Skype 樹系的所有使用者，分別完整地遷移至 Microsoft 365 或 Office 365 組織，然後再停用該內部部署的混合式，再繼續遷移下一個內部部署商務用 Skype 部署。 在移轉到雲端之前，內部部署使用者與任何不在相同使用者內部部署目錄中的使用者還是會保持同盟狀態。  
 
 ## <a name="canonical-example-of-cloud-consolidation"></a>雲端整合的規範範例
 
@@ -53,35 +53,35 @@ ms.locfileid: "43780132"
 
 |原始狀態詳細資料 |期望的狀態詳細資料 |
 |---------|---------|
-|<ul><li>兩個獨立的 AD 樹系中內部部署商務用 Skype 內部部署<li>最多1個樹系與商務用 Skype Online 混合使用 <li> 組織 emc 相互同盟 <li>使用者未同步處理到這些樹系<li> 組織可能會有 Office 365 組織，而且可能會將其目錄同步處理到 Azure AD</ul>|<ul> <li>1個 Office 365 組織<li>沒有其他的內部部署，因此不會有其他混合式部署<li>內部部署的所有使用者都位於商務用 Skype Online 中，也可能是僅限小組使用者 <li>商務用 Skype anywhere 沒有內部部署的空間 <li>使用者仍有內部部署驗證</ul> |
+|<ul><li>兩個獨立的 AD 樹系中內部部署商務用 Skype 內部部署<li>最多1個樹系與商務用 Skype Online 混合使用 <li> 組織 emc 相互同盟 <li>使用者未同步處理到這些樹系<li> 組織可能會有 Microsoft 365 或 Office 365 組織，而且可能會將其目錄同步處理到 Azure AD</ul>|<ul> <li>1 Microsoft 365 或 Office 365 組織<li>沒有其他的內部部署，因此不會有其他混合式部署<li>內部部署的所有使用者都位於商務用 Skype Online 中，也可能是僅限小組使用者 <li>商務用 Skype anywhere 沒有內部部署的空間 <li>使用者仍有內部部署驗證</ul> |
 
 ![整合兩個不同的同盟內部部署](../media/cloudconsolidationfig1.png)  
 
 從原始狀態到所需結束狀態的基本步驟如下。  請注意，有些組織可能會發現，在這些步驟中，有些組織可能會發現其起始點位於下列位置。 請參閱本文稍後的[其他起始點](#other-starting-points)。 最後，在某些情況下，您可以根據需要調整順序。 稍後會說明[主要限制和限制](#limitations)。
 
-1.  如果一個 Office 365 組織尚不存在，請加以取得。
-2.  確定所有在內部部署內部部署的相關 SIP 網域皆已驗證 Office 365 網域。
-3.  挑選一部商務用 Skype 部署，將與 Office 365 混合使用。 在此範例中，我們會使用 OriginalCompany。<span>com。
-4.  針對將優先成為混合式（OriginalCompany 的樹系，[啟用 AAD Connect](configure-azure-ad-connect.md) 。<span>com）。 
+1.  取得 Microsoft 365 或 Office 365 組織（若有的話）。
+2.  確定所有在內部部署中部署的相關 SIP 網域皆已驗證 Microsoft 365 或 Office 365 網域。
+3.  挑選一部商務用 Skype 部署，將會與 Microsoft 365 或 Office 365 混合使用。 在此範例中，我們會使用 OriginalCompany。 <span>Com。
+4.  針對將優先成為混合式（OriginalCompany 的樹系，[啟用 AAD Connect](configure-azure-ad-connect.md) 。 <span>com）。 
 5.  若要將小組引入組織，請將[TeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy)的租使用者型原則，設定為 SfBWithTeamsCollab 或其中一個其他 SfB 模式（SfBOnly 或 SfBWithTeamsCollabAndMeetings）。 這一點很重要，是要確保從僅限內部部署的使用者移動到團隊的來電和聊天的路由。
-6.  建議您在此點（但不是必要的步驟11）為[其他樹系啟用 AAD](cloud-consolidation-aad-connect.md)連線（AcquiredCompany）。<span>com）。 假設這兩個樹系中皆已啟用 AAD Connect，則該組織看**[起來像是](#figure-a)** 一些組織 emc 的常見起點。 
-7.  針對其他內部部署部署（在此案例中為 AcquiredCompany）所主控的任何 SIP<span>網域。com）中，使用 PowerShell 中的商務用`Disable-CsOnlineSipDomain` [Skype Online 停用這些 SIP 網域](https://docs.microsoft.com/powershell/module/skype/disable-csonlinesipdomain)。 （這是在2018年12月為止的新功能。）
-8.  [設定 OriginalCompany 的商務用 Skype 混合](configure-federation-with-skype-for-business-online.md)。<span>com （仍然具備線上 SIP 網域的一個部署）。
-9.  在混合部署中（OriginalCompany。<span>com）上，開始[將使用者從商務用 skype 部署至雲端](move-users-between-on-premises-and-cloud.md)（不論是不是小組），讓該帳戶位於商務用 skype Online 中。 現在，組織看起來如**[圖 B](#figure-b)** 所示。圖 A 的主要變更如下：
+6.  建議您在此點（但不是必要的步驟11）為[其他樹系啟用 AAD](cloud-consolidation-aad-connect.md)連線（AcquiredCompany）。 <span>com）。 假設這兩個樹系中皆已啟用 AAD Connect，則該組織看**[起來像是](#figure-a)** 一些組織 emc 的常見起點。 
+7.  針對其他內部部署部署（在此案例中為 AcquiredCompany）所主控的任何 SIP 網域。 <span>com）中，使用 PowerShell 中的[商務用 Skype Online 停用這些 SIP 網域](https://docs.microsoft.com/powershell/module/skype/disable-csonlinesipdomain) `Disable-CsOnlineSipDomain` 。 （這是在2018年12月為止的新功能。）
+8.  [設定 OriginalCompany 的商務用 Skype 混合](configure-federation-with-skype-for-business-online.md)。 <span>com （仍然具備線上 SIP 網域的一個部署）。
+9.  在混合部署中（OriginalCompany。 <span>com）上，開始[將使用者從商務用 skype 部署至雲端](move-users-between-on-premises-and-cloud.md)（不論是不是小組），讓該帳戶位於商務用 skype Online 中。 現在，組織看起來如**[圖 B](#figure-b)** 所示。圖 A 的主要變更如下：
     - 這兩個內部部署目錄中的使用者現在都在 AAD 中。
-    - AcquiredCompany.<span>com 是一種已停用的線上 SIP 網域。
+    - AcquiredCompany。 <span>com 是一種已停用的線上 SIP 網域。
     - 有些使用者已線上移至商務用 Skype Online 或小組。 （請參閱紫色使用者 A）。
-10. 將所有使用者移至雲端後，請[停用商務用 Skype 內部部署的混合式](cloud-consolidation-disabling-hybrid.md)OriginalCompany。<span>來自 Office 365 的 com：  
-    - 停用 Office 365 組織中的分割網域。
-    - 停用 OriginalCompany 中與 Office 365 通訊的功能。<span>com 內部部署。
-    - 更新 OriginalCompany 的 DNS 記錄。<span>Com 指向 Office 365。
-11. 若尚未完成，請為將成為混合式（AcquiredCompany 的[下一個樹系啟用 AAD](cloud-consolidation-aad-connect.md)連線）。<span>com）。 此時，組織看起來如**[圖 C](#figure-c)** 所示。這可能是部分組織的另一個常見起點。 
-12. 在 PowerShell 中，針對即將混合式 AcquiredCompany 的[下一個內部部署，啟用 SIP 網域](https://docs.microsoft.com/powershell/module/skype/enable-csonlinesipdomain?view=skype-ps)。<span>com。 使用`Enable-CsOnlineSipDomain`此功能的方式，也就是2018年12月為止可用的新功能。
-13. 如果您使用的是關閉的同盟，您必須將純線上租使用者的任何 SIP 網域（不包括 * microsoftonline.com）新增至**相同**Office 365 中的允許網域。 請注意，您可能需要一段時間，變更才會生效，而且在初期執行這項動作時，我們建議您在移至步驟14之前做好這項工作。
+10. 將所有使用者移至雲端後，請[停用商務用 Skype 內部部署的混合式](cloud-consolidation-disabling-hybrid.md)OriginalCompany。 <span>來自 Office 365 的 com：  
+    - 停用 Microsoft 365 或 Office 365 組織中的分割網域。
+    - 停用 OriginalCompany 中與 Microsoft 365 或 Office 365 通訊的功能。 <span>com 內部部署。
+    - 更新 OriginalCompany 的 DNS 記錄。 <span>com 指向 Microsoft 365 或 Office 365。
+11. 若尚未完成，請為將成為混合式（AcquiredCompany 的[下一個樹系啟用 AAD](cloud-consolidation-aad-connect.md)連線）。 <span>com）。 此時，組織看起來如**[圖 C](#figure-c)** 所示。這可能是部分組織的另一個常見起點。 
+12. 在 PowerShell 中，針對即將混合式 AcquiredCompany 的[下一個內部部署，啟用 SIP 網域](https://docs.microsoft.com/powershell/module/skype/enable-csonlinesipdomain)。 <span>Com。 使用此功能的 `Enable-CsOnlineSipDomain` 方式，也就是2018年12月為止可用的新功能。
+13. 如果您使用的是關閉的同盟，您必須將純線上租使用者的任何 SIP 網域（除 \* microsoftonline.com 之外）新增至**相同**Microsoft 365 或 Office 365 中的允許網域。 請注意，您可能需要一段時間，變更才會生效，而且在初期執行這項動作時，我們建議您在移至步驟14之前做好這項工作。
 14. 更新內部部署環境，以接受來自線上租使用者的任何 SIP 網域，使其符合。
-    - 將[所有 edge 憑證中的 SAN 更新](cloud-consolidation-edge-certificates.md)為與 before 相同的值，加上任何現有 online SIP 網域（如 microsoftonline.com 除外）的值（在此情況下為 OriginalCompany）。<span>com。
-    - 請確定 OriginalCompany。<span>com 是內部部署 AcquiredCompany 中的[允許網域](https://docs.microsoft.com/powershell/module/skype/new-csalloweddomain)。 新增允許的網域。
-15. 在內部部署 AcquiredCompany 之間[啟用商務用 Skype 混合](configure-federation-with-skype-for-business-online.md)。<span>com 和雲端。
+    - 將[所有 edge 憑證中的 SAN 更新](cloud-consolidation-edge-certificates.md)為與 before 相同的值，加上任何現有 online SIP 網域（如 microsoftonline.com 除外）的值（在此情況下為 OriginalCompany）。 <span>Com。
+    - 請確定 OriginalCompany。 <span>com 是內部部署 AcquiredCompany 中的[允許網域](https://docs.microsoft.com/powershell/module/skype/new-csalloweddomain)。 新增允許的網域。
+15. 在內部部署 AcquiredCompany 之間[啟用商務用 Skype 混合](configure-federation-with-skype-for-business-online.md)。 <span>com 和雲端。
 16. 視需要，[將使用者從內部部署遷移至雲端](move-users-between-on-premises-and-cloud.md)。 您可以直接將使用者遷移至[TeamsOnly](/microsoftteams/teams-and-skypeforbusiness-coexistence-and-interoperability)模式，也可以先將使用者遷移至商務用 Skype Online。 在此狀態下，組織看起來如**[圖 D](#figure-d)** 所示。
 17. 在遷移所有使用者之後，請[停用內部部署環境的混合](cloud-consolidation-disabling-hybrid.md)式，*使組織成為純雲端*！
 
@@ -97,31 +97,31 @@ ms.locfileid: "43780132"
 
 ##### <a name="figure-b"></a>圖 B：
 
-- AcquiredCompany.<span>com 是一種[已停用](https://docs.microsoft.com/powershell/module/skype/disable-csonlinesipdomain)的線上 SIP 網域。 所有使用者都是內部部署。 如果他們使用的小組沒有同盟或互通性。 在此階段中，Microsoft 建議您僅針對通道使用團隊。
+- AcquiredCompany。 <span>com 是一種[已停用](https://docs.microsoft.com/powershell/module/skype/disable-csonlinesipdomain)的線上 SIP 網域。 所有使用者都是內部部署。 如果他們使用的小組沒有同盟或互通性。 在此階段中，Microsoft 建議您僅針對通道使用團隊。
 - 已對其中一個內部部署組織啟用商務用 Skype 混合。
 - 混合式組織中的某些使用者已移至雲端（使用者 A 如紫色陰影所示）。 這些使用者可以是商務用 Skype Online 使用者或小組只有具有完整互通性及同盟支援的使用者。<br><br>
     ![圖 B 圖表](../media/cloudconsolidationfigb.png)
 
 ##### <a name="figure-c"></a>圖 C：
 
-- OriginalCompany 中的所有使用者。<span>com 現在位於雲端（位於商務用 Skype Online 中）。 建議他們也只是團隊。
-- 使用 OriginalCompany 的商務用 Skype 混合式設定。<span>已停用 com 部署。 內部部署已消失。
-- 如果 AcquiredCompany。<span>com 先前未同步處理至 AAD，若要從這裡繼續，必須立即同步處理。 不過，它尚未混合（共用 SIP 位址空間），而且在組織準備好移至混合式之前，純內部部署組織（AcquiredCompany.com）的線上 SIP 網域應保持停用，讓線上團隊使用者可以與內部部署使用者通訊。<br><br>
+- OriginalCompany 中的所有使用者。 <span>com 現在位於雲端（位於商務用 Skype Online 中）。 建議他們也只是團隊。
+- 使用 OriginalCompany 的商務用 Skype 混合式設定。 <span>已停用 com 部署。 內部部署已消失。
+- 如果 AcquiredCompany。 <span>com 先前未同步處理至 AAD，若要從這裡繼續，必須立即同步處理。 不過，它尚未混合（共用 SIP 位址空間），而且在組織準備好移至混合式之前，純內部部署組織（AcquiredCompany.com）的線上 SIP 網域應保持停用，讓線上團隊使用者可以與內部部署使用者通訊。<br><br>
     ![圖 C 圖表](../media/cloudconsolidationfigc.png)
 
 ##### <a name="figure-d"></a>圖 D：
 
-- AcquiredCompany.<span>com 現在已啟用為線上 SIP 網域。
-- 內部部署已更新，可接受 OriginalCompany。<span>com。 （同時更新允許的網域和 edge 憑證）。
-- 在 AcquiredCompany 之間啟用共用 SIP 位址空間。<span>Com 和 Office 365 組織。
+- AcquiredCompany。 <span>com 現在已啟用為線上 SIP 網域。
+- 內部部署已更新，可接受 OriginalCompany。 <span>Com。 （同時更新允許的網域和 edge 憑證）。
+- 在 AcquiredCompany 之間啟用共用 SIP 位址空間。 <span>com 和 Microsoft 365 或 Office 365 組織。
 - 混合式組織中的某些使用者可能已經移至雲端，例如下列使用者 D （以紫色陰影表示）。<br><br>
     ![圖 D 圖表](../media/cloudconsolidationfigd.png)
 
 ## <a name="other-starting-points"></a>其他起始點
 
-上述正常化範例中的步驟會假設組織從兩個同盟內部部署部署開始，但沒有 Office 365 的顯示狀態。 不過，有些組織可能會有現有的 Office 365 空間，而且上述順序可以有不同的進入點。 有四種一般設定：
+上述正常化範例中的步驟，會假設組織從兩個同盟內部部署部署開始，但沒有 Microsoft 或 Office 365 的顯示狀態。 不過，有些組織可能會有現有的 Microsoft 365 或 Office 365 的空間，而且上述順序可能會有不同的進入點。 有四種一般設定：
 
-- 沒有 Office 365 組織的多個同盟內部部署組織。 在此情況下，從步驟1開始。
+- 多個同盟內部部署組織，但沒有 Microsoft 365 或 Office 365 組織。 在此情況下，從步驟1開始。
 - 已將多個商務用 Skype 樹系同步處理成單一 Azure AD 租使用者的多個同盟內部部署組織。 這類組織類似于圖 A 中的假想組織，其已完成步驟1-6，應從步驟7開始。
 - Federates 與一或多個其他純內部部署組織的混合式組織，其中任何一個同步處理到 AAD。 這類組織類似于**圖 E**中的假想組織，如下所示。
     - 此組織類似于圖 B，其已完成步驟1-9，但：
@@ -136,14 +136,14 @@ ms.locfileid: "43780132"
 
 ## <a name="limitations"></a>限制
 
-- 最多隻能有一個 Office 365 組織參與。 不支援在具有多個 Office 365 組織的案例中進行合併。
-- 一次只能有一個內部部署商務用 Skype 樹系位於混合模式（共用 SIP 位址空間）。 其他所有的內部部署商務用 Skype 樹系都必須完全保持內部部署，而且應與彼此和 Office 365 組織同盟。
+- 最多隻能有一個 Microsoft 365 或 Office 365 組織參與。 不支援在具有多個組織之案例中進行合併。
+- 一次只能有一個內部部署商務用 Skype 樹系位於混合模式（共用 SIP 位址空間）。 其他所有的內部部署商務用 Skype 樹系都必須保持在內部部署中，而且應與對方和 Microsoft 365 或 Office 365 組織相互同盟。
 - 在遷移至雲端之前，不會在此部署中使用使用者的非對稱體驗，因為並非線上中的所有使用者都是以內部部署表示：
     - 這種體驗的求和方式如下：
         - 任何位於線上的使用者都會與混合式環境中的內部部署使用者互動，如同使用者是混合式。
         - 混合式部署中的內部部署使用者會與線上使用者互動，其內部部署目錄中的使用者會如同混合式。 
         - 混合式部署中的內部部署使用者將與在內部部署 AD 中未以同盟方式表示的線上使用者互動。
-    - 在上**[圖](#figure-d)** 中，使用者 E 是內部部署的 AcquiredCompany。<span>com。  使用者 E 會使用標準混合式體驗與使用者 D （位於線上）進行互動，但使用者 E 會具有使用者 A、B 和 C 的同盟體驗，因為它們不會在內部部署目錄中呈現。 不過，使用者 A、B 和 C 會與使用者 E 互動，就如同該使用者是在混合式。
+    - 在上**[圖](#figure-d)** 中，使用者 E 是內部部署的 AcquiredCompany。 <span>Com。  使用者 E 會使用標準混合式體驗與使用者 D （位於線上）進行互動，但使用者 E 會具有使用者 A、B 和 C 的同盟體驗，因為它們不會在內部部署目錄中呈現。 不過，使用者 A、B 和 C 會與使用者 E 互動，就如同該使用者是在混合式。
     - 混合式與同盟的影響：
         - 除非使用者標示為連絡人，否則不會自動為同盟使用者訂閱顯示狀態。
         - 「來電轉接」無法在同盟網域之間運作。
@@ -179,7 +179,7 @@ ms.locfileid: "43780132"
     - 附注：您必須在租使用者層級執行此作業，因為原則無法指派給在線上目錄中沒有 SIP 位址的個別使用者。 當您已停用純內部部署部署的線上 SIP 網域時，這些網域中的使用者將不會以設計方式在線上目錄中擁有 SIP 位址。 因此，將原則套用至內部部署使用者的唯一方法是在租使用者層級指派。 相反地，在混合部署中，使用者會在線上目錄中擁有 SIP 位址，以便在需要與租使用者通用原則不同的值的情況下，明確指派原則。
 - 團隊用戶端 UX 尚未服從 TeamsUpgradePolicy 的 SfB 模式。 例如，在這兩種模式下，目前可能會有小組的呼叫和聊天初始，但在未來不是案例。 這可能會造成使用者混淆，因為回復有時可能會在小組中或有時會以商務用 Skype 進行，視情況而定。 建議您針對仍在內部部署的使用者，分別停用 TeamsMessagingPolicy 和 TeamsCallingPolicy 的通話和聊天功能。
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 [更新 Edge 憑證](cloud-consolidation-edge-certificates.md)
 

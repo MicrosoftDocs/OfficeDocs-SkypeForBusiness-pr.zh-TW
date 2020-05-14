@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 瞭解如何取得正確的固件、根據需要進行更新、指派授權，以及設定常用區域手機的設定等部署步驟。
-ms.openlocfilehash: bfba106c262fb558a468f8cad26b3555b81b125e
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 02cab34b4a1f220e8f28ceeee794470191582704
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692238"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220403"
 ---
 # <a name="set-up-common-area-phones"></a>設定公共區域電話
 常見的區域電話（CAP）通常放在諸如大廳或其他許多人都可以使用的區域中。 例如，將 Cap 設定為裝置，而不是使用者並自動登入網路，即接收區域電話、[門 phone] 或 [會議室電話]。 在下列步驟中，我們將協助您使用通話方案設定電話系統帳戶，以便為您的組織部署這些類型的電話。
@@ -37,23 +37,23 @@ ms.locfileid: "41692238"
 - 購買通用的區域電話授權和通話方案。
 - 搜尋並購買核准的電話（在[此](deploying-skype-for-business-online-phones.md)查看清單）。
 - 更新手機上的固件（請參閱[本主題中](getting-phones-for-skype-for-business-online.md)的支援的固件）。  您可以執行下列動作來檢查手機上的固件：
-  - **Polycom VVX 手機**：移至**設定** > **狀態** > **平臺** > **應用程式** > **主要**。
+  - **Polycom VVX 手機**：移至**設定**  >  **狀態**  >  **平臺**  >  **應用程式**  >  **主要**。
   - **Yealink [電話**]：移至 [主要電話] 畫面上的 [**狀態**]。
-  - **AudioCodes [電話**]：從 [開始] 畫面移至 [**功能表** > **裝置狀態** > **固件版本**]。
-  - **Lync Phone Edition （lpw）手機**：移至 [開始] 畫面中的 [**功能表** > **系統資訊**]。
+  - **AudioCodes [電話**]：從 [開始] 畫面移至 [**功能表**  >  **裝置狀態**  >  **固件版本**]。
+  - **Lync Phone Edition （lpw）手機**：移至**Menu**  >  [開始] 畫面中的 [功能表**系統資訊**]。
 
     固件更新是由商務用 Skype 服務來管理。 每個商務用 Skype 認證手機的固件都會上傳到商務用 Skype 補救伺服器，且預設會在所有手機上啟用裝置更新。
 
-    電話會自動下載並安裝最新的認證組建，這取決於電話和巡迴檢測間隔中的非啟用時間。 您可以使用[CsIPPhonePolicy](https://docs.microsoft.com/powershell/module/skype/set-csipphonepolicy) Cmdlet 來停用裝置更新設定，並將*EnableDeviceUpdate*參數設定為`false`。
+    電話會自動下載並安裝最新的認證組建，這取決於電話和巡迴檢測間隔中的非啟用時間。 您可以使用[CsIPPhonePolicy](https://docs.microsoft.com/powershell/module/skype/set-csipphonepolicy) Cmdlet 來停用裝置更新設定，並將*EnableDeviceUpdate*參數設定為 `false` 。
 
 ## <a name="setting-up-a-common-area-phone"></a>設定一般的區域電話
 您必須遵循下列步驟：
 
 ### <a name="step-1---buy-the-licenses"></a>步驟 1-購買授權
-1. 在系統管理中心中，移至 [**帳單** > **購買服務**]，然後新增**其他方案**。
+1. 在系統管理中心中，移至 [**帳單**  >  **購買服務**]，然後新增**其他方案**。
 
     ![CAP-license .png](../../images/cap-license.png)
-2. 按一下 [**常用區域電話** > **立即購買**] > 在 [**結帳**] 頁面上按一下 [**立即購買**]。
+2. 按一下 [**常用區域電話**  >  **立即購買**] > 在 [**結帳**] 頁面上按一下 [**立即購買**]。
 3. 按一下 [開啟] 以展開 [**附加元件訂閱**]，然後按一下 [開啟] 以購買通話方案。 選擇 [**國內通話方案**] 或 [**國內與國際通話方案**]。
 
 > [!Note]
@@ -62,7 +62,7 @@ ms.locfileid: "41692238"
 如需授權的詳細資訊，請參閱[商務用 Skype 和 Microsoft 團隊附加元件授權](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)。
 
 ### <a name="step-2---create-a-new-user-account-for-the-phone-and-assign-the-licenses"></a>步驟 2-為手機建立新的使用者帳戶並指派授權
-1. 在系統管理中心中，移至 [**使用者** > 作用中的**使用者** > ]**新增使用者**。
+1. 在系統管理中心中，移至 [**使用者**作用中  >  的**使用者**]  >  **新增使用者**。
 2. 將第一個名稱的**使用者名稱**（例如 "Main"）加上第二個名稱的 "接收"。
 3. 如果沒有自動產生類似 "主要接收" 的名稱，則放入**顯示名稱**。
 4. 放在**使用者名稱**（例如 "MainReception" 或 "Mainlobby"）。
@@ -82,10 +82,10 @@ ms.locfileid: "41692238"
 
 ### <a name="step-3---assign-a-phone-number-to-the-common-area-phone-user-account"></a>步驟 3-將電話號碼指派給通用區域電話使用者帳戶
 
-![顯示商務用 Skype 標誌](../../images/sfb-logo-30x30.png)的圖示，可使用商務用 Skype 系統**管理中心**將電話號碼指派給使用者
+![顯示商務用 Skype 標誌的圖示 ](../../images/sfb-logo-30x30.png) ，可使用**商務用 Skype 系統管理中心**將電話號碼指派給使用者
 
-1. 在系統管理中心中 > [系統**管理中心] 中心** > **商務用 Skype**。
-2. 在**商務用 Skype 系統管理中心** >  **語音** > **電話號碼**。
+1. 在系統管理中心中 > [系統**管理中心] 中心**  >  **商務用 Skype**。
+2. 在**商務用 Skype 系統管理中心**  >   **語音**  >  **電話號碼**。
 3. 從電話號碼清單中選取一個數位，然後按一下 [**指派**]。
 4. 在 [**指派**] 頁面上的 [**語音使用者**] 方塊中，輸入用於手機的使用者名稱，然後在 [**選取語音使用者**] 下拉式清單中選取使用者。
 5. 當您在這裡時，您將需要新增緊急位址。 搜尋之後，請在 [**選取緊急位址**] 下查看，為您挑選一個合適的位址。
@@ -98,7 +98,7 @@ ms.locfileid: "41692238"
 
 如需更多相關資訊，請參閱為[您的使用者取得電話號碼](/microsoftteams/getting-phone-numbers-for-your-users)。
 
-如果您想知道，您也可以將您的電話號碼與其他運輸公司和「*埠*」結合，或轉移到 Office 365。 請參閱[將電話號碼轉移至團隊](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams)。
+如果您想知道，您也可以將您的電話號碼與其他運輸公司和 "*port*" 結合，或轉移到 Microsoft 365 或 Office 365。 請參閱[將電話號碼轉移至團隊](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams)。
 
 ### <a name="step-4---setting-up-your-phone"></a>步驟 4-設定您的電話
 
@@ -124,7 +124,7 @@ ms.locfileid: "41692238"
 
 - 現在，您的手機已準備就緒，您可以在主畫面上登入。
 
-    1. 選取**** > [**設定** > ] 的 [**商務用 Skype** ]，登入。
+    1. 選取 [**設定**] 的 [商務用 Skype]，登入  >  **Features**  >  **。**
     2. 選取 [**使用者認證**]，然後選取 **[web 登入（CAP）** ] 來產生程式碼。
     3. 移至 [[預配入口網站](https://aka.ms/skypecap)]，然後以系統**管理員**身分登入。
     4. 輸入顯示名稱（例如 [主要接收]）。
@@ -138,7 +138,7 @@ ms.locfileid: "41692238"
 
 
 > [!NOTE]
-> CAP 預配網站的狀態會將 CAP 帳戶的密碼重設為隨機密碼。 請注意，CAP 所參照的帳戶是 Azure Active Directory （AAD）帳戶。 如果您只在 AAD 中建立帳戶，程式就相當簡單。 如果您已將內部部署 Active Directory 同步處理到 AAD，且您使用的是協力廠商 IDP 或 ADFS，則 CAP 配置將會失敗。 在這種情況下，您只需要使用 Office 365/Azure Active Directory 帳戶（例如，擁有**onmicrosoft.com**網域的帳戶），才能執行 CAP 提供作業。
+> CAP 預配網站的狀態會將 CAP 帳戶的密碼重設為隨機密碼。 請注意，CAP 所參照的帳戶是 Azure Active Directory （AAD）帳戶。 如果您只在 AAD 中建立帳戶，程式就相當簡單。 如果您已將內部部署 Active Directory 同步處理到 AAD，且您使用的是協力廠商 IDP 或 ADFS，則 CAP 配置將會失敗。 在這種情況下，您只需要使用 Microsoft 365 或 Office 365/Azure Active Directory 帳戶（例如，擁有**onmicrosoft.com**網域的帳戶），才能使用 CAP 提供。
 
 
 ### <a name="related-topics"></a>相關主題

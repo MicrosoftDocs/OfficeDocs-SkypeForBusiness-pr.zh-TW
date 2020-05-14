@@ -24,12 +24,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: 瞭解如何開啟和使用通話品質儀表板，並取得通話品質的摘要報告。
-ms.openlocfilehash: 95c4a777576b2cf574ba76d7f1b19de69f64dc88
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 59f905315eebe1e2f3e3b24b157eb198173a94e8
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44047363"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44226010"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>開啟並使用 Microsoft 團隊和商務用 Skype Online 的通話品質儀表板
 
@@ -37,7 +37,7 @@ ms.locfileid: "44047363"
   
 通話品質儀表板（CQD）可讓您深入瞭解使用 Microsoft 團隊和商務用 Skype Online 服務所進行的通話品質。 本主題描述開始收集資料的步驟，您可以用來疑難排解通話品質問題。
 
-目前，您可以使用 [高級 CQD] 和 [CQD]。 您可以在<span>https://cqd.teams.microsoft.com</span>使用 [高級 CQD]。 使用您的系統管理員認證的新 URL，但相同的記錄。
+目前，您可以使用 [高級 CQD] 和 [CQD]。 您可以在使用 [高級 CQD] <span>https://cqd.teams.microsoft.com</span> 。 使用您的系統管理員認證的新 URL，但相同的記錄。
 
 ## <a name="assign-roles-for-accessing-cqd"></a>指派角色以存取 CQD
 
@@ -148,9 +148,9 @@ URL 日期參數現在可以接受 Day 欄位。 [日常報告] 使用 YYYY MM �
 
 |網址| 滾動日趨勢的結束日期|
 |:---|:---|
-|<span>HTTPs://<cqdv3>/Spd/#/Dashboard/<reportid>/2019-02/</span>   |2019年2月的目前日期|
-|<span>HTTPs://<cqdv3>/Spd/#/Dashboard/<reportid>/2019-02-15/</span>|2019年2月15日|
-|<span>HTTPs://<cqdv3>/Spd/#/Dashboard/<reportid>/00/</span>        |當天|
+|<span>HTTPs:// <cqdv3> /spd/#/Dashboard/ <reportid> /2019-02/</span>   |2019年2月的目前日期|
+|<span>HTTPs:// <cqdv3> /spd/#/Dashboard/ <reportid> /2019-02-15/</span>|2019年2月15日|
+|<span>HTTPs:// <cqdv3> /spd/#/Dashboard/ <reportid> /00/</span>        |當天|
 |||
 
 根據預設，每個月的當天是用來做為滾動日趨勢的最後一天。
@@ -176,12 +176,12 @@ CQD v3 支援在 SPD 報告中使用 [鑽取] 或 [向下切入] 欄位。 如�
 
 在您開始使用 CQD 之前，請先為您的 Microsoft 365 或 Office 365 啟動它，如下所示：
 
-![](media/teams-logo-30x30.png) **使用 microsoft 團隊系統管理中心**顯示 microsoft 小組標誌的圖示
+![](media/teams-logo-30x30.png)**使用 microsoft 團隊系統管理中心**顯示 microsoft 小組標誌的圖示
 
 1. 使用 Microsoft 團隊服務系統管理員帳戶登入您的 Microsoft 365 或 Office 365，然後選取 [系統**管理**] 磚以開啟系統管理中心。
 2. 在左窗格中的 [系統**管理中心**] 底下，選取 [ **microsoft 團隊**] 以開啟 microsoft 團隊系統管理中心。
 3. 在 Microsoft [團隊管理中心] 中，選取左窗格中的 [**通話品質儀表板**]。
-4. \(在開啟 HTTPs://<span>cqd.teams.microsoft.com<span/>\)的頁面上，按一下 [登**入**]，然後輸入您的全域系統管理員帳戶或 microsoft 團隊服務系統管理員帳戶資訊。
+4. 在開啟 HTTPs://cqd.teams.microsoft.com 的頁面上，按一下 [登入]， \( <span> <span/> \) 然後輸入您的全域系統管理員帳戶或 Microsoft 團隊服務系統管理員帳戶資訊。 **Sign in**
 
     ![螢幕擷取畫面：顯示 [認證] 提示](media/ac4c1699-d8c1-4bda-af30-0fec35b5fd22.png)
   
@@ -189,7 +189,7 @@ CQD v3 支援在 SPD 報告中使用 [鑽取] 或 [向下切入] 欄位。 如�
 > [!NOTE]
 > 在報告中，可能需要一或幾個小時的時間來處理足夠的資料，以顯示有意義的結果。
 
-![](media/sfb-logo-30x30.png) **使用商務用 skype 傳統版入口網站**的商務用 skype 標誌圖示
+![](media/sfb-logo-30x30.png)**使用商務用 skype 傳統版入口網站**的商務用 skype 標誌圖示
 
 1. 使用系統管理員帳戶登入您的 Microsoft 365 或 Office 365，然後選取 [系統**管理**] 磚以開啟系統管理中心。
 2. 在左窗格中的 [系統**管理中心**] 底下，選取 [ **microsoft 團隊**] 以開啟 microsoft 團隊系統管理中心。
@@ -212,7 +212,7 @@ CQD 摘要報告提供規劃詳細報告之功能的子集。 版本間的差異
 |:--- |:--- |:--- |
 |應用程式共用躍點數 | 否 | 是 |
 |客戶建立資訊支援 | 是 | 是 |
-|用戶端點資訊支援 | 僅限<span>cqd.teams.microsoft.com<span/> | 僅限<span>cqd.teams.microsoft.com<span/> |
+|用戶端點資訊支援 | 僅限 <span> cqd.teams.microsoft.com<span/> | 僅限 <span> cqd.teams.microsoft.com<span/> |
 |深化分析支援   | 否   | 是   |
 |媒體可靠性度量單位   | 否   | 是   |
 |外框報告   | 是   | 是   |
@@ -359,7 +359,7 @@ CQD 摘要報告儀表板包含**租使用者資料上傳**頁面，方法是從
 
    - 資料檔案必須是. tsv （以定位字元分隔的值）檔案或 .csv （逗號分隔值）檔案。 如果使用 .csv 檔案，任何包含逗號的欄位都必須以引號括住，或移除逗號。 例如，如果您的建築物名稱是 NY，NY，請在 .csv 檔案中輸入「NY，NY」。
    - 資料檔案不能大於 50 MB。
-   - 上傳到 cqd.teams.microsoft.com 的檔案的展開列限制為1000000，以讓查詢效能保持在快速。 這個限制也適用于 CQD<span></span><span></span>上的 CQD v2。
+   - 上傳到 cqd.teams.microsoft.com 的檔案的展開列限制為1000000，以讓查詢效能保持在快速。 這個限制也適用于 CQD 上的 CQD v2 <span></span> <span></span> 。
    - 針對每個資料檔案，檔案中的每一欄都必須符合預先定義的資料類型，本主題稍後將討論。
 3. 接下來，指定**開始日期**，並根據需要**指定結束日期**。
 4. 最後，選取 **[上傳**]，將檔案上傳到 CQD 伺服器。
@@ -432,11 +432,11 @@ CQD 會使用端點資料檔案。 欄值會用於通話記錄的第一個用戶
 
 ## <a name="migrate-reports-from-previous-version-of-cqd"></a>從舊版本的 CQD 遷移報表
 
-如果您在商務用 Skype 中建立報告或上傳的租使用者資料（對應）https://cqd.lync.com)檔案至 CQD （並想要將它們遷移https://cqd.teams.microsoft.com)至小組的 CQD），請參閱：
+如果您在商務用 Skype 中建立報告或上傳的租使用者資料（對應）檔案至 CQD （ https://cqd.lync.com) 並想要將它們遷移至小組的 CQD https://cqd.teams.microsoft.com) ），請參閱：
 
-1.    移至[https://cqd.lync.com/cqd/](https://cqd.lync.com/cqd/)並流覽至您要匯出的報表集合。 
+1.    移至 [https://cqd.lync.com/cqd/](https://cqd.lync.com/cqd/) 並流覽至您要匯出的報表集合。 
 2.    將游標暫留在報表上，然後在 [...]功能表中，選擇 [**匯出報表樹**]。 儲存匯出檔案。
-3.    移至[https://cqd.teams.microsoft.com/cqd/](https://cqd.teams.microsoft.com/cqd/)並流覽至您要匯入報表的位置。
+3.    移至 [https://cqd.teams.microsoft.com/cqd/](https://cqd.teams.microsoft.com/cqd/) 並流覽至您要匯入報表的位置。
 4.    從左側的連結中，按一下 [匯**入**]，然後選取匯出的檔案。 
 5.    匯入報告之後，您會看到以下訊息：「已成功匯入報告。 新的報表已在報表集的結尾新增。」 
 
@@ -445,7 +445,7 @@ CQD 會使用端點資料檔案。 欄值會用於通話記錄的第一個用戶
 
 如果您發現想要以提供的詳細報告以外的方式來建立焦點在資料維度上的特定報表，請建立自訂報表。
 
-\(從 [登入**摘要報告**]\)畫面所顯示之畫面頂端的 [報告] 下拉式清單中，選取 [**詳細報告**] **，然後在**報告的 [動作] 功能表中，按一下 [編輯]，以查看 [查詢編輯器]。 每個報告都會以查詢的方式支援到立方體中。 報表是其查詢所傳回資料的視覺效果。 [查詢編輯器] 可協助您編輯這些查詢和報表的顯示選項。 當您開啟新報表的 [查詢編輯器] 時，您會看到類似此螢幕擷取畫面的內容：
+從 [登入摘要報告] 畫面所顯示之畫面頂端的 [報告] 下拉式清單中， \( **Summary Reports** \) 選取 [**詳細報告**] **New** ，然後在報告的 [動作] 功能表中，按一下 [編輯]，以查看 [查詢編輯器]。 每個報告都會以查詢的方式支援到立方體中。 報表是其查詢所傳回資料的視覺效果。 [查詢編輯器] 可協助您編輯這些查詢和報表的顯示選項。 當您開啟新報表的 [查詢編輯器] 時，您會看到類似此螢幕擷取畫面的內容：
 
 ![編輯新報表](media/e8969625-e6f9-4d67-873f-93e78dd12b35.png)
 
@@ -489,9 +489,17 @@ CQD 會使用端點資料檔案。 欄值會用於通話記錄的第一個用戶
 
 如果您看到 CQD v2 與 v3 之間的資料差異，請確定資料比較或驗證是在 "蘋果" 和 [窄] 層級完成，而不是 [匯總層級]。 例如，如果您篩選兩個報告以進行 MSIT ' 建築物 30 ' WiFi 小組桌面用戶端資料，那麼在 v2 與 v3 之間，品質較差的百分比應該相同。
 
-CQD v2 和 CQD v3 具有不同的總計數，因為 CQD v3 有新的案例不在 CQD v2 中。 [摘要總計] 或 [匯總] 不含篩選的所有數位，都應該是不同的。  
+CallSetup 失敗的 CQDv2 分類只會針對 "Audio" 模態進行 inly 考慮，在 CQDv3 中，每個模態（音訊、影片和 Appsharing）都會進行這個分類，並以各個模態資料流程表示。 
 
-如果使用案例包含商務用 Skype Server 2019 通話，CQD v3 資料包括 Skype Bot 呼叫（自動語音應答、CVI、虛擬桌面介面）、即時事件和 PSTN 通話。 CQD v2 不使用此資料。 （CQD v3 需要已設定雲端資料連線器的商務用 Skype Server 2019。）
+針對團隊而言，CQDv2 會將相同的使用者意見反應套用至所有形式 CQDv3 針對團隊的模態套用意見反應基礎。
+
+CQD V3 包含 
+1. 商務用 Skype Server 2019 通話， 
+2. Skype Bot 通話，例如：自動語音應答、通話佇列、會議宣告服務、 
+3. 虛擬桌面介面、
+4. 會議影片互通性，
+3. 即時事件發行者與簡報者通話，以及 
+4. PSTN 通話。 
 
 例如，如果您在 CQD v2 摘要報告中看到200000音訊串流（含5000失敗），則在 CQD v3 摘要報告中看到的300000音訊資料流程可能不尋常（這是由於商務5500用 Skype Server 2019 通話、CVI 通話、PSTN 通話等等）。
 
@@ -500,6 +508,18 @@ CQD v2 和 CQD v3 具有不同的總計數，因為 CQD v3 有新的案例不在
 - 使用者代理類別對
 - 第一個產品
 - 第二個產品
+
+以下是套用特定篩選來比較 CQD v2 與 CQD v3 資料的範例：
+
+1. 可用的 QoE 記錄 = True
+
+2. [新增] 是 [伺服器對] 篩選，其值為：用戶端：用戶端和用戶端：伺服器。 大多數租使用者傾向于排除伺服器：伺服器通話。
+
+3. 新增篩選使用者代理類別，並篩選出自動語音應答、通話佇列、Bot、會議室系統、MediationServer、會議發佈服務、VDI 等。
+
+:::image type="content" source="media/turning-on-and-using-call-quality-dashboard1.png" alt-text="在 CQD v3 中套用特定篩選的螢幕擷取畫面":::
+
+:::image type="content" source="media/turning-on-and-using-call-quality-dashboard2.png" alt-text="在 CQD v2 中套用特定篩選的螢幕擷取畫面":::
 
 ### <a name="other-expected-differences-between-cqd-v2-and-cqd-v3"></a>CQD v2 與 CQD v3 之間的其他預期差異
 

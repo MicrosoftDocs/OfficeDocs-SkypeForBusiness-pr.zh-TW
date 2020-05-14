@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 下列各節提供如何設定資源/使用者樹系模型中有多個樹系的環境，以在混合案例中供應商務用 Skype 功能的指導方針。
-ms.openlocfilehash: acfca3b29407b019b87f5429906dbc72b4ef7dc3
-ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
+ms.openlocfilehash: cf3a162001756661afd0f204e9968713d9db0f5b
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43918682"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221477"
 ---
 # <a name="deploy-a-resource-forest-topology"></a>部署資源樹系拓撲
  
@@ -35,7 +35,7 @@ ms.locfileid: "43918682"
 
 支援多個使用者樹系。 請記住下列事項： 
     
-- 如需混合式設定中的支援版本的 Lync Server 和商務用 Skype Server，請參閱[規劃商務用 Skype server 與 Office 365 之間的混合](plan-hybrid-connectivity.md)式連線中的[伺服器版本需求](plan-hybrid-connectivity.md#server-version-requirements)。
+- 如需混合式設定中的支援版本的 Lync Server 和商務用 Skype Server，請參閱[規劃商務用 Skype server 與 Microsoft 365 或 Office 365 之間的混合](plan-hybrid-connectivity.md)式連線中的[伺服器版本需求](plan-hybrid-connectivity.md#server-version-requirements)。
     
 - Exchange Server 可以部署在一個或多個樹系中，可能包含或不包含商務用 Skype 伺服器的樹系。 請確認您已套用最新的累計更新。
     
@@ -73,9 +73,9 @@ ms.locfileid: "43918682"
     
 - 如果每個使用者樹系的唯一 UPN 已同步處理至資源樹系中關聯的已停用物件，則 AD FS 驗證會失敗。 比對規則會在資源樹系中的物件上找到 UPN，該物件已停用，且無法用於驗證。 
     
-## <a name="create-an-office-365-organization"></a>建立 Office 365 組織
+## <a name="create-a-microsoft-365-or-office-365-organization"></a>建立 Microsoft 365 或 Office 365 組織
 
-接下來您必須布建 Office 365 組織，以搭配您的部署使用。 如需詳細資訊，請參閱[Microsoft 雲端供應專案的訂閱、授權、帳戶及承租人](https://docs.microsoft.com/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings)。 
+接下來，您將需要布建 Microsoft 365 或 Office 365 組織，以用於您的部署。 如需詳細資訊，請參閱[Microsoft 雲端供應專案的訂閱、授權、帳戶及承租人](https://docs.microsoft.com/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings)。 
   
 ## <a name="configure-active-directory-federation-services"></a>設定 Active Directory Federation Services
 
@@ -91,9 +91,9 @@ ms.locfileid: "43918682"
     
 在每個使用者樹系中放置一個 AD FS 伺服器陣列，並針對每個樹系使用唯一的 SIP/SMTP/UPN，我們會解決這兩個問題。 在驗證嘗試期間，只會搜尋該特定使用者樹系中的帳戶，並將其配對。 這將協助提供更順暢的驗證程式。 
   
-這將是 Windows Server 2012 R2 AD FS 的標準部署，在繼續之前，應正常運作。 如需相關指示，請參閱 how [To INSTALL AD FS 2012 R2 For Office 365](https://blogs.technet.com/b/rmilne/archive/2014/04/28/how-to-install-adfs-2012-r2-for-office-365.aspx)。 
+這將是 Windows Server 2012 R2 AD FS 的標準部署，在繼續之前，應正常運作。 如需相關指示，請參閱[如何為 Microsoft 365 或 Office 365 安裝 AD FS 2012 R2](https://blogs.technet.com/b/rmilne/archive/2014/04/28/how-to-install-adfs-2012-r2-for-office-365.aspx)。 
   
-部署之後，您必須編輯宣告規則，使其符合先前所選取的來源錨點。 在 [AD FS MMC] 中的 [信賴憑證者信任] 底下，以滑鼠右鍵按一下 [ **Microsoft Office 365 身分識別平臺**]，然後按一下 [**編輯宣告規則**]。 編輯第一個規則，並將 ObjectSID 變更為**employeeNumber**。 
+部署之後，您必須編輯宣告規則，使其符合先前所選取的來源錨點。 在 [AD FS MMC] 中的 [信賴憑證者信任] 底下，以滑鼠右鍵按一下 [ **microsoft 365 Identity platform** ] 或 [ **microsoft Office 365 身分識別平臺**]，然後選取 [**編輯宣告規則**]。 編輯第一個規則，並將 ObjectSID 變更為**employeeNumber**。 
   
 ![多樹系編輯規則畫面](../../sfbserver/media/f5d485bd-52cc-437f-ba71-217f8902056c.png)
   
@@ -107,9 +107,9 @@ ms.locfileid: "43918682"
   
 ![多樹系元節物件畫面](../../sfbserver/media/16379880-2de3-4c43-b219-1551f5dec5f6.png)
   
-綠色的醒目顯示內容已從 Office 365 合併，黃色是來自使用者樹系，而藍色則來自資源樹系。 
+綠色的醒目顯示內容已從 Microsoft 365 或 Office 365 合併，黃色是來自使用者樹系，而藍色則來自資源樹系。 
   
-這是測試使用者，您可以看到 AAD 連線已識別來自使用者的 sourceAnchor 和 cloudSourceAnchor，以及來自 Office 365 的資源樹系物件，在我們的案例1101中，這是先前所選取的 employeeNumber。 然後，它就可以將此物件合併成您在上方看到的內容。 
+這是測試使用者，您可以看到 AAD 連線已識別來自使用者的 sourceAnchor 和 cloudSourceAnchor，以及來自 Microsoft 365 或 Office 365 的資源樹系物件，在我們的案例1101中，這是先前所選取的 employeeNumber。 然後，它就可以將此物件合併成您在上方看到的內容。 
   
 如需詳細資訊，請參閱[將您的內部部署目錄與 Azure Active Directory 整合](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/)。 
   

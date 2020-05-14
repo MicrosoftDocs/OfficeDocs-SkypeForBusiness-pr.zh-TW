@@ -1,5 +1,5 @@
 ---
-title: 準備您的雲端連接器裝置
+title: 準備 Cloud Connector 設備
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 6eacfa99-9759-4c13-aca3-8992c2ff2710
-description: 瞭解如何在 Office 365 （Cloud PBX）中準備用於部署和使用電話系統的雲端連接器裝置。
-ms.openlocfilehash: 21943dfd8b86bfeabb4cbd28b501b80a3f2b5c45
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: 深入瞭解如何準備您的雲端連接器裝置，以供部署和與電話系統（Cloud PBX）搭配使用。
+ms.openlocfilehash: d00002719ed8aaac7d0f0fb0e5ceb5722acc289c
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779239"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220063"
 ---
-# <a name="prepare-your-cloud-connector-appliance"></a>準備您的雲端連接器裝置
+# <a name="prepare-your-cloud-connector-appliance"></a>準備 Cloud Connector 設備
 
-瞭解如何在 Office 365 （Cloud PBX）中準備用於部署和使用電話系統的雲端連接器裝置。
+深入瞭解如何準備您的雲端連接器裝置，以供部署和與電話系統（Cloud PBX）搭配使用。
 
 本節說明如何取得商務用 Skype 雲端連接器 Edition 安裝檔案、安裝雲端連接器軟體，以及準備用於部署的雲端連接器裝置。 在您完成本節中的所有步驟之後，您就可以為單一網站或多個網站部署雲端連接器。 如果您有現有的雲端連接器部署，但尚未升級為雲端連接器版本2.1，請參閱[Upgrade to An Cloud connector 的新版本](upgrade-to-a-new-version-of-cloud-connector.md)。
 
@@ -43,7 +43,7 @@ ms.locfileid: "43779239"
 
 ## <a name="download-the-skype-for-business-cloud-connector-edition-installer"></a>下載商務用 Skype 雲端連接器 Edition 安裝程式
 
-1. 在雲端連接器 Vm 即將執行的主機伺服器上，下載安裝檔案： [https://aka.ms/CloudConnectorInstaller](https://aka.ms/CloudConnectorInstaller)。 
+1. 在雲端連接器 Vm 即將執行的主機伺服器上，下載安裝檔案： [https://aka.ms/CloudConnectorInstaller](https://aka.ms/CloudConnectorInstaller) 。 
 
     > [!IMPORTANT]
     > 在安裝雲端連接器期間，主伺服器必須能夠存取網際網路，因為在安裝期間會下載其他檔案。 
@@ -136,7 +136,7 @@ Set-CcExternalCertificateFilePath -Path <Full path to gateway certificate, inclu
 
 ## <a name="create-virtual-switches-in-hyper-v-manager"></a>在 Hyper-V 管理員中建立虛擬交換器
 
-1. 開啟**Hyper-V 管理員** > **虛擬交換器管理員**]，然後選取 [**新增虛擬交換器管理員**]。
+1. 開啟**Hyper-V 管理員**  >  **虛擬交換器管理員**]，然後選取 [**新增虛擬交換器管理員**]。
 
 2. 建立外部虛擬交換器，並將它系結至連接至您的內部網路網域的實體網路介面卡：
 
@@ -171,7 +171,7 @@ Export-CcConfigurationSampleFile
 
 - **SiteName：** 預設值為**Site1**。 您必須先將它更新，然後再部署雲端連接器，因為當您執行**CcAppliance**將裝置登錄至現有或新的網站時，Cmdlet 會使用**SiteName**來判斷要註冊的網站。
 
-     如果您想要將裝置登錄至新的網站， **SiteName**的值必須是唯一的，且與現有的網站不同。 若要將裝置登錄至現有的網站， **SiteName** .ini 檔案中的值必須符合 Office 365 組織設定中所定義的名稱。 若要將設定檔從一個網站複製到另一個網站，請確定為每個網站更新**SiteName**的值。
+     如果您想要將裝置登錄至新的網站， **SiteName**的值必須是唯一的，且與現有的網站不同。 若要將裝置登錄至現有的網站， **SiteName** .ini 檔案中的值必須符合您的 Microsoft 365 或 Office 365 組織設定中所定義的名稱。 若要將設定檔從一個網站複製到另一個網站，請確定為每個網站更新**SiteName**的值。
 
 - **ServerName：** 伺服器名稱不應該包含功能變數名稱，且應該限制為15個字元。
 
@@ -305,11 +305,11 @@ CceService 帳戶是在商務用 Skype Cloud Connector Edition 部署期間建�
 
 3. 將其值設為 [**啟用**]。
 
-## <a name="set-up-your-office-365-organization"></a>設定 Office 365 組織
+## <a name="set-up-your-microsoft-365-or-office-365-organization"></a>設定您的 Microsoft 365 或 Office 365 組織
 
-需要 office 365 組織，且需要 Office 365 中的商務用 Skype Online 和電話系統。 在嘗試使用雲端連接器之前，請確定您的租使用者已設定並設定。
+需要具有商務用 Skype Online 和電話系統的 Microsoft 365 或 Office 365 組織。 在嘗試使用雲端連接器之前，請確定您的租使用者已設定並設定。
 
-某些 Office 365 設定步驟需要您使用租使用者遠端 PowerShell （TRPS）來設定您的 Office 365 組織。 **這應該安裝在主伺服器上。** 您可以從：[商務用 Skype online、Windows PowerShell 模組](https://www.microsoft.com/download/details.aspx?id=39366)下載 PowerShell 的商務用 skype online 模組。
+某些 Microsoft 365 和 Office 365 設定步驟需要您使用租使用者遠端 PowerShell （TRPS）來設定您的 Microsoft 365 或 Office 365 組織。 **這應該安裝在主伺服器上。** 您可以從：[商務用 Skype online、Windows PowerShell 模組](https://www.microsoft.com/download/details.aspx?id=39366)下載 PowerShell 的商務用 skype online 模組。
 
 為雲端連接器線上管理建立專用的商務用 Skype 系統管理員帳戶，例如 CceOnlineManagmentAdministrator。 裝置將使用此帳戶來新增或移除裝置、啟用或停用自動作業系統更新、啟用或停用自動二進位更新。 將此帳戶的密碼設為永不過期，這樣就不需要在每次到期時變更服務。
 

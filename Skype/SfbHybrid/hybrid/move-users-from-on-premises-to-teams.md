@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 摘要：瞭解如何遷移使用者設定，以及將使用者移至團隊。
-ms.openlocfilehash: 07d0657017d24acbbd3961c3528056debb927a5a
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 7b6925917cff3265280b88979660ad1289a63d12
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779679"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221373"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>將使用者從內部部署移動至 Teams
 
@@ -61,17 +61,17 @@ ms.locfileid: "43779679"
 
 您可以從內部部署商務用 Skype 管理命令介面 PowerShell] 視窗中取得 Move-CsUser。 下列步驟和所需的許可權與將使用者移至商務用 Skype Online 的方式相同，唯一不同的是，您也必須指定 MoveToTeams 參數，而且您必須確認使用者已被授與「小組」的授權（以及商務用 Skype Online）。
 
-在內部部署環境和 Office 365 組織中，您必須具有足夠的許可權，如[必要的管理認證](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)所述。 您可以在兩個環境中使用具有許可權的單一帳戶，也可以使用內部部署認證來啟動內部部署商務用 Skype Server 管理命令介面視窗，並使用此`-Credential`參數指定 office 365 帳戶的認證，其必要的 office 365 系統管理角色。
+在內部部署環境和雲端服務（Microsoft 365 或 Office 365）中，您必須具有足夠的許可權，如[必要的管理認證](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)所述。 您可以在兩個環境中使用具有許可權的單一帳戶，也可以使用內部部署認證來啟動內部部署商務用 Skype Server 管理命令介面視窗，並使用 `-Credential` 參數來指定使用必要系統管理角色之 Microsoft 365 或 Office 365 帳戶的認證。
 
 若要使用 Move-CsUser 將使用者移至僅限小組模式：
 
-- 使用`Identity`參數指定要移動的使用者。
-- 指定-Target 參數的值為 "sipfed"。<span>com "。
-- 指定`MoveToTeams`參數。
-- 如果您在內部部署和 Office 365 中沒有一個具有足夠許可權的帳戶，請使用`-credential`參數提供 Office 365 中具有足夠許可權的帳戶。
-- 若具有 Office 365 許可權的帳戶不是以「name.onmicrosoft.com17」結尾。<span>com "，您必須指定`-HostedMigrationOverrideUrl`參數，並在必要的[管理認證](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)中所述的值正確。
+- 使用參數指定要移動的使用者 `Identity` 。
+- 指定-Target 參數的值為 "sipfed <span> "。com "。
+- 指定 `MoveToTeams` 參數。
+- 如果您在內部部署和雲端服務（Microsoft 365 或 Office 365）上都沒有一個具有足夠許可權的帳戶，請使用 `-credential` 參數提供 Office 365 中具有足夠許可權的帳戶。
+- 如果在 Microsoft 365 或 Office 365 中具有許可權的帳戶不是以「name.onmicrosoft.com17」結尾。 <span>com "，您必須指定 `-HostedMigrationOverrideUrl` 參數，並在[必要的管理認證](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)中所述的值正確。
 
-下列指令程式順序可用來將使用者移至 TeamsOnly，並假設 Office 365 身分憑證是個別的帳戶，並以 Get-Credential 提示的輸入提供。
+下列指令程式順序可用來將使用者移至 TeamsOnly，並假設 Microsoft 365 或 Office 365 身分憑證是個別的帳戶，並提供做為 Get-Credential 提示的輸入。
 
   ```powershell
   $cred=Get-Credential
@@ -86,13 +86,13 @@ ms.locfileid: "43779679"
 3. 使用 [**尋找**] 來找出您想要移至小組的使用者。
 4. 選取使用者，然後從清單上方的 [**動作**] 下拉式清單中，選擇 [**將選取的使用者移至小組**]。
 5. 在精靈中，按 **[下一步]**。
-6. 如果出現提示，請以 onmicrosoft.com 結尾的帳戶登入 Office 365，具有足夠的許可權。
+6. 如果出現提示，請以 onmicrosoft.com 結尾的帳戶登入 Microsoft 365 或 Office 365，具有足夠的許可權。
 7. 按 **[下一步** **]，然後再一**次移動使用者。
 8. 請注意，關於成功或失敗的狀態訊息是在主要控制台應用程式的頂端，而不是在嚮導中提供。
 
 ## <a name="notify-your-skype-for-business-on-premises-users-of-the-upcoming-move-to-teams"></a>通知您的商務用 Skype 內部部署使用者即將進行的移動到團隊
 
-商務用 Skype Server 2015 中的內部部署系統管理工具與 CU8，以及商務用 Skype Server 2019 中的內部部署系統管理工具，可讓您通知即將進行的內部部署商務用 Skype 使用者即將進行的移動到團隊。 當您啟用這些通知時，使用者會在其商務用 Skype 用戶端（Win32、Mac、web 和行動裝置）上看到通知，如下所示。 如果使用者按一下 [ **Try it** ] 按鈕，將會在安裝團隊用戶端時將其啟動;否則，使用者會在其瀏覽器中流覽至小組的 web 版本。 依預設，啟用通知時，Win32 商務用 Skype 用戶端無訊息地下載團隊用戶端，以便在將使用者移至僅限小組模式之前可使用豐富型用戶端;不過，您也可以停用此行為。  使用內部部署版本設定通知`TeamsUpgradePolicy`，且 Win32 用戶端的無訊息下載是透過內部部署`TeamsUpgradeConfiguration` Cmdlet 來控制的。
+商務用 Skype Server 2015 中的內部部署系統管理工具與 CU8，以及商務用 Skype Server 2019 中的內部部署系統管理工具，可讓您通知即將進行的內部部署商務用 Skype 使用者即將進行的移動到團隊。 當您啟用這些通知時，使用者會在其商務用 Skype 用戶端（Win32、Mac、web 和行動裝置）上看到通知，如下所示。 如果使用者按一下 [ **Try it** ] 按鈕，將會在安裝團隊用戶端時將其啟動;否則，使用者會在其瀏覽器中流覽至小組的 web 版本。 依預設，啟用通知時，Win32 商務用 Skype 用戶端無訊息地下載團隊用戶端，以便在將使用者移至僅限小組模式之前可使用豐富型用戶端;不過，您也可以停用此行為。  使用內部部署版本設定通知 `TeamsUpgradePolicy` ，且 Win32 用戶端的無訊息下載是透過內部部署 Cmdlet 來控制的 `TeamsUpgradeConfiguration` 。
 
 > [!TIP]
 > 部分伺服器可能需要重新開機，以在商務用 Skype 2015 中使用 CU8。
@@ -114,7 +114,7 @@ New-CsTeamsUpgradeConfiguration -Identity "site:redmond1"
 
 DownloadTeams 的值預設為 True;不過，只有在指定的使用者 NotifySfbUser = True 時，*才*會使用此參數。
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 [Move-CsUser](https://docs.microsoft.com/powershell/module/skype/move-csuser)
 

@@ -1,5 +1,5 @@
 ---
-title: 在商務用 Skype Server 中測試 SIP 幹線設定設定
+title: 在商務用 Skype Server 中測試 SIP 主幹設定設定
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -10,29 +10,29 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 'SIP 幹線設定設定會定義在服務提供者上，exchange 中繼伺服器與公用交換式電話網絡（PSTN）閘道、IP 公用分支 exchange （PBX）或會話邊界控制器（SBC）之間的關聯性與能力。 '
-ms.openlocfilehash: 911947b33f0e609b4dd532ec5cc2c3d56a08618c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'SIP 主幹組態設定用於定義中繼伺服器與服務提供者的公用交換電話網路 (PSTN) 閘道、IP 公用交換機 (PBX) 或工作階段邊界控制器 (SBC) 之間的關係和功能。 '
+ms.openlocfilehash: bed342de3f602499f16b9f27ee0726f10d2c867e
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816933"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "42048186"
 ---
-# <a name="test-sip-trunk-configuration-settings-in-skype-for-business-server"></a>在商務用 Skype Server 中測試 SIP 幹線設定設定
+# <a name="test-sip-trunk-configuration-settings-in-skype-for-business-server"></a>在商務用 Skype Server 中測試 SIP 主幹設定設定
 
-SIP 幹線設定設定會定義在服務提供者上，exchange 中繼伺服器與公用交換式電話網絡（PSTN）閘道、IP 公用分支 exchange （PBX）或會話邊界控制器（SBC）之間的關聯性與能力。 這些設定會以指定的方式執行以下操作：
+SIP 主幹組態設定用於定義中繼伺服器與服務提供者的公用交換電話網路 (PSTN) 閘道、IP 公用交換機 (PBX) 或工作階段邊界控制器 (SBC) 之間的關係和功能。這些設定將指定下列項目：
 
-- 是否應該在 trunks 上啟用媒體旁路。
-- 傳送即時傳輸控制通訊協定（RTCP）資料包的條件。
-- 每個幹線是否都需要安全的即時通訊協定（SRTP）加密。
+- 主幹是否啟用媒體旁路。
+- 傳送即時傳輸控制通訊協定 (RTCP) 封包的情況。
+- 每個主幹是否需要安全即時通訊協定 (SRTP) 加密。
 
-當您安裝商務用 Skype Server 時，系統會為您建立一個全域 SIP 中繼設定。 此外，管理員可以在網站範圍或服務範圍（僅限 PSTN 閘道服務）上建立自訂設定集合。 系統管理員也可以使用[new-cstrunkconfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsTrunkConfiguration) Cmdlet 來驗證主幹能將使用者撥出的號碼轉換成可由閘道處理的數位。
+當您安裝商務用 Skype Server 時，系統會為您建立一個全域 SIP 主幹設定的集合。 此外，系統管理員可以在網站範圍或服務範圍 (僅限 PSTN 閘道服務) 建立自訂設定集合。 管理員也可以使用[Test-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/Test-CsTrunkConfiguration) Cmdlet 來驗證主幹是否可將使用者所撥打的號碼轉換為閘道可以處理的號碼。
 
-只能使用 Windows PowerShell 和 New-cstrunkconfiguration Cmdlet 來測試幹線設定設定。 您可以從商務用 Skype Server Management 命令介面或從 Windows PowerShell 遠端會話執行此 Cmdlet。 
+您只能使用 Windows PowerShell 和 Test-CsTrunkConfiguration Cmdlet 來測試主幹設定設定。 您可以從商務用 Skype Server 管理命令介面或從 Windows PowerShell 的遠端會話中執行此 Cmdlet。 
 
-**測試 SIP 幹線設定設定**
+**測試 SIP 主幹設定設定**
 
-這個命令會驗證雷德蒙網站的幹線設定設定可以正確地轉換撥打的號碼4255551212。
+這個命令會驗證 Redmond 網站的主幹設定設定是否可以正確地轉換撥打的號碼4255551212。
 
 ```PowerShell
 $trunk = Get-CsTrunkConfiguration -Identity "site:Redmond"

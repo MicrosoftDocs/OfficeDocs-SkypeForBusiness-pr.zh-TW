@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
 description: 摘要：設定商務用 Skype Server 2015 的非伺服器需求。 進行部署之前，您需要先設定許多專案，包括 Active Directory、DNS、證書和 Fileshares。
-ms.openlocfilehash: 164f4b8037c972907eb6d1375f77b3cc350959e5
-ms.sourcegitcommit: 543f650ad4aff73bccfe7a60b66fb944b4e3c119
+ms.openlocfilehash: d552c0c2c6b9f129b6dcf08e927634c6e3bdde6e
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42572801"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220873"
 ---
 # <a name="environmental-requirements-for-skype-for-business-server-2015"></a>商務用 Skype Server 2015 的環境需求
  
@@ -168,11 +168,11 @@ ms.locfileid: "42572801"
 #### <a name="multiple-forests-in-a-resource-forest-topology-with-skype-for-business-online-and-azure-active-directory-connect"></a>具有商務用 Skype Online 和 Azure Active Directory Connect 之資源樹系拓撲中的多個樹系
 <a name="BKMK_multipleforestopology"> </a>
 
-![顯示兩個 AD 樹系、一個使用者樹系及一個資源樹系。 這兩個樹系具有信任關係。 它們是使用 Azure AD Connect 與 Office 365 同步處理。 所有使用者都透過 Office 365 啟用商務用 Skype。](../../media/6d54558d-8786-4ebf-90f6-55ae3fdb5ae7.jpg)
+![顯示兩個 AD 樹系、一個使用者樹系及一個資源樹系。 這兩個樹系具有信任關係。 它們是使用 Azure AD Connect 與 Microsoft 365 或 Office 365 同步處理。 所有使用者都透過 Microsoft 365 或 Office 365 啟用商務用 Skype。](../../media/6d54558d-8786-4ebf-90f6-55ae3fdb5ae7.jpg)
   
-使用此案例時，會有多個樹系內部部署，具有資源樹系拓撲。 Active Directory 樹系之間有完全信任關係。 使用 Azure Active Directory Connect 工具，可同步處理內部部署使用者樹系與 Office 365 之間的帳戶。
+使用此案例時，會有多個樹系內部部署，具有資源樹系拓撲。 Active Directory 樹系之間有完全信任關係。 使用 Azure Active Directory Connect 工具，可同步處理內部部署使用者樹系與 Microsoft 365 或 Office 365 之間的帳戶。
   
- 組織也有 Office 365，並使用[Azure Active Directory Connect](https://go.microsoft.com/fwlink/p/?LinkId=614836) ，將其內部部署帳戶與 Office 365 同步。 已啟用商務用 Skype 的使用者可透過 Office 365 和商務用 Skype Online 啟用。 商務用 Skype Server 不會部署在內部部署。
+ 組織也有 Microsoft 365 或 Office 365，並使用[Azure Active Directory Connect](https://go.microsoft.com/fwlink/p/?LinkId=614836) ，將其內部部署帳戶與 Microsoft 365 或 office 365 同步處理。 已啟用商務用 Skype 的使用者可透過 Microsoft 365 或 Office 365 和商務用 Skype Online 啟用。 商務用 Skype Server 不會部署在內部部署。
   
 單一登入驗證是由位於使用者樹系中的 Active Directory Federation Services 伺服器陣列所提供。
   
@@ -210,7 +210,7 @@ ms.locfileid: "42572801"
   
 這似乎是任何已加入網域的電腦都是合乎邏輯的，但是如果您有未加入至網域的 Edge Server，它可能會有預設的短名稱，但沒有網域尾碼。 在此情況下，請確定不是在 DNS 或 Edge Server 上，或任何商務用 Skype Server 2015 server 或集區的情況。
   
-而且絕對不會使用 Unicode 字元或底線。 標準字元（A-Z，a-z，0-9 和連字號）是要由外部 DNS 和公用憑證授權單位支援的字元（您必須將 Fqdn 指派給憑證中的 SN，但不要忘記），這樣您就可以在 grief請記住此名稱。
+而且絕對不會使用 Unicode 字元或底線。 標準字元（A-Z，a-z，0-9 和連字號）是要由外部 DNS 和公用憑證授權單位所支援的專案（您必須將 Fqdn 指派給憑證中的 SN，但不要忘記），因此，如果您在名稱中考慮到這一點，您將會有大量的 grief。
   
 如需聯網的 DNS 需求的進一步閱讀，請參閱規劃檔中的 [[網路](../../plan-your-deployment/network-requirements/network-requirements.md)] 區段。
   
@@ -248,7 +248,7 @@ ms.locfileid: "42572801"
 - 當您將 Web 憑證要求提交至 Windows Server 2003 CA 時，您必須從執行 Windows Server 2003 (SP2) 或 Windows XP 的電腦進行提交。
     
 > [!NOTE]
-> 雖然 KB922706 為解決使用 Windows Server 2003 憑證服務 web 登記的 web 憑證進行問題提供支援，但不能使用 Windows Server 2008、Windows Vista 或 Windows 7 來要求憑證。從 Windows Server 2003 CA。 
+> 雖然 KB922706 為解決使用 Windows Server 2003 憑證服務 web 登記的 web 憑證進行問題提供支援，但不能使用 Windows Server 2008、Windows Vista 或 Windows 7 從 Windows Server 2003 CA 要求憑證。 
   
 > [!NOTE]
 > 不支援使用 RSASSA-PSS 簽名演算法，而且可能會導致登入和來電轉接問題的錯誤，以及其他問題。 
@@ -270,7 +270,7 @@ ms.locfileid: "42572801"
   
 商務用 Skype Server 2015 也包含對（不需要）使用 SHA-256 加密雜湊函數簽署憑證的支援。 若要使用 SHA-256 支援外部存取，使用 SHA-256 公用 CA 必須發行外部憑證。
   
-為了以直接的方式進行處理，我們將 Standard Edition server、前端集區和其他角色的憑證需求，放入下表，並使用虛構的 contoso.com 做為範例（您可能會使用一些專案）。適用于您的環境）。 這些都是標準網頁伺服器憑證，具有不可匯出的私密金鑰。 需要注意的一些其他事項：
+為了以直接的方式進行處理，我們將 Standard Edition server、前端集區和其他角色的憑證需求，放入下表，並使用虛構的 contoso.com 做為範例（您可能會為您的環境使用其他內容）。 這些都是標準網頁伺服器憑證，具有不可匯出的私密金鑰。 需要注意的一些其他事項：
   
 - 當您使用憑證嚮導要求憑證時，會自動設定 Server 增強金鑰使用方式（EKU）。
     
@@ -280,27 +280,27 @@ ms.locfileid: "42572801"
     
 Standard Edition server 的憑證：
   
-|**認證**|**主體名稱/一般名稱**|**主體替代名稱**|**範例**|**註解**|
+|**認證**|**主體名稱/一般名稱**|**主體替代名稱**|**範例**|**Comments**|
 |:-----|:-----|:-----|:-----|:-----|
 |預設  <br/> |集區的 FQDN  <br/> |伺服器集區的 FQDN 和伺服器的 FQDN  <br/> 如果您擁有多個 SIP 網域，且已啟用用戶端自動設定，則憑證精靈會偵測並新增每個支援的 SIP 網域 FQDN  <br/> 如果此集區是用戶端的自動登入伺服器且群組原則中需要嚴格網域名稱系統 (DNS) 比對，則您也需要 sip.sipdomain (對於您具有的每個 SIP 網域) 的項目。  <br/> |SN = se01，SAN = se01  <br/> 如果此集區是用戶端的自動登入伺服器且群組原則中需要嚴格 DNS 比對，則您也需要 SAN=sip.contoso.com；SAN=sip.fabrikam.com  <br/> |在 Standard Edition servers Standard Edition server 上，伺服器 FQDN 與集區 FQDN 相同。  <br/> 精靈會偵測任何您在安裝期間指定的 SIP 網域，並將之自動新增到主體別名。  <br/> 您也可以使用此憑證進行 Server-to-Server 驗證。  <br/> |
-|Web 內部  <br/> |伺服器的 FQDN  <br/> |下列每一項：  <br/> •內部 web FQDN （與伺服器的 FQDN 相同）  <br/> AND  <br/> •符合簡易 URLs  <br/> •撥入式簡易 URL  <br/> •系統管理員簡易 URL  <br/> OR  <br/> •簡單 URLs 的萬用字元專案  <br/> |SN = se01，SAN = se01;SAN = 符合 .com;SAN = 符合 fabrikam .com;SAN = 撥入 .com;SAN = contoso .com  <br/> 使用萬用字元憑證：  <br/> SN = se01，SAN = se01;SAN =\*contoso.com  <br/> |您無法在拓撲產生器中覆寫內部 web FQDN。  <br/> 如果您有多個符合簡易的 URLs，您必須將它們全部包含為 SANs。  <br/> 簡單 URL 項目支援萬用字元項目。  <br/> |
-|Web 外部  <br/> |伺服器的 FQDN  <br/> |下列每一項：  <br/> •外部 web FQDN  <br/> AND  <br/> •撥入式簡易 URL  <br/> •符合每個 SIP 網域的簡易 URLs  <br/> OR  <br/> •簡單 URLs 的萬用字元專案  <br/> |SN = se01，SAN = webcon01;SAN = 符合 .com;SAN = 符合 fabrikam .com;SAN = 撥入 .com  <br/> 使用萬用字元憑證：  <br/> SN = se01，SAN = webcon01;SAN =\*contoso.com  <br/> |如果您有多個符合簡易的 URLs，您必須將它們全部包含為主體替代名稱。  <br/> 簡單 URL 項目支援萬用字元項目。  <br/> |
+|Web 內部  <br/> |伺服器的 FQDN  <br/> |下列每一項：  <br/> •內部 web FQDN （與伺服器的 FQDN 相同）  <br/> AND  <br/> •符合簡易 URLs  <br/> •撥入式簡易 URL  <br/> •系統管理員簡易 URL  <br/> OR  <br/> •簡單 URLs 的萬用字元專案  <br/> |SN = se01，SAN = se01;SAN = 符合 .com;SAN = 符合 fabrikam .com;SAN = 撥入 .com;SAN = contoso .com  <br/> 使用萬用字元憑證：  <br/> SN = se01，SAN = se01;SAN = \* contoso.com  <br/> |您無法在拓撲產生器中覆寫內部 web FQDN。  <br/> 如果您有多個符合簡易的 URLs，您必須將它們全部包含為 SANs。  <br/> 簡單 URL 項目支援萬用字元項目。  <br/> |
+|Web 外部  <br/> |伺服器的 FQDN  <br/> |下列每一項：  <br/> •外部 web FQDN  <br/> AND  <br/> •撥入式簡易 URL  <br/> •符合每個 SIP 網域的簡易 URLs  <br/> OR  <br/> •簡單 URLs 的萬用字元專案  <br/> |SN = se01，SAN = webcon01;SAN = 符合 .com;SAN = 符合 fabrikam .com;SAN = 撥入 .com  <br/> 使用萬用字元憑證：  <br/> SN = se01，SAN = webcon01;SAN = \* contoso.com  <br/> |如果您有多個符合簡易的 URLs，您必須將它們全部包含為主體替代名稱。  <br/> 簡單 URL 項目支援萬用字元項目。  <br/> |
    
 前端集區中前端伺服器的憑證：
   
-|**認證**|**主體名稱/一般名稱**|**主體替代名稱**|**範例**|**註解**|
+|**認證**|**主體名稱/一般名稱**|**主體替代名稱**|**範例**|**Comments**|
 |:-----|:-----|:-----|:-----|:-----|
 |預設  <br/> |集區的 FQDN  <br/> |伺服器集區的 FQDN 和伺服器的 FQDN  <br/> 如果您擁有多個 SIP 網域，且已啟用用戶端自動設定，則憑證精靈會偵測並新增每個支援的 SIP 網域 FQDN  <br/> 如果此集區是用戶端的自動登入伺服器且群組原則中需要嚴格網域名稱系統 (DNS) 比對，則您也需要 sip.sipdomain (對於您具有的每個 SIP 網域) 的項目。  <br/> |SN = eepool，SAN = eepool;SAN = ee01  <br/> 如果此集區是用戶端的自動登入伺服器且群組原則中需要嚴格 DNS 比對，則您也需要 SAN=sip.contoso.com；SAN=sip.fabrikam.com  <br/> |精靈會偵測任何您在安裝期間指定的 SIP 網域，並將之自動新增到主體別名。  <br/> 您也可以使用此憑證進行 Server-to-Server 驗證。  <br/> |
-|Web 內部  <br/> |集區的 FQDN  <br/> |下列每一項：  <br/> •內部 web FQDN （與伺服器的 FQDN 不同）  <br/> •伺服器 FQDN  <br/> •商務用 Skype 集區 FQDN  <br/> AND  <br/> •符合簡易 URLs  <br/> •撥入式簡易 URL  <br/> •系統管理員簡易 URL  <br/> OR  <br/> •簡單 URLs 的萬用字元專案  <br/> |SN = ee01，SAN = ee01;SAN = 符合 .com;SAN = 符合 fabrikam .com;SAN = 撥入 .com;SAN = contoso .com  <br/> 使用萬用字元憑證：  <br/> SN = ee01，SAN = ee01;SAN =\*contoso.com  <br/> |如果您有多個符合簡易的 URLs，您必須將它們全部包含為主體替代名稱。  <br/> 簡單 URL 項目支援萬用字元項目。  <br/> |
-|Web 外部  <br/> |集區的 FQDN  <br/> |下列每一項：  <br/> •外部 web FQDN  <br/> AND  <br/> •撥入式簡易 URL  <br/> •系統管理員簡易 URL  <br/> OR  <br/> •簡單 URLs 的萬用字元專案  <br/> |SN = ee01，SAN = webcon01;SAN = 符合 .com;SAN = 符合 fabrikam .com;SAN = 撥入 .com  <br/> 使用萬用字元憑證：  <br/> SN = ee01，SAN = webcon01;SAN =\*contoso.com  <br/> |如果您有多個符合簡易的 URLs，您必須將它們全部包含為主體替代名稱。  <br/> 簡單 URL 項目支援萬用字元項目。  <br/> |
+|Web 內部  <br/> |集區的 FQDN  <br/> |下列每一項：  <br/> •內部 web FQDN （與伺服器的 FQDN 不同）  <br/> •伺服器 FQDN  <br/> •商務用 Skype 集區 FQDN  <br/> AND  <br/> •符合簡易 URLs  <br/> •撥入式簡易 URL  <br/> •系統管理員簡易 URL  <br/> OR  <br/> •簡單 URLs 的萬用字元專案  <br/> |SN = ee01，SAN = ee01;SAN = 符合 .com;SAN = 符合 fabrikam .com;SAN = 撥入 .com;SAN = contoso .com  <br/> 使用萬用字元憑證：  <br/> SN = ee01，SAN = ee01;SAN = \* contoso.com  <br/> |如果您有多個符合簡易的 URLs，您必須將它們全部包含為主體替代名稱。  <br/> 簡單 URL 項目支援萬用字元項目。  <br/> |
+|Web 外部  <br/> |集區的 FQDN  <br/> |下列每一項：  <br/> •外部 web FQDN  <br/> AND  <br/> •撥入式簡易 URL  <br/> •系統管理員簡易 URL  <br/> OR  <br/> •簡單 URLs 的萬用字元專案  <br/> |SN = ee01，SAN = webcon01;SAN = 符合 .com;SAN = 符合 fabrikam .com;SAN = 撥入 .com  <br/> 使用萬用字元憑證：  <br/> SN = ee01，SAN = webcon01;SAN = \* contoso.com  <br/> |如果您有多個符合簡易的 URLs，您必須將它們全部包含為主體替代名稱。  <br/> 簡單 URL 項目支援萬用字元項目。  <br/> |
    
 Director 的憑證：
   
 |**認證**|**主體名稱/一般名稱**|**主體替代名稱**|**範例**|
 |:-----|:-----|:-----|:-----|
 |預設  <br/> |Director pool  <br/> |Director 的 FQDN （Director 集區的 FQDN）。  <br/> 如果此集區是用戶端的自動登入伺服器，且群組原則中需要嚴格 DNS 比對，則您也需要 microsoft.rtc.management.xds.sipdomain （適用于每個 SIP 網域）的專案。  <br/> |pool.contoso.com;SAN = dir01  <br/> 如果此 Director 集區是用戶端的自動登入伺服器且群組原則中需要嚴格 DNS 比對，則您也需要 SAN=sip.contoso.com；SAN=sip.fabrikam.com  <br/> |
-|Web 內部  <br/> |伺服器的 FQDN  <br/> |下列每一項：  <br/> •內部 web FQDN （與伺服器的 FQDN 相同）  <br/> •伺服器 FQDN  <br/> •商務用 Skype 集區 FQDN  <br/> AND  <br/> •符合簡易 URLs  <br/> •撥入式簡易 URL  <br/> •系統管理員簡易 URL  <br/> OR  <br/> •簡單 URLs 的萬用字元專案  <br/> |SN = dir01，SAN = dir01;SAN = 符合 .com;SAN = 符合 fabrikam .com;SAN = 撥入 .com;SAN = contoso .com  <br/> 使用萬用字元憑證：  <br/> SN = dir01，SAN = dir01 SAN =\*。 contoso.com  <br/> |
-|Web 外部  <br/> |伺服器的 FQDN  <br/> |下列每一項：  <br/> •外部 web FQDN  <br/> AND  <br/> •符合每個 SIP 網域的簡易 URLs  <br/> •撥入式簡易 URL  <br/> OR  <br/> •簡單 URLs 的萬用字元專案  <br/> |Director 外部 web FQDN 必須不同于前端集區或前端伺服器。  <br/> SN = dir01，SAN = directorwebcon01 SAN = "contoso .com"，SAN = 符合 fabrikam .com;SAN = 撥入 .com  <br/> 使用萬用字元憑證：  <br/> SN = dir01，SAN = directorwebcon01 SAN =\*。 contoso.com  <br/> |
+|Web 內部  <br/> |伺服器的 FQDN  <br/> |下列每一項：  <br/> •內部 web FQDN （與伺服器的 FQDN 相同）  <br/> •伺服器 FQDN  <br/> •商務用 Skype 集區 FQDN  <br/> AND  <br/> •符合簡易 URLs  <br/> •撥入式簡易 URL  <br/> •系統管理員簡易 URL  <br/> OR  <br/> •簡單 URLs 的萬用字元專案  <br/> |SN = dir01，SAN = dir01;SAN = 符合 .com;SAN = 符合 fabrikam .com;SAN = 撥入 .com;SAN = contoso .com  <br/> 使用萬用字元憑證：  <br/> SN = dir01，SAN = dir01 SAN = \* 。 contoso.com  <br/> |
+|Web 外部  <br/> |伺服器的 FQDN  <br/> |下列每一項：  <br/> •外部 web FQDN  <br/> AND  <br/> •符合每個 SIP 網域的簡易 URLs  <br/> •撥入式簡易 URL  <br/> OR  <br/> •簡單 URLs 的萬用字元專案  <br/> |Director 外部 web FQDN 必須不同于前端集區或前端伺服器。  <br/> SN = dir01，SAN = directorwebcon01 SAN = "contoso .com"，SAN = 符合 fabrikam .com;SAN = 撥入 .com  <br/> 使用萬用字元憑證：  <br/> SN = dir01，SAN = directorwebcon01 SAN = \* 。 contoso.com  <br/> |
    
 獨立轉送伺服器的憑證：
   
@@ -312,7 +312,7 @@ Survivable 分支裝置的憑證：
   
 |**認證**|**主體名稱/一般名稱**|**主體替代名稱**|**範例**|
 |:-----|:-----|:-----|:-----|
-|預設  <br/> |Appliance 的 FQDN  <br/> |SIP:。\<microsoft.rtc.management.xds.sipdomain\> （每個 SIP 網域只需要一個專案）  <br/> |SN = sba01SAN = sip .com;SAN=sip.fabrikam.com  <br/> |
+|預設  <br/> |Appliance 的 FQDN  <br/> |SIP。 \<microsoft.rtc.management.xds.sipdomain \> （每個 SIP 網域只需要一個專案）  <br/> |SN = sba01SAN = sip .com;SAN=sip.fabrikam.com  <br/> |
    
 ### <a name="certificates-for-your-persistent-chat-server"></a>Persistent Chat Server 的憑證
 
@@ -340,22 +340,22 @@ Survivable 分支裝置的憑證：
   
 現在，這是很少預先規劃的情況，但是有時候您已部署商務用 Skype Server 2015，而不是想要部署行動性，當您已在環境中已有憑證時，會出現在該行下方。 透過內部 CA 重新發起它們通常相當簡單，但有來自公用 CA 的公用憑證，則可能會有一點的 pricy。
   
-如果這是您所看到的專案，而且如果您有許多 SIP 網域（這會增加 SAN 的成本），您可以設定反向 proxy，以使用 HTTP 進行初始自動探索服務要求，而不是使用 HTTPS （預設值為設定）。 行動計畫主題具有這方面的詳細資訊。
+如果這是您所看到的專案，而且如果您有許多 SIP 網域（這會增加 SAN 的成本），您可以設定反向 proxy，以使用 HTTP 做為初始自動探索服務要求，而不是使用 HTTPS （預設設定）。 行動計畫主題具有這方面的詳細資訊。
   
 Director 集區和前端集區憑證需求：
   
 |**描述**|**SAN 專案**|
 |:-----|:-----|
-|內部自動探索服務 URL  <br/> |SAN = lyncdiscoverinternal。\<microsoft.rtc.management.xds.sipdomain\>  <br/> |
-|外部自動探索服務 URL  <br/> |SAN = lyncdiscover。\<microsoft.rtc.management.xds.sipdomain\>  <br/> |
+|內部自動探索服務 URL  <br/> |SAN = lyncdiscoverinternal。 \<microsoft.rtc.management.xds.sipdomain\>  <br/> |
+|外部自動探索服務 URL  <br/> |SAN = lyncdiscover。 \<microsoft.rtc.management.xds.sipdomain\>  <br/> |
    
-您也可以使用 SAN =\*。\<microsoft.rtc.management.xds.sipdomain\>
+您也可以使用 SAN = \* 。 \<microsoft.rtc.management.xds.sipdomain\>
   
 反向 Proxy （公用 CA）憑證需求：
   
 |**描述**|**SAN 專案**|
 |:-----|:-----|
-|外部自動探索服務 URL  <br/> |SAN = lyncdiscover。\<microsoft.rtc.management.xds.sipdomain\>  <br/> |
+|外部自動探索服務 URL  <br/> |SAN = lyncdiscover。 \<microsoft.rtc.management.xds.sipdomain\>  <br/> |
    
 此 SAN 必須指派給反向 proxy 上的 SSL 攔截器所指派的憑證。
   

@@ -13,16 +13,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 為商務用 Skype Server 2019 設定資源帳戶。
-ms.openlocfilehash: 0d7e52892c718f215a269201b73a547a97c13f96
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: b5397a1d179ade5e9d70d6c9cf857bae9319d155
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042840"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221133"
 ---
 # <a name="configure-resource-accounts"></a>設定資源帳戶
 
-商務用 Skype Server 2019 混合式的實現只會使用電話系統提供的雲端服務以進行整合通訊，而且不會與 Exchange Online 整合。 在商務用 Skype Server 2019 中，您現在可以使用下列所述的雲端通話佇列和自動語音應答，如下所述。[您可以使用 Office 365 中的電話系統取得什麼功能](/MicrosoftTeams/here-s-what-you-get-with-phone-system)。
+商務用 Skype Server 2019 混合式的實現只會使用電話系統提供的雲端服務以進行整合通訊，而且不會與 Exchange Online 整合。 在商務用 Skype Server 2019 中，您現在可以使用下列所述的雲端通話佇列和自動語音應答，這是[您在 Microsoft 365 或 Office 365 中的電話系統所取得的功能](/MicrosoftTeams/here-s-what-you-get-with-phone-system)。
 
 若要使用電話系統自動語音應答或具有商務用 Skype Server 2019 的通話佇列，您將需要建立充當應用程式端點且可以指派電話號碼的資源帳戶，然後使用線上團隊系統管理中心來設定通話佇列或自動語音應答。 這個資源帳戶可在線上上進行（請參閱[管理 Microsoft 小組中的資源帳戶](/MicrosoftTeams/manage-resource-accounts)以建立線上資源帳戶）或內部部署（如本文所述）。 一般來說，您會有多個電話系統自動語音應答或通話佇列節點，每個節點都對應至可在線上或商務用 Skype Server 2019 中的資源帳戶。
 
@@ -43,7 +43,7 @@ ms.locfileid: "44042840"
 
 如果 [自動語音應答] 或 [通話佇列] 嵌套在最上層的自動語音應答之下，只要您想要將多個專案點組成至自動語音應答及通話佇列的結構，相關聯的資源帳戶才需要電話號碼。
 
-若要將來電重新導向至組織中的內部網路人員，他們必須具備**電話系統**授權，並可啟用 Enterprise Voice 或具備 Office 365 通話方案。 請參閱[指派 Microsoft 團隊附加元件授權](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses)。 若要啟用企業語音，您可以使用 Windows PowerShell。 例如，執行：`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+若要將來電重新導向至組織中的線上人員，他們必須具備**電話系統**授權，並可供 Enterprise Voice 使用，或具有 Microsoft 365 或 Office 365 通話方案。 請參閱[指派 Microsoft 團隊授權](/MicrosoftTeams/assign-teams-licenses)。 若要啟用企業語音，您可以使用 Windows PowerShell。 例如，執行：`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 如果您要建立的電話系統自動語音應答或通話佇列將會嵌套，而且不需要電話號碼，則程式為：
 
@@ -58,7 +58,7 @@ ms.locfileid: "44042840"
 
 1. 埠或取得收費或免付費服務號碼。 無法將號碼指派給任何其他語音服務或資源帳戶。
 
-   在您將電話號碼指派給資源帳戶之前，您必須先取得或接收您現有收費或免付費服務號碼的埠。 當您取得收費或免付費服務電話號碼後，他們會顯示在**Microsoft 小組系統管理中心** > **語音** > **電話號碼**中，而且所列的**號碼類型**會列為「**服務-免付費**」。 若要取得服務號碼，請參閱[取得服務電話號碼](/MicrosoftTeams/getting-service-phone-numbers)，如果您想要轉接現有的服務號碼，請參閱[將電話號碼轉移給小組](/MicrosoftTeams/phone-number-calling-plans/transfer-phone-numbers-to-teams)。
+   在您將電話號碼指派給資源帳戶之前，您必須先取得或接收您現有收費或免付費服務號碼的埠。 當您取得收費或免付費服務電話號碼後，他們會顯示在**Microsoft 小組系統管理中心**的  >  **語音**  >  **電話號碼**中，而且所列的**號碼類型**會列為「**服務-免付費**」。 若要取得服務號碼，請參閱[取得服務電話號碼](/MicrosoftTeams/getting-service-phone-numbers)，如果您想要轉接現有的服務號碼，請參閱[將電話號碼轉移給小組](/MicrosoftTeams/phone-number-calling-plans/transfer-phone-numbers-to-teams)。
 
    如果您是在美國境外，您就無法使用 Microsoft 團隊系統管理中心取得服務號碼。 請移至 [[管理組織的電話號碼](/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)]，以瞭解如何從美國以外的國家/地區執行。
 
@@ -68,7 +68,7 @@ ms.locfileid: "44042840"
    - [Office 365 企業版 E5](/MicrosoftTeams/teams-add-on-licensing/office-365-enterprise-e5-with-audio-conferencing)
    - [Office 365 企業版 E5 商務軟體](https://products.office.com/business/office-365-enterprise-e5-business-software)
 
-3. 針對每個電話系統自動語音應答或通話`New-CsHybridApplicationEndpoint`佇列執行 Cmdlet，以建立內部部署資源帳戶，並提供每個名稱、sip 位址等的指令程式。
+3. `New-CsHybridApplicationEndpoint`針對每個電話系統自動語音應答或通話佇列執行 Cmdlet，以建立內部部署資源帳戶，並提供每個名稱、sip 位址等的指令程式。
 
     ``` Powershell
     New-CsHybridApplicationEndpoint -ApplicationID <GUID> -DisplayName appinstance01 -SipAddress sip:appinstance01@contoso.com -OU "ou=Redmond,dc=litwareinc,dc=com"
@@ -76,7 +76,7 @@ ms.locfileid: "44042840"
 
     如需此命令的詳細資訊，請參閱[CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) 。
 
-4. 選建立資源帳戶後，您可以等候 AD 在線上和內部部署之間同步處理，或是強制進行同步處理，並繼續進行電話系統自動語音應答或通話佇列的線上設定。 若要強制進行同步處理，您可以在執行 AAD 連線的電腦上執行下列命令（如果您尚未執行此動作，則必須`import-module adsync`先載入才能執行命令）：
+4. 選建立資源帳戶後，您可以等候 AD 在線上和內部部署之間同步處理，或是強制進行同步處理，並繼續進行電話系統自動語音應答或通話佇列的線上設定。 若要強制進行同步處理，您可以在執行 AAD 連線的電腦上執行下列命令（如果您尚未執行此動作，則必須先載入 `import-module adsync` 才能執行命令）：
 
     ``` Powershell
     Start-ADSyncSyncCycle -PolicyType Delta
@@ -89,7 +89,7 @@ ms.locfileid: "44042840"
    若要將電話號碼指派給資源帳戶，您現在可以使用「成本免費電話系統-虛擬」使用者授權。 這為組織層級的電話號碼提供電話系統功能，並讓您建立自動語音應答及通話佇列功能。
 
 
-6. 將服務號碼指派給資源帳戶。 使用`Set-CsHybridApplicationEndpoint`命令將電話號碼（使用-LineURI 選項）指派給資源帳戶。
+6. 將服務號碼指派給資源帳戶。 使用 `Set-CsHybridApplicationEndpoint` 命令將電話號碼（使用-LineURI 選項）指派給資源帳戶。
 
     ``` Powershell
     Set-CsHybridApplicationEndpoint -Identity appinstance01@contoso.com -LineURI tel:+14255550100
@@ -127,7 +127,7 @@ ms.locfileid: "44042840"
 
 登入商務用 Skype 前端伺服器，並執行下列 PowerShell Cmdlet：
 
-1. 針對每個電話系統自動語音應答或通話`New-CsHybridApplicationEndpoint`佇列執行 Cmdlet，以建立內部部署資源帳戶，並提供每個名稱、sip 位址等的指令程式。
+1. `New-CsHybridApplicationEndpoint`針對每個電話系統自動語音應答或通話佇列執行 Cmdlet，以建立內部部署資源帳戶，並提供每個名稱、sip 位址等的指令程式。
 
     ``` Powershell
     New-CsHybridApplicationEndpoint -DisplayName appinstance01 -SipAddress sip:appinstance01@litwareinc.com -OU "ou=Redmond,dc=litwareinc,dc=com"
@@ -135,7 +135,7 @@ ms.locfileid: "44042840"
 
     如需此命令的詳細資訊，請參閱[CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) 。
 
-2. 選建立資源帳戶後，您可以等候 AD 在線上和內部部署之間同步處理，或是強制進行同步處理，並繼續進行電話系統自動語音應答或通話佇列的線上設定。 若要強制進行同步處理，您可以在執行 AAD 連線的電腦上執行下列命令（如果您尚未執行此動作，則必須`import-module adsync`先載入才能執行命令）：
+2. 選建立資源帳戶後，您可以等候 AD 在線上和內部部署之間同步處理，或是強制進行同步處理，並繼續進行電話系統自動語音應答或通話佇列的線上設定。 若要強制進行同步處理，您可以在執行 AAD 連線的電腦上執行下列命令（如果您尚未執行此動作，則必須先載入 `import-module adsync` 才能執行命令）：
 
     ``` Powershell
     Start-ADSyncSyncCycle -PolicyType Delta
@@ -209,4 +209,4 @@ ms.locfileid: "44042840"
 
 [新 CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance?view=skype-ps)
 
-[管理 Microsoft 小組](/MicrosoftTeams/manage-resource-accounts) - \(中的資源帳戶，以建立位於線上的資源帳戶\)
+[管理 Microsoft 小組](/MicrosoftTeams/manage-resource-accounts)  -  \( 中的資源帳戶建立線上資源帳戶\)

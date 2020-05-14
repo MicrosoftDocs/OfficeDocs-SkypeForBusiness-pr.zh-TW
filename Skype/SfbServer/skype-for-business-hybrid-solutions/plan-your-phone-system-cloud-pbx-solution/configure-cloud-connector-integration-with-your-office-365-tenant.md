@@ -15,19 +15,19 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 0e2f2395-b890-4d16-aa2d-99d52438b89c
-description: 瞭解如何設定雲端連接器與 Office 365 組織的整合。
-ms.openlocfilehash: 1fecf017f614fc8bdf0f38b5f51c29e4b2774357
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: 瞭解如何設定 Cloud Connector 整合與您的 Microsoft 365 或 Office 365 組織。
+ms.openlocfilehash: 2c65551ce75efce61f82d47ac2b9c16db555ab42
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780642"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221243"
 ---
 # <a name="configure-cloud-connector-integration-with-your-microsoft-365-or-office-365-organization"></a>設定與您的 Microsoft 365 或 Office 365 組織的雲端連接器整合
  
-瞭解如何設定雲端連接器與 Office 365 組織的整合。
+瞭解如何設定 Cloud Connector 整合與您的 Microsoft 365 或 Office 365 組織。
   
-完成商務用 Skype Cloud Connector Edition 安裝之後，請執行本節中的步驟來設定您的部署，並將其連線至您的 Office 365 組織。
+完成商務用 Skype Cloud Connector Edition 安裝之後，請執行本節中的步驟來設定您的部署，並將其連線至您的 Microsoft 365 或 Office 365 組織。
   
 ## <a name="configure-firewall-settings"></a>設定防火牆設定
 
@@ -53,23 +53,23 @@ ms.locfileid: "43780642"
     
 ## <a name="update-the-domain-for-your-tenant"></a>更新租使用者的網域
 
-請確認您已完成在 Office 365 更新您的網域的步驟，並且具備新增 DNS 記錄的能力。 如需如何在 Office 365 中設定網域的相關資訊，請參閱[Add a domain To Office 365](https://support.office.com/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)。
+請確定您已完成在 Microsoft 365 或 Office 365 中更新網域的步驟，並具備新增 DNS 記錄的能力。 如需如何在 Microsoft 365 或 Office 365 中設定網域的詳細資訊，請參閱[Add a domain To Microsoft 365 Or Office 365](https://support.office.com/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)。
   
-## <a name="add-dns-records-in-office-365-for-your-edge"></a>在 Office 365 中新增您 Edge 的 DNS 記錄
+## <a name="add-dns-records-for-your-edge"></a>新增您 Edge 的 DNS 記錄
 
-將下列 DNS 記錄新增至您的 Office 365 組織。 如需如何將 DNS 記錄新增至 Office 365 組織的詳細資訊，請參閱[在 office 365 中新增或編輯自訂 DNS 記錄](https://support.office.com/article/Add-or-edit-custom-DNS-records-in-Office-365-AF00A516-DD39-4EDA-AF3E-1EAF686C8DC9?ui=en-US&amp;rs=en-US&amp;ad=US&amp;fromAR=1)。
+將下列 DNS 記錄新增至您的 Microsoft 365 或 Office 365 組織。 如需如何新增 DNS 記錄的相關資訊，請參閱[在 Microsoft 365 或 Office 365 中新增或編輯自訂 DNS 記錄](https://support.office.com/article/Add-or-edit-custom-DNS-records-in-Office-365-AF00A516-DD39-4EDA-AF3E-1EAF686C8DC9?ui=en-US&amp;rs=en-US&amp;ad=US&amp;fromAR=1)。
   
 1. 新增 Access Edge 的 DNS A 記錄。
     
-2. Office 365 和部署腳本會自動建立 SRV 記錄。 請確認您可以在 Edge 上查詢下列兩種 SIP 服務： _sip 和 _sipfederationtls。
+2. SRV 記錄會自動由 Microsoft 365 或 Office 365 及部署腳本建立。 請確認您可以在 Edge： sip 和 sipfederationtls 查看下列兩種 SIP 服務 \_ \_ 。
     
      ![SRV 記錄確認](../../media/3c353a29-6dcc-4ed3-98db-3a6bed3e929e.png)
   
-## <a name="set-up-hybrid-connectivity-between-cloud-connector-edition-and-office-365"></a>設定 Cloud Connector Edition 與 Office 365 之間的混合式連線
+## <a name="set-up-hybrid-connectivity-between-cloud-connector-edition-and-microsoft-365-or-office-365"></a>設定 Cloud Connector Edition 和 Microsoft 365 或 Office 365 之間的混合式連線
 
-若要設定商務用 Skype Cloud Connector Edition 部署與 Office 365 組織之間的混合式連線，請在遠端 PowerShell 會話中執行下列 Cmdlet。 若要瞭解如何建立遠端 PowerShell 會話，請參閱：[設定您的電腦 Windows PowerShell](https://technet.microsoft.com/library/dn362831%28v=ocs.15%29.aspx)。
+若要設定商務用 Skype Cloud Connector Edition 部署和您的 Microsoft 365 或 Office 365 組織之間的混合式連線，請在遠端 PowerShell 會話中執行下列 Cmdlet。 若要瞭解如何建立遠端 PowerShell 會話，請參閱：[設定您的電腦 Windows PowerShell](https://technet.microsoft.com/library/dn362831%28v=ocs.15%29.aspx)。
   
-Cmdlet 會設定 Access Edge 的外部 FQDN。 在第一個命令中， \<外部訪問 edge FQDN 應該是\> SIP ACCESS edge role 的 FQDN。 根據預設，此值應為 ap\<。功能變數名稱\>。
+Cmdlet 會設定 Access Edge 的外部 FQDN。 在第一個命令中， \< 外部訪問 EDGE FQDN \> 應該是 SIP access edge ROLE 的 FQDN。 根據預設，這應該是 ap。 \<功能變數名稱 \> 。
   
 ```powershell
 Set-CsTenantHybridConfiguration -PeerDestination <External Access Edge FQDN> -UseOnPremDialPlan $false
@@ -99,13 +99,13 @@ Set-CsTenantFederationConfiguration -SharedSipAddressSpace $True
     
 5. 一個 PSTN 網站中的 PSTN 閘道應該只會連接至相同網站的轉送伺服器。
     
-## <a name="set-up-your-users-in-office-365"></a>在 Office 365 中設定使用者
+## <a name="set-up-your-users"></a>設定使用者
 
-登入 Microsoft 365 系統管理中心，新增將為線上語音服務啟用的使用者，並在 Office 365 附加元件中指派 E5 授權或電話系統給這些使用者的 E3 授權。 如需新增使用者的詳細資訊，請參閱[將使用者新增至 Office 365 for business](https://support.office.com/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc)。
+登入 Microsoft 365 系統管理中心，新增將為線上語音服務啟用的使用者，並將 E5 授權或電話系統附加元件指派給這些使用者的 E3 授權。 如需新增使用者的詳細資訊，請參閱[將使用者新增至 Microsoft 365 for business](https://support.office.com/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc)。
   
-## <a name="enable-users-for-phone-system-in-office-365-voice-and-voicemail-services"></a>在 Office 365 語音及語音信箱服務中啟用使用者的電話系統
-
-將使用者新增至 Office 365 之後，請在 Office 365 語音服務（包括語音信箱）中啟用其電話系統帳戶。 若要啟用這些功能，您必須以全域系統管理員角色的帳戶登入 Office 365 組織，並且能夠執行遠端 PowerShell。 若要瞭解如何建立遠端 PowerShell 會話，請參閱：[設定電腦的 Windows PowerShell](https://technet.microsoft.com/library/dn362831%28v=ocs.15%29.aspx)
+## <a name="enable-users-for-phone-system-voice-and-voicemail-services"></a>為使用者啟用電話語音系統語音和語音信箱服務
+ 
+將使用者新增至 Microsoft 365 或 Office 365 後，請啟用其帳戶的電話語音服務（包括語音信箱）。 若要啟用這些功能，您必須以全域系統管理員角色的帳戶登入您的 Microsoft 365 或 Office 365 組織，並且能夠執行遠端 PowerShell。 若要瞭解如何建立遠端 PowerShell 會話，請參閱：[設定電腦的 Windows PowerShell](https://technet.microsoft.com/library/dn362831%28v=ocs.15%29.aspx)
   
 - 將原則指派給您的使用者，並設定使用者的商務語音電話號碼，並以**Identity**參數的值來指定：
     
@@ -114,7 +114,7 @@ Set-CsTenantFederationConfiguration -SharedSipAddressSpace $True
   ```
 
     > [!NOTE]
-    > 使用者身分識別可以使用使用者的 SIP 位址、使用者主體名稱（UPN）或使用者的 Active Directory 顯示名稱來指定（例如，「Bob 凱利」）。 星號（\*）字元也可以使用顯示名稱做為使用者身分識別。 例如，身分識別 "\*smith" 會傳回顯示名稱結尾為字串值 "Smith" 的所有使用者。
+    > 使用者身分識別可以使用使用者的 SIP 位址、使用者主體名稱（UPN）或使用者的 Active Directory 顯示名稱來指定（例如，「Bob 凱利」）。 星號（ \* ）字元也可以使用顯示名稱做為使用者身分識別。 例如，身分識別 " \* smith" 會傳回顯示名稱結尾為字串值 "Smith" 的所有使用者。
   
 然後，您可以使用下列腳本確認使用者已新增及啟用：
   
@@ -158,18 +158,18 @@ Get-CsOnlineUser | Get-CsUserPstnSettings
 ```
 
 > [!NOTE]
-> 如果沒有 PSTN 網站指派給使用者，則您的商務用 Skype 雲端連接器 Edition 部署和 Office 365 組織之間的混合式連線將會回復為使用租使用者層級的預設值（對等目的地），這樣通話才能完成。 
+> 如果沒有 PSTN 網站指派給使用者，您的商務用 Skype 雲端連接器版本部署和您的 Microsoft 365 或 Office 365 組織之間的混合式連線將會回復為使用租使用者層級的預設值（對等目的地），這樣通話才能完成。 
   
 ## <a name="configure-online-hybrid-mediation-server-settings"></a>設定線上混合轉送伺服器設定
 <a name="BKMK_ConfigureMediationServer"> </a>
 
-當 P2P 呼叫呈報給 PSTN 會議時，商務用 Skype Online 會議服務器會將邀請傳送至雲端連接器轉送伺服器。 為了確保 Office 365 可順利路由傳送此邀請，您必須為每個雲端連接器轉送伺服器設定您線上承租人中的設定，如下所示： 
+當 P2P 呼叫呈報給 PSTN 會議時，商務用 Skype Online 會議服務器會將邀請傳送至雲端連接器轉送伺服器。 為了確保 Microsoft 365 或 Office 365 能夠成功路由傳送此邀請，您必須為每個雲端連接器轉送伺服器設定您線上承租人中的設定，如下所示： 
   
 1. 在 Microsoft 365 admin center 中建立使用者。 使用任何您想要的使用者名稱，例如 "MediationServer1"。
     
     使用雲端連接器的預設 SIP 網域（.ini 檔案中的第一個 SIP 網域）做為使用者網域。
     
-    請注意，使用者必須將授權指派傳播至商務用 Skype online 目錄。 將 Office 365 授權（例如 E5）指派給您所建立的帳戶，最多允許一小時若要傳播變更，請透過執行下列 Cmdlet，將使用者帳戶正確布建至商務用 Skype online 目錄，然後從此帳戶中移除授權。
+    請注意，使用者必須將授權指派傳播至商務用 Skype online 目錄。 將 Microsoft 365 或 Office 365 授權（例如 E5）指派給您所建立的帳戶，最多允許一小時若要傳播變更，請透過執行下列 Cmdlet，將使用者帳戶正確布建至商務用 Skype online 目錄，然後從此帳戶中移除授權。
     ```powershell
    Get-CsOnlineUser -Identity <UserPrincipalName>
    ```
@@ -180,7 +180,7 @@ Get-CsOnlineUser | Get-CsUserPstnSettings
    Set-MsolUser -UserPrincipalName <UserPrincipalName> -Department "HybridMediationServer"
    ```
 
-3. 使用您的商務用 Skype 租使用者系統管理員認證來啟動租使用者商務用 Skype 遠端 PowerShell 會話，然後執行下列 Cmdlet，將轉送伺服器和 Edge Server FQDN 設定為該使用者帳戶\<，\>並將 DisplayName 取代為您在步驟1中建立之帳戶的使用者顯示名稱：
+3. 使用您的商務用 Skype 租使用者系統管理員認證來啟動租使用者商務用 Skype 遠端 PowerShell 會話，然後執行下列 Cmdlet，將轉送伺服器和 Edge Server FQDN 設定為該使用者帳戶，並將 DisplayName 取代為 \< \> 您在步驟1中建立之帳戶的使用者顯示名稱：
     
    ```powershell
    Set-CsHybridMediationServer -Identity <DisplayName> -Fqdn <MediationServerFQDN> -AccessProxyExternalFqdn <EdgeServerExternalFQDN>
@@ -194,4 +194,3 @@ Get-CsOnlineUser | Get-CsUserPstnSettings
     
 4. 如果有多個 Cloud Connector 轉送伺服器（多個網站，HA），請為每個轉送伺服器重複先前的步驟。
     
-

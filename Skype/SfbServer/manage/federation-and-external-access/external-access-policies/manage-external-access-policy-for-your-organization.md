@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 部署一或多部 Edge Server 之後，您必須為組織啟用將支援的外部存取類型。
-ms.openlocfilehash: e4405585da71dc48f5fa1790f83938a814270d84
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
-ms.translationtype: HT
+ms.openlocfilehash: e3feecfffa591df5433ce45526ec236ca6ef8b42
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818274"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221657"
 ---
 # <a name="manage-external-access-policy-for-your-organization"></a>管理組織的外部存取原則
 
@@ -41,7 +41,7 @@ ms.locfileid: "41818274"
 
 這些選項包括下列類型的外部存取：
 
-  - **啟用與同盟使用者的通訊**   如果您想要支援使用者對同盟合作夥伴網域的存取，請啟用此選項。 此設定可設定使用者與其他 SIP 同盟網域及代管提供者 (例如 Microsoft Office 365) 通訊的能力。 
+  - **啟用與同盟使用者的通訊**   如果您想要支援使用者對同盟合作夥伴網域的存取，請啟用此選項。 此設定會設定使用者與其他 SIP 同盟網域通訊的能力，以及主控的提供者，如 Microsoft 365 或 Office 365。 
 
 
   - **啟用與遠端使用者的通訊**   如果您想要讓位於防火牆外部的組織內使用者 (例如在家工作與出差的使用者) 連線至商務用 Skype Server，可啟用此選項。

@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 瞭解如何手動提交埠訂單要求。
-ms.openlocfilehash: db47bd98b165607be778000538756b8821340488
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: d4c0c594cd9cb26d3f0b8b054c140facd2733239
+ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827971"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44224216"
 ---
 # <a name="manually-submit-a-port-order"></a>手動提交移轉訂單
 
@@ -31,28 +31,28 @@ ms.locfileid: "41827971"
 
 如果您的國家或地區未列在[Microsoft 團隊系統管理中心的移植嚮導](transfer-phone-numbers-to-teams.md)中，請使用本文中的步驟，手動建立並提交一個埠順序。
 
-## <a name="manually-submit-a-port-order-request"></a>手動提交埠順序要求
+## <a name="manually-submit-a-new-port-order-request"></a>手動提交新的埠訂單要求
 
-您可以在 Microsoft 365 系統管理中心建立服務要求，或將已完成的授權（LOA）表單直接傳送給您所在地區的 PSTN 服務台，以手動提交埠順序。
+您可以透過建立服務要求來手動提交新的埠順序，方法是將已完成的授權（LOA）表單直接傳送到您所在地區的 PSTN 服務台或 Microsoft 365 系統管理中心。
+
+### <a name="send-your-letter-of-authorization-directly-to-the-pstn-service-desk"></a>將您的授權信直接傳送給 PSTN 服務台
+
+下載您所在國家或地區的[LOA](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) ，完成表單，然後將它傳送到區域的[PSTN 服務台](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)：
+
+- 在美國及加拿大，請[傳送您的要求](mailto:ptn@microsoft.com)。
+- 在歐洲，[傳送您的要求](mailto:ptneu@microsoft.com)。
+- 在亞洲中，[傳送您的要求](mailto:ptnapac@microsoft.com)。
 
 ### <a name="submit-a-service-request-in-the-microsoft-365-admin-center"></a>在 Microsoft 365 系統管理中心提交服務要求
 
-1. 在 Microsoft 365 系統管理中心的左導覽中，前往 [**支援** > **新的服務要求**]。  如果您沒有看到 [**支援**列]，請移至左側導覽中的 [**自訂導覽**]，然後選取 [**支援**] 核取方塊，即可新增。
+1. 在 Microsoft 365 系統管理中心的左導覽中，前往 [**支援**  >  **新的服務要求**]。  如果您沒有看到 [**支援**列]，請移至左側導覽中的 [**自訂導覽**]，然後選取 [**支援**] 核取方塊，即可新增。
 2. 在 [**需要協助嗎？** ] 窗格中，選取 [**聯絡客戶支援**]。
 3. 在 [**連絡人支援**] 窗格中，執行下列動作：
 
     1. 輸入您要求的標題（例如，[埠順序要求]）及描述、確認您的電話號碼和電子郵件地址，然後選取您慣用的聯絡人方法。
-    2. 在 [**附件**] 底下，按一下 [**新增**檔案]，然後上傳已完成的[LOA](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md#letters-of-authorization-loas-for-transferring-numbers)。
+    2. 在 [**附件**] 底下，按一下 [**新增**檔案]，然後上傳已完成的[LOA](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
     3. 按一下 [**聯絡**人]。
-
-### <a name="send-your-letter-of-authorization-directly-to-the-pstn-service-desk"></a>將您的授權信直接傳送給 PSTN 服務台
-
-下載您所在國家或地區的[LOA](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md#letters-of-authorization-loas-for-transferring-numbers) ，完成表單，然後將它傳送到區域的[PSTN 服務台](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)：
-
-- 在美國，[傳送您的要求](mailto:ptn@microsoft.com)。
-- 在歐洲，[傳送您的要求](mailto:ptneu@microsoft.com)。
-- 在亞洲中，[傳送您的要求](mailto:ptnapac@microsoft.com)。
-  
+    
 ## <a name="what-else-should-you-know-about-number-porting"></a>關於數位移植，您還應該知道什麼？
 
 - 若要使用通話方案，您必須購買並指派授權給使用者。 請參閱[小組附加元件授權](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。

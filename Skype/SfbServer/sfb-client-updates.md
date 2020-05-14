@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 為 IT 專業人員提供有關永久版本的商務用 Skype 2016、商務用 Skype 2015 和 Lync 2013 用戶端的最新更新資訊連結。
-ms.openlocfilehash: 8a6008845c4218c8682a22cbab110551999d19cb
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: f8ee4756c38f6917a814db1672b29db3c7f6ca6c
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779699"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221877"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>使用 Windows Installer （MSI）之商務用 Skype 的最新版本更新
 
@@ -25,14 +25,14 @@ ms.locfileid: "43779699"
 
 > [!NOTE]
 > - 本文中的資訊僅適用于使用 Windows Installer （MSI）安裝技術的永久版本商務用 Skype。 例如，如果您已安裝商務用 Skype 的大量授權版本，例如 Office Professional Plus 2016 隨附的商務用 Skype。
-> - 本文中的資訊不適用於商務用 Skype 的 Office 365 版本，例如適用于企業的 Microsoft 365 應用程式隨附的商務用 Skype。
+> - 本文中的資訊不適用於商務用 Skype 的 Microsoft 365 或 Office 365 版本，例如包含 Microsoft 365 應用程式的商務用 Skype For enterprise。
 > - 如需最新的行動用戶端更新，請移至行動用戶端（iTunes、Google Play 或 Microsoft Store）的應用程式存放區，以查看詳細資料並安裝更新。
 > - 若要找出您所使用的商務用 Skype 版本，請參閱[我擁有哪一個版本的商務](https://support.microsoft.com/help/3195481/how-to-check-the-version-of-skype-for-business-2016)用 skype？
 > - 如需如何安裝 Office 更新的詳細資訊，請參閱[安裝 Office 更新](https://support.office.com/article/2ab296f3-7f03-43a2-8e50-46de917611c5)。
 
-商務用 Skype 與 Office 365 和您的內部部署環境的相容性取決於您的部署的系統需求：
+與 Microsoft 365 或 Office 365 和您的內部部署環境的商務用 Skype 相容性取決於您的部署的系統需求：
 
-- Office 365 適用于主流支援（包括最新版商務用 Skype 2016 的任何商務用 Skype 版本）。 在舊版商務用 Skype 中，只有具有擴充支援的版本可以繼續使用 Office 365，但功能較少。 如需詳細資訊，請參閱[Microsoft 生命週期原則](https://support.microsoft.com/lifecycle)。
+- Microsoft 365 和 Office 365 可使用位於主流支援（包含最新版商務用 Skype 2016）的任何版本的商務用 Skype。 在舊版商務用 Skype 中，只有具有擴充支援的版本可以繼續使用 Microsoft 365 或 Office 365，但功能會變少。 如需詳細資訊，請參閱[Microsoft 生命週期原則](https://support.microsoft.com/lifecycle)。
 
 - 若為商務用 Skype Server 內部部署，請遵循您的商務用 Skype 版本的系統需求：
 

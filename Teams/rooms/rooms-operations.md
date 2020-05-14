@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 請閱讀本主題，以瞭解 Microsoft 團隊聊天室（即新一代 Skype 房間系統）的管理。
-ms.openlocfilehash: 1fecf852c11e7ab89e0cdc7dc6caf615182e7d5f
-ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
+ms.openlocfilehash: 109d07bdf7b4925f7c3d0481e1ff7facef3de8f8
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43157757"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "43580701"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft 團隊會議室維護和作業 
  
@@ -31,10 +31,10 @@ Microsoft [團隊聊天室] 是 Microsoft 的最新會議解決方案，旨在�
 ## <a name="collecting-logs-on-microsoft-teams-rooms"></a>在 Microsoft 團隊聊天室收集記錄
 <a name="Logs"> </a>
 
-若要收集記錄，您必須呼叫由 Microsoft 團隊聊天室應用程式隨附的記錄集合腳本。 在 [系統管理模式] 中，啟動提升許可權的 PowerShell 提示，然後發出下列命令：
+若要收集記錄，您必須呼叫由 Microsoft 團隊聊天室應用程式隨附的記錄集合腳本。 在 [系統管理模式] 中，啟動提升許可權的命令提示字元，然後發出下列命令：
   
 ```PowerShell
-c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1 -ExecutionPolicy unrestricted
+powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1
 ```
 
 在 c:\rigel. 中，會將記錄輸出為 ZIP 檔案
@@ -75,10 +75,10 @@ c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1 -Executi
 本節涵蓋 Microsoft 團隊聊天室所依賴的系統設定，以正常運作。 當您將 Microsoft 團隊聊天室加入網域時，請確定您的群組原則不會覆寫下表中的設定。
   
 
-|正在|讓|
+|設定|讓|
 |:-----|:-----|
 |HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AutoAdminLogon = （REG_SZ）1  <br/> |可讓 Microsoft 團隊聊天室啟動  <br/> |
-|電源管理-\>在 AC 上，10分鐘後關閉螢幕  <br/> 電源管理-\>在交流電上，請勿將系統置於睡眠狀態  <br/> |讓 Microsoft 團隊聊天室關閉附加的顯示，並自動喚醒  <br/> |
+|電源管理- \> 在 AC 上，10分鐘後關閉螢幕  <br/> 電源管理- \> 在交流電上，請勿將系統置於睡眠狀態  <br/> |讓 Microsoft 團隊聊天室關閉附加的顯示，並自動喚醒  <br/> |
 |淨帳戶/maxpwage：無限制  <br/> 或同等的方式，在本機帳戶上停用密碼過期。 如果不這麼做，最終會導致 Skype 帳戶無法針對過期密碼登入。 請注意，這會影響電腦上的所有本機帳戶，因此無法設定這種情況，也會導致盒上的系統管理帳戶最終過期。  <br/> |讓 Skype 帳戶永遠登入  <br/> |
    
 使用群組原則來傳送檔案將在 [[設定檔案專案](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)] 中討論。
@@ -112,8 +112,8 @@ c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1 -Executi
 1. 以具備在 Microsoft 團隊聊天室裝置上執行 PowerShell 命令許可權的帳號憑證登入電腦。
 2. 在電腦上開啟一般的 PowerShell 命令提示字元。
 3. 從下表複製命令文字，並在出現提示時貼上。
-4. 以`<Device fqdn>`適合您環境的 FQDN 值取代欄位。
-5. 以主 SkypeSettings 配置檔案（或主題圖像）的檔案名和本機路徑取代* \<路徑\> * 。
+4. 以 `<Device fqdn>` 適合您環境的 FQDN 值取代欄位。
+5. 以主 SkypeSettings 配置檔案（或主題圖像）的檔案名和本機路徑取代* \< 路徑 \> * 。
     
 取得連接的裝置
   
@@ -173,11 +173,11 @@ Copy-Item $movefile $targetDevice
 ### <a name="to-update-using-powershell"></a>使用 Powershell 更新
 
 1. 從安裝[MSI](https://go.microsoft.com/fwlink/?linkid=851168)將套件解壓縮至裝置可以存取的共用。
-2. 針對 Microsoft 團隊聊天室裝置執行下列腳本，視需要將\<共用\>變更為裝置共用：
+2. 針對 Microsoft 團隊聊天室裝置執行下列腳本， \< 視需要將共用變更 \> 為裝置共用：
     
-```PowerShell
-Add-AppxPackage -Update -ForceApplicationShutdown -Path '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\*.appx' -DependencyPath (Get-ChildItem '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\Dependencies\x64\*.appx' | Foreach-Object {$_.FullName})
-```
+    ```PowerShell
+    Add-AppxPackage -Update -ForceApplicationShutdown -Path '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\*.appx' -DependencyPath (Get-ChildItem '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\Dependencies\x64\*.appx' | Foreach-Object {$_.FullName})
+    ```
 
 ## <a name="admin-mode-and-device-management"></a>系統管理模式與裝置管理
 <a name="AdminMode"> </a>

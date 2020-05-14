@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 使用商務用 Skype Online 遙測工具，以監視混合式案例中的內部部署實施。
-ms.openlocfilehash: ad4d7ddb270bc4e4227eea7d33c37411ea96fa8c
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 30ff8aebc739e0602f9700cbe9120d230845a023
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779659"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221313"
 ---
 # <a name="plan-call-data-connector"></a>規劃通話資料連線器
 
@@ -60,12 +60,12 @@ ms.locfileid: "43779659"
 
 - 啟用混合連接。 如果您已部署商務用 Skype Server，而且想要啟用呼叫資料連線器，則必須確定您的內部部署與線上環境之間已設定混合式連線能力。 這有時稱為分割網域設定。
 
-   如需詳細資訊，請參閱[規劃商務用 Skype server 與 office 365 之間的混合](plan-hybrid-connectivity.md)式連線，以及[設定商務用 Skype server 與 office 365 之間的混合式連接](configure-hybrid-connectivity.md)。
+   如需詳細資訊，請參閱[規劃商務用 Skype server 與 microsoft 365 或 office 365 之間的混合](plan-hybrid-connectivity.md)式連線，以及[設定商務用 Skype server 與 Microsoft 365 或 office 365 的混合](configure-hybrid-connectivity.md)式連線。
 
-- 驗證您的 Office 365 組織，並確認您已啟用下列角色：
+- 驗證您的 Microsoft 365 或 Office 365 組織，並確定已啟用下列角色：
 
   - 商務用 Skype Server 管理員
-  - 全域管理員
+  - Microsoft 365 或 Office 365 全域系統管理員
 
 - 若尚未這麼做，請依[開啟和使用 Microsoft 團隊和商務用 Skype Online 的通話品質儀表板](/microsoftteams/turning-on-and-using-call-quality-dashboard)中所述，開啟通話品質儀表板。
 

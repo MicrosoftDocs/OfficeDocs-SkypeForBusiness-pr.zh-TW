@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: 在本文中，您將瞭解如何在 Microsoft 團隊中建立、編輯和管理資源帳戶。
-ms.openlocfilehash: a8023ddf27b28fc64cd76b38127f43d4509a702d
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 96c8b9028a63b87b19bebbd3d4724a202f798324
+ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44041760"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44224266"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>在 Microsoft Teams 中管理資源帳戶
 
@@ -76,13 +76,13 @@ ms.locfileid: "44041760"
 
 1. 移植或取得付費或免付費服務號碼。 該號碼不能指派給任何其他語音服務或資源帳戶。
 
-   在您將電話號碼指派給資源帳戶之前，您必須先取得或移植現有的付費或免付費服務號碼。 當您收到付費或免付費服務電話號碼之後，就會顯示在**Microsoft 團隊系統管理中心** > 的**語音** > **電話號碼**中，而**數位類型**則會列為 [**服務-免付費**電話]。 若要取得您的服務號碼，請參閱[取得服務電話號碼](getting-service-phone-numbers.md)，或者如果您想要轉移現有的服務號碼，請參閱[將電話號碼轉移至團隊](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)。
+   在您將電話號碼指派給資源帳戶之前，您必須先取得或移植現有的付費或免付費服務號碼。 當您收到付費或免付費服務電話號碼之後，就會顯示在**Microsoft 團隊系統管理中心**的  >  **語音**  >  **電話號碼**中，而**數位類型**則會列為 [**服務-免付費**電話]。 若要取得您的服務號碼，請參閱[取得服務電話號碼](getting-service-phone-numbers.md)，或者如果您想要轉移現有的服務號碼，請參閱[將電話號碼轉移至團隊](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)。
 
    如果您要將電話號碼指派給資源帳戶，您現在可以使用 [免付費電話系統虛擬使用者授權]。 這會提供手機系統功能給組織階層的電話號碼，並可讓您建立自動語音應答及呼叫佇列功能。
 
 2. 取得電話系統虛擬使用者授權或一般的電話系統授權。
 
-   若要取得虛擬使用者授權（從 Microsoft 365 系統管理中心開始），請移至**帳單** > **購買服務** > **附加元件訂閱**，然後滾動至結尾，您會看到「電話系統-虛擬使用者」授權。 選取 [**立即購買**]。 有零成本，但您仍需遵循這些步驟來取得授權。
+   若要取得虛擬使用者授權（從 Microsoft 365 系統管理中心開始），請移至**帳單**  >  **購買服務**  >  **附加元件訂閱**，然後滾動至結尾，您會看到「電話系統-虛擬使用者」授權。 選取 [**立即購買**]。 有零成本，但您仍需遵循這些步驟來取得授權。
 3. 建立新的資源帳戶。 請參閱[在 Microsoft 團隊系統管理中心建立資源帳戶](#create-a-resource-account-in-microsoft-teams-admin-center)或[在 Powershell 中建立資源帳戶](#create-a-resource-account-in-powershell)。
 4. 將電話系統-[虛擬使用者授權](teams-add-on-licensing/virtual-user.md)或電話系統授權指派給資源帳戶。 請參閱[指派 Microsoft 團隊附加元件授權](teams-add-on-licensing/assign-teams-add-on-licenses.md)和[指派授權給一個使用者](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#assign-licenses-to-one-user)。
 5. 將服務號碼指派給資源帳戶。 請參閱[指派/取消指派電話號碼和服務](#assignunassign-phone-numbers-and-services)。
@@ -106,7 +106,7 @@ ms.locfileid: "44041760"
 
 ## <a name="create-a-resource-account-in-microsoft-teams-admin-center"></a>在 Microsoft 團隊系統管理中心中建立資源帳戶
 
-在您購買電話系統授權之後，使用 Microsoft 團隊管理中心流覽至**組織範圍的設定** > **資源帳戶**。
+在您購買電話系統授權之後，使用 Microsoft 團隊管理中心流覽至**組織範圍的設定**  >  **資源帳戶**。
 
 ![[資源帳戶] 頁面的螢幕擷取畫面](media/r-a-master.png)
 
@@ -120,7 +120,7 @@ ms.locfileid: "44041760"
 
 ### <a name="edit-resource-account"></a>編輯資源帳戶 
 
-![](media/teamscallout2.png)數位2的圖示，參照前一個螢幕擷取畫面中的標注，您可以使用 [**編輯**] 選項編輯資源帳戶**顯示名稱**和**資源帳戶**類型。 完成後，按一下 [**儲存**]。
+![數位2的圖示，參照前一個螢幕擷取畫面中的標注， ](media/teamscallout2.png) 您可以使用 [**編輯**] 選項編輯資源帳戶**顯示名稱**和**資源帳戶**類型。 完成後，按一下 [**儲存**]。
 
 ![[編輯資源帳戶] 選項的螢幕擷取畫面](media/r-a-edit.png)
 
@@ -128,7 +128,7 @@ ms.locfileid: "44041760"
 
 ### <a name="assignunassign-phone-numbers-and-services"></a>指派/取消指派電話號碼和服務
 
-![數位3的圖示，在您建立資源帳戶並指派授權](media/teamscallout3.png)之後，在前一個螢幕擷取畫面中參照標注，您可以按一下 [**指派/取消指派**]，將服務號碼指派給資源帳戶、設定電話號碼類型，或將資源帳戶指派給已經存在的特定自動語音應答或通話佇列。 指派直接路由號碼只能使用 Cmdlet 完成。 如果您尚未建立要與資源帳戶相關聯的通話佇列或自動語音應答，請將該欄位留白。 您可以在建立資源帳戶時將它連結。 完成後，按一下 [**儲存**]。
+![數位3的圖示，在您建立資源帳戶並指派授權之後，在前一個螢幕擷取畫面中參照標注， ](media/teamscallout3.png) 您可以按一下 [**指派/取消指派**]，將服務號碼指派給資源帳戶、設定電話號碼類型，或將資源帳戶指派給已經存在的特定自動語音應答或通話佇列。 指派直接路由號碼只能使用 Cmdlet 完成。 如果您尚未建立要與資源帳戶相關聯的通話佇列或自動語音應答，請將該欄位留白。 您可以在建立資源帳戶時將它連結。 完成後，按一下 [**儲存**]。
 
 **電話號碼類型**的選項如下：
 
@@ -202,7 +202,7 @@ ms.locfileid: "44041760"
 
 ## <a name="manage-resource-account-settings-in-microsoft-teams-admin-center"></a>管理 Microsoft 團隊系統管理中心的資源帳戶設定
 
-若要在 Microsoft 團隊系統管理中心中管理 [資源帳戶設定]，請流覽至 [**整個組織的設定** > **資源帳戶**]，選取您需要變更其設定的資源帳戶，然後按一下 [**編輯**] 按鈕。 在 [**編輯資源帳戶**] 畫面中，您將能夠變更這些設定：
+若要在 Microsoft 團隊系統管理中心中管理 [資源帳戶設定]，請流覽至 [**整個組織的設定**  >  **資源帳戶**]，選取您需要變更其設定的資源帳戶，然後按一下 [**編輯**] 按鈕。 在 [**編輯資源帳戶**] 畫面中，您將能夠變更這些設定：
 
 - 帳戶的**顯示名稱**
 - 使用帳戶的通話佇列或自動語音應答
@@ -267,5 +267,7 @@ Set-MsolUser -ObjectId -Department "Microsoft Communication Application Instance
 [新-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps)
 
 [新-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance?view=skype-ps)
+
+[新-CsOnlineApplicationInstanceAssociation](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstanceassociation?view=skype-ps)
 
 [電話系統-虛擬使用者授權](teams-add-on-licensing/virtual-user.md)
