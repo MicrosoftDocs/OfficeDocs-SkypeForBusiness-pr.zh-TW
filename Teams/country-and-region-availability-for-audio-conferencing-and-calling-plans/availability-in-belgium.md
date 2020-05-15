@@ -24,53 +24,53 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是適用于商務用 Skype 和 Microsoft 團隊（比利時）的 Office 365 服務。
-ms.openlocfilehash: 5ae173e270c51f0c901a267f2f2d0b5b018c7db1
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: 以下是適用于商務用 Skype 和 Microsoft 團隊的 Microsoft 365 和 Office 365 服務（比利時）。
+ms.openlocfilehash: fa5db15e5cc312e070f77724bc384f49621fcbef
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41684036"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44231202"
 ---
 # <a name="availability-in-belgium"></a>比利時中的可用性
 
-[尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或進一步瞭解音訊會議與通話方案的國家/地區可用性。
+[尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入了解音訊會議與通話方案的適用國家/地區。
 
-以下是適用于商務用 Skype 和 Microsoft 團隊（比利時）的 Office 365 服務。
+以下是適用于商務用 Skype 和 Microsoft 團隊的 Microsoft 365 和 Office 365 服務（比利時）。
   
 ## <a name="audio-conferencing"></a>音訊會議
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
 |音訊會議是否可供購買？  <br/> |是  <br/> |
-|是否會自動為音訊會議指派電話號碼？  <br/> |是，適用于：<br/><ul><li> 布魯塞爾</ul>如果您需要專用的電話號碼，請參閱[取得商務用 Skype 和 Microsoft 團隊的服務電話號碼](/microsoftteams/getting-service-phone-numbers)。  <br/> |
-|使用 [呼叫我] 功能撥出功能  <br/> |離線  <br/> |
+|是否會自動為音訊會議指派電話號碼？  <br/> |是，適用於：<br/><ul><li> 布魯塞爾</ul>如果您想要專屬的電話號碼，請參閱[取得商務用 Skype 和 Microsoft Teams 的服務電話號碼](/microsoftteams/getting-service-phone-numbers)。  <br/> |
+|使用 [語音來電] 功能的撥出功能  <br/> |有空  <br/> |
    
 ## <a name="phone-system"></a>電話系統
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
 |電話系統是否可供購買？  <br/> |是  <br/> |
-| 自動語音應答 <br/> |離線  <br/> |
-|通話佇列  <br/> |離線  <br/> |
-|語音信箱  <br/> |離線  <br/> |
+| 自動語音應答 <br/> |有空  <br/> |
+|通話佇列  <br/> |有空  <br/> |
+|語音信箱  <br/> |可用  <br/> |
    
 ## <a name="calling-plans"></a>通話方案
     
 |**功能**|**詳細資料**|
 |:-----|:-----|
-|通話方案可供購買嗎？  <br/> |是  <br/> |
+|可以購買通話方案嗎？  <br/> |是  <br/> |
 |通話方案可用的分鐘數。 |每個行事曆月提供四個方案選項： <ul><li>120分鐘國內通話方案 </li><li>240分鐘國內通話方案</li></li><li>1200分鐘國內通話方案 </li></li><li>國內和國際通話方案的600分鐘</li></li> 
 |可以撥出電話給津貼號碼嗎？  <br/> | 目前不支援。 <br/> |
-|可以撥出電話至嗎？  <br/> | 至196個國家/地區，包括[這些](users-can-make-outbound-calls-to-these-countries-and-regions.md)。<br/> |
+|可以向外撥打電話嗎？  <br/> | 至196個國家/地區，包括[這些](users-can-make-outbound-calls-to-these-countries-and-regions.md)。<br/> |
    
-## <a name="toll-and-toll-free-numbers-for-services"></a>服務的付費和免付費電話號碼
+## <a name="toll-and-toll-free-numbers-for-services"></a>服務的付費電話和免付費電話號碼
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
-|您可以在哪一或哪些主要城市取得付費電話號碼？  <br/> | <ul><li>Bruges<li>  布魯塞爾 <li>Charleroi <li>  Ghent <li>  Liege <li>  Namur </ul> |
-|是否有付費電話號碼？  <br/> |是  <br/> |
-|免費提供免付費電話號碼嗎？  <br/> |是  <br/> |
+|哪些首都/首要城市能提供您付費電話號碼？  <br/> | <ul><li>Bruges<li>  布魯塞爾 <li>Charleroi <li>  Ghent <li>  Liege <li>  Namur </ul> |
+|有提供付費電話號碼嗎？  <br/> |是  <br/> |
+|是否提供免付費電話號碼？  <br/> |是  <br/> |
    
  如果您想要取得語音會議、自動語音應答及通話佇列的付費和免付費電話號碼，請參閱[取得商務用 Skype 和 Microsoft 團隊的服務電話號碼](/microsoftteams/getting-service-phone-numbers)。
   
@@ -78,9 +78,9 @@ ms.locfileid: "41684036"
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
-|通訊點數提供了嗎？  <br/> |是  <br/> |
+|可使用通訊點數嗎？  <br/> |是  <br/> |
    
-如果您想要設定，請參閱[為您的組織設定通訊點數](../set-up-communications-credits-for-your-organization.md)。
+如果您想要設定通訊點數，請參閱[設定組織的通訊點數](../set-up-communications-credits-for-your-organization.md)。
   
 ## <a name="related-topics"></a>相關主題
 

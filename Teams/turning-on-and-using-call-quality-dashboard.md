@@ -24,12 +24,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: 瞭解如何開啟和使用通話品質儀表板，並取得通話品質的摘要報告。
-ms.openlocfilehash: 59f905315eebe1e2f3e3b24b157eb198173a94e8
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 9a1c7cb451f722d019a4119daf8ab9c3a08c810f
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44226010"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44243569"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>開啟並使用 Microsoft 團隊和商務用 Skype Online 的通話品質儀表板
 
@@ -483,13 +483,13 @@ CQD 會使用端點資料檔案。 欄值會用於通話記錄的第一個用戶
 遙測不一定要找出問題，但它可以協助您更好地瞭解在何處查看並告知您的決策。 是網路、裝置、驅動程式或固件更新、使用方式或使用者嗎？
 
 ### <a name="why-do-i-see-upto-02-difference-in-call-and-user-count-values-on-measures-and-how-to-get-most-accurate-volumes"></a>為什麼在 [通話] 和 [使用者計數] 值中看到的0.2% 差異，以及如何取得最精確的磁片容量？ 
-若要計算通話計數和使用者計數測量，請針對資料集中的通話或使用者識別碼執行不同的 countif 操作。 在大型資料集上，有最多0.2% 的錯誤 inherient 與 distinct opeartion。 若要取得最精確的容量，您應該依靠資料流程計數測量，因為它們不依賴這個不同的 countif 操作。 篩選以減少資料量，可能會減少錯誤，但在不同的通話和使用者計數中可能不會 elimnate 這個錯誤來源。 請參閱[通話品質儀表板中可](dimensions-and-measures-available-in-call-quality-dashboard.md)受影響之量值的尺寸與測量。
+若要計算通話計數和使用者計數測量，請針對資料集中的通話或使用者識別碼執行不同的 countif 操作。 在大型資料集上，有多達0.2% 的錯誤是由 distinct countif 操作所固有的。 若要取得最精確的容量，您應該依靠資料流程計數測量，因為它們不依賴這個不同的 countif 操作。 篩選以減少資料量可能會減少錯誤，但在不同的通話和使用者計數中可能不會消除此錯誤來源。 請參閱[通話品質儀表板中可](dimensions-and-measures-available-in-call-quality-dashboard.md)受影響之量值的尺寸與測量。
 
 ### <a name="why-does-my-cqd-v2-report-data-look-different-than-the-cqd-v3-report-data"></a>為什麼 CQD v2 報告資料看起來與 CQD v3 報告資料不同？ 
 
 如果您看到 CQD v2 與 v3 之間的資料差異，請確定資料比較或驗證是在 "蘋果" 和 [窄] 層級完成，而不是 [匯總層級]。 例如，如果您篩選兩個報告以進行 MSIT ' 建築物 30 ' WiFi 小組桌面用戶端資料，那麼在 v2 與 v3 之間，品質較差的百分比應該相同。
 
-CallSetup 失敗的 CQDv2 分類只會針對 "Audio" 模態進行 inly 考慮，在 CQDv3 中，每個模態（音訊、影片和 Appsharing）都會進行這個分類，並以各個模態資料流程表示。 
+CQDv2 的 CallSetup 失敗分類只考慮針對「音訊」模態，在 CQDv3 中，會針對每個模態（音訊、影片和 Appsharing）進行分類，並以各自的模態資料流程表示。 
 
 針對團隊而言，CQDv2 會將相同的使用者意見反應套用至所有形式 CQDv3 針對團隊的模態套用意見反應基礎。
 

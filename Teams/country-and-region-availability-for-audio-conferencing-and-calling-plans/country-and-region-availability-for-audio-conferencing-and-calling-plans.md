@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 瞭解音訊會議、電話系統、通話方案、通訊點數，以及免付費電話號碼以及免付費電話號碼在國家或地區中都有提供。
-ms.openlocfilehash: d6c989ea073a3d12f5bd4f04496f57977534e05c
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: eae54b4b8957f588afab45758f9be5d2f678b3ea
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141056"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230191"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>音訊會議與通話方案的適用國家/地區
 
@@ -178,14 +178,14 @@ ms.locfileid: "43141056"
 音訊會議中有一個名為「打電話給我」** 的功能，可讓其他人員透過電話來加入會議。 請使用上方的下拉式清單來搜尋國家/地區，並了解這項功能是否可供使用。
 
 > [!CAUTION]
-> 您無法撥出至免付費或免費的電話號碼，因為某些免付費電話號碼只能在國內或國內區域使用。 例如，如果您從美國撥出至巴西的免付費電話號碼，該通話可能不會成功，因為發話方並非位於巴西或巴西境內的特定地區。 是否能撥出至免付費電話號碼會根據所撥打的免付費電話號碼限制而有很大的不同。 遺憾的是，Office 365 無法控制此一行為，因此，您的體驗會根據所撥打的免付費電話號碼以及免付費電話號碼的限制而有所不同。 
+> 您無法撥出至免付費或免費的電話號碼，因為某些免付費電話號碼只能在國內或國內區域使用。 例如，如果您從美國撥出至巴西的免付費電話號碼，該通話可能不會成功，因為發話方並非位於巴西或巴西境內的特定地區。 是否能撥出至免付費電話號碼會根據所撥打的免付費電話號碼限制而有很大的不同。 遺憾的是，我們無法控制此行為，因此，您的體驗可能會因撥打免付費電話號碼和免付費電話號碼的限制而有所不同。 
   
-您可以使用 [Office 365 通訊點數](../what-are-communications-credits.md)，從會議中撥出至下面未列出的全球其他國家/地區。 針對這些使用者，您必須[設定組織的通訊點數](../set-up-communications-credits-for-your-organization.md)。
+在下列情況下，您可以使用[通訊信用](../what-are-communications-credits.md)，從會議撥出至世界上未列出的其他國家/地區。 針對這些使用者，您必須[設定組織的通訊點數](../set-up-communications-credits-for-your-organization.md)。
   
 ### <a name="phone-system"></a>電話系統
 透過電話系統，您可以建立自動語音應答和通話佇列 (使用付費或免付費電話號碼) 來為貴組織接聽來電，而當您為使用者新增通話方案時，其可以使用商務用 Skype 來處理基本的通話控制工作，例如撥打和接聽電話、轉接電話，以及將通話靜音與取消靜音。 **電話系統**的使用者只要按一下通訊錄中的名稱，商務用 Skype 就會撥打電話給該人員。 若要撥打和接聽電話，**電話系統**的使用者可以使用其行動裝置、耳機與膝上型電腦或桌上型電腦，或其中一種可與商務用 Skype 搭配運作的 IP 電話。
 
-> 根據庫存量而定，某些位置在任何給定時間不一定會有付費電話號碼。 除了可以從 Office 365 取得個別使用者的電話號碼外，您也可以搜尋並取得音訊會議 (針對會議橋接器)、自動語音應答和通話佇列等服務的付費或免付費電話號碼。 這些電話號碼稱為服務號碼。 請參閱[取得服務電話號碼](/microsoftteams/getting-service-phone-numbers)以取得電話號碼。 但對您的使用者來說，在為其指派通話方案之後，您就可以指派使用者電話號碼，讓其可以撥打和接聽電話。 若要尋找這些電話號碼，請移至[為使用者取得電話號碼](/microsoftteams/getting-phone-numbers-for-your-users)。 您也可以參閱[指派、變更或移除使用者的電話號碼](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)。 
+> 根據庫存量而定，某些位置在任何給定時間不一定會有付費電話號碼。 除了為個別使用者取得電話號碼之外，您也可以在語音會議（適用于會議室）、自動語音應答及呼叫佇列等服務，搜尋及取得付費或免付費電話號碼。 這些電話號碼稱為服務號碼。 請參閱[取得服務電話號碼](/microsoftteams/getting-service-phone-numbers)以取得電話號碼。 但對您的使用者來說，在為其指派通話方案之後，您就可以指派使用者電話號碼，讓其可以撥打和接聽電話。 若要尋找這些電話號碼，請移至[為使用者取得電話號碼](/microsoftteams/getting-phone-numbers-for-your-users)。 您也可以參閱[指派、變更或移除使用者的電話號碼](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)。 
 
 [電話系統的定價](https://products.office.com/skype-for-business/phone-system#Requirements)
 
@@ -204,7 +204,7 @@ ms.locfileid: "43141056"
   
 ### <a name="toll-and-toll-free-phone-numbers-for-services"></a>服務的付費和免付費電話號碼
 
-除了可以從 Office 365 取得個別使用者的電話號碼外，您也可以搜尋並取得音訊會議 (針對會議橋接器)、自動語音應答和通話佇列等服務的付費或免付費電話號碼。 這些電話號碼稱為服務號碼。
+除了為個別使用者取得電話號碼之外，也可以搜尋和取得服務的付費或免付費電話號碼，例如音訊會議（適用于會議室）、自動語音應答及通話佇列。 這些電話號碼稱為服務號碼。
   
 以下是一份首都和主要城市的清單，您可以從這份清單中取得可與音訊會議和通話方案搭配使用的付費服務號碼。 您可以使用**商務用 Skype 系統管理中心**來取得這些位置的付費服務號碼。
   

@@ -24,12 +24,12 @@ ms.custom:
 - Direct Routing
 - seo-marvel-mar2020
 description: 瞭解緊急通話，包括緊急位址、緊急通話路由及動態緊急通話的相關資訊。
-ms.openlocfilehash: 8afe2d2af8b2aecbe3d73da03137f330aa8304b8
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 8c2de31aa81ac36338560c9b75d5c7ef27e460f8
+ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141026"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232544"
 ---
 # <a name="manage-emergency-calling"></a>管理緊急通話
 
@@ -90,7 +90,7 @@ ms.locfileid: "43141026"
 
 Microsoft 通話方案的動態緊急通話可提供根據團隊用戶端目前位置來設定和路由緊急通話的功能。 自動路由至適當的公用安全回應點（PSAP）或通知安全服務台人員的功能，會視小組使用者使用的國家/地區而有所不同。  
 
-目前，只有美國地區的通話方案使用者可以利用動態位置來路由緊急呼叫，如下所示：
+針對呼叫方案使用者，只支援在美國進行路由緊急通話的動態位置，如下所示。 （如需有關動態緊急通話與直接路由的詳細資訊，請參閱[直接路由的注意事項](#considerations-for-direct-routing)。
 
 - 如果美國通話方案使用者的團隊用戶端動態取得美國境內的緊急位址，該位址會用於緊急路由，而不是已註冊的位址，而且通話會自動路由到位址的服務區域中的 PSAP。
 

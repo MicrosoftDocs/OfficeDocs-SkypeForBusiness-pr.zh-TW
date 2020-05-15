@@ -12,22 +12,22 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
-description: 協助程式腳本，透過 OAuth 通訊協定，將 SFB 2019 控制台驗證與 Office 365 進行設定。
-ms.openlocfilehash: ad6c41c70cc885ca8eee2a19e7dcc4173ef714c2
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+description: 協助腳本以透過 OAuth 通訊協定設定 Microsoft 365 或 Office 365 的 SFB 2019 控制台驗證。
+ms.openlocfilehash: 92c13da1146698d130439c1f76e3885b561bec1b
+ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41887722"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232594"
 ---
 # <a name="skype-for-business-server-2019-control-panel-authentication-script"></a>商務用 Skype Server 2019 控制台驗證腳本
 
-安裝商務用 Skype Server 2019 累計更新1（作為新 [控制台] 的一部分）後，此腳本應該會執行。 此腳本將在 Azure 上建立 Azure AD 應用程式。 這將協助您在新的 [控制台] 中使用 OAuth 登入 Office 365。
+安裝商務用 Skype Server 2019 累積更新1時，應執行此腳本，以供您設定新控制台的一部分。 此腳本會在 Azure 上建立 Azure AD 應用程式。 這將協助您使用 [新增控制台] 中的 OAuth，登入 Microsoft 365 或 Office 365。
 
 ```powershell
 <#
  .SYNOPSIS
- Helper script to configure SFB 2019 control panel authentication with Office 365 via OAuth protocol.
+ Helper script to configure SFB 2019 control panel authentication with Microsoft 365 or Office 365 via OAuth protocol.
 
  .DESCRIPTION
  Copyright (c) Microsoft Corporation. All rights reserved.

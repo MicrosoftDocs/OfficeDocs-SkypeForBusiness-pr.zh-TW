@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是適用于 [商務用 Skype] 和 [德國版 Microsoft 團隊] 的 Office 365 服務。
-ms.openlocfilehash: af11dafc34947f2ef162252029795d1465f6d43a
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+description: 以下是適用于 [商務用 Skype] 和 [德國版 Microsoft 團隊] 的 Microsoft 365 和 Office 365 服務。
+ms.openlocfilehash: 9a8c6675ec7116fb8e358c394fb54d169a56c432
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43951198"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44231162"
 ---
 # <a name="availability-in-germany"></a>在德國提供的可用性
 
 [尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入了解音訊會議與通話方案的適用國家/地區。
 
-以下是適用于 [商務用 Skype] 和 [德國版 Microsoft 團隊] 的 Office 365 服務。
+以下是適用于 [商務用 Skype] 和 [德國版 Microsoft 團隊] 的 Microsoft 365 和 Office 365 服務。
   
 ## <a name="audio-conferencing"></a>音訊會議
 

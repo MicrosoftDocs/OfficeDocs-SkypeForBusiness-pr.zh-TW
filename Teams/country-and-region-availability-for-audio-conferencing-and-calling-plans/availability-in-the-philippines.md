@@ -24,64 +24,64 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是適用于商務用 Skype 和 Microsoft 團隊（菲律賓）的 Office 365 服務。
-ms.openlocfilehash: f560d8e7129a77fac7bb5ecf4633a82281f3ab69
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
+description: 以下是適用于商務用 Skype 和 Microsoft 團隊的 Microsoft 365 和 Office 365 服務（菲律賓）。
+ms.openlocfilehash: 12ae2572bc67b350477d746db9f49e3e525ec3ef
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41852290"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44229161"
 ---
 # <a name="availability-in-the-philippines"></a>菲律賓中的可用性
 
-[尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或進一步瞭解音訊會議與通話方案的國家/地區可用性。
+[尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入了解音訊會議與通話方案的適用國家/地區。
 
-以下是適用于商務用 Skype 和 Microsoft 團隊（菲律賓）的 Office 365 服務。
+以下是適用于商務用 Skype 和 Microsoft 團隊的 Microsoft 365 和 Office 365 服務（菲律賓）。
   
 ## <a name="audio-conferencing"></a>音訊會議
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
 |音訊會議是否可供購買？  <br/> |是  <br/> |
-|是否會自動為音訊會議指派電話號碼？  <br/> |是，適用于： <br/><ul><li> Manila</ul>如果您需要專用的電話號碼，請參閱[取得商務用 Skype 和 Microsoft 團隊的服務電話號碼](/microsoftteams/getting-service-phone-numbers)。  <br/> |
-|使用 [呼叫我] 功能撥出功能  <br/> |需要通訊點數  <br/> |
+|是否會自動為音訊會議指派電話號碼？  <br/> |是，適用於： <br/><ul><li> Manila</ul>如果您想要專屬的電話號碼，請參閱[取得商務用 Skype 和 Microsoft Teams 的服務電話號碼](/microsoftteams/getting-service-phone-numbers)。  <br/> |
+|使用 [語音來電] 功能的撥出功能  <br/> |需要通訊點數  <br/> |
    
 ## <a name="phone-system"></a>電話系統
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
 |電話系統是否可供購買？  <br/> |是  <br/> |
-| 自動語音應答 <br/> |離線  <br/> |
-|通話佇列  <br/> |離線  <br/> |
-|語音信箱  <br/> |離線  <br/> |
+| 自動語音應答 <br/> |有空  <br/> |
+|通話佇列  <br/> |有空  <br/> |
+|語音信箱  <br/> |可用  <br/> |
    
 ## <a name="calling-plans"></a>通話方案
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
-|通話方案可供購買嗎？  <br/> |否  <br/> |
+|可以購買通話方案嗎？  <br/> |否  <br/> |
 |通話方案可用的分鐘數  <br/> |不適用  <br/> |
-|可以撥出電話至嗎？  <br/> |不適用  <br/> |
+|可以向外撥打電話嗎？  <br/> |不適用  <br/> |
 
-如果無法購買通話方案，請考慮使用[電話系統 Direct 路由](../direct-routing-landing-page.md)。 透過直接路由，您可以在幾乎任何電話運營商中使用電話系統。
+如果無法購買通話方案，請考慮使用[電話系統直接路由](../direct-routing-landing-page.md)。 透過直接路由，您就可以實際地透過任何電信運營公司使用電話系統。
    
-## <a name="toll-and-toll-free-numbers-for-services"></a>服務的付費和免付費電話號碼
+## <a name="toll-and-toll-free-numbers-for-services"></a>服務的付費電話和免付費電話號碼
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
-|您可以在哪一或哪些主要城市取得付費電話號碼？  <br/> |Manila  <br/> |
-|是否有付費電話號碼？  <br/> |是  <br/> |
-|免費提供免付費電話號碼嗎？  <br/> |是  <br/> |
+|哪些首都/首要城市能提供您付費電話號碼？  <br/> |Manila  <br/> |
+|有提供付費電話號碼嗎？  <br/> |是  <br/> |
+|是否提供免付費電話號碼？  <br/> |是  <br/> |
    
- 如果您想要取得音訊會議、自動語音應答及通話佇列的付費和免付費電話號碼，請參閱[取得商務用 Skype 和 Microsoft 團隊的服務電話號碼](/microsoftteams/getting-service-phone-numbers)。
+ 如果您想要取得音訊會議、自動語音應答和通話佇列的付費電話號碼和免付費電話號碼，請參閱[取得商務用 Skype 和 Microsoft Teams 的服務電話號碼](/microsoftteams/getting-service-phone-numbers)。
   
 ## <a name="communications-credits"></a>通訊點數
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
-|通訊點數提供了嗎？  <br/> |是  <br/> |
+|可使用通訊點數嗎？  <br/> |是  <br/> |
    
-如果您想要設定，請參閱[為您的組織設定通訊點數](../set-up-communications-credits-for-your-organization.md)。
+如果您想要設定通訊點數，請參閱[設定組織的通訊點數](../set-up-communications-credits-for-your-organization.md)。
   
 ## <a name="related-topics"></a>相關主題
 

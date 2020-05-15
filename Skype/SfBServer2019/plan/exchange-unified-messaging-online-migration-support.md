@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Microsoft 正在撤銷2020年2月28日的 Exchange 整合通訊線上（ExchUMO）服務。 本文摘要說明哪些受影響客戶應知道哪些專案，以及應如何規劃其業務持續性。
-ms.openlocfilehash: a28d8e1d9217773ec28c8f2afdf00cb1e16ae53c
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: cf8b62d4a36059a90631e139910dab3f9f40aa38
+ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042830"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232558"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange 整合通訊線上遷移支援
 
@@ -82,7 +82,7 @@ Microsoft 已識別出使用 ExchUMO 之功能的各種客戶部署，將會根�
     在系統管理員通知中心中查看有關使用者遷移的詳細資料和時程表的通知。 在遷移期間內，至少會傳送30天的通知。 
 
     > [!Note]
-    > 如果您接收到使用者的「遷移」時程表的通知，而且想要推遲您的遷移以滿足業務關鍵型原因，您可以聯繫 Microsoft 支援人員來執行此動作。 請注意，您不能推遲超過退休日的遷移，2020年2月28日。 若客戶可能有其他問題，請與您的帳戶小組或 Microsoft 支援人員聯繫。 已使用 Office 365 的客戶可以透過 Microsoft 365 系統管理中心提交支援案例。 
+    > 如果您接收到使用者的「遷移」時程表的通知，而且想要推遲您的遷移以滿足業務關鍵型原因，您可以聯繫 Microsoft 支援人員來執行此動作。 請注意，您不能推遲超過退休日的遷移，2020年2月28日。 若客戶可能有其他問題，請與您的帳戶小組或 Microsoft 支援人員聯繫。 已使用 Microsoft 365 或 Office 365 的客戶可以透過 Microsoft 365 系統管理中心提交支援案例。 
 
 6. **考慮在規劃的遷移中使用的退出**
 
@@ -104,7 +104,7 @@ Microsoft 已識別出使用 ExchUMO 之功能的各種客戶部署，將會根�
 
 ## <a name="auto-attendant-migration-guidelines"></a>自動語音應答遷移指導方針
 
-Office 365 組織管理員必須在 Microsoft 雲端自動語音應答服務中重新建立 Exchange UM 線上自動語音應答，然後在2月28日2020（即 Exchange UMO 服務即將停用時）上，將其內部部署電話號碼切換至他們。 若要成功遷移和測試新的雲端自動語音應答，建議使用這種指導方針。 如果您有大量的自動語音應答，您可以使用[EXCHANGE UM 自動](https://github.com/NathanJBennett/ExUMAAMigrationToCloudAA)語音應答加入雲端自動語音應答遷移腳本，以簡化自動語音應答的大量遷移。
+Microsoft 365 和 Office 365 組織系統管理員必須在 Microsoft 雲端自動語音應答服務中重新建立 Exchange UM 線上自動語音應答，然後在2月 28 2020 日（即 Exchange UMO service 即將停用時），將其內部部署電話號碼切換至他們。 若要成功遷移和測試新的雲端自動語音應答，建議使用這種指導方針。 如果您有大量的自動語音應答，您可以使用[EXCHANGE UM 自動](https://github.com/NathanJBennett/ExUMAAMigrationToCloudAA)語音應答加入雲端自動語音應答遷移腳本，以簡化自動語音應答的大量遷移。
 
 ### <a name="setup"></a>設定
 

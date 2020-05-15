@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是適用於商務用 Skype 和 Microsoft Teams 且可供臺灣使用的 Office 365 服務。
-ms.openlocfilehash: fe3b9d27a1a04282189b041f78422a482db6d1d8
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
-ms.translationtype: HT
+description: 以下是適用于商務用 Skype 和適用于臺灣的 Microsoft 團隊的 Microsoft 365 和 Office 365 服務。
+ms.openlocfilehash: 62443a3971731c37339a477cb41f3a034dec1be2
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41852324"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230771"
 ---
 # <a name="availability-in-taiwan"></a>台灣適用的功能
 
 [尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入了解音訊會議與通話方案的適用國家/地區。
 
-以下是適用於商務用 Skype 和 Microsoft Teams 且可供臺灣使用的 Office 365 服務。
+以下是適用于商務用 Skype 和適用于臺灣的 Microsoft 團隊的 Microsoft 365 和 Office 365 服務。
   
 ## <a name="audio-conferencing"></a>音訊會議
 
