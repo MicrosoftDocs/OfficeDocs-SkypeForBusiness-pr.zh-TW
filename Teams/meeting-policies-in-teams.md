@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 瞭解如何在團隊中管理會議原則設定，並使用他們來控制會議參與者針對使用者排程會議所提供的功能。
-ms.openlocfilehash: 4a61d2563a63d2dc8d1b55bbf0bbc6c52230d900
-ms.sourcegitcommit: c3f44fccdbd9178d30b52bb0db6f6d31a6dd174b
+ms.openlocfilehash: a2c921da824bdbbcd6b0f6baf49887e55df08ca9
+ms.sourcegitcommit: 296aeac481f901eb9d52b4f12a8c037afc49fa77
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44139207"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44256498"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>在團隊中管理會議原則
 
@@ -37,7 +37,7 @@ ms.locfileid: "44139207"
 
 您可以透過下列方式來實施原則，這會影響使用者在會議開始之前、會議期間或會議之後的會議體驗。
 
-|實現類型  |說明  |
+|實現類型  |描述  |
 |---------|---------|
 |每個召集人    |當您實施每個召集人原則時，所有會議參與者都會繼承召集人的原則。 例如，**自動承認人員**是每個召集人原則，並控制使用者是否要直接加入會議，或在會議廳中等待指派原則的使用者所排程的會議。          |
 |每位使用者    |當您執行每個使用者的原則時，只會套用每個使用者的原則，以限制召集人和/或會議參與者的特定功能。 例如，[**允許在頻道中立即開會**] 是每個使用者的原則。     |
@@ -46,7 +46,7 @@ ms.locfileid: "44139207"
 根據預設，會建立名為 [全域] （組織範圍預設值）的原則。 貴組織中的所有使用者預設都會獲指派 [全域會議原則]。 您可以對其進行變更或建立一或多個自訂原則，並將使用者指派給他們。 除非您建立並指派自訂原則，否則使用者會取得全域原則。 當您建立自訂原則時，您可以允許或防止您的使用者使用某些功能，然後將其指派給將設定套用至其中的一或多個使用者。
 
 > [!NOTE]
-> 如果使用者已啟用音訊會議授權，或使用者允許音訊會議（如果沒有的話），會議詳細資料按鈕就會提供，會議詳細資料將無法使用
+> 如果使用者已啟用音訊會議授權，或使用者允許音訊會議，則 [會議詳細資料] 按鈕就會提供，會議詳細資料將無法使用。
 
 ## <a name="change-or-create-a-meeting-policy"></a>變更或建立會議原則
 
@@ -78,7 +78,7 @@ ms.locfileid: "44139207"
 
 或者，您也可以執行下列動作：
 
-1. 在 Microsoft 團隊系統管理中心的左導覽中，前往 [**會議** > **會議原則**]。
+1. 在 Microsoft 團隊系統管理中心的左導覽中，前往 [**會議**  >  **會議原則**]。
 2. 按一下原則名稱的左側來選取原則。
 3. 選取 [管理使用者]****。
 4. 在 **[管理使用者]** 窗格中，依顯示名稱或使用者名稱搜尋使用者，選取名稱，然後選取 **[新增]**。 針對要新增的每一個使用者重複此步驟。
@@ -327,7 +327,7 @@ Daniela 可以在 Amanda 的會議中記錄筆記，而 Amanda 無法在任何�
 
 ### <a name="let-anonymous-people-start-a-meeting"></a>讓匿名人員開始會議
 
-這是每個召集人原則。 此設定會控制匿名人員（包括 B2B）與同盟使用者，是否可在沒有已驗證的使用者的情況下，從出席中的組織加入使用者的會議。 
+這是每個召集人原則。 此設定會控制匿名人員（包括 B2B）與同盟使用者，是否可在沒有已驗證的使用者的情況下，從出席中的組織加入使用者的會議。 預設值為 False。
 
 ![螢幕擷取畫面顯示等候使用者的訊息](media/meeting-policies-anonymous-user-lobby.png)
 
@@ -365,11 +365,11 @@ Daniela 可以在 Amanda 的會議中記錄筆記，而 Amanda 無法在任何�
 |---------|---------|
 |**任何人**   |所有會議參與者都能直接加入會議，不需要在大廳等候。 這包括經過驗證的使用者、聯盟使用者、來賓、匿名使用者，以及透過電話撥入的人員。       |
 |**貴組織和聯盟組織中的每個人**     |組織內經過驗證的使用者，包括來賓使用者以及來自同盟組織的使用者，直接加入會議，不需在大廳等候。  在大廳由手機撥入的匿名使用者和使用者。   |
-|**貴組織中的每個人**    |從組織內的經過驗證的使用者（包括來賓使用者），直接加入會議，不需在大廳等候。  在大廳以電話撥入的聯盟使用者、匿名使用者和使用者。           |
+|**貴組織中的每個人**    |從組織內的經過驗證的使用者（包括來賓使用者），直接加入會議，不需在大廳等候。  在大廳以電話撥入的聯盟使用者、匿名使用者和使用者。 這是預設設定。           |
 
 ### <a name="allow-dial-in-users-to-bypass-the-lobby"></a>允許撥入使用者略過大廳
 
-這是每個召集人原則。 此設定控制由手機撥入的人員是否直接加入會議，或無論是否已**自動准許 [人員**] 設定，也會在大廳中等待。
+這是每個召集人原則。 此設定控制由手機撥入的人員是否直接加入會議，或無論是否已**自動准許 [人員**] 設定，也會在大廳中等待。 預設值為 False。
 
 以下是透過電話撥入的人員的加入行為。
 
@@ -402,6 +402,16 @@ Daniela 可以在 Amanda 的會議中記錄筆記，而 Amanda 無法在任何�
 
 <a name="bkparticipantsandguests"> </a>
 
+## <a name="meeting-policy-settings---meeting-attendance-report"></a>會議原則設定-會議出席情況報告
+
+這是每個使用者的原則。 此設定控制會議召集人是否可以下載[會議出席情況報告](teams-analytics-and-reports/meeting-attendance-report.md)。
+
+目前您只能使用 PowerShell 來設定此原則設定。 您可以使用[CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) Cmdlet 來編輯現有的團隊會議原則。 或者，您可以使用[新的 CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) Cmdlet 來建立新的團隊會議原則，並將它指派給使用者。
+
+若要讓會議召集人下載會議出席情況報告，請將**AllowEngagementReport**參數設定為 [**已啟用**]。 啟用時，會在**參與者**窗格中顯示下載報告的選項。
+
+若要避免會議召集人下載報表，請將參數設定為 [**已停用**]。 根據預設，此設定會停用，而且無法使用下載報表的選項。
+
 ## <a name="related-topics"></a>相關主題
 
-[小組中的訊息原則](messaging-policies-in-teams.md)
+- [Teams PowerShell 概觀](teams-powershell-overview.md)

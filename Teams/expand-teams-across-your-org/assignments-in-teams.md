@@ -21,12 +21,12 @@ description: 瞭解如何在 [教育版團隊中的 Microsoft 團隊系統管理
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad9e3f8b0f2f3800c7394a9d4dc21fe7a2058426
-ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
+ms.openlocfilehash: 78ce963b8d675aa6d5c851c1081472559d24c3a3
+ms.sourcegitcommit: 296aeac481f901eb9d52b4f12a8c037afc49fa77
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "42327995"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44256448"
 ---
 # <a name="assignments-in-teams-for-education"></a>Teams 教育版中的作業
 
@@ -47,13 +47,15 @@ ms.locfileid: "42327995"
 
 <a name="bkmakecode"> </a>
 ### <a name="makecode"></a>MakeCode
-MakeCode 是一種區塊式編碼平臺，可讓所有學生在生活中都能使用電腦科學。 
+Microsoft MakeCode 是一種區塊式編碼平臺，可讓所有學生都能使用電腦科學。 
 
-這個協力廠商產品或服務受限於自己的條款與隱私權原則。 您負責使用任何協力廠商產品和服務。
+MakeCode 是一種受 Microsoft[使用條款](https://go.microsoft.com/fwlink/?LinkID=206977)與[隱私權](https://go.microsoft.com/fwlink/?LinkId=521839)原則制約的 microsoft 產品。
 
-此設定預設為關閉。
+此設定預設為關閉。 若要在小組中啟用 MakeCode 作業，請在 [**團隊管理中心**] 中，流覽至 [**作業**] 區段，然後將 [MakeCode 切換] 選項關閉為 [**開啟**]。 按一下 [**儲存**]，最多允許24小時讓這些設定生效。
 
-[深入瞭解 MakeCode](https://www.microsoft.com/makecode)
+如需此功能的運作方式的詳細資訊，請參閱此[視頻示範](https://makecode.com/blog/teams/teams-assignments)。
+
+[深入瞭解 MakeCode](https://aka.ms/makecode)
 
 <a name="#turnitin"> </a>
 ### <a name="turnitin"></a>Turnitin

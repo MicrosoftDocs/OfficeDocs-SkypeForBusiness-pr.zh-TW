@@ -16,12 +16,12 @@ f1.keywords:
 description: 針對直接路由設定本機媒體優化
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 518445e10b757adc9a21c426fb885bb04b7a878b
-ms.sourcegitcommit: b143611d14765af054a4f84cca52e2003d35af1a
+ms.openlocfilehash: c3da3cf243b24d0f614c05e9d09eb68796a68545
+ms.sourcegitcommit: 296aeac481f901eb9d52b4f12a8c037afc49fa77
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44047852"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44256488"
 ---
 # <a name="configure-local-media-optimization-for-direct-routing"></a>針對直接路由設定本機媒體優化
 
@@ -52,7 +52,7 @@ ms.locfileid: "44047852"
 
 ## <a name="configure-sbcs-for-local-media-optimization-according-to-the-sbc-vendor-specification"></a>根據 SBC 廠商的規格，設定用於本機媒體優化的 SBC （s）
 
-本文將說明 Microsoft 元件的配置。 如需 SBC 設定的相關資訊，請參閱 SBC 供應商 documenation。
+本文將說明 Microsoft 元件的配置。 如需 SBC 設定的相關資訊，請參閱您的 SBC 供應商檔。
 
 下列 SBC 廠商支援本機媒體優化：
 
@@ -108,7 +108,7 @@ New-CsTenantTrustedIPAddress -IPAddress 172.16.240.130 -MaskBits 32 -Description
 
 ### <a name="define-network-regions"></a>定義網路區域
 
-若要定義網路區域，請使用 CsTenantNetworkRegion Cmdlet。 RegionID 參數是代表區域地理位置的邏輯名稱，沒有相依性或限制。 CentralSite <site ID>參數是選擇性的。
+若要定義網路區域，請使用 CsTenantNetworkRegion Cmdlet。 RegionID 參數是代表區域地理位置的邏輯名稱，沒有相依性或限制。 CentralSite <site ID> 參數是選擇性的。
 
 ```
 New-CsTenantNetworkRegion -NetworkRegionID <region ID>  
@@ -228,7 +228,7 @@ Set-CSOnlinePSTNGateway -Identity “IDsbc.contoso.com” -GatewaySiteID “Indo
 
 | 使用者物理位置| 使用者撥打或接聽電話號碼 | 使用者電話號碼  | 線上語音路由策略 | 針對 SBC 設定的模式 |
 |:------------|:-------|:-------|:-------|:-------|
-| 越南 | + 84 4 3926 3000 | + 84 4 5555 5555   | 優先順序1： ^\+84 （\d{9}） $-VNsbc.contoso.com <br> 優先順序2：. *-proxysbc.contoso.com   | VNsbc.contoso.com –總是略過 <br> proxysbc.contoso.com –總是略過
+| 越南 | + 84 4 3926 3000 | + 84 4 5555 5555   | 優先順序1： ^ \+ 84 （\d {9} ） $-VNsbc.contoso.com <br> 優先順序2：. *-proxysbc.contoso.com   | VNsbc.contoso.com –總是略過 <br> proxysbc.contoso.com –總是略過
 
 
 下圖顯示使用 [永遠繞過] 模式進行出站通話的 SIP 階梯，以及使用者與 SBC 位於相同位置的情況。
@@ -239,7 +239,7 @@ Set-CSOnlinePSTNGateway -Identity “IDsbc.contoso.com” -GatewaySiteID “Indo
 
 | 參數 | 簡要 |
 |:------------|:-------|
-| 邀請 + 8443926300@VNsbc.contoso.com | 在線上語音路由策略中定義的 SBC 目標名稱會在要求 URI 中傳送 | 
+| 邀請 + 8443926300@VNsbc.contoso.com | 在線上語音路由策略中定義之 SBC 的目標 FQDN 是在要求 URI 中傳送 | 
 | X-MS-UserLocation：內部 | 指出使用者位於公司網路內部的欄位 |
 | X-MS-MediaPath： VNsbc.contoso.com |   指定用戶端必須向目標 SBC 遍歷哪個 SBC。 在這種情況下，我們一直都略過，而用戶端則是以標題中的唯一名稱傳送的目標名稱。 | 
 |X-MS-UserSite：越南 |   在使用者所在的網站中指示的欄位。 |
@@ -277,7 +277,7 @@ AlwaysBypass |  外來 |  不適用 | 發 |
 
 | 參數 |   簡要 |
 |:------------|:-------|
-|邀請 + 8443926300@VNsbc.contoso.com | 在線上語音路由策略中定義的 SBC 目標名稱會在要求 URI 中傳送。|
+|邀請 + 8443926300@VNsbc.contoso.com | 在線上語音路由策略中定義之 SBC 的目標 FQDN 會在要求 URI 中傳送。|
 | X-MS-UserLocation：外部 | 指出使用者位於公司網路以外的欄位。 |
 | X-MS-MediaPath： proxysbc.contoso.com，VNsbc.contoso.com    | 指定用戶端必須向目標 SBC 遍歷哪個 SBC。 在這種情況下，我們一直都略過，而用戶端則是外部的。 |
 
@@ -309,7 +309,7 @@ AlwaysBypass |  外來 |  不適用 |   進貨 |
 
 | 使用者物理位置 |  使用者撥打或接聽電話號碼 |  使用者電話號碼 | 線上語音路由策略 |   針對 SBC 設定的模式 |
 |:------------|:-------|:-------|:-------|:-------|
-| 越南 | + 84 4 3926 3000 |  + 84 4 5555 5555 | 優先順序1： ^\+84 （\d{9}） $-VNsbc.contoso.com <br> 優先順序2：. *-proxysbc.contoso.com | VNsbc.contoso.com – OnlyForLocalUsers Proxysbc.contoso.com-Always 旁路 |
+| 越南 | + 84 4 3926 3000 |  + 84 4 5555 5555 | 優先順序1： ^ \+ 84 （\d {9} ） $-VNsbc.contoso.com <br> 優先順序2：. *-proxysbc.contoso.com | VNsbc.contoso.com – OnlyForLocalUsers Proxysbc.contoso.com-Always 旁路 |
 
 #### <a name="outbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-only-for-local-users"></a>呼出通話，且使用者與 SBC 在相同的位置，且僅適用于本機使用者
 

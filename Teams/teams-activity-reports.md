@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 01f9ecbbce3146a2b5d36a70b485a2106f12ab6e
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: f1eb02b7755ecfaa78b3b5ad511f45052a7807b5
+ms.sourcegitcommit: 296aeac481f901eb9d52b4f12a8c037afc49fa77
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902348"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44256388"
 ---
 <a name="use-activity-reports-for-microsoft-teams"></a>使用 Microsoft 團隊的活動報告 
 ========================================
@@ -32,7 +32,7 @@ ms.locfileid: "43902348"
 
 ## <a name="how-to-view-the-teams-reports-in-the-reports-dashboard"></a>如何在 [報表] 儀表板中查看團隊報表
 
-1. 在[Microsoft 365 系統管理中心](https://portal.office.com/adminportal/home)中，選取 [**報告** > **使用方式**]。
+1. 在[Microsoft 365 系統管理中心](https://portal.office.com/adminportal/home)中，選取 [**報告**  >  **使用方式**]。
  
 2. 在 [**使用狀況**] 頁面上，選擇 [**選取報告**]，然後在 [ **Microsoft 團隊**] 清單中，選擇您要查看的報告。
 
@@ -55,7 +55,7 @@ ms.locfileid: "43902348"
 
 ![含編號標注的使用者活動報告螢幕擷取畫面。](media/teams-user-activity-report-with-callouts.png)
 
-|圖說文字 |說明  |
+|圖說文字 |描述  |
 |--------|-------------|
 |**1**   |您可以在過去7天、30天、90天或180天的趨勢中查看團隊使用者活動報告。 不過，如果您在報表中按一下某個特定的時間範圍，該表（7）會顯示30天內的資料，最多為產生報告的日期（2）。 |
 |**2**   |每個報告都有產生此報告的日期。 報告通常會反映來自啟用時間的24到48小時延遲時間。 |
@@ -79,7 +79,7 @@ ms.locfileid: "43902348"
 
 ![小組裝置使用方式報告的螢幕擷取畫面，編號標注。](media/teams-device-usage-report-with-callouts.png)
 
-|圖說文字 |說明  |
+|圖說文字 |描述  |
 |--------|-------------|
 |**1**   |您可以針對過去7天、30天、90天或180天的趨勢，查看團隊裝置報告。 不過，如果您在報表中按一下某個特定的時間範圍，該表（7）會顯示30天內的資料，最多為產生報告的日期（2）。 |
 |**2**   |每個報告都有產生此報告的日期。 報告通常會反映來自啟用時間的24到48小時延遲時間。 |
@@ -101,7 +101,7 @@ ms.locfileid: "43902348"
 
 ### <a name="reports-reader-role"></a>報告閱讀者角色
 
-您可以將*報告閱讀*者角色指派給您想要存取這些報告的非 IT 員工。 您可以將此角色指派給訓練主管或商務專案關係人，以確保他們有權存取可促進團隊採納的深入見解。
+您可以將*報告閱讀*者角色指派給您想要存取這些報告的非 IT 員工。 您可以將此角色指派給訓練主管或商務專案關係人，以確保他們有權存取可促進團隊採納的深入見解。 若要瞭解如何指派角色，請參閱[將系統管理員和管理員角色指派給使用 Azure Active Directory 的使用者](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal)。
 
 ## <a name="other-information-on-the-reports-dashboard"></a>[報表] 儀表板上的其他資訊
 

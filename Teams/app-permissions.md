@@ -19,12 +19,12 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0ed1e7d4f90fa1be96ac48f376c3cb1b939a39c4
-ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
+ms.openlocfilehash: f19cbbba6df7c43c69af35893466344e8df1d17d
+ms.sourcegitcommit: 296aeac481f901eb9d52b4f12a8c037afc49fa77
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "43997184"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44256478"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Microsoft 團隊 app 許可權和考慮
 
@@ -57,7 +57,11 @@ Microsoft 團隊 app 是一種將一或多項功能匯總成_應用程式套件_
 
 ### <a name="considerations"></a>考量
 
-應用程式必須披露它所使用的資料，以及資料在其使用條款和隱私權原則連結中的用途。</td>
+- 應用程式必須披露它所使用的資料，以及資料在其使用條款和隱私權原則連結中的用途。
+
+- [資源特定的同意](resource-specific-consent.md)提供應用程式可要求的一組許可權，該許可權會出現在 app 的安裝畫面上。 若要深入瞭解資源特定的同意許可權，請參閱[圖表許可權參考](https://docs.microsoft.com/graph/permissions-reference)。
+
+- App 也可能需要除資源特定的同意許可權之外的許可權。 安裝應用程式後，應用程式可能會透過同意提示要求圖表許可權。 若要深入瞭解，請參閱[瞭解 AZURE AD 應用程式同意體驗](https://docs.microsoft.com/azure/active-directory/develop/application-consent-experience)。 您可以在 Azure 入口網站中設定 API 許可權和同意。 若要深入瞭解，請參閱[Azure Active Directory 同意架構](https://docs.microsoft.com/azure/active-directory/develop/consent-framework)。
 
 ## <a name="bots-and-messaging-extensions"></a>Bot 和訊息擴充功能
 
@@ -95,7 +99,7 @@ Microsoft 團隊 app 是一種將一或多項功能匯總成_應用程式套件_
 
 - 在理論上，bot 郵件可能會包含網路釣魚或惡意程式碼網站的連結，但使用者、租使用者管理員或由 Microsoft 全域封鎖機器人。
 
-- Bot 可以針對應用程式新增至的小組成員，或針對個人或群組聊天中的個別使用者，取得（且可能會儲存）基本身分識別資訊。 若要取得這些使用者的進一步資訊，bot 必須要求他們登入 Azure Active Directory （Azure AD）
+- Bot 可以針對應用程式新增至的小組成員，或針對個人或群組聊天中的個別使用者，取得（且可能會儲存）基本身分識別資訊。 若要取得這些使用者的進一步資訊，bot 必須要求他們登入 Azure Active Directory （Azure AD）。
 
 - Bot 可以在小組中檢索（且可能會儲存）頻道清單;這個資料離開了公司網路。
 
