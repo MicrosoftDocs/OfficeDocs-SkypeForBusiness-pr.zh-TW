@@ -18,12 +18,12 @@ description: 在本文中，您將了解在 Microsoft Teams 中設定即時活�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 51c81bb5c9ec945d7a7c47021a6a0af705c98883
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: e997b667b02ef2c3b68e5c751b619098e9e740e4
+ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042850"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44224236"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中規劃即時活動
 
@@ -35,14 +35,16 @@ ms.locfileid: "44042850"
 
 使用者需要具備下列必要條件，才能排定 Teams 即時活動。
 
-以下是必須指派的授權：  
+若要產生或出席 Teams 即時活動，您必須獲派以下授權：  
 
-- Office 365 企業版 E1、E3 或 E5 授權，或 Office 365 A3 或 A5 授權
-- Microsoft Teams 授權
-- Microsoft Stream 授權
+- Microsoft 或 Office 365 企業版 E1、E3 或 E5 授權，或 Office 365 教育版 A3 或 A5 授權。
+- Microsoft Teams 授權。 - 此授權會包含在上述授權內。 
+- Microsoft Stream 授權 - 如果您打算將內容共用給外部應用程式或裝置，就必須有此授權；請參閱 [Microsoft Stream 授權](https://docs.microsoft.com/stream/license-overview)。 
 
-> [!IMPORTANT]
-> 建立和排程即時活動的使用者必須擁有 Exchange Online 信箱。
+  如果您只想讓使用者錄影及下載錄製內容，則使用者不必獲派 Microsoft Stream 授權。 這表示錄製內容不會儲存在 Microsoft Stream 中，而是會儲存在 Azure 媒體服務 (AMS) 中，並有會在 30 天後遭到刪除的時間限制。 目前系統管理員並無法控制或管理此機制，包括加以刪除的能力。
+
+> [!NOTE]
+> 目前，沒有任何 Microsoft 365 小型企業方案可供用來建立及保留 Teams 即時活動。
 
 請務必知道，若要以已驗證的使用者身分參與即時活動，必須要具備 Office 365 授權，但這項需求視使用的生產方法而定：
 
@@ -81,6 +83,14 @@ ms.locfileid: "44042850"
 ## <a name="teams-live-events-and-skype-meeting-broadcast"></a>Teams 即時活動和 Skype 會議廣播
 
 下表醒目提示即時活動中提供的核心功能和功能，以及它們與 Skype 會議廣播有何差異。
+
+> [!IMPORTANT]
+> **Microsoft 365 的即時活動限制增加**
+> 
+> 為了協助客戶滿足迅速變化的通訊需求，Microsoft 365 即時活動將針對於 Teams 中進行的即時活動暫時提高預設限制，直到 2020 年 7 月 1 日止。 以下限制將於 2020 年 4 月底推出：
+> - 出席者限制：活動最多可支援 20,000 位出席者
+> - 同時活動：不同租用戶可以同時進行 50 個活動
+> - 活動持續時間：每個廣播的活動長度已增加為 16 小時
 
 |**功能**   |**Skype 會議廣播** |**Teams 中產生的活動** |**在外部應用程式或裝置中生產的活動** |
 |---------|---------|---------|---------|
@@ -123,17 +133,29 @@ ms.locfileid: "44042850"
 
 **可在這些地區資料中心使用**
 
-- 美洲地區
+- 北美
+- 中美洲
+- 南美洲
 - 亞太地區
 - 歐洲/非洲
 
-**這些國家/地區的資料位置**
-
+**這些國家/地區的資料位置 (支援)**
 - 澳洲
 - 加拿大
 - 印度
 - 日本
 - 英國
+
+**不支援這些國家/地區和雲端**
+- 德國
+- 法國
+- 挪威
+- 南非
+- 南韓
+- 瑞士
+- 阿拉伯聯合大公國
+- 政府社群雲端 (GCC)-H
+- 美國國防部
 
 **排除和考量**
 
