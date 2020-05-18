@@ -11,13 +11,13 @@
 
 ## [Microsoft 電話語音解決方案](../../sfbhybrid/hybrid/msft-telephony-solutions.md)
 
-### [規劃含內部部署 PSTN 連線功能的電話系統](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md)
+### [在商務用 Skype Server 中規劃含有內部部署 PSTN 連線功能的電話系統](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md)
 
 ### [為使用者啟用商務用 Skype Server 含內部部署 PSTN 連線功能的電話系統](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system.md)
 
 #### [為使用者啟用內部部署企業語音](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises.md)
 #### [指派語音路由原則](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/assign-a-voice-routing-policy.md)
-#### [為使用者啟用 Office 365 語音信箱中的企業語音線上版和電話系統](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-enterprise-voice-online-and-phone-system-voicemail.md)
+#### [為使用者啟用企業語音線上版和電話系統語音信箱](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-enterprise-voice-online-and-phone-system-voicemail.md)
 
 
 ### [規劃商務用 Skype Cloud Connector Edition](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition.md)

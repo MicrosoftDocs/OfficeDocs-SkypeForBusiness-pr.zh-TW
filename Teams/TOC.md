@@ -34,6 +34,7 @@
 ## [在 Teams 中指派團隊擁有者和成員](assign-roles-permissions.md)
 ## [團隊的動態成員資格概觀](dynamic-memberships.md)
 ## [在 Teams 中組織團隊的最佳做法](best-practices-organizing.md)
+## [管理大型 Teams](best-practices-large-groups.md)
 ## [在 Teams 中建立全組織團隊](create-an-org-wide-team.md)
 ## [建立人員管理團隊](create-manager-directs-teams.md)
 ## [管理團隊和頻道原則](teams-policies.md)
@@ -690,7 +691,7 @@
 #### [使用 Power BI 分析 CQD 資料](CQD-Power-BI-query-templates.md)
 #### [安裝 Power BI 連接器以使用 CQD 查詢範本](CQD-Power-BI-connector.md)
 #### [取得 Teams 使用狀況的 CQD 資料](CQD-teams-utilization-report.md)
-#### [使用 CQD PSTN 報告](CQD-PSTN-report.md)
+#### [使用 CQD PSTN 直接路由報告](CQD-PSTN-report.md)
 ### [通話品質儀表板中提供的維度和量值](dimensions-and-measures-available-in-call-quality-dashboard.md)
 ### [通話品質儀表板中的資料流分類](stream-classification-in-call-quality-dashboard.md)
 ## [安裝和更新問題疑難排解](troubleshoot-installation.md)
@@ -775,6 +776,7 @@
 ## [在 Teams 中取得說明](get-help-in-microsoft-teams.md)
 ## [Teams 內容更新](teams-updates.md)
 
+## [如何查閱您的支援 PIN](support-pin.md)
 
 ## 音訊會議與通話方案的適用國家/地區
 ### [概觀](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
