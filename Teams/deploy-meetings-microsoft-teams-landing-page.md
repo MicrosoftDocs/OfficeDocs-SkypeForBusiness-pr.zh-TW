@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a9cd648d3daf9651c2fc3ff4cec70525c9af24df
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: a1ffc082e2990b97781100de2cbffd6d094cc5c9
+ms.sourcegitcommit: 3ed779277540589eabef745685ab6c67d8a8ff90
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43901898"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44281678"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Microsoft Teams 中的會議和召集會議
 
@@ -111,7 +111,7 @@ Teams 提供了一組自訂管理員角色，可用來為組織管理 Teams。 �
 
 | 問問自己 | 動作 |
 |--------------|--------|
-|我要為使用者購買個人裝置嗎？ |請閱讀[在 Teams 中管理裝置](device-management.md)。 |
+|我要為使用者購買個人裝置嗎？ |請閱讀[在 Teams 中管理裝置](devices/device-management.md)。 |
 |我要為會議室購買並部署會議室系統裝置嗎？|請閱讀[會議室裝置和解決方案](https://docs.microsoft.com/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)。|
 |||
 
