@@ -60,6 +60,7 @@
 ### [在 Teams 中的應用程式系統管理設定](admin-settings.md)
 ### [使用內建和自訂索引標籤](built-in-custom-tabs.md)
 ### [使用 Microsoft 365 或 Office 365 和自訂連接器](Office-365-custom-connectors.md)
+### [特定於資源的同意](resource-specific-consent.md)
 ### [管理您的自訂應用程式](manage-your-custom-apps.md)
 ### [應用程式認證](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Teams 的應用程式範本](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -138,6 +139,7 @@
 ## [Teams 雲端會議錄製](cloud-recording.md)
 ## [在 Outlook 中使用 Teams 會議增益集](teams-add-in-for-outlook.md)
 ## [為您的使用者設定語音來電功能](set-up-the-call-me-feature-for-your-users.md)
+## [取得會議出席報告](teams-analytics-and-reports/meeting-attendance-report.md)
 ## [設定會議移轉服務 (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Microsoft Teams 會議室](rooms/index.md)
 ## [管理 Teams 中的白板](manage-whiteboard.md)
@@ -244,7 +246,7 @@
 #### [設定雲端自動語音應答](create-a-phone-system-auto-attendant.md)
 #### [小型企業範例 - 設定自動語音應答](tutorial-org-aa.yml)
 #### [小型企業範例 - 設定通話佇列](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-#### [在 Microsoft Teams 中管理資源帳戶](manage-resource-accounts.md)
+#### [管理 Teams 資源帳戶](manage-resource-accounts.md)
 #### [建立雲端通話佇列](create-a-phone-system-call-queue.md)
 #### [直接從 Teams 回答自動語音應答和通話佇列的通話](answer-auto-attendant-and-call-queue-calls.md)
 
@@ -751,6 +753,7 @@
 ## Microsoft 365 和 Office 365 的互通性
 
 ### [Microsoft 365 群組與 Teams](office-365-groups.md)
+### [使用 Microsoft 365 系統管理中心建立 Microsoft 365 資源帳戶](devices/resource-account-ui.md)
 ### [使用 Teams 加強現有的 Microsoft 365 群組](enhance-office-365-groups.md)
 ### [Exchange 和 Teams 如何互動](exchange-teams-interact.md)
 #### [設定 Exchange 混合式組織以搭配 Teams 使用](exchange-hybrid-organization.md)
@@ -762,6 +765,7 @@
 ## 支援的裝置
 ### [在 Teams 中管理裝置](device-management.md)
 ### [Teams 的電話](phones-for-teams.md)
+### [為 Microsoft Teams 部署共同作業列](devices/collab-bar-deploy.md)
 ### [USB 音訊和視訊裝置](/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [會議室裝置和解決方案](/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [通過 Microsoft Teams 認證的 IP 電話](teams-ip-phones.md)
