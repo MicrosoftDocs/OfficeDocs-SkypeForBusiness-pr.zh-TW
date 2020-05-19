@@ -20,12 +20,12 @@ search.appverid: MET150
 description: 深入瞭解雲端語音功能，並瞭解您將面臨的必要部署決定。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 20a46a82c336396ccb71587db71515b699a9056e
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 952eb7064844cf0e77e829cd2506c4303504074c
+ms.sourcegitcommit: 3ed779277540589eabef745685ab6c67d8a8ff90
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905905"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44281668"
 ---
 # <a name="cloud-voice-in-microsoft-teams"></a>Microsoft 團隊中的雲端語音
 
@@ -151,7 +151,7 @@ Office 365 的 [電話系統] 功能中的撥號方案是一組正常化規則�
 
 如需支援的裝置的詳細資訊，請參閱下列內容：
 
-- [在 Microsoft 團隊中管理您的裝置](device-management.md)
+- [在 Microsoft 團隊中管理您的裝置](devices/device-management.md)
 - [IP 電話](https://docs.microsoft.com/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 - [USB 音訊和視訊裝置](https://docs.microsoft.com/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 - [裝置的智慧通訊](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)
