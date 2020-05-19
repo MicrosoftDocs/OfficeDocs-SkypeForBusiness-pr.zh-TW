@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 瞭解使用者建立的不同組合，以及支援或不受支援的組合。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a235b5c27919c0015849140a3e772f4a189a17d8
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 635ab29498ee01c976b33dc62a193bb723ba190e
+ms.sourcegitcommit: ebdad71a8d393466e33a2fdc8606d882a6007588
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779992"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "44280252"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>含有 PSTN 連線功能的混合式環境中的使用者帳戶
 
@@ -65,7 +65,7 @@ ms.locfileid: "43779992"
 |**不支援的組合**    | |         |         |      |
 |Azure AD| 內部部署/線上 | 商務用 Skype/Microsoft 團隊|企業語音/混合式語音連接/直接路由  |否，您必須先在內部部署 AD 中建立使用者物件 |
 |內部部署廣告  |內部部署| Microsoft Teams| 企業語音/混合式語音連接/直接路由   |否，內部部署商務用 Skype 不支援 Microsoft 團隊用戶端 |     
-|內部部署廣告  |Online |商務用 Skype  | 直接路由  |否，商務用 Skype 用戶端不支援直接傳送，且在商務用 Skype 中必須啟用使用者的企業語音功能  |
+|內部部署廣告  |Online |商務用 Skype  | 直接路由  |否，商務用 Skype 用戶端不支援直接傳送  |
 
 
 ### <a name="supportability-statement-for-the-hybrid-environment-with-pstn"></a>包含 PSTN 之混合式環境的可支援性聲明

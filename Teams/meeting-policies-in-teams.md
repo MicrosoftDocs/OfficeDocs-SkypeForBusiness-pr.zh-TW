@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 瞭解如何在團隊中管理會議原則設定，並使用他們來控制會議參與者針對使用者排程會議所提供的功能。
-ms.openlocfilehash: a2c921da824bdbbcd6b0f6baf49887e55df08ca9
-ms.sourcegitcommit: 296aeac481f901eb9d52b4f12a8c037afc49fa77
+ms.openlocfilehash: 2b7579b9dfe1d70c0a570d6ca519491a263e9f09
+ms.sourcegitcommit: 5a88788bd0a0b2ccbc5b977b38dcfe4681cd5d10
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44256498"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "44278196"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>在團隊中管理會議原則
 
@@ -401,6 +401,23 @@ Daniela 可以在 Amanda 的會議中記錄筆記，而 Amanda 無法在任何�
 這是每個召集人原則。 此設定控制是否允許在使用者的會議中使用會議聊天。
 
 <a name="bkparticipantsandguests"> </a>
+
+## <a name="meeting-policy-settings---designated-presenter-role-mode"></a>會議原則設定-指定的簡報者角色模式
+
+這是每個使用者的原則。 這項設定可讓您變更小組用戶端的 [**會議選項**] 中的 [**可以出示的人員**] 設定的預設值。 此原則設定會影響所有會議，包括 [立即開會] 會議。
+
+[**可以出席的人員**] 設定可讓會議召集人選擇要在會議中成為簡報者的人員。 若要深入瞭解，請參閱[在團隊會議中](https://support.microsoft.com/article/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019)[變更團隊會議](https://support.microsoft.com/article/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e)與角色的參與者設定。
+
+目前您只能使用 PowerShell 來設定此原則設定。 您可以使用[CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) Cmdlet 來編輯現有的團隊會議原則。 或者，您可以使用[新的 CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) Cmdlet 來建立新的團隊會議原則，並將它指派給使用者。
+
+若要指定 [**可以提出的人員**] 的預設值，請將**DesignatedPresenterRoleMode**參數設定為下列其中一項：
+
+- **EveryoneUserOverride**：所有會議參與者都可以是簡報者。 此為預設值。 這個參數會對應到 [小組] 中的 [**所有人**] 設定。
+- **EveryoneInCompanyUserOverride**：組織中經過驗證的使用者，包括來賓使用者，都可以是簡報者。 這個參數會對應到 [**我的組織**中的人員] 設定。
+- **EveryoneInSameAndFederatedCompanyUserOverride**：組織中經過驗證的使用者，包括來賓使用者和聯盟組織的使用者，都可以是簡報者。 這個參數會對應到 [**我的組織中的人員] 和**[小組中受信任的組織] 設定。
+- **OrganizerOnlyUserOverride**：只有會議召集人可以成為簡報者，且所有會議參與者都指定為出席者。 這個參數會對應到 [團隊] 中的 [**僅自己**] 設定。
+
+請記住，在您設定預設值之後，會議召集人仍可在團隊中變更此設定，並選擇誰可以在排程的會議中出席。
 
 ## <a name="meeting-policy-settings---meeting-attendance-report"></a>會議原則設定-會議出席情況報告
 

@@ -20,12 +20,12 @@ ms.custom:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何使用及管理 Microsoft 團隊中的原則套件，以簡化、簡化及協助在管理使用者群組原則時提供一致性。
-ms.openlocfilehash: b900e7ad8e41b8ebad0ff2af774e36478c956f59
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.openlocfilehash: 742269fd85cb912e52d727a03a6123acd0b87a72
+ms.sourcegitcommit: 5a88788bd0a0b2ccbc5b977b38dcfe4681cd5d10
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44243574"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "44281501"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>管理 Microsoft 團隊中的原則套件
 
@@ -51,7 +51,7 @@ Microsoft 團隊中的原則套件是預先定義的原則與原則設定的集�
 |教育版（使用遠端學習的主要學校學生）（預覽版本）    |建立一組原則，以套用到主要學生，在使用遠端教學時最大化學生的安全性與共同作業。      |
 |醫療保健臨床工人  |建立一組原則與原則設定，提供臨床工人（例如註冊的護士、充電護士、醫生和社會員工）完整存取聊天、通話、值班管理和會議。 |
 |醫療保健資訊工作者  |建立一組原則與原則設定，以提供資訊工作者，例如 IT 人員、informatics 員工、財務人員及合規性監察官，完整存取聊天、通話及會議。|
-|醫療保健患者房（預覽版）  |建立一組原則與原則設定，適用于您的保健組織中的患者會議室。|
+|醫療保健患者機房  |建立一組原則與原則設定，適用于您的保健組織中的患者會議室。|
 |中小型企業使用者（商務語音） |建立應用程式設定原則，其中包含商務語音體驗的 app。|
 |中小型企業使用者（無需商務用語音） |建立一組原則與原則設定，適用于不含任何商務語音功能的中小型企業使用者。|
 |公開安全官員   |建立一組原則與原則設定，適用于貴組織中的公用安全主管。|

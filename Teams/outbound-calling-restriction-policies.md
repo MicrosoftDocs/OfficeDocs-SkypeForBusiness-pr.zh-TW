@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 系統管理員可以控制使用者可以發出的音訊會議和使用者 PSTN 呼叫類型。
-ms.openlocfilehash: 253553e884b3f4591a7c5340132337d295cefe09
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 84acbed4017a709b63e657f12ef0bbe3c1eb620c
+ms.sourcegitcommit: 5a88788bd0a0b2ccbc5b977b38dcfe4681cd5d10
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137903"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "44278176"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>音訊會議和使用者 PSTN 通話的撥出通話限制原則
 
@@ -36,11 +36,13 @@ ms.locfileid: "43137903"
 
 |控制權|描述|控制選項|
 |:-----|:-----|:-----|
-|音訊會議 PSTN 通話|限制輸出類型 </br>內部允許的通話 </br>由使用者組織的會議。|國際和國內（預設）</br>家用</br>無|
+|音訊會議 PSTN 通話|限制輸出類型 </br>內部允許的通話 </br>由使用者組織的會議。|任何目的地（預設）</br>在與 organizor 相同的國家或地區 </br> </br>僅限區域中的國家或地區 </br>不允許|
 |最終使用者 PSTN 通話|限制通話類型 </br>使用者可以進行的工作。|國際和國內（預設）</br>家用</br>無|
 
+若要找出哪些國家/地區被視為區域 A，請參閱[區域國家/地區](https://docs.microsoft.com/microsoftteams/calling-plans-for-office-365)。
+
    > [!NOTE]
-   > 如果撥打的電話號碼位於與會議召集人（在音訊會議中）設定的 Office 365，或使用者（在使用者 PSTN 呼叫的情況下），則會被視為國內通話。 
+   > 如果撥打的電話號碼是與會議召集人（在音訊會議的情況下）或使用者（在使用者 PSTN 呼叫中），則會將呼叫視為國內的通話（如果是使用中的 365 Office）。 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -61,7 +63,7 @@ ms.locfileid: "43137903"
 
 ![商務用 Skype 標誌圖示](media/sfb-logo-30x30.png) **使用商務用 Skype 系統管理中心**
 
-1.    在**商務用 Skype 系統管理中心**的左導覽中，前往 [**音訊會議** > **使用者**]，然後從可用使用者清單中選取使用者。
+1.    在**商務用 Skype 系統管理中心**的左導覽中，前往 [**音訊會議**  >  **使用者**]，然後從可用使用者清單中選取使用者。
 
 2.    在 [動作] 窗格中，按一下 [**編輯**]。
 
@@ -93,3 +95,6 @@ ms.locfileid: "43137903"
 |    身分識別 = "tag： DialoutCPCDomesticPSTNDisabled"    |    會議中的使用者只能撥出至國內號碼，而這個使用者就無法撥打緊急電話號碼以外的 PSTN 號碼。    |
 |    身分識別 = "tag： DialoutCPCDisabledPSTNDomestic"    |    會議中的使用者無法進行撥出，而且這個使用者只能撥打外線電話給國內 PSTN 號碼。    |
 |    身分識別 = "tag： DialoutCPCandPSTNDisabled"    |    會議中的使用者無法撥出任何電話，而且除了緊急數位以外，此使用者無法進行任何出站呼叫 PSTN 號碼。    |
+|    身分識別 = "tag： DialoutCPCZoneAPSTNInternational"    |    會議中的使用者只能撥出以對國家和地區進行分區，而且這個使用者可以撥出電話給國際和國內號碼。    |
+|    身分識別 = "tag： DialoutCPCZoneAPSTNDomestic"    |    會議中的使用者只能撥出以對國家和地區進行分區，而且這個使用者只能撥打出站通話至國內 PSTN 號碼。    |
+|    身分識別 = "tag： DialoutCPCZoneAPSTNDisabled"    |    會議中的使用者只能撥出以對國家和地區進行分區，而這個使用者就無法撥打緊急電話號碼以外的 PSTN 號碼。    |

@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c341b808890ecc1d3b237ae70190aad9d1de8ea
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 9c3d5f4eb0cd63dd252d5fcc01bff21f8643a788
+ms.sourcegitcommit: ebdad71a8d393466e33a2fdc8606d882a6007588
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836543"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "44280272"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>規劃直接路由的依位置路由
 
@@ -133,7 +133,7 @@ ms.locfileid: "41836543"
 
 #### <a name="user-not-enabled-for-location-based-routing"></a>使用者未啟用位置路由
 
-未啟用位置路由的使用者可以將 PSTN 來電轉接或轉寄到其他未啟用位置路由的使用者。 使用者通常不能將 PSTN 來電轉接或轉寄到已啟用位置式路由的使用者，因為以位置為基礎的路由使用者通常只允許在以位置為基礎的路由功能的 PSTN 上共同定位撥. 例外狀況是當啟用位置路由的使用者漫遊至尚未啟用位置路由的網站時。 在這種情況下，允許轉接的通話。  
+未啟用位置路由的使用者可以將 PSTN 來電轉接或轉寄到其他未啟用位置路由的使用者。 使用者通常不能將 PSTN 來電轉接或轉寄給啟用位置式路由的使用者，因為以位置為基礎的路由使用者通常只能在以位置為基礎的路由的 PSTN 呼叫閘道上共同使用。 例外狀況是當啟用位置路由的使用者漫遊至尚未啟用位置路由的網站時。 在這種情況下，允許轉接的通話。  
 
 同樣地，沒有啟用位置路由的使用者，只能從另一個尚未啟用位置路由的使用者接收轉接或轉寄的 PSTN 通話。 
 
@@ -249,6 +249,10 @@ ms.locfileid: "41836543"
 ### <a name="location-based-routing-for-conferencing"></a>以位置為基礎的會議路由
 
 在 PSTN 通話中啟用位置路由的使用者，不允許以其他使用者或 PSTN 號碼開始會議。 允許連線到自動語音應答或通話佇列。 如果使用者有會議授權，使用者必須啟動一則與相關使用者的會議，並透過會議橋打電話給 PSTN，以開始電話會議。  
+
+### <a name="media-bypass-requirement-for-location-based-routing"></a>針對位置路由的媒體旁路需求
+
+如果您是在印度部署以位置為基礎的路由，也就是設定媒體旁路的需求。 若要深入瞭解，請參閱[使用直接路由規劃媒體旁路](direct-routing-plan-media-bypass.md)。
 
 ## <a name="next-steps"></a>後續步驟
 
