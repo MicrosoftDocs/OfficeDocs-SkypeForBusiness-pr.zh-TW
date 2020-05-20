@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4d9e288037b82b3d5b0cccab133debdfa2d7d66b
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: a836ac2e2c5e461e8c2feacda4bfd3b569593a6a
+ms.sourcegitcommit: 1a6b4efad1e6a958cdbaae4b0e2e231145c9658f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042210"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44321612"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>在 Outlook 中使用 Teams 會議增益集
 =======================================
@@ -32,7 +32,7 @@ Teams 會議增益集可讓使用者從 Outlook 安排 Teams 會議。 您可以
 
 ## <a name="teams-meeting-add-in-in-outlook-for-windows"></a>在 Windows 版 Outlook 中使用 Teams 會議增益集
 
-如果使用者在 Windows 電腦上安裝了 Microsoft Teams 及 Office 2010、Office 2013 或 Office 2016，則系統就會自動為他們安裝 Teams 會議增益集。 使用者會在 Outlook 行事曆功能區上看到 Teams 會議增益集。
+[團隊會議] 增益集會自動安裝在 Windows 電腦上安裝 Microsoft 團隊以及 Office 2013、Office 2016 或 Office 2019 的使用者。 使用者會在 Outlook 行事曆功能區上看到 Teams 會議增益集。
 
 ![Outlook 功能區上的 Teams 會議增益集螢幕擷取畫面](media/Teams-add-in-for-Outlook.png)
 
@@ -65,12 +65,12 @@ Teams 會議按鈕會顯示在 Outlook iOS 和 Android 應用程式的最新組�
 當使用者按一下 [傳送]**** 之後，會議座標 (Teams 的加入連結和撥入號碼) 將會新增至會議邀請。  
 
 ## <a name="teams-meeting-add-in-in-and-findtime-for-outlook"></a>Teams 會議增益集和適用於 Outlook 的 FindTime
-FindTime 是 Outlook 的增益集，可協助使用者在跨公司會議的時間安排上達成共識。 當會議受邀者提供其偏好的時間後，FindTime 就會代表使用者傳送會議邀請。 如果 FindTime 中已選取 [線上會議]**** 選項，則 FindTime 會安排商務用 Skype 或 Microsoft Teams 會議。 (FindTime 會使用由您組織設定的任何項目作為預設的線上會議頻道)。
+FindTime 是 Outlook 的增益集，可協助使用者在整個公司的會議時間達成共識。 當會議受邀者提供其偏好的時間後，FindTime 就會代表使用者傳送會議邀請。 如果 FindTime 中已選取 [線上會議]**** 選項，則 FindTime 會安排商務用 Skype 或 Microsoft Teams 會議。 (FindTime 會使用由您組織設定的任何項目作為預設的線上會議頻道)。
 
 > [!NOTE]  
 > 如果您已在 [FindTime 儀表板](https://findtime.microsoft.com/UserDashboard)中儲存商務用 Skype 的設定，FindTime 就會使用該設定，而不是使用 Microsoft Teams。 如果您想要使用 Microsoft Teams，請刪除儀表板中的商務用 Skype 設定。
 
-如需詳細資訊，請參閱[使用 FindTime 安排會議](https://support.office.com/article/scheduling-meetings-with-findtime-4dc806ed-fde3-4ea7-8c5e-b5d1fddab4a6)。
+如需詳細資訊，請參閱[使用 FindTime 排程會議](https://support.office.com/article/scheduling-meetings-with-findtime-4dc806ed-fde3-4ea7-8c5e-b5d1fddab4a6)。
 
 ## <a name="authentication-requirements"></a>驗證需求
 
@@ -128,7 +128,8 @@ Teams 會議增益集是仍在建置的功能，因此請注意下列事項：
 - 確認使用者擁有小組升級原則，可在小組中排程會議。 如需詳細資訊，請參閱[從商務用 Skype 升級至團隊](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings)。
 - 確認使用者擁有允許 Outlook 增益集的小組會議原則。 如需詳細資訊，請參閱[在團隊中管理會議原則](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#allow-the-outlook-add-in)。
 - 確定使用者已安裝 [團隊桌面用戶端]。 只有使用團隊網頁用戶端時，才能安裝會議增益集。
-- 確認使用者有權執行 regsvr32。  如需詳細資訊，請參閱https://support.microsoft.com/help/249873/how-to-use-the-regsvr32-tool-and-troubleshoot-regsvr32-error-messages
+- 確定使用者已安裝 Outlook 2013 或更新版本。
+- 確認使用者有權執行 regsvr32。
 - 確認已套用所有適用于 Outlook 桌面用戶端的更新。
 - 請遵循下列步驟：
   - 重新啟動 Teams 桌面版用戶端。

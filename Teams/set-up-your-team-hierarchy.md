@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 26e4ee05b9f94fa0883aef5bbe98b691c9e0c46d
-ms.sourcegitcommit: 5a88788bd0a0b2ccbc5b977b38dcfe4681cd5d10
+ms.openlocfilehash: e60e152128c60279e3bb9ee9e3d37e881effce9a
+ms.sourcegitcommit: 1a6b4efad1e6a958cdbaae4b0e2e231145c9658f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "44278166"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44321742"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>設定您的團隊目標階層
 
@@ -116,7 +116,7 @@ CSV 檔案必須包含下列三個數據行，並以下列順序從第一欄開�
 ## <a name="apply-your-hierarchy"></a>套用您的階層
 
 > [!IMPORTANT]
-> 若要執行此步驟，您必須從 PowerShell 測試圖庫安裝並使用最新版本的團隊 PowerShell 模組。 如需如何執行此動作的步驟，請參閱[從 PowerShell 測試圖庫安裝最新的團隊 PowerShell 模組](#install-the-latest-teams-powershell-module-from-the-powershell-test-gallery)。
+> 若要執行此步驟，您必須從[PowerShell 測試圖庫](https://www.poshtestgallery.com/packages/MicrosoftTeams/)安裝並使用最新版本的團隊 PowerShell 模組。 如需如何安裝模組的步驟，請參閱[安裝團隊 PowerShell 模組的預發行版本本](install-prerelease-teams-powershell-module.md)。
 
 在架構 CSV 檔案中定義階層之後，您就可以將其上傳至團隊。 若要這樣做，請執行下列命令。 您必須是全域管理員或團隊服務系統管理員，才能執行這個步驟。
 
@@ -127,7 +127,7 @@ Set-TeamTargetingHierarchy -FilePath "C:\ContosoTeamSchema.csv"
 ## <a name="remove-your-hierarchy"></a>移除階層
 
 > [!IMPORTANT]
-> 若要執行此步驟，您必須從 PowerShell 測試圖庫安裝並使用最新版本的團隊 PowerShell 模組。 如需如何執行此動作的步驟，請參閱[從 PowerShell 測試圖庫安裝最新的團隊 PowerShell 模組](#install-the-latest-teams-powershell-module-from-the-powershell-test-gallery)。
+> 若要執行此步驟，您必須從[PowerShell 測試圖庫](https://www.poshtestgallery.com/packages/MicrosoftTeams/)安裝並使用最新版本的團隊 PowerShell 模組。 如需如何安裝模組的步驟，請參閱[安裝團隊 PowerShell 模組的預發行版本本](install-prerelease-teams-powershell-module.md)。
 
 如果您想要立即停用貴組織中所有使用者的 [**已發佈的清單**] 索引標籤，您可以移除您的階層。 使用者無法存取 [**已發佈的清單**] 索引標籤或 [索引標籤] 上的任何功能。 這包括建立新工作清單以進行發佈、存取草稿清單、發佈、取消發佈及重複清單以及查看報表的功能。 移除階層後，就不會取消發佈先前發佈的工作。 這些工作仍可供收件者團隊完成。 
 
@@ -136,60 +136,6 @@ Set-TeamTargetingHierarchy -FilePath "C:\ContosoTeamSchema.csv"
 ```powershell
 Remove-TeamTargetingHierarchy
 ```
-
-### <a name="teams-powershell-module"></a>團隊 Powershell 模組
-
-#### <a name="install-the-latest-teams-powershell-module-from-the-powershell-test-gallery"></a>從 PowerShell 測試圖庫安裝最新的團隊 PowerShell 模組
-
-最新公開推出的團隊 PowerShell 模組（目前[1.0.5](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.5)）不支援管理團隊階層。 從 PowerShell 測試圖庫，使用這些步驟來安裝最新版本的團隊 PowerShell 模組（含團隊階層支援）。
-
-> [!NOTE]
-> 請勿從 PowerShell 測試圖庫並排安裝團隊 PowerShell 模組與公用 PowerShell 庫中的模組版本。 請依照下列步驟，先從公用 PowerShell 庫中卸載團隊 PowerShell 模組，然後從 PowerShell 測試圖庫安裝最新版本的模組。
-
-1. 關閉所有現有的 PowerShell 會話。
-2. 啟動新的 Windows PowerShell 模組實例。
-3. 執行下列動作，從公用 PowerShell 庫中卸載團隊 PowerShell 模組：
-
-    ```PowerShell
-    Uninstall-Module -Name MicrosoftTeams
-    ```
-
-4. 關閉所有現有的 PowerShell 會話。
-5. 再次啟動 Windows PowerShell 模組，然後執行下列動作，以將 PowerShell 測試圖庫註冊為受信任的來源：
-
-    ```PowerShell
-    Register-PSRepository -Name PSGalleryInt -SourceLocation https://www.poshtestgallery.com/ -InstallationPolicy Trusted
-    ```
-
-6. 執行下列動作，從 PowerShell 測試圖庫安裝最新的團隊 PowerShell 模組：
-
-    ```PowerShell
-    Install-Module -Name MicrosoftTeams -Repository PSGalleryInt -Force
-    ```
-
-7. 執行下列動作，確認已成功安裝 PowerShell 測試圖庫中的最新版本的團隊 PowerShell 模組：
-
-    ```PowerShell
-    Get-Module -Name MicrosoftTeams
-    ```
-
-#### <a name="update-to-the-latest-version-of-the-teams-powershell-module-from-the-powershell-test-gallery"></a>從 PowerShell 測試圖庫更新到最新版本的團隊 PowerShell 模組
-
-如果您已經從 PowerShell 測試庫安裝團隊 PowerShell 模組，請使用下列步驟更新到最新版本。
-
-1. 關閉所有現有的 PowerShell 會話。
-2. 啟動新的 Windows PowerShell 模組實例。
-3. 執行下列操作以從 PowerShell 測試圖庫更新目前已安裝的團隊 PowerShell 模組版本：
-
-    ```PowerShell
-    Update-Module -Name MicrosoftTeams -Force
-    ```
-
-4. 執行下列動作，確認已成功安裝 PowerShell 測試圖庫中的最新版本的團隊 PowerShell 模組：
-
-    ```PowerShell
-    Get-Module -Name MicrosoftTeams
-    ```
 
 ## <a name="troubleshooting"></a>疑難排解
 
@@ -200,3 +146,4 @@ Remove-TeamTargetingHierarchy
 ## <a name="related-topics"></a>相關主題
 
 - [在團隊中管理貴組織的任務應用程式](manage-tasks-app.md)
+- [Teams PowerShell 概觀](teams-powershell-overview.md)

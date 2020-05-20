@@ -18,19 +18,19 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何在您的組織中管理私人頻道的生命週期。
-ms.openlocfilehash: 10746605895732af19a43ffb85df06a81ae34316
-ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
+ms.openlocfilehash: 154cde6ad8371b2d9f902bf3803f48e72ade0a77
+ms.sourcegitcommit: 1a6b4efad1e6a958cdbaae4b0e2e231145c9658f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "43997244"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44321695"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>在 Microsoft 團隊中管理私人頻道的生命週期
 
 您可以在這裡找到在組織中管理[私人頻道](private-channels.md)生命週期所需的指導方針。
 
 > [!IMPORTANT]
-> 如果您使用本文中的 PowerShell 步驟來管理私人通道，您必須從 PowerShell 測試庫安裝並使用最新版本的團隊 PowerShell 模組。 如需如何執行此動作的步驟，請參閱[從 PowerShell 測試圖庫安裝最新的團隊 PowerShell 模組](#install-the-latest-teams-powershell-module-from-the-powershell-test-gallery)。 最新的現有團隊 PowerShell 模組版本（目前為[1.0.3](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.3)）不支援管理私人頻道。
+> 如果您使用本文中的 PowerShell 步驟來管理私人通道，您必須從[PowerShell 測試庫](https://www.poshtestgallery.com/packages/MicrosoftTeams/)安裝並使用最新的「團隊 PowerShell」模組的預發行版本本。 如需如何安裝模組的步驟，請參閱[安裝團隊 PowerShell 模組的預發行版本本](install-prerelease-teams-powershell-module.md)。 最新公開提供的團隊 PowerShell 模組版本不支援管理專用通道。
 
 ## <a name="set-whether-team-members-can-create-private-channels"></a>設定小組成員是否可以建立私人頻道
 
@@ -102,7 +102,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 ### <a name="using-powershell"></a>使用 PowerShell
 
 1. 使用您的系統管理員帳戶安裝並[連線至 SharePoint Online 管理命令](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)介面。
-2. 執行下列動作，其中&lt;group_id&gt;是團隊的群組識別碼。 （您可以輕鬆地在小組連結中找到群組識別碼）。
+2. 執行下列動作，其中 &lt; group_id &gt; 是團隊的群組識別碼。 （您可以輕鬆地在小組連結中找到群組識別碼）。
 
     ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
@@ -146,7 +146,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
     }
     ```
 
-2. 針對您想要取得 SharePoint URL 的每個專用通道，請進行下列要求，其中&lt;channel_id&gt;是頻道 id。
+2. 針對您想要取得 SharePoint URL 的每個專用通道，請進行下列要求，其中 &lt; channel_id &gt; 是頻道 id。
 
     **徵求**
 
@@ -184,7 +184,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 ### <a name="using-powershell"></a>使用 PowerShell
 
-1. 執行下列動作，其中&lt;group_id&gt;是團隊的群組識別碼，而&lt;channel_name&gt;是頻道名稱。
+1. 執行下列動作，其中 &lt; group_id &gt; 是團隊的群組識別碼，而 &lt; channel_name &gt; 是頻道名稱。
 
     ```PowerShell
     Get-TeamChannelUser -GroupId <group_id> -DisplayName "<channel_name>" 
@@ -200,7 +200,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 您可以透過[圖表資源管理器](https://developer.microsoft.com/graph/graph-explorer)來嘗試這些命令。
 
-1. 使用下列專案，其中&lt;group_id&gt;是團隊的群組識別碼，而&lt;channel_id&gt;是通道 id。
+1. 使用下列專案，其中 &lt; group_id &gt; 是團隊的群組識別碼，而 &lt; CHANNEL_ID &gt; 是通道 id。
 
     **徵求**
 
@@ -236,7 +236,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
           ]
     }
     ```    
-2.     使用下列專案將成員升級為擁有者&lt;，其中 group_id&gt;、 &lt;channel_id&gt;和&lt;識別碼&gt;都是從先前的呼叫傳回的。 請注意&lt;，&gt;從&lt;先前&gt;的呼叫傳回的識別碼和 userId 不一樣且無法互換。 請確定您使用&lt;的&gt;是 id。
+2. 使用下列專案將成員升級為擁有者，其中 &lt; group_id &gt; 、 &lt; channel_id &gt; 和 &lt; 識別碼 &gt; 都是從先前的呼叫傳回的。 請注意 &lt; ， &gt; &lt; &gt; 從先前的呼叫傳回的識別碼和 userId 不一樣且無法互換。 請確定您使用 &lt; 的是 id &gt; 。
 
     **徵求**
 
@@ -265,60 +265,6 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
       "userId": "userId-value",
       "email": "email-value"
      }
-    ```
-
-## <a name="teams-powershell-module"></a>團隊 Powershell 模組
-
-### <a name="install-the-latest-teams-powershell-module-from-the-powershell-test-gallery"></a>從 PowerShell 測試圖庫安裝最新的團隊 PowerShell 模組
-
-最新的現有團隊 PowerShell 模組版本（目前為[1.0.5](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.5)）不支援管理私人頻道。 使用這些步驟，從 PowerShell 測試圖庫中安裝含私用通道支援（目前為1.0.21）的最新版本團隊 PowerShell 模組。
-
-> [!NOTE]
-> 請勿從 PowerShell 測試圖庫並排安裝團隊 PowerShell 模組與公用 PowerShell 庫中的模組版本。 請依照下列步驟，先從公用 PowerShell 庫中卸載團隊 PowerShell 模組，然後從 PowerShell 測試圖庫安裝最新版本的模組。
-
-1. 關閉所有現有的 PowerShell 會話。
-2. 啟動新的 Windows PowerShell 模組實例。
-3. 執行下列動作，從公用 PowerShell 庫中卸載團隊 PowerShell 模組：
-
-    ```PowerShell
-    Uninstall-Module -Name MicrosoftTeams
-    ```
-
-4. 關閉所有現有的 PowerShell 會話。
-5. 再次啟動 Windows PowerShell 模組，然後執行下列動作，以將 PowerShell 測試圖庫註冊為受信任的來源：
-
-    ```PowerShell
-    Register-PSRepository -Name PSGalleryInt -SourceLocation https://www.poshtestgallery.com/ -InstallationPolicy Trusted
-    ```
-
-6. 執行下列動作，從 PowerShell 測試圖庫安裝最新的團隊 PowerShell 模組：
-
-    ```PowerShell
-    Install-Module -Name MicrosoftTeams -Repository PSGalleryInt -Force
-    ```
-
-7. 執行下列動作，確認已成功安裝 PowerShell 測試圖庫中的最新版本的團隊 PowerShell 模組：
-
-    ```PowerShell
-    Get-Module -Name MicrosoftTeams
-    ```
-
-#### <a name="update-to-the-latest-version-of-the-teams-powershell-module-from-the-powershell-test-gallery"></a>從 PowerShell 測試圖庫更新到最新版本的團隊 PowerShell 模組
-
-如果您已經從 PowerShell 測試庫安裝團隊 PowerShell 模組，請使用下列步驟更新到最新版本。
-
-1. 關閉所有現有的 PowerShell 會話。
-2. 啟動新的 Windows PowerShell 模組實例。
-3. 執行下列操作以從 PowerShell 測試圖庫更新目前已安裝的團隊 PowerShell 模組版本：
-
-    ```PowerShell
-    Update-Module -Name MicrosoftTeams -Force
-    ```
-
-4. 執行下列動作，確認已成功安裝 PowerShell 測試圖庫中的最新版本的團隊 PowerShell 模組：
-
-    ```PowerShell
-    Get-Module -Name MicrosoftTeams
     ```
 
 ## <a name="related-topics"></a>相關主題
