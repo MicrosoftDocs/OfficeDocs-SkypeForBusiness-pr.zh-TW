@@ -64,9 +64,9 @@
 ### [管理您的自訂應用程式](manage-your-custom-apps.md)
 ### [應用程式認證](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Teams 的應用程式範本](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [管理貴組織的 Tasks 應用程式](manage-tasks-app.md)
 ### [設定您的小組目標階層](set-up-your-team-hierarchy.md)
-### [設定 Skype 會議應用程式以搭配 Teams 運作](configure-skype-meetings-app-to-work-with-teams.md)
+### [管理貴組織的 Tasks 應用程式](manage-tasks-app.md)
+### [設定Skype 會議應用程式以搭配使用 Teams](configure-skype-meetings-app-to-work-with-teams.md)
 
 ## 與外部使用者通訊
 ### [與其他組織的使用者通訊](communicate-with-users-from-other-organizations.md)
@@ -604,6 +604,7 @@
 # 產業和政府指引
 ## [概觀](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md)
 ## [開始使用 Teams 範本](get-started-with-teams-templates.md)
+## [Bookings App 和虛擬造訪](bookings-app-admin.md)
 ## [Teams 中的 Shifts](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 ### [終止對 Microsoft StaffHub 的支援](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
 ### [安裝 Microsoft StaffHub PowerShell 模組](expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md)
@@ -628,7 +629,7 @@
 ## [Microsoft Teams 教育版](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [快速入門 - Teams 教育版系統管理員](teams-quick-start-edu.yml)
 ### [開始使用遠端學習](remote-learning-edu.md)
-### [適用於教育界管理員的 Microsoft Teams 原則套件](policy-packages-edu.md)
+### [Teams EDU 原則和原則套件](policy-packages-edu.md)
 ### [將原則指派給大型使用者集合](batch-policy-assignment-edu.md)
 ### [教育版系統管理員的低頻寬指導方針](edu-remote-low-bandwidth.md)
 ### [Teams 教育版中的作業](expand-teams-across-your-org/assignments-in-teams.md)
@@ -763,12 +764,12 @@
 
 
 ## 支援的裝置
-### [在 Teams 中管理裝置](device-management.md)
-### [Teams 的電話](phones-for-teams.md)
+### [在 Teams 中管理裝置](devices/device-management.md)
+### [Teams 的電話](devices/phones-for-teams.md)
+### [USB 音訊和視訊裝置](devices/usb-devices.md)
 ### [為 Microsoft Teams 部署共同作業列](devices/collab-bar-deploy.md)
-### [USB 音訊和視訊裝置](/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [會議室裝置和解決方案](/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [通過 Microsoft Teams 認證的 IP 電話](teams-ip-phones.md)
+### [通過 Microsoft Teams 認證的 IP 電話](devices/teams-ip-phones.md)
 ### [商務用 Skype Online 的電話](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 
