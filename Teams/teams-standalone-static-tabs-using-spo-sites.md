@@ -14,12 +14,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: 取得現有的 SharePoint Online 網站或頁面，並建立獨立的靜態索引標籤，以作為組織的內部網路入口網站。
 localization_priority: Priority
-ms.openlocfilehash: 63527cb3cccc5f882f44ff39911d33270bafb4c8
-ms.sourcegitcommit: 9419860f9a1c1dd2c7c444162e1d55d704e19c69
+ms.openlocfilehash: 4777b744d76415f45718cb274f402556e1e28240
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43207072"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326580"
 ---
 # <a name="create-a-teams-intranet-portal-app-from-a-sharepoint-online-site-or-page"></a>從 SharePoint Online 網站或頁面建立 Teams「內部網路入口網站應用程式」
 
@@ -41,7 +41,7 @@ ms.locfileid: "43207072"
 
 2. 您必須知道租用戶的子網域，以便用於預留位置 **{{subdomain}}**。
 
-3. 本文會使用 **{{siteUrl}}** 預留位置來指出您所選網站或頁面的 URL**。
+3. 本文會使用 **{{siteUrl}}** 作為預留位置來指出您所選網站或頁面的 *URL*。
     - 範例 URL**：https://contoso.sharepoint.com/teams/Contoso 或 **https://contoso.sharepoint.com/sites/Contoso
 4. 此外，會使用 **{{sitePath}}** 來表示 URL 的「路徑」** (例如：/teams/Contoso)。
     - 範例「路徑」**：/teams/Contoso 或 **/sites/Contoso
@@ -96,7 +96,7 @@ ms.locfileid: "43207072"
 
 若要檢視 Teams 桌面上的新索引標籤，請瀏覽至應用程式列左側的省略號 (**...**)。 尋找您的新應用程式、加以載入，然後在 Teams 中測試您的獨立應用程式。
 
-如果您想讓新的應用程式出現在左側功能表中的較高位置，則必須使用應用程式原則設定來進行。 您可以在 [Teams 管理員] 區段 > [應用程式原則] > [新增釘選的應用程式] 底下找到此設定。 當您指派原則給使用者以進行測試時，此變更會在 24 小時後才顯示。 在了解這一點的情況下，請盡早決定應用程式的顯示位置以免造成延遲。
+如果您想讓新的應用程式出現在左側功能表中的較高位置，則必須使用應用程式原則設定來進行。 您可以在 [Teams 管理員] 區段 > [應用程式原則] > [新增釘選的應用程式] 底下找到此設定。 當您指派原則給使用者以進行測試時，此變更會在數小時後才顯示。 在了解這一點的情況下，請盡早決定應用程式的顯示位置以免造成延遲。
 
 若要在行動裝置上檢視並測試新的應用程式，請點選畫面底部附近索引標籤列上方的＞形箭號 (**^**)，以開啟應用程式選單。 尋找您的應用程式，並在您的行動裝置上瀏覽至該應用程式。
 
