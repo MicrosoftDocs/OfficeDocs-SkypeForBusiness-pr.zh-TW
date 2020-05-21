@@ -19,12 +19,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6b06e675e93dd022847fc7af202045c3ecdebe63
-ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
+ms.openlocfilehash: e81e2fb588e718060ffbdf90a51c020ff2d6556c
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "42341777"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326590"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>使用 Microsoft Teams 限域目錄搜尋
 
@@ -51,7 +51,7 @@ Microsoft 團隊可讓組織為使用者提供目錄的自訂視圖。 Microsoft
 
 1. 使用資訊屏障原則將您的組織設定為虛擬子群組。 如需詳細資訊，請參閱[定義資訊屏障原則](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-policies)。
 
-2. 在 Microsoft [團隊管理中心] 中，選取 [全**組織性設定** > **團隊設定**]。
+2. 在 Microsoft [團隊管理中心] 中，選取 [全**組織性設定**  >  **團隊設定**]。
 
 3. 在 [**搜尋**] 底下，在**使用 Exchange 通訊錄原則（ABP）的 [小組] 中的 [範圍目錄搜尋**] 旁，開啟 **[開啟]。**
 
@@ -59,4 +59,4 @@ Microsoft 團隊可讓組織為使用者提供目錄的自訂視圖。 Microsoft
 
 
 > [!IMPORTANT]
-> 此變更可能需要長達24小時才能進行複製。
+> 這項變更可能需要幾個小時才能進行複製。

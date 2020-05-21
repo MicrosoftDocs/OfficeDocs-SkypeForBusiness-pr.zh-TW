@@ -23,19 +23,19 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - seo-marvel-mar2020
-ms.openlocfilehash: 7c3c7958994c50e1ae0e90ed13437601dabc0688
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: a0002ed8312f2a100ab61aa98923c7f4aeb0dc26
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140654"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326780"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>管理 Microsoft 團隊中的自訂應用程式原則和設定
 
 > [!NOTE]
 > 若要使用應用程式 Studio，請參閱[使用 c #/.NET 和 App Studio 的 Microsoft 團隊平臺快速](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-dotnet-app-studio)入門最後一個步驟尚無法運作，因此您必須先下載該 zip，然後在將[應用程式套件上傳到 Microsoft 團隊](https://docs.microsoft.com/microsoftteams/platform/concepts/apps/apps-upload)時將它安裝。
 
-做為管理員，您可以使用自訂的應用程式原則和設定來控制貴組織中的哪些人可以將自訂應用程式上傳到 Microsoft 團隊。 系統管理員決定可以上傳自訂應用程式的使用者，以及系統管理員和小組擁有者可以判斷您組織中的特定團隊是否允許將自訂應用程式新增到他們。  在您編輯自訂應用程式原則之後，變更才會生效24小時。 您必須是全域管理員或團隊服務系統管理員，才能管理這些原則。
+做為管理員，您可以使用自訂的應用程式原則和設定來控制貴組織中的哪些人可以將自訂應用程式上傳到 Microsoft 團隊。 系統管理員決定可以上傳自訂應用程式的使用者，以及系統管理員和小組擁有者可以判斷您組織中的特定團隊是否允許將自訂應用程式新增到他們。  在您編輯自訂應用程式策略之後，可能需要幾個小時的時間，變更才會生效。 您必須是全域系統管理員或 Teams 服務系統管理員，才能管理這些原則。
 
 ## <a name="overview-of-custom-apps"></a>自訂應用程式的概覽
 
@@ -72,7 +72,7 @@ ms.locfileid: "43140654"
 
 #### <a name="set-a-user-custom-app-policy"></a>設定使用者自訂 app 原則
 
-1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**團隊 app** > **設定原則**]。
+1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**團隊 app**  >  **設定原則**]。
 2. 按一下 [**新增**]。
 3. 開啟或關閉 **[上傳自訂應用程式**]。
 4. 選擇您想要用於原則的任何其他設定。
@@ -94,7 +94,7 @@ ms.locfileid: "43140654"
 
 #### <a name="configure-the-team-custom-app-setting"></a>設定小組自訂應用程式設定
 
-1. 在 [團隊] 中，移至團隊，按一下 [**更多選項] ̇̇̇** > [**管理團隊**]。
+1. 在 [團隊] 中，移至團隊，按一下 [**更多選項] ̇̇̇**[  >  **管理團隊**]。
 2. 按一下 [**設定**]，然後展開 [**成員許可權**]。
 3. 選取或清除 [**允許成員上傳自訂應用程式**] 核取方塊。
 
@@ -106,7 +106,7 @@ ms.locfileid: "43140654"
 
 #### <a name="configure-the-org-wide-custom-app-setting"></a>設定組織範圍的自訂應用程式設定
 
-1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**團隊 app** > **管理應用程式**]。
+1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**團隊 app**  >  **管理應用程式**]。
 2. 按一下 [**全組織式應用程式設定**]。
 3. 在 [**自訂應用程式**] 底下，開啟或關閉 [**允許與自訂應用程式互動**]。
 

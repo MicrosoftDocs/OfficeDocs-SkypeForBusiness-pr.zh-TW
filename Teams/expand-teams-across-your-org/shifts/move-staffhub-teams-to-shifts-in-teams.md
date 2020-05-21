@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6c57ebda3d23135beb46febf13529b903958df6b
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: e0bf24c32854ddf2498b8a00874ad1d358c8fb8a
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780622"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326790"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>將 Microsoft StaffHub 小組移至 Microsoft 團隊中的倒班
 
@@ -91,7 +91,7 @@ ms.locfileid: "43780622"
 
 每個使用者都必須從[符合資格的方案](microsoft-staffhub-to-be-retired.md#which-plans-is-shifts-available-in)中擁有有效的 Microsoft 365 或 Office 365 授權，且必須指派團隊授權。 指派團隊授權給使用者可讓他們存取小組。
 
-您可以在 Microsoft 365 系統管理中心管理團隊授權。 若要深入瞭解，請參閱[管理使用者對團隊的存取權](../../user-access.md)。
+您可以在 Microsoft 365 系統管理中心管理團隊授權。 若要深入了解，請參閱[管理使用者對 Teams 的存取](../../user-access.md)。
 
 > [!NOTE]
 > 如果您的組織使用商務用 Skype，而您還沒有準備好將您的所有使用者移至團隊，您可以為第一線員工工作人員啟用團隊，然後在商務用 Skype 中執行團隊。 在此共存模式（稱為*孤島*）中，每個用戶端應用程式都是以個別的解決方案的方式運作。 若要深入瞭解，請參閱[瞭解團隊及商務用 Skype 共存與互通性](../../teams-and-skypeforbusiness-coexistence-and-interoperability.md)。
@@ -156,7 +156,7 @@ $InvitedUsersObject | SELECT * | export-csv InvitedUsers.csv -NoTypeInformation
 
 團隊包含內建的 FirstlineWorker 應用程式設定原則，您可以用來自訂小組，以醒目提示貴組織中的第一線員工工人最重要的 app。 當您將此原則指派給使用者時，原則中的應用程式會釘選在團隊中的應用程式行上，以便快速且輕鬆地存取。 您可以在應用程式行中，按一下 [...]，在應用程式行中找到新增至團隊的其他 app。 **... More apps**小組桌面及網頁用戶端中的其他應用程式，以及在小組行動用戶端中向上輕掃。 根據預設，FirstlineWorker 應用程式的設定原則包括活動、班次、聊天及呼叫 app。
 
-如需如何將 FirstlineWorker 應用程式設定原則指派給使用者的步驟，請參閱[使用 FirstlineWorker 應用程式設定原則將倒班移至團隊](manage-the-shifts-app-for-your-organization-in-teams.md#use-the-firstlineworker-app-setup-policy-to-pin-shifts-to-teams)。 指派原則之後，最多可能需要24小時才能生效。
+如需如何將 FirstlineWorker 應用程式設定原則指派給使用者的步驟，請參閱[使用 FirstlineWorker 應用程式設定原則將倒班移至團隊](manage-the-shifts-app-for-your-organization-in-teams.md#use-the-firstlineworker-app-setup-policy-to-pin-shifts-to-teams)。 指派原則後，可能需要幾個小時才能生效。
 
 我們建議您至少在一周完成此步驟，然後再將您的 StaffHub 團隊和使用者移至團隊。 當使用者在團隊中時，請確認他們可以查看和存取倒班 app。
 
@@ -300,7 +300,7 @@ JOB_81b1f191-3e19-45ce-ab32-3ef51f100000   TEAM_81b1f191-3e19-45ce-ab32-3ef51f10
 Get-StaffHubTeamsForTenant -ManagedBy "Staffhub"
 ```
 
-在您先前執行的`Get-StaffHubteamsForTenant` Cmdlet 所傳回的結果中，選取您要移動的團隊識別碼，然後將它們新增到逗號分隔值（CSV）檔案。
+在您先前執行的 Cmdlet 所傳回的結果中 `Get-StaffHubteamsForTenant` ，選取您要移動的團隊識別碼，然後將它們新增到逗號分隔值（CSV）檔案。
 
 以下是如何格式化 CSV 檔案的範例。
 

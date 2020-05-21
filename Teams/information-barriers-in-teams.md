@@ -16,12 +16,12 @@ description: 本文說明 Microsoft 團隊中的資訊障礙，以及他們會�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2bbe2f38fe56e6952952730b7ba74dda1a98398f
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 1cf6b2fc8c103b8a27bca2d21dd2138def88ce06
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904975"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326740"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft 團隊中的資訊障礙
 
@@ -64,7 +64,7 @@ ms.locfileid: "43904975"
 資訊屏障原則是在 Microsoft 365 規範中心（SCC）中使用 PowerShell Cmdlet 來管理。 如需詳細資訊，請參閱[定義資訊屏障的原則](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)。
 
 > [!IMPORTANT]
-> 在您設定或定義原則之前，**您必須在 Microsoft 團隊中啟用範圍目錄搜尋**。 在您設定或定義資訊屏障的原則之前，請先在啟用範圍目錄搜尋後等候至少24小時。 [深入瞭解資訊障礙的先決條件](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies#prerequisites)。
+> 在您設定或定義原則之前，**您必須在 Microsoft 團隊中啟用範圍目錄搜尋**。 在您設定或定義資訊屏障的原則之前，請先等待至少幾小時後再啟用範圍目錄搜尋。 [深入瞭解資訊障礙的先決條件](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies#prerequisites)。
 
 ## <a name="information-barriers-administrator-role"></a>資訊障礙管理員角色
 

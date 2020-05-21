@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 04627c74528972aad69b1e810e222f55cae49588
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 9d91731792dd049f76d781c4a0be08e92d09e0bb
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902578"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326600"
 ---
 <a name="microsoft-teams-guest-access-checklist"></a>Microsoft 團隊來賓存取檢查清單
 =========================================
@@ -39,9 +39,9 @@ ms.locfileid: "43902578"
 
 ## <a name="step-1-turn-on-guest-access-at-the-teams-org-wide-level"></a>步驟1：在團隊的整個組織層級開啟來賓存取
 
-若要開啟來賓存取，請移至**Microsoft 團隊系統管理中心**。 
+若要開啟來賓存取，請移至系統管理中心 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 。 
 
-1. 在 [團隊管理中心] 中，選取 [全**組織性設定** > **來賓存取**]。
+1. 在 [團隊管理中心] 中，選取 [全**組織性設定**  >  **來賓存取**]。
 2. 將 [**允許 Microsoft 團隊中的來賓存取權**] 切換為 [**開啟**]。
 
     ![螢幕擷取畫面顯示 [團隊設定] 切換開關的範例](media/guest-access-checklist-set-up-guests-image1.png)
@@ -57,10 +57,10 @@ ms.locfileid: "43902578"
 這些是支援小組中來賓存取權的 Azure AD 設定。 設定好這些設定之後，您就可以在小組中[新增](add-guests.md)和[管理來賓](manage-guests.md)。
 
 1. 以租使用者管理員的身分登入[Azure 入口網站](https://portal.azure.com)。
-2. 選取 [ **Azure Active Directory** > **使用者** > ]**使用者設定**。
+2. 選取 [ **Azure Active Directory**  >  **使用者**]  >  **使用者設定**。
 3. 在 [**外部使用者**] 底下，選取 [**管理外部**共同作業設定]。
    > [!NOTE]
-   > 您也可以從 [**組織關聯**] 頁面取得外部共同作業**設定**。 在 Azure Active Directory 中的 [**管理**] 底下，移至 [**組織關聯** > ]**設定**。
+   > 您也可以從 [**組織關聯**] 頁面取得外部共同作業**設定**。 在 Azure Active Directory 中的 [**管理**] 底下，移至 [**組織關聯**]  >  **設定**。
 4. 在 [**外部**共同作業設定] 頁面上，選擇您要啟用的原則。
 
     - **來賓使用者許可權有限**：此原則會判斷您目錄中來賓的許可權。 選取 **[是]** 來封鎖特定目錄工作的訪客，例如列舉使用者、群組或其他目錄資源。 選取 [**否**]，為來賓提供與目錄中的一般使用者相同的目錄資料存取權。
@@ -78,7 +78,7 @@ ms.locfileid: "43902578"
 
 ## <a name="step-3-configure-microsoft-365-groups"></a>步驟3：設定 Microsoft 365 群組
 
-1. 在 Microsoft 365 系統管理中心中，移至 [**設定** > **設定**]，按一下 [**服務**]，然後選取 [ **Microsoft 365 群組**]。
+1. 在 Microsoft 365 系統管理中心中，移至 [**設定**  >  **設定**]，按一下 [**服務**]，然後選取 [ **Microsoft 365 群組**]。
 
      ![螢幕擷取畫面顯示 Microsoft 365 群組設定](media/guest-access-checklist-services-settings.png)
 2. 確認已選取 [**允許組織存取群組內容外的群組成員**] 核取方塊。 如果未選取此設定，來賓將無法存取任何群組內容。
@@ -92,7 +92,7 @@ ms.locfileid: "43902578"
 
 請確定使用者可以新增來賓。 做法如下：
 
-1. 在 Microsoft 365 系統管理中心中，移至 [**設定** > **設定**]，按一下 [**安全性 & 隱私權**]，然後選取 [**共用**]。
+1. 在 Microsoft 365 系統管理中心中，移至 [**設定**  >  **設定**]，按一下 [**安全性 & 隱私權**]，然後選取 [**共用**]。
 
      ![螢幕擷取畫面顯示服務設定的範例](media/guest-access-checklist-security-privacy-settings.png)
  
@@ -101,7 +101,7 @@ ms.locfileid: "43902578"
      ![螢幕擷取畫面顯示共用設定切換的範例](media/guest-access-checklist-sharing-setting.png)
  
     > [!NOTE]
-    > 這個設定相當於 Azure AD 中的 [**使用者設定** > **] 中的**[**成員可以邀請**] 設定。  
+    > 這個設定相當於 Azure AD 中的 [**使用者設定**] 中的 [**成員可以邀請**] 設定  >  **External users** 。  
 
 ## <a name="step-5-verify-sharing-setting-in-sharepoint"></a>步驟5：驗證 SharePoint 中的共用設定
 

@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 89b1a8a756cba44435098e5cd446294004029eac
-ms.sourcegitcommit: b5c747e2daad6dd3c1d91f4e61ae6f26db5c77f0
+ms.openlocfilehash: 3cbf3ec38876d57fe1c2b8ac61abf5b86d5c2106
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44064478"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326770"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>在 Microsoft 團隊中管理 app 設定原則
 
@@ -58,7 +58,7 @@ ms.locfileid: "44064478"
 
 您可以使用 Microsoft 團隊系統管理中心來建立自訂原則。
 
-1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**團隊 app** > **設定原則**]。
+1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**團隊 app**  >  **設定原則**]。
 2. 按一下 [**新增**]。
     ![顯示 [新增應用程式設定原則] 頁面的螢幕擷取畫面](media/app-setup-policies-add.png)
 3. 輸入原則的名稱和描述。
@@ -86,7 +86,7 @@ ms.locfileid: "44064478"
 
 您可以使用 Microsoft 團隊系統管理中心來編輯原則，包括全域（組織範圍預設值）原則和您建立的自訂原則。
 
-1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**團隊 app** > **設定原則**]。
+1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**團隊 app**  >  **設定原則**]。
 2. 按一下原則名稱左邊的，然後按一下 [**編輯**]，選取原則。
 3. 您可以從這裡進行所要的變更。
 4. 按一下 [儲存]****。
@@ -105,7 +105,7 @@ ms.locfileid: "44064478"
 
 或者，您也可以執行下列動作：
 
-1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**團隊 app** > **設定原則**]。
+1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**團隊 app**  >  **設定原則**]。
 2. 按一下原則名稱的左側來選取原則。
 3. 選取 [管理使用者]****。
 4. 在 **[管理使用者]** 窗格中，依顯示名稱或使用者名稱搜尋使用者，選取名稱，然後選取 **[新增]**。 針對要新增的每一個使用者重複此步驟。
@@ -161,7 +161,7 @@ $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setu
 
 #### <a name="how-long-does-it-take-for-policy-changes-to-take-effect"></a>原則變更需要多少時間才能生效？
 
-在您編輯全域原則或指派原則之後，變更才會生效24小時。
+在您編輯全域原則或指派原則後，可能需要幾個小時的時間，變更才會生效。
 
 ### <a name="user-experience"></a>使用者體驗
 

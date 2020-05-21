@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e634c58d34787a76477591ab4262c703e5773cbe
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: e434a85693226252ecef2a5b4c251024524e698f
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43903788"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326560"
 ---
 <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>開啟或關閉 Microsoft 團隊的來賓存取權
 ===================================================
@@ -40,7 +40,7 @@ ms.locfileid: "43903788"
 
 1.    登入 Microsoft 團隊系統管理中心。
 
-2.    選取 [全**組織性設定** > **來賓存取**]。
+2.    選取 [全**組織性設定**  >  **來賓存取**]。
 
 3. 將**Microsoft 團隊中的 [允許來賓存取**權設定為 [**開啟**]。
 

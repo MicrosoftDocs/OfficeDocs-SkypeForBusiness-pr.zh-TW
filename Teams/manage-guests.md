@@ -17,18 +17,18 @@ description: 瞭解如何建立您的第一份團隊與頻道、快速使用中�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 544dcb4ffd424512797d3791e2eda6b22439c084
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 83f4e4cdff4515f89a5b3fe68c91d848f9ae5dda
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777838"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326450"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>管理 Microsoft 團隊中的來賓存取權
 ======================================
 
 > [!IMPORTANT]
-> 您可能需要等候 24 小時，變更才會生效。 
+> 您可能需要等候幾個小時，變更才會生效。 
 
 **來賓**是 microsoft 團隊中的使用者類型，包括所有 Microsoft 365 商務標準版、Office 365 企業版、Microsoft 365 Business Basic 及 Office 365 教育版訂閱。 您不需要額外的 Office 365 授權。 請參閱以下有關[來賓存取授權](#guest-access-licensing-limits)的詳細資訊。
 
@@ -38,7 +38,7 @@ ms.locfileid: "43777838"
     
 IT 管理員可以在租使用者層級新增來賓、設定及管理來賓使用者原則和許可權，以及拉入來賓使用者活動的報告。 這些控制項可在 [團隊管理中心] 中取得。 來賓使用者的內容和活動與 Office 365 的其他部分相容性和審核保護的行為低於相同。
 
-小組擁有者可以邀請新的來賓，並將現有的目錄來賓使用者新增至團隊系統管理中心的小組。 在 [**團隊** > **管理團隊**] 頁面上識別來賓使用者，並針對**組織範圍的 [設定** > **來賓存取權**] 頁面上的來賓設定與頻道相關的功能。 [設定] 包括允許來賓建立、更新及刪除頻道，如下圖所示。
+小組擁有者可以邀請新的來賓，並將現有的目錄來賓使用者新增至團隊系統管理中心的小組。 在 [**團隊**  >  **管理團隊**] 頁面上識別來賓使用者，並針對**組織範圍的 [設定**  >  **來賓存取權**] 頁面上的來賓設定與頻道相關的功能。 [設定] 包括允許來賓建立、更新及刪除頻道，如下圖所示。
 
 ![團隊中的來賓許可權設定](media/manage-guest-access-image1.png)
   
@@ -64,7 +64,7 @@ Teams 未限制您可以新增的來賓數量。 然而，可以新增至租用�
 
 ## <a name="lag-time-for-guest-access-settings-to-take-effect"></a>[來賓存取設定] 生效的延後時間
 
-針對 Azure Active Directory 中的來賓存取設定，您需要2-24 小時才能讓變更在您的 Microsoft 365 或 Office 365 中生效。 當使用者嘗試將來賓新增到其小組時，如果使用者看到「與您的系統管理員聯繫」的訊息，可能是因為來賓功能尚未開啟，或設定尚未生效。 如需設定來賓存取問題的相關說明，請參閱[疑難排解團隊中的來賓存取權](troubleshoot-guest-access.md)。
+針對 Azure Active Directory 中的來賓存取設定，您需要幾個小時的時間，變更才會在 Microsoft 365 或 Office 365 上生效。 當使用者嘗試將來賓新增到其小組時，如果使用者看到「與您的系統管理員聯繫」的訊息，可能是因為來賓功能尚未開啟，或設定尚未生效。 如需設定來賓存取問題的相關說明，請參閱[疑難排解團隊中的來賓存取權](troubleshoot-guest-access.md)。
 
   
 ## <a name="external-access-federation-vs-guest-access"></a>外部存取 (同盟) 與來賓存取

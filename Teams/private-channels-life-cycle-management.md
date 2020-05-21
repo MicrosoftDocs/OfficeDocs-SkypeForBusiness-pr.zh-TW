@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何在您的組織中管理私人頻道的生命週期。
-ms.openlocfilehash: 154cde6ad8371b2d9f902bf3803f48e72ade0a77
-ms.sourcegitcommit: 1a6b4efad1e6a958cdbaae4b0e2e231145c9658f
+ms.openlocfilehash: 45d9591eed2bd3a880d3ca3e2ceb2252bf6f8898
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44321695"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326690"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>在 Microsoft 團隊中管理私人頻道的生命週期
 
@@ -180,7 +180,11 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 您可能會想要列出私人通道的擁有者和成員，決定是否需要將專用通道的特定成員升級為擁有者。 當您擁有已離開組織的專用頻道擁有者，且專用頻道需要系統管理員協助才能宣告頻道擁有權時，就會發生這種情況。
 
-以管理員身分，您可以使用 PowerShell 或圖形 Api 命令來查詢這些 Url。
+以管理員身分，您可以使用 Microsoft 團隊系統管理中心、PowerShell 或圖形 API 來執行這些動作。
+
+### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 系統管理中心
+
+若要瞭解如何使用 Microsoft 團隊系統管理中心管理團隊成員，請參閱在[Microsoft 團隊系統管理中心管理團隊](manage-teams-in-modern-portal.md)。
 
 ### <a name="using-powershell"></a>使用 PowerShell
 

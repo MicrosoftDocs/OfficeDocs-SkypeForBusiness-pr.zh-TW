@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: 在單一位置尋找及管理商務用 Skype Server 2015/2019 和 Lync 2013 的更新。 使用此頁面上的連結取得更新的詳細資訊，然後下載更新。
-ms.openlocfilehash: 5530816da6ca5561439a8a6620cd132eeb86ab44
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 51a756cc0bf7ee74d0971732fce481c4773e8497
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44220543"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326570"
 ---
 # <a name="skype-for-business-server-updates"></a>商務用 Skype Server 更新
 
@@ -54,6 +54,7 @@ KB 4470124 是商務用 Skype Server 2019 的主要 KB，具有所有已發佈�
 
 |套件名稱：|KB 號碼|發行日期|
 |:--- |:--- |:--- |
+|商務用 Skype Server 2015 累計更新11|[KB 3061064](https://support.microsoft.com/kb/3061064)| 2020年5月13日 |
 |商務用 Skype Server 2015 累計更新10修復程式1|[KB 3061064](https://support.microsoft.com/kb/3061064)| 2019 年 8 月 |
 |商務用 Skype Server 2015 累計更新10 |[KB 3061064](https://support.microsoft.com/kb/3061064)| 2019 年 7 月 |
 |商務用 Skype Server 2015 的累計更新9（Web 元件伺服器）|[KB 4487981](https://support.microsoft.com/kb/4487981)| 2019 年 5 月 |
