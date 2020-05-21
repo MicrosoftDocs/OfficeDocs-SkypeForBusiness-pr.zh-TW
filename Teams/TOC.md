@@ -64,9 +64,9 @@
 ### [管理您的自訂應用程式](manage-your-custom-apps.md)
 ### [應用程式認證](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Teams 的應用程式範本](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [設定您的小組目標階層](set-up-your-team-hierarchy.md)
 ### [管理貴組織的 Tasks 應用程式](manage-tasks-app.md)
-### [設定Skype 會議應用程式以搭配使用 Teams](configure-skype-meetings-app-to-work-with-teams.md)
+### [設定您的小組目標階層](set-up-your-team-hierarchy.md)
+### [設定 Skype 會議應用程式以搭配 Teams 運作](configure-skype-meetings-app-to-work-with-teams.md)
 
 ## 與外部使用者通訊
 ### [與其他組織的使用者通訊](communicate-with-users-from-other-organizations.md)
@@ -129,6 +129,7 @@
 ## [快速入門 - 會議與即時活動](quick-start-meetings-live-events.md)
 ## [規劃您的部署](deploy-meetings-microsoft-teams-landing-page.md)
 ## [教學課程：Teams 中的會議](Tutorial-Meetings-in-Teams.yml)
+## [Teams 會議中的簡報者和參與者功能](roles-in-meetings.md)
 ## [管理會議原則](meeting-policies-in-teams.md)
 ## [管理會議設定](meeting-settings-in-teams.md)
 ## [在設定變更時傳送給使用者的電子郵件](emails-sent-to-users-when-their-settings-change-in-teams.md) 
@@ -137,6 +138,7 @@
 ## [在不支援的瀏覽器上進行 Teams 會議](unsupported-browsers.md)
 ## [在 Teams 中設定桌面共用](configure-desktop-sharing.md)
 ## [Teams 雲端會議錄製](cloud-recording.md)
+## [連絡中心整合](teams-contact-center.md)
 ## [在 Outlook 中使用 Teams 會議增益集](teams-add-in-for-outlook.md)
 ## [為您的使用者設定語音來電功能](set-up-the-call-me-feature-for-your-users.md)
 ## [取得會議出席報告](teams-analytics-and-reports/meeting-attendance-report.md)
@@ -213,6 +215,7 @@
 ## 即時活動
 ### [什麼是 Teams 即時活動？](teams-live-events/what-are-teams-live-events.md)
 ### [Teams 即時活動的方案](teams-live-events/plan-for-teams-live-events.md)
+### [即時活動中的簡報者和參與者功能](roles-in-live-events.md)
 ### [設定 Teams 即時活動](teams-live-events/set-up-for-teams-live-events.md)
 ### [使用 PowerShell 設定 Teams 即時活動原則](teams-live-events/set-teams-live-events-policies-using-powershell.md)
 ### [設定 Teams 即時活動設定](teams-live-events/configure-teams-live-events.md)
@@ -670,6 +673,7 @@
 ## 合規性
 ### [資訊屏障](information-barriers-in-teams.md)
 ### [保留原則](retention-policies.md)
+### [通話和會議的原則式錄製](teams-recording-policy.md)
 ### [資料遺失防護](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### 電子文件探索
 #### [針對內容進行電子文件探索調查](ediscovery-investigation.md)
@@ -776,6 +780,7 @@
 ## Teams PowerShell
 ### [概觀](teams-powershell-overview.md)
 ### [Teams 的 Cmdlet 參考](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
+### [安裝前版 Teams PowerShell 模組](install-prerelease-teams-powershell-module.md)
 
 ## [Teams 開發人員文件](https://docs.microsoft.com/microsoftteams/platform)
 ## [在 Teams 中取得說明](get-help-in-microsoft-teams.md)
