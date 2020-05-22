@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 系統管理員可以瞭解 Microsoft 團隊聊天室的已知問題清單，包括更新、使用者介面、硬體、限制及預期行為。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d8f7dcd6453458885a35bdcf7b39e729cc776f5a
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: e3cb46ed1ca3fde81f301ec6c2f2f8620452b389
+ms.sourcegitcommit: f63cf7fdde333a7cb36c39e9b6cdc33afd2b4601
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905415"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "44338223"
 ---
 # <a name="known-issues"></a>已知問題 
  
@@ -29,22 +29,24 @@ ms.locfileid: "43905415"
 <a name="update"> </a>  
 ## <a name="update"></a>時更新 
 
-| 問題標題 |  行為\/症狀 | 已知的因應措施 | 知識庫文章 |
+| 問題標題 |  行為 \/ 症狀 | 已知的因應措施 | 知識庫文章 |
 |  ---        |      ---             |   ---            | --- |
 |  App 已過期         |    Microsoft [團隊聊天室] 主控台顯示「系統組態已過期」錯誤。                |   [使用 Microsoft 團隊會議室恢復工具](recovery-tool.md)             |  無 |
 |  裝置更新為不受支援的 Windows 10 版本   |    Windows 10 裝置從版本1803更新至不受支援的版本1809。 支援的版本為1903。 |   如果 DeferFeatureUpdatesPeriodinDays 設定的[群組原則或 MDM](https://docs.microsoft.com/windows/deployment/update/waas-configure-wufb)設定（可讓您將功能更新推遲至指定的天數），則會發生這種情況，將其設定為最大值365天。 <br><br> Microsoft 團隊聊天室不支援 Windows 10 版本1809，而版本1903則受支援。 不過，從2020年3月27日起，版本1809超過365天。 如果此設定未變更，Windows 會嘗試安裝版本1809，這可能會導致 Microsoft 團隊聊天室發生問題。<br><br>若要避免這種情況，請**移除**任何群組原則或任何推遲更新的 MDM 設定。 這可讓 Windows 更新到最新支援的 OS 版本。 <br><br>**重要**必須**移除**[群組原則] 或 [MDM] 設定（[保留未設定]），且**未設定為 0**。 如果原則設定為0，Windows 會採用可能不受支援的最新可用版本。 |  無 |
+| 應用程式無法啟動 |  更新至應用程式版本4.4.41.0 之後，系統會從黑屏啟動到黑屏，或在幾分鐘後移至登入畫面。 | 請遵循 Microsoft 團隊聊天室中的步驟，在[更新至版本4.4.41.0 之後](https://docs.microsoft.com/microsoftteams/troubleshoot/teams-administration/teams-rooms-app-wont-start-after-update)，才能修正這個問題。  | 無 |
+
 
 <a name="OS-conflicts"> </a>  
 ## <a name="user-interface"></a>使用者介面 
 
-| 問題標題 |  行為\/症狀 | 已知的因應措施 | 知識庫文章 |
+| 問題標題 |  行為 \/ 症狀 | 已知的因應措施 | 知識庫文章 |
 |  ---        |      ---             |   ---            | --- |
 |找不到虛擬鍵盤   | 當您需要在 Microsoft 團隊聊天室中輸入資訊時，不會顯示虛擬鍵盤。 這個問題會發生在 Windows 10 版本1903。 | 透過 Windows 更新，為 Windows 10 （版本1903）安裝2020-04 累積更新。  | 無 | 
 
 <a name="Hardware"> </a>  
 ## <a name="hardware"></a>硬體
 
-| 問題標題 |  行為\/症狀 | 已知的因應措施 | 知識庫文章 |
+| 問題標題 |  行為 \/ 症狀 | 已知的因應措施 | 知識庫文章 |
 |  ---        |      ---             |   ---            |   --- |
 | 未偵測到監視器 | 當您在 Surface Pro （模型2017）裝置上執行 Microsoft 團隊聊天室時，系統不會偵測到監視器。 |  按住 Surface Pro 電源按鈕20秒以上的時間。 當您這麼做時，裝置會重新開機並清除圖形快取。 |[KB4055681](https://support.microsoft.com/help/4055681/monitors-are-not-detected-when-you-run-skype-room-systems-on-a-surface)       | 
 
@@ -66,8 +68,6 @@ Microsoft 團隊會議室不支援 HDCP 輸入，但已觀察到可導致 HDMI �
 ***
 
 如果您的 Microsoft 團隊聊天室裝置無法與網域失去信任，您就無法在裝置上進行驗證，也無法開啟 [設定]。 例如，如果您在網域加入後從網域中移除 Microsoft 團隊聊天室，信任就會遺失。 解決方法是使用本機管理員帳戶登入。 
-***
-Microsoft 團隊聊天室版本3.0.12.0 不再支援64位版本的 Windows 10 Enterprise 周年紀念日（英文、版本1607）。 
 ***
 Microsoft [團隊會議室] 是一個多視窗應用程式，且需要將房間顯示器正面連接到裝置的 HDMI 埠，才能讓 app 正常運作。 如果您正在測試，但尚未購買顯示器，請確定您已連接 HDMI 顯示器，或使用虛擬 HDMI 插頭。
 ***

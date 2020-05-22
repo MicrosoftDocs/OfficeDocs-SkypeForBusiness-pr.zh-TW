@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: 摘要：使用本主題準備商務用 Skype Server 2015 伺服器。 硬體、作業系統、資料庫、軟體、所有系統需求與建議，以協助確保成功安裝及部署您的伺服器陣列。
-ms.openlocfilehash: 53ce5d464b9faea14ca6970f85b3f937af8238e2
-ms.sourcegitcommit: f9860dbf3c719fec5ffc1874b503b6db252afe10
+ms.openlocfilehash: 02ccebca4eebef84638992dd88ba45040e733d19
+ms.sourcegitcommit: b1f7f1435c5e72c2eea4069fbb0bea29b197cb80
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "43237946"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "44342453"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>商務用 Skype Server 2015 的伺服器需求
  
@@ -178,15 +178,14 @@ Edge Server、獨立轉送伺服器、影片 Interop 伺服器及 Director 的�
 <a name="Software"> </a>
 
 您需要針對執行商務用 Skype Server 2015 的任何伺服器安裝或設定某些事項，如下所列。 之後是特定伺服器角色的其他需求。
-  
-> [附注！]商務用 Skype server 2015 不支援 .NET Framework 4.8。
+
   
  **所有伺服器：**
   
 |**軟體/角色**|**詳細資料**|
 |:-----|:-----|
-|Windows PowerShell 3.0  <br/> |所有商務用 Skype Server 伺服器都需要安裝 Windows PowerShell 3.0。  <br/> •如果您是在 Windows Server 2012 或 Windows Server 2012 R2 上執行安裝，您已設定，因為已存在。  <br/> •如果您是在 Windows Server 2008 R2 上進行升級，您可以下載[Windows Management Framework 3.0](https://www.microsoft.com/download/details.aspx?id=34595)以取得。 <br/> **秘訣：** 當您在該 PowerShell 上有正確的，請移至 PowerShell 提示字元並輸入`$PSVersionTable`，以確認 BuildVersion 6.2.9200.0 或更新版本。 這應該會顯示您需要的資訊。  <br/> |
-|Microsoft .NET Framework  <br/> |WCF 服務是一種安裝為 Windows 功能的**功能**，在 [**伺服器管理員**] 下，不需要下載。 <br/> •您必須確定當您安裝此功能時，或是否已安裝此功能，也會檢查並安裝**HTTP 啟用**選項，如下所示： <br/> ![顯示 .NET Framework 4.5 功能底下的 HTTP 啟用選項的螢幕擷取畫面。](../../media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png)如果您還有其他的彈出提示，請不要擔心，您必須安裝一些其他事項，才能安裝 HTTP 啟用。 這是正常的，請按一下 [確定] 並繼續。 如果您未看到此快顯視窗，請假設已安裝這些專案，然後繼續。  <br/> 安裝 Windows Server 2012 R2 或 Windows Server 2016 時，通常會安裝 Microsoft .NET Framework。 商務用 Skype Server 搭配下列 Microsoft .NET Framework 版本運作：  <br/> • .NET 3。5  <br/> • .NET 4。5  <br/> • .NET 4.6 x  <br/> • .NET 4.7.1 （適用于商務用 Skype Server CU 5 或更新版本）  <br/> • .NET 4.7.2 版（適用于商務用 Skype Server CU 6 或更新版本）  <br/>  • .NET 4.8 （適用于商務用 Skype Server CU 9 或更新版本） <br/>  .NET Framework 3.5 在 Windows Server 2008 R2 電腦上可能預設會安裝（明確檢查您是否要在升級之前確定），但實際上這不是在 Windows Server 2012/Windows Server 2012 R2 伺服器上（適用于全新安裝）。 若要將其加入，您必須存取安裝磁片磁碟機或媒體（從 Windows Server 安裝的位置，或現在安裝檔案的位置）。 接下來，將其安裝為伺服器管理員的功能，並在要求時指向安裝媒體（特別是**\sources\sxs**資料夾），然後繼續安裝。 <br/> |
+|Windows PowerShell 3.0  <br/> |所有商務用 Skype Server 伺服器都需要安裝 Windows PowerShell 3.0。  <br/> •如果您是在 Windows Server 2012 或 Windows Server 2012 R2 上執行安裝，您已設定，因為已存在。  <br/> •如果您是在 Windows Server 2008 R2 上進行升級，您可以下載[Windows Management Framework 3.0](https://www.microsoft.com/download/details.aspx?id=34595)以取得。 <br/> **秘訣：** 當您在該 PowerShell 上有正確的，請移至 PowerShell 提示字元並輸入，以確認 BuildVersion 6.2.9200.0 或更新版本 `$PSVersionTable` 。 這應該會顯示您需要的資訊。  <br/> |
+|Microsoft .NET Framework  <br/> |WCF 服務是一種安裝為 Windows 功能的**功能**，在 [**伺服器管理員**] 下，不需要下載。 <br/> •您必須確定當您安裝此功能時，或是否已安裝此功能，也會檢查並安裝**HTTP 啟用**選項，如下所示： <br/> ![顯示 .NET Framework 4.5 功能底下的 HTTP 啟用選項的螢幕擷取畫面。 ](../../media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png)如果您還有其他的彈出提示，請不要擔心，您必須安裝一些其他事項，才能安裝 HTTP 啟用。 這是正常的，請按一下 [確定] 並繼續。 如果您未看到此快顯視窗，請假設已安裝這些專案，然後繼續。  <br/> 安裝 Windows Server 2012 R2 或 Windows Server 2016 時，通常會安裝 Microsoft .NET Framework。 商務用 Skype Server 搭配下列 Microsoft .NET Framework 版本運作：  <br/> • .NET 3。5  <br/> • .NET 4。5  <br/> • .NET 4.6 x  <br/> • .NET 4.7.1 （適用于商務用 Skype Server CU 5 或更新版本）  <br/> • .NET 4.7.2 版（適用于商務用 Skype Server CU 6 或更新版本）  <br/>  • .NET 4.8 （適用于商務用 Skype Server CU 9 或更新版本） <br/>  .NET Framework 3.5 在 Windows Server 2008 R2 電腦上可能預設會安裝（明確檢查您是否要在升級之前確定），但實際上這不是在 Windows Server 2012/Windows Server 2012 R2 伺服器上（適用于全新安裝）。 若要將其加入，您必須存取安裝磁片磁碟機或媒體（從 Windows Server 安裝的位置，或現在安裝檔案的位置）。 接下來，將其安裝為伺服器管理員的功能，並在要求時指向安裝媒體（特別是**\sources\sxs**資料夾），然後繼續安裝。 <br/> |
 |媒體基礎  <br/> |若為 Windows Server 2016，Windows Server 2012 和 Windows Server 2012 R2 Windows Media Format Runtime 會隨 Microsoft Media Foundation 一起安裝。  <br/> 所有供會議使用的前端伺服器和 Standard Edition 伺服器，都需要 Windows Media Format Runtime 執行 Windows Media Audio （.wma）檔案，該檔案會對宣告和音樂播放通話駐留、宣告及回應群組應用程式。  <br/> |
 |Windows Identity Foundation  <br/> |我們需要 Windows Identity Foundation 3.5，以支援商務用 Skype Server 2015 的伺服器對伺服器驗證案例。  <br/> •針對 Windows Server 2012 和 Windows Server 2012 R2，不需要下載任何專案。 開啟 [**伺服器管理員**]，然後移至 [**新增角色及功能] 嚮導**。 **Windows Identity Foundation 3.5**會列于 [**功能**] 區段中。 如果已勾選，表示您已是好的。 否則選取它，然後按一下 [下一步] 進入 [**安裝**] 按鈕。 <br/> |
 |遠端伺服器管理工具  <br/> |角色管理工具： AD DS 和 AD LDS 工具  <br/> |

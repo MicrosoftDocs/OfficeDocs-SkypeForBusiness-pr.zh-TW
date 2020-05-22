@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: 瞭解 Microsoft Phone 系統 Direct 路由如何讓您將支援的客戶提供的會話邊界控制器（SBC）連線至 Microsoft Phone 系統。
-ms.openlocfilehash: 7d5a69ff3b0533d17d6582489fad6e156d8df1c7
-ms.sourcegitcommit: 6fbaab29076e16fe18f8faeb7e012a0815c2369d
+ms.openlocfilehash: 14b14302aa3f75a164e6e6dbbef5cc91fc2b47cf
+ms.sourcegitcommit: f63cf7fdde333a7cb36c39e9b6cdc33afd2b4601
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43785936"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "44338233"
 ---
 # <a name="plan-direct-routing"></a>規劃直接路由
 
@@ -73,9 +73,9 @@ Microsoft 也提供所有雲端語音解決方案，例如通話方案。 不過
 |連線至 SBC 的電話語音 trunks|一個或多個連線至 SBC 的電話 trunks。 在一端，SBC 透過直接路由連接到 Microsoft 手機系統。 SBC 也可以連接到協力廠商電話實體，例如 Pbx、類比電話卡等。 任何連接至 SBC 的 PSTN 連接選項都會正常運作。 （如需將 PSTN trunks 設定至 SBC，請參閱 SBC 廠商或主幹提供者）。|
 |Office 365 組織|您用來家用 Microsoft 團隊使用者的 Office 365 組織，以及與 SBC 的設定和連線。|
 |使用者註冊機構|使用者必須駐留在 Office 365 中。<br/>如果您的公司有內部部署商務用 Skype 或 Lync 環境，且其混合式連線至 Office 365，則您無法在團隊中為使用者駐留內部部署啟用語音功能。<br/><br/>若要檢查使用者的註冊機構，請使用下列商務用 Skype Online PowerShell Cmdlet：<br/><code>Get-CsOnlineUser -Identity \<user> \| fl HostingProvider</code> <br/><br/>Cmdlet 的輸出應該會顯示：<br/><code>HostingProvider : sipfed.online.lync.com</code>|
-|定義域|一或多個網域新增至您的 Office 365 組織。<br/><br/>請注意，您無法使用針對您的\*租使用者自動建立的預設網域 onmicrosoft.com。<br/><br/>若要查看網域，您可以使用下列商務用 Skype Online PowerShell Cmdlet：<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>如需網域和 Office 365 組織的詳細資訊，請參閱[網域常見問題](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a)。|
+|定義域|一或多個網域新增至您的 Office 365 組織。<br/><br/>請注意，您無法使用 \* 針對您的租使用者自動建立的預設網域 onmicrosoft.com。<br/><br/>若要查看網域，您可以使用下列商務用 Skype Online PowerShell Cmdlet：<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>如需網域和 Office 365 組織的詳細資訊，請參閱[網域常見問題](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a)。|
 |SBC 的公用 IP 位址|可用於連線至 SBC 的公用 IP 位址。 根據 SBC 的類型而定，SBC 可以使用 NAT。|
-|SBC 的完整功能變數名稱（FQDN）|SBC 的 FQDN，在這種情況下，FQDN 的網域部分是您 Office 365 組織中已註冊的網域之一。 如需詳細資訊，請參閱[SBC 功能變數名稱](#sbc-domain-names)。|
+|SBC 的完整功能變數名稱（FQDN）|SBC 的 FQDN，FQDN 的網域部分是您 Office 365 組織中已註冊的網域之一。 如需詳細資訊，請參閱[SBC 功能變數名稱](#sbc-domain-names)。|
 |SBC 的公用 DNS 專案 |將 SBC FQDN 對應至公用 IP 位址的公用 DNS 專案。 |
 |SBC 公開信任的憑證 |SBC 的憑證，用於與直接路由的所有通訊。 如需詳細資訊，請參閱[SBC 的公用信任憑證](#public-trusted-certificate-for-the-sbc)。|
 |直接路由的連接點 |直接路由的連接點是下列三個 Fqdn：<br/><br/>`sip.pstnhub.microsoft.com`–必須先嘗試使用全域 FQDN。<br/>`sip2.pstnhub.microsoft.com`–次要 FQDN，地理位置對應至第二個優先順序區域。<br/>`sip3.pstnhub.microsoft.com`–三元 FQDN，地理位置對應至第三個優先順序區域。<br/><br/>如需設定需求的相關資訊，請參閱[SIP 信號： fqdn](#sip-signaling-fqdns)。|
@@ -132,7 +132,7 @@ Microsoft 團隊媒體的防火牆 IP 位址和埠 |如需詳細資訊，請參�
 
 ## <a name="sbc-domain-names"></a>SBC 網功能變數名稱稱
 
-SBC 網功能變數名稱稱必須來自于租使用者網域中註冊的其中一個名稱。 您無法針對 SBC \*的 FQDN 名稱使用 onmicrosoft.com 租使用者。
+SBC 網功能變數名稱稱必須來自于租使用者網域中註冊的其中一個名稱。 您無法 \* 針對 SBC 的 FQDN 名稱使用 onmicrosoft.com 租使用者。
 
 下表顯示針對租使用者註冊的 DNS 名稱範例，無論該名稱是否可做為 SBC 的 FQDN，以及有效 FQDN 名稱的範例：
 
@@ -155,9 +155,9 @@ Microsoft 建議您透過產生認證簽署要求（CSR）來要求 SBC 的憑�
   > [!NOTE]
   > 大多數憑證授權單位（Ca）需要私密金鑰大小至少為2048。 產生 CSR 時，請記住這一點。
 
-憑證必須在 [主旨]、[常見名稱] 或 [subject 替代名稱] 欄位中有 SBC FQDN。
+憑證在 subject 欄位中必須將 SBC FQDN 做為公用名（CN）。
 
-或者，直接路由支援 SAN 中的萬用字元，而萬用字元必須符合[TLS 上標準 RFC HTTP](https://tools.ietf.org/html/rfc2818#section-3.1)的要求。 在 SAN 中將會\*使用 contoso.com，這會與 SBC FQDN sbc.contoso.com 相符，但不會與 sbc.test.contoso.com 相符。
+或者，直接路由支援 SAN 中的萬用字元，而萬用字元必須符合[TLS 上標準 RFC HTTP](https://tools.ietf.org/html/rfc2818#section-3.1)的要求。 \*在 SAN 中將會使用 contoso.com，這會與 SBC FQDN sbc.contoso.com 相符，但不會與 sbc.test.contoso.com 相符。
 
 憑證需要由下列其中一個根憑證授權單位產生：
 
@@ -280,7 +280,7 @@ SBC 會進行 DNS 查詢來解析 sip.pstnhub.microsoft.com。 根據 SBC 位置
 
 
 
-媒體流量會流過 Microsoft 雲端中的個別服務。 媒體流量的 IP 範圍如下所示。
+媒體流量會流過 Microsoft 雲端中的個別服務。 媒體流量的 IP 位址範圍如下所示。
 
 ### <a name="office-365-and-office-365-gcc-environments"></a>Office 365 和 Office 365 GCC 環境
 
