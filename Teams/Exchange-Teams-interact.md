@@ -16,25 +16,25 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9475b323e1b9b04c5735a656eac5766b8a110810
-ms.sourcegitcommit: 48b24ccf133c9d03b0d1d4eea1ec275b2be5e3bb
+ms.openlocfilehash: ca63f95bb95a304fc410b402a68a52e5b1aeca9e
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44016177"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44349637"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 與 Microsoft 團隊如何互動
 
 > [!Tip]
 > 請觀看下列會話，瞭解團隊與 Azure Active Directory （AAD）、Microsoft 365 群組、Exchange、SharePoint 和商務用 OneDrive 的互動方式： [Microsoft 團隊的基礎](https://aka.ms/teams-foundations)
 
-為了獲得完整的 Teams 體驗，每個使用者都應能夠建立 Exchange Online、SharePoint Online 和 Office 365 群組。
+針對完整的團隊體驗，每位使用者都應該啟用 Exchange Online、SharePoint Online 和 Microsoft 365 群組建立。
 
 使用者的 Exchange 信箱可以在線上託管或內部部署。 整合內部部署 Exchange 需要 Exchange 混合式部署。 如需有關設定混合式部署的詳細資訊，請參閱[Exchange 伺服器混合式部署](https://docs.microsoft.com/exchange/exchange-hybrid)。
 
 以 Exchange Online 或 Exchange 專用 vNext 為宿主的使用者可以使用團隊的所有功能。 他們可以建立及加入團隊和頻道、建立及觀看會議、呼叫及聊天、修改使用者設定檔圖片（如果 Outlook 網頁版信箱原則允許他們這麼做），以及新增及設定連接器、索引標籤和 bot。
 
-以 Exchange Online 專用（舊版）託管的使用者必須同步處理到 Office 365 上的 Azure Active Directory。 他們可以建立及加入團隊與頻道、新增及設定索引標籤和機器人，以及利用聊天與通話功能。 不過，他們無法修改個人檔案圖片、管理會議、存取 outlook 連絡人或管理連接器。
+在 Exchange Online 專用（舊版）中託管的使用者，必須在 Microsoft 365 或 Office 365 上同步處理到 Azure Active Directory。 他們可以建立及加入團隊與頻道、新增及設定索引標籤和機器人，以及利用聊天與通話功能。 不過，他們無法修改個人檔案圖片、管理會議、存取 outlook 連絡人或管理連接器。
 
 擁有內部部署之信箱的使用者必須同步處理到 Azure Active Directory。 它們可以利用上述案例中的所有功能，此外，他們也可以變更使用者設定檔圖片（如果 Outlook 網頁版信箱原則允許他們這麼做），以及管理會議（如果您提供 Exchange Server 2016 （累加更新3）或更新版本），都是在[exchange 與 Exchange Online 組織之間設定 oauth 驗證](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)的情況下，在內部部署上使用 oauth 設定（最好是透過 exchange 混合式設定向導）。 若要為這些使用者啟用行事曆委派，您也必須按照在商務用[Skype Online 與 Exchange Server 之間設定整合和 OAuth](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)中的說明，來完成步驟2-3。這些步驟會提供小組排程應用程式，以確認委派許可權所需的許可權。   
 
@@ -45,12 +45,12 @@ ms.locfileid: "44016177"
 
 **支援的動作：**
 
-| 使用者的信箱託管于： | eDiscovery| 法律&nbsp;封存 | 留成| 團隊和頻道管理 |在團隊中建立及查看會議| 修改使用者個人資料圖片 | 通話記錄 | 管理連絡人 | 存取 Outlook 連絡人 | 語音信箱 |新增及設定連接器|新增及設定索引標籤|新增及設定 bot| 
+| 使用者的信箱託管于： | eDiscovery| 法律 &nbsp; 封存 | 留成| 團隊和頻道管理 |在團隊中建立及查看會議| 修改使用者個人資料圖片 | 通話記錄 | 管理連絡人 | 存取 Outlook 連絡人 | 語音信箱 |新增及設定連接器|新增及設定索引標籤|新增及設定 bot| 
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |**Exchange Online**|是<sup>2</sup>|是<sup>2</sup>|是|是|是|是<sup>8</sup>|是|是|是<sup>7</sup>|是|是|是|是|
 |**Exchange Online 專用 vNext**|是<sup>2</sup>|是<sup>2</sup>|是|是|是|是<sup>8</sup>|是|是|是<sup>7</sup>|是|是|是|是|
-|**Exchange Online 專用–傳統**版（需要同步處理到 Azure AD）|是<sup>2</sup>|是<sup>2、3</sup>|是<sup>4|是|否|否|是|是|否|是<sup>5|是<sup>6|是|是|
-|**Exchange 內部部署**（需要同步處理到 Azure AD & OAuth 配置）|是<sup>2</sup>| 是<sup>2</sup> |是<sup>4|是|是（Exchange 2016 CU3 +）|是<sup>8</sup> （EXCHANGE 2016 CU3 +）|是|是|否|是<sup>5|是<sup>6|是|是|
+|**Exchange Online 專用–傳統**版（需要同步處理到 Azure AD）|是<sup>2</sup>|是<sup>2、3</sup>|是 <sup> 4|是|否|否|是|是|否|是 <sup> 5|是 <sup> 6|是|是|
+|**Exchange 內部部署**（需要同步處理到 Azure AD & OAuth 配置）|是<sup>2</sup>| 是<sup>2</sup> |是 <sup> 4|是|是（Exchange 2016 CU3 +）|是<sup>8</sup> （EXCHANGE 2016 CU3 +）|是|是|否|是 <sup> 5|是 <sup> 6|是|是|
 
 支援<sup>1</sup>個 EXCHANGE 2016 CU3 及以上版本。  
 
@@ -70,18 +70,21 @@ ms.locfileid: "44016177"
 
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>充分利用 Microsoft 團隊的需求
 
-Microsoft 團隊可搭配數種 Office 365 服務使用，為使用者提供豐富的體驗。 若要支援此體驗，您必須啟用某些功能或服務並指派授權。
+Microsoft 團隊與數個 Microsoft 365 和 Office 365 服務搭配使用，可為使用者提供豐富的體驗。 若要支援此體驗，您必須啟用某些功能或服務並指派授權。
 
 - 若要在小組交談中共用和儲存檔案，必須具備 SharePoint Online。 Microsoft 團隊不支援 SharePoint 內部部署。
 
-- 如果使用者想要在聊天中共用檔案，則必須指派 SharePoint Online 授權。 如果使用者未使用 SharePoint Online 授權指派及啟用，他們在 Office 365 中就沒有商務用 OneDrive 儲存空間。 檔案共用功能會繼續在頻道中運作，但是使用者無法在 Office 365 中的商務用 OneDrive 儲存空間中共用檔案。
+- 如果使用者想要在聊天中共用檔案，則必須指派 SharePoint Online 授權。 如果使用者未使用 SharePoint Online 授權指派及啟用，他們在 Microsoft 365 或 Office 365 中不會有商務用 OneDrive 儲存空間。 檔案共用功能會繼續在頻道中運作，但是使用者無法在 Microsoft 365 或 Office 365 中的商務用 OneDrive 儲存空間中共用檔案。
 
-- 若要在 Microsoft 團隊中建立小組，必須為使用者啟用 Office 365 群組建立功能。
+- 若要在 Microsoft 團隊中建立小組，必須為使用者啟用 Microsoft 365 群組建立功能。
 
 - 若要讓 Microsoft 團隊與 Exchange 內部部署搭配運作，您必須設定新的 Exchange OAuth 驗證通訊協定（最好是執行 Exchange 混合式嚮導），如在[Exchange 與 Exchange Online 組織之間設定 OAuth 驗證](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)中所述。 若要讓使用 Exchange 內部部署信箱的使用者以其他使用者的身分排程團隊會議，您也必須按照在[商務用 Skype Online 與 Exchange Server 之間設定整合和 OAuth](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)中的說明，來完成步驟2-3。 
 
 > [!NOTE]
->針對 Exchange 內部部署與團隊整合，必須針對 AAD 同步處理的使用者指派所需的授權。
+> Outlook [團隊] 增益集可以用來針對 Exchange 內部部署中託管的信箱排程小組會議。 不過，若要使用 Exchange 內部部署來代表另一個使用者排程團隊會議，需要 Exchange 2013 CU9 及更新版本，以及新的 Exchange OAuth 驗證通訊協定。 Delegate 與 delegator 都必須在 Exchange 內部部署上擁有信箱。
+
+> [!NOTE]
+> 針對 Exchange 內部部署與團隊整合，必須針對 AAD 同步處理的使用者指派所需的授權。
 
 > [!IMPORTANT]
 > 如果您在將使用者移至 [**僅限團隊**] 模式之後卸載商務用 Skype 用戶端，目前狀態可能會在 Outlook 和其他 Office app 中停止運作。 目前狀態在 Teams 中可正常運作。 若要解決此問題，請在 Microsoft 團隊右上角選取您的個人檔案圖片，然後選取 [**設定**]。 在 [**一般**] 索引標籤的 [**應用程式**] 底下，選取 **[以 Office 聊天應用程式註冊團隊（需要重新開機 office 應用程式）**]。 選取此選項之後，請關閉並重新開啟所有 Office app （包括 Outlook）。 開啟 Outlook 之後，便可使用目前狀態資訊。
@@ -96,7 +99,7 @@ Microsoft 團隊可搭配數種 Office 365 服務使用，為使用者提供豐�
 
 - 如果您的組織具備合規性需求，以確保所有會議討論都能被發現，您應該在召集人擁有 Exchange 內部部署信箱時，停用 [私人會議]。
 
-- 在 Exchange 混合式部署中，無論聊天參與者是否有雲端型信箱或內部部署信箱，都可以搜尋聊天訊息中的內容。 若要深入瞭解，請閱讀在[Office 365 中搜尋內部部署使用者的雲端信箱](https://docs.microsoft.com/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users)。 若要瞭解如何在團隊中搜尋內容，請參閱[Microsoft 365 規範中心中的內容搜尋](https://docs.microsoft.com/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups)。
+- 在 Exchange 混合式部署中，無論聊天參與者是否有雲端型信箱或內部部署信箱，都可以搜尋聊天訊息中的內容。 若要深入瞭解，請參閱[搜尋以雲端為基礎的信箱給內部部署使用者](https://docs.microsoft.com/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users)。 若要瞭解如何在團隊中搜尋內容，請參閱[Microsoft 365 規範中心中的內容搜尋](https://docs.microsoft.com/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups)。
 
 > [!TIP]
 > 如需如何使用 Azure AD Connect 與 Azure Active Directory 同步處理的相關資訊，請參閱[整合內部部署身分識別與 Azure Active directory](https://go.microsoft.com/fwlink/?linkid=854600)。

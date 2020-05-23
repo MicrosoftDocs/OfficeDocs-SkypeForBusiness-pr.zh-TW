@@ -21,18 +21,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e59cb13759e078ae9686396635f41bd95fce90b8
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: c10fcf4f93319a351304ded03f1b3889f8d5c7ca
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904935"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350297"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>瞭解 Microsoft 團隊中的團隊和頻道
 
 團隊和頻道的概念是 Microsoft 團隊良好、高效實施的基礎。 
 
-- 小組是共同作業的人員、內容和工具集合，共同為您的公司產生商業成果。 Teams 的建置基礎為 Microsoft 365 群組，因此 Office 365 群組成員資格的變更會同步至團隊。 
+- 小組是共同作業的人員、內容和工具集合，共同為您的公司產生商業成果。 Teams 的建置基礎為 Microsoft 365 群組，因此 Office 365 群組成員資格的變更會同步至團隊。
 
 - [頻道] 是指小組中的共同作業空間，實際工時已完成。 
 
@@ -61,4 +61,4 @@ ms.locfileid: "43904935"
   
 您可以在實施的[階段 2](teams-adoption-phase2-experiment.md)中，更深入地發揮團隊結構。
 
-![描述下一個步驟](media/teams-adoption-next-icon.png)的圖示：[建立您的第一份團隊](teams-adoption-your-first-teams.md)
+![描述下一個步驟的圖示 ](media/teams-adoption-next-icon.png) ：[建立您的第一份團隊](teams-adoption-your-first-teams.md)

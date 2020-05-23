@@ -21,12 +21,12 @@ f1.keywords:
 description: 瞭解如何衡量團隊規模廣泛啟用的結果與成功率。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f963acb58369e7b623969cb518f53249912bfd67
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 5a51caae2e8d8e9005aad3d8e669eead3b7a0765
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140796"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350137"
 ---
 # <a name="define-outcomes-and-success-for-your-microsoft-teams-adoption"></a>為您的 Microsoft 團隊採納定義結果與成功
 
@@ -79,13 +79,13 @@ ms.locfileid: "43140796"
 | 團隊優先 | 團隊核心 | 團隊變大 | 並排 Skype | 移轉 |
 |------------ | ---------- | ------------ | ------------------ | --------- |
 | 與小組領導雲端部署 | 團隊領導共同作業案例 | 團隊和組織範圍團隊中的所有員工 | 啟用團隊和商務用 Skype | 從商務用 Skype 將使用者遷移至團隊 |
-| -適用于新的或低使用量的 Office 365 客戶 <br/>-在客戶特定案例中靠團隊打頭陣 <br/>-醒目提示集成的使用者經驗，並加速 Office 365 的價值 <br/>-配合規劃工作負載來避免串列實現 | -啟用團隊以及 OneDrive 和 SharePoint Online <br/>-使用 Microsoft Stream 建立公司內部網路以共用新聞資源和影片<br/>**更好地搭配**： <br/>Teams<br/>SharePoint<br/>Yammer<br/>Planner<br/>PowerApps |-適用于低於5000座位的客戶（目前限制）<br/>-啟用跨組織與一個團隊共同作業<br/>-自動化一般工作（假期要求、員工勘察、管理層參與） |-使用團隊核心戰術來加速共同作業<br/>-根據所需大小和功能集醒目提示會議案例指引</br>-使用商務用 Skype 進行企業通話、互通性及混合式案例<br/>-使用公用藍圖進行功能規劃。 |-規劃從商務用 Skype 移至團隊，方法是建立客戶的服務戰略藍圖<br/>-附加至功能版本排程<br/>-建議包含並排和小組核心，以簡化轉場
+| -適用于新的或低使用量 Microsoft 365 或 Office 365 客戶 <br/>-在客戶特定案例中靠團隊打頭陣 <br/>-針對 Microsoft 365 或 Office 365 醒目提示整合的使用者經驗及加速的價值 <br/>-配合規劃工作負載來避免串列實現 | -啟用團隊以及 OneDrive 和 SharePoint Online <br/>-使用 Microsoft Stream 建立公司內部網路以共用新聞資源和影片<br/>**更好地搭配**： <br/>Teams<br/>SharePoint<br/>Yammer<br/>Planner<br/>PowerApps |-適用于低於5000座位的客戶（目前限制）<br/>-啟用跨組織與一個團隊共同作業<br/>-自動化一般工作（假期要求、員工勘察、管理層參與） |-使用團隊核心戰術來加速共同作業<br/>-根據所需大小和功能集醒目提示會議案例指引</br>-使用商務用 Skype 進行企業通話、互通性及混合式案例<br/>-使用公用藍圖進行功能規劃。 |-規劃從商務用 Skype 移至團隊，方法是建立客戶的服務戰略藍圖<br/>-附加至功能版本排程<br/>-建議包含並排和小組核心，以簡化轉場
 
 以下是我們針對大多數客戶組織的建議。 不過，也有例外狀況。 若要針對此處未提及的任何案例取得指導方針，請在我們的推動採用群體中提出您的問題，或與 FastTrack 小組或 Microsoft 合作夥伴網路取得聯繫。
 
 - **選擇 [團隊優先] 或 [團隊核心**]：大多陣列織都在 Microsoft 技術中擁有現有投資。 您可能一次啟用一個以上的工作負荷，例如 Exchange Online、商務用 OneDrive 或 SharePoint。 在這些情況下，選取 [團隊優先] 或 [團隊核心] 是明智的選擇。 它可讓您的使用者使用增強的小組共同作業體驗。 然後，您的共同作業專案小組可以計畫推出其他功能，以及他們成功所需的訓練與支援。 
 
-- **選擇 [團隊最大**的專案]：在新的 Office 365 客戶組織中，通常最好將小組最大限度地減少學習新技術所造成的變更 fatigue。 您可以為核心共同作業和會議、SharePoint、OneDrive、Planner 及其他工作負載提供最大的好處，讓員工能在小組部署的內容中瞭解這些專案。 
+- **選擇 [團隊最大**的功能]：在新的 Microsoft 365 或 Office 365 客戶組織中，通常最好將小組最大限度地減少學習新技術所造成的變更 fatigue。 您可以為核心共同作業和會議、SharePoint、OneDrive、Planner 及其他工作負載提供最大的好處，讓員工能在小組部署的內容中瞭解這些專案。 
 
     團隊也是最大的，也就是那些想要簡化員工溝通與接洽之1000員工的最佳支援策略。 使用組織範圍的小組可以讓人員共同查看任何裝置上的一般工作與計畫。 
 
@@ -137,7 +137,7 @@ ms.locfileid: "43140796"
 
 在 Microsoft 團隊中，驅動數位轉換和使用的重要部分是與您的營業單位合作，瞭解他們的需求、機遇和困難。 與傳統的 IT 與業務交談類似，您的重點應該視需要而定。 請聆聽，然後再移至技術需求。 在許多情況下，小組中的 [外框] 功能將會符合貴組織的需求。   
 
-最佳做法：在考慮開發自訂方案之前，請確定貴組織已充分使用 Office 365 的功能。 自訂方案開發對於您的 IT 和支援部門而言，永遠都是長期成本。
+最佳做法：在考慮開發自訂方案之前，請確定貴組織已完全使用 Microsoft 365 或 Office 365 的全新功能。 自訂方案開發對於您的 IT 和支援部門而言，永遠都是長期成本。
  
 採取下列步驟，簡化您的工作與業務單位的合作。  認識到在超大型大型企業中，這個程式可能會在您第一次大型部署 Microsoft 團隊後持續很長的時間：
 
@@ -147,4 +147,4 @@ ms.locfileid: "43140796"
 4. 捕獲意見反應，並使用業務單元知識開發擁護者以支援轉場。
 5. 設定每月檢查點以討論進度，以及排定其他專案的待辦事項的優先順序。
 
-![代表下一個步驟](media/teams-adoption-next-icon.png)的圖示：[優化意見反應與報告](teams-adoption-optimize-feedback-and-reporting.md)
+![代表下一個步驟的圖示 ](media/teams-adoption-next-icon.png) ：[優化意見反應與報告](teams-adoption-optimize-feedback-and-reporting.md)

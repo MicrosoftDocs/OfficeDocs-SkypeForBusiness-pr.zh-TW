@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a836ac2e2c5e461e8c2feacda4bfd3b569593a6a
-ms.sourcegitcommit: 1a6b4efad1e6a958cdbaae4b0e2e231145c9658f
+ms.openlocfilehash: 89e7db133b8878e77dbf14025b97c658b0de21e4
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44321612"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44349607"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>在 Outlook 中使用 Teams 會議增益集
 =======================================
@@ -44,7 +44,7 @@ Teams 會議增益集可讓使用者從 Outlook 安排 Teams 會議。 您可以
 
 ## <a name="teams-meeting-add-in-in-outlook-for-mac"></a>在 Mac 版 Outlook 中使用 Teams 會議增益集
 
-如果 Outlook 執行的是生產組建 16.24.414.0 及更新版本，且已透過 Office 365 用戶端訂閱啟用，則 Mac 版 Outlook 的 Teams 會議按鈕會出現在 Mac 版 Outlook 的功能區中。
+Outlook for Mac 中的 [小組會議] 按鈕會顯示在 outlook for Mac 功能區中（如果 Outlook 執行的是「生產」組建16.24.414.0 及更新版本），且是使用 Microsoft 365 或 Office 365 用戶端訂閱啟動。
 
 當使用者按一下 [傳送]**** 之後，會議座標 (Teams 的加入連結和撥入號碼) 將會新增至會議邀請。  
 

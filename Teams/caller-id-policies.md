@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何在 Microsoft 團隊中使用和管理本機號碼原則，以變更或封鎖貴組織中的小組使用者本機號碼。
-ms.openlocfilehash: a4dbdbac0922bb475f47447a3cf8b2d0f001909c
-ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
+ms.openlocfilehash: dde534d0c74b11b3c3131a7d5c9eb8611135f70f
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44224249"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44349777"
 ---
 # <a name="manage-caller-id-policies-in-microsoft-teams"></a>管理 Microsoft 團隊中的呼叫者識別碼原則
 
@@ -67,17 +67,21 @@ ms.locfileid: "44224249"
 
 ## <a name="assign-a-custom-caller-id-policy-to-users"></a>將自訂本機號碼原則指派給使用者
 
-您可以使用 Microsoft 團隊系統管理中心，將自訂原則指派給一或多個使用者或商務用 Skype PowerShell 模組，將自訂原則指派給使用者群組，例如安全群組或通訊群組。
+您可以使用 Microsoft 團隊系統管理中心，將自訂原則指派給一或多個使用者或商務用 Skype PowerShell 模組，將自訂原則指派給群組中的使用者，例如安全群組或通訊群組。
 
-### <a name="assign-a-custom-caller-line-id-policy-to-a-user"></a>為使用者指派自訂來電者行識別碼原則
+### <a name="assign-a-custom-caller-line-id-policy-to-users"></a>為使用者指派自訂來電者行識別碼原則
+
+若要將原則指派給一個使用者：
 
 1. 在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至 [使用者]****，然後按一下該使用者。
 2. 按一下 [**原則**]，然後在 [**指派的原則**] 旁，按一下 [**編輯**]。
 3. 在 [**本機號碼原則**] 底下，選取您要指派的原則，然後選擇 [**儲存**]。
 
-### <a name="assign-a-custom-calling-line-id-policy-to-multiple-users-at-a-time"></a>一次將自訂通話行識別碼原則指派給多位使用者
+若要一次將原則指派給多位使用者：
 
-若要一次將自訂通話行識別碼原則指派給多位使用者，請參閱[大量編輯團隊使用者設定](edit-user-settings-in-bulk.md)。
+1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**使用者**]，然後搜尋使用者或篩選視圖，以顯示您想要的使用者。
+2. 在 [ **&#x2713;** （核取符號）] 欄中，選取使用者。 若要選取 [所有使用者]，請按一下表格頂端的 [&#x2713; （核取符號）。
+3. 按一下 [**編輯設定**]，進行您想要的變更，然後按一下 [套用 **]。**  
 
 或者，您也可以執行下列動作：
 
@@ -113,4 +117,4 @@ $members | ForEach-Object { Grant-CsCallingLineIdentity -PolicyName "Support Cal
  ## <a name="related-topics"></a>相關主題
 
 - [新-CsCallingLineIdentity](https://docs.microsoft.com/powershell/module/skype/new-cscallinglineidentity?view=skype-ps)
-
+- [指派策略給小組中的使用者](assign-policies.md)

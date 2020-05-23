@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f5539d13811a5bc4a59ef5fa8767d229baf38dea
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 52c259098a1d31fdd601d1cce06ea1b685e774bf
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904348"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350127"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>針對 Microsoft 團隊進行磁片磁碟機意識與實施訓練
 
-[認識與訓練] 是您總體採用戰略的行銷與通訊區段。 這可確保您的員工知道 Microsoft 團隊及其基礎 Office 365 服務與應用程式的新功能。
+[認識與訓練] 是您總體採用戰略的行銷與通訊區段。 這可確保您的員工知道 Microsoft 團隊及其基礎 Microsoft 365 或 Office 365 服務與應用程式的新功能。
    
 針對您的初始試驗和您的整個公司全期間推出，您的內部溝通必須是優先順序。 它們應該包括：
 
@@ -49,13 +49,13 @@ ms.locfileid: "43904348"
 
 ## <a name="implement-end-user-training"></a>實施最終使用者訓練
 
-使用我們的資源，在人員開始使用 Microsoft 團隊及其他 Office 365 服務時，提供使用者的訓練。 若要深入瞭解，請造訪我們的資源頁面：
+使用我們的資源，在使用者開始使用 Microsoft 團隊以及其他 Microsoft 365 或 Office 365 服務時，提供使用者的訓練。 若要深入瞭解，請造訪我們的資源頁面：
 
 - [針對團隊提供講師指導的使用者訓練](instructor-led-training-teams-landing-page.md)
 - [團隊的管理員訓練](itadmin-readiness.md)
 - [線上端使用者的影片訓練](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
 - [& IT 專業人員的擁護的雲端線上訓練中的咖啡](https://aka.ms/CoffeeintheCloud) 
-- [Office 365 訓練課程中的日簡介](https://aka.ms/O365AdoptionTools)
+- [Microsoft 365 和 Office 365 訓練中的一天是使用工作表](https://aka.ms/O365AdoptionTools)
 
 ## <a name="measure-and-share-success"></a>衡量及分享成功
 
@@ -71,4 +71,4 @@ ms.locfileid: "43904348"
 
 [深入瞭解 Microsoft 365 系統管理中心的 Microsoft 團隊使用方式報告。](teams-activity-reports.md)
 
-![描述後續步驟](media/teams-adoption-next-icon.png)的圖示： [[排程服務健康情況檢查](teams-adoption-schedule-service-health-reviews.md)]
+![描述後續步驟的圖示 ](media/teams-adoption-next-icon.png) ： [[排程服務健康情況檢查](teams-adoption-schedule-service-health-reviews.md)]

@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 瞭解如何在團隊中管理會議原則設定，並使用他們來控制會議參與者針對使用者排程會議所提供的功能。
-ms.openlocfilehash: 2b7579b9dfe1d70c0a570d6ca519491a263e9f09
-ms.sourcegitcommit: 5a88788bd0a0b2ccbc5b977b38dcfe4681cd5d10
+ms.openlocfilehash: 2f6a88276a2b5d3214b89555d0008e2b58cf1aa2
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "44278196"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44349557"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>在團隊中管理會議原則
 
@@ -70,11 +70,17 @@ ms.locfileid: "44278196"
 
 ## <a name="assign-a-meeting-policy-to-users"></a>將會議原則指派給使用者
 
+若要將會議原則指派給一個使用者：
+
 1. 在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至 [使用者]****，然後按一下該使用者。
 2. 按一下使用者名稱左方以選取使用者，然後按一下 [編輯設定]****。
 3. 在 [會議原則]**** 下，選取要指派的原則，然後按一下 [套用]****。
 
-若要一次將原則指派給多個使用者，請參閱[大量編輯 Teams 使用者設定](edit-user-settings-in-bulk.md)。
+若要一次將原則指派給多位使用者：
+
+1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**使用者**]，然後搜尋使用者或篩選視圖，以顯示您想要的使用者。
+2. 在 [ **&#x2713;** （核取符號）] 欄中，選取使用者。 若要選取 [所有使用者]，請按一下表格頂端的 [&#x2713; （核取符號）。
+3. 按一下 [**編輯設定**]，進行您想要的變更，然後按一下 [套用 **]。**  
 
 或者，您也可以執行下列動作：
 
@@ -391,7 +397,7 @@ Daniela 可以在 Amanda 的會議中記錄筆記，而 Amanda 無法在任何�
 
 |設定值 |行為  |
 |---------|---------|
-|**已停用，但召集人可以覆寫**     | 在會議期間，使用者不會自動開啟 [即時] 標題。 使用者會看到 [溢出（**...**）] 功能表中的 [**開啟即時標題**] 選項，以將其開啟。 這是預設設定。 |
+|**已停用，但使用者可以覆寫**     | 在會議期間，使用者不會自動開啟 [即時] 標題。 使用者會看到 [溢出（**...**）] 功能表中的 [**開啟即時標題**] 選項，以將其開啟。 這是預設設定。 |
 |**禁止**     | 使用者在會議期間停用 [即時] 標題。 使用者沒有選項可將其開啟。          |
 
 <a name="bkcontentsharing"> </a>
@@ -432,3 +438,4 @@ Daniela 可以在 Amanda 的會議中記錄筆記，而 Amanda 無法在任何�
 ## <a name="related-topics"></a>相關主題
 
 - [Teams PowerShell 概觀](teams-powershell-overview.md)
+- [指派策略給小組中的使用者](assign-policies.md)

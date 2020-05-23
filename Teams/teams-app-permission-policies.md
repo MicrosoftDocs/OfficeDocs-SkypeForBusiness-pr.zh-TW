@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 3382eff6334c3879c1c30d503101446ceaae4df9
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: 5456bb7cece960796308a2d987cecaedc9828a3c
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43749810"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350107"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>管理 Microsoft 團隊中的 app 許可權原則
 
@@ -51,7 +51,7 @@ ms.locfileid: "43749810"
 
 如果您想要控制貴組織中不同群組使用者的可用應用程式，請建立並指派一或多個自訂應用程式許可權原則。 您可以根據 Microsoft、協力廠商或您的組織發佈的應用程式，建立並指派個別的自訂原則。 您必須知道，在您建立自訂原則之後，如果已停用組織內應用程式設定中的協力廠商應用程式，就無法變更它。
 
-1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**團隊 app** > ]**許可權原則**。
+1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**團隊 app**]  >  **許可權原則**。
 2. 按一下 [**新增**]。
     ![新應用程式許可權原則的螢幕擷取畫面](media/app-permission-policies-new-policy.png)
 3. 輸入原則的名稱和描述。
@@ -75,26 +75,32 @@ ms.locfileid: "43749810"
 
 您可以使用 Microsoft 團隊系統管理中心來編輯原則，包括您建立的全域原則和自訂原則。
 
-1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**團隊 app** > ]**許可權原則**。
+1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**團隊 app**]  >  **許可權原則**。
 2. 按一下原則名稱左邊的，然後按一下 [**編輯**]，選取原則。
 3. 您可以從這裡進行所要的變更。 您可以根據應用程式發行者管理設定，然後根據 [允許/封鎖] 設定新增及移除應用程式。
 4. 按一下 [儲存]****。
 
 ## <a name="assign-a-custom-app-permission-policy-to-users"></a>將自訂應用程式許可權原則指派給使用者
 
-您可以使用 Microsoft 團隊系統管理中心，將自訂原則指派給一或多個使用者或商務用 Skype PowerShell 模組，將自訂原則指派給使用者群組，例如安全群組或通訊群組中的所有使用者。
+您可以使用 Microsoft 團隊系統管理中心，將自訂原則指派給一或多個使用者或商務用 Skype PowerShell 模組，將自訂原則指派給群組中的使用者，例如安全群組或通訊群組中的所有使用者。
 
-### <a name="assign-a-custom-app-permission-policy-to-a-user"></a>將自訂應用程式許可權原則指派給使用者
+### <a name="assign-a-custom-app-permission-policy-to-users"></a>將自訂應用程式許可權原則指派給使用者
+
+若要將原則指派給一個使用者：
 
 1. 在 Microsoft 團隊系統管理中心的左導覽中，前往 [**使用者**]。
 2. 按一下使用者名稱左方以選取使用者，然後按一下 [編輯設定]****。
 3. 在 [**應用程式許可權原則**] 底下，選取您要指派的 App 許可權原則，**然後按一下 [** 套用]。
 
-若要一次將原則指派給多個使用者，請參閱[大量編輯 Teams 使用者設定](edit-user-settings-in-bulk.md)。
+若要一次將原則指派給多位使用者：
+
+1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**使用者**]，然後搜尋使用者或篩選視圖，以顯示您想要的使用者。
+2. 在 [ **&#x2713;** （核取符號）] 欄中，選取使用者。 若要選取 [所有使用者]，請按一下表格頂端的 [&#x2713; （核取符號）。
+3. 按一下 [**編輯設定**]，進行您想要的變更，然後按一下 [套用 **]。**  
 
 或者，您也可以執行下列動作：
 
-1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**團隊 app** > ]**許可權原則**。
+1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**團隊 app**]  >  **許可權原則**。
 2. 按一下原則名稱的左側來選取原則。
 3. 選取 [管理使用者]****。
 4. 在 [管理使用者]**** 窗格中，依顯示名稱或使用者名稱搜尋使用者，選取名稱，然後按一下 [新增]****。 針對要新增的每一個使用者重複此步驟。
@@ -133,16 +139,16 @@ $members | ForEach-Object { Grant-CsTeamsAppPermissionPolicy -PolicyName "HR App
 
 若要為您組織中的使用者或一組使用者啟用協力廠商應用程式，請執行下列動作：
 
-1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**團隊 app** > **管理應用程式**]，然後在應用程式清單中，確認您要允許一組使用者使用的協力廠商應用程式已設定為 [在組織層級**封鎖**]。
+1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**團隊 app**  >  **管理應用程式**]，然後在應用程式清單中，確認您要允許一組使用者使用的協力廠商應用程式已設定為 [在組織層級**封鎖**]。
 
-2. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**團隊 app** > **許可權原則**]，然後編輯全域原則來封鎖協力廠商應用程式。 若要執行此動作：
+2. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**團隊 app**  >  **許可權原則**]，然後編輯全域原則來封鎖協力廠商應用程式。 若要執行此動作：
     1. 在 [應用程式許可權原則] 頁面上，按一下 [**全域（組織範圍預設值）**]，然後按一下 [**編輯**]。
     2. 在 [**協力廠商應用程式**] 底下，選取 [**封鎖特定的 app 並允許所有其他**app]，新增應用程式，然後按一下 [**儲存**]。
 
     > [!NOTE]
     > 在您移至下一個步驟之前，請務必先執行此動作，才能允許組織層級的 app。 這是因為如果協力廠商應用程式未封鎖在全域應用程式許可權原則中，則全域原則適用的所有使用者，都可以在組織階層時存取協力廠商 app。
 
-3. 允許組織階層的協力廠商應用程式。 若要執行此動作，請在左側導覽中，移至 [**團隊 app** > **管理應用程式**]。 在應用程式清單中，按一下應用程式名稱的左邊以選取 app，然後選取 [**允許**]。
+3. 允許組織階層的協力廠商應用程式。 若要執行此動作，請在左側導覽中，移至 [**團隊 app**  >  **管理應用程式**]。 在應用程式清單中，按一下應用程式名稱的左邊以選取 app，然後選取 [**允許**]。
 4. [建立自訂應用程式許可權原則](#create-a-custom-app-permission-policy)以允許 app，然後[將原則指派](#assign-a-custom-app-permission-policy-to-users)給您想要的使用者。
 
 ## <a name="faq"></a>常見問題集
@@ -191,3 +197,4 @@ $members | ForEach-Object { Grant-CsTeamsAppPermissionPolicy -PolicyName "HR App
 ## <a name="related-topics"></a>相關主題
 
 - [在 Teams 中的應用程式系統管理設定](admin-settings.md)
+- [指派策略給小組中的使用者](assign-policies.md)

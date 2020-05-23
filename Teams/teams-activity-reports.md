@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f1eb02b7755ecfaa78b3b5ad511f45052a7807b5
-ms.sourcegitcommit: 296aeac481f901eb9d52b4f12a8c037afc49fa77
+ms.openlocfilehash: 211bf51e0221ecaba29cee9e9a859c0a6acf9332
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44256388"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44349977"
 ---
 <a name="use-activity-reports-for-microsoft-teams"></a>使用 Microsoft 團隊的活動報告 
 ========================================
@@ -107,7 +107,7 @@ ms.locfileid: "44256388"
 
 ### <a name="at-a-glance-activity-widget"></a>一覽式活動小工具
 
-[報告] 儀表板包括來自團隊在「一覽式活動」小工具中的使用資料，可讓您使用 Office 365 中的其他各種服務來溝通及共同作業。
+[報告] 儀表板包括來自團隊在「一覽式活動」小工具中的使用資料，可讓您使用 Microsoft 365 或 Office 365 中的其他各種服務來溝通及共同作業。
 
 ![[團隊一覽] 活動小工具的螢幕擷取畫面。](media/at-a-glance-activity-widget.png)
 

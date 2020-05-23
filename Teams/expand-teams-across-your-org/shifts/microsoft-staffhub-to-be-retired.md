@@ -18,16 +18,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4c37d0c606a52893b69a101c99ef962e46d4deb3
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: fcc4c872b584765791ba17b3a2a66c3892e7a7b5
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780632"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350157"
 ---
 # <a name="microsoft-staffhub-to-be-retired"></a>終止對 Microsoft StaffHub 的支援
 
-2019年12月31日生效，Microsoft StaffHub 將停用。 我們正在將 StaffHub 功能組建至 Microsoft 團隊。 今天，小組包含針對排程管理的倒班應用程式，而其他功能則會隨著時間推移而推出。
+2020年6月30日生效，Microsoft StaffHub 將停用。 我們正在將 StaffHub 功能組建至 Microsoft 團隊。 今天，小組包含針對排程管理的倒班應用程式，而其他功能則會隨著時間推移而推出。
 
 這些變更是我們繼續努力的一部分，可讓每位員工都能使用 Microsoft 365。 在團隊中現在有第一線員工工作的功能時，貴組織中的每個員工都能使用團隊來簡化其 workday、與同事共同作業，以及存取訊號和專業知識，協助他們完成工作。
 
@@ -37,13 +37,13 @@ ms.locfileid: "43780632"
 
 #### <a name="when-will-staffhub-be-retired"></a>何時會停用 StaffHub？
 
-從2019年4月開始，Microsoft StaffHub 將不再提供給新的租使用者，而且您將無法再從現有租使用者的 Office 365 應用程式啟動器存取 app。 目前的使用者仍然可以使用服務，直到2019年12月31日為止，但不會提供其他功能。
+從2019年4月開始，Microsoft StaffHub 將不再提供給新的租使用者，而且您將無法再從現有租使用者的 Microsoft 365 或 Office 365 應用程式啟動器存取 app。 目前的使用者仍然可以使用服務，直到2019年12月31日為止，但不會提供其他功能。
 
 #### <a name="what-will-happen-once-staffhub-is-retired"></a>StaffHub 停用之後，會發生什麼事？
 
-針對2020年1月1日的所有使用者，Microsoft StaffHub 將停止運作。 任何試圖開啟 app 的人，都會顯示一則訊息，讓他們下載小組。 如果使用者有包含團隊的作用中授權，且組織已採取適當的步驟來啟用團隊，則在其轉至團隊後，他們就可以使用他們的資料和核心功能 StaffHub。
+針對2020年6月30日的所有使用者，Microsoft StaffHub 將停止運作。 任何試圖開啟 app 的人，都會顯示一則訊息，讓他們下載小組。 如果使用者有包含團隊的作用中授權，且組織已採取適當的步驟來啟用團隊，則在其轉至團隊後，他們就可以使用他們的資料和核心功能 StaffHub。
 
-在2019年4月和12月2019之間，StaffHub 使用者將會收到 app 內通知，鼓勵他們使用團隊。
+在2019年4月與6月2020之間，StaffHub 使用者將會收到 app 內通知，鼓勵他們使用團隊。
 
 #### <a name="will-teams-offer-all-the-functionality-currently-offered-in-staffhub"></a>團隊是否會提供目前 StaffHub 中提供的所有功能？
 
@@ -103,7 +103,7 @@ ms.locfileid: "43780632"
 
 #### <a name="where-can-i-learn-more-about-shifts"></a>何處可以深入瞭解倒班？
 
-如需產品資訊，請[https://products.office.com/microsoft-teams/staff-scheduling-software](https://products.office.com/microsoft-teams/staff-scheduling-software)移至。
+如需產品資訊，請移至 [https://products.office.com/microsoft-teams/staff-scheduling-software](https://products.office.com/microsoft-teams/staff-scheduling-software) 。
 
 如需管理員指示，請參閱[在團隊中管理組織的倒班應用程式](manage-the-shifts-app-for-your-organization-in-teams.md)
 
@@ -127,9 +127,9 @@ ms.locfileid: "43780632"
 
 團隊支援與商務用 Skype 共存。 如需詳細資訊，請參閱[瞭解團隊與商務用 skype 的共存與互通性](../../teams-and-skypeforbusiness-coexistence-and-interoperability.md)，以及[與商務用 Skype 搭配使用團隊之組織的互通性指南](../../migration-interop-guidance-for-teams-with-skype.md)。
 
-#### <a name="does-each-user-need-to-have-an-office-365-account-or-azure-active-directory-azure-ad-account"></a>每個使用者是否需要擁有 Office 365 帳戶或 Azure Active Directory （Azure AD）帳戶？
+#### <a name="does-each-user-need-to-have-a-microsoft-365-or-office-365-account-or-azure-active-directory-azure-ad-account"></a>每個使用者是否需要擁有 Microsoft 365 或 Office 365 帳戶或 Azure Active Directory （Azure AD）帳戶？
 
-是，使用小組與團隊中的團隊和倒班的每個管理員和小組成員都必須擁有 Office 365 帳戶（Azure AD），而且必須指派有效的授權。
+是，使用小組與團隊中的團隊和倒班的每個主管和小組成員，都必須擁有 Microsoft 365 或 Office 365 帳戶（Azure AD），而且必須獲指派有效的授權。
  
 #### <a name="in-staffhub-i-could-add-a-special-prefix-to-all-microsoft-365-groups-that-were-created-by-staffhub-teams-can-i-do-the-same-in-teams"></a>在 StaffHub 中，我可以在由 StaffHub 團隊建立的所有 Microsoft 365 群組中，新增特殊的前置詞。 我可以在小組中執行相同的動作嗎？
 
@@ -137,7 +137,7 @@ ms.locfileid: "43780632"
 
 #### <a name="will-team-names-be-the-same-in-teams"></a>小組中的團隊名稱是否相同？
 
-團隊的名稱可能會不同。 小組中的小組名稱會使用 Office 365 組名。 如果 StaffHub 小組名稱與對應的 Office 365 群組的名稱不同，當您切換到 [小組] 時，您會看到不同的名稱。
+團隊的名稱可能會不同。 小組中的小組名稱會使用 Microsoft 365 群組名稱。 如果 StaffHub 小組名稱與相對應的 Microsoft 365 群組的名稱不同，當您切換到 [小組] 時，您會看到不同的名稱。
 
 #### <a name="what-happens-to-team-membership-when-a-staffhub-team-is-moved-to-teams"></a>團隊成員資格在 StaffHub 小組移至團隊時，會發生什麼情況？
 
@@ -147,7 +147,7 @@ ms.locfileid: "43780632"
  
 #### <a name="what-happens-to-staffhub-team-members-who-arent-provisioned-or-whose-status-is-inactive"></a>StaffHub 未提供的小組成員或其狀態為 [非作用中] 時，會發生什麼情況？
 
-使用者的排程會移至班次，不過，使用者不會成為團隊或 Office 365 群組的成員。
+使用者的排程會移至班次，不過，使用者不會成為團隊或 Microsoft 365 群組的成員。
 
 對於未連結至 Azure AD 使用者帳戶的非作用中帳戶，管理員可以在 [StaffHub 小組成員] 頁面上新增有效的 Microsoft 365 或 Office 365 電子郵件地址，以確保使用者已連結至其組織中正確的 Azure AD 帳戶。
 
@@ -157,9 +157,9 @@ ms.locfileid: "43780632"
  
 #### <a name="what-happens-to-chats-in-staffhub"></a>StaffHub 中的聊天會發生什麼情況？
 
-為了協助轉換使用者，我們打算將 StaffHub 中的資料聊天歷程記錄遷移至團隊。 團隊中可使用的聊天歷程記錄數量，取決於您設定組織進行過渡的速度。 我們建議您在2019年6月30日採取行動，以提供足夠的時間，以在90年12月 31 2019 日之間轉換天的資料。
+為了協助轉換使用者，我們打算將 StaffHub 中的資料聊天歷程記錄遷移至團隊。 團隊中可使用的聊天歷程記錄數量，取決於您設定組織進行過渡的速度。 我們建議您在2019年6月30日之前採取行動，以提供足夠的時間2020，以在6月30日之後轉換90天的資料。
 
-在開始過渡前，請確定已在 Microsoft 365 系統管理中心啟用 Office 365 群組建立功能，因為這對於能夠將您的 StaffHub 聊天資料移至團隊中是必要的。 無法在2019年6月30日開啟此服務，將會導致較晚的遷移日期或較少的聊天資料被覆制。
+請確定在開始過渡前，microsoft 365 系統管理中心已啟用 Microsoft 365 群組建立，因為這是您可以將 StaffHub 聊天資料移至團隊的重要功能。 無法在2019年6月30日開啟此服務，將會導致較晚的遷移日期或較少的聊天資料被覆制。
 
 #### <a name="what-happens-to-files-that-have-been-uploaded-to-staffhub"></a>已上傳至 StaffHub 的檔案會發生什麼情況？
 
@@ -175,7 +175,7 @@ ms.locfileid: "43780632"
 
 #### <a name="what-powers-the-file-sharing-capability-in-teams-where-are-files-stored"></a>團隊中的檔案共用功能是什麼？ 檔案儲存在哪裡？
 
-檔案共用功能可讓管理員將檔案分發給小組成員，由 SharePoint Online 在後端加上電源。 建立小組時，系統會自動為該小組在背景中提供 Office 365 群組。
+檔案共用功能可讓管理員將檔案分發給小組成員，由 SharePoint Online 在後端加上電源。 建立小組時，系統會自動為該小組在背景中提供 Microsoft 365 群組。
 
 若要深入瞭解，請參閱[SharePoint Online 與商務用 OneDrive 與團隊互動的方式](../../SharePoint-OneDrive-interact.md)。
  
@@ -209,4 +209,4 @@ ms.locfileid: "43780632"
 
 #### <a name="where-can-i-provide-feedback"></a>我可以在哪裡提供意見反應？
   
-在行動應用程式中，請在畫面左上方按一下 [**更多**]，移至 [**設定** > ]**傳送意見**反應或**報告問題**。 同樣地，在桌面和 web 應用程式的畫面左下角，移至**協助** > **分享想法**或**報告問題**。
+在行動應用程式中，請在畫面左上方按一下 [**更多**]，移至 [**設定**]  >  **傳送意見**反應或**報告問題**。 同樣地，在桌面和 web 應用程式的畫面左下角，移至**協助**  >  **分享想法**或**報告問題**。

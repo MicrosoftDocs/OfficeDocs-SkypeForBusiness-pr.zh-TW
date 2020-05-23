@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 00615f1bbd48654701ff64e547bffdbd8ee142f9
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 620e6ebdcfe244dc937ab96bc4e14c67cda0b11c
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905665"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44349707"
 ---
 # <a name="microsoft-teams-adoption-phase-1---start"></a>Microsoft 團隊採用階段 1-開始
 
@@ -67,10 +67,10 @@ ms.locfileid: "43905665"
 
 ## <a name="additional-resources"></a>其他資源
 
-[Microsoft 技術社區](https://aka.ms/TechCommunity)提供對許多 Office 365 產品採用和技術問題的對等深入資訊。 我們建議您加入下列社區：
+[Microsoft 技術社區](https://aka.ms/TechCommunity)提供對許多 Microsoft 365 和 Office 365 產品採用和技術問題的對等深入見解。 我們建議您加入下列社區：
 
 - [Microsoft 團隊技術社區](https://aka.ms/TeamsCommunity)-取得產品問題、向其他團隊客戶學習，以及追蹤我們的博客，及時掌握新功能和使用案例給小組。 
-- [Office 365 擁護者程式](https://aka.ms/O365Champions)和駕駛採納群組-從您的同事瞭解如何充分利用 office 365 的工作（例如團隊、SharePoint、Yammer 及其他產品）。 向 IT 專業人員、商業使用者、「偶然」開發人員，以及任何對雲端服務的採納感興趣的人。  
+- [擁護者程式](https://aka.ms/O365Champions)和推動採用群組-從您的同行瞭解如何最佳地利用 Microsoft 365 或 Office 365 工作負載（例如團隊、SharePoint、Yammer 及其他產品）。 向 IT 專業人員、商業使用者、「偶然」開發人員，以及任何對雲端服務的採納感興趣的人。  
 
 
-![代表下一個步驟](media/teams-adoption-next-icon.png)的圖示：[瞭解團隊和頻道](teams-adoption-understand-teams-and-channels.md)
+![代表下一個步驟的圖示 ](media/teams-adoption-next-icon.png) ：[瞭解團隊和頻道](teams-adoption-understand-teams-and-channels.md)

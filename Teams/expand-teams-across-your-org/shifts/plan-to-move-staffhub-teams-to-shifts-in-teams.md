@@ -18,17 +18,17 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 67c7a34a1051f68183429d9850561748d34568ab
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: d38b3d7c67fd546fe73106413cd3505ea792b407
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905715"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350287"
 ---
 # <a name="plan-to-move-your-staffhub-teams-to-shifts-in-microsoft-teams"></a>規劃將您的 StaffHub 團隊移至 Microsoft 團隊中的倒班
 
 > [!IMPORTANT]
-> 2019年12月31日生效，Microsoft StaffHub 將停用。 我們正在將 StaffHub 功能組建至 Microsoft 團隊。 今天，小組包含針對排程管理的倒班應用程式，而其他功能則會隨著時間推移而推出。 StaffHub 將會停止針對2019年12月31日的所有使用者使用。 任何試圖開啟 StaffHub 的人，都會顯示一則訊息，讓他們下載小組。 若要深入瞭解，請參閱[Microsoft StaffHub 停用](microsoft-staffhub-to-be-retired.md)。 
+> 2020年6月30日生效，Microsoft StaffHub 將停用。 我們正在將 StaffHub 功能組建至 Microsoft 團隊。 今天，小組包含針對排程管理的倒班應用程式，而其他功能則會隨著時間推移而推出。 StaffHub 將會針對2020年6月30日的所有使用者停止運作。 任何試圖開啟 StaffHub 的人，都會顯示一則訊息，讓他們下載小組。 若要深入瞭解，請參閱[Microsoft StaffHub 停用](microsoft-staffhub-to-be-retired.md)。 
 
 當您開始規劃變更時，就會開始從 StaffHub 轉至團隊。 為了確保您移至團隊的成功，我們已建立範例時程表來示範典型的轉場方案。 [範例] 時程表簡要說明準備進行移動的規劃活動，並引導您逐步將貴組織的 StaffHub 小組移至團隊。
 

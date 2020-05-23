@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.teamsandchannelpolicies.overview
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
-ms.openlocfilehash: 392bbb3c97cf32e815f81073bf662d4d6280ae75
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: ce387ec406a9ccfd6ee45a67f2613a45c219f21f
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326650"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44349697"
 ---
 # <a name="manage-teams-policies-in-microsoft-teams"></a>管理 Microsoft 團隊中的團隊原則
 
@@ -65,13 +65,19 @@ ms.locfileid: "44326650"
 
 您可以使用 Microsoft 團隊系統管理中心，將自訂原則指派給一或多個使用者或商務用 Skype PowerShell 模組，將自訂原則指派給使用者群組，例如安全群組或通訊群組。
 
-### <a name="assign-a-custom-teams-policy-to-a-user"></a>將自訂團隊原則指派給使用者
+### <a name="assign-a-custom-teams-policy-to-users"></a>將自訂團隊原則指派給使用者
 
-1. 在 Microsoft 團隊系統管理中心的左導覽中，前往 [**使用者**]，然後按一下使用者。
+若要將原則指派給一個使用者：
+
+1. 在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至 [使用者]****，然後按一下該使用者。
 2. 按一下 [**原則**]，然後在 [**指派的原則**] 旁，按一下 [**編輯**]。
 3. 在 [**團隊原則**] 底下，選取您要指派的原則，然後按一下 [**儲存**]。
 
-若要一次將自訂團隊原則指派給多位使用者，請參閱[大量編輯團隊使用者設定](edit-user-settings-in-bulk.md)。
+若要一次將原則指派給多位使用者：
+
+1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**使用者**]，然後搜尋使用者或篩選視圖，以顯示您想要的使用者。
+2. 在 [ **&#x2713;** （核取符號）] 欄中，選取使用者。 若要選取 [所有使用者]，請按一下表格頂端的 [&#x2713; （核取符號）。
+3. 按一下 [**編輯設定**]，進行您想要的變更，然後按一下 [套用 **]。**  
 
 或者，您也可以執行下列動作：
 
@@ -108,3 +114,4 @@ $members | ForEach-Object { Grant-CsTeamsChannelsPolicy -PolicyName "Marketing T
 
 - [在 Teams 中管理私人小組的探索](manage-discovery-of-private-teams.md)
 - [團隊中的私人頻道](private-channels.md)
+- [指派策略給小組中的使用者](assign-policies.md)

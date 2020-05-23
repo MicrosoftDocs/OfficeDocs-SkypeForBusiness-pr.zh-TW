@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c34494c08b6c81671c7f36e1ca76593e8d204be
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: aeca6da477147c420c9dea053dbebc465fb491f6
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904765"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350267"
 ---
 # <a name="how-ready-is-your-organization-for-microsoft-teams"></a>貴組織為 Microsoft 團隊準備就緒了嗎？
 
@@ -64,7 +64,7 @@ ms.locfileid: "43904765"
 - 願意與群組共用其觀察與學習專案
 - 風險很;也就是說，他們願意嘗試看看它是否正常運作
 
-您可以在 Office 365 中使用簡單的表單，讓這些人加入宣告您的團隊前期計畫。 視貴組織的規模和複雜程度而定，您可以選擇讓部分或所有人員在您的實驗階段中啟用。 在此程式中，他們同意積極參與您的實驗階段，並為專案小組提供一般的意見反應。 避免只想要測試磁片磁碟機新技術的人。 透過提供此活動的意見反應，讓他們知道您的專案的結果。 您將會在階段2中使用此連絡人清單[-實驗](teams-adoption-phase2-experiment.md)。
+在 Microsoft 365 或 Office 365 中使用簡單的表單，可讓這些人加入宣告您的團隊前期計畫。 視貴組織的規模和複雜程度而定，您可以選擇讓部分或所有人員在您的實驗階段中啟用。 在此程式中，他們同意積極參與您的實驗階段，並為專案小組提供一般的意見反應。 避免只想要測試磁片磁碟機新技術的人。 透過提供此活動的意見反應，讓他們知道您的專案的結果。 您將會在階段2中使用此連絡人清單[-實驗](teams-adoption-phase2-experiment.md)。
 
 我們的先期採用方式程式指南是在您的環境中使用此程式的有用資源。  
  
@@ -104,4 +104,4 @@ ms.locfileid: "43904765"
 
 您可以使用內部擁護者解決不同變更類型的問題。 在這裡，意見反應是成功的關鍵：鼓勵人員分享他們的挑戰與需求。 接納 disrupters 和 dissenters，方法是在實驗期間為這些人或群組提供表格。 這個最佳做法會 pave 更順暢地部署共同作業改進的方式。  
 
-![代表下一個步驟](media/teams-adoption-next-icon.png)的圖示： [ [Microsoft 團隊採納階段 2]：實驗](teams-adoption-phase2-experiment.md) 
+![代表下一個步驟的圖示 ](media/teams-adoption-next-icon.png) ： [ [Microsoft 團隊採納階段 2]：實驗](teams-adoption-phase2-experiment.md) 

@@ -18,21 +18,21 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 9298ed02c6b8559bdaf1e59c74a149a9d5164124
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 745644c7a6cf2207412faacd78e7b5a26d7b754d
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141186"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44349657"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft 團隊中為您的組織管理倒班應用程式
 
 > [!IMPORTANT]
-> 2019年12月31日生效，Microsoft StaffHub 將停用。 我們正在將 StaffHub 功能組建至 Microsoft 團隊。 今天，小組包含針對排程管理的倒班應用程式，而其他功能則會隨著時間推移而推出。 StaffHub 將會停止針對2019年12月31日的所有使用者使用。 任何試圖開啟 StaffHub 的人，都會顯示一則訊息，讓他們下載小組。 若要深入瞭解，請參閱[Microsoft StaffHub 停用](microsoft-staffhub-to-be-retired.md)。  
+> 2020年6月30日生效，Microsoft StaffHub 將停用。 我們正在將 StaffHub 功能組建至 Microsoft 團隊。 今天，小組包含針對排程管理的倒班應用程式，而其他功能則會隨著時間推移而推出。 StaffHub 將會針對2020年6月30日的所有使用者停止運作。 任何試圖開啟 StaffHub 的人，都會顯示一則訊息，讓他們下載小組。 若要深入瞭解，請參閱[Microsoft StaffHub 停用](microsoft-staffhub-to-be-retired.md)。  
 
 ## <a name="overview-of-shifts"></a>班次的概覽
 
-Microsoft 團隊中的 [倒班] 應用程式會讓第一線員工工作人員保持連線並同步處理。它會先建立行動裝置，以快速且有效地管理和溝通小組的時間。 [倒班] 讓第一線員工工作者及其主管使用行動裝置管理排程，並保持聯繫。 
+Microsoft 團隊中的 [倒班] 應用程式會讓第一線員工工作人員保持連線並同步處理。它會先建立行動裝置，以快速且有效地管理和溝通小組的時間。 [倒班] 讓第一線員工工作者及其主管使用行動裝置管理排程，並保持聯繫。
 
 - 管理員建立、更新及管理團隊的倒班排程。 他們可以將訊息傳送給一個人（「在地面有溢出）」或整個小組（「地區 GM 已在20分鐘內抵達」）。 他們也可以傳送原則檔、新聞佈告及影片。 
 - 員工要查看他們的後續班次，可以查看當天排程的人員、要求交換或提供倒班，以及要求下班時間。 
@@ -53,7 +53,7 @@ Microsoft 團隊中的 [倒班] 應用程式會讓第一線員工工作人員保
 
 預設會針對貴組織中的所有團隊使用者啟用班次。 您可以在 Microsoft 團隊系統管理中心的 [[管理應用程式](../../manage-apps.md)] 頁面上關閉或開啟組織階層的 app。
 
-1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**團隊 app** > **管理應用程式**]。
+1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**團隊 app**  >  **管理應用程式**]。
 2. 在應用程式清單中，執行下列其中一項操作：
 
     - 若要關閉貴組織的倒班，請搜尋 [倒班] app，選取它，然後按一下 [**封鎖**]。
@@ -65,18 +65,18 @@ Microsoft 團隊中的 [倒班] 應用程式會讓第一線員工工作人員保
 
 ### <a name="use-the-firstlineworker-app-setup-policy-to-pin-shifts-to-teams"></a>使用 FirstlineWorker 應用程式設定原則釘選到團隊
 
-App 設定原則可讓您自訂小組，以醒目提示貴組織中的使用者最重要的 app。 原則中設定的應用程式會釘選到應用程式&mdash;行，以及小組行動客戶&mdash;端的右側列，使用者可以快速且輕鬆地存取。 
+App 設定原則可讓您自訂小組，以醒目提示貴組織中的使用者最重要的 app。 原則中設定的應用程式會釘選到應用程式行， &mdash; 以及小組行動用戶端的右側列， &mdash; 使用者可以快速且輕鬆地存取。 
  
 團隊包含內建的 FirstlineWorker 應用程式設定原則，您可以將它指派給貴組織中的第一線員工工作人員。 根據預設，原則包含活動、班次、聊天及呼叫 app。 
 
-若要查看 FirstlineWorker 原則，請在 Microsoft 團隊系統管理中心的左導覽中，移至 [**小組 app** > **應用程式] 設定原則**。
+若要查看 FirstlineWorker 原則，請在 Microsoft 團隊系統管理中心的左導覽中，移至 [**小組 app**  >  **應用程式] 設定原則**。
 
 ![FirstlineWorker 應用程式設定原則的螢幕擷取畫面](../../media/firstline-worker-app-setup-policy.png "Microsoft 團隊系統管理中心的 FirstlineWorker 應用程式設定原則的螢幕擷取畫面")
 
 #### <a name="assign-the-firstlineworker-policy-to-individual-users"></a>將 FirstlineWorker 原則指派給個別使用者
 
 1. 在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至 [使用者]****，然後按一下該使用者。
-2. 在 [**指派的原則**] 旁，選擇 [**編輯**]。
+2. 在 **[指派的原則]** 旁，選擇 **[編輯]**。
 3. 在 [**團隊 App 設定原則**] 底下，選取 [ **FirstlineWorker**]，然後選擇 [**儲存**]。
 
 #### <a name="assign-the-firstlineworker-app-setup-policy-to-user-members-of-a-group"></a>將 FirstlineWorker 應用程式設定原則指派給群組的使用者成員

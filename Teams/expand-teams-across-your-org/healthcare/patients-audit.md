@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_Healthcare
 ms.reviewer: anach
 description: 適用于團隊管理員的患者應用程式
-ms.openlocfilehash: fbbb3361968ae928638fedca09fbd8d4c2ff33b6
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: a4c3980feceac51a6a674848e4c0005d9cc0c9d1
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780402"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350177"
 ---
 # <a name="audit-logs-for-patients-app"></a>病患應用程式的稽核記錄
 
@@ -28,7 +28,7 @@ ms.locfileid: "43780402"
 
 ## <a name="meet-hipaa-requirements"></a>符合 HIPAA 需求
 
-根據 HIPAA 準則，醫療保健供應商必須保留對 PHI 的所有存取權記錄，才能進行審核變更。 Microsoft 致力於使用 Microsoft 團隊的企業客戶，並協助他們滿足 HIPAA 需求與控制措施。 您可以透過患者 App 在 M365 安全性與合規性中心提供對 PHI 的存取權，如 [[審核記錄搜尋功能](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)] 文章中所述。
+根據 HIPAA 準則，醫療保健供應商必須保留對 PHI 的所有存取權記錄，才能進行審核變更。 Microsoft 致力於使用 Microsoft 團隊的企業客戶，並協助他們滿足 HIPAA 需求與控制措施。 您可以透過患者 App 來取得對 PHI 的存取權，並在 Microsoft 365 合規性中心提供記錄，如 [[審核記錄搜尋功能](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)] 文章中所述。
 
 > [!IMPORTANT]
 > 在醫療保健供應商的法律上，維持患者隱私權的負擔。 法律對患者保密，且要求 IT 系統管理員或 HIPAA 控制器能輕鬆判斷哪些護士、clinician 或同事存取或變更了患者記錄。 [PHI 存取衝突] 最常見的其中一個範例是存取 VIP 患者。 必須具備審核記錄功能，才能對任何 PHI 存取違規進行調查，以及符合 HIPAA 需求。
@@ -41,7 +41,7 @@ ms.locfileid: "43780402"
 
 1. 系統管理員必須與他們的 FHIR 服務提供者合作，才能以患者 App 所使用的格式 EMR。 請參閱將[電子醫療保健記錄整合至 Microsoft 團隊](patients-app.md)。
 2. 醫療保健提供者管理員必須在小組系統管理中心啟用患者 app。 如需詳細資訊，請參閱[管理 Microsoft 團隊和相關文章中的 app 設定原則](../../teams-app-setup-policies.md)。
-3. 系統管理員必須在 O365 中啟用活動審計，就與在 Office 365 中啟用任何活動記錄審核相同，如[您開始](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#before-you-begin)並[開啟或關閉審核記錄搜尋](https://docs.microsoft.com/office365/securitycompliance/turn-audit-log-search-on-or-off#turn-on-audit-log-search)中所述。 如果已開啟審核記錄，患者 App 不需要任何特殊的功能。 每當醫療保健提供者在小組中安裝並執行應用程式時，審核記錄會記錄其 PHI 活動。
+3. 系統管理員必須啟用活動審查，就與啟用任何活動記錄審核的方式相同，如[您開始](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#before-you-begin)並[開啟或關閉審核記錄搜尋](https://docs.microsoft.com/office365/securitycompliance/turn-audit-log-search-on-or-off#turn-on-audit-log-search)。 如果已開啟審核記錄，患者 App 不需要任何特殊的功能。 每當醫療保健提供者在小組中安裝並執行應用程式時，審核記錄會記錄其 PHI 活動。
 4. 系統管理員接著需要宣告患者 app 的可用性，而醫療保健工人必須開始產生活動，才能納入審計。
 
 <!-- add link out to client doc when available -->

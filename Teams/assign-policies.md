@@ -3,7 +3,7 @@ title: 在 Microsoft Teams 中將原則指派給使用者
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.reviewer: tomkau, saragava, ritikag
+ms.reviewer: tomkau, saragava, ritikag, jastark
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -15,13 +15,15 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解在 Microsoft 團隊中將原則指派給使用者的不同方式。
-f1keywords: ''
-ms.openlocfilehash: 5c46b74519520950d31f01d4c86ae2a5002ae279
-ms.sourcegitcommit: df4dde0fe6ce9e26cb4b3da4e4b878538d31decc
+f1keywords:
+- ms.teamsadmincenter.bulkoperations.users.edit
+- ms.teamsadmincenter.bulkoperations.edit
+ms.openlocfilehash: aa63a0cc7ce24390228cc9d87adf054348c6522d
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43521619"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350037"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>在 Microsoft Teams 中將原則指派給使用者
 
@@ -64,7 +66,7 @@ ms.locfileid: "43521619"
 |---------|---------|----|
 |[指派原則給個別使用者](#assign-a-policy-to-individual-users)    | 您是團隊新手，剛開始使用，或只需要指派一或幾個原則給少數使用者。 |商務用 Skype Online PowerShell 模組中的 Microsoft 團隊管理員中心或 PowerShell Cmdlet
 | [指派原則套件](#assign-a-policy-package)   | 您需要將多個原則指派給貴組織中擁有相同或相似角色的特定使用者組。 例如，將教育版（教師）原則套件指派給學校的教師，讓他們能完全存取聊天、通話及會議，以及將教育（次要學校學生）原則封裝到次要學生，以限制私人電話等特定功能。  |團隊 PowerShell 模組中的 Microsoft 團隊系統管理中心或 PowerShell Cmdlet|
-|[指派原則給一批使用者](#assign-a-policy-to-a-batch-of-users)   | 您必須將原則指派給大型使用者組。 例如，您想要一次將原則指派給組織中的成百上千位使用者。  |團隊 PowerShell 模組中的 PowerShell Cmdlet|
+|[指派原則給一批使用者](#assign-a-policy-to-a-batch-of-users)   | 您必須將原則指派給大型使用者組。 例如，您想要一次將原則指派給組織中的成百上千位使用者。  |團隊 PowerShell 模組中的 Microsoft 團隊系統管理中心或 PowerShell Cmdlet|
 |[將原則指派給群組](#assign-a-policy-to-a-group)（在預覽中）   |您必須根據使用者的群組成員資格指派原則。 例如，您想要將原則指派給安全性群組或組織單位中的所有使用者。| 團隊 PowerShell 模組中的 PowerShell Cmdlet|
 | [指派原則套件給一批使用者](#assign-a-policy-package-to-a-batch-of-users)|您需要將多個原則指派給組織中擁有相同或相似角色的使用者。 例如，您可以使用批次作業將教育版（教師）原則套件指派給學校中的所有教師，讓他們能完全存取聊天、通話及會議，並將教育（次要學校學生）原則套件指派給一批次要學生，以限制私人通話等特定功能。|團隊 PowerShell 模組中的 PowerShell Cmdlet|
 | 將原則套件指派給群組（即將推出）   | ||
@@ -73,7 +75,7 @@ ms.locfileid: "43521619"
 
 請按照下列步驟，將原則指派給個別的使用者或一次少數的使用者。
 
-### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft 團隊系統管理中心
+### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 系統管理中心
 
 若要將原則指派給使用者：
 
@@ -81,19 +83,17 @@ ms.locfileid: "43521619"
 2. 按一下使用者名稱左方以選取使用者，然後按一下 [編輯設定]****。
 3. 選取您要指派的原則，**然後按一下 [** 套用]。
 
-若要一次指派一項原則給20位使用者，請參閱[大量編輯團隊使用者設定](edit-user-settings-in-bulk.md)。
-
 或者，您也可以執行下列動作：
 
 1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [原則] 頁面。
 2. 按一下原則名稱左邊的，選取您要指派的原則。
 3. 選取 [管理使用者]****。
-4. 在 [**管理使用者**] 窗格中，依 [顯示名稱] 或 [使用者名稱] 搜尋使用者，選取名稱，然後選取 [**新增**]。 針對要新增的每一個使用者重複此步驟。
+4. 在 **[管理使用者]** 窗格中，依顯示名稱或使用者名稱搜尋使用者，選取名稱，然後選取 **[新增]**。 針對要新增的每一個使用者重複此步驟。
 5. 完成新增使用者後，請選取 [**儲存**]。
 
 ### <a name="using-powershell"></a>使用 PowerShell
 
-每個原則類型都有自己的一組用來管理的 Cmdlet。 使用指定```Grant-```原則類型的 Cmdlet 來指派原則。 例如，使用```Grant-CsTeamsMeetingPolicy``` Cmdlet 將團隊會議原則指派給使用者。 這些 Cmdlet 包含在商務用 Skype Online PowerShell 模組中，且已記錄在[商務用 skype Cmdlet 參考](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)中。
+每個原則類型都有自己的一組用來管理的 Cmdlet。 使用 ```Grant-``` 指定原則類型的 Cmdlet 來指派原則。 例如，使用 ```Grant-CsTeamsMeetingPolicy``` Cmdlet 將團隊會議原則指派給使用者。 這些 Cmdlet 包含在商務用 Skype Online PowerShell 模組中，且已記錄在[商務用 skype Cmdlet 參考](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)中。
 
  下載並安裝[商務用 Skype Online PowerShell 模組](https://www.microsoft.com/en-us/download/details.aspx?id=39366)（如果您尚未這麼做），然後執行下列動作以連線至商務用 skype online 並啟動會話。
 
@@ -121,8 +121,21 @@ Grant-CsTeamsMeetingPolicy -Identity reda@contoso.com -PolicyName "Student Meeti
 若要深入瞭解原則套件，包括如何指派及管理它們的逐步指導方針，請參閱[管理團隊中的原則套件](manage-policy-packages.md)。
 
 ## <a name="assign-a-policy-to-a-batch-of-users"></a>指派原則給一批使用者
+
+### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 系統管理中心
+
+若要將原則大量指派給使用者：
+
+1. 在 Microsoft [團隊管理中心] 的左導覽中，選取 [**使用者**]。
+2. 搜尋您要指派原則的使用者，或篩選視圖以顯示您想要的使用者。
+3. 在 [ **&#x2713;** （核取符號）] 欄中，選取使用者。 若要選取 [所有使用者]，請按一下表格頂端的 [&#x2713; （核取符號）。
+4. 按一下 [**編輯設定**]，進行您想要的變更，然後按一下 [套用 **]。**
+
+若要查看原則指派的狀態，在您按一下 [套用] 以提交原則指派之後，在 [**使用者**] 頁面頂端出現的橫幅中 **，按一下 [** **活動記錄**]。 或者，在 Microsoft [團隊管理中心] 的左導覽中，移至 [**儀表板**]，然後按一下 [**活動記錄**] 下的 [**查看詳細資料**]。 活動記錄會顯示在過去30天內，透過 Microsoft [小組系統管理中心] 向超過20名使用者批次的原則作業。 若要深入瞭解，請參閱[在活動記錄中查看您的原則分派](activity-log.md)。
+
+### <a name="using-powershell"></a>使用 PowerShell
  
-使用批次原則指派，您可以一次將原則指派給大型的使用者組，而不需要使用腳本。 您可以使用```New-CsBatchPolicyAssignmentOperationd``` Cmdlet 來提交一批使用者和您要指派的原則。 作業會處理為背景作業，並會針對每個批次產生操作 ID。 然後，您就可以```Get-CsBatchPolicyAssignmentOperation```使用此 Cmdlet 來追蹤批次中作業的進度和狀態。
+使用批次原則指派，您可以一次將原則指派給大型的使用者組，而不需要使用腳本。 您可以使用 ```New-CsBatchPolicyAssignmentOperationd``` Cmdlet 來提交一批使用者和您要指派的原則。 作業會處理為背景作業，並會針對每個批次產生操作 ID。 然後，您就可以使用此 ```Get-CsBatchPolicyAssignmentOperation``` Cmdlet 來追蹤批次中作業的進度和狀態。
 
 批次最多可包含20000個使用者。 您可以依物件識別碼、使用者主體名稱（UPN）、會話初始通訊協定（SIP）位址或電子郵件地址來指定使用者。
 
@@ -162,7 +175,7 @@ Connect-AzureAD
 
 ### <a name="assign-a-policy-to-a-batch-of-users"></a>指派原則給一批使用者
 
-在這個範例中，我們會```New-CsBatchPolicyAssignmentOperation```使用 Cmdlet，將名為 HR App 設定原則的 app 設定原則指派給 Users_ids 文字檔中所列的一批使用者。
+在這個範例中，我們會使用 ```New-CsBatchPolicyAssignmentOperation``` Cmdlet，將名為 HR App 設定原則的 app 設定原則指派給 Users_ids 文字檔中所列的一批使用者。
 
 ```powershell
 $user_ids = Get-Content .\users_ids.txt
@@ -181,13 +194,13 @@ New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMessagingPolicy -PolicyNam
 
 ### <a name="get-the-status-of-a-batch-assignment"></a>取得批次作業的狀態
 
-執行下列操作以取得批次工作的狀態，其中 OperationId 是由```New-CsBatchPolicyAssignmentOperation``` Cmdlet 針對指定批次傳回的作業識別碼。
+執行下列操作以取得批次工作的狀態，其中 OperationId 是由 ```New-CsBatchPolicyAssignmentOperation``` Cmdlet 針對指定批次傳回的作業識別碼。
 
 ```powershell
 $Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | fl
 ```
 
-如果輸出顯示發生錯誤，請執行下列動作，以取得有關```UserState```屬性中錯誤的詳細資訊。
+如果輸出顯示發生錯誤，請執行下列動作，以取得有關屬性中錯誤的詳細資訊 ```UserState``` 。
 
 ```powershell
 Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | Select -ExpandProperty UserState
@@ -201,7 +214,7 @@ Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367
 
 [群組原則指派] 可讓您將原則指派給使用者群組，例如安全性群組或組織單位。 原則指派會根據優先順序規則傳播到群組的成員。 在群組中新增或移除成員時，系統會據此更新其繼承的原則分派。
 
-您使用```New-CsGroupPolicyAssignment``` Cmdlet 將原則指派給群組。 您可以使用 [物件識別碼]、[SIP 位址] 或 [電子郵件地址] 來指定群組。
+您使用 ```New-CsGroupPolicyAssignment``` Cmdlet 將原則指派給群組。 您可以使用 [物件識別碼]、[SIP 位址] 或 [電子郵件地址] 來指定群組。
 
 指派原則時，它會立即指派給群組。 不過，請注意，原則指派對群組成員的傳播是作為背景作業執行，可能需要一些時間，視群組的大小而定。 如果沒有從群組中取消指派原則，或是在群組中新增或移除某個原則，就是如此。
 
@@ -233,7 +246,7 @@ Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367
 |群組 |小組通話原則名稱  |排名|
 |---------|---------|---|
 |商店管理員   |商店管理員通話原則         |1|
-|儲存員工    |儲存員工的通話原則      |pplx-2|
+|儲存員工    |儲存員工的通話原則      |2|
 
 如果您沒有指定排名，則會給予原則指派最低等級。
 
@@ -270,7 +283,7 @@ Connect-MicrosoftTeams
 
 ### <a name="assign-a-policy-to-a-group"></a>指派原則給群組
 
-在這個範例中，我們會```New-CsGroupPolicyAssignment```使用 Cmdlet，將名為「零售經理」會議原則的小組會議原則指派給作業排名為1的群組。
+在這個範例中，我們會使用 ```New-CsGroupPolicyAssignment``` Cmdlet，將名為「零售經理」會議原則的小組會議原則指派給作業排名為1的群組。
 
 ```powershell
 New-CsGroupPolicyAssignment -GroupId d8ebfa45-0f28-4d2d-9bcc-b158a49e2d17 -PolicyType TeamsMeetingPolicy -PolicyName "Retail Managers Meeting Policy" -Rank 1
@@ -280,7 +293,7 @@ New-CsGroupPolicyAssignment -GroupId d8ebfa45-0f28-4d2d-9bcc-b158a49e2d17 -Polic
 
 ### <a name="get-policy-assignments-for-a-group"></a>取得群組的原則指派
 
-使用```Get-CsGroupPolicyAssignment``` Cmdlet 來取得指派給群組的所有原則。 請注意，即使其 SIP 位址或電子郵件地址是用來指派原則，群組也永遠會依其群組識別碼列出。
+使用 ```Get-CsGroupPolicyAssignment``` Cmdlet 來取得指派給群組的所有原則。 請注意，即使其 SIP 位址或電子郵件地址是用來指派原則，群組也永遠會依其群組識別碼列出。
 
 在這個範例中，我們會檢索指派給特定群組的所有原則。
 
@@ -298,14 +311,14 @@ Get-CsGroupPolicyAssignment -PolicyType TeamsMeetingPolicy
 
 ### <a name="remove-a-policy-from-a-group"></a>從群組中移除原則
 
-使用```Remove-CsGroupPolicyAssignment``` Cmdlet 從群組中移除原則。 當您從群組中移除原則時，會更新指派給該群組之相同類型之其他原則的優先順序，並更新較低排名的專案。 例如，如果您移除等級為2的原則，就會更新等級為3和4的原則，以反映其新的排名。 下列兩個數據表顯示這個範例。
+使用 ```Remove-CsGroupPolicyAssignment``` Cmdlet 從群組中移除原則。 當您從群組中移除原則時，會更新指派給該群組之相同類型之其他原則的優先順序，並更新較低排名的專案。 例如，如果您移除等級為2的原則，就會更新等級為3和4的原則，以反映其新的排名。 下列兩個數據表顯示這個範例。
 
 以下是團隊會議原則的原則指派與優先順序清單。
 
 |組名  |原則名稱  |排名|
 |---------|---------|---------|
 |銷售    |銷售原則       | 1        |
-|西部地區     |西部地區原則         |pplx-2         |
+|西部地區     |西部地區原則         |2         |
 |除以    |部門原則         |3         |
 |附屬   |附屬原則        |4         |
 
@@ -314,7 +327,7 @@ Get-CsGroupPolicyAssignment -PolicyType TeamsMeetingPolicy
 |組名  |原則名稱  |排名|
 |---------|---------|---------|
 |銷售    |銷售原則       | 1        |
-|除以    |部門原則         |pplx-2         |
+|除以    |部門原則         |2         |
 |附屬   |附屬原則        |3        |
 
 在這個範例中，我們會從群組中移除團隊會議原則。
@@ -327,7 +340,7 @@ Remove-CsGroupPolicyAssignment -PolicyType TeamsMeetingPolicy -GroupId f985e013-
 
 ### <a name="change-a-policy-assignment-for-a-group"></a>變更群組的原則指派
 
-將原則指派給群組之後，您可以使用```Set-CsGroupPolicyAssignmentd``` Cmdlet 來變更該群組的原則指派，如下所示：
+將原則指派給群組之後，您可以使用 ```Set-CsGroupPolicyAssignmentd``` Cmdlet 來變更該群組的原則指派，如下所示：
 
 - 變更排名
 - 變更指定原則類型的原則
@@ -345,7 +358,7 @@ Set-CsGroupPolicyAssignment -GroupId 566b8d39-5c5c-4aaa-bc07-4f36278a1b38 -Polic
 
 以下範例說明如何變更直接指派原則的使用者的有效原則。
 
-首先，我們會將```Get-CsUserPolicyAssignment``` Cmdlet 與```PolicySource```參數搭配使用，以取得與使用者相關聯之小組會議廣播原則的詳細資料。 若要深入瞭解，請參閱[CsUserPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/get-csuserpolicyassignment)。
+首先，我們會將 ```Get-CsUserPolicyAssignment``` Cmdlet 與參數搭配使用， ```PolicySource``` 以取得與使用者相關聯之小組會議廣播原則的詳細資料。 若要深入瞭解，請參閱[CsUserPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/get-csuserpolicyassignment)。
 
 ```powershell
 Get-CsUserPolicyAssignment -Identity daniel@contoso.com -PolicyType TeamsMeetingBroadcastPolicy | select -ExpandProperty PolicySource
@@ -376,7 +389,7 @@ New-CsBatchPolicyAssignmentOperation -OperationName "Assigning null at bulk" -Po
 
 ## <a name="assign-a-policy-package-to-a-batch-of-users"></a>指派原則套件給一批使用者
 
-使用批次原則套件指派，您可以一次將原則套件指派給大型的使用者組，而不需要使用腳本。 您可以使用```New-CsBatchPolicyPackageAssignmentOperation``` Cmdlet 來提交一批使用者，以及您要指派的原則套件。 作業會處理為背景作業，並會針對每個批次產生操作 ID。 然後，您就可以```Get-CsBatchPolicyAssignmentOperation```使用此 Cmdlet 來追蹤批次中作業的進度和狀態。
+使用批次原則套件指派，您可以一次將原則套件指派給大型的使用者組，而不需要使用腳本。 您可以使用 ```New-CsBatchPolicyPackageAssignmentOperation``` Cmdlet 來提交一批使用者，以及您要指派的原則套件。 作業會處理為背景作業，並會針對每個批次產生操作 ID。 然後，您就可以使用此 ```Get-CsBatchPolicyAssignmentOperation``` Cmdlet 來追蹤批次中作業的進度和狀態。
 
 批次最多可包含20000個使用者。 您可以依物件識別碼、UPN、SIP 位址或電子郵件地址來指定使用者。
 
@@ -401,7 +414,7 @@ Connect-MicrosoftTeams
 
 ### <a name="assign-a-policy-package-to-a-batch-of-users"></a>指派原則套件給一批使用者
 
-在這個範例中，我們使用```New-CsBatchPolicyPackageAssignmentOperation``` Cmdlet 將 Education_PrimaryStudent 原則套件指派給一批使用者。
+在這個範例中，我們使用 ```New-CsBatchPolicyPackageAssignmentOperation``` Cmdlet 將 Education_PrimaryStudent 原則套件指派給一批使用者。
 
 ```powershell
 New-CsBatchPolicyPackageAssignmentOperation -Identity 1bc0b35f-095a-4a37-a24c-c4b6049816ab,user1@econtoso.com,user2@contoso.com -PackageName Education_PrimaryStudent
@@ -411,13 +424,13 @@ New-CsBatchPolicyPackageAssignmentOperation -Identity 1bc0b35f-095a-4a37-a24c-c4
 
 ### <a name="get-the-status-of-a-batch-assignment"></a>取得批次作業的狀態
 
-執行下列操作以取得批次工作的狀態，其中 OperationId 是由```New-CsBatchPolicyAssignmentOperation``` Cmdlet 針對指定批次傳回的作業識別碼。
+執行下列操作以取得批次工作的狀態，其中 OperationId 是由 ```New-CsBatchPolicyAssignmentOperation``` Cmdlet 針對指定批次傳回的作業識別碼。
 
 ```powershell
 $Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | fl
 ```
 
-如果輸出顯示發生錯誤，請執行下列動作，以取得有關```UserState```屬性中錯誤的詳細資訊。
+如果輸出顯示發生錯誤，請執行下列動作，以取得有關屬性中錯誤的詳細資訊 ```UserState``` 。
 
 ```powershell
 Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | Select -ExpandProperty UserState

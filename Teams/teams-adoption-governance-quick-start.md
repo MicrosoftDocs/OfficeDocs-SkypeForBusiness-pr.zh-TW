@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7b24fd6e6ea957c085050dd1311ec536800b706b
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: a65a9c43ba6828781c53b14e739ba92593ca934c
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904318"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350247"
 ---
 # <a name="governance-quick-start-for-microsoft-teams"></a>Microsoft 團隊的管理快速入門
 
@@ -64,10 +64,10 @@ ms.locfileid: "43904318"
 
 ### <a name="decision-6--data-security"></a>決策6：資料安全性
 
-為您廣泛的部署準備，您可以選擇使用 [安全標籤] 來將您環境中的小組類型分類。 針對本次實驗的目的，我們建議您參考[小組中的管轄規劃](plan-teams-governance.md)，並確保已針對 Microsoft 365 或 Office 365 中的小組資料設定基本的保留原則。 您可能需要與您的技術小組協調此工作，因為需要 Office 365 系統管理員許可權才能完成此作業。
+為您廣泛的部署準備，您可以選擇使用 [安全標籤] 來將您環境中的小組類型分類。 針對本次實驗的目的，我們建議您參考[小組中的管轄規劃](plan-teams-governance.md)，並確保已針對 Microsoft 365 或 Office 365 中的小組資料設定基本的保留原則。 您可能需要與技術小組協調此工作，因為需要 Microsoft 365 或 Office 365 系統管理員許可權才能完成此作業。
 
 ### <a name="decision-7-length-of-your-experiment"></a>決策7：實驗的長度
 
 成功的團隊實現會以良好的速度進行，以確保適當的動量、焦點及學習專案。 我們建議您專案的這個階段為60天，以確保您的早期消費者能完成足夠的商務週期。 延長太長時間的實驗會增加變更計畫失敗的風險;不過，這次會因每個組織而異。  
 
-![代表下一個步驟](media/teams-adoption-next-icon.png)的圖示：[定義使用案例](teams-adoption-define-usage-scenarios.md)
+![代表下一個步驟的圖示 ](media/teams-adoption-next-icon.png) ：[定義使用案例](teams-adoption-define-usage-scenarios.md)

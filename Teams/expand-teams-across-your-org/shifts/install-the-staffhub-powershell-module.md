@@ -18,17 +18,17 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 52b4e0c41520468bc1e05734644d1beb05fed5be
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: b81e28c198ca3ae26979bb61895acdb61842f354
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905725"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350167"
 ---
 # <a name="install-the-microsoft-staffhub-powershell-module"></a>安裝 Microsoft StaffHub PowerShell 模組
 
 > [!IMPORTANT]
-> 2019年12月31日生效，Microsoft StaffHub 將停用。 我們正在將 StaffHub 功能組建至 Microsoft 團隊。 今天，小組包含針對排程管理的倒班應用程式，而其他功能則會隨著時間推移而推出。 StaffHub 將會停止針對2019年12月31日的所有使用者使用。 任何試圖開啟 StaffHub 的人，都會顯示一則訊息，讓他們下載小組。 若要深入瞭解，請參閱[Microsoft StaffHub 停用](microsoft-staffhub-to-be-retired.md)。  
+> 2020年6月30日生效，Microsoft StaffHub 將停用。 我們正在將 StaffHub 功能組建至 Microsoft 團隊。 今天，小組包含針對排程管理的倒班應用程式，而其他功能則會隨著時間推移而推出。 StaffHub 將會針對2020年6月30日的所有使用者停止運作。 任何試圖開啟 StaffHub 的人，都會顯示一則訊息，讓他們下載小組。 若要深入瞭解，請參閱[Microsoft StaffHub 停用](microsoft-staffhub-to-be-retired.md)。  
 
 請使用本文中的步驟來安裝並聯機至 Microsoft StaffHub PowerShell 模組。 您需要這樣做，才能[將您的 StaffHub 團隊移至團隊](move-staffhub-teams-to-shifts-in-teams.md)。
 
@@ -49,7 +49,7 @@ ms.locfileid: "43905725"
     ```PowerShell
     Set-ExecutionPolicy RemoteSigned
     ```
-6. 執行下列動作，其中&lt;path&gt;是步驟3輸出中的路徑。 例如，路徑看起來可能像 C:\Users\User1\Documents\WindowsPowerShell\Modules。
+6. 執行下列動作，其中 &lt; path &gt; 是步驟3輸出中的路徑。 例如，路徑看起來可能像 C:\Users\User1\Documents\WindowsPowerShell\Modules。
 
     請務必分別執行每個命令。
 

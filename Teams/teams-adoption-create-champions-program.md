@@ -21,12 +21,12 @@ f1.keywords:
 description: 瞭解如何訓練擁護者小組，以在您的組織中推動意識、採納及教育。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4be0002b65567bcd708e765242b744936c6ac12e
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: e2c44be9ac59b3a7c076540b658cf27bf74ef0e8
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904755"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350257"
 ---
 # <a name="create-your-champions-program-for-microsoft-teams"></a>為 Microsoft 團隊建立您的擁護程式計畫
 
@@ -45,7 +45,7 @@ ms.locfileid: "43904755"
 
 使用我們的[擁護者計劃指南](https://go.microsoft.com/fwlink/?linkid=854665)，在您的組織中建立此程式。 我們針對此社區的最佳做法包括：
 
-- 加入 Office 365 的擁護者計畫：請確定在擁護者計畫（以及可能的所有公司擁護者）中，最少的領先者是[Microsoft Office 365 擁護者計畫](https://aka.ms/O365Champions)的成員。 這個免費的每月社區通話會提供有價值的資訊來執行您自己的程式，並充分利用團隊及其他 Office 365 服務。 程式資料可以在您自己的內部程式中重複使用。
+- 加入 Microsoft 365 或 Microsoft Office 365[擁護器程式](https://aka.ms/O365Champions)。 請務必在擁護者程式的最小領袖（以及可能的所有公司擁護者）中，將其設為程式的成員。 這個免費的每月社區通話會提供有價值的資訊來執行您自己的程式，並充分利用團隊及其他 Microsoft 365 或 Office 365 服務。 程式資料可以在您自己的內部程式中重複使用。
 
 - 使用團隊合作的擁護者小組：您的擁護者應該使用您針對所有程式通訊、意見反應，以及尋找資源而設定的小組。  如此一來，我們就會進一步熟悉產品及其好處。
 
@@ -60,5 +60,5 @@ ms.locfileid: "43904755"
 
 - 儘早訓練擁護者：您的程式即會啟動，而且每月會議都可以用來在您的擁護者社區中建立技能。 您可以使用這些商機，將他們放在棋盤上、開展其初始訓練、鼓勵他們參與我們的課程，並確定他們已準備好在實驗階段中繼續發展員工。  
 
-![代表下一個步驟](media/teams-adoption-next-icon.png)的圖示： [[完成管理] 快速入門](teams-adoption-governance-quick-start.md)
+![代表下一個步驟的圖示 ](media/teams-adoption-next-icon.png) ： [[完成管理] 快速入門](teams-adoption-governance-quick-start.md)
 

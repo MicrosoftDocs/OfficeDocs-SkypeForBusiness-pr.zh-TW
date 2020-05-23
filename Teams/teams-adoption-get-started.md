@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 00e0cd424de4917cf4a6f84a36b99dbfc3e2f951
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 47b391fa734b06ba9ffbab9cea3d049322bfc034
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44041870"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350117"
 ---
 # <a name="get-started-driving-adoption-of-microsoft-teams"></a>開始推進 Microsoft 團隊的採納
 
@@ -40,9 +40,9 @@ ms.locfileid: "44041870"
 
 - 您已下載桌面和行動應用程式。 
 
-## <a name="office-365-adoption-framework"></a>Office 365 採用架構
+## <a name="adoption-framework"></a>採納架構
 
-Office 365 的採用架構適用于服務中的主要工作負載。 這個架構會解決任何組織在支援雲端服務時應採取的核心步驟。 若要深入瞭解整個採納架構，請參閱[Microsoft 企業檔和資源](https://aka.ms/O365AdoptionHub)。 
+Microsoft 365 和 Office 365 的採納架構適用于服務中的主要工作負載。 這個架構會解決任何組織在支援雲端服務時應採取的核心步驟。 若要深入瞭解整個採納架構，請參閱[Microsoft 企業檔和資源](https://aka.ms/O365AdoptionHub)。 
 
 在本小組採用方案中，我們已將步驟分為幾個階段，並提供特定團隊指導方針，如以下所述的[採用階段](#adoption-phases)所示。
 
@@ -54,9 +54,9 @@ Office 365 的採用架構適用于服務中的主要工作負載。 這個架�
 
 - **實驗**-在此階段的可控增長中，您將會將內部的擁護者與早期採納者集中在一起。 您將與您的商務使用者進行交談，找出可立即受益于小組所提供之共同作業和通訊功能的案例。 您將會收集意見反應，以通知您廣泛使用的採用階段，您將會在管理與生命週期管理方面作出決策，以確保順利進行部署。
 
-- [**縮放**]-這是一種廣泛的部署階段，您可以在其中開啟所有員工的團隊功能。 在此階段中，貴組織的規模將決定是否為「最大」專案，該專案將同時為所有員工開啟團隊，或者，如果您是依地區、業務單元或其他劃分員工群體的方法來進行處理。 在此階段中，您將會移至連續傳遞模型。 員工、領導人和公司單位會想要擴大團隊的使用方式，而且需要進行訓練與您的接洽，以瞭解如何最好地使用團隊及 Office 365 的其他功能。   
+- [**縮放**]-這是一種廣泛的部署階段，您可以在其中開啟所有員工的團隊功能。 在此階段中，貴組織的規模將決定是否為「最大」專案，該專案將同時為所有員工開啟團隊，或者，如果您是依地區、業務單元或其他劃分員工群體的方法來進行處理。 在此階段中，您將會移至連續傳遞模型。 員工、領導人和公司單位會想要擴大團隊的使用方式，而且需要進行訓練與您的接洽，以瞭解如何最好地使用團隊及 Microsoft 365 或 Office 365 的其他功能。
 
 這些採用階段都是由您的小組的技術與環境準備決定。 讓我們開始吧！
 
 
-![代表下一個步驟](media/teams-adoption-next-icon.png)的圖示： [ [Microsoft 團隊採納階段1：開始](teams-adoption-phase1.md)]|
+![代表下一個步驟的圖示 ](media/teams-adoption-next-icon.png) ： [ [Microsoft 團隊採納階段1：開始](teams-adoption-phase1.md)]|

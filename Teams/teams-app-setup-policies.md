@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 3cbf3ec38876d57fe1c2b8ac61abf5b86d5c2106
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: b4c6fe9551374139e8220543cb83f262a2a5195a
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326770"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350057"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>在 Microsoft 團隊中管理 app 設定原則
 
@@ -93,15 +93,21 @@ ms.locfileid: "44326770"
 
 ## <a name="assign-a-custom-app-setup-policy-to-users"></a>將自訂應用程式設定原則指派給使用者
 
-您可以使用 Microsoft 團隊系統管理中心，將自訂原則指派給個別的使用者或商務用 Skype PowerShell 模組，將自訂原則指派給使用者群組，例如安全群組或通訊群組。
+您可以使用 Microsoft 團隊系統管理中心，將自訂原則指派給個別的使用者或商務用 Skype PowerShell 模組，將自訂原則指派給群組中的使用者，例如安全群組或通訊群組。
 
 ### <a name="assign-a-custom-app-setup-policy-to-users"></a>將自訂應用程式設定原則指派給使用者
 
-1. 在 Microsoft 團隊系統管理中心的左導覽中，前往 [**使用者**]，然後按一下使用者。
+若要將原則指派給一個使用者：
+
+1. 在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至 [使用者]****，然後按一下該使用者。
 2. 按一下使用者名稱左方以選取使用者，然後按一下 [編輯設定]****。
 3. 在 [**應用程式設定原則**] 底下，選取您要指派的 App 設定原則，**然後按一下 [** 套用]。
 
-若要一次將原則指派給多個使用者，請參閱[大量編輯 Teams 使用者設定](edit-user-settings-in-bulk.md)。
+若要一次將原則指派給多位使用者：
+
+1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**使用者**]，然後搜尋使用者或篩選視圖，以顯示您想要的使用者。
+2. 在 [ **&#x2713;** （核取符號）] 欄中，選取使用者。 若要選取 [所有使用者]，請按一下表格頂端的 [&#x2713; （核取符號）。
+3. 按一下 [**編輯設定**]，進行您想要的變更，然後按一下 [套用 **]。**  
 
 或者，您也可以執行下列動作：
 
@@ -197,3 +203,4 @@ $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setu
  ## <a name="related-topics"></a>相關主題
 
 - [在 Teams 中的應用程式系統管理設定](admin-settings.md)
+- [指派策略給小組中的使用者](assign-policies.md)

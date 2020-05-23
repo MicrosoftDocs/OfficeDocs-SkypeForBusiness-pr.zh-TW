@@ -19,17 +19,17 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: e0bf24c32854ddf2498b8a00874ad1d358c8fb8a
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: f449d20f4364629185f719c3217023107f774dd9
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326790"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350307"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>將 Microsoft StaffHub 小組移至 Microsoft 團隊中的倒班
 
 > [!IMPORTANT]
-> 2019年12月31日生效，Microsoft StaffHub 將停用。 我們正在將 StaffHub 功能組建至 Microsoft 團隊。 今天，小組包含針對排程管理的倒班應用程式，而其他功能則會隨著時間推移而推出。 StaffHub 將會停止針對2019年12月31日的所有使用者使用。 任何試圖開啟 StaffHub 的人，都會顯示一則訊息，讓他們下載小組。 若要深入瞭解，請參閱[Microsoft StaffHub 停用](microsoft-staffhub-to-be-retired.md)。
+> 2020年6月30日生效，Microsoft StaffHub 將停用。 我們正在將 StaffHub 功能組建至 Microsoft 團隊。 今天，小組包含針對排程管理的倒班應用程式，而其他功能則會隨著時間推移而推出。 StaffHub 將會針對2020年6月30日的所有使用者停止運作。 任何試圖開啟 StaffHub 的人，都會顯示一則訊息，讓他們下載小組。 若要深入瞭解，請參閱[Microsoft StaffHub 停用](microsoft-staffhub-to-be-retired.md)。
 
 團隊中的 [倒班] 應用程式提供簡單的方法來管理排程，以及每天發生的 shift 交換與取消轉移的持續流程。 小組成員可以直接在應用程式和其裝置上存取其排程及轉移資訊，以設定其喜好設定、管理其排程，並要求下班時間。
 
@@ -50,13 +50,13 @@ ms.locfileid: "44326790"
 
 ### <a name="when-to-move-to-teams"></a>移至團隊的時機
 
-2019年12月31日生效，StaffHub 將會停用。 我們鼓勵您立即開始使用團隊，並開始從 StaffHub 轉變貴組織的小組和使用者。 在 StaffHub 中，如果 [排程管理] 是最常用的功能，建議您在小組中使用 [倒班] app。
+2020年6月30日生效，StaffHub 將會停用。 我們鼓勵您立即開始使用團隊，並開始從 StaffHub 轉變貴組織的小組和使用者。 在 StaffHub 中，如果 [排程管理] 是最常用的功能，建議您在小組中使用 [倒班] app。
 
 ### <a name="what-is-moved-to-teams"></a>移至團隊的專案
 
 當您移動 StaffHub 小組時，小組成員資格、使用者詳細資料、小組排程及聊天資料都會移至團隊。 當您移動 StaffHub 小組時，檔案不會移動。 如果 StaffHub 小組包含您也想要移至團隊的檔案，您可以在個別步驟中移動檔案。
 
-每個 StaffHub 小組都需要對應的 Office 365 群組。 如果 StaffHub 小組與 Office 365 群組相關聯，當您移動小組時，會保留該群組的隱私權設定。 如果 StaffHub 小組沒有與其相關聯的 Office 365 群組，系統會自動為您建立一個隱私權設定為「私人」的群組，以支援該轉場。  考慮到團隊與 StaffHub 之間的小組和群組命名差異，您可能會在團隊中看到不同的團隊名稱。 
+每個 StaffHub 小組都需要對應的 Microsoft 365 或 Office 365 群組。 如果 StaffHub 小組與 Microsoft 365 群組相關聯，當您移動小組時，會保留該群組的隱私權設定。 如果 StaffHub 小組沒有與它相關聯的 Microsoft 365 群組，則會自動為您建立一個隱私權設定為 [私人] 的群組，以支援該轉場。  考慮到團隊與 StaffHub 之間的小組和群組命名差異，您可能會在團隊中看到不同的團隊名稱。 
 
 當您將團隊從 StaffHub 轉至團隊時，使用者將無法再存取其在 StaffHub 中的排程，且會重新導向團隊中的時間。 我們建議您在組織中溝通此變更，以減少中斷並鼓勵使用者採納和探索團隊。 如果您有 Azure AD Premium，您可以[執行報告](run-report-to-show-staffhub-usage.md)，以取得貴組織中需要瞭解此變更的 StaffHub 使用者清單。  
 
@@ -364,7 +364,7 @@ $res.Result.Error.Innererror
 
 **當您嘗試將檔案從 StaffHub 移至 [團隊] 時，您會收到「許可權被拒絕」錯誤訊息。**
 
-如果您嘗試將檔案移動到您不是其成員的私人 Office 365 群組中，可能會發生這種情況。 如果是這種情況，請使用[AddStaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/add-staffhubmember) Cmdlet 將自己新增至 StaffHub 小組，然後移動檔案。 移動檔案之後，請使用[StaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/remove-staffhubmember) Cmdlet 將自己從團隊中移除。 
+如果您嘗試將檔案移動到您不是其成員的私人 Microsoft 365 群組中，可能會發生這種情況。 如果是這種情況，請使用[AddStaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/add-staffhubmember) Cmdlet 將自己新增至 StaffHub 小組，然後移動檔案。 移動檔案之後，請使用[StaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/remove-staffhubmember) Cmdlet 將自己從團隊中移除。 
 
 **當您嘗試將檔案從 StaffHub 移至 [團隊] 時，會出現錯誤，指出一般資料夾不存在。**
 

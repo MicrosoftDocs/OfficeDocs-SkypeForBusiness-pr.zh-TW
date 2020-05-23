@@ -11,23 +11,23 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: 瞭解小組到期及續約，以及如何使用 Office 365 群組過期原則，自動清理 Microsoft 團隊中未使用的小組。
+description: 瞭解小組到期及續約，以及如何使用 Microsoft 365 或 Office 365 群組過期原則，自動清理 Microsoft 團隊中未使用的小組。
 f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4bd9949a23d18eb03c83e50ecd418abbf54c0494
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: ed1e91ae51bf3f2868e9e2f5f1de1532954d552e
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837893"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350277"
 ---
 # <a name="team-expiration-and-renewal-in-microsoft-teams"></a>Microsoft 團隊中的小組到期與更新
 
 擁有大量小組的組織通常會有小組，這些都不是實際使用。 這可能是因為幾個原因，包括產品實驗、短期團隊共同作業，或團隊擁有者離開組織。 隨著時間的推移，此類團隊可以在租使用者資源上累計並產生負擔。  
 
-若要將未使用的團隊數作為系統管理員，您可以使用[Office 365 群組過期原則](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups-expiration-policy)自動清理未使用的團隊。 由於團隊是由群組來支援，因此群組過期原則也會自動套用至小組。
+若要將未使用的團隊數作為系統管理員，您可以使用[Microsoft 365 或 Office 365 群組過期原則](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups-expiration-policy)，自動清理未使用的團隊。 由於團隊是由群組來支援，因此群組過期原則也會自動套用至小組。
 
 當您將過期原則套用至小組時，小組擁有者會在團隊的到期日之前，在30天、15天和1天之前收到小組更新通知。 當小組擁有者收到通知時，他們可以按一下 [團隊設定] 中的 [**立即更新**] 來更新小組。
 
