@@ -18,12 +18,12 @@ f1.keywords:
 description: 無論您是 Teams 系統管理員或服務支援工程師，都能使用這些資源在組織中支援 Microsoft Teams。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2af4f29ade3e360f4802077d503fd5ad66b081c9
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: e0d4daacda88078a731e1db2126c814e862aefa3
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44041940"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44349567"
 ---
 # <a name="support-microsoft-teams-in-your-organization"></a>在組織中支援 Microsoft Teams
 
@@ -53,9 +53,7 @@ ms.locfileid: "44041940"
 |**私人頻道**    |Microsoft Teams 中的私人頻道為小組內的共同作業建立了焦點空間。 只有小組中身為私人頻道的擁有者或成員的使用者，才可以存取頻道。 任何人 (包括來賓) 都可以新增為私人頻道的成員，只要他們已經是小組的成員即可。<br><br>如果要將共同作業限制為需要知道的人員，或是在不另外建立小組來管理已指派特定專案小組的情況下，促進小組人員之間的溝通，您可能會想要使用私人頻道。<br><br>其他資源：<ul><li>[使用者註冊 Teams Exploratory 體驗的方式](teams-exploratory.md#how-users-sign-up-for-the-teams-exploratory-experience)</li><li>[管理 Teams Exploratory 體驗](teams-exploratory.md#manage-the-teams-exploratory-experience)</li><ul>        |
 |**會議原則**|[會議原則](meeting-policies-in-teams.md)是針對由您組織中的使用者所排程的會議，控制會議參與者可用於會議的功能。 建立原則並進行變更之後，您可以將使用者指派給該原則。         |
 ||**變更或建立會議原則**<br><br>若要變更或建立會議原則，請移至 [Microsoft Teams 系統管理中心] > **[會議] ** > ** [會議原則]**。 從清單中選取原則，或選取 **[新增]**。 如果您要建立新原則，請新增原則的名稱和描述。 名稱不能包含特殊字元，且長度不可超過 64 個字元。 選擇您的設定，然後按一下 [儲存]****。 例如，假設您有多位使用者，並且想要限制其會議所需的頻寬量。 您可以建立名為「有限頻寬」的新自訂原則，並停用下列設定：<br><br>在 [音訊與視訊]**** 下：<ul><li>關閉 [允許雲端錄製]。</li><li>關閉 [允許 IP 視訊]。</li></ul>在 [內容共用]**** 下：<ul><li>停用 [螢幕畫面分享模式]。</li><li>關閉 [允許白板]。</li><li>關閉 [允許共用記事]。</li></ul>然後，將原則指派給使用者。         |
-| |**將會議原則指派給使用者**<br><br><ol><li>在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至 [使用者]****，然後按一下該使用者。</li><li>按一下使用者名稱左方以選取使用者，然後按一下 [編輯設定]****。</li><li>在 [會議原則]**** 下，選取要指派的原則，然後按一下 [套用]****。</li></ol>若要一次將原則指派給多個使用者，請參閱[大量編輯 Teams 使用者設定](edit-user-settings-in-bulk.md)。 或者，您可以執行下列內容︰<ol><li>在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至 [會議] > [會議原則]****。</li><li>按一下原則名稱的左側來選取原則。</li><li>選取 [管理使用者]****。</li><li>在 [管理使用者]**** 窗格中，依顯示名稱或使用者名稱搜尋使用者，選取名稱，然後按一下 [新增]****。 針對要新增的每一個使用者重複此步驟。</li><li>新增完使用者之後，按一下 **[儲存]**。</li>         |
-|**遺失撥號鍵台的疑難排解**     |請執行下列動作： <ul><li>請確認已指派使用者 [[Teams 授權]](teams-add-on-licensing/assign-teams-add-on-licenses.md)。</li><li>請確認已指派使用者 [[通話方案]](calling-plan-landing-page.md)。</li><li>為使用者啟用 [[企業語音]](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-enterprise-voice-online-and-phone-system-voicemail#to-enable-your-users-for-phone-system-in-office-365-voice-and-voicemail)。</li></ul>      |
-|**疑難排解 Teams 登入問題**   |首先，請確認 [Microsoft Teams 服務狀況良好](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/servicehealth)。 然後檢查是否有任何常見的錯誤碼，並參閱[為何我無法登入 Microsoft Teams？](https://support.office.com/article/a02f683b-61a3-4008-9447-ee60c5593b0f)  您可能還需要參閱 [Microsoft Teams 中的身分識別模型和驗證方式](identify-models-authentication.md) (部分機器翻譯)。         |
+| |**將會議原則指派給使用者**<br><br>若要指派會議原則給一位使用者：<ol><li>在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至 [使用者]****，然後按一下該使用者。</li><li>按一下使用者名稱左方以選取使用者，然後按一下 [編輯設定]****。</li><li>在 [會議原則]**** 下，選取要指派的原則，然後按一下 [套用]****。</li></ol> 若要一次將原則指派給多位使用者： <ol><li>在 Microsoft Teams 系統管理中心的左側瀏覽中，移至 [使用者]****，然後搜尋使用者或篩選檢視畫面，以顯示您想要的使用者。</li><li>在 [&#x2713;]**** (核取方塊) 欄中，選取使用者。 若要選取 [所有使用者]，請按一下表格頂端的 [&#x2713;] (核取方塊)。</li><li>按一下 [編輯設定]****，進行所需的變更，然後按一下 [套用]****。</li></ol>或者，您可以執行下列內容︰<ol><li>在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至 [會議] > [會議原則]****。</li><li>按一下原則名稱的左側來選取原則。</li><li>選取 [管理使用者]****。</li><li>在 [管理使用者]**** 窗格中，依顯示名稱或使用者名稱搜尋使用者，選取名稱，然後按一下 [新增]****。 針對要新增的每一個使用者重複此步驟。</li><li>新增完使用者之後，按一下 **[儲存]**。</li></ol> ||**遺失撥號鍵台的疑難排解**     |請執行下列動作： <ul><li>請確認已指派使用者 [[Teams 授權]](teams-add-on-licensing/assign-teams-add-on-licenses.md)。</li><li>請確認已指派使用者 [[通話方案]](calling-plan-landing-page.md)。</li><li>為使用者啟用 [[企業語音]](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-enterprise-voice-online-and-phone-system-voicemail#to-enable-your-users-for-phone-system-in-office-365-voice-and-voicemail)。</li></ul>      ||**疑難排解 Teams 登入問題**   |首先，請確認 [Microsoft Teams 服務狀況良好](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/servicehealth)。 然後檢查是否有任何常見的錯誤碼，並參閱[為何我無法登入 Microsoft Teams？](https://support.office.com/article/a02f683b-61a3-4008-9447-ee60c5593b0f)  您可能還需要參閱 [Microsoft Teams 中的身分識別模型和驗證方式](identify-models-authentication.md) (部分機器翻譯)。         |
 
 ### <a name="for-education-customers"></a>適用於教育版客戶
 
