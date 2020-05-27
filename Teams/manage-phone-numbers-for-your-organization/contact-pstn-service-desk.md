@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: 當您取得貴組織的電話號碼或移植（轉移）號碼時，您可能需要在 PSTN 服務台取得說明和支援。
-ms.openlocfilehash: f9dd45f70a0e233f22fbbe607731d65146c705f7
-ms.sourcegitcommit: a09334ef1a6b0a877839c3b46165eb5a6aad1ba9
+ms.openlocfilehash: 3079d6881d86239d395c036c9630ef5ee2eac151
+ms.sourcegitcommit: 47637ed816b471fe689e7bdac27b73e6efced60c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/02/2020
-ms.locfileid: "44006009"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44374271"
 ---
 # <a name="pstn-service-desk-contact"></a>PSTN Service 服務台連絡人
 
@@ -38,6 +38,7 @@ PSTN 服務台小組目前有三個電子郵件地址可提供支援，如下表
 |:-----:|:------:|
 | [在**美國或加拿大**境內，以電子郵件傳送給我們的 ptn@microsoft.com](mailto:ptn@microsoft.com)| [**比利時、法國、德國、英國、愛爾蘭、荷蘭、西班牙、瑞典、瑞士**、以電子郵件傳送給我們的 ptneu@microsoft.com](mailto:ptneu@microsoft.com)|
 |[在**美國或加拿大境外**，透過電子郵件傳送我們的 ptneu@microsoft.com](mailto:ptneu@microsoft.com)| [**世界各地的其他**人，透過電子郵件傳送給我們 gcstnmsd@microsoft.com](mailto:gcstnmsd@microsoft.com)|
+|由於傳入要求中有很大的峰值，因此北美**移植小組**也會受到囤積。 我們正致力於在 FIFO （先進先出）基礎上清除此積壓作業，因此**我們對新要求的回應將會延遲。**|
 
 如果您需要**將現有的電話號碼傳送/移植至 Microsoft 團隊**的協助，請盡可能包含詳細資訊：
   - 您的[組織識別碼（租使用者識別碼）或目前活動的 Microsoft 網域](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id)。

@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 瞭解 Microsoft 團隊所產生的調試、媒體和桌面記錄，以及可在哪裡找到這些記錄，以及如何協助疑難排解。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2c8da7e60e785d765e77e17935b60382e864a83b
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: a9981a30eb0365f2919d86bd6bf694375e71e9eb
+ms.sourcegitcommit: 47637ed816b471fe689e7bdac27b73e6efced60c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41833373"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44374201"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>在 Microsoft 團隊的疑難排解中使用記錄檔
 =================================================
@@ -42,7 +42,7 @@ ms.locfileid: "41833373"
 |用戶端 |Debug|桌面|媒體|
 |---------|---------|---------|---------|
 |網站    |X         |-         |-         |
-|時間     |X         |X         |X         |
+|Windows     |X         |X         |X         |
 |Mac OSX     |X         |X         |X         |
 |iOS     |-         |-         |-         |
 |Android     |-         |-         |-         |
@@ -74,7 +74,7 @@ ms.locfileid: "41833373"
 
 調試記錄會自動下載到下列資料夾中。
 
--   Windows：% userprofile%\\下載
+-   Windows：% userprofile% \\ 下載
 
 -   Mac OSX：下載
 
@@ -88,9 +88,9 @@ ms.locfileid: "41833373"
 
 |用戶端 |位置 |
 |---------|---------|
-|時間     |%appdata%\Microsoft\Teams\media-stack\\*. 博客         |
-|            |%appdata%\Microsoft\Teams\skylib\\*. 博客
-|            |%appdata%\Microsoft\Teams\media-stack\\* .etl         |
+|Windows     |%appdata%\Microsoft\Teams\media-stack \\ *. 博客         |
+|            |%appdata%\Microsoft\Teams\skylib \\ *. 博客
+|            |%appdata%\Microsoft\Teams\media-stack \\ * .etl         |
 |Mac OSX     |~ 路徑/library/application support 支援/Microsoft/團隊/media-stack/*. 博客         |
 |            |~ 路徑/library/application support 支援/Microsoft/團隊/skylib/*. 博客         |
 
@@ -103,7 +103,7 @@ ms.locfileid: "41833373"
 
 時間
 
-1.  以滑鼠右鍵按一下應用程式紙盒**中的 [Microsoft 團隊] 圖示**，然後選取 [**取得記錄**]
+1.  以滑鼠右鍵按一下系統工作列**中的 [Microsoft 團隊] 圖示**，然後選取 [**取得記錄**]
 
 Mac OsX：
 
@@ -111,5 +111,5 @@ Mac OsX：
 
 |用戶端 |位置 |
 |---------|---------|
-|時間     |%appdata%\Microsoft\Teams\logs.txt         |
+|Windows     |%appdata%\Microsoft\Teams\logs.txt         |
 |Mac OSX     |~ 路徑/library/application support 支援/Microsoft/團隊/記錄 .txt         |

@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dc2a4495d95d0c6458fef16ea2f3f336dd337db4
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: e34bc0b15186afdbbe33edb154f02b4decdc3b12
+ms.sourcegitcommit: 47637ed816b471fe689e7bdac27b73e6efced60c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140674"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44374301"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>瞭解 Microsoft 團隊及商務用 Skype 的共存與互通性
 
@@ -82,6 +82,8 @@ ms.locfileid: "43140674"
 **團隊只有**使用者（也稱為已*升級*的使用者）可以存取團隊中的所有功能。 他們可能會保留商務用 Skype 用戶端，以在已由未升級的使用者或外部合作夥伴組織的商務用 Skype 上加入會議。 已升級的使用者可以使用小組與商務用 Skype 之間的互通性功能，繼續與組織中的其他使用者進行通訊（前提是這些商務用 Skype 使用者不是以**孤島**模式提供）。 不過，升級後的使用者無法啟動商務用 Skype 聊天、通話或會議。
 
 只要您的組織準備好讓部分或所有使用者使用團隊作為其唯一的通訊與共同作業工具，您就可以將這些使用者升級至 [**僅限團隊**] 模式。 如果您是從**孤島**模式升級，我們建議您先將團隊在整個組織中採納，然後再開始升級程式。 這可避免由於**孤島**模式無法提供互通性而造成的通訊案例中斷。
+
+在 [**僅限團隊**] 模式中，[團隊] 是 [SIP/電話通訊協定] 的預設應用程式。 這表示 Outlook 中的連絡人卡片中的連結將由小組來處理。
 
 若要進一步考慮移至 [**僅限團隊**] 模式，請參閱[僅限團隊模式考慮](teams-only-mode-considerations.md)。
 
@@ -204,7 +206,7 @@ Windows 版小組桌面用戶端、Mac 版小組桌面用戶端及支援內容�
  
 同時，商務用 Skype 使用者會收到與會議連結的傳入聊天訊息，並引導您加入會議。
 
-在租使用者互通性和跨租使用者的共同通話和聊天中，都有提供團隊會議的這項升級。 此選項預設為開啟狀態，且系統管理員沒有提供任何設定。 不過，如果系統管理員已設定``-AllowPrivateMeetNow`` ``CsTeamsMeetingPolicy``為``$false``，就會關閉該使用者。
+在租使用者互通性和跨租使用者的共同通話和聊天中，都有提供團隊會議的這項升級。 此選項預設為開啟狀態，且系統管理員沒有提供任何設定。 不過，如果系統管理員已設定為，就會關閉該 ``-AllowPrivateMeetNow`` 使用者 ``CsTeamsMeetingPolicy`` ``$false`` 。
 
 在您複習本文之後，請參閱[選擇您的升級歷程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)、[移植與互通性指導](https://aka.ms/SkypeToTeams-Interop)方針、[與商務用 Skype 共存](coexistence-chat-calls-presence.md)，以及[設定您的共存與升級設定](https://aka.ms/SkypeToTeams-SetCoexistence)以取得詳細資料。
 
