@@ -314,6 +314,7 @@
 ##### [SIP 通訊協定](direct-routing-protocols-SIP.md)
 ##### [媒體通訊協定](direct-routing-protocols-media.md)
 #### [設定回電機器人](direct-routing-ringback-bot.md)
+#### [管理語音路由原則](manage-voice-routing-policies.md)
 
 
 ## 電話號碼
@@ -439,7 +440,6 @@
 #### [加值和管理通訊點數](add-funds-and-manage-communications-credits.md)
 
 ### [Microsoft Teams 通話流程](microsoft-teams-online-call-flows.md)
-### [管理語音路由原則](manage-voice-routing-policies.md)
 
 ## 適用於大型組織的實用指引
 ### [教學課程：在 Teams 中通話](Tutorial-calling-in-teams.yml)
