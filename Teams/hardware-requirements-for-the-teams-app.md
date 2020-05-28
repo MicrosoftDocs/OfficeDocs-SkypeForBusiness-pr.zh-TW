@@ -1,6 +1,6 @@
 ---
 title: Microsoft Teams 的硬體需求
-ms.reviewer: ''
+ms.reviewer: microthk
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e6b61a610d01a50d09af77c626001ca2aff5918
-ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
+ms.openlocfilehash: 9c37bc3aa89a92cf4fdd1e870f49653c8915355e
+ms.sourcegitcommit: d675569fe51c20d0ad1b9855191297530f922d75
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44224116"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44385984"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Microsoft Teams 的硬體需求
 
@@ -86,6 +86,7 @@ ms.locfileid: "44224116"
 - iOS：與 iPhone、iPad、iPod Touch 相容。
 
   僅支援 iOS 最新的兩個主要版本。 發行新的 iOS 主要版本時，此新版 iOS 和前一版本都可受到正式支援。
+  [選擇性**模糊**] ios 上的背景視頻效果需要 ios 12 或更新版本的作業系統，且與下列裝置相容： iPhone 7 或更新版本、iPad 2018 （第6代）或更新版本，以及 iPod touch 2019 （第7代）。
 
 為了獲得最佳的 Teams 使用體驗，請使用最新版的 iOS 和 Android。
 

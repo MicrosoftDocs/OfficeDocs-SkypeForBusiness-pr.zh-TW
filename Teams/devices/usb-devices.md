@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: 查看哪些 USB 週邊設備與裝置，例如耳機、免持聽筒、網路攝影機和監視器，且已獲認證供 Microsoft 團隊參考。
-ms.openlocfilehash: 8ecb8fcd065cb43c37fa4c55cc5b7106218d6eca
-ms.sourcegitcommit: 3ed779277540589eabef745685ab6c67d8a8ff90
+ms.openlocfilehash: 25099435d4a62d404571c87a42b29698a64b75f8
+ms.sourcegitcommit: 26a6802fb7bfc865771fc476916957524c280d83
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44281766"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "44407405"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>針對 Microsoft 團隊認證的 USB 音訊與視頻裝置
 
@@ -74,10 +74,16 @@ ms.locfileid: "44281766"
 
 ## <a name="certified-devices"></a>認證的裝置
 
-*更新2020年4月*
+*已更新的資料表可能是2020*
 
 | 製造商    | 模型                   | 具  | 認證計畫                                  |
 |:----------------|:------------------------|:-----------|:---------------------------------------------------|
+|Jabra             |使用 Jabra 連結 370 USB 轉換器來朗讀750話筒|5/21/2020 | 針對 Microsoft 團隊認證  | 
+|EPOS              | Sennheiser 改編660耳機 |5/15/2020 |針對 Microsoft 團隊認證  | 
+|EPOS              | Sennheiser 改編560耳機|5/15/2020 |針對 Microsoft 團隊認證  | 
+|EPOS              | Sennheiser 改編460T 耳機 |5/15/2020 |針對 Microsoft 團隊認證  | 
+|EPOS              | Sennheiser 改編360耳機| 5/15/2020 |針對 Microsoft 團隊認證  | 
+|Yealink           |UH36 耳機 | 5/13/2020 |針對 Microsoft 團隊認證  | 
 | Poly            | Savi 8210 Office        | 4/20/2020  | 商務用 Skype （含升級至 Microsoft 團隊） |
 | Poly            | Savi 8210 UC            | 4/20/2020  | 商務用 Skype （含升級至 Microsoft 團隊） |
 | Poly            | Savi 8220 Office        | 4/20/2020  | 商務用 Skype （含升級至 Microsoft 團隊） |
