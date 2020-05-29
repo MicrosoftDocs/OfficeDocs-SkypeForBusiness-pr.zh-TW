@@ -20,12 +20,12 @@ ms.custom:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何使用及管理 Microsoft 團隊中的原則套件，以簡化、簡化及協助在管理使用者群組原則時提供一致性。
-ms.openlocfilehash: d9ad5c2308ead1fe5761755270f81f058bf0fa3c
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 62151d9356e414f0f527e597492be685c0067fd0
+ms.sourcegitcommit: 86b0956680b867b8bedb2e969220b8006829ee53
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44353028"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "44412527"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>管理 Microsoft 團隊中的原則套件
 
@@ -106,10 +106,7 @@ Microsoft 團隊中的原則套件是預先定義的原則與原則設定的集�
 
 使用批次原則套件指派來一次將原則套件指派給大型的使用者組。 您使用[CsBatchPolicyPackageAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) Cmdlet 來提交一批使用者和您要指派的原則套件。 作業會處理為背景作業，並會針對每個批次產生操作 ID。
 
-批次最多可包含20000個使用者。 您可以依物件識別碼、UPN、SIP 位址或電子郵件地址來指定使用者。 若要深入瞭解，請參閱[將原則套件指派給一批使用者](assign-policies.md#assign-a-policy-package-to-a-batch-of-users)。
-
-> [!IMPORTANT]
-> 我們目前建議您逐一指派原則，以批次5000使用者。 在這些時間增加需求期間，您可能會遇到處理時間的延遲。 為了將這些增加的處理時間的影響降至最低，我們建議您提交較小至5000個使用者的批次，並在前一個帳戶完成後提交每個批次。 在一般的商務時間以外提交批次也會有所説明。
+批次最多可包含5000個使用者。 您可以依物件識別碼、UPN、SIP 位址或電子郵件地址來指定使用者。 若要深入瞭解，請參閱[將原則套件指派給一批使用者](assign-policies.md#assign-a-policy-package-to-a-batch-of-users)。
 
 ### <a name="customize-policies-in-a-policy-package"></a>在原則套件中自訂策略
 

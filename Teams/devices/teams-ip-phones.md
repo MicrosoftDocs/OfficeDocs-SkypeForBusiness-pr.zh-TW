@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 瞭解哪些桌面與會議已認證，讓 Microsoft 團隊能產生最佳結果。
-ms.openlocfilehash: ceb1a1a0a6668b09c51713bac539b0916aaab838
-ms.sourcegitcommit: 3ed779277540589eabef745685ab6c67d8a8ff90
+ms.openlocfilehash: 37fd96db69b456ac5659cc430da19d2aad6fa560
+ms.sourcegitcommit: 2295a668a6f118b95f010e81150351741572b076
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44281755"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44412630"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Microsoft 團隊的 IP 手機認證
 
@@ -65,9 +65,9 @@ IP 電話認證計畫可確保使用經過驗證的手機和手機的客戶能�
 
 下列共同作業條是針對 Microsoft 團隊認證：
 
-|共同作業條模型|固件版本|發行日期 |
-|:---|:---|:---|
-|Yealink VC210| 118.15.0.14|2020年2月|
+|共同作業條模型|固件版本|發行日期 |會議室大小（最多）|
+|:---|:---|:---|:---|
+|Yealink VC210| 118.15.0.14|2020年2月|焦點房間（3m x 3m） </br> 小型會議室（4.5 m x 4.5 m）|
 
 如需這些裝置支援之功能的資訊，請參閱[Microsoft 團隊手機功能集](/MicrosoftTeams/devices/phones-for-teams#microsoft-teams-phones-feature-set)。
 

@@ -18,12 +18,12 @@ description: 瞭解在 Microsoft 團隊中將原則指派給使用者的不同�
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: aa63a0cc7ce24390228cc9d87adf054348c6522d
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: ae007641734b71a34d9021283704d6b210626a28
+ms.sourcegitcommit: 86b0956680b867b8bedb2e969220b8006829ee53
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44350037"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "44410458"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>在 Microsoft Teams 中將原則指派給使用者
 
@@ -128,19 +128,18 @@ Grant-CsTeamsMeetingPolicy -Identity reda@contoso.com -PolicyName "Student Meeti
 
 1. 在 Microsoft [團隊管理中心] 的左導覽中，選取 [**使用者**]。
 2. 搜尋您要指派原則的使用者，或篩選視圖以顯示您想要的使用者。
-3. 在 [ **&#x2713;** （核取符號）] 欄中，選取使用者。 若要選取 [所有使用者]，請按一下表格頂端的 [&#x2713; （核取符號）。
-4. 按一下 [**編輯設定**]，進行您想要的變更，然後按一下 [套用 **]。**
+3. 在 [&#x2713;]**** (核取方塊) 欄中，選取使用者。 若要選取 [所有使用者]，請按一下表格頂端的 [&#x2713;] (核取方塊)。
+4. 按一下 [編輯設定]****，進行所需的變更，然後按一下 [套用]****。
 
 若要查看原則指派的狀態，在您按一下 [套用] 以提交原則指派之後，在 [**使用者**] 頁面頂端出現的橫幅中 **，按一下 [** **活動記錄**]。 或者，在 Microsoft [團隊管理中心] 的左導覽中，移至 [**儀表板**]，然後按一下 [**活動記錄**] 下的 [**查看詳細資料**]。 活動記錄會顯示在過去30天內，透過 Microsoft [小組系統管理中心] 向超過20名使用者批次的原則作業。 若要深入瞭解，請參閱[在活動記錄中查看您的原則分派](activity-log.md)。
 
 ### <a name="using-powershell"></a>使用 PowerShell
  
-使用批次原則指派，您可以一次將原則指派給大型的使用者組，而不需要使用腳本。 您可以使用 ```New-CsBatchPolicyAssignmentOperationd``` Cmdlet 來提交一批使用者和您要指派的原則。 作業會處理為背景作業，並會針對每個批次產生操作 ID。 然後，您就可以使用此 ```Get-CsBatchPolicyAssignmentOperation``` Cmdlet 來追蹤批次中作業的進度和狀態。
+使用批次原則指派，您可以一次將原則指派給大型的使用者組，而不需要使用腳本。 您可以使用 ```New-CsBatchPolicyAssignmentOperationd``` Cmdlet 來提交一批使用者和您要指派的原則。 作業會處理為背景作業，並會針對每個批次產生操作 ID。 然後，您就可以使用此 ```Get-CsBatchPolicyAssignmentOperation``` Cmdlet 來追蹤批次中作業的進度和狀態。 
 
-批次最多可包含20000個使用者。 您可以依物件識別碼、使用者主體名稱（UPN）、會話初始通訊協定（SIP）位址或電子郵件地址來指定使用者。
+您可以依物件識別碼、使用者主體名稱（UPN）、會話初始通訊協定（SIP）位址或電子郵件地址來指定使用者。 如果批次包含重複的使用者，則會在處理前從批次中移除重複專案，且狀態將只提供給批次中剩餘的唯一使用者。 
 
-> [!IMPORTANT]
-> 我們目前建議您逐一指派原則，以批次5000使用者。 在這些時間增加需求期間，您可能會遇到處理時間的延遲。 為了將這些增加的處理時間的影響降至最低，我們建議您提交較小至5000個使用者的批次，並在前一個帳戶完成後提交每個批次。 在一般的商務時間以外提交批次也會有所説明。
+批次最多可包含5000個使用者。 若要獲得最佳結果，請不要一次提交超過幾個批次。 允許批次完成處理，然後再提交更多批次。
 
 > [!NOTE]
 > 目前，所有團隊原則類型都無法使用批次原則分派。 如需支援的原則類型清單，請參閱[新-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation) 。

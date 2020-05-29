@@ -12,12 +12,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: 瞭解貴組織中的團隊使用者與 Skype （消費者）使用者之間的互通性功能。
 localization_priority: Normal
-ms.openlocfilehash: ca67cd1f96b2a0e8bc9b65e60ccf71fdea53763a
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: 00bd5c079a062875ebf5569600803e1c366429fe
+ms.sourcegitcommit: 86b0956680b867b8bedb2e969220b8006829ee53
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43749550"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "44410428"
 ---
 # <a name="teams-and-skype-interoperability"></a>團隊與 Skype 互通性
 
@@ -68,17 +68,17 @@ Skype 使用者可以使用他們的電子郵件地址，搜尋並開始與團�
 
 ## <a name="set-whether-teams-users-can-communicate-with-skype-users"></a>設定團隊使用者是否可與 Skype 使用者通訊
 
-作為系統管理員，您可以使用 Microsoft 團隊系統管理中心或 PowerShell 來設定外部存取設定，以控制貴組織中的小組使用者是否可與 Skype 使用者通訊。 根據預設，此功能對於新的租使用者而言是關閉的。
+作為系統管理員，您可以使用 Microsoft 團隊系統管理中心或 PowerShell 來設定外部存取設定，以控制貴組織中的小組使用者是否可與 Skype 使用者通訊。 根據預設，此功能已針對新的租使用者開啟。
 
 如果您是從商務用 Skype 升級至小組，您在商務用 Skype 系統管理中心所設定的外部通訊設定會遷移至小組。
 
 ### <a name="in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 系統管理中心
 
-在 Microsoft 團隊系統管理中心中，移至 [**全組織設定** > **外部存取**]，然後開啟 [**使用者可以與 Skype 使用者通訊**]。 如需如何設定此和其他外部存取設定的逐步指導，請參閱[管理團隊中的外部存取](https://docs.microsoft.com/microsoftteams/manage-external-access#allow-or-block-domains)。
+在 Microsoft 團隊系統管理中心中，移至 [**全組織設定**  >  **外部存取**]，然後開啟 [**使用者可以與 Skype 使用者通訊**]。 如需如何設定此和其他外部存取設定的逐步指導，請參閱[管理團隊中的外部存取](https://docs.microsoft.com/microsoftteams/manage-external-access#allow-or-block-domains)。
 
 ### <a name="using-powershell"></a>使用 PowerShell
 
-搭配使用[CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy) Cmdlet 與```EnablePublicCloudAccess```參數，以控制團隊使用者是否可與 Skype 使用者通訊。 設定參數以```true```允許團隊使用者與 Skype 使用者通訊。 請注意， ```EnablePublicCloudAudioVideoAccess```您可以使用此參數來啟用/停用音訊/視頻通話。
+搭配使用[CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy) Cmdlet 與 ```EnablePublicCloudAccess``` 參數，以控制團隊使用者是否可與 Skype 使用者通訊。 設定參數以 ```true``` 允許團隊使用者與 Skype 使用者通訊。 請注意，您 ```EnablePublicCloudAudioVideoAccess``` 可以使用此參數來啟用/停用音訊/視頻通話。
 
 ## <a name="related-topics"></a>相關主題
 

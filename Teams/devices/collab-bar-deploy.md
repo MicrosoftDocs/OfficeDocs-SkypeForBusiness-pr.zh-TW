@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: 閱讀本文以瞭解如何針對 Microsoft 團隊部署共同作業條。
-ms.openlocfilehash: 4593d6b42e61efbd7d57f27fd0a10ed8f97b82f5
-ms.sourcegitcommit: f0ccafb7e9c2d382ab4545e085657e8129024f1d
+ms.openlocfilehash: 71f9482dd5f42ddeb56b32c1a92db033d1f179f7
+ms.sourcegitcommit: 86b0956680b867b8bedb2e969220b8006829ee53
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/16/2020
-ms.locfileid: "44268030"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "44410448"
 ---
 # <a name="deploy-collaboration-bars-for-microsoft-teams"></a>為 Microsoft 團隊部署共同作業橫條圖
 
@@ -62,7 +62,7 @@ Microsoft 團隊的共同作業橫條圖部署可分為下列階段：
 
 如果您決定要設定 Microsoft 365 資源帳戶，您必須為其購買會議室授權。 [會議室授權] 包含的資源信箱可讓貴組織中的人員透過 Outlook 或團隊預訂會議室。 授權也能在會議參與者之間啟用影片和音訊會議以及螢幕共用。
 
-如果您需要接收或撥打電話給外部電話號碼，您也需要 Microsoft 365 手機系統或 Microsoft 365 商務語音授權。
+如果您需要接收或撥打電話給外部電話號碼，您可能需要通話方案或 Microsoft 365 商務語音[附加元件授權](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing?tabs=small-business)。 如果您的組織已啟用直接路由，您只需要會議室 SKU。
 
 當您建立資源帳戶時，您可以選擇是否要讓帳戶自動接受或拒絕會議邀請、允許週期性會議，指定提前的人員預訂資源的進度。
 
@@ -87,7 +87,7 @@ Microsoft 團隊的共同作業橫條圖部署可分為下列階段：
 
 ### <a name="account-provisioning"></a>帳戶預配
 
-如果您打算使用 Microsoft 365 資源帳戶來讓使用者預訂共同作業列，請依照[使用 microsoft 365 系統管理中心建立資源帳戶](resource-account-ui.md)中的指示，為每一個需要的共同作業列建立 Microsoft 365 資源帳戶。 您也可以將會議室授權新增至資源帳戶，如果您想要撥打或接聽外部電話號碼（電話系統或商務語音授權）撥打電話或接聽電話。
+如果您打算使用 Microsoft 365 資源帳戶來讓使用者預訂共同作業列，請依照[使用 microsoft 365 系統管理中心建立資源帳戶](resource-account-ui.md)中的指示，為每一個需要的共同作業列建立 Microsoft 365 資源帳戶。 您也可以將會議室授權新增至資源帳戶，如果您想要撥打或接聽外部電話號碼的來電、通話方案或商務語音授權（如果您的組織未使用直接傳送）。
 
 如果您想要將共同作業條指派給個別的使用者，您不需要設定任何其他帳戶。 使用者可以使用個人帳戶登入共同作業列。
 

@@ -17,12 +17,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何使用批次原則指派將原則指派給教育機構中的大型使用者，以供遠端學校（teleschool、tele 學校）使用。
 f1keywords: ''
-ms.openlocfilehash: bb851981f9923869d39c690dff6d22e446e0e844
-ms.sourcegitcommit: e710bb8dbbd084912cbf509896515a674ab5e19f
+ms.openlocfilehash: 5772a260642b09232e4df5eec57751a39ec2a74a
+ms.sourcegitcommit: 86b0956680b867b8bedb2e969220b8006829ee53
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43033357"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "44410438"
 ---
 # <a name="assign-policies-to-large-sets-of-users-in-your-school"></a>將原則指派給學校中的大型使用者
 
@@ -108,10 +108,8 @@ $faculty = Get-AzureADUser -All $true | Where-Object {($_.assignedLicenses).SkuI
 
 ## <a name="assign-a-policy-in-bulk"></a>大量指派原則
 
-現在，我們會大量將適當的原則指派給使用者。 您可以指派或更新原則的使用者數目上限為20000一次。 例如，如果您有超過20000名員工和教育版，您將需要提交多個批次。
+現在，我們會大量將適當的原則指派給使用者。 您可以指派或更新原則的使用者數目上限為5000一次。 例如，如果您有超過5000名員工和教育版，您將需要提交多個批次。
 
-> [!IMPORTANT]
-> 我們目前建議您逐一指派原則，以批次5000使用者。 在這些時間增加需求期間，您可能會遇到處理時間的延遲。 為了將這些增加的處理時間的影響降至最低，我們建議您提交較小至5000個使用者的批次，並在前一個帳戶完成後提交每個批次。 在一般的商務時間以外提交批次也會有所説明。
 
 執行下列動作，將名為「EducatorMeetingPolicy」的會議原則指派給您的員工和教育版。
 
@@ -120,7 +118,7 @@ New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName 
 ```
 
 > [!NOTE]
-> 若要大量指派不同的原則類型（例如 TeamsMessagingPolicy），您必須變更```PolicyType```為您要指派的原則，以及```PolicyName```策略名稱。
+> 若要大量指派不同的原則類型（例如 TeamsMessagingPolicy），您必須變更 ```PolicyType``` 為您要指派的原則，以及 ```PolicyName``` 策略名稱。
 
 ## <a name="get-the-status-of-a-bulk-assignment"></a>取得大量作業的狀態
 
@@ -130,13 +128,13 @@ New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName 
 Get-CsBatchPolicyAssignmentOperation -OperationId 3964004e-caa8-4eb4-b0d2-7dd2c8173c8c | fl
 ```
 
-若要在批次作業中查看每位使用者的作業狀態，請執行下列操作。 每個使用者的詳細資料都```UserState```在屬性中。
+若要在批次作業中查看每位使用者的作業狀態，請執行下列操作。 每個使用者的詳細資料都在 ```UserState``` 屬性中。
 
 ```powershell
 Get-CsBatchPolicyAssignmentOperation -OperationId 3964004e-caa8-4eb4-b0d2-7dd2c8173c8c | Select -ExpandProperty UserState
 ```
 
-## <a name="assign-a-policy-in-bulk-if-you-have-more-than-20000-users"></a>如果您有超過20000個使用者，則會大量指派原則
+## <a name="assign-a-policy-in-bulk-if-you-have-more-than-5000-users"></a>如果您有超過5000個使用者，則會大量指派原則
 
 首先，請執行下列動作，查看您擁有多少名員工和教育人數：
 
@@ -144,13 +142,13 @@ Get-CsBatchPolicyAssignmentOperation -OperationId 3964004e-caa8-4eb4-b0d2-7dd2c8
 $faculty.count
 ```
 
-請不要提供完整的使用者識別碼清單，而是執行下列動作，以指定第一個20000，以及下一個20000等。
+請不要提供完整的使用者識別碼清單，而是執行下列動作，以指定第一個5000，以及下一個5000等。
 
 ```powershell
 New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName EducatorMeetingPolicy -Identity $faculty[0..19999].ObjectId
 ```
 
-您可以變更使用者識別碼的範圍，直到您到達完整的使用者清單為止。 例如，輸入```$faculty[0..19999```第一個批次，使用```$faculty[20000..39999```第二批次，輸入```$faculty[40000..59999```第三批次，依此類推。
+您可以變更使用者識別碼的範圍，直到您到達完整的使用者清單為止。 例如，輸入 ```$faculty[0..4999``` 第一個批次，使用第二批次， ```$faculty[5000..9999``` 輸入第 ```$faculty[10000..14999``` 三批次，依此類推。
 
 ## <a name="get-the-policies-assigned-to-a-user"></a>取得指派給使用者的原則
 

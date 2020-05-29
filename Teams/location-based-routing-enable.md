@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 69f2ee37e63f83d6fc1d19ea733ff44ad23e7011
-ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
+ms.openlocfilehash: 4daf270dcd67dc732bba5e5fe134d5a0994dcd75
+ms.sourcegitcommit: 2295a668a6f118b95f010e81150351741572b076
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44158990"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44412640"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>啟用直接路由的依位置路由
 
@@ -54,7 +54,7 @@ ms.locfileid: "44158990"
 
 ### <a name="enable-location-based-routing-for-network-sites"></a>啟用網路網站的位置路由
 
-針對必須強制執行路由限制的網站，啟用以位置為基礎的路由。 若要這樣做，請在 Microsoft 團隊系統管理中心的左導覽中，移至 [**位置** > **網路拓撲**]，選取網路網站，按一下 [**編輯**]，然後開啟 [以**位置為基礎的路由**]。  
+針對必須強制執行路由限制的網站，啟用以位置為基礎的路由。 若要這樣做，請在 Microsoft 團隊系統管理中心的左導覽中，移至 [**位置**  >  **網路拓撲**]，選取網路網站，按一下 [**編輯**]，然後開啟 [以**位置為基礎的路由**]。  
 
 若要深入瞭解，請參閱[管理您的網路拓撲](manage-your-network-topology.md)。
 
@@ -62,7 +62,7 @@ ms.locfileid: "44158990"
 
 啟用將呼叫路由至 pstn 閘道，並將呼叫路由到 PSTN 的閘道，並將閘道所在的網路網站與網路網站建立關聯，以進行位置路由。 
 
-1. 在左側導覽中，移至 [**語音** > **直式路由**]，然後按一下 [ **SBCs** ] 索引標籤。
+1. 在左側導覽中，移至 [**語音**  >  **直式路由**]，然後按一下 [ **SBCs** ] 索引標籤。
 2. 選取 SBC，然後按一下 [**編輯**]。 
 3. 在 [位置] 下的 [**路由及媒體優化**] 底下，開啟 [**啟用根據位置的路由**]。
 4. 指定閘道網站識別碼，然後設定 [略過模式]。
@@ -176,17 +176,6 @@ ms.locfileid: "44158990"
     Identity: sbc2.contoso.com 
     GatewaySiteLbrEnabled: $false 
     ```
-
-    連接至不路由呼叫至 PSTN （例如 PBX）的系統的端點，將會有類似的限制，因為已啟用位置路由的團隊使用者的端點。 這表示無論使用者的位置為何，這些使用者都可以對團隊使用者進行呼叫和接聽。 他們也可以在不將呼叫路由至 PSTN 網路的其他系統（例如，連線到不同 PBX 的端點）撥打電話和接聽電話，而不論系統與哪個網路網站的關聯。 所有的撥入通話、撥出通話、來電轉接及涉及 PSTN 端點的來電轉接，都會受到位置式路由 enforcements。 這些通話只能使用定義為此類系統的本機的 PSTN 閘道。 
-
-    下表顯示兩個不同網路網站中四個閘道的閘道設定：兩個連接至 PSTN 閘道的兩個閘道，以及兩個連線至 PBX 系統 
-
-    ||GatewaySiteLbrEnabled   |NetworkSiteID  |
-    |---------|---------|---------|
-    |PstnGateway：閘道 1 DEL-GW    |    滿足     |   Site 1 （新德里）      |
-    |PstnGateway： Gateway 2 HYD-GW     |   滿足      |      Site 2 （Hyderabad）   |
-    |PstnGateway：閘道 3 DEL-PBX    |    虛假     |     Site 1 （新德里）    |
-    |PstnGateway：閘道 4 HYD-PBX    |    虛假     |    Site 2 （Hyderabad）     |
 
 ### <a name="enable-location-based-routing-for-calling-policies"></a>啟用呼叫原則的位置路由
 
