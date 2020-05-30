@@ -15,12 +15,12 @@ search.appverid: MET150
 description: 瞭解如何從審核記錄中檢索 Microsoft 團隊資料。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 88eda5d9acaeb876008b3eb35d38b348830cce48
-ms.sourcegitcommit: 67466cde3ffd5c42d632300b8a2adf7aab7df5d1
+ms.openlocfilehash: 62b4c462cec58facca274883c98f1aad23042f16
+ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "43958408"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44416733"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>在 [審核記錄] 中搜尋 Microsoft 團隊中的事件
 
@@ -34,7 +34,7 @@ ms.locfileid: "43958408"
 - 已新增頻道
 - 已變更設定
 
-如需經過審核之小組活動的完整清單，請參閱[團隊活動](#teams-activities)。
+如需經過審核之小組活動的完整清單，請參閱[小組](#teams-activities)活動與[團隊活動的倒班（在預覽中）](#shifts-in-teams-activities)。
 
 > [!NOTE]
 > 來自專用通道的審核事件也會記錄為針對團隊和標準通道的活動。
@@ -59,7 +59,7 @@ ms.locfileid: "43958408"
 
 ## <a name="tips-for-searching-the-audit-log"></a>搜尋審核記錄的秘訣
 
-以下是在審核記錄中搜尋[小組活動](#teams-activities)的秘訣。
+以下是在審核記錄中搜尋小組活動的秘訣。
 
 ![[審計記錄搜尋] 頁面的螢幕擷取畫面](media/audit-log-search-page.png)
 
@@ -67,7 +67,7 @@ ms.locfileid: "43958408"
     ![審核記錄搜尋的螢幕擷取畫面](media/audit-log-search.png)
 - 若要顯示使用 Cmdlet 執行之活動的事件，請選取 [**活動**] 清單中的 [**顯示所有活動的結果**]。 如果您知道這些活動的作業名稱，請搜尋所有活動，然後在 [**活動**] 欄的方塊中輸入作業的名稱，以篩選結果。 若要深入瞭解，請參閱[步驟3：篩選搜尋結果](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide#step-3-filter-the-search-results)。
 - 若要清除目前的搜尋準則，請按一下 [**清除**]。 日期範圍會回到最近七天的預設值。 您也可以按一下 [**全部清除] 來顯示所有活動的結果**，以取消所有選取的活動。
-- 如果找到5000結果，您可能會假設有超過5000個事件符合搜尋準則。 您可以縮小搜尋準則，並重新執行搜尋以傳回較少的結果，或者您可以選取 [**匯出結果** > ] 以**下載所有結果**來匯出所有搜尋結果。
+- 如果找到5000結果，您可能會假設有超過5000個事件符合搜尋準則。 您可以縮小搜尋準則，並重新執行搜尋以傳回較少的結果，或者您可以選取 [**匯出結果**] 以  >  **下載所有結果**來匯出所有搜尋結果。
 
 請[觀看這段影片](https://www.youtube.com/embed/UBxaRySAxyE)，瞭解如何使用音訊記錄搜尋。 加入 Ansuman Acharya （一種小組的程式管理員），他示範如何進行審核記錄搜尋以尋找小組。
 
@@ -121,7 +121,7 @@ ms.locfileid: "43958408"
 
 以下是在 Microsoft 365 審核記錄中針對團隊中的使用者和系統管理活動記錄的所有事件的清單。 此表格包含 [**活動**] 欄中顯示的易記名稱，以及當您匯出搜尋結果時，出現在審計記錄的詳細資訊和 CSV 檔案中的對應作業名稱。
 
-|好記的名稱  |一道|說明 |
+|好記的名稱  |一道|描述 |
 |---------|---------|---------|
 |已在小組中新增 bot   |BotAddedToTeam        |使用者在小組中新增 bot。        |
 |已新增頻道   |ChannelAdded         |使用者將頻道新增至小組。         |
@@ -142,6 +142,41 @@ ms.locfileid: "43958408"
 |已更新連接器    |ConnectorUpdated         |使用者修改了頻道中的連接器。         |
 |[更新] 索引標籤   |TabUpdated         |使用者修改了頻道中的索引標籤。         |
 |已登入團隊的使用者     |TeamsSessionStarted         |使用者登入 Microsoft 團隊用戶端。 這個事件不會捕獲權杖重新整理活動。         |
+
+## <a name="shifts-in-teams-activities"></a>團隊活動中的倒班
+
+**(預覽)**
+
+如果您的組織使用的是 [團隊中的倒班] 應用程式，您可以在審核記錄中搜尋與倒班應用程式相關的活動。 以下是在 Microsoft 365 審核記錄中針對團隊中的倒班活動記錄的所有事件的清單。
+
+|好記的名稱  |一道  |描述  |
+|---------|---------|---------|
+|[新增排程] 群組      |SchedulingGroupAdded          |使用者成功地將新排程群組新增到排程。          |
+|已編輯的排程群組     |SchedulingGroupEdited         |使用者成功地編輯 [排程] 群組。          |
+|已刪除排程群組         |SchedulingGroupDeleted              |使用者成功地從排程中刪除排程群組。|
+|已新增班次      |ShiftAdded          |使用者成功地加上班次。           |
+|已編輯班次       |ShiftEdited       |使用者成功地編輯班次。        |
+|已刪除班次          |ShiftDeleted          | 使用者成功刪除班次。               |
+|已新增下班時間      |TimeOffAdded          |使用者成功地在排程上加上時間。          |
+|編輯時間         |TimeOffEdited           |使用者成功地編輯時間。          |
+|刪除時間     |TimeOffDeleted              |使用者成功刪除時間。           |
+|已新增開啟的班次     |OpenShiftAdded          |使用者成功地在排程群組中新增開啟的班次。          |
+|已編輯開啟的班次    |OpenShiftEdited          |使用者在排程群組中成功編輯開啟的班次。          |
+|已刪除的開啟班次      |OpenShiftDeleted          |使用者成功地從排程群組刪除一個開啟的班次。         |
+|共用排程     |ScheduleShared                  |使用者已成功地共用日期範圍的小組排程。          |
+|使用時間時鐘上班打卡         |ClockedIn          |使用者使用時間時鐘成功地上班打卡。          |
+|使用時間時鐘下班打卡      |ClockedOut          |使用者使用時間時鐘成功地下班打卡。          |
+|使用時間時鐘開始中斷      |BreakStarted          |使用者在使用中的時間時鐘會話期間成功啟動中斷。          |
+|使用時間時鐘結束休息    |BreakEnded          |使用者在使用中的時間時鐘會話期間已成功結束中斷。          |
+|已新增時間時鐘專案     |TimeClockEntryAdded          |使用者在時程表上成功加入了新的手動時間時鐘專案。          |
+|已編輯的打卡時間專案     | TimeClockEntryEdited             |使用者在時程表上成功編輯時間時鐘專案。          |
+|已刪除的打卡時間專案    |TimeClockEntryDeleted              |使用者成功刪除時間工作表上的時間時鐘專案。          |
+|已新增班次要求         |RequestAdded              |使用者新增了班次要求。          |
+|回應值班要求     |RequestRespondedTo                  |使用者回應班次要求。          |
+|已取消班次要求         |RequestCanceled               |使用者取消了班次要求。          |
+|已變更排程設定      |ScheduleSettingChanged          |使用者變更 [倒班設定] 中的設定。         |
+|新增工作力整合      |WorkforceIntegrationAdded                  | 倒班 app 與協力廠商系統整合。         |
+|已接受的 [移出] 班次訊息         |OffShiftDialogAccepted          |使用者在值班時間之後，確認要存取團隊的取消轉移訊息。           |
 
 ## <a name="office-365-management-activity-api"></a>Office 365 管理活動 API
 

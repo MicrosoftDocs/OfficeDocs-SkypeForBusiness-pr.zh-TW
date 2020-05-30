@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 瞭解如何在團隊中管理會議原則設定，並使用他們來控制會議參與者針對使用者排程會議所提供的功能。
-ms.openlocfilehash: 87f790db77d2f98f66f53e399bf13f134a8e0a6e
-ms.sourcegitcommit: 47637ed816b471fe689e7bdac27b73e6efced60c
+ms.openlocfilehash: efe9e50ae7f3365917ea31ef722a47c1f1fe95ec
+ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44374311"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44416873"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>在團隊中管理會議原則
 
@@ -335,7 +335,7 @@ Daniela 可以在 Amanda 的會議中記錄筆記，而 Amanda 無法在任何�
 
 這是允許 leaderless 撥入會議會議的每個召集人原則。 此設定會控制撥入使用者是否無需經過驗證的使用者，就能從出席中的組織加入會議。 預設值為 False，表示撥入使用者會在大廳等候，直到組織中的經過驗證的使用者加入會議為止。 
 
-**記事**如果是 False，而撥入使用者會先加入會議，並放在大廳，組織使用者必須加入會議與團隊用戶端，才能從 lobbby 承認使用者。 沒有可撥打給使用者的大廳控制項。 
+**記事**如果是 False，而撥入使用者會先加入會議，並放在大廳，組織使用者必須加入會議與團隊用戶端，才能從大廳承認使用者。 沒有可撥打給使用者的大廳控制項。 
 
 
 ### <a name="automatically-admit-people"></a>自動承認人員
@@ -346,7 +346,7 @@ Daniela 可以在 Amanda 的會議中記錄筆記，而 Amanda 無法在任何�
 
  會議召集人可以按一下會議邀請中的 [**會議選項**]，針對每個會議所排程的會議變更此設定。
  
- **記事**在會議選項中，此設定為以此標示 "誰可以略過大廳"
+ **記事**在會議選項中，設定標示為「誰可以略過大廳」
   
 |設定值  |加入行為 |
 |---------|---------|
@@ -406,6 +406,23 @@ Daniela 可以在 Amanda 的會議中記錄筆記，而 Amanda 無法在任何�
 若要讓會議召集人下載會議出席情況報告，請將**AllowEngagementReport**參數設定為 [**已啟用**]。 啟用時，會在**參與者**窗格中顯示下載報告的選項。
 
 若要避免會議召集人下載報表，請將參數設定為 [**已停用**]。 根據預設，此設定會停用，而且無法使用下載報表的選項。
+
+## <a name="meeting-policy-settings---meeting-provider-for-islands-mode"></a>會議原則設定-適用于孤島模式的會議提供者
+
+**（即將推出）**
+
+這是每個使用者的原則。 這個設定控制哪一個 Outlook 會議增益集會用於使用*孤島模式的使用者*。 您可以指定使用者是否只能使用 [團隊會議] 增益集，或是同時使用 [團隊會議] 和 [商務用 Skype 會議] 增益集，在 Outlook 中排程會議。
+
+您只能將此原則套用到使用孤島模式的使用者，並在其團隊會議原則中，將**AllowOutlookAddIn**參數設定為**True** 。
+
+目前您只能使用 PowerShell 來設定此原則。 您可以使用[CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) Cmdlet 來編輯現有的團隊會議原則。 或者，您可以使用[新的 CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) Cmdlet 來建立新的團隊會議原則，並將它指派給使用者。
+
+若要指定使用者可以使用的會議增益集，請設定**PreferredMeetingProviderForIslandsMode**參數，如下所示：
+
+- 將參數設定為**TeamsAndSfB** ，以在 Outlook 中同時啟用 [團隊會議增益集] 和 [商務用 Skype] 增益集。 此為預設值。
+- 將參數設定為 [ **TeamsOnly** ]，只會在 Outlook 中啟用 [團隊會議] 增益集。 此原則設定可確保所有未來的會議都有小組會議加入連結。 它不會將現有的商務用 Skype 會議加入連結遷移至團隊。 此原則設定不會影響商務用 Skype 中的目前狀態、聊天、PSTN 通話或任何其他功能，這表示使用者將繼續使用商務用 Skype 來取得這些功能。
+
+  如果您將參數設定為 [ **TeamsOnly**]，然後切換回**TeamsAndSfB**，則會啟用兩個會議增益集。 不過，請注意，現有的團隊會議加入連結不會遷移到商務用 Skype。 只有在變更之後所排程的商務用 Skype 會議，才會有商務用 Skype 會議加入連結。
 
 ## <a name="related-topics"></a>相關主題
 

@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 89e7db133b8878e77dbf14025b97c658b0de21e4
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 052cf825e2f05dd17a77043ab87bedbb2f3f8d9c
+ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44349607"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44416723"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>在 Outlook 中使用 Teams 會議增益集
 =======================================
@@ -37,6 +37,7 @@ Teams 會議增益集可讓使用者從 Outlook 安排 Teams 會議。 您可以
 ![Outlook 功能區上的 Teams 會議增益集螢幕擷取畫面](media/Teams-add-in-for-Outlook.png)
 
 > [!NOTE]
+> - 沒有連結至 [團隊] 增益集的**直接 URL** 。
 > - 如果您的組織同時執行 [團隊] 和 [商務用 Skype]，也會有其他的考慮。 在某些情況下，Outlook 中不提供 [團隊] 增益集。 如需詳細資訊，請參閱[從商務用 Skype 升級至小組](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings)。
 > - 若要在電腦上安裝 Teams 會議增益集，使用者必須具備執行 Regsvr32 .exe 檔案的權限。
 > - 如果使用者沒有看到 Teams 會議增益集，請指示他們關閉 Outlook 和 Teams，然後重新啟動 Teams 用戶端並登入 Teams，接著重新啟動 Outlook 用戶端 (須遵循特定順序)。
@@ -65,6 +66,7 @@ Teams 會議按鈕會顯示在 Outlook iOS 和 Android 應用程式的最新組�
 當使用者按一下 [傳送]**** 之後，會議座標 (Teams 的加入連結和撥入號碼) 將會新增至會議邀請。  
 
 ## <a name="teams-meeting-add-in-in-and-findtime-for-outlook"></a>Teams 會議增益集和適用於 Outlook 的 FindTime
+
 FindTime 是 Outlook 的增益集，可協助使用者在整個公司的會議時間達成共識。 當會議受邀者提供其偏好的時間後，FindTime 就會代表使用者傳送會議邀請。 如果 FindTime 中已選取 [線上會議]**** 選項，則 FindTime 會安排商務用 Skype 或 Microsoft Teams 會議。 (FindTime 會使用由您組織設定的任何項目作為預設的線上會議頻道)。
 
 > [!NOTE]  
@@ -96,7 +98,9 @@ Teams 用戶端會藉由判斷使用者需要 32 位元或 64 位元版本，來
 
 客戶可以[選擇從商務用 Skype 升級到 Teams 的作業過程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)。 租用戶系統管理員可以使用 Teams 共存模式來為使用者定義此過程。 租用戶系統管理員可以選擇讓使用者並行使用 Teams 和商務用 Skype (離島模式)。 
 
-當使用離島模式的使用者在 Outlook 中安排會議時，他們通常能夠選擇要安排商務用 Skype 或 Teams 會議。 在 Outlook 網頁版、Outlook Windows 和 Outlook Mac 中，使用者可在離島模式中看到商務用 Skype 和 Teams 增益集。 由於初次發行時的特定限制，Outlook Mobile 只能支援建立商務用 Skype **或** Teams 會議。 請參閱下列資料表以取得詳細資料。
+當使用離島模式的使用者在 Outlook 中安排會議時，他們通常能夠選擇要安排商務用 Skype 或 Teams 會議。 在 Outlook 網頁版、Outlook Windows 版和 Outlook Mac 版中，使用者會在預設使用孤島模式時，看到 [商務用 Skype] 和 [團隊] 增益集。 您可以設定 [團隊會議原則] 設定來控制 [孤島] 模式中的使用者只能使用 [團隊會議] 增益集，或是同時使用 [團隊會議] 和 [商務用 Skype 會議] 增益集。
+
+由於初次發行時的特定限制，Outlook Mobile 只能支援建立商務用 Skype **或** Teams 會議。 請參閱下列資料表以取得詳細資料。
 
 | Teams 系統管理中心的共存模式 | Outlook Mobile 中的預設會議提供者 |
 | --------------------------------------|---------------------------------------------|
@@ -105,6 +109,14 @@ Teams 用戶端會藉由判斷使用者需要 32 位元或 64 位元版本，來
 | 商務用 Skype 搭配 Teams 共同作業 | 商務用 Skype |
 | 商務用 Skype 搭配 Teams 共同作業和會議 | Teams |
 | 僅 Teams | Teams |
+
+### <a name="set-whether-users-in-islands-mode-can-only-use-the-teams-meeting-add-in-or-both-the-teams-meeting-and-skype-for-business-meeting-add-ins"></a>設定 [孤島] 模式中的使用者是否只能使用 [團隊會議] 增益集，或同時使用團隊會議增益集及商務用 Skype 會議增益集
+
+**（即將推出）**
+
+身為系統管理員，您可以設定團隊會議原則設定，以控制將哪個 Outlook 會議增益集用於使用*孤島模式的使用者*。 您可以指定使用者是否只能使用 [團隊會議] 增益集，或是同時使用 [團隊會議] 和 [商務用 Skype 會議] 增益集，在 Outlook 中排程會議。
+
+您只能將此原則套用到使用孤島模式的使用者，並在其團隊會議原則中，將**AllowOutlookAddIn**參數設定為**True** 。 如需如何設定此原則的步驟，請參閱以[孤島模式為使用者設定會議提供者](meeting-policies-in-teams.md#meeting-policy-settings---meeting-provider-for-islands-mode)。
 
 ## <a name="other-considerations"></a>其他考量事項
 

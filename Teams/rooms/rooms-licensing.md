@@ -22,12 +22,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 瞭解 Microsoft 團隊聊天室中不同類型的通話與會議功能可用的授權。
-ms.openlocfilehash: d3ab603e914fef828788d474fa051c1e102165cd
-ms.sourcegitcommit: b5c747e2daad6dd3c1d91f4e61ae6f26db5c77f0
+ms.openlocfilehash: 581be3b73e951ff4d3409ccf9f4ee10f212c7f23
+ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44064488"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44416843"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>團隊會議室授權更新
 
@@ -67,7 +67,7 @@ Microsoft 有一個專用的 SKU，可針對會議室裝置（例如 Microsoft �
 |加入排程的會議  | 會議室 SKU  |商務用 Skype Server 標準版 CAL  |
 |啟動點對點會議 | 會議室 SKU  |商務用 Skype Server 標準版 CAL  <br/> 商務用 Skype Server 企業版 CAL|
 |啟動點對點會議，然後從會議撥出至電話號碼 |  會議室 SKU |商務用 Skype 標準 CAL  <br/> 商務用 Skype Server 企業版 CAL|
-|使用電話號碼為會議室提供電話號碼，以及撥打或接聽會議室或加入音訊會議  | 會議室 SKU  |商務用 Skype Server 標準版 CAL  <br/> 商務用 Skype Server Plus CAL  |
+|使用電話號碼為會議室提供電話號碼，以及撥打或接聽會議室或加入音訊會議  | 使用直接佈線：會議室 SKU<br/>不需直接路由：國內或國際通話方案<br/>Microsoft 365 Business Voice  |商務用 Skype Server 標準版 CAL  <br/> 商務用 Skype Server Plus CAL  |
 |使用 Microsoft Intune 管理您的會議室裝置 |會議室 SKU  |使用[內部部署的 MDM](https://docs.microsoft.com/configmgr/mdm/plan-design/plan-on-premises-mdm)進行 Microsoft Intune 訂閱 |
 | |||
 

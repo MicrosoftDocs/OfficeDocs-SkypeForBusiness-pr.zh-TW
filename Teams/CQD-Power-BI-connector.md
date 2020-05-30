@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 安裝 Power BI 連接器以使用 CQD 查詢範本
-ms.openlocfilehash: 7c54c34bcdbdd7227e40dab52f9a765bf4336e37
-ms.sourcegitcommit: 86b0956680b867b8bedb2e969220b8006829ee53
+ms.openlocfilehash: 84177d98addfa3efc96db4e77148556a941a74dc
+ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "44410468"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44416863"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>安裝 Power BI 連接器以使用 CQD 查詢範本
 
@@ -163,6 +163,10 @@ Power BI 連接器不支援日期交叉分析篩選器。 若要指定日期範�
 ### <a name="why-does-the-connector-seem-slower-compared-to-advanced-cqd-in-the-browser-what-can-i-do-to-improve-performance"></a>為什麼相對於瀏覽器中的 [高級 CQD]，連接器看起來會變慢？ 我可以執行哪些動作來改善效能？
 
 在瀏覽器和連接器中，各種範本的查詢效能實際上都是相同的。  就像任何其他獨立 app 一樣，Power BI 會將其驗證與轉譯時間新增到我們的效能。 此外，差異則是同時執行的併發查詢數目。 因為瀏覽器版本的 CQD 已開發出良好且資訊密集的視覺效果選項，所以我們的大部分報表只能一次載入2-3 查詢。 另一方面，連接器範本通常會顯示 20 + 併發查詢。 如果您想要建立與您曾經使用過的舊版報告的回應性，請嘗試針對每個索引標籤建立不超過2-3 個查詢的報表。
+
+如需詳細資訊，請參閱下列文章： 
+- [Power BI 的優化指南](https://docs.microsoft.com/power-bi/guidance/power-bi-optimization)
+- [DirectQuery 模型指南](https://docs.microsoft.com/power-bi/guidance/directquery-model-guidance)
 
 ### <a name="i-find-that-i-routinely-run-into-the-10000-row-limit-when-running-queries-how-can-i-get-the-connector-to-return-more-than-10000-rows"></a>當您執行查詢時，我發現經常會遇到10000列限制。 如何取得連接器傳回10000列以上？
 

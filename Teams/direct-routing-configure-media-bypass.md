@@ -15,14 +15,14 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: 瞭解如何使用電話系統直接路由來設定媒體旁路，只要一次切換所有使用者，或執行逐步例行（建議）。
+description: 瞭解如何將 [透過電話撥出媒體] 設定為 Microsoft 團隊，只要一次切換所有使用者或執行逐步例行（建議）。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2d6bb25296b7a98e6fea7a59a5dd9406622dbd96
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 41e5aae3f91c13653119b04fb88364ce93a4d90c
+ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904835"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44416893"
 ---
 # <a name="configure-media-bypass-with-direct-routing"></a>設定媒體旁路搭配直接路由
 

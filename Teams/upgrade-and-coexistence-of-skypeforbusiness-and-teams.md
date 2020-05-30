@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 597dfa4b2184272c96843cca1ed7c7b79e4d3667
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: a6a1e54d677436b2441e9174cc265eb67b7664d2
+ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902268"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44416743"
 ---
 # <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>選擇從商務用 Skype 升級到團隊的升級歷程
 
@@ -104,7 +104,7 @@ ms.locfileid: "43902268"
 | 傳入聊天與接聽的通話：|  團隊或商務用 Skype | Teams |
 | 在下列情況中接收 PSTN 通話： | 商務用 Skype <br>（在 [孤島] 模式中不支援使用團隊中的 PSTN 功能。）     | Teams |   
  |目前狀態    | 商務用 Skype 和團隊中的目前狀態是獨立的。 針對相同的孤島使用者，使用者可能會看到不同的狀態，視它們所使用的用戶端而定。 | 目前狀態僅根據使用者在團隊中的活動而定。 所有其他使用者（無論他們使用的用戶端），請參閱目前狀態。 | 
- | 會議排程    | 使用者可以在小組或商務用 Skype 中排程會議。 它們會在 Outlook 中看到兩個增益集。    |     使用者只會在團隊中排程會議。 只有 [團隊] 增益集可在 Outlook 中使用。 | 
+ | 會議排程    | 使用者可以在小組或商務用 Skype 中排程會議。 根據預設，他們會在 Outlook 中看到兩個增益集。 您可以設定團隊會議原則，以控制使用者是否只能使用 [團隊會議] 增益集，或是同時使用團隊會議增益集和商務用 Skype 會議增益集（**即將推出**）。 若要深入瞭解，請參閱[以孤島模式設定使用者的會議提供者](meeting-policies-in-teams.md#meeting-policy-settings---meeting-provider-for-islands-mode)。 |     使用者只會在團隊中排程會議。 只有 [團隊] 增益集可在 Outlook 中使用。 | 
 
 下表摘要列出使用重迭的功能方法將您的組織遷移至團隊的優點與缺點。
 
