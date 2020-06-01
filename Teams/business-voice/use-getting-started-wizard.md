@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9a22c741898b48c3d71970699f09c00bb638205f
-ms.sourcegitcommit: 3ef5c913318fdeeaa8c55caab07c2f8224eae2b0
+ms.openlocfilehash: 443a59513d3a3151bdcc83250bf40ec4ac4398bb
+ms.sourcegitcommit: 2295a668a6f118b95f010e81150351741572b076
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43898128"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44412620"
 ---
 # <a name="use-the-getting-started-wizard-to-set-up-business-voice"></a>使用 [快速入門精靈] 設定商務語音
 
@@ -37,6 +37,8 @@ Microsoft 365 商務語音快速入門精靈可讓您在 Microsoft Teams 中快�
 
 > [!IMPORTANT]
 > 只有當您的使用者信箱位於 Microsoft 365 中時，才能使用 Microsoft Teams 和商務語音。  不支援內部部署 Exchange Server 上的信箱。
+>
+> [快速入門] 精靈不支援商務用 Skype 混合式部署。 如果您擁有商務用 Skype 混合式部署，且想要設定 Business Voice，請參閱[在組織中設定電話系統](../setting-up-your-phone-system.md)。
 
 <!-- After you've finished the wizard, you may want to check out the following articles:
 
