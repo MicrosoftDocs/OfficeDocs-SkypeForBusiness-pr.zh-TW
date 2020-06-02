@@ -21,12 +21,12 @@ ms.custom:
 ms.collection:
 - M365-collaboration
 description: 了解如何管理使用者在您組織中排程的 Teams 會議設定。
-ms.openlocfilehash: 25945b35ec4800a00ab295ba328d5f1d65ac2ab0
-ms.sourcegitcommit: 3ef5c913318fdeeaa8c55caab07c2f8224eae2b0
+ms.openlocfilehash: 761504400639c8ed53c617f6c816dd7c4703a530
+ms.sourcegitcommit: ef3cd762e799df43bdcde03363c501d7ca9bb6b3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43898168"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44489135"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>在 Microsoft Teams 中管理會議設定
 
@@ -38,8 +38,11 @@ ms.locfileid: "43898168"
 
 ![Microsoft Teams 標誌圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
 
-1. 在左側導覽中，移至 [會議]****  >  [會議設定]****。
-2. 在 [參與者]**** 底下，開啟 [匿名使用者可加入會議]****。
+1. 移至系統管理中心 <a href="https://go.microsoft.com/fwlink/?linkid=867439" target="_blank">https://admin.teams.microsoft.com</a> 。
+
+2. 在左側導覽中，移至 [會議]****  >  [會議設定]****。
+
+3. 在 [參與者]**** 底下，開啟 [匿名使用者可加入會議]****。
 
     ![系統管理中心中會議的參與者設定螢幕擷取畫面](media/meeting-settings-participants.png "Microsoft Teams 系統管理中心中 Teams 會議的參與者設定螢幕擷取畫面")
 
@@ -62,8 +65,9 @@ ms.locfileid: "43898168"
 
 ![Microsoft Teams 標誌圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
 
-1. 在左側導覽中，移至 [會議]****  >  [會議設定]****。
-2. 在 [電子郵件邀請]**** 底下，執行下列動作：
+1. 移至系統<a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">管理中心</a>。
+2. 在左側導覽中，移至 [會議]****  >  [會議設定]****。
+3. 在 [電子郵件邀請]**** 底下，執行下列動作：
 
     ![您可以自訂的會議邀請設定的螢幕擷取畫面](media/meeting-settings-invitation.png "您可以為 Teams 會議自訂的會議邀請設定的螢幕擷取畫面")
 
@@ -71,9 +75,9 @@ ms.locfileid: "43898168"
     - **法律聲明 URL**：如果您的組織有您想要讓其他人有任何法律方面的顧慮時前往的法律網站，請在此輸入其 URL。
     - **說明 URL**：如果您的組織有當其他人遇到問題時可前往的支援網站，請在這裡輸入其 URL。
     - **頁尾**：輸入要包含做為頁尾的文字。
-3. 按一下 [預覽邀請]**** 以查看會議邀請的預覽。
-4. 完成後，按一下 [儲存]****。
-5. 等候一小時的時間，讓變更傳播。 然後排程 Teams 會議，以查看會議邀請的外觀。  
+4. 按一下 [預覽邀請]**** 以查看會議邀請的預覽。
+5. 完成後，按一下 [儲存]****。
+6. 等候一小時的時間，讓變更傳播。 然後排程 Teams 會議，以查看會議邀請的外觀。  
 
 ## <a name="set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings"></a>設定您想要如何處理 Teams 會議的即時媒體流量
 
@@ -85,9 +89,9 @@ ms.locfileid: "43898168"
 > 如果您在 Microsoft Teams 系統管理中心針對 Microsoft Teams 服務啟用 QoS 或變更設定，您也必須[將相符設定套用到所有使用者裝置](QoS-in-Teams-clients.md)和所有內部網路裝置，以便對 Teams 中的 QoS 完整實作變更。
 
  ![Microsoft Teams 標誌圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
-
-1. 在左側導覽中，移至 [會議]****  >  [會議設定]****。
-2. 在 [網路]**** 底下，執行下列動作：
+1. 移至系統<a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">管理中心</a>。
+2. 在左側導覽中，移至 [會議]****  >  [會議設定]****。
+3. 在 [網路]**** 底下，執行下列動作：
 
     ![系統管理中心中會議的會議設定螢幕擷取畫面](media/meeting-settings-network.png "Microsoft Teams 系統管理中心中 Teams 會議的網路設定螢幕擷取畫面")
 
@@ -108,7 +112,7 @@ ms.locfileid: "43898168"
 |:---             |:---                         |:---    |:---      |:---      |
 |音訊            | 50,000-50,019               |TCP/UDP |46        |快速式轉送 (EF)|
 |影片            | 50,020-50,039               |TCP/UDP |34        |保證式轉送 (AF41)|
-|應用程式/螢幕共用| 50,040-50,059      |TCP/UDP |18        |保證式轉送 (AF21)|
+|應用程式/螢幕共用| 50,040-50,059      |TCP/UDP |滿        |保證式轉送 (AF21)|
 | | | | |
 
 \* 您指定的連接埠範圍不能重疊，且必須彼此相接。

@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 瞭解如何在團隊中管理會議原則設定，並使用他們來控制會議參與者針對使用者排程會議所提供的功能。
-ms.openlocfilehash: efe9e50ae7f3365917ea31ef722a47c1f1fe95ec
-ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
+ms.openlocfilehash: cd5056b2252d4aaad7f1bc8c104c43f43aa516fd
+ms.sourcegitcommit: ef3cd762e799df43bdcde03363c501d7ca9bb6b3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44416873"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44489145"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>在團隊中管理會議原則
 
@@ -423,6 +423,24 @@ Daniela 可以在 Amanda 的會議中記錄筆記，而 Amanda 無法在任何�
 - 將參數設定為 [ **TeamsOnly** ]，只會在 Outlook 中啟用 [團隊會議] 增益集。 此原則設定可確保所有未來的會議都有小組會議加入連結。 它不會將現有的商務用 Skype 會議加入連結遷移至團隊。 此原則設定不會影響商務用 Skype 中的目前狀態、聊天、PSTN 通話或任何其他功能，這表示使用者將繼續使用商務用 Skype 來取得這些功能。
 
   如果您將參數設定為 [ **TeamsOnly**]，然後切換回**TeamsAndSfB**，則會啟用兩個會議增益集。 不過，請注意，現有的團隊會議加入連結不會遷移到商務用 Skype。 只有在變更之後所排程的商務用 Skype 會議，才會有商務用 Skype 會議加入連結。
+
+## <a name="meeting-policy-settings---video-filters-mode"></a>會議原則設定-影片篩選模式
+
+這是每個使用者的原則。 此設定可控制使用者是否可以在會議中自訂其影片背景。
+
+目前您只能使用 PowerShell 來設定此原則。 您可以使用[CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) Cmdlet 來編輯現有的團隊會議原則。 或者，使用[新的 CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) Cmdlet 來建立新的團隊會議原則，然後將原則指派給使用者。
+
+若要指定使用者是否可以在會議中自訂其影片背景，請設定**VideoFiltersMode**參數，如下所示：
+
+|在 PowerShell 中設定值 |行為  |
+|---------|---------|
+|**NoFilters**     |使用者無法自訂其影片背景。|
+|**BlurOnly**     |使用者可以選擇將影片背景模糊。 |
+|**BlurandDefaultBackgrounds**     |使用者可以選擇讓影片背景變模糊，或從一組影像中選擇，以做為背景使用。 |
+|**AllFilters**     |使用選項可讓影片背景變模糊、選擇一組圖像，或上傳自訂圖像來作為其背景。 |
+
+> [!NOTE]
+> 使用者上傳的影像不會受到小組的篩選。 當您使用 [ **AllFilters** ] 設定時，您應該擁有內部組織原則，以防止使用者上傳冒犯性或不適當的影像，或貴組織沒有許可權可供團隊會議背景使用。
 
 ## <a name="related-topics"></a>相關主題
 

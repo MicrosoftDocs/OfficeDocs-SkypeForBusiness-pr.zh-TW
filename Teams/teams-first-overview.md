@@ -15,12 +15,12 @@ description: 使用本指導方針將 Microsoft 團隊作為您的第一份 Offi
 ROBOTS: NOINDEX, NOFOLLOW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2cd8fc92d3f46df8bcfaa07a96b69b84790750aa
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 647f6879f7892c1a65599832e48deb67e183fae0
+ms.sourcegitcommit: bdafa1f4146e615d325e27a50352f10c0d51ef1a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44041710"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44472344"
 ---
 # <a name="roll-out-microsoft-teams-first"></a>先推出 Microsoft 團隊
 
@@ -142,9 +142,7 @@ Microsoft 團隊可以協助您的員工彼此保持聯繫並共同作業，特�
 <li><p>支援針對通道訊息遵循的 eDiscovery 與法律封存</p></li>
 <li><p>可使用資料遺失防護原則（DLP）</p></li>
 </ul>
-<p>完整的功能集可在 Exchange Online 中使用，Exchange 內部部署支援這些功能的大部分，請參閱</p>
-<p><a href="https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact">Exchange 和 Teams 如何互動</a></p>
-<p>若要取得完整清單</p></td>
+<p>完整的功能集可在 Exchange Online 中使用，Exchange 內部部署支援大多數這些功能，請參閱<a href="https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact">exchange 與團隊如何與</a>您的完整清單互動。</p></td>
 </tr>
 </tbody>
 </table>
@@ -243,8 +241,7 @@ Microsoft 團隊可以協助您的員工彼此保持聯繫並共同作業，特�
     [取得 Teams 用戶端](get-clients.md)
 
 5.   推動您的採納計畫  
-    [採納 Microsoft 團隊](adopt-microsoft-teams-landing-page.md)
-    
+    [採納 Microsoft 團隊](adopt-microsoft-teams-landing-page.md)<br/>
     [Microsoft 團隊採用快速入門檢查清單](teams-adoption-quick-start-checklist.md)
 
 6.  開始規劃將其他工作負載移至 Office 365
