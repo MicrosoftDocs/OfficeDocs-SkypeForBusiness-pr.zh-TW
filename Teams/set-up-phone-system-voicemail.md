@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: '瞭解如何為您的使用者設定雲端語音信箱。 '
-ms.openlocfilehash: d747b86d50cf4e81398d53bbc3602bff9cc4351c
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 5526bee2bd365a4047e3641ea223941227858d1a
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44349717"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44523116"
 ---
 # <a name="set-up-cloud-voicemail"></a>設定雲端語音信箱
 
@@ -35,7 +35,7 @@ ms.locfileid: "44349717"
 > [!NOTE]
 > 雲端語音信箱支援僅在 Exchange 信箱中存放語音信箱訊息，且不支援任何協力廠商電子郵件系統。 
 
-## <a name="cloud-only-environments-set-up-cloud-voicemail-for-cloud-psystem-users"></a>僅限雲端的環境：為雲端 Psystem 使用者設定雲端語音信箱
+## <a name="cloud-only-environments-set-up-cloud-voicemail-for-phone-system-users"></a>僅限雲端的環境：為電話系統使用者設定雲端語音信箱
 
 針對商務用 Skype Online 和通話方案使用者，在您指派**電話系統**授權及電話號碼之後，就會自動為使用者設定和設定雲端語音信箱。
   
@@ -74,6 +74,26 @@ ms.locfileid: "44349717"
 
 > [!NOTE]
 > 當代理人代表 delegator 接聽來電時，在雲端語音信箱中不提供通知。 使用者可以收到未接來電的通知。
+
+## <a name="enabling-protected-voicemail-in-your-organization"></a>在組織中啟用受保護的語音信箱
+
+當有人在您的組織中為使用者留下語音信箱訊息時，語音信箱會以電子郵件附件的形式傳送到使用者的信箱。 使用郵件流程規則來套用郵件加密，您可以防止將這些語音信箱訊息轉寄給其他收件者。 當您啟用受保護的語音信箱時，使用者可以撥入其語音信箱信箱，或開啟 Outlook、Outlook 網頁版或 Android 版 Outlook 中的郵件，以聆聽受保護的語音信箱訊息。 受保護的語音信箱訊息無法在商務用 Skype 中開啟。
+
+如需郵件加密的詳細資訊，請參閱[電子郵件加密](https://docs.microsoft.com/microsoft-365/compliance/email-encryption?view=o365-worldwide)。
+
+若要設定受保護的語音信箱，請執行下列動作：
+
+1. 移至 https://admin.microsoft.com 並使用具有全域管理員許可權的帳戶登入。
+2. 選取 [**全部顯示**]，然後移至 [**管理員中心**]  >  **Exchange**。
+3. 在 Exchange Admin Center 中，選取 [**郵件流程**  >  **規則**]。
+4. 選取 [ **+** **新增**]，然後選取 [**將 Office 365 郵件加密及版權保護] 套用至郵件**。
+5. 提供新郵件流程規則的名稱，然後在 [套用**此規則**] 底下，選取 **[** 郵件內容]，  >  **其中包含 [**  >  **語音信箱**] 這類訊息。 選取 **[確定]**。
+6. 在 **[執行下列**動作] 底下，選取 **[將 Office 365 郵件加密與版權保護] 給郵件**，然後選取 [**選取一個**]。 在 [ **RMS 範本**] 底下，選取 [**不要轉寄**]。 選取 **[確定]** ，然後選取 [**儲存**]。
+    > [!NOTE]
+    > 如果**RMS 範本**清單是空的，您必須設定 Office 365 郵件加密。 如需設定 Office 365 郵件加密的詳細資訊，請參閱下列文章：
+    > - [設定新的 Office 365 郵件加密功能](https://docs.microsoft.com/microsoft-365/compliance/set-up-new-message-encryption-capabilities?view=o365-worldwide)
+    > - [設定及管理 Azure 資訊保護範本](https://docs.microsoft.com/information-protection/deploy-use/configure-policy-templates)
+    > - [電子郵件的 [不要轉寄] 選項](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#do-not-forward-option-for-emails)
 
 ## <a name="setting-voicemail-policies-in-your-organization"></a>設定組織中的語音信箱原則
 

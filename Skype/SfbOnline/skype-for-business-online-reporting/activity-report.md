@@ -20,16 +20,16 @@ ms.custom:
 - Reporting
 - O365E_ReportsS4BActivity
 description: '瞭解如何取得商務用 Skype 活動報告、所包含的內容，以及如何解讀資料。 '
-ms.openlocfilehash: 577ed8ea84326510ad1c2943dcbf0b280a2bd9ae
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: f50b8c03304a308594fd7bd920ee92e8d38a1f43
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769416"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44205554"
 ---
 # <a name="activity-report"></a>活動報告
 
-Office 365**報告**儀表板會顯示您組織中的 office 365 產品的活動概覽。 它可讓您深入探索個別的產品層級報表，讓您更精確地瞭解每個產品內的活動。 例如，您可以使用商務用**Skype 活動**報告來查看您的使用者使用的是對等或組織會議會話，或是他們參與會議會話的數量。 
+[**報告**] 儀表板會顯示您組織中 Microsoft 365 或 Office 365 產品的活動概覽。 它可讓您深入探索個別的產品層級報表，讓您更精確地瞭解每個產品內的活動。 例如，您可以使用商務用**Skype 活動**報告來查看您的使用者使用的是對等或組織會議會話，或是他們參與會議會話的數量。 
 
 若要深入瞭解，請參閱[報表概覽](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)。
   
@@ -40,9 +40,9 @@ Office 365**報告**儀表板會顯示您組織中的 office 365 產品的活動
   
 ## <a name="how-to-get-to-the-skype-for-business-activity-report"></a>如何取得商務用 Skype 活動報告
 
-1. 移至 [系統管理中心] > [**報告** > **使用方式**]。
+1. 移至 [系統管理中心] > [**報告**  >  **使用方式**]。
     
-2. 在 [**使用狀況**] 頁面上，選擇左側的 [**選取報告] 清單**中的 [**商務** > 用 skype**活動**]，或按一下 [商務用**Skype] 活動**小工具。
+2. 在 [**使用狀況**] 頁面**Skype for Business**上，選擇  >  左側的 [**選取報告] 清單**中的 [商務用 skype**活動**]，或按一下 [商務用**Skype] 活動**小工具。
 
   
 ## <a name="interpret-the-skype-for-business-activity-report"></a>解讀商務用 Skype 活動報告
@@ -90,7 +90,7 @@ Office 365**報告**儀表板會顯示您組織中的 office 365 產品的活動
 * **對等**顯示使用者所使用之對等會議會話的總數。
 * 已**組織的會議**顯示由該使用者組織的會議總數。
 * **參與會議**：顯示此使用者參與的會議總數。
-* [**已指派的產品**] 是指派給此使用者的 Office 365 產品。<br/>
+* [**已指派的產品**] 是已指派給此使用者的 Microsoft 365 或 Office 365 產品。<br/>
 
 如果您組織的原則禁止您查看使用者資訊可識別的報告，您可以變更所有這些報告的隱私權設定。 請參閱系統[管理中心 [活動報告](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)] 的 [報表] 區段中的 [**隱藏使用者詳細資料**]。
 ***

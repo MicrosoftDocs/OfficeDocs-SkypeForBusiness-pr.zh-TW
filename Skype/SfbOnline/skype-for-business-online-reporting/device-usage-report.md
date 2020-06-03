@@ -19,17 +19,17 @@ f1.keywords:
 ms.custom:
 - Reporting
 - O365E_ReportsS4BClients
-description: 新的 Microsoft 365 [報告] 儀表板會在您組織中的 Office 365 產品上顯示活動概覽。 它可讓您深入瞭解個別的產品層級報告，讓您更精確地瞭解每個產品內的活動。 例如，您可以使用商務用 Skype 裝置使用方式報告來查看裝置，包括已安裝商務用 Skype app 並將其用於 IM 和會議的 Windows 作業系統及行動裝置。 若要深入瞭解，請參閱系統管理中心的活動報告。
-ms.openlocfilehash: 9d12938fdbc495e1d95b8ed26500185f09f2b01b
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: '[報告] 儀表板會顯示您組織中 Microsoft 365 或 Office 365 產品的活動概覽。 它可讓您深入瞭解個別的產品層級報告，讓您更精確地瞭解每個產品內的活動。 例如，您可以使用商務用 Skype 裝置使用方式報告來查看裝置，包括已安裝商務用 Skype app 並將其用於 IM 和會議的 Windows 作業系統及行動裝置。 若要深入瞭解，請參閱系統管理中心的活動報告。'
+ms.openlocfilehash: b9baff4a9ca363276590faa8e3aaafffb9e7ad4f
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776298"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44205454"
 ---
 # <a name="device-usage-report"></a>裝置使用報告
 
-新的 Office 365 [**報告**] 儀表板會在您組織中的 Office 365 產品上顯示活動概覽。 它可讓您深入瞭解個別的產品層級報告，讓您更精確地瞭解每個產品內的活動。 例如，您可以使用商務用**Skype 裝置使用方式**報告來查看裝置，包括已安裝商務用 skype app 並將其用於 IM 和會議的 Windows 作業系統及行動裝置。 
+[**報告**] 儀表板會顯示您組織中 Microsoft 365 或 Office 365 產品的活動概覽。 它可讓您深入瞭解個別的產品層級報告，讓您更精確地瞭解每個產品內的活動。 例如，您可以使用商務用**Skype 裝置使用方式**報告來查看裝置，包括已安裝商務用 skype app 並將其用於 IM 和會議的 Windows 作業系統及行動裝置。 
 
 若要深入瞭解，請參閱[報表概覽](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)。
   
@@ -40,7 +40,7 @@ ms.locfileid: "43776298"
   
 ## <a name="how-to-get-to-the-skype-for-business-device-usage-report"></a>如何取得商務用 Skype 裝置使用方式報告
 
-1. 移至 [系統管理中心] > [**報告** > **使用方式**]。
+1. 移至 [系統管理中心] > [**報告**  >  **使用方式**]。
     
 2. 在 [**使用狀況**] 頁面上，按一下左側 [**選取報告] 清單**中的 [**商務用 Skype 裝置使用方式**]。 或者，按一下 [**商務用 skype] 活動**小工具，然後按一下 [商務用**skype 活動**] 清單上的 [**商務用 skype 裝置使用方式**]。
     

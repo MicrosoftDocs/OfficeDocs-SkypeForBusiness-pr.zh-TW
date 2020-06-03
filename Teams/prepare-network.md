@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: f06599b7e3ed06a26715de30d59dd25a61c0f197
-ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
+ms.openlocfilehash: 6d811db9759b2876520b307140a3a1967047f482
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43945573"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44523298"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>針對 Microsoft Teams 準備組織的網路 
 
@@ -106,7 +106,10 @@ ms.locfileid: "43945573"
 <td>請確定執行團隊用戶端的所有電腦都可以解析外部 DNS 查詢，以探索 Office 365 提供的服務，而且您的防火牆不會防止存取。 如需設定防火牆埠的相關資訊，請移至<a href="https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges">Office 365 url 與 IP 範圍</a>。</td>
 </tr>
 <tr class="odd">
-<td>驗證（NAT）池子大小</td>
+<td>維護會話暫留</td>
+<td>請確定您的防火牆沒有變更 UDP 的對應網路位址轉譯（NAT）位址或埠。</td>
+</tr><tr class="odd">
+<td>驗證 NAT 池子大小</td>
 <td>驗證使用者連線所需的網路位址轉譯（NAT）池大小。 當多個使用者和裝置使用<a href="https://docs.microsoft.com/office365/enterprise/nat-support-with-office-365">網路位址轉譯（NAT）或埠位址轉換（PAT）</a>存取 Office 365 時，您必須確保隱藏在每個公開路由的 IP 位址後面的裝置不會超過支援的號碼。 確保已將足夠的公用 IP 位址指派給 NAT 池，以避免埠耗盡。 埠耗盡會影響內部使用者和裝置無法連線至 Office 365 服務的情況。</td>
 </tr>
 <tr class="even">

@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 description: 小組服務管理所需的工作和活動，包括監控服務健康情況，以及評估並確保網路品質與使用狀況
 localization_priority: Normal
 search.appverid: MET150
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3183eac6851531bcaefbddd72cc445844755b307
-ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
+ms.openlocfilehash: 976954014e3d1e78e8ca22de4f20a95985033006
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "43997284"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44523316"
 ---
 # <a name="operate-your-service"></a>營運您的服務
 
@@ -147,7 +147,7 @@ Microsoft System Center 是一個整合的管理平臺，可協助您管理資�
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>每日/每週/每月/所需任務
 
-| 活動 | 說明 | 節奏 | 指派的小組 |
+| 活動 | 描述 | 節奏 | 指派的小組 |
 |---|---|---|---|
 | 監視服務健康情況 | 使用可用的工具，主動監視 Microsoft 團隊服務健康情況（以及相依服務）。 相依服務包括： Exchange Online、SharePoint Online、商務用 OneDrive、Azure Active Directory。 | 即時 | |
 | 事件通知 | 通知內部干係人影響團隊服務的活動。 內部的專案關係人可加入使用者、服務中心及事件管理器。 | 視需要 | |
@@ -166,7 +166,7 @@ Microsoft System Center 是一個整合的管理平臺，可協助您管理資�
 
 Microsoft 團隊是雲端服務。 如此一來，就能夠快速提供新的功能和功能。 提供日常的創新為組織帶來明顯的好處，但需要適當地在組織內管理這些變更，以避免使用者抵抗或上報給您的技術支援人員。
 
-小組的更新會自動向您的使用者推出。 您的使用者將永遠擁有團隊服務中提供的最新用戶端和功能。 您無法針對您的使用者管理團隊更新推出，因此您必須透過有效的通訊、訓練及採納程式管理變更，這對您而言至關重要。 如果您的使用者知道所做的變更、教育的好處，以及充分利用其新功能&mdash;，就能更快速且更歡迎地調整變更。
+小組的更新會自動向您的使用者推出。 您的使用者將永遠擁有團隊服務中提供的最新用戶端和功能。 您無法針對您的使用者管理團隊更新推出，因此您必須透過有效的通訊、訓練及採納程式管理變更，這對您而言至關重要。 如果您的使用者知道所做的變更、教育的好處，以及充分利用其新功能，就能 &mdash; 更快速且更歡迎地調整變更。
 
 ### <a name="monitoring-for-change"></a>監控變更
 
@@ -220,7 +220,7 @@ Microsoft 團隊是雲端服務。 如此一來，就能夠快速提供新的功
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>每日/每週/每月/所需任務
 
-| 活動| 說明| 節奏| 指派的小組 |
+| 活動| 描述| 節奏| 指派的小組 |
 |---|---|---|---|
 | 監控變更| 監視 Microsoft 團隊服務即將進行的變更。| 日常||
 | 規劃變更| 評估並規劃新功能，包括溝通方案、線上認知活動，以及訓練。| 視需要 ||
@@ -275,7 +275,7 @@ Microsoft 團隊是雲端服務。 如此一來，就能夠快速提供新的功
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>每日/每週/每月/所需任務
 
-| 活動 | 說明 | 節奏 | 指派的小組 |
+| 活動 | 描述 | 節奏 | 指派的小組 |
 |---|---|---|---|
 | 測量使用量（啟用階段） | 在啟用階段繼續 onboarded 網站時，測量及評估團隊使用方式。 根據需要解決使用方式問題。 | 周更新 | |
 | 測量使用量 | 在「磁片磁碟機價值」階段中測量及評估團隊的使用方式（部署完成後）。 根據需要解決使用方式問題。 | 快遞 | |
@@ -328,7 +328,7 @@ NPS 是一個從–100到100的索引，可以衡量客戶對公司產品或服�
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>每日/每週/每月/視需要的任務
 
-| 活動 | 說明 | 節奏 | 指派的小組 |
+| 活動 | 描述 | 節奏 | 指派的小組 |
 |---|---|---|---|
 | 評估使用者觀點 | 使用問卷調查或訪談，或透過團隊或 Yammer 中的意見反應頻道來捕獲及評估使用者觀點。 | 視需要 | |
 | 更新採納方案 | 根據使用者意見反應，在您的組織中變更磁片磁碟機;這可能包含您的通訊方案變更、訓練程式，或您提供給使用者支援的方式。 | 視需要 | |
@@ -353,7 +353,7 @@ NPS 是一個從–100到100的索引，可以衡量客戶對公司產品或服�
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>每日/每週/每月/所需任務
 
-| 活動 | 說明 | 節奏 | 指派的小組 |
+| 活動 | 描述 | 節奏 | 指派的小組 |
 |---|---|---|---|
 | 監視 Office 365 IPs 與 Url | 使用提供的[RSS](https://go.microsoft.com/fwlink/p/?linkid=236301)摘要來監控[Office 365 url 和 IP 位址範圍](https://aka.ms/o365ips)的任何變更，並啟動適用網路群組的變更要求。 | 日常 | |
 | 根據 Office 365 IPs 和 Url 的變更來更新網路 | 更新適用的網路元件（防火牆、proxy 伺服器、Vpn、用戶端防火牆等等），以反映[Office 365 url 與 IP 位址範圍](https://aka.ms/o365ips)的變更。 | 視需要 | |
@@ -386,7 +386,7 @@ NPS 是一個從–100到100的索引，可以衡量客戶對公司產品或服�
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>每日/每週/每月/所需任務
 
-| 活動 | 說明 | 節奏 | 指派的小組 |
+| 活動 | 描述 | 節奏 | 指派的小組 |
 |---|---|---|---|
 | 提名與訓練品質擁護者（s） | 提名並訓練品質專家。 | 視需要 | |
 | 執行經驗檢查品質審查（QERs） | 執行 QER 以找出品質與可靠性的趨勢、針對已定義的目標進行審查，以及向組織中的主要干係人報告。 | 每月（在部署期間每週） | |
@@ -441,7 +441,7 @@ Wi-fi 驅動程式可能會造成問題。 舉例來說，驅動程式可能會�
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>每日/每週/每月/所需任務
 
-| 活動 | 說明 | 節奏 | 指派的小組 |
+| 活動 | 描述 | 節奏 | 指派的小組 |
 |---|---|---|---|
 | 端點需求 | 確定團隊端點繼續符合在[Microsoft 團隊取得用戶端](get-clients.md)中所列之團隊的所有軟體需求。 | 次 | |
 | 端點防火牆 | 根據[Office 365 url 和 IP 位址範圍](https://aka.ms/o365ips)中的資訊，在端點防火牆上維護適當的排除。 您的協力廠商廠商將提供有關如何維護排除項的特定指導方針。 訂閱[rss](https://support.office.com/o365ip/rss)摘要，以自動收到變更的通知。 | 視需要 | |
@@ -494,7 +494,7 @@ Wi-fi 驅動程式可能會造成問題。 舉例來說，驅動程式可能會�
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>每日/每週/每月/所需任務
 
-| 活動 | 說明 | 節奏 | 指派的小組 |
+| 活動 | 描述 | 節奏 | 指派的小組 |
 |---|---|---|---|
 | 服務管理 | 管理整個租使用者的團隊設定。 | 視需要 | |
 | 使用者管理 | 在小組中管理使用者的設定和授權。 | 視需要 | |

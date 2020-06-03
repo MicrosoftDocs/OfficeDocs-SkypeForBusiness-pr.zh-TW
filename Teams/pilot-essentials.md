@@ -5,7 +5,7 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 audience: admin
 description: 啟動 Microsoft 團隊試點專案的指導方針，以探索所有團隊都能在您繼續使用商務用 Skype 時提供您的組織。
 localization_priority: Normal
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 52721d40e36dc017d9ba76473367d1c9c5e5b4e7
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: 0849c2aae273953e7cb67b95f32cf30f4e17297f
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706453"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44522686"
 ---
 # <a name="conduct-a-user-pilot"></a>舉辦使用者試驗
 
@@ -38,13 +38,13 @@ ms.locfileid: "42706453"
 - [準備好您的環境](https://aka.ms/SkypeToTeams-TechnicalReadiness)
 - [準備好貴組織](https://aka.ms/SkypeToTeams-UserReadiness)
 
-透過部署新的技術，您的組織可以實現成本節約、安全性合規性、員工滿意度及運作效率等業務價值，但也會影響使用者的生產力與組織基礎結構（您的網路）。 在您的整個組織啟用新技術之前，請先執行正式的使用者試驗。 就像您在繪製整個聊天室前，在牆上繪製小的色彩片一樣，您可以執行試驗來驗證技術與使用者的就緒性、找出並減少問題，並協助確保成功全組織的實現。
+透過部署新技術，您的組織可以實現成本節約、安全性合規性、員工滿意度及運作效率等業務價值，但也會影響使用者的生產力與組織基礎結構（您的網路）。 在您的整個組織啟用新技術之前，請先執行正式的使用者試驗。 就像您在繪製整個聊天室前，在牆上繪製小的色彩片一樣，您可以執行試驗來驗證技術與使用者的準備情況、找出並減少問題，並協助確保整個組織範圍的實施順利完成。
 
 若要達到最實際的結果，試驗應涉及實際的使用者、模仿其溝通與共同作業的方式，以及驗證技術與使用者體驗。 無論您的組織是考慮並排執行商務用 Skype 和團隊、日後升級至小組，或是部署通話或會議等新功能，試驗都能協助您為貴組織找出正確的路徑。 您有時會考慮推出的階段1，理想的試驗會利用您已開始的準備，並以目標使用者群組來實現您定義的方案。
 
 | | |
 |---|---|
-| ![描述決策點的圖示](media/audio_conferencing_image7.png) <br/>決策點|<ul><li>您要如何使用試驗來通知專案方向？</li></ul> |
+| ![描繪決策點的圖示](media/audio_conferencing_image7.png) <br/>決策點|<ul><li>您要如何使用試驗來通知專案方向？</li></ul> |
 | ![描繪後續步驟的圖示](media/audio_conferencing_image9.png)<br/>後續步驟|<ul><li>請使用以下指導方針來設計及執行您的正式試點。</li></ul>|
 
 > [!Tip]
@@ -78,14 +78,14 @@ ms.locfileid: "42706453"
 
 ## <a name="5-conduct-your-pilot"></a>5. 進行試驗
 
-完成所有物流之後，您就可以開始進行試驗了。 您的試驗包括與您的使用者進行通訊、監控您的網路與使用狀況，以確保您的網路效能和通話品質保持正常、收集參與者的意見反應，以及查看技術支援人員的相關問題協同.
+完成所有物流之後，您就可以開始進行試驗了。 您的試驗包括與您的使用者進行通訊、監控您的網路與使用狀況，以確保您的網路效能和通話品質保持正常、收集參與者的意見反應，以及回顧與團隊相關的問題。
 
 ### <a name="tips-for-pilot-success"></a>試驗成功的秘訣
 
 下列秘訣可協助確保您的試驗成功：
 
 - 開始試用之前，請確認所有試點參與者都已啟用適當的 [共存模式]
-- （https://aka.ms/SkypeToTeams-SetCoexistence)您想要驗證。
+- （ https://aka.ms/SkypeToTeams-SetCoexistence) 您想要驗證。
 - 每週，在整個試驗期間，與您的專案干係人見面，以查看使用者的意見反應、使用方式資料、網路資料和技術支援人員，以確保您的試點程式順暢運作。 視需要進行調整。
 
 ### <a name="suggested-timeline"></a>建議的時程表

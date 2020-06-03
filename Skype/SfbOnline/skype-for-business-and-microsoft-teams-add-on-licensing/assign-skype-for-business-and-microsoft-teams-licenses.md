@@ -21,19 +21,19 @@ f1.keywords:
 ms.custom:
 - Licensing
 description: '瞭解如何為手機系統、音訊會議、通話方案和通訊點數指派商務用 Skype 授權。 '
-ms.openlocfilehash: f2b2e2ad4952b55fade7e0b8eddb1755ea3f2cea
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: e17050c133643d44cd4811ddc5d70852f1ad50d5
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41887812"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44204844"
 ---
 # <a name="assign-skype-for-business-licenses"></a>指派商務用 Skype 授權
 
 本文提供有關指派授權給使用者的秘訣，例如音訊會議、電話系統和通話方案等功能。 它也提供大量指派授權的腳本。
 
 > [!IMPORTANT]
-> 請參閱[商務用 Skype 附加元件授權](skype-for-business-and-microsoft-teams-add-on-licensing.md)，以取得您需要購買哪些授權以及**如何購買**產品的相關資訊（視您的 Office 365 方案而定），讓使用者可以取得音訊會議、免付費電話號碼，以及撥打企業外部的電話號碼。
+> 請參閱[商務用 Skype 附加元件授權](skype-for-business-and-microsoft-teams-add-on-licensing.md)，以取得您需要購買哪些授權以及如何 365 365**購買**產品的相關資訊，讓使用者取得音訊會議、免付費電話號碼，以及撥打公司外部電話號碼的能力。
 
 
 ## <a name="phone-system-and-calling-plans-tips-and-scripts-for-assigning-licenses"></a>電話系統與通話方案：指派授權的秘訣與腳本
@@ -42,7 +42,7 @@ ms.locfileid: "41887812"
 
 - **針對混合式使用者使用內部部署 PSTN 連線能力？** 如果是這樣，您只需要指派**電話系統**授權即可。 您**不**應該指派通話方案。
 
-- **指派授權之後的延遲**：由於 Office 365 與商務用 Skype Online 之間的延遲，在指派授權之後，可能需要長達24小時才能獲指派通話方案。 如果在24小時之後，使用者並未獲指派通話方案，請[與商務用支援人員聯繫，以取得系統管理協助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
+- **指派授權之後的延遲**：由於 Microsoft 365 或 Office 365 與商務用 Skype Online 之間的延遲，在指派授權之後，可能需要長達24小時才能獲指派通話方案。 如果在24小時之後，使用者並未獲指派通話方案，請[與商務用支援人員聯繫，以取得系統管理協助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
 
 - **錯誤訊息**：如果您尚未購買正確數量的授權，您會收到錯誤訊息。 如果您需要購買更多通話方案授權，請選擇 [**購買更多**]。
     
@@ -50,7 +50,7 @@ ms.locfileid: "41887812"
     
 ### <a name="how-to-assign-a-phone-system-and-calling-plan-license-to-one-user"></a>如何將電話系統和通話方案授權指派給一個使用者
 
-這些步驟與指派 Office 365 授權是一樣的。 請參閱[指派或移除商務用 Office 365 的授權](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)。
+這些步驟與指派 Microsoft 365 或 Office 365 授權是一樣的。 請參閱[指派或移除 Microsoft 商務用 Microsoft 365 的授權](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)。
 
 ### <a name="how-to-assign-phone-system-and-calling-plan-licenses-in-bulk"></a>如何大量指派電話系統和通話方案授權
 
@@ -65,7 +65,7 @@ ms.locfileid: "41887812"
    腳本中的授權或產品名稱的名稱會以斜體文字列出（請參閱在這個範例之後，請參閱**電話系統和通話方案產品名稱或 sku 用於腳本**）。
 
    ```powershell
-   #Create a text file with a single row containing list of UserPrincipalName (UPN) of users to license. The MSOLservice uses UPN to license user accounts in Office 365.
+   #Create a text file with a single row containing list of UserPrincipalName (UPN) of users to license. The MSOLservice uses UPN to license user accounts in Microsoft 365 or Office 365.
 
    #Example of text file:
    #user1@domain.com
@@ -123,7 +123,7 @@ ms.locfileid: "41887812"
 
 ### <a name="how-to-assign-an-audio-conferencing-license-to-one-user"></a>如何將音訊會議授權指派給一名使用者
 
-這些步驟與指派 Office 365 授權是一樣的。 請參閱[指派或移除商務用 Office 365 的授權](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)。
+這些步驟與指派 Microsoft 365 或 Office 365 授權是一樣的。 請參閱[指派或移除 Microsoft 商務用 Microsoft 365 的授權](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)。
 
 ### <a name="how-to-assign-audio-conferencing-licenses-in-bulk"></a>如何大量指派音訊會議授權
 
@@ -138,7 +138,7 @@ ms.locfileid: "41887812"
     這個範例會指派企業版 E3 授權以及音訊會議授權。
 
     ```powershell
-    #Create a text file with a single row containing list of UserPrincipalName(UPN) of users to license. The MSOLservice uses UPN to license user accounts in Office 365.
+    #Create a text file with a single row containing list of UserPrincipalName(UPN) of users to license. The MSOLservice uses UPN to license user accounts in Microsoft 365 or Office 365.
     #Example of text file:
     #user1@domain.com
     #user2@domain.com
@@ -194,7 +194,7 @@ ms.locfileid: "41887812"
     
 ### <a name="how-to-assign-a-communications-credits-license-to-one-user"></a>如何指派通訊點數授權給一名使用者
 
-這些步驟與指派 Office 365 授權是一樣的。 請參閱[指派或移除商務用 Office 365 的授權](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)。
+這些步驟與指派 Microsoft 365 或 Office 365 授權是一樣的。 請參閱[指派或移除 Microsoft 商務用 Microsoft 365 的授權](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)。
 
 ### <a name="how-to-assign-communications-credits-licenses-in-bulk"></a>如何大量指派通訊點數授權
 

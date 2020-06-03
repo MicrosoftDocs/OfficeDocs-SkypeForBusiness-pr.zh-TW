@@ -16,18 +16,21 @@ description: 在團隊中部署雲端語音功能以錄製小組會議與群組�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 58c264075608817ef805f7b6c58f8b39394fc369
-ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
+ms.openlocfilehash: eb2a9a3cf2e349ab74fc9059408a7be2c41c8408
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44224226"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44523336"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 雲端會議錄製
 
 在 Microsoft Teams 中，使用者可以錄製其 Teams 會議和群組通話，擷取音訊、視訊和螢幕共用的活動。 您也可以使用自動轉錄的錄製選項，便於使用者播放具有隱藏式輔助字幕的會議錄製，並在文字記錄中搜尋重要的討論項目。 錄製會在雲端進行，並儲存到 [Microsoft Stream](https://docs.microsoft.com/stream/)，使用者可以因此安全地在整個組織內共用檔案。
 
 相關：[Teams 會議錄製使用者文件](https://aka.ms/recordmeeting)
+
+> [!NOTE]
+> 如需在團隊會議中使用角色的相關資訊，以及如何變更使用者的角色，請參閱[小組會議中的角色](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us)。
 
 ## <a name="prerequisites-for-teams-cloud-meeting-recording"></a>Teams 雲端會議錄製的必要條件
 
@@ -45,7 +48,7 @@ ms.locfileid: "44224226"
 必須授權<sup>1</sup>使用者將會議上傳/下載到 Microsoft Stream，但他們不需要有錄製會議的授權。 如果您想要封鎖使用者不讓他錄製 Microsoft Teams 會議，您必須授予一個將 AllowCloudRecording 設定為 $False 的 TeamsMeetingPolicy。
 
 > [!IMPORTANT] 
-> 如果您希望使用者只記錄及下載錄製，則不需要指派 Microsoft Stream 授權。 這會表示這些錄製不會儲存在 Microsoft Stream 中，而是儲存在 Azure 媒體服務（AMS）中，但在刪除前會有30天的限制。 在這一點，系統管理員可以控制或管理，包括刪除它的功能。
+> 如果您只想讓使用者錄影及下載錄製內容，則使用者不必獲派 Microsoft Stream 授權。 這會表示這些錄製不會儲存在 Microsoft Stream 中，而是儲存在 Azure 媒體服務（AMS）中，但在刪除前會有30天的限制。 目前系統管理員並無法控制或管理此機制，包括加以刪除的能力。
 
 ## <a name="set-up-teams-cloud-meeting-recording-for-users-in-your-organization"></a>為貴組織中的使用者設定 Teams 雲端會議錄製
 
@@ -74,6 +77,9 @@ Microsoft Stream 是以合格的 Microsoft 365 與 Office 365 訂閱或獨立服
 您可以使用 PowerShell 來設定 TeamsMeetingPolicy 中的 AllowCloudRecording 設定。 若要深入瞭解，請參閱 [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) 和 [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy)。
 
 請注意，會議召集人和啟動錄製的人員都需要有錄製權限才能錄製會議。 除非您已指派自訂原則給使用者，否則使用者會獲得 Global (全域 ) 原則，也就是預設停用 AllowCloudRecording。
+
+> [!NOTE]
+> 如需使用團隊角色來設定誰有權錄製會議的詳細資訊，請參閱[小組會議中的角色](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us)。
 
 若要讓使用者回到 Global 原則，請使用下列 Cmdlet 來移除使用者的特定原則指派：
 

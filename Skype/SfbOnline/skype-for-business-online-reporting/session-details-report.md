@@ -18,17 +18,17 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Reporting
-description: 新的 Microsoft 365 [報告] 儀表板會在您組織中的 Office 365 產品上顯示活動概覽。 它可讓您深入瞭解個別的產品層級報告，讓您更精確地瞭解每個產品內的活動。
-ms.openlocfilehash: b10e68e46b8865579692594ded33e89558f4fdc2
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: '[報告] 儀表板會顯示您組織中 Microsoft 365 或 Office 365 產品的活動概覽。 它可讓您深入瞭解個別的產品層級報告，讓您更精確地瞭解每個產品內的活動。'
+ms.openlocfilehash: 951f93aabe66bdb7e6b92f9b2c6cf1627e7e1a10
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776278"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44205504"
 ---
 # <a name="session-details-report"></a>工作階段詳細資報告
 
-新的 Office 365 [**報告**] 儀表板會在您組織中的 Office 365 產品上顯示活動概覽。 它可讓您深入瞭解個別的產品層級報告，讓您更精確地瞭解每個產品內的活動。 例如，您可以使用商務用**Skype 的 [會話詳細資料**] 報告，查看個別使用者的通話體驗的詳細資料。
+[**報告**] 儀表板會顯示您組織中 Microsoft 365 或 Office 365 產品的活動概覽。 它可讓您深入瞭解個別的產品層級報告，讓您更精確地瞭解每個產品內的活動。 例如，您可以使用商務用**Skype 的 [會話詳細資料**] 報告，查看個別使用者的通話體驗的詳細資料。
   
 查看[報表概覽](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)以取得更多可用報表。
   
@@ -46,7 +46,7 @@ ms.locfileid: "43776278"
 3. 在 [**選取報告**] 下的清單中，按一下 [**商務用 Skype 會話詳細資料**]。
     
     > [!TIP]
-    > 如果您沒有看到此報告，請移至**商務用 Skype 系統管理中心** > **報告** > **會話詳細資料**。 
+    > 如果您沒有看到此報告，請移至**商務用 Skype 系統管理中心**  >  **報告**  >  **會話詳細資料**。 
   
     > [!IMPORTANT]
     > 視您擁有的 Microsoft 365 或 Office 365 訂閱而定，您可能不會看到這裡顯示的所有產品和報表。 

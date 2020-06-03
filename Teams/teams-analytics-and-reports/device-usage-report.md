@@ -18,10 +18,10 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: 128a9e816249dd918a5bf5fb380fde78d3ed9ce2
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
+ms.lasthandoff: 06/02/2020
 ms.locfileid: "43904915"
 ---
 # <a name="microsoft-teams-device-usage-report"></a>Microsoft 團隊裝置使用量報告
@@ -30,14 +30,14 @@ Microsoft 團隊系統管理中心的 [小組裝置使用量] 報告可提供使
 
 ## <a name="view-the-device-usage-report"></a>查看裝置使用方式報告
 
-1. 在 Microsoft [團隊管理中心] 的左導覽中，按一下 [**分析] & 報告** > **使用方式報告**。 在 [**查看報表**] 索引標籤的 [**報表**] 底下，選取 [**團隊裝置使用方式**]。
+1. 在 Microsoft [團隊管理中心] 的左導覽中，按一下 [**分析] & 報告**  >  **使用方式報告**。 在 [**查看報表**] 索引標籤的 [**報表**] 底下，選取 [**團隊裝置使用方式**]。
 2. 在 [**日期範圍**] 底下，選取一個範圍，然後按一下 [**執行報表**]。
 
     ![[小組系統管理中心] 的 [小組裝置使用方式] 報告螢幕擷取畫面（含標注）](../media/teams-reports-device-usage-with-callouts.png "[小組系統管理中心] 的 [小組裝置使用方式] 報告螢幕擷取畫面（含標注）")
 
 ## <a name="interpret-the-report"></a>解讀報表
 
-|圖說文字 |說明  |
+|圖說文字 |描述  |
 |--------|-------------|
 |**1**   |您可以在過去7天或28天的趨勢中查看小組裝置使用方式報告。  |
 |**2**   |每個報告都有產生報告的日期。 報告通常會反映來自啟用時間的24到48小時延遲時間。 |

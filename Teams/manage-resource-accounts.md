@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: 在本文中，您將瞭解如何在 Microsoft 團隊中建立、編輯和管理資源帳戶。
-ms.openlocfilehash: 96c8b9028a63b87b19bebbd3d4724a202f798324
-ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
+ms.openlocfilehash: 1ea9d4ebd6cbbb93646555787a04ab5b5516be03
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44224266"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44512885"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>在 Microsoft Teams 中管理資源帳戶
 
@@ -82,9 +82,9 @@ ms.locfileid: "44224266"
 
 2. 取得電話系統虛擬使用者授權或一般的電話系統授權。
 
-   若要取得虛擬使用者授權（從 Microsoft 365 系統管理中心開始），請移至**帳單**  >  **購買服務**  >  **附加元件訂閱**，然後滾動至結尾，您會看到「電話系統-虛擬使用者」授權。 選取 [**立即購買**]。 有零成本，但您仍需遵循這些步驟來取得授權。
-3. 建立新的資源帳戶。 請參閱[在 Microsoft 團隊系統管理中心建立資源帳戶](#create-a-resource-account-in-microsoft-teams-admin-center)或[在 Powershell 中建立資源帳戶](#create-a-resource-account-in-powershell)。
-4. 將電話系統-[虛擬使用者授權](teams-add-on-licensing/virtual-user.md)或電話系統授權指派給資源帳戶。 請參閱[指派 Microsoft 團隊附加元件授權](teams-add-on-licensing/assign-teams-add-on-licenses.md)和[指派授權給一個使用者](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#assign-licenses-to-one-user)。
+   若要取得虛擬使用者授權，請在 Microsoft 365 系統管理中心中，移至**帳單**  >  **購買服務**  >  **附加元件訂閱**，然後滾動至最後-您會看到「電話系統-虛擬使用者」授權。 選取 [**立即購買**]。 有零成本，但您仍需遵循這些步驟來取得授權。
+3. 建立新的資源帳戶。 請參閱在[Microsoft 團隊系統管理中心建立資源帳戶](#create-a-resource-account-in-the-microsoft-teams-admin-center)或[在 Powershell 中建立資源帳戶](#create-a-resource-account-in-powershell)。
+4. 將電話系統-[虛擬使用者授權](teams-add-on-licensing/virtual-user.md)或電話系統授權指派給資源帳戶。 請參閱[指派 Microsoft 團隊附加元件授權](teams-add-on-licensing/assign-teams-add-on-licenses.md)和[指派授權給使用者](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)。
 5. 將服務號碼指派給資源帳戶。 請參閱[指派/取消指派電話號碼和服務](#assignunassign-phone-numbers-and-services)。
 6. 設定下列其中一項：
    - [雲端自動語音應答](create-a-phone-system-auto-attendant.md)
@@ -97,26 +97,36 @@ ms.locfileid: "44224266"
 
 嵌套的自動語音應答或呼叫佇列將需要資源帳戶，但在許多情況下，對應的資源帳戶不需要電話號碼和支援電話號碼所需的授權。 若要建立不需要電話號碼的資源帳戶，必須以下列循序執行下列工作：
 
-1. 建立新的資源帳戶。 請參閱[在 Microsoft 團隊系統管理中心建立資源帳戶](#create-a-resource-account-in-microsoft-teams-admin-center)或[在 Powershell 中建立資源帳戶](#create-a-resource-account-in-powershell)。
+1. 建立新的資源帳戶。 請參閱[在 Microsoft 團隊系統管理中心建立資源帳戶](#create-a-resource-account-in-the-microsoft-teams-admin-center)或[在 Powershell 中建立資源帳戶](#create-a-resource-account-in-powershell)。
 2. 設定下列其中一項：
    - [雲端自動語音應答](create-a-phone-system-auto-attendant.md)
    - [雲端通話佇列](create-a-phone-system-call-queue.md)
 3. 將資源帳戶指派給通話佇列或自動語音應答。 請參閱[指派/取消指派電話號碼和服務](#assignunassign-phone-numbers-and-services)。
 
 
-## <a name="create-a-resource-account-in-microsoft-teams-admin-center"></a>在 Microsoft 團隊系統管理中心中建立資源帳戶
+## <a name="create-a-resource-account-in-the-microsoft-teams-admin-center"></a>在 Microsoft [團隊管理中心] 中建立資源帳戶
 
-在您購買電話系統授權之後，使用 Microsoft 團隊管理中心流覽至**組織範圍的設定**  >  **資源帳戶**。
+在您購買電話系統授權之後，請在 Microsoft 團隊系統管理中心的左導覽中，移至**組織範圍的設定**  >  **資源帳戶**。
 
 ![[資源帳戶] 頁面的螢幕擷取畫面](media/r-a-master.png)
 
 ![在前一個螢幕擷取畫面中參照標注的數位1圖示](media/teamscallout1.png)
 
-若要建立新的資源帳戶，請按一下 [ **+ 新增**]。 在快顯視窗**中，填寫**[**顯示名稱**]、[使用者名稱] （功能變數名稱必須自動填入），以及資源帳戶的**資源帳戶類型**。 根據您想要與資源帳戶建立關聯的 app，資源帳戶類型可以是**自動**語音應答或**呼叫佇列**。 當您準備好時，請按一下 [**儲存**]。
+若要建立新的資源帳戶，**請按一下 [新增]**。 在 [**新增資源帳戶**] 窗格**中，填寫 [** **顯示名稱**]、[使用者名稱] （功能變數名稱必須自動填入），以及資源帳戶的**資源帳戶類型**。 資源帳戶類型可以是 [**自動**應答] 或 [**呼叫佇列**]，視您想要與資源帳戶建立關聯的 app 而定。 當您準備好時，請按一下 [**儲存**]。
 
 ![[新增資源帳戶] 選項的螢幕擷取畫面](media/res-acct.png)
 
-接下來，將授權套用至 O365 系統管理中心的資源帳戶，如在[商務用 Office 365 中指派授權給使用者](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide)所述。
+<a name="enablesignin"> </a>
+
+當您建立資源帳戶時，系統會封鎖帳戶的登入。 您會在窗格頂端看到橫幅，指出無法載入資源帳戶。 您必須解除封鎖 Microsoft 365 系統管理中心中資源帳戶的 [登入]，才能讓資源帳戶登入。 若要這樣做，請在 Microsoft 365 系統管理中心，移至 [**使用者**]、[搜尋]，然後選取資源帳戶。 在窗格頂端的 [顯示名稱] 底下，按一下 [**解除封鎖此使用者？**]，清除 [**封鎖此使用者登入**] 核取方塊，然後按一下 [**儲存變更**]。
+
+![[解除封鎖此使用者] 選項的螢幕擷取畫面](media/res-acct-unblock.png)
+
+這麼做之後，您會在顯示名稱底下看到「登入允許」。 
+
+![[允許登入] 訊息的螢幕擷取畫面](media/res-acct-sign-in-allowed.png)
+
+接著，將授權套用至 Microsoft 365 系統管理中心的資源帳戶，如[將授權指派給使用者](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide)中所述。
 
 ### <a name="edit-resource-account"></a>編輯資源帳戶 
 
@@ -151,7 +161,7 @@ ms.locfileid: "44224266"
 
 ## <a name="change-an-existing-resource-account-to-use-a-virtual-user-license"></a>變更現有的資源帳戶以使用虛擬使用者授權
 
-如果您決定將現有資源帳戶的授權從電話系統授權切換至虛擬使用者授權，您必須取得免費的虛擬使用者授權，然後依照 Microsoft 365 系統管理中心的連結步驟，[將使用者移至不同的訂閱](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription)。 
+如果您決定將現有資源帳戶的授權從電話系統授權切換至虛擬使用者授權，您必須取得免費的虛擬使用者授權，然後依照 Microsoft 365 系統管理中心的步驟，[將使用者移至不同的訂閱](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription)。 
 
 > [!WARNING]
 > 永遠移除完整的電話系統授權，並在相同的授權活動中指派虛擬使用者授權。 如果您移除舊的授權，請儲存帳戶變更、新增授權，然後再次儲存帳戶設定，資源帳戶可能無法如期運作。 如果發生這種情況，我們建議您為虛擬使用者授權建立新的資源帳戶，並移除中斷的資源帳戶。 
@@ -180,9 +190,9 @@ ms.locfileid: "44224266"
     New-CsOnlineApplicationInstance -UserPrincipalName testra1@contoso.com -ApplicationId "ce933385-9390-45d1-9512-c8d228074e07" -DisplayName "Resource account 1"
     ```
 
-2. 您必須先將授權套用至該資源帳戶，才能使用該帳戶。 如需如何將授權套用至 O365 系統管理中心中的帳戶，請參閱[在商務用 Office 365 中指派授權給使用者](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide#assign-licenses-to-one-user)，以及[指派商務用 Skype 授權](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)。
+2. 您必須先將授權套用至該資源帳戶，才能使用該帳戶。 如需如何將授權套用至 Microsoft 365 系統管理中心的帳戶，請參閱[指派授權給使用者](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)並[指派商務用 Skype 授權](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)。
 
-3. 可選一旦將正確的授權套用至資源帳戶之後，您就可以將電話號碼指派給資源帳戶，如下所示。 並非所有資源帳戶都需要電話號碼。 如果您未將授權套用至資源帳戶，電話號碼指派將會失敗。
+3. 可選將正確的授權套用至資源帳戶之後，您就可以將電話號碼指派給資源帳戶，如下所示。 並非所有資源帳戶都需要電話號碼。 如果您沒有將授權套用至資源帳戶，電話號碼指派將會失敗。
 
    ``` Powershell
    Set-CsOnlineVoiceApplicationInstance -Identity testra1@contoso.com -TelephoneNumber +14255550100
@@ -200,25 +210,25 @@ ms.locfileid: "44224266"
    Set-CsOnlineApplicationInstance -Identity appinstance01@contoso.com -OnpremPhoneNumber +14250000000
    ```
 
-## <a name="manage-resource-account-settings-in-microsoft-teams-admin-center"></a>管理 Microsoft 團隊系統管理中心的資源帳戶設定
+## <a name="manage-resource-account-settings-in-the-microsoft-teams-admin-center"></a>在 Microsoft 團隊系統管理中心中管理資源帳戶設定
 
-若要在 Microsoft 團隊系統管理中心中管理 [資源帳戶設定]，請流覽至 [**整個組織的設定**  >  **資源帳戶**]，選取您需要變更其設定的資源帳戶，然後按一下 [**編輯**] 按鈕。 在 [**編輯資源帳戶**] 畫面中，您將能夠變更這些設定：
+若要在 Microsoft 團隊系統管理中心中管理資源帳戶設定，請移至 [**整個組織的設定**  >  **資源帳戶**]，選取您要變更其設定的資源帳戶，然後按一下 [**編輯**]。 在 [**編輯資源帳戶**] 窗格中，您可以變更這些設定：
 
 - 帳戶的**顯示名稱**
 - 使用帳戶的通話佇列或自動語音應答
 - 指派給帳戶的電話號碼
 
-完成後，請按一下 [**儲存**]。
+完成後，按一下 [**儲存**]。
 
 ## <a name="delete-a-resource-account"></a>刪除資源帳戶
 
-在刪除前，請確定您已將電話號碼與資源帳戶取消關聯，以免讓您的服務號碼停滯在擱置模式中。 您可以使用下列 commandlet 來執行此動作：
+在刪除前，請確定您已將電話號碼與資源帳戶取消關聯，以免讓您的服務號碼停滯在擱置模式中。 您可以使用下列 Cmdlet 來執行此動作：
 
 ``` Powershell
 Set-CsOnlineVoiceApplicationInstance -Identity <Resource Account oid> -TelephoneNumber $null
 ```
 
-完成之後，您就可以從 O365 系統管理入口網站刪除資源帳戶（位於 [使用者] 索引標籤底下）。
+完成之後，您可以在 Microsoft 365 系統管理中心的 [使用者] 索引標籤底下刪除資源帳戶。
 
 若要解除直接路由電話號碼與資源帳戶的關聯，請使用下列 Cmdlet：
 

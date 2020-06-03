@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cd3cacafdf5f3f8369ea6bce18da2aac976e437b
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 40f88c93e20fde89eb9791cc90760d554e52a004
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825131"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44512810"
 ---
 # <a name="document-my-success-plan"></a>記錄我的成功計畫
 
@@ -108,11 +108,11 @@ ms.locfileid: "41825131"
 
 ## <a name="communications-and-governance-plan"></a>溝通與管理方案
 
-若要讓專案討論干係人與部署進度保持在最新狀態，您需要建立一個方案，以瞭解如何在核心專案小組成員中進行通訊，以及與專案的狀態有關的相關事項。針對已建立的 KSIs、操作衡量標準及戰略目標，將里程碑、封鎖程式及專案的各種評論組成。
+若要讓專案討論干係人與部署進度保持在最新狀態，您需要建立一個方案，讓您瞭解如何在核心專案小組成員和專案關係人之間進行通訊，以針對已建立的 KSIs、運營指標及戰略目標，與專案的狀態相關的專案、主要里程碑、封鎖程式及各種不同的評論。
 
 以下是您可以在雲端語音實現專案中利用的通訊與管理方案範例。
 
-| 類型                                        | 目標                                                                                                                                                      | 人 | 天數/時間                                     | 位置             | 會議擁有者 |
+| 類型                                        | 目標                                                                                                                                                      | 參與者 | 天數/時間                                     | 位置             | 會議擁有者 |
 |---------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|-----------------------------------------------|----------------------|---------------|
 | Project standup 通話                       | [同步處理] 專案的狀態、追蹤重要的里程碑及封鎖程式                                                                                           | TBA          | 星期一、星期二、星期三、星期四 5 PM PST | Virtual              | TBA           |
 | 每週籌畫指導委員會                   | 查看雲端語音專案的狀態、向主管人員報告，提出需要主管協助解決的問題                                        | TBA          | 每個星期五上午11點（PST）                        | Virtual              | TBA           |
@@ -173,7 +173,7 @@ ms.locfileid: "41825131"
 
 找出支援採納活動（例如傳單、歡迎電子郵件及訓練資料）的資源，以及您將需要符合組織需求的任何自訂專案。
 
-從[Microsoft 團隊客戶成功套件](https://www.microsoft.com/download/details.aspx?id=54244)下載適用于採納活動的範本。
+從[Microsoft 團隊客戶成功套件](https://aka.ms/TeamsCustomerSuccess)下載適用于採納活動的範本。
 
 ### <a name="operational-plan"></a>運營計畫
 

@@ -20,16 +20,16 @@ ms.custom:
 - Reporting
 - O365E_ReportsS4BOrgActivity
 description: '瞭解如何取得商務用 Skype 會議已整理的活動報告，以及如何解讀及加以自訂。 '
-ms.openlocfilehash: f005a1ee53d1fc5ab5ee9e4736ff8d6d241f3a6e
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: 3d00b86e5e080e16f199a6f9e2fd24de2d607d23
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769386"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44204834"
 ---
 # <a name="conference-organizer-activity-report"></a>會議召集人活動報告
 
-新的 Office 365 [**報告**] 儀表板會在您組織中的 Office 365 產品上顯示活動概覽。 它可讓您深入瞭解個別的產品層級報告，讓您更精確地瞭解每個產品內的活動。 例如，您可以使用商務用**Skype 會議召集人活動**報告，查看您的使用者使用 IM、音訊/視頻、應用程式共用、Web、撥入/取出-協力廠商以及撥入/取出-Microsoft 的方式來組織會議的數量。 
+[**報告**] 儀表板會顯示您組織中 Microsoft 365 或 Office 365 產品的活動概覽。 它可讓您深入瞭解個別的產品層級報告，讓您更精確地瞭解每個產品內的活動。 例如，您可以使用商務用**Skype 會議召集人活動**報告，查看您的使用者使用 IM、音訊/視頻、應用程式共用、Web、撥入/取出-協力廠商以及撥入/取出-Microsoft 的方式來組織會議的數量。 
 
 若要深入瞭解，請參閱[報表概覽](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)。
   
@@ -40,9 +40,9 @@ ms.locfileid: "41769386"
   
 ## <a name="how-to-get-to-the-skype-for-business-conference-organizer-report"></a>如何取得商務用 Skype 會議召集人報告
 
-1. 移至 [系統管理中心] > [**報告** > **使用方式**]。
+1. 移至 [系統管理中心] > [**報告**  >  **使用方式**]。
     
-2. 在 [**使用狀況**] 頁面上，選取左側 [**選取報告] 清單**中的 [**商務** >用 Skype**會議召集人活動**]。 或者，按一下 [**商務用 skype] 活動**小工具，然後按一下 [商務用**skype] 活動**清單上的 [**商務用 skype 會議召集人] 活動**。
+2. 在 [**使用狀況**] 頁面**Skype for Business**上，選取  > 左側 [**選取報告] 清單**中的 [商務用 Skype**會議召集人活動**]。 或者，按一下 [**商務用 skype] 活動**小工具，然後按一下 [商務用**skype] 活動**清單上的 [**商務用 skype 會議召集人] 活動**。
   
 ## <a name="interpret-the-skype-for-business-conferences-organizer-report"></a>解讀商務用 Skype 會議召集人報告
 

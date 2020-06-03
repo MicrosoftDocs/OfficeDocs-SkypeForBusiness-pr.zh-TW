@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 description: 瞭解如何評估貴組織的準備順利轉換為 Microsoft 團隊環境。
 localization_priority: Normal
 search.appverid: MET150
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a9cfb5c1982d6cfa031db447ed07543edf3a2a3e
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 39690deaf7561aedf6192217c66e67c3cd6c5e99
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904438"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44523126"
 ---
 # <a name="assess-organizational-change-readiness"></a>評估組織的變更整備程度
 

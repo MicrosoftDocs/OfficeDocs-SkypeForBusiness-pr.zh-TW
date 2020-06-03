@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 description: 瞭解如何為您的組織準備與團隊共同作業和雲端語音服務的需求。
 localization_priority: Normal
 search.appverid: MET150
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b51897aa0c135f13a0f7950576665527d5dbc834
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: ae0a9f0e3d82dcfeb62a90d4601394bf39a03877
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905245"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44523026"
 ---
 # <a name="prepare-your-service-for-upgrading-to-teams"></a>準備您的服務以升級至小組
 
