@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8730c1522439660652bd164d6628fdf2f78f37cb
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.openlocfilehash: 85879d55ad50a6c68bbe59d9c1fb51663988c661
+ms.sourcegitcommit: ef3cd762e799df43bdcde03363c501d7ca9bb6b3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44229881"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44489055"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和規格
 
@@ -43,6 +43,7 @@ ms.locfileid: "44229881"
 |一個 Office 365 組織可以擁有的小組數目    | 500,000&sup2;     |
 |每個團隊的頻道數目    | 200 (包含已刪除的頻道)&sup3;         |
 |每個團隊的私人頻道數量    |30|
+|私人頻道中的成員數目    |250|
 |頻道交談貼文大小 | 每篇貼文約 28 KB<sup>4</sup> |
 
 &sup1; Azure Active Directory 中的任何目錄物件都會計入此限制。 全域系統管理員不受此限制，使用[應用程式權限](https://docs.microsoft.com/graph/permissions-reference)呼叫 Microsoft Graph 的應用程式也不受此限制。

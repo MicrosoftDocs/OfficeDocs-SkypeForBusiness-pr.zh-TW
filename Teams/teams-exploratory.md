@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6c40e9f89d56329dc8f4f450b72a76c031315b9a
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 502bdb8c5e441449680fa383b20f3e570d8a8ecc
+ms.sourcegitcommit: ef3cd762e799df43bdcde03363c501d7ca9bb6b3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44041750"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44489125"
 ---
 <a name="manage-the-microsoft-teams-exploratory-license"></a>管理 Microsoft Teams Exploratory 授權
 =======================================================
@@ -79,7 +79,7 @@ Teams Exploratory 體驗隨附 Exchange Online 授權，但在系統管理員指
 
 ### <a name="prevent-users-from-installing-trial-apps-and-services"></a>防止使用者安裝試用版應用程式和服務
 
-您可以關閉使用者安裝試用版應用程式和服務的功能，即可防止使用者執行 Teams Exploratory 體驗。
+您可以關閉使用者安裝試用版應用程式和服務的功能，即可防止使用者執行 Teams Exploratory 體驗。 您必須具備系統管理員權限。 若要深入了解系統管理員角色，請參閱[使用 Microsoft Teams 系統管理員角色來管理 Teams](teams-exploratory.md)
 
 1. 從 [Microsoft 365 系統管理中心][](https://portal.office.com/adminportal/home)，移至 [設定]****  >  [設定]****、選取 [服務]****，然後選取 [使用者所擁有的應用程式與服務]****。
 
@@ -94,11 +94,11 @@ Teams Exploratory 體驗隨附 Exchange Online 授權，但在系統管理員指
 
 ### <a name="manage-availability-for-a-user-with-a-license-that-includes-teams"></a>管理具有 Teams 授權的使用者可用性
 
-已獲含 Teams 授權的使用者不符合 Teams Exploratory 體驗的使用資格。 開啟 Teams 服務方案後，使用者就可以登入並使用 Teams。 如果服務方案已停用，則使用者無法登入，也無法使用 Teams Exploratory 體驗。
+已獲含 Teams 授權的使用者不符合 Teams Exploratory 體驗的使用資格。 開啟 Teams 服務方案後，使用者就可以登入並使用 Teams。 如果服務方案已停用，則使用者無法登入，也無法使用 Teams Exploratory 體驗。 您必須具備系統管理員權限。 
 
 若要關閉對 Teams 的存取：
 
-1. 在 Microsoft 365 系統管理中心，選取 [使用者]****  >  [作用中的使用者]****。
+1. 在 [Microsoft 365 系統管理中心](https://portal.office.com/adminportal/home)中，選取 [使用者] **** >  [作用中的使用者]****。
 
 2. 選取使用者名稱旁的方塊。
 
@@ -110,7 +110,7 @@ Teams Exploratory 體驗隨附 Exchange Online 授權，但在系統管理員指
 
 ### <a name="manage-teams-availability-for-users-who-are-already-using-the-teams-exploratory-experience"></a>管理已在使用 Teams Exploratory 體驗之使用者的 Teams 可用性
 
-如果使用者正在執行 Teams Exploratory 體驗，您可以移除授權或服務方案將它關閉。
+如果使用者正在執行 Teams Exploratory 體驗，您可以移除授權或服務方案將它關閉。 您必須具備系統管理員權限。 
 
 若要關閉 Teams Exploratory 體驗授權：
 
@@ -131,7 +131,7 @@ Teams Exploratory 體驗隨附 Exchange Online 授權，但在系統管理員指
 
 ### <a name="upgrade-users-from-the-teams-exploratory-license"></a>從 Teams Exploratory 授權升級使用者
 
-若要從 Teams Exploratory 授權升級使用者，請執行下列動作：
+若要從 Teams Exploratory 授權升級使用者 (您必須擁有系統管理員權限)，請執行下列動作：
 
 1. 購買包括 Teams 的訂閱。
 
@@ -161,3 +161,10 @@ Teams Exploratory 體驗隨附 Exchange Online 授權，但在系統管理員指
 ### <a name="what-happens-if-an-end-user-initiates-the-microsoft-teams-exploratory-experience-just-before-my-anniversary-or-renewal-date"></a>如果使用者在週年日或續約日到期前起始 Microsoft Teams Exploratory 體驗，會發生什麼情況？
 
 在您的**合約週年日**或**續約**日 90 天內起始的 Microsoft Teams Exploratory 體驗授權，直到下一個週年日或續約週期為止前，都不需移到付費授權。 
+
+### <a name="what-if-my-agreement-doesnt-have-an-anniversary-or-yearly-renewal-date-for-example-month-to-month-agreements"></a>如果我的合約沒有周年紀念日或每年續約日期 (例如月對月合約)，該怎麼辦？
+
+對於沒有周年紀念日或每年續約日期的合約，在第一位使用者啟用 Microsoft Teams Exploratory 體驗授權後的第二年將被視為周年紀念日或續約日期。 根據上述原則，必須在每年的該日期之前將擁有 Microsoft Teams Explorator 授權的使用者轉換為付費授權。
+
+例如，如果第一位使用者在 2020 年 6 月 19 日啟用了 Microsoft Teams Exploratory，則他們和客戶租用戶中的所有其他合格使用者必須在 2021 年 6 月 19 日之前轉換為 Teams 的付費授權。 
+
