@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: '瞭解如何在 Microsoft 團隊系統管理中心新增、變更或移除您組織的緊急位置。 '
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 72730a326c6239b195d77f8a7bdde1b376da646f
-ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
+ms.openlocfilehash: 8bed76fdfff2a6af2dabb3eef5c01dcfb39f422a
+ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44232484"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44539460"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>新增、變更或移除貴組織的緊急位置
 
@@ -40,13 +40,13 @@ ms.locfileid: "44232484"
 ### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 系統管理中心
 
 1. 在 Microsoft [團隊管理中心] 的左導覽中，按一下 [**地點**  >  **緊急位址**]。
-2. 按一下 [**新增位置**]。
+2. 按一下 [**新增**]。
 3. 輸入位置的名稱和描述。
 4. 選取國家或地區，然後輸入位址。
 
    > [!NOTE]
    > 在比利時、法國、德國、愛爾蘭、荷蘭及西班牙，請務必瞭解若要在 Office 365 中成功啟用電話號碼，在緊急位置中設定的位址（用來取得號碼）必須符合電話號碼的區功能變數代碼。
-5. 如果找不到位址且想要手動編輯位址，請開啟 **[如果找不到選取的位址，請開啟我手動編輯位址表單**]。
+5. 如果找不到位址，而您想要手動編輯位址，請開啟 **[手動編輯位址**]。
 6. 按一下 [儲存]****。
 
 ### <a name="using-powershell"></a>使用 PowerShell

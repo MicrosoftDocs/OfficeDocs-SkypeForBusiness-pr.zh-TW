@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 瞭解如何在 Microsoft 團隊系統管理中心新增、變更或移除您組織緊急位置的位置。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c3ff180848d12ad3fb00d048bbb1910bf13c00d6
-ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
+ms.openlocfilehash: 5ba712602ef2a966343282d4e467365f3c1c3329
+ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44232494"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44539430"
 ---
 # <a name="add-change-or-remove-a-place-for-an-emergency-location-in-your-organization"></a>新增、變更或移除貴組織緊急位置的地方
 
@@ -39,7 +39,7 @@ ms.locfileid: "44232494"
 
 1. 在 Microsoft [團隊管理中心] 的左導覽中，按一下 [**地點**  >  **緊急位址**]。
 2. 在清單中，按一下您要新增位置的位置名稱。
-3. 按一下 [**位置**] 索引標籤上的 [**新增位置**]。
+3. 按一下 [**位置**] 索引標籤上的 [**新增**]。
 4. 輸入地點名稱，**然後按一下 [** 套用]。
 
 ### <a name="using-powershell"></a>使用 PowerShell

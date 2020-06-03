@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 在本文中，您將瞭解如何為貴組織中的使用者指派或變更緊急位置。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 096e2dead1ede4f9769dafd85dfac23d6c44f399
-ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
+ms.openlocfilehash: f11bfd9762667823b4ec6b2883c9661f9f5754d0
+ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44232474"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44539500"
 ---
 # <a name="assign-or-change-an-emergency-location-for-a-user"></a>指派或變更使用者的緊急位置
 
@@ -37,7 +37,7 @@ ms.locfileid: "44232474"
 
 1. 在 Microsoft [團隊管理中心] 的左導覽中，按一下 [**語音**  >  **電話號碼**]。
 
-2. 在 [**電話號碼**] 頁面上，選取清單中的使用者號碼，然後按一下 [**編輯**]。
+2. 在 [**電話號碼**] 頁面上，按一下 [**數位**] 索引標籤，選取清單中的使用者編號，然後按一下 [**編輯**]。
 
 3. 在 [**編輯**] 窗格的 [**緊急位置**] 底下，執行下列其中一項操作：
 
@@ -45,7 +45,9 @@ ms.locfileid: "44232474"
 
    - 若要變更已指派給使用者的緊急位置，請按一下 [ **X** ] 以移除現有的位置，然後搜尋並選取您要指派的位置。
 
-4. 按一下 [儲存]****。
+4. 視您是否想要傳送電子郵件給使用者的電話號碼資訊而定，請關閉或開啟**含有電話號碼資訊的電子郵件使用者**。 根據預設，這是開啟的。
+
+5. 按一下 **[** 套用]。
 
 ## <a name="using-powershell"></a>使用 PowerShell
 

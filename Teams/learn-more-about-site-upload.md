@@ -22,12 +22,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b245566c0920604dac0e10e6a6cfe49937570bc2
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: bace73e411970ee1b907890b08a5e501daf90e50
+ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137113"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44539640"
 ---
 <a name="add-and-update-reporting-labels"></a>新增和更新報告標籤
 ============================
@@ -38,7 +38,7 @@ ms.locfileid: "43137113"
 
 **若要編輯子網和位置的表格**
 
-1. 在 Microsoft [團隊管理中心] 的左導覽中，按一下 [**位置** > **報告標籤**]。
+1. 在 Microsoft [團隊管理中心] 的左導覽中，按一下 [**位置**  >  **報告標籤**]。
 2. 按一下 [**取代位置資料**]。
 3. 在 [**取代位置資料**] 窗格中，按一下 [**選取**檔案]，然後流覽到並上傳已編輯的 .csv 或 tsv 檔案。
 4. 按一下 **[上傳**]。

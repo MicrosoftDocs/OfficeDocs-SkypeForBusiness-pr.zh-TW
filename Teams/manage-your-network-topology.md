@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何針對 Microsoft 團隊中的雲端語音功能設定網路設定。
-ms.openlocfilehash: 2f615de14cb38c24a1789b968e7c77e38698e26d
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 03eaeac1bce07cffa7dc000f964f080361a37d40
+ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888702"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44539622"
 ---
 # <a name="manage-your-network-topology-for-cloud-voice-features-in-microsoft-teams"></a>在 Microsoft 團隊中管理雲端語音功能的網路拓撲
 
@@ -39,12 +39,12 @@ ms.locfileid: "41888702"
 
 #### <a name="add-and-configure-a-network-site"></a>新增及設定網路網站
 
-1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**位置** > **網路拓撲**]，然後按一下 [**網路網站**] 索引標籤。
+1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**位置**  >  **網路拓撲**]，然後按一下 [**網路網站**] 索引標籤。
 2. 按一下 [**新增**]，然後輸入網站的名稱和描述。
 
     ![[新增網路] 網站頁面的螢幕擷取畫面](media/manage-network-topology-add-site.png)
 
-3. 若要將網站與網路區域建立關聯，請按一下 [**連結網路區域**]，選取現有的區域，或按一下 [**新增**] 以新增區域，然後按一下 [**連結**]。  
+3. 若要將網站與網路區域建立關聯，請按一下 [**新增網路區域**]，選取現有的區域，或按一下 [**新增**] 以新增區域，然後按一下 [**連結**]。  
 4. 若要啟用網站的位置路由，請開啟 [以位置為**基礎的路由**]。
 5. 若要指派緊急服務原則至網站，請執行下列其中一項或兩項操作：
 
@@ -52,11 +52,11 @@ ms.locfileid: "41888702"
     - 如果您的組織已部署 [電話系統直傳送]，請在 [**緊急呼叫路由策略**] 底下，選取您要的原則。
 
 6. 若要將子網與網站建立關聯，請按一下 [**子網**] 底下的 [**新增子網**] 指定 [IP 版本]、[IP 位址]、[網路範圍]、[新增描述]，**然後按一下 [** 套用]。 每個子網都必須與特定網站相關聯。
-7. 按一下 [**儲存**]。
+7. 按一下 [儲存]****。
 
 #### <a name="modify-a-network-site"></a>修改網路網站
 
-1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**位置** > **網路拓撲**]，然後按一下 [**網路網站**] 索引標籤。
+1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**位置**  >  **網路拓撲**]，然後按一下 [**網路網站**] 索引標籤。
 2. 按一下網站名稱左邊的，然後按一下 [**編輯**]，選取網站。
 3. 進行您想要的變更，然後按一下 [**儲存]。**
 
@@ -66,7 +66,7 @@ ms.locfileid: "41888702"
 
 #### <a name="add-a-trusted-ip-address"></a>新增信任的 IP 位址
 
-1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**位置** > **網路拓朴**]，然後按一下 [**信任的 IPs** ] 索引標籤。
+1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**位置**  >  **網路拓朴**]，然後按一下 [**信任的 IPs** ] 索引標籤。
 2. 按一下 [**新增**]。
 3. 在 [**新增信任的 IP 位址**] 窗格中，指定 [ip 版本]、[ip 位址]、[網路範圍]、[新增描述]，**然後按一下 [** 套用]。
 
@@ -74,7 +74,7 @@ ms.locfileid: "41888702"
 
 #### <a name="edit-a-trusted-ip-address"></a>編輯信任的 IP 位址
 
-1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**位置** > **網路拓朴**]，然後按一下 [**信任的 IPs** ] 索引標籤。
+1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**位置**  >  **網路拓朴**]，然後按一下 [**信任的 IPs** ] 索引標籤。
 2. 按一下 IP 位址左邊的，然後按一下 [**編輯**] 來選取它。
 3. 在 [**編輯信任的 IP 位址**] 窗格中，進行您要的變更，然後**按一下 [** 套用]。
 
@@ -84,7 +84,7 @@ ms.locfileid: "41888702"
 
 ### <a name="define-network-regions"></a>定義網路區域
 
- 使用[新的-CsTenantNetworkRegion](https://docs.microsoft.com/powershell/module/skype/New-CsTenantNetworkRegion) Cmdlet 來定義網路區域。 請注意，RegionID 參數是代表區域地理位置的邏輯名稱，沒有相依性或限制，且 CentralSite &lt;site ID&gt;參數是選擇性的。
+ 使用[新的-CsTenantNetworkRegion](https://docs.microsoft.com/powershell/module/skype/New-CsTenantNetworkRegion) Cmdlet 來定義網路區域。 請注意，RegionID 參數是代表區域地理位置的邏輯名稱，沒有相依性或限制，且 CentralSite &lt; SITE ID &gt; 參數是選擇性的。
 
 ```PowerShell
 New-CsTenantNetworkRegion -NetworkRegionID <region ID>  

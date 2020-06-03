@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: 系統管理員可以瞭解如何在 Microsoft 團隊會議中開啟或關閉 [進入] 和 [結束公告]。
-ms.openlocfilehash: b5c9227ad50816fecf64690b4a2de3233e7a669f
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 5b3cdabac41c5c79827df714ccf3192f06b55440
+ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904745"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44539470"
 ---
 # <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings-in-microsoft-teams"></a>開啟或關閉 Microsoft 團隊中的會議進入與結束宣告
 
@@ -41,17 +41,23 @@ ms.locfileid: "43904745"
 
 ![Microsoft Teams 標誌圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
 
-1. 在左側導覽中，前往 [**會議** > **會議橋**]。 
+您必須是系統管理員，才能進行這些變更。
 
-2. 在 [**會議橋接**] 頁面頂端，按一下 [**橋設定**]。 
+1. 登入系統管理中心  <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 。
 
-3. 在 [**橋設定**] 窗格中，啟用或停用**會議進入和結束通知**。 預設會選取此選項。 如果您清除此選項，當有人進入或離開會議時，已加入會議的使用者就不會收到通知。
+2. 在左側導覽中，前往 [**會議**  >  **會議橋**]。 
+
+3. 在 [**會議橋接**] 頁面頂端，按一下 [**橋設定**]。 
+
+4. 在 [**橋設定**] 窗格中，啟用或停用**會議進入和結束通知**。 預設會選取此選項。 如果您清除此選項，當有人進入或離開會議時，已加入會議的使用者就不會收到通知。
     
-4. 在 [**進入/結束宣告類型**] 底下，選取 [**名稱或電話號碼**] 或 [**聲音**]。
+5. 在 [**進入/結束宣告類型**] 底下，選取 [**名稱或電話號碼**] 或 [**聲音**]。
+  > [!NOTE]
+  > 根據預設，外部參與者看不到撥入參與者的電話號碼。 如果您想要維持這些電話號碼的隱私權，請選取 [**輸入/結束宣告類型**的**音調**] （這可防止小組中的號碼）。
     
-5. 如果您選擇 [**名稱] 或 [電話號碼**]，請在加入會議前，啟用或停用**要求呼叫者記下其名稱**。
+6. 如果您選擇 [**名稱] 或 [電話號碼**]，請在加入會議前，啟用或停用**要求呼叫者記下其名稱**。
     
-6. 按一下 [儲存]****。
+7. 按一下 [儲存]****。
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>想要深入瞭解 Windows PowerShell 嗎？
 
