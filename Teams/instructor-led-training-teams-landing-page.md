@@ -2,7 +2,7 @@
 layout: HubPage
 ms.topic: hub-page
 title: 使用者由講師帶領的訓練課程
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 manager: serdars
 description: 了解如何註冊免費、即時且由講師帶領的訓練課程，以全面了解 Microsoft Teams。
 localization_priority: Priority
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_RemoteWorkers
 - remotework
-ms.openlocfilehash: f3c50309e97c38e21e06c1ec133a5261f09ea392
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: 6765b67498cb3e3ade6104ff86fc49d9be3384f1
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43950998"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44523446"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -172,26 +172,6 @@ Microsoft 很高興地舉辦一系列免費的即時線上訓練課程，幫助�
                         <h3>Teams 教育版 - 網路演討會</h3>
                         <p>了解在高等教育中如何使用 Teams。</p>
                         <p><i>對象：職員、學生、學者、研究人員、IT 專業人員</i></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://microsoftteams.eventbuilder.com/FLWValueWebinar"target="_blank">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/clock-teams.svg" alt="Clock symbol" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>使用 Teams 讓您的第一線員工完成更多工作</h3>
-                        <p>了解 Teams 如何帶來數位轉型，讓您所有員工發揮無限潛能。</p>
-                        <p><i>對象：商務決策者、IT 決策者</i></p>
                     </div>
                 </div>
             </div>
