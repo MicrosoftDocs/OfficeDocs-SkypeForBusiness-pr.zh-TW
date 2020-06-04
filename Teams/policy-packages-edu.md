@@ -21,12 +21,12 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Priority
 search.appverid: MET150
 description: 了解教育或教育界設定中的原則，以及如何在 Microsoft Teams 中使用和管理原則套件。
-ms.openlocfilehash: 7aab40ce5cd3e82d884faffea29c0a1f47be6d26
-ms.sourcegitcommit: c3f44fccdbd9178d30b52bb0db6f6d31a6dd174b
+ms.openlocfilehash: c8eed1c27f73d8805924ee30be0041a710bbdb25
+ms.sourcegitcommit: 624bd511b96cf213483d3ea8f27b20a91d955550
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44139226"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44330568"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>適用於教育界的 Teams 原則和原則套件
 
@@ -130,6 +130,8 @@ Microsoft Teams 目前包含下列原則套件：
 |**Education_PrimaryStudent**| 小學熟齡學生  | 您機構內較年輕的小學熟齡學生可能需要更多的 Microsoft Teams 限制。 使用這組原則和原則設定來限制會議建立和管理、交談管理和私人通話等功能。 |
 |**Education_SecondaryStudent**| 中學熟齡學生 | 您機構內的中學熟齡學生可能需要更多的 Microsoft Teams 限制。 使用這組原則和原則設定來限制會議建立和管理、交談管理和私人通話等功能。 |
 |**Education_HigherEducationStudent**| 高等教育學生 | 相較於較年輕的學生，您機構內的高等教育學生需要的限制較少，但建議採取一些限制。 您可使用這組原則和原則設定來提供組織內部交談、通話和會議的權限，但限制學生與外部參與者使用 Microsoft Teams 的方式。 |
+|**Education_PrimaryTeacher_RemoteLearning**| 教職員 | 建立適用於小學教師的一組原則，以便在使用遠端學習時將學生安全性和共同作業最大化。 |
+|**Education_PrimaryStudent_RemoteLearning**| 小學熟齡學生| 建立適用於學生的一組原則，以便在使用遠端學習時將學生安全性和共同作業最大化。
 |||
 
 :::image type="content" source="media/edu-policy-packages-list.png" alt-text="[原則套件] 頁面，其中包含可供選擇的原則套件清單。":::
@@ -269,8 +271,14 @@ Microsoft Teams 目前包含下列原則套件：
 - **讓匿名人員開始會議**：**關閉**
 - **自動准許人員**：**貴組織中的每個人**
 - **允許撥入使用者無需先在大廳等候**：**關閉**
+- <sup>1</sup>**DesignatedPresenterRoleMode**: **OrganizerOnlyUserOverride**
 
-### <a name="message-policies"></a>訊息原則
+<sup>1</sup> 此設定不在 Microsoft Teams 系統管理中心中，因此需要透過 PowerShell 使用 [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) 或 [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet 設定 **DesignatedPresenterRoleMode** 參數。 這將 Teams **會議選項** 中 **誰可以進行簡報？** 的預設值設定為 **只有我**。 使用此設定時，只有會議召集人可以擔任簡報者，而其他所有會議參與者都會被指定為出席者。 若要深入了解，請參閱[會議原則設定 - 指定簡報者角色模式](meeting-policies-in-teams.md#meeting-policy-settings---designated-presenter-role-mode)。
+
+> [!NOTE]
+> 對於非授課者的人員，建議您將參數設定為 **EveryoneUserOverride** (對應 Teams 中的 **每個人** 設定) 或 **EveryoneInCompanyUserOverride** (相當於 Teams 中的 **組織中的人員** 設定)。
+
+### <a name="messaging-policies"></a>訊息原則
 
 將 **[擁有者可刪除已傳送的訊息]** 設為 **[開啟]**，可讓教師監視交談工作階段並移除頻道會議中不當的訊息。
 

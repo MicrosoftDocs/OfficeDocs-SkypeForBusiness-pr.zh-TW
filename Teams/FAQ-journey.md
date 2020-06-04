@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 description: 從商務用 Skype 升級至 Microsoft Teams 的常見問題。
 localization_priority: Priority
 search.appverid: MET150
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 595d8104e465217533a8e751eae69156cb548921
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 96354e7b1a8283ebf66648c1bb2987119fe5bdc0
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902948"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44522666"
 ---
 # <a name="faq--upgrading-from-skype-for-business-to-microsoft-teams"></a>常見問題 - 從商務用 Skype 升級至 Microsoft Teams
 
@@ -118,7 +118,9 @@ Microsoft 也提供即時互動的研討會，分享專為開始升級規劃和�
 
 ### <a name="who-can-i-contact-if-i-have-questions-about-the-upgrade-process"></a>如果我有關於升級程序的問題，我要與誰聯繫？
 
-如果有升級的相關問題，請與您目前的連絡人聯繫，包括指派給您的 Microsoft 帳戶小組、合作夥伴或 [FastTrack](https://www.microsoft.com/fasttrack)。 或者，您可以從 [Microsoft Teams 系統管理中心](https://admin.teams.microsoft.com/)開啟說明票證。
+如果有升級的相關問題，請與您目前的連絡人聯繫，包括指派給您的 Microsoft 帳戶小組、合作夥伴或 [FastTrack](https://www.microsoft.com/fasttrack)。 或者，您可以從 [Microsoft Teams 系統管理中心](https://admin.teams.microsoft.com/)按一下 [需要協助]**** 按鈕來開啟協助票證。
+
+![Teams 需要協助按鈕的螢幕擷取畫面](media/helpDesk.png "Microsoft Teams 系統管理中心的 Teams 需要協助按鈕的螢幕擷取畫面")     
 
 ### <a name="do-i-upgrade-all-users-on-my-tenant-together-or-can-i-opt-to-upgrade-select-users-at-a-time"></a>我要一起升級我租用戶上的所有使用者，還是我可以選擇一次升級選取的使用者？
 

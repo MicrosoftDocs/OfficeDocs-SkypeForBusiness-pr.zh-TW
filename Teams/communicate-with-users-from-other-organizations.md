@@ -17,12 +17,12 @@ description: 了解如何使用外部存取 (同盟)和來賓存取在 Microsoft
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: fb22aeaef31d04a9d359bc43742c85b72bf12c97
-ms.sourcegitcommit: 6fbaab29076e16fe18f8faeb7e012a0815c2369d
+ms.openlocfilehash: 4c9b77d01469cb5893a826ae85a1744408623361
+ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43785926"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44539440"
 ---
 <a name="communicate-with-users-from-other-organizations-in-microsoft-teams"></a>在 Microsoft Teams 中與其他組織的使用者通訊
 ======================================================
@@ -73,7 +73,7 @@ ms.locfileid: "43785926"
 | 可以封鎖個別使用者 | 否 | 是 |
 | 支援以 @ 提及 | 是<sup>4</sup> | 是 |
 | 可進行私人通話 | 是 | 是 |
-| 查看撥入會議參與者的電話號碼 | 否 | 是 |
+| 查看撥入會議參與者的電話號碼 | 否<sup>5</sup> | 是 |
 | 允許 IP 視訊 | 是 | 是 |
 | 螢幕畫面分享模式 | 是<sup>4</sup> | 是 |
 | 允許立即開會 | 否 | 是 |
@@ -88,6 +88,8 @@ ms.locfileid: "43785926"
 <sup>2</sup>僅透過電子郵件或工作階段初始通訊協定 (SIP) 位址。<br>
 <sup>3</sup>外部 (同盟) 聊天僅限一對一聊天。<br>
 <sup>4</sup>針對來自兩個不同組織的僅限 Teams 對僅限 Teams 使用者，支援一對一聊天。 
+<sup>5</sup> 依預設，外部參與者無法查看撥入的參與者電話號碼。 如果您想要維護這些電話號碼的隱私權，請對 [進入/退出宣告類型]**** 選取 [色調]**** (這可避免將數字由 Teams 讀出)。如果您不想將外部 PSTN 電話號碼透露給外部使用者，當您開啟 [進入/結束宣告]**** 時，對宣告類型選取 [色調]****。 若要深入了解，請參閱[開啟或關閉 Microsoft Teams 中會議的進入和退出宣告](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)。
+
 
 ## <a name="related-topics"></a>相關主題
 
