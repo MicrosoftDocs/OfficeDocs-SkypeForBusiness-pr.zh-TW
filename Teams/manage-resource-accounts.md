@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: 在本文中，您將瞭解如何在 Microsoft 團隊中建立、編輯和管理資源帳戶。
-ms.openlocfilehash: 1ea9d4ebd6cbbb93646555787a04ab5b5516be03
-ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
+ms.openlocfilehash: 2bf333eef72de4744f13cfe25a4457facaf4b3e6
+ms.sourcegitcommit: f9db7effbb1e56484686afe4724cc3b73380166d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44512885"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "44565900"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>在 Microsoft Teams 中管理資源帳戶
 
@@ -52,7 +52,7 @@ ms.locfileid: "44512885"
 
 <!-- Auto attendants created after November 1st, 2019 also create a new resource account that is associated with the auto attendant. If a phone number is applied to the auto attendant's resource account,  a Phone System - Virtual user license is applied to the resource account if one is available. -->
 
-如果自動語音應答或呼叫佇列是嵌套在頂層自動語音應答底下，只要您想要將多個進入點輸入到自動語音應答及呼叫佇列的結構中，相關聯的資源帳戶就只需要電話號碼。
+如果自動語音應答或呼叫佇列嵌套在頂層自動語音應答底下，且您想要將多個進入點輸入到自動語音應答及呼叫佇列的結構中，相關聯的資源帳戶只需要電話號碼。
 
 若要將來電重新導向至組織中的目前線上人員，他們必須具備**電話系統**授權，且可供企業語音使用或擁有 Office 365 通話方案。 請參閱[指派 Microsoft 團隊附加元件授權](teams-add-on-licensing/assign-teams-add-on-licenses.md)。 若要啟用企業語音，您可以使用 Windows PowerShell。 例如，執行：`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
@@ -98,9 +98,11 @@ ms.locfileid: "44512885"
 嵌套的自動語音應答或呼叫佇列將需要資源帳戶，但在許多情況下，對應的資源帳戶不需要電話號碼和支援電話號碼所需的授權。 若要建立不需要電話號碼的資源帳戶，必須以下列循序執行下列工作：
 
 1. 建立新的資源帳戶。 請參閱[在 Microsoft 團隊系統管理中心建立資源帳戶](#create-a-resource-account-in-the-microsoft-teams-admin-center)或[在 Powershell 中建立資源帳戶](#create-a-resource-account-in-powershell)。
+
 2. 設定下列其中一項：
    - [雲端自動語音應答](create-a-phone-system-auto-attendant.md)
    - [雲端通話佇列](create-a-phone-system-call-queue.md)
+   
 3. 將資源帳戶指派給通話佇列或自動語音應答。 請參閱[指派/取消指派電話號碼和服務](#assignunassign-phone-numbers-and-services)。
 
 
@@ -115,16 +117,6 @@ ms.locfileid: "44512885"
 若要建立新的資源帳戶，**請按一下 [新增]**。 在 [**新增資源帳戶**] 窗格**中，填寫 [** **顯示名稱**]、[使用者名稱] （功能變數名稱必須自動填入），以及資源帳戶的**資源帳戶類型**。 資源帳戶類型可以是 [**自動**應答] 或 [**呼叫佇列**]，視您想要與資源帳戶建立關聯的 app 而定。 當您準備好時，請按一下 [**儲存**]。
 
 ![[新增資源帳戶] 選項的螢幕擷取畫面](media/res-acct.png)
-
-<a name="enablesignin"> </a>
-
-當您建立資源帳戶時，系統會封鎖帳戶的登入。 您會在窗格頂端看到橫幅，指出無法載入資源帳戶。 您必須解除封鎖 Microsoft 365 系統管理中心中資源帳戶的 [登入]，才能讓資源帳戶登入。 若要這樣做，請在 Microsoft 365 系統管理中心，移至 [**使用者**]、[搜尋]，然後選取資源帳戶。 在窗格頂端的 [顯示名稱] 底下，按一下 [**解除封鎖此使用者？**]，清除 [**封鎖此使用者登入**] 核取方塊，然後按一下 [**儲存變更**]。
-
-![[解除封鎖此使用者] 選項的螢幕擷取畫面](media/res-acct-unblock.png)
-
-這麼做之後，您會在顯示名稱底下看到「登入允許」。 
-
-![[允許登入] 訊息的螢幕擷取畫面](media/res-acct-sign-in-allowed.png)
 
 接著，將授權套用至 Microsoft 365 系統管理中心的資源帳戶，如[將授權指派給使用者](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide)中所述。
 
@@ -238,7 +230,9 @@ Set-CsOnlineApplicationInstance -Identity  <Resource Account oid> -OnpremPhoneNu
 
 ## <a name="troubleshooting"></a>疑難排解
 
-如果您在 [團隊系統管理中心] 中沒有看到指派給資源帳戶的電話號碼，而且您無法指派該號碼，請檢查下列專案：
+### <a name="you-dont-see-the-phone-number-assigned-to-the-resource-account-in-the-microsoft-teams-admin-center"></a>在 Microsoft 團隊系統管理中心中，您沒有看到指派給資源帳戶的電話號碼
+
+如果您在 Microsoft 團隊系統管理中心中沒有看到指派給資源帳戶的電話號碼，而且您無法指派該號碼，請檢查下列專案：
 
 ``` Powershell
 Get-MsolUser -UserPrincipalName "username@contoso.com"| fl objectID,department
@@ -252,6 +246,25 @@ Set-MsolUser -ObjectId -Department "Microsoft Communication Application Instance
 
 > [!NOTE]
 > 在執行 cmldet 之後重新整理團隊管理中心網頁，您應該能夠正確指派號碼。
+
+### <a name="you-get-a-we-cant-use-this-resource-account-for-services-error-message"></a>您會收到「我們無法使用此資源帳戶來服務」。 錯誤訊息
+
+<a name="blocksignin"> </a>
+
+當您嘗試使用資源帳戶時，會收到下列錯誤訊息：
+
+「我們無法將此資源帳戶用於服務。 您必須停用並封鎖資源帳戶登入。 您必須在 Microsoft 365 系統管理中心的 [使用者] 頁面上封鎖此資源帳戶的登入。
+
+當您建立資源帳戶時，預設會停用該帳戶，且系統會封鎖帳戶的登入。 不應變更這些設定。 若要解決此錯誤訊息，請封鎖資源帳戶登入。 若要執行此動作：
+
+1. 在 Microsoft 365 系統管理中心中，移至 [**使用者**]、[搜尋]，然後選取資源帳戶。
+2. 在窗格頂端的 [顯示名稱] 底下，按一下 [**封鎖此使用者？**]，選取 [**封鎖此使用者登入**] 核取方塊，然後選取 [**儲存變更**]。
+
+   ![[封鎖此使用者] 選項的螢幕擷取畫面](media/res-acct-block.png)
+
+    執行此動作之後，您會在顯示名稱底下看到 [登入封鎖]。
+
+      ![登入封鎖郵件的螢幕擷取畫面](media/res-acct-sign-in-blocked.png)
 
 ## <a name="related-information"></a>相關資訊
 

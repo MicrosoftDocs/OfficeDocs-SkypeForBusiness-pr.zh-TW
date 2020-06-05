@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: '請參閱 Microsoft 團隊步驟，將電話撥入式會議授權及會議 ID 指派給使用者和許多其他電話撥入式會議設定。 '
-ms.openlocfilehash: f887e6567052f80d6353202906f77a51e6403372
-ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
+ms.openlocfilehash: eecf5e015c1be21870221ba3b41a43640a6c0869
+ms.sourcegitcommit: 2c23a8c5afc4a6b74c2c6d7487975a94fe99dc07
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44539450"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "44562058"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>在 Microsoft 團隊中管理貴組織的音訊會議設定
 
@@ -145,6 +145,8 @@ ms.locfileid: "44539450"
 4. 在 [**進入/結束宣告類型**] 底下，選擇 [**聲調**] 或 [姓名]**或 [電話號碼**]。 
 
     如果您選擇 [**名稱] 或 [電話號碼**]，您也可以在加入會議前，選擇要啟用或停用**要求呼叫者記錄其名稱**。 
+    > [!NOTE]
+> 根據預設，外部參與者看不到撥入參與者的電話號碼。 如果您想要維持這些電話號碼的隱私權，請選取 [**輸入/結束宣告類型**的**音調**] （這可防止小組中的號碼）。
 
     > [!NOTE]
     > 根據預設，外部參與者看不到撥入參與者的電話號碼。 如果您想要維持這些電話號碼的隱私權，請選取 [**輸入/結束宣告類型**的**音調**] （這可防止小組中的號碼）。

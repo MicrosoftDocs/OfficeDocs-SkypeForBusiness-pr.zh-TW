@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何在 Microsoft 團隊中定義及使用敏感度標籤。
-ms.openlocfilehash: 5fb470262d0d359af87f751ece5f686210286c91
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 7f8eb7e0fa0d34ae21829a12011f094d8e9c9126
+ms.sourcegitcommit: 2c23a8c5afc4a6b74c2c6d7487975a94fe99dc07
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779760"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "44562068"
 ---
 # <a name="sensitivity-labels-for-microsoft-teams"></a>Microsoft 團隊的敏感度標籤
 
@@ -109,6 +109,10 @@ $setting["EnableMIPLabels"] = "False"
 **支援小組圖形 Api、Powershell Cmdlet 及範本中的敏感度標籤**
 
 目前，使用者將無法在直接透過圖形 Api、Powershell Cmdlet 及範本建立的小組上套用敏感度標籤。
+
+**在團隊 EDU Sku 中支援敏感度標籤**
+
+目前不支援使用團隊教育版 Sku 的客戶使用敏感度標籤。
 
 **在私人頻道的 SharePoint 網站集合上直接編輯敏感度標籤**
 
