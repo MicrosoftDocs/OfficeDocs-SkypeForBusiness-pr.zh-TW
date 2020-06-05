@@ -215,7 +215,6 @@
 ## 即時活動
 ### [什麼是 Teams 即時活動？](teams-live-events/what-are-teams-live-events.md)
 ### [Teams 即時活動的方案](teams-live-events/plan-for-teams-live-events.md)
-### [即時活動中的簡報者和參與者功能](roles-in-live-events.md)
 ### [設定 Teams 即時活動](teams-live-events/set-up-for-teams-live-events.md)
 ### [使用 PowerShell 設定 Teams 即時活動原則](teams-live-events/set-teams-live-events-policies-using-powershell.md)
 ### [設定 Teams 即時活動設定](teams-live-events/configure-teams-live-events.md)
