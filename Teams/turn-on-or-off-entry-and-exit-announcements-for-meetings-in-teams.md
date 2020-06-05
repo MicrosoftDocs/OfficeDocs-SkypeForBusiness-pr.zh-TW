@@ -21,54 +21,55 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: 系統管理員可以瞭解如何在 Microsoft 團隊會議中開啟或關閉 [進入] 和 [結束公告]。
-ms.openlocfilehash: 5b3cdabac41c5c79827df714ccf3192f06b55440
-ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
+ms.openlocfilehash: 4e263328e0f38e1c058fd9036e22eefbfa50f6fd
+ms.sourcegitcommit: 2c23a8c5afc4a6b74c2c6d7487975a94fe99dc07
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44539470"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "44562048"
 ---
-# <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings-in-microsoft-teams"></a><span data-ttu-id="f0418-103">開啟或關閉 Microsoft 團隊中的會議進入與結束宣告</span><span class="sxs-lookup"><span data-stu-id="f0418-103">Turn on or off entry and exit announcements for meetings in Microsoft Teams</span></span>
+# <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings-in-microsoft-teams"></a><span data-ttu-id="46c76-103">開啟或關閉 Microsoft 團隊中的會議進入與結束宣告</span><span class="sxs-lookup"><span data-stu-id="46c76-103">Turn on or off entry and exit announcements for meetings in Microsoft Teams</span></span>
 
-<span data-ttu-id="f0418-104">當您在 Office 365 中設定音訊會議時，您會收到音訊會議橋。</span><span class="sxs-lookup"><span data-stu-id="f0418-104">When you are setting up Audio Conferencing in Office 365, you will get an audio conferencing bridge.</span></span> <span data-ttu-id="f0418-105">[會議橋] 可以包含一或多個電話號碼，供人們撥打 Microsoft 團隊會議時使用。</span><span class="sxs-lookup"><span data-stu-id="f0418-105">A conferencing bridge can contain one or more phone numbers that people will use to call in to a Microsoft Teams meeting.</span></span> 
+<span data-ttu-id="46c76-104">當您在 Office 365 中設定音訊會議時，您會收到音訊會議橋。</span><span class="sxs-lookup"><span data-stu-id="46c76-104">When you are setting up Audio Conferencing in Office 365, you will get an audio conferencing bridge.</span></span> <span data-ttu-id="46c76-105">[會議橋] 可以包含一或多個電話號碼，供人們撥打 Microsoft 團隊會議時使用。</span><span class="sxs-lookup"><span data-stu-id="46c76-105">A conferencing bridge can contain one or more phone numbers that people will use to call in to a Microsoft Teams meeting.</span></span> 
   
-<span data-ttu-id="f0418-106">[會議橋接] 會使用電話撥入會議的使用者，接聽來電。</span><span class="sxs-lookup"><span data-stu-id="f0418-106">The conferencing bridge answers a call for a user who is dialing in to a meeting using a phone.</span></span> <span data-ttu-id="f0418-107">「會議橋接」會使用會議自動語音應答中的語音提示來應答來電者，然後根據您的設定，可以播放通知、要求呼叫者記錄其名稱，以及設定 PIN 安全性。</span><span class="sxs-lookup"><span data-stu-id="f0418-107">The conferencing bridge answers the caller with voice prompts from a conferencing auto attendant, and then, depending on your settings, can play notifications, ask callers to record their name, and set up the PIN security.</span></span> <span data-ttu-id="f0418-108">您可以將 PIN 提供給 Microsoft 團隊會議召集人，如果他們無法使用 Microsoft 團隊 app 來啟動會議，就能讓他們開始會議。</span><span class="sxs-lookup"><span data-stu-id="f0418-108">A PIN is given to a Microsoft Teams meeting organizer, and it allows them to start a meeting if they can't start the meeting using the Microsoft Teams app.</span></span> <span data-ttu-id="f0418-109">不過，您可以將它設定為不需要 PIN 就能開始會議。</span><span class="sxs-lookup"><span data-stu-id="f0418-109">You can, however, set it so that a PIN isn't required to start a meeting.</span></span>
+<span data-ttu-id="46c76-106">[會議橋接] 會使用電話撥入會議的使用者，接聽來電。</span><span class="sxs-lookup"><span data-stu-id="46c76-106">The conferencing bridge answers a call for a user who is dialing in to a meeting using a phone.</span></span> <span data-ttu-id="46c76-107">「會議橋接」會使用會議自動語音應答中的語音提示來應答來電者，然後根據您的設定，可以播放通知、要求呼叫者記錄其名稱，以及設定 PIN 安全性。</span><span class="sxs-lookup"><span data-stu-id="46c76-107">The conferencing bridge answers the caller with voice prompts from a conferencing auto attendant, and then, depending on your settings, can play notifications, ask callers to record their name, and set up the PIN security.</span></span> <span data-ttu-id="46c76-108">您可以將 PIN 提供給 Microsoft 團隊會議召集人，如果他們無法使用 Microsoft 團隊 app 來啟動會議，就能讓他們開始會議。</span><span class="sxs-lookup"><span data-stu-id="46c76-108">A PIN is given to a Microsoft Teams meeting organizer, and it allows them to start a meeting if they can't start the meeting using the Microsoft Teams app.</span></span> <span data-ttu-id="46c76-109">不過，您可以將它設定為不需要 PIN 就能開始會議。</span><span class="sxs-lookup"><span data-stu-id="46c76-109">You can, however, set it so that a PIN isn't required to start a meeting.</span></span>
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
-## <a name="setting-meeting-join-options"></a><span data-ttu-id="f0418-110">設定會議加入選項</span><span class="sxs-lookup"><span data-stu-id="f0418-110">Setting meeting join options</span></span>
+## <a name="setting-meeting-join-options"></a><span data-ttu-id="46c76-110">設定會議加入選項</span><span class="sxs-lookup"><span data-stu-id="46c76-110">Setting meeting join options</span></span>
 
-<span data-ttu-id="f0418-111">![Microsoft Teams 標誌圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**</span><span class="sxs-lookup"><span data-stu-id="f0418-111">![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**</span></span>
+<span data-ttu-id="46c76-111">![Microsoft Teams 標誌圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**</span><span class="sxs-lookup"><span data-stu-id="46c76-111">![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**</span></span>
 
-<span data-ttu-id="f0418-112">您必須是系統管理員，才能進行這些變更。</span><span class="sxs-lookup"><span data-stu-id="f0418-112">You must be an admin to make these changes.</span></span>
+<span data-ttu-id="46c76-112">您必須是系統管理員，才能進行這些變更。</span><span class="sxs-lookup"><span data-stu-id="46c76-112">You must be an admin to make these changes.</span></span>
 
-1. <span data-ttu-id="f0418-113">登入系統管理中心  <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 。</span><span class="sxs-lookup"><span data-stu-id="f0418-113">Log in to the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>.</span></span>
+1. <span data-ttu-id="46c76-113">登入系統管理中心  <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 。</span><span class="sxs-lookup"><span data-stu-id="46c76-113">Log in to the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>.</span></span>
 
-2. <span data-ttu-id="f0418-114">在左側導覽中，前往 [**會議**  >  **會議橋**]。</span><span class="sxs-lookup"><span data-stu-id="f0418-114">In the left navigation, go to **Meetings** > **Conference Bridges**.</span></span> 
+2. <span data-ttu-id="46c76-114">在左側導覽中，前往 [**會議**  >  **會議橋**]。</span><span class="sxs-lookup"><span data-stu-id="46c76-114">In the left navigation, go to **Meetings** > **Conference Bridges**.</span></span> 
 
-3. <span data-ttu-id="f0418-115">在 [**會議橋接**] 頁面頂端，按一下 [**橋設定**]。</span><span class="sxs-lookup"><span data-stu-id="f0418-115">At the top of the **Conference Bridges** page, click **Bridge Settings**.</span></span> 
+3. <span data-ttu-id="46c76-115">在 [**會議橋接**] 頁面頂端，按一下 [**橋設定**]。</span><span class="sxs-lookup"><span data-stu-id="46c76-115">At the top of the **Conference Bridges** page, click **Bridge Settings**.</span></span> 
 
-4. <span data-ttu-id="f0418-116">在 [**橋設定**] 窗格中，啟用或停用**會議進入和結束通知**。</span><span class="sxs-lookup"><span data-stu-id="f0418-116">In the **Bridge settings** pane, enable or disable **Meeting entry and exit notifications**.</span></span> <span data-ttu-id="f0418-117">預設會選取此選項。</span><span class="sxs-lookup"><span data-stu-id="f0418-117">This is selected by default.</span></span> <span data-ttu-id="f0418-118">如果您清除此選項，當有人進入或離開會議時，已加入會議的使用者就不會收到通知。</span><span class="sxs-lookup"><span data-stu-id="f0418-118">If you clear it, users who have already joined the meeting won't be notified when someone enters or leaves the meeting.</span></span>
+4. <span data-ttu-id="46c76-116">在 [**橋設定**] 窗格中，啟用或停用**會議進入和結束通知**。</span><span class="sxs-lookup"><span data-stu-id="46c76-116">In the **Bridge settings** pane, enable or disable **Meeting entry and exit notifications**.</span></span> <span data-ttu-id="46c76-117">預設會選取此選項。</span><span class="sxs-lookup"><span data-stu-id="46c76-117">This is selected by default.</span></span> <span data-ttu-id="46c76-118">如果您清除此選項，當有人進入或離開會議時，已加入會議的使用者就不會收到通知。</span><span class="sxs-lookup"><span data-stu-id="46c76-118">If you clear it, users who have already joined the meeting won't be notified when someone enters or leaves the meeting.</span></span>
     
-5. <span data-ttu-id="f0418-119">在 [**進入/結束宣告類型**] 底下，選取 [**名稱或電話號碼**] 或 [**聲音**]。</span><span class="sxs-lookup"><span data-stu-id="f0418-119">Under **Entry/exit announcement type**, select **Names or phone numbers** or **Tones**.</span></span>
-  > [!NOTE]
-  > <span data-ttu-id="f0418-120">根據預設，外部參與者看不到撥入參與者的電話號碼。</span><span class="sxs-lookup"><span data-stu-id="f0418-120">By default, external participants can't see the phone numbers of dialed-in participants.</span></span> <span data-ttu-id="f0418-121">如果您想要維持這些電話號碼的隱私權，請選取 [**輸入/結束宣告類型**的**音調**] （這可防止小組中的號碼）。</span><span class="sxs-lookup"><span data-stu-id="f0418-121">If you want to maintain the privacy of these phone numbers, select **Tones** for **Entry/exit announcement type** (this prevents the numbers from being read out by Teams).</span></span>
-    
-6. <span data-ttu-id="f0418-122">如果您選擇 [**名稱] 或 [電話號碼**]，請在加入會議前，啟用或停用**要求呼叫者記下其名稱**。</span><span class="sxs-lookup"><span data-stu-id="f0418-122">If you chose **Names or phone numbers**, enable or disable **Ask callers to record their name before joining the meeting**.</span></span>
-    
-7. <span data-ttu-id="f0418-123">按一下 [儲存]\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="f0418-123">Click **Save**.</span></span>
+5. <span data-ttu-id="46c76-119">在 [**進入/結束宣告類型**] 底下，選取 [**名稱或電話號碼**] 或 [**聲音**]。</span><span class="sxs-lookup"><span data-stu-id="46c76-119">Under **Entry/exit announcement type**, select **Names or phone numbers** or **Tones**.</span></span>
 
-## <a name="want-to-know-more-about-windows-powershell"></a><span data-ttu-id="f0418-124">想要深入瞭解 Windows PowerShell 嗎？</span><span class="sxs-lookup"><span data-stu-id="f0418-124">Want to know more about Windows PowerShell?</span></span>
+   > [!NOTE]
+   > <span data-ttu-id="46c76-120">根據預設，外部參與者看不到撥入參與者的電話號碼。</span><span class="sxs-lookup"><span data-stu-id="46c76-120">By default, external participants can't see the phone numbers of dialed-in participants.</span></span> <span data-ttu-id="46c76-121">如果您想要維持這些電話號碼的隱私權，請選取 [**輸入/結束宣告類型**的**音調**] （這可防止小組中的號碼）。</span><span class="sxs-lookup"><span data-stu-id="46c76-121">If you want to maintain the privacy of these phone numbers, select **Tones** for **Entry/exit announcement type** (this prevents the numbers from being read out by Teams).</span></span>
+    
+6. <span data-ttu-id="46c76-122">如果您選擇 [**名稱] 或 [電話號碼**]，請在加入會議前，啟用或停用**要求呼叫者記下其名稱**。</span><span class="sxs-lookup"><span data-stu-id="46c76-122">If you chose **Names or phone numbers**, enable or disable **Ask callers to record their name before joining the meeting**.</span></span>
+    
+7. <span data-ttu-id="46c76-123">按一下 [儲存]\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="46c76-123">Click **Save**.</span></span>
 
-<span data-ttu-id="f0418-125">Windows PowerShell 全部說明如何管理使用者，以及允許或不允許的使用者執行。</span><span class="sxs-lookup"><span data-stu-id="f0418-125">Windows PowerShell is all about managing users and what users are allowed or not allowed to do.</span></span> <span data-ttu-id="f0418-126">在 Windows PowerShell 中，您可以使用單一管理點來管理 Office 365，以便在有多項工作需要執行時簡化日常作業。</span><span class="sxs-lookup"><span data-stu-id="f0418-126">With Windows PowerShell, you can manage Office 365 using a single point of administration that can simplify your daily work when you have multiple tasks to do.</span></span> <span data-ttu-id="f0418-127">若要開始使用 Windows PowerShell，請參閱以下主題：</span><span class="sxs-lookup"><span data-stu-id="f0418-127">To get started with Windows PowerShell, see these topics:</span></span>
+## <a name="want-to-know-more-about-windows-powershell"></a><span data-ttu-id="46c76-124">想要深入瞭解 Windows PowerShell 嗎？</span><span class="sxs-lookup"><span data-stu-id="46c76-124">Want to know more about Windows PowerShell?</span></span>
+
+<span data-ttu-id="46c76-125">Windows PowerShell 全部說明如何管理使用者，以及允許或不允許的使用者執行。</span><span class="sxs-lookup"><span data-stu-id="46c76-125">Windows PowerShell is all about managing users and what users are allowed or not allowed to do.</span></span> <span data-ttu-id="46c76-126">在 Windows PowerShell 中，您可以使用單一管理點來管理 Office 365，以便在有多項工作需要執行時簡化日常作業。</span><span class="sxs-lookup"><span data-stu-id="46c76-126">With Windows PowerShell, you can manage Office 365 using a single point of administration that can simplify your daily work when you have multiple tasks to do.</span></span> <span data-ttu-id="46c76-127">若要開始使用 Windows PowerShell，請參閱以下主題：</span><span class="sxs-lookup"><span data-stu-id="46c76-127">To get started with Windows PowerShell, see these topics:</span></span>
     
-  - [<span data-ttu-id="f0418-128">為什麼需要使用 Office 365 PowerShell</span><span class="sxs-lookup"><span data-stu-id="f0418-128">Why you need to use Office 365 PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [<span data-ttu-id="46c76-128">為什麼需要使用 Office 365 PowerShell</span><span class="sxs-lookup"><span data-stu-id="46c76-128">Why you need to use Office 365 PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [<span data-ttu-id="f0418-129">使用 Windows PowerShell 管理 Office 365 的最佳方式</span><span class="sxs-lookup"><span data-stu-id="f0418-129">Best ways to manage Office 365 with Windows PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [<span data-ttu-id="46c76-129">使用 Windows PowerShell 管理 Office 365 的最佳方式</span><span class="sxs-lookup"><span data-stu-id="46c76-129">Best ways to manage Office 365 with Windows PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-<span data-ttu-id="f0418-130">如需有關 Windows PowerShell 的詳細資訊，請參閱[Microsoft 團隊 PowerShell 參考](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)，以取得詳細資訊。</span><span class="sxs-lookup"><span data-stu-id="f0418-130">For more information about Windows PowerShell, see the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) for more information.</span></span>
+<span data-ttu-id="46c76-130">如需有關 Windows PowerShell 的詳細資訊，請參閱[Microsoft 團隊 PowerShell 參考](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)，以取得詳細資訊。</span><span class="sxs-lookup"><span data-stu-id="46c76-130">For more information about Windows PowerShell, see the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) for more information.</span></span>
   
-## <a name="related-topics"></a><span data-ttu-id="f0418-131">相關主題</span><span class="sxs-lookup"><span data-stu-id="f0418-131">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="46c76-131">相關主題</span><span class="sxs-lookup"><span data-stu-id="46c76-131">Related topics</span></span>
 
-[<span data-ttu-id="f0418-132">音訊會議的常見問題</span><span class="sxs-lookup"><span data-stu-id="f0418-132">Audio Conferencing common questions</span></span>](audio-conferencing-common-questions.md)
+[<span data-ttu-id="46c76-132">音訊會議的常見問題</span><span class="sxs-lookup"><span data-stu-id="46c76-132">Audio Conferencing common questions</span></span>](audio-conferencing-common-questions.md)
