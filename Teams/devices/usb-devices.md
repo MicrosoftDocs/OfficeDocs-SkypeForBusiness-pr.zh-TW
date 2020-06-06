@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: 查看哪些 USB 週邊設備與裝置，例如耳機、免持聽筒、網路攝影機和監視器，且已獲認證供 Microsoft 團隊參考。
-ms.openlocfilehash: 25099435d4a62d404571c87a42b29698a64b75f8
-ms.sourcegitcommit: 26a6802fb7bfc865771fc476916957524c280d83
+ms.openlocfilehash: 9ad1e4f564306872588dda2ce82ca1c1504db95d
+ms.sourcegitcommit: 184f4f61a3e739a1cfa533c6d95d405d887ea25d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "44407405"
+ms.lasthandoff: 06/06/2020
+ms.locfileid: "44591293"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>針對 Microsoft 團隊認證的 USB 音訊與視頻裝置
 
@@ -76,59 +76,62 @@ ms.locfileid: "44407405"
 
 *已更新的資料表可能是2020*
 
-| 製造商    | 模型                   | 具  | 認證計畫                                  |
-|:----------------|:------------------------|:-----------|:---------------------------------------------------|
-|Jabra             |使用 Jabra 連結 370 USB 轉換器來朗讀750話筒|5/21/2020 | 針對 Microsoft 團隊認證  | 
-|EPOS              | Sennheiser 改編660耳機 |5/15/2020 |針對 Microsoft 團隊認證  | 
-|EPOS              | Sennheiser 改編560耳機|5/15/2020 |針對 Microsoft 團隊認證  | 
-|EPOS              | Sennheiser 改編460T 耳機 |5/15/2020 |針對 Microsoft 團隊認證  | 
-|EPOS              | Sennheiser 改編360耳機| 5/15/2020 |針對 Microsoft 團隊認證  | 
-|Yealink           |UH36 耳機 | 5/13/2020 |針對 Microsoft 團隊認證  | 
-| Poly            | Savi 8210 Office        | 4/20/2020  | 商務用 Skype （含升級至 Microsoft 團隊） |
-| Poly            | Savi 8210 UC            | 4/20/2020  | 商務用 Skype （含升級至 Microsoft 團隊） |
-| Poly            | Savi 8220 Office        | 4/20/2020  | 商務用 Skype （含升級至 Microsoft 團隊） |
-| Poly            | Savi 8220 UC            | 4/20/2020  | 商務用 Skype （含升級至 Microsoft 團隊） |
-| Poly            | Savi 8240 Office        | 4/20/2020  | 商務用 Skype （含升級至 Microsoft 團隊） |
-| Poly            | Savi 8240 UC            | 4/20/2020  | 商務用 Skype （含升級至 Microsoft 團隊） |
-| Poly            | Blackwire 5210 耳機  | 4/20/2020  | 商務用 Skype （含升級至 Microsoft 團隊） |
-| Poly            | Blackwire 5220 耳機  | 4/20/2020  | 商務用 Skype （含升級至 Microsoft 團隊） |
-| Poly            | Blackwire 7225 耳機  | 4/20/2020  | 商務用 Skype （含升級至 Microsoft 團隊） |
-| Poly            | Voyager 焦點 UC        | 4/20/2020  | 商務用 Skype （含升級至 Microsoft 團隊） |
-| Yealink         | CP700                   | 4/13/2020  | 針對 Microsoft 團隊認證                      |
-| Jabra           | Evolve2 65 耳機      | 4/13/2020  | 針對 Microsoft 團隊認證                      |
-| EPOS/Sennheiser | SC 30 的影響            | 4/9/2020   | 商務用 Skype （含升級至 Microsoft 團隊） |
-| EPOS/Sennheiser | SC 45 的影響            | 4/9/2020   | 商務用 Skype （含升級至 Microsoft 團隊） |
-| EPOS/Sennheiser | SC 60 的影響            | 4/9/2020   | 商務用 Skype （含升級至 Microsoft 團隊） |
-| EPOS/Sennheiser | 影響 SC 75 MS         | 4/9/2020   | 商務用 Skype （含升級至 Microsoft 團隊） |
-| EPOS/Sennheiser | 影響 SC 75 MS EUL     | 4/9/2020   | 商務用 Skype （含升級至 Microsoft 團隊） |
-| EPOS/Sennheiser | 影響 SC 230 USB MS II | 4/9/2020   | 商務用 Skype （含升級至 Microsoft 團隊） |
-| EPOS/Sennheiser | 影響 SC 260 USB MS II | 4/9/2020   | 商務用 Skype （含升級至 Microsoft 團隊） |
-| EPOS/Sennheiser | SC 630 USB MS 效應    | 4/9/2020   | 商務用 Skype （含升級至 Microsoft 團隊） |
-| EPOS/Sennheiser | 受影響的 SC 635 USB       | 4/9/2020   | 商務用 Skype （含升級至 Microsoft 團隊） |
-| EPOS/Sennheiser | SC 660 USB MS 效應    | 4/9/2020   | 商務用 Skype （含升級至 Microsoft 團隊） |
-| EPOS/Sennheiser | ANC 的影響 SC 660   | 4/9/2020   | 商務用 Skype （含升級至 Microsoft 團隊） |
-| EPOS/Sennheiser | 受影響的 SC 665 USB       | 4/9/2020   | 商務用 Skype （含升級至 Microsoft 團隊） |
-| Logitech        | 區域無線           | 4/8/2020   | 針對 Microsoft 團隊認證                      |
-| Poly            | Voyager 8200 耳機    | 3/26/2020  | 商務用 Skype （含升級至 Microsoft 團隊） |
-| Logitech        | 區域有線              | 3/26/2020  | 針對 Microsoft 團隊認證                      |
-| Jabra           | Evolve2 40 耳機      | 3/26/2020  | 針對 Microsoft 團隊認證                      |
-| Poly            | Voyager 6200 耳機    | 3/23/2020  | 商務用 Skype （含升級至 Microsoft 團隊） |
-| Poly            | Voyager 4245 Office     | 3/23/2020  | 針對 Microsoft 團隊認證                      |
-| Poly            | Blackwire 8225 耳機  | 3/23/2020  | 針對 Microsoft 團隊認證                      |
-| Poly            | Calisto 5300-M          | 03/05/2020 | 針對 Microsoft 團隊認證                      |
-| Poly            | Voyager 4210 Office     | 03/05/2020 | 針對 Microsoft 團隊認證                      |
-| Poly            | Voyager 4210 UC         | 03/05/2020 | 商務用 Skype （含升級至 Microsoft 團隊） |
-| Poly            | Voyager 4220 Office     | 03/05/2020 | 針對 Microsoft 團隊認證                      |
-| Poly            | Voyager 4220 UC         | 03/05/2020 | 商務用 Skype （含升級至 Microsoft 團隊） |
-| Poly            | Voyager 5200 Office     | 03/05/2020 | 針對 Microsoft 團隊認證                      |
-| Poly            | Voyager 5200 UC         | 03/05/2020 | 商務用 Skype （含升級至 Microsoft 團隊） |
-| Poly            | Blackwire 3310-M        | 03/05/2020 | 針對 Microsoft 團隊認證                      |
-| Poly            | Blackwire 3315-M        | 03/03/2020 | 針對 Microsoft 團隊認證                      |
-| Poly            | Blackwire 3320-M        | 03/05/2020 | 針對 Microsoft 團隊認證                      |
-| poly            | Blackwire 3325-M        | 03/05/2020 | 針對 Microsoft 團隊認證                      |
-| Poly            | Calisto 3200-M          | 01/27/2020 | 針對 Microsoft 團隊認證                      |
-| Crestron        | CCS-MIC             | 12/18/2019 | 針對 Microsoft 團隊認證                      |
-| Sennheiser      | SP 30T                  | 12/05/2019 | 針對 Microsoft 團隊認證                      |
-| Polycom         | Elara                   | 11/06/2019 | 針對 Microsoft 團隊認證                      |
-| Polycom         | 畫室式 Soundbar         | 10/18/2019 | 針對 Microsoft 團隊認證                      |
-| Yealink         | UVC30                   | 10/18/2019 | 針對 Microsoft 團隊認證                      |
+| 製造商        | 模型                                                     | 具      | 認證計畫                                      |
+|:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+| EPOS                | Sennheiser 改編660耳機                              | 5/15/2020      | 針對 Microsoft 團隊認證                          |
+| EPOS                | Sennheiser 改編560耳機                              | 5/15/2020      | 針對 Microsoft 團隊認證                          |
+| EPOS                | Sennheiser 改編460T 耳機                             | 5/15/2020      | 針對 Microsoft 團隊認證                          |
+| EPOS                | Sennheiser 改編360耳機                              | 5/15/2020      | 針對 Microsoft 團隊認證                          |
+| Yealink             | UH36 耳機                                              | 5/13/2020      | 針對 Microsoft 團隊認證                          |
+| Poly                | Savi 8210 Office                                          | 4/20/2020      | 商務用 Skype （含升級至 Microsoft 團隊）     |
+| Poly                | Savi 8210 UC                                              | 4/20/2020      | 商務用 Skype （含升級至 Microsoft 團隊）     |
+| Poly                | Savi 8220 Office                                          | 4/20/2020      | 商務用 Skype （含升級至 Microsoft 團隊）     |
+| Poly                | Savi 8220 UC                                              | 4/20/2020      | 商務用 Skype （含升級至 Microsoft 團隊）     |
+| Poly                | Savi 8240 Office                                          | 4/20/2020      | 商務用 Skype （含升級至 Microsoft 團隊）     |
+| Poly                | Savi 8240 UC                                              | 4/20/2020      | 商務用 Skype （含升級至 Microsoft 團隊）     |
+| Poly                | Savi 8245 Office                                          | 4/20/2020      | 商務用 Skype （含升級至 Microsoft 團隊）     |
+| Poly                | Savi 8245 UC                                             | 4/20/2020      | 商務用 Skype （含升級至 Microsoft 團隊）     |
+| Poly                | Blackwire 5210 耳機                                    | 4/20/2020      | 商務用 Skype （含升級至 Microsoft 團隊）     |
+| Poly                | Blackwire 5220 耳機                                    | 4/20/2020      | 商務用 Skype （含升級至 Microsoft 團隊）     |
+| Poly                | Blackwire 7225 耳機                                    | 4/20/2020      | 商務用 Skype （含升級至 Microsoft 團隊）     |
+| Poly                | Voyager 焦點 UC                                          | 4/20/2020      | 商務用 Skype （含升級至 Microsoft 團隊）     |
+| Yealink             | CP700                                                     | 4/13/2020      | 針對 Microsoft 團隊認證                          |
+| Jabra               | Evolve2 65 耳機                                        | 4/13/2020      | 針對 Microsoft 團隊認證                          |
+| EPOS/Sennheiser     | SC 30 的影響                                              | 4/9/2020       | 商務用 Skype （含升級至 Microsoft 團隊）     |
+| EPOS/Sennheiser     | SC 45 的影響                                              | 4/9/2020       | 商務用 Skype （含升級至 Microsoft 團隊）     |
+| EPOS/Sennheiser     | SC 60 的影響                                              | 4/9/2020       | 商務用 Skype （含升級至 Microsoft 團隊）     |
+| EPOS/Sennheiser     | 影響 SC 75 MS                                           | 4/9/2020       | 商務用 Skype （含升級至 Microsoft 團隊）     |
+| EPOS/Sennheiser     | 影響 SC 75 MS EUL                                       | 4/9/2020       | 商務用 Skype （含升級至 Microsoft 團隊）     |
+| EPOS/Sennheiser     | 影響 SC 230 USB MS II                                   | 4/9/2020       | 商務用 Skype （含升級至 Microsoft 團隊）     |
+| EPOS/Sennheiser     | 影響 SC 260 USB MS II                                   | 4/9/2020       | 商務用 Skype （含升級至 Microsoft 團隊）     |
+| EPOS/Sennheiser     | SC 630 USB MS 效應                                      | 4/9/2020       | 商務用 Skype （含升級至 Microsoft 團隊）     |
+| EPOS/Sennheiser     | 受影響的 SC 635 USB                                         | 4/9/2020       | 商務用 Skype （含升級至 Microsoft 團隊）     |
+| EPOS/Sennheiser     | SC 660 USB MS 效應                                      | 4/9/2020       | 商務用 Skype （含升級至 Microsoft 團隊）     |
+| EPOS/Sennheiser     | ANC 的影響 SC 660                                     | 4/9/2020       | 商務用 Skype （含升級至 Microsoft 團隊）     |
+| EPOS/Sennheiser     | 受影響的 SC 665 USB                                         | 4/9/2020       | 商務用 Skype （含升級至 Microsoft 團隊）     |
+| Logitech            | 區域無線                                             | 4/8/2020       | 針對 Microsoft 團隊認證                          |
+| Poly                | Voyager 8200 耳機                                      | 3/26/2020      | 商務用 Skype （含升級至 Microsoft 團隊）     |
+| Logitech            | 區域有線                                                | 3/26/2020      | 針對 Microsoft 團隊認證                          |
+| Jabra               | Evolve2 40 耳機                                        | 3/26/2020      | 針對 Microsoft 團隊認證                          |
+| Poly                | Voyager 6200 耳機                                      | 3/23/2020      | 商務用 Skype （含升級至 Microsoft 團隊）     |
+| Poly                | Voyager 4245 Office                                       | 3/23/2020      | 針對 Microsoft 團隊認證                          |
+| Poly                | Blackwire 8225 耳機                                    | 3/23/2020      | 針對 Microsoft 團隊認證                          |
+| Poly                | Calisto 5300-M                                            | 03/05/2020     | 針對 Microsoft 團隊認證                          |
+| Poly                | Voyager 4210 Office                                       | 03/05/2020     | 針對 Microsoft 團隊認證                          |
+| Poly                | Voyager 4210 UC                                           | 03/05/2020     | 商務用 Skype （含升級至 Microsoft 團隊）     |
+| Poly                | Voyager 4220 Office                                       | 03/05/2020     | 針對 Microsoft 團隊認證                          |
+| Poly                | Voyager 4220 UC                                           | 03/05/2020     | 商務用 Skype （含升級至 Microsoft 團隊）     |
+| Poly                | Voyager 5200 Office                                       | 03/05/2020     | 針對 Microsoft 團隊認證                          |
+| Poly                | Voyager 5200 UC                                           | 03/05/2020     | 商務用 Skype （含升級至 Microsoft 團隊）     |
+| Poly                | Blackwire 3310-M                                          | 03/05/2020     | 針對 Microsoft 團隊認證                          |
+| Poly                | Blackwire 3315-M                                          | 03/03/2020     | 針對 Microsoft 團隊認證                          |
+| Poly                | Blackwire 3320-M                                          | 03/05/2020     | 針對 Microsoft 團隊認證                          |
+| poly                | Blackwire 3325-M                                          | 03/05/2020     | 針對 Microsoft 團隊認證                          |
+| Poly                | Calisto 3200-M                                            | 01/27/2020     | 針對 Microsoft 團隊認證                          |
+| Crestron            | CCS-MIC                                               | 12/18/2019     | 針對 Microsoft 團隊認證                          |
+| Sennheiser          | SP 30T                                                    | 12/05/2019     | 針對 Microsoft 團隊認證                          |
+| Polycom             | Elara                                                     | 11/06/2019     | 針對 Microsoft 團隊認證                          |
+| Polycom             | 畫室式 Soundbar                                           | 10/18/2019     | 針對 Microsoft 團隊認證                          |
+| Yealink             | UVC30                                                     | 10/18/2019     | 針對 Microsoft 團隊認證                          |
+| Jabra               | PanaCast                                                  | 08/14/2019     | 已驗證 Microsoft                                |
+

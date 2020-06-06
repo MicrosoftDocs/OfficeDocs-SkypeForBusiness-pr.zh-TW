@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 052cf825e2f05dd17a77043ab87bedbb2f3f8d9c
-ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
+ms.openlocfilehash: de92e52b50ce863ba940badbdeff32c90f083fde
+ms.sourcegitcommit: 8395f91205bde549a0a92999ef00c5f5fb03fb80
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44416723"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44583436"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>在 Outlook 中使用 Teams 會議增益集
 =======================================
@@ -111,8 +111,6 @@ Teams 用戶端會藉由判斷使用者需要 32 位元或 64 位元版本，來
 | 僅 Teams | Teams |
 
 ### <a name="set-whether-users-in-islands-mode-can-only-use-the-teams-meeting-add-in-or-both-the-teams-meeting-and-skype-for-business-meeting-add-ins"></a>設定 [孤島] 模式中的使用者是否只能使用 [團隊會議] 增益集，或同時使用團隊會議增益集及商務用 Skype 會議增益集
-
-**（即將推出）**
 
 身為系統管理員，您可以設定團隊會議原則設定，以控制將哪個 Outlook 會議增益集用於使用*孤島模式的使用者*。 您可以指定使用者是否只能使用 [團隊會議] 增益集，或是同時使用 [團隊會議] 和 [商務用 Skype 會議] 增益集，在 Outlook 中排程會議。
 

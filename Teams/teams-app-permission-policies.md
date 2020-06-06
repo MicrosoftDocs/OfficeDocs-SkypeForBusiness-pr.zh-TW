@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 5456bb7cece960796308a2d987cecaedc9828a3c
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: a7e8cf5e6ed4329a617a7922d4c4380fb5593b7c
+ms.sourcegitcommit: 8395f91205bde549a0a92999ef00c5f5fb03fb80
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44350107"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44583520"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>管理 Microsoft 團隊中的 app 許可權原則
 
@@ -52,10 +52,10 @@ ms.locfileid: "44350107"
 如果您想要控制貴組織中不同群組使用者的可用應用程式，請建立並指派一或多個自訂應用程式許可權原則。 您可以根據 Microsoft、協力廠商或您的組織發佈的應用程式，建立並指派個別的自訂原則。 您必須知道，在您建立自訂原則之後，如果已停用組織內應用程式設定中的協力廠商應用程式，就無法變更它。
 
 1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**團隊 app**]  >  **許可權原則**。
-2. 按一下 [**新增**]。
+2. 按一下 [**新增**]。 <br>
     ![新應用程式許可權原則的螢幕擷取畫面](media/app-permission-policies-new-policy.png)
 3. 輸入原則的名稱和描述。
-4. 在 [ **Microsoft app**]、**協力廠商應用程式**和**租使用者應用**程式底下，選取下列其中一項：
+4. 在 [ **Microsoft app**]、[**協力廠商應用**程式] 和 [**自訂應用程式**] 底下，選取下列其中一項：
 
     - **允許所有 app**
     - **允許特定的 app 和封鎖所有人**
@@ -65,10 +65,10 @@ ms.locfileid: "44350107"
 5. 如果您已選取 [**允許特定應用程式並封鎖其他 app**]，請新增您想要允許的應用程式：
 
     1. 選取 [**允許應用程式**]。
-    1. 搜尋您要允許的應用程式，然後按一下 [**新增**]。 搜尋結果會篩選到應用程式發行者（**Microsoft**app、**協力廠商應用程式**或**租**使用者 app）。
-    1. 當您選取 app 清單後，請按一下 [**允許**]。
+    1. 搜尋您要允許的應用程式，然後按一下 [**新增**]。 搜尋結果會篩選到應用程式發行者（**Microsoft**app、**協力廠商應用程式**或**自訂應用程式**）。
+    1. 當您選取 app 清單後，請按一下 [**允許**]。 
 
-6. 同樣地，如果您已選取 [**封鎖特定應用程式並允許所有人**]，請搜尋並新增您想要封鎖的 app。
+6. 同樣地，如果您已選取 [**封鎖特定應用程式並允許所有人**]，請搜尋並新增您想要封鎖的應用程式，然後按一下 [**封鎖**]。
 7. 按一下 [儲存]****。
 
 ## <a name="edit-an-app-permission-policy"></a>編輯應用程式許可權原則
@@ -94,9 +94,9 @@ ms.locfileid: "44350107"
 
 若要一次將原則指派給多位使用者：
 
-1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**使用者**]，然後搜尋使用者或篩選視圖，以顯示您想要的使用者。
-2. 在 [ **&#x2713;** （核取符號）] 欄中，選取使用者。 若要選取 [所有使用者]，請按一下表格頂端的 [&#x2713; （核取符號）。
-3. 按一下 [**編輯設定**]，進行您想要的變更，然後按一下 [套用 **]。**  
+1. 在 Microsoft Teams 系統管理中心的左側瀏覽中，移至 [使用者]****，然後搜尋使用者或篩選檢視畫面，以顯示您想要的使用者。
+2. 在 [&#x2713;]**** (核取方塊) 欄中，選取使用者。 若要選取 [所有使用者]，請按一下表格頂端的 [&#x2713;] (核取方塊)。
+3. 按一下 [編輯設定]****，進行所需的變更，然後按一下 [套用]****。  
 
 或者，您也可以執行下列動作：
 

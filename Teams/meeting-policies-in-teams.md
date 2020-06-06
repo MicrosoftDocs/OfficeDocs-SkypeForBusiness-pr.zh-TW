@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 瞭解如何在團隊中管理會議原則設定，並使用他們來控制會議參與者針對使用者排程會議所提供的功能。
-ms.openlocfilehash: 015a127b90aeb24dd9b2c2bcfca2389e95bf1496
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: a2d1cf256829cccd27bde2dce311145b8861ae84
+ms.sourcegitcommit: 8395f91205bde549a0a92999ef00c5f5fb03fb80
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523146"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44583496"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>在團隊中管理會議原則
 
@@ -411,8 +411,6 @@ Daniela 可以在 Amanda 的會議中記錄筆記，而 Amanda 無法在任何�
 若要避免會議召集人下載報表，請將參數設定為 [**已停用**]。 根據預設，此設定會停用，而且無法使用下載報表的選項。
 
 ## <a name="meeting-policy-settings---meeting-provider-for-islands-mode"></a>會議原則設定-適用于孤島模式的會議提供者
-
-**（即將推出）**
 
 這是每個使用者的原則。 這個設定控制哪一個 Outlook 會議增益集會用於使用*孤島模式的使用者*。 您可以指定使用者是否只能使用 [團隊會議] 增益集，或是同時使用 [團隊會議] 和 [商務用 Skype 會議] 增益集，在 Outlook 中排程會議。
 
