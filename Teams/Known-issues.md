@@ -18,16 +18,19 @@ f1.keywords:
 description: 無論您是 Teams 系統管理員或服務支援工程師，都能使用這些資源在組織中支援 Microsoft Teams。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e0d4daacda88078a731e1db2126c814e862aefa3
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 31951747565d7e226c89683b48fc1f09130af1bd
+ms.sourcegitcommit: 2c23a8c5afc4a6b74c2c6d7487975a94fe99dc07
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44349567"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "44561978"
 ---
 # <a name="support-microsoft-teams-in-your-organization"></a>在組織中支援 Microsoft Teams
 
-如果您正在尋找 Teams 已知的問題，您找對地方了。 使用本文中的資源，協助您在組織中支援 Teams。 
+> [!NOTE]
+> 本文取代 [Teams 的已知問題] 文章。 
+
+使用本文中的資源，協助您在組織中支援 Teams。 
 
 首先，請在以下文章複習最[常見問題與解決方法](#common-issues-and-resolutions)清單。
 
