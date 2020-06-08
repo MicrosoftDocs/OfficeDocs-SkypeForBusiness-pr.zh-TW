@@ -1,7 +1,8 @@
 # [商務用 Skype Server 2019](../skype-for-business-server-2019.md)
 
 ## [新功能](../whats-new.md)
-## [已遭取代的內容](../deprecated.md)
+## [已被取代的內容](../deprecated.md)
+## [虛擬指導方針](../virtualization-guidance.md)
 ## [Microsoft 電話語音解決方案](../../sfbhybrid/hybrid/msft-telephony-solutions.md)
 
 ## [商務用 Skype 的下載及更新](../../SfbServer/software-updates.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
@@ -201,7 +202,7 @@
 #### [為使用者啟用企業語音](../../SfbServer/deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [部署進階企業語音功能](../../SfbServer/deploy/deploy-enterprise-voice/deploy-advanced-enterprise-voice-features.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ##### [部署網路](../../SfbServer/deploy/deploy-enterprise-voice/deploy-network.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
-##### [部署通話許可控制](../../SfbServer/deploy/deploy-enterprise-voice/deploy-call-admission-control.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+##### [設定通話許可控制](../../SfbServer/deploy/deploy-enterprise-voice/deploy-call-admission-control.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ###### [建立頻寬原則設定檔](../../SfbServer/deploy/deploy-enterprise-voice/create-bandwidth-policy-profiles.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ###### [建立網路地區連結](../../SfbServer/deploy/deploy-enterprise-voice/create-network-region-links.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ###### [建立網路地區間路由](../../SfbServer/deploy/deploy-enterprise-voice/create-network-interregional-routes.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
