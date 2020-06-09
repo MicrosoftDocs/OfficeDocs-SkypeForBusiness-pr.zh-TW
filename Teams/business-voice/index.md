@@ -16,12 +16,12 @@ ms.collection:
 - Teams_Business_Voice
 title: Microsoft 365 Business Voice
 description: 了解如何規劃、部署及使用 Microsoft 365 Business Voice。
-ms.openlocfilehash: be2a6222a947f5fd064add7dadff0e438dfe626d
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: e99af9be9e07e686b25324cb49b38ca826eeef42
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824851"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610962"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -149,7 +149,7 @@ ms.locfileid: "41824851"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>需要協助嗎？</h3>
-                                                    <P><a href="https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b" target="_blank">連絡 Office 365 客戶支援</a></p>
+                                                    <P><a href="https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b" target="_blank">連絡 Microsoft 365 或 Office 365 客戶支援</a></p>
                                                     <P><a href="https://techcommunity.microsoft.com/t5/Small-and-Medium-Businesses/ct-p/SMB" target="_blank">中小型企業技術社群</a></p>
                                                 </div>
                                             </div>
@@ -170,7 +170,7 @@ ms.locfileid: "41824851"
                                                      <P><a href="https://docs.microsoft.com/microsoftteams/cloud-voice-landing-page" target="_blank">Microsoft Teams 系統管理文件</a></p>
                                                      <p><a href="https://microsoftteams.uservoice.com/" target="_blank">Microsoft Teams UserVoice 意見反應</a>
                                                      <p><a href="https://support.office.com/teams" target="_blank">Microsoft Teams 用戶端文件</a>
-                                                     <P><a href="https://docs.microsoft.com/office365/admin">Office 365 系統管理文件</a></p>
+                                                     <P><a href="https://docs.microsoft.com/office365/admin">Microsoft 365 和 Office 365 系統管理文件</a></p>
                                                 </div>
                                             </div>
                                         </div>
