@@ -19,17 +19,17 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 您可以在此表格中尋找有關在澳大利亞的 Microsoft 團隊中取得與管理電話號碼的資訊。
-ms.openlocfilehash: 5c8b5a668c8a1ec0a1ab34bd214955cd7e4ef25b
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 8d399b57f36b72bdbd1f62dffde232630b9e6ce9
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707128"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638792"
 ---
 # <a name="phone-number-management-for-australia"></a>澳洲的電話號碼管理
-在澳大利亞，我們已與 Telstra 進行合作，為使用澳大利亞帳單位址的客戶購買及提供通話方案。 Telstra 將出售其通話方案、提供澳大利亞的使用者號碼，同時也提供自動語音接聽者和電話號碼的電話號碼管理支援。 不過，音訊會議的服務號碼和授權仍將由 Office 365 來出售及管理。
+在澳大利亞，我們已與 Telstra 進行合作，為使用澳大利亞帳單位址的客戶購買及提供通話方案。 Telstra 將出售其通話方案、提供澳大利亞的使用者號碼，同時也提供自動語音接聽者和電話號碼的電話號碼管理支援。 不過，音訊會議的服務號碼和授權仍將由 Microsoft 365 和 Office 365 進行銷售和管理。
 
-如需[Telstra 通話 For Office 365](https://aka.ms/TelstraVoicePlan)的詳細資訊。
+如需[Telstra 通話](https://aka.ms/TelstraVoicePlan)的詳細資訊。
 
 您可以在此表格中尋找有關在澳大利亞的 Microsoft 團隊中取得與管理電話號碼的資訊。
 
@@ -37,13 +37,13 @@ ms.locfileid: "41707128"
   
 |**您想要做什麼？**|**執行這些步驟並下載正確的表單**|
 |:-----|:-----|
-|取得澳大利亞通話方案的新使用者電話號碼。   <br/> |請與[Telstra 電話撥打電話給 Office 365](https://aka.ms/TelstraVoicePlan) ，取得新的電話號碼給您的使用者。 然後，他們會將這些號碼新增到您的組織中，讓您可以將他們指派給您的使用者。 <br/>
-|如果您使用的是 Office 365 的 Telstra 通話，您可能會收到新的服務電話號碼，可用於雲端自動語音應答和來自 Telstra 的澳大利亞通話佇列。 <br/> |如需新電話號碼，請與[Telstra 通話以取得 Office 365](https://aka.ms/TelstraVoicePlan) 。 然後，他們會將這些號碼新增到您的組織中，以便將他們指派給您的自動語音應答及呼叫佇列。 如果您使用的不是 Telstra 通話，您可以聯絡我們的 Microsoft Number ManagementService 辦公桌，從 Microsoft 取得服務電話號碼，[請](mailto:ptnapac@microsoft.com)與我們聯繫。 <br/>|
+|取得澳大利亞通話方案的新使用者電話號碼。   <br/> |請與[Telstra 通話](https://aka.ms/TelstraVoicePlan)以取得使用者的新電話號碼。 然後，他們會將這些號碼新增到您的組織中，讓您可以將他們指派給您的使用者。 <br/>
+|如果您使用的是 Telstra 通話，您可能會收到可與雲端自動語音應答搭配使用的新服務電話號碼，並從 Telstra 打電話給澳大利亞通話佇列。 <br/> |請與[Telstra 通話](https://aka.ms/TelstraVoicePlan)以取得新的電話號碼。 然後，他們會將這些號碼新增到您的組織中，以便將他們指派給您的自動語音應答及呼叫佇列。 如果您使用的不是 Telstra 通話，您可以聯絡我們的 Microsoft Number ManagementService 辦公桌，從 Microsoft 取得服務電話號碼，[請](mailto:ptnapac@microsoft.com)與我們聯繫。 <br/>|
 |在澳大利亞取得語音會議的新服務電話號碼。   <br/> |[請](mailto:ptnapac@microsoft.com)與我們聯繫。|
-|取得為使用者傳送的 Office 365 電話號碼、自動語音應答及呼叫佇列。  <br/> |請與[Telstra 通話以取得 Office 365](https://aka.ms/TelstraVoicePlan) ，以傳送電話號碼。 然後，他們會將這些號碼新增到您的組織。  <br/> |
-|取得傳送至 Office 365 的電話號碼，以便與音訊會議搭配使用。  |[請與我們聯繫](mailto:ptnapac@microsoft.com) |
-|變更指派給有通話方案電話號碼之使用者的緊急位址。 |請與[Telstra Office 365 通話](https://aka.ms/TelstraVoicePlan)以進行緊急位址變更。 他們可以為您更新此資訊。|
-|將使用者號碼變更為服務號碼。 |使用 Telstra 通話 for Office 365 時支援。
+|取得將電話號碼轉接至 Microsoft 365 或使用者的 Office 365，自動語音應答及呼叫佇列。  <br/> |請聯絡[Telstra 通話](https://aka.ms/TelstraVoicePlan)以傳送電話號碼。 然後，他們會將這些號碼新增到您的組織。  <br/> |
+|取得轉接至 Microsoft 365 或 Office 365 以搭配音訊會議使用的電話號碼。  |[請與我們聯繫](mailto:ptnapac@microsoft.com) |
+|變更指派給有通話方案電話號碼之使用者的緊急位址。 |請與[Telstra 通話](https://aka.ms/TelstraVoicePlan)以進行緊急位址變更。 他們可以為您更新此資訊。|
+|將使用者號碼變更為服務號碼。 |使用 Telstra 通話時支援。
 
 ## <a name="related-topics"></a>相關主題
 

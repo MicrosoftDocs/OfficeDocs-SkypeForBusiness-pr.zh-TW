@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c7bf160e53fcbdd13fefac06c706d743a8b55643
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 20fc95f14782057c6c493d9835fd17a7339018ca
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902598"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637272"
 ---
 <a name="what-the-guest-experience-is-like"></a>來賓體驗像什麼
 =================================
@@ -57,7 +57,7 @@ ms.locfileid: "43902598"
 |建立會議或存取排程  <br/> |&#x2713;||
 |存取商務用 OneDrive 儲存空間  <br/> |&#x2713;||
 |建立整個租使用者與團隊/頻道來賓存取原則  <br/> |&#x2713;||
-|邀請 Office 365 組織網域以外的使用者 <br/>  *小組擁有者控制此設定。*  <br/> <br/> |&#x2713;||
+|邀請 Microsoft 365 或 Office 365 組織網域以外的使用者 <br/>  *小組擁有者控制此設定。*  <br/> <br/> |&#x2713;||
 |建立團隊  <br/> |&#x2713;||
 |探索並加入公開團隊  <br/> |&#x2713;||
 |查看組織結構  <br/> |&#x2713;||
@@ -99,7 +99,7 @@ ms.locfileid: "43902598"
 <sup>1</sup>這個功能即將推出。
 
 > [!NOTE]
-> Office 365 系統管理員會控制來賓可用的功能。 
+> Microsoft 365 和 Office 365 系統管理員可控制來賓可用的功能。 
 
 ## <a name="frequently-asked-questions"></a>常見問題集
 

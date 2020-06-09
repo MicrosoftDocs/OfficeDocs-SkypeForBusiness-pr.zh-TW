@@ -17,12 +17,12 @@ description: 連接器透過將您經常使用的服務中的內容和更新直�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 33a407de891f0d988b1fb32988556059c6adc2e0
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 9ea72fbe054e3a6d0e89f87f1a8c23303ef55c5c
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778589"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637752"
 ---
 <a name="use-microsoft-365-and-custom-connectors-in-microsoft-teams"></a>在 Microsoft 團隊中使用 Microsoft 365 和自訂連接器
 =======================================================
@@ -31,7 +31,7 @@ ms.locfileid: "43778589"
 
 如果小組許可權允許，小組中的任何成員都可以將其小組與流行的雲端服務連線，而且所有小組成員都會收到來自該服務的活動通知。 連接器在最初設定連接器的成員已離開之後，仍能繼續運作。 任何擁有 add\remove 許可權的小組成員都可以修改其他成員的連接器設定。
 
-Microsoft 365 連接器可搭配 Microsoft 團隊和 Microsoft 365 群組使用，讓所有成員都能更輕鬆地保持同步並快速接收相關資訊。 Microsoft 團隊和 Exchange 都使用相同的連接器模型，這可讓您在這兩個平臺中使用相同的連接器。 不過，請注意，針對小組所依賴的 Office 365 群組停用連接器，也會停用為該小組建立連接器的能力。
+Microsoft 365 連接器可搭配 Microsoft 團隊和 Microsoft 365 群組使用，讓所有成員都能更輕鬆地保持同步並快速接收相關資訊。 Microsoft 團隊和 Exchange 都使用相同的連接器模型，這可讓您在這兩個平臺中使用相同的連接器。 不過，請注意，停用小組所依賴的 Microsoft 365 群組的連接器將會停用為該小組建立連接器的能力。
 
 <a name="add-a-connector-to-a-channel"></a>在頻道中新增連接器
 ----------------------------

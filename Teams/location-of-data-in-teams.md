@@ -17,16 +17,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ebe94c04fcc4d93f636544d54930cf83855deec2
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 92516a73843b16212a13b4533da7db6fd1075532
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904815"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638752"
 ---
 # <a name="location-of-data-in-microsoft-teams"></a>Microsoft 團隊中的資料位置
 
-團隊中的資料位於與您的 Office 365 組織相關聯的地理區域中。 目前，團隊支援澳大利亞、加拿大、法國、德國、印度、日本、南非、韓國、瑞士（包括列支敦斯登）、阿拉伯聯合大公國、英國、美洲、APAC 及 EMEA 地區。 
+團隊中的資料位於與您的 Microsoft 365 或 Office 365 組織相關聯的地理區域中。 目前，團隊支援澳大利亞、加拿大、法國、德國、印度、日本、南非、韓國、瑞士（包括列支敦斯登）、阿拉伯聯合大公國、英國、美洲、APAC 及 EMEA 地區。 
 
 > [!IMPORTANT]
 > 團隊目前在澳大利亞、加拿大、法國、德國、印度、日本、阿拉伯聯合大公國、英國、韓國、非洲和瑞士（包括列支敦斯登）等新的租使用者中提供資料。
@@ -34,7 +34,7 @@ ms.locfileid: "43904815"
 
 ## <a name="where-your-teams-data-is-stored"></a>您的團隊資料的儲存位置
 
-若要查看哪個地區駐留您租使用者的資料，請移至[Microsoft 365 系統管理中心](https://portal.office.com/adminportal/home) > **設定** > **組織設定檔**。 向下滾動至 [**資料位置**]。
+若要查看哪個地區駐留您租使用者的資料，請移至[Microsoft 365 系統管理中心](https://portal.office.com/adminportal/home)  >  **設定**  >  **組織設定檔**。 向下滾動至 [**資料位置**]。
 
 ![資料位置資料表的螢幕擷取畫面，其中包含系統管理中心的團隊](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
 
@@ -56,7 +56,7 @@ ms.locfileid: "43904815"
 
 #### <a name="chat-channel-messages-team-structure"></a>聊天、頻道訊息、團隊結構
 
-團隊中的每個團隊都是由 Office 365 群組及其 SharePoint 網站和 Exchange 信箱來支援。 私人聊天（包括群組聊天）、在頻道中作為交談的一部分傳送的郵件，以及團隊和頻道的結構，都儲存在在 Azure 中執行的聊天服務中。 資料也會儲存在使用者和群組信箱的隱藏資料夾中，以啟用資訊保護功能。
+團隊中的每個團隊都是由 Microsoft 365 群組及其 SharePoint 網站和 Exchange 信箱來支援。 私人聊天（包括群組聊天）、在頻道中作為交談的一部分傳送的郵件，以及團隊和頻道的結構，都儲存在在 Azure 中執行的聊天服務中。 資料也會儲存在使用者和群組信箱的隱藏資料夾中，以啟用資訊保護功能。
 
 #### <a name="voicemail-and-contacts"></a>語音信箱和連絡人
 

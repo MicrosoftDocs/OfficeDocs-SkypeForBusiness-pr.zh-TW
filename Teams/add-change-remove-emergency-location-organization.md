@@ -18,16 +18,16 @@ f1.keywords:
 - NOCSH
 description: '瞭解如何在 Microsoft 團隊系統管理中心新增、變更或移除您組織的緊急位置。 '
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 8bed76fdfff2a6af2dabb3eef5c01dcfb39f422a
-ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
+ms.openlocfilehash: ae3a224b38fba412b9c0dc4ec0bfde5028440a79
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44539460"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610322"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>新增、變更或移除貴組織的緊急位置
 
-緊急位置必須與電話號碼相關聯，但在這種情況下，可能會因國家/地區而異。 例如，在美國，當您將電話號碼指派給使用者時，您必須建立緊急位置。 在英國，當您從 Office 365 取得電話號碼或從目前的服務提供者轉接電話號碼時，您必須將緊急位置與電話號碼產生關聯。
+緊急位置必須與電話號碼相關聯，但在這種情況下，可能會因國家/地區而異。 例如，在美國，當您將電話號碼指派給使用者時，您必須建立緊急位置。 在英國，當您從 Microsoft 365 或 Office 365 取得電話號碼或從目前的服務提供者轉接電話號碼時，您必須將緊急位置與電話號碼產生關聯。
 
 無論您所在的國家或地區為何，您都可以將位置或位置新增到緊急位置，並移除緊急位置。 視貴組織中的物理位置數量而定，您可以為建築物、地面與辦公室建立位置。 請參閱[管理緊急通話](what-are-emergency-locations-addresses-and-call-routing.md)。
   
@@ -45,7 +45,7 @@ ms.locfileid: "44539460"
 4. 選取國家或地區，然後輸入位址。
 
    > [!NOTE]
-   > 在比利時、法國、德國、愛爾蘭、荷蘭及西班牙，請務必瞭解若要在 Office 365 中成功啟用電話號碼，在緊急位置中設定的位址（用來取得號碼）必須符合電話號碼的區功能變數代碼。
+   > 在比利時、法國、德國、愛爾蘭、荷蘭及西班牙，若要在 Microsoft 365 或 Office 365 中成功啟用電話號碼，請務必瞭解，在緊急位置（用來取得號碼）中設定的位址必須符合電話號碼的區功能變數代碼。
 5. 如果找不到位址，而您想要手動編輯位址，請開啟 **[手動編輯位址**]。
 6. 按一下 [儲存]****。
 

@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8c83d985a277c8341565e44878ba03385e23a358
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 9ffc71de13948be077c14699e98fca726bced3eb
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904995"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638492"
 ---
 <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>在 Microsoft 團隊系統管理中心管理團隊
 ==========================================
@@ -33,7 +33,7 @@ ms.locfileid: "43904995"
 
 本文將為 Microsoft 團隊系統管理中心的小組提供管理工具的概覽。
 
-如果您是系統管理員，您可能需要查看或更新貴組織設定的共同作業小組，或者您可能需要執行修正動作，例如指派 ownerless 小組的擁有者。 您可以透過 Microsoft 團隊 PowerShell 模組和 Microsoft 團隊系統管理中心來管理組織中使用的團隊。 若要使用這兩種工具集的完整管理功能，您應該確認您已獲指派下列其中一個角色：
+如果您是系統管理員，您可能需要查看或更新貴組織設定的共同作業小組，或者您可能需要執行修正動作，例如指派 ownerless 小組的擁有者。 您可以透過 Microsoft 團隊 PowerShell 模組和 Microsoft 團隊系統管理中心來管理組織中使用的團隊。 您可以存取系統管理中心 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 。 若要使用這兩種工具集的完整管理功能，您應該確認您已獲指派下列其中一個角色：
 
 - 全域系統管理員
 - Teams 服務管理員
@@ -44,7 +44,7 @@ ms.locfileid: "43904995"
 
 ## <a name="teams-overview-grid"></a>團隊概覽格線
 
-小組的管理工具位於 Microsoft 團隊系統管理中心的 [**小組**] 節點底下。 （在系統管理中心中，選取 [**團隊** > **管理團隊**]）。每個團隊都受 Office 365 群組的支援，而且這個節點提供已在貴組織中啟用 Microsoft 團隊的群組視圖。
+小組的管理工具位於 Microsoft 團隊系統管理中心的 [**小組**] 節點底下。 （在系統管理中心中，選取 [**團隊**  >  ]**管理團隊**。）每個團隊都是由 Microsoft 365 群組所支援，而這個節點提供已在貴組織中啟用 Microsoft 團隊的群組視圖。
 
 ![[團隊概覽] 格線的螢幕擷取畫面](media/manage-teams-in-modern-portal-grid.png)  
 
@@ -55,11 +55,11 @@ ms.locfileid: "43904995"
 - **小組成員**-總使用者數目，包括來自您租使用者的擁有者、來賓和成員。
 - [**擁有**者]-此小組的擁有者人數。
 - **來賓**-此團隊成員的 Azure ACTIVE Directory B2B 來賓使用者的計數。
-- **隱私權**-支援 Office 365 群組的可見度/AccessType。
+- **隱私權**-支援的 Microsoft 365 群組的可見度/AccessType。
 - [**狀態**]-此小組的已存檔或活動狀態。 進一步瞭解封存[或還原小組中的](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7)團隊。
-- **描述**-支援 Office 365 群組的描述。
-- **分類**-指派給支援 Office 365 群組的分類（如果您的組織使用的話）。 深入瞭解[貴組織中 Office 群組的建立分類](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-groups-with-powershell#create-classifications-for-office-groups-in-your-organization)。
-- **GroupID** -支援 Office 365 群組的唯一 GroupID。
+- **描述**-支援的 Microsoft 365 群組的描述。
+- **分類**-指派給支援 Microsoft 365 群組的分類（如果您的組織使用的話）。 深入瞭解[貴組織中 Office 群組的建立分類](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-groups-with-powershell#create-classifications-for-office-groups-in-your-organization)。
+- **GroupID** -支援的 Microsoft 365 群組的唯一 GroupID。
 
 > [!NOTE]
 > 如果您沒有在格線中看到所有這些屬性，請按一下 [**編輯欄**] 圖示。 在 [**編輯欄**] 窗格中，您可以使用切換來開啟或關閉格線中的欄。 完成後，**請按一下 [** 套用]。
@@ -78,7 +78,7 @@ ms.locfileid: "43904995"
 
 ### <a name="delete"></a>Delete
 
-刪除小組就是一項虛刪除的小組及對應的 Office 365 群組。 若要還原錯誤刪除的小組，請依照[還原已刪除的 Office 365 群組](https://docs.microsoft.com/office365/admin/create-groups/restore-deleted-group?view=o365-worldwide)中的指示進行。
+刪除小組是小組及對應的 Microsoft 365 群組的虛刪除。 若要還原錯誤刪除的小組，請依照[還原已刪除的群組](https://docs.microsoft.com/microsoft-365/admin/create-groups/restore-deleted-group)中的指示進行。
 
 ### <a name="search"></a>檢索
 
@@ -86,7 +86,7 @@ ms.locfileid: "43904995"
 
 ## <a name="team-profile"></a>小組設定檔
 
-您可以按一下 [團隊名稱]，從 [主要團隊概覽] 格線流覽至任何團隊的 [團隊個人檔案] 頁面。 [小組個人檔案] 頁面會顯示屬於小組（及其支援的 Office 365 群組），以及小組的頻道與設定的成員、擁有者和來賓。 您可以從 [團隊設定檔] 頁面進行下列動作：
+您可以按一下 [團隊名稱]，從 [主要團隊概覽] 格線流覽至任何團隊的 [團隊個人檔案] 頁面。 [小組個人檔案] 頁面會顯示屬於小組（及其支援的 Microsoft 365 群組），以及小組的頻道與設定的成員、擁有者和來賓。 您可以從 [團隊設定檔] 頁面進行下列動作：
 
 - 新增或移除成員和擁有者。
 - 新增或移除頻道（請注意，您無法移除 [一般] 頻道）。
@@ -103,7 +103,7 @@ ms.locfileid: "43904995"
 - **團隊名稱**
 - **描述**
 - **隱私權**-設定團隊是否為公用或私人。
-- **分類**-這是由您的 Office 365 群組分類所支援。 選擇 [**機密**]、[**高度機密**] 或 **[一般**]。
+- **分類**-這是由您的 Microsoft 365 群組分類所支援。 選擇 [**機密**]、[**高度機密**] 或 **[一般**]。
 - [**交談設定**]-設定成員是否可以編輯及刪除已傳送的郵件。
 - **頻道設定**-設定成員是否可以建立新的頻道，以及編輯現有的頻道，以及新增、編輯及移除索引標籤、連接器及應用程式。
 
@@ -125,7 +125,7 @@ ms.locfileid: "43904995"
 
 2. 在左側功能表中登入圖表資源管理器。
 
-3. 將查詢行變更為： PATCH > v 1.0 > https://graph.microsoft.com/v1.0/groups/{groupid}。
+3. 將查詢行變更為： PATCH > v 1.0 > https://graph.microsoft.com/v1.0/groups/{groupid} 。
 
 4. 在要求主體上加上下列值： {"resourceProvisioningOptions"： ["團隊"]}。
 

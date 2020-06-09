@@ -29,16 +29,16 @@ ms.custom:
 - O365P_SFBVoiceCreditAether
 - Licensing
 description: '瞭解如何為商務用 Skype 服務支付通訊點數（PSTN 消費），並查看規劃，讓您的使用者保持不間斷的電話系統存取。 '
-ms.openlocfilehash: 9ba413c80c403e69eb977bb1911ad37e67ad87cd
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: ba3ca7b50b39915997096d28af3dc52e33455088
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827211"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610275"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>加值和管理通訊點數
 
-通訊點數是您在 Office 365 中支付電話系統和通話方案的便利方式。 通訊點數可協助確保您和您的使用者永遠不會被捕獲，且無法進行下列作業：
+通訊點數是您在 Microsoft 365 或 Office 365 中支付電話系統和通話方案的便利方式。 通訊點數可協助確保您和您的使用者永遠不會被捕獲，且無法進行下列作業：
   
 - 使用免付費撥入電話號碼撥入音訊會議會議。
     
@@ -76,7 +76,7 @@ ms.locfileid: "41827211"
     
 - [電話系統方案](https://go.microsoft.com/fwlink/?LinkId=799763)
     
-您也可以登[入 Microsoft 365 系統管理中心](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)並移至**帳單** > **訂閱** > 的 [**新增訂閱**]，以查看資訊。
+您也可以登[入 Microsoft 365 系統管理中心](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)並移至**帳單**  >  **訂閱**的 [  >  **新增訂閱**]，以查看資訊。
   
 若要查看含有每個功能所需的授權或授權的表格，請參閱[Microsoft 團隊附加元件授權](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
   
@@ -84,9 +84,9 @@ ms.locfileid: "41827211"
 
 - [設定商務用 Skype Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     
-- [設定雲端語音信箱 - 系統管理說明](set-up-phone-system-voicemail.md)
+- [設定雲端語音信箱 - 管理說明](set-up-phone-system-voicemail.md)
     
-- 設定[Office 365 的](calling-plans-for-office-365.md)[通話方案](set-up-calling-plans.md)和通話方案
+- 設定[Microsoft 365 或 Office 365 的](calling-plans-for-office-365.md)[通話方案](set-up-calling-plans.md)與通話方案
         
  
  

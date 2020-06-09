@@ -18,19 +18,19 @@ f1.keywords:
 - NOCSH
 description: 在本文中，您將瞭解如何為貴組織中的使用者指派或變更緊急位置。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f11bfd9762667823b4ec6b2883c9661f9f5754d0
-ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
+ms.openlocfilehash: 450fe848052af1e331964da3d7b695daf0f1567a
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44539500"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610992"
 ---
 # <a name="assign-or-change-an-emergency-location-for-a-user"></a>指派或變更使用者的緊急位置
 
-當您設定通話方案時，您必須將緊急位置指派給每個電話號碼或使用者。 在歐洲國家/地區，當您從 Office 365 取得電話號碼時，或當您將電話號碼轉移到 Office 365 時，緊急位置會與電話號碼產生關聯。 在美國，緊急位置會與指派給使用者的電話號碼相關聯。 如果您指派的使用者移至新的位置，就可以變更緊急位址。 如需有關緊急位址和位置的詳細資訊，請參閱[管理緊急通話](what-are-emergency-locations-addresses-and-call-routing.md)。
+當您設定通話方案時，您必須將緊急位置指派給每個電話號碼或使用者。 在歐洲國家/地區，當您從 Microsoft 365 或 Office 365 取得電話號碼時，或當您將電話號碼轉接到 Microsoft 365 或 Office 365 時，緊急位置會與電話號碼產生關聯。 在美國，緊急位置會與指派給使用者的電話號碼相關聯。 如果您指派的使用者移至新的位置，就可以變更緊急位址。 如需有關緊急位址和位置的詳細資訊，請參閱[什麼是緊急位置、地點及呼叫路由？](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)。
   
 若要瞭解如何取得通話方案和成本，請參閱[小組附加元件授權](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
-
+  
 您可以在 Microsoft 團隊系統管理中心或使用 PowerShell 指派或變更使用者的緊急位置。
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 系統管理中心

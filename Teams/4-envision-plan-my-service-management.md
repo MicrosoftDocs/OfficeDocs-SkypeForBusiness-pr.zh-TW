@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1268a87e5e5ae48547e1f2489641ac13cd3bae64
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: a74d07cc40adf8010c2d987e05669264f8cc1367
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41862713"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610028"
 ---
 # <a name="plan-my-service-management"></a>規劃我的服務管理
 
@@ -31,14 +31,14 @@ ms.locfileid: "41862713"
 
 ## <a name="service-management-for-teams"></a>團隊的服務管理
 
-服務管理是一個廣泛的主題，涵蓋在部署並為使用者啟用 Microsoft 團隊服務之後的日常作業。 [團隊服務] 包含 Microsoft Office 365 和部署于內部部署的基礎結構元件（例如 [網路]）。
+服務管理是一個廣泛的主題，涵蓋在部署並為使用者啟用 Microsoft 團隊服務之後的日常作業。 [團隊服務] 包含 Microsoft 365 或 Office 365，以及部署于內部部署的基礎結構元件（例如 [網路]）。
 
 服務管理的概念很可能不是大多陣列織的新概念。 您可能已經實現與現有服務相關聯的進程和工作。 如此一來，您可能會在規劃服務管理時補充所需的內容，以備日後支援 Microsoft 團隊。
 
-服務管理包括管理 Microsoft 團隊端到端的所有活動與程式。 服務管理的部分元件（由 Office 365 服務本身所組成的基礎結構元件）是 Microsoft 的責任，而客戶對其使用者負責管理團隊、網路和的各個方面。其提供的端點。
+服務管理包括管理 Microsoft 團隊端到端的所有活動與程式。 服務管理的部分元件（由 Microsoft 365 或 Office 365 服務本身所組成的基礎結構元件）是 Microsoft 的責任，而客戶對其所提供的小組、網路和端點的各個方面有責任。
 如需團隊服務管理的客戶責任以及其與 underpin 使用者體驗品質的關鍵元件的完整討論，請參閱[規劃服務管理和品質](https://docs.microsoft.com/MicrosoftTeams/prepare-network)。
 
-![三個品質元件的圖表](media/plan-my-service-management-image1.png "這三個元件的 [品質]--[Office 365 服務]、[網路] 和 [端點] 的圖表，以及服務管理如何與這三個元件重迭。")
+![三個品質元件的圖表](media/plan-my-service-management-image1.png "三種品質元件（例如 Microsoft 365 或 Office 365 服務、網路及端點）的圖表，以及服務管理如何與這三種重疊。")
 
 <!--ENDOFSECTION-->
 

@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 77a325fbe8cacb3b2760f5b3034dee0e16695278
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: ad827244baaacde8ee5c7166590c81347c8eea5b
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42021594"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610018"
 ---
 # <a name="plan-my-users-experience"></a>規劃我的使用者體驗
 
@@ -58,7 +58,7 @@ Microsoft 團隊擁有可供 web、桌面（Windows 和 Mac）及行動裝置（
 ## <a name="endpoint-firewalls"></a>端點防火牆
 
 用戶端防火牆對使用者體驗的影響可能會有很大的影響。
-用戶端防火牆可能會影響通話品質，除了可防止通話的建立。 根據[Office 365 url 和 IP 位址範圍](https://aka.ms/o365ips)中的資訊，在用戶端防火牆上設定適當的排除。 您的協力廠商廠商將提供有關如何建立排除項的特定指導方針。
+用戶端防火牆可能會影響通話品質，除了可防止通話的建立。 根據[Microsoft 365 或 Office 365 url 和 IP 位址範圍](https://aka.ms/o365ips)中的資訊，在用戶端防火牆上設定適當的排除。 您的協力廠商廠商將提供有關如何建立排除項的特定指導方針。
 
 >[!NOTE]
 > Microsoft 團隊會自動使用適當的防火牆設定來更新 Windows 防火牆。

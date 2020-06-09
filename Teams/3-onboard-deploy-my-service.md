@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 86e9fd1b26bebd120136c3c33abf0a44ffa03e0d
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: 4e77127d6840473cfb6238d9150ac692230181e1
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41862813"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610045"
 ---
 # <a name="deploy-my-service"></a>部署我的服務
 
@@ -33,7 +33,7 @@ ms.locfileid: "41862813"
 
 使用這項行動手冊，協助您的組織以網站為基礎，順利規劃並執行 Microsoft 團隊語音功能。
 
-包括所有必要的活動、建議的時程表，以及每個活動的相關指南的連結，此行動手冊會涵蓋端對端指導方針，以協助確保針對特定網站成功的小組語音部署，並將重點放在重要因素上給使用者。
+包括所有必要的活動、建議的時程表，以及每個活動的相關指南的連結，本行動手冊會涵蓋端對端指導方針，以協助確保針對特定網站成功的小組語音部署，將重點放在對使用者而言很重要的因素上。
 
 透過完成本行動手冊中的活動，您的組織可以：
 
@@ -44,7 +44,7 @@ ms.locfileid: "41862813"
 -   減少支援需求並提高使用者滿意度。
 
 > [!NOTE]
-> 本文和相關的行動手冊並不是用來描述服務啟用所需的每個技術設定步驟，或提供撥號音給特定網站。 相反地，他們會將重點放在快速的使用者的活動和工作上，並讓他們透過快速且流暢的過渡來開始使用團隊語音作業，同時將支援需求降至最低。 如需如何針對團隊語音設定最佳環境的技術指導方針，請參閱設定[小組語音工作負載](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)的 [加入] 檢查清單、設定[團隊中的直接佈線](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md)、[團隊核心功能](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)、[針對團隊提供的網路](prepare-network.md)，以及[啟用 Office 365](onboarding-checklist-enable-office-365.md)。
+> 本文和相關的行動手冊並不是用來描述服務啟用所需的每個技術設定步驟，或提供撥號音給特定網站。 相反地，他們會將重點放在快速的使用者的活動和工作上，並讓他們透過快速且流暢的過渡來開始使用團隊語音作業，同時將支援需求降至最低。 如需如何針對團隊語音設定最佳環境的技術指導方針，請參閱設定[小組語音工作負載](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)的 [加入] 檢查清單、設定[團隊中的直接佈線](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md)、[團隊核心功能](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)、[針對團隊提供的網路](prepare-network.md)，以及[啟用 Microsoft 365 或 Office 365](onboarding-checklist-enable-office-365.md)。
 
 <!--ENDOFSECTION-->
 
@@ -90,9 +90,9 @@ ms.locfileid: "41862813"
 
 5. 查看每個活動、執行必要的動作，並在您逐步完成時程表時更新狀態。 狀態以圖形表示，如下所述：
   
-   - ![綠色核取記號](media/deploy-my-service-image3.png)為 **[是] 或 [不適用（綠色）]** 的圖例：活動已完成，或不適用於此網站，因此不需要進一步的動作。</li>
-   - ![黃色驚嘆號](media/deploy-my-service-image4.png)的圖例<strong>該活動尚未完成（黃色）：</strong>此活動尚未完成，且必須在排程上更新為 [是] 或 [否]。</li>
-   - ![紅色 X 的圖例，代表 [](media/deploy-my-service-image5.png)否] <strong>（紅色）：</strong>由於問題而無法完成活動，且必須傳送給專案狀態會議。</li></ul>
+   - ![綠色核取記號為 ](media/deploy-my-service-image3.png) **[是] 或 [不適用（綠色）]** 的圖例：活動已完成，或不適用於此網站，因此不需要進一步的動作。</li>
+   - ![黃色驚嘆號的圖例 ](media/deploy-my-service-image4.png) <strong>該活動尚未完成（黃色）：</strong>此活動尚未完成，且必須在排程上更新為 [是] 或 [否]。</li>
+   - ![紅色 X 的圖例，代表 [否] ](media/deploy-my-service-image5.png) <strong>（紅色）：</strong>由於問題而無法完成活動，且必須傳送給專案狀態會議。</li></ul>
 
 6. 狀態是在每個區段中累計，而節標題則是以其中一個狀態指標來設定格式。 [**每週] 狀態**也會自動更新。
 

@@ -19,12 +19,12 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f19cbbba6df7c43c69af35893466344e8df1d17d
-ms.sourcegitcommit: 296aeac481f901eb9d52b4f12a8c037afc49fa77
+ms.openlocfilehash: 6d2e43c3125421189303d106cfd3bdde66815309
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44256478"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44611012"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Microsoft 團隊 app 許可權和考慮
 
@@ -140,7 +140,7 @@ None （目前）
 
 - 索引標籤的風險設定檔與在瀏覽器索引標籤上執行的相同網站幾乎完全相同。 
 
-- 索引標籤也會取得執行中的內容，包括目前使用者的登入名稱和 UPN、目前使用者的 Azure AD 物件識別碼、其所在之 Office 365 群組的識別碼（如果是團隊）、租使用者識別碼，以及使用者目前的地區設定。 不過，若要將這些識別碼對應至使用者的資訊，索引標籤會必須讓使用者登入 Azure AD。
+- 索引標籤也會取得執行中的內容，包括目前使用者的登入名稱和 UPN、目前使用者的 Azure AD 物件識別碼、其所在的 Microsoft 365 群組的識別碼（如果是團隊）、租使用者識別碼，以及使用者目前的地區設定。 不過，若要將這些識別碼對應至使用者的資訊，索引標籤會必須讓使用者登入 Azure AD。
 
 ## <a name="connectors"></a>連接器
 

@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
-description: 使用 [加入檢查清單] 來為小組準備 Office 365，並設定小組核心功能、網路和雲端語音工作負載。
+description: 使用 [加入檢查清單] 來為團隊準備 Microsoft 365 或 Office 365，並設定團隊的核心功能、網路和雲端語音工作負載。
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 710a365ef68d3e187013892ef978cd8e12557cc1
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 3c805e8ff14ddb1c46f83db819c5dd8a2c305914
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137993"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610065"
 ---
 # <a name="prepare-my-service"></a>準備我的服務
 
@@ -34,7 +34,7 @@ ms.locfileid: "43137993"
 
 下列檢查清單會逐步引導您完成在 Microsoft 團隊中實現音訊會議、電話系統與通話方案（「通話方案」），以及手機系統 Direct 路由（"直接路由"）功能的步驟。
 
-*  [為團隊準備 Office 365](onboarding-checklist-enable-office-365.md)
+*  [為團隊準備 Microsoft 365 或 Office 365](onboarding-checklist-enable-office-365.md)
 
 *  [設定團隊核心功能](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)
 

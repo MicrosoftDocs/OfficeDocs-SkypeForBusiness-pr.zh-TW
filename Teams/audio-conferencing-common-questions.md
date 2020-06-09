@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 以下是我們從我們想要使用音訊會議的客戶所取得的主要問題。
-ms.openlocfilehash: e542d728ae95ddb35532fbb8cabfa61e3b93caa3
-ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
+ms.openlocfilehash: c181c6cf2da1f1573b10f6e206bd1d658c6af00b
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42236843"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44611032"
 ---
 # <a name="audio-conferencing-common-questions"></a>音訊會議的常見問題
 
@@ -35,19 +35,19 @@ ms.locfileid: "42236843"
   
 ## <a name="what-are-the-benefits-of-audio-conferencing"></a>音訊會議有哪些優點？
 
-例如，當人員在路上，且無法使用膝上型電腦或行動裝置上的商務用 Skype 或 Microsoft 團隊 app 出席會議時，通話至會議就非常有用。 但在其他情況下，您可以使用手機出席商務用 Skype 或 Microsoft 團隊會議，而不是在電腦上使用應用程式：
+例如，當人員在路上，且無法使用膝上型電腦或行動裝置上的商務用 Skype 或 Microsoft 團隊 app 出席會議時，通話至會議就非常有用。 但在其他情況下，使用電話參加商務用 Skype 或 Microsoft Teams 會議，會比在電腦上使用應用程式的效果更好：
   
-- 網際網路連線能力有限。
+- 當網際網路連線能力受限制時。
     
-- 會議只有音訊。
+- 當會議只有音訊時。
     
-- 該人員試圖加入商務用 Skype 會議，但卻失敗。
+- 人員嘗試加入商務用 Skype 會議，但失敗。
     
 - 撥號品質越好，您就能在撥入時撥打。
     
-- 使用者可以使用藍牙裝置加入會議「手閑」。
+- 與會者可以使用藍牙裝置以「免持」方式加入會議。
     
-- 人們能找到更簡單且更方便的情況。
+- 與會者會發現這對他們而言更為簡單且方便。
     
 ## <a name="who-can-attend-an-audio-conferencing-meeting-and-who-can-i-hear"></a>誰可以出席語音會議會議？ 我可以聽到哪些人？
 
@@ -65,7 +65,7 @@ ms.locfileid: "42236843"
   
 當地撥入號碼，而且在某些情況下，您組織所在國家/地區的國際撥入號碼將會包含在會議邀請中。 如果會議出席者使用包含在邀請中的其他號碼，就會是共用的電話號碼。
   
-## <a name="how-many-international-dial-in-numbers-does-audio-conferencing-in-office-365-support"></a>Office 365 支援音訊會議的國際撥入號碼數？
+## <a name="how-many-international-dial-in-numbers-does-audio-conferencing-in-microsoft-365-or-office-365-support"></a>Microsoft 365 或 Office 365 支援音訊會議的國際撥入號碼數？
 
 如需國家/地區的目前清單，請參閱[Microsoft 團隊中的音訊會議電話號碼](phone-numbers-for-audio-conferencing-in-teams.md)或[商務用 Skype Online 中的音訊會議](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)電話號碼。
   
@@ -85,7 +85,7 @@ ms.locfileid: "42236843"
    
 ## <a name="how-many-total-phone-participants-can-i-have-in-meetings"></a>我可以在會議中使用多少總的電話參與者？
 
-音訊會議可讓最多250的電話出席者。
+音訊會議可允許最多 250 位電話出席者。
   
 若要瞭解會議限制的相關資訊，請參閱[商務用 Skype Online 限制](https://technet.microsoft.com/library/skype-for-business-online-limits.aspx#bkmk_Meeting_LyncOnlineLimits)。
   
@@ -153,7 +153,7 @@ ms.locfileid: "42236843"
 
 [設定商務用 Skype Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
   
-[Microsoft 團隊中音訊會議的電話號碼](phone-numbers-for-audio-conferencing-in-teams.md) 
+[Microsoft Teams 音訊會議的電話號碼](phone-numbers-for-audio-conferencing-in-teams.md) 
 
-[商務用 Skype Online 中的音訊會議電話號碼](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)
+[商務用 Skype Online 中音訊會議的電話號碼](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)
   

@@ -19,12 +19,12 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6cafff163c4794002d8f92b638e73112faa8d1e4
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 94430052082d523861ed4a938e0e0b02b70049f9
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780662"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610982"
 ---
 # <a name="define-my-success"></a>定義我的成功
 
@@ -150,7 +150,7 @@ OKRs 包含您在專案開始時所設定的目標，而且您會以季度為單
 > 以下是可參考音訊會議的 OKRs 相關範例：
 > <br>
 > 
-> **設想：透過最大化 Office 365 投資來提高生產力**
+> **視覺：透過最大化 Microsoft 365 或 Office 365 投資來提高生產力**
 > 
 > |目標  |主要結果  |待辦事項  |
 > |---------|---------|---------|
@@ -163,7 +163,7 @@ OKRs 包含您在專案開始時所設定的目標，而且您會以季度為單
 > 下列是與通話方案實施相關的 OKRs 範例：
 > <br>
 > 
-> **設想：透過最大化 Office 365 投資來提高生產力**
+> **視覺：透過最大化 Microsoft 365 或 Office 365 投資來提高生產力**
 > 
 > |目標  |主要結果  |待辦事項  |
 > |---------|---------|---------|
@@ -174,7 +174,7 @@ OKRs 包含您在專案開始時所設定的目標，而且您會以季度為單
 > 以下是與直接路由實現相關的 OKRs 範例：
 > <br>
 > 
-> **設想：透過最大化 Office 365 投資來提高生產力**
+> **視覺：透過最大化 Microsoft 365 或 Office 365 投資來提高生產力**
 > 
 > |目標  |主要結果  |待辦事項  |
 > |---------|---------|---------|

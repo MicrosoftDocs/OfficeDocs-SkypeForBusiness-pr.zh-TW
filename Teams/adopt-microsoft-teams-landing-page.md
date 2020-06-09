@@ -21,16 +21,16 @@ f1.keywords:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5224fabff542051438bc523388b96ecf93f7af9a
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 76086d7e34d56a9bab59c7ca10ed40472aecd7a1
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905915"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610242"
 ---
 # <a name="adopt-microsoft-teams"></a>採納 Microsoft 團隊
 
-如果您是小型企業版，或者想要從聊天、團隊 & 頻道及會議中開始推出小組，請使用我們的規範性[入門指南](get-started-with-teams-quick-start.md)，以快速開始使用。 如果您是有混合式或內部部署商務用 Skype 設定的大型組織，或如果您想要推出語音功能（例如 Office 365 通話方案或電話系統），您可以從我們的**入門指南中**開始，但以下是您需要的其他指導方針。
+如果您是小型企業版，或者想要從聊天、團隊 & 頻道及會議中開始推出小組，請使用我們的規範性[入門指南](get-started-with-teams-quick-start.md)，以快速開始使用。 如果您是有混合式或內部部署商務用 Skype 設定的大型組織，或如果您想要推出語音功能（例如 Microsoft 365 或 Office 365 通話方案或電話系統），您可以從我們的**入門指南中**開始，但以下是您需要的其他指導方針。
 
 <ul class="panelContent cardsFTitle">
     <li>

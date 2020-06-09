@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 5ecf199f5027774684f5a626c416f789293926d7
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 2157ea9ec536e644440161fb321c7a60bb8d396e
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140052"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638612"
 ---
 # <a name="implement-qos-and-monitor-call-quality-in-microsoft-teams"></a>在 Microsoft 團隊中實施 QoS 及監視通話品質
 
@@ -38,7 +38,7 @@ ms.locfileid: "43140052"
 
 [[**通話分析] 和 [通話品質儀表板**](difference-between-call-analytics-and-call-quality-dashboard.md)] 可用來找出並疑難排解在進行中的作業時所帶來的問題。  
 
-[**通話分析**] 會顯示與 Microsoft 團隊或商務用 Skype 帳戶中每位使用者的***特定通話與會議***相關的裝置、網路及連線性的詳細資訊。 如果您是 Office 365 系統管理員，您可以使用呼叫分析來針對特定通話中遇到的通話品質和連線問題進行疑難排解。 這可協助您找出並消除問題。
+[**通話分析**] 會顯示與 Microsoft 團隊或商務用 Skype 帳戶中每位使用者的***特定通話與會議***相關的裝置、網路及連線性的詳細資訊。 如果您是 Microsoft 365 或 Office 365 系統管理員，您可以使用呼叫分析來針對特定通話中遇到的通話品質和連線問題進行疑難排解。 這可協助您找出並消除問題。
 
 **通話品質儀表板（CQD）** 的設計目的是協助系統管理員和網路工程師優化其***網路***，不會分析和疑難排解單一通話。 CQD 會將焦點從特定的使用者轉移，以查看整個組織的匯總資訊。 這也可以協助您找出並消除問題。
 

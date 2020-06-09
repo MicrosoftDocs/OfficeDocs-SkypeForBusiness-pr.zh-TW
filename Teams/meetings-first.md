@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d8c88ba4ddb8b2e9af83e227388232e243dcabe1
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 4e2ca0b4088a7855da8cf2bc5196ecc9f2082475
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140292"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637942"
 ---
 # <a name="meetings-first"></a>會議優先
 
@@ -78,9 +78,9 @@ ms.locfileid: "43140292"
 
 在任何版本的商務用 Skype Server （以及不支援的 Lync Server）中，都支援會議優先。 任何支援的商務用 Skype 用戶端都支援它，但最好搭配使用的功能必須是最新的用戶端。
 
-在符合這些需求之後（而不是之前），使用者就可以[取得 Office 365 和團隊的授權](https://docs.microsoft.com/office365/enterprise/assign-licenses-to-user-accounts)。
+在符合這些需求之後（而不是在前面），使用者就可以[取得 Microsoft 365 或 Office 365 與團隊的授權](https://docs.microsoft.com/office365/enterprise/assign-licenses-to-user-accounts)。
 
-針對最佳的會議第一次體驗，使用者應該啟用[Exchange Online](exchange-teams-interact.md)、 [SharePoint Online 和商務用 OneDrive](sharepoint-onedrive-interact.md)，以及建立 Office 365 群組。 只有信箱是在 Exchange 內部部署的使用者，或是沒有 SharePoint Online 或商務用 OneDrive 或 Office 365 群組建立的使用者，才支援會議優先。 不過，其體驗將不會太完整。 具體說來，對於使用 Exchange Server 內部部署的組織而言，可能會發生（視 Exchange Server 的版本而定），在小組用戶端建立及查看會議，以及與合規性功能有關的一些限制。
+針對最佳會議第一次體驗，使用者應該啟用[Exchange Online](exchange-teams-interact.md)、 [SharePoint online 和商務用 OneDrive](sharepoint-onedrive-interact.md)，以及 Microsoft 365 群組建立。 只有信箱是在 Exchange 內部部署的使用者，或是沒有 SharePoint Online 或商務用 OneDrive 或 Microsoft 365 群組建立的使用者，才支援會議優先。 不過，其體驗將不會太完整。 具體說來，對於使用 Exchange Server 內部部署的組織而言，可能會發生（視 Exchange Server 的版本而定），在小組用戶端建立及查看會議，以及與合規性功能有關的一些限制。
 
 至少，使用者必須擁有[團隊的授權](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide)。 此外，如果需要的話，也可以授權[音訊會議](set-up-audio-conferencing-in-teams.md)。
 

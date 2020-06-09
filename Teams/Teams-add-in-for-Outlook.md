@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: de92e52b50ce863ba940badbdeff32c90f083fde
-ms.sourcegitcommit: 8395f91205bde549a0a92999ef00c5f5fb03fb80
+ms.openlocfilehash: 25b7163da92323a0695031a61d93895779a5ded7
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44583436"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637712"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>在 Outlook 中使用 Teams 會議增益集
 =======================================
@@ -65,7 +65,7 @@ Teams 會議按鈕會顯示在 Outlook iOS 和 Android 應用程式的最新組�
 
 當使用者按一下 [傳送]**** 之後，會議座標 (Teams 的加入連結和撥入號碼) 將會新增至會議邀請。  
 
-## <a name="teams-meeting-add-in-in-and-findtime-for-outlook"></a>Teams 會議增益集和適用於 Outlook 的 FindTime
+## <a name="teams-meeting-add-in-and-findtime-for-outlook"></a>Outlook 的團隊會議增益集與 FindTime
 
 FindTime 是 Outlook 的增益集，可協助使用者在整個公司的會議時間達成共識。 當會議受邀者提供其偏好的時間後，FindTime 就會代表使用者傳送會議邀請。 如果 FindTime 中已選取 [線上會議]**** 選項，則 FindTime 會安排商務用 Skype 或 Microsoft Teams 會議。 (FindTime 會使用由您組織設定的任何項目作為預設的線上會議頻道)。
 

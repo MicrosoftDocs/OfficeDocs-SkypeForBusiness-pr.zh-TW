@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f449d20f4364629185f719c3217023107f774dd9
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 62686c87d653532f7f64b797fbe301a1cf0d2610
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44350307"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638392"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>將 Microsoft StaffHub 小組移至 Microsoft 團隊中的倒班
 
@@ -56,7 +56,7 @@ ms.locfileid: "44350307"
 
 當您移動 StaffHub 小組時，小組成員資格、使用者詳細資料、小組排程及聊天資料都會移至團隊。 當您移動 StaffHub 小組時，檔案不會移動。 如果 StaffHub 小組包含您也想要移至團隊的檔案，您可以在個別步驟中移動檔案。
 
-每個 StaffHub 小組都需要對應的 Microsoft 365 或 Office 365 群組。 如果 StaffHub 小組與 Microsoft 365 群組相關聯，當您移動小組時，會保留該群組的隱私權設定。 如果 StaffHub 小組沒有與它相關聯的 Microsoft 365 群組，則會自動為您建立一個隱私權設定為 [私人] 的群組，以支援該轉場。  考慮到團隊與 StaffHub 之間的小組和群組命名差異，您可能會在團隊中看到不同的團隊名稱。 
+每個 StaffHub 小組都需要相對應的 Microsoft 365 或 Microsoft 365 群組。 如果 StaffHub 小組與 Microsoft 365 群組相關聯，當您移動小組時，會保留該群組的隱私權設定。 如果 StaffHub 小組沒有與它相關聯的 Microsoft 365 群組，則會自動為您建立一個隱私權設定為 [私人] 的群組，以支援該轉場。  考慮到團隊與 StaffHub 之間的小組和群組命名差異，您可能會在團隊中看到不同的團隊名稱。 
 
 當您將團隊從 StaffHub 轉至團隊時，使用者將無法再存取其在 StaffHub 中的排程，且會重新導向團隊中的時間。 我們建議您在組織中溝通此變更，以減少中斷並鼓勵使用者採納和探索團隊。 如果您有 Azure AD Premium，您可以[執行報告](run-report-to-show-staffhub-usage.md)，以取得貴組織中需要瞭解此變更的 StaffHub 使用者清單。  
 

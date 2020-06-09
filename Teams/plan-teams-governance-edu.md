@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 79b6e33c6434a1242b7d30322aff77b62f1b42fd
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 631d41d15eb727a9b9919e56720238189159f669
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780212"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638913"
 ---
 # <a name="microsoft-education-governance-faq-for-admins"></a>適用於系統管理員的 Microsoft 教育版控管常見問題集
 
@@ -35,7 +35,7 @@ ms.locfileid: "43780212"
 
 -   **前置詞尾碼命名原則**您可以使用 [首碼] 或 [尾碼] 定義小組（群組）的命名慣例，例如**GRP_US_My Group_Engineering**]。 首碼和尾碼可以是固定字串或使用者屬性（例如 **[部門]**），根據建立小組的使用者，新增到名稱中。
 -   **自訂封鎖的單字**您可以上傳特定組織中的使用者在其建立的小組名稱中封鎖的一組字。 例如，您可以封鎖條款**CEO**、**工資**與**HR**在小組名稱中用於不適用的群組。
--   **分類**您可以建立組織中的使用者在建立 Office 365 群組時可以設定的分類。 
+-   **分類**您可以建立組織中的使用者在建立 Microsoft 365 群組時可以設定的分類。 
 
 > [!IMPORTANT]
 > 使用 Microsoft 365 群組命名原則時，必須具備 Azure Active Directory Premium P1 授權或 Azure AD 基本 EDU 授權，才能針對一或多個 Microsoft 365 群組成員的每個唯一使用者。
@@ -66,14 +66,14 @@ ms.locfileid: "43780212"
 -   您可以使用 Microsoft Graph API （目前在 Beta 版）來建立、設定、克隆及封存小組。 如需詳細資訊，請參閱[使用 Microsoft GRAPH API 與 Microsoft 團隊共同作業](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview)。
 
 > [!TIP]
-> 學校資料同步處理會針對同步處理的每個類別建立 Office 365 群組，並[啟用隱藏的群組成員資格](https://techcommunity.microsoft.com/t5/School-Data-Sync/HiddenGroupMembershipEnabled-SDS-setting/td-p/159945)，因此只有班級中的教師與學生才能看到該類別的成員。 如果您使用不同的程式來建立班級群組，請使用新的-UnifiedGroup Cmdlet 的 HiddenGroupMembershipEnabled 參數，以符合相同的隱私權需求。
+> 學校資料同步處理會針對同步處理的每個類別建立 Microsoft 365 群組，並[啟用隱藏的群組成員資格](https://techcommunity.microsoft.com/t5/School-Data-Sync/HiddenGroupMembershipEnabled-SDS-setting/td-p/159945)，因此只有班級中的教師與學生才能看到該類別的成員。 如果您使用不同的程式來建立班級群組，請使用新的-UnifiedGroup Cmdlet 的 HiddenGroupMembershipEnabled 參數，以符合相同的隱私權需求。
 
 ## <a name="how-do-i-deal-with-teams-when-the-semester-or-quarter-ends"></a>如何在學期或季結束時處理團隊？
 
 我們建議您先思考，在學校學期或季結束時，您想要如何處理團隊資料：不論是要刪除，還是在學生完成課程後仍可供學生使用。 您可能會想要保留學校行事曆，因此您設定的任何原則都不會與假日發生衝突。 您可以使用下列工具來實施您的戰略：
 
 -   **保留原則：** 使用此功能刪除您指定之期限之前的所有資料，以確定舊資料已從聊天中移除（適用于所有或部分使用者）和頻道。 您也可以設定團隊保留內容，使其無法刪除。 如需詳細資訊，請參閱[Microsoft 團隊的保留原則](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Retention-policies-for-Microsoft-Teams/ba-p/178011)。
--   **到期原則：** 將團隊設定為在特定天數後到期。 到期前三十天之前，小組的所有擁有者都會收到通知，指出他們的小組需要更新，否則將會被刪除（即使系統管理員可以在30天內復原已刪除的小組）。 這個設定對確定未使用的團隊有 sunsetted 是非常實用的。 若要深入瞭解，請參閱[Office 365 群組過期原則](https://support.office.com/article/office-365-group-expiration-policy-8d253fe5-0e09-4b3c-8b5e-f48def064733)。
+-   **到期原則：** 將團隊設定為在特定天數後到期。 到期前三十天之前，小組的所有擁有者都會收到通知，指出他們的小組需要更新，否則將會被刪除（即使系統管理員可以在30天內復原已刪除的小組）。 這個設定對確定未使用的團隊有 sunsetted 是非常實用的。 若要深入瞭解，請參閱[Microsoft 365 群組過期原則](https://support.office.com/article/office-365-group-expiration-policy-8d253fe5-0e09-4b3c-8b5e-f48def064733)。
 
 -   封存**團隊：** 此設定會將團隊放入唯讀模式。 他們仍然可以流覽和搜尋，但沒有人可以新增任何新的文章。 封存[或還原團隊](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7)說明團隊擁有者如何封存團隊;小組擁有者也可以使用[圖形 API （Beta）](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview)來封存或還原團隊。
  

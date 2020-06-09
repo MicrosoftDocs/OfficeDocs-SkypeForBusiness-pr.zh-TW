@@ -23,12 +23,12 @@ ms.custom:
 - Licensing
 - seo-marvel-mar2020
 description: 瞭解使用 Microsoft 大量授權為組織啟用音訊會議功能的每分鐘付款選項。
-ms.openlocfilehash: 18324a5e2f0ec97311675fa4dcb7293a456486a0
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 4facf6f01c08104f920c779b59f38feabb2150fc
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44041720"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610508"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>音訊會議按分鐘計費
 
@@ -56,7 +56,7 @@ ms.locfileid: "44041720"
   
 [每分鐘支付] 要求貴組織啟用[通訊點數](what-are-communications-credits.md)，且必須為每位使用者指派授權，才能讓音訊會議正常運作。 如果您需要更多詳細資料，請參閱[為您的組織](set-up-communications-credits-for-your-organization.md)和/或[Microsoft 團隊附加元件授權](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)設定通訊點數。
   
-若要針對貴組織中的使用者啟用語音會議每分鐘支付，請參閱[試用或購買 Office 365 中的音訊會議](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)。
+若要讓貴組織中的使用者每分鐘支付一次語音會議，請參閱[在 Microsoft Office 365 或 Office 365 中試用或購買音訊會議](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)。
 
 ## <a name="why-is-it-best-for-you"></a>為什麼最適合您？
 

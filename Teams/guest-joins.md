@@ -18,12 +18,12 @@ description: 瞭解將組織外部的人員新增為 Microsoft 團隊中的團�
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8202f7cae250d497eb690a7cb337c12dd1b79cb1
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 7a30aa56260da8c5e07c8c08c1a8c3745ffb6ee5
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902548"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637222"
 ---
 <a name="how-a-guest-joins-a-team"></a>來賓如何加入小組
 ========================
@@ -35,11 +35,11 @@ Microsoft Teams 中的小組擁有者可以透過網頁或桌面，在其小組�
   
 ## <a name="how-a-guest-becomes-a-member-of-a-team"></a>來賓成為小組成員的方式
 
-1. 小組擁有者或 Office 365 系統管理員[將來賓新增至小組](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f)。
-1. Office 365 系統管理員或小組擁有者視需要管理來賓的功能：例如，允許來賓新增或刪除頻道或停用檔案存取權。
+1. 小組擁有者或 Microsoft 365 或 Office 365 系統管理員會[將來賓新增至小組](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f)。
+1. Microsoft 365 或 Office 365 系統管理員或小組擁有者視需要管理來賓的功能：例如，允許來賓新增或刪除頻道或停用檔案存取權。
 1. 來賓會收到來自小組擁有者的歡迎電子郵件，其中具有小組相關資訊，以及現在成為成員預期有什麼優點。 
 1. 來賓接受邀請。
-  擁有屬於 Azure Active Directory 或 Office 365 公司或學校帳戶電子郵件地址的來賓使用者可以直接接受邀請。 
+  擁有屬於 Azure Active Directory、Microsoft 365 或 Office 365 公司或學校帳戶的電子郵件地址的來賓使用者可以直接接受邀請。 
   如果來賓還沒有與其電子郵件地址相關聯的 Microsoft 帳戶，他們將會被導向以免費建立一個。 
 1. 接受邀請之後，來賓可以[參與小組和頻道](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499)、接收及回應頻道訊息、[存取頻道中的檔案](https://support.office.com/article/access-files-in-channels-c593c78a-27c4-4661-a598-682baa30ca7e)、參與交談、加入會議、在文件上共同作業等等。 
 

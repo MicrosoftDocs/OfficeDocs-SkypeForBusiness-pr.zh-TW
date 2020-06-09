@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何使用和管理 Microsoft Teams 中的私人頻道。
-ms.openlocfilehash: 761d6a06da6bb02991e706f6e18ac8ce7d4106f4
-ms.sourcegitcommit: bb88ac0c9489bb47957e5ef1074b5df3126b6fdb
-ms.translationtype: HT
+ms.openlocfilehash: 769fd2b489d65b276823abd7c3ff8f579100617a
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "42265628"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637932"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft Teams 中的私人頻道
 
@@ -68,10 +68,12 @@ Microsoft Teams 中的私人頻道為小組內的共同作業建立了焦點空�
 
 ### <a name="who-can-create-private-channels"></a>誰可以建立私人頻道？
 
-依預設，任何小組擁有者或小組成員都可以建立私人頻道。 來賓則無法建立。 您可以在小組層級和組織層級管理建立私人頻道的能力：
+依預設，任何小組擁有者或小組成員都可以建立私人頻道。 來賓則無法建立。 您可以在小組階層和組織層級管理建立私人頻道的功能。
 
-- 小組擁有者可在 [設定]**** 索引標籤上關閉或開啟成員建立私人頻道的能力。
-- 身為系統管理員，您可以使用 [原則][](teams-policies.md) 來控制組織中的哪些使用者能夠建立私人頻道。
+> 1. 移至系統管理中心 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 。
+
+> 2. 使用[原則](teams-policies.md)來控制您組織中的哪些使用者可以建立私人頻道。
+    一旦您設定好原則，小組擁有者就可以在小組的 [**設定**] 索引標籤中關閉或開啟成員建立私人頻道的功能。
 
 建立私人頻道的人即為私人頻道擁有者，只有私人頻道擁有者可以直接新增或移除頻道中的人員。 私人頻道擁有者可以將任何小組成員新增至他們建立的私人頻道，包括來賓。 私人頻道的成員有安全的交談空間，而且新成員加入之後，他們可以在該私人頻道中查看所有交談 (甚至是舊的交談)。
 
@@ -83,7 +85,7 @@ Microsoft Teams 中的私人頻道為小組內的共同作業建立了焦點空�
 
 如果私人頻道擁有者是一或多個私人頻道的最後一位擁有者，則無法透過 Teams 用戶端將其移除。
 
-如果私人頻道擁有者離開貴組織，或是從與小組相關聯的 Office 365 群組中被移除，則會自動將私人頻道的一位成員升級為私人頻道擁有者。
+如果私人頻道擁有者離開您的組織，或從與小組相關的 Microsoft 365 群組中移除，則私人通道的成員會自動升級為私人通道擁有者。
 
 ### <a name="what-can-team-owners-and-team-members-see-in-a-private-channel"></a>小組擁有者與小組成員可以在私人頻道中查看什麼？
 
@@ -105,14 +107,14 @@ Microsoft Teams 中的私人頻道為小組內的共同作業建立了焦點空�
 
 |動作  |小組擁有者|小組成員|小組來賓|私人頻道擁有者|私人頻道成員|私人頻道來賓|
 |---------|---------|---------|---------|---------|---------|---------|
-|建立私人頻道|是<sup>1</sup>|是<sup>1,2</sup>|否|N/A|N/A|N/A|
+|建立私人頻道|是<sup>1</sup>|是<sup>1,2</sup>|否|不適用|不適用|不適用|
 |刪除私人頻道|是|否|否|是|否|否|
-|離開私人頻道|N/A|N/A|N/A|是<sup>3</sup>|是|是|
-|編輯私人頻道|否|N/A|N/A|是|否|否|
+|離開私人頻道|不適用|不適用|不適用|是<sup>3</sup>|是|是|
+|編輯私人頻道|否|不適用|不適用|是|否|否|
 |還原已刪除的私人頻道|是|否|否|是|否|否|
-|新增成員|否|N/A|N/A|是|否|否|
-|編輯設定|否|N/A|N/A|是|否|否|
-|管理索引標籤和應用程式|否|N/A|N/A|是<sup>4</sup>|是<sup>5</sup>|否|
+|新增成員|否|不適用|不適用|是|否|否|
+|編輯設定|否|不適用|不適用|是|否|否|
+|管理索引標籤和應用程式|否|不適用|N/A|是<sup>4</sup>|是<sup>5</sup>|否|
 
 <sup>1</sup> 假定您 (系統管理員) 設定的原則允許使用者建立私人頻道。<br>
 <sup>2</sup> 每個小組都有個設定，可讓小組擁有者開啟或關閉成員建立私人頻道的能力。 小組擁有者一定可以建立私人頻道。<br>

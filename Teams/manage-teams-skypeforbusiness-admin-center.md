@@ -21,12 +21,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: a847d27a53ab406b248f011dd12742b23b69e999
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: f30db1425c61e8cb5f916345c0b751bc81c90a0f
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44041960"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637422"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>在轉換至新 Microsoft Teams 系統管理中心期間管理 Teams
 ======================================================
@@ -36,7 +36,7 @@ ms.locfileid: "44041960"
 
 ## <a name="what-is-the-new-microsoft-teams-admin-center"></a>新的 Microsoft 團隊系統管理中心是什麼？  
 
-新的系統管理中心體驗將提供統一的體驗，讓您管理團隊和商務用 Skype。 我們正在提供其他功能、端對端的深入分析，以及管理使用者層級的團隊設定能力。
+新的系統管理中心體驗將提供統一的體驗，讓您管理團隊和商務用 Skype。 我們正在提供其他功能、端對端的深入分析，以及管理使用者層級的團隊設定能力。 您可以存取系統管理中心 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 。
 
 ![Microsoft 團隊系統管理中心的螢幕擷取畫面。](media/manage-teams-skype-for-business-admin-center-portal.png)
 
@@ -69,14 +69,14 @@ ms.locfileid: "44041960"
 |通話與會議     |允許會議中的影片         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |使用者          |
 |通話與會議     |允許在會議中共用螢幕         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |使用者          |
 |通話與會議     |允許私人通話         |[TeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)        |使用者          |
-|訊息傳送     |啟用 Giphy，讓使用者可以在交談中新增 Gif         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |使用者         |
-|訊息傳送     |內容分級         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |使用者         |
-|訊息傳送     |啟用使用者可以編輯及新增至交談的 meme         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |使用者         |
-|訊息傳送     |啟用使用者可以編輯及新增至交談的不乾膠標籤         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |使用者         |
-|訊息傳送     |允許擁有者刪除所有郵件         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |使用者         |
-|訊息傳送     |允許使用者編輯自己的郵件         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |使用者         |
-|訊息傳送     |允許使用者刪除自己的郵件         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |使用者         |
-|訊息傳送     |允許使用者私下聊天         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |使用者         |
+|傳訊     |啟用 Giphy，讓使用者可以在交談中新增 Gif         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |使用者         |
+|傳訊     |內容分級         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |使用者         |
+|傳訊     |啟用使用者可以編輯及新增至交談的 meme         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |使用者         |
+|傳訊     |啟用使用者可以編輯及新增至交談的不乾膠標籤         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |使用者         |
+|傳訊     |允許擁有者刪除所有郵件         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |使用者         |
+|傳訊     |允許使用者編輯自己的郵件         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |使用者         |
+|傳訊     |允許使用者刪除自己的郵件         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |使用者         |
+|傳訊     |允許使用者私下聊天         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |使用者         |
 
 <sup>1</sup>已過時的來賓。 您現在可以在 Microsoft 團隊系統管理中心管理啟用/停用來賓的功能。 啟用/停用商務用團隊企業、Edu 學生及 Edu 教職員將會在不久後過時。 您應該在 Microsoft 365 系統管理中心指派授權來加以管理。 請參閱[管理使用者對 Microsoft 團隊的存取權](user-access.md)。
 <br><br>
@@ -115,4 +115,4 @@ ms.locfileid: "44041960"
 
 ## <a name="manage-settings-after-the-migration"></a>在遷移之後管理設定
 
-完成這些設定的遷移之後，我們會在 Office 365 系統管理中心和商務用 Skype 系統管理中心將其停用，然後在新的 Microsoft 團隊系統管理中心管理它們。
+完成這些設定的遷移之後，我們會在 Microsoft 365 系統管理中心和商務用 Skype 系統管理中心將其停用，然後在新的 Microsoft 團隊系統管理中心管理它們。

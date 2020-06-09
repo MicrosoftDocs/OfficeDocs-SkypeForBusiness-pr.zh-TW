@@ -1,5 +1,5 @@
 ---
-title: 以下是您在 Office 365 中使用電話系統所取得的結果
+title: 以下是可透過電話系統獲得的功能
 ms.reviewer: ''
 author: CarolynRowe
 ms.author: crowe
@@ -22,27 +22,27 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: '瞭解功能、可用性，以及如何規劃及設定商務用 Microsoft Phone 系統。 '
-ms.openlocfilehash: 27ec4803a33f524d1c260c27c1af3c71210b33d2
-ms.sourcegitcommit: 152eb7daacd0a36f42aa441633c12c7037a0969a
+ms.openlocfilehash: fa7acbd4593b44805b2f9044602f3521baacaaaf
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "42288701"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638342"
 ---
-# <a name="heres-what-you-get-with-phone-system-in-office-365"></a>以下是您在 Office 365 中使用電話系統所取得的結果
+# <a name="heres-what-you-get-with-phone-system"></a>以下是可透過電話系統獲得的功能
 
-本文將說明 Office 365 功能中的電話系統。 如需使用電話系統作為私人分支 Exchange （PBX）替換的詳細資訊，以及連線至公用交換電話網絡（PSTN）的選項，請參閱[Office 365 中的電話系統是什麼](what-is-phone-system-in-office-365.md)。
+本文將說明電話系統功能。 如需使用電話系統作為私人分支 Exchange （PBX）更換的詳細資訊，以及連線至公用交換電話網絡（PSTN）的選項，請參閱[什麼是電話系統](what-is-phone-system-in-office-365.md)。
 
 用戶端可在 PC、Mac 和行動裝置上使用，它可提供從平板電腦和手機到 Pc 和桌面 IP 手機的裝置功能。 如需詳細資訊，請參閱[取得 Microsoft 團隊的用戶端](get-clients.md)。
 
   
-## <a name="phone-system-in-office-365-features"></a>Office 365 功能中的電話系統
+## <a name="phone-system-features"></a>電話系統功能
 
 [電話系統] 提供下列功能。 除非另有說明，否則在團隊和商務用 Skype Online 中都有提供功能。
   
 |||
 |:-----|:-----|
-|**Office 365 中的電話系統功能** <br/> |**描述** <br/> |
+|**電話系統功能** <br/> |**描述** <br/> |
 |[雲端自動語音應答](what-are-phone-system-auto-attendants.md) <br/> |可讓您建立可讓外部與內部呼叫者找到並將來電放入或轉接給貴組織中的公司使用者或部門的功能表系統。  <br/> |
 |[雲端通話佇列](create-a-phone-system-call-queue.md) <br/> |可讓您設定為貴組織管理呼叫佇列的方式：例如，[保留問候語]、[暫留音樂]、[搜尋下一個可用的通話代理程式] 來處理通話，依此類推。  <br/> |
 |等候音樂 | 當從公用交換電話網絡（PSTN）的外部呼叫置於保留狀態時，會播放服務所定義的預設音樂。 除了呼叫佇列撥打電話之外，此功能也適用于一對一的 PSTN 對團隊通話。 這項功能可提供與其他平臺的保留期間通知同位。 此功能可由系統管理員進行設定，但[目前只能透過 PowerShell](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)進行設定。 在 PSTN 通話的諮詢式轉接中，也不支援等候音樂。|
@@ -82,14 +82,14 @@ ms.locfileid: "42288701"
 
 ## <a name="related-topics"></a>相關主題
 
-- [什麼是 Office 365 中的電話系統](what-is-phone-system-in-office-365.md)
+- [什麼是電話系統](what-is-phone-system-in-office-365.md)
 - [Microsoft 團隊中的雲端語音](cloud-voice-landing-page.md)
 - [設定電話系統](setting-up-your-phone-system.md)
 - [哪一個通話方案適合您？](calling-plan-landing-page.md)
 - [電話系統直接路由](direct-routing-landing-page.md)
 - [監控及管理通話品質](monitor-call-quality-qos.md)
-- [Microsoft 團隊附加元件授權](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
-- [電話系統價格](https://products.office.com/microsoft-teams/voice-calling#requirements)
+- [Microsoft Teams 附加元件授權](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+- [電話系統的定價](https://products.office.com/microsoft-teams/voice-calling#requirements)
 - [使用 callings 與會議的虛擬化桌面基礎結構團隊](teams-for-vdi.md#teams-on-vdi-with-calling-and-meetings)
 
   

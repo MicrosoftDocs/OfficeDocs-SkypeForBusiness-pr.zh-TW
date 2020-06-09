@@ -22,12 +22,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 瞭解您可以在商務用 Skype 中針對預設系統訊息和語音信箱留言設定哪些語言。
-ms.openlocfilehash: e5158c7b313ad13abbd370550c38f54c8df04d29
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 0931ee7923b26fe5c81c442a895dbb1bfde8c601
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904518"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638762"
 ---
 # <a name="languages-for-voicemail-greetings-and-messages"></a>語音信箱問候語和訊息的語言
 
@@ -80,7 +80,7 @@ ms.locfileid: "43904518"
 ## <a name="related-topics"></a>相關主題
 [音訊會議與通話方案的適用國家/地區](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-[以下是您在 Office 365 中使用電話系統所取得的結果](here-s-what-you-get-with-phone-system.md)
+[以下是可透過電話系統獲得的功能](here-s-what-you-get-with-phone-system.md)
   
   
  

@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.teamsadmincenter.voice.callerid.overview
 description: 您可以使用稱為 CallingLineIdentity 的原則，控制撥打電話給電話系統使用者的撥入和撥出電話的本機號碼。
-ms.openlocfilehash: 2547e6ca3aed10d112897aa1b24900a479c5c8ef
-ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
+ms.openlocfilehash: 67bb9d13d9cdece2793837044e280927e03c5795
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44224206"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638893"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>如何在貴組織中使用來電顯示
 
@@ -50,7 +50,7 @@ ms.locfileid: "44224206"
   
 - 指派給使用者的電話號碼，這是預設值。
     
-- 在 Office 365 電話號碼庫存的通話方案中，歸類為*服務*和*免付費*電話號碼的電話號碼。 它通常會指派給組織的自動回應或通話佇列。
+- 在通話方案電話號碼庫存中分類為*服務*和*免付費*號碼的電話號碼。 它通常會指派給組織的自動回應或通話佇列。
     
 - 設為 [匿名]。
     

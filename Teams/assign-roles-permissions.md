@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ba628bf3f58523dc37e2273b437f22af1a0ebc19
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 45cfe8ed255e889093044672cb738152adaaf6ae
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778929"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610135"
 ---
 <a name="assign-team-owners-and-members-in-microsoft-teams"></a>在 Microsoft 團隊中指派小組擁有者和成員
 =================================================
@@ -29,7 +29,7 @@ ms.locfileid: "43778929"
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-在 Microsoft 團隊中，有兩個使用者角色： [**擁有**者] 和 [**成員**]。 根據預設，會將建立新團隊的使用者授與擁有者狀態。 此外，擁有者和成員也可以擁有頻道的仲裁者功能（前提是已設定裁決）。 如果您是從現有的 Office 365 群組建立團隊，則會繼承許可權。
+在 Microsoft 團隊中，有兩個使用者角色： [**擁有**者] 和 [**成員**]。 根據預設，會將建立新團隊的使用者授與擁有者狀態。 此外，擁有者和成員也可以擁有頻道的仲裁者功能（前提是已設定裁決）。 如果團隊是從現有的 Microsoft 365 群組建立，則會繼承許可權。
 
 下表顯示擁有者和成員之間許可權的差異。
 
@@ -44,7 +44,7 @@ ms.locfileid: "43778929"
 | **編輯標準頻道名稱/描述** |    是     |    是<sup>2</sup>|
 |        **刪除標準頻道**         |    是     |    是<sup>2</sup>|
 |          ***新增私人頻道**          |    是     |    是<sup>2</sup>|
-| ***編輯私人頻道名稱/描述** |    否     |    N/A|
+| ***編輯私人頻道名稱/描述** |    否     |    不適用|
 |        ***刪除私人頻道**         |    是     |    否|
 |          **新增成員**          |  是<sup>3</sup>   |     無<sup>4</sup>    |
 |          **要求新增成員**          |  不適用   |     是<sup>5</sup>     |
@@ -71,7 +71,7 @@ ms.locfileid: "43778929"
 
 ## <a name="assign-a-user-role"></a>指派使用者角色
 
-若要指派使用者角色，請在 [團隊] 中選取團隊名稱，然後按一下 [**更多選項** > **管理團隊**]。 您可以在 [**成員**] 索引標籤上新增成員，然後選擇 [擁有人] 和 [版主] （如果您有足夠的許可權）。 如需詳細資訊，請參閱[變更團隊中的團隊設定](https://support.office.com/article/ce053b04-1b8e-4796-baa8-90dc427b3acc)。
+若要指派使用者角色，請在 [團隊] 中選取團隊名稱，然後按一下 [**更多選項**  >  **管理團隊**]。 您可以在 [**成員**] 索引標籤上新增成員，然後選擇 [擁有人] 和 [版主] （如果您有足夠的許可權）。 如需詳細資訊，請參閱[變更團隊中的團隊設定](https://support.office.com/article/ce053b04-1b8e-4796-baa8-90dc427b3acc)。
 
 ## <a name="permissions-to-create-teams"></a>建立小組的許可權
 

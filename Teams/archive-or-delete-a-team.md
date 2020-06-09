@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3e07d851d853ee3fb57454177bed48590cdb55f3
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 907138205d4d5e7be1933f00f0a7ace0340d858f
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904965"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44611002"
 ---
 <a name="archive-or-delete-a-team-in-microsoft-teams"></a>在 Microsoft Teams 中封存或刪除團隊
 ===========================================
@@ -42,7 +42,7 @@ ms.locfileid: "43904965"
 
 按照這些步驟以封存小組。
 
-1. 在 Microsoft Teams 系統管理中心，選取 [小組]****。
+1. 在系統管理中心的中 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> ，選取 [**團隊**]。
 2. 按一下小組名稱以選取小組。
 3. 選取 [封存]****。 將會出現下列訊息。
 
@@ -55,7 +55,7 @@ ms.locfileid: "43904965"
 
 按照下列步驟，讓封存的小組成為使用中。
 
-1. 在 Microsoft Teams 系統管理中心，選取 [小組]****。
+1. 在系統<a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">管理中心</a>中，選取 [**團隊**]。
 2. 按一下小組名稱以選取小組。
 3. 選取 [解除封存]****。 小組的狀態會變更為 [使用中]****。
 
@@ -63,16 +63,16 @@ ms.locfileid: "43904965"
 
 如果未來不再需要小組，您可以將它刪除，而不只是封存。 按照下列步驟刪除小組。
 
-1.  在 Microsoft Teams 系統管理中心，選取 [小組]****。
+1.  在系統<a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">管理中心</a>中，選取 [**團隊**]。
 2.  按一下小組名稱以選取小組。
 3.  選取 [刪除]****。 將會出現確認訊息。
 4.  選取 [刪除]**** 以永久刪除小組。
 
 ## <a name="restore-a-deleted-team"></a>還原刪除的小組
 
-請按照下列步驟，藉由還原與小組相關聯的 Office 365 群組，來還原已刪除的小組。 還原小組的 Office 365 群組，會還原小組內容，包括索引標籤、標準頻道和私人頻道、及其關聯的網站集合。
+若要還原已刪除的小組，請執行下列步驟，還原與小組相關聯的 Microsoft 365 群組。 還原小組的 Microsoft 365 群組會復原小組內容，包括索引標籤、標準通道、私人頻道以及其相關的網站集合。
 
-依預設，刪除的 Office 365 群組會保留 30 天。 此 30 天期間稱為「虛刪除」，因為您可還原該群組。 如需深入了解，請參閱[還原已刪除的 Office 365 群組](https://docs.microsoft.com/office365/admin/create-groups/restore-deleted-group)。
+根據預設，已刪除的 Microsoft 365 群組會保留30天。 此 30 天期間稱為「虛刪除」，因為您可還原該群組。 若要深入瞭解，請參閱[還原已刪除的 Microsoft 365 群組](https://docs.microsoft.com/office365/admin/create-groups/restore-deleted-group)。
 
 ### <a name="install-the-azureadpreview-module"></a>安裝 AzureADPreview 模組
 
@@ -92,7 +92,7 @@ ms.locfileid: "43904965"
     Install-Module AzureADPreview
     ```    
 
-### <a name="restore-the-deleted-office-365-group"></a>還原刪除的 Office 365 群組
+### <a name="restore-the-deleted-microsoft-365-group"></a>還原已刪除的 Microsoft 365 群組
 
 1. 執行下列命令連線到 Azure AD：
     ```PowerShell

@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 瞭解如何指派、變更或移除團隊中的公司電話號碼，讓您的小組使用者可以在外部進行通話。
-ms.openlocfilehash: a8dea997df1511406a302922b291fa2248f29356
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: 858c6c5f9995d4d9b3914ee769de1bb75d1951af
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326800"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44609958"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>指派、變更或移除使用者的電話號碼
 
@@ -51,7 +51,8 @@ ms.locfileid: "44326800"
 5. 視您是否想要傳送電子郵件給使用者的電話號碼資訊而定，請關閉或開啟**含有電話號碼資訊的電子郵件使用者**。 根據預設，這是開啟的。 
 6. 按一下 [儲存]****。
     > [!NOTE]
-    > 由於 Office 365 與團隊之間的延遲，可能需要幾個小時的時間，才能啟用使用者。 如果在幾個小時後沒有正確指派電話號碼，請[與商務用客戶支援人員-系統管理協助](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)。 我們在這裡協助您！
+    > 由於 Microsoft 365 或 Office 365 與團隊之間的延遲，可能需要長達24小時才能啟用使用者。 如果在24小時後沒有正確指派電話號碼，請[與商務用客戶支援人員-系統管理協助](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)。 我們在這裡協助您！
+
   
 ## <a name="change-a-phone-number-for-a-user"></a>變更使用者的電話號碼
  

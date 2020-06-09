@@ -17,12 +17,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何使用意見反應原則來控制貴組織中的小組使用者是否可以將團隊的意見反應提交給 Microsoft。
-ms.openlocfilehash: b016a1d566f15cdabea55913b7fe107d86dee358
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: 22e254cb2db6dc63e01c9c8ef5628fb97cfa0e16
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326680"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637952"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>管理 Microsoft 團隊中的意見反應原則
 
@@ -32,7 +32,7 @@ ms.locfileid: "44326680"
 
 **[提供意見反應] 功能**
 
-使用者可以移至**協助**  >  **提供小組意見**反應，以傳送有關團隊的意見反應與建議給我們。 透過 [**提供意見**反應] 傳送的資料在您的 Office 365 協定下被視為「支援資料」，包括其他會視為「客戶資料」或「個人資料」的資訊。
+使用者可以移至**協助**  >  **提供小組意見**反應，以傳送有關團隊的意見反應與建議給我們。 透過 [**提供意見**反應] 傳送的資料在您的 Microsoft 365 或 Office 365 協定下會被視為「支援資料」，包括其他會被視為「客戶資料」或「個人資料」的資訊。
 
 ![小組中的 [提供意見反應] 選項的螢幕擷取畫面](media/manage-feedback-policies-in-teams-give-feedback.png)
 

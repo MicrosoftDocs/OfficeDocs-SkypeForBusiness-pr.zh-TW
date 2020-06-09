@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4cf14616d4cfa2abc2caa99aee052b30e902172d
-ms.sourcegitcommit: 769241842058cfb4618460fad2dde1494a3609a1
-ms.translationtype: HT
+ms.openlocfilehash: 5846d3912f9acea3a21174b7468e8376e9779b55
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42574020"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637502"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams 中的團隊和頻道概覽
 
@@ -56,7 +56,7 @@ ms.locfileid: "42574020"
 
 為您的整個組織啟用 Microsoft Teams 時，指定的團隊擁有者可以邀請與他們共同作業的任何員工加入其團隊。 Microsoft Teams 可讓團隊擁有者根據姓名輕鬆地在組織中新增人員。 視組織的設定而定，您也可以將屬於團隊成員但位在組織外部的來賓新增至您的團隊。 如需詳細資訊，請參閱 [Microsoft Teams 中的來賓存取](guest-access.md)。 
 
-團隊擁有者也可以根據現有的 Office 365 群組建立團隊。 對群組所做的任何變更都會自動與 Microsoft Teams 同步。 根據現有的 Office 365 群組建立團隊不僅能簡化邀請和管理成員的程序，還能同步 Microsoft Team 內的群組檔案。
+小組擁有者也可以根據現有的 Microsoft 365 群組建立小組。 對群組所做的任何變更都會自動與 Microsoft Teams 同步。 根據現有的 Microsoft 365 群組建立小組，不僅可簡化邀請與管理成員的程式，還能同步處理 Microsoft 團隊內的群組檔案。
 
 **團隊角色**
 
@@ -77,7 +77,7 @@ Microsoft Teams 中的主要角色如下：
 
 如果您是 Office 365 中的 Microsoft Teams 系統管理員，您可以在 Microsoft Teams 系統管理中心中存取全系統的設定。 這些設定可以影響團隊擁有者可在其團隊設定底下看到的選項和預設值。 例如，您可以啟用預設的「一般」頻道，在整個團隊中發佈公告、進行討論和提供資源，這些都會顯示在所有團隊中。
 
-根據預設，所有使用者都有權在 Microsoft Teams 內建立團隊 (若要修改此設定，請參閱[在 Teams 中指派角色和權限](assign-roles-permissions.md))。 現有 Office 365 群組的使用者也可以使用 Teams 功能來加強其權限。
+根據預設，所有使用者都有權在 Microsoft Teams 內建立團隊 (若要修改此設定，請參閱[在 Teams 中指派角色和權限](assign-roles-permissions.md))。 現有 Microsoft 365 群組的使用者也可以利用團隊功能加強其許可權。
 
 為了讓使用者與 Microsoft Teams 接觸而建立早期規劃活動的其中一個重點是，這可協助使用者思考並了解 Teams 可如何加強他們日常生活中的共同作業。 藉由與其他人交談，協助他們選取目前以零碎方式進行共同作業的商務案例。 透過相關索引標籤將他們聚集在頻道中，以協助他們完成工作。 Teams 最強的使用案例之一就是任何跨組織的程序。 
 

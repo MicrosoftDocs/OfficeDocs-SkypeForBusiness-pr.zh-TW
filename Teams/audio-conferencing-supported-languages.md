@@ -22,16 +22,16 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 尋找每個國家或地區的電話撥入式會議語言，以及指派的區域性識別碼（en-us、da-深、de 等）
-ms.openlocfilehash: 061458585854cf9a80113dce9877779806c7c418
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 2718db11c905678a49650ad41f851e8f6e4e393c
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826221"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610292"
 ---
 # <a name="audio-conferencing-supported-languages"></a>音訊會議的支援語言
 
-當您在 Office 365 中設定和設定音訊會議時，您可以選取當來電者撥入商務用 Skype 或 Microsoft 團隊會議時所使用的主要和次要（最多4個）語言。 以下是音訊會議支援語言的清單： 
+當您在 Microsoft 365 或 Office 365 中設定和設定音訊會議時，您可以選取當來電者撥入商務用 Skype 或 Microsoft 團隊會議時所使用的主要和次要（最多4個）語言。 以下是音訊會議支援語言的清單： 
   
 > [!IMPORTANT]
 > 主要和次要語言只能在專用音訊會議電話號碼上變更。 
@@ -46,7 +46,7 @@ ms.locfileid: "41826221"
 |中文（簡體）  <br/> |中國  <br/> |zh-cn&platform-CN  <br/> |
 |中文（繁體）  <br/> |台灣  <br/> |zh-cn&platform-幼圓  <br/> |
 |克羅地亞語  <br/> |克羅埃西亞  <br/> |hr-HR  <br/> |
-|捷克文  <br/> |捷克  <br/> |cs-CZ  <br/> |
+|捷克文  <br/> |捷克共和國  <br/> |cs-CZ  <br/> |
 |丹麥文  <br/> |丹麥  <br/> |da-深  <br/> |
 |荷蘭文  <br/> |荷蘭  <br/> |nl-nl&platform-NL-NL&PLATFORM  <br/> |
 |英語  <br/> |澳洲  <br/> |en-AU  <br/> |
@@ -93,11 +93,11 @@ ms.locfileid: "41826221"
 
 - 若要節省時間或將這項作業自動化，您可以使用[get-csonlinedialinconferencinglanguagessupported](https://go.microsoft.com/fwlink/?LinkId=617684)或[CsOnlineDialInConferencingServiceNumber](https://go.microsoft.com/fwlink/?LinkId=617689) Cmdlet。
     
-- Windows PowerShell 全部說明如何管理使用者，以及允許或不允許的使用者執行。 在 Windows PowerShell 中，您可以使用單一管理點來管理 Office 365，以便在有多項工作需要執行時簡化日常作業。 若要開始使用 Windows PowerShell，請參閱以下主題：
+- Windows PowerShell 全部說明如何管理使用者，以及允許或不允許的使用者執行。 在 Windows PowerShell 中，您可以使用單一管理點來管理 Microsoft 365 或 Office 365，以便在您有多個工作執行時簡化日常作業。 若要開始使用 Windows PowerShell，請參閱以下主題：
     
   - [為什麼需要使用 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [使用 Windows PowerShell 管理 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [使用 Windows PowerShell 管理 Microsoft 365 或 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
     
 - Windows PowerShell 的速度、簡潔性和生產率都有許多優點，只是使用 Microsoft 365 系統管理中心，例如當您在一次為多位使用者進行設定變更時。 請參閱下列主題，瞭解這些優點： 
     
@@ -112,6 +112,6 @@ ms.locfileid: "41826221"
   
 ## <a name="related-topics"></a>相關主題
 
-[試用或購買 Office 365 的音訊會議](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[在 Microsoft 365 或 Office 365 中試用或購買音訊會議](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
 
 

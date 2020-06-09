@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: 在本文中，您將瞭解如何在 Microsoft 團隊中建立、編輯和管理資源帳戶。
-ms.openlocfilehash: 2bf333eef72de4744f13cfe25a4457facaf4b3e6
-ms.sourcegitcommit: f9db7effbb1e56484686afe4724cc3b73380166d
+ms.openlocfilehash: f454658cb051ed9e918ca8a1d90c716a35933f68
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "44565900"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637972"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>在 Microsoft Teams 中管理資源帳戶
 
@@ -54,7 +54,7 @@ ms.locfileid: "44565900"
 
 如果自動語音應答或呼叫佇列嵌套在頂層自動語音應答底下，且您想要將多個進入點輸入到自動語音應答及呼叫佇列的結構中，相關聯的資源帳戶只需要電話號碼。
 
-若要將來電重新導向至組織中的目前線上人員，他們必須具備**電話系統**授權，且可供企業語音使用或擁有 Office 365 通話方案。 請參閱[指派 Microsoft 團隊附加元件授權](teams-add-on-licensing/assign-teams-add-on-licenses.md)。 若要啟用企業語音，您可以使用 Windows PowerShell。 例如，執行：`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+若要將來電重新導向至您組織中的線上人員，他們必須具備**手機系統**授權，且可供企業語音使用，或是有 Microsoft 365 或 Office 365 通話方案。 請參閱[指派 Microsoft 團隊附加元件授權](teams-add-on-licensing/assign-teams-add-on-licenses.md)。 若要啟用企業語音，您可以使用 Windows PowerShell。 例如，執行：`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 > [!WARNING]
 > 為了避免發生資源帳戶的問題，請依照下列步驟進行。
@@ -118,7 +118,7 @@ ms.locfileid: "44565900"
 
 ![[新增資源帳戶] 選項的螢幕擷取畫面](media/res-acct.png)
 
-接著，將授權套用至 Microsoft 365 系統管理中心的資源帳戶，如[將授權指派給使用者](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide)中所述。
+接著，將授權套用至 Microsoft 365 系統管理中心的資源帳戶，如[個別或大量新增使用者](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users)中所述。
 
 ### <a name="edit-resource-account"></a>編輯資源帳戶 
 
@@ -182,7 +182,7 @@ ms.locfileid: "44565900"
     New-CsOnlineApplicationInstance -UserPrincipalName testra1@contoso.com -ApplicationId "ce933385-9390-45d1-9512-c8d228074e07" -DisplayName "Resource account 1"
     ```
 
-2. 您必須先將授權套用至該資源帳戶，才能使用該帳戶。 如需如何將授權套用至 Microsoft 365 系統管理中心的帳戶，請參閱[指派授權給使用者](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)並[指派商務用 Skype 授權](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)。
+2. 您必須先將授權套用至該資源帳戶，才能使用該帳戶。 若要瞭解如何將授權套用至 Microsoft 365 系統管理中心的帳戶，請參閱[個別或大量新增使用者](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users)，以及[指派商務用 Skype 授權](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)。
 
 3. 可選將正確的授權套用至資源帳戶之後，您就可以將電話號碼指派給資源帳戶，如下所示。 並非所有資源帳戶都需要電話號碼。 如果您沒有將授權套用至資源帳戶，電話號碼指派將會失敗。
 

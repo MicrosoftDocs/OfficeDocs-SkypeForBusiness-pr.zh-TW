@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 17843b886fc334d7b02907882a82dffdf302e9f5
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 698d63f0d53119569f6b212fa7db7a16c827f571
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137983"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610055"
 ---
 # <a name="evaluate-my-environment"></a>評估我的環境
 
@@ -66,8 +66,8 @@ ms.locfileid: "43137983"
 使用下列考慮來評估貴組織的準備工作，以解決使用者變更管理問題。
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>決策點</td><td><ul><li>您是否曾在使用者採用軟體或服務之前取得成功？</li><li>您可以追蹤使用 uptake 嗎？</li><li>您是否擁有設計及管理初始&mdash;和持續進行&mdash;的採納活動（認識、訓練及支援）的資源？</li><li>您是否擁有專用的使用者採用/變更管理小組，或是您是否可以投資這些資源以確保商業結果？</li></ol></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>後續步驟</td><td><ul><li>如果您對&quot;上述&quot;所有專案回答 [是]，請找出適當的使用者變更管理專案關係人，並開始進行您的使用者準備規劃。</li><li>如果您回答&quot;「&quot;不是」的部分或全部，請考慮使用外部資源來協助您的組織進行變更管理與採納相關活動。</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>決策點</td><td><ul><li>您是否曾在使用者採用軟體或服務之前取得成功？</li><li>您可以追蹤使用 uptake 嗎？</li><li>您是否擁有設計及管理初始 &mdash; 和持續進行的 &mdash; 採納活動（認識、訓練及支援）的資源？</li><li>您是否擁有專用的使用者採用/變更管理小組，或是您是否可以投資這些資源以確保商業結果？</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>後續步驟</td><td><ul><li>如果您 &quot; 對上述所有專案回答 [是] &quot; ，請找出適當的使用者變更管理專案關係人，並開始進行您的使用者準備規劃。</li><li>如果您回答「 &quot; 不 &quot; 是」的部分或全部，請考慮使用外部資源來協助您的組織進行變更管理與採納相關活動。</li></ol></td></tr>
 </table>
 
 
@@ -124,7 +124,7 @@ ms.locfileid: "43137983"
 Vpn 為許多組織提供重要的服務。 遺憾的是，它們通常不是專為支援即時媒體而設計或設定。 某些 Vpn 可能也不支援 UDP。 Vpn 也會在已加密的媒體流量上方引入額外的加密層級。 此外，由於將流量釘選到 VPN 裝置，因此小組服務的連線可能無法有效。
 此外，它們不一定是從容量角度設計來容納小組將需要的預期負載。
 
-建議您提供一個替代路徑來避開團隊交通的 VPN。 這通常稱為*分割隧道 VPN*。 分割隧道表示 Office 365 的流量不會穿過 VPN，但會直接移至 Office 365。 這項變更會對品質產生正面的影響，但也會提供減少 VPN 裝置與組織網路負載的次要優點。
+建議您提供一個替代路徑來避開團隊交通的 VPN。 這通常稱為*分割隧道 VPN*。 分割隧道意味著 Microsoft 365 或 Office 365 的流量不會穿過 VPN，但會直接移至 Microsoft 365 或 Office 365。 這項變更會對品質產生正面的影響，但也會提供減少 VPN 裝置與組織網路負載的次要優點。
 
 若要實現分割隧道，請諮詢您的 VPN 供應商以取得設定詳細資料。
 
@@ -153,10 +153,10 @@ Microsoft 團隊會連線到 Microsoft Online 服務，並需要網際網路連�
 
 開啟這些埠對於可靠的小組部署而言是必要的。 封鎖這些埠是不受支援的，而且會影響媒體質量。
 
-如果您的組織要求您指定要開啟這些埠的確切 IP 位址範圍和網域，您可以限制這些埠的目標 IP 範圍和網域。 如需確切的埠、通訊協定和 IP 範圍清單，請參閱[Office 365 url 與 ip 位址範圍](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams)。
+如果您的組織要求您指定要開啟這些埠的確切 IP 位址範圍和網域，您可以限制這些埠的目標 IP 範圍和網域。 如需確切的埠、通訊協定和 IP 範圍清單，請參閱[Microsoft 365 或 Office 365 url 與 ip 位址範圍](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams)。
 如果您選擇限制目標 IP 位址範圍和網域，您必須確保將埠清單和範圍保持在最新狀態，因為它們可能會變更。 您可以訂閱[此 RSS](https://go.microsoft.com/fwlink/p/?linkid=236301)摘要，以便在變更發生時進行更新。 您也可以定期執行[商務用 Skype 網路評估工具](https://www.microsoft.com/download/details.aspx?id=53885)來測試所有埠是否已開啟，這也是一種很好的做法。 您可以在下一節中找到更多關於此工具功能的資訊。
 
-在要部署的 proxy 伺服器事件中，建議您略過所有團隊服務的 proxy 伺服器。 雖然您可以使用 proxy，但很可能是因為媒體不得不使用 TCP，而不是 UDP，所以品質會降低。 如需 proxy 伺服器和略過的詳細資訊，請參閱[Office 365 url 與 IP 位址範圍](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges)。
+在要部署的 proxy 伺服器事件中，建議您略過所有團隊服務的 proxy 伺服器。 雖然您可以使用 proxy，但很可能是因為媒體不得不使用 TCP，而不是 UDP，所以品質會降低。 如需 proxy 伺服器及回避的詳細資訊，請參閱[Microsoft 365 或 Office 365 url 與 IP 位址範圍](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges)。
 
 <!--ENDOFSECTION-->
 
@@ -166,14 +166,14 @@ Microsoft 團隊會連線到 Microsoft Online 服務，並需要網際網路連�
 
 您可以下載[商務用 Skype 網路評估工具](https://www.microsoft.com/download/details.aspx?id=53885)，以測試您的網路是否已準備好供團隊進行。 此工具提供雙重功能：可以測試是否所有正確的埠都已開啟，而且可以測試網路是否有障礙。
 
-下載並安裝該工具之後，您可以在 C：\\Program Files\\Microsoft 商務用 Skype Network 評估工具中找到該工具。 該目錄中包含如何使用此工具的詳細指南（例如，用法 .docx）。
+下載並安裝該工具之後，您可以在 C： \\ Program Files \\ Microsoft 商務用 Skype Network 評估工具中找到該工具。 該目錄中包含如何使用此工具的詳細指南（例如，用法 .docx）。
 
 ### <a name="test-for-opened-ports"></a>測試已開啟的埠
 
-若要開啟命令提示字元視窗並流覽至網路評量工具目錄，請輸入**Cd\\C\\： Program Files Microsoft 商務用 Skype Network 評估工具**。 在命令提示字元中，輸入 networkassessmenttool 以開始測試已開啟的埠 **/connectivitycheck**
+若要開啟命令提示字元視窗並流覽至網路評量工具目錄，請輸入**Cd C： \\ Program Files \\ Microsoft 商務用 Skype Network 評估工具**。 在命令提示字元中，輸入 networkassessmenttool 以開始測試已開啟的埠 **/connectivitycheck**
 
 執行檢查之後，該工具會顯示「驗證已成功完成」的訊息，或報告已封鎖的埠。
-它也會產生名為 Connectivity_results .txt 的檔案，其中包含該工具的輸出，並將其儲存在% userprofile\\%\\appdata\\本機 microsoft 商務用 skype 網路評估\\工具目錄中。
+它也會產生名為 Connectivity_results .txt 的檔案，其中包含該工具的輸出，並將其儲存在% userprofile% \\ appdata \\ 本機 \\ microsoft 商務用 skype 網路評估工具 \\ 目錄中。
 
 我們建議您定期執行連接檢查，以確保埠已開啟且正常運作。
 
@@ -206,7 +206,7 @@ Microsoft 團隊會連線到 Microsoft Online 服務，並需要網際網路連�
 
 如果頻寬規劃、埠測試或網路需求測試的結果顯示您目前的網路需要修正，才能部署小組，您可以透過下列幾種方式來完成此動作：
 
--   如果沒有足夠的頻寬，請升級連線，讓 Office 365 的流量能 unhindered。
+-   如果沒有足夠的頻寬，請升級連線，讓 Microsoft 365 或 Office 365 的流量能夠流過 unhindered。
 
 -   針對封鎖的埠，請變更防火牆規則並重新測試埠。
 

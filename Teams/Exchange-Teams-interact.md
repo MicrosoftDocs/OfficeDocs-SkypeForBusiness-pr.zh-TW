@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ca63f95bb95a304fc410b402a68a52e5b1aeca9e
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 5debf9eb72066c90ff0af002b4e5f3b3bafe8383
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44349637"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637062"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 與 Microsoft 團隊如何互動
 
@@ -36,7 +36,7 @@ ms.locfileid: "44349637"
 
 在 Exchange Online 專用（舊版）中託管的使用者，必須在 Microsoft 365 或 Office 365 上同步處理到 Azure Active Directory。 他們可以建立及加入團隊與頻道、新增及設定索引標籤和機器人，以及利用聊天與通話功能。 不過，他們無法修改個人檔案圖片、管理會議、存取 outlook 連絡人或管理連接器。
 
-擁有內部部署之信箱的使用者必須同步處理到 Azure Active Directory。 它們可以利用上述案例中的所有功能，此外，他們也可以變更使用者設定檔圖片（如果 Outlook 網頁版信箱原則允許他們這麼做），以及管理會議（如果您提供 Exchange Server 2016 （累加更新3）或更新版本），都是在[exchange 與 Exchange Online 組織之間設定 oauth 驗證](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)的情況下，在內部部署上使用 oauth 設定（最好是透過 exchange 混合式設定向導）。 若要為這些使用者啟用行事曆委派，您也必須按照在商務用[Skype Online 與 Exchange Server 之間設定整合和 OAuth](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)中的說明，來完成步驟2-3。這些步驟會提供小組排程應用程式，以確認委派許可權所需的許可權。   
+擁有內部部署之信箱的使用者必須同步處理到 Azure Active Directory。 它們可以利用上述案例中的所有功能，此外，他們也可以變更使用者設定檔圖片（如果 Outlook 網頁版信箱原則允許他們這麼做），以及管理會議（如果您提供 Exchange Server 2016 （累加更新3）或更新版本），都是在[exchange 與 Exchange Online 組織之間設定 oauth 驗證](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)的情況下，在內部部署上使用 oauth 設定（最好是透過 exchange 混合式設定向導）。 若要為這些使用者啟用行事曆委派，您也必須按照在商務用[Skype Online 與 Exchange Server 之間設定整合和 OAuth](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)中的說明，來完成步驟2-3。這些步驟會提供小組排程應用程式，以確認委派許可權所需的許可權。
 
 下表提供根據 Exchange 環境的功能可用性的實用快速參考。
 
@@ -45,7 +45,7 @@ ms.locfileid: "44349637"
 
 **支援的動作：**
 
-| 使用者的信箱託管于： | eDiscovery| 法律 &nbsp; 封存 | 留成| 團隊和頻道管理 |在團隊中建立及查看會議| 修改使用者個人資料圖片 | 通話記錄 | 管理連絡人 | 存取 Outlook 連絡人 | 語音信箱 |新增及設定連接器|新增及設定索引標籤|新增及設定 bot| 
+| 使用者的信箱託管于： | eDiscovery| 法律 &nbsp; 封存 | 留成| 團隊和頻道管理 |在團隊中建立及查看會議| 修改使用者個人資料圖片 | 通話記錄 | 管理連絡人 | 存取 Outlook 連絡人 | 語音信箱 |新增及設定連接器|新增及設定索引標籤|新增及設定 bot|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |**Exchange Online**|是<sup>2</sup>|是<sup>2</sup>|是|是|是|是<sup>8</sup>|是|是|是<sup>7</sup>|是|是|是|是|
 |**Exchange Online 專用 vNext**|是<sup>2</sup>|是<sup>2</sup>|是|是|是|是<sup>8</sup>|是|是|是<sup>7</sup>|是|是|是|是|
@@ -78,7 +78,7 @@ Microsoft 團隊與數個 Microsoft 365 和 Office 365 服務搭配使用，可�
 
 - 若要在 Microsoft 團隊中建立小組，必須為使用者啟用 Microsoft 365 群組建立功能。
 
-- 若要讓 Microsoft 團隊與 Exchange 內部部署搭配運作，您必須設定新的 Exchange OAuth 驗證通訊協定（最好是執行 Exchange 混合式嚮導），如在[Exchange 與 Exchange Online 組織之間設定 OAuth 驗證](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)中所述。 若要讓使用 Exchange 內部部署信箱的使用者以其他使用者的身分排程團隊會議，您也必須按照在[商務用 Skype Online 與 Exchange Server 之間設定整合和 OAuth](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)中的說明，來完成步驟2-3。 
+- 若要讓 Microsoft 團隊與 Exchange 內部部署搭配運作，您必須設定新的 Exchange OAuth 驗證通訊協定（最好是執行 Exchange 混合式嚮導），如在[Exchange 與 Exchange Online 組織之間設定 OAuth 驗證](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)中所述。 若要讓使用 Exchange 內部部署信箱的使用者以其他使用者的身分排程團隊會議，您也必須按照在[商務用 Skype Online 與 Exchange Server 之間設定整合和 OAuth](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)中的說明，來完成步驟2-3。
 
 > [!NOTE]
 > Outlook [團隊] 增益集可以用來針對 Exchange 內部部署中託管的信箱排程小組會議。 不過，若要使用 Exchange 內部部署來代表另一個使用者排程團隊會議，需要 Exchange 2013 CU9 及更新版本，以及新的 Exchange OAuth 驗證通訊協定。 Delegate 與 delegator 都必須在 Exchange 內部部署上擁有信箱。
@@ -103,3 +103,23 @@ Microsoft 團隊與數個 Microsoft 365 和 Office 365 服務搭配使用，可�
 
 > [!TIP]
 > 如需如何使用 Azure AD Connect 與 Azure Active Directory 同步處理的相關資訊，請參閱[整合內部部署身分識別與 Azure Active directory](https://go.microsoft.com/fwlink/?linkid=854600)。
+
+## <a name="requirements-for-on-premises-exchange-mailbox-user"></a>內部部署 Exchange 信箱使用者的需求
+
+如果使用者想要使用 Exchange 排程小組會議，您必須確認下列事項：
+
+- 代理人與 delegator 都必須在 Exchange 伺服器上擁有信箱。
+
+- 必須使用自動探索（AutoD） V2，才能讓團隊服務執行使用者信箱的未驗證搜尋。 AutoD V2 在 Exchange 2013 CU19 + 中受到支援。
+
+- 必須將 Exchange 伺服器設定為 EVOSTS 的認證伺服器。 這會自動設定為 Exchange （HWA）混合式嚮導的一部分。
+
+    如果您不想執行 HWA，您可以在 Exchange 伺服器上手動建立 EVO STS 的認證伺服器，請依照下列指示[設定 exchange 與 Exchange Online 組織之間的 OAuth 驗證](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)。 不過，我們建議您使用 HWA。
+
+- Exchange 伺服器必須有一個使用**商務用 Skype online**的應用程式識別碼設定的合作夥伴應用程式，00000004-0000-0ff1-ce00-000000000000。 此識別碼是由小組排程服務和具有下列屬性的連結使用者帳戶所使用：
+
+  - 從 Exchange 通訊錄中隱藏。 最好的做法是將它從通訊錄中隱藏，因為它是已停用的使用者帳戶。
+
+  - Exchange 管理角色指派的**UserApplication**。
+
+若要完成整合，請依照步驟1-3 操作，以[瞭解如何在您的內部部署 exchange 與 Exchange Online 組織之間設定 OAuth 驗證？](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help#how-do-you-configure-oauth-authentication-between-your-on-premises-exchange-and-exchange-online-organizations) 請注意，步驟2包含委派所不需要的 ArchiveApplication 角色指派，但用於封存 SfB 線上聊天至 Exchange 信箱。

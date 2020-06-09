@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fd4c733aece4bc75c0bce16c77aebae4806fecd7
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 56029dc8f1cb5a9cb99096107d85a6414dc4ed25
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904388"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638622"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>與商務用 Skype 搭配使用團隊之組織的遷移和互通性指南
 
@@ -54,9 +54,9 @@ ms.locfileid: "43904388"
 
 7.  將使用者升級到 TeamsOnly 模式，可確保所有傳入聊天和呼叫永遠都在使用者的團隊用戶端中，不論它產生的用戶端為何。 這些使用者也會排程團隊中的所有新會議。 若要在 TeamsOnly 模式中，使用者在商務用 Skype 中必須是線上的。 這是確保團隊使用者的互通性、同盟及完整管理的必要條件。 若要將使用者升級至 TeamsOnly：
     - 如果使用者是駐留在商務用 Skype online （或永不擁有任何 Skype 帳戶），請使用 TeamsUpgradePolicy 搭配 Mode = TeamsOnly，或使用 [團隊系統管理中心] 來選取 [TeamsOnly] 模式。
-    - 如果使用者是託管于內部部署，請從`Move-CsUser`內部部署系統管理工具使用，先將使用者移至商務用 Skype Online。  如果您有商務用 skype server 2019 或 CU8 （適用于商務用 Skype Server 2015），您`-MoveToTeams`可以指定`Move-CsUser` [切換]，將使用者直接移至團隊，成為線上移動的一部分。 此選項也會將使用者的會議遷移至團隊。 如果`-MoveToTeams`未指定或無法使用，請在完成`Move-CsUser`之後，使用 PowerShell 或團隊系統管理中心，將 TeamsOnly 模式指派給該使用者。 如需詳細資訊，請參閱[在內部部署與雲端之間移動使用者](https://docs.microsoft.com/skypeforbusiness/hybrid/move-users-between-on-premises-and-cloud)。  如需更多關於會議遷移的詳細資料，請參閱[使用會議遷移服務（MMS）](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)。
+    - 如果使用者是託管于內部部署，請 `Move-CsUser` 從內部部署系統管理工具使用，先將使用者移至商務用 Skype Online。  如果您有商務用 skype server 2019 或 CU8 （適用于商務用 Skype Server 2015），您可以指定 [切換]，將 `-MoveToTeams` `Move-CsUser` 使用者直接移至團隊，成為線上移動的一部分。 此選項也會將使用者的會議遷移至團隊。 如果 `-MoveToTeams` 未指定或無法使用，請在 `Move-CsUser` 完成之後，使用 PowerShell 或團隊系統管理中心，將 TeamsOnly 模式指派給該使用者。 如需詳細資訊，請參閱[在內部部署與雲端之間移動使用者](https://docs.microsoft.com/skypeforbusiness/hybrid/move-users-between-on-premises-and-cloud)。  如需更多關於會議遷移的詳細資料，請參閱[使用會議遷移服務（MMS）](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)。
 
-8.    若要將 Microsoft Phone System 與團隊搭配使用，使用者必須是 TeamsOnly 模式（例如，駐留在商務用 Skype Online 並升級至小組），而且必須針對 Microsoft Phone System [Direct 路由](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-is-now-Generally-Available/ba-p/210359#M1277)（可讓您將電話系統與您自己的 SIP TRUNKS 和 SBC 搭配使用）或擁有 Office 365 通話方案進行設定。 在孤島模式中不支援 Microsoft Phone 系統 Direct 路由。    
+8.    若要將 Microsoft Phone System 與團隊搭配使用，使用者必須是 TeamsOnly 模式（例如，駐留在商務用 Skype Online 並升級至小組），而且必須針對 Microsoft Phone System [Direct 路由](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-is-now-Generally-Available/ba-p/210359#M1277)（可讓您將電話系統與您自己的 SIP TRUNKS 和 SBC 搭配使用，或擁有 Microsoft 365 或 Office 365 通話方案）進行設定。 在孤島模式中不支援 Microsoft Phone 系統 Direct 路由。    
 
 9.  無論使用者是否駐留在商務用 Skype Online 或商務用 Skype 內部部署中，都可以使用音訊會議排程小組會議（透過 PSTN 撥入或撥出）。 
 
@@ -100,7 +100,7 @@ ms.locfileid: "43904388"
 
 <sup>1</sup>加入現有會議的功能（無論是在小組或商務用 Skype 中排程），都不受模式控制。 根據預設，使用者可以隨時加入受邀的會議。
 
-<sup>2</sup> ：根據預設，將 TeamsOnly 或 SfbWithTeamsCollabAndMeetings 指派給個別使用者時，該使用者針對未來排程的任何現有商務用 Skype 會議都會轉換成團隊會議。 如有需要，您可以在授權 TeamsUpgradePolicy 時指定`-MigrateMeetingsToTeams $false` ，或取消勾選 [團隊管理] 入口網站中的核取方塊，以將這些會議保留為商務用 Skype 會議。   請注意，當您在租使用者的基礎上授予 TeamsUpgradePolicy 時，將無法將會議從商務用 Skype 轉換成小組。 
+<sup>2</sup> ：根據預設，將 TeamsOnly 或 SfbWithTeamsCollabAndMeetings 指派給個別使用者時，該使用者針對未來排程的任何現有商務用 Skype 會議都會轉換成團隊會議。 如有需要，您可以在 `-MigrateMeetingsToTeams $false` 授權 TeamsUpgradePolicy 時指定，或取消勾選 [團隊管理] 入口網站中的核取方塊，以將這些會議保留為商務用 Skype 會議。   請注意，當您在租使用者的基礎上授予 TeamsUpgradePolicy 時，將無法將會議從商務用 Skype 轉換成小組。 
 
 <sup>3</sup>目前，小組不具備停用團隊和頻道功能的功能，因此現在仍能使用。
 
@@ -112,7 +112,7 @@ TeamsUpgradePolicy 會公開兩個主要屬性： Mode 和 NotifySfbUsers。
 </br>
 </br>
 
-|參數|類型|允許值</br>（預設為斜體）|說明|
+|參數|類型|允許值</br>（預設為斜體）|描述|
 |---|---|---|---|
 |下|列舉|*離島*</br>TeamsOnly</br>SfBOnly</br>SfBWithTeamsCollab</br>SfBWithTeamsCollabAndMeetings|指示用戶端應該在其中執行的模式。|
 |NotifySfbUsers|Bool|*False*或 true|指出是否要在商務用 Skype 用戶端中顯示橫幅，以通知使用者小組將會很快取代商務用 Skype。 如果 Mode = TeamsOnly，則此值不能為 true。|
@@ -168,9 +168,9 @@ TeamsUpgradePolicy 會控制傳入的同盟聊天和通話的路由。 同盟路
 |下|簡要|
 |---|---|
 |**離島**</br>設置|使用者並排執行商務用 Skype 和團隊。 此使用者：</br><ul><li>可以在商務用 Skype 或團隊用戶端中啟動聊天和 VoIP 通話。 注意：不論收件者的模式為何，使用商務用 Skype 託管內部部署的使用者都無法從團隊開始進行。<li>透過商務用 Skype 用戶端中的其他使用者，在商務用 Skype 中 & VoIP 通話的 [接收聊天]。<li>在團隊用戶端中由另一個使用者所發起的 VoIP 通話 &，如果他們在*相同的租*使用者中，就會收到交談。<li>在其他使用者的商務用 Skype 用戶端（如果它們位於同盟*租*使用者中）中，由其他使用者在團隊中發起的 VoIP 通話 &。 <li>具有 PSTN 功能，如下所述：<ul><li>當使用者位於商務用 Skype 內部部署且擁有企業語音時，系統會在商務用 Skype 中一直啟動並接收 PSTN 通話。<li>當使用者駐留在商務用 Skype Online 且擁有 Microsoft 手機系統時，使用者會在商務用 Skype 中總是啟動並接聽 PSTN 通話：<ul><li>不論使用者是否有 Microsoft 通話方案，或是透過商務用 skype 雲端連接器版本或內部部署（混合式語音）來連線至 PSTN 網路，都會發生這種情況。<li>**注意：在孤島模式中不支援 Microsoft 團隊手機系統直向路由。**</ul></ul><li>在商務用 Skype 中接收 Microsoft 通話佇列和自動助理通話：<ul><li>指派給呼叫佇列和自動助理的電話號碼**不能**是 Microsoft 團隊手機系統的 [孤島] 模式中的直接路由號碼。</ul></ul><li>可以在小組或商務用 Skype 中排程會議（預設會看到兩個外掛程式）。<li>可以加入任何商務用 Skype 或團隊會議;該會議將會在各自的用戶端中開啟。</ul>|
-|**SfBOnly**|使用者只執行商務用 Skype。 此使用者：</br><ul><li>只能從商務用 Skype 開始聊天和通話。<li>在其商務用 Skype 用戶端中接收任何聊天/通話，除非發起者是擁有商務用 Skype 內部部署的小組使用者。*只能排程商務用 skype 會議，但可以加入商務用 skype 或團隊會議。 <li></br>* 在 SfBOnly 模式中，不建議將孤島模式與內部部署使用者結合使用。 如果使用商務用 Skype 內部部署的小組使用者啟動通話或聊天給 SfBOnly 使用者，則無法取得 SfBOnly 使用者，而且會收到未接的聊天/呼叫電子郵件。|
+|**SfBOnly**|使用者只執行商務用 Skype。 此使用者：</br><ul><li>只能從商務用 Skype 開始聊天和通話。<li>在其商務用 Skype 用戶端中接收任何聊天/通話，除非發起者是擁有商務用 Skype 內部部署的小組使用者。只能* <li> 排程商務用 skype 會議，但可以加入商務用 Skype 或團隊會議。 </br> \* *在 SfBOnly 模式中，不建議將孤島模式與內部部署使用者結合使用。 如果使用商務用 Skype 內部部署的小組使用者啟動通話或聊天給 SfBOnly 使用者，則無法取得 SfBOnly 使用者，而且會收到未接的聊天/呼叫電子郵件。|
 |**SfBWithTeamsCollab**|使用者並排執行商務用 Skype 和團隊。 此使用者：</br><ul><li>在 SfBOnly 模式中具有使用者的功能。<li>只有針對群組共同作業（頻道）啟用團隊;聊天/通話/會議排程已停用。</ul>|
-|**SfBWithTeamsCollab</br>AndMeetings**|使用者並排執行商務用 Skype 和團隊。 此使用者：<ul><li>在 SfBOnly 模式中擁有使用者的聊天與通話功能。<li>已啟用團隊共同作業（頻道-包括通道交談）;聊天和通話已停用。<li>只能排程團隊會議，但可以加入商務用 Skype 或團隊會議。</ul>|
+|**SfBWithTeamsCollab </br> AndMeetings**|使用者並排執行商務用 Skype 和團隊。 此使用者：<ul><li>在 SfBOnly 模式中擁有使用者的聊天與通話功能。<li>已啟用團隊共同作業（頻道-包括通道交談）;聊天和通話已停用。<li>只能排程團隊會議，但可以加入商務用 Skype 或團隊會議。</ul>|
 |**TeamsOnly**</br>（需要 SfB Online 家用版）|使用者只執行團隊。 此使用者：<ul><li>無論啟動位置為何，都能在其團隊用戶端收到任何聊天和通話。<li>只能啟動來自團隊的聊天和通話。<li>只能在團隊中排程會議，但可以加入商務用 Skype 或團隊會議。<li>可以繼續使用商務用 Skype IP 手機。<br><br>*建議您不要在 [孤島] 模式中與其他使用者一起使用 TeamsOnly 模式，直到團隊採用飽和為止，亦即，所有的孤島模式使用者都會主動使用及監視團隊與商務用 Skype 用戶端。如果 TeamsOnly 使用者啟動通話或聊天給孤島使用者，該通話或聊天功能將會集中在孤島使用者的團隊用戶端;如果孤島使用者不使用或監視團隊，該使用者將會顯示為離線，且無法由 TeamsOnly 使用者訪問。*</ul> |
 |||
 

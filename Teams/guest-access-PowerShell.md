@@ -17,12 +17,12 @@ description: 瞭解如何使用 PowerShell 來允許或封鎖 Microsoft 團隊�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 28d8109f772a448d61e189a6b0a8aa1c45feb5af
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: d438b9d5cf3af8d200da07fcebe39f4222c2b25a
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902588"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637302"
 ---
 <a name="use-powershell-to-control-guest-access-to-a-team"></a>使用 PowerShell 控制來賓對團隊的存取
 ================================================
@@ -33,7 +33,7 @@ ms.locfileid: "43902588"
 
 - 允許將來賓新增至所有團隊及 Microsoft 365 群組
 
-- 允許或封鎖來自特定小組或 Office 365 群組的來賓使用者
+- 允許或封鎖來自特定小組或 Microsoft 365 群組的來賓使用者
 
 如需詳細資訊，請參閱[管理 Microsoft 365 群組中的來賓存取](https://docs.microsoft.com/office365/admin/create-groups/manage-guest-access-in-groups#use-powershell-to-control-guest-access)中的「使用 PowerShell 控制來賓存取」。
 
@@ -54,7 +54,7 @@ ms.locfileid: "43902588"
     $CSSession = New-CsOnlineSession -Credential $Cred
     Import-PSSession -Session $CSSession
     ```
-3.    檢查您的設定， `AllowGuestUser`如果`$False`是，請使用[CsTeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps) Cmdlet 將它設定為`$True`。
+3.    檢查您 `AllowGuestUser` 的設定，如果是 `$False` ，請使用[CsTeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps) Cmdlet 將它設定為 `$True` 。
 
     ```PowerShell
     Get-CsTeamsClientConfiguration

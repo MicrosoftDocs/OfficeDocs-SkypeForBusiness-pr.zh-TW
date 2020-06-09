@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 通話共用和群組通話挑選讓使用者與同事共用來電，以便在使用者無法使用時，可以捕獲通話。
-ms.openlocfilehash: 8ed53ca5103d3ee4264e0dc1aef3267172d37527
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 0e21f8ec8b9d913568b87a41b70261ac917260e2
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042950"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638852"
 ---
 # <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>在 Microsoft 團隊中呼叫共用與群組通話挑選
 
@@ -47,7 +47,7 @@ Microsoft 團隊的呼叫共用與群組呼叫功能可讓使用者與同事共�
 
 ## <a name="configure-group-call-pickup"></a>設定群組呼叫挑選
 
-若要設定 [群組呼叫挑選]，使用者必須先設定通話群組（這與安全性群組或 Office 365 群組不同），然後再新增他們要與其共用通話的使用者。 然後，選擇 [同時撥打] 或 [來電轉接] 設定。 如需詳細資訊和逐步程式，請參閱[在小組中來電轉接和同時撥打](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e)。
+若要設定 [群組呼叫挑選]，使用者必須先設定通話群組（這與安全性群組或 Microsoft 365 群組不同），然後再新增他們想要與其共用通話的使用者。 然後，選擇 [同時撥打] 或 [來電轉接] 設定。 如需詳細資訊和逐步程式，請參閱[在小組中來電轉接和同時撥打](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e)。
 
 通話群組建立和通知喜好設定是使用者驅動的功能;系統管理員不需要為使用者設定這些功能。 無法從安全性群組或 Microsoft 365 群組建立通話群組;它們必須在 [團隊] 中建立。
 
