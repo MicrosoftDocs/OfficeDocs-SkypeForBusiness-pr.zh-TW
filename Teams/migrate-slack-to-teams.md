@@ -17,12 +17,12 @@ localization_priority: Priority
 f1.keywords:
 - NOCSH
 description: 從 Slack 移轉到 Microsoft Teams 的完全指引。
-ms.openlocfilehash: 8e6b7383176713a34f5a00ca3914e42ac50f9834
-ms.sourcegitcommit: 5606f908c6efeb67713f5986b1d8575a896bb5bd
+ms.openlocfilehash: ca104baf5baebaa0e44c2202794c1b8ed6862633
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43506874"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638642"
 ---
 # <a name="migrate-from-slack-to-microsoft-teams"></a>從 Slack 移轉到 Microsoft Teams
 
@@ -79,12 +79,12 @@ ms.locfileid: "43506874"
 
 Slack 中的應用程式就如同 Teams 中的應用程式。 當您在工作區中擁有應用程式及其設定清單後，您可以在 Teams 應用程式市集中搜尋，以查看它們是否可用於 Teams*。 
 
-前往 <your Slack workspace>.slack.com/apps/manage 以取得應用程式和自訂整合清單。 此頁面也會顯示每個應用程式使用中的設定數量。 自訂整合按照「移轉能力」而有所不同。 如果是 Web Hook，您通常可以將其傳送到 Office 365 連接器，以將工作流程轉換至 Teams。 視情況評估 Bot 和其他應用程式，以規劃將其移至 Teams。
+前往 <your Slack workspace>.slack.com/apps/manage 以取得應用程式和自訂整合清單。 此頁面也會顯示每個應用程式使用中的設定數量。 自訂整合按照「移轉能力」而有所不同。 如果是 Web Hook，您通常可以將其傳送到 Microsoft 365 或 Office 365 連接器，以將工作流程轉換至 Teams。 視情況評估 Bot 和其他應用程式，以規劃將其移至 Teams。
 
 \* 如果您的系統管理員已限制應用程式使用，您可能不會看到可用應用程式的完整清單。
 
 ### <a name="users"></a>使用者
-您在 Slack 中使用的身分識別模式，可能不會直接對應到 Office 365。 例如，您的 Slack 使用者電子郵件地址可能不會對應到 Office 365 的公司或學校帳戶。 開始規劃 Teams 推出前，您應先建立使用者識別碼對應。
+您在 Slack 中使用的身分識別模式，可能不會直接對應到 Microsoft 365 或 Office 365。 例如，您的 Slack 使用者電子郵件地址可能不會對應到 Microsoft 365 或 Office 365 的公司或學校帳戶。 開始規劃 Teams 推出前，您應先建立使用者識別碼對應。
 
 如果您使用付費的 Slack 服務方案，您可以移至 *<your Slack workspace>.slack.com/admin/stats#members* 以取得成員詳細資料，例如每位使用者的電子郵件地址和帳戶類型 (如單一與多頻道來賓)。
 
@@ -335,7 +335,7 @@ Write-Host -ForegroundColor Green "$(Get-TimeStamp) Exiting.."
 
 在許多情況下，應用程式主要由外部服務接收事件驅動的資料 (如監視系統)，並將訊息推入 Slack。 您可以使用 Microsoft 365 連接器來取得相同的結果，同樣可以根據根據事件將訊息推入 Slack。
 
-以下是 Teams 中使用 Office 365 連接器以整合之 Slack 解決方案範例。
+以下是 Teams 中使用 Microsoft 365 連接器整合的 Slack 解決方案範例。
 - Ansible
   - 可透過 [Ansible webhook](https://docs.ansible.com/ansible-tower/latest/html/userguide/notifications.html#webhook) 將警示傳送到 Teams
 - New Relic

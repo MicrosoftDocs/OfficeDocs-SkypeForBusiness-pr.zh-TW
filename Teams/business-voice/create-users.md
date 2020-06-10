@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 51ca2d8b6723be408adaaa53499efed2338a1f73
-ms.sourcegitcommit: 7455ae664d0e2d2915557764b26d8c8f1bf92a96
+ms.openlocfilehash: 02a17077864850ffe06bbb293848868e9147f9f8
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42945903"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44611022"
 ---
 # <a name="create-and-license-business-voice-users-and-assign-them-phone-numbers"></a>建立及授權商務語音使用者，並指派電話號碼給使用者
 
@@ -30,7 +30,7 @@ ms.locfileid: "42945903"
 
 ## <a name="create-and-license-users"></a>建立並授權使用者
 
-按照[個別或大量將使用者新增至 :::no-loc text="Office 365":::](https://docs.microsoft.com/office365/admin/add-users/add-users) 中的步驟。
+按照[個別或大量將使用者新增至 ](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users) 中的步驟。
 
 > [!NOTE]
 > 在 **[指派產品授權]** 窗格中，選取 **:::no-loc text="Microsoft 365 Business Voice":::**。
