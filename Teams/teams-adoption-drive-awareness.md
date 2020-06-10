@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 52c259098a1d31fdd601d1cce06ea1b685e774bf
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: d0744c78062b2ecd507cc16658819ba101930597
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44350127"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665965"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>針對 Microsoft 團隊進行磁片磁碟機意識與實施訓練
 
@@ -55,7 +55,7 @@ ms.locfileid: "44350127"
 - [團隊的管理員訓練](itadmin-readiness.md)
 - [線上端使用者的影片訓練](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
 - [& IT 專業人員的擁護的雲端線上訓練中的咖啡](https://aka.ms/CoffeeintheCloud) 
-- [Microsoft 365 和 Office 365 訓練中的一天是使用工作表](https://aka.ms/O365AdoptionTools)
+- [採納工具](https://aka.ms/O365AdoptionTools)
 
 ## <a name="measure-and-share-success"></a>衡量及分享成功
 

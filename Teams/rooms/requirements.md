@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 瞭解支援 Microsoft 團隊聊天室的需求，包括選擇適當的裝置、麥克風、喇叭、相機和顯示器。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fbfad5deba6288736beea0ef69660426975bb6fa
-ms.sourcegitcommit: 184f4f61a3e739a1cfa533c6d95d405d887ea25d
+ms.openlocfilehash: e7dfc83bc3e1eff42c7a8de3f7e80fb25c03bf90
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/06/2020
-ms.locfileid: "44591303"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666265"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams 會議室需求
 
@@ -38,7 +38,7 @@ Microsoft Teams 會議室可根據會議室的大小和用途，使用各種經�
 > [!NOTE]
 > Microsoft Teams 會議室會登入 Microsoft Teams、商務用 Skype Server 2019、商務用 Skype Server 2015 或商務用 Skype Online，並可以加入這些服務所舉辦的任何會議。
 >
-> Microsoft Teams 會議室不支援舊版平台 (例如 Lync Server 2013)。 在由 21Vianet 運作的 Office 365，或在 GCC-High 或 DoD 環境中，Microsoft Teams 會議室不受支援。
+> Microsoft Teams 會議室不支援舊版平台 (例如 Lync Server 2013)。 Microsoft 團隊會議室在由世紀運營的 Microsoft 365 或 Office 365 中，或在 GCC-高或 DoD 環境中不受支援。
 >
 > 如果您擁有內部部署 Exchange Server，則 Microsoft Teams 會議室需要使用 Exchange Server 2013 SP1 或更新版本。
 

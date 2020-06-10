@@ -23,16 +23,16 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 瞭解哪些國家和地區有電話撥入式會議號碼，以及它們的自動指派方式。
-ms.openlocfilehash: 9f130ec72d398e55ff3f4890ae89422915fc47a2
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: c353fa46e271b6bdec72944565e595592e3810d1
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779609"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665885"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-microsoft-teams"></a>Microsoft Teams 音訊會議的電話號碼
 
-當您為 Microsoft 團隊設定**音訊會議**時，撥入電話號碼會自動指派給您的組織。 若要查看指派給您音訊會議橋接器的電話號碼，請移至 [Microsoft 團隊管理中心] 中的 [**會議** > **會議橋**]。 如需詳細資訊，請移至[查看音訊會議號碼清單](see-a-list-of-audio-conferencing-numbers-in-teams.md)。
+當您為 Microsoft 團隊設定**音訊會議**時，撥入電話號碼會自動指派給您的組織。 若要查看指派給您音訊會議橋接器的電話號碼，請移至 [Microsoft 團隊管理中心] 中的 [**會議**  >  **會議橋**]。 如需詳細資訊，請移至[查看音訊會議號碼清單](see-a-list-of-audio-conferencing-numbers-in-teams.md)。
   
   
 ## <a name="audio-conferencing-coverage-and-pricing"></a>音訊會議覆蓋範圍與定價
@@ -50,7 +50,7 @@ ms.locfileid: "43779609"
   
 - **專用電話號碼**是只有在組織內部使用者才可以使用的電話號碼。 您可以變更某人撥入其中一個號碼時所使用的語言。
   
-- **共用的電話號碼**是可與其他 Microsoft 365 或 Office 365s 共用的電話號碼。 您無法變更某人撥入其中一個號碼時所使用的語言。
+- **共用的電話號碼**是可與其他 Microsoft 365 或 Office 365 共用的電話號碼。 您無法變更某人撥入其中一個號碼時所使用的語言。
   
 雖然指派給召集人的預設音訊會議號碼只會包含在會議邀請中，呼叫者可以使用指派給您的會議橋接器的任何電話號碼加入會議。 您可以使用每個會議邀請中包含的 [尋找當地電話號碼]**** 連結，來取得可用來加入會議的電話號碼清單。
   
@@ -78,4 +78,4 @@ ms.locfileid: "43779609"
    
 ## <a name="related-topics"></a>相關主題
 
-[試用或購買 Office 365 的音訊會議](/skypeforbusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[在 Microsoft 365 或 Office 365 中試用或購買音訊會議](/skypeforbusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

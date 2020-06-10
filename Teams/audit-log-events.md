@@ -15,12 +15,12 @@ search.appverid: MET150
 description: 瞭解如何從審核記錄中檢索 Microsoft 團隊資料。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 62b4c462cec58facca274883c98f1aad23042f16
-ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
+ms.openlocfilehash: 609bf3065d160da46b6e65d20235a4451de83c5f
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44416733"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665635"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>在 [審核記錄] 中搜尋 Microsoft 團隊中的事件
 
@@ -93,7 +93,7 @@ ms.locfileid: "44416733"
 
 ### <a name="mass-delete-scenario"></a>成批刪除案例
 
-如前文所述，您可以監視刪除情況。 您可以建立可監視大量刪除小組網站的原則。 在這個範例中，警示式原則設定為在30分鐘內偵測小組大量刪除。 
+如前文所述，您可以監視刪除情況。 您可以建立可監視大量刪除小組網站的原則。 在這個範例中，警示式原則設定為在30分鐘內偵測小組大量刪除。
 
 ![[原則建立] 頁面的螢幕擷取畫面，其中顯示設定大量小組刪除偵測原則的原則](media/TeamsMassDeletePolicy.png)
 
@@ -115,7 +115,7 @@ ms.locfileid: "44416733"
 
 雲端 App 安全性中的[異常偵測原則](https://docs.microsoft.com/cloud-app-security/anomaly-detection-policy)提供現成的使用者與實體行為分析（UEBA）和機器學習（ML），讓您可以立即在雲端環境中執行高級威脅偵測。 因為它們會自動啟用，所以新的異常偵測策略會提供立即的結果，這是針對您的使用者以及與您的網路連線的電腦和裝置所做的各種行為異常所造成的。 此外，新的原則還會從雲端 App 安全性偵測引擎公開更多資料，以協助您加速調查程式，並包含持續的威脅。
 
-我們正在努力將團隊事件整合至異常情況偵測原則。 現在，您可以為其他 Office 產品設定異常情況偵測原則，並在與這些原則相符的使用者上採取動作專案。 
+我們正在努力將團隊事件整合至異常情況偵測原則。 現在，您可以為其他 Office 產品設定異常情況偵測原則，並在與這些原則相符的使用者上採取動作專案。
 
 ## <a name="teams-activities"></a>團隊活動
 
@@ -133,14 +133,21 @@ ms.locfileid: "44416733"
 |已變更團隊成員的角色    |MemberRoleChanged         |小組擁有者會變更團隊成員的角色。 下列值代表指派給使用者的角色類型。 <br><br>**1** -表示擁有者角色。<br>**2** -表示成員角色。<br>**3** -表示來賓角色。<br><br>Members 屬性也包括貴組織的名稱，以及該成員的電子郵件地址。        |
 |已變更團隊設定    |TeamSettingChanged        |當小組擁有者執行下列活動時，就會記錄 TeamSettingChanged 操作。 針對這些活動中的每一個專案，在審核記錄搜尋結果的 [**專案**] 欄中，會顯示已變更之設定（在括弧中顯示）的描述。<ul><li>變更團隊的存取類型。 團隊可以設定為私人或公用（**團隊存取類型**）。 當團隊是私人（預設設定）時，使用者只能透過邀請存取團隊。 當團隊公開時，任何人都可以發現。</li><li>變更團隊的資訊分類（[**小組分類**]）。 例如，您可以將團隊資料分類為高業務效應、中型企業影響或低企業影響。</li><li>變更團隊名稱（**團隊名稱**）。</li><li>變更小組描述（[**小組描述**]）。</li><li>對團隊設定所做的變更。 若要存取這些設定，小組擁有者可以以滑鼠右鍵按一下團隊，選取 [**管理團隊**]，然後按一下 [**設定**] 索引標籤。針對這些活動，已變更之設定的名稱會顯示在審核記錄搜尋結果的 [**專案**] 欄中。</li></ul>         |
 |已建立小組    |TeamCreated         |使用者建立團隊。         |
+|已刪除所有組織 app|DeletedAllOrganizationApps           |已從目錄中刪除所有組織 app。     |
+|已刪除的應用程式 |AppDeletedFromCatalog           |已從目錄中刪除應用程式。     |
 |已刪除的頻道     |ChannelDeleted         |使用者從小組中刪除頻道。         |
 |已刪除的小組  |TeamDeleted            |小組擁有者會刪除小組。      |
+|已安裝的應用程式 |AppInstalled         |已安裝應用程式。   |
+|已發佈的應用程式 |AppPublishedToCatalog           |已在目錄中新增應用程式。     |
 |已從團隊中移除機器人   |BotRemovedFromTeam         |使用者移除小組中的 bot。       |
 |已移除連接器     |ConnectorRemoved         |使用者移除頻道的連接器。         |
 |已移除成員    |MemberRemoved        |小組擁有者會從團隊、頻道或群組聊天中移除成員。         |
 |已移除索引標籤    |TabRemoved         |使用者從頻道中移除索引標籤。         |
+|已卸載的應用程式 |AppUninstalled           |已卸載應用程式。     |
+|已更新的應用程式 |AppUpdatedInCatalog           |已在目錄中更新應用程式。     |
 |已更新連接器    |ConnectorUpdated         |使用者修改了頻道中的連接器。         |
 |[更新] 索引標籤   |TabUpdated         |使用者修改了頻道中的索引標籤。         |
+|已升級應用程式 |AppUpgraded           |App 已升級至目錄中的最新版本。     |
 |已登入團隊的使用者     |TeamsSessionStarted         |使用者登入 Microsoft 團隊用戶端。 這個事件不會捕獲權杖重新整理活動。         |
 
 ## <a name="shifts-in-teams-activities"></a>團隊活動中的倒班
@@ -184,4 +191,4 @@ ms.locfileid: "44416733"
 
 ## <a name="related-topics"></a>相關主題
 
-- [在 Microsoft 365 規範中心搜尋審核記錄](https://support.office.com/article/0d4d0f35-390b-4518-800e-0c7ec95e946c)
+- [在 Microsoft 365 規範中心搜尋審核記錄](https://support.office.com/article/0d4d0f35-390b-4518-800e-0c7ec95e946c) 

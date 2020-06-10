@@ -1,5 +1,5 @@
 ---
-title: 什麼是 Office 365 中的電話系統？
+title: 什麼是電話系統？
 ms.reviewer: ''
 author: CarolynRowe
 ms.author: crowe
@@ -20,23 +20,23 @@ f1.keywords:
 ms.custom:
 - Phone System
 - seo-marvel-apr2020
-description: 在本文中，您將瞭解 Microsoft Office 365 中的電話系統技術。
-ms.openlocfilehash: e3db8806733cff76ba69c19338c9d562bdbe6e83
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+description: 在本文中，您將瞭解 Microsoft 365 和 Office 365 中的電話系統技術。
+ms.openlocfilehash: 8f871c065eacd69a1fc607c3a35d9f98032c9b6d
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43951218"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666125"
 ---
-# <a name="what-is-phone-system-in-office-365"></a>什麼是 Office 365 中的電話系統？
+# <a name="what-is-phone-system"></a>什麼是電話系統？
 
-私人分支 Exchange （PBX）是企業內的電話系統。 Office 365 中的 [電話系統] 提供 PBX 功能，但沒有複雜且昂貴的裝置。 
+私人分支 Exchange （PBX）是企業內的電話系統。 電話系統提供 PBX 功能，但沒有複雜且昂貴的裝置。 
 
-[電話系統] 可讓您將現有的內部部署 PBX 系統取代為從 Office 365 提供且已緊密整合到雲端體驗的一組功能。 如需這些功能的詳細資訊，請參閱[以下是您在 Office 365 中使用電話系統所取得的內容](here-s-what-you-get-with-phone-system.md)。
+[電話系統] 可讓您將現有的內部部署 PBX 系統取代成一組從 Microsoft 365 或 Office 365 提供的功能，這些功能已緊密整合到您的雲端體驗中。 如需這些功能的詳細資訊，請參閱[以下是您在手機系統中所取得的內容](here-s-what-you-get-with-phone-system.md)。
 
 ## <a name="phone-system-technology"></a>電話系統技術
 
-手機系統可在 Office 365 雲端中使用 Microsoft 團隊和商務用 Skype Online 來啟用呼叫控制和 PBX 功能。 
+在 Microsoft 團隊和商務用 Skype Online 中，手機系統可啟用雲端的通話控制和 PBX 功能。 
   
 使用電話系統，使用者可以使用小組或商務用 Skype Online 來撥打和接聽通話、轉接通話，以及將通話設為靜音或取消靜音。 電話系統使用者可以按一下其通訊錄中的名稱，然後將小組或商務用 Skype Online 撥打電話給該人。 若要撥打及接聽電話，電話系統使用者可以使用其行動裝置、膝上型電腦或電腦的耳機，或是使用團隊和商務用 Skype Online 的許多 IP 電話之一。 電話系統管理員可以管理在通訊、共同作業等所用的同一個主控台中的呼叫選項和設定。
   
@@ -48,7 +48,7 @@ ms.locfileid: "43951218"
   
 您可以使用下列兩種方法的其中一種將電話系統連線至 PSTN：
   
-- 購買適用于 Office 365 的 Microsoft 通話方案（國內或國內和國際）。 Microsoft 通話方案是一種全式雲端解決方案，擁有 Microsoft 作為 PSTN 運營商。 如需詳細資訊，請參閱[電話系統和通話方案](calling-plan-landing-page.md)。
+- 購買 Microsoft 通話方案（國內或國內和國際）。 Microsoft 通話方案是一種全式雲端解決方案，擁有 Microsoft 作為 PSTN 運營商。 如需詳細資訊，請參閱[電話系統和通話方案](calling-plan-landing-page.md)。
 
 - 針對內部部署 PSTN 連線使用您現有的電話結構。
 
@@ -67,7 +67,7 @@ ms.locfileid: "43951218"
 
 - **語音信箱**-當您取得使用者的電話系統授權時，該使用者就可以取得來電者所留下的語音信箱。 在您指派電話系統授權及電話號碼之後，就會自動為使用者設定及設定雲端語音信箱。 請參閱[設定雲端語音信箱](set-up-phone-system-voicemail.md)。
 
-如需功能的詳細資訊，請參閱[以下是您在 Office 365 中使用電話系統所取得的內容](here-s-what-you-get-with-phone-system.md)。 如果您已準備好開始使用，請參閱[在組織中設定電話系統](setting-up-your-phone-system.md)。
+如需功能的詳細資訊，請參閱[以下是您在手機系統中所取得的內容](here-s-what-you-get-with-phone-system.md)。 如果您已準備好開始使用，請參閱[在組織中設定電話系統](setting-up-your-phone-system.md)。
 
 ## <a name="related-topics"></a>相關主題
 

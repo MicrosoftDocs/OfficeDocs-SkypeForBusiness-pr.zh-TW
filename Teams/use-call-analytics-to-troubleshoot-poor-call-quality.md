@@ -24,16 +24,16 @@ ms.custom:
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
 description: 使用裝置、網路和連線的呼叫分析詳細資料，來針對 Microsoft 團隊及商務用 Skype 通話和會議的使用者問題進行疑難排解。
-ms.openlocfilehash: 05af82a942d54e0f97f2be2b176091f19186cbf4
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: 71a1e1c339c502da5cbbf998c75e758f2bbe3be2
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43749560"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665245"
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>使用通話分析來疑難排解不良通話品質
 
-[通話分析] 可協助您排查 Microsoft 團隊和商務用 Skype 的通話或連線問題。 [通話分析] 會顯示適用于 Office 365 帳戶中每位使用者之通話與會議的裝置、網路及連線能力的詳細資訊。 如果已將組建、網站和租使用者資訊新增至呼叫分析，也會針對每個通話和會話顯示該資訊。 透過 [呼叫分析] 提供的資訊可協助您瞭解使用者為何通話或會議感覺不佳的原因。 
+[通話分析] 可協助您排查 Microsoft 團隊和商務用 Skype 的通話或連線問題。 [通話分析] 會顯示適用于 Microsoft 365 或 Office 365 帳戶中每位使用者的通話與會議的詳細資訊，以及有關裝置、網路及連線的連線能力。 如果已將組建、網站和租使用者資訊新增至呼叫分析，也會針對每個通話和會話顯示該資訊。 透過 [呼叫分析] 提供的資訊可協助您瞭解使用者為何通話或會議感覺不佳的原因。 
   
 ## <a name="call-analytics-permissions"></a>呼叫分析許可權
 
@@ -60,7 +60,7 @@ ms.locfileid: "43749560"
 
 1. 使用您的小組通訊支援或團隊管理員認證登入。
 
-2. 在您的網頁瀏覽器*https://admin.teams.microsoft.com*中，移至。
+2. 在您的網頁瀏覽器中，移至 *https://admin.teams.microsoft.com* 。
     
 3. 在**儀表板**上的 [**使用者搜尋**] 中，開始輸入您要排除其來電之使用者的名稱或 sip 位址，或選取 [**查看使用者**] 來查看使用者清單。
     

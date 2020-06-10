@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: 瞭解如何在 Microsoft 團隊中重設使用者的音訊會議 PIN，以及瞭解關於 Pin 的重要資訊。
-ms.openlocfilehash: 451031698294fc49acee4a51efa0203cd3eb898d
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 8926218c72c888edb00480ff8382672a3730cf15
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905485"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666185"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-microsoft-teams"></a>在 Microsoft 團隊中重設音訊會議 PIN
 
@@ -52,7 +52,7 @@ PIN 是由為每個啟用音訊會議的 Microsoft 團隊使用者所建立的�
    
 ## <a name="have-a-user-reset-his-or-her-own-pin"></a>讓使用者重設自己的 PIN
 
-1. 讓使用者移至[https://admin0m.online.lync.com/lscp/usp/pstnconferencing](https://admin0m.online.lync.com/lscp/usp/pstnconferencing)。
+1. 讓使用者移至 [https://admin0m.online.lync.com/lscp/usp/pstnconferencing](https://admin0m.online.lync.com/lscp/usp/pstnconferencing) 。
 2. 按一下 [**重設 PIN**]。 
 
 
@@ -66,21 +66,21 @@ PIN 是由為每個啟用音訊會議的 Microsoft 團隊使用者所建立的�
     
 - 預設設定為 [不允許匿名呼叫者啟動會議]。
     
-- 當您為使用者啟用音訊會議時，預設會傳送包含會議資訊及其 PIN 的電子郵件。 使用者必須擁有 Office 365 信箱，因為當 PIN 重設時，新的 PIN 碼會以電子郵件傳送給使用者，以傳送給使用者設定的主要 SMTP 位址（別名）。
+- 當您為使用者啟用音訊會議時，預設會傳送包含會議資訊及其 PIN 的電子郵件。 使用者必須擁有 Microsoft 365 或 Office 365 信箱，因為當 PIN 重設時，新的 PIN 碼會以電子郵件傳送給使用者，以傳送給使用者設定的主要 SMTP 位址（別名）。
     
 - 當您設定音訊會議時，您會設定貴組織中的 Pin 所需的數位。 Pin 可能是4到12位數，預設值是5。 如果您變更 [PIN 長度] 設定，此設定只會套用到新產生的針腳上，且不適用於已啟用音訊會議的現有使用者的 PIN 設定。 請參閱[設定音訊會議的 PIN 長度](Set-the-PIN-length-for-Audio-Conferencing-meetings-in-teams.md)。
     
-- 預設的電子郵件將會設定為使用者的 Office 365 主要 SMTP 位址。 您可以傳送電子郵件至非 Office 365 位址，例如 Hotmail 或 MSN 電子郵件地址。 您可以使用 Windows PowerShell 來覆寫預設電子郵件地址。 如果使用者在 Office 365 沒有 Exchange 信箱，這會很有用。
+- 預設的電子郵件將會設定為使用者的 Microsoft 365 或 Office 365 主要的 SMTP 位址。 您可以將電子郵件傳送至非 Microsoft 365 或非 Office 365 位址（例如 Hotmail 或 MSN 電子郵件地址）。 您可以使用 Windows PowerShell 來覆寫預設電子郵件地址。 如果使用者沒有 Microsoft 365 或 Office 365 中的 Exchange 信箱，這會很有用。
 
     
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>想要深入瞭解 Windows PowerShell 嗎？
 
-Windows PowerShell 全部說明如何管理使用者，以及允許或不允許的使用者執行。 在 Windows PowerShell 中，您可以使用單一管理點來管理 Office 365，以便在有多項工作需要執行時簡化日常作業。 若要開始使用 Windows PowerShell，請參閱以下主題：
+Windows PowerShell 全部說明如何管理使用者，以及允許或不允許的使用者執行。 在 Windows PowerShell 中，您可以使用單一管理點來管理 Microsoft 365 或 Office 365，以便在您有多個工作執行時簡化日常作業。 若要開始使用 Windows PowerShell，請參閱以下主題：
     
   - [為什麼需要使用 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [使用 Windows PowerShell 管理 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [使用 Windows PowerShell 管理 Microsoft 365 或 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
     
 如需有關 Windows PowerShell 的詳細資訊，請參閱[Microsoft 團隊 PowerShell 參考](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)，以取得詳細資訊。
   

@@ -18,12 +18,12 @@ description: 瞭解 Microsoft 團隊（例如雲端、同步處理及同盟）�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 1ccddd3bacdd495fb6febb11871d6d501f0a666b
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 6c32783b96e5fdfe8c0f783a0fd27fd58a7f04c1
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637202"
+ms.locfileid: "44665675"
 ---
 <a name="identity-models-and-authentication-in-microsoft-teams"></a>Microsoft 團隊中的身分識別模型與驗證
 ==========================================
@@ -51,6 +51,7 @@ Microsoft 團隊支援 Microsoft 365 和 Office 365 提供的所有身分識別�
 
 如需其他詳細資料，請參閱[選擇登入模型](https://go.microsoft.com/fwlink/?linkid=854626)及[瞭解身分識別模型與 Azure Active Directory](https://support.office.com/article/Understanding-Office-365-identity-and-Azure-Active-Directory-06a189e7-5ec6-4af2-94bf-a22ea225a7a9)指南。
 
+
 <a name="multi-factor-authentication"></a>多重要素驗證
 ----------------------------
 
@@ -63,5 +64,5 @@ Microsoft 365 和 Office 365 方案支援多重要素驗證（MFA），增加使
 
 |租使用者類型  |可用的 MFA 第二個因數選項  |筆記  |
 |---------|---------|---------|
-|**僅限雲端**     |Microsoft 365 與 Office 365 的 MFA <ul><li>通話</li><li>文字訊息</li><li>行動代理程式更新</li><li>行動應用程式驗證碼</li></ul>        |[規劃 Microsoft 365 部署的多重要素驗證](https://support.office.com/article/Plan-for-multi-factor-authentication-for-Office-365-Deployments-043807b2-21db-4d5c-b430-c8a6dee0e6ba)         |
-|**混合式設定（已同步或聯合身分識別模型）**     |<ul><li>Microsoft 365 與 Office 365 的 MFA</li><li>Azure MFA 模組（ADFS 整合）</li><li>物理或虛擬智慧卡（ADFS 整合）</li></ul>         |注意：您可以使用[AZURE AD 身分識別提供者相容性](https://www.microsoft.com/download/details.aspx?id=56843)檔的其他 MFA 解決方案         |
+|**僅限雲端**     |Microsoft 365 或 Office 365 的 MFA <ul><li>通話</li><li>文字訊息</li><li>行動代理程式更新</li><li>行動應用程式驗證碼</li></ul>        | |
+|**混合式設定（已同步或聯合身分識別模型）**     |<ul><li>Microsoft 365 或 Office 365 的 MFA</li><li>Azure MFA 模組（ADFS 整合）</li><li>物理或虛擬智慧卡（ADFS 整合）</li></ul>         |注意：您可以使用[AZURE AD 身分識別提供者相容性](https://www.microsoft.com/download/details.aspx?id=56843)檔的其他 MFA 解決方案         |

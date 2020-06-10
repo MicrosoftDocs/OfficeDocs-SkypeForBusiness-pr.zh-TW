@@ -17,25 +17,25 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: be3df465c740aef7069a77cb7a7562fd0ecd8cd9
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: ccbdf48463ab504c1eac51b9558d3edb07533c70
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042440"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666175"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Microsoft 團隊中的保留原則
 
 保留原則可協助您更有效率地管理組織中的資訊。 您可以使用保留原則來保留遵守貴組織的內部原則、行業管理法規或法律需求所需的資料，以及刪除被視為債務的資料，或是不需要保留，或是沒有合法或商業價值。
 
-根據預設，小組聊天、頻道和檔案資料會永久保留，除非試圖透過保留原則、使用者刪除、管理員刪除等專案來刪除內容。就像管理員一樣，您可以為聊天和頻道訊息設定小組保留原則，並提前決定是否要保留資料、刪除資料，或將資料保留一段特定的時間，然後將其刪除。
+根據預設，小組聊天、頻道和檔案資料會無限期保留，除非有人嘗試透過保留原則、使用者刪除、管理員刪除等來刪除內容。就像管理員一樣，您可以為聊天和頻道訊息設定小組保留原則，並提前決定是否要保留資料、刪除資料，或將資料保留一段特定的時間，然後將其刪除。
 
 您可以在[Microsoft 365 合規性中心](https://protection.office.com/)或使用安全性 & 合規性中心 PowerShell Cmdlet 中，建立及管理小組和其他工作負載的保留原則。 您可以將團隊保留原則套用到整個組織或特定的使用者與團隊。
 
 > [!NOTE]
 > 我們還不支援保留私人通道訊息的設定。 支援在私人通道中共用的檔案保留。
 
-若要深入瞭解 Office 365 的保留原則，請參閱[保留原則概覽](https://support.office.com/article/overview-of-retention-policies-5e377752-700d-4870-9b6d-12bfc12d2423)。
+若要深入瞭解 Microsoft 365 或 Office 365 的保留原則，請參閱[保留原則概覽](https://support.office.com/article/overview-of-retention-policies-5e377752-700d-4870-9b6d-12bfc12d2423)。
 
 ## <a name="what-are-retention-policies-for-teams"></a>什麼是團隊的保留原則？
 
@@ -110,7 +110,7 @@ ms.locfileid: "44042440"
 
 若要建立小組聊天與頻道訊息的保留原則，請執行下列動作：
 
-1. 在安全性 & 合規性中心的左側導覽中，移至 [**資訊管理** > **保留**]。
+1. 在安全性 & 合規性中心的左側導覽中，移至 [**資訊管理**  >  **保留**]。
 2. 選取 [**建立**]。
 3. 在 [**命名您的原則**] 頁面上，輸入原則的名稱和描述，然後按 **[下一步]**。
 4. 在 [**設定**] 頁面上，指定您是否要保留資料、刪除（或兩者）保留期間，然後按 **[下一步]**。
@@ -132,7 +132,7 @@ ms.locfileid: "44042440"
 
 若要編輯團隊保留原則，請執行下列動作：
 
-1. 在安全性 & 合規性中心的左側導覽中，移至 [**資訊管理** > **保留**]。
+1. 在安全性 & 合規性中心的左側導覽中，移至 [**資訊管理**  >  **保留**]。
 2. 在保留原則清單中，選取您要編輯之保留原則旁的核取方塊。
 3. 選取您要編輯的專案旁的 [**編輯**]，進行變更，按一下 [**儲存**]，然後按一下 [**關閉**]。
 
@@ -142,13 +142,13 @@ ms.locfileid: "44042440"
 
 若要刪除團隊保留原則，請執行下列動作：
 
-1. 在安全性 & 合規性中心的左側導覽中，移至 [**資訊管理** > **保留**]。
+1. 在安全性 & 合規性中心的左側導覽中，移至 [**資訊管理**  >  **保留**]。
 2. 在保留原則清單中，選取您要刪除之保留原則旁的核取方塊。
 3. 選取 [**刪除原則**]。
 
 ### <a name="using-powershell"></a>使用 PowerShell
 
-若要使用[Office 365 安全性 & 合規性 PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)來建立及管理小組保留原則，請使用下列 Cmdlet：
+若要使用[安全性 & 合規性中心 PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)來建立及管理小組保留原則，請使用下列 Cmdlet：
 
 |原則|基準|
 |---|---|

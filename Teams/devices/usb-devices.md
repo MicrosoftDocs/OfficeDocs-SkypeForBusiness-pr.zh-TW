@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: 查看哪些 USB 週邊設備與裝置，例如耳機、免持聽筒、網路攝影機和監視器，且已獲認證供 Microsoft 團隊參考。
-ms.openlocfilehash: 9ad1e4f564306872588dda2ce82ca1c1504db95d
-ms.sourcegitcommit: 184f4f61a3e739a1cfa533c6d95d405d887ea25d
+ms.openlocfilehash: 587b4cd4af1c80709fe1f9c306d34f32ef2d37e5
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/06/2020
-ms.locfileid: "44591293"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666105"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>針對 Microsoft 團隊認證的 USB 音訊與視頻裝置
 
@@ -78,6 +78,7 @@ ms.locfileid: "44591293"
 
 | 製造商        | 模型                                                     | 具      | 認證計畫                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Jabra              | 使用 Jabra 連結 370 USB 轉換器來朗讀750話筒       | 5/21/2020 | 針對 Microsoft 團隊認證|
 | EPOS                | Sennheiser 改編660耳機                              | 5/15/2020      | 針對 Microsoft 團隊認證                          |
 | EPOS                | Sennheiser 改編560耳機                              | 5/15/2020      | 針對 Microsoft 團隊認證                          |
 | EPOS                | Sennheiser 改編460T 耳機                             | 5/15/2020      | 針對 Microsoft 團隊認證                          |

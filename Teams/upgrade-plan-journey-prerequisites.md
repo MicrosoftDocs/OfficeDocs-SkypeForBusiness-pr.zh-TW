@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d9a5cd56e367b9255bd4c41b556583dcc921416a
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 241c1f2ab0287b6beb2a99386b2f04b1f7cbfb28
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523196"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666065"
 ---
 # <a name="prerequisites-and-environmental-dependencies-for-teams"></a>團隊的先決條件與環境相依性
 
@@ -36,15 +36,15 @@ ms.locfileid: "44523196"
 - [已瞭解商務用 Skype 與團隊的共存與互通性](https://aka.ms/SkypeToTeams-Coexist)
 - [已選擇升級歷程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-團隊會結合多個 Office 365 服務，因此請視這些服務的正確實現與運作而定。 這些服務包括（但不限於） SharePoint Online、Exchange Online 和商務用 OneDrive。
+團隊結合了多個 Microsoft 365 和 Office 365 服務，因此依賴于這些服務的正確實現與運作。 這些服務包括（但不限於） SharePoint Online、Exchange Online 和商務用 OneDrive。
 
 雖然並非所有服務都是必要的，但我們強烈建議您實現所有服務。 如果您選擇不執行某些服務，會影響團隊可為您的組織提供的功能。 例如，雖然您不需要執行 SharePoint Online，但小組會針對特定的功能（例如群組交談中的檔案共用）而依賴 SharePoint Online，因此不需要執行此服務就能減少透過用戶端提供的功能。
 
 請參閱下列文章以瞭解先決條件，以及團隊如何與其他技術互動：
 
-- 如果您的組織尚未部署任何 Office 365 工作負荷，請參閱[商務用 Office 365 快速入門](https://support.office.com/article/Get-started-with-Office-365-for-Business-d6466f0d-5d13-464a-adcb-00906ae87029)。
+- 如果您的組織尚未部署任何 Microsoft 365 或 Office 365 的工作負荷，請參閱[快速入門](https://support.office.com/article/Get-started-with-Office-365-for-Business-d6466f0d-5d13-464a-adcb-00906ae87029)。
 
-- 如果您的組織尚未新增或設定 Office 365 的驗證網域，請參閱[驗證您的 office 365 網域](https://support.office.com/article/Verify-your-Office-365-domain-to-prove-ownership-nonprofit-or-education-status-or-to-activate-Yammer-87d1844e-aa47-4dc0-a61b-1b773fd4e590)。
+- 如果您的組織尚未新增或設定 Microsoft 365 或 Office 365 的驗證網域，請參閱[網域常見問題](https://support.office.com/article/Verify-your-Office-365-domain-to-prove-ownership-nonprofit-or-education-status-or-to-activate-Yammer-87d1844e-aa47-4dc0-a61b-1b773fd4e590)。
 
 - 如果您的組織尚未將身分識別與 Azure Active Directory 同步處理，請參閱[Microsoft 團隊中的身分識別模型和驗證](identify-models-authentication.md)。
 

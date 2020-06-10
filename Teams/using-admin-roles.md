@@ -22,12 +22,12 @@ ms.reviewer: islubin
 description: 瞭解如何使用系統管理角色，指派需要不同層級管理團隊的管理員。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3917e64f7c50ad51d2b9f9fca48bedf0f4a96c66
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: e56ce07f73eb4fe7ce69c2e1fc3522cbfc254096
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43951068"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665205"
 ---
 # <a name="use-microsoft-teams-administrator-roles-to-manage-teams"></a>使用 Microsoft 團隊管理員角色管理團隊
 
@@ -36,6 +36,8 @@ ms.locfileid: "43951068"
 ## <a name="teams-roles-and-capabilities"></a>小組角色和功能
 
 共有四個團隊管理員角色可供使用：團隊服務管理員、團隊溝通系統管理員、團隊溝通支援專家，以及團隊溝通支援工程師。 請參閱下表，瞭解每個角色可以執行的動作，以及系統管理員可在 Microsoft 團隊系統管理中心和 PowerShell 中使用哪些工具。
+
+若要繼續進行，請移至系統管理中心 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 。
 
 
 
@@ -51,8 +53,8 @@ ms.locfileid: "43951068"
 <sup>1</sup> [PowerShell-商務用 Skype 模組](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)<br>
 <sup>2</sup> [PowerShell-Microsoft 團隊模組](https://www.powershellgallery.com/packages/MicrosoftTeams/)<br>
 <sup>3</sup> [Microsoft 團隊系統管理中心](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center)
-<!-- <sup>4</sup> Azure Active Directory admin center <<note that these are going to come later because they're related to O365 Group management>> 
-<sup>5</sup> Microsoft 365 Admin Center <<note that these are going to come later because they're related to O365 Group management>> 
+<!-- <sup>4</sup> Azure Active Directory admin center <<note that these are going to come later because they're related to Microsoft 365 Group management>> 
+<sup>5</sup> Microsoft 365 Admin Center <<note that these are going to come later because they're related to Microsoft 365 Group management>> 
 -->
 如需管理 Microsoft 團隊可用之系統管理工具的詳細資訊，請參閱[管理 Microsoft 團隊](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center)。
 
@@ -73,7 +75,7 @@ ms.locfileid: "43951068"
    a. $session = new-csonlinesession<br>
    b. 匯入-pssession $session<br>
    c-clip. 使用 [**取得模組**] 識別匯入會話的名稱（它將是隨機產生的名稱）。<br>
-3. 使用上方的 [**取得命令模組** <*名稱*]> 來找出所有可用的 Cmdlet
+3. 使用上方的 [**取得命令模組**  < *名稱*]> 來找出所有可用的 Cmdlet
 
 ### <a name="related-topics"></a>相關主題
 

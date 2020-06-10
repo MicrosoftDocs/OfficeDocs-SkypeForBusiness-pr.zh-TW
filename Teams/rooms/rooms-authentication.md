@@ -14,18 +14,18 @@ ms.assetid: ''
 ms.collection:
 - M365-collaboration
 description: 瞭解如何設定 Microsoft 團隊聊天室的新式驗證
-ms.openlocfilehash: ee95de457d5af82fb68acb4fd79b6b5a5a3a7ed0
-ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
+ms.openlocfilehash: f44fe0e66e5dd219606b2ceaa3860e01164ccfa4
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43505610"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666255"
 ---
 # <a name="authentication-in-microsoft-teams-rooms"></a>Microsoft 團隊聊天室中的驗證
 
 Microsoft 團隊會議室裝置的帳戶管理是在應用程式層級處理。 應用程式會連線至 Microsoft 團隊、商務用 Skype 和 Exchange，以取得房間帳戶的資源，以啟用通話和會議體驗。 裝置會保持不限帳戶，以允許永不使用的功能、呼叫案例（適用于使用通話方案設定的裝置），以及在這些裝置上執行的自訂鎖定機制。 這表示這些裝置的驗證與終端使用者裝置的使用方式不同。  
 
-針對使用 Office 365 的 Microsoft 團隊聊天室裝置的所有客戶，建議進行新式驗證。 如果您有 Exchange server 或商務用 Skype server 的內部部署，請將混合式[新式驗證](https://docs.microsoft.com/office365/enterprise/hybrid-modern-auth-overview)與 Azure Active Directory （Azure AD）設定為使用新式驗證。
+針對使用 microsoft 365 或 Office 365 的 Microsoft 團隊聊天室裝置的所有客戶，建議進行新式驗證。 如果您有 Exchange server 或商務用 Skype server 的內部部署，請將混合式[新式驗證](https://docs.microsoft.com/office365/enterprise/hybrid-modern-auth-overview)與 Azure Active Directory （Azure AD）設定為使用新式驗證。
 
 Microsoft 團隊聊天室版本4.4.25.0 及更新版本支援新式驗證。
 
@@ -61,9 +61,9 @@ Microsoft 團隊聊天室版本4.4.25.0 及更新版本支援新式驗證。
 
 ## <a name="prepare-your-environment-for-modern-authentication"></a>針對新式驗證準備您的環境
 
-開始之前，請確定您已瞭解搭配 Office 365 和 Azure AD 使用的身分識別模型。 您可以在[office 365 身分識別模型與 Azure Active Directory](https://docs.microsoft.com/Office365/Enterprise/about-office-365-identity) ，以及[Office 365 的混合式身分識別和目錄同步](https://docs.microsoft.com/Office365/Enterprise/plan-for-directory-synchronization)處理中找到更多相關資訊。
+開始之前，請確定您已瞭解搭配 Office 365 和 Azure AD 使用的身分識別模型。 您可以在[Office 365 身分識別模型與 Azure Active Directory](https://docs.microsoft.com/Office365/Enterprise/about-office-365-identity) ，以及[Microsoft 365 或 Office 365 的混合式身分識別和目錄同步](https://docs.microsoft.com/Office365/Enterprise/plan-for-directory-synchronization)處理中，找到更多相關資訊。
 
-### <a name="enable-modern-authentication-in-office-365"></a>在 Office 365 中啟用新式驗證
+### <a name="enable-modern-authentication-in-microsoft-365-or-office-365"></a>在 Microsoft 365 或 Office 365 中啟用新式驗證
 
 若要開啟 Exchange Online 的新式驗證，請參閱[啟用 Exchange online 中的新式驗證](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online)。 如果您使用商務用 Skype Online，您也應該確認已針對商務用 Skype Online 開啟新式驗證。 若要深入瞭解，請參閱[商務用 Skype Online：針對新式驗證啟用您的租使用者](https://aka.ms/SkypeModernAuth)。
 

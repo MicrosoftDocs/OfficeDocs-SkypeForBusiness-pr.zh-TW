@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a196dfee988a41a5d8145d9b6256d1df6e714133
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 19b2fc0c14730f4aa4c25ccdfcf5298f6f038d3d
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905825"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665275"
 ---
 # <a name="plan-for-governance-in-teams"></a>Teams 中的控管方案
 
@@ -58,7 +58,7 @@ ms.locfileid: "43905825"
 > 若要協助您預先規劃，請[進一步瞭解如何設定這些原則以及他們所需的授權](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets#template-settings)。
 > 
 > [!NOTE]
-> 限制群組和小組建立會降低使用者的生產力，因為許多 Office 365 服務都需要建立群組才能正常運作。 如需其他資訊，請流覽並展開[控制誰能建立 Microsoft 365 群組的原因](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618#why)。
+> 限制群組和小組建立可能會降低使用者的生產力，因為許多 Microsoft 365 和 Office 365 服務都需要建立群組才能正常運作。 如需其他資訊，請流覽並展開[控制誰能建立 Microsoft 365 群組的原因](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618#why)。
 
 
 #### <a name="additional-information"></a>其他資訊
@@ -87,7 +87,7 @@ ms.locfileid: "43905825"
 |功能 |詳細資料 |需要 Azure AD Premium 授權 |決議 |
 |---------|---------|---------|---------|
 |過期原則 |設定過期原則，管理 Microsoft 365 群組的週期。 |P1 |TBD|
-|保留原則 |在安全性 & 合規性中心設定小組的保留原則，以保留或刪除特定時段內的資料。 **注意**：使用這項功能需要授權 Office 365 Enterprise E3 或更新版本。 |否 |TBD |
+|保留原則 |在安全性 & 合規性中心設定小組的保留原則，以保留或刪除特定時段內的資料。 **注意**：使用這項功能需要授權 Microsoft 365 或 Office 365 Enterprise E3 或更新版本。 |否 |TBD |
 |封存和還原 |當小組已不在使用中，但您想要保留以供參考或在將來重新啟用時，請封存團隊。 |否 |TBD |
 
 > [!Note]
@@ -106,7 +106,7 @@ ms.locfileid: "43905825"
 
 ## <a name="teams-feature-management"></a>團隊功能管理
 
-小組管理與生命週期管理的另一個重要方面，就是控制您的使用者可以存取哪些功能的功能。 您可以在 Office 365 的組織層級或每位使用者，管理訊息、會議和通話功能。 
+小組管理與生命週期管理的另一個重要方面，就是控制您的使用者可以存取哪些功能的功能。 您可以在 Microsoft 365 或 Office 365 組織層級或每位使用者，管理訊息、會議和通話功能。
 
 
 |         |         |
@@ -129,7 +129,7 @@ ms.locfileid: "43905825"
 
 ## <a name="security-and-compliance"></a>安全性與合規性
 
-團隊是以 Office 365 的高級安全性與合規性功能為基礎，並支援審計與報告、合規性內容搜尋、電子探索、法律封存及保留原則。 
+團隊是以 Microsoft 365 和 Office 365 的高級安全性與合規性功能為基礎，並支援審核與報告、合規性內容搜尋、電子探索、法律封存及保留原則。
 
 > [!Important]
 > 如果您的組織具備合規性與安全性需求，請參閱在[Microsoft 團隊中的安全性與合規性一](security-compliance-overview.md)文中所提供的深入閱讀本主題的內容。

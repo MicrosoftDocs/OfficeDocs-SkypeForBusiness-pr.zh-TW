@@ -19,12 +19,12 @@ ms.collection:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 51d4170d949daa9c53cb8035ab0a3249e4127ca3
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 9388b9933a21bb36f28c4175836d56daab07faf6
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523046"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666215"
 ---
 # <a name="prepare-your-it-staff-for-microsoft-teams"></a>為您的 Microsoft 團隊準備 IT 員工
 
@@ -37,7 +37,7 @@ ms.locfileid: "44523046"
 - [已瞭解商務用 Skype 與團隊的共存與互通性](https://aka.ms/SkypeToTeams-Coexist)
 - [已選擇升級歷程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-您的 Office 365 組織管理員、技術主管及支援中心都有責任提供高品質的使用者體驗。 這包括確保您的網路已準備好支援小組、為使用者設定小組，以及能夠有效地疑難排解並解決可能發生的問題。
+您的 Microsoft 365 或 Office 365 組織系統管理員、技術主管及支援中心都有責任推動高品質的使用者體驗。 這包括確保您的網路已準備好支援小組、為使用者設定小組，以及能夠有效地疑難排解並解決可能發生的問題。
 
 與您的 IT 員工成員共用下列資源，並確認他們已準備好支援使用者，然後才能開始升級至團隊：
 

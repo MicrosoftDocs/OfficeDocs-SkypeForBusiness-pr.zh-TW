@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 瞭解在 Microsoft 團隊中重設使用者的會議 ID，以及取得會議更新與遷移工具的連結的步驟。
-ms.openlocfilehash: 008a479677723dedbfe1923f57358808b16fd9ec
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: fbda2d65868d9f4082ae7b3ee835d0560c609e11
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042450"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666195"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-microsoft-teams"></a>在 Microsoft 團隊中重設使用者的會議 ID
 
@@ -50,7 +50,7 @@ ms.locfileid: "44042450"
 
     
 > [!NOTE]
-> 在您重設會議 ID 之後，具有新會議 ID 的電子郵件將會傳送給使用者。 此電子郵件將會傳送至主要電子郵件地址，在許多情況下，也會傳送到他們的 Office 365 信箱。 電子郵件包含新的會議 ID、預設的撥入電話號碼，以及更新現有會議的指示。 
+> 在您重設會議 ID 之後，具有新會議 ID 的電子郵件將會傳送給使用者。 此電子郵件將會傳送至主要電子郵件地址，在許多情況下，也會傳送到他們的 Microsoft 365 或 Office 365 信箱。 電子郵件包含新的會議 ID、預設的撥入電話號碼，以及更新現有會議的指示。 
   
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -67,11 +67,11 @@ ms.locfileid: "44042450"
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>想要深入瞭解 Windows PowerShell 嗎？
 
-Windows PowerShell 全部說明如何管理使用者，以及允許或不允許的使用者執行。 在 Windows PowerShell 中，您可以使用單一管理點來管理 Office 365，以便在有多項工作需要執行時簡化日常作業。 若要開始使用 Windows PowerShell，請參閱以下主題：
+Windows PowerShell 全部說明如何管理使用者，以及允許或不允許的使用者執行。 在 Windows PowerShell 中，您可以使用單一管理點來管理 Microsoft 365 或 Office 365，以便在您有多個工作執行時，簡化日常作業。 若要開始使用 Windows PowerShell，請參閱以下主題：
     
   - [為什麼需要使用 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [使用 Windows PowerShell 管理 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [使用 Windows PowerShell 管理 Microsoft 365 或 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
     
 如需有關 Windows PowerShell 的詳細資訊，請參閱[Microsoft 團隊 PowerShell 參考](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)，以取得詳細資訊。
     

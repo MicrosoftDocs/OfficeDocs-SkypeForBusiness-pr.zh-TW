@@ -18,14 +18,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 69efb8c74950ffdb4426049558caaf59254b4605
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 6a864828ce925ea289f27de1b3340a50770b4e88
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779800"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665265"
 ---
-# <a name="upgrade-from-skype-for-business-to-teams-mdash-for-it-administrators"></a>從商務用 Skype 升級至適用&mdash;于 IT 系統管理員的小組
+# <a name="upgrade-from-skype-for-business-to-teams-mdash-for-it-administrators"></a>從商務用 Skype 升級至 &mdash; 適用于 IT 系統管理員的小組
 
 ## <a name="overview"></a>概觀
 
@@ -54,7 +54,7 @@ ms.locfileid: "43779800"
 - 從另一個使用者的團隊用戶端發起的通訊，在使用者 A 的團隊用戶端中，*如果其他使用者位於同一個組織中*，就會永遠居住在該使用者。 
 - 從另一個使用者的團隊用戶端發起的通訊，在使用者 A 的商務用 Skype 用戶端（*如果其他使用者位於同盟組織中*）中，將永遠居住在該使用者。
 
-[孤島模式] 是尚未 TeamsOnly 之任何現有組織的預設 TeamsUpgradePolicy 模式。 當您指派 Office 365 授權時，系統會預設指派 [小組] 和 [商務用 Skype Online] 授權。 （即使使用者是在商務用 Skype 伺服器中託管內部部署，也是如此。 無論使用者是駐留在內部部署還是線上，都可以讓商務用 Skype Online 授權保持啟用，因為這是完整的小組功能目前所需要的。事實上，如果您未採取任何步驟來變更預設設定，您的組織可能已有大量的小組使用量。  這是重迭功能方法的其中一個優點之一。 它可讓組織內的快速、使用者導向採用。
+[孤島模式] 是尚未 TeamsOnly 之任何現有組織的預設 TeamsUpgradePolicy 模式。 當您指派 Microsoft 365 或 Office 365 授權時，系統會預設指派 [小組] 和 [商務用 Skype Online 授權]。 （即使使用者是在商務用 Skype 伺服器中託管內部部署，也是如此。 無論使用者是駐留在內部部署還是線上，都可以讓商務用 Skype Online 授權保持啟用，因為這是完整的小組功能目前所需要的。事實上，如果您未採取任何步驟來變更預設設定，您的組織可能已有大量的小組使用量。  這是重迭功能方法的其中一個優點之一。 它可讓組織內的快速、使用者導向採用。
 
 為了讓這個方法有效運作，它需要所有使用者同時執行這兩個用戶端。 您可以在商務用 Skype 或團隊用戶端中，將組織內部的內送聊天和組織中的電話撥入至使用者，而不是收件者的控制權。 這取決於寄件者用來啟動通訊的用戶端。 如果寄件者和收件者是在不同的組織中，在 [孤島] 模式中的來電與聊天，在商務用 Skype 用戶端中，將永遠居住在該使用者。  
 
@@ -148,7 +148,7 @@ ms.locfileid: "43779800"
 
 -   2個步驟：執行移動 Move-csuser 之後，使用 TeamsUpgradePolicy 將 TeamsOnly 模式授與使用者。
 
-與其他原則不同，您無法在 Office 365 中建立新的 TeamsUpgradePolicy 實例。 所有現有的實例都會內嵌在服務中。  （請注意，mode 是 TeamsUpgradePolicy 內的屬性，而不是原則實例的名稱）。在部分（但非全部）情況下，原則實例的名稱與模式相同。 特別是，若要將 TeamsOnly 模式指派給使用者，您會將 TeamsUpgradePolicy 的「UpgradeToTeams」實例授與該使用者。 若要查看所有實例的清單，您可以執行下列命令：
+與其他原則不同，您無法在 Microsoft 365 或 Office 365 中建立新的 TeamsUpgradePolicy 實例。 所有現有的實例都會內嵌在服務中。  （請注意，mode 是 TeamsUpgradePolicy 內的屬性，而不是原則實例的名稱）。在部分（但非全部）情況下，原則實例的名稱與模式相同。 特別是，若要將 TeamsOnly 模式指派給使用者，您會將 TeamsUpgradePolicy 的「UpgradeToTeams」實例授與該使用者。 若要查看所有實例的清單，您可以執行下列命令：
 
 ```PowerShell
 Get-CsTeamsUpgradePolicy|ft Identity, Mode, NotifySfbUsers
@@ -238,7 +238,7 @@ Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 
 - 如果您可以為整體組織執行快速升級，請考慮此選項。  由於同時執行這兩個用戶端有潛在的風險，因此最好將此時段最小化。 您應該確保您的使用者知道同時執行這兩個用戶端。
 
-- 此選項是現成的模型，而且不需要系統管理員指令即可開始使用小組，除非指派 Office 365 授權。 如果您的使用者已經有商務用 Skype Online，您可能已經在這個模型中了。
+- 此選項是現成的模型，而且不需要系統管理員指令即可開始使用小組，除非指派 Microsoft 365 或 Office 365 授權。 如果您的使用者已經有商務用 Skype Online，您可能已經在這個模型中了。
 
 - 在重迭功能模式並移至 TeamsOnly 時，可能會造成困難。 由於升級的使用者只透過團隊進行通訊，組織中與該使用者進行通訊的任何其他使用者都必須使用團隊。  如果您有尚未開始使用小組的使用者，他們會面臨遺失的郵件。 此外，他們在商務用 Skype 中不會看到 TeamsOnly 使用者的線上狀態。 有些組織會選擇使用租使用者全域原則來執行租使用者範圍的升級，以避免這種情況，但需要等到所有使用者都準備好進行升級。
 
@@ -343,7 +343,7 @@ Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 
 這是包括語音在內的最簡單的升級案例。 
 
-1. 請確定使用者已獲指派團隊授權。 根據預設，當您指派 Office 365 授權時，系統會啟用團隊，所以除非您先前已停用團隊授權，否則不需要採取任何動作。
+1. 請確定使用者已獲指派團隊授權。 根據預設，當您指派 Microsoft 365 或 Office 365 授權時，系統會啟用團隊，所以除非您先前已停用團隊授權，否則不需要採取任何動作。
 
 2.  如果使用者已有電話號碼的 Microsoft 通話方案，唯一的必要變更是在 TeamsUpgradePolicy 中指派使用者 TeamsOnly 模式。  在指派 TeamsOnly 模式之前，傳入的 PSTN 呼叫將會居住在使用者的商務用 Skype 用戶端。 升級至 TeamsOnly 模式之後，傳入的 PSTN 呼叫會集中在使用者的團隊用戶端中。  
 
@@ -365,7 +365,7 @@ Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 
 5. 升級使用者：必須協調這些步驟。 
 
-   - 在 Office 365 中，將使用者升級至 TeamsOnly 模式（授與 CsTeamsUpgradePolicy）。
+   - 在 Microsoft 365 或 Office 365 中，將使用者升級至 TeamsOnly 模式（授與 CsTeamsUpgradePolicy）。
    - 在 SBC 中，將語音路由設定為直接路由（而不是內部部署的中繼伺服器）傳送呼叫來啟用撥入通話。
 
 
@@ -383,7 +383,7 @@ Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 
 4. 如有需要，請針對這些使用者設定各種小組原則（例如 TeamsMessagingPolicy、TeamsMeetingPolicy 等）。 您可以隨時完成這項作業，但如果您想要確保使用者在升級時有正確的設定，最好在將使用者升級至 TeamsOnly 前進行。
 
-5. 如有需要，請指派 Office 365 授權。  使用者應該同時擁有 [小組] 和 [商務用 Skype Online 方案 2]，以及 [電話系統]。 如果商務用 Skype Online 方案2已停用，請重新啟用它。  
+5. 如有需要，請指派 Microsoft 365 或 Office 365 授權。  使用者應該同時擁有 [小組] 和 [商務用 Skype Online 方案 2]，以及 [電話系統]。 如果商務用 Skype Online 方案2已停用，請重新啟用它。  
 
 6. 升級使用者：必須協調這些步驟。 
 
@@ -391,7 +391,7 @@ Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 
    - 在 SBC 中，將語音路由設定為直接路由（而不是內部部署的中繼伺服器）傳送呼叫來啟用撥入通話。 
 
-   - 在 Office 365 中：指派相關的 OnlineVoiceRoutingPolicy 來啟用撥出通話。 
+   - 在 Microsoft 365 或 Office 365 中：指派相關的 OnlineVoiceRoutingPolicy 來啟用撥出通話。 
 
 
 ### <a name="from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan"></a>從商務用 Skype Server 內部部署（含企業語音）到 Microsoft 通話方案
@@ -406,7 +406,7 @@ Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 
 3. 如有需要，請針對這些使用者設定各種小組原則（例如 TeamsMessagingPolicy、TeamsMeetingPolicy 等）。 您可以隨時完成這項作業，但如果您想要確保使用者在升級時有正確的設定，最好在將使用者升級至 TeamsOnly 前進行。 
 
-4. 如有需要，請指派 Office 365 授權。使用者應該同時擁有 [小組] 和 [商務用 Skype Online 方案 2]，以及 [電話系統]。 如果商務用 Skype Online 方案2已停用，請重新啟用它。  
+4. 如有需要，請指派 Microsoft 365 或 Office 365 授權。使用者應該同時擁有 [小組] 和 [商務用 Skype Online 方案 2]，以及 [電話系統]。 如果商務用 Skype Online 方案2已停用，請重新啟用它。  
 
 5. 為您的使用者取得電話號碼。 （如需詳細資訊，請參閱[管理貴組織的電話號碼](https://docs.microsoft.com/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)。）
 
@@ -556,7 +556,7 @@ Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 
 [與商務用 Skype 搭配使用團隊之組織的遷移和互通性指南](migration-interop-guidance-for-teams-with-skype.md) 
 
-[在商務用 Skype Server 和 Office 365 之間設定混合式連接](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
+[在商務用 Skype Server 與 Microsoft 365 或 Office 365 之間設定混合式連接](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
 
 [在內部部署和雲端之間移動使用者](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
 

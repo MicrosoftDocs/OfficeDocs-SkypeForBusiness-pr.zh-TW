@@ -18,20 +18,20 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 6d811db9759b2876520b307140a3a1967047f482
-ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
+ms.openlocfilehash: 30d67c34e4ef0b7d94b9161bd5f12c51006aaa4e
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44523298"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44669404"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>針對 Microsoft Teams 準備組織的網路 
 
 ## <a name="network-requirements"></a>網路需求
 
-如果您已經針對[Office 365 優化您的網路](https://docs.microsoft.com/Office365/Enterprise/assessing-network-connectivity)，您可能已經準備好開始進行 Microsoft 團隊。 在任何情況下，特別是如果您是在第一個 Office 365 工作負載中快速推出團隊以支援**遠端工作人員**，請先檢查下列專案，然後再開始進行團隊推出：
+如果您已經針對[microsoft 365 或 Office 365 優化您的網路](https://docs.microsoft.com/Office365/Enterprise/assessing-network-connectivity)，您可能已經準備好開始進行 microsoft 團隊。 在任何情況下，特別是如果您是在第一份 Microsoft 365 或 Office 365 工作負載快速推出，以支援**遠端工作人員**，請先檢查下列專案，然後再開始進行團隊推出：
 
-1.  您所有的位置都有網際網路存取權（讓他們可以連線到 Office 365）嗎？ 除了標準的網路流量之外，請確定您已針對團隊中的媒體開啟下列專案（適用于所有位置）：
+1.  您的所有位置都有網際網路存取權（以便他們可以連線至 Microsoft 365 或 Office 365）嗎？ 除了標準的網路流量之外，請確定您已針對團隊中的媒體開啟下列專案（適用于所有位置）：
 
     |  |  |
     |---------|---------|
@@ -49,10 +49,10 @@ ms.locfileid: "44523298"
 
 
     
-2.  您有 Office 365 的驗證網域（例如，contoso.com）嗎？
+2.  您是否有驗證的網域供 Microsoft 365 或 Office 365 （例如 contoso.com）？
     
-      - 如果您的組織尚未推出 Office 365，請參閱[商務用 Office 365 快速入門](https://docs.microsoft.com/office365/admin/admin-overview/get-started-with-office-365)。
-      - 如果您的組織尚未新增或設定 Office 365 的驗證網域，請參閱[驗證您的 office 365 網域](https://docs.microsoft.com/office365/admin/setup/domains-faq)。
+      - 如果您的組織尚未推出 Microsoft 365 或 Office 365，請參閱[microsoft 365 或 office 365 商務版快速](https://docs.microsoft.com/office365/admin/admin-overview/get-started-with-office-365)入門。
+      - 如果您的組織尚未新增或設定 Microsoft 365 或 Office 365 的驗證網域，請參閱[驗證您的 microsoft 365 或 office 365 網域](https://docs.microsoft.com/office365/admin/setup/domains-faq)。
 
 3.  貴組織已部署 Exchange Online 和 SharePoint Online 嗎？
     
@@ -64,7 +64,7 @@ ms.locfileid: "44523298"
 > [!IMPORTANT]
 > **針對教育機構**：如果您的組織是教育機構，且您是使用學生資訊系統（SIS），請先[部署學校資料同步](https://docs.microsoft.com/schooldatasync/)處理，然後再將團隊推出。
 >  
-> 執行**內部部署商務用 Skype server**：如果您的組織正在執行內部部署商務用 skype 伺服器（或 Lync Server），您必須[設定 Azure AD Connect](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-azure-ad-connect) ，才能將您的內部部署目錄與 Office 365 同步處理。
+> 執行**內部部署商務用 Skype server**：如果您的組織正在執行內部部署商務用 skype 伺服器（或 Lync Server），您必須[設定 Azure AD Connect](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-azure-ad-connect) ，以將您的內部部署目錄與 Microsoft 365 或 Office 365 同步處理。
 
 ### <a name="best-practice-monitor-your-network-using-cqd-and-call-analytics"></a>最佳做法：使用 CQD 和通話分析監控您的網路 
 
@@ -74,7 +74,7 @@ ms.locfileid: "44523298"
 
 ## <a name="network-optimization"></a>網路優化
 
-如果您是小型企業版且已推出 Office 365，則下列工作是選擇性的，而且不是必要的。 使用本指導方針來優化您的網路與團隊效能，或者您知道您有一些網路限制。
+如果您是小型企業版且已推出 Microsoft 365 或 Office 365，則下列工作是選擇性的，而且不是必要的。 使用本指導方針來優化您的網路與團隊效能，或者您知道您有一些網路限制。
 
 在下列情況中，您可能會想要執行額外的網路優化動作：
 
@@ -82,7 +82,7 @@ ms.locfileid: "44523298"
   - 呼叫繼續放下（可能是防火牆或 proxy 攔截程式所致）
   - 通話有靜態和剪下，或聲音像機器人（可能是抖動或資料包遺失）
 
-如需網路優化的深入討論，包括識別及修正網路障礙的指導方針，請參閱[Office 365 網路連接原則](https://aka.ms/pnc)。
+如需網路優化的深入討論，包括識別及修正網路障礙的指導方針，請參閱[Microsoft 365 和 Office 365 網路連線原則](https://aka.ms/pnc)。
 
 <table>
 <thead>
@@ -99,18 +99,18 @@ ms.locfileid: "44523298"
 </tr>
 <tr class="even">
 <td>團隊顧問</td>
-<td><a href="https://docs.microsoft.com/microsoftteams/use-advisor-teams-roll-out">團隊的 Advisor</a>是<a href="https://admin.teams.microsoft.com">團隊系統管理中心</a>的一部分。 在您成功推出 Teams 前，它會評估您的 Office 365 環境，找出可能需要更新或修改的最常用設定。</td>
+<td><a href="https://docs.microsoft.com/microsoftteams/use-advisor-teams-roll-out">團隊的 Advisor</a>是<a href="https://admin.teams.microsoft.com">團隊系統管理中心</a>的一部分。 它會評估您的 Microsoft 365 或 Office 365 環境，並識別最常見的設定，您可能需要更新或修改，才能成功地推出小組。</td>
 </tr>
 <tr class="odd">
 <td>外部名稱解析</td>
-<td>請確定執行團隊用戶端的所有電腦都可以解析外部 DNS 查詢，以探索 Office 365 提供的服務，而且您的防火牆不會防止存取。 如需設定防火牆埠的相關資訊，請移至<a href="https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges">Office 365 url 與 IP 範圍</a>。</td>
+<td>請確定執行團隊用戶端的所有電腦都可以解析外部 DNS 查詢，以探索 Microsoft 365 或 Office 365 提供的服務，而且您的防火牆無法防止存取。 如需設定防火牆埠的相關資訊，請移至<a href="https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges">Microsoft 365 和 Office 365 url 與 IP 範圍</a>。</td>
 </tr>
 <tr class="odd">
 <td>維護會話暫留</td>
 <td>請確定您的防火牆沒有變更 UDP 的對應網路位址轉譯（NAT）位址或埠。</td>
 </tr><tr class="odd">
 <td>驗證 NAT 池子大小</td>
-<td>驗證使用者連線所需的網路位址轉譯（NAT）池大小。 當多個使用者和裝置使用<a href="https://docs.microsoft.com/office365/enterprise/nat-support-with-office-365">網路位址轉譯（NAT）或埠位址轉換（PAT）</a>存取 Office 365 時，您必須確保隱藏在每個公開路由的 IP 位址後面的裝置不會超過支援的號碼。 確保已將足夠的公用 IP 位址指派給 NAT 池，以避免埠耗盡。 埠耗盡會影響內部使用者和裝置無法連線至 Office 365 服務的情況。</td>
+<td>驗證使用者連線所需的網路位址轉譯（NAT）池大小。 當多個使用者和裝置使用<a href="https://docs.microsoft.com/office365/enterprise/nat-support-with-office-365">網路位址轉譯（NAT）或埠位址轉換（PAT）</a>存取 Microsoft 365 或 Office 365 時，您必須確保隱藏在每個公開路由的 IP 位址後面的裝置不會超過支援的數量。 確保已將足夠的公用 IP 位址指派給 NAT 池，以避免埠耗盡。 埠耗盡會影響內部使用者和裝置無法連線至 Microsoft 365 或 Office 365 服務的情況。</td>
 </tr>
 <tr class="even">
 <td>路由至 Microsoft 資料中心</td>
@@ -118,11 +118,11 @@ ms.locfileid: "44523298"
 </tr>
 <tr class="odd">
 <td>入侵偵測與防範指導方針</td>
-<td>如果您的環境針對外寄連線的安全層級部署了<a href="https://docs.microsoft.com/azure/network-watcher/network-watcher-intrusion-detection-open-source-tools">入侵偵測</a>或防護系統（IDS/IPS），請務必將所有 Office 365 url 加上白名單。</td>
+<td>如果您的環境針對外寄連線的安全層級部署了<a href="https://docs.microsoft.com/azure/network-watcher/network-watcher-intrusion-detection-open-source-tools">入侵偵測</a>或防護系統（IDS/IPS），請務必將所有 Microsoft 365 或 Office 365 url 加上白名單。</td>
 </tr>
 <tr class="even">
 <td>設定分割隧道 VPN</td>
-<td><p>我們建議您為小組流量提供備用路徑，這種方法會繞過虛擬私人網路（VPN），通常稱為[分割隧道 VPN](https://docs.microsoft.com/windows/security/identity-protection/vpn/vpn-routing)。 分割隧道表示 Office 365 的流量不會透過 VPN，而是直接移至 Office 365。 略過您的 VPN 會對團隊品質產生正面影響，並減少從 VPN 裝置與組織網路的載入。 若要實現分割隧道 VPN，請與您的 VPN 廠商合作。</p>
+<td><p>我們建議您為小組流量提供備用路徑，這種方法會繞過虛擬私人網路（VPN），通常稱為[分割隧道 VPN](https://docs.microsoft.com/windows/security/identity-protection/vpn/vpn-routing)。 分割隧道意味著 Microsoft 365 或 Office 365 的流量不會透過 VPN，而是直接移至 Microsoft 365 或 Office 365。 略過您的 VPN 會對團隊品質產生正面影響，並減少從 VPN 裝置與組織網路的載入。 若要實現分割隧道 VPN，請與您的 VPN 廠商合作。</p>
 <p>我們建議您避開 VPN 的其他原因：
 <ul>
 <li><p>Vpn 通常不會設計或設定為支援即時媒體。</p></li> 
@@ -159,7 +159,7 @@ ms.locfileid: "44523298"
 
 ## <a name="related-topics"></a>相關主題
 
-[Office 365 網路連接原則](https://aka.ms/pnc)
+[Microsoft 365 和 Office 365 網路連接原則](https://aka.ms/pnc)
 
 [全球端點：商務用 Skype Online 與團隊](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)
 

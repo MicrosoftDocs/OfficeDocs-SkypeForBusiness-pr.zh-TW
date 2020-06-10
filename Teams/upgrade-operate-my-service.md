@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 976954014e3d1e78e8ca22de4f20a95985033006
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: c167903414aecabf7eecae01527a71ae61c27a4b
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523316"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666085"
 ---
 # <a name="operate-your-service"></a>營運您的服務
 
@@ -37,11 +37,11 @@ ms.locfileid: "44523316"
 
 [操作指南] 可讓您大致瞭解 Microsoft 團隊服務管理功能所需的所有工作和活動。
 
-服務管理是一個廣泛的主題，涵蓋在部署並為使用者啟用 Microsoft 團隊服務之後的日常作業。 [團隊服務] 包含 Microsoft Office 365 和部署于內部部署的基礎結構元件（例如 [網路]）。
+服務管理是一個廣泛的主題，涵蓋在部署並為使用者啟用 Microsoft 團隊服務之後的日常作業。 [團隊服務] 包含 Microsoft 365 或 Office 365，以及部署于內部部署的基礎結構元件（例如 [網路]）。
 
 服務管理的概念很可能不是大多陣列織的新概念。 您可能已經實現與現有服務相關聯的進程和工作。 如此一來，您可能會在規劃服務管理，在未來為支援小組時，增加目前的程式。
 
-服務管理包括管理團隊的所有活動與程式，以端到端的方式進行。 如先前所述，服務管理的部分元件（由 Office 365 服務本身所組成的基礎結構）是 Microsoft 的責任，而您（如果您的客戶）負責管理您所提供的小組、網路及端點的各個方面。
+服務管理包括管理團隊的所有活動與程式，以端到端的方式進行。 如先前所述，服務管理的部分元件（Microsoft 365 或 Office 365 服務本身組成的基礎架構）是 Microsoft 的責任，而您（如果您的客戶）負責管理您所提供之團隊、網路和端點的各個方面。
 
 本指南中的任務和活動會分為八個類別，如下列圖表所示。 在下列各節中，您將會展開這些類別中的每一種。
 
@@ -72,7 +72,7 @@ ms.locfileid: "44523316"
 
 ### <a name="teams-service-dependencies"></a>團隊服務相依性
 
-Microsoft 團隊將跨 Office 365 的技術結合在一起，為團隊合作提供中樞。 範例包括：
+Microsoft 團隊將跨 Microsoft 365 和 Office 365 的技術結合在一起，為團隊合作提供中樞。 範例包括：
 
 - Azure Active Directory （Azure AD）為團隊提供驗證與授權服務。
 
@@ -106,7 +106,7 @@ Microsoft 團隊將跨 Office 365 的技術結合在一起，為團隊合作提�
 
 ## <a name="monitor-service-health"></a>監視服務健康情況
 
-您必須瞭解 Microsoft 團隊服務的整體健康情況，才能在您的組織中主動提醒任何影響服務的活動。 如前文所述，小組依賴于其他 Office 365 服務，例如 Azure Active Directory、Exchange Online、SharePoint Online 和商務用 OneDrive。 因此，請務必監視相依服務的健康情況。
+您必須瞭解 Microsoft 團隊服務的整體健康情況，才能在您的組織中主動提醒任何影響服務的活動。 如前文所述，小組依賴于其他 Microsoft 365 和 Office 365 服務（例如 Azure Active Directory、Exchange Online、SharePoint Online 和商務用 OneDrive）。 因此，請務必監視相依服務的健康情況。
 
 將此活動納入您的事件管理流程，以主動告知使用者、技術人員及您的操作小組，準備處理使用者升級。
 
@@ -115,9 +115,9 @@ Microsoft 團隊將跨 Office 365 的技術結合在一起，為團隊合作提�
 | [監視] 工具 | 獲益 | 使用時機 |
 |---|---|---|
 | Microsoft 365 系統管理中心 | 可從任何裝置使用支援的瀏覽器。 | 在您不需要即時通知時使用。 |
-| Office 365 系統管理應用程式 | 向您的行動裝置提供推播通知。 | 當您在旅途中需要通知服務事件時，請使用。 |
+| Microsoft 365 系統管理應用程式 | 向您的行動裝置提供推播通知。 | 當您在旅途中需要通知服務事件時，請使用。 |
 | Microsoft System Center | 與 Microsoft System Center 整合。 | 在您需要高級監視功能和通知支援時使用。 |
-| Office 365 服務通訊 API | 以程式設計方式存取 Office 365 服務健康情況。 | 當您需要與協力廠商監視工具整合或想要建立自己的解決方案時使用。 |
+| Microsoft 365 服務通訊 API | 以程式設計方式存取 Microsoft 365 或 Office 365 服務健康情況。 | 當您需要與協力廠商監視工具整合或想要建立自己的解決方案時使用。 |
 
 > [!NOTE]
 > 只有獲指派 [**全域管理員**] 或 [**服務管理員**] 角色的人員，才能查看服務健康情況。
@@ -128,22 +128,22 @@ Microsoft 團隊將跨 Office 365 的技術結合在一起，為團隊合作提�
 
 ### <a name="monitoring-with-the-mobile-app"></a>使用行動裝置 app 進行監控
 
-您可以在 Apple iOS、Android 和 Windows （PC 和 mobile）上使用 Office 365 系統管理應用程式。 App 提供服務健康情況與即將進行變更的服務系統管理員資訊。 App 支援推播通知，在公告發布之後幾乎立即就能提醒您。 這可協助您隨時掌握服務的狀態、健康情況及任何即將進行的變更。 通知支援會將它提供給系統管理員的建議監視工具。 如需詳細資訊，請參閱：
+您可以在 Apple iOS、Android 和 Windows （PC 和 mobile）上使用 Microsoft 365 系統管理應用程式。 App 提供服務健康情況與即將進行變更的服務系統管理員資訊。 App 支援推播通知，在公告發布之後幾乎立即就能提醒您。 這可協助您隨時掌握服務的狀態、健康情況及任何即將進行的變更。 通知支援會將它提供給系統管理員的建議監視工具。 如需詳細資訊，請參閱：
 
-[Office 365 Admin 行動裝置 App](https://support.office.com/article/Office-365-Admin-Mobile-App-e16f6421-2a1a-4142-bf9d-9846600a060a)
+[Microsoft 365 Admin 行動裝置 App](https://support.office.com/article/Office-365-Admin-Mobile-App-e16f6421-2a1a-4142-bf9d-9846600a060a)
 
-[下載 Office 365 Admin 行動裝置 App](https://products.office.com/business/manage-office-365-admin-app)
+[下載 Microsoft 365 Admin 行動裝置 App](https://products.office.com/business/manage-office-365-admin-app)
 
 ### <a name="monitoring-with-microsoft-system-center"></a>使用 Microsoft System Center 進行監控
 
-Microsoft System Center 是一個整合的管理平臺，可協助您管理資料中心、用戶端裝置及混合式雲端 IT 環境。 使用 System Center 的 Office 365 系統管理員現在可以選擇匯入 Office 365 管理套件，讓他們可以在系統中心的 Operations Manager 中查看所有服務通訊。 使用這個工具可讓您存取已訂閱服務的狀態、使用中及已解決的服務事件，以及您的訊息中心通訊（即將進行的變更）。 如需詳細資訊，請參閱下列[博客文章](https://blogs.office.com/2014/07/29/new-office-365-admin-tools/?eu=true)。
+Microsoft System Center 是一個整合的管理平臺，可協助您管理資料中心、用戶端裝置及混合式雲端 IT 環境。 使用 System Center 的 Microsoft 365 或 Office 365 系統管理員現在可以選擇匯入管理套件，讓他們可以在系統中心中查看 Operations Manager 中的所有服務通訊。 使用這個工具可讓您存取已訂閱服務的狀態、使用中及已解決的服務事件，以及您的訊息中心通訊（即將進行的變更）。 如需詳細資訊，請參閱下列[博客文章](https://blogs.office.com/2014/07/29/new-office-365-admin-tools/?eu=true)。
 
 如果您利用 System Center 監視團隊服務健康情況（以及相依的服務），您可以進一步自訂管理套件，以提醒或通知特定群組或已識別對事件作出反應的人員。
 這些群組可以包含服務擁有者、服務台、第二層和第三層支援群組，以及貴組織中的事件管理員。
 
 ### <a name="monitoring-for-advanced-scenarios"></a>監視高級案例
 
-您可以利用 Office 365 服務通訊 API，以程式設計方式存取 Office 365 服務健康情況及變更，以監控服務健康情況與即將進行的變更。 您可以使用這個 API 來建立您自己的監視工具，或將現有的監視工具連線到 Office 365 服務通訊，這可能會簡化您的環境監視方式。 如需詳細資訊，請參閱[適用于企業開發人員的 Office 365](https://msdn.microsoft.com/library/jj984343(v=office.15).aspx)。
+您可以利用服務通信 API，以程式設計方式存取服務健康情況與變更，以監控服務健康情況與即將進行的變更。 您可以使用這個 API 來建立您自己的監視工具，或將現有的監視工具連線至 Microsoft 365 或 Office 365 服務通訊，這可能會簡化您的環境監視方式。 如需詳細資訊，請參閱適用[于企業開發人員的 Microsoft 365 或 Office 365](https://msdn.microsoft.com/library/jj984343(v=office.15).aspx)。
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>每日/每週/每月/所需任務
 
@@ -154,7 +154,7 @@ Microsoft System Center 是一個整合的管理平臺，可協助您管理資�
 
 ### <a name="references"></a>提到
 
-[如何檢查 Office 365 服務健康情況](https://support.office.com/article/How-to-check-Office-365-service-health-932AD3AD-533C-418A-B938-6E44E8BC33B0)
+[如何檢查 Microsoft 365 或 Office 365 服務健康情況](https://support.office.com/article/How-to-check-Office-365-service-health-932AD3AD-533C-418A-B938-6E44E8BC33B0)
 
 [驗證 Microsoft 團隊的服務健康情況](service-health.md)
 
@@ -231,7 +231,7 @@ Microsoft 團隊是雲端服務。 如此一來，就能夠快速提供新的功
 
 ## <a name="assess-teams-usage"></a>評估團隊使用量
 
-初始試驗開始之後，請務必建立定期頻率來測量實際的團隊使用量。 這可讓您的組織深入瞭解在您的構想階段，實際使用量如何與您預期的使用量相符。 雖然此區段側重于團隊使用量，但這應該是進一步努力來測量和評估 Office 365 使用方式的一部分。
+初始試驗開始之後，請務必建立定期頻率來測量實際的團隊使用量。 這可讓您的組織深入瞭解在您的構想階段，實際使用量如何與您預期的使用量相符。 雖然此區段側重于團隊使用量，但這應該是更廣泛的工作，以衡量及評估 Microsoft 365 或 Office 365 的使用方式。
 
 在部署初期回顧使用量，為您提供機會：
 
@@ -245,7 +245,7 @@ Microsoft 團隊是雲端服務。 如此一來，就能夠快速提供新的功
 
 ### <a name="measuring-usage-with-the-microsoft-365-admin-center"></a>使用 Microsoft 365 系統管理中心測量使用量
 
-[報表] 儀表板提供來自小組的使用資料。 您可以在三個不同的報表中找到團隊使用資料。 第一個報表提供的叉積視圖，說明使用者如何使用 Office 365 中的各種服務進行通訊與共同作業。 您可以在此找到以下報告： Office 365 作用中的[使用者報告](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Active-Users-FC1CF1D0-CD84-43FD-ADB7-A4C4DFA8112D)
+[報表] 儀表板提供來自小組的使用資料。 您可以在三個不同的報表中找到團隊使用資料。 第一個報表提供一種跨產品視圖，說明使用者如何使用 Microsoft 365 或 Office 365 中的各種服務進行通訊與共同作業。 您可以在此找到以下報告： [Microsoft 365 系統管理中心報告-作用中的使用者](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Active-Users-FC1CF1D0-CD84-43FD-ADB7-A4C4DFA8112D)
 
 其他兩個報表是團隊專用的，而且它們提供來自使用者和裝置的團隊使用量的進一步詳細資料。 您可以在以下位置找到兩種報告：
 
@@ -257,7 +257,7 @@ Microsoft 團隊是雲端服務。 如此一來，就能夠快速提供新的功
 
 系統管理中心的使用方式報告可由獲指派**全域管理員**角色的人員或產品特定的系統管理員角色（**Exchange 系統**管理員、**商務用 Skype 系統**管理員、 **SharePoint 系統管理員**）存取。
 
-此外，對於需要存取報表的使用者，也可以使用 [**報表閱讀**者角色]，但不要執行任何需要系統管理員層級許可權的工作。 您指派這個角色來為任何擁有者的人提供使用方式報告，以監控和推動採用。 如需其他可用角色的詳細資訊，請參閱[關於 Office 365 系統管理員角色](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)。
+此外，對於需要存取報表的使用者，也可以使用 [**報表閱讀**者角色]，但不要執行任何需要系統管理員層級許可權的工作。 您指派這個角色來為任何擁有者的人提供使用方式報告，以監控和推動採用。 如需其他可用角色的詳細資訊，請參閱[關於 Microsoft 365 系統管理員角色](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)。
 
 ### <a name="assessing-usage"></a>評估使用量
 
@@ -355,8 +355,8 @@ NPS 是一個從–100到100的索引，可以衡量客戶對公司產品或服�
 
 | 活動 | 描述 | 節奏 | 指派的小組 |
 |---|---|---|---|
-| 監視 Office 365 IPs 與 Url | 使用提供的[RSS](https://go.microsoft.com/fwlink/p/?linkid=236301)摘要來監控[Office 365 url 和 IP 位址範圍](https://aka.ms/o365ips)的任何變更，並啟動適用網路群組的變更要求。 | 日常 | |
-| 根據 Office 365 IPs 和 Url 的變更來更新網路 | 更新適用的網路元件（防火牆、proxy 伺服器、Vpn、用戶端防火牆等等），以反映[Office 365 url 與 IP 位址範圍](https://aka.ms/o365ips)的變更。 | 視需要 | |
+| 監視 Microsoft 365 或 Office 365 IPs 與 Url | 使用提供的[RSS](https://go.microsoft.com/fwlink/p/?linkid=236301)摘要來監控[Office 365 url 和 IP 位址範圍](https://aka.ms/o365ips)的任何變更，並啟動適用網路群組的變更要求。 | 日常 | |
+| 根據 Microsoft 365 或 Office 365 IPs 與 Url 的變更來更新網路 | 更新適用的網路元件（防火牆、proxy 伺服器、Vpn、用戶端防火牆等等），以反映[Office 365 url 與 IP 位址範圍](https://aka.ms/o365ips)的變更。 | 視需要 | |
 | 提供建築物資料 | 針對品質擁護者（或相關的股東）提供更新的子網資訊，以確保[CQD 中的建築物定義](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)保持在最新狀態。 | 視需要 | |
 | 實施變更 | 在網路上實施變更，以支援變更團隊的業務與技術需求。 網路元素可以包含：<ul><li>道</li><li>疑難排解</li><li>有線和 Wi-fi 網路</li><li>網際網路連線與 ExpressRoute</li><li>DNS</li></ul> | 視需要 | |
 | 網路監視與報告 | 使用您現有的協力廠商網路管理工具和您的網路供應商提供的報告功能，監控網路端以結束可用性、利用率和容量趨勢。 使用趨勢資料進行網路容量規劃。 | 每日、每週、每月 | |
@@ -429,7 +429,7 @@ Wi-fi 驅動程式可能會造成問題。 舉例來說，驅動程式可能會�
 
 即使您已遵循前一個指南，貴組織中的使用者仍可能會遇到團隊的問題。 雖然問題可能不是端點本身，但問題的症狀通常是透過用戶端傳送給使用者。 下列指導方針旨在提供解決問題所需採取的一般步驟。這並不是一個全面的疑難排解指南。 這些步驟是以特定順序提供，但不需要明確追蹤，也可能不適用，視問題的性質而定。
 
-1. **驗證服務健康情況：** 使用者可能遇到的問題，可能與對團隊服務或 itsdependent 服務產生負面影響的事件有關。 第一步，我們建議您確認沒有作用中的服務問題。 請參閱[如何檢查 Office 365 服務健康情況](https://support.office.com/article/How-to-check-Office-365-service-health-932AD3AD-533C-418A-B938-6E44E8BC33B0)。 請記得檢查相依服務的狀態（例如，Exchange、SharePoint、商務用 OneDrive）。 如需深入瞭解服務健康情況，請在上一節 [[監視服務健康情況](#monitor-service-health)] 中進一步討論。
+1. **驗證服務健康情況：** 使用者可能遇到的問題，可能與對團隊服務或其相依服務產生負面影響的事件有關。 第一步，我們建議您確認沒有作用中的服務問題。 請參閱[如何檢查 Microsoft 365 服務健康情況](https://docs.microsoft.com/office365/enterprise/view-service-health)。 請記得檢查相依服務的狀態（例如，Exchange、SharePoint、商務用 OneDrive）。 如需深入瞭解服務健康情況，請在上一節 [[監視服務健康情況](#monitor-service-health)] 中進一步討論。
 
 2. **驗證用戶端連線：** 連線問題導致小組中的功能或登入問題。 我們建議您驗證與服務的連線性（尤其是新網站或位置）。 請確定每個網站都遵循下列[Office 365 url 和 IP 位址範圍](https://aka.ms/o365ips)指引。 您可以利用[Microsoft 網路評估工具](https://www.microsoft.com/download/details.aspx?id=53885)來執行連線測試，以驗證媒體埠是否已正確開啟以供團隊功能使用。 [網路就緒](prepare-network.md)指示中提供如何執行連線測試的詳細步驟。
 

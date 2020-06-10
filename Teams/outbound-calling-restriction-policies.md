@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 系統管理員可以控制使用者可以發出的音訊會議和使用者 PSTN 呼叫類型。
-ms.openlocfilehash: 84acbed4017a709b63e657f12ef0bbe3c1eb620c
-ms.sourcegitcommit: 5a88788bd0a0b2ccbc5b977b38dcfe4681cd5d10
+ms.openlocfilehash: ca4b7920ccad27a9434cbd1e5f76d7d10c4f4612
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "44278176"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665905"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>音訊會議和使用者 PSTN 通話的撥出通話限制原則
 
@@ -42,7 +42,7 @@ ms.locfileid: "44278176"
 若要找出哪些國家/地區被視為區域 A，請參閱[區域國家/地區](https://docs.microsoft.com/microsoftteams/calling-plans-for-office-365)。
 
    > [!NOTE]
-   > 如果撥打的電話號碼是與會議召集人（在音訊會議的情況下）或使用者（在使用者 PSTN 呼叫中），則會將呼叫視為國內的通話（如果是使用中的 365 Office）。 
+   > 如果撥打的電話號碼位於與會議召集人設定的 Microsoft 365 或 Office 365 （在音訊會議中）或使用者（在使用者 PSTN 呼叫中），則會被視為國內通話。 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]

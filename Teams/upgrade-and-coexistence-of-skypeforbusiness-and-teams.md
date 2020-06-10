@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 44dfc985f213141e20e15eb29198004d10030280
-ms.sourcegitcommit: 8395f91205bde549a0a92999ef00c5f5fb03fb80
+ms.openlocfilehash: bcb1570a87740d899a5f92957c0335e70d7f91ba
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44583446"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665415"
 ---
 # <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>選擇從商務用 Skype 升級到團隊的升級歷程
 
@@ -83,7 +83,7 @@ ms.locfileid: "44583446"
 
 - 從*外部組織*中的使用者在團隊用戶端發起的通訊將永遠位於使用者 a 的商務用 Skype 用戶端。
 
-如果您已將 Office 365 授權指派給您的使用者，這將是貴組織的預設升級體驗。 當您指派 Office 365 授權時，系統會預設指派 [小組] 和 [商務用 Skype Online] 授權。<sup>2</sup>
+如果您已將 Microsoft 365 或 Office 365 授權指派給您的使用者，這將是貴組織的預設升級體驗。 當您指派 Microsoft 365 或 Office 365 授權時，系統會預設指派 [小組] 和 [商務用 Skype Online 授權]。<sup>2</sup>
 
 為了讓這個方法有效運作，所有使用者都必須同時執行這兩個用戶端。 您可以在商務用 Skype 或團隊用戶端中，將組織內部的內送聊天和組織中的電話撥入至使用者，而不是收件者的控制權。 這取決於寄件者用來啟動通訊的用戶端。 如果寄件者和收件者是在不同的組織中，在 [孤島] 模式中的來電與聊天，在商務用 Skype 用戶端中，將永遠居住在該使用者。
 
@@ -178,7 +178,7 @@ ms.locfileid: "44583446"
 |在商務用 Skype 與團隊之間的互通性，在兩個使用者都是孤島模式時不存在。      |商務用 Skype 與團隊使用者之間的通訊需要互通性。         |
 
 > [!NOTE]
-> 如果您無法追蹤將商務用 Skype 伺服器使用者遷移至小組所支援的方法，您可以在 Active Directory 中移除商務用 Skype Server 及所有相關的使用者屬性，將您的使用者轉成小組。 一旦使用者的 Azure Active Directory 屬性已清除商務用 Skype Server 屬性，且 DNS 記錄已重新指向 Office 365，就可以授權 Office 365 中的使用者，並將其升級至團隊。 
+> 如果您無法追蹤將商務用 Skype 伺服器使用者遷移至小組所支援的方法，您可以在 Active Directory 中移除商務用 Skype Server 及所有相關的使用者屬性，將您的使用者轉成小組。 當使用者的 Azure Active Directory 屬性已清除商務用 Skype Server 屬性，且 DNS 記錄已重新指向 Microsoft 365 或 Office 365 之後，就可以授權 Microsoft 365 或 Office 365 中的使用者，並將其升級至團隊。 
 
 > [!IMPORTANT]
 > 透過轉移的遷移，就不會將連絡人資料和會議資料從內部部署環境遷移至 Microsoft 團隊。

@@ -24,12 +24,12 @@ ms.custom:
 - Direct Routing
 - seo-marvel-mar2020
 description: 瞭解緊急通話，包括緊急位址、緊急通話路由及動態緊急通話的相關資訊。
-ms.openlocfilehash: 889446ca08289ccb15128bee8ca6b6170398c599
-ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
+ms.openlocfilehash: b41b7e9b4442e10cf3ca352a9d6460f2d537b43e
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44539490"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665155"
 ---
 # <a name="manage-emergency-calling"></a>管理緊急通話
 
@@ -84,7 +84,7 @@ ms.locfileid: "44539490"
 
 - 例如，在美國和加拿大，在指派數位給使用者時，需要緊急位置。
 
-- &mdash; &mdash; 如果您是從 Office 365 取得電話號碼，或從其他服務提供者或運營商轉接時，您可以在歐洲、中東及非洲（EMEA）等其他國家或地區使用。
+- 在其他國家/地區（例如歐洲、中東及非洲（EMEA）），當您從 Microsoft 365 或 Office 365 取得電話號碼，或是從其他服務提供者或運營商轉接時，就需要緊急位置。
 
 ### <a name="dynamic-emergency-calling"></a>動態緊急通話
 

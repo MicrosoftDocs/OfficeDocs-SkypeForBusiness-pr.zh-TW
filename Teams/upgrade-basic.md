@@ -5,7 +5,7 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 audience: admin
 description: 請遵循這個加速的十步驟行動方案，從基本的商務用 Skype 設定轉換到 Microsoft 團隊設定。
 localization_priority: Normal
@@ -23,12 +23,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f6489362a37be76c44f2b0dbf58e094c58c85d21
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: ef27d9faac30003edbb4c21ee7d9060d41ea454b
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904468"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666225"
 ---
 # <a name="upgrade-basic"></a>升級基本版
 
@@ -50,7 +50,7 @@ ms.locfileid: "43904468"
 
 如需有關升級的其他問題，請參閱我們的[常見問題](https://aka.ms/SkypeToTeams-FAQ)。
 
-不熟悉團隊嗎？ 瞭解[團隊如何](https://products.office.com/microsoft-teams/group-chat-software)將交談、會議、檔案、Office 應用程式和協力廠商整合結合在一起，提供單一中樞以在 Office 365 中進行合作。
+不熟悉團隊嗎？ 瞭解[團隊如何](https://products.office.com/microsoft-teams/group-chat-software)將交談、會議、檔案、Office 應用程式和協力廠商整合結合在一起，為 Microsoft 365 和 Office 365 中的團隊合作提供單一中樞。
 
 <!--ENDOFSECTION-->
 
@@ -100,7 +100,7 @@ ms.locfileid: "43904468"
 
 **資源清單**
 
-- [在 Office 365 的活動報告中查看使用方式資料](https://support.office.com/article/activity-reports-in-the-office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)
+- [系統管理中心的 Microsoft 365 報告](https://docs.microsoft.com/microsoft-365/admin/activity-reports/activity-reports)
 
 [回到頁首](#about-upgrade-basic)
 
@@ -164,7 +164,7 @@ ms.locfileid: "43904468"
 
 *（升級日）*
 
-今天是貴組織在您的通訊與共同作業解決方案中正式升級至團隊的日期。 在 Microsoft [團隊管理中心] 中，將 [共存] 模式設定為 [**僅限團隊**]，以啟用升級開關。 （在系統管理中心中，移至**組織範圍的 [設定** > **團隊升級**]。）使用者會在他們已升級至小組的商務用 Skype 用戶端中收到通知。
+今天是貴組織在您的通訊與共同作業解決方案中正式升級至團隊的日期。 在 Microsoft [團隊管理中心] 中，將 [共存] 模式設定為 [**僅限團隊**]，以啟用升級開關。 （在系統管理中心中，移至 [**整個組織的設定**  >  ]**團隊升級**。）使用者會在他們已升級至小組的商務用 Skype 用戶端中收到通知。
 
 我們建議您在每個人都升級之後，傳送電子郵件給小組。
 

@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.porting.overview
 - Calling Plans
 description: 瞭解什麼是埠訂單，以及如何將電話號碼從服務提供者轉移至團隊。
-ms.openlocfilehash: 0102adfd53dba3ff455ddbdbc3678e625fd978de
-ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
+ms.openlocfilehash: bc15d7be98f83b39a7dde006e3043b407b76a63e
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/11/2020
-ms.locfileid: "43227537"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665895"
 ---
 # <a name="whats-a-port-order"></a>什麼是移轉訂單？
 
@@ -65,7 +65,7 @@ ms.locfileid: "43227537"
 
 - 電話供應商（例如 Vonage 或 RingCentral）的 VoIP 電話號碼。
 
-- 商務用 Skype 混合式電話號碼。 如果您想要轉移這些號碼，請以<ptn@microsoft.com>電子郵件傳送給我們。
+- 商務用 Skype 混合式電話號碼。 如果您想要轉移這些號碼，請以電子郵件傳送給我們 <ptn@microsoft.com> 。
 
   **您無法傳送：**
   
@@ -112,7 +112,7 @@ ms.locfileid: "43227537"
 
 - 行動電話號碼
 
-- 可在 Office 365 中用來進行音訊會議的服務號碼。
+- 可用於 Microsoft 365 或 Office 365 中音訊會議的服務號碼。
 
 以下是如何針對每種類型的號碼提交編號移植要求的詳細資訊：
   
@@ -131,7 +131,7 @@ ms.locfileid: "43227537"
 
 完成埠訂單要求之後，會在7-14 天前處理。 不過，視您的服務提供者而定，可能需要長達30天的時間。 在撥出電話號碼之後，您會收到一封電子郵件給我們，讓您可以開始使用。
   
-若要檢查您的埠順序狀態，請在 Microsoft 團隊系統管理中心的左導覽中，移至 [**語音** > **電話號碼**]，然後按一下 [**訂購歷程記錄**]。 每個埠訂單狀態都列在 [**狀態**] 欄中。
+若要檢查您的埠順序狀態，請在 Microsoft 團隊系統管理中心的左導覽中，移至 [**語音**  >  **電話號碼**]，然後按一下 [**訂購歷程記錄**]。 每個埠訂單狀態都列在 [**狀態**] 欄中。
   
 ## <a name="can-user-subscriber-phone-numbers-be-converted-to-service-numbers"></a>使用者（訂閱者）電話號碼可以轉換為服務號碼嗎？
 <a name="bkmk_type_1"> </a>

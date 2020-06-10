@@ -17,12 +17,12 @@ ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection:
 - M365-collaboration
 description: 請閱讀本主題，以瞭解如何使用 Exchange 內部部署在混合式環境中部署 Microsoft 團隊聊天室的相關資訊。
-ms.openlocfilehash: 39e78b914edb547737ed75c20191dd9beba242c6
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: d017706a0e512a4945eaccd69c0e11a7962ca518
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905295"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666155"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>使用 Exchange 內部部署來部署 Microsoft 團隊聊天室
 
@@ -36,17 +36,17 @@ Microsoft 提供[SkypeRoomProvisioningScript. ps1](https://go.microsoft.com/fwli
 
 在使用 Exchange 內部部署部署 Microsoft 團隊聊天室之前，請確定您已滿足需求。 如需詳細資訊，請參閱[Microsoft 團隊會議室需求](requirements.md)。
   
-如果您是使用 Exchange 內部部署來部署 Microsoft 團隊聊天室，您將會使用 Active Directory 系統管理工具來為您的內部部署網域帳戶新增電子郵件地址。 此帳戶將會同步處理到 Office 365。 您將需要：
+如果您是使用 Exchange 內部部署來部署 Microsoft 團隊聊天室，您將會使用 Active Directory 系統管理工具來為您的內部部署網域帳戶新增電子郵件地址。 此帳戶將會同步處理至 Microsoft 365 或 Office 365。 您將需要：
   
 - 建立帳戶並將帳戶與 Active Directory 同步處理。
 
 - 啟用遠端信箱並設定屬性。
 
-- 指派 Office 365 授權。
+- 指派 Microsoft 365 或 Office 365 授權。
 
 - 在商務用 Skype Server 上啟用裝置帳戶。 若要啟用裝置帳戶，您的環境必須符合下列先決條件：
 
-  - 您必須在 Office 365 方案中有商務用 Skype Online （方案2）或更高版本。 方案需要支援會議功能。
+  - 您必須在 Microsoft 365 或 Office 365 方案中使用商務用 Skype Online （方案2）或更高版本。 方案需要支援會議功能。
   
   - 如果您需要企業語音（PSTN 電話），請在您需要商務用 Skype Online （方案3）中使用電話服務提供者進行 Microsoft 團隊聊天室。
   
@@ -105,14 +105,14 @@ Microsoft 提供[SkypeRoomProvisioningScript. ps1](https://go.microsoft.com/fwli
 
    如需詳細的語法與參數資訊，請參閱[設定 CalendarProcessing](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-calendarprocessing)。
 
-### <a name="assign-an-office-365-license"></a>指派 Office 365 授權
+### <a name="assign-a-microsoft-365-or-office-365-license"></a>指派 Microsoft 365 或 Office 365 授權
 
 1. 連線至 Azure Active Directory。 如需 Active Directory 的詳細資訊，請參閱[Azure ActiveDirectory （import-module msonline） 1.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0)。 
 
    > [!NOTE]
    > [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0)不受支援。 
 
-2. 裝置帳戶必須具備有效的 Office 365 授權，否則 Exchange 與 Microsoft 團隊將無法運作。 如果您有授權，您必須將使用位置指派給您的裝置帳戶，這會決定您的帳戶可使用哪些授權 Sku。 您可以使用`Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> 以取得可用的 Sku 清單。
+2. 裝置帳戶必須具備有效的 Microsoft 365 或 Office 365 授權，否則 Exchange 與 Microsoft 團隊將無法運作。 如果您有授權，您必須將使用位置指派給您的裝置帳戶，這會決定您的帳戶可使用哪些授權 Sku。 您可以使用`Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> 以取得可用的 Sku 清單。
 
 <!--   ``` Powershell
    Get-AzureADSubscribedSku | Select -Property Sku*,ConsumedUnits -ExpandProperty PrepaidUnits
@@ -166,7 +166,7 @@ Microsoft 提供[SkypeRoomProvisioningScript. ps1](https://go.microsoft.com/fwli
 
 ### <a name="assign-a-license-to-your-microsoft-teams-rooms-account"></a>將授權指派給您的 Microsoft 團隊聊天室帳戶
 
-1. 以租使用者管理員身分登入，開啟 Office 365 系統管理中心入口網站，然後按一下 [管理] 應用程式。
+1. 以租使用者管理員身分登入，開啟 Microsoft 365 系統管理中心，然後按一下 [管理] 應用程式。
 2. 按一下 [**使用者和群組**]，然後按一下 [**新增使用者、重設密碼等等**]。
 3. 按一下 [Microsoft 團隊聊天室] 帳戶，然後按一下手寫筆圖示，即可編輯帳戶資訊。
 4. 按一下 [**授權**]。

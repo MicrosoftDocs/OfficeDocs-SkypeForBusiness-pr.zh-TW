@@ -23,12 +23,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 瞭解如何設定通話方案，包括您地區中提供的 [查看方案]、購買 & 指派授權、取得電話號碼，以及將緊急位址新增 & 位置。
-ms.openlocfilehash: 08db669cfb7ddb75f6a73610f112c682a016354b
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 84dbff3ed660f6d436f01f0737141d8b261c1318
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042400"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666235"
 ---
 # <a name="set-up-calling-plans"></a>設定通話方案
 
@@ -57,7 +57,7 @@ ms.locfileid: "44042400"
 - **使用表單要求新號碼。** 有時候（視您的國家/地區而定）您無法使用 [小組管理中心] 來取得新的電話號碼，或者您需要特定的電話號碼或區功能變數代碼。 若是如此，您將需要下載表單並將它傳送給我們。 如需詳細資訊，請參閱[管理貴組織的電話號碼](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。 
 
 ## <a name="step-4-add-emergency-addresses-and-locations-for-your-organization"></a>步驟4：為您的組織新增緊急位址和位置
-<a name="bkmk_add_addresses"> </a>緊急位址必須與電話號碼相關聯。 此關聯發生的時間可能會因國家/地區而異。 例如，在美國，當您將電話號碼指派給使用者時，您必須建立緊急位址的關聯。 在英國，當您從 Office 365 取得電話號碼，或從目前的服務提供者轉接電話號碼時，您必須將緊急位址與電話號碼產生關聯。 
+<a name="bkmk_add_addresses"> </a>緊急位址必須與電話號碼相關聯。 此關聯發生的時間可能會因國家/地區而異。 例如，在美國，當您將電話號碼指派給使用者時，您必須建立緊急位址的關聯。 在英國，當您從 Microsoft 365 或 Office 365 取得電話號碼，或從目前的服務提供者轉接電話號碼時，您必須將緊急位址與電話號碼產生關聯。 
 
 如需緊急通話與管理緊急位址的相關資訊，請參閱[管理緊急通話](what-are-emergency-locations-addresses-and-call-routing.md)，以及[新增、變更或移除組織的緊急位置](add-change-remove-emergency-location-organization.md)。
     
