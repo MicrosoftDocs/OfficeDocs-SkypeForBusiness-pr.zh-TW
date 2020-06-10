@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 68d8ff88e34fac291560b414c18055a12d838a91
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: da8f257e6e5d3a3adaaa8e1412187de9cbf8dbe3
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042790"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638772"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>管理 Microsoft Teams 商業雲端試用版方案
 =======================================================
@@ -55,7 +55,7 @@ Microsoft Teams 商業雲端試用版可為貴組織中未取得 Microsoft Teams
 
 必須啟用使用者，才能註冊取得應用程式和試用版 (在 Microsoft 365 系統管理中心)。 如需詳細資訊，請參閱本文稍後的[管理試用版](#manage-the-trial)。 
 
-沒有包含 Teams 的 Office 365 授權的使用者，可以起始 Microsoft Teams 商業雲端試用版方案。 例如，如果某個使用者有 Microsoft 365 應用程式商務版 (其不包含 Teams)，使用者就符合試用版的資格。
+使用者的 Microsoft 365 或 Office 365 授權若不包含 Teams，可以初始化 Microsoft Teams 商業雲端試用版方案。 例如，如果某個使用者有 Microsoft 365 應用程式商務版 (其不包含 Teams)，使用者就符合試用版的資格。
 
 ## <a name="who-is-not-eligible"></a>不符合資格的對象
 
@@ -148,6 +148,6 @@ Teams 試用版旨在由個別使用者起始，因此您可能無法代表使�
 
 自 2019 年 4 月 22 日起，使用者可以開始要求最新的 Microsoft Teams 商業雲端試用版授權。 如果您想要將組織中的使用者移出舊版試用版授權並採用最新的試用版授權，必須先移除每位使用者的舊版 Microsoft Teams 試用版授權。 移除舊版授權之後，每個受影響的使用者都可要求更新的 Microsoft Teams 商業雲端試用版授權。
 
-- 如果您想要透過 PowerShell 移除此授權，請參閱：[使用 Office 365 PowerShell 從使用者帳戶移除授權](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)
+- 如果您想要透過 PowerShell 移除此授權，請參閱：[使用 Microsoft 365 或 Office 365 PowerShell 從使用者帳戶移除授權](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)
 
-- 如果您想要透過系統管理入口網站移除此授權，請參閱：[在商務用 Office 365 中移除使用者的授權](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)
+- 如果您想要透過系統管理入口網站移除此授權，請參閱：[移除使用者的授權](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)

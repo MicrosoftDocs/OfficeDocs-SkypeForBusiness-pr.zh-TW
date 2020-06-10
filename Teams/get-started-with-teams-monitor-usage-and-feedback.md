@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2604a0dd6aa662d807ae878dc31800736529833c
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 928f761626f51c2c717e046ad2f3aac49161b4cd
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778439"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638372"
 ---
 # <a name="monitor-usage-and-feedback-in-microsoft-teams"></a>在 Microsoft Teams 中監視使用情況和意見反應
 了解使用者使用 Teams 的方式及他們對 Teams 的體驗十分重要。 使用狀況報告可協助您更加了解使用模式，並提供使用者意見反應，讓您深入了解如何向更多人員推出，以及應優先訓練及溝通的人員。
@@ -38,7 +38,7 @@ ms.locfileid: "43778439"
 
 Microsoft Teams 系統管理中心的 Teams 報告可讓您深入了解 Teams 在組織中的使用狀況。 使用報告來檢視 Teams 在組織中的使用狀況、使用者活動和裝置使用狀況。 
 
-若要檢視這些報告，您必須是 Office 365、Teams 服務系統管理員或商務用 Skype 系統管理員的全域系統管理員。請移至 Microsoft Teams 系統管理中心，在左側瀏覽窗格中選取 **[分析與報告]**，然後在 **[報告]** 底下選擇您要執行的報告。
+若要檢視這些報告，您必須是 Microsoft 365 或 Office 365、Teams 服務系統管理員或商務用 Skype 系統管理員的全域系統管理員。請移至 Microsoft Teams 系統管理中心，在左側瀏覽窗格中選取 [分析與報告]****，然後在 [報告]**** 下選擇您要執行的報告。
 
 - **Teams 使用狀況報告**：此報告提供 Teams 使用活動的概覽，包括作用中使用者和頻道總數，以及每個小組中作用中使用者和頻道、來賓和訊息的數量。 
 
@@ -62,7 +62,7 @@ Microsoft Teams 系統管理中心的 Teams 報告可讓您深入了解 Teams �
 
 ### <a name="microsoft-365-usage-analytics"></a>Microsoft 365 使用情況分析
 
-您可以在 Power BI 中使用 Microsoft 365 使用情況分析來檢視及分析 Teams 和其他 Office 365 產品和服務的使用資料。 Microsoft 365 使用情況分析是內容套件，其中包含預先建立的儀表板和許多預先建立的報告。 每份報告都會提供您特定使用資料和深入見解。 若要連線到此內容套件，您需要 Power BI，且必須是 Office 365 或報告讀取者的全域系統管理員。 如果您還沒有 Power BI，請[註冊免費的 Power BI 服務](https://powerbi.microsoft.com)。 
+您可以在 Power BI 中使用 Microsoft 365 使用情況分析來檢視及分析 Teams 和其他 Microsoft 365 或 Office 365 產品和服務的使用資料。 Microsoft 365 使用情況分析是內容套件，其中包含預先建立的儀表板和許多預先建立的報告。 每份報告都會提供您特定使用資料和深入見解。 若要連線到此內容套件，您需要 Power BI，且必須是 Microsoft 365、Office 365 或報告讀取者的全域系統管理員。 如果您還沒有 Power BI，請[註冊免費的 Power BI 服務](https://powerbi.microsoft.com)。 
 
 若要深入了解，請參閱 [Microsoft 365 使用情況分析](https://support.office.com/article/Microsoft-365-usage-analytics-77ff780d-ab19-4553-adea-09cb65ad0f1f)。 
 

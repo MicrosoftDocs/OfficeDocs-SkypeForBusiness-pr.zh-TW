@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ebdd3204be74e3f7b923d977e6de25c041c2038e
-ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
+ms.openlocfilehash: e9b4b5e9d862596e91bcb6d30112e5f70a9c8263
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44512820"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637642"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和規格
 
@@ -40,7 +40,7 @@ ms.locfileid: "44512820"
 |一個租用戶中允許的全組織小組數目 | 5     |
 |一個[全組織小組](create-an-org-wide-team.md)中的成員數目 | 5,000       |
 |一位全域系統管理員可以建立的團隊數目        |  500,000   |
-|一個 Office 365 組織可以擁有的小組數目    | 500,000&sup2;     |
+|一個 Microsoft 365 或 Office 365 組織可以擁有的團隊數目    | 500,000&sup2;     |
 |每個團隊的頻道數目    | 200 (包含已刪除的頻道)&sup3;         |
 |每個團隊的私人頻道數量    |30|
 |私人頻道中的成員數目    |250|
@@ -93,7 +93,7 @@ Teams 的聊天是在 Microsoft Exchange 後端執行，因此 Exchange 的傳�
 如需詳細資訊，請參閱 [Exchange Online 限制](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits)。
 
 > [!NOTE]
-> 所有 Office 365 授權的郵件大小、檔案附件和內嵌影像的限制都相同。
+> 所有 Microsoft 365 和 Office 365 授權的郵件大小、檔案附件和內嵌影像的限制都相同。
 
 ## <a name="channel-names"></a>頻道名稱
 
@@ -132,7 +132,7 @@ Teams 的聊天是在 Microsoft Exchange 後端執行，因此 Exchange 的傳�
 |------------|---------------|
 |對象數目 | 10,000 位出席者 |
 |活動持續時間 | 4 小時 |
-|一個 Office 365 組織中執行的並行即時活動 <sup>1</sup> | 15 |
+|一個 Microsoft 365 或 Office 365 組織中執行的並行即時活動 <sup>1</sup> | 15 |
 
 <sup>1</sup> 您可根據自己的需求排定許多即時活動，但一次只能執行 15 個。 製作人一加入即時活動，就表示該活動執行中。 嘗試加入第 16 個即時活動的製作人會收到錯誤。
 

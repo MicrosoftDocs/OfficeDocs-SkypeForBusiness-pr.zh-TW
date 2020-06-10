@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: 使用適用於 Teams 的建議程式 (公開預覽) 協助您規劃和完成您的 Microsoft Teams 部署。
-ms.openlocfilehash: 79273c0c0d96bf5f7c52399310bffce433928e2b
-ms.sourcegitcommit: c3f44fccdbd9178d30b52bb0db6f6d31a6dd174b
+ms.openlocfilehash: bd893faa9a166b238a88f3865527bc38ef9bc6d3
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44139196"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637172"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>使用 Advisor for Teams 協助您推出 Microsoft Teams
 
@@ -78,7 +78,7 @@ Advisor for Teams 是 [Teams 系統管理中心](https://admin.teams.microsoft.c
 每個方案都包含租用戶整備評估，可讓您在推出 Teams 前快速識別任何可能需要修復的環境問題。 評估包括必要條件與最佳做法。 每個評估測試都會顯示綠色核取記號或橙色警告三角形。 
 
 - <sub><img src="media/use-advisor-teams-roll-out-image2.png" alt="Green check mark"/></img></sub>綠色核取記號表示租用戶已通過特定測試。 
-- <sub><img src="media/use-advisor-teams-roll-out-image1.png" alt="Yellow alert mark"/></img></sub>橙色警告三角形表示我們建議您追蹤以判斷是否需要任何動作 (例如，建議使用 Office 365 群組到期原則，但非必須)。
+- <sub><img src="media/use-advisor-teams-roll-out-image1.png" alt="Yellow alert mark"/></img></sub>橙色警告三角形表示我們建議您追蹤以判斷是否需要任何動作 (例如，建議使用 Microsoft 365 群組到期原則，但非必須)。
 
 > [!IMPORTANT]
 > 擁有系統管理員角色的使用者啟動 Advisor for Teams 後，所有評估都會在背景執行。 如果您進行更新或修補，這些內容可能不會在最多 24 小時內反映到評估中。 這只是暫時的，只要適用於 Teams 的建議程式結束公開預覽版並公開發布，評估便會即時更新。
@@ -102,8 +102,8 @@ Advisor for Teams 是 [Teams 系統管理中心](https://admin.teams.microsoft.c
 
 |評估測試  |代表意義  |
 |---------|---------|
-|已設定 Office 365 群組命名原則     |是否已針對 Microsoft 365 群組設定命名標準。 Microsoft 365 群組命名原則可讓貴組織為使用者建立的團隊套用一致的命名策略，也適用於其他群組工作負載 (包括 Outlook、SharePoint、Planner 和 Yammer)。 此測試會經由 Microsoft Graph 查詢 Azure AD，以檢查適用於 Microsoft 365 群組的命名原則是否存在。 如需詳細資訊，請參閱 [Office 365 群組命名原則](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy)。    |
-|已設定 Office 365 群組到期原則     |是否已為 Microsoft 365 群組定義群組到期原則。 這能讓貴組織自動移除非作用中的團隊。 預設為關閉。 此測試經由 Microsoft Graph 查詢 Azure AD，並報告是否已修改預設值。 如需詳細資訊，請參閱 [Office 365 群組到期原則](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups-expiration-policy)。    |
+|已設定 Microsoft 365 群組命名原則     |是否已針對 Microsoft 365 群組設定命名標準。 Microsoft 365 群組命名原則可讓貴組織為使用者建立的團隊套用一致的命名策略，也適用於其他群組工作負載 (包括 Outlook、SharePoint、Planner 和 Yammer)。 此測試會經由 Microsoft Graph 查詢 Azure AD，以檢查適用於 Microsoft 365 群組的命名原則是否存在。 如需詳細資訊，請參閱 [Microsoft 365 群組命名原則](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy)。    |
+|已設定 Microsoft 365 群組到期原則     |是否已為 Microsoft 365 群組定義群組到期原則。 這能讓貴組織自動移除非作用中的團隊。 預設為關閉。 此測試經由 Microsoft Graph 查詢 Azure AD，並報告是否已修改預設值。 如需詳細資訊，請參閱 [Microsoft 365 群組到期原則](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups-expiration-policy)。    |
 
 ### <a name="assessments-for-meetings-and-conferencing"></a>會議和研討會評估
 

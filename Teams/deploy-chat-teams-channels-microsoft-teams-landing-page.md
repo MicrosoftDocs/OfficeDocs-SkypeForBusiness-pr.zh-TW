@@ -19,12 +19,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
-ms.openlocfilehash: e8e2f2b09ab448e0460c82af0fba776f2ce1126a
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 3b1546c71cc2796ce599da449ab37bf275384efc
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44041840"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637892"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams 中的聊天、團隊、頻道和應用程式
 
@@ -160,7 +160,7 @@ Teams 會隨著許多 Office 365 授權的一部分提供。 若要深入瞭解 
 
 ### <a name="exchange-and-sharepoint-interoperability"></a>Exchange 和 SharePoint 互通性 
 
-為了獲得完整的 Teams 體驗，每個使用者都應能夠建立 Exchange Online、SharePoint Online 和 Office 365 群組。 下列文章概述與各種環境中託管的 Exchange 信箱相關的資訊、Exchange 與 Teams 如何互動，以及 SharePoint 和商務用 OneDrive 的類似考量。 
+為了獲得完整的 Teams 體驗，每個使用者都應能夠使用 Exchange Online、SharePoint Online 和 Microsoft 365 群組。 下列文章概述與各種環境中託管的 Exchange 信箱相關的資訊、Exchange 與 Teams 如何互動，以及 SharePoint 和商務用 OneDrive 的類似考量。 
 
 |問問自己|動作 |
 |------------|-------|

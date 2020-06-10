@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c9a87acce75568716eb4c4cf2dac4ecb6c03959d
-ms.sourcegitcommit: c3f44fccdbd9178d30b52bb0db6f6d31a6dd174b
+ms.openlocfilehash: b22bef34defe69edf4fe330e0afb0f0b93e5e8e6
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44139236"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638522"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>開始使用 Microsoft Teams 進行遠端學習
 
@@ -69,9 +69,9 @@ Microsoft Teams 隨附於 Office 365 A1 中，教育機構可免費試用。 如
 
 ### <a name="1-allow-users-to-create-teams"></a>1. 允許使用者建立 Teams
 
-當學生和授課者使用 Teams 時遇到的隔閡最小，並有彈性可量身訂做它來符合需求時，才能發揮其最大效用。 使用者可以量身訂做其 Teams 體驗的其中一個方式是能夠建立符合其自己的需求的團隊。 **根據預設，每個人都可以建立 Microsoft 365 群組和團隊**。 有時候此功能可能不適當；例如，有些客戶可能會想要限制中小學學生建立 Teams。 如有需要，您可以將 Office 365 群組和團隊建立[限制於您環境中的特定安全性群組](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups)。
+當學生和授課者使用 Teams 時遇到的隔閡最小，並有彈性可量身訂做它來符合需求時，才能發揮其最大效用。 使用者可以量身訂做其 Teams 體驗的其中一個方式是能夠建立符合其自己的需求的團隊。 **根據預設，每個人都可以建立 Microsoft 365 群組和團隊**。 有時候此功能可能不適當；例如，有些客戶可能會想要限制中小學學生建立 Teams。 如有需要，您可以將 Microsoft 365 群組和團隊的建立[限制於您環境中的特定安全性群組](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups)。
 
-當您讓每個人 (包括學生) 為班級、研究、群組專案及研究群組建立團隊時，高等教育機構更能從中獲益。 中小學學校可能會想要限制學生建立 Teams，以確保所有學生與學生之間的通訊會在包含成人的論壇內進行。 在此情況下，您可以將 Office 365 群組和 Teams 建立限制為所有授課者和教職員。
+當您讓每個人 (包括學生) 為班級、研究、群組專案及研究群組建立團隊時，高等教育機構更能從中獲益。 中小學學校可能會想要限制學生建立 Teams，以確保所有學生與學生之間的通訊會在包含成人的論壇內進行。 在此情況下，您可以將 Microsoft 365 群組和 Teams 的建立限制為所有授課者和教職員。
 
 如需如何建立 Teams 的逐步解說，請參閱[在 Microsoft Teams 中建立班級團隊](https://support.office.com/article/create-a-class-team-in-microsoft-teams-preview-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b)。
 

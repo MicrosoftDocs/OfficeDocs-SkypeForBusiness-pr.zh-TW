@@ -18,12 +18,12 @@ f1.keywords:
 description: 無論您是 Teams 系統管理員或服務支援工程師，都能使用這些資源在組織中支援 Microsoft Teams。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 31951747565d7e226c89683b48fc1f09130af1bd
-ms.sourcegitcommit: 2c23a8c5afc4a6b74c2c6d7487975a94fe99dc07
+ms.openlocfilehash: cde06d104f6f61efd981bb87b1503e8f097c5c26
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "44561978"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637032"
 ---
 # <a name="support-microsoft-teams-in-your-organization"></a>在組織中支援 Microsoft Teams
 
@@ -51,7 +51,7 @@ ms.locfileid: "44561978"
 |---------|---------|
 |**Teams 的新使用者嗎？**    |請參閱[開始使用 Microsoft Teams](get-started-with-teams-quick-start.md)。         |
 |**啟用 Teams 來賓存取**     |參閱 [Teams 來賓存取檢查清單](guest-access-checklist.md)，並確定已完成所有步驟。 請參閱下列其他資源：<ul><li>[了解 Microsoft Teams 中的來賓存取](guest-access.md)</li>[來賓加入團隊的方式](guest-joins.md) <li>[設定 – Microsoft Teams 來賓存取檢查清單](guest-access-checklist.md)</li></ul>|
-|**Teams 會議與撥入**    |需要在 Teams 中開啟或設定音訊會議的協助嗎？ 這名使用者是最近建立的嗎？ 如果是，您必須等待 2 至 24 小時**設定才會生效**。<br>若要驗證使用者已獲得音訊會議授權，並擁有預設付費電話號碼：<br><ol><li>在 Microsoft 365 系統管理中心，移至 **[作用中的使用者]**，然後選取有問題的使用者。</li><li> 視系統管理中心的版本而定，請選擇 **[授權和應用程式]**，或按一下 **[產品授權]** 上的 **[編輯]**。</li><li> 確認使用者已選取 [音訊會議]、[Microsoft Teams ] 和 [商務用 Skype Online (方案2)] 的授權。</li><li>在 **[系統管理中心]** 按一下 **[全部顯示]**，再按一下 **[Teams]**。</li><li>在 [Microsoft Teams 系統管理中心] 中，按一下 **[傳統入口網站]**。</li><li>在 [商務用 Skype 系統管理中心] 中，按一下 **[音訊會議]**，再按一下 **[使用者]**。</li><li>選取有問題的使用者，並確認使用者有 [預設付費電話號碼]。</li> </ol> 如需詳細資訊，請參閱 [Office 365 的通話方案](calling-plans-for-office-365.md) (英文)，或撥打 Microsoft Commerce 收費團隊，取得授權相關問題的協助。 <br><br>其他資源：<ul><li>[Microsoft Teams 中的會議和召集會議](deploy-meetings-microsoft-teams-landing-page.md)</li><li>[Office 365 的音訊會議](audio-conferencing-in-office-365.md)</li></ul>       |
+|**Teams 會議與撥入**    |需要在 Teams 中開啟或設定音訊會議的協助嗎？ 這名使用者是最近建立的嗎？ 如果是，您必須等待 2 至 24 小時**設定才會生效**。<br>若要驗證使用者已獲得音訊會議授權，並擁有預設付費電話號碼：<br><ol><li>在 Microsoft 365 系統管理中心，移至 **[作用中的使用者]**，然後選取有問題的使用者。</li><li> 視系統管理中心的版本而定，請選擇 **[授權和應用程式]**，或按一下 **[產品授權]** 上的 **[編輯]**。</li><li> 確認使用者已選取 [音訊會議]、[Microsoft Teams ] 和 [商務用 Skype Online (方案2)] 的授權。</li><li>在 **[系統管理中心]** 按一下 **[全部顯示]**，再按一下 **[Teams]**。</li><li>在 [Microsoft Teams 系統管理中心] 中，按一下 **[傳統入口網站]**。</li><li>在 [商務用 Skype 系統管理中心] 中，按一下 **[音訊會議]**，再按一下 **[使用者]**。</li><li>選取有問題的使用者，並確認使用者有 [預設付費電話號碼]。</li> </ol> 如需詳細資訊，請參閱[通話方案](calling-plans-for-office-365.md) (部分機器翻譯)，或撥打 Microsoft 商務帳單小組，取得授權相關問題的協助。 <br><br>其他資源：<ul><li>[Microsoft Teams 中的會議和召集會議](deploy-meetings-microsoft-teams-landing-page.md)</li><li>[音訊會議](audio-conferencing-in-office-365.md)</li></ul>       |
 |**Teams Exploratory 授權**     |Microsoft Teams Exploratory 體驗可讓貴組織中擁有 Azure Active Directory (AAD) 和未取得 Teams 授權的使用者起始 Teams 探勘體驗。 系統管理員可以為其組織中的使用者開啟或關閉這項功能。 舊版 [Microsoft 商務雲端試用版](iw-trial-teams.md)現在已由 Teams Exploratory 體驗取代。 <br><br>其他資源：<ul><li>[使用者註冊 Teams Exploratory 體驗的方式](teams-exploratory.md#how-users-sign-up-for-the-teams-exploratory-experience)</li><li>[管理 Teams Exploratory 體驗](teams-exploratory.md#manage-the-teams-exploratory-experience)</li></ul>|
 |**私人頻道**    |Microsoft Teams 中的私人頻道為小組內的共同作業建立了焦點空間。 只有小組中身為私人頻道的擁有者或成員的使用者，才可以存取頻道。 任何人 (包括來賓) 都可以新增為私人頻道的成員，只要他們已經是小組的成員即可。<br><br>如果要將共同作業限制為需要知道的人員，或是在不另外建立小組來管理已指派特定專案小組的情況下，促進小組人員之間的溝通，您可能會想要使用私人頻道。<br><br>其他資源：<ul><li>[使用者註冊 Teams Exploratory 體驗的方式](teams-exploratory.md#how-users-sign-up-for-the-teams-exploratory-experience)</li><li>[管理 Teams Exploratory 體驗](teams-exploratory.md#manage-the-teams-exploratory-experience)</li><ul>        |
 |**會議原則**|[會議原則](meeting-policies-in-teams.md)是針對由您組織中的使用者所排程的會議，控制會議參與者可用於會議的功能。 建立原則並進行變更之後，您可以將使用者指派給該原則。         |
@@ -62,7 +62,7 @@ ms.locfileid: "44561978"
 
 |||
 |---------|---------|
-|您的使用者看到「您錯過了！」 的訊息。   |請確定要[為您的學校啟用 Microsoft Teams](https://docs.microsoft.com/microsoft-365/education/intune-edu-trial/enable-microsoft-teams)。 在 EDU 租用戶中不會預設啟用 Teams；您必須先將它開啟。 <br><br>接下來請參閱 [Office 365 教育版中的遠端教學和學習](https://support.office.com/article/remote-teaching-and-learning-in-office-365-education-f651ccae-7b65-478b-8366-51bb884025c4)，以了解如何設定學校、課程規劃、虛擬會議，以及與學生共用內容的最新指導方針。<br><br>最後，請務必在 [Teams 的管理訓練](itadmin-readiness.md)中查看 Microsoft Teams IT 系統管理員訓練影片、投影集和許多其他資訊。        |
+|您的使用者看到「您錯過了！」 的訊息。   |請確定要[為您的學校啟用 Microsoft Teams](https://docs.microsoft.com/microsoft-365/education/intune-edu-trial/enable-microsoft-teams)。 在 EDU 租用戶中不會預設啟用 Teams；您必須先將它開啟。 <br><br>接下來請參閱[遠端教學和學習](https://support.office.com/article/remote-teaching-and-learning-in-office-365-education-f651ccae-7b65-478b-8366-51bb884025c4)，以了解如何設定學校、課程規劃、虛擬會議，以及與學生共用內容的最新指導方針。<br><br>最後，請務必在 [Teams 的管理訓練](itadmin-readiness.md)中查看 Microsoft Teams IT 系統管理員訓練影片、投影集和許多其他資訊。        |
 
 
 ## <a name="related-topics"></a>相關主題

@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 使用本指導方針支援在家中工作 (WFH) 的遠端員工提高生產力，以因應 COVID-19 (冠狀病毒) 爆發的情況。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7a94122550003bee5f98cc5e753aeae2353932f2
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 4208f5519ffff94d9726dfb06ed4ff1aef2d8a15
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780312"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637902"
 ---
 # <a name="faq-support-your-remote-workforce"></a>常見問題：支援遠端員工
 
@@ -34,7 +34,7 @@ ms.locfileid: "43780312"
 Microsoft 在最近發佈的 COVID-19 (冠狀病毒) 疫情公告中，大量擴充了關鍵地區的容量。 我們一直在非常密切地監視情況和我們的服務，以確保我們的服務可供客戶使用。雲端服務的優點之一，就是能夠以動態方式調整，包括利用我們重要的供應鏈、重新配置服務之間的資源，以及重新分配負載。我們已經看到 Microsoft Teams 的使用率有所增加，對此我們已經做出了回應並繼續進行密切監視。 我們也致力於提早解決通話方案需求，並視需要採購足夠的電話號碼。
 
 > [!NOTE]
-> 如果您已經設定 M365，並想要深入了解 Microsoft 正在採取的行動，請前往 [訊息中心] 並檢視 **MC205458** 訊息中心貼文。
+> 如果您已經設定 Microsoft 365，並想要深入了解 Microsoft 正在採取的行動，請前往 [訊息中心] 並檢視 **MC205458** 訊息中心貼文。
 
 請不要錯過我們 Microsoft 365 企業副總裁 Jared Spataro 在 2020 年 3 月 5 日發佈的部落格文章：[我們在 COVID-19 期間提供給客戶的承諾](https://www.microsoft.com/zh-TW/microsoft-365/blog/2020/03/05/our-commitment-to-customers-during-covid-19/) (英文)。
 
@@ -102,21 +102,21 @@ Microsoft 提供[適用於 Office 365 的 FastTrack 中心權益](https://docs.m
 
 ### <a name="i-just-got-started-with-microsoft-365-so-i-can-use-teams-to-support-my-remote-workers-or-students-ive-signed-up-for-the-service-but-when-a-user-tries-to-use-teams-they-get-this-error-youre-missing-out-ask-your-admin-to-enable-microsoft-teams-what-should-i-do"></a>我只要開始使用 Microsoft 365，就能使用 Teams 來支援我的遠端工作者或學生。 我已經註冊服務，但是當使用者嘗試使用 Teams 時，收到以下錯誤訊息：「別再錯過了! 請要求您的系統管理員啟用 Microsoft Teams。」。 我該怎麼做？
 
-啟用其中一個免費 Teams 優惠版本之後，仍需為使用者進行開啟。 請閱讀[管理 Teams 的使用者存取](user-access.md) (部分機器翻譯) 和[個別或大量將使用者新增至 Office 365](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users) (英文)。
+啟用其中一個免費 Teams 優惠版本之後，仍需為使用者進行開啟。 請閱讀[管理 Teams 的使用者存取](user-access.md) (部分機器翻譯) 和[個別或大量新增使用者](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users) (部分機器翻譯)。
 
 如果您已經擁有 Microsoft 365 一段時間，但卻是第一次授權或啟用使用者，您可能需要為組織 [開啟 Teams][](Office-365-set-up.md)。 查看本文章中的[我已經有 Microsoft 365，但我沒有使用 Teams。您是否會提供試用版授權？](#i-have-microsoft-365-already-but-i-dont-use-teams-are-you-providing-trial-licenses)。
 
 ### <a name="can-i-use-calling-plans-with-the-office-365-e1-trial-that-microsoft-is-offering-can-i-assign-a-telephone-number-to-my-users-how-much-am-i-going-to-pay"></a>我是否可以使用通話方案搭配 Microsoft 提供的 Office 365 E1 試用版？ 我是否可以將電話號碼指派給我的使用者？ 我要付多少錢？
 
-使用者可以在任何版本的 Teams 中，進行應用程式對應用程式的語音通話和視訊通話。 若要將電話號碼指派給員工，您需要 [Office 365 電話系統](what-is-phone-system-in-office-365.md)。 我們建議您與 Microsoft 合作夥伴或銷售代表合作，取得並部署此電話系統。 若要深入了解，請參閱[使用 Microsoft Teams 進行語音和視訊通話](https://products.office.com/microsoft-teams/voice-calling)。
+使用者可以在任何版本的 Teams 中，進行應用程式對應用程式的語音通話和視訊通話。 若要將電話號碼指派給員工，您需要[電話系統](what-is-phone-system-in-office-365.md)。 我們建議您與 Microsoft 合作夥伴或銷售代表合作，取得並部署此電話系統。 若要深入了解，請參閱[使用 Microsoft Teams 進行語音和視訊通話](https://products.office.com/microsoft-teams/voice-calling)。
 
 ### <a name="can-i-set-up-an-auto-attendant-with-the-new-teams-e1-trial-so-i-can-have-an-emergency-line-internally-at-my-company-to-deal-with-covid-19-coronavirus"></a>我是否可以使用新的 Teams E1 試用版設定自動語音應答，以便在公司內部設置緊急電話以處理 COVID-19 (冠狀病毒)？
 
-若要在 Teams 中設定 [雲端自動語音應答][](what-are-phone-system-auto-attendants.md)，除了 Teams 以外，您還需要 [Office 365 電話系統](what-is-phone-system-in-office-365.md)。 我們建議您與 Microsoft 合作夥伴或銷售代表合作，取得並部署此電話系統。
+若要在 Teams 中設定 [雲端自動語音應答][](what-are-phone-system-auto-attendants.md)，除了 Teams 以外，您還需要[電話系統](what-is-phone-system-in-office-365.md)。 我們建議您與 Microsoft 合作夥伴或銷售代表合作，取得並部署此電話系統。
 
 ### <a name="where-can-i-find-more-information-to-help-remote-workers"></a>哪裡可以找到更多協助遠端工作者的資訊？
 
-使用者：[使用 Office 365 共同作業](https://support.office.com/article/collaborate-with-office-365-ac05a41e-0b49-4420-9ebc-190ee4e744f4) - 如何在所有 Office 365 工作負載中更有效地共同作業
+使用者：[使用 Microsoft 365 共同作業](https://support.office.com/article/collaborate-with-office-365-ac05a41e-0b49-4420-9ebc-190ee4e744f4) - 如何在所有 Microsoft 365 工作負載中更有效地共同作業
 
 IT 系統管理員/IT 專業人員：[使用 Teams 支援遠端工作者](support-remote-work-with-teams.md)。
 

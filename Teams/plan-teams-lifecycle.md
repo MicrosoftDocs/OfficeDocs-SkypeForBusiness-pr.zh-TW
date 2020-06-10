@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2ad4592799efef11b7d09d564af5217dd9cdd550
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: eac771d87003ab00adbe3c99adb1193c4ff12779
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43951268"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638842"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Teams 中的生命週期管理方案
 
@@ -41,7 +41,7 @@ Teams 提供的豐富工具組可以在您組織中實作共同作業的生命�
 
 **團隊**
 
-_團隊_是促進共同作業的人員、內容和工具的集合。 團隊會定義其成員，以及會套用到這些成員的權限和原則。 Teams 的建置基礎為 Microsoft 365 群組，因此 Office 365 群組成員資格的變更會同步至團隊。 和其他 Microsoft 365 群組一樣，Teams 會在 Office 365 內自動佈建 Exchange 信箱、SharePoint 網站、OneNote 筆記本和其他資產。 [深入了解 Microsoft 365 群組](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)。
+_團隊_是促進共同作業的人員、內容和工具的集合。 團隊會定義其成員，以及會套用到這些成員的權限和原則。 Teams 的建置基礎為 Microsoft 365 群組，因此 Microsoft 365 群組成員資格的變更會同步處理至團隊。 和其他 Microsoft 365 群組一樣，Teams 會在 Office 365 內自動佈建 Exchange 信箱、SharePoint 網站、OneNote 筆記本和其他資產。 [深入了解 Microsoft 365 群組](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)。
 
 **頻道**
 
@@ -141,7 +141,7 @@ Teams 系統管理員角色決定每個系統管理員角色持有者所擁有�
 
 -   從頭開始建立團隊。 使用個人的電子郵件別名或使用者名稱新增成員，或是展開通訊群組清單。
 -   從現有團隊建立團隊，然後使用該團隊的頻道設定和任何應用程式設定做為範本。 您也可以選擇使用該團隊的成員資格清單。
--   將團隊新增至現有的 Office 365 群組，這樣也可讓團隊存取信箱和 SharePoint 網站。
+-   將團隊新增至現有的 Microsoft 365 群組，這樣也可讓團隊存取信箱和 SharePoint 網站。
 -   使用 Microsoft Graph Teams API 或 PowerShell Cmdlet 建立團隊。 API 可以根據全域通訊錄的屬性 (例如地區或部門) 或商務流程 (例如客戶參與或教室名冊)，透過程式設計的方式建立團隊。
 
 請利用下列連結取得更多有關組織團隊的詳細資訊：

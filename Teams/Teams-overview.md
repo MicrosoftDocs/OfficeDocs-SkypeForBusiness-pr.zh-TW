@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8aad3af888bb071ad871d67d964b0ae388684a15
-ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
+ms.openlocfilehash: 421a849c37d1500ef3542f8a5c203069177eb1df
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "43996994"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637672"
 ---
 # <a name="welcome-to-microsoft-teams"></a>歡迎使用 Microsoft Teams
 如果您是組織中 Microsoft Teams 的系統管理員，那您便是正確的人選。 當您準備好開始使用 Teams 時，請從[如何推出 Teams](How-to-roll-out-teams.md) 開始。
@@ -43,7 +43,7 @@ Teams 的建置基礎為 Microsoft 365 群組、Microsoft Graph，以及與其�
 若要查看 Teams 在 Microsoft 365 的內容中適合的位置，請查看此架構海報：[Teams 成為 Microsoft 365 的一部分](teams-architecture-solutions-posters.md#teams-as-part-of-microsoft-365)
 
 當您建立團隊時，將會建立下列項目：
-- 新的 [Office 365 群組](office-365-groups.md)
+- 新的 [Microsoft 365 群組](office-365-groups.md)
 - 用來儲存團隊檔案的 [SharePoint Online](sharepoint-onedrive-interact.md) 網站和文件庫
 - [Exchange Online](exchange-teams-interact.md) 共用信箱和行事曆
 - OneNote 筆記本

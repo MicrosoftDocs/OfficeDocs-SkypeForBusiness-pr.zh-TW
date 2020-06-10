@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c747d68b53e428678fd07cd690fa7575262d4ae6
-ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
+ms.openlocfilehash: 3411d3a163e9da5e58fa258371d02ca878868adb
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/11/2020
-ms.locfileid: "43227557"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638382"
 ---
 # <a name="how-to-provision-teams-at-scale-for-firstline-workers"></a>如何為第一線員工大規模佈建 Teams
 
@@ -315,7 +315,7 @@ Connect-MicrosoftTeams -Credential $teams_cred
 
 ### <a name="assign-licensing-to-users-via-group-based-licensing"></a>透過群組型授權將授權指派給使用者
 
-Microsoft 付費雲端服務 (例如 Office 365、企業版行動力 + 安全性、Dynamics 365 及其他類似產品) 都需要授權。 這些授權會指派給需要存取這些服務的每位使用者。 若要管理授權，系統管理員可使用其中一個管理入口網站 (Office 或 Azure) 和 PowerShell Cmdlet。 Azure Active Directory (Azure AD) 是支援所有 Microsoft 雲端服務身分識別管理的基礎結構。 Azure AD 會儲存使用者授權指派狀態的相關資訊。
+Microsoft 付費雲端服務 (例如 Microsoft 365、Office 365、Enterprise Mobility + Security、Dynamics 365 及其他類似產品) 都需要授權。 這些授權會指派給需要存取這些服務的每位使用者。 若要管理授權，系統管理員可使用其中一個管理入口網站 (Office 或 Azure) 和 PowerShell Cmdlet。 Azure Active Directory (Azure AD) 是支援所有 Microsoft 雲端服務身分識別管理的基礎結構。 Azure AD 會儲存使用者授權指派狀態的相關資訊。
 
 為了大規模啟用授權，Azure AD 目前已包含群組型授權，而且基於這個原因，我們已在本文前面建立了安全性群組。 您可以將一個或多個產品授權指派給群組。 Azure AD 可確保授權會指派給群組的所有成員。 任何加入群組的新成員都會獲派適當的授權。 如果成員離開該群組，授權也會移除。 此授權管理免除透過 PowerShell 自動化授權管理的必要，並根據每個使用者來反映組織和部門結構中的變更。
 

@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 96354e7b1a8283ebf66648c1bb2987119fe5bdc0
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: f61da62118229cfa16db7a476c96e9d0bdf4a65a
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44522666"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637042"
 ---
 # <a name="faq--upgrading-from-skype-for-business-to-microsoft-teams"></a>常見問題 - 從商務用 Skype 升級至 Microsoft Teams
 
@@ -40,7 +40,7 @@ ms.locfileid: "44522666"
 
 ### <a name="why-is-microsoft-teams-replacing-skype-for-business-online"></a>為什麼要用 Microsoft Teams 取代商務用 Skype Online？
 
-Microsoft Teams 藉由將檔案、交談和應用程式合併到一個整合的應用程式中，擴展了商務用 Skype Online 中的功能，讓組織能夠更有效率地移動並進行共同作業。 由於 Teams 提供更豐富的體驗，因此它會取代商務用 Skype 作為 Office 365 的核心通訊用戶端。
+Microsoft Teams 藉由將檔案、交談和應用程式合併到一個整合的應用程式中，擴展了商務用 Skype Online 中的功能，讓組織能夠更有效率地移動並進行共同作業。 由於 Teams 提供更豐富的體驗，因此它會取代商務用 Skype 作為 Microsoft 365 和 Office 365 的核心通訊用戶端。
 
 ### <a name="when-is-the-retirement-of-skype-for-business-online"></a>何時終止對商務用 Skype Online 的支援？
 
@@ -66,7 +66,7 @@ Microsoft Teams 藉由將檔案、交談和應用程式合併到一個整合的�
 
 ### <a name="what-do-you-recommend-for-customers-who-are-currently-in-the-process-of-deploying--or-planning-to-deploy--skype-for-business-in-office-365"></a>針對目前在 Office 365 中商務用 Skype 部署階段 (或規劃部署) 的客戶，你有哪些建議？
 
-目前正在部署商務用 Skype Online 的客戶可以繼續進行。 我們鼓勵所有新的 Office 365 客戶開始使用 Teams，無論是獨立使用還是與商務用 Skype 搭配使用，並決定符合他們商務需求的路徑 (共存或僅 Teams) 和時機。 無論商務用 Skype Online 的保留期有多久，客戶都必須在商務用 Skype Online 停用日期之前移至 Teams。
+目前正在部署商務用 Skype Online 的客戶可以繼續進行。 我們鼓勵所有新的 Microsoft 365 和 Office 365 客戶開始使用 Teams，無論是獨立使用還是與商務用 Skype 搭配使用，並決定符合他們商務需求的路徑 (共存或僅 Teams) 和時機。 無論商務用 Skype Online 的保留期有多久，客戶都必須在商務用 Skype Online 停用日期之前移至 Teams。
 
 ### <a name="what-support-do-you-offer-customers-who-want-to-move-to-teams-especially-those-who-have-made-significant-investments-in-skype-for-business-online"></a>你能為想要移至 Teams 的客戶提供哪些支援，特別是那些已經在商務用 Skype Online 中投入大量投資的客戶？
 
@@ -74,7 +74,7 @@ Microsoft Teams 藉由將檔案、交談和應用程式合併到一個整合的�
 
 ### <a name="what-does-this-mean-from-a-licensing-perspective-how-will-customers-pay-for-intelligent-communications-services-in-teams"></a>從授權的觀點來看，這是什麼意思？ 客戶如何支付 Teams 的智慧通訊服務費用？
 
-Teams 可以在 Office 365 套件中取得。 目前在商務用 Skype Online 中是進階工作負載的功能，在 Teams 中依然是進階工作負載。 客戶所做的現有授權投資，都會轉移到 Teams。 例如，如果客戶已購買獨立的音訊會議，或是隨著商務用 Skype E5 購買音訊會議，則音訊會議將會在 Teams 中啟用，立即可用。
+Teams 可以在 Microsoft 365 和 Office 365 套件中取得。 目前在商務用 Skype Online 中是進階工作負載的功能，在 Teams 中依然是進階工作負載。 客戶所做的現有授權投資，都會轉移到 Teams。 例如，如果客戶已購買獨立的音訊會議，或是隨著商務用 Skype E5 購買音訊會議，則音訊會議將會在 Teams 中啟用，立即可用。
 
 ### <a name="is-microsoft-planning-scheduled-upgrades"></a>Microsoft 是否規劃排程升級？
 
@@ -172,7 +172,7 @@ Teams 可以在教育版套件授權的所有 Office 365 中取得：除了在�
 
 ### <a name="what-is-the-plan-for-microsofts-online-voice-capabilities"></a>Microsoft 線上語音功能的計劃為何?
 
-我們的語音解決方案核心是目前可用的電話系統。 客戶還可以新增 Microsoft 通話方案，提供完整的通話支援，包括直接在 Office 365 中取得和指派號碼。 想要保留其電信電話主線的客戶可以使用直接路由，直接路由包含在電話系統中。 針對您組織的需求，將兩者混合及搭配在一起，以具備完整的語音解決方案。
+我們的語音解決方案核心是目前可用的電話系統。 客戶還可以新增 Microsoft 通話方案，提供完整的通話支援，包括直接在 Microsoft 365 或 Office 365 中取得和指派號碼。 想要保留其電信電話主線的客戶可以使用直接路由，直接路由包含在電話系統中。 針對您組織的需求，將兩者混合及搭配在一起，以具備完整的語音解決方案。
 
 ### <a name="what-is-the-guidance-for-customers-already-deployed-on-phone-system-cloud-pbx-in-skype-for-business-online"></a>在商務用 Skype Online 中，對於已在電話系統 (雲端 PBX) 上進行部署的客戶，有什麼指導方針？
 
@@ -190,7 +190,7 @@ Teams 可以在教育版套件授權的所有 Office 365 中取得：除了在�
 
 ### <a name="are-third-party-audio-conferencing-providers-acp-supported-in-teams"></a>在 Teams 中是否支援第三方音訊會議提供者 (ACP)？
 
-在 Teams 中沒有支援第三方音訊會議提供者 (ACP) 的方案。 我們相信對於使用 Teams 和商務用 Skype 的客戶而言，最佳的音訊會議體驗就是在 Office 365 中使用我們的音訊會議服務。 需要在商務用 Skype 會議中運用 ACP 支援的客戶，可以繼續使用他們的商務用 Skype 用戶端加入商務用 Skype 會議。 在 Teams 中排程的會議需要使用 Office 365 的音訊會議服務。
+在 Teams 中沒有支援第三方音訊會議提供者 (ACP) 的方案。 我們相信對於使用 Teams 和商務用 Skype 的客戶而言，最佳的音訊會議體驗就是使用我們的音訊會議服務。 需要在商務用 Skype 會議中運用 ACP 支援的客戶，可以繼續使用他們的商務用 Skype 用戶端加入商務用 Skype 會議。 在 Teams 中排程的會議需要使用 Microsoft 365 或 Office 365 的音訊會議服務。
 
 對於將第三方音訊會議提供者 (ACP) 整合到商務用 Skype Online 的支援，已延長到 2021 年 7 月 31 日，對於其餘使用中租用戶具有有限支援，以允許額外的轉換時間。  這是在 2018 年 4 月所宣告 ACP 時間表的更新。
 
