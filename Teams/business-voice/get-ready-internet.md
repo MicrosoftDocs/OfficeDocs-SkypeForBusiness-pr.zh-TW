@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d2a158f8b43b4cf58e2c5c6c4a4248488f41973d
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 37bd749e44c2020d35a927491553662c74bff01f
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780282"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610972"
 ---
 # <a name="check-your-internet-connection-for-business-voice"></a>針對 Business Voice 檢查您的網際網路連線
 
@@ -60,7 +60,7 @@ Business Voice 位於 Microsoft 365 的雲端中。 使用 Microsoft Teams 和 B
 
 請遵循下列步驟：
 
-1. 在瀏覽器中，移至 https://admin.teams.microsoft.com。 使用具備全域系統管理員權限的帳戶登入。 您用來註冊 Office 365 的帳戶具備這些權限。
+1. 在瀏覽器中，移至 https://admin.teams.microsoft.com。 使用具備全域系統管理員權限的帳戶登入。 您用來註冊 Microsoft 365 或 Office 365 的帳戶具備這些權限。
 2. 開啟 **[規劃]**，並選取 **[網路規劃中心]**。
 3. 在 **[網路規劃]** 底下，選取 **[新增]**。 為您的規劃輸入名稱，然後選取 **[套用]**。 您的網路規劃應看起來如下：
 
@@ -77,13 +77,13 @@ Business Voice 位於 Microsoft 365 的雲端中。 使用 Microsoft Teams 和 B
 
 ### <a name="find-your-minimum-internet-connection-speed"></a>找到您的最低網際網路連線速度
 
-選取 [產生報告]**** 時，Office 365 會建立一個看起來如下的報告：
+選取 [產生報告]**** 時，Microsoft 365 或 Office 365 會建立一個看起來如下的報告：
 
 ![網路規劃中心報告詳細資料](../media/network-planner-report.png)
 
 強調顯示的數字會顯示 Teams 和 Business Voice 使用您的網際網路連線量。 建議這個數字不要超過網際網路連線速度總計的 30%。 例如，如果您的網際網路連線是 60 Mbps，則 Teams 和 Business Voice 不應使用超過 18 Mbps。
 
-使用此方程式判斷您的最低網際網路連線速度：*\<強調顯示的數字> / 0.3*。 使用上圖中強調顯示的數字，計算為 *4.6875/0.3 = 15.6*。 在此情況下，網際網路連線速度應至少為 15.6 Mbps。
+使用此方程式判斷您的最低網際網路連線速度：*\<highlighted number> / 0.3*。 使用上圖中強調顯示的數字，計算為 *4.6875/0.3 = 15.6*。 在此情況下，網際網路連線速度應至少為 15.6 Mbps。
 
 如果 Teams 和 Business Voice 將使用超過網際網路連線速度總計的 30%，則強調顯示的數字會以紅色顯示。 在這種情況下，您可能需要將網際網路連線升級。
 

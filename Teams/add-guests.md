@@ -18,12 +18,12 @@ description: 系統管理員可以了解如何將新的來賓使用者新增至 
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 026fa191dffa160980bfb00e7031490f01ddc6cc
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: ea1670078a61366e1ab0207368a58f9ad2b900ab
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778218"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44609831"
 ---
 <a name="add-a-guest-to-a-team"></a>將來賓新增至團隊
 =====================
@@ -42,12 +42,12 @@ ms.locfileid: "43778218"
 
 透過 Azure AD B2B 共同作業功能，組織可為 B2B 使用者強制執行條件式存取和多重要素驗證 (MFA) 原則。 這些原則可以在租用戶層級、應用程式或個別使用者層級強制執行，與為組織全職員工和成員啟用原則的方式相同。 這類原則會在資源組織強制執行。 如需詳細資訊，請參閱[適用於 B2B 共同作業使用者的條件式存取](https://go.microsoft.com/fwlink/?linkid=857454)。 無法封鎖個別來賓使用者。
 
-您透過 Azure AD B2B、Microsoft 365 群組或 SharePoint Online 新增的來賓使用者已準備就緒。 Office 365 系統管理員或團隊擁有者可將這些來賓新增至個別團隊中。 如果團隊已使用 Office 365 群組，且已將來賓新增至群組，來賓將可存取團隊。 透過 Office 365 群組新增來賓並不會為來賓產生邀請電子郵件，因此團隊中的人員應通知來賓。
+您透過 Azure AD B2B、Microsoft 365 群組或 SharePoint Online 新增的來賓使用者已準備就緒。 Microsoft 365 或 Office 365 系統管理員或團隊擁有者可將這些來賓新增至個別團隊中。 如果團隊已使用 Microsoft 365 群組，且已將來賓新增至群組，來賓將可存取團隊。 透過 Microsoft 365 群組新增來賓並不會為來賓產生邀請電子郵件，因此團隊中的人員應通知來賓。
 
 > [!NOTE]
-> 來賓須遵守 [Office 365](https://go.microsoft.com/fwlink/p/?linkid=282347) 和 [Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=853019) 的服務限制。
+> 來賓須遵守 [Microsoft 365 或 Office 365](https://go.microsoft.com/fwlink/p/?linkid=282347) 和 [Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=853019) 的服務限制。
 
-您可以在 Azure AD 或 Office 365 安全性與合規性中心追蹤來賓的新增狀態。 在 Microsoft Teams 中新增來賓將經過稽核並記錄為「已新增成員至群組」的 Azure AD 群組管理活動。 如需詳細資訊，請參閱[稽核及報告 B2B 共同作業使用者](https://go.microsoft.com/fwlink/p/?linkid=858884)，以及[在 Office 365 安全性與合規性中心搜尋稽核記錄](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security--Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c)。
+您可以在 Azure AD 或 Microsoft 365 安全性中心追蹤來賓的新增狀態。 在 Microsoft Teams 中新增來賓將經過稽核並記錄為「已新增成員至群組」的 Azure AD 群組管理活動。 如需詳細資訊，請參閱[稽核及報告 B2B 共同作業使用者](https://go.microsoft.com/fwlink/p/?linkid=858884)，以及[在 Microsoft 365 安全性中心搜尋稽核記錄](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security--Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c)。
 
 
 ## <a name="more-information"></a>詳細資訊
