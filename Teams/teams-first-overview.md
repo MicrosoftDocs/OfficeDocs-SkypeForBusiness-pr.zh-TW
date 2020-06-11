@@ -11,33 +11,33 @@ ms.collection:
 ms.reviewer: lsomi
 localization_priority: Normal
 search.appverid: MET150
-description: 使用本指導方針將 Microsoft 團隊作為您的第一份 Office 365 工作負載來推出。
+description: 使用本指導方針將 Microsoft 團隊作為您的第一份 Microsoft 365 或 Office 365 工作負載來推出。
 ROBOTS: NOINDEX, NOFOLLOW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 647f6879f7892c1a65599832e48deb67e183fae0
-ms.sourcegitcommit: bdafa1f4146e615d325e27a50352f10c0d51ef1a
+ms.openlocfilehash: 84408fdb6d58e755d0eb4c775d1954f22791264c
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44472344"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690999"
 ---
 # <a name="roll-out-microsoft-teams-first"></a>先推出 Microsoft 團隊
 
-Microsoft 團隊可以協助您的員工彼此保持聯繫並共同作業，特別是在目前空前的時間裡，我們的遠端工作是世界各地員工的實際員工。 在團隊中，您可以在 Office 檔上進行聊天、進行影片會議與共同作業，協助公司維持生產力。 無論您是小型企業、非盈利性或大型組織，您都可以在部署任何其他 Office app 或服務之前，先開始將團隊作為 Office 365 套件中的第一個工作負載。
+Microsoft 團隊可以協助您的員工彼此保持聯繫並共同作業，特別是在目前空前的時間裡，我們的遠端工作是世界各地員工的實際員工。 在團隊中，您可以在 Office 檔上進行聊天、進行影片會議與共同作業，協助公司維持生產力。 無論您是小型企業、非盈利性或大型組織，您都可以在部署任何其他 Office app 或服務之前，先開始將團隊做為 Microsoft 365 或 Office 365 套件中的第一個工作負載。
 
 本文詳細說明您必須使用「團隊優先」做法所做的考慮。
 
 > [!IMPORTANT]
 > 當團隊可以是貴組織的第一個雲端部署工作負載時，部署團隊應該是整個雲端部署策略的一部分。
 
-如果您已經推出其他 Office 365 服務，而團隊是您下次要推出的工作負載（而不是第一個），請先從[如何推出小組](How-to-roll-out-teams.md)開始。
+如果您已推出其他 Microsoft 365 或 Office 365 服務，且小組是您下次要推出的工作負載（而不是第一個），請先從[如何推出小組](How-to-roll-out-teams.md)開始。
 
 ## <a name="start-here"></a>從這裡開始
 
 若要開始使用您的小組第一次部署，您必須至少滿足一些必備元件。 下列清單會顯示您在啟用團隊之前必須針對貴組織進行的動作：
 
-1.  使用您的功能變數名稱設定的 Office 365 組織
+1.  使用您的功能變數名稱設定的 Microsoft 365 或 Office 365 組織
 
 2.  Azure Active Directory 連線（AAD 連線）或類似的雲端身分識別同步處理方案（含與您的租使用者同步處理的所有必要屬性）  
     若要瞭解與 AAD 同步處理的屬性，請閱讀[AZURE AD Connect 同步處理：屬性已同步處理到 Azure Active Directory](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized)
@@ -48,7 +48,7 @@ Microsoft 團隊可以協助您的員工彼此保持聯繫並共同作業，特�
 4.  組織為團隊準備的網路  
     若要瞭解網路準備，請閱讀[針對團隊準備貴組織的網路](prepare-network.md)。
 
-5.  允許在 Office 365 中存取 Exchange、Sharepoint 和商務用 OneDrive 的網路： [office 365 url 與 IP 位址範圍](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)。
+5.  在 Microsoft 365 或 Office 365 中允許網路存取 Exchange、Sharepoint 和商務用 OneDrive： [office 365 url 與 IP 位址範圍](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)。
 
 > [!NOTE]
 > 在2019年9月1日之後建立的租使用者僅限 [小組] 模式提供。
@@ -58,7 +58,7 @@ Microsoft 團隊可以協助您的員工彼此保持聯繫並共同作業，特�
 
 ## <a name="migration-starting-points"></a>遷移開始點
 
-根據您的起點以及現有的內部部署商務用 Skype 或 Lync server，您可以在小組中使用 Office 365 和功能。 除了上述必備元件之外，下列各節將詳細說明基本功能和配置選項。 我們已將起點案例分解成下列主題：
+您在 Microsoft 365 或 Office 365 中的旅程，以及小組中提供的功能，取決於您的起點，以及現有的內部部署商務用 Skype 或 Lync server。 除了上述必備元件之外，下列各節將詳細說明基本功能和配置選項。 我們已將起點案例分解成下列主題：
 
 **租使用者小組**設定：租使用者和使用者模式是用來控制收件者的行為。 您可以在租使用者層級或組織中的使用者層級指派這些設定。 若要深入瞭解，請參閱[與商務用 Skype 共存](coexistence-chat-calls-presence.md)。
 
@@ -88,7 +88,7 @@ Microsoft 團隊可以協助您的員工彼此保持聯繫並共同作業，特�
 
 ## <a name="organizations-span-classunderlinewithoutspan-skype-for-business-or-lync-server"></a>**<span class="underline">沒有</span>** 商務用 Skype 或 Lync server 的組織
 
-這個起點假設貴組織不使用商務用 Skype 或 Lync server，目前與團隊將是 Office 365 中的第一個應用程式。 下表詳細說明適用于核心服務之團隊的高層次設定和使用者功能。
+這個起點假設貴組織不使用商務用 Skype 或 Lync server，目前與團隊將是您在 Microsoft 365 或 Office 365 中的第一個應用程式。 下表詳細說明適用于核心服務之團隊的高層次設定和使用者功能。
 
 <table>
 <thead>
@@ -104,9 +104,9 @@ Microsoft 團隊可以協助您的員工彼此保持聯繫並共同作業，特�
 </tr>
 <tr class="even">
 <td>團隊中的聊天/外部通訊</td>
-<td><p>內部（Office 365 組織內）及來自團隊的外部聊天通訊</p>
-<p><em>注意： DNS 專案必須針對外部存取進行設定。 您也可以使用商務用 skype DNS 記錄，即使您沒有商務用 skype 內部部署或 Office 365，才能允許與 Lync 和商務用 Skype 環境進行同盟。<br />
-<a href="https://docs.microsoft.com/office365/enterprise/external-domain-name-system-records">Office 365 的外部網域名稱系統記錄</a></em></p></td>
+<td><p>內部（在 Microsoft 365 或 Office 365 組織內）和來自團隊的外部聊天通訊</p>
+<p><em>注意： DNS 專案必須針對外部存取進行設定。 您也可以使用商務用 skype DNS 記錄，即使您沒有商務用 skype 內部部署，或 Microsoft 365 或 Office 365 中的商務用 skype，還是允許與 Lync 和商務用 Skype 環境進行同盟。<br />
+<a href="https://docs.microsoft.com/office365/enterprise/external-domain-name-system-records">外部網域名稱系統記錄</a></em></p></td>
 </tr>
 <tr class="odd">
 <td><em>在團隊中建立及查看會議</em></td>
@@ -162,11 +162,11 @@ Microsoft 團隊可以協助您的員工彼此保持聯繫並共同作業，特�
     
     [Microsoft 團隊採用快速入門檢查清單](teams-adoption-quick-start-checklist.md)
 
-6.  開始規劃將其他工作負載移至 Office 365
+6.  開始規劃將其他工作負載移至 Microsoft 365 或 Office 365
 
 ## <a name="organizations-span-classunderlinewithspan-skype-for-business-or-lync-server"></a>**<span class="underline">擁有商務用</span>** Skype 或 Lync server 的組織
 
-這個起點假設您的組織使用商務用 Skype 2019 或 2015 + 或 Lync 2013 + 伺服器內部部署。 我們已經有許多從內部部署伺服器遷移至小組的組織的指導方針，而且應該遵循這些案例。 本指南是專門針對團隊是您在 Office 365 中使用的第一個應用程式的情況。 下表詳細說明適用于核心服務之團隊的高層次設定和使用者功能。
+這個起點假設您的組織使用商務用 Skype 2019 或 2015 + 或 Lync 2013 + 伺服器內部部署。 我們已經有許多從內部部署伺服器遷移至小組的組織的指導方針，而且應該遵循這些案例。 本指南專為團隊是您在 Microsoft 365 或 Office 365 中所使用的第一個應用程式的案例所特有。 下表詳細說明適用于核心服務之團隊的高層次設定和使用者功能。
 
 <table>
 <thead>
@@ -244,7 +244,7 @@ Microsoft 團隊可以協助您的員工彼此保持聯繫並共同作業，特�
     [採納 Microsoft 團隊](adopt-microsoft-teams-landing-page.md)<br/>
     [Microsoft 團隊採用快速入門檢查清單](teams-adoption-quick-start-checklist.md)
 
-6.  開始規劃將其他工作負載移至 Office 365
+6.  開始規劃將其他工作負載移至 Microsoft 365 或 Office 365
 
 7.  建立商務用 Skype 混合式，並遵循針對商務用 Skype 和 Lync server 所建議的升級路徑  
     [從商務用 Skype 內部部署升級至團隊](upgrade-to-teams-execute-skypeforbusinesshybridonprem.md)
@@ -275,7 +275,7 @@ Microsoft 團隊可以是您組織的啟用程式，將所有員工、資訊工�
 
 ## <a name="support-services-reference"></a>支援服務參考
 
-團隊依賴 Exchange Online、SharePoint Online、商務用 OneDrive 和 Microsoft 365 群組，為您的使用者提供完全整合的 Office 365 體驗。 如上述所述，小組將能正常運作，而不需全面部署這些服務-並提供有限的功能。 您可以在這裡閱讀更多關於團隊及其必備專案的資訊：[歡迎使用團隊](teams-overview.md)。
+團隊依賴 Exchange Online、SharePoint Online、商務用 OneDrive 和 Microsoft 365 群組，為您的使用者提供完全整合的 Microsoft 365 或 Office 365 體驗。 如上述所述，小組將能正常運作，而不需全面部署這些服務-並提供有限的功能。 您可以在這裡閱讀更多關於團隊及其必備專案的資訊：[歡迎使用團隊](teams-overview.md)。
 
 如需上述各項服務的詳細資訊，請遵循下列連結：
 
@@ -297,4 +297,4 @@ Microsoft 團隊可以是您組織的啟用程式，將所有員工、資訊工�
 
 [使用團隊支援遠端工作人員](support-remote-work-with-teams.md)
 
-[使用 Office 365 遠端作業](https://aka.ms/remote-work)
+[使用 Microsoft 365 遠端作業](https://aka.ms/remote-work)

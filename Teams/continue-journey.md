@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 31f7c64e9e3d6587cd0f53a8672fb7c0dda88d0b
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 3eae061b901bba6fe7bf4208f6498597d824d363
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44522806"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689459"
 ---
 # <a name="how-to-use-microsoft-teams-effectively"></a>如何有效使用 Microsoft 團隊
 
@@ -48,7 +48,7 @@ ms.locfileid: "44522806"
 若要讓團隊發揮最大效益和業務結果，使用者必須實際使用它。 不過，最初的令人興奮的是，wane 和使用者可輕鬆還原為舊的工作方式。 針對採用持續採用方案的小組，鼓勵使用者採納及維持驚喜，包括：
 
 - 登記對等的擁護者，協助 evangelize 並鼓勵同事的使用者。
-- 請查看[Office 365 採用指南](https://go.microsoft.com/fwlink/?linkid=859045)，以取得有關提升合作及促進採納的秘訣。
+- 請查看[Microsoft 365 採用指南](https://go.microsoft.com/fwlink/?linkid=859045)，以取得有關提升合作及促進採納的秘訣。
 - 利用[團隊客戶成功套件](https://aka.ms/TeamsCustomerSuccess)來加強知名度並分享最佳做法。
 - 實施正式[採用與變更管理戰略](http://www.successwithteams.com/)，以協助維持採用的增長。
 

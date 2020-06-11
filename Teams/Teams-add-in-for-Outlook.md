@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 25b7163da92323a0695031a61d93895779a5ded7
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: fdecae806c0e02efc9a440ce192528ab6017d994
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637712"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689809"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>在 Outlook 中使用 Teams 會議增益集
 =======================================
@@ -139,7 +139,7 @@ Teams 會議增益集是仍在建置的功能，因此請注意下列事項：
 - 確認使用者擁有允許 Outlook 增益集的小組會議原則。 如需詳細資訊，請參閱[在團隊中管理會議原則](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#allow-the-outlook-add-in)。
 - 確定使用者已安裝 [團隊桌面用戶端]。 只有使用團隊網頁用戶端時，才能安裝會議增益集。
 - 確定使用者已安裝 Outlook 2013 或更新版本。
-- 確認使用者有權執行 regsvr32。
+- 確認使用者擁有執行 regsvr32.exe 的許可權。
 - 確認已套用所有適用于 Outlook 桌面用戶端的更新。
 - 請遵循下列步驟：
   - 重新啟動 Teams 桌面版用戶端。
@@ -161,7 +161,7 @@ Teams 會議增益集是仍在建置的功能，因此請注意下列事項：
 
 > [!NOTE]
 > 不正確地編輯註冊表可能會嚴重損壞您的系統。 在變更註冊表之前，您應該先備份電腦上任何有價值的資料。
-- 啟動 RegEdit
+- 啟動 RegEdit.exe
 - 流覽至 HKEY_CURRENT_USER \Software\Microsoft\Office\Outlook\Addins
 - 確認 TeamsAddin 已存在。
 - 在 TeamsAddin 中，確認 LoadBehavior 存在並設定為3。
@@ -169,4 +169,6 @@ Teams 會議增益集是仍在建置的功能，因此請注意下列事項：
 
 ### <a name="delegate-scheduling-does-not-work"></a>代理人排程無法運作
 
-如果您的系統管理員已將 Microsoft Exchange 設定為[控制對 Exchange Web 服務器 (EWS) 的存取](https://docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange)，代理人將無法代表老闆安排 Teams 會議。 此設定的解決方案正在開發中，即將在未來發行。 
+如果您的系統管理員已將 Microsoft Exchange 設定為[控制對 Exchange Web 服務器 (EWS) 的存取](https://docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange)，代理人將無法代表老闆安排 Teams 會議。 此設定的解決方案正在開發中，即將在未來發行。 作為因應措施，您的系統管理員可以將下列字串新增至 EWS 允許清單： "*SchedulingService*"。 
+
+

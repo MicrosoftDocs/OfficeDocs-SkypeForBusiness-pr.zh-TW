@@ -16,12 +16,12 @@ description: 在本文中，您將瞭解 Microsoft 團隊系統管理中心提�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 24d8a9658c4f7c0d9b0c12472491065106a7533c
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 943e8db82f69548008430df082638f61d09b6782
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904278"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690969"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Microsoft 團隊分析和報告
 
@@ -29,7 +29,7 @@ Microsoft 團隊系統管理中心提供 Microsoft 團隊的新分析與報告�
 
 ## <a name="how-to-access-the-reports"></a>如何存取報表
 
-若要存取報表，您必須是 Office 365、團隊服務系統管理員、團隊通訊系統管理員或商務用 Skype 系統管理員的全域系統管理員。若要深入瞭解團隊管理員角色，以及每個管理員角色可以存取哪些報表，請參閱[使用團隊管理員角色管理團隊](../using-admin-roles.md)。
+若要存取報表，您必須是 Microsoft 365 或 Office 365、團隊服務管理員、團隊通訊系統管理員或商務用 Skype 系統管理員的全域系統管理員。若要深入瞭解團隊管理員角色，以及每個管理員角色可以存取哪些報表，請參閱[使用團隊管理員角色管理團隊](../using-admin-roles.md)。
 
 移至 [Microsoft 團隊系統管理中心]，在左側導覽中，選取 [**分析] & 報表**]，然後在 [**報表**] 底下，選擇您要執行的報表。
 

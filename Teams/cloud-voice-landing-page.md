@@ -20,12 +20,12 @@ search.appverid: MET150
 description: 深入瞭解雲端語音功能，並瞭解您將面臨的必要部署決定。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 952eb7064844cf0e77e829cd2506c4303504074c
-ms.sourcegitcommit: 3ed779277540589eabef745685ab6c67d8a8ff90
+ms.openlocfilehash: 96d4f6b5e75e0f0f716b4f1b840b079996344cfb
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44281668"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690789"
 ---
 # <a name="cloud-voice-in-microsoft-teams"></a>Microsoft 團隊中的雲端語音
 
@@ -43,7 +43,7 @@ ms.locfileid: "44281668"
 
 下列文章提供在小組中部署和使用雲端語音功能的詳細資訊：
 
-- [Office 365 電話系統](what-is-phone-system-in-office-365.md)
+- [Microsoft 365 或 Office 365 中的電話系統](what-is-phone-system-in-office-365.md)
 - [含有通話方案的電話系統](calling-plan-landing-page.md)
 - [電話系統直接路由](direct-routing-landing-page.md)
 - [雲端語音部署](cloud-voice-deployment.md)
@@ -57,12 +57,12 @@ ms.locfileid: "44281668"
 
 ## <a name="phone-system-office-365"></a>電話系統（Office 365）
 
-[電話系統] 是 Microsoft 的技術，可在 Office 365 雲端啟用呼叫控制和私人分支 Exchange （PBX）功能。 [電話系統] 可讓您將現有的私人分支 Exchange （PBX）系統取代為直接從 Office 365 提供的一組功能，並緊密整合至公司的雲端生產力體驗。
+[電話系統] 是 Microsoft 在 Microsoft 365 或 Office 365 雲端啟用呼叫控制和私人分支 Exchange （PBX）功能的 Microsoft 技術。 [電話系統] 可讓您將現有的私人分支 Exchange （PBX）系統取代成一組直接從 Microsoft 365 或 Office 365 提供的功能，並緊密整合至公司的雲端生產力體驗。
 
 
 |問問自己|動作 |
 |:------------|:-------|
-|我要在哪個使用者位置或辦公室實現電話系統？ |如需電話系統的詳細資訊，請參閱[Office 365 中的 [什麼是電話系統](what-is-phone-system-in-office-365.md)]。</li></ul>|
+|我要在哪個使用者位置或辦公室實現電話系統？ |如需電話系統的詳細資訊，請參閱[Microsoft 365 或 Office 365 中的電話系統是什麼](what-is-phone-system-in-office-365.md)。</li></ul>|
 |||
 
 ## <a name="connection-to-the-public-switched-telephone-network-pstn"></a>連線到公用交換電話網絡（PSTN）
@@ -120,7 +120,7 @@ Microsoft 提供兩種電話號碼類型：可指派給您組織中的使用者�
 
 ### <a name="dial-plans"></a>撥號對應表
 
-Office 365 的 [電話系統] 功能中的撥號方案是一組正常化規則，可將撥打的電話號碼轉換成替代格式（通常是164個格式），用於呼叫授權及呼叫路由。
+Microsoft 365 或 Office 365 的 [電話系統] 功能中的撥號方案是一組正常化規則，可將撥打的電話號碼轉換成替代格式（通常是164個格式），以進行通話授權及呼叫路由。
 
 如需撥號對應表的相關資訊，請參閱[什麼是撥號對應表？](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans)
 

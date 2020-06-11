@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: '瞭解如何為大廳、接待區域及會議室設定通用區域電話 '
-ms.openlocfilehash: da44a7d66cdc0810405711719f4545caf64007a7
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 23e60a5fe57ea8e2ff07bb6333a5ea1c341bba88
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140866"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691069"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>設定 Microsoft 團隊的通用區域電話授權
 > [!NOTE]
@@ -40,11 +40,11 @@ ms.locfileid: "43140866"
 
 ## <a name="step-1---buy-the-licenses"></a>步驟 1-購買授權
 
-1. 在 Microsoft 365 系統管理中心中，移至 [**帳單** > **購買服務**]，然後展開**其他方案**。
+1. 在 Microsoft 365 系統管理中心中，移至 [**帳單**  >  **購買服務**]，然後展開**其他方案**。
 
     ![顯示常見區域電話磚的螢幕擷取畫面](media/set-up-common-area-phone-image1.png)
 
-2. 選取 [**通用區域電話** > **立即購買**]。
+2. 選取 [**通用區域電話**  >  **立即購買**]。
 
 3. 在 [結帳] 頁面上，按一下 [**立即購買**]。
 
@@ -80,7 +80,7 @@ ms.locfileid: "43140866"
 
 ## <a name="step-2---create-a-new-user-account-for-the-phone-and-assign-the-licenses"></a>步驟 2-為手機建立新的使用者帳戶並指派授權
 
-1. 在 Microsoft 365 系統管理中心，移至 [**使用者** > 作用中的**使用者** > ]**新增使用者**。
+1. 在 Microsoft 365 系統管理中心，移至 [**使用者**作用中  >  的**使用者**]  >  **新增使用者**。
 
 2. 針對第一個名稱輸入名為 "Main" 的使用者名稱，輸入 "接收" （第二個名稱）。
 
@@ -103,7 +103,7 @@ ms.locfileid: "43140866"
 
 使用 [團隊系統管理中心] 將號碼指派給使用者。
 
-1. 在 [團隊管理中心] 中，選取 [**語音** > **電話號碼**]。
+1. 在 [團隊管理中心] 中，選取 [**語音**  >  **電話號碼**]。
 
 3.    從電話號碼清單中選取一個數位，然後按一下 [**指派**]。
 
@@ -120,6 +120,4 @@ ms.locfileid: "43140866"
 
 如需詳細資訊，請參閱為[您的使用者取得電話號碼](getting-phone-numbers-for-your-users.md)。
 
-您也可以將您的電話號碼與其他運輸公司和「埠」取得聯繫，或將它傳送到 Office 365。 請參閱[將電話號碼傳送給團隊](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)。
-
-
+您也可以將您的電話號碼與其他運營商和「埠」取得聯繫，或將其轉接到 Microsoft 365 或 Office 365。 請參閱[將電話號碼傳送給團隊](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)。

@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: '請參閱 Microsoft 團隊步驟，將電話撥入式會議授權及會議 ID 指派給使用者和許多其他電話撥入式會議設定。 '
-ms.openlocfilehash: 704bcd5777fd0327ed944cc903959ef019f794a5
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 1cf51db4bd2ba4e6fb29d7301cb2ad46d4afb2f4
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638462"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691209"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>在 Microsoft 團隊中管理貴組織的音訊會議設定
 
@@ -54,8 +54,8 @@ ms.locfileid: "44638462"
     
 4. 在 [**產品授權**] 頁面上，開啟 [**音訊會議**]，然後按一下 [**儲存**]。 如需授權的詳細資訊，請參閱[Microsoft 團隊附加元件授權](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
     
-> [!NOTE]
-> 指派授權之後，Microsoft 可能不會在清單中以音訊會議提供者的形式開始。 如果發生這種情況，請登出系統管理中心，或按 CTRL + F5 重新整理瀏覽器視窗。 
+   > [!NOTE]
+   > 指派授權之後，Microsoft 可能不會在清單中以音訊會議提供者的形式開始。 如果發生這種情況，請登出系統管理中心，或按 CTRL + F5 重新整理瀏覽器視窗。 
   
 ## <a name="enable-or-disable-emails-sent-to-audio-conferencing-users"></a>啟用或停用傳送給音訊會議使用者的電子郵件
 
@@ -146,10 +146,8 @@ ms.locfileid: "44638462"
 
     如果您選擇 [**名稱] 或 [電話號碼**]，您也可以在加入會議前，選擇要啟用或停用**要求呼叫者記錄其名稱**。 
     > [!NOTE]
-> 根據預設，外部參與者看不到撥入參與者的電話號碼。 如果您想要維持這些電話號碼的隱私權，請選取 [**輸入/結束宣告類型**的**音調**] （這可防止小組中的號碼）。
-
-    > [!NOTE]
     > 根據預設，外部參與者看不到撥入參與者的電話號碼。 如果您想要維持這些電話號碼的隱私權，請選取 [**輸入/結束宣告類型**的**音調**] （這可防止小組中的號碼）。
+
 
 5. 按一下 [儲存]****。
 

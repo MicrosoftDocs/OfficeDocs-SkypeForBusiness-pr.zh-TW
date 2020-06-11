@@ -17,12 +17,12 @@ description: 瞭解如何使用 PowerShell 控制項來管理 Microsoft 團隊�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 32370c234e46b860ab026efd6b284d3db3a1458e
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: c74f27af718b10aa033c51d4b42d1a3d15bcbc1b
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43951248"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690949"
 ---
 # <a name="teams-powershell-overview"></a>團隊 PowerShell 概覽
 
@@ -44,9 +44,9 @@ PowerShell 控制項的參考檔將會告知您要調查的 Cmdlet 所在的模�
 
 建立及管理團隊的 Cmdlet 位於[Microsoft 團隊 PowerShell 模組](https://www.powershellgallery.com/packages/MicrosoftTeams/)中。 
 
-受 O365 群組支援小組，所以當您建立小組時，就會建立群組。 提供一組 Cmdlet 來在核心團隊及其設定（``new-team``、 ``get-team``、 ``set-team``）、管理團隊使用者（``add-teamuser``、 ``remove-teamuser``），以及管理團隊通道（``new-teamchannel``、 ``remove-teamchannel``）的 Cmdlet 中進行操作。 所有這些 Cmdlet 都可以以使用者身分執行，但它們只能在您擁有或隸屬于您擁有的小組中運作。 如果您是全域系統管理員或團隊服務系統管理員，您就可以在組織中的所有團隊進行動作。
+團隊由 Microsoft 365 群組進行支援，因此當您建立小組時，就會建立群組。 提供一組 Cmdlet 來在核心團隊及其設定（ ``new-team`` 、 ``get-team`` 、 ``set-team`` ）、管理團隊使用者（、），以及 ``add-teamuser`` ``remove-teamuser`` 管理團隊通道（ ``new-teamchannel`` 、）的 Cmdlet ``remove-teamchannel`` 中進行操作。 所有這些 Cmdlet 都可以以使用者身分執行，但它們只能在您擁有或隸屬于您擁有的小組中運作。 如果您是全域系統管理員或團隊服務系統管理員，您就可以在組織中的所有團隊進行動作。
 
-> Microsoft 團隊 PowerShell 模組 Cmdlet 中使用的**GroupId**與 Exchange PowerShell 模組``Get-UnifiedGroup``中傳回的身分**識別**屬性相同。
+> Microsoft 團隊 PowerShell 模組 Cmdlet 中使用的**GroupId**與 Exchange PowerShell 模組中傳回的身分**識別**屬性相同 ``Get-UnifiedGroup`` 。
 
 ### <a name="differences-between-preview-and-generally-available-microsoft-teams-powershell-module"></a>預覽與一般可用的 Microsoft 團隊 PowerShell 模組間的差異
 
@@ -84,30 +84,30 @@ PowerShell 控制項的參考檔將會告知您要調查的 Cmdlet 所在的模�
 在[商務用 Skype Cmdlet 模組](https://www.microsoft.com/download/details.aspx?id=39366)中使用 Cmdlet 來管理個別使用者的原則。
 
 > [!NOTE]
-> 在您連線到商務用 Skype Online 之後，您的 PowerShell 會話中就會提供 Cmdlet。 如需詳細資訊，請參閱[使用 Office 365 PowerShell 管理商務用 Skype Online](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)。 
+> 在您連線到商務用 Skype Online 之後，您的 PowerShell 會話中就會提供 Cmdlet。 如需詳細資訊，請參閱[使用 Microsoft 365 或 Office 365 PowerShell 管理商務用 Skype Online](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)。 
 
 原則是一組設定，可將它們精確套用至個別使用者。 每個原則類型都有自己的一組 Cmdlet，可用於建立、查看、刪除及更新原則，然後將這些原則指派給使用者。 一般結構如下：
 
-- 取得命令（例如， ``Get-CsTeamsMeetingPolicy``）：傳回您在組織中可指派的原則檔、由 Microsoft 所建立的原則，以及您建立的自訂原則。
-   > 如果您只想尋找您在組織中建立的自訂原則，您可以使用``-Filter "tag:*"``。
+- 取得命令（例如， ``Get-CsTeamsMeetingPolicy`` ）：傳回您在組織中可指派的原則檔、由 Microsoft 所建立的原則，以及您建立的自訂原則。
+   > 如果您只想尋找您在組織中建立的自訂原則，您可以使用 ``-Filter "tag:*"`` 。
 
-- 新命令（例如``New-CsTeamsMeetingPolicy``）：讓您為貴組織建立新的原則，然後將其指派給您組織中的使用者。 並非所有原則都支援建立自訂原則。 通常，這是為了確保您在組織中使用的原則具有受支援的設定組合。
+- 新命令（例如 ``New-CsTeamsMeetingPolicy`` ）：讓您為貴組織建立新的原則，然後將其指派給您組織中的使用者。 並非所有原則都支援建立自訂原則。 通常，這是為了確保您在組織中使用的原則具有受支援的設定組合。
 
-- SET 命令（例如``Set-CsTeamsMeetingPolicy``）：可讓您在指定原則上設定特定值。 有些原則沒有 set 命令可用，或包含無法在原則中自訂的參數。 每個 PowerShell 描述將會找出哪些參數無法自訂。 
-   > 若要編輯預設將指派給貴組織中未指派自訂策略之使用者的原則，請執行``Set-Cs<PolicyName> -Identity Global``。
+- SET 命令（例如 ``Set-CsTeamsMeetingPolicy`` ）：可讓您在指定原則上設定特定值。 有些原則沒有 set 命令可用，或包含無法在原則中自訂的參數。 每個 PowerShell 描述將會找出哪些參數無法自訂。 
+   > 若要編輯預設將指派給貴組織中未指派自訂策略之使用者的原則，請執行 ``Set-Cs<PolicyName> -Identity Global`` 。
 
-- 移除命令（例如``Remove-CsTeamsMeetingPolicy``）：您可以使用此 Cmdlet 來刪除已在您的租使用者中建立的自訂原則。 如果您刪除已指派給貴組織中至少一個使用者的自訂原則，該使用者會回到全域原則。
-   > 您不能實際移除貴組織中的全域原則，但如果您想要將貴組織中的全域原則重設為 Microsoft 提供的預設設定，您``Remove-Cs<PolicyName> -Identity Global``可以執行。
+- 移除命令（例如 ``Remove-CsTeamsMeetingPolicy`` ）：您可以使用此 Cmdlet 來刪除已在您的租使用者中建立的自訂原則。 如果您刪除已指派給貴組織中至少一個使用者的自訂原則，該使用者會回到全域原則。
+   > 您不能實際移除貴組織中的全域原則，但如果您想要將貴組織中的全域原則重設為 Microsoft 提供的預設設定，您可以執行 ``Remove-Cs<PolicyName> -Identity Global`` 。
 
-- GRANT 命令（例如``Grant-CsTeamsMeetingPolicy``）：可讓您將原則指派給特定的使用者。
-   > 若要移除自訂原則指派，並讓使用者回到貴組織中的預設原則，請執行``Grant-Cs<PolicyName> -Identity <User Identity> -PolicyName $null``。
+- GRANT 命令（例如 ``Grant-CsTeamsMeetingPolicy`` ）：可讓您將原則指派給特定的使用者。
+   > 若要移除自訂原則指派，並讓使用者回到貴組織中的預設原則，請執行 ``Grant-Cs<PolicyName> -Identity <User Identity> -PolicyName $null`` 。
 
 > [!TIP]
-> 並非所有原則都允許建立自訂原則，而且有些原則擁有您無法自訂的設定（所以您可以在與``set-`` ``new-``期間中查看設定，但不能設定自訂值）。 如果客戶不能使用參數，則特定 Cmdlet 的檔將會撥出。
+> 並非所有原則都允許建立自訂原則，而且有些原則擁有您無法自訂的設定（所以您可以在與期間中查看設定，但不能設定自訂值 ``set-`` ``new-`` ）。 如果客戶不能使用參數，則特定 Cmdlet 的檔將會撥出。
 
 一般參數：
 
-- **身分識別**： ``Get-``對於``Set-``、 ``New-``、和``Remove-``，身分**識別**參數會永遠參照特定原則實例。 針對``Grant``，身分**識別**參數會參照要套用原則的特定使用者物件。
+- 身分**識別**：對於 ``Get-`` 、、 ``Set-`` ``New-`` 和 ``Remove-`` ，身分**識別**參數會永遠參照特定原則實例。 針對 ``Grant`` ，身分**識別**參數會參照要套用原則的特定使用者物件。
 
 <!--more info here?-->
 
@@ -117,10 +117,10 @@ PowerShell 控制項的參考檔將會告知您要調查的 Cmdlet 所在的模�
 
 [配置] 是服務中維護的 [設定] 桶，不能在使用者層級指定。 設定總是在整個組織內套用。 您的全域設定是貴組織中的唯一有效配置。 每個配置類型都有兩個主要的 Cmdlet：
 
-- ``Get-Cs<ConfigurationName>``（例如， ``Get-CsTeamsClientConfiguration``）： 
+- ``Get-Cs<ConfigurationName>``（例如， ``Get-CsTeamsClientConfiguration`` ）： 
 
-- SET 命令（例如``Set-CsTeamsClientConfiguration``）：設定該類型的配置中的屬性。 指定您要修改的參數。
-   > 您可以透過兩種方式的其中一種來參考您要修改的設定：**指定全域身分識別**，或``Get-Cs<ConfigurationName>``  |  ``Set-Cs<ConfigurationName>``執行。
+- SET 命令（例如 ``Set-CsTeamsClientConfiguration`` ）：設定該類型的配置中的屬性。 指定您要修改的參數。
+   > 您可以透過兩種方式的其中一種來參考您要修改的設定：指定**全域身分識別**，或執行 ``Get-Cs<ConfigurationName>``  |  ``Set-Cs<ConfigurationName>`` 。
 
 ## <a name="other-powershell-tools"></a>其他 PowerShell 工具
 

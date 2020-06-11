@@ -24,12 +24,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: 瞭解如何開啟和使用通話品質儀表板，並取得通話品質的摘要報告。
-ms.openlocfilehash: 9a1c7cb451f722d019a4119daf8ab9c3a08c810f
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.openlocfilehash: 965392e02fa0ff24b38c8191b7b2a7aef904a723
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44243569"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44697443"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>開啟並使用 Microsoft 團隊和商務用 Skype Online 的通話品質儀表板
 
@@ -347,7 +347,7 @@ CQD 摘要報告儀表板包含**租使用者資料上傳**頁面，方法是從
 - 端點和模型/類型等的端點地圖。
   
 > [!NOTE]
-> 您上傳至 CQD 的報告標籤會在您的 Office 365 協定下處理為*支援資料*，包括任何其他應視為*客戶資料*或*個人資料*的資訊。 請勿包含您不想提供給 Microsoft 做為*支援資料*的資料，microsoft 工程師將能看到此資訊以供支援使用。
+> 您上傳至 CQD 的報告標籤會在您的 Microsoft 365 或 Office 365 協定下以*支援資料*的方式進行處理，包括任何其他應視為*客戶資料*或*個人資料*的資訊。 請勿包含您不想提供給 Microsoft 做為*支援資料*的資料，microsoft 工程師將能看到此資訊以供支援使用。
 
 ![螢幕擷取畫面：顯示通話品質儀表板租使用者資料](media/839c9ab4-0246-46c9-8402-aafd83a0bc63.png)
   

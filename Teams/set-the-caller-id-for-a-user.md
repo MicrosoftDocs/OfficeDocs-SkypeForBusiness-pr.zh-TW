@@ -21,16 +21,16 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: 瞭解 Office 365 預設本機號碼（使用者指派的電話號碼），也稱為呼叫線路 ID。 您可以變更或封鎖使用者的本機號碼。
-ms.openlocfilehash: 3e19b1de929057880573c29ba75aa0ec1091139f
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: 瞭解 Microsoft 365 和 Office 365 預設本機號碼（使用者指派的電話號碼），也稱為呼叫線路 ID。 您可以變更或封鎖使用者的本機號碼。
+ms.openlocfilehash: 059e92f04f3d4a5df73ed9201f1f784f2bd01f30
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780522"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691119"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>設定使用者的來電顯示
-Office 365 中的電話系統提供使用者指派電話號碼的預設本機號碼。 您可以變更或封鎖使用者的本機號碼（也稱為通話行識別碼）。 若要深入瞭解如何在[您的組織](how-can-caller-id-be-used-in-your-organization.md)中使用本機號碼，請參閱如何在貴組織中使用本機號碼。
+Microsoft 365 和 Office 365 中的電話系統提供使用者指派電話號碼的預設本機號碼。 您可以變更或封鎖使用者的本機號碼（也稱為通話行識別碼）。 若要深入瞭解如何在[您的組織](how-can-caller-id-be-used-in-your-organization.md)中使用本機號碼，請參閱如何在貴組織中使用本機號碼。
   
 > [!TIP]
 > 您無法在商務用 Skype Online 中封鎖目前的來電。 
@@ -65,7 +65,7 @@ Office 365 中的電話系統提供使用者指派電話號碼的預設本機號
 
 - **檢查您執行的是 Windows PowerShell 版本3.0 或更高版本**
     
-1. 若要確認您執行的是版本3.0 或更高版本： [**開始] 功能表** > **Windows PowerShell**。
+1. 若要確認您執行的是版本3.0 或更高版本： [**開始] 功能表**  >  **Windows PowerShell**。
     
 2. 在**Windows PowerShell**視窗中輸入 [_取得主機_]，以檢查版本。
     
@@ -73,11 +73,11 @@ Office 365 中的電話系統提供使用者指派電話號碼的預設本機號
     
 4. 您也需要安裝適用于商務用 Skype Online 的 Windows PowerShell 模組，這可讓您建立連線到商務用 Skype Online 的遠端 Windows PowerShell 會話。 此模組只受64位電腦支援，可從[適用于商務用 Skype Online 的 Windows PowerShell 模組](https://go.microsoft.com/fwlink/?LinkId=294688)上的 Microsoft 下載中心下載。 如果出現提示，請重新開機電腦。
     
-    如果您需要進一步瞭解，請參閱[在單一 Windows PowerShell 視窗中連線至所有 Office 365 服務](https://technet.microsoft.com/library/dn568015.aspx)。
+    如果您需要進一步瞭解，請參閱[在單一 Windows PowerShell 視窗中連線至所有 Microsoft 365 或 Office 365 服務](https://technet.microsoft.com/library/dn568015.aspx)。
     
 - **啟動 Windows PowerShell 會話**
     
-1. 從 [**開始] 功能表** > 中的 [**Windows PowerShell**]。
+1. 從 [**開始] 功能表**中的 [  >  **Windows PowerShell**]。
     
 2. 在**Windows PowerShell**視窗中，執行下列動作以連線至您的 Microsoft 365 或 Office 365：
     
@@ -91,7 +91,7 @@ Office 365 中的電話系統提供使用者指派電話號碼的預設本機號
     Import-PSSession $session
    ```
 
-如果您需要啟動 Windows PowerShell 的詳細資訊，請參閱[在單一 Windows powershell 視窗中連線至所有 Office 365 服務](https://technet.microsoft.com/library/dn568015.aspx)，或[設定您的 windows powershell 電腦](/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)。
+如果您需要啟動 Windows PowerShell 的詳細資訊，請參閱[在單一 Windows powershell 視窗中連線至所有 Microsoft 365 或 Office 365 服務](https://technet.microsoft.com/library/dn568015.aspx)，或[設定您的 windows powershell 電腦](/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)。
     
 ### <a name="see-all-of-the-caller-id-policy-settings-in-your-organization"></a>查看貴組織中的所有本機號碼原則設定
 
@@ -154,15 +154,15 @@ Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName $nul
 ```
 ## <a name="want-to-know-more-about-windows-powershell"></a>想要深入瞭解 Windows PowerShell 嗎？
 
-- Windows PowerShell 全部說明如何管理使用者，以及允許或不允許的使用者執行。 在 Windows PowerShell 中，您可以使用單一管理點管理 Office 365 和商務用 Skype Online，當您有多個工作需要執行時，可簡化日常作業。 若要開始使用 Windows PowerShell，請參閱以下主題：
+- Windows PowerShell 全部說明如何管理使用者，以及允許或不允許的使用者執行。 在 Windows PowerShell 中，您可以使用單一管理點管理 Microsoft 365 或 Office 365 及商務用 Skype Online，當您有多個工作需要執行時，可簡化日常作業。 若要開始使用 Windows PowerShell，請參閱以下主題：
     
   - [Windows PowerShell 與 Lync Online 的簡介](https://go.microsoft.com/fwlink/?LinkId=525039)
     
-  - [您可能會想要使用 Windows PowerShell 來管理 Office 365 的六個原因](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [您可能會想要使用 Windows PowerShell 來管理 Microsoft 365 或 Office 365 的六個原因](https://go.microsoft.com/fwlink/?LinkId=525041)
     
 - Windows PowerShell 在速度、簡潔性和生產率上都有許多優點，只是使用 Microsoft 365 系統管理中心，例如當您在一次為多位使用者設定變更時。 請參閱下列主題，瞭解這些優點：
     
-  - [使用 Windows PowerShell 管理 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [使用 Windows PowerShell 管理 Microsoft 365 或 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
     
   - [使用 Windows PowerShell 管理商務用 Skype Online](https://go.microsoft.com/fwlink/?LinkId=525453)
     

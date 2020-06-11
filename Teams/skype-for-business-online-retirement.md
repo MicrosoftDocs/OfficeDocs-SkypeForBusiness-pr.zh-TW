@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 69cd9da8cee3c6cc8345c945e3e40288889d3547
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: dbfee03ac40203c8b76307521b9ec6726feacd2f
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905535"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691519"
 ---
 # <a name="skype-for-business-online-retirement"></a>終止對商務用 Skype Online 的支援
 
@@ -31,7 +31,7 @@ ms.locfileid: "43905535"
  
 ## <a name="what-is-the-skype-for-business-retirement-plan"></a>什麼是商務用 Skype 退休方案？
 
-商務用 Skype Online 將于2021年7月31日停用，且在該日期之後，該服務將無法再存取。 從現在開始，目前的商務用 Skype Online 客戶將不會發生服務變更，而且他們將能夠視需要繼續新增使用者。 不過，從2019年9月1日起，我們會將所有新的 Office 365 客戶直接集成至小組，以進行聊天、會議和通話。 請注意，本次發佈不會影響 Skype 消費者服務和商務用 Skype 伺服器。  
+商務用 Skype Online 將于2021年7月31日停用，且在該日期之後，該服務將無法再存取。 從現在開始，目前的商務用 Skype Online 客戶將不會發生服務變更，而且他們將能夠視需要繼續新增使用者。 不過，從2019年9月1日起，我們會將所有新的 Microsoft 365 或 Office 365 客戶直接放在聊天、會議和通話的小組中。 請注意，本次發佈不會影響 Skype 消費者服務和商務用 Skype 伺服器。  
 
 ## <a name="why-are-we-making-this-announcement-now"></a>為什麼我們要立即進行本次發佈？
 

@@ -23,24 +23,24 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 瞭解如何使用 Microsoft 團隊系統管理中心來查看貴組織中所有電話號碼的清單，以及指派給使用者或未指派的所有號碼。
-ms.openlocfilehash: 8483a3847027f3790930653ead39678f6a802533
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 8ad4e0ce2949e2aa72d387aff167a433ec7c8150
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140956"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691169"
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>查看貴組織的電話號碼清單
 
-您可以將不同類型的電話號碼指派給使用者或其他服務（服務號碼），例如 Office 365 中的音訊會議。
+您可以將不同類型的電話號碼指派給使用者或其他服務（服務號碼），例如在 Microsoft 365 或 Office 365 中的音訊會議。
   
 ## <a name="to-see-a-list-of-all-phone-numbers-that-you-have-for-your-organization"></a>若要查看貴組織擁有的所有電話號碼清單
 
-![](media/teams-logo-30x30.png) **使用 Microsoft [團隊管理中心**] 顯示小組標誌的圖示
+![](media/teams-logo-30x30.png)**使用 Microsoft [團隊管理中心**] 顯示小組標誌的圖示
 
 1. 移至**Microsoft 團隊系統管理中心**。
 
-2. 在左側導覽中，移至 [**語音** > **電話號碼**]。
+2. 在左側導覽中，移至 [**語音**  >  **電話號碼**]。
 
     > [!IMPORTANT]
     > 若要在商務用 Skype 系統管理中心的左側導覽中看到 [**語音**] 選項，您必須先購買至少一個**企業版 E5 授權**、一個**電話系統**附加元件授權或一個**音訊會議**附加元件授權。
@@ -63,11 +63,11 @@ ms.locfileid: "43140956"
 
 當您設定使用者時，您可能只想查看已指派給使用者的電話號碼清單，以及可指派給他們的電話號碼。
   
-![](media/teams-logo-30x30.png) **使用 Microsoft [團隊管理中心**] 顯示小組標誌的圖示
+![](media/teams-logo-30x30.png)**使用 Microsoft [團隊管理中心**] 顯示小組標誌的圖示
 
 1. 移至**Microsoft 團隊系統管理中心**。
 
-2. 在左側導覽中，移至 [**語音** > **電話號碼**]。
+2. 在左側導覽中，移至 [**語音**  >  **電話號碼**]。
 
     > [!IMPORTANT]
     > 若要在 Microsoft 團隊系統管理中心的左側導覽中看到 [**語音**] 選項，您必須先購買至少一個**企業版 E5 授權**、一個**電話系統**附加元件授權或一個**音訊會議**附加元件授權。
@@ -84,11 +84,11 @@ ms.locfileid: "43140956"
 
 當您將組織中的使用者設定為撥打及接聽電話時，您必須先取得電話號碼，然後將他們指派給您的使用者。 取得電話號碼之後，您可能只想查看數位指派的啟用狀態。
 
-![](media/teams-logo-30x30.png) **使用 Microsoft 團隊系統管理中心來**顯示小組標誌的圖示！
+![](media/teams-logo-30x30.png)**使用 Microsoft 團隊系統管理中心來**顯示小組標誌的圖示！
   
 1. 移至**Microsoft 團隊系統管理中心**。
 
-2. 在左側導覽中，移至 [**語音** > **電話號碼**]。
+2. 在左側導覽中，移至 [**語音**  >  **電話號碼**]。
 
     > [!IMPORTANT]
     > 若要在 Microsoft 團隊系統管理中心的左側導覽中看到 [**語音**] 選項，您必須先購買至少一個**企業版 E5 授權**、一個**電話系統**附加元件授權或一個**音訊會議**附加元件授權。

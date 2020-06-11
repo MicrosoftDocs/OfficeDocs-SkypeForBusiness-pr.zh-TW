@@ -17,22 +17,22 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e434a85693226252ecef2a5b4c251024524e698f
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: 43965ef0b32551a9b4d5030b762d8fe0c53abcc4
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326560"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690049"
 ---
 <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>開啟或關閉 Microsoft 團隊的來賓存取權
 ===================================================
 
-根據預設，來賓存取權會關閉。 就像 Office 365 管理員一樣，您必須先開啟團隊的來賓存取權，管理員或團隊擁有者才能新增來賓。 若要開啟來賓存取，請使用[來賓存取檢查清單](guest-access-checklist.md)。 
+根據預設，來賓存取權會關閉。 如果您是 Microsoft 365 或 Office 365 系統管理員，您必須先開啟團隊的來賓存取權，管理員或團隊擁有者才能新增來賓。 若要開啟來賓存取，請使用[來賓存取檢查清單](guest-access-checklist.md)。 
 
 開啟來賓存取後，可能需要幾個小時的時間，變更才會生效。 當使用者嘗試將來賓新增到其小組時，如果使用者看到「與您的系統管理員聯繫」訊息，可能是因為來賓存取尚未開啟，或是設定尚未生效。
 
 > [!IMPORTANT]
-> 開啟來賓存取權視 Azure Active Directory、Office 365、SharePoint Online 和團隊中的設定而定。 如需詳細資訊，請參閱[核准團隊中的來賓存取權](Teams-dependencies.md)。
+> 開啟來賓存取權視 Azure Active Directory、Microsoft 365 或 Office 365、SharePoint Online 和團隊中的設定而定。 如需詳細資訊，請參閱[核准團隊中的來賓存取權](Teams-dependencies.md)。
 
 
 

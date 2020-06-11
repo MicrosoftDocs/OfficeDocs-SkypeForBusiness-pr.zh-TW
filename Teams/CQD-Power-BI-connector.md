@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 安裝 Power BI 連接器以使用 CQD 查詢範本
-ms.openlocfilehash: 84177d98addfa3efc96db4e77148556a941a74dc
-ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
+ms.openlocfilehash: eb7d2bf412308b017f2583436dd792d64a084b20
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44416863"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690929"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>安裝 Power BI 連接器以使用 CQD 查詢範本
 
@@ -121,6 +121,8 @@ ms.locfileid: "44416863"
 4.  參照快取的**資料-** Power BI 目前不支援以任何方式參照 DirectQuery 連接器中的快取資料。 任何參照查詢結果的嘗試都會產生新的查詢。 
 
 5.  **相對資料篩選–** 在 CQD 連接器中受到支援，但僅限 [*開始時間*] 和 [*結束時間*] 維度。 雖然 [*日期*] 維度可能是相對日期篩選的明顯選擇，但*date*並不會儲存為日期時間物件，因此不支援 Power BI 中的相對日期篩選。
+
+6. **政府社區雲端（GCC）支援-** 針對 GCC 環境中的客戶，使用 Power BI Desktop 時，CQD Power BI 連接器就會運作。 CQD Power BI 連接器目前與適用于 GCC 客戶的 Power BI 服務不相容。
 
 請注意，雖然連接器是在預覽中，但在最終發行連接器時，這些限制可能不會變更。 這些問題大多都是在 Power BI 中對 DirectQuery 連接器設計的限制，或針對 CQD 資料模型設計的基礎。
 

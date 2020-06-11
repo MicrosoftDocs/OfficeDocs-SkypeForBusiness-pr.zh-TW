@@ -18,17 +18,17 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e754177de6f08476c9160254f2334f6f3ac18d3
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: de73dc3edff66bfe8b427e570bfc661e1dec46b4
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43903138"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689679"
 ---
 <a name="teams-experience-in-a-microsoft-365-or-office-365-onedrive-and-sharepoint-online-multi-geo-enabled-tenancy"></a>Microsoft 365 或 Office 365 OneDrive 與 SharePoint Online 多地域租賃中的團隊體驗
 ===========================================
 
-Microsoft 團隊是群組聊天軟體，也就是在 Office 365 中進行團隊合作的中心。 它是由 Microsoft 365 群組服務以及 SharePoint Online 和商務用 OneDrive 提供給其檔案體驗所支援。 在商務用 OneDrive/SharePoint Online 多地理租賃中，將租使用者延伸到許多地理位置（例如北美、歐洲和澳大利亞），基礎檔案體驗是多地區感知，所以小組使用檔案共同作業也是多地區的感知功能。 這是團隊在其原生檔案體驗中跨多個 Geos 託管之程式的主要前沿功能。
+Microsoft 團隊是群組聊天軟體，即在 Microsoft 365 和 Office 365 中進行團隊合作的中心。 它是由 Microsoft 365 群組服務以及 SharePoint Online 和商務用 OneDrive 提供給其檔案體驗所支援。 在商務用 OneDrive/SharePoint Online 多地理租賃中，將租使用者延伸到許多地理位置（例如北美、歐洲和澳大利亞），基礎檔案體驗是多地區感知，所以小組使用檔案共同作業也是多地區的感知功能。 這是團隊在其原生檔案體驗中跨多個 Geos 託管之程式的主要前沿功能。
 
 例如，在 Contoso 租賃中，將歐洲作為衛星地理位置，而北美作為地理位置，但在左窗格中的 [檔案] 索引標籤下，歐元的附屬使用者將會看到他或她的 OneDrive 檔案，不過這些檔案是託管在歐洲資料位置，而美國是租使用者的中心位置。 此外，使用者也可以在最近的 [查看] 薄片下存取最近使用過的檔案。 [最近的檔案] 可能包含使用者與其他 Geos 中的使用者共用的檔案，而且可能是受租使用者延伸的其他地理位置。 
 
@@ -38,4 +38,4 @@ Microsoft 團隊是群組聊天軟體，也就是在 Office 365 中進行團隊�
 
 請注意，小組體驗中的聊天與會議 IM 筆記中的交談並不是多地區感知，而且都只會保留在租使用者的中央位置。 通常，聊天交談不會套用至資料派駐需求。
 
-如需 Office 365 多地理位置的詳細資訊，請參閱[Microsoft 多地區功能頁面](https://aka.ms/multi-geo)。
+如需多地理位置的詳細資訊，請參閱[Microsoft 多地區功能頁面](https://aka.ms/multi-geo)。

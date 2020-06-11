@@ -17,12 +17,12 @@ description: 決定哪一種 Microsoft 手機系統通話方案最適合您在�
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4b1fb0abed3477039f4c19c0e2de0ea696626f35
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 46a985247acaf80c228e19dc8ba38cfb1085308e
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905025"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691409"
 ---
 # <a name="which-calling-plan-is-right-for-you"></a>哪一個通話方案適合您？ 
 
@@ -35,8 +35,8 @@ ms.locfileid: "43905025"
 
 下列文章提供有關部署和使用 Microsoft 通話方案的詳細資訊：
 
-- [Office 365 電話系統](what-is-phone-system-in-office-365.md)
-- [Office 365 的通話方案](calling-plans-for-office-365.md)
+- [Microsoft 365 或 Office 365 中的電話系統](what-is-phone-system-in-office-365.md)
+- [Microsoft 365 或 Office 365 的通話方案](calling-plans-for-office-365.md)
 - [設定通話方案](set-up-calling-plans.md)
 
 
@@ -52,19 +52,19 @@ ms.locfileid: "43905025"
 |問問自己|動作 |
 |------------|-------|
 |我的區域是否提供通話方案？ 哪些使用者位置將會有通話計畫服務？ | 如需詳細資訊，請參閱[音訊會議與通話方案的國家/地區可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。 | 
-我的使用者需要國際通話嗎？ | 如需詳細資訊，請參閱[Office 365 的通話方案](calling-plans-for-office-365.md)。 |
+我的使用者需要國際通話嗎？ | 如需詳細資訊，請參閱[Microsoft 365 或 Office 365 的通話方案](calling-plans-for-office-365.md)。 |
 我的使用者是否有通話方案授權？ | 若要購買並指派授權，請參閱[步驟2：購買並指派授權](set-up-calling-plans.md#step-2-buy-and-assign-licenses)。 |
 我的使用者每個都有直向撥打電話號碼嗎？ | 若要取得電話號碼，請參閱[步驟3：取得電話號碼](set-up-calling-plans.md#step-3-get-phone-numbers)。 |
 |||
 
-### <a name="transfer-phone-numbers-to-office-365"></a>將電話號碼移轉至 Office 365
+### <a name="transfer-phone-numbers-to-microsoft-365-or-office-365"></a>將電話號碼轉接至 Microsoft 365 或 Office 365
 
 您可以輕鬆地將您的電話號碼從目前的服務提供者轉接至團隊。 在您將電話號碼移植至團隊後，Microsoft 就會成為您的服務提供者，並將您的電話號碼帳單。 如需詳細資訊，請參閱[將電話號碼傳送給團隊](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)。
 
 
 ### <a name="phone-numbers-and-emergency-locations"></a>電話號碼和緊急位置
 
-使用 Office 365 中的通話方案，貴組織中的每位使用者都必須有一個唯一的直接撥出電話號碼，以及對應的驗證緊急位址。 您也可以在緊急位址內指定緊急地點（例如，辦公室號碼或底價編號）。 
+在 Microsoft 365 或 Office 365 中使用通話方案，貴組織中的每位使用者都必須有一個唯一的直接撥出電話號碼，以及對應的驗證緊急位址。 您也可以在緊急位址內指定緊急地點（例如，辦公室號碼或底價編號）。 
 
 |問問自己|動作 |
 |:------------|:-------|

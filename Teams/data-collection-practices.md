@@ -23,12 +23,12 @@ ms.custom:
 - seo-marvel-mar2020
 hideEdit: true
 description: 瞭解 Microsoft 如何收集人口普查、使用方式及錯誤資料，以瞭解團隊及商務用 Skype 使用方式及問題，以便規劃產品改良。
-ms.openlocfilehash: a7bc6066304bfc8d221678f0c37b484e602d1bbd
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: b7f1f7b63645adfb0cfa0c492a680059ef383402
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137353"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691529"
 ---
 # <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>商務用 Skype 和 Microsoft 團隊資料收集做法
 
@@ -104,7 +104,7 @@ ms.locfileid: "43137353"
 
 - 在伺服器或租使用者系統管理中心的 [DisableAutomaticSendTracing] 群組原則設定為 False 時（這是預設狀態）。 如需詳細資訊，請參閱[設定用戶端引導原則](/skypeforbusiness/deploy/deploy-clients/configure-client-bootstrapping-policies)。
     
-- 使用者可從 [一般] 索引標籤個別加入宣告，在![商務用 Skype 用戶端中](media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) ，按一下齒輪圖示代表齒輪的圖示，然後在顯示 [**一般**] 索引標籤的 [**選項**] 對話方塊中開啟。
+- 使用者可從 [一般] 索引標籤個別加入宣告，在 ![ 商務用 Skype 用戶端中，按一下齒輪圖示代表齒輪的圖示，然後在顯示 [一般] 索引標籤的 [ ](media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) **選項**] 對話方塊中開啟。 **General**
     
  
 ![[選項] 對話方塊中 [資料收集] 核取方塊的螢幕擷取畫面](media/68bc8f77-deaa-478c-9977-a5259b88df3e.png)
@@ -115,7 +115,7 @@ ms.locfileid: "43137353"
 
 您可以參閱為[商務用 Skype Online 設定您的網路](https://support.office.com/article/81fa5e16-418d-4698-a5f0-e666211c5c66)，以設定您的網路。
 
-如果您使用的是中國由世紀運營的 Office 365，請參閱[針對由世紀運營的商務用 Skype Online 設定您的網路](https://support.office.com/article/d21f89b0-3afc-432e-b735-036b2432fdbf)。
+如果您使用的是中國由世紀運營的 Microsoft 365 或 Office 365，請參閱[針對由世紀運營的商務用 Skype Online 設定您的網路](https://support.office.com/article/d21f89b0-3afc-432e-b735-036b2432fdbf)。
 
 ## <a name="related-topics"></a>相關主題
 [音訊會議與通話方案的適用國家/地區](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

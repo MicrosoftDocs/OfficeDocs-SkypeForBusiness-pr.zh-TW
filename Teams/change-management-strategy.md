@@ -15,12 +15,12 @@ description: 透過找出重要的專案關係人、商業結果、成功的措�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 396649f40a3e3413de67aea61eca7f2feb7dac4b
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 93cc8c9b56381e656cbcfbe2c47aef0e10593e45
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778379"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690479"
 ---
 <a name="create-a-change-management-strategy-for-microsoft-teams"></a>建立 Microsoft 團隊的變更管理策略
 =======================================================
@@ -61,8 +61,8 @@ ms.locfileid: "43778379"
 |  |  |
 |---------|---------|
 |![主管贊助商圖示。](media/Create_a_change_management_strategy_for_Microsoft_Teams_image1.png)     |**管理層主管**是組織內的主要領導人，且其參與在推動員工採納中是必不可少的。 他們對公司文化有最大的影響，而且可以積極地傳達新技術與益處的價值與好處。         |
-|![[服務擁有者] 圖示。](media/Create_a_change_management_strategy_for_Microsoft_Teams_image2.png)     |**服務擁有**者負責確保使用者使用該服務，並取得它的價值。 設定貴組織內的服務擁有者對於確保已實現 Office 365 的商業目標，很重要。         |
-|![擁護圖示。](media/Create_a_change_management_strategy_for_Microsoft_Teams_image3.png)     |若要從組織中的每位使用者購買，都是一個挑戰。 **擁護**程式可協助減輕這項挑戰，並在採用 Office 365 時扮演重要角色。 他們非常熟悉，致力於促進其專業知識，且願意提供對等指導及協助。 它們可協助將 Office 365 轉換成其部門或小組的實際情況。         |
+|![[服務擁有者] 圖示。](media/Create_a_change_management_strategy_for_Microsoft_Teams_image2.png)     |**服務擁有**者負責確保使用者使用該服務，並取得它的價值。 設定貴組織內的服務擁有者，對於確保已實現 Microsoft 365 或 Office 365 的商業目標，是非常重要的。         |
+|![擁護圖示。](media/Create_a_change_management_strategy_for_Microsoft_Teams_image3.png)     |若要從組織中的每位使用者購買，都是一個挑戰。 **擁護**程式可協助減輕這項挑戰，並在採用 Microsoft 365 或 Office 365 時扮演重要角色。 他們非常熟悉，致力於促進其專業知識，且願意提供對等指導及協助。 它們可協助將 Microsoft 365 或 Office 365 翻譯成其部門或團隊的現實。         |
 
 我們建議定期召開這些專案關係人的會議，讓他們保持對程式進度的最新狀態。 啟動「共同作業委員會」可讓意見反應和討論成為有用的工具（視您的公司文化環境而定）。
 
@@ -145,7 +145,7 @@ ms.locfileid: "43778379"
 <a name="measure-and-share-success"></a>衡量及分享成功
 -------------------------------------------------
 
-您的專案小組必須是貴組織的 IT 系統管理員。 這些人都可以存取 Microsoft 365 系統管理中心體驗中內置的 Office 365 Microsoft 團隊使用方式報告。 這項資訊可以顯示貴公司中 Microsoft 團隊的使用方式。 我們也建議您直接取得使用者的意見反應，瞭解他們的團隊經驗，以及他們所要使用的其他想法。 在您自己的公司中共用這些真實世界的範例，對於您的使用者群組而言，會隨著時間的推移持續變更，極具價值。  
+您的專案小組必須是貴組織的 IT 系統管理員。 這些人會有權存取 microsoft 365 或 Office 365 Microsoft 團隊使用方式報告，這些報告已內置於 Microsoft 365 系統管理中心體驗中。 這項資訊可以顯示貴公司中 Microsoft 團隊的使用方式。 我們也建議您直接取得使用者的意見反應，瞭解他們的團隊經驗，以及他們所要使用的其他想法。 在您自己的公司中共用這些真實世界的範例，對於您的使用者群組而言，會隨著時間的推移持續變更，極具價值。  
 
 深入瞭解 Microsoft 365 系統管理中心的 Microsoft 團隊使用量報告[here](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524)
 
@@ -154,8 +154,8 @@ ms.locfileid: "43778379"
 
 ## <a name="ongoing-adoption"></a>現行採納
 
-組織中的變更會成為進行中的活動，不是事件。 您的開始會議只是讓人員能夠更有效率地共同作業。 在這個歷程中規劃時刻，我們必須重點強調您的成功、引入新功能，並與您的 IT 部門將製作的整個 Office 365 服務方案連線。 確保您的使用者都在進行中，而不是淹沒會減少其變更 fatigue，並支援讓他們掌握一些新的習慣（例如，電子郵件附件）來接納其他東西（例如在雲端儲存檔）。
+組織中的變更會成為進行中的活動，不是事件。 您的開始會議只是讓人員能夠更有效率地共同作業。 在這個旅程中規劃時刻，我們必須重點說明您的成功、引入新功能，並與您的 IT 部門將製作的整個 Microsoft 365 或 Office 365 服務戰略進行連接。 確保您的使用者都在進行中，而不是淹沒會減少其變更 fatigue，並支援讓他們掌握一些新的習慣（例如，電子郵件附件）來接納其他東西（例如在雲端儲存檔）。
 
-在 Microsoft 技術社區網站上的 [[推動採用] 群組](https://techcommunity.microsoft.com/t5/Driving-Adoption/ct-p/DrivingAdoption)中，分享您關於小組和 Office 365 的服務採納問題。 我們隨時都想要聽到您的聲音，並協助您瞭解您的採納歷程。  
+在 Microsoft 技術社區網站上的 [[促進採用] 群組](https://techcommunity.microsoft.com/t5/Driving-Adoption/ct-p/DrivingAdoption)中，分享您的小組與 Microsoft 365 或 Office 365 的服務採納問題。 我們隨時都想要聽到您的聲音，並協助您瞭解您的採納歷程。  
 
 

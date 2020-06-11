@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 瞭解如何設定您的 SBC 並將其連線至手機系統直通路由。
-ms.openlocfilehash: fbcc1d79a4875ba835fc77ea24f6356ded3da894
-ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
+ms.openlocfilehash: 8ceb4d1811b479fbcdc0d4ca83f4dbc4672227bd
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44159032"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691259"
 ---
 # <a name="connect-your-session-border-controller-sbc-to-direct-routing"></a>將您的會話邊界控制器（SBC）連線至直接路由
 
@@ -38,9 +38,9 @@ ms.locfileid: "44159032"
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 系統管理中心
 
-1. 在左側導覽中，移至 [**語音** > **直式路由**]，然後按一下 [ **SBCs** ] 索引標籤。
+1. 在左側導覽中，移至 [**語音**  >  **直式路由**]，然後按一下 [ **SBCs** ] 索引標籤。
 2. 按一下 [**新增**]。
-3. 輸入 SBC 的 FQDN。 <br><br>確認 FQDN 的功能變數名稱部分符合您在租使用者註冊的網域，並請記住，SBC FQDN 功能變數名稱不支援該`*.onmicrosoft.com`功能變數名稱。 例如，如果您有兩個功能變數名稱， `contoso.com`且`contoso.on.microsoft.com`使用`sbc.contoso.com`的是 SBC 名稱。
+3. 輸入 SBC 的 FQDN。 <br><br>確認 FQDN 的功能變數名稱部分符合您在租使用者註冊的網域，並請記住， `*.onmicrosoft.com` SBC FQDN 功能變數名稱不支援該功能變數名稱。 例如，如果您有兩個功能變數名稱， `contoso.com` 且 `contoso.on.microsoft.com` 使用的 `sbc.contoso.com` 是 SBC 名稱。
 4. 根據貴組織的需求，為 SBC 設定下列設定。 如需這些設定的詳細資料，請參閱[SBC 設定](#sbc-settings)。
 
     ![Microsoft 團隊系統管理中心 [新增 SBC] 頁面的螢幕擷取畫面](media/direct-routing-add-sbc.png)
@@ -86,7 +86,7 @@ New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignalingPort <SBC SIP Port> -MaxCo
 
   > [!NOTE]
   > 1. 我們建議您在 SBC 中使用可在 SBC 檔中找到的資訊來設定最大通話限制。 如果 SBC 是容量等級，則限制會觸發通知。
-  > 2. 您只能在 SBC 的網域部分與您在租使用者中註冊的其中一個網域（onmicrosoft.com 除外\*）進行連接。 SBC \*FQDN 名稱不支援使用 onmicrosoft.com 功能變數名稱。 例如，如果您有兩個功能變數名稱、 **contoso**和**contoso**onmicrosoft.com，就可以使用 sbc 來取得 sbc 名稱。 如果您嘗試使用名稱（例如 SBC）來連接 SBC，則系統不會讓您，因為該域不是由這個租使用者所擁有。<br/>
+  > 2. 您只能在 SBC 的網域部分與您在租使用者中註冊的其中一個網域（onmicrosoft.com 除外）進行連接。 \* \*SBC FQDN 名稱不支援使用 onmicrosoft.com 功能變數名稱。 例如，如果您有兩個功能變數名稱、 **contoso**和**contoso**onmicrosoft.com，就可以使用 sbc 來取得 sbc 名稱。 如果您嘗試使用名稱（例如 SBC）來連接 SBC，則系統不會讓您，因為該域不是由這個租使用者所擁有。<br/>
   > 除了在您的租使用者中註冊的網域之外，您還必須擁有擁有該網域的使用者以及指派的 E3 或 E5 授權。 如果不是，您會收到下列錯誤：<br/>
   `Can not use the "sbc.contoso.com" domain as it was not configured for this tenant`.
 
@@ -164,7 +164,7 @@ Enabled               : True
 |否|**後**|後|用來針對撥出通話開啟 SBC。 您可以使用此程式在服務更新期間或在維護期間，暫時將 SBC 從服務中移除。 |虛假|滿足<br/>虛假|Boolean|
 |是|**SIP 信號埠**|SipSignalingPort |這是用來透過傳輸層（TLS）通訊協定與直接路由進行通訊的偵聽埠。|無|任何埠|0到65535 |
 |否|**傳送 SIP 選項**|SendSIPOptions |定義 SBC 是否會傳送 SIP 選項訊息。 我們強烈建議您開啟此設定。 當此設定為 [關閉] 時，系統會將 SBC 排除在監視及報警系統中。|滿足|滿足<br/>虛假|Boolean|
-|否|**轉接通話記錄**|ForwardCallHistory |指出通話記錄資訊是否是透過主幹來轉寄。 當您開啟此方法時，Office 365 proxy 會傳送歷程記錄資訊，並以 [依標頭] 方式進行參照。 |虛假|滿足<br/>虛假|Boolean|
+|否|**轉接通話記錄**|ForwardCallHistory |指出通話記錄資訊是否是透過主幹來轉寄。 當您開啟此程式時，Microsoft 365 或 Office 365 proxy 會傳送歷程記錄資訊，並依標頭所參照。 |虛假|滿足<br/>虛假|Boolean|
 |否|**轉寄 P-已斷言身分識別（PAI）標頭**|ForwardPAI|指示 PAI 標頭是否與通話一起轉寄。 PAI 標頭可用於驗證來電者的身分識別。 如果此設定為 [開啟]，則也會傳送隱私權： ID 標頭。|虛假|滿足<br/>虛假|Boolean|
 |否|**並行通話容量**|MaxConcurrentSessions |當您設定值時，當併發會話數量為90% 或高於此值時，警示系統會通知您。 如果您沒有設定值，就不會產生警示。 不過，監視系統會每隔24小時報告併發會話數目。 |非|非<br/>1到100000 ||
 |否|**容錯移轉回應代碼**|FailoverResponseCodes<br>|如果直接路由收到任何用於回應傳出邀請的4xx 或 6xx SIP 錯誤碼，則預設會視為已完成通話。 [外寄] 表示從團隊用戶端撥打電話至 PSTN 與流量流程：團隊用戶端-> 直接路由-> SBC > 電話網絡）。 當您指定容錯移轉回應程式碼時，會強制進行直接路由來嘗試另一個 SBC （如果使用者的語音路由原則中存在另一個 SBC），而當 SBC 由於網路或其他問題而無法撥打電話時，會收到指定的程式碼。 若要深入瞭解，請參閱[從會話邊界控制器（SBC）收到的特定 SIP 代碼的容錯移轉](direct-routing-trunk-failover-on-outbound-call.md)。|408、503、504||Int|

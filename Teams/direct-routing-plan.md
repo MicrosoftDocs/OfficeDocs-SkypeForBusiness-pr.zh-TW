@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: 瞭解 Microsoft Phone 系統 Direct 路由如何讓您將支援的客戶提供的會話邊界控制器（SBC）連線至 Microsoft Phone 系統。
-ms.openlocfilehash: 29b4136c553d8b0f77fbb10259899ebea793ed98
-ms.sourcegitcommit: 1df448516b05bccd0527256b1f4f20792566f8a2
+ms.openlocfilehash: bd221be2174a538956667e0b113d459f2293882f
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/30/2020
-ms.locfileid: "44428950"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691229"
 ---
 # <a name="plan-direct-routing"></a>規劃直接路由
 
@@ -71,22 +71,22 @@ Microsoft 也提供所有雲端語音解決方案，例如通話方案。 不過
 |:--- |:--- |
 |會話邊界控制器（SBC）|受支援的 SBC。 如需詳細資訊，請參閱[支援的 SBCs](#supported-session-border-controllers-sbcs)。|
 |連線至 SBC 的電話語音 trunks|一個或多個連線至 SBC 的電話 trunks。 在一端，SBC 透過直接路由連接到 Microsoft 手機系統。 SBC 也可以連接到協力廠商電話實體，例如 Pbx、類比電話卡等。 任何連接至 SBC 的 PSTN 連接選項都會正常運作。 （如需將 PSTN trunks 設定至 SBC，請參閱 SBC 廠商或主幹提供者）。|
-|Office 365 組織|您用來家用 Microsoft 團隊使用者的 Office 365 組織，以及與 SBC 的設定和連線。|
-|使用者註冊機構|使用者必須駐留在 Office 365 中。<br/>如果您的公司有內部部署商務用 Skype 或 Lync 環境，且其混合式連線至 Office 365，則您無法在團隊中為使用者駐留內部部署啟用語音功能。<br/><br/>若要檢查使用者的註冊機構，請使用下列商務用 Skype Online PowerShell Cmdlet：<br/><code>Get-CsOnlineUser -Identity \<user> \| fl HostingProvider</code> <br/><br/>Cmdlet 的輸出應該會顯示：<br/><code>HostingProvider : sipfed.online.lync.com</code>|
-|定義域|一或多個網域新增至您的 Office 365 組織。<br/><br/>請注意，您無法使用 \* 針對您的租使用者自動建立的預設網域 onmicrosoft.com。<br/><br/>若要查看網域，您可以使用下列商務用 Skype Online PowerShell Cmdlet：<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>如需網域和 Office 365 組織的詳細資訊，請參閱[網域常見問題](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a)。|
+|Microsoft 365 或 Office 365 組織|您用來將 Microsoft 團隊使用者用來家用的 Microsoft 365 或 Office 365 組織，以及 SBC 的設定與連接。|
+|使用者註冊機構|使用者必須駐留在 Microsoft 365 或 Office 365 中。<br/>如果您的公司有內部部署商務用 Skype 或 Lync 環境，且其混合式連線至 Microsoft 365 或 Office 365，您就無法在小組中為使用者駐留內部部署的使用者啟用語音功能。<br/><br/>若要檢查使用者的註冊機構，請使用下列商務用 Skype Online PowerShell Cmdlet：<br/><code>Get-CsOnlineUser -Identity \<user> \| fl HostingProvider</code> <br/><br/>Cmdlet 的輸出應該會顯示：<br/><code>HostingProvider : sipfed.online.lync.com</code>|
+|定義域|新增至您的 Microsoft 365 或 Office 365 組織的一個或多個網域。<br/><br/>請注意，您無法使用 \* 針對您的租使用者自動建立的預設網域 onmicrosoft.com。<br/><br/>若要查看網域，您可以使用下列商務用 Skype Online PowerShell Cmdlet：<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>如需網域與 Microsoft 365 或 Office 365 組織的詳細資訊，請參閱[網域常見問題](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a)。|
 |SBC 的公用 IP 位址|可用於連線至 SBC 的公用 IP 位址。 根據 SBC 的類型而定，SBC 可以使用 NAT。|
-|SBC 的完整功能變數名稱（FQDN）|SBC 的 FQDN，FQDN 的網域部分是您 Office 365 組織中已註冊的網域之一。 如需詳細資訊，請參閱[SBC 功能變數名稱](#sbc-domain-names)。|
+|SBC 的完整功能變數名稱（FQDN）|SBC 的 FQDN，其中 FQDN 的網域部分是您的 Microsoft 365 或 Office 365 組織中的註冊網域之一。 如需詳細資訊，請參閱[SBC 功能變數名稱](#sbc-domain-names)。|
 |SBC 的公用 DNS 專案 |將 SBC FQDN 對應至公用 IP 位址的公用 DNS 專案。 |
 |SBC 公開信任的憑證 |SBC 的憑證，用於與直接路由的所有通訊。 如需詳細資訊，請參閱[SBC 的公用信任憑證](#public-trusted-certificate-for-the-sbc)。|
 |直接路由的連接點 |直接路由的連接點是下列三個 Fqdn：<br/><br/>`sip.pstnhub.microsoft.com`–必須先嘗試使用全域 FQDN。<br/>`sip2.pstnhub.microsoft.com`–次要 FQDN，地理位置對應至第二個優先順序區域。<br/>`sip3.pstnhub.microsoft.com`–三元 FQDN，地理位置對應至第三個優先順序區域。<br/><br/>如需設定需求的相關資訊，請參閱[SIP 信號： fqdn](#sip-signaling-fqdns)。|
-|用於直接路由媒體的防火牆 IP 位址和埠 |SBC 會與雲端中的下列服務進行通訊：<br/><br/>負責處理信號的 SIP Proxy<br/>處理媒體的媒體處理器-除了媒體旁路<br/><br/>這兩個服務在 Microsoft 雲端中都有不同的 IP 位址，本文稍後會說明此檔。<br/><br/>如需詳細資訊，請參閱[Office 365 url 和 IP 位址範圍](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)中的[Microsoft 團隊區段](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)。 |
+|用於直接路由媒體的防火牆 IP 位址和埠 |SBC 會與雲端中的下列服務進行通訊：<br/><br/>負責處理信號的 SIP Proxy<br/>處理媒體的媒體處理器-除了媒體旁路<br/><br/>這兩個服務在 Microsoft 雲端中都有不同的 IP 位址，本文稍後會說明此檔。<br/><br/>如需詳細資訊，請參閱[url 和 IP 位址範圍](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)中的[Microsoft 團隊區段](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)。 |
 |媒體傳輸設定檔|TCP/RTP/SAVP <br/>UDP/RTP/SAVP|
-Microsoft 團隊媒體的防火牆 IP 位址和埠 |如需詳細資訊，請參閱[Office 365 url 與 IP 位址範圍](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)。 |
+Microsoft 團隊媒體的防火牆 IP 位址和埠 |如需詳細資訊，請參閱[url 與 IP 位址範圍](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)。 |
 |||
 
 ## <a name="licensing-and-other-requirements"></a>授權與其他需求 
 
-直接傳送的使用者必須具備下列 Office 365 中指派的授權： 
+直接傳送的使用者必須具有下列在 Microsoft 365 或 Office 365 中指派的授權： 
 
 - Microsoft Phone System。 
 - Microsoft 團隊 + 商務用 Skype 方案2（如果包含在授權中）。
@@ -117,7 +117,7 @@ Microsoft 團隊媒體的防火牆 IP 位址和埠 |如需詳細資訊，請參�
 
 針對相同的使用者混合通話方案和直接路由連線是選擇性的，但可能很有用（例如，當使用者指派 Microsoft 通話方案，但想要使用 SBC 路由進行一些呼叫）。 其中一個最常見的案例是呼叫協力廠商的 Pbx。  透過協力廠商 Pbx，所有通話（除了連接至該 Pbx 的電話除外）都是使用 Microsoft 通話方案進行路由，但連接至協力廠商 Pbx 的電話撥打電話給 SBC，因此，不會在商業網路中，也不是 PSTN。 
 
-如需有關手機系統授權的詳細資訊，請參閱[充分利用 office 365](https://products.office.com/compare-all-microsoft-office-products?tab=2)和[Office 365 方案選項](https://technet.microsoft.com/library/office-365-plan-options.aspx)。 
+如需手機系統授權的詳細資訊，請參閱[充分利用 Office](https://products.office.com/compare-all-microsoft-office-products?tab=2)和[方案選項](https://technet.microsoft.com/library/office-365-plan-options.aspx)。 
 
 如需手機系統授權的詳細資訊，請參閱[Microsoft 團隊附加元件授權](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。 
 
@@ -190,15 +190,15 @@ Microsoft 正在努力根據客戶要求新增其他認證機構。
 
 ## <a name="sip-signaling-fqdns"></a>SIP 信號： Fqdn 
 
-在下列 Office 365 環境中提供直接路由：
-- Office 365
+在下列環境中提供直接路由：
+- Microsoft 365 或 Office 365
 - Office 365 GCC
 - Office 365 GCC 高
 - Office 365 DoD
 
 深入瞭解[Office 365 和美國政府環境](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government)（例如 GCC、gcc 高和 DoD）。
 
-### <a name="office-365-and-office-365-gcc-environments"></a>Office 365 和 Office 365 GCC 環境
+### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Microsoft 365、Office 365 及 Office 365 GCC 環境
 
 直接路由的連接點是下列三個 Fqdn：
 
@@ -251,8 +251,8 @@ FQDN sip.pstnhub.gov.teams.microsoft.us 將解析成下列其中一個 IP 位址
 
 ## <a name="sip-signaling-ports"></a>SIP 信號：埠
 
-您必須在提供直接路由的 Office 365 環境中使用下列埠：
-- Office 365
+您必須在提供直接路由的 Microsoft 365 或 Office 365 環境中使用下列埠：
+- Microsoft 365 或 Office 365
 - Office 365 GCC
 - Office 365 GCC 高
 - Office 365 DoD
@@ -282,7 +282,7 @@ SBC 會進行 DNS 查詢來解析 sip.pstnhub.microsoft.com。 根據 SBC 位置
 
 媒體流量會流過 Microsoft 雲端中的個別服務。 媒體流量的 IP 位址範圍如下所示。
 
-### <a name="office-365-and-office-365-gcc-environments"></a>Office 365 和 Office 365 GCC 環境
+### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Microsoft 365、Office 365 及 Office 365 GCC 環境
 
 - 52.112.0.0/14 （從52.112.0.1 到52.115.255.254 的 IP 位址）。
 - 52.120.0.0/14 （從52.120.0.1 到52.123.255.254 的 IP 位址）。
@@ -320,7 +320,7 @@ SBC 會進行 DNS 查詢來解析 sip.pstnhub.microsoft.com。 根據 SBC 位置
 
 只部署媒體處理器的位置（由上述最接近資料中心的 SIP 流程）：
 - 日本（JP 東部和西部資料中心）
-- 澳大利亞（澳大利亞東部和西部資料中心）
+- 澳大利亞（AU 東和東南部資料中心）
 
 
 

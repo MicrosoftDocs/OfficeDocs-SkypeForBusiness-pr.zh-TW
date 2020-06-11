@@ -18,12 +18,12 @@ description: 如何使用 PowerShell 來設定小組中的原則，以控制哪�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4d5f1cceb42afd2be92aedcd0a40af4e23650512
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 1c1131790e36fe451444a8c8a3fb25259d5741da
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140644"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691569"
 ---
 # <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>使用 PowerShell 在 Microsoft 團隊中設定即時事件原則
 
@@ -36,7 +36,7 @@ ms.locfileid: "43140644"
 以下是一些範例。
 
 > [!NOTE]
-> 您必須先連線到商務用 Skype Online PowerShell，才能執行這些 Cmdlet。 如需詳細資訊，請參閱[使用 Office 365 PowerShell 管理商務用 Skype Online](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)。
+> 您必須先連線到商務用 Skype Online PowerShell，才能執行這些 Cmdlet。 如需詳細資訊，請參閱[使用 Microsoft 365 或 Office 365 PowerShell 管理商務用 Skype Online](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)。
 
 ## <a name="allow-users-to-schedule-live-events"></a>允許使用者排程即時事件 
 

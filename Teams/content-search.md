@@ -17,12 +17,12 @@ ms.custom: seo-marvel-mar2020
 description: 瞭解如何在 Microsoft 團隊中使用內容搜尋來查詢 Microsoft 團隊資訊，例如 Exchange、SharePoint Online、商務用 OneDrive 和 OneNote。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 93f566590baedc77a4d15eca96569cc85ce54f0b
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 45da4a0f4acf66cb8caafcd8d2bc2287c1176c94
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776448"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690439"
 ---
 <a name="use-content-search-in-microsoft-teams"></a>在 Microsoft 團隊中使用內容搜尋
 =====================================
@@ -32,7 +32,7 @@ ms.locfileid: "43776448"
 
 [內容搜尋] 提供一種方式，可查詢 Microsoft 團隊資訊跨越 Exchange、SharePoint Online 和商務用 OneDrive。
 
-若要深入瞭解，請參閱[Office 365 中的內容搜尋](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a)。
+若要深入瞭解，請參閱[Microsoft 365 或 Office 365 中的內容搜尋](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a)。
 
 例如，針對您的製造規格信箱和製造規格 SharePoint 網站使用**內容搜尋**，您可以從 Exchange、檔案上傳和 SharePoint Online 的修改，以及 OneNote 變更，在小組標準頻道交談中搜尋。
 

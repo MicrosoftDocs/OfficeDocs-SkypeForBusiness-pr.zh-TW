@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f4f536c6395e17e58f255ac3b88ccca0a092815c
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: cdcf054cfcf6b9d4f030ff1cf47bb9959a4cbcf8
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778559"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689819"
 ---
 # <a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>SharePoint Online 與商務用 OneDrive 與 Microsoft 團隊互動的方式
 
@@ -37,7 +37,7 @@ Microsoft 團隊中的每個團隊在 SharePoint Online 中都有小組網站，
 
 私人聊天檔案會儲存在寄件者的商務用 OneDrive 資料夾中，而許可權會自動授與所有參與者，做為檔案共用程式的一部分。
 
-如果使用者未使用 SharePoint Online 授權指派及啟用，他們在 Office 365 中就沒有商務用 OneDrive 儲存空間。 檔案共用功能會在標準頻道中繼續運作，但是使用者無法在 Office 365 中的商務用 OneDrive 儲存空間中共用檔案。
+如果使用者未使用 SharePoint Online 授權指派及啟用，他們在 Microsoft 365 或 Office 365 中不會有商務用 OneDrive 儲存空間。 檔案共用功能會在標準頻道中繼續運作，但在 Microsoft 365 或 Office 365 中，使用者將無法在不含商務用 OneDrive 儲存空間的情況下共用檔案。
 
 透過將檔案儲存在 SharePoint Online 文件庫和 OneDrive for Business，您將遵守所有在租用戶層級設定的合規性規則  
 

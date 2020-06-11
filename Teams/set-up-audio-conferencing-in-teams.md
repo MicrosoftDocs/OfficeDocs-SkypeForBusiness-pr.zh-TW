@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: '瞭解如何為企業中需要使用電話加入電話會議的人員設定撥入或音訊會議。 '
-ms.openlocfilehash: e14cf924d039b461df3fc84d7b600d96d515be58
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
-ms.translationtype: HT
+ms.openlocfilehash: 0ac5ac9cd3a722920a76d968848cd37388908121
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838063"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691089"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>設定 Microsoft Teams 的音訊會議
 
@@ -52,7 +52,7 @@ ms.locfileid: "41838063"
     >[!NOTE] 
     > 音訊會議包含在 Office 365 企業版 E5 授權中的附加元件。
         
-2. 購買音訊會議授權之後，您必須將授權指派給組織中要排程或主持會議的人員。 請參閱[將授權指派給商務用 Office 365 的使用者](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)，將授權指派給組織中要排程或主持會議的人員。
+2. 購買音訊會議授權之後，您必須將授權指派給組織中要排程或主持會議的人員。 請參閱[在 Microsoft 365 或 Office 365 for business 中指派授權](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)給您購買給組織中打算排程或領導會議的人員。
     
 3. 我們也建議您將通訊點數授權 (不需付費) 指派給您在在上一個步驟中指派授權的人員。 若要了解如何設定通訊點數，請參閱[設定貴組織的通訊點數](set-up-communications-credits-for-your-organization.md)。
     
@@ -66,7 +66,7 @@ ms.locfileid: "41838063"
   
 - **使用 Microsoft Teams 系統管理中心**。 針對某些國家/地區，您可以使用 Microsoft Teams 系統管理中心為您的會議橋接器取得服務號碼。 請參閱[取得服務電話號碼](/microsoftteams/getting-service-phone-numbers)。
     
-- **轉移現有的服務號碼**。 將目前服務提供者或電信業者的現有號碼轉移至 Office 365。 如需詳細資訊，請參閱[將電話號碼轉移至 Teams ](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)或[管理貴組織的電話號碼](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)，協助您完成此作業。  
+- **轉移現有的服務號碼**。 將目前服務提供者或電話聽筒中的現有號碼移植或轉接至 Microsoft 365 或 Office 365。 如需詳細資訊，請參閱[將電話號碼轉移至 Teams ](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)或[管理貴組織的電話號碼](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)，協助您完成此作業。  
   
 - **使用表單要求新號碼**。 有時候 (視您的國家/地區而定) 您無法使用 Microsoft Teams 系統管理中心取得新的服務號碼，或者您將需要特定的電話號碼或區碼。 若是如此，您將需要下載表單並將它傳送給我們。 如需詳細資訊，請參閱[管理貴組織的電話號碼](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。 
     

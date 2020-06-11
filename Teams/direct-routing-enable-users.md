@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 瞭解如何啟用使用者 Microsoft Phone 系統 Direct 路由。
-ms.openlocfilehash: 10c62d14f283d565765a47e4c07504bc9bffa720
-ms.sourcegitcommit: 0fdc60840f45ff5b0a39a8ec4a21138f6cab49c9
+ms.openlocfilehash: 2ae485398cef1cef2444de07dcabc4bf3f949ad5
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43160057"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691369"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>允許使用者使用直接路由、語音及語音信箱
 
@@ -37,17 +37,17 @@ ms.locfileid: "43160057"
 
 當您準備好要讓使用者能夠直接傳送時，請遵循下列步驟： 
 
-1. 在 Office 365 中建立使用者並指派電話系統授權。 
+1. 在 Microsoft 365 或 Office 365 中建立使用者，並指派電話系統授權。 
 2. 確定使用者是駐留在商務用 Skype Online 中。 
 3. 設定電話號碼，並啟用企業語音及語音信箱。 
 4. 將 [團隊專用] 模式指派給使用者。
 
-## <a name="create-a-user-in-office-365-and-assign-the-license"></a>在 Office 365 中建立使用者並指派授權 
+## <a name="create-a-user-and-assign-the-license"></a>建立使用者並指派授權 
 
-在 Office 365 中建立新使用者有兩個選項。 不過，Microsoft 建議您的組織選擇一個選項來避免路由問題： 
+在 Microsoft 365 或 Office 365 中建立新使用者有兩個選項。 不過，Microsoft 建議您的組織選擇一個選項來避免路由問題： 
 
 - 在內部部署的 Active Directory 中建立使用者，並將使用者同步處理到雲端。 請參閱[將您的內部部署目錄與 Azure Active Directory 整合](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect)。
-- 直接在 Office 365 管理員入口網站中建立使用者。 請參閱[個別或大量將使用者新增至 Office 365-系統管理協助](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec)。 
+- 直接在 Microsoft 365 系統管理中心建立使用者。 請參閱[個別或大量將使用者新增至 Microsoft 365 或 Office 365-系統管理協助](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec)。 
 
 如果您的商務用 skype Online 部署 coexists 使用商務用 Skype 2015 或 Lync 2010 或2013內部部署，則唯一支援的選項是在內部部署 Active Directory 中建立使用者，並將使用者同步處理到雲端（選項1）。 
 

@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: 會議召集人可以瞭解如何使用 [團隊] 應用程式撥出，讓其他人使用自己的手機加入相同的會議。
-ms.openlocfilehash: fc670995dcf5a16c79c857c217711490be82a664
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 7d15cbbc1b81d54f6a217713cea3927dcff31e56
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43901958"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691289"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>從 Microsoft 團隊會議撥出，讓其他人可以加入
 
@@ -45,7 +45,7 @@ ms.locfileid: "43901958"
 
 以下說明如何開始撥出作業：
 
- **步驟1：** 在會議中，使用 [新增人員] 按鈕](media/add-people-button.png)選項的 [**新增人員** ![] 螢幕擷取畫面撥出電話號碼。
+ **步驟1：** 在會議中，使用 [新增人員] 按鈕選項的 [**新增人員**] ![ 螢幕擷取畫面 ](media/add-people-button.png) 撥出電話號碼。
  **步驟2：** 輸入完整的電話號碼，包括 [**邀請某人或撥打電話號碼**] 方塊中的國家/地區碼。
   
 ![[邀請某人或撥打電話號碼] 方塊的螢幕擷取畫面](media/invite-someone-box.png)
@@ -60,6 +60,6 @@ ms.locfileid: "43901958"
 
 ## <a name="want-to-know-more-about-audio-conferencing"></a>想要深入瞭解音訊會議嗎？
 
-[試用或購買 Office 365 的音訊會議](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
+[試用或購買音訊會議](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
     
 [Microsoft Teams 附加元件授權](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)

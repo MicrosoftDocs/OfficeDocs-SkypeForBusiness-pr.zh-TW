@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5846d3912f9acea3a21174b7468e8376e9779b55
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: a99ec5fdea273c5d9e265e22a77c86ee628da3ab
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637502"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690009"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams 中的團隊和頻道概覽
 
@@ -75,7 +75,7 @@ Microsoft Teams 中的主要角色如下：
 
    > [!VIDEO https://www.youtube.com/embed/kalV4dG-oFo]
 
-如果您是 Office 365 中的 Microsoft Teams 系統管理員，您可以在 Microsoft Teams 系統管理中心中存取全系統的設定。 這些設定可以影響團隊擁有者可在其團隊設定底下看到的選項和預設值。 例如，您可以啟用預設的「一般」頻道，在整個團隊中發佈公告、進行討論和提供資源，這些都會顯示在所有團隊中。
+如果您是 Microsoft 365 或 Office 365 中的 Microsoft 團隊管理員，您可以在 Microsoft 團隊系統管理中心中存取全系統的設定。 這些設定可以影響團隊擁有者可在其團隊設定底下看到的選項和預設值。 例如，您可以啟用預設的「一般」頻道，在整個團隊中發佈公告、進行討論和提供資源，這些都會顯示在所有團隊中。
 
 根據預設，所有使用者都有權在 Microsoft Teams 內建立團隊 (若要修改此設定，請參閱[在 Teams 中指派角色和權限](assign-roles-permissions.md))。 現有 Microsoft 365 群組的使用者也可以利用團隊功能加強其許可權。
 

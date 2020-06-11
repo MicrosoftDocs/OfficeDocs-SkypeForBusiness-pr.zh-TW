@@ -22,18 +22,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 882bb40d1d7f300f51fded6321f29bafd7f8ba92
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 18f880e9b6762371f2a936ff0901db542d541748
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44522496"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690919"
 ---
 # <a name="teams-only-mode-considerations"></a>僅限團隊的模式考慮
 
-如果您是 Office 365 組織的系統管理員，您現在會在 Microsoft 團隊系統管理中心中看到 [升級為團隊專用模式] 的選項。 使用此功能，您可以升級個別使用者或整個租使用者。  
+如果您是 Microsoft 365 或 Office 365 組織中的系統管理員，您現在會在 Microsoft 團隊系統管理中心中看到 [升級為團隊專用模式] 的選項。 使用此功能，您可以升級個別使用者或整個租使用者。  
 
-升級至 [僅限團隊] 模式可透過單一用戶端體驗，為使用者提供 Microsoft 團隊的全部好處，即在 Office 365 中進行團隊合作的中心。 此外，[團隊專用] 模式中的使用者會在團隊中收到所有通話和聊天，不論寄件者是使用商務用 Skype 還是小組，以及互通性與同盟支援的好處。
+升級至 [僅限團隊] 模式可透過單一用戶端體驗，為使用者提供 Microsoft 團隊的全部好處，即在 Microsoft 365 或 Office 365 中進行團隊合作的中心。 此外，[團隊專用] 模式中的使用者會在團隊中收到所有通話和聊天，不論寄件者是使用商務用 Skype 還是小組，以及互通性與同盟支援的好處。
 
 雖然成千上萬的客戶已成功升級至 Microsoft 團隊，但在這種情況下，可能也會影響貴組織的升級時程表和使用者體驗。 特別是，升級選項並不一定表示貴組織已準備好進行這項變更。 為了獲得最佳使用者體驗，請確認 Teams 符合您的共同作業與通訊需求，並確認您的網路已準備好可支援 Teams，並在將使用者升級至 Teams 之前，先進行您的使用者整備計劃。 
 
@@ -54,7 +54,7 @@ ms.locfileid: "44522496"
  - Office 365 德國
  - 商務用 Skype 租使用者託管于韓國 **，** 組織需要將團隊資料儲存在韓國中。 目前，以韓國所儲存的商務用 Skype 資料升級至團隊的組織，會將其小組資料儲存在亞太地區，而不是在韓國資料中心區域中。
 
-**使用者專用的考慮**：有些使用者案例仍在演變，管理員可能會決定在升級組織中的其他使用者時，暫時推遲特定使用者的升級。 特別是，我們仍在針對主要裝置是使用 VDI 的使用者解決案例。 請監控[Office 365 藍圖](https://www.microsoft.com/microsoft-365/roadmap)網站以取得通知。
+**使用者專用的考慮**：有些使用者案例仍在演變，管理員可能會決定在升級組織中的其他使用者時，暫時推遲特定使用者的升級。 特別是，我們仍在針對主要裝置是使用 VDI 的使用者解決案例。 請監控[Microsoft 365 藍圖](https://www.microsoft.com/microsoft-365/roadmap)網站以取得通知。
 
 > [!NOTE]
 > 在您移至 [僅限團隊] 模式前，您需要更換或更新不支援小組的裝置。 

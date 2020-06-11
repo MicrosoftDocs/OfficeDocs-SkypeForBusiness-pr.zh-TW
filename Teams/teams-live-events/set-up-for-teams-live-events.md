@@ -18,12 +18,12 @@ description: 在 Teams 中設定即時活動，包括設定您的網路、指派
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: df54e90f2c895ebf7090fbec2487aae52bd53d66
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 2e865fe2285abb9cd515d1efe769f18cb5735ff2
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779952"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689669"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中設定即時活動
 
@@ -99,7 +99,7 @@ ms.locfileid: "43779952"
 
 1. 為組織中的使用者啟用 Microsoft Stream。 資料流程是以合格的 Microsoft 365 或 Office 365 訂閱或獨立服務的形式提供。 Stream 未包含在商務基本版或商務進階版方案中。 如需詳細資訊，請參閱 [Stream 授權概觀](https://docs.microsoft.com/stream/license-overview)。
 
-      深入了解如何[在 Office 365 中指派授權給使用者](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC)，以便讓使用者能夠存取 Stream。 確保未針對使用者封鎖 Stream，如[本文章](https://docs.microsoft.com/stream/disable-user-organization)所定義。
+      進一步瞭解您可以如何[指派授權給使用者](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC)，讓使用者可以存取資料流程。 確保未針對使用者封鎖 Stream，如[本文章](https://docs.microsoft.com/stream/disable-user-organization)所定義。
 
 2. 確保使用者擁有在 Stream 中建立即時活動的權限。 根據預設，系統管理員可以使用外部應用程式或裝置來建立活動。 Stream 系統管理員可以在 Stream 中[為額外的使用者啟用即時活動建立](https://docs.microsoft.com/stream/live-event-administration#enabling-and-restricting-users-to-creating)。  
 

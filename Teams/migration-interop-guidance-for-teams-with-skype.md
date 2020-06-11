@@ -20,19 +20,22 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 56029dc8f1cb5a9cb99096107d85a6414dc4ed25
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 77cee207d885299e6f8a1a90f889c9f661c7383e
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638622"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691439"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>與商務用 Skype 搭配使用團隊之組織的遷移和互通性指南
 
 > [!Tip] 
-> 觀看下列會話以瞭解[共存與互通性](https://aka.ms/teams-upgrade-coexistence-interop)
+> 請觀看下列會話，瞭解[共存與互通性](https://aka.ms/teams-upgrade-coexistence-interop)。
 
 隨著擁有商務用 Skype 的組織開始採用團隊，管理員可以使用共存 "mode" 的概念來管理組織中的使用者體驗，這是 TeamsUpgradePolicy 的屬性。 使用模式時，系統管理員會管理互通性與遷移，因為它們會管理從商務用 Skype 轉為團隊的轉場。  使用者的模式會判斷用戶端傳入聊天的方式，以及呼叫土地，以及在哪個服務（團隊或商務用 Skype）中排程新會議。 它也會控制團隊用戶端提供的功能。 
+
+> [!IMPORTANT]
+> 最多可能需要24小時才能讓 TeamsUpgradePolicy 變更生效。 在此之前，使用者的狀態可能不正確（可能會顯示為 [**未知**]）。
 
 
 ## <a name="fundamental-concepts"></a>基本概念
@@ -50,7 +53,7 @@ ms.locfileid: "44638622"
 
 5.  團隊與商務用 Skype 使用者之間的互通性，只有*在團隊使用者是在商務用 skype 中託管線上*時才能進行。 [收件者商務用 Skype] 使用者可以駐留于內部部署（且需要設定商務用 Skype 混合式）或線上。 在商務用 Skype 內部部署中託管的使用者可以使用孤島模式（在此檔稍後定義）中的團隊，但不能使用團隊來交互操作或與其他使用商務用 Skype 的使用者聯盟。  
 
-6.    升級和交互操作行為是根據使用者的共存模式決定，下文所述。 Mode 是由 TeamsUpgradePolicy 管理。 
+6.    升級和交互操作行為是根據使用者的共存模式決定，如下所述。 Mode 是由 TeamsUpgradePolicy 管理。 
 
 7.  將使用者升級到 TeamsOnly 模式，可確保所有傳入聊天和呼叫永遠都在使用者的團隊用戶端中，不論它產生的用戶端為何。 這些使用者也會排程團隊中的所有新會議。 若要在 TeamsOnly 模式中，使用者在商務用 Skype 中必須是線上的。 這是確保團隊使用者的互通性、同盟及完整管理的必要條件。 若要將使用者升級至 TeamsOnly：
     - 如果使用者是駐留在商務用 Skype online （或永不擁有任何 Skype 帳戶），請使用 TeamsUpgradePolicy 搭配 Mode = TeamsOnly，或使用 [團隊系統管理中心] 來選取 [TeamsOnly] 模式。
@@ -108,11 +111,14 @@ ms.locfileid: "44638622"
 
 ## <a name="teamsupgradepolicy-managing-migration-and-co-existence"></a>TeamsUpgradePolicy：管理遷移和共存
 
+> [!IMPORTANT]
+> 最多可能需要24小時才能讓 TeamsUpgradePolicy 變更生效。 在此之前，使用者的狀態可能不正確（可能會顯示為 [**未知**]）。
+
 TeamsUpgradePolicy 會公開兩個主要屬性： Mode 和 NotifySfbUsers。 
 </br>
 </br>
 
-|參數|類型|允許值</br>（預設為斜體）|描述|
+|參數|類型|允許值</br>（預設為斜體）|說明|
 |---|---|---|---|
 |下|列舉|*離島*</br>TeamsOnly</br>SfBOnly</br>SfBWithTeamsCollab</br>SfBWithTeamsCollabAndMeetings|指示用戶端應該在其中執行的模式。|
 |NotifySfbUsers|Bool|*False*或 true|指出是否要在商務用 Skype 用戶端中顯示橫幅，以通知使用者小組將會很快取代商務用 Skype。 如果 Mode = TeamsOnly，則此值不能為 true。|

@@ -21,12 +21,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: 瞭解如何使用 Microsoft 團隊系統管理中心或 Windows PowerShell 來建立及管理撥號方案（PSTN 呼叫撥號方案）。
-ms.openlocfilehash: 50cdbaf9fd1e5ae10eca20c0f547dce29d606983
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 966ac2e21d3bc57dd32a0b2732e0be285b9fdf0d
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902018"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691339"
 ---
 # <a name="create-and-manage-dial-plans"></a>建立和管理撥號對應表
 
@@ -36,7 +36,7 @@ ms.locfileid: "43902018"
 
 ### <a name="create-a-dial-plan"></a>建立撥號方案
 
-1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**語音** > **撥號方案**]。
+1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**語音**  >  **撥號方案**]。
 2. 按一下 [**新增**]，然後輸入撥號方案的名稱和描述。
     ![顯示建立撥號方案之 [新增] 頁面的螢幕擷取畫面](media/create-dial-plan.png)
 3. 在 [**撥號方案詳細資料**] 底下，如果使用者需要撥一或多個額外的前導數位（例如9）來取得外部線路，請指定外部撥號首碼。 若要執行此動作：
@@ -56,7 +56,7 @@ ms.locfileid: "43902018"
 
 ### <a name="edit-a-dial-plan"></a>編輯撥號方案
 
-1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**語音** > **撥號方案**]。
+1. 在 Microsoft 團隊系統管理中心的左導覽中，移至 [**語音**  >  **撥號方案**]。
 2. 按一下撥號方案名稱左邊的，然後按一下 [**編輯**]，選取撥號方案。
 3. 進行您想要的變更，然後按一下 [**儲存**]。
 
@@ -74,7 +74,7 @@ ms.locfileid: "43902018"
 
  **檢查您執行的是 Windows PowerShell 版本3.0 或更新版本**
   
-1. 若要確認您執行的是版本3.0 或更高版本： [**開始] 功能表** > **Windows PowerShell**。
+1. 若要確認您執行的是版本3.0 或更高版本： [**開始] 功能表**  >  **Windows PowerShell**。
     
 2. 在**Windows PowerShell**視窗中輸入 [_取得主機_]，以檢查版本。
     
@@ -82,13 +82,13 @@ ms.locfileid: "43902018"
     
 4. 您也需要安裝適用于商務用 Skype Online 的 Windows PowerShell 模組，這可讓您建立連線到商務用 Skype Online 的遠端 Windows PowerShell 會話。 您可以在[商務用 Skype Online 的 Windows PowerShell 模組](https://go.microsoft.com/fwlink/?LinkId=294688)上，下載此模組（只有64位電腦支援）。 如果出現提示，請重新開機電腦。
     
-若要深入瞭解，請參閱[在單一 Windows PowerShell 視窗中連接至所有 Office 365 服務](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)。
+若要深入瞭解，請參閱[在單一 Windows PowerShell 視窗中連接至所有 Microsoft 365 或 Office 365 服務](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)。
   
  **啟動 Windows PowerShell 會話**
   
-1. 按一下 [**啟動** > **Windows PowerShell**]。
+1. 按一下 [**啟動**  >  **Windows PowerShell**]。
     
-2. 在**Windows PowerShell**視窗中，執行下列動作以連線至您的 Microsoft 365 或 Office 365：
+2. 在**Windows PowerShell**視窗中，執行下列動作以連線至 Microsoft 365 或 Office 365：
     
     > [!NOTE]
     > 您在第一次使用商務用 Skype Online Windows PowerShell 模組時，您只需執行匯**入模組**命令。

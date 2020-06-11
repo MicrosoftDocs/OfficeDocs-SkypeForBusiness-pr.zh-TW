@@ -24,16 +24,16 @@ ms.custom:
 - ms.teamsadmincenter.audioconferencing.bridgesettings
 - seo-marvel-mar2020
 description: 變更音訊會議橋設定，包括進入與結束通知、播放姓名或電話號碼、鈴聲，以及提示來電者記下其名稱。
-ms.openlocfilehash: 48028ccb3f2a0664f9fa724ec91e1dfc0177326f
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: acebe42e8dbc5707238975c34ce97961c1493d91
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780342"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690909"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>變更音訊會議橋接器的設定
 
-當您在 Office 365 中設定音訊會議時，您將會收到「音訊會議橋」的電話號碼供使用者使用。 一個會議橋接器可以包含一或多個電話號碼。 當來電者撥入會議時，會用到這些電話號碼。 電話號碼包含在商務用 Skype 或 Microsoft 團隊會議邀請的底部。
+當您在 Microsoft 365 或 Office 365 中設定音訊會議時，您將會收到電話號碼供使用者使用，就是「音訊會議橋」。 一個會議橋接器可以包含一或多個電話號碼。 當來電者撥入會議時，會用到這些電話號碼。 電話號碼包含在商務用 Skype 或 Microsoft 團隊會議邀請的底部。
   
 [會議橋接] 會使用會議自動語音應答接聽來電，並使用語音提示提示來電者，然後根據您的設定，您可以播放通知、要求呼叫者記錄其名稱，以及控制 PIN 設定。 當使用者不是使用商務用 Skype 或 Microsoft 團隊 app 時，會為會議召集人提供 Pin，讓他們可以開始會議。
 
@@ -45,7 +45,7 @@ ms.locfileid: "43780342"
 
 ## <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![顯示 Microsoft Teams 標誌的圖示](media/teams-logo-30x30.png) 使用 Microsoft Teams 系統管理中心
 
-1. 在左側導覽中，前往 [**會議** > **會議橋**]。 
+1. 在左側導覽中，前往 [**會議**  >  **會議橋**]。 
 
 2. 在 [**會議橋接**] 頁面頂端，按一下 [**橋設定**]。 
 
@@ -72,7 +72,7 @@ ms.locfileid: "43780342"
 
  **設定呼叫者加入會議時的會議體驗**
     
-1. 在**商務用 Skype 系統管理中心**的左導覽中，前往 [**音訊會議** > **Microsoft 橋接器設定**]。
+1. 在**商務用 Skype 系統管理中心**的左導覽中，前往 [**音訊會議**  >  **Microsoft 橋接器設定**]。
     
 2. 在 [ **Microsoft 橋接器設定**] 頁面的 [**會議加入體驗**] 底下，選取：
     
@@ -92,9 +92,9 @@ ms.locfileid: "43780342"
   
 1. 使用您的公司或學校帳戶登入。
     
-2. 移至**Microsoft 365 管理中心** > **商務用 Skype**。
+2. 移至**Microsoft 365 管理中心**  >  **商務用 Skype**。
     
-3. 在**商務用 Skype 系統管理中心**的左導覽中，移至 [**音訊會議** > **Microsoft 橋接器設定**]。
+3. 在**商務用 Skype 系統管理中心**的左導覽中，移至 [**音訊會議**  >  **Microsoft 橋接器設定**]。
     
 4. 在 [ **Microsoft 橋接器設定**] 頁面的 [**安全性**] 底下，于 [ **pin 長度**] 清單中輸入您想要的 pin 數位位數，然後按一下 [**儲存**]。
     
@@ -105,9 +105,9 @@ ms.locfileid: "43780342"
   
 1. 使用您的公司或學校帳戶登入。
     
-2. 移至**Microsoft 365 管理中心** > **商務用 Skype**。
+2. 移至**Microsoft 365 管理中心**  >  **商務用 Skype**。
     
-3. 在**商務用 Skype 系統管理中心**的左導覽中，移至 [**音訊會議** > **Microsoft 橋接器設定**]。
+3. 在**商務用 Skype 系統管理中心**的左導覽中，移至 [**音訊會議**  >  **Microsoft 橋接器設定**]。
     
 4. 在 [ **Microsoft 橋接器設定**] 頁面上，選取或清除 [**如果使用者的撥入資訊變更，則自動傳送電子郵件給使用者**]，然後按一下 [**儲存**]。
     
@@ -117,11 +117,11 @@ ms.locfileid: "43780342"
 
 - 若要節省時間或自動執行此程式，您可以使用[CsDialinConferencingBridge](https://go.microsoft.com/fwlink/?LinkId=617686) Cmdlet。
     
-- Windows PowerShell 全部說明如何管理使用者，以及允許或不允許的使用者執行。 在 Windows PowerShell 中，您可以使用單一管理點來管理 Office 365，以便在有多項工作需要執行時簡化日常作業。 若要開始使用 Windows PowerShell，請參閱以下主題：
+- Windows PowerShell 全部說明如何管理使用者，以及允許或不允許的使用者執行。 在 Windows PowerShell 中，您可以使用單一管理點來管理 Microsoft 365 或 Office 365，以便在您有多個工作執行時，簡化日常作業。 若要開始使用 Windows PowerShell，請參閱以下主題：
     
   - [為什麼需要使用 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [使用 Windows PowerShell 管理 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [使用 Windows PowerShell 管理 Microsoft 365 或 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
     
 - Windows PowerShell 的速度、簡潔性和生產率都有許多優點，只是使用 Microsoft 365 系統管理中心，例如當您在一次為多位使用者進行設定變更時。 請參閱下列主題，瞭解這些優點： 
     

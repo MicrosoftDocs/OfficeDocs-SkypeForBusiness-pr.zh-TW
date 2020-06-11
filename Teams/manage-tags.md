@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何在 Microsoft 團隊中管理組織中使用標記的方式。
-ms.openlocfilehash: 6b95dc07954803ea6d15a1ca5bdf6c705ca3e252
-ms.sourcegitcommit: 1d24b62f41bce4f8d86d6060291af1267f75a2a2
+ms.openlocfilehash: 9c17045a167c46cabc2c7bd0c89b7488996975ad
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43209485"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690851"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>管理 Microsoft 團隊中的標記
 
@@ -53,7 +53,7 @@ Microsoft 團隊中的標記可讓使用者與團隊中的人員子集進行通�
 
 根據預設，小組擁有者可以新增標記。 您可以變更此設定，以允許小組擁有者和小組成員新增標籤，或者您可以關閉組織的標記。
 
-1. 在 Microsoft [團隊管理中心] 的左導覽中，按一下 [**全組織性設定** > **團隊設定**]。
+1. 在 Microsoft [團隊管理中心] 的左導覽中，按一下 [**全組織性設定**  >  **團隊設定**]。
 2. 在 [**標記**] 底下的 [**標記已啟用**] 旁，選取下列其中一個選項：
 
     - **小組擁有者和成員**：允許小組擁有者和成員新增標記。
@@ -64,7 +64,7 @@ Microsoft 團隊中的標記可讓使用者與團隊中的人員子集進行通�
 
 您可以設定下列標記設定，以控制如何在整個組織中使用標記。
 
-1. 在 Microsoft [團隊管理中心] 的左導覽中，按一下 [**全組織性設定** > **團隊設定**]。
+1. 在 Microsoft [團隊管理中心] 的左導覽中，按一下 [**全組織性設定**  >  **團隊設定**]。
 2. 根據貴組織的需求，在 [**標記**] 底下設定下列各項。
 
     - **小組擁有者可以覆寫可以**套用標籤的人員：開啟此選項時，小組擁有者可以允許或不允許成員在團隊設定中新增標記。
@@ -79,6 +79,8 @@ Microsoft 團隊中的標記可讓使用者與團隊中的人員子集進行通�
 
 ## <a name="add-tags-in-teams"></a>在團隊中新增標記
 
-在團隊中，小組的 [管理團隊] 頁面上的 [**成員**] 索引標籤包含 [**標記**] 欄。 小組擁有者和成員（如果已為他們啟用功能）可以按一下成員旁的 [**管理標記**]，即可查看該成員的建議標記清單，並將標記新增到清單中。
+若要管理標記，請選取應用程式左側的 [**管理團隊**]，然後在清單中尋找您的小組。 選取 [**更多選項**]，然後選擇 [**管理**標籤]。
 
-![如何在團隊用戶端套用標記的螢幕擷取畫面 ](media/manage-tags-teams.png) 
+您可以在這裡建立標籤，並將其指派給小組中的人員。
+
+![如何在團隊用戶端套用標記的螢幕擷取畫面 ](media/manage-tags-teams.png)

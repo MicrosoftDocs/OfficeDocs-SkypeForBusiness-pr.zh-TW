@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 瞭解如何在 Microsoft 團隊中針對音訊會議號碼選取音訊會議自動語音應答語言。
-ms.openlocfilehash: 37d430ba641277c7b72f921b06599f58cff4e4a0
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: d7f6893bfc9c58131fe596597afc1ac90389d908
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140916"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691129"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>在 Microsoft 團隊中設定音訊會議的自動助理語言
 
@@ -45,7 +45,7 @@ Microsoft 團隊的音訊會議自動語音應答可以在加入會議時，以�
 
 ![Microsoft Teams 標誌圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
 
-1. 在左側導覽中，前往 [**會議** > **會議橋**]。
+1. 在左側導覽中，前往 [**會議**  >  **會議橋**]。
 
 2. 從清單中選取**專用**的音訊會議電話號碼，然後按一下頁面頂端的 [**編輯**]。 只可以變更專用音訊會議號碼的語言。 [**編輯**] 選項只有在選取了專用的音訊會議號碼時才會顯示。
 
@@ -63,7 +63,7 @@ Microsoft 團隊的音訊會議自動語音應答可以在加入會議時，以�
     
 - 您可以將 [語言] 設定為 [專用]，而不是用於共用的電話號碼。
     
-- 若要查看 Office 365 中可使用 Microsoft 作為提供者的音訊會議的國家/地區清單，請參閱[音訊會議的電話號碼](phone-numbers-for-audio-conferencing-in-teams.md)。
+- 若要查看在 Microsoft 365 或 Office 365 中使用 Microsoft 作為提供者的音訊會議的國家/地區清單，請參閱[音訊會議的電話號碼](phone-numbers-for-audio-conferencing-in-teams.md)。
     
 ## <a name="want-to-use-windows-powershell"></a>想要使用 Windows PowerShell 嗎？
 
@@ -71,5 +71,5 @@ Microsoft 團隊的音訊會議自動語音應答可以在加入會議時，以�
   
 ## <a name="related-topics"></a>相關主題
 
-[試用或購買 Office 365 的音訊會議](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[在 Microsoft 365 或 Office 365 中試用或購買音訊會議](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
 

@@ -22,13 +22,13 @@ ms.custom:
 - Audio Conferencing
 - ms.lync.lac.CpcGettingStarted
 - seo-marvel-mar2020
-description: '瞭解如何試用或購買 Office 365 的音訊會議（PSTN 會議）授權，以設定人員可以撥入的電話會議。 '
-ms.openlocfilehash: 26b7074407759533d2ac272371e34c9022dd6ce5
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+description: '瞭解如何試用或購買 Microsoft 365 或 Office 365 的音訊會議（PSTN 會議）授權，以設定人員可以撥入的電話會議。 '
+ms.openlocfilehash: db49a690ef0936dc22a618756d15064543074137
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44041770"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691539"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>在 microsoft 365 for Microsoft 團隊中試用或購買音訊會議
 
@@ -52,7 +52,7 @@ ms.locfileid: "44041770"
 
    - **購買**：請參閱[Microsoft 團隊附加元件授權](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
 
-3. [指派或移除商務用 Office 365 的授權](https://support.office.com/article//997596b5-4173-4627-b915-36abac6786dc)，您已購買給組織中打算排程或領導會議的人員。
+3. 您可以[個別或大量將使用者新增](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users)至組織中要排程或領導會議的人員。
 
 4. 如果您購買的是 [音訊會議附加元件授權] 和 [通訊點數] 授權，也請指派它們。 如需相關指示，請參閱[指派 Microsoft 團隊附加元件授權](teams-add-on-licensing/assign-teams-add-on-licenses.md)。
 
@@ -69,7 +69,7 @@ ms.locfileid: "44041770"
     > [!IMPORTANT]
     > 如果通訊點數尚未設定，音訊會議將無法針對每分鐘付費授權的使用者使用。
 
-4. [指派或移除商務用 Office 365 的授權](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)，您已購買給組織中打算排程或領導會議的人員。
+4. 您可以[個別或大量將使用者新增](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users)至組織中要排程或領導會議的人員。
 
     > [!NOTE]
     > 如果您有音訊會議每分鐘付費的授權，您就不需要為每位使用者分別指派通訊信用額度授權，以供語音會議使用（您可能仍需要為其他服務指派）。

@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 瞭解如何在 Microsoft 團隊設定電話系統，以提供問候訊息、等候音樂、呼叫重新導向及其他功能。
-ms.openlocfilehash: 6bf3353a86cc096d5d9f9891315d9b47de40e9f4
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: ac0fb41ebb85a6e7e80d3d221da4dabf456d20aa
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44669419"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44697421"
 ---
 # <a name="create-a-cloud-call-queue"></a>建立雲端通話佇列
 
@@ -68,10 +68,10 @@ ms.locfileid: "44669419"
   > [!NOTE]
   > 僅限 Microsoft 團隊使用者和代理程式支援電話佇列的直接路由服務號碼。
 
-  > [!NOTE]
-  > 若要將來電重新導向至貴組織中的線上人員，他們必須具備**電話系統**授權，且可供企業語音使用或擁有 Office 365 通話方案。 請參閱[指派 Microsoft 團隊附加元件授權](teams-add-on-licensing/assign-teams-add-on-licenses.md)。 若要啟用企業語音，您可以使用 Windows PowerShell。 例如，執行：`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+> [!NOTE]
+> 若要將來電重新導向至貴組織中的線上人員，他們必須具備**電話系統**授權，且可供企業語音使用，或是有 Microsoft 365 或 Office 365 通話方案。 請參閱[指派 Microsoft 團隊附加元件授權](teams-add-on-licensing/assign-teams-add-on-licenses.md)。 若要啟用企業語音，您可以使用 Windows PowerShell。 例如，執行：`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
-- 若要深入瞭解 Office 365 通話方案，請參閱[手機系統和通話方案](calling-plan-landing-page.md)與[Office 365 的通話方案](calling-plans-for-office-365.md)。
+- 若要深入瞭解通話方案，請參閱[手機系統和通話方案](calling-plan-landing-page.md)，以及[Microsoft 365 或 Office 365 的通話方案](calling-plans-for-office-365.md)。
 
 - 您只能將雲端電話列隊指派給您在**Microsoft 團隊系統管理中心**取得或從其他服務提供者轉接的免付費服務電話號碼。 免付費服務號碼需要通訊點數。
 
@@ -97,7 +97,7 @@ ms.locfileid: "44669419"
 
 ## <a name="step-2--get-or-transfer-toll-or-toll-free-service-phone-numbers"></a>步驟2：取得或轉移付費或免付費服務電話號碼
 
-您必須先取得或轉讓現有的付費或免付費服務號碼，才能建立及設定通話佇列。 若要取得您的服務號碼，請參閱[取得服務電話號碼](getting-service-phone-numbers.md)，或者如果您想要轉移現有的服務號碼，請參閱[將電話號碼轉移至 Office 365](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)。 在您取得付費或免付費服務電話號碼之後，就會顯示在**Microsoft 團隊系統管理中心**的  >  **語音**  >  **電話號碼**中。 [免付費電話號碼] 會以**數位類型**的**服務列出（免付費電話）**。
+您必須先取得或轉讓現有的付費或免付費服務號碼，才能建立及設定通話佇列。 若要取得您的服務號碼，請參閱[取得服務電話號碼](getting-service-phone-numbers.md)，或者如果您想要轉移現有的服務號碼，請參閱[將電話號碼轉移至團隊](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)。 在您取得付費或免付費服務電話號碼之後，就會顯示在**Microsoft 團隊系統管理中心**的  >  **語音**  >  **電話號碼**中。 [免付費電話號碼] 會以**數位類型**的**服務列出（免付費電話）**。
 
 > [!NOTE]
 > 如果您在美國以外，您就無法使用 Microsoft 團隊系統管理中心來取得服務號碼。 移至 [[管理貴組織的電話號碼](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)]，瞭解如何從美國以外的地區進行。
@@ -163,7 +163,7 @@ ms.locfileid: "44669419"
 
 您最多可以選取200呼叫代理程式，其屬於下列任何一種郵寄清單或群組：
 
-- Office 365 群組
+- Microsoft 365 群組
 - 安全性群組
 - 通訊群組清單
 
@@ -178,7 +178,7 @@ ms.locfileid: "44669419"
 
    若要啟用企業語音的代理程式，您可以使用 Windows PowerShell。 例如，執行：`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
-- 已新增至 Office 365 群組的**電話系統**授權或通話方案的使用者;已啟用郵件的通訊群組清單;或 [安全性群組]。 當您將通訊群組清單或安全群組中的代理程式新增為通話佇列代理程式時，第一次呼叫到貨最多可能需要3小時的時間。 新建立的通訊群組清單或安全性群組可能需要長達48小時才能與通話佇列搭配使用。 新建立的 Microsoft 365 群組幾乎會立即提供給您。
+- 已加入**手機系統**授權或通話方案（已新增至 Microsoft 365 群組、已啟用郵件功能的通訊群組清單或安全性群組）的使用者。 當您將通訊群組清單或安全群組中的代理程式新增為通話佇列代理程式時，第一次呼叫到貨最多可能需要3小時的時間。 新建立的通訊群組清單或安全性群組可能需要長達48小時才能與通話佇列搭配使用。 新建立的 Microsoft 365 群組幾乎會立即提供給您。
 
 - 如果您的代理正在使用 Microsoft 團隊 app 進行通話佇列通話，則必須在 TeamsOnly 模式中。
 
@@ -328,7 +328,7 @@ Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@conto
 
 ### <a name="more-about-windows-powershell"></a>深入瞭解 Windows PowerShell
 
-- Windows PowerShell 全部說明如何管理使用者，以及允許或不允許的使用者執行。 在 Windows PowerShell 中，您可以使用單一管理點管理 Office 365 和 Microsoft 團隊。 當您有多個工作需要執行時，它可以簡化日常作業。 若要開始使用 Windows PowerShell，請參閱以下主題：
+- Windows PowerShell 全部說明如何管理使用者，以及允許或不允許的使用者執行。 在 Windows PowerShell 中，您可以使用單一管理點管理 Microsoft 365 或 Office 365 及 Microsoft 團隊。 當您有多個工作需要執行時，它可以簡化日常作業。 若要開始使用 Windows PowerShell，請參閱以下主題：
 
   - [Windows PowerShell 與 Lync Online 的簡介](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
@@ -336,13 +336,13 @@ Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@conto
 
 - 當您一次為多位使用者進行變更時，Windows PowerShell 的速度、簡潔性和生產率都有許多優點。 請參閱下列主題，瞭解這些優點：
 
-  - [使用 Windows PowerShell 管理 Office 365](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
+  - [使用 Windows PowerShell 管理 Microsoft 365 或 Office 365](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
 
   - [設定 Windows PowerShell 電腦](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
 ## <a name="related-topics"></a>相關主題
 
-[以下是您在 Office 365 中使用電話系統所取得的結果](here-s-what-you-get-with-phone-system.md)
+[以下是可透過電話系統獲得的功能](here-s-what-you-get-with-phone-system.md)
 
 [取得服務電話號碼](getting-service-phone-numbers.md)
 

@@ -22,19 +22,19 @@ f1.keywords:
 ms.custom:
 - Legal
 - seo-marvel-mar2020
-description: 瞭解 Office 365 通話方案的免費撥出期，以及 Microsoft 團隊中的 Office 365 音訊會議。
-ms.openlocfilehash: 19ffdd1b0a634a2fb3294479b2163af38aefedf6
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: 瞭解 microsoft 團隊中 Microsoft 365 或 Office 365 通話方案和 Office 365 音訊會議的免費撥出期。
+ms.openlocfilehash: 11788e00b1fa643f18beaca2b339a1770c6cd909
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779790"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690889"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>音訊會議免費撥出期間
 
 ## <a name="skype-for-business-pstn-services"></a>商務用 Skype PSTN 服務
 
-客戶可以在商務用 Skype Online PSTN 服務中使用 Office 365 通話方案和 Office 365 音訊會議，以使用條款與客戶大量授權協定。 您可以在[授權條款和檔](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=2&amp;Keyword=PSTN)中找到 PSTN 服務使用條款。
+客戶可以在商務用 Skype Online PSTN 服務中使用 Microsoft 365 或 Office 365 通話方案和 Office 365 音訊會議，以使用條款與客戶大量授權協定。 您可以在[授權條款和檔](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=2&amp;Keyword=PSTN)中找到 PSTN 服務使用條款。
   
 ### <a name="end-of-complimentary-dial-out-period"></a>免費撥出期間結束時間
 
@@ -44,7 +44,7 @@ ms.locfileid: "43779790"
 
 ### <a name="complimentary-dial-out-period-details"></a>[免費撥出期間] 詳細資料
 
-針對採用我們 Office 365 音訊會議服務的客戶，Microsoft 會提供額外的免費優惠，以撥打電話給由使用者在已指派 Office 365 音訊會議訂閱授權至年 11 2019 月的會議中所組織的會議。 在此免費期間，Microsoft 允許會議召集人或已授權的出席者在會議原則設定中定義，以便從會議中的電話撥出來電到下方所列的44「區域 A」國家或地區的非付費電話號碼。 這項好處適用于音訊會議每月訂閱授權，但不延伸至音訊會議每分鐘付費授權。
+針對採用 Microsoft 365 或 Office 365 音訊會議服務的客戶，Microsoft 會提供與撥出的額外優點，這些好處與從使用者指派 Microsoft 365 或 Office 365 音訊會議訂閱授權到11月2019所組織的會議有關。 在此免費期間，Microsoft 允許會議召集人或已授權的出席者在會議原則設定中定義，以便從會議中的電話撥出來電到下方所列的44「區域 A」國家或地區的非付費電話號碼。 這項好處適用于音訊會議每月訂閱授權，但不延伸至音訊會議每分鐘付費授權。
 
 此外，在免費撥出期間，在下列情況下，會有900分鐘的上限限制：
 
@@ -58,7 +58,7 @@ ms.locfileid: "43779790"
 - 不在區域中的目的地的所有出站呼叫： [國家/地區] 清單是以我們發佈的費率與目的地（隨附租使用者已設定通訊點數，並將通訊信用授權指派給會議召集人）每分鐘計費。
 
 > [!NOTE]
-> 您可以在商務用 Skype 系統管理中心監視 [撥出分鐘] 的使用方式。 在 Microsoft 團隊 & Skype 系統管理中心中，移至**舊版入口網站** > **報告** > **PSTN 分鐘池**。 這個免費的分鐘數池會在報告中標示為「出站通話以進行國家和地區的區域」。
+> 您可以在商務用 Skype 系統管理中心監視 [撥出分鐘] 的使用方式。 在 Microsoft 團隊 & Skype 系統管理中心中，移至**舊版入口網站**  >  **報告**  >  **PSTN 分鐘池**。 這個免費的分鐘數池會在報告中標示為「出站通話以進行國家和地區的區域」。
 
 當租使用者的撥出分鐘數池達到80% 和100% 時，系統會將電子郵件通知傳送給指定客戶的所有租使用者管理員。
 

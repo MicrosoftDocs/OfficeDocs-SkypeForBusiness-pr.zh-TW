@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 瞭解使用者建立的不同組合，以及支援或不受支援的組合。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 635ab29498ee01c976b33dc62a193bb723ba190e
-ms.sourcegitcommit: ebdad71a8d393466e33a2fdc8606d882a6007588
+ms.openlocfilehash: a7b41eb474d7574aa23b5fa195219794ed715424
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "44280252"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690869"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>含有 PSTN 連線功能的混合式環境中的使用者帳戶
 
@@ -31,7 +31,7 @@ ms.locfileid: "44280252"
 本文適用于您擁有下列各項的環境： 
  
 - 商務用 Skype Server 或 Lync Server 2013 
-- Office 365 組織 
+- Microsoft 365 或 Office 365 組織 
 - 在商務用 Skype Server 與商務用 Skype Online 或 Microsoft 團隊租使用者之間設定混合式連接 
 - 已啟用並從用戶端撥打和接聽公用交換電話網絡（PSTN）通話的使用者
 
@@ -46,7 +46,7 @@ ms.locfileid: "44280252"
 **碼**   
 - **企業語音：** 此選項可為使用內部部署商務用 Skype 使用者帳戶的使用者提供對 PSTN 的存取權。 內部部署商務用 Skype 轉送伺服器提供 interconnectivity 到 PSTN。  
 - **混合式語音連線：** 提供對使用商務用 Skype Online 帳戶的使用者存取 PSTN 的選項。 內部部署商務用 Skype 轉送伺服器提供 interconnectivity 到 PSTN。 
-- **直接路由：** 提供使用 Microsoft 團隊用戶端的線上商務用 Skype 帳戶、Microsoft 團隊授權的使用者存取 PSTN 的選項。 SBC 已連線到 Office 365 中的 SIP Proxy，而不需要 Microsoft 的任何內部部署軟體。
+- **直接路由：** 提供使用 Microsoft 團隊用戶端的線上商務用 Skype 帳戶、Microsoft 團隊授權的使用者存取 PSTN 的選項。 SBC 已連線至 Microsoft 365 或 Office 365 中的 SIP Proxy，而不需要 Microsoft 的任何內部部署軟體。
 
   
 **此環境支援下列組合：**
@@ -70,4 +70,4 @@ ms.locfileid: "44280252"
 
 ### <a name="supportability-statement-for-the-hybrid-environment-with-pstn"></a>包含 PSTN 之混合式環境的可支援性聲明
 
-針對所有使用者，您**必須**在內部部署的 AD 中建立使用者物件，然後使用 Azure ad Connect 工具將其同步處理到 Azure AD。 如果使用者物件是在混合式設定中直接在 Azure AD 中建立，則**不支援**針對團隊/商務用 Skype 使用者啟用使用者。 針對新的使用者（例如新員工），會直接為團隊啟用該使用者，必須針對使用內部部署商務用 Skype 管理工具的商務用 Skype 啟用該使用者。 在線上商務用 Skype 或團隊中建立使用者，但不需要先在**不支援**企業語音的內部部署池中啟用這些使用者。 如需此功能的詳細資訊，請參閱在[商務用 Skype Server 中使用內部部署 PSTN 連線來規劃 Office 365 中的電話系統](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity)。
+針對所有使用者，您**必須**在內部部署的 AD 中建立使用者物件，然後使用 Azure ad Connect 工具將其同步處理到 Azure AD。 如果使用者物件是在混合式設定中直接在 Azure AD 中建立，則**不支援**針對團隊/商務用 Skype 使用者啟用使用者。 針對新的使用者（例如新員工），會直接為團隊啟用該使用者，必須針對使用內部部署商務用 Skype 管理工具的商務用 Skype 啟用該使用者。 在線上商務用 Skype 或團隊中建立使用者，但不需要先在**不支援**企業語音的內部部署池中啟用這些使用者。 如需此功能的詳細資訊，請參閱[在商務用 Skype Server 中使用內部部署 PSTN 連線來規劃手機系統](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity)。

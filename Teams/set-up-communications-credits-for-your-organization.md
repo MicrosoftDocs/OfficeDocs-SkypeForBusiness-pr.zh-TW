@@ -22,12 +22,12 @@ ms.custom:
 - Licensing
 - seo-marvel-apr2020
 description: '瞭解如何為您的使用者和組織設定通訊點數（PSTN 消費）帳單授權。 '
-ms.openlocfilehash: 5fb963bbea97a41b6dbd6b68d5d7e0c162dc5a05
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: f124cd09c0baa604b09345394d9a53ae254bbb6f
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042940"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691239"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>設定貴組織的通訊點數
 
@@ -44,7 +44,7 @@ ms.locfileid: "44042940"
   
 - 將**音訊會議**授權指派給您的使用者。 請參閱[指派 Microsoft 團隊附加元件授權](teams-add-on-licensing/assign-teams-add-on-licenses.md)。
     
-    指派此授權之後，您將需要設定音訊會議。 如需逐步指示，請參閱[在 Office 365 中試用或購買音訊會議](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)。
+    指派此授權之後，您將需要設定音訊會議。 如需逐步指示，請參閱[在 Microsoft 365 或 Office 365 中試用或購買音訊會議](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)。
     
 - 為您的使用者指派**電話系統**和**國內或國內和國際**通話方案授權。 請參閱[指派 Microsoft 團隊附加元件授權](teams-add-on-licensing/assign-teams-add-on-licenses.md)。
     
@@ -57,9 +57,9 @@ ms.locfileid: "44042940"
   
 ## <a name="step-2-set-up-communications-credits-for-your-organization"></a>步驟2：為您的組織設定通訊點數
 
-1. 使用您的公司或學校帳戶登入新的 Microsoft 365 系統管理中心。
+1. 使用您的公司或學校帳戶登入[Microsoft 365 系統管理中心](https://portal.office.com/Adminportal)。
     
-2. 在 Microsoft 365 系統管理中心的左導覽中，前往 [**帳單** > **購買服務**]。 向下滾動，然後選取 [**附加**元件]。
+2. 在 Microsoft 365 系統管理中心的左導覽中，前往 [**帳單**  >  **購買服務**]。 向下滾動，然後選取 [**附加**元件]。
 
 3. 選取 [**通訊點數**]。
     
@@ -84,15 +84,15 @@ ms.locfileid: "44042940"
     >[!IMPORTANT]
     >如果您是大量授權客戶，您可以選擇要付款的企業協定號碼。 如果您有多個企業協定編號，您可以選取要用來進行付款的企業協定。 您也可以指定要與企業協定編號（如果適用）關聯的採購訂單編號的機會。
     
-每個組織將會有不同的通話方案成交量和比率使用方式。 您必須從目前的服務提供者取得這種類型的使用資料。 已在使用商務用 skype Online 的組織已經在**商務用 skype 系統管理中心** > **報告** > **PSTN 使用狀況詳細**資料包告，以取得使用方式資料。
+每個組織將會有不同的通話方案成交量和比率使用方式。 您必須從目前的服務提供者取得這種類型的使用資料。 已在使用商務用 Skype Online 的組織已成為其服務提供者，請在**Microsoft 團隊系統管理中心**  >  **報告**  >  **PSTN 使用狀況詳細**資料包告來取得使用方式資料。
   
-當您設定通訊點數時，您需要調查貴組織的通話使用量，以判斷您需要的金額。 您可以透過查看**PSTN 使用狀況詳細資料**報告來取得通話使用狀況的資訊。 如果您需要儲存資料或建立自訂報表，此報告可讓您將通話資料記錄匯出至 Excel。 若要瞭解使用方式，請參閱[商務用 SKYPE PSTN 使用報告](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report)。
+當您設定通訊點數時，您需要調查貴組織的通話使用量，以判斷您需要的金額。 您可以透過查看**PSTN 使用狀況詳細資料**報告來取得通話使用狀況的資訊。 如果您需要儲存資料或建立自訂報表，此報告可讓您將通話資料記錄匯出至 Excel。 若要瞭解使用方式，請參閱[PSTN 使用方式報告](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report)。
   
 ## <a name="step-3-assign-a-communications-credits-license-to-users"></a>步驟3：指派通訊點數授權給使用者
 
-1. 使用您的公司或學校帳戶登入。
+1. 使用您的公司或學校帳戶登入[Microsoft 365 系統管理中心](https://portal.office.com/Adminportal)。
     
-2. 在 Microsoft 365 系統管理中心的左導覽中，移至 [**使用者** > 作用中的**使用者**]，然後從清單中選取一個或多位使用者。
+2. 在 Microsoft 365 系統管理中心的左導覽中，移至 [**使用者**作用中的  >  **使用者**]，然後從清單中選取使用者。
     
 3. 選擇 [**授權及應用程式**]。
     
@@ -100,6 +100,9 @@ ms.locfileid: "44042940"
     
     > [!NOTE]
     > 即使您有指派**企業版 E5**授權的使用者，仍建議您這麼做。
+
+    > [!TIP]
+    > 您可以使用[Powershell](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps) ，透過一個命令，將授權和應用程式指派給多位使用者。
   
 ## <a name="want-to-know-about-plans-and-pricing"></a>想要瞭解方案和價格？
 
@@ -111,7 +114,7 @@ ms.locfileid: "44042940"
     
 - [電話系統方案](https://go.microsoft.com/fwlink/?LinkId=799763)
     
-您也可以登[入 Microsoft 365 系統管理中心](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)並移至**帳單** > **訂閱** > 的 [**新增訂閱**]，以查看資訊。
+您也可以登[入 Microsoft 365 系統管理中心](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)並移至**帳單**  >  **訂閱**的 [  >  **新增訂閱**]，以查看資訊。
   
 若要查看含有每個功能所需的授權或授權的表格，請參閱[Microsoft 團隊附加元件授權](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
   
@@ -121,7 +124,7 @@ ms.locfileid: "44042940"
     
 - [設定雲端語音信箱 - 管理說明](set-up-phone-system-voicemail.md)
     
-- 設定[Office 365 的](calling-plans-for-office-365.md)[通話方案](set-up-calling-plans.md)和通話方案
+- 設定[Microsoft 365 或 Office 365 的](calling-plans-for-office-365.md)[通話方案](set-up-calling-plans.md)與通話方案
     
 - [加值和管理通訊點數](add-funds-and-manage-communications-credits.md)
     

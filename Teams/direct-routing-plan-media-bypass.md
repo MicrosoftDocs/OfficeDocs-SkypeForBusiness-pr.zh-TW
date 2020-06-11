@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 瞭解如何使用 [電話系統直接路由] 規劃媒體旁路，這可讓您縮短媒體流量的路徑，並改善效能。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a4f8995c3972da8fd2d060b7083edb61138b97ac
-ms.sourcegitcommit: f63cf7fdde333a7cb36c39e9b6cdc33afd2b4601
+ms.openlocfilehash: c1c11361a693fce63a863920fe6b27a2c87621af
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "44338243"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691249"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>媒體旁路搭配直接路由方案
 
@@ -79,13 +79,12 @@ ms.locfileid: "44338243"
 
 如果使用者無法存取 SBC 的公用 IP 位址，下列說明通話流程。 
 
-例如，假設使用者是外部使用者，而租使用者系統管理員決定不要將 SBC 的公用 IP 位址開啟至網際網路中的每個人，但僅限 Microsoft 雲端。 流量的內部元件可以透過團隊傳輸繼電器來流動。 這是商業網路以外的使用者的建議配置。 請考慮下列事項：
+例如，假設使用者是外部使用者，而租使用者系統管理員決定不要將 SBC 的公用 IP 位址開啟至網際網路中的每個人，但僅限 Microsoft 雲端。 流量的內部元件可以透過團隊傳輸繼電器來流動。 請考慮下列事項：
 
 - 使用團隊傳輸中繼。
 
 - 針對媒體旁路，Microsoft 使用的傳輸繼電器版本必須在團隊傳輸中繼器與 SBC 之間開啟埠 50 000 至 59 999 （將來我們打算移至只需要3478和3479埠的版本）。
 
-- 針對媒體優化用途，Microsoft 建議您只開啟 SBC 的公用 IP 位址至團隊傳輸中繼。 對於公司網路以外的用戶端，Microsoft 建議使用傳輸中繼，而不是直接到達 SBC 的公用 IP 位址。
 
 下列圖表顯示在啟用媒體旁路時的通話流程、用戶端為外部，且用戶端無法取得會話邊界控制器的公用 IP 位址（媒體是由小組傳輸轉接傳送來中繼）。
 
@@ -138,7 +137,7 @@ Microsoft 雲端中有兩個元件可位於媒體流量的路徑：媒體處理�
 在媒體路徑中，讓使用者略過來電 | 任何 | 如果用戶端無法在公用 IP 位址上到達 SBC | 
 在語音應用程式的媒體路徑中 | 總會 | 任何 | 
 可以執行轉碼（B2BUA）\* | 是 | 否，只在端點之間中繼音訊 | 
-全球和位置的實例數 | 總共8個：美國東和西部為2。在阿姆斯特丹和都柏林中為2，2在香港與新加坡中;日文中的2  | 條
+全球和位置的實例數 | 總共10個：美國東部和西部2在阿姆斯特丹和都柏林中為2，2在香港與新加坡中;在日本是 2;在澳大利亞東與東南部中的2 | 條
 
 IP 範圍包括：
 - 52.112.0.0/14 （從52.112.0.1 到52.115.255.254 的 IP 位址）
@@ -165,13 +164,13 @@ IP 範圍包括：
 
 針對 SIP 信號，FQDN 和防火牆需求與非繞過案例相同。 
 
-在下列 Office 365 環境中提供直接路由：
-- Office 365
+在下列 Microsoft 365 或 Office 365 環境中提供直接路由：
+- Microsoft 365 或 Office 365
 - Office 365 GCC
 - Office 365 GCC 高
 - Office 365 DoD 進一步瞭解[office 365 和美國政府環境](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government)（例如 GCC、gcc 高和 DoD）。
 
-### <a name="office-365-and-office-365-gcc-environments"></a>Office 365 和 Office 365 GCC 環境
+### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Microsoft 365、Office 365 及 Office 365 GCC 環境
 
 直接路由的連接點是下列三個 Fqdn：
 
@@ -227,7 +226,7 @@ Fqdn – sip.pstnhub.gov.teams.microsoft.us 將會解析成下列其中一個 IP
 ## <a name="sip-signaling-ports"></a>SIP 信號：埠
 
 對於所有提供直接路由的 Office 365 環境而言，埠需求都是相同的：
-- Office 365
+- Microsoft 365 或 Office 365
 - Office 365 GCC
 - Office 365 GCC 高
 - Office 365 DoD
@@ -263,7 +262,7 @@ UDP/SRTP | 用戶端 | SBC | 50 000 – 50 019  | 在 SBC 上定義 |
 
 傳輸繼電器與媒體處理器在同一個範圍內（適用于非旁路情況）： 
 
-### <a name="office-365-and-office-365-gcc-environments"></a>Office 365 和 Office 365 GCC 環境
+### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Microsoft 365、Office 365 及 Office 365 GCC 環境
 
 - 52.112.0.0/14 （從52.112.0.1 到52.115.255.254 的 IP 位址）
 
@@ -366,6 +365,5 @@ UDP/SRTP | 媒體處理器 | SBC | 3478、3479和 49 152 – 53 247    | 在 SBC
 ## <a name="see-also"></a>另請參閱
 
 [設定媒體旁路搭配直接路由](direct-routing-configure-media-bypass.md)
-
 
 

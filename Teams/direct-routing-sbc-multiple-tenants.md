@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 瞭解如何設定一個會話邊界控制器（SBC）來為 Microsoft 合作夥伴和/或 PSTN 運營商提供多個租使用者。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 13d2dceb8cedc6e48d420619476cbf73c675785a
-ms.sourcegitcommit: e618396eb8da958983668ad0884b4481e1ed7b98
+ms.openlocfilehash: 4df64ec7bb47b440ba334becdfc03f1966631b3b
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44021995"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689739"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>設定多個租用戶的工作階段邊界控制器
 
@@ -52,7 +52,7 @@ Microsoft 不會管理運營商。 Microsoft 提供 PBX （Microsoft 手機系�
 2. 啟用 [子功能變數名稱]。
 3. 將載波的主幹設定為客戶租使用者並提供使用者。
 
-*請務必瞭解 DNS 的基本概念，以及功能變數名稱在 Office 365 中的管理方式。繼續進行之前，請先參閱[取得 Office 365 網域的](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)說明。*
+*請務必瞭解 DNS 的基本概念，以及功能變數名稱在 Microsoft 365 或 Office 365 中的管理方式。[請參閱取得 Microsoft 365 或 Office 365 網域的說明，](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)然後再繼續進行。*
 
 ## <a name="deploy-and-configure-the-sbc"></a>部署並設定 SBC
 
@@ -62,6 +62,7 @@ Microsoft 不會管理運營商。 Microsoft 提供 PBX （Microsoft 手機系�
 - **Oracle：** [直接路由設定筆記](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html)，在「Microsoft」一節中將說明 SBC 主機案例的設定。 
 - **功能區通訊：** 請參閱[功能區通訊 SBC 核心 Microsoft 團隊配置指南](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe)，瞭解如何設定功能區核心數列的 SBCs 與此頁面[功能區最佳做法-為 Microsoft 團隊直接路由 SBC 邊緣配置電信公司](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+Carriers+for+Microsoft+Teams+Direct+Routing)
 - **TE-系統（anynode）：** 請在[TE 系統社區頁面](https://community.te-systems.de/)上登錄，以取得有關如何針對多個租使用者設定 anynode SBC 的檔和範例。
+- **Metaswitch：** 請在 [ [Metaswitch 社區] 頁面](https://sso.metaswitch.com/UI/Login)上登錄，以取得如何針對多個租使用者啟用 Perimeta SBC 的檔。
 
 > [!NOTE]
 > 請務必注意如何設定「連絡人」標題。 連絡人標題是用來在傳入邀請訊息上尋找客戶租使用者。 
@@ -74,19 +75,19 @@ Microsoft 不會管理運營商。 Microsoft 提供 PBX （Microsoft 手機系�
 
 在下列範例中：
 - Adatum 是一種提供網際網路和電話語音的運營商，可為多個客戶提供服務。
-- Woodgrove 銀行、Contoso 和艾德公司都是三個擁有 Office 365 網域的客戶，但卻從 Adatum 接收電話語音。
+- Woodgrove 銀行、Contoso 和艾德公司都是三台擁有 Microsoft 365 或 Office 365 網域的客戶，但卻從 Adatum 接收電話語音。
 
-在將邀請傳送給 Office 365 時，子域**必須**符合將針對客戶設定的主幹的 FQDN 名稱和連絡人標題中的 fqdn。 
+在將邀請傳送給 Microsoft 365 或 Office 365 時，子域**必須**符合將針對客戶設定的主幹的 FQDN 名稱，以及連絡人標題中的 fqdn。 
 
-當來電到達 Office 365 Direct 路由介面時，介面會使用連絡人標題尋找使用者應該在其中進行查閱的租使用者。 [直接傳送] 不會在邀請中使用電話號碼查閱，因為有些客戶可能有不需要在數個租使用者中重迭的號碼。 因此，連絡人標頭中的 FQDN 名稱是必要的，以識別確切的租使用者，以便透過電話號碼查閱使用者。
+當來電到達 Microsoft 365 或 Office 365 Direct 路由介面時，介面會使用連絡人標題尋找使用者應該在其中進行查閱的租使用者。 [直接傳送] 不會在邀請中使用電話號碼查閱，因為有些客戶可能有不需要在數個租使用者中重迭的號碼。 因此，連絡人標頭中的 FQDN 名稱是必要的，以識別確切的租使用者，以便透過電話號碼查閱使用者。
 
-*如需在 Office 365 組織中建立功能變數名稱的詳細資訊，請參閱[取得 office 365 網域](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)的說明。*
+*如需在 Microsoft 365 或 Office 365 組織中建立功能變數名稱的詳細資訊，請參閱[取得 Office 365 網域的協助](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)。*
 
 下圖摘要說明基本網域、子域和連絡人標頭的需求。
 
 ![顯示網域和連絡人標題需求的圖表](media/direct-routing-1-sbc-requirements.png)
 
-SBC 需要認證，才能驗證連線。 針對 SBC 主機案例，電信公司需要使用* \*base_domain （例如\*customers.adatum.biz）* 要求證書。 這個憑證可以用來驗證從單一 SBC 提供的多個租使用者的連線。
+SBC 需要認證，才能驗證連線。 針對 SBC 主機案例，電信公司需要使用* \* base_domain （例如 \* customers.adatum.biz）* 要求證書。 這個憑證可以用來驗證從單一 SBC 提供的多個租使用者的連線。
 
 
 下表是一個配置的範例。
@@ -113,13 +114,13 @@ SBC 需要認證，才能驗證連線。 針對 SBC 主機案例，電信公司�
 
 如果您是以全域系統管理員身分登入 Microsoft 365 系統管理中心，您就只能新增網域。 
 
-若要驗證您擁有的角色，請登入 Microsoft 365https://portal.office.com)系統管理中心（請移至 [**使用者** > 作用中的**使用者**]，然後確認您擁有全域系統管理員角色。 
+若要驗證您擁有的角色，請登入 Microsoft 365 系統管理中心（ https://portal.office.com) 請移至 [**使用者**作用中的  >  **使用者**]，然後確認您擁有全域系統管理員角色。 
 
-如需管理員角色以及如何在 Office 365 中指派角色的詳細資訊，請參閱[關於 office 365 系統管理員角色](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)。
+如需管理員角色以及如何在 Microsoft 365 或 Office 365 中指派角色的詳細資訊，請參閱[關於系統管理員角色](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)。
 
 ### <a name="add-a-base-domain-to-the-tenant-and-verify-it"></a>新增基底網域至租使用者並驗證
 
-1. 在 Microsoft 365 系統管理中心中，移至**設定** > **網域** > [**新增網域**]。
+1. 在 Microsoft 365 系統管理中心中，移至**設定**  >  **網域**[  >  **新增網域**]。
 2. 在 [**輸入您擁有的網域**] 方塊中，輸入基底網域的 FQDN。 在下列範例中，基底網域是*customers.adatum.biz*。
 
     ![顯示 [新增網域] 頁面的螢幕擷取畫面](media/direct-routing-2-sbc-add-domain.png)
@@ -138,7 +139,7 @@ SBC 需要認證，才能驗證連線。 針對 SBC 主機案例，電信公司�
 
 在您註冊功能變數名稱之後，您必須加入至少一個 E1、E3 或 E5 授權的使用者，並將 SIP 位址指定為與建立的基礎網域相符的 SIP 位址的 FQDN 部分來啟動。 
 
-*如需在 Office 365 組織中新增使用者的詳細資訊，請參閱[取得 office 365 網域的協助](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)。*
+*如需在 Microsoft 365 或 Office 365 組織中新增使用者的詳細資訊，請參閱[取得 microsoft 365 或 office 365 網域](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)的說明。*
 
 例如： test@customers.adatum.biz
 
@@ -154,12 +155,12 @@ SBC 需要認證，才能驗證連線。 針對 SBC 主機案例，電信公司�
 
 如果您是以全域系統管理員身分登入 Microsoft 365 系統管理中心，您就只能新增網域。 
 
-若要驗證您擁有的角色，請登入 Microsoft 365https://portal.office.com)系統管理中心（請移至 [**使用者** > 作用中的**使用者**]，然後確認您擁有全域系統管理員角色。 
+若要驗證您擁有的角色，請登入 Microsoft 365 系統管理中心（ https://portal.office.com) 請移至 [**使用者**作用中的  >  **使用者**]，然後確認您擁有全域系統管理員角色。 
 
-如需管理員角色以及如何在 Office 365 中指派角色的詳細資訊，請參閱[關於 office 365 系統管理員角色](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)。
+如需管理員角色以及如何在 Microsoft 365 或 Office 365 中指派角色的詳細資訊，請參閱[關於系統管理員角色](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)。
 
 ### <a name="add-a-subdomain-to-the-customer-tenant-and-verify-it"></a>將子域新增至客戶租使用者並進行驗證
-1. 在 Microsoft 365 系統管理中心中，移至**設定** > **網域** > [**新增網域**]。
+1. 在 Microsoft 365 系統管理中心中，移至**設定**  >  **網域**[  >  **新增網域**]。
 2. 在 [**輸入您擁有的網域**] 方塊中，輸入此租使用者的子域 FQDN。 在下列範例中，子域是 sbc1.customers.adatum.biz。
 
     ![[新增網域] 頁面的螢幕擷取畫面](media/direct-routing-5-sbc-add-customer-domain.png)
@@ -177,7 +178,7 @@ SBC 需要認證，才能驗證連線。 針對 SBC 主機案例，電信公司�
 
     ![顯示建立 TXT 記錄的螢幕擷取畫面](media/direct-routing-8-sbc-txt-record.png)
 
-    如需詳細資訊，請參閱[在任何 dns 主機服務提供者處建立適用于 Office 365 的 dns 記錄](https://support.office.com/article/create-dns-records-at-any-dns-hosting-provider-for-office-365-7b7b075d-79f9-4e37-8a9e-fb60c1d95166)。
+    如需詳細資訊，請參閱[在任何 DNS 主機服務提供者處建立 dns 記錄](https://support.office.com/article/create-dns-records-at-any-dns-hosting-provider-for-office-365-7b7b075d-79f9-4e37-8a9e-fb60c1d95166)。
 
 7. 回到客戶的 Microsoft 365 系統管理中心，然後按一下 [**驗證**]。 
 8. 在下一頁上，選取 [**我將自行新增 DNS 記錄**]，然後按 **[下一步]**。
@@ -200,7 +201,7 @@ SBC 需要認證，才能驗證連線。 針對 SBC 主機案例，電信公司�
 
 在您註冊功能變數名稱之後，您必須至少新增一個使用者，然後使用與客戶租使用者中建立的子域相符之 SIP 位址的 FQDN 部分來啟動該功能變數名稱。
 
-*如需在 Office 365 組織中新增使用者的詳細資訊，請參閱[取得 office 365 網域的協助](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)。*
+*如需在 Microsoft 365 或 Office 365 組織中新增使用者的詳細資訊，請參閱[取得 microsoft 365 或 office 365 網域](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)的說明。*
 
 例如： test@sbc1.customers.adatum.biz
 

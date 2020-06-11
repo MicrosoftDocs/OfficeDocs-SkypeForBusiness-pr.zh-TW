@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: '瞭解如何取得新的、埠或轉讓現有的團隊編號，以及如何向使用者顯示變更。 '
-ms.openlocfilehash: 97d827d2fedbf12fd18519ac70a23bacdc78a58c
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: 45c0b87d8e208913b9be0d231a8e2ae2e0ebfd5a
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43951008"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691429"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>為您的使用者取得電話號碼
 
@@ -37,28 +37,29 @@ ms.locfileid: "43951008"
     
 - **轉移現有的號碼。** 您可以從目前的服務提供者或電話載波移植或轉移現有號碼。 如需詳細資訊，請參閱[將電話號碼轉接至 Teams](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams) 或[管理貴組織的電話號碼](/microsoftteams/manage-phone-numbers-for-your-organization)，協助您完成此作業。  
   
-- **使用表單要求新號碼。** 有時候（視您的國家或地區而定）您無法使用 Microsoft 團隊系統管理中心取得新的電話號碼，或者您需要特定的電話號碼或區功能變數代碼。 如果是這樣，您將需要下載表單並將它傳送給我們。 如需詳細資訊，請參閱[管理貴組織的電話號碼](/microsoftteams/manage-phone-numbers-for-your-organization)。
+- **使用表單要求新號碼。** 有時候（視您的國家或地區而定）您無法使用 Microsoft 團隊系統管理中心取得新的電話號碼，或者您需要特定的電話號碼或區功能變數代碼。 如需詳細資訊，請參閱[管理貴組織的電話號碼](/microsoftteams/manage-phone-numbers-for-your-organization)。
   
 > [!NOTE]
-> 如果您需要協助設定貴組織的電話號碼，您可以[聯絡 PSTN 服務台](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)。
+> 如果您需要協助設定貴組織的電話號碼，請 [與商務用客戶支援人員-系統管理協助] （ https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online 。
   
 ## <a name="get-new-phone-numbers-for-your-users"></a>為您的使用者取得新的電話號碼
 
 ![Microsoft Teams 標誌圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
-    
-1. 在左側導覽中，移至 [**語音** > **電話號碼**]，然後按一下 [**新增**]。
-2. 輸入訂單的名稱並新增描述。
-3. 在 [位置及數量] 頁面上，執行下列動作：
+
+1. 移至 Microsoft 團隊系統管理中心 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 。 
+2. 在左側導覽中，移至 [**語音**  >  **電話號碼**]，然後按一下 [**新增**]。
+3. 輸入訂單的名稱並新增描述。
+4. 在 [位置及數量] 頁面上，執行下列動作：
     1. 在 [**國家或地區**] 下，選取國家或地區。
     2. 在 [**數位類型**] 底下，選取 **[使用者] （訂閱者）**。
     3. 在 [**位置**] 底下，選取位置。 如果您需要建立新的位置，請按一下 [**新增位置**]。
     4. 在 [**地區代碼**] 底下，選取區功能變數代碼。 
     5. 在 [**數量**] 底下，輸入您想要的組織號碼數目，然後按一下 **[下一步]** ，選取您的號碼。
-4. 選取您想要的數位。 您有10分鐘的時間可以選取您的電話號碼，並放置您的訂單。 如果您需要10分鐘以上的時間，系統會將電話號碼傳回編號池中。
-5. 當您準備好要下訂單時，請按一下 [**下單**]。
+5. 選取您想要的數位。 您有10分鐘的時間可以選取您的電話號碼，並放置您的訂單。 如果您需要10分鐘以上的時間，系統會將電話號碼傳回編號池中。
+6. 當您準備好要下訂單時，請按一下 [**下單**]。
 
     > [!IMPORTANT]
-    > 使用者的電話號碼數（訂閱者）等於您已指定的**國內通話方案**和/或**國內和國際通話方案**授權總數乘以1.1，再加上10個其他電話號碼。 例如，如果您有50使用者與國內通話方案和/或國內和國際通話方案共有，您就可以取得**65**電話號碼 **（50 x 1.1 + 10）**。 如需詳細資訊，請參閱[您可以取得多少電話號碼？](/microsoftteams/how-many-phone-numbers-can-you-get)。 如果您需要取得更多的電話號碼，請[聯絡 PSTN 服務台](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)。
+    > 使用者的電話號碼數（訂閱者）等於您已指定的**國內通話方案**和/或**國內和國際通話方案**授權總數乘以1.1，再加上10個其他電話號碼。 例如，如果您有50使用者與國內通話方案和/或國內和國際通話方案共有，您就可以取得**65**電話號碼 **（50 x 1.1 + 10）**。 如需詳細資訊，請參閱[您可以取得多少電話號碼？](/microsoftteams/how-many-phone-numbers-can-you-get)。 如果您需要取得更多的電話號碼，請[與商務用客戶支援人員-系統管理協助](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online)。
   
 ## <a name="port-or-transfer-phone-numbers-from-your-service-provider-or-phone-carrier"></a>從服務提供者或電話載波傳送埠或轉移電話號碼
   
@@ -70,15 +71,14 @@ ms.locfileid: "43951008"
 
 ![Microsoft Teams 標誌圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心** 
 
-在左側導覽中，移至 [**語音** > **電話號碼**] 來查看貴組織的號碼，包括位置、編號類型及狀態資訊。
+在系統<a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">管理中心</a>的左側導覽中，移至 [**語音**  >  **電話號碼**] 來查看貴組織的號碼，包括位置、編號類型及狀態資訊。
   
 ## <a name="assign-phone-numbers-to-users"></a>將電話號碼指派給使用者
 
-取得您的電話號碼之後，您必須為每位使用者指派號碼。 請參閱[指派、變更或移除使用者的電話號碼](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)。
+取得您的電話號碼之後，您必須為每位使用者指派號碼。 如需詳細資訊，請參閱[指派、變更或移除使用者的電話號碼](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)。
 
 > [!NOTE]
-> 如果您需要取得更多的電話號碼，請[聯絡 PSTN 服務台](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)。
-
+> 如果您需要取得更多的電話號碼，請[與商務用客戶支援人員-系統管理協助](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online)。
 
 ## <a name="related-topics"></a>相關主題
 

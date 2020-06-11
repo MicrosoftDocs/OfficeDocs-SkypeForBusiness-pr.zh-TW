@@ -21,18 +21,18 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: '瞭解在 Microsoft 團隊中，當使用者的電話撥入式會議設定變更時，電子郵件會自動傳送哪些資訊給使用者。 '
-ms.openlocfilehash: 4c4668e671b65a7927434a5ad7c9028d673d47b3
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 15c35570d509ae69a41e4c6d9522a5a62d32dd59
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042860"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691479"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-microsoft-teams"></a>在 Microsoft 團隊中其設定變更時傳送給使用者的電子郵件
 
 電子郵件會自動傳送給已使用 Microsoft 做為音訊會議提供者[的音訊會議的](set-up-audio-conferencing-in-teams.md)使用者。
 
-根據預設，會傳送四種類型的電子郵件給已啟用音訊會議的使用者。 不過，如果您想要限制傳送給使用者的電子郵件數目，您可以將它關閉。 Office 365 中的音訊會議會在下列情況傳送電子郵件給使用者的電子郵件：
+根據預設，會傳送四種類型的電子郵件給已啟用音訊會議的使用者。 不過，如果您想要限制傳送給使用者的電子郵件數目，您可以將它關閉。 Microsoft 365 或 Office 365 中的音訊會議會在下列情況中傳送電子郵件給使用者的電子郵件：
 
 - **系統會將音訊會議授權指派給他們，或者當您將音訊會議提供者變更為 Microsoft 時。**
 
@@ -67,7 +67,7 @@ ms.locfileid: "44042860"
 
     當您從使用者移除**音訊會議**授權，或將音訊會議提供者設定為 [**無**] 時，就會發生這種情況。
 
-    請參閱[指派或移除商務用 Office 365 的授權](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)。
+    請參閱[指派或移除 Microsoft 商務用 Microsoft 365 的授權](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)。
 
     以下是這封電子郵件的範例：
 
@@ -78,7 +78,7 @@ ms.locfileid: "44042860"
 
 ## <a name="make-changes-to-the-email-messages-that-are-sent-to-them"></a>對傳送給他們的電子郵件訊息進行變更
 
-您可以對自動傳送給使用者的電子郵件進行變更。 根據預設，電子郵件的寄件者將是來自 Office 365，但是您可以使用 Windows PowerShell 變更顯示名稱。 如需詳細資訊，請參閱[Microsoft 團隊 PowerShell 參考](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)。
+您可以對自動傳送給使用者的電子郵件進行變更。 根據預設，電子郵件的寄件者將是來自 Microsoft 365 或 Office 365，但您可以使用 Windows PowerShell 變更顯示名稱。 如需詳細資訊，請參閱[Microsoft 團隊 PowerShell 參考](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)。
 
 ## <a name="what-if-you-dont-want-email-to-be-sent-to-them"></a>如果您不想傳送電子郵件給他們，該怎麼辦？
 
@@ -88,7 +88,7 @@ ms.locfileid: "44042860"
 
 ![Microsoft Teams 標誌圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
 
-1. 在左側導覽中，前往 [**會議** > **會議橋**]。 
+1. 在左側導覽中，前往 [**會議**  >  **會議橋**]。 
 
 2. 在 [**會議橋接**] 頁面頂端，按一下 [**橋設定**]。 
 
@@ -106,9 +106,9 @@ ms.locfileid: "44042860"
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>想要深入瞭解 Windows PowerShell 嗎？
 
-根據預設，電子郵件的寄件者會是來自 Office 365，但您可以使用 Windows PowerShell 變更電子郵件地址和顯示名稱。 
+根據預設，電子郵件的寄件者將是來自 Microsoft 365 或 Office 365，但您可以使用 Windows PowerShell 變更電子郵件地址和顯示名稱。 
 
-Windows PowerShell 全部說明如何管理使用者，以及允許或不允許的使用者執行。 在 Windows PowerShell 中，您可以使用單一管理點來管理 Office 365，以便在有多項工作需要執行時簡化日常作業。 若要開始使用 Windows PowerShell，請參閱以下主題：
+Windows PowerShell 全部說明如何管理使用者，以及允許或不允許的使用者執行。 在 Windows PowerShell 中，您可以使用單一管理點來管理 Microsoft 365 或 Office 365，以便在您有多個工作執行時，簡化日常作業。 若要開始使用 Windows PowerShell，請參閱以下主題：
 
   - [為什麼需要使用 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
 

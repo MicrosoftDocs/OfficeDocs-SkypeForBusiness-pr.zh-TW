@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: '瞭解如何啟用或停用 Skype 將電子郵件傳送給使用者，例如 pin 變更或 Microsoft 團隊中的預設會議號碼變更等設定。 '
-ms.openlocfilehash: f1c9ca14a88317cd921c19e761ee06cba2786dba
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 36c7e9dce17de1e6f9bbf8b812d62ddd91bc6ffe
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141236"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691599"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-microsoft-teams"></a>啟用或停用 Microsoft 團隊中的音訊會議設定變更時傳送電子郵件
 
@@ -61,7 +61,7 @@ ms.locfileid: "43141236"
 
 ![Microsoft Teams 標誌圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
 
-1. 在左側導覽中，前往 [**會議** > **會議橋**]。 
+1. 在左側導覽中，前往 [**會議**  >  **會議橋**]。 
 
 2. 在 [**會議橋接**] 頁面頂端，按一下 [**橋設定**]。 
 
@@ -80,7 +80,7 @@ ms.locfileid: "43141236"
     
 ## <a name="want-to-know-more-about-windows-powershell"></a>想要深入瞭解 Windows PowerShell 嗎？
 
-Windows PowerShell 全部說明如何管理使用者，以及允許或不允許的使用者執行。 在 Windows PowerShell 中，您可以使用單一管理點來管理 Office 365，以便在有多項工作需要執行時簡化日常作業。 若要開始使用 Windows PowerShell，請參閱以下主題：
+Windows PowerShell 全部說明如何管理使用者，以及允許或不允許的使用者執行。 在 Windows PowerShell 中，您可以使用單一管理點來管理 Microsoft 365 或 Office 365，以便在您有多個工作執行時，簡化日常作業。 若要開始使用 Windows PowerShell，請參閱以下主題：
     
   - [為什麼需要使用 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
     

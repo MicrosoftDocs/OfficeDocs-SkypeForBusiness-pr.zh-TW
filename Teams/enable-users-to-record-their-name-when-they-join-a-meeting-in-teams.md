@@ -22,16 +22,16 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 瞭解如何啟用或停用您的使用者在 Microsoft 團隊中加入會議時是否可以記錄他們的名稱。
-ms.openlocfilehash: f6d1f8ea0ef015e4d951fbf3bbe124263a3b9a1f
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: d7cab4fca4ad3e7732704da9837522d51314061d
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141216"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691579"
 ---
 # <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-microsoft-teams"></a>讓使用者在 Microsoft 團隊中加入會議時，記錄他們的名稱
 
-當您在 Office 365 中設定音訊會議時，您將會收到電話號碼，也就是「音訊會議橋」。 [會議橋] 可以包含一或多個可以是專用或共用電話號碼的電話號碼。
+當您在 Microsoft 365 或 Office 365 中設定音訊會議時，您將會收到電話號碼，也就是「音訊會議橋」。 [會議橋] 可以包含一或多個可以是專用或共用電話號碼的電話號碼。
   
 [會議橋接] 會使用電話撥入會議的使用者，接聽來電。 「會議橋接」會從自動語音應答中向來電者提供語音提示，然後根據其設定，可以播放通知、要求呼叫者記錄其名稱，以及設定會議召集人的 PIN 安全性。 提供給會議召集人的 Pin，讓他們可以開始會議。 不過，您可以設定它，讓您不需要 PIN 就能開始會議。
 
@@ -40,7 +40,7 @@ ms.locfileid: "43141216"
 
 ![Microsoft Teams 標誌圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
 
-1. 在左側導覽中，前往 [**會議** > **會議橋**]。 
+1. 在左側導覽中，前往 [**會議**  >  **會議橋**]。 
 
 2. 在 [**會議橋接**] 頁面頂端，按一下 [**橋設定**]。 
 
@@ -55,7 +55,7 @@ ms.locfileid: "43141216"
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>想要深入瞭解 Windows PowerShell 嗎？
 
-Windows PowerShell 全部說明如何管理使用者，以及允許或不允許的使用者執行。 在 Windows PowerShell 中，您可以使用單一管理點來管理 Office 365，以便在有多項工作需要執行時簡化日常作業。 若要開始使用 Windows PowerShell，請參閱以下主題：
+Windows PowerShell 全部說明如何管理使用者，以及允許或不允許的使用者執行。 在 Windows PowerShell 中，您可以使用單一管理點來管理 Microsoft 365 或 Office 365，以便在您有多個工作執行時，簡化日常作業。 若要開始使用 Windows PowerShell，請參閱以下主題：
     
   - [為什麼需要使用 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
     
@@ -65,4 +65,4 @@ Windows PowerShell 全部說明如何管理使用者，以及允許或不允許�
   
 ## <a name="related-topics"></a>相關主題
 
-[試用或購買 Office 365 的音訊會議](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[試用或購買音訊會議](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

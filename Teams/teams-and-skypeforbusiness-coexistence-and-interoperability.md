@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bcc9aa13f80a090d65bd51c00b797c2a2ad63c61
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: fc1619a751bc6e800ac038486b844de748c6b0b6
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523326"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691039"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>瞭解 Microsoft 團隊及商務用 Skype 的共存與互通性
 
@@ -54,7 +54,7 @@ ms.locfileid: "44523326"
 
 ### <a name="islands-mode"></a>孤島模式
 
-根據預設，使用者可以在商務用 Skype 中執行團隊做為兩個獨立的解決方案，以提供類似及重迭的功能，例如目前狀態、聊天、通話及會議。 團隊使用者也可以利用新的共同作業功能（例如團隊和頻道）、在 Office 365 中存取檔案，以及應用程式。
+根據預設，使用者可以在商務用 Skype 中執行團隊做為兩個獨立的解決方案，以提供類似及重迭的功能，例如目前狀態、聊天、通話及會議。 團隊使用者也可以利用新的共同作業功能（例如團隊和頻道）、在 Microsoft 365 或 Office 365 中存取檔案，以及應用程式。
 
 在此共存模式（稱為**孤島**）中，每個用戶端應用程式都是以個別的孤島運作。 商務用 skype 會與商務用 Skype 進行交談，而團隊則會與團隊進行交談。 使用者應該隨時執行這兩個用戶端，而且可以在啟動通訊的用戶端中以本機方式進行通訊。 如此一來，就不需要在**孤島**模式中進行互通性。
 
@@ -91,7 +91,7 @@ ms.locfileid: "44523326"
 
 ### <a name="skype-for-business-with-teams-collaboration"></a>商務用 Skype 與團隊共同作業
 
-您可以使用此模式在您的環境中引入小組，在您繼續利用商務用 Skype 中的現有投資。 在此模式中，您可以讓商務用 Skype 保持不變的狀態，以進行聊天、通話和會議功能，並新增小組共同作業功能（團隊和頻道）、在 Office 365 中存取檔案，以及應用程式。 團隊通訊功能（私人聊天、通話及排程會議）預設會在此模式中關閉。
+您可以使用此模式在您的環境中引入小組，在您繼續利用商務用 Skype 中的現有投資。 在此模式中，您可以讓商務用 Skype 保持不變的狀態，以進行聊天、通話和會議功能，並新增團隊共同作業功能（團隊和頻道）、在 Microsoft 365 或 Office 365 中存取檔案，以及應用程式。 團隊通訊功能（私人聊天、通話及排程會議）預設會在此模式中關閉。
 
 在內部部署或混合使用商務用 Skype 伺服器起點的組織，如果他們想要為其使用者提供互通性與可預見性，以及將其升級至小組所需的預期時程表（而不是以**孤島**模式來依賴採用飽和），請考慮使用這**種模式。**
 
@@ -142,7 +142,7 @@ ms.locfileid: "44523326"
 <!--![Screen shot of Interop calling experience from Teams](media/Interop_calling_experience_from_Teams.png "Interop calling experience from Teams")-->
 
 > [!Important]
-> 在內部部署商務用 Skype 的交互操作體驗中，您需要在內部部署環境中使用 Office 365 商務用 Skype 的混合模式。 如需詳細資訊，請參閱[遷移和互通性指導](https://aka.ms/SkypeToTeams-Interop)方針。
+> 在內部部署商務用 Skype 的交互操作體驗中，您必須在內部部署環境中使用 Microsoft 365 或 Office 365 商務用 Skype 的混合模式。 如需詳細資訊，請參閱[遷移和互通性指導](https://aka.ms/SkypeToTeams-Interop)方針。
 
 在已指派下列其中一個共存模式的使用者中，也可以使用這些交互操作體驗：**商務用 skype 與團隊**共同作業、**商務用 skype 與團隊**共同作業、會議、**商務用 skype**或**僅限團隊**。 在**孤島**模式中，沒有使用者互通性。
 

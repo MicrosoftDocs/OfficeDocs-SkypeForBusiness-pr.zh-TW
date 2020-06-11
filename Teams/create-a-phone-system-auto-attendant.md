@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 瞭解如何為 Microsoft 團隊設定及測試雲端自動語音應答。
-ms.openlocfilehash: ba7da55a33aa1fa65b677146e73ce352158a4cdf
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 94bbc68ca8a9b89d2ae8c9931ca57b17f761ae90
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523773"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44697440"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>設定雲端自動語音應答
 
@@ -83,7 +83,7 @@ ms.locfileid: "44523773"
 您有幾種方式可以設定運算子：
 
 - [**無] 運算子**會停用「運算子」和「按0」選項。 這是目前的預設值。
-- **組織中的人員**會指派已在 Office 365 中啟用企業語音或指派通話方案的電話系統授權人員。 您也可以將呼叫者設定為傳送給語音信箱。 若要傳送來電者至語音信箱，請選取 [**組織中的人員**]，並將該帳戶的設定設為 [直接傳送電話給語音信箱]。
+- **組織中的人員**會指派已在 Microsoft 365 或 Office 365 中啟用企業語音或指派通話方案的電話系統授權人員。 您也可以將呼叫者設定為傳送給語音信箱。 若要傳送來電者至語音信箱，請選取 [**組織中的人員**]，並將該帳戶的設定設為 [直接傳送電話給語音信箱]。
 
      > [!Note]
      > **組織中的人員**可以是線上使用者，或使用商務用 Skype Server 託管內部部署的使用者。 選取**組織中的人員**時，您可以選取含有共用信箱或使用者信箱的帳戶。
@@ -157,13 +157,13 @@ ms.locfileid: "44523773"
 
 ![數位4的圖示，前一個螢幕擷取畫面中的標注 ](media/teamscallout4.png) 會重新**導向呼叫**將來電者傳送給所選的目的地，而不需選擇 [從選項]。 可能的設定為：
 
-  - **組織中的人員**您選擇的帳戶必須具備企業語音的電話系統授權，或是在 Office 365 中有已指派的通話方案。 您可以將其設定為將呼叫者傳送至語音信箱：選取 [**組織中的人員**]，然後將該帳戶設定為 [讓來電直接轉接至語音信箱]。
+  - **組織中的人員**您選擇的帳戶必須具備企業語音的電話系統授權，或是在 Microsoft 365 或 Office 365 中有已指派的通話方案。 您可以將其設定為將呼叫者傳送至語音信箱：選取 [**組織中的人員**]，然後將該帳戶設定為 [讓來電直接轉接至語音信箱]。
 
     > [!Note]
     > **組織中的人員**可以是線上使用者，或使用商務用 Skype Server 託管內部部署的使用者。 選取**組織中的人員**時，您可以選取含有共用信箱或使用者信箱的帳戶。
 
   - **語音應用程式**選取已設定的自動語音應答或通話佇列。 您可以依與服務相關聯之資源帳戶的名稱來搜尋自動語音應答或通話佇列。
-  - **語音信箱**選取包含貴組織中需要存取此自動語音應答接收之語音信箱之使用者的 Office 365 群組。 語音信箱訊息會傳送至您指定的 Office 365 群組。 若要存取語音信箱訊息，群組成員可以流覽至 Outlook 中的群組來開啟。
+  - **語音信箱**選取包含貴組織中的使用者需要存取此自動語音應答接收之語音信箱的 Microsoft 365 群組。 語音信箱訊息會傳送至您指定的 Microsoft 365 群組。 若要存取語音信箱訊息，群組成員可以流覽至 Outlook 中的群組來開啟。
 
       切換到 [**開啟** **] 以啟用**語音文字會議語音信箱訊息。
 
@@ -198,11 +198,11 @@ ms.locfileid: "44523773"
 <!-- Is the Operator behavior changing here? Looks like operator is only an available option for dial key 0 -->
 
 - **運算子**如果已設定操作員，該選項會自動對應到 key 0，但是也可以刪除或重新指派給不同的金鑰。 選取此選項的來電者會傳送至指定的操作員。 如果運算子未設為任何鍵，語音命令 "Operator" 也會停用。 
-- **組織中的人員**可以是線上使用者，或使用商務用 Skype Server 託管內部部署的使用者。 使用者必須具備在 Office 365 中啟用企業語音或指派通話方案的電話系統授權。 在 [**依名稱搜尋**] 欄位中搜尋人員。
+- **組織中的人員**可以是線上使用者，或使用商務用 Skype Server 託管內部部署的使用者。 使用者必須具備在 Microsoft 365 或 Office 365 中啟用企業語音或指派通話方案的電話系統授權。 在 [**依名稱搜尋**] 欄位中搜尋人員。
 
 - **語音應用程式**選取已設定的自動語音應答或通話佇列。 您可以依與應用程式相關聯之資源帳戶的名稱來搜尋自動語音應答或通話佇列。
 
-- **語音信箱**選取包含貴組織中需要存取此自動語音應答接收之語音信箱之使用者的 Office 365 群組。 語音信箱訊息會傳送至您指定的 Office 365 群組。 若要存取語音信箱訊息，群組成員可以流覽至 Outlook 中的群組來開啟。
+- **語音信箱**選取包含貴組織中的使用者需要存取此自動語音應答接收之語音信箱的 Microsoft 365 群組。 語音信箱訊息會傳送至您指定的 Microsoft 365 群組。 若要存取語音信箱訊息，群組成員可以流覽至 Outlook 中的群組來開啟。
 
     切換到 [**開啟** **] 以啟用**語音文字會議語音信箱訊息。
 
@@ -333,7 +333,7 @@ If you choose **Write your call instructions**, enter the script  you want the s
 
 如果您選取 [**所有線上使用者**]，所有符合資格的使用者都會包含在目錄搜尋中。
 
-**自訂使用者群組**這個選項可讓您搜尋並選取您組織中已建立的 Office 365 群組、通訊群組清單或安全性群組。 如果使用者位於所選的 Office 365 群組、通訊群組清單或安全群組中，而且他們是使用**電話系統授權的線上使用者**，或是使用商務用 Skype Server 主機內部部署的使用者，就會新增到目錄中。 您可以將多個 Microsoft 365 群組、通訊群組清單和安全性群組新增到目錄中。
+**自訂使用者群組**這個選項可讓您搜尋並選取您組織中已建立的 Microsoft 365 群組、通訊群組清單或安全性群組。 如果使用者位於所選的 Microsoft 365 群組、通訊群組清單或安全群組中，而且他們是使用**電話系統授權的線上使用者**，或是使用商務用 Skype Server 主機內部部署的使用者，就會新增到目錄中。 您可以將多個 Microsoft 365 群組、通訊群組清單和安全性群組新增到目錄中。
 
 <a name="dialscope"> </a>
 
@@ -343,8 +343,7 @@ If you choose **Write your call instructions**, enter the script  you want the s
 
 如果您選取 [**無**]，所有符合資格的使用者都會包含在目錄搜尋中。
 
-**自訂使用者群組**您可以搜尋已在貴組織中建立的 Office 365 群組、通訊群組清單或安全性群組。 該群組中的使用者會從 [目錄搜尋] 中排除。 您可以新增多個 Microsoft 365 群組、通訊群組清單和安全性群組。
-
+**自訂使用者群組**您可以搜尋已在貴組織中建立的 Microsoft 365 群組、通訊群組清單或安全性群組。 該群組中的使用者會從 [目錄搜尋] 中排除。 您可以新增多個 Microsoft 365 群組、通訊群組清單和安全性群組。
 
 如果啟用 [依名稱撥號] 時，系統會將設定保留為預設值，則所有符合資格的使用者都會包含在目錄搜尋中。
 
@@ -411,7 +410,7 @@ Press the **Create** button to finish setup of your new auto attendant. -->
 
 ### <a name="more-about-windows-powershell"></a>深入瞭解 Windows PowerShell
 
-- Windows PowerShell 全部說明如何管理使用者，以及允許或不允許的使用者執行。 在 Windows PowerShell 中，您可以從單一管理點管理 Office 365 和 Microsoft 團隊，以簡化日常作業。 若要開始使用 Windows PowerShell，請參閱以下主題：
+- Windows PowerShell 全部說明如何管理使用者，以及允許或不允許的使用者執行。 在 Windows PowerShell 中，您可以從單一管理點管理 Microsoft 365 或 Office 365 及 Microsoft 團隊，以簡化日常作業。 若要開始使用 Windows PowerShell，請參閱以下主題：
 
   - [Windows PowerShell 與 Lync Online 的簡介](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
@@ -419,13 +418,13 @@ Press the **Create** button to finish setup of your new auto attendant. -->
 
 - Windows PowerShell 的速度、簡潔性和生產率都有許多優點，只是使用 Microsoft 365 系統管理中心，例如一次為多個使用者進行設定變更。 請參閱下列主題，瞭解這些優點：
 
-  - [使用 Office 365 PowerShell 管理 Office 365](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
+  - [使用 Office 365 PowerShell 管理 Microsoft 365 或 Office 365](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
 
   - [使用 Windows PowerShell 管理商務用 Skype Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
 ## <a name="related-topics"></a>相關主題
 
-[以下是您在 Office 365 中使用電話系統所取得的結果](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
+[以下是可透過電話系統獲得的功能](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
 [取得服務電話號碼](/microsoftteams/getting-service-phone-numbers)
 

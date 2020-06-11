@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 瞭解如何設定商務用 Skype 針對貴組織的預設語音信箱問候語使用另一種語言。
-ms.openlocfilehash: 9941ba697300d7dd1426e278d8d42900621cf58a
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 988f09141913c72b9334b28d2c218b15bdbf3376
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904328"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691389"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>變更問候語和電子郵件的預設語言
 
@@ -38,7 +38,7 @@ ms.locfileid: "43904328"
   
 - **您可使用的語言是由貴組織的位置決定**。 例如，如果您的組織位於美國，您可以將預設語言設定為英文或西班牙文。 如果您的組織是位於加拿大，您可以選擇 [英文] 和 [法文]。 如需支援的語言清單，請參閱[語音信箱問候語和來自商務用 Skype 的訊息的語言](languages-for-voicemail-greetings-and-messages.md)。
     
-- **變更個別使用者的語音信箱問候語和語音信箱訊息的語言。** 您可以變更使用者的首選 lanaguage，這會變更其語音信箱問候語和傳送至其 Outlook 信箱的語音信箱訊息的語言。 如需指示，請參閱 [如何設定 Office 365 的語言和地區設定]https://docs.microsoft.com/office365/troubleshoot/access-management/set-language-and-region)（。 
+- **變更個別使用者的語音信箱問候語和語音信箱訊息的語言。** 您可以變更使用者的首選 lanaguage，這會變更其語音信箱問候語和傳送至其 Outlook 信箱的語音信箱訊息的語言。 如需指示，請參閱 [如何設定 Microsoft 365 或 Office 365 的語言和地區設定] （） https://docs.microsoft.com/office365/troubleshoot/access-management/set-language-and-region) 。 
     
     > [!NOTE]
     > 使用者可以透過在[Microsoft 商務用 Microsoft 365 中變更顯示語言和](https://support.office.com/en-us/article/change-your-display-language-and-time-zone-in-microsoft-365-for-business-6f238bff-5252-441e-b32b-655d5d85d15b?ui=en-US&rs=en-US&ad=US)時區中的指示，在登入後的設定中變更自己的問候語言
@@ -49,9 +49,9 @@ ms.locfileid: "43904328"
     
 ## <a name="change-the-system-language-for-everyone-in-your-organization"></a>變更組織中每個人的系統語言
 
-1. 使用您的[全域系統管理員](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)帳戶登[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)入。 
+1. 使用您的[全域系統管理員](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)帳戶登入 [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) 。 
     
-2. 在 Microsoft 365 系統管理中心，選擇 [**設定** > **設定** > **組織設定檔**]。 
+2. 在 Microsoft 365 系統管理中心，選擇 [**設定**  >  **設定**  >  **組織設定檔**]。 
     
      ![螢幕擷取畫面顯示選擇 [設定]，然後選擇 [組織設定檔]。](media/9d9de520-bb84-409f-9417-96bd8ec86c48.png)
   
@@ -69,11 +69,11 @@ ms.locfileid: "43904328"
     
 - [設定通話方案](set-up-calling-plans.md)
     
-- [在商務用 Skype Server 中使用內部部署 PSTN 連線來規劃 Office 365 中的電話系統](https://go.microsoft.com/fwlink/?LinkId=717947)
+- [在商務用 Skype Server 中使用內部部署 PSTN 連線來規劃 Microsoft 365 或 Office 365 中的電話系統](https://go.microsoft.com/fwlink/?LinkId=717947)
     
 ## <a name="related-topics"></a>相關主題
 
-- [在商務用 Office 365 中變更您的顯示語言和時區](https://support.office.com/article/Change-your-display-language-and-time-zone-in-Office-365-for-Business-6f238bff-5252-441e-b32b-655d5d85d15b)
+- [在 Microsoft 365 或 Office 365 for Business 中變更您的顯示語言和時區](https://support.office.com/article/Change-your-display-language-and-time-zone-in-Office-365-for-Business-6f238bff-5252-441e-b32b-655d5d85d15b)
     
 - [在 Office 2010 及更新版本中新增語言或設定語言喜好設定](https://support.office.com/article/Add-a-language-or-set-language-preferences-in-Office-663d9d94-ca99-4a0d-973e-7c4a6b8a827d)
     

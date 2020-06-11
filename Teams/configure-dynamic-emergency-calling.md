@@ -17,12 +17,12 @@ description: 瞭解如何設定 Microsoft 通話方案和電話系統直接路�
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 45e0523086ab985a488da15305fffbed8c57b0dc
-ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
+ms.openlocfilehash: 50e32c34b211766aa5fc3ad7732b1dd392ed8346
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44232574"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690879"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>規劃和設定動態緊急電話 
 
@@ -159,7 +159,7 @@ Azure 對應是用來進行位置服務的。  當您使用 Microsoft 團隊系�
 
 使用下列原則設定緊急通話。 您可以在 Microsoft 團隊系統管理中心或使用 PowerShell 管理這些原則。
 
-- **緊急通話路由原則**–只適用于直接路由。 此原則會根據需要設定緊急電話號碼、每個數位的遮罩，以及每個號碼的 PSTN 路由。  您可以將此原則指派給使用者、網路網站，或同時指派給這兩者。 （通話計畫團隊用戶端會根據其 Office 365 使用位置，自動啟用緊急通話的緊急電話號碼。） 若要深入瞭解，請參閱[管理直接路由的緊急通話路由原則](manage-emergency-call-routing-policies.md)。
+- **緊急通話路由原則**–只適用于直接路由。 此原則會根據需要設定緊急電話號碼、每個數位的遮罩，以及每個號碼的 PSTN 路由。  您可以將此原則指派給使用者、網路網站，或同時指派給這兩者。 （通話計畫團隊用戶端會根據其 Microsoft 365 或 Office 365 使用位置，自動啟用緊急通話的緊急電話號碼。） 若要深入瞭解，請參閱[管理直接路由的緊急通話路由原則](manage-emergency-call-routing-policies.md)。
 
 - **緊急通話原則**-適用于通話方案和直接路由。 此原則會在發出緊急通話時設定 security 辦公桌的通知體驗。 您可以設定要通知的人員，以及通知的方式。 例如，自動通知貴組織的安全服務台，並讓他們聆聽緊急通話。  您可以將此原則指派給使用者或網路網站，或同時指派給這兩者。 若要深入瞭解，請參閱[管理團隊中的緊急通話原則](manage-emergency-calling-policies.md)。
 

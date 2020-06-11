@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 33b88e877afe4711894194d6ae05f51c1244b3af
-ms.sourcegitcommit: 26a6802fb7bfc865771fc476916957524c280d83
+ms.openlocfilehash: 6f097563ae71c6d7f59f0469da98cfbf59f2ec82
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "44407375"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690559"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Microsoft Teams 的硬體需求
 
@@ -43,7 +43,7 @@ ms.locfileid: "44407375"
 |.NET 版本    |  需要 .NET 4.5 CLR 或更新版本       |
 |影片    |  USB 2.0 視訊攝影機       |
 |裝置    |   標準膝上型電腦攝影機、麥克風、喇叭    | 
-|視訊通話和會議 | <ul><li>針對1:1 視頻通話提供較佳的體驗，我們建議使用具有單一核處理器和 4.0 GB RAM （或更新版本）的電腦。 </li><li>若要在線上會議中取得更佳的體驗，建議您使用含雙核處理器與 8.0 GB RAM （或更新版本）的電腦。 </li><li>選用的**將我的背景變模糊**視訊效果需要處理器具備進階向量擴充 2 (AVX2) 的支援。 如需不支援的解碼器和編碼器清單，請參閱[硬體解碼器和解碼驅動程式建議](hardware-decoders-and-encoders.md)。</li><li>在 Microsoft Teams 會議室中使用「鄰近偵測」功能加入會議，需要在用戶端裝置上啟用藍芽，且 Windows 用戶端必須有 64 位元 Teams 用戶端。 32 位元 Teams 無此功能。</li></ul> |
+|視訊通話和會議 | <ul><li>針對1:1 視頻通話提供較佳的體驗，我們建議使用具有單一核處理器和 4.0 GB RAM （或更新版本）的電腦。 </li><li>若要在線上會議中取得更佳的體驗，建議您使用含雙核處理器與 8.0 GB RAM （或更新版本）的電腦。 </li><li>選用的**背景影片效果**需要具備高級向量擴充2（AVX2）支援或執行 Windows 10 的處理器。 </li><li>如需不支援的解碼器和編碼器清單，請參閱[硬體解碼器和解碼驅動程式建議](hardware-decoders-and-encoders.md)。</li><li>在 Microsoft Teams 會議室中使用「鄰近偵測」功能加入會議，需要在用戶端裝置上啟用藍芽，且 Windows 用戶端必須有 64 位元 Teams 用戶端。 32 位元 Teams 無此功能。</li></ul> |
 |Teams 即時活動 | 如果您會產生 Teams 即時活動，建議您使用配備 Core i5 Kaby Lake 處理器、4.0 GB (或更高) 、硬體編碼器的電腦。 如需不支援的解碼器和編碼器清單，請參閱[硬體解碼器和解碼驅動程式建議](hardware-decoders-and-encoders.md)。 |
 
 ## <a name="hardware-requirements-for-teams-on-a-mac"></a>Mac 電腦上 Teams 的硬體需求
@@ -57,7 +57,7 @@ ms.locfileid: "44407375"
 |作業系統  |    Mac OS X 10.11 El Capitan 或更新版本     |
 |影片  |    相容的網路攝影機     |
 |語音    |  相容的麥克風與喇叭、具備麥克風的耳機、或同等級裝置       |
-|視訊通話和會議 | <ul><li>針對1:1 視頻通話提供較佳的體驗，我們建議使用具有單一核處理器和 4.0 GB RAM （或更新版本）的電腦。 </li><li>若要在線上會議中取得更佳的體驗，建議您使用含雙核處理器與 8.0 GB RAM （或更新版本）的電腦。 </li><li>選用的**將我的背景變模糊**視訊效果需要處理器具備進階向量擴充 2 (AVX2) 的支援，大部分 2013 後期和之後的 Mac 裝置皆支援 AVX2。 如需不支援的解碼器和編碼器清單，請參閱[硬體解碼器和解碼驅動程式建議](hardware-decoders-and-encoders.md)。</li><li>Mac OS 無法使用 Microsoft Teams 會議室的「鄰近偵測」功能加入會議。</li></ul> |
+|視訊通話和會議 | <ul><li>針對1:1 視頻通話提供較佳的體驗，我們建議使用具有單一核處理器和 4.0 GB RAM （或更新版本）的電腦。 </li><li>若要在線上會議中取得更佳的體驗，建議您使用含雙核處理器與 8.0 GB RAM （或更新版本）的電腦。 </li><li>選用的**背景影片效果**需要具備先進向量擴充2（AVX2）支援的處理器，且支援最晚2013的 Mac 裝置和更新版本。 </li><li>如需不支援的解碼器和編碼器清單，請參閱[硬體解碼器和解碼驅動程式建議](hardware-decoders-and-encoders.md)。</li><li>Mac OS 無法使用 Microsoft Teams 會議室的「鄰近偵測」功能加入會議。</li></ul> |
 
 ## <a name="hardware-requirements-for-teams-on-linux"></a>Linux 電腦上 Teams 的硬體需求
 
@@ -72,7 +72,7 @@ ms.locfileid: "44407375"
 |影片    |  USB 2.0 視訊攝影機       |
 |裝置    |   標準膝上型電腦攝影機、麥克風、喇叭    | 
 |語音    |  相容的麥克風與喇叭、具備麥克風的耳機、或同等級裝置       |
-|視訊通話和會議 | <ul><li>針對1:1 視頻通話提供較佳的體驗，我們建議使用具有單一核處理器和 4.0 GB RAM （或更新版本）的電腦。 </li><li>若要在線上會議中取得更佳的體驗，建議您使用含雙核處理器與 8.0 GB RAM （或更新版本）的電腦。  </li><li>背景視頻效果需要具備高級向量擴充2（AVX2）支援的處理器，且最晚 2013 Mac 裝置及更新版本支援。 如需不支援的解碼器和編碼器清單，請參閱[硬體解碼器和解碼驅動程式建議](hardware-decoders-and-encoders.md)。</li><li>Linux 無法使用 Microsoft Teams 會議室的「鄰近偵測」功能加入會議。</li></ul>
+|視訊通話和會議 | <ul><li>針對1:1 視頻通話提供較佳的體驗，我們建議使用具有單一核處理器和 4.0 GB RAM （或更新版本）的電腦。 </li><li>若要在線上會議中取得更佳的體驗，建議您使用含雙核處理器與 8.0 GB RAM （或更新版本）的電腦。  </li><li>選用的**將我的背景變模糊**視訊效果需要處理器具備進階向量擴充 2 (AVX2) 的支援，大部分 2013 後期和之後的 Mac 裝置皆支援 AVX2。 </li><li>如需不支援的解碼器和編碼器清單，請參閱[硬體解碼器和解碼驅動程式建議](hardware-decoders-and-encoders.md)。</li><li>Linux 無法使用 Microsoft Teams 會議室的「鄰近偵測」功能加入會議。</li></ul>
 |支援的 Linux 發行版 | Ubuntu 16.04 LTS、18.04 LTS、Fedora 30 Workstation、RHEL 8 Workstation、CentOS 8
 
 ## <a name="hardware-requirements-for-teams-on-mobile-devices"></a>行動裝置上 Teams 的硬體需求

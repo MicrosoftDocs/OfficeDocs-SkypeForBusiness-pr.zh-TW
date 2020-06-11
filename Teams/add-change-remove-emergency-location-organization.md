@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: '瞭解如何在 Microsoft 團隊系統管理中心新增、變更或移除您組織的緊急位置。 '
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ae3a224b38fba412b9c0dc4ec0bfde5028440a79
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: 5758d79325cd83579e2a650db47c9913a0cda26b
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44610322"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690839"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>新增、變更或移除貴組織的緊急位置
 
@@ -46,6 +46,7 @@ ms.locfileid: "44610322"
 
    > [!NOTE]
    > 在比利時、法國、德國、愛爾蘭、荷蘭及西班牙，若要在 Microsoft 365 或 Office 365 中成功啟用電話號碼，請務必瞭解，在緊急位置（用來取得號碼）中設定的位址必須符合電話號碼的區功能變數代碼。
+
 5. 如果找不到位址，而您想要手動編輯位址，請開啟 **[手動編輯位址**]。
 6. 按一下 [儲存]****。
 
