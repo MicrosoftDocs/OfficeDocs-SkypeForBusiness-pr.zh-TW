@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - seo-marvel-mar2020
-ms.openlocfilehash: a0002ed8312f2a100ab61aa98923c7f4aeb0dc26
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: b368b0f81a4ce6bcdf3416ec597b702534e4a857
+ms.sourcegitcommit: 54ce623c4db792b5e33f5db00e575afc88776b61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326780"
+ms.lasthandoff: 06/11/2020
+ms.locfileid: "44698273"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>管理 Microsoft 團隊中的自訂應用程式原則和設定
 
@@ -123,10 +123,10 @@ ms.locfileid: "44326780"
 
 |全組織的自訂應用程式設定 |團隊自訂應用程式設定 |使用者自訂 app 原則 |效果  |
 |---------|---------|---------|---------|
-| 出    | 出    | 出     |您的組織已封鎖與所有自訂應用程式的互動。 任何人都無法上傳自訂應用程式。 您可以使用 PowerShell 來移除自訂應用程式。   |
-| 出     | 出     | 按        |您的組織已封鎖與所有自訂應用程式的互動。 任何人都無法上傳自訂應用程式。 您可以使用 PowerShell 來移除自訂應用程式。         |
-| 出    | 按        | 出        |您的組織已封鎖與所有自訂應用程式的互動。 任何人都無法上傳自訂應用程式。 您可以使用 Windows PowerShell 來刪除自訂應用程式。         |
-| 出    | 按      | 按       |您的組織已封鎖與所有自訂應用程式的互動。 任何人都無法上傳自訂應用程式。 您可以使用 PowerShell 來移除自訂應用程式。         |
+| 出    | 出    | 出     |您的組織已封鎖與所有自訂應用程式的互動。 除團隊服務管理員或全域管理員之外，任何人都無法上傳自訂應用程式。您可以使用 PowerShell 來移除自訂應用程式。   |
+| 出     | 出     | 按        |您的組織已封鎖與所有自訂應用程式的互動。 除團隊服務管理員或全域管理員之外，任何人都無法上傳自訂應用程式。您可以使用 PowerShell 來移除自訂應用程式。         |
+| 出    | 按        | 出        |您的組織已封鎖與所有自訂應用程式的互動。 除團隊服務管理員或全域管理員之外，任何人都無法上傳自訂應用程式。您可以使用 Windows PowerShell 來刪除自訂應用程式。         |
+| 出    | 按      | 按       |您的組織已封鎖與所有自訂應用程式的互動。 除團隊服務管理員或全域管理員之外，任何人都無法上傳自訂應用程式。您可以使用 PowerShell 來移除自訂應用程式。         |
 | 按    | 出       | 出         |  使用者無法上傳自訂應用程式。      |
 | 按     | 出       | 按         | 如果使用者是團隊擁有者，則可將自訂應用程式上傳至團隊。 如果使用者不是團隊擁有者，則他們無法將自訂應用程式上傳至團隊。 使用者可以在個人內容中上傳自訂應用程式。     |
 | 按     | 按     | 出         | 使用者無法上傳自訂應用程式。       |
