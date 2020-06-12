@@ -17,12 +17,12 @@ description: 了解如何使用外部存取 (同盟)和來賓存取在 Microsoft
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: b2f91d994ef05b9668d31dabc4d43033350ae85a
-ms.sourcegitcommit: 2c23a8c5afc4a6b74c2c6d7487975a94fe99dc07
+ms.openlocfilehash: fcc17aa7bc00904a13aa77761472ea3ea37a17cd
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "44562038"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689689"
 ---
 <a name="communicate-with-users-from-other-organizations-in-microsoft-teams"></a>在 Microsoft Teams 中與其他組織的使用者通訊
 ======================================================
@@ -44,7 +44,7 @@ ms.locfileid: "44562038"
 
 ## <a name="guest-access"></a>來賓存取
 
-使用 [來賓存取]**** 將個別使用者 (不論網域) 新增至團隊，讓他們可以使用 Office 365 應用程式 (例如 Word、Excel 或 PowerPoint) 來聊天、通話、開會及共同處理組織檔案(儲存在 SharePoint 或商務用 OneDrive 中)。 來賓使用者幾乎擁有與原生團隊成員相同的 Teams 功能。 若要深入了解，請閱讀 [Teams 中的來賓存取](guest-access.md) (英文)。
+使用 [來賓存取]**** 將個別使用者 (不論網域) 新增至團隊，讓他們可以使用 Microsoft 365 或 Office 365 應用程式 (例如 Word、Excel 或 PowerPoint) 來聊天、通話、開會及共同處理組織檔案(儲存在 SharePoint 或商務用 OneDrive 中)。 來賓使用者幾乎擁有與原生團隊成員相同的 Teams 功能。 若要深入了解，請閱讀 [Teams 中的來賓存取](guest-access.md) (英文)。
 
 - 來賓會新增至組織的 Active Directory。
 - 若要與來賓通訊，來賓必須使用其來賓帳戶登入 Teams。 這表示來賓可能必須登出自己的 Teams 帳戶，才能登入您的 Teams 帳戶。
@@ -87,7 +87,7 @@ ms.locfileid: "44562038"
 <sup>1</sup>前提是已將使用者新增為來賓，且使用者以來賓身分登入來賓租用戶。<br>
 <sup>2</sup>僅透過電子郵件或工作階段初始通訊協定 (SIP) 位址。<br>
 <sup>3</sup>外部 (同盟) 聊天僅限一對一聊天。<br>
-<sup>4</sup>針對來自兩個不同組織的僅限 Teams 對僅限 Teams 使用者，支援一對一聊天。 
+<sup>4</sup>針對來自兩個不同組織的僅限 Teams 對僅限 Teams 使用者，支援一對一聊天。 <br>
 <sup>5</sup> 依預設，外部參與者無法查看撥入的參與者電話號碼。 如果您想要維護這些電話號碼的隱私權，請對 [進入/退出宣告類型]**** 選取 [色調]**** (這可避免將數字由 Teams 讀出)。如果您不想將外部 PSTN 電話號碼透露給外部使用者，當您開啟 [進入/結束宣告]**** 時，對宣告類型選取 [色調]****。 若要深入了解，請參閱[開啟或關閉 Microsoft Teams 中會議的進入和退出宣告](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)。
 
 ## <a name="related-topics"></a>相關主題

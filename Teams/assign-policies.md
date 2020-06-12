@@ -18,12 +18,12 @@ description: 瞭解在 Microsoft 團隊中將原則指派給使用者的不同�
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 098e55aa5f4096ac80e6f54e191e6c9d48d90826
-ms.sourcegitcommit: 54ce623c4db792b5e33f5db00e575afc88776b61
+ms.openlocfilehash: 1c8c6700ced98cad815c0e30a3afe3e40ae85b33
+ms.sourcegitcommit: 862ba1d2b3bd4622b1b0baa15096c29c591cc6c4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 06/11/2020
-ms.locfileid: "44698283"
+ms.locfileid: "44702728"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>在 Microsoft Teams 中將原則指派給使用者
 
@@ -34,7 +34,7 @@ ms.locfileid: "44698283"
 
 組織擁有不同類型的使用者，而且您可以建立並指派您所建立及指派的規則，讓您根據這些需求，將原則設定量身定制給不同的使用者組。
 
-為了讓您更容易管理貴組織中的原則，小組提供了幾種指派原則給使用者的方法。 您可以將原則直接指派給使用者、個別或在批次作業中縮放，或指派給使用者所屬的群組。 您也可以使用 [原則套件]，將預設的原則集合指派給組織中擁有相似角色的使用者。 您選擇的選項取決於您所管理的原則數量，以及您要指派的使用者數目。
+為了讓您更容易管理貴組織中的原則，小組提供了幾種指派原則給使用者的方法。 您可以將原則直接指派給使用者、個別或在批次作業中縮放，或指派給使用者是其成員的群組。 您也可以使用 [原則套件]，將預設的原則集合指派給組織中擁有相似角色的使用者。 您選擇的選項取決於您所管理的原則數量，以及您要指派的使用者數目。 您可以設定全域（組織範圍預設值）原則，讓其套用到貴組織中的最大使用者數，您只需將原則指派給需要特殊原則的使用者。
 
 本文說明您可以將原則指派給使用者的不同方式，以及使用方式的建議案例。
 
@@ -62,6 +62,8 @@ ms.locfileid: "44698283"
 
 以下是您可以將原則指派給使用者的方式，以及每個方案的建議案例的概覽。 按一下連結以深入瞭解。
 
+在將原則指派給個別的使用者或群組之前，請先[設定全域（組織範圍預設值）原則](#set-the-global-policies)，讓其套用到貴組織中的最大使用者數。  全域原則設定之後，您只需將原則指派給需要特殊原則的使用者。
+
 |請這麼做  |If .。。  | 使用 .。。
 |---------|---------|----|
 |[指派原則給個別使用者](#assign-a-policy-to-individual-users)    | 您是團隊新手，剛開始使用，或只需要指派一或幾個原則給少數使用者。 |商務用 Skype Online PowerShell 模組中的 Microsoft 團隊管理員中心或 PowerShell Cmdlet
@@ -70,6 +72,50 @@ ms.locfileid: "44698283"
 |[將原則指派給群組](#assign-a-policy-to-a-group)（在預覽中）   |您必須根據使用者的群組成員資格指派原則。 例如，您想要將原則指派給安全性群組或組織單位中的所有使用者。| 團隊 PowerShell 模組中的 PowerShell Cmdlet|
 | [指派原則套件給一批使用者](#assign-a-policy-package-to-a-batch-of-users)|您需要將多個原則指派給組織中擁有相同或相似角色的使用者。 例如，您可以使用批次作業將教育版（教師）原則套件指派給學校中的所有教師，讓他們能完全存取聊天、通話及會議，並將教育（次要學校學生）原則套件指派給一批次要學生，以限制私人通話等特定功能。|團隊 PowerShell 模組中的 PowerShell Cmdlet|
 | 將原則套件指派給群組（即將推出）   | ||
+
+## <a name="set-the-global-policies"></a>設定全域原則
+
+請依照下列步驟，為每個原則類型設定全域（組織範圍預設值）原則。
+
+### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 系統管理中心
+
+1. 在 Microsoft 團隊系統管理中心的左導覽中，移至您要更新之原則類型的原則頁面。 例如，*小組 > 團隊原則*或*會議 > 會議原則*或*訊息原則*或*語音 > 通話原則*。
+2. 選取**全域（組織範圍預設值）** 原則，以查看目前的設定。
+3. 視需要更新原則，然後選取 [**儲存**]。
+
+### <a name="using-powershell"></a>使用 PowerShell
+
+若要使用 PowerShell 來設定全域原則，請使用全域識別碼。  首先，查看目前的全域原則，以判斷您要變更的設定。
+
+```powershell
+Get-CsTeamsMessagingPolicy -Identity Global
+ 
+Identity                      : Global
+Description                   :
+AllowUrlPreviews              : True
+AllowOwnerDeleteMessage       : False
+AllowUserEditMessage          : True
+AllowUserDeleteMessage        : True
+AllowUserChat                 : True
+AllowRemoveUser               : True
+AllowGiphy                    : True
+GiphyRatingType               : Moderate
+AllowMemes                    : True
+AllowImmersiveReader          : True
+AllowStickers                 : True
+AllowUserTranslation          : False
+ReadReceiptsEnabledType       : UserPreference
+AllowPriorityMessages         : True
+ChannelsInChatListEnabledType : DisabledUserOverride
+AudioMessageEnabledType       : ChatsAndChannels
+Expand (20 lines) Collapse 
+```
+
+接著，視需要更新全域原則。  您只需要指定您想要變更之設定的值。 
+ 
+```powershell
+Set-CsTeamsMessagingPolicy -Identity Global -AllowUserEditMessage $false
+```
 
 ## <a name="assign-a-policy-to-individual-users"></a>指派原則給個別使用者
 

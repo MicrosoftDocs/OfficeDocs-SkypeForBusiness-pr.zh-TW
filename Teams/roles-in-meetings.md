@@ -17,12 +17,12 @@ description: 了解 Teams 會議中的簡報者和參與者功能。
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 11c5858532ade4fd4ed00f7c8f6d1d0c94baeb2d
-ms.sourcegitcommit: 1a6b4efad1e6a958cdbaae4b0e2e231145c9658f
+ms.openlocfilehash: c8433d4caa0defbe83114ac4027c10b6bf61a725
+ms.sourcegitcommit: 862ba1d2b3bd4622b1b0baa15096c29c591cc6c4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44321732"
+ms.lasthandoff: 06/11/2020
+ms.locfileid: "44702688"
 ---
 <a name="presenter-and-participant-capabilities-in-a-teams-meeting"></a>Teams 會議中的簡報者和參與者功能
 ======================================================
@@ -92,10 +92,10 @@ Microsoft Teams 會議支援許多參與者類型。 參與者可以根據他們
 
 外部參與者在其他組織中使用 Teams 的人員，其受邀加入會議，因此無法存取貴組織的其他共用資源。 在會議名單上，外部使用者參與者會以自己本身組織中的相同身分識別名稱顯示。 若要深入了解外部參與者，請參閱[與其他組織的使用者通訊](communicate-with-users-from-other-organizations.md#external-access)。
 
-| 會議 (只能以來賓身分新增至團隊) ||
+| 會議 ||
 |-|-|-|
 | **功能** |||
-| 聊天 | 不適用 |
+| 聊天 | 是 |
 | 會議記錄 | 不適用 |  
 | 白板 | 不適用 |
 | 錄製 | 不適用 |  
@@ -110,7 +110,7 @@ Microsoft Teams 會議支援許多參與者類型。 參與者可以根據他們
 | 會議  | | |||
 |---------|----------------|----------------|---------------------|------------|--------------|
 | **功能**        | 會議前 | 會議中 | 會議後 |
-| 聊天 | 不適用 | 否 | 不適用 |
+| 聊天 | 不適用 | 是 | 不適用 |
 | 會議記錄 | 不適用 | 否 | 不適用 |
 | 白板 | 不適用 | 否 | 不適用 |
 | 錄製 | 不適用 | 否 | 不適用 |

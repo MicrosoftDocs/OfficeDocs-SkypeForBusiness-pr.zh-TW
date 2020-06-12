@@ -19,12 +19,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c706fdde4f9634cc67b334cf19d0e9d3325f6ec8
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: f01c95ac248d470cc0384e42b6948c45bb99c8bf
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776578"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691319"
 ---
 # <a name="learn-how-to-deploy-audio-conferencing-in-microsoft-teams"></a>了解如何在 Microsoft Teams 中部署音訊會議
 
@@ -44,7 +44,7 @@ ms.locfileid: "43776578"
 |問問自己|動作 |
 |------------|-------|
 |我所在的國家/地區是否可使用音訊會議？|若要了解您的國家/地區是否可使用音訊會議，請參閱[音訊會議與通話方案的適用國家/地區](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。|
-|我的使用者是否具有 Teams 音訊會議的適當授權？|音訊會議授權可隨 Office 365 E5 訂閱取得，或是從 Microsoft 365 商務標準版、E1 或 E3 訂閱的附加服務取得。 <ul><li>若要取得並指派授權，請參閱[試用或購買 Office 365 中的音訊會議](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)和[指派或移除商務用 Office 365 的授權](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)。</li><li> 若要深入了解，請參閱 [Microsoft Teams 附加元件授權](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。 </li><li>若要查看每個包含在 Office 365 方案中的雲端功能，請參閱[根據您方案的授權選項](teams-add-on-licensing/office-365-business-premium.md)文章。</li></ul>|
+|我的使用者是否具有 Teams 音訊會議的適當授權？|音訊會議授權可隨 Microsoft 365 或 Office 365 E5 訂閱取得，或是從 Microsoft 365 商務標準版、E1 或 E3 訂閱的附加服務取得。 <ul><li>若要取得並指派授權，請參閱[試用或購買 Microsoft 365 或 Office 365 中的音訊會議](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)和[指派或移除 Microsoft 365 Apps 商務版的授權](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)。</li><li> 若要深入了解，請參閱 [Microsoft Teams 附加元件授權](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。 </li><li>若要查看包含在各方案中的雲端功能，請參閱[根據您方案的授權選項](teams-add-on-licensing/office-365-business-premium.md)文章。</li></ul>|
 |對於獲得音訊會議授權的使用者，我是否需要為他們購買通訊點數？|若要深入了解，請參閱[什麼是通訊點數](what-are-communications-credits.md)，然後查看下方的[通訊點數](#communications-credits) 一節。|
 |||
 
@@ -69,7 +69,7 @@ Teams 提供了一組自訂管理員角色，可用來為組織管理 Teams。 �
 
 會議橋接器可讓與會者使用電話撥入會議。 您可以使用會議橋接器的預設設定，或變更電話號碼 (付費和免付費) 以及其他設定，例如 PIN 或使用的語言。
 
-如需詳細資訊，請參閱[Office 365 的音訊會議](audio-conferencing-in-office-365.md)。
+如需詳細資訊，請參閱[音訊會議](audio-conferencing-in-office-365.md)。
 
 |問問自己|動作 |
 |------------|-------|
@@ -136,7 +136,7 @@ Teams 音訊會議可讓您設定會議橋接器的預設和替代語言。
 
 ### <a name="dial-plans"></a>撥號對應表
 
-撥號對應表包含在 Office 365 的電話系統中，是可將撥打的電話號碼轉換為替代格式 (通常是 E.164 格式)，以進行通話授權和通話路由的正規化規則集合。
+撥號對應表包含在 Microsoft 365 或 Office 365 的電話系統中，是可將撥打的電話號碼轉換為替代格式 (通常是 E.164 格式)，以進行通話授權和通話路由的正規化規則集合。
 
 如需撥號對應表的相關資訊，請參閱[什麼是撥號對應表？](what-are-dial-plans.md)
 

@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 10d52aca36d92029f8ee832be84e6dc7d140f749
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: f95a38727a886187e6bf01b0a4ec64e5546b627d
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902878"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689649"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>快速入門手冊：在 Microsoft 團隊中設定通話方案
 ==============================================================
@@ -36,7 +36,7 @@ ms.locfileid: "43902878"
 > [!NOTE]
 > 我們建議您與此快速入門手冊並行，閱讀含通話方案和[FastTrack](https://aka.ms/cloudvoice)的[電話系統](calling-plan-landing-page.md)，以規劃並推動成功的推出。
 
-透過新增通話方案（由商務用 Skype 提供的 Office 365 功能），您現在可以使用團隊撥打或接聽來自土地線路與行動電話的電話撥打電話，或透過公用交換電話網絡（PSTN）撥打或接聽電話。
+透過新增通話方案（由商務用 Skype 提供的 Microsoft 365 和 Office 365 功能），您現在可以使用團隊撥打或接聽來自土地線路與行動電話的電話撥打電話，或透過公用交換電話網絡（PSTN）撥打或接聽電話。
 
 ![顯示小組中連絡人頁面的螢幕擷取畫面](media/Calling_in_Teams.png)
 ## <a name="prerequisites-for-enabling-the-calls-tab-in-teams"></a>啟用團隊中的 [**通話**] 索引標籤的先決條件

@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 83e5c452cd2e9056818059c5f0b1ddcdeca2c235
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 10d17aedd0a653b6fc5bd24946ede5da09dc4647
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43901948"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691329"
 ---
 # <a name="apps-bots--connectors-in-microsoft-teams"></a>Microsoft Teams 中的應用程式、Bot 和連接器
 
@@ -63,11 +63,11 @@ Teams 提供數個由 Microsoft 發行的應用程式和第三方應用程式，
 
 ### <a name="bots-for-private-chats-and-channels"></a>適用於私人聊天和頻道的 Bot
 
-Bot 是自動程式，可回應查詢或可針對使用者感興趣或希望隨時了解的詳細資訊提供更新和通知。 Bot 可讓使用者與 Teams 聊天中的雲端服務互動，例如工作管理、排程和投票等。 Teams 支援在私人聊天和頻道中使用 Bot。 系統管理員可以控制是否允許在 Office 365 組織中使用 Bot。
+Bot 是自動程式，可回應查詢或可針對使用者感興趣或希望隨時了解的詳細資訊提供更新和通知。 Bot 可讓使用者與 Teams 聊天中的雲端服務互動，例如工作管理、排程和投票等。 Teams 支援在私人聊天和頻道中使用 Bot。 系統管理員可以控制是否允許在 Microsoft 365 或 Office 365 組織中使用 Bot。
 
 | 問問自己 | 動作 |
 |--------------|--------|
-|我想要在我的 Office 365 組織中允許使用自訂 Bot 嗎？|如需新增 Bot 的詳細資訊，請參閱[在 Microsoft Teams 中新增適用於私人聊天和頻道的 Bot](add-bots.md) (英文)。 如需開啟或關閉自訂 Bot 的詳細資訊，請參閱 [Microsoft Teams 中應用程式的系統管理設定](admin-settings.md)。|
+|我想要在我的組織中允許使用自訂 Bot 嗎？|如需新增 Bot 的詳細資訊，請參閱[在 Microsoft Teams 中新增適用於私人聊天和頻道的 Bot](add-bots.md) (英文)。 如需開啟或關閉自訂 Bot 的詳細資訊，請參閱 [Microsoft Teams 中應用程式的系統管理設定](admin-settings.md)。|
 |||
 
 ### <a name="built-in-and-custom-tabs"></a>內建和自訂索引標籤
@@ -76,16 +76,16 @@ Bot 是自動程式，可回應查詢或可針對使用者感興趣或希望隨�
 
 | 問問自己 | 動作 |
 |--------------|--------|
-|我想要在我的 Office 365 組織中允許使用自訂索引標籤嗎？|如需詳細資訊，請參閱 [在 Teams 中使用內建和自訂索引標籤](built-in-custom-tabs.md)。|
+|我想要在我的組織中允許使用自訂索引標籤嗎？|如需詳細資訊，請參閱 [在 Teams 中使用內建和自訂索引標籤](built-in-custom-tabs.md)。|
 |||
 
-### <a name="office-365-and-custom-connectors"></a>Office 365 和自訂連接器
+### <a name="custom-connectors"></a>自訂連接器
 
 連接器透過將您經常使用的服務中的內容和更新直接發送到頻道中，進而使您的團隊保持最新狀態。 有了連接器，您的 Teams 使用者就能在其 Teams 聊天中接收來自來自 Twitter、Trello、Wunderlist、GitHub 和 Azure DevOps 服務等熱門服務的更新。
 
 | 問問自己 | 動作 |
 |--------------|--------|
-|我是否要允許使用者建立自訂連接器？|如需詳細資訊，請參閱 [在 Teams 中使用 Office 365 和自訂連接器](office-365-custom-connectors.md)。|
+|我是否要允許使用者建立自訂連接器？|如需詳細資訊，請參閱[在 Teams 中使用自訂連接器](office-365-custom-connectors.md)。|
 |||
 
 ## <a name="additional-deployment-decisions"></a>其他部署決策
@@ -94,7 +94,7 @@ Bot 是自動程式，可回應查詢或可針對使用者感興趣或希望隨�
 
 ### <a name="activity-reports"></a>活動報告
 
-您可以使用活動報告來查看組織中的使用者如何使用 Teams。 例如，如果有人還沒使用 Teams，可能是他們不知道如何開始，或不了解如何使用 Teams 提高生產力和共同作業。 組織可以使用活動報告來決定要優先進行訓練和溝通的方面。 若要查看活動報告，您必須是 Office 365 的全域系統管理員、Teams 服務系統管理員或商務用 Skype 系統管理員。
+您可以使用活動報告來查看組織中的使用者如何使用 Teams。 例如，如果有人還沒使用 Teams，可能是他們不知道如何開始，或不了解如何使用 Teams 提高生產力和共同作業。 組織可以使用活動報告來決定要優先進行訓練和溝通的方面。 若要查看活動報告，您必須是 Microsoft 365 或 Office 365 的全域系統管理員、Teams 服務系統管理員或商務用 Skype 系統管理員。
 
 | 問問自己 | 動作 |
 |--------------|--------|

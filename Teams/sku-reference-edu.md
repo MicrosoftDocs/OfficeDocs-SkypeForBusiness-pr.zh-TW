@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: 列出教育教職員和學生授權方案和 SKU 識別碼。
 f1keywords: ''
-ms.openlocfilehash: 89b0a3d69fa933c8feacb27cc9c8a8a4213fa2e0
-ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
+ms.openlocfilehash: 5f382be6aa19cbfef45bc0dcef350e5354df118a
+ms.sourcegitcommit: 862ba1d2b3bd4622b1b0baa15096c29c591cc6c4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42583328"
+ms.lasthandoff: 06/11/2020
+ms.locfileid: "44702698"
 ---
 # <a name="education-sku-reference"></a>教育版 SKU 參考
 
@@ -67,6 +67,7 @@ ms.locfileid: "42583328"
 |沒有音訊會議供學生使用的 Office 365 A5 （福利）  |ENTERPRISEPREMIUM_NOPSTNCONF_STUUSEBNFT         |bc86c9cd-3058-43ba-9972-141678675ac1         |
 |適用于學生 Homeschool 的 Office 365 教育版     |STANDARDWOFFPACK_HOMESCHOOL_STU         |afbb89a7-db5f-45fb-8af0-1bc5c5015709         |
 |Office 365 A1 學生版（適用于裝置）     |STANDARDWOFFPACK_STUDENT_DEVICE         |160d609e-ab08-4fce-bc1c-ea13321942ac         |
+|Office 365 A1 Plus 學生版     |STANDARDWOFFPACK_IW_STUDENT         |e82ae690-a2d5-4d76-8d30-7c6e01e6022e         |
 
 ## <a name="related-topics"></a>相關主題
 
