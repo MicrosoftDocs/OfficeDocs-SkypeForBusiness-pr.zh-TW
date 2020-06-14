@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 63bfd0cb9fe4292b180dfc6a0c7852b3c90a8bc4
-ms.sourcegitcommit: 624bd511b96cf213483d3ea8f27b20a91d955550
+ms.openlocfilehash: 32e231fbcef2991e13ec5b496e6ed61eb677ee20
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44330538"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665755"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>使用新式驗證登入 Microsoft Teams
 ==========================
@@ -69,7 +69,7 @@ Microsoft Teams 使用新式驗證讓登入體驗更加簡單可靠。 若要瞭
 
 ## <a name="urls-and-ip-address-ranges"></a>URL 和 IP 位址範圍
 
-Teams 需要連線到網際網路。 若要瞭解客戶在 Office 365 方案、政府和其他雲端中使用 Teams 能夠連線的端點，請參閱 [Office 365 URL 和 IP 位址範圍](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)。
+Teams 需要連線到網際網路。 若要瞭解客戶在 Microsoft 365 或 Office 365 方案、政府和其他雲端中使用 Teams 聯絡客戶的端點資訊，請參閱 [Office 365 URL 和 IP 位址範圍](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)。
 
 > [!IMPORTANT]
 > Teams 目前需要讓所有使用者存取 (TCP 通訊埠 443) 連線到 Google ssl.gstatic.com 服務 (<https://ssl.gstatic.com)>。即使您沒有使用 Gstatic 亦同。 Teams 很快會移除此要求 (2020 年初)，我們到時候也會更新本文。

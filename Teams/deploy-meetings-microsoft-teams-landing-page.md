@@ -19,14 +19,19 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a1ffc082e2990b97781100de2cbffd6d094cc5c9
-ms.sourcegitcommit: 3ed779277540589eabef745685ab6c67d8a8ff90
+ms.openlocfilehash: 01f57601e7dbf59286c5a92a45b09f835b21c131
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44281678"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691299"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Microsoft Teams 中的會議和召集會議
+
+> [!NOTE]
+> - 如需轉換至遠端學習和資源以協助您開始使用的概觀，請參閱我們的[**遠端學習首頁**](https://www.microsoft.com/education/remote-learning)。
+> - 可在 [**Office 365 教育版中的遠端教學和學習**](https://support.office.com/article/remote-teaching-and-learning-in-office-365-education-f651ccae-7b65-478b-8366-51bb884025c4)中取得協助教育人員和學生進行遠端學習的資源。
+
 
 您已完成[開始使用](get-started-with-teams-quick-start.md)。 您已使用[聊天、團隊、頻道和應用程式](deploy-chat-teams-channels-microsoft-teams-landing-page.md)在組織中推出 Teams。 現在您已準備好要新增會議工作負載，包括[音訊會議](deploy-audio-conferencing-teams-landing-page.md)、視訊和共用。 本文將逐步引導您完成會議與音訊會議的推出。 請從觀看我們的 Teams 會議、召集會議和裝置影片開始 (3 分 28 秒)：
 
@@ -58,11 +63,9 @@ Teams 為您的組織提供絕佳的現成體驗，而大部分組織認為預�
 - 從將使用 Teams 的用戶端傳出的 TCP 連接埠 80 和 443
 - 從將使用 Teams 的用戶端傳出的 UDP 連接埠 3478 到 3481
 
-您可以使用[網路測試小幫手](https://www.powershellgallery.com/packages/NetworkTestingCompanion/1.5.2)來確認您的網路位置已針對支援會議體驗所需的語音及視訊流量準備就緒。
-
 | 問問自己 | 動作 |
 |--------------|--------|
-|我的網路是否已準備好進行 Teams 會議部署？ | 若要確認您的網路已準備就緒，請參閱：<ul><li>[針對 Microsoft Teams 準備組織的網路](https://docs.microsoft.com/MicrosoftTeams/prepare-network)</li><li>[Office 365 URL 與 IP 位址範圍](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges)</li></ul> |
+|我的網路是否已準備好進行 Teams 會議部署？ | 若要確認您的網路已準備就緒，請參閱：<ul><li>[針對 Microsoft Teams 準備組織的網路](https://docs.microsoft.com/MicrosoftTeams/prepare-network)</li><li>[URL 和 IP 位址範圍](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges)</li></ul> |
 |||
 
 ## <a name="core-deployment-decisions"></a>核心部署決策

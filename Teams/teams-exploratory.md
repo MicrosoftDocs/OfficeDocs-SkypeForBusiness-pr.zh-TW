@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 502bdb8c5e441449680fa383b20f3e570d8a8ecc
-ms.sourcegitcommit: ef3cd762e799df43bdcde03363c501d7ca9bb6b3
+ms.openlocfilehash: 7054156ad2cb3526cd2e8fc802014433a68efc81
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44489125"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689709"
 ---
 <a name="manage-the-microsoft-teams-exploratory-license"></a>管理 Microsoft Teams Exploratory 授權
 =======================================================
@@ -33,18 +33,18 @@ Microsoft Teams Exploratory 體驗可讓貴組織中擁有 Azure Active Director
 
 系統管理員將在 Teams Exploratory 體驗中看到的服務方案如下：
  - Exchange Online (方案 1)
- - 適用於 Office 365 的 Flow
+ - Microsoft 365 或 Office 365 的流程
  - MyAnalytics 的深入解析
  - Microsoft Forms (方案 E1)
  - Microsoft Planner
  - Microsoft 搜尋
  - Microsoft StaffHub
- - 適用於 O365 E1 SKU 的 Microsoft Stream
+ - 適用於 Microsoft 365 和 Office 365 E1 SKU 的 Microsoft Stream
  - Microsoft Teams
- - 適用於 Office 365 的行動裝置管理
+ - Microsoft 365 或 Office 365 的行動裝置管理
  - 適用於 Office 365 的 Office 行動裝置應用程式 
  - Office Online
- - 適用於 Office 365 的 PowerApps
+ - 適用於 Microsoft 365 或 Office 365 的 PowerApps
  - SharePoint Online (方案 1)
  - Sway
  - To-Do (方案 1)
@@ -152,7 +152,7 @@ Teams Exploratory 體驗隨附 Exchange Online 授權，但在系統管理員指
 
 - 如果您想要透過 PowerShell 移除此授權，請參閱：[使用 Office 365 PowerShell 從使用者帳戶移除授權](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)
 
-- 如果您想要透過系統管理入口網站移除此授權，請參閱：[在商務用 Office 365 中移除使用者的授權](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)
+- 如果您想要透過系統管理入口網站移除此授權，請參閱：[刪除組織的使用者](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)
 
 ## <a name="how-long-does-the-teams-exploratory-experience-last"></a>Teams Exploratory 體驗持續時間？
 

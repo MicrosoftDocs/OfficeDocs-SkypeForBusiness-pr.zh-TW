@@ -18,12 +18,12 @@ description: 在本文中，您將了解在 Microsoft Teams 中設定即時活�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e997b667b02ef2c3b68e5c751b619098e9e740e4
-ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
+ms.openlocfilehash: ae4b4c06d6340c89cf41e271db8bcd359f27d211
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44224236"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689729"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中規劃即時活動
 
@@ -46,7 +46,7 @@ ms.locfileid: "44224236"
 > [!NOTE]
 > 目前，沒有任何 Microsoft 365 小型企業方案可供用來建立及保留 Teams 即時活動。
 
-請務必知道，若要以已驗證的使用者身分參與即時活動，必須要具備 Office 365 授權，但這項需求視使用的生產方法而定：
+請務必知道，若要以已驗證的使用者身分參與即時活動，必須要具備 Microsoft 365 或 Office 365 授權，但這項需求視使用的生產方法而定：
 
 - **針對 Teams 中產生的活動**，使用者必須取得指派的 Teams 授權。
 - **針對外部應用程式或裝置所產生的活動**，使用者必須取得指派的 Stream 授權。
@@ -97,7 +97,7 @@ ms.locfileid: "44224236"
 |對象數目上限 |10,000 位出席者 |10,000 位出席者<sup>1</sup> |10,000 位出席者<sup>1</sup> |
 |即時活動的持續時間上限 |4 小時 |4 小時 |4 小時 |
 |即時活動中簡報者和製作人人數上限 |10 <sup>2</sup> |10 <sup>2</sup> |10 <sup>2</sup> |
-|每個 Office 365 組織的並行即時活動數量上限 |15  | 15  | 15  |
+|每個 Microsoft 365 或 Office 365 組織的並行即時活動數量上限 |15  | 15  | 15  |
 |即時活動建立 |   Skype 會議廣播入口網站 |Teams，透過 Teams 的 Yammer | Teams，透過 Teams 的 Yammer，Stream |
 |對象參與 – Yammer |&#x2714; |&#x2714; (整合式體驗) |&#x2714; (整合式體驗) |
 |對象參與 – 仲裁常見問題集 |&#x2714;  |&#x2714; |&#x2714; |
@@ -117,7 +117,7 @@ ms.locfileid: "44224236"
 |即時輔助字幕和翻譯字幕 |&#x2714; |&#x2714; |&#x274C; |
 |即時活動錄製中的輔助字幕 |&#x2714; |&#x2714; |&#x2714; |
 |出席者 DVR 控制項 (暫停、倒轉) |&#x2714; |&#x2714; |&#x2714; |
-|合作夥伴 eCDN 支援 |&#x2714; (Hive、Kollective、Ramp) |&#x2714; (Hive、Kollective、Ramp) |&#x2714; (Hive、Kollective、Ramp) |
+|合作夥伴 eCDN 支援 |&#x2714; (Kollective、Ramp) |&#x2714; (Kollective、Ramp) |&#x2714; (Hive、Kollective、Ramp) |
 |適用於製作人的廣播後出席報告 |&#x2714; |&#x2714; |&#x274C; |
 |對象人氣分析 - 即時投票與票選 |&#x2714; (Microsoft Pulse) |&#x274C; |&#x274C; |
 

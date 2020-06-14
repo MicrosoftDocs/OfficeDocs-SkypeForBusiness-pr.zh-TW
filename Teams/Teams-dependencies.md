@@ -18,17 +18,17 @@ f1.keywords:
 description: 透過四種不同的授權等級管理 Microsoft Teams 的來賓存取功能。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 848db9ea517876d941e837eaff34e72e0cff9c2a
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 9c1a01c600ce0b5e64df274b12c9956bf922e9b4
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778479"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689799"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>在 Microsoft Teams 中授權來賓存取
 ===========================================
 
-為滿足貴組織的需求，您可以透過四種不同的授權等級管理 Microsoft Teams 的來賓存取功能。 所有授權等級都適用於您的 Office 365 組織。 每個授權等級控制的來賓體驗如下所示：
+為滿足貴組織的需求，您可以透過四種不同的授權等級管理 Microsoft Teams 的來賓存取功能。 所有授權等級都適用於您的 Microsoft 365 或 Office 365 組織。 每個授權等級控制的來賓體驗如下所示：
 
 - **Azure Active Directory**：Microsoft Teams 的來賓存取需要 Azure AD 企業對企業 (B2B) 平台。 此授權等級控制目錄、租用戶和應用程式層級的來賓體驗。
 - **Microsoft Teams**：僅控制 Microsoft Teams 中的來賓體驗。
@@ -38,9 +38,9 @@ ms.locfileid: "43778479"
 這些不同的授權等級能夠讓您彈性設定貴組織的來賓存取。 例如，如果您不想在 Microsoft Teams 中允許來賓使用者，但是想要在貴組織中全面允許來賓使用者，只要在 Microsoft Teams 中關閉來賓存取即可。 另一個範例：您可以啟用 Azure AD、Microsoft Teams 和群組等級的來賓存取，但是接著在符合一或多個準則 (例如資料分類等於機密) 的小組中，停用所選小組的新增來賓使用者功能。 SharePoint Online 和商務用 OneDrive 擁有自己的來賓存取設定，不需要依賴 Microsoft 365 群組。
 
 > [!NOTE]
-> 來賓須遵守 [Office 365](https://go.microsoft.com/fwlink/p/?linkid=282347) 和 [Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=853019) 的服務限制。 
+> 來賓會受 [Microsoft 365 和 Office 365 服務描述](https://go.microsoft.com/fwlink/p/?linkid=282347)和 [Azure AD B2B 共同作業限制](https://go.microsoft.com/fwlink/p/?linkid=853019)中所描述的服務限制。 
 
-以下圖表顯示在 Azure Active Directory、Microsoft Teams 和 Office 365 之間，來賓存取之授權相依性的授權方式和整合。
+以下圖表顯示在 Azure Active Directory、Microsoft Teams 和 Microsoft 365 或 Office 365 之間，來賓存取之授權相依性的授權方式和整合。
 
 ![來賓存取的授權相依性圖表。](media/teams_dependencies_image1.png)
 
@@ -110,7 +110,7 @@ Teams 的來賓存取依預設會關閉。 若要開啟來賓存取，請參閱[
 
 Teams 需要 SharePoint Online 和商務用 OneDrive 來儲存頻道和聊天交談的檔案和文件。  
 
-如需完整的 Teams 來賓存取體驗，Office 365 系統管理員必須設定下列設定：
+如需完整的 Teams 來賓存取體驗，Microsoft 365 及 Office 365 系統管理員必須設定下列設定：
 
 - 在 SharePoint Online：選取 **[現有的來賓]**、**[新的及現有來賓]** 或 **[任何人]**。
 

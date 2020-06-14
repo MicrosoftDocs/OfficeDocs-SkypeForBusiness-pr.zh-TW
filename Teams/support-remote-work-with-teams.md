@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 使用本指導方針來協助組織中的遠端工作者使用 Microsoft Teams 來提高生產力，尤其是當他們在家中工作 (WFH) 時，以因應 COVID-19 (冠狀病毒) 爆發的情況。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bdcb1dd78db1e3a555b58b40c17a7313d875317a
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 91f41893f572465d2e51b66a56737f10f0f88fc0
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042420"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691489"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>支援使用 Microsoft Teams 的遠端工作者
 
@@ -88,11 +88,11 @@ ms.locfileid: "44042420"
 
    - 有限的頻寬會影響 Teams 會議中的音訊品質。 為了確保在低頻寬條件下的最佳會議體驗，請鼓勵使用者限制視訊通話，並對通話和會議音訊使用 PSTN。 
 
-   - 請閱讀這篇及時的部落格 (2020 年 3 月 6 日)，[如何快速優化遠端員工的 Office 365 流量，並降低基礎結構負載](https://techcommunity.microsoft.com/t5/office-365-blog/how-to-quickly-optimize-office-365-traffic-for-remote-staff-amp/ba-p/1214571) (英文)。
+   - 請閱讀這篇最新的部落格 (2020 年 3 月 6 日)，[如何快速優化遠端員工的 Microsoft 365 或 Office 365 流量，並降低基礎結構負載](https://techcommunity.microsoft.com/t5/office-365-blog/how-to-quickly-optimize-office-365-traffic-for-remote-staff-amp/ba-p/1214571) (英文)。
 
    - 2020 的 3 月 26 日部落格：[在 VPN 上執行：Microsoft 如何保持遠端工作力的聯繫](https://www.microsoft.com/itshowcase/blog/running-on-vpn-how-microsoft-is-keeping-its-remote-workforce-connected/) (英文)
    
-   - 如果您在中國，請參閱 [Office 365 針對中國使用者的全域租用戶效能最佳化](https://docs.microsoft.com/Office365/Enterprise/office-365-networking-china)。
+   - 如果您在中國，請參閱 [Microsoft 365 或 Office 365 針對中國使用者的全域租用戶效能最佳化](https://docs.microsoft.com/Office365/Enterprise/office-365-networking-china) (部分機器翻譯)。
 
    - 如果您需要協助有關通話或會議品質的疑難排解或問題修正，請遵循本文最下方的[已知問題 - 中國：撥入商務用 Skype 或 Teams 會議識別碼](#known-issue---china-dialing-into-skype-for-business-or-teams-conference-ids)中的指導方針。
 
@@ -106,7 +106,7 @@ ms.locfileid: "44042420"
 
    - [安全性團隊支援在家工作最常見的 12 項工作](https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work)
    
-   - [使用 VPN 分割通道將遠端使用者的 Office 365 連線能力最佳化](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
+   - [使用 VPN 分割通道將遠端使用者的 Microsoft 365 或 Office 365 連線能力最佳化](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
 
    - [安全性和 Teams](teams-security-guide.md) 進入 Teams 安全性的所有技術詳細資料，做為 Microsoft 365 企業級安全性最佳做法與程序的一部分。
 
@@ -132,9 +132,9 @@ ms.locfileid: "44042420"
 
       - Teams 部落格 (2020 年 2 月 28 日)：[使用 Microsoft Teams 在家工作的 4 個祕訣](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/4-tips-for-working-from-home-with-microsoft-teams-by-lola/ba-p/1202083) (英文)
 
-      - [使用 Office 365 共同作業](https://support.office.com/article/Collaborate-with-Office-365-ac05a41e-0b49-4420-9ebc-190ee4e744f4)
+      - [使用 Microsoft 365 或 Office 365 共同作業](https://support.office.com/article/Collaborate-with-Office-365-ac05a41e-0b49-4420-9ebc-190ee4e744f4)
 
-      - [使用 Office 365 遠端作業](https://support.office.com/article/work-remotely-with-office-365-164946c8-a47a-470e-a0b4-feb12a2eea04)
+      - [使用 Microsoft 365 或 Office 365 遠端工作](https://support.office.com/article/work-remotely-with-office-365-164946c8-a47a-470e-a0b4-feb12a2eea04)
       
       - [遠端工作的 9 個秘訣](https://www.microsoft.com/tips/home/working-remotely)
 

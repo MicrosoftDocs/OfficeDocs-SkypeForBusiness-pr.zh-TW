@@ -19,12 +19,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
-ms.openlocfilehash: 3b1546c71cc2796ce599da449ab37bf275384efc
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 6a77e98a75497d8608f0b85ad1a52d3fed8d153b
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637892"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691309"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams 中的聊天、團隊、頻道和應用程式
 
@@ -35,7 +35,7 @@ Teams 為您的組織提供絕佳的現成共同作業體驗，而大部分組�
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE476Yj]
 
 *2019 年 11 月的新增功能*
- - 您現在可以使用 [Advisor for Teams (預覽) 協助您推出 Microsoft Teams](use-advisor-teams-roll-out.md)。 Advisor for Teams (預覽) 會引導您完成 Teams 的推出。 在您成功推出 Teams 前，它會評估您的 Office 365 環境，找出可能需要更新或修改的最常用設定。
+ - 您現在可以使用 [Advisor for Teams (預覽) 協助您推出 Microsoft Teams](use-advisor-teams-roll-out.md)。 Advisor for Teams (預覽) 會引導您完成 Teams 的推出。 在您成功推出 Teams 前，它會評估您的 Microsoft 365 或 Office 365 環境，找出可能需要更新或修改的最常用設定。
  - [適用於 IT YouTube 頻道的 Microsoft Teams 基本版](https://aka.ms/MicrosoftTeamsforIT)，包括告訴您如何推出、設定及管理 Teams 的簡短 (8-10 分鐘) 影片。
 
 > [!TIP]
@@ -47,7 +47,7 @@ Teams 為您的組織提供絕佳的現成共同作業體驗，而大部分組�
 
 |問問自己|動作 |
 |------------|-------|
-|我的組織是否已準備好要推出 Teams？|若要回答此問題，請參閱： <ul><li>[針對 Teams 準備組織的網路](prepare-network.md)</li><li>[Office 365 URL 與 IP 位址範圍](office-365-urls-ip-address-ranges.md)</li><li>[在建立團隊時規劃 Microsoft 365 群組](plan-office-365-groups.md)</li></ul>|
+|我的組織是否已準備好要推出 Teams？|若要回答此問題，請參閱： <ul><li>[針對 Teams 準備組織的網路](prepare-network.md)</li><li>[URL 和 IP 位址範圍](office-365-urls-ip-address-ranges.md)</li><li>[在建立團隊時規劃 Microsoft 365 群組](plan-office-365-groups.md)</li></ul>|
 |||
 
 ## <a name="core-deployment-decisions"></a>核心部署決策
@@ -131,7 +131,7 @@ Teams 支援許多用戶端，範圍從網頁、桌面到行動裝置，且預�
 
 ### <a name="teams-usage-reporting"></a>Teams 使用情況報告
 
-Office 365 中的全域系統管理員、Teams 服務系統管理員和報告讀取者角色可檢視 Teams 使用情況報告。 若要深入了解，請參閱 [Microsoft 365 使用情況分析文章](https://docs.microsoft.com/office365/admin/usage-analytics/usage-analytics?redirectSourcePath=%252farticle%252fMicrosoft-365-usage-analytics-77ff780d-ab19-4553-adea-09cb65ad0f1f&view=o365-worldwide)。
+全域系統管理員、Teams 服務系統管理員和報告讀取者角色可檢視 Teams 使用情況報告。 若要深入了解，請參閱 [Microsoft 365 使用情況分析文章](https://docs.microsoft.com/office365/admin/usage-analytics/usage-analytics?redirectSourcePath=%252farticle%252fMicrosoft-365-usage-analytics-77ff780d-ab19-4553-adea-09cb65ad0f1f&view=o365-worldwide)。
 
 |問問自己|動作 |
 |------------|-------|
@@ -151,16 +151,16 @@ Teams 提供大量的第一方 (Microsoft 提供) 和第三方應用程式，用
 
 ### <a name="teams-licensing"></a>Teams 授權
 
-Teams 會隨著許多 Office 365 授權的一部分提供。 若要深入瞭解 Teams 授權，請參閱 [Microsoft Teams 服務描述](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)。
+Teams 會隨著許多 Microsoft 365 或 Office 365 授權提供。 若要深入瞭解 Teams 授權，請參閱 [Microsoft Teams 服務描述](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)。
 
 |問問自己|動作 |
 |------------|-------|
 |我的使用者是否擁有使用我要推出的 Teams 所有功能所需的授權？ | 若要深入瞭解授權需求，請參閱 [Microsoft Teams 服務描述](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)。|
 |||
 
-### <a name="exchange-and-sharepoint-interoperability"></a>Exchange 和 SharePoint 互通性 
+### <a name="exchange-and-sharepoint-interoperability"></a>Exchange 和 SharePoint 互通性
 
-為了獲得完整的 Teams 體驗，每個使用者都應能夠使用 Exchange Online、SharePoint Online 和 Microsoft 365 群組。 下列文章概述與各種環境中託管的 Exchange 信箱相關的資訊、Exchange 與 Teams 如何互動，以及 SharePoint 和商務用 OneDrive 的類似考量。 
+為了獲得完整的 Teams 體驗，每個使用者都應能夠使用 Exchange Online、SharePoint Online 和 Microsoft 365 群組。 下列文章概述與各種環境中託管的 Exchange 信箱相關的資訊、Exchange 與 Teams 如何互動，以及 SharePoint 和商務用 OneDrive 的類似考量。
 
 |問問自己|動作 |
 |------------|-------|
@@ -176,13 +176,13 @@ Teams 會隨著許多 Office 365 授權的一部分提供。 若要深入瞭解 
 | 隨著我的 Teams 推出，我可能會有哪些限制？ | 若要深入了解，請參閱 [Teams 的限制和規格](limits-specifications-teams.md)。 |
 |||
 
-### <a name="office-365-urls-and-ports"></a>Office 365 URL 和連接埠
+### <a name="urls-and-ports"></a>URL 和連接埠
 
-對網際網路流量保有精細控制的組織，應閱讀 [Office 365 URL 和 IP 位址範圍](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)，以取得必須為 Teams 正確設定的最新 URL、IP 位址、連接埠和通訊協定的清單。 Microsoft 會持續改善 Office 365 服務並加入新的功能，這表示必要的連接埠、URL 和 IP 位址可能會隨著時間變更。 建議您透過 RSS 訂閱，以便在此資訊更新或變更時收到通知。 至少，請確認您已開放以上的[聊天部署必要條件](#chat-deployment-prerequisites)中所列的連接埠。
+對網際網路流量保有精細控制的組織，應閱讀 [URL 和 IP 位址範圍](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)，以取得必須為 Teams 正確設定的最新 URL、IP 位址、連接埠和通訊協定的清單。 Microsoft 會持續改善 Microsoft 365 及 Office 365 服務並加入新的功能，這表示必要的連接埠、URL 和 IP 位址可能會隨著時間變更。 建議您透過 RSS 訂閱，以便在此資訊更新或變更時收到通知。 至少，請確認您已開放以上的[聊天部署必要條件](#chat-deployment-prerequisites)中所列的連接埠。
 
 |問問自己|動作 |
 |------------|-------|
-| 我是否需要網際網路存取規則，才能讓使用者能使用 Teams，或是開放必要的最基本連接埠即已足夠？ | 若要深入了解，請參閱 [Office 365 URL 和 IP 位址範圍](office-365-urls-ip-address-ranges.md)。|
+| 我是否需要網際網路存取規則，才能讓使用者能使用 Teams，或是開放必要的最基本連接埠即已足夠？ | 若要深入了解，請參閱 [URL 和 IP 位址範圍](office-365-urls-ip-address-ranges.md)。|
 |||
 
 
@@ -241,11 +241,11 @@ Teams 會隨著許多 Office 365 授權的一部分提供。 若要深入瞭解 
 
 ### <a name="government---gcc-considerations"></a>政府版 - GCC 考量
 
-Microsoft 365 政府版 - GCC (政府社群雲端) 適合用來滿足在美國聯邦、州、當地、部落或特區政府實體推動 Office 365 部署或處理受限於政府法規和需求的其他實體 IT 專業人員的需求。
+Office 365 政府版 - GCC (政府社群雲端) 適合用來滿足在美國聯邦、州、當地、部落或特區政府實體推動 Office 365 部署或處理受限於政府法規和需求的其他實體 IT 專業人員的需求。
 
 | 問問自己 | 動作 |
 |--------------|--------|
-| 我需要在 Microsoft 365 政府版 - GCC 環境中部署 Teams 嗎？ | 如需部署考量，請參閱[規劃 Microsoft 365 政府版 - GCC 部署](plan-for-government-gcc.md)。|
+| 我需要在 Office 365 政府版 (GCC 環境) 中部署 Teams 嗎？ | 如需部署考量，請參閱[規劃 Office 365 政府版 - GCC 部署](plan-for-government-gcc.md)。|
 |||
 
 ## <a name="next-steps"></a>後續步驟
