@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: 當您取得貴組織的電話號碼或移植（轉移）號碼時，您可能需要在 PSTN 服務台取得說明和支援。
-ms.openlocfilehash: 3079d6881d86239d395c036c9630ef5ee2eac151
-ms.sourcegitcommit: 47637ed816b471fe689e7bdac27b73e6efced60c
+ms.openlocfilehash: fd6300c16ec3f09742138e0ea4879b9d0dd6b12a
+ms.sourcegitcommit: d664ef6994e242bf18a29dac31286c78c163478a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44374271"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "44710827"
 ---
 # <a name="pstn-service-desk-contact"></a>PSTN Service 服務台連絡人
 
@@ -42,13 +42,13 @@ PSTN 服務台小組目前有三個電子郵件地址可提供支援，如下表
 
 如果您需要**將現有的電話號碼傳送/移植至 Microsoft 團隊**的協助，請盡可能包含詳細資訊：
   - 您的[組織識別碼（租使用者識別碼）或目前活動的 Microsoft 網域](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id)。
-  - 您需要協助的電話號碼類型（**使用者/訂閱者**或**服務/付費/免付費**電話）。
+  - 您需要協助的電話號碼類型 **（使用者、服務電話或服務免付費電話）**。
   - 根據您的要求進行其他重要的詳細資料。
   
 如果您需要協助為**Microsoft 團隊取得新的電話號碼**，請盡可能包含詳細資訊：
   - 您的[組織識別碼（租使用者識別碼）或目前活動的 Microsoft 網域。](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id)
-  - 您想要取得的電話號碼類型（**使用者/訂閱者**或**服務/付費/免付費**電話）。
-  - 您需要多少和區號（s）/Country/Region，您就可以從該區功能變數代碼中使用新的電話號碼。
+  - 您需要協助的電話號碼類型 **（使用者、服務電話或服務免付費電話）**。
+  - 您需要多少和區號（s）/country/region，您就可以從該區功能變數代碼中使用新的電話號碼。
 
 如果您需要協助您瞭解**任何與電話號碼設定、設定、授權/費用/帳單相關的事項**，請前往[商務用支援人員-系統管理協助](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online)頁面，我們的技術小組將樂意協助您。
 

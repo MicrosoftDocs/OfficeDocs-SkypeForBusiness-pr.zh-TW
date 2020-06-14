@@ -16,16 +16,28 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft 團隊系統管理功能的版本資訊。
-ms.openlocfilehash: f8bf1c14e8dca43eccfa2bfdde209eca43fc24fe
-ms.sourcegitcommit: 862ba1d2b3bd4622b1b0baa15096c29c591cc6c4
+ms.openlocfilehash: 99f92af75e90ef568bf98ccb6587d0dad0da1591
+ms.sourcegitcommit: d664ef6994e242bf18a29dac31286c78c163478a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "44702718"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "44710817"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Microsoft 團隊系統管理功能的版本資訊
 
 這些版本資訊提供 Microsoft 團隊新系統管理功能的相關資訊。
+
+## <a name="june-11-2020"></a>2020年6月11日
+
+### <a name="call-queues---presence-based-routing"></a>通話佇列-在目前狀態為基礎的路由
+
+關閉時，通話會傳送給已加入宣告接聽電話的代理程式（無論其目前狀態為何）。 在開啟時，選擇的代理程式將只會在其目前狀態為「接聽」時接收來電。 [深入了解](../create-a-phone-system-call-queue.md)。
+
+
+## <a name="june-10-2020"></a>2020年6月10日
+
+### <a name="call-queues---longest-idle-routing"></a>通話佇列-最長閒置路由
+當您選擇此設定時，來電會傳送給未在最長時間內接聽來電的通話代理程式。 [深入了解](../create-a-phone-system-call-queue.md)。
 
 ## <a name="june-1-2020"></a>2020年6月1日
 
@@ -90,12 +102,6 @@ RealWear 的 Microsoft 團隊用戶端可讓第一線員工工作者使用 RealW
 ### <a name="policy-based-recording-for-teams-calls-and-meetings"></a>小組通話與會議的原則錄製
 
 此功能可透過 Microsoft 認證軟體廠商自動錄製小組通話和會議的原則。
-
-## <a name="march-29-2020"></a>2020年3月29日
-
-### <a name="call-queues---presence-based-routing"></a>通話佇列-在目前狀態為基礎的路由
-
-關閉時，通話會傳送給已加入宣告接聽電話的代理程式（無論其目前狀態為何）。 在開啟時，選擇的代理程式將只會在其目前狀態為「接聽」時接收來電。 [深入了解](../create-a-phone-system-call-queue.md)。
 
 ## <a name="march-25-2020"></a>2020年3月25日
 

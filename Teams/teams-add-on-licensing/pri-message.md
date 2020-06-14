@@ -1,9 +1,9 @@
 ---
-title: '團隊訊息中的優先順序通知 '
-ms.author: tonysmit
-author: tonysmit
+title: 團隊訊息中的優先順序通知
+ms.author: v-lanac
+author: LanaChin
 manager: serdars
-ms.reviewer: mikedav
+ms.reviewer: salu
 ms.topic: reference
 ms.service: msteams
 search.appverid: MET150
@@ -19,27 +19,20 @@ ms.custom:
 - Licensing
 - LIL_Placement
 - seo-marvel-apr2020
-description: 在本文中，您將瞭解 Microsoft 團隊訊息中的優先順序通知。
-ms.openlocfilehash: c2c84019635ce2c46b6aad38363c7f8aabada83b
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+description: 瞭解 Microsoft 團隊訊息中的優先順序通知。
+ms.openlocfilehash: d0323ead1a3bcf3f9b3dd4418428b033fe742db9
+ms.sourcegitcommit: 5dff3217760cf881d1d96e5d5c76101c90afcbc0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904685"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "44724914"
 ---
 # <a name="messaging-policies-licensing"></a>訊息原則授權
 
-我們會聽到世界各地的客戶聽取 COVID-19 （Coronavirus） pandemic 在工作中的新挑戰，以處理日常作業中的重大變動。
+我們會聽到世界各地的客戶聽取 COVID-19 （Coronavirus） pandemic 在工作中的新挑戰，以處理日常作業中的重大變動。 當您在危機回應期間，能夠直接且快速地與小組成員連線，就是在危機回應期間維持業務連續性所必需的，也就是許多人都回到工作場所。 在當今商業客戶的 [特優訊息] 附加元件 SKU 中提供優先順序通知。
 
-在較快變更的條件中，您可以直接快速地與小組成員連線是維護業務連續性所必需的，因此我們正在將促銷存取能力延伸至 Microsoft 團隊中的主要訊息功能。
+最初是在2019年6月發佈的，Microsoft 團隊的[優先順序通知](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462)可讓使用者持續傳送每兩分鐘重複一次的通知，在所有標示為緊急的郵件中，最多可重複執行20分鐘。 已將優先順序通知提供給所有團隊客戶的促銷活動<sup>1</sup> ，直到2020的第二半部。
 
-第一次於2019年6月發佈，小組的[優先順序通知](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462)可讓使用者持續傳送每兩分鐘重複的通知，在所有標示為*緊急*的郵件中，最多20分鐘重複一次。 在發行時，我們已將優先順序通知提供給所有團隊使用者，直到2020年4月1日為止。 
+我們會立即生效，我們已結束本次促銷，並將優先順序通知提供給所有團隊客戶<sup>1</sup>做為基本功能。 使用者現在可以使用優先順序通知來傳送及接收不受限制的緊急訊息。 [深入瞭解管理優先順序通知](../messaging-policies-in-teams.md)。
 
-**若要協助我們的客戶和社區進行危機回應，我們會在2020的第二半部擴大優先順序通知促銷。** 在危機回應和復原努力中，您可以使用持續存取優先順序通知。 促銷週期結束後，授權的使用者就能根據其訂閱期限傳送優先順序通知。
-
-系統會針對優先順序通知的使用提供報告，以支援適當的使用者授權。 無論授權為何，使用者都能透過優先順序通知接收不受限制的緊急訊息。 [深入瞭解優先順序通知](../messaging-policies-in-teams.md)。
-
-<!-- |Government| | |
-||GCC|Office 365 F1 / Microsoft 365 F1<br> Microsoft 365 G1|Office 365 G3 / Microsoft 365 G3 <br> Microsoft 365 G5|
-||GCC-High| Office 365 F1 / Microsoft 365 F1<br> Office 365 G1| Office 365 G3 / Microsoft 365 G3 Microsoft 365 G5|
-||DoD| Office 365 F1 / Microsoft 365 F1<br>Office 365 G1|Office 365 G3 / Microsoft 365 G3| -->
+<sup>1</sup>對於 GCC、GCC 或 DoD 客戶，目前不提供優先順序通知。

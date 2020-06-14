@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: ''
 description: 瞭解如何自訂可包含讀信回條及優先順序通知的安全訊息原則。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 95a4d258f35827d4ad30ee1e6b2938e6331efcc2
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: b4bd8032cce78e388d221108ebdfc08a16b8afd1
+ms.sourcegitcommit: 5dff3217760cf881d1d96e5d5c76101c90afcbc0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905525"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "44724888"
 ---
 # <a name="get-started-with-secure-messaging-for-healthcare-organizations"></a>開始使用適用於醫療保健組織的 Secure Messaging
 
@@ -52,8 +52,6 @@ ms.locfileid: "43905525"
 已*讀回執的用法範例：* Jakob Roth （高風險患者）可獲准在醫院中。Sofia Krause 是一個護士，共同作業是共同作業（IDT）的醫療人員小組（），其中包括不同的專家，都是指派給本患者的主要護理協調員。  Sofia 會使用一組醫生和其他醫護人員來啟動群組聊天，他們將與患者共同合作，並開始緊急會審。在整個護理協調流程中，護士與醫生透過患者的護理方案進行溝通並共同作業。  重要及緊急訊息是透過1:1 和群組聊天交談傳送。 Sofia 會使用 [已讀] 回執功能來判斷傳送給要求支援的訊息是否由目標醫生或護士提供並閱讀。 Jakob 的患者成果接近最佳，而且因為他的護理小組能順暢地順利進行。
 
 ## <a name="send-urgent-messages-using-priority-notifications"></a>使用優先順序通知傳送緊急郵件
-
-[!INCLUDE [pri-message-offer](../../includes/pri-message-offer.md)]
 
 當您傳送聊天訊息給其他使用者時，使用者可以將郵件標示為*緊急*。 這項功能可協助醫院人員在重要事件需要注意時提醒對方。 與一般*重要*的郵件不同，[優先順序通知](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462)會在長達20分鐘的時間內通知使用者，或直到收件者挑選郵件並進行閱讀為止，以及時的方式最大限度地處理郵件的可能性。
 

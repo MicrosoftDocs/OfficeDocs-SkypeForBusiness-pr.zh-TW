@@ -16,12 +16,12 @@ description: 在團隊中部署雲端語音功能以錄製小組會議與群組�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4f2cfcc4be8641fd11a0f22ba090fc5c71a3a240
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 3fd2a8c7c34b52b8724d72110e281e754d9c02b0
+ms.sourcegitcommit: d664ef6994e242bf18a29dac31286c78c163478a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690899"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "44710807"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 雲端會議錄製
 
@@ -113,7 +113,9 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $false
 
 ### <a name="turn-on-or-turn-off-recording-transcription"></a>開啟或關閉錄製內容謄寫
 
-當使用者錄製其 Teams 會議時，他們可以確認會議錄製之後是否要自動產生謄寫。 如果您停用會議召集人和啟動錄製人員的謄寫功能，啟動錄製的人員就無法選擇謄寫會議錄製內容。
+此設定控制在播放會議錄製期間是否可使用 [標題] 和 [操作模式] 功能。 如果您關閉此功能，則在播放會議錄製期間將無法使用 [**搜尋**] 和 [**抄送**] 選項。 開始錄製需要已開啟此設定的人員，才能讓錄製也包含操作。
+
+請注意，目前只有將團隊中的語言設定為英文，且在會議中朗讀英文的使用者，才支援會議記錄會議。
 
 您可以使用 Microsoft Teams 系統管理中心或 PowerShell 來設定 Teams 會議原則，控制啟動錄製的人員是否可以選擇謄寫會議錄製內容。
 
