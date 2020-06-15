@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8b86740e-db95-4304-bb83-64d0cbb91d47
 description: 在商務用 Skype Server Enterprise Voice 中規劃會議的位置基礎路由（包括諮詢通話轉移）。
-ms.openlocfilehash: f2a44c1f3275dd0cc9e1205d60ba26e01429ea51
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: cec7eb1f853752997ca3dcfbe8546b86227fde9b
+ms.sourcegitcommit: d664ef6994e242bf18a29dac31286c78c163478a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690579"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "44710737"
 ---
 # <a name="location-based-routing-for-conferencing-in-skype-for-business-server"></a>商務用 Skype Server 中的會議位置基礎路由
 
 在商務用 Skype Server Enterprise Voice 中規劃會議的位置基礎路由（包括諮詢通話轉移）。
 
-以位置為基礎的路由可根據通話中各方的位置，限制 VoIP 端點和 PSTN 端點之間通話的路由。 以位置為基礎的會議路由可讓您強制會議上的位置基礎路由規則（即會議），以避免 PSTN 免付費旁路。 應用程式會監視作用中的會議，並根據參與的使用者位置，強制執行以位置為基礎的路由限制。 會議應用程式的位置基礎路由，此外也可將位置基礎路由限制強制加入與 PSTN 端點相關的顧問式轉接。
+以位置為基礎的路由可根據通話中各方的位置，限制 VoIP 端點和 PSTN 端點之間通話的路由。 會議的位置基礎路由可讓您強制在會議上強制進行位置基礎的路由規則（即會議），以避免 PSTN 免付費旁路。 應用程式會監視作用中的會議，並根據參與的使用者位置，強制執行以位置為基礎的路由限制。 會議應用程式的位置基礎路由，此外也可將位置基礎路由限制強制加入與 PSTN 端點相關的顧問式轉接。
 
 以位置為基礎的路由會議應用程式為商務用 Skype 會議提供一種防護 PSTN 收費旁路的機制。 應用程式會監控使用中的會議，並根據參與商務用 Skype 使用者的地點，強制執行以位置為基礎的路由限制。
 
@@ -49,9 +49,7 @@ ms.locfileid: "44690579"
 
 下表摘要說明這些會議位置基礎路由限制。
 
-| |
-
-|**在任何指定點的會議中的使用者**|**允許使用者加入會議**|**不允許使用者加入會議**|
+|在任何指定點的會議中的使用者|允許使用者加入會議|不允許使用者加入會議|
 |:-----|:-----|:-----|
 |商務用 Skype VoIP 用戶端使用者從單一網路網站  <br/> |商務用 Skype VoIP 來自相同網路網站的用戶端使用者  <br/> 商務用 Skype VoIP 來自不同網路網站的用戶端使用者  <br/> 商務用 Skype VoIP 來自未知網路網站的用戶端使用者  <br/> 同盟商務用 Skype VoIP 用戶端使用者  <br/> 從 PSTN 端點加入的使用者  <br/> |無  <br/> |
 |商務用 Skype VoIP 來自未知網路網站的用戶端使用者  <br/> |商務用 Skype VoIP 任何網站的用戶端使用者  <br/> 商務用 Skype VoIP 來自未知網站的用戶端使用者  <br/> 同盟商務用 Skype VoIP 用戶端使用者  <br/> |透過 PSTN 端點加入使用者  <br/> |
@@ -69,7 +67,7 @@ ms.locfileid: "44690579"
 > [!NOTE]
 > 使用商務用 Skype 累計更新4時，應遵循下清單格中的行為：
 
-|**使用者**|**其他聚會**|**Action**|**結果**|
+|User|其他聚會|動作|結果|
 |:-----|:-----|:-----|:-----|
 |商務用 Skype Mobile  <br/> |Pstn  <br/> |商務用 Skype Mobile 位於 PSTN 通話中。 商務用 Skype Mobile 會將通話升級為會議自動語音應答（CAA）。  <br/> |通話遭到封鎖，並顯示適當的錯誤訊息。  <br/> |
 |商務用 Skype Mobile  <br/> |商務用 Skype 用戶端或同盟使用者  <br/> |用戶端或同盟使用者位於商務用 Skype Mobile 位置的 VoIP 呼叫，以及每一方升級至 CAA 的使用者。  <br/> |會封鎖呈報通話，並顯示適當的錯誤訊息。  <br/> |
@@ -84,21 +82,21 @@ ms.locfileid: "44690579"
 
 當啟用位置基礎路由的使用者啟動 PSTN 端點的諮詢來電轉接時（如上圖所示），這會建立兩個作用中的呼叫、PSTN 使用者和商務用 Skype 使用者 A 之間的呼叫，以及商務用 Skype 使用者 A 和商務用 Skype 使用者 B 之間的呼叫。下列行為是由針對會議應用程式的位置型路由強制執行。:
 
-- 如果您有權將 pstn 通話路由的 SIP 主幹路由，可將 PSTN 呼叫重新路由至網路網站（商務用 Skype 使用者 B （亦即傳輸目標）所在的網站，則會允許通話轉接;否則，將會封鎖「諮詢來電轉接」。 這種授權是根據傳送方的位置，而不是以將使用中通話路由傳送至 PSTN 端點的 SIP 主幹所在的相同網路網站執行。
+- 若 SIP 主幹路由 PSTN 呼叫已獲授權，可將 PSTN 呼叫重新路由至網路網站（商務用 Skype 使用者 B （亦即傳輸目標）所在的網站，則會允許通話轉接;否則，將會封鎖「諮詢來電轉接」。 這種授權是根據傳送方的位置，而不是以將使用中通話路由傳送至 PSTN 端點的 SIP 主幹所在的相同網路網站執行。
 
-- 若 SIP 主幹路由輸入 PSTN 呼叫未獲授權，無法將通話路由傳送至已傳送方（商務用 Skype 使用者 B）所在的網站，或傳送方位於未知的網路網站，則會封鎖諮詢來電轉接至 PSTN 端點（例如來電轉接目標）。
+- 若 SIP 主幹路由輸入 PSTN 呼叫未獲授權，無法將來電路由傳送至已傳送方（商務用 Skype 使用者 B）所在的網站，或傳送方位於未知的網路網站，則系統會封鎖諮詢來電轉接至 PSTN 端點（亦即通話轉移目標）。
 
 下表說明會議應用程式的位置基礎路由限制如何套用位置基礎路由限制，以進行諮詢通話轉移。 雖然 PBX 端點不會直接與網路產生關聯，但 PBX 的 SIP 主幹可被指派為網路網站。 因此，PBX 端點可以與網路網站間接關聯。
 
 
-|**通話轉移方的網路網站**|**來電轉接目標的網路網站**|**行為**|
+|通話轉移方的網路網站|來電轉接目標的網路網站|行為|
 |:-----|:-----|:-----|
 |PSTN 端點  <br/> |相同網路網站中的商務用 Skype 使用者（亦即網站1）  <br/> |允許顧問式轉接  <br/> |
 |PSTN 端點  <br/> |不同網路網站中的商務用 Skype 使用者（亦即網站2）  <br/> |不允許顧問式轉接  <br/> |
 |PSTN 端點  <br/> |未知網路網站中的商務用 Skype 使用者  <br/> |不允許顧問式轉接  <br/> |
 |PSTN 端點  <br/> |同盟商務用 Skype 使用者  <br/> |不允許顧問式轉接  <br/> |
 |PSTN 端點  <br/> |同一個網站中的 PBX 端點（亦即網站1）  <br/> |允許顧問式轉接  <br/> |
-|PSTN 端點  <br/> |不同網站中的 PBX 端點（亦即 site 2）  <br/> |不允許顧問式轉接  <br/> |
+|PSTN 端點  <br/> |不同網站（亦即 site 2）中的 PBX 端點  <br/> |不允許顧問式轉接  <br/> |
 |同一個網站中的 PBX 端點（亦即網站1）  <br/> |PSTN 端點  <br/> |允許顧問式轉接  <br/> |
 |不同網站（亦即 site 2）中的 PBX 端點  <br/> |PSTN 端點  <br/> |不允許顧問式轉接  <br/> |
 |任何網站中的 PBX 端點  <br/> |相同網路網站中的商務用 Skype 使用者（亦即網站1）  <br/> |允許顧問式轉接  <br/> |
@@ -113,7 +111,7 @@ ms.locfileid: "44690579"
 下表識別伺服器角色與支援位置基礎路由的版本組合。
 
 
-|**前端集區版本**|**轉送伺服器版本**|**支援**|
+|前端集區版本|轉送伺服器版本|支援|
 |:-----|:-----|:-----|
 |商務用 Skype Server 或 Lync Server 2013 累計更新2  <br/> |商務用 Skype Server 或 Lync Server 2013 累計更新2  <br/> |是  <br/> |
 |Lync Server 2013 累計更新2  <br/> |Lync Server 2013 累計更新1  <br/> |否  <br/> |
@@ -137,7 +135,11 @@ ms.locfileid: "44690579"
 
 依預設，會停用會議應用程式的位置型路由。 在啟用此應用程式之前，您必須決定指派給應用程式的正確優先順序。 若要決定此優先順序，請在商務用 Skype Server 管理命令介面中執行下列 Cmdlet：
 
-Get-CsServerApplication 身分識別服務：註冊機構： <Pool FQDN> 在此 Cmdlet 中， \<Pool FQDN\> 是要啟用會議應用程式之位置型路由的集區。
+```powershell
+Get-CsServerApplication -Identity Service:Registrar:<Pool FQDN>
+```
+
+在此 Cmdlet 中， \<Pool FQDN\> 是要啟用會議應用程式之位置型路由的集區。
 
 此 Cmdlet 會傳回由商務用 Skype Server 所主控的應用程式清單，以及每個應用程式的優先順序值。 需要為會議應用程式的位置基礎路由指派優先順序值，而不是 "UdcAgent" 應用程式，而且小於 "DefaultRouting"、"ExumRouting" 和 "OutboundRouting" 應用程式。 建議您指派會議應用程式的位置型路由，優先順序值為比 "UdcAgent" 應用程式的優先順序值高一個點。
 
@@ -145,11 +147,15 @@ Get-CsServerApplication 身分識別服務：註冊機構： <Pool FQDN> 在此 
 
 找到會議應用程式的位置基礎路由的正確優先順序值後，請為每個前端集區或 Standard Edition Server 輸入下列 Cmdlet，以供住宅使用者進行位置基礎路由的啟用：
 
-New-CsServerApplication 身分識別服務：報名者： `<Pool FQDN`>/lbrouting- \<Application Priority\> 啟用優先順序的 $true 重要 $true Uri<http://www.microsoft.com/LCS/LBRouting>
+```powershell
+New-CsServerApplication -Identity Service:Registrar:<Pool FQDN>/LBRouting -Priority <Application Priority> -Enabled $true -Critical $true -Uri <http://www.microsoft.com/LCS/LBRouting>
+```
 
 例如：
 
-New-CsServerApplication 身分識別服務:Registrar:LS2013CU2LBRPool LBRouting-Enabled Priority $true 關鍵型 $true Urihttp://www.microsoft.com/LCS/LBRouting
+```powershell
+New-CsServerApplication -Identity Service:Registrar:LS2013CU2LBRPool.contoso.com/LBRouting -Priority 3 -Enabled $true -Critical $true -Uri http://www.microsoft.com/LCS/LBRouting
+```
 
 使用此 Cmdlet 後，請重新開機集區中的所有前端伺服器或 Standard Edition Server （已啟用會議應用程式的位置型路由）。
 
