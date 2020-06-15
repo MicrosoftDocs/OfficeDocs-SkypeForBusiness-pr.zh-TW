@@ -905,3 +905,5 @@
 ### [Microsoft 365 的通話方案 - 英國的工作條例規定](code-of-practice-for-the-united-kingdom-u-k.md)
 ### [Microsoft 365 的通話方案 - 英國的投訴處理規定](complaint-handling-code-for-the-united-kingdom-u-k.md)
 ### [緊急通話條款及條件](emergency-calling-terms-and-conditions.md)
+
+## [Teams 系統管理員功能的版本資訊](release-notes/release-notes.md)
