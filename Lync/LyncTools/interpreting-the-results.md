@@ -1,8 +1,8 @@
 ---
-title: 解譯結果
+title: 解讀結果
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Interpreting the Results
@@ -12,12 +12,12 @@ ms:contentKeyID: 51541433
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6b3683e2a2ac9fb163fe9db3dabce40b3c61d098
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4d02f69f8ea1c8eb7df004e063dba39f03bbe8b7
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206159"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755467"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42206159"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="interpreting-the-results"></a>解譯結果
+# <a name="interpreting-the-results"></a>解讀結果
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "42206159"
 
 <span> </span>
 
-_**上次修改主題：** 2013年-02-24_
+_**主題上次修改日期：** 2013-02-24_
 
-Lync Server 2013 壓力及效能工具 (LyncPerfTool.exe) 具有您可以使用來了解用戶端所做的動作，以及是否發生問題的許多計數器。
+Lync Server 2013 應力和效能工具（LyncPerfTool.exe）具有許多計數器，您可以用來瞭解用戶端的執行狀況及是否發生問題。
 
 <div>
 
 ## <a name="client-counters"></a>用戶端計數器
 
-每個執行個體正在執行的 LyncPerfTool.exe 有獨立的執行個體的計數器。 每個執行個體是名為其處理程序識別碼。
+每個執行的 LyncPerfTool.exe 實例都有個別的計數器實例。 每個實例都會以其進程識別碼命名。
 
-如果用戶端屬於多載，可以發生問題。 若要避免這些問題，執行下列動作：
+如果用戶端超載，可能會發生問題。 若要避免這些問題，請執行下列操作：
 
-1.  監視 CPU 及記憶體使用量的用戶端電腦上。 如果 CPU 持續超過百分之 90，降低使用者的數目。
+1.  監視用戶端電腦上的 CPU 和記憶體使用量。 如果 CPU 持續超過90%，請減少使用者數目。
 
-2.  如果記憶體耗用量為高，您可能會遇到問題如果分頁檔不是夠大。 確認認可費用未達到次之電腦上的限制。 如果您執行到記憶體限制，請考慮增加分頁檔案大小或降低的使用者數目
+2.  如果記憶體佔用量高，您可能會遇到問題，如果頁面檔案不夠大。 確認認可費用未超出電腦上的限制。 如果您正在執行記憶體限制，請考慮增加頁面檔案大小或減少使用者數目
 
-下表列出的索引鍵的 LyncPerfTool 效能計數器。
+下表列出重要的 LyncPerfTool 效能計數器。
 
 **一般資訊**
 
@@ -69,23 +69,23 @@ Lync Server 2013 壓力及效能工具 (LyncPerfTool.exe) 具有您可以使用�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>以分鐘為單位所花費的時間</p></td>
-<td><p>啟動程序後，所需時間。</p></td>
+<td><p>花費的時間（分鐘）</p></td>
+<td><p>自處理常式開始所花費的時間。</p></td>
 </tr>
 <tr class="even">
-<td><p>作用中的端點</p></td>
-<td><p>目前連接至伺服器的端點數目。</p></td>
+<td><p>作用中端點</p></td>
+<td><p>目前連線至伺服器的端點數目。</p></td>
 </tr>
 <tr class="odd">
-<td><p>登入失敗</p></td>
+<td><p>失敗登入</p></td>
 <td><p>端點登入失敗總數。</p></td>
 </tr>
 <tr class="even">
-<td><p>登入嘗試次數</p></td>
-<td><p>嘗試登入的端點總數。</p></td>
+<td><p>登入嘗試</p></td>
+<td><p>嘗試登入嘗試次數的總數。</p></td>
 </tr>
 <tr class="odd">
-<td><p>中斷連線的端點</p></td>
+<td><p>中斷連線端點</p></td>
 <td><p>已中斷連線的端點總數。</p></td>
 </tr>
 <tr class="even">
@@ -113,19 +113,19 @@ Lync Server 2013 壓力及效能工具 (LyncPerfTool.exe) 具有您可以使用�
 <tbody>
 <tr class="odd">
 <td><p>SetPresence 通話</p></td>
-<td><p>總數的目前狀態變更次數。 對於不同類型的目前狀態變更，請參閱 < SetPresence （目前狀態類型） 的呼叫] 效能計數器。</p></td>
+<td><p>目前狀態變更嘗試的總數。 針對不同類型的狀態變更，請參閱 SetPresence （顯示狀態類型） [呼叫效能計數器]。</p></td>
 </tr>
 <tr class="even">
-<td><p>NNN 回應的 SetPresence</p></td>
-<td><p>從伺服器收到 nnn 回應碼的總數。</p></td>
+<td><p>SetPresence 的 NNN 回應</p></td>
+<td><p>從伺服器接收的 nnn 回應碼總數。</p></td>
 </tr>
 <tr class="odd">
 <td><p>GetPresence 通話</p></td>
-<td><p>取得目前狀態要求嘗試的總次數。</p></td>
+<td><p>Get 顯示狀態要求嘗試總數。</p></td>
 </tr>
 <tr class="even">
-<td><p>NNN 回應的 GetPresence</p></td>
-<td><p>從伺服器收到 nnn 回應碼的總數。</p></td>
+<td><p>GetPresence 的 NNN 回應</p></td>
+<td><p>從伺服器接收的 nnn 回應碼總數。</p></td>
 </tr>
 </tbody>
 </table>
@@ -133,7 +133,7 @@ Lync Server 2013 壓力及效能工具 (LyncPerfTool.exe) 具有您可以使用�
 
 **通訊錄服務資訊**
 
-此類別包含用來監視下載通訊錄服務 (ABS) 檔案和通訊錄 Web 查詢服務要求的計數器。
+此類別包含用於監視通訊錄服務（ABS）檔案下載和通訊錄 Web 查詢服務要求的計數器。
 
 
 <table>
@@ -149,34 +149,34 @@ Lync Server 2013 壓力及效能工具 (LyncPerfTool.exe) 具有您可以使用�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>嘗試 ABS 完整/差異檔案下載</p></td>
-<td><p>嘗試的完整] 或 [差異檔案下載要求總數。</p></td>
+<td><p>嘗試實際的完整/Delta 檔案下載</p></td>
+<td><p>所嘗試的完整或增量檔案下載要求總數。</p></td>
 </tr>
 <tr class="even">
-<td><p>ABS 完整/差異檔案下載成功</p></td>
-<td><p>嘗試的完整] 或 [差異檔案下載要求總數。</p></td>
+<td><p>ABS 完整/Delta 檔案下載成功</p></td>
+<td><p>所嘗試的完整或增量檔案下載要求總數。</p></td>
 </tr>
 <tr class="odd">
-<td><p>通訊錄 Web 查詢服務相關計數器</p></td>
+<td><p>通訊錄 Web 查詢服務相關的計數器</p></td>
 <td><p>通訊錄檔案下載相關的計數器。</p></td>
 </tr>
 <tr class="even">
-<td><p>嘗試 ABS WS 通話</p></td>
+<td><p>嘗試的 ABS WS 通話</p></td>
 <td><p>嘗試的通訊錄 Web 查詢服務要求總數。</p></td>
 </tr>
 <tr class="odd">
 <td><p>ABS WS 通話成功</p></td>
-<td><p>傳回成功回應程式碼的通訊錄 Web 查詢服務要求總數。</p></td>
+<td><p>傳回成功回應碼之通訊錄 Web 查詢服務要求的總數。</p></td>
 </tr>
 <tr class="even">
 <td><p>ABS WS 通話失敗</p></td>
-<td><p>傳回的錯誤回應程式碼的通訊錄 Web 查詢服務要求總數。</p></td>
+<td><p>傳回錯誤回應碼之通訊錄 Web 查詢服務要求的總數。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-**通訊清單 (DL) 的資訊**
+**通訊群組清單（DL）資訊**
 
 
 <table>
@@ -192,24 +192,24 @@ Lync Server 2013 壓力及效能工具 (LyncPerfTool.exe) 具有您可以使用�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>嘗試的通話</p></td>
-<td><p>通訊群組清單擴充 (DLX) web 服務要求嘗試總數。</p></td>
+<td><p>嘗試的來電</p></td>
+<td><p>嘗試的通訊群組清單擴充（DLX） web 服務要求總數。</p></td>
 </tr>
 <tr class="even">
-<td><p>成功的通話</p></td>
-<td><p>傳回成功回應程式碼的 DLX web 服務要求總數。</p></td>
+<td><p>通話成功</p></td>
+<td><p>傳回成功回應碼之 DLX web 服務要求的總數。</p></td>
 </tr>
 <tr class="odd">
-<td><p>失敗的通話</p></td>
-<td><p>傳回的錯誤回應程式碼的 DLX web 服務要求總數。</p></td>
+<td><p>通話失敗</p></td>
+<td><p>傳回錯誤回應碼之 DLX web 服務要求的總數。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-**VoIP Basic 資訊**
+**VoIP 基本資訊**
 
-效能計數器下面列出報表號碼所有 voice over IP (VoIP) 通話，包括中繼伺服器的呼叫 / V 會議伺服器、 Edge Server，回應群組應用程式，以及會議自動語音應答，當啟用這些案例。
+在啟用這些案例時，下列的效能計數器會列出所有 Voice over IP （VoIP）通話（包括對轉送伺服器的呼叫、A/V 會議伺服器、Edge Server、回應群組應用程式和會議自動語音應答）。
 
 
 <table>
@@ -225,38 +225,38 @@ Lync Server 2013 壓力及效能工具 (LyncPerfTool.exe) 具有您可以使用�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>呼叫使用中</p></td>
-<td><p>總數的傳出連入讀的語音呼叫目前進行中。</p></td>
+<td><p>主動通話</p></td>
+<td><p>目前正在進行的傳入/傳出語音通話總數。</p></td>
 </tr>
 <tr class="even">
-<td><p>終止前所需的通話</p></td>
-<td><p>已終止的內送/撥出語音通話總數。</p></td>
+<td><p>來電終止</p></td>
+<td><p>已終止傳入/傳出語音通話的總數。</p></td>
 </tr>
 <tr class="odd">
-<td><p>拒絕的來電</p></td>
-<td><p>拒絕的傳入語音呼叫總數。</p></td>
+<td><p>拒絕通話</p></td>
+<td><p>拒絕的傳入語音通話總數。</p></td>
 </tr>
 <tr class="even">
-<td><p>嘗試的傳入/撥出通話</p></td>
-<td><p>嘗試傳入/撥出語音通話總數。</p></td>
+<td><p>嘗試傳入/撥出電話</p></td>
+<td><p>嘗試傳入/傳出語音通話的總數。</p></td>
 </tr>
 <tr class="odd">
-<td><p>建立內送/撥出通話</p></td>
-<td><p>建立內送/撥出語音通話總數。</p></td>
+<td><p>已建立傳入/撥出電話</p></td>
+<td><p>已建立的傳入/傳出語音通話總數。</p></td>
 </tr>
 <tr class="even">
-<td><p>呼叫接收的 NNN</p></td>
-<td><p>從伺服器收到 nnn 回應碼的總數。</p></td>
+<td><p>呼叫已接收的 NNN</p></td>
+<td><p>從伺服器接收的 nnn 回應碼總數。</p></td>
 </tr>
 <tr class="odd">
-<td><p>VoIP 複雜率 （%）</p></td>
-<td><p>建立/總通話嘗試來電總數。</p></td>
+<td><p>VoIP 通過率（%）</p></td>
+<td><p>已建立的通話總數/嘗試的總通話數。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-**回應群組服務呼叫的資訊**
+**回應群組服務呼叫資訊**
 
 
 <table>
@@ -272,18 +272,18 @@ Lync Server 2013 壓力及效能工具 (LyncPerfTool.exe) 具有您可以使用�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>呼叫使用中</p></td>
+<td><p>主動通話</p></td>
 <td><p>回應群組應用程式的作用中呼叫總數。</p></td>
 </tr>
 <tr class="even">
-<td><p>嘗試的通話</p></td>
-<td><p>嘗試的通話總數。</p></td>
+<td><p>嘗試的來電</p></td>
+<td><p>嘗試的呼叫總數。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-**立即訊息 (IM) 通話資訊**
+**立即訊息（IM）通話資訊**
 
 
 <table>
@@ -299,34 +299,34 @@ Lync Server 2013 壓力及效能工具 (LyncPerfTool.exe) 具有您可以使用�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>呼叫使用中</p></td>
-<td><p>持續傳入/傳出立即訊息的通話總數。</p></td>
+<td><p>主動通話</p></td>
+<td><p>進行中傳入/傳出立即訊息通話的總數。</p></td>
 </tr>
 <tr class="even">
-<td><p>終止前所需的通話</p></td>
-<td><p>已終止傳入/傳出立即訊息的來電總數。</p></td>
+<td><p>來電終止</p></td>
+<td><p>已終止的傳入/傳出立即訊息通話總數。</p></td>
 </tr>
 <tr class="odd">
-<td><p>呼叫接收的 NNN</p></td>
-<td><p>從伺服器收到 nnn 回應碼的總數。</p></td>
+<td><p>呼叫已接收的 NNN</p></td>
+<td><p>從伺服器接收的 nnn 回應碼總數。</p></td>
 </tr>
 <tr class="even">
-<td><p>接收/傳送 IM 訊息</p></td>
-<td><p>訊息總數接收或傳送的所有工作階段。</p></td>
+<td><p>接收/傳送的 IM 訊息</p></td>
+<td><p>所有會話中已接收或已傳送的郵件總數。</p></td>
 </tr>
 <tr class="odd">
-<td><p>嘗試的傳入/撥出通話</p></td>
-<td><p>傳入/傳出立即訊息呼叫嘗試總數。</p></td>
+<td><p>嘗試傳入/撥出電話</p></td>
+<td><p>嘗試傳入/傳出立即訊息通話的總數。</p></td>
 </tr>
 <tr class="even">
-<td><p>建立內送/撥出通話</p></td>
-<td><p>建立內送/傳出立即訊息通話總數。</p></td>
+<td><p>已建立傳入/撥出電話</p></td>
+<td><p>已建立的傳入/傳出立即訊息通話總數。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-**應用程式共用通話資訊**
+**應用程式共用呼叫資訊**
 
 
 <table>
@@ -342,24 +342,24 @@ Lync Server 2013 壓力及效能工具 (LyncPerfTool.exe) 具有您可以使用�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>呼叫使用中</p></td>
-<td><p>進行中的內送/傳出的應用程式共用通話總數。</p></td>
+<td><p>主動通話</p></td>
+<td><p>進行中傳入/傳出應用程式共用呼叫的總數。</p></td>
 </tr>
 <tr class="even">
-<td><p>終止前所需的通話</p></td>
-<td><p>總數傳入/傳出的應用程式共用通話已終止。</p></td>
+<td><p>來電終止</p></td>
+<td><p>已終止的傳入/傳出應用程式共用呼叫總數。</p></td>
 </tr>
 <tr class="odd">
-<td><p>呼叫接收的 NNN</p></td>
-<td><p>從伺服器收到 nnn 回應碼的總數。</p></td>
+<td><p>呼叫已接收的 NNN</p></td>
+<td><p>從伺服器接收的 nnn 回應碼總數。</p></td>
 </tr>
 <tr class="even">
-<td><p>嘗試的傳入/撥出通話</p></td>
-<td><p>傳入/傳出的應用程式共用嘗試的通話總數。</p></td>
+<td><p>嘗試傳入/撥出電話</p></td>
+<td><p>嘗試的傳入/傳出應用程式共用呼叫總數。</p></td>
 </tr>
 <tr class="odd">
-<td><p>建立內送/撥出通話</p></td>
-<td><p>傳入/傳出的應用程式共用建立的通話總數。</p></td>
+<td><p>已建立傳入/撥出電話</p></td>
+<td><p>已建立的傳入/傳出應用程式共用通話總數。</p></td>
 </tr>
 <tr class="even">
 <td></td>
@@ -369,7 +369,7 @@ Lync Server 2013 壓力及效能工具 (LyncPerfTool.exe) 具有您可以使用�
 </table>
 
 
-**CAA 通話資訊**
+**CAA 呼叫資訊**
 
 
 <table>
@@ -385,20 +385,20 @@ Lync Server 2013 壓力及效能工具 (LyncPerfTool.exe) 具有您可以使用�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>呼叫使用中</p></td>
-<td><p>總數傳入/傳出公用交換的電話網路 (PSTN) 通話目前進行中。</p></td>
+<td><p>主動通話</p></td>
+<td><p>目前正在進行的內送/撥出公用電話網絡（PSTN）通話總數。</p></td>
 </tr>
 <tr class="even">
-<td><p>終止前所需的通話</p></td>
-<td><p>已終止的內送/傳出 PSTN 通話總數。</p></td>
+<td><p>來電終止</p></td>
+<td><p>已終止的傳入/傳出 PSTN 通話總數。</p></td>
 </tr>
 <tr class="odd">
-<td><p>嘗試的傳入/撥出通話</p></td>
-<td><p>嘗試傳入/傳出 PSTN 通話總數。</p></td>
+<td><p>嘗試傳入/撥出電話</p></td>
+<td><p>嘗試傳入/傳出 PSTN 通話的總數。</p></td>
 </tr>
 <tr class="even">
-<td><p>建立內送/撥出通話</p></td>
-<td><p>建立內送/傳出 PSTN 通話總數。</p></td>
+<td><p>已建立傳入/撥出電話</p></td>
+<td><p>已建立的傳入/傳出 PSTN 通話總數。</p></td>
 </tr>
 </tbody>
 </table>
@@ -420,20 +420,20 @@ Lync Server 2013 壓力及效能工具 (LyncPerfTool.exe) 具有您可以使用�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>作用中的立即訊息會議</p></td>
+<td><p>主動立即訊息會議</p></td>
 <td><p>進行中的立即訊息會議總數。</p></td>
 </tr>
 <tr class="even">
-<td><p>作用中的音訊/視訊會議</p></td>
-<td><p>總數的進行中的音訊/視訊 (A / V) 會議。</p></td>
+<td><p>活躍 Audio/Video 會議</p></td>
+<td><p>進行中音訊/視頻（A/V）會議的總數。</p></td>
 </tr>
 <tr class="odd">
-<td><p>使用中應用程式共用會議</p></td>
+<td><p>Active Application 共用會議</p></td>
 <td><p>進行中的應用程式共用會議總數。</p></td>
 </tr>
 <tr class="even">
-<td><p>參與者的數量</p></td>
-<td><p>目前連線至會議的參與者總數。</p></td>
+<td><p>參與者人數</p></td>
+<td><p>目前連接至會議的參與者總數。</p></td>
 </tr>
 <tr class="odd">
 <td><p>會議排程失敗</p></td>
@@ -463,12 +463,12 @@ Lync Server 2013 壓力及效能工具 (LyncPerfTool.exe) 具有您可以使用�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>總數 IMMCU 聯結成功</p></td>
-<td><p>加入立即訊息的會議總數。</p></td>
+<td><p>已成功聯結的 IMMCU 聯接總數</p></td>
+<td><p>加入的立即訊息會議總數。</p></td>
 </tr>
 <tr class="even">
-<td><p>總數 DMCU 聯結成功</p></td>
-<td><p>總數的 A / V 會議加入。</p></td>
+<td><p>已成功聯結的 DMCU 聯接總數</p></td>
+<td><p>加入的 A/V 會議總數。</p></td>
 </tr>
 </tbody>
 </table>

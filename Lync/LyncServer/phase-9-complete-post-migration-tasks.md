@@ -1,8 +1,8 @@
 ---
-title: 階段 9： 完成移轉後工作
+title: 階段9：完成遷移後工作
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: 'Phase 9: Complete post-migration tasks'
@@ -12,12 +12,12 @@ ms:contentKeyID: 48183292
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7d1ef8c74a0ac14fd99cabb676a63ca176697fc9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1e12268cce33526ba2602a2efc9a611ebb211801
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209479"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756334"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42209479"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="phase-9-complete-post-migration-tasks"></a>階段 9： 完成移轉後工作
+# <a name="phase-9-complete-post-migration-tasks"></a>階段9：完成遷移後工作
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "42209479"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012 年 10 月 15_
+_**主題上次修改日期：** 2012-10-15_
 
-本節中的主題說明您必須執行完成之後，您移轉至 Lync Server 2013 的工作。
+本節中的主題說明在完成遷移至 Lync Server 2013 之後，需要執行的工作。
 
 <div>
 
@@ -65,7 +65,7 @@ _**主題上次修改日期：** 2012 年 10 月 15_
 
   - [移動 Exchange 整合通訊連絡人物件](move-exchange-unified-messaging-contact-objects.md)
 
-  - [確認舊版集區會移除所有 Exchange UM 連絡人物件](verify-that-all-exchange-um-contact-objects-are-removed-from-the-legacy-pool.md)
+  - [確認已移除舊版集區中的所有 Exchange UM 連絡人物件](verify-that-all-exchange-um-contact-objects-are-removed-from-the-legacy-pool.md)
 
 </div>
 

@@ -1,8 +1,8 @@
 ---
 title: 移轉撥入存取號碼
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Migrate dial-in access numbers
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184171
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4efd83a0d874876bd00d9ebc880a7ae508db8605
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6654c084be4915d48c4148c90b3888295c887f08
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209859"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756974"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,15 +35,15 @@ ms.locfileid: "42209859"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-26_
+_**主題上次修改日期：** 2012-09-26_
 
-移轉撥入存取號碼需要兩個步驟： 執行**Import-cslegacyconfiguration** cmdlet （完成更早版本中[匯入原則及設定](import-policies-and-settings.md)） 來移轉撥號對應表和其他的撥入存取號碼設定，以及執行**Move-csapplicationendpoint** cmdlet 來移轉連絡人物件。
+遷移撥入存取號碼需要兩個步驟：執行**Import-CsLegacyConfiguration**指令程式（在匯[入原則及設定](import-policies-and-settings.md)中完成）以遷移撥號對應表及其他撥入存取號碼設定，以及執行**Move-CsApplicationEndpoint** Cmdlet 以遷移連絡人物件。
 
 <div>
 
 ## <a name="to-migrate-dial-in-access-numbers"></a>移轉撥入存取號碼
 
-1.  開啟 [Office Communications Server 2007 R2 系統管理工具]。
+1.  開啟 Office 通訊伺服器 2007 R2 系統管理工具。
 
 2.  在主控台樹狀目錄中，以滑鼠右鍵按一下樹系節點，並依序按一下 **[內容]** 和 **[會議服務員內容]**。
 
@@ -53,11 +53,11 @@ _**主題上次修改日期：** 2012年-09-26_
 
 5.  開啟 Lync Server 管理命令介面。
 
-6.  若要將每組撥入存取號碼移至 Lync Server 2013 上裝載的集區，請執行：
+6.  若要將每個撥入存取號碼移至在 Lync Server 2013 上主控的集區，請執行：
     
         Move-CsApplicationEndpoint -Identity <SIP URI of the access number to be moved> -Target <FQDN of the pool to which the access number is moving>
 
-7.  在 [**存取電話號碼**] 索引標籤上的 [Office Communications Server 2007 R2 系統管理工具確認無任何撥入存取號碼從中移轉您的 Office Communications Server 2007 R2 集區。
+7.  在 [Office 通訊伺服器 2007 R2 系統管理工具] 的 [**存取電話號碼**] 索引標籤上，確認您要遷移的 Office 通訊伺服器 2007 R2 集區沒有任何撥入存取號碼。
 
 </div>
 

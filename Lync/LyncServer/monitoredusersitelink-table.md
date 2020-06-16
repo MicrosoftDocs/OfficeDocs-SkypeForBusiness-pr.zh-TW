@@ -1,8 +1,8 @@
 ---
 title: MonitoredUserSiteLink 表格
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: MonitoredUserSiteLink table
@@ -12,12 +12,12 @@ ms:contentKeyID: 48183508
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 61a221ab87d43af36f03ec966bf094a1e2839bd4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b83ebadddea5f510b6eee731240119478bdc9da8
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189926"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757184"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,9 +35,9 @@ ms.locfileid: "42189926"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-02_
+_**主題上次修改日期：** 2012-10-02_
 
-MonitoredUserSiteLink 表格是一種支援資料表，其中的每一項記錄都代表兩個使用者網站間的連結。
+The MonitoredUserSiteLink table is a supporting table. Each record represents one link between two user sites.
 
 
 <table>
@@ -51,7 +51,7 @@ MonitoredUserSiteLink 表格是一種支援資料表，其中的每一項記錄�
 <tr class="header">
 <th><strong>欄</strong></th>
 <th><strong>資料類型</strong></th>
-<th><strong>主索引鍵 /</strong></th>
+<th><strong>索引鍵/索引</strong></th>
 <th><strong>詳細資料</strong></th>
 </tr>
 </thead>
@@ -60,13 +60,13 @@ MonitoredUserSiteLink 表格是一種支援資料表，其中的每一項記錄�
 <td><p><strong>UserSite1Key</strong></p></td>
 <td><p>int</p></td>
 <td><p>主要、外部</p></td>
-<td><p>參考來源<a href="lync-server-2013-usersite-table.md">: UserSite table Lync Server 2013 中</a>。</p></td>
+<td><p>從<a href="lync-server-2013-usersite-table.md">Lync Server 2013 的 UserSite 表格中</a>參照。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserSite2Key</strong></p></td>
 <td><p>int</p></td>
 <td><p>主要、外部</p></td>
-<td><p>參考來源<a href="lync-server-2013-usersite-table.md">: UserSite table Lync Server 2013 中</a>的資料。</p></td>
+<td><p><a href="lync-server-2013-usersite-table.md">Lync Server 2013 中 UserSite 表格</a>的參照。</p></td>
 </tr>
 </tbody>
 </table>

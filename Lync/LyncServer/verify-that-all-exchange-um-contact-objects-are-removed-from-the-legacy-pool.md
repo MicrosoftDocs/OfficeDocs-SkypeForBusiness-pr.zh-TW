@@ -1,8 +1,8 @@
 ---
-title: 確認舊版集區會移除所有 Exchange UM 連絡人物件
+title: 確認已移除舊版集區中的所有 Exchange UM 連絡人物件
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Verify that all Exchange UM Contact objects are removed from the legacy pool
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733664
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7815f78dfa5f2b4aab3f09102a9948498c20cf10
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6e638dc7e0172c3187859797776f8e64372c81d5
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188846"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755547"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42188846"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="verify-that-all-exchange-um-contact-objects-are-removed-from-the-legacy-pool"></a>確認舊版集區會移除所有 Exchange UM 連絡人物件
+# <a name="verify-that-all-exchange-um-contact-objects-are-removed-from-the-legacy-pool"></a>確認已移除舊版集區中的所有 Exchange UM 連絡人物件
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "42188846"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-26_
+_**主題上次修改日期：** 2012-09-26_
 
-使用**OCSUmUtil**工具或**Get-csexumcontact** cmdlet 來確認 Exchange UM 連絡人物件已從舊版 Office Communications Server 2007 R2 集區中移除。 **OCSUmUtil** 位於下列資料夾：
+使用**OCSUmUtil**工具或**Get-CsExumContact**指令程式，確認已從舊版 Office 通訊伺服器 2007 R2 集區中移除 Exchange UM 連絡人物件。 **OCSUmUtil** 位於下列資料夾：
 
-%程式檔案 %\\通用檔案\\Lync Server 2013\\支援\\OcsUMUtil.exe
+% Program Files% \\ Common files （ \\ Lync Server 2013 \\ 支援 \\OcsUMUtil.exe
 
 用於執行 **OCSUmUtil** 的使用者帳戶必須具備：
 
@@ -47,7 +47,7 @@ _**主題上次修改日期：** 2012年-09-26_
 
   - 在指定之組織單位 (OU) 容器中建立連絡人物件的網域權限。
 
-如需使用**Get-csexumcontact** cmdlet 的詳細資訊，請參閱 Lync Server 管理命令介面文件中的[Get-csexumcontact](https://docs.microsoft.com/powershell/module/skype/Get-CsExUmContact) 。
+如需使用**Get-CsExumContact** Cmdlet 的詳細資訊，請參閱 Lync Server 管理命令介面檔中的[Get-CsExUmContact](https://docs.microsoft.com/powershell/module/skype/Get-CsExUmContact) 。
 
 </div>
 

@@ -1,8 +1,8 @@
 ---
 title: 移轉
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Migration
@@ -12,12 +12,12 @@ ms:contentKeyID: 48183669
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d6add96ea262c2d8495997bd2e17f046d6463e42
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e57303aa330245a0d00a7a824c5eb846e19519d7
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209799"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756642"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,17 +35,17 @@ ms.locfileid: "42209799"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-18_
+_**主題上次修改日期：** 2012-09-18_
 
-本節說明如何將其從 Microsoft Office Communications Server 2007 R2 或 Microsoft Lync Server 2010 移轉至 Microsoft Lync Server 2013 中，從 Microsoft Lync Server 2010 中 Group Chat to Microsoft Lync Server 2013，Persistent Chat Server，並從常設聊天室伺服器的 Microsoft Office Communications Server 2007 R2 群組聊天。
+本節說明如何從 Microsoft Office 通訊伺服器 2007 R2 或 Microsoft Lync server 2010 遷移至 Microsoft Lync server 2013，從 Microsoft Lync Server 2010，Group Chat to Microsoft Lync Server 2013，Persistent Chat Server，以及從 Microsoft Office 通訊伺服器的 R2 群組聊天到 Persistent Chat Server。
 
 <div>
 
 ## <a name="in-this-section"></a>本章節內容
 
-  - [從 Lync Server 2010 移轉至 Lync Server 2013](migration-from-lync-server-2010-to-lync-server-2013.md)
+  - [從 Lync Server 2010 遷移至 Lync Server 2013](migration-from-lync-server-2010-to-lync-server-2013.md)
 
-  - [從 Office Communications Server 2007 R2 移轉至 Lync Server 2013](migration-from-office-communications-server-2007-r2-to-lync-server-2013.md)
+  - [從 Office 通訊伺服器 2007 R2 遷移至 Lync Server 2013](migration-from-office-communications-server-2007-r2-to-lync-server-2013.md)
 
   - [從 Lync Server 2010 群組聊天或 Office Communications Server 2007 R2 群組聊天移轉至 Lync Server 2013 常設聊天室伺服器](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md)
 

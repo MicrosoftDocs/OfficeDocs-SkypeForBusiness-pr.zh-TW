@@ -1,8 +1,8 @@
 ---
 title: 管理聊天室
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Manage rooms
@@ -12,12 +12,12 @@ ms:contentKeyID: 48185505
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b6c684544a9acff04b4f03a47dcb7b403503f7b3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4a83896222b4f74bc57dfe7db08dcd1ea70b0f1f
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210119"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755817"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,9 +35,9 @@ ms.locfileid: "42210119"
 
 <span> </span>
 
-_**上次修改主題：** 2013年-02-21_
+_**主題上次修改日期：** 2013-02-21_
 
-若要建立新的常設聊天室伺服器室
+若要建立新的持久聊天伺服器聊天室
 
     New-CsPersistentChatRoom -Name Foo1 -PersistentChatPoolFqdn client.contoso.com -Category client.contoso.com\Foo [other parameters]
 
@@ -45,40 +45,40 @@ _**上次修改主題：** 2013年-02-21_
 
 
 > [!IMPORTANT]  
-> 下列其中一項，則為 true 時，就不需要-PersistentChatPoolFqdn: 
+> -如果下列其中一項為真，則不需要 PersistentChatPoolFqdn： 
 > <UL>
 > <LI>
-> <P>沒有只有一個 Persistent Chat Server 集區。</P>
+> <P>只有一個持續性聊天伺服器集區。</P>
 > <LI>
-> <P>您提供該類別的集區 FQDN。</P>
+> <P>您為類別提供集區 FQDN。</P>
 > <LI>
-> <P>您提供一個集區 FQDN 來新增聊天室。</P></LI></UL>
+> <P>您提供集區 FQDN 以加入會議室。</P></LI></UL>
 
 
 
 </div>
 
-若要變更現有的常設聊天室伺服器室
+若要變更現有的持久聊天伺服器聊天室
 
     Set-CsPersistentChatRoom -Identity testCat -Members @{Add="sip:user1@contoso.com", "CN=container,DC=contoso,DC=com"}
     Set-CsPersistentChatRoom -Identity testCat -Managers @{Add="sip:user2@contoso.com"}
     Set-CsPersistentChatRoom -Identity testCat -Presenters @{Add="sip:user1@contoso.com"}
 
-Windows PowerShell： 成員、 主管和簡報者可以同時設定。 它們都應該 AllowedMembers 減 DeniedMembers 主應用程式] 類別的子集。 是類型會議室 = 一般不能包括簡報者。
+Windows PowerShell: 成員，管理員和簡報者可以同時設定。 它們都應該是主機類別 AllowedMembers 減 DeniedMembers 的子集。 類型為 normal 的會議室不能包含簡報者。
 
 <div>
 
-## <a name="create-get-set-clear-or-remove-a-room"></a>建立、 取得、 設定、 清除，或移除聊天室
+## <a name="create-get-set-clear-or-remove-a-room"></a>建立、取得、設定、清除或移除聊天室
 
 若要建立新聊天室
 
     New-CsPersistentChatRoom -Name <String> [-PersistentChatPoolFqdn <String>]-Category <String> [-Description <String>] [-Disabled <Switch Parameter>] [-Type <Normal | Auditorium>] [-AddIn <String>] [-Privacy <ChatRoomPrivacy> {Open | Closed | Secret}] [-Invitations <Switch Parameter>]
 
-設定聊天室
+若要設定會議室
 
     Set-CsPersistentChatRoom -Identity <String> [-Name <String>] [-Category <String>] [-Description <String>] [-Disabled <boolean>] [-Type <Normal | Auditorium>] [-AddIn <String>] [-Privacy <ChatRoomPrivacy> {Open | Closed | Secret}] [-Invitations <Enum>] [-Members <PSListModifier<String>>] [-Managers <PSListModifier<String>>] [-Presenters <PSListModifier<String>>] [-Force < Switch Parameter >] [-Confirm <Switch Parameter>][-WhatIf <Switch Parameter>]
 
-若要取得聊天室
+取得聊天室
 
     Get-CsPersistentChatRoom -Identity <String>
 
@@ -86,9 +86,9 @@ Windows PowerShell： 成員、 主管和簡報者可以同時設定。 它們�
 
     Get-CsPersistentChatRoom -filter <String> [-PersistentChatPoolFqdn <String>] [-SearchDescription] [-Member <String>] [-Manager <string>] [-Category <string>] [-Addin <string>] [-Disabled <bool>] [-Privacy <ChatRoomPrivacy> {Open | Closed | Secret}] [-Type <ChatRoomType> {Normal | Auditorium}] [-Invitations <ChatRoomInvitations> {False | Inherit}] [-ChatContentExceedsMB <int>] [-ResultSize <int>]
 
-其中 – 篩選器支援僅名稱和描述，幫助您尋找會議室其名稱/描述比對的關鍵字字串。 PoolFqdn 搜尋特定的 Persistent Chat Server 集區中。
+其中– filter 只支援 Name 及 Description，可協助您尋找 Name/Description 符合關鍵字字串的聊天室。 在指定的 Persistent Chat Server 集區中 PoolFqdn 搜尋。
 
-若要清除聊天室和清除聊天室的訊息
+清除聊天室並清除聊天室中的郵件
 
     Clear-CsPersistentChatRoom [-Identity] <string> -EndDate <DateTime> [-WhatIf] [-Confirm]  [<CommonParameters>]
 
@@ -96,7 +96,7 @@ Windows PowerShell： 成員、 主管和簡報者可以同時設定。 它們�
 
     Clear-CsPersistentChatRoom [-Instance] <ChatRoomObject> -EndDate <DateTime> [-WhatIf] [-Confirm] [<CommonParameters>]
 
-若要移除聊天室
+移除聊天室
 
     Remove-CsPersistentChatRoom [-Identity] <string> [-Force] [-WhatIf] [-Confirm]  [<CommonParameters>]
 

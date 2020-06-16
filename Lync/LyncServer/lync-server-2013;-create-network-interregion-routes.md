@@ -1,8 +1,8 @@
 ---
-title: Lync Server 2013;建立網路 interregion 路由
+title: Lync Server 2013;建立網路區間路由
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: admin
 manager: serdars
 f1.keywords:
@@ -13,20 +13,20 @@ ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398368(v=OCS.15)
 ms:contentKeyID: 48184159
 ms.date: 07/23/2014
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3909c41328e18302ef1104ac05d9a7c7987f57d6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 156f2322d5b1b7cc1951f1cbd4df41eb231a8170
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727383"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757204"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-network-interregion-routes-in-lync-server-2013"></a>在 Lync Server 2013 中建立網路 interregion 路由
+# <a name="create-network-interregion-routes-in-lync-server-2013"></a>在 Lync Server 2013 中建立網路區間路由
 
 </div>
 
@@ -38,29 +38,29 @@ ms.locfileid: "41727383"
 
 _**主題上次修改日期：** 2012-10-20_
 
-*網路 interregion 路由*定義一對網路區域之間的路由。 通話許可控制部署中的每一組網路區域都需要有網路 interregion 路由。 這可讓部署中的每個網路區域存取每一個其他區域。
+A *network interregion route* defines the route between a pair of network regions. Each pair of network regions in your call admission control deployment requires a network interregion route. This enables every network region within the deployment to access every other region.
 
-雖然區域連結會針對區域之間的連線設定頻寬限制，但 interregion 路由決定了連線將從一個區域傳遞到另一個區域的連結路徑。
+地區連結會設定地區間連線的頻寬限制，而區間路由會決定從甲地連線到乙地時要採取的連結路徑。
 
-如需使用網路 interregion 路由的詳細資料，請參閱 Lync Server 管理命令介面檔，瞭解下列 Cmdlet：
+如需使用網路區間路由的詳細資訊，請參閱 Lync Server 管理命令介面檔中的下列 Cmdlet：
 
-  - [新-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterRegionRoute)
+  - [新 CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterRegionRoute)
 
-  - [CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterRegionRoute)
+  - [Get-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterRegionRoute)
 
-  - [Set-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkInterRegionRoute)
+  - [CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkInterRegionRoute)
 
-  - [移除-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkInterRegionRoute)
+  - [Remove-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkInterRegionRoute)
 
-在範例拓朴中，您必須為三個地區對中的每一組定義網路 interregion 路由：北美/EMEA、EMEA/APAC，以及北美/APAC。
+在範例拓撲當中，下列三組地區每一組都需要定義網路區間路由：North America/EMEA、EMEA/APAC，以及 North America/APAC。
 
 <div>
 
-## <a name="to-create-network-interregion-routes-by-using-lync-server-management-shell"></a>使用 Lync Server 管理命令介面建立網路 interregion 路由
+## <a name="to-create-network-interregion-routes-by-using-lync-server-management-shell"></a>使用 Lync Server 管理命令介面建立網路區間路由
 
-1.  啟動 Lync Server 管理命令介面：按一下 [**開始**]，按一下 [**所有程式**]，按一下 [ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
+1.  啟動 Lync Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
 
-2.  執行**新的 CsNetworkInterRegionRoute** Cmdlet，以定義所需的路由。 例如，執行：
+2.  執行 **New-CsNetworkInterRegionRoute** Cmdlet 以定義所需的路由。 例如，執行：
     
        ```PowerShell
         New-CsNetworkInterRegionRoute -Identity NorthAmerica_EMEA_Route -NetworkRegionID1 NorthAmerica -NetworkRegionID2 EMEA -NetworkRegionLinkIDs "NA-EMEA-LINK"
@@ -78,7 +78,7 @@ _**主題上次修改日期：** 2012-10-20_
     
 
     > [!NOTE]  
-    > 北美/APAC 網路 interregion 路由需要兩個網路區域連結，因為它們之間沒有直接的網路區域連結。
+    > 由於 North America/APAC 網路區間路由之間沒有直接的網路地區連結，因此需要用到兩個網路地區連結。
 
     
     </div>
@@ -87,36 +87,36 @@ _**主題上次修改日期：** 2012-10-20_
 
 <div>
 
-## <a name="to-create-network-interregion-routes-by-using-lync-server-control-panel"></a>使用 Lync Server [控制台] 建立網路 interregion 路由
+## <a name="to-create-network-interregion-routes-by-using-lync-server-control-panel"></a>使用 Lync Server 控制台建立網路區間路由
 
-1.  開啟瀏覽器視窗，然後輸入系統管理員 URL，以開啟 Lync Server [控制台]。 如需可用於啟動 Lync Server [控制台] 的不同方法的詳細資訊，請參閱[開啟 Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+1.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱[Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
-2.  在左側導覽列中，按一下 [**網路**設定]。
+2.  在左導覽列中，按一下 **[網路組態]**。
 
-3.  按一下 [**地區路線**] 導覽按鈕。
+3.  按一下 **[地區路由]** 導覽按鈕。
 
-4.  按一下 [**新增**]。
+4.  按一下 **[新增]**。
 
-5.  在 [**新增地區路線**] 頁面上，按一下 [**名稱**]，然後輸入網路 interregion 路由的名稱。
+5.  按一下 **[新的地區路由]** 頁面上的 **[名稱]**，然後輸入網路區間路由的名稱。
 
-6.  按一下 [**網路\#區域 1**]，然後按一下清單中您要路由至 [網路區域\#2] 的網路區域。
+6.  按一下 [**網路地區 \# 1**]，然後按一下清單中您要路由傳送至 [網路地區 2] 的網路地區 \# 。
 
-7.  按一下 [**網路\#區域 2**]，然後按一下清單中您要路由至 [網路區域\#1] 的網路區域。
+7.  按一下 [**網路地區 \# 2**]，然後按一下清單中您要路由傳送至網路地區1的網路地區 \# 。
 
-8.  按一下 [**網路區域連結**] 欄位旁的 [**新增**]，然後新增將在網路 interregion 路由中使用的 [網路區域] 連結。
+8.  按一下 **[網路地區連結]** 欄位旁邊的 **[新增]**，接著新增將用於網路區間路由的網路地區連結。
     
     <div class=" ">
     
 
     > [!NOTE]  
-    > 如果您要為兩個網路區域建立路線，而這些區域之間沒有直接的網路區域連結，您必須新增所有必要的連結，才能完成路線。 例如，北美/APAC 網路 interregion 路由需要兩個網路區域連結，因為它們之間沒有直接的網路區域連結。
+    > If you are creating a route for two network regions that do not have a direct network region link between them, you must add all the necessary links to complete the route. For example, the North America/APAC network interregion route requires two network region links because there is no direct network region link between them.
 
     
     </div>
 
-9.  按一下 [認可]****。
+9.  按一下 **[認可]**。
 
-10. 若要為您的拓撲完成建立網路 interregion 路由，請重複步驟4到9，並設定其他網路 interregion 路由。
+10. 若要為您的拓撲完成建立網路區間路由，使用其他網路區間路由的設定並重複步驟 4 到 9。
 
 </div>
 

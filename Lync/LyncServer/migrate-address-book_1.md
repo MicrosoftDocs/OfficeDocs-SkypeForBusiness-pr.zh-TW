@@ -1,8 +1,8 @@
 ---
 title: 移轉通訊錄
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Migrate Address Book
@@ -12,12 +12,12 @@ ms:contentKeyID: 48185218
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e68dbe4db6ee9ac6b9bd758b23a575089019f6c7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 937bf9dfff07591ea12a2c78604ab82fa34e97f6
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210149"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757024"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,26 +35,26 @@ ms.locfileid: "42210149"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-02_
+_**主題上次修改日期：** 2012-10-02_
 
-**移轉通訊錄自訂正規化規則**
+**遷移通訊錄自訂正常化規則**
 
-1.  尋找公司\_電話\_號碼\_正規化\_Rules.txt 檔案通訊錄共用資料夾的根目錄中，並將它複製到 Lync Server 2013 試驗集區中通訊錄共用資料夾的根目錄。
+1.  \_ \_ \_ \_ 在 [通訊錄] 共用資料夾的根目錄中尋找公司電話號碼正規化Rules.txt 檔案，並將它複製到 Lync Server 2013 試驗集區中的 [通訊錄共用資料夾] 根。
     
     <div>
     
 
     > [!NOTE]  
-    > 範例通訊錄正規化規則已安裝在您 ABS Web 元件的檔案目錄中。 路徑是<STRONG>$installedDriveLetter: \Program Files\Microsoft Lync Server 2013\Web Components\Address 通訊錄 Files\Files\ Sample_Company_Phone_Number_Normalization_Rules.txt，</STRONG>。 要複製此檔案，然後重新命名為&nbsp; <STRONG>Company_Phone_Number_Normalization_Rules.txt</STRONG> &nbsp;至通訊錄共用的資料夾的根目錄。 例如，通訊錄共用<STRONG>$serverX</STRONG>，&nbsp;路徑會類似： <STRONG> \\$serverX \LyncFileShare\2-WebServices-1\ABFiles</STRONG>。
+    > 您的 ABS 網頁元件檔案目錄中已安裝範例通訊錄正常化規則。 路徑為<STRONG>$installedDriveLetter： \Program Files\Microsoft Lync Server 2013 \ Web Components\Address Book Files\Files\ Sample_Company_Phone_Number_Normalization_Rules.txt，</STRONG>。 您可以將此檔案複製並重新命名為 &nbsp; <STRONG>Company_Phone_Number_Normalization_Rules.txt</STRONG> &nbsp; 通訊錄共用資料夾的根目錄。 例如， <STRONG>$serverX</STRONG>中共用的通訊錄， &nbsp; 該路徑會類似如下： <STRONG> \\ $serverX \LyncFileShare\2-WebServices-1\ABFiles</STRONG>。
 
     
     </div>
 
-2.  使用文字編輯器，例如 「 記事本 」，若要開啟 [公司\_電話\_號碼\_正規化\_Rules.txt 檔案。
+2.  使用文字編輯器（例如 [記事本]）開啟公司 \_ 電話號碼正規化 \_ \_Rules.txt 檔 \_ 。
 
-3.  Lync Server 2013 中，某些類型的項目將無法正確運作。 查看的這個步驟中所述的項目類型的檔案，視需要編輯這些，將變更儲存至試驗集區中通訊錄共用資料夾。
+3.  在 Lync Server 2013 中某些類型的專案將無法正確運作。 查看此步驟中所述之專案類型的檔案，視需要進行編輯，然後將變更儲存至試驗集區中的通訊錄共用資料夾。
     
-    包含必要的空白字元或標點符號原因正規化規則失敗，因為這些字元會移除超出輸入正規化規則的字串的字串。 如果您有包含必要的空白字元或標點符號的字串，您要修改的字串。 例如，下列字串會導致正規化規則失敗：
+    包含必要空格或標點符號的字串會導致正規化規則失敗，因為這些字元會從輸入到正規化規則的字串中去掉。 如果您有包含必要空格或標點符號的字串，您必須修改字串。 例如，下列字串會導致正規化規則失敗：
     
         \s*\(\s*\d\d\d\s*\)\s*\-\s*\d\d\d\s*\-\s*\d\d\d\d
     

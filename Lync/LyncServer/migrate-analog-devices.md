@@ -1,8 +1,8 @@
 ---
 title: 移轉類比裝置
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Migrate analog devices
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733779
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0bc1c3420c22f4cc58bd0e617fd9ba98e16102c6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 70e756fdaa49fc4c825a2c8548eb2c7f2e4acab2
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210010"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757014"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,21 +35,21 @@ ms.locfileid: "42210010"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012 年 10-16_
+_**主題上次修改日期：** 2012-10-16_
 
-Lync Server 的類比裝置提供支援。 具體而言，支援的類比裝置為類比語音電話與類比傳真機。 您可以設定 Lync Server 環境中支援的類比裝置使用完整的閘道。 從 Lync Server 2010 移轉至 Lync Server 2013 之後，您也必須移轉相關聯的類比裝置連絡人物件。 使用 Lync Server 管理命令介面來第一次擷取與 Lync Server 2010 類比裝置，相關聯的所有連絡人物件，然後將這些物件移至 Lync Server 2013 集區。
+Lync Server 提供類比裝置的支援。 具體而言，支援的類比裝置為類比語音電話與類比傳真機。 您可以設定合格的閘道，以支援在 Lync Server 環境中使用類比裝置。 從 Lync Server 2010 遷移至 Lync Server 2013 之後，您也必須遷移與類比裝置相關聯的連絡人物件。 使用 Lync Server 管理命令介面，先找回 Lync Server 2010 類比裝置相關聯的所有連絡人物件，然後將這些物件移至 Lync Server 2013 集區。
 
 <div>
 
-## <a name="to-migrate-analog-devices"></a>移轉類比裝置
+## <a name="to-migrate-analog-devices"></a>遷移類比裝置
 
-1.  啟動 Lync Server 管理命令介面： 按一下 [**開始]**，按一下 [**所有程式]**、 [ **Microsoft Lync Server 2013**]，然後按一下**Lync Server 管理命令介面**。
+1.  啟動 Lync Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
 
 2.  在命令列中輸入：
     
         Get-CsAnalogDevice -Filter {RegistrarPool -eq "pool01.contoso.net"} | Move-CsAnalogDevice -Target pool02.contoso.net
 
-3.  確認所有連絡人物件已被移至 Lync Server 2013 集區。 在命令列中輸入：
+3.  確認已將所有連絡人物件移至 Lync Server 2013 集區。 在命令列中輸入：
     
         Get-CsAnalogDevice -Filter {RegistrarPool -eq "pool02.contoso.net"}
 

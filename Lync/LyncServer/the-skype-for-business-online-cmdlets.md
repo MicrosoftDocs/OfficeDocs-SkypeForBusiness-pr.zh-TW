@@ -1,8 +1,8 @@
 ---
-title: Skype 商務 Online cmdlet
+title: 商務用 Skype Online Cmdlet
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: The Skype for Business Online cmdlets
@@ -12,12 +12,12 @@ ms:contentKeyID: 56558831
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 02365bfeeed60a22ea467091ebb0f2c92b0fa3c2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8ee81531ca8d900225d2b8dc2a10af55718a5b67
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189186"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755707"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42189186"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="the-skype-for-business-online-cmdlets"></a>Skype 商務 Online cmdlet
+# <a name="the-skype-for-business-online-cmdlets"></a>商務用 Skype Online Cmdlet
 
 </div>
 
@@ -35,32 +35,32 @@ ms.locfileid: "42189186"
 
 <span> </span>
 
-_**上次修改主題：** 2013年-07-05_
+_**主題上次修改日期：** 2013-07-05_
 
-當您連接至 Skype for Business Online 使用 Windows PowerShell 時，一群 Skype for Business Online 指令程式會複製，在記憶體中，到您的電腦。 這些指令程式，除了您已經在您的本機電腦 （包括當您安裝 Windows PowerShell 安裝的核心 cmdlet） 的任何其他 cmdlet 就適用於管理您 Skype for Business Online 部署與您商務用 Skype商務線上的使用者帳戶。 Skype 商務 Online 指令程式中導入下列主題：
+當您使用 Windows PowerShell 連線到商務用 Skype Online 時，會將商務用 Skype Online Cmdlet 的集合複製到電腦的記憶體中。 這些 Cmdlet，除了您在本機電腦上已有的任何其他 Cmdlet （包括安裝 Windows PowerShell 時安裝的核心 Cmdlet）之外，還可供您用來管理商務用 Skype Online 部署和商務用 Skype Online 使用者帳戶。 下列主題將引進商務用 Skype Online Cmdlet：
 
-  - [管理商務用 Skype 商務 Online 租用戶](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/manage-skype-for-business-online-organizations)
+  - [管理商務用 Skype Online 承租人](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/manage-skype-for-business-online-organizations)
 
-  - [管理使用者與 Skype for Business Online 中的使用者帳戶內容](https://docs.microsoft.com/skypeforbusiness/manage/user-accounts/user-accounts)
+  - [在商務用 Skype Online 中管理使用者和使用者帳戶屬性](https://docs.microsoft.com/skypeforbusiness/manage/user-accounts/user-accounts)
 
-  - [Skype 商務 Online 中的管理原則](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-policies-with-office-365-powershell)
+  - [在商務用 Skype Online 中管理原則](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-policies-with-office-365-powershell)
 
-  - [商務用 Skype 管理 Skype 商務用戶端](https://docs.microsoft.com/skypeforbusiness/set-up-skype-for-business-online/deploy-the-skype-for-business-client-in-office-365)
+  - [從商務用 Skype Online 管理商務用 Skype 用戶端](https://docs.microsoft.com/skypeforbusiness/set-up-skype-for-business-online/deploy-the-skype-for-business-client-in-office-365)
 
-  - [管理 Exchange 整合通訊與 skype for Business Online 託管的語音信箱](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/manage-exchange-unified-messaging-and-hosted-voicemail)
+  - [在商務用 Skype Online 中管理 Exchange 整合通訊和主控語音信箱](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/manage-exchange-unified-messaging-and-hosted-voicemail)
 
-  - [管理通訊 skype for Business Online 與外部使用者和組織](https://docs.microsoft.com/skypeforbusiness/set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users)
+  - [使用外部使用者和組織管理商務用 Skype Online 中的通訊](https://docs.microsoft.com/skypeforbusiness/set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users)
 
-  - [管理商務用 Skype 商務線上會議及會議](https://docs.microsoft.com/skypeforbusiness/manage/conferencing/conferencing-policies)
+  - [管理商務用 Skype Online 會議和會議](https://docs.microsoft.com/skypeforbusiness/manage/conferencing/conferencing-policies)
 
-  - [管理行動電話和商務用 Skype 中的行動裝置](https://docs.microsoft.com/skypeforbusiness/set-up-policies-in-your-organization/set-up-mobile-policies-for-your-organization)
+  - [管理商務用 Skype Online 中的行動電話和行動裝置](https://docs.microsoft.com/skypeforbusiness/set-up-policies-in-your-organization/set-up-mobile-policies-for-your-organization)
 
 <div>
 
 ## <a name="see-also"></a>另請參閱
 
 
-[快速參考： 使用 Windows PowerShell 來執行一般 Skype for Business Online 的管理工作](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)  
+[快速參考：使用 Windows PowerShell 執行常見的商務用 Skype Online 管理工作](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)  
   
 
 </div>

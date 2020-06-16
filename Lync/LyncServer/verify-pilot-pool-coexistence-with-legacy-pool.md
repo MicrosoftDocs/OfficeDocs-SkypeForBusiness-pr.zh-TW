@@ -1,8 +1,8 @@
 ---
-title: 確認舊版集區與試驗集區共存
+title: 驗證試驗集區與舊版集區共存
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Verify pilot pool coexistence with legacy pool
@@ -12,12 +12,12 @@ ms:contentKeyID: 48185964
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6c30f15b7a4e40b5c814ed5f21d07e213b69cf10
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b76c1296f69421bfbfe83e61055249f2642420ba
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188886"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755567"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42188886"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="verify-pilot-pool-coexistence-with-legacy-pool"></a>確認舊版集區與試驗集區共存
+# <a name="verify-pilot-pool-coexistence-with-legacy-pool"></a>驗證試驗集區與舊版集區共存
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "42188886"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-29_
+_**主題上次修改日期：** 2012-09-29_
 
-部署試驗集區之後，您需要確認兩個集區共存所使用的系統管理工具來檢視的集區資訊。 Lync Server 2013 集區與舊版的集區，您必須使用 Lync Server 2013 控制台] 及 [拓撲產生器工具。
+部署試驗集區之後，您必須使用系統管理工具來查看集區資訊，以確認兩個集區共存。 對於 Lync Server 2013 集區和舊版集區，您必須使用 Lync Server 2013 控制台和拓撲產生器工具。
 
 <div>
 
-## <a name="verify-that-lync-server-2013-services-have-started"></a>確認 Lync Server 2013 服務已啟動
+## <a name="verify-that-lync-server-2013-services-have-started"></a>確認已啟動 Lync Server 2013 服務
 
-1.  從 Lync Server 2013 前端伺服器，瀏覽至 [系統管理工具]\\服務] 小程式。
+1.  從 Lync Server 2013 前端伺服器，流覽至 [系統管理工具 \\ 服務] 小程式。
 
-2.  確認下列服務正在執行前端伺服器上：
+2.  確認下列服務正在前端伺服器上執行：
 
 **Lync Server 2013 服務**
 
-![啟動 Lync Server 服務的清單](images/JJ205420.cfff9385-6bf6-461c-982c-e727c9f20b70(OCS.15).png "啟動 Lync Server 服務的清單")
+![已啟動的 Lync Server 服務清單](images/JJ205420.cfff9385-6bf6-461c-982c-e727c9f20b70(OCS.15).png "已啟動的 Lync Server 服務清單")
 
 </div>
 
@@ -57,39 +57,39 @@ _**主題上次修改日期：** 2012年-09-29_
 
 ## <a name="open-the-lync-server-2013-control-panel"></a>開啟 Lync Server 2013 控制台
 
-從前端伺服器 Lync Server 2013 部署中，開啟 Lync Server 2013 控制台]，選取 [Lync Server 2010 集區。 重複此程序來開啟 Lync Server 2013 集區。
+在 Lync Server 2013 部署中的前端伺服器上，開啟 [Lync Server 2013 控制台]，然後選取 [Lync Server 2010 集區]。 重複此程式以開啟 Lync Server 2013 集區。
 
 **開啟 Lync Server 2013 控制台**
 
-![選取 [URL] 對話方塊](images/JJ205420.b1f8e650-9c3c-4563-a403-5069f198342f(OCS.15).png "選取 [URL] 對話方塊")
+![[選取 URL] 對話方塊](images/JJ205420.b1f8e650-9c3c-4563-a403-5069f198342f(OCS.15).png "[選取 URL] 對話方塊")
 
 <div>
 
 
 > [!IMPORTANT]  
-> 在 Lync Server 2013，您必須升級為 Silverlight 版本 5 才能使用 Lync Server Control Panel 的 Silverlight。
+> 在 Lync Server 2013 上，您必須在使用 Lync Server 控制台之前，將 Silverlight 升級至 Silverlight 第5版。
 
 
 
 </div>
 
-現在此拓撲包含 Lync Server 2010 和 Lync Server 2013 伺服器角色。
+此拓撲現在包括 Lync Server 2010 和 Lync Server 2013 伺服器角色。
 
 **Lync Server 2013 控制台拓撲頁面**
 
-![Lync Server 控制台的拓撲] 頁面上](images/JJ205420.4ed1cc7a-cb3e-42f6-82e2-6d4d71d19352(OCS.15).jpg "Lync Server 控制台的拓撲] 頁面上")
+![Lync Server 控制台-拓撲頁面](images/JJ205420.4ed1cc7a-cb3e-42f6-82e2-6d4d71d19352(OCS.15).jpg "Lync Server 控制台-拓撲頁面")
 
 </div>
 
 <div>
 
-## <a name="dont-attempt-to-open-the-topology-in-lync-server-2010-topology-builder"></a>請勿嘗試在 Lync Server 2010 拓撲產生器] 中開啟拓撲
+## <a name="dont-attempt-to-open-the-topology-in-lync-server-2010-topology-builder"></a>不要嘗試在 Lync Server 2010 拓撲產生器中開啟拓撲
 
-如果您嘗試開啟拓撲中使用 Lync Server 2010 拓撲產生器]，就會發生下列錯誤。 拓撲只能檢視使用 Lync Server 2013 拓撲產生器]。 Lync Server 2013 拓撲產生器必須用來建立 Lync Server 2013 和 Lync Server 2010 的集區。
+如果您嘗試使用 Lync Server 2010 拓撲產生器來開啟拓撲，您會遇到下列錯誤。 拓撲只能以 Lync Server 2013 拓撲產生器來查看。 Lync Server 2013 拓撲產生器必須用來建立 Lync Server 2013 和 Lync Server 2010 的集區。
 
 **Lync Server 2010 拓撲產生器錯誤訊息**
 
-![Lync Server 拓撲產生器] MMC 貼齊錯誤](images/JJ205420.f6666343-c348-4d81-ae0e-6ba5a44e16c4(OCS.15).png "Lync Server 拓撲產生器] MMC 貼齊錯誤")
+![Lync Server 拓撲產生器 MMC 貼齊錯誤](images/JJ205420.f6666343-c348-4d81-ae0e-6ba5a44e16c4(OCS.15).png "Lync Server 拓撲產生器 MMC 貼齊錯誤")
 
 </div>
 

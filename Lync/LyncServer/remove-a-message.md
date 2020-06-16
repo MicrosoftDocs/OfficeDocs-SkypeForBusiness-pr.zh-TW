@@ -1,8 +1,8 @@
 ---
-title: 移除訊息
+title: 移除郵件
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Remove a message
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184790
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9709b3249e241ae5f9998ee48f5ff65e05b9bd8f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cbeda1e4b9b9705cffb89469741aadb6fe67241c
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209443"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757144"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42209443"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="remove-a-message"></a>移除訊息
+# <a name="remove-a-message"></a>移除郵件
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "42209443"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-04-04_
+_**主題上次修改日期：** 2012-04-04_
 
-若要移除的郵件
+移除郵件
 
     Remove-CsPersistentChatMessage -Identity <string> [-UserUri <string>] [-StartDate <DateTime>] [-EndDate <DateTime>] [-Filter <string>] [-MatchClause <AndOr> {And | Or | Exact}] [-CaseSensitive <bool>] [-ReplaceMessage <string>] [-WhatIf] [-Confirm] [<CommonParameters>]
 

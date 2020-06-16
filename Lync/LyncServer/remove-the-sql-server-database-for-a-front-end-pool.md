@@ -1,8 +1,8 @@
 ---
 title: 移除前端集區的 SQL Server 資料庫
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Remove the SQL Server database for a Front End pool
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733681
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a69972d355ad2870445af14ccfeb097f1d8a6dcb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 10d46868b63236327825f2fe4134330fd055ead2
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189396"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757275"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,17 +35,17 @@ ms.locfileid: "42189396"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-04_
+_**主題上次修改日期：** 2012-10-04_
 
-在您移除 Microsoft Lync Server 2010 前端集區或重新設定要使用不同的資料庫之集區之後，您可以移除裝載的集區資料的 SQL Server 資料庫。 使用下列程序從拓撲產生器中，移除定義]，然後從資料庫伺服器中移除的資料庫和記錄檔。
+移除 Microsoft Lync Server 2010 前端集區或重新設定集區以使用其他資料庫之後，您可以移除主控集區資料的 SQL Server 資料庫。 請使用下列程式，從拓撲產生器移除定義，然後從資料庫伺服器中移除資料庫和記錄檔。
 
 <div>
 
-## <a name="to-remove-the-sql-server-database-using-topology-builder"></a>若要移除使用拓撲產生器的 SQL Server 資料庫
+## <a name="to-remove-the-sql-server-database-using-topology-builder"></a>使用拓撲產生器移除 SQL Server 資料庫
 
-1.  從 Lync Server 2013 前端伺服器，開啟拓撲產生器，並下載現有的拓撲。
+1.  從 Lync Server 2013 前端伺服器開啟拓撲產生器，並下載現有的拓撲。
 
-2.  在拓撲產生器中，瀏覽至**共用元件**] 後再按一下 [ **SQL Server 存放區**移除或重新設定前端集區，相關聯的 SQL Server 執行個體上按一下滑鼠右鍵，然後按一下 [**刪除**。
+2.  在 [拓撲產生器] 中，流覽至 [**共用元件**]，然後按一下 [ **Sql server 存放區**]，以滑鼠右鍵按一下與已移除或重新設定的前端集區相關聯的 SQL Server 實例，然後按一下 [**刪除**
 
 3.  發行拓撲，然後檢查複寫狀態。
 
@@ -63,13 +63,13 @@ _**主題上次修改日期：** 2012年-10-04_
     
         Uninstall-CsDataBase -DatabaseType User -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
     
-    其中\<FQDN\>是完整的網域名稱 (FQDN) 的資料庫伺服器，以及\<執行個體\>（亦即，如果已定義） 是已命名的資料庫執行個體。
+    其中 \<FQDN\> 是資料庫伺服器的完整功能變數名稱（FQDN），也就 \<instance\> 是指定的資料庫實例（也就是定義的資料庫實例）。
 
 4.  移除集區應用程式存放區的資料庫，請輸入：
     
         Uninstall-CsDataBase -DatabaseType Application -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
     
-    其中\<FQDN\>是資料庫伺服器的 FQDN 和\<執行個體\>（亦即，如果已定義） 是已命名的資料庫執行個體。
+    其中 \<FQDN\> 是資料庫伺服器的 FQDN，也就 \<instance\> 是指定的資料庫實例（也就是定義的實例）。
 
 5.  當 **Uninstall-CsDataBase** Cmdlet 提示您確認動作時，請閱讀資訊，然後按 **Y** (或按 Enter) 繼續作業，或是依序按 **N** 及 Enter 停止 Cmdlet (例如發生錯誤時)。
 

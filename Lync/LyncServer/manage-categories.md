@@ -1,8 +1,8 @@
 ---
 title: 管理類別
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Manage categories
@@ -12,12 +12,12 @@ ms:contentKeyID: 48183543
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 80aa7ec290611563f3c8a035a5c45fd508f61b43
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6942346156b3dcd8999c4a2c3ada02328c68dccf
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210114"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755847"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,9 +35,9 @@ ms.locfileid: "42210114"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-06_
+_**主題上次修改日期：** 2012-10-06_
 
-若要建立新常設聊天室伺服器的類別
+若要建立新的持久聊天伺服器類別
 
     New-CsPersistentChatCategory -Name Foo -PersistentChatPoolFqdn client.contoso1b118d91-b4c4-4b2f-b842-b451417ec2c6.com [other parameters]
 
@@ -45,18 +45,18 @@ _**主題上次修改日期：** 2012年-10-06_
 
 
 > [!IMPORTANT]  
-> 如果有多個 Persistent Chat Server 集區，需要 PersistentChatPoolFqdn。
+> 只有有一個以上的 Persistent Chat Server 集區時，才需要 PersistentChatPoolFqdn。
 
 
 
 </div>
 
-若要變更的現有常設聊天室伺服器分類
+若要變更現有的持久聊天伺服器類別
 
     Set-CsPersistentChatCategory -Identity testCat -AllowedMembers @{Add="sip:user1@contoso.com", "CN=container,DC=contoso,DC=com"}  -DeniedMembers @{Add="sip:user2@contoso.com"}
     Set-CsPersistentChatCategory -Identity testCat -Creators @{Add="sip:user1@contoso.com"}
 
-Windows PowerShell: AllowedMembers、 DeniedMembers，以及建立者可以同時設定。 Creators 應為 AllowedMembers 扣除 DeniedMembers 的子集。 您也可以在設定成員和建立者同時設定類別的內容。
+可以同時設定 Windows PowerShell: AllowedMembers、DeniedMembers 及建立者。 Creators 應為 AllowedMembers 扣除 DeniedMembers 的子集。 您也可以在設定成員和建立者同時設定類別的內容。
 
 <div>
 

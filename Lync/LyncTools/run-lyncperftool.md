@@ -1,8 +1,8 @@
 ---
 title: 執行 LyncPerfTool
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Run LyncPerfTool
@@ -12,12 +12,12 @@ ms:contentKeyID: 51541437
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3b4c7d7de6dcb2f2eee15e7da0809dd6e3c41e07
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 82df3ee8cfccb91aec4e284674ace72e23a202c4
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196076"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756864"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,38 +35,38 @@ ms.locfileid: "42196076"
 
 <span> </span>
 
-_**上次修改主題：** 2013年-02-24_
+_**主題上次修改日期：** 2013-02-24_
 
-在執行之前 [Lync Server 2013 壓力及效能工具 (LyncPerfTool.exe)，您必須建立使用者、 連絡人及案例。 如需使用工具來執行這些動作的詳細資訊，請參閱[建立使用者和連絡人](create-users-and-contacts.md)和[設定使用者設定檔](configure-user-profile.md)。 執行這些工具也會產生檔案所用執行身分批次檔案的一部分的 LyncPerfTool.exe 包含必要參數。
+在執行 Lync Server 2013 壓力和效能工具（LyncPerfTool.exe）之前，您必須建立使用者、連絡人及案例。 如需使用工具來執行這些動作的詳細資訊，請參閱[建立使用者和連絡人](create-users-and-contacts.md)及[設定使用者設定檔](configure-user-profile.md)。 執行這些工具也會產生檔案，該檔案會在批次檔案中執行 LyncPerfTool.exe，並包含必要的參數。
 
 <div>
 
-## <a name="running-the-lync-server-2013-stress-and-performance-tool"></a>執行 Lync Server 2013 壓力及效能工具
+## <a name="running-the-lync-server-2013-stress-and-performance-tool"></a>執行 Lync Server 2013 壓力和效能工具
 
-UserProfileGenerator.exe 工具建立批次檔案，可讓您執行 LyncPerfTool.exe 註冊 LyncPerfTool 效能計數器和載入 XML 組態檔。 批次檔案執行每個設定檔 LyncPerfTool.exe 一個執行個體。 若要執行的批次檔案，請執行下列動作：
+UserProfileGenerator.exe 工具會建立批次處理檔案，可讓您註冊 LyncPerfTool 效能計數器及載入 XML 設定檔，以執行 LyncPerfTool.exe。 批次檔案會針對每個設定檔執行 LyncPerfTool.exe 的一個實例。 若要執行批次檔，請執行下列動作：
 
-1.  複製資料夾包含的設定資料夾和檔案至 LyncStressTool.exe 包含每個用戶端電腦的目錄。 (例如，如果名為 1.28 資料夾中產生的組態檔\_13.16.16，將該資料夾複製到包含 LyncPerfTool.exe 每個用戶端的資料夾。)
+1.  將包含設定資料夾和檔案的資料夾，複製到每一部用戶端電腦上包含 LyncStressTool.exe 的目錄。 （例如，如果您在名為 1.28 13.16.16 的資料夾中產生設定檔 \_ ，請將該資料夾複製到每個用戶端上包含 LyncPerfTool.exe 的資料夾中。）
 
-2.  瀏覽至適當編號的用戶端資料夾並執行 RunClient 批次指令碼。 您可以只連按兩下 [Windows 檔案總管] 中的批次檔案，它會執行所有的組態檔，該用戶端數目。 您也可以從適當的用戶端資料夾執行指令碼，使用下列語法：
+2.  流覽至正確編號的用戶端資料夾，並執行 RunClient 批次腳本。 您只要按兩下 [Windows Explorer] 中的批次處理檔案，它就會執行該用戶端號碼的所有設定檔案。 您也可以使用下列語法，從適當的用戶端資料夾執行腳本：
 
     ```Batch
         RunClient0.bat "C:\Program Files\Microsoft Lync Server 2013\LyncStressAndPerfTool\LyncStress" 
     ```
-若要直接執行 LyncPerfTool.exe，開啟命令提示字元，則請在命令列輸入下列命令 (當第一次這麼做，請務必將註冊為稍後此 topic):LyncPerfTool.exe /file 附註中顯示的效能計數器 regsvr32 /i /n /s LyncPerfToolPerf.dll，：\<configXML\>
+若要直接執行 LyncPerfTool.exe，請開啟命令提示字元，然後在命令列中輸入下列命令（在第一次執行這項時，請務必註冊效能計數器 regsvr32/i/n/s LyncPerfToolPerf.dll，如本主題稍後的附注所示） :LyncPerfTool.exe/file：\<configXML\>
 ```Powershell
     LyncPerfTool.exe /file:IM_client0.xml
 ```
-若要有工具顯示設定檔案中的值會包含 /displayfile 參數在上述命令，就像這樣：
+若要讓工具在設定檔中顯示值，請在前述命令上加入/displayfile 參數，如下所示：
 ```Powershell
     LyncPerfTool.exe /file:IM_client0.xml /displayfile
 ```
-若要結束程序，請按 Ctrl + C。
+若要結束進程，請按 Ctrl+C。
 
 <div>
 
 
 > [!NOTE]  
-> 在執行之前 LyncPerfTool 直接，您必須註冊的效能計數器。 輸入下列命令，以登錄效能計數器：
+> 在直接執行 LyncPerfTool 之前，必須先註冊效能計數器。 輸入下列命令以註冊效能計數器：
 
 
 
@@ -79,7 +79,7 @@ UserProfileGenerator.exe 工具建立批次檔案，可讓您執行 LyncPerfTool
 
 
 > [!NOTE]  
-> 每個執行個體開始的 LyncPerfTool.exe 會立即啟動登入使用者，通常是一位使用者每秒的速率。 尖峰使用者登入率的集區是大約每秒的 12。 這表示，您應該不啟動超過 12 個 LyncPerfTool 執行個體同時，雖然使用者仍登入。 1000 個使用者將會完全在一秒登入，需要約 20 分鐘。
+> 您啟動的每個 LyncPerfTool.exe 實例都會立即開始登入使用者，通常會以每秒一個使用者的速率來進行簽署。 集區的最高使用者登入率，每秒大約12個。 這表示您不應該同時啟動超過12個 LyncPerfTool 實例，而使用者仍在登入。 1000使用者大約需要20分鐘的時間來完全登入（每秒一個）。
 
 
 

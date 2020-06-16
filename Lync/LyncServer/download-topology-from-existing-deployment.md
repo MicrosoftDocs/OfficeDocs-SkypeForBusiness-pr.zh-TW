@@ -1,8 +1,8 @@
 ---
 title: 從現有部署下載拓撲
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Download topology from existing deployment
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733847
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5a8742cf3b9eee5ab8badb18e1f6a6ae80418141
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 19cf24e1ef287b50ffece7407913a7d2c45e7062
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180345"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755797"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,25 +35,25 @@ ms.locfileid: "42180345"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-29_
+_**主題上次修改日期：** 2012-09-29_
 
-建立 Lync Server 2013 集區，您會使用關聯 Lync Server 2010 中央管理存放區。 當您啟動拓撲產生器中第一次使用以及後續編輯工作階段，會提示您輸入您希望拓撲產生器來載入目前的設定文件的位置。 因為您已有定義 Lync Server 2010 拓撲，並已建立的中央管理存放區，您應該選擇 [從現有部署下載拓撲。 拓撲產生器將讀取資料庫，並擷取目前的定義。
+建立 Lync Server 2013 集區時，會使用與 Lync Server 2010 相關聯的中央管理存放區。 當您在第一次使用時啟動拓撲產生器和後續的編輯會話時，系統會提示您輸入您想要拓撲產生器載入目前設定檔的位置。 因為您已經定義了 Lync Server 2010 拓撲，且已建立中央管理存放區，所以您應該選擇從現有的部署下載拓撲。 拓撲產生器會讀取資料庫，並取得目前的定義。
 
-**若要從現有部署下載拓撲**
+**從現有的部署下載拓撲**
 
-1.  開啟**Lync Server 部署精靈**]。
+1.  開啟**Lync Server 部署嚮導**。
 
-2.  從**Lync Server 2013 – 部署精靈**] 頁面上，按一下 [**安裝系統管理工具**]。
+2.  在 [ **Lync Server 2013 –部署嚮導]** 頁面上，按一下 [**安裝系統管理工具**]。
 
-3.  啟動拓撲產生器： 按一下 [**開始]**、 [**所有程式]**、 [ **Microsoft Lync Server 2013** ]，然後按一下**Lync Server 拓撲產生器]**。
+3.  啟動拓撲產生器：依序按一下 [**開始**]、[**所有程式**]、[ **Microsoft Lync server 2013** ]，然後按一下 [ **Lync server 拓撲**產生器]。
 
-4.  選取 [**從現有部署下載拓撲**]。
+4.  選取 [**從現有的部署下載拓撲**]。
     
-    ![部署精靈拓撲產生器設定](images/JJ721913.d5b39fd9-3c13-422e-a06c-25d2568fe781(OCS.15).jpg "部署精靈拓撲產生器設定")
+    ![部署嚮導拓撲產生器設定](images/JJ721913.d5b39fd9-3c13-422e-a06c-25d2568fe781(OCS.15).jpg "部署嚮導拓撲產生器設定")
 
-5.  選擇 [檔案名稱，預設的.tbxml 檔案類型儲存拓撲。
+5.  選擇檔案名，並以預設的 redmond.tbxml 檔案類型儲存拓撲。
 
-6.  展開 [Lync Server] 節點中，所示，以顯示部署中的各種伺服器角色。
+6.  展開 Lync Server 節點（如圖所示），以顯示部署中的各種伺服器角色。
     
     ![拓撲產生器伺服器角色一般屬性](images/JJ721913.af99ead3-676b-47fd-8369-5a5f9717383f(OCS.15).jpg "拓撲產生器伺服器角色一般屬性")
 

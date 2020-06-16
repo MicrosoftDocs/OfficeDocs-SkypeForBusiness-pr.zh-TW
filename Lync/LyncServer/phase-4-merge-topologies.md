@@ -1,8 +1,8 @@
 ---
-title: 階段 4： 合併拓撲
+title: 階段4：合併拓撲
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: 'Phase 4: Merge topologies'
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184668
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c9c93d46799dfd6c45ac7f6e40ce67a8a6bbfa72
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 30af9fc21528fbfe183aa3849adeb30e8f41ef10
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189696"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757224"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42189696"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="phase-4-merge-topologies"></a>階段 4： 合併拓撲
+# <a name="phase-4-merge-topologies"></a>階段4：合併拓撲
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "42189696"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-03-29_
+_**主題上次修改日期：** 2012-03-29_
 
-下列主題會概述合併您的 Microsoft Office Communications Server 2007 R2 集區至 Microsoft Lync Server 2013 的集區所需的步驟。 首先，您要使用「[拓撲產生器合併精靈」來合併拓撲資訊。 此工具會收集 Office Communications Server 2007 R2 環境，包括 Edge Server 資訊的相關資訊，並將該資訊發佈至共用與 Lync Server 2013 的資料庫。 您將發佈合併後的拓撲之後，拓撲產生器用來檢視相關的新部署的 Lync Server 2013 拓撲資訊與 Office Communications Server 2007 R2 拓撲資訊。 最後，您可使用 Lync Server 管理命令介面 Cmdlet，匯入原則與組態設定。
+下列主題概要說明將您的 Microsoft Office 通訊伺服器 2007 R2 集區合併至 Microsoft Lync Server 2013 集區所需的步驟。 首先，您要使用「[拓撲產生器合併精靈」來合併拓撲資訊。 這個工具會收集有關您的 Office 通訊伺服器 2007 R2 環境的資訊，包括 Edge Server 資訊，並將該資訊發佈至與 Lync Server 2013 共用的資料庫。 在您發佈合併後的拓撲之後，拓撲產生器是用來查看 Office 通訊伺服器 2007 R2 拓撲資訊，以及有關新近部署的 Lync Server 2013 拓撲的詳細資訊。 最後，您可使用 Lync Server 管理命令介面 Cmdlet，匯入原則與組態設定。
 
 <div>
 
@@ -45,9 +45,9 @@ _**主題上次修改日期：** 2012年-03-29_
 
   - [安裝 WMI 回溯相容性套件](install-wmi-backward-compatibility-package.md)
 
-  - [使用拓撲產生器合併精靈合併](merge-using-topology-builder-merge-wizard.md)
+  - [使用拓撲產生器合併嚮導進行合併](merge-using-topology-builder-merge-wizard.md)
 
-  - [匯入原則與設定](import-policies-and-settings.md)
+  - [匯入原則及設定](import-policies-and-settings.md)
 
   - [確認拓撲資訊](verify-topology-information.md)
 

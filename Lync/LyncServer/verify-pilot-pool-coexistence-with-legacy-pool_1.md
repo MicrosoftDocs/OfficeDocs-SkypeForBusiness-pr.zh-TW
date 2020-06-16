@@ -1,8 +1,8 @@
 ---
 title: 驗證試驗集區與舊版集區共存
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Verify pilot pool coexistence with legacy pool
@@ -12,18 +12,18 @@ ms:contentKeyID: 48184209
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7585970a53ffd94959653555dad8a02724ba2f03
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ec73f8d25237d7d056282cc7c88685802eb50f16
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730883"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755557"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="verify-pilot-pool-coexistence-with-legacy-pool"></a>驗證試驗集區與舊版集區共存
 
@@ -39,31 +39,31 @@ _**主題上次修改日期：** 2012-09-28_
 
 <div>
 
-## <a name="verify-the-pool-in-office-communications-server-2007-r2-administrative-tool"></a>驗證 Office 通訊伺服器 2007 R2 管理工具中的資源庫
+## <a name="verify-the-pool-in-office-communications-server-2007-r2-administrative-tool"></a>驗證 Office 通訊伺服器中的集區是否為 2007 R2 系統管理工具
 
-1.  開啟 Office 通訊伺服器 2007 R2 管理工具。
+1.  開啟 Office 通訊伺服器 2007 R2 系統管理工具。
 
-2.  展開 [**目錄林**] 節點，展開 [**標準版伺服器**] 或 [**企業版池**] 節點，然後展開 [池] 或 [伺服器名稱]。
+2.  依序展開 **[樹系]** 節點及 **[Standard Edition Server]** 或 **[Enterprise Pool]** 節點，然後展開集區或伺服器名稱。
 
-3.  確定 Office 通訊伺服器 2007 R2 服務正在該池中執行。
+3.  確定集區上的 Office 通訊伺服器 2007 R2 服務正在執行中。
     
-    ![Office Communications Server 2007 R2 管理主控台](images/JJ721906.76897b6d-f433-47d2-930d-0816fc30a3c2(OCS.15).jpg "Office Communications Server 2007 R2 管理主控台")  
+    ![Office 通訊伺服器 2007 R2 管理主控台](images/JJ721906.76897b6d-f433-47d2-930d-0816fc30a3c2(OCS.15).jpg "Office 通訊伺服器 2007 R2 管理主控台")  
 
 </div>
 
 <div>
 
-## <a name="verify-the-pilot-pool-in-lync-server-2013-control-panel"></a>確認 Lync Server 2013 [控制台] 中的 [試驗] 池
+## <a name="verify-the-pilot-pool-in-lync-server-2013-control-panel"></a>在 Lync Server 2013 控制台中驗證試驗集區
 
-1.  從屬於 CsAdministrator 角色成員的使用者帳戶登入 Lync Server 2013 前端伺服器。
+1.  從 CsAdministrator 角色成員的使用者帳戶，登入 Lync Server 2013 前端伺服器。
 
-2.  開啟瀏覽器視窗，然後輸入系統管理員 URL，以開啟 Lync Server [控制台]。 如需可用於啟動 Lync Server [控制台] 的不同方法的詳細資訊，請參閱[開啟 Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟 Lync Server 控制台。 如需您可以用來啟動 Lync Server 控制台之不同方法的詳細資訊，請參閱[Open Lync server 2013 系統管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
-3.  按一下 [**拓撲**]。
+3.  按一下 **[拓撲]**。
 
-4.  確認您部署的伺服器存在於您的試驗區池中。
+4.  確認您部署的伺服器位於試驗集區。
     
-    ![[Lync Server 控制台拓撲] 頁面](images/JJ204914.a3d1ba5f-c1a7-45e8-b9a5-7cb07b01af8c(OCS.15).jpg "[Lync Server 控制台拓撲] 頁面")  
+    ![Lync Server 控制台的拓撲頁面](images/JJ204914.a3d1ba5f-c1a7-45e8-b9a5-7cb07b01af8c(OCS.15).jpg "Lync Server 控制台的拓撲頁面")  
 
 </div>
 
@@ -71,9 +71,9 @@ _**主題上次修改日期：** 2012-09-28_
 
 ## <a name="verify-lync-server-2013-services-have-started"></a>驗證 Lync Server 2013 服務已啟動
 
-1.  在 Lync Server 2013 前端伺服器上，從 [**管理工具**] 群組開啟 [**服務**] 小工具。
+1.  在 Lync Server 2013 前端伺服器上，從 [系統**管理工具**] 群組中開啟 [**服務**] 小程式。
 
-2.  確認列出的服務與下圖中的清單相符。
+2.  確認所列的服務與下圖所示的清單相符。
     
     ![顯示已啟動 Lync 服務的服務頁面](images/JJ204914.fd35d54a-2ab6-4c09-b5e9-fd5bf10f6f51(OCS.15).jpg "顯示已啟動 Lync 服務的服務頁面")  
 

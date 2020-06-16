@@ -1,8 +1,8 @@
 ---
 title: 移除 BackCompatSite
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Remove BackCompatSite
@@ -12,12 +12,12 @@ ms:contentKeyID: 48183265
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d41d333e834dba34da2a1a04854571d721e94e38
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 792fcf29033a7495a7da340decb561e25084612d
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209441"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757124"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +35,7 @@ ms.locfileid: "42209441"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-28_
+_**主題上次修改日期：** 2012-09-28_
 
 停用所有集區並解除安裝所有 Edge Server 之後，請執行 [拓撲產生器合併精靈] 以移除 BackCompatSite****。
 
@@ -51,11 +51,11 @@ _**主題上次修改日期：** 2012年-09-28_
 
 4.  在 [**指定舊版 Edge** ] 頁面上，確定 Edge server 的清單是空的。 若不是空的，請使用 [移除]**** 按鈕移除所有舊版的 Edge Server，然後按 [下一步]****。
     
-    ![合併拓撲精靈] 的 [指定 Edge 安裝] 頁面](images/JJ204637.fb35a59a-711e-4259-b177-7311df1fed3c(OCS.15).jpg "合併拓撲精靈] 的 [指定 Edge 安裝] 頁面")  
+    ![合併拓撲嚮導的 [指定 Edge 安裝] 頁面](images/JJ204637.fb35a59a-711e-4259-b177-7311df1fed3c(OCS.15).jpg "合併拓撲嚮導的 [指定 Edge 安裝] 頁面")  
 
 5.  在 [指定內部 SIP 連接埠]**** 設定頁面中按 [下一步]****。
 
-6.  在 [**摘要**] 頁面上，按 [**下一步**以開始合併拓撲，進而移除舊版站台。
+6.  在 [**摘要**] 頁面上，按一下 **[下一步]** ，以開始合併拓撲，以移除舊版網站。
 
 7.  在 [狀態]**** 欄中，檢查其值是否為 [成功]****，然後按一下 [完成]****，以關閉精靈。
 

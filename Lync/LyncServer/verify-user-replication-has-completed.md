@@ -1,8 +1,8 @@
 ---
-title: 確認使用者複寫已完成
+title: 確認已完成使用者複製
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Verify user replication has completed
@@ -12,12 +12,12 @@ ms:contentKeyID: 48183441
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 96e8df3cb77e6b53596ae17e15fed6b05243a99a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8d883b5446c843ac8b79e2b29d15f8a1c99f0089
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188796"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755527"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42188796"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="verify-user-replication-has-completed"></a>確認使用者複寫已完成
+# <a name="verify-user-replication-has-completed"></a>確認已完成使用者複製
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "42188796"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-17_
+_**主題上次修改日期：** 2012-09-17_
 
-當執行**Move-csuser** cmdlet，您可能會遇到失敗，因為 Active Directory 網域服務 (AD DS) 和 Lync Server 2013 資料庫之間的使用者資訊是不同步，因為在初始複寫不完整。 Lync Server 2013 使用者複寫器服務的初始同步處理成功完成所需時間取決於裝載在主控的 Lync Server 2013 集區的 Active Directory 樹系中的網域控制站的數目。 Lync Server 2013 Front End Server 第一次啟動時，就會發生的 Lync Server 2013 使用者複寫器服務初始同步處理程序。 完成後，則是根據使用者複寫器間隔來進行同步化。 在執行 **Move-CsUser** Cmdlet 之前，請完成下列步驟來確認已完成使用者複寫。
+執行**Move-CsUser** Cmdlet 時，可能會發生失敗，因為 Active Directory 網域服務（AD DS）和 Lync Server 2013 資料庫之間的使用者資訊因初始複寫不完整而不同步。 成功完成 Lync Server 2013 User 複寫器服務的初始同步處理所需的時間，取決於主控 Lync Server 2013 集區之 Active Directory 樹系中主控的網域控制站數目。 當您第一次啟動 Lync Server 2013 前端伺服器時，就會發生 Lync Server 2013 使用者複寫器服務初始同步處理常式。 完成後，則是根據使用者複寫器間隔來進行同步化。 在執行 **Move-CsUser** Cmdlet 之前，請完成下列步驟來確認已完成使用者複寫。
 
 <div>
 
@@ -55,7 +55,7 @@ _**主題上次修改日期：** 2012年-09-17_
 
 6.  在 [事件來源]**** 清單中，按一下 [LS 使用者複寫器]****。
 
-7.  在 [**\<所有的事件識別碼\>** 輸入**30024** ，然後按一下 [**確定]**。
+7.  在 **\<All Event IDs\>** [輸入**30024** ] 中，然後按一下 **[確定]**。
 
 8.  在篩選後事件清單的 [一般]**** 索引標籤上，尋找有無任何項目指出使用者複寫成功的項目。
 

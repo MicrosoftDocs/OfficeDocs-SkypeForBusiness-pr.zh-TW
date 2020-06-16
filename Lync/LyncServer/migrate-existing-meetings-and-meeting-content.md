@@ -1,8 +1,8 @@
 ---
 title: 移轉現有的會議與會議內容
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Migrate existing meetings and meeting content
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733599
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 51f690d492d685c162d7de1e76f474b609662244
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9d811a9e66f368752107020de48e5e09dd641115
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190196"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756964"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,17 +35,17 @@ ms.locfileid: "42190196"
 
 <span> </span>
 
-_**上次修改主題：** 2013年-02-22_
+_**主題上次修改日期：** 2013-02-22_
 
-當使用者帳戶從 Lync Server 2010 移至 Lync Server 2013 的伺服器時，與該使用者帳戶移下列資訊：
+當使用者帳戶從 Lync Server 2010 移至 Lync Server 2013 伺服器時，下列資訊會隨該使用者帳戶一起移動：
 
-  - **使用者已排定的會議**。包含移動會議目錄及會議資料。
+  - **Meetings already scheduled by the user**. This includes moving the conferencing directories and conferencing data.
 
-  - **使用者的個人識別碼 (PIN)**。直到過期或使用者要求新 PIN 前，使用者目前的 PIN 都持續有效。
+  - **User’s personal identification number (PIN)**. The user’s current PIN continues to work until it expires or the user requests a new PIN.
 
 下列使用者帳戶資訊不會移到新的伺服器。
 
-  - **會議內容**。若要移動會議期間分享的內容。例如 PowerPoint、白板、附件或投票資料，請在 **Move-CsUser** Cmdlet 中使用 **-MoveConferenceData** 參數。
+  - **Meeting content**. In order to move the content shared during a meeting, for example PowerPoint, Whiteboard, attachments or poll data, use the **-MoveConferenceData** parameter as part of the **Move-CsUser** cmdlet.
 
 </div>
 

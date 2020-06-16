@@ -1,8 +1,8 @@
 ---
-title: 了解常設聊天室成員資格
+title: 瞭解 Persistent Chat 成員資格
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Understanding Persistent Chat membership
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184781
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3cc357eff6cdc68c5285eeb915f5534b6f38b871
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 400866812ab2d5efb12960dc3c2f37c2fcb8eb45
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189146"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755677"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42189146"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="understanding-persistent-chat-membership"></a>了解常設聊天室成員資格
+# <a name="understanding-persistent-chat-membership"></a>瞭解 Persistent Chat 成員資格
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "42189146"
 
 <span> </span>
 
-_**上次修改主題：** 2013年-02-22_
+_**主題上次修改日期：** 2013-02-22_
 
-使用者的存取權的常設聊天室管理成員資格;使用者必須能夠傳送及讀取郵件聊天室的成員。 只有**簡報者**具有聊天室與指定的 affiliation 允許使用**張貼至視聽中心聊天室**。 視聽中心是一種聊天室 （另一個是**標準模式**），其中只有簡報者可以張貼及每個人都可以讀取。
+使用者存取持久聊天室是由成員資格管理;使用者必須是聊天室的成員，才能張貼和閱讀郵件。 只有具有聊天室關聯的**簡報者**，才可以使用**張貼功能來視聽中心會議室**。 視聽中心是一種聊天室（另一種是**普通**），其中只有簡報者可以張貼，而且所有人都可以讀取。
 
-此外，常設聊天室操作類別的規則] 下。 如需類別的詳細資訊，請參閱[管理類別、 聊天室及 Lync Server 2013 中增益集](lync-server-2013-managing-categories-rooms-and-add-ins.md)，以及在本主題稍後的區段 」 類別範圍設定的運作方式 」 和 「 聊天室類別策略 」。
+此外，Persistent 聊天室會在類別的規則下運作。 如需類別的詳細資訊，請參閱[管理 Lync Server 2013 中的類別、聊天室及增益集](lync-server-2013-managing-categories-rooms-and-add-ins.md)，以及本主題稍後的「類別範圍的運作方式」和「會議室類別策略」一節。
 
-常設聊天室管理員可以建立及管理聊天室類別。 建立及管理聊天室類別的一部分，常設聊天室系統管理員可以設定已設為 [成員] 或 [建立者的特定類別的聊天室存取的主體 （Active Directory 網域服務群組、 容器，以及使用者）。
+Persistent Chat 系統管理員可以建立及管理聊天室類別。 在建立及管理聊天室類別的過程中，Persistent Chat 系統管理員可以設定主體（Active Directory 網域服務群組、容器和使用者），該主體可以存取屬於特定類別之聊天室的成員或建立者。
 
 <div>
 
-## <a name="active-directory-domain-services-and-persistent-chat"></a>Active Directory 網域服務和常設聊天室
+## <a name="active-directory-domain-services-and-persistent-chat"></a>Active Directory 網域服務和持續聊天
 
-Persistent Chat Server 會依賴的常設聊天室的內部使用者的集區的 Active Directory。 安裝常設聊天室 （用戶端） 之後，您可以將使用者和使用者群組的網域新增至聊天室類別。 然後可以將這些使用者和群組新增至聊天室類別的成員資格。
+Persistent Chat Server 依賴內部 Persistent Chat 使用者之集區的 Active Directory。 安裝持續性聊天（用戶端）之後，您可以將使用者和使用者群組的網域新增至聊天室類別。 然後，您可以將這些使用者和群組新增至您的聊天室類別的成員資格。
 
 <div>
 
 
 > [!IMPORTANT]  
-> 您必須確定有想要對其常設 Chat room(s) 進行變更的使用者沒有重複的名稱。 如果存在重複的使用者名稱，請將它們變更為不同的名稱，以解除封鎖來自進行這些變更的使用者。 如果使用者在 Active Directory 中有重複的名稱，並嘗試在其 room(s) 中進行變更，會出現錯誤訊息，提示使用者連絡系統管理員以解決方法。
+> 您必須確定要對其 Persistent 聊天室進行變更的使用者，並無重複的名稱。 如果存在重複的使用者名稱，請將其變更為不同的名稱，以解除封鎖使用者進行這些變更。 如果使用者在 Active Directory 中有重名的名稱，並嘗試在其聊天室中進行變更，就會出現錯誤訊息，提示使用者與系統管理員聯繫以進行解析。
 
 
 
@@ -65,29 +65,29 @@ Persistent Chat Server 會依賴的常設聊天室的內部使用者的集區的
 
 ## <a name="how-category-scoping-works"></a>類別範圍的運作方式
 
-類別指定的所有使用者和群組可在該類別中，根據其**AllowedMembers**屬性常設聊天室聊天室成員資格清單中的成員。 例如，如果您將類別的**AllowedMembers**為 contoso.com，您可以新增任何群組或使用者在*contoso 公司*的成員身分至該類別中聊天室。 如果您設定類別以*銷售* **AllowedMembers** ，只有群組及此通訊群組清單中的使用者可以新增為成員至該類別中聊天室。 同樣地， **Creators**屬性可讓您控制可以建立該類別中聊天室。 聊天室建立之後，從**AllowedMembers**群組的任何人都可以指定做為**管理員**的聊天室 （例如，成員資格變更及核准） 上的進行中的管理作業。
+類別會根據其**AllowedMembers**屬性，指定其成員資格清單中的成員在該類別中的成員資格清單中的所有使用者和群組。 例如，如果您將類別的**AllowedMembers**設定為 contoso.com，您可以將*contoso*中的任何群組或使用者新增至該類別中的聊天室的成員。 如果您將類別上的**AllowedMembers**設定為*Sales*，則只有此通訊群組清單中的群組和使用者可以新增為該類別中聊天室的成員。 同樣地，建立**者**屬性可讓您控制哪些人員可以在該類別建立聊天室。 在建立聊天室之後，可以將**AllowedMembers**群組中的任何人指定為您在會議室上進行的日常管理作業的**管理員**（例如，成員資格變更和核准）。
 
-類別定義**AllowedMembers**和**Creators**有下列優點：
+定義類別的**AllowedMembers**和建立**者**具有下列優點：
 
-  - 此類別中的所有聊天室都 eng 類別層級設定的限制。 您可以使用這個單獨分開的聊天室根據業務需要和存取原則。
+  - 此類別中的所有聊天室都受限於在類別層級設定的限制。 您可以使用此功能，根據業務需求和存取原則隔離聊天室。
 
-  - 在 [**建立者**] 清單中的使用者可以建立新聊天室該類別中。 如果您想要實作有限的數目的組織中的人員可以在其中建立聊天室的系統，此控制項可以用來符合此需求。
+  - 建立**者**清單中的使用者可以在該類別中建立新聊天室。 如果您想要執行的系統中組織中的人員人數有限，可以建立聊天室，此控制項可用於符合該需求。
 
 </div>
 
 <div>
 
-## <a name="room-category-strategies"></a>聊天室類別策略
+## <a name="room-category-strategies"></a>會議室類別策略
 
-類別**AllowedMembers**必須包含將使用此類別中的任何常設聊天室會議室的所有使用者。 根據您的需求來保護商務資料，並確保適當的存取層級，您可能想要定義一個或多個類別，來指定誰可以搜尋並參與聊天室。 如果您想要允許只有一組特定使用者 （中央技術服務人員或只開放全職員工） 來建立會議室，您可以範圍以滿足此需求類別**建立者**。
+類別的**AllowedMembers**必須包括將在此類別中使用任何持續聊天室的所有使用者。 根據您保護商務資料的需求，並確定適當的存取層級，您可能想要定義一或多個類別，以指定誰可以搜尋及參與聊天室。 如果您只想要允許一組特定的使用者（中央服務台或只有全職員工）來建立會議室，您可以限定類別建立**者**以滿足該需求。
 
-類別也可以用來建立道德管束。 道德管束防止在組織中任何衝突的利息。 例如，系統管理員可以建立聊天室類別中的 traders 只而另一個類別中聊天室可以用來分析師僅。
+類別也可以用來建立道德的背景牆。 道德的牆可防止組織利益衝突。 例如，系統管理員可以只為商貿建立一個類別的聊天室，而另一個類別的聊天室只可供分析員使用。
 
 <div>
 
 
 > [!NOTE]  
-> 在 Lync Server 2013，Persistent Chat Server，我們不支援同盟使用者存取。 如果有從舊版 Persistent Chat Server 中的同盟使用者的聊天室，他們將會移轉。 同盟的使用者新增為已停用的主體。
+> 在 Lync Server 2013 中，Persistent Chat Server，我們不支援同盟使用者的存取。 如果舊版 Persistent Chat Server 中的同盟使用者已有聊天版本，將會進行遷移。 同盟使用者已新增為已停用的主體。
 
 
 
@@ -97,11 +97,11 @@ Persistent Chat Server 會依賴的常設聊天室的內部使用者的集區的
 
 <div>
 
-## <a name="narrowing-the-members-to-user-groups"></a>範圍縮小至使用者群組的成員
+## <a name="narrowing-the-members-to-user-groups"></a>將成員縮小為使用者群組
 
-當您新增網域至類別時，其群組物件都包含在該網域的使用者群組可用於您，讓您可以將它們指定為該類別中聊天室的成員。
+當您將網域新增至類別時，您可以使用其 group 物件包含在該網域中的使用者群組，讓您將其指定為該類別中聊天室的成員。
 
-我們建議，作為一般規則，您使用 Active Directory 容器、 網域及組織單位，例如定義類別**AllowedMembers**和**Creators**。 您可以將物件從任何網域新增至**AllowedMembers**或**建立者**的清單。 只有**AllowedMembers**或**建立者**清單中的物件可以新增至該類別底下的聊天室。
+我們建議您使用 Active Directory 容器（如網域和組織單位）來定義類別的**AllowedMembers**和建立**者**，以成為一般規則。 您可以將任何網域中的物件新增至**AllowedMembers**或建立**者**清單。 只有**AllowedMembers**或建立**者**清單中的物件可以新增至該類別底下的聊天室。
 
 </div>
 

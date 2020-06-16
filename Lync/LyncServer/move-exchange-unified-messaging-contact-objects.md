@@ -1,8 +1,8 @@
 ---
 title: 移動 Exchange 整合通訊連絡人物件
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Move Exchange Unified Messaging Contact objects
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733612
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 02c9a16251ca49d4d5179ed3ad72e4d0307beb4b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f3b3091a342b46b5c1aad1d456aa9159d951a4ba
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189889"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756612"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,9 +35,9 @@ ms.locfileid: "42189889"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-19_
+_**主題上次修改日期：** 2012-10-19_
 
-將自動語音應答 (AA) 及訂戶存取 (SA) 連絡人物件移轉至新的 Lync Server 2013 部署中，您第一次物件從舊版 Office Communications Server 2007 R2 部署移至新的 Lync Server 2013 部署使用**Get-csexumcontact**和**Move-csexumcontact** cmdlet。 在 Exchange 伺服器上，然後執行**ExchUCUtil** Windows PowerShell 指令碼，以執行新部署的 Lync 集區下列動作：
+若要將自動語音應答（AA）和訂閱者存取（SA）連絡人物件遷移至新的 Lync Server 2013 部署，您必須先使用**Get-CsExUmContact**和**Move-CsExUmContact** Cmdlet，將物件從舊版 Office 通訊伺服器 2007 R2 部署移至新的 lync server 2013 部署。 在 Exchange 伺服器上，您可以執行**ExchUCUtil** Windows PowerShell 腳本，針對新部署的 Lync 集區執行下列作業：
 
   - 將其新增至整合通訊 IP 閘道。
 
@@ -47,7 +47,7 @@ _**主題上次修改日期：** 2012年-10-19_
 
 
 > [!NOTE]  
-> 若要使用 <STRONG>Get-CsExUmContact</STRONG> 和 <STRONG>Move-CsExUmContact</STRONG> Cmdlet，您必須是 RTCUniversalUserAdmins 群組的成員，且具備連絡人物件存放所在的組織單位 (OU) 權限。使用 <STRONG>Grant-OUPermission</STRONG> Cmdlet，即可授與此 OU 權限。
+> In order to use the <STRONG>Get-CsExUmContact</STRONG> and <STRONG>Move-CsExUmContact</STRONG> cmdlets, you must be a member of the RTCUniversalUserAdmins group and have organizational unit (OU) permission to the OU where the contacts objects are stored. OU permission can be granted using the <STRONG>Grant-OUPermission</STRONG> cmdlet.
 
 
 
@@ -59,7 +59,7 @@ _**主題上次修改日期：** 2012年-10-19_
 
 1.  開啟 Lync Server 管理命令介面。
 
-2.  每個集區與 Exchange UM （其中 pool1.contoso.net 是從 Office Communications Server 2007 R2 部署的集區，而 pool2.contoso.net 是從 Lync Server 2013 部署的集區） 註冊在命令列中，輸入下列命令：
+2.  針對每個使用 Exchange UM 註冊的集區（其中 pool1.contoso.net 是 Office 通訊伺服器 2007 R2 部署的集區，而 pool2.contoso.net 是 Lync Server 2013 部署的集區），請輸入下列命令：
     
         Get-CsExUmContact -Filter {RegistrarPool -eq "pool01.contoso.net"} | Move-CsExUmContact -Target pool02.contoso.net
     
@@ -73,11 +73,11 @@ _**主題上次修改日期：** 2012年-10-19_
 
 1.  以具備 Exchange 組織系統管理員權限的使用者登入 Exchange UM Server。
 
-2.  瀏覽至 ExchUCUtil Windows PowerShell 指令碼。
+2.  流覽至 ExchUCUtil Windows PowerShell 腳本。
     
-    在 Exchange 2007 中，ExchUCUtil.ps1 位於： **%Program Files %\\Microsoft\\Exchange 伺服器\\指令碼\\ExchUCUtil.ps1**
+    在 Exchange 2007 中，ExchUCUtil.ps1 位於： **% Program Files% \\ Microsoft \\ Exchange Server \\ 腳本 \\ExchUCUtil.ps1**
     
-    在 Exchange 2010 中，ExchUCUtil.ps1 位於： **%Program Files %\\Microsoft\\Exchange 伺服器\\V14\\指令碼\\ExchUCUtil.ps1**
+    在 Exchange 2010 中，ExchUCUtil.ps1 位於： **% Program Files% \\ Microsoft \\ Exchange Server \\ V14 \\ 腳本 \\ExchUCUtil.ps1**
 
 3.  如果 Exchange 部署在單一樹系中，請輸入：
     
@@ -87,13 +87,13 @@ _**主題上次修改日期：** 2012年-10-19_
     
         exchucutil.ps1 -Forest:" <forest FQDN>"
     
-    其中樹系 FQDN 指定部署 Lync Server 2013 時的樹系。
+    其中，樹系 FQDN 會指定要在其中部署 Lync Server 2013 的樹系。
     
     <div>
     
 
     > [!IMPORTANT]  
-    > 請務必在執行 exchucutil.ps1 之後<EM></EM>，重新啟動 <STRONG>[Lync Server 前端]</STRONG> 服務 (rtcsrv.exe)。 否則，Lync Server 2013 將不會偵測整合通訊拓撲中。
+    > 請務必在執行 exchucutil.ps1 之後<EM></EM>，重新啟動 <STRONG>[Lync Server 前端]</STRONG> 服務 (rtcsrv.exe)。 否則，Lync Server 2013 將不會在拓撲中偵測到整合通訊。
 
     
     </div>

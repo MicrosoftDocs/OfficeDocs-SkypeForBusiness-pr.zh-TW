@@ -1,8 +1,8 @@
 ---
-title: 階段 2： 準備移轉
+title: 階段 2：準備移轉
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: 'Phase 2: Prepare for migration'
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184944
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 54f616c43d62f91b7b9f8a3eecd058037590669b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a5d7d511844f2b577ecddfd188ff34738e5238b5
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209779"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757084"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42209779"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="phase-2-prepare-for-migration"></a>階段 2： 準備移轉
+# <a name="phase-2-prepare-for-migration"></a>階段 2：準備移轉
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "42209779"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-08-24_
+_**主題上次修改日期：** 2012-08-24_
 
-開始從 Office Communications Server 2007 R2 移轉至 Lync Server 2013 之前，請遵循本節中所述的步驟。
+在您開始從 Office 通訊伺服器 2007 R2 遷移至 Lync Server 2013 之前，請遵循本節所述的步驟。
 
 <div>
 
 ## <a name="in-this-section"></a>本章節內容
 
-  - [套用 Office Communications Server 2007 R2 更新](apply-office-communications-server-2007-r2-updates.md)
+  - [套用 Office 通訊伺服器 2007 R2 更新](apply-office-communications-server-2007-r2-updates.md)
 
-  - [設定試驗集區部署的 DNS 記錄](configure-dns-records-for-pilot-pool-deployment_1.md)
+  - [為試驗集區部署設定 DNS 記錄](configure-dns-records-for-pilot-pool-deployment_1.md)
 
   - [執行 Best Practices Analyzer](run-best-practices-analyzer_1.md)
 
@@ -53,7 +53,7 @@ _**主題上次修改日期：** 2012年-08-24_
 
   - [設定用戶端以進行移轉](configure-clients-for-migration_1.md)
 
-  - [確認 Office Communications Server 2007 R2 環境](verify-office-communications-server-2007-r2-environment.md)
+  - [驗證 Office 通訊伺服器 2007 R2 環境](verify-office-communications-server-2007-r2-environment.md)
 
 </div>
 

@@ -1,8 +1,8 @@
 ---
-title: 安裝 Lync Server 管理工具
+title: 安裝 Lync Server 系統管理工具
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Install Lync Server administration tools
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733773
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ebe4ad480c9db4fbca05bbb4da84c2d2b075bc70
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 024d12172f4a307976669bd1dc7652e945d8a205
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199306"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756522"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42199306"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="install-lync-server-administration-tools"></a>安裝 Lync Server 管理工具
+# <a name="install-lync-server-administration-tools"></a>安裝 Lync Server 系統管理工具
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "42199306"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-02_
+_**主題上次修改日期：** 2012-10-02_
 
-本主題說明如何安裝您必須使用以部署和管理 Lync Server 2013 的系統管理工具。 您也可以安裝系統管理工具，例如專用的系統管理主控台的其他電腦上。
+本主題說明如何安裝您需要用來部署和管理 Lync Server 2013 的系統管理工具。 您也可以在其他電腦上安裝系統管理工具，例如專用的系統管理主控台。
 
 <div>
 
 ## <a name="to-install-the-lync-server-2013-administrative-tools"></a>安裝 Lync Server 2013 系統管理工具
 
-1.  在 Lync Server 2013 前端伺服器上，執行 Lync Server 2013 安裝程式。
+1.  在 Lync Server 2013 前端伺服器上，執行 Lync Server 2013 設定。
 
-2.  從 [Lync Server 2013 部署精靈] 頁面上，選取 [**安裝系統管理工具**
+2.  從 [Lync Server 2013 部署嚮導] 頁面中，選取 [**安裝系統管理工具**]。
     
-    ![Lync Server 2013 部署精靈] 中的歡迎頁面](images/JJ205265.5f88ae18-9c3c-42ea-a91a-836ecf5d515f(OCS.15).jpg "Lync Server 2013 部署精靈] 中的歡迎頁面")
+    ![Lync Server 2013 部署嚮導（歡迎頁面）](images/JJ205265.5f88ae18-9c3c-42ea-a91a-836ecf5d515f(OCS.15).jpg "Lync Server 2013 部署嚮導（歡迎頁面）")
 
 </div>
 

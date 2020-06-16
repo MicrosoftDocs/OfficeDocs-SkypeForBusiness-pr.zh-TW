@@ -1,8 +1,8 @@
 ---
 title: 管理增益集
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Manage add-ins
@@ -12,12 +12,12 @@ ms:contentKeyID: 48185204
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 465f71a8221ce273574c5cf602146272b34f0cf7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 964716509feb0bf1101181693e5ab777de6736ab
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210117"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757194"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,15 +35,15 @@ ms.locfileid: "42210117"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-06_
+_**主題上次修改日期：** 2012-10-06_
 
-若要建立新 Persistent Chat Server 增益集
+若要建立新的持久聊天伺服器增益集
 
     New-CsPersistentChatAddin -Name Contoso -PersistentChatPoolFqdn client.contoso.com -Url http://contoso.com 
 
 <div>
 
-## <a name="create-get-set-or-remove-an-add-in"></a>建立、 取得、 設定或移除增益集
+## <a name="create-get-set-or-remove-an-add-in"></a>建立、取得、設定或移除增益集
 
 若要建立新的增益集
 
@@ -53,7 +53,7 @@ _**主題上次修改日期：** 2012年-10-06_
 
 
 > [!IMPORTANT]  
-> PersistentChatPoolFqdn&lt;字串&gt;才需要沒有超過一部 Persistent Chat Server 集區。
+> &lt; &gt; 只有當有多個 Persistent Chat Server 集區時，才需要 PersistentChatPoolFqdn 字串。
 
 
 
@@ -75,7 +75,7 @@ _**主題上次修改日期：** 2012年-10-06_
 
     Set-CsPersistentChatAddIn -Identity <String> [-Name <String>] [-Url<String>] [-Force <Switch Parameter>] [-Confirm <Switch Parameter>]
 
-若要移除的增益集
+移除增益集
 
     Remove-CsPersistentChatAddIn -Instance <AddinObject> [-Force <Switch Parameter>] [-Confirm <Switch Parameter>]
 

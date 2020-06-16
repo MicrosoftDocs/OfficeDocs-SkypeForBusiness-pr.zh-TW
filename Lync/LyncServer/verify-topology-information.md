@@ -1,8 +1,8 @@
 ---
 title: 確認拓撲資訊
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Verify topology information
@@ -12,12 +12,12 @@ ms:contentKeyID: 48185046
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 491078161d86d379ebb78baf819f5b1d888018ba
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4330d31b0cdaf10a3586324711aed98ab541b6eb
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188806"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755537"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,54 +35,54 @@ ms.locfileid: "42188806"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-26_
+_**主題上次修改日期：** 2012-09-26_
 
-確認已順利完成合併的第一個步驟是檢視合併與 Lync Server 2013 的 Office Communications Server 2007 R2 拓撲資訊。 在拓撲產生器中，[ **BackCompatSite** ] 節點會顯示每個 Office Communications Server 2007 R2 集區和所合併的伺服器的完整的網域名稱 (FQDN)。
+成功完成合併的第一個步驟，就是查看您與 Lync Server 2013 合併的 Office 通訊伺服器 2007 R2 拓撲資訊。 在 [拓撲產生器] 中， **BackCompatSite**節點會顯示每個 Office 通訊伺服器 2007 R2 集區和您合併之伺服器的完整功能變數名稱（FQDN）。
 
 <div>
 
-## <a name="to-view-backcompatsite-in-topology-builder"></a>若要在拓撲產生器中檢視 BackCompatSite
+## <a name="to-view-backcompatsite-in-topology-builder"></a>若要在拓撲產生器中查看 BackCompatSite
 
-1.  在 Office Communications Server 2007 R2 環境中，開啟 Office Communications Server 2007 R2 系統管理工具]，然後記下舊版集區和伺服器的 Fqdn。
+1.  在您的 Office 通訊伺服器 2007 R2 環境中，開啟 Office 通訊伺服器 2007 R2 系統管理工具，並記下舊版集區和伺服器的 Fqdn。
 
-2.  在 Lync Server 2013 環境中，開啟拓撲產生器]，然後展開 [ **BackCompatSite** ] 節點。
+2.  在您的 Lync Server 2013 環境中，開啟拓撲產生器，然後展開 [ **BackCompatSite** ] 節點。
 
-3.  確認所合併的伺服器與集區的 fqdn 均有顯示。
+3.  確認所合併之集區與伺服器的 Fqdn 是否隨即顯示。
     
     <div>
     
 
     > [!NOTE]  
-    > 您的前端伺服器或 Standard Edition server 上沒看到<STRONG>BackCompatSite</STRONG>中組合的伺服器角色的任何資訊。 顯示所需的 Office Communications Server 2007 R2 和 Lync Server 2013 之間的互通性伺服器角色。
+    > 對於組合在前端伺服器或 Standard Edition server 上的伺服器角色，您不會看到<STRONG>BackCompatSite</STRONG>中的任何資訊。 只會顯示 Office 通訊伺服器 2007 R2 和 Lync Server 2013 之間互通性所需的伺服器角色。
 
     
     </div>
 
-![拓撲產生器 BackCompatSite] 對話方塊](images/JJ205243.62751c76-f018-4c6d-bb48-c61ef8974d31(OCS.15).jpg "拓撲產生器 BackCompatSite] 對話方塊")
+![[拓撲產生器 BackCompatSite] 對話方塊](images/JJ205243.62751c76-f018-4c6d-bb48-c61ef8974d31(OCS.15).jpg "[拓撲產生器 BackCompatSite] 對話方塊")
 
-您也可以使用 Lync Server 2013 控制台檢視合併後的拓撲。 在 Lync Server 2013 控制台中，您可以看到每個伺服器 FQDN、 集區 FQDN] 中，並合併拓撲的網站名稱。 合併的伺服器有**BackCompatSite**的**網站**名稱。
+您也可以使用 Lync Server 2013 控制台，以查看合併的拓撲。 在 [Lync Server 2013 控制台] 中，您可以看到合併的拓撲的每一個伺服器 FQDN、集區 FQDN 及網站名稱。 合併伺服器的**網站**名稱為**BackCompatSite**。
 
 </div>
 
 <div>
 
-## <a name="to-view-the-merged-topology-in-lync-server-2013-control-panel"></a>若要在 Lync Server 2013 Control Panel 中檢視合併後的拓撲
+## <a name="to-view-the-merged-topology-in-lync-server-2013-control-panel"></a>在 Lync Server 2013 控制台中查看合併的拓撲
 
-1.  開啟 Lync Server 2013 控制台。
+1.  開啟 [Lync Server 2013 控制台]。
 
 2.  按一下 **[拓撲]**。
 
-3.  在 [**狀態**] 索引標籤，確認伺服器和集區所合併出現的 [**網站**] 欄中尋找**BackCompatSite** 。
+3.  在 [**狀態**] 索引標籤上，確認您在 [**網站**] 欄中尋找**BackCompatSite** ，以確認已合併的伺服器和集區。
 
-![Lync Server Control Panel 顯示合併後的拓撲](images/JJ205151.f986ddd4-2040-454d-9389-7f6154b59cc9(OCS.15).jpg "Lync Server Control Panel 顯示合併後的拓撲")
+![顯示合併拓撲的 Lync Server 控制台](images/JJ205151.f986ddd4-2040-454d-9389-7f6154b59cc9(OCS.15).jpg "顯示合併拓撲的 Lync Server 控制台")
 
-若要查看合併的集區相關的詳細資料，請使用**Get-cspool** cmdlet。 除了在拓撲產生器和 Lync Server 2013 控制台的資訊，此 cmdlet 會顯示 [Lync Server 2013 集區執行的服務。
+若要查看有關合併集區的更多詳細資料，請使用**Get-CsPool** Cmdlet。 除了拓撲產生器和 Lync Server 2013 控制台中提供的資訊之外，此 Cmdlet 還會顯示在 Lync Server 2013 集區上執行的服務。
 
 <div>
 
 
 > [!NOTE]  
-> 當您執行合併列印精靈在拓撲產生器之後發行拓撲時，會議目錄被合併到 Lync Server 2013。 藉由執行<STRONG>Get-csconferencedirectory</STRONG> cmdlet 可驗證會議目錄。
+> 當您在拓撲產生器中執行合併嚮導後發行拓撲時，會將會議目錄合併至 Lync Server 2013。 您可以執行<STRONG>Get-CsConferenceDirectory</STRONG> Cmdlet 來驗證會議目錄。
 
 
 
@@ -92,7 +92,7 @@ _**主題上次修改日期：** 2012年-09-26_
 
 <div>
 
-## <a name="to-view-services-on-a-merged-pool"></a>若要檢視合併後集區上的服務
+## <a name="to-view-services-on-a-merged-pool"></a>在合併集區上查看服務
 
 1.  開啟 [Lync Server 2013 管理命令介面]。
 
@@ -108,7 +108,7 @@ _**主題上次修改日期：** 2012年-09-26_
 
 <div>
 
-## <a name="to-verify-conference-directories-merged"></a>若要確認會議目錄合併
+## <a name="to-verify-conference-directories-merged"></a>驗證合併的會議目錄
 
 1.  開啟 [Lync Server 2013 管理命令介面]。
 
@@ -116,7 +116,7 @@ _**主題上次修改日期：** 2012年-09-26_
     
         Get-CsConferenceDirectory
 
-3.  確認集區或您要合併的伺服器的所有會議目錄都皆已在 Lync Server 2013。
+3.  確認您要合併之集區或伺服器的所有會議目錄現在皆已在 Lync Server 2013。
 
 </div>
 

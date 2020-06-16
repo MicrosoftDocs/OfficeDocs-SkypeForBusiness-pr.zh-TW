@@ -1,8 +1,8 @@
 ---
 title: 防止服務的工作階段
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Prevent sessions for services
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733642
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ed0ba62a3635d58d685668adc9cf3687609e4f49
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f85595acd38e69af9fb8108cab44f4839904799a
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189586"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756552"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,17 +35,17 @@ ms.locfileid: "42189586"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-04_
+_**主題上次修改日期：** 2012-10-04_
 
-若要防止在特定電腦上執行的所有 Lync Server 2010 服務的新工作階段，或阻止特定的 Lync Server 2010 服務的新工作階段，您可以使用 Microsoft Lync Server 2010 Control Panel。
+您可以使用 Microsoft Lync Server 2010 控制台，以防止在特定電腦上執行的所有 Lync Server 2010 服務的新會話，或阻止特定 Lync Server 2010 服務的新會話。
 
 <div>
 
 ## <a name="to-prevent-new-sessions-for-all-lync-server-services-on-a-computer"></a>阻止所有 Lync Server 服務的新工作階段於電腦上執行
 
-1.  從使用者帳戶是 RTCUniversalServerAdmins 群組成員 （或具有相等使用者權限），或指派給 CsServerAdministrator 或 CsAdministrator 角色，登入是在您部署了 Lync Server 2013 網路中的任何電腦。
+1.  從 RTCUniversalServerAdmins 群組成員的使用者帳戶（或具有同等的使用者權限），或是指派給 CsServerAdministrator 或 CsAdministrator 角色，登入您部署 Lync Server 2013 之網路中的任何電腦。
 
-2.  開啟 Lync Server 控制台。
+2.  開啟 [Lync Server 控制台]。
 
 3.  在左導覽列中，按一下 **[拓樸]**，再按一下 **[狀態]**。
 
@@ -61,9 +61,9 @@ _**主題上次修改日期：** 2012年-10-04_
 
 ## <a name="to-prevent-new-sessions-for-a-specific-service"></a>阻止特定服務的新工作階段
 
-1.  從使用者帳戶是 RTCUniversalServerAdmins 群組成員 （或具有相等使用者權限），或指派給 CsServerAdministrator 或 CsAdministrator 角色，登入是在您部署了 Lync Server 2013 網路中的任何電腦。
+1.  從 RTCUniversalServerAdmins 群組成員的使用者帳戶（或具有同等的使用者權限），或是指派給 CsServerAdministrator 或 CsAdministrator 角色，登入您部署 Lync Server 2013 之網路中的任何電腦。
 
-2.  開啟 Lync Server 控制台。
+2.  開啟 [Lync Server 控制台]。
 
 3.  在左導覽列中，按一下 **[拓樸]**，再按一下 **[狀態]**。
 

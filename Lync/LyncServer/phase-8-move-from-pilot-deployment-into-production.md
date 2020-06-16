@@ -1,8 +1,8 @@
 ---
-title: 階段 8： 從試驗部署移至實際執行環境
+title: 階段8：從試驗部署移至實際執行環境
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: 'Phase 8: Move from pilot deployment into production'
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733539
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b64bf36d44ae5db0fe5b0022381b14007c044747
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f572836c4ccb64fdb8bf85926e68dbcdbf5c712f
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189616"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756452"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42189616"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="phase-8-move-from-pilot-deployment-into-production"></a>階段 8： 從試驗部署移至實際執行環境
+# <a name="phase-8-move-from-pilot-deployment-into-production"></a>階段8：從試驗部署移至實際執行環境
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "42189616"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012 年 10 月 15_
+_**主題上次修改日期：** 2012-10-15_
 
-本節中的主題說明您必須從試驗部署移的 Lync Server 2013 部署至實際執行層級部署前須先完成的工作。
+本節中的主題說明將 Lync Server 2013 的部署從試驗部署移至實際執行層級部署之前必須完成的工作。
 
 <div>
 
 ## <a name="in-this-section"></a>本章節內容
 
-  - [設定同盟路由及媒體流量](configure-federation-routes-and-media-traffic_1.md)
+  - [設定同盟路由與媒體流量](configure-federation-routes-and-media-traffic_1.md)
 
-  - [將剩餘使用者移至 Lync Server 2013](move-remaining-users-to-lync-server-2013_1.md)
+  - [將剩餘的使用者移至 Lync Server 2013](move-remaining-users-to-lync-server-2013_1.md)
 
-  - [在 Lync Server 2013 設定 XMPP 閘道](configure-xmpp-gateway-on-lync-server-2013_1.md)
+  - [在 Lync Server 2013 上設定 XMPP 閘道](configure-xmpp-gateway-on-lync-server-2013_1.md)
 
 </div>
 

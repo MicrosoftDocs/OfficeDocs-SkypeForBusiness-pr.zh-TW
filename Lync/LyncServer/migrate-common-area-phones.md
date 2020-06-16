@@ -1,8 +1,8 @@
 ---
 title: 移轉公共區域電話
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Migrate Common Area Phones
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733604
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3e33642fe4556397f4c3f71d5dfb582e1868a7ba
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 138068c73264ded3483d8d9f0902d403833a306d
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210029"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756994"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,19 +35,19 @@ ms.locfileid: "42210029"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-29_
+_**主題上次修改日期：** 2012-09-29_
 
-公共區域電話為最常在共用工作區或公共區域 (例如大廳、廚房或工廠) 的 IP 電話。 公共區域電話不需要連線到電腦，以提供 Lync Server UC 功能。 移轉至 Lync Server 2013 的 Lync Server 2010 部署之後, 您必須也將移轉舊版的公共區域電話相關聯的連絡人物件。 使用 Lync Server 管理命令介面您第一次會擷取所有的連絡人物件與 Lync Server 2010 一般區域電話、 相關聯，然後將這些物件移至 Lync Server 2013 集區。
+公共區域電話為最常在共用工作區或公共區域 (例如大廳、廚房或工廠) 的 IP 電話。 一般區域電話不需要連線到電腦，就能提供 Lync Server UC 功能。 將 Lync Server 2010 部署遷移至 Lync Server 2013 之後，您還必須遷移與舊版通用區域電話相關聯的連絡人物件。 使用 Lync Server 管理命令介面您會先取得與 Lync Server 2010 通用區域電話相關聯的所有連絡人物件，然後將這些物件移至 Lync Server 2013 集區。
 
 **移轉公共區域電話**
 
-1.  從 Lync Server 2013 前端伺服器，開啟 [Lync Server 管理命令介面]。
+1.  在 Lync Server 2013 前端伺服器上，開啟 [Lync Server 管理命令介面]。
 
 2.  從命令列輸入下列命令：
     
         Get-CsCommonAreaPhone -Filter {RegistrarPool -eq "pool01.contoso.net"} | Move-CsCommonAreaPhone -Target pool02.contoso.net
 
-3.  若要確認所有連絡人物件已移至 Lync Server 2013 集區，從 Lync Server 管理命令介面輸入下列命令：
+3.  若要確認已將所有連絡人物件移至 Lync Server 2013 集區，請從 Lync Server 管理命令介面輸入下列命令：
     
         Get-CsCommonAreaPhone -Filter {RegistrarPool -eq "pool02.contoso.net"}
     

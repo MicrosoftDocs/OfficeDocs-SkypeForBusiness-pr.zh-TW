@@ -1,8 +1,8 @@
 ---
 title: 移除監控伺服器關聯
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Remove the Monitoring server association
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733810
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0b7559fcd513dcc3695b587be24e220ad74847ef
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7aa78a49686ca555fdbc26d3ffd4953d88d64a95
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189406"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756542"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,42 +35,42 @@ ms.locfileid: "42189406"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-04_
+_**主題上次修改日期：** 2012-10-04_
 
-若要移除監控伺服器，您需要變更或清除 [關聯前端集區，前端伺服器、 Survivable Branch Appliance 和 Survivable Branch 伺服器上的相依性。 您編輯的內容的前端集區前端伺服器、 Survivable Branch Appliance 和 Survivable Branch 伺服器移除相依性。 在清除 [相依性，並刪除拓撲產生器中的伺服器之後，您會收到通知也會刪除在拓撲產生器的相關聯的資料庫存放區物件。
+若要移除監控伺服器，您必須變更或清除關聯的前端集區、前端伺服器、Survivable 分支裝置和 Survivable 分支伺服器上的相依性。 您可以編輯前端集區、前端伺服器、Survivable 分支裝置和 Survivable 分支伺服器的屬性，以移除相依性。 在 [拓撲產生器] 中清除相依性和刪除伺服器之後，系統會通知您也會刪除拓撲產生器中相關聯的資料庫存放區物件。
 
 <div>
 
 ## <a name="to-remove-the-monitoring-server-association"></a>若要移除監控伺服器關聯
 
-1.  開啟 Lync Server 2013 前端伺服器]，再開啟拓撲產生器]。
+1.  開啟 Lync Server 2013 前端伺服器，開啟拓撲產生器。
 
-2.  瀏覽至 [Lync Server 2010] 節點。
+2.  流覽至 [Lync Server 2010] 節點。
 
-3.  在拓撲產生器中，展開 [ **Enterprise Edition 前端集區**、 **Standard Edition 前端伺服器**或**分支站台**，根據定義監控伺服器的位置。
+3.  在 [拓撲產生器] 中，根據監控伺服器定義的位置，展開 [ **Enterprise Edition 前端**集區]、[ **Standard Edition 前端伺服器**] 或 [**分支網站**]。
 
-4.  如果您有相關聯的 Survivable Branch 伺服器，依序展開 [**分支站台**，依序展開 [分支網站名稱，然後展開 [ **Survivable Branch Appliance**。
+4.  如果您有相關聯的 Survivable 分支伺服器，請展開 [**分支網站**]，展開分支網站名稱，然後展開 [ **Survivable 分支裝置**]。
     
     <div>
     
 
     > [!NOTE]  
-    > 在使用者介面中的<STRONG>Survivable Branch Appliances</STRONG>會套用至 Survivable Branch 伺服器和 Survivable Branch Appliance。
+    > 使用者介面中的<STRONG>Survivable 分支裝置</STRONG>會同時套用至 Survivable branch Server 和 Survivable branch 裝置。
 
     
     </div>
 
-5.  以滑鼠右鍵按一下集區、 伺服器或監控伺服器，與相關聯的裝置，然後按一下 [**編輯內容]**。
+5.  以滑鼠右鍵按一下與監控伺服器相關聯的集區、伺服器或裝置，然後按一下 [**編輯屬性**]。
 
 6.  在 [編輯內容]****，[一般]**** 下方，[關聯]**** 下方，清除 [建立監控伺服器關聯]**** 核取方塊，然後按一下 [確定]****。
 
-7.  任何其他集區、 伺服器或監控伺服器相關聯的裝置，重複上述步驟。
+7.  針對與監控伺服器關聯的任何其他集區、伺服器或裝置，重複上述步驟。
 
-8.  監控伺服器，以滑鼠右鍵按一下，然後按一下 [**刪除**。
+8.  以滑鼠右鍵按一下監控伺服器，然後按一下 [**刪除**]。
 
 9.  在 [刪除相依存放區]**** 上，按一下 [確定]****。
 
-10. 發行拓撲，檢查複寫狀態，並視需要執行 Lync Server 部署精靈。
+10. 發佈拓撲，檢查複寫狀態，然後視需要執行 Lync Server 部署嚮導。
 
 </div>
 

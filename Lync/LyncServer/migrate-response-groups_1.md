@@ -1,8 +1,8 @@
 ---
 title: 移轉回應群組
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Migrate response groups
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184250
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 36b37fc6a67a1935c442edb4e2e8ef0d8812315c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: de012d0886c51cd70d5003beb24053ff86af05b7
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190146"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756934"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,51 +35,51 @@ ms.locfileid: "42190146"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-19_
+_**主題上次修改日期：** 2012-10-19_
 
-您的使用者移至 Lync Server 2013 的集區之後，您可以移轉回應群組。 移轉回應群組包含複製代理人群組、 佇列、 工作流程及音訊檔案，並將回應群組連絡人物件從舊版部署移至 Lync Server 2013 集區。 在移轉舊版回應群組之後，呼叫回應群組是由 Lync Server 2013 集區中的回應群組應用程式處理。 舊版集區不會再處理對回應群組的通話。
-
-<div>
-
-
-> [!NOTE]  
-> 雖然您可以移轉回應群組，您將所有使用者都移至 Lync Server 2013 集區之前，我們建議您第一次都移動所有使用者。 特別是，回應群組代理程式的使用者將不會有新功能的完整功能，直到它們移至 Lync Server 2013 集區。
-
-
-
-</div>
-
-移轉回應群組之前，您必須已部署 Lync Server 2013 集區，其中包含的回應群組應用程式。 回應群組應用程式已安裝並啟用根據預設，當您部署企業語音。 您可以確定回應群組應用程式安裝的是執行**Get-CsService – ApplicationServer**指令程式。
+將使用者移至 Lync Server 2013 集區之後，您可以遷移回應群組。 遷移回應群組包括複製代理程式群組、佇列、工作流程和音訊檔，以及將舊版部署的回應群組連絡人物件移至 Lync Server 2013 集區。 遷移舊版回應群組之後，對回應群組的呼叫會由 Lync Server 2013 集區中的回應群組應用程式來處理。 舊版集區不會再處理對回應群組的通話。
 
 <div>
 
 
 > [!NOTE]  
-> 移轉舊版回應群組之前，您可以在 Lync Server 2013 集區中建立新的 Lync Server 2013 回應群組。
+> 雖然您可以在將所有使用者移至 Lync Server 2013 集區之前遷移回應群組，我們建議您先移動所有使用者。 特別是，回應群組代理的使用者在將新功能移至 Lync Server 2013 集區之前，將不會有其完整功能。
 
 
 
 </div>
 
-若要從舊版集區的回應群組移轉到 Lync Server 2013 中，您可以執行**Move-csrgsconfiguration** cmdlet。 在執行 **Move-CsRgsConfiguration** 之前，必須先安裝 Windows Management Instrumentation (WMI) 回溯相容性介面套件。 執行 OCSWMIBC.msi 即可安裝此應用程式。 您可在安裝媒體的安裝資料夾中找到 OCSWMIBC.msi。
+在遷移回應群組之前，您必須已部署包含回應群組應用程式的 Lync Server 2013 集區。 當您部署企業語音時，預設會安裝及啟用回應群組應用程式。 您可以執行**Get-CsService – ApplicationServer** Cmdlet 來確定是否已安裝回應群組應用程式。
+
+<div>
+
+
+> [!NOTE]  
+> 您可以在遷移舊版回應群組之前，先在 Lync Server 2013 集區中建立新的 Lync Server 2013 回應群組。
+
+
+
+</div>
+
+若要將回應群組從舊版集區遷移至 Lync Server 2013，您需要執行**Move-CsRgsConfiguration** Cmdlet。 在執行 **Move-CsRgsConfiguration** 之前，必須先安裝 Windows Management Instrumentation (WMI) 回溯相容性介面套件。 執行 OCSWMIBC.msi 即可安裝此應用程式。 您可在安裝媒體的安裝資料夾中找到 OCSWMIBC.msi。
 
 <div>
 
 
 > [!IMPORTANT]  
-> 回應群組移轉 cmdlet 移動整個集區的回應群組組態。 您無法選取要移轉的特定群組、佇列或工作流程。
+> 回應群組遷移 Cmdlet 會移動整個集區的回應群組設定。 您無法選取要移轉的特定群組、佇列或工作流程。
 
 
 
 </div>
 
-在移轉回應群組之後，您需要更新正式代理程式用來登入與登出回應群組，並使用 Lync Server Control Panel 或 Lync Server 管理命令介面指令程式來驗證所有代理人群組、 佇列及工作流程已都移動的 URL成功。
+遷移回應群組之後，您必須更新正式代理程式用來登入和登出其回應群組的 URL，並使用 Lync Server 控制台或 Lync Server 管理命令介面 Cmdlet，確認所有代理人群組、佇列和工作流程都已順利移動。
 
 <div>
 
 
 > [!WARNING]  
-> 當您移轉回應群組時，不會移除 Office Communications Server 2007 R2 的回應群組。 請勿移除 Office Communications Server 2007 R2 的回應群組。 如果您移除 Office Communications Server 2007 R2 回應群組，請在 Lync Server 2013 中的回應群組會停止運作。
+> 當您遷移回應群組時，不會移除 Office 通訊伺服器 2007 R2 回應群組。 請勿移除 Office 通訊伺服器 2007 R2 回應群組。 如果您移除 Office 通訊伺服器 2007 R2 回應群組，Lync Server 2013 中的回應群組便會停止運作。
 
 
 
@@ -89,7 +89,7 @@ _**主題上次修改日期：** 2012年-10-19_
 
 
 > [!IMPORTANT]  
-> 建議集區解除委任之後，再移除先前部署的各項資料。 此外，強烈建議移轉後立即匯出回應群組。 如果取得移除 Office Communications Server 2007 R2 回應群組，您就可以從若要取得 Lync Server 2013 回應群組，再執行一次備份，然後還原您的回應群組。
+> 建議集區解除委任之後，再移除先前部署的各項資料。 此外，強烈建議移轉後立即匯出回應群組。 如果 Office 通訊伺服器 2007 R2 回應群組已移除，您可以從備份還原回應群組，使 Lync Server 2013 回應群組再次執行。
 
 
 
@@ -107,11 +107,11 @@ _**主題上次修改日期：** 2012年-10-19_
 
 </div>
 
-移轉回應群組組態會遵循此程序假設您在舊版的集區與 Lync Server 2013 集區之間有一對一的關係。 如果您計劃合併或分割備份集區移轉和部署期間，您需要哪些舊版集區會對應至哪個 Lync Server 2013 集區的計劃。
+針對遷移回應群組設定所遵循的程式，假設您在舊版集區和 Lync Server 2013 集區之間具有一對一的關聯性。 如果您想要在遷移和部署期間整合或分割集區，您需要規劃哪些舊版集區對應到哪些 Lync Server 2013 集區。
 
 <div>
 
-## <a name="to-migrate-response-group-configurations"></a>移轉回應群組設定
+## <a name="to-migrate-response-group-configurations"></a>遷移回應群組設定
 
 1.  在安裝媒體的安裝資料夾中找到 OCSWMIBC.msi，然後執行安裝。
 
@@ -127,13 +127,13 @@ _**主題上次修改日期：** 2012年-10-19_
     
         Move-CsRgsConfiguration -Source pool01.contoso.net -Destination pool02.contoso.net
 
-5.  如果您部署 Microsoft Office Communicator 2007 r2 的 [回應群組] 索引標籤 Office Communications Server 2007 R2 環境中，移除 Office Communicator 2007 R2 tabs.xml 檔案] 索引標籤。
+5.  如果您已在 Office 通訊伺服器 2007 R2 環境中部署 Microsoft Office Communicator 2007 R2 的 [回應群組] 索引標籤，請從 Office Communicator 2007 R2 tabs.xml 檔案中移除索引標籤。
     
     <div>
     
 
     > [!NOTE]  
-    > 正式代理程式會先使用 [回應群組] 索引標籤來登入回應群組，之後才能接收通話。 如果您部署 [回應群組] 索引標籤，當您部署選擇 Office Communicator 2007 R2 tabs.xml 檔案的位置。
+    > 正式代理程式會先使用 [回應群組] 索引標籤來登入回應群組，之後才能接收通話。 如果您已部署 [回應群組] 索引標籤，您會在部署 Office Communicator 2007 R2 tabs.xml 檔案時選擇其位置。
 
     
     </div>
@@ -144,7 +144,7 @@ _**主題上次修改日期：** 2012年-10-19_
     
 
     > [!NOTE]  
-    > 此 URL 通常是https://webpoolFQDN/RgsClients/Tab.aspx，其中 webpoolFQDN 是與剛移轉至 Lync Server 2013 的集區相關聯的 web 集區的完整的網域名稱 (FQDN)。
+    > URL 通常 https://webpoolFQDN/RgsClients/Tab.aspx ，其中 webpoolFQDN 是與您剛才遷移至 Lync Server 2013 之集區相關聯之網頁集區的完整功能變數名稱（FQDN）。
 
     
     </div>
@@ -153,7 +153,7 @@ _**主題上次修改日期：** 2012年-10-19_
     
 
     > [!NOTE]  
-    > 因為 URL 是可從 [<STRONG>工具</STRONG>] 功能表，在 Lync 使用者已升級至 Lync 2013 之後，則不需要此步驟。
+    > 在使用者升級至 Lync 2013 之後，不需要此步驟，因為您可以從 Lync 的 [<STRONG>工具</STRONG>] 功能表中取得 URL。
 
     
     </div>
@@ -162,17 +162,17 @@ _**主題上次修改日期：** 2012年-10-19_
 
 <div>
 
-## <a name="to-verify-response-group-migration-by-using-lync-server-control-panel"></a>若要使用 Lync Server 控制台驗證回應群組移轉
+## <a name="to-verify-response-group-migration-by-using-lync-server-control-panel"></a>使用 Lync Server 控制台驗證回應群組遷移
 
-1.  開啟 Lync Server Control Panel。
+1.  開啟 Lync Server 控制台。
 
 2.  在左導覽列中，按一下 **[回應群組]**。
 
-3.  在 [**工作流程**] 索引標籤，確認清單中包含 Office Communications Server 2007 R2 環境中的所有工作流程。
+3.  在 [**工作流程**] 索引標籤上，確認您的 Office 通訊伺服器 2007 R2 環境中的所有工作流程都包含在清單中。
 
-4.  按一下 [**佇列**] 索引標籤，確認清單中包含 Office Communications Server 2007 R2 環境中的所有佇列。
+4.  按一下 [**佇列**] 索引標籤，確認清單中包含 Office 通訊伺服器 2007 R2 環境中的所有佇列。
 
-5.  按一下 [**群組**] 索引標籤，確認清單中包含 Office Communications Server 2007 R2 環境中的所有代理程式群組。
+5.  按一下 [**群組**] 索引標籤，並確認您的 Office 通訊伺服器 2007 R2 環境中的所有代理程式群組都包含在清單中。
 
 </div>
 
@@ -190,19 +190,19 @@ _**主題上次修改日期：** 2012年-10-19_
     
         Get-CsRgsAgentGroup
 
-3.  確認清單中包含 Office Communications Server 2007 R2 環境中的所有代理程式群組。
+3.  確認您的 Office 通訊伺服器 2007 R2 環境中的所有代理程式群組都包含在清單中。
 
 4.  在命令列輸入下列命令：
     
         Get-CsRgsQueue
 
-5.  確認清單中包含 Office Communications Server 2007 R2 環境中的所有佇列。
+5.  確認您的 Office 通訊伺服器 2007 R2 環境中的所有佇列都包含在清單中。
 
 6.  在命令列輸入下列命令：
     
         Get-CsRgsWorkflow
 
-7.  確認清單中包含 Office Communications Server 2007 R2 環境中的所有工作流程。
+7.  確認您的 Office 通訊伺服器 2007 R2 環境中的所有工作流程都包含在清單中。
 
 </div>
 

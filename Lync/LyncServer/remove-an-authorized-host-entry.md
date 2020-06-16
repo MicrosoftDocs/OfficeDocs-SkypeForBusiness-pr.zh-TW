@@ -1,8 +1,8 @@
 ---
-title: 移除授權的主機項目
+title: 移除授權主項目目
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Remove an authorized host entry
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184177
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5f1818268c67e4b7aa7fb10101e68b7d66928d08
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cd64239460d76d63b28bb3a3abeb8c5cc8bb97d9
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189546"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757134"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42189546"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="remove-an-authorized-host-entry"></a>移除授權的主機項目
+# <a name="remove-an-authorized-host-entry"></a>移除授權主項目目
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "42189546"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-26_
+_**主題上次修改日期：** 2012-09-26_
 
-本主題說明如何移除舊版授權的主機項目 （又稱為 Lync Server 2013 中*受信任的應用程式項目*）。 當您移轉至 Lync Server 2013 部署的遠端呼叫控制時，您必須在 Office Communications Server 2007 R2 部署中移除現有的任何 SIP/CSTA 閘道的授權的主機項目。 您必須使用隨附於 Office Communications Server 2007 R2 系統管理工具來移除現有的授權的主機項目。
+本主題說明如何移除舊版授權主項目目（稱為 Lync Server 2013 中的*信任應用程式專案*）。 當您將遠端呼叫控制遷移至 Lync Server 2013 部署時，您必須移除 Office 通訊伺服器 2007 R2 部署中任何 SIP/CSTA 閘道的現有授權主項目目。 您必須使用 Office 通訊伺服器 2007 R2 隨附的系統管理工具，才能移除現有的授權主項目目。
 
 <div>
 
 ## <a name="to-remove-an-authorized-host-entry-in-an-office-communications-server-2007-r2-deployment"></a>若要移除 Office Communications Server 2007 R2 部署中的授權主機項目
 
-1.  開啟 [Office Communications Server 2007 R2 系統管理主控台]。
+1.  開啟 Office 通訊伺服器 2007 R2 管理主控台。
 
 2.  展開樹狀結構，並且以滑鼠右鍵按一下授權主機建立所在的集區。
 

@@ -1,8 +1,8 @@
 ---
-title: 階段 7： 完成移轉後工作
+title: 階段 7：完成移轉後的工作
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: 'Phase 7: Complete post-migration tasks'
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184485
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d42207ecff45a66f2b8fb4d88abb69483504c644
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bcf827412104bcfc8b6c3fe2b58378ecab8ad7bf
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209559"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756774"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42209559"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="phase-7-complete-post-migration-tasks"></a>階段 7： 完成移轉後工作
+# <a name="phase-7-complete-post-migration-tasks"></a>階段 7：完成移轉後的工作
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "42209559"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-19_
+_**主題上次修改日期：** 2012-10-19_
 
-本節中的主題說明您必須執行完成之後，您移轉至 Lync Server 2013 的工作。
+本節中的主題說明在完成遷移至 Lync Server 2013 之後，需要執行的工作。
 
 <div>
 
@@ -61,7 +61,7 @@ _**主題上次修改日期：** 2012年-10-19_
 
   - [部署 Lync Server 2013 用戶端](deploy-lync-server-2013-clients.md)
 
-  - [連接 Survivable Branch Appliance](connect-a-survivable-branch-appliance.md)
+  - [連線 Survivable Branch Appliance](connect-a-survivable-branch-appliance.md)
 
   - [設定 SCOM 監控](configure-scom-monitoring.md)
 

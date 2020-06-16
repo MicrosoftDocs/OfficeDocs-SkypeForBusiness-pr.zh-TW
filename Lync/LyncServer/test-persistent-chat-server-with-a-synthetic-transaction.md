@@ -1,8 +1,8 @@
 ---
-title: 利用綜合交易測試常設聊天室伺服器
+title: 使用綜合交易測試 Persistent Chat Server
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Test Persistent Chat Server with a synthetic transaction
@@ -12,12 +12,12 @@ ms:contentKeyID: 48183968
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d960e2c719c6ac0cac1ba20c702deb81b7deb4d1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 75d87e9ceafc16c8566a8cabc91ad9a5ec06a37f
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189206"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755717"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42189206"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="test-persistent-chat-server-with-a-synthetic-transaction"></a>利用綜合交易測試常設聊天室伺服器
+# <a name="test-persistent-chat-server-with-a-synthetic-transaction"></a>使用綜合交易測試 Persistent Chat Server
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "42189206"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-21_
+_**主題上次修改日期：** 2012-09-21_
 
-若要測試 Persistent Chat Server 來傳送及接收郵件的兩個使用者之間的聊天室
+測試 Persistent Chat Server，以在兩位使用者之間的聊天室中傳送和接收郵件
 
     Test-CsPersistentChatMessage [-Authentication <TrustedServer | Negotiate | ClientCertificate | 
         LiveID>] [-ReceiverSipAddress <String>] [-RegistrarPort <Int32>] [-SenderSipAddress <String>] -TargetFqdn <String> [-Force <SwitchParameter>] [-OutLoggerVariable <String>] 

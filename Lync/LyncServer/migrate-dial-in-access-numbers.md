@@ -1,8 +1,8 @@
 ---
 title: 移轉撥入存取號碼
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Migrate dial-in access numbers
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733843
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1e808e587c9bd65668e35eba46692591bf72b9c0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 383fed15e2b67013ddd85356eb141a4c5dcf64e6
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210014"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756984"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,33 +35,33 @@ ms.locfileid: "42210014"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-19_
+_**主題上次修改日期：** 2012-10-19_
 
-從 Lync Server 2010 移轉的撥入存取號碼，以 Lync Server 2013 需要執行**Move-csapplicationendpoint** cmdlet 來移轉連絡人物件。 在 Lync Server 2010 和 Lync Server 2013 共存期間，您在 Lync Server 2013 中建立的撥入存取號碼的運作方式類似您在 Lync Server 2010 中建立的撥入存取號碼本節所述。
+將撥入存取號碼從 Lync Server 2010 遷移至 Lync Server 2013 需要執行**Move-CsApplicationEndpoint** Cmdlet 以遷移連絡人物件。 在 Lync Server 2010 和 Lync Server 2013 共存期間內，您在 Lync Server 2013 中建立的撥入存取號碼，與您在 Lync Server 2010 中所建立的撥入存取號碼類似，如本節所述。
 
-找出您在 Lync Server 2010 中建立，但已移至 Lync Server 2013 或期間或之後移轉之前，Lync Server 2013 中建立的撥入存取號碼具備下列特性：
+您在 Lync Server 2010 中建立的撥入存取號碼，但是會移至 Lync Server 2013，或在遷移期間或之後，您2013在遷移期間或之後所建立的撥入存取號碼具有下列特性：
 
-  - 不會出現在 Office Communications Server 2007 R2 會議邀請及撥入存取號碼頁面。
+  - 不會出現在 Office 通訊伺服器 2007 R2 會議邀請和撥入存取號碼頁面上。
 
-  - 出現在 Lync Server 2010 會議邀請及撥入存取號碼頁面。
+  - 會出現在 Lync Server 2010 會議邀請和撥入存取號碼頁面上。
 
-  - 出現在 Lync Server 2013 會議邀請及撥入存取號碼頁面。
+  - 會出現在 Lync Server 2013 會議邀請和撥入存取號碼頁面上。
 
-  - 無法檢視或在 Office Communications Server 2007 R2 系統管理工具中修改。
+  - 無法在 Office 通訊伺服器 2007 R2 系統管理工具中查看或修改。
 
-  - 可檢視及修改 Lync Server 2010 控制台和以 Lync Server 2010 管理命令介面。
+  - 可在 Lync Server 2010 控制台和 Lync Server 2010 管理命令介面中查看及修改。
 
-  - 可檢視及修改 Lync Server 2013 控制台和以 Lync Server 2013 管理命令介面。
+  - 可在 Lync Server 2013 控制台和 Lync Server 2013 管理命令介面中查看及修改。
 
-  - 可以進行重新排序的區域內使用 Set-csdialinconferencingaccessnumber cmdlet 搭配 Priority 參數。
+  - 可以使用具有 Priority 參數的 Set-CsDialinConferencingAccessNumber Cmdlet，在地區內重新排序。
 
-您必須完成移轉撥入存取號碼，指向 [Lync Server 2010 集區之前您解除委任 Lync Server 2010 集區。 如果您未完成下列程序所述撥入存取號碼移轉，將會失敗的存取號碼的傳入呼叫。
+在解除委任 Lync Server 2010 集區之前，您必須完成指向 Lync Server 2010 集區的撥入存取號碼遷移。 如果您未完成撥入存取號碼遷移（如下列程式所述），則對存取號碼的來電將會失敗。
 
 <div>
 
 
 > [!IMPORTANT]  
-> 您必須執行此程序在解除委任 Lync Server 2010 集區之前。
+> 您必須在解除委任 Lync Server 2010 集區之前執行此程式。
 
 
 
@@ -71,58 +71,58 @@ _**主題上次修改日期：** 2012年-10-19_
 
 
 > [!NOTE]  
-> 我們建議您在網路使用量較低，以防沒有在短時間內服務中斷時移動撥入存取號碼。
+> 建議您在網路使用量很低時移動撥入存取號碼，以防出現短時間的服務中斷。
 
 
 
 </div>
 
-**識別及移動撥入存取號碼**
+**識別並移動撥入存取號碼**
 
-1.  啟動 Lync Server 管理命令介面： 按一下 [**開始]**，按一下 [**所有程式]**、 [ **Microsoft Lync Server 2013**]，然後按一下**Lync Server 管理命令介面**。
+1.  啟動 Lync Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。
 
-2.  若要將每組撥入存取號碼移至 Lync Server 2013 上裝載的集區，從命令列執行：
+2.  若要將每個撥入存取號碼移至主控于 Lync Server 2013 的集區，請從命令列執行：
     
         Move-CsApplicationEndpoint -Identity <SIP URI of the access number to be moved> -Target <FQDN of the pool to which the access number is moving>
 
-3.  開啟 Lync Server 控制台。
+3.  開啟 [Lync Server 控制台]。
 
 4.  在左側導覽列中，按一下 **[會議]**。
 
 5.  按一下 [**撥入存取號碼**] 索引標籤。
 
-6.  不確認您要從中移轉的 Lync Server 2010 集區無任何撥入存取號碼。
+6.  確認您要遷移的 Lync Server 2010 集區中，是否仍然保留任何撥入存取號碼。
     
     <div>
     
 
     > [!NOTE]  
-    > 當所有撥入存取號碼都移至 Lync Server 2013 集區時，您即可解除委任 Lync Server 2010 集區。
+    > 當所有撥入存取號碼指向 Lync Server 2013 集區時，即可解除委任 Lync Server 2010 集區。
 
     
     </div>
 
-**撥入存取號碼使用驗證移轉的 Lync Server Control Panel**
+**使用 Lync Server 控制台驗證撥入存取號碼遷移**
 
-1.  指派給**CsUserAdministrator**角色或**CsAdministrator**角色的使用者帳戶，登入內部部署中的任何電腦。
+1.  從指派給**CsUserAdministrator**角色或**CsAdministrator**角色的使用者帳戶，登入內部部署中的任何電腦。
 
-2.  開啟 Lync Server 控制台。
+2.  開啟 [Lync Server 控制台]。
 
 3.  在左側導覽列中，按一下 **[會議]**。
 
 4.  按一下 [**撥入存取號碼**] 索引標籤。
 
-5.  確認所有撥入存取號碼均已移轉至 Lync Server 2013 上裝載的集區。
+5.  確認所有撥入存取號碼都已遷移至 Lync Server 2013 上裝載的集區。
 
-**撥入存取號碼使用驗證移轉的 Lync Server 管理命令介面**
+**使用 Lync Server 管理命令介面來驗證撥入存取號碼遷移**
 
-1.  開啟 [Lync Server 管理命令介面]。
+1.  開啟 Lync Server 管理命令介面。
 
-2.  若要傳回所有撥入式會議存取號碼移轉，從命令列執行：
+2.  若要傳回已遷移的所有電話撥入式會議存取號碼，請從命令列執行：
     
         Get-CsDialInConferencingAccessNumber -Filter {Pool -eq "<FQDN of the pool to which the access number is moved>"}
 
-3.  確認所有撥入存取號碼將會都移轉至 Lync Server 2013 上裝載的集區。
+3.  確認所有撥入存取號碼都已遷移至 Lync Server 2013 上主控的集區。
 
 </div>
 

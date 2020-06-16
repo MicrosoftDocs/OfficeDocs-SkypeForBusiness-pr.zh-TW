@@ -1,8 +1,8 @@
 ---
 title: 移動會議目錄
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Move conference directories
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184463
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 705540ba138a6b62c41480e275f183d67dbfbfc4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2de2b588d880600a4a7d8365f20423d3faf2653e
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209719"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756622"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,21 +35,21 @@ ms.locfileid: "42209719"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-04_
+_**主題上次修改日期：** 2012-10-04_
 
-之前解除委任集區，您必須針對 Office Communications Server 2007 R2 集區中每個會議目錄執行下列程序。
+在解除委任集區之前，您必須針對 Office 通訊伺服器 2007 R2 集區中的每個會議目錄執行下列程式。
 
 <div>
 
-## <a name="to-move-a-conference-directory-to-lync-server-2013"></a>若要將會議目錄移至 Lync Server 2013
+## <a name="to-move-a-conference-directory-to-lync-server-2013"></a>將會議目錄移至 Lync Server 2013
 
 1.  開啟 Lync Server 管理命令介面。
 
-2.  若要取得您的組織中會議目錄的身分識別，請執行下列命令：
+2.  若要取得組織中會議目錄的身分識別，請執行下列命令：
     
         Get-CsConferenceDirectory
     
-    由於此 Cmdlet 會傳回組織中的所有會議目錄，所以您可能會想要將結果僅限於您要解除委任的集區。例如，如果您想要解除委任完整網域名稱 (FQDN) 為 pool01.contoso.net 的集區：
+    Because this cmdlet returns all the conference directories in your organization, you may want to limit the results to only the pool you want to decommission. For example, if you want to decommission a pool with the fully qualified domain name (FQDN) pool01.contoso.net:
     
         Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"}
     
@@ -67,13 +67,13 @@ _**主題上次修改日期：** 2012年-10-04_
 
 
 > [!NOTE]  
-> 您可能會遇到錯誤，由所造成 Lync Server 管理命令介面需要更新的組從 Active Directory 的權限，如下所示。 若要解決此錯誤，關閉目前視窗和開啟新的 Lync Server 管理命令介面，並再次執行命令。
+> 您可能會遇到下列錯誤：由於 Lync Server 管理命令介面需要從 Active Directory 更新一組許可權所導致。 若要解決此錯誤，請關閉目前的視窗，並開啟新的 Lync Server 管理命令介面，然後再次執行命令。
 
 
 
 </div>
 
-![Move-csconferencedirectory 錯誤輸出](images/JJ204994.4748b9e8-9651-4527-afe1-cbdc6d5ce4a8(OCS.15).jpg "Move-csconferencedirectory 錯誤輸出")
+![Move-CsConferenceDirectory 錯誤輸出](images/JJ204994.4748b9e8-9651-4527-afe1-cbdc6d5ce4a8(OCS.15).jpg "Move-CsConferenceDirectory 錯誤輸出")
 
 </div>
 
