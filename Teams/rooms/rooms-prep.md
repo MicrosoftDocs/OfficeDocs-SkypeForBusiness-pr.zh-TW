@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 瞭解如何準備您的基礎結構以部署 Microsoft 團隊聊天室，讓您充分利用所有的功能。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4309140e249f5ab3674f0b2255ae195821922ad4
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 8551bc625b270b8b61de4be71ceb772a1d1ede47
+ms.sourcegitcommit: d0d37351c37c2b4db9b0fc51b286dd548f5b9542
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666165"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "44735423"
 ---
 # <a name="prepare-your-environment"></a>準備您的環境
 
@@ -53,7 +53,7 @@ ms.locfileid: "44666165"
 為了能正常運作，Microsoft 團隊聊天室裝置必須能夠存取符合這些需求的有線網路：
   
 - 存取您的 Active Directory 或 Azure Active Directory （Azure AD）實例，以及您的 Microsoft Exchange 與商務用 Skype 伺服器。
-- 存取可使用 DHCP 提供 IP 位址的伺服器。 Microsoft 球隊會議室不能使用靜態 IP 位址進行設定。
+- 存取可使用 DHCP 提供 IP 位址的伺服器。 在第一次啟動時，無法使用靜態 IP 位址來設定 Microsoft 團隊會議室。
 - 存取 HTTP 埠80和443。
 - TCP 和 UDP 埠已設定為適用于內部部署商務用 Skype 伺服器實現的[伺服器埠與通訊協定需求](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols)，或 microsoft [365 和 Office 365 Url 以及](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)microsoft 團隊或商務用 SKYPE online 實現的 IP 位址範圍。
 
@@ -120,7 +120,7 @@ Microsoft 團隊聊天室是設計來從 Windows 作業系統繼承 Proxy 設定
 |桌面共用  <br/> |用戶端電腦或登入的使用者  <br/> |TCP/UDP 50040-50059  <br/> |\*. contoso.com  <br/> |否  <br/> |是  <br/> |[商務用 Skype IP 範圍](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443，50000-59999  <br/> |
 |在 iOS 裝置上 Lync mobile 2010 的 lync Mobile 推播通知。 您不需要 Android、Nokia Symbian 或 Windows Phone 行動裝置。  <br/> |用戶端電腦或登入的使用者  <br/> |暫時埠  <br/> |\*. contoso.com  <br/> |否  <br/> |是  <br/> |[商務用 Skype IP 範圍](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 5223  <br/> |
 |Skype 遙測  <br/> |用戶端電腦或登入的使用者  <br/> |暫時埠  <br/> |skypemaprdsitus.trafficmanager.net  <br/> pipe.skype.com  <br/> |否  <br/> |否  <br/> |不適用  <br/> |TCP 443  <br/> |
-|Skype 用戶端快速提示  <br/> |用戶端電腦或登入的使用者  <br/> |暫時埠  <br/> |quicktips.skypeforbusiness.com  <br/> |否  <br/> |否  <br/> |不適用  <br/> |TCP 443  <br/> |
+|Skype 用戶端快速秘訣  <br/> |用戶端電腦或登入的使用者  <br/> |暫時埠  <br/> |quicktips.skypeforbusiness.com  <br/> |否  <br/> |否  <br/> |不適用  <br/> |TCP 443  <br/> |
 
 > [!NOTE]
 > Contoso.com 和 broadcast.skype.com 的萬用字元代表一個長清單，這些節點專供 Microsoft 365 或 Office 365 使用。 
@@ -144,7 +144,7 @@ Microsoft 團隊聊天室是設計來從 Windows 作業系統繼承 Proxy 設定
   
 ### <a name="admin---local-administrator-account"></a>"管理員"-本機系統管理員帳戶
 
-Microsoft 團隊會議室預設密碼設定為 "sfb"。 若要在本機變更密碼，請移至 [Windows 設定] \> ，移至 [windows] 或 AutoUnattend [.xml] 檔案（從 ADK 使用 Windows 系統影像管理員來變更 xml 檔案）。
+Microsoft 團隊會議室預設密碼設定為 "sfb"。 若要在本機變更密碼，請移至 [Windows 設定] \> ，移至 [windows] 或 AutoUnattend.xml 檔案（使用 ADK 的 Windows 系統影像管理員來變更 xml 檔案）。
   
 > [!CAUTION]
 > 請務必儘快變更 Microsoft 團隊會議室密碼。 

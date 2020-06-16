@@ -19,19 +19,19 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6571da01408893423ae6672dccd80ba65a55cbaf
-ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
+ms.openlocfilehash: 0e13055fb9c4f3f30b1810a24a20aea25c9eb652
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44158970"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689659"
 ---
 # <a name="security-and-microsoft-teams"></a>安全性和 Microsoft Teams
 
 > [!IMPORTANT]
 > Teams 服務模型可能會有所變更，以改善客戶體驗。 例如，預設存取權或重新整理權杖到期時間可能會修改，以提升使用 Teams 的效能與驗證復原能力。 任何此類變更的目標都是讓 Teams 保持安全且從設計上值得信賴。
 
-Microsoft Teams 是 Microsoft 365 (M365) 服務的一部分，其會遵循所有安全性最佳做法和程序，例如透過深度防禦達到服務等級的安全性、服務中的客戶控制、強化安全性及最佳營運做法。 如需詳細資訊，請參閱 [Microsoft 信任中心](https://microsoft.com/trustcenter)。
+Microsoft Teams 是 Microsoft 365 和 Office 365 服務的一部分，其會遵循所有安全性最佳做法和程序，例如透過深度防禦達到服務等級的安全性、服務中的客戶控制、強化安全性及最佳營運做法。 如需詳細資訊，請參閱 [Microsoft 信任中心](https://microsoft.com/trustcenter)。
 
 ## <a name="trustworthy-by-design"></a>從設計上值得信賴
 
@@ -63,7 +63,7 @@ Teams 會執行 Azure DDOS 網路保護，並對來自相同端點、子網路�
 
 當攻擊者獲得網路中資料路徑的存取權，並有能力監視及讀取流量時，就可能發生竊聽。 這種攻擊也稱為探查或窺探。 如果流量是純文字，攻擊者就能在獲得路徑的存取權時讀取流量。 藉由控制資料路徑上的路由器來執行攻擊便是其中一例。
 
-Teams 會使用相互 TLS (MTLS) 讓伺服器在 O365 中通訊，並使用 TLS 來進行用戶端到服務的通訊，而讓這種攻擊很難達到要攻擊給定交談所需的一段時間。 TLS 會對各方實施驗證，並加密所有流量。 這雖然不會妨礙竊聽，但除非加密遭到破解，否則攻擊者將無法讀取流量。
+Teams 會使用相互 TLS (MTLS) 讓伺服器在 Microsoft 365 和 Office 365 中通訊，並使用 TLS 來進行用戶端到服務的通訊，在可能攻擊給定交談的時間內，讓這種攻擊非常困難或無法達成攻擊。 TLS 會對各方實施驗證，並加密所有流量。 這雖然不會妨礙竊聽，但除非加密遭到破解，否則攻擊者將無法讀取流量。
 
 TURN 通訊協定可用於即時媒體用途。 TURN 通訊協定不會要求流量必須加密，而是會透過郵件完整性來保護所傳送的資訊。 此通訊協定雖對竊聽不設防，但其所傳送的資訊 (也就是 IP 位址和連接埠) 只要藉由查看封包的來源和目的地位址，就能直接擷取到。 Teams 服務可確保資料的有效性，其方法是使用衍生自少數幾個項目、絕對不會以純文字傳送的金鑰 (包括 TURN 密碼) 來檢查郵件的完整性。 SRTP 則可用於媒體流量，而且也會進行加密。
 
@@ -106,11 +106,11 @@ Spim 是未經同意的商業立即訊息或目前狀態訂閱要求 (例如垃�
 
 ### <a name="azure-active-directory"></a>Azure Active Directory
 
-Azure Active Directory 會作為 Office 365 (O365) 的目錄服務。 其儲存了所有使用者目錄資訊和原則指派。
+Azure Active Directory 會作為 Microsoft 365 和 Office 365 的目錄服務。 其儲存了所有使用者目錄資訊和原則指派。
 
 #### <a name="crl-distribution-points"></a>CRL 發佈點
 
-O365 流量會透過 TLS/HTTPS 加密通道來發生，也就是說，系統會使用憑證來加密所有流量。 Teams 要求所有伺服器憑證都包含一或多個憑證撤銷清單 (CRL) 發佈點。 您可以從 CRL 發佈點 (CDP) 來下載 CRL，以便驗證憑證自發行以來尚未遭到撤銷，且憑證仍在有效期限內。 CRL 發佈點是安全的 HTTP，會以 URL 的形式註明在憑證的屬性中。 Teams 服務會在每個憑證驗證中檢查 CRL。
+Microsoft 365 和 Office 365 流量會透過 TLS/HTTPS 加密通道來進行，也就是說，系統會使用憑證來加密所有流量。 Teams 要求所有伺服器憑證都包含一或多個憑證撤銷清單 (CRL) 發佈點。 您可以從 CRL 發佈點 (CDP) 來下載 CRL，以便驗證憑證自發行以來尚未遭到撤銷，且憑證仍在有效期限內。 CRL 發佈點是安全的 HTTP，會以 URL 的形式註明在憑證的屬性中。 Teams 服務會在每個憑證驗證中檢查 CRL。
 
 #### <a name="enhanced-key-usage"></a>增強金鑰使用方法
 
@@ -159,11 +159,11 @@ Teams 會使用符合 FIPS (聯邦資訊處理標準) 規範的演算法來交�
 
 ### <a name="user-and-client-authentication"></a>使用者和用戶端驗證
 
-受信任的使用者是指其認證已由 Azure AD 在 Office 365/Microsoft 365 中完成驗證的使用者。
+受信任的使用者指的是，已經過 Microsoft 365 或 Office 365 中的 Azure AD 驗證的使用者。
 
 驗證是將使用者認證佈建到受信任伺服器或服務的程序。 Teams 會根據使用者的狀態和位置，而使用下列驗證通訊協定。
 
-- **新式驗證 (MA)** 是 Microsoft 針對用戶端到伺服器的通訊所進行的 OAUTH 2.0 實作。 此驗證可啟用 O365 Multi-Factor Authentication 和 O365 條件式存取等安全性功能。 若要使用 MA，就必須為線上租用戶和用戶端啟用 MA。 電腦和行動裝置上的 Teams 用戶端以及 Web 用戶端[全都支援 MA](https://docs.microsoft.com/microsoftteams/sign-in-teams)。
+- **新式驗證 (MA)** 是 Microsoft 針對用戶端到伺服器的通訊所進行的 OAUTH 2.0 實作。 此驗證可啟用多重要素驗證和條件式存取等安全性功能。 若要使用 MA，就必須為線上租用戶和用戶端啟用 MA。 電腦和行動裝置上的 Teams 用戶端以及 Web 用戶端[全都支援 MA](https://docs.microsoft.com/microsoftteams/sign-in-teams)。
 
 > [!NOTE]
 > 如果需要複習 Azure AD 的驗證和授權方法，本文的＜簡介＞和＜Azure AD 中的驗證基本知識＞可提供協助。
@@ -178,7 +178,7 @@ Teams 驗證是透過 Azure AD 和 OAuth 來完成的。 驗證程序可簡化�
 
 ### <a name="windows-powershell-and-team-management-tools"></a>Windows PowerShell 和 Teams 管理工具
 
-在 Teams 中，IT 系統管理員可以透過 O365 系統管理入口網站或租用戶遠端 PowerShell (TRPS) 來管理其服務。 租用戶系統管理員會使用新式驗證來向 TRPS 驗證。
+在 Teams 中，IT 系統管理員可以透過 Microsoft 365 系統管理中心或使用租用戶遠端 PowerShell (TRPS) 來管理服務。 租用戶系統管理員會使用新式驗證來向 TRPS 驗證。
 
 ### <a name="configuring-access-to-teams-at-your-internet-boundary"></a>將 Teams 的存取設定在網際網路界限
 
@@ -188,13 +188,9 @@ Teams 驗證是透過 Azure AD 和 OAuth 來完成的。 驗證程序可簡化�
 
 用戶端可使用 UDP 3478-3481 和 TCP 443 連接埠來向服務要求音訊視覺效果。 用戶端可使用這兩個連接埠來分別配置 UDP 和 TCP 連接埠，以啟用這些媒體流量。 這些連接埠上的媒體流量會使用金鑰來加以保護，金鑰則會透過受 TLS 保護的訊號通道來進行交換。
 
-### <a name="udptcp-5000059999-optional"></a>UDP/TCP 50,000–59,999 (選用)
-
-高範圍的連接埠不會使用傳輸轉送。 其屬於選用連接埠，因此不會在 Office 365 URL 和 IP 位址範圍清單中看到這些連接埠。 這也表示由於流量使用連接埠範圍 3478-3481 (傳輸轉送)，因此如果這些連接埠遭到封鎖，Teams 就會運作。 這些連接埠會用於媒體傳輸，但即使將這些範圍解除封鎖，減少的延遲量也很少 (幾毫秒而已)。 在大部分的情況下，媒體品質問題不會受到封鎖和使用這些連接埠所影響。 如果要對這些問題進行調查，應該將焦點集中在其他地方。
-
 ### <a name="federation-safeguards-for-teams"></a>Teams 的同盟保護機制
 
-同盟可讓您的組織與其他組織通訊，以共用 IM 和目前狀態。 Teams 預設會開啟同盟功能。 不過，租用戶系統管理員可以透過 O365 系統管理入口網站來控制此選項。
+同盟可讓您的組織與其他組織通訊，以共用 IM 和目前狀態。 Teams 預設會開啟同盟功能。 不過，租用戶系統管理員可以透過 Microsoft 365 系統管理中心來控制此選項。
 
 ## <a name="addressing-threats-to-teams-meetings"></a>解決 Teams 會議面臨的威脅
 
@@ -223,7 +219,7 @@ Teams 驗證是透過 Azure AD 和 OAuth 來完成的。 驗證程序可簡化�
     |開始或停止錄製     |     Y    |    N     |
     |在其他參與者共用 PowerPoint 時接管會議     |  Y         | N        |
 
-Teams 會為企業使用者提供建立和加入即時會議的功能。 企業使用者也可以邀請沒有 Azure AD/Office 365 帳戶的外部使用者參與這些會議。 外部合作夥伴所僱用、身分識別安全且經過驗證的使用者也可以加入會議，而且可在經過提升後擔任簡報者。 匿名使用者無法以簡報者的身分建立或加入會議，但可在加入會議後受到提升而成為簡報者。
+Teams 會為企業使用者提供建立和加入即時會議的功能。 企業使用者也可以邀請沒有 Azure AD、Microsoft 365 或 Office 365 帳戶的外部使用者參與這些會議。 外部合作夥伴所僱用、身分識別安全且經過驗證的使用者也可以加入會議，而且可在經過提升後擔任簡報者。 匿名使用者無法以簡報者的身分建立或加入會議，但可在加入會議後受到提升而成為簡報者。
 
 若要讓匿名使用者能夠加入 Teams 會議，則必須將 Teams 系統管理中心內的「參與者會議」設定切換為開啟。
 
@@ -306,6 +302,6 @@ Teams 會為企業使用者提供建立和加入即時會議的功能。 企業�
 
 [在 Microsoft Teams 中管理會議設定](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams)
 
-[使用 VPN 分割通道將遠端使用者的 Office 365 連線能力最佳化](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
+[使用 VPN 分割通道最佳化遠端使用者的 Microsoft 365 或 Office 365 連線能力](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
 
-- [實作 Office 365 的 VPN 分割通道](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-implement-split-tunnel)
+- [實作 VPN 分割通道](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-implement-split-tunnel)

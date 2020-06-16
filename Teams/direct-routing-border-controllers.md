@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 系統管理員可以瞭解哪個會話邊界控制器（SBCs）已認證以進行直接路由。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5b6e79b38ae92c3a2387b91e0d254f99f8412da5
-ms.sourcegitcommit: d664ef6994e242bf18a29dac31286c78c163478a
+ms.openlocfilehash: 1c1805ec472a36389cd6b45d5d344438b41a5a32
+ms.sourcegitcommit: d0d37351c37c2b4db9b0fc51b286dd548f5b9542
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "44710797"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "44735433"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>通過直接路由認證的工作階段邊界控制器清單
 
@@ -72,7 +72,7 @@ Microsoft 與各個廠商搭配：
 |                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   <ul> <li> [頻寬動態位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Intrado 緊急路由服務（ERS）](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado 緊急閘道（EGW）](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>  |  &#10004;  |    
 |                     [TE-系統](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      支援的3.20 （建議的4.0）        |     |    |    
 |                     [Metaswitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     Perimeta SBC        |     &#10004;   |  |      4.7      |     |    |  
-|                     [Cisco](http://www.cisco.com/go/cube)                               |     1000系列整合服務路由器的 Cisco 整合框線元素（CUBE）        |     &#10004;   |  |      IOS XE 阿姆斯特丹 17.2.1 r      |     |   |  
+|                     [Cisco](https://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd13d.html)                               |     1000系列整合服務路由器的 Cisco 整合框線元素（CUBE）        |     &#10004;   |  |      IOS XE 阿姆斯特丹 17.2.1 r      |     |   |  
 |                                   |     4000系列整合服務路由器的 Cisco 整合框線元素（CUBE）        |     &#10004;   |  |      IOS XE 阿姆斯特丹 17.2.1 r      |     |    |  
 |                                   |     1000V 系列雲端服務路由器的 Cisco 統一框線元素（CUBE）       |     &#10004;   |  |      IOS XE 阿姆斯特丹 17.2.1 r      |     |    |  
 |                                 |     1000系列匯總服務路由器的 Cisco 整合 Border 元素（CUBE）      |     &#10004;   |  |      IOS XE 阿姆斯特丹 17.2.1 r      |     |    |  
@@ -91,6 +91,7 @@ Microsoft 與各個廠商搭配：
   | [聯手](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  AP6300 軟體版本8.3.0.1。2|     &#10004;     |
   | [聯手](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  AP6350 軟體版本8.3.0.1。2|     &#10004;     |
   | [聯手](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  VME 軟體版本8.3.0.1。2 |     &#10004;     |
+  | [TE-系統](https://www.anynode.de/anynode-and-microsoft-teams/) |  anynode 與 Grandstream GXW42xx （V 1.0.7.10） |     &#10004;     |
 
 若要向我們的小組提供產品意見反應，例如新功能的想法，請參閱[Uservoice](https://microsoftteams.uservoice.com)。
 請注意授予主要版本的認證。 這表示支援在主要版本之後，在 SBC 固件中有任何數位的固件。

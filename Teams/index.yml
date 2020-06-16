@@ -1,10 +1,10 @@
 ### YamlMime:Hub
-title: Microsoft 團隊系統管理檔
-summary: 瞭解如何推出及管理團隊，並為您的小組準備您的使用者
+title: Microsoft Teams 系統管理文件
+summary: 了解如何推出和管理 Teams，並為您的使用者準備 Teams
 brand: teams
 metadata:
-  title: Microsoft 團隊系統管理檔
-  description: 瞭解 Microsoft 團隊系統管理檔，包括如何推出及管理團隊，以及為團隊使用者做好準備。
+  title: Microsoft Teams 系統管理文件
+  description: 了解 Microsoft Teams 系統管理文件，包括如何推出和管理 Teams，並為您的使用者準備 Teams。
   ms.service: msteams
   ms.topic: hub-page
   audience: ITPro
@@ -15,28 +15,28 @@ metadata:
   ms.custom: seo-marvel-apr2020
   ms.openlocfilehash: 77c0310989bb8b6cb649afd4fa24c6f6bd641a18
   ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
-  ms.translationtype: MT
+  ms.translationtype: HT
   ms.contentlocale: zh-TW
   ms.lasthandoff: 04/27/2020
   ms.locfileid: "43905475"
 highlightedContent:
   items:
-  - title: COVID-19 回應-使用團隊支援遠端工作人員
+  - title: COVID-19 因應措施 - 使用 Teams 支援遠端工作者
     itemType: overview
     url: /MicrosoftTeams/support-remote-work-with-teams
   - title: 如何推出 Teams
     itemType: deploy
     url: /MicrosoftTeams/how-to-roll-out-teams
-  - title: 團隊中的安全性與合規性
+  - title: Teams 中的安全性與合規性
     itemType: overview
     url: /MicrosoftTeams/security-compliance-overview
-  - title: 為您和您的使用者尋找訓練
+  - title: 尋找適合您和使用者的訓練
     itemType: learn
     url: /MicrosoftTeams/training-microsoft-teams-landing-page
   - title: 從商務用 Skype 升級至 Teams
     itemType: how-to-guide
     url: /MicrosoftTeams/upgrade-start-here
-  - title: 採用中樞
+  - title: 採用中心
     itemType: get-started
     url: /MicrosoftTeams/adopt-microsoft-teams-landing-page
 additionalContent:
@@ -44,35 +44,35 @@ additionalContent:
   - items:
     - title: 熱門文章
       links:
-      - text: 為團隊準備您的網路
+      - text: 準備用於 Teams 的網路
         url: /MicrosoftTeams/prepare-network
-      - text: 使用顧問進行小組以協助您推出小組
+      - text: 使用 Teams 的建議程式協助您推出 Teams
         url: /MicrosoftTeams/use-advisor-teams-roll-out
-      - text: 團隊如何使用記憶體
+      - text: Teams 如何使用記憶體
         url: /MicrosoftTeams/teams-memory-usage-perf
-      - text: 與其他組織的使用者通訊（來賓/外部存取）
+      - text: 與其他組織的使用者通訊 (來賓/外部存取)
         url: /MicrosoftTeams/communicate-with-users-from-other-organizations
       - text: IT 架構海報和解決方案
         url: /MicrosoftTeams/teams-architecture-solutions-posters
-    - title: 使用團隊進行語音通話
+    - title: 使用 Teams 進行語音通話
       links:
-      - text: Microsoft 團隊中的雲端語音
+      - text: Microsoft Teams 的雲端語音
         url: /MicrosoftTeams/cloud-voice-landing-page
-      - text: Microsoft 365 Business Voice
+      - text: Microsoft 365 商務語音
         url: /MicrosoftTeams/business-voice/whats-business-voice
       - text: 電話系統直接路由
         url: /MicrosoftTeams/direct-routing-landing-page
       - text: 設定公共區域電話
         url: /MicrosoftTeams/set-up-common-area-phones
-    - title: 其他團隊內容
+    - title: 其他 Teams 內容
       links:
-      - text: 最終使用者的說明內容
+      - text: 使用者的說明內容
         url: https://support.office.com/Teams
       - text: Teams 技術社群
         url: https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams
-      - text: 團隊使用者意見反應論壇
+      - text: Teams 使用者意見反應論壇
         url: https://microsoftteams.uservoice.com/
-      - text: 小組產品資訊
+      - text: Teams 產品資訊
         url: https://products.office.com/microsoft-teams/group-chat-software
       - text: Teams 開發人員平台
         url: https://docs.microsoft.com/microsoftteams/platform/overview
