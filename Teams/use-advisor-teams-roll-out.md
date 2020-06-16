@@ -19,18 +19,18 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: 使用適用於 Teams 的建議程式 (公開預覽) 協助您規劃和完成您的 Microsoft Teams 部署。
-ms.openlocfilehash: bd893faa9a166b238a88f3865527bc38ef9bc6d3
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 5c7c0cad16c61b498da0693653979c26da4b219f
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637172"
+ms.locfileid: "44665255"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>使用 Advisor for Teams 協助您推出 Microsoft Teams
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-適用於 Teams 的建議程式 (公開預覽) 會引導您完成 Microsoft Teams 的推行。 在您成功推出 Teams 前，Advisor for Teams 會評估您的 Office 365 組織環境，找出可能需要更新或修改的最常用設定。 接著，Advisor for Teams 會建立部署團隊 (在 Teams 中)，並為您要推出的每個工作負載建立頻道。部署團隊中的每項工作負載隨附有全方位的 Planner 計劃，其中包含每個工作負載的所有推出工作。  您可以使用此 Planner 計劃，將工作指派給每個推廣階段的負責人，包括專案經理、Teams 和 Office 365 系統管理員、支援人員，以及您的採用和使用者整備團隊。 每項推廣工作都包含所有您成功完成工作所需的指引和資源。
+適用於 Teams 的建議程式 (公開預覽) 會引導您完成 Microsoft Teams 的推行。 它能評估您的Microsoft Office 365或 Microsoft Office 365組織環境，並指出您在成功推行 Microsoft Teams前可能需要更新或修改的最常用設定。 接著，Advisor for Teams 會建立部署團隊 (在 Teams 中)，並為您要推出的每個工作負載建立頻道。部署團隊中的每項工作負載隨附有全方位的 Planner 計劃，其中包含每個工作負載的所有推出工作。  透過此 Planner 計劃，您可以將工作指派給每個推廣階段的負責人，包括專案經理、Team 與 Microsoft 365 或  Office 365 系統管理員、支援人員，以及您的採用和使用者整備團隊。 每項推廣工作都包含所有您成功完成工作所需的指引和資源。
 
 Advisor for Teams 是 [Teams 系統管理中心](https://admin.teams.microsoft.com)的功能之一。 您至少會需要 Microsoft 365 商務基本版授權，才能運用 Advisor for Teams 和 Forms 與 Planner 的整合。 若要開始使用 Advisor for Teams，請在儀表板上按一下 **[部署 Teams 工作負載]** 小工具中的 **[啟動]** 按鈕。 或者前往**規劃** > **Teams 建議程式**。
 
@@ -89,7 +89,7 @@ Advisor for Teams 是 [Teams 系統管理中心](https://admin.teams.microsoft.c
 
 |評估測試  |代表意義  |
 |---------|---------|
-|已設定虛名網域     |您的租用戶是否有設定非 @onmicrosoft.com 的網域 (例如 @contoso.onmicrosoft.com)。 當然，您可以選擇使用 @onmicrosoft.com 網域或設定虛名網域。 如需詳細資訊，請參閱[新增網域至 Office 365](https://docs.microsoft.com/office365/admin/setup/add-domain)。 |
+|已設定虛名網域     |您的租用戶是否有設定非 @onmicrosoft.com 的網域 (例如 @contoso.onmicrosoft.com)。 當然，您可以選擇使用 @onmicrosoft.com 網域或設定虛名網域。 如需詳細資訊，請參閱[新增網域](https://docs.microsoft.com/office365/admin/setup/add-domain)。 |
 |Teams 授權     |這是必要條件，您**必須具有** Teams 授權才能推出 Teams。 查詢 Microsoft Graph，查看您是否具有 Teams 授權 (至少有一個授權可供指派)。 如需詳細資訊，請參閱 [Microsoft Teams 服務描述](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)。    |
 |Exchange Online 授權     |您的可用 Exchange Online 授權是否為有效訂閱。 雖然 Exchange 並非 Teams 基本功能的必要項目，但是與 Exchange 整合可以提供最佳的 Teams 體驗。 查詢 Microsoft Graph 以分析與租用戶相關聯的訂閱，並驗證您是否具有合格的 Exchange Online 授權訂閱 (至少有一個授權可供指派)。 如需詳細資訊，請參閱 [Exchange 和 Teams 如何互動](exchange-teams-interact.md)。    |
 |SharePoint Online 授權     |您的可用 SharePoint Online 授權是否為有效訂閱。 我們建議採用每位使用者 SharePoint Online 授權，以便在聊天中提供商務用 OneDrive 用於檔案儲存。 查詢 Microsoft Graph，查看您是否具有 SharePoint Online 授權 (至少有一個授權可供指派)。 如需詳細資訊，請參閱 [Sharepoint 和商務用 OneDrive 如何與 Teams 互動](https://docs.microsoft.com/microsoftteams/sharepoint-onedrive-interact)。    |
@@ -102,8 +102,8 @@ Advisor for Teams 是 [Teams 系統管理中心](https://admin.teams.microsoft.c
 
 |評估測試  |代表意義  |
 |---------|---------|
-|已設定 Microsoft 365 群組命名原則     |是否已針對 Microsoft 365 群組設定命名標準。 Microsoft 365 群組命名原則可讓貴組織為使用者建立的團隊套用一致的命名策略，也適用於其他群組工作負載 (包括 Outlook、SharePoint、Planner 和 Yammer)。 此測試會經由 Microsoft Graph 查詢 Azure AD，以檢查適用於 Microsoft 365 群組的命名原則是否存在。 如需詳細資訊，請參閱 [Microsoft 365 群組命名原則](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy)。    |
-|已設定 Microsoft 365 群組到期原則     |是否已為 Microsoft 365 群組定義群組到期原則。 這能讓貴組織自動移除非作用中的團隊。 預設為關閉。 此測試經由 Microsoft Graph 查詢 Azure AD，並報告是否已修改預設值。 如需詳細資訊，請參閱 [Microsoft 365 群組到期原則](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups-expiration-policy)。    |
+|Microsoft 365 群組命名原則已設定完成     |是否已針對 Microsoft 365 群組設定命名標準。 Microsoft 365 群組命名原則可讓貴組織為使用者建立的團隊套用一致的命名策略，也適用於其他群組工作負載 (包括 Outlook、SharePoint、Planner 和 Yammer)。 此測試會經由 Microsoft Graph 查詢 Azure AD，以檢查適用於 Microsoft 365 群組的命名原則是否存在。 如需詳細資訊，請參閱 [群組命名原則](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy)。    |
+|Microsoft 365 群組到期原則已設定完成。     |是否已為 Microsoft 365 群組定義群組到期原則。 這能讓貴組織自動移除非作用中的團隊。 預設為關閉。 此測試經由 Microsoft Graph 查詢 Azure AD，並報告是否已修改預設值。 如需詳細資訊，請參閱 [群組到期原則](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups-expiration-policy)。    |
 
 ### <a name="assessments-for-meetings-and-conferencing"></a>會議和研討會評估
 

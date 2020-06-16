@@ -18,17 +18,23 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b22bef34defe69edf4fe330e0afb0f0b93e5e8e6
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 0bd7c88a08dfdfa76ad560a56e524b7061d240f1
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638522"
+ms.locfileid: "44666275"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>開始使用 Microsoft Teams 進行遠端學習
 
+如需轉換至遠端學習和資源以協助您開始使用的概觀，請參閱我們的[遠端學習首頁](https://www.microsoft.com/education/remote-learning)。
+
+您可在[Microsoft Office 365 教育版中的遠端教學和學習](https://support.office.com/article/remote-teaching-and-learning-in-office-365-education-f651ccae-7b65-478b-8366-51bb884025c4)中取得協助教育人員和學生進行遠端學習的資源。
+
+本文涵蓋為您的教育機構設定遠端學習所需之實際操作步驟。
+
 > [!NOTE]
-> 本文是為教育機構設定遠端學習的絕佳資源。 如果您是授課者、教育主管或 IT 專業人員，這些資源可能會有所幫助：
+> 如果您是授課者、教育主管或 IT 專業人員，這些資源可能會有所幫助：
 >
 > - 您可以使用[**單頁入門**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true)，迅速建立整個教育機構的資料，並在 Teams 中執行。
 > - 下載[**如何開始使用 Teams**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Teams-for-Education-ITAdmin-get-started-guide.pptx?raw=true)：適用於 IT 專業人員的指南，其中包含有關安全性和變更管理的實用作法。
