@@ -1,8 +1,8 @@
 ---
 title: 執行 LyncPerfTool
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Run LyncPerfTool
@@ -12,12 +12,12 @@ ms:contentKeyID: 51541437
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3b4c7d7de6dcb2f2eee15e7da0809dd6e3c41e07
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 82df3ee8cfccb91aec4e284674ace72e23a202c4
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196076"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756864"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42196076"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="run-lyncperftool"></a><span data-ttu-id="7a3b1-102">執行 LyncPerfTool</span><span class="sxs-lookup"><span data-stu-id="7a3b1-102">Run LyncPerfTool</span></span>
+# <a name="run-lyncperftool"></a><span data-ttu-id="f3c4f-102">執行 LyncPerfTool</span><span class="sxs-lookup"><span data-stu-id="f3c4f-102">Run LyncPerfTool</span></span>
 
 </div>
 
@@ -35,38 +35,38 @@ ms.locfileid: "42196076"
 
 <span> </span>
 
-<span data-ttu-id="7a3b1-103">_**上次修改主題：** 2013年-02-24_</span><span class="sxs-lookup"><span data-stu-id="7a3b1-103">_**Topic Last Modified:** 2013-02-24_</span></span>
+<span data-ttu-id="f3c4f-103">_**主題上次修改日期：** 2013-02-24_</span><span class="sxs-lookup"><span data-stu-id="f3c4f-103">_**Topic Last Modified:** 2013-02-24_</span></span>
 
-<span data-ttu-id="7a3b1-104">在執行之前 [Lync Server 2013 壓力及效能工具 (LyncPerfTool.exe)，您必須建立使用者、 連絡人及案例。</span><span class="sxs-lookup"><span data-stu-id="7a3b1-104">Before running the Lync Server 2013 Stress and Performance Tool (LyncPerfTool.exe), you must create users, contacts, and scenarios.</span></span> <span data-ttu-id="7a3b1-105">如需使用工具來執行這些動作的詳細資訊，請參閱[建立使用者和連絡人](create-users-and-contacts.md)和[設定使用者設定檔](configure-user-profile.md)。</span><span class="sxs-lookup"><span data-stu-id="7a3b1-105">For details about using the tools to perform these actions, see [Create Users and Contacts](create-users-and-contacts.md) and [Configure User Profile](configure-user-profile.md).</span></span> <span data-ttu-id="7a3b1-106">執行這些工具也會產生檔案所用執行身分批次檔案的一部分的 LyncPerfTool.exe 包含必要參數。</span><span class="sxs-lookup"><span data-stu-id="7a3b1-106">Running these tools will also generate a file that will run LyncPerfTool.exe as part of a batch file with the required parameters included.</span></span>
+<span data-ttu-id="f3c4f-104">在執行 Lync Server 2013 壓力和效能工具（LyncPerfTool.exe）之前，您必須建立使用者、連絡人及案例。</span><span class="sxs-lookup"><span data-stu-id="f3c4f-104">Before running the Lync Server 2013 Stress and Performance Tool (LyncPerfTool.exe), you must create users, contacts, and scenarios.</span></span> <span data-ttu-id="f3c4f-105">如需使用工具來執行這些動作的詳細資訊，請參閱[建立使用者和連絡人](create-users-and-contacts.md)及[設定使用者設定檔](configure-user-profile.md)。</span><span class="sxs-lookup"><span data-stu-id="f3c4f-105">For details about using the tools to perform these actions, see [Create Users and Contacts](create-users-and-contacts.md) and [Configure User Profile](configure-user-profile.md).</span></span> <span data-ttu-id="f3c4f-106">執行這些工具也會產生檔案，該檔案會在批次檔案中執行 LyncPerfTool.exe，並包含必要的參數。</span><span class="sxs-lookup"><span data-stu-id="f3c4f-106">Running these tools will also generate a file that will run LyncPerfTool.exe as part of a batch file with the required parameters included.</span></span>
 
 <div>
 
-## <a name="running-the-lync-server-2013-stress-and-performance-tool"></a><span data-ttu-id="7a3b1-107">執行 Lync Server 2013 壓力及效能工具</span><span class="sxs-lookup"><span data-stu-id="7a3b1-107">Running the Lync Server 2013 Stress and Performance Tool</span></span>
+## <a name="running-the-lync-server-2013-stress-and-performance-tool"></a><span data-ttu-id="f3c4f-107">執行 Lync Server 2013 壓力和效能工具</span><span class="sxs-lookup"><span data-stu-id="f3c4f-107">Running the Lync Server 2013 Stress and Performance Tool</span></span>
 
-<span data-ttu-id="7a3b1-108">UserProfileGenerator.exe 工具建立批次檔案，可讓您執行 LyncPerfTool.exe 註冊 LyncPerfTool 效能計數器和載入 XML 組態檔。</span><span class="sxs-lookup"><span data-stu-id="7a3b1-108">The UserProfileGenerator.exe tool creates a batch file that enables you to run LyncPerfTool.exe by registering the LyncPerfTool performance counters and loading the XML configuration file.</span></span> <span data-ttu-id="7a3b1-109">批次檔案執行每個設定檔 LyncPerfTool.exe 一個執行個體。</span><span class="sxs-lookup"><span data-stu-id="7a3b1-109">The batch file runs one instance of LyncPerfTool.exe per configuration file.</span></span> <span data-ttu-id="7a3b1-110">若要執行的批次檔案，請執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="7a3b1-110">To run the batch file, do the following:</span></span>
+<span data-ttu-id="f3c4f-108">UserProfileGenerator.exe 工具會建立批次處理檔案，可讓您註冊 LyncPerfTool 效能計數器及載入 XML 設定檔，以執行 LyncPerfTool.exe。</span><span class="sxs-lookup"><span data-stu-id="f3c4f-108">The UserProfileGenerator.exe tool creates a batch file that enables you to run LyncPerfTool.exe by registering the LyncPerfTool performance counters and loading the XML configuration file.</span></span> <span data-ttu-id="f3c4f-109">批次檔案會針對每個設定檔執行 LyncPerfTool.exe 的一個實例。</span><span class="sxs-lookup"><span data-stu-id="f3c4f-109">The batch file runs one instance of LyncPerfTool.exe per configuration file.</span></span> <span data-ttu-id="f3c4f-110">若要執行批次檔，請執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="f3c4f-110">To run the batch file, do the following:</span></span>
 
-1.  <span data-ttu-id="7a3b1-111">複製資料夾包含的設定資料夾和檔案至 LyncStressTool.exe 包含每個用戶端電腦的目錄。</span><span class="sxs-lookup"><span data-stu-id="7a3b1-111">Copy the folder that contains the configuration folders and files to the directory that contains LyncStressTool.exe on each client computer.</span></span> <span data-ttu-id="7a3b1-112">(例如，如果名為 1.28 資料夾中產生的組態檔\_13.16.16，將該資料夾複製到包含 LyncPerfTool.exe 每個用戶端的資料夾。)</span><span class="sxs-lookup"><span data-stu-id="7a3b1-112">(For example, if you generated the configuration files in the folder named 1.28\_13.16.16, copy that folder to the folder that contains LyncPerfTool.exe on each client.)</span></span>
+1.  <span data-ttu-id="f3c4f-111">將包含設定資料夾和檔案的資料夾，複製到每一部用戶端電腦上包含 LyncStressTool.exe 的目錄。</span><span class="sxs-lookup"><span data-stu-id="f3c4f-111">Copy the folder that contains the configuration folders and files to the directory that contains LyncStressTool.exe on each client computer.</span></span> <span data-ttu-id="f3c4f-112">（例如，如果您在名為 1.28 13.16.16 的資料夾中產生設定檔 \_ ，請將該資料夾複製到每個用戶端上包含 LyncPerfTool.exe 的資料夾中。）</span><span class="sxs-lookup"><span data-stu-id="f3c4f-112">(For example, if you generated the configuration files in the folder named 1.28\_13.16.16, copy that folder to the folder that contains LyncPerfTool.exe on each client.)</span></span>
 
-2.  <span data-ttu-id="7a3b1-113">瀏覽至適當編號的用戶端資料夾並執行 RunClient 批次指令碼。</span><span class="sxs-lookup"><span data-stu-id="7a3b1-113">Navigate to the appropriately numbered client folder and run the RunClient batch script.</span></span> <span data-ttu-id="7a3b1-114">您可以只連按兩下 [Windows 檔案總管] 中的批次檔案，它會執行所有的組態檔，該用戶端數目。</span><span class="sxs-lookup"><span data-stu-id="7a3b1-114">You can simply double-click the batch file in Windows Explorer and it will run all of the configuration files for that client number.</span></span> <span data-ttu-id="7a3b1-115">您也可以從適當的用戶端資料夾執行指令碼，使用下列語法：</span><span class="sxs-lookup"><span data-stu-id="7a3b1-115">You can also run the script from the appropriate client folder by using the following syntax:</span></span>
+2.  <span data-ttu-id="f3c4f-113">流覽至正確編號的用戶端資料夾，並執行 RunClient 批次腳本。</span><span class="sxs-lookup"><span data-stu-id="f3c4f-113">Navigate to the appropriately numbered client folder and run the RunClient batch script.</span></span> <span data-ttu-id="f3c4f-114">您只要按兩下 [Windows Explorer] 中的批次處理檔案，它就會執行該用戶端號碼的所有設定檔案。</span><span class="sxs-lookup"><span data-stu-id="f3c4f-114">You can simply double-click the batch file in Windows Explorer and it will run all of the configuration files for that client number.</span></span> <span data-ttu-id="f3c4f-115">您也可以使用下列語法，從適當的用戶端資料夾執行腳本：</span><span class="sxs-lookup"><span data-stu-id="f3c4f-115">You can also run the script from the appropriate client folder by using the following syntax:</span></span>
 
     ```Batch
         RunClient0.bat "C:\Program Files\Microsoft Lync Server 2013\LyncStressAndPerfTool\LyncStress" 
     ```
-<span data-ttu-id="7a3b1-116">若要直接執行 LyncPerfTool.exe，開啟命令提示字元，則請在命令列輸入下列命令 (當第一次這麼做，請務必將註冊為稍後此 topic):LyncPerfTool.exe /file 附註中顯示的效能計數器 regsvr32 /i /n /s LyncPerfToolPerf.dll，：\<configXML\></span><span class="sxs-lookup"><span data-stu-id="7a3b1-116">To run LyncPerfTool.exe directly, open a command prompt, and then type the following command at the command line (when doing this for the first time, be sure to register the performance counters regsvr32 /i /n /s LyncPerfToolPerf.dll, as show in the note later in this topic):LyncPerfTool.exe /file:\<configXML\></span></span>
+<span data-ttu-id="f3c4f-116">若要直接執行 LyncPerfTool.exe，請開啟命令提示字元，然後在命令列中輸入下列命令（在第一次執行這項時，請務必註冊效能計數器 regsvr32/i/n/s LyncPerfToolPerf.dll，如本主題稍後的附注所示） :LyncPerfTool.exe/file：\<configXML\></span><span class="sxs-lookup"><span data-stu-id="f3c4f-116">To run LyncPerfTool.exe directly, open a command prompt, and then type the following command at the command line (when doing this for the first time, be sure to register the performance counters regsvr32 /i /n /s LyncPerfToolPerf.dll, as show in the note later in this topic):LyncPerfTool.exe /file:\<configXML\></span></span>
 ```Powershell
     LyncPerfTool.exe /file:IM_client0.xml
 ```
-<span data-ttu-id="7a3b1-117">若要有工具顯示設定檔案中的值會包含 /displayfile 參數在上述命令，就像這樣：</span><span class="sxs-lookup"><span data-stu-id="7a3b1-117">To have the tool display the values in the configuration file, include the /displayfile parameter on the preceding command, like this:</span></span>
+<span data-ttu-id="f3c4f-117">若要讓工具在設定檔中顯示值，請在前述命令上加入/displayfile 參數，如下所示：</span><span class="sxs-lookup"><span data-stu-id="f3c4f-117">To have the tool display the values in the configuration file, include the /displayfile parameter on the preceding command, like this:</span></span>
 ```Powershell
     LyncPerfTool.exe /file:IM_client0.xml /displayfile
 ```
-<span data-ttu-id="7a3b1-118">若要結束程序，請按 Ctrl + C。</span><span class="sxs-lookup"><span data-stu-id="7a3b1-118">To end the process, press Ctrl+C.</span></span>
+<span data-ttu-id="f3c4f-118">若要結束進程，請按 Ctrl+C。</span><span class="sxs-lookup"><span data-stu-id="f3c4f-118">To end the process, press Ctrl+C.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="7a3b1-119">在執行之前 LyncPerfTool 直接，您必須註冊的效能計數器。</span><span class="sxs-lookup"><span data-stu-id="7a3b1-119">Before running LyncPerfTool directly, you must register the performance counters.</span></span> <span data-ttu-id="7a3b1-120">輸入下列命令，以登錄效能計數器：</span><span class="sxs-lookup"><span data-stu-id="7a3b1-120">Enter the following command to register performance counters:</span></span>
+> <span data-ttu-id="f3c4f-119">在直接執行 LyncPerfTool 之前，必須先註冊效能計數器。</span><span class="sxs-lookup"><span data-stu-id="f3c4f-119">Before running LyncPerfTool directly, you must register the performance counters.</span></span> <span data-ttu-id="f3c4f-120">輸入下列命令以註冊效能計數器：</span><span class="sxs-lookup"><span data-stu-id="f3c4f-120">Enter the following command to register performance counters:</span></span>
 
 
 
@@ -79,7 +79,7 @@ ms.locfileid: "42196076"
 
 
 > [!NOTE]  
-> <span data-ttu-id="7a3b1-121">每個執行個體開始的 LyncPerfTool.exe 會立即啟動登入使用者，通常是一位使用者每秒的速率。</span><span class="sxs-lookup"><span data-stu-id="7a3b1-121">Every instance of LyncPerfTool.exe that you start will immediately start signing in users, usually at a rate of one user per second.</span></span> <span data-ttu-id="7a3b1-122">尖峰使用者登入率的集區是大約每秒的 12。</span><span class="sxs-lookup"><span data-stu-id="7a3b1-122">The peak user sign-in rate for the pool is about 12 per second.</span></span> <span data-ttu-id="7a3b1-123">這表示，您應該不啟動超過 12 個 LyncPerfTool 執行個體同時，雖然使用者仍登入。</span><span class="sxs-lookup"><span data-stu-id="7a3b1-123">This means that you should not start more than 12 LyncPerfTool instances at the same time, while the users are still signing in.</span></span> <span data-ttu-id="7a3b1-124">1000 個使用者將會完全在一秒登入，需要約 20 分鐘。</span><span class="sxs-lookup"><span data-stu-id="7a3b1-124">1000 users will take about 20 minutes to fully sign in, at one per second.</span></span>
+> <span data-ttu-id="f3c4f-121">您啟動的每個 LyncPerfTool.exe 實例都會立即開始登入使用者，通常會以每秒一個使用者的速率來進行簽署。</span><span class="sxs-lookup"><span data-stu-id="f3c4f-121">Every instance of LyncPerfTool.exe that you start will immediately start signing in users, usually at a rate of one user per second.</span></span> <span data-ttu-id="f3c4f-122">集區的最高使用者登入率，每秒大約12個。</span><span class="sxs-lookup"><span data-stu-id="f3c4f-122">The peak user sign-in rate for the pool is about 12 per second.</span></span> <span data-ttu-id="f3c4f-123">這表示您不應該同時啟動超過12個 LyncPerfTool 實例，而使用者仍在登入。</span><span class="sxs-lookup"><span data-stu-id="f3c4f-123">This means that you should not start more than 12 LyncPerfTool instances at the same time, while the users are still signing in.</span></span> <span data-ttu-id="f3c4f-124">1000使用者大約需要20分鐘的時間來完全登入（每秒一個）。</span><span class="sxs-lookup"><span data-stu-id="f3c4f-124">1000 users will take about 20 minutes to fully sign in, at one per second.</span></span>
 
 
 
@@ -89,11 +89,11 @@ ms.locfileid: "42196076"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="7a3b1-125">另請參閱</span><span class="sxs-lookup"><span data-stu-id="7a3b1-125">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f3c4f-125">另請參閱</span><span class="sxs-lookup"><span data-stu-id="f3c4f-125">See Also</span></span>
 
 
-[<span data-ttu-id="7a3b1-126">建立使用者和連絡人</span><span class="sxs-lookup"><span data-stu-id="7a3b1-126">Create Users and Contacts</span></span>](create-users-and-contacts.md)  
-[<span data-ttu-id="7a3b1-127">設定使用者設定檔</span><span class="sxs-lookup"><span data-stu-id="7a3b1-127">Configure User Profile</span></span>](configure-user-profile.md)  
+[<span data-ttu-id="f3c4f-126">建立使用者和連絡人</span><span class="sxs-lookup"><span data-stu-id="f3c4f-126">Create Users and Contacts</span></span>](create-users-and-contacts.md)  
+[<span data-ttu-id="f3c4f-127">設定使用者設定檔</span><span class="sxs-lookup"><span data-stu-id="f3c4f-127">Configure User Profile</span></span>](configure-user-profile.md)  
   
 
 </div>
