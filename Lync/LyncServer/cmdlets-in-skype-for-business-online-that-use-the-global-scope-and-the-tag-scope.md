@@ -1,8 +1,8 @@
 ---
-title: Skype 商務 Online 中使用全域範圍和標籤範圍的指令程式
+title: 使用全域範圍及標記範圍的商務用 Skype Online 中的 Cmdlet
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -13,65 +13,65 @@ ms:contentKeyID: 56558824
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 998201bf7772003c83ae27d56b3a238f9f0ca055
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c8063334f2cea6fcca768754197bacbd30869461
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42001148"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755073"
 ---
-# <a name="cmdlets-in-skype-for-business-online-that-use-the-global-scope-and-the-tag-scope"></a>Skype 商務 Online 中使用全域範圍和標籤範圍的指令程式
+# <a name="cmdlets-in-skype-for-business-online-that-use-the-global-scope-and-the-tag-scope"></a>使用全域範圍及標記範圍的商務用 Skype Online 中的 Cmdlet
 
  
 
 
-Skype for Business Online，在*全域範圍*任一或*標記範圍*（或*個別使用者範圍*） 可以設定原則。 使用**Get-Cs** cmdlet 時，您不必指定範圍或身分識別。 如果您呼叫下列其中一個這些 cmdlet 不含任何參數，則會傳回所有相關的項目。 例如，此命令會傳回您所有外部存取原則的相關資訊：
+在商務用 Skype Online 中，原則可以設定為*全域範圍*或*標記範圍*（或個別*使用者範圍*）。 使用**Cs** Cmdlet 時，您不需要指定範圍或身分識別。 如果您呼叫其中一個不含任何參數的 Cmdlet，將會傳回所有相關的專案。 例如，下列命令會傳回所有外部存取原則的相關資訊：
 
     Get-CsExternalAccessPolicy
 
-您必須包含只使用 Identity 參數或 Filter 參數，如果您想要限制傳回的資料。 例如，若要傳回全域原則，請使用此命令：
+如果您想要限制傳回的資料，您只需要包含 Identity 參數或 Filter 參數。 例如，若只要傳回全域原則，請使用此命令：
 
     Get-CsExternalAccessPolicy -Identity "global"
 
-若要傳回 identity 為"redmondaccesspolicy 指派 「 每一使用者原則，請使用此命令：
+若要傳回身分識別為 "RedmondAccessPolicy" 的個別使用者原則，請使用下列命令：
 
     Get-CsExternalAccessPolicy -Identity "RedmondAccessPolicy"
 
 
 > [!NOTE]  
-> 參照的每一使用者原則時, 是選用的標記<STRONG>前置詞</STRONG>。 此語法，其中包含前置詞，也是有效的：<BR>Get-csexternalaccesspolicy – Identity"tag: redmondaccesspolicy 指派 」
+> 參照個別使用者原則時，標記<STRONG>首碼</STRONG>是選用的。 這種包含首碼的語法也是有效的：<BR>Get-CsExternalAccessPolicy –身分識別 "tag： RedmondAccessPolicy"
 
 
 
-若要傳回的全域原則 （也就是所有個別使用者原則） 以外的所有原則，請使用此命令：
+若要傳回除全域原則以外的所有原則（也就是說，所有的個別使用者原則），請使用下列命令：
 
     Get-CsExternalAccessPolicy -Filter "tag:*"
 
-針對全域範圍和每個使用者 （標記） 範圍操作的下列 cmdlet:
+下列 Cmdlet 同時針對全域範圍和個別使用者（標記）範圍執行：
 
-  - [Get-csclientpolicy](https://technet.microsoft.com/library/gg398830\(v=ocs.15\))
+  - [Get-CsClientPolicy](https://technet.microsoft.com/library/gg398830\(v=ocs.15\))
 
-  - [Get-csconferencingpolicy](https://technet.microsoft.com/library/gg398293\(v=ocs.15\))
+  - [Get-CsConferencingPolicy](https://technet.microsoft.com/library/gg398293\(v=ocs.15\))
 
-  - [Get-csdialplan](https://technet.microsoft.com/library/gg413043\(v=ocs.15\))
+  - [Get-CsDialPlan](https://technet.microsoft.com/library/gg413043\(v=ocs.15\))
 
-  - [Get-csexternalaccesspolicy](https://technet.microsoft.com/library/gg425805\(v=ocs.15\))
+  - [Get-CsExternalAccessPolicy](https://technet.microsoft.com/library/gg425805\(v=ocs.15\))
 
-  - [Get-cshostedvoicemailpolicy](https://technet.microsoft.com/library/gg398348\(v=ocs.15\))
+  - [Get-CsHostedVoicemailPolicy](https://technet.microsoft.com/library/gg398348\(v=ocs.15\))
 
-  - [Get-cspresencepolicy](https://technet.microsoft.com/library/gg398463\(v=ocs.15\))
+  - [Get-CsPresencePolicy](https://technet.microsoft.com/library/gg398463\(v=ocs.15\))
 
-  - [Get-csvoicepolicy](https://technet.microsoft.com/library/gg398101\(v=ocs.15\))
+  - [Get-CsVoicePolicy](https://technet.microsoft.com/library/gg398101\(v=ocs.15\))
 
 
 > [!NOTE]  
-> 儘管名稱為，撥號對應表是，具有相同的作用來說，原則。 <EM>撥號對應表</EM>的字詞會使用而不是，例如撥號原則，才能保留與舊版的 Lync Server 搭配使用的術語。
+> 不論名稱為何，撥號對應表都是以功能為依據的原則。 使用<EM>撥號</EM>對應表代替（例如，撥號原則）以保留舊版 Lync Server 所使用的詞彙。
 
 
 
 ## <a name="see-also"></a>另請參閱
 
 
-[身分識別、 範圍與 skype for Business Online 租用戶](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-[Skype 商務 Online cmdlet](https://technet.microsoft.com/library/dn362817\(v=ocs.15\))
+[商務用 Skype Online 中的身分識別、範圍和承租人](identities-scopes-and-tenants-in-skype-for-business-online.md)  
+[商務用 Skype Online Cmdlet](https://technet.microsoft.com/library/dn362817\(v=ocs.15\))
 

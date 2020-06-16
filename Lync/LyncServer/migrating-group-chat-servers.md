@@ -1,8 +1,8 @@
 ---
-title: 移轉群組聊天伺服器
+title: 遷移群組聊天伺服器
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Migrating Group Chat servers
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733609
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: caa2ab88294ec18f3a40e6619d4bb81776ab139a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ae1105d20314e3133458ac404549337c7ee3c3db
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190106"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755293"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42190106"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migrating-group-chat-servers"></a>移轉群組聊天伺服器
+# <a name="migrating-group-chat-servers"></a>遷移群組聊天伺服器
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "42190106"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-29_
+_**主題上次修改日期：** 2012-09-29_
 
-如果您在舊版 Lync Server 2010 環境中部署群組聊天伺服器，您必須部署 Lync Server 2013 常設聊天室伺服器。 Group Chat 伺服器和 Persistent Chat Server 可以共存，但這些伺服器不會共用內容 （例如，聊天室等）。 若要從 Persistent Chat Server 存取舊版 Group Chat 伺服器內容，您必須將 Group Chat 伺服器移轉至 Persistent Chat Server。 如需移轉至 Persistent Chat Server 的詳細資訊，請參閱移轉文件中的[Migration from Lync Server 2010，Group Chat 或 Office Communications Server 2007 R2 Group Chat to Lync Server 2013，Persistent Chat Server](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md) 。
+如果您已在舊版 Lync Server 2010 環境中部署群組聊天伺服器，則必須部署 Lync Server 2013 Persistent Chat Server。 Group Chat Server 和 Persistent Chat Server 可以共存，但是內容（例如，聊天室等）不會在這些伺服器間共用。 若要從 Persistent Chat Server 存取舊版群組聊天伺服器內容，您必須將群組聊天伺服器遷移至 Persistent Chat Server。 如需遷移至 Persistent Chat Server 的詳細資訊，請參閱遷移檔中的[從 Lync server 2010、群組聊天或 Office 通訊伺服器 2007 R2 Group chat To Lync server 2013，Persistent Chat server](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md) 。
 
 </div>
 

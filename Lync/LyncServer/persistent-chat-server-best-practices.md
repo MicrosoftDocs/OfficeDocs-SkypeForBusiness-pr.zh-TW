@@ -1,8 +1,8 @@
 ---
-title: 常設聊天室伺服器最佳作法
+title: Persistent Chat Server 最佳作法
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Persistent Chat Server best practices
@@ -12,12 +12,12 @@ ms:contentKeyID: 48185612
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b613e3ce5c70b9bad7de2ef821d1e0f41e27b956
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ebe9742b76ec6abfd7b7407f38edda937bdf6ecc
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189776"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44751195"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42189776"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="persistent-chat-server-best-practices"></a>常設聊天室伺服器最佳作法
+# <a name="persistent-chat-server-best-practices"></a>Persistent Chat Server 最佳作法
 
 </div>
 
@@ -35,26 +35,26 @@ ms.locfileid: "42189776"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-06_
+_**主題上次修改日期：** 2012-10-06_
 
-當您建立類別和常設聊天室並且設計範圍與成員資格時，下列秘訣可協助您規劃：
+當您建立類別和持續聊天室並設計範圍和成員資格時，下列秘訣可協助您進行規劃：
 
-  - 如果貴公司不需要道德管束，不會逐漸類別樹狀目錄中的範圍。 置於一個類別的範圍中的所有使用者，並建立該類別中的所有聊天室。 接下來，使用僅限成員資格清單來授與或限制每個聊天室的存取。
+  - 如果您的公司不需要道德的留言板，請勿縮小類別樹狀目錄中的範圍。 將所有使用者放在一個類別的範圍中，並在該類別中建立所有聊天室。 接著，只使用成員資格清單，授與或限制每個聊天室的存取權。
 
-  - 在大多數情況下，您應讓使用者能夠建立新聊天室，以便關於新主題的討論區可以啟動隨時。 執行此動作，以列出**AllowedMembers**清單相同的**建立者**。 不過，如果您想要允許只有中央支援小組或指定要建立之聊天室的使用者，然後進行**Creators**清單為適當的子集。
+  - 在大多數情況下，您應該讓使用者能夠建立新的聊天室，以便在任何時間開始有關新主題的討論。 讓建立**者**清單與**AllowedMembers**清單相同。 不過，如果您只想要讓中央支援小組或指定的使用者建立聊天室，請將建立**者**清單當做適當的子集。
 
-  - 授與每個聊天室的完整名稱和說明，摘要說明其中它的方式符合您的組織。 因為使用者無法查看的類別名稱，在使用聊天室時，您無法仰賴以協助使用者決定預定的討論論壇聊天室的類別名稱。
+  - 提供每個聊天室的完整名稱和描述摘要，說明組織中適合的位置。 由於使用者在使用聊天室時看不到其類別名稱，因此您無法依賴類別名稱來協助使用者決定聊天室的預定討論論壇。
 
-  - 您可能想要有自訂聊天室建立工作流程，如果您有特定的命名慣例或其他的存取控制或實作驗證。 常設聊天室組態可讓您自訂**RoomManagementUrl**成您主控。 例如，當使用者按一下其 Lync 用戶端中**建立會議室**，他們可以重新導向至您的自訂解決方案。
+  - 如果您有某些命名慣例或其他的存取控制或驗證實施，您可能想要建立自訂聊天室建立工作流程。 Persistent Chat 設定可讓您自訂**RoomManagementUrl**為您裝載的內容。 例如，當使用者按一下其 Lync 用戶端中**的 [建立會議室**] 時，即可將其重新導向至您的自訂解決方案。
 
-  - 建立各種不同的增益集，以將文字方塊帶到聊天室其他商務資料中增強的聊天室的經驗。 系統管理員必須註冊他們想要允許系統中的增益集。 聊天室管理員及建立者可以選擇從允許的增益集至其各自的會議室最相關的清單。
+  - 建立各種增益集，協助您在聊天室中引入其他商務資料，以加強聊天室的體驗。 管理員必須在系統中註冊他們想要允許的增益集。 聊天室管理員和建立者可以從與其各自的聊天室最相關的現有增益集清單中選擇。
 
 <div>
 
 ## <a name="see-also"></a>另請參閱
 
 
-[管理類別、 聊天室及 Lync Server 2013 中增益集](lync-server-2013-managing-categories-rooms-and-add-ins.md)  
+[在 Lync Server 2013 中管理類別、聊天室及增益集](lync-server-2013-managing-categories-rooms-and-add-ins.md)  
   
 
 </div>

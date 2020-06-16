@@ -1,8 +1,8 @@
 ---
-title: 套用 Office Communications Server 2007 R2 更新
+title: 套用 Office 通訊伺服器 2007 R2 更新
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -13,12 +13,12 @@ ms:contentKeyID: 48185546
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0a8760dbf812aab3a4ea85a960a56926b75877df
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 14b792188537098bc46ce3e37871f554ca37a97c
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181166"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755145"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -26,7 +26,7 @@ ms.locfileid: "42181166"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="apply-office-communications-server-2007-r2-updates"></a>套用 Office Communications Server 2007 R2 更新
+# <a name="apply-office-communications-server-2007-r2-updates"></a>套用 Office 通訊伺服器 2007 R2 更新
 
 </div>
 
@@ -36,11 +36,11 @@ ms.locfileid: "42181166"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-19_
+_**主題上次修改日期：** 2012-10-19_
 
-您要移轉到 Lync Server 2013 之前，必須套用更新至 Office Communications Server 2007 R2 環境。 關於 Office Communications Server 2007 R2 最新的資訊，請參閱**更新** **Communications Server 2007 R2**在[https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=968802](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=968802)。
+將更新遷移至 Lync Server 2013 之前，必須先將更新套用至您的 Office 通訊伺服器 2007 R2 環境。 如需有關 Office 通訊伺服器 2007 R2 的最新資訊，請參閱**更新****通訊伺服器 2007 R2** at [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=968802](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=968802) 。
 
-若要安裝 Office Communications Server 2007 R2 更新，建議您遵循 Microsoft 知識庫文章 968802，」 更新的 Communications Server 2007 R2，」 所述的**方法 1 累計伺服器更新安裝程式**程序在[https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=968802](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=968802)。
+若要安裝 Office 通訊伺服器 2007 R2 的更新，建議您遵循 Microsoft 知識庫文章968802的「通訊伺服器 2007 R2 更新」中所述的**方法1累計伺服器更新安裝程式程式** [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=968802](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=968802) 。
 
 </div>
 

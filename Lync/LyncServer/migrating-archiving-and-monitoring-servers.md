@@ -1,8 +1,8 @@
 ---
 title: 移轉封存和監控伺服器
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Migrating Archiving and Monitoring servers
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184550
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4edd989985c4ed65027ed8d19725ec1f93c2bdc4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ba86de15ea86844b677db1abb0f47f7e1995c7e8
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190096"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755303"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,28 +35,28 @@ ms.locfileid: "42190096"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-02_
+_**主題上次修改日期：** 2012-10-02_
 
-如果您在 Lync Server 2010 環境中部署封存伺服器及監控伺服器，您可以在移轉您的前端集區後部署 [Lync Server 2013 環境上的這些伺服器。 如果貴組織的關鍵封存和監控功能，不過，您應該新增封存和監控至 Lync Server 2013 試驗集區，以便在遷移過程中功能可供使用移轉之前。
+如果您已在 Lync Server 2010 環境中部署封存伺服器和監控伺服器，您可以在遷移前端集區之後，在 Lync Server 2013 環境中部署這些伺服器。 不過，如果封存和監控功能對您的組織而言很重要，您應該在遷移之前，先在 Lync Server 2013 試驗集區中新增封存和監控功能，以便在遷移程式期間使用該功能。
 
 移轉過程中，如果您需要存封和監控功能，請記住以下注意事項：
 
-  - 封存資料和監控資料不會移至 Lync Server 2013 部署中。 您解除委任舊版環境之前所備份的資料，將會是您在 Lync Server 2010 環境中的活動歷程記錄。
+  - 封存資料和監控資料不會移至 Lync Server 2013 部署。 您解除委任舊版環境之前所備份的資料，將會是您在 Lync Server 2010 環境中的活動歷程記錄。
 
-  - 封存伺服器及監控伺服器的 Lync Server 2010 版本可以只與 Lync Server 2010 前端集區相關聯。 在 Lync Server 2013 中，封存和監控不再伺服器角色，但服務整合到 Lync Server 2013 前端集區。
+  - Lync Server 2010 版本的封存伺服器和監控伺服器只能與 Lync Server 2010 前端集區相關聯。 在 Lync Server 2013 中，封存與監控不再是伺服器角色，但已整合至 Lync Server 2013 前端集區的服務。
 
-  - 在您的舊版和 Lync Server 2013 部署共存期間，封存伺服器及監控伺服器的 Lync Server 2010 版本會收集使用者的資料位於 Lync Server 2010 集區。 封存和監控 Lync Server 2013 中的收集使用者的資料位於 Lync Server 2013 集區。
+  - 在舊版和 Lync Server 2013 部署共存期間，您的封存伺服器和監控伺服器的 Lync Server 2010 版本會為位於 Lync Server 2010 集區的使用者收集資料。 Lync Server 2013 中的封存與監控會收集位於 Lync Server 2013 集區之使用者的資料。
     
     <div>
     
 
     > [!NOTE]  
-    > 移轉時仍使用舊版 Edge server 與試驗集區，Lync Server 2010 版本的封存伺服器將持續收集使用者的資料位於 Lync Server 2010 集區新 Lync Server 2013 和 Lync Server 2013 中的封存的階段蒐集使用者的資料位於 Lync Server 2013 集區。
+    > 在遷移階段，當您仍然使用舊版 Edge server 與新的 Lync Server 2013 試驗集區時，Lync server 2010 版本的封存伺服器會繼續為位於 lync server 2010 集區中的使用者收集資料，而在 Lync 2013 Server 中封存會收集位於 Lync Server 2013 集區之使用者的資料。
 
     
     </div>
 
-  - 如果您使用第三方封存與監控解決方案搭配封存和監控 Lync Server 2013 中的，請洽詢您的廠商需何時和如何需要與 Lync Server 2013 整合的協力廠商解決方案。
+  - 如果您使用協力廠商的封存及監控解決方案搭配 Lync Server 2013 中的封存與監控，請洽詢廠商，以瞭解如何在何時和如何將協力廠商解決方案與 Lync Server 2013 整合。
 
 </div>
 

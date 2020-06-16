@@ -1,8 +1,8 @@
 ---
-title: Skype 商務 Online 中使用的會議提供者身分識別的指令程式
+title: 使用會議提供者身分識別的商務用 Skype Online 中的 Cmdlet
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -13,33 +13,33 @@ ms:contentKeyID: 56558858
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e0ae3167b1cb6c83b46e4f9d4846e8863b43515d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: accaad94f5e29863ac948ea64d061d23b811105f
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42001718"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755125"
 ---
-# <a name="cmdlets-in-skype-for-business-online-that-use-a-conferencing-provider-identity"></a>Skype 商務 Online 中使用的會議提供者身分識別的指令程式
+# <a name="cmdlets-in-skype-for-business-online-that-use-a-conferencing-provider-identity"></a>使用會議提供者身分識別的商務用 Skype Online 中的 Cmdlet
 
  
 
 
-若要傳回所有您的組織具有收起與音訊會議提供者的相關資訊，您可以只是呼叫不含任何參數的[Get-CsAudioConferencingProvider](https://technet.microsoft.com/library/jj994030\(v=ocs.15\))指令程式：
+若要傳回您的組織已簽約之所有音訊會議提供者的相關資訊，您可以直接呼叫[test-csaudioconferencingprovider](https://technet.microsoft.com/library/jj994030\(v=ocs.15\)) Cmdlet，而不需任何參數：
 
     Get-CsAudioConferencingProvider
 
-如果您想要限制 （在此範例中，提供者 Contoso 音訊服務） 的單一提供者傳回的資料，請使用 Identity 參數：
+如果您想要將傳回的資料限制為單一提供者（在此範例中為提供者 Contoso 音訊服務），請使用 Identity 參數：
 
     Get-CsAudioConferencingProvider -Identity "Contoso Audio Services"
 
-沒有只有一個 Skype for Business Online 接受音訊會議提供者識別碼的指令程式：
+只有一個可接受音訊會議提供者的商務用 Skype Online Cmdlet ID:
 
-  - [取得 CsAudioConferencingProvider](https://technet.microsoft.com/library/jj994030\(v=ocs.15\))
+  - [Test-csaudioconferencingprovider](https://technet.microsoft.com/library/jj994030\(v=ocs.15\))
 
 ## <a name="see-also"></a>另請參閱
 
 
-[身分識別、 範圍與 skype for Business Online 租用戶](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-[Skype 商務 Online cmdlet](https://technet.microsoft.com/library/dn362817\(v=ocs.15\))
+[商務用 Skype Online 中的身分識別、範圍和承租人](identities-scopes-and-tenants-in-skype-for-business-online.md)  
+[商務用 Skype Online Cmdlet](https://technet.microsoft.com/library/dn362817\(v=ocs.15\))
 

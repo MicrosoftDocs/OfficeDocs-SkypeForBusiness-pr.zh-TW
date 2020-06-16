@@ -1,8 +1,8 @@
 ---
-title: 使用 Windows PowerShell cmdlet 設定常設聊天室伺服器
+title: 使用 Windows PowerShell Cmdlet 設定 Persistent Chat Server
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Configuring Persistent Chat Server by using Windows PowerShell cmdlets
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184089
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8a5e31494cbea5c622d89d82eb1da63e231d9fd6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 87fcd7a5af75d5a98765f6a39d793e5a28b03718
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180596"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44754451"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42180596"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell cmdlet 設定常設聊天室伺服器
+# <a name="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 設定 Persistent Chat Server
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "42180596"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-06_
+_**主題上次修改日期：** 2012-10-06_
 
-使用下列 Windows PowerShell cmdlet 設定 Lync Server 2013，Persistent Chat Server 內的管理。
+使用下列 Windows PowerShell Cmdlet 來設定 Lync Server 2013，Persistent Chat Server 中的管理。
 
 <div>
 
@@ -49,19 +49,19 @@ _**主題上次修改日期：** 2012年-10-06_
 
   - [管理增益集](manage-add-ins.md)
 
-  - [移除訊息](remove-a-message.md)
+  - [移除郵件](remove-a-message.md)
 
-  - [利用綜合交易測試常設聊天室伺服器](test-persistent-chat-server-with-a-synthetic-transaction.md)
+  - [使用綜合交易測試 Persistent Chat Server](test-persistent-chat-server-with-a-synthetic-transaction.md)
 
-  - [針對常設聊天室伺服器執行回溯相容性](run-backward-compatibility-for-persistent-chat-server.md)
+  - [對 Persistent Chat Server 執行回溯相容性](run-backward-compatibility-for-persistent-chat-server.md)
 
-  - [執行、 授與、 取得、 移除或 Lync Server 2013 中設定常設聊天室原則](lync-server-2013-run-grant-get-remove-or-set-persistent-chat-policy.md)
+  - [在 Lync Server 2013 中執行、授與、取得、移除或設定 Persistent 聊天原則](lync-server-2013-run-grant-get-remove-or-set-persistent-chat-policy.md)
 
-  - [在 Lync Server 2013 中設定常設聊天室伺服器](lync-server-2013-configure-persistent-chat-server.md)
+  - [在 Lync Server 2013 中設定 Persistent Chat Server](lync-server-2013-configure-persistent-chat-server.md)
 
-  - [在 [Lync Server 2013 取得 Persistent Chat Server 集區可用性](lync-server-2013-get-persistent-chat-server-pool-availability.md)
+  - [在 Lync Server 2013 中取得 Persistent Chat Server 集區可用性](lync-server-2013-get-persistent-chat-server-pool-availability.md)
 
-  - [在 [Lync Server 2013 常設聊天室規範](lync-server-2013-persistent-chat-compliance.md)
+  - [Lync Server 2013 中的持續性聊天相容性](lync-server-2013-persistent-chat-compliance.md)
 
 </div>
 

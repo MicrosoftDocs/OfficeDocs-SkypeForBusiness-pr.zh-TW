@@ -1,8 +1,8 @@
 ---
 title: 開始移轉之前
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -13,12 +13,12 @@ ms:contentKeyID: 48183259
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1d0114991e3fd2d4446d940648410cfec3c660da
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6bcdbade13418b228daca9005481d129042c5055
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181116"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755333"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -36,17 +36,17 @@ ms.locfileid: "42181116"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-23_
+_**主題上次修改日期：** 2012-09-23_
 
-在您開始之前，建議您先閱讀本文件及下列指南，以熟悉部署對應的 Lync Server 2013 角色：
+開始之前，建議您先閱讀本檔及下列指南，以熟悉部署對應的 Lync Server 2013 角色：
 
   - [部署 Lync Server 2013](lync-server-2013-deploying-lync-server.md)
 
-  - [將 Lync Server 2013 Standard Edition 部署到現有的 Lync Server 2013 Enterprise](lync-server-2013-deploying-lync-server-2013-standard-edition-into-an-existing-lync-server-2013-enterprise.md)
+  - [將 Lync Server 2013 Standard Edition 部署到現有的 Lync Server 2013 企業版](lync-server-2013-deploying-lync-server-2013-standard-edition-into-an-existing-lync-server-2013-enterprise.md)
 
-  - [部署 Lync Server 2013 中的外部使用者存取](lync-server-2013-deploying-external-user-access.md)
+  - [在 Lync Server 2013 中部署外部使用者存取](lync-server-2013-deploying-external-user-access.md)
 
-  - [部署用戶端和 Lync Server 2013 中的裝置](lync-server-2013-deploying-clients-and-devices.md)
+  - [在 Lync Server 2013 中部署用戶端和裝置](lync-server-2013-deploying-clients-and-devices.md)
 
 <div>
 

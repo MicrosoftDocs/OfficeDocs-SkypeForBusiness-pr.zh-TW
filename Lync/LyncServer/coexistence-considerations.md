@@ -1,8 +1,8 @@
 ---
-title: 共存考量
+title: 共存考慮
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -13,12 +13,12 @@ ms:contentKeyID: 48184990
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2b31b8f3e534fc7b060f194f84310050a0386d8c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a7052042afbc3927e1047a9c2fbb30a71168f317
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180996"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755029"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -26,7 +26,7 @@ ms.locfileid: "42180996"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="coexistence-considerations"></a>共存考量
+# <a name="coexistence-considerations"></a>共存考慮
 
 </div>
 
@@ -36,23 +36,23 @@ ms.locfileid: "42180996"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-06_
+_**主題上次修改日期：** 2012-10-06_
 
-在移轉之後，只有在 Lync Server 2013，Persistent Chat Server 集區會存在，而且您可以解除委任舊版部署。
+遷移後，只會存在 Lync Server 2013、Persistent Chat Server 集區，您也可解除委任舊版部署。
 
-移轉完成之前及完全解除委任目前 Group Chat 伺服器部署之前，您可能會有任何下列的部署：
+在遷移完成之前以及完全解除委任目前的群組聊天伺服器部署之前，您可能會有下列任何部署：
 
-  - Lync Server 2013，Persistent Chat Server 集區，必須裝載於 Lync Server 2013 集區。
+  - Lync Server 2013，Persistent Chat Server 集區，必須裝載在 Lync Server 2013 集區上。
 
-  - Lync Server 2010，Group Chat 集區，必須裝載於 Lync Server 2010 集區。
+  - Lync Server 2010，群組聊天集區，必須裝載在 Lync Server 2010 集區上。
 
-  - Office Communications Server 2007 R2 群組聊天集區，必須裝載於 Office Communications Server 2007 R2 集區。
+  - Office 通訊伺服器 2007 R2 群組聊天集區，必須位於 Office 通訊伺服器 2007 R2 集區。
 
-這些部署可以並排存在。 不過類別、 聊天室及增益集一個部署中不互動中隨附的部署。
+這些部署可能並排存在。 不過，一個部署中的類別、聊天室及增益集不會與伴隨之部署中的增益集進行互動。
 
-使用手動組態時，舊版用戶端 （Group Chat 用戶端） 可以連線至一個集區，一次 Office Communications Server 2007 R2、 Lync Server 2010，Group Chat，或 Lync Server 2013。
+使用手動設定時，舊版用戶端（群組聊天用戶端）可以一次連線至一個集區，以進行 Office 通訊伺服器 2007 R2、Lync Server 2010、群組聊天或 Lync Server 2013。
 
-Lync 2013 （用戶端） 可以只與 Lync Server 2013，Persistent Chat Server 集區，不與舊版的 Group Chat Server 集區互動。 若要使用常設聊天室 Lync 2013 （用戶端） 中，使用者必須位於 Lync 2013 並啟用原則。
+Lync 2013 （用戶端）只能與 Lync Server 2013、Persistent Chat Server 集區互動，而不能與舊版群組聊天伺服器集區互動。 若要在 Lync 2013 （用戶端）中使用持續性聊天，使用者必須位於 Lync 2013，並由原則啟用。
 
 </div>
 

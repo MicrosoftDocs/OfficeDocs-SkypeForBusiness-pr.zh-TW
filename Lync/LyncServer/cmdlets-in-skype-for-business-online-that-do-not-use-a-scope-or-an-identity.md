@@ -1,8 +1,8 @@
 ---
-title: Skype 商務 Online 中不需要使用某個範圍或身分識別的指令程式
+title: 在商務用 Skype Online 中不使用範圍或身分識別的 Cmdlet
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Cmdlets that do not use a scope or an identity
@@ -12,19 +12,19 @@ ms:contentKeyID: 56558839
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ad366315bbc4acf5afb417262da92a5683a084df
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 4ade4dee78fff151530e0d76279fdbfaeade720b
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42001728"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755313"
 ---
-# <a name="cmdlets-in-skype-for-business-online-that-do-not-use-a-scope-or-an-identity"></a>Skype 商務 Online 中不需要使用某個範圍或身分識別的指令程式
+# <a name="cmdlets-in-skype-for-business-online-that-do-not-use-a-scope-or-an-identity"></a>在商務用 Skype Online 中不使用範圍或身分識別的 Cmdlet
 
  
 
 
-修改的允許的清單及封鎖的清單 （決定您的使用者可以彼此通訊的組織外部的清單） 時所使用的 cmdlet 請勿使用 [範圍] 或 [身分識別。 事實上，**新增 CsEdgeAllowAllKnownDomains**指令程式並沒有皆不任何參數。 請勿使用某個範圍或身分識別的 cmdlet 是：
+修改允許清單和封鎖清單時所使用的指令程式（決定使用者可以與哪些外部組織通訊的清單）請勿使用範圍或身分識別。 實際上， **CsEdgeAllowAllKnownDomains** Cmdlet 沒有任何參數。 不使用範圍或身分識別的 Cmdlet 如下：
 
   - [新 CsEdgeAllowAllKnownDomains](https://technet.microsoft.com/library/jj994088\(v=ocs.15\))
 
@@ -32,13 +32,13 @@ ms.locfileid: "42001728"
 
   - [新 CsEdgeDomainPattern](https://technet.microsoft.com/library/jj994040\(v=ocs.15\))
 
-請注意，**新增 CsEdgeAllowList** cmdlet 與**新增 CsEdgeDomainPattern**指令程式，您必須包含 Domain 參數。 例如：
+請注意，使用 CsEdgeAllowList 指令**程式**和**CsEdgeDomainPattern**指令程式時，必須包含 Domain 參數。 例如：
 
     $x = New-CsEdgeDomainPattern -Domain "fabrikam.com"
 
 ## <a name="see-also"></a>請參閱
 
 
-[身分識別、 範圍與 skype for Business Online 租用戶](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-[Skype 商務 Online cmdlet](https://technet.microsoft.com/library/dn362817\(v=ocs.15\))
+[商務用 Skype Online 中的身分識別、範圍和承租人](identities-scopes-and-tenants-in-skype-for-business-online.md)  
+[商務用 Skype Online Cmdlet](https://technet.microsoft.com/library/dn362817\(v=ocs.15\))
 

@@ -1,8 +1,8 @@
 ---
-title: 設定試驗集區部署的 DNS 記錄
+title: 為試驗集區部署設定 DNS 記錄
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -13,12 +13,12 @@ ms:contentKeyID: 49733666
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 84fd4b7160cffa402496d57bcc3ddcc844fbfce2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3388fb148b4d4f4825432e6168b657405e337c35
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180926"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44754979"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -26,7 +26,7 @@ ms.locfileid: "42180926"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-dns-records-for-pilot-pool-deployment"></a>設定試驗集區部署的 DNS 記錄
+# <a name="configure-dns-records-for-pilot-pool-deployment"></a>為試驗集區部署設定 DNS 記錄
 
 </div>
 
@@ -36,21 +36,21 @@ ms.locfileid: "42180926"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-24_
+_**主題上次修改日期：** 2012-09-24_
 
-之前部署 Lync Server 2013 試驗集區，您必須更新試驗集區的 DNS 主機的項目。 要成功完成此程序，必須至少以 Domain Admins 群組成員或 DnsAdmins 群組成員的身分登入伺服器或網域。
+在部署 Lync Server 2013 試驗集區之前，您必須更新 DNS 主機試驗集區的專案。 要成功完成此程序，必須至少以 Domain Admins 群組成員或 DnsAdmins 群組成員的身分登入伺服器或網域。
 
 **設定 DNS 主機 A 記錄**
 
 1.  在網域名稱系統 (DNS) 伺服器上，依序按一下 **[開始]**、**[系統管理工具]** 和 **[DNS]**。
 
-2.  在您網域的主控台樹狀目錄中，展開 [**正向對應區域**，，然後在要安裝 Lync Server 2013 的網域上按一下滑鼠右鍵。
+2.  在您網域的主控台樹中，展開 [**正向對應區域**]，然後在將安裝 Lync Server 2013 的網域上按一下滑鼠右鍵。
 
 3.  按一下 **[新增主機 (A 或 AAAA)]**。
 
 4.  按一下 **[名稱]**，然後輸入集區的主機名稱 (網域名稱會從記錄定義所在的區域取得，而不需輸入為 A 記錄的一部分)。
 
-5.  按一下 [ **IP 位址**] 中，輸入前端集區的 IP 位址。
+5.  按一下 [ **IP 位址**]，輸入前端集區的 IP 位址。
 
 6.  按一下 **[新增主機]**，然後按一下 **[確定]**。
 

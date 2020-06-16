@@ -1,8 +1,8 @@
 ---
 title: 設定用戶端以進行移轉
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -13,12 +13,12 @@ ms:contentKeyID: 48185411
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8660fab3fccdae04ea4e3407aedf259ab3e1f4f6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fb167b56d201ff6215c45c10628b3c88be046041
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181016"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755009"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -36,17 +36,17 @@ ms.locfileid: "42181016"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-09-24_
+_**主題上次修改日期：** 2012-09-24_
 
-本主題包含建議的用戶端部署採取的步驟，您應該先移轉至 Lync Server 2013。 這些設定變更應該對 Lync Server 2010。
+本主題包含在遷移至 Lync Server 2013 之前，您應該採取的建議用戶端部署步驟。 您應該在 Lync Server 2010 上進行這些設定變更。
 
 <div>
 
-## <a name="to-configure-clients-before-migration"></a>移轉前設定用戶端
+## <a name="to-configure-clients-before-migration"></a>在遷移之前設定用戶端
 
-1.  部署的最新的伺服器、 用戶端和 Lync Server 2010 的裝置更新 (hotfix)。 關於 Lync Server 2010 最新的資訊，請參閱更新資源中心，在 lync <https://go.microsoft.com/fwlink/p/?linkid=232630>。
+1.  部署 Lync Server 2010 的最新伺服器、用戶端及裝置更新（修復程式）。 如需有關 Lync Server 2010 的最新資訊，請參閱更新資源中心的 Lync at <https://go.microsoft.com/fwlink/p/?linkid=232630> 。
 
-2.  在 Lync Server 2010]，使用用戶端版本篩選，只允許用戶端安裝最新版更新的。
+2.  在 Lync Server 2010 上，使用用戶端版本篩選，只允許安裝了最新更新的用戶端。
 
 </div>
 
@@ -55,11 +55,11 @@ _**主題上次修改日期：** 2012年-09-24_
 ## <a name="see-also"></a>另請參閱
 
 
-[Lync 2013 的新增及變更設定](lync-server-2013-new-and-changed-settings-for-lync-2013.md)  
+[Lync 2013 的新增及變更的設定](lync-server-2013-new-and-changed-settings-for-lync-2013.md)  
 [Lync 2013 中的用戶端互通性](lync-server-2013-client-interoperability-in-lync-2013.md)  
 
 
-[規劃用戶端和 Lync Server 2013 中的裝置](lync-server-2013-planning-for-clients-and-devices.md)  
+[在 Lync Server 2013 中規劃用戶端和裝置](lync-server-2013-planning-for-clients-and-devices.md)  
   
 
 </div>

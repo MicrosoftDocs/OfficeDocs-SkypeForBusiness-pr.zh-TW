@@ -1,8 +1,8 @@
 ---
-title: Skype 商務 Online 中使用的使用者身分識別的指令程式
+title: 使用使用者身分識別的商務用 Skype Online 中的 Cmdlet
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -13,19 +13,19 @@ ms:contentKeyID: 56558859
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8310d5e25b5fc3dd3ada43fcf3c8f899f60e5a7e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 8aee680c6e55de62ff9d49724d3e480c00159aa4
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42001258"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755105"
 ---
-# <a name="cmdlets-in-skype-for-business-online-that-use-a-user-identity"></a>Skype 商務 Online 中使用的使用者身分識別的指令程式
+# <a name="cmdlets-in-skype-for-business-online-that-use-a-user-identity"></a>使用使用者身分識別的商務用 Skype Online 中的 Cmdlet
 
  
 
 
-在商務用 Skype，有許多不同的方式來參照個別的使用者身分識別：
+在商務用 Skype Online 中，有許多不同的方式可參考個別的使用者身分識別：
 
   - 使用使用者的 Active Directory 網域服務顯示名稱。 例如：
     
@@ -39,47 +39,47 @@ ms.locfileid: "42001258"
     
         -Identity " kenmyer@litwareinc.com"
 
-  - 使用使用者的 Active Directory 網域服務的辨別的名稱。 例如：
+  - 使用使用者的 Active Directory 網域服務辨別名稱。 例如：
     
         -Identity "CN=48ebd1ba-95d4-460c-b751-811ebf0c4611,OU=fa8226f5-14fa-46da-8 236-039b25bc7a27,OU=Lync Online Tenants,DC=litwareinc,DC=com"
 
-下列指令程式接受使用者身分識別：
+下列 Cmdlet 會接受使用者身分識別：
 
-  - [Disable-csmeetingroom](https://technet.microsoft.com/library/jj204723\(v=ocs.15\))
+  - [Disable-CsMeetingRoom](https://technet.microsoft.com/library/jj204723\(v=ocs.15\))
 
-  - [Enable-csmeetingroom](https://technet.microsoft.com/library/jj205062\(v=ocs.15\))
+  - [Enable-CsMeetingRoom](https://technet.microsoft.com/library/jj205062\(v=ocs.15\))
 
-  - [Get-csexumcontact](https://technet.microsoft.com/library/gg412725\(v=ocs.15\))
+  - [Get-CsExUmContact](https://technet.microsoft.com/library/gg412725\(v=ocs.15\))
 
-  - [Get-csmeetingroom](https://technet.microsoft.com/library/jj205277\(v=ocs.15\))
+  - [Get-CsMeetingRoom](https://technet.microsoft.com/library/jj205277\(v=ocs.15\))
 
-  - [Get-csonlineuser](https://technet.microsoft.com/library/jj994026\(v=ocs.15\))
+  - [Get-CsOnlineUser](https://technet.microsoft.com/library/jj994026\(v=ocs.15\))
 
-  - [Get-csuseracp](https://technet.microsoft.com/library/gg398978\(v=ocs.15\))
+  - [Get-CsUserAcp](https://technet.microsoft.com/library/gg398978\(v=ocs.15\))
 
-  - [New-csexumcontact](https://technet.microsoft.com/library/gg398139\(v=ocs.15\))
+  - [New-CsExUmContact](https://technet.microsoft.com/library/gg398139\(v=ocs.15\))
 
-  - [移除 Get-csexumcontact](https://technet.microsoft.com/library/gg398946\(v=ocs.15\))
+  - [Remove-New-csexumcontact](https://technet.microsoft.com/library/gg398946\(v=ocs.15\))
 
-  - [移除 CsUserAcp](https://technet.microsoft.com/library/gg398982\(v=ocs.15\))
+  - [Remove-CsUserAcp](https://technet.microsoft.com/library/gg398982\(v=ocs.15\))
 
-  - [Set-csexumcontact](https://technet.microsoft.com/library/gg412944\(v=ocs.15\))
+  - [Set-CsExUmContact](https://technet.microsoft.com/library/gg412944\(v=ocs.15\))
 
-  - [Set-csmeetingroom](https://technet.microsoft.com/library/jj204831\(v=ocs.15\))
+  - [Set-CsMeetingRoom](https://technet.microsoft.com/library/jj204831\(v=ocs.15\))
 
-  - [設定 CsUserAcp](https://technet.microsoft.com/library/gg413018\(v=ocs.15\))
+  - [CsUserAcp](https://technet.microsoft.com/library/gg413018\(v=ocs.15\))
 
-請注意，您不需要呼叫其中一個**取得 Cs**指令程式時指定的使用者身分識別。 在此情況下，cmdlet 會傳回所有執行個體的指定項目。 例如，此命令會傳回所有已啟用 skype 商務 Online 使用者的相關資訊：
+請注意，呼叫其中一個**Get** Cmdlet 時，不需要指定使用者身分識別。 在此情況下，Cmdlet 會傳回指定專案的所有實例。 例如，下列命令會傳回已啟用商務用 Skype Online 之所有使用者的相關資訊：
 
     Get-CsOnlineUser
 
-Identity 參數是必要的只有當您想要傳回特定使用者的資訊：
+只有當您想要傳回特定使用者的資訊時，才需要 Identity 參數：
 
     Get-CsOnlineUser -Identity "Ken Myer"
 
 ## <a name="see-also"></a>另請參閱
 
 
-[身分識別、 範圍與 skype for Business Online 租用戶](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-[Skype 商務 Online cmdlet](https://technet.microsoft.com/library/dn362817\(v=ocs.15\))
+[商務用 Skype Online 中的身分識別、範圍和承租人](identities-scopes-and-tenants-in-skype-for-business-online.md)  
+[商務用 Skype Online Cmdlet](https://technet.microsoft.com/library/dn362817\(v=ocs.15\))
 

@@ -1,8 +1,8 @@
 ---
 title: 設定信任的應用程式伺服器
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -13,12 +13,12 @@ ms:contentKeyID: 48184056
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bb693a68f58ef16ca29048d9e18738ef98d719d8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9cbaba4f59a22de6fcee38ee51845d551033cfea
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180746"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44754481"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -36,13 +36,13 @@ ms.locfileid: "42180746"
 
 <span> </span>
 
-_**主題上次修改日期：** 2012年-10-04_
+_**主題上次修改日期：** 2012-10-04_
 
-在混合環境中，如果您合併舊版 Office Communications Server 拓撲與 Lync Server 2013 中後, 建立新的受信任的應用程式伺服器及定義新的受信任的應用程式伺服器，使用拓撲產生器中，您必須設定為下一個躍點集區Lync Server 2013 集區。 在合併環境中，舊版 Office Communications Server 集區和 Lync Server 2013 集區出現在下拉式清單中。 但不** 支援選取舊版集區。
+在混合式環境中，如果您在將舊版 Office 通訊伺服器拓撲與 Lync Server 2013 合併之後建立新的信任應用程式伺服器，並使用拓撲產生器來定義新的信任應用程式伺服器，則必須將下一個躍點集區設定為 Lync Server 2013 集區。 在合併環境中，舊版 Office 通訊伺服器集區和 Lync Server 2013 集區會出現在下拉式清單中。 但不** 支援選取舊版集區。
 
 <div>
 
-## <a name="to-select-lync-server-2013-as-next-hop-when-creating-a-trusted-application-server"></a>若要建立信任的應用程式伺服器時，為下一個躍點選取 Lync Server 2013
+## <a name="to-select-lync-server-2013-as-next-hop-when-creating-a-trusted-application-server"></a>在建立信任的應用程式伺服器時，選取 [Lync Server 2013] 做為下一個躍點
 
 1.  在拓樸產生器中開啟現有的拓樸。
 
@@ -52,9 +52,9 @@ _**主題上次修改日期：** 2012年-10-04_
 
 4.  按一下 **[下一步]**。
 
-5.  在 [**選取下一個躍點**] 頁面上，從清單中，選取 Lync Server 2013 前端集區。
+5.  在 [**選取下一個躍點]** 頁面上，從清單中選取 [Lync Server 2013 前端集區]。
     
-    ![定義新的受信任的應用程式集區] 對話方塊](images/JJ204865.ecfe2bb8-758b-4b36-8146-573005c4ab09(OCS.15).jpg "定義新的受信任的應用程式集區] 對話方塊")  
+    ![[定義新的信任的應用程式集區] 對話方塊](images/JJ204865.ecfe2bb8-758b-4b36-8146-573005c4ab09(OCS.15).jpg "[定義新的信任的應用程式集區] 對話方塊")  
 
 6.  按一下 **[完成]**。
 

@@ -1,8 +1,8 @@
 ---
-title: 設定中繼伺服器
+title: 設定轉送伺服器
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Configure Mediation Server
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184207
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eb9b2c7cf8da1d454f310a8ac999dddbc7d34f68
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 82da1720cab2e6895c53565da17c9411faabdfbd
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728163"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44754531"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-mediation-server"></a>設定中繼伺服器
+# <a name="configure-mediation-server"></a>設定轉送伺服器
 
 </div>
 
@@ -37,15 +37,15 @@ ms.locfileid: "41728163"
 
 _**主題上次修改日期：** 2012-09-28_
 
-此程式會詳細說明將 Lync Server 2013 池設定為使用 Lync Server 2013 轉送伺服器的步驟，而不是舊版 Office 通訊伺服器 2007 R2 轉送伺服器。
+本程式詳細說明設定 Lync Server 2013 集區使用 Lync Server 2013 轉送伺服器的步驟，而非舊版 Office 通訊伺服器的 2007 R2 轉送伺服器。
 
-若要在新增或移除伺服器角色時成功發佈、啟用或停用拓撲，您應該以 RTCUniversalServerAdmins 和網域系統管理員群組成員的使用者身分登入。 您也可以委派適當的管理員權力和許可權來新增伺服器角色。 如需詳細資訊，請參閱標準版 server 或企業版 server 部署檔中的委派設定許可權。 針對其他設定變更，只需要 RTCUniversalServerAdmins 群組中的成員資格。
+To successfully publish, enable, or disable a topology when adding or removing a server role, you should be logged in as a user who is a member of the RTCUniversalServerAdmins and Domain Admins groups. It is also possible to delegate the proper administrator rights and permissions for adding server roles. For details, see Delegate Setup Permissions in the Standard Edition server or Enterprise Edition server Deployment documentation. For other configuration changes, only membership in the RTCUniversalServerAdmins group is required.
 
 <div>
 
 
 > [!NOTE]  
-> 如需有關如何尋找符合 Lync Server 2013 之合格 PSTN 閘道、IP Pbx 及 SIP 中繼服務的最新資訊，請參閱「Microsoft 統一通訊開啟交互操作<A href="http://go.microsoft.com/fwlink/p/?linkid=206015">http://go.microsoft.com/fwlink/p/?linkId=206015</A>性程式」。
+> 如需尋找合格的 PSTN 閘道、IP PBXs 和 SIP 主幹服務（搭配 Lync Server 2013）的最新資訊，請參閱《 Microsoft 整合通訊開啟互通性程式》，網址為 <A href="https://go.microsoft.com/fwlink/p/?linkid=206015">https://go.microsoft.com/fwlink/p/?linkId=206015</A> 。
 
 
 
@@ -53,41 +53,41 @@ _**主題上次修改日期：** 2012-09-28_
 
 <div>
 
-## <a name="to-configure-mediation-server-using-topology-builder"></a>使用拓撲建立器設定中繼伺服器
+## <a name="to-configure-mediation-server-using-topology-builder"></a>使用拓撲產生器設定中繼伺服器
 
-1.  從拓撲建立器開啟現有的拓撲。
+1.  從拓撲產生器開啟現有的拓撲。
 
-2.  在左窗格中，流覽至**PSTN 閘道**。
+2.  在左窗格中，瀏覽至 **[PSTN 閘道]**。
 
-3.  以滑鼠右鍵按一下**PSTN 閘道**，然後按一下 [**新增 IP/PSTN 閘道**]。
+3.  以滑鼠右鍵按一下 [PSTN 閘道]****，然後按一下 [新增 IP/PSTN 閘道]****。
 
-4.  完成 [**定義新的 IP/PSTN 閘道**] 頁面，並提供下列資訊：
+4.  在 **[定義新的 IP/PSTN 閘道]** 頁面中填入下列資訊：
     
-      - 輸入閘道 FQDN 或 IP 位址。 如果閘道使用 TLS 通訊協定，則需要閘道的 FQDN。
+      - Enter the gateway FQDN or IP address. The FQDN of the gateway is required if the gateway uses the TLS protocol.
     
-      - 接受**IP/PSTN 閘道偵聽埠**的預設值，或輸入新的偵聽埠（如果已修改的話）。
+      - 接受 **[IP/PSTN 閘道的聆聽連接埠]** 的預設值；其如有修改，請輸入新的聆聽連接埠。
     
-      - 設定**Sip 傳輸通訊協定**。
+      - 設定 [Sip 傳輸通訊協定]****。
 
-5.  在左窗格中，流覽至 [**企業版頂層端] 池**或 [**標準版] 伺服器**。
+5.  在左窗格中，瀏覽至 [Enterprise Edition 前端集區]**** 或 [Standard Edition Server]****。
 
-6.  以滑鼠右鍵按一下該池子，然後按一下 [**編輯屬性**]。
+6.  以滑鼠右鍵按一下集區，然後按一下 [編輯屬性]****。
 
-7.  在 [**中繼伺服器**] 底下，設定**偵聽埠**。
+7.  在 **[中繼伺服器]** 底下，設定 **[聆聽連接埠]**。
 
-8.  接下來，選取新建立的 PSTN 閘道，然後按一下 [**新增**]。
+8.  接著，選取新建的 PSTN 閘道並按一下 **[新增]**，建立關聯。
 
-9.  在 [**拓撲**建立器] 中，選取最上方的 [ **Lync Server**]。
+9.  在 **[拓撲產生器]** 中選取最頂端的節點 **[Lync Server]**。
 
-10. 從 [**動作**] 功能表中，選取 [**發佈拓撲**]，然後按一下 **[下一步]**。
+10. 在 **[執行]** 功能表中，選取 **[發行拓撲]**，然後按 **[下一步]**。
 
-11. **發佈嚮導**完成後，請按一下 **[完成**] 以關閉嚮導。
+11. 當 [發行精靈]**** 完成之後，按一下 [完成]****，以關閉精靈。
 
 <div>
 
 
 > [!NOTE]  
-> 請務必完成下一個主題，<A href="change-voice-routes-to-use-the-new-lync-server-2013-mediation-server.md">將語音路由改為使用新的 Lync server 2013 轉送伺服器</A>，以確保語音路由指向正確的中繼伺服器。
+> 請務必完成下一個主題：<A href="change-voice-routes-to-use-the-new-lync-server-2013-mediation-server.md">變更語音路由以使用新的 Lync server 2013 轉送伺服器</A>，以確保語音路由指向正確的轉送伺服器。
 
 
 
