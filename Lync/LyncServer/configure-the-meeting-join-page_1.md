@@ -1,8 +1,8 @@
 ---
 title: 設定會議加入頁面
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -13,12 +13,12 @@ ms:contentKeyID: 48185030
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d73cab2e4344054d1e95b77c1a64eda425d22654
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a63354b9e0b0cf44ed44f53c91061578e01fecb5
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180786"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44754501"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -26,7 +26,7 @@ ms.locfileid: "42180786"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-the-meeting-join-page"></a><span data-ttu-id="15cc0-102">設定會議加入頁面</span><span class="sxs-lookup"><span data-stu-id="15cc0-102">Configure the meeting join page</span></span>
+# <a name="configure-the-meeting-join-page"></a><span data-ttu-id="0c9fb-102">設定會議加入頁面</span><span class="sxs-lookup"><span data-stu-id="0c9fb-102">Configure the meeting join page</span></span>
 
 </div>
 
@@ -36,13 +36,13 @@ ms.locfileid: "42180786"
 
 <span> </span>
 
-<span data-ttu-id="15cc0-103">_**主題上次修改日期：** 2012年-12-14_</span><span class="sxs-lookup"><span data-stu-id="15cc0-103">_**Topic Last Modified:** 2012-12-14_</span></span>
+<span data-ttu-id="0c9fb-103">_**主題上次修改日期：** 2012-12-14_</span><span class="sxs-lookup"><span data-stu-id="0c9fb-103">_**Topic Last Modified:** 2012-12-14_</span></span>
 
-<span data-ttu-id="15cc0-104">當使用者按一下會議中的連結會議邀請，會議加入頁面會偵測到使用者的電腦上是否已安裝 Lync 2013 用戶端。</span><span class="sxs-lookup"><span data-stu-id="15cc0-104">When a user clicks a meeting link in a meeting request, the meeting join page detects whether a Lync 2013 client is already installed on the user’s computer.</span></span> <span data-ttu-id="15cc0-105">若已安裝用戶端，將會開啟該用戶端，然後加入會議。</span><span class="sxs-lookup"><span data-stu-id="15cc0-105">If a client is already installed, that client opens and joins the meeting.</span></span> <span data-ttu-id="15cc0-106">如果未安裝在用戶端，預設的 2013年版的 Microsoft Lync Web App 會開啟。</span><span class="sxs-lookup"><span data-stu-id="15cc0-106">If a client is not installed, by default the 2013 version of Microsoft Lync Web App opens.</span></span>
+<span data-ttu-id="0c9fb-104">當使用者按一下會議邀請中的會議連結時，[會議加入] 頁面便會偵測使用者電腦上是否已安裝 Lync 2013 用戶端。</span><span class="sxs-lookup"><span data-stu-id="0c9fb-104">When a user clicks a meeting link in a meeting request, the meeting join page detects whether a Lync 2013 client is already installed on the user’s computer.</span></span> <span data-ttu-id="0c9fb-105">若已安裝用戶端，將會開啟該用戶端，然後加入會議。</span><span class="sxs-lookup"><span data-stu-id="0c9fb-105">If a client is already installed, that client opens and joins the meeting.</span></span> <span data-ttu-id="0c9fb-106">若未安裝用戶端，則預設會開啟2013版本的 Microsoft Lync Web App。</span><span class="sxs-lookup"><span data-stu-id="0c9fb-106">If a client is not installed, by default the 2013 version of Microsoft Lync Web App opens.</span></span>
 
-<span data-ttu-id="15cc0-107">您可以修改行為的會議加入頁面如果您想要允許使用者加入會議與 Office Communicator 2007 R2 或 Lync 2010 Attendant。</span><span class="sxs-lookup"><span data-stu-id="15cc0-107">You can modify the behavior of the meeting join page if you want to allow users to join meetings with Office Communicator 2007 R2 or Lync 2010 Attendant.</span></span> <span data-ttu-id="15cc0-108">已從 Lync Server 2013 控制台]，移除這些組態選項，但您使用 CsWebServiceConfiguration 指令程式來設定。</span><span class="sxs-lookup"><span data-stu-id="15cc0-108">These configuration options have been removed from the Lync Server 2013 Control Panel, but you configure them by using the CsWebServiceConfiguration cmdlet.</span></span>
+<span data-ttu-id="0c9fb-107">如果您想要允許使用者加入使用 Office Communicator 2007 R2 或 Lync 2010 的會議，您可以修改會議加入頁面的行為。</span><span class="sxs-lookup"><span data-stu-id="0c9fb-107">You can modify the behavior of the meeting join page if you want to allow users to join meetings with Office Communicator 2007 R2 or Lync 2010 Attendant.</span></span> <span data-ttu-id="0c9fb-108">這些設定選項已從 Lync Server 2013 控制台中移除，但您使用 CsWebServiceConfiguration Cmdlet 進行設定。</span><span class="sxs-lookup"><span data-stu-id="0c9fb-108">These configuration options have been removed from the Lync Server 2013 Control Panel, but you configure them by using the CsWebServiceConfiguration cmdlet.</span></span>
 
-### <a name="meeting-join-page-cswebserviceconfiguration-parameters"></a><span data-ttu-id="15cc0-109">會議加入頁面的 CsWebServiceConfiguration 參數</span><span class="sxs-lookup"><span data-stu-id="15cc0-109">Meeting Join Page CsWebServiceConfiguration Parameters</span></span>
+### <a name="meeting-join-page-cswebserviceconfiguration-parameters"></a><span data-ttu-id="0c9fb-109">會議加入頁面的 CsWebServiceConfiguration 參數</span><span class="sxs-lookup"><span data-stu-id="0c9fb-109">Meeting Join Page CsWebServiceConfiguration Parameters</span></span>
 
 <table>
 <colgroup>
@@ -51,18 +51,18 @@ ms.locfileid: "42180786"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="15cc0-110">CsWebServiceConfiguration 參數</span><span class="sxs-lookup"><span data-stu-id="15cc0-110">CsWebServiceConfiguration Parameter</span></span></th>
-<th><span data-ttu-id="15cc0-111">說明</span><span class="sxs-lookup"><span data-stu-id="15cc0-111">Description</span></span></th>
+<th><span data-ttu-id="0c9fb-110">CsWebServiceConfiguration 參數</span><span class="sxs-lookup"><span data-stu-id="0c9fb-110">CsWebServiceConfiguration Parameter</span></span></th>
+<th><span data-ttu-id="0c9fb-111">描述</span><span class="sxs-lookup"><span data-stu-id="0c9fb-111">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="15cc0-112">ShowJoinUsingLegacyClientLink</span><span class="sxs-lookup"><span data-stu-id="15cc0-112">ShowJoinUsingLegacyClientLink</span></span></p></td>
-<td><p><span data-ttu-id="15cc0-113">如果設為 True，使用以外的 Lync 用戶端應用程式加入會議的使用者將能夠使用 Office Communicator 2007 R2 來加入會議的機會。</span><span class="sxs-lookup"><span data-stu-id="15cc0-113">If set to True, users joining a meeting by using a client application other than Lync will be given the opportunity to join the meeting by using Office Communicator 2007 R2.</span></span> <span data-ttu-id="15cc0-114">預設值為 False。</span><span class="sxs-lookup"><span data-stu-id="15cc0-114">The default value is False.</span></span></p></td>
+<td><p><span data-ttu-id="0c9fb-112">ShowJoinUsingLegacyClientLink</span><span class="sxs-lookup"><span data-stu-id="0c9fb-112">ShowJoinUsingLegacyClientLink</span></span></p></td>
+<td><p><span data-ttu-id="0c9fb-113">若設為 True，使用 Lync 以外的用戶端應用程式加入會議的使用者，將有機會利用 Office Communicator 2007 R2 加入會議。</span><span class="sxs-lookup"><span data-stu-id="0c9fb-113">If set to True, users joining a meeting by using a client application other than Lync will be given the opportunity to join the meeting by using Office Communicator 2007 R2.</span></span> <span data-ttu-id="0c9fb-114">預設值為 False。</span><span class="sxs-lookup"><span data-stu-id="0c9fb-114">The default value is False.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="15cc0-115">ShowAlternateJoinOptionsExpanded</span><span class="sxs-lookup"><span data-stu-id="15cc0-115">ShowAlternateJoinOptionsExpanded</span></span></p></td>
-<td><p><span data-ttu-id="15cc0-p104">此參數設為 True 時，就會自動擴充參加線上會議的其他選項 (例如 Office Communicator 2007 R2)，並且對使用者顯示。設為 False (預設值) 時，可使用這些選項，但使用者必須自行顯示選項清單。</span><span class="sxs-lookup"><span data-stu-id="15cc0-p104">When set to True then alternate options for joining an online conference (such as Office Communicator 2007 R2) will automatically be expanded and shown to users. When set to False (the default value) these options will be available, but the user will have to display the list of options for themselves.</span></span></p></td>
+<td><p><span data-ttu-id="0c9fb-115">ShowAlternateJoinOptionsExpanded</span><span class="sxs-lookup"><span data-stu-id="0c9fb-115">ShowAlternateJoinOptionsExpanded</span></span></p></td>
+<td><p><span data-ttu-id="0c9fb-116">When set to True then alternate options for joining an online conference (such as Office Communicator 2007 R2) will automatically be expanded and shown to users.</span><span class="sxs-lookup"><span data-stu-id="0c9fb-116">When set to True then alternate options for joining an online conference (such as Office Communicator 2007 R2) will automatically be expanded and shown to users.</span></span> <span data-ttu-id="0c9fb-117">When set to False (the default value) these options will be available, but the user will have to display the list of options for themselves.</span><span class="sxs-lookup"><span data-stu-id="0c9fb-117">When set to False (the default value) these options will be available, but the user will have to display the list of options for themselves.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -70,17 +70,17 @@ ms.locfileid: "42180786"
 
 <div>
 
-## <a name="to-configure-the-meeting-join-page-by-using-lync-server-2013-management-shell"></a><span data-ttu-id="15cc0-118">若要設定會議加入頁面使用 Lync Server 2013 管理命令介面</span><span class="sxs-lookup"><span data-stu-id="15cc0-118">To configure the meeting join page by using Lync Server 2013 Management Shell</span></span>
+## <a name="to-configure-the-meeting-join-page-by-using-lync-server-2013-management-shell"></a><span data-ttu-id="0c9fb-118">使用 Lync Server 2013 管理命令介面設定會議加入頁面</span><span class="sxs-lookup"><span data-stu-id="0c9fb-118">To configure the meeting join page by using Lync Server 2013 Management Shell</span></span>
 
-1.  <span data-ttu-id="15cc0-119">啟動 Lync Server 2013 管理命令介面： 按一下 [**開始]**，按一下 [**所有程式]**、 [ **Microsoft Lync Server 2013**]，然後按一下**Lync Server 管理命令介面**。</span><span class="sxs-lookup"><span data-stu-id="15cc0-119">Start the Lync Server 2013 Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+1.  <span data-ttu-id="0c9fb-119">啟動 Lync Server 2013 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[ **Microsoft Lync server 2013**]，然後按一下 [ **Lync server 管理命令**介面]。</span><span class="sxs-lookup"><span data-stu-id="0c9fb-119">Start the Lync Server 2013 Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-2.  <span data-ttu-id="15cc0-120">執行下列 Cmdlet：</span><span class="sxs-lookup"><span data-stu-id="15cc0-120">Run the following cmdlet:</span></span>
+2.  <span data-ttu-id="0c9fb-120">執行下列 Cmdlet：</span><span class="sxs-lookup"><span data-stu-id="0c9fb-120">Run the following cmdlet:</span></span>
     
         Get-CsWebServiceConfiguration
     
-    <span data-ttu-id="15cc0-121">此 Cmdlet 會傳回 Web 服務設定。</span><span class="sxs-lookup"><span data-stu-id="15cc0-121">This cmdlet returns the web service configuration settings.</span></span>
+    <span data-ttu-id="0c9fb-121">此 Cmdlet 會傳回 Web 服務設定。</span><span class="sxs-lookup"><span data-stu-id="0c9fb-121">This cmdlet returns the web service configuration settings.</span></span>
 
-3.  <span data-ttu-id="15cc0-122">執行下列命令，參數設為 True 或 False，取決於偏好 （如需此 cmdlet 之參數的詳細資訊，請參閱 Lync Server 2013 管理命令介面文件）：</span><span class="sxs-lookup"><span data-stu-id="15cc0-122">Run the following command, with the parameters set to True or False, depending on your preference (for details about the parameters for this cmdlet, see the Lync Server 2013 Management Shell documentation):</span></span>
+3.  <span data-ttu-id="0c9fb-122">執行下列命令，並將參數設定為 True 或 False，這取決於您的喜好設定（如需此 Cmdlet 之參數的詳細資訊，請參閱 Lync Server 2013 管理命令介面檔）：</span><span class="sxs-lookup"><span data-stu-id="0c9fb-122">Run the following command, with the parameters set to True or False, depending on your preference (for details about the parameters for this cmdlet, see the Lync Server 2013 Management Shell documentation):</span></span>
     
         Set-CsWebServiceConfiguration -Identity global -ShowJoinUsingLegacyClientLink $True
 
