@@ -1,8 +1,8 @@
 ---
-title: 遷移封存與監控伺服器
+title: 移轉封存伺服器和監控伺服器
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -10,29 +10,29 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 如果您在舊版環境中部署了 [封存伺服器] 和 [監視伺服器]，您可以在您遷移前端池之後，將這些伺服器部署在商務用 Skype Server 2019 環境中。 不過，如果封存和監控功能對您的組織而言是至關重要的，您應該先在您的商務用 Skype Server 2019 試驗區中新增封存與監控，以便在遷移程式中提供此功能。
-ms.openlocfilehash: 5088f4b4f72ddc083cf2868df893946561eb2469
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 如果您已在舊版環境中部署封存伺服器和監控伺服器，您可以在遷移前端集區之後，將這些伺服器部署在商務用 Skype Server 2019 環境中。 不過，如果封存和監控功能對您的組織而言很重要，您應該在遷移之前，先在商務用 Skype Server 2019 試驗集區中新增封存和監控功能，以便在遷移程式期間使用該功能。
+ms.openlocfilehash: 595c92e23b0872571f75c140f86b5c437c7d8129
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41813451"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44752665"
 ---
-# <a name="migrating-archiving-and-monitoring-servers"></a>遷移封存與監控伺服器
+# <a name="migrating-archiving-and-monitoring-servers"></a>移轉封存伺服器和監控伺服器
 
-如果您在舊版環境中部署了 [封存伺服器] 和 [監視伺服器]，您可以在您遷移前端池之後，將這些伺服器部署在商務用 Skype Server 2019 環境中。 不過，如果封存和監控功能對您的組織而言是至關重要的，您應該先在您的商務用 Skype Server 2019 試驗區中新增封存與監控，以便在遷移程式中提供此功能。 
+如果您已在舊版環境中部署封存伺服器和監控伺服器，您可以在遷移前端集區之後，將這些伺服器部署在商務用 Skype Server 2019 環境中。 不過，如果封存和監控功能對您的組織而言很重要，您應該在遷移之前，先在商務用 Skype Server 2019 試驗集區中新增封存和監控功能，以便在遷移程式期間使用該功能。 
   
-如果您想要在遷移期間進行封存與監控，請記住下列考慮事項：
+移轉過程中，如果您需要存封和監控功能，請記住以下注意事項：
   
-- 歸檔資料和監控資料不會移至商務用 Skype Server 2019 部署。 您在解除舊版環境之前備份的資料將是舊版環境中的活動歷程記錄。
+- 封存資料和監控資料不會移至商務用 Skype Server 2019 部署。 解除委任舊版環境之前所備份的資料，將是舊版環境中的活動歷史。
     
-- 舊版本的 [封存伺服器] 和 [監視伺服器] 只能與舊版的 [前端] 池相關聯。 在商務用 Skype Server 2019 中，[封存及監視] 不再是伺服器角色，但是整合到商務用 Skype Server 2019 前端的服務。
+- 舊版本的封存伺服器和監控伺服器只能與舊版前端集區相關聯。 在商務用 Skype Server 2019 中，封存與監控不再是伺服器角色，但已整合至商務用 Skype Server 2019 前端集區的服務。
     
-- 在舊版及商務用 Skype Server 2019 部署期間共存時，舊版的存檔伺服器與監視伺服器會針對駐留在舊版池中的使用者收集資料。 商務用 Skype Server 2019 中的 [封存與監控] 可收集駐留在商務用 Skype Server 2019 池的使用者資料。
+- 在舊版和商務用 Skype Server 2019 部署共存期間，舊版本的封存伺服器和監控伺服器會收集位於舊版集區上之使用者的資料。 商務用 Skype 2019 Server 中的封存與監控為位於商務用 Skype Server 2019 集區的使用者收集資料。
     
     > [!NOTE]
-    > 在遷移階段，當您仍將舊版 Edge 伺服器與新的商務用 Skype Server 2019 （試用版池）結合使用時，舊版本的封存伺服器會繼續收集駐留在舊版池中的使用者資料，並在商務用 Skype 中進行歸檔伺服器2019會收集駐留在商務用 Skype Server 2019 池的使用者資料。 
+    > 在遷移階段，當您仍然使用舊版 Edge server 搭配新的商務用 Skype Server 2019 試驗集區時，舊版本的封存伺服器會繼續收集位於舊版集區上的使用者資料，而在商務用 Skype 2019 Server 中封存，則會收集位於商務用 Skype Server 2019 集區之使用者的資料。 
   
-- 如果您在商務用 Skype Server 2019 的 [封存與監控] 中使用協力廠商的歸檔與監控解決方案，請諮詢您的供應商，以瞭解何時以及如何將協力廠商解決方案與商務用 Skype Server 2019 整合。
+- 如果您使用協力廠商封存與監控解決方案搭配商務用 Skype Server 2019 中的封存與監控，請洽詢廠商，以瞭解如何與商務用 Skype Server 2019 整合協力廠商解決方案。
     
 

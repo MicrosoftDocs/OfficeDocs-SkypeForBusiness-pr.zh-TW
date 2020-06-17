@@ -1,8 +1,8 @@
 ---
-title: 階段7完成遷移後的工作
+title: 階段7完成遷移後工作
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 本節中的主題描述完成您的商務用 Skype Server 2019 遷移之後，您需要執行的工作。
-ms.openlocfilehash: 72b89831f2b3e0811e4dce810ccad9f02e35424f
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 本節中的主題說明在完成遷移至商務用 Skype Server 2019 之後，需要執行的工作。
+ms.openlocfilehash: c0c5c73212ab6f5ecb85383032ea9bdc97703eee
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41813111"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44752295"
 ---
 # <a name="phase-7-complete-post-migration-tasks"></a>階段 7：完成移轉後的工作
 
-本節中的主題描述完成您的商務用 Skype Server 2019 遷移之後，您需要執行的工作。
+本節中的主題說明在完成遷移至商務用 Skype Server 2019 之後，需要執行的工作。
   
 ## <a name="in-this-section"></a>本節內容
 

@@ -1,8 +1,8 @@
 ---
-title: 階段1規劃您的遷移
+title: 階段1規劃遷移
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -10,23 +10,23 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 本節包含遷移到商務用 Skype Server 2019 的規劃主題。
-ms.openlocfilehash: 5bf8ad0ccd11ffff4a09b39cba05eff7b1559470
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 本節涵蓋遷移至商務用 Skype Server 2019 的規劃主題。
+ms.openlocfilehash: 312a8ef1dcf5beb1a0d23fe0df58a3916d66981f
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41813231"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44752455"
 ---
 # <a name="phase-1-plan-your-migration"></a>階段 1：規劃移轉
 
-本節包含遷移到商務用 Skype Server 2019 的規劃主題。 
+本節涵蓋遷移至商務用 Skype Server 2019 的規劃主題。 
   
 ## <a name="in-this-section"></a>本節內容
 
 - [使用者移轉](user-migration.md)
     
-- [遷移封存與監控伺服器](migrating-archiving-and-monitoring-servers.md)
+- [遷移封存和監控伺服器](migrating-archiving-and-monitoring-servers.md)
     
 - [在移轉後管理伺服器](administering-servers-after-migration.md)
     

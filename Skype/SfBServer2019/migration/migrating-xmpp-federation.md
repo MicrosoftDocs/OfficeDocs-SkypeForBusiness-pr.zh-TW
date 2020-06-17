@@ -1,8 +1,8 @@
 ---
 title: 移轉 XMPP 同盟
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -10,19 +10,19 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 先前的版本提供了可擴展的訊息和目前狀態通訊協定（XMPP）閘道，可將其部署為個別的伺服器角色，以允許與 XMPP 部署進行聯盟。 在商務用 Skype Server 2019 中，& 不贊成使用 XMPP 功能。 如果您想要繼續使用 XMPP 功能，可以使用舊版版本（商務用 Skype Server 2015/Lync Server 2013） availed 在 coexitence 環境中。 XMPP 功能安裝在兩個部分中：作為在舊版 Edge 伺服器上執行的 XMPP proxy，以及在舊版前端伺服器上執行的 XMPP 閘道。
-ms.openlocfilehash: d8640d90427d5d7ae9c19a092dc10f0d299ae2be
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 舊版本提供可延伸的訊息和顯示狀態通訊協定（XMPP）閘道，可以做為個別的伺服器角色部署，以允許與 XMPP 部署聯盟。 在商務用 Skype Server 2019 中 & 已過時，已不再提供 XMPP 功能。 如果您想要繼續使用 XMPP 功能，可在具有舊版版本的 coexitence 環境中 availed （商務用 Skype Server 2015/Lync Server 2013）。 XMPP 功能是以兩個部分安裝：作為執行于舊版 Edge Server 上的 XMPP proxy，以及舊版前端伺服器上執行的 XMPP 閘道。
+ms.openlocfilehash: 71b6c213450f51ea4b3fe1f351e22dbb992ce8ca
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41813431"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44752645"
 ---
 # <a name="migrating-xmpp-federation"></a>移轉 XMPP 同盟
 
-先前的版本提供了可擴展的訊息和目前狀態通訊協定（XMPP）閘道，可將其部署為個別的伺服器角色，以允許與 XMPP 部署進行聯盟。 XMPP 功能已不再提供，且在商務用 Skype Server 2019 中已過時。 如果您想要繼續使用 XMPP 功能，您可以在具有舊版環境（商務用 Skype Server 2015 或 Lync Server 2013）的共存環境中執行此動作。 XMPP 功能安裝在兩個部分中：作為在舊版 Edge 伺服器上執行的 XMPP proxy，以及在舊版前端伺服器上執行的 XMPP 閘道。 
+舊版本提供可延伸的訊息和顯示狀態通訊協定（XMPP）閘道，可以做為個別的伺服器角色部署，以允許與 XMPP 部署聯盟。 在商務用 Skype Server 2019 中不再提供 XMPP 功能且已被取代。 如果您想要繼續使用 XMPP 功能，您可以在具有舊版的共存環境（商務用 Skype Server 2015 或 Lync Server 2013）上進行。 XMPP 功能是以兩個部分安裝：作為執行于舊版 Edge Server 上的 XMPP proxy，以及舊版前端伺服器上執行的 XMPP 閘道。 
   
-從遷移的角度而言，想要使用 XMPP 功能的使用者應該保留在舊版伺服器中，而且不應該移至 [商務用 Skype Server 2019]，但仍需繼續使用舊版 XMPP 閘道。 只有在商務用 Skype Server 2015 或 Lync Server 2013 中設定 XMPP 聯盟夥伴時，才能這麼做。 如果您想要繼續使用 XMPP 功能，則不要將舊版 Edge 伺服器遷移到商務用 Skype Server 2019。 不過，您可以將舊版 Edge 伺服器（與 XMPP Proxy）與商務用 Skype 2019 Edge 伺服器共存。
+從遷移的角度來看，想要使用 XMPP 功能的使用者應該保留在舊版伺服器中，而且不應該移至商務用 Skype Server 2019 集區，但繼續使用舊版的 XMPP 閘道。 只有當 XMPP 同盟協力廠商在商務用 Skype Server 2015 或 Lync Server 2013 中設定時，才可以這麼做。 如果您想要繼續使用 XMPP 功能，請勿將舊版 Edge Server 遷移至商務用 Skype Server 2019。 不過，您可以使用舊版 Edge Server （搭配 XMPP Proxy）和商務用 Skype 2019 Edge Server 的共存。
   
 
     

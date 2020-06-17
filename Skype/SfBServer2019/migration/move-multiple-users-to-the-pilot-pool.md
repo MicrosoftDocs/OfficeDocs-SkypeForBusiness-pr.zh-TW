@@ -1,8 +1,8 @@
 ---
-title: 將多個使用者移至 [試驗] 池
+title: 將多個使用者移至試驗集區
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -10,54 +10,54 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 您可以使用商務用 Skype Server 2019 控制台或商務用 Skype Server 2019 管理命令介面，從舊版池中將多個使用者移至您的商務用 skype Server 2019 試用版。
-ms.openlocfilehash: 62cf398a55be9c17526e8d607642db236ae57a3f
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 您可以使用商務用 Skype Server 2019 控制台或商務用 Skype Server 2019 管理命令介面，將舊版集區中的多個使用者移至您的商務用 skype Server 2019 試驗集區。
+ms.openlocfilehash: d1b003c5630a0917fbecbd9b04196675657fef83
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41813271"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44753425"
 ---
-# <a name="move-multiple-users-to-the-pilot-pool"></a>將多個使用者移至 [試驗] 池
+# <a name="move-multiple-users-to-the-pilot-pool"></a>將多個使用者移至試驗集區
 
-您可以使用商務用 Skype Server 2019 控制台或商務用 Skype Server 2019 管理命令介面，從舊版池中將多個使用者移至您的商務用 skype Server 2019 試用版。
+您可以使用商務用 Skype Server 2019 控制台或商務用 Skype Server 2019 管理命令介面，將舊版集區中的多個使用者移至您的商務用 skype Server 2019 試驗集區。
 
- **本文內容**
+ **In this article**
   
-[使用商務用 Skype Server 2019 的 [控制台] 移動多個使用者](#sectionSection0)
+[使用商務用 Skype Server 2019 控制台移動多位使用者](#sectionSection0)
   
-[使用商務用 Skype Server 2019 管理命令介面來移動多位使用者](#sectionSection1)
+[使用商務用 Skype Server 2019 管理命令介面移動多位使用者](#sectionSection1)
   
-[使用商務用 Skype Server 2019 管理命令介面，同時移動所有使用者](#sectionSection2)
+[使用商務用 Skype Server 2019 管理命令介面同時移動所有使用者](#sectionSection2)
   
   
-## <a name="to-move-multiple-users-by-using-the-skype-for-business-server-2019-control-panel"></a>使用商務用 Skype Server 2019 的 [控制台] 移動多個使用者
+## <a name="to-move-multiple-users-by-using-the-skype-for-business-server-2019-control-panel"></a>使用商務用 Skype Server 2019 控制台移動多位使用者
 <a name="sectionSection0"> </a>
 
-1. 開啟商務用 Skype Server 的 [控制台]。
+1. 開啟商務用 Skype Server 控制台。
     
 2. 按一下 [**使用者**]，按一下 [**搜尋**]，然後按一下 [**尋找**]。
     
-3. 選取兩個您要移至商務用 Skype Server 2019 池的使用者。 在這個範例中，我們會將使用者唐到 [陽入] 和 [Claus Hansen]。
+3. 選取兩個要移至商務用 Skype Server 2019 集區的使用者。 在此範例中，我們會將使用者移 Chen 陽和聖誕老人聖誕 Hansen。
     
-     ![將使用者移至特定登錄器集區](../media/Migration_LyncServer_CPanel_fromLyncServer2010_MoveMultipleUsersList.JPG)
+     ![將使用者移至特定的註冊集區](../media/Migration_LyncServer_CPanel_fromLyncServer2010_MoveMultipleUsersList.JPG)
   
-4. 從 [**動作**] 功能表中，選取 [**將選取的使用者移至資源庫**]。
+4. 從 [**動作**] 功能表中，選取 [**將選取的使用者移至集**區]。
     
-5. 從下拉式清單中，選取 [商務用 Skype Server 2019] 池。
+5. 從下拉式清單中，選取商務用 Skype Server 2019 集區。
     
-6. 按一下 [**動作**]，然後按一下 [**將選取的使用者移至資源庫**]。 按一下 [確定]****。
+6. 按一下 [動作]****，然後按一下 [將選取的使用者移至集區]****。 按一下 [確定]****。
     
-     ![移動使用者，[目的地登錄器集區] 對話方塊](../media/Migration_LyncServer_from_LyncServer2010_CPanelMoveUserSelectPoolDialog.png)
+     ![移動使用者、目的地註冊集區] 對話方塊](../media/Migration_LyncServer_from_LyncServer2010_CPanelMoveUserSelectPoolDialog.png)
   
-7. 確認使用者的 [**註冊機構池**] 欄現在包含商務用 Skype Server 2019 pool，這表示使用者已順利移動。 
+7. 確認使用者的 [**報名者集**區] 欄現在包含商務用 Skype Server 2019 集區，表示使用者已順利移動。 
     
-## <a name="to-move-multiple-users-by-using-the-skype-for-business-server-2019-management-shell"></a>使用商務用 Skype Server 2019 管理命令介面來移動多位使用者
+## <a name="to-move-multiple-users-by-using-the-skype-for-business-server-2019-management-shell"></a>使用商務用 Skype Server 2019 管理命令介面移動多位使用者
 <a name="sectionSection1"> </a>
 
 1. 開啟商務用 Skype Server 2019 管理命令介面。 
     
-2. 在命令列中，輸入下列內容，並將 [ **User1** **] 和 [** 使用者 2] 替換為您想要移動的特定使用者名稱，然後將**pool_FQDN**取代為目的地池的名稱。 在這個範例中，我們會將使用者 Hao 唐和她約旦。 
+2. 在命令列中輸入下列命令，並將**User1**和**使用者2取代為您**想要移動的特定使用者名稱，然後將**pool_FQDN**取代為目的地集區的名稱。 在此範例中，我們會移動使用者 Hao Chen 和 Katie 約旦。 
     
    ```PowerShell
    Get-CsUser -Filter {DisplayName -eq "User1" -or DisplayName - eq "User2"} | Move-CsUser -Target "pool_FQDN"
@@ -65,41 +65,41 @@ ms.locfileid: "41813271"
 
     ![PowerShell Get-CsUser Cmdlet 的範例](../media/Migration_LyncServer_from_LyncServer2010_move2users.jpg)
   
-3. 在命令列中，輸入下列內容： 
+3. 在命令列輸入下列命令： 
     
    ```PowerShell
    Get-CsUser -Identity "User1"
    ```
 
-4. **註冊機構池**標識現在應該指向您在上一個步驟中指定為**pool_FQDN**的池。 此身分識別的狀態會確認使用者已順利移動。 重複步驟，**確認已移動到您的操作**者。 
+4. **註冊機構集**區的身分識別現在應該指向您在上一個步驟中**pool_FQDN**指定的集區。 這個身分識別的出現表示已成功移動使用者。 重複步驟以驗證使用者**2 是否已**移動。 
     
-     ![PowerShell Get-UsUser -Identity Cmdlet 的輸出](../media/Migration_LyncServer_from_LyncServer2010_showuser.jpg)
+     ![PowerShell Get-UsUser 識別指令程式的輸出](../media/Migration_LyncServer_from_LyncServer2010_showuser.jpg)
   
-## <a name="to-move-all-users-at-the-same-time-by-using-the-skype-for-business-server-2019-management-shell"></a>使用商務用 Skype Server 2019 管理命令介面，同時移動所有使用者
+## <a name="to-move-all-users-at-the-same-time-by-using-the-skype-for-business-server-2019-management-shell"></a>使用商務用 Skype Server 2019 管理命令介面同時移動所有使用者
 <a name="sectionSection2"> </a>
 
-在這個範例中，所有使用者都已回到舊版資源（pool01.contoso.net）。 使用商務用 Skype Server 2019 管理命令介面，我們會同時將所有使用者移至商務用 Skype Server 2019 （pool02.contoso.net）。
+在此範例中，所有使用者都已傳回舊版集區（pool01.contoso.net）。 使用商務用 Skype Server 2019 管理命令介面，我們會同時將所有使用者同時移至商務用 Skype Server 2019 集區（pool02.contoso.net）。
   
 1. 開啟商務用 Skype Server 2019 管理命令介面。
     
-2. 在命令列中，輸入下列內容： 
+2. 在命令列輸入下列命令： 
     
    ```PowerShell
    Get-CsUser -OnLyncServer | Move-CsUser -Target "pool_FQDN"
    ```
 
-     ![管理命令介面中的 PowerShell Cmdlet 與結果](../media/Migration_LyncServer_CPanel_fromLyncServer2010_Move-CSUserMultipleAll.png)
+     ![在管理命令介面中 PowerShell Cmdlet 及結果](../media/Migration_LyncServer_CPanel_fromLyncServer2010_Move-CSUserMultipleAll.png)
   
-3. 針對其中一個試驗使用者執行**move-csuser** 。 
+3. 針對其中一位試驗使用者執行**Get-CsUser** 。 
     
    ```PowerShell
    Get-CsUser -Identity "Hao Chen"
    ```
 
-4. 每個使用者的**註冊機構池**標識現在會指向您在上一個步驟中指定為**pool_FQDN**的池。 此身分識別的狀態會確認使用者已順利移動。 
+4. 每個使用者的**註冊區集**區身分識別會指向您在上一個步驟中 pool_FQDN 指定為**pool_FQDN**的集區。 這個身分識別的出現表示已成功移動使用者。 
     
-5. 此外，我們還可以在商務用 Skype Server 2019 的 [控制台] 中查看使用者清單，並確認 [註冊機構] 池值現在會指向 [商務用 Skype Server 2019] 池。
+5. 此外，我們可以在商務用 Skype Server 2019 控制台中查看使用者清單，並確認註冊機構集區值現在是否指向商務用 Skype Server 2019 集區。
     
-     ![商務用 Skype Server 2019 的 [控制台] 使用者清單](../media/Migration_LyncServer_CPanel_fromLyncServer2010_Move-CSUserVerifyHao.JPG)
+     ![商務用 Skype Server 2019 控制台使用者清單](../media/Migration_LyncServer_CPanel_fromLyncServer2010_Move-CSUserVerifyHao.JPG)
   
 

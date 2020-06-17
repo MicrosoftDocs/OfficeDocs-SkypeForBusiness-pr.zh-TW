@@ -1,8 +1,8 @@
 ---
-title: 階段6從試驗部署移至生產環境
+title: 階段6從試驗部署移至實際執行環境
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 本節中的主題描述您必須完成的工作，才能將商務用 Skype Server 2019 部署從試驗部署移至生產層級部署。
-ms.openlocfilehash: ddd83f382354273faed55769e15e12db0538d66a
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 本節中的主題說明將商務用 Skype Server 2019 的部署從試驗部署移至實際執行層級部署之前，必須完成的工作。
+ms.openlocfilehash: 2af1d78d866a935a975b3baa520f54fc780b0922
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41813131"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44752485"
 ---
 # <a name="phase-6-move-from-pilot-deployment-into-production"></a>階段 6：從試驗部署移至生產
 
-本節中的主題描述您必須完成的工作，才能將商務用 Skype Server 2019 部署從試驗部署移至生產層級部署。
+本節中的主題說明將商務用 Skype Server 2019 的部署從試驗部署移至實際執行層級部署之前，必須先完成的工作。
   
 ## <a name="in-this-section"></a>本節內容
 

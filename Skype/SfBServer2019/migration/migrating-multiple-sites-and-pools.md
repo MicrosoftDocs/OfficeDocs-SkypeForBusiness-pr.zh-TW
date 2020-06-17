@@ -1,8 +1,8 @@
 ---
 title: 移轉多個網站與集區
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -10,30 +10,30 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 商務用 Skype Server 2019 支援多網站和多池部署。 將多個池遷移到商務用 Skype Server 2019 的程式需要下列考慮：
-ms.openlocfilehash: d1257590c431bc15aad4db03908aa6d95fd5fce3
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 商務用 Skype Server 2019 支援多個網站和多個集區的部署。 將多個集區遷移至商務用 Skype Server 2019 的程式需要下列考慮：
+ms.openlocfilehash: 4906b05138d546e685a06acecc4f7adc4e88516e
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41813441"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44752655"
 ---
 # <a name="migrating-multiple-sites-and-pools"></a>移轉多個網站與集區
 
-商務用 Skype Server 2019 支援多網站和多池部署。 將多個池遷移到商務用 Skype Server 2019 的程式需要下列考慮： 
+商務用 Skype Server 2019 支援多個網站和多個集區的部署。 將多個集區遷移至商務用 Skype Server 2019 的程式需要下列考慮： 
   
-1. 在部署商務用 Skype Server 2019 試生產池之後，您必須定義將移至商務用 Skype Server 2019 池的試驗使用者子集，以及驗證使用者功能的方法。 例如，將使用者移至 [試驗] 池之後，請確認使用者的會議原則已移至 [商務用 Skype Server 2019]。 
+1. 部署商務用 Skype Server 2019 試驗集區之後，您必須定義將要移至商務用 Skype Server 2019 集區的試驗使用者子集，以及驗證使用者功能的方法。 例如，將使用者移至試驗集區後，請確認使用者的會議原則已移至商務用 Skype Server 2019。 
     
-2. 在試驗池中部署邊緣伺服器之後，您必須確認外部使用者可以與商務用 Skype Server 2019 池通訊。
+2. 在試驗集區中部署 Edge Server 之後，您需要驗證外部使用者是否可以與商務用 Skype Server 2019 集區通訊。
 
-3. 在商務用 Skype server 2019 中，持續式聊天、SQL 鏡像及 XMPP 功能已棄用，且不再以商務用 Skype Server 2019 功能提供，但在共存環境中，如果它們先前部署在舊版環境。 如果您想要繼續使用這些功能，您應該規劃繼續共存環境，讓特定使用者保留在舊版池中。
+3. 在商務用 Skype Server 2019 中已被取代，且無法再以商務用 Skype Server 2019 的功能使用，但仍可在共存環境中使用，但如果這些功能先前是部署于舊版環境中，則可繼續進行。 如果您想要繼續使用這些功能，您應該計畫繼續共存環境，而某些使用者仍會保留在舊版集區中。
     
-4. 將同盟路由的邊緣伺服器轉換為試點商務用 Skype Server 2019 Edge 伺服器之後，您必須確認聯盟使用者可以與商務用 Skype Server 2019 池通訊。
+4. 將同盟路由的 Edge server 轉換至試驗商務用 Skype Server 2019 Edge server 之後，您需要驗證同盟使用者是否可以與商務用 Skype Server 2019 集區通訊。
     
-5. 移動所有使用者和非使用者連絡人物件之後，您必須驗證舊版池是否為空白。
+5. 移動所有使用者與非使用者的連絡人物件之後，您必須驗證舊版集區是否為空。
     
-6. 在驗證舊版池為空白之後，您可以將該池停用。 
+6. 驗證舊版集區是空的之後，即可停用該集區。 
     
-    如需如何停用舊版池和伺服器的詳細資料，請參閱[階段8：解除舊版池](phase-8-decommission-legacy-pools.md)。
+    如需如何停用舊版集區和伺服器的詳細資訊，請參閱[階段8：解除委任舊版](phase-8-decommission-legacy-pools.md)集區。
     
 

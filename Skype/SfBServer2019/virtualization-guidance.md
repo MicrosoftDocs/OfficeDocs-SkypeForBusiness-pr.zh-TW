@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 摘要：瞭解商務用 Skype Server 2019 的虛擬化支援。
-ms.openlocfilehash: a01f529d80e84df3f7ca844696738b079f78df26
-ms.sourcegitcommit: f9db7effbb1e56484686afe4724cc3b73380166d
+ms.openlocfilehash: b4524b1284a85e7ab372b415d45c2005f8212887
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "44565952"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755807"
 ---
 # <a name="virtualization-support-for-skype-for-business-server-2019"></a>商務用 Skype Server 2019 的虛擬化支援
 
@@ -42,3 +42,13 @@ Windows Server 2016 和 Windows Server 2019 支援 SfB Server 2019。
 
 - 請參閱 SVVP 清單中的[Windows Server 2016 版本](https://www.windowsservercatalog.com/results.aspx?&bCatID=1521&cpID=0&avc=86&ava=88&avt=0&avq=0&OR=1&PGS=25)。
 - 請參閱 SVVP 清單中的[Windows Server 2019 版本](https://www.windowsservercatalog.com/results.aspx?&bCatID=1521&cpID=0&avc=86&ava=130&avt=0&avq=0&OR=1&PGS=25)。
+
+## <a name="stress-and-performance-tool"></a>壓力和效能工具
+
+商務用 Skype Server 2019 應力和效能工具組含的工具可簡化商務用 Skype Server 2019 的容量規劃。 商務用 Skype Server 2019 應力和效能工具可協助您：
+
+- 簡化您的商務用 Skype Server 2019 的硬體規劃
+- 為您提供更多有關效能調整的知識和最佳作法
+- 衡量預定商務用 Skype Server 2019 部署的效能
+ 
+您可以從[這裡](https://www.microsoft.com/download/details.aspx?id=101447)下載工具。

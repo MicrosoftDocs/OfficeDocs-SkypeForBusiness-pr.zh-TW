@@ -1,8 +1,8 @@
 ---
-title: 移動剩餘使用者
+title: 移動剩餘的使用者
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -10,36 +10,36 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 您可以使用商務用 Skype Server 的 [控制台] 或 [商務用 Skype Server 管理] 命令介面，將使用者移至新的商務用 Skype Server 2019 部署。 您必須符合一些需求，才能確保順利轉換至商務用 Skype Server 2019。 如需有關完成本主題中程式的先決條件的詳細資訊，請參閱設定要遷移的用戶端。 如需有關移動使用者的詳細步驟，請參閱階段4：將測試使用者移至試驗池。
-ms.openlocfilehash: ac384e9f9e4aaaa534f5b646f1d847485dbb4c23
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 您可以使用商務用 Skype Server 控制台或商務用 Skype Server 管理命令介面，將使用者移至新的商務用 Skype Server 2019 部署。 您必須符合某些需求，以確保順利轉換為商務用 Skype Server 2019。 如需完成本主題中程式之必要條件的詳細資訊，請參閱設定用戶端進行遷移。 如需移動使用者的詳細步驟，請參閱第4階段：將測試使用者移至試驗集區。
+ms.openlocfilehash: 0c4135ed8c3eaae25e57e6af1c67a18eb933b190
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41813261"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44753711"
 ---
 # <a name="move-remaining-users-to-skype-for-business-server-2019"></a>將剩餘的使用者移至商務用 Skype Server 2019
 
-您可以使用商務用 Skype Server 的 [控制台] 或 [商務用 Skype Server 管理] 命令介面，將使用者移至新的商務用 Skype Server 2019 部署。 您必須符合一些需求，才能確保順利轉換至商務用 Skype Server 2019。 如需有關完成本主題中程式的先決條件的詳細資訊，請參閱[設定要遷移的用戶端](configure-clients-for-migration.md)。 如需有關移動使用者的詳細步驟，請參閱[階段4：將測試使用者移至試驗池](phase-4-move-test-users-to-the-pilot-pool.md)。
+您可以使用商務用 Skype Server 控制台或商務用 Skype Server 管理命令介面，將使用者移至新的商務用 Skype Server 2019 部署。 您必須符合某些需求，以確保順利轉換為商務用 Skype Server 2019。 如需完成本主題中程式之必要條件的詳細資訊，請參閱[設定用戶端進行遷移](configure-clients-for-migration.md)。 如需移動使用者的詳細步驟，請參閱[第4階段：將測試使用者移至試驗集](phase-4-move-test-users-to-the-pilot-pool.md)區。
   
 > [!IMPORTANT]
-> 您無法使用 Active Directory 使用者和電腦管理單元或舊版管理工具，將使用者從舊版環境移至商務用 Skype Server 2019。 
+> 您無法使用 Active Directory 使用者及電腦嵌入式管理單元或舊版系統管理工具，將使用者從舊版環境移至商務用 Skype Server 2019。 
   
-當您將使用者移至商務用 Skype Server 2019 文件庫時，該使用者的資料會移至與新的資料庫池相關聯的後端資料庫。 
+當您將使用者移至商務用 Skype Server 2019 集區時，使用者的資料會移至與新集區相關聯的後端資料庫。 
   
 > [!IMPORTANT]
-> 這包括舊版使用者建立的作用中會議。 例如，如果舊版使用者已設定「我的**會議**會議，則在使用者移動之後，新的商務用 Skype Server 2019 池中仍會提供該會議。 存取該會議的詳細資料仍會是相同的**會議 URL 與會議 ID**。 唯一的差異是，會議現在是託管在商務用 Skype Server 2019 池中，而不是在舊版池中。 
+> 這包括由舊使用者所建立之作用中的會議。 例如，如果舊版使用者已設定「我的**會議**會議」，該會議在使用者移動之後仍會在新的商務用 Skype Server 2019 集區中提供。 存取該會議的詳細資料仍為相同的 **[會議 URL 及會議 ID]**。 唯一不同之處在于，會議現在是在商務用 Skype Server 2019 集區，而不是在舊版集區中主控。 
   
 > [!NOTE]
-> 在商務用 Skype Server 2019 上託管使用者，不需要您同時部署已升級的用戶端。 只有在使用者升級至新的用戶端軟體時，才能使用新的功能。 
+> 在商務用 Skype Server 2019 上的使用者，不需要同時部署已升級的用戶端。 只有當使用者已升級為新的用戶端軟體時，才可使用新功能。 
   
-### <a name="post-migration-task"></a>遷移後任務
+### <a name="post-migration-task"></a>遷移後工作
 
-1. 在您移動使用者之後，請確認指派給他們的會議原則。 
+1. 一旦移除使用者之後，請驗證指派給他們的會議原則。 
     
-2. 若要確保由2019駐留在舊版安裝中的使用者所組織的會議能與駐留在舊版安裝的聯盟使用者順暢運作，指派給已遷移使用者的會議原則應該允許匿名參與者。
+2. 為了確保由位於商務用 Skype Server 2019 的使用者所組織的會議可與以舊版安裝的同盟使用者順利運作，指派給已遷移使用者的會議原則應該允許匿名參與者。
     
-3. 允許匿名參與者的會議原則**允許參與者邀請**在商務用 skype server 2019 [控制台] 中選取的匿名使用者，並且在商務用 Skype Server 管理命令介面的 [ **CsConferencingPolicy** ] Cmdlet 的輸出中，將**AllowAnonymousParticipantsInMeetings**設為**True** 。 
+3. 允許匿名參與者的會議原則**可讓參與者邀請**商務用 skype Server 2019 控制台中所選取的匿名使用者，而且**AllowAnonymousParticipantsInMeetings**在商務用 skype server 管理命令介面中從**Get-CsConferencingPolicy**指令程式的輸出中，設定為**True** 。 
     
 <!-- 4. For details about configuring conferencing policy by using Skype for Business Server Management Shell, see 
  [Set-CsConferencingPolicy](../../lync-server-management-shell/lync-server-2013-cmdlets-by-category/set-csconferencingpolicy.md) in the Skype for Business Server Management Shell documentation.  -->
